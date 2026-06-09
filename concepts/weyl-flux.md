@@ -80,11 +80,47 @@ Flux is therefore a test of whether the system can:
 
 ## Current best placement
 Current best placement is:
+- on the dynamic geometry/manifold layer, below axes/readouts
 - later than local geometry
 - later than local Weyl extraction
 - later than local Pauli/operator admission
 - likely after at least some coexistence of manifold layers
 - still pre-axis only if a derived candidate survives the required dependency and negative chain
+
+2026-06-09 owner correction: flux should not be treated as `Axis 3` itself. Axis 3 may read loop/transport orientation, but flux is a geometry/current candidate on the dynamic constraint manifold. The manifold should not be framed as static: it expands, compresses, folds, warps, and reindexes; flux belongs to that dynamic geometry if it survives.
+
+2026-06-09 curvature-member test in flight:
+
+```text
+/Users/joshuaeisenhart/Codex-Ratchet/system_v6/sims/flux_emergence_discriminator/
+```
+
+This bounded packet tests the Hopf-curvature member of the flux candidate family:
+
+```math
+A = d\phi + \cos(2\eta)d\chi
+```
+
+```math
+F=dA=-2\sin(2\eta)d\eta\wedge d\chi
+```
+
+Working implication: within one fixed torus shell (`eta` constant), the curvature restricts away; one shell gives holonomy, not flux. Flux needs inter-shell/nested-Hopf structure:
+
+```math
+\Phi(\eta_1,\eta_2)=2\pi(\cos 2\eta_1-\cos 2\eta_2)
+```
+
+Expected ablations for that candidate:
+
+```text
+bare spinor: no bundle / no connection -> no F
+single shell: holonomy exists, flux absent/undefined
+nested shells: inter-shell flux exists
+ratchet scramble: pairwise flux pattern order-sensitive; total Chern invariant order-indifferent
+```
+
+Ceiling: this tests only the curvature member's emergence conditions. Flux remains an open candidate family until the result/audit lands and until other current candidates are compared.
 
 Repo-current status translation:
 - treat flux as `candidate-family` language, not a normalized local lego

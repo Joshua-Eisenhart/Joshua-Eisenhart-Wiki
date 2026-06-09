@@ -19,8 +19,32 @@ count-bearing status belongs in the repo/spec mirrors; this page preserves the
 earned/open/killed language as historical support without pretending the open
 bridge and cut problems are already solved.
 
-## Current v5 pointer
-For current evidence and validator state, use [[specs/codex-ratchet/sim-estate-integration-status]] and [[specs/codex-ratchet/formal-scout-readiness-status]].
+## Current v5/v6 pointer
+For older v5 evidence and validator state, use [[specs/codex-ratchet/sim-estate-integration-status]] and [[specs/codex-ratchet/formal-scout-readiness-status]].
+
+2026-06-09 v6 terrain hardening update:
+
+```text
+/Users/joshuaeisenhart/Codex-Ratchet/system_v6/sims/terrain_generator_sheet_packet/results/terrain_generator_sheet_packet_envelope_results.json
+```
+
+reports `all_pass=true`, `classification=scratch_diagnostic`, and an Axis0 sign-pattern test. The family-level owner doctrine:
+
+```text
+Ne/Ni = positive feedback / allostasis
+Se/Si = negative feedback / homeostasis
+```
+
+is matched under the **Pauli participation ratio** perturbation-spread functional:
+
+```text
+Ne: +
+Ni: +
+Se: -
+Si: -
+```
+
+Do not overstate this as all entropy/norm measures. The same result reports that `trace_norm` and `observable_spread_entropy` do not realize the doctrine pattern. Current safe statement: Axis0 polarity is supported as a diversity/participation readout in this terrain packet, not as final Axis0 closure.
 
 The latest mirrored v5 sim-estate status keeps Axis0 `open_partial`, not solved.
 

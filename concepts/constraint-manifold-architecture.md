@@ -35,7 +35,23 @@ C = {
 }
 ```
 
-`M(C)` is the finite admissibility space. It is not automatically a smooth manifold, a spacetime manifold, a carrier geometry, a QIT engine, or a physics bridge.
+`M(C)` is the finite admissibility process/space. It is not automatically a smooth manifold, a spacetime manifold, a carrier geometry, a QIT engine, or a physics bridge.
+
+2026-06-09 owner correction: do not frame the manifold as static. Use dynamic notation when the update process matters:
+
+```text
+M(C,t) = dynamic finite constraint manifold / admissibility-compression dynamics
+```
+
+The manifold is not a container. It is the active compression/expansion/warping process by which possible distinctions become finite, probe-relative structure. It can:
+
+- compress many possible distinctions into fewer admissible/readable states;
+- expand latent distinctions under probe/update;
+- warp metric/adjacency/order relations under feedback or field state;
+- fold distant regions together by quotient/identification;
+- reindex the same local pattern under changed chart/probe.
+
+The ring-checkerboard visualizes finite surfaces of this dynamic process as flat board, curved board, sphere, nested rings, and ring-on-ring recursion. Axis0 reads feedback polarity on this dynamic support; it does not make the manifold static.
 
 ## Decisive Separation
 

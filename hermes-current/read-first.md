@@ -69,5 +69,6 @@ Related notes:
 - [[current-vs-legacy]]
 - [[skills-and-agent-rules]]
 - [[hermes-memory-offload]]
+- [[capture-2026-06-09-two-engine-axis0-flux-wiki-sync]]
 
 Write mode: human-owned / controller-maintained with care.
