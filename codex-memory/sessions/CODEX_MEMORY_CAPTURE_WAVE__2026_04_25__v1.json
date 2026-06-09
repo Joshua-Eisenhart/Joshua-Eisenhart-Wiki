@@ -1,0 +1,84 @@
+{
+  "artifact_type": "worker_wave_receipt",
+  "runtime_owner": "codex",
+  "created_date": "2026-04-25",
+  "status": "captured",
+  "canonicality": "session_receipt_not_project_canon",
+  "purpose": "Record the actual memory-capture/audit/structure worker wave that ran during Codex wiki memory repair.",
+  "wave": {
+    "name": "codex_memory_capture_wave_2026_04_25",
+    "trigger": "User corrected Codex for losing high-value context and rejected A2 state as Codex memory.",
+    "lanes": [
+      {
+        "lane": "memory_capture",
+        "worker_id": "019dc3ab-f671-7f82-9a7b-908c60e9d84d",
+        "status": "spawned_completed",
+        "checked": [
+          "Current thread instructions",
+          "No file edits",
+          "No A2 state used as Codex memory"
+        ],
+        "concluded": [
+          "Save user feedback, user ideas, and strong LLM outputs outside transient chat.",
+          "Codex needs its own independent context-saving surface.",
+          "Wiki should be shared reservoir without erasing source ownership.",
+          "Preserve user ideas separately from LLM suggestions."
+        ],
+        "open": [
+          "Worker reported exact target path as uncertain, but controller resolved this from user correction to /Users/joshuaeisenhart/wiki/codex-memory."
+        ]
+      },
+      {
+        "lane": "memory_audit",
+        "worker_id": "019dc3ac-04e4-7830-8a32-94f7c33bf074",
+        "status": "spawned_completed",
+        "checked": [
+          "A2 operation specs and A2 memory surfaces",
+          "A2 memory admission guard",
+          "A2 brain refresh dry-run",
+          "LLM council operator implementation"
+        ],
+        "concluded": [
+          "A2 misuse risk is real and must stay explicit.",
+          "Existing llm_council_operator appears heuristic/local and should not be treated as true worker plurality.",
+          "Memory admission guard language already supports provenance/canonicality separation.",
+          "Codex wiki memory should stay noncanon and provenance-marked until any later admission step."
+        ],
+        "open": [
+          "Resolve v3/v4 A2 authority split separately.",
+          "Define separate schema fields for council, voice, worker, tool, and controller."
+        ]
+      },
+      {
+        "lane": "memory_structure",
+        "worker_id": "019dc3ac-1cdc-7b51-b98f-86b3993b5b36",
+        "status": "spawned_completed",
+        "checked": [
+          "JSON preferred over Markdown",
+          "Runtime separation",
+          "User feedback preservation",
+          "55-item source-list preservation"
+        ],
+        "concluded": [
+          "Use append-friendly JSON packets.",
+          "Separate user_feedback, user_ideas, llm_outputs, source_fields, corrections, claims, next_action_gates, provenance, and audit.",
+          "Keep captured separate from admitted."
+        ],
+        "open": [
+          "Exact nested schema can evolve after retrieval/index needs are clearer."
+        ]
+      }
+    ]
+  },
+  "controller_resolution": [
+    "Codex memory target is /Users/joshuaeisenhart/wiki/codex-memory.",
+    "A2 state is forbidden for Codex general memory.",
+    "The broader conversation packet and source-field packet are context memory, not canon.",
+    "The worker wave was real and receipted; it should not be represented as a simulated council result."
+  ],
+  "follow_up_gates": [
+    "If this receipt informs future doctrine, promote only through an explicit doctrine/admission packet.",
+    "If future council code is used, verify whether it spawned real workers or ran local heuristic scoring.",
+    "Before returning to sims, retrieve both Codex context packets and this wave receipt."
+  ]
+}

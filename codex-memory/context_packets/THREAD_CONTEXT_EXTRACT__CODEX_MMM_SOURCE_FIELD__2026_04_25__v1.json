@@ -1,0 +1,192 @@
+{
+  "artifact_type": "thread_context_extract",
+  "runtime_owner": "codex",
+  "created_date": "2026-04-25",
+  "status": "wiki_codex_memory_context_packet",
+  "canonicality": "provisional_context_memory_not_canon",
+  "purpose": "Preserve user feedback, useful LLM outputs, and the corrected MMM source-field context so future Codex work does not lose the larger plan.",
+  "runtime_separation": {
+    "codex": "Owns this wiki/codex-memory packet. Do not store Codex memory under A2 state.",
+    "claude": "Independent runtime with its own context surfaces; do not mix files.",
+    "hermes": "Independent runtime with its own context surfaces; do not mix files.",
+    "wiki_harness": "Shared language reservoir and upstream context source, not a place to overwrite runtime-specific control law without an explicit admission step."
+  },
+  "core_corrections_to_preserve": [
+    {
+      "topic": "Council role",
+      "correction": "Council does not need perfect tuning now. It should run as a lightweight voice/check and improve opportunistically while other work proceeds.",
+      "operating_rule": "Council may push back, preserve divergence, or audit a packet, but it must not become the controller, worker pool, tool runner, or main project."
+    },
+    {
+      "topic": "Feedback handling",
+      "correction": "User feedback is tuning input for the larger project, not the whole prompt object. Use feedback to improve the next concrete work packet."
+    },
+    {
+      "topic": "Subagent waves",
+      "correction": "Do not fixate on the concurrent cap. Run rolling waves, close workers, and launch the next wave. Track spawned/blocked/deferred truth without making the number the objective."
+    },
+    {
+      "topic": "MMM purpose",
+      "correction": "MMMs are not the research target. They stabilize high-entropy worker reasoning so A1/A2/B/SIM work produces better admissibility judgments, blocker clarity, and sim questions."
+    },
+    {
+      "topic": "Return to sims",
+      "correction": "Once MMMs are stable enough to protect sim work from collapse, return directly to sims. MMM work must not become a permanent side project."
+    },
+    {
+      "topic": "Source-field center",
+      "correction": "The 55-item list is the MMM source field. Mach, Faraday, and later Wittgenstein are examples inside the larger field, not the center."
+    },
+    {
+      "topic": "Vocabulary versus rules",
+      "correction": "MMM dictionaries are aligned language reservoirs, not rule lists and not banned-word lists."
+    },
+    {
+      "topic": "Kant handling",
+      "correction": "Kant is a major constrained or contrast source. The user sees Kant as co-opting empiricist language while preserving rationalist commitments and suppressing Hume's deeper critique. Do not let Kant become a hidden organizing center."
+    },
+    {
+      "topic": "A2 state misuse correction",
+      "correction": "Do not use system_v4/a2_state or A2 state as Codex general memory. A2 state is project/runtime state, not Codex private external memory.",
+      "operating_rule": "Codex memory belongs in /Users/joshuaeisenhart/wiki/codex-memory unless a later explicit admission step routes a specific fact into project state."
+    },
+    {
+      "topic": "55-item list status",
+      "correction": "The 55-item source list is not canon. It was made by Codex and can be improved. Treat it as a provisional source-field scaffold.",
+      "operating_rule": "Preserve the list and provenance, but do not freeze it. New aligned people/schools can be added; weak or misleading items can be constrained or demoted."
+    }
+  ],
+  "mmm_why": {
+    "short_version": "MMMs are mini mimetic-meme-manifold language bodies that shape worker salience before task cards so lanes do not collapse into the controller's default story.",
+    "project_function": [
+      "Improve upstream proposal language before A1/A2/B/SIM work.",
+      "Make evidence, admissibility, witness, passenger, residue, blocker, survived, killed, and open distinctions easier to produce correctly.",
+      "Reduce fake promotion, role collapse, and vague narrative closure.",
+      "Produce better bounded sim questions: what survives, what fails, what evidence is missing, and what promotion is blocked."
+    ],
+    "stop_gate": [
+      "Core lane bodies produce non-duplicated packets.",
+      "Each packet ends in a concrete sim or queue action, or an explicit park reason.",
+      "Audit catches status inflation in at least one test case.",
+      "The next three real tasks are sim-side tasks.",
+      "If two consecutive MMM waves produce mainly formatting, voice polish, or prompt-law edits without better A1 admissibility, sim question selection, or blocker clarity, pause MMM expansion and return to sims."
+    ]
+  },
+  "mmm_source_field_55": {
+    "core_spine": [
+      "1. Constraint engineering",
+      "2. Empiricism",
+      "3. Nominalism",
+      "4. Operationalism",
+      "5. Fallibilism",
+      "6. Critical rationalism",
+      "7. Systems thinking",
+      "8. Cybernetics",
+      "9. Process thinking",
+      "10. Pragmatism"
+    ],
+    "scientific_and_technical_fields": [
+      "11. Information theory",
+      "12. Statistical thinking",
+      "13. Bayesian updating, used carefully",
+      "14. Control theory",
+      "15. Dynamical systems",
+      "16. Complexity theory",
+      "17. Measurement theory",
+      "18. Model checking / formal methods",
+      "19. Constraint satisfaction / SAT-UNSAT thinking",
+      "20. Experimental design"
+    ],
+    "philosophy_and_method": [
+      "21. Humean empiricism",
+      "22. Popperian falsification",
+      "23. Peircean pragmatism / inquiry",
+      "24. Wittgensteinian language-use caution",
+      "25. Quine-style anti-essentialism",
+      "26. Mach-style economy of thought",
+      "27. Baconian experiment, with modern safeguards",
+      "28. Ockham-style parsimony",
+      "29. Korzybski-style map/territory caution",
+      "30. Scientific realism only when earned by tests"
+    ],
+    "eastern_posture_light_touch": [
+      "31. Daoist anti-forcing",
+      "32. Zhuangzi-style multiple live readings",
+      "33. Confucian role/ritual/order sensitivity",
+      "34. Mencian cultivation / conditions for good action",
+      "35. Legalist systems-pressure awareness, used cautiously",
+      "36. Buddhist anti-reification, used cautiously"
+    ],
+    "engineering_and_craft": [
+      "37. Unix philosophy",
+      "38. Test-driven development",
+      "39. Safety engineering",
+      "40. Reliability engineering",
+      "41. Observability / instrumentation",
+      "42. Incident review culture",
+      "43. Queueing / bottleneck thinking",
+      "44. Lean manufacturing, only the practical parts",
+      "45. Toyota-style continuous improvement",
+      "46. Architecture tradeoff analysis"
+    ],
+    "anti_aligned_or_constrained_sources": [
+      "47. Platonism - mostly constrained / contrast source",
+      "48. Rationalism - constrained; useful only with evidence gates",
+      "49. Essentialism - mostly excluded",
+      "50. Mystical totalization - excluded unless translated into operational language",
+      "51. Authority-first scholasticism - excluded",
+      "52. Pure vibe taxonomy - excluded",
+      "53. Grand unified story-causality - constrained",
+      "54. Untested psycho-symbolic explanation - constrained",
+      "55. Kant"
+    ]
+  },
+  "dictionary_build_sequence": [
+    {
+      "wave": "Wave 0 - Source classification",
+      "output": "Assign every item a primary role: core, technical, method, posture, craft, constrained.",
+      "closure": "All 55 items are preserved in order and assigned without over-centering one author."
+    },
+    {
+      "wave": "Wave 1 - Dictionary kernel",
+      "output": "For each block, build aligned terms, high-correlation terms, example sentence patterns, collapse signatures, and sim-routing effect.",
+      "closure": "Every entry describes worker behavior, not merely intellectual vibe."
+    },
+    {
+      "wave": "Wave 2 - Lane slices",
+      "output": "Create mini-MMM slices for Direct, Popper/Feynman, Systems/Strategy/Factory, Audit, Alternative/Reframe/Wildcard, and Hume.",
+      "closure": "Each lane slice changes at least one sim-planning decision or blocker statement in a test prompt."
+    },
+    {
+      "wave": "Wave 3 - Return to sims",
+      "output": "Resume tool sims, tool-integration sims, lego rows, then couplings only when gates are earned.",
+      "closure": "MMM work stops being the main queue and becomes a support lane only."
+    }
+  ],
+  "candidate_next_packets": [
+    "Classify all 55 items into primary role plus operational job.",
+    "Build the dictionary kernel with aligned terms and high-correlation terms for each block.",
+    "Build lane slices for Direct, Popper/Feynman, Systems/Strategy/Factory, Audit, Hume, and Alternative/Reframe/Wildcard.",
+    "Define the sims-return gate.",
+    "Run Tier D Readiness Wave 0 when returning to sim-side work."
+  ],
+  "format_and_runtime_notes": {
+    "preferred_output_style": "Use the full readable format with emojis, Results, Follow-up, and Hygiene when relevant.",
+    "subagent_policy": "Use rolling waves of subagents for substantive tuning/planning; close workers before launching new waves; do not present fake plurality.",
+    "council_policy": "Run council as a lightweight voice/check by default; escalate only when plurality/collapse itself is the work.",
+    "markdown_policy": "Do not save markdown unless explicitly asked. This packet is JSON for that reason."
+  },
+  "open_items": [
+    "Decide whether to mirror this JSON into the wiki harness as a shared reservoir entry.",
+    "Decide whether Claude and Hermes should read this packet or receive separate runtime-native copies.",
+    "Run a later admission step if this packet should become canonical rather than context memory.",
+    "Build the actual dictionary entries and lane slices."
+  ],
+  "source_field_status": {
+    "list_origin": "Codex-made scaffold refined by user feedback",
+    "canon_status": "not canon",
+    "change_policy": "Can be improved, expanded, reweighted, split, or demoted as better source fields are found.",
+    "added_people_policy": "Additional people, schools, and technical traditions may be included when they improve MMM behavior or sim-routing clarity.",
+    "admission_gate": "A source earns weight only if it changes worker behavior, improves admissibility judgment, clarifies blockers, improves sim question selection, or catches collapse."
+  }
+}

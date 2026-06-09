@@ -1,0 +1,107 @@
+{
+  "artifact_type": "codex_wizard_lane_registry_schema",
+  "runtime_owner": "codex",
+  "schema_version": "v1",
+  "created_date": "2026-04-26",
+  "canonicality": "codex_operating_schema_not_project_canon",
+  "purpose": "Machine-readable Codex-owned schema for visible Wizard voice, lane, council, and follow-up receipt rows.",
+  "row_schema": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "lane",
+      "emoji",
+      "role",
+      "wave",
+      "status",
+      "worker_id",
+      "checked",
+      "concluded",
+      "open",
+      "evidence",
+      "blocker_or_defer_reason"
+    ],
+    "properties": {
+      "lane": {
+        "type": "string",
+        "description": "Stable visible voice, lane, council, or follow-up option name."
+      },
+      "emoji": {
+        "type": "string",
+        "description": "Stable emoji for the visible lane when one exists; empty string only for non-emoji system rows."
+      },
+      "role": {
+        "type": "string",
+        "description": "Distinct task-card role or scope."
+      },
+      "wave": {
+        "type": [
+          "integer",
+          "string"
+        ],
+        "description": "Wave number or named wave."
+      },
+      "status": {
+        "type": "string",
+        "enum": [
+          "spawned",
+          "blocked",
+          "deferred",
+          "shutdown"
+        ]
+      },
+      "worker_id": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "description": "Runtime worker id for spawned/shutdown rows; null for blocked/deferred rows."
+      },
+      "checked": {
+        "type": [
+          "string",
+          "array",
+          "object",
+          "null"
+        ]
+      },
+      "concluded": {
+        "type": [
+          "string",
+          "array",
+          "object",
+          "null"
+        ]
+      },
+      "open": {
+        "type": [
+          "string",
+          "array",
+          "object",
+          "null"
+        ]
+      },
+      "evidence": {
+        "type": [
+          "string",
+          "array",
+          "object",
+          "null"
+        ]
+      },
+      "blocker_or_defer_reason": {
+        "type": [
+          "string",
+          "null"
+        ]
+      }
+    }
+  },
+  "rules": [
+    "Visible lanes require a row before they can be claimed as run.",
+    "Worker count is not proof of plurality; distinct task cards and receipts are required.",
+    "A blocked or deferred row is valid receipt truth when runtime, channel, explicit scope, or safety constraints prevent spawning.",
+    "Follow-up options are proposed prompts unless Wave 6 has a receipt row for the option.",
+    "LLM Council is a layer and must not be conflated with the voice rows it adjudicates."
+  ]
+}

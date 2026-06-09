@@ -1,0 +1,67 @@
+{
+  "system": "codex-memory",
+  "runtime_owner": "codex",
+  "created_date": "2026-04-25",
+  "purpose": "Codex-owned external memory context surface inside the wiki, separate from claude-memory and hermes-current.",
+  "single_writer": "Codex writes here unless user authorizes another runtime to import or mirror.",
+  "directories": {
+    "context_packets": "Durable context extracts and user-feedback preservation packets.",
+    "sessions": "Session-level Codex memory packets.",
+    "doctrine_candidates": "Candidate operating rules or doctrine awaiting admission.",
+    "indexes": "Machine-readable indexes for lookup and routing."
+  },
+  "current_packets": [
+    "context_packets/THREAD_CONTEXT_EXTRACT__CODEX_MMM_SOURCE_FIELD__2026_04_25__v1.json",
+    "context_packets/THREAD_CONTEXT_EXTRACT__CODEX_CONVERSATION_MEMORY__2026_04_25__v1.json",
+    "context_packets/USER_FEEDBACK__WIZARD_FORMATTING_MEMORY__2026_04_26__v2.json",
+    "context_packets/THREAD_CONTEXT_EXTRACT__CODEX_RATCHET_TOOL_INTEGRATION_DOCTRINE__2026_05_12__v1.json"
+  ],
+  "historical_packets": [
+    "context_packets/USER_FEEDBACK__WIZARD_FORMATTING_MEMORY__2026_04_26__v1.json"
+  ],
+  "current_indexes": [
+    "indexes/CODEX_WIZARD_LANE_REGISTRY_SCHEMA__v1.json"
+  ],
+  "current_sessions": [
+    "sessions/CODEX_MEMORY_CAPTURE_WAVE__2026_04_25__v1.json",
+    "sessions/CODEX_WIZARD_AUDIT_RECEIPT__2026_04_26__v1.json",
+    "sessions/CODEX_WIZARD_FOLLOWUP_RUN_RECEIPT__2026_04_26__v1.json",
+    "sessions/CODEX_MEMORY_UPDATE__TOOL_INTEGRATION_DOCTRINE__2026_05_12__v1.json"
+  ],
+  "rules": [
+    "Preserve user ideas separately from LLM suggestions.",
+    "Preserve good LLM outputs with provenance and status.",
+    "Do not mix Claude, Hermes, and Codex private memory surfaces.",
+    "Wiki is shared reservoir; runtime directories remain single-writer surfaces.",
+    "Prefer JSON unless Markdown is explicitly requested.",
+    "Do not store Codex general memory under system_v4/a2_state or any A2 state surface.",
+    "Treat source-field lists as provisional scaffolds unless explicitly admitted as canon.",
+    "People, schools, and traditions can be added when they improve MMM behavior or sim-routing clarity.",
+    "Capture broad thread context when the user identifies forgotten context, not only polished outputs.",
+    "Save actual worker wave receipts separately from council summaries.",
+    "When the user gives small formatting or behavior feedback, apply the correction and continue the prior task instead of making the whole response about the error.",
+    "Preserve full grouped follow-up fields for tuning/plurality work, with compact single-spaced options and full operational All bundles.",
+    "Keep Results, Follow-up, Voice Blocks, and LLM Council as separate surfaces.",
+    "Every visible Codex output uses the Wizard surface order: Main Answer, Results, Follow-up, Hygiene & Security. This includes progress updates, error corrections, audit summaries, and short acknowledgements.",
+    "When durable formatting/process feedback is given, save it into Codex wiki memory before treating it as resolved, then continue the prior task inside the full output format.",
+    "When a concrete plan has already been made, execute the promised saved step or runtime step; do not substitute another explanation for completion.",
+    "Wizard format means the full operating machinery for the turn, not just four headings: voices/council when relevant, receipt truth, grouped follow-up for tuning/plurality, and hygiene/scope truth.",
+    "Every Codex input and output attempts all stable voices and real subagents; report spawned, blocked, deferred, and shutdown truth.",
+    "Attempt means a lane registry decision exists; constrained or trivial turns may defer nonrun lanes with explicit reason, but must not fake visible execution.",
+    "Systems, Strategy, and Factory are whole-context voices that inspect the whole thread, plan, queue, drift, handoffs, and return-to-sims gate.",
+    "Follow-ups run as a three-wave pipeline: make, run, audit/improve.",
+    "Current Wizard packet is v4.2 at /Users/joshuaeisenhart/wiki/wizard/packet-v4-2-current; do not silently fall back to v4.1.",
+    "Bounded means local claim ceiling and no salient skip-ahead, not low volume; run many independent bounded packets in parallel when safe.",
+    "Tool integration and tool-lego fit are main work; cleanup is side-lane only when it blocks tool receipts, runner safety, or evidence truth.",
+    "Numpy/scipy are classical baseline tools; numpy-only sims do not prove QIT, GStack, axis, bridge, or nonclassical claims.",
+    "Wizard is a routing/audit/MMM/fanout harness, not a substitute for sim/tool receipts."
+  ],
+  "canonicality": "Codex wiki memory manifest, not project A2 state",
+  "forbidden_targets": [
+    "/Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v4/a2_state as general Codex memory",
+    "/Users/joshuaeisenhart/wiki/claude-memory for Codex writes",
+    "/Users/joshuaeisenhart/wiki/hermes-current for Codex writes"
+  ],
+  "last_updated_date": "2026-05-12",
+  "last_updated_at": "2026-05-12T01:07:13.368087+00:00"
+}

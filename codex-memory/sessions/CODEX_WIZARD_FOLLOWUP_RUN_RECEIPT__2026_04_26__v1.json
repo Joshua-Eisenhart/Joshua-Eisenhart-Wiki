@@ -1,0 +1,196 @@
+{
+  "artifact_type": "codex_wizard_followup_run_receipt",
+  "runtime_owner": "codex",
+  "created_date": "2026-04-26",
+  "status": "active_session_receipt",
+  "canonicality": "codex_operating_receipt_not_project_canon",
+  "purpose": "Persist Wave 5/6/7 follow-up make, run, and audit-improve receipts for the Codex Wizard operating system.",
+  "wave_5_followup_make": {
+    "status": "completed",
+    "source": "CODEX.md default grouped follow-up field",
+    "options_made": 18,
+    "groups": [
+      "Voices",
+      "Lanes",
+      "All compositions"
+    ]
+  },
+  "wave_6_followup_run": {
+    "status": "completed",
+    "run_mode": "bounded spawned-worker simulations",
+    "options_1_to_14": {
+      "spawned": 14,
+      "blocked": 0,
+      "deferred": 0
+    },
+    "options_15_to_18": {
+      "initial_spawn_attempt_blocked": 4,
+      "initial_blocker": "agent thread limit reached because options 1-14 were still open",
+      "stale_completed_option_workers_closed": 14,
+      "retry_spawned": 4,
+      "blocked_after_retry": 0,
+      "deferred_after_retry": 0
+    },
+    "options_run": [
+      {
+        "option": 1,
+        "name": "Hume",
+        "worker_id": "019dc88d-c48b-7be2-a08c-194c37a9e4f6",
+        "status": "spawned",
+        "decision": "keep_improve",
+        "improved_wording": "State, in plain language, what this situation amounts to, what is actually known, and what remains evidence-limited."
+      },
+      {
+        "option": 2,
+        "name": "Zhuangzi",
+        "worker_id": "019dc88d-c55d-79d1-8fdc-2dcdb005c041",
+        "status": "spawned",
+        "decision": "keep_improve",
+        "improved_wording": "Keep each live reading separate, name what would rule it out, and only collapse readings after evidence excludes them."
+      },
+      {
+        "option": 3,
+        "name": "Feynman",
+        "worker_id": "019dc88d-c6b6-74c1-bad5-90575eadafb6",
+        "status": "spawned",
+        "decision": "keep_improve",
+        "improved_wording": "Convert the selected claim into an observable procedure with setup, pass/fail criteria, decisive measurement, and the next check to run."
+      },
+      {
+        "option": 4,
+        "name": "Orwell",
+        "worker_id": "019dc88d-c7bc-76a0-a563-754fb73a53da",
+        "status": "spawned",
+        "decision": "keep_improve",
+        "improved_wording": "Rewrite the answer or process in plain, concrete language; remove vague labels, inflated claims, and soft process fog."
+      },
+      {
+        "option": 5,
+        "name": "Popper",
+        "worker_id": "019dc88d-c917-74f3-848b-cb42f34374f5",
+        "status": "spawned",
+        "decision": "keep_improve",
+        "improved_wording": "Test the strongest claim: name what would falsify it, run the smallest decisive check, and mark it killed/survived/open."
+      },
+      {
+        "option": 6,
+        "name": "Factory",
+        "worker_id": "019dc88d-ca4a-71c1-b010-8c77132d88cd",
+        "status": "spawned",
+        "decision": "keep_improve",
+        "improved_wording": "Inspect the whole-workstream queue: bottleneck, handoff boundary, leverage point, and next unblock."
+      },
+      {
+        "option": 7,
+        "name": "Strategy",
+        "worker_id": "019dc88d-cb86-70e1-aeea-ed79c510f350",
+        "status": "spawned",
+        "decision": "keep_improve",
+        "improved_wording": "Check the whole-project purpose, execution order, drift condition, retreat condition, and return-to-sims trigger."
+      },
+      {
+        "option": 8,
+        "name": "Systems",
+        "worker_id": "019dc88d-ccd6-7de1-9ac6-167b6c2b6568",
+        "status": "spawned",
+        "decision": "keep_improve",
+        "improved_wording": "Check the whole loop: registry -> receipt -> scenarios -> validation -> memory, and identify coupling, drift, or second-order failure before promotion."
+      },
+      {
+        "option": 9,
+        "name": "Pushback",
+        "worker_id": "019dc88d-cdc6-7bb2-97bd-4b0766df8c2a",
+        "status": "spawned",
+        "decision": "keep_improve",
+        "improved_wording": "Name the weakest assumption, show the risk it creates, and replace it with a tighter constraint."
+      },
+      {
+        "option": 10,
+        "name": "Audit",
+        "worker_id": "019dc88d-cf06-7ce0-862e-5c54a8bb13ed",
+        "status": "spawned",
+        "decision": "keep_improve",
+        "improved_wording": "Check receipt truth, fake plurality, missing lanes, controller-local collapse, and format compliance."
+      },
+      {
+        "option": 11,
+        "name": "Direct",
+        "worker_id": "019dc88d-d07a-7cf2-870f-0b8b21a349b3",
+        "status": "spawned",
+        "decision": "keep_improve",
+        "improved_wording": "Return the shortest defensible answer, the immediate next action, and any blocker."
+      },
+      {
+        "option": 12,
+        "name": "Alternative",
+        "worker_id": "019dc88d-d3bf-70a2-9a76-cfa8b8b64035",
+        "status": "spawned",
+        "decision": "keep_improve",
+        "improved_wording": "Produce a second viable route with different assumptions, compare it against the current route, and state what would make it better or worse."
+      },
+      {
+        "option": 13,
+        "name": "Reframe",
+        "worker_id": "019dc88d-d57c-7dc2-88cf-afb95dc08830",
+        "status": "spawned",
+        "decision": "keep_improve",
+        "improved_wording": "Recast the problem when the current framing is causing the wrong work, false blockers, or premature narrowing."
+      },
+      {
+        "option": 14,
+        "name": "Wildcard",
+        "worker_id": "019dc88d-d72d-7bf0-b342-8279d6bbd7f8",
+        "status": "spawned",
+        "decision": "keep_improve",
+        "improved_wording": "Stress-test the menu from an unexpected angle and propose one non-obvious next move, with a blocker if the move is unsafe or unsupported."
+      },
+      {
+        "option": 15,
+        "name": "All-A default substantive bundle",
+        "worker_id": "019dc88f-cc01-72a0-abfe-c2b618367d26",
+        "status": "spawned_after_initial_capacity_block",
+        "decision": "keep_improve",
+        "improved_wording": "Preserve composition, first packet, reason, deliverable, and retreat condition; strengthen spawn/defer/block truth to require every lane be marked spawned/deferred/blocked and never summarized as run if unspawned."
+      },
+      {
+        "option": 16,
+        "name": "All-B plurality preservation bundle",
+        "worker_id": "019dc88f-cca0-7af3-ade6-ad9ae9372b90",
+        "status": "spawned_after_initial_capacity_block",
+        "decision": "keep_improve",
+        "improved_wording": "Clarify that lanes should spawn as real workers when runtime and user authorization allow; otherwise mark blocked or deferred and do not present them as run."
+      },
+      {
+        "option": 17,
+        "name": "All-C closeout/hygiene bundle",
+        "worker_id": "019dc88f-cdf1-7521-b039-3e4f0c49f35f",
+        "status": "spawned_after_initial_capacity_block",
+        "decision": "keep_improve",
+        "improved_wording": "Make All-C an execution bundle with explicit closeout target, done condition, drift/stale residue risk, spawn/defer/block truth, compact closeout receipt, and retreat to Direct on unverifiable claims."
+      },
+      {
+        "option": 18,
+        "name": "All-of-the-above Wizard bundle",
+        "worker_id": "019dc88f-cf4c-7173-af0e-913699a0d604",
+        "status": "spawned_after_initial_capacity_block",
+        "decision": "keep_improve",
+        "improved_wording": "Make Wave 6 run options 1-17 before option 18 self-checks the whole Wizard bundle, so All-of-the-above cannot collapse into rerunning only itself."
+      }
+    ]
+  },
+  "wave_7_followup_audit_improve": {
+    "status": "completed",
+    "killed_options": [],
+    "kept_options": 18,
+    "improved_options": 18,
+    "applied_to": [
+      "/Users/joshuaeisenhart/Desktop/Codex Ratchet/CODEX.md"
+    ],
+    "audit_result": "No option was killed as duplicate or weak. All options kept distinct roles. CODEX.md wording was improved to make each option operational and to preserve spawn/defer/block truth."
+  },
+  "open": [
+    "Future turns still need per-turn receipt rows before claiming follow-up options ran.",
+    "Auto-loading CODEX.md and codex-memory remains open.",
+    "Hard runtime validation is not yet wired."
+  ]
+}

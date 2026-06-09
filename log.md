@@ -1,3 +1,9 @@
+## 2026-06-08 - Wiki memory/vault-config local git commit
+
+- Added small memory and stable vault-config bucket to local git: `codex-memory/`, `claude-memory/`, and stable `.obsidian` config files (`app.json`, `core-plugins.json`, `graph.json`, `appearance.json`). Obsidian workspace state remains ignored.
+- Pre-scan receipt: `/tmp/wiki_git_bucket_memory_vault_20260609.json`. Observed `19` files / `111.3 KB`; conservative token/private-key scan found `0` high-confidence secret-pattern hits and `0` suspicious secret filenames.
+- Scope still excludes bulk `wizard/`, `raw/`, corrupt backups, and ignored cache/workspace files pending separate staging decisions.
+
 ## 2026-06-08 - Wiki archive bucket local git commit
 
 - Added `_archive/` to local git as a separate retired-material bucket.

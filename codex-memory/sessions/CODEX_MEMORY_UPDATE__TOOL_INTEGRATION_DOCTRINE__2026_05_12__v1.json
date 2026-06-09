@@ -1,0 +1,20 @@
+{
+  "artifact_type": "session_memory_update_receipt",
+  "runtime_owner": "codex",
+  "created_date": "2026-05-12",
+  "generated_at": "2026-05-12T01:07:13.368087+00:00",
+  "status": "captured",
+  "canonicality": "session_receipt_not_project_canon",
+  "purpose": "Record that Codex updated wiki codex-memory after user asked whether a fresh Codex memory had been saved.",
+  "wrote": [
+    "context_packets/THREAD_CONTEXT_EXTRACT__CODEX_RATCHET_TOOL_INTEGRATION_DOCTRINE__2026_05_12__v1.json",
+    "sessions/CODEX_MEMORY_UPDATE__TOOL_INTEGRATION_DOCTRINE__2026_05_12__v1.json",
+    "MANIFEST.json"
+  ],
+  "summary": "Saved corrected Wizard v4.2, bounded-parallelism, tool-integration-first, numpy-classical, and cleanup-side-lane doctrine for future Codex terminals.",
+  "validation_required": [
+    "python3 -m json.tool on the new context packet",
+    "python3 -m json.tool on the new session receipt",
+    "python3 -m json.tool on MANIFEST.json"
+  ]
+}
