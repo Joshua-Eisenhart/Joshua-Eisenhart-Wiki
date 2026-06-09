@@ -1,3 +1,9 @@
+## 2026-06-08 - Wiki archive bucket local git commit
+
+- Added `_archive/` to local git as a separate retired-material bucket.
+- Pre-scan receipt: `/tmp/wiki_git_bucket_archive_20260609.json`. Observed `116` files / `893.0 KB`; conservative token/private-key scan found `0` high-confidence secret-pattern hits and `0` suspicious secret filenames.
+- Scope still excludes bulk `wizard/`, `raw/`, `codex-memory/`, `claude-memory/`, `.obsidian/`, corrupt backups, and quoted-path legacy/raw buckets pending separate staging decisions.
+
 ## 2026-06-08 - Wiki support bucket local git commit
 
 - Added the next low-risk support bucket to local git: `queries/`, `comparisons/`, `specs/`, `entities/`, `lev_reorientation_guide*.md`, and `tools/wiki_consistency_continuous.py`.
