@@ -1,0 +1,4 @@
+[2026-04-17T01:22:46-07:00] poller started
+[2026-04-17T01:22:46-07:00] Tier B launch blocked by filtered dirty paths:  M system_v4/visualization/cli.py, ?? ops/tier_b_gate_poller.py, ?? ops/tier_b_launch_prompt.md, ?? system_v4/probes/sim_results/, ?? system_v4/tests/test_viz_cli_consumer_flags.py
+[2026-04-17T01:32:33-07:00] poller started
+[2026-04-17T01:32:33-07:00] tier_b.md already indicates active or terminal state; exiting poller

@@ -1,0 +1,105 @@
+{
+  "artifact_path": "/Users/joshuaeisenhart/wiki/projects/codex-ratchet/referenced-theory-operational-geometry-correlation-2026-06-06.codex2-draft.md",
+  "source_paths_read": [
+    "/Users/joshuaeisenhart/wiki/projects/codex-ratchet/holodeck-fep-igt-axis0-deep-content-correlation-2026-06-06.codex2-draft.md",
+    "/Users/joshuaeisenhart/Codex-Ratchet/system_v5/READ ONLY Reference Docs/Older Legacy/MODEL_CONTEXT copy.md",
+    "/Users/joshuaeisenhart/Codex-Ratchet/system_v5/READ ONLY Reference Docs/Older Legacy/INTENT_SUMMARY copy.md",
+    "/Users/joshuaeisenhart/Codex-Ratchet/system_v5/ops/formal_scouts/results/rosetta_igt_qit_four_element_structure_probe_results.json",
+    "/Users/joshuaeisenhart/Codex-Ratchet/system_v5/ops/formal_scouts/results/xi_shell_coherent_information_gradient_bridge_probe_results.json",
+    "/Users/joshuaeisenhart/Codex-Ratchet/system_v5/ops/formal_scouts/canonical_qit_engine_specs.py",
+    "/Users/joshuaeisenhart/wiki/raw/papers/open_access/text/1906.10184__friston_particular_physics.txt",
+    "/Users/joshuaeisenhart/wiki/raw/papers/open_access/text/0911.1383__information_geometry_evolutionary_game_theory.txt",
+    "/Users/joshuaeisenhart/wiki/raw/papers/open_access/text/quant-ph_0310053__two_and_three_qubits_geometry_hopf_fibrations.txt",
+    "/Users/joshuaeisenhart/wiki/raw/papers/open_access/text/hep-th_0404165__spin_hall_effect_berry_phase_spinning_particles.txt",
+    "/Users/joshuaeisenhart/wiki/raw/papers/open_access/text/1907.06306__resource_theory_asymmetric_distinguishability_quantum_channels.txt",
+    "/Users/joshuaeisenhart/wiki/raw/papers/open_access/text/1405.5563__constructor_theory_of_information.txt",
+    "/Users/joshuaeisenhart/wiki/raw/papers/open_access/text/quant-ph_9609002__rovelli_relational_quantum_mechanics.txt",
+    "/Users/joshuaeisenhart/wiki/raw/papers/open_access/text/1810.05583__thermodynamic_length_open_quantum_systems.txt",
+    "/Users/joshuaeisenhart/wiki/raw/papers/open_access/text/2107.02684__guaranteed_viability_approach_environmental_commons.txt"
+  ],
+  "web_sources_attempted": [
+    {
+      "url": "https://arxiv.org/abs/1011.6451",
+      "status": "observed_web_source",
+      "used_for": "CDP informational derivation and purification postulate anchor"
+    },
+    {
+      "url": "https://arxiv.org/abs/0908.1583",
+      "status": "observed_web_source",
+      "used_for": "CDP probabilistic theories with purification"
+    },
+    {
+      "url": "https://arxiv.org/abs/1001.0785",
+      "status": "observed_web_source",
+      "used_for": "Verlinde entropic gravity gradient hint"
+    },
+    {
+      "url": "https://arxiv.org/abs/quant-ph/0402130",
+      "status": "observed_web_source",
+      "used_for": "Abramsky-Coecke categorical semantics of quantum protocols"
+    },
+    {
+      "url": "https://arxiv.org/abs/0808.1023",
+      "status": "observed_web_source",
+      "used_for": "Categorical quantum mechanics chapter overview"
+    },
+    {
+      "url": "https://arxiv.org/abs/1612.04581",
+      "status": "observed_web_source",
+      "used_for": "Bures metric and quantum Fisher information boundary"
+    },
+    {
+      "url": "https://www.osti.gov/biblio/4433498",
+      "status": "observed_web_source_partial",
+      "used_for": "Penrose Twistor Algebra bibliographic primary record"
+    }
+  ],
+  "coverage_gap_count": 9,
+  "theories_covered": [
+    "A. Penrose/twistors plus Hopf/spinor/division-algebra ladder",
+    "B. CDP purification / QIT reconstruction / Hardy",
+    "C. Verlinde entropic gravity as gradient hint to Xi shell scout",
+    "D. Categorical quantum mechanics / process theory vs octonion pressure",
+    "E. Fisher/Bures/Shahshahani information geometry and distinguishability metrics",
+    "F. Friston/FEP/Markov blankets/expected free energy",
+    "G. Resource theory/asymmetric distinguishability/channel boxes",
+    "H. Constructor theory possible/impossible task grammar",
+    "I. Rovelli relational QM / finite yes-no information",
+    "J. Thermodynamic length/open quantum systems/entropy geometry",
+    "K. Viability theory/intersection-not-enough controls",
+    "L. Hoffman/Fields/IIT/Wolfram/Levin/Hume/Jung/pragmatism/OSR/enactivism"
+  ],
+  "new_repo_results_integrated": [
+    {
+      "path": "/Users/joshuaeisenhart/Codex-Ratchet/system_v5/ops/formal_scouts/results/rosetta_igt_qit_four_element_structure_probe_results.json",
+      "summary": "all_pass true; four literal groups and 16 rows loaded; exact-stage score 224/224; shared four-element invariant and natural map unique; prior sign-only receipts remain trivial; promotion false"
+    },
+    {
+      "path": "/Users/joshuaeisenhart/Codex-Ratchet/system_v5/ops/formal_scouts/results/xi_shell_coherent_information_gradient_bridge_probe_results.json",
+      "summary": "all_pass true; finite Xi_shell to rho_AB candidate; Phi0 as coherent information gradient; best random/control margin 0.7960864760491317; no-signal control passes; promotion false"
+    }
+  ],
+  "claim_ceiling": [
+    "Operational math/geometry is core; referenced theories are source/routing/falsifier pressure unless finite maps and controls are present.",
+    "F01/N01 are chosen roots, not externally proven roots.",
+    "Rosetta and Xi-gradient results are formal scouts only; no engine promotion, Axis0 admission, gravity/physics bridge, consciousness claim, or proof admission."
+  ],
+  "blocked_overclaims": [
+    "axis0_closure",
+    "gravity_or_physics_bridge_promotion",
+    "consciousness_or_perception_proof",
+    "qit_engine_promotion",
+    "root_proof",
+    "twistor_or_category_foundation_claim",
+    "holodeck_or_fep_admission_without_finite_map"
+  ],
+  "verification": {
+    "created_at_utc": "2026-06-06T07:52:33Z",
+    "artifact_non_empty": true,
+    "receipt_non_empty": true,
+    "banned_overclaim_scan_pass": true,
+    "subagents_used": false,
+    "git_stage_or_commit_performed": false,
+    "notes": "Post-write checks confirmed non-empty artifact and receipt, valid JSON receipt, and no banned overclaim phrase hits in the markdown."
+  }
+}

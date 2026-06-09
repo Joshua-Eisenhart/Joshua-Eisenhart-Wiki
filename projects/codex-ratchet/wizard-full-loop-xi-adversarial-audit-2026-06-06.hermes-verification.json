@@ -1,0 +1,80 @@
+{
+  "schema": "HERMES_WIZARD_FULL_LOOP_XI_ADVERSARIAL_AUDIT_VERIFICATION_v1",
+  "created_at_utc": "2026-06-06T08:55:26Z",
+  "user_request": "wizard full loop auto",
+  "scope": "Run Wizard v4.3 preflight and v4.2 full/auto loop on the current Codex Ratchet frontier, then route heavy work to codex2 for an independent adversarial Xi-shell coherent-information gradient audit.",
+  "wizard_v4_3_preflight": {
+    "packet": "/Users/joshuaeisenhart/wiki/wizard/hermes-version-current/packets/hermes_v4_3_retrocausal_object_card.json",
+    "validator": "/Users/joshuaeisenhart/Codex-Ratchet/scripts/wizard_v4_3_object_preservation.py",
+    "initial_status": "failed_before_repair",
+    "initial_error": "method_contracts.missing",
+    "repair": "Added top-level method_contracts object required by the current repo validator; patched the hermes-wizard-v4-3-object-preservation skill to include this validator requirement.",
+    "validated_after_repair": true,
+    "selftest_passed": true,
+    "claim_ceiling": "object-preservation preflight only; no sim, physics, Axis0, gravity, flux, or formal admission claim"
+  },
+  "wizard_v4_2_loop": {
+    "script": "/Users/joshuaeisenhart/Codex-Ratchet/scripts/wizard_v4_2.py",
+    "session_root": "/tmp/codex_ratchet_wizard_v4_2_full_loop_auto/wizard-high-20260606T084458Z",
+    "manifest": "/tmp/codex_ratchet_wizard_v4_2_full_loop_auto/wizard-high-20260606T084458Z/wizard_loop_manifest.json",
+    "latest_output": "/tmp/codex_ratchet_wizard_v4_2_full_loop_auto/wizard-high-20260606T084458Z/latest_wizard_output.md",
+    "command_shape": "--level high --loop auto --codex-local-children --compact-profile audit",
+    "status": "PARTIAL",
+    "stop_reason": "repeated_next_task",
+    "loops_completed": 2,
+    "loops_limit": 6,
+    "waves": "6/6",
+    "parents": "18/28",
+    "children": "112/112",
+    "runtimes": [
+      "codex-controller",
+      "codex-local-children",
+      "gemini-skipped"
+    ],
+    "route_truth_boundary": "The v4.2 full/auto loop was a real receipt-producing attempt, but not FULL: management/parent coverage was partial, Gemini was skipped under codex-local mode, and the auto next-task drifted toward route-truth audit. Hermes preserved the original Xi adversarial audit objective rather than letting the drift define the task."
+  },
+  "codex2_heavy_worker": {
+    "prompt": "/tmp/codex2_xi_adversarial_audit_prompt_20260606.md",
+    "process_session_id": "proc_779b9fdd1579",
+    "exit_code": 0,
+    "runtime_boundary": "codex2 gpt-5.5 xhigh direct-build; no spawn_agent/collab/subagents/child agents; no staging/commit",
+    "files_written": [
+      "/Users/joshuaeisenhart/Codex-Ratchet/system_v5/ops/formal_scouts/sim_xi_shell_coherent_information_gradient_adversarial_audit_probe.py",
+      "/Users/joshuaeisenhart/Codex-Ratchet/system_v5/ops/formal_scouts/results/xi_shell_coherent_information_gradient_adversarial_audit_probe_results.json",
+      "/Users/joshuaeisenhart/Codex-Ratchet/system_v5/ops/formal_scouts/results/xi_shell_coherent_information_gradient_adversarial_audit_probe_codex2_receipt.json"
+    ]
+  },
+  "controller_verification": {
+    "py_compile_pass": true,
+    "direct_rerun_exit_code": 0,
+    "formal_scout_validator_fresh_rerun": {
+      "rerun_pass": true,
+      "result_contract_pass": false,
+      "validator_all_pass": false,
+      "reason": "The script reran cleanly, but the result intentionally records all_pass=false because adversarial controls falsified the stronger Xi shell-geometry/cut-specific reading."
+    },
+    "parsed_result": {
+      "all_pass": false,
+      "candidate_gradient_profile_present": true,
+      "xi_shell_gradient_candidate_survived_adversarial_audit": false,
+      "candidate_score": 0.9934389788815682,
+      "candidate_phi0_range": 0.5157062430304533,
+      "strongest_falsifier": "entanglement_angle_only_countermodel",
+      "strongest_falsifier_observed": "same entanglement-angle schedule on a fixed computational basis reproduces the candidate coherent-information profile",
+      "strongest_falsifier_profile_l2_gap": 5.887846720064157e-16,
+      "cut_swap_wrong_cut_control_pass": false,
+      "phase_twist_randomization_control_pass": false,
+      "no_chirality_symmetrized_orientation_control_pass": false,
+      "no_signal_control_pass": true,
+      "scalar_value_only_insufficient": true,
+      "promotion_allowed": false,
+      "formal_admission_allowed": false,
+      "blockers": [
+        "required_controls_failed:phase_twist_randomization_control,cut_swap_wrong_cut_control,no_chirality_symmetrized_orientation_control",
+        "entanglement_angle_only_countermodel_reproduces_candidate_profile"
+      ]
+    }
+  },
+  "claim_ceiling": "The independent adversarial audit kills the current Xi shell-geometry/cut-specific bridge reading. It preserves that the original gradient profile exists, but shows the profile is reproduced by an entanglement-angle/lambda schedule countermodel rather than shell geometry, cut specificity, phase/twist, or chirality. No final Xi, Phi0, Axis0, gravity, physics, bridge promotion, FTL, or formal admission is admitted.",
+  "result_classification": "high_rigor_closed_for_this_bounded_audit; broader Xi program remains open only after a new finite object avoids the countermodel"
+}

@@ -1,0 +1,56 @@
+{
+  "artifact_created": "/Users/joshuaeisenhart/wiki/projects/codex-ratchet/overall-aligned-execution-plan-2026-06-07.md",
+  "claim_ceiling": "plan/routing only; no sim admission or downstream promotion",
+  "created_at": "2026-06-07T18:06:32-07:00",
+  "key_controls": [
+    "M(C) contract before downstream claims",
+    "nonassoc root-vs-carrier discriminator before root promotion",
+    "cross-model readout matrix before identity/convergence promotion",
+    "rich-tool tri-engine contract before sim evidence upgrade",
+    "graveyard rows retained as live workspace but no admission without new gate"
+  ],
+  "post_patch_verification": {
+    "patched_routing_surfaces": [
+      "projects/codex-ratchet/read-first.md",
+      "projects/codex-ratchet/current-decisive-frame-loader-2026-06-06.md",
+      "hermes-current/active-plans.md",
+      "concepts/current-research-overlays.md",
+      "index.md",
+      "log.md"
+    ],
+    "targeted_overclaim_scan": "/tmp/overclaim_scan_overall_aligned_plan_20260607.json",
+    "targeted_overclaim_scan_unguarded": 0,
+    "wiki_probe": "/tmp/wiki_probe_post_overall_aligned_plan_20260607.json",
+    "wiki_probe_summary": {
+      "broken_links": [],
+      "index_header_count": 439,
+      "indexed_link_count": 487,
+      "malformed_wikilinks": [],
+      "missing_pages": [],
+      "orphans": [],
+      "page_count": 439,
+      "stale_namespace_wikilinks": [],
+      "stubs": []
+    }
+  },
+  "sources_read": [
+    "projects/codex-ratchet/read-first.md",
+    "concepts/constraint-manifold-architecture.md",
+    "projects/codex-ratchet/foundation-root-distinguishability-and-associator-rebuild-2026-06-07.md",
+    "projects/codex-ratchet/tri-engine-rich-tool-sim-contract-failure-and-rebuild-2026-06-07.md",
+    "concepts/model-convergence-qit-engine-full-stack.md",
+    "concepts/physics-model-as-system-mirror.md",
+    "concepts/entropic-spacetime-monism-readout-map.md",
+    "concepts/holodeck-doctrine.md",
+    "concepts/holodeck-qit-fep-leviathan-integration.md",
+    "concepts/igt-pattern-explicit-math-reference.md",
+    "concepts/current-research-overlays.md",
+    "projects/codex-ratchet/finite-feynman-path-integral-foundation-packet-2026-06-07.md",
+    "projects/codex-ratchet/current-toe-contender-graveyard-workspace-2026-06-07.md"
+  ],
+  "task": "Create overall aligned execution plan for Codex Ratchet after root-distinguishability/nonassociativity correction and cross-model convergence routing.",
+  "verification_to_run_after_patches": [
+    "wiki_probe.py",
+    "targeted overclaim scan on new page and new log entry"
+  ]
+}

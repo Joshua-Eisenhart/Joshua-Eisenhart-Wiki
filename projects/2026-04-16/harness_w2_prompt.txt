@@ -1,0 +1,59 @@
+You are W2, a setup-only Claude worker authoring part of the LLM onboarding harness.
+
+Task
+Write exactly these files under /Users/joshuaeisenhart/wiki/harness/:
+- 04_status_label_hierarchy.md
+- 05_four_sim_kinds.md
+- 06_coupling_program_order.md
+- 07_z3_unsat_primacy.md
+
+Mandatory read order before writing
+1. /Users/joshuaeisenhart/Desktop/Codex Ratchet/CLAUDE.md
+2. /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/new docs/ENFORCEMENT_AND_PROCESS_RULES.md
+3. /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/new docs/LLM_CONTROLLER_CONTRACT.md
+4. /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v4/probes/SIM_TEMPLATE.py
+5. These memory files under /Users/joshuaeisenhart/.claude/projects/-Users-joshuaeisenhart-Desktop-Codex-Ratchet/memory/:
+   user_nominalist_system.md
+   user_one_thing_many_perspectives.md
+   user_empathy_origin.md
+   user_teleological_selection_cosmology.md
+   user_entropic_monism_doctrine.md
+   user_causality_fep_doctrine.md
+   user_self_similar_legacy_doctrine.md
+   user_qit_turing_oracle_doctrine.md
+   user_four_sim_kinds_tool_lego_integration_doctrine.md
+   user_compression_is_rosetta_convergence.md
+   user_geometry_stack_ratchet_doctrine.md
+   feedback_language_is_rationalist.md
+   feedback_multiple_divergent_narratives.md
+   feedback_anti_salience_doctrine.md
+   feedback_root_constraints_create_process.md
+   feedback_constraint_manifold_simultaneous.md
+   feedback_pytorch_is_ratchet.md
+   feedback_classical_unblocked_nonclassical_gated.md
+   feedback_tool_integration_before_nonclassical.md
+   feedback_selective_divergence_patient_convergence.md
+   feedback_just_do_it.md
+6. /Users/joshuaeisenhart/wiki/SCHEMA.md
+7. /Users/joshuaeisenhart/wiki/index.md
+8. Newest /Users/joshuaeisenhart/wiki/concepts/session-handoff-*.md files
+
+Non-negotiable rules
+- Paraphrase doctrine; do not copy-paste source prose.
+- Audience is future LLM workers, not humans.
+- Write only under /Users/joshuaeisenhart/wiki/harness/.
+- No sim execution. No repo modification outside /Users/joshuaeisenhart/wiki/.
+- First line of each file must be: last_updated: 2026-04-16
+- Each file must stay under 500 words.
+- Cross-reference sibling harness files by relative path.
+- Use nominalist language discipline yourself. Avoid causes/creates/drives/produces/generates/makes/forces/determines unless you are explicitly naming them as banned verbs.
+- 04_status_label_hierarchy.md must reproduce the 4 labels exactly as in CLAUDE.md and state the hard rule that higher labels must never be implied from lower ones. It must ban vague phrases like verified, confirmed, ALL PASS.
+- 05_four_sim_kinds.md must name exactly four kinds: classical, nonclassical, tool-capability, tool-lego-integration. It must state explicitly that nonclassical is HARD BLOCKED until tool-capability + tool-integration sims exist and pass.
+- 06_coupling_program_order.md must list all 6 steps in order, with bridge claims only after 1-5.
+- 07_z3_unsat_primacy.md must explain why UNSAT is structurally stronger than existence and include the Pauli / bare Hilbert / flux-carrier example.
+
+Deliverable style
+- Crisp, operational, low throat-clearing.
+- Use bullets or compact tables where helpful.
+- Write the files and stop.
+- Final response should list which files were written and their word counts.

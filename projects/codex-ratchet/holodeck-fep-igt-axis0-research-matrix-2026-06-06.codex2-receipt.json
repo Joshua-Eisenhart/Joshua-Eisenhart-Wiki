@@ -1,0 +1,139 @@
+{
+  "worker": "codex2",
+  "date": "2026-06-06",
+  "claim_ceiling": "research synthesis draft only; not proof, not admission, not canonical physics, not solved consciousness, not solved gravity",
+  "sources_read": [
+    "/Users/joshuaeisenhart/wiki/hermes-current/read-first.md",
+    "/Users/joshuaeisenhart/wiki/hermes-current/active-intentions.md",
+    "/Users/joshuaeisenhart/wiki/hermes-current/active-plans.md",
+    "/Users/joshuaeisenhart/wiki/hermes-current/current-vs-legacy.md",
+    "/Users/joshuaeisenhart/wiki/projects/codex-ratchet/read-first.md",
+    "/Users/joshuaeisenhart/Codex-Ratchet/AGENTS.md",
+    "/Users/joshuaeisenhart/Codex-Ratchet/CODEX.md",
+    "/Users/joshuaeisenhart/Codex-Ratchet/system_v5/docs/ENFORCEMENT_AND_PROCESS_RULES.md",
+    "/Users/joshuaeisenhart/Codex-Ratchet/system_v5/docs/LLM_CONTROLLER_CONTRACT.md",
+    "/Users/joshuaeisenhart/Codex-Ratchet/system_v5/docs/LEGO_SIM_CONTRACT.md",
+    "/Users/joshuaeisenhart/wiki/projects/codex-ratchet/whole-physics-model-processing-ledger-2026-06-05.md",
+    "/Users/joshuaeisenhart/wiki/projects/codex-ratchet/qit-igt-engine-valid-results-and-running-guide-2026-06-05.md",
+    "/Users/joshuaeisenhart/wiki/projects/codex-ratchet/qit-igt-source-corpus-ledger-2026-06-05.md",
+    "/Users/joshuaeisenhart/wiki/projects/codex-ratchet/ratchet-manifold-entropy-source-mining-ledger-2026-06-05.md",
+    "/Users/joshuaeisenhart/wiki/concepts/holodeck-doctrine.md",
+    "/Users/joshuaeisenhart/wiki/concepts/holodeck-qit-fep-leviathan-integration.md",
+    "/Users/joshuaeisenhart/wiki/concepts/projective-holodeck-memory-model.md",
+    "/Users/joshuaeisenhart/wiki/concepts/fep-and-active-inference-reference.md",
+    "/Users/joshuaeisenhart/wiki/concepts/igt-four-strategy-perception-decomposition.md",
+    "/Users/joshuaeisenhart/wiki/concepts/igt-to-qit-engine-genealogy.md",
+    "/Users/joshuaeisenhart/wiki/concepts/entropic-monism-axis0-field-compression-spine.md",
+    "/Users/joshuaeisenhart/wiki/concepts/cross-field-toe-genealogy.md",
+    "/Users/joshuaeisenhart/wiki/concepts/field-wide-compression-geometry.md",
+    "/Users/joshuaeisenhart/wiki/concepts/axis0-physics-source-teeth-map.md",
+    "/Users/joshuaeisenhart/wiki/concepts/field-wide-compression-probe-contract.md",
+    "/Users/joshuaeisenhart/wiki/concepts/jk-fuzz-field.md",
+    "/Users/joshuaeisenhart/wiki/concepts/axis0-current-doctrine-state-card.md",
+    "/Users/joshuaeisenhart/wiki/concepts/constraint-geometry-axis0-separation.md",
+    "/Users/joshuaeisenhart/wiki/concepts/igt-pattern-explicit-math-reference.md",
+    "/Users/joshuaeisenhart/wiki/concepts/jungian-functions-and-igt-explicit-math-geometry-map.md",
+    "/Users/joshuaeisenhart/wiki/raw/papers/open_access/text/1906.10184__friston_particular_physics.txt",
+    "/Users/joshuaeisenhart/wiki/raw/papers/open_access/text/0911.1383__information_geometry_evolutionary_game_theory.txt",
+    "/Users/joshuaeisenhart/wiki/raw/papers/open_access/text/quant-ph_0310053__two_and_three_qubits_geometry_hopf_fibrations.txt",
+    "/Users/joshuaeisenhart/wiki/raw/papers/open_access/text/hep-th_0404165__spin_hall_effect_berry_phase_spinning_particles.txt",
+    "/Users/joshuaeisenhart/wiki/raw/papers/open_access/text/1907.06306__resource_theory_asymmetric_distinguishability_quantum_channels.txt",
+    "/Users/joshuaeisenhart/wiki/raw/papers/open_access/text/1405.5563__constructor_theory_of_information.txt",
+    "/Users/joshuaeisenhart/wiki/raw/papers/open_access/text/quant-ph_9609002__rovelli_relational_quantum_mechanics.txt",
+    "/Users/joshuaeisenhart/wiki/raw/papers/open_access/text/1810.05583__thermodynamic_length_open_quantum_systems.txt",
+    "/Users/joshuaeisenhart/wiki/raw/papers/open_access/text/2107.02684__guaranteed_viability_approach_environmental_commons.txt",
+    "/Users/joshuaeisenhart/Codex-Ratchet/system_v5/READ ONLY Reference Docs/Older Legacy/MODEL_CONTEXT copy.md",
+    "/Users/joshuaeisenhart/Codex-Ratchet/system_v5/READ ONLY Reference Docs/Older Legacy/INTENT_SUMMARY copy.md"
+  ],
+  "local_papers_used": [
+    "/Users/joshuaeisenhart/wiki/raw/papers/open_access/text/1906.10184__friston_particular_physics.txt",
+    "/Users/joshuaeisenhart/wiki/raw/papers/open_access/text/0911.1383__information_geometry_evolutionary_game_theory.txt",
+    "/Users/joshuaeisenhart/wiki/raw/papers/open_access/text/quant-ph_0310053__two_and_three_qubits_geometry_hopf_fibrations.txt",
+    "/Users/joshuaeisenhart/wiki/raw/papers/open_access/text/hep-th_0404165__spin_hall_effect_berry_phase_spinning_particles.txt",
+    "/Users/joshuaeisenhart/wiki/raw/papers/open_access/text/1907.06306__resource_theory_asymmetric_distinguishability_quantum_channels.txt",
+    "/Users/joshuaeisenhart/wiki/raw/papers/open_access/text/1405.5563__constructor_theory_of_information.txt",
+    "/Users/joshuaeisenhart/wiki/raw/papers/open_access/text/quant-ph_9609002__rovelli_relational_quantum_mechanics.txt",
+    "/Users/joshuaeisenhart/wiki/raw/papers/open_access/text/1810.05583__thermodynamic_length_open_quantum_systems.txt",
+    "/Users/joshuaeisenhart/wiki/raw/papers/open_access/text/2107.02684__guaranteed_viability_approach_environmental_commons.txt"
+  ],
+  "outputs_written": [
+    "/Users/joshuaeisenhart/wiki/projects/codex-ratchet/holodeck-fep-igt-axis0-research-matrix-2026-06-06.codex2-draft.md",
+    "/Users/joshuaeisenhart/wiki/projects/codex-ratchet/holodeck-fep-igt-axis0-research-matrix-2026-06-06.codex2-receipt.json"
+  ],
+  "key_claims": [
+    {
+      "claim": "F01 and N01 are the current chosen roots for this matrix, not derived truths.",
+      "status": "observed/source-grounded",
+      "strongest_support": "project authority docs and current ledgers",
+      "blocker": "no source read here derives them as necessary truths"
+    },
+    {
+      "claim": "Probe-induced quotient S/~_M is the safest current identity/equality replacement.",
+      "status": "observed/source-grounded",
+      "strongest_support": "whole-physics model ledger and source-corpus ledger",
+      "blocker": "finite probe family M must be explicit and may refine"
+    },
+    {
+      "claim": "State-on-algebra/rho is a stable finite carrier/readout when represented, but rho-only is insufficient.",
+      "status": "observed/source-grounded",
+      "strongest_support": "current ledgers and QIT/IGT running guide",
+      "blocker": "rho-only erases spinor sign, fiber phase, and path distinctions"
+    },
+    {
+      "claim": "Hopf/spinor/Weyl geometry is mathematically motivated and externally anchored.",
+      "status": "local-paper-supported",
+      "strongest_support": "Mosseri Hopf-fibration paper plus internal Hopf/Weyl formulas",
+      "blocker": "does not admit Josh's nested engine or Axis0 bridge"
+    },
+    {
+      "claim": "FEP supports boundary, prediction, and active policy analogs for holodeck/perception.",
+      "status": "local-paper-supported and interpretive",
+      "strongest_support": "Friston particular physics paper and wiki FEP reference",
+      "blocker": "FEP starts from probabilistic/continuous assumptions and does not derive Codex Ratchet geometry"
+    },
+    {
+      "claim": "IGT/Jung/Hume belongs in perception-policy readout space, not primitive math labels.",
+      "status": "interpretive",
+      "strongest_support": "IGT concept pages and legacy intent overlay",
+      "blocker": "external EGT information geometry paper supports only game-dynamics geometry, not Jung mapping"
+    },
+    {
+      "claim": "Axis0 is the live bottleneck: Xi_fuzz -> rho_AB -> Phi_0 is explicit but open.",
+      "status": "proposal/open",
+      "strongest_support": "Axis0 state card, JK fuzz page, field-wide compression pages",
+      "blocker": "final cut/bridge functional and kill controls are not admitted"
+    },
+    {
+      "claim": "Space, time, gravity, dark energy, entanglement, and chirality should be treated as probe readouts in this draft.",
+      "status": "proposal/open",
+      "strongest_support": "Axis0 source-teeth map and field-wide compression contract",
+      "blocker": "decisive tests and kill controls remain to be executed"
+    },
+    {
+      "claim": "Physics-first, consciousness-first, politics/personality-first, and ToE-first readings remain live alternatives.",
+      "status": "open",
+      "strongest_support": "active-intentions and cross-field genealogy",
+      "blocker": "no current evidence closes the alternatives"
+    }
+  ],
+  "falsifiers": [
+    "one-future control",
+    "scrambled Omega or scrambled continuation labels",
+    "scalar entropy-only control",
+    "product/no-entanglement rho_AB cut",
+    "no-chirality or handedness-erased control",
+    "density-only rho erases spinor sign control",
+    "vector/SO3 control",
+    "N01-off commuting control",
+    "local-only update control",
+    "relation-ablation control",
+    "message-channel leak control",
+    "IGT label-shuffle control",
+    "terrain/operator row shuffle",
+    "null/random Phi_0 control",
+    "infinite/unbounded support control",
+    "primitive mass/geometry baseline"
+  ],
+  "no_sim_execution": true,
+  "no_repo_source_mutation": true
+}

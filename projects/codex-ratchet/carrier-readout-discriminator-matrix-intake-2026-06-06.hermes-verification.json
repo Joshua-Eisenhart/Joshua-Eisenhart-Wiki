@@ -1,0 +1,376 @@
+{
+  "created_local": "2026-06-06 21:53 PDT",
+  "task": "audit Codex app session docs and update wiki with carrier-readout discriminator routing",
+  "source_directory_warning": "context path is a directory, not a file; audited files inside it",
+  "repo_docs_audited": [
+    "/Users/joshuaeisenhart/Codex-Ratchet/system_v5/docs/session_20260606_physics_excavation/17_CODEX_DEEP_AUDIT_CLAUDE_WAVE_RECEIPTS.md",
+    "/Users/joshuaeisenhart/Codex-Ratchet/system_v5/docs/session_20260606_physics_excavation/18_CARRIER_READOUT_DISCRIMINATOR_MATRIX.md",
+    "/Users/joshuaeisenhart/Codex-Ratchet/system_v5/docs/session_20260606_physics_excavation/18_CLAUDE_CARRIER_READOUT_MATRIX_PROMPT.txt",
+    "/Users/joshuaeisenhart/Codex-Ratchet/system_v5/docs/session_20260606_physics_excavation/00_INDEX.md"
+  ],
+  "wiki_files_changed": [
+    "/Users/joshuaeisenhart/wiki/projects/codex-ratchet/carrier-readout-discriminator-matrix-intake-2026-06-06.md",
+    "/Users/joshuaeisenhart/wiki/projects/codex-ratchet/read-first.md",
+    "/Users/joshuaeisenhart/wiki/projects/codex-ratchet/current-decisive-frame-loader-2026-06-06.md",
+    "/Users/joshuaeisenhart/wiki/projects/codex-ratchet/geometric-constraint-manifold-frontier-2026-06-06.md",
+    "/Users/joshuaeisenhart/wiki/index.md",
+    "/Users/joshuaeisenhart/wiki/log.md"
+  ],
+  "verification": {
+    "wiki_probe": "/tmp/wiki_probe_carrier_readout_intake_20260606.json",
+    "overclaim_scan": "/tmp/overclaim_scan_carrier_readout_intake_20260606.json",
+    "wiki_probe_final": "/tmp/wiki_probe_carrier_readout_intake_final_20260606.json",
+    "overclaim_scan_final": "/tmp/overclaim_scan_carrier_readout_intake_final_20260606.json"
+  },
+  "claim_ceiling": "wiki model-routing and receipt-intake only; no M(C), physics, QIT-engine, Axis0, bridge, formal admission, or canonical promotion",
+  "wiki_file_hashes": {
+    "/Users/joshuaeisenhart/wiki/projects/codex-ratchet/carrier-readout-discriminator-matrix-intake-2026-06-06.md": {
+      "sha256": "0961bd1f55c281a31ab8d1f1dc318306067ac32d7c6a3d90c95615d6f77f0f4c",
+      "bytes": 8923
+    },
+    "/Users/joshuaeisenhart/wiki/projects/codex-ratchet/read-first.md": {
+      "sha256": "2fc835cfa00fbf7a2500e177c1285ec0d8690f66fc9da35b9109224ba28606de",
+      "bytes": 19149
+    },
+    "/Users/joshuaeisenhart/wiki/projects/codex-ratchet/current-decisive-frame-loader-2026-06-06.md": {
+      "sha256": "924fea432100f9d8bb0459a005f86a6d94b1d8561533a6584fe68a487d316262",
+      "bytes": 4075
+    },
+    "/Users/joshuaeisenhart/wiki/projects/codex-ratchet/geometric-constraint-manifold-frontier-2026-06-06.md": {
+      "sha256": "30c4aa6b1deb30650d8fa5b7895a029ab8e651aa61834fb2b8faa9a2deed1732",
+      "bytes": 9403
+    },
+    "/Users/joshuaeisenhart/wiki/index.md": {
+      "sha256": "fa62381e42ff13833f9e3a711731c0696cf0ef528fb60d52e6db918b72ccd88c",
+      "bytes": 33383
+    },
+    "/Users/joshuaeisenhart/wiki/log.md": {
+      "sha256": "0a156755b8f2b9ca6ff0c34bcd0447e1ab68786e23249bcf03002daadd8516af",
+      "bytes": 285500
+    }
+  },
+  "repo_doc_hashes": {
+    "/Users/joshuaeisenhart/Codex-Ratchet/system_v5/docs/session_20260606_physics_excavation/17_CODEX_DEEP_AUDIT_CLAUDE_WAVE_RECEIPTS.md": {
+      "sha256": "47188661ed31a4a59173c73bfa3687126c476639aefc16019c47893b8524a669",
+      "bytes": 10770
+    },
+    "/Users/joshuaeisenhart/Codex-Ratchet/system_v5/docs/session_20260606_physics_excavation/18_CARRIER_READOUT_DISCRIMINATOR_MATRIX.md": {
+      "sha256": "98efaa33950c41601fd9d4d74d0649a920a7d82d6b6673de46a1139b142b3840",
+      "bytes": 10738
+    },
+    "/Users/joshuaeisenhart/Codex-Ratchet/system_v5/docs/session_20260606_physics_excavation/18_CLAUDE_CARRIER_READOUT_MATRIX_PROMPT.txt": {
+      "sha256": "6b13be1ec5a4cc0bdad014c57b41ed932f849bfda2185f73012b90e73e74a436",
+      "bytes": 4044
+    },
+    "/Users/joshuaeisenhart/Codex-Ratchet/system_v5/docs/session_20260606_physics_excavation/00_INDEX.md": {
+      "sha256": "ac9ebaaf105b410a9a68c7cd207347228b9b8d5901611592452cc095f6ed83e7",
+      "bytes": 21325
+    }
+  },
+  "repo_git_status": "?? system_v5/docs/session_20260606_physics_excavation/00_INDEX.md\n?? system_v5/docs/session_20260606_physics_excavation/17_CODEX_DEEP_AUDIT_CLAUDE_WAVE_RECEIPTS.md\n?? system_v5/docs/session_20260606_physics_excavation/18_CARRIER_READOUT_DISCRIMINATOR_MATRIX.md\n?? system_v5/docs/session_20260606_physics_excavation/18_CLAUDE_CARRIER_READOUT_MATRIX_PROMPT.txt",
+  "wiki_probe_summary": {
+    "page_count": 439,
+    "index_header_count": 439,
+    "indexed_link_count": 481,
+    "missing_pages": [],
+    "orphans": [],
+    "broken_links": [],
+    "stubs": [],
+    "malformed_wikilinks": [],
+    "stale_namespace_wikilinks": []
+  },
+  "overclaim_scan_summary": {
+    "findings": [
+      {
+        "path": "/Users/joshuaeisenhart/wiki/projects/codex-ratchet/carrier-readout-discriminator-matrix-intake-2026-06-06.md",
+        "line": 59,
+        "pattern": "formal admission",
+        "guarded": true,
+        "text": "| `/Users/joshuaeisenhart/Codex-Ratchet/system_v5/ops/formal_scouts/results/three_spinor_associator_lifted_bracketing_probe_results.json` | `formal_scout` | validator passes on the current receipt; `all_pass=true` | `promotion_allowed=false"
+      },
+      {
+        "path": "/Users/joshuaeisenhart/wiki/projects/codex-ratchet/carrier-readout-discriminator-matrix-intake-2026-06-06.md",
+        "line": 86,
+        "pattern": "alpha evidence",
+        "guarded": true,
+        "text": "| `/Users/joshuaeisenhart/Codex-Ratchet/system_v5/julia_carrier/mp4_fine_structure_explore_julia_results.json` | `classification=scratch_diagnostic`; `all_pass=true`; same scalar to parity; `matches_137=false`; `derived_not_fit=false` | loc"
+      },
+      {
+        "path": "/Users/joshuaeisenhart/wiki/projects/codex-ratchet/carrier-readout-discriminator-matrix-intake-2026-06-06.md",
+        "line": 105,
+        "pattern": "QIT-engine admission",
+        "guarded": true,
+        "text": "| QIT face/knot readout | canonical 3-qubit QIT readout vocabulary and branch separation | scratch diagnostic with metadata repair need; no QIT-engine admission |"
+      },
+      {
+        "path": "/Users/joshuaeisenhart/wiki/projects/codex-ratchet/carrier-readout-discriminator-matrix-intake-2026-06-06.md",
+        "line": 130,
+        "pattern": "fine-structure.*deriv",
+        "guarded": true,
+        "text": "turn fine-structure into an identifiability test, not a constant derivation"
+      },
+      {
+        "path": "/Users/joshuaeisenhart/wiki/projects/codex-ratchet/carrier-readout-discriminator-matrix-intake-2026-06-06.md",
+        "line": 145,
+        "pattern": "alpha evidence",
+        "guarded": true,
+        "text": "The June 6 Codex/Claude cleanup and discriminator packet support a finite owner-carrier -> many readouts research program. The associator branch is the strongest current discriminator, with a formal-scout lifted-bracketing receipt and a new"
+      },
+      {
+        "path": "/Users/joshuaeisenhart/wiki/projects/codex-ratchet/carrier-readout-discriminator-matrix-intake-2026-06-06.md",
+        "line": 155,
+        "pattern": "QIT-engine admission",
+        "guarded": true,
+        "text": "- no QIT-engine admission;"
+      },
+      {
+        "path": "/Users/joshuaeisenhart/wiki/projects/codex-ratchet/carrier-readout-discriminator-matrix-intake-2026-06-06.md",
+        "line": 157,
+        "pattern": "fine-structure.*deriv",
+        "guarded": true,
+        "text": "- no Standard Model, GR, Yang-Mills, baryogenesis, chemistry, biology, fine-structure derivation, or external-physics proof;"
+      },
+      {
+        "path": "/Users/joshuaeisenhart/wiki/projects/codex-ratchet/carrier-readout-discriminator-matrix-intake-2026-06-06.md",
+        "line": 158,
+        "pattern": "canonical by process",
+        "guarded": true,
+        "text": "- no `canonical by process` label for the scratch tranche."
+      },
+      {
+        "path": "/Users/joshuaeisenhart/wiki/projects/codex-ratchet/read-first.md",
+        "line": 227,
+        "pattern": "QIT-engine admission",
+        "guarded": true,
+        "text": "not proof, not final Axis0, not gravity, and not QIT-engine admission."
+      },
+      {
+        "path": "/Users/joshuaeisenhart/wiki/projects/codex-ratchet/read-first.md",
+        "line": 262,
+        "pattern": "canonical by process",
+        "guarded": true,
+        "text": "**2. Status labels never collapsed:** exists \u2192 runs \u2192 passes local rerun \u2192 canonical by process. No upward inference. \"passes local rerun\" is not \"canonical by process.\" Banned synonyms \u2014 \"verified,\" \"confirmed,\" \"works,\" \"correct\" \u2014 are no"
+      },
+      {
+        "path": "/Users/joshuaeisenhart/wiki/projects/codex-ratchet/current-decisive-frame-loader-2026-06-06.md",
+        "line": 47,
+        "pattern": "QIT-engine admission",
+        "guarded": true,
+        "text": "- no QIT-engine admission"
+      },
+      {
+        "path": "/Users/joshuaeisenhart/wiki/projects/codex-ratchet/geometric-constraint-manifold-frontier-2026-06-06.md",
+        "line": 117,
+        "pattern": "QIT-engine admission",
+        "guarded": true,
+        "text": "- no QIT-engine admission"
+      },
+      {
+        "path": "/Users/joshuaeisenhart/wiki/projects/codex-ratchet/geometric-constraint-manifold-frontier-2026-06-06.md",
+        "line": 186,
+        "pattern": "QIT-engine admission",
+        "guarded": true,
+        "text": "- no QIT-engine admission language"
+      }
+    ],
+    "unguarded": []
+  },
+  "wiki_probe_final_summary": {
+    "page_count": 439,
+    "index_header_count": 439,
+    "indexed_link_count": 481,
+    "missing_pages": [],
+    "orphans": [],
+    "broken_links": [],
+    "stubs": [],
+    "malformed_wikilinks": [],
+    "stale_namespace_wikilinks": []
+  },
+  "overclaim_scan_final_summary": {
+    "findings": [
+      {
+        "path": "/Users/joshuaeisenhart/wiki/projects/codex-ratchet/carrier-readout-discriminator-matrix-intake-2026-06-06.md",
+        "line": 59,
+        "pattern": "formal admission",
+        "guarded": true,
+        "text": "| `/Users/joshuaeisenhart/Codex-Ratchet/system_v5/ops/formal_scouts/results/three_spinor_associator_lifted_bracketing_probe_results.json` | `formal_scout` | validator passes on the current receipt; `all_pass=true` | `promotion_allowed=false"
+      },
+      {
+        "path": "/Users/joshuaeisenhart/wiki/projects/codex-ratchet/carrier-readout-discriminator-matrix-intake-2026-06-06.md",
+        "line": 86,
+        "pattern": "alpha evidence",
+        "guarded": true,
+        "text": "| `/Users/joshuaeisenhart/Codex-Ratchet/system_v5/julia_carrier/mp4_fine_structure_explore_julia_results.json` | `classification=scratch_diagnostic`; `all_pass=true`; same scalar to parity; `matches_137=false`; `derived_not_fit=false` | loc"
+      },
+      {
+        "path": "/Users/joshuaeisenhart/wiki/projects/codex-ratchet/carrier-readout-discriminator-matrix-intake-2026-06-06.md",
+        "line": 105,
+        "pattern": "QIT-engine admission",
+        "guarded": true,
+        "text": "| QIT face/knot readout | canonical 3-qubit QIT readout vocabulary and branch separation | scratch diagnostic with metadata repair need; no QIT-engine admission |"
+      },
+      {
+        "path": "/Users/joshuaeisenhart/wiki/projects/codex-ratchet/carrier-readout-discriminator-matrix-intake-2026-06-06.md",
+        "line": 130,
+        "pattern": "fine-structure.*deriv",
+        "guarded": true,
+        "text": "turn fine-structure into an identifiability test, not a constant derivation"
+      },
+      {
+        "path": "/Users/joshuaeisenhart/wiki/projects/codex-ratchet/carrier-readout-discriminator-matrix-intake-2026-06-06.md",
+        "line": 145,
+        "pattern": "alpha evidence",
+        "guarded": true,
+        "text": "The June 6 Codex/Claude cleanup and discriminator packet support a finite owner-carrier -> many readouts research program. The associator branch is the strongest current discriminator, with a formal-scout lifted-bracketing receipt and a new"
+      },
+      {
+        "path": "/Users/joshuaeisenhart/wiki/projects/codex-ratchet/carrier-readout-discriminator-matrix-intake-2026-06-06.md",
+        "line": 155,
+        "pattern": "QIT-engine admission",
+        "guarded": true,
+        "text": "- no QIT-engine admission;"
+      },
+      {
+        "path": "/Users/joshuaeisenhart/wiki/projects/codex-ratchet/carrier-readout-discriminator-matrix-intake-2026-06-06.md",
+        "line": 157,
+        "pattern": "fine-structure.*deriv",
+        "guarded": true,
+        "text": "- no Standard Model, GR, Yang-Mills, baryogenesis, chemistry, biology, fine-structure derivation, or external-physics proof;"
+      },
+      {
+        "path": "/Users/joshuaeisenhart/wiki/projects/codex-ratchet/carrier-readout-discriminator-matrix-intake-2026-06-06.md",
+        "line": 158,
+        "pattern": "canonical by process",
+        "guarded": true,
+        "text": "- no `canonical by process` label for the scratch tranche."
+      },
+      {
+        "path": "/Users/joshuaeisenhart/wiki/projects/codex-ratchet/read-first.md",
+        "line": 227,
+        "pattern": "QIT-engine admission",
+        "guarded": true,
+        "text": "not proof, not final Axis0, not gravity, and not QIT-engine admission."
+      },
+      {
+        "path": "/Users/joshuaeisenhart/wiki/projects/codex-ratchet/read-first.md",
+        "line": 262,
+        "pattern": "canonical by process",
+        "guarded": true,
+        "text": "**2. Status labels never collapsed:** exists \u2192 runs \u2192 passes local rerun \u2192 canonical by process. No upward inference. \"passes local rerun\" is not \"canonical by process.\" Banned synonyms \u2014 \"verified,\" \"confirmed,\" \"works,\" \"correct\" \u2014 are no"
+      },
+      {
+        "path": "/Users/joshuaeisenhart/wiki/projects/codex-ratchet/current-decisive-frame-loader-2026-06-06.md",
+        "line": 47,
+        "pattern": "QIT-engine admission",
+        "guarded": true,
+        "text": "- no QIT-engine admission"
+      },
+      {
+        "path": "/Users/joshuaeisenhart/wiki/projects/codex-ratchet/geometric-constraint-manifold-frontier-2026-06-06.md",
+        "line": 117,
+        "pattern": "QIT-engine admission",
+        "guarded": true,
+        "text": "- no QIT-engine admission"
+      },
+      {
+        "path": "/Users/joshuaeisenhart/wiki/projects/codex-ratchet/geometric-constraint-manifold-frontier-2026-06-06.md",
+        "line": 186,
+        "pattern": "QIT-engine admission",
+        "guarded": true,
+        "text": "- no QIT-engine admission language"
+      },
+      {
+        "path": "/Users/joshuaeisenhart/wiki/log.md",
+        "line": 7,
+        "pattern": "fine-structure.*deriv",
+        "guarded": true,
+        "text": "- Claim ceiling: wiki model-routing / receipt intake only. No final `M(C)`, no `M(C)+NA`, no PEPS3D/final carrier, no QIT-engine admission, no Axis0/Xi/Phi0/bridge/gravity/physics promotion, no Standard Model/GR/Yang-Mills/fine-structure de"
+      },
+      {
+        "path": "/Users/joshuaeisenhart/wiki/log.md",
+        "line": 7,
+        "pattern": "QIT-engine admission",
+        "guarded": true,
+        "text": "- Claim ceiling: wiki model-routing / receipt intake only. No final `M(C)`, no `M(C)+NA`, no PEPS3D/final carrier, no QIT-engine admission, no Axis0/Xi/Phi0/bridge/gravity/physics promotion, no Standard Model/GR/Yang-Mills/fine-structure de"
+      },
+      {
+        "path": "/Users/joshuaeisenhart/wiki/log.md",
+        "line": 7,
+        "pattern": "canonical by process",
+        "guarded": true,
+        "text": "- Claim ceiling: wiki model-routing / receipt intake only. No final `M(C)`, no `M(C)+NA`, no PEPS3D/final carrier, no QIT-engine admission, no Axis0/Xi/Phi0/bridge/gravity/physics promotion, no Standard Model/GR/Yang-Mills/fine-structure de"
+      },
+      {
+        "path": "/Users/joshuaeisenhart/wiki/log.md",
+        "line": 73,
+        "pattern": "formal admission",
+        "guarded": true,
+        "text": "- Appended the closeout receipt to `hermes-current/wizard-v4-3-mmm-maintenance-run-receipt-2026-06-06.md`. Cron list still shows finite steward `497a2eaaa178` enabled/scheduled (`every 45m`, repeat `8`, deliver `origin`, next run `2026-06-0"
+      },
+      {
+        "path": "/Users/joshuaeisenhart/wiki/log.md",
+        "line": 81,
+        "pattern": "formal admission",
+        "guarded": true,
+        "text": "- Post-edit verification: `/tmp/wiki_probe_post_index_v43_mmm_steward_20260606-170839.json` returned clean (`page_count=439`, `index_header_count=439`, no missing/orphans/broken/stubs/malformed/stale namespace links). Route truth: native `d"
+      },
+      {
+        "path": "/Users/joshuaeisenhart/wiki/log.md",
+        "line": 89,
+        "pattern": "formal admission",
+        "guarded": true,
+        "text": "- Patched `current-vs-legacy.md`, `active-plans.md`, and `wiki-wizard-v4-2-autoloop-control.md` so future agents use v4.3 wording for maintenance/object-preservation while naming any v4.2 topology bridge explicitly. Verification before this"
+      },
+      {
+        "path": "/Users/joshuaeisenhart/wiki/log.md",
+        "line": 184,
+        "pattern": "QIT-engine admission",
+        "guarded": true,
+        "text": "- Claim ceiling: wiki frame-loader/frontier contract only. No current manifold admission, no final carrier geometry, no Axis0 closure, no Xi/Phi0 bridge, no gravity/physics, no FEP/Verlinde bridge, no QIT-engine admission, no Rosetta identi"
+      },
+      {
+        "path": "/Users/joshuaeisenhart/wiki/log.md",
+        "line": 192,
+        "pattern": "formal admission",
+        "guarded": true,
+        "text": "- Claim ceiling: the current Xi shell-geometry/cut-specific bridge reading is killed. This does not kill every possible future Xi construction; it requires any future Xi packet to define a finite object not reproducible by the lambda/entang"
+      },
+      {
+        "path": "/Users/joshuaeisenhart/wiki/log.md",
+        "line": 199,
+        "pattern": "formal admission",
+        "guarded": true,
+        "text": "- Result ceiling: formal-scout audit only; no QIT engine, final IGT, final Xi, final Phi0, Axis0, gravity, physics, bridge promotion, consciousness, perception, FTL, promotion, or formal admission."
+      },
+      {
+        "path": "/Users/joshuaeisenhart/wiki/log.md",
+        "line": 211,
+        "pattern": "QIT-engine admission",
+        "guarded": true,
+        "text": "- Patched `projects/codex-ratchet/read-first.md` to route future workers to the operational theory-correlation artifact. Claim ceiling remains research/correlation support only: no proof, no final physics, no solved gravity/consciousness, n"
+      },
+      {
+        "path": "/Users/joshuaeisenhart/wiki/log.md",
+        "line": 1309,
+        "pattern": "canonical by process",
+        "guarded": true,
+        "text": "- Verification result: direct artifact checks downgraded artifact-only overclaim wording that had used `canonical by process` in the probe-map and thermodynamics synthesis pages; corrected stale controller-alignment language using `controll"
+      },
+      {
+        "path": "/Users/joshuaeisenhart/wiki/log.md",
+        "line": 1321,
+        "pattern": "canonical by process",
+        "guarded": true,
+        "text": "- Notes: this wave stayed in the deeper result/status lane. It removed one stale Axis0 session stamp, downgraded basin/thermodynamics status wording to match current artifacts, softened two controller/status pages so `canonical by process` "
+      },
+      {
+        "path": "/Users/joshuaeisenhart/wiki/log.md",
+        "line": 1736,
+        "pattern": "canonical by process",
+        "guarded": true,
+        "text": "Not `canonical by process`: requires a fresh full-read Tier 3 probe in a new session with the stabilized surface to confirm harness discipline holds for a new worker."
+      }
+    ],
+    "unguarded": []
+  }
+}

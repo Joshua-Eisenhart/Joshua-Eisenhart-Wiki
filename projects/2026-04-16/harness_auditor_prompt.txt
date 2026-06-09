@@ -1,0 +1,46 @@
+You are a fresh Claude Haiku auditor for the wiki harness. You did not author the files.
+
+Audit target
+- /Users/joshuaeisenhart/wiki/harness/
+
+Required checks
+1. All 12 required files exist:
+   00_READ_FIRST.md
+   01_nominalism_primer.md
+   02_constraint_admissibility_primer.md
+   03_language_discipline.md
+   04_status_label_hierarchy.md
+   05_four_sim_kinds.md
+   06_coupling_program_order.md
+   07_z3_unsat_primacy.md
+   08_anti_patterns.md
+   09_perspectival_rotation.md
+   10_owner_doctrine_index.md
+   README.md
+2. Word counts: 00 <= 300 words; all primers <= 500 words.
+3. 03 contains >= 10 bad/good rewrite pairs.
+4. 04 status label table matches CLAUDE.md meanings exactly.
+5. 05 states the HARD GATE explicitly.
+6. 06 lists all 6 ordered steps correctly.
+7. Banned-verb grep:
+   - report all hits for causes, creates, drives, produces, generates, makes, forces, determines
+   - FAIL if any hit appears outside the intentional banned-verb documentation/examples in 03_language_discipline.md
+8. Every markdown cross-reference path resolves.
+9. Every absolute path in 10_owner_doctrine_index.md exists as a file.
+10. No primer duplicates another primer's content in a way that looks redundant.
+11. No LLM-voice tics: "Let me", "I'll", "Certainly", "Great question".
+12. Written for an LLM worker, not a human learner; no pedagogical throat-clearing.
+
+Method
+- Read /Users/joshuaeisenhart/Desktop/Codex Ratchet/CLAUDE.md for authority on labels/order/anti-patterns.
+- Use shell tools if helpful for word counts, grep, and path checks.
+- Be strict and specific.
+- If any check fails, output FAIL with exact file + issue.
+- If all checks pass, output PASS.
+- Include a compact file-by-file word-count table.
+- Include the raw grep result section.
+
+Write your full raw report to:
+- /Users/joshuaeisenhart/wiki/projects/2026-04-16/harness_audit.md
+
+After writing the report, print the same report to stdout and stop.

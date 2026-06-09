@@ -1,0 +1,79 @@
+{
+  "artifact": "tri_engine_rich_tool_contract_rebuild_gate_2026_06_07",
+  "created": "2026-06-07",
+  "trigger": "User identified major system failure: prior Julia/JAX sims used bare arrays/packages instead of rich package-native tooling, so strong sim claims must be redone.",
+  "checked_state": {
+    "codex2_health": {
+      "command": "CODEX_HOME=$HOME/.codex-second /usr/local/bin/codex exec --sandbox read-only --skip-git-repo-check -C /Users/joshuaeisenhart/wiki 'Reply with exactly CODEX_OK'",
+      "observed": "CODEX_OK",
+      "elapsed_seconds_approx": 8.22
+    },
+    "python_tool_stack": {
+      "python_executable": "/Users/joshuaeisenhart/.local/share/codex-ratchet/envs/main/bin/python3",
+      "observed_importable": [
+        "jax", "jax.numpy", "jaxopt", "lineax", "jraph", "ott", "e3nn_jax", "diffrax",
+        "torch", "torch_geometric", "clifford", "geomstats", "e3nn", "functorch",
+        "z3", "cvc5", "sympy", "qutip", "quimb", "cotengra", "autoray", "toponetx", "gudhi", "rustworkx", "networkx", "xgi",
+        "numpy", "scipy", "mpmath"
+      ]
+    },
+    "julia_tool_stack": {
+      "julia_executable": "/opt/homebrew/bin/julia",
+      "julia_version": "1.12.6",
+      "active_project": "/Users/joshuaeisenhart/.julia/environments/v1.12/Project.toml",
+      "observed_importable": ["CliffordAlgebras", "Z3", "JSON", "JSON3"],
+      "observed_missing_or_not_importable": [
+        "Grassmann", "DifferentialEquations", "QuantumClifford", "QuantumOptics", "ITensorNetworks", "ITensors", "ITensorMPS", "Graphs", "TensorOperations", "Symbolics", "TensorKit", "PEPSKit", "IntervalArithmetic", "Attractors"
+      ]
+    },
+    "failure_example": {
+      "jax_file": "/Users/joshuaeisenhart/Codex-Ratchet/system_v5/ops/formal_scouts/sim_foundation_rung0to3_distinguishability_probe.py",
+      "julia_file": "/Users/joshuaeisenhart/Codex-Ratchet/system_v5/julia_carrier/foundation_rung0to3_distinguishability.jl",
+      "jax_imports_observed": ["jax", "jax.numpy"],
+      "julia_imports_observed": ["Dates", "JSON", "LinearAlgebra"],
+      "result_classification": "scratch_diagnostic",
+      "promotion_allowed": false,
+      "formal_admission_allowed": false,
+      "safe_conclusion": "real scratch diagnostic, not proper rich-tool Julia/JAX evidence"
+    },
+    "repo_import_scan_receipt": "/tmp/codex_ratchet_rich_tool_usage_scan_20260607.json"
+  },
+  "skills_created": [
+    "codex-ratchet-tri-engine-rich-tool-contract"
+  ],
+  "skills_patched": [
+    "codex-ratchet-sim-planning",
+    "tool-capability-sim-planning",
+    "nonclassical-sim-contract-audit",
+    "nominalist-harness-steering"
+  ],
+  "skill_reference_written": "codex-ratchet-tri-engine-rich-tool-contract/references/verified-tool-state-2026-06-07.md",
+  "wiki_pages_created": [
+    "projects/codex-ratchet/tri-engine-rich-tool-sim-contract-failure-and-rebuild-2026-06-07.md"
+  ],
+  "wiki_pages_patched": [
+    "projects/codex-ratchet/read-first.md",
+    "hermes-current/active-intentions.md",
+    "hermes-current/active-plans.md",
+    "index.md"
+  ],
+  "claim_ceiling": [
+    "process/tooling correction only",
+    "prior bare-engine sims remain useful scratch diagnostics but not rich-tool evidence",
+    "no final M(C)",
+    "no QIT-engine admission",
+    "no carrier/geometry/Axis0/Xi/Phi0/gravity/physics/SM/GR promotion",
+    "no Julia missing-package install claim"
+  ],
+  "verification": {
+    "prelog_probe": "/tmp/wiki_probe_tri_engine_rich_tool_contract_prelog_20260607.json",
+    "final_probe": "/tmp/wiki_probe_tri_engine_rich_tool_contract_final_20260607.json",
+    "final_receipt": "/tmp/tri_engine_rich_tool_contract_final_receipt_20260607.json",
+    "final_probe_clean": true,
+    "page_count": 439,
+    "index_header_count": 439,
+    "indexed_link_count": 485,
+    "targeted_unguarded_overclaim_count": 0,
+    "skill_view_verified": true
+  }
+}

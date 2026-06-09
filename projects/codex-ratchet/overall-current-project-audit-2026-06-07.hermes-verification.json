@@ -1,0 +1,98 @@
+{
+  "artifact": "overall_current_project_audit_2026_06_07",
+  "created": "2026-06-07",
+  "scope": [
+    "Hermes current spine",
+    "Codex Ratchet project front door",
+    "current decisive M(C) frame loader",
+    "2026-06-07 current TOE contender graveyard workspace intake",
+    "2026-06-07 finite Feynman path-integral foundation packet",
+    "root index and second-layer routers"
+  ],
+  "auditors": {
+    "hermes_controller": "direct file reads, deterministic scans, wiki_probe, source-result parsing, pytest reruns",
+    "native_delegate_task": "blocked before task work by invalid xAI API key",
+    "codex2_read_only_worker": "/tmp/codex2_overall_current_project_audit_20260607.md"
+  },
+  "source_receipts": {
+    "pre_inventory": "/tmp/overall_current_project_audit_inventory_20260607.json",
+    "source_rerun": "/tmp/overall_current_project_audit_source_rerun_20260607.json",
+    "postpatch_probe": "/tmp/wiki_probe_overall_current_project_audit_postpatch_20260607.json",
+    "postpatch_summary": "/tmp/overall_current_project_audit_postpatch_receipt_20260607.json",
+    "final_probe_after_audit_note_and_log": "/tmp/wiki_probe_overall_current_project_audit_final_20260607.json",
+    "final_closeout_summary": "/tmp/overall_current_project_audit_final_receipt_20260607.json"
+  },
+  "source_artifact_checks": {
+    "batch005": {
+      "summary": "/tmp/current_toe_contender_mining_batch_005/results/batch_005_summary.json",
+      "exists": true,
+      "total_packets": 13,
+      "all_packets_passed_local_diagnostics": true,
+      "promotion_allowed_count": 0,
+      "formal_admission_allowed_count": 0,
+      "pytest_rerun": "2 passed in 0.22s"
+    },
+    "batch006": {
+      "summary": "/tmp/current_toe_contender_mining_batch_006/results/batch_006_summary.json",
+      "exists": true,
+      "total_packets": 15,
+      "all_packets_passed_local_diagnostics": true,
+      "promotion_allowed_count": 0,
+      "formal_admission_allowed_count": 0,
+      "pytest_rerun": "4 passed in 0.18s"
+    },
+    "batch007": {
+      "summary": "/tmp/current_toe_contender_mining_batch_007/results/batch_007_summary.json",
+      "exists": true,
+      "total_packets": 16,
+      "all_packets_passed_local_diagnostics": true,
+      "promotion_allowed_count": 0,
+      "formal_admission_allowed_count": 0,
+      "pytest_rerun": "4 passed in 0.13s"
+    },
+    "finite_path_integral": {
+      "summary": "/tmp/josh_finite_path_integral_packet_001/results/finite_path_integral_summary.json",
+      "exists": true,
+      "artifact": "josh_finite_feynman_path_integral_v0",
+      "classification": "scratch_foundation_packet_keep_not_admitted",
+      "promotion_allowed": false,
+      "formal_admission_allowed": false,
+      "admissible_path_count": 8,
+      "pytest_rerun": "7 passed in 0.13s"
+    }
+  },
+  "wiki_verification": {
+    "probe_clean": true,
+    "page_count": 439,
+    "index_header_count": 439,
+    "indexed_link_count": 484,
+    "nonzero_probe_buckets": {},
+    "targeted_promotion_scan_unguarded_count": 0
+  },
+  "repairs_applied": [
+    {
+      "path": "index.md",
+      "line_after_patch": 9,
+      "change": "Added [[hermes-current/active-plans]] to the Hermes / LLM Alignment Front Door block."
+    },
+    {
+      "path": "projects/codex-ratchet/finite-feynman-path-integral-foundation-packet-2026-06-07.md",
+      "lines_after_patch": [196, 198],
+      "change": "Changed winner-like 'Next best packet' wording to 'Suggested next queued packet'."
+    }
+  ],
+  "audit_findings": {
+    "structural_routing": "clean after bounded repairs",
+    "status_discipline": "no unguarded promotion found in targeted current-project scan",
+    "anti_collapse": "TOE graveyard rows and FPI variants remain live/separate rather than merged into one winner",
+    "authority_coherence": "Hermes spine, current-vs-legacy, and Codex Ratchet front door agree that M(C) is missing/not admitted; v4.3 remains object-preservation/maintenance guard, not replacement runtime"
+  },
+  "claim_ceiling": [
+    "audit and wiki routing repair only",
+    "no final M(C)",
+    "no QIT-engine admission",
+    "no Axis0/Xi/Phi0/gravity/physics promotion",
+    "no external TOE admission",
+    "no canonical/process promotion for scratch packets"
+  ]
+}

@@ -1,0 +1,23 @@
+You are W1 returning for a narrow correction pass on the harness files you wrote.
+
+Read first
+1. /Users/joshuaeisenhart/wiki/harness/00_READ_FIRST.md
+2. /Users/joshuaeisenhart/wiki/harness/01_nominalism_primer.md
+3. /Users/joshuaeisenhart/wiki/harness/02_constraint_admissibility_primer.md
+4. /Users/joshuaeisenhart/wiki/harness/03_language_discipline.md
+5. /Users/joshuaeisenhart/Desktop/Codex Ratchet/CLAUDE.md
+6. /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/new docs/LLM_CONTROLLER_CONTRACT.md
+7. /Users/joshuaeisenhart/.claude/projects/-Users-joshuaeisenhart-Desktop-Codex-Ratchet/memory/user_nominalist_system.md
+8. /Users/joshuaeisenhart/.claude/projects/-Users-joshuaeisenhart-Desktop-Codex-Ratchet/memory/feedback_language_is_rationalist.md
+
+Fix exactly these issues and nothing else:
+- 00_READ_FIRST.md must list 01 through 10, each with a one-line description. It currently lists only 01-03.
+- 00_READ_FIRST.md must still stay under 300 words.
+- 01_nominalism_primer.md must be reduced to <= 500 words while preserving the required points from the original brief.
+- 02_constraint_admissibility_primer.md must be reduced to <= 500 words while preserving the required points from the original brief.
+- Keep first line `last_updated: 2026-04-16`.
+- Keep relative-path cross-references.
+- Keep nominalist language discipline.
+- Do not touch any other harness files.
+
+After editing, report exact word counts for 00, 01, 02, 03.

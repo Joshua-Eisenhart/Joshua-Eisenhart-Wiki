@@ -1,3 +1,10 @@
+## 2026-06-08 - Wiki projects/concepts local git bucket
+
+- Added the next safe content bucket to local git: `projects/` and `concepts/`, plus this log update.
+- Pre-scan receipt: `/tmp/wiki_git_bucket_projects_concepts_20260609.json`. Observed `566` files / `5.48 MB` across `projects` (`123` files / `3.10 MB`) and `concepts` (`443` files / `2.38 MB`). Largest current files were steward/inventory/audit receipts under `projects/codex-ratchet/`.
+- Conservative token/private-key scan over this bucket found `0` high-confidence secret-pattern hits and `0` suspicious secret filenames. No remote is configured; no push was attempted.
+- Scope still deliberately excludes bulk `wizard/`, `raw/`, `_archive/`, memory/source buckets, and miscellaneous lower-priority folders pending separate staging decisions.
+
 ## 2026-06-08 - Wiki core spine local git commit
 
 - Added the first content bucket to local git after the bootstrap commit: root front-door files, `config/`, `hermes-current/`, and `tools/wiki_probe.py`.

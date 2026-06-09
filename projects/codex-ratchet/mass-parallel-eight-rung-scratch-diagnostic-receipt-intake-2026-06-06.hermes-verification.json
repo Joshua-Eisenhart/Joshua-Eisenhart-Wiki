@@ -1,0 +1,79 @@
+{
+  "task": "mass-parallel eight-rung scratch-diagnostic receipt intake",
+  "date": "2026-06-06",
+  "route_truth": {
+    "work_type": "wiki receipt intake and source routing only",
+    "repo_mutation": false,
+    "sim_execution": false,
+    "claim_ceiling": "scratch-diagnostic receipt intake only; no physics, bridge, QIT-engine, M(C), Axis0, gravity, dark-sector, Standard Model, GR, or manifold admission"
+  },
+  "source_packet": "/Users/joshuaeisenhart/Codex-Ratchet/system_v5/docs/session_20260606_physics_excavation/15_MASS_PARALLEL_EIGHT_RUNG_RECEIPT_INTAKE.md",
+  "prompt_packet": "/Users/joshuaeisenhart/Codex-Ratchet/system_v5/docs/session_20260606_physics_excavation/15_HERMES_MASS_PARALLEL_RUNG_INTAKE_PROMPT.txt",
+  "result_path_verification": {
+    "rung_count": 8,
+    "missing_paths": 0,
+    "bad_result_fields": 0,
+    "required_fields": {
+      "classification": "scratch_diagnostic",
+      "all_pass": true,
+      "promotion_allowed": false,
+      "formal_admission_allowed": false
+    },
+    "result_sha256_12": {
+      "su3_color_from_g2_octonion_cl6_results.json": "ee1678ae8a5b",
+      "mp_full_sm_gauge_results.json": "4171c6db515e",
+      "mp_su2u1_electroweak_results.json": "27a4ee710a4f",
+      "mp_sedenion_three_generations_results.json": "d91d67322f79",
+      "mp_cross_model_convergence_results.json": "b0dafc2b0371",
+      "mp_full_carrier_gravity_results.json": "25388394e23c",
+      "mp_universal_clock_results.json": "3ad5949c81dd",
+      "mp_sequential_universe_toy_results.json": "a71e90dd4f76"
+    }
+  },
+  "files_changed": [
+    "projects/codex-ratchet/mass-parallel-eight-rung-scratch-diagnostic-receipt-intake-2026-06-06.md",
+    "projects/codex-ratchet/read-first.md",
+    "projects/codex-ratchet/geometric-constraint-manifold-frontier-2026-06-06.md",
+    "concepts/model-convergence-qit-engine-full-stack.md",
+    "concepts/entropic-spacetime-monism-readout-map.md",
+    "projects/codex-ratchet/actual-physics-docs-processing-map-2026-06-06.md",
+    "index.md",
+    "log.md",
+    "projects/codex-ratchet/mass-parallel-eight-rung-scratch-diagnostic-receipt-intake-2026-06-06.hermes-verification.json"
+  ],
+  "validation": {
+    "wiki_probe": {
+      "path": "/tmp/wiki_probe_mass_parallel_eight_rung_intake_20260606.json",
+      "page_count": 439,
+      "index_header_count": 439,
+      "indexed_link_count": 480,
+      "missing_pages": 0,
+      "orphans": 0,
+      "broken_links": 0,
+      "stubs": 0,
+      "malformed_wikilinks": 0,
+      "stale_namespace_wikilinks": 0,
+      "sha256": "0bb84509ce61758ff98e95071ce8f30e6ac4720e964d82c7c9d9df3c244a034f"
+    },
+    "overclaim_scan": {
+      "requested_tool": "rg",
+      "requested_tool_available": false,
+      "fallback": "Python regex equivalent over non-raw active markdown",
+      "path": "/tmp/overclaim_equivalent_mass_parallel_eight_rung_intake_20260606.json",
+      "hits": 0,
+      "sha256": "126c2cd68138c1cfaf32fe9779656d352f6c011a2c9d6a863cf714b7e5e22f29"
+    },
+    "positive_receipt_scan": {
+      "fallback": "Python regex equivalent over projects/codex-ratchet and concepts",
+      "path": "/tmp/positive_receipt_equivalent_mass_parallel_eight_rung_intake_20260606.json",
+      "hit_file_count": 51,
+      "hit_line_count": 201,
+      "new_page_hits": 16,
+      "sha256": "84e8f1243f8bc9106e5ca3085f95176e38c9a2e8669d3373e3111834e231e036"
+    }
+  },
+  "notes": [
+    "The packet requested rg, but rg is not installed in this shell; Hermes used a Python regex equivalent and wrote the receipt file.",
+    "The new page lives under projects/, which wiki_probe indexes for link resolution but does not add to published page_count because published roots are entities/concepts/comparisons/queries. Therefore index_header_count correctly remains 439."
+  ]
+}
