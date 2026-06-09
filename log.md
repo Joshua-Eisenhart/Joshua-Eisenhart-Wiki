@@ -1,3 +1,8 @@
+## 2026-06-08 - Wiki final local git hygiene
+
+- Added `.gitignore` coverage for `*.corrupt-backup-*`. The small `index.md.corrupt-backup-2026-04-16` file is preserved on disk but ignored rather than committed or deleted.
+- Final state after this tranche should be tracked/committed wiki corpus plus ignored cache/workspace/backup artifacts only, including any regenerated `.DS_Store` files. No remote is configured; no push was attempted.
+
 ## 2026-06-08 - Wiki raw source bucket local git commit
 
 - Added `raw/` to local git as its own source-material bucket.

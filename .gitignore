@@ -20,7 +20,8 @@ __pycache__/
 *.swo
 *~
 
-# Local-only scratch folders
+# Local-only scratch / backup artifacts
 .trash/
 .tmp/
 tmp/
+*.corrupt-backup-*
