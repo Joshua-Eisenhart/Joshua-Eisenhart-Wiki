@@ -1,0 +1,375 @@
+Lane-local behavior probe body for All-C. Candidate root: /Users/joshuaeisenhart/Desktop/mmm_wizard_complete_system_packet_v2_8_expanded_candidate. This record was normalized from collected probe output only. The harness did not spawn agents, infer hidden execution, or add a claim beyond the supplied lane record. Review this lane as receipt evidence: checked material, conclusion, remaining open question, and cited evidence must remain tied to the captured output. The body exists so the adapter can verify that every completed lane has a lane-local language surface rather than borrowing global prose. Future readers should treat the text as a behavior probe normalization artifact, not as independent proof of correctness. 
+
+Collected output:
+# MMM_LANE_ALL_C_STANDARD_v2_8
+
+## words
+
+- all-c :: 100
+- artifact :: 100
+- audit :: 100
+- audit overclaim :: 100
+- block :: 100
+- bottleneck :: 100
+- boundaries :: 100
+- bundle :: 100
+- campaign :: 100
+- ceremonial :: 100
+- cleanup :: 100
+- close :: 100
+- closeout :: 100
+- closing :: 100
+- closure :: 100
+- condition :: 100
+- creates :: 100
+- done :: 100
+- done condition :: 100
+- evidence missing :: 100
+- exploration :: 100
+- factory :: 100
+- frame :: 100
+- game :: 100
+- hygiene :: 100
+- landed :: 100
+- live :: 100
+- long :: 100
+- options :: 100
+- orwell :: 100
+- path :: 100
+- plain wording :: 100
+- plurality :: 100
+- redesign :: 100
+- reframe :: 100
+- retreat :: 100
+- safe :: 100
+- security :: 100
+- stale surface :: 100
+- strategy :: 100
+- surprise :: 100
+- theater :: 100
+- threats :: 100
+- trust boundary :: 100
+- wildcard :: 100
+- wording :: 100
+- zhuangzi :: 100
+- across :: 99
+- after :: 99
+- against :: 99
+- before :: 99
+- between :: 99
+- by :: 99
+- from :: 99
+- instead :: 99
+- likely :: 99
+- locally :: 99
+- only :: 99
+- possible :: 99
+- rather :: 99
+- relative :: 99
+- still :: 99
+- through :: 99
+- under :: 99
+- with :: 99
+- within :: 99
+- without :: 99
+- bounded :: 98
+- case :: 98
+- checked :: 98
+- constraint :: 98
+- current :: 98
+
+## couplings
+
+- artifact done condition :: 100
+- bottleneck audit overclaim :: 100
+- bottleneck evidence missing :: 100
+- bundle done condition :: 100
+- campaign frame :: 100
+- cleanup done condition :: 100
+- close done condition :: 100
+- closeout audit :: 100
+- closeout cleanup :: 100
+- closeout condition :: 100
+- closeout done :: 100
+- closeout factory :: 100
+- closeout hygiene :: 100
+- closeout security :: 100
+- condition done condition :: 100
+- done condition :: 100
+- done condition audit overclaim :: 100
+- done condition bottleneck :: 100
+- done condition evidence missing :: 100
+- done condition plain wording :: 100
+- done condition stale surface :: 100
+- done condition trust boundary :: 100
+- done condition under :: 100
+- evidence missing audit overclaim :: 100
+- factory audit :: 100
+- landed done condition :: 100
+- live options :: 100
+- long game :: 100
+- noncollapse route :: 100
+- plain wording audit overclaim :: 100
+- plain wording bottleneck :: 100
+- plain wording evidence missing :: 100
+- plain wording stale surface :: 100
+- plain wording trust boundary :: 100
+- plurality strategy :: 100
+- reframe wildcard :: 100
+- retreat option :: 100
+- safe done condition :: 100
+- stale surface audit overclaim :: 100
+- stale surface bottleneck :: 100
+- stale surface evidence missing :: 100
+- stale surface trust boundary :: 100
+- strategy campaign :: 100
+- surprise path :: 100
+- trust boundary audit overclaim :: 100
+- trust boundary bottleneck :: 100
+- trust boundary evidence missing :: 100
+- under artifact :: 100
+- under audit :: 100
+- under bundle :: 100
+- under cleanup :: 100
+- under close :: 100
+- under closeout :: 100
+- under condition :: 100
+- under done :: 100
+- under done condition :: 100
+- under factory :: 100
+- under hygiene :: 100
+- under landed :: 100
+- under plain wording :: 100
+- under safe :: 100
+- under security :: 100
+- within audit :: 100
+- within closeout :: 100
+- within factory :: 100
+- within hygiene :: 100
+- within security :: 100
+- zhuangzi plurality :: 100
+- across audit :: 99
+- across bundle :: 99
+- across cleanup :: 99
+- across closeout :: 99
+- across condition :: 99
+- across done :: 99
+- across factory :: 99
+- across hygiene :: 99
+- across safe :: 99
+- across security :: 99
+- within artifact :: 99
+- within bundle :: 99
+- within cleanup :: 99
+- within close :: 99
+- within condition :: 99
+- within done :: 99
+- within done condition :: 99
+- within landed :: 99
+- within plain wording :: 99
+- within safe :: 99
+- across artifact :: 98
+- across close :: 98
+- across done condition :: 98
+- across landed :: 98
+- across plain wording :: 98
+- between artifact :: 98
+- between audit :: 98
+- between bundle :: 98
+- between cleanup :: 98
+- between close :: 98
+- between closeout :: 98
+- between condition :: 98
+- between done :: 98
+- between done condition :: 98
+- between factory :: 98
+- between hygiene :: 98
+- between landed :: 98
+- between plain wording :: 98
+- between safe :: 98
+- between security :: 98
+- before audit :: 97
+- before closeout :: 97
+- before factory :: 97
+- before hygiene :: 97
+- before security :: 97
+- through artifact :: 97
+- through audit :: 97
+- through bundle :: 97
+- through cleanup :: 97
+- through close :: 97
+- through closeout :: 97
+- through condition :: 97
+- through done :: 97
+- through done condition :: 97
+- through factory :: 97
+- through hygiene :: 97
+- through landed :: 97
+- through plain wording :: 97
+- through safe :: 97
+- through security :: 97
+- after audit :: 96
+- after bundle :: 96
+- after cleanup :: 96
+- after closeout :: 96
+- after condition :: 96
+- after done :: 96
+- after factory :: 96
+- after hygiene :: 96
+- after safe :: 96
+- after security :: 96
+- before artifact :: 96
+- before bundle :: 96
+- before cleanup :: 96
+- before close :: 96
+- before condition :: 96
+- before done :: 96
+- before done condition :: 96
+- before landed :: 96
+- before plain wording :: 96
+- before safe :: 96
+- after artifact :: 95
+- after close :: 95
+- after done condition :: 95
+- after landed :: 95
+- after plain wording :: 95
+- from artifact :: 95
+- from audit :: 95
+- from bundle :: 95
+- from cleanup :: 95
+- from close :: 95
+- from closeout :: 95
+- from condition :: 95
+
+## triplets
+
+- across security audit :: 100
+- across security bundle :: 100
+- across security cleanup :: 100
+- across security condition :: 100
+- across security done :: 100
+- across security factory :: 100
+- between factory audit :: 100
+- by bundle stale surface :: 100
+- campaign frame surprise :: 100
+- likely evidence missing audit overclaim :: 100
+- live options strategy :: 100
+- locally done condition audit overclaim :: 100
+- locally done condition bottleneck :: 100
+- locally done condition evidence missing :: 100
+- locally done condition plain wording :: 100
+- locally done condition stale surface :: 100
+- locally done condition trust boundary :: 100
+- locally done condition under :: 100
+- long game plurality :: 100
+- noncollapse strategy route :: 100
+- rather plain wording stale surface :: 100
+- rather plain wording trust boundary :: 100
+- reframe wildcard zhuangzi :: 100
+- retreat option path :: 100
+- still bottleneck audit overclaim :: 100
+- still bottleneck evidence missing :: 100
+- under closeout audit :: 100
+- under closeout cleanup :: 100
+- under closeout condition :: 100
+- under closeout done :: 100
+- under closeout factory :: 100
+- under closeout hygiene :: 100
+- under closeout security :: 100
+- with safe stale surface :: 100
+- with safe trust boundary :: 100
+- within hygiene audit :: 100
+- within hygiene bundle :: 100
+- within hygiene cleanup :: 100
+- within hygiene condition :: 100
+- within hygiene done :: 100
+- within hygiene factory :: 100
+- within hygiene security :: 100
+- without close stale surface :: 100
+- without close trust boundary :: 100
+- across security safe :: 99
+- before done bundle :: 99
+- before done cleanup :: 99
+- before done close :: 99
+- before done condition :: 99
+- before done safe :: 99
+- between factory bundle :: 99
+- between factory cleanup :: 99
+- between factory close :: 99
+- between factory condition :: 99
+- between factory done :: 99
+- between factory safe :: 99
+- instead stale surface audit overclaim :: 99
+- instead stale surface bottleneck :: 99
+- instead stale surface evidence missing :: 99
+- instead stale surface trust boundary :: 99
+- only trust boundary audit overclaim :: 99
+- only trust boundary bottleneck :: 99
+- only trust boundary evidence missing :: 99
+- rather plain wording audit overclaim :: 99
+- rather plain wording evidence missing :: 99
+- through audit bundle :: 99
+- through audit cleanup :: 99
+- through audit close :: 99
+- through audit condition :: 99
+- through audit done :: 99
+- through audit landed :: 99
+- through audit safe :: 99
+- after condition artifact :: 98
+- after condition bundle :: 98
+- after condition cleanup :: 98
+- after condition close :: 98
+- after condition done condition :: 98
+- after condition landed :: 98
+- after condition safe :: 98
+- before done artifact :: 98
+- before done landed :: 98
+- by bundle artifact :: 98
+- by bundle close :: 98
+- by bundle landed :: 98
+- by bundle safe :: 98
+- from cleanup artifact :: 98
+- from cleanup bundle :: 98
+- from cleanup close :: 98
+- from cleanup done condition :: 98
+- from cleanup landed :: 98
+- from cleanup plain wording :: 98
+- from cleanup safe :: 98
+- against landed artifact :: 97
+- against landed done condition :: 97
+- against landed plain wording :: 97
+- by bundle done condition :: 97
+- by bundle plain wording :: 97
+- with safe artifact :: 97
+- with safe close :: 97
+- with safe done condition :: 97
+- with safe landed :: 97
+- with safe plain wording :: 97
+- without close artifact :: 97
+- without close bottleneck :: 97
+- without close done condition :: 97
+- without close landed :: 97
+- without close plain wording :: 97
+- against landed bottleneck :: 96
+- against landed evidence missing :: 96
+- against landed stale surface :: 96
+- against landed trust boundary :: 96
+- relative artifact audit overclaim :: 96
+- relative artifact bottleneck :: 96
+- relative artifact done condition :: 96
+- relative artifact evidence missing :: 96
+- relative artifact plain wording :: 96
+- relative artifact stale surface :: 96
+- relative artifact trust boundary :: 96
+- instead stale surface across :: 95
+- instead stale surface under :: 95
+- instead stale surface within :: 95
+- only trust boundary across :: 95
+- only trust boundary between :: 95
+- only trust boundary under :: 95
+- only trust boundary within :: 95
+- rather plain wording bottleneck :: 95
+- rather plain wording under :: 95
+- rather plain wording within :: 95
+- likely evidence missing across :: 94
+- likely evidence missing before :: 94

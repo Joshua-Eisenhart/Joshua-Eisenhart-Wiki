@@ -1,0 +1,533 @@
+{
+  "words": [
+    [
+      1,
+      "secret",
+      100
+    ],
+    [
+      2,
+      "permission",
+      100
+    ],
+    [
+      3,
+      "credential",
+      100
+    ],
+    [
+      4,
+      "unsafe default",
+      100
+    ],
+    [
+      5,
+      "least privilege",
+      100
+    ],
+    [
+      6,
+      "trust boundary",
+      100
+    ],
+    [
+      7,
+      "exposure",
+      100
+    ],
+    [
+      8,
+      "risk",
+      100
+    ],
+    [
+      9,
+      "privilege",
+      100
+    ],
+    [
+      10,
+      "leak",
+      100
+    ],
+    [
+      11,
+      "access",
+      100
+    ],
+    [
+      12,
+      "abuse path",
+      100
+    ],
+    [
+      13,
+      "threat surface",
+      100
+    ],
+    [
+      14,
+      "security",
+      100
+    ],
+    [
+      15,
+      "boundary",
+      100
+    ],
+    [
+      16,
+      "blocker",
+      100
+    ],
+    [
+      17,
+      "token",
+      100
+    ],
+    [
+      18,
+      "threat",
+      100
+    ],
+    [
+      19,
+      "unsafe",
+      100
+    ],
+    [
+      20,
+      "default",
+      100
+    ],
+    [
+      21,
+      "least",
+      100
+    ],
+    [
+      22,
+      "deny",
+      100
+    ],
+    [
+      23,
+      "misconfiguration",
+      100
+    ]
+  ],
+  "couplings": [
+    [
+      1,
+      "exposure boundary",
+      100
+    ],
+    [
+      2,
+      "permission boundary",
+      100
+    ],
+    [
+      3,
+      "secret boundary",
+      100
+    ],
+    [
+      4,
+      "trust boundary",
+      100
+    ],
+    [
+      5,
+      "exposure evidence",
+      100
+    ],
+    [
+      6,
+      "exposure support",
+      100
+    ],
+    [
+      7,
+      "exposure path",
+      100
+    ],
+    [
+      8,
+      "exposure surface",
+      100
+    ],
+    [
+      9,
+      "exposure packet",
+      100
+    ],
+    [
+      10,
+      "exposure receipt",
+      100
+    ],
+    [
+      11,
+      "exposure trace",
+      100
+    ],
+    [
+      12,
+      "exposure result",
+      100
+    ],
+    [
+      13,
+      "exposure scope",
+      100
+    ],
+    [
+      14,
+      "exposure status",
+      100
+    ],
+    [
+      15,
+      "exposure candidate",
+      100
+    ],
+    [
+      16,
+      "exposure witness",
+      100
+    ],
+    [
+      17,
+      "exposure probe",
+      100
+    ],
+    [
+      18,
+      "exposure constraint",
+      100
+    ],
+    [
+      19,
+      "check exposure",
+      100
+    ],
+    [
+      20,
+      "compare exposure",
+      100
+    ],
+    [
+      21,
+      "observe exposure",
+      100
+    ],
+    [
+      22,
+      "measure exposure",
+      100
+    ],
+    [
+      23,
+      "test exposure",
+      100
+    ],
+    [
+      24,
+      "verify exposure",
+      100
+    ],
+    [
+      25,
+      "hold exposure",
+      100
+    ],
+    [
+      26,
+      "preserve exposure",
+      100
+    ],
+    [
+      27,
+      "split exposure",
+      100
+    ],
+    [
+      28,
+      "narrow exposure",
+      100
+    ],
+    [
+      29,
+      "security secret",
+      100
+    ],
+    [
+      30,
+      "security permission",
+      100
+    ],
+    [
+      31,
+      "access control",
+      100
+    ],
+    [
+      32,
+      "least privilege",
+      100
+    ],
+    [
+      33,
+      "deny default",
+      100
+    ],
+    [
+      34,
+      "permission check",
+      100
+    ],
+    [
+      35,
+      "secret leak",
+      100
+    ],
+    [
+      36,
+      "token exposure",
+      100
+    ],
+    [
+      37,
+      "unsafe default",
+      100
+    ],
+    [
+      38,
+      "security misconfiguration",
+      100
+    ],
+    [
+      39,
+      "sensitive data",
+      100
+    ],
+    [
+      40,
+      "credential leak",
+      100
+    ],
+    [
+      41,
+      "privilege escalation",
+      100
+    ],
+    [
+      42,
+      "origin boundary",
+      100
+    ],
+    [
+      43,
+      "authz failure",
+      100
+    ],
+    [
+      44,
+      "sandbox escape",
+      100
+    ],
+    [
+      45,
+      "path traversal",
+      100
+    ],
+    [
+      46,
+      "insecure default",
+      100
+    ],
+    [
+      47,
+      "permission drift",
+      100
+    ],
+    [
+      48,
+      "boundary failure",
+      100
+    ]
+  ],
+  "triplets": [
+    [
+      1,
+      "exposure boundary path",
+      100
+    ],
+    [
+      2,
+      "permission boundary path",
+      100
+    ],
+    [
+      3,
+      "secret boundary path",
+      100
+    ],
+    [
+      4,
+      "under security secret",
+      100
+    ],
+    [
+      5,
+      "under security permission",
+      100
+    ],
+    [
+      6,
+      "under security exposure",
+      100
+    ],
+    [
+      7,
+      "within secret boundary",
+      100
+    ],
+    [
+      8,
+      "across permission boundary",
+      100
+    ],
+    [
+      9,
+      "exposure evidence path",
+      100
+    ],
+    [
+      10,
+      "exposure support path",
+      100
+    ],
+    [
+      11,
+      "exposure path path",
+      100
+    ],
+    [
+      12,
+      "exposure surface path",
+      100
+    ],
+    [
+      13,
+      "between trust boundary",
+      100
+    ],
+    [
+      14,
+      "through boundary exposure",
+      100
+    ],
+    [
+      15,
+      "through boundary credential",
+      100
+    ],
+    [
+      16,
+      "access control boundary",
+      100
+    ],
+    [
+      17,
+      "least privilege default",
+      100
+    ],
+    [
+      18,
+      "deny default permission",
+      100
+    ],
+    [
+      19,
+      "secret token leak",
+      100
+    ],
+    [
+      20,
+      "security misconfiguration exposure",
+      100
+    ],
+    [
+      21,
+      "sensitive data boundary",
+      100
+    ],
+    [
+      22,
+      "privilege escalation path",
+      100
+    ],
+    [
+      23,
+      "trust boundary check",
+      100
+    ],
+    [
+      24,
+      "unsafe default blocked",
+      100
+    ],
+    [
+      25,
+      "authz failure route",
+      100
+    ],
+    [
+      26,
+      "least privilege boundary",
+      100
+    ],
+    [
+      27,
+      "secret leakage exposure",
+      100
+    ],
+    [
+      28,
+      "under open exposure",
+      96
+    ],
+    [
+      29,
+      "within secret permission",
+      89
+    ],
+    [
+      30,
+      "within secret exposure",
+      89
+    ],
+    [
+      31,
+      "within secret credential",
+      89
+    ],
+    [
+      32,
+      "across permission exposure",
+      89
+    ],
+    [
+      33,
+      "across permission credential",
+      89
+    ],
+    [
+      34,
+      "before exposure credential",
+      88
+    ]
+  ]
+}

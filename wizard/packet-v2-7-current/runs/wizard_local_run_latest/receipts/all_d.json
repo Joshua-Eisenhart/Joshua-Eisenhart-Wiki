@@ -1,0 +1,12 @@
+{
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate",
+  "checked": "loaded mini_mmms/full/compositions/md/MMM_LANE_ALL_OF_ABOVE_WIZARD_FULL_v2_7.md",
+  "concluded": "All-D compilation: full Wizard path through Make, Run/Scout, Audit/Improve, Council, and final menu.",
+  "evidence": "mini_mmms/full/compositions/md/MMM_LANE_ALL_OF_ABOVE_WIZARD_FULL_v2_7.md terms: whole-context triad, primary answer, full-context, whole-context, registry-backed, controller-local, wall-text, follow-up",
+  "generated_at": "2026-04-28T08:03:24.959556+00:00",
+  "lane": "All-D",
+  "open": "live proof pending",
+  "output_excerpt": "Task: Improve and locally run the repaired MMM Wizard packet without live wiring.\nWizard General size: full\nWave 9: Follow-up Audit/Improve Wave\nAll-D compilation: full Wizard path through Make, Run/Scout, Audit/Improve, Council, and final menu.\nLoaded language body terms: whole-context triad, primary answer, full-context, whole-context, registry-backed, controller-local, wall-text, follow-up",
+  "output_sha256": "cedeede2df7297f9349e6290ac34e8d641dc4c143395db1a1f565a5ba0172928",
+  "schema_version": "wizard_behavior_harness.v1"
+}

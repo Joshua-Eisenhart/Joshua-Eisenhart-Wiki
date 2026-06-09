@@ -1,0 +1,12 @@
+{
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/mmm_wizard_complete_system_packet_v2_8_expanded_candidate",
+  "checked": "loaded mini_mmms/compact/voices/md/MMM_VOICE_SYSTEMS_COMPACT_v2_8.md",
+  "concluded": "Voice contribution: inspect feedback loops, incentives, couplings, delays, and second-order effects outside the immediate input.",
+  "evidence": "mini_mmms/compact/voices/md/MMM_VOICE_SYSTEMS_COMPACT_v2_8.md terms: mini-MMM :: 100, mini MMM :: 100, voice shape :: 100, voice shaping :: 100, shape voice :: 100, shaped voice :: 100, voice contour :: 100, voice signature :: 100",
+  "generated_at": "2026-04-28T22:36:04.182895+00:00",
+  "lane": "Systems",
+  "open": "live proof pending",
+  "output_excerpt": "Task: Compare Wizard General sizes and choose the best local runtime surface.\nWizard General size: compact\nWave 1: Voice Wave\nVoice contribution: inspect feedback loops, incentives, couplings, delays, and second-order effects outside the immediate input.\nLoaded language body terms: mini-MMM :: 100, mini MMM :: 100, voice shape :: 100, voice shaping :: 100, shape voice :: 100, shaped voice :: 100, voice contour :: 100, voice signature :: 100",
+  "output_sha256": "9f40773823284866f5806aee3482fdc508af3e1f1e37d867229db1fc2ae038fa",
+  "schema_version": "wizard_behavior_harness.v1"
+}

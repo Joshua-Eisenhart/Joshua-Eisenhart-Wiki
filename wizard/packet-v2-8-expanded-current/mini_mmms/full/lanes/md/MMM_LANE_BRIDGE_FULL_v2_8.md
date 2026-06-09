@@ -1,0 +1,1125 @@
+# MMM_LANE_BRIDGE_FULL_v2_8
+
+## words
+
+- bridge :: 100
+- translation :: 100
+- handoff :: 100
+- between :: 100
+- layers :: 100
+- human :: 100
+- read :: 100
+- plain :: 100
+- context :: 100
+- prompt :: 100
+- carried :: 100
+- result :: 100
+- meaning :: 100
+- tier :: 100
+- surface :: 100
+- imported :: 100
+- derived :: 100
+- salience :: 100
+- preload :: 100
+- task card :: 99
+- receipt :: 99
+- artifact :: 99
+- boundary :: 99
+- packet :: 99
+- coupling :: 99
+- interface :: 99
+- classical :: 99
+- nonclassical :: 99
+- mixed :: 99
+- under :: 99
+- within :: 99
+- across :: 99
+- through :: 99
+- before :: 99
+- after :: 99
+- until :: 99
+- where :: 99
+- while :: 99
+- against :: 99
+- along :: 98
+- around :: 98
+- among :: 98
+- inside :: 98
+- outside :: 98
+- near :: 98
+- beside :: 98
+- over :: 98
+- from :: 98
+- with :: 98
+- without :: 98
+- only :: 98
+- not :: 98
+- no :: 98
+- yet :: 98
+- then :: 98
+- current :: 98
+- actual :: 98
+- local :: 98
+- bounded :: 98
+- finite :: 97
+- open :: 97
+- live :: 97
+- distinct :: 97
+- concrete :: 97
+- observed :: 97
+- inferred :: 97
+- known :: 97
+- unknown :: 97
+- checked :: 97
+- missing :: 97
+- stale :: 97
+- narrow :: 97
+- small :: 97
+- warm :: 97
+- careful :: 97
+- honest :: 97
+- first :: 97
+- next :: 97
+- prior :: 97
+- later :: 96
+- separate :: 96
+- together :: 96
+- apart :: 96
+- held :: 96
+- returned :: 96
+- found :: 96
+- compared :: 96
+- measured :: 96
+- named :: 96
+- used :: 96
+- fit :: 96
+- viable :: 96
+- direct :: 96
+- different :: 96
+- alternate :: 96
+- branch :: 96
+- path :: 96
+- trace :: 96
+- support :: 96
+- evidence :: 95
+- scope :: 95
+- gate :: 95
+- guard :: 95
+- rung :: 95
+- status :: 95
+- candidate :: 95
+- survivor :: 95
+- witness :: 95
+- probe :: 95
+- constraint :: 95
+- name :: 95
+- term :: 95
+- use :: 95
+- role :: 95
+- practice :: 95
+- custom :: 95
+- habit :: 95
+- experience :: 95
+- observation :: 95
+- impression :: 94
+- idea :: 94
+- perception :: 94
+- conjunction :: 94
+- resemblance :: 94
+- relation :: 94
+- probability :: 94
+- particular :: 94
+- predicate :: 94
+- class :: 94
+- model :: 94
+- solver :: 94
+- satisfiable :: 94
+- unsatisfiable :: 94
+- by :: 94
+- relative :: 94
+- locally :: 94
+- rather :: 94
+- instead :: 94
+- still :: 94
+- likely :: 93
+- possible :: 93
+- partial :: 93
+- limited :: 93
+- measurement :: 93
+- test :: 93
+- sample :: 93
+- case :: 93
+- instance :: 93
+- word :: 93
+- distinction :: 93
+- comparison :: 93
+- estimate :: 93
+- uncertainty :: 93
+- counterexample :: 93
+- condition :: 93
+- fork :: 93
+- plurality :: 93
+- reading :: 93
+- perspective :: 93
+
+## couplings
+
+- under bridge :: 100
+- within bridge :: 100
+- across bridge :: 100
+- between bridge :: 100
+- through bridge :: 100
+- before bridge :: 100
+- after bridge :: 100
+- until bridge :: 100
+- where bridge :: 100
+- while bridge :: 100
+- bridge evidence :: 100
+- bridge support :: 100
+- bridge path :: 100
+- bridge surface :: 100
+- bridge packet :: 100
+- bridge receipt :: 100
+- bridge trace :: 100
+- bridge result :: 100
+- bridge scope :: 100
+- bridge boundary :: 100
+- bridge status :: 99
+- bridge candidate :: 99
+- bridge witness :: 99
+- bridge probe :: 99
+- bridge constraint :: 99
+- check bridge :: 99
+- compare bridge :: 99
+- observe bridge :: 99
+- measure bridge :: 99
+- test bridge :: 99
+- verify bridge :: 99
+- hold bridge :: 99
+- preserve bridge :: 99
+- split bridge :: 99
+- narrow bridge :: 99
+- under packet :: 99
+- within packet :: 99
+- across packet :: 99
+- between packet :: 99
+- through packet :: 99
+- before packet :: 98
+- after packet :: 98
+- until packet :: 98
+- where packet :: 98
+- while packet :: 98
+- packet evidence :: 98
+- packet support :: 98
+- packet path :: 98
+- packet surface :: 98
+- packet packet :: 98
+- packet receipt :: 98
+- packet trace :: 98
+- packet result :: 98
+- packet scope :: 98
+- packet boundary :: 98
+- packet status :: 98
+- packet candidate :: 98
+- packet witness :: 98
+- packet probe :: 98
+- packet constraint :: 98
+- check packet :: 97
+- compare packet :: 97
+- observe packet :: 97
+- measure packet :: 97
+- test packet :: 97
+- verify packet :: 97
+- hold packet :: 97
+- preserve packet :: 97
+- split packet :: 97
+- narrow packet :: 97
+- under coupling :: 97
+- within coupling :: 97
+- across coupling :: 97
+- between coupling :: 97
+- through coupling :: 97
+- before coupling :: 97
+- after coupling :: 97
+- until coupling :: 97
+- where coupling :: 97
+- while coupling :: 97
+- coupling evidence :: 96
+- coupling support :: 96
+- coupling path :: 96
+- coupling surface :: 96
+- coupling packet :: 96
+- coupling receipt :: 96
+- coupling trace :: 96
+- coupling result :: 96
+- coupling scope :: 96
+- coupling boundary :: 96
+- coupling status :: 96
+- coupling candidate :: 96
+- coupling witness :: 96
+- coupling probe :: 96
+- coupling constraint :: 96
+- check coupling :: 96
+- compare coupling :: 96
+- observe coupling :: 96
+- measure coupling :: 96
+- test coupling :: 96
+- verify coupling :: 95
+- hold coupling :: 95
+- preserve coupling :: 95
+- split coupling :: 95
+- narrow coupling :: 95
+- under interface :: 95
+- within interface :: 95
+- across interface :: 95
+- between interface :: 95
+- through interface :: 95
+- before interface :: 95
+- after interface :: 95
+- until interface :: 95
+- where interface :: 95
+- while interface :: 95
+- interface evidence :: 95
+- interface support :: 95
+- interface path :: 95
+- interface surface :: 95
+- interface packet :: 95
+- interface receipt :: 94
+- interface trace :: 94
+- interface result :: 94
+- interface scope :: 94
+- interface boundary :: 94
+- interface status :: 94
+- interface candidate :: 94
+- interface witness :: 94
+- interface probe :: 94
+- interface constraint :: 94
+- check interface :: 94
+- compare interface :: 94
+- observe interface :: 94
+- measure interface :: 94
+- test interface :: 94
+- verify interface :: 94
+- hold interface :: 94
+- preserve interface :: 94
+- split interface :: 94
+- narrow interface :: 94
+- under classical :: 93
+- within classical :: 93
+- across classical :: 93
+- between classical :: 93
+- through classical :: 93
+- before classical :: 93
+- after classical :: 93
+- until classical :: 93
+- where classical :: 93
+- while classical :: 93
+- classical evidence :: 93
+- classical support :: 93
+- classical path :: 93
+- classical surface :: 93
+- classical packet :: 93
+- classical receipt :: 93
+- classical trace :: 93
+- classical result :: 93
+- classical scope :: 93
+- classical boundary :: 93
+- classical status :: 92
+- classical candidate :: 92
+- classical witness :: 92
+- classical probe :: 92
+- classical constraint :: 92
+- check classical :: 92
+- compare classical :: 92
+- observe classical :: 92
+- measure classical :: 92
+- test classical :: 92
+- verify classical :: 92
+- hold classical :: 92
+- preserve classical :: 92
+- split classical :: 92
+- narrow classical :: 92
+- under nonclassical :: 92
+- within nonclassical :: 92
+- across nonclassical :: 92
+- between nonclassical :: 92
+- through nonclassical :: 92
+- before nonclassical :: 91
+- after nonclassical :: 91
+- until nonclassical :: 91
+- where nonclassical :: 91
+- while nonclassical :: 91
+- nonclassical evidence :: 91
+- nonclassical support :: 91
+- nonclassical path :: 91
+- nonclassical surface :: 91
+- nonclassical packet :: 91
+- nonclassical receipt :: 91
+- nonclassical trace :: 91
+- nonclassical result :: 91
+- nonclassical scope :: 91
+- nonclassical boundary :: 91
+- nonclassical status :: 91
+- nonclassical candidate :: 91
+- nonclassical witness :: 91
+- nonclassical probe :: 91
+- nonclassical constraint :: 91
+- under translation :: 90
+- under handoff :: 90
+- under between :: 90
+- under layers :: 90
+- under human :: 90
+- under read :: 90
+- under plain :: 90
+- under context :: 90
+- under prompt :: 90
+- under carried :: 90
+- under result :: 90
+- under meaning :: 90
+- under tier :: 90
+- under surface :: 90
+- within translation :: 90
+- within handoff :: 90
+- within between :: 90
+- within layers :: 90
+- within human :: 90
+- within read :: 90
+- within plain :: 89
+- within context :: 89
+- within prompt :: 89
+- within carried :: 89
+- within result :: 89
+- within meaning :: 89
+- within tier :: 89
+- within surface :: 89
+- across translation :: 89
+- across handoff :: 89
+- across between :: 89
+- across layers :: 89
+- across human :: 89
+- across read :: 89
+- across plain :: 89
+- across context :: 89
+- across prompt :: 89
+- across carried :: 89
+- across result :: 89
+- across meaning :: 89
+- across tier :: 88
+- across surface :: 88
+- between translation :: 88
+- between handoff :: 88
+- between between :: 88
+- between layers :: 88
+- between human :: 88
+- between read :: 88
+- between plain :: 88
+- between context :: 88
+- between prompt :: 88
+- between carried :: 88
+- between result :: 88
+- between meaning :: 88
+- between tier :: 88
+- between surface :: 88
+- through translation :: 88
+- through handoff :: 88
+- through between :: 88
+- through layers :: 88
+- through human :: 87
+- through read :: 87
+- through plain :: 87
+- through context :: 87
+- through prompt :: 87
+- through carried :: 87
+- through result :: 87
+- through meaning :: 87
+- through tier :: 87
+- through surface :: 87
+- before translation :: 87
+- before handoff :: 87
+- before between :: 87
+- before layers :: 87
+- before human :: 87
+- before read :: 87
+- before plain :: 87
+- before context :: 87
+- before prompt :: 87
+- before carried :: 87
+- before result :: 86
+- before meaning :: 86
+- before tier :: 86
+- before surface :: 86
+- after translation :: 86
+- after handoff :: 86
+- after between :: 86
+- after layers :: 86
+- after human :: 86
+- after read :: 86
+- after plain :: 86
+- after context :: 86
+- after prompt :: 86
+- after carried :: 86
+- after result :: 86
+- after meaning :: 86
+- after tier :: 86
+- after surface :: 86
+- from bridge :: 86
+- from translation :: 86
+- from handoff :: 85
+- from between :: 85
+- from layers :: 85
+- from human :: 85
+- from read :: 85
+- from plain :: 85
+- from context :: 85
+- from prompt :: 85
+- from carried :: 85
+- from result :: 85
+- from meaning :: 85
+- from tier :: 85
+- from surface :: 85
+- by bridge :: 85
+- by translation :: 85
+- by handoff :: 85
+- by between :: 85
+- by layers :: 85
+- by human :: 85
+- by read :: 85
+- by plain :: 84
+- by context :: 84
+- by prompt :: 84
+- by carried :: 84
+- by result :: 84
+- by meaning :: 84
+- by tier :: 84
+- by surface :: 84
+- with bridge :: 84
+- with translation :: 84
+- with handoff :: 84
+- with between :: 84
+- with layers :: 84
+- with human :: 84
+- with read :: 84
+- with plain :: 84
+- with context :: 84
+- with prompt :: 84
+- with carried :: 84
+- with result :: 84
+- with meaning :: 83
+- with tier :: 83
+- with surface :: 83
+- without bridge :: 83
+- without translation :: 83
+- without handoff :: 83
+- without between :: 83
+- without layers :: 83
+- without human :: 83
+- without read :: 83
+- without plain :: 83
+- without context :: 83
+- without prompt :: 83
+- without carried :: 83
+- without result :: 83
+- without meaning :: 83
+- without tier :: 83
+- without surface :: 83
+- against bridge :: 83
+- against translation :: 83
+- against handoff :: 82
+- against between :: 82
+- against layers :: 82
+- against human :: 82
+- against read :: 82
+- against plain :: 82
+- against context :: 82
+- against prompt :: 82
+- against carried :: 82
+- against result :: 82
+- against meaning :: 82
+- against tier :: 82
+- against surface :: 82
+- bridge translation :: 82
+- bridge handoff :: 82
+- bridge between :: 82
+- bridge layers :: 82
+- bridge human :: 82
+- bridge read :: 82
+- bridge plain :: 82
+- translation handoff :: 81
+- translation between :: 81
+- translation layers :: 81
+- translation human :: 81
+- translation read :: 81
+- translation plain :: 81
+- translation context :: 81
+- handoff between :: 81
+- handoff layers :: 81
+- handoff human :: 81
+- handoff read :: 81
+- handoff plain :: 81
+- handoff context :: 81
+- handoff prompt :: 81
+- layers human :: 81
+- layers read :: 81
+- layers plain :: 81
+- layers context :: 81
+- layers prompt :: 81
+- layers carried :: 81
+- layers result :: 80
+- human read :: 80
+- human plain :: 80
+- human context :: 80
+- human prompt :: 80
+- human carried :: 80
+- human result :: 80
+- human meaning :: 80
+- read plain :: 80
+- read context :: 80
+- read prompt :: 80
+- read carried :: 80
+- read result :: 80
+- read meaning :: 80
+- read tier :: 80
+- plain context :: 80
+- plain prompt :: 80
+- plain carried :: 80
+- plain result :: 80
+- plain meaning :: 80
+- plain tier :: 79
+- plain surface :: 79
+- context prompt :: 79
+- context carried :: 79
+- context result :: 79
+- context meaning :: 79
+- context tier :: 79
+- context surface :: 79
+- context imported :: 79
+- prompt carried :: 79
+- prompt result :: 79
+- prompt meaning :: 79
+- prompt tier :: 79
+- prompt surface :: 79
+- prompt imported :: 79
+- prompt derived :: 79
+- carried result :: 79
+- carried meaning :: 79
+- carried tier :: 79
+- carried surface :: 79
+- carried imported :: 78
+- carried derived :: 78
+- carried authority :: 78
+- result meaning :: 78
+- result tier :: 78
+- result surface :: 78
+- result imported :: 78
+- result derived :: 78
+- result authority :: 78
+- result salience :: 78
+- meaning tier :: 78
+- meaning surface :: 78
+- meaning imported :: 78
+- meaning derived :: 78
+- meaning authority :: 78
+- meaning salience :: 78
+- meaning preload :: 78
+- tier surface :: 78
+- tier imported :: 78
+- tier derived :: 78
+- tier authority :: 77
+- tier salience :: 77
+- tier preload :: 77
+- tier task card :: 77
+- surface imported :: 77
+- surface derived :: 77
+- surface authority :: 77
+- surface salience :: 77
+- surface preload :: 77
+- surface task card :: 77
+- surface receipt :: 77
+- imported derived :: 77
+- imported authority :: 77
+- imported salience :: 77
+- imported preload :: 77
+- imported task card :: 77
+- imported receipt :: 77
+- imported artifact :: 77
+- derived authority :: 77
+- derived salience :: 77
+- derived preload :: 76
+- derived task card :: 76
+- derived receipt :: 76
+- derived artifact :: 76
+- derived boundary :: 76
+- authority salience :: 76
+- authority preload :: 76
+- authority task card :: 76
+- authority receipt :: 76
+- authority artifact :: 76
+- authority boundary :: 76
+- authority packet :: 76
+- salience preload :: 76
+- salience task card :: 76
+- salience receipt :: 76
+- salience artifact :: 76
+- salience boundary :: 76
+- salience packet :: 76
+- salience coupling :: 76
+- preload task card :: 76
+- preload receipt :: 75
+- preload artifact :: 75
+- preload boundary :: 75
+- preload packet :: 75
+- preload coupling :: 75
+- preload interface :: 75
+- task card receipt :: 75
+- task card artifact :: 75
+- task card boundary :: 75
+- task card packet :: 75
+- task card coupling :: 75
+- task card interface :: 75
+- task card classical :: 75
+- receipt artifact :: 75
+- receipt boundary :: 75
+- receipt packet :: 75
+- receipt coupling :: 75
+- receipt interface :: 75
+- receipt classical :: 75
+- receipt nonclassical :: 75
+- artifact boundary :: 74
+- artifact packet :: 74
+- artifact coupling :: 74
+- artifact interface :: 74
+- artifact classical :: 74
+- artifact nonclassical :: 74
+- artifact mixed :: 74
+- boundary packet :: 74
+- boundary coupling :: 74
+- boundary interface :: 74
+- boundary classical :: 74
+- boundary nonclassical :: 74
+- boundary mixed :: 74
+- boundary under :: 74
+- packet coupling :: 74
+- packet interface :: 74
+- packet classical :: 74
+- packet nonclassical :: 74
+- packet mixed :: 74
+- packet under :: 74
+- packet within :: 73
+
+## triplets
+
+- under current bridge :: 100
+- under local bridge :: 100
+- under bounded bridge :: 100
+- under finite bridge :: 100
+- under open bridge :: 100
+- under live bridge :: 100
+- within current bridge :: 100
+- within local bridge :: 100
+- within bounded bridge :: 100
+- within finite bridge :: 100
+- within open bridge :: 100
+- within live bridge :: 100
+- across current bridge :: 100
+- across local bridge :: 100
+- across bounded bridge :: 100
+- across finite bridge :: 100
+- across open bridge :: 100
+- across live bridge :: 100
+- between current bridge :: 100
+- between local bridge :: 100
+- between bounded bridge :: 99
+- between finite bridge :: 99
+- between open bridge :: 99
+- between live bridge :: 99
+- through current bridge :: 99
+- through local bridge :: 99
+- through bounded bridge :: 99
+- through finite bridge :: 99
+- through open bridge :: 99
+- through live bridge :: 99
+- before current bridge :: 99
+- before local bridge :: 99
+- before bounded bridge :: 99
+- before finite bridge :: 99
+- before open bridge :: 99
+- before live bridge :: 99
+- bridge evidence path :: 99
+- bridge support path :: 99
+- bridge path path :: 99
+- bridge surface path :: 99
+- bridge packet path :: 98
+- bridge receipt path :: 98
+- bridge trace path :: 98
+- bridge result path :: 98
+- bridge scope path :: 98
+- bridge boundary path :: 98
+- check bridge receipt :: 98
+- compare bridge receipt :: 98
+- observe bridge receipt :: 98
+- measure bridge receipt :: 98
+- test bridge receipt :: 98
+- verify bridge receipt :: 98
+- hold bridge receipt :: 98
+- preserve bridge receipt :: 98
+- under current packet :: 98
+- under local packet :: 98
+- under bounded packet :: 98
+- under finite packet :: 98
+- under open packet :: 98
+- under live packet :: 98
+- within current packet :: 97
+- within local packet :: 97
+- within bounded packet :: 97
+- within finite packet :: 97
+- within open packet :: 97
+- within live packet :: 97
+- across current packet :: 97
+- across local packet :: 97
+- across bounded packet :: 97
+- across finite packet :: 97
+- across open packet :: 97
+- across live packet :: 97
+- between current packet :: 97
+- between local packet :: 97
+- between bounded packet :: 97
+- between finite packet :: 97
+- between open packet :: 97
+- between live packet :: 97
+- through current packet :: 97
+- through local packet :: 97
+- through bounded packet :: 96
+- through finite packet :: 96
+- through open packet :: 96
+- through live packet :: 96
+- before current packet :: 96
+- before local packet :: 96
+- before bounded packet :: 96
+- before finite packet :: 96
+- before open packet :: 96
+- before live packet :: 96
+- packet evidence path :: 96
+- packet support path :: 96
+- packet path path :: 96
+- packet surface path :: 96
+- packet packet path :: 96
+- packet receipt path :: 96
+- packet trace path :: 96
+- packet result path :: 96
+- packet scope path :: 96
+- packet boundary path :: 96
+- check packet receipt :: 95
+- compare packet receipt :: 95
+- observe packet receipt :: 95
+- measure packet receipt :: 95
+- test packet receipt :: 95
+- verify packet receipt :: 95
+- hold packet receipt :: 95
+- preserve packet receipt :: 95
+- under current coupling :: 95
+- under local coupling :: 95
+- under bounded coupling :: 95
+- under finite coupling :: 95
+- under open coupling :: 95
+- under live coupling :: 95
+- within current coupling :: 95
+- within local coupling :: 95
+- within bounded coupling :: 95
+- within finite coupling :: 95
+- within open coupling :: 95
+- within live coupling :: 95
+- across current coupling :: 94
+- across local coupling :: 94
+- across bounded coupling :: 94
+- across finite coupling :: 94
+- across open coupling :: 94
+- across live coupling :: 94
+- between current coupling :: 94
+- between local coupling :: 94
+- between bounded coupling :: 94
+- between finite coupling :: 94
+- between open coupling :: 94
+- between live coupling :: 94
+- through current coupling :: 94
+- through local coupling :: 94
+- through bounded coupling :: 94
+- through finite coupling :: 94
+- through open coupling :: 94
+- through live coupling :: 94
+- before current coupling :: 94
+- before local coupling :: 94
+- before bounded coupling :: 93
+- before finite coupling :: 93
+- before open coupling :: 93
+- before live coupling :: 93
+- coupling evidence path :: 93
+- coupling support path :: 93
+- coupling path path :: 93
+- coupling surface path :: 93
+- coupling packet path :: 93
+- coupling receipt path :: 93
+- coupling trace path :: 93
+- coupling result path :: 93
+- coupling scope path :: 93
+- coupling boundary path :: 93
+- check coupling receipt :: 93
+- compare coupling receipt :: 93
+- observe coupling receipt :: 93
+- measure coupling receipt :: 93
+- test coupling receipt :: 93
+- verify coupling receipt :: 93
+- hold coupling receipt :: 92
+- preserve coupling receipt :: 92
+- under current interface :: 92
+- under local interface :: 92
+- under bounded interface :: 92
+- under finite interface :: 92
+- under open interface :: 92
+- under live interface :: 92
+- within current interface :: 92
+- within local interface :: 92
+- within bounded interface :: 92
+- within finite interface :: 92
+- within open interface :: 92
+- within live interface :: 92
+- across current interface :: 92
+- across local interface :: 92
+- across bounded interface :: 92
+- across finite interface :: 92
+- across open interface :: 92
+- across live interface :: 92
+- between current interface :: 91
+- between local interface :: 91
+- between bounded interface :: 91
+- between finite interface :: 91
+- between open interface :: 91
+- between live interface :: 91
+- through current interface :: 91
+- through local interface :: 91
+- through bounded interface :: 91
+- through finite interface :: 91
+- through open interface :: 91
+- through live interface :: 91
+- before current interface :: 91
+- before local interface :: 91
+- before bounded interface :: 91
+- before finite interface :: 91
+- before open interface :: 91
+- before live interface :: 91
+- interface evidence path :: 91
+- interface support path :: 91
+- interface path path :: 90
+- interface surface path :: 90
+- interface packet path :: 90
+- interface receipt path :: 90
+- interface trace path :: 90
+- interface result path :: 90
+- interface scope path :: 90
+- interface boundary path :: 90
+- check interface receipt :: 90
+- compare interface receipt :: 90
+- observe interface receipt :: 90
+- measure interface receipt :: 90
+- test interface receipt :: 90
+- verify interface receipt :: 90
+- hold interface receipt :: 90
+- preserve interface receipt :: 90
+- under current classical :: 90
+- under local classical :: 90
+- under bounded classical :: 90
+- under finite classical :: 90
+- under open classical :: 89
+- under live classical :: 89
+- within current classical :: 89
+- within local classical :: 89
+- within bounded classical :: 89
+- within finite classical :: 89
+- within open classical :: 89
+- within live classical :: 89
+- across current classical :: 89
+- across local classical :: 89
+- across bounded classical :: 89
+- across finite classical :: 89
+- across open classical :: 89
+- across live classical :: 89
+- between current classical :: 89
+- between local classical :: 89
+- between bounded classical :: 89
+- between finite classical :: 89
+- between open classical :: 89
+- between live classical :: 89
+- under bridge translation :: 88
+- under bridge handoff :: 88
+- under bridge between :: 88
+- under bridge layers :: 88
+- under bridge human :: 88
+- under bridge read :: 88
+- under bridge plain :: 88
+- within translation handoff :: 88
+- within translation between :: 88
+- within translation layers :: 88
+- within translation human :: 88
+- within translation read :: 88
+- within translation plain :: 88
+- within translation context :: 88
+- across handoff between :: 88
+- across handoff layers :: 88
+- across handoff human :: 88
+- across handoff read :: 88
+- across handoff plain :: 88
+- across handoff context :: 88
+- across handoff prompt :: 87
+- between between layers :: 87
+- between between human :: 87
+- between between read :: 87
+- between between plain :: 87
+- between between context :: 87
+- between between prompt :: 87
+- between between carried :: 87
+- through layers human :: 87
+- through layers read :: 87
+- through layers plain :: 87
+- through layers context :: 87
+- through layers prompt :: 87
+- through layers carried :: 87
+- through layers result :: 87
+- before human read :: 87
+- before human plain :: 87
+- before human context :: 87
+- before human prompt :: 87
+- before human carried :: 87
+- before human result :: 86
+- before human meaning :: 86
+- after read plain :: 86
+- after read context :: 86
+- after read prompt :: 86
+- after read carried :: 86
+- after read result :: 86
+- after read meaning :: 86
+- after read tier :: 86
+- from plain context :: 86
+- from plain prompt :: 86
+- from plain carried :: 86
+- from plain result :: 86
+- from plain meaning :: 86
+- from plain tier :: 86
+- from plain surface :: 86
+- by context prompt :: 86
+- by context carried :: 86
+- by context result :: 86
+- by context meaning :: 86
+- by context tier :: 85
+- by context surface :: 85
+- by context imported :: 85
+- with prompt carried :: 85
+- with prompt result :: 85
+- with prompt meaning :: 85
+- with prompt tier :: 85
+- with prompt surface :: 85
+- with prompt imported :: 85
+- with prompt derived :: 85
+- without carried result :: 85
+- without carried meaning :: 85
+- without carried tier :: 85
+- without carried surface :: 85
+- without carried imported :: 85
+- without carried derived :: 85
+- without carried authority :: 85
+- against result meaning :: 85
+- against result tier :: 85
+- against result surface :: 85
+- against result imported :: 84
+- against result derived :: 84
+- against result authority :: 84
+- against result salience :: 84
+- relative meaning tier :: 84
+- relative meaning surface :: 84
+- relative meaning imported :: 84
+- relative meaning derived :: 84
+- relative meaning authority :: 84
+- relative meaning salience :: 84
+- relative meaning preload :: 84
+- locally tier surface :: 84
+- locally tier imported :: 84
+- locally tier derived :: 84
+- locally tier authority :: 84
+- locally tier salience :: 84
+- locally tier preload :: 84
+- locally tier task card :: 84
+- rather surface imported :: 84
+- rather surface derived :: 84
+- rather surface authority :: 83
+- rather surface salience :: 83
+- rather surface preload :: 83
+- rather surface task card :: 83
+- rather surface receipt :: 83
+- instead imported derived :: 83
+- instead imported authority :: 83
+- instead imported salience :: 83
+- instead imported preload :: 83
+- instead imported task card :: 83
+- instead imported receipt :: 83
+- instead imported artifact :: 83
+- only derived authority :: 83
+- only derived salience :: 83
+- only derived preload :: 83
+- only derived task card :: 83
+- only derived receipt :: 83
+- only derived artifact :: 83
+- only derived boundary :: 83
+- still authority salience :: 83
+- still authority preload :: 82
+- still authority task card :: 82
+- still authority receipt :: 82
+- still authority artifact :: 82
+- still authority boundary :: 82
+- still authority packet :: 82
+- likely salience preload :: 82
+- likely salience task card :: 82
+- likely salience receipt :: 82
+- likely salience artifact :: 82
+- likely salience boundary :: 82
+- likely salience packet :: 82
+- likely salience coupling :: 82
+- possible preload task card :: 82
+- possible preload receipt :: 82
+- possible preload artifact :: 82
+- possible preload boundary :: 82
+- possible preload packet :: 82
+- possible preload coupling :: 82
+- possible preload interface :: 82
+- bounded task card receipt :: 81
+- bounded task card artifact :: 81
+- bounded task card boundary :: 81
+- bounded task card packet :: 81
+- bounded task card coupling :: 81
+- bounded task card interface :: 81
+- bounded task card classical :: 81
+- finite receipt artifact :: 81
+- finite receipt boundary :: 81
+- finite receipt packet :: 81
+- finite receipt coupling :: 81
+- finite receipt interface :: 81
+- finite receipt classical :: 81
+- finite receipt nonclassical :: 81
+- local artifact boundary :: 81
+- local artifact packet :: 81
+- local artifact coupling :: 81
+- local artifact interface :: 81
+- local artifact classical :: 81
+- local artifact nonclassical :: 81
+- local artifact mixed :: 80
+- current boundary packet :: 80
+- current boundary coupling :: 80
+- current boundary interface :: 80
+- current boundary classical :: 80
+- current boundary nonclassical :: 80
+- current boundary mixed :: 80
+- current boundary under :: 80
+- observed packet coupling :: 80
+- observed packet interface :: 80
+- observed packet classical :: 80
+- observed packet nonclassical :: 80
+- observed packet mixed :: 80
+- observed packet under :: 80
+- observed packet within :: 80

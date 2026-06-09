@@ -1,0 +1,2109 @@
+{
+  "words": [
+    [
+      1,
+      "campaign",
+      100
+    ],
+    [
+      2,
+      "priority",
+      100
+    ],
+    [
+      3,
+      "resource",
+      100
+    ],
+    [
+      4,
+      "timing",
+      100
+    ],
+    [
+      5,
+      "front",
+      100
+    ],
+    [
+      6,
+      "defer",
+      100
+    ],
+    [
+      7,
+      "mission",
+      100
+    ],
+    [
+      8,
+      "scarce",
+      100
+    ],
+    [
+      9,
+      "decisive front",
+      100
+    ],
+    [
+      10,
+      "drift condition",
+      100
+    ],
+    [
+      11,
+      "first move",
+      100
+    ],
+    [
+      12,
+      "return trigger",
+      100
+    ],
+    [
+      13,
+      "sequence",
+      100
+    ],
+    [
+      14,
+      "retreat",
+      100
+    ],
+    [
+      15,
+      "advance",
+      100
+    ],
+    [
+      16,
+      "merge",
+      100
+    ],
+    [
+      17,
+      "retreat condition",
+      100
+    ],
+    [
+      18,
+      "order",
+      100
+    ],
+    [
+      19,
+      "hold",
+      100
+    ],
+    [
+      20,
+      "split",
+      100
+    ],
+    [
+      21,
+      "role",
+      100
+    ],
+    [
+      22,
+      "cost",
+      100
+    ],
+    [
+      23,
+      "leverage",
+      100
+    ],
+    [
+      24,
+      "deferred",
+      100
+    ],
+    [
+      25,
+      "strategy",
+      100
+    ],
+    [
+      26,
+      "objective",
+      100
+    ],
+    [
+      27,
+      "position",
+      100
+    ],
+    [
+      28,
+      "terrain",
+      100
+    ],
+    [
+      29,
+      "initiative",
+      100
+    ],
+    [
+      30,
+      "commitment",
+      100
+    ],
+    [
+      31,
+      "reserve",
+      100
+    ],
+    [
+      32,
+      "line",
+      100
+    ],
+    [
+      33,
+      "effort",
+      100
+    ],
+    [
+      34,
+      "course",
+      100
+    ],
+    [
+      35,
+      "value",
+      100
+    ],
+    [
+      36,
+      "center of gravity",
+      100
+    ],
+    [
+      37,
+      "decisive point",
+      100
+    ],
+    [
+      38,
+      "friction",
+      100
+    ],
+    [
+      39,
+      "fog of war",
+      100
+    ],
+    [
+      40,
+      "line of operation",
+      100
+    ],
+    [
+      41,
+      "culminating point",
+      100
+    ],
+    [
+      42,
+      "means and ends",
+      100
+    ],
+    [
+      43,
+      "economy of force",
+      100
+    ],
+    [
+      44,
+      "strategic reserve",
+      100
+    ],
+    [
+      45,
+      "direction",
+      100
+    ],
+    [
+      46,
+      "staged",
+      100
+    ],
+    [
+      47,
+      "tradeoff",
+      100
+    ],
+    [
+      48,
+      "option",
+      100
+    ],
+    [
+      49,
+      "decisive",
+      100
+    ],
+    [
+      50,
+      "choice",
+      100
+    ],
+    [
+      51,
+      "return",
+      100
+    ],
+    [
+      52,
+      "action",
+      100
+    ],
+    [
+      53,
+      "drift",
+      100
+    ],
+    [
+      54,
+      "condition",
+      100
+    ],
+    [
+      55,
+      "route",
+      100
+    ],
+    [
+      56,
+      "actual",
+      100
+    ],
+    [
+      57,
+      "concrete",
+      100
+    ],
+    [
+      58,
+      "distinct",
+      100
+    ],
+    [
+      59,
+      "live",
+      100
+    ],
+    [
+      60,
+      "inferred",
+      100
+    ],
+    [
+      61,
+      "plain",
+      100
+    ],
+    [
+      62,
+      "known",
+      100
+    ],
+    [
+      63,
+      "unknown",
+      100
+    ],
+    [
+      64,
+      "narrow",
+      100
+    ],
+    [
+      65,
+      "coalition",
+      100
+    ],
+    [
+      66,
+      "dependency",
+      100
+    ],
+    [
+      67,
+      "milestone",
+      100
+    ],
+    [
+      68,
+      "phase",
+      100
+    ],
+    [
+      69,
+      "risk",
+      100
+    ],
+    [
+      70,
+      "scarcity",
+      100
+    ],
+    [
+      71,
+      "tempo",
+      100
+    ],
+    [
+      72,
+      "mini-MMM",
+      100
+    ],
+    [
+      73,
+      "mini MMM",
+      100
+    ],
+    [
+      74,
+      "voice shape",
+      100
+    ],
+    [
+      75,
+      "voice shaping",
+      100
+    ],
+    [
+      76,
+      "shape voice",
+      100
+    ],
+    [
+      77,
+      "shaped voice",
+      100
+    ],
+    [
+      78,
+      "voice contour",
+      100
+    ],
+    [
+      79,
+      "voice signature",
+      100
+    ],
+    [
+      80,
+      "voice localizer",
+      100
+    ],
+    [
+      81,
+      "local voice",
+      100
+    ],
+    [
+      82,
+      "aligned nouns",
+      100
+    ],
+    [
+      83,
+      "correlated thinkers",
+      100
+    ],
+    [
+      84,
+      "thinker alignment",
+      100
+    ],
+    [
+      85,
+      "noun alignment",
+      100
+    ],
+    [
+      86,
+      "voice method",
+      100
+    ],
+    [
+      87,
+      "voice evidence",
+      100
+    ],
+    [
+      88,
+      "voice judgment",
+      100
+    ],
+    [
+      89,
+      "voice task",
+      100
+    ],
+    [
+      90,
+      "voice receipt",
+      100
+    ],
+    [
+      91,
+      "voice finding",
+      100
+    ],
+    [
+      92,
+      "voice constraint",
+      100
+    ],
+    [
+      93,
+      "voice noun",
+      100
+    ],
+    [
+      94,
+      "voice verb",
+      100
+    ],
+    [
+      95,
+      "voice signal",
+      100
+    ],
+    [
+      96,
+      "voice boundary",
+      100
+    ],
+    [
+      97,
+      "voice contribution",
+      100
+    ],
+    [
+      98,
+      "mini mmm loaded",
+      100
+    ],
+    [
+      99,
+      "loaded mini mmm",
+      100
+    ],
+    [
+      100,
+      "assigned mini mmm",
+      100
+    ],
+    [
+      101,
+      "local voice context",
+      100
+    ],
+    [
+      102,
+      "voice-specific nouns",
+      100
+    ],
+    [
+      103,
+      "method nouns",
+      100
+    ],
+    [
+      104,
+      "reader stance",
+      100
+    ],
+    [
+      105,
+      "decision stance",
+      100
+    ],
+    [
+      106,
+      "audit stance",
+      100
+    ],
+    [
+      107,
+      "build stance",
+      100
+    ],
+    [
+      108,
+      "repair stance",
+      100
+    ],
+    [
+      109,
+      "acceptance stance",
+      100
+    ],
+    [
+      110,
+      "subagent voice",
+      100
+    ],
+    [
+      111,
+      "voice worker",
+      100
+    ],
+    [
+      112,
+      "voice proof",
+      100
+    ],
+    [
+      113,
+      "distinct output",
+      100
+    ],
+    [
+      114,
+      "behavioral pull",
+      100
+    ],
+    [
+      115,
+      "salience pull",
+      100
+    ],
+    [
+      116,
+      "voice usefulness",
+      100
+    ],
+    [
+      117,
+      "output repair",
+      100
+    ],
+    [
+      118,
+      "system repair",
+      100
+    ],
+    [
+      119,
+      "mmm stability",
+      100
+    ],
+    [
+      120,
+      "wizard stability",
+      100
+    ],
+    [
+      121,
+      "qit support",
+      100
+    ],
+    [
+      122,
+      "sim support",
+      100
+    ],
+    [
+      123,
+      "observe",
+      98
+    ],
+    [
+      124,
+      "orient",
+      98
+    ],
+    [
+      125,
+      "decide",
+      98
+    ],
+    [
+      126,
+      "act",
+      98
+    ],
+    [
+      127,
+      "disposition",
+      98
+    ],
+    [
+      128,
+      "movement",
+      98
+    ],
+    [
+      129,
+      "Boyd",
+      98
+    ],
+    [
+      130,
+      "OODA",
+      98
+    ],
+    [
+      131,
+      "Clausewitz",
+      98
+    ],
+    [
+      132,
+      "Sunzi",
+      98
+    ]
+  ],
+  "couplings": [
+    [
+      1,
+      "hold campaign",
+      100
+    ],
+    [
+      2,
+      "split campaign",
+      100
+    ],
+    [
+      3,
+      "hold sequence",
+      100
+    ],
+    [
+      4,
+      "split sequence",
+      100
+    ],
+    [
+      5,
+      "hold front",
+      100
+    ],
+    [
+      6,
+      "split front",
+      100
+    ],
+    [
+      7,
+      "hold retreat",
+      100
+    ],
+    [
+      8,
+      "split retreat",
+      100
+    ],
+    [
+      9,
+      "hold defer",
+      100
+    ],
+    [
+      10,
+      "split defer",
+      100
+    ],
+    [
+      11,
+      "hold split",
+      100
+    ],
+    [
+      12,
+      "hold resource",
+      100
+    ],
+    [
+      13,
+      "split resource",
+      100
+    ],
+    [
+      14,
+      "split hold",
+      100
+    ],
+    [
+      15,
+      "retreat condition",
+      100
+    ],
+    [
+      16,
+      "decisive front",
+      100
+    ],
+    [
+      17,
+      "drift condition",
+      100
+    ],
+    [
+      18,
+      "first move",
+      100
+    ],
+    [
+      19,
+      "return trigger",
+      100
+    ],
+    [
+      20,
+      "campaign evidence",
+      100
+    ],
+    [
+      21,
+      "campaign support",
+      100
+    ],
+    [
+      22,
+      "campaign path",
+      100
+    ],
+    [
+      23,
+      "campaign surface",
+      100
+    ],
+    [
+      24,
+      "campaign packet",
+      100
+    ],
+    [
+      25,
+      "campaign receipt",
+      100
+    ],
+    [
+      26,
+      "campaign trace",
+      100
+    ],
+    [
+      27,
+      "campaign result",
+      100
+    ],
+    [
+      28,
+      "campaign scope",
+      100
+    ],
+    [
+      29,
+      "campaign boundary",
+      100
+    ],
+    [
+      30,
+      "campaign status",
+      100
+    ],
+    [
+      31,
+      "campaign candidate",
+      100
+    ],
+    [
+      32,
+      "campaign witness",
+      100
+    ],
+    [
+      33,
+      "campaign",
+      100
+    ],
+    [
+      34,
+      "sequence",
+      100
+    ],
+    [
+      35,
+      "priority",
+      100
+    ],
+    [
+      36,
+      "resource",
+      100
+    ],
+    [
+      37,
+      "scarce",
+      100
+    ],
+    [
+      38,
+      "timing",
+      100
+    ],
+    [
+      39,
+      "defer",
+      100
+    ],
+    [
+      40,
+      "retreat",
+      100
+    ],
+    [
+      41,
+      "advance",
+      100
+    ],
+    [
+      42,
+      "split",
+      100
+    ],
+    [
+      43,
+      "merge",
+      100
+    ],
+    [
+      44,
+      "order",
+      100
+    ],
+    [
+      45,
+      "front",
+      100
+    ],
+    [
+      46,
+      "mission",
+      100
+    ],
+    [
+      47,
+      "campaign probe",
+      100
+    ],
+    [
+      48,
+      "campaign constraint",
+      100
+    ],
+    [
+      49,
+      "check campaign",
+      100
+    ],
+    [
+      50,
+      "compare campaign",
+      100
+    ],
+    [
+      51,
+      "observe campaign",
+      100
+    ],
+    [
+      52,
+      "measure campaign",
+      100
+    ],
+    [
+      53,
+      "test campaign",
+      100
+    ],
+    [
+      54,
+      "verify campaign",
+      100
+    ],
+    [
+      55,
+      "preserve campaign",
+      100
+    ],
+    [
+      56,
+      "narrow campaign",
+      100
+    ],
+    [
+      57,
+      "under campaign",
+      100
+    ],
+    [
+      58,
+      "within campaign",
+      100
+    ],
+    [
+      59,
+      "across campaign",
+      100
+    ],
+    [
+      60,
+      "between campaign",
+      100
+    ],
+    [
+      61,
+      "through campaign",
+      100
+    ],
+    [
+      62,
+      "before campaign",
+      100
+    ],
+    [
+      63,
+      "after campaign",
+      100
+    ],
+    [
+      64,
+      "until campaign",
+      100
+    ],
+    [
+      65,
+      "where campaign",
+      100
+    ],
+    [
+      66,
+      "while campaign",
+      100
+    ],
+    [
+      67,
+      "sequence evidence",
+      100
+    ],
+    [
+      68,
+      "sequence support",
+      100
+    ],
+    [
+      69,
+      "sequence path",
+      100
+    ],
+    [
+      70,
+      "sequence surface",
+      100
+    ],
+    [
+      71,
+      "sequence packet",
+      100
+    ],
+    [
+      72,
+      "sequence receipt",
+      100
+    ],
+    [
+      73,
+      "sequence trace",
+      100
+    ],
+    [
+      74,
+      "sequence result",
+      100
+    ],
+    [
+      75,
+      "sequence scope",
+      100
+    ],
+    [
+      76,
+      "sequence boundary",
+      100
+    ],
+    [
+      77,
+      "sequence status",
+      100
+    ],
+    [
+      78,
+      "sequence candidate",
+      100
+    ],
+    [
+      79,
+      "sequence witness",
+      100
+    ],
+    [
+      80,
+      "sequence probe",
+      100
+    ],
+    [
+      81,
+      "sequence constraint",
+      100
+    ],
+    [
+      82,
+      "check sequence",
+      100
+    ],
+    [
+      83,
+      "compare sequence",
+      100
+    ],
+    [
+      84,
+      "observe sequence",
+      100
+    ],
+    [
+      85,
+      "measure sequence",
+      100
+    ],
+    [
+      86,
+      "test sequence",
+      100
+    ],
+    [
+      87,
+      "verify sequence",
+      100
+    ],
+    [
+      88,
+      "preserve sequence",
+      100
+    ],
+    [
+      89,
+      "narrow sequence",
+      100
+    ],
+    [
+      90,
+      "under sequence",
+      100
+    ],
+    [
+      91,
+      "within sequence",
+      100
+    ],
+    [
+      92,
+      "across sequence",
+      100
+    ],
+    [
+      93,
+      "between sequence",
+      100
+    ],
+    [
+      94,
+      "through sequence",
+      100
+    ],
+    [
+      95,
+      "before sequence",
+      100
+    ],
+    [
+      96,
+      "after sequence",
+      100
+    ],
+    [
+      97,
+      "until sequence",
+      100
+    ],
+    [
+      98,
+      "where sequence",
+      100
+    ],
+    [
+      99,
+      "while sequence",
+      100
+    ],
+    [
+      100,
+      "front evidence",
+      100
+    ],
+    [
+      101,
+      "front support",
+      100
+    ],
+    [
+      102,
+      "front path",
+      100
+    ],
+    [
+      103,
+      "front surface",
+      100
+    ],
+    [
+      104,
+      "front packet",
+      100
+    ],
+    [
+      105,
+      "front receipt",
+      100
+    ],
+    [
+      106,
+      "front trace",
+      100
+    ],
+    [
+      107,
+      "front result",
+      100
+    ],
+    [
+      108,
+      "front scope",
+      100
+    ],
+    [
+      109,
+      "front boundary",
+      100
+    ],
+    [
+      110,
+      "front status",
+      100
+    ],
+    [
+      111,
+      "front candidate",
+      100
+    ],
+    [
+      112,
+      "front witness",
+      100
+    ],
+    [
+      113,
+      "front probe",
+      100
+    ],
+    [
+      114,
+      "front constraint",
+      100
+    ],
+    [
+      115,
+      "check front",
+      100
+    ],
+    [
+      116,
+      "compare front",
+      100
+    ],
+    [
+      117,
+      "observe front",
+      100
+    ],
+    [
+      118,
+      "measure front",
+      100
+    ],
+    [
+      119,
+      "hold merge",
+      100
+    ],
+    [
+      120,
+      "split merge",
+      100
+    ],
+    [
+      121,
+      "test front",
+      100
+    ],
+    [
+      122,
+      "under front",
+      100
+    ],
+    [
+      123,
+      "within front",
+      100
+    ],
+    [
+      124,
+      "across front",
+      100
+    ],
+    [
+      125,
+      "between front",
+      100
+    ],
+    [
+      126,
+      "through front",
+      100
+    ],
+    [
+      127,
+      "verify front",
+      100
+    ],
+    [
+      128,
+      "preserve front",
+      100
+    ],
+    [
+      129,
+      "narrow front",
+      100
+    ],
+    [
+      130,
+      "before front",
+      100
+    ],
+    [
+      131,
+      "after front",
+      100
+    ],
+    [
+      132,
+      "until front",
+      100
+    ],
+    [
+      133,
+      "where front",
+      100
+    ],
+    [
+      134,
+      "while front",
+      100
+    ],
+    [
+      135,
+      "retreat evidence",
+      100
+    ],
+    [
+      136,
+      "retreat support",
+      100
+    ],
+    [
+      137,
+      "retreat path",
+      100
+    ],
+    [
+      138,
+      "retreat surface",
+      100
+    ],
+    [
+      139,
+      "retreat packet",
+      100
+    ],
+    [
+      140,
+      "retreat receipt",
+      100
+    ],
+    [
+      141,
+      "retreat trace",
+      100
+    ],
+    [
+      142,
+      "retreat result",
+      100
+    ],
+    [
+      143,
+      "retreat scope",
+      100
+    ],
+    [
+      144,
+      "retreat boundary",
+      100
+    ],
+    [
+      145,
+      "hold",
+      100
+    ],
+    [
+      146,
+      "role",
+      100
+    ],
+    [
+      147,
+      "retreat status",
+      100
+    ],
+    [
+      148,
+      "retreat candidate",
+      100
+    ],
+    [
+      149,
+      "retreat witness",
+      100
+    ],
+    [
+      150,
+      "retreat probe",
+      100
+    ],
+    [
+      151,
+      "mini-MMM shapes voice",
+      100
+    ],
+    [
+      152,
+      "mini MMM voice shape",
+      100
+    ],
+    [
+      153,
+      "voice shaped by nouns",
+      100
+    ],
+    [
+      154,
+      "aligned nouns shape voice",
+      100
+    ],
+    [
+      155,
+      "correlated thinkers shape voice",
+      100
+    ],
+    [
+      156,
+      "thinker alignment voice",
+      100
+    ],
+    [
+      157,
+      "noun alignment voice",
+      100
+    ],
+    [
+      158,
+      "voice signature nouns",
+      100
+    ],
+    [
+      159,
+      "local voice contour",
+      100
+    ],
+    [
+      160,
+      "observe orient",
+      97
+    ],
+    [
+      161,
+      "decide act",
+      97
+    ],
+    [
+      162,
+      "campaign objective",
+      97
+    ],
+    [
+      163,
+      "tempo and reserve",
+      97
+    ],
+    [
+      164,
+      "decisive point",
+      97
+    ]
+  ],
+  "triplets": [
+    [
+      1,
+      "hold campaign receipt",
+      100
+    ],
+    [
+      2,
+      "hold sequence receipt",
+      100
+    ],
+    [
+      3,
+      "hold front receipt",
+      100
+    ],
+    [
+      4,
+      "hold retreat receipt",
+      100
+    ],
+    [
+      5,
+      "campaign evidence path",
+      100
+    ],
+    [
+      6,
+      "campaign support path",
+      100
+    ],
+    [
+      7,
+      "campaign path path",
+      100
+    ],
+    [
+      8,
+      "campaign surface path",
+      100
+    ],
+    [
+      9,
+      "under open campaign",
+      100
+    ],
+    [
+      10,
+      "campaign packet path",
+      100
+    ],
+    [
+      11,
+      "under live campaign",
+      100
+    ],
+    [
+      12,
+      "campaign receipt path",
+      100
+    ],
+    [
+      13,
+      "campaign trace path",
+      100
+    ],
+    [
+      14,
+      "campaign result path",
+      100
+    ],
+    [
+      15,
+      "campaign scope path",
+      100
+    ],
+    [
+      16,
+      "campaign boundary path",
+      100
+    ],
+    [
+      17,
+      "within open campaign",
+      100
+    ],
+    [
+      18,
+      "check campaign receipt",
+      100
+    ],
+    [
+      19,
+      "within live campaign",
+      100
+    ],
+    [
+      20,
+      "compare campaign receipt",
+      100
+    ],
+    [
+      21,
+      "observe campaign receipt",
+      100
+    ],
+    [
+      22,
+      "measure campaign receipt",
+      100
+    ],
+    [
+      23,
+      "across open campaign",
+      100
+    ],
+    [
+      24,
+      "across live campaign",
+      100
+    ],
+    [
+      25,
+      "between open campaign",
+      100
+    ],
+    [
+      26,
+      "between live campaign",
+      100
+    ],
+    [
+      27,
+      "test campaign receipt",
+      100
+    ],
+    [
+      28,
+      "verify campaign receipt",
+      100
+    ],
+    [
+      29,
+      "preserve campaign receipt",
+      100
+    ],
+    [
+      30,
+      "campaign sequence resource",
+      100
+    ],
+    [
+      31,
+      "commitment cost risk",
+      100
+    ],
+    [
+      32,
+      "decisive front condition",
+      100
+    ],
+    [
+      33,
+      "dependency sequence order",
+      100
+    ],
+    [
+      34,
+      "fallback plan reserve",
+      100
+    ],
+    [
+      35,
+      "front timing retreat",
+      100
+    ],
+    [
+      36,
+      "hold advance retreat",
+      100
+    ],
+    [
+      37,
+      "local win campaign",
+      100
+    ],
+    [
+      38,
+      "option value tradeoff",
+      100
+    ],
+    [
+      39,
+      "priority order risk",
+      100
+    ],
+    [
+      40,
+      "role allocation timing",
+      100
+    ],
+    [
+      41,
+      "scarce resource allocation",
+      100
+    ],
+    [
+      42,
+      "strategy drift condition",
+      100
+    ],
+    [
+      43,
+      "tempo control front",
+      100
+    ],
+    [
+      44,
+      "under campaign sequence",
+      99
+    ],
+    [
+      45,
+      "under campaign priority",
+      98
+    ],
+    [
+      46,
+      "under campaign resource",
+      98
+    ],
+    [
+      47,
+      "under campaign timing",
+      98
+    ],
+    [
+      48,
+      "under sequence priority",
+      98
+    ],
+    [
+      49,
+      "under sequence resource",
+      98
+    ],
+    [
+      50,
+      "under sequence timing",
+      98
+    ],
+    [
+      51,
+      "under sequence front",
+      98
+    ],
+    [
+      52,
+      "under priority resource",
+      98
+    ],
+    [
+      53,
+      "under priority timing",
+      98
+    ],
+    [
+      54,
+      "under priority front",
+      98
+    ],
+    [
+      55,
+      "under resource timing",
+      98
+    ],
+    [
+      56,
+      "under resource front",
+      98
+    ],
+    [
+      57,
+      "under resource retreat",
+      98
+    ],
+    [
+      58,
+      "under timing front",
+      98
+    ],
+    [
+      59,
+      "under timing retreat",
+      98
+    ],
+    [
+      60,
+      "under timing hold",
+      98
+    ],
+    [
+      61,
+      "under front retreat",
+      98
+    ],
+    [
+      62,
+      "under front hold",
+      98
+    ],
+    [
+      63,
+      "under front advance",
+      98
+    ],
+    [
+      64,
+      "under retreat hold",
+      97
+    ],
+    [
+      65,
+      "under retreat advance",
+      97
+    ],
+    [
+      66,
+      "under retreat defer",
+      97
+    ],
+    [
+      67,
+      "under retreat split",
+      97
+    ],
+    [
+      68,
+      "under hold advance",
+      97
+    ],
+    [
+      69,
+      "under hold defer",
+      97
+    ],
+    [
+      70,
+      "under hold split",
+      97
+    ],
+    [
+      71,
+      "under hold merge",
+      97
+    ],
+    [
+      72,
+      "under advance defer",
+      97
+    ],
+    [
+      73,
+      "under advance split",
+      97
+    ],
+    [
+      74,
+      "under advance merge",
+      97
+    ],
+    [
+      75,
+      "under defer split",
+      97
+    ],
+    [
+      76,
+      "under defer merge",
+      97
+    ],
+    [
+      77,
+      "under split merge",
+      97
+    ],
+    [
+      78,
+      "under split mission",
+      97
+    ],
+    [
+      79,
+      "under merge mission",
+      97
+    ],
+    [
+      80,
+      "within campaign sequence",
+      96
+    ],
+    [
+      81,
+      "within campaign priority",
+      96
+    ],
+    [
+      82,
+      "within campaign resource",
+      96
+    ],
+    [
+      83,
+      "within campaign timing",
+      96
+    ],
+    [
+      84,
+      "within sequence priority",
+      96
+    ],
+    [
+      85,
+      "within sequence resource",
+      96
+    ],
+    [
+      86,
+      "within sequence timing",
+      96
+    ],
+    [
+      87,
+      "within sequence front",
+      96
+    ],
+    [
+      88,
+      "within priority resource",
+      96
+    ],
+    [
+      89,
+      "within priority timing",
+      96
+    ],
+    [
+      90,
+      "within priority front",
+      96
+    ],
+    [
+      91,
+      "within resource timing",
+      96
+    ],
+    [
+      92,
+      "within resource front",
+      96
+    ],
+    [
+      93,
+      "within resource retreat",
+      96
+    ],
+    [
+      94,
+      "within timing front",
+      96
+    ],
+    [
+      95,
+      "within timing retreat",
+      96
+    ],
+    [
+      96,
+      "within timing hold",
+      96
+    ],
+    [
+      97,
+      "within front retreat",
+      96
+    ],
+    [
+      98,
+      "within front hold",
+      96
+    ],
+    [
+      99,
+      "within front advance",
+      96
+    ],
+    [
+      100,
+      "within retreat hold",
+      96
+    ],
+    [
+      101,
+      "within retreat advance",
+      96
+    ],
+    [
+      102,
+      "within retreat defer",
+      96
+    ],
+    [
+      103,
+      "within retreat split",
+      96
+    ],
+    [
+      104,
+      "within hold advance",
+      96
+    ],
+    [
+      105,
+      "within hold defer",
+      96
+    ],
+    [
+      106,
+      "within hold split",
+      96
+    ],
+    [
+      107,
+      "within hold merge",
+      96
+    ],
+    [
+      108,
+      "within advance defer",
+      96
+    ],
+    [
+      109,
+      "within advance split",
+      96
+    ],
+    [
+      110,
+      "within advance merge",
+      96
+    ],
+    [
+      111,
+      "within defer split",
+      96
+    ],
+    [
+      112,
+      "within defer merge",
+      96
+    ],
+    [
+      113,
+      "within split merge",
+      96
+    ],
+    [
+      114,
+      "within split mission",
+      95
+    ],
+    [
+      115,
+      "within merge mission",
+      95
+    ],
+    [
+      116,
+      "mini-MMM shapes voice",
+      100
+    ],
+    [
+      117,
+      "mini MMM voice shape",
+      100
+    ],
+    [
+      118,
+      "voice shaped by nouns",
+      100
+    ],
+    [
+      119,
+      "aligned nouns shape voice",
+      100
+    ],
+    [
+      120,
+      "correlated thinkers shape voice",
+      100
+    ],
+    [
+      121,
+      "observe orient decide",
+      96
+    ],
+    [
+      122,
+      "campaign tempo reserve",
+      96
+    ],
+    [
+      123,
+      "terrain disposition movement",
+      96
+    ]
+  ],
+  "v4_1_salience_expansion": {
+    "source": "deep-research-report.md",
+    "status": "positive salience only; no diagnostic/provenance boot",
+    "route": "STRATEGY",
+    "size": "compact"
+  }
+}

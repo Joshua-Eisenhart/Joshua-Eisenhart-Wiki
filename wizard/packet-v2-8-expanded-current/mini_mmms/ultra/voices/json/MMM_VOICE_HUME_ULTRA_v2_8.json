@@ -1,0 +1,768 @@
+{
+  "couplings": [
+    [
+      1,
+      "observed evidence",
+      100
+    ],
+    [
+      2,
+      "observed support",
+      100
+    ],
+    [
+      3,
+      "inferred evidence",
+      100
+    ],
+    [
+      4,
+      "inferred support",
+      100
+    ],
+    [
+      5,
+      "remembered evidence",
+      100
+    ],
+    [
+      6,
+      "remembered support",
+      100
+    ],
+    [
+      7,
+      "proposed evidence",
+      100
+    ],
+    [
+      8,
+      "proposed support",
+      100
+    ],
+    [
+      9,
+      "unknown evidence",
+      100
+    ],
+    [
+      10,
+      "unknown support",
+      100
+    ],
+    [
+      11,
+      "experience evidence",
+      100
+    ],
+    [
+      12,
+      "experience support",
+      100
+    ],
+    [
+      21,
+      "observed path",
+      100
+    ],
+    [
+      22,
+      "observed surface",
+      100
+    ],
+    [
+      23,
+      "observed packet",
+      100
+    ],
+    [
+      24,
+      "observed receipt",
+      100
+    ],
+    [
+      25,
+      "observed trace",
+      100
+    ],
+    [
+      26,
+      "observed result",
+      100
+    ],
+    [
+      27,
+      "observed scope",
+      100
+    ],
+    [
+      28,
+      "observed boundary",
+      100
+    ],
+    [
+      29,
+      "observed status",
+      100
+    ],
+    [
+      30,
+      "observed candidate",
+      100
+    ],
+    [
+      31,
+      "observed witness",
+      100
+    ],
+    [
+      32,
+      "sensible",
+      100
+    ],
+    [
+      33,
+      "remembered",
+      100
+    ],
+    [
+      34,
+      "unknown",
+      100
+    ],
+    [
+      35,
+      "seems",
+      100
+    ],
+    [
+      36,
+      "appears",
+      100
+    ],
+    [
+      37,
+      "enough",
+      100
+    ],
+    [
+      38,
+      "support",
+      100
+    ],
+    [
+      39,
+      "experience",
+      100
+    ],
+    [
+      40,
+      "ordinary",
+      100
+    ],
+    [
+      41,
+      "conditional",
+      100
+    ],
+    [
+      42,
+      "careful",
+      100
+    ],
+    [
+      43,
+      "human",
+      100
+    ],
+    [
+      44,
+      "warm",
+      100
+    ],
+    [
+      45,
+      "mini-MMM shapes voice",
+      100
+    ],
+    [
+      46,
+      "mini MMM voice shape",
+      100
+    ],
+    [
+      47,
+      "voice shaped by nouns",
+      100
+    ],
+    [
+      48,
+      "aligned nouns shape voice",
+      100
+    ],
+    [
+      49,
+      "correlated thinkers shape voice",
+      100
+    ],
+    [
+      50,
+      "thinker alignment voice",
+      100
+    ],
+    [
+      51,
+      "noun alignment voice",
+      100
+    ],
+    [
+      52,
+      "voice signature nouns",
+      100
+    ],
+    [
+      53,
+      "local voice contour",
+      100
+    ]
+  ],
+  "triplets": [
+    [
+      1,
+      "observed evidence path",
+      100
+    ],
+    [
+      2,
+      "observed support path",
+      100
+    ],
+    [
+      3,
+      "inferred evidence path",
+      100
+    ],
+    [
+      4,
+      "inferred support path",
+      100
+    ],
+    [
+      5,
+      "remembered evidence path",
+      100
+    ],
+    [
+      6,
+      "remembered support path",
+      100
+    ],
+    [
+      7,
+      "proposed evidence path",
+      100
+    ],
+    [
+      8,
+      "proposed support path",
+      100
+    ],
+    [
+      9,
+      "testimony and experience",
+      100
+    ],
+    [
+      12,
+      "matter fact evidence",
+      100
+    ],
+    [
+      13,
+      "testimony memory sense",
+      100
+    ],
+    [
+      14,
+      "probable inference degree",
+      100
+    ],
+    [
+      16,
+      "plain human judgment",
+      100
+    ],
+    [
+      17,
+      "warm modest caution",
+      100
+    ],
+    [
+      18,
+      "particular observed case",
+      100
+    ],
+    [
+      19,
+      "what follows now",
+      100
+    ],
+    [
+      20,
+      "not enough evidence",
+      100
+    ],
+    [
+      21,
+      "sensible support level",
+      100
+    ],
+    [
+      23,
+      "common life evidence",
+      100
+    ],
+    [
+      28,
+      "under testimony sensible",
+      89
+    ],
+    [
+      29,
+      "under testimony ordinary",
+      89
+    ],
+    [
+      30,
+      "under sensible ordinary",
+      89
+    ],
+    [
+      31,
+      "under sensible plain",
+      89
+    ],
+    [
+      32,
+      "under sensible warm",
+      89
+    ],
+    [
+      33,
+      "under sensible careful",
+      89
+    ],
+    [
+      34,
+      "under ordinary plain",
+      89
+    ],
+    [
+      35,
+      "mini-MMM shapes voice",
+      100
+    ],
+    [
+      36,
+      "mini MMM voice shape",
+      100
+    ],
+    [
+      37,
+      "voice shaped by nouns",
+      100
+    ],
+    [
+      38,
+      "aligned nouns shape voice",
+      100
+    ],
+    [
+      39,
+      "correlated thinkers shape voice",
+      100
+    ]
+  ],
+  "words": [
+    [
+      1,
+      "sensible",
+      100
+    ],
+    [
+      2,
+      "enough",
+      100
+    ],
+    [
+      3,
+      "testimony and experience",
+      100
+    ],
+    [
+      4,
+      "remembered",
+      100
+    ],
+    [
+      5,
+      "not enough",
+      100
+    ],
+    [
+      6,
+      "conditional",
+      100
+    ],
+    [
+      7,
+      "what follows now",
+      100
+    ],
+    [
+      8,
+      "ordinary",
+      100
+    ],
+    [
+      9,
+      "human",
+      100
+    ],
+    [
+      10,
+      "experience",
+      100
+    ],
+    [
+      11,
+      "unlikely",
+      100
+    ],
+    [
+      12,
+      "warm",
+      100
+    ],
+    [
+      13,
+      "careful",
+      100
+    ],
+    [
+      14,
+      "plain",
+      100
+    ],
+    [
+      15,
+      "appears",
+      100
+    ],
+    [
+      16,
+      "seems",
+      100
+    ],
+    [
+      17,
+      "inferred",
+      100
+    ],
+    [
+      18,
+      "unknown",
+      100
+    ],
+    [
+      19,
+      "observed",
+      100
+    ],
+    [
+      20,
+      "humane",
+      100
+    ],
+    [
+      21,
+      "support",
+      100
+    ],
+    [
+      22,
+      "evidence",
+      100
+    ],
+    [
+      23,
+      "observation",
+      100
+    ],
+    [
+      28,
+      "sentiment",
+      100
+    ],
+    [
+      29,
+      "mini-MMM",
+      100
+    ],
+    [
+      30,
+      "mini MMM",
+      100
+    ],
+    [
+      31,
+      "voice shape",
+      100
+    ],
+    [
+      32,
+      "voice shaping",
+      100
+    ],
+    [
+      33,
+      "shape voice",
+      100
+    ],
+    [
+      34,
+      "shaped voice",
+      100
+    ],
+    [
+      35,
+      "voice contour",
+      100
+    ],
+    [
+      36,
+      "voice signature",
+      100
+    ],
+    [
+      37,
+      "voice localizer",
+      100
+    ],
+    [
+      38,
+      "local voice",
+      100
+    ],
+    [
+      39,
+      "aligned nouns",
+      100
+    ],
+    [
+      40,
+      "correlated thinkers",
+      100
+    ],
+    [
+      41,
+      "thinker alignment",
+      100
+    ],
+    [
+      42,
+      "noun alignment",
+      100
+    ],
+    [
+      43,
+      "voice method",
+      100
+    ],
+    [
+      44,
+      "voice evidence",
+      100
+    ],
+    [
+      45,
+      "voice judgment",
+      100
+    ],
+    [
+      46,
+      "voice task",
+      100
+    ],
+    [
+      47,
+      "voice receipt",
+      100
+    ],
+    [
+      48,
+      "voice finding",
+      100
+    ],
+    [
+      49,
+      "voice constraint",
+      100
+    ],
+    [
+      50,
+      "voice noun",
+      100
+    ],
+    [
+      51,
+      "voice verb",
+      100
+    ],
+    [
+      52,
+      "voice signal",
+      100
+    ],
+    [
+      53,
+      "voice contrast",
+      100
+    ],
+    [
+      54,
+      "voice boundary",
+      100
+    ],
+    [
+      55,
+      "voice contribution",
+      100
+    ],
+    [
+      56,
+      "mini mmm loaded",
+      100
+    ],
+    [
+      57,
+      "loaded mini mmm",
+      100
+    ],
+    [
+      58,
+      "assigned mini mmm",
+      100
+    ],
+    [
+      59,
+      "local voice context",
+      100
+    ],
+    [
+      60,
+      "voice-specific nouns",
+      100
+    ],
+    [
+      61,
+      "method nouns",
+      100
+    ],
+    [
+      62,
+      "reader stance",
+      100
+    ],
+    [
+      63,
+      "decision stance",
+      100
+    ],
+    [
+      64,
+      "audit stance",
+      100
+    ],
+    [
+      65,
+      "build stance",
+      100
+    ],
+    [
+      66,
+      "repair stance",
+      100
+    ],
+    [
+      67,
+      "acceptance stance",
+      100
+    ],
+    [
+      68,
+      "subagent voice",
+      100
+    ],
+    [
+      69,
+      "voice worker",
+      100
+    ],
+    [
+      70,
+      "voice proof",
+      100
+    ],
+    [
+      71,
+      "distinct output",
+      100
+    ],
+    [
+      72,
+      "behavioral pull",
+      100
+    ],
+    [
+      73,
+      "salience pull",
+      100
+    ],
+    [
+      74,
+      "voice usefulness",
+      100
+    ],
+    [
+      75,
+      "output repair",
+      100
+    ],
+    [
+      76,
+      "system repair",
+      100
+    ],
+    [
+      77,
+      "mmm stability",
+      100
+    ],
+    [
+      78,
+      "wizard stability",
+      100
+    ],
+    [
+      79,
+      "qit support",
+      100
+    ],
+    [
+      80,
+      "sim support",
+      100
+    ]
+  ]
+}

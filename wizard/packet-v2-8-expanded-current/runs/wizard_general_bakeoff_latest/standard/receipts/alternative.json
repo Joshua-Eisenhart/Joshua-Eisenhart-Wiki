@@ -1,0 +1,12 @@
+{
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/mmm_wizard_complete_system_packet_v2_8_expanded_candidate",
+  "checked": "loaded mini_mmms/standard/lanes/md/MMM_LANE_ALTERNATIVE_STANDARD_v2_8.md",
+  "concluded": "Second route: keep this local runner as the stable gate while Opus or other external reviewers remain optional.",
+  "evidence": "mini_mmms/standard/lanes/md/MMM_LANE_ALTERNATIVE_STANDARD_v2_8.md terms: actual :: 100, alternate :: 100, alternative :: 100, apart :: 100, assumption :: 100, backup :: 100, benefit :: 100, better if :: 100",
+  "generated_at": "2026-04-28T22:36:04.218294+00:00",
+  "lane": "Alternative",
+  "open": "live proof pending",
+  "output_excerpt": "Task: Compare Wizard General sizes and choose the best local runtime surface.\nWizard General size: standard\nWave 8: Follow-up Run/Scout Wave\nSecond route: keep this local runner as the stable gate while Opus or other external reviewers remain optional.\nLoaded language body terms: actual :: 100, alternate :: 100, alternative :: 100, apart :: 100, assumption :: 100, backup :: 100, benefit :: 100, better if :: 100",
+  "output_sha256": "48a2ef86ad124dd09f1f9c54a59058280418507959aee2e6f15c09eefbfaa52b",
+  "schema_version": "wizard_behavior_harness.v1"
+}

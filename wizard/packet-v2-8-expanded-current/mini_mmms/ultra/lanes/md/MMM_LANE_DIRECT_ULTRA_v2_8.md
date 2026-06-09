@@ -1,0 +1,114 @@
+# MMM_LANE_DIRECT_ULTRA_v2_8
+
+## words
+
+- deliverable :: 100
+- acceptance :: 100
+- blocker :: 100
+- now :: 100
+- step :: 100
+- smallest :: 100
+- done condition :: 100
+- next :: 100
+- direct :: 100
+- path :: 100
+- artifact :: 100
+- bounded :: 100
+- immediate :: 100
+- shortest :: 100
+- this :: 100
+- minimal :: 100
+- patch :: 100
+- concrete :: 100
+- action :: 100
+- answer :: 100
+- done :: 100
+- exact :: 100
+
+## couplings
+
+- shortest path :: 100
+- deliverable path :: 100
+- deliverable :: 100
+- acceptance :: 100
+- next path :: 100
+- bounded path :: 100
+- blocker :: 100
+- direct deliverable :: 100
+- direct acceptance :: 100
+- next deliverable :: 100
+- next acceptance :: 100
+- smallest deliverable :: 100
+- smallest acceptance :: 100
+- smallest blocker :: 100
+- next move :: 100
+- deliverable evidence :: 100
+- deliverable support :: 100
+- deliverable surface :: 100
+- deliverable packet :: 100
+- deliverable receipt :: 100
+- deliverable trace :: 100
+- deliverable result :: 100
+- deliverable scope :: 100
+- deliverable boundary :: 100
+- deliverable status :: 100
+- deliverable candidate :: 100
+- deliverable witness :: 100
+- deliverable probe :: 100
+- deliverable constraint :: 100
+- check deliverable :: 100
+- compare deliverable :: 100
+- observe deliverable :: 100
+- measure deliverable :: 100
+- test deliverable :: 100
+- verify deliverable :: 100
+- hold deliverable :: 100
+- next bounded move :: 100
+- immediate action :: 100
+- concrete deliverable :: 100
+- shortest defensible answer :: 100
+- smallest useful step :: 100
+- acceptance check :: 100
+- current target :: 100
+- exact step :: 100
+- direct path :: 100
+- done condition :: 100
+- visible blocker :: 100
+- minimum viable move :: 100
+
+## triplets
+
+- next evidence path :: 100
+- next support path :: 100
+- next path path :: 100
+- next surface path :: 100
+- next packet path :: 100
+- next receipt path :: 100
+- next trace path :: 100
+- next result path :: 100
+- next scope path :: 100
+- next boundary path :: 100
+- next bounded move :: 100
+- immediate concrete action :: 100
+- smallest useful step :: 100
+- deliverable acceptance check :: 100
+- shortest defensible answer :: 100
+- current target blocker :: 100
+- direct path done :: 100
+- answer first action :: 100
+- under path deliverable :: 90
+- under path acceptance :: 90
+- under deliverable acceptance :: 89
+- under acceptance blocker :: 89
+- under blocker now :: 89
+- within path deliverable :: 88
+- within path acceptance :: 88
+- within deliverable acceptance :: 88
+- under bounded next :: 78
+- within bounded next :: 78
+- across bounded next :: 78
+- between bounded next :: 78
+- under bounded deliverable :: 72
+- under bounded acceptance :: 72
+- within bounded deliverable :: 70
+- within bounded acceptance :: 70

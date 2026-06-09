@@ -1,0 +1,12 @@
+{
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate",
+  "checked": "loaded mini_mmms/standard/voices/md/MMM_VOICE_STRATEGY_STANDARD_v2_7.md",
+  "concluded": "Decisive point: prove receipt truth first, then run fresh-agent behavior tests, then consider live wiring.",
+  "evidence": "mini_mmms/standard/voices/md/MMM_VOICE_STRATEGY_STANDARD_v2_7.md terms: center of gravity, decisive point, decisive front, drift condition, economy of force, first move, work path, means and ends",
+  "generated_at": "2026-04-28T08:03:25.030686+00:00",
+  "lane": "Strategy",
+  "open": "live proof pending",
+  "output_excerpt": "Task: Compare Wizard General sizes and choose the best local runtime surface.\nWizard General size: standard\nWave 1: Voice Wave\nDecisive point: prove receipt truth first, then run fresh-agent behavior tests, then consider live wiring.\nLoaded language body terms: center of gravity, decisive point, decisive front, drift condition, economy of force, first move, work path, means and ends",
+  "output_sha256": "7e427f6436ab156daddb99317bc91c41960930ac8e64d31e574504ff538aa460",
+  "schema_version": "wizard_behavior_harness.v1"
+}

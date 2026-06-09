@@ -1,0 +1,7 @@
+{
+  "id": "lane.all_of_the_above",
+  "mode": "compact",
+  "packet": "v4.1",
+  "purpose_salience": "compose viable follow-up lanes into one ordered prompt",
+  "output_shape": "ordered prompt; dependency order; stop on first failed gate"
+}

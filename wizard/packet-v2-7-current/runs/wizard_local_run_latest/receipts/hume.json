@@ -1,0 +1,12 @@
+{
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate",
+  "checked": "loaded mini_mmms/full/voices/md/MMM_VOICE_HUME_FULL_v2_7.md",
+  "concluded": "Measured judgment: the evidence supports local dry-run readiness, while live-agent confidence remains unearned.",
+  "evidence": "mini_mmms/full/voices/md/MMM_VOICE_HUME_FULL_v2_7.md terms: evidence-scoped judgment, receipt grounded, claim ceiling, support level, credible but open, bounded confidence, what was checked, what remains open",
+  "generated_at": "2026-04-28T08:03:24.959556+00:00",
+  "lane": "Hume",
+  "open": "live proof pending",
+  "output_excerpt": "Task: Improve and locally run the repaired MMM Wizard packet without live wiring.\nWizard General size: full\nWave 1: Voice Wave\nMeasured judgment: the evidence supports local dry-run readiness, while live-agent confidence remains unearned.\nLoaded language body terms: evidence-scoped judgment, receipt grounded, claim ceiling, support level, credible but open, bounded confidence, what was checked, what remains open",
+  "output_sha256": "cf98b3ceda5c0a11777a5d8a7a165f88d8cdaa17cf64c722adf66bc898d73c0e",
+  "schema_version": "wizard_behavior_harness.v1"
+}

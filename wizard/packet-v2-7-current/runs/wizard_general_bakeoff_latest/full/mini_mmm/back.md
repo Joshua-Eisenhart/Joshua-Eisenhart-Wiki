@@ -1,0 +1,368 @@
+---
+title: Back
+created: 2026-04-28
+updated: 2026-04-28
+type: concept
+tags: [wizard, mmm, packet, receipt]
+framing: current
+source_path: runs/wizard_general_bakeoff_latest/full/mini_mmm/back.md
+---
+
+Lane-local behavior probe body for Back. Candidate root: /Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate. This record was normalized from collected probe output only. The harness did not spawn agents, infer hidden execution, or add a claim beyond the supplied lane record. Review this lane as receipt evidence: checked material, conclusion, remaining open question, and cited evidence must remain tied to the captured output. The body exists so the adapter can verify that every completed lane has a lane-local language surface rather than borrowing global prose. Future readers should treat the text as a behavior probe normalization artifact, not as independent proof of correctness. 
+
+Collected output:
+# MMM_LANE_BACK_FULL_v2_7
+
+## aligned nouns and phrases
+
+- prior branch
+- previous surface
+- branch context
+- return
+- prior
+- previous
+- choice
+- resume
+- undo
+- route
+- restore
+- context
+- frame
+- target
+- navigation
+- branch
+- earlier
+- path
+- revisit
+- outside
+- only
+- then
+- bounded
+- finite
+- open
+- distinct
+- concrete
+- observed
+- missing
+- small
+- honest
+- first
+- separate
+- together
+- compared
+- measured
+- used
+- fit
+- viable
+- direct
+- different
+- alternate
+- packet
+- artifact
+- receipt
+- trace
+- result
+- support
+- evidence
+- scope
+- boundary
+- gate
+- guard
+- rung
+- status
+- candidate
+- survivor
+- witness
+- probe
+- constraint
+- name
+- use
+- role
+- practice
+- experience
+- observation
+- perception
+- conjunction
+- resemblance
+- relation
+- probability
+- particular
+- predicate
+- class
+- model
+- solver
+- satisfiable
+- relative
+- locally
+- rather
+- instead
+- still
+- likely
+- possible
+- partial
+- limited
+- measurement
+- sample
+- case
+- instance
+- word
+- distinction
+- comparison
+- estimate
+- uncertainty
+- counterexample
+- condition
+- fork
+- plurality
+- perspective
+- claim
+- voice
+- lane
+- interactive
+- decision
+
+## correlated couplings
+
+- previous surface branch context
+- choice prior branch
+- resume prior branch
+- undo prior branch
+- route prior branch
+- restore prior branch
+- restore branch context
+- context prior branch
+- frame prior branch
+- frame branch context
+- prior branch target
+- prior branch navigation
+- prior branch earlier
+- previous surface target
+- previous surface navigation
+- previous surface no branch
+- previous surface branch
+- previous surface earlier
+- target branch context
+- navigation branch context
+- branch context earlier
+- branch context revisit
+- prior evidence
+- prior support
+- prior packet
+- prior receipt
+- prior trace
+- prior result
+- prior scope
+- prior boundary
+- prior witness
+- prior probe
+- prior constraint
+- compare prior
+- measure prior
+- hold prior
+- preserve prior
+- split prior
+- narrow prior
+- previous evidence
+- previous support
+- previous packet
+- previous receipt
+- previous trace
+- previous result
+- previous scope
+- previous boundary
+- previous witness
+- previous probe
+- previous constraint
+- compare previous
+- measure previous
+- hold previous
+- preserve previous
+- split previous
+- narrow previous
+- return evidence
+- return support
+- return packet
+- return receipt
+- return trace
+- return result
+- return scope
+- return boundary
+- return witness
+- return probe
+- return constraint
+- compare return
+- measure return
+- hold return
+- preserve return
+- split return
+- narrow return
+- resume evidence
+- resume support
+- resume packet
+- resume receipt
+- resume trace
+- resume result
+- resume scope
+- resume boundary
+- resume witness
+- resume probe
+- resume constraint
+- compare resume
+- measure resume
+- hold resume
+- preserve resume
+- split resume
+- narrow resume
+- branch evidence
+- branch support
+- branch packet
+- branch receipt
+- branch trace
+- branch result
+- branch scope
+- branch boundary
+- branch witness
+- branch probe
+- branch constraint
+- return prior
+- return previous
+- return choice
+- return resume
+- return undo
+- return route
+- prior previous
+- prior choice
+- prior resume
+- prior undo
+- prior route
+- prior restore
+- surface previous
+- surface choice
+- surface resume
+- surface undo
+- surface route
+- surface restore
+- surface context
+- previous choice
+- previous resume
+- previous undo
+- previous route
+- previous restore
+- previous context
+- previous frame
+- choice resume
+- choice undo
+- choice route
+- choice restore
+- choice context
+- choice frame
+- resume undo
+- resume route
+- resume restore
+- resume context
+- resume frame
+- undo route
+- undo restore
+- undo context
+- undo frame
+- undo target
+- route restore
+- route context
+- route frame
+- route target
+- route navigation
+- restore context
+- restore frame
+- restore target
+- restore navigation
+- context frame
+- context target
+- context navigation
+- context no branch
+- frame target
+- frame navigation
+- frame no branch
+- frame branch
+
+## three-part cues
+
+- relative prior branch target
+- relative prior branch navigation
+- relative prior branch earlier
+- locally previous surface target
+- locally previous surface navigation
+- locally previous surface branch context
+- locally previous surface no branch
+- locally previous surface branch
+- locally previous surface earlier
+- rather target branch context
+- instead navigation branch context
+- only branch context earlier
+- only branch context revisit
+- compare prior receipt
+- measure prior receipt
+- hold prior receipt
+- preserve prior receipt
+- compare previous receipt
+- measure previous receipt
+- hold previous receipt
+- preserve previous receipt
+- compare return receipt
+- measure return receipt
+- hold return receipt
+- preserve return receipt
+- rather target navigation
+- rather target no branch
+- rather target branch
+- rather target earlier
+- rather target revisit
+- instead navigation no branch
+- instead navigation branch
+- instead navigation earlier
+- instead navigation revisit
+- only branch context under
+- only branch context within
+- still no branch earlier
+- still no branch revisit
+- likely branch earlier
+- likely branch revisit
+- possible earlier revisit
+- bounded path revisit
+- compare back receipt
+- measure back receipt
+- hold back receipt
+- preserve back receipt
+- instead navigation under
+- still no branch under
+- still no branch within
+- still no branch across
+- likely branch under
+- likely branch within
+- likely branch across
+- likely branch between
+- possible earlier under
+- possible earlier within
+- possible earlier across
+- possible earlier between
+- possible earlier through
+- bounded path under
+- bounded path within
+- bounded path across
+- bounded path between
+- bounded path through
+- bounded path before
+- finite revisit under
+- finite revisit within
+- finite revisit across
+- finite revisit between
+- finite revisit through
+- finite revisit before
+- finite revisit after
+- local under within
+- local under across
+- local under between
+- local under through
+- local under before
+- local under after
+- local under until
+- current within across

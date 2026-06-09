@@ -1,0 +1,12 @@
+{
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate",
+  "checked": "loaded mini_mmms/full/checks_guards/md/MMM_LANE_SECURITY_FULL_v2_7.md",
+  "concluded": "Security result: local receipts are allowed; live wiring remains blocked without fresh-agent proof.",
+  "evidence": "mini_mmms/full/checks_guards/md/MMM_LANE_SECURITY_FULL_v2_7.md terms: trust boundary, abuse path, unsafe default, least privilege, threat surface, security, secret, permission",
+  "generated_at": "2026-04-28T08:03:25.064055+00:00",
+  "lane": "Security",
+  "open": "live proof pending",
+  "output_excerpt": "Task: Compare Wizard General sizes and choose the best local runtime surface.\nWizard General size: full\nWave 6: Security Wave\nSecurity result: local receipts are allowed; live wiring remains blocked without fresh-agent proof.\nLoaded language body terms: trust boundary, abuse path, unsafe default, least privilege, threat surface, security, secret, permission",
+  "output_sha256": "1dbceafef8ffc799f4ab084bdfc2668ef29e1775ff093200cbc423ce6aa3a3bd",
+  "schema_version": "wizard_behavior_harness.v1"
+}

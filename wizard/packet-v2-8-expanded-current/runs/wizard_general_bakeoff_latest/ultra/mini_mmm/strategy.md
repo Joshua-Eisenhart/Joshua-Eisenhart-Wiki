@@ -1,0 +1,134 @@
+Lane-local behavior probe body for Strategy. Candidate root: /Users/joshuaeisenhart/Desktop/mmm_wizard_complete_system_packet_v2_8_expanded_candidate. This record was normalized from collected probe output only. The harness did not spawn agents, infer hidden execution, or add a claim beyond the supplied lane record. Review this lane as receipt evidence: checked material, conclusion, remaining open question, and cited evidence must remain tied to the captured output. The body exists so the adapter can verify that every completed lane has a lane-local language surface rather than borrowing global prose. Future readers should treat the text as a behavior probe normalization artifact, not as independent proof of correctness. 
+
+Collected output:
+# MMM_VOICE_STRATEGY_ULTRA_v2_8
+
+## words
+- mini-MMM :: 100
+- mini MMM :: 100
+- voice shape :: 100
+- voice shaping :: 100
+- shape voice :: 100
+- shaped voice :: 100
+- voice contour :: 100
+- voice signature :: 100
+- voice localizer :: 100
+- local voice :: 100
+- aligned nouns :: 100
+- correlated thinkers :: 100
+- thinker alignment :: 100
+- noun alignment :: 100
+
+- campaign :: 100
+- priority :: 100
+- resource :: 100
+- timing :: 100
+- front :: 100
+- defer :: 100
+- mission :: 100
+- scarce :: 100
+- decisive front :: 100
+- drift condition :: 100
+- first move :: 100
+- return trigger :: 100
+- sequence :: 100
+- retreat :: 100
+- advance :: 100
+- merge :: 100
+- retreat condition :: 100
+- order :: 100
+- hold :: 100
+- split :: 100
+- role :: 100
+- cost :: 100
+- strategy :: 100
+- decisive :: 100
+- reserve :: 100
+
+## couplings
+
+- hold campaign :: 100
+- split campaign :: 100
+- hold sequence :: 100
+- split sequence :: 100
+- hold front :: 100
+- split front :: 100
+- hold retreat :: 100
+- split retreat :: 100
+- hold defer :: 100
+- split defer :: 100
+- hold split :: 100
+- hold resource :: 100
+- split resource :: 100
+- split hold :: 100
+- retreat condition :: 100
+- decisive front :: 100
+- drift condition :: 100
+- first move :: 100
+- return trigger :: 100
+- campaign evidence :: 100
+- campaign support :: 100
+- campaign path :: 100
+- campaign surface :: 100
+- campaign packet :: 100
+- campaign receipt :: 100
+- campaign trace :: 100
+- campaign result :: 100
+- campaign scope :: 100
+- campaign boundary :: 100
+- campaign status :: 100
+- campaign candidate :: 100
+- campaign witness :: 100
+- campaign :: 100
+- sequence :: 100
+- priority :: 100
+- resource :: 100
+- scarce :: 100
+- timing :: 100
+- defer :: 100
+- retreat :: 100
+- advance :: 100
+- split :: 100
+- merge :: 100
+- order :: 100
+- campaign direction :: 100
+- sequence risk :: 100
+- resource allocation :: 100
+- scarce resource :: 100
+
+## triplets
+
+- hold campaign receipt :: 100
+- hold sequence receipt :: 100
+- hold front receipt :: 100
+- hold retreat receipt :: 100
+- campaign sequence resource :: 100
+- front timing retreat :: 100
+- local win campaign :: 100
+- priority order risk :: 100
+- decisive front condition :: 100
+- hold advance retreat :: 100
+- scarce resource allocation :: 100
+- option value tradeoff :: 100
+- dependency sequence order :: 100
+- role allocation timing :: 100
+- tempo control front :: 100
+- fallback plan reserve :: 100
+- commitment cost risk :: 100
+- strategy drift condition :: 100
+- under campaign sequence :: 91
+- under campaign priority :: 90
+- under campaign resource :: 90
+- under campaign timing :: 90
+- under sequence priority :: 90
+- under sequence resource :: 90
+- under sequence timing :: 90
+- under sequence front :: 90
+- under priority resource :: 90
+- under priority timing :: 90
+- under priority front :: 90
+- under resource timing :: 90
+- under resource front :: 90
+- under resource retreat :: 90
+- under timing front :: 90
+- under timing retreat :: 90

@@ -1,0 +1,12 @@
+{
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/mmm_wizard_complete_system_packet_v2_8_expanded_candidate",
+  "checked": "loaded mini_mmms/standard/compositions/md/MMM_LANE_ALL_B_STANDARD_v2_8.md",
+  "concluded": "All-B compilation: behavior proof plan for no-MMM, main-MMM, and mini-MMM comparison.",
+  "evidence": "mini_mmms/standard/compositions/md/MMM_LANE_ALL_B_STANDARD_v2_8.md terms: alternative :: 100, anti :: 100, attack :: 100, become :: 100, bottleneck :: 100, bundle :: 100, central :: 100, clarity :: 100",
+  "generated_at": "2026-04-28T22:36:04.218294+00:00",
+  "lane": "All-B",
+  "open": "live proof pending",
+  "output_excerpt": "Task: Compare Wizard General sizes and choose the best local runtime surface.\nWizard General size: standard\nWave 7: Follow-up Make Wave\nAll-B compilation: behavior proof plan for no-MMM, main-MMM, and mini-MMM comparison.\nLoaded language body terms: alternative :: 100, anti :: 100, attack :: 100, become :: 100, bottleneck :: 100, bundle :: 100, central :: 100, clarity :: 100",
+  "output_sha256": "d61d2d2365ce36139a9c3566407ed60f14c78dfbe2ea388ee52b1b1b44e80291",
+  "schema_version": "wizard_behavior_harness.v1"
+}

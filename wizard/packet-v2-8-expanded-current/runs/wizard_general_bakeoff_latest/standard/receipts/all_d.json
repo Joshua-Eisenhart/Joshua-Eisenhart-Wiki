@@ -1,0 +1,12 @@
+{
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/mmm_wizard_complete_system_packet_v2_8_expanded_candidate",
+  "checked": "loaded mini_mmms/standard/compositions/md/MMM_LANE_ALL_OF_ABOVE_WIZARD_STANDARD_v2_8.md",
+  "concluded": "All-D/C9 composition: integrate as much useful composition work as the next input warrants, then keep only what survives Audit and Council.",
+  "evidence": "mini_mmms/standard/compositions/md/MMM_LANE_ALL_OF_ABOVE_WIZARD_STANDARD_v2_8.md terms: integrated composition pass :: 100, useful composition work :: 100, clean closeout trust check whole-context behavior proof :: 99, Council Audit survival :: 99, selective C9 integration :: 99, not decorative all-of-above :: 98, all :: 100, all-of-the-above :: 100",
+  "generated_at": "2026-04-28T22:36:04.218294+00:00",
+  "lane": "All-D",
+  "open": "live proof pending",
+  "output_excerpt": "Task: Compare Wizard General sizes and choose the best local runtime surface.\nWizard General size: standard\nWave 9: Follow-up Audit/Improve Wave\nAll-D/C9 composition: integrate as much useful composition work as the next input warrants, then keep only what survives Audit and Council.\nLoaded language body terms: integrated composition pass :: 100, useful composition work :: 100, clean closeout trust check whole-context behavior proof :: 99, Council Audit survival :: 99, selective C9 integration :: 99, not decorative all-of-above :: 98, all :: 100, all-of-the-above :: 100",
+  "output_sha256": "2d49377f1c2382cf84fcef0241988d898640f9cee0eae1b05da83c3034175711",
+  "schema_version": "wizard_behavior_harness.v1"
+}

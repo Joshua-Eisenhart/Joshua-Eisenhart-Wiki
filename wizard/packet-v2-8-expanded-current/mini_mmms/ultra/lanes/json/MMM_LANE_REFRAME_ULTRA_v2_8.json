@@ -1,0 +1,548 @@
+{
+  "words": [
+    [
+      1,
+      "recast",
+      100
+    ],
+    [
+      2,
+      "reframe",
+      100
+    ],
+    [
+      3,
+      "wrong question",
+      100
+    ],
+    [
+      4,
+      "hidden premise",
+      100
+    ],
+    [
+      5,
+      "false binary",
+      100
+    ],
+    [
+      6,
+      "different problem",
+      100
+    ],
+    [
+      7,
+      "smaller question",
+      100
+    ],
+    [
+      8,
+      "assumption",
+      100
+    ],
+    [
+      9,
+      "replace",
+      100
+    ],
+    [
+      10,
+      "frame",
+      100
+    ],
+    [
+      11,
+      "angle",
+      100
+    ],
+    [
+      12,
+      "shape",
+      100
+    ],
+    [
+      13,
+      "new",
+      100
+    ],
+    [
+      14,
+      "question",
+      100
+    ],
+    [
+      15,
+      "rename",
+      100
+    ],
+    [
+      16,
+      "narrowing",
+      100
+    ],
+    [
+      17,
+      "reshape",
+      100
+    ],
+    [
+      18,
+      "map",
+      100
+    ],
+    [
+      19,
+      "premise",
+      100
+    ],
+    [
+      20,
+      "shift",
+      100
+    ],
+    [
+      21,
+      "context",
+      100
+    ],
+    [
+      22,
+      "lens",
+      100
+    ],
+    [
+      23,
+      "wrong",
+      100
+    ],
+    [
+      24,
+      "stuck",
+      100
+    ],
+    [
+      25,
+      "pattern",
+      100
+    ],
+    [
+      26,
+      "rewrite",
+      100
+    ]
+  ],
+  "couplings": [
+    [
+      1,
+      "recast",
+      100
+    ],
+    [
+      2,
+      "reframe evidence",
+      100
+    ],
+    [
+      3,
+      "reframe support",
+      100
+    ],
+    [
+      4,
+      "reframe path",
+      100
+    ],
+    [
+      5,
+      "reframe surface",
+      100
+    ],
+    [
+      6,
+      "reframe packet",
+      100
+    ],
+    [
+      7,
+      "reframe receipt",
+      100
+    ],
+    [
+      8,
+      "reframe trace",
+      100
+    ],
+    [
+      9,
+      "reframe result",
+      100
+    ],
+    [
+      10,
+      "reframe scope",
+      100
+    ],
+    [
+      11,
+      "reframe boundary",
+      100
+    ],
+    [
+      12,
+      "reframe status",
+      100
+    ],
+    [
+      13,
+      "reframe candidate",
+      100
+    ],
+    [
+      14,
+      "reframe witness",
+      100
+    ],
+    [
+      15,
+      "reframe probe",
+      100
+    ],
+    [
+      16,
+      "reframe constraint",
+      100
+    ],
+    [
+      17,
+      "check reframe",
+      100
+    ],
+    [
+      18,
+      "compare reframe",
+      100
+    ],
+    [
+      19,
+      "observe reframe",
+      100
+    ],
+    [
+      20,
+      "measure reframe",
+      100
+    ],
+    [
+      21,
+      "test reframe",
+      100
+    ],
+    [
+      22,
+      "verify reframe",
+      100
+    ],
+    [
+      23,
+      "hold reframe",
+      100
+    ],
+    [
+      24,
+      "preserve reframe",
+      100
+    ],
+    [
+      25,
+      "split reframe",
+      100
+    ],
+    [
+      26,
+      "narrow reframe",
+      100
+    ],
+    [
+      27,
+      "where reframe",
+      100
+    ],
+    [
+      28,
+      "while reframe",
+      100
+    ],
+    [
+      29,
+      "frame shift",
+      100
+    ],
+    [
+      30,
+      "premise shift",
+      100
+    ],
+    [
+      31,
+      "changed question",
+      100
+    ],
+    [
+      32,
+      "recast problem",
+      100
+    ],
+    [
+      33,
+      "wrong frame",
+      100
+    ],
+    [
+      34,
+      "new angle",
+      100
+    ],
+    [
+      35,
+      "context shift",
+      100
+    ],
+    [
+      36,
+      "assumption reset",
+      100
+    ],
+    [
+      37,
+      "viewpoint change",
+      100
+    ],
+    [
+      38,
+      "boundary redraw",
+      100
+    ],
+    [
+      39,
+      "problem recast",
+      100
+    ],
+    [
+      40,
+      "lens shift",
+      100
+    ],
+    [
+      41,
+      "stuck frame",
+      100
+    ],
+    [
+      42,
+      "question replaced",
+      100
+    ],
+    [
+      43,
+      "frame mismatch",
+      100
+    ],
+    [
+      44,
+      "under reframe",
+      96
+    ],
+    [
+      45,
+      "within reframe",
+      96
+    ],
+    [
+      46,
+      "across reframe",
+      96
+    ],
+    [
+      47,
+      "between reframe",
+      96
+    ],
+    [
+      48,
+      "through reframe",
+      96
+    ]
+  ],
+  "triplets": [
+    [
+      1,
+      "reframe evidence path",
+      100
+    ],
+    [
+      2,
+      "reframe support path",
+      100
+    ],
+    [
+      3,
+      "reframe path path",
+      100
+    ],
+    [
+      4,
+      "reframe surface path",
+      100
+    ],
+    [
+      5,
+      "reframe packet path",
+      100
+    ],
+    [
+      6,
+      "under live reframe",
+      100
+    ],
+    [
+      7,
+      "reframe receipt path",
+      100
+    ],
+    [
+      8,
+      "reframe trace path",
+      100
+    ],
+    [
+      9,
+      "reframe result path",
+      100
+    ],
+    [
+      10,
+      "reframe scope path",
+      100
+    ],
+    [
+      11,
+      "reframe boundary path",
+      100
+    ],
+    [
+      12,
+      "check reframe receipt",
+      100
+    ],
+    [
+      13,
+      "within live reframe",
+      100
+    ],
+    [
+      14,
+      "compare reframe receipt",
+      100
+    ],
+    [
+      15,
+      "observe reframe receipt",
+      100
+    ],
+    [
+      16,
+      "frame premise shift",
+      100
+    ],
+    [
+      17,
+      "recast problem angle",
+      100
+    ],
+    [
+      18,
+      "wrong frame reset",
+      100
+    ],
+    [
+      19,
+      "changed question context",
+      100
+    ],
+    [
+      20,
+      "assumption boundary redraw",
+      100
+    ],
+    [
+      21,
+      "viewpoint lens shift",
+      100
+    ],
+    [
+      22,
+      "stuck pattern reframed",
+      100
+    ],
+    [
+      23,
+      "question replaced route",
+      100
+    ],
+    [
+      24,
+      "under open reframe",
+      96
+    ],
+    [
+      25,
+      "within open reframe",
+      96
+    ],
+    [
+      26,
+      "under current reframe",
+      78
+    ],
+    [
+      27,
+      "under local reframe",
+      78
+    ],
+    [
+      28,
+      "under bounded reframe",
+      78
+    ],
+    [
+      29,
+      "under finite reframe",
+      78
+    ],
+    [
+      30,
+      "within current reframe",
+      78
+    ],
+    [
+      31,
+      "within local reframe",
+      78
+    ],
+    [
+      32,
+      "within bounded reframe",
+      78
+    ],
+    [
+      33,
+      "within finite reframe",
+      78
+    ],
+    [
+      34,
+      "across current reframe",
+      78
+    ]
+  ]
+}

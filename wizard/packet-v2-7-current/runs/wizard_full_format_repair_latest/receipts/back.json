@@ -1,0 +1,12 @@
+{
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate",
+  "checked": "loaded mini_mmms/full/lanes/md/MMM_LANE_BACK_FULL_v2_7.md",
+  "concluded": "Return route: keep the packet-level audit menu reachable without treating it as execution evidence.",
+  "evidence": "mini_mmms/full/lanes/md/MMM_LANE_BACK_FULL_v2_7.md terms: prior branch, previous surface, branch context, return, prior, previous, choice, resume",
+  "generated_at": "2026-04-28T08:22:15.046153+00:00",
+  "lane": "Back",
+  "open": "live proof pending",
+  "output_excerpt": "Task: Improve and locally run the repaired MMM Wizard packet without live wiring.\nWizard General size: full\nWave 8: Follow-up Run/Scout Wave\nReturn route: keep the packet-level audit menu reachable without treating it as execution evidence.\nLoaded language body terms: prior branch, previous surface, branch context, return, prior, previous, choice, resume",
+  "output_sha256": "21bcd662d5d4eb09cdbf6ef15dbd758f4b55cd272c3404022b633311f224a130",
+  "schema_version": "wizard_behavior_harness.v1"
+}

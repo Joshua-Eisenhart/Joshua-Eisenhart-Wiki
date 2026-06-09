@@ -1,0 +1,20 @@
+{
+  "id": "LLM_COUNCIL",
+  "name": "LLM Council",
+  "emoji": "🧠",
+  "category": "system_routes",
+  "scale": "system_route",
+  "purpose": "independent disagreement before merge",
+  "unique_job": "compare separate model routes, preserve variance and dissent, and synthesize only after the receipts are in",
+  "non_job": "Do not become consensus theater.",
+  "inputs": "voice/lane/audit receipts",
+  "outputs": "dissent, agreement, survival recommendation",
+  "subagent_contract": "Council receipt must show independent routes and route status.",
+  "receipt_requirement": "Visible route status must be exactly spawned, blocked, or deferred. Spawned receipts name unit_id, unit_type, wave, mini-MMM loaded path, task card, checked, concluded, open, evidence, and artifact/output. Blocked/deferred receipts name reason and condition_to_run.",
+  "collapse_signs": "Council reports consensus from routes that never ran.",
+  "nearest_neighbors": [
+    "Audit",
+    "Synthesis",
+    "Full Wizard"
+  ]
+}

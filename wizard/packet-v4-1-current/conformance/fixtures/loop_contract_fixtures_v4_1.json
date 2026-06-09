@@ -1,0 +1,319 @@
+{
+  "packet": "v4.1",
+  "fixture_index": "loop_contract_fixtures_v4_1",
+  "validator": "conformance/validate_loop_contract_fixtures.py",
+  "fixtures": [
+    {
+      "id": "FX-NF-11b-prose-divergence-only",
+      "expected": "fail",
+      "validator_case": "audit_prose_only_divergence",
+      "covers": ["audit_independence.structural_axis_verified"],
+      "clause_refs": ["schemas/COMPILE_GATE_SCHEMA_v4_1.md#Validators must inspect `audit_independence` as structured data"],
+      "case": "Audit receipts differ only by prose, timestamp, or model label."
+    },
+    {
+      "id": "FX-NF-11b-structural-divergence",
+      "expected": "pass",
+      "validator_case": "audit_structural_divergence",
+      "covers": ["audit_independence.structural_axis_verified"],
+      "clause_refs": ["schemas/COMPILE_GATE_SCHEMA_v4_1.md#The validator computes `structural_axis_verified` from primitive audit fields"],
+      "case": "Audit receipts include a verified structural axis beyond timestamp or model label."
+    },
+    {
+      "id": "FX-NF-12b-boilerplate-rationale",
+      "expected": "fail",
+      "validator_case": "cross_loop_boilerplate_delta",
+      "covers": ["cross_loop.dispositions.artifact_or_clause_digest", "cross_loop.dispositions.delta_summary"],
+      "clause_refs": ["schemas/COMPILE_GATE_SCHEMA_v4_1.md#Boilerplate rationales"],
+      "case": "Cross-loop dispositions cover all ids but reuse boilerplate rationale, stale digest, or synonym-only deltas."
+    },
+    {
+      "id": "FX-NF-12b-fresh-delta",
+      "expected": "pass",
+      "validator_case": "cross_loop_fresh_delta",
+      "covers": ["cross_loop.dispositions.artifact_or_clause_digest", "cross_loop.dispositions.delta_summary"],
+      "clause_refs": ["schemas/COMPILE_GATE_SCHEMA_v4_1.md#`artifact_or_clause_digest` is required"],
+      "case": "Extends/resolved dispositions cite fresh active clause digests and material deltas."
+    },
+    {
+      "id": "FX-OF-03b-missing-status-key",
+      "expected": "fail",
+      "validator_case": "missing_model_family_key",
+      "covers": ["manager.resource_pressure.model_family_statuses"],
+      "clause_refs": ["06_OUTPUT_FORMAT_AND_SCORING.md#If `manager.resource_pressure.model_family_statuses[family]` is absent"],
+      "case": "A substantive Codex-adapter header omits a required model family key and claims FULL."
+    },
+    {
+      "id": "FX-OF-10b-prose-yaml-contradiction",
+      "expected": "fail",
+      "validator_case": "prose_yaml_contradiction",
+      "covers": ["wizard_loop_state"],
+      "clause_refs": ["06_OUTPUT_FORMAT_AND_SCORING.md#The `wizard_loop_state` block is the operative loop state"],
+      "case": "Visible prose says done/full while operative loop YAML says continue/partial."
+    },
+    {
+      "id": "FX-NF-14a-bogus-digest",
+      "expected": "fail",
+      "validator_case": "bogus_skill_digest",
+      "covers": ["council_member_skill.skill_body_source_digest"],
+      "clause_refs": ["schemas/RECEIPT_SCHEMA_v4_1.md#For packet-local Wizard skills"],
+      "case": "Premortem skill body digest is placeholder, malformed, or not recomputed from the packet-local file."
+    },
+    {
+      "id": "FX-NF-14a-stale-mirror",
+      "expected": "fail",
+      "validator_case": "stale_skill_mirror",
+      "covers": ["council_member_skill.mirror_digest", "council_member_skill.source_digest"],
+      "clause_refs": ["schemas/RECEIPT_SCHEMA_v4_1.md#stale mirror digests"],
+      "case": "Runtime mirror digest differs from packet-local source without an adapter delta."
+    },
+    {
+      "id": "FX-meta-clause-fixture-mapping",
+      "expected": "pass",
+      "validator_case": "meta_clause_fixture_mapping",
+      "covers": ["conformance_harness.fixture_mapping"],
+      "clause_refs": ["09_CONFORMANCE_HARNESS.md#fixture mapping must be bidirectional"],
+      "case": "Every new loop-contract clause maps to a fixture id or named test id, and every fixture id maps back to a live clause."
+    },
+    {
+      "id": "FX-NF-15a-index-without-validator",
+      "expected": "fail",
+      "validator_case": "index_without_validator",
+      "covers": ["conformance_harness.validator_binding"],
+      "clause_refs": ["09_CONFORMANCE_HARNESS.md#The packet-local validator is"],
+      "case": "Fixture ids exist but no validator consumes them."
+    },
+    {
+      "id": "FX-NF-15b-recomputed-skill-digest",
+      "expected": "pass",
+      "validator_case": "recomputed_skill_digest",
+      "covers": ["council_member_skill.skill_body_source_digest"],
+      "clause_refs": ["schemas/RECEIPT_SCHEMA_v4_1.md#Validators must recompute this digest"],
+      "case": "Validator recomputes the premortem skill digest from the packet-local path."
+    },
+    {
+      "id": "FX-NF-15c-author-asserted-structural-axis",
+      "expected": "fail",
+      "validator_case": "author_asserted_structural_axis",
+      "covers": ["audit_independence.structural_axis_verified"],
+      "clause_refs": ["schemas/COMPILE_GATE_SCHEMA_v4_1.md#receipt boolean is advisory"],
+      "case": "Receipt asserts structural-axis verification while primitive fields match."
+    },
+    {
+      "id": "FX-NF-15d-read-only-loop-unchanged-digest",
+      "expected": "pass",
+      "validator_case": "read_only_loop_unchanged_digest",
+      "covers": ["wizard_loop_state.loop_kind", "cross_loop.dispositions.artifact_or_clause_digest"],
+      "clause_refs": ["schemas/COMPILE_GATE_SCHEMA_v4_1.md#`loop_kind` controls digest freshness"],
+      "case": "Read-only loop keeps a finding unchanged against the same digest."
+    },
+    {
+      "id": "FX-NF-15e-receipt-derived-substantive-classifier",
+      "expected": "pass",
+      "validator_case": "receipt_derived_substantive_classifier",
+      "covers": ["manager.resource_pressure.model_family_statuses"],
+      "clause_refs": ["06_OUTPUT_FORMAT_AND_SCORING.md#computed from receipts"],
+      "case": "Accepted route receipts activate family accounting regardless of renderer label."
+    },
+    {
+      "id": "FX-NF-15f-completion-synonym-prose",
+      "expected": "fail",
+      "validator_case": "completion_synonym_prose",
+      "covers": ["wizard_loop_state.done_predicate.terminal_status"],
+      "clause_refs": ["06_OUTPUT_FORMAT_AND_SCORING.md#Visible prose must use the canonical loop status token"],
+      "case": "Prose uses a completion synonym that contradicts YAML."
+    },
+    {
+      "id": "FX-NF-15g-skill-body-quote-anchor",
+      "expected": "pass",
+      "validator_case": "skill_body_quote_anchor",
+      "covers": ["council_member_skill.skill_body_quote_anchor"],
+      "clause_refs": ["schemas/RECEIPT_SCHEMA_v4_1.md#Skill-backed receipts also need a short quote anchor"],
+      "case": "Quote anchor hash matches the cited packet-local skill line range."
+    },
+    {
+      "id": "FX-NF-15h-dispositions-ref-summary",
+      "expected": "pass",
+      "validator_case": "dispositions_ref_summary",
+      "covers": ["cross_loop.dispositions_ref", "cross_loop.disposition_summary"],
+      "clause_refs": ["schemas/COMPILE_GATE_SCHEMA_v4_1.md#Full disposition ledgers may live behind `dispositions_ref`"],
+      "case": "Large ledgers may be cited by dispositions_ref with summary while validator inspects the full ledger."
+    },
+    {
+      "id": "FX-NF-15i-hypothesis-not-load-bearing",
+      "expected": "pass",
+      "validator_case": "hypothesis_not_load_bearing",
+      "covers": ["done_predicate.unresolved_load_bearing_findings_count"],
+      "clause_refs": ["schemas/COMPILE_GATE_SCHEMA_v4_1.md#Premortem hypotheses are valuable raw"],
+      "case": "Raw premortem hypotheses do not reset the done predicate unless promoted to load-bearing."
+    },
+    {
+      "id": "FX-NF-16a-cross-loop-missing-prior-id",
+      "expected": "fail",
+      "validator_case": "cross_loop_missing_prior_id",
+      "covers": ["cross_loop.dispositions"],
+      "clause_refs": ["schemas/COMPILE_GATE_SCHEMA_v4_1.md#For `loop_iteration > 1`, `cross_loop.dispositions` must cover every prior"],
+      "case": "Loop iteration omits one prior load-bearing open finding."
+    },
+    {
+      "id": "FX-NF-16b-cross-loop-exact-coverage",
+      "expected": "pass",
+      "validator_case": "cross_loop_exact_coverage",
+      "covers": ["cross_loop.dispositions"],
+      "clause_refs": ["schemas/COMPILE_GATE_SCHEMA_v4_1.md#For `loop_iteration > 1`, `cross_loop.dispositions` must cover every prior"],
+      "case": "Loop iteration covers every prior load-bearing finding exactly once with rationale and reference."
+    },
+    {
+      "id": "FX-NF-16c-confidence-boundary-literal-certainty",
+      "expected": "fail",
+      "validator_case": "confidence_boundary_literal_certainty",
+      "covers": ["loophole_audit.confidence_status"],
+      "clause_refs": ["05_RUN_PROTOCOL_AND_RETRY.md#Runtime interpretation: factual 100% confidence means no known unresolved"],
+      "case": "Loophole audit claims literal certainty instead of evidence-standard confidence."
+    },
+    {
+      "id": "FX-NF-16d-confidence-boundary-sufficient",
+      "expected": "pass",
+      "validator_case": "confidence_boundary_sufficient",
+      "covers": ["loophole_audit.confidence_status"],
+      "clause_refs": ["05_RUN_PROTOCOL_AND_RETRY.md#Runtime interpretation: factual 100% confidence means no known unresolved"],
+      "case": "Loophole audit reports sufficient confidence only after zero known unresolved loopholes under a declared standard."
+    },
+    {
+      "id": "FX-NF-16e-autoresearch-missing-launch-approval",
+      "expected": "fail",
+      "validator_case": "autoresearch_missing_launch_approval",
+      "covers": ["codex_autoresearch.launch_boundary"],
+      "clause_refs": ["05_RUN_PROTOCOL_AND_RETRY.md#For interactive launches, codex-autoresearch keeps its ask-before-act rule"],
+      "case": "Interactive autoresearch launch is prepared but approval/run-mode is missing."
+    },
+    {
+      "id": "FX-NF-16f-autoresearch-launch-approved",
+      "expected": "pass",
+      "validator_case": "autoresearch_launch_approved",
+      "covers": ["codex_autoresearch.launch_boundary"],
+      "clause_refs": ["05_RUN_PROTOCOL_AND_RETRY.md#For interactive launches, codex-autoresearch keeps its ask-before-act rule"],
+      "case": "Interactive autoresearch launch has explicit approval and foreground/background run mode."
+    },
+    {
+      "id": "FX-NF-16g-management-late-start",
+      "expected": "fail",
+      "validator_case": "management_late_start",
+      "covers": ["manager.resource_pressure.model_family_statuses"],
+      "clause_refs": ["06_OUTPUT_FORMAT_AND_SCORING.md#If `manager.resource_pressure.model_family_statuses[family]` is absent"],
+      "case": "Management resource pressure appears only after voting parents have already run."
+    },
+    {
+      "id": "FX-NF-16h-management-started-before-routes",
+      "expected": "pass",
+      "validator_case": "management_started_before_routes",
+      "covers": ["manager.resource_pressure.model_family_statuses"],
+      "clause_refs": ["06_OUTPUT_FORMAT_AND_SCORING.md#If `manager.resource_pressure.model_family_statuses[family]` is absent"],
+      "case": "Management resource pressure is initialized before voting parent route accounting starts."
+    },
+    {
+      "id": "FX-NF-16i-premortem-repeats-user-only",
+      "expected": "fail",
+      "validator_case": "premortem_repeats_user_only",
+      "covers": ["premortem.novel_findings_count", "premortem.novel_failure_reasons"],
+      "clause_refs": ["skills/premortem/SKILL.md#`novel_findings_count` must be greater than zero"],
+      "case": "Premortem repeats only user-named issues and has no novel failure reason."
+    },
+    {
+      "id": "FX-NF-16j-premortem-has-novel-failure",
+      "expected": "pass",
+      "validator_case": "premortem_has_novel_failure",
+      "covers": ["premortem.novel_findings_count", "premortem.novel_failure_reasons"],
+      "clause_refs": ["skills/premortem/SKILL.md#`novel_findings_count` must be greater than zero"],
+      "case": "Premortem includes a novel failure reason plus required deep-dive fields."
+    },
+    {
+      "id": "FX-NF-16k-mixed-run-id-rejected",
+      "expected": "fail",
+      "validator_case": "mixed_run_id_rejected",
+      "covers": ["wizard_member_status.run_id", "wizard_current_topology.member_count"],
+      "clause_refs": ["06_OUTPUT_FORMAT_AND_SCORING.md#Before any visible header counts Claude Bridge children"],
+      "case": "All current members look accepted, but one receipt belongs to a different run id."
+    },
+    {
+      "id": "FX-NF-16l-single-run-id-current-topology",
+      "expected": "pass",
+      "validator_case": "single_run_id_current_topology",
+      "covers": ["wizard_member_status.run_id", "wizard_current_topology.member_count"],
+      "clause_refs": ["06_OUTPUT_FORMAT_AND_SCORING.md#Before any visible header counts Claude Bridge children"],
+      "case": "Exactly nine current-topology members are accepted under one shared run id."
+    },
+    {
+      "id": "FX-NF-16m-missing-run-id-rejected",
+      "expected": "fail",
+      "validator_case": "missing_run_id_rejected",
+      "covers": ["wizard_member_status.run_id"],
+      "clause_refs": ["06_OUTPUT_FORMAT_AND_SCORING.md#Before any visible header counts Claude Bridge children"],
+      "case": "A current-topology receipt has a missing or blank run id."
+    },
+    {
+      "id": "FX-NF-16n-wrong-member-count-rejected",
+      "expected": "fail",
+      "validator_case": "wrong_member_count_rejected",
+      "covers": ["wizard_current_topology.member_count"],
+      "clause_refs": ["06_OUTPUT_FORMAT_AND_SCORING.md#If runtime has no spawn surface for a substantive Wizard route"],
+      "case": "The receipt set has fewer than the nine current-topology members."
+    },
+    {
+      "id": "FX-NF-16o-obsolete-route-rejected",
+      "expected": "fail",
+      "validator_case": "obsolete_route_rejected",
+      "covers": ["wizard_current_topology.allowlist"],
+      "clause_refs": ["06_OUTPUT_FORMAT_AND_SCORING.md#If runtime has no spawn surface for a substantive Wizard route"],
+      "case": "An obsolete Failure Six Hats route appears in place of the current Loophole Auditor route."
+    },
+    {
+      "id": "FX-NF-16p-nonaccepted-row-rejected",
+      "expected": "fail",
+      "validator_case": "nonaccepted_row_rejected",
+      "covers": ["wizard_member_status.status"],
+      "clause_refs": ["06_OUTPUT_FORMAT_AND_SCORING.md#If runtime has no spawn surface for a substantive Wizard route"],
+      "case": "One current-topology member is partial rather than accepted."
+    },
+    {
+      "id": "FX-NF-16q-unregistered-route-rejected",
+      "expected": "fail",
+      "validator_case": "unregistered_route_rejected",
+      "covers": ["wizard_current_topology.allowlist"],
+      "clause_refs": ["06_OUTPUT_FORMAT_AND_SCORING.md#If runtime has no spawn surface for a substantive Wizard route"],
+      "case": "A route outside the current topology allowlist is treated as dispatchable."
+    },
+    {
+      "id": "FX-NF-16r-coverage-matrix-complete",
+      "expected": "pass",
+      "validator_case": "coverage_matrix_complete",
+      "covers": ["wizard_conformance.coverage_matrix"],
+      "clause_refs": ["09_CONFORMANCE_HARNESS.md#fixture mapping must be bidirectional"],
+      "case": "Every current route is covered against every required failure mode."
+    },
+    {
+      "id": "FX-NF-16s-coverage-matrix-missing-cell",
+      "expected": "fail",
+      "validator_case": "coverage_matrix_missing_cell",
+      "covers": ["wizard_conformance.coverage_matrix"],
+      "clause_refs": ["09_CONFORMANCE_HARNESS.md#fixture mapping must be bidirectional"],
+      "case": "Coverage matrix omits route/failure-mode cells."
+    },
+    {
+      "id": "FX-NF-16t-output-gate-rejects-near-full",
+      "expected": "fail",
+      "validator_case": "output_gate_rejects_near_full",
+      "covers": ["wizard_output.full_claim_canonicalization"],
+      "clause_refs": ["06_OUTPUT_FORMAT_AND_SCORING.md#🧙 Wizard v4.1 | {FULL|PARTIAL|BLOCKED}"],
+      "case": "A near-FULL prose claim lacks the canonical header and sections."
+    },
+    {
+      "id": "FX-NF-16u-output-gate-accepts-canonical-full",
+      "expected": "pass",
+      "validator_case": "output_gate_accepts_canonical_full",
+      "covers": ["wizard_output.full_claim_canonicalization"],
+      "clause_refs": ["06_OUTPUT_FORMAT_AND_SCORING.md#🧙 Wizard v4.1 | {FULL|PARTIAL|BLOCKED}"],
+      "case": "Canonical FULL header plus required sections passes the output gate."
+    }
+  ]
+}

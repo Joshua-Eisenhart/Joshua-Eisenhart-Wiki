@@ -1,0 +1,350 @@
+---
+title: Mmm Lane All Of Above Wizard Full V2 7
+created: 2026-04-28
+updated: 2026-04-28
+type: concept
+tags: [wizard, mmm, packet, receipt]
+framing: current
+source_path: mini_mmms/full/compositions/md/MMM_LANE_ALL_OF_ABOVE_WIZARD_FULL_v2_7.md
+---
+
+# MMM_LANE_ALL_OF_ABOVE_WIZARD_FULL_v2_7
+
+## aligned nouns and phrases
+
+- whole-context triad
+- primary answer
+- full-context
+- whole-context
+- registry-backed
+- controller-local
+- wall-text
+- follow-up
+- wizard
+- full
+- wave
+- preflight
+- voices
+- whole
+- context
+- council
+- followup
+- check
+- registry
+- audit
+- blocked
+- deferred
+- spawned
+- relative
+- locally
+- rather
+- instead
+- only
+- still
+- likely
+- possible
+- bounded
+- finite
+- observed
+- measured
+- open
+- partial
+- limited
+- constraint
+- evidence
+- observation
+- measurement
+- trace
+- sample
+- case
+- instance
+- name
+- word
+- use
+- relation
+- distinction
+- comparison
+- support
+- estimate
+- uncertainty
+- model
+- witness
+- counterexample
+- candidate
+- survivor
+- boundary
+- scope
+- condition
+- result
+- path
+- branch
+- fork
+- plurality
+- perspective
+- claim
+- route
+- receipt
+- voice
+- lane
+- stabilization
+- bundle
+- when
+- collapse
+- resistance
+- topology
+- behavior
+- are
+- the
+- task
+- triad
+- answer
+- composition
+- make
+- output
+- truthful
+- packet
+- mark
+- units
+- honestly
+- protect
+- fake
+- unreceipted
+- claims
+- produce
+- that
+- lowers
+- user
+- burden
+- than
+- exposing
+- machinery
+- default
+- every
+- maximum
+- verbosity
+- label
+- synthesis
+- hidden
+- work
+- receipts
+- labels
+- workers
+- routes
+- collapsed
+- one
+- menu
+- presented
+- already
+- executed
+- whether
+- actually
+- warranted
+- which
+- waves
+- cannot
+- truthfully
+- capacity
+- cognitive
+
+## correlated couplings
+
+- council whole-context triad
+- followup whole-context triad
+- registry whole-context triad
+- audit whole-context triad
+- whole-context triad primary answer
+- whole-context triad follow-up
+- whole-context triad blocked
+- whole-context triad deferred
+- whole-context triad spawned
+- context primary answer
+- council primary answer
+- followup primary answer
+- registry primary answer
+- audit primary answer
+- whole-context triad under
+- whole-context triad within
+- primary answer follow-up
+- primary answer blocked
+- primary answer deferred
+- primary answer spawned
+- wizard full
+- wizard wave
+- wizard preflight
+- wizard voices
+- wizard whole
+- wizard context
+- full wave
+- full preflight
+- full voices
+- full whole
+- full context
+- full council
+- wave preflight
+- wave voices
+- wave whole
+- wave context
+- wave council
+- wave followup
+- preflight voices
+- preflight whole
+- preflight context
+- preflight council
+- preflight followup
+- preflight check
+- voices whole
+- voices context
+- voices council
+- voices followup
+- voices check
+- voices registry
+- voices audit
+- whole context
+- whole council
+- whole followup
+- whole check
+- whole registry
+- whole audit
+- context council
+- context followup
+- context check
+- context registry
+- context audit
+- council followup
+- council check
+- council registry
+- council audit
+- council follow-up
+- followup check
+- followup registry
+- followup audit
+- followup follow-up
+- followup blocked
+- registry audit
+- registry follow-up
+- registry blocked
+- registry deferred
+- registry spawned
+- audit follow-up
+- audit blocked
+- audit deferred
+- audit spawned
+- primary answer under
+- primary answer within
+- primary answer across
+- follow-up blocked
+- follow-up deferred
+- follow-up spawned
+- blocked deferred
+- blocked spawned
+- deferred spawned
+- wizard all
+- full all
+- wave all
+- preflight all
+- audit under
+- follow-up under
+- follow-up within
+- follow-up across
+- follow-up between
+- blocked under
+- blocked within
+- blocked across
+- blocked between
+- blocked through
+- deferred under
+- deferred within
+- deferred across
+- deferred between
+- deferred through
+- deferred before
+- spawned under
+- spawned within
+- spawned across
+- spawned between
+- spawned through
+- spawned before
+- spawned after
+
+## three-part cues
+
+- relative audit whole-context triad
+- relative audit primary answer
+- locally whole-context triad blocked
+- locally whole-context triad deferred
+- locally whole-context triad spawned
+- locally whole-context triad under
+- locally whole-context triad within
+- rather primary answer follow-up
+- rather primary answer blocked
+- rather primary answer deferred
+- rather primary answer spawned
+- relative audit follow-up
+- relative audit blocked
+- relative audit deferred
+- relative audit spawned
+- locally whole-context triad primary answer
+- locally whole-context triad follow-up
+- rather primary answer under
+- rather primary answer within
+- rather primary answer across
+- instead follow-up blocked
+- instead follow-up deferred
+- instead follow-up spawned
+- only blocked deferred
+- only blocked spawned
+- still deferred spawned
+- relative audit under
+- instead follow-up under
+- instead follow-up within
+- instead follow-up across
+- instead follow-up between
+- only blocked under
+- only blocked within
+- only blocked across
+- only blocked between
+- only blocked through
+- still deferred under
+- still deferred within
+- still deferred across
+- still deferred between
+- still deferred through
+- still deferred before
+- likely spawned under
+- likely spawned within
+- likely spawned across
+- likely spawned between
+- likely spawned through
+- likely spawned before
+- likely spawned after
+- observed before relative
+- possible under within
+- possible under across
+- possible under between
+- possible under through
+- possible under before
+- possible under after
+- possible under from
+- bounded within across
+- bounded within between
+- bounded within through
+- bounded within before
+- bounded within after
+- bounded within from
+- bounded within by
+- finite across between
+- finite across through
+- finite across before
+- finite across after
+- finite across from
+- finite across by
+- finite across with
+- local between through
+- local between before
+- local between after
+- local between from
+- local between by
+- local between with
+- local between without
+- current through before
+- current through after

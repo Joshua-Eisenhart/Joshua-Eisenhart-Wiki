@@ -1,0 +1,20 @@
+{
+  "id": "AUDIT",
+  "name": "Audit",
+  "emoji": "🔎",
+  "category": "checks_guards",
+  "scale": "check_guard",
+  "purpose": "receipt truth against false closure",
+  "unique_job": "independent record-check of what ran, what changed, what stayed open, and what evidence supports the claim",
+  "non_job": "Do not become Popper skepticism or prose closeout. Do not present as a default voice or loose lane unless explicitly assigned.",
+  "inputs": "worker receipts, task cards, synthesis",
+  "outputs": "audit findings, clean/finding status",
+  "subagent_contract": "Audit must run as audit subagent(s) when claimed.",
+  "receipt_requirement": "Visible route status must be exactly spawned, blocked, or deferred. Spawned receipts name unit_id, unit_type, wave, mini-MMM loaded path, task card, checked, concluded, open, evidence, and artifact/output. Blocked/deferred receipts name reason and condition_to_run.",
+  "collapse_signs": "Audit appears as a paragraph but no audit worker ran.",
+  "nearest_neighbors": [
+    "Popper",
+    "Feynman",
+    "Synthesis"
+  ]
+}

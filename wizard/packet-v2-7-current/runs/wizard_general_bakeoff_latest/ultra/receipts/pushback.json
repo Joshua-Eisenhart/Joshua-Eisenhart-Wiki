@@ -1,0 +1,12 @@
+{
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate",
+  "checked": "loaded mini_mmms/ultra/voices/md/MMM_VOICE_PUSHBACK_ULTRA_v2_7.md",
+  "concluded": "Boundary: do not wire this into live memory or present it as live-tested until the live gate has real logs.",
+  "evidence": "mini_mmms/ultra/voices/md/MMM_VOICE_PUSHBACK_ULTRA_v2_7.md terms: support level, does not follow, stop condition, mis-scoped, smaller move, concern, unsafe, hold",
+  "generated_at": "2026-04-28T08:03:24.959236+00:00",
+  "lane": "Pushback",
+  "open": "live proof pending",
+  "output_excerpt": "Task: Compare Wizard General sizes and choose the best local runtime surface.\nWizard General size: ultra\nWave 1: Voice Wave\nBoundary: do not wire this into live memory or present it as live-tested until the live gate has real logs.\nLoaded language body terms: support level, does not follow, stop condition, mis-scoped, smaller move, concern, unsafe, hold",
+  "output_sha256": "06e96f2f27eb23df059b75ea503978941daf8eded3a227d35065eac805c6d104",
+  "schema_version": "wizard_behavior_harness.v1"
+}

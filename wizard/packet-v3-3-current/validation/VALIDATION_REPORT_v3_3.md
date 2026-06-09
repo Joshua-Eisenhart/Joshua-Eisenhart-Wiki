@@ -1,0 +1,53 @@
+# Validation Report v3.3
+
+- PASS: 46
+- FAIL: 0
+- WARN: 0
+- ZIP: `MMM_WIZARD_CLEAN_SYSTEM_PACKET_v3_3_DOWNLOADABLE.zip`
+
+- PASS `all_json_parses` — 101 JSON files checked; bad=[]
+- PASS `forbidden_active_dirs_absent` — forbidden dirs present: []
+- PASS `no_reference_negative_boot_path` — checked boot/load instruction lines
+- PASS `no_archive_boot_path` — checked boot/load instruction lines
+- PASS `main_agent_does_not_load_mini` — README/core state main-only boot
+- PASS `subagent_does_not_load_main` — README/core state subagent boundary
+- PASS `universal_full_materially_larger` — full=54425, compact=7338
+- PASS `compact_standalone` — standalone markers present
+- PASS `embedded_runtime_definitions` — definitions embedded
+- PASS `main_mmm_full_md_exists` — mmm/main/full/md/MMM_MAIN_FULL_v3_3.md
+- PASS `main_mmm_full_json_exists` — mmm/main/full/json/MMM_MAIN_FULL_v3_3.json
+- PASS `main_mmm_compact_md_exists` — mmm/main/compact/md/MMM_MAIN_COMPACT_v3_3.md
+- PASS `main_mmm_compact_json_exists` — mmm/main/compact/json/MMM_MAIN_COMPACT_v3_3.json
+- PASS `mini_full_voices_md_exists` — mmm/mini/full/voices/md
+- PASS `mini_full_voices_json_exists` — mmm/mini/full/voices/json
+- PASS `mini_full_lanes_md_exists` — mmm/mini/full/lanes/md
+- PASS `mini_full_lanes_json_exists` — mmm/mini/full/lanes/json
+- PASS `mini_full_checks_guards_md_exists` — mmm/mini/full/checks_guards/md
+- PASS `mini_full_checks_guards_json_exists` — mmm/mini/full/checks_guards/json
+- PASS `mini_full_system_routes_md_exists` — mmm/mini/full/system_routes/md
+- PASS `mini_full_system_routes_json_exists` — mmm/mini/full/system_routes/json
+- PASS `mini_full_compositions_md_exists` — mmm/mini/full/compositions/md
+- PASS `mini_full_compositions_json_exists` — mmm/mini/full/compositions/json
+- PASS `mini_full_controller_acts_md_exists` — mmm/mini/full/controller_acts/md
+- PASS `mini_full_controller_acts_json_exists` — mmm/mini/full/controller_acts/json
+- PASS `mini_compact_voices_md_exists` — mmm/mini/compact/voices/md
+- PASS `mini_compact_voices_json_exists` — mmm/mini/compact/voices/json
+- PASS `mini_compact_lanes_md_exists` — mmm/mini/compact/lanes/md
+- PASS `mini_compact_lanes_json_exists` — mmm/mini/compact/lanes/json
+- PASS `mini_compact_checks_guards_md_exists` — mmm/mini/compact/checks_guards/md
+- PASS `mini_compact_checks_guards_json_exists` — mmm/mini/compact/checks_guards/json
+- PASS `mini_compact_system_routes_md_exists` — mmm/mini/compact/system_routes/md
+- PASS `mini_compact_system_routes_json_exists` — mmm/mini/compact/system_routes/json
+- PASS `mini_compact_compositions_md_exists` — mmm/mini/compact/compositions/md
+- PASS `mini_compact_compositions_json_exists` — mmm/mini/compact/compositions/json
+- PASS `mini_compact_controller_acts_md_exists` — mmm/mini/compact/controller_acts/md
+- PASS `mini_compact_controller_acts_json_exists` — mmm/mini/compact/controller_acts/json
+- PASS `followup_maps_outputs_to_lanes_compositions` — Make/Assembly rules present
+- PASS `full_wizard_max_option_exists` — max option present
+- PASS `quality_score_footer_only` — footer-only rule present
+- PASS `audit_not_default_section` — default output rule present
+- PASS `deep_research_salience_in_main_mmm` — checked deep-research positive salience anchors in main full JSON
+- PASS `deep_research_salience_in_mini_mmm` — checked route-specific mini-MMM salience
+- PASS `zip_opens_cleanly` — entries=176, bad=None
+- PASS `pro_audit_packet_availability` — MMM_V2_8_PRO_AUDIT_PACKET_DOWNLOADABLE.zip was found and archived.
+- PASS `deep_research_report_availability` — deep-research-report.md was found and mined for positive salience.

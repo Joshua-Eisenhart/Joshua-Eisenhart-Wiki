@@ -1,0 +1,386 @@
+# MMM_VOICE_SYNTHESIS_STANDARD_v2_8
+
+## words
+- mini-MMM :: 100
+- mini MMM :: 100
+- voice shape :: 100
+- voice shaping :: 100
+- shape voice :: 100
+- shaped voice :: 100
+- voice contour :: 100
+- voice signature :: 100
+- voice localizer :: 100
+- local voice :: 100
+- aligned nouns :: 100
+- correlated thinkers :: 100
+- thinker alignment :: 100
+- noun alignment :: 100
+
+- accepted :: 100
+- act :: 100
+- actual :: 100
+- after receipts :: 100
+- aggregate :: 100
+- alignment :: 100
+- apart :: 100
+- aside :: 100
+- balance :: 100
+- boundary :: 100
+- bounded exclusion :: 100
+- bridge :: 100
+- careful :: 100
+- carried :: 100
+- carry :: 100
+- carryforward :: 100
+- checked :: 100
+- combine :: 100
+- compare :: 100
+- compose :: 100
+- composition :: 100
+- concrete :: 100
+- contradiction :: 100
+- contrast :: 100
+- controller :: 100
+- controller act :: 100
+- convergence :: 100
+- difference :: 100
+- dissent :: 100
+- distinct :: 100
+- distinction :: 100
+- divergence :: 100
+- dropped :: 100
+- excluded :: 100
+- flattening :: 100
+- held :: 100
+- held apart :: 100
+- hold :: 100
+- inferred :: 100
+- interface :: 100
+- junction :: 100
+- known :: 100
+- later :: 100
+- live :: 100
+- live remainder :: 100
+- merge :: 100
+- named :: 100
+- narrow :: 100
+- next :: 100
+- no consensus :: 100
+- nonmerge :: 100
+- not collapsed :: 100
+- not merged :: 100
+- observed :: 100
+- pair :: 100
+- plain :: 100
+- preserve :: 100
+- preserved difference :: 100
+- receipt :: 100
+- refusal :: 100
+- relation :: 100
+- retained :: 100
+- separate :: 100
+- set :: 100
+- split :: 100
+- stale :: 100
+- structure :: 100
+- summary :: 100
+- surviving :: 100
+- surviving split :: 100
+- synthesis :: 100
+- tension :: 100
+
+## couplings
+
+- across preserve :: 100
+- across receipt :: 100
+- after preserve :: 100
+- after receipt :: 100
+- aggregate without collapse :: 100
+- before preserve :: 100
+- before receipt :: 100
+- between preserve :: 100
+- between receipt :: 100
+- bounded exclusion :: 100
+- carry :: 100
+- carry forward :: 100
+- carry tension :: 100
+- check preserve :: 100
+- compare preserve :: 100
+- compose :: 100
+- compose carry :: 100
+- compose composition :: 100
+- compose difference :: 100
+- compose distinct :: 100
+- compose merge :: 100
+- compose nonmerge :: 100
+- compose preserve :: 100
+- compose receipt :: 100
+- compose split :: 100
+- compose surviving :: 100
+- compose tension :: 100
+- composed output :: 100
+- composition carry :: 100
+- composition distinct :: 100
+- composition preserve :: 100
+- composition receipt :: 100
+- composition step :: 100
+- composition tension :: 100
+- contradiction :: 100
+- controller act :: 100
+- controller synthesis :: 100
+- distinct :: 100
+- distinct boundary :: 100
+- distinct carry :: 100
+- distinct evidence :: 100
+- distinct packet :: 100
+- distinct path :: 100
+- distinct preserve :: 100
+- distinct receipt :: 100
+- distinct receipts :: 100
+- distinct result :: 100
+- distinct scope :: 100
+- distinct status :: 100
+- distinct support :: 100
+- distinct surface :: 100
+- distinct tension :: 100
+- distinct trace :: 100
+- excluded :: 100
+- held apart :: 100
+- held tension :: 100
+- hold preserve :: 100
+- hold tension :: 100
+- interface between receipts :: 100
+- live remainder :: 100
+- live split :: 100
+- measure preserve :: 100
+- measure receipt :: 100
+- merge refusal :: 100
+- narrow preserve :: 100
+- narrow receipt :: 100
+- non merge :: 100
+- observe preserve :: 100
+- observe receipt :: 100
+- pair receipt :: 100
+- preserve candidate :: 100
+- preserve carry :: 100
+- preserve constraint :: 100
+- preserve distinct :: 100
+- preserve evidence :: 100
+- preserve packet :: 100
+- preserve path :: 100
+- preserve preserve :: 100
+- preserve probe :: 100
+- preserve receipt :: 100
+- preserve refusal :: 100
+- preserve result :: 100
+- preserve scope :: 100
+- preserve status :: 100
+- preserve support :: 100
+- preserve surface :: 100
+- preserve tension :: 100
+- preserve trace :: 100
+- preserve witness :: 100
+- preserved difference :: 100
+- preserved split :: 100
+- receipt boundary :: 100
+- receipt candidate :: 100
+- receipt carry :: 100
+- receipt comparison :: 100
+- receipt constraint :: 100
+- receipt distinct :: 100
+- receipt evidence :: 100
+- receipt packet :: 100
+- receipt path :: 100
+- receipt preserve :: 100
+- receipt probe :: 100
+- receipt receipt :: 100
+- receipt result :: 100
+- receipt scope :: 100
+- receipt status :: 100
+- receipt support :: 100
+- receipt surface :: 100
+- receipt tension :: 100
+- receipt trace :: 100
+- receipt witness :: 100
+- refusal receipt :: 100
+- retained branch :: 100
+- separate receipts :: 100
+- split preserve :: 100
+- split receipt :: 100
+- summary relation :: 100
+- surviving difference :: 100
+- surviving split :: 100
+- synthesis :: 100
+- synthesis boundary :: 100
+- synthesis carry :: 100
+- synthesis compose :: 100
+- synthesis composition :: 100
+- synthesis distinct :: 100
+- synthesis preserve :: 100
+- synthesis receipt :: 100
+- synthesis tension :: 100
+- tension :: 100
+- tension receipt :: 100
+- test preserve :: 100
+- test receipt :: 100
+- through preserve :: 100
+- through receipt :: 100
+- under preserve :: 100
+- under receipt :: 100
+- unresolved :: 100
+- unresolved contradiction :: 100
+- until preserve :: 100
+- until receipt :: 100
+- verify preserve :: 100
+- verify receipt :: 100
+- where preserve :: 100
+- where receipt :: 100
+- while preserve :: 100
+- while receipt :: 100
+- within preserve :: 100
+- within receipt :: 100
+- without flattening :: 100
+- check receipt :: 99
+- compare receipt :: 99
+- hold receipt :: 99
+- across distinct :: 98
+- before distinct :: 98
+- between distinct :: 98
+- preserve boundary :: 98
+- through distinct :: 98
+- under distinct :: 98
+- within distinct :: 98
+- after distinct :: 97
+
+## triplets
+
+- across bounded receipt :: 100
+- across compose receipt :: 100
+- across current receipt :: 100
+- across finite receipt :: 100
+- across live receipt :: 100
+- across local receipt :: 100
+- across open receipt :: 100
+- across synthesis compose :: 100
+- aggregate without flattening :: 100
+- before compose receipt :: 100
+- before synthesis compose :: 100
+- between bounded receipt :: 100
+- between compose receipt :: 100
+- between current receipt :: 100
+- between finite receipt :: 100
+- between live receipt :: 100
+- between local receipt :: 100
+- between open receipt :: 100
+- between synthesis compose :: 100
+- check distinct receipt :: 100
+- check preserve receipt :: 100
+- compare distinct receipt :: 100
+- compare preserve receipt :: 100
+- compare receipts compose :: 100
+- compose composition distinct :: 100
+- compose composition preserve :: 100
+- compose composition receipt :: 100
+- compose distinct preserve :: 100
+- compose distinct receipt :: 100
+- compose preserve receipt :: 100
+- compose receipt distinct :: 100
+- compose receipt preserve :: 100
+- composition after receipts :: 100
+- distinct receipt path :: 100
+- distinct receipts held :: 100
+- hold distinct receipt :: 100
+- hold preserve receipt :: 100
+- measure distinct receipt :: 100
+- measure preserve receipt :: 100
+- merge refusal boundary :: 100
+- observe distinct receipt :: 100
+- observe preserve receipt :: 100
+- preserve distinct receipt :: 100
+- preserve preserve receipt :: 100
+- preserve receipt path :: 100
+- preserve receipt receipt :: 100
+- preserve refusal receipt :: 100
+- preserve tension nonmerge :: 100
+- receipt interface summary :: 100
+- separate branches retained :: 100
+- surviving split carried :: 100
+- synthesis compose composition :: 100
+- synthesis compose distinct :: 100
+- synthesis compose receipt :: 100
+- synthesis composition distinct :: 100
+- synthesis composition receipt :: 100
+- synthesis distinct composition :: 100
+- synthesis distinct receipt :: 100
+- synthesis preserve composition :: 100
+- synthesis preserve distinct :: 100
+- synthesis preserve receipt :: 100
+- synthesis receipt composition :: 100
+- synthesis receipt distinct :: 100
+- test distinct receipt :: 100
+- test preserve receipt :: 100
+- through compose receipt :: 100
+- through current receipt :: 100
+- through synthesis compose :: 100
+- under bounded receipt :: 100
+- under compose receipt :: 100
+- under composition receipt :: 100
+- under current receipt :: 100
+- under finite receipt :: 100
+- under live receipt :: 100
+- under local receipt :: 100
+- under open receipt :: 100
+- under receipt carry :: 100
+- under receipt distinct :: 100
+- under receipt preserve :: 100
+- under synthesis compose :: 100
+- under synthesis composition :: 100
+- under synthesis distinct :: 100
+- under synthesis receipt :: 100
+- unresolved contradiction held :: 100
+- verify distinct receipt :: 100
+- verify preserve receipt :: 100
+- within bounded receipt :: 100
+- within compose receipt :: 100
+- within composition receipt :: 100
+- within current receipt :: 100
+- within finite receipt :: 100
+- within live receipt :: 100
+- within local receipt :: 100
+- within open receipt :: 100
+- within receipt carry :: 100
+- within receipt distinct :: 100
+- within receipt preserve :: 100
+- within synthesis compose :: 100
+- within synthesis composition :: 100
+- within synthesis distinct :: 100
+- within synthesis receipt :: 100
+- after compose receipt :: 99
+- after synthesis compose :: 99
+- before bounded receipt :: 99
+- before current receipt :: 99
+- before finite receipt :: 99
+- before live receipt :: 99
+- before local receipt :: 99
+- before open receipt :: 99
+- check receipt receipt :: 99
+- compare receipt receipt :: 99
+- measure receipt receipt :: 99
+- observe receipt receipt :: 99
+- receipt boundary path :: 99
+- receipt evidence path :: 99
+- receipt packet path :: 99
+- receipt path path :: 99
+- receipt receipt path :: 99
+- receipt result path :: 99
+- receipt scope path :: 99
+- receipt support path :: 99
+- receipt surface path :: 99
+- receipt trace path :: 99
+- through bounded receipt :: 99
+- through finite receipt :: 99
+- through live receipt :: 99
+- through local receipt :: 99
+- through open receipt :: 99
+- under compose composition :: 99
+- under compose distinct :: 99

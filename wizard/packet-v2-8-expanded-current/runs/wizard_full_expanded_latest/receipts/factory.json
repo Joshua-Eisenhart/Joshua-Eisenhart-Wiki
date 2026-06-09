@@ -1,0 +1,12 @@
+{
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/mmm_wizard_complete_system_packet_v2_8_expanded_candidate",
+  "checked": "loaded mini_mmms/full/voices/md/MMM_VOICE_FACTORY_FULL_v2_8.md",
+  "concluded": "Voice contribution: inspect the wider workstream for bottleneck, queue, handoff drag, rework, and repeatability before choosing the next local move.",
+  "evidence": "mini_mmms/full/voices/md/MMM_VOICE_FACTORY_FULL_v2_8.md terms: mini-MMM :: 100, mini MMM :: 100, voice shape :: 100, voice shaping :: 100, shape voice :: 100, shaped voice :: 100, voice contour :: 100, voice signature :: 100",
+  "generated_at": "2026-04-29T00:15:50.230177+00:00",
+  "lane": "Factory",
+  "open": "live proof pending",
+  "output_excerpt": "Task: Run the full Wizard after repairing output shape, full-MMM boot, guide size, voice mini-MMM loading proof, behavior load proof, and noun reservoir expansion.\nWizard General size: full\nWave 1: Voice Wave\nVoice contribution: inspect the wider workstream for bottleneck, queue, handoff drag, rework, and repeatability before choosing the next local move.\nLoaded language body terms: mini-MMM :: 100, mini MMM :: 100, voice shape :: 100, voice shaping :: 100, shape voice :: 100, shaped voice :: 100, voice contour :: 100, voice signature :: 100",
+  "output_sha256": "d9f2e226b189b686284d16c5bd99644d5bfb60f83a5ebe138d6d1d3c762c78c3",
+  "schema_version": "wizard_behavior_harness.v1"
+}

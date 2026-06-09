@@ -1,0 +1,75 @@
+{
+  "id": "LLM_COUNCIL",
+  "name": "LLM Council",
+  "emoji": "🧠",
+  "category": "system_routes",
+  "scale": "system_route",
+  "purpose": "independent disagreement before merge",
+  "unique_job": "compare separate model routes, preserve variance and dissent, and synthesize only after the receipts are in",
+  "non_job": "Do not become consensus theater.",
+  "inputs": "voice/lane/audit receipts",
+  "outputs": "dissent, agreement, survival recommendation",
+  "subagent_contract": "Council receipt must show independent routes and route status.",
+  "receipt_requirement": "Visible route status must be exactly spawned, blocked, deferred, or simulated. Spawned receipts name unit_id, unit_type, wave, mini-MMM loaded path, task card, checked, concluded, open, evidence, and artifact/output. Blocked/deferred receipts name reason and condition_to_run.",
+  "collapse_signs": "Council reports consensus from routes that never ran.",
+  "nearest_neighbors": [
+    "Audit",
+    "Synthesis",
+    "Full Wizard"
+  ],
+  "salience_drivers": {
+    "full_top_words": [
+      "council",
+      "model",
+      "route",
+      "sonnet",
+      "opus",
+      "codex",
+      "gemini",
+      "external",
+      "view",
+      "dissent",
+      "disagreement",
+      "state",
+      "blocked",
+      "untried"
+    ],
+    "compact_top_words": [
+      "independent route",
+      "route status",
+      "dissent",
+      "council",
+      "untried",
+      "diagnostic",
+      "comparison",
+      "model family"
+    ],
+    "deep_research_positive_words": [
+      "independent proposal",
+      "diverse reasoning paths",
+      "route comparison",
+      "debate round",
+      "aggregation",
+      "arbitration",
+      "dissent preservation",
+      "trust calibration",
+      "source-aware filtering",
+      "self-consistency"
+    ],
+    "deep_research_couplings": [
+      "independence before merge",
+      "dissent logs",
+      "trust calibration",
+      "source-aware weighting",
+      "explicit blocked/deferred routes"
+    ],
+    "deep_research_triplets": [
+      "proposal debate arbitration",
+      "variance dissent calibration",
+      "independence merge receipt"
+    ]
+  },
+  "people_schools_systems_methods": "Self-consistency, multi-agent debate, ensemble review, dissent preservation, trust calibration, source-aware filtering, independent route comparison.",
+  "math_operator_geometry_associations": "Ensemble variance, disagreement matrix, debate-round operator, source-aware weighting, consensus threshold, survivor selection.",
+  "legacy_mined_notes": "LLM Council is a separate subagent wave, not a follow-up item and not a local summary. v2.8 Pro audit requested richer debugging definitions and positive people/schools/systems/methods/math salience. deep-research-report.md supplied the positive noun/coupling/triplet expansion used here."
+}

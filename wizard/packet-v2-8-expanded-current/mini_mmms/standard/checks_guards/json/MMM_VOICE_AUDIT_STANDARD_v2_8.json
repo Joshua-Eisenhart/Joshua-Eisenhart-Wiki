@@ -1,0 +1,1818 @@
+{
+  "words": [
+    [
+      1,
+      "actual",
+      100
+    ],
+    [
+      2,
+      "artifact path",
+      100
+    ],
+    [
+      3,
+      "audit",
+      100
+    ],
+    [
+      4,
+      "audit finding",
+      100
+    ],
+    [
+      5,
+      "blocked",
+      100
+    ],
+    [
+      6,
+      "careful",
+      100
+    ],
+    [
+      7,
+      "check",
+      100
+    ],
+    [
+      8,
+      "checked",
+      100
+    ],
+    [
+      9,
+      "citation",
+      100
+    ],
+    [
+      10,
+      "clean",
+      100
+    ],
+    [
+      11,
+      "closeout",
+      100
+    ],
+    [
+      12,
+      "closure",
+      100
+    ],
+    [
+      13,
+      "collapse",
+      100
+    ],
+    [
+      14,
+      "concluded",
+      100
+    ],
+    [
+      15,
+      "concrete",
+      100
+    ],
+    [
+      16,
+      "contradiction",
+      100
+    ],
+    [
+      17,
+      "current-turn",
+      100
+    ],
+    [
+      18,
+      "defect",
+      100
+    ],
+    [
+      19,
+      "deferred",
+      100
+    ],
+    [
+      20,
+      "distinct",
+      100
+    ],
+    [
+      21,
+      "drift",
+      100
+    ],
+    [
+      22,
+      "duplicate",
+      100
+    ],
+    [
+      23,
+      "evidence",
+      100
+    ],
+    [
+      24,
+      "fail",
+      100
+    ],
+    [
+      25,
+      "failed",
+      100
+    ],
+    [
+      26,
+      "fake",
+      100
+    ],
+    [
+      27,
+      "false",
+      100
+    ],
+    [
+      28,
+      "finding",
+      100
+    ],
+    [
+      29,
+      "first",
+      100
+    ],
+    [
+      30,
+      "gap",
+      100
+    ],
+    [
+      31,
+      "honest",
+      100
+    ],
+    [
+      32,
+      "inconsistency",
+      100
+    ],
+    [
+      33,
+      "inferred",
+      100
+    ],
+    [
+      34,
+      "known",
+      100
+    ],
+    [
+      35,
+      "leakage",
+      100
+    ],
+    [
+      36,
+      "ledger",
+      100
+    ],
+    [
+      37,
+      "live",
+      100
+    ],
+    [
+      38,
+      "method",
+      100
+    ],
+    [
+      39,
+      "method collapsed",
+      100
+    ],
+    [
+      40,
+      "method executed",
+      100
+    ],
+    [
+      41,
+      "missing",
+      100
+    ],
+    [
+      42,
+      "narrow",
+      100
+    ],
+    [
+      43,
+      "next",
+      100
+    ],
+    [
+      44,
+      "not",
+      100
+    ],
+    [
+      45,
+      "not run",
+      100
+    ],
+    [
+      46,
+      "observed",
+      100
+    ],
+    [
+      47,
+      "open",
+      100
+    ],
+    [
+      48,
+      "pass",
+      100
+    ],
+    [
+      49,
+      "path",
+      100
+    ],
+    [
+      50,
+      "plain",
+      100
+    ],
+    [
+      51,
+      "plurality",
+      100
+    ],
+    [
+      52,
+      "prior",
+      100
+    ],
+    [
+      53,
+      "provenance",
+      100
+    ],
+    [
+      54,
+      "receipt",
+      100
+    ],
+    [
+      55,
+      "registry",
+      100
+    ],
+    [
+      56,
+      "report",
+      100
+    ],
+    [
+      57,
+      "row",
+      100
+    ],
+    [
+      58,
+      "run",
+      100
+    ],
+    [
+      59,
+      "severity",
+      100
+    ],
+    [
+      60,
+      "source",
+      100
+    ],
+    [
+      61,
+      "stale",
+      100
+    ],
+    [
+      62,
+      "trace",
+      100
+    ],
+    [
+      63,
+      "traceability",
+      100
+    ],
+    [
+      64,
+      "unknown",
+      100
+    ],
+    [
+      65,
+      "unread",
+      100
+    ],
+    [
+      66,
+      "unresolved",
+      100
+    ],
+    [
+      67,
+      "unrun",
+      100
+    ],
+    [
+      68,
+      "unsupported",
+      100
+    ],
+    [
+      69,
+      "unverified",
+      100
+    ],
+    [
+      70,
+      "verified",
+      100
+    ],
+    [
+      71,
+      "verify",
+      100
+    ],
+    [
+      72,
+      "warm",
+      100
+    ]
+  ],
+  "couplings": [
+    [
+      1,
+      "across audit",
+      100
+    ],
+    [
+      2,
+      "across clean",
+      100
+    ],
+    [
+      3,
+      "across finding",
+      100
+    ],
+    [
+      4,
+      "after audit",
+      100
+    ],
+    [
+      5,
+      "after clean",
+      100
+    ],
+    [
+      6,
+      "after finding",
+      100
+    ],
+    [
+      7,
+      "audit boundary",
+      100
+    ],
+    [
+      8,
+      "audit candidate",
+      100
+    ],
+    [
+      9,
+      "audit checked",
+      100
+    ],
+    [
+      10,
+      "audit clean",
+      100
+    ],
+    [
+      11,
+      "audit concluded",
+      100
+    ],
+    [
+      12,
+      "audit constraint",
+      100
+    ],
+    [
+      13,
+      "audit evidence",
+      100
+    ],
+    [
+      14,
+      "audit finding",
+      100
+    ],
+    [
+      15,
+      "audit open",
+      100
+    ],
+    [
+      16,
+      "audit packet",
+      100
+    ],
+    [
+      17,
+      "audit path",
+      100
+    ],
+    [
+      18,
+      "audit probe",
+      100
+    ],
+    [
+      19,
+      "audit receipt",
+      100
+    ],
+    [
+      20,
+      "audit result",
+      100
+    ],
+    [
+      21,
+      "audit scope",
+      100
+    ],
+    [
+      22,
+      "audit status",
+      100
+    ],
+    [
+      23,
+      "audit support",
+      100
+    ],
+    [
+      24,
+      "audit surface",
+      100
+    ],
+    [
+      25,
+      "audit trace",
+      100
+    ],
+    [
+      26,
+      "audit witness",
+      100
+    ],
+    [
+      27,
+      "banned leakage",
+      100
+    ],
+    [
+      28,
+      "before audit",
+      100
+    ],
+    [
+      29,
+      "before clean",
+      100
+    ],
+    [
+      30,
+      "before finding",
+      100
+    ],
+    [
+      31,
+      "between audit",
+      100
+    ],
+    [
+      32,
+      "between clean",
+      100
+    ],
+    [
+      33,
+      "between finding",
+      100
+    ],
+    [
+      34,
+      "check clean",
+      100
+    ],
+    [
+      35,
+      "check finding",
+      100
+    ],
+    [
+      36,
+      "checked",
+      100
+    ],
+    [
+      37,
+      "checked clean",
+      100
+    ],
+    [
+      38,
+      "checked concluded",
+      100
+    ],
+    [
+      39,
+      "checked evidence",
+      100
+    ],
+    [
+      40,
+      "checked finding",
+      100
+    ],
+    [
+      41,
+      "checked missing",
+      100
+    ],
+    [
+      42,
+      "checked open",
+      100
+    ],
+    [
+      43,
+      "checked state",
+      100
+    ],
+    [
+      44,
+      "clean",
+      100
+    ],
+    [
+      45,
+      "clean boundary",
+      100
+    ],
+    [
+      46,
+      "clean candidate",
+      100
+    ],
+    [
+      47,
+      "clean constraint",
+      100
+    ],
+    [
+      48,
+      "clean evidence",
+      100
+    ],
+    [
+      49,
+      "clean packet",
+      100
+    ],
+    [
+      50,
+      "clean path",
+      100
+    ],
+    [
+      51,
+      "clean probe",
+      100
+    ],
+    [
+      52,
+      "clean receipt",
+      100
+    ],
+    [
+      53,
+      "clean result",
+      100
+    ],
+    [
+      54,
+      "clean scope",
+      100
+    ],
+    [
+      55,
+      "clean status",
+      100
+    ],
+    [
+      56,
+      "clean support",
+      100
+    ],
+    [
+      57,
+      "clean surface",
+      100
+    ],
+    [
+      58,
+      "clean trace",
+      100
+    ],
+    [
+      59,
+      "clean verified",
+      100
+    ],
+    [
+      60,
+      "clean witness",
+      100
+    ],
+    [
+      61,
+      "collapse",
+      100
+    ],
+    [
+      62,
+      "collapse evidence",
+      100
+    ],
+    [
+      63,
+      "collapse receipt",
+      100
+    ],
+    [
+      64,
+      "collapse trace",
+      100
+    ],
+    [
+      65,
+      "compare clean",
+      100
+    ],
+    [
+      66,
+      "compare finding",
+      100
+    ],
+    [
+      67,
+      "concluded",
+      100
+    ],
+    [
+      68,
+      "concluded clean",
+      100
+    ],
+    [
+      69,
+      "concluded evidence",
+      100
+    ],
+    [
+      70,
+      "concluded finding",
+      100
+    ],
+    [
+      71,
+      "concluded missing",
+      100
+    ],
+    [
+      72,
+      "concluded open",
+      100
+    ],
+    [
+      73,
+      "concluded verified",
+      100
+    ],
+    [
+      74,
+      "duplicate evidence",
+      100
+    ],
+    [
+      75,
+      "duplicate receipt",
+      100
+    ],
+    [
+      76,
+      "evidence",
+      100
+    ],
+    [
+      77,
+      "evidence clean",
+      100
+    ],
+    [
+      78,
+      "evidence finding",
+      100
+    ],
+    [
+      79,
+      "evidence missing",
+      100
+    ],
+    [
+      80,
+      "evidence verified",
+      100
+    ],
+    [
+      81,
+      "finding",
+      100
+    ],
+    [
+      82,
+      "finding boundary",
+      100
+    ],
+    [
+      83,
+      "finding candidate",
+      100
+    ],
+    [
+      84,
+      "finding clean",
+      100
+    ],
+    [
+      85,
+      "finding constraint",
+      100
+    ],
+    [
+      86,
+      "finding evidence",
+      100
+    ],
+    [
+      87,
+      "finding packet",
+      100
+    ],
+    [
+      88,
+      "finding path",
+      100
+    ],
+    [
+      89,
+      "finding probe",
+      100
+    ],
+    [
+      90,
+      "finding receipt",
+      100
+    ],
+    [
+      91,
+      "finding result",
+      100
+    ],
+    [
+      92,
+      "finding scope",
+      100
+    ],
+    [
+      93,
+      "finding status",
+      100
+    ],
+    [
+      94,
+      "finding support",
+      100
+    ],
+    [
+      95,
+      "finding surface",
+      100
+    ],
+    [
+      96,
+      "finding trace",
+      100
+    ],
+    [
+      97,
+      "finding verified",
+      100
+    ],
+    [
+      98,
+      "finding witness",
+      100
+    ],
+    [
+      99,
+      "hold clean",
+      100
+    ],
+    [
+      100,
+      "hold finding",
+      100
+    ],
+    [
+      101,
+      "measure clean",
+      100
+    ],
+    [
+      102,
+      "measure finding",
+      100
+    ],
+    [
+      103,
+      "method collapsed",
+      100
+    ],
+    [
+      104,
+      "missing evidence",
+      100
+    ],
+    [
+      105,
+      "missing receipt",
+      100
+    ],
+    [
+      106,
+      "missing trace",
+      100
+    ],
+    [
+      107,
+      "narrow clean",
+      100
+    ],
+    [
+      108,
+      "narrow finding",
+      100
+    ],
+    [
+      109,
+      "narrow receipt",
+      100
+    ],
+    [
+      110,
+      "observe clean",
+      100
+    ],
+    [
+      111,
+      "observe finding",
+      100
+    ],
+    [
+      112,
+      "observe receipt",
+      100
+    ],
+    [
+      113,
+      "open",
+      100
+    ],
+    [
+      114,
+      "open clean",
+      100
+    ],
+    [
+      115,
+      "open finding",
+      100
+    ],
+    [
+      116,
+      "open missing",
+      100
+    ],
+    [
+      117,
+      "open verified",
+      100
+    ],
+    [
+      118,
+      "overclaim evidence",
+      100
+    ],
+    [
+      119,
+      "overclaim receipt",
+      100
+    ],
+    [
+      120,
+      "preserve clean",
+      100
+    ],
+    [
+      121,
+      "preserve finding",
+      100
+    ],
+    [
+      122,
+      "preserve receipt",
+      100
+    ],
+    [
+      123,
+      "receipt",
+      100
+    ],
+    [
+      124,
+      "receipt boundary",
+      100
+    ],
+    [
+      125,
+      "receipt candidate",
+      100
+    ],
+    [
+      126,
+      "receipt checked",
+      100
+    ],
+    [
+      127,
+      "receipt clean",
+      100
+    ],
+    [
+      128,
+      "receipt concluded",
+      100
+    ],
+    [
+      129,
+      "receipt constraint",
+      100
+    ],
+    [
+      130,
+      "receipt evidence",
+      100
+    ],
+    [
+      131,
+      "receipt finding",
+      100
+    ],
+    [
+      132,
+      "receipt missing",
+      100
+    ],
+    [
+      133,
+      "receipt open",
+      100
+    ],
+    [
+      134,
+      "receipt packet",
+      100
+    ],
+    [
+      135,
+      "receipt path",
+      100
+    ],
+    [
+      136,
+      "receipt probe",
+      100
+    ],
+    [
+      137,
+      "receipt receipt",
+      100
+    ],
+    [
+      138,
+      "receipt result",
+      100
+    ],
+    [
+      139,
+      "receipt scope",
+      100
+    ],
+    [
+      140,
+      "receipt status",
+      100
+    ],
+    [
+      141,
+      "receipt support",
+      100
+    ],
+    [
+      142,
+      "receipt surface",
+      100
+    ],
+    [
+      143,
+      "receipt trace",
+      100
+    ],
+    [
+      144,
+      "receipt witness",
+      100
+    ],
+    [
+      145,
+      "split clean",
+      100
+    ],
+    [
+      146,
+      "split finding",
+      100
+    ],
+    [
+      147,
+      "test clean",
+      100
+    ],
+    [
+      148,
+      "test finding",
+      100
+    ],
+    [
+      149,
+      "through audit",
+      100
+    ],
+    [
+      150,
+      "through clean",
+      100
+    ],
+    [
+      151,
+      "through finding",
+      100
+    ],
+    [
+      152,
+      "under audit",
+      100
+    ],
+    [
+      153,
+      "under clean",
+      100
+    ],
+    [
+      154,
+      "under finding",
+      100
+    ],
+    [
+      155,
+      "until audit",
+      100
+    ],
+    [
+      156,
+      "until clean",
+      100
+    ],
+    [
+      157,
+      "until finding",
+      100
+    ],
+    [
+      158,
+      "unverified",
+      100
+    ],
+    [
+      159,
+      "verify clean",
+      100
+    ],
+    [
+      160,
+      "verify finding",
+      100
+    ]
+  ],
+  "triplets": [
+    [
+      1,
+      "across audit checked",
+      100
+    ],
+    [
+      2,
+      "across audit concluded",
+      100
+    ],
+    [
+      3,
+      "across audit open",
+      100
+    ],
+    [
+      4,
+      "across audit receipt",
+      100
+    ],
+    [
+      5,
+      "across bounded audit",
+      100
+    ],
+    [
+      6,
+      "across current audit",
+      100
+    ],
+    [
+      7,
+      "across finite audit",
+      100
+    ],
+    [
+      8,
+      "across live audit",
+      100
+    ],
+    [
+      9,
+      "across local audit",
+      100
+    ],
+    [
+      10,
+      "across open audit",
+      100
+    ],
+    [
+      11,
+      "across open clean",
+      100
+    ],
+    [
+      12,
+      "across open finding",
+      100
+    ],
+    [
+      13,
+      "across open receipt",
+      100
+    ],
+    [
+      14,
+      "across receipt checked",
+      100
+    ],
+    [
+      15,
+      "across receipt concluded",
+      100
+    ],
+    [
+      16,
+      "across receipt evidence",
+      100
+    ],
+    [
+      17,
+      "across receipt open",
+      100
+    ],
+    [
+      18,
+      "audit evidence path",
+      100
+    ],
+    [
+      19,
+      "audit receipt path",
+      100
+    ],
+    [
+      20,
+      "audit trace path",
+      100
+    ],
+    [
+      21,
+      "banned leakage check",
+      100
+    ],
+    [
+      22,
+      "before open audit",
+      100
+    ],
+    [
+      23,
+      "before open clean",
+      100
+    ],
+    [
+      24,
+      "before open finding",
+      100
+    ],
+    [
+      25,
+      "before open receipt",
+      100
+    ],
+    [
+      26,
+      "between bounded audit",
+      100
+    ],
+    [
+      27,
+      "between current audit",
+      100
+    ],
+    [
+      28,
+      "between finite audit",
+      100
+    ],
+    [
+      29,
+      "between live audit",
+      100
+    ],
+    [
+      30,
+      "between local audit",
+      100
+    ],
+    [
+      31,
+      "between open audit",
+      100
+    ],
+    [
+      32,
+      "between open clean",
+      100
+    ],
+    [
+      33,
+      "between open finding",
+      100
+    ],
+    [
+      34,
+      "between open receipt",
+      100
+    ],
+    [
+      35,
+      "check audit receipt",
+      100
+    ],
+    [
+      36,
+      "check clean receipt",
+      100
+    ],
+    [
+      37,
+      "check finding receipt",
+      100
+    ],
+    [
+      38,
+      "checked concluded open",
+      100
+    ],
+    [
+      39,
+      "clean evidence path",
+      100
+    ],
+    [
+      40,
+      "clean receipt path",
+      100
+    ],
+    [
+      41,
+      "clean trace path",
+      100
+    ],
+    [
+      42,
+      "collapse detection audit",
+      100
+    ],
+    [
+      43,
+      "compare audit receipt",
+      100
+    ],
+    [
+      44,
+      "compare clean receipt",
+      100
+    ],
+    [
+      45,
+      "compare finding receipt",
+      100
+    ],
+    [
+      46,
+      "current receipt required",
+      100
+    ],
+    [
+      47,
+      "evidence receipt path",
+      100
+    ],
+    [
+      48,
+      "false closure finding",
+      100
+    ],
+    [
+      49,
+      "finding evidence path",
+      100
+    ],
+    [
+      50,
+      "finding receipt path",
+      100
+    ],
+    [
+      51,
+      "finding severity clean",
+      100
+    ],
+    [
+      52,
+      "finding trace path",
+      100
+    ],
+    [
+      53,
+      "hold audit receipt",
+      100
+    ],
+    [
+      54,
+      "hold clean receipt",
+      100
+    ],
+    [
+      55,
+      "hold finding receipt",
+      100
+    ],
+    [
+      56,
+      "measure audit receipt",
+      100
+    ],
+    [
+      57,
+      "measure clean receipt",
+      100
+    ],
+    [
+      58,
+      "measure finding receipt",
+      100
+    ],
+    [
+      59,
+      "missing receipt blocked",
+      100
+    ],
+    [
+      60,
+      "observe audit receipt",
+      100
+    ],
+    [
+      61,
+      "observe clean receipt",
+      100
+    ],
+    [
+      62,
+      "observe finding receipt",
+      100
+    ],
+    [
+      63,
+      "observed inferred unknown",
+      100
+    ],
+    [
+      64,
+      "overclaim risk open",
+      100
+    ],
+    [
+      65,
+      "preserve audit receipt",
+      100
+    ],
+    [
+      66,
+      "preserve clean receipt",
+      100
+    ],
+    [
+      67,
+      "preserve finding receipt",
+      100
+    ],
+    [
+      68,
+      "receipt evidence path",
+      100
+    ],
+    [
+      69,
+      "receipt trace path",
+      100
+    ],
+    [
+      70,
+      "source trace provenance",
+      100
+    ],
+    [
+      71,
+      "stale claim flagged",
+      100
+    ],
+    [
+      72,
+      "test audit receipt",
+      100
+    ],
+    [
+      73,
+      "test clean receipt",
+      100
+    ],
+    [
+      74,
+      "test finding receipt",
+      100
+    ],
+    [
+      75,
+      "through current audit",
+      100
+    ],
+    [
+      76,
+      "through open audit",
+      100
+    ],
+    [
+      77,
+      "through open clean",
+      100
+    ],
+    [
+      78,
+      "through open finding",
+      100
+    ],
+    [
+      79,
+      "through open receipt",
+      100
+    ],
+    [
+      80,
+      "under audit checked",
+      100
+    ],
+    [
+      81,
+      "under audit concluded",
+      100
+    ],
+    [
+      82,
+      "under audit open",
+      100
+    ],
+    [
+      83,
+      "under audit receipt",
+      100
+    ],
+    [
+      84,
+      "under bounded audit",
+      100
+    ],
+    [
+      85,
+      "under checked evidence",
+      100
+    ],
+    [
+      86,
+      "under concluded evidence",
+      100
+    ],
+    [
+      87,
+      "under current audit",
+      100
+    ],
+    [
+      88,
+      "under evidence clean",
+      100
+    ],
+    [
+      89,
+      "under evidence finding",
+      100
+    ],
+    [
+      90,
+      "under evidence missing",
+      100
+    ],
+    [
+      91,
+      "under finite audit",
+      100
+    ],
+    [
+      92,
+      "under live audit",
+      100
+    ],
+    [
+      93,
+      "under local audit",
+      100
+    ],
+    [
+      94,
+      "under open audit",
+      100
+    ],
+    [
+      95,
+      "under open clean",
+      100
+    ],
+    [
+      96,
+      "under open evidence",
+      100
+    ],
+    [
+      97,
+      "under open finding",
+      100
+    ],
+    [
+      98,
+      "under open receipt",
+      100
+    ],
+    [
+      99,
+      "under receipt checked",
+      100
+    ],
+    [
+      100,
+      "under receipt concluded",
+      100
+    ],
+    [
+      101,
+      "under receipt evidence",
+      100
+    ],
+    [
+      102,
+      "under receipt open",
+      100
+    ],
+    [
+      103,
+      "verify audit receipt",
+      100
+    ],
+    [
+      104,
+      "verify clean receipt",
+      100
+    ],
+    [
+      105,
+      "verify finding receipt",
+      100
+    ],
+    [
+      106,
+      "within audit checked",
+      100
+    ],
+    [
+      107,
+      "within audit concluded",
+      100
+    ],
+    [
+      108,
+      "within audit open",
+      100
+    ],
+    [
+      109,
+      "within audit receipt",
+      100
+    ],
+    [
+      110,
+      "within bounded audit",
+      100
+    ],
+    [
+      111,
+      "within checked evidence",
+      100
+    ],
+    [
+      112,
+      "within concluded evidence",
+      100
+    ],
+    [
+      113,
+      "within current audit",
+      100
+    ],
+    [
+      114,
+      "within evidence clean",
+      100
+    ],
+    [
+      115,
+      "within evidence finding",
+      100
+    ],
+    [
+      116,
+      "within evidence missing",
+      100
+    ],
+    [
+      117,
+      "within finite audit",
+      100
+    ],
+    [
+      118,
+      "within live audit",
+      100
+    ],
+    [
+      119,
+      "within local audit",
+      100
+    ],
+    [
+      120,
+      "within open audit",
+      100
+    ],
+    [
+      121,
+      "within open clean",
+      100
+    ],
+    [
+      122,
+      "within open evidence",
+      100
+    ],
+    [
+      123,
+      "within open finding",
+      100
+    ],
+    [
+      124,
+      "within open receipt",
+      100
+    ],
+    [
+      125,
+      "within receipt checked",
+      100
+    ],
+    [
+      126,
+      "within receipt concluded",
+      100
+    ],
+    [
+      127,
+      "within receipt evidence",
+      100
+    ],
+    [
+      128,
+      "within receipt open",
+      100
+    ],
+    [
+      129,
+      "across open missing",
+      99
+    ],
+    [
+      130,
+      "audit boundary path",
+      99
+    ]
+  ]
+}

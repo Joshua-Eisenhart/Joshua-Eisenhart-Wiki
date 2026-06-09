@@ -1,0 +1,425 @@
+---
+title: Mmm Voice Strategy Full V2 7
+created: 2026-04-28
+updated: 2026-04-28
+type: concept
+tags: [wizard, mmm, packet, receipt]
+framing: current
+source_path: mini_mmms/full/voices/md/MMM_VOICE_STRATEGY_FULL_v2_7.md
+---
+
+# MMM_VOICE_STRATEGY_FULL_v2_7
+
+## aligned nouns and phrases
+
+- center of gravity
+- decisive point
+- work path
+- means and ends
+- retreat condition
+- economy of force
+- strategic reserve
+- decisive front
+- drift condition
+- first move
+- return trigger
+- language body
+- strategy
+- campaign
+- sequence
+- priority
+- reinput
+- timing
+- front
+- decisive
+- retreat
+- hold
+- advance
+- defer
+- split
+- merge
+- tradeoff
+- objective
+- mission
+- position
+- terrain
+- initiative
+- commitment
+- scarce
+- drift
+- condition
+- return
+- reserve
+- line
+- effort
+- course
+- action
+- value
+- friction
+- uncertainty
+- role
+- order
+- cost
+- leverage
+- direction
+- route
+- staged
+- choice
+- outside
+- only
+- then
+- bounded
+- finite
+- open
+- distinct
+- concrete
+- observed
+- missing
+- small
+- honest
+- first
+- prior
+- separate
+- together
+- compared
+- measured
+- used
+- fit
+- viable
+- direct
+- different
+- alternate
+- branch
+- path
+- packet
+- artifact
+- receipt
+- trace
+- result
+- support
+- evidence
+- scope
+- boundary
+- gate
+- guard
+- rung
+- status
+- candidate
+- survivor
+- witness
+- probe
+- constraint
+- name
+- use
+- practice
+- experience
+- observation
+- perception
+- conjunction
+- resemblance
+- relation
+- probability
+- particular
+- predicate
+- class
+- model
+- solver
+- satisfiable
+- unsatisfiable
+- countermodel
+- counterexample
+- equivalence
+- indistinguishable
+- readout
+- measure
+- measurement
+- operation
+- procedure
+- instrument
+- experiment
+- check
+- verify
+- compare
+- sample
+- lane
+- voice
+- lens
+- council
+- audit
+- finding
+- blocker
+- deferred
+- blocked
+- spawned
+- diagnostic
+- untried
+- preload
+- language
+- body
+- during
+- since
+- toward
+- relative
+- according
+- locally
+- jointly
+- separately
+- rather
+- instead
+- still
+- often
+- sometimes
+- usually
+- seems
+- likely
+- possible
+- plausible
+- tentative
+- provisional
+- partial
+
+## correlated couplings
+
+- scarce center of gravity
+- campaign evidence
+- campaign support
+- campaign packet
+- campaign receipt
+- campaign trace
+- campaign result
+- campaign scope
+- campaign boundary
+- campaign witness
+- campaign probe
+- campaign constraint
+- compare campaign
+- measure campaign
+- hold campaign
+- preserve campaign
+- split campaign
+- narrow campaign
+- sequence evidence
+- sequence support
+- sequence packet
+- sequence receipt
+- sequence trace
+- sequence result
+- sequence scope
+- sequence boundary
+- sequence witness
+- sequence probe
+- sequence constraint
+- compare sequence
+- measure sequence
+- hold sequence
+- preserve sequence
+- split sequence
+- narrow sequence
+- front evidence
+- front support
+- front packet
+- front receipt
+- front trace
+- front result
+- front scope
+- front boundary
+- front witness
+- front probe
+- front constraint
+- compare front
+- measure front
+- hold front
+- preserve front
+- split front
+- narrow front
+- retreat evidence
+- retreat support
+- retreat packet
+- retreat receipt
+- retreat trace
+- retreat result
+- retreat scope
+- retreat boundary
+- retreat witness
+- retreat probe
+- retreat constraint
+- compare retreat
+- measure retreat
+- hold retreat
+- preserve retreat
+- split retreat
+- narrow retreat
+- hold evidence
+- hold support
+- hold packet
+- hold receipt
+- hold trace
+- hold result
+- hold scope
+- hold boundary
+- hold witness
+- hold probe
+- hold constraint
+- compare hold
+- measure hold
+- preserve hold
+- split hold
+- narrow hold
+- defer evidence
+- defer support
+- defer packet
+- defer receipt
+- defer trace
+- defer result
+- defer scope
+- defer boundary
+- defer witness
+- defer probe
+- defer constraint
+- compare defer
+- measure defer
+- hold defer
+- preserve defer
+- split defer
+- narrow defer
+- split evidence
+- split support
+- split packet
+- split receipt
+- split trace
+- split result
+- split scope
+- split boundary
+- split witness
+- split probe
+- split constraint
+- compare split
+- measure split
+- hold split
+- preserve split
+- narrow split
+- merge evidence
+- merge support
+- merge packet
+- merge receipt
+- merge trace
+- merge result
+- merge scope
+- merge boundary
+- merge witness
+- merge probe
+- merge constraint
+- compare merge
+- measure merge
+- hold merge
+- preserve merge
+- split merge
+- narrow merge
+- reinput evidence
+- reinput support
+- reinput packet
+- reinput receipt
+- reinput trace
+- reinput result
+- reinput scope
+- reinput boundary
+- reinput witness
+- reinput probe
+- reinput constraint
+- compare reinput
+- measure reinput
+- hold reinput
+- preserve reinput
+- split reinput
+- narrow reinput
+- scarce evidence
+- scarce support
+- scarce packet
+- scarce receipt
+- scarce trace
+- scarce result
+- scarce scope
+- scarce boundary
+
+## three-part cues
+
+- compare campaign receipt
+- measure campaign receipt
+- hold campaign receipt
+- preserve campaign receipt
+- compare sequence receipt
+- measure sequence receipt
+- hold sequence receipt
+- preserve sequence receipt
+- compare front receipt
+- measure front receipt
+- hold front receipt
+- preserve front receipt
+- compare retreat receipt
+- measure retreat receipt
+- hold retreat receipt
+- preserve retreat receipt
+- during strategy campaign
+- during strategy sequence
+- during strategy priority
+- during strategy reinput
+- during campaign sequence
+- during campaign priority
+- during campaign reinput
+- during campaign timing
+- during sequence priority
+- during sequence reinput
+- during sequence timing
+- during sequence front
+- during priority reinput
+- during priority timing
+- during priority front
+- during priority decisive
+- during reinput timing
+- during reinput front
+- during reinput decisive
+- during reinput retreat
+- during timing front
+- during timing decisive
+- during timing retreat
+- during timing hold
+- during front decisive
+- during front retreat
+- during front hold
+- during front advance
+- during decisive retreat
+- during decisive hold
+- during decisive advance
+- during decisive defer
+- during retreat hold
+- during retreat advance
+- during retreat defer
+- during retreat split
+- during hold advance
+- during hold defer
+- during hold split
+- during hold merge
+- during advance defer
+- during advance split
+- during advance merge
+- during advance tradeoff
+- during defer split
+- during defer merge
+- during defer tradeoff
+- during defer objective
+- during split merge
+- during split tradeoff
+- during split objective
+- during split mission
+- during merge tradeoff
+- during merge objective
+- during merge mission
+- during merge position
+- during tradeoff objective
+- during tradeoff mission
+- during tradeoff position
+- during tradeoff terrain
+- during objective mission
+- during objective position
+- during objective terrain
+- during objective initiative

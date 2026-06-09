@@ -1,0 +1,117 @@
+# MMM_LANE_ALTERNATIVE_ULTRA_v2_8
+
+## words
+
+- different assumption :: 100
+- tradeoff :: 100
+- option :: 100
+- second path :: 100
+- better if :: 100
+- worse if :: 100
+- alternative :: 100
+- fork :: 100
+- compare :: 100
+- route :: 100
+- alternate :: 100
+- viable :: 100
+- other :: 100
+- fallback :: 100
+- variant :: 100
+- parallel :: 100
+- divergent :: 100
+- backup :: 100
+- second :: 100
+- path :: 100
+- comparison :: 100
+- branch :: 100
+- different :: 100
+- assumption :: 100
+- contrast :: 100
+
+## couplings
+
+- compare tradeoff :: 100
+- compare route :: 100
+- different assumption :: 100
+- tradeoff :: 100
+- option :: 100
+- compare alternative :: 100
+- compare fork :: 100
+- compare viable :: 100
+- tradeoff evidence :: 100
+- tradeoff support :: 100
+- tradeoff path :: 100
+- tradeoff surface :: 100
+- tradeoff packet :: 100
+- tradeoff receipt :: 100
+- tradeoff trace :: 100
+- tradeoff result :: 100
+- tradeoff scope :: 100
+- tradeoff boundary :: 100
+- tradeoff status :: 100
+- tradeoff candidate :: 100
+- tradeoff witness :: 100
+- tradeoff probe :: 100
+- tradeoff constraint :: 100
+- check tradeoff :: 100
+- alternative tradeoff :: 100
+- observe tradeoff :: 100
+- measure tradeoff :: 100
+- test tradeoff :: 100
+- verify tradeoff :: 100
+- preserve tradeoff :: 100
+- narrow tradeoff :: 100
+- alternative option :: 100
+- route tradeoff :: 100
+- route option :: 100
+- where tradeoff :: 100
+- while tradeoff :: 100
+- second route :: 100
+- real fork :: 100
+- different tradeoff :: 100
+- viable alternative :: 100
+- alternative path :: 100
+- comparison route :: 100
+- fallback option :: 100
+- branch contrast :: 100
+- assumption shift :: 100
+- cost benefit :: 100
+- route comparison :: 100
+- other way :: 100
+
+## triplets
+
+- compare tradeoff receipt :: 100
+- compare alternative receipt :: 100
+- real fork tradeoff :: 100
+- second route comparison :: 100
+- alternative path viable :: 100
+- different assumption path :: 100
+- fallback option contrast :: 100
+- cost benefit tradeoff :: 100
+- parallel route check :: 100
+- branch comparison result :: 100
+- under alternative tradeoff :: 91
+- under route tradeoff :: 91
+- under fork tradeoff :: 90
+- under tradeoff option :: 90
+- under option compare :: 90
+- within alternative tradeoff :: 89
+- within route tradeoff :: 88
+- within fork tradeoff :: 88
+- within tradeoff option :: 88
+- within option compare :: 88
+- across alternative tradeoff :: 86
+- across route tradeoff :: 86
+- across fork tradeoff :: 86
+- across tradeoff option :: 86
+- across option compare :: 86
+- under alternate different assumption :: 85
+- under second path different assumption :: 85
+- under better if different assumption :: 85
+- within alternate different assumption :: 83
+- within second path different assumption :: 83
+- within better if different assumption :: 83
+- across alternate different assumption :: 81
+- across second path different assumption :: 81
+- across better if different assumption :: 81

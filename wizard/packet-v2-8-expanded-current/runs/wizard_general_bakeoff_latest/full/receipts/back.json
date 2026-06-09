@@ -1,0 +1,12 @@
+{
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/mmm_wizard_complete_system_packet_v2_8_expanded_candidate",
+  "checked": "loaded mini_mmms/full/lanes/md/MMM_LANE_BACK_FULL_v2_8.md",
+  "concluded": "Return route: keep the packet-level audit menu reachable without treating it as execution evidence.",
+  "evidence": "mini_mmms/full/lanes/md/MMM_LANE_BACK_FULL_v2_8.md terms: back :: 100, return :: 100, prior :: 100, surface :: 100, previous :: 100, choice :: 100, resume :: 100, undo :: 100",
+  "generated_at": "2026-04-28T22:36:04.253131+00:00",
+  "lane": "Back",
+  "open": "live proof pending",
+  "output_excerpt": "Task: Compare Wizard General sizes and choose the best local runtime surface.\nWizard General size: full\nWave 8: Follow-up Run/Scout Wave\nReturn route: keep the packet-level audit menu reachable without treating it as execution evidence.\nLoaded language body terms: back :: 100, return :: 100, prior :: 100, surface :: 100, previous :: 100, choice :: 100, resume :: 100, undo :: 100",
+  "output_sha256": "161dd888b0dd6c6b48b5252f4a639e7e74729b2f22e4ff01b81de9f67d1bc2b7",
+  "schema_version": "wizard_behavior_harness.v1"
+}

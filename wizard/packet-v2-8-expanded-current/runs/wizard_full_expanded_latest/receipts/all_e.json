@@ -1,0 +1,12 @@
+{
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/mmm_wizard_complete_system_packet_v2_8_expanded_candidate",
+  "checked": "loaded mini_mmms/full/compositions/md/MMM_LANE_ALL_E_HYGIENE_FULL_v2_8.md",
+  "concluded": "All-E composition: close the answer cleanly by combining Direct, Hygiene, Security, Factory, Audit, and Council without turning the answer into a report.",
+  "evidence": "mini_mmms/full/compositions/md/MMM_LANE_ALL_E_HYGIENE_FULL_v2_8.md terms: hygiene :: 100, orwell :: 99, readable :: 98, section :: 97, duplicate :: 96, compact :: 95, surface :: 94, direct :: 93",
+  "generated_at": "2026-04-29T00:15:50.230177+00:00",
+  "lane": "All-E",
+  "open": "live proof pending",
+  "output_excerpt": "Task: Run the full Wizard after repairing output shape, full-MMM boot, guide size, voice mini-MMM loading proof, behavior load proof, and noun reservoir expansion.\nWizard General size: full\nWave 9: Follow-up Audit/Improve Wave\nAll-E composition: close the answer cleanly by combining Direct, Hygiene, Security, Factory, Audit, and Council without turning the answer into a report.\nLoaded language body terms: hygiene :: 100, orwell :: 99, readable :: 98, section :: 97, duplicate :: 96, compact :: 95, surface :: 94, direct :: 93",
+  "output_sha256": "176e0df6ffacb68a526612fe7d1e2000d6cc1ab594d3aec8fa64458fd7d6c678",
+  "schema_version": "wizard_behavior_harness.v1"
+}

@@ -1,0 +1,1404 @@
+{
+  "words": [
+    [
+      1,
+      "back",
+      100
+    ],
+    [
+      2,
+      "resume",
+      100
+    ],
+    [
+      3,
+      "navigation",
+      100
+    ],
+    [
+      4,
+      "previous surface",
+      100
+    ],
+    [
+      5,
+      "return",
+      100
+    ],
+    [
+      6,
+      "previous",
+      100
+    ],
+    [
+      7,
+      "undo",
+      100
+    ],
+    [
+      8,
+      "restore",
+      100
+    ],
+    [
+      9,
+      "prior branch",
+      100
+    ],
+    [
+      10,
+      "branch context",
+      100
+    ],
+    [
+      11,
+      "no branch",
+      100
+    ],
+    [
+      12,
+      "target",
+      100
+    ],
+    [
+      13,
+      "returned",
+      100
+    ],
+    [
+      14,
+      "earlier",
+      100
+    ],
+    [
+      15,
+      "revisit",
+      100
+    ],
+    [
+      16,
+      "choice",
+      100
+    ],
+    [
+      17,
+      "frame",
+      100
+    ],
+    [
+      18,
+      "interactive",
+      100
+    ],
+    [
+      19,
+      "decision",
+      100
+    ],
+    [
+      20,
+      "context",
+      100
+    ],
+    [
+      21,
+      "prior",
+      100
+    ],
+    [
+      22,
+      "surface",
+      100
+    ],
+    [
+      23,
+      "route",
+      100
+    ],
+    [
+      24,
+      "branch",
+      100
+    ],
+    [
+      25,
+      "path",
+      100
+    ],
+    [
+      26,
+      "actual",
+      100
+    ],
+    [
+      27,
+      "concrete",
+      100
+    ],
+    [
+      28,
+      "distinct",
+      100
+    ],
+    [
+      29,
+      "live",
+      100
+    ],
+    [
+      30,
+      "plain",
+      100
+    ],
+    [
+      31,
+      "observed",
+      100
+    ],
+    [
+      32,
+      "inferred",
+      100
+    ],
+    [
+      33,
+      "known",
+      100
+    ],
+    [
+      34,
+      "unknown",
+      100
+    ],
+    [
+      35,
+      "narrow",
+      100
+    ],
+    [
+      36,
+      "stale",
+      100
+    ],
+    [
+      37,
+      "warm",
+      100
+    ],
+    [
+      38,
+      "careful",
+      100
+    ],
+    [
+      39,
+      "checked",
+      100
+    ],
+    [
+      40,
+      "next",
+      100
+    ],
+    [
+      41,
+      "honest",
+      100
+    ],
+    [
+      42,
+      "later",
+      100
+    ],
+    [
+      43,
+      "first",
+      100
+    ],
+    [
+      44,
+      "separate",
+      100
+    ],
+    [
+      45,
+      "held",
+      100
+    ],
+    [
+      46,
+      "apart",
+      100
+    ],
+    [
+      47,
+      "found",
+      100
+    ],
+    [
+      48,
+      "compared",
+      100
+    ],
+    [
+      49,
+      "named",
+      100
+    ],
+    [
+      50,
+      "used",
+      100
+    ],
+    [
+      51,
+      "fit",
+      100
+    ],
+    [
+      52,
+      "last",
+      100
+    ],
+    [
+      53,
+      "small",
+      79
+    ],
+    [
+      54,
+      "rollback",
+      98
+    ]
+  ],
+  "couplings": [
+    [
+      1,
+      "previous surface",
+      100
+    ],
+    [
+      2,
+      "back evidence",
+      100
+    ],
+    [
+      3,
+      "back support",
+      100
+    ],
+    [
+      4,
+      "back path",
+      100
+    ],
+    [
+      5,
+      "back surface",
+      100
+    ],
+    [
+      6,
+      "back packet",
+      100
+    ],
+    [
+      7,
+      "back receipt",
+      100
+    ],
+    [
+      8,
+      "back trace",
+      100
+    ],
+    [
+      9,
+      "back result",
+      100
+    ],
+    [
+      10,
+      "back scope",
+      100
+    ],
+    [
+      11,
+      "back boundary",
+      100
+    ],
+    [
+      12,
+      "back status",
+      100
+    ],
+    [
+      13,
+      "back candidate",
+      100
+    ],
+    [
+      14,
+      "back witness",
+      100
+    ],
+    [
+      15,
+      "back probe",
+      100
+    ],
+    [
+      16,
+      "back constraint",
+      100
+    ],
+    [
+      17,
+      "check back",
+      100
+    ],
+    [
+      18,
+      "compare back",
+      100
+    ],
+    [
+      19,
+      "observe back",
+      100
+    ],
+    [
+      20,
+      "measure back",
+      100
+    ],
+    [
+      21,
+      "test back",
+      100
+    ],
+    [
+      22,
+      "verify back",
+      100
+    ],
+    [
+      23,
+      "hold back",
+      100
+    ],
+    [
+      24,
+      "preserve back",
+      100
+    ],
+    [
+      25,
+      "split back",
+      100
+    ],
+    [
+      26,
+      "narrow back",
+      100
+    ],
+    [
+      27,
+      "under back",
+      100
+    ],
+    [
+      28,
+      "within back",
+      100
+    ],
+    [
+      29,
+      "across back",
+      100
+    ],
+    [
+      30,
+      "between back",
+      100
+    ],
+    [
+      31,
+      "through back",
+      100
+    ],
+    [
+      32,
+      "before back",
+      100
+    ],
+    [
+      33,
+      "after back",
+      100
+    ],
+    [
+      34,
+      "until back",
+      100
+    ],
+    [
+      35,
+      "where back",
+      100
+    ],
+    [
+      36,
+      "while back",
+      100
+    ],
+    [
+      37,
+      "back return",
+      100
+    ],
+    [
+      38,
+      "back previous",
+      100
+    ],
+    [
+      39,
+      "back resume",
+      100
+    ],
+    [
+      40,
+      "back undo",
+      100
+    ],
+    [
+      41,
+      "return previous",
+      100
+    ],
+    [
+      42,
+      "return resume",
+      100
+    ],
+    [
+      43,
+      "return undo",
+      100
+    ],
+    [
+      44,
+      "previous resume",
+      100
+    ],
+    [
+      45,
+      "resume undo",
+      100
+    ],
+    [
+      46,
+      "resume restore",
+      100
+    ],
+    [
+      47,
+      "resume prior branch",
+      100
+    ],
+    [
+      48,
+      "resume previous surface",
+      100
+    ],
+    [
+      49,
+      "undo previous surface",
+      100
+    ],
+    [
+      50,
+      "restore previous surface",
+      100
+    ],
+    [
+      51,
+      "restore navigation",
+      100
+    ],
+    [
+      52,
+      "prior branch previous surface",
+      100
+    ],
+    [
+      53,
+      "prior branch navigation",
+      100
+    ],
+    [
+      54,
+      "previous surface target",
+      100
+    ],
+    [
+      55,
+      "previous surface navigation",
+      100
+    ],
+    [
+      56,
+      "previous surface branch context",
+      100
+    ],
+    [
+      57,
+      "target navigation",
+      100
+    ],
+    [
+      58,
+      "navigation branch context",
+      100
+    ],
+    [
+      59,
+      "previous surface no branch",
+      100
+    ],
+    [
+      60,
+      "return evidence",
+      100
+    ],
+    [
+      61,
+      "return support",
+      100
+    ],
+    [
+      62,
+      "return path",
+      100
+    ],
+    [
+      63,
+      "return surface",
+      100
+    ],
+    [
+      64,
+      "return packet",
+      100
+    ],
+    [
+      65,
+      "prior surface",
+      100
+    ],
+    [
+      66,
+      "previous context",
+      100
+    ],
+    [
+      67,
+      "navigation no branch",
+      100
+    ],
+    [
+      68,
+      "return receipt",
+      100
+    ],
+    [
+      69,
+      "return trace",
+      100
+    ],
+    [
+      70,
+      "return result",
+      100
+    ],
+    [
+      71,
+      "return scope",
+      100
+    ],
+    [
+      72,
+      "return boundary",
+      100
+    ],
+    [
+      73,
+      "return status",
+      100
+    ],
+    [
+      74,
+      "return candidate",
+      100
+    ],
+    [
+      75,
+      "return witness",
+      100
+    ],
+    [
+      76,
+      "return probe",
+      100
+    ],
+    [
+      77,
+      "return constraint",
+      100
+    ],
+    [
+      78,
+      "check return",
+      100
+    ],
+    [
+      79,
+      "compare return",
+      100
+    ],
+    [
+      80,
+      "observe return",
+      100
+    ],
+    [
+      81,
+      "measure return",
+      100
+    ],
+    [
+      82,
+      "test return",
+      100
+    ],
+    [
+      83,
+      "verify return",
+      100
+    ],
+    [
+      84,
+      "hold return",
+      100
+    ],
+    [
+      85,
+      "preserve return",
+      100
+    ],
+    [
+      86,
+      "split return",
+      100
+    ],
+    [
+      87,
+      "narrow return",
+      100
+    ],
+    [
+      88,
+      "where return",
+      100
+    ],
+    [
+      89,
+      "while return",
+      100
+    ],
+    [
+      90,
+      "resume evidence",
+      100
+    ],
+    [
+      91,
+      "resume support",
+      100
+    ],
+    [
+      92,
+      "resume path",
+      100
+    ],
+    [
+      93,
+      "resume surface",
+      100
+    ],
+    [
+      94,
+      "resume packet",
+      100
+    ],
+    [
+      95,
+      "resume receipt",
+      100
+    ],
+    [
+      96,
+      "resume trace",
+      100
+    ],
+    [
+      97,
+      "resume result",
+      100
+    ],
+    [
+      98,
+      "resume scope",
+      100
+    ],
+    [
+      99,
+      "resume boundary",
+      100
+    ],
+    [
+      100,
+      "resume status",
+      100
+    ],
+    [
+      101,
+      "resume candidate",
+      100
+    ],
+    [
+      102,
+      "resume witness",
+      100
+    ],
+    [
+      103,
+      "resume probe",
+      100
+    ],
+    [
+      104,
+      "resume constraint",
+      100
+    ],
+    [
+      105,
+      "check resume",
+      100
+    ],
+    [
+      106,
+      "compare resume",
+      100
+    ],
+    [
+      107,
+      "observe resume",
+      100
+    ],
+    [
+      108,
+      "measure resume",
+      100
+    ],
+    [
+      109,
+      "test resume",
+      100
+    ],
+    [
+      110,
+      "verify resume",
+      100
+    ],
+    [
+      111,
+      "hold resume",
+      100
+    ],
+    [
+      112,
+      "preserve resume",
+      100
+    ],
+    [
+      113,
+      "split resume",
+      100
+    ],
+    [
+      114,
+      "narrow resume",
+      100
+    ],
+    [
+      115,
+      "under resume",
+      100
+    ],
+    [
+      116,
+      "within resume",
+      100
+    ],
+    [
+      117,
+      "across resume",
+      100
+    ],
+    [
+      118,
+      "between resume",
+      100
+    ],
+    [
+      119,
+      "through resume",
+      100
+    ],
+    [
+      120,
+      "before resume",
+      100
+    ],
+    [
+      121,
+      "back navigation",
+      100
+    ],
+    [
+      122,
+      "last choice",
+      100
+    ],
+    [
+      123,
+      "previous branch",
+      100
+    ],
+    [
+      124,
+      "prior decision",
+      100
+    ],
+    [
+      125,
+      "restore thread",
+      100
+    ],
+    [
+      126,
+      "resume context",
+      100
+    ],
+    [
+      127,
+      "return point",
+      100
+    ],
+    [
+      128,
+      "rollback point",
+      97
+    ],
+    [
+      129,
+      "restore branch",
+      97
+    ]
+  ],
+  "triplets": [
+    [
+      1,
+      "back evidence path",
+      100
+    ],
+    [
+      2,
+      "back support path",
+      100
+    ],
+    [
+      3,
+      "back path path",
+      100
+    ],
+    [
+      4,
+      "back surface path",
+      100
+    ],
+    [
+      5,
+      "under open back",
+      100
+    ],
+    [
+      6,
+      "locally previous surface target",
+      100
+    ],
+    [
+      7,
+      "locally previous surface navigation",
+      100
+    ],
+    [
+      8,
+      "locally previous surface branch context",
+      100
+    ],
+    [
+      9,
+      "under live back",
+      100
+    ],
+    [
+      10,
+      "within open back",
+      100
+    ],
+    [
+      11,
+      "within live back",
+      100
+    ],
+    [
+      12,
+      "across open back",
+      100
+    ],
+    [
+      13,
+      "across live back",
+      100
+    ],
+    [
+      14,
+      "back packet path",
+      100
+    ],
+    [
+      15,
+      "after resume prior branch",
+      100
+    ],
+    [
+      16,
+      "after resume previous surface",
+      100
+    ],
+    [
+      17,
+      "from undo previous surface",
+      100
+    ],
+    [
+      18,
+      "back receipt path",
+      100
+    ],
+    [
+      19,
+      "back trace path",
+      100
+    ],
+    [
+      20,
+      "back result path",
+      100
+    ],
+    [
+      21,
+      "back scope path",
+      100
+    ],
+    [
+      22,
+      "back boundary path",
+      100
+    ],
+    [
+      23,
+      "check back receipt",
+      100
+    ],
+    [
+      24,
+      "compare back receipt",
+      100
+    ],
+    [
+      25,
+      "observe back receipt",
+      100
+    ],
+    [
+      26,
+      "measure back receipt",
+      100
+    ],
+    [
+      27,
+      "test back receipt",
+      100
+    ],
+    [
+      28,
+      "verify back receipt",
+      100
+    ],
+    [
+      29,
+      "hold back receipt",
+      100
+    ],
+    [
+      30,
+      "preserve back receipt",
+      100
+    ],
+    [
+      31,
+      "between open back",
+      100
+    ],
+    [
+      32,
+      "with restore previous surface",
+      100
+    ],
+    [
+      33,
+      "between live back",
+      100
+    ],
+    [
+      34,
+      "through open back",
+      100
+    ],
+    [
+      35,
+      "through live back",
+      100
+    ],
+    [
+      36,
+      "before open back",
+      100
+    ],
+    [
+      37,
+      "before live back",
+      100
+    ],
+    [
+      38,
+      "relative prior branch previous surface",
+      100
+    ],
+    [
+      39,
+      "relative prior branch navigation",
+      100
+    ],
+    [
+      40,
+      "locally previous surface no branch",
+      100
+    ],
+    [
+      41,
+      "instead navigation branch context",
+      100
+    ],
+    [
+      42,
+      "instead navigation no branch",
+      100
+    ],
+    [
+      43,
+      "previous surface path",
+      100
+    ],
+    [
+      44,
+      "return evidence path",
+      100
+    ],
+    [
+      45,
+      "return support path",
+      100
+    ],
+    [
+      46,
+      "under live return",
+      100
+    ],
+    [
+      47,
+      "back navigation choice",
+      100
+    ],
+    [
+      48,
+      "previous branch resume",
+      100
+    ],
+    [
+      49,
+      "restore context thread",
+      100
+    ],
+    [
+      50,
+      "return prior surface",
+      100
+    ],
+    [
+      51,
+      "under open return",
+      99
+    ],
+    [
+      52,
+      "under back return",
+      97
+    ],
+    [
+      53,
+      "under back previous",
+      97
+    ],
+    [
+      54,
+      "under back resume",
+      97
+    ],
+    [
+      55,
+      "under back undo",
+      97
+    ],
+    [
+      56,
+      "within return previous",
+      97
+    ],
+    [
+      57,
+      "within return resume",
+      97
+    ],
+    [
+      58,
+      "within return undo",
+      97
+    ],
+    [
+      59,
+      "through previous resume",
+      96
+    ],
+    [
+      60,
+      "after resume undo",
+      96
+    ],
+    [
+      61,
+      "after resume restore",
+      96
+    ],
+    [
+      62,
+      "with restore navigation",
+      95
+    ],
+    [
+      63,
+      "rather target navigation",
+      94
+    ],
+    [
+      64,
+      "under current back",
+      86
+    ],
+    [
+      65,
+      "under local back",
+      86
+    ],
+    [
+      66,
+      "under bounded back",
+      86
+    ],
+    [
+      67,
+      "under finite back",
+      86
+    ],
+    [
+      68,
+      "within current back",
+      86
+    ],
+    [
+      69,
+      "within local back",
+      86
+    ],
+    [
+      70,
+      "within bounded back",
+      86
+    ],
+    [
+      71,
+      "within finite back",
+      86
+    ],
+    [
+      72,
+      "across current back",
+      86
+    ],
+    [
+      73,
+      "across local back",
+      86
+    ],
+    [
+      74,
+      "across bounded back",
+      86
+    ],
+    [
+      75,
+      "across finite back",
+      86
+    ],
+    [
+      76,
+      "between current back",
+      86
+    ],
+    [
+      77,
+      "between local back",
+      86
+    ],
+    [
+      78,
+      "between bounded back",
+      85
+    ],
+    [
+      79,
+      "between finite back",
+      85
+    ],
+    [
+      80,
+      "through current back",
+      85
+    ],
+    [
+      81,
+      "through local back",
+      85
+    ],
+    [
+      82,
+      "through bounded back",
+      85
+    ],
+    [
+      83,
+      "through finite back",
+      85
+    ],
+    [
+      84,
+      "before current back",
+      85
+    ],
+    [
+      85,
+      "before local back",
+      85
+    ],
+    [
+      86,
+      "before bounded back",
+      85
+    ],
+    [
+      87,
+      "before finite back",
+      85
+    ],
+    [
+      88,
+      "under current return",
+      81
+    ],
+    [
+      89,
+      "under local return",
+      81
+    ],
+    [
+      90,
+      "under bounded return",
+      81
+    ],
+    [
+      91,
+      "under finite return",
+      81
+    ],
+    [
+      92,
+      "within current return",
+      81
+    ],
+    [
+      93,
+      "within local return",
+      81
+    ],
+    [
+      94,
+      "within bounded return",
+      81
+    ],
+    [
+      95,
+      "return restore revisit",
+      96
+    ]
+  ],
+  "v3_3_salience_expansion": {
+    "source": "deep-research-report.md",
+    "status": "positive salience only; not negative/reference boot",
+    "route": "BACK",
+    "size": "compact"
+  }
+}

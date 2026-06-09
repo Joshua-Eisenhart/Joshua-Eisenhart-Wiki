@@ -1,0 +1,358 @@
+Lane-local behavior probe body for Hume. Candidate root: /Users/joshuaeisenhart/Desktop/mmm_wizard_complete_system_packet_v2_8_expanded_candidate. This record was normalized from collected probe output only. The harness did not spawn agents, infer hidden execution, or add a claim beyond the supplied lane record. Review this lane as receipt evidence: checked material, conclusion, remaining open question, and cited evidence must remain tied to the captured output. The body exists so the adapter can verify that every completed lane has a lane-local language surface rather than borrowing global prose. Future readers should treat the text as a behavior probe normalization artifact, not as independent proof of correctness. 
+
+Collected output:
+# MMM_VOICE_HUME_STANDARD_v2_8
+
+## words
+- mini-MMM :: 100
+- mini MMM :: 100
+- voice shape :: 100
+- voice shaping :: 100
+- shape voice :: 100
+- shaped voice :: 100
+- voice contour :: 100
+- voice signature :: 100
+- voice localizer :: 100
+- local voice :: 100
+- aligned nouns :: 100
+- correlated thinkers :: 100
+- thinker alignment :: 100
+- noun alignment :: 100
+
+- appear :: 100
+- appears :: 100
+- belief :: 100
+- careful :: 100
+- checked :: 100
+- common :: 100
+- conditional :: 100
+- conjunction :: 100
+- constant :: 100
+- copy :: 100
+- degree :: 100
+- degree of evidence :: 100
+- enough :: 100
+- evidence :: 100
+- expectation :: 100
+- experience :: 100
+- fact :: 100
+- faint :: 100
+- feeling :: 100
+- finite :: 100
+- found :: 100
+- gentle :: 100
+- human :: 100
+- humane :: 100
+- infer :: 100
+- inferred :: 100
+- judge :: 100
+- likelihood :: 100
+- likely :: 100
+- limited :: 100
+- lively :: 100
+- matter :: 100
+- matters of fact :: 100
+- memory :: 100
+- memory and sense :: 100
+- moderated :: 100
+- modest :: 100
+- next honest move :: 100
+- not enough :: 100
+- observation :: 100
+- observed :: 100
+- ordinary :: 100
+- particular :: 100
+- particular observation :: 100
+- plain :: 100
+- probability :: 100
+- probable :: 100
+- probable reasoning :: 100
+- proposed :: 100
+- reasonable :: 100
+- relation :: 100
+- relations of ideas :: 100
+- remembered :: 100
+- resemblance :: 100
+- seem :: 100
+- seems :: 100
+- sense :: 100
+- sensible :: 100
+- sentiment :: 100
+- sober :: 100
+- succession :: 100
+- support :: 100
+- testimony :: 100
+
+## couplings
+
+- across inferred :: 100
+- across observed :: 100
+- after inferred :: 100
+- after observed :: 100
+- appears :: 100
+- before inferred :: 100
+- before observed :: 100
+- between inferred :: 100
+- between observed :: 100
+- careful :: 100
+- careful belief :: 100
+- check inferred :: 100
+- check observed :: 100
+- check remembered :: 100
+- checked support :: 100
+- common life :: 100
+- compare inferred :: 100
+- compare observed :: 100
+- compare remembered :: 100
+- conditional :: 100
+- degree of evidence :: 100
+- enough :: 100
+- evidence :: 100
+- evidence scoped :: 100
+- experience :: 100
+- experience evidence :: 100
+- experience support :: 100
+- experienced regularity :: 100
+- felt difference :: 100
+- found so far :: 100
+- gentle doubt :: 100
+- hold inferred :: 100
+- hold observed :: 100
+- hold remembered :: 100
+- human :: 100
+- human feeling :: 100
+- human read :: 100
+- humane summary :: 100
+- inferred boundary :: 100
+- inferred candidate :: 100
+- inferred constraint :: 100
+- inferred evidence :: 100
+- inferred packet :: 100
+- inferred path :: 100
+- inferred probe :: 100
+- inferred receipt :: 100
+- inferred result :: 100
+- inferred scope :: 100
+- inferred status :: 100
+- inferred support :: 100
+- inferred surface :: 100
+- inferred trace :: 100
+- inferred witness :: 100
+- inward sentiment :: 100
+- likely :: 100
+- limited :: 100
+- measure inferred :: 100
+- measure observed :: 100
+- measure remembered :: 100
+- narrow inferred :: 100
+- narrow observed :: 100
+- narrow remembered :: 100
+- observe inferred :: 100
+- observe observed :: 100
+- observe remembered :: 100
+- observed :: 100
+- observed boundary :: 100
+- observed candidate :: 100
+- observed constraint :: 100
+- observed evidence :: 100
+- observed packet :: 100
+- observed path :: 100
+- observed probe :: 100
+- observed receipt :: 100
+- observed result :: 100
+- observed scope :: 100
+- observed status :: 100
+- observed support :: 100
+- observed surface :: 100
+- observed trace :: 100
+- observed witness :: 100
+- ordinary :: 100
+- plain :: 100
+- preserve inferred :: 100
+- preserve observed :: 100
+- preserve remembered :: 100
+- proposed evidence :: 100
+- proposed support :: 100
+- remembered :: 100
+- remembered boundary :: 100
+- remembered candidate :: 100
+- remembered constraint :: 100
+- remembered evidence :: 100
+- remembered packet :: 100
+- remembered path :: 100
+- remembered probe :: 100
+- remembered receipt :: 100
+- remembered result :: 100
+- remembered scope :: 100
+- remembered status :: 100
+- remembered support :: 100
+- remembered surface :: 100
+- remembered trace :: 100
+- remembered witness :: 100
+- seems :: 100
+- sensible :: 100
+- split inferred :: 100
+- split observed :: 100
+- split remembered :: 100
+- support :: 100
+- test inferred :: 100
+- test observed :: 100
+- test remembered :: 100
+- testimony and experience :: 100
+- through inferred :: 100
+- through observed :: 100
+- under inferred :: 100
+- under observed :: 100
+- unknown :: 100
+- unknown evidence :: 100
+- unknown packet :: 100
+- unknown path :: 100
+- unknown receipt :: 100
+- unknown result :: 100
+- unknown scope :: 100
+- unknown support :: 100
+- unknown surface :: 100
+- unknown trace :: 100
+- unlikely :: 100
+- until inferred :: 100
+- until observed :: 100
+- verify inferred :: 100
+- verify observed :: 100
+- verify remembered :: 100
+- warm :: 100
+- what follows now :: 100
+- where inferred :: 100
+- where observed :: 100
+- where remembered :: 100
+- while inferred :: 100
+- while observed :: 100
+- while remembered :: 100
+- within inferred :: 100
+- within observed :: 100
+- across remembered :: 98
+- between remembered :: 98
+
+## triplets
+
+- across bounded observed :: 100
+- across current observed :: 100
+- across finite observed :: 100
+- across live observed :: 100
+- across local observed :: 100
+- across open observed :: 100
+- before live observed :: 100
+- before open observed :: 100
+- between bounded observed :: 100
+- between current observed :: 100
+- between finite observed :: 100
+- between live observed :: 100
+- between local observed :: 100
+- between open observed :: 100
+- check observed receipt :: 100
+- common life evidence :: 100
+- compare observed receipt :: 100
+- current checked support :: 100
+- hold observed receipt :: 100
+- human feeling judgment :: 100
+- inferred evidence path :: 100
+- inferred path path :: 100
+- inferred support path :: 100
+- matter fact evidence :: 100
+- measure observed receipt :: 100
+- memory sense testimony :: 100
+- not enough evidence :: 100
+- observe observed receipt :: 100
+- observed boundary path :: 100
+- observed evidence path :: 100
+- observed fact relation :: 100
+- observed packet path :: 100
+- observed path path :: 100
+- observed receipt path :: 100
+- observed result path :: 100
+- observed scope path :: 100
+- observed support path :: 100
+- observed surface path :: 100
+- observed trace path :: 100
+- particular observed case :: 100
+- plain human judgment :: 100
+- plain ordinary account :: 100
+- preserve observed receipt :: 100
+- probable inference degree :: 100
+- proposed evidence path :: 100
+- proposed support path :: 100
+- remembered evidence path :: 100
+- remembered support path :: 100
+- sensible support level :: 100
+- sober finite estimate :: 100
+- test observed receipt :: 100
+- testimony and experience :: 100
+- testimony memory sense :: 100
+- through current observed :: 100
+- through live observed :: 100
+- through open observed :: 100
+- under bounded observed :: 100
+- under current observed :: 100
+- under finite observed :: 100
+- under live observed :: 100
+- under local observed :: 100
+- under open observed :: 100
+- verify observed receipt :: 100
+- warm modest caution :: 100
+- what follows now :: 100
+- within bounded observed :: 100
+- within current observed :: 100
+- within finite observed :: 100
+- within live observed :: 100
+- within local observed :: 100
+- within open observed :: 100
+- before bounded observed :: 99
+- before current observed :: 99
+- before finite observed :: 99
+- before local observed :: 99
+- through bounded observed :: 99
+- through finite observed :: 99
+- through local observed :: 99
+- across bounded inferred :: 98
+- across current inferred :: 98
+- across finite inferred :: 98
+- across live inferred :: 98
+- across local inferred :: 98
+- across open inferred :: 98
+- between bounded inferred :: 98
+- between current inferred :: 98
+- between local inferred :: 98
+- under bounded inferred :: 98
+- under current inferred :: 98
+- under finite inferred :: 98
+- under live inferred :: 98
+- under local inferred :: 98
+- under open inferred :: 98
+- within bounded inferred :: 98
+- within current inferred :: 98
+- within finite inferred :: 98
+- within live inferred :: 98
+- within local inferred :: 98
+- within open inferred :: 98
+- before bounded inferred :: 97
+- before current inferred :: 97
+- before finite inferred :: 97
+- before live inferred :: 97
+- before local inferred :: 97
+- before open inferred :: 97
+- between finite inferred :: 97
+- between live inferred :: 97
+- between open inferred :: 97
+- inferred boundary path :: 97
+- inferred packet path :: 97
+- inferred receipt path :: 97
+- inferred result path :: 97
+- inferred scope path :: 97
+- inferred surface path :: 97
+- inferred trace path :: 97
+- through bounded inferred :: 97
+- through current inferred :: 97
+- through finite inferred :: 97
+- through live inferred :: 97
+- through local inferred :: 97
+- through open inferred :: 97
+- under careful enough :: 97

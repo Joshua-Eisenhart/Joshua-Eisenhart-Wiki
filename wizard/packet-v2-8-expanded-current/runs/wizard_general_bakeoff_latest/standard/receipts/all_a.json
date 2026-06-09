@@ -1,0 +1,12 @@
+{
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/mmm_wizard_complete_system_packet_v2_8_expanded_candidate",
+  "checked": "loaded mini_mmms/standard/compositions/md/MMM_LANE_ALL_A_STANDARD_v2_8.md",
+  "concluded": "All-A compilation: deterministic repair checks for taxonomy, schema, boot text, validators, and packaging.",
+  "evidence": "mini_mmms/standard/compositions/md/MMM_LANE_ALL_A_STANDARD_v2_8.md terms: advance :: 100, adversarial :: 100, alive :: 100, alternative route :: 100, audit :: 100, audit result :: 100, bounded :: 100, bundle :: 100",
+  "generated_at": "2026-04-28T22:36:04.218294+00:00",
+  "lane": "All-A",
+  "open": "live proof pending",
+  "output_excerpt": "Task: Compare Wizard General sizes and choose the best local runtime surface.\nWizard General size: standard\nWave 7: Follow-up Make Wave\nAll-A compilation: deterministic repair checks for taxonomy, schema, boot text, validators, and packaging.\nLoaded language body terms: advance :: 100, adversarial :: 100, alive :: 100, alternative route :: 100, audit :: 100, audit result :: 100, bounded :: 100, bundle :: 100",
+  "output_sha256": "4767055fc5924bb834e3c59042a5be1681847b5b5eff4660e918ea940a8d684c",
+  "schema_version": "wizard_behavior_harness.v1"
+}

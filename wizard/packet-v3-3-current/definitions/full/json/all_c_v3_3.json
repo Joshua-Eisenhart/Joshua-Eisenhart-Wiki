@@ -1,0 +1,66 @@
+{
+  "id": "ALL_C",
+  "name": "All-C",
+  "emoji": "🧹",
+  "category": "compositions",
+  "scale": "composition",
+  "purpose": "Close only when evidence, wording, hygiene, security, and flow are acceptable.",
+  "unique_job": "Direct -> Orwell -> Hygiene -> Security -> Factory -> Audit",
+  "non_job": "Do not become decorative or unreceipted.",
+  "inputs": "candidate artifact, output draft, package/mirror target, validation reports",
+  "outputs": "Final bounded move, concrete wording, readability/structure check, control-law/security check, bottleneck/handoff check, closeout receipt.",
+  "subagent_contract": "Composition requires member route receipts or blocked/deferred truth, then an integrated composition receipt. It normally appears in audited Follow-up, not as a body catalog.",
+  "receipt_requirement": "Visible route status must be exactly spawned, blocked, or deferred. Spawned receipts name unit_id, unit_type, wave, mini-MMM loaded path, task card, checked, concluded, open, evidence, and artifact/output. Blocked/deferred receipts name reason and condition_to_run.",
+  "collapse_signs": "Composition becomes a decorative route list without integrated tension, receipts, and selection condition.",
+  "nearest_neighbors": [
+    "Direct",
+    "Orwell",
+    "Security"
+  ],
+  "salience_drivers": {
+    "full_top_words": [
+      "closeout",
+      "hygiene",
+      "security",
+      "factory",
+      "audit",
+      "done",
+      "condition",
+      "cleanup",
+      "bundle",
+      "safe",
+      "close",
+      "landed",
+      "artifact",
+      "done condition"
+    ],
+    "compact_top_words": [
+      "done condition",
+      "closeout",
+      "plain wording",
+      "stale surface",
+      "evidence missing",
+      "audit overclaim",
+      "trust boundary",
+      "bottleneck"
+    ],
+    "deep_research_positive_words": [
+      "final bounded move",
+      "concrete wording",
+      "readability check",
+      "security check",
+      "handoff check"
+    ],
+    "deep_research_couplings": [
+      "closeout hygiene",
+      "control-law security",
+      "bottleneck handoff"
+    ],
+    "deep_research_triplets": [
+      "wording hygiene security"
+    ]
+  },
+  "people_schools_systems_methods": "Closeout bundle: action, wording, hygiene, security, factory bottleneck, audit.",
+  "math_operator_geometry_associations": "Closeout composition over Direct, Orwell, Hygiene, Security, Factory, Audit.",
+  "legacy_mined_notes": "All-C is the closeout and shipping hygiene bundle. Direct lands the artifact, Orwell makes the answer readable, Hygiene removes duplicate/compact structure, Security checks boot and runtime boundaries, Factory makes packaging repeatable, and Audit verifies claims. v2.8 Pro audit requested richer debugging definitions and positive people/schools/systems/methods/math salience. deep-research-report.md supplied the positive noun/coupling/triplet expansion used here."
+}

@@ -1,0 +1,170 @@
+# MMM_VOICE_STRATEGY_ULTRA_v2_8
+
+## words
+- mini-MMM :: 100
+- mini MMM :: 100
+- voice shape :: 100
+- voice shaping :: 100
+- shape voice :: 100
+- shaped voice :: 100
+- voice contour :: 100
+- voice signature :: 100
+- voice localizer :: 100
+- local voice :: 100
+- aligned nouns :: 100
+- correlated thinkers :: 100
+- thinker alignment :: 100
+- noun alignment :: 100
+
+- campaign :: 100
+- priority :: 100
+- resource :: 100
+- timing :: 100
+- front :: 100
+- defer :: 100
+- mission :: 100
+- scarce :: 100
+- decisive front :: 100
+- drift condition :: 100
+- first move :: 100
+- return trigger :: 100
+- sequence :: 100
+- retreat :: 100
+- advance :: 100
+- merge :: 100
+- retreat condition :: 100
+- order :: 100
+- hold :: 100
+- split :: 100
+- role :: 100
+- cost :: 100
+- strategy :: 100
+- decisive :: 100
+- reserve :: 100
+
+## couplings
+
+- hold campaign :: 100
+- split campaign :: 100
+- hold sequence :: 100
+- split sequence :: 100
+- hold front :: 100
+- split front :: 100
+- hold retreat :: 100
+- split retreat :: 100
+- hold defer :: 100
+- split defer :: 100
+- hold split :: 100
+- hold resource :: 100
+- split resource :: 100
+- split hold :: 100
+- retreat condition :: 100
+- decisive front :: 100
+- drift condition :: 100
+- first move :: 100
+- return trigger :: 100
+- campaign evidence :: 100
+- campaign support :: 100
+- campaign path :: 100
+- campaign surface :: 100
+- campaign packet :: 100
+- campaign receipt :: 100
+- campaign trace :: 100
+- campaign result :: 100
+- campaign scope :: 100
+- campaign boundary :: 100
+- campaign status :: 100
+- campaign candidate :: 100
+- campaign witness :: 100
+- campaign :: 100
+- sequence :: 100
+- priority :: 100
+- resource :: 100
+- scarce :: 100
+- timing :: 100
+- defer :: 100
+- retreat :: 100
+- advance :: 100
+- split :: 100
+- merge :: 100
+- order :: 100
+- campaign direction :: 100
+- sequence risk :: 100
+- resource allocation :: 100
+- scarce resource :: 100
+
+## triplets
+
+- hold campaign receipt :: 100
+- hold sequence receipt :: 100
+- hold front receipt :: 100
+- hold retreat receipt :: 100
+- campaign sequence resource :: 100
+- front timing retreat :: 100
+- local win campaign :: 100
+- priority order risk :: 100
+- decisive front condition :: 100
+- hold advance retreat :: 100
+- scarce resource allocation :: 100
+- option value tradeoff :: 100
+- dependency sequence order :: 100
+- role allocation timing :: 100
+- tempo control front :: 100
+- fallback plan reserve :: 100
+- commitment cost risk :: 100
+- strategy drift condition :: 100
+- under campaign sequence :: 91
+- under campaign priority :: 90
+- under campaign resource :: 90
+- under campaign timing :: 90
+- under sequence priority :: 90
+- under sequence resource :: 90
+- under sequence timing :: 90
+- under sequence front :: 90
+- under priority resource :: 90
+- under priority timing :: 90
+- under priority front :: 90
+- under resource timing :: 90
+- under resource front :: 90
+- under resource retreat :: 90
+- under timing front :: 90
+- under timing retreat :: 90
+## voice noun reservoir stabilization addendum
+- voice method :: 100
+- voice evidence :: 100
+- voice judgment :: 100
+- voice task :: 100
+- voice receipt :: 100
+- voice finding :: 100
+- voice constraint :: 100
+- voice noun :: 100
+- voice verb :: 100
+- voice signal :: 100
+- voice contrast :: 100
+- voice boundary :: 100
+- voice contribution :: 100
+- mini mmm loaded :: 100
+- loaded mini mmm :: 100
+- assigned mini mmm :: 100
+- local voice context :: 100
+- voice-specific nouns :: 100
+- method nouns :: 100
+- reader stance :: 100
+- decision stance :: 100
+- audit stance :: 100
+- build stance :: 100
+- repair stance :: 100
+- acceptance stance :: 100
+- subagent voice :: 100
+- voice worker :: 100
+- voice proof :: 100
+- distinct output :: 100
+- behavioral pull :: 100
+- salience pull :: 100
+- voice usefulness :: 100
+- output repair :: 100
+- system repair :: 100
+- mmm stability :: 100
+- wizard stability :: 100
+- qit support :: 100
+- sim support :: 100

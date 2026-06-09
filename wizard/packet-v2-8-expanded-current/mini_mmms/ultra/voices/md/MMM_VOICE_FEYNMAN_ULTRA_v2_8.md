@@ -1,0 +1,173 @@
+# MMM_VOICE_FEYNMAN_ULTRA_v2_8
+
+## words
+- mini-MMM :: 100
+- mini MMM :: 100
+- voice shape :: 100
+- voice shaping :: 100
+- shape voice :: 100
+- shaped voice :: 100
+- voice contour :: 100
+- voice signature :: 100
+- voice localizer :: 100
+- local voice :: 100
+- aligned nouns :: 100
+- correlated thinkers :: 100
+- thinker alignment :: 100
+- noun alignment :: 100
+
+- setup :: 100
+- example :: 100
+- observable :: 100
+- procedure :: 100
+- instrument :: 100
+- operation :: 100
+- readout :: 100
+- check :: 100
+- simple example :: 100
+- real measurement :: 100
+- check the answer :: 100
+- apparatus :: 100
+- calibration :: 100
+- physical :: 100
+- simple case :: 100
+- toy model :: 100
+- threshold :: 100
+- control :: 100
+- baseline :: 100
+- repeat :: 100
+- what changes :: 100
+- what would count :: 100
+- experiment :: 100
+- measurement :: 100
+- observation :: 100
+- result :: 100
+- try :: 100
+- concrete :: 100
+
+## couplings
+
+- check test :: 100
+- check measure :: 100
+- observable result :: 100
+- check observable :: 100
+- compare observable :: 100
+- measure observable :: 100
+- test observable :: 100
+- procedure result :: 100
+- check procedure :: 100
+- compare procedure :: 100
+- measure procedure :: 100
+- test procedure :: 100
+- operation result :: 100
+- check operation :: 100
+- compare operation :: 100
+- measure operation :: 100
+- test operation :: 100
+- setup result :: 100
+- check setup :: 100
+- compare setup :: 100
+- measure setup :: 100
+- test setup :: 100
+- check run :: 100
+- operation :: 100
+- observable :: 100
+- readout :: 100
+- setup :: 100
+- procedure :: 100
+- check :: 100
+- example :: 100
+- instrument :: 100
+- compare test :: 100
+- measure test :: 100
+- measure result :: 100
+- compare measure :: 100
+- test measure :: 100
+- measure check :: 100
+- observable evidence :: 100
+- observable support :: 100
+- observable path :: 100
+- observable surface :: 100
+- observable packet :: 100
+- observable receipt :: 100
+- observable trace :: 100
+- sole test :: 100
+- actual experience :: 100
+- scientific integrity :: 100
+- not fool yourself :: 100
+
+## triplets
+
+- check test receipt :: 100
+- check measure receipt :: 100
+- observable result path :: 100
+- check observable receipt :: 100
+- compare observable receipt :: 100
+- measure observable receipt :: 100
+- test observable receipt :: 100
+- procedure result path :: 100
+- check procedure receipt :: 100
+- compare procedure receipt :: 100
+- measure procedure receipt :: 100
+- test procedure receipt :: 100
+- operation observable failure :: 100
+- experiment measurement result :: 100
+- try it observe :: 100
+- physical picture check :: 100
+- same experiment result :: 100
+- actual experience formulation :: 100
+- scientific integrity doubt :: 100
+- publish both results :: 100
+- details throw doubt :: 100
+- other causes checked :: 100
+- apparatus measurement trace :: 100
+- concrete example calculation :: 100
+- unit standard measurement :: 100
+- observable quantity procedure :: 100
+- under experiment observable :: 91
+- under experiment procedure :: 91
+- under experiment setup :: 91
+- under apparatus observable :: 91
+- under apparatus procedure :: 90
+- under apparatus setup :: 90
+- under observable procedure :: 90
+- under observable setup :: 90
+## voice noun reservoir stabilization addendum
+- voice method :: 100
+- voice evidence :: 100
+- voice judgment :: 100
+- voice task :: 100
+- voice receipt :: 100
+- voice finding :: 100
+- voice constraint :: 100
+- voice noun :: 100
+- voice verb :: 100
+- voice signal :: 100
+- voice contrast :: 100
+- voice boundary :: 100
+- voice contribution :: 100
+- mini mmm loaded :: 100
+- loaded mini mmm :: 100
+- assigned mini mmm :: 100
+- local voice context :: 100
+- voice-specific nouns :: 100
+- method nouns :: 100
+- reader stance :: 100
+- decision stance :: 100
+- audit stance :: 100
+- build stance :: 100
+- repair stance :: 100
+- acceptance stance :: 100
+- subagent voice :: 100
+- voice worker :: 100
+- voice proof :: 100
+- distinct output :: 100
+- behavioral pull :: 100
+- salience pull :: 100
+- voice usefulness :: 100
+- output repair :: 100
+- system repair :: 100
+- mmm stability :: 100
+- wizard stability :: 100
+- qit support :: 100
+- sim support :: 100

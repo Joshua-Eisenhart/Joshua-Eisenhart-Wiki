@@ -1,0 +1,12 @@
+{
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate",
+  "checked": "loaded mini_mmms/ultra/voices/md/MMM_VOICE_STRATEGY_ULTRA_v2_7.md",
+  "concluded": "Decisive point: prove receipt truth first, then run fresh-agent behavior tests, then consider live wiring.",
+  "evidence": "mini_mmms/ultra/voices/md/MMM_VOICE_STRATEGY_ULTRA_v2_7.md terms: decisive front, drift condition, first move, return trigger, retreat condition, campaign, priority, reinput",
+  "generated_at": "2026-04-28T08:03:24.959236+00:00",
+  "lane": "Strategy",
+  "open": "live proof pending",
+  "output_excerpt": "Task: Compare Wizard General sizes and choose the best local runtime surface.\nWizard General size: ultra\nWave 1: Voice Wave\nDecisive point: prove receipt truth first, then run fresh-agent behavior tests, then consider live wiring.\nLoaded language body terms: decisive front, drift condition, first move, return trigger, retreat condition, campaign, priority, reinput",
+  "output_sha256": "4e35109ecaf004ea9ee073016052182fdca82430e491953d2373f3014b715ec1",
+  "schema_version": "wizard_behavior_harness.v1"
+}

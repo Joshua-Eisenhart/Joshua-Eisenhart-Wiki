@@ -1,0 +1,12 @@
+{
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/mmm_wizard_complete_system_packet_v2_8_expanded_candidate",
+  "checked": "loaded mini_mmms/full/system_routes/md/MMM_VOICE_LLM_COUNCIL_FULL_v2_8.md",
+  "concluded": "Council result: local system run is useful; live acceptance remains held pending independent fresh-agent logs.",
+  "evidence": "mini_mmms/full/system_routes/md/MMM_VOICE_LLM_COUNCIL_FULL_v2_8.md terms: mini-MMM :: 100, mini MMM :: 100, voice shape :: 100, voice shaping :: 100, shape voice :: 100, shaped voice :: 100, voice contour :: 100, voice signature :: 100",
+  "generated_at": "2026-04-29T00:15:50.230177+00:00",
+  "lane": "LLM Council",
+  "open": "live proof pending",
+  "output_excerpt": "Task: Run the full Wizard after repairing output shape, full-MMM boot, guide size, voice mini-MMM loading proof, behavior load proof, and noun reservoir expansion.\nWizard General size: full\nWave 4: LLM Council Wave\nCouncil result: local system run is useful; live acceptance remains held pending independent fresh-agent logs.\nLoaded language body terms: mini-MMM :: 100, mini MMM :: 100, voice shape :: 100, voice shaping :: 100, shape voice :: 100, shaped voice :: 100, voice contour :: 100, voice signature :: 100",
+  "output_sha256": "eaa0983afda2ca50188f17231bbf0b398418b77007806b78aecff43f1e9e538e",
+  "schema_version": "wizard_behavior_harness.v1"
+}

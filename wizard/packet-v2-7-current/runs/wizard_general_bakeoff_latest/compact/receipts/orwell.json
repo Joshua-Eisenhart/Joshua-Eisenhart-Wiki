@@ -1,0 +1,12 @@
+{
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate",
+  "checked": "loaded mini_mmms/compact/voices/md/MMM_VOICE_ORWELL_COMPACT_v2_7.md",
+  "concluded": "Plain wording rule: metadata belongs in JSON; boot-visible Markdown should carry language, not labels.",
+  "evidence": "mini_mmms/compact/voices/md/MMM_VOICE_ORWELL_COMPACT_v2_7.md terms: politics and english language, verbal false limb, plain english, cut a word, short word, loaded phrasing, dead phrase, soft word",
+  "generated_at": "2026-04-28T08:03:24.994347+00:00",
+  "lane": "Orwell",
+  "open": "live proof pending",
+  "output_excerpt": "Task: Compare Wizard General sizes and choose the best local runtime surface.\nWizard General size: compact\nWave 1: Voice Wave\nPlain wording rule: metadata belongs in JSON; boot-visible Markdown should carry language, not labels.\nLoaded language body terms: politics and english language, verbal false limb, plain english, cut a word, short word, loaded phrasing, dead phrase, soft word",
+  "output_sha256": "73e92b84840317624b3c0793a39dc9118d4fa1398b0b12b8410bae002f67b07e",
+  "schema_version": "wizard_behavior_harness.v1"
+}

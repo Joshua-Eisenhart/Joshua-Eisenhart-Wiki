@@ -1,0 +1,12 @@
+{
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate",
+  "checked": "loaded mini_mmms/standard/compositions/md/MMM_LANE_ALL_B_STANDARD_v2_7.md",
+  "concluded": "All-B compilation: behavior proof plan for no-MMM, main-MMM, and mini-MMM comparison.",
+  "evidence": "mini_mmms/standard/compositions/md/MMM_LANE_ALL_B_STANDARD_v2_7.md terms: collapse audit, human read, live readings, surviving split, wildcard probe, alternative, anti, attack",
+  "generated_at": "2026-04-28T08:03:25.030686+00:00",
+  "lane": "All-B",
+  "open": "live proof pending",
+  "output_excerpt": "Task: Compare Wizard General sizes and choose the best local runtime surface.\nWizard General size: standard\nWave 7: Follow-up Make Wave\nAll-B compilation: behavior proof plan for no-MMM, main-MMM, and mini-MMM comparison.\nLoaded language body terms: collapse audit, human read, live readings, surviving split, wildcard probe, alternative, anti, attack",
+  "output_sha256": "0f093b1c35b59c9b528732a8ae73239551652de74ba39215f9a6ec797b922ebf",
+  "schema_version": "wizard_behavior_harness.v1"
+}

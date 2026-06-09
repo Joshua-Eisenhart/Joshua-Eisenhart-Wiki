@@ -1,0 +1,387 @@
+---
+title: Mmm Lane Reframe Full V2 7
+created: 2026-04-28
+updated: 2026-04-28
+type: concept
+tags: [wizard, mmm, packet, receipt]
+framing: current
+source_path: mini_mmms/full/lanes/md/MMM_LANE_REFRAME_FULL_v2_7.md
+---
+
+# MMM_LANE_REFRAME_FULL_v2_7
+
+## aligned nouns and phrases
+
+- wrong question
+- hidden premise
+- false binary
+- different problem
+- smaller question
+- language body
+- reframe
+- frame
+- problem
+- shape
+- new
+- wrong
+- question
+- shift
+- rename
+- recast
+- different
+- constraint
+- move
+- boundary
+- assumption
+- replace
+- context
+- lens
+- angle
+- narrowing
+- misfit
+- reshape
+- map
+- outside
+- only
+- then
+- bounded
+- finite
+- open
+- distinct
+- concrete
+- observed
+- missing
+- small
+- honest
+- first
+- prior
+- separate
+- together
+- compared
+- measured
+- used
+- fit
+- viable
+- direct
+- alternate
+- branch
+- path
+- packet
+- artifact
+- receipt
+- trace
+- result
+- support
+- evidence
+- scope
+- gate
+- guard
+- rung
+- status
+- candidate
+- survivor
+- witness
+- probe
+- name
+- use
+- role
+- practice
+- experience
+- observation
+- perception
+- conjunction
+- resemblance
+- relation
+- probability
+- particular
+- predicate
+- class
+- model
+- solver
+- satisfiable
+- unsatisfiable
+- countermodel
+- counterexample
+- equivalence
+- indistinguishable
+- readout
+- measure
+- measurement
+- operation
+- procedure
+- instrument
+- experiment
+- check
+- verify
+- compare
+- sample
+- route
+- lane
+- voice
+- council
+- audit
+- finding
+- blocker
+- deferred
+- blocked
+- spawned
+- diagnostic
+- untried
+- preload
+- language
+- body
+- during
+- since
+- toward
+- relative
+- according
+- locally
+- jointly
+- separately
+- rather
+
+## correlated couplings
+
+- during wrong question
+- during hidden premise
+- since wrong question
+- since hidden premise
+- toward wrong question
+- toward hidden premise
+- relative wrong question
+- relative hidden premise
+- reframe evidence
+- reframe support
+- reframe packet
+- reframe receipt
+- reframe trace
+- reframe result
+- reframe scope
+- reframe boundary
+- reframe witness
+- reframe probe
+- reframe constraint
+- compare reframe
+- measure reframe
+- hold reframe
+- preserve reframe
+- split reframe
+- narrow reframe
+- frame evidence
+- frame support
+- frame packet
+- frame receipt
+- frame trace
+- frame result
+- frame scope
+- frame boundary
+- frame witness
+- frame probe
+- frame constraint
+- compare frame
+- measure frame
+- hold frame
+- preserve frame
+- split frame
+- narrow frame
+- recast evidence
+- recast support
+- recast packet
+- recast receipt
+- recast trace
+- recast result
+- recast scope
+- recast boundary
+- recast witness
+- recast probe
+- recast constraint
+- compare recast
+- measure recast
+- hold recast
+- preserve recast
+- split recast
+- narrow recast
+- surface evidence
+- surface support
+- surface packet
+- surface receipt
+- surface trace
+- surface result
+- surface scope
+- surface boundary
+- surface witness
+- surface probe
+- surface constraint
+- context evidence
+- context support
+- context packet
+- context receipt
+- context trace
+- context result
+- context scope
+- context boundary
+- context witness
+- context probe
+- context constraint
+- compare context
+- measure context
+- hold context
+- preserve context
+- split context
+- narrow context
+- lens evidence
+- lens support
+- lens packet
+- lens receipt
+- lens trace
+- lens result
+- lens scope
+- lens boundary
+- lens witness
+- lens probe
+- lens constraint
+- compare lens
+- measure lens
+- hold lens
+- preserve lens
+- split lens
+- narrow lens
+- angle evidence
+- angle support
+- angle packet
+- angle receipt
+- angle trace
+- angle result
+- angle scope
+- angle boundary
+- angle witness
+- angle probe
+- angle constraint
+- compare angle
+- measure angle
+- hold angle
+- preserve angle
+- split angle
+- narrow angle
+- narrowing evidence
+- narrowing support
+- narrowing packet
+- narrowing receipt
+- narrowing trace
+- narrowing result
+- narrowing scope
+- narrowing boundary
+- narrowing witness
+- narrowing probe
+- narrowing constraint
+- compare narrowing
+- measure narrowing
+- hold narrowing
+- preserve narrowing
+- split narrowing
+- narrow narrowing
+- misfit evidence
+- misfit support
+- misfit packet
+- misfit receipt
+- misfit trace
+- misfit result
+- misfit scope
+- misfit boundary
+- misfit witness
+- misfit probe
+- misfit constraint
+- compare misfit
+- measure misfit
+- hold misfit
+- preserve misfit
+- split misfit
+- narrow misfit
+- reshape evidence
+- reshape support
+- reshape packet
+- reshape receipt
+- reshape trace
+
+## three-part cues
+
+- during surface wrong question
+- during move wrong question
+- during boundary wrong question
+- during boundary hidden premise
+- during assumption wrong question
+- during assumption hidden premise
+- during assumption false binary
+- during wrong question replace
+- during wrong question hidden premise
+- during wrong question false binary
+- during wrong question different problem
+- during replace hidden premise
+- during replace false binary
+- during replace different problem
+- during replace smaller question
+- during hidden premise false binary
+- during hidden premise different problem
+- during hidden premise smaller question
+- during hidden premise context
+- compare reframe receipt
+- measure reframe receipt
+- hold reframe receipt
+- preserve reframe receipt
+- compare frame receipt
+- measure frame receipt
+- hold frame receipt
+- preserve frame receipt
+- compare recast receipt
+- measure recast receipt
+- hold recast receipt
+- preserve recast receipt
+- compare surface receipt
+- measure surface receipt
+- hold surface receipt
+- preserve surface receipt
+- during reframe frame
+- during reframe problem
+- during reframe shape
+- during reframe new
+- during frame problem
+- during frame shape
+- during frame new
+- during frame wrong
+- during problem shape
+- during problem new
+- during problem wrong
+- during problem question
+- during shape new
+- during shape wrong
+- during shape question
+- during shape shift
+- during new wrong
+- during new question
+- during new shift
+- during new rename
+- during wrong question
+- during wrong shift
+- during wrong rename
+- during wrong recast
+- during question shift
+- during question rename
+- during question recast
+- during question different
+- during shift rename
+- during shift recast
+- during shift different
+- during shift reading
+- during rename recast
+- during rename different
+- during rename reading
+- during rename constraint
+- during recast different
+- during recast reading
+- during recast constraint
+- during different reading
+- during different constraint
+- during different move
+- during reading constraint
+- during reading move
+- during reading boundary

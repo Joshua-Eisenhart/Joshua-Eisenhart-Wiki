@@ -1,0 +1,12 @@
+{
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/mmm_wizard_complete_system_packet_v2_8_expanded_candidate",
+  "checked": "loaded mini_mmms/standard/voices/md/MMM_VOICE_STRATEGY_STANDARD_v2_8.md",
+  "concluded": "Voice contribution: inspect the larger campaign, scarce resource, sequence, drift risk, and hold/retreat condition before optimizing the immediate answer.",
+  "evidence": "mini_mmms/standard/voices/md/MMM_VOICE_STRATEGY_STANDARD_v2_8.md terms: mini-MMM :: 100, mini MMM :: 100, voice shape :: 100, voice shaping :: 100, shape voice :: 100, shaped voice :: 100, voice contour :: 100, voice signature :: 100",
+  "generated_at": "2026-04-28T22:36:04.218294+00:00",
+  "lane": "Strategy",
+  "open": "live proof pending",
+  "output_excerpt": "Task: Compare Wizard General sizes and choose the best local runtime surface.\nWizard General size: standard\nWave 1: Voice Wave\nVoice contribution: inspect the larger campaign, scarce resource, sequence, drift risk, and hold/retreat condition before optimizing the immediate answer.\nLoaded language body terms: mini-MMM :: 100, mini MMM :: 100, voice shape :: 100, voice shaping :: 100, shape voice :: 100, shaped voice :: 100, voice contour :: 100, voice signature :: 100",
+  "output_sha256": "24d51a46a5cba30cb45ecf3cfc658571d537a098c0f8259d348a44154b14bc88",
+  "schema_version": "wizard_behavior_harness.v1"
+}

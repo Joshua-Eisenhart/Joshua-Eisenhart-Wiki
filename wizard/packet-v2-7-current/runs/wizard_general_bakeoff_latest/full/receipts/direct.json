@@ -1,0 +1,12 @@
+{
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate",
+  "checked": "loaded mini_mmms/full/lanes/md/MMM_LANE_DIRECT_FULL_v2_7.md",
+  "concluded": "Shortest bounded move: keep improving the packet locally, run receipts, and do not call it live until live logs exist.",
+  "evidence": "mini_mmms/full/lanes/md/MMM_LANE_DIRECT_FULL_v2_7.md terms: done condition, language body, direct, move, smallest, immediate, action, shortest",
+  "generated_at": "2026-04-28T08:03:25.064055+00:00",
+  "lane": "Direct",
+  "open": "live proof pending",
+  "output_excerpt": "Task: Compare Wizard General sizes and choose the best local runtime surface.\nWizard General size: full\nWave 8: Follow-up Run/Scout Wave\nShortest bounded move: keep improving the packet locally, run receipts, and do not call it live until live logs exist.\nLoaded language body terms: done condition, language body, direct, move, smallest, immediate, action, shortest",
+  "output_sha256": "522a6f4a67a2f9ac5c6f9841b0b513adbc7625985276ba38f1966adf880494c6",
+  "schema_version": "wizard_behavior_harness.v1"
+}

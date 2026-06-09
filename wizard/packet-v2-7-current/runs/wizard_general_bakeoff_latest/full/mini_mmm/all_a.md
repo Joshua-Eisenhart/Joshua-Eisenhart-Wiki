@@ -1,0 +1,368 @@
+---
+title: All A
+created: 2026-04-28
+updated: 2026-04-28
+type: concept
+tags: [wizard, mmm, packet, receipt]
+framing: current
+source_path: runs/wizard_general_bakeoff_latest/full/mini_mmm/all_a.md
+---
+
+Lane-local behavior probe body for All-A. Candidate root: /Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate. This record was normalized from collected probe output only. The harness did not spawn agents, infer hidden execution, or add a claim beyond the supplied lane record. Review this lane as receipt evidence: checked material, conclusion, remaining open question, and cited evidence must remain tied to the captured output. The body exists so the adapter can verify that every completed lane has a lane-local language surface rather than borrowing global prose. Future readers should treat the text as a behavior probe normalization artifact, not as independent proof of correctness. 
+
+Collected output:
+# MMM_LANE_ALL_A_FULL_v2_7
+
+## aligned nouns and phrases
+
+- direct move
+- risky claim
+- observable check
+- loop or sequence
+- alternative route
+- audit result
+- retreat condition
+- systems-or-strategy
+- pressure-testing
+- plurality-preservation
+- pressure-tests
+- ground
+- pressure
+- direct
+- claim
+- systems
+- check
+- audit
+- result
+- default
+- bundle
+- forward
+- motion
+- core
+- relative
+- locally
+- rather
+- instead
+- only
+- still
+- likely
+- possible
+- bounded
+- finite
+- observed
+- measured
+- open
+- partial
+- limited
+- constraint
+- evidence
+- observation
+- measurement
+- trace
+- sample
+- case
+- instance
+- name
+- word
+- use
+- relation
+- distinction
+- comparison
+- support
+- estimate
+- uncertainty
+- model
+- witness
+- counterexample
+- candidate
+- survivor
+- boundary
+- scope
+- condition
+- path
+- branch
+- fork
+- plurality
+- perspective
+- route
+- receipt
+- voice
+- lane
+- composite
+- ordinary
+- substantive
+- work
+- compose
+- alternative
+- truthful
+- packet
+- advance
+- the
+- task
+- risky
+- keep
+- one
+- real
+- alive
+- land
+- compact
+- concluded
+- voices
+- maximum
+- hidden
+- execution
+- receipts
+- flattening
+- listing
+- names
+- plan
+- unspawned
+- lanes
+- prose
+- omitting
+- retreat
+- making
+- too
+- broad
+- smallest
+- that
+- guards
+- first
+- should
+- honest
+- stop
+- focus
+- closeout
+- hygiene
+- full
+- wizard
+- stabilization
+- move
+- observable
+- loop
+- sequence
+- advances
+
+## correlated thinkers
+
+- Popper
+- Feynman
+
+## correlated couplings
+
+- direct move risky claim
+- direct move observable check
+- direct move loop or sequence
+- direct move alternative route
+- direct move audit result
+- direct move retreat condition
+- risky claim observable check
+- risky claim loop or sequence
+- risky claim alternative route
+- risky claim audit result
+- risky claim retreat condition
+- observable check loop or sequence
+- observable check alternative route
+- observable check audit result
+- observable check retreat condition
+- loop or sequence alternative route
+- loop or sequence audit result
+- loop or sequence retreat condition
+- alternative route audit result
+- alternative route retreat condition
+- audit result retreat condition
+- audit direct move
+- result direct move
+- result risky claim
+- default direct move
+- default risky claim
+- default observable check
+- bundle direct move
+- bundle risky claim
+- bundle observable check
+- bundle loop or sequence
+- forward direct move
+- forward risky claim
+- forward observable check
+- forward loop or sequence
+- forward alternative route
+- motion direct move
+- motion risky claim
+- motion observable check
+- motion loop or sequence
+- motion alternative route
+- motion audit result
+- core direct move
+- core risky claim
+- core observable check
+- core loop or sequence
+- core alternative route
+- core audit result
+- core retreat condition
+- ground pressure
+- ground direct
+- ground claim
+- ground test
+- ground systems
+- ground check
+- ground audit
+- pressure direct
+- pressure claim
+- pressure test
+- pressure systems
+- pressure check
+- pressure audit
+- pressure result
+- direct claim
+- direct test
+- direct systems
+- direct check
+- direct audit
+- direct result
+- direct default
+- claim test
+- claim systems
+- claim check
+- claim audit
+- claim result
+- claim default
+- claim bundle
+- systems check
+- systems audit
+- systems result
+- systems default
+- systems bundle
+- systems forward
+- systems motion
+- audit result
+- audit default
+- audit bundle
+- audit forward
+- audit motion
+- audit core
+- result default
+- result bundle
+- result forward
+- result motion
+- result core
+- default bundle
+- default forward
+- default motion
+- default core
+- bundle forward
+- bundle motion
+- bundle core
+- forward motion
+- forward core
+- motion core
+- direct move under
+- risky claim under
+- risky claim within
+- observable check under
+- observable check within
+- observable check across
+- loop or sequence under
+- loop or sequence within
+- loop or sequence across
+- loop or sequence between
+- alternative route under
+- alternative route within
+- alternative route across
+- alternative route between
+- alternative route through
+- audit result under
+- audit result within
+- audit result across
+- audit result between
+- audit result through
+- audit result before
+- retreat condition under
+- retreat condition within
+- retreat condition across
+- retreat condition between
+- retreat condition through
+- retreat condition before
+- retreat condition after
+
+## three-part cues
+
+- relative motion direct move
+- relative motion risky claim
+- relative motion observable check
+- relative motion loop or sequence
+- relative motion alternative route
+- relative motion audit result
+- locally core direct move
+- locally core risky claim
+- locally core observable check
+- locally core loop or sequence
+- locally core alternative route
+- locally core audit result
+- locally core retreat condition
+- rather direct move risky claim
+- rather direct move observable check
+- rather direct move alternative route
+- rather direct move audit result
+- rather direct move retreat condition
+- instead risky claim observable check
+- instead risky claim alternative route
+- instead risky claim audit result
+- instead risky claim retreat condition
+- only observable check alternative route
+- only observable check audit result
+- only observable check retreat condition
+- likely alternative route audit result
+- likely alternative route retreat condition
+- possible audit result retreat condition
+- relative motion core
+- rather direct move loop or sequence
+- rather direct move under
+- instead risky claim loop or sequence
+- instead risky claim under
+- instead risky claim within
+- only observable check loop or sequence
+- only observable check under
+- only observable check within
+- only observable check across
+- still loop or sequence alternative route
+- still loop or sequence audit result
+- still loop or sequence retreat condition
+- still loop or sequence under
+- still loop or sequence within
+- still loop or sequence across
+- still loop or sequence between
+- likely alternative route under
+- likely alternative route within
+- likely alternative route across
+- likely alternative route between
+- likely alternative route through
+- possible audit result under
+- possible audit result within
+- possible audit result across
+- possible audit result between
+- possible audit result through
+- possible audit result before
+- bounded retreat condition under
+- bounded retreat condition within
+- bounded retreat condition across
+- bounded retreat condition between
+- bounded retreat condition through
+- bounded retreat condition before
+- bounded retreat condition after
+- finite under within
+- finite under across
+- finite under between
+- finite under through
+- finite under before
+- finite under after
+- finite under from
+- local within across
+- local within between
+- local within through
+- local within before
+- local within after
+- local within from
+- local within by
+- current across between
+- current across through
+- current across before

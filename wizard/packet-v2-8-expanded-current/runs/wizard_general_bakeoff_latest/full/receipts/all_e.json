@@ -1,0 +1,12 @@
+{
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/mmm_wizard_complete_system_packet_v2_8_expanded_candidate",
+  "checked": "loaded mini_mmms/full/compositions/md/MMM_LANE_ALL_E_HYGIENE_FULL_v2_8.md",
+  "concluded": "All-E composition: close the answer cleanly by combining Direct, Hygiene, Security, Factory, Audit, and Council without turning the answer into a report.",
+  "evidence": "mini_mmms/full/compositions/md/MMM_LANE_ALL_E_HYGIENE_FULL_v2_8.md terms: hygiene :: 100, orwell :: 99, readable :: 98, section :: 97, duplicate :: 96, compact :: 95, surface :: 94, direct :: 93",
+  "generated_at": "2026-04-28T22:36:04.253131+00:00",
+  "lane": "All-E",
+  "open": "live proof pending",
+  "output_excerpt": "Task: Compare Wizard General sizes and choose the best local runtime surface.\nWizard General size: full\nWave 9: Follow-up Audit/Improve Wave\nAll-E composition: close the answer cleanly by combining Direct, Hygiene, Security, Factory, Audit, and Council without turning the answer into a report.\nLoaded language body terms: hygiene :: 100, orwell :: 99, readable :: 98, section :: 97, duplicate :: 96, compact :: 95, surface :: 94, direct :: 93",
+  "output_sha256": "da18e38050611ce26ffad58fc341e7c36837ba8d627cf994aee4eda797950cf8",
+  "schema_version": "wizard_behavior_harness.v1"
+}

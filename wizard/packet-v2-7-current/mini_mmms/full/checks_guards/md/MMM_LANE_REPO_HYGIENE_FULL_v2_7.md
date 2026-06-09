@@ -1,0 +1,368 @@
+---
+title: Mmm Lane Repo Hygiene Full V2 7
+created: 2026-04-28
+updated: 2026-04-28
+type: concept
+tags: [wizard, mmm, packet, receipt]
+framing: current
+source_path: mini_mmms/full/checks_guards/md/MMM_LANE_REPO_HYGIENE_FULL_v2_7.md
+---
+
+# MMM_LANE_REPO_HYGIENE_FULL_v2_7
+
+## aligned nouns and phrases
+
+- dead file
+- naming drift
+- active contract
+- prior bundle
+- search clarity
+- repo
+- hygiene
+- dead
+- file
+- duplicate
+- naming
+- drift
+- cleanup
+- maintenance
+- debt
+- orphan
+- deprecated
+- index
+- manifest
+- path
+- folder
+- readme
+- registry
+- scan
+- provenance
+- handoff
+- residue
+- outdated
+- inconsistent
+- outside
+- only
+- then
+- bounded
+- finite
+- open
+- distinct
+- concrete
+- observed
+- missing
+- small
+- honest
+- first
+- prior
+- separate
+- together
+- compared
+- measured
+- used
+- fit
+- viable
+- direct
+- different
+- alternate
+- branch
+- packet
+- artifact
+- receipt
+- trace
+- result
+- support
+- evidence
+- scope
+- boundary
+- gate
+- guard
+- rung
+- status
+- candidate
+- survivor
+- witness
+- probe
+- constraint
+- name
+- use
+- role
+- practice
+- experience
+- observation
+- perception
+- conjunction
+- resemblance
+- relation
+- probability
+- particular
+- predicate
+- class
+- relative
+- locally
+- rather
+- instead
+- still
+- likely
+- possible
+- partial
+- limited
+- measurement
+- sample
+- case
+- instance
+- word
+- distinction
+- comparison
+- estimate
+- uncertainty
+- model
+- counterexample
+- condition
+- fork
+
+## correlated couplings
+
+- dead file naming drift
+- dead file active contract
+- dead file prior bundle
+- dead file search clarity
+- naming drift active contract
+- naming drift prior bundle
+- naming drift search clarity
+- active contract prior bundle
+- active contract search clarity
+- prior bundle search clarity
+- index dead file
+- manifest dead file
+- manifest naming drift
+- path dead file
+- path naming drift
+- path active contract
+- folder dead file
+- folder naming drift
+- folder active contract
+- folder prior bundle
+- readme dead file
+- readme naming drift
+- readme active contract
+- readme prior bundle
+- registry dead file
+- registry naming drift
+- registry active contract
+- registry prior bundle
+- scan dead file
+- scan naming drift
+- scan active contract
+- scan prior bundle
+- scan search clarity
+- dead file provenance
+- dead file handoff
+- naming drift provenance
+- naming drift handoff
+- naming drift residue
+- active contract provenance
+- active contract handoff
+- active contract residue
+- active contract outdated
+- prior bundle provenance
+- prior bundle handoff
+- prior bundle residue
+- prior bundle outdated
+- prior bundle inconsistent
+- provenance search clarity
+- stale evidence
+- stale support
+- stale packet
+- stale receipt
+- stale trace
+- stale result
+- stale scope
+- stale boundary
+- stale witness
+- stale probe
+- stale constraint
+- compare stale
+- measure stale
+- hold stale
+- preserve stale
+- split stale
+- narrow stale
+- drift evidence
+- drift support
+- drift packet
+- drift receipt
+- drift trace
+- drift result
+- drift scope
+- drift boundary
+- drift witness
+- drift probe
+- drift constraint
+- compare drift
+- measure drift
+- hold drift
+- preserve drift
+- split drift
+- narrow drift
+- dead evidence
+- dead support
+- dead packet
+- dead receipt
+- dead trace
+- dead result
+- dead scope
+- dead boundary
+- dead witness
+- dead probe
+- dead constraint
+- compare dead
+- measure dead
+- hold dead
+- preserve dead
+- split dead
+- narrow dead
+- duplicate evidence
+- duplicate support
+- duplicate packet
+- duplicate receipt
+- duplicate trace
+- duplicate result
+- duplicate scope
+- duplicate boundary
+- duplicate witness
+- duplicate probe
+- duplicate constraint
+- compare duplicate
+- measure duplicate
+- hold duplicate
+- preserve duplicate
+- split duplicate
+- narrow duplicate
+- naming evidence
+- naming support
+- naming packet
+- naming receipt
+- naming trace
+- naming result
+- naming scope
+- naming boundary
+- naming witness
+- naming probe
+- naming constraint
+- compare naming
+- measure naming
+- hold naming
+- preserve naming
+- split naming
+- narrow naming
+- cleanup evidence
+- cleanup support
+- cleanup packet
+- cleanup receipt
+- cleanup trace
+- cleanup result
+- cleanup scope
+- cleanup boundary
+- cleanup witness
+- cleanup probe
+- cleanup constraint
+- repo hygiene
+- repo stale
+- repo dead
+- repo file
+- repo duplicate
+- repo naming
+- repo drift
+- hygiene stale
+- hygiene dead
+- hygiene file
+- hygiene duplicate
+- hygiene naming
+- hygiene drift
+- hygiene cleanup
+- stale dead
+- stale file
+
+## three-part cues
+
+- locally index dead file
+- rather manifest dead file
+- rather manifest naming drift
+- instead path dead file
+- instead path naming drift
+- instead path active contract
+- only folder dead file
+- only folder naming drift
+- only folder active contract
+- only folder prior bundle
+- still readme dead file
+- still readme naming drift
+- still readme active contract
+- still readme prior bundle
+- likely registry dead file
+- likely registry naming drift
+- likely registry active contract
+- likely registry prior bundle
+- possible scan dead file
+- possible scan naming drift
+- possible scan active contract
+- possible scan prior bundle
+- possible scan search clarity
+- bounded dead file naming drift
+- bounded dead file active contract
+- bounded dead file prior bundle
+- bounded dead file provenance
+- bounded dead file handoff
+- bounded dead file search clarity
+- finite naming drift active contract
+- finite naming drift prior bundle
+- finite naming drift provenance
+- finite naming drift handoff
+- finite naming drift search clarity
+- finite naming drift residue
+- local active contract prior bundle
+- local active contract provenance
+- local active contract handoff
+- local active contract search clarity
+- local active contract residue
+- local active contract outdated
+- current prior bundle provenance
+- current prior bundle handoff
+- current prior bundle search clarity
+- current prior bundle residue
+- current prior bundle outdated
+- current prior bundle inconsistent
+- observed provenance search clarity
+- compare stale receipt
+- measure stale receipt
+- hold stale receipt
+- preserve stale receipt
+- compare drift receipt
+- measure drift receipt
+- hold drift receipt
+- preserve drift receipt
+- compare dead receipt
+- measure dead receipt
+- hold dead receipt
+- preserve dead receipt
+- compare duplicate receipt
+- measure duplicate receipt
+- hold duplicate receipt
+- preserve duplicate receipt
+- relative deprecated index
+- relative deprecated manifest
+- relative deprecated folder
+- relative deprecated readme
+- relative deprecated registry
+- relative deprecated scan
+- locally index manifest
+- locally index folder
+- locally index readme
+- locally index registry
+- locally index scan
+- rather manifest folder
+- rather manifest readme
+- rather manifest registry
+- rather manifest scan
+- instead path folder

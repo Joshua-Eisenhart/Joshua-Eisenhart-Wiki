@@ -1,0 +1,389 @@
+Lane-local behavior probe body for Factory. Candidate root: /Users/joshuaeisenhart/Desktop/mmm_wizard_complete_system_packet_v2_8_expanded_candidate. This record was normalized from collected probe output only. The harness did not spawn agents, infer hidden execution, or add a claim beyond the supplied lane record. Review this lane as receipt evidence: checked material, conclusion, remaining open question, and cited evidence must remain tied to the captured output. The body exists so the adapter can verify that every completed lane has a lane-local language surface rather than borrowing global prose. Future readers should treat the text as a behavior probe normalization artifact, not as independent proof of correctness. 
+
+Collected output:
+# MMM_VOICE_FACTORY_STANDARD_v2_8
+
+## words
+- mini-MMM :: 100
+- mini MMM :: 100
+- voice shape :: 100
+- voice shaping :: 100
+- shape voice :: 100
+- shaped voice :: 100
+- voice contour :: 100
+- voice signature :: 100
+- voice localizer :: 100
+- local voice :: 100
+- aligned nouns :: 100
+- correlated thinkers :: 100
+- thinker alignment :: 100
+- noun alignment :: 100
+
+- actual :: 100
+- andon :: 100
+- batch :: 100
+- blocked :: 100
+- bottleneck :: 100
+- bottleneck resource :: 100
+- buffer :: 100
+- capacity :: 100
+- checklist :: 100
+- choke :: 100
+- choke point :: 100
+- concrete :: 100
+- constraint :: 100
+- continuous improvement :: 100
+- cycle :: 100
+- cycle time :: 100
+- defect :: 100
+- distinct :: 100
+- drag :: 100
+- drum :: 100
+- drum buffer rope :: 100
+- factory :: 100
+- flow :: 100
+- flow efficiency :: 100
+- handoff :: 100
+- heijunka :: 100
+- inferred :: 100
+- inventory :: 100
+- jidoka :: 100
+- justintime :: 100
+- kaizen :: 100
+- kanban :: 100
+- known :: 100
+- latency :: 100
+- leadtime :: 100
+- leverage :: 100
+- limiter :: 100
+- live :: 100
+- maintenance :: 100
+- management :: 100
+- narrow :: 100
+- ownership :: 100
+- packet :: 100
+- plain :: 100
+- point :: 100
+- progress :: 100
+- pull :: 100
+- queue :: 100
+- queue length :: 100
+- rate :: 100
+- rate-limiter :: 100
+- reliability :: 100
+- repeatability :: 100
+- rework :: 100
+- rope :: 100
+- scrap :: 100
+- standard :: 100
+- standard work :: 100
+- system constraint :: 100
+- takt :: 100
+- template :: 100
+- theory of constraints :: 100
+- throughput :: 100
+- throughput accounting :: 100
+- time :: 100
+- unblock :: 100
+- unknown :: 100
+- visual :: 100
+- waiting :: 100
+- waste :: 100
+- wip :: 100
+- work :: 100
+
+## couplings
+
+- across bottleneck :: 100
+- across queue :: 100
+- across throughput :: 100
+- after bottleneck :: 100
+- after queue :: 100
+- after throughput :: 100
+- before bottleneck :: 100
+- before queue :: 100
+- before throughput :: 100
+- between bottleneck :: 100
+- between queue :: 100
+- between throughput :: 100
+- bottleneck :: 100
+- bottleneck boundary :: 100
+- bottleneck candidate :: 100
+- bottleneck constraint :: 100
+- bottleneck evidence :: 100
+- bottleneck packet :: 100
+- bottleneck path :: 100
+- bottleneck probe :: 100
+- bottleneck receipt :: 100
+- bottleneck result :: 100
+- bottleneck scope :: 100
+- bottleneck status :: 100
+- bottleneck support :: 100
+- bottleneck surface :: 100
+- bottleneck trace :: 100
+- bottleneck witness :: 100
+- buffer :: 100
+- capacity :: 100
+- check bottleneck :: 100
+- check handoff :: 100
+- check queue :: 100
+- check throughput :: 100
+- choke point :: 100
+- compare bottleneck :: 100
+- compare handoff :: 100
+- compare queue :: 100
+- compare throughput :: 100
+- cycle time :: 100
+- flow :: 100
+- handoff :: 100
+- handoff boundary :: 100
+- handoff candidate :: 100
+- handoff constraint :: 100
+- handoff evidence :: 100
+- handoff packet :: 100
+- handoff path :: 100
+- handoff probe :: 100
+- handoff receipt :: 100
+- handoff result :: 100
+- handoff scope :: 100
+- handoff status :: 100
+- handoff support :: 100
+- handoff surface :: 100
+- handoff trace :: 100
+- handoff witness :: 100
+- hold bottleneck :: 100
+- hold handoff :: 100
+- hold queue :: 100
+- hold throughput :: 100
+- latency :: 100
+- maintenance :: 100
+- measure bottleneck :: 100
+- measure handoff :: 100
+- measure queue :: 100
+- measure throughput :: 100
+- narrow bottleneck :: 100
+- narrow handoff :: 100
+- narrow queue :: 100
+- narrow throughput :: 100
+- observe bottleneck :: 100
+- observe handoff :: 100
+- observe queue :: 100
+- observe throughput :: 100
+- ownership :: 100
+- preserve bottleneck :: 100
+- preserve handoff :: 100
+- preserve queue :: 100
+- preserve throughput :: 100
+- queue :: 100
+- queue boundary :: 100
+- queue candidate :: 100
+- queue constraint :: 100
+- queue evidence :: 100
+- queue packet :: 100
+- queue path :: 100
+- queue probe :: 100
+- queue receipt :: 100
+- queue result :: 100
+- queue scope :: 100
+- queue status :: 100
+- queue support :: 100
+- queue surface :: 100
+- queue trace :: 100
+- queue witness :: 100
+- repeatability :: 100
+- rework :: 100
+- split bottleneck :: 100
+- split handoff :: 100
+- split queue :: 100
+- split throughput :: 100
+- standard work :: 100
+- template :: 100
+- test bottleneck :: 100
+- test handoff :: 100
+- test queue :: 100
+- test throughput :: 100
+- through bottleneck :: 100
+- through queue :: 100
+- through throughput :: 100
+- throughput :: 100
+- throughput boundary :: 100
+- throughput candidate :: 100
+- throughput constraint :: 100
+- throughput evidence :: 100
+- throughput packet :: 100
+- throughput path :: 100
+- throughput probe :: 100
+- throughput receipt :: 100
+- throughput result :: 100
+- throughput scope :: 100
+- throughput status :: 100
+- throughput support :: 100
+- throughput surface :: 100
+- throughput trace :: 100
+- throughput witness :: 100
+- under bottleneck :: 100
+- under queue :: 100
+- under throughput :: 100
+- until bottleneck :: 100
+- until handoff :: 100
+- until queue :: 100
+- until throughput :: 100
+- verify bottleneck :: 100
+- verify handoff :: 100
+- verify queue :: 100
+- verify throughput :: 100
+- where bottleneck :: 100
+- where queue :: 100
+- where throughput :: 100
+- while bottleneck :: 100
+- while queue :: 100
+- while throughput :: 100
+- wip :: 100
+- within bottleneck :: 100
+- within queue :: 100
+- within throughput :: 100
+- work in progress :: 100
+- workcell :: 100
+- across handoff :: 96
+- after handoff :: 96
+- before handoff :: 96
+- between handoff :: 96
+- through handoff :: 96
+- under handoff :: 96
+- where handoff :: 96
+- while handoff :: 96
+- within handoff :: 96
+- across choke :: 95
+
+## triplets
+
+- across bounded bottleneck :: 100
+- across current bottleneck :: 100
+- across finite bottleneck :: 100
+- across live bottleneck :: 100
+- across local bottleneck :: 100
+- across open bottleneck :: 100
+- andon visible problem :: 100
+- between bounded bottleneck :: 100
+- between current bottleneck :: 100
+- between finite bottleneck :: 100
+- between live bottleneck :: 100
+- between local bottleneck :: 100
+- between open bottleneck :: 100
+- bottleneck boundary path :: 100
+- bottleneck evidence path :: 100
+- bottleneck packet path :: 100
+- bottleneck path path :: 100
+- bottleneck queue flow :: 100
+- bottleneck receipt path :: 100
+- bottleneck result path :: 100
+- bottleneck scope path :: 100
+- bottleneck support path :: 100
+- bottleneck surface path :: 100
+- bottleneck trace path :: 100
+- check bottleneck receipt :: 100
+- compare bottleneck receipt :: 100
+- hold bottleneck receipt :: 100
+- jidoka defect stop :: 100
+- just in time :: 100
+- kanban pull signal :: 100
+- lead time reduction :: 100
+- maintenance reliability throughput :: 100
+- measure bottleneck receipt :: 100
+- next process pulls :: 100
+- observe bottleneck receipt :: 100
+- preserve bottleneck receipt :: 100
+- quality built process :: 100
+- rework waste removal :: 100
+- right quantity timing :: 100
+- standard work improvement :: 100
+- takt time leveling :: 100
+- test bottleneck receipt :: 100
+- through current bottleneck :: 100
+- throughput handoff drag :: 100
+- under bottleneck queue :: 100
+- under bounded bottleneck :: 100
+- under current bottleneck :: 100
+- under finite bottleneck :: 100
+- under live bottleneck :: 100
+- under local bottleneck :: 100
+- under open bottleneck :: 100
+- under queue capacity :: 100
+- under queue flow :: 100
+- under queue handoff :: 100
+- under queue workcell :: 100
+- under throughput queue :: 100
+- verify bottleneck receipt :: 100
+- wip inventory flow :: 100
+- within bottleneck queue :: 100
+- within bounded bottleneck :: 100
+- within current bottleneck :: 100
+- within finite bottleneck :: 100
+- within live bottleneck :: 100
+- within local bottleneck :: 100
+- within open bottleneck :: 100
+- within queue capacity :: 100
+- within queue flow :: 100
+- within queue handoff :: 100
+- within queue workcell :: 100
+- within throughput queue :: 100
+- work in progress :: 100
+- before bounded bottleneck :: 99
+- before current bottleneck :: 99
+- before finite bottleneck :: 99
+- before live bottleneck :: 99
+- before local bottleneck :: 99
+- before open bottleneck :: 99
+- through bounded bottleneck :: 99
+- through finite bottleneck :: 99
+- through live bottleneck :: 99
+- through local bottleneck :: 99
+- through open bottleneck :: 99
+- under throughput bottleneck :: 99
+- across bounded queue :: 98
+- across current queue :: 98
+- across finite queue :: 98
+- across live queue :: 98
+- across local queue :: 98
+- across open queue :: 98
+- between bounded queue :: 98
+- between current queue :: 98
+- between local queue :: 98
+- under bottleneck flow :: 98
+- under bottleneck handoff :: 98
+- under bottleneck workcell :: 98
+- under bounded queue :: 98
+- under capacity batch :: 98
+- under current queue :: 98
+- under finite queue :: 98
+- under flow batch :: 98
+- under flow capacity :: 98
+- under flow latency :: 98
+- under handoff capacity :: 98
+- under handoff flow :: 98
+- under handoff latency :: 98
+- under handoff workcell :: 98
+- under live queue :: 98
+- under local queue :: 98
+- under open queue :: 98
+- under throughput handoff :: 98
+- under throughput workcell :: 98
+- under workcell batch :: 98
+- under workcell capacity :: 98
+- under workcell flow :: 98
+- under workcell latency :: 98
+- within bounded queue :: 98
+- within current queue :: 98
+- within finite queue :: 98
+- within live queue :: 98
+- within local queue :: 98
+- within open queue :: 98
+- before bounded queue :: 97
+- before current queue :: 97
+- before finite queue :: 97
+- before live queue :: 97
+- before local queue :: 97
+- before open queue :: 97
+- between finite queue :: 97
+- between live queue :: 97
+- between open queue :: 97

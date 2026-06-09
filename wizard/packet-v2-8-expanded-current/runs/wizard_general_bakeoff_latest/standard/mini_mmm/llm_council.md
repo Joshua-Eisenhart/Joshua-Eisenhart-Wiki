@@ -1,0 +1,389 @@
+Lane-local behavior probe body for LLM Council. Candidate root: /Users/joshuaeisenhart/Desktop/mmm_wizard_complete_system_packet_v2_8_expanded_candidate. This record was normalized from collected probe output only. The harness did not spawn agents, infer hidden execution, or add a claim beyond the supplied lane record. Review this lane as receipt evidence: checked material, conclusion, remaining open question, and cited evidence must remain tied to the captured output. The body exists so the adapter can verify that every completed lane has a lane-local language surface rather than borrowing global prose. Future readers should treat the text as a behavior probe normalization artifact, not as independent proof of correctness. 
+
+Collected output:
+# MMM_VOICE_LLM_COUNCIL_STANDARD_v2_8
+
+## words
+- mini-MMM :: 100
+- mini MMM :: 100
+- voice shape :: 100
+- voice shaping :: 100
+- shape voice :: 100
+- shaped voice :: 100
+- voice contour :: 100
+- voice signature :: 100
+- voice localizer :: 100
+- local voice :: 100
+- aligned nouns :: 100
+- correlated thinkers :: 100
+- thinker alignment :: 100
+- noun alignment :: 100
+
+- alternate reading :: 100
+- blocked :: 100
+- blocker :: 100
+- calm :: 100
+- challenger :: 100
+- changed :: 100
+- check :: 100
+- codex :: 100
+- collapsing :: 100
+- comparison :: 100
+- council :: 100
+- crosscheck :: 100
+- deciding :: 100
+- diagnostic :: 100
+- disagreement :: 100
+- dissent :: 100
+- even :: 100
+- existing :: 100
+- exists :: 100
+- external :: 100
+- family :: 100
+- frame :: 100
+- gemini :: 100
+- generic :: 100
+- harness :: 100
+- implementation :: 100
+- independent :: 100
+- independent route :: 100
+- judgment :: 100
+- live :: 100
+- llm :: 100
+- majority :: 100
+- minority :: 100
+- model :: 100
+- model family :: 100
+- model-family :: 100
+- models :: 100
+- most :: 100
+- no consensus :: 100
+- not a vote :: 100
+- objection :: 100
+- opus :: 100
+- outside :: 100
+- outside frame :: 100
+- outside-frame :: 100
+- provide :: 100
+- receipt :: 100
+- receipt changed :: 100
+- reject :: 100
+- replacing :: 100
+- reporting :: 100
+- reviewer :: 100
+- role :: 100
+- role-family :: 100
+- roles :: 100
+- route :: 100
+- route status :: 100
+- routes :: 100
+- simulation :: 100
+- sonnet :: 100
+- split :: 100
+- split retained :: 100
+- state :: 100
+- stealing :: 100
+- summarizing :: 100
+- them :: 100
+- they :: 100
+- unsupported :: 100
+- untried :: 100
+- using :: 100
+- view :: 100
+- vote :: 100
+
+## couplings
+
+- across council :: 100
+- across diagnostic :: 100
+- across dissent :: 100
+- across untried :: 100
+- after council :: 100
+- after diagnostic :: 100
+- after dissent :: 100
+- after untried :: 100
+- alternate reading :: 100
+- alternate reading comparison :: 100
+- alternate reading independent route :: 100
+- alternate reading route status :: 100
+- before council :: 100
+- before diagnostic :: 100
+- before dissent :: 100
+- before untried :: 100
+- between council :: 100
+- between diagnostic :: 100
+- between dissent :: 100
+- between untried :: 100
+- blocked :: 100
+- blocked diagnostic :: 100
+- blocked model :: 100
+- blocked untried :: 100
+- codex diagnostic :: 100
+- codex dissent :: 100
+- codex untried :: 100
+- comparison :: 100
+- council :: 100
+- council codex :: 100
+- council disagreement :: 100
+- council dissent :: 100
+- council external :: 100
+- council gemini :: 100
+- council model :: 100
+- council opus :: 100
+- council route :: 100
+- council sonnet :: 100
+- council split :: 100
+- council state :: 100
+- council view :: 100
+- cross model check :: 100
+- diagnostic :: 100
+- diagnostic live :: 100
+- diagnostic route :: 100
+- disagreement diagnostic :: 100
+- disagreement preserved :: 100
+- disagreement untried :: 100
+- dissent :: 100
+- dissent blocked :: 100
+- dissent diagnostic :: 100
+- dissent disagreement :: 100
+- dissent live :: 100
+- dissent untried :: 100
+- during council :: 100
+- during diagnostic :: 100
+- during dissent :: 100
+- during untried :: 100
+- external check :: 100
+- external pressure :: 100
+- gemini diagnostic :: 100
+- gemini dissent :: 100
+- gemini untried :: 100
+- independent comparison :: 100
+- independent reviewer :: 100
+- independent route :: 100
+- independent route comparison :: 100
+- independent route route status :: 100
+- independent route split retained :: 100
+- live :: 100
+- live dissent :: 100
+- minority objection :: 100
+- model dissent :: 100
+- model family :: 100
+- model family comparison :: 100
+- model family independent route :: 100
+- model family route status :: 100
+- model route :: 100
+- near council :: 100
+- no consensus :: 100
+- no consensus comparison :: 100
+- no consensus independent route :: 100
+- no consensus route status :: 100
+- not a vote :: 100
+- opus diagnostic :: 100
+- opus dissent :: 100
+- opus untried :: 100
+- outside frame :: 100
+- receipt changed :: 100
+- receipt changed comparison :: 100
+- receipt changed independent route :: 100
+- receipt changed route status :: 100
+- receipt comparison :: 100
+- relative council :: 100
+- role :: 100
+- role comparison :: 100
+- role independent route :: 100
+- role route status :: 100
+- role split retained :: 100
+- route :: 100
+- route blocked :: 100
+- route blocker :: 100
+- route disagreement :: 100
+- route dissent :: 100
+- route state :: 100
+- route status :: 100
+- route untried :: 100
+- since council :: 100
+- sonnet diagnostic :: 100
+- sonnet dissent :: 100
+- sonnet untried :: 100
+- split retained :: 100
+- through council :: 100
+- through diagnostic :: 100
+- through dissent :: 100
+- through untried :: 100
+- toward council :: 100
+- under codex :: 100
+- under council :: 100
+- under diagnostic :: 100
+- under dissent :: 100
+- under model :: 100
+- under opus :: 100
+- under route :: 100
+- under sonnet :: 100
+- under untried :: 100
+- unsupported :: 100
+- unsupported comparison :: 100
+- unsupported independent route :: 100
+- unsupported route status :: 100
+- until council :: 100
+- until diagnostic :: 100
+- until dissent :: 100
+- until untried :: 100
+- untried :: 100
+- untried diagnostic :: 100
+- untried live :: 100
+- untried route :: 100
+- within council :: 100
+- within diagnostic :: 100
+- within dissent :: 100
+- within untried :: 100
+- from diagnostic :: 99
+- from untried :: 99
+- since diagnostic :: 99
+- since dissent :: 99
+- since untried :: 99
+- under blocked :: 99
+- under check :: 99
+- under disagreement :: 99
+- under external :: 99
+- under family :: 99
+- under gemini :: 99
+- under independent :: 99
+- under live :: 99
+- under receipt :: 99
+- under state :: 99
+- under view :: 99
+- within codex :: 99
+- within disagreement :: 99
+
+## triplets
+
+- across council route :: 100
+- across diagnostic live :: 100
+- across dissent blocked :: 100
+- across dissent disagreement :: 100
+- across untried live :: 100
+- after council route :: 100
+- after diagnostic live :: 100
+- after untried live :: 100
+- before council route :: 100
+- before diagnostic live :: 100
+- before untried live :: 100
+- between council route :: 100
+- between diagnostic live :: 100
+- between untried live :: 100
+- blocked diagnostic untried :: 100
+- council receipt comparison :: 100
+- cross model pressure :: 100
+- during council route :: 100
+- during diagnostic live :: 100
+- during untried live :: 100
+- independent external check :: 100
+- live dissent preserved :: 100
+- minority objection held :: 100
+- model family route :: 100
+- model route state :: 100
+- not a vote :: 100
+- outside frame objection :: 100
+- through council route :: 100
+- through diagnostic live :: 100
+- through untried live :: 100
+- under blocked diagnostic :: 100
+- under blocked live :: 100
+- under blocked untried :: 100
+- under codex dissent :: 100
+- under codex external :: 100
+- under codex gemini :: 100
+- under codex view :: 100
+- under council model :: 100
+- under council opus :: 100
+- under council route :: 100
+- under council sonnet :: 100
+- under diagnostic family :: 100
+- under diagnostic independent :: 100
+- under diagnostic live :: 100
+- under diagnostic receipt :: 100
+- under disagreement blocked :: 100
+- under disagreement diagnostic :: 100
+- under disagreement untried :: 100
+- under dissent blocked :: 100
+- under dissent disagreement :: 100
+- under dissent state :: 100
+- under dissent untried :: 100
+- under external dissent :: 100
+- under gemini dissent :: 100
+- under model codex :: 100
+- under model opus :: 100
+- under model route :: 100
+- under model sonnet :: 100
+- under opus codex :: 100
+- under opus external :: 100
+- under opus gemini :: 100
+- under opus view :: 100
+- under route codex :: 100
+- under route gemini :: 100
+- under route opus :: 100
+- under route sonnet :: 100
+- under sonnet codex :: 100
+- under sonnet external :: 100
+- under sonnet gemini :: 100
+- under sonnet opus :: 100
+- under state diagnostic :: 100
+- under state untried :: 100
+- under untried diagnostic :: 100
+- under untried family :: 100
+- under untried live :: 100
+- under untried receipt :: 100
+- under view dissent :: 100
+- until council route :: 100
+- within blocked diagnostic :: 100
+- within blocked untried :: 100
+- within codex dissent :: 100
+- within council model :: 100
+- within council opus :: 100
+- within council route :: 100
+- within council sonnet :: 100
+- within diagnostic live :: 100
+- within disagreement blocked :: 100
+- within disagreement diagnostic :: 100
+- within disagreement untried :: 100
+- within dissent blocked :: 100
+- within dissent disagreement :: 100
+- within dissent state :: 100
+- within dissent untried :: 100
+- within external dissent :: 100
+- within gemini dissent :: 100
+- within model route :: 100
+- within state diagnostic :: 100
+- within state untried :: 100
+- within untried diagnostic :: 100
+- within untried live :: 100
+- within view dissent :: 100
+- across blocked diagnostic :: 99
+- across blocked untried :: 99
+- across disagreement diagnostic :: 99
+- across disagreement untried :: 99
+- across dissent untried :: 99
+- across untried diagnostic :: 99
+- under disagreement state :: 99
+- under external disagreement :: 99
+- under external state :: 99
+- under external view :: 99
+- under gemini disagreement :: 99
+- under gemini external :: 99
+- under gemini view :: 99
+- under state blocked :: 99
+- under state live :: 99
+- under view blocked :: 99
+- under view disagreement :: 99
+- under view state :: 99
+- under blocked receipt :: 98
+- under family check :: 98
+- under family frame :: 98
+- under family independent :: 98
+- under family outside :: 98
+- under independent check :: 98
+- under independent outside :: 98
+- under live check :: 98
+- under live family :: 98
+- under live independent :: 98
+- under live receipt :: 98

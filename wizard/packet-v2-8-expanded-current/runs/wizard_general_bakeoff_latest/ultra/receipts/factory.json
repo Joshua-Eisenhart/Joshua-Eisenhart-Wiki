@@ -1,0 +1,12 @@
+{
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/mmm_wizard_complete_system_packet_v2_8_expanded_candidate",
+  "checked": "loaded mini_mmms/ultra/voices/md/MMM_VOICE_FACTORY_ULTRA_v2_8.md",
+  "concluded": "Voice contribution: inspect the wider workstream for bottleneck, queue, handoff drag, rework, and repeatability before choosing the next local move.",
+  "evidence": "mini_mmms/ultra/voices/md/MMM_VOICE_FACTORY_ULTRA_v2_8.md terms: mini-MMM :: 100, mini MMM :: 100, voice shape :: 100, voice shaping :: 100, shape voice :: 100, shaped voice :: 100, voice contour :: 100, voice signature :: 100",
+  "generated_at": "2026-04-28T22:36:04.141073+00:00",
+  "lane": "Factory",
+  "open": "live proof pending",
+  "output_excerpt": "Task: Compare Wizard General sizes and choose the best local runtime surface.\nWizard General size: ultra\nWave 1: Voice Wave\nVoice contribution: inspect the wider workstream for bottleneck, queue, handoff drag, rework, and repeatability before choosing the next local move.\nLoaded language body terms: mini-MMM :: 100, mini MMM :: 100, voice shape :: 100, voice shaping :: 100, shape voice :: 100, shaped voice :: 100, voice contour :: 100, voice signature :: 100",
+  "output_sha256": "28bab8387a3e1f89a292c2c4dc09ab65bca8e30b637b3bf9c37bd6cde6805fd8",
+  "schema_version": "wizard_behavior_harness.v1"
+}

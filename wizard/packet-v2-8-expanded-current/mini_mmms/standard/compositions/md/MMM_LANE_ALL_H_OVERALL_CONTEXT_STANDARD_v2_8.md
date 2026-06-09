@@ -1,0 +1,106 @@
+# MMM_LANE_ALL_H_OVERALL_CONTEXT_STANDARD_v2_8
+
+## words
+- systems :: 100
+- factory :: 99
+- strategy :: 98
+- context :: 97
+- loop :: 96
+- incentive :: 95
+- coupling :: 94
+- delay :: 93
+- bottleneck :: 92
+- queue :: 91
+- handoff :: 90
+- campaign :: 89
+- sequence :: 88
+- resource :: 87
+- retreat :: 86
+- reframe :: 85
+- back :: 84
+- audit :: 83
+- project :: 82
+- wiki :: 81
+- sim :: 80
+- qit :: 79
+- graph :: 78
+- proof :: 77
+- next move :: 76
+- systems :: 75
+- factory :: 74
+- strategy :: 73
+- context :: 72
+- loop :: 71
+- incentive :: 70
+- coupling :: 70
+- delay :: 70
+- bottleneck :: 70
+- queue :: 101
+- handoff :: 100
+- campaign :: 99
+- sequence :: 98
+- resource :: 97
+- retreat :: 96
+- reframe :: 95
+- back :: 94
+- audit :: 93
+- project :: 92
+- wiki :: 91
+- sim :: 90
+- qit :: 89
+- graph :: 88
+- proof :: 87
+- next move :: 86
+- systems :: 85
+- factory :: 84
+- strategy :: 83
+- context :: 82
+- loop :: 81
+- incentive :: 80
+- coupling :: 79
+- delay :: 78
+- bottleneck :: 77
+- queue :: 76
+- handoff :: 75
+- campaign :: 74
+- sequence :: 73
+- resource :: 72
+- retreat :: 71
+- reframe :: 70
+- back :: 70
+- audit :: 70
+- project :: 70
+- wiki :: 101
+- sim :: 100
+- qit :: 99
+- graph :: 98
+- proof :: 97
+- next move :: 96
+- systems :: 95
+- factory :: 94
+- strategy :: 93
+- context :: 92
+- loop :: 91
+- incentive :: 90
+- coupling :: 89
+- delay :: 88
+- bottleneck :: 87
+- queue :: 86
+- handoff :: 85
+- campaign :: 84
+- sequence :: 83
+- resource :: 82
+- retreat :: 81
+- reframe :: 80
+- back :: 79
+- audit :: 78
+- project :: 77
+- wiki :: 76
+- sim :: 75
+- qit :: 74
+- graph :: 73
+- proof :: 72
+- next move :: 71
+
+## contract
+This composition is a follow-up bundle, not proof that its member routes already ran. It must emit member truth, integrated result, tension handled, and next gate before the controller can cite it as executed.

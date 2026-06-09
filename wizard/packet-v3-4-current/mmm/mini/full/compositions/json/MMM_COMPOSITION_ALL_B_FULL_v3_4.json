@@ -1,0 +1,3464 @@
+{
+  "words": [
+    [
+      1,
+      "plurality",
+      100
+    ],
+    [
+      2,
+      "live",
+      100
+    ],
+    [
+      3,
+      "options",
+      100
+    ],
+    [
+      4,
+      "hume",
+      100
+    ],
+    [
+      5,
+      "read",
+      100
+    ],
+    [
+      6,
+      "zhuangzi",
+      100
+    ],
+    [
+      7,
+      "hold",
+      100
+    ],
+    [
+      8,
+      "wildcard",
+      100
+    ],
+    [
+      9,
+      "probe",
+      100
+    ],
+    [
+      10,
+      "anti",
+      100
+    ],
+    [
+      11,
+      "collapse",
+      100
+    ],
+    [
+      12,
+      "preserve",
+      100
+    ],
+    [
+      13,
+      "divergence",
+      100
+    ],
+    [
+      14,
+      "dissent",
+      100
+    ],
+    [
+      15,
+      "bundle",
+      100
+    ],
+    [
+      16,
+      "human read",
+      100
+    ],
+    [
+      17,
+      "live readings",
+      100
+    ],
+    [
+      18,
+      "falsifier",
+      100
+    ],
+    [
+      19,
+      "observable",
+      100
+    ],
+    [
+      20,
+      "wildcard probe",
+      100
+    ],
+    [
+      21,
+      "collapse audit",
+      99
+    ],
+    [
+      22,
+      "surviving split",
+      99
+    ],
+    [
+      23,
+      "under",
+      99
+    ],
+    [
+      24,
+      "within",
+      99
+    ],
+    [
+      25,
+      "across",
+      99
+    ],
+    [
+      26,
+      "between",
+      99
+    ],
+    [
+      27,
+      "through",
+      99
+    ],
+    [
+      28,
+      "before",
+      99
+    ],
+    [
+      29,
+      "after",
+      99
+    ],
+    [
+      30,
+      "from",
+      99
+    ],
+    [
+      31,
+      "by",
+      99
+    ],
+    [
+      32,
+      "with",
+      99
+    ],
+    [
+      33,
+      "without",
+      99
+    ],
+    [
+      34,
+      "against",
+      99
+    ],
+    [
+      35,
+      "relative",
+      99
+    ],
+    [
+      36,
+      "locally",
+      99
+    ],
+    [
+      37,
+      "rather",
+      99
+    ],
+    [
+      38,
+      "instead",
+      99
+    ],
+    [
+      39,
+      "only",
+      99
+    ],
+    [
+      40,
+      "still",
+      99
+    ],
+    [
+      41,
+      "likely",
+      98
+    ],
+    [
+      42,
+      "possible",
+      98
+    ],
+    [
+      43,
+      "bounded",
+      98
+    ],
+    [
+      44,
+      "finite",
+      98
+    ],
+    [
+      45,
+      "local",
+      98
+    ],
+    [
+      46,
+      "current",
+      98
+    ],
+    [
+      47,
+      "observed",
+      98
+    ],
+    [
+      48,
+      "measured",
+      98
+    ],
+    [
+      49,
+      "checked",
+      98
+    ],
+    [
+      50,
+      "open",
+      98
+    ],
+    [
+      51,
+      "partial",
+      98
+    ],
+    [
+      52,
+      "limited",
+      98
+    ],
+    [
+      53,
+      "constraint",
+      98
+    ],
+    [
+      54,
+      "evidence",
+      98
+    ],
+    [
+      55,
+      "observation",
+      98
+    ],
+    [
+      56,
+      "measurement",
+      98
+    ],
+    [
+      57,
+      "test",
+      98
+    ],
+    [
+      58,
+      "trace",
+      98
+    ],
+    [
+      59,
+      "sample",
+      98
+    ],
+    [
+      60,
+      "case",
+      98
+    ],
+    [
+      61,
+      "instance",
+      97
+    ],
+    [
+      62,
+      "name",
+      97
+    ],
+    [
+      63,
+      "term",
+      97
+    ],
+    [
+      64,
+      "word",
+      97
+    ],
+    [
+      65,
+      "use",
+      97
+    ],
+    [
+      66,
+      "relation",
+      97
+    ],
+    [
+      67,
+      "distinction",
+      97
+    ],
+    [
+      68,
+      "comparison",
+      97
+    ],
+    [
+      69,
+      "support",
+      97
+    ],
+    [
+      70,
+      "estimate",
+      97
+    ],
+    [
+      71,
+      "uncertainty",
+      97
+    ],
+    [
+      72,
+      "model",
+      97
+    ],
+    [
+      73,
+      "witness",
+      97
+    ],
+    [
+      74,
+      "counterexample",
+      97
+    ],
+    [
+      75,
+      "candidate",
+      97
+    ],
+    [
+      76,
+      "survivor",
+      97
+    ],
+    [
+      77,
+      "surface",
+      97
+    ],
+    [
+      78,
+      "boundary",
+      97
+    ],
+    [
+      79,
+      "scope",
+      97
+    ],
+    [
+      80,
+      "condition",
+      97
+    ],
+    [
+      81,
+      "result",
+      96
+    ],
+    [
+      82,
+      "path",
+      96
+    ],
+    [
+      83,
+      "branch",
+      96
+    ],
+    [
+      84,
+      "fork",
+      96
+    ],
+    [
+      85,
+      "reading",
+      96
+    ],
+    [
+      86,
+      "perspective",
+      96
+    ],
+    [
+      87,
+      "claim",
+      96
+    ],
+    [
+      88,
+      "route",
+      96
+    ],
+    [
+      89,
+      "receipt",
+      96
+    ],
+    [
+      90,
+      "voice",
+      96
+    ],
+    [
+      91,
+      "lane",
+      96
+    ],
+    [
+      92,
+      "all-b",
+      96
+    ],
+    [
+      93,
+      "preservation",
+      96
+    ],
+    [
+      94,
+      "composite",
+      96
+    ],
+    [
+      95,
+      "when",
+      96
+    ],
+    [
+      96,
+      "readings",
+      96
+    ],
+    [
+      97,
+      "and",
+      96
+    ],
+    [
+      98,
+      "resistance",
+      96
+    ],
+    [
+      99,
+      "are",
+      96
+    ],
+    [
+      100,
+      "central",
+      96
+    ],
+    [
+      101,
+      "compose",
+      95
+    ],
+    [
+      102,
+      "popper",
+      95
+    ],
+    [
+      103,
+      "feynman",
+      95
+    ],
+    [
+      104,
+      "audit",
+      95
+    ],
+    [
+      105,
+      "state",
+      95
+    ],
+    [
+      106,
+      "the",
+      95
+    ],
+    [
+      107,
+      "human",
+      95
+    ],
+    [
+      108,
+      "while",
+      95
+    ],
+    [
+      109,
+      "keeping",
+      95
+    ],
+    [
+      110,
+      "apart",
+      95
+    ],
+    [
+      111,
+      "attack",
+      95
+    ],
+    [
+      112,
+      "strongest",
+      95
+    ],
+    [
+      113,
+      "make",
+      95
+    ],
+    [
+      114,
+      "check",
+      95
+    ],
+    [
+      115,
+      "until",
+      95
+    ],
+    [
+      116,
+      "exclusion",
+      95
+    ],
+    [
+      117,
+      "earns",
+      95
+    ],
+    [
+      118,
+      "convergence",
+      95
+    ],
+    [
+      119,
+      "not",
+      95
+    ],
+    [
+      120,
+      "direct",
+      95
+    ],
+    [
+      121,
+      "closeout",
+      94
+    ],
+    [
+      122,
+      "all",
+      94
+    ],
+    [
+      123,
+      "voices",
+      94
+    ],
+    [
+      124,
+      "indefinite",
+      94
+    ],
+    [
+      125,
+      "indecision",
+      94
+    ],
+    [
+      126,
+      "turning",
+      94
+    ],
+    [
+      127,
+      "into",
+      94
+    ],
+    [
+      128,
+      "one",
+      94
+    ],
+    [
+      129,
+      "story",
+      94
+    ],
+    [
+      130,
+      "duplicating",
+      94
+    ],
+    [
+      131,
+      "different",
+      94
+    ],
+    [
+      132,
+      "labels",
+      94
+    ],
+    [
+      133,
+      "forgetting",
+      94
+    ],
+    [
+      134,
+      "decisive",
+      94
+    ],
+    [
+      135,
+      "letting",
+      94
+    ],
+    [
+      136,
+      "become",
+      94
+    ],
+    [
+      137,
+      "noise",
+      94
+    ],
+    [
+      138,
+      "actual",
+      94
+    ],
+    [
+      139,
+      "signal",
+      94
+    ],
+    [
+      140,
+      "what",
+      93
+    ],
+    [
+      141,
+      "would",
+      93
+    ],
+    [
+      142,
+      "exclude",
+      93
+    ],
+    [
+      143,
+      "each",
+      93
+    ],
+    [
+      144,
+      "which",
+      93
+    ],
+    [
+      145,
+      "surprise",
+      93
+    ],
+    [
+      146,
+      "could",
+      93
+    ],
+    [
+      147,
+      "separate",
+      93
+    ],
+    [
+      148,
+      "default",
+      93
+    ],
+    [
+      149,
+      "execution",
+      93
+    ],
+    [
+      150,
+      "pressure",
+      93
+    ],
+    [
+      151,
+      "hygiene",
+      93
+    ],
+    [
+      152,
+      "composition",
+      93
+    ],
+    [
+      153,
+      "once",
+      93
+    ],
+    [
+      154,
+      "receipts",
+      93
+    ],
+    [
+      155,
+      "exist",
+      93
+    ],
+    [
+      156,
+      "surviving",
+      93
+    ],
+    [
+      157,
+      "split",
+      93
+    ],
+    [
+      158,
+      "starts",
+      93
+    ],
+    [
+      159,
+      "all-a",
+      93
+    ],
+    [
+      160,
+      "evidence bridge",
+      98
+    ],
+    [
+      161,
+      "exclusion tests",
+      98
+    ],
+    [
+      162,
+      "off-axis probe",
+      98
+    ]
+  ],
+  "couplings": [
+    [
+      1,
+      "under plurality",
+      100
+    ],
+    [
+      2,
+      "under live",
+      100
+    ],
+    [
+      3,
+      "under options",
+      100
+    ],
+    [
+      4,
+      "under hume",
+      100
+    ],
+    [
+      5,
+      "under read",
+      100
+    ],
+    [
+      6,
+      "under zhuangzi",
+      100
+    ],
+    [
+      7,
+      "under hold",
+      100
+    ],
+    [
+      8,
+      "under wildcard",
+      100
+    ],
+    [
+      9,
+      "under probe",
+      100
+    ],
+    [
+      10,
+      "under anti",
+      100
+    ],
+    [
+      11,
+      "under collapse",
+      100
+    ],
+    [
+      12,
+      "under preserve",
+      100
+    ],
+    [
+      13,
+      "under divergence",
+      100
+    ],
+    [
+      14,
+      "under dissent",
+      100
+    ],
+    [
+      15,
+      "under bundle",
+      100
+    ],
+    [
+      16,
+      "within plurality",
+      100
+    ],
+    [
+      17,
+      "within live",
+      100
+    ],
+    [
+      18,
+      "within options",
+      100
+    ],
+    [
+      19,
+      "within hume",
+      100
+    ],
+    [
+      20,
+      "within read",
+      100
+    ],
+    [
+      21,
+      "within zhuangzi",
+      99
+    ],
+    [
+      22,
+      "within hold",
+      99
+    ],
+    [
+      23,
+      "within wildcard",
+      99
+    ],
+    [
+      24,
+      "within probe",
+      99
+    ],
+    [
+      25,
+      "within anti",
+      99
+    ],
+    [
+      26,
+      "within collapse",
+      99
+    ],
+    [
+      27,
+      "within preserve",
+      99
+    ],
+    [
+      28,
+      "within divergence",
+      99
+    ],
+    [
+      29,
+      "within dissent",
+      99
+    ],
+    [
+      30,
+      "within bundle",
+      99
+    ],
+    [
+      31,
+      "across plurality",
+      99
+    ],
+    [
+      32,
+      "across live",
+      99
+    ],
+    [
+      33,
+      "across options",
+      99
+    ],
+    [
+      34,
+      "across hume",
+      99
+    ],
+    [
+      35,
+      "across read",
+      99
+    ],
+    [
+      36,
+      "across zhuangzi",
+      99
+    ],
+    [
+      37,
+      "across hold",
+      99
+    ],
+    [
+      38,
+      "across wildcard",
+      99
+    ],
+    [
+      39,
+      "across probe",
+      99
+    ],
+    [
+      40,
+      "across anti",
+      99
+    ],
+    [
+      41,
+      "across collapse",
+      98
+    ],
+    [
+      42,
+      "across preserve",
+      98
+    ],
+    [
+      43,
+      "across divergence",
+      98
+    ],
+    [
+      44,
+      "across dissent",
+      98
+    ],
+    [
+      45,
+      "across bundle",
+      98
+    ],
+    [
+      46,
+      "between plurality",
+      98
+    ],
+    [
+      47,
+      "between live",
+      98
+    ],
+    [
+      48,
+      "between options",
+      98
+    ],
+    [
+      49,
+      "between hume",
+      98
+    ],
+    [
+      50,
+      "between read",
+      98
+    ],
+    [
+      51,
+      "between zhuangzi",
+      98
+    ],
+    [
+      52,
+      "between hold",
+      98
+    ],
+    [
+      53,
+      "between wildcard",
+      98
+    ],
+    [
+      54,
+      "between probe",
+      98
+    ],
+    [
+      55,
+      "between anti",
+      98
+    ],
+    [
+      56,
+      "between collapse",
+      98
+    ],
+    [
+      57,
+      "between preserve",
+      98
+    ],
+    [
+      58,
+      "between divergence",
+      98
+    ],
+    [
+      59,
+      "between dissent",
+      98
+    ],
+    [
+      60,
+      "between bundle",
+      98
+    ],
+    [
+      61,
+      "through plurality",
+      97
+    ],
+    [
+      62,
+      "through live",
+      97
+    ],
+    [
+      63,
+      "through options",
+      97
+    ],
+    [
+      64,
+      "through hume",
+      97
+    ],
+    [
+      65,
+      "through read",
+      97
+    ],
+    [
+      66,
+      "through zhuangzi",
+      97
+    ],
+    [
+      67,
+      "through hold",
+      97
+    ],
+    [
+      68,
+      "through wildcard",
+      97
+    ],
+    [
+      69,
+      "through probe",
+      97
+    ],
+    [
+      70,
+      "through anti",
+      97
+    ],
+    [
+      71,
+      "through collapse",
+      97
+    ],
+    [
+      72,
+      "through preserve",
+      97
+    ],
+    [
+      73,
+      "through divergence",
+      97
+    ],
+    [
+      74,
+      "through dissent",
+      97
+    ],
+    [
+      75,
+      "through bundle",
+      97
+    ],
+    [
+      76,
+      "before plurality",
+      97
+    ],
+    [
+      77,
+      "before live",
+      97
+    ],
+    [
+      78,
+      "before options",
+      97
+    ],
+    [
+      79,
+      "before hume",
+      97
+    ],
+    [
+      80,
+      "before read",
+      97
+    ],
+    [
+      81,
+      "before zhuangzi",
+      96
+    ],
+    [
+      82,
+      "before hold",
+      96
+    ],
+    [
+      83,
+      "before wildcard",
+      96
+    ],
+    [
+      84,
+      "before probe",
+      96
+    ],
+    [
+      85,
+      "before anti",
+      96
+    ],
+    [
+      86,
+      "before collapse",
+      96
+    ],
+    [
+      87,
+      "before preserve",
+      96
+    ],
+    [
+      88,
+      "before divergence",
+      96
+    ],
+    [
+      89,
+      "before dissent",
+      96
+    ],
+    [
+      90,
+      "before bundle",
+      96
+    ],
+    [
+      91,
+      "after plurality",
+      96
+    ],
+    [
+      92,
+      "after live",
+      96
+    ],
+    [
+      93,
+      "after options",
+      96
+    ],
+    [
+      94,
+      "after hume",
+      96
+    ],
+    [
+      95,
+      "after read",
+      96
+    ],
+    [
+      96,
+      "after zhuangzi",
+      96
+    ],
+    [
+      97,
+      "after hold",
+      96
+    ],
+    [
+      98,
+      "after wildcard",
+      96
+    ],
+    [
+      99,
+      "after probe",
+      96
+    ],
+    [
+      100,
+      "after anti",
+      96
+    ],
+    [
+      101,
+      "after collapse",
+      95
+    ],
+    [
+      102,
+      "after preserve",
+      95
+    ],
+    [
+      103,
+      "after divergence",
+      95
+    ],
+    [
+      104,
+      "after dissent",
+      95
+    ],
+    [
+      105,
+      "after bundle",
+      95
+    ],
+    [
+      106,
+      "from plurality",
+      95
+    ],
+    [
+      107,
+      "from live",
+      95
+    ],
+    [
+      108,
+      "from options",
+      95
+    ],
+    [
+      109,
+      "from hume",
+      95
+    ],
+    [
+      110,
+      "from read",
+      95
+    ],
+    [
+      111,
+      "from zhuangzi",
+      95
+    ],
+    [
+      112,
+      "from hold",
+      95
+    ],
+    [
+      113,
+      "from wildcard",
+      95
+    ],
+    [
+      114,
+      "from probe",
+      95
+    ],
+    [
+      115,
+      "from anti",
+      95
+    ],
+    [
+      116,
+      "from collapse",
+      95
+    ],
+    [
+      117,
+      "from preserve",
+      95
+    ],
+    [
+      118,
+      "from divergence",
+      95
+    ],
+    [
+      119,
+      "from dissent",
+      95
+    ],
+    [
+      120,
+      "from bundle",
+      95
+    ],
+    [
+      121,
+      "by plurality",
+      94
+    ],
+    [
+      122,
+      "by live",
+      94
+    ],
+    [
+      123,
+      "by options",
+      94
+    ],
+    [
+      124,
+      "by hume",
+      94
+    ],
+    [
+      125,
+      "by read",
+      94
+    ],
+    [
+      126,
+      "by zhuangzi",
+      94
+    ],
+    [
+      127,
+      "by hold",
+      94
+    ],
+    [
+      128,
+      "by wildcard",
+      94
+    ],
+    [
+      129,
+      "by probe",
+      94
+    ],
+    [
+      130,
+      "by anti",
+      94
+    ],
+    [
+      131,
+      "by collapse",
+      94
+    ],
+    [
+      132,
+      "by preserve",
+      94
+    ],
+    [
+      133,
+      "by divergence",
+      94
+    ],
+    [
+      134,
+      "by dissent",
+      94
+    ],
+    [
+      135,
+      "by bundle",
+      94
+    ],
+    [
+      136,
+      "with plurality",
+      94
+    ],
+    [
+      137,
+      "with live",
+      94
+    ],
+    [
+      138,
+      "with options",
+      94
+    ],
+    [
+      139,
+      "with hume",
+      94
+    ],
+    [
+      140,
+      "with read",
+      94
+    ],
+    [
+      141,
+      "with zhuangzi",
+      93
+    ],
+    [
+      142,
+      "with hold",
+      93
+    ],
+    [
+      143,
+      "with wildcard",
+      93
+    ],
+    [
+      144,
+      "with probe",
+      93
+    ],
+    [
+      145,
+      "with anti",
+      93
+    ],
+    [
+      146,
+      "with collapse",
+      93
+    ],
+    [
+      147,
+      "with preserve",
+      93
+    ],
+    [
+      148,
+      "with divergence",
+      93
+    ],
+    [
+      149,
+      "with dissent",
+      93
+    ],
+    [
+      150,
+      "with bundle",
+      93
+    ],
+    [
+      151,
+      "without plurality",
+      93
+    ],
+    [
+      152,
+      "without live",
+      93
+    ],
+    [
+      153,
+      "without options",
+      93
+    ],
+    [
+      154,
+      "without hume",
+      93
+    ],
+    [
+      155,
+      "without read",
+      93
+    ],
+    [
+      156,
+      "without zhuangzi",
+      93
+    ],
+    [
+      157,
+      "without hold",
+      93
+    ],
+    [
+      158,
+      "without wildcard",
+      93
+    ],
+    [
+      159,
+      "without probe",
+      93
+    ],
+    [
+      160,
+      "without anti",
+      93
+    ],
+    [
+      161,
+      "without collapse",
+      92
+    ],
+    [
+      162,
+      "without preserve",
+      92
+    ],
+    [
+      163,
+      "without divergence",
+      92
+    ],
+    [
+      164,
+      "without dissent",
+      92
+    ],
+    [
+      165,
+      "without bundle",
+      92
+    ],
+    [
+      166,
+      "against plurality",
+      92
+    ],
+    [
+      167,
+      "against live",
+      92
+    ],
+    [
+      168,
+      "against options",
+      92
+    ],
+    [
+      169,
+      "against hume",
+      92
+    ],
+    [
+      170,
+      "against read",
+      92
+    ],
+    [
+      171,
+      "against zhuangzi",
+      92
+    ],
+    [
+      172,
+      "against hold",
+      92
+    ],
+    [
+      173,
+      "against wildcard",
+      92
+    ],
+    [
+      174,
+      "against probe",
+      92
+    ],
+    [
+      175,
+      "against anti",
+      92
+    ],
+    [
+      176,
+      "against collapse",
+      92
+    ],
+    [
+      177,
+      "against preserve",
+      92
+    ],
+    [
+      178,
+      "against divergence",
+      92
+    ],
+    [
+      179,
+      "against dissent",
+      92
+    ],
+    [
+      180,
+      "against bundle",
+      92
+    ],
+    [
+      181,
+      "plurality live",
+      91
+    ],
+    [
+      182,
+      "plurality options",
+      91
+    ],
+    [
+      183,
+      "plurality hume",
+      91
+    ],
+    [
+      184,
+      "plurality read",
+      91
+    ],
+    [
+      185,
+      "plurality zhuangzi",
+      91
+    ],
+    [
+      186,
+      "plurality hold",
+      91
+    ],
+    [
+      187,
+      "plurality wildcard",
+      91
+    ],
+    [
+      188,
+      "live options",
+      91
+    ],
+    [
+      189,
+      "live hume",
+      91
+    ],
+    [
+      190,
+      "live read",
+      91
+    ],
+    [
+      191,
+      "live zhuangzi",
+      91
+    ],
+    [
+      192,
+      "live hold",
+      91
+    ],
+    [
+      193,
+      "live wildcard",
+      91
+    ],
+    [
+      194,
+      "live probe",
+      91
+    ],
+    [
+      195,
+      "options hume",
+      91
+    ],
+    [
+      196,
+      "options read",
+      91
+    ],
+    [
+      197,
+      "options zhuangzi",
+      91
+    ],
+    [
+      198,
+      "options hold",
+      91
+    ],
+    [
+      199,
+      "options wildcard",
+      91
+    ],
+    [
+      200,
+      "options probe",
+      91
+    ],
+    [
+      201,
+      "options anti",
+      90
+    ],
+    [
+      202,
+      "hume read",
+      90
+    ],
+    [
+      203,
+      "hume zhuangzi",
+      90
+    ],
+    [
+      204,
+      "hume hold",
+      90
+    ],
+    [
+      205,
+      "hume wildcard",
+      90
+    ],
+    [
+      206,
+      "hume probe",
+      90
+    ],
+    [
+      207,
+      "hume anti",
+      90
+    ],
+    [
+      208,
+      "hume collapse",
+      90
+    ],
+    [
+      209,
+      "read zhuangzi",
+      90
+    ],
+    [
+      210,
+      "read hold",
+      90
+    ],
+    [
+      211,
+      "read wildcard",
+      90
+    ],
+    [
+      212,
+      "read probe",
+      90
+    ],
+    [
+      213,
+      "read anti",
+      90
+    ],
+    [
+      214,
+      "read collapse",
+      90
+    ],
+    [
+      215,
+      "read preserve",
+      90
+    ],
+    [
+      216,
+      "zhuangzi hold",
+      90
+    ],
+    [
+      217,
+      "zhuangzi wildcard",
+      90
+    ],
+    [
+      218,
+      "zhuangzi probe",
+      90
+    ],
+    [
+      219,
+      "zhuangzi anti",
+      90
+    ],
+    [
+      220,
+      "zhuangzi collapse",
+      90
+    ],
+    [
+      221,
+      "zhuangzi preserve",
+      89
+    ],
+    [
+      222,
+      "zhuangzi divergence",
+      89
+    ],
+    [
+      223,
+      "hold wildcard",
+      89
+    ],
+    [
+      224,
+      "hold probe",
+      89
+    ],
+    [
+      225,
+      "hold anti",
+      89
+    ],
+    [
+      226,
+      "hold collapse",
+      89
+    ],
+    [
+      227,
+      "hold preserve",
+      89
+    ],
+    [
+      228,
+      "hold divergence",
+      89
+    ],
+    [
+      229,
+      "hold dissent",
+      89
+    ],
+    [
+      230,
+      "wildcard probe",
+      89
+    ],
+    [
+      231,
+      "wildcard anti",
+      89
+    ],
+    [
+      232,
+      "wildcard collapse",
+      89
+    ],
+    [
+      233,
+      "wildcard preserve",
+      89
+    ],
+    [
+      234,
+      "wildcard divergence",
+      89
+    ],
+    [
+      235,
+      "wildcard dissent",
+      89
+    ],
+    [
+      236,
+      "wildcard bundle",
+      89
+    ],
+    [
+      237,
+      "probe anti",
+      89
+    ],
+    [
+      238,
+      "probe collapse",
+      89
+    ],
+    [
+      239,
+      "probe preserve",
+      89
+    ],
+    [
+      240,
+      "probe divergence",
+      89
+    ],
+    [
+      241,
+      "probe dissent",
+      88
+    ],
+    [
+      242,
+      "probe bundle",
+      88
+    ],
+    [
+      243,
+      "probe human read",
+      88
+    ],
+    [
+      244,
+      "anti collapse",
+      88
+    ],
+    [
+      245,
+      "anti preserve",
+      88
+    ],
+    [
+      246,
+      "anti divergence",
+      88
+    ],
+    [
+      247,
+      "anti dissent",
+      88
+    ],
+    [
+      248,
+      "anti bundle",
+      88
+    ],
+    [
+      249,
+      "anti human read",
+      88
+    ],
+    [
+      250,
+      "anti live readings",
+      88
+    ],
+    [
+      251,
+      "collapse preserve",
+      88
+    ],
+    [
+      252,
+      "collapse divergence",
+      88
+    ],
+    [
+      253,
+      "collapse dissent",
+      88
+    ],
+    [
+      254,
+      "collapse bundle",
+      88
+    ],
+    [
+      255,
+      "collapse human read",
+      88
+    ],
+    [
+      256,
+      "collapse live readings",
+      88
+    ],
+    [
+      257,
+      "collapse falsifier",
+      88
+    ],
+    [
+      258,
+      "preserve divergence",
+      88
+    ],
+    [
+      259,
+      "preserve dissent",
+      88
+    ],
+    [
+      260,
+      "preserve bundle",
+      88
+    ],
+    [
+      261,
+      "preserve human read",
+      87
+    ],
+    [
+      262,
+      "preserve live readings",
+      87
+    ],
+    [
+      263,
+      "preserve falsifier",
+      87
+    ],
+    [
+      264,
+      "preserve observable",
+      87
+    ],
+    [
+      265,
+      "divergence dissent",
+      87
+    ],
+    [
+      266,
+      "divergence bundle",
+      87
+    ],
+    [
+      267,
+      "divergence human read",
+      87
+    ],
+    [
+      268,
+      "divergence live readings",
+      87
+    ],
+    [
+      269,
+      "divergence falsifier",
+      87
+    ],
+    [
+      270,
+      "divergence observable",
+      87
+    ],
+    [
+      271,
+      "divergence wildcard probe",
+      87
+    ],
+    [
+      272,
+      "dissent bundle",
+      87
+    ],
+    [
+      273,
+      "dissent human read",
+      87
+    ],
+    [
+      274,
+      "dissent live readings",
+      87
+    ],
+    [
+      275,
+      "dissent falsifier",
+      87
+    ],
+    [
+      276,
+      "dissent observable",
+      87
+    ],
+    [
+      277,
+      "dissent wildcard probe",
+      87
+    ],
+    [
+      278,
+      "dissent collapse audit",
+      87
+    ],
+    [
+      279,
+      "bundle human read",
+      87
+    ],
+    [
+      280,
+      "bundle live readings",
+      87
+    ],
+    [
+      281,
+      "bundle falsifier",
+      86
+    ],
+    [
+      282,
+      "bundle observable",
+      86
+    ],
+    [
+      283,
+      "bundle wildcard probe",
+      86
+    ],
+    [
+      284,
+      "bundle collapse audit",
+      86
+    ],
+    [
+      285,
+      "bundle surviving split",
+      86
+    ],
+    [
+      286,
+      "human read live readings",
+      86
+    ],
+    [
+      287,
+      "human read falsifier",
+      86
+    ],
+    [
+      288,
+      "human read observable",
+      86
+    ],
+    [
+      289,
+      "human read wildcard probe",
+      86
+    ],
+    [
+      290,
+      "human read collapse audit",
+      86
+    ],
+    [
+      291,
+      "human read surviving split",
+      86
+    ],
+    [
+      292,
+      "human read under",
+      86
+    ],
+    [
+      293,
+      "live readings falsifier",
+      86
+    ],
+    [
+      294,
+      "live readings observable",
+      86
+    ],
+    [
+      295,
+      "live readings wildcard probe",
+      86
+    ],
+    [
+      296,
+      "live readings collapse audit",
+      86
+    ],
+    [
+      297,
+      "live readings surviving split",
+      86
+    ],
+    [
+      298,
+      "live readings under",
+      86
+    ],
+    [
+      299,
+      "live readings within",
+      86
+    ],
+    [
+      300,
+      "falsifier observable",
+      86
+    ],
+    [
+      301,
+      "falsifier wildcard probe",
+      85
+    ],
+    [
+      302,
+      "falsifier collapse audit",
+      85
+    ],
+    [
+      303,
+      "falsifier surviving split",
+      85
+    ],
+    [
+      304,
+      "falsifier under",
+      85
+    ],
+    [
+      305,
+      "falsifier within",
+      85
+    ],
+    [
+      306,
+      "falsifier across",
+      85
+    ],
+    [
+      307,
+      "observable wildcard probe",
+      85
+    ],
+    [
+      308,
+      "observable collapse audit",
+      85
+    ],
+    [
+      309,
+      "observable surviving split",
+      85
+    ],
+    [
+      310,
+      "observable under",
+      85
+    ],
+    [
+      311,
+      "observable within",
+      85
+    ],
+    [
+      312,
+      "observable across",
+      85
+    ],
+    [
+      313,
+      "observable between",
+      85
+    ],
+    [
+      314,
+      "wildcard probe collapse audit",
+      85
+    ],
+    [
+      315,
+      "wildcard probe surviving split",
+      85
+    ],
+    [
+      316,
+      "wildcard probe under",
+      85
+    ],
+    [
+      317,
+      "wildcard probe within",
+      85
+    ],
+    [
+      318,
+      "wildcard probe across",
+      85
+    ],
+    [
+      319,
+      "wildcard probe between",
+      85
+    ],
+    [
+      320,
+      "wildcard probe through",
+      85
+    ],
+    [
+      321,
+      "collapse audit surviving split",
+      84
+    ],
+    [
+      322,
+      "collapse audit under",
+      84
+    ],
+    [
+      323,
+      "collapse audit within",
+      84
+    ],
+    [
+      324,
+      "collapse audit across",
+      84
+    ],
+    [
+      325,
+      "collapse audit between",
+      84
+    ],
+    [
+      326,
+      "collapse audit through",
+      84
+    ],
+    [
+      327,
+      "collapse audit before",
+      84
+    ],
+    [
+      328,
+      "surviving split under",
+      84
+    ],
+    [
+      329,
+      "surviving split within",
+      84
+    ],
+    [
+      330,
+      "surviving split across",
+      84
+    ],
+    [
+      331,
+      "surviving split between",
+      84
+    ],
+    [
+      332,
+      "surviving split through",
+      84
+    ],
+    [
+      333,
+      "surviving split before",
+      84
+    ],
+    [
+      334,
+      "surviving split after",
+      84
+    ],
+    [
+      335,
+      "under within",
+      84
+    ],
+    [
+      336,
+      "under across",
+      84
+    ],
+    [
+      337,
+      "under between",
+      84
+    ],
+    [
+      338,
+      "under through",
+      84
+    ],
+    [
+      339,
+      "under before",
+      84
+    ],
+    [
+      340,
+      "under after",
+      84
+    ],
+    [
+      341,
+      "under from",
+      83
+    ],
+    [
+      342,
+      "within across",
+      83
+    ],
+    [
+      343,
+      "within between",
+      83
+    ],
+    [
+      344,
+      "within through",
+      83
+    ],
+    [
+      345,
+      "within before",
+      83
+    ],
+    [
+      346,
+      "within after",
+      83
+    ],
+    [
+      347,
+      "within from",
+      83
+    ],
+    [
+      348,
+      "within by",
+      83
+    ],
+    [
+      349,
+      "across between",
+      83
+    ],
+    [
+      350,
+      "across through",
+      83
+    ],
+    [
+      351,
+      "prevent collapse",
+      97
+    ],
+    [
+      352,
+      "off-axis probe",
+      97
+    ]
+  ],
+  "triplets": [
+    [
+      1,
+      "under plurality live",
+      100
+    ],
+    [
+      2,
+      "under plurality options",
+      100
+    ],
+    [
+      3,
+      "under plurality hume",
+      100
+    ],
+    [
+      4,
+      "under plurality read",
+      100
+    ],
+    [
+      5,
+      "under plurality zhuangzi",
+      100
+    ],
+    [
+      6,
+      "under plurality hold",
+      100
+    ],
+    [
+      7,
+      "under plurality wildcard",
+      100
+    ],
+    [
+      8,
+      "within live options",
+      100
+    ],
+    [
+      9,
+      "within live hume",
+      100
+    ],
+    [
+      10,
+      "within live read",
+      100
+    ],
+    [
+      11,
+      "within live zhuangzi",
+      100
+    ],
+    [
+      12,
+      "within live hold",
+      100
+    ],
+    [
+      13,
+      "within live wildcard",
+      100
+    ],
+    [
+      14,
+      "within live probe",
+      100
+    ],
+    [
+      15,
+      "across options hume",
+      100
+    ],
+    [
+      16,
+      "across options read",
+      100
+    ],
+    [
+      17,
+      "across options zhuangzi",
+      100
+    ],
+    [
+      18,
+      "across options hold",
+      100
+    ],
+    [
+      19,
+      "across options wildcard",
+      100
+    ],
+    [
+      20,
+      "across options probe",
+      100
+    ],
+    [
+      21,
+      "across options anti",
+      99
+    ],
+    [
+      22,
+      "between hume read",
+      99
+    ],
+    [
+      23,
+      "between hume zhuangzi",
+      99
+    ],
+    [
+      24,
+      "between hume hold",
+      99
+    ],
+    [
+      25,
+      "between hume wildcard",
+      99
+    ],
+    [
+      26,
+      "between hume probe",
+      99
+    ],
+    [
+      27,
+      "between hume anti",
+      99
+    ],
+    [
+      28,
+      "between hume collapse",
+      99
+    ],
+    [
+      29,
+      "through read zhuangzi",
+      99
+    ],
+    [
+      30,
+      "through read hold",
+      99
+    ],
+    [
+      31,
+      "through read wildcard",
+      99
+    ],
+    [
+      32,
+      "through read probe",
+      99
+    ],
+    [
+      33,
+      "through read anti",
+      99
+    ],
+    [
+      34,
+      "through read collapse",
+      99
+    ],
+    [
+      35,
+      "through read preserve",
+      99
+    ],
+    [
+      36,
+      "before zhuangzi hold",
+      99
+    ],
+    [
+      37,
+      "before zhuangzi wildcard",
+      99
+    ],
+    [
+      38,
+      "before zhuangzi probe",
+      99
+    ],
+    [
+      39,
+      "before zhuangzi anti",
+      99
+    ],
+    [
+      40,
+      "before zhuangzi collapse",
+      99
+    ],
+    [
+      41,
+      "before zhuangzi preserve",
+      98
+    ],
+    [
+      42,
+      "before zhuangzi divergence",
+      98
+    ],
+    [
+      43,
+      "after hold wildcard",
+      98
+    ],
+    [
+      44,
+      "after hold probe",
+      98
+    ],
+    [
+      45,
+      "after hold anti",
+      98
+    ],
+    [
+      46,
+      "after hold collapse",
+      98
+    ],
+    [
+      47,
+      "after hold preserve",
+      98
+    ],
+    [
+      48,
+      "after hold divergence",
+      98
+    ],
+    [
+      49,
+      "after hold dissent",
+      98
+    ],
+    [
+      50,
+      "from wildcard probe",
+      98
+    ],
+    [
+      51,
+      "from wildcard anti",
+      98
+    ],
+    [
+      52,
+      "from wildcard collapse",
+      98
+    ],
+    [
+      53,
+      "from wildcard preserve",
+      98
+    ],
+    [
+      54,
+      "from wildcard divergence",
+      98
+    ],
+    [
+      55,
+      "from wildcard dissent",
+      98
+    ],
+    [
+      56,
+      "from wildcard bundle",
+      98
+    ],
+    [
+      57,
+      "by probe anti",
+      98
+    ],
+    [
+      58,
+      "by probe collapse",
+      98
+    ],
+    [
+      59,
+      "by probe preserve",
+      98
+    ],
+    [
+      60,
+      "by probe divergence",
+      98
+    ],
+    [
+      61,
+      "by probe dissent",
+      97
+    ],
+    [
+      62,
+      "by probe bundle",
+      97
+    ],
+    [
+      63,
+      "by probe human read",
+      97
+    ],
+    [
+      64,
+      "with anti collapse",
+      97
+    ],
+    [
+      65,
+      "with anti preserve",
+      97
+    ],
+    [
+      66,
+      "with anti divergence",
+      97
+    ],
+    [
+      67,
+      "with anti dissent",
+      97
+    ],
+    [
+      68,
+      "with anti bundle",
+      97
+    ],
+    [
+      69,
+      "with anti human read",
+      97
+    ],
+    [
+      70,
+      "with anti live readings",
+      97
+    ],
+    [
+      71,
+      "without collapse preserve",
+      97
+    ],
+    [
+      72,
+      "without collapse divergence",
+      97
+    ],
+    [
+      73,
+      "without collapse dissent",
+      97
+    ],
+    [
+      74,
+      "without collapse bundle",
+      97
+    ],
+    [
+      75,
+      "without collapse human read",
+      97
+    ],
+    [
+      76,
+      "without collapse live readings",
+      97
+    ],
+    [
+      77,
+      "without collapse falsifier",
+      97
+    ],
+    [
+      78,
+      "against preserve divergence",
+      97
+    ],
+    [
+      79,
+      "against preserve dissent",
+      97
+    ],
+    [
+      80,
+      "against preserve bundle",
+      97
+    ],
+    [
+      81,
+      "against preserve human read",
+      96
+    ],
+    [
+      82,
+      "against preserve live readings",
+      96
+    ],
+    [
+      83,
+      "against preserve falsifier",
+      96
+    ],
+    [
+      84,
+      "against preserve observable",
+      96
+    ],
+    [
+      85,
+      "relative divergence dissent",
+      96
+    ],
+    [
+      86,
+      "relative divergence bundle",
+      96
+    ],
+    [
+      87,
+      "relative divergence human read",
+      96
+    ],
+    [
+      88,
+      "relative divergence live readings",
+      96
+    ],
+    [
+      89,
+      "relative divergence falsifier",
+      96
+    ],
+    [
+      90,
+      "relative divergence observable",
+      96
+    ],
+    [
+      91,
+      "relative divergence wildcard probe",
+      96
+    ],
+    [
+      92,
+      "locally dissent bundle",
+      96
+    ],
+    [
+      93,
+      "locally dissent human read",
+      96
+    ],
+    [
+      94,
+      "locally dissent live readings",
+      96
+    ],
+    [
+      95,
+      "locally dissent falsifier",
+      96
+    ],
+    [
+      96,
+      "locally dissent observable",
+      96
+    ],
+    [
+      97,
+      "locally dissent wildcard probe",
+      96
+    ],
+    [
+      98,
+      "locally dissent collapse audit",
+      96
+    ],
+    [
+      99,
+      "rather bundle human read",
+      96
+    ],
+    [
+      100,
+      "rather bundle live readings",
+      96
+    ],
+    [
+      101,
+      "rather bundle falsifier",
+      95
+    ],
+    [
+      102,
+      "rather bundle observable",
+      95
+    ],
+    [
+      103,
+      "rather bundle wildcard probe",
+      95
+    ],
+    [
+      104,
+      "rather bundle collapse audit",
+      95
+    ],
+    [
+      105,
+      "rather bundle surviving split",
+      95
+    ],
+    [
+      106,
+      "instead human read live readings",
+      95
+    ],
+    [
+      107,
+      "instead human read falsifier",
+      95
+    ],
+    [
+      108,
+      "instead human read observable",
+      95
+    ],
+    [
+      109,
+      "instead human read wildcard probe",
+      95
+    ],
+    [
+      110,
+      "instead human read collapse audit",
+      95
+    ],
+    [
+      111,
+      "instead human read surviving split",
+      95
+    ],
+    [
+      112,
+      "instead human read under",
+      95
+    ],
+    [
+      113,
+      "only live readings falsifier",
+      95
+    ],
+    [
+      114,
+      "only live readings observable",
+      95
+    ],
+    [
+      115,
+      "only live readings wildcard probe",
+      95
+    ],
+    [
+      116,
+      "only live readings collapse audit",
+      95
+    ],
+    [
+      117,
+      "only live readings surviving split",
+      95
+    ],
+    [
+      118,
+      "only live readings under",
+      95
+    ],
+    [
+      119,
+      "only live readings within",
+      95
+    ],
+    [
+      120,
+      "still falsifier observable",
+      95
+    ],
+    [
+      121,
+      "still falsifier wildcard probe",
+      94
+    ],
+    [
+      122,
+      "still falsifier collapse audit",
+      94
+    ],
+    [
+      123,
+      "still falsifier surviving split",
+      94
+    ],
+    [
+      124,
+      "still falsifier under",
+      94
+    ],
+    [
+      125,
+      "still falsifier within",
+      94
+    ],
+    [
+      126,
+      "still falsifier across",
+      94
+    ],
+    [
+      127,
+      "likely observable wildcard probe",
+      94
+    ],
+    [
+      128,
+      "likely observable collapse audit",
+      94
+    ],
+    [
+      129,
+      "likely observable surviving split",
+      94
+    ],
+    [
+      130,
+      "likely observable under",
+      94
+    ],
+    [
+      131,
+      "likely observable within",
+      94
+    ],
+    [
+      132,
+      "likely observable across",
+      94
+    ],
+    [
+      133,
+      "likely observable between",
+      94
+    ],
+    [
+      134,
+      "possible wildcard probe collapse audit",
+      94
+    ],
+    [
+      135,
+      "possible wildcard probe surviving split",
+      94
+    ],
+    [
+      136,
+      "possible wildcard probe under",
+      94
+    ],
+    [
+      137,
+      "possible wildcard probe within",
+      94
+    ],
+    [
+      138,
+      "possible wildcard probe across",
+      94
+    ],
+    [
+      139,
+      "possible wildcard probe between",
+      94
+    ],
+    [
+      140,
+      "possible wildcard probe through",
+      94
+    ],
+    [
+      141,
+      "bounded collapse audit surviving split",
+      93
+    ],
+    [
+      142,
+      "bounded collapse audit under",
+      93
+    ],
+    [
+      143,
+      "bounded collapse audit within",
+      93
+    ],
+    [
+      144,
+      "bounded collapse audit across",
+      93
+    ],
+    [
+      145,
+      "bounded collapse audit between",
+      93
+    ],
+    [
+      146,
+      "bounded collapse audit through",
+      93
+    ],
+    [
+      147,
+      "bounded collapse audit before",
+      93
+    ],
+    [
+      148,
+      "finite surviving split under",
+      93
+    ],
+    [
+      149,
+      "finite surviving split within",
+      93
+    ],
+    [
+      150,
+      "finite surviving split across",
+      93
+    ],
+    [
+      151,
+      "finite surviving split between",
+      93
+    ],
+    [
+      152,
+      "finite surviving split through",
+      93
+    ],
+    [
+      153,
+      "finite surviving split before",
+      93
+    ],
+    [
+      154,
+      "finite surviving split after",
+      93
+    ],
+    [
+      155,
+      "local under within",
+      93
+    ],
+    [
+      156,
+      "local under across",
+      93
+    ],
+    [
+      157,
+      "local under between",
+      93
+    ],
+    [
+      158,
+      "local under through",
+      93
+    ],
+    [
+      159,
+      "local under before",
+      93
+    ],
+    [
+      160,
+      "local under after",
+      93
+    ],
+    [
+      161,
+      "local under from",
+      92
+    ],
+    [
+      162,
+      "current within across",
+      92
+    ],
+    [
+      163,
+      "current within between",
+      92
+    ],
+    [
+      164,
+      "current within through",
+      92
+    ],
+    [
+      165,
+      "current within before",
+      92
+    ],
+    [
+      166,
+      "current within after",
+      92
+    ],
+    [
+      167,
+      "current within from",
+      92
+    ],
+    [
+      168,
+      "current within by",
+      92
+    ],
+    [
+      169,
+      "observed across between",
+      92
+    ],
+    [
+      170,
+      "observed across through",
+      92
+    ],
+    [
+      171,
+      "observed across before",
+      92
+    ],
+    [
+      172,
+      "observed across after",
+      92
+    ],
+    [
+      173,
+      "observed across from",
+      92
+    ],
+    [
+      174,
+      "observed across by",
+      92
+    ],
+    [
+      175,
+      "observed across with",
+      92
+    ],
+    [
+      176,
+      "evidence readings exclusion",
+      96
+    ]
+  ],
+  "v3_4_salience_expansion": {
+    "source": "deep-research-report.md",
+    "status": "positive salience only; no diagnostic/provenance boot",
+    "route": "ALL_B",
+    "size": "full"
+  }
+}

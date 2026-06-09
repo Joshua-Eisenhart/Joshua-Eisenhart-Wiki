@@ -1,0 +1,173 @@
+# MMM_VOICE_POPPER_ULTRA_v2_8
+
+## words
+- mini-MMM :: 100
+- mini MMM :: 100
+- voice shape :: 100
+- voice shaping :: 100
+- shape voice :: 100
+- shaped voice :: 100
+- voice contour :: 100
+- voice signature :: 100
+- voice localizer :: 100
+- local voice :: 100
+- aligned nouns :: 100
+- correlated thinkers :: 100
+- thinker alignment :: 100
+- noun alignment :: 100
+
+- conjecture :: 100
+- killed :: 100
+- conjectures and refutations :: 100
+- severe test :: 100
+- risky prediction :: 100
+- refuted claim :: 100
+- refute :: 100
+- decisive check :: 100
+- failure condition :: 100
+- what would break :: 100
+- not yet survived :: 100
+- survived :: 100
+- falsifier :: 100
+- exposure :: 100
+- what would rule out :: 100
+- claim :: 100
+- counterexample :: 100
+- bold conjecture :: 100
+- refutation :: 100
+- test pressure :: 100
+- open :: 100
+- survive :: 100
+- falsification :: 100
+- falsifiability :: 100
+- testability :: 100
+- demarcation :: 100
+- counterinstance :: 100
+- criticism :: 100
+
+## couplings
+
+- severe test :: 100
+- risky prediction :: 100
+- refuted claim :: 100
+- decisive check :: 100
+- falsifier evidence :: 100
+- falsifier support :: 100
+- falsifier path :: 100
+- falsifier surface :: 100
+- falsifier packet :: 100
+- falsifier receipt :: 100
+- falsifier trace :: 100
+- falsifier result :: 100
+- falsifier scope :: 100
+- falsifier boundary :: 100
+- falsifier status :: 100
+- falsifier candidate :: 100
+- falsifier witness :: 100
+- failure condition :: 100
+- claim :: 100
+- conjecture :: 100
+- falsifier :: 100
+- refute :: 100
+- killed :: 100
+- counterexample :: 100
+- exposure :: 100
+- what would break :: 100
+- falsifier probe :: 100
+- falsifier constraint :: 100
+- check falsifier :: 100
+- compare falsifier :: 100
+- observe falsifier :: 100
+- measure falsifier :: 100
+- test falsifier :: 100
+- verify falsifier :: 100
+- hold falsifier :: 100
+- split falsifier :: 100
+- narrow falsifier :: 100
+- conjecture and refutation :: 100
+- bold conjecture :: 100
+- basic statement :: 100
+- counter instance :: 100
+- empirical falsification :: 100
+- falsifiability criterion :: 100
+- demarcation problem :: 100
+- critical test :: 100
+- error correction :: 100
+- background knowledge :: 100
+- informative content :: 100
+
+## triplets
+
+- under open falsifier :: 100
+- within open falsifier :: 100
+- across open falsifier :: 100
+- between open falsifier :: 100
+- through open falsifier :: 100
+- before open falsifier :: 100
+- what would break :: 100
+- conjectures and refutations :: 100
+- under conjecture falsifier :: 100
+- under refutation falsifier :: 100
+- within conjecture falsifier :: 100
+- falsifier evidence path :: 100
+- falsifier support path :: 100
+- falsifier path path :: 100
+- claim falsifier check :: 100
+- conjecture refutation test :: 100
+- basic statement evidence :: 100
+- severe test result :: 100
+- counterexample kills claim :: 100
+- background knowledge challenged :: 100
+- anomaly remains open :: 100
+- risky prediction checked :: 100
+- testability demarcation criterion :: 100
+- empirical falsification path :: 100
+- piecemeal criticism route :: 100
+- informative content risk :: 100
+- target claim falsifier :: 100
+- under open claim :: 94
+- within open claim :: 94
+- across open claim :: 94
+- between open claim :: 93
+- through open claim :: 93
+- before open claim :: 93
+- not yet survived :: 91
+## voice noun reservoir stabilization addendum
+- voice method :: 100
+- voice evidence :: 100
+- voice judgment :: 100
+- voice task :: 100
+- voice receipt :: 100
+- voice finding :: 100
+- voice constraint :: 100
+- voice noun :: 100
+- voice verb :: 100
+- voice signal :: 100
+- voice contrast :: 100
+- voice boundary :: 100
+- voice contribution :: 100
+- mini mmm loaded :: 100
+- loaded mini mmm :: 100
+- assigned mini mmm :: 100
+- local voice context :: 100
+- voice-specific nouns :: 100
+- method nouns :: 100
+- reader stance :: 100
+- decision stance :: 100
+- audit stance :: 100
+- build stance :: 100
+- repair stance :: 100
+- acceptance stance :: 100
+- subagent voice :: 100
+- voice worker :: 100
+- voice proof :: 100
+- distinct output :: 100
+- behavioral pull :: 100
+- salience pull :: 100
+- voice usefulness :: 100
+- output repair :: 100
+- system repair :: 100
+- mmm stability :: 100
+- wizard stability :: 100
+- qit support :: 100
+- sim support :: 100

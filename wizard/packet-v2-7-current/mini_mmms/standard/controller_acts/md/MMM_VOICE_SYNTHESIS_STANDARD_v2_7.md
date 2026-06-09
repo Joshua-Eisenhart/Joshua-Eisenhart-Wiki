@@ -1,0 +1,208 @@
+---
+title: Mmm Voice Synthesis Standard V2 7
+created: 2026-04-28
+updated: 2026-04-28
+type: concept
+tags: [wizard, mmm, packet, receipt]
+framing: current
+source_path: mini_mmms/standard/controller_acts/md/MMM_VOICE_SYNTHESIS_STANDARD_v2_7.md
+---
+
+# MMM_VOICE_SYNTHESIS_STANDARD_v2_7
+
+## aligned nouns and phrases
+
+- held apart
+- bounded exclusion
+- controller act
+- live remainder
+- preserved difference
+- surviving split
+- act
+- aggregate
+- alignment
+- aside
+- balance
+- boundary
+- bridge
+- carry
+- carryforward
+- combine
+- compare
+- compose
+- composition
+- concrete
+- contradiction
+- controller
+- convergence
+- difference
+- dissent
+- distinct
+- distinction
+- divergence
+- dropped
+- excluded
+- flattening
+- hold
+- interface
+- junction
+- merge
+- nonmerge
+- observed
+- pair
+- preserve
+- receipt
+- refusal
+- relation
+- retained
+- separate
+- split
+- structure
+- summary
+- surviving
+- synthesis
+- tension
+
+## correlated couplings
+
+- aggregate without collapse
+- bounded exclusion
+- carry forward
+- carry tension
+- compare preserve
+- compose carry
+- compose composition
+- compose difference
+- compose distinct
+- compose merge
+- compose nonmerge
+- compose preserve
+- compose receipt
+- compose split
+- compose surviving
+- compose tension
+- composed output
+- composition carry
+- composition distinct
+- composition preserve
+- composition receipt
+- composition step
+- composition tension
+- controller act
+- controller synthesis
+- distinct boundary
+- distinct carry
+- distinct evidence
+- distinct packet
+- distinct preserve
+- distinct receipt
+- distinct receipts
+- distinct result
+- distinct scope
+- distinct support
+- distinct tension
+- distinct trace
+- held tension
+- hold preserve
+- hold tension
+- interface between receipts
+- live remainder
+- live split
+- measure preserve
+- measure receipt
+- merge refusal
+- narrow preserve
+- narrow receipt
+- non merge
+- pair receipt
+- preserve carry
+- preserve constraint
+- preserve distinct
+- preserve evidence
+- preserve packet
+- preserve probe
+- preserve receipt
+- preserve refusal
+- preserve result
+- preserve scope
+- preserve support
+- preserve tension
+- preserve trace
+- preserve witness
+- preserved difference
+- preserved split
+- receipt boundary
+- receipt carry
+- receipt comparison
+- receipt constraint
+- receipt distinct
+- receipt evidence
+- receipt packet
+- receipt preserve
+- receipt probe
+- receipt result
+- receipt scope
+- receipt support
+- receipt tension
+- receipt trace
+- receipt witness
+- refusal receipt
+- retained branch
+- separate receipts
+- split preserve
+- split receipt
+- summary relation
+- surviving difference
+- surviving split
+- synthesis boundary
+- synthesis carry
+- synthesis compose
+- synthesis composition
+- synthesis distinct
+- synthesis preserve
+- synthesis receipt
+- synthesis tension
+- tension receipt
+- unresolved contradiction
+- compare receipt
+
+## three-part cues
+
+- compare distinct receipt
+- compare preserve receipt
+- compare receipts compose
+- compose composition distinct
+- compose composition preserve
+- compose composition receipt
+- compose distinct preserve
+- compose distinct receipt
+- compose preserve receipt
+- compose receipt distinct
+- compose receipt preserve
+- distinct receipts held
+- hold distinct receipt
+- hold preserve receipt
+- measure distinct receipt
+- measure preserve receipt
+- merge refusal boundary
+- preserve distinct receipt
+- preserve refusal receipt
+- preserve tension nonmerge
+- receipt interface summary
+- separate branches retained
+- surviving split carried
+- synthesis compose composition
+- synthesis compose distinct
+- synthesis compose receipt
+- synthesis composition distinct
+- synthesis composition receipt
+- synthesis distinct composition
+- synthesis distinct receipt
+- synthesis preserve composition
+- synthesis preserve distinct
+- synthesis preserve receipt
+- synthesis receipt composition
+- synthesis receipt distinct
+- unresolved contradiction held
+- aggregate without flattening
+- composition after receipts

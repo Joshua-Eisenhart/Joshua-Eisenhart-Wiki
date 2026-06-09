@@ -1,0 +1,12 @@
+{
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate",
+  "checked": "loaded mini_mmms/compact/voices/md/MMM_VOICE_SYSTEMS_COMPACT_v2_7.md",
+  "concluded": "Loop: refine language bodies, run the Wizard, audit receipts, package, then feed failures back into pruning.",
+  "evidence": "mini_mmms/compact/voices/md/MMM_VOICE_SYSTEMS_COMPACT_v2_7.md terms: feedback loop, reinforcing loop, balancing loop, system structure, second-order, leverage point, information flow, self organization",
+  "generated_at": "2026-04-28T08:03:24.994347+00:00",
+  "lane": "Systems",
+  "open": "live proof pending",
+  "output_excerpt": "Task: Compare Wizard General sizes and choose the best local runtime surface.\nWizard General size: compact\nWave 1: Voice Wave\nLoop: refine language bodies, run the Wizard, audit receipts, package, then feed failures back into pruning.\nLoaded language body terms: feedback loop, reinforcing loop, balancing loop, system structure, second-order, leverage point, information flow, self organization",
+  "output_sha256": "f6a5c68b15554732ee53ad445e6ad3b8c3254e2760aebfa0b6d297d1c5c10b2c",
+  "schema_version": "wizard_behavior_harness.v1"
+}

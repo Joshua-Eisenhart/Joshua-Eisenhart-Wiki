@@ -1,0 +1,111 @@
+# MMM_LANE_BRIDGE_ULTRA_v2_8
+
+## words
+
+- handoff :: 100
+- bridge :: 100
+- tier :: 100
+- imported :: 100
+- derived :: 100
+- task card :: 100
+- interface :: 100
+- translation :: 100
+- salience :: 100
+- preload :: 100
+- surface :: 100
+- artifact :: 100
+- receipt :: 100
+- boundary :: 100
+- layers :: 100
+- prompt :: 100
+- meaning :: 100
+- between :: 100
+- hume :: 100
+- translate :: 100
+- middle :: 100
+- context :: 100
+- summary :: 100
+- carry :: 100
+- across :: 100
+
+## couplings
+
+- bridge surface :: 100
+- bridge receipt :: 100
+- bridge boundary :: 100
+- bridge handoff :: 100
+- translation handoff :: 100
+- interface surface :: 100
+- interface receipt :: 100
+- interface boundary :: 100
+- bridge evidence :: 100
+- bridge support :: 100
+- bridge path :: 100
+- bridge packet :: 100
+- bridge trace :: 100
+- bridge result :: 100
+- bridge scope :: 100
+- bridge status :: 100
+- bridge candidate :: 100
+- bridge witness :: 100
+- bridge probe :: 100
+- bridge constraint :: 100
+- check bridge :: 100
+- compare bridge :: 100
+- observe bridge :: 100
+- measure bridge :: 100
+- test bridge :: 100
+- verify bridge :: 100
+- hold bridge :: 100
+- preserve bridge :: 100
+- split bridge :: 100
+- narrow bridge :: 100
+- bridge layer :: 100
+- between levels :: 100
+- hume bridge :: 100
+- context prompt :: 100
+- handoff surface :: 100
+- translate receipts :: 100
+- middle voice :: 100
+- carry across :: 100
+- summary bridge :: 100
+- under bridge :: 96
+- within bridge :: 96
+- across bridge :: 96
+- between bridge :: 96
+- through bridge :: 96
+- before bridge :: 96
+
+## triplets
+
+- bridge surface path :: 100
+- bridge receipt path :: 100
+- bridge boundary path :: 100
+- check bridge receipt :: 100
+- compare bridge receipt :: 100
+- observe bridge receipt :: 100
+- measure bridge receipt :: 100
+- test bridge receipt :: 100
+- verify bridge receipt :: 100
+- hold bridge receipt :: 100
+- preserve bridge receipt :: 100
+- interface surface path :: 100
+- interface receipt path :: 100
+- interface boundary path :: 100
+- check interface receipt :: 100
+- compare interface receipt :: 100
+- observe interface receipt :: 100
+- measure interface receipt :: 100
+- test interface receipt :: 100
+- verify interface receipt :: 100
+- hold interface receipt :: 100
+- preserve interface receipt :: 100
+- context prompt bridge :: 100
+- hume translates receipts :: 100
+- between levels handoff :: 100
+- carry across layers :: 100
+- middle voice summary :: 100
+- under bridge handoff :: 89
+- within translation handoff :: 89
+- under bridge translation :: 89
+- across handoff between :: 89

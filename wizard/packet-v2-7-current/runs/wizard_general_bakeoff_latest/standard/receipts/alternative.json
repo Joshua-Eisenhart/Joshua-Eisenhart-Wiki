@@ -1,0 +1,12 @@
+{
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate",
+  "checked": "loaded mini_mmms/standard/lanes/md/MMM_LANE_ALTERNATIVE_STANDARD_v2_7.md",
+  "concluded": "Second route: keep this local runner as the stable gate while Opus or other external reviewers remain optional.",
+  "evidence": "mini_mmms/standard/lanes/md/MMM_LANE_ALTERNATIVE_STANDARD_v2_7.md terms: different assumption, second path, better if, worse if, alternate, alternative, assumption, backup",
+  "generated_at": "2026-04-28T08:03:25.030686+00:00",
+  "lane": "Alternative",
+  "open": "live proof pending",
+  "output_excerpt": "Task: Compare Wizard General sizes and choose the best local runtime surface.\nWizard General size: standard\nWave 8: Follow-up Run/Scout Wave\nSecond route: keep this local runner as the stable gate while Opus or other external reviewers remain optional.\nLoaded language body terms: different assumption, second path, better if, worse if, alternate, alternative, assumption, backup",
+  "output_sha256": "c08b835ce5806eda4bf4acb89c4ec74372662d76c3461077c213642d88b3a202",
+  "schema_version": "wizard_behavior_harness.v1"
+}

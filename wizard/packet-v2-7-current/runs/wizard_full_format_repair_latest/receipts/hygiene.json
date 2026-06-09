@@ -1,0 +1,12 @@
+{
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate",
+  "checked": "loaded mini_mmms/full/checks_guards/md/MMM_LANE_REPO_HYGIENE_FULL_v2_7.md",
+  "concluded": "Hygiene result: keep the output scannable, remove ceremony, and surface only useful follow-up choices.",
+  "evidence": "mini_mmms/full/checks_guards/md/MMM_LANE_REPO_HYGIENE_FULL_v2_7.md terms: dead file, naming drift, active contract, prior bundle, search clarity, repo, hygiene, dead",
+  "generated_at": "2026-04-28T08:22:15.046153+00:00",
+  "lane": "Hygiene",
+  "open": "live proof pending",
+  "output_excerpt": "Task: Improve and locally run the repaired MMM Wizard packet without live wiring.\nWizard General size: full\nWave 5: Hygiene Wave\nHygiene result: keep the output scannable, remove ceremony, and surface only useful follow-up choices.\nLoaded language body terms: dead file, naming drift, active contract, prior bundle, search clarity, repo, hygiene, dead",
+  "output_sha256": "07ef6538620983ae23b0369ceff2becb201b52fe49b4fd6f9f908c7b3a758f6e",
+  "schema_version": "wizard_behavior_harness.v1"
+}

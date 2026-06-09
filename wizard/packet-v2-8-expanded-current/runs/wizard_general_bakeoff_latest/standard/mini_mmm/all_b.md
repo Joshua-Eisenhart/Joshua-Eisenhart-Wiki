@@ -1,0 +1,375 @@
+Lane-local behavior probe body for All-B. Candidate root: /Users/joshuaeisenhart/Desktop/mmm_wizard_complete_system_packet_v2_8_expanded_candidate. This record was normalized from collected probe output only. The harness did not spawn agents, infer hidden execution, or add a claim beyond the supplied lane record. Review this lane as receipt evidence: checked material, conclusion, remaining open question, and cited evidence must remain tied to the captured output. The body exists so the adapter can verify that every completed lane has a lane-local language surface rather than borrowing global prose. Future readers should treat the text as a behavior probe normalization artifact, not as independent proof of correctness. 
+
+Collected output:
+# MMM_LANE_ALL_B_STANDARD_v2_8
+
+## words
+
+- alternative :: 100
+- anti :: 100
+- attack :: 100
+- become :: 100
+- bottleneck :: 100
+- bundle :: 100
+- central :: 100
+- clarity :: 100
+- collapse :: 100
+- collapse audit :: 100
+- concrete :: 100
+- dissent :: 100
+- divergence :: 100
+- duplicating :: 100
+- earns :: 100
+- exclusion :: 100
+- factory :: 100
+- falsifier :: 100
+- feynman :: 100
+- fog :: 100
+- forgetting :: 100
+- hold :: 100
+- human read :: 100
+- hume :: 100
+- indecision :: 100
+- indefinite :: 100
+- keeping :: 100
+- letting :: 100
+- live :: 100
+- live readings :: 100
+- observable :: 100
+- options :: 100
+- orwell :: 100
+- path :: 100
+- plain :: 100
+- plurality :: 100
+- preserve :: 100
+- probe :: 100
+- read :: 100
+- removal :: 100
+- route :: 100
+- story :: 100
+- surviving split :: 100
+- testable :: 100
+- throughput :: 100
+- wildcard :: 100
+- wildcard probe :: 100
+- zhuangzi :: 100
+- across :: 99
+- after :: 99
+- against :: 99
+- before :: 99
+- between :: 99
+- by :: 99
+- from :: 99
+- instead :: 99
+- locally :: 99
+- only :: 99
+- rather :: 99
+- relative :: 99
+- still :: 99
+- through :: 99
+- under :: 99
+- with :: 99
+- within :: 99
+- without :: 99
+- bounded :: 98
+- case :: 98
+- checked :: 98
+- constraint :: 98
+- current :: 98
+- evidence :: 98
+
+## couplings
+
+- alternative route :: 100
+- anti collapse :: 100
+- anti human read :: 100
+- anti live readings :: 100
+- bottleneck clarity :: 100
+- bundle collapse audit :: 100
+- bundle falsifier :: 100
+- bundle human read :: 100
+- bundle live readings :: 100
+- bundle observable :: 100
+- bundle surviving split :: 100
+- bundle wildcard probe :: 100
+- collapse audit surviving split :: 100
+- collapse falsifier :: 100
+- collapse human read :: 100
+- collapse live readings :: 100
+- different path clear :: 100
+- dissent collapse audit :: 100
+- dissent falsifier :: 100
+- dissent human read :: 100
+- dissent live readings :: 100
+- dissent observable :: 100
+- dissent wildcard probe :: 100
+- divergence falsifier :: 100
+- divergence human read :: 100
+- divergence live readings :: 100
+- divergence observable :: 100
+- divergence wildcard probe :: 100
+- factory bottleneck :: 100
+- falsifier across :: 100
+- falsifier collapse audit :: 100
+- falsifier observable :: 100
+- falsifier surviving split :: 100
+- falsifier under :: 100
+- falsifier wildcard probe :: 100
+- falsifier within :: 100
+- feynman test :: 100
+- fog removed :: 100
+- human read collapse audit :: 100
+- human read falsifier :: 100
+- human read live readings :: 100
+- human read observable :: 100
+- human read surviving split :: 100
+- human read under :: 100
+- human read wildcard probe :: 100
+- hume zhuangzi :: 100
+- live options :: 100
+- live readings collapse audit :: 100
+- live readings falsifier :: 100
+- live readings observable :: 100
+- live readings surviving split :: 100
+- live readings under :: 100
+- live readings wildcard probe :: 100
+- live readings within :: 100
+- observable collapse audit :: 100
+- observable surviving split :: 100
+- observable under :: 100
+- observable wildcard probe :: 100
+- operation explained :: 100
+- orwell cut :: 100
+- plain testable route :: 100
+- preserve divergence :: 100
+- preserve human read :: 100
+- preserve live readings :: 100
+- probe human read :: 100
+- throughput and clarity :: 100
+- under anti :: 100
+- under bundle :: 100
+- under collapse :: 100
+- under dissent :: 100
+- under divergence :: 100
+- under hold :: 100
+- under hume :: 100
+- under live :: 100
+- under options :: 100
+- under plurality :: 100
+- under preserve :: 100
+- under probe :: 100
+- under read :: 100
+- under wildcard :: 100
+- under zhuangzi :: 100
+- wildcard probe :: 100
+- wildcard probe collapse audit :: 100
+- wildcard probe surviving split :: 100
+- within hume :: 100
+- within live :: 100
+- within options :: 100
+- within plurality :: 100
+- within read :: 100
+- within zhuangzi :: 100
+- across anti :: 99
+- across hold :: 99
+- across hume :: 99
+- across live :: 99
+- across options :: 99
+- across plurality :: 99
+- across probe :: 99
+- across read :: 99
+- across wildcard :: 99
+- across zhuangzi :: 99
+- within anti :: 99
+- within bundle :: 99
+- within collapse :: 99
+- within dissent :: 99
+- within divergence :: 99
+- within hold :: 99
+- within preserve :: 99
+- within probe :: 99
+- within wildcard :: 99
+- across bundle :: 98
+- across collapse :: 98
+- across dissent :: 98
+- across divergence :: 98
+- across preserve :: 98
+- between anti :: 98
+- between bundle :: 98
+- between collapse :: 98
+- between dissent :: 98
+- between divergence :: 98
+- between hold :: 98
+- between hume :: 98
+- between live :: 98
+- between options :: 98
+- between plurality :: 98
+- between preserve :: 98
+- between probe :: 98
+- between read :: 98
+- between wildcard :: 98
+- between zhuangzi :: 98
+- before hume :: 97
+- before live :: 97
+- before options :: 97
+- before plurality :: 97
+- before read :: 97
+- through anti :: 97
+- through bundle :: 97
+- through collapse :: 97
+- through dissent :: 97
+- through divergence :: 97
+- through hold :: 97
+- through hume :: 97
+- through live :: 97
+- through options :: 97
+- through plurality :: 97
+- through preserve :: 97
+- through probe :: 97
+- through read :: 97
+- through wildcard :: 97
+- through zhuangzi :: 97
+- after anti :: 96
+- after hold :: 96
+- after hume :: 96
+- after live :: 96
+- after options :: 96
+- after plurality :: 96
+- after probe :: 96
+- after read :: 96
+- after wildcard :: 96
+- after zhuangzi :: 96
+- before anti :: 96
+
+## triplets
+
+- across options hold :: 100
+- across options hume :: 100
+- across options probe :: 100
+- across options read :: 100
+- across options wildcard :: 100
+- across options zhuangzi :: 100
+- against preserve falsifier :: 100
+- against preserve live readings :: 100
+- alternative factory feynman :: 100
+- between hume zhuangzi :: 100
+- bottleneck test plain :: 100
+- bounded collapse audit surviving split :: 100
+- by probe human read :: 100
+- different route concrete :: 100
+- fog removed operation :: 100
+- from wildcard probe :: 100
+- likely observable collapse audit :: 100
+- likely observable surviving split :: 100
+- likely observable wildcard probe :: 100
+- locally dissent collapse audit :: 100
+- locally dissent falsifier :: 100
+- locally dissent human read :: 100
+- locally dissent live readings :: 100
+- locally dissent observable :: 100
+- locally dissent wildcard probe :: 100
+- orwell feynman factory :: 100
+- possible wildcard probe collapse audit :: 100
+- possible wildcard probe surviving split :: 100
+- rather bundle live readings :: 100
+- relative divergence falsifier :: 100
+- relative divergence live readings :: 100
+- relative divergence wildcard probe :: 100
+- still falsifier collapse audit :: 100
+- still falsifier observable :: 100
+- still falsifier surviving split :: 100
+- still falsifier wildcard probe :: 100
+- throughput clarity path :: 100
+- under plurality hold :: 100
+- under plurality hume :: 100
+- under plurality live :: 100
+- under plurality options :: 100
+- under plurality read :: 100
+- under plurality wildcard :: 100
+- under plurality zhuangzi :: 100
+- with anti live readings :: 100
+- within live hold :: 100
+- within live hume :: 100
+- within live options :: 100
+- within live probe :: 100
+- within live read :: 100
+- within live wildcard :: 100
+- within live zhuangzi :: 100
+- without collapse falsifier :: 100
+- without collapse live readings :: 100
+- across options anti :: 99
+- before zhuangzi anti :: 99
+- before zhuangzi collapse :: 99
+- before zhuangzi hold :: 99
+- before zhuangzi probe :: 99
+- before zhuangzi wildcard :: 99
+- between hume anti :: 99
+- between hume collapse :: 99
+- between hume hold :: 99
+- between hume probe :: 99
+- between hume read :: 99
+- between hume wildcard :: 99
+- instead human read collapse audit :: 99
+- instead human read falsifier :: 99
+- instead human read live readings :: 99
+- instead human read wildcard probe :: 99
+- only live readings collapse audit :: 99
+- only live readings falsifier :: 99
+- only live readings observable :: 99
+- only live readings surviving split :: 99
+- only live readings wildcard probe :: 99
+- through read anti :: 99
+- through read collapse :: 99
+- through read hold :: 99
+- through read preserve :: 99
+- through read probe :: 99
+- through read wildcard :: 99
+- through read zhuangzi :: 99
+- after hold anti :: 98
+- after hold collapse :: 98
+- after hold dissent :: 98
+- after hold divergence :: 98
+- after hold preserve :: 98
+- after hold probe :: 98
+- after hold wildcard :: 98
+- before zhuangzi divergence :: 98
+- before zhuangzi preserve :: 98
+- by probe anti :: 98
+- by probe collapse :: 98
+- by probe divergence :: 98
+- by probe preserve :: 98
+- from wildcard anti :: 98
+- from wildcard bundle :: 98
+- from wildcard collapse :: 98
+- from wildcard dissent :: 98
+- from wildcard divergence :: 98
+- from wildcard preserve :: 98
+- against preserve bundle :: 97
+- against preserve dissent :: 97
+- against preserve divergence :: 97
+- by probe bundle :: 97
+- by probe dissent :: 97
+- with anti bundle :: 97
+- with anti collapse :: 97
+- with anti dissent :: 97
+- with anti divergence :: 97
+- with anti human read :: 97
+- with anti preserve :: 97
+- without collapse bundle :: 97
+- without collapse dissent :: 97
+- without collapse divergence :: 97
+- without collapse human read :: 97
+- without collapse preserve :: 97
+- against preserve human read :: 96
+- against preserve observable :: 96
+- locally dissent bundle :: 96
+- rather bundle human read :: 96
+- relative divergence bundle :: 96
+- relative divergence dissent :: 96
+- relative divergence human read :: 96
+- relative divergence observable :: 96
+- instead human read observable :: 95
+- instead human read surviving split :: 95
+- instead human read under :: 95
+- only live readings under :: 95
+- only live readings within :: 95

@@ -1,0 +1,12 @@
+{
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate",
+  "checked": "loaded mini_mmms/full/controller_acts/md/MMM_VOICE_SYNTHESIS_FULL_v2_7.md",
+  "concluded": "Synthesis result: combine receipts after routes are separated; do not turn the summary into fake execution.",
+  "evidence": "mini_mmms/full/controller_acts/md/MMM_VOICE_SYNTHESIS_FULL_v2_7.md terms: synthesis, compose, composition, receipt, distinct, preserve, carry, merge",
+  "generated_at": "2026-04-28T06:27:57.963395+00:00",
+  "lane": "Synthesis",
+  "open": "live proof pending",
+  "output_excerpt": "Task: Repair the Wizard output after user feedback that the shortened runner collapsed waves and omitted the full follow-up bank.\nWizard General size: full\nWave 11: Controller Synthesis\nSynthesis result: combine receipts after routes are separated; do not turn the summary into fake execution.\nLoaded language body terms: synthesis, compose, composition, receipt, distinct, preserve, carry, merge",
+  "output_sha256": "7c34d7dc217c03eec7e66d624c435ce4869c6e38d76dca3c49c341579e55b189",
+  "schema_version": "wizard_behavior_harness.v1"
+}

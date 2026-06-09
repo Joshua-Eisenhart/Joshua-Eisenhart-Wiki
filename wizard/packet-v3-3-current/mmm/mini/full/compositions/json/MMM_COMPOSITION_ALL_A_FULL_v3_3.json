@@ -1,0 +1,3469 @@
+{
+  "words": [
+    [
+      1,
+      "ground",
+      100
+    ],
+    [
+      2,
+      "pressure",
+      100
+    ],
+    [
+      3,
+      "direct",
+      100
+    ],
+    [
+      4,
+      "claim",
+      100
+    ],
+    [
+      5,
+      "test",
+      100
+    ],
+    [
+      6,
+      "systems",
+      100
+    ],
+    [
+      7,
+      "check",
+      100
+    ],
+    [
+      8,
+      "audit",
+      100
+    ],
+    [
+      9,
+      "result",
+      100
+    ],
+    [
+      10,
+      "default",
+      100
+    ],
+    [
+      11,
+      "bundle",
+      100
+    ],
+    [
+      12,
+      "forward",
+      100
+    ],
+    [
+      13,
+      "motion",
+      100
+    ],
+    [
+      14,
+      "core",
+      100
+    ],
+    [
+      15,
+      "direct move",
+      100
+    ],
+    [
+      16,
+      "risky claim",
+      100
+    ],
+    [
+      17,
+      "observable check",
+      100
+    ],
+    [
+      18,
+      "loop or sequence",
+      100
+    ],
+    [
+      19,
+      "alternative route",
+      100
+    ],
+    [
+      20,
+      "audit result",
+      100
+    ],
+    [
+      21,
+      "retreat condition",
+      99
+    ],
+    [
+      22,
+      "under",
+      99
+    ],
+    [
+      23,
+      "within",
+      99
+    ],
+    [
+      24,
+      "across",
+      99
+    ],
+    [
+      25,
+      "between",
+      99
+    ],
+    [
+      26,
+      "through",
+      99
+    ],
+    [
+      27,
+      "before",
+      99
+    ],
+    [
+      28,
+      "after",
+      99
+    ],
+    [
+      29,
+      "from",
+      99
+    ],
+    [
+      30,
+      "by",
+      99
+    ],
+    [
+      31,
+      "with",
+      99
+    ],
+    [
+      32,
+      "without",
+      99
+    ],
+    [
+      33,
+      "against",
+      99
+    ],
+    [
+      34,
+      "relative",
+      99
+    ],
+    [
+      35,
+      "locally",
+      99
+    ],
+    [
+      36,
+      "rather",
+      99
+    ],
+    [
+      37,
+      "instead",
+      99
+    ],
+    [
+      38,
+      "only",
+      99
+    ],
+    [
+      39,
+      "still",
+      99
+    ],
+    [
+      40,
+      "likely",
+      99
+    ],
+    [
+      41,
+      "possible",
+      98
+    ],
+    [
+      42,
+      "bounded",
+      98
+    ],
+    [
+      43,
+      "finite",
+      98
+    ],
+    [
+      44,
+      "local",
+      98
+    ],
+    [
+      45,
+      "current",
+      98
+    ],
+    [
+      46,
+      "observed",
+      98
+    ],
+    [
+      47,
+      "measured",
+      98
+    ],
+    [
+      48,
+      "checked",
+      98
+    ],
+    [
+      49,
+      "open",
+      98
+    ],
+    [
+      50,
+      "partial",
+      98
+    ],
+    [
+      51,
+      "limited",
+      98
+    ],
+    [
+      52,
+      "constraint",
+      98
+    ],
+    [
+      53,
+      "evidence",
+      98
+    ],
+    [
+      54,
+      "observation",
+      98
+    ],
+    [
+      55,
+      "measurement",
+      98
+    ],
+    [
+      56,
+      "trace",
+      98
+    ],
+    [
+      57,
+      "sample",
+      98
+    ],
+    [
+      58,
+      "case",
+      98
+    ],
+    [
+      59,
+      "instance",
+      98
+    ],
+    [
+      60,
+      "name",
+      98
+    ],
+    [
+      61,
+      "term",
+      97
+    ],
+    [
+      62,
+      "word",
+      97
+    ],
+    [
+      63,
+      "use",
+      97
+    ],
+    [
+      64,
+      "relation",
+      97
+    ],
+    [
+      65,
+      "distinction",
+      97
+    ],
+    [
+      66,
+      "comparison",
+      97
+    ],
+    [
+      67,
+      "support",
+      97
+    ],
+    [
+      68,
+      "estimate",
+      97
+    ],
+    [
+      69,
+      "uncertainty",
+      97
+    ],
+    [
+      70,
+      "model",
+      97
+    ],
+    [
+      71,
+      "witness",
+      97
+    ],
+    [
+      72,
+      "counterexample",
+      97
+    ],
+    [
+      73,
+      "candidate",
+      97
+    ],
+    [
+      74,
+      "survivor",
+      97
+    ],
+    [
+      75,
+      "surface",
+      97
+    ],
+    [
+      76,
+      "boundary",
+      97
+    ],
+    [
+      77,
+      "scope",
+      97
+    ],
+    [
+      78,
+      "condition",
+      97
+    ],
+    [
+      79,
+      "path",
+      97
+    ],
+    [
+      80,
+      "branch",
+      97
+    ],
+    [
+      81,
+      "fork",
+      96
+    ],
+    [
+      82,
+      "plurality",
+      96
+    ],
+    [
+      83,
+      "reading",
+      96
+    ],
+    [
+      84,
+      "perspective",
+      96
+    ],
+    [
+      85,
+      "route",
+      96
+    ],
+    [
+      86,
+      "receipt",
+      96
+    ],
+    [
+      87,
+      "voice",
+      96
+    ],
+    [
+      88,
+      "lane",
+      96
+    ],
+    [
+      89,
+      "all-a",
+      96
+    ],
+    [
+      90,
+      "composite",
+      96
+    ],
+    [
+      91,
+      "for",
+      96
+    ],
+    [
+      92,
+      "ordinary",
+      96
+    ],
+    [
+      93,
+      "substantive",
+      96
+    ],
+    [
+      94,
+      "work",
+      96
+    ],
+    [
+      95,
+      "compose",
+      96
+    ],
+    [
+      96,
+      "popper",
+      96
+    ],
+    [
+      97,
+      "feynman",
+      96
+    ],
+    [
+      98,
+      "systems-or-strategy",
+      96
+    ],
+    [
+      99,
+      "alternative",
+      96
+    ],
+    [
+      100,
+      "and",
+      96
+    ],
+    [
+      101,
+      "into",
+      95
+    ],
+    [
+      102,
+      "truthful",
+      95
+    ],
+    [
+      103,
+      "packet",
+      95
+    ],
+    [
+      104,
+      "advance",
+      95
+    ],
+    [
+      105,
+      "the",
+      95
+    ],
+    [
+      106,
+      "active",
+      95
+    ],
+    [
+      107,
+      "task",
+      95
+    ],
+    [
+      108,
+      "while",
+      95
+    ],
+    [
+      109,
+      "pressure-testing",
+      95
+    ],
+    [
+      110,
+      "risky",
+      95
+    ],
+    [
+      111,
+      "keep",
+      95
+    ],
+    [
+      112,
+      "one",
+      95
+    ],
+    [
+      113,
+      "real",
+      95
+    ],
+    [
+      114,
+      "alive",
+      95
+    ],
+    [
+      115,
+      "land",
+      95
+    ],
+    [
+      116,
+      "compact",
+      95
+    ],
+    [
+      117,
+      "concluded",
+      95
+    ],
+    [
+      118,
+      "not",
+      95
+    ],
+    [
+      119,
+      "all",
+      95
+    ],
+    [
+      120,
+      "voices",
+      95
+    ],
+    [
+      121,
+      "maximum",
+      94
+    ],
+    [
+      122,
+      "hidden",
+      94
+    ],
+    [
+      123,
+      "execution",
+      94
+    ],
+    [
+      124,
+      "receipts",
+      94
+    ],
+    [
+      125,
+      "flattening",
+      94
+    ],
+    [
+      126,
+      "listing",
+      94
+    ],
+    [
+      127,
+      "names",
+      94
+    ],
+    [
+      128,
+      "plan",
+      94
+    ],
+    [
+      129,
+      "running",
+      94
+    ],
+    [
+      130,
+      "unspawned",
+      94
+    ],
+    [
+      131,
+      "lanes",
+      94
+    ],
+    [
+      132,
+      "prose",
+      94
+    ],
+    [
+      133,
+      "omitting",
+      94
+    ],
+    [
+      134,
+      "retreat",
+      94
+    ],
+    [
+      135,
+      "making",
+      94
+    ],
+    [
+      136,
+      "too",
+      94
+    ],
+    [
+      137,
+      "broad",
+      94
+    ],
+    [
+      138,
+      "smallest",
+      94
+    ],
+    [
+      139,
+      "that",
+      94
+    ],
+    [
+      140,
+      "guards",
+      93
+    ],
+    [
+      141,
+      "first",
+      93
+    ],
+    [
+      142,
+      "should",
+      93
+    ],
+    [
+      143,
+      "run",
+      93
+    ],
+    [
+      144,
+      "honest",
+      93
+    ],
+    [
+      145,
+      "stop",
+      93
+    ],
+    [
+      146,
+      "plurality-preservation",
+      93
+    ],
+    [
+      147,
+      "focus",
+      93
+    ],
+    [
+      148,
+      "closeout",
+      93
+    ],
+    [
+      149,
+      "hygiene",
+      93
+    ],
+    [
+      150,
+      "full",
+      93
+    ],
+    [
+      151,
+      "wizard",
+      93
+    ],
+    [
+      152,
+      "stabilization",
+      93
+    ],
+    [
+      153,
+      "move",
+      93
+    ],
+    [
+      154,
+      "observable",
+      93
+    ],
+    [
+      155,
+      "loop",
+      93
+    ],
+    [
+      156,
+      "sequence",
+      93
+    ],
+    [
+      157,
+      "advances",
+      93
+    ],
+    [
+      158,
+      "pressure-tests",
+      93
+    ],
+    [
+      159,
+      "bounded artifact",
+      98
+    ],
+    [
+      160,
+      "riskiest claim",
+      98
+    ],
+    [
+      161,
+      "falsifier",
+      98
+    ],
+    [
+      162,
+      "real alternative",
+      98
+    ]
+  ],
+  "couplings": [
+    [
+      1,
+      "under ground",
+      100
+    ],
+    [
+      2,
+      "under pressure",
+      100
+    ],
+    [
+      3,
+      "under direct",
+      100
+    ],
+    [
+      4,
+      "under claim",
+      100
+    ],
+    [
+      5,
+      "under test",
+      100
+    ],
+    [
+      6,
+      "under systems",
+      100
+    ],
+    [
+      7,
+      "under check",
+      100
+    ],
+    [
+      8,
+      "under audit",
+      100
+    ],
+    [
+      9,
+      "under result",
+      100
+    ],
+    [
+      10,
+      "under default",
+      100
+    ],
+    [
+      11,
+      "under bundle",
+      100
+    ],
+    [
+      12,
+      "under forward",
+      100
+    ],
+    [
+      13,
+      "under motion",
+      100
+    ],
+    [
+      14,
+      "under core",
+      100
+    ],
+    [
+      15,
+      "under direct move",
+      100
+    ],
+    [
+      16,
+      "within ground",
+      100
+    ],
+    [
+      17,
+      "within pressure",
+      100
+    ],
+    [
+      18,
+      "within direct",
+      100
+    ],
+    [
+      19,
+      "within claim",
+      100
+    ],
+    [
+      20,
+      "within test",
+      100
+    ],
+    [
+      21,
+      "within systems",
+      99
+    ],
+    [
+      22,
+      "within check",
+      99
+    ],
+    [
+      23,
+      "within audit",
+      99
+    ],
+    [
+      24,
+      "within result",
+      99
+    ],
+    [
+      25,
+      "within default",
+      99
+    ],
+    [
+      26,
+      "within bundle",
+      99
+    ],
+    [
+      27,
+      "within forward",
+      99
+    ],
+    [
+      28,
+      "within motion",
+      99
+    ],
+    [
+      29,
+      "within core",
+      99
+    ],
+    [
+      30,
+      "within direct move",
+      99
+    ],
+    [
+      31,
+      "across ground",
+      99
+    ],
+    [
+      32,
+      "across pressure",
+      99
+    ],
+    [
+      33,
+      "across direct",
+      99
+    ],
+    [
+      34,
+      "across claim",
+      99
+    ],
+    [
+      35,
+      "across test",
+      99
+    ],
+    [
+      36,
+      "across systems",
+      99
+    ],
+    [
+      37,
+      "across check",
+      99
+    ],
+    [
+      38,
+      "across audit",
+      99
+    ],
+    [
+      39,
+      "across result",
+      99
+    ],
+    [
+      40,
+      "across default",
+      99
+    ],
+    [
+      41,
+      "across bundle",
+      98
+    ],
+    [
+      42,
+      "across forward",
+      98
+    ],
+    [
+      43,
+      "across motion",
+      98
+    ],
+    [
+      44,
+      "across core",
+      98
+    ],
+    [
+      45,
+      "across direct move",
+      98
+    ],
+    [
+      46,
+      "between ground",
+      98
+    ],
+    [
+      47,
+      "between pressure",
+      98
+    ],
+    [
+      48,
+      "between direct",
+      98
+    ],
+    [
+      49,
+      "between claim",
+      98
+    ],
+    [
+      50,
+      "between test",
+      98
+    ],
+    [
+      51,
+      "between systems",
+      98
+    ],
+    [
+      52,
+      "between check",
+      98
+    ],
+    [
+      53,
+      "between audit",
+      98
+    ],
+    [
+      54,
+      "between result",
+      98
+    ],
+    [
+      55,
+      "between default",
+      98
+    ],
+    [
+      56,
+      "between bundle",
+      98
+    ],
+    [
+      57,
+      "between forward",
+      98
+    ],
+    [
+      58,
+      "between motion",
+      98
+    ],
+    [
+      59,
+      "between core",
+      98
+    ],
+    [
+      60,
+      "between direct move",
+      98
+    ],
+    [
+      61,
+      "through ground",
+      97
+    ],
+    [
+      62,
+      "through pressure",
+      97
+    ],
+    [
+      63,
+      "through direct",
+      97
+    ],
+    [
+      64,
+      "through claim",
+      97
+    ],
+    [
+      65,
+      "through test",
+      97
+    ],
+    [
+      66,
+      "through systems",
+      97
+    ],
+    [
+      67,
+      "through check",
+      97
+    ],
+    [
+      68,
+      "through audit",
+      97
+    ],
+    [
+      69,
+      "through result",
+      97
+    ],
+    [
+      70,
+      "through default",
+      97
+    ],
+    [
+      71,
+      "through bundle",
+      97
+    ],
+    [
+      72,
+      "through forward",
+      97
+    ],
+    [
+      73,
+      "through motion",
+      97
+    ],
+    [
+      74,
+      "through core",
+      97
+    ],
+    [
+      75,
+      "through direct move",
+      97
+    ],
+    [
+      76,
+      "before ground",
+      97
+    ],
+    [
+      77,
+      "before pressure",
+      97
+    ],
+    [
+      78,
+      "before direct",
+      97
+    ],
+    [
+      79,
+      "before claim",
+      97
+    ],
+    [
+      80,
+      "before test",
+      97
+    ],
+    [
+      81,
+      "before systems",
+      96
+    ],
+    [
+      82,
+      "before check",
+      96
+    ],
+    [
+      83,
+      "before audit",
+      96
+    ],
+    [
+      84,
+      "before result",
+      96
+    ],
+    [
+      85,
+      "before default",
+      96
+    ],
+    [
+      86,
+      "before bundle",
+      96
+    ],
+    [
+      87,
+      "before forward",
+      96
+    ],
+    [
+      88,
+      "before motion",
+      96
+    ],
+    [
+      89,
+      "before core",
+      96
+    ],
+    [
+      90,
+      "before direct move",
+      96
+    ],
+    [
+      91,
+      "after ground",
+      96
+    ],
+    [
+      92,
+      "after pressure",
+      96
+    ],
+    [
+      93,
+      "after direct",
+      96
+    ],
+    [
+      94,
+      "after claim",
+      96
+    ],
+    [
+      95,
+      "after test",
+      96
+    ],
+    [
+      96,
+      "after systems",
+      96
+    ],
+    [
+      97,
+      "after check",
+      96
+    ],
+    [
+      98,
+      "after audit",
+      96
+    ],
+    [
+      99,
+      "after result",
+      96
+    ],
+    [
+      100,
+      "after default",
+      96
+    ],
+    [
+      101,
+      "after bundle",
+      95
+    ],
+    [
+      102,
+      "after forward",
+      95
+    ],
+    [
+      103,
+      "after motion",
+      95
+    ],
+    [
+      104,
+      "after core",
+      95
+    ],
+    [
+      105,
+      "after direct move",
+      95
+    ],
+    [
+      106,
+      "from ground",
+      95
+    ],
+    [
+      107,
+      "from pressure",
+      95
+    ],
+    [
+      108,
+      "from direct",
+      95
+    ],
+    [
+      109,
+      "from claim",
+      95
+    ],
+    [
+      110,
+      "from test",
+      95
+    ],
+    [
+      111,
+      "from systems",
+      95
+    ],
+    [
+      112,
+      "from check",
+      95
+    ],
+    [
+      113,
+      "from audit",
+      95
+    ],
+    [
+      114,
+      "from result",
+      95
+    ],
+    [
+      115,
+      "from default",
+      95
+    ],
+    [
+      116,
+      "from bundle",
+      95
+    ],
+    [
+      117,
+      "from forward",
+      95
+    ],
+    [
+      118,
+      "from motion",
+      95
+    ],
+    [
+      119,
+      "from core",
+      95
+    ],
+    [
+      120,
+      "from direct move",
+      95
+    ],
+    [
+      121,
+      "by ground",
+      94
+    ],
+    [
+      122,
+      "by pressure",
+      94
+    ],
+    [
+      123,
+      "by direct",
+      94
+    ],
+    [
+      124,
+      "by claim",
+      94
+    ],
+    [
+      125,
+      "by test",
+      94
+    ],
+    [
+      126,
+      "by systems",
+      94
+    ],
+    [
+      127,
+      "by check",
+      94
+    ],
+    [
+      128,
+      "by audit",
+      94
+    ],
+    [
+      129,
+      "by result",
+      94
+    ],
+    [
+      130,
+      "by default",
+      94
+    ],
+    [
+      131,
+      "by bundle",
+      94
+    ],
+    [
+      132,
+      "by forward",
+      94
+    ],
+    [
+      133,
+      "by motion",
+      94
+    ],
+    [
+      134,
+      "by core",
+      94
+    ],
+    [
+      135,
+      "by direct move",
+      94
+    ],
+    [
+      136,
+      "with ground",
+      94
+    ],
+    [
+      137,
+      "with pressure",
+      94
+    ],
+    [
+      138,
+      "with direct",
+      94
+    ],
+    [
+      139,
+      "with claim",
+      94
+    ],
+    [
+      140,
+      "with test",
+      94
+    ],
+    [
+      141,
+      "with systems",
+      93
+    ],
+    [
+      142,
+      "with check",
+      93
+    ],
+    [
+      143,
+      "with audit",
+      93
+    ],
+    [
+      144,
+      "with result",
+      93
+    ],
+    [
+      145,
+      "with default",
+      93
+    ],
+    [
+      146,
+      "with bundle",
+      93
+    ],
+    [
+      147,
+      "with forward",
+      93
+    ],
+    [
+      148,
+      "with motion",
+      93
+    ],
+    [
+      149,
+      "with core",
+      93
+    ],
+    [
+      150,
+      "with direct move",
+      93
+    ],
+    [
+      151,
+      "without ground",
+      93
+    ],
+    [
+      152,
+      "without pressure",
+      93
+    ],
+    [
+      153,
+      "without direct",
+      93
+    ],
+    [
+      154,
+      "without claim",
+      93
+    ],
+    [
+      155,
+      "without test",
+      93
+    ],
+    [
+      156,
+      "without systems",
+      93
+    ],
+    [
+      157,
+      "without check",
+      93
+    ],
+    [
+      158,
+      "without audit",
+      93
+    ],
+    [
+      159,
+      "without result",
+      93
+    ],
+    [
+      160,
+      "without default",
+      93
+    ],
+    [
+      161,
+      "without bundle",
+      92
+    ],
+    [
+      162,
+      "without forward",
+      92
+    ],
+    [
+      163,
+      "without motion",
+      92
+    ],
+    [
+      164,
+      "without core",
+      92
+    ],
+    [
+      165,
+      "without direct move",
+      92
+    ],
+    [
+      166,
+      "against ground",
+      92
+    ],
+    [
+      167,
+      "against pressure",
+      92
+    ],
+    [
+      168,
+      "against direct",
+      92
+    ],
+    [
+      169,
+      "against claim",
+      92
+    ],
+    [
+      170,
+      "against test",
+      92
+    ],
+    [
+      171,
+      "against systems",
+      92
+    ],
+    [
+      172,
+      "against check",
+      92
+    ],
+    [
+      173,
+      "against audit",
+      92
+    ],
+    [
+      174,
+      "against result",
+      92
+    ],
+    [
+      175,
+      "against default",
+      92
+    ],
+    [
+      176,
+      "against bundle",
+      92
+    ],
+    [
+      177,
+      "against forward",
+      92
+    ],
+    [
+      178,
+      "against motion",
+      92
+    ],
+    [
+      179,
+      "against core",
+      92
+    ],
+    [
+      180,
+      "against direct move",
+      92
+    ],
+    [
+      181,
+      "ground pressure",
+      91
+    ],
+    [
+      182,
+      "ground direct",
+      91
+    ],
+    [
+      183,
+      "ground claim",
+      91
+    ],
+    [
+      184,
+      "ground test",
+      91
+    ],
+    [
+      185,
+      "ground systems",
+      91
+    ],
+    [
+      186,
+      "ground check",
+      91
+    ],
+    [
+      187,
+      "ground audit",
+      91
+    ],
+    [
+      188,
+      "pressure direct",
+      91
+    ],
+    [
+      189,
+      "pressure claim",
+      91
+    ],
+    [
+      190,
+      "pressure test",
+      91
+    ],
+    [
+      191,
+      "pressure systems",
+      91
+    ],
+    [
+      192,
+      "pressure check",
+      91
+    ],
+    [
+      193,
+      "pressure audit",
+      91
+    ],
+    [
+      194,
+      "pressure result",
+      91
+    ],
+    [
+      195,
+      "direct claim",
+      91
+    ],
+    [
+      196,
+      "direct test",
+      91
+    ],
+    [
+      197,
+      "direct systems",
+      91
+    ],
+    [
+      198,
+      "direct check",
+      91
+    ],
+    [
+      199,
+      "direct audit",
+      91
+    ],
+    [
+      200,
+      "direct result",
+      91
+    ],
+    [
+      201,
+      "direct default",
+      90
+    ],
+    [
+      202,
+      "claim test",
+      90
+    ],
+    [
+      203,
+      "claim systems",
+      90
+    ],
+    [
+      204,
+      "claim check",
+      90
+    ],
+    [
+      205,
+      "claim audit",
+      90
+    ],
+    [
+      206,
+      "claim result",
+      90
+    ],
+    [
+      207,
+      "claim default",
+      90
+    ],
+    [
+      208,
+      "claim bundle",
+      90
+    ],
+    [
+      209,
+      "test systems",
+      90
+    ],
+    [
+      210,
+      "test check",
+      90
+    ],
+    [
+      211,
+      "test audit",
+      90
+    ],
+    [
+      212,
+      "test result",
+      90
+    ],
+    [
+      213,
+      "test default",
+      90
+    ],
+    [
+      214,
+      "test bundle",
+      90
+    ],
+    [
+      215,
+      "test forward",
+      90
+    ],
+    [
+      216,
+      "systems check",
+      90
+    ],
+    [
+      217,
+      "systems audit",
+      90
+    ],
+    [
+      218,
+      "systems result",
+      90
+    ],
+    [
+      219,
+      "systems default",
+      90
+    ],
+    [
+      220,
+      "systems bundle",
+      90
+    ],
+    [
+      221,
+      "systems forward",
+      89
+    ],
+    [
+      222,
+      "systems motion",
+      89
+    ],
+    [
+      223,
+      "check audit",
+      89
+    ],
+    [
+      224,
+      "check result",
+      89
+    ],
+    [
+      225,
+      "check default",
+      89
+    ],
+    [
+      226,
+      "check bundle",
+      89
+    ],
+    [
+      227,
+      "check forward",
+      89
+    ],
+    [
+      228,
+      "check motion",
+      89
+    ],
+    [
+      229,
+      "check core",
+      89
+    ],
+    [
+      230,
+      "audit result",
+      89
+    ],
+    [
+      231,
+      "audit default",
+      89
+    ],
+    [
+      232,
+      "audit bundle",
+      89
+    ],
+    [
+      233,
+      "audit forward",
+      89
+    ],
+    [
+      234,
+      "audit motion",
+      89
+    ],
+    [
+      235,
+      "audit core",
+      89
+    ],
+    [
+      236,
+      "audit direct move",
+      89
+    ],
+    [
+      237,
+      "result default",
+      89
+    ],
+    [
+      238,
+      "result bundle",
+      89
+    ],
+    [
+      239,
+      "result forward",
+      89
+    ],
+    [
+      240,
+      "result motion",
+      89
+    ],
+    [
+      241,
+      "result core",
+      88
+    ],
+    [
+      242,
+      "result direct move",
+      88
+    ],
+    [
+      243,
+      "result risky claim",
+      88
+    ],
+    [
+      244,
+      "default bundle",
+      88
+    ],
+    [
+      245,
+      "default forward",
+      88
+    ],
+    [
+      246,
+      "default motion",
+      88
+    ],
+    [
+      247,
+      "default core",
+      88
+    ],
+    [
+      248,
+      "default direct move",
+      88
+    ],
+    [
+      249,
+      "default risky claim",
+      88
+    ],
+    [
+      250,
+      "default observable check",
+      88
+    ],
+    [
+      251,
+      "bundle forward",
+      88
+    ],
+    [
+      252,
+      "bundle motion",
+      88
+    ],
+    [
+      253,
+      "bundle core",
+      88
+    ],
+    [
+      254,
+      "bundle direct move",
+      88
+    ],
+    [
+      255,
+      "bundle risky claim",
+      88
+    ],
+    [
+      256,
+      "bundle observable check",
+      88
+    ],
+    [
+      257,
+      "bundle loop or sequence",
+      88
+    ],
+    [
+      258,
+      "forward motion",
+      88
+    ],
+    [
+      259,
+      "forward core",
+      88
+    ],
+    [
+      260,
+      "forward direct move",
+      88
+    ],
+    [
+      261,
+      "forward risky claim",
+      87
+    ],
+    [
+      262,
+      "forward observable check",
+      87
+    ],
+    [
+      263,
+      "forward loop or sequence",
+      87
+    ],
+    [
+      264,
+      "forward alternative route",
+      87
+    ],
+    [
+      265,
+      "motion core",
+      87
+    ],
+    [
+      266,
+      "motion direct move",
+      87
+    ],
+    [
+      267,
+      "motion risky claim",
+      87
+    ],
+    [
+      268,
+      "motion observable check",
+      87
+    ],
+    [
+      269,
+      "motion loop or sequence",
+      87
+    ],
+    [
+      270,
+      "motion alternative route",
+      87
+    ],
+    [
+      271,
+      "motion audit result",
+      87
+    ],
+    [
+      272,
+      "core direct move",
+      87
+    ],
+    [
+      273,
+      "core risky claim",
+      87
+    ],
+    [
+      274,
+      "core observable check",
+      87
+    ],
+    [
+      275,
+      "core loop or sequence",
+      87
+    ],
+    [
+      276,
+      "core alternative route",
+      87
+    ],
+    [
+      277,
+      "core audit result",
+      87
+    ],
+    [
+      278,
+      "core retreat condition",
+      87
+    ],
+    [
+      279,
+      "direct move risky claim",
+      87
+    ],
+    [
+      280,
+      "direct move observable check",
+      87
+    ],
+    [
+      281,
+      "direct move loop or sequence",
+      86
+    ],
+    [
+      282,
+      "direct move alternative route",
+      86
+    ],
+    [
+      283,
+      "direct move audit result",
+      86
+    ],
+    [
+      284,
+      "direct move retreat condition",
+      86
+    ],
+    [
+      285,
+      "direct move under",
+      86
+    ],
+    [
+      286,
+      "risky claim observable check",
+      86
+    ],
+    [
+      287,
+      "risky claim loop or sequence",
+      86
+    ],
+    [
+      288,
+      "risky claim alternative route",
+      86
+    ],
+    [
+      289,
+      "risky claim audit result",
+      86
+    ],
+    [
+      290,
+      "risky claim retreat condition",
+      86
+    ],
+    [
+      291,
+      "risky claim under",
+      86
+    ],
+    [
+      292,
+      "risky claim within",
+      86
+    ],
+    [
+      293,
+      "observable check loop or sequence",
+      86
+    ],
+    [
+      294,
+      "observable check alternative route",
+      86
+    ],
+    [
+      295,
+      "observable check audit result",
+      86
+    ],
+    [
+      296,
+      "observable check retreat condition",
+      86
+    ],
+    [
+      297,
+      "observable check under",
+      86
+    ],
+    [
+      298,
+      "observable check within",
+      86
+    ],
+    [
+      299,
+      "observable check across",
+      86
+    ],
+    [
+      300,
+      "loop or sequence alternative route",
+      86
+    ],
+    [
+      301,
+      "loop or sequence audit result",
+      85
+    ],
+    [
+      302,
+      "loop or sequence retreat condition",
+      85
+    ],
+    [
+      303,
+      "loop or sequence under",
+      85
+    ],
+    [
+      304,
+      "loop or sequence within",
+      85
+    ],
+    [
+      305,
+      "loop or sequence across",
+      85
+    ],
+    [
+      306,
+      "loop or sequence between",
+      85
+    ],
+    [
+      307,
+      "alternative route audit result",
+      85
+    ],
+    [
+      308,
+      "alternative route retreat condition",
+      85
+    ],
+    [
+      309,
+      "alternative route under",
+      85
+    ],
+    [
+      310,
+      "alternative route within",
+      85
+    ],
+    [
+      311,
+      "alternative route across",
+      85
+    ],
+    [
+      312,
+      "alternative route between",
+      85
+    ],
+    [
+      313,
+      "alternative route through",
+      85
+    ],
+    [
+      314,
+      "audit result retreat condition",
+      85
+    ],
+    [
+      315,
+      "audit result under",
+      85
+    ],
+    [
+      316,
+      "audit result within",
+      85
+    ],
+    [
+      317,
+      "audit result across",
+      85
+    ],
+    [
+      318,
+      "audit result between",
+      85
+    ],
+    [
+      319,
+      "audit result through",
+      85
+    ],
+    [
+      320,
+      "audit result before",
+      85
+    ],
+    [
+      321,
+      "retreat condition under",
+      84
+    ],
+    [
+      322,
+      "retreat condition within",
+      84
+    ],
+    [
+      323,
+      "retreat condition across",
+      84
+    ],
+    [
+      324,
+      "retreat condition between",
+      84
+    ],
+    [
+      325,
+      "retreat condition through",
+      84
+    ],
+    [
+      326,
+      "retreat condition before",
+      84
+    ],
+    [
+      327,
+      "retreat condition after",
+      84
+    ],
+    [
+      328,
+      "under within",
+      84
+    ],
+    [
+      329,
+      "under across",
+      84
+    ],
+    [
+      330,
+      "under between",
+      84
+    ],
+    [
+      331,
+      "under through",
+      84
+    ],
+    [
+      332,
+      "under before",
+      84
+    ],
+    [
+      333,
+      "under after",
+      84
+    ],
+    [
+      334,
+      "under from",
+      84
+    ],
+    [
+      335,
+      "within across",
+      84
+    ],
+    [
+      336,
+      "within between",
+      84
+    ],
+    [
+      337,
+      "within through",
+      84
+    ],
+    [
+      338,
+      "within before",
+      84
+    ],
+    [
+      339,
+      "within after",
+      84
+    ],
+    [
+      340,
+      "within from",
+      84
+    ],
+    [
+      341,
+      "within by",
+      83
+    ],
+    [
+      342,
+      "across between",
+      83
+    ],
+    [
+      343,
+      "across through",
+      83
+    ],
+    [
+      344,
+      "across before",
+      83
+    ],
+    [
+      345,
+      "across after",
+      83
+    ],
+    [
+      346,
+      "across from",
+      83
+    ],
+    [
+      347,
+      "across by",
+      83
+    ],
+    [
+      348,
+      "across with",
+      83
+    ],
+    [
+      349,
+      "between through",
+      83
+    ],
+    [
+      350,
+      "between before",
+      83
+    ],
+    [
+      351,
+      "bounded forward move",
+      97
+    ],
+    [
+      352,
+      "pressure-test it",
+      97
+    ],
+    [
+      353,
+      "observable check",
+      97
+    ]
+  ],
+  "triplets": [
+    [
+      1,
+      "under ground pressure",
+      100
+    ],
+    [
+      2,
+      "under ground direct",
+      100
+    ],
+    [
+      3,
+      "under ground claim",
+      100
+    ],
+    [
+      4,
+      "under ground test",
+      100
+    ],
+    [
+      5,
+      "under ground systems",
+      100
+    ],
+    [
+      6,
+      "under ground check",
+      100
+    ],
+    [
+      7,
+      "under ground audit",
+      100
+    ],
+    [
+      8,
+      "within pressure direct",
+      100
+    ],
+    [
+      9,
+      "within pressure claim",
+      100
+    ],
+    [
+      10,
+      "within pressure test",
+      100
+    ],
+    [
+      11,
+      "within pressure systems",
+      100
+    ],
+    [
+      12,
+      "within pressure check",
+      100
+    ],
+    [
+      13,
+      "within pressure audit",
+      100
+    ],
+    [
+      14,
+      "within pressure result",
+      100
+    ],
+    [
+      15,
+      "across direct claim",
+      100
+    ],
+    [
+      16,
+      "across direct test",
+      100
+    ],
+    [
+      17,
+      "across direct systems",
+      100
+    ],
+    [
+      18,
+      "across direct check",
+      100
+    ],
+    [
+      19,
+      "across direct audit",
+      100
+    ],
+    [
+      20,
+      "across direct result",
+      100
+    ],
+    [
+      21,
+      "across direct default",
+      99
+    ],
+    [
+      22,
+      "between claim test",
+      99
+    ],
+    [
+      23,
+      "between claim systems",
+      99
+    ],
+    [
+      24,
+      "between claim check",
+      99
+    ],
+    [
+      25,
+      "between claim audit",
+      99
+    ],
+    [
+      26,
+      "between claim result",
+      99
+    ],
+    [
+      27,
+      "between claim default",
+      99
+    ],
+    [
+      28,
+      "between claim bundle",
+      99
+    ],
+    [
+      29,
+      "through test systems",
+      99
+    ],
+    [
+      30,
+      "through test check",
+      99
+    ],
+    [
+      31,
+      "through test audit",
+      99
+    ],
+    [
+      32,
+      "through test result",
+      99
+    ],
+    [
+      33,
+      "through test default",
+      99
+    ],
+    [
+      34,
+      "through test bundle",
+      99
+    ],
+    [
+      35,
+      "through test forward",
+      99
+    ],
+    [
+      36,
+      "before systems check",
+      99
+    ],
+    [
+      37,
+      "before systems audit",
+      99
+    ],
+    [
+      38,
+      "before systems result",
+      99
+    ],
+    [
+      39,
+      "before systems default",
+      99
+    ],
+    [
+      40,
+      "before systems bundle",
+      99
+    ],
+    [
+      41,
+      "before systems forward",
+      98
+    ],
+    [
+      42,
+      "before systems motion",
+      98
+    ],
+    [
+      43,
+      "after check audit",
+      98
+    ],
+    [
+      44,
+      "after check result",
+      98
+    ],
+    [
+      45,
+      "after check default",
+      98
+    ],
+    [
+      46,
+      "after check bundle",
+      98
+    ],
+    [
+      47,
+      "after check forward",
+      98
+    ],
+    [
+      48,
+      "after check motion",
+      98
+    ],
+    [
+      49,
+      "after check core",
+      98
+    ],
+    [
+      50,
+      "from audit result",
+      98
+    ],
+    [
+      51,
+      "from audit default",
+      98
+    ],
+    [
+      52,
+      "from audit bundle",
+      98
+    ],
+    [
+      53,
+      "from audit forward",
+      98
+    ],
+    [
+      54,
+      "from audit motion",
+      98
+    ],
+    [
+      55,
+      "from audit core",
+      98
+    ],
+    [
+      56,
+      "from audit direct move",
+      98
+    ],
+    [
+      57,
+      "by result default",
+      98
+    ],
+    [
+      58,
+      "by result bundle",
+      98
+    ],
+    [
+      59,
+      "by result forward",
+      98
+    ],
+    [
+      60,
+      "by result motion",
+      98
+    ],
+    [
+      61,
+      "by result core",
+      97
+    ],
+    [
+      62,
+      "by result direct move",
+      97
+    ],
+    [
+      63,
+      "by result risky claim",
+      97
+    ],
+    [
+      64,
+      "with default bundle",
+      97
+    ],
+    [
+      65,
+      "with default forward",
+      97
+    ],
+    [
+      66,
+      "with default motion",
+      97
+    ],
+    [
+      67,
+      "with default core",
+      97
+    ],
+    [
+      68,
+      "with default direct move",
+      97
+    ],
+    [
+      69,
+      "with default risky claim",
+      97
+    ],
+    [
+      70,
+      "with default observable check",
+      97
+    ],
+    [
+      71,
+      "without bundle forward",
+      97
+    ],
+    [
+      72,
+      "without bundle motion",
+      97
+    ],
+    [
+      73,
+      "without bundle core",
+      97
+    ],
+    [
+      74,
+      "without bundle direct move",
+      97
+    ],
+    [
+      75,
+      "without bundle risky claim",
+      97
+    ],
+    [
+      76,
+      "without bundle observable check",
+      97
+    ],
+    [
+      77,
+      "without bundle loop or sequence",
+      97
+    ],
+    [
+      78,
+      "against forward motion",
+      97
+    ],
+    [
+      79,
+      "against forward core",
+      97
+    ],
+    [
+      80,
+      "against forward direct move",
+      97
+    ],
+    [
+      81,
+      "against forward risky claim",
+      96
+    ],
+    [
+      82,
+      "against forward observable check",
+      96
+    ],
+    [
+      83,
+      "against forward loop or sequence",
+      96
+    ],
+    [
+      84,
+      "against forward alternative route",
+      96
+    ],
+    [
+      85,
+      "relative motion core",
+      96
+    ],
+    [
+      86,
+      "relative motion direct move",
+      96
+    ],
+    [
+      87,
+      "relative motion risky claim",
+      96
+    ],
+    [
+      88,
+      "relative motion observable check",
+      96
+    ],
+    [
+      89,
+      "relative motion loop or sequence",
+      96
+    ],
+    [
+      90,
+      "relative motion alternative route",
+      96
+    ],
+    [
+      91,
+      "relative motion audit result",
+      96
+    ],
+    [
+      92,
+      "locally core direct move",
+      96
+    ],
+    [
+      93,
+      "locally core risky claim",
+      96
+    ],
+    [
+      94,
+      "locally core observable check",
+      96
+    ],
+    [
+      95,
+      "locally core loop or sequence",
+      96
+    ],
+    [
+      96,
+      "locally core alternative route",
+      96
+    ],
+    [
+      97,
+      "locally core audit result",
+      96
+    ],
+    [
+      98,
+      "locally core retreat condition",
+      96
+    ],
+    [
+      99,
+      "rather direct move risky claim",
+      96
+    ],
+    [
+      100,
+      "rather direct move observable check",
+      96
+    ],
+    [
+      101,
+      "rather direct move loop or sequence",
+      95
+    ],
+    [
+      102,
+      "rather direct move alternative route",
+      95
+    ],
+    [
+      103,
+      "rather direct move audit result",
+      95
+    ],
+    [
+      104,
+      "rather direct move retreat condition",
+      95
+    ],
+    [
+      105,
+      "rather direct move under",
+      95
+    ],
+    [
+      106,
+      "instead risky claim observable check",
+      95
+    ],
+    [
+      107,
+      "instead risky claim loop or sequence",
+      95
+    ],
+    [
+      108,
+      "instead risky claim alternative route",
+      95
+    ],
+    [
+      109,
+      "instead risky claim audit result",
+      95
+    ],
+    [
+      110,
+      "instead risky claim retreat condition",
+      95
+    ],
+    [
+      111,
+      "instead risky claim under",
+      95
+    ],
+    [
+      112,
+      "instead risky claim within",
+      95
+    ],
+    [
+      113,
+      "only observable check loop or sequence",
+      95
+    ],
+    [
+      114,
+      "only observable check alternative route",
+      95
+    ],
+    [
+      115,
+      "only observable check audit result",
+      95
+    ],
+    [
+      116,
+      "only observable check retreat condition",
+      95
+    ],
+    [
+      117,
+      "only observable check under",
+      95
+    ],
+    [
+      118,
+      "only observable check within",
+      95
+    ],
+    [
+      119,
+      "only observable check across",
+      95
+    ],
+    [
+      120,
+      "still loop or sequence alternative route",
+      95
+    ],
+    [
+      121,
+      "still loop or sequence audit result",
+      94
+    ],
+    [
+      122,
+      "still loop or sequence retreat condition",
+      94
+    ],
+    [
+      123,
+      "still loop or sequence under",
+      94
+    ],
+    [
+      124,
+      "still loop or sequence within",
+      94
+    ],
+    [
+      125,
+      "still loop or sequence across",
+      94
+    ],
+    [
+      126,
+      "still loop or sequence between",
+      94
+    ],
+    [
+      127,
+      "likely alternative route audit result",
+      94
+    ],
+    [
+      128,
+      "likely alternative route retreat condition",
+      94
+    ],
+    [
+      129,
+      "likely alternative route under",
+      94
+    ],
+    [
+      130,
+      "likely alternative route within",
+      94
+    ],
+    [
+      131,
+      "likely alternative route across",
+      94
+    ],
+    [
+      132,
+      "likely alternative route between",
+      94
+    ],
+    [
+      133,
+      "likely alternative route through",
+      94
+    ],
+    [
+      134,
+      "possible audit result retreat condition",
+      94
+    ],
+    [
+      135,
+      "possible audit result under",
+      94
+    ],
+    [
+      136,
+      "possible audit result within",
+      94
+    ],
+    [
+      137,
+      "possible audit result across",
+      94
+    ],
+    [
+      138,
+      "possible audit result between",
+      94
+    ],
+    [
+      139,
+      "possible audit result through",
+      94
+    ],
+    [
+      140,
+      "possible audit result before",
+      94
+    ],
+    [
+      141,
+      "bounded retreat condition under",
+      93
+    ],
+    [
+      142,
+      "bounded retreat condition within",
+      93
+    ],
+    [
+      143,
+      "bounded retreat condition across",
+      93
+    ],
+    [
+      144,
+      "bounded retreat condition between",
+      93
+    ],
+    [
+      145,
+      "bounded retreat condition through",
+      93
+    ],
+    [
+      146,
+      "bounded retreat condition before",
+      93
+    ],
+    [
+      147,
+      "bounded retreat condition after",
+      93
+    ],
+    [
+      148,
+      "finite under within",
+      93
+    ],
+    [
+      149,
+      "finite under across",
+      93
+    ],
+    [
+      150,
+      "finite under between",
+      93
+    ],
+    [
+      151,
+      "finite under through",
+      93
+    ],
+    [
+      152,
+      "finite under before",
+      93
+    ],
+    [
+      153,
+      "finite under after",
+      93
+    ],
+    [
+      154,
+      "finite under from",
+      93
+    ],
+    [
+      155,
+      "local within across",
+      93
+    ],
+    [
+      156,
+      "local within between",
+      93
+    ],
+    [
+      157,
+      "local within through",
+      93
+    ],
+    [
+      158,
+      "local within before",
+      93
+    ],
+    [
+      159,
+      "local within after",
+      93
+    ],
+    [
+      160,
+      "local within from",
+      93
+    ],
+    [
+      161,
+      "local within by",
+      92
+    ],
+    [
+      162,
+      "current across between",
+      92
+    ],
+    [
+      163,
+      "current across through",
+      92
+    ],
+    [
+      164,
+      "current across before",
+      92
+    ],
+    [
+      165,
+      "current across after",
+      92
+    ],
+    [
+      166,
+      "current across from",
+      92
+    ],
+    [
+      167,
+      "current across by",
+      92
+    ],
+    [
+      168,
+      "current across with",
+      92
+    ],
+    [
+      169,
+      "observed between through",
+      92
+    ],
+    [
+      170,
+      "observed between before",
+      92
+    ],
+    [
+      171,
+      "observed between after",
+      92
+    ],
+    [
+      172,
+      "observed between from",
+      92
+    ],
+    [
+      173,
+      "observed between by",
+      92
+    ],
+    [
+      174,
+      "observed between with",
+      92
+    ],
+    [
+      175,
+      "observed between without",
+      92
+    ],
+    [
+      176,
+      "claim falsifier check",
+      96
+    ]
+  ],
+  "v3_3_salience_expansion": {
+    "source": "deep-research-report.md",
+    "status": "positive salience only; not negative/reference boot",
+    "route": "ALL_A",
+    "size": "full"
+  }
+}

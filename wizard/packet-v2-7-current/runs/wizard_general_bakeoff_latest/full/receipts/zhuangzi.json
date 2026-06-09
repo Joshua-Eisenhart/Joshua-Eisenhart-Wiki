@@ -1,0 +1,12 @@
+{
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate",
+  "checked": "loaded mini_mmms/full/voices/md/MMM_VOICE_ZHUANGZI_FULL_v2_7.md",
+  "concluded": "Keep two readings separate: useful local language body and unproven live behavior. Do not collapse them.",
+  "evidence": "mini_mmms/full/voices/md/MMM_VOICE_ZHUANGZI_FULL_v2_7.md terms: live reading, separate readings, unruled option, surviving alternative, unforced choice, open branch, anti-collapse, coexisting candidates",
+  "generated_at": "2026-04-28T08:03:25.064055+00:00",
+  "lane": "Zhuangzi",
+  "open": "live proof pending",
+  "output_excerpt": "Task: Compare Wizard General sizes and choose the best local runtime surface.\nWizard General size: full\nWave 1: Voice Wave\nKeep two readings separate: useful local language body and unproven live behavior. Do not collapse them.\nLoaded language body terms: live reading, separate readings, unruled option, surviving alternative, unforced choice, open branch, anti-collapse, coexisting candidates",
+  "output_sha256": "9cd0b8e0cb08fd204a9b0f4d442a8cc593fb027af24a62bec7f153d84a4d1a14",
+  "schema_version": "wizard_behavior_harness.v1"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "BACK",
+  "name": "Back",
+  "emoji": "⬅️",
+  "category": "lanes",
+  "scale": "lane",
+  "purpose": "return",
+  "unique_job": "return to a real previous decision surface when one exists",
+  "non_job": "Do not become decorative or unreceipted.",
+  "inputs": "prior fork, skipped evidence, user correction, unresolved decision",
+  "outputs": "recovered decision surface, resumed branch, or proof that no back route exists",
+  "subagent_contract": "If visible as ran, Back needs spawned/blocked/deferred/simulated truth and a receipt naming recovered surface, reason for return, and condition to move forward again.",
+  "receipt_requirement": "Visible route status must be exactly spawned, blocked, deferred, or simulated. Spawned receipts name unit_id, unit_type, wave, mini-MMM loaded path, task card, checked, concluded, open, evidence, and artifact/output. Blocked/deferred receipts name reason and condition_to_run.",
+  "collapse_signs": "Back appears when there is no real prior decision surface.",
+  "nearest_neighbors": [
+    "Reframe",
+    "Direct",
+    "Audit"
+  ],
+  "salience_drivers": {
+    "full_top_words": [
+      "back",
+      "return",
+      "prior",
+      "surface",
+      "previous",
+      "choice",
+      "resume",
+      "undo",
+      "route",
+      "restore",
+      "context",
+      "frame",
+      "prior branch",
+      "previous surface"
+    ],
+    "compact_top_words": [
+      "back",
+      "resume",
+      "navigation",
+      "previous surface",
+      "return",
+      "previous",
+      "undo",
+      "restore"
+    ],
+    "deep_research_positive_words": [
+      "return",
+      "restore",
+      "previous surface",
+      "rollback",
+      "revisit"
+    ],
+    "deep_research_couplings": [
+      "previous surface",
+      "rollback point",
+      "restore branch"
+    ],
+    "deep_research_triplets": [
+      "return restore revisit"
+    ]
+  },
+  "people_schools_systems_methods": "Checkpointing, rollback thinking, decision-surface recovery, reversible navigation.",
+  "math_operator_geometry_associations": "Rollback, stack pointer, prior decision node, checkpoint restore.",
+  "legacy_mined_notes": "Back recovers a skipped fork, owner choice, evidence surface, or blocked earlier gate. It names the surface being recovered and why forward motion is premature. v2.8 Pro audit requested richer debugging definitions and positive people/schools/systems/methods/math salience. deep-research-report.md supplied the positive noun/coupling/triplet expansion used here."
+}

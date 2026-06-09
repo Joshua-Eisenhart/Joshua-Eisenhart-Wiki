@@ -1,0 +1,73 @@
+{
+  "id": "FULL_WIZARD",
+  "name": "Full Wizard",
+  "emoji": "🧙🏽‍♂️",
+  "category": "compositions",
+  "scale": "composition",
+  "purpose": "Integrate all useful prior follow-up candidates into one non-contradictory maximum plan.",
+  "unique_job": "Preflight -> Voice wave -> Voice audit -> Voice improvement if needed -> LLM Council -> Checks/Guards -> Follow-up Make -> Follow-up Run/Scout -> Follow-up Audit/Improve -> Final receipt boundary -> Controller synthesis",
+  "non_job": "Do not become decorative, unreceipted, or controller-local theater.",
+  "inputs": "task context, route registry, relevant receipts, acceptance gates",
+  "outputs": "Full wave-truth answer, integrated plan, useful prompts, blockers/deferred routes, stop conditions, no fake plurality.",
+  "subagent_contract": "Composition requires member route receipts or blocked/deferred truth, then an integrated composition receipt. It normally appears in audited Follow-up, not as a body catalog.",
+  "receipt_requirement": "Visible route status must be exactly spawned, blocked, or deferred. Spawned receipts name unit_id, unit_type, wave, mini-MMM loaded path, task card, checked, concluded, open, evidence, and artifact/output. Blocked/deferred receipts name reason and condition_to_run.",
+  "collapse_signs": "Composition becomes a decorative route list without integrated tension, receipts, and selection condition.",
+  "nearest_neighbors": [
+    "LLM Council",
+    "Follow-up",
+    "Synthesis"
+  ],
+  "salience_drivers": {
+    "full_top_words": [
+      "wizard",
+      "full",
+      "wave",
+      "preflight",
+      "all",
+      "voices",
+      "whole",
+      "context",
+      "council",
+      "followup",
+      "check",
+      "registry",
+      "audit",
+      "whole-context triad"
+    ],
+    "compact_top_words": [
+      "preflight",
+      "registry",
+      "council",
+      "whole-context triad",
+      "primary answer",
+      "follow-up",
+      "registry-backed",
+      "wizard"
+    ],
+    "deep_research_positive_words": [
+      "preflight",
+      "voice wave",
+      "voice audit",
+      "voice improvement",
+      "LLM Council",
+      "checks/guards",
+      "follow-up make",
+      "follow-up scout",
+      "follow-up audit",
+      "final receipt",
+      "controller synthesis"
+    ],
+    "deep_research_couplings": [
+      "maximum integrated route",
+      "full wave truth",
+      "no fake plurality"
+    ],
+    "deep_research_triplets": [
+      "preflight wave synthesis",
+      "followup scout audit"
+    ]
+  },
+  "people_schools_systems_methods": "Maximum integrated Wizard route; all useful waves with receipt truth and no fake plurality.",
+  "math_operator_geometry_associations": "Wave pipeline with registry, receipt ledger, nested council rounds, candidate-bank filter, final synthesis.",
+  "legacy_mined_notes": "v2.8 carried ALL_OF_ABOVE_WIZARD and ALL_D/C9 language. v3.3 canon names the single maximum option 🧙🏽‍♂️ Full Wizard; All-D is an alias only. v2.8 Pro audit requested richer debugging definitions and positive people/schools/systems/methods/math salience. deep-research-report.md supplied the positive noun/coupling/triplet expansion used here."
+}

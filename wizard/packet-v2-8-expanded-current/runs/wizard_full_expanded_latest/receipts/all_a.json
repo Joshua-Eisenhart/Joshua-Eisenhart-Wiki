@@ -1,0 +1,12 @@
+{
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/mmm_wizard_complete_system_packet_v2_8_expanded_candidate",
+  "checked": "loaded mini_mmms/full/compositions/md/MMM_LANE_ALL_A_FULL_v2_8.md",
+  "concluded": "All-A compilation: deterministic repair checks for taxonomy, schema, boot text, validators, and packaging.",
+  "evidence": "mini_mmms/full/compositions/md/MMM_LANE_ALL_A_FULL_v2_8.md terms: ground :: 100, pressure :: 100, direct :: 100, claim :: 100, test :: 100, systems :: 100, check :: 100, audit :: 100",
+  "generated_at": "2026-04-29T00:15:50.230177+00:00",
+  "lane": "All-A",
+  "open": "live proof pending",
+  "output_excerpt": "Task: Run the full Wizard after repairing output shape, full-MMM boot, guide size, voice mini-MMM loading proof, behavior load proof, and noun reservoir expansion.\nWizard General size: full\nWave 7: Follow-up Make Wave\nAll-A compilation: deterministic repair checks for taxonomy, schema, boot text, validators, and packaging.\nLoaded language body terms: ground :: 100, pressure :: 100, direct :: 100, claim :: 100, test :: 100, systems :: 100, check :: 100, audit :: 100",
+  "output_sha256": "6d9ca351181210498fee8d3733fe0b7e1191551244da2b698276af11bc0d6681",
+  "schema_version": "wizard_behavior_harness.v1"
+}

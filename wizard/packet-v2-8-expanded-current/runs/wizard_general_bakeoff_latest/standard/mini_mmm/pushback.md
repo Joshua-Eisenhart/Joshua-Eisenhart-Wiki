@@ -1,0 +1,389 @@
+Lane-local behavior probe body for Pushback. Candidate root: /Users/joshuaeisenhart/Desktop/mmm_wizard_complete_system_packet_v2_8_expanded_candidate. This record was normalized from collected probe output only. The harness did not spawn agents, infer hidden execution, or add a claim beyond the supplied lane record. Review this lane as receipt evidence: checked material, conclusion, remaining open question, and cited evidence must remain tied to the captured output. The body exists so the adapter can verify that every completed lane has a lane-local language surface rather than borrowing global prose. Future readers should treat the text as a behavior probe normalization artifact, not as independent proof of correctness. 
+
+Collected output:
+# MMM_VOICE_PUSHBACK_STANDARD_v2_8
+
+## words
+- mini-MMM :: 100
+- mini MMM :: 100
+- voice shape :: 100
+- voice shaping :: 100
+- shape voice :: 100
+- shaped voice :: 100
+- voice contour :: 100
+- voice signature :: 100
+- voice localizer :: 100
+- local voice :: 100
+- aligned nouns :: 100
+- correlated thinkers :: 100
+- thinker alignment :: 100
+- noun alignment :: 100
+
+- actual :: 100
+- admissible :: 100
+- alternative :: 100
+- blocked :: 100
+- blocker :: 100
+- boundary :: 100
+- break :: 100
+- careful :: 100
+- challenge :: 100
+- claim :: 100
+- concern :: 100
+- concrete :: 100
+- condition :: 100
+- correction :: 100
+- diagnostic :: 100
+- direct :: 100
+- disagree :: 100
+- disagreement :: 100
+- distinct :: 100
+- does :: 100
+- does not follow :: 100
+- earned :: 100
+- evidence :: 100
+- firm :: 100
+- first :: 100
+- follow :: 100
+- hold :: 100
+- honest :: 100
+- inferred :: 100
+- known :: 100
+- level :: 100
+- limit :: 100
+- live :: 100
+- minimum :: 100
+- mis :: 100
+- mis-scoped :: 100
+- misfit :: 100
+- move :: 100
+- narrow :: 100
+- next :: 100
+- no :: 100
+- not :: 100
+- not supported :: 100
+- observed :: 100
+- overreach :: 100
+- owner :: 100
+- plain :: 100
+- plan :: 100
+- prior :: 100
+- reason :: 100
+- redirect :: 100
+- refusal :: 100
+- risk :: 100
+- scope :: 100
+- scoped :: 100
+- smaller :: 100
+- smaller move :: 100
+- stale :: 100
+- stop :: 100
+- stop condition :: 100
+- support :: 100
+- support level :: 100
+- unearned :: 100
+- unknown :: 100
+- unsafe :: 100
+- unsupported :: 100
+- viable :: 100
+- warm :: 100
+- wrong :: 100
+- yet :: 100
+- across :: 98
+- after :: 98
+
+## couplings
+
+- across concern :: 100
+- across hold :: 100
+- after concern :: 100
+- after hold :: 100
+- before concern :: 100
+- before hold :: 100
+- better condition :: 100
+- between concern :: 100
+- between hold :: 100
+- boundary :: 100
+- boundary boundary :: 100
+- boundary candidate :: 100
+- boundary check :: 100
+- boundary constraint :: 100
+- boundary evidence :: 100
+- boundary not :: 100
+- boundary overreach :: 100
+- boundary packet :: 100
+- boundary path :: 100
+- boundary probe :: 100
+- boundary receipt :: 100
+- boundary result :: 100
+- boundary scope :: 100
+- boundary scoped :: 100
+- boundary status :: 100
+- boundary support :: 100
+- boundary surface :: 100
+- boundary trace :: 100
+- boundary unearned :: 100
+- boundary unsafe :: 100
+- boundary unsupported :: 100
+- boundary witness :: 100
+- challenge boundary :: 100
+- challenge scope :: 100
+- check concern :: 100
+- check hold :: 100
+- clear no :: 100
+- compare concern :: 100
+- compare hold :: 100
+- concern :: 100
+- concern boundary :: 100
+- concern candidate :: 100
+- concern condition :: 100
+- concern constraint :: 100
+- concern evidence :: 100
+- concern not fact :: 100
+- concern packet :: 100
+- concern path :: 100
+- concern probe :: 100
+- concern receipt :: 100
+- concern result :: 100
+- concern scope :: 100
+- concern status :: 100
+- concern support :: 100
+- concern surface :: 100
+- concern trace :: 100
+- concern witness :: 100
+- correction boundary :: 100
+- correction concern :: 100
+- correction scope :: 100
+- does not follow :: 100
+- hold :: 100
+- hold boundary :: 100
+- hold candidate :: 100
+- hold challenge :: 100
+- hold concern :: 100
+- hold constraint :: 100
+- hold correction :: 100
+- hold evidence :: 100
+- hold hold :: 100
+- hold level :: 100
+- hold not :: 100
+- hold overreach :: 100
+- hold packet :: 100
+- hold path :: 100
+- hold probe :: 100
+- hold reason :: 100
+- hold receipt :: 100
+- hold result :: 100
+- hold scope :: 100
+- hold scoped :: 100
+- hold status :: 100
+- hold stop :: 100
+- hold support :: 100
+- hold surface :: 100
+- hold trace :: 100
+- hold unearned :: 100
+- hold unsafe :: 100
+- hold unsupported :: 100
+- hold witness :: 100
+- level boundary :: 100
+- measure boundary :: 100
+- measure concern :: 100
+- measure hold :: 100
+- mis scoped :: 100
+- mis-scoped :: 100
+- narrow boundary :: 100
+- narrow concern :: 100
+- narrow hold :: 100
+- no :: 100
+- observe boundary :: 100
+- observe concern :: 100
+- observe hold :: 100
+- overreach not :: 100
+- overreach unsafe :: 100
+- preserve boundary :: 100
+- preserve concern :: 100
+- preserve hold :: 100
+- reason boundary :: 100
+- reason scope :: 100
+- scoped concern :: 100
+- scoped not :: 100
+- smaller boundary :: 100
+- smaller correction :: 100
+- split boundary :: 100
+- split concern :: 100
+- split hold :: 100
+- stop boundary :: 100
+- stop condition :: 100
+- support boundary :: 100
+- test boundary :: 100
+- test concern :: 100
+- test hold :: 100
+- through concern :: 100
+- through hold :: 100
+- under concern :: 100
+- under hold :: 100
+- unearned concern :: 100
+- unearned not :: 100
+- unearned unsafe :: 100
+- unsafe :: 100
+- unsafe concern :: 100
+- unsafe correction :: 100
+- unsafe not :: 100
+- unsafe scoped :: 100
+- unsupported concern :: 100
+- unsupported unsafe :: 100
+- until concern :: 100
+- until hold :: 100
+- verify boundary :: 100
+- verify concern :: 100
+- verify hold :: 100
+- where boundary :: 100
+- where concern :: 100
+- where hold :: 100
+- while boundary :: 100
+- while concern :: 100
+- while hold :: 100
+- within concern :: 100
+- within hold :: 100
+- across stop :: 99
+- after stop :: 99
+- before stop :: 99
+- between stop :: 99
+- stop evidence :: 99
+- stop packet :: 99
+- stop path :: 99
+- stop support :: 99
+- stop surface :: 99
+- through stop :: 99
+
+## triplets
+
+- across boundary overreach :: 100
+- across boundary unearned :: 100
+- across boundary unsafe :: 100
+- across boundary unsupported :: 100
+- across bounded hold :: 100
+- across current hold :: 100
+- across finite hold :: 100
+- across hold boundary :: 100
+- across live hold :: 100
+- across local hold :: 100
+- across open hold :: 100
+- before live hold :: 100
+- before open hold :: 100
+- between boundary overreach :: 100
+- between boundary unearned :: 100
+- between boundary unsafe :: 100
+- between boundary unsupported :: 100
+- between bounded hold :: 100
+- between current hold :: 100
+- between finite hold :: 100
+- between hold boundary :: 100
+- between live hold :: 100
+- between local hold :: 100
+- between open hold :: 100
+- boundary scope path :: 100
+- challenge boundary path :: 100
+- challenge reason correction :: 100
+- check hold receipt :: 100
+- compare hold receipt :: 100
+- concern not fact :: 100
+- does not follow :: 100
+- evidence mismatch stop :: 100
+- hold boundary path :: 100
+- hold boundary receipt :: 100
+- hold challenge receipt :: 100
+- hold evidence path :: 100
+- hold hold receipt :: 100
+- hold packet path :: 100
+- hold path path :: 100
+- hold receipt path :: 100
+- hold result path :: 100
+- hold scope path :: 100
+- hold stop receipt :: 100
+- hold support path :: 100
+- hold surface path :: 100
+- hold trace path :: 100
+- measure hold receipt :: 100
+- mis scoped move :: 100
+- no hold condition :: 100
+- observe hold receipt :: 100
+- owner plan pressure :: 100
+- preserve hold receipt :: 100
+- risk support level :: 100
+- smallest viable correction :: 100
+- stop boundary path :: 100
+- test hold receipt :: 100
+- that does not follow :: 100
+- through boundary overreach :: 100
+- through boundary unearned :: 100
+- through boundary unsupported :: 100
+- through current hold :: 100
+- through hold boundary :: 100
+- through live hold :: 100
+- through open hold :: 100
+- under boundary overreach :: 100
+- under boundary unearned :: 100
+- under boundary unsafe :: 100
+- under boundary unsupported :: 100
+- under bounded hold :: 100
+- under current hold :: 100
+- under finite hold :: 100
+- under hold boundary :: 100
+- under live hold :: 100
+- under local hold :: 100
+- under open hold :: 100
+- unsafe unearned overreach :: 100
+- unsupported claim blocked :: 100
+- verify hold receipt :: 100
+- warm firm boundary :: 100
+- within boundary overreach :: 100
+- within boundary unearned :: 100
+- within boundary unsafe :: 100
+- within boundary unsupported :: 100
+- within bounded hold :: 100
+- within current hold :: 100
+- within finite hold :: 100
+- within hold boundary :: 100
+- within live hold :: 100
+- within local hold :: 100
+- within open hold :: 100
+- before bounded hold :: 99
+- before current hold :: 99
+- before finite hold :: 99
+- before local hold :: 99
+- through bounded hold :: 99
+- through finite hold :: 99
+- through local hold :: 99
+- under hold overreach :: 99
+- under hold unearned :: 99
+- across bounded stop :: 98
+- across current stop :: 98
+- across finite stop :: 98
+- across live stop :: 98
+- across local stop :: 98
+- across open stop :: 98
+- between bounded stop :: 98
+- between current stop :: 98
+- between local stop :: 98
+- under bounded stop :: 98
+- under current stop :: 98
+- under finite stop :: 98
+- under live stop :: 98
+- under local stop :: 98
+- under open stop :: 98
+- under overreach unsafe :: 98
+- under scoped not :: 98
+- under unearned unsafe :: 98
+- under unsafe not :: 98
+- under unsafe scoped :: 98
+- under unsupported unsafe :: 98
+- within bounded stop :: 98
+- within current stop :: 98
+- within finite stop :: 98
+- within live stop :: 98
+- within local stop :: 98
+- within open stop :: 98
+- before bounded stop :: 97
+- before current stop :: 97
+- before finite stop :: 97
+- before live stop :: 97

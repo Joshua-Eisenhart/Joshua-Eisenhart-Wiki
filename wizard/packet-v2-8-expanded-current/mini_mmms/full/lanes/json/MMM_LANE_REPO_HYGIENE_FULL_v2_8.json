@@ -1,0 +1,5418 @@
+{
+  "words": [
+    [
+      1,
+      "repo",
+      100
+    ],
+    [
+      2,
+      "hygiene",
+      100
+    ],
+    [
+      3,
+      "stale",
+      100
+    ],
+    [
+      4,
+      "dead",
+      100
+    ],
+    [
+      5,
+      "file",
+      100
+    ],
+    [
+      6,
+      "duplicate",
+      100
+    ],
+    [
+      7,
+      "naming",
+      100
+    ],
+    [
+      8,
+      "drift",
+      100
+    ],
+    [
+      9,
+      "cleanup",
+      100
+    ],
+    [
+      10,
+      "maintenance",
+      100
+    ],
+    [
+      11,
+      "debt",
+      100
+    ],
+    [
+      12,
+      "orphan",
+      100
+    ],
+    [
+      13,
+      "deprecated",
+      100
+    ],
+    [
+      14,
+      "index",
+      100
+    ],
+    [
+      15,
+      "manifest",
+      100
+    ],
+    [
+      16,
+      "path",
+      100
+    ],
+    [
+      17,
+      "folder",
+      100
+    ],
+    [
+      18,
+      "readme",
+      100
+    ],
+    [
+      19,
+      "registry",
+      100
+    ],
+    [
+      20,
+      "scan",
+      100
+    ],
+    [
+      21,
+      "dead file",
+      99
+    ],
+    [
+      22,
+      "naming drift",
+      99
+    ],
+    [
+      23,
+      "active contract",
+      99
+    ],
+    [
+      24,
+      "archive",
+      99
+    ],
+    [
+      25,
+      "provenance",
+      99
+    ],
+    [
+      26,
+      "handoff",
+      99
+    ],
+    [
+      27,
+      "search clarity",
+      99
+    ],
+    [
+      28,
+      "surface",
+      99
+    ],
+    [
+      29,
+      "residue",
+      99
+    ],
+    [
+      30,
+      "outdated",
+      99
+    ],
+    [
+      31,
+      "inconsistent",
+      99
+    ],
+    [
+      32,
+      "under",
+      99
+    ],
+    [
+      33,
+      "within",
+      99
+    ],
+    [
+      34,
+      "across",
+      99
+    ],
+    [
+      35,
+      "between",
+      99
+    ],
+    [
+      36,
+      "through",
+      99
+    ],
+    [
+      37,
+      "before",
+      99
+    ],
+    [
+      38,
+      "after",
+      99
+    ],
+    [
+      39,
+      "until",
+      99
+    ],
+    [
+      40,
+      "where",
+      99
+    ],
+    [
+      41,
+      "while",
+      98
+    ],
+    [
+      42,
+      "against",
+      98
+    ],
+    [
+      43,
+      "along",
+      98
+    ],
+    [
+      44,
+      "around",
+      98
+    ],
+    [
+      45,
+      "among",
+      98
+    ],
+    [
+      46,
+      "inside",
+      98
+    ],
+    [
+      47,
+      "outside",
+      98
+    ],
+    [
+      48,
+      "near",
+      98
+    ],
+    [
+      49,
+      "beside",
+      98
+    ],
+    [
+      50,
+      "over",
+      98
+    ],
+    [
+      51,
+      "from",
+      98
+    ],
+    [
+      52,
+      "with",
+      98
+    ],
+    [
+      53,
+      "without",
+      98
+    ],
+    [
+      54,
+      "only",
+      98
+    ],
+    [
+      55,
+      "not",
+      98
+    ],
+    [
+      56,
+      "no",
+      98
+    ],
+    [
+      57,
+      "yet",
+      98
+    ],
+    [
+      58,
+      "then",
+      98
+    ],
+    [
+      59,
+      "current",
+      98
+    ],
+    [
+      60,
+      "actual",
+      98
+    ],
+    [
+      61,
+      "local",
+      97
+    ],
+    [
+      62,
+      "bounded",
+      97
+    ],
+    [
+      63,
+      "finite",
+      97
+    ],
+    [
+      64,
+      "open",
+      97
+    ],
+    [
+      65,
+      "live",
+      97
+    ],
+    [
+      66,
+      "distinct",
+      97
+    ],
+    [
+      67,
+      "concrete",
+      97
+    ],
+    [
+      68,
+      "plain",
+      97
+    ],
+    [
+      69,
+      "observed",
+      97
+    ],
+    [
+      70,
+      "inferred",
+      97
+    ],
+    [
+      71,
+      "known",
+      97
+    ],
+    [
+      72,
+      "unknown",
+      97
+    ],
+    [
+      73,
+      "checked",
+      97
+    ],
+    [
+      74,
+      "missing",
+      97
+    ],
+    [
+      75,
+      "narrow",
+      97
+    ],
+    [
+      76,
+      "small",
+      97
+    ],
+    [
+      77,
+      "warm",
+      97
+    ],
+    [
+      78,
+      "careful",
+      97
+    ],
+    [
+      79,
+      "honest",
+      97
+    ],
+    [
+      80,
+      "first",
+      97
+    ],
+    [
+      81,
+      "next",
+      96
+    ],
+    [
+      82,
+      "prior",
+      96
+    ],
+    [
+      83,
+      "later",
+      96
+    ],
+    [
+      84,
+      "separate",
+      96
+    ],
+    [
+      85,
+      "together",
+      96
+    ],
+    [
+      86,
+      "apart",
+      96
+    ],
+    [
+      87,
+      "held",
+      96
+    ],
+    [
+      88,
+      "returned",
+      96
+    ],
+    [
+      89,
+      "found",
+      96
+    ],
+    [
+      90,
+      "compared",
+      96
+    ],
+    [
+      91,
+      "measured",
+      96
+    ],
+    [
+      92,
+      "named",
+      96
+    ],
+    [
+      93,
+      "used",
+      96
+    ],
+    [
+      94,
+      "fit",
+      96
+    ],
+    [
+      95,
+      "viable",
+      96
+    ],
+    [
+      96,
+      "direct",
+      96
+    ],
+    [
+      97,
+      "different",
+      96
+    ],
+    [
+      98,
+      "alternate",
+      96
+    ],
+    [
+      99,
+      "branch",
+      96
+    ],
+    [
+      100,
+      "packet",
+      96
+    ],
+    [
+      101,
+      "artifact",
+      95
+    ],
+    [
+      102,
+      "receipt",
+      95
+    ],
+    [
+      103,
+      "trace",
+      95
+    ],
+    [
+      104,
+      "result",
+      95
+    ],
+    [
+      105,
+      "support",
+      95
+    ],
+    [
+      106,
+      "evidence",
+      95
+    ],
+    [
+      107,
+      "scope",
+      95
+    ],
+    [
+      108,
+      "boundary",
+      95
+    ],
+    [
+      109,
+      "gate",
+      95
+    ],
+    [
+      110,
+      "guard",
+      95
+    ],
+    [
+      111,
+      "rung",
+      95
+    ],
+    [
+      112,
+      "status",
+      95
+    ],
+    [
+      113,
+      "candidate",
+      95
+    ],
+    [
+      114,
+      "survivor",
+      95
+    ],
+    [
+      115,
+      "witness",
+      95
+    ],
+    [
+      116,
+      "probe",
+      95
+    ],
+    [
+      117,
+      "constraint",
+      95
+    ],
+    [
+      118,
+      "name",
+      95
+    ],
+    [
+      119,
+      "term",
+      95
+    ],
+    [
+      120,
+      "use",
+      95
+    ],
+    [
+      121,
+      "role",
+      94
+    ],
+    [
+      122,
+      "practice",
+      94
+    ],
+    [
+      123,
+      "custom",
+      94
+    ],
+    [
+      124,
+      "habit",
+      94
+    ],
+    [
+      125,
+      "experience",
+      94
+    ],
+    [
+      126,
+      "observation",
+      94
+    ],
+    [
+      127,
+      "impression",
+      94
+    ],
+    [
+      128,
+      "idea",
+      94
+    ],
+    [
+      129,
+      "perception",
+      94
+    ],
+    [
+      130,
+      "conjunction",
+      94
+    ],
+    [
+      131,
+      "resemblance",
+      94
+    ],
+    [
+      132,
+      "relation",
+      94
+    ],
+    [
+      133,
+      "probability",
+      94
+    ],
+    [
+      134,
+      "particular",
+      94
+    ],
+    [
+      135,
+      "predicate",
+      94
+    ],
+    [
+      136,
+      "class",
+      94
+    ],
+    [
+      137,
+      "by",
+      94
+    ],
+    [
+      138,
+      "relative",
+      94
+    ],
+    [
+      139,
+      "locally",
+      94
+    ],
+    [
+      140,
+      "rather",
+      94
+    ],
+    [
+      141,
+      "instead",
+      93
+    ],
+    [
+      142,
+      "still",
+      93
+    ],
+    [
+      143,
+      "likely",
+      93
+    ],
+    [
+      144,
+      "possible",
+      93
+    ],
+    [
+      145,
+      "partial",
+      93
+    ],
+    [
+      146,
+      "limited",
+      93
+    ],
+    [
+      147,
+      "measurement",
+      93
+    ],
+    [
+      148,
+      "test",
+      93
+    ],
+    [
+      149,
+      "sample",
+      93
+    ],
+    [
+      150,
+      "case",
+      93
+    ],
+    [
+      151,
+      "instance",
+      93
+    ],
+    [
+      152,
+      "word",
+      93
+    ],
+    [
+      153,
+      "distinction",
+      93
+    ],
+    [
+      154,
+      "comparison",
+      93
+    ],
+    [
+      155,
+      "estimate",
+      93
+    ],
+    [
+      156,
+      "uncertainty",
+      93
+    ],
+    [
+      157,
+      "model",
+      93
+    ],
+    [
+      158,
+      "counterexample",
+      93
+    ],
+    [
+      159,
+      "condition",
+      93
+    ],
+    [
+      160,
+      "fork",
+      93
+    ]
+  ],
+  "couplings": [
+    [
+      1,
+      "under stale",
+      100
+    ],
+    [
+      2,
+      "within stale",
+      100
+    ],
+    [
+      3,
+      "across stale",
+      100
+    ],
+    [
+      4,
+      "between stale",
+      100
+    ],
+    [
+      5,
+      "through stale",
+      100
+    ],
+    [
+      6,
+      "before stale",
+      100
+    ],
+    [
+      7,
+      "after stale",
+      100
+    ],
+    [
+      8,
+      "until stale",
+      100
+    ],
+    [
+      9,
+      "where stale",
+      100
+    ],
+    [
+      10,
+      "while stale",
+      100
+    ],
+    [
+      11,
+      "stale evidence",
+      100
+    ],
+    [
+      12,
+      "stale support",
+      100
+    ],
+    [
+      13,
+      "stale path",
+      100
+    ],
+    [
+      14,
+      "stale surface",
+      100
+    ],
+    [
+      15,
+      "stale packet",
+      100
+    ],
+    [
+      16,
+      "stale receipt",
+      100
+    ],
+    [
+      17,
+      "stale trace",
+      100
+    ],
+    [
+      18,
+      "stale result",
+      100
+    ],
+    [
+      19,
+      "stale scope",
+      100
+    ],
+    [
+      20,
+      "stale boundary",
+      100
+    ],
+    [
+      21,
+      "stale status",
+      99
+    ],
+    [
+      22,
+      "stale candidate",
+      99
+    ],
+    [
+      23,
+      "stale witness",
+      99
+    ],
+    [
+      24,
+      "stale probe",
+      99
+    ],
+    [
+      25,
+      "stale constraint",
+      99
+    ],
+    [
+      26,
+      "check stale",
+      99
+    ],
+    [
+      27,
+      "compare stale",
+      99
+    ],
+    [
+      28,
+      "observe stale",
+      99
+    ],
+    [
+      29,
+      "measure stale",
+      99
+    ],
+    [
+      30,
+      "test stale",
+      99
+    ],
+    [
+      31,
+      "verify stale",
+      99
+    ],
+    [
+      32,
+      "hold stale",
+      99
+    ],
+    [
+      33,
+      "preserve stale",
+      99
+    ],
+    [
+      34,
+      "split stale",
+      99
+    ],
+    [
+      35,
+      "narrow stale",
+      99
+    ],
+    [
+      36,
+      "under drift",
+      99
+    ],
+    [
+      37,
+      "within drift",
+      99
+    ],
+    [
+      38,
+      "across drift",
+      99
+    ],
+    [
+      39,
+      "between drift",
+      99
+    ],
+    [
+      40,
+      "through drift",
+      99
+    ],
+    [
+      41,
+      "before drift",
+      98
+    ],
+    [
+      42,
+      "after drift",
+      98
+    ],
+    [
+      43,
+      "until drift",
+      98
+    ],
+    [
+      44,
+      "where drift",
+      98
+    ],
+    [
+      45,
+      "while drift",
+      98
+    ],
+    [
+      46,
+      "drift evidence",
+      98
+    ],
+    [
+      47,
+      "drift support",
+      98
+    ],
+    [
+      48,
+      "drift path",
+      98
+    ],
+    [
+      49,
+      "drift surface",
+      98
+    ],
+    [
+      50,
+      "drift packet",
+      98
+    ],
+    [
+      51,
+      "drift receipt",
+      98
+    ],
+    [
+      52,
+      "drift trace",
+      98
+    ],
+    [
+      53,
+      "drift result",
+      98
+    ],
+    [
+      54,
+      "drift scope",
+      98
+    ],
+    [
+      55,
+      "drift boundary",
+      98
+    ],
+    [
+      56,
+      "drift status",
+      98
+    ],
+    [
+      57,
+      "drift candidate",
+      98
+    ],
+    [
+      58,
+      "drift witness",
+      98
+    ],
+    [
+      59,
+      "drift probe",
+      98
+    ],
+    [
+      60,
+      "drift constraint",
+      98
+    ],
+    [
+      61,
+      "check drift",
+      97
+    ],
+    [
+      62,
+      "compare drift",
+      97
+    ],
+    [
+      63,
+      "observe drift",
+      97
+    ],
+    [
+      64,
+      "measure drift",
+      97
+    ],
+    [
+      65,
+      "test drift",
+      97
+    ],
+    [
+      66,
+      "verify drift",
+      97
+    ],
+    [
+      67,
+      "hold drift",
+      97
+    ],
+    [
+      68,
+      "preserve drift",
+      97
+    ],
+    [
+      69,
+      "split drift",
+      97
+    ],
+    [
+      70,
+      "narrow drift",
+      97
+    ],
+    [
+      71,
+      "under dead",
+      97
+    ],
+    [
+      72,
+      "within dead",
+      97
+    ],
+    [
+      73,
+      "across dead",
+      97
+    ],
+    [
+      74,
+      "between dead",
+      97
+    ],
+    [
+      75,
+      "through dead",
+      97
+    ],
+    [
+      76,
+      "before dead",
+      97
+    ],
+    [
+      77,
+      "after dead",
+      97
+    ],
+    [
+      78,
+      "until dead",
+      97
+    ],
+    [
+      79,
+      "where dead",
+      97
+    ],
+    [
+      80,
+      "while dead",
+      97
+    ],
+    [
+      81,
+      "dead evidence",
+      96
+    ],
+    [
+      82,
+      "dead support",
+      96
+    ],
+    [
+      83,
+      "dead path",
+      96
+    ],
+    [
+      84,
+      "dead surface",
+      96
+    ],
+    [
+      85,
+      "dead packet",
+      96
+    ],
+    [
+      86,
+      "dead receipt",
+      96
+    ],
+    [
+      87,
+      "dead trace",
+      96
+    ],
+    [
+      88,
+      "dead result",
+      96
+    ],
+    [
+      89,
+      "dead scope",
+      96
+    ],
+    [
+      90,
+      "dead boundary",
+      96
+    ],
+    [
+      91,
+      "dead status",
+      96
+    ],
+    [
+      92,
+      "dead candidate",
+      96
+    ],
+    [
+      93,
+      "dead witness",
+      96
+    ],
+    [
+      94,
+      "dead probe",
+      96
+    ],
+    [
+      95,
+      "dead constraint",
+      96
+    ],
+    [
+      96,
+      "check dead",
+      96
+    ],
+    [
+      97,
+      "compare dead",
+      96
+    ],
+    [
+      98,
+      "observe dead",
+      96
+    ],
+    [
+      99,
+      "measure dead",
+      96
+    ],
+    [
+      100,
+      "test dead",
+      96
+    ],
+    [
+      101,
+      "verify dead",
+      95
+    ],
+    [
+      102,
+      "hold dead",
+      95
+    ],
+    [
+      103,
+      "preserve dead",
+      95
+    ],
+    [
+      104,
+      "split dead",
+      95
+    ],
+    [
+      105,
+      "narrow dead",
+      95
+    ],
+    [
+      106,
+      "under duplicate",
+      95
+    ],
+    [
+      107,
+      "within duplicate",
+      95
+    ],
+    [
+      108,
+      "across duplicate",
+      95
+    ],
+    [
+      109,
+      "between duplicate",
+      95
+    ],
+    [
+      110,
+      "through duplicate",
+      95
+    ],
+    [
+      111,
+      "before duplicate",
+      95
+    ],
+    [
+      112,
+      "after duplicate",
+      95
+    ],
+    [
+      113,
+      "until duplicate",
+      95
+    ],
+    [
+      114,
+      "where duplicate",
+      95
+    ],
+    [
+      115,
+      "while duplicate",
+      95
+    ],
+    [
+      116,
+      "duplicate evidence",
+      95
+    ],
+    [
+      117,
+      "duplicate support",
+      95
+    ],
+    [
+      118,
+      "duplicate path",
+      95
+    ],
+    [
+      119,
+      "duplicate surface",
+      95
+    ],
+    [
+      120,
+      "duplicate packet",
+      95
+    ],
+    [
+      121,
+      "duplicate receipt",
+      94
+    ],
+    [
+      122,
+      "duplicate trace",
+      94
+    ],
+    [
+      123,
+      "duplicate result",
+      94
+    ],
+    [
+      124,
+      "duplicate scope",
+      94
+    ],
+    [
+      125,
+      "duplicate boundary",
+      94
+    ],
+    [
+      126,
+      "duplicate status",
+      94
+    ],
+    [
+      127,
+      "duplicate candidate",
+      94
+    ],
+    [
+      128,
+      "duplicate witness",
+      94
+    ],
+    [
+      129,
+      "duplicate probe",
+      94
+    ],
+    [
+      130,
+      "duplicate constraint",
+      94
+    ],
+    [
+      131,
+      "check duplicate",
+      94
+    ],
+    [
+      132,
+      "compare duplicate",
+      94
+    ],
+    [
+      133,
+      "observe duplicate",
+      94
+    ],
+    [
+      134,
+      "measure duplicate",
+      94
+    ],
+    [
+      135,
+      "test duplicate",
+      94
+    ],
+    [
+      136,
+      "verify duplicate",
+      94
+    ],
+    [
+      137,
+      "hold duplicate",
+      94
+    ],
+    [
+      138,
+      "preserve duplicate",
+      94
+    ],
+    [
+      139,
+      "split duplicate",
+      94
+    ],
+    [
+      140,
+      "narrow duplicate",
+      94
+    ],
+    [
+      141,
+      "under naming",
+      93
+    ],
+    [
+      142,
+      "within naming",
+      93
+    ],
+    [
+      143,
+      "across naming",
+      93
+    ],
+    [
+      144,
+      "between naming",
+      93
+    ],
+    [
+      145,
+      "through naming",
+      93
+    ],
+    [
+      146,
+      "before naming",
+      93
+    ],
+    [
+      147,
+      "after naming",
+      93
+    ],
+    [
+      148,
+      "until naming",
+      93
+    ],
+    [
+      149,
+      "where naming",
+      93
+    ],
+    [
+      150,
+      "while naming",
+      93
+    ],
+    [
+      151,
+      "naming evidence",
+      93
+    ],
+    [
+      152,
+      "naming support",
+      93
+    ],
+    [
+      153,
+      "naming path",
+      93
+    ],
+    [
+      154,
+      "naming surface",
+      93
+    ],
+    [
+      155,
+      "naming packet",
+      93
+    ],
+    [
+      156,
+      "naming receipt",
+      93
+    ],
+    [
+      157,
+      "naming trace",
+      93
+    ],
+    [
+      158,
+      "naming result",
+      93
+    ],
+    [
+      159,
+      "naming scope",
+      93
+    ],
+    [
+      160,
+      "naming boundary",
+      93
+    ],
+    [
+      161,
+      "naming status",
+      92
+    ],
+    [
+      162,
+      "naming candidate",
+      92
+    ],
+    [
+      163,
+      "naming witness",
+      92
+    ],
+    [
+      164,
+      "naming probe",
+      92
+    ],
+    [
+      165,
+      "naming constraint",
+      92
+    ],
+    [
+      166,
+      "check naming",
+      92
+    ],
+    [
+      167,
+      "compare naming",
+      92
+    ],
+    [
+      168,
+      "observe naming",
+      92
+    ],
+    [
+      169,
+      "measure naming",
+      92
+    ],
+    [
+      170,
+      "test naming",
+      92
+    ],
+    [
+      171,
+      "verify naming",
+      92
+    ],
+    [
+      172,
+      "hold naming",
+      92
+    ],
+    [
+      173,
+      "preserve naming",
+      92
+    ],
+    [
+      174,
+      "split naming",
+      92
+    ],
+    [
+      175,
+      "narrow naming",
+      92
+    ],
+    [
+      176,
+      "under cleanup",
+      92
+    ],
+    [
+      177,
+      "within cleanup",
+      92
+    ],
+    [
+      178,
+      "across cleanup",
+      92
+    ],
+    [
+      179,
+      "between cleanup",
+      92
+    ],
+    [
+      180,
+      "through cleanup",
+      92
+    ],
+    [
+      181,
+      "before cleanup",
+      91
+    ],
+    [
+      182,
+      "after cleanup",
+      91
+    ],
+    [
+      183,
+      "until cleanup",
+      91
+    ],
+    [
+      184,
+      "where cleanup",
+      91
+    ],
+    [
+      185,
+      "while cleanup",
+      91
+    ],
+    [
+      186,
+      "cleanup evidence",
+      91
+    ],
+    [
+      187,
+      "cleanup support",
+      91
+    ],
+    [
+      188,
+      "cleanup path",
+      91
+    ],
+    [
+      189,
+      "cleanup surface",
+      91
+    ],
+    [
+      190,
+      "cleanup packet",
+      91
+    ],
+    [
+      191,
+      "cleanup receipt",
+      91
+    ],
+    [
+      192,
+      "cleanup trace",
+      91
+    ],
+    [
+      193,
+      "cleanup result",
+      91
+    ],
+    [
+      194,
+      "cleanup scope",
+      91
+    ],
+    [
+      195,
+      "cleanup boundary",
+      91
+    ],
+    [
+      196,
+      "cleanup status",
+      91
+    ],
+    [
+      197,
+      "cleanup candidate",
+      91
+    ],
+    [
+      198,
+      "cleanup witness",
+      91
+    ],
+    [
+      199,
+      "cleanup probe",
+      91
+    ],
+    [
+      200,
+      "cleanup constraint",
+      91
+    ],
+    [
+      201,
+      "under repo",
+      90
+    ],
+    [
+      202,
+      "under hygiene",
+      90
+    ],
+    [
+      203,
+      "under file",
+      90
+    ],
+    [
+      204,
+      "under maintenance",
+      90
+    ],
+    [
+      205,
+      "under debt",
+      90
+    ],
+    [
+      206,
+      "under orphan",
+      90
+    ],
+    [
+      207,
+      "under deprecated",
+      90
+    ],
+    [
+      208,
+      "under index",
+      90
+    ],
+    [
+      209,
+      "under manifest",
+      90
+    ],
+    [
+      210,
+      "within repo",
+      90
+    ],
+    [
+      211,
+      "within hygiene",
+      90
+    ],
+    [
+      212,
+      "within file",
+      90
+    ],
+    [
+      213,
+      "within maintenance",
+      90
+    ],
+    [
+      214,
+      "within debt",
+      90
+    ],
+    [
+      215,
+      "within orphan",
+      90
+    ],
+    [
+      216,
+      "within deprecated",
+      90
+    ],
+    [
+      217,
+      "within index",
+      90
+    ],
+    [
+      218,
+      "within manifest",
+      90
+    ],
+    [
+      219,
+      "across repo",
+      90
+    ],
+    [
+      220,
+      "across hygiene",
+      90
+    ],
+    [
+      221,
+      "across file",
+      89
+    ],
+    [
+      222,
+      "across maintenance",
+      89
+    ],
+    [
+      223,
+      "across debt",
+      89
+    ],
+    [
+      224,
+      "across orphan",
+      89
+    ],
+    [
+      225,
+      "across deprecated",
+      89
+    ],
+    [
+      226,
+      "across index",
+      89
+    ],
+    [
+      227,
+      "across manifest",
+      89
+    ],
+    [
+      228,
+      "between repo",
+      89
+    ],
+    [
+      229,
+      "between hygiene",
+      89
+    ],
+    [
+      230,
+      "between file",
+      89
+    ],
+    [
+      231,
+      "between maintenance",
+      89
+    ],
+    [
+      232,
+      "between debt",
+      89
+    ],
+    [
+      233,
+      "between orphan",
+      89
+    ],
+    [
+      234,
+      "between deprecated",
+      89
+    ],
+    [
+      235,
+      "between index",
+      89
+    ],
+    [
+      236,
+      "between manifest",
+      89
+    ],
+    [
+      237,
+      "through repo",
+      89
+    ],
+    [
+      238,
+      "through hygiene",
+      89
+    ],
+    [
+      239,
+      "through file",
+      89
+    ],
+    [
+      240,
+      "through maintenance",
+      89
+    ],
+    [
+      241,
+      "through debt",
+      88
+    ],
+    [
+      242,
+      "through orphan",
+      88
+    ],
+    [
+      243,
+      "through deprecated",
+      88
+    ],
+    [
+      244,
+      "through index",
+      88
+    ],
+    [
+      245,
+      "through manifest",
+      88
+    ],
+    [
+      246,
+      "before repo",
+      88
+    ],
+    [
+      247,
+      "before hygiene",
+      88
+    ],
+    [
+      248,
+      "before file",
+      88
+    ],
+    [
+      249,
+      "before maintenance",
+      88
+    ],
+    [
+      250,
+      "before debt",
+      88
+    ],
+    [
+      251,
+      "before orphan",
+      88
+    ],
+    [
+      252,
+      "before deprecated",
+      88
+    ],
+    [
+      253,
+      "before index",
+      88
+    ],
+    [
+      254,
+      "before manifest",
+      88
+    ],
+    [
+      255,
+      "after repo",
+      88
+    ],
+    [
+      256,
+      "after hygiene",
+      88
+    ],
+    [
+      257,
+      "after file",
+      88
+    ],
+    [
+      258,
+      "after maintenance",
+      88
+    ],
+    [
+      259,
+      "after debt",
+      88
+    ],
+    [
+      260,
+      "after orphan",
+      88
+    ],
+    [
+      261,
+      "after deprecated",
+      87
+    ],
+    [
+      262,
+      "after index",
+      87
+    ],
+    [
+      263,
+      "after manifest",
+      87
+    ],
+    [
+      264,
+      "from repo",
+      87
+    ],
+    [
+      265,
+      "from hygiene",
+      87
+    ],
+    [
+      266,
+      "from stale",
+      87
+    ],
+    [
+      267,
+      "from dead",
+      87
+    ],
+    [
+      268,
+      "from file",
+      87
+    ],
+    [
+      269,
+      "from duplicate",
+      87
+    ],
+    [
+      270,
+      "from naming",
+      87
+    ],
+    [
+      271,
+      "from drift",
+      87
+    ],
+    [
+      272,
+      "from cleanup",
+      87
+    ],
+    [
+      273,
+      "from maintenance",
+      87
+    ],
+    [
+      274,
+      "from debt",
+      87
+    ],
+    [
+      275,
+      "from orphan",
+      87
+    ],
+    [
+      276,
+      "from deprecated",
+      87
+    ],
+    [
+      277,
+      "from index",
+      87
+    ],
+    [
+      278,
+      "from manifest",
+      87
+    ],
+    [
+      279,
+      "by repo",
+      87
+    ],
+    [
+      280,
+      "by hygiene",
+      87
+    ],
+    [
+      281,
+      "by stale",
+      86
+    ],
+    [
+      282,
+      "by dead",
+      86
+    ],
+    [
+      283,
+      "by file",
+      86
+    ],
+    [
+      284,
+      "by duplicate",
+      86
+    ],
+    [
+      285,
+      "by naming",
+      86
+    ],
+    [
+      286,
+      "by drift",
+      86
+    ],
+    [
+      287,
+      "by cleanup",
+      86
+    ],
+    [
+      288,
+      "by maintenance",
+      86
+    ],
+    [
+      289,
+      "by debt",
+      86
+    ],
+    [
+      290,
+      "by orphan",
+      86
+    ],
+    [
+      291,
+      "by deprecated",
+      86
+    ],
+    [
+      292,
+      "by index",
+      86
+    ],
+    [
+      293,
+      "by manifest",
+      86
+    ],
+    [
+      294,
+      "with repo",
+      86
+    ],
+    [
+      295,
+      "with hygiene",
+      86
+    ],
+    [
+      296,
+      "with stale",
+      86
+    ],
+    [
+      297,
+      "with dead",
+      86
+    ],
+    [
+      298,
+      "with file",
+      86
+    ],
+    [
+      299,
+      "with duplicate",
+      86
+    ],
+    [
+      300,
+      "with naming",
+      86
+    ],
+    [
+      301,
+      "with drift",
+      85
+    ],
+    [
+      302,
+      "with cleanup",
+      85
+    ],
+    [
+      303,
+      "with maintenance",
+      85
+    ],
+    [
+      304,
+      "with debt",
+      85
+    ],
+    [
+      305,
+      "with orphan",
+      85
+    ],
+    [
+      306,
+      "with deprecated",
+      85
+    ],
+    [
+      307,
+      "with index",
+      85
+    ],
+    [
+      308,
+      "with manifest",
+      85
+    ],
+    [
+      309,
+      "without repo",
+      85
+    ],
+    [
+      310,
+      "without hygiene",
+      85
+    ],
+    [
+      311,
+      "without stale",
+      85
+    ],
+    [
+      312,
+      "without dead",
+      85
+    ],
+    [
+      313,
+      "without file",
+      85
+    ],
+    [
+      314,
+      "without duplicate",
+      85
+    ],
+    [
+      315,
+      "without naming",
+      85
+    ],
+    [
+      316,
+      "without drift",
+      85
+    ],
+    [
+      317,
+      "without cleanup",
+      85
+    ],
+    [
+      318,
+      "without maintenance",
+      85
+    ],
+    [
+      319,
+      "without debt",
+      85
+    ],
+    [
+      320,
+      "without orphan",
+      85
+    ],
+    [
+      321,
+      "without deprecated",
+      84
+    ],
+    [
+      322,
+      "without index",
+      84
+    ],
+    [
+      323,
+      "without manifest",
+      84
+    ],
+    [
+      324,
+      "against repo",
+      84
+    ],
+    [
+      325,
+      "against hygiene",
+      84
+    ],
+    [
+      326,
+      "against stale",
+      84
+    ],
+    [
+      327,
+      "against dead",
+      84
+    ],
+    [
+      328,
+      "against file",
+      84
+    ],
+    [
+      329,
+      "against duplicate",
+      84
+    ],
+    [
+      330,
+      "against naming",
+      84
+    ],
+    [
+      331,
+      "against drift",
+      84
+    ],
+    [
+      332,
+      "against cleanup",
+      84
+    ],
+    [
+      333,
+      "against maintenance",
+      84
+    ],
+    [
+      334,
+      "against debt",
+      84
+    ],
+    [
+      335,
+      "against orphan",
+      84
+    ],
+    [
+      336,
+      "against deprecated",
+      84
+    ],
+    [
+      337,
+      "against index",
+      84
+    ],
+    [
+      338,
+      "against manifest",
+      84
+    ],
+    [
+      339,
+      "repo hygiene",
+      84
+    ],
+    [
+      340,
+      "repo stale",
+      84
+    ],
+    [
+      341,
+      "repo dead",
+      83
+    ],
+    [
+      342,
+      "repo file",
+      83
+    ],
+    [
+      343,
+      "repo duplicate",
+      83
+    ],
+    [
+      344,
+      "repo naming",
+      83
+    ],
+    [
+      345,
+      "repo drift",
+      83
+    ],
+    [
+      346,
+      "hygiene stale",
+      83
+    ],
+    [
+      347,
+      "hygiene dead",
+      83
+    ],
+    [
+      348,
+      "hygiene file",
+      83
+    ],
+    [
+      349,
+      "hygiene duplicate",
+      83
+    ],
+    [
+      350,
+      "hygiene naming",
+      83
+    ],
+    [
+      351,
+      "hygiene drift",
+      83
+    ],
+    [
+      352,
+      "hygiene cleanup",
+      83
+    ],
+    [
+      353,
+      "stale dead",
+      83
+    ],
+    [
+      354,
+      "stale file",
+      83
+    ],
+    [
+      355,
+      "stale duplicate",
+      83
+    ],
+    [
+      356,
+      "stale naming",
+      83
+    ],
+    [
+      357,
+      "stale drift",
+      83
+    ],
+    [
+      358,
+      "stale cleanup",
+      83
+    ],
+    [
+      359,
+      "stale maintenance",
+      83
+    ],
+    [
+      360,
+      "dead file",
+      83
+    ],
+    [
+      361,
+      "dead duplicate",
+      82
+    ],
+    [
+      362,
+      "dead naming",
+      82
+    ],
+    [
+      363,
+      "dead drift",
+      82
+    ],
+    [
+      364,
+      "dead cleanup",
+      82
+    ],
+    [
+      365,
+      "dead maintenance",
+      82
+    ],
+    [
+      366,
+      "dead debt",
+      82
+    ],
+    [
+      367,
+      "file duplicate",
+      82
+    ],
+    [
+      368,
+      "file naming",
+      82
+    ],
+    [
+      369,
+      "file drift",
+      82
+    ],
+    [
+      370,
+      "file cleanup",
+      82
+    ],
+    [
+      371,
+      "file maintenance",
+      82
+    ],
+    [
+      372,
+      "file debt",
+      82
+    ],
+    [
+      373,
+      "file orphan",
+      82
+    ],
+    [
+      374,
+      "duplicate naming",
+      82
+    ],
+    [
+      375,
+      "duplicate drift",
+      82
+    ],
+    [
+      376,
+      "duplicate cleanup",
+      82
+    ],
+    [
+      377,
+      "duplicate maintenance",
+      82
+    ],
+    [
+      378,
+      "duplicate debt",
+      82
+    ],
+    [
+      379,
+      "duplicate orphan",
+      82
+    ],
+    [
+      380,
+      "duplicate deprecated",
+      82
+    ],
+    [
+      381,
+      "naming drift",
+      81
+    ],
+    [
+      382,
+      "naming cleanup",
+      81
+    ],
+    [
+      383,
+      "naming maintenance",
+      81
+    ],
+    [
+      384,
+      "naming debt",
+      81
+    ],
+    [
+      385,
+      "naming orphan",
+      81
+    ],
+    [
+      386,
+      "naming deprecated",
+      81
+    ],
+    [
+      387,
+      "naming index",
+      81
+    ],
+    [
+      388,
+      "drift cleanup",
+      81
+    ],
+    [
+      389,
+      "drift maintenance",
+      81
+    ],
+    [
+      390,
+      "drift debt",
+      81
+    ],
+    [
+      391,
+      "drift orphan",
+      81
+    ],
+    [
+      392,
+      "drift deprecated",
+      81
+    ],
+    [
+      393,
+      "drift index",
+      81
+    ],
+    [
+      394,
+      "drift manifest",
+      81
+    ],
+    [
+      395,
+      "cleanup maintenance",
+      81
+    ],
+    [
+      396,
+      "cleanup debt",
+      81
+    ],
+    [
+      397,
+      "cleanup orphan",
+      81
+    ],
+    [
+      398,
+      "cleanup deprecated",
+      81
+    ],
+    [
+      399,
+      "cleanup index",
+      81
+    ],
+    [
+      400,
+      "cleanup manifest",
+      81
+    ],
+    [
+      401,
+      "maintenance debt",
+      80
+    ],
+    [
+      402,
+      "maintenance orphan",
+      80
+    ],
+    [
+      403,
+      "maintenance deprecated",
+      80
+    ],
+    [
+      404,
+      "maintenance index",
+      80
+    ],
+    [
+      405,
+      "maintenance manifest",
+      80
+    ],
+    [
+      406,
+      "maintenance path",
+      80
+    ],
+    [
+      407,
+      "maintenance folder",
+      80
+    ],
+    [
+      408,
+      "debt orphan",
+      80
+    ],
+    [
+      409,
+      "debt deprecated",
+      80
+    ],
+    [
+      410,
+      "debt index",
+      80
+    ],
+    [
+      411,
+      "debt manifest",
+      80
+    ],
+    [
+      412,
+      "debt path",
+      80
+    ],
+    [
+      413,
+      "debt folder",
+      80
+    ],
+    [
+      414,
+      "debt readme",
+      80
+    ],
+    [
+      415,
+      "orphan deprecated",
+      80
+    ],
+    [
+      416,
+      "orphan index",
+      80
+    ],
+    [
+      417,
+      "orphan manifest",
+      80
+    ],
+    [
+      418,
+      "orphan path",
+      80
+    ],
+    [
+      419,
+      "orphan folder",
+      80
+    ],
+    [
+      420,
+      "orphan readme",
+      80
+    ],
+    [
+      421,
+      "orphan registry",
+      79
+    ],
+    [
+      422,
+      "deprecated index",
+      79
+    ],
+    [
+      423,
+      "deprecated manifest",
+      79
+    ],
+    [
+      424,
+      "deprecated path",
+      79
+    ],
+    [
+      425,
+      "deprecated folder",
+      79
+    ],
+    [
+      426,
+      "deprecated readme",
+      79
+    ],
+    [
+      427,
+      "deprecated registry",
+      79
+    ],
+    [
+      428,
+      "deprecated scan",
+      79
+    ],
+    [
+      429,
+      "index manifest",
+      79
+    ],
+    [
+      430,
+      "index path",
+      79
+    ],
+    [
+      431,
+      "index folder",
+      79
+    ],
+    [
+      432,
+      "index readme",
+      79
+    ],
+    [
+      433,
+      "index registry",
+      79
+    ],
+    [
+      434,
+      "index scan",
+      79
+    ],
+    [
+      435,
+      "index dead file",
+      79
+    ],
+    [
+      436,
+      "manifest path",
+      79
+    ],
+    [
+      437,
+      "manifest folder",
+      79
+    ],
+    [
+      438,
+      "manifest readme",
+      79
+    ],
+    [
+      439,
+      "manifest registry",
+      79
+    ],
+    [
+      440,
+      "manifest scan",
+      79
+    ],
+    [
+      441,
+      "manifest dead file",
+      78
+    ],
+    [
+      442,
+      "manifest naming drift",
+      78
+    ],
+    [
+      443,
+      "path folder",
+      78
+    ],
+    [
+      444,
+      "path readme",
+      78
+    ],
+    [
+      445,
+      "path registry",
+      78
+    ],
+    [
+      446,
+      "path scan",
+      78
+    ],
+    [
+      447,
+      "path dead file",
+      78
+    ],
+    [
+      448,
+      "path naming drift",
+      78
+    ],
+    [
+      449,
+      "path active contract",
+      78
+    ],
+    [
+      450,
+      "folder readme",
+      78
+    ],
+    [
+      451,
+      "folder registry",
+      78
+    ],
+    [
+      452,
+      "folder scan",
+      78
+    ],
+    [
+      453,
+      "folder dead file",
+      78
+    ],
+    [
+      454,
+      "folder naming drift",
+      78
+    ],
+    [
+      455,
+      "folder active contract",
+      78
+    ],
+    [
+      456,
+      "folder archive",
+      78
+    ],
+    [
+      457,
+      "readme registry",
+      78
+    ],
+    [
+      458,
+      "readme scan",
+      78
+    ],
+    [
+      459,
+      "readme dead file",
+      78
+    ],
+    [
+      460,
+      "readme naming drift",
+      78
+    ],
+    [
+      461,
+      "readme active contract",
+      77
+    ],
+    [
+      462,
+      "readme archive",
+      77
+    ],
+    [
+      463,
+      "readme provenance",
+      77
+    ],
+    [
+      464,
+      "registry scan",
+      77
+    ],
+    [
+      465,
+      "registry dead file",
+      77
+    ],
+    [
+      466,
+      "registry naming drift",
+      77
+    ],
+    [
+      467,
+      "registry active contract",
+      77
+    ],
+    [
+      468,
+      "registry archive",
+      77
+    ],
+    [
+      469,
+      "registry provenance",
+      77
+    ],
+    [
+      470,
+      "registry handoff",
+      77
+    ],
+    [
+      471,
+      "scan dead file",
+      77
+    ],
+    [
+      472,
+      "scan naming drift",
+      77
+    ],
+    [
+      473,
+      "scan active contract",
+      77
+    ],
+    [
+      474,
+      "scan archive",
+      77
+    ],
+    [
+      475,
+      "scan provenance",
+      77
+    ],
+    [
+      476,
+      "scan handoff",
+      77
+    ],
+    [
+      477,
+      "scan search clarity",
+      77
+    ],
+    [
+      478,
+      "dead file naming drift",
+      77
+    ],
+    [
+      479,
+      "dead file active contract",
+      77
+    ],
+    [
+      480,
+      "dead file archive",
+      77
+    ],
+    [
+      481,
+      "dead file provenance",
+      76
+    ],
+    [
+      482,
+      "dead file handoff",
+      76
+    ],
+    [
+      483,
+      "dead file search clarity",
+      76
+    ],
+    [
+      484,
+      "dead file surface",
+      76
+    ],
+    [
+      485,
+      "naming drift active contract",
+      76
+    ],
+    [
+      486,
+      "naming drift archive",
+      76
+    ],
+    [
+      487,
+      "naming drift provenance",
+      76
+    ],
+    [
+      488,
+      "naming drift handoff",
+      76
+    ],
+    [
+      489,
+      "naming drift search clarity",
+      76
+    ],
+    [
+      490,
+      "naming drift surface",
+      76
+    ],
+    [
+      491,
+      "naming drift residue",
+      76
+    ],
+    [
+      492,
+      "active contract archive",
+      76
+    ],
+    [
+      493,
+      "active contract provenance",
+      76
+    ],
+    [
+      494,
+      "active contract handoff",
+      76
+    ],
+    [
+      495,
+      "active contract search clarity",
+      76
+    ],
+    [
+      496,
+      "active contract surface",
+      76
+    ],
+    [
+      497,
+      "active contract residue",
+      76
+    ],
+    [
+      498,
+      "active contract outdated",
+      76
+    ],
+    [
+      499,
+      "archive provenance",
+      76
+    ],
+    [
+      500,
+      "archive handoff",
+      76
+    ],
+    [
+      501,
+      "archive search clarity",
+      75
+    ],
+    [
+      502,
+      "archive surface",
+      75
+    ],
+    [
+      503,
+      "archive residue",
+      75
+    ],
+    [
+      504,
+      "archive outdated",
+      75
+    ],
+    [
+      505,
+      "archive inconsistent",
+      75
+    ],
+    [
+      506,
+      "provenance handoff",
+      75
+    ],
+    [
+      507,
+      "provenance search clarity",
+      75
+    ]
+  ],
+  "triplets": [
+    [
+      1,
+      "under current stale",
+      100
+    ],
+    [
+      2,
+      "under local stale",
+      100
+    ],
+    [
+      3,
+      "under bounded stale",
+      100
+    ],
+    [
+      4,
+      "under finite stale",
+      100
+    ],
+    [
+      5,
+      "under open stale",
+      100
+    ],
+    [
+      6,
+      "under live stale",
+      100
+    ],
+    [
+      7,
+      "within current stale",
+      100
+    ],
+    [
+      8,
+      "within local stale",
+      100
+    ],
+    [
+      9,
+      "within bounded stale",
+      100
+    ],
+    [
+      10,
+      "within finite stale",
+      100
+    ],
+    [
+      11,
+      "within open stale",
+      100
+    ],
+    [
+      12,
+      "within live stale",
+      100
+    ],
+    [
+      13,
+      "across current stale",
+      100
+    ],
+    [
+      14,
+      "across local stale",
+      100
+    ],
+    [
+      15,
+      "across bounded stale",
+      100
+    ],
+    [
+      16,
+      "across finite stale",
+      100
+    ],
+    [
+      17,
+      "across open stale",
+      100
+    ],
+    [
+      18,
+      "across live stale",
+      100
+    ],
+    [
+      19,
+      "between current stale",
+      100
+    ],
+    [
+      20,
+      "between local stale",
+      100
+    ],
+    [
+      21,
+      "between bounded stale",
+      99
+    ],
+    [
+      22,
+      "between finite stale",
+      99
+    ],
+    [
+      23,
+      "between open stale",
+      99
+    ],
+    [
+      24,
+      "between live stale",
+      99
+    ],
+    [
+      25,
+      "through current stale",
+      99
+    ],
+    [
+      26,
+      "through local stale",
+      99
+    ],
+    [
+      27,
+      "through bounded stale",
+      99
+    ],
+    [
+      28,
+      "through finite stale",
+      99
+    ],
+    [
+      29,
+      "through open stale",
+      99
+    ],
+    [
+      30,
+      "through live stale",
+      99
+    ],
+    [
+      31,
+      "before current stale",
+      99
+    ],
+    [
+      32,
+      "before local stale",
+      99
+    ],
+    [
+      33,
+      "before bounded stale",
+      99
+    ],
+    [
+      34,
+      "before finite stale",
+      99
+    ],
+    [
+      35,
+      "before open stale",
+      99
+    ],
+    [
+      36,
+      "before live stale",
+      99
+    ],
+    [
+      37,
+      "stale evidence path",
+      99
+    ],
+    [
+      38,
+      "stale support path",
+      99
+    ],
+    [
+      39,
+      "stale path path",
+      99
+    ],
+    [
+      40,
+      "stale surface path",
+      99
+    ],
+    [
+      41,
+      "stale packet path",
+      98
+    ],
+    [
+      42,
+      "stale receipt path",
+      98
+    ],
+    [
+      43,
+      "stale trace path",
+      98
+    ],
+    [
+      44,
+      "stale result path",
+      98
+    ],
+    [
+      45,
+      "stale scope path",
+      98
+    ],
+    [
+      46,
+      "stale boundary path",
+      98
+    ],
+    [
+      47,
+      "check stale receipt",
+      98
+    ],
+    [
+      48,
+      "compare stale receipt",
+      98
+    ],
+    [
+      49,
+      "observe stale receipt",
+      98
+    ],
+    [
+      50,
+      "measure stale receipt",
+      98
+    ],
+    [
+      51,
+      "test stale receipt",
+      98
+    ],
+    [
+      52,
+      "verify stale receipt",
+      98
+    ],
+    [
+      53,
+      "hold stale receipt",
+      98
+    ],
+    [
+      54,
+      "preserve stale receipt",
+      98
+    ],
+    [
+      55,
+      "under current drift",
+      98
+    ],
+    [
+      56,
+      "under local drift",
+      98
+    ],
+    [
+      57,
+      "under bounded drift",
+      98
+    ],
+    [
+      58,
+      "under finite drift",
+      98
+    ],
+    [
+      59,
+      "under open drift",
+      98
+    ],
+    [
+      60,
+      "under live drift",
+      98
+    ],
+    [
+      61,
+      "within current drift",
+      97
+    ],
+    [
+      62,
+      "within local drift",
+      97
+    ],
+    [
+      63,
+      "within bounded drift",
+      97
+    ],
+    [
+      64,
+      "within finite drift",
+      97
+    ],
+    [
+      65,
+      "within open drift",
+      97
+    ],
+    [
+      66,
+      "within live drift",
+      97
+    ],
+    [
+      67,
+      "across current drift",
+      97
+    ],
+    [
+      68,
+      "across local drift",
+      97
+    ],
+    [
+      69,
+      "across bounded drift",
+      97
+    ],
+    [
+      70,
+      "across finite drift",
+      97
+    ],
+    [
+      71,
+      "across open drift",
+      97
+    ],
+    [
+      72,
+      "across live drift",
+      97
+    ],
+    [
+      73,
+      "between current drift",
+      97
+    ],
+    [
+      74,
+      "between local drift",
+      97
+    ],
+    [
+      75,
+      "between bounded drift",
+      97
+    ],
+    [
+      76,
+      "between finite drift",
+      97
+    ],
+    [
+      77,
+      "between open drift",
+      97
+    ],
+    [
+      78,
+      "between live drift",
+      97
+    ],
+    [
+      79,
+      "through current drift",
+      97
+    ],
+    [
+      80,
+      "through local drift",
+      97
+    ],
+    [
+      81,
+      "through bounded drift",
+      96
+    ],
+    [
+      82,
+      "through finite drift",
+      96
+    ],
+    [
+      83,
+      "through open drift",
+      96
+    ],
+    [
+      84,
+      "through live drift",
+      96
+    ],
+    [
+      85,
+      "before current drift",
+      96
+    ],
+    [
+      86,
+      "before local drift",
+      96
+    ],
+    [
+      87,
+      "before bounded drift",
+      96
+    ],
+    [
+      88,
+      "before finite drift",
+      96
+    ],
+    [
+      89,
+      "before open drift",
+      96
+    ],
+    [
+      90,
+      "before live drift",
+      96
+    ],
+    [
+      91,
+      "drift evidence path",
+      96
+    ],
+    [
+      92,
+      "drift support path",
+      96
+    ],
+    [
+      93,
+      "drift path path",
+      96
+    ],
+    [
+      94,
+      "drift surface path",
+      96
+    ],
+    [
+      95,
+      "drift packet path",
+      96
+    ],
+    [
+      96,
+      "drift receipt path",
+      96
+    ],
+    [
+      97,
+      "drift trace path",
+      96
+    ],
+    [
+      98,
+      "drift result path",
+      96
+    ],
+    [
+      99,
+      "drift scope path",
+      96
+    ],
+    [
+      100,
+      "drift boundary path",
+      96
+    ],
+    [
+      101,
+      "check drift receipt",
+      95
+    ],
+    [
+      102,
+      "compare drift receipt",
+      95
+    ],
+    [
+      103,
+      "observe drift receipt",
+      95
+    ],
+    [
+      104,
+      "measure drift receipt",
+      95
+    ],
+    [
+      105,
+      "test drift receipt",
+      95
+    ],
+    [
+      106,
+      "verify drift receipt",
+      95
+    ],
+    [
+      107,
+      "hold drift receipt",
+      95
+    ],
+    [
+      108,
+      "preserve drift receipt",
+      95
+    ],
+    [
+      109,
+      "under current dead",
+      95
+    ],
+    [
+      110,
+      "under local dead",
+      95
+    ],
+    [
+      111,
+      "under bounded dead",
+      95
+    ],
+    [
+      112,
+      "under finite dead",
+      95
+    ],
+    [
+      113,
+      "under open dead",
+      95
+    ],
+    [
+      114,
+      "under live dead",
+      95
+    ],
+    [
+      115,
+      "within current dead",
+      95
+    ],
+    [
+      116,
+      "within local dead",
+      95
+    ],
+    [
+      117,
+      "within bounded dead",
+      95
+    ],
+    [
+      118,
+      "within finite dead",
+      95
+    ],
+    [
+      119,
+      "within open dead",
+      95
+    ],
+    [
+      120,
+      "within live dead",
+      95
+    ],
+    [
+      121,
+      "across current dead",
+      94
+    ],
+    [
+      122,
+      "across local dead",
+      94
+    ],
+    [
+      123,
+      "across bounded dead",
+      94
+    ],
+    [
+      124,
+      "across finite dead",
+      94
+    ],
+    [
+      125,
+      "across open dead",
+      94
+    ],
+    [
+      126,
+      "across live dead",
+      94
+    ],
+    [
+      127,
+      "between current dead",
+      94
+    ],
+    [
+      128,
+      "between local dead",
+      94
+    ],
+    [
+      129,
+      "between bounded dead",
+      94
+    ],
+    [
+      130,
+      "between finite dead",
+      94
+    ],
+    [
+      131,
+      "between open dead",
+      94
+    ],
+    [
+      132,
+      "between live dead",
+      94
+    ],
+    [
+      133,
+      "through current dead",
+      94
+    ],
+    [
+      134,
+      "through local dead",
+      94
+    ],
+    [
+      135,
+      "through bounded dead",
+      94
+    ],
+    [
+      136,
+      "through finite dead",
+      94
+    ],
+    [
+      137,
+      "through open dead",
+      94
+    ],
+    [
+      138,
+      "through live dead",
+      94
+    ],
+    [
+      139,
+      "before current dead",
+      94
+    ],
+    [
+      140,
+      "before local dead",
+      94
+    ],
+    [
+      141,
+      "before bounded dead",
+      93
+    ],
+    [
+      142,
+      "before finite dead",
+      93
+    ],
+    [
+      143,
+      "before open dead",
+      93
+    ],
+    [
+      144,
+      "before live dead",
+      93
+    ],
+    [
+      145,
+      "dead evidence path",
+      93
+    ],
+    [
+      146,
+      "dead support path",
+      93
+    ],
+    [
+      147,
+      "dead path path",
+      93
+    ],
+    [
+      148,
+      "dead surface path",
+      93
+    ],
+    [
+      149,
+      "dead packet path",
+      93
+    ],
+    [
+      150,
+      "dead receipt path",
+      93
+    ],
+    [
+      151,
+      "dead trace path",
+      93
+    ],
+    [
+      152,
+      "dead result path",
+      93
+    ],
+    [
+      153,
+      "dead scope path",
+      93
+    ],
+    [
+      154,
+      "dead boundary path",
+      93
+    ],
+    [
+      155,
+      "check dead receipt",
+      93
+    ],
+    [
+      156,
+      "compare dead receipt",
+      93
+    ],
+    [
+      157,
+      "observe dead receipt",
+      93
+    ],
+    [
+      158,
+      "measure dead receipt",
+      93
+    ],
+    [
+      159,
+      "test dead receipt",
+      93
+    ],
+    [
+      160,
+      "verify dead receipt",
+      93
+    ],
+    [
+      161,
+      "hold dead receipt",
+      92
+    ],
+    [
+      162,
+      "preserve dead receipt",
+      92
+    ],
+    [
+      163,
+      "under current duplicate",
+      92
+    ],
+    [
+      164,
+      "under local duplicate",
+      92
+    ],
+    [
+      165,
+      "under bounded duplicate",
+      92
+    ],
+    [
+      166,
+      "under finite duplicate",
+      92
+    ],
+    [
+      167,
+      "under open duplicate",
+      92
+    ],
+    [
+      168,
+      "under live duplicate",
+      92
+    ],
+    [
+      169,
+      "within current duplicate",
+      92
+    ],
+    [
+      170,
+      "within local duplicate",
+      92
+    ],
+    [
+      171,
+      "within bounded duplicate",
+      92
+    ],
+    [
+      172,
+      "within finite duplicate",
+      92
+    ],
+    [
+      173,
+      "within open duplicate",
+      92
+    ],
+    [
+      174,
+      "within live duplicate",
+      92
+    ],
+    [
+      175,
+      "across current duplicate",
+      92
+    ],
+    [
+      176,
+      "across local duplicate",
+      92
+    ],
+    [
+      177,
+      "across bounded duplicate",
+      92
+    ],
+    [
+      178,
+      "across finite duplicate",
+      92
+    ],
+    [
+      179,
+      "across open duplicate",
+      92
+    ],
+    [
+      180,
+      "across live duplicate",
+      92
+    ],
+    [
+      181,
+      "between current duplicate",
+      91
+    ],
+    [
+      182,
+      "between local duplicate",
+      91
+    ],
+    [
+      183,
+      "between bounded duplicate",
+      91
+    ],
+    [
+      184,
+      "between finite duplicate",
+      91
+    ],
+    [
+      185,
+      "between open duplicate",
+      91
+    ],
+    [
+      186,
+      "between live duplicate",
+      91
+    ],
+    [
+      187,
+      "through current duplicate",
+      91
+    ],
+    [
+      188,
+      "through local duplicate",
+      91
+    ],
+    [
+      189,
+      "through bounded duplicate",
+      91
+    ],
+    [
+      190,
+      "through finite duplicate",
+      91
+    ],
+    [
+      191,
+      "through open duplicate",
+      91
+    ],
+    [
+      192,
+      "through live duplicate",
+      91
+    ],
+    [
+      193,
+      "before current duplicate",
+      91
+    ],
+    [
+      194,
+      "before local duplicate",
+      91
+    ],
+    [
+      195,
+      "before bounded duplicate",
+      91
+    ],
+    [
+      196,
+      "before finite duplicate",
+      91
+    ],
+    [
+      197,
+      "before open duplicate",
+      91
+    ],
+    [
+      198,
+      "before live duplicate",
+      91
+    ],
+    [
+      199,
+      "duplicate evidence path",
+      91
+    ],
+    [
+      200,
+      "duplicate support path",
+      91
+    ],
+    [
+      201,
+      "duplicate path path",
+      90
+    ],
+    [
+      202,
+      "duplicate surface path",
+      90
+    ],
+    [
+      203,
+      "duplicate packet path",
+      90
+    ],
+    [
+      204,
+      "duplicate receipt path",
+      90
+    ],
+    [
+      205,
+      "duplicate trace path",
+      90
+    ],
+    [
+      206,
+      "duplicate result path",
+      90
+    ],
+    [
+      207,
+      "duplicate scope path",
+      90
+    ],
+    [
+      208,
+      "duplicate boundary path",
+      90
+    ],
+    [
+      209,
+      "check duplicate receipt",
+      90
+    ],
+    [
+      210,
+      "compare duplicate receipt",
+      90
+    ],
+    [
+      211,
+      "observe duplicate receipt",
+      90
+    ],
+    [
+      212,
+      "measure duplicate receipt",
+      90
+    ],
+    [
+      213,
+      "test duplicate receipt",
+      90
+    ],
+    [
+      214,
+      "verify duplicate receipt",
+      90
+    ],
+    [
+      215,
+      "hold duplicate receipt",
+      90
+    ],
+    [
+      216,
+      "preserve duplicate receipt",
+      90
+    ],
+    [
+      217,
+      "under current naming",
+      90
+    ],
+    [
+      218,
+      "under local naming",
+      90
+    ],
+    [
+      219,
+      "under bounded naming",
+      90
+    ],
+    [
+      220,
+      "under finite naming",
+      90
+    ],
+    [
+      221,
+      "under open naming",
+      89
+    ],
+    [
+      222,
+      "under live naming",
+      89
+    ],
+    [
+      223,
+      "within current naming",
+      89
+    ],
+    [
+      224,
+      "within local naming",
+      89
+    ],
+    [
+      225,
+      "within bounded naming",
+      89
+    ],
+    [
+      226,
+      "within finite naming",
+      89
+    ],
+    [
+      227,
+      "within open naming",
+      89
+    ],
+    [
+      228,
+      "within live naming",
+      89
+    ],
+    [
+      229,
+      "across current naming",
+      89
+    ],
+    [
+      230,
+      "across local naming",
+      89
+    ],
+    [
+      231,
+      "across bounded naming",
+      89
+    ],
+    [
+      232,
+      "across finite naming",
+      89
+    ],
+    [
+      233,
+      "across open naming",
+      89
+    ],
+    [
+      234,
+      "across live naming",
+      89
+    ],
+    [
+      235,
+      "between current naming",
+      89
+    ],
+    [
+      236,
+      "between local naming",
+      89
+    ],
+    [
+      237,
+      "between bounded naming",
+      89
+    ],
+    [
+      238,
+      "between finite naming",
+      89
+    ],
+    [
+      239,
+      "between open naming",
+      89
+    ],
+    [
+      240,
+      "between live naming",
+      89
+    ],
+    [
+      241,
+      "under repo hygiene",
+      88
+    ],
+    [
+      242,
+      "under repo stale",
+      88
+    ],
+    [
+      243,
+      "under repo dead",
+      88
+    ],
+    [
+      244,
+      "under repo file",
+      88
+    ],
+    [
+      245,
+      "under repo duplicate",
+      88
+    ],
+    [
+      246,
+      "under repo naming",
+      88
+    ],
+    [
+      247,
+      "under repo drift",
+      88
+    ],
+    [
+      248,
+      "within hygiene stale",
+      88
+    ],
+    [
+      249,
+      "within hygiene dead",
+      88
+    ],
+    [
+      250,
+      "within hygiene file",
+      88
+    ],
+    [
+      251,
+      "within hygiene duplicate",
+      88
+    ],
+    [
+      252,
+      "within hygiene naming",
+      88
+    ],
+    [
+      253,
+      "within hygiene drift",
+      88
+    ],
+    [
+      254,
+      "within hygiene cleanup",
+      88
+    ],
+    [
+      255,
+      "across stale dead",
+      88
+    ],
+    [
+      256,
+      "across stale file",
+      88
+    ],
+    [
+      257,
+      "across stale duplicate",
+      88
+    ],
+    [
+      258,
+      "across stale naming",
+      88
+    ],
+    [
+      259,
+      "across stale drift",
+      88
+    ],
+    [
+      260,
+      "across stale cleanup",
+      88
+    ],
+    [
+      261,
+      "across stale maintenance",
+      87
+    ],
+    [
+      262,
+      "between dead file",
+      87
+    ],
+    [
+      263,
+      "between dead duplicate",
+      87
+    ],
+    [
+      264,
+      "between dead naming",
+      87
+    ],
+    [
+      265,
+      "between dead drift",
+      87
+    ],
+    [
+      266,
+      "between dead cleanup",
+      87
+    ],
+    [
+      267,
+      "between dead maintenance",
+      87
+    ],
+    [
+      268,
+      "between dead debt",
+      87
+    ],
+    [
+      269,
+      "through file duplicate",
+      87
+    ],
+    [
+      270,
+      "through file naming",
+      87
+    ],
+    [
+      271,
+      "through file drift",
+      87
+    ],
+    [
+      272,
+      "through file cleanup",
+      87
+    ],
+    [
+      273,
+      "through file maintenance",
+      87
+    ],
+    [
+      274,
+      "through file debt",
+      87
+    ],
+    [
+      275,
+      "through file orphan",
+      87
+    ],
+    [
+      276,
+      "before duplicate naming",
+      87
+    ],
+    [
+      277,
+      "before duplicate drift",
+      87
+    ],
+    [
+      278,
+      "before duplicate cleanup",
+      87
+    ],
+    [
+      279,
+      "before duplicate maintenance",
+      87
+    ],
+    [
+      280,
+      "before duplicate debt",
+      87
+    ],
+    [
+      281,
+      "before duplicate orphan",
+      86
+    ],
+    [
+      282,
+      "before duplicate deprecated",
+      86
+    ],
+    [
+      283,
+      "after naming drift",
+      86
+    ],
+    [
+      284,
+      "after naming cleanup",
+      86
+    ],
+    [
+      285,
+      "after naming maintenance",
+      86
+    ],
+    [
+      286,
+      "after naming debt",
+      86
+    ],
+    [
+      287,
+      "after naming orphan",
+      86
+    ],
+    [
+      288,
+      "after naming deprecated",
+      86
+    ],
+    [
+      289,
+      "after naming index",
+      86
+    ],
+    [
+      290,
+      "from drift cleanup",
+      86
+    ],
+    [
+      291,
+      "from drift maintenance",
+      86
+    ],
+    [
+      292,
+      "from drift debt",
+      86
+    ],
+    [
+      293,
+      "from drift orphan",
+      86
+    ],
+    [
+      294,
+      "from drift deprecated",
+      86
+    ],
+    [
+      295,
+      "from drift index",
+      86
+    ],
+    [
+      296,
+      "from drift manifest",
+      86
+    ],
+    [
+      297,
+      "by cleanup maintenance",
+      86
+    ],
+    [
+      298,
+      "by cleanup debt",
+      86
+    ],
+    [
+      299,
+      "by cleanup orphan",
+      86
+    ],
+    [
+      300,
+      "by cleanup deprecated",
+      86
+    ],
+    [
+      301,
+      "by cleanup index",
+      85
+    ],
+    [
+      302,
+      "by cleanup manifest",
+      85
+    ],
+    [
+      303,
+      "by cleanup path",
+      85
+    ],
+    [
+      304,
+      "with maintenance debt",
+      85
+    ],
+    [
+      305,
+      "with maintenance orphan",
+      85
+    ],
+    [
+      306,
+      "with maintenance deprecated",
+      85
+    ],
+    [
+      307,
+      "with maintenance index",
+      85
+    ],
+    [
+      308,
+      "with maintenance manifest",
+      85
+    ],
+    [
+      309,
+      "with maintenance path",
+      85
+    ],
+    [
+      310,
+      "with maintenance folder",
+      85
+    ],
+    [
+      311,
+      "without debt orphan",
+      85
+    ],
+    [
+      312,
+      "without debt deprecated",
+      85
+    ],
+    [
+      313,
+      "without debt index",
+      85
+    ],
+    [
+      314,
+      "without debt manifest",
+      85
+    ],
+    [
+      315,
+      "without debt path",
+      85
+    ],
+    [
+      316,
+      "without debt folder",
+      85
+    ],
+    [
+      317,
+      "without debt readme",
+      85
+    ],
+    [
+      318,
+      "against orphan deprecated",
+      85
+    ],
+    [
+      319,
+      "against orphan index",
+      85
+    ],
+    [
+      320,
+      "against orphan manifest",
+      85
+    ],
+    [
+      321,
+      "against orphan path",
+      84
+    ],
+    [
+      322,
+      "against orphan folder",
+      84
+    ],
+    [
+      323,
+      "against orphan readme",
+      84
+    ],
+    [
+      324,
+      "against orphan registry",
+      84
+    ],
+    [
+      325,
+      "relative deprecated index",
+      84
+    ],
+    [
+      326,
+      "relative deprecated manifest",
+      84
+    ],
+    [
+      327,
+      "relative deprecated path",
+      84
+    ],
+    [
+      328,
+      "relative deprecated folder",
+      84
+    ],
+    [
+      329,
+      "relative deprecated readme",
+      84
+    ],
+    [
+      330,
+      "relative deprecated registry",
+      84
+    ],
+    [
+      331,
+      "relative deprecated scan",
+      84
+    ],
+    [
+      332,
+      "locally index manifest",
+      84
+    ],
+    [
+      333,
+      "locally index path",
+      84
+    ],
+    [
+      334,
+      "locally index folder",
+      84
+    ],
+    [
+      335,
+      "locally index readme",
+      84
+    ],
+    [
+      336,
+      "locally index registry",
+      84
+    ],
+    [
+      337,
+      "locally index scan",
+      84
+    ],
+    [
+      338,
+      "locally index dead file",
+      84
+    ],
+    [
+      339,
+      "rather manifest path",
+      84
+    ],
+    [
+      340,
+      "rather manifest folder",
+      84
+    ],
+    [
+      341,
+      "rather manifest readme",
+      83
+    ],
+    [
+      342,
+      "rather manifest registry",
+      83
+    ],
+    [
+      343,
+      "rather manifest scan",
+      83
+    ],
+    [
+      344,
+      "rather manifest dead file",
+      83
+    ],
+    [
+      345,
+      "rather manifest naming drift",
+      83
+    ],
+    [
+      346,
+      "instead path folder",
+      83
+    ],
+    [
+      347,
+      "instead path readme",
+      83
+    ],
+    [
+      348,
+      "instead path registry",
+      83
+    ],
+    [
+      349,
+      "instead path scan",
+      83
+    ],
+    [
+      350,
+      "instead path dead file",
+      83
+    ],
+    [
+      351,
+      "instead path naming drift",
+      83
+    ],
+    [
+      352,
+      "instead path active contract",
+      83
+    ],
+    [
+      353,
+      "only folder readme",
+      83
+    ],
+    [
+      354,
+      "only folder registry",
+      83
+    ],
+    [
+      355,
+      "only folder scan",
+      83
+    ],
+    [
+      356,
+      "only folder dead file",
+      83
+    ],
+    [
+      357,
+      "only folder naming drift",
+      83
+    ],
+    [
+      358,
+      "only folder active contract",
+      83
+    ],
+    [
+      359,
+      "only folder archive",
+      83
+    ],
+    [
+      360,
+      "still readme registry",
+      83
+    ],
+    [
+      361,
+      "still readme scan",
+      82
+    ],
+    [
+      362,
+      "still readme dead file",
+      82
+    ],
+    [
+      363,
+      "still readme naming drift",
+      82
+    ],
+    [
+      364,
+      "still readme active contract",
+      82
+    ],
+    [
+      365,
+      "still readme archive",
+      82
+    ],
+    [
+      366,
+      "still readme provenance",
+      82
+    ],
+    [
+      367,
+      "likely registry scan",
+      82
+    ],
+    [
+      368,
+      "likely registry dead file",
+      82
+    ],
+    [
+      369,
+      "likely registry naming drift",
+      82
+    ],
+    [
+      370,
+      "likely registry active contract",
+      82
+    ],
+    [
+      371,
+      "likely registry archive",
+      82
+    ],
+    [
+      372,
+      "likely registry provenance",
+      82
+    ],
+    [
+      373,
+      "likely registry handoff",
+      82
+    ],
+    [
+      374,
+      "possible scan dead file",
+      82
+    ],
+    [
+      375,
+      "possible scan naming drift",
+      82
+    ],
+    [
+      376,
+      "possible scan active contract",
+      82
+    ],
+    [
+      377,
+      "possible scan archive",
+      82
+    ],
+    [
+      378,
+      "possible scan provenance",
+      82
+    ],
+    [
+      379,
+      "possible scan handoff",
+      82
+    ],
+    [
+      380,
+      "possible scan search clarity",
+      82
+    ],
+    [
+      381,
+      "bounded dead file naming drift",
+      81
+    ],
+    [
+      382,
+      "bounded dead file active contract",
+      81
+    ],
+    [
+      383,
+      "bounded dead file archive",
+      81
+    ],
+    [
+      384,
+      "bounded dead file provenance",
+      81
+    ],
+    [
+      385,
+      "bounded dead file handoff",
+      81
+    ],
+    [
+      386,
+      "bounded dead file search clarity",
+      81
+    ],
+    [
+      387,
+      "bounded dead file surface",
+      81
+    ],
+    [
+      388,
+      "finite naming drift active contract",
+      81
+    ],
+    [
+      389,
+      "finite naming drift archive",
+      81
+    ],
+    [
+      390,
+      "finite naming drift provenance",
+      81
+    ],
+    [
+      391,
+      "finite naming drift handoff",
+      81
+    ],
+    [
+      392,
+      "finite naming drift search clarity",
+      81
+    ],
+    [
+      393,
+      "finite naming drift surface",
+      81
+    ],
+    [
+      394,
+      "finite naming drift residue",
+      81
+    ],
+    [
+      395,
+      "local active contract archive",
+      81
+    ],
+    [
+      396,
+      "local active contract provenance",
+      81
+    ],
+    [
+      397,
+      "local active contract handoff",
+      81
+    ],
+    [
+      398,
+      "local active contract search clarity",
+      81
+    ],
+    [
+      399,
+      "local active contract surface",
+      81
+    ],
+    [
+      400,
+      "local active contract residue",
+      81
+    ],
+    [
+      401,
+      "local active contract outdated",
+      80
+    ],
+    [
+      402,
+      "current archive provenance",
+      80
+    ],
+    [
+      403,
+      "current archive handoff",
+      80
+    ],
+    [
+      404,
+      "current archive search clarity",
+      80
+    ],
+    [
+      405,
+      "current archive surface",
+      80
+    ],
+    [
+      406,
+      "current archive residue",
+      80
+    ],
+    [
+      407,
+      "current archive outdated",
+      80
+    ],
+    [
+      408,
+      "current archive inconsistent",
+      80
+    ],
+    [
+      409,
+      "observed provenance handoff",
+      80
+    ],
+    [
+      410,
+      "observed provenance search clarity",
+      80
+    ],
+    [
+      411,
+      "observed provenance surface",
+      80
+    ],
+    [
+      412,
+      "observed provenance residue",
+      80
+    ],
+    [
+      413,
+      "observed provenance outdated",
+      80
+    ],
+    [
+      414,
+      "observed provenance inconsistent",
+      80
+    ],
+    [
+      415,
+      "observed provenance under",
+      80
+    ]
+  ]
+}

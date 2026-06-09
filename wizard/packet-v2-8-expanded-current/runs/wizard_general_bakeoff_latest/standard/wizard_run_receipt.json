@@ -1,0 +1,119 @@
+{
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/mmm_wizard_complete_system_packet_v2_8_expanded_candidate",
+  "feedback": [],
+  "final_answer_path": "/Users/joshuaeisenhart/Desktop/mmm_wizard_complete_system_packet_v2_8_expanded_candidate/runs/wizard_general_bakeoff_latest/standard/final_answer.md",
+  "final_validation_path": "/Users/joshuaeisenhart/Desktop/mmm_wizard_complete_system_packet_v2_8_expanded_candidate/runs/wizard_general_bakeoff_latest/standard/validation_final_answer.json",
+  "findings": [],
+  "general_path": "/Users/joshuaeisenhart/Desktop/mmm_wizard_complete_system_packet_v2_8_expanded_candidate/current/WIZARD_GENERAL_STANDARD_v2_8.md",
+  "general_size": "standard",
+  "general_words": 256,
+  "generated_at": "2026-04-28T22:36:04.243477+00:00",
+  "lane_resolution_path": "/Users/joshuaeisenhart/Desktop/mmm_wizard_complete_system_packet_v2_8_expanded_candidate/runs/wizard_general_bakeoff_latest/standard/lane_resolution.jsonl",
+  "lanes": [
+    "Direct",
+    "Hume",
+    "Zhuangzi",
+    "Popper",
+    "Feynman",
+    "Orwell",
+    "Pushback",
+    "Factory",
+    "Strategy",
+    "Systems",
+    "Alternative",
+    "Reframe",
+    "Wildcard",
+    "Back",
+    "LLM Council",
+    "Hygiene",
+    "Security",
+    "Audit",
+    "All-A",
+    "All-B",
+    "All-C",
+    "All-D",
+    "All-E",
+    "All-F",
+    "All-H"
+  ],
+  "ok": true,
+  "out_dir": "/Users/joshuaeisenhart/Desktop/mmm_wizard_complete_system_packet_v2_8_expanded_candidate/runs/wizard_general_bakeoff_latest/standard",
+  "packet_version": "v2_8",
+  "receipts_dir": "/Users/joshuaeisenhart/Desktop/mmm_wizard_complete_system_packet_v2_8_expanded_candidate/runs/wizard_general_bakeoff_latest/standard/receipts",
+  "task": "Compare Wizard General sizes and choose the best local runtime surface.",
+  "validation_path": "/Users/joshuaeisenhart/Desktop/mmm_wizard_complete_system_packet_v2_8_expanded_candidate/runs/wizard_general_bakeoff_latest/standard/validation_before_final.json",
+  "waves": {
+    "0": {
+      "name": "Preflight / Registry",
+      "open": "live spawn truth",
+      "purpose": "build route registry with truth states",
+      "result": "registry built"
+    },
+    "1": {
+      "name": "Voice Wave",
+      "open": "live voice subagents",
+      "purpose": "run each visible voice as separate unit",
+      "result": "voice receipts separated"
+    },
+    "2": {
+      "name": "Voice Audit Wave",
+      "open": "independent audit workers",
+      "purpose": "audit voice receipts for collapse",
+      "result": "audit receipt present"
+    },
+    "3": {
+      "name": "Voice Improvement Wave",
+      "open": "rerun targets",
+      "purpose": "rerun weak/collapsed voices",
+      "result": "deferred unless audit finds weak voice"
+    },
+    "4": {
+      "name": "LLM Council Wave",
+      "open": "external model council logs",
+      "purpose": "run independent council routes",
+      "result": "council route separated"
+    },
+    "5": {
+      "name": "Hygiene Wave",
+      "open": "visual/user pass",
+      "purpose": "readability and structure checks",
+      "result": "hygiene receipt present"
+    },
+    "6": {
+      "name": "Security Wave",
+      "open": "fresh boot contamination run",
+      "purpose": "control-law and risk checks",
+      "result": "security receipt present"
+    },
+    "7": {
+      "name": "Follow-up Make Wave",
+      "open": "candidate subreceipts",
+      "purpose": "generate full candidate bank",
+      "result": "voices, lanes, checks, system, compositions listed"
+    },
+    "8": {
+      "name": "Follow-up Run/Scout Wave",
+      "open": "live scout subagents",
+      "purpose": "run/scout useful follow-up candidates",
+      "result": "route and composition scouts present"
+    },
+    "9": {
+      "name": "Follow-up Audit/Improve Wave",
+      "open": "full audit workers",
+      "purpose": "suppress weak options and improve wording",
+      "result": "final menu compiled"
+    },
+    "10": {
+      "name": "Final Receipt Audit Wave",
+      "open": "live final audit",
+      "purpose": "verify honest final claims",
+      "result": "local validation passed"
+    },
+    "11": {
+      "name": "Controller Synthesis",
+      "open": "none for local run",
+      "purpose": "synthesize after receipts",
+      "result": "summary composed without claiming execution"
+    }
+  }
+}

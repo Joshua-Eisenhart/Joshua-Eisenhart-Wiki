@@ -1,0 +1,426 @@
+---
+title: Feynman
+created: 2026-04-28
+updated: 2026-04-28
+type: concept
+tags: [wizard, mmm, packet, receipt]
+framing: current
+source_path: runs/wizard_general_bakeoff_latest/full/mini_mmm/feynman.md
+---
+
+Lane-local behavior probe body for Feynman. Candidate root: /Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate. This record was normalized from collected probe output only. The harness did not spawn agents, infer hidden execution, or add a claim beyond the supplied lane record. Review this lane as receipt evidence: checked material, conclusion, remaining open question, and cited evidence must remain tied to the captured output. The body exists so the adapter can verify that every completed lane has a lane-local language surface rather than borrowing global prose. Future readers should treat the text as a behavior probe normalization artifact, not as independent proof of correctness. 
+
+Collected output:
+# MMM_VOICE_FEYNMAN_FULL_v2_7
+
+## aligned nouns and phrases
+
+- cargo cult science
+- what would count
+- scientific integrity
+- experiment as judge
+- physical law
+- simple example
+- real measurement
+- apparatus reading
+- simple case
+- toy model
+- what changes
+- language body
+- experiment
+- apparatus
+- observable
+- procedure
+- setup
+- demonstration
+- calibration
+- physical
+- intuition
+- example
+- picture
+- diagram
+- mechanism
+- simple
+- concrete
+- measure
+- pass
+- fail
+- knob
+- instrument
+- scale
+- unit
+- motion
+- energy
+- particle
+- field
+- hands
+- worked
+- operation
+- readout
+- check
+- compare
+- signal
+- noise
+- threshold
+- control
+- baseline
+- trial
+- repeat
+- result
+- criterion
+- measurable
+- output
+- input
+- unresolved
+- inspect
+- verify
+- outside
+- only
+- then
+- bounded
+- finite
+- open
+- distinct
+- observed
+- missing
+- small
+- honest
+- first
+- prior
+- separate
+- together
+- compared
+- measured
+- used
+- fit
+- viable
+- direct
+- different
+- alternate
+- branch
+- path
+- packet
+- artifact
+- receipt
+- trace
+- support
+- evidence
+- scope
+- boundary
+- gate
+- guard
+- rung
+- status
+- candidate
+- survivor
+- witness
+- probe
+- constraint
+- name
+- use
+- role
+- practice
+- experience
+- observation
+- perception
+- conjunction
+- resemblance
+- relation
+- probability
+- particular
+- predicate
+- class
+- model
+- solver
+- satisfiable
+- unsatisfiable
+- countermodel
+- counterexample
+- equivalence
+- indistinguishable
+- measurement
+- sample
+- route
+- lane
+- voice
+- lens
+- council
+- audit
+- finding
+- blocker
+- deferred
+- blocked
+- spawned
+- diagnostic
+- untried
+- preload
+- language
+- body
+- during
+- since
+- toward
+- relative
+- according
+- locally
+- jointly
+- separately
+- rather
+- instead
+- still
+- often
+- sometimes
+- usually
+- seems
+- likely
+- possible
+- plausible
+- tentative
+- provisional
+- partial
+- limited
+
+## correlated couplings
+
+- cargo cult science
+- what would count
+- compare test
+- measure test
+- hold test
+- preserve test
+- split test
+- narrow test
+- measure evidence
+- measure support
+- measure packet
+- measure receipt
+- measure trace
+- measure result
+- measure scope
+- measure boundary
+- measure witness
+- measure probe
+- measure constraint
+- compare measure
+- hold measure
+- preserve measure
+- split measure
+- narrow measure
+- observable evidence
+- observable support
+- observable packet
+- observable receipt
+- observable trace
+- observable result
+- observable scope
+- observable boundary
+- observable witness
+- observable probe
+- observable constraint
+- compare observable
+- measure observable
+- hold observable
+- preserve observable
+- split observable
+- narrow observable
+- procedure evidence
+- procedure support
+- procedure packet
+- procedure receipt
+- procedure trace
+- procedure result
+- procedure scope
+- procedure boundary
+- procedure witness
+- procedure probe
+- procedure constraint
+- compare procedure
+- measure procedure
+- hold procedure
+- preserve procedure
+- split procedure
+- narrow procedure
+- operation evidence
+- operation support
+- operation packet
+- operation receipt
+- operation trace
+- operation result
+- operation scope
+- operation boundary
+- operation witness
+- operation probe
+- operation constraint
+- compare operation
+- measure operation
+- hold operation
+- preserve operation
+- split operation
+- narrow operation
+- setup evidence
+- setup support
+- setup packet
+- setup receipt
+- setup trace
+- setup result
+- setup scope
+- setup boundary
+- setup witness
+- setup probe
+- setup constraint
+- compare setup
+- measure setup
+- hold setup
+- preserve setup
+- split setup
+- narrow setup
+- compare check
+- measure check
+- hold check
+- preserve check
+- split check
+- narrow check
+- compare evidence
+- compare support
+- compare packet
+- compare receipt
+- compare trace
+- compare result
+- compare scope
+- compare boundary
+- compare witness
+- compare probe
+- compare constraint
+- measure compare
+- hold compare
+- preserve compare
+- split compare
+- narrow compare
+- fail evidence
+- fail support
+- fail packet
+- fail receipt
+- fail trace
+- fail result
+- fail scope
+- fail boundary
+- fail witness
+- fail probe
+- fail constraint
+- scientific integrity
+- physical law
+- simple example
+- real measurement
+- apparatus reading
+- simple case
+- toy model
+- what changes
+- experiment as judge
+- during experiment
+- during apparatus
+- during observable
+- during procedure
+- during setup
+- during demonstration
+- during calibration
+- during physical
+- during intuition
+- during example
+- during picture
+- during diagram
+- during mechanism
+- during simple
+- during concrete
+- during measure
+- during pass
+- during fail
+- during knob
+- during reading
+- since experiment
+- since apparatus
+- since observable
+- since procedure
+- since setup
+- since demonstration
+
+## three-part cues
+
+- energy cargo cult science field
+- energy cargo cult science hands
+- energy cargo cult science worked
+- compare test receipt
+- measure test receipt
+- hold test receipt
+- preserve test receipt
+- compare measure receipt
+- hold measure receipt
+- preserve measure receipt
+- compare observable receipt
+- measure observable receipt
+- hold observable receipt
+- preserve observable receipt
+- compare procedure receipt
+- measure procedure receipt
+- hold procedure receipt
+- preserve procedure receipt
+- cargo cult science
+- what would count
+- during experiment apparatus
+- during experiment observable
+- during experiment procedure
+- during experiment setup
+- during apparatus observable
+- during apparatus procedure
+- during apparatus setup
+- during apparatus demonstration
+- during observable procedure
+- during observable setup
+- during observable demonstration
+- during observable calibration
+- during procedure setup
+- during procedure demonstration
+- during procedure calibration
+- during procedure physical
+- during setup demonstration
+- during setup calibration
+- during setup physical
+- during setup intuition
+- during demonstration calibration
+- during demonstration physical
+- during demonstration intuition
+- during demonstration example
+- during calibration physical
+- during calibration intuition
+- during calibration example
+- during calibration picture
+- during physical intuition
+- during physical example
+- during physical picture
+- during physical diagram
+- during intuition example
+- during intuition picture
+- during intuition diagram
+- during intuition mechanism
+- during example picture
+- during example diagram
+- during example mechanism
+- during example simple
+- during picture diagram
+- during picture mechanism
+- during picture simple
+- during picture concrete
+- during diagram mechanism
+- during diagram simple
+- during diagram concrete
+- during diagram measure
+- during mechanism simple
+- during mechanism concrete
+- during mechanism measure
+- during mechanism pass
+- during simple concrete
+- during simple measure
+- during simple pass
+- during simple fail
+- during concrete measure
+- during concrete pass
+- during concrete fail
+- during concrete knob

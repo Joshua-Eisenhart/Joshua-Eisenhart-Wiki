@@ -1,0 +1,12724 @@
+{
+  "words": [
+    [
+      1,
+      "system",
+      100
+    ],
+    [
+      2,
+      "subsystem",
+      100
+    ],
+    [
+      3,
+      "environment",
+      100
+    ],
+    [
+      4,
+      "boundary",
+      100
+    ],
+    [
+      5,
+      "feedback",
+      100
+    ],
+    [
+      6,
+      "loop",
+      100
+    ],
+    [
+      7,
+      "coupling",
+      100
+    ],
+    [
+      8,
+      "incentive",
+      100
+    ],
+    [
+      9,
+      "emergence",
+      100
+    ],
+    [
+      10,
+      "second",
+      100
+    ],
+    [
+      11,
+      "order",
+      100
+    ],
+    [
+      12,
+      "side",
+      100
+    ],
+    [
+      13,
+      "effect",
+      100
+    ],
+    [
+      14,
+      "selection",
+      100
+    ],
+    [
+      15,
+      "reward",
+      100
+    ],
+    [
+      16,
+      "structure",
+      100
+    ],
+    [
+      17,
+      "interaction",
+      100
+    ],
+    [
+      18,
+      "propagation",
+      100
+    ],
+    [
+      19,
+      "network",
+      100
+    ],
+    [
+      20,
+      "node",
+      100
+    ],
+    [
+      21,
+      "edge",
+      100
+    ],
+    [
+      22,
+      "stock",
+      100
+    ],
+    [
+      23,
+      "flow",
+      100
+    ],
+    [
+      24,
+      "delay",
+      100
+    ],
+    [
+      25,
+      "amplifying",
+      100
+    ],
+    [
+      26,
+      "balancing",
+      99
+    ],
+    [
+      27,
+      "reinforcing",
+      99
+    ],
+    [
+      28,
+      "dynamics",
+      99
+    ],
+    [
+      29,
+      "attractor",
+      99
+    ],
+    [
+      30,
+      "basin",
+      99
+    ],
+    [
+      31,
+      "homeostasis",
+      99
+    ],
+    [
+      32,
+      "perverse",
+      99
+    ],
+    [
+      33,
+      "leverage point",
+      99
+    ],
+    [
+      34,
+      "feedback loop",
+      99
+    ],
+    [
+      35,
+      "information flow",
+      99
+    ],
+    [
+      36,
+      "system structure",
+      99
+    ],
+    [
+      37,
+      "self organization",
+      99
+    ],
+    [
+      38,
+      "mental model",
+      99
+    ],
+    [
+      39,
+      "stocks and flows",
+      99
+    ],
+    [
+      40,
+      "reinforcing loop",
+      99
+    ],
+    [
+      41,
+      "balancing loop",
+      99
+    ],
+    [
+      42,
+      "second-order",
+      99
+    ],
+    [
+      43,
+      "emergent",
+      99
+    ],
+    [
+      44,
+      "dependency",
+      99
+    ],
+    [
+      45,
+      "constraint",
+      99
+    ],
+    [
+      46,
+      "behavior",
+      99
+    ],
+    [
+      47,
+      "state",
+      99
+    ],
+    [
+      48,
+      "transition",
+      99
+    ],
+    [
+      49,
+      "drift",
+      99
+    ],
+    [
+      50,
+      "dynamic",
+      99
+    ],
+    [
+      51,
+      "stabilizing",
+      98
+    ],
+    [
+      52,
+      "under",
+      98
+    ],
+    [
+      53,
+      "within",
+      98
+    ],
+    [
+      54,
+      "across",
+      98
+    ],
+    [
+      55,
+      "between",
+      98
+    ],
+    [
+      56,
+      "through",
+      98
+    ],
+    [
+      57,
+      "before",
+      98
+    ],
+    [
+      58,
+      "after",
+      98
+    ],
+    [
+      59,
+      "until",
+      98
+    ],
+    [
+      60,
+      "where",
+      98
+    ],
+    [
+      61,
+      "while",
+      98
+    ],
+    [
+      62,
+      "against",
+      98
+    ],
+    [
+      63,
+      "along",
+      98
+    ],
+    [
+      64,
+      "around",
+      98
+    ],
+    [
+      65,
+      "among",
+      98
+    ],
+    [
+      66,
+      "inside",
+      98
+    ],
+    [
+      67,
+      "outside",
+      98
+    ],
+    [
+      68,
+      "near",
+      98
+    ],
+    [
+      69,
+      "beside",
+      98
+    ],
+    [
+      70,
+      "over",
+      98
+    ],
+    [
+      71,
+      "from",
+      98
+    ],
+    [
+      72,
+      "with",
+      98
+    ],
+    [
+      73,
+      "without",
+      98
+    ],
+    [
+      74,
+      "only",
+      98
+    ],
+    [
+      75,
+      "not",
+      98
+    ],
+    [
+      76,
+      "no",
+      97
+    ],
+    [
+      77,
+      "yet",
+      97
+    ],
+    [
+      78,
+      "then",
+      97
+    ],
+    [
+      79,
+      "current",
+      97
+    ],
+    [
+      80,
+      "actual",
+      97
+    ],
+    [
+      81,
+      "local",
+      97
+    ],
+    [
+      82,
+      "bounded",
+      97
+    ],
+    [
+      83,
+      "finite",
+      97
+    ],
+    [
+      84,
+      "open",
+      97
+    ],
+    [
+      85,
+      "live",
+      97
+    ],
+    [
+      86,
+      "distinct",
+      97
+    ],
+    [
+      87,
+      "concrete",
+      97
+    ],
+    [
+      88,
+      "plain",
+      97
+    ],
+    [
+      89,
+      "observed",
+      97
+    ],
+    [
+      90,
+      "inferred",
+      97
+    ],
+    [
+      91,
+      "known",
+      97
+    ],
+    [
+      92,
+      "unknown",
+      97
+    ],
+    [
+      93,
+      "checked",
+      97
+    ],
+    [
+      94,
+      "missing",
+      97
+    ],
+    [
+      95,
+      "stale",
+      97
+    ],
+    [
+      96,
+      "narrow",
+      97
+    ],
+    [
+      97,
+      "small",
+      97
+    ],
+    [
+      98,
+      "warm",
+      97
+    ],
+    [
+      99,
+      "careful",
+      97
+    ],
+    [
+      100,
+      "honest",
+      97
+    ],
+    [
+      101,
+      "first",
+      96
+    ],
+    [
+      102,
+      "next",
+      96
+    ],
+    [
+      103,
+      "prior",
+      96
+    ],
+    [
+      104,
+      "later",
+      96
+    ],
+    [
+      105,
+      "separate",
+      96
+    ],
+    [
+      106,
+      "together",
+      96
+    ],
+    [
+      107,
+      "apart",
+      96
+    ],
+    [
+      108,
+      "held",
+      96
+    ],
+    [
+      109,
+      "returned",
+      96
+    ],
+    [
+      110,
+      "found",
+      96
+    ],
+    [
+      111,
+      "compared",
+      96
+    ],
+    [
+      112,
+      "measured",
+      96
+    ],
+    [
+      113,
+      "named",
+      96
+    ],
+    [
+      114,
+      "used",
+      96
+    ],
+    [
+      115,
+      "fit",
+      96
+    ],
+    [
+      116,
+      "viable",
+      96
+    ],
+    [
+      117,
+      "direct",
+      96
+    ],
+    [
+      118,
+      "different",
+      96
+    ],
+    [
+      119,
+      "alternate",
+      96
+    ],
+    [
+      120,
+      "branch",
+      96
+    ],
+    [
+      121,
+      "path",
+      96
+    ],
+    [
+      122,
+      "surface",
+      96
+    ],
+    [
+      123,
+      "packet",
+      96
+    ],
+    [
+      124,
+      "artifact",
+      96
+    ],
+    [
+      125,
+      "receipt",
+      96
+    ],
+    [
+      126,
+      "trace",
+      95
+    ],
+    [
+      127,
+      "result",
+      95
+    ],
+    [
+      128,
+      "support",
+      95
+    ],
+    [
+      129,
+      "evidence",
+      95
+    ],
+    [
+      130,
+      "scope",
+      95
+    ],
+    [
+      131,
+      "gate",
+      95
+    ],
+    [
+      132,
+      "guard",
+      95
+    ],
+    [
+      133,
+      "rung",
+      95
+    ],
+    [
+      134,
+      "status",
+      95
+    ],
+    [
+      135,
+      "candidate",
+      95
+    ],
+    [
+      136,
+      "survivor",
+      95
+    ],
+    [
+      137,
+      "witness",
+      95
+    ],
+    [
+      138,
+      "probe",
+      95
+    ],
+    [
+      139,
+      "name",
+      95
+    ],
+    [
+      140,
+      "term",
+      95
+    ],
+    [
+      141,
+      "use",
+      95
+    ],
+    [
+      142,
+      "role",
+      95
+    ],
+    [
+      143,
+      "practice",
+      95
+    ],
+    [
+      144,
+      "custom",
+      95
+    ],
+    [
+      145,
+      "habit",
+      95
+    ],
+    [
+      146,
+      "experience",
+      95
+    ],
+    [
+      147,
+      "observation",
+      95
+    ],
+    [
+      148,
+      "impression",
+      95
+    ],
+    [
+      149,
+      "idea",
+      95
+    ],
+    [
+      150,
+      "perception",
+      95
+    ],
+    [
+      151,
+      "conjunction",
+      94
+    ],
+    [
+      152,
+      "resemblance",
+      94
+    ],
+    [
+      153,
+      "relation",
+      94
+    ],
+    [
+      154,
+      "probability",
+      94
+    ],
+    [
+      155,
+      "particular",
+      94
+    ],
+    [
+      156,
+      "predicate",
+      94
+    ],
+    [
+      157,
+      "class",
+      94
+    ],
+    [
+      158,
+      "model",
+      94
+    ],
+    [
+      159,
+      "solver",
+      94
+    ],
+    [
+      160,
+      "satisfiable",
+      94
+    ],
+    [
+      161,
+      "unsatisfiable",
+      94
+    ],
+    [
+      162,
+      "countermodel",
+      94
+    ],
+    [
+      163,
+      "counterexample",
+      94
+    ],
+    [
+      164,
+      "equivalence",
+      94
+    ],
+    [
+      165,
+      "indistinguishable",
+      94
+    ],
+    [
+      166,
+      "readout",
+      94
+    ],
+    [
+      167,
+      "measure",
+      94
+    ],
+    [
+      168,
+      "measurement",
+      94
+    ],
+    [
+      169,
+      "operation",
+      94
+    ],
+    [
+      170,
+      "procedure",
+      94
+    ],
+    [
+      171,
+      "instrument",
+      94
+    ],
+    [
+      172,
+      "experiment",
+      94
+    ],
+    [
+      173,
+      "test",
+      94
+    ],
+    [
+      174,
+      "check",
+      94
+    ],
+    [
+      175,
+      "verify",
+      94
+    ],
+    [
+      176,
+      "compare",
+      93
+    ],
+    [
+      177,
+      "sample",
+      93
+    ],
+    [
+      178,
+      "route",
+      93
+    ],
+    [
+      179,
+      "lane",
+      93
+    ],
+    [
+      180,
+      "voice",
+      93
+    ],
+    [
+      181,
+      "lens",
+      93
+    ],
+    [
+      182,
+      "council",
+      93
+    ],
+    [
+      183,
+      "audit",
+      93
+    ],
+    [
+      184,
+      "finding",
+      93
+    ],
+    [
+      185,
+      "blocker",
+      93
+    ],
+    [
+      186,
+      "deferred",
+      93
+    ],
+    [
+      187,
+      "blocked",
+      93
+    ],
+    [
+      188,
+      "spawned",
+      93
+    ],
+    [
+      189,
+      "diagnostic",
+      93
+    ],
+    [
+      190,
+      "untried",
+      93
+    ],
+    [
+      191,
+      "preload",
+      93
+    ],
+    [
+      192,
+      "salience",
+      93
+    ],
+    [
+      193,
+      "language",
+      93
+    ],
+    [
+      194,
+      "body",
+      93
+    ],
+    [
+      195,
+      "during",
+      93
+    ],
+    [
+      196,
+      "since",
+      93
+    ],
+    [
+      197,
+      "by",
+      93
+    ],
+    [
+      198,
+      "toward",
+      93
+    ],
+    [
+      199,
+      "relative",
+      93
+    ],
+    [
+      200,
+      "according",
+      93
+    ],
+    [
+      201,
+      "locally",
+      92
+    ],
+    [
+      202,
+      "jointly",
+      92
+    ],
+    [
+      203,
+      "separately",
+      92
+    ],
+    [
+      204,
+      "rather",
+      92
+    ],
+    [
+      205,
+      "instead",
+      92
+    ],
+    [
+      206,
+      "still",
+      92
+    ],
+    [
+      207,
+      "often",
+      92
+    ],
+    [
+      208,
+      "sometimes",
+      92
+    ],
+    [
+      209,
+      "usually",
+      92
+    ],
+    [
+      210,
+      "seems",
+      92
+    ],
+    [
+      211,
+      "appears",
+      92
+    ],
+    [
+      212,
+      "likely",
+      92
+    ],
+    [
+      213,
+      "possible",
+      92
+    ],
+    [
+      214,
+      "plausible",
+      92
+    ],
+    [
+      215,
+      "tentative",
+      92
+    ],
+    [
+      216,
+      "provisional",
+      92
+    ],
+    [
+      217,
+      "partial",
+      92
+    ],
+    [
+      218,
+      "limited",
+      92
+    ],
+    [
+      219,
+      "case",
+      92
+    ],
+    [
+      220,
+      "instance",
+      92
+    ],
+    [
+      221,
+      "mini-MMM",
+      100
+    ],
+    [
+      222,
+      "mini MMM",
+      100
+    ],
+    [
+      223,
+      "voice shape",
+      100
+    ],
+    [
+      224,
+      "voice shaping",
+      100
+    ],
+    [
+      225,
+      "shape voice",
+      100
+    ],
+    [
+      226,
+      "shaped voice",
+      100
+    ],
+    [
+      227,
+      "voice contour",
+      100
+    ],
+    [
+      228,
+      "voice signature",
+      100
+    ],
+    [
+      229,
+      "voice localizer",
+      100
+    ],
+    [
+      230,
+      "local voice",
+      100
+    ],
+    [
+      231,
+      "aligned nouns",
+      100
+    ],
+    [
+      232,
+      "correlated thinkers",
+      100
+    ],
+    [
+      233,
+      "thinker alignment",
+      100
+    ],
+    [
+      234,
+      "noun alignment",
+      100
+    ],
+    [
+      235,
+      "voice method",
+      100
+    ],
+    [
+      236,
+      "voice evidence",
+      100
+    ],
+    [
+      237,
+      "voice judgment",
+      100
+    ],
+    [
+      238,
+      "voice task",
+      100
+    ],
+    [
+      239,
+      "voice receipt",
+      100
+    ],
+    [
+      240,
+      "voice finding",
+      100
+    ],
+    [
+      241,
+      "voice constraint",
+      100
+    ],
+    [
+      242,
+      "voice noun",
+      100
+    ],
+    [
+      243,
+      "voice verb",
+      100
+    ],
+    [
+      244,
+      "voice signal",
+      100
+    ],
+    [
+      245,
+      "voice boundary",
+      100
+    ],
+    [
+      246,
+      "voice contribution",
+      100
+    ],
+    [
+      247,
+      "mini mmm loaded",
+      100
+    ],
+    [
+      248,
+      "loaded mini mmm",
+      100
+    ],
+    [
+      249,
+      "assigned mini mmm",
+      100
+    ],
+    [
+      250,
+      "local voice context",
+      100
+    ],
+    [
+      251,
+      "voice-specific nouns",
+      100
+    ],
+    [
+      252,
+      "method nouns",
+      100
+    ],
+    [
+      253,
+      "reader stance",
+      100
+    ],
+    [
+      254,
+      "decision stance",
+      100
+    ],
+    [
+      255,
+      "audit stance",
+      100
+    ],
+    [
+      256,
+      "build stance",
+      100
+    ],
+    [
+      257,
+      "repair stance",
+      100
+    ],
+    [
+      258,
+      "acceptance stance",
+      100
+    ],
+    [
+      259,
+      "subagent voice",
+      100
+    ],
+    [
+      260,
+      "voice worker",
+      100
+    ],
+    [
+      261,
+      "voice proof",
+      100
+    ],
+    [
+      262,
+      "distinct output",
+      100
+    ],
+    [
+      263,
+      "behavioral pull",
+      100
+    ],
+    [
+      264,
+      "salience pull",
+      100
+    ],
+    [
+      265,
+      "voice usefulness",
+      100
+    ],
+    [
+      266,
+      "output repair",
+      100
+    ],
+    [
+      267,
+      "system repair",
+      100
+    ],
+    [
+      268,
+      "mmm stability",
+      100
+    ],
+    [
+      269,
+      "wizard stability",
+      100
+    ],
+    [
+      270,
+      "qit support",
+      100
+    ],
+    [
+      271,
+      "sim support",
+      100
+    ],
+    [
+      272,
+      "Norbert Wiener",
+      98
+    ],
+    [
+      273,
+      "Stafford Beer",
+      98
+    ],
+    [
+      274,
+      "Donella Meadows",
+      98
+    ],
+    [
+      275,
+      "cybernetics",
+      98
+    ],
+    [
+      276,
+      "monitor",
+      98
+    ],
+    [
+      277,
+      "controller",
+      98
+    ],
+    [
+      278,
+      "control",
+      98
+    ],
+    [
+      279,
+      "communication",
+      98
+    ],
+    [
+      280,
+      "buffer",
+      98
+    ],
+    [
+      281,
+      "goal",
+      98
+    ],
+    [
+      282,
+      "paradigm",
+      98
+    ]
+  ],
+  "couplings": [
+    [
+      1,
+      "under loop",
+      100
+    ],
+    [
+      2,
+      "within loop",
+      100
+    ],
+    [
+      3,
+      "across loop",
+      100
+    ],
+    [
+      4,
+      "between loop",
+      100
+    ],
+    [
+      5,
+      "through loop",
+      100
+    ],
+    [
+      6,
+      "before loop",
+      100
+    ],
+    [
+      7,
+      "after loop",
+      100
+    ],
+    [
+      8,
+      "until loop",
+      100
+    ],
+    [
+      9,
+      "where loop",
+      100
+    ],
+    [
+      10,
+      "while loop",
+      100
+    ],
+    [
+      11,
+      "loop evidence",
+      100
+    ],
+    [
+      12,
+      "loop support",
+      100
+    ],
+    [
+      13,
+      "loop path",
+      100
+    ],
+    [
+      14,
+      "loop surface",
+      100
+    ],
+    [
+      15,
+      "loop packet",
+      100
+    ],
+    [
+      16,
+      "loop receipt",
+      100
+    ],
+    [
+      17,
+      "loop trace",
+      100
+    ],
+    [
+      18,
+      "loop result",
+      100
+    ],
+    [
+      19,
+      "loop scope",
+      100
+    ],
+    [
+      20,
+      "loop boundary",
+      100
+    ],
+    [
+      21,
+      "loop status",
+      100
+    ],
+    [
+      22,
+      "loop candidate",
+      100
+    ],
+    [
+      23,
+      "loop witness",
+      100
+    ],
+    [
+      24,
+      "loop probe",
+      100
+    ],
+    [
+      25,
+      "loop constraint",
+      100
+    ],
+    [
+      26,
+      "check loop",
+      99
+    ],
+    [
+      27,
+      "compare loop",
+      99
+    ],
+    [
+      28,
+      "observe loop",
+      99
+    ],
+    [
+      29,
+      "measure loop",
+      99
+    ],
+    [
+      30,
+      "test loop",
+      99
+    ],
+    [
+      31,
+      "verify loop",
+      99
+    ],
+    [
+      32,
+      "hold loop",
+      99
+    ],
+    [
+      33,
+      "preserve loop",
+      99
+    ],
+    [
+      34,
+      "split loop",
+      99
+    ],
+    [
+      35,
+      "narrow loop",
+      99
+    ],
+    [
+      36,
+      "under feedback",
+      99
+    ],
+    [
+      37,
+      "within feedback",
+      99
+    ],
+    [
+      38,
+      "across feedback",
+      99
+    ],
+    [
+      39,
+      "between feedback",
+      99
+    ],
+    [
+      40,
+      "through feedback",
+      99
+    ],
+    [
+      41,
+      "before feedback",
+      99
+    ],
+    [
+      42,
+      "after feedback",
+      99
+    ],
+    [
+      43,
+      "until feedback",
+      99
+    ],
+    [
+      44,
+      "where feedback",
+      99
+    ],
+    [
+      45,
+      "while feedback",
+      99
+    ],
+    [
+      46,
+      "feedback evidence",
+      99
+    ],
+    [
+      47,
+      "feedback support",
+      99
+    ],
+    [
+      48,
+      "feedback path",
+      99
+    ],
+    [
+      49,
+      "feedback surface",
+      99
+    ],
+    [
+      50,
+      "feedback packet",
+      99
+    ],
+    [
+      51,
+      "feedback receipt",
+      98
+    ],
+    [
+      52,
+      "feedback trace",
+      98
+    ],
+    [
+      53,
+      "feedback result",
+      98
+    ],
+    [
+      54,
+      "feedback scope",
+      98
+    ],
+    [
+      55,
+      "feedback boundary",
+      98
+    ],
+    [
+      56,
+      "feedback status",
+      98
+    ],
+    [
+      57,
+      "feedback candidate",
+      98
+    ],
+    [
+      58,
+      "feedback witness",
+      98
+    ],
+    [
+      59,
+      "feedback probe",
+      98
+    ],
+    [
+      60,
+      "feedback constraint",
+      98
+    ],
+    [
+      61,
+      "check feedback",
+      98
+    ],
+    [
+      62,
+      "compare feedback",
+      98
+    ],
+    [
+      63,
+      "observe feedback",
+      98
+    ],
+    [
+      64,
+      "measure feedback",
+      98
+    ],
+    [
+      65,
+      "test feedback",
+      98
+    ],
+    [
+      66,
+      "verify feedback",
+      98
+    ],
+    [
+      67,
+      "hold feedback",
+      98
+    ],
+    [
+      68,
+      "preserve feedback",
+      98
+    ],
+    [
+      69,
+      "split feedback",
+      98
+    ],
+    [
+      70,
+      "narrow feedback",
+      98
+    ],
+    [
+      71,
+      "under incentive",
+      98
+    ],
+    [
+      72,
+      "within incentive",
+      98
+    ],
+    [
+      73,
+      "across incentive",
+      98
+    ],
+    [
+      74,
+      "between incentive",
+      98
+    ],
+    [
+      75,
+      "through incentive",
+      98
+    ],
+    [
+      76,
+      "before incentive",
+      97
+    ],
+    [
+      77,
+      "after incentive",
+      97
+    ],
+    [
+      78,
+      "until incentive",
+      97
+    ],
+    [
+      79,
+      "where incentive",
+      97
+    ],
+    [
+      80,
+      "while incentive",
+      97
+    ],
+    [
+      81,
+      "incentive evidence",
+      97
+    ],
+    [
+      82,
+      "incentive support",
+      97
+    ],
+    [
+      83,
+      "incentive path",
+      97
+    ],
+    [
+      84,
+      "incentive surface",
+      97
+    ],
+    [
+      85,
+      "incentive packet",
+      97
+    ],
+    [
+      86,
+      "incentive receipt",
+      97
+    ],
+    [
+      87,
+      "incentive trace",
+      97
+    ],
+    [
+      88,
+      "incentive result",
+      97
+    ],
+    [
+      89,
+      "incentive scope",
+      97
+    ],
+    [
+      90,
+      "incentive boundary",
+      97
+    ],
+    [
+      91,
+      "incentive status",
+      97
+    ],
+    [
+      92,
+      "incentive candidate",
+      97
+    ],
+    [
+      93,
+      "incentive witness",
+      97
+    ],
+    [
+      94,
+      "incentive probe",
+      97
+    ],
+    [
+      95,
+      "incentive constraint",
+      97
+    ],
+    [
+      96,
+      "check incentive",
+      97
+    ],
+    [
+      97,
+      "compare incentive",
+      97
+    ],
+    [
+      98,
+      "observe incentive",
+      97
+    ],
+    [
+      99,
+      "measure incentive",
+      97
+    ],
+    [
+      100,
+      "test incentive",
+      97
+    ],
+    [
+      101,
+      "verify incentive",
+      96
+    ],
+    [
+      102,
+      "hold incentive",
+      96
+    ],
+    [
+      103,
+      "preserve incentive",
+      96
+    ],
+    [
+      104,
+      "split incentive",
+      96
+    ],
+    [
+      105,
+      "narrow incentive",
+      96
+    ],
+    [
+      106,
+      "under structure",
+      96
+    ],
+    [
+      107,
+      "within structure",
+      96
+    ],
+    [
+      108,
+      "across structure",
+      96
+    ],
+    [
+      109,
+      "between structure",
+      96
+    ],
+    [
+      110,
+      "through structure",
+      96
+    ],
+    [
+      111,
+      "before structure",
+      96
+    ],
+    [
+      112,
+      "after structure",
+      96
+    ],
+    [
+      113,
+      "until structure",
+      96
+    ],
+    [
+      114,
+      "where structure",
+      96
+    ],
+    [
+      115,
+      "while structure",
+      96
+    ],
+    [
+      116,
+      "structure evidence",
+      96
+    ],
+    [
+      117,
+      "structure support",
+      96
+    ],
+    [
+      118,
+      "structure path",
+      96
+    ],
+    [
+      119,
+      "structure surface",
+      96
+    ],
+    [
+      120,
+      "structure packet",
+      96
+    ],
+    [
+      121,
+      "structure receipt",
+      96
+    ],
+    [
+      122,
+      "structure trace",
+      96
+    ],
+    [
+      123,
+      "structure result",
+      96
+    ],
+    [
+      124,
+      "structure scope",
+      96
+    ],
+    [
+      125,
+      "structure boundary",
+      96
+    ],
+    [
+      126,
+      "structure status",
+      95
+    ],
+    [
+      127,
+      "structure candidate",
+      95
+    ],
+    [
+      128,
+      "structure witness",
+      95
+    ],
+    [
+      129,
+      "structure probe",
+      95
+    ],
+    [
+      130,
+      "structure constraint",
+      95
+    ],
+    [
+      131,
+      "check structure",
+      95
+    ],
+    [
+      132,
+      "compare structure",
+      95
+    ],
+    [
+      133,
+      "observe structure",
+      95
+    ],
+    [
+      134,
+      "measure structure",
+      95
+    ],
+    [
+      135,
+      "test structure",
+      95
+    ],
+    [
+      136,
+      "verify structure",
+      95
+    ],
+    [
+      137,
+      "hold structure",
+      95
+    ],
+    [
+      138,
+      "preserve structure",
+      95
+    ],
+    [
+      139,
+      "split structure",
+      95
+    ],
+    [
+      140,
+      "narrow structure",
+      95
+    ],
+    [
+      141,
+      "under coupling",
+      95
+    ],
+    [
+      142,
+      "within coupling",
+      95
+    ],
+    [
+      143,
+      "across coupling",
+      95
+    ],
+    [
+      144,
+      "between coupling",
+      95
+    ],
+    [
+      145,
+      "through coupling",
+      95
+    ],
+    [
+      146,
+      "before coupling",
+      95
+    ],
+    [
+      147,
+      "after coupling",
+      95
+    ],
+    [
+      148,
+      "until coupling",
+      95
+    ],
+    [
+      149,
+      "where coupling",
+      95
+    ],
+    [
+      150,
+      "while coupling",
+      95
+    ],
+    [
+      151,
+      "coupling evidence",
+      94
+    ],
+    [
+      152,
+      "coupling support",
+      94
+    ],
+    [
+      153,
+      "coupling path",
+      94
+    ],
+    [
+      154,
+      "coupling surface",
+      94
+    ],
+    [
+      155,
+      "coupling packet",
+      94
+    ],
+    [
+      156,
+      "coupling receipt",
+      94
+    ],
+    [
+      157,
+      "coupling trace",
+      94
+    ],
+    [
+      158,
+      "coupling result",
+      94
+    ],
+    [
+      159,
+      "coupling scope",
+      94
+    ],
+    [
+      160,
+      "coupling boundary",
+      94
+    ],
+    [
+      161,
+      "coupling status",
+      94
+    ],
+    [
+      162,
+      "coupling candidate",
+      94
+    ],
+    [
+      163,
+      "coupling witness",
+      94
+    ],
+    [
+      164,
+      "coupling probe",
+      94
+    ],
+    [
+      165,
+      "coupling constraint",
+      94
+    ],
+    [
+      166,
+      "check coupling",
+      94
+    ],
+    [
+      167,
+      "compare coupling",
+      94
+    ],
+    [
+      168,
+      "observe coupling",
+      94
+    ],
+    [
+      169,
+      "measure coupling",
+      94
+    ],
+    [
+      170,
+      "test coupling",
+      94
+    ],
+    [
+      171,
+      "verify coupling",
+      94
+    ],
+    [
+      172,
+      "hold coupling",
+      94
+    ],
+    [
+      173,
+      "preserve coupling",
+      94
+    ],
+    [
+      174,
+      "split coupling",
+      94
+    ],
+    [
+      175,
+      "narrow coupling",
+      94
+    ],
+    [
+      176,
+      "under interaction",
+      93
+    ],
+    [
+      177,
+      "within interaction",
+      93
+    ],
+    [
+      178,
+      "across interaction",
+      93
+    ],
+    [
+      179,
+      "between interaction",
+      93
+    ],
+    [
+      180,
+      "through interaction",
+      93
+    ],
+    [
+      181,
+      "before interaction",
+      93
+    ],
+    [
+      182,
+      "after interaction",
+      93
+    ],
+    [
+      183,
+      "until interaction",
+      93
+    ],
+    [
+      184,
+      "where interaction",
+      93
+    ],
+    [
+      185,
+      "while interaction",
+      93
+    ],
+    [
+      186,
+      "interaction evidence",
+      93
+    ],
+    [
+      187,
+      "interaction support",
+      93
+    ],
+    [
+      188,
+      "interaction path",
+      93
+    ],
+    [
+      189,
+      "interaction surface",
+      93
+    ],
+    [
+      190,
+      "interaction packet",
+      93
+    ],
+    [
+      191,
+      "interaction receipt",
+      93
+    ],
+    [
+      192,
+      "interaction trace",
+      93
+    ],
+    [
+      193,
+      "interaction result",
+      93
+    ],
+    [
+      194,
+      "interaction scope",
+      93
+    ],
+    [
+      195,
+      "interaction boundary",
+      93
+    ],
+    [
+      196,
+      "interaction status",
+      93
+    ],
+    [
+      197,
+      "interaction candidate",
+      93
+    ],
+    [
+      198,
+      "interaction witness",
+      93
+    ],
+    [
+      199,
+      "interaction probe",
+      93
+    ],
+    [
+      200,
+      "interaction constraint",
+      93
+    ],
+    [
+      201,
+      "check interaction",
+      92
+    ],
+    [
+      202,
+      "compare interaction",
+      92
+    ],
+    [
+      203,
+      "observe interaction",
+      92
+    ],
+    [
+      204,
+      "measure interaction",
+      92
+    ],
+    [
+      205,
+      "test interaction",
+      92
+    ],
+    [
+      206,
+      "verify interaction",
+      92
+    ],
+    [
+      207,
+      "hold interaction",
+      92
+    ],
+    [
+      208,
+      "preserve interaction",
+      92
+    ],
+    [
+      209,
+      "split interaction",
+      92
+    ],
+    [
+      210,
+      "narrow interaction",
+      92
+    ],
+    [
+      211,
+      "under propagation",
+      92
+    ],
+    [
+      212,
+      "within propagation",
+      92
+    ],
+    [
+      213,
+      "across propagation",
+      92
+    ],
+    [
+      214,
+      "between propagation",
+      92
+    ],
+    [
+      215,
+      "through propagation",
+      92
+    ],
+    [
+      216,
+      "before propagation",
+      92
+    ],
+    [
+      217,
+      "after propagation",
+      92
+    ],
+    [
+      218,
+      "until propagation",
+      92
+    ],
+    [
+      219,
+      "where propagation",
+      92
+    ],
+    [
+      220,
+      "while propagation",
+      92
+    ],
+    [
+      221,
+      "propagation evidence",
+      92
+    ],
+    [
+      222,
+      "propagation support",
+      92
+    ],
+    [
+      223,
+      "propagation path",
+      92
+    ],
+    [
+      224,
+      "propagation surface",
+      92
+    ],
+    [
+      225,
+      "propagation packet",
+      92
+    ],
+    [
+      226,
+      "propagation receipt",
+      91
+    ],
+    [
+      227,
+      "propagation trace",
+      91
+    ],
+    [
+      228,
+      "propagation result",
+      91
+    ],
+    [
+      229,
+      "propagation scope",
+      91
+    ],
+    [
+      230,
+      "propagation boundary",
+      91
+    ],
+    [
+      231,
+      "propagation status",
+      91
+    ],
+    [
+      232,
+      "propagation candidate",
+      91
+    ],
+    [
+      233,
+      "propagation witness",
+      91
+    ],
+    [
+      234,
+      "propagation probe",
+      91
+    ],
+    [
+      235,
+      "propagation constraint",
+      91
+    ],
+    [
+      236,
+      "check propagation",
+      91
+    ],
+    [
+      237,
+      "compare propagation",
+      91
+    ],
+    [
+      238,
+      "observe propagation",
+      91
+    ],
+    [
+      239,
+      "measure propagation",
+      91
+    ],
+    [
+      240,
+      "test propagation",
+      91
+    ],
+    [
+      241,
+      "verify propagation",
+      91
+    ],
+    [
+      242,
+      "hold propagation",
+      91
+    ],
+    [
+      243,
+      "preserve propagation",
+      91
+    ],
+    [
+      244,
+      "split propagation",
+      91
+    ],
+    [
+      245,
+      "narrow propagation",
+      91
+    ],
+    [
+      246,
+      "under emergence",
+      91
+    ],
+    [
+      247,
+      "within emergence",
+      91
+    ],
+    [
+      248,
+      "across emergence",
+      91
+    ],
+    [
+      249,
+      "between emergence",
+      91
+    ],
+    [
+      250,
+      "through emergence",
+      91
+    ],
+    [
+      251,
+      "before emergence",
+      90
+    ],
+    [
+      252,
+      "after emergence",
+      90
+    ],
+    [
+      253,
+      "until emergence",
+      90
+    ],
+    [
+      254,
+      "where emergence",
+      90
+    ],
+    [
+      255,
+      "while emergence",
+      90
+    ],
+    [
+      256,
+      "emergence evidence",
+      90
+    ],
+    [
+      257,
+      "emergence support",
+      90
+    ],
+    [
+      258,
+      "emergence path",
+      90
+    ],
+    [
+      259,
+      "emergence surface",
+      90
+    ],
+    [
+      260,
+      "emergence packet",
+      90
+    ],
+    [
+      261,
+      "emergence receipt",
+      90
+    ],
+    [
+      262,
+      "emergence trace",
+      90
+    ],
+    [
+      263,
+      "emergence result",
+      90
+    ],
+    [
+      264,
+      "emergence scope",
+      90
+    ],
+    [
+      265,
+      "emergence boundary",
+      90
+    ],
+    [
+      266,
+      "emergence status",
+      90
+    ],
+    [
+      267,
+      "emergence candidate",
+      90
+    ],
+    [
+      268,
+      "emergence witness",
+      90
+    ],
+    [
+      269,
+      "emergence probe",
+      90
+    ],
+    [
+      270,
+      "emergence constraint",
+      90
+    ],
+    [
+      271,
+      "check emergence",
+      90
+    ],
+    [
+      272,
+      "compare emergence",
+      90
+    ],
+    [
+      273,
+      "observe emergence",
+      90
+    ],
+    [
+      274,
+      "measure emergence",
+      90
+    ],
+    [
+      275,
+      "test emergence",
+      90
+    ],
+    [
+      276,
+      "verify emergence",
+      89
+    ],
+    [
+      277,
+      "hold emergence",
+      89
+    ],
+    [
+      278,
+      "preserve emergence",
+      89
+    ],
+    [
+      279,
+      "split emergence",
+      89
+    ],
+    [
+      280,
+      "narrow emergence",
+      89
+    ],
+    [
+      281,
+      "under second",
+      89
+    ],
+    [
+      282,
+      "within second",
+      89
+    ],
+    [
+      283,
+      "across second",
+      89
+    ],
+    [
+      284,
+      "between second",
+      89
+    ],
+    [
+      285,
+      "through second",
+      89
+    ],
+    [
+      286,
+      "before second",
+      89
+    ],
+    [
+      287,
+      "after second",
+      89
+    ],
+    [
+      288,
+      "until second",
+      89
+    ],
+    [
+      289,
+      "where second",
+      89
+    ],
+    [
+      290,
+      "while second",
+      89
+    ],
+    [
+      291,
+      "second evidence",
+      89
+    ],
+    [
+      292,
+      "second support",
+      89
+    ],
+    [
+      293,
+      "second path",
+      89
+    ],
+    [
+      294,
+      "second surface",
+      89
+    ],
+    [
+      295,
+      "second packet",
+      89
+    ],
+    [
+      296,
+      "second receipt",
+      89
+    ],
+    [
+      297,
+      "second trace",
+      89
+    ],
+    [
+      298,
+      "second result",
+      89
+    ],
+    [
+      299,
+      "second scope",
+      89
+    ],
+    [
+      300,
+      "second boundary",
+      89
+    ],
+    [
+      301,
+      "second status",
+      88
+    ],
+    [
+      302,
+      "second candidate",
+      88
+    ],
+    [
+      303,
+      "second witness",
+      88
+    ],
+    [
+      304,
+      "second probe",
+      88
+    ],
+    [
+      305,
+      "second constraint",
+      88
+    ],
+    [
+      306,
+      "check second",
+      88
+    ],
+    [
+      307,
+      "compare second",
+      88
+    ],
+    [
+      308,
+      "observe second",
+      88
+    ],
+    [
+      309,
+      "measure second",
+      88
+    ],
+    [
+      310,
+      "test second",
+      88
+    ],
+    [
+      311,
+      "verify second",
+      88
+    ],
+    [
+      312,
+      "hold second",
+      88
+    ],
+    [
+      313,
+      "preserve second",
+      88
+    ],
+    [
+      314,
+      "split second",
+      88
+    ],
+    [
+      315,
+      "narrow second",
+      88
+    ],
+    [
+      316,
+      "under order",
+      88
+    ],
+    [
+      317,
+      "within order",
+      88
+    ],
+    [
+      318,
+      "across order",
+      88
+    ],
+    [
+      319,
+      "between order",
+      88
+    ],
+    [
+      320,
+      "through order",
+      88
+    ],
+    [
+      321,
+      "before order",
+      88
+    ],
+    [
+      322,
+      "after order",
+      88
+    ],
+    [
+      323,
+      "until order",
+      88
+    ],
+    [
+      324,
+      "where order",
+      88
+    ],
+    [
+      325,
+      "while order",
+      88
+    ],
+    [
+      326,
+      "order evidence",
+      87
+    ],
+    [
+      327,
+      "order support",
+      87
+    ],
+    [
+      328,
+      "order path",
+      87
+    ],
+    [
+      329,
+      "order surface",
+      87
+    ],
+    [
+      330,
+      "order packet",
+      87
+    ],
+    [
+      331,
+      "order receipt",
+      87
+    ],
+    [
+      332,
+      "order trace",
+      87
+    ],
+    [
+      333,
+      "order result",
+      87
+    ],
+    [
+      334,
+      "order scope",
+      87
+    ],
+    [
+      335,
+      "order boundary",
+      87
+    ],
+    [
+      336,
+      "order status",
+      87
+    ],
+    [
+      337,
+      "order candidate",
+      87
+    ],
+    [
+      338,
+      "order witness",
+      87
+    ],
+    [
+      339,
+      "order probe",
+      87
+    ],
+    [
+      340,
+      "order constraint",
+      87
+    ],
+    [
+      341,
+      "leverage point",
+      87
+    ],
+    [
+      342,
+      "feedback loop",
+      87
+    ],
+    [
+      343,
+      "information flow",
+      87
+    ],
+    [
+      344,
+      "system structure",
+      87
+    ],
+    [
+      345,
+      "self organization",
+      87
+    ],
+    [
+      346,
+      "mental model",
+      87
+    ],
+    [
+      347,
+      "reinforcing loop",
+      87
+    ],
+    [
+      348,
+      "balancing loop",
+      87
+    ],
+    [
+      349,
+      "stocks and flows",
+      87
+    ],
+    [
+      350,
+      "loop",
+      87
+    ],
+    [
+      351,
+      "feedback",
+      86
+    ],
+    [
+      352,
+      "reinforcing",
+      86
+    ],
+    [
+      353,
+      "balancing",
+      86
+    ],
+    [
+      354,
+      "coupling",
+      86
+    ],
+    [
+      355,
+      "propagation",
+      86
+    ],
+    [
+      356,
+      "incentive",
+      86
+    ],
+    [
+      357,
+      "selection",
+      86
+    ],
+    [
+      358,
+      "second-order",
+      86
+    ],
+    [
+      359,
+      "emergent",
+      86
+    ],
+    [
+      360,
+      "structure",
+      86
+    ],
+    [
+      361,
+      "dependency",
+      86
+    ],
+    [
+      362,
+      "interaction",
+      86
+    ],
+    [
+      363,
+      "constraint",
+      86
+    ],
+    [
+      364,
+      "behavior",
+      86
+    ],
+    [
+      365,
+      "environment",
+      86
+    ],
+    [
+      366,
+      "boundary",
+      86
+    ],
+    [
+      367,
+      "node",
+      86
+    ],
+    [
+      368,
+      "edge",
+      86
+    ],
+    [
+      369,
+      "network",
+      86
+    ],
+    [
+      370,
+      "state",
+      86
+    ],
+    [
+      371,
+      "transition",
+      86
+    ],
+    [
+      372,
+      "drift",
+      86
+    ],
+    [
+      373,
+      "under system",
+      86
+    ],
+    [
+      374,
+      "under subsystem",
+      86
+    ],
+    [
+      375,
+      "under environment",
+      86
+    ],
+    [
+      376,
+      "under boundary",
+      85
+    ],
+    [
+      377,
+      "under side",
+      85
+    ],
+    [
+      378,
+      "under effect",
+      85
+    ],
+    [
+      379,
+      "under selection",
+      85
+    ],
+    [
+      380,
+      "under reward",
+      85
+    ],
+    [
+      381,
+      "under network",
+      85
+    ],
+    [
+      382,
+      "under node",
+      85
+    ],
+    [
+      383,
+      "within system",
+      85
+    ],
+    [
+      384,
+      "within subsystem",
+      85
+    ],
+    [
+      385,
+      "within environment",
+      85
+    ],
+    [
+      386,
+      "within boundary",
+      85
+    ],
+    [
+      387,
+      "within side",
+      85
+    ],
+    [
+      388,
+      "within effect",
+      85
+    ],
+    [
+      389,
+      "within selection",
+      85
+    ],
+    [
+      390,
+      "within reward",
+      85
+    ],
+    [
+      391,
+      "within network",
+      85
+    ],
+    [
+      392,
+      "within node",
+      85
+    ],
+    [
+      393,
+      "across system",
+      85
+    ],
+    [
+      394,
+      "across subsystem",
+      85
+    ],
+    [
+      395,
+      "across environment",
+      85
+    ],
+    [
+      396,
+      "across boundary",
+      85
+    ],
+    [
+      397,
+      "across side",
+      85
+    ],
+    [
+      398,
+      "across effect",
+      85
+    ],
+    [
+      399,
+      "across selection",
+      85
+    ],
+    [
+      400,
+      "across reward",
+      85
+    ],
+    [
+      401,
+      "across network",
+      84
+    ],
+    [
+      402,
+      "across node",
+      84
+    ],
+    [
+      403,
+      "between system",
+      84
+    ],
+    [
+      404,
+      "between subsystem",
+      84
+    ],
+    [
+      405,
+      "between environment",
+      84
+    ],
+    [
+      406,
+      "between boundary",
+      84
+    ],
+    [
+      407,
+      "between side",
+      84
+    ],
+    [
+      408,
+      "between effect",
+      84
+    ],
+    [
+      409,
+      "between selection",
+      84
+    ],
+    [
+      410,
+      "between reward",
+      84
+    ],
+    [
+      411,
+      "between network",
+      84
+    ],
+    [
+      412,
+      "between node",
+      84
+    ],
+    [
+      413,
+      "through system",
+      84
+    ],
+    [
+      414,
+      "through subsystem",
+      84
+    ],
+    [
+      415,
+      "through environment",
+      84
+    ],
+    [
+      416,
+      "through boundary",
+      84
+    ],
+    [
+      417,
+      "through side",
+      84
+    ],
+    [
+      418,
+      "through effect",
+      84
+    ],
+    [
+      419,
+      "through selection",
+      84
+    ],
+    [
+      420,
+      "through reward",
+      84
+    ],
+    [
+      421,
+      "through network",
+      84
+    ],
+    [
+      422,
+      "through node",
+      84
+    ],
+    [
+      423,
+      "before system",
+      84
+    ],
+    [
+      424,
+      "before subsystem",
+      84
+    ],
+    [
+      425,
+      "before environment",
+      84
+    ],
+    [
+      426,
+      "before boundary",
+      83
+    ],
+    [
+      427,
+      "before side",
+      83
+    ],
+    [
+      428,
+      "before effect",
+      83
+    ],
+    [
+      429,
+      "before selection",
+      83
+    ],
+    [
+      430,
+      "before reward",
+      83
+    ],
+    [
+      431,
+      "before network",
+      83
+    ],
+    [
+      432,
+      "before node",
+      83
+    ],
+    [
+      433,
+      "after system",
+      83
+    ],
+    [
+      434,
+      "after subsystem",
+      83
+    ],
+    [
+      435,
+      "after environment",
+      83
+    ],
+    [
+      436,
+      "after boundary",
+      83
+    ],
+    [
+      437,
+      "after side",
+      83
+    ],
+    [
+      438,
+      "after effect",
+      83
+    ],
+    [
+      439,
+      "after selection",
+      83
+    ],
+    [
+      440,
+      "after reward",
+      83
+    ],
+    [
+      441,
+      "after network",
+      83
+    ],
+    [
+      442,
+      "after node",
+      83
+    ],
+    [
+      443,
+      "during system",
+      83
+    ],
+    [
+      444,
+      "during subsystem",
+      83
+    ],
+    [
+      445,
+      "during environment",
+      83
+    ],
+    [
+      446,
+      "during boundary",
+      83
+    ],
+    [
+      447,
+      "during feedback",
+      83
+    ],
+    [
+      448,
+      "during loop",
+      83
+    ],
+    [
+      449,
+      "during coupling",
+      83
+    ],
+    [
+      450,
+      "during incentive",
+      83
+    ],
+    [
+      451,
+      "during emergence",
+      82
+    ],
+    [
+      452,
+      "during second",
+      82
+    ],
+    [
+      453,
+      "during order",
+      82
+    ],
+    [
+      454,
+      "during side",
+      82
+    ],
+    [
+      455,
+      "during effect",
+      82
+    ],
+    [
+      456,
+      "during selection",
+      82
+    ],
+    [
+      457,
+      "during reward",
+      82
+    ],
+    [
+      458,
+      "during structure",
+      82
+    ],
+    [
+      459,
+      "during interaction",
+      82
+    ],
+    [
+      460,
+      "during propagation",
+      82
+    ],
+    [
+      461,
+      "during network",
+      82
+    ],
+    [
+      462,
+      "during node",
+      82
+    ],
+    [
+      463,
+      "until system",
+      82
+    ],
+    [
+      464,
+      "until subsystem",
+      82
+    ],
+    [
+      465,
+      "until environment",
+      82
+    ],
+    [
+      466,
+      "until boundary",
+      82
+    ],
+    [
+      467,
+      "until side",
+      82
+    ],
+    [
+      468,
+      "until effect",
+      82
+    ],
+    [
+      469,
+      "until selection",
+      82
+    ],
+    [
+      470,
+      "until reward",
+      82
+    ],
+    [
+      471,
+      "until network",
+      82
+    ],
+    [
+      472,
+      "until node",
+      82
+    ],
+    [
+      473,
+      "since system",
+      82
+    ],
+    [
+      474,
+      "since subsystem",
+      82
+    ],
+    [
+      475,
+      "since environment",
+      82
+    ],
+    [
+      476,
+      "since boundary",
+      81
+    ],
+    [
+      477,
+      "since feedback",
+      81
+    ],
+    [
+      478,
+      "since loop",
+      81
+    ],
+    [
+      479,
+      "since coupling",
+      81
+    ],
+    [
+      480,
+      "since incentive",
+      81
+    ],
+    [
+      481,
+      "since emergence",
+      81
+    ],
+    [
+      482,
+      "since second",
+      81
+    ],
+    [
+      483,
+      "since order",
+      81
+    ],
+    [
+      484,
+      "since side",
+      81
+    ],
+    [
+      485,
+      "since effect",
+      81
+    ],
+    [
+      486,
+      "since selection",
+      81
+    ],
+    [
+      487,
+      "since reward",
+      81
+    ],
+    [
+      488,
+      "since structure",
+      81
+    ],
+    [
+      489,
+      "since interaction",
+      81
+    ],
+    [
+      490,
+      "since propagation",
+      81
+    ],
+    [
+      491,
+      "since network",
+      81
+    ],
+    [
+      492,
+      "since node",
+      81
+    ],
+    [
+      493,
+      "from system",
+      81
+    ],
+    [
+      494,
+      "from subsystem",
+      81
+    ],
+    [
+      495,
+      "from environment",
+      81
+    ],
+    [
+      496,
+      "from boundary",
+      81
+    ],
+    [
+      497,
+      "from feedback",
+      81
+    ],
+    [
+      498,
+      "from loop",
+      81
+    ],
+    [
+      499,
+      "from coupling",
+      81
+    ],
+    [
+      500,
+      "from incentive",
+      81
+    ],
+    [
+      501,
+      "from emergence",
+      80
+    ],
+    [
+      502,
+      "from second",
+      80
+    ],
+    [
+      503,
+      "from order",
+      80
+    ],
+    [
+      504,
+      "from side",
+      80
+    ],
+    [
+      505,
+      "from effect",
+      80
+    ],
+    [
+      506,
+      "from selection",
+      80
+    ],
+    [
+      507,
+      "from reward",
+      80
+    ],
+    [
+      508,
+      "from structure",
+      80
+    ],
+    [
+      509,
+      "from interaction",
+      80
+    ],
+    [
+      510,
+      "from propagation",
+      80
+    ],
+    [
+      511,
+      "from network",
+      80
+    ],
+    [
+      512,
+      "from node",
+      80
+    ],
+    [
+      513,
+      "by system",
+      80
+    ],
+    [
+      514,
+      "by subsystem",
+      80
+    ],
+    [
+      515,
+      "by environment",
+      80
+    ],
+    [
+      516,
+      "by boundary",
+      80
+    ],
+    [
+      517,
+      "by feedback",
+      80
+    ],
+    [
+      518,
+      "by loop",
+      80
+    ],
+    [
+      519,
+      "by coupling",
+      80
+    ],
+    [
+      520,
+      "by incentive",
+      80
+    ],
+    [
+      521,
+      "by emergence",
+      80
+    ],
+    [
+      522,
+      "by second",
+      80
+    ],
+    [
+      523,
+      "by order",
+      80
+    ],
+    [
+      524,
+      "by side",
+      80
+    ],
+    [
+      525,
+      "by effect",
+      80
+    ],
+    [
+      526,
+      "by selection",
+      79
+    ],
+    [
+      527,
+      "by reward",
+      79
+    ],
+    [
+      528,
+      "by structure",
+      79
+    ],
+    [
+      529,
+      "by interaction",
+      79
+    ],
+    [
+      530,
+      "by propagation",
+      79
+    ],
+    [
+      531,
+      "by network",
+      79
+    ],
+    [
+      532,
+      "by node",
+      79
+    ],
+    [
+      533,
+      "with system",
+      79
+    ],
+    [
+      534,
+      "with subsystem",
+      79
+    ],
+    [
+      535,
+      "with environment",
+      79
+    ],
+    [
+      536,
+      "with boundary",
+      79
+    ],
+    [
+      537,
+      "with feedback",
+      79
+    ],
+    [
+      538,
+      "with loop",
+      79
+    ],
+    [
+      539,
+      "with coupling",
+      79
+    ],
+    [
+      540,
+      "with incentive",
+      79
+    ],
+    [
+      541,
+      "with emergence",
+      79
+    ],
+    [
+      542,
+      "with second",
+      79
+    ],
+    [
+      543,
+      "with order",
+      79
+    ],
+    [
+      544,
+      "with side",
+      79
+    ],
+    [
+      545,
+      "with effect",
+      79
+    ],
+    [
+      546,
+      "with selection",
+      79
+    ],
+    [
+      547,
+      "with reward",
+      79
+    ],
+    [
+      548,
+      "with structure",
+      79
+    ],
+    [
+      549,
+      "with interaction",
+      79
+    ],
+    [
+      550,
+      "with propagation",
+      79
+    ],
+    [
+      551,
+      "with network",
+      78
+    ],
+    [
+      552,
+      "with node",
+      78
+    ],
+    [
+      553,
+      "without system",
+      78
+    ],
+    [
+      554,
+      "without subsystem",
+      78
+    ],
+    [
+      555,
+      "without environment",
+      78
+    ],
+    [
+      556,
+      "without boundary",
+      78
+    ],
+    [
+      557,
+      "without feedback",
+      78
+    ],
+    [
+      558,
+      "without loop",
+      78
+    ],
+    [
+      559,
+      "without coupling",
+      78
+    ],
+    [
+      560,
+      "without incentive",
+      78
+    ],
+    [
+      561,
+      "without emergence",
+      78
+    ],
+    [
+      562,
+      "without second",
+      78
+    ],
+    [
+      563,
+      "without order",
+      78
+    ],
+    [
+      564,
+      "without side",
+      78
+    ],
+    [
+      565,
+      "without effect",
+      78
+    ],
+    [
+      566,
+      "without selection",
+      78
+    ],
+    [
+      567,
+      "without reward",
+      78
+    ],
+    [
+      568,
+      "without structure",
+      78
+    ],
+    [
+      569,
+      "without interaction",
+      78
+    ],
+    [
+      570,
+      "without propagation",
+      78
+    ],
+    [
+      571,
+      "without network",
+      78
+    ],
+    [
+      572,
+      "without node",
+      78
+    ],
+    [
+      573,
+      "against system",
+      78
+    ],
+    [
+      574,
+      "against subsystem",
+      78
+    ],
+    [
+      575,
+      "against environment",
+      78
+    ],
+    [
+      576,
+      "against boundary",
+      77
+    ],
+    [
+      577,
+      "against feedback",
+      77
+    ],
+    [
+      578,
+      "against loop",
+      77
+    ],
+    [
+      579,
+      "against coupling",
+      77
+    ],
+    [
+      580,
+      "against incentive",
+      77
+    ],
+    [
+      581,
+      "against emergence",
+      77
+    ],
+    [
+      582,
+      "against second",
+      77
+    ],
+    [
+      583,
+      "against order",
+      77
+    ],
+    [
+      584,
+      "against side",
+      77
+    ],
+    [
+      585,
+      "against effect",
+      77
+    ],
+    [
+      586,
+      "against selection",
+      77
+    ],
+    [
+      587,
+      "against reward",
+      77
+    ],
+    [
+      588,
+      "against structure",
+      77
+    ],
+    [
+      589,
+      "against interaction",
+      77
+    ],
+    [
+      590,
+      "against propagation",
+      77
+    ],
+    [
+      591,
+      "against network",
+      77
+    ],
+    [
+      592,
+      "against node",
+      77
+    ],
+    [
+      593,
+      "toward system",
+      77
+    ],
+    [
+      594,
+      "toward subsystem",
+      77
+    ],
+    [
+      595,
+      "toward environment",
+      77
+    ],
+    [
+      596,
+      "toward boundary",
+      77
+    ],
+    [
+      597,
+      "toward feedback",
+      77
+    ],
+    [
+      598,
+      "toward loop",
+      77
+    ],
+    [
+      599,
+      "toward coupling",
+      77
+    ],
+    [
+      600,
+      "toward incentive",
+      77
+    ],
+    [
+      601,
+      "toward emergence",
+      76
+    ],
+    [
+      602,
+      "toward second",
+      76
+    ],
+    [
+      603,
+      "toward order",
+      76
+    ],
+    [
+      604,
+      "toward side",
+      76
+    ],
+    [
+      605,
+      "toward effect",
+      76
+    ],
+    [
+      606,
+      "toward selection",
+      76
+    ],
+    [
+      607,
+      "toward reward",
+      76
+    ],
+    [
+      608,
+      "toward structure",
+      76
+    ],
+    [
+      609,
+      "toward interaction",
+      76
+    ],
+    [
+      610,
+      "toward propagation",
+      76
+    ],
+    [
+      611,
+      "toward network",
+      76
+    ],
+    [
+      612,
+      "toward node",
+      76
+    ],
+    [
+      613,
+      "near system",
+      76
+    ],
+    [
+      614,
+      "near subsystem",
+      76
+    ],
+    [
+      615,
+      "near environment",
+      76
+    ],
+    [
+      616,
+      "near boundary",
+      76
+    ],
+    [
+      617,
+      "near feedback",
+      76
+    ],
+    [
+      618,
+      "near loop",
+      76
+    ],
+    [
+      619,
+      "near coupling",
+      76
+    ],
+    [
+      620,
+      "near incentive",
+      76
+    ],
+    [
+      621,
+      "near emergence",
+      76
+    ],
+    [
+      622,
+      "near second",
+      76
+    ],
+    [
+      623,
+      "near order",
+      76
+    ],
+    [
+      624,
+      "near side",
+      76
+    ],
+    [
+      625,
+      "near effect",
+      76
+    ],
+    [
+      626,
+      "near selection",
+      75
+    ],
+    [
+      627,
+      "near reward",
+      75
+    ],
+    [
+      628,
+      "near structure",
+      75
+    ],
+    [
+      629,
+      "near interaction",
+      75
+    ],
+    [
+      630,
+      "near propagation",
+      75
+    ],
+    [
+      631,
+      "near network",
+      75
+    ],
+    [
+      632,
+      "near node",
+      75
+    ],
+    [
+      633,
+      "relative system",
+      75
+    ],
+    [
+      634,
+      "relative subsystem",
+      75
+    ],
+    [
+      635,
+      "relative environment",
+      75
+    ],
+    [
+      636,
+      "relative boundary",
+      75
+    ],
+    [
+      637,
+      "relative feedback",
+      75
+    ],
+    [
+      638,
+      "relative loop",
+      75
+    ],
+    [
+      639,
+      "relative coupling",
+      75
+    ],
+    [
+      640,
+      "relative incentive",
+      75
+    ],
+    [
+      641,
+      "relative emergence",
+      75
+    ],
+    [
+      642,
+      "relative second",
+      75
+    ],
+    [
+      643,
+      "relative order",
+      75
+    ],
+    [
+      644,
+      "relative side",
+      75
+    ],
+    [
+      645,
+      "relative effect",
+      75
+    ],
+    [
+      646,
+      "relative selection",
+      75
+    ],
+    [
+      647,
+      "relative reward",
+      75
+    ],
+    [
+      648,
+      "relative structure",
+      75
+    ],
+    [
+      649,
+      "relative interaction",
+      75
+    ],
+    [
+      650,
+      "relative propagation",
+      75
+    ],
+    [
+      651,
+      "relative network",
+      74
+    ],
+    [
+      652,
+      "relative node",
+      74
+    ],
+    [
+      653,
+      "system subsystem",
+      74
+    ],
+    [
+      654,
+      "system environment",
+      74
+    ],
+    [
+      655,
+      "system boundary",
+      74
+    ],
+    [
+      656,
+      "system feedback",
+      74
+    ],
+    [
+      657,
+      "system loop",
+      74
+    ],
+    [
+      658,
+      "system coupling",
+      74
+    ],
+    [
+      659,
+      "system incentive",
+      74
+    ],
+    [
+      660,
+      "system emergence",
+      74
+    ],
+    [
+      661,
+      "system second",
+      74
+    ],
+    [
+      662,
+      "system order",
+      74
+    ],
+    [
+      663,
+      "system side",
+      74
+    ],
+    [
+      664,
+      "subsystem environment",
+      74
+    ],
+    [
+      665,
+      "subsystem boundary",
+      74
+    ],
+    [
+      666,
+      "subsystem feedback",
+      74
+    ],
+    [
+      667,
+      "subsystem loop",
+      74
+    ],
+    [
+      668,
+      "subsystem coupling",
+      74
+    ],
+    [
+      669,
+      "subsystem incentive",
+      74
+    ],
+    [
+      670,
+      "subsystem emergence",
+      74
+    ],
+    [
+      671,
+      "subsystem second",
+      74
+    ],
+    [
+      672,
+      "subsystem order",
+      74
+    ],
+    [
+      673,
+      "subsystem side",
+      74
+    ],
+    [
+      674,
+      "subsystem effect",
+      74
+    ],
+    [
+      675,
+      "environment boundary",
+      74
+    ],
+    [
+      676,
+      "environment feedback",
+      73
+    ],
+    [
+      677,
+      "environment loop",
+      73
+    ],
+    [
+      678,
+      "environment coupling",
+      73
+    ],
+    [
+      679,
+      "environment incentive",
+      73
+    ],
+    [
+      680,
+      "environment emergence",
+      73
+    ],
+    [
+      681,
+      "environment second",
+      73
+    ],
+    [
+      682,
+      "environment order",
+      73
+    ],
+    [
+      683,
+      "environment side",
+      73
+    ],
+    [
+      684,
+      "environment effect",
+      73
+    ],
+    [
+      685,
+      "environment selection",
+      73
+    ],
+    [
+      686,
+      "boundary feedback",
+      73
+    ],
+    [
+      687,
+      "boundary loop",
+      73
+    ],
+    [
+      688,
+      "boundary coupling",
+      73
+    ],
+    [
+      689,
+      "boundary incentive",
+      73
+    ],
+    [
+      690,
+      "boundary emergence",
+      73
+    ],
+    [
+      691,
+      "boundary second",
+      73
+    ],
+    [
+      692,
+      "boundary order",
+      73
+    ],
+    [
+      693,
+      "boundary side",
+      73
+    ],
+    [
+      694,
+      "boundary effect",
+      73
+    ],
+    [
+      695,
+      "boundary selection",
+      73
+    ],
+    [
+      696,
+      "boundary reward",
+      73
+    ],
+    [
+      697,
+      "feedback coupling",
+      73
+    ],
+    [
+      698,
+      "feedback incentive",
+      73
+    ],
+    [
+      699,
+      "feedback emergence",
+      73
+    ],
+    [
+      700,
+      "feedback second",
+      73
+    ],
+    [
+      701,
+      "feedback order",
+      72
+    ],
+    [
+      702,
+      "feedback side",
+      72
+    ],
+    [
+      703,
+      "feedback effect",
+      72
+    ],
+    [
+      704,
+      "feedback selection",
+      72
+    ],
+    [
+      705,
+      "feedback reward",
+      72
+    ],
+    [
+      706,
+      "feedback structure",
+      72
+    ],
+    [
+      707,
+      "loop coupling",
+      72
+    ],
+    [
+      708,
+      "loop incentive",
+      72
+    ],
+    [
+      709,
+      "loop emergence",
+      72
+    ],
+    [
+      710,
+      "loop second",
+      72
+    ],
+    [
+      711,
+      "loop order",
+      72
+    ],
+    [
+      712,
+      "loop side",
+      72
+    ],
+    [
+      713,
+      "loop effect",
+      72
+    ],
+    [
+      714,
+      "loop selection",
+      72
+    ],
+    [
+      715,
+      "loop reward",
+      72
+    ],
+    [
+      716,
+      "loop structure",
+      72
+    ],
+    [
+      717,
+      "loop interaction",
+      72
+    ],
+    [
+      718,
+      "coupling incentive",
+      72
+    ],
+    [
+      719,
+      "coupling emergence",
+      72
+    ],
+    [
+      720,
+      "coupling second",
+      72
+    ],
+    [
+      721,
+      "coupling order",
+      72
+    ],
+    [
+      722,
+      "coupling side",
+      72
+    ],
+    [
+      723,
+      "coupling effect",
+      72
+    ],
+    [
+      724,
+      "coupling selection",
+      72
+    ],
+    [
+      725,
+      "coupling reward",
+      72
+    ],
+    [
+      726,
+      "coupling structure",
+      71
+    ],
+    [
+      727,
+      "coupling interaction",
+      71
+    ],
+    [
+      728,
+      "coupling propagation",
+      71
+    ],
+    [
+      729,
+      "incentive emergence",
+      71
+    ],
+    [
+      730,
+      "incentive second",
+      71
+    ],
+    [
+      731,
+      "incentive order",
+      71
+    ],
+    [
+      732,
+      "incentive side",
+      71
+    ],
+    [
+      733,
+      "incentive effect",
+      71
+    ],
+    [
+      734,
+      "incentive selection",
+      71
+    ],
+    [
+      735,
+      "incentive reward",
+      71
+    ],
+    [
+      736,
+      "incentive structure",
+      71
+    ],
+    [
+      737,
+      "incentive interaction",
+      71
+    ],
+    [
+      738,
+      "incentive propagation",
+      71
+    ],
+    [
+      739,
+      "incentive network",
+      71
+    ],
+    [
+      740,
+      "emergence second",
+      71
+    ],
+    [
+      741,
+      "emergence order",
+      71
+    ],
+    [
+      742,
+      "emergence side",
+      71
+    ],
+    [
+      743,
+      "emergence effect",
+      71
+    ],
+    [
+      744,
+      "emergence selection",
+      71
+    ],
+    [
+      745,
+      "emergence reward",
+      71
+    ],
+    [
+      746,
+      "emergence structure",
+      71
+    ],
+    [
+      747,
+      "emergence interaction",
+      71
+    ],
+    [
+      748,
+      "emergence propagation",
+      71
+    ],
+    [
+      749,
+      "emergence network",
+      71
+    ],
+    [
+      750,
+      "emergence node",
+      71
+    ],
+    [
+      751,
+      "second order",
+      70
+    ],
+    [
+      752,
+      "second side",
+      70
+    ],
+    [
+      753,
+      "second effect",
+      70
+    ],
+    [
+      754,
+      "second selection",
+      70
+    ],
+    [
+      755,
+      "second reward",
+      70
+    ],
+    [
+      756,
+      "second structure",
+      70
+    ],
+    [
+      757,
+      "second interaction",
+      70
+    ],
+    [
+      758,
+      "second propagation",
+      70
+    ],
+    [
+      759,
+      "second network",
+      70
+    ],
+    [
+      760,
+      "second node",
+      70
+    ],
+    [
+      761,
+      "second edge",
+      70
+    ],
+    [
+      762,
+      "order side",
+      70
+    ],
+    [
+      763,
+      "order effect",
+      70
+    ],
+    [
+      764,
+      "order selection",
+      70
+    ],
+    [
+      765,
+      "order reward",
+      70
+    ],
+    [
+      766,
+      "order structure",
+      70
+    ],
+    [
+      767,
+      "order interaction",
+      70
+    ],
+    [
+      768,
+      "order propagation",
+      70
+    ],
+    [
+      769,
+      "order network",
+      70
+    ],
+    [
+      770,
+      "order node",
+      70
+    ],
+    [
+      771,
+      "order edge",
+      70
+    ],
+    [
+      772,
+      "order stock",
+      70
+    ],
+    [
+      773,
+      "side effect",
+      70
+    ],
+    [
+      774,
+      "side selection",
+      70
+    ],
+    [
+      775,
+      "side reward",
+      70
+    ],
+    [
+      776,
+      "side structure",
+      69
+    ],
+    [
+      777,
+      "side interaction",
+      69
+    ],
+    [
+      778,
+      "side propagation",
+      69
+    ],
+    [
+      779,
+      "side network",
+      69
+    ],
+    [
+      780,
+      "side node",
+      69
+    ],
+    [
+      781,
+      "side edge",
+      69
+    ],
+    [
+      782,
+      "side stock",
+      69
+    ],
+    [
+      783,
+      "side flow",
+      69
+    ],
+    [
+      784,
+      "effect selection",
+      69
+    ],
+    [
+      785,
+      "effect reward",
+      69
+    ],
+    [
+      786,
+      "effect structure",
+      69
+    ],
+    [
+      787,
+      "effect interaction",
+      69
+    ],
+    [
+      788,
+      "effect propagation",
+      69
+    ],
+    [
+      789,
+      "effect network",
+      69
+    ],
+    [
+      790,
+      "effect node",
+      69
+    ],
+    [
+      791,
+      "effect edge",
+      69
+    ],
+    [
+      792,
+      "effect stock",
+      69
+    ],
+    [
+      793,
+      "effect flow",
+      69
+    ],
+    [
+      794,
+      "effect delay",
+      69
+    ],
+    [
+      795,
+      "selection reward",
+      69
+    ],
+    [
+      796,
+      "selection structure",
+      69
+    ],
+    [
+      797,
+      "selection interaction",
+      69
+    ],
+    [
+      798,
+      "selection propagation",
+      69
+    ],
+    [
+      799,
+      "selection network",
+      69
+    ],
+    [
+      800,
+      "selection node",
+      69
+    ],
+    [
+      801,
+      "selection edge",
+      68
+    ],
+    [
+      802,
+      "selection stock",
+      68
+    ],
+    [
+      803,
+      "selection flow",
+      68
+    ],
+    [
+      804,
+      "selection delay",
+      68
+    ],
+    [
+      805,
+      "selection amplifying",
+      68
+    ],
+    [
+      806,
+      "reward structure",
+      68
+    ],
+    [
+      807,
+      "reward interaction",
+      68
+    ],
+    [
+      808,
+      "reward propagation",
+      68
+    ],
+    [
+      809,
+      "reward network",
+      68
+    ],
+    [
+      810,
+      "reward node",
+      68
+    ],
+    [
+      811,
+      "reward edge",
+      68
+    ],
+    [
+      812,
+      "reward stock",
+      68
+    ],
+    [
+      813,
+      "reward flow",
+      68
+    ],
+    [
+      814,
+      "reward delay",
+      68
+    ],
+    [
+      815,
+      "reward amplifying",
+      68
+    ],
+    [
+      816,
+      "reward balancing",
+      68
+    ],
+    [
+      817,
+      "structure interaction",
+      68
+    ],
+    [
+      818,
+      "structure propagation",
+      68
+    ],
+    [
+      819,
+      "structure network",
+      68
+    ],
+    [
+      820,
+      "structure node",
+      68
+    ],
+    [
+      821,
+      "structure edge",
+      68
+    ],
+    [
+      822,
+      "structure stock",
+      68
+    ],
+    [
+      823,
+      "structure flow",
+      68
+    ],
+    [
+      824,
+      "structure delay",
+      68
+    ],
+    [
+      825,
+      "structure amplifying",
+      68
+    ],
+    [
+      826,
+      "structure balancing",
+      67
+    ],
+    [
+      827,
+      "structure reinforcing",
+      67
+    ],
+    [
+      828,
+      "interaction propagation",
+      67
+    ],
+    [
+      829,
+      "interaction network",
+      67
+    ],
+    [
+      830,
+      "interaction node",
+      67
+    ],
+    [
+      831,
+      "interaction edge",
+      67
+    ],
+    [
+      832,
+      "interaction stock",
+      67
+    ],
+    [
+      833,
+      "interaction flow",
+      67
+    ],
+    [
+      834,
+      "interaction delay",
+      67
+    ],
+    [
+      835,
+      "interaction amplifying",
+      67
+    ],
+    [
+      836,
+      "interaction balancing",
+      67
+    ],
+    [
+      837,
+      "interaction reinforcing",
+      67
+    ],
+    [
+      838,
+      "interaction dynamics",
+      67
+    ],
+    [
+      839,
+      "propagation network",
+      67
+    ],
+    [
+      840,
+      "propagation node",
+      67
+    ],
+    [
+      841,
+      "propagation edge",
+      67
+    ],
+    [
+      842,
+      "propagation stock",
+      67
+    ],
+    [
+      843,
+      "propagation flow",
+      67
+    ],
+    [
+      844,
+      "propagation delay",
+      67
+    ],
+    [
+      845,
+      "propagation amplifying",
+      67
+    ],
+    [
+      846,
+      "propagation balancing",
+      67
+    ],
+    [
+      847,
+      "propagation reinforcing",
+      67
+    ],
+    [
+      848,
+      "propagation dynamics",
+      67
+    ],
+    [
+      849,
+      "propagation attractor",
+      67
+    ],
+    [
+      850,
+      "network node",
+      67
+    ],
+    [
+      851,
+      "network edge",
+      66
+    ],
+    [
+      852,
+      "network stock",
+      66
+    ],
+    [
+      853,
+      "network flow",
+      66
+    ],
+    [
+      854,
+      "network delay",
+      66
+    ],
+    [
+      855,
+      "network amplifying",
+      66
+    ],
+    [
+      856,
+      "network balancing",
+      66
+    ],
+    [
+      857,
+      "network reinforcing",
+      66
+    ],
+    [
+      858,
+      "network dynamics",
+      66
+    ],
+    [
+      859,
+      "network attractor",
+      66
+    ],
+    [
+      860,
+      "network basin",
+      66
+    ],
+    [
+      861,
+      "node edge",
+      66
+    ],
+    [
+      862,
+      "node stock",
+      66
+    ],
+    [
+      863,
+      "node flow",
+      66
+    ],
+    [
+      864,
+      "node delay",
+      66
+    ],
+    [
+      865,
+      "node amplifying",
+      66
+    ],
+    [
+      866,
+      "node balancing",
+      66
+    ],
+    [
+      867,
+      "node reinforcing",
+      66
+    ],
+    [
+      868,
+      "node dynamics",
+      66
+    ],
+    [
+      869,
+      "node attractor",
+      66
+    ],
+    [
+      870,
+      "node basin",
+      66
+    ],
+    [
+      871,
+      "node homeostasis",
+      66
+    ],
+    [
+      872,
+      "edge stock",
+      66
+    ],
+    [
+      873,
+      "edge flow",
+      66
+    ],
+    [
+      874,
+      "edge delay",
+      66
+    ],
+    [
+      875,
+      "edge amplifying",
+      66
+    ],
+    [
+      876,
+      "edge balancing",
+      65
+    ],
+    [
+      877,
+      "edge reinforcing",
+      65
+    ],
+    [
+      878,
+      "edge dynamics",
+      65
+    ],
+    [
+      879,
+      "edge attractor",
+      65
+    ],
+    [
+      880,
+      "edge basin",
+      65
+    ],
+    [
+      881,
+      "edge homeostasis",
+      65
+    ],
+    [
+      882,
+      "edge perverse",
+      65
+    ],
+    [
+      883,
+      "stock flow",
+      65
+    ],
+    [
+      884,
+      "stock delay",
+      65
+    ],
+    [
+      885,
+      "stock amplifying",
+      65
+    ],
+    [
+      886,
+      "stock balancing",
+      65
+    ],
+    [
+      887,
+      "stock reinforcing",
+      65
+    ],
+    [
+      888,
+      "stock dynamics",
+      65
+    ],
+    [
+      889,
+      "stock attractor",
+      65
+    ],
+    [
+      890,
+      "stock basin",
+      65
+    ],
+    [
+      891,
+      "stock homeostasis",
+      65
+    ],
+    [
+      892,
+      "stock perverse",
+      65
+    ],
+    [
+      893,
+      "stock leverage point",
+      65
+    ],
+    [
+      894,
+      "flow delay",
+      65
+    ],
+    [
+      895,
+      "flow amplifying",
+      65
+    ],
+    [
+      896,
+      "flow balancing",
+      65
+    ],
+    [
+      897,
+      "flow reinforcing",
+      65
+    ],
+    [
+      898,
+      "flow dynamics",
+      65
+    ],
+    [
+      899,
+      "flow attractor",
+      65
+    ],
+    [
+      900,
+      "flow basin",
+      65
+    ],
+    [
+      901,
+      "mini-MMM shapes voice",
+      100
+    ],
+    [
+      902,
+      "mini MMM voice shape",
+      100
+    ],
+    [
+      903,
+      "voice shaped by nouns",
+      100
+    ],
+    [
+      904,
+      "aligned nouns shape voice",
+      100
+    ],
+    [
+      905,
+      "correlated thinkers shape voice",
+      100
+    ],
+    [
+      906,
+      "thinker alignment voice",
+      100
+    ],
+    [
+      907,
+      "noun alignment voice",
+      100
+    ],
+    [
+      908,
+      "voice signature nouns",
+      100
+    ],
+    [
+      909,
+      "local voice contour",
+      100
+    ],
+    [
+      910,
+      "buffer and delay",
+      97
+    ],
+    [
+      911,
+      "monitor controller",
+      97
+    ],
+    [
+      912,
+      "control and communication",
+      97
+    ]
+  ],
+  "triplets": [
+    [
+      1,
+      "under current loop",
+      100
+    ],
+    [
+      2,
+      "under local loop",
+      100
+    ],
+    [
+      3,
+      "under bounded loop",
+      100
+    ],
+    [
+      4,
+      "under finite loop",
+      100
+    ],
+    [
+      5,
+      "under open loop",
+      100
+    ],
+    [
+      6,
+      "under live loop",
+      100
+    ],
+    [
+      7,
+      "within current loop",
+      100
+    ],
+    [
+      8,
+      "within local loop",
+      100
+    ],
+    [
+      9,
+      "within bounded loop",
+      100
+    ],
+    [
+      10,
+      "within finite loop",
+      100
+    ],
+    [
+      11,
+      "within open loop",
+      100
+    ],
+    [
+      12,
+      "within live loop",
+      100
+    ],
+    [
+      13,
+      "across current loop",
+      100
+    ],
+    [
+      14,
+      "across local loop",
+      100
+    ],
+    [
+      15,
+      "across bounded loop",
+      100
+    ],
+    [
+      16,
+      "across finite loop",
+      100
+    ],
+    [
+      17,
+      "across open loop",
+      100
+    ],
+    [
+      18,
+      "across live loop",
+      100
+    ],
+    [
+      19,
+      "between current loop",
+      100
+    ],
+    [
+      20,
+      "between local loop",
+      100
+    ],
+    [
+      21,
+      "between bounded loop",
+      100
+    ],
+    [
+      22,
+      "between finite loop",
+      100
+    ],
+    [
+      23,
+      "between open loop",
+      100
+    ],
+    [
+      24,
+      "between live loop",
+      100
+    ],
+    [
+      25,
+      "through current loop",
+      100
+    ],
+    [
+      26,
+      "through local loop",
+      99
+    ],
+    [
+      27,
+      "through bounded loop",
+      99
+    ],
+    [
+      28,
+      "through finite loop",
+      99
+    ],
+    [
+      29,
+      "through open loop",
+      99
+    ],
+    [
+      30,
+      "through live loop",
+      99
+    ],
+    [
+      31,
+      "before current loop",
+      99
+    ],
+    [
+      32,
+      "before local loop",
+      99
+    ],
+    [
+      33,
+      "before bounded loop",
+      99
+    ],
+    [
+      34,
+      "before finite loop",
+      99
+    ],
+    [
+      35,
+      "before open loop",
+      99
+    ],
+    [
+      36,
+      "before live loop",
+      99
+    ],
+    [
+      37,
+      "loop evidence path",
+      99
+    ],
+    [
+      38,
+      "loop support path",
+      99
+    ],
+    [
+      39,
+      "loop path path",
+      99
+    ],
+    [
+      40,
+      "loop surface path",
+      99
+    ],
+    [
+      41,
+      "loop packet path",
+      99
+    ],
+    [
+      42,
+      "loop receipt path",
+      99
+    ],
+    [
+      43,
+      "loop trace path",
+      99
+    ],
+    [
+      44,
+      "loop result path",
+      99
+    ],
+    [
+      45,
+      "loop scope path",
+      99
+    ],
+    [
+      46,
+      "loop boundary path",
+      99
+    ],
+    [
+      47,
+      "check loop receipt",
+      99
+    ],
+    [
+      48,
+      "compare loop receipt",
+      99
+    ],
+    [
+      49,
+      "observe loop receipt",
+      99
+    ],
+    [
+      50,
+      "measure loop receipt",
+      99
+    ],
+    [
+      51,
+      "test loop receipt",
+      98
+    ],
+    [
+      52,
+      "verify loop receipt",
+      98
+    ],
+    [
+      53,
+      "hold loop receipt",
+      98
+    ],
+    [
+      54,
+      "preserve loop receipt",
+      98
+    ],
+    [
+      55,
+      "under current feedback",
+      98
+    ],
+    [
+      56,
+      "under local feedback",
+      98
+    ],
+    [
+      57,
+      "under bounded feedback",
+      98
+    ],
+    [
+      58,
+      "under finite feedback",
+      98
+    ],
+    [
+      59,
+      "under open feedback",
+      98
+    ],
+    [
+      60,
+      "under live feedback",
+      98
+    ],
+    [
+      61,
+      "within current feedback",
+      98
+    ],
+    [
+      62,
+      "within local feedback",
+      98
+    ],
+    [
+      63,
+      "within bounded feedback",
+      98
+    ],
+    [
+      64,
+      "within finite feedback",
+      98
+    ],
+    [
+      65,
+      "within open feedback",
+      98
+    ],
+    [
+      66,
+      "within live feedback",
+      98
+    ],
+    [
+      67,
+      "across current feedback",
+      98
+    ],
+    [
+      68,
+      "across local feedback",
+      98
+    ],
+    [
+      69,
+      "across bounded feedback",
+      98
+    ],
+    [
+      70,
+      "across finite feedback",
+      98
+    ],
+    [
+      71,
+      "across open feedback",
+      98
+    ],
+    [
+      72,
+      "across live feedback",
+      98
+    ],
+    [
+      73,
+      "between current feedback",
+      98
+    ],
+    [
+      74,
+      "between local feedback",
+      98
+    ],
+    [
+      75,
+      "between bounded feedback",
+      98
+    ],
+    [
+      76,
+      "between finite feedback",
+      97
+    ],
+    [
+      77,
+      "between open feedback",
+      97
+    ],
+    [
+      78,
+      "between live feedback",
+      97
+    ],
+    [
+      79,
+      "through current feedback",
+      97
+    ],
+    [
+      80,
+      "through local feedback",
+      97
+    ],
+    [
+      81,
+      "through bounded feedback",
+      97
+    ],
+    [
+      82,
+      "through finite feedback",
+      97
+    ],
+    [
+      83,
+      "through open feedback",
+      97
+    ],
+    [
+      84,
+      "through live feedback",
+      97
+    ],
+    [
+      85,
+      "before current feedback",
+      97
+    ],
+    [
+      86,
+      "before local feedback",
+      97
+    ],
+    [
+      87,
+      "before bounded feedback",
+      97
+    ],
+    [
+      88,
+      "before finite feedback",
+      97
+    ],
+    [
+      89,
+      "before open feedback",
+      97
+    ],
+    [
+      90,
+      "before live feedback",
+      97
+    ],
+    [
+      91,
+      "feedback evidence path",
+      97
+    ],
+    [
+      92,
+      "feedback support path",
+      97
+    ],
+    [
+      93,
+      "feedback path path",
+      97
+    ],
+    [
+      94,
+      "feedback surface path",
+      97
+    ],
+    [
+      95,
+      "feedback packet path",
+      97
+    ],
+    [
+      96,
+      "feedback receipt path",
+      97
+    ],
+    [
+      97,
+      "feedback trace path",
+      97
+    ],
+    [
+      98,
+      "feedback result path",
+      97
+    ],
+    [
+      99,
+      "feedback scope path",
+      97
+    ],
+    [
+      100,
+      "feedback boundary path",
+      97
+    ],
+    [
+      101,
+      "check feedback receipt",
+      96
+    ],
+    [
+      102,
+      "compare feedback receipt",
+      96
+    ],
+    [
+      103,
+      "observe feedback receipt",
+      96
+    ],
+    [
+      104,
+      "measure feedback receipt",
+      96
+    ],
+    [
+      105,
+      "test feedback receipt",
+      96
+    ],
+    [
+      106,
+      "verify feedback receipt",
+      96
+    ],
+    [
+      107,
+      "hold feedback receipt",
+      96
+    ],
+    [
+      108,
+      "preserve feedback receipt",
+      96
+    ],
+    [
+      109,
+      "under current incentive",
+      96
+    ],
+    [
+      110,
+      "under local incentive",
+      96
+    ],
+    [
+      111,
+      "under bounded incentive",
+      96
+    ],
+    [
+      112,
+      "under finite incentive",
+      96
+    ],
+    [
+      113,
+      "under open incentive",
+      96
+    ],
+    [
+      114,
+      "under live incentive",
+      96
+    ],
+    [
+      115,
+      "within current incentive",
+      96
+    ],
+    [
+      116,
+      "within local incentive",
+      96
+    ],
+    [
+      117,
+      "within bounded incentive",
+      96
+    ],
+    [
+      118,
+      "within finite incentive",
+      96
+    ],
+    [
+      119,
+      "within open incentive",
+      96
+    ],
+    [
+      120,
+      "within live incentive",
+      96
+    ],
+    [
+      121,
+      "across current incentive",
+      96
+    ],
+    [
+      122,
+      "across local incentive",
+      96
+    ],
+    [
+      123,
+      "across bounded incentive",
+      96
+    ],
+    [
+      124,
+      "across finite incentive",
+      96
+    ],
+    [
+      125,
+      "across open incentive",
+      96
+    ],
+    [
+      126,
+      "across live incentive",
+      95
+    ],
+    [
+      127,
+      "between current incentive",
+      95
+    ],
+    [
+      128,
+      "between local incentive",
+      95
+    ],
+    [
+      129,
+      "between bounded incentive",
+      95
+    ],
+    [
+      130,
+      "between finite incentive",
+      95
+    ],
+    [
+      131,
+      "between open incentive",
+      95
+    ],
+    [
+      132,
+      "between live incentive",
+      95
+    ],
+    [
+      133,
+      "through current incentive",
+      95
+    ],
+    [
+      134,
+      "through local incentive",
+      95
+    ],
+    [
+      135,
+      "through bounded incentive",
+      95
+    ],
+    [
+      136,
+      "through finite incentive",
+      95
+    ],
+    [
+      137,
+      "through open incentive",
+      95
+    ],
+    [
+      138,
+      "through live incentive",
+      95
+    ],
+    [
+      139,
+      "before current incentive",
+      95
+    ],
+    [
+      140,
+      "before local incentive",
+      95
+    ],
+    [
+      141,
+      "before bounded incentive",
+      95
+    ],
+    [
+      142,
+      "before finite incentive",
+      95
+    ],
+    [
+      143,
+      "before open incentive",
+      95
+    ],
+    [
+      144,
+      "before live incentive",
+      95
+    ],
+    [
+      145,
+      "incentive evidence path",
+      95
+    ],
+    [
+      146,
+      "incentive support path",
+      95
+    ],
+    [
+      147,
+      "incentive path path",
+      95
+    ],
+    [
+      148,
+      "incentive surface path",
+      95
+    ],
+    [
+      149,
+      "incentive packet path",
+      95
+    ],
+    [
+      150,
+      "incentive receipt path",
+      95
+    ],
+    [
+      151,
+      "incentive trace path",
+      94
+    ],
+    [
+      152,
+      "incentive result path",
+      94
+    ],
+    [
+      153,
+      "incentive scope path",
+      94
+    ],
+    [
+      154,
+      "incentive boundary path",
+      94
+    ],
+    [
+      155,
+      "check incentive receipt",
+      94
+    ],
+    [
+      156,
+      "compare incentive receipt",
+      94
+    ],
+    [
+      157,
+      "observe incentive receipt",
+      94
+    ],
+    [
+      158,
+      "measure incentive receipt",
+      94
+    ],
+    [
+      159,
+      "test incentive receipt",
+      94
+    ],
+    [
+      160,
+      "verify incentive receipt",
+      94
+    ],
+    [
+      161,
+      "hold incentive receipt",
+      94
+    ],
+    [
+      162,
+      "preserve incentive receipt",
+      94
+    ],
+    [
+      163,
+      "under current structure",
+      94
+    ],
+    [
+      164,
+      "under local structure",
+      94
+    ],
+    [
+      165,
+      "under bounded structure",
+      94
+    ],
+    [
+      166,
+      "under finite structure",
+      94
+    ],
+    [
+      167,
+      "under open structure",
+      94
+    ],
+    [
+      168,
+      "under live structure",
+      94
+    ],
+    [
+      169,
+      "within current structure",
+      94
+    ],
+    [
+      170,
+      "within local structure",
+      94
+    ],
+    [
+      171,
+      "within bounded structure",
+      94
+    ],
+    [
+      172,
+      "within finite structure",
+      94
+    ],
+    [
+      173,
+      "within open structure",
+      94
+    ],
+    [
+      174,
+      "within live structure",
+      94
+    ],
+    [
+      175,
+      "across current structure",
+      94
+    ],
+    [
+      176,
+      "across local structure",
+      93
+    ],
+    [
+      177,
+      "across bounded structure",
+      93
+    ],
+    [
+      178,
+      "across finite structure",
+      93
+    ],
+    [
+      179,
+      "across open structure",
+      93
+    ],
+    [
+      180,
+      "across live structure",
+      93
+    ],
+    [
+      181,
+      "between current structure",
+      93
+    ],
+    [
+      182,
+      "between local structure",
+      93
+    ],
+    [
+      183,
+      "between bounded structure",
+      93
+    ],
+    [
+      184,
+      "between finite structure",
+      93
+    ],
+    [
+      185,
+      "between open structure",
+      93
+    ],
+    [
+      186,
+      "between live structure",
+      93
+    ],
+    [
+      187,
+      "through current structure",
+      93
+    ],
+    [
+      188,
+      "through local structure",
+      93
+    ],
+    [
+      189,
+      "through bounded structure",
+      93
+    ],
+    [
+      190,
+      "through finite structure",
+      93
+    ],
+    [
+      191,
+      "through open structure",
+      93
+    ],
+    [
+      192,
+      "through live structure",
+      93
+    ],
+    [
+      193,
+      "before current structure",
+      93
+    ],
+    [
+      194,
+      "before local structure",
+      93
+    ],
+    [
+      195,
+      "before bounded structure",
+      93
+    ],
+    [
+      196,
+      "before finite structure",
+      93
+    ],
+    [
+      197,
+      "before open structure",
+      93
+    ],
+    [
+      198,
+      "before live structure",
+      93
+    ],
+    [
+      199,
+      "structure evidence path",
+      93
+    ],
+    [
+      200,
+      "structure support path",
+      93
+    ],
+    [
+      201,
+      "structure path path",
+      92
+    ],
+    [
+      202,
+      "structure surface path",
+      92
+    ],
+    [
+      203,
+      "structure packet path",
+      92
+    ],
+    [
+      204,
+      "structure receipt path",
+      92
+    ],
+    [
+      205,
+      "structure trace path",
+      92
+    ],
+    [
+      206,
+      "structure result path",
+      92
+    ],
+    [
+      207,
+      "structure scope path",
+      92
+    ],
+    [
+      208,
+      "structure boundary path",
+      92
+    ],
+    [
+      209,
+      "check structure receipt",
+      92
+    ],
+    [
+      210,
+      "compare structure receipt",
+      92
+    ],
+    [
+      211,
+      "observe structure receipt",
+      92
+    ],
+    [
+      212,
+      "measure structure receipt",
+      92
+    ],
+    [
+      213,
+      "test structure receipt",
+      92
+    ],
+    [
+      214,
+      "verify structure receipt",
+      92
+    ],
+    [
+      215,
+      "hold structure receipt",
+      92
+    ],
+    [
+      216,
+      "preserve structure receipt",
+      92
+    ],
+    [
+      217,
+      "under current coupling",
+      92
+    ],
+    [
+      218,
+      "under local coupling",
+      92
+    ],
+    [
+      219,
+      "under bounded coupling",
+      92
+    ],
+    [
+      220,
+      "under finite coupling",
+      92
+    ],
+    [
+      221,
+      "under open coupling",
+      92
+    ],
+    [
+      222,
+      "under live coupling",
+      92
+    ],
+    [
+      223,
+      "within current coupling",
+      92
+    ],
+    [
+      224,
+      "within local coupling",
+      92
+    ],
+    [
+      225,
+      "within bounded coupling",
+      92
+    ],
+    [
+      226,
+      "within finite coupling",
+      91
+    ],
+    [
+      227,
+      "within open coupling",
+      91
+    ],
+    [
+      228,
+      "within live coupling",
+      91
+    ],
+    [
+      229,
+      "across current coupling",
+      91
+    ],
+    [
+      230,
+      "across local coupling",
+      91
+    ],
+    [
+      231,
+      "across bounded coupling",
+      91
+    ],
+    [
+      232,
+      "across finite coupling",
+      91
+    ],
+    [
+      233,
+      "across open coupling",
+      91
+    ],
+    [
+      234,
+      "across live coupling",
+      91
+    ],
+    [
+      235,
+      "between current coupling",
+      91
+    ],
+    [
+      236,
+      "between local coupling",
+      91
+    ],
+    [
+      237,
+      "between bounded coupling",
+      91
+    ],
+    [
+      238,
+      "between finite coupling",
+      91
+    ],
+    [
+      239,
+      "between open coupling",
+      91
+    ],
+    [
+      240,
+      "between live coupling",
+      91
+    ],
+    [
+      241,
+      "stocks and flows",
+      91
+    ],
+    [
+      242,
+      "under system subsystem",
+      91
+    ],
+    [
+      243,
+      "under system environment",
+      91
+    ],
+    [
+      244,
+      "under system boundary",
+      91
+    ],
+    [
+      245,
+      "under system feedback",
+      91
+    ],
+    [
+      246,
+      "under subsystem environment",
+      91
+    ],
+    [
+      247,
+      "under subsystem boundary",
+      91
+    ],
+    [
+      248,
+      "under subsystem feedback",
+      91
+    ],
+    [
+      249,
+      "under subsystem loop",
+      91
+    ],
+    [
+      250,
+      "under environment boundary",
+      91
+    ],
+    [
+      251,
+      "under environment feedback",
+      90
+    ],
+    [
+      252,
+      "under environment loop",
+      90
+    ],
+    [
+      253,
+      "under environment coupling",
+      90
+    ],
+    [
+      254,
+      "under boundary feedback",
+      90
+    ],
+    [
+      255,
+      "under boundary loop",
+      90
+    ],
+    [
+      256,
+      "under boundary coupling",
+      90
+    ],
+    [
+      257,
+      "under boundary incentive",
+      90
+    ],
+    [
+      258,
+      "under feedback loop",
+      90
+    ],
+    [
+      259,
+      "under feedback coupling",
+      90
+    ],
+    [
+      260,
+      "under feedback incentive",
+      90
+    ],
+    [
+      261,
+      "under feedback emergence",
+      90
+    ],
+    [
+      262,
+      "under loop coupling",
+      90
+    ],
+    [
+      263,
+      "under loop incentive",
+      90
+    ],
+    [
+      264,
+      "under loop emergence",
+      90
+    ],
+    [
+      265,
+      "under loop second",
+      90
+    ],
+    [
+      266,
+      "under coupling incentive",
+      90
+    ],
+    [
+      267,
+      "under coupling emergence",
+      90
+    ],
+    [
+      268,
+      "under coupling second",
+      90
+    ],
+    [
+      269,
+      "under coupling order",
+      90
+    ],
+    [
+      270,
+      "under incentive emergence",
+      90
+    ],
+    [
+      271,
+      "under incentive second",
+      90
+    ],
+    [
+      272,
+      "under incentive order",
+      90
+    ],
+    [
+      273,
+      "under incentive side",
+      90
+    ],
+    [
+      274,
+      "under emergence second",
+      90
+    ],
+    [
+      275,
+      "under emergence order",
+      90
+    ],
+    [
+      276,
+      "under emergence side",
+      89
+    ],
+    [
+      277,
+      "under emergence effect",
+      89
+    ],
+    [
+      278,
+      "under second order",
+      89
+    ],
+    [
+      279,
+      "under second side",
+      89
+    ],
+    [
+      280,
+      "under second effect",
+      89
+    ],
+    [
+      281,
+      "under second selection",
+      89
+    ],
+    [
+      282,
+      "under order side",
+      89
+    ],
+    [
+      283,
+      "under order effect",
+      89
+    ],
+    [
+      284,
+      "under order selection",
+      89
+    ],
+    [
+      285,
+      "under order reward",
+      89
+    ],
+    [
+      286,
+      "under side effect",
+      89
+    ],
+    [
+      287,
+      "under side selection",
+      89
+    ],
+    [
+      288,
+      "under side reward",
+      89
+    ],
+    [
+      289,
+      "under side structure",
+      89
+    ],
+    [
+      290,
+      "under effect selection",
+      89
+    ],
+    [
+      291,
+      "under effect reward",
+      89
+    ],
+    [
+      292,
+      "under effect structure",
+      89
+    ],
+    [
+      293,
+      "under effect interaction",
+      89
+    ],
+    [
+      294,
+      "under selection reward",
+      89
+    ],
+    [
+      295,
+      "under selection structure",
+      89
+    ],
+    [
+      296,
+      "under selection interaction",
+      89
+    ],
+    [
+      297,
+      "under selection propagation",
+      89
+    ],
+    [
+      298,
+      "under reward structure",
+      89
+    ],
+    [
+      299,
+      "under reward interaction",
+      89
+    ],
+    [
+      300,
+      "under reward propagation",
+      89
+    ],
+    [
+      301,
+      "under reward network",
+      88
+    ],
+    [
+      302,
+      "under structure interaction",
+      88
+    ],
+    [
+      303,
+      "under structure propagation",
+      88
+    ],
+    [
+      304,
+      "under structure network",
+      88
+    ],
+    [
+      305,
+      "under structure node",
+      88
+    ],
+    [
+      306,
+      "under interaction propagation",
+      88
+    ],
+    [
+      307,
+      "under interaction network",
+      88
+    ],
+    [
+      308,
+      "under interaction node",
+      88
+    ],
+    [
+      309,
+      "under interaction edge",
+      88
+    ],
+    [
+      310,
+      "under propagation network",
+      88
+    ],
+    [
+      311,
+      "under propagation node",
+      88
+    ],
+    [
+      312,
+      "under propagation edge",
+      88
+    ],
+    [
+      313,
+      "under propagation stock",
+      88
+    ],
+    [
+      314,
+      "under network node",
+      88
+    ],
+    [
+      315,
+      "under network edge",
+      88
+    ],
+    [
+      316,
+      "under network stock",
+      88
+    ],
+    [
+      317,
+      "under network flow",
+      88
+    ],
+    [
+      318,
+      "under node edge",
+      88
+    ],
+    [
+      319,
+      "under node stock",
+      88
+    ],
+    [
+      320,
+      "under node flow",
+      88
+    ],
+    [
+      321,
+      "under node delay",
+      88
+    ],
+    [
+      322,
+      "within system subsystem",
+      88
+    ],
+    [
+      323,
+      "within system environment",
+      88
+    ],
+    [
+      324,
+      "within system boundary",
+      88
+    ],
+    [
+      325,
+      "within system feedback",
+      88
+    ],
+    [
+      326,
+      "within subsystem environment",
+      87
+    ],
+    [
+      327,
+      "within subsystem boundary",
+      87
+    ],
+    [
+      328,
+      "within subsystem feedback",
+      87
+    ],
+    [
+      329,
+      "within subsystem loop",
+      87
+    ],
+    [
+      330,
+      "within environment boundary",
+      87
+    ],
+    [
+      331,
+      "within environment feedback",
+      87
+    ],
+    [
+      332,
+      "within environment loop",
+      87
+    ],
+    [
+      333,
+      "within environment coupling",
+      87
+    ],
+    [
+      334,
+      "within boundary feedback",
+      87
+    ],
+    [
+      335,
+      "within boundary loop",
+      87
+    ],
+    [
+      336,
+      "within boundary coupling",
+      87
+    ],
+    [
+      337,
+      "within boundary incentive",
+      87
+    ],
+    [
+      338,
+      "within feedback loop",
+      87
+    ],
+    [
+      339,
+      "within feedback coupling",
+      87
+    ],
+    [
+      340,
+      "within feedback incentive",
+      87
+    ],
+    [
+      341,
+      "within feedback emergence",
+      87
+    ],
+    [
+      342,
+      "within loop coupling",
+      87
+    ],
+    [
+      343,
+      "within loop incentive",
+      87
+    ],
+    [
+      344,
+      "within loop emergence",
+      87
+    ],
+    [
+      345,
+      "within loop second",
+      87
+    ],
+    [
+      346,
+      "within coupling incentive",
+      87
+    ],
+    [
+      347,
+      "within coupling emergence",
+      87
+    ],
+    [
+      348,
+      "within coupling second",
+      87
+    ],
+    [
+      349,
+      "within coupling order",
+      87
+    ],
+    [
+      350,
+      "within incentive emergence",
+      87
+    ],
+    [
+      351,
+      "within incentive second",
+      86
+    ],
+    [
+      352,
+      "within incentive order",
+      86
+    ],
+    [
+      353,
+      "within incentive side",
+      86
+    ],
+    [
+      354,
+      "within emergence second",
+      86
+    ],
+    [
+      355,
+      "within emergence order",
+      86
+    ],
+    [
+      356,
+      "within emergence side",
+      86
+    ],
+    [
+      357,
+      "within emergence effect",
+      86
+    ],
+    [
+      358,
+      "within second order",
+      86
+    ],
+    [
+      359,
+      "within second side",
+      86
+    ],
+    [
+      360,
+      "within second effect",
+      86
+    ],
+    [
+      361,
+      "within second selection",
+      86
+    ],
+    [
+      362,
+      "within order side",
+      86
+    ],
+    [
+      363,
+      "within order effect",
+      86
+    ],
+    [
+      364,
+      "within order selection",
+      86
+    ],
+    [
+      365,
+      "within order reward",
+      86
+    ],
+    [
+      366,
+      "within side effect",
+      86
+    ],
+    [
+      367,
+      "within side selection",
+      86
+    ],
+    [
+      368,
+      "within side reward",
+      86
+    ],
+    [
+      369,
+      "within side structure",
+      86
+    ],
+    [
+      370,
+      "within effect selection",
+      86
+    ],
+    [
+      371,
+      "within effect reward",
+      86
+    ],
+    [
+      372,
+      "within effect structure",
+      86
+    ],
+    [
+      373,
+      "within effect interaction",
+      86
+    ],
+    [
+      374,
+      "within selection reward",
+      86
+    ],
+    [
+      375,
+      "within selection structure",
+      86
+    ],
+    [
+      376,
+      "within selection interaction",
+      85
+    ],
+    [
+      377,
+      "within selection propagation",
+      85
+    ],
+    [
+      378,
+      "within reward structure",
+      85
+    ],
+    [
+      379,
+      "within reward interaction",
+      85
+    ],
+    [
+      380,
+      "within reward propagation",
+      85
+    ],
+    [
+      381,
+      "within reward network",
+      85
+    ],
+    [
+      382,
+      "within structure interaction",
+      85
+    ],
+    [
+      383,
+      "within structure propagation",
+      85
+    ],
+    [
+      384,
+      "within structure network",
+      85
+    ],
+    [
+      385,
+      "within structure node",
+      85
+    ],
+    [
+      386,
+      "within interaction propagation",
+      85
+    ],
+    [
+      387,
+      "within interaction network",
+      85
+    ],
+    [
+      388,
+      "within interaction node",
+      85
+    ],
+    [
+      389,
+      "within interaction edge",
+      85
+    ],
+    [
+      390,
+      "within propagation network",
+      85
+    ],
+    [
+      391,
+      "within propagation node",
+      85
+    ],
+    [
+      392,
+      "within propagation edge",
+      85
+    ],
+    [
+      393,
+      "within propagation stock",
+      85
+    ],
+    [
+      394,
+      "within network node",
+      85
+    ],
+    [
+      395,
+      "within network edge",
+      85
+    ],
+    [
+      396,
+      "within network stock",
+      85
+    ],
+    [
+      397,
+      "within network flow",
+      85
+    ],
+    [
+      398,
+      "within node edge",
+      85
+    ],
+    [
+      399,
+      "within node stock",
+      85
+    ],
+    [
+      400,
+      "within node flow",
+      85
+    ],
+    [
+      401,
+      "within node delay",
+      84
+    ],
+    [
+      402,
+      "across system subsystem",
+      84
+    ],
+    [
+      403,
+      "across system environment",
+      84
+    ],
+    [
+      404,
+      "across system boundary",
+      84
+    ],
+    [
+      405,
+      "across system feedback",
+      84
+    ],
+    [
+      406,
+      "across subsystem environment",
+      84
+    ],
+    [
+      407,
+      "across subsystem boundary",
+      84
+    ],
+    [
+      408,
+      "across subsystem feedback",
+      84
+    ],
+    [
+      409,
+      "across subsystem loop",
+      84
+    ],
+    [
+      410,
+      "across environment boundary",
+      84
+    ],
+    [
+      411,
+      "across environment feedback",
+      84
+    ],
+    [
+      412,
+      "across environment loop",
+      84
+    ],
+    [
+      413,
+      "across environment coupling",
+      84
+    ],
+    [
+      414,
+      "across boundary feedback",
+      84
+    ],
+    [
+      415,
+      "across boundary loop",
+      84
+    ],
+    [
+      416,
+      "across boundary coupling",
+      84
+    ],
+    [
+      417,
+      "across boundary incentive",
+      84
+    ],
+    [
+      418,
+      "across feedback loop",
+      84
+    ],
+    [
+      419,
+      "across feedback coupling",
+      84
+    ],
+    [
+      420,
+      "across feedback incentive",
+      84
+    ],
+    [
+      421,
+      "across feedback emergence",
+      84
+    ],
+    [
+      422,
+      "across loop coupling",
+      84
+    ],
+    [
+      423,
+      "across loop incentive",
+      84
+    ],
+    [
+      424,
+      "across loop emergence",
+      84
+    ],
+    [
+      425,
+      "across loop second",
+      84
+    ],
+    [
+      426,
+      "across coupling incentive",
+      83
+    ],
+    [
+      427,
+      "across coupling emergence",
+      83
+    ],
+    [
+      428,
+      "across coupling second",
+      83
+    ],
+    [
+      429,
+      "across coupling order",
+      83
+    ],
+    [
+      430,
+      "across incentive emergence",
+      83
+    ],
+    [
+      431,
+      "across incentive second",
+      83
+    ],
+    [
+      432,
+      "across incentive order",
+      83
+    ],
+    [
+      433,
+      "across incentive side",
+      83
+    ],
+    [
+      434,
+      "across emergence second",
+      83
+    ],
+    [
+      435,
+      "across emergence order",
+      83
+    ],
+    [
+      436,
+      "across emergence side",
+      83
+    ],
+    [
+      437,
+      "across emergence effect",
+      83
+    ],
+    [
+      438,
+      "across second order",
+      83
+    ],
+    [
+      439,
+      "across second side",
+      83
+    ],
+    [
+      440,
+      "across second effect",
+      83
+    ],
+    [
+      441,
+      "across second selection",
+      83
+    ],
+    [
+      442,
+      "across order side",
+      83
+    ],
+    [
+      443,
+      "across order effect",
+      83
+    ],
+    [
+      444,
+      "across order selection",
+      83
+    ],
+    [
+      445,
+      "across order reward",
+      83
+    ],
+    [
+      446,
+      "across side effect",
+      83
+    ],
+    [
+      447,
+      "across side selection",
+      83
+    ],
+    [
+      448,
+      "across side reward",
+      83
+    ],
+    [
+      449,
+      "across side structure",
+      83
+    ],
+    [
+      450,
+      "across effect selection",
+      83
+    ],
+    [
+      451,
+      "across effect reward",
+      82
+    ],
+    [
+      452,
+      "across effect structure",
+      82
+    ],
+    [
+      453,
+      "across effect interaction",
+      82
+    ],
+    [
+      454,
+      "across selection reward",
+      82
+    ],
+    [
+      455,
+      "across selection structure",
+      82
+    ],
+    [
+      456,
+      "across selection interaction",
+      82
+    ],
+    [
+      457,
+      "across selection propagation",
+      82
+    ],
+    [
+      458,
+      "across reward structure",
+      82
+    ],
+    [
+      459,
+      "across reward interaction",
+      82
+    ],
+    [
+      460,
+      "across reward propagation",
+      82
+    ],
+    [
+      461,
+      "across reward network",
+      82
+    ],
+    [
+      462,
+      "across structure interaction",
+      82
+    ],
+    [
+      463,
+      "across structure propagation",
+      82
+    ],
+    [
+      464,
+      "across structure network",
+      82
+    ],
+    [
+      465,
+      "across structure node",
+      82
+    ],
+    [
+      466,
+      "across interaction propagation",
+      82
+    ],
+    [
+      467,
+      "across interaction network",
+      82
+    ],
+    [
+      468,
+      "across interaction node",
+      82
+    ],
+    [
+      469,
+      "across interaction edge",
+      82
+    ],
+    [
+      470,
+      "across propagation network",
+      82
+    ],
+    [
+      471,
+      "across propagation node",
+      82
+    ],
+    [
+      472,
+      "across propagation edge",
+      82
+    ],
+    [
+      473,
+      "across propagation stock",
+      82
+    ],
+    [
+      474,
+      "across network node",
+      82
+    ],
+    [
+      475,
+      "across network edge",
+      82
+    ],
+    [
+      476,
+      "across network stock",
+      81
+    ],
+    [
+      477,
+      "across network flow",
+      81
+    ],
+    [
+      478,
+      "across node edge",
+      81
+    ],
+    [
+      479,
+      "across node stock",
+      81
+    ],
+    [
+      480,
+      "across node flow",
+      81
+    ],
+    [
+      481,
+      "across node delay",
+      81
+    ],
+    [
+      482,
+      "between system subsystem",
+      81
+    ],
+    [
+      483,
+      "between system environment",
+      81
+    ],
+    [
+      484,
+      "between system boundary",
+      81
+    ],
+    [
+      485,
+      "between system feedback",
+      81
+    ],
+    [
+      486,
+      "between subsystem environment",
+      81
+    ],
+    [
+      487,
+      "between subsystem boundary",
+      81
+    ],
+    [
+      488,
+      "between subsystem feedback",
+      81
+    ],
+    [
+      489,
+      "between subsystem loop",
+      81
+    ],
+    [
+      490,
+      "between environment boundary",
+      81
+    ],
+    [
+      491,
+      "between environment feedback",
+      81
+    ],
+    [
+      492,
+      "between environment loop",
+      81
+    ],
+    [
+      493,
+      "between environment coupling",
+      81
+    ],
+    [
+      494,
+      "between boundary feedback",
+      81
+    ],
+    [
+      495,
+      "between boundary loop",
+      81
+    ],
+    [
+      496,
+      "between boundary coupling",
+      81
+    ],
+    [
+      497,
+      "between boundary incentive",
+      81
+    ],
+    [
+      498,
+      "between feedback loop",
+      81
+    ],
+    [
+      499,
+      "between feedback coupling",
+      81
+    ],
+    [
+      500,
+      "between feedback incentive",
+      81
+    ],
+    [
+      501,
+      "between feedback emergence",
+      80
+    ],
+    [
+      502,
+      "between loop coupling",
+      80
+    ],
+    [
+      503,
+      "between loop incentive",
+      80
+    ],
+    [
+      504,
+      "between loop emergence",
+      80
+    ],
+    [
+      505,
+      "between loop second",
+      80
+    ],
+    [
+      506,
+      "between coupling incentive",
+      80
+    ],
+    [
+      507,
+      "between coupling emergence",
+      80
+    ],
+    [
+      508,
+      "between coupling second",
+      80
+    ],
+    [
+      509,
+      "between coupling order",
+      80
+    ],
+    [
+      510,
+      "between incentive emergence",
+      80
+    ],
+    [
+      511,
+      "between incentive second",
+      80
+    ],
+    [
+      512,
+      "between incentive order",
+      80
+    ],
+    [
+      513,
+      "between incentive side",
+      80
+    ],
+    [
+      514,
+      "between emergence second",
+      80
+    ],
+    [
+      515,
+      "between emergence order",
+      80
+    ],
+    [
+      516,
+      "between emergence side",
+      80
+    ],
+    [
+      517,
+      "between emergence effect",
+      80
+    ],
+    [
+      518,
+      "between second order",
+      80
+    ],
+    [
+      519,
+      "between second side",
+      80
+    ],
+    [
+      520,
+      "between second effect",
+      80
+    ],
+    [
+      521,
+      "between second selection",
+      80
+    ],
+    [
+      522,
+      "between order side",
+      80
+    ],
+    [
+      523,
+      "between order effect",
+      80
+    ],
+    [
+      524,
+      "between order selection",
+      80
+    ],
+    [
+      525,
+      "between order reward",
+      80
+    ],
+    [
+      526,
+      "between side effect",
+      79
+    ],
+    [
+      527,
+      "between side selection",
+      79
+    ],
+    [
+      528,
+      "between side reward",
+      79
+    ],
+    [
+      529,
+      "between side structure",
+      79
+    ],
+    [
+      530,
+      "between effect selection",
+      79
+    ],
+    [
+      531,
+      "between effect reward",
+      79
+    ],
+    [
+      532,
+      "between effect structure",
+      79
+    ],
+    [
+      533,
+      "between effect interaction",
+      79
+    ],
+    [
+      534,
+      "between selection reward",
+      79
+    ],
+    [
+      535,
+      "between selection structure",
+      79
+    ],
+    [
+      536,
+      "between selection interaction",
+      79
+    ],
+    [
+      537,
+      "between selection propagation",
+      79
+    ],
+    [
+      538,
+      "between reward structure",
+      79
+    ],
+    [
+      539,
+      "between reward interaction",
+      79
+    ],
+    [
+      540,
+      "between reward propagation",
+      79
+    ],
+    [
+      541,
+      "between reward network",
+      79
+    ],
+    [
+      542,
+      "between structure interaction",
+      79
+    ],
+    [
+      543,
+      "between structure propagation",
+      79
+    ],
+    [
+      544,
+      "between structure network",
+      79
+    ],
+    [
+      545,
+      "between structure node",
+      79
+    ],
+    [
+      546,
+      "between interaction propagation",
+      79
+    ],
+    [
+      547,
+      "between interaction network",
+      79
+    ],
+    [
+      548,
+      "between interaction node",
+      79
+    ],
+    [
+      549,
+      "between interaction edge",
+      79
+    ],
+    [
+      550,
+      "between propagation network",
+      79
+    ],
+    [
+      551,
+      "between propagation node",
+      78
+    ],
+    [
+      552,
+      "between propagation edge",
+      78
+    ],
+    [
+      553,
+      "between propagation stock",
+      78
+    ],
+    [
+      554,
+      "between network node",
+      78
+    ],
+    [
+      555,
+      "between network edge",
+      78
+    ],
+    [
+      556,
+      "between network stock",
+      78
+    ],
+    [
+      557,
+      "between network flow",
+      78
+    ],
+    [
+      558,
+      "between node edge",
+      78
+    ],
+    [
+      559,
+      "between node stock",
+      78
+    ],
+    [
+      560,
+      "between node flow",
+      78
+    ],
+    [
+      561,
+      "between node delay",
+      78
+    ],
+    [
+      562,
+      "through system subsystem",
+      78
+    ],
+    [
+      563,
+      "through system environment",
+      78
+    ],
+    [
+      564,
+      "through system boundary",
+      78
+    ],
+    [
+      565,
+      "through system feedback",
+      78
+    ],
+    [
+      566,
+      "through subsystem environment",
+      78
+    ],
+    [
+      567,
+      "through subsystem boundary",
+      78
+    ],
+    [
+      568,
+      "through subsystem feedback",
+      78
+    ],
+    [
+      569,
+      "through subsystem loop",
+      78
+    ],
+    [
+      570,
+      "through environment boundary",
+      78
+    ],
+    [
+      571,
+      "through environment feedback",
+      78
+    ],
+    [
+      572,
+      "through environment loop",
+      78
+    ],
+    [
+      573,
+      "through environment coupling",
+      78
+    ],
+    [
+      574,
+      "through boundary feedback",
+      78
+    ],
+    [
+      575,
+      "through boundary loop",
+      78
+    ],
+    [
+      576,
+      "through boundary coupling",
+      77
+    ],
+    [
+      577,
+      "through boundary incentive",
+      77
+    ],
+    [
+      578,
+      "through feedback loop",
+      77
+    ],
+    [
+      579,
+      "through feedback coupling",
+      77
+    ],
+    [
+      580,
+      "through feedback incentive",
+      77
+    ],
+    [
+      581,
+      "through feedback emergence",
+      77
+    ],
+    [
+      582,
+      "through loop coupling",
+      77
+    ],
+    [
+      583,
+      "through loop incentive",
+      77
+    ],
+    [
+      584,
+      "through loop emergence",
+      77
+    ],
+    [
+      585,
+      "through loop second",
+      77
+    ],
+    [
+      586,
+      "through coupling incentive",
+      77
+    ],
+    [
+      587,
+      "through coupling emergence",
+      77
+    ],
+    [
+      588,
+      "through coupling second",
+      77
+    ],
+    [
+      589,
+      "through coupling order",
+      77
+    ],
+    [
+      590,
+      "through incentive emergence",
+      77
+    ],
+    [
+      591,
+      "through incentive second",
+      77
+    ],
+    [
+      592,
+      "through incentive order",
+      77
+    ],
+    [
+      593,
+      "through incentive side",
+      77
+    ],
+    [
+      594,
+      "through emergence second",
+      77
+    ],
+    [
+      595,
+      "through emergence order",
+      77
+    ],
+    [
+      596,
+      "through emergence side",
+      77
+    ],
+    [
+      597,
+      "through emergence effect",
+      77
+    ],
+    [
+      598,
+      "through second order",
+      77
+    ],
+    [
+      599,
+      "through second side",
+      77
+    ],
+    [
+      600,
+      "through second effect",
+      77
+    ],
+    [
+      601,
+      "through second selection",
+      76
+    ],
+    [
+      602,
+      "through order side",
+      76
+    ],
+    [
+      603,
+      "through order effect",
+      76
+    ],
+    [
+      604,
+      "through order selection",
+      76
+    ],
+    [
+      605,
+      "through order reward",
+      76
+    ],
+    [
+      606,
+      "through side effect",
+      76
+    ],
+    [
+      607,
+      "through side selection",
+      76
+    ],
+    [
+      608,
+      "through side reward",
+      76
+    ],
+    [
+      609,
+      "through side structure",
+      76
+    ],
+    [
+      610,
+      "through effect selection",
+      76
+    ],
+    [
+      611,
+      "through effect reward",
+      76
+    ],
+    [
+      612,
+      "through effect structure",
+      76
+    ],
+    [
+      613,
+      "through effect interaction",
+      76
+    ],
+    [
+      614,
+      "through selection reward",
+      76
+    ],
+    [
+      615,
+      "through selection structure",
+      76
+    ],
+    [
+      616,
+      "through selection interaction",
+      76
+    ],
+    [
+      617,
+      "through selection propagation",
+      76
+    ],
+    [
+      618,
+      "through reward structure",
+      76
+    ],
+    [
+      619,
+      "through reward interaction",
+      76
+    ],
+    [
+      620,
+      "through reward propagation",
+      76
+    ],
+    [
+      621,
+      "through reward network",
+      76
+    ],
+    [
+      622,
+      "through structure interaction",
+      76
+    ],
+    [
+      623,
+      "through structure propagation",
+      76
+    ],
+    [
+      624,
+      "through structure network",
+      76
+    ],
+    [
+      625,
+      "through structure node",
+      76
+    ],
+    [
+      626,
+      "through interaction propagation",
+      75
+    ],
+    [
+      627,
+      "through interaction network",
+      75
+    ],
+    [
+      628,
+      "through interaction node",
+      75
+    ],
+    [
+      629,
+      "through interaction edge",
+      75
+    ],
+    [
+      630,
+      "through propagation network",
+      75
+    ],
+    [
+      631,
+      "through propagation node",
+      75
+    ],
+    [
+      632,
+      "through propagation edge",
+      75
+    ],
+    [
+      633,
+      "through propagation stock",
+      75
+    ],
+    [
+      634,
+      "through network node",
+      75
+    ],
+    [
+      635,
+      "through network edge",
+      75
+    ],
+    [
+      636,
+      "through network stock",
+      75
+    ],
+    [
+      637,
+      "through network flow",
+      75
+    ],
+    [
+      638,
+      "through node edge",
+      75
+    ],
+    [
+      639,
+      "through node stock",
+      75
+    ],
+    [
+      640,
+      "through node flow",
+      75
+    ],
+    [
+      641,
+      "through node delay",
+      75
+    ],
+    [
+      642,
+      "before system subsystem",
+      75
+    ],
+    [
+      643,
+      "before system environment",
+      75
+    ],
+    [
+      644,
+      "before system boundary",
+      75
+    ],
+    [
+      645,
+      "before system feedback",
+      75
+    ],
+    [
+      646,
+      "before subsystem environment",
+      75
+    ],
+    [
+      647,
+      "before subsystem boundary",
+      75
+    ],
+    [
+      648,
+      "before subsystem feedback",
+      75
+    ],
+    [
+      649,
+      "before subsystem loop",
+      75
+    ],
+    [
+      650,
+      "before environment boundary",
+      75
+    ],
+    [
+      651,
+      "before environment feedback",
+      74
+    ],
+    [
+      652,
+      "before environment loop",
+      74
+    ],
+    [
+      653,
+      "before environment coupling",
+      74
+    ],
+    [
+      654,
+      "before boundary feedback",
+      74
+    ],
+    [
+      655,
+      "before boundary loop",
+      74
+    ],
+    [
+      656,
+      "before boundary coupling",
+      74
+    ],
+    [
+      657,
+      "before boundary incentive",
+      74
+    ],
+    [
+      658,
+      "before feedback loop",
+      74
+    ],
+    [
+      659,
+      "before feedback coupling",
+      74
+    ],
+    [
+      660,
+      "before feedback incentive",
+      74
+    ],
+    [
+      661,
+      "before feedback emergence",
+      74
+    ],
+    [
+      662,
+      "before loop coupling",
+      74
+    ],
+    [
+      663,
+      "before loop incentive",
+      74
+    ],
+    [
+      664,
+      "before loop emergence",
+      74
+    ],
+    [
+      665,
+      "before loop second",
+      74
+    ],
+    [
+      666,
+      "before coupling incentive",
+      74
+    ],
+    [
+      667,
+      "before coupling emergence",
+      74
+    ],
+    [
+      668,
+      "before coupling second",
+      74
+    ],
+    [
+      669,
+      "before coupling order",
+      74
+    ],
+    [
+      670,
+      "before incentive emergence",
+      74
+    ],
+    [
+      671,
+      "before incentive second",
+      74
+    ],
+    [
+      672,
+      "before incentive order",
+      74
+    ],
+    [
+      673,
+      "before incentive side",
+      74
+    ],
+    [
+      674,
+      "before emergence second",
+      74
+    ],
+    [
+      675,
+      "before emergence order",
+      74
+    ],
+    [
+      676,
+      "before emergence side",
+      73
+    ],
+    [
+      677,
+      "before emergence effect",
+      73
+    ],
+    [
+      678,
+      "before second order",
+      73
+    ],
+    [
+      679,
+      "before second side",
+      73
+    ],
+    [
+      680,
+      "before second effect",
+      73
+    ],
+    [
+      681,
+      "before second selection",
+      73
+    ],
+    [
+      682,
+      "before order side",
+      73
+    ],
+    [
+      683,
+      "before order effect",
+      73
+    ],
+    [
+      684,
+      "before order selection",
+      73
+    ],
+    [
+      685,
+      "before order reward",
+      73
+    ],
+    [
+      686,
+      "before side effect",
+      73
+    ],
+    [
+      687,
+      "before side selection",
+      73
+    ],
+    [
+      688,
+      "before side reward",
+      73
+    ],
+    [
+      689,
+      "before side structure",
+      73
+    ],
+    [
+      690,
+      "before effect selection",
+      73
+    ],
+    [
+      691,
+      "before effect reward",
+      73
+    ],
+    [
+      692,
+      "before effect structure",
+      73
+    ],
+    [
+      693,
+      "before effect interaction",
+      73
+    ],
+    [
+      694,
+      "before selection reward",
+      73
+    ],
+    [
+      695,
+      "before selection structure",
+      73
+    ],
+    [
+      696,
+      "before selection interaction",
+      73
+    ],
+    [
+      697,
+      "before selection propagation",
+      73
+    ],
+    [
+      698,
+      "before reward structure",
+      73
+    ],
+    [
+      699,
+      "before reward interaction",
+      73
+    ],
+    [
+      700,
+      "before reward propagation",
+      73
+    ],
+    [
+      701,
+      "before reward network",
+      72
+    ],
+    [
+      702,
+      "before structure interaction",
+      72
+    ],
+    [
+      703,
+      "before structure propagation",
+      72
+    ],
+    [
+      704,
+      "before structure network",
+      72
+    ],
+    [
+      705,
+      "before structure node",
+      72
+    ],
+    [
+      706,
+      "before interaction propagation",
+      72
+    ],
+    [
+      707,
+      "before interaction network",
+      72
+    ],
+    [
+      708,
+      "before interaction node",
+      72
+    ],
+    [
+      709,
+      "before interaction edge",
+      72
+    ],
+    [
+      710,
+      "before propagation network",
+      72
+    ],
+    [
+      711,
+      "before propagation node",
+      72
+    ],
+    [
+      712,
+      "before propagation edge",
+      72
+    ],
+    [
+      713,
+      "before propagation stock",
+      72
+    ],
+    [
+      714,
+      "before network node",
+      72
+    ],
+    [
+      715,
+      "before network edge",
+      72
+    ],
+    [
+      716,
+      "before network stock",
+      72
+    ],
+    [
+      717,
+      "before network flow",
+      72
+    ],
+    [
+      718,
+      "before node edge",
+      72
+    ],
+    [
+      719,
+      "before node stock",
+      72
+    ],
+    [
+      720,
+      "before node flow",
+      72
+    ],
+    [
+      721,
+      "before node delay",
+      72
+    ],
+    [
+      722,
+      "after system subsystem",
+      72
+    ],
+    [
+      723,
+      "after system environment",
+      72
+    ],
+    [
+      724,
+      "after system boundary",
+      72
+    ],
+    [
+      725,
+      "after system feedback",
+      72
+    ],
+    [
+      726,
+      "after subsystem environment",
+      71
+    ],
+    [
+      727,
+      "after subsystem boundary",
+      71
+    ],
+    [
+      728,
+      "after subsystem feedback",
+      71
+    ],
+    [
+      729,
+      "after subsystem loop",
+      71
+    ],
+    [
+      730,
+      "after environment boundary",
+      71
+    ],
+    [
+      731,
+      "after environment feedback",
+      71
+    ],
+    [
+      732,
+      "after environment loop",
+      71
+    ],
+    [
+      733,
+      "after environment coupling",
+      71
+    ],
+    [
+      734,
+      "after boundary feedback",
+      71
+    ],
+    [
+      735,
+      "after boundary loop",
+      71
+    ],
+    [
+      736,
+      "after boundary coupling",
+      71
+    ],
+    [
+      737,
+      "after boundary incentive",
+      71
+    ],
+    [
+      738,
+      "after feedback loop",
+      71
+    ],
+    [
+      739,
+      "after feedback coupling",
+      71
+    ],
+    [
+      740,
+      "after feedback incentive",
+      71
+    ],
+    [
+      741,
+      "after feedback emergence",
+      71
+    ],
+    [
+      742,
+      "after loop coupling",
+      71
+    ],
+    [
+      743,
+      "after loop incentive",
+      71
+    ],
+    [
+      744,
+      "after loop emergence",
+      71
+    ],
+    [
+      745,
+      "after loop second",
+      71
+    ],
+    [
+      746,
+      "after coupling incentive",
+      71
+    ],
+    [
+      747,
+      "after coupling emergence",
+      71
+    ],
+    [
+      748,
+      "after coupling second",
+      71
+    ],
+    [
+      749,
+      "after coupling order",
+      71
+    ],
+    [
+      750,
+      "after incentive emergence",
+      71
+    ],
+    [
+      751,
+      "after incentive second",
+      70
+    ],
+    [
+      752,
+      "after incentive order",
+      70
+    ],
+    [
+      753,
+      "after incentive side",
+      70
+    ],
+    [
+      754,
+      "after emergence second",
+      70
+    ],
+    [
+      755,
+      "after emergence order",
+      70
+    ],
+    [
+      756,
+      "after emergence side",
+      70
+    ],
+    [
+      757,
+      "after emergence effect",
+      70
+    ],
+    [
+      758,
+      "after second order",
+      70
+    ],
+    [
+      759,
+      "after second side",
+      70
+    ],
+    [
+      760,
+      "after second effect",
+      70
+    ],
+    [
+      761,
+      "after second selection",
+      70
+    ],
+    [
+      762,
+      "after order side",
+      70
+    ],
+    [
+      763,
+      "after order effect",
+      70
+    ],
+    [
+      764,
+      "after order selection",
+      70
+    ],
+    [
+      765,
+      "after order reward",
+      70
+    ],
+    [
+      766,
+      "after side effect",
+      70
+    ],
+    [
+      767,
+      "after side selection",
+      70
+    ],
+    [
+      768,
+      "after side reward",
+      70
+    ],
+    [
+      769,
+      "after side structure",
+      70
+    ],
+    [
+      770,
+      "after effect selection",
+      70
+    ],
+    [
+      771,
+      "after effect reward",
+      70
+    ],
+    [
+      772,
+      "after effect structure",
+      70
+    ],
+    [
+      773,
+      "after effect interaction",
+      70
+    ],
+    [
+      774,
+      "after selection reward",
+      70
+    ],
+    [
+      775,
+      "after selection structure",
+      70
+    ],
+    [
+      776,
+      "after selection interaction",
+      69
+    ],
+    [
+      777,
+      "after selection propagation",
+      69
+    ],
+    [
+      778,
+      "after reward structure",
+      69
+    ],
+    [
+      779,
+      "after reward interaction",
+      69
+    ],
+    [
+      780,
+      "after reward propagation",
+      69
+    ],
+    [
+      781,
+      "after reward network",
+      69
+    ],
+    [
+      782,
+      "after structure interaction",
+      69
+    ],
+    [
+      783,
+      "after structure propagation",
+      69
+    ],
+    [
+      784,
+      "after structure network",
+      69
+    ],
+    [
+      785,
+      "after structure node",
+      69
+    ],
+    [
+      786,
+      "after interaction propagation",
+      69
+    ],
+    [
+      787,
+      "after interaction network",
+      69
+    ],
+    [
+      788,
+      "after interaction node",
+      69
+    ],
+    [
+      789,
+      "after interaction edge",
+      69
+    ],
+    [
+      790,
+      "after propagation network",
+      69
+    ],
+    [
+      791,
+      "after propagation node",
+      69
+    ],
+    [
+      792,
+      "after propagation edge",
+      69
+    ],
+    [
+      793,
+      "after propagation stock",
+      69
+    ],
+    [
+      794,
+      "after network node",
+      69
+    ],
+    [
+      795,
+      "after network edge",
+      69
+    ],
+    [
+      796,
+      "after network stock",
+      69
+    ],
+    [
+      797,
+      "after network flow",
+      69
+    ],
+    [
+      798,
+      "after node edge",
+      69
+    ],
+    [
+      799,
+      "after node stock",
+      69
+    ],
+    [
+      800,
+      "after node flow",
+      69
+    ],
+    [
+      801,
+      "after node delay",
+      68
+    ],
+    [
+      802,
+      "during system subsystem",
+      68
+    ],
+    [
+      803,
+      "during system environment",
+      68
+    ],
+    [
+      804,
+      "during system boundary",
+      68
+    ],
+    [
+      805,
+      "during system feedback",
+      68
+    ],
+    [
+      806,
+      "during subsystem environment",
+      68
+    ],
+    [
+      807,
+      "during subsystem boundary",
+      68
+    ],
+    [
+      808,
+      "during subsystem feedback",
+      68
+    ],
+    [
+      809,
+      "during subsystem loop",
+      68
+    ],
+    [
+      810,
+      "during environment boundary",
+      68
+    ],
+    [
+      811,
+      "during environment feedback",
+      68
+    ],
+    [
+      812,
+      "during environment loop",
+      68
+    ],
+    [
+      813,
+      "during environment coupling",
+      68
+    ],
+    [
+      814,
+      "during boundary feedback",
+      68
+    ],
+    [
+      815,
+      "during boundary loop",
+      68
+    ],
+    [
+      816,
+      "during boundary coupling",
+      68
+    ],
+    [
+      817,
+      "during boundary incentive",
+      68
+    ],
+    [
+      818,
+      "during feedback loop",
+      68
+    ],
+    [
+      819,
+      "during feedback coupling",
+      68
+    ],
+    [
+      820,
+      "during feedback incentive",
+      68
+    ],
+    [
+      821,
+      "during feedback emergence",
+      68
+    ],
+    [
+      822,
+      "during loop coupling",
+      68
+    ],
+    [
+      823,
+      "during loop incentive",
+      68
+    ],
+    [
+      824,
+      "during loop emergence",
+      68
+    ],
+    [
+      825,
+      "during loop second",
+      68
+    ],
+    [
+      826,
+      "during coupling incentive",
+      67
+    ],
+    [
+      827,
+      "during coupling emergence",
+      67
+    ],
+    [
+      828,
+      "during coupling second",
+      67
+    ],
+    [
+      829,
+      "during coupling order",
+      67
+    ],
+    [
+      830,
+      "during incentive emergence",
+      67
+    ],
+    [
+      831,
+      "during incentive second",
+      67
+    ],
+    [
+      832,
+      "during incentive order",
+      67
+    ],
+    [
+      833,
+      "during incentive side",
+      67
+    ],
+    [
+      834,
+      "during emergence second",
+      67
+    ],
+    [
+      835,
+      "during emergence order",
+      67
+    ],
+    [
+      836,
+      "during emergence side",
+      67
+    ],
+    [
+      837,
+      "during emergence effect",
+      67
+    ],
+    [
+      838,
+      "during second order",
+      67
+    ],
+    [
+      839,
+      "during second side",
+      67
+    ],
+    [
+      840,
+      "during second effect",
+      67
+    ],
+    [
+      841,
+      "during second selection",
+      67
+    ],
+    [
+      842,
+      "during order side",
+      67
+    ],
+    [
+      843,
+      "during order effect",
+      67
+    ],
+    [
+      844,
+      "during order selection",
+      67
+    ],
+    [
+      845,
+      "during order reward",
+      67
+    ],
+    [
+      846,
+      "during side effect",
+      67
+    ],
+    [
+      847,
+      "during side selection",
+      67
+    ],
+    [
+      848,
+      "during side reward",
+      67
+    ],
+    [
+      849,
+      "during side structure",
+      67
+    ],
+    [
+      850,
+      "during effect selection",
+      67
+    ],
+    [
+      851,
+      "during effect reward",
+      66
+    ],
+    [
+      852,
+      "during effect structure",
+      66
+    ],
+    [
+      853,
+      "during effect interaction",
+      66
+    ],
+    [
+      854,
+      "during selection reward",
+      66
+    ],
+    [
+      855,
+      "during selection structure",
+      66
+    ],
+    [
+      856,
+      "during selection interaction",
+      66
+    ],
+    [
+      857,
+      "during selection propagation",
+      66
+    ],
+    [
+      858,
+      "during reward structure",
+      66
+    ],
+    [
+      859,
+      "during reward interaction",
+      66
+    ],
+    [
+      860,
+      "during reward propagation",
+      66
+    ],
+    [
+      861,
+      "during reward network",
+      66
+    ],
+    [
+      862,
+      "during structure interaction",
+      66
+    ],
+    [
+      863,
+      "during structure propagation",
+      66
+    ],
+    [
+      864,
+      "during structure network",
+      66
+    ],
+    [
+      865,
+      "during structure node",
+      66
+    ],
+    [
+      866,
+      "during interaction propagation",
+      66
+    ],
+    [
+      867,
+      "during interaction network",
+      66
+    ],
+    [
+      868,
+      "during interaction node",
+      66
+    ],
+    [
+      869,
+      "during interaction edge",
+      66
+    ],
+    [
+      870,
+      "during propagation network",
+      66
+    ],
+    [
+      871,
+      "during propagation node",
+      66
+    ],
+    [
+      872,
+      "during propagation edge",
+      66
+    ],
+    [
+      873,
+      "during propagation stock",
+      66
+    ],
+    [
+      874,
+      "during network node",
+      66
+    ],
+    [
+      875,
+      "during network edge",
+      66
+    ],
+    [
+      876,
+      "during network stock",
+      65
+    ],
+    [
+      877,
+      "during network flow",
+      65
+    ],
+    [
+      878,
+      "during node edge",
+      65
+    ],
+    [
+      879,
+      "during node stock",
+      65
+    ],
+    [
+      880,
+      "during node flow",
+      65
+    ],
+    [
+      881,
+      "during node delay",
+      65
+    ],
+    [
+      882,
+      "until system subsystem",
+      65
+    ],
+    [
+      883,
+      "until system environment",
+      65
+    ],
+    [
+      884,
+      "until system boundary",
+      65
+    ],
+    [
+      885,
+      "until system feedback",
+      65
+    ],
+    [
+      886,
+      "until subsystem environment",
+      65
+    ],
+    [
+      887,
+      "until subsystem boundary",
+      65
+    ],
+    [
+      888,
+      "until subsystem feedback",
+      65
+    ],
+    [
+      889,
+      "until subsystem loop",
+      65
+    ],
+    [
+      890,
+      "until environment boundary",
+      65
+    ],
+    [
+      891,
+      "until environment feedback",
+      65
+    ],
+    [
+      892,
+      "until environment loop",
+      65
+    ],
+    [
+      893,
+      "until environment coupling",
+      65
+    ],
+    [
+      894,
+      "until boundary feedback",
+      65
+    ],
+    [
+      895,
+      "until boundary loop",
+      65
+    ],
+    [
+      896,
+      "until boundary coupling",
+      65
+    ],
+    [
+      897,
+      "until boundary incentive",
+      65
+    ],
+    [
+      898,
+      "until feedback loop",
+      65
+    ],
+    [
+      899,
+      "until feedback coupling",
+      65
+    ],
+    [
+      900,
+      "until feedback incentive",
+      65
+    ],
+    [
+      901,
+      "until feedback emergence",
+      64
+    ],
+    [
+      902,
+      "until loop coupling",
+      64
+    ],
+    [
+      903,
+      "until loop incentive",
+      64
+    ],
+    [
+      904,
+      "until loop emergence",
+      64
+    ],
+    [
+      905,
+      "until loop second",
+      64
+    ],
+    [
+      906,
+      "until coupling incentive",
+      64
+    ],
+    [
+      907,
+      "until coupling emergence",
+      64
+    ],
+    [
+      908,
+      "until coupling second",
+      64
+    ],
+    [
+      909,
+      "until coupling order",
+      64
+    ],
+    [
+      910,
+      "until incentive emergence",
+      64
+    ],
+    [
+      911,
+      "until incentive second",
+      64
+    ],
+    [
+      912,
+      "until incentive order",
+      64
+    ],
+    [
+      913,
+      "until incentive side",
+      64
+    ],
+    [
+      914,
+      "until emergence second",
+      64
+    ],
+    [
+      915,
+      "until emergence order",
+      64
+    ],
+    [
+      916,
+      "until emergence side",
+      64
+    ],
+    [
+      917,
+      "until emergence effect",
+      64
+    ],
+    [
+      918,
+      "until second order",
+      64
+    ],
+    [
+      919,
+      "until second side",
+      64
+    ],
+    [
+      920,
+      "until second effect",
+      64
+    ],
+    [
+      921,
+      "until second selection",
+      64
+    ],
+    [
+      922,
+      "until order side",
+      64
+    ],
+    [
+      923,
+      "until order effect",
+      64
+    ],
+    [
+      924,
+      "until order selection",
+      64
+    ],
+    [
+      925,
+      "until order reward",
+      64
+    ],
+    [
+      926,
+      "until side effect",
+      63
+    ],
+    [
+      927,
+      "until side selection",
+      63
+    ],
+    [
+      928,
+      "until side reward",
+      63
+    ],
+    [
+      929,
+      "until side structure",
+      63
+    ],
+    [
+      930,
+      "until effect selection",
+      63
+    ],
+    [
+      931,
+      "until effect reward",
+      63
+    ],
+    [
+      932,
+      "until effect structure",
+      63
+    ],
+    [
+      933,
+      "until effect interaction",
+      63
+    ],
+    [
+      934,
+      "until selection reward",
+      63
+    ],
+    [
+      935,
+      "until selection structure",
+      63
+    ],
+    [
+      936,
+      "until selection interaction",
+      63
+    ],
+    [
+      937,
+      "until selection propagation",
+      63
+    ],
+    [
+      938,
+      "until reward structure",
+      63
+    ],
+    [
+      939,
+      "until reward interaction",
+      63
+    ],
+    [
+      940,
+      "until reward propagation",
+      63
+    ],
+    [
+      941,
+      "until reward network",
+      63
+    ],
+    [
+      942,
+      "until structure interaction",
+      63
+    ],
+    [
+      943,
+      "until structure propagation",
+      63
+    ],
+    [
+      944,
+      "until structure network",
+      63
+    ],
+    [
+      945,
+      "until structure node",
+      63
+    ],
+    [
+      946,
+      "until interaction propagation",
+      63
+    ],
+    [
+      947,
+      "until interaction network",
+      63
+    ],
+    [
+      948,
+      "until interaction node",
+      63
+    ],
+    [
+      949,
+      "until interaction edge",
+      63
+    ],
+    [
+      950,
+      "until propagation network",
+      63
+    ],
+    [
+      951,
+      "until propagation node",
+      62
+    ],
+    [
+      952,
+      "until propagation edge",
+      62
+    ],
+    [
+      953,
+      "until propagation stock",
+      62
+    ],
+    [
+      954,
+      "until network node",
+      62
+    ],
+    [
+      955,
+      "until network edge",
+      62
+    ],
+    [
+      956,
+      "until network stock",
+      62
+    ],
+    [
+      957,
+      "until network flow",
+      62
+    ],
+    [
+      958,
+      "until node edge",
+      62
+    ],
+    [
+      959,
+      "until node stock",
+      62
+    ],
+    [
+      960,
+      "until node flow",
+      62
+    ],
+    [
+      961,
+      "until node delay",
+      62
+    ],
+    [
+      962,
+      "since system subsystem",
+      62
+    ],
+    [
+      963,
+      "since system environment",
+      62
+    ],
+    [
+      964,
+      "since system boundary",
+      62
+    ],
+    [
+      965,
+      "since system feedback",
+      62
+    ],
+    [
+      966,
+      "since subsystem environment",
+      62
+    ],
+    [
+      967,
+      "since subsystem boundary",
+      62
+    ],
+    [
+      968,
+      "since subsystem feedback",
+      62
+    ],
+    [
+      969,
+      "since subsystem loop",
+      62
+    ],
+    [
+      970,
+      "since environment boundary",
+      62
+    ],
+    [
+      971,
+      "since environment feedback",
+      62
+    ],
+    [
+      972,
+      "since environment loop",
+      62
+    ],
+    [
+      973,
+      "since environment coupling",
+      62
+    ],
+    [
+      974,
+      "since boundary feedback",
+      62
+    ],
+    [
+      975,
+      "since boundary loop",
+      62
+    ],
+    [
+      976,
+      "since boundary coupling",
+      61
+    ],
+    [
+      977,
+      "since boundary incentive",
+      61
+    ],
+    [
+      978,
+      "since feedback loop",
+      61
+    ],
+    [
+      979,
+      "since feedback coupling",
+      61
+    ],
+    [
+      980,
+      "since feedback incentive",
+      61
+    ],
+    [
+      981,
+      "since feedback emergence",
+      61
+    ],
+    [
+      982,
+      "since loop coupling",
+      61
+    ],
+    [
+      983,
+      "since loop incentive",
+      61
+    ],
+    [
+      984,
+      "since loop emergence",
+      61
+    ],
+    [
+      985,
+      "since loop second",
+      61
+    ],
+    [
+      986,
+      "since coupling incentive",
+      61
+    ],
+    [
+      987,
+      "since coupling emergence",
+      61
+    ],
+    [
+      988,
+      "since coupling second",
+      61
+    ],
+    [
+      989,
+      "since coupling order",
+      61
+    ],
+    [
+      990,
+      "since incentive emergence",
+      61
+    ],
+    [
+      991,
+      "since incentive second",
+      61
+    ],
+    [
+      992,
+      "since incentive order",
+      61
+    ],
+    [
+      993,
+      "since incentive side",
+      61
+    ],
+    [
+      994,
+      "since emergence second",
+      61
+    ],
+    [
+      995,
+      "since emergence order",
+      61
+    ],
+    [
+      996,
+      "since emergence side",
+      61
+    ],
+    [
+      997,
+      "since emergence effect",
+      61
+    ],
+    [
+      998,
+      "since second order",
+      61
+    ],
+    [
+      999,
+      "since second side",
+      61
+    ],
+    [
+      1000,
+      "since second effect",
+      61
+    ],
+    [
+      1001,
+      "since second selection",
+      60
+    ],
+    [
+      1002,
+      "since order side",
+      60
+    ],
+    [
+      1003,
+      "since order effect",
+      60
+    ],
+    [
+      1004,
+      "since order selection",
+      60
+    ],
+    [
+      1005,
+      "since order reward",
+      60
+    ],
+    [
+      1006,
+      "since side effect",
+      60
+    ],
+    [
+      1007,
+      "since side selection",
+      60
+    ],
+    [
+      1008,
+      "since side reward",
+      60
+    ],
+    [
+      1009,
+      "since side structure",
+      60
+    ],
+    [
+      1010,
+      "since effect selection",
+      60
+    ],
+    [
+      1011,
+      "since effect reward",
+      60
+    ],
+    [
+      1012,
+      "since effect structure",
+      60
+    ],
+    [
+      1013,
+      "since effect interaction",
+      60
+    ],
+    [
+      1014,
+      "since selection reward",
+      60
+    ],
+    [
+      1015,
+      "since selection structure",
+      60
+    ],
+    [
+      1016,
+      "since selection interaction",
+      60
+    ],
+    [
+      1017,
+      "since selection propagation",
+      60
+    ],
+    [
+      1018,
+      "since reward structure",
+      60
+    ],
+    [
+      1019,
+      "since reward interaction",
+      60
+    ],
+    [
+      1020,
+      "since reward propagation",
+      60
+    ],
+    [
+      1021,
+      "since reward network",
+      60
+    ],
+    [
+      1022,
+      "since structure interaction",
+      60
+    ],
+    [
+      1023,
+      "since structure propagation",
+      60
+    ],
+    [
+      1024,
+      "since structure network",
+      60
+    ],
+    [
+      1025,
+      "since structure node",
+      60
+    ],
+    [
+      1026,
+      "since interaction propagation",
+      59
+    ],
+    [
+      1027,
+      "since interaction network",
+      59
+    ],
+    [
+      1028,
+      "since interaction node",
+      59
+    ],
+    [
+      1029,
+      "since interaction edge",
+      59
+    ],
+    [
+      1030,
+      "since propagation network",
+      59
+    ],
+    [
+      1031,
+      "since propagation node",
+      59
+    ],
+    [
+      1032,
+      "since propagation edge",
+      59
+    ],
+    [
+      1033,
+      "since propagation stock",
+      59
+    ],
+    [
+      1034,
+      "since network node",
+      59
+    ],
+    [
+      1035,
+      "since network edge",
+      59
+    ],
+    [
+      1036,
+      "since network stock",
+      59
+    ],
+    [
+      1037,
+      "since network flow",
+      59
+    ],
+    [
+      1038,
+      "since node edge",
+      59
+    ],
+    [
+      1039,
+      "since node stock",
+      59
+    ],
+    [
+      1040,
+      "since node flow",
+      59
+    ],
+    [
+      1041,
+      "since node delay",
+      59
+    ],
+    [
+      1042,
+      "system subsystem environment",
+      59
+    ],
+    [
+      1043,
+      "system subsystem boundary",
+      59
+    ],
+    [
+      1044,
+      "system subsystem feedback",
+      59
+    ],
+    [
+      1045,
+      "system environment boundary",
+      59
+    ],
+    [
+      1046,
+      "system environment feedback",
+      59
+    ],
+    [
+      1047,
+      "system boundary environment",
+      59
+    ],
+    [
+      1048,
+      "system boundary feedback",
+      59
+    ],
+    [
+      1049,
+      "system feedback environment",
+      59
+    ],
+    [
+      1050,
+      "system feedback boundary",
+      59
+    ],
+    [
+      1051,
+      "system loop environment",
+      58
+    ],
+    [
+      1052,
+      "system loop boundary",
+      58
+    ],
+    [
+      1053,
+      "system loop feedback",
+      58
+    ],
+    [
+      1054,
+      "subsystem environment boundary",
+      58
+    ],
+    [
+      1055,
+      "subsystem environment feedback",
+      58
+    ],
+    [
+      1056,
+      "subsystem environment loop",
+      58
+    ],
+    [
+      1057,
+      "subsystem boundary feedback",
+      58
+    ],
+    [
+      1058,
+      "subsystem boundary loop",
+      58
+    ],
+    [
+      1059,
+      "subsystem feedback boundary",
+      58
+    ],
+    [
+      1060,
+      "subsystem feedback loop",
+      58
+    ],
+    [
+      1061,
+      "subsystem loop boundary",
+      58
+    ],
+    [
+      1062,
+      "subsystem loop feedback",
+      58
+    ],
+    [
+      1063,
+      "subsystem coupling boundary",
+      58
+    ],
+    [
+      1064,
+      "subsystem coupling feedback",
+      58
+    ],
+    [
+      1065,
+      "subsystem coupling loop",
+      58
+    ],
+    [
+      1066,
+      "environment boundary feedback",
+      58
+    ],
+    [
+      1067,
+      "environment boundary loop",
+      58
+    ],
+    [
+      1068,
+      "environment boundary coupling",
+      58
+    ],
+    [
+      1069,
+      "environment feedback loop",
+      58
+    ],
+    [
+      1070,
+      "environment feedback coupling",
+      58
+    ],
+    [
+      1071,
+      "environment loop feedback",
+      58
+    ],
+    [
+      1072,
+      "environment loop coupling",
+      58
+    ],
+    [
+      1073,
+      "environment coupling feedback",
+      58
+    ],
+    [
+      1074,
+      "environment coupling loop",
+      58
+    ],
+    [
+      1075,
+      "environment incentive feedback",
+      58
+    ],
+    [
+      1076,
+      "environment incentive loop",
+      57
+    ],
+    [
+      1077,
+      "environment incentive coupling",
+      57
+    ],
+    [
+      1078,
+      "boundary feedback loop",
+      57
+    ],
+    [
+      1079,
+      "boundary feedback coupling",
+      57
+    ],
+    [
+      1080,
+      "boundary feedback incentive",
+      57
+    ],
+    [
+      1081,
+      "boundary loop coupling",
+      57
+    ],
+    [
+      1082,
+      "boundary loop incentive",
+      57
+    ],
+    [
+      1083,
+      "boundary coupling loop",
+      57
+    ],
+    [
+      1084,
+      "boundary coupling incentive",
+      57
+    ],
+    [
+      1085,
+      "boundary incentive loop",
+      57
+    ],
+    [
+      1086,
+      "boundary incentive coupling",
+      57
+    ],
+    [
+      1087,
+      "boundary emergence loop",
+      57
+    ],
+    [
+      1088,
+      "boundary emergence coupling",
+      57
+    ],
+    [
+      1089,
+      "boundary emergence incentive",
+      57
+    ],
+    [
+      1090,
+      "feedback loop coupling",
+      57
+    ],
+    [
+      1091,
+      "feedback loop incentive",
+      57
+    ],
+    [
+      1092,
+      "feedback loop emergence",
+      57
+    ],
+    [
+      1093,
+      "feedback coupling incentive",
+      57
+    ],
+    [
+      1094,
+      "feedback coupling emergence",
+      57
+    ],
+    [
+      1095,
+      "feedback incentive coupling",
+      57
+    ],
+    [
+      1096,
+      "feedback incentive emergence",
+      57
+    ],
+    [
+      1097,
+      "feedback emergence coupling",
+      57
+    ],
+    [
+      1098,
+      "feedback emergence incentive",
+      57
+    ],
+    [
+      1099,
+      "feedback second coupling",
+      57
+    ],
+    [
+      1100,
+      "feedback second incentive",
+      57
+    ],
+    [
+      1101,
+      "feedback second emergence",
+      56
+    ],
+    [
+      1102,
+      "loop coupling incentive",
+      56
+    ],
+    [
+      1103,
+      "loop coupling emergence",
+      56
+    ],
+    [
+      1104,
+      "loop coupling second",
+      56
+    ],
+    [
+      1105,
+      "loop incentive emergence",
+      56
+    ],
+    [
+      1106,
+      "loop incentive second",
+      56
+    ],
+    [
+      1107,
+      "loop emergence incentive",
+      56
+    ],
+    [
+      1108,
+      "loop emergence second",
+      56
+    ],
+    [
+      1109,
+      "loop second incentive",
+      56
+    ],
+    [
+      1110,
+      "loop second emergence",
+      56
+    ],
+    [
+      1111,
+      "loop order incentive",
+      56
+    ],
+    [
+      1112,
+      "loop order emergence",
+      56
+    ],
+    [
+      1113,
+      "loop order second",
+      56
+    ],
+    [
+      1114,
+      "coupling incentive emergence",
+      56
+    ],
+    [
+      1115,
+      "coupling incentive second",
+      56
+    ],
+    [
+      1116,
+      "coupling incentive order",
+      56
+    ],
+    [
+      1117,
+      "coupling emergence second",
+      56
+    ],
+    [
+      1118,
+      "coupling emergence order",
+      56
+    ],
+    [
+      1119,
+      "coupling second emergence",
+      56
+    ],
+    [
+      1120,
+      "coupling second order",
+      56
+    ],
+    [
+      1121,
+      "coupling order emergence",
+      56
+    ],
+    [
+      1122,
+      "coupling order second",
+      56
+    ],
+    [
+      1123,
+      "coupling side emergence",
+      56
+    ],
+    [
+      1124,
+      "coupling side second",
+      56
+    ],
+    [
+      1125,
+      "coupling side order",
+      56
+    ],
+    [
+      1126,
+      "incentive emergence second",
+      55
+    ],
+    [
+      1127,
+      "incentive emergence order",
+      55
+    ],
+    [
+      1128,
+      "incentive emergence side",
+      55
+    ],
+    [
+      1129,
+      "incentive second order",
+      55
+    ],
+    [
+      1130,
+      "incentive second side",
+      55
+    ],
+    [
+      1131,
+      "incentive order second",
+      55
+    ],
+    [
+      1132,
+      "incentive order side",
+      55
+    ],
+    [
+      1133,
+      "incentive side second",
+      55
+    ],
+    [
+      1134,
+      "incentive side order",
+      55
+    ],
+    [
+      1135,
+      "incentive effect second",
+      55
+    ],
+    [
+      1136,
+      "incentive effect order",
+      55
+    ],
+    [
+      1137,
+      "incentive effect side",
+      55
+    ],
+    [
+      1138,
+      "emergence second order",
+      55
+    ],
+    [
+      1139,
+      "emergence second side",
+      55
+    ],
+    [
+      1140,
+      "emergence second effect",
+      55
+    ],
+    [
+      1141,
+      "emergence order side",
+      55
+    ],
+    [
+      1142,
+      "emergence order effect",
+      55
+    ],
+    [
+      1143,
+      "emergence side order",
+      55
+    ],
+    [
+      1144,
+      "emergence side effect",
+      55
+    ],
+    [
+      1145,
+      "emergence effect order",
+      55
+    ],
+    [
+      1146,
+      "emergence effect side",
+      55
+    ],
+    [
+      1147,
+      "emergence selection order",
+      55
+    ],
+    [
+      1148,
+      "emergence selection side",
+      55
+    ],
+    [
+      1149,
+      "emergence selection effect",
+      55
+    ],
+    [
+      1150,
+      "second order side",
+      55
+    ],
+    [
+      1151,
+      "second order effect",
+      54
+    ],
+    [
+      1152,
+      "second order selection",
+      54
+    ],
+    [
+      1153,
+      "second side effect",
+      54
+    ],
+    [
+      1154,
+      "second side selection",
+      54
+    ],
+    [
+      1155,
+      "second effect side",
+      54
+    ],
+    [
+      1156,
+      "second effect selection",
+      54
+    ],
+    [
+      1157,
+      "second selection side",
+      54
+    ],
+    [
+      1158,
+      "second selection effect",
+      54
+    ],
+    [
+      1159,
+      "second reward side",
+      54
+    ],
+    [
+      1160,
+      "second reward effect",
+      54
+    ],
+    [
+      1161,
+      "second reward selection",
+      54
+    ],
+    [
+      1162,
+      "order side effect",
+      54
+    ],
+    [
+      1163,
+      "order side selection",
+      54
+    ],
+    [
+      1164,
+      "order side reward",
+      54
+    ],
+    [
+      1165,
+      "order effect selection",
+      54
+    ],
+    [
+      1166,
+      "order effect reward",
+      54
+    ],
+    [
+      1167,
+      "order selection effect",
+      54
+    ],
+    [
+      1168,
+      "order selection reward",
+      54
+    ],
+    [
+      1169,
+      "order reward effect",
+      54
+    ],
+    [
+      1170,
+      "order reward selection",
+      54
+    ],
+    [
+      1171,
+      "order structure effect",
+      54
+    ],
+    [
+      1172,
+      "order structure selection",
+      54
+    ],
+    [
+      1173,
+      "order structure reward",
+      54
+    ],
+    [
+      1174,
+      "side effect selection",
+      54
+    ],
+    [
+      1175,
+      "side effect reward",
+      54
+    ],
+    [
+      1176,
+      "side effect structure",
+      53
+    ],
+    [
+      1177,
+      "side selection reward",
+      53
+    ],
+    [
+      1178,
+      "side selection structure",
+      53
+    ],
+    [
+      1179,
+      "side reward selection",
+      53
+    ],
+    [
+      1180,
+      "side reward structure",
+      53
+    ],
+    [
+      1181,
+      "side structure selection",
+      53
+    ],
+    [
+      1182,
+      "side structure reward",
+      53
+    ],
+    [
+      1183,
+      "side interaction selection",
+      53
+    ],
+    [
+      1184,
+      "side interaction reward",
+      53
+    ],
+    [
+      1185,
+      "side interaction structure",
+      53
+    ],
+    [
+      1186,
+      "effect selection reward",
+      53
+    ],
+    [
+      1187,
+      "effect selection structure",
+      53
+    ],
+    [
+      1188,
+      "effect selection interaction",
+      53
+    ],
+    [
+      1189,
+      "effect reward structure",
+      53
+    ],
+    [
+      1190,
+      "effect reward interaction",
+      53
+    ],
+    [
+      1191,
+      "effect structure reward",
+      53
+    ],
+    [
+      1192,
+      "effect structure interaction",
+      53
+    ],
+    [
+      1193,
+      "effect interaction reward",
+      53
+    ],
+    [
+      1194,
+      "effect interaction structure",
+      53
+    ],
+    [
+      1195,
+      "effect propagation reward",
+      53
+    ],
+    [
+      1196,
+      "effect propagation structure",
+      53
+    ],
+    [
+      1197,
+      "effect propagation interaction",
+      53
+    ],
+    [
+      1198,
+      "selection reward structure",
+      53
+    ],
+    [
+      1199,
+      "selection reward interaction",
+      53
+    ],
+    [
+      1200,
+      "selection reward propagation",
+      53
+    ],
+    [
+      1201,
+      "selection structure interaction",
+      52
+    ],
+    [
+      1202,
+      "selection structure propagation",
+      52
+    ],
+    [
+      1203,
+      "selection interaction structure",
+      52
+    ],
+    [
+      1204,
+      "selection interaction propagation",
+      52
+    ],
+    [
+      1205,
+      "selection propagation structure",
+      52
+    ],
+    [
+      1206,
+      "selection propagation interaction",
+      52
+    ],
+    [
+      1207,
+      "selection network structure",
+      52
+    ],
+    [
+      1208,
+      "selection network interaction",
+      52
+    ],
+    [
+      1209,
+      "selection network propagation",
+      52
+    ],
+    [
+      1210,
+      "reward structure interaction",
+      52
+    ],
+    [
+      1211,
+      "reward structure propagation",
+      52
+    ],
+    [
+      1212,
+      "reward structure network",
+      52
+    ],
+    [
+      1213,
+      "reward interaction propagation",
+      52
+    ],
+    [
+      1214,
+      "reward interaction network",
+      52
+    ],
+    [
+      1215,
+      "reward propagation interaction",
+      52
+    ],
+    [
+      1216,
+      "reward propagation network",
+      52
+    ],
+    [
+      1217,
+      "reward network interaction",
+      52
+    ],
+    [
+      1218,
+      "reward network propagation",
+      52
+    ],
+    [
+      1219,
+      "reward node interaction",
+      52
+    ],
+    [
+      1220,
+      "reward node propagation",
+      52
+    ],
+    [
+      1221,
+      "reward node network",
+      52
+    ],
+    [
+      1222,
+      "structure interaction propagation",
+      52
+    ],
+    [
+      1223,
+      "structure interaction network",
+      52
+    ],
+    [
+      1224,
+      "structure interaction node",
+      52
+    ],
+    [
+      1225,
+      "structure propagation network",
+      52
+    ],
+    [
+      1226,
+      "structure propagation node",
+      51
+    ],
+    [
+      1227,
+      "structure network propagation",
+      51
+    ],
+    [
+      1228,
+      "structure network node",
+      51
+    ],
+    [
+      1229,
+      "structure node propagation",
+      51
+    ],
+    [
+      1230,
+      "structure node network",
+      51
+    ],
+    [
+      1231,
+      "structure edge propagation",
+      51
+    ],
+    [
+      1232,
+      "structure edge network",
+      51
+    ],
+    [
+      1233,
+      "structure edge node",
+      51
+    ],
+    [
+      1234,
+      "interaction propagation network",
+      51
+    ],
+    [
+      1235,
+      "interaction propagation node",
+      51
+    ],
+    [
+      1236,
+      "interaction propagation edge",
+      51
+    ],
+    [
+      1237,
+      "interaction network node",
+      51
+    ],
+    [
+      1238,
+      "interaction network edge",
+      51
+    ],
+    [
+      1239,
+      "interaction node network",
+      51
+    ],
+    [
+      1240,
+      "interaction node edge",
+      51
+    ],
+    [
+      1241,
+      "interaction edge network",
+      51
+    ],
+    [
+      1242,
+      "interaction edge node",
+      51
+    ],
+    [
+      1243,
+      "interaction stock network",
+      51
+    ],
+    [
+      1244,
+      "interaction stock node",
+      51
+    ],
+    [
+      1245,
+      "interaction stock edge",
+      51
+    ],
+    [
+      1246,
+      "propagation network node",
+      51
+    ],
+    [
+      1247,
+      "propagation network edge",
+      51
+    ],
+    [
+      1248,
+      "propagation network stock",
+      51
+    ],
+    [
+      1249,
+      "propagation node edge",
+      51
+    ],
+    [
+      1250,
+      "propagation node stock",
+      51
+    ],
+    [
+      1251,
+      "propagation edge node",
+      50
+    ],
+    [
+      1252,
+      "propagation edge stock",
+      50
+    ],
+    [
+      1253,
+      "propagation stock node",
+      50
+    ],
+    [
+      1254,
+      "propagation stock edge",
+      50
+    ],
+    [
+      1255,
+      "propagation flow node",
+      50
+    ],
+    [
+      1256,
+      "propagation flow edge",
+      50
+    ],
+    [
+      1257,
+      "propagation flow stock",
+      50
+    ],
+    [
+      1258,
+      "network node edge",
+      50
+    ],
+    [
+      1259,
+      "network node stock",
+      50
+    ],
+    [
+      1260,
+      "network node flow",
+      50
+    ],
+    [
+      1261,
+      "network edge stock",
+      50
+    ],
+    [
+      1262,
+      "network edge flow",
+      50
+    ],
+    [
+      1263,
+      "network stock edge",
+      50
+    ],
+    [
+      1264,
+      "network stock flow",
+      50
+    ],
+    [
+      1265,
+      "network flow edge",
+      50
+    ],
+    [
+      1266,
+      "network flow stock",
+      50
+    ],
+    [
+      1267,
+      "network delay edge",
+      50
+    ],
+    [
+      1268,
+      "network delay stock",
+      50
+    ],
+    [
+      1269,
+      "network delay flow",
+      50
+    ],
+    [
+      1270,
+      "node edge stock",
+      50
+    ],
+    [
+      1271,
+      "node edge flow",
+      50
+    ],
+    [
+      1272,
+      "node edge delay",
+      50
+    ],
+    [
+      1273,
+      "node stock flow",
+      50
+    ],
+    [
+      1274,
+      "node stock delay",
+      50
+    ],
+    [
+      1275,
+      "node flow stock",
+      50
+    ],
+    [
+      1276,
+      "node flow delay",
+      49
+    ],
+    [
+      1277,
+      "node delay stock",
+      49
+    ],
+    [
+      1278,
+      "node delay flow",
+      49
+    ],
+    [
+      1279,
+      "node amplifying stock",
+      49
+    ],
+    [
+      1280,
+      "node amplifying flow",
+      49
+    ],
+    [
+      1281,
+      "node amplifying delay",
+      49
+    ],
+    [
+      1282,
+      "edge stock flow",
+      49
+    ],
+    [
+      1283,
+      "edge stock delay",
+      49
+    ],
+    [
+      1284,
+      "edge stock amplifying",
+      49
+    ],
+    [
+      1285,
+      "edge flow delay",
+      49
+    ],
+    [
+      1286,
+      "edge flow amplifying",
+      49
+    ],
+    [
+      1287,
+      "edge delay flow",
+      49
+    ],
+    [
+      1288,
+      "edge delay amplifying",
+      49
+    ],
+    [
+      1289,
+      "edge amplifying flow",
+      49
+    ],
+    [
+      1290,
+      "edge amplifying delay",
+      49
+    ],
+    [
+      1291,
+      "edge balancing flow",
+      49
+    ],
+    [
+      1292,
+      "edge balancing delay",
+      49
+    ],
+    [
+      1293,
+      "edge balancing amplifying",
+      49
+    ],
+    [
+      1294,
+      "stock flow delay",
+      49
+    ],
+    [
+      1295,
+      "stock flow amplifying",
+      49
+    ],
+    [
+      1296,
+      "stock flow balancing",
+      49
+    ],
+    [
+      1297,
+      "stock delay amplifying",
+      49
+    ],
+    [
+      1298,
+      "stock delay balancing",
+      49
+    ],
+    [
+      1299,
+      "stock amplifying delay",
+      49
+    ],
+    [
+      1300,
+      "stock amplifying balancing",
+      49
+    ],
+    [
+      1301,
+      "stock balancing delay",
+      48
+    ],
+    [
+      1302,
+      "stock balancing amplifying",
+      48
+    ],
+    [
+      1303,
+      "stock reinforcing delay",
+      48
+    ],
+    [
+      1304,
+      "stock reinforcing amplifying",
+      48
+    ],
+    [
+      1305,
+      "stock reinforcing balancing",
+      48
+    ],
+    [
+      1306,
+      "flow delay amplifying",
+      48
+    ],
+    [
+      1307,
+      "flow delay balancing",
+      48
+    ],
+    [
+      1308,
+      "flow delay reinforcing",
+      48
+    ],
+    [
+      1309,
+      "flow amplifying balancing",
+      48
+    ],
+    [
+      1310,
+      "flow amplifying reinforcing",
+      48
+    ],
+    [
+      1311,
+      "flow balancing amplifying",
+      48
+    ],
+    [
+      1312,
+      "flow balancing reinforcing",
+      48
+    ],
+    [
+      1313,
+      "flow reinforcing amplifying",
+      48
+    ],
+    [
+      1314,
+      "flow reinforcing balancing",
+      48
+    ],
+    [
+      1315,
+      "flow dynamics amplifying",
+      48
+    ],
+    [
+      1316,
+      "flow dynamics balancing",
+      48
+    ],
+    [
+      1317,
+      "flow dynamics reinforcing",
+      48
+    ],
+    [
+      1318,
+      "delay amplifying balancing",
+      48
+    ],
+    [
+      1319,
+      "delay amplifying reinforcing",
+      48
+    ],
+    [
+      1320,
+      "delay amplifying dynamics",
+      48
+    ],
+    [
+      1321,
+      "delay balancing reinforcing",
+      48
+    ],
+    [
+      1322,
+      "delay balancing dynamics",
+      48
+    ],
+    [
+      1323,
+      "delay reinforcing balancing",
+      48
+    ],
+    [
+      1324,
+      "delay reinforcing dynamics",
+      48
+    ],
+    [
+      1325,
+      "delay dynamics balancing",
+      48
+    ],
+    [
+      1326,
+      "delay dynamics reinforcing",
+      47
+    ],
+    [
+      1327,
+      "delay attractor balancing",
+      47
+    ],
+    [
+      1328,
+      "delay attractor reinforcing",
+      47
+    ],
+    [
+      1329,
+      "delay attractor dynamics",
+      47
+    ],
+    [
+      1330,
+      "amplifying balancing reinforcing",
+      47
+    ],
+    [
+      1331,
+      "amplifying balancing dynamics",
+      47
+    ],
+    [
+      1332,
+      "amplifying balancing attractor",
+      47
+    ],
+    [
+      1333,
+      "amplifying reinforcing dynamics",
+      47
+    ],
+    [
+      1334,
+      "amplifying reinforcing attractor",
+      47
+    ],
+    [
+      1335,
+      "amplifying dynamics reinforcing",
+      47
+    ],
+    [
+      1336,
+      "amplifying dynamics attractor",
+      47
+    ],
+    [
+      1337,
+      "amplifying attractor reinforcing",
+      47
+    ],
+    [
+      1338,
+      "amplifying attractor dynamics",
+      47
+    ],
+    [
+      1339,
+      "amplifying basin reinforcing",
+      47
+    ],
+    [
+      1340,
+      "amplifying basin dynamics",
+      47
+    ],
+    [
+      1341,
+      "amplifying basin attractor",
+      47
+    ],
+    [
+      1342,
+      "mini-MMM shapes voice",
+      100
+    ],
+    [
+      1343,
+      "mini MMM voice shape",
+      100
+    ],
+    [
+      1344,
+      "voice shaped by nouns",
+      100
+    ],
+    [
+      1345,
+      "aligned nouns shape voice",
+      100
+    ],
+    [
+      1346,
+      "correlated thinkers shape voice",
+      100
+    ],
+    [
+      1347,
+      "monitor controller feedback",
+      96
+    ],
+    [
+      1348,
+      "goal paradigm leverage",
+      96
+    ]
+  ],
+  "v3_4_salience_expansion": {
+    "source": "deep-research-report.md",
+    "status": "positive salience only; no diagnostic/provenance boot",
+    "route": "SYSTEMS",
+    "size": "full"
+  }
+}

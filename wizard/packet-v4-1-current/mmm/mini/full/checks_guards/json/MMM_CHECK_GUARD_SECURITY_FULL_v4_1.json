@@ -1,0 +1,5449 @@
+{
+  "words": [
+    [
+      1,
+      "security",
+      100
+    ],
+    [
+      2,
+      "secret",
+      100
+    ],
+    [
+      3,
+      "permission",
+      100
+    ],
+    [
+      4,
+      "trust",
+      100
+    ],
+    [
+      5,
+      "boundary",
+      100
+    ],
+    [
+      6,
+      "exposure",
+      100
+    ],
+    [
+      7,
+      "unsafe",
+      100
+    ],
+    [
+      8,
+      "default",
+      100
+    ],
+    [
+      9,
+      "credential",
+      100
+    ],
+    [
+      10,
+      "token",
+      100
+    ],
+    [
+      11,
+      "scope",
+      100
+    ],
+    [
+      12,
+      "privilege",
+      100
+    ],
+    [
+      13,
+      "threat",
+      100
+    ],
+    [
+      14,
+      "abuse",
+      100
+    ],
+    [
+      15,
+      "path",
+      100
+    ],
+    [
+      16,
+      "leak",
+      100
+    ],
+    [
+      17,
+      "access",
+      100
+    ],
+    [
+      18,
+      "sandbox",
+      100
+    ],
+    [
+      19,
+      "policy",
+      100
+    ],
+    [
+      20,
+      "risk",
+      100
+    ],
+    [
+      21,
+      "surface",
+      99
+    ],
+    [
+      22,
+      "trust boundary",
+      99
+    ],
+    [
+      23,
+      "abuse path",
+      99
+    ],
+    [
+      24,
+      "unsafe default",
+      99
+    ],
+    [
+      25,
+      "least privilege",
+      99
+    ],
+    [
+      26,
+      "threat surface",
+      99
+    ],
+    [
+      27,
+      "blocker",
+      99
+    ],
+    [
+      28,
+      "isolation",
+      99
+    ],
+    [
+      29,
+      "under",
+      99
+    ],
+    [
+      30,
+      "within",
+      99
+    ],
+    [
+      31,
+      "across",
+      99
+    ],
+    [
+      32,
+      "between",
+      99
+    ],
+    [
+      33,
+      "through",
+      99
+    ],
+    [
+      34,
+      "before",
+      99
+    ],
+    [
+      35,
+      "after",
+      99
+    ],
+    [
+      36,
+      "until",
+      99
+    ],
+    [
+      37,
+      "where",
+      99
+    ],
+    [
+      38,
+      "while",
+      99
+    ],
+    [
+      39,
+      "against",
+      99
+    ],
+    [
+      40,
+      "along",
+      99
+    ],
+    [
+      41,
+      "around",
+      98
+    ],
+    [
+      42,
+      "among",
+      98
+    ],
+    [
+      43,
+      "inside",
+      98
+    ],
+    [
+      44,
+      "outside",
+      98
+    ],
+    [
+      45,
+      "near",
+      98
+    ],
+    [
+      46,
+      "beside",
+      98
+    ],
+    [
+      47,
+      "over",
+      98
+    ],
+    [
+      48,
+      "from",
+      98
+    ],
+    [
+      49,
+      "with",
+      98
+    ],
+    [
+      50,
+      "without",
+      98
+    ],
+    [
+      51,
+      "only",
+      98
+    ],
+    [
+      52,
+      "not",
+      98
+    ],
+    [
+      53,
+      "no",
+      98
+    ],
+    [
+      54,
+      "yet",
+      98
+    ],
+    [
+      55,
+      "then",
+      98
+    ],
+    [
+      56,
+      "current",
+      98
+    ],
+    [
+      57,
+      "actual",
+      98
+    ],
+    [
+      58,
+      "local",
+      98
+    ],
+    [
+      59,
+      "bounded",
+      98
+    ],
+    [
+      60,
+      "finite",
+      98
+    ],
+    [
+      61,
+      "open",
+      97
+    ],
+    [
+      62,
+      "live",
+      97
+    ],
+    [
+      63,
+      "distinct",
+      97
+    ],
+    [
+      64,
+      "concrete",
+      97
+    ],
+    [
+      65,
+      "plain",
+      97
+    ],
+    [
+      66,
+      "observed",
+      97
+    ],
+    [
+      67,
+      "inferred",
+      97
+    ],
+    [
+      68,
+      "known",
+      97
+    ],
+    [
+      69,
+      "unknown",
+      97
+    ],
+    [
+      70,
+      "checked",
+      97
+    ],
+    [
+      71,
+      "missing",
+      97
+    ],
+    [
+      72,
+      "stale",
+      97
+    ],
+    [
+      73,
+      "narrow",
+      97
+    ],
+    [
+      74,
+      "small",
+      97
+    ],
+    [
+      75,
+      "warm",
+      97
+    ],
+    [
+      76,
+      "careful",
+      97
+    ],
+    [
+      77,
+      "honest",
+      97
+    ],
+    [
+      78,
+      "first",
+      97
+    ],
+    [
+      79,
+      "next",
+      97
+    ],
+    [
+      80,
+      "prior",
+      97
+    ],
+    [
+      81,
+      "later",
+      96
+    ],
+    [
+      82,
+      "separate",
+      96
+    ],
+    [
+      83,
+      "together",
+      96
+    ],
+    [
+      84,
+      "apart",
+      96
+    ],
+    [
+      85,
+      "held",
+      96
+    ],
+    [
+      86,
+      "returned",
+      96
+    ],
+    [
+      87,
+      "found",
+      96
+    ],
+    [
+      88,
+      "compared",
+      96
+    ],
+    [
+      89,
+      "measured",
+      96
+    ],
+    [
+      90,
+      "named",
+      96
+    ],
+    [
+      91,
+      "used",
+      96
+    ],
+    [
+      92,
+      "fit",
+      96
+    ],
+    [
+      93,
+      "viable",
+      96
+    ],
+    [
+      94,
+      "direct",
+      96
+    ],
+    [
+      95,
+      "different",
+      96
+    ],
+    [
+      96,
+      "alternate",
+      96
+    ],
+    [
+      97,
+      "branch",
+      96
+    ],
+    [
+      98,
+      "packet",
+      96
+    ],
+    [
+      99,
+      "artifact",
+      96
+    ],
+    [
+      100,
+      "receipt",
+      96
+    ],
+    [
+      101,
+      "trace",
+      95
+    ],
+    [
+      102,
+      "result",
+      95
+    ],
+    [
+      103,
+      "support",
+      95
+    ],
+    [
+      104,
+      "evidence",
+      95
+    ],
+    [
+      105,
+      "gate",
+      95
+    ],
+    [
+      106,
+      "guard",
+      95
+    ],
+    [
+      107,
+      "rung",
+      95
+    ],
+    [
+      108,
+      "status",
+      95
+    ],
+    [
+      109,
+      "candidate",
+      95
+    ],
+    [
+      110,
+      "survivor",
+      95
+    ],
+    [
+      111,
+      "witness",
+      95
+    ],
+    [
+      112,
+      "probe",
+      95
+    ],
+    [
+      113,
+      "constraint",
+      95
+    ],
+    [
+      114,
+      "name",
+      95
+    ],
+    [
+      115,
+      "term",
+      95
+    ],
+    [
+      116,
+      "use",
+      95
+    ],
+    [
+      117,
+      "role",
+      95
+    ],
+    [
+      118,
+      "practice",
+      95
+    ],
+    [
+      119,
+      "custom",
+      95
+    ],
+    [
+      120,
+      "habit",
+      95
+    ],
+    [
+      121,
+      "experience",
+      94
+    ],
+    [
+      122,
+      "observation",
+      94
+    ],
+    [
+      123,
+      "impression",
+      94
+    ],
+    [
+      124,
+      "idea",
+      94
+    ],
+    [
+      125,
+      "perception",
+      94
+    ],
+    [
+      126,
+      "conjunction",
+      94
+    ],
+    [
+      127,
+      "resemblance",
+      94
+    ],
+    [
+      128,
+      "relation",
+      94
+    ],
+    [
+      129,
+      "probability",
+      94
+    ],
+    [
+      130,
+      "particular",
+      94
+    ],
+    [
+      131,
+      "by",
+      94
+    ],
+    [
+      132,
+      "relative",
+      94
+    ],
+    [
+      133,
+      "locally",
+      94
+    ],
+    [
+      134,
+      "rather",
+      94
+    ],
+    [
+      135,
+      "instead",
+      94
+    ],
+    [
+      136,
+      "still",
+      94
+    ],
+    [
+      137,
+      "likely",
+      94
+    ],
+    [
+      138,
+      "possible",
+      94
+    ],
+    [
+      139,
+      "partial",
+      94
+    ],
+    [
+      140,
+      "limited",
+      94
+    ],
+    [
+      141,
+      "measurement",
+      93
+    ],
+    [
+      142,
+      "test",
+      93
+    ],
+    [
+      143,
+      "sample",
+      93
+    ],
+    [
+      144,
+      "case",
+      93
+    ],
+    [
+      145,
+      "instance",
+      93
+    ],
+    [
+      146,
+      "word",
+      93
+    ],
+    [
+      147,
+      "distinction",
+      93
+    ],
+    [
+      148,
+      "comparison",
+      93
+    ],
+    [
+      149,
+      "estimate",
+      93
+    ],
+    [
+      150,
+      "uncertainty",
+      93
+    ],
+    [
+      151,
+      "model",
+      93
+    ],
+    [
+      152,
+      "counterexample",
+      93
+    ],
+    [
+      153,
+      "condition",
+      93
+    ],
+    [
+      154,
+      "fork",
+      93
+    ],
+    [
+      155,
+      "plurality",
+      93
+    ],
+    [
+      156,
+      "reading",
+      93
+    ],
+    [
+      157,
+      "perspective",
+      93
+    ],
+    [
+      158,
+      "claim",
+      93
+    ],
+    [
+      159,
+      "route",
+      93
+    ],
+    [
+      160,
+      "voice",
+      93
+    ],
+    [
+      161,
+      "asset",
+      98
+    ],
+    [
+      162,
+      "entry point",
+      98
+    ],
+    [
+      163,
+      "exit point",
+      98
+    ],
+    [
+      164,
+      "mitigation",
+      98
+    ],
+    [
+      165,
+      "authorization",
+      98
+    ],
+    [
+      166,
+      "OWASP",
+      98
+    ]
+  ],
+  "couplings": [
+    [
+      1,
+      "under exposure",
+      100
+    ],
+    [
+      2,
+      "within exposure",
+      100
+    ],
+    [
+      3,
+      "across exposure",
+      100
+    ],
+    [
+      4,
+      "between exposure",
+      100
+    ],
+    [
+      5,
+      "through exposure",
+      100
+    ],
+    [
+      6,
+      "before exposure",
+      100
+    ],
+    [
+      7,
+      "after exposure",
+      100
+    ],
+    [
+      8,
+      "until exposure",
+      100
+    ],
+    [
+      9,
+      "where exposure",
+      100
+    ],
+    [
+      10,
+      "while exposure",
+      100
+    ],
+    [
+      11,
+      "exposure evidence",
+      100
+    ],
+    [
+      12,
+      "exposure support",
+      100
+    ],
+    [
+      13,
+      "exposure path",
+      100
+    ],
+    [
+      14,
+      "exposure surface",
+      100
+    ],
+    [
+      15,
+      "exposure packet",
+      100
+    ],
+    [
+      16,
+      "exposure receipt",
+      100
+    ],
+    [
+      17,
+      "exposure trace",
+      100
+    ],
+    [
+      18,
+      "exposure result",
+      100
+    ],
+    [
+      19,
+      "exposure scope",
+      100
+    ],
+    [
+      20,
+      "exposure boundary",
+      100
+    ],
+    [
+      21,
+      "exposure status",
+      99
+    ],
+    [
+      22,
+      "exposure candidate",
+      99
+    ],
+    [
+      23,
+      "exposure witness",
+      99
+    ],
+    [
+      24,
+      "exposure probe",
+      99
+    ],
+    [
+      25,
+      "exposure constraint",
+      99
+    ],
+    [
+      26,
+      "check exposure",
+      99
+    ],
+    [
+      27,
+      "compare exposure",
+      99
+    ],
+    [
+      28,
+      "observe exposure",
+      99
+    ],
+    [
+      29,
+      "measure exposure",
+      99
+    ],
+    [
+      30,
+      "test exposure",
+      99
+    ],
+    [
+      31,
+      "verify exposure",
+      99
+    ],
+    [
+      32,
+      "hold exposure",
+      99
+    ],
+    [
+      33,
+      "preserve exposure",
+      99
+    ],
+    [
+      34,
+      "split exposure",
+      99
+    ],
+    [
+      35,
+      "narrow exposure",
+      99
+    ],
+    [
+      36,
+      "under permission",
+      99
+    ],
+    [
+      37,
+      "within permission",
+      99
+    ],
+    [
+      38,
+      "across permission",
+      99
+    ],
+    [
+      39,
+      "between permission",
+      99
+    ],
+    [
+      40,
+      "through permission",
+      99
+    ],
+    [
+      41,
+      "before permission",
+      98
+    ],
+    [
+      42,
+      "after permission",
+      98
+    ],
+    [
+      43,
+      "until permission",
+      98
+    ],
+    [
+      44,
+      "where permission",
+      98
+    ],
+    [
+      45,
+      "while permission",
+      98
+    ],
+    [
+      46,
+      "permission evidence",
+      98
+    ],
+    [
+      47,
+      "permission support",
+      98
+    ],
+    [
+      48,
+      "permission path",
+      98
+    ],
+    [
+      49,
+      "permission surface",
+      98
+    ],
+    [
+      50,
+      "permission packet",
+      98
+    ],
+    [
+      51,
+      "permission receipt",
+      98
+    ],
+    [
+      52,
+      "permission trace",
+      98
+    ],
+    [
+      53,
+      "permission result",
+      98
+    ],
+    [
+      54,
+      "permission scope",
+      98
+    ],
+    [
+      55,
+      "permission boundary",
+      98
+    ],
+    [
+      56,
+      "permission status",
+      98
+    ],
+    [
+      57,
+      "permission candidate",
+      98
+    ],
+    [
+      58,
+      "permission witness",
+      98
+    ],
+    [
+      59,
+      "permission probe",
+      98
+    ],
+    [
+      60,
+      "permission constraint",
+      98
+    ],
+    [
+      61,
+      "check permission",
+      97
+    ],
+    [
+      62,
+      "compare permission",
+      97
+    ],
+    [
+      63,
+      "observe permission",
+      97
+    ],
+    [
+      64,
+      "measure permission",
+      97
+    ],
+    [
+      65,
+      "test permission",
+      97
+    ],
+    [
+      66,
+      "verify permission",
+      97
+    ],
+    [
+      67,
+      "hold permission",
+      97
+    ],
+    [
+      68,
+      "preserve permission",
+      97
+    ],
+    [
+      69,
+      "split permission",
+      97
+    ],
+    [
+      70,
+      "narrow permission",
+      97
+    ],
+    [
+      71,
+      "under secret",
+      97
+    ],
+    [
+      72,
+      "within secret",
+      97
+    ],
+    [
+      73,
+      "across secret",
+      97
+    ],
+    [
+      74,
+      "between secret",
+      97
+    ],
+    [
+      75,
+      "through secret",
+      97
+    ],
+    [
+      76,
+      "before secret",
+      97
+    ],
+    [
+      77,
+      "after secret",
+      97
+    ],
+    [
+      78,
+      "until secret",
+      97
+    ],
+    [
+      79,
+      "where secret",
+      97
+    ],
+    [
+      80,
+      "while secret",
+      97
+    ],
+    [
+      81,
+      "secret evidence",
+      96
+    ],
+    [
+      82,
+      "secret support",
+      96
+    ],
+    [
+      83,
+      "secret path",
+      96
+    ],
+    [
+      84,
+      "secret surface",
+      96
+    ],
+    [
+      85,
+      "secret packet",
+      96
+    ],
+    [
+      86,
+      "secret receipt",
+      96
+    ],
+    [
+      87,
+      "secret trace",
+      96
+    ],
+    [
+      88,
+      "secret result",
+      96
+    ],
+    [
+      89,
+      "secret scope",
+      96
+    ],
+    [
+      90,
+      "secret boundary",
+      96
+    ],
+    [
+      91,
+      "secret status",
+      96
+    ],
+    [
+      92,
+      "secret candidate",
+      96
+    ],
+    [
+      93,
+      "secret witness",
+      96
+    ],
+    [
+      94,
+      "secret probe",
+      96
+    ],
+    [
+      95,
+      "secret constraint",
+      96
+    ],
+    [
+      96,
+      "check secret",
+      96
+    ],
+    [
+      97,
+      "compare secret",
+      96
+    ],
+    [
+      98,
+      "observe secret",
+      96
+    ],
+    [
+      99,
+      "measure secret",
+      96
+    ],
+    [
+      100,
+      "test secret",
+      96
+    ],
+    [
+      101,
+      "verify secret",
+      95
+    ],
+    [
+      102,
+      "hold secret",
+      95
+    ],
+    [
+      103,
+      "preserve secret",
+      95
+    ],
+    [
+      104,
+      "split secret",
+      95
+    ],
+    [
+      105,
+      "narrow secret",
+      95
+    ],
+    [
+      106,
+      "under boundary",
+      95
+    ],
+    [
+      107,
+      "within boundary",
+      95
+    ],
+    [
+      108,
+      "across boundary",
+      95
+    ],
+    [
+      109,
+      "between boundary",
+      95
+    ],
+    [
+      110,
+      "through boundary",
+      95
+    ],
+    [
+      111,
+      "before boundary",
+      95
+    ],
+    [
+      112,
+      "after boundary",
+      95
+    ],
+    [
+      113,
+      "until boundary",
+      95
+    ],
+    [
+      114,
+      "where boundary",
+      95
+    ],
+    [
+      115,
+      "while boundary",
+      95
+    ],
+    [
+      116,
+      "boundary evidence",
+      95
+    ],
+    [
+      117,
+      "boundary support",
+      95
+    ],
+    [
+      118,
+      "boundary path",
+      95
+    ],
+    [
+      119,
+      "boundary surface",
+      95
+    ],
+    [
+      120,
+      "boundary packet",
+      95
+    ],
+    [
+      121,
+      "boundary receipt",
+      94
+    ],
+    [
+      122,
+      "boundary trace",
+      94
+    ],
+    [
+      123,
+      "boundary result",
+      94
+    ],
+    [
+      124,
+      "boundary scope",
+      94
+    ],
+    [
+      125,
+      "boundary boundary",
+      94
+    ],
+    [
+      126,
+      "boundary status",
+      94
+    ],
+    [
+      127,
+      "boundary candidate",
+      94
+    ],
+    [
+      128,
+      "boundary witness",
+      94
+    ],
+    [
+      129,
+      "boundary probe",
+      94
+    ],
+    [
+      130,
+      "boundary constraint",
+      94
+    ],
+    [
+      131,
+      "check boundary",
+      94
+    ],
+    [
+      132,
+      "compare boundary",
+      94
+    ],
+    [
+      133,
+      "observe boundary",
+      94
+    ],
+    [
+      134,
+      "measure boundary",
+      94
+    ],
+    [
+      135,
+      "test boundary",
+      94
+    ],
+    [
+      136,
+      "verify boundary",
+      94
+    ],
+    [
+      137,
+      "hold boundary",
+      94
+    ],
+    [
+      138,
+      "preserve boundary",
+      94
+    ],
+    [
+      139,
+      "split boundary",
+      94
+    ],
+    [
+      140,
+      "narrow boundary",
+      94
+    ],
+    [
+      141,
+      "under trust",
+      93
+    ],
+    [
+      142,
+      "within trust",
+      93
+    ],
+    [
+      143,
+      "across trust",
+      93
+    ],
+    [
+      144,
+      "between trust",
+      93
+    ],
+    [
+      145,
+      "through trust",
+      93
+    ],
+    [
+      146,
+      "before trust",
+      93
+    ],
+    [
+      147,
+      "after trust",
+      93
+    ],
+    [
+      148,
+      "until trust",
+      93
+    ],
+    [
+      149,
+      "where trust",
+      93
+    ],
+    [
+      150,
+      "while trust",
+      93
+    ],
+    [
+      151,
+      "trust evidence",
+      93
+    ],
+    [
+      152,
+      "trust support",
+      93
+    ],
+    [
+      153,
+      "trust path",
+      93
+    ],
+    [
+      154,
+      "trust surface",
+      93
+    ],
+    [
+      155,
+      "trust packet",
+      93
+    ],
+    [
+      156,
+      "trust receipt",
+      93
+    ],
+    [
+      157,
+      "trust trace",
+      93
+    ],
+    [
+      158,
+      "trust result",
+      93
+    ],
+    [
+      159,
+      "trust scope",
+      93
+    ],
+    [
+      160,
+      "trust boundary",
+      93
+    ],
+    [
+      161,
+      "trust status",
+      92
+    ],
+    [
+      162,
+      "trust candidate",
+      92
+    ],
+    [
+      163,
+      "trust witness",
+      92
+    ],
+    [
+      164,
+      "trust probe",
+      92
+    ],
+    [
+      165,
+      "trust constraint",
+      92
+    ],
+    [
+      166,
+      "check trust",
+      92
+    ],
+    [
+      167,
+      "compare trust",
+      92
+    ],
+    [
+      168,
+      "observe trust",
+      92
+    ],
+    [
+      169,
+      "measure trust",
+      92
+    ],
+    [
+      170,
+      "test trust",
+      92
+    ],
+    [
+      171,
+      "verify trust",
+      92
+    ],
+    [
+      172,
+      "hold trust",
+      92
+    ],
+    [
+      173,
+      "preserve trust",
+      92
+    ],
+    [
+      174,
+      "split trust",
+      92
+    ],
+    [
+      175,
+      "narrow trust",
+      92
+    ],
+    [
+      176,
+      "under default",
+      92
+    ],
+    [
+      177,
+      "within default",
+      92
+    ],
+    [
+      178,
+      "across default",
+      92
+    ],
+    [
+      179,
+      "between default",
+      92
+    ],
+    [
+      180,
+      "through default",
+      92
+    ],
+    [
+      181,
+      "before default",
+      91
+    ],
+    [
+      182,
+      "after default",
+      91
+    ],
+    [
+      183,
+      "until default",
+      91
+    ],
+    [
+      184,
+      "where default",
+      91
+    ],
+    [
+      185,
+      "while default",
+      91
+    ],
+    [
+      186,
+      "default evidence",
+      91
+    ],
+    [
+      187,
+      "default support",
+      91
+    ],
+    [
+      188,
+      "default path",
+      91
+    ],
+    [
+      189,
+      "default surface",
+      91
+    ],
+    [
+      190,
+      "default packet",
+      91
+    ],
+    [
+      191,
+      "default receipt",
+      91
+    ],
+    [
+      192,
+      "default trace",
+      91
+    ],
+    [
+      193,
+      "default result",
+      91
+    ],
+    [
+      194,
+      "default scope",
+      91
+    ],
+    [
+      195,
+      "default boundary",
+      91
+    ],
+    [
+      196,
+      "default status",
+      91
+    ],
+    [
+      197,
+      "default candidate",
+      91
+    ],
+    [
+      198,
+      "default witness",
+      91
+    ],
+    [
+      199,
+      "default probe",
+      91
+    ],
+    [
+      200,
+      "default constraint",
+      91
+    ],
+    [
+      201,
+      "under security",
+      90
+    ],
+    [
+      202,
+      "under unsafe",
+      90
+    ],
+    [
+      203,
+      "under credential",
+      90
+    ],
+    [
+      204,
+      "under token",
+      90
+    ],
+    [
+      205,
+      "under scope",
+      90
+    ],
+    [
+      206,
+      "under privilege",
+      90
+    ],
+    [
+      207,
+      "under threat",
+      90
+    ],
+    [
+      208,
+      "under abuse",
+      90
+    ],
+    [
+      209,
+      "under path",
+      90
+    ],
+    [
+      210,
+      "within security",
+      90
+    ],
+    [
+      211,
+      "within unsafe",
+      90
+    ],
+    [
+      212,
+      "within credential",
+      90
+    ],
+    [
+      213,
+      "within token",
+      90
+    ],
+    [
+      214,
+      "within scope",
+      90
+    ],
+    [
+      215,
+      "within privilege",
+      90
+    ],
+    [
+      216,
+      "within threat",
+      90
+    ],
+    [
+      217,
+      "within abuse",
+      90
+    ],
+    [
+      218,
+      "within path",
+      90
+    ],
+    [
+      219,
+      "across security",
+      90
+    ],
+    [
+      220,
+      "across unsafe",
+      90
+    ],
+    [
+      221,
+      "across credential",
+      89
+    ],
+    [
+      222,
+      "across token",
+      89
+    ],
+    [
+      223,
+      "across scope",
+      89
+    ],
+    [
+      224,
+      "across privilege",
+      89
+    ],
+    [
+      225,
+      "across threat",
+      89
+    ],
+    [
+      226,
+      "across abuse",
+      89
+    ],
+    [
+      227,
+      "across path",
+      89
+    ],
+    [
+      228,
+      "between security",
+      89
+    ],
+    [
+      229,
+      "between unsafe",
+      89
+    ],
+    [
+      230,
+      "between credential",
+      89
+    ],
+    [
+      231,
+      "between token",
+      89
+    ],
+    [
+      232,
+      "between scope",
+      89
+    ],
+    [
+      233,
+      "between privilege",
+      89
+    ],
+    [
+      234,
+      "between threat",
+      89
+    ],
+    [
+      235,
+      "between abuse",
+      89
+    ],
+    [
+      236,
+      "between path",
+      89
+    ],
+    [
+      237,
+      "through security",
+      89
+    ],
+    [
+      238,
+      "through unsafe",
+      89
+    ],
+    [
+      239,
+      "through credential",
+      89
+    ],
+    [
+      240,
+      "through token",
+      89
+    ],
+    [
+      241,
+      "through scope",
+      88
+    ],
+    [
+      242,
+      "through privilege",
+      88
+    ],
+    [
+      243,
+      "through threat",
+      88
+    ],
+    [
+      244,
+      "through abuse",
+      88
+    ],
+    [
+      245,
+      "through path",
+      88
+    ],
+    [
+      246,
+      "before security",
+      88
+    ],
+    [
+      247,
+      "before unsafe",
+      88
+    ],
+    [
+      248,
+      "before credential",
+      88
+    ],
+    [
+      249,
+      "before token",
+      88
+    ],
+    [
+      250,
+      "before scope",
+      88
+    ],
+    [
+      251,
+      "before privilege",
+      88
+    ],
+    [
+      252,
+      "before threat",
+      88
+    ],
+    [
+      253,
+      "before abuse",
+      88
+    ],
+    [
+      254,
+      "before path",
+      88
+    ],
+    [
+      255,
+      "after security",
+      88
+    ],
+    [
+      256,
+      "after unsafe",
+      88
+    ],
+    [
+      257,
+      "after credential",
+      88
+    ],
+    [
+      258,
+      "after token",
+      88
+    ],
+    [
+      259,
+      "after scope",
+      88
+    ],
+    [
+      260,
+      "after privilege",
+      88
+    ],
+    [
+      261,
+      "after threat",
+      87
+    ],
+    [
+      262,
+      "after abuse",
+      87
+    ],
+    [
+      263,
+      "after path",
+      87
+    ],
+    [
+      264,
+      "from security",
+      87
+    ],
+    [
+      265,
+      "from secret",
+      87
+    ],
+    [
+      266,
+      "from permission",
+      87
+    ],
+    [
+      267,
+      "from trust",
+      87
+    ],
+    [
+      268,
+      "from boundary",
+      87
+    ],
+    [
+      269,
+      "from exposure",
+      87
+    ],
+    [
+      270,
+      "from unsafe",
+      87
+    ],
+    [
+      271,
+      "from default",
+      87
+    ],
+    [
+      272,
+      "from credential",
+      87
+    ],
+    [
+      273,
+      "from token",
+      87
+    ],
+    [
+      274,
+      "from scope",
+      87
+    ],
+    [
+      275,
+      "from privilege",
+      87
+    ],
+    [
+      276,
+      "from threat",
+      87
+    ],
+    [
+      277,
+      "from abuse",
+      87
+    ],
+    [
+      278,
+      "from path",
+      87
+    ],
+    [
+      279,
+      "by security",
+      87
+    ],
+    [
+      280,
+      "by secret",
+      87
+    ],
+    [
+      281,
+      "by permission",
+      86
+    ],
+    [
+      282,
+      "by trust",
+      86
+    ],
+    [
+      283,
+      "by boundary",
+      86
+    ],
+    [
+      284,
+      "by exposure",
+      86
+    ],
+    [
+      285,
+      "by unsafe",
+      86
+    ],
+    [
+      286,
+      "by default",
+      86
+    ],
+    [
+      287,
+      "by credential",
+      86
+    ],
+    [
+      288,
+      "by token",
+      86
+    ],
+    [
+      289,
+      "by scope",
+      86
+    ],
+    [
+      290,
+      "by privilege",
+      86
+    ],
+    [
+      291,
+      "by threat",
+      86
+    ],
+    [
+      292,
+      "by abuse",
+      86
+    ],
+    [
+      293,
+      "by path",
+      86
+    ],
+    [
+      294,
+      "with security",
+      86
+    ],
+    [
+      295,
+      "with secret",
+      86
+    ],
+    [
+      296,
+      "with permission",
+      86
+    ],
+    [
+      297,
+      "with trust",
+      86
+    ],
+    [
+      298,
+      "with boundary",
+      86
+    ],
+    [
+      299,
+      "with exposure",
+      86
+    ],
+    [
+      300,
+      "with unsafe",
+      86
+    ],
+    [
+      301,
+      "with default",
+      85
+    ],
+    [
+      302,
+      "with credential",
+      85
+    ],
+    [
+      303,
+      "with token",
+      85
+    ],
+    [
+      304,
+      "with scope",
+      85
+    ],
+    [
+      305,
+      "with privilege",
+      85
+    ],
+    [
+      306,
+      "with threat",
+      85
+    ],
+    [
+      307,
+      "with abuse",
+      85
+    ],
+    [
+      308,
+      "with path",
+      85
+    ],
+    [
+      309,
+      "without security",
+      85
+    ],
+    [
+      310,
+      "without secret",
+      85
+    ],
+    [
+      311,
+      "without permission",
+      85
+    ],
+    [
+      312,
+      "without trust",
+      85
+    ],
+    [
+      313,
+      "without boundary",
+      85
+    ],
+    [
+      314,
+      "without exposure",
+      85
+    ],
+    [
+      315,
+      "without unsafe",
+      85
+    ],
+    [
+      316,
+      "without default",
+      85
+    ],
+    [
+      317,
+      "without credential",
+      85
+    ],
+    [
+      318,
+      "without token",
+      85
+    ],
+    [
+      319,
+      "without scope",
+      85
+    ],
+    [
+      320,
+      "without privilege",
+      85
+    ],
+    [
+      321,
+      "without threat",
+      84
+    ],
+    [
+      322,
+      "without abuse",
+      84
+    ],
+    [
+      323,
+      "without path",
+      84
+    ],
+    [
+      324,
+      "against security",
+      84
+    ],
+    [
+      325,
+      "against secret",
+      84
+    ],
+    [
+      326,
+      "against permission",
+      84
+    ],
+    [
+      327,
+      "against trust",
+      84
+    ],
+    [
+      328,
+      "against boundary",
+      84
+    ],
+    [
+      329,
+      "against exposure",
+      84
+    ],
+    [
+      330,
+      "against unsafe",
+      84
+    ],
+    [
+      331,
+      "against default",
+      84
+    ],
+    [
+      332,
+      "against credential",
+      84
+    ],
+    [
+      333,
+      "against token",
+      84
+    ],
+    [
+      334,
+      "against scope",
+      84
+    ],
+    [
+      335,
+      "against privilege",
+      84
+    ],
+    [
+      336,
+      "against threat",
+      84
+    ],
+    [
+      337,
+      "against abuse",
+      84
+    ],
+    [
+      338,
+      "against path",
+      84
+    ],
+    [
+      339,
+      "security secret",
+      84
+    ],
+    [
+      340,
+      "security permission",
+      84
+    ],
+    [
+      341,
+      "security trust",
+      83
+    ],
+    [
+      342,
+      "security boundary",
+      83
+    ],
+    [
+      343,
+      "security exposure",
+      83
+    ],
+    [
+      344,
+      "security unsafe",
+      83
+    ],
+    [
+      345,
+      "security default",
+      83
+    ],
+    [
+      346,
+      "secret permission",
+      83
+    ],
+    [
+      347,
+      "secret trust",
+      83
+    ],
+    [
+      348,
+      "secret exposure",
+      83
+    ],
+    [
+      349,
+      "secret unsafe",
+      83
+    ],
+    [
+      350,
+      "secret default",
+      83
+    ],
+    [
+      351,
+      "secret credential",
+      83
+    ],
+    [
+      352,
+      "permission trust",
+      83
+    ],
+    [
+      353,
+      "permission exposure",
+      83
+    ],
+    [
+      354,
+      "permission unsafe",
+      83
+    ],
+    [
+      355,
+      "permission default",
+      83
+    ],
+    [
+      356,
+      "permission credential",
+      83
+    ],
+    [
+      357,
+      "permission token",
+      83
+    ],
+    [
+      358,
+      "trust exposure",
+      83
+    ],
+    [
+      359,
+      "trust unsafe",
+      83
+    ],
+    [
+      360,
+      "trust default",
+      83
+    ],
+    [
+      361,
+      "trust credential",
+      82
+    ],
+    [
+      362,
+      "trust token",
+      82
+    ],
+    [
+      363,
+      "boundary exposure",
+      82
+    ],
+    [
+      364,
+      "boundary unsafe",
+      82
+    ],
+    [
+      365,
+      "boundary default",
+      82
+    ],
+    [
+      366,
+      "boundary credential",
+      82
+    ],
+    [
+      367,
+      "boundary token",
+      82
+    ],
+    [
+      368,
+      "boundary privilege",
+      82
+    ],
+    [
+      369,
+      "exposure unsafe",
+      82
+    ],
+    [
+      370,
+      "exposure default",
+      82
+    ],
+    [
+      371,
+      "exposure credential",
+      82
+    ],
+    [
+      372,
+      "exposure token",
+      82
+    ],
+    [
+      373,
+      "exposure privilege",
+      82
+    ],
+    [
+      374,
+      "exposure threat",
+      82
+    ],
+    [
+      375,
+      "unsafe default",
+      82
+    ],
+    [
+      376,
+      "unsafe credential",
+      82
+    ],
+    [
+      377,
+      "unsafe token",
+      82
+    ],
+    [
+      378,
+      "unsafe scope",
+      82
+    ],
+    [
+      379,
+      "unsafe privilege",
+      82
+    ],
+    [
+      380,
+      "unsafe threat",
+      82
+    ],
+    [
+      381,
+      "unsafe abuse",
+      81
+    ],
+    [
+      382,
+      "default credential",
+      81
+    ],
+    [
+      383,
+      "default token",
+      81
+    ],
+    [
+      384,
+      "default privilege",
+      81
+    ],
+    [
+      385,
+      "default threat",
+      81
+    ],
+    [
+      386,
+      "default abuse",
+      81
+    ],
+    [
+      387,
+      "credential token",
+      81
+    ],
+    [
+      388,
+      "credential scope",
+      81
+    ],
+    [
+      389,
+      "credential privilege",
+      81
+    ],
+    [
+      390,
+      "credential threat",
+      81
+    ],
+    [
+      391,
+      "credential abuse",
+      81
+    ],
+    [
+      392,
+      "credential path",
+      81
+    ],
+    [
+      393,
+      "credential leak",
+      81
+    ],
+    [
+      394,
+      "token scope",
+      81
+    ],
+    [
+      395,
+      "token privilege",
+      81
+    ],
+    [
+      396,
+      "token threat",
+      81
+    ],
+    [
+      397,
+      "token abuse",
+      81
+    ],
+    [
+      398,
+      "token path",
+      81
+    ],
+    [
+      399,
+      "token leak",
+      81
+    ],
+    [
+      400,
+      "token access",
+      81
+    ],
+    [
+      401,
+      "scope privilege",
+      80
+    ],
+    [
+      402,
+      "scope threat",
+      80
+    ],
+    [
+      403,
+      "scope abuse",
+      80
+    ],
+    [
+      404,
+      "scope path",
+      80
+    ],
+    [
+      405,
+      "scope leak",
+      80
+    ],
+    [
+      406,
+      "scope access",
+      80
+    ],
+    [
+      407,
+      "scope sandbox",
+      80
+    ],
+    [
+      408,
+      "privilege threat",
+      80
+    ],
+    [
+      409,
+      "privilege abuse",
+      80
+    ],
+    [
+      410,
+      "privilege path",
+      80
+    ],
+    [
+      411,
+      "privilege leak",
+      80
+    ],
+    [
+      412,
+      "privilege access",
+      80
+    ],
+    [
+      413,
+      "privilege sandbox",
+      80
+    ],
+    [
+      414,
+      "privilege policy",
+      80
+    ],
+    [
+      415,
+      "threat abuse",
+      80
+    ],
+    [
+      416,
+      "threat path",
+      80
+    ],
+    [
+      417,
+      "threat leak",
+      80
+    ],
+    [
+      418,
+      "threat access",
+      80
+    ],
+    [
+      419,
+      "threat sandbox",
+      80
+    ],
+    [
+      420,
+      "threat policy",
+      80
+    ],
+    [
+      421,
+      "threat risk",
+      79
+    ],
+    [
+      422,
+      "abuse path",
+      79
+    ],
+    [
+      423,
+      "abuse leak",
+      79
+    ],
+    [
+      424,
+      "abuse access",
+      79
+    ],
+    [
+      425,
+      "abuse sandbox",
+      79
+    ],
+    [
+      426,
+      "abuse policy",
+      79
+    ],
+    [
+      427,
+      "abuse risk",
+      79
+    ],
+    [
+      428,
+      "abuse surface",
+      79
+    ],
+    [
+      429,
+      "path leak",
+      79
+    ],
+    [
+      430,
+      "path access",
+      79
+    ],
+    [
+      431,
+      "path sandbox",
+      79
+    ],
+    [
+      432,
+      "path policy",
+      79
+    ],
+    [
+      433,
+      "path risk",
+      79
+    ],
+    [
+      434,
+      "path surface",
+      79
+    ],
+    [
+      435,
+      "path trust boundary",
+      79
+    ],
+    [
+      436,
+      "leak access",
+      79
+    ],
+    [
+      437,
+      "leak sandbox",
+      79
+    ],
+    [
+      438,
+      "leak policy",
+      79
+    ],
+    [
+      439,
+      "leak risk",
+      79
+    ],
+    [
+      440,
+      "leak surface",
+      79
+    ],
+    [
+      441,
+      "leak trust boundary",
+      78
+    ],
+    [
+      442,
+      "leak abuse path",
+      78
+    ],
+    [
+      443,
+      "access sandbox",
+      78
+    ],
+    [
+      444,
+      "access policy",
+      78
+    ],
+    [
+      445,
+      "access risk",
+      78
+    ],
+    [
+      446,
+      "access surface",
+      78
+    ],
+    [
+      447,
+      "access trust boundary",
+      78
+    ],
+    [
+      448,
+      "access abuse path",
+      78
+    ],
+    [
+      449,
+      "access unsafe default",
+      78
+    ],
+    [
+      450,
+      "sandbox policy",
+      78
+    ],
+    [
+      451,
+      "sandbox risk",
+      78
+    ],
+    [
+      452,
+      "sandbox surface",
+      78
+    ],
+    [
+      453,
+      "sandbox trust boundary",
+      78
+    ],
+    [
+      454,
+      "sandbox abuse path",
+      78
+    ],
+    [
+      455,
+      "sandbox unsafe default",
+      78
+    ],
+    [
+      456,
+      "sandbox least privilege",
+      78
+    ],
+    [
+      457,
+      "policy risk",
+      78
+    ],
+    [
+      458,
+      "policy surface",
+      78
+    ],
+    [
+      459,
+      "policy trust boundary",
+      78
+    ],
+    [
+      460,
+      "policy abuse path",
+      78
+    ],
+    [
+      461,
+      "policy unsafe default",
+      77
+    ],
+    [
+      462,
+      "policy least privilege",
+      77
+    ],
+    [
+      463,
+      "policy threat surface",
+      77
+    ],
+    [
+      464,
+      "risk surface",
+      77
+    ],
+    [
+      465,
+      "risk trust boundary",
+      77
+    ],
+    [
+      466,
+      "risk abuse path",
+      77
+    ],
+    [
+      467,
+      "risk unsafe default",
+      77
+    ],
+    [
+      468,
+      "risk least privilege",
+      77
+    ],
+    [
+      469,
+      "risk threat surface",
+      77
+    ],
+    [
+      470,
+      "risk blocker",
+      77
+    ],
+    [
+      471,
+      "surface trust boundary",
+      77
+    ],
+    [
+      472,
+      "surface abuse path",
+      77
+    ],
+    [
+      473,
+      "surface unsafe default",
+      77
+    ],
+    [
+      474,
+      "surface least privilege",
+      77
+    ],
+    [
+      475,
+      "surface threat surface",
+      77
+    ],
+    [
+      476,
+      "surface blocker",
+      77
+    ],
+    [
+      477,
+      "surface isolation",
+      77
+    ],
+    [
+      478,
+      "trust boundary abuse path",
+      77
+    ],
+    [
+      479,
+      "trust boundary unsafe default",
+      77
+    ],
+    [
+      480,
+      "trust boundary least privilege",
+      77
+    ],
+    [
+      481,
+      "trust boundary threat surface",
+      76
+    ],
+    [
+      482,
+      "trust boundary blocker",
+      76
+    ],
+    [
+      483,
+      "trust boundary isolation",
+      76
+    ],
+    [
+      484,
+      "trust boundary under",
+      76
+    ],
+    [
+      485,
+      "abuse path unsafe default",
+      76
+    ],
+    [
+      486,
+      "abuse path least privilege",
+      76
+    ],
+    [
+      487,
+      "abuse path threat surface",
+      76
+    ],
+    [
+      488,
+      "abuse path blocker",
+      76
+    ],
+    [
+      489,
+      "abuse path isolation",
+      76
+    ],
+    [
+      490,
+      "abuse path under",
+      76
+    ],
+    [
+      491,
+      "abuse path within",
+      76
+    ],
+    [
+      492,
+      "unsafe default least privilege",
+      76
+    ],
+    [
+      493,
+      "unsafe default threat surface",
+      76
+    ],
+    [
+      494,
+      "unsafe default blocker",
+      76
+    ],
+    [
+      495,
+      "unsafe default isolation",
+      76
+    ],
+    [
+      496,
+      "unsafe default under",
+      76
+    ],
+    [
+      497,
+      "unsafe default within",
+      76
+    ],
+    [
+      498,
+      "unsafe default across",
+      76
+    ],
+    [
+      499,
+      "least privilege threat surface",
+      76
+    ],
+    [
+      500,
+      "least privilege blocker",
+      76
+    ],
+    [
+      501,
+      "threat model",
+      97
+    ],
+    [
+      502,
+      "least privilege",
+      97
+    ],
+    [
+      503,
+      "asset threat",
+      97
+    ]
+  ],
+  "triplets": [
+    [
+      1,
+      "under current exposure",
+      100
+    ],
+    [
+      2,
+      "under local exposure",
+      100
+    ],
+    [
+      3,
+      "under bounded exposure",
+      100
+    ],
+    [
+      4,
+      "under finite exposure",
+      100
+    ],
+    [
+      5,
+      "under open exposure",
+      100
+    ],
+    [
+      6,
+      "under live exposure",
+      100
+    ],
+    [
+      7,
+      "within current exposure",
+      100
+    ],
+    [
+      8,
+      "within local exposure",
+      100
+    ],
+    [
+      9,
+      "within bounded exposure",
+      100
+    ],
+    [
+      10,
+      "within finite exposure",
+      100
+    ],
+    [
+      11,
+      "within open exposure",
+      100
+    ],
+    [
+      12,
+      "within live exposure",
+      100
+    ],
+    [
+      13,
+      "across current exposure",
+      100
+    ],
+    [
+      14,
+      "across local exposure",
+      100
+    ],
+    [
+      15,
+      "across bounded exposure",
+      100
+    ],
+    [
+      16,
+      "across finite exposure",
+      100
+    ],
+    [
+      17,
+      "across open exposure",
+      100
+    ],
+    [
+      18,
+      "across live exposure",
+      100
+    ],
+    [
+      19,
+      "between current exposure",
+      100
+    ],
+    [
+      20,
+      "between local exposure",
+      100
+    ],
+    [
+      21,
+      "between bounded exposure",
+      99
+    ],
+    [
+      22,
+      "between finite exposure",
+      99
+    ],
+    [
+      23,
+      "between open exposure",
+      99
+    ],
+    [
+      24,
+      "between live exposure",
+      99
+    ],
+    [
+      25,
+      "through current exposure",
+      99
+    ],
+    [
+      26,
+      "through local exposure",
+      99
+    ],
+    [
+      27,
+      "through bounded exposure",
+      99
+    ],
+    [
+      28,
+      "through finite exposure",
+      99
+    ],
+    [
+      29,
+      "through open exposure",
+      99
+    ],
+    [
+      30,
+      "through live exposure",
+      99
+    ],
+    [
+      31,
+      "before current exposure",
+      99
+    ],
+    [
+      32,
+      "before local exposure",
+      99
+    ],
+    [
+      33,
+      "before bounded exposure",
+      99
+    ],
+    [
+      34,
+      "before finite exposure",
+      99
+    ],
+    [
+      35,
+      "before open exposure",
+      99
+    ],
+    [
+      36,
+      "before live exposure",
+      99
+    ],
+    [
+      37,
+      "exposure evidence path",
+      99
+    ],
+    [
+      38,
+      "exposure support path",
+      99
+    ],
+    [
+      39,
+      "exposure path path",
+      99
+    ],
+    [
+      40,
+      "exposure surface path",
+      99
+    ],
+    [
+      41,
+      "exposure packet path",
+      98
+    ],
+    [
+      42,
+      "exposure receipt path",
+      98
+    ],
+    [
+      43,
+      "exposure trace path",
+      98
+    ],
+    [
+      44,
+      "exposure result path",
+      98
+    ],
+    [
+      45,
+      "exposure scope path",
+      98
+    ],
+    [
+      46,
+      "exposure boundary path",
+      98
+    ],
+    [
+      47,
+      "check exposure receipt",
+      98
+    ],
+    [
+      48,
+      "compare exposure receipt",
+      98
+    ],
+    [
+      49,
+      "observe exposure receipt",
+      98
+    ],
+    [
+      50,
+      "measure exposure receipt",
+      98
+    ],
+    [
+      51,
+      "test exposure receipt",
+      98
+    ],
+    [
+      52,
+      "verify exposure receipt",
+      98
+    ],
+    [
+      53,
+      "hold exposure receipt",
+      98
+    ],
+    [
+      54,
+      "preserve exposure receipt",
+      98
+    ],
+    [
+      55,
+      "under current permission",
+      98
+    ],
+    [
+      56,
+      "under local permission",
+      98
+    ],
+    [
+      57,
+      "under bounded permission",
+      98
+    ],
+    [
+      58,
+      "under finite permission",
+      98
+    ],
+    [
+      59,
+      "under open permission",
+      98
+    ],
+    [
+      60,
+      "under live permission",
+      98
+    ],
+    [
+      61,
+      "within current permission",
+      97
+    ],
+    [
+      62,
+      "within local permission",
+      97
+    ],
+    [
+      63,
+      "within bounded permission",
+      97
+    ],
+    [
+      64,
+      "within finite permission",
+      97
+    ],
+    [
+      65,
+      "within open permission",
+      97
+    ],
+    [
+      66,
+      "within live permission",
+      97
+    ],
+    [
+      67,
+      "across current permission",
+      97
+    ],
+    [
+      68,
+      "across local permission",
+      97
+    ],
+    [
+      69,
+      "across bounded permission",
+      97
+    ],
+    [
+      70,
+      "across finite permission",
+      97
+    ],
+    [
+      71,
+      "across open permission",
+      97
+    ],
+    [
+      72,
+      "across live permission",
+      97
+    ],
+    [
+      73,
+      "between current permission",
+      97
+    ],
+    [
+      74,
+      "between local permission",
+      97
+    ],
+    [
+      75,
+      "between bounded permission",
+      97
+    ],
+    [
+      76,
+      "between finite permission",
+      97
+    ],
+    [
+      77,
+      "between open permission",
+      97
+    ],
+    [
+      78,
+      "between live permission",
+      97
+    ],
+    [
+      79,
+      "through current permission",
+      97
+    ],
+    [
+      80,
+      "through local permission",
+      97
+    ],
+    [
+      81,
+      "through bounded permission",
+      96
+    ],
+    [
+      82,
+      "through finite permission",
+      96
+    ],
+    [
+      83,
+      "through open permission",
+      96
+    ],
+    [
+      84,
+      "through live permission",
+      96
+    ],
+    [
+      85,
+      "before current permission",
+      96
+    ],
+    [
+      86,
+      "before local permission",
+      96
+    ],
+    [
+      87,
+      "before bounded permission",
+      96
+    ],
+    [
+      88,
+      "before finite permission",
+      96
+    ],
+    [
+      89,
+      "before open permission",
+      96
+    ],
+    [
+      90,
+      "before live permission",
+      96
+    ],
+    [
+      91,
+      "permission evidence path",
+      96
+    ],
+    [
+      92,
+      "permission support path",
+      96
+    ],
+    [
+      93,
+      "permission path path",
+      96
+    ],
+    [
+      94,
+      "permission surface path",
+      96
+    ],
+    [
+      95,
+      "permission packet path",
+      96
+    ],
+    [
+      96,
+      "permission receipt path",
+      96
+    ],
+    [
+      97,
+      "permission trace path",
+      96
+    ],
+    [
+      98,
+      "permission result path",
+      96
+    ],
+    [
+      99,
+      "permission scope path",
+      96
+    ],
+    [
+      100,
+      "permission boundary path",
+      96
+    ],
+    [
+      101,
+      "check permission receipt",
+      95
+    ],
+    [
+      102,
+      "compare permission receipt",
+      95
+    ],
+    [
+      103,
+      "observe permission receipt",
+      95
+    ],
+    [
+      104,
+      "measure permission receipt",
+      95
+    ],
+    [
+      105,
+      "test permission receipt",
+      95
+    ],
+    [
+      106,
+      "verify permission receipt",
+      95
+    ],
+    [
+      107,
+      "hold permission receipt",
+      95
+    ],
+    [
+      108,
+      "preserve permission receipt",
+      95
+    ],
+    [
+      109,
+      "under current secret",
+      95
+    ],
+    [
+      110,
+      "under local secret",
+      95
+    ],
+    [
+      111,
+      "under bounded secret",
+      95
+    ],
+    [
+      112,
+      "under finite secret",
+      95
+    ],
+    [
+      113,
+      "under open secret",
+      95
+    ],
+    [
+      114,
+      "under live secret",
+      95
+    ],
+    [
+      115,
+      "within current secret",
+      95
+    ],
+    [
+      116,
+      "within local secret",
+      95
+    ],
+    [
+      117,
+      "within bounded secret",
+      95
+    ],
+    [
+      118,
+      "within finite secret",
+      95
+    ],
+    [
+      119,
+      "within open secret",
+      95
+    ],
+    [
+      120,
+      "within live secret",
+      95
+    ],
+    [
+      121,
+      "across current secret",
+      94
+    ],
+    [
+      122,
+      "across local secret",
+      94
+    ],
+    [
+      123,
+      "across bounded secret",
+      94
+    ],
+    [
+      124,
+      "across finite secret",
+      94
+    ],
+    [
+      125,
+      "across open secret",
+      94
+    ],
+    [
+      126,
+      "across live secret",
+      94
+    ],
+    [
+      127,
+      "between current secret",
+      94
+    ],
+    [
+      128,
+      "between local secret",
+      94
+    ],
+    [
+      129,
+      "between bounded secret",
+      94
+    ],
+    [
+      130,
+      "between finite secret",
+      94
+    ],
+    [
+      131,
+      "between open secret",
+      94
+    ],
+    [
+      132,
+      "between live secret",
+      94
+    ],
+    [
+      133,
+      "through current secret",
+      94
+    ],
+    [
+      134,
+      "through local secret",
+      94
+    ],
+    [
+      135,
+      "through bounded secret",
+      94
+    ],
+    [
+      136,
+      "through finite secret",
+      94
+    ],
+    [
+      137,
+      "through open secret",
+      94
+    ],
+    [
+      138,
+      "through live secret",
+      94
+    ],
+    [
+      139,
+      "before current secret",
+      94
+    ],
+    [
+      140,
+      "before local secret",
+      94
+    ],
+    [
+      141,
+      "before bounded secret",
+      93
+    ],
+    [
+      142,
+      "before finite secret",
+      93
+    ],
+    [
+      143,
+      "before open secret",
+      93
+    ],
+    [
+      144,
+      "before live secret",
+      93
+    ],
+    [
+      145,
+      "secret evidence path",
+      93
+    ],
+    [
+      146,
+      "secret support path",
+      93
+    ],
+    [
+      147,
+      "secret path path",
+      93
+    ],
+    [
+      148,
+      "secret surface path",
+      93
+    ],
+    [
+      149,
+      "secret packet path",
+      93
+    ],
+    [
+      150,
+      "secret receipt path",
+      93
+    ],
+    [
+      151,
+      "secret trace path",
+      93
+    ],
+    [
+      152,
+      "secret result path",
+      93
+    ],
+    [
+      153,
+      "secret scope path",
+      93
+    ],
+    [
+      154,
+      "secret boundary path",
+      93
+    ],
+    [
+      155,
+      "check secret receipt",
+      93
+    ],
+    [
+      156,
+      "compare secret receipt",
+      93
+    ],
+    [
+      157,
+      "observe secret receipt",
+      93
+    ],
+    [
+      158,
+      "measure secret receipt",
+      93
+    ],
+    [
+      159,
+      "test secret receipt",
+      93
+    ],
+    [
+      160,
+      "verify secret receipt",
+      93
+    ],
+    [
+      161,
+      "hold secret receipt",
+      92
+    ],
+    [
+      162,
+      "preserve secret receipt",
+      92
+    ],
+    [
+      163,
+      "under current boundary",
+      92
+    ],
+    [
+      164,
+      "under local boundary",
+      92
+    ],
+    [
+      165,
+      "under bounded boundary",
+      92
+    ],
+    [
+      166,
+      "under finite boundary",
+      92
+    ],
+    [
+      167,
+      "under open boundary",
+      92
+    ],
+    [
+      168,
+      "under live boundary",
+      92
+    ],
+    [
+      169,
+      "within current boundary",
+      92
+    ],
+    [
+      170,
+      "within local boundary",
+      92
+    ],
+    [
+      171,
+      "within bounded boundary",
+      92
+    ],
+    [
+      172,
+      "within finite boundary",
+      92
+    ],
+    [
+      173,
+      "within open boundary",
+      92
+    ],
+    [
+      174,
+      "within live boundary",
+      92
+    ],
+    [
+      175,
+      "across current boundary",
+      92
+    ],
+    [
+      176,
+      "across local boundary",
+      92
+    ],
+    [
+      177,
+      "across bounded boundary",
+      92
+    ],
+    [
+      178,
+      "across finite boundary",
+      92
+    ],
+    [
+      179,
+      "across open boundary",
+      92
+    ],
+    [
+      180,
+      "across live boundary",
+      92
+    ],
+    [
+      181,
+      "between current boundary",
+      91
+    ],
+    [
+      182,
+      "between local boundary",
+      91
+    ],
+    [
+      183,
+      "between bounded boundary",
+      91
+    ],
+    [
+      184,
+      "between finite boundary",
+      91
+    ],
+    [
+      185,
+      "between open boundary",
+      91
+    ],
+    [
+      186,
+      "between live boundary",
+      91
+    ],
+    [
+      187,
+      "through current boundary",
+      91
+    ],
+    [
+      188,
+      "through local boundary",
+      91
+    ],
+    [
+      189,
+      "through bounded boundary",
+      91
+    ],
+    [
+      190,
+      "through finite boundary",
+      91
+    ],
+    [
+      191,
+      "through open boundary",
+      91
+    ],
+    [
+      192,
+      "through live boundary",
+      91
+    ],
+    [
+      193,
+      "before current boundary",
+      91
+    ],
+    [
+      194,
+      "before local boundary",
+      91
+    ],
+    [
+      195,
+      "before bounded boundary",
+      91
+    ],
+    [
+      196,
+      "before finite boundary",
+      91
+    ],
+    [
+      197,
+      "before open boundary",
+      91
+    ],
+    [
+      198,
+      "before live boundary",
+      91
+    ],
+    [
+      199,
+      "boundary evidence path",
+      91
+    ],
+    [
+      200,
+      "boundary support path",
+      91
+    ],
+    [
+      201,
+      "boundary path path",
+      90
+    ],
+    [
+      202,
+      "boundary surface path",
+      90
+    ],
+    [
+      203,
+      "boundary packet path",
+      90
+    ],
+    [
+      204,
+      "boundary receipt path",
+      90
+    ],
+    [
+      205,
+      "boundary trace path",
+      90
+    ],
+    [
+      206,
+      "boundary result path",
+      90
+    ],
+    [
+      207,
+      "boundary scope path",
+      90
+    ],
+    [
+      208,
+      "boundary boundary path",
+      90
+    ],
+    [
+      209,
+      "check boundary receipt",
+      90
+    ],
+    [
+      210,
+      "compare boundary receipt",
+      90
+    ],
+    [
+      211,
+      "observe boundary receipt",
+      90
+    ],
+    [
+      212,
+      "measure boundary receipt",
+      90
+    ],
+    [
+      213,
+      "test boundary receipt",
+      90
+    ],
+    [
+      214,
+      "verify boundary receipt",
+      90
+    ],
+    [
+      215,
+      "hold boundary receipt",
+      90
+    ],
+    [
+      216,
+      "preserve boundary receipt",
+      90
+    ],
+    [
+      217,
+      "under current trust",
+      90
+    ],
+    [
+      218,
+      "under local trust",
+      90
+    ],
+    [
+      219,
+      "under bounded trust",
+      90
+    ],
+    [
+      220,
+      "under finite trust",
+      90
+    ],
+    [
+      221,
+      "under open trust",
+      89
+    ],
+    [
+      222,
+      "under live trust",
+      89
+    ],
+    [
+      223,
+      "within current trust",
+      89
+    ],
+    [
+      224,
+      "within local trust",
+      89
+    ],
+    [
+      225,
+      "within bounded trust",
+      89
+    ],
+    [
+      226,
+      "within finite trust",
+      89
+    ],
+    [
+      227,
+      "within open trust",
+      89
+    ],
+    [
+      228,
+      "within live trust",
+      89
+    ],
+    [
+      229,
+      "across current trust",
+      89
+    ],
+    [
+      230,
+      "across local trust",
+      89
+    ],
+    [
+      231,
+      "across bounded trust",
+      89
+    ],
+    [
+      232,
+      "across finite trust",
+      89
+    ],
+    [
+      233,
+      "across open trust",
+      89
+    ],
+    [
+      234,
+      "across live trust",
+      89
+    ],
+    [
+      235,
+      "between current trust",
+      89
+    ],
+    [
+      236,
+      "between local trust",
+      89
+    ],
+    [
+      237,
+      "between bounded trust",
+      89
+    ],
+    [
+      238,
+      "between finite trust",
+      89
+    ],
+    [
+      239,
+      "between open trust",
+      89
+    ],
+    [
+      240,
+      "between live trust",
+      89
+    ],
+    [
+      241,
+      "under security secret",
+      88
+    ],
+    [
+      242,
+      "under security permission",
+      88
+    ],
+    [
+      243,
+      "under security trust",
+      88
+    ],
+    [
+      244,
+      "under security boundary",
+      88
+    ],
+    [
+      245,
+      "under security exposure",
+      88
+    ],
+    [
+      246,
+      "under security unsafe",
+      88
+    ],
+    [
+      247,
+      "under security default",
+      88
+    ],
+    [
+      248,
+      "within secret permission",
+      88
+    ],
+    [
+      249,
+      "within secret trust",
+      88
+    ],
+    [
+      250,
+      "within secret boundary",
+      88
+    ],
+    [
+      251,
+      "within secret exposure",
+      88
+    ],
+    [
+      252,
+      "within secret unsafe",
+      88
+    ],
+    [
+      253,
+      "within secret default",
+      88
+    ],
+    [
+      254,
+      "within secret credential",
+      88
+    ],
+    [
+      255,
+      "across permission trust",
+      88
+    ],
+    [
+      256,
+      "across permission boundary",
+      88
+    ],
+    [
+      257,
+      "across permission exposure",
+      88
+    ],
+    [
+      258,
+      "across permission unsafe",
+      88
+    ],
+    [
+      259,
+      "across permission default",
+      88
+    ],
+    [
+      260,
+      "across permission credential",
+      88
+    ],
+    [
+      261,
+      "across permission token",
+      87
+    ],
+    [
+      262,
+      "between trust boundary",
+      87
+    ],
+    [
+      263,
+      "between trust exposure",
+      87
+    ],
+    [
+      264,
+      "between trust unsafe",
+      87
+    ],
+    [
+      265,
+      "between trust default",
+      87
+    ],
+    [
+      266,
+      "between trust credential",
+      87
+    ],
+    [
+      267,
+      "between trust token",
+      87
+    ],
+    [
+      268,
+      "between trust scope",
+      87
+    ],
+    [
+      269,
+      "through boundary exposure",
+      87
+    ],
+    [
+      270,
+      "through boundary unsafe",
+      87
+    ],
+    [
+      271,
+      "through boundary default",
+      87
+    ],
+    [
+      272,
+      "through boundary credential",
+      87
+    ],
+    [
+      273,
+      "through boundary token",
+      87
+    ],
+    [
+      274,
+      "through boundary scope",
+      87
+    ],
+    [
+      275,
+      "through boundary privilege",
+      87
+    ],
+    [
+      276,
+      "before exposure unsafe",
+      87
+    ],
+    [
+      277,
+      "before exposure default",
+      87
+    ],
+    [
+      278,
+      "before exposure credential",
+      87
+    ],
+    [
+      279,
+      "before exposure token",
+      87
+    ],
+    [
+      280,
+      "before exposure scope",
+      87
+    ],
+    [
+      281,
+      "before exposure privilege",
+      86
+    ],
+    [
+      282,
+      "before exposure threat",
+      86
+    ],
+    [
+      283,
+      "after unsafe default",
+      86
+    ],
+    [
+      284,
+      "after unsafe credential",
+      86
+    ],
+    [
+      285,
+      "after unsafe token",
+      86
+    ],
+    [
+      286,
+      "after unsafe scope",
+      86
+    ],
+    [
+      287,
+      "after unsafe privilege",
+      86
+    ],
+    [
+      288,
+      "after unsafe threat",
+      86
+    ],
+    [
+      289,
+      "after unsafe abuse",
+      86
+    ],
+    [
+      290,
+      "from default credential",
+      86
+    ],
+    [
+      291,
+      "from default token",
+      86
+    ],
+    [
+      292,
+      "from default scope",
+      86
+    ],
+    [
+      293,
+      "from default privilege",
+      86
+    ],
+    [
+      294,
+      "from default threat",
+      86
+    ],
+    [
+      295,
+      "from default abuse",
+      86
+    ],
+    [
+      296,
+      "from default path",
+      86
+    ],
+    [
+      297,
+      "by credential token",
+      86
+    ],
+    [
+      298,
+      "by credential scope",
+      86
+    ],
+    [
+      299,
+      "by credential privilege",
+      86
+    ],
+    [
+      300,
+      "by credential threat",
+      86
+    ],
+    [
+      301,
+      "by credential abuse",
+      85
+    ],
+    [
+      302,
+      "by credential path",
+      85
+    ],
+    [
+      303,
+      "by credential leak",
+      85
+    ],
+    [
+      304,
+      "with token scope",
+      85
+    ],
+    [
+      305,
+      "with token privilege",
+      85
+    ],
+    [
+      306,
+      "with token threat",
+      85
+    ],
+    [
+      307,
+      "with token abuse",
+      85
+    ],
+    [
+      308,
+      "with token path",
+      85
+    ],
+    [
+      309,
+      "with token leak",
+      85
+    ],
+    [
+      310,
+      "with token access",
+      85
+    ],
+    [
+      311,
+      "without scope privilege",
+      85
+    ],
+    [
+      312,
+      "without scope threat",
+      85
+    ],
+    [
+      313,
+      "without scope abuse",
+      85
+    ],
+    [
+      314,
+      "without scope path",
+      85
+    ],
+    [
+      315,
+      "without scope leak",
+      85
+    ],
+    [
+      316,
+      "without scope access",
+      85
+    ],
+    [
+      317,
+      "without scope sandbox",
+      85
+    ],
+    [
+      318,
+      "against privilege threat",
+      85
+    ],
+    [
+      319,
+      "against privilege abuse",
+      85
+    ],
+    [
+      320,
+      "against privilege path",
+      85
+    ],
+    [
+      321,
+      "against privilege leak",
+      84
+    ],
+    [
+      322,
+      "against privilege access",
+      84
+    ],
+    [
+      323,
+      "against privilege sandbox",
+      84
+    ],
+    [
+      324,
+      "against privilege policy",
+      84
+    ],
+    [
+      325,
+      "relative threat abuse",
+      84
+    ],
+    [
+      326,
+      "relative threat path",
+      84
+    ],
+    [
+      327,
+      "relative threat leak",
+      84
+    ],
+    [
+      328,
+      "relative threat access",
+      84
+    ],
+    [
+      329,
+      "relative threat sandbox",
+      84
+    ],
+    [
+      330,
+      "relative threat policy",
+      84
+    ],
+    [
+      331,
+      "relative threat risk",
+      84
+    ],
+    [
+      332,
+      "locally abuse path",
+      84
+    ],
+    [
+      333,
+      "locally abuse leak",
+      84
+    ],
+    [
+      334,
+      "locally abuse access",
+      84
+    ],
+    [
+      335,
+      "locally abuse sandbox",
+      84
+    ],
+    [
+      336,
+      "locally abuse policy",
+      84
+    ],
+    [
+      337,
+      "locally abuse risk",
+      84
+    ],
+    [
+      338,
+      "locally abuse surface",
+      84
+    ],
+    [
+      339,
+      "rather path leak",
+      84
+    ],
+    [
+      340,
+      "rather path access",
+      84
+    ],
+    [
+      341,
+      "rather path sandbox",
+      83
+    ],
+    [
+      342,
+      "rather path policy",
+      83
+    ],
+    [
+      343,
+      "rather path risk",
+      83
+    ],
+    [
+      344,
+      "rather path surface",
+      83
+    ],
+    [
+      345,
+      "rather path trust boundary",
+      83
+    ],
+    [
+      346,
+      "instead leak access",
+      83
+    ],
+    [
+      347,
+      "instead leak sandbox",
+      83
+    ],
+    [
+      348,
+      "instead leak policy",
+      83
+    ],
+    [
+      349,
+      "instead leak risk",
+      83
+    ],
+    [
+      350,
+      "instead leak surface",
+      83
+    ],
+    [
+      351,
+      "instead leak trust boundary",
+      83
+    ],
+    [
+      352,
+      "instead leak abuse path",
+      83
+    ],
+    [
+      353,
+      "only access sandbox",
+      83
+    ],
+    [
+      354,
+      "only access policy",
+      83
+    ],
+    [
+      355,
+      "only access risk",
+      83
+    ],
+    [
+      356,
+      "only access surface",
+      83
+    ],
+    [
+      357,
+      "only access trust boundary",
+      83
+    ],
+    [
+      358,
+      "only access abuse path",
+      83
+    ],
+    [
+      359,
+      "only access unsafe default",
+      83
+    ],
+    [
+      360,
+      "still sandbox policy",
+      83
+    ],
+    [
+      361,
+      "still sandbox risk",
+      82
+    ],
+    [
+      362,
+      "still sandbox surface",
+      82
+    ],
+    [
+      363,
+      "still sandbox trust boundary",
+      82
+    ],
+    [
+      364,
+      "still sandbox abuse path",
+      82
+    ],
+    [
+      365,
+      "still sandbox unsafe default",
+      82
+    ],
+    [
+      366,
+      "still sandbox least privilege",
+      82
+    ],
+    [
+      367,
+      "likely policy risk",
+      82
+    ],
+    [
+      368,
+      "likely policy surface",
+      82
+    ],
+    [
+      369,
+      "likely policy trust boundary",
+      82
+    ],
+    [
+      370,
+      "likely policy abuse path",
+      82
+    ],
+    [
+      371,
+      "likely policy unsafe default",
+      82
+    ],
+    [
+      372,
+      "likely policy least privilege",
+      82
+    ],
+    [
+      373,
+      "likely policy threat surface",
+      82
+    ],
+    [
+      374,
+      "possible risk surface",
+      82
+    ],
+    [
+      375,
+      "possible risk trust boundary",
+      82
+    ],
+    [
+      376,
+      "possible risk abuse path",
+      82
+    ],
+    [
+      377,
+      "possible risk unsafe default",
+      82
+    ],
+    [
+      378,
+      "possible risk least privilege",
+      82
+    ],
+    [
+      379,
+      "possible risk threat surface",
+      82
+    ],
+    [
+      380,
+      "possible risk blocker",
+      82
+    ],
+    [
+      381,
+      "bounded surface trust boundary",
+      81
+    ],
+    [
+      382,
+      "bounded surface abuse path",
+      81
+    ],
+    [
+      383,
+      "bounded surface unsafe default",
+      81
+    ],
+    [
+      384,
+      "bounded surface least privilege",
+      81
+    ],
+    [
+      385,
+      "bounded surface threat surface",
+      81
+    ],
+    [
+      386,
+      "bounded surface blocker",
+      81
+    ],
+    [
+      387,
+      "bounded surface isolation",
+      81
+    ],
+    [
+      388,
+      "finite trust boundary abuse path",
+      81
+    ],
+    [
+      389,
+      "finite trust boundary unsafe default",
+      81
+    ],
+    [
+      390,
+      "finite trust boundary least privilege",
+      81
+    ],
+    [
+      391,
+      "finite trust boundary threat surface",
+      81
+    ],
+    [
+      392,
+      "finite trust boundary blocker",
+      81
+    ],
+    [
+      393,
+      "finite trust boundary isolation",
+      81
+    ],
+    [
+      394,
+      "finite trust boundary under",
+      81
+    ],
+    [
+      395,
+      "local abuse path unsafe default",
+      81
+    ],
+    [
+      396,
+      "local abuse path least privilege",
+      81
+    ],
+    [
+      397,
+      "local abuse path threat surface",
+      81
+    ],
+    [
+      398,
+      "local abuse path blocker",
+      81
+    ],
+    [
+      399,
+      "local abuse path isolation",
+      81
+    ],
+    [
+      400,
+      "local abuse path under",
+      81
+    ],
+    [
+      401,
+      "local abuse path within",
+      80
+    ],
+    [
+      402,
+      "current unsafe default least privilege",
+      80
+    ],
+    [
+      403,
+      "current unsafe default threat surface",
+      80
+    ],
+    [
+      404,
+      "current unsafe default blocker",
+      80
+    ],
+    [
+      405,
+      "current unsafe default isolation",
+      80
+    ],
+    [
+      406,
+      "current unsafe default under",
+      80
+    ],
+    [
+      407,
+      "current unsafe default within",
+      80
+    ],
+    [
+      408,
+      "current unsafe default across",
+      80
+    ],
+    [
+      409,
+      "observed least privilege threat surface",
+      80
+    ],
+    [
+      410,
+      "observed least privilege blocker",
+      80
+    ],
+    [
+      411,
+      "observed least privilege isolation",
+      80
+    ],
+    [
+      412,
+      "observed least privilege under",
+      80
+    ],
+    [
+      413,
+      "observed least privilege within",
+      80
+    ],
+    [
+      414,
+      "observed least privilege across",
+      80
+    ],
+    [
+      415,
+      "observed least privilege between",
+      80
+    ],
+    [
+      416,
+      "asset threat mitigation",
+      96
+    ],
+    [
+      417,
+      "entry exit boundary",
+      96
+    ],
+    [
+      418,
+      "authorization least privilege",
+      96
+    ]
+  ],
+  "v4_1_salience_expansion": {
+    "source": "deep-research-report.md",
+    "status": "positive salience only; no diagnostic/provenance boot",
+    "route": "SECURITY",
+    "size": "full"
+  }
+}

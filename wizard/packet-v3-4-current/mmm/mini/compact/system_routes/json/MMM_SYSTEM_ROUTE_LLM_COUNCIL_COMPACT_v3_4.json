@@ -1,0 +1,1939 @@
+{
+  "words": [
+    [
+      1,
+      "independent route",
+      100
+    ],
+    [
+      2,
+      "route status",
+      100
+    ],
+    [
+      3,
+      "dissent",
+      100
+    ],
+    [
+      4,
+      "council",
+      100
+    ],
+    [
+      5,
+      "untried",
+      100
+    ],
+    [
+      6,
+      "diagnostic",
+      100
+    ],
+    [
+      7,
+      "comparison",
+      100
+    ],
+    [
+      8,
+      "model family",
+      100
+    ],
+    [
+      9,
+      "outside frame",
+      100
+    ],
+    [
+      10,
+      "alternate reading",
+      100
+    ],
+    [
+      11,
+      "receipt changed",
+      100
+    ],
+    [
+      12,
+      "not a vote",
+      100
+    ],
+    [
+      13,
+      "split retained",
+      100
+    ],
+    [
+      14,
+      "disagreement",
+      100
+    ],
+    [
+      15,
+      "no consensus",
+      100
+    ],
+    [
+      16,
+      "unsupported",
+      100
+    ],
+    [
+      17,
+      "blocked",
+      100
+    ],
+    [
+      18,
+      "route",
+      100
+    ],
+    [
+      19,
+      "live",
+      100
+    ],
+    [
+      20,
+      "role",
+      100
+    ],
+    [
+      21,
+      "role-family",
+      100
+    ],
+    [
+      22,
+      "roles",
+      100
+    ],
+    [
+      23,
+      "routes",
+      100
+    ],
+    [
+      24,
+      "sonnet",
+      100
+    ],
+    [
+      25,
+      "opus",
+      100
+    ],
+    [
+      26,
+      "codex",
+      100
+    ],
+    [
+      27,
+      "gemini",
+      100
+    ],
+    [
+      28,
+      "external",
+      100
+    ],
+    [
+      29,
+      "view",
+      100
+    ],
+    [
+      30,
+      "family",
+      100
+    ],
+    [
+      31,
+      "independent",
+      100
+    ],
+    [
+      32,
+      "implementation",
+      100
+    ],
+    [
+      33,
+      "harness",
+      100
+    ],
+    [
+      34,
+      "judgment",
+      100
+    ],
+    [
+      35,
+      "llm",
+      100
+    ],
+    [
+      36,
+      "model-family",
+      100
+    ],
+    [
+      37,
+      "existing",
+      100
+    ],
+    [
+      38,
+      "them",
+      100
+    ],
+    [
+      39,
+      "votes",
+      100
+    ],
+    [
+      40,
+      "reject",
+      100
+    ],
+    [
+      41,
+      "even",
+      100
+    ],
+    [
+      42,
+      "most",
+      100
+    ],
+    [
+      43,
+      "calm",
+      100
+    ],
+    [
+      44,
+      "changed",
+      100
+    ],
+    [
+      45,
+      "state",
+      100
+    ],
+    [
+      46,
+      "provide",
+      100
+    ],
+    [
+      47,
+      "outside-frame",
+      100
+    ],
+    [
+      48,
+      "replacing",
+      100
+    ],
+    [
+      49,
+      "majority",
+      100
+    ],
+    [
+      50,
+      "frame",
+      100
+    ],
+    [
+      51,
+      "vote",
+      100
+    ],
+    [
+      52,
+      "simulation",
+      100
+    ],
+    [
+      53,
+      "models",
+      100
+    ],
+    [
+      54,
+      "reporting",
+      100
+    ],
+    [
+      55,
+      "summarizing",
+      100
+    ],
+    [
+      56,
+      "they",
+      100
+    ],
+    [
+      57,
+      "voted",
+      100
+    ],
+    [
+      58,
+      "collapsing",
+      100
+    ],
+    [
+      59,
+      "generic",
+      100
+    ],
+    [
+      60,
+      "using",
+      100
+    ],
+    [
+      61,
+      "exists",
+      100
+    ],
+    [
+      62,
+      "stealing",
+      100
+    ],
+    [
+      63,
+      "deciding",
+      100
+    ],
+    [
+      64,
+      "blocker",
+      100
+    ],
+    [
+      65,
+      "challenger",
+      100
+    ],
+    [
+      66,
+      "check",
+      100
+    ],
+    [
+      67,
+      "crosscheck",
+      100
+    ],
+    [
+      68,
+      "minority",
+      100
+    ],
+    [
+      69,
+      "model",
+      100
+    ],
+    [
+      70,
+      "objection",
+      100
+    ],
+    [
+      71,
+      "outside",
+      100
+    ],
+    [
+      72,
+      "receipt",
+      100
+    ],
+    [
+      73,
+      "reviewer",
+      100
+    ],
+    [
+      74,
+      "split",
+      100
+    ],
+    [
+      75,
+      "mini-MMM",
+      100
+    ],
+    [
+      76,
+      "mini MMM",
+      100
+    ],
+    [
+      77,
+      "voice shape",
+      100
+    ],
+    [
+      78,
+      "voice shaping",
+      100
+    ],
+    [
+      79,
+      "shape voice",
+      100
+    ],
+    [
+      80,
+      "shaped voice",
+      100
+    ],
+    [
+      81,
+      "voice contour",
+      100
+    ],
+    [
+      82,
+      "voice signature",
+      100
+    ],
+    [
+      83,
+      "voice localizer",
+      100
+    ],
+    [
+      84,
+      "local voice",
+      100
+    ],
+    [
+      85,
+      "aligned nouns",
+      100
+    ],
+    [
+      86,
+      "correlated thinkers",
+      100
+    ],
+    [
+      87,
+      "thinker alignment",
+      100
+    ],
+    [
+      88,
+      "noun alignment",
+      100
+    ],
+    [
+      89,
+      "independent proposal",
+      98
+    ],
+    [
+      90,
+      "diverse reasoning paths",
+      98
+    ],
+    [
+      91,
+      "route comparison",
+      98
+    ],
+    [
+      92,
+      "debate round",
+      98
+    ],
+    [
+      93,
+      "aggregation",
+      98
+    ],
+    [
+      94,
+      "arbitration",
+      98
+    ],
+    [
+      95,
+      "dissent preservation",
+      98
+    ],
+    [
+      96,
+      "trust calibration",
+      98
+    ],
+    [
+      97,
+      "source-aware filtering",
+      98
+    ],
+    [
+      98,
+      "self-consistency",
+      98
+    ]
+  ],
+  "couplings": [
+    [
+      1,
+      "council",
+      100
+    ],
+    [
+      2,
+      "untried",
+      100
+    ],
+    [
+      3,
+      "diagnostic",
+      100
+    ],
+    [
+      4,
+      "dissent",
+      100
+    ],
+    [
+      5,
+      "comparison",
+      100
+    ],
+    [
+      6,
+      "independent route",
+      100
+    ],
+    [
+      7,
+      "route status",
+      100
+    ],
+    [
+      8,
+      "council route",
+      100
+    ],
+    [
+      9,
+      "council dissent",
+      100
+    ],
+    [
+      10,
+      "council disagreement",
+      100
+    ],
+    [
+      11,
+      "route dissent",
+      100
+    ],
+    [
+      12,
+      "route untried",
+      100
+    ],
+    [
+      13,
+      "under untried",
+      100
+    ],
+    [
+      14,
+      "under diagnostic",
+      100
+    ],
+    [
+      15,
+      "dissent disagreement",
+      100
+    ],
+    [
+      16,
+      "dissent blocked",
+      100
+    ],
+    [
+      17,
+      "dissent untried",
+      100
+    ],
+    [
+      18,
+      "dissent diagnostic",
+      100
+    ],
+    [
+      19,
+      "dissent live",
+      100
+    ],
+    [
+      20,
+      "disagreement untried",
+      100
+    ],
+    [
+      21,
+      "disagreement diagnostic",
+      100
+    ],
+    [
+      22,
+      "model family",
+      100
+    ],
+    [
+      23,
+      "alternate reading",
+      100
+    ],
+    [
+      24,
+      "receipt changed",
+      100
+    ],
+    [
+      25,
+      "blocked untried",
+      100
+    ],
+    [
+      26,
+      "blocked diagnostic",
+      100
+    ],
+    [
+      27,
+      "untried diagnostic",
+      100
+    ],
+    [
+      28,
+      "untried live",
+      100
+    ],
+    [
+      29,
+      "split retained",
+      100
+    ],
+    [
+      30,
+      "live",
+      100
+    ],
+    [
+      31,
+      "within untried",
+      100
+    ],
+    [
+      32,
+      "within diagnostic",
+      100
+    ],
+    [
+      33,
+      "diagnostic live",
+      100
+    ],
+    [
+      34,
+      "across untried",
+      100
+    ],
+    [
+      35,
+      "across diagnostic",
+      100
+    ],
+    [
+      36,
+      "model route",
+      100
+    ],
+    [
+      37,
+      "outside frame",
+      100
+    ],
+    [
+      38,
+      "not a vote",
+      100
+    ],
+    [
+      39,
+      "between untried",
+      100
+    ],
+    [
+      40,
+      "between diagnostic",
+      100
+    ],
+    [
+      41,
+      "through untried",
+      100
+    ],
+    [
+      42,
+      "model family independent route",
+      100
+    ],
+    [
+      43,
+      "model family comparison",
+      100
+    ],
+    [
+      44,
+      "model family route status",
+      100
+    ],
+    [
+      45,
+      "through diagnostic",
+      100
+    ],
+    [
+      46,
+      "under council",
+      100
+    ],
+    [
+      47,
+      "role independent route",
+      100
+    ],
+    [
+      48,
+      "role comparison",
+      100
+    ],
+    [
+      49,
+      "role split retained",
+      100
+    ],
+    [
+      50,
+      "role route status",
+      100
+    ],
+    [
+      51,
+      "alternate reading independent route",
+      100
+    ],
+    [
+      52,
+      "alternate reading comparison",
+      100
+    ],
+    [
+      53,
+      "alternate reading route status",
+      100
+    ],
+    [
+      54,
+      "unsupported independent route",
+      100
+    ],
+    [
+      55,
+      "unsupported comparison",
+      100
+    ],
+    [
+      56,
+      "unsupported route status",
+      100
+    ],
+    [
+      57,
+      "receipt changed independent route",
+      100
+    ],
+    [
+      58,
+      "receipt changed comparison",
+      100
+    ],
+    [
+      59,
+      "receipt changed route status",
+      100
+    ],
+    [
+      60,
+      "before untried",
+      100
+    ],
+    [
+      61,
+      "before diagnostic",
+      100
+    ],
+    [
+      62,
+      "under dissent",
+      100
+    ],
+    [
+      63,
+      "within council",
+      100
+    ],
+    [
+      64,
+      "within dissent",
+      100
+    ],
+    [
+      65,
+      "independent route comparison",
+      100
+    ],
+    [
+      66,
+      "independent route split retained",
+      100
+    ],
+    [
+      67,
+      "independent route route status",
+      100
+    ],
+    [
+      68,
+      "after untried",
+      100
+    ],
+    [
+      69,
+      "after diagnostic",
+      100
+    ],
+    [
+      70,
+      "route",
+      100
+    ],
+    [
+      71,
+      "role",
+      100
+    ],
+    [
+      72,
+      "during council",
+      100
+    ],
+    [
+      73,
+      "unsupported",
+      100
+    ],
+    [
+      74,
+      "during dissent",
+      100
+    ],
+    [
+      75,
+      "across council",
+      100
+    ],
+    [
+      76,
+      "during untried",
+      100
+    ],
+    [
+      77,
+      "during diagnostic",
+      100
+    ],
+    [
+      78,
+      "across dissent",
+      100
+    ],
+    [
+      79,
+      "no consensus independent route",
+      100
+    ],
+    [
+      80,
+      "no consensus comparison",
+      100
+    ],
+    [
+      81,
+      "no consensus route status",
+      100
+    ],
+    [
+      82,
+      "until council",
+      100
+    ],
+    [
+      83,
+      "no consensus",
+      100
+    ],
+    [
+      84,
+      "until dissent",
+      100
+    ],
+    [
+      85,
+      "between council",
+      100
+    ],
+    [
+      86,
+      "until untried",
+      100
+    ],
+    [
+      87,
+      "until diagnostic",
+      100
+    ],
+    [
+      88,
+      "since council",
+      100
+    ],
+    [
+      89,
+      "between dissent",
+      100
+    ],
+    [
+      90,
+      "route blocked",
+      100
+    ],
+    [
+      91,
+      "through council",
+      100
+    ],
+    [
+      92,
+      "blocked",
+      100
+    ],
+    [
+      93,
+      "through dissent",
+      100
+    ],
+    [
+      94,
+      "before council",
+      100
+    ],
+    [
+      95,
+      "before dissent",
+      100
+    ],
+    [
+      96,
+      "after council",
+      100
+    ],
+    [
+      97,
+      "after dissent",
+      100
+    ],
+    [
+      98,
+      "toward council",
+      100
+    ],
+    [
+      99,
+      "council model",
+      100
+    ],
+    [
+      100,
+      "council sonnet",
+      100
+    ],
+    [
+      101,
+      "council opus",
+      100
+    ],
+    [
+      102,
+      "council codex",
+      100
+    ],
+    [
+      103,
+      "council gemini",
+      100
+    ],
+    [
+      104,
+      "council external",
+      100
+    ],
+    [
+      105,
+      "council view",
+      100
+    ],
+    [
+      106,
+      "council state",
+      100
+    ],
+    [
+      107,
+      "model dissent",
+      100
+    ],
+    [
+      108,
+      "near council",
+      100
+    ],
+    [
+      109,
+      "route disagreement",
+      100
+    ],
+    [
+      110,
+      "sonnet dissent",
+      100
+    ],
+    [
+      111,
+      "sonnet untried",
+      100
+    ],
+    [
+      112,
+      "sonnet diagnostic",
+      100
+    ],
+    [
+      113,
+      "relative council",
+      100
+    ],
+    [
+      114,
+      "opus dissent",
+      100
+    ],
+    [
+      115,
+      "opus untried",
+      100
+    ],
+    [
+      116,
+      "opus diagnostic",
+      100
+    ],
+    [
+      117,
+      "codex dissent",
+      100
+    ],
+    [
+      118,
+      "codex untried",
+      100
+    ],
+    [
+      119,
+      "codex diagnostic",
+      100
+    ],
+    [
+      120,
+      "gemini dissent",
+      100
+    ],
+    [
+      121,
+      "gemini untried",
+      100
+    ],
+    [
+      122,
+      "gemini diagnostic",
+      100
+    ],
+    [
+      123,
+      "blocked model",
+      100
+    ],
+    [
+      124,
+      "council split",
+      100
+    ],
+    [
+      125,
+      "cross model check",
+      100
+    ],
+    [
+      126,
+      "diagnostic route",
+      100
+    ],
+    [
+      127,
+      "disagreement preserved",
+      100
+    ],
+    [
+      128,
+      "external check",
+      100
+    ],
+    [
+      129,
+      "external pressure",
+      100
+    ],
+    [
+      130,
+      "independent comparison",
+      100
+    ],
+    [
+      131,
+      "independent reviewer",
+      100
+    ],
+    [
+      132,
+      "live dissent",
+      100
+    ],
+    [
+      133,
+      "minority objection",
+      100
+    ],
+    [
+      134,
+      "receipt comparison",
+      100
+    ],
+    [
+      135,
+      "route blocker",
+      100
+    ],
+    [
+      136,
+      "route state",
+      100
+    ],
+    [
+      137,
+      "untried route",
+      100
+    ],
+    [
+      138,
+      "since dissent",
+      99
+    ],
+    [
+      139,
+      "since untried",
+      99
+    ],
+    [
+      140,
+      "since diagnostic",
+      99
+    ],
+    [
+      141,
+      "from untried",
+      99
+    ],
+    [
+      142,
+      "from diagnostic",
+      99
+    ],
+    [
+      143,
+      "by untried",
+      98
+    ],
+    [
+      144,
+      "by diagnostic",
+      98
+    ],
+    [
+      145,
+      "with untried",
+      98
+    ],
+    [
+      146,
+      "with diagnostic",
+      98
+    ],
+    [
+      147,
+      "without untried",
+      97
+    ],
+    [
+      148,
+      "without diagnostic",
+      97
+    ],
+    [
+      149,
+      "against untried",
+      97
+    ],
+    [
+      150,
+      "against diagnostic",
+      97
+    ],
+    [
+      151,
+      "mini-MMM shapes voice",
+      100
+    ],
+    [
+      152,
+      "mini MMM voice shape",
+      100
+    ],
+    [
+      153,
+      "voice shaped by nouns",
+      100
+    ],
+    [
+      154,
+      "aligned nouns shape voice",
+      100
+    ],
+    [
+      155,
+      "correlated thinkers shape voice",
+      100
+    ],
+    [
+      156,
+      "thinker alignment voice",
+      100
+    ],
+    [
+      157,
+      "noun alignment voice",
+      100
+    ],
+    [
+      158,
+      "voice signature nouns",
+      100
+    ],
+    [
+      159,
+      "local voice contour",
+      100
+    ],
+    [
+      160,
+      "independence before merge",
+      97
+    ],
+    [
+      161,
+      "dissent logs",
+      97
+    ],
+    [
+      162,
+      "trust calibration",
+      97
+    ],
+    [
+      163,
+      "source-aware weighting",
+      97
+    ],
+    [
+      164,
+      "explicit blocked/deferred routes",
+      97
+    ]
+  ],
+  "triplets": [
+    [
+      1,
+      "under council route",
+      100
+    ],
+    [
+      2,
+      "under dissent disagreement",
+      100
+    ],
+    [
+      3,
+      "under dissent blocked",
+      100
+    ],
+    [
+      4,
+      "under dissent untried",
+      100
+    ],
+    [
+      5,
+      "under disagreement untried",
+      100
+    ],
+    [
+      6,
+      "under disagreement diagnostic",
+      100
+    ],
+    [
+      7,
+      "under blocked untried",
+      100
+    ],
+    [
+      8,
+      "under blocked diagnostic",
+      100
+    ],
+    [
+      9,
+      "under untried diagnostic",
+      100
+    ],
+    [
+      10,
+      "under untried live",
+      100
+    ],
+    [
+      11,
+      "under diagnostic live",
+      100
+    ],
+    [
+      12,
+      "within council route",
+      100
+    ],
+    [
+      13,
+      "within dissent disagreement",
+      100
+    ],
+    [
+      14,
+      "within dissent blocked",
+      100
+    ],
+    [
+      15,
+      "within dissent untried",
+      100
+    ],
+    [
+      16,
+      "within disagreement untried",
+      100
+    ],
+    [
+      17,
+      "within disagreement diagnostic",
+      100
+    ],
+    [
+      18,
+      "within blocked untried",
+      100
+    ],
+    [
+      19,
+      "within blocked diagnostic",
+      100
+    ],
+    [
+      20,
+      "within untried diagnostic",
+      100
+    ],
+    [
+      21,
+      "within untried live",
+      100
+    ],
+    [
+      22,
+      "within diagnostic live",
+      100
+    ],
+    [
+      23,
+      "across council route",
+      100
+    ],
+    [
+      24,
+      "across dissent disagreement",
+      100
+    ],
+    [
+      25,
+      "across dissent blocked",
+      100
+    ],
+    [
+      26,
+      "across untried live",
+      100
+    ],
+    [
+      27,
+      "across diagnostic live",
+      100
+    ],
+    [
+      28,
+      "between council route",
+      100
+    ],
+    [
+      29,
+      "between untried live",
+      100
+    ],
+    [
+      30,
+      "between diagnostic live",
+      100
+    ],
+    [
+      31,
+      "through council route",
+      100
+    ],
+    [
+      32,
+      "under council model",
+      100
+    ],
+    [
+      33,
+      "under council sonnet",
+      100
+    ],
+    [
+      34,
+      "under council opus",
+      100
+    ],
+    [
+      35,
+      "under model route",
+      100
+    ],
+    [
+      36,
+      "through untried live",
+      100
+    ],
+    [
+      37,
+      "under codex dissent",
+      100
+    ],
+    [
+      38,
+      "through diagnostic live",
+      100
+    ],
+    [
+      39,
+      "under gemini dissent",
+      100
+    ],
+    [
+      40,
+      "under external dissent",
+      100
+    ],
+    [
+      41,
+      "under view dissent",
+      100
+    ],
+    [
+      42,
+      "under dissent state",
+      100
+    ],
+    [
+      43,
+      "before council route",
+      100
+    ],
+    [
+      44,
+      "under disagreement blocked",
+      100
+    ],
+    [
+      45,
+      "under state untried",
+      100
+    ],
+    [
+      46,
+      "under state diagnostic",
+      100
+    ],
+    [
+      47,
+      "under blocked live",
+      100
+    ],
+    [
+      48,
+      "under untried receipt",
+      100
+    ],
+    [
+      49,
+      "under untried family",
+      100
+    ],
+    [
+      50,
+      "under diagnostic receipt",
+      100
+    ],
+    [
+      51,
+      "before untried live",
+      100
+    ],
+    [
+      52,
+      "before diagnostic live",
+      100
+    ],
+    [
+      53,
+      "under diagnostic family",
+      100
+    ],
+    [
+      54,
+      "under diagnostic independent",
+      100
+    ],
+    [
+      55,
+      "after council route",
+      100
+    ],
+    [
+      56,
+      "not a vote",
+      100
+    ],
+    [
+      57,
+      "within council model",
+      100
+    ],
+    [
+      58,
+      "within council sonnet",
+      100
+    ],
+    [
+      59,
+      "within council opus",
+      100
+    ],
+    [
+      60,
+      "within model route",
+      100
+    ],
+    [
+      61,
+      "after untried live",
+      100
+    ],
+    [
+      62,
+      "after diagnostic live",
+      100
+    ],
+    [
+      63,
+      "during council route",
+      100
+    ],
+    [
+      64,
+      "within codex dissent",
+      100
+    ],
+    [
+      65,
+      "within gemini dissent",
+      100
+    ],
+    [
+      66,
+      "within external dissent",
+      100
+    ],
+    [
+      67,
+      "within view dissent",
+      100
+    ],
+    [
+      68,
+      "within dissent state",
+      100
+    ],
+    [
+      69,
+      "within disagreement blocked",
+      100
+    ],
+    [
+      70,
+      "during untried live",
+      100
+    ],
+    [
+      71,
+      "during diagnostic live",
+      100
+    ],
+    [
+      72,
+      "within state untried",
+      100
+    ],
+    [
+      73,
+      "within state diagnostic",
+      100
+    ],
+    [
+      74,
+      "until council route",
+      100
+    ],
+    [
+      75,
+      "blocked diagnostic untried",
+      100
+    ],
+    [
+      76,
+      "council receipt comparison",
+      100
+    ],
+    [
+      77,
+      "cross model pressure",
+      100
+    ],
+    [
+      78,
+      "independent external check",
+      100
+    ],
+    [
+      79,
+      "live dissent preserved",
+      100
+    ],
+    [
+      80,
+      "minority objection held",
+      100
+    ],
+    [
+      81,
+      "model family route",
+      100
+    ],
+    [
+      82,
+      "model route state",
+      100
+    ],
+    [
+      83,
+      "outside frame objection",
+      100
+    ],
+    [
+      84,
+      "across dissent untried",
+      99
+    ],
+    [
+      85,
+      "across disagreement untried",
+      99
+    ],
+    [
+      86,
+      "across disagreement diagnostic",
+      99
+    ],
+    [
+      87,
+      "across blocked untried",
+      99
+    ],
+    [
+      88,
+      "across blocked diagnostic",
+      99
+    ],
+    [
+      89,
+      "across untried diagnostic",
+      99
+    ],
+    [
+      90,
+      "between dissent disagreement",
+      97
+    ],
+    [
+      91,
+      "between dissent blocked",
+      97
+    ],
+    [
+      92,
+      "between dissent untried",
+      97
+    ],
+    [
+      93,
+      "between disagreement untried",
+      97
+    ],
+    [
+      94,
+      "between disagreement diagnostic",
+      97
+    ],
+    [
+      95,
+      "between blocked untried",
+      97
+    ],
+    [
+      96,
+      "between blocked diagnostic",
+      97
+    ],
+    [
+      97,
+      "between untried diagnostic",
+      97
+    ],
+    [
+      98,
+      "through dissent disagreement",
+      96
+    ],
+    [
+      99,
+      "through dissent blocked",
+      96
+    ],
+    [
+      100,
+      "through dissent untried",
+      96
+    ],
+    [
+      101,
+      "through disagreement untried",
+      96
+    ],
+    [
+      102,
+      "through disagreement diagnostic",
+      96
+    ],
+    [
+      103,
+      "through blocked untried",
+      96
+    ],
+    [
+      104,
+      "through blocked diagnostic",
+      96
+    ],
+    [
+      105,
+      "through untried diagnostic",
+      96
+    ],
+    [
+      106,
+      "before dissent disagreement",
+      94
+    ],
+    [
+      107,
+      "before dissent blocked",
+      94
+    ],
+    [
+      108,
+      "before dissent untried",
+      94
+    ],
+    [
+      109,
+      "before disagreement untried",
+      94
+    ],
+    [
+      110,
+      "before disagreement diagnostic",
+      94
+    ],
+    [
+      111,
+      "before blocked untried",
+      94
+    ],
+    [
+      112,
+      "before blocked diagnostic",
+      93
+    ],
+    [
+      113,
+      "before untried diagnostic",
+      93
+    ],
+    [
+      114,
+      "after dissent disagreement",
+      92
+    ],
+    [
+      115,
+      "after dissent blocked",
+      92
+    ],
+    [
+      116,
+      "mini-MMM shapes voice",
+      100
+    ],
+    [
+      117,
+      "mini MMM voice shape",
+      100
+    ],
+    [
+      118,
+      "voice shaped by nouns",
+      100
+    ],
+    [
+      119,
+      "aligned nouns shape voice",
+      100
+    ],
+    [
+      120,
+      "correlated thinkers shape voice",
+      100
+    ],
+    [
+      121,
+      "proposal debate arbitration",
+      96
+    ],
+    [
+      122,
+      "variance dissent calibration",
+      96
+    ],
+    [
+      123,
+      "independence merge receipt",
+      96
+    ]
+  ],
+  "v3_4_salience_expansion": {
+    "source": "deep-research-report.md",
+    "status": "positive salience only; no diagnostic/provenance boot",
+    "route": "LLM_COUNCIL",
+    "size": "compact"
+  }
+}

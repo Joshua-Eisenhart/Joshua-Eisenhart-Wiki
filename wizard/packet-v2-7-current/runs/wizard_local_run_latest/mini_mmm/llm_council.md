@@ -1,0 +1,442 @@
+---
+title: Llm Council
+created: 2026-04-28
+updated: 2026-04-28
+type: concept
+tags: [wizard, mmm, packet, receipt]
+framing: current
+source_path: runs/wizard_local_run_latest/mini_mmm/llm_council.md
+---
+
+Lane-local behavior probe body for LLM Council. Candidate root: /Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate. This record was normalized from collected probe output only. The harness did not spawn agents, infer hidden execution, or add a claim beyond the supplied lane record. Review this lane as receipt evidence: checked material, conclusion, remaining open question, and cited evidence must remain tied to the captured output. The body exists so the adapter can verify that every completed lane has a lane-local language surface rather than borrowing global prose. Future readers should treat the text as a behavior probe normalization artifact, not as independent proof of correctness. 
+
+Collected output:
+# MMM_VOICE_LLM_COUNCIL_FULL_v2_7
+
+## aligned nouns and phrases
+
+- model-family-specific
+- model family
+- outside frame
+- alternate reading
+- receipt changed
+- independent route
+- split retained
+- route status
+- model-family
+- role-family
+- outside-frame
+- whole-context
+- council
+- model
+- route
+- sonnet
+- opus
+- codex
+- gemini
+- external
+- view
+- dissent
+- disagreement
+- state
+- blocked
+- untried
+- diagnostic
+- receipt
+- family
+- independent
+- check
+- outside
+- frame
+- implementation
+- harness
+- judgment
+- split
+- role
+- unsupported
+- comparison
+- during
+- since
+- toward
+- relative
+- according
+- locally
+- jointly
+- separately
+- rather
+- instead
+- only
+- still
+- often
+- sometimes
+- usually
+- seems
+- likely
+- possible
+- plausible
+- tentative
+- provisional
+- bounded
+- finite
+- observed
+- measured
+- open
+- partial
+- limited
+- constraint
+- evidence
+- observation
+- measurement
+- trace
+- sample
+- case
+- instance
+- particular
+- name
+- word
+- use
+- regularity
+- relation
+- distinction
+- difference
+- similarity
+- support
+- inference
+- estimate
+- uncertainty
+- probability
+- frequency
+- distribution
+- witness
+- counterexample
+- candidate
+- survivor
+- boundary
+- scope
+- condition
+- result
+- path
+- branch
+- fork
+- plurality
+- perspective
+- claim
+- voice
+- lane
+- llm
+- existing
+- receipts
+- compare
+- distinct
+- routes
+- turning
+- votes
+- preserve
+- readings
+- reject
+- claims
+- when
+- most
+- are
+- calm
+- mark
+- honestly
+- which
+- the
+- answer
+- pressure
+- replacing
+- topology
+- synthesis
+- audit
+- majority
+- vote
+- controller
+- simulation
+- missing
+- models
+- reporting
+- summarizing
+- voted
+- language
+- collapsing
+- roles
+- one
+- generic
+- label
+- stealing
+- deciding
+- composition
+- act
+- ambiguity
+- overfitting
+- idiom
+- blind
+- spots
+- that
+- should
+- count
+- agreement
+- survive
+- truth
+- validation
+- human
+- executive
+- translation
+- target
+- falsifier
+- loop
+- analysis
+- alternate
+- retained
+- status
+- compares
+- composes
+- what
+- survives
+
+## correlated couplings
+
+- model family outside frame
+- model family alternate reading
+- model family receipt changed
+- model family independent route
+- model family split retained
+- outside frame alternate reading
+- outside frame receipt changed
+- outside frame independent route
+- outside frame split retained
+- alternate reading receipt changed
+- alternate reading independent route
+- alternate reading split retained
+- receipt changed independent route
+- receipt changed split retained
+- independent route split retained
+- live model family
+- receipt model family
+- family outside frame
+- independent model family
+- independent outside frame
+- independent alternate reading
+- outside model family
+- outside alternate reading
+- outside receipt changed
+- frame model family
+- frame alternate reading
+- frame receipt changed
+- implementation model family
+- implementation outside frame
+- implementation alternate reading
+- implementation receipt changed
+- harness model family
+- harness outside frame
+- harness alternate reading
+- harness receipt changed
+- harness independent route
+- judgment model family
+- judgment outside frame
+- judgment alternate reading
+- judgment receipt changed
+- judgment independent route
+- split model family
+- split outside frame
+- split alternate reading
+- split receipt changed
+- split independent route
+- model family role
+- model family unsupported
+- model family not a vote
+- model family no consensus
+- model family comparison
+- role outside frame
+- role alternate reading
+- role receipt changed
+- role independent route
+- role split retained
+- outside frame unsupported
+- outside frame not a vote
+- outside frame no consensus
+- outside frame comparison
+- alternate reading unsupported
+- alternate reading not a vote
+- alternate reading no consensus
+- alternate reading comparison
+- unsupported receipt changed
+- unsupported independent route
+- unsupported split retained
+- receipt changed not a vote
+- receipt changed no consensus
+- receipt changed comparison
+- independent route comparison
+- model family
+- outside frame
+- alternate reading
+- receipt changed
+- independent route
+- split retained
+- during council
+- during model
+- during route
+- during sonnet
+- during opus
+- during codex
+- during gemini
+- during external
+- during view
+- during dissent
+- during disagreement
+- during state
+- during blocked
+- during untried
+- during diagnostic
+- during live
+- during receipt
+- during family
+- during independent
+- during check
+- since council
+- since model
+- since route
+- since sonnet
+- since opus
+- since codex
+- since gemini
+- since external
+- since view
+- since dissent
+- since disagreement
+- since state
+- since blocked
+- since untried
+- since diagnostic
+- since live
+- since receipt
+- since family
+- since independent
+- since check
+- toward council
+- toward model
+- toward route
+- toward sonnet
+- toward opus
+- toward codex
+- toward gemini
+- toward external
+- toward view
+- toward dissent
+- toward disagreement
+- toward state
+- toward blocked
+- toward untried
+- toward diagnostic
+- toward live
+- toward receipt
+- toward family
+- toward independent
+- toward check
+- relative council
+- relative model
+- relative route
+- relative sonnet
+- relative opus
+- relative codex
+- relative gemini
+- relative external
+- relative view
+- relative dissent
+- relative disagreement
+- relative state
+- relative blocked
+- relative untried
+- relative diagnostic
+- relative live
+- relative receipt
+- relative family
+- relative independent
+- relative check
+- council model
+- council route
+- council sonnet
+
+## three-part cues
+
+- frame model family harness
+- frame model family judgment
+- frame model family split
+- implementation harness model family
+- implementation judgment model family
+- implementation split model family
+- implementation model family judgment
+- implementation model family split
+- implementation role model family
+- harness judgment model family
+- harness split model family
+- harness model family split
+- harness model family role
+- harness role model family
+- harness outside frame split
+- harness outside frame model family
+- harness outside frame role
+- judgment split model family
+- judgment split outside frame
+- judgment model family role
+- judgment model family outside frame
+- judgment role model family
+- judgment role outside frame
+- judgment outside frame model family
+- judgment outside frame role
+- judgment alternate reading model family
+- judgment alternate reading role
+- judgment alternate reading outside frame
+- during council model
+- during council route
+- during council sonnet
+- during council opus
+- during model route
+- during model sonnet
+- during model opus
+- during model codex
+- during route sonnet
+- during route opus
+- during route codex
+- during route gemini
+- during sonnet opus
+- during sonnet codex
+- during sonnet gemini
+- during sonnet external
+- during opus codex
+- during opus gemini
+- during opus external
+- during opus view
+- during codex gemini
+- during codex external
+- during codex view
+- during codex dissent
+- during gemini external
+- during gemini view
+- during gemini dissent
+- during gemini disagreement
+- during external view
+- during external dissent
+- during external disagreement
+- during external state
+- during view dissent
+- during view disagreement
+- during view state
+- during view blocked
+- during dissent disagreement
+- during dissent state
+- during dissent blocked
+- during dissent untried
+- during disagreement state
+- during disagreement blocked
+- during disagreement untried
+- during disagreement diagnostic
+- during state blocked
+- during state untried
+- during state diagnostic
+- during state live
+- during blocked untried
+- during blocked diagnostic
+- during blocked live
+- during blocked receipt

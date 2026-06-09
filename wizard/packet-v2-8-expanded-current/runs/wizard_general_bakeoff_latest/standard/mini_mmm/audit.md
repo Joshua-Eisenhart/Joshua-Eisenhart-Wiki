@@ -1,0 +1,375 @@
+Lane-local behavior probe body for Audit. Candidate root: /Users/joshuaeisenhart/Desktop/mmm_wizard_complete_system_packet_v2_8_expanded_candidate. This record was normalized from collected probe output only. The harness did not spawn agents, infer hidden execution, or add a claim beyond the supplied lane record. Review this lane as receipt evidence: checked material, conclusion, remaining open question, and cited evidence must remain tied to the captured output. The body exists so the adapter can verify that every completed lane has a lane-local language surface rather than borrowing global prose. Future readers should treat the text as a behavior probe normalization artifact, not as independent proof of correctness. 
+
+Collected output:
+# MMM_VOICE_AUDIT_STANDARD_v2_8
+
+## words
+
+- actual :: 100
+- artifact path :: 100
+- audit :: 100
+- audit finding :: 100
+- blocked :: 100
+- careful :: 100
+- check :: 100
+- checked :: 100
+- citation :: 100
+- clean :: 100
+- closeout :: 100
+- closure :: 100
+- collapse :: 100
+- concluded :: 100
+- concrete :: 100
+- contradiction :: 100
+- current-turn :: 100
+- defect :: 100
+- deferred :: 100
+- distinct :: 100
+- drift :: 100
+- duplicate :: 100
+- evidence :: 100
+- fail :: 100
+- failed :: 100
+- fake :: 100
+- false :: 100
+- finding :: 100
+- first :: 100
+- gap :: 100
+- honest :: 100
+- inconsistency :: 100
+- inferred :: 100
+- known :: 100
+- leakage :: 100
+- ledger :: 100
+- live :: 100
+- method :: 100
+- method collapsed :: 100
+- method executed :: 100
+- missing :: 100
+- narrow :: 100
+- next :: 100
+- not :: 100
+- not run :: 100
+- observed :: 100
+- open :: 100
+- pass :: 100
+- path :: 100
+- plain :: 100
+- plurality :: 100
+- prior :: 100
+- provenance :: 100
+- receipt :: 100
+- registry :: 100
+- report :: 100
+- row :: 100
+- run :: 100
+- severity :: 100
+- source :: 100
+- stale :: 100
+- trace :: 100
+- traceability :: 100
+- unknown :: 100
+- unread :: 100
+- unresolved :: 100
+- unrun :: 100
+- unsupported :: 100
+- unverified :: 100
+- verified :: 100
+- verify :: 100
+- warm :: 100
+
+## couplings
+
+- across audit :: 100
+- across clean :: 100
+- across finding :: 100
+- after audit :: 100
+- after clean :: 100
+- after finding :: 100
+- audit boundary :: 100
+- audit candidate :: 100
+- audit checked :: 100
+- audit clean :: 100
+- audit concluded :: 100
+- audit constraint :: 100
+- audit evidence :: 100
+- audit finding :: 100
+- audit open :: 100
+- audit packet :: 100
+- audit path :: 100
+- audit probe :: 100
+- audit receipt :: 100
+- audit result :: 100
+- audit scope :: 100
+- audit status :: 100
+- audit support :: 100
+- audit surface :: 100
+- audit trace :: 100
+- audit witness :: 100
+- banned leakage :: 100
+- before audit :: 100
+- before clean :: 100
+- before finding :: 100
+- between audit :: 100
+- between clean :: 100
+- between finding :: 100
+- check clean :: 100
+- check finding :: 100
+- checked :: 100
+- checked clean :: 100
+- checked concluded :: 100
+- checked evidence :: 100
+- checked finding :: 100
+- checked missing :: 100
+- checked open :: 100
+- checked state :: 100
+- clean :: 100
+- clean boundary :: 100
+- clean candidate :: 100
+- clean constraint :: 100
+- clean evidence :: 100
+- clean packet :: 100
+- clean path :: 100
+- clean probe :: 100
+- clean receipt :: 100
+- clean result :: 100
+- clean scope :: 100
+- clean status :: 100
+- clean support :: 100
+- clean surface :: 100
+- clean trace :: 100
+- clean verified :: 100
+- clean witness :: 100
+- collapse :: 100
+- collapse evidence :: 100
+- collapse receipt :: 100
+- collapse trace :: 100
+- compare clean :: 100
+- compare finding :: 100
+- concluded :: 100
+- concluded clean :: 100
+- concluded evidence :: 100
+- concluded finding :: 100
+- concluded missing :: 100
+- concluded open :: 100
+- concluded verified :: 100
+- duplicate evidence :: 100
+- duplicate receipt :: 100
+- evidence :: 100
+- evidence clean :: 100
+- evidence finding :: 100
+- evidence missing :: 100
+- evidence verified :: 100
+- finding :: 100
+- finding boundary :: 100
+- finding candidate :: 100
+- finding clean :: 100
+- finding constraint :: 100
+- finding evidence :: 100
+- finding packet :: 100
+- finding path :: 100
+- finding probe :: 100
+- finding receipt :: 100
+- finding result :: 100
+- finding scope :: 100
+- finding status :: 100
+- finding support :: 100
+- finding surface :: 100
+- finding trace :: 100
+- finding verified :: 100
+- finding witness :: 100
+- hold clean :: 100
+- hold finding :: 100
+- measure clean :: 100
+- measure finding :: 100
+- method collapsed :: 100
+- missing evidence :: 100
+- missing receipt :: 100
+- missing trace :: 100
+- narrow clean :: 100
+- narrow finding :: 100
+- narrow receipt :: 100
+- observe clean :: 100
+- observe finding :: 100
+- observe receipt :: 100
+- open :: 100
+- open clean :: 100
+- open finding :: 100
+- open missing :: 100
+- open verified :: 100
+- overclaim evidence :: 100
+- overclaim receipt :: 100
+- preserve clean :: 100
+- preserve finding :: 100
+- preserve receipt :: 100
+- receipt :: 100
+- receipt boundary :: 100
+- receipt candidate :: 100
+- receipt checked :: 100
+- receipt clean :: 100
+- receipt concluded :: 100
+- receipt constraint :: 100
+- receipt evidence :: 100
+- receipt finding :: 100
+- receipt missing :: 100
+- receipt open :: 100
+- receipt packet :: 100
+- receipt path :: 100
+- receipt probe :: 100
+- receipt receipt :: 100
+- receipt result :: 100
+- receipt scope :: 100
+- receipt status :: 100
+- receipt support :: 100
+- receipt surface :: 100
+- receipt trace :: 100
+- receipt witness :: 100
+- split clean :: 100
+- split finding :: 100
+- test clean :: 100
+- test finding :: 100
+- through audit :: 100
+- through clean :: 100
+- through finding :: 100
+- under audit :: 100
+- under clean :: 100
+- under finding :: 100
+- until audit :: 100
+- until clean :: 100
+- until finding :: 100
+- unverified :: 100
+- verify clean :: 100
+- verify finding :: 100
+
+## triplets
+
+- across audit checked :: 100
+- across audit concluded :: 100
+- across audit open :: 100
+- across audit receipt :: 100
+- across bounded audit :: 100
+- across current audit :: 100
+- across finite audit :: 100
+- across live audit :: 100
+- across local audit :: 100
+- across open audit :: 100
+- across open clean :: 100
+- across open finding :: 100
+- across open receipt :: 100
+- across receipt checked :: 100
+- across receipt concluded :: 100
+- across receipt evidence :: 100
+- across receipt open :: 100
+- audit evidence path :: 100
+- audit receipt path :: 100
+- audit trace path :: 100
+- banned leakage check :: 100
+- before open audit :: 100
+- before open clean :: 100
+- before open finding :: 100
+- before open receipt :: 100
+- between bounded audit :: 100
+- between current audit :: 100
+- between finite audit :: 100
+- between live audit :: 100
+- between local audit :: 100
+- between open audit :: 100
+- between open clean :: 100
+- between open finding :: 100
+- between open receipt :: 100
+- check audit receipt :: 100
+- check clean receipt :: 100
+- check finding receipt :: 100
+- checked concluded open :: 100
+- clean evidence path :: 100
+- clean receipt path :: 100
+- clean trace path :: 100
+- collapse detection audit :: 100
+- compare audit receipt :: 100
+- compare clean receipt :: 100
+- compare finding receipt :: 100
+- current receipt required :: 100
+- evidence receipt path :: 100
+- false closure finding :: 100
+- finding evidence path :: 100
+- finding receipt path :: 100
+- finding severity clean :: 100
+- finding trace path :: 100
+- hold audit receipt :: 100
+- hold clean receipt :: 100
+- hold finding receipt :: 100
+- measure audit receipt :: 100
+- measure clean receipt :: 100
+- measure finding receipt :: 100
+- missing receipt blocked :: 100
+- observe audit receipt :: 100
+- observe clean receipt :: 100
+- observe finding receipt :: 100
+- observed inferred unknown :: 100
+- overclaim risk open :: 100
+- preserve audit receipt :: 100
+- preserve clean receipt :: 100
+- preserve finding receipt :: 100
+- receipt evidence path :: 100
+- receipt trace path :: 100
+- source trace provenance :: 100
+- stale claim flagged :: 100
+- test audit receipt :: 100
+- test clean receipt :: 100
+- test finding receipt :: 100
+- through current audit :: 100
+- through open audit :: 100
+- through open clean :: 100
+- through open finding :: 100
+- through open receipt :: 100
+- under audit checked :: 100
+- under audit concluded :: 100
+- under audit open :: 100
+- under audit receipt :: 100
+- under bounded audit :: 100
+- under checked evidence :: 100
+- under concluded evidence :: 100
+- under current audit :: 100
+- under evidence clean :: 100
+- under evidence finding :: 100
+- under evidence missing :: 100
+- under finite audit :: 100
+- under live audit :: 100
+- under local audit :: 100
+- under open audit :: 100
+- under open clean :: 100
+- under open evidence :: 100
+- under open finding :: 100
+- under open receipt :: 100
+- under receipt checked :: 100
+- under receipt concluded :: 100
+- under receipt evidence :: 100
+- under receipt open :: 100
+- verify audit receipt :: 100
+- verify clean receipt :: 100
+- verify finding receipt :: 100
+- within audit checked :: 100
+- within audit concluded :: 100
+- within audit open :: 100
+- within audit receipt :: 100
+- within bounded audit :: 100
+- within checked evidence :: 100
+- within concluded evidence :: 100
+- within current audit :: 100
+- within evidence clean :: 100
+- within evidence finding :: 100
+- within evidence missing :: 100
+- within finite audit :: 100
+- within live audit :: 100
+- within local audit :: 100
+- within open audit :: 100
+- within open clean :: 100
+- within open evidence :: 100
+- within open finding :: 100
+- within open receipt :: 100
+- within receipt checked :: 100
+- within receipt concluded :: 100
+- within receipt evidence :: 100
+- within receipt open :: 100
+- across open missing :: 99
+- audit boundary path :: 99

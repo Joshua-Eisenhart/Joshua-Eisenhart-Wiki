@@ -1,0 +1,375 @@
+Lane-local behavior probe body for Wildcard. Candidate root: /Users/joshuaeisenhart/Desktop/mmm_wizard_complete_system_packet_v2_8_expanded_candidate. This record was normalized from collected probe output only. The harness did not spawn agents, infer hidden execution, or add a claim beyond the supplied lane record. Review this lane as receipt evidence: checked material, conclusion, remaining open question, and cited evidence must remain tied to the captured output. The body exists so the adapter can verify that every completed lane has a lane-local language surface rather than borrowing global prose. Future readers should treat the text as a behavior probe normalization artifact, not as independent proof of correctness. 
+
+Collected output:
+# MMM_LANE_WILDCARD_STANDARD_v2_8
+
+## words
+
+- actual :: 100
+- angle :: 100
+- anomaly :: 100
+- apart :: 100
+- asymmetric :: 100
+- bet :: 100
+- blocker :: 100
+- bounded :: 100
+- careful :: 100
+- cheap :: 100
+- cheap test :: 100
+- checked :: 100
+- compared :: 100
+- concrete :: 100
+- creative :: 100
+- distinct :: 100
+- door :: 100
+- edge :: 100
+- edge move :: 100
+- experiment :: 100
+- first :: 100
+- fit :: 100
+- found :: 100
+- held :: 100
+- honest :: 100
+- inferred :: 100
+- inversion :: 100
+- known :: 100
+- later :: 100
+- lateral :: 100
+- leverage :: 100
+- live :: 100
+- narrow :: 100
+- next :: 100
+- nonobvious :: 100
+- observed :: 100
+- odd :: 100
+- option :: 100
+- path :: 100
+- plain :: 100
+- prior :: 100
+- probe :: 100
+- returned :: 100
+- route :: 100
+- separate :: 100
+- side :: 100
+- small :: 100
+- small experiment :: 100
+- stale :: 100
+- strange :: 100
+- stress :: 100
+- surprise :: 100
+- unexpected :: 100
+- unknown :: 100
+- unlock :: 100
+- unusual :: 100
+- upside :: 100
+- warm :: 100
+- weird :: 100
+- wildcard :: 100
+- across :: 99
+- after :: 99
+- against :: 99
+- along :: 99
+- among :: 99
+- around :: 99
+- before :: 99
+- beside :: 99
+- between :: 99
+- from :: 99
+- inside :: 99
+- near :: 99
+
+## couplings
+
+- across probe :: 100
+- across unexpected :: 100
+- across unlock :: 100
+- across wildcard :: 100
+- after probe :: 100
+- after unexpected :: 100
+- after unlock :: 100
+- after wildcard :: 100
+- anomaly probe :: 100
+- asymmetric upside :: 100
+- before probe :: 100
+- before unexpected :: 100
+- before unlock :: 100
+- before wildcard :: 100
+- between probe :: 100
+- between unexpected :: 100
+- between unlock :: 100
+- between wildcard :: 100
+- check unexpected :: 100
+- check unlock :: 100
+- compare unexpected :: 100
+- compare unlock :: 100
+- edge case :: 100
+- hold unexpected :: 100
+- hold unlock :: 100
+- inversion test :: 100
+- lateral move :: 100
+- left field check :: 100
+- measure probe :: 100
+- measure unexpected :: 100
+- measure unlock :: 100
+- narrow probe :: 100
+- narrow unexpected :: 100
+- narrow unlock :: 100
+- non obvious probe :: 100
+- nonobvious probe :: 100
+- observe probe :: 100
+- observe unexpected :: 100
+- observe unlock :: 100
+- odd probe :: 100
+- odd unlock :: 100
+- preserve probe :: 100
+- preserve unexpected :: 100
+- preserve unlock :: 100
+- probe :: 100
+- probe boundary :: 100
+- probe candidate :: 100
+- probe constraint :: 100
+- probe evidence :: 100
+- probe packet :: 100
+- probe path :: 100
+- probe probe :: 100
+- probe receipt :: 100
+- probe result :: 100
+- probe scope :: 100
+- probe status :: 100
+- probe support :: 100
+- probe surface :: 100
+- probe trace :: 100
+- probe witness :: 100
+- side probe :: 100
+- small bet :: 100
+- split probe :: 100
+- split unexpected :: 100
+- split unlock :: 100
+- surprise probe :: 100
+- surprise route :: 100
+- surprise unexpected :: 100
+- surprise unlock :: 100
+- test probe :: 100
+- test unexpected :: 100
+- test unlock :: 100
+- through probe :: 100
+- through unexpected :: 100
+- through unlock :: 100
+- through wildcard :: 100
+- under probe :: 100
+- under unexpected :: 100
+- under unlock :: 100
+- under wildcard :: 100
+- unexpected :: 100
+- unexpected angle :: 100
+- unexpected boundary :: 100
+- unexpected candidate :: 100
+- unexpected constraint :: 100
+- unexpected evidence :: 100
+- unexpected odd :: 100
+- unexpected packet :: 100
+- unexpected path :: 100
+- unexpected probe :: 100
+- unexpected receipt :: 100
+- unexpected result :: 100
+- unexpected scope :: 100
+- unexpected status :: 100
+- unexpected support :: 100
+- unexpected surface :: 100
+- unexpected trace :: 100
+- unexpected unlock :: 100
+- unexpected witness :: 100
+- unlock :: 100
+- unlock boundary :: 100
+- unlock candidate :: 100
+- unlock constraint :: 100
+- unlock evidence :: 100
+- unlock move :: 100
+- unlock packet :: 100
+- unlock path :: 100
+- unlock probe :: 100
+- unlock receipt :: 100
+- unlock result :: 100
+- unlock scope :: 100
+- unlock status :: 100
+- unlock support :: 100
+- unlock surface :: 100
+- unlock trace :: 100
+- unlock witness :: 100
+- until probe :: 100
+- until unexpected :: 100
+- until unlock :: 100
+- until wildcard :: 100
+- unusual route :: 100
+- verify probe :: 100
+- verify unexpected :: 100
+- verify unlock :: 100
+- weird edge :: 100
+- where probe :: 100
+- where unexpected :: 100
+- where unlock :: 100
+- where wildcard :: 100
+- while probe :: 100
+- while unexpected :: 100
+- while unlock :: 100
+- while wildcard :: 100
+- wildcard boundary :: 100
+- wildcard candidate :: 100
+- wildcard constraint :: 100
+- wildcard evidence :: 100
+- wildcard option :: 100
+- wildcard packet :: 100
+- wildcard path :: 100
+- wildcard probe :: 100
+- wildcard receipt :: 100
+- wildcard result :: 100
+- wildcard scope :: 100
+- wildcard status :: 100
+- wildcard support :: 100
+- wildcard surface :: 100
+- wildcard trace :: 100
+- wildcard unexpected :: 100
+- wildcard unlock :: 100
+- wildcard witness :: 100
+- within probe :: 100
+- within unexpected :: 100
+- within unlock :: 100
+- within wildcard :: 100
+- check wildcard :: 99
+- compare wildcard :: 99
+- hold wildcard :: 99
+- measure wildcard :: 99
+- narrow wildcard :: 99
+
+## triplets
+
+- across bounded wildcard :: 100
+- across current wildcard :: 100
+- across finite wildcard :: 100
+- across live unexpected :: 100
+- across live wildcard :: 100
+- across local wildcard :: 100
+- across odd probe :: 100
+- across open unexpected :: 100
+- across open wildcard :: 100
+- across unexpected probe :: 100
+- across unlock probe :: 100
+- anomaly probe option :: 100
+- asymmetric upside test :: 100
+- between bounded wildcard :: 100
+- between current wildcard :: 100
+- between finite wildcard :: 100
+- between live wildcard :: 100
+- between local wildcard :: 100
+- between odd probe :: 100
+- between open wildcard :: 100
+- between unexpected probe :: 100
+- check unexpected receipt :: 100
+- compare unexpected receipt :: 100
+- inversion test route :: 100
+- lateral move small :: 100
+- measure unexpected receipt :: 100
+- non obvious probe :: 100
+- observe unexpected receipt :: 100
+- surprise route unlock :: 100
+- test unexpected receipt :: 100
+- through current wildcard :: 100
+- under bounded wildcard :: 100
+- under current wildcard :: 100
+- under finite wildcard :: 100
+- under live unexpected :: 100
+- under live wildcard :: 100
+- under local wildcard :: 100
+- under odd probe :: 100
+- under open unexpected :: 100
+- under open wildcard :: 100
+- under unexpected probe :: 100
+- under unlock probe :: 100
+- unexpected angle check :: 100
+- unexpected boundary path :: 100
+- unexpected evidence path :: 100
+- unexpected packet path :: 100
+- unexpected path path :: 100
+- unexpected receipt path :: 100
+- unexpected result path :: 100
+- unexpected scope path :: 100
+- unexpected support path :: 100
+- unexpected surface path :: 100
+- unexpected trace path :: 100
+- verify unexpected receipt :: 100
+- weird edge case :: 100
+- within bounded wildcard :: 100
+- within current wildcard :: 100
+- within finite wildcard :: 100
+- within live unexpected :: 100
+- within live wildcard :: 100
+- within local wildcard :: 100
+- within odd probe :: 100
+- within open unexpected :: 100
+- within open wildcard :: 100
+- within unexpected probe :: 100
+- within unlock probe :: 100
+- before bounded wildcard :: 99
+- before current wildcard :: 99
+- before finite wildcard :: 99
+- before live wildcard :: 99
+- before local wildcard :: 99
+- before open wildcard :: 99
+- check wildcard receipt :: 99
+- compare wildcard receipt :: 99
+- measure wildcard receipt :: 99
+- observe wildcard receipt :: 99
+- through bounded wildcard :: 99
+- through finite wildcard :: 99
+- through live wildcard :: 99
+- through local wildcard :: 99
+- through open wildcard :: 99
+- under surprise unexpected :: 99
+- under surprise unlock :: 99
+- under unexpected odd :: 99
+- under wildcard unexpected :: 99
+- wildcard boundary path :: 99
+- wildcard evidence path :: 99
+- wildcard packet path :: 99
+- wildcard path path :: 99
+- wildcard receipt path :: 99
+- wildcard result path :: 99
+- wildcard scope path :: 99
+- wildcard support path :: 99
+- wildcard surface path :: 99
+- wildcard trace path :: 99
+- across bounded unexpected :: 98
+- across current unexpected :: 98
+- across finite unexpected :: 98
+- across local unexpected :: 98
+- between bounded unexpected :: 98
+- between current unexpected :: 98
+- between local unexpected :: 98
+- hold wildcard receipt :: 98
+- preserve wildcard receipt :: 98
+- test wildcard receipt :: 98
+- under bounded unexpected :: 98
+- under current unexpected :: 98
+- under finite unexpected :: 98
+- under local unexpected :: 98
+- under odd unlock :: 98
+- under unexpected unlock :: 98
+- verify wildcard receipt :: 98
+- within bounded unexpected :: 98
+- within current unexpected :: 98
+- within finite unexpected :: 98
+- within local unexpected :: 98
+- before bounded unexpected :: 97
+- before current unexpected :: 97
+- before finite unexpected :: 97
+- before live unexpected :: 97
+- before local unexpected :: 97
+- before open unexpected :: 97
+- between finite unexpected :: 97
+- between live unexpected :: 97
+- between open unexpected :: 97
+- through bounded unexpected :: 97
+- through current unexpected :: 97
+- through finite unexpected :: 97
+- through live unexpected :: 97
+- through local unexpected :: 97

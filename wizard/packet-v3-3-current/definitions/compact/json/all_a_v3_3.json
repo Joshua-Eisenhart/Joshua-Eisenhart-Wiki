@@ -1,0 +1,20 @@
+{
+  "id": "ALL_A",
+  "name": "All-A",
+  "emoji": "🔗",
+  "category": "compositions",
+  "scale": "composition",
+  "purpose": "Make the strongest bounded forward move and pressure-test it.",
+  "unique_job": "Direct -> Popper -> Feynman -> Systems/Strategy -> Alternative -> Audit",
+  "non_job": "Do not become decorative or unreceipted.",
+  "inputs": "repair target, falsifier, observable gate, route receipts",
+  "outputs": "Bounded answer/artifact, riskiest claim, falsifier, observable check, real alternative, checked/concluded/open receipt.",
+  "subagent_contract": "Composition requires member route receipts or blocked/deferred truth, then an integrated composition receipt. It normally appears in audited Follow-up, not as a body catalog.",
+  "receipt_requirement": "Visible route status must be exactly spawned, blocked, or deferred. Spawned receipts name unit_id, unit_type, wave, mini-MMM loaded path, task card, checked, concluded, open, evidence, and artifact/output. Blocked/deferred receipts name reason and condition_to_run.",
+  "collapse_signs": "Composition becomes a decorative route list without integrated tension, receipts, and selection condition.",
+  "nearest_neighbors": [
+    "Direct",
+    "Popper",
+    "Feynman"
+  ]
+}

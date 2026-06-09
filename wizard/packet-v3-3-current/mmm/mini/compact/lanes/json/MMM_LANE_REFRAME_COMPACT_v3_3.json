@@ -1,0 +1,1504 @@
+{
+  "words": [
+    [
+      1,
+      "recast",
+      100
+    ],
+    [
+      2,
+      "reframe",
+      100
+    ],
+    [
+      3,
+      "wrong question",
+      100
+    ],
+    [
+      4,
+      "hidden premise",
+      100
+    ],
+    [
+      5,
+      "false binary",
+      100
+    ],
+    [
+      6,
+      "different problem",
+      100
+    ],
+    [
+      7,
+      "smaller question",
+      100
+    ],
+    [
+      8,
+      "assumption",
+      100
+    ],
+    [
+      9,
+      "replace",
+      100
+    ],
+    [
+      10,
+      "frame",
+      100
+    ],
+    [
+      11,
+      "angle",
+      100
+    ],
+    [
+      12,
+      "shape",
+      100
+    ],
+    [
+      13,
+      "new",
+      100
+    ],
+    [
+      14,
+      "question",
+      100
+    ],
+    [
+      15,
+      "rename",
+      100
+    ],
+    [
+      16,
+      "narrowing",
+      100
+    ],
+    [
+      17,
+      "reshape",
+      100
+    ],
+    [
+      18,
+      "map",
+      100
+    ],
+    [
+      19,
+      "shift",
+      100
+    ],
+    [
+      20,
+      "misfit",
+      100
+    ],
+    [
+      21,
+      "problem",
+      100
+    ],
+    [
+      22,
+      "wrong",
+      100
+    ],
+    [
+      23,
+      "move",
+      100
+    ],
+    [
+      24,
+      "context",
+      100
+    ],
+    [
+      25,
+      "reading",
+      100
+    ],
+    [
+      26,
+      "different",
+      100
+    ],
+    [
+      27,
+      "lens",
+      100
+    ],
+    [
+      28,
+      "constraint",
+      100
+    ],
+    [
+      29,
+      "surface",
+      100
+    ],
+    [
+      30,
+      "boundary",
+      100
+    ],
+    [
+      31,
+      "actual",
+      100
+    ],
+    [
+      32,
+      "concrete",
+      100
+    ],
+    [
+      33,
+      "distinct",
+      100
+    ],
+    [
+      34,
+      "live",
+      100
+    ],
+    [
+      35,
+      "inferred",
+      100
+    ],
+    [
+      36,
+      "plain",
+      100
+    ],
+    [
+      37,
+      "known",
+      100
+    ],
+    [
+      38,
+      "unknown",
+      100
+    ],
+    [
+      39,
+      "narrow",
+      100
+    ],
+    [
+      40,
+      "stale",
+      100
+    ],
+    [
+      41,
+      "observed",
+      100
+    ],
+    [
+      42,
+      "checked",
+      100
+    ],
+    [
+      43,
+      "warm",
+      100
+    ],
+    [
+      44,
+      "careful",
+      100
+    ],
+    [
+      45,
+      "next",
+      100
+    ],
+    [
+      46,
+      "honest",
+      100
+    ],
+    [
+      47,
+      "prior",
+      100
+    ],
+    [
+      48,
+      "first",
+      100
+    ],
+    [
+      49,
+      "later",
+      100
+    ],
+    [
+      50,
+      "separate",
+      100
+    ],
+    [
+      51,
+      "held",
+      100
+    ],
+    [
+      52,
+      "pattern",
+      100
+    ],
+    [
+      53,
+      "premise",
+      100
+    ],
+    [
+      54,
+      "redefine",
+      100
+    ],
+    [
+      55,
+      "reposition",
+      100
+    ],
+    [
+      56,
+      "rewrite",
+      100
+    ],
+    [
+      57,
+      "stuck",
+      100
+    ],
+    [
+      58,
+      "viewpoint",
+      100
+    ],
+    [
+      59,
+      "small",
+      79
+    ],
+    [
+      60,
+      "unit",
+      98
+    ],
+    [
+      61,
+      "objective",
+      98
+    ],
+    [
+      62,
+      "scope",
+      98
+    ]
+  ],
+  "couplings": [
+    [
+      1,
+      "recast",
+      100
+    ],
+    [
+      2,
+      "reframe evidence",
+      100
+    ],
+    [
+      3,
+      "reframe support",
+      100
+    ],
+    [
+      4,
+      "reframe path",
+      100
+    ],
+    [
+      5,
+      "reframe surface",
+      100
+    ],
+    [
+      6,
+      "reframe packet",
+      100
+    ],
+    [
+      7,
+      "reframe receipt",
+      100
+    ],
+    [
+      8,
+      "reframe trace",
+      100
+    ],
+    [
+      9,
+      "reframe result",
+      100
+    ],
+    [
+      10,
+      "reframe scope",
+      100
+    ],
+    [
+      11,
+      "reframe boundary",
+      100
+    ],
+    [
+      12,
+      "reframe status",
+      100
+    ],
+    [
+      13,
+      "reframe candidate",
+      100
+    ],
+    [
+      14,
+      "reframe witness",
+      100
+    ],
+    [
+      15,
+      "reframe probe",
+      100
+    ],
+    [
+      16,
+      "reframe constraint",
+      100
+    ],
+    [
+      17,
+      "check reframe",
+      100
+    ],
+    [
+      18,
+      "compare reframe",
+      100
+    ],
+    [
+      19,
+      "observe reframe",
+      100
+    ],
+    [
+      20,
+      "measure reframe",
+      100
+    ],
+    [
+      21,
+      "test reframe",
+      100
+    ],
+    [
+      22,
+      "verify reframe",
+      100
+    ],
+    [
+      23,
+      "hold reframe",
+      100
+    ],
+    [
+      24,
+      "preserve reframe",
+      100
+    ],
+    [
+      25,
+      "split reframe",
+      100
+    ],
+    [
+      26,
+      "narrow reframe",
+      100
+    ],
+    [
+      27,
+      "under reframe",
+      100
+    ],
+    [
+      28,
+      "within reframe",
+      100
+    ],
+    [
+      29,
+      "across reframe",
+      100
+    ],
+    [
+      30,
+      "between reframe",
+      100
+    ],
+    [
+      31,
+      "through reframe",
+      100
+    ],
+    [
+      32,
+      "before reframe",
+      100
+    ],
+    [
+      33,
+      "after reframe",
+      100
+    ],
+    [
+      34,
+      "until reframe",
+      100
+    ],
+    [
+      35,
+      "where reframe",
+      100
+    ],
+    [
+      36,
+      "while reframe",
+      100
+    ],
+    [
+      37,
+      "recast evidence",
+      100
+    ],
+    [
+      38,
+      "recast support",
+      100
+    ],
+    [
+      39,
+      "recast path",
+      100
+    ],
+    [
+      40,
+      "recast surface",
+      100
+    ],
+    [
+      41,
+      "recast packet",
+      100
+    ],
+    [
+      42,
+      "recast receipt",
+      100
+    ],
+    [
+      43,
+      "recast trace",
+      100
+    ],
+    [
+      44,
+      "recast result",
+      100
+    ],
+    [
+      45,
+      "recast scope",
+      100
+    ],
+    [
+      46,
+      "recast boundary",
+      100
+    ],
+    [
+      47,
+      "recast status",
+      100
+    ],
+    [
+      48,
+      "recast candidate",
+      100
+    ],
+    [
+      49,
+      "recast witness",
+      100
+    ],
+    [
+      50,
+      "recast probe",
+      100
+    ],
+    [
+      51,
+      "recast constraint",
+      100
+    ],
+    [
+      52,
+      "check recast",
+      100
+    ],
+    [
+      53,
+      "compare recast",
+      100
+    ],
+    [
+      54,
+      "observe recast",
+      100
+    ],
+    [
+      55,
+      "measure recast",
+      100
+    ],
+    [
+      56,
+      "test recast",
+      100
+    ],
+    [
+      57,
+      "under recast",
+      100
+    ],
+    [
+      58,
+      "within recast",
+      100
+    ],
+    [
+      59,
+      "across recast",
+      100
+    ],
+    [
+      60,
+      "between recast",
+      100
+    ],
+    [
+      61,
+      "through recast",
+      100
+    ],
+    [
+      62,
+      "verify recast",
+      100
+    ],
+    [
+      63,
+      "hold recast",
+      100
+    ],
+    [
+      64,
+      "preserve recast",
+      100
+    ],
+    [
+      65,
+      "split recast",
+      100
+    ],
+    [
+      66,
+      "narrow recast",
+      100
+    ],
+    [
+      67,
+      "before recast",
+      100
+    ],
+    [
+      68,
+      "after recast",
+      100
+    ],
+    [
+      69,
+      "until recast",
+      100
+    ],
+    [
+      70,
+      "where recast",
+      100
+    ],
+    [
+      71,
+      "while recast",
+      100
+    ],
+    [
+      72,
+      "reframe shift",
+      100
+    ],
+    [
+      73,
+      "reframe recast",
+      100
+    ],
+    [
+      74,
+      "frame recast",
+      100
+    ],
+    [
+      75,
+      "frame shift",
+      100
+    ],
+    [
+      76,
+      "frame evidence",
+      100
+    ],
+    [
+      77,
+      "frame support",
+      100
+    ],
+    [
+      78,
+      "frame path",
+      100
+    ],
+    [
+      79,
+      "frame surface",
+      100
+    ],
+    [
+      80,
+      "frame packet",
+      100
+    ],
+    [
+      81,
+      "frame receipt",
+      100
+    ],
+    [
+      82,
+      "frame trace",
+      100
+    ],
+    [
+      83,
+      "frame result",
+      100
+    ],
+    [
+      84,
+      "frame scope",
+      100
+    ],
+    [
+      85,
+      "frame boundary",
+      100
+    ],
+    [
+      86,
+      "frame status",
+      100
+    ],
+    [
+      87,
+      "frame candidate",
+      100
+    ],
+    [
+      88,
+      "frame witness",
+      100
+    ],
+    [
+      89,
+      "frame probe",
+      100
+    ],
+    [
+      90,
+      "frame constraint",
+      100
+    ],
+    [
+      91,
+      "compare frame",
+      100
+    ],
+    [
+      92,
+      "observe frame",
+      100
+    ],
+    [
+      93,
+      "measure frame",
+      100
+    ],
+    [
+      94,
+      "test frame",
+      100
+    ],
+    [
+      95,
+      "verify frame",
+      100
+    ],
+    [
+      96,
+      "hold frame",
+      100
+    ],
+    [
+      97,
+      "preserve frame",
+      100
+    ],
+    [
+      98,
+      "split frame",
+      100
+    ],
+    [
+      99,
+      "narrow frame",
+      100
+    ],
+    [
+      100,
+      "until frame",
+      100
+    ],
+    [
+      101,
+      "where frame",
+      100
+    ],
+    [
+      102,
+      "while frame",
+      100
+    ],
+    [
+      103,
+      "wrong question",
+      100
+    ],
+    [
+      104,
+      "hidden premise",
+      100
+    ],
+    [
+      105,
+      "false binary",
+      100
+    ],
+    [
+      106,
+      "different problem",
+      100
+    ],
+    [
+      107,
+      "smaller question",
+      100
+    ],
+    [
+      108,
+      "frame",
+      100
+    ],
+    [
+      109,
+      "assumption",
+      100
+    ],
+    [
+      110,
+      "assumption reset",
+      100
+    ],
+    [
+      111,
+      "boundary redraw",
+      100
+    ],
+    [
+      112,
+      "changed question",
+      100
+    ],
+    [
+      113,
+      "context shift",
+      100
+    ],
+    [
+      114,
+      "frame mismatch",
+      100
+    ],
+    [
+      115,
+      "lens shift",
+      100
+    ],
+    [
+      116,
+      "new angle",
+      100
+    ],
+    [
+      117,
+      "premise shift",
+      100
+    ],
+    [
+      118,
+      "problem recast",
+      100
+    ],
+    [
+      119,
+      "question replaced",
+      100
+    ],
+    [
+      120,
+      "recast problem",
+      100
+    ],
+    [
+      121,
+      "stuck frame",
+      100
+    ],
+    [
+      122,
+      "viewpoint change",
+      100
+    ],
+    [
+      123,
+      "wrong frame",
+      100
+    ],
+    [
+      124,
+      "during reframe",
+      93
+    ],
+    [
+      125,
+      "during recast",
+      93
+    ],
+    [
+      126,
+      "since reframe",
+      93
+    ],
+    [
+      127,
+      "since recast",
+      92
+    ],
+    [
+      128,
+      "from reframe",
+      92
+    ],
+    [
+      129,
+      "from recast",
+      91
+    ],
+    [
+      130,
+      "by reframe",
+      91
+    ],
+    [
+      131,
+      "by recast",
+      91
+    ],
+    [
+      132,
+      "with reframe",
+      91
+    ],
+    [
+      133,
+      "with recast",
+      91
+    ],
+    [
+      134,
+      "without reframe",
+      90
+    ],
+    [
+      135,
+      "changed boundary",
+      97
+    ],
+    [
+      136,
+      "unit of work",
+      97
+    ],
+    [
+      137,
+      "objective rewrite",
+      97
+    ]
+  ],
+  "triplets": [
+    [
+      1,
+      "reframe evidence path",
+      100
+    ],
+    [
+      2,
+      "reframe support path",
+      100
+    ],
+    [
+      3,
+      "reframe path path",
+      100
+    ],
+    [
+      4,
+      "reframe surface path",
+      100
+    ],
+    [
+      5,
+      "under open reframe",
+      100
+    ],
+    [
+      6,
+      "reframe packet path",
+      100
+    ],
+    [
+      7,
+      "under live reframe",
+      100
+    ],
+    [
+      8,
+      "reframe receipt path",
+      100
+    ],
+    [
+      9,
+      "reframe trace path",
+      100
+    ],
+    [
+      10,
+      "reframe result path",
+      100
+    ],
+    [
+      11,
+      "reframe scope path",
+      100
+    ],
+    [
+      12,
+      "reframe boundary path",
+      100
+    ],
+    [
+      13,
+      "within open reframe",
+      100
+    ],
+    [
+      14,
+      "check reframe receipt",
+      100
+    ],
+    [
+      15,
+      "within live reframe",
+      100
+    ],
+    [
+      16,
+      "compare reframe receipt",
+      100
+    ],
+    [
+      17,
+      "observe reframe receipt",
+      100
+    ],
+    [
+      18,
+      "measure reframe receipt",
+      100
+    ],
+    [
+      19,
+      "across open reframe",
+      100
+    ],
+    [
+      20,
+      "across live reframe",
+      100
+    ],
+    [
+      21,
+      "between open reframe",
+      100
+    ],
+    [
+      22,
+      "between live reframe",
+      100
+    ],
+    [
+      23,
+      "test reframe receipt",
+      100
+    ],
+    [
+      24,
+      "verify reframe receipt",
+      100
+    ],
+    [
+      25,
+      "hold reframe receipt",
+      100
+    ],
+    [
+      26,
+      "preserve reframe receipt",
+      100
+    ],
+    [
+      27,
+      "through open reframe",
+      100
+    ],
+    [
+      28,
+      "through live reframe",
+      100
+    ],
+    [
+      29,
+      "before open reframe",
+      100
+    ],
+    [
+      30,
+      "before live reframe",
+      100
+    ],
+    [
+      31,
+      "recast evidence path",
+      100
+    ],
+    [
+      32,
+      "recast support path",
+      100
+    ],
+    [
+      33,
+      "recast path path",
+      100
+    ],
+    [
+      34,
+      "recast surface path",
+      100
+    ],
+    [
+      35,
+      "under open recast",
+      100
+    ],
+    [
+      36,
+      "recast packet path",
+      100
+    ],
+    [
+      37,
+      "recast receipt path",
+      100
+    ],
+    [
+      38,
+      "under live recast",
+      100
+    ],
+    [
+      39,
+      "within open recast",
+      100
+    ],
+    [
+      40,
+      "within live recast",
+      100
+    ],
+    [
+      41,
+      "across open recast",
+      100
+    ],
+    [
+      42,
+      "recast trace path",
+      100
+    ],
+    [
+      43,
+      "recast result path",
+      100
+    ],
+    [
+      44,
+      "recast scope path",
+      100
+    ],
+    [
+      45,
+      "recast boundary path",
+      100
+    ],
+    [
+      46,
+      "check recast receipt",
+      100
+    ],
+    [
+      47,
+      "compare recast receipt",
+      100
+    ],
+    [
+      48,
+      "observe recast receipt",
+      100
+    ],
+    [
+      49,
+      "measure recast receipt",
+      100
+    ],
+    [
+      50,
+      "test recast receipt",
+      100
+    ],
+    [
+      51,
+      "verify recast receipt",
+      100
+    ],
+    [
+      52,
+      "hold recast receipt",
+      100
+    ],
+    [
+      53,
+      "across live recast",
+      100
+    ],
+    [
+      54,
+      "preserve recast receipt",
+      100
+    ],
+    [
+      55,
+      "assumption boundary redraw",
+      100
+    ],
+    [
+      56,
+      "changed question context",
+      100
+    ],
+    [
+      57,
+      "frame premise shift",
+      100
+    ],
+    [
+      58,
+      "question replaced route",
+      100
+    ],
+    [
+      59,
+      "recast problem angle",
+      100
+    ],
+    [
+      60,
+      "stuck pattern reframed",
+      100
+    ],
+    [
+      61,
+      "viewpoint lens shift",
+      100
+    ],
+    [
+      62,
+      "wrong frame reset",
+      100
+    ],
+    [
+      63,
+      "under current reframe",
+      86
+    ],
+    [
+      64,
+      "under local reframe",
+      86
+    ],
+    [
+      65,
+      "under bounded reframe",
+      86
+    ],
+    [
+      66,
+      "under finite reframe",
+      86
+    ],
+    [
+      67,
+      "within current reframe",
+      86
+    ],
+    [
+      68,
+      "within local reframe",
+      86
+    ],
+    [
+      69,
+      "within bounded reframe",
+      86
+    ],
+    [
+      70,
+      "within finite reframe",
+      86
+    ],
+    [
+      71,
+      "across current reframe",
+      86
+    ],
+    [
+      72,
+      "across local reframe",
+      86
+    ],
+    [
+      73,
+      "across bounded reframe",
+      86
+    ],
+    [
+      74,
+      "across finite reframe",
+      86
+    ],
+    [
+      75,
+      "between current reframe",
+      86
+    ],
+    [
+      76,
+      "between local reframe",
+      86
+    ],
+    [
+      77,
+      "between bounded reframe",
+      86
+    ],
+    [
+      78,
+      "between finite reframe",
+      86
+    ],
+    [
+      79,
+      "through current reframe",
+      86
+    ],
+    [
+      80,
+      "through local reframe",
+      85
+    ],
+    [
+      81,
+      "through bounded reframe",
+      85
+    ],
+    [
+      82,
+      "through finite reframe",
+      85
+    ],
+    [
+      83,
+      "before current reframe",
+      85
+    ],
+    [
+      84,
+      "before local reframe",
+      85
+    ],
+    [
+      85,
+      "before bounded reframe",
+      85
+    ],
+    [
+      86,
+      "before finite reframe",
+      85
+    ],
+    [
+      87,
+      "under current recast",
+      84
+    ],
+    [
+      88,
+      "under local recast",
+      84
+    ],
+    [
+      89,
+      "under bounded recast",
+      84
+    ],
+    [
+      90,
+      "under finite recast",
+      84
+    ],
+    [
+      91,
+      "within current recast",
+      84
+    ],
+    [
+      92,
+      "within local recast",
+      84
+    ],
+    [
+      93,
+      "within bounded recast",
+      84
+    ],
+    [
+      94,
+      "within finite recast",
+      84
+    ],
+    [
+      95,
+      "across current recast",
+      84
+    ],
+    [
+      96,
+      "across local recast",
+      84
+    ],
+    [
+      97,
+      "across bounded recast",
+      84
+    ],
+    [
+      98,
+      "across finite recast",
+      84
+    ],
+    [
+      99,
+      "assumption boundary scope",
+      96
+    ]
+  ],
+  "v3_3_salience_expansion": {
+    "source": "deep-research-report.md",
+    "status": "positive salience only; not negative/reference boot",
+    "route": "REFRAME",
+    "size": "compact"
+  }
+}

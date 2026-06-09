@@ -1,0 +1,292 @@
+# MMM_LANE_BRIDGE_COMPACT_v2_8
+
+## words
+
+- handoff :: 100
+- bridge :: 100
+- tier :: 100
+- imported :: 100
+- derived :: 100
+- task card :: 100
+- interface :: 100
+- translation :: 100
+- salience :: 100
+- preload :: 100
+- surface :: 100
+- artifact :: 100
+- receipt :: 100
+- boundary :: 100
+- layers :: 100
+- prompt :: 100
+- meaning :: 100
+- classical :: 100
+- nonclassical :: 100
+- mixed :: 100
+- read :: 100
+- carried :: 100
+- coupling :: 100
+- human :: 100
+- context :: 100
+- plain :: 100
+- result :: 100
+- packet :: 100
+- actual :: 100
+- concrete :: 100
+- distinct :: 100
+- live :: 100
+- inferred :: 100
+- known :: 100
+- unknown :: 100
+- narrow :: 100
+- stale :: 100
+- observed :: 100
+- warm :: 100
+- careful :: 100
+- checked :: 100
+- next :: 100
+- honest :: 100
+- prior :: 100
+- first :: 100
+- later :: 100
+- separate :: 100
+- held :: 100
+- returned :: 100
+- apart :: 100
+- across :: 100
+- between :: 100
+- carry :: 100
+- hume :: 100
+- middle :: 100
+- summary :: 100
+- translate :: 100
+- small :: 79
+
+## couplings
+
+- bridge surface :: 100
+- bridge receipt :: 100
+- bridge boundary :: 100
+- bridge handoff :: 100
+- translation handoff :: 100
+- interface surface :: 100
+- interface receipt :: 100
+- interface boundary :: 100
+- bridge evidence :: 100
+- bridge support :: 100
+- bridge path :: 100
+- bridge packet :: 100
+- bridge trace :: 100
+- bridge result :: 100
+- bridge scope :: 100
+- bridge status :: 100
+- bridge candidate :: 100
+- bridge witness :: 100
+- bridge probe :: 100
+- bridge constraint :: 100
+- check bridge :: 100
+- compare bridge :: 100
+- observe bridge :: 100
+- measure bridge :: 100
+- test bridge :: 100
+- verify bridge :: 100
+- hold bridge :: 100
+- preserve bridge :: 100
+- split bridge :: 100
+- narrow bridge :: 100
+- under bridge :: 100
+- within bridge :: 100
+- across bridge :: 100
+- between bridge :: 100
+- through bridge :: 100
+- before bridge :: 100
+- after bridge :: 100
+- until bridge :: 100
+- where bridge :: 100
+- while bridge :: 100
+- packet surface :: 100
+- packet receipt :: 100
+- packet boundary :: 100
+- bridge translation :: 100
+- handoff layers :: 100
+- handoff human :: 100
+- handoff read :: 100
+- handoff plain :: 100
+- handoff context :: 100
+- handoff prompt :: 100
+- handoff between :: 100
+- tier surface :: 100
+- tier imported :: 100
+- tier derived :: 100
+- tier authority :: 100
+- tier salience :: 100
+- tier preload :: 100
+- tier task card :: 100
+- surface imported :: 100
+- surface derived :: 100
+- surface authority :: 100
+- surface salience :: 100
+- surface preload :: 100
+- surface task card :: 100
+- imported derived :: 100
+- imported authority :: 100
+- imported salience :: 100
+- imported preload :: 100
+- imported task card :: 100
+- imported receipt :: 100
+- imported artifact :: 100
+- derived authority :: 100
+- derived salience :: 100
+- derived preload :: 100
+- derived task card :: 100
+- derived receipt :: 100
+- derived artifact :: 100
+- derived boundary :: 100
+- authority salience :: 100
+- authority preload :: 100
+- authority task card :: 100
+- authority receipt :: 100
+- authority artifact :: 100
+- authority boundary :: 100
+- salience preload :: 100
+- salience task card :: 100
+- salience receipt :: 100
+- salience artifact :: 100
+- salience boundary :: 100
+- preload task card :: 100
+- interface evidence :: 100
+- interface support :: 100
+- interface path :: 100
+- interface packet :: 100
+- preload receipt :: 100
+- preload artifact :: 100
+- preload boundary :: 100
+- preload interface :: 100
+- task card receipt :: 100
+- task card artifact :: 100
+- task card boundary :: 100
+- task card interface :: 100
+- receipt artifact :: 100
+- receipt interface :: 100
+- interface trace :: 100
+- interface result :: 100
+- interface scope :: 100
+- interface status :: 100
+- interface candidate :: 100
+- interface witness :: 100
+- interface probe :: 100
+- interface constraint :: 100
+- check interface :: 100
+- compare interface :: 100
+- between levels :: 100
+- bridge layer :: 100
+- carry across :: 100
+- context prompt :: 100
+- handoff surface :: 100
+- hume bridge :: 100
+- middle voice :: 100
+- summary bridge :: 100
+- translate receipts :: 100
+- under handoff :: 98
+- within handoff :: 98
+- between layers :: 97
+- across handoff :: 97
+- between handoff :: 97
+- through handoff :: 97
+
+## triplets
+
+- bridge surface path :: 100
+- bridge receipt path :: 100
+- bridge boundary path :: 100
+- check bridge receipt :: 100
+- compare bridge receipt :: 100
+- observe bridge receipt :: 100
+- measure bridge receipt :: 100
+- test bridge receipt :: 100
+- verify bridge receipt :: 100
+- hold bridge receipt :: 100
+- preserve bridge receipt :: 100
+- interface surface path :: 100
+- interface receipt path :: 100
+- interface boundary path :: 100
+- check interface receipt :: 100
+- compare interface receipt :: 100
+- observe interface receipt :: 100
+- measure interface receipt :: 100
+- test interface receipt :: 100
+- verify interface receipt :: 100
+- hold interface receipt :: 100
+- preserve interface receipt :: 100
+- bridge evidence path :: 100
+- bridge support path :: 100
+- bridge path path :: 100
+- under open bridge :: 100
+- locally tier surface :: 100
+- locally tier imported :: 100
+- locally tier derived :: 100
+- locally tier authority :: 100
+- locally tier salience :: 100
+- locally tier preload :: 100
+- locally tier task card :: 100
+- under live bridge :: 100
+- within open bridge :: 100
+- within live bridge :: 100
+- across open bridge :: 100
+- across live bridge :: 100
+- bridge packet path :: 100
+- still authority salience :: 100
+- bridge trace path :: 100
+- bridge result path :: 100
+- bridge scope path :: 100
+- between open bridge :: 100
+- still authority preload :: 100
+- still authority task card :: 100
+- still authority receipt :: 100
+- still authority artifact :: 100
+- still authority boundary :: 100
+- between live bridge :: 100
+- through open bridge :: 100
+- through live bridge :: 100
+- before open bridge :: 100
+- before live bridge :: 100
+- between levels handoff :: 100
+- carry across layers :: 100
+- context prompt bridge :: 100
+- hume translates receipts :: 100
+- middle voice summary :: 100
+- under bridge handoff :: 97
+- within translation handoff :: 97
+- under bridge translation :: 97
+- across handoff between :: 97
+- across handoff layers :: 97
+- across handoff human :: 97
+- across handoff read :: 97
+- across handoff plain :: 97
+- across handoff context :: 97
+- across handoff prompt :: 96
+- rather surface imported :: 96
+- rather surface derived :: 96
+- under current bridge :: 86
+- under local bridge :: 86
+- under bounded bridge :: 86
+- under finite bridge :: 86
+- within current bridge :: 86
+- within local bridge :: 86
+- within bounded bridge :: 86
+- within finite bridge :: 86
+- across current bridge :: 86
+- across local bridge :: 86
+- across bounded bridge :: 86
+- across finite bridge :: 86
+- between current bridge :: 86
+- between local bridge :: 86
+- between bounded bridge :: 85
+- between finite bridge :: 85
+- through current bridge :: 85
+- through local bridge :: 85
+- through bounded bridge :: 85
+- through finite bridge :: 85
+- before current bridge :: 85
+- before local bridge :: 85
+- before bounded bridge :: 85
+- before finite bridge :: 85

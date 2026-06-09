@@ -1,3 +1,10 @@
+## 2026-06-08 - Wiki Wizard harness local git commit
+
+- Added `wizard/` to local git as its own large harness bucket.
+- Pre-scan receipt: `/tmp/wiki_git_bucket_wizard_20260609.json`. Observed `1884` files / `66.02 MB`; conservative token/private-key scan found `0` high-confidence secret-pattern hits and `0` suspicious secret filenames. No large text files were skipped by the configured scan threshold.
+- Largest sub-buckets are legacy/current Wizard packets (`packet-v2-7`, `packet-v2-8-expanded`, `packet-v3-3`, `packet-v3-4`, `packet-v4-1`, `packet-v4-2`) plus `wizard/hermes-version-current` and `wizard/harness-consolidated`.
+- Scope still excludes `raw/`, corrupt backups, and ignored cache/workspace files pending separate staging decisions.
+
 ## 2026-06-08 - Wiki memory/vault-config local git commit
 
 - Added small memory and stable vault-config bucket to local git: `codex-memory/`, `claude-memory/`, and stable `.obsidian` config files (`app.json`, `core-plugins.json`, `graph.json`, `appearance.json`). Obsidian workspace state remains ignored.

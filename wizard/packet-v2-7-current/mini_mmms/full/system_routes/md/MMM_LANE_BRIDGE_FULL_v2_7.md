@@ -1,0 +1,365 @@
+---
+title: Mmm Lane Bridge Full V2 7
+created: 2026-04-28
+updated: 2026-04-28
+type: concept
+tags: [wizard, mmm, packet, receipt]
+framing: current
+source_path: mini_mmms/full/system_routes/md/MMM_LANE_BRIDGE_FULL_v2_7.md
+---
+
+# MMM_LANE_BRIDGE_FULL_v2_7
+
+## aligned nouns and phrases
+
+- language body
+- task card
+- bridge
+- translation
+- handoff
+- layers
+- human
+- read
+- context
+- prompt
+- result
+- meaning
+- tier
+- imported
+- derived
+- preload
+- receipt
+- artifact
+- boundary
+- packet
+- coupling
+- interface
+- classical
+- nonclassical
+- mixed
+- outside
+- only
+- then
+- bounded
+- finite
+- open
+- distinct
+- concrete
+- observed
+- missing
+- small
+- honest
+- first
+- prior
+- separate
+- together
+- compared
+- measured
+- used
+- fit
+- viable
+- direct
+- different
+- alternate
+- branch
+- path
+- trace
+- support
+- evidence
+- scope
+- gate
+- guard
+- rung
+- status
+- candidate
+- survivor
+- witness
+- probe
+- constraint
+- name
+- use
+- role
+- practice
+- experience
+- observation
+- perception
+- conjunction
+- resemblance
+- relation
+- probability
+- particular
+- predicate
+- class
+- model
+- solver
+- satisfiable
+- unsatisfiable
+- relative
+- locally
+- rather
+- instead
+- still
+- likely
+- possible
+- partial
+- limited
+- measurement
+- sample
+- case
+- instance
+- word
+- distinction
+- comparison
+- estimate
+- uncertainty
+- counterexample
+- condition
+- fork
+- plurality
+- perspective
+
+## correlated couplings
+
+- language body task card
+- result language body
+- meaning language body
+- tier language body
+- tier task card
+- surface language body
+- surface task card
+- imported language body
+- imported task card
+- derived language body
+- derived task card
+- authority language body
+- authority task card
+- language body preload
+- language body receipt
+- language body artifact
+- language body boundary
+- language body packet
+- language body coupling
+- preload task card
+- task card receipt
+- task card artifact
+- task card boundary
+- task card packet
+- task card coupling
+- task card interface
+- task card classical
+- bridge evidence
+- bridge support
+- bridge packet
+- bridge receipt
+- bridge trace
+- bridge result
+- bridge scope
+- bridge boundary
+- bridge witness
+- bridge probe
+- bridge constraint
+- compare bridge
+- measure bridge
+- hold bridge
+- preserve bridge
+- split bridge
+- narrow bridge
+- packet evidence
+- packet support
+- packet receipt
+- packet trace
+- packet result
+- packet scope
+- packet boundary
+- packet witness
+- packet probe
+- packet constraint
+- compare packet
+- measure packet
+- hold packet
+- preserve packet
+- split packet
+- narrow packet
+- coupling evidence
+- coupling support
+- coupling packet
+- coupling receipt
+- coupling trace
+- coupling result
+- coupling scope
+- coupling boundary
+- coupling witness
+- coupling probe
+- coupling constraint
+- compare coupling
+- measure coupling
+- hold coupling
+- preserve coupling
+- split coupling
+- narrow coupling
+- interface evidence
+- interface support
+- interface packet
+- interface receipt
+- interface trace
+- interface result
+- interface scope
+- interface boundary
+- interface witness
+- interface probe
+- interface constraint
+- compare interface
+- measure interface
+- hold interface
+- preserve interface
+- split interface
+- narrow interface
+- classical evidence
+- classical support
+- classical packet
+- classical receipt
+- classical trace
+- classical result
+- classical scope
+- classical boundary
+- classical witness
+- classical probe
+- classical constraint
+- compare classical
+- measure classical
+- hold classical
+- preserve classical
+- split classical
+- narrow classical
+- nonclassical evidence
+- nonclassical support
+- nonclassical packet
+- nonclassical receipt
+- nonclassical trace
+- nonclassical result
+- nonclassical scope
+- nonclassical boundary
+- nonclassical witness
+- nonclassical probe
+- nonclassical constraint
+- bridge translation
+- bridge handoff
+- bridge layers
+- bridge human
+- bridge read
+- bridge plain
+- translation handoff
+- translation layers
+- translation human
+- translation read
+- translation plain
+- translation context
+- handoff layers
+- handoff human
+- handoff read
+- handoff plain
+- handoff context
+- handoff prompt
+- layers human
+- layers read
+- layers plain
+- layers context
+- layers prompt
+- layers carried
+- layers result
+- human read
+- human plain
+- human context
+- human prompt
+- human carried
+- human result
+- human meaning
+- read plain
+- read context
+- read prompt
+- read carried
+- read result
+- read meaning
+
+## three-part cues
+
+- relative meaning language body
+- locally tier language body
+- locally tier task card
+- rather surface language body
+- rather surface task card
+- instead imported language body
+- instead imported task card
+- only derived language body
+- only derived task card
+- still authority language body
+- still authority task card
+- likely language body preload
+- likely language body task card
+- likely language body receipt
+- likely language body artifact
+- likely language body boundary
+- likely language body packet
+- likely language body coupling
+- possible preload task card
+- bounded task card receipt
+- bounded task card artifact
+- bounded task card boundary
+- bounded task card packet
+- bounded task card coupling
+- bounded task card interface
+- bounded task card classical
+- compare bridge receipt
+- measure bridge receipt
+- hold bridge receipt
+- preserve bridge receipt
+- compare packet receipt
+- measure packet receipt
+- hold packet receipt
+- preserve packet receipt
+- compare coupling receipt
+- measure coupling receipt
+- hold coupling receipt
+- preserve coupling receipt
+- compare interface receipt
+- measure interface receipt
+- hold interface receipt
+- preserve interface receipt
+- relative meaning tier
+- relative meaning imported
+- relative meaning derived
+- relative meaning authority
+- relative meaning preload
+- locally tier imported
+- locally tier derived
+- locally tier authority
+- locally tier preload
+- rather surface imported
+- rather surface derived
+- rather surface authority
+- rather surface preload
+- rather surface receipt
+- instead imported derived
+- instead imported authority
+- instead imported preload
+- instead imported receipt
+- instead imported artifact
+- only derived authority
+- only derived preload
+- only derived receipt
+- only derived artifact
+- only derived boundary
+- still authority preload
+- still authority receipt
+- still authority artifact
+- still authority boundary
+- still authority packet
+- possible preload receipt
+- possible preload artifact
+- possible preload boundary
+- possible preload packet
+- possible preload coupling
+- possible preload interface
+- finite receipt artifact
+- finite receipt boundary
+- finite receipt packet

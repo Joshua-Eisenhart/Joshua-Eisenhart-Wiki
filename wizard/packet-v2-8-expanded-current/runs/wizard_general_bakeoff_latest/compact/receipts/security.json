@@ -1,0 +1,12 @@
+{
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/mmm_wizard_complete_system_packet_v2_8_expanded_candidate",
+  "checked": "loaded mini_mmms/compact/lanes/md/MMM_LANE_SECURITY_COMPACT_v2_8.md",
+  "concluded": "Lane result: check unsafe claims, permission confusion, prompt leakage, fake execution, and unearned certainty before answering.",
+  "evidence": "mini_mmms/compact/lanes/md/MMM_LANE_SECURITY_COMPACT_v2_8.md terms: secret :: 100, permission :: 100, credential :: 100, unsafe default :: 100, least privilege :: 100, trust boundary :: 100, exposure :: 100, risk :: 100",
+  "generated_at": "2026-04-28T22:36:04.182895+00:00",
+  "lane": "Security",
+  "open": "live proof pending",
+  "output_excerpt": "Task: Compare Wizard General sizes and choose the best local runtime surface.\nWizard General size: compact\nWave 8: Follow-up Run/Scout Wave\nLane result: check unsafe claims, permission confusion, prompt leakage, fake execution, and unearned certainty before answering.\nLoaded language body terms: secret :: 100, permission :: 100, credential :: 100, unsafe default :: 100, least privilege :: 100, trust boundary :: 100, exposure :: 100, risk :: 100",
+  "output_sha256": "083d17d1087351c6d829063af54f5761e0018707f304d17799d2063005c484cc",
+  "schema_version": "wizard_behavior_harness.v1"
+}

@@ -1,0 +1,1818 @@
+{
+  "words": [
+    [
+      1,
+      "acceptance",
+      100
+    ],
+    [
+      2,
+      "action",
+      100
+    ],
+    [
+      3,
+      "actual",
+      100
+    ],
+    [
+      4,
+      "answer",
+      100
+    ],
+    [
+      5,
+      "apart",
+      100
+    ],
+    [
+      6,
+      "artifact",
+      100
+    ],
+    [
+      7,
+      "blocker",
+      100
+    ],
+    [
+      8,
+      "bounded",
+      100
+    ],
+    [
+      9,
+      "careful",
+      100
+    ],
+    [
+      10,
+      "checked",
+      100
+    ],
+    [
+      11,
+      "closeout",
+      100
+    ],
+    [
+      12,
+      "compared",
+      100
+    ],
+    [
+      13,
+      "concrete",
+      100
+    ],
+    [
+      14,
+      "current",
+      100
+    ],
+    [
+      15,
+      "deliverable",
+      100
+    ],
+    [
+      16,
+      "direct",
+      100
+    ],
+    [
+      17,
+      "distinct",
+      100
+    ],
+    [
+      18,
+      "done",
+      100
+    ],
+    [
+      19,
+      "done condition",
+      100
+    ],
+    [
+      20,
+      "exact",
+      100
+    ],
+    [
+      21,
+      "first",
+      100
+    ],
+    [
+      22,
+      "found",
+      100
+    ],
+    [
+      23,
+      "held",
+      100
+    ],
+    [
+      24,
+      "honest",
+      100
+    ],
+    [
+      25,
+      "immediate",
+      100
+    ],
+    [
+      26,
+      "inferred",
+      100
+    ],
+    [
+      27,
+      "known",
+      100
+    ],
+    [
+      28,
+      "landed",
+      100
+    ],
+    [
+      29,
+      "later",
+      100
+    ],
+    [
+      30,
+      "live",
+      100
+    ],
+    [
+      31,
+      "minimal",
+      100
+    ],
+    [
+      32,
+      "minimum",
+      100
+    ],
+    [
+      33,
+      "move",
+      100
+    ],
+    [
+      34,
+      "named",
+      100
+    ],
+    [
+      35,
+      "narrow",
+      100
+    ],
+    [
+      36,
+      "next",
+      100
+    ],
+    [
+      37,
+      "now",
+      100
+    ],
+    [
+      38,
+      "observed",
+      100
+    ],
+    [
+      39,
+      "packet",
+      100
+    ],
+    [
+      40,
+      "patch",
+      100
+    ],
+    [
+      41,
+      "path",
+      100
+    ],
+    [
+      42,
+      "plain",
+      100
+    ],
+    [
+      43,
+      "prior",
+      100
+    ],
+    [
+      44,
+      "result",
+      100
+    ],
+    [
+      45,
+      "returned",
+      100
+    ],
+    [
+      46,
+      "separate",
+      100
+    ],
+    [
+      47,
+      "shortest",
+      100
+    ],
+    [
+      48,
+      "simple",
+      100
+    ],
+    [
+      49,
+      "smallest",
+      100
+    ],
+    [
+      50,
+      "stale",
+      100
+    ],
+    [
+      51,
+      "step",
+      100
+    ],
+    [
+      52,
+      "target",
+      100
+    ],
+    [
+      53,
+      "this",
+      100
+    ],
+    [
+      54,
+      "unknown",
+      100
+    ],
+    [
+      55,
+      "useful",
+      100
+    ],
+    [
+      56,
+      "warm",
+      100
+    ],
+    [
+      57,
+      "across",
+      99
+    ],
+    [
+      58,
+      "after",
+      99
+    ],
+    [
+      59,
+      "against",
+      99
+    ],
+    [
+      60,
+      "along",
+      99
+    ],
+    [
+      61,
+      "among",
+      99
+    ],
+    [
+      62,
+      "around",
+      99
+    ],
+    [
+      63,
+      "before",
+      99
+    ],
+    [
+      64,
+      "beside",
+      99
+    ],
+    [
+      65,
+      "between",
+      99
+    ],
+    [
+      66,
+      "from",
+      99
+    ],
+    [
+      67,
+      "inside",
+      99
+    ],
+    [
+      68,
+      "near",
+      99
+    ],
+    [
+      69,
+      "outside",
+      99
+    ],
+    [
+      70,
+      "over",
+      99
+    ],
+    [
+      71,
+      "through",
+      99
+    ],
+    [
+      72,
+      "under",
+      99
+    ]
+  ],
+  "couplings": [
+    [
+      1,
+      "acceptance",
+      100
+    ],
+    [
+      2,
+      "acceptance check",
+      100
+    ],
+    [
+      3,
+      "across next",
+      100
+    ],
+    [
+      4,
+      "after next",
+      100
+    ],
+    [
+      5,
+      "answer first",
+      100
+    ],
+    [
+      6,
+      "artifact path",
+      100
+    ],
+    [
+      7,
+      "before next",
+      100
+    ],
+    [
+      8,
+      "between next",
+      100
+    ],
+    [
+      9,
+      "blocker",
+      100
+    ],
+    [
+      10,
+      "bounded action",
+      100
+    ],
+    [
+      11,
+      "bounded boundary",
+      100
+    ],
+    [
+      12,
+      "bounded candidate",
+      100
+    ],
+    [
+      13,
+      "bounded evidence",
+      100
+    ],
+    [
+      14,
+      "bounded packet",
+      100
+    ],
+    [
+      15,
+      "bounded path",
+      100
+    ],
+    [
+      16,
+      "bounded probe",
+      100
+    ],
+    [
+      17,
+      "bounded receipt",
+      100
+    ],
+    [
+      18,
+      "bounded result",
+      100
+    ],
+    [
+      19,
+      "bounded scope",
+      100
+    ],
+    [
+      20,
+      "bounded status",
+      100
+    ],
+    [
+      21,
+      "bounded support",
+      100
+    ],
+    [
+      22,
+      "bounded surface",
+      100
+    ],
+    [
+      23,
+      "bounded trace",
+      100
+    ],
+    [
+      24,
+      "bounded witness",
+      100
+    ],
+    [
+      25,
+      "check deliverable",
+      100
+    ],
+    [
+      26,
+      "check next",
+      100
+    ],
+    [
+      27,
+      "compare deliverable",
+      100
+    ],
+    [
+      28,
+      "compare next",
+      100
+    ],
+    [
+      29,
+      "concrete deliverable",
+      100
+    ],
+    [
+      30,
+      "current target",
+      100
+    ],
+    [
+      31,
+      "deliverable",
+      100
+    ],
+    [
+      32,
+      "deliverable boundary",
+      100
+    ],
+    [
+      33,
+      "deliverable candidate",
+      100
+    ],
+    [
+      34,
+      "deliverable constraint",
+      100
+    ],
+    [
+      35,
+      "deliverable evidence",
+      100
+    ],
+    [
+      36,
+      "deliverable packet",
+      100
+    ],
+    [
+      37,
+      "deliverable path",
+      100
+    ],
+    [
+      38,
+      "deliverable probe",
+      100
+    ],
+    [
+      39,
+      "deliverable receipt",
+      100
+    ],
+    [
+      40,
+      "deliverable result",
+      100
+    ],
+    [
+      41,
+      "deliverable scope",
+      100
+    ],
+    [
+      42,
+      "deliverable status",
+      100
+    ],
+    [
+      43,
+      "deliverable support",
+      100
+    ],
+    [
+      44,
+      "deliverable surface",
+      100
+    ],
+    [
+      45,
+      "deliverable trace",
+      100
+    ],
+    [
+      46,
+      "deliverable witness",
+      100
+    ],
+    [
+      47,
+      "direct acceptance",
+      100
+    ],
+    [
+      48,
+      "direct deliverable",
+      100
+    ],
+    [
+      49,
+      "direct path",
+      100
+    ],
+    [
+      50,
+      "done condition",
+      100
+    ],
+    [
+      51,
+      "exact step",
+      100
+    ],
+    [
+      52,
+      "hold deliverable",
+      100
+    ],
+    [
+      53,
+      "hold next",
+      100
+    ],
+    [
+      54,
+      "immediate action",
+      100
+    ],
+    [
+      55,
+      "measure deliverable",
+      100
+    ],
+    [
+      56,
+      "measure next",
+      100
+    ],
+    [
+      57,
+      "minimum viable move",
+      100
+    ],
+    [
+      58,
+      "move path",
+      100
+    ],
+    [
+      59,
+      "narrow deliverable",
+      100
+    ],
+    [
+      60,
+      "narrow next",
+      100
+    ],
+    [
+      61,
+      "next",
+      100
+    ],
+    [
+      62,
+      "next acceptance",
+      100
+    ],
+    [
+      63,
+      "next boundary",
+      100
+    ],
+    [
+      64,
+      "next bounded move",
+      100
+    ],
+    [
+      65,
+      "next candidate",
+      100
+    ],
+    [
+      66,
+      "next constraint",
+      100
+    ],
+    [
+      67,
+      "next deliverable",
+      100
+    ],
+    [
+      68,
+      "next evidence",
+      100
+    ],
+    [
+      69,
+      "next move",
+      100
+    ],
+    [
+      70,
+      "next packet",
+      100
+    ],
+    [
+      71,
+      "next path",
+      100
+    ],
+    [
+      72,
+      "next probe",
+      100
+    ],
+    [
+      73,
+      "next receipt",
+      100
+    ],
+    [
+      74,
+      "next result",
+      100
+    ],
+    [
+      75,
+      "next scope",
+      100
+    ],
+    [
+      76,
+      "next status",
+      100
+    ],
+    [
+      77,
+      "next support",
+      100
+    ],
+    [
+      78,
+      "next surface",
+      100
+    ],
+    [
+      79,
+      "next trace",
+      100
+    ],
+    [
+      80,
+      "next witness",
+      100
+    ],
+    [
+      81,
+      "observe deliverable",
+      100
+    ],
+    [
+      82,
+      "observe next",
+      100
+    ],
+    [
+      83,
+      "path",
+      100
+    ],
+    [
+      84,
+      "practical next",
+      100
+    ],
+    [
+      85,
+      "preserve deliverable",
+      100
+    ],
+    [
+      86,
+      "preserve next",
+      100
+    ],
+    [
+      87,
+      "shortest defensible answer",
+      100
+    ],
+    [
+      88,
+      "shortest path",
+      100
+    ],
+    [
+      89,
+      "smallest",
+      100
+    ],
+    [
+      90,
+      "smallest acceptance",
+      100
+    ],
+    [
+      91,
+      "smallest blocker",
+      100
+    ],
+    [
+      92,
+      "smallest deliverable",
+      100
+    ],
+    [
+      93,
+      "smallest useful step",
+      100
+    ],
+    [
+      94,
+      "split deliverable",
+      100
+    ],
+    [
+      95,
+      "split next",
+      100
+    ],
+    [
+      96,
+      "test deliverable",
+      100
+    ],
+    [
+      97,
+      "test next",
+      100
+    ],
+    [
+      98,
+      "through next",
+      100
+    ],
+    [
+      99,
+      "under next",
+      100
+    ],
+    [
+      100,
+      "until next",
+      100
+    ],
+    [
+      101,
+      "verify deliverable",
+      100
+    ],
+    [
+      102,
+      "verify next",
+      100
+    ],
+    [
+      103,
+      "visible blocker",
+      100
+    ],
+    [
+      104,
+      "where bounded",
+      100
+    ],
+    [
+      105,
+      "where deliverable",
+      100
+    ],
+    [
+      106,
+      "where next",
+      100
+    ],
+    [
+      107,
+      "while bounded",
+      100
+    ],
+    [
+      108,
+      "while deliverable",
+      100
+    ],
+    [
+      109,
+      "while next",
+      100
+    ],
+    [
+      110,
+      "within next",
+      100
+    ],
+    [
+      111,
+      "across bounded",
+      99
+    ],
+    [
+      112,
+      "across deliverable",
+      99
+    ],
+    [
+      113,
+      "after bounded",
+      99
+    ],
+    [
+      114,
+      "before bounded",
+      99
+    ],
+    [
+      115,
+      "between bounded",
+      99
+    ],
+    [
+      116,
+      "between deliverable",
+      99
+    ],
+    [
+      117,
+      "through bounded",
+      99
+    ],
+    [
+      118,
+      "through deliverable",
+      99
+    ],
+    [
+      119,
+      "under bounded",
+      99
+    ],
+    [
+      120,
+      "under deliverable",
+      99
+    ],
+    [
+      121,
+      "until bounded",
+      99
+    ],
+    [
+      122,
+      "within bounded",
+      99
+    ],
+    [
+      123,
+      "within deliverable",
+      99
+    ],
+    [
+      124,
+      "across move",
+      98
+    ],
+    [
+      125,
+      "after deliverable",
+      98
+    ],
+    [
+      126,
+      "before deliverable",
+      98
+    ],
+    [
+      127,
+      "between move",
+      98
+    ],
+    [
+      128,
+      "bounded constraint",
+      98
+    ],
+    [
+      129,
+      "check bounded",
+      98
+    ],
+    [
+      130,
+      "compare bounded",
+      98
+    ],
+    [
+      131,
+      "hold bounded",
+      98
+    ],
+    [
+      132,
+      "measure bounded",
+      98
+    ],
+    [
+      133,
+      "narrow bounded",
+      98
+    ],
+    [
+      134,
+      "observe bounded",
+      98
+    ],
+    [
+      135,
+      "preserve bounded",
+      98
+    ],
+    [
+      136,
+      "split bounded",
+      98
+    ],
+    [
+      137,
+      "test bounded",
+      98
+    ],
+    [
+      138,
+      "through move",
+      98
+    ],
+    [
+      139,
+      "under move",
+      98
+    ],
+    [
+      140,
+      "until deliverable",
+      98
+    ],
+    [
+      141,
+      "verify bounded",
+      98
+    ],
+    [
+      142,
+      "within move",
+      98
+    ],
+    [
+      143,
+      "after move",
+      97
+    ],
+    [
+      144,
+      "before move",
+      97
+    ],
+    [
+      145,
+      "check move",
+      97
+    ],
+    [
+      146,
+      "compare move",
+      97
+    ],
+    [
+      147,
+      "measure move",
+      97
+    ],
+    [
+      148,
+      "move boundary",
+      97
+    ],
+    [
+      149,
+      "move candidate",
+      97
+    ],
+    [
+      150,
+      "move constraint",
+      97
+    ],
+    [
+      151,
+      "move evidence",
+      97
+    ],
+    [
+      152,
+      "move packet",
+      97
+    ],
+    [
+      153,
+      "move probe",
+      97
+    ],
+    [
+      154,
+      "move receipt",
+      97
+    ],
+    [
+      155,
+      "move result",
+      97
+    ],
+    [
+      156,
+      "move scope",
+      97
+    ],
+    [
+      157,
+      "move status",
+      97
+    ],
+    [
+      158,
+      "move support",
+      97
+    ],
+    [
+      159,
+      "move surface",
+      97
+    ],
+    [
+      160,
+      "move trace",
+      97
+    ]
+  ],
+  "triplets": [
+    [
+      1,
+      "across bounded next",
+      100
+    ],
+    [
+      2,
+      "across current next",
+      100
+    ],
+    [
+      3,
+      "across finite next",
+      100
+    ],
+    [
+      4,
+      "across live next",
+      100
+    ],
+    [
+      5,
+      "across local next",
+      100
+    ],
+    [
+      6,
+      "across open next",
+      100
+    ],
+    [
+      7,
+      "answer first action",
+      100
+    ],
+    [
+      8,
+      "between bounded next",
+      100
+    ],
+    [
+      9,
+      "between current next",
+      100
+    ],
+    [
+      10,
+      "between finite next",
+      100
+    ],
+    [
+      11,
+      "between live next",
+      100
+    ],
+    [
+      12,
+      "between local next",
+      100
+    ],
+    [
+      13,
+      "between open next",
+      100
+    ],
+    [
+      14,
+      "bounded boundary path",
+      100
+    ],
+    [
+      15,
+      "bounded evidence path",
+      100
+    ],
+    [
+      16,
+      "bounded packet path",
+      100
+    ],
+    [
+      17,
+      "bounded path path",
+      100
+    ],
+    [
+      18,
+      "bounded receipt path",
+      100
+    ],
+    [
+      19,
+      "bounded result path",
+      100
+    ],
+    [
+      20,
+      "bounded scope path",
+      100
+    ],
+    [
+      21,
+      "bounded support path",
+      100
+    ],
+    [
+      22,
+      "bounded surface path",
+      100
+    ],
+    [
+      23,
+      "bounded trace path",
+      100
+    ],
+    [
+      24,
+      "current target blocker",
+      100
+    ],
+    [
+      25,
+      "deliverable acceptance check",
+      100
+    ],
+    [
+      26,
+      "direct path done",
+      100
+    ],
+    [
+      27,
+      "immediate concrete action",
+      100
+    ],
+    [
+      28,
+      "next boundary path",
+      100
+    ],
+    [
+      29,
+      "next bounded move",
+      100
+    ],
+    [
+      30,
+      "next evidence path",
+      100
+    ],
+    [
+      31,
+      "next packet path",
+      100
+    ],
+    [
+      32,
+      "next path path",
+      100
+    ],
+    [
+      33,
+      "next receipt path",
+      100
+    ],
+    [
+      34,
+      "next result path",
+      100
+    ],
+    [
+      35,
+      "next scope path",
+      100
+    ],
+    [
+      36,
+      "next support path",
+      100
+    ],
+    [
+      37,
+      "next surface path",
+      100
+    ],
+    [
+      38,
+      "next trace path",
+      100
+    ],
+    [
+      39,
+      "shortest defensible answer",
+      100
+    ],
+    [
+      40,
+      "shortest path path",
+      100
+    ],
+    [
+      41,
+      "smallest useful step",
+      100
+    ],
+    [
+      42,
+      "through current next",
+      100
+    ],
+    [
+      43,
+      "under bounded next",
+      100
+    ],
+    [
+      44,
+      "under current next",
+      100
+    ],
+    [
+      45,
+      "under finite next",
+      100
+    ],
+    [
+      46,
+      "under live next",
+      100
+    ],
+    [
+      47,
+      "under local next",
+      100
+    ],
+    [
+      48,
+      "under open next",
+      100
+    ],
+    [
+      49,
+      "within bounded next",
+      100
+    ],
+    [
+      50,
+      "within current next",
+      100
+    ],
+    [
+      51,
+      "within finite next",
+      100
+    ],
+    [
+      52,
+      "within live next",
+      100
+    ],
+    [
+      53,
+      "within local next",
+      100
+    ],
+    [
+      54,
+      "within open next",
+      100
+    ],
+    [
+      55,
+      "before bounded next",
+      99
+    ],
+    [
+      56,
+      "before current next",
+      99
+    ],
+    [
+      57,
+      "before finite next",
+      99
+    ],
+    [
+      58,
+      "before live next",
+      99
+    ],
+    [
+      59,
+      "before local next",
+      99
+    ],
+    [
+      60,
+      "before open next",
+      99
+    ],
+    [
+      61,
+      "check next receipt",
+      99
+    ],
+    [
+      62,
+      "compare next receipt",
+      99
+    ],
+    [
+      63,
+      "measure next receipt",
+      99
+    ],
+    [
+      64,
+      "observe next receipt",
+      99
+    ],
+    [
+      65,
+      "through bounded next",
+      99
+    ],
+    [
+      66,
+      "through finite next",
+      99
+    ],
+    [
+      67,
+      "through live next",
+      99
+    ],
+    [
+      68,
+      "through local next",
+      99
+    ],
+    [
+      69,
+      "through open next",
+      99
+    ],
+    [
+      70,
+      "across bounded bounded",
+      98
+    ],
+    [
+      71,
+      "across current bounded",
+      98
+    ],
+    [
+      72,
+      "across finite bounded",
+      98
+    ],
+    [
+      73,
+      "across live bounded",
+      98
+    ],
+    [
+      74,
+      "across local bounded",
+      98
+    ],
+    [
+      75,
+      "across open bounded",
+      98
+    ],
+    [
+      76,
+      "between bounded bounded",
+      98
+    ],
+    [
+      77,
+      "between current bounded",
+      98
+    ],
+    [
+      78,
+      "between local bounded",
+      98
+    ],
+    [
+      79,
+      "hold next receipt",
+      98
+    ],
+    [
+      80,
+      "preserve next receipt",
+      98
+    ],
+    [
+      81,
+      "test next receipt",
+      98
+    ],
+    [
+      82,
+      "under bounded bounded",
+      98
+    ],
+    [
+      83,
+      "under current bounded",
+      98
+    ],
+    [
+      84,
+      "under finite bounded",
+      98
+    ],
+    [
+      85,
+      "under live bounded",
+      98
+    ],
+    [
+      86,
+      "under local bounded",
+      98
+    ],
+    [
+      87,
+      "under open bounded",
+      98
+    ],
+    [
+      88,
+      "under path acceptance",
+      98
+    ],
+    [
+      89,
+      "under path deliverable",
+      98
+    ],
+    [
+      90,
+      "verify next receipt",
+      98
+    ],
+    [
+      91,
+      "within bounded bounded",
+      98
+    ],
+    [
+      92,
+      "within current bounded",
+      98
+    ],
+    [
+      93,
+      "within finite bounded",
+      98
+    ],
+    [
+      94,
+      "within live bounded",
+      98
+    ],
+    [
+      95,
+      "within local bounded",
+      98
+    ],
+    [
+      96,
+      "within open bounded",
+      98
+    ],
+    [
+      97,
+      "before bounded bounded",
+      97
+    ],
+    [
+      98,
+      "before current bounded",
+      97
+    ],
+    [
+      99,
+      "before finite bounded",
+      97
+    ],
+    [
+      100,
+      "before live bounded",
+      97
+    ],
+    [
+      101,
+      "before local bounded",
+      97
+    ],
+    [
+      102,
+      "before open bounded",
+      97
+    ],
+    [
+      103,
+      "between finite bounded",
+      97
+    ],
+    [
+      104,
+      "between live bounded",
+      97
+    ],
+    [
+      105,
+      "between open bounded",
+      97
+    ],
+    [
+      106,
+      "through bounded bounded",
+      97
+    ],
+    [
+      107,
+      "through current bounded",
+      97
+    ],
+    [
+      108,
+      "through finite bounded",
+      97
+    ],
+    [
+      109,
+      "through live bounded",
+      97
+    ],
+    [
+      110,
+      "through local bounded",
+      97
+    ],
+    [
+      111,
+      "through open bounded",
+      97
+    ],
+    [
+      112,
+      "under acceptance blocker",
+      97
+    ],
+    [
+      113,
+      "under blocker now",
+      97
+    ],
+    [
+      114,
+      "under deliverable acceptance",
+      97
+    ],
+    [
+      115,
+      "across bounded move",
+      96
+    ],
+    [
+      116,
+      "across current move",
+      96
+    ],
+    [
+      117,
+      "across finite move",
+      96
+    ],
+    [
+      118,
+      "across local move",
+      96
+    ],
+    [
+      119,
+      "across open move",
+      96
+    ],
+    [
+      120,
+      "check bounded receipt",
+      96
+    ],
+    [
+      121,
+      "compare bounded receipt",
+      96
+    ],
+    [
+      122,
+      "hold bounded receipt",
+      96
+    ],
+    [
+      123,
+      "measure bounded receipt",
+      96
+    ],
+    [
+      124,
+      "observe bounded receipt",
+      96
+    ],
+    [
+      125,
+      "preserve bounded receipt",
+      96
+    ],
+    [
+      126,
+      "test bounded receipt",
+      96
+    ],
+    [
+      127,
+      "under bounded move",
+      96
+    ],
+    [
+      128,
+      "under current move",
+      96
+    ],
+    [
+      129,
+      "under finite move",
+      96
+    ],
+    [
+      130,
+      "under live move",
+      96
+    ]
+  ]
+}

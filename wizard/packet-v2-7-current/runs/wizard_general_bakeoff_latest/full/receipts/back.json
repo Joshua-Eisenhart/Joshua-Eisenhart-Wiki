@@ -1,0 +1,12 @@
+{
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate",
+  "checked": "loaded mini_mmms/full/lanes/md/MMM_LANE_BACK_FULL_v2_7.md",
+  "concluded": "Return route: keep the packet-level audit menu reachable without treating it as execution evidence.",
+  "evidence": "mini_mmms/full/lanes/md/MMM_LANE_BACK_FULL_v2_7.md terms: prior branch, previous surface, branch context, return, prior, previous, choice, resume",
+  "generated_at": "2026-04-28T08:03:25.064055+00:00",
+  "lane": "Back",
+  "open": "live proof pending",
+  "output_excerpt": "Task: Compare Wizard General sizes and choose the best local runtime surface.\nWizard General size: full\nWave 8: Follow-up Run/Scout Wave\nReturn route: keep the packet-level audit menu reachable without treating it as execution evidence.\nLoaded language body terms: prior branch, previous surface, branch context, return, prior, previous, choice, resume",
+  "output_sha256": "83545fc30bac67f4a4ae8d7dd53054d67647b0ce9cdbc8c67dec6ff0da1bf256",
+  "schema_version": "wizard_behavior_harness.v1"
+}

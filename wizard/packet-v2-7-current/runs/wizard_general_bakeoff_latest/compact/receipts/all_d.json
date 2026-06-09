@@ -1,0 +1,12 @@
+{
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate",
+  "checked": "loaded mini_mmms/compact/compositions/md/MMM_LANE_ALL_OF_ABOVE_WIZARD_COMPACT_v2_7.md",
+  "concluded": "All-D compilation: full Wizard path through Make, Run/Scout, Audit/Improve, Council, and final menu.",
+  "evidence": "mini_mmms/compact/compositions/md/MMM_LANE_ALL_OF_ABOVE_WIZARD_COMPACT_v2_7.md terms: whole-context triad, primary answer, registry-backed, full-context, follow-up, preflight, registry, council",
+  "generated_at": "2026-04-28T08:03:24.994347+00:00",
+  "lane": "All-D",
+  "open": "live proof pending",
+  "output_excerpt": "Task: Compare Wizard General sizes and choose the best local runtime surface.\nWizard General size: compact\nWave 9: Follow-up Audit/Improve Wave\nAll-D compilation: full Wizard path through Make, Run/Scout, Audit/Improve, Council, and final menu.\nLoaded language body terms: whole-context triad, primary answer, registry-backed, full-context, follow-up, preflight, registry, council",
+  "output_sha256": "f13facaacf1f65187a0926c10f85e99e0d00959d6039def29d7310cd3b3b4640",
+  "schema_version": "wizard_behavior_harness.v1"
+}

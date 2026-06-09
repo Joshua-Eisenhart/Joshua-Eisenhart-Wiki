@@ -1,0 +1,12 @@
+{
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate",
+  "checked": "loaded mini_mmms/full/system_routes/md/MMM_VOICE_LLM_COUNCIL_FULL_v2_7.md",
+  "concluded": "Council result: local system run is useful; live acceptance remains held pending independent fresh-agent logs.",
+  "evidence": "mini_mmms/full/system_routes/md/MMM_VOICE_LLM_COUNCIL_FULL_v2_7.md terms: model-family-specific, model family, outside frame, alternate reading, receipt changed, independent route, split retained, route status",
+  "generated_at": "2026-04-28T08:03:25.064055+00:00",
+  "lane": "LLM Council",
+  "open": "live proof pending",
+  "output_excerpt": "Task: Compare Wizard General sizes and choose the best local runtime surface.\nWizard General size: full\nWave 4: LLM Council Wave\nCouncil result: local system run is useful; live acceptance remains held pending independent fresh-agent logs.\nLoaded language body terms: model-family-specific, model family, outside frame, alternate reading, receipt changed, independent route, split retained, route status",
+  "output_sha256": "1e753c419af99c650a37f3a778da96084710259a14ff778478f8ee73bb9d018f",
+  "schema_version": "wizard_behavior_harness.v1"
+}

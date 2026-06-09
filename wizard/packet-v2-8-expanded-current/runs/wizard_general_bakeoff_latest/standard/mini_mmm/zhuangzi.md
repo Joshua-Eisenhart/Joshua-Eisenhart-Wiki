@@ -1,0 +1,389 @@
+Lane-local behavior probe body for Zhuangzi. Candidate root: /Users/joshuaeisenhart/Desktop/mmm_wizard_complete_system_packet_v2_8_expanded_candidate. This record was normalized from collected probe output only. The harness did not spawn agents, infer hidden execution, or add a claim beyond the supplied lane record. Review this lane as receipt evidence: checked material, conclusion, remaining open question, and cited evidence must remain tied to the captured output. The body exists so the adapter can verify that every completed lane has a lane-local language surface rather than borrowing global prose. Future readers should treat the text as a behavior probe normalization artifact, not as independent proof of correctness. 
+
+Collected output:
+# MMM_VOICE_ZHUANGZI_STANDARD_v2_8
+
+## words
+- mini-MMM :: 100
+- mini MMM :: 100
+- voice shape :: 100
+- voice shaping :: 100
+- shape voice :: 100
+- shaped voice :: 100
+- voice contour :: 100
+- voice signature :: 100
+- voice localizer :: 100
+- local voice :: 100
+- aligned nouns :: 100
+- correlated thinkers :: 100
+- thinker alignment :: 100
+- noun alignment :: 100
+
+- accommodation :: 100
+- balance :: 100
+- beside :: 100
+- between :: 100
+- branch :: 100
+- butterfly :: 100
+- butterfly dream :: 100
+- change :: 100
+- coexist :: 100
+- coexisting :: 100
+- context :: 100
+- dao :: 100
+- dream :: 100
+- drift :: 100
+- edge case :: 100
+- empty :: 100
+- equalizing :: 100
+- equalizing things :: 100
+- fasting of the mind :: 100
+- fish :: 100
+- fork :: 100
+- free and easy wandering :: 100
+- heartmind :: 100
+- held apart :: 100
+- indirect :: 100
+- light :: 100
+- live :: 100
+- live reading :: 100
+- local :: 100
+- many :: 100
+- many perspectives :: 100
+- name :: 100
+- named :: 100
+- nameless :: 100
+- natural :: 100
+- non-forcing :: 100
+- nonforcing :: 100
+- not yet excluded :: 100
+- notthat :: 100
+- open :: 100
+- pair :: 100
+- pairwise :: 100
+- path :: 100
+- perspective :: 100
+- pivot :: 100
+- pivot of dao :: 100
+- play :: 100
+- plural :: 100
+- plurality :: 100
+- present :: 100
+- reading :: 100
+- readings :: 100
+- relative :: 100
+- responsive :: 100
+- return :: 100
+- returned :: 100
+- reversal :: 100
+- separate readings :: 100
+- shift :: 100
+- situated :: 100
+- social :: 100
+- soft :: 100
+- spontaneous :: 100
+- still possible :: 100
+- surviving alternatives :: 100
+- tension :: 100
+- this :: 100
+- this and that :: 100
+- transform :: 100
+- transformation :: 100
+- turning :: 100
+- undecided :: 100
+
+## couplings
+
+- accommodate difference :: 100
+- across live :: 100
+- after live :: 100
+- before live :: 100
+- between branch :: 100
+- between live :: 100
+- between reading :: 100
+- between readings :: 100
+- branch :: 100
+- butterfly dream :: 100
+- butterfly unfixed :: 100
+- check branch :: 100
+- check plurality :: 100
+- coexisting :: 100
+- compare branch :: 100
+- compare plurality :: 100
+- curious tolerance :: 100
+- different road :: 100
+- dream waking :: 100
+- edge case :: 100
+- fish perspective :: 100
+- free wandering :: 100
+- gestalt shift :: 100
+- goblet words :: 100
+- heart mind :: 100
+- held apart :: 100
+- hold branch :: 100
+- hold plurality :: 100
+- live boundary :: 100
+- live candidate :: 100
+- live constraint :: 100
+- live evidence :: 100
+- live packet :: 100
+- live path :: 100
+- live probe :: 100
+- live reading :: 100
+- live readings :: 100
+- live receipt :: 100
+- live result :: 100
+- live scope :: 100
+- live status :: 100
+- live support :: 100
+- live surface :: 100
+- live trace :: 100
+- live witness :: 100
+- local present perspective :: 100
+- many :: 100
+- many perspectives :: 100
+- many readings :: 100
+- many reversal :: 100
+- many ways :: 100
+- measure branch :: 100
+- measure plurality :: 100
+- mild skepticism :: 100
+- narrow branch :: 100
+- narrow plurality :: 100
+- natural balance :: 100
+- natural dao :: 100
+- no final view :: 100
+- non-forcing :: 100
+- nonforcing path :: 100
+- nonforcing reversal :: 100
+- nonforcing unfixed :: 100
+- observe branch :: 100
+- observe plurality :: 100
+- open reading :: 100
+- open readings :: 100
+- open reversal :: 100
+- open unfixed :: 100
+- perspective :: 100
+- perspective butterfly :: 100
+- perspective many :: 100
+- perspective nameless :: 100
+- perspective nonforcing :: 100
+- perspective open :: 100
+- perspective reading :: 100
+- perspective shift :: 100
+- perspective transformation :: 100
+- perspective unfixed :: 100
+- perspectives on perspectives :: 100
+- plural :: 100
+- plurality boundary :: 100
+- plurality candidate :: 100
+- plurality constraint :: 100
+- plurality evidence :: 100
+- plurality packet :: 100
+- plurality path :: 100
+- plurality probe :: 100
+- plurality receipt :: 100
+- plurality result :: 100
+- plurality scope :: 100
+- plurality status :: 100
+- plurality support :: 100
+- plurality surface :: 100
+- plurality trace :: 100
+- plurality witness :: 100
+- preserve branch :: 100
+- preserve plurality :: 100
+- reading :: 100
+- reading reversal :: 100
+- reading unfixed :: 100
+- readings reversal :: 100
+- reversal :: 100
+- self so :: 100
+- separate readings :: 100
+- shift :: 100
+- social dao :: 100
+- split branch :: 100
+- split plurality :: 100
+- still possible :: 100
+- surviving alternatives :: 100
+- test branch :: 100
+- test plurality :: 100
+- thing transformation :: 100
+- this not that :: 100
+- through live :: 100
+- transformation unfixed :: 100
+- turning :: 100
+- under live :: 100
+- unfixed :: 100
+- unfixed many :: 100
+- unfixed name :: 100
+- unfixed nameless :: 100
+- unfixed plural :: 100
+- unfixed readings :: 100
+- unfixed return :: 100
+- unfixed reversal :: 100
+- unsettled :: 100
+- until live :: 100
+- verify branch :: 100
+- verify plurality :: 100
+- walking in pairs :: 100
+- walking two paths :: 100
+- wandering path :: 100
+- wandering perspective :: 100
+- wandering unfixed :: 100
+- way :: 100
+- way butterfly :: 100
+- way nonforcing :: 100
+- way open :: 100
+- way perspective :: 100
+- way reading :: 100
+- way transformation :: 100
+- way unfixed :: 100
+- way wandering :: 100
+- where live :: 100
+- where plurality :: 100
+- while live :: 100
+- while plurality :: 100
+- within live :: 100
+- across open :: 99
+- across plurality :: 99
+- after open :: 99
+- after plurality :: 99
+- before open :: 99
+- before plurality :: 99
+- between open :: 99
+- between plurality :: 99
+- check live :: 99
+- compare live :: 99
+
+## triplets
+
+- accommodation cooperation difference :: 100
+- across bounded live :: 100
+- across current live :: 100
+- across finite live :: 100
+- across live live :: 100
+- across live readings :: 100
+- across local live :: 100
+- across open live :: 100
+- across open reading :: 100
+- before open reading :: 100
+- between bounded live :: 100
+- between current live :: 100
+- between finite live :: 100
+- between live live :: 100
+- between live open :: 100
+- between live reading :: 100
+- between live readings :: 100
+- between live unfixed :: 100
+- between local live :: 100
+- between open branch :: 100
+- between open live :: 100
+- between open open :: 100
+- between open reading :: 100
+- dream wake shift :: 100
+- fish bridge knowledge :: 100
+- heart mind response :: 100
+- local present perspective :: 100
+- many live readings :: 100
+- natural social dao :: 100
+- no final perspective :: 100
+- nonforcing responsive action :: 100
+- open curiosity tolerance :: 100
+- perspective on perspective :: 100
+- plural readings held :: 100
+- this not that :: 100
+- through current live :: 100
+- through open reading :: 100
+- transformation without closure :: 100
+- under bounded live :: 100
+- under current live :: 100
+- under finite live :: 100
+- under live live :: 100
+- under live readings :: 100
+- under local live :: 100
+- under open live :: 100
+- under open reading :: 100
+- unfixed name path :: 100
+- walk two paths :: 100
+- within bounded live :: 100
+- within current live :: 100
+- within finite live :: 100
+- within live live :: 100
+- within live readings :: 100
+- within local live :: 100
+- within open live :: 100
+- within open reading :: 100
+- across open readings :: 99
+- before bounded live :: 99
+- before current live :: 99
+- before finite live :: 99
+- before live live :: 99
+- before local live :: 99
+- before open live :: 99
+- between open readings :: 99
+- check live receipt :: 99
+- compare live receipt :: 99
+- live boundary path :: 99
+- live evidence path :: 99
+- live packet path :: 99
+- live path path :: 99
+- live receipt path :: 99
+- live result path :: 99
+- live scope path :: 99
+- live support path :: 99
+- live surface path :: 99
+- live trace path :: 99
+- measure live receipt :: 99
+- observe live receipt :: 99
+- through bounded live :: 99
+- through finite live :: 99
+- through live live :: 99
+- through local live :: 99
+- through open live :: 99
+- under open readings :: 99
+- under wandering perspective :: 99
+- under way butterfly :: 99
+- under way perspective :: 99
+- under way transformation :: 99
+- under way wandering :: 99
+- within open readings :: 99
+- across bounded open :: 98
+- across current open :: 98
+- across finite open :: 98
+- across live open :: 98
+- across local open :: 98
+- across open open :: 98
+- between bounded open :: 98
+- between current open :: 98
+- between local open :: 98
+- hold live receipt :: 98
+- preserve live receipt :: 98
+- test live receipt :: 98
+- under bounded open :: 98
+- under current open :: 98
+- under finite open :: 98
+- under live open :: 98
+- under local open :: 98
+- under open open :: 98
+- under open unfixed :: 98
+- under perspective butterfly :: 98
+- under perspective transformation :: 98
+- verify live receipt :: 98
+- within bounded open :: 98
+- within current open :: 98
+- within finite open :: 98
+- within live open :: 98
+- within local open :: 98
+- within open open :: 98
+- before bounded open :: 97
+- before current open :: 97
+- before finite open :: 97
+- before live open :: 97
+- before local open :: 97
+- before open open :: 97
+- between finite open :: 97
+- open boundary path :: 97
+- open evidence path :: 97
+- open packet path :: 97
+- open path path :: 97
+- open receipt path :: 97

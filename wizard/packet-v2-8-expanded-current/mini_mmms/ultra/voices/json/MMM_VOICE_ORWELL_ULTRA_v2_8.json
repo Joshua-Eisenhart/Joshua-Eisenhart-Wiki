@@ -1,0 +1,888 @@
+{
+  "words": [
+    [
+      1,
+      "short",
+      100
+    ],
+    [
+      2,
+      "clear",
+      100
+    ],
+    [
+      3,
+      "euphemism",
+      100
+    ],
+    [
+      4,
+      "plain english",
+      100
+    ],
+    [
+      5,
+      "cut",
+      100
+    ],
+    [
+      6,
+      "fog",
+      100
+    ],
+    [
+      7,
+      "untested",
+      100
+    ],
+    [
+      8,
+      "replace",
+      100
+    ],
+    [
+      9,
+      "concrete",
+      100
+    ],
+    [
+      10,
+      "plain",
+      100
+    ],
+    [
+      11,
+      "cut a word",
+      100
+    ],
+    [
+      12,
+      "short word",
+      100
+    ],
+    [
+      13,
+      "inflated",
+      100
+    ],
+    [
+      14,
+      "jargon",
+      100
+    ],
+    [
+      15,
+      "vague",
+      100
+    ],
+    [
+      16,
+      "remove",
+      100
+    ],
+    [
+      17,
+      "dead phrase",
+      100
+    ],
+    [
+      18,
+      "soft word",
+      100
+    ],
+    [
+      19,
+      "owner",
+      100
+    ],
+    [
+      20,
+      "wrong",
+      100
+    ],
+    [
+      21,
+      "action",
+      100
+    ],
+    [
+      22,
+      "stale image",
+      100
+    ],
+    [
+      23,
+      "active",
+      100
+    ],
+    [
+      24,
+      "verb",
+      100
+    ],
+    [
+      25,
+      "noun",
+      100
+    ],
+    [
+      26,
+      "meaning",
+      100
+    ],
+    [
+      27,
+      "image",
+      100
+    ],
+    [
+      28,
+      "stale",
+      100
+    ],
+    [
+      29,
+      "mini-MMM",
+      100
+    ],
+    [
+      30,
+      "mini MMM",
+      100
+    ],
+    [
+      31,
+      "voice shape",
+      100
+    ],
+    [
+      32,
+      "voice shaping",
+      100
+    ],
+    [
+      33,
+      "shape voice",
+      100
+    ],
+    [
+      34,
+      "shaped voice",
+      100
+    ],
+    [
+      35,
+      "voice contour",
+      100
+    ],
+    [
+      36,
+      "voice signature",
+      100
+    ],
+    [
+      37,
+      "voice localizer",
+      100
+    ],
+    [
+      38,
+      "local voice",
+      100
+    ],
+    [
+      39,
+      "aligned nouns",
+      100
+    ],
+    [
+      40,
+      "correlated thinkers",
+      100
+    ],
+    [
+      41,
+      "thinker alignment",
+      100
+    ],
+    [
+      42,
+      "noun alignment",
+      100
+    ],
+    [
+      43,
+      "voice method",
+      100
+    ],
+    [
+      44,
+      "voice evidence",
+      100
+    ],
+    [
+      45,
+      "voice judgment",
+      100
+    ],
+    [
+      46,
+      "voice task",
+      100
+    ],
+    [
+      47,
+      "voice receipt",
+      100
+    ],
+    [
+      48,
+      "voice finding",
+      100
+    ],
+    [
+      49,
+      "voice constraint",
+      100
+    ],
+    [
+      50,
+      "voice noun",
+      100
+    ],
+    [
+      51,
+      "voice verb",
+      100
+    ],
+    [
+      52,
+      "voice signal",
+      100
+    ],
+    [
+      53,
+      "voice contrast",
+      100
+    ],
+    [
+      54,
+      "voice boundary",
+      100
+    ],
+    [
+      55,
+      "voice contribution",
+      100
+    ],
+    [
+      56,
+      "mini mmm loaded",
+      100
+    ],
+    [
+      57,
+      "loaded mini mmm",
+      100
+    ],
+    [
+      58,
+      "assigned mini mmm",
+      100
+    ],
+    [
+      59,
+      "local voice context",
+      100
+    ],
+    [
+      60,
+      "voice-specific nouns",
+      100
+    ],
+    [
+      61,
+      "method nouns",
+      100
+    ],
+    [
+      62,
+      "reader stance",
+      100
+    ],
+    [
+      63,
+      "decision stance",
+      100
+    ],
+    [
+      64,
+      "audit stance",
+      100
+    ],
+    [
+      65,
+      "build stance",
+      100
+    ],
+    [
+      66,
+      "repair stance",
+      100
+    ],
+    [
+      67,
+      "acceptance stance",
+      100
+    ],
+    [
+      68,
+      "subagent voice",
+      100
+    ],
+    [
+      69,
+      "voice worker",
+      100
+    ],
+    [
+      70,
+      "voice proof",
+      100
+    ],
+    [
+      71,
+      "distinct output",
+      100
+    ],
+    [
+      72,
+      "behavioral pull",
+      100
+    ],
+    [
+      73,
+      "salience pull",
+      100
+    ],
+    [
+      74,
+      "voice usefulness",
+      100
+    ],
+    [
+      75,
+      "output repair",
+      100
+    ],
+    [
+      76,
+      "system repair",
+      100
+    ],
+    [
+      77,
+      "mmm stability",
+      100
+    ],
+    [
+      78,
+      "wizard stability",
+      100
+    ],
+    [
+      79,
+      "qit support",
+      100
+    ],
+    [
+      80,
+      "sim support",
+      100
+    ]
+  ],
+  "couplings": [
+    [
+      1,
+      "test plain",
+      100
+    ],
+    [
+      2,
+      "test cut",
+      100
+    ],
+    [
+      3,
+      "test short",
+      100
+    ],
+    [
+      4,
+      "test concrete",
+      100
+    ],
+    [
+      5,
+      "test fog",
+      100
+    ],
+    [
+      6,
+      "plain english",
+      100
+    ],
+    [
+      7,
+      "plain evidence",
+      100
+    ],
+    [
+      8,
+      "plain support",
+      100
+    ],
+    [
+      9,
+      "plain path",
+      100
+    ],
+    [
+      10,
+      "plain packet",
+      100
+    ],
+    [
+      11,
+      "plain receipt",
+      100
+    ],
+    [
+      12,
+      "plain trace",
+      100
+    ],
+    [
+      13,
+      "plain scope",
+      100
+    ],
+    [
+      14,
+      "plain boundary",
+      100
+    ],
+    [
+      15,
+      "plain status",
+      100
+    ],
+    [
+      16,
+      "plain candidate",
+      100
+    ],
+    [
+      17,
+      "plain witness",
+      100
+    ],
+    [
+      18,
+      "cut",
+      100
+    ],
+    [
+      19,
+      "concrete",
+      100
+    ],
+    [
+      20,
+      "short",
+      100
+    ],
+    [
+      21,
+      "clear",
+      100
+    ],
+    [
+      22,
+      "fog",
+      100
+    ],
+    [
+      23,
+      "euphemism",
+      100
+    ],
+    [
+      24,
+      "plain probe",
+      100
+    ],
+    [
+      25,
+      "plain constraint",
+      100
+    ],
+    [
+      26,
+      "check plain",
+      100
+    ],
+    [
+      27,
+      "compare plain",
+      100
+    ],
+    [
+      28,
+      "observe plain",
+      100
+    ],
+    [
+      29,
+      "measure plain",
+      100
+    ],
+    [
+      30,
+      "verify plain",
+      100
+    ],
+    [
+      31,
+      "hold plain",
+      100
+    ],
+    [
+      32,
+      "preserve plain",
+      100
+    ],
+    [
+      33,
+      "split plain",
+      100
+    ],
+    [
+      34,
+      "narrow plain",
+      100
+    ],
+    [
+      35,
+      "where plain",
+      100
+    ],
+    [
+      36,
+      "while plain",
+      100
+    ],
+    [
+      37,
+      "cut evidence",
+      100
+    ],
+    [
+      38,
+      "cut support",
+      100
+    ],
+    [
+      39,
+      "cut path",
+      100
+    ],
+    [
+      40,
+      "cut surface",
+      100
+    ],
+    [
+      41,
+      "cut packet",
+      100
+    ],
+    [
+      42,
+      "cut receipt",
+      100
+    ],
+    [
+      43,
+      "cut trace",
+      100
+    ],
+    [
+      44,
+      "cut result",
+      100
+    ],
+    [
+      45,
+      "concrete terms",
+      100
+    ],
+    [
+      46,
+      "active verb",
+      100
+    ],
+    [
+      47,
+      "simple verb",
+      100
+    ],
+    [
+      48,
+      "dead metaphor",
+      100
+    ],
+    [
+      49,
+      "mini-MMM shapes voice",
+      100
+    ],
+    [
+      50,
+      "mini MMM voice shape",
+      100
+    ],
+    [
+      51,
+      "voice shaped by nouns",
+      100
+    ],
+    [
+      52,
+      "aligned nouns shape voice",
+      100
+    ],
+    [
+      53,
+      "correlated thinkers shape voice",
+      100
+    ],
+    [
+      54,
+      "thinker alignment voice",
+      100
+    ],
+    [
+      55,
+      "noun alignment voice",
+      100
+    ],
+    [
+      56,
+      "voice signature nouns",
+      100
+    ],
+    [
+      57,
+      "local voice contour",
+      100
+    ]
+  ],
+  "triplets": [
+    [
+      1,
+      "test plain receipt",
+      100
+    ],
+    [
+      2,
+      "test cut receipt",
+      100
+    ],
+    [
+      3,
+      "test short receipt",
+      100
+    ],
+    [
+      4,
+      "test concrete receipt",
+      100
+    ],
+    [
+      5,
+      "plain evidence path",
+      100
+    ],
+    [
+      6,
+      "plain concrete words",
+      100
+    ],
+    [
+      7,
+      "active verb noun",
+      100
+    ],
+    [
+      8,
+      "cut dead language",
+      100
+    ],
+    [
+      9,
+      "stale metaphor removed",
+      100
+    ],
+    [
+      10,
+      "euphemism vague fog",
+      100
+    ],
+    [
+      11,
+      "specific meaning first",
+      100
+    ],
+    [
+      12,
+      "name the thing",
+      100
+    ],
+    [
+      13,
+      "short simple verb",
+      100
+    ],
+    [
+      14,
+      "pretentious diction cut",
+      100
+    ],
+    [
+      15,
+      "false limb removed",
+      100
+    ],
+    [
+      16,
+      "cloudy vagueness blocked",
+      100
+    ],
+    [
+      17,
+      "plain english surface",
+      100
+    ],
+    [
+      18,
+      "word meaning reunited",
+      100
+    ],
+    [
+      19,
+      "inflated noun replaced",
+      100
+    ],
+    [
+      20,
+      "under plain concrete",
+      91
+    ],
+    [
+      21,
+      "under plain short",
+      91
+    ],
+    [
+      22,
+      "under plain clear",
+      91
+    ],
+    [
+      23,
+      "under plain cut",
+      91
+    ],
+    [
+      24,
+      "under concrete short",
+      91
+    ],
+    [
+      25,
+      "under concrete clear",
+      91
+    ],
+    [
+      26,
+      "under concrete cut",
+      91
+    ],
+    [
+      27,
+      "under concrete fog",
+      91
+    ],
+    [
+      28,
+      "under short clear",
+      90
+    ],
+    [
+      29,
+      "under short cut",
+      90
+    ],
+    [
+      30,
+      "under short fog",
+      90
+    ],
+    [
+      31,
+      "under short euphemism",
+      90
+    ],
+    [
+      32,
+      "under clear cut",
+      90
+    ],
+    [
+      33,
+      "under clear fog",
+      90
+    ],
+    [
+      34,
+      "under clear euphemism",
+      90
+    ],
+    [
+      35,
+      "mini-MMM shapes voice",
+      100
+    ],
+    [
+      36,
+      "mini MMM voice shape",
+      100
+    ],
+    [
+      37,
+      "voice shaped by nouns",
+      100
+    ],
+    [
+      38,
+      "aligned nouns shape voice",
+      100
+    ],
+    [
+      39,
+      "correlated thinkers shape voice",
+      100
+    ]
+  ]
+}

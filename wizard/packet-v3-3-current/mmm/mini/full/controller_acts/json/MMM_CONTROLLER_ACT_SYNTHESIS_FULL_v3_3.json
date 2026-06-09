@@ -1,0 +1,12494 @@
+{
+  "words": [
+    [
+      1,
+      "synthesis",
+      100
+    ],
+    [
+      2,
+      "compose",
+      100
+    ],
+    [
+      3,
+      "composition",
+      100
+    ],
+    [
+      4,
+      "receipt",
+      100
+    ],
+    [
+      5,
+      "distinct",
+      100
+    ],
+    [
+      6,
+      "preserve",
+      100
+    ],
+    [
+      7,
+      "carry",
+      100
+    ],
+    [
+      8,
+      "merge",
+      100
+    ],
+    [
+      9,
+      "nonmerge",
+      100
+    ],
+    [
+      10,
+      "tension",
+      100
+    ],
+    [
+      11,
+      "split",
+      100
+    ],
+    [
+      12,
+      "surviving",
+      100
+    ],
+    [
+      13,
+      "difference",
+      100
+    ],
+    [
+      14,
+      "held",
+      100
+    ],
+    [
+      15,
+      "apart",
+      100
+    ],
+    [
+      16,
+      "accepted",
+      100
+    ],
+    [
+      17,
+      "convergence",
+      100
+    ],
+    [
+      18,
+      "named",
+      100
+    ],
+    [
+      19,
+      "divergence",
+      100
+    ],
+    [
+      20,
+      "dropped",
+      100
+    ],
+    [
+      21,
+      "thread",
+      100
+    ],
+    [
+      22,
+      "controller",
+      100
+    ],
+    [
+      23,
+      "act",
+      100
+    ],
+    [
+      24,
+      "structure",
+      100
+    ],
+    [
+      25,
+      "boundary",
+      100
+    ],
+    [
+      26,
+      "not merged",
+      99
+    ],
+    [
+      27,
+      "not collapsed",
+      99
+    ],
+    [
+      28,
+      "held apart",
+      99
+    ],
+    [
+      29,
+      "surviving split",
+      99
+    ],
+    [
+      30,
+      "excluded",
+      99
+    ],
+    [
+      31,
+      "bounded exclusion",
+      99
+    ],
+    [
+      32,
+      "unresolved",
+      99
+    ],
+    [
+      33,
+      "contradiction",
+      99
+    ],
+    [
+      34,
+      "after receipts",
+      99
+    ],
+    [
+      35,
+      "controller act",
+      99
+    ],
+    [
+      36,
+      "preserved difference",
+      99
+    ],
+    [
+      37,
+      "no consensus",
+      99
+    ],
+    [
+      38,
+      "live remainder",
+      99
+    ],
+    [
+      39,
+      "refusal",
+      99
+    ],
+    [
+      40,
+      "pair",
+      99
+    ],
+    [
+      41,
+      "contrast",
+      99
+    ],
+    [
+      42,
+      "compare",
+      99
+    ],
+    [
+      43,
+      "carried",
+      99
+    ],
+    [
+      44,
+      "visible",
+      99
+    ],
+    [
+      45,
+      "dissent",
+      99
+    ],
+    [
+      46,
+      "set",
+      99
+    ],
+    [
+      47,
+      "aside",
+      99
+    ],
+    [
+      48,
+      "later",
+      99
+    ],
+    [
+      49,
+      "under",
+      99
+    ],
+    [
+      50,
+      "within",
+      99
+    ],
+    [
+      51,
+      "across",
+      98
+    ],
+    [
+      52,
+      "between",
+      98
+    ],
+    [
+      53,
+      "through",
+      98
+    ],
+    [
+      54,
+      "before",
+      98
+    ],
+    [
+      55,
+      "after",
+      98
+    ],
+    [
+      56,
+      "until",
+      98
+    ],
+    [
+      57,
+      "where",
+      98
+    ],
+    [
+      58,
+      "while",
+      98
+    ],
+    [
+      59,
+      "against",
+      98
+    ],
+    [
+      60,
+      "along",
+      98
+    ],
+    [
+      61,
+      "around",
+      98
+    ],
+    [
+      62,
+      "among",
+      98
+    ],
+    [
+      63,
+      "inside",
+      98
+    ],
+    [
+      64,
+      "outside",
+      98
+    ],
+    [
+      65,
+      "near",
+      98
+    ],
+    [
+      66,
+      "beside",
+      98
+    ],
+    [
+      67,
+      "over",
+      98
+    ],
+    [
+      68,
+      "from",
+      98
+    ],
+    [
+      69,
+      "with",
+      98
+    ],
+    [
+      70,
+      "without",
+      98
+    ],
+    [
+      71,
+      "only",
+      98
+    ],
+    [
+      72,
+      "not",
+      98
+    ],
+    [
+      73,
+      "no",
+      98
+    ],
+    [
+      74,
+      "yet",
+      98
+    ],
+    [
+      75,
+      "then",
+      98
+    ],
+    [
+      76,
+      "current",
+      97
+    ],
+    [
+      77,
+      "actual",
+      97
+    ],
+    [
+      78,
+      "local",
+      97
+    ],
+    [
+      79,
+      "bounded",
+      97
+    ],
+    [
+      80,
+      "finite",
+      97
+    ],
+    [
+      81,
+      "open",
+      97
+    ],
+    [
+      82,
+      "live",
+      97
+    ],
+    [
+      83,
+      "concrete",
+      97
+    ],
+    [
+      84,
+      "plain",
+      97
+    ],
+    [
+      85,
+      "observed",
+      97
+    ],
+    [
+      86,
+      "inferred",
+      97
+    ],
+    [
+      87,
+      "known",
+      97
+    ],
+    [
+      88,
+      "unknown",
+      97
+    ],
+    [
+      89,
+      "checked",
+      97
+    ],
+    [
+      90,
+      "missing",
+      97
+    ],
+    [
+      91,
+      "stale",
+      97
+    ],
+    [
+      92,
+      "narrow",
+      97
+    ],
+    [
+      93,
+      "small",
+      97
+    ],
+    [
+      94,
+      "warm",
+      97
+    ],
+    [
+      95,
+      "careful",
+      97
+    ],
+    [
+      96,
+      "honest",
+      97
+    ],
+    [
+      97,
+      "first",
+      97
+    ],
+    [
+      98,
+      "next",
+      97
+    ],
+    [
+      99,
+      "prior",
+      97
+    ],
+    [
+      100,
+      "separate",
+      97
+    ],
+    [
+      101,
+      "together",
+      96
+    ],
+    [
+      102,
+      "returned",
+      96
+    ],
+    [
+      103,
+      "found",
+      96
+    ],
+    [
+      104,
+      "compared",
+      96
+    ],
+    [
+      105,
+      "measured",
+      96
+    ],
+    [
+      106,
+      "used",
+      96
+    ],
+    [
+      107,
+      "fit",
+      96
+    ],
+    [
+      108,
+      "viable",
+      96
+    ],
+    [
+      109,
+      "direct",
+      96
+    ],
+    [
+      110,
+      "different",
+      96
+    ],
+    [
+      111,
+      "alternate",
+      96
+    ],
+    [
+      112,
+      "branch",
+      96
+    ],
+    [
+      113,
+      "path",
+      96
+    ],
+    [
+      114,
+      "surface",
+      96
+    ],
+    [
+      115,
+      "packet",
+      96
+    ],
+    [
+      116,
+      "artifact",
+      96
+    ],
+    [
+      117,
+      "trace",
+      96
+    ],
+    [
+      118,
+      "result",
+      96
+    ],
+    [
+      119,
+      "support",
+      96
+    ],
+    [
+      120,
+      "evidence",
+      96
+    ],
+    [
+      121,
+      "scope",
+      96
+    ],
+    [
+      122,
+      "gate",
+      96
+    ],
+    [
+      123,
+      "guard",
+      96
+    ],
+    [
+      124,
+      "rung",
+      96
+    ],
+    [
+      125,
+      "status",
+      96
+    ],
+    [
+      126,
+      "candidate",
+      95
+    ],
+    [
+      127,
+      "survivor",
+      95
+    ],
+    [
+      128,
+      "witness",
+      95
+    ],
+    [
+      129,
+      "probe",
+      95
+    ],
+    [
+      130,
+      "constraint",
+      95
+    ],
+    [
+      131,
+      "name",
+      95
+    ],
+    [
+      132,
+      "term",
+      95
+    ],
+    [
+      133,
+      "use",
+      95
+    ],
+    [
+      134,
+      "role",
+      95
+    ],
+    [
+      135,
+      "practice",
+      95
+    ],
+    [
+      136,
+      "custom",
+      95
+    ],
+    [
+      137,
+      "habit",
+      95
+    ],
+    [
+      138,
+      "experience",
+      95
+    ],
+    [
+      139,
+      "observation",
+      95
+    ],
+    [
+      140,
+      "impression",
+      95
+    ],
+    [
+      141,
+      "idea",
+      95
+    ],
+    [
+      142,
+      "perception",
+      95
+    ],
+    [
+      143,
+      "conjunction",
+      95
+    ],
+    [
+      144,
+      "resemblance",
+      95
+    ],
+    [
+      145,
+      "relation",
+      95
+    ],
+    [
+      146,
+      "probability",
+      95
+    ],
+    [
+      147,
+      "particular",
+      95
+    ],
+    [
+      148,
+      "predicate",
+      95
+    ],
+    [
+      149,
+      "class",
+      95
+    ],
+    [
+      150,
+      "model",
+      95
+    ],
+    [
+      151,
+      "solver",
+      94
+    ],
+    [
+      152,
+      "satisfiable",
+      94
+    ],
+    [
+      153,
+      "unsatisfiable",
+      94
+    ],
+    [
+      154,
+      "countermodel",
+      94
+    ],
+    [
+      155,
+      "counterexample",
+      94
+    ],
+    [
+      156,
+      "equivalence",
+      94
+    ],
+    [
+      157,
+      "indistinguishable",
+      94
+    ],
+    [
+      158,
+      "readout",
+      94
+    ],
+    [
+      159,
+      "measure",
+      94
+    ],
+    [
+      160,
+      "measurement",
+      94
+    ],
+    [
+      161,
+      "operation",
+      94
+    ],
+    [
+      162,
+      "procedure",
+      94
+    ],
+    [
+      163,
+      "instrument",
+      94
+    ],
+    [
+      164,
+      "experiment",
+      94
+    ],
+    [
+      165,
+      "test",
+      94
+    ],
+    [
+      166,
+      "check",
+      94
+    ],
+    [
+      167,
+      "verify",
+      94
+    ],
+    [
+      168,
+      "sample",
+      94
+    ],
+    [
+      169,
+      "route",
+      94
+    ],
+    [
+      170,
+      "lane",
+      94
+    ],
+    [
+      171,
+      "voice",
+      94
+    ],
+    [
+      172,
+      "lens",
+      94
+    ],
+    [
+      173,
+      "council",
+      94
+    ],
+    [
+      174,
+      "audit",
+      94
+    ],
+    [
+      175,
+      "finding",
+      94
+    ],
+    [
+      176,
+      "blocker",
+      93
+    ],
+    [
+      177,
+      "deferred",
+      93
+    ],
+    [
+      178,
+      "blocked",
+      93
+    ],
+    [
+      179,
+      "spawned",
+      93
+    ],
+    [
+      180,
+      "diagnostic",
+      93
+    ],
+    [
+      181,
+      "untried",
+      93
+    ],
+    [
+      182,
+      "preload",
+      93
+    ],
+    [
+      183,
+      "salience",
+      93
+    ],
+    [
+      184,
+      "language",
+      93
+    ],
+    [
+      185,
+      "body",
+      93
+    ],
+    [
+      186,
+      "during",
+      93
+    ],
+    [
+      187,
+      "since",
+      93
+    ],
+    [
+      188,
+      "by",
+      93
+    ],
+    [
+      189,
+      "toward",
+      93
+    ],
+    [
+      190,
+      "relative",
+      93
+    ],
+    [
+      191,
+      "according",
+      93
+    ],
+    [
+      192,
+      "locally",
+      93
+    ],
+    [
+      193,
+      "jointly",
+      93
+    ],
+    [
+      194,
+      "separately",
+      93
+    ],
+    [
+      195,
+      "rather",
+      93
+    ],
+    [
+      196,
+      "instead",
+      93
+    ],
+    [
+      197,
+      "still",
+      93
+    ],
+    [
+      198,
+      "often",
+      93
+    ],
+    [
+      199,
+      "sometimes",
+      93
+    ],
+    [
+      200,
+      "usually",
+      93
+    ],
+    [
+      201,
+      "seems",
+      92
+    ],
+    [
+      202,
+      "appears",
+      92
+    ],
+    [
+      203,
+      "likely",
+      92
+    ],
+    [
+      204,
+      "possible",
+      92
+    ],
+    [
+      205,
+      "plausible",
+      92
+    ],
+    [
+      206,
+      "tentative",
+      92
+    ],
+    [
+      207,
+      "provisional",
+      92
+    ],
+    [
+      208,
+      "partial",
+      92
+    ],
+    [
+      209,
+      "limited",
+      92
+    ],
+    [
+      210,
+      "case",
+      92
+    ],
+    [
+      211,
+      "instance",
+      92
+    ],
+    [
+      212,
+      "word",
+      92
+    ],
+    [
+      213,
+      "regularity",
+      92
+    ],
+    [
+      214,
+      "distinction",
+      92
+    ],
+    [
+      215,
+      "similarity",
+      92
+    ],
+    [
+      216,
+      "comparison",
+      92
+    ],
+    [
+      217,
+      "inference",
+      92
+    ],
+    [
+      218,
+      "estimate",
+      92
+    ],
+    [
+      219,
+      "uncertainty",
+      92
+    ],
+    [
+      220,
+      "frequency",
+      92
+    ],
+    [
+      221,
+      "mini-MMM",
+      100
+    ],
+    [
+      222,
+      "mini MMM",
+      100
+    ],
+    [
+      223,
+      "voice shape",
+      100
+    ],
+    [
+      224,
+      "voice shaping",
+      100
+    ],
+    [
+      225,
+      "shape voice",
+      100
+    ],
+    [
+      226,
+      "shaped voice",
+      100
+    ],
+    [
+      227,
+      "voice contour",
+      100
+    ],
+    [
+      228,
+      "voice signature",
+      100
+    ],
+    [
+      229,
+      "voice localizer",
+      100
+    ],
+    [
+      230,
+      "local voice",
+      100
+    ],
+    [
+      231,
+      "aligned nouns",
+      100
+    ],
+    [
+      232,
+      "correlated thinkers",
+      100
+    ],
+    [
+      233,
+      "thinker alignment",
+      100
+    ],
+    [
+      234,
+      "noun alignment",
+      100
+    ],
+    [
+      235,
+      "merge without collapse",
+      98
+    ],
+    [
+      236,
+      "surviving disagreement",
+      98
+    ],
+    [
+      237,
+      "receipt boundary",
+      98
+    ],
+    [
+      238,
+      "source-aware filtering",
+      98
+    ],
+    [
+      239,
+      "preserved tension",
+      98
+    ]
+  ],
+  "couplings": [
+    [
+      1,
+      "under receipt",
+      100
+    ],
+    [
+      2,
+      "within receipt",
+      100
+    ],
+    [
+      3,
+      "across receipt",
+      100
+    ],
+    [
+      4,
+      "between receipt",
+      100
+    ],
+    [
+      5,
+      "through receipt",
+      100
+    ],
+    [
+      6,
+      "before receipt",
+      100
+    ],
+    [
+      7,
+      "after receipt",
+      100
+    ],
+    [
+      8,
+      "until receipt",
+      100
+    ],
+    [
+      9,
+      "where receipt",
+      100
+    ],
+    [
+      10,
+      "while receipt",
+      100
+    ],
+    [
+      11,
+      "receipt evidence",
+      100
+    ],
+    [
+      12,
+      "receipt support",
+      100
+    ],
+    [
+      13,
+      "receipt path",
+      100
+    ],
+    [
+      14,
+      "receipt surface",
+      100
+    ],
+    [
+      15,
+      "receipt packet",
+      100
+    ],
+    [
+      16,
+      "receipt receipt",
+      100
+    ],
+    [
+      17,
+      "receipt trace",
+      100
+    ],
+    [
+      18,
+      "receipt result",
+      100
+    ],
+    [
+      19,
+      "receipt scope",
+      100
+    ],
+    [
+      20,
+      "receipt boundary",
+      100
+    ],
+    [
+      21,
+      "receipt status",
+      100
+    ],
+    [
+      22,
+      "receipt candidate",
+      100
+    ],
+    [
+      23,
+      "receipt witness",
+      100
+    ],
+    [
+      24,
+      "receipt probe",
+      100
+    ],
+    [
+      25,
+      "receipt constraint",
+      100
+    ],
+    [
+      26,
+      "check receipt",
+      99
+    ],
+    [
+      27,
+      "compare receipt",
+      99
+    ],
+    [
+      28,
+      "observe receipt",
+      99
+    ],
+    [
+      29,
+      "measure receipt",
+      99
+    ],
+    [
+      30,
+      "test receipt",
+      99
+    ],
+    [
+      31,
+      "verify receipt",
+      99
+    ],
+    [
+      32,
+      "hold receipt",
+      99
+    ],
+    [
+      33,
+      "preserve receipt",
+      99
+    ],
+    [
+      34,
+      "split receipt",
+      99
+    ],
+    [
+      35,
+      "narrow receipt",
+      99
+    ],
+    [
+      36,
+      "under preserve",
+      99
+    ],
+    [
+      37,
+      "within preserve",
+      99
+    ],
+    [
+      38,
+      "across preserve",
+      99
+    ],
+    [
+      39,
+      "between preserve",
+      99
+    ],
+    [
+      40,
+      "through preserve",
+      99
+    ],
+    [
+      41,
+      "before preserve",
+      99
+    ],
+    [
+      42,
+      "after preserve",
+      99
+    ],
+    [
+      43,
+      "until preserve",
+      99
+    ],
+    [
+      44,
+      "where preserve",
+      99
+    ],
+    [
+      45,
+      "while preserve",
+      99
+    ],
+    [
+      46,
+      "preserve evidence",
+      99
+    ],
+    [
+      47,
+      "preserve support",
+      99
+    ],
+    [
+      48,
+      "preserve path",
+      99
+    ],
+    [
+      49,
+      "preserve surface",
+      99
+    ],
+    [
+      50,
+      "preserve packet",
+      99
+    ],
+    [
+      51,
+      "preserve trace",
+      98
+    ],
+    [
+      52,
+      "preserve result",
+      98
+    ],
+    [
+      53,
+      "preserve scope",
+      98
+    ],
+    [
+      54,
+      "preserve boundary",
+      98
+    ],
+    [
+      55,
+      "preserve status",
+      98
+    ],
+    [
+      56,
+      "preserve candidate",
+      98
+    ],
+    [
+      57,
+      "preserve witness",
+      98
+    ],
+    [
+      58,
+      "preserve probe",
+      98
+    ],
+    [
+      59,
+      "preserve constraint",
+      98
+    ],
+    [
+      60,
+      "check preserve",
+      98
+    ],
+    [
+      61,
+      "compare preserve",
+      98
+    ],
+    [
+      62,
+      "observe preserve",
+      98
+    ],
+    [
+      63,
+      "measure preserve",
+      98
+    ],
+    [
+      64,
+      "test preserve",
+      98
+    ],
+    [
+      65,
+      "verify preserve",
+      98
+    ],
+    [
+      66,
+      "hold preserve",
+      98
+    ],
+    [
+      67,
+      "preserve preserve",
+      98
+    ],
+    [
+      68,
+      "split preserve",
+      98
+    ],
+    [
+      69,
+      "narrow preserve",
+      98
+    ],
+    [
+      70,
+      "under distinct",
+      98
+    ],
+    [
+      71,
+      "within distinct",
+      98
+    ],
+    [
+      72,
+      "across distinct",
+      98
+    ],
+    [
+      73,
+      "between distinct",
+      98
+    ],
+    [
+      74,
+      "through distinct",
+      98
+    ],
+    [
+      75,
+      "before distinct",
+      98
+    ],
+    [
+      76,
+      "after distinct",
+      97
+    ],
+    [
+      77,
+      "until distinct",
+      97
+    ],
+    [
+      78,
+      "where distinct",
+      97
+    ],
+    [
+      79,
+      "while distinct",
+      97
+    ],
+    [
+      80,
+      "distinct evidence",
+      97
+    ],
+    [
+      81,
+      "distinct support",
+      97
+    ],
+    [
+      82,
+      "distinct path",
+      97
+    ],
+    [
+      83,
+      "distinct surface",
+      97
+    ],
+    [
+      84,
+      "distinct packet",
+      97
+    ],
+    [
+      85,
+      "distinct receipt",
+      97
+    ],
+    [
+      86,
+      "distinct trace",
+      97
+    ],
+    [
+      87,
+      "distinct result",
+      97
+    ],
+    [
+      88,
+      "distinct scope",
+      97
+    ],
+    [
+      89,
+      "distinct boundary",
+      97
+    ],
+    [
+      90,
+      "distinct status",
+      97
+    ],
+    [
+      91,
+      "distinct candidate",
+      97
+    ],
+    [
+      92,
+      "distinct witness",
+      97
+    ],
+    [
+      93,
+      "distinct probe",
+      97
+    ],
+    [
+      94,
+      "distinct constraint",
+      97
+    ],
+    [
+      95,
+      "check distinct",
+      97
+    ],
+    [
+      96,
+      "compare distinct",
+      97
+    ],
+    [
+      97,
+      "observe distinct",
+      97
+    ],
+    [
+      98,
+      "measure distinct",
+      97
+    ],
+    [
+      99,
+      "test distinct",
+      97
+    ],
+    [
+      100,
+      "verify distinct",
+      97
+    ],
+    [
+      101,
+      "hold distinct",
+      96
+    ],
+    [
+      102,
+      "preserve distinct",
+      96
+    ],
+    [
+      103,
+      "split distinct",
+      96
+    ],
+    [
+      104,
+      "narrow distinct",
+      96
+    ],
+    [
+      105,
+      "under refusal",
+      96
+    ],
+    [
+      106,
+      "within refusal",
+      96
+    ],
+    [
+      107,
+      "across refusal",
+      96
+    ],
+    [
+      108,
+      "between refusal",
+      96
+    ],
+    [
+      109,
+      "through refusal",
+      96
+    ],
+    [
+      110,
+      "before refusal",
+      96
+    ],
+    [
+      111,
+      "after refusal",
+      96
+    ],
+    [
+      112,
+      "until refusal",
+      96
+    ],
+    [
+      113,
+      "where refusal",
+      96
+    ],
+    [
+      114,
+      "while refusal",
+      96
+    ],
+    [
+      115,
+      "refusal evidence",
+      96
+    ],
+    [
+      116,
+      "refusal support",
+      96
+    ],
+    [
+      117,
+      "refusal path",
+      96
+    ],
+    [
+      118,
+      "refusal surface",
+      96
+    ],
+    [
+      119,
+      "refusal packet",
+      96
+    ],
+    [
+      120,
+      "refusal receipt",
+      96
+    ],
+    [
+      121,
+      "refusal trace",
+      96
+    ],
+    [
+      122,
+      "refusal result",
+      96
+    ],
+    [
+      123,
+      "refusal scope",
+      96
+    ],
+    [
+      124,
+      "refusal boundary",
+      96
+    ],
+    [
+      125,
+      "refusal status",
+      96
+    ],
+    [
+      126,
+      "refusal candidate",
+      95
+    ],
+    [
+      127,
+      "refusal witness",
+      95
+    ],
+    [
+      128,
+      "refusal probe",
+      95
+    ],
+    [
+      129,
+      "refusal constraint",
+      95
+    ],
+    [
+      130,
+      "check refusal",
+      95
+    ],
+    [
+      131,
+      "compare refusal",
+      95
+    ],
+    [
+      132,
+      "observe refusal",
+      95
+    ],
+    [
+      133,
+      "measure refusal",
+      95
+    ],
+    [
+      134,
+      "test refusal",
+      95
+    ],
+    [
+      135,
+      "verify refusal",
+      95
+    ],
+    [
+      136,
+      "hold refusal",
+      95
+    ],
+    [
+      137,
+      "preserve refusal",
+      95
+    ],
+    [
+      138,
+      "split refusal",
+      95
+    ],
+    [
+      139,
+      "narrow refusal",
+      95
+    ],
+    [
+      140,
+      "under merge",
+      95
+    ],
+    [
+      141,
+      "within merge",
+      95
+    ],
+    [
+      142,
+      "across merge",
+      95
+    ],
+    [
+      143,
+      "between merge",
+      95
+    ],
+    [
+      144,
+      "through merge",
+      95
+    ],
+    [
+      145,
+      "before merge",
+      95
+    ],
+    [
+      146,
+      "after merge",
+      95
+    ],
+    [
+      147,
+      "until merge",
+      95
+    ],
+    [
+      148,
+      "where merge",
+      95
+    ],
+    [
+      149,
+      "while merge",
+      95
+    ],
+    [
+      150,
+      "merge evidence",
+      95
+    ],
+    [
+      151,
+      "merge support",
+      94
+    ],
+    [
+      152,
+      "merge path",
+      94
+    ],
+    [
+      153,
+      "merge surface",
+      94
+    ],
+    [
+      154,
+      "merge packet",
+      94
+    ],
+    [
+      155,
+      "merge receipt",
+      94
+    ],
+    [
+      156,
+      "merge trace",
+      94
+    ],
+    [
+      157,
+      "merge result",
+      94
+    ],
+    [
+      158,
+      "merge scope",
+      94
+    ],
+    [
+      159,
+      "merge boundary",
+      94
+    ],
+    [
+      160,
+      "merge status",
+      94
+    ],
+    [
+      161,
+      "merge candidate",
+      94
+    ],
+    [
+      162,
+      "merge witness",
+      94
+    ],
+    [
+      163,
+      "merge probe",
+      94
+    ],
+    [
+      164,
+      "merge constraint",
+      94
+    ],
+    [
+      165,
+      "check merge",
+      94
+    ],
+    [
+      166,
+      "compare merge",
+      94
+    ],
+    [
+      167,
+      "observe merge",
+      94
+    ],
+    [
+      168,
+      "measure merge",
+      94
+    ],
+    [
+      169,
+      "test merge",
+      94
+    ],
+    [
+      170,
+      "verify merge",
+      94
+    ],
+    [
+      171,
+      "hold merge",
+      94
+    ],
+    [
+      172,
+      "preserve merge",
+      94
+    ],
+    [
+      173,
+      "split merge",
+      94
+    ],
+    [
+      174,
+      "narrow merge",
+      94
+    ],
+    [
+      175,
+      "under pair",
+      94
+    ],
+    [
+      176,
+      "within pair",
+      93
+    ],
+    [
+      177,
+      "across pair",
+      93
+    ],
+    [
+      178,
+      "between pair",
+      93
+    ],
+    [
+      179,
+      "through pair",
+      93
+    ],
+    [
+      180,
+      "before pair",
+      93
+    ],
+    [
+      181,
+      "after pair",
+      93
+    ],
+    [
+      182,
+      "until pair",
+      93
+    ],
+    [
+      183,
+      "where pair",
+      93
+    ],
+    [
+      184,
+      "while pair",
+      93
+    ],
+    [
+      185,
+      "pair evidence",
+      93
+    ],
+    [
+      186,
+      "pair support",
+      93
+    ],
+    [
+      187,
+      "pair path",
+      93
+    ],
+    [
+      188,
+      "pair surface",
+      93
+    ],
+    [
+      189,
+      "pair packet",
+      93
+    ],
+    [
+      190,
+      "pair receipt",
+      93
+    ],
+    [
+      191,
+      "pair trace",
+      93
+    ],
+    [
+      192,
+      "pair result",
+      93
+    ],
+    [
+      193,
+      "pair scope",
+      93
+    ],
+    [
+      194,
+      "pair boundary",
+      93
+    ],
+    [
+      195,
+      "pair status",
+      93
+    ],
+    [
+      196,
+      "pair candidate",
+      93
+    ],
+    [
+      197,
+      "pair witness",
+      93
+    ],
+    [
+      198,
+      "pair probe",
+      93
+    ],
+    [
+      199,
+      "pair constraint",
+      93
+    ],
+    [
+      200,
+      "check pair",
+      93
+    ],
+    [
+      201,
+      "compare pair",
+      92
+    ],
+    [
+      202,
+      "observe pair",
+      92
+    ],
+    [
+      203,
+      "measure pair",
+      92
+    ],
+    [
+      204,
+      "test pair",
+      92
+    ],
+    [
+      205,
+      "verify pair",
+      92
+    ],
+    [
+      206,
+      "hold pair",
+      92
+    ],
+    [
+      207,
+      "preserve pair",
+      92
+    ],
+    [
+      208,
+      "split pair",
+      92
+    ],
+    [
+      209,
+      "narrow pair",
+      92
+    ],
+    [
+      210,
+      "under tension",
+      92
+    ],
+    [
+      211,
+      "within tension",
+      92
+    ],
+    [
+      212,
+      "across tension",
+      92
+    ],
+    [
+      213,
+      "between tension",
+      92
+    ],
+    [
+      214,
+      "through tension",
+      92
+    ],
+    [
+      215,
+      "before tension",
+      92
+    ],
+    [
+      216,
+      "after tension",
+      92
+    ],
+    [
+      217,
+      "until tension",
+      92
+    ],
+    [
+      218,
+      "where tension",
+      92
+    ],
+    [
+      219,
+      "while tension",
+      92
+    ],
+    [
+      220,
+      "tension evidence",
+      92
+    ],
+    [
+      221,
+      "tension support",
+      92
+    ],
+    [
+      222,
+      "tension path",
+      92
+    ],
+    [
+      223,
+      "tension surface",
+      92
+    ],
+    [
+      224,
+      "tension packet",
+      92
+    ],
+    [
+      225,
+      "tension receipt",
+      92
+    ],
+    [
+      226,
+      "tension trace",
+      91
+    ],
+    [
+      227,
+      "tension result",
+      91
+    ],
+    [
+      228,
+      "tension scope",
+      91
+    ],
+    [
+      229,
+      "tension boundary",
+      91
+    ],
+    [
+      230,
+      "tension status",
+      91
+    ],
+    [
+      231,
+      "tension candidate",
+      91
+    ],
+    [
+      232,
+      "tension witness",
+      91
+    ],
+    [
+      233,
+      "tension probe",
+      91
+    ],
+    [
+      234,
+      "tension constraint",
+      91
+    ],
+    [
+      235,
+      "check tension",
+      91
+    ],
+    [
+      236,
+      "compare tension",
+      91
+    ],
+    [
+      237,
+      "observe tension",
+      91
+    ],
+    [
+      238,
+      "measure tension",
+      91
+    ],
+    [
+      239,
+      "test tension",
+      91
+    ],
+    [
+      240,
+      "verify tension",
+      91
+    ],
+    [
+      241,
+      "hold tension",
+      91
+    ],
+    [
+      242,
+      "preserve tension",
+      91
+    ],
+    [
+      243,
+      "split tension",
+      91
+    ],
+    [
+      244,
+      "narrow tension",
+      91
+    ],
+    [
+      245,
+      "under held",
+      91
+    ],
+    [
+      246,
+      "within held",
+      91
+    ],
+    [
+      247,
+      "across held",
+      91
+    ],
+    [
+      248,
+      "between held",
+      91
+    ],
+    [
+      249,
+      "through held",
+      91
+    ],
+    [
+      250,
+      "before held",
+      91
+    ],
+    [
+      251,
+      "after held",
+      90
+    ],
+    [
+      252,
+      "until held",
+      90
+    ],
+    [
+      253,
+      "where held",
+      90
+    ],
+    [
+      254,
+      "while held",
+      90
+    ],
+    [
+      255,
+      "held evidence",
+      90
+    ],
+    [
+      256,
+      "held support",
+      90
+    ],
+    [
+      257,
+      "held path",
+      90
+    ],
+    [
+      258,
+      "held surface",
+      90
+    ],
+    [
+      259,
+      "held packet",
+      90
+    ],
+    [
+      260,
+      "held receipt",
+      90
+    ],
+    [
+      261,
+      "held trace",
+      90
+    ],
+    [
+      262,
+      "held result",
+      90
+    ],
+    [
+      263,
+      "held scope",
+      90
+    ],
+    [
+      264,
+      "held boundary",
+      90
+    ],
+    [
+      265,
+      "held status",
+      90
+    ],
+    [
+      266,
+      "held candidate",
+      90
+    ],
+    [
+      267,
+      "held witness",
+      90
+    ],
+    [
+      268,
+      "held probe",
+      90
+    ],
+    [
+      269,
+      "held constraint",
+      90
+    ],
+    [
+      270,
+      "check held",
+      90
+    ],
+    [
+      271,
+      "compare held",
+      90
+    ],
+    [
+      272,
+      "observe held",
+      90
+    ],
+    [
+      273,
+      "measure held",
+      90
+    ],
+    [
+      274,
+      "test held",
+      90
+    ],
+    [
+      275,
+      "verify held",
+      90
+    ],
+    [
+      276,
+      "hold held",
+      89
+    ],
+    [
+      277,
+      "preserve held",
+      89
+    ],
+    [
+      278,
+      "split held",
+      89
+    ],
+    [
+      279,
+      "narrow held",
+      89
+    ],
+    [
+      280,
+      "under contrast",
+      89
+    ],
+    [
+      281,
+      "within contrast",
+      89
+    ],
+    [
+      282,
+      "across contrast",
+      89
+    ],
+    [
+      283,
+      "between contrast",
+      89
+    ],
+    [
+      284,
+      "through contrast",
+      89
+    ],
+    [
+      285,
+      "before contrast",
+      89
+    ],
+    [
+      286,
+      "after contrast",
+      89
+    ],
+    [
+      287,
+      "until contrast",
+      89
+    ],
+    [
+      288,
+      "where contrast",
+      89
+    ],
+    [
+      289,
+      "while contrast",
+      89
+    ],
+    [
+      290,
+      "contrast evidence",
+      89
+    ],
+    [
+      291,
+      "contrast support",
+      89
+    ],
+    [
+      292,
+      "contrast path",
+      89
+    ],
+    [
+      293,
+      "contrast surface",
+      89
+    ],
+    [
+      294,
+      "contrast packet",
+      89
+    ],
+    [
+      295,
+      "contrast receipt",
+      89
+    ],
+    [
+      296,
+      "contrast trace",
+      89
+    ],
+    [
+      297,
+      "contrast result",
+      89
+    ],
+    [
+      298,
+      "contrast scope",
+      89
+    ],
+    [
+      299,
+      "contrast boundary",
+      89
+    ],
+    [
+      300,
+      "contrast status",
+      89
+    ],
+    [
+      301,
+      "contrast candidate",
+      88
+    ],
+    [
+      302,
+      "contrast witness",
+      88
+    ],
+    [
+      303,
+      "contrast probe",
+      88
+    ],
+    [
+      304,
+      "contrast constraint",
+      88
+    ],
+    [
+      305,
+      "check contrast",
+      88
+    ],
+    [
+      306,
+      "compare contrast",
+      88
+    ],
+    [
+      307,
+      "observe contrast",
+      88
+    ],
+    [
+      308,
+      "measure contrast",
+      88
+    ],
+    [
+      309,
+      "test contrast",
+      88
+    ],
+    [
+      310,
+      "verify contrast",
+      88
+    ],
+    [
+      311,
+      "hold contrast",
+      88
+    ],
+    [
+      312,
+      "preserve contrast",
+      88
+    ],
+    [
+      313,
+      "split contrast",
+      88
+    ],
+    [
+      314,
+      "narrow contrast",
+      88
+    ],
+    [
+      315,
+      "under compare",
+      88
+    ],
+    [
+      316,
+      "within compare",
+      88
+    ],
+    [
+      317,
+      "across compare",
+      88
+    ],
+    [
+      318,
+      "between compare",
+      88
+    ],
+    [
+      319,
+      "through compare",
+      88
+    ],
+    [
+      320,
+      "before compare",
+      88
+    ],
+    [
+      321,
+      "after compare",
+      88
+    ],
+    [
+      322,
+      "until compare",
+      88
+    ],
+    [
+      323,
+      "where compare",
+      88
+    ],
+    [
+      324,
+      "while compare",
+      88
+    ],
+    [
+      325,
+      "compare evidence",
+      88
+    ],
+    [
+      326,
+      "compare support",
+      87
+    ],
+    [
+      327,
+      "compare path",
+      87
+    ],
+    [
+      328,
+      "compare surface",
+      87
+    ],
+    [
+      329,
+      "compare packet",
+      87
+    ],
+    [
+      330,
+      "compare trace",
+      87
+    ],
+    [
+      331,
+      "compare result",
+      87
+    ],
+    [
+      332,
+      "compare scope",
+      87
+    ],
+    [
+      333,
+      "compare boundary",
+      87
+    ],
+    [
+      334,
+      "compare status",
+      87
+    ],
+    [
+      335,
+      "compare candidate",
+      87
+    ],
+    [
+      336,
+      "compare witness",
+      87
+    ],
+    [
+      337,
+      "compare probe",
+      87
+    ],
+    [
+      338,
+      "compare constraint",
+      87
+    ],
+    [
+      339,
+      "check compare",
+      87
+    ],
+    [
+      340,
+      "compare compare",
+      87
+    ],
+    [
+      341,
+      "not merged",
+      87
+    ],
+    [
+      342,
+      "not collapsed",
+      87
+    ],
+    [
+      343,
+      "held apart",
+      87
+    ],
+    [
+      344,
+      "surviving split",
+      87
+    ],
+    [
+      345,
+      "bounded exclusion",
+      87
+    ],
+    [
+      346,
+      "after receipts",
+      87
+    ],
+    [
+      347,
+      "controller act",
+      87
+    ],
+    [
+      348,
+      "preserved difference",
+      87
+    ],
+    [
+      349,
+      "no consensus",
+      87
+    ],
+    [
+      350,
+      "live remainder",
+      87
+    ],
+    [
+      351,
+      "compose",
+      86
+    ],
+    [
+      352,
+      "carry",
+      86
+    ],
+    [
+      353,
+      "receipt",
+      86
+    ],
+    [
+      354,
+      "distinct",
+      86
+    ],
+    [
+      355,
+      "excluded",
+      86
+    ],
+    [
+      356,
+      "unresolved",
+      86
+    ],
+    [
+      357,
+      "tension",
+      86
+    ],
+    [
+      358,
+      "contradiction",
+      86
+    ],
+    [
+      359,
+      "synthesis",
+      86
+    ],
+    [
+      360,
+      "under synthesis",
+      86
+    ],
+    [
+      361,
+      "under compose",
+      86
+    ],
+    [
+      362,
+      "under composition",
+      86
+    ],
+    [
+      363,
+      "under carry",
+      86
+    ],
+    [
+      364,
+      "under nonmerge",
+      86
+    ],
+    [
+      365,
+      "under split",
+      86
+    ],
+    [
+      366,
+      "under surviving",
+      86
+    ],
+    [
+      367,
+      "under difference",
+      86
+    ],
+    [
+      368,
+      "under apart",
+      86
+    ],
+    [
+      369,
+      "under accepted",
+      86
+    ],
+    [
+      370,
+      "under convergence",
+      86
+    ],
+    [
+      371,
+      "under named",
+      86
+    ],
+    [
+      372,
+      "under divergence",
+      86
+    ],
+    [
+      373,
+      "under dropped",
+      86
+    ],
+    [
+      374,
+      "within synthesis",
+      86
+    ],
+    [
+      375,
+      "within compose",
+      86
+    ],
+    [
+      376,
+      "within composition",
+      85
+    ],
+    [
+      377,
+      "within carry",
+      85
+    ],
+    [
+      378,
+      "within nonmerge",
+      85
+    ],
+    [
+      379,
+      "within split",
+      85
+    ],
+    [
+      380,
+      "within surviving",
+      85
+    ],
+    [
+      381,
+      "within difference",
+      85
+    ],
+    [
+      382,
+      "within apart",
+      85
+    ],
+    [
+      383,
+      "within accepted",
+      85
+    ],
+    [
+      384,
+      "within convergence",
+      85
+    ],
+    [
+      385,
+      "within named",
+      85
+    ],
+    [
+      386,
+      "within divergence",
+      85
+    ],
+    [
+      387,
+      "within dropped",
+      85
+    ],
+    [
+      388,
+      "across synthesis",
+      85
+    ],
+    [
+      389,
+      "across compose",
+      85
+    ],
+    [
+      390,
+      "across composition",
+      85
+    ],
+    [
+      391,
+      "across carry",
+      85
+    ],
+    [
+      392,
+      "across nonmerge",
+      85
+    ],
+    [
+      393,
+      "across split",
+      85
+    ],
+    [
+      394,
+      "across surviving",
+      85
+    ],
+    [
+      395,
+      "across difference",
+      85
+    ],
+    [
+      396,
+      "across apart",
+      85
+    ],
+    [
+      397,
+      "across accepted",
+      85
+    ],
+    [
+      398,
+      "across convergence",
+      85
+    ],
+    [
+      399,
+      "across named",
+      85
+    ],
+    [
+      400,
+      "across divergence",
+      85
+    ],
+    [
+      401,
+      "across dropped",
+      84
+    ],
+    [
+      402,
+      "between synthesis",
+      84
+    ],
+    [
+      403,
+      "between compose",
+      84
+    ],
+    [
+      404,
+      "between composition",
+      84
+    ],
+    [
+      405,
+      "between carry",
+      84
+    ],
+    [
+      406,
+      "between nonmerge",
+      84
+    ],
+    [
+      407,
+      "between split",
+      84
+    ],
+    [
+      408,
+      "between surviving",
+      84
+    ],
+    [
+      409,
+      "between difference",
+      84
+    ],
+    [
+      410,
+      "between apart",
+      84
+    ],
+    [
+      411,
+      "between accepted",
+      84
+    ],
+    [
+      412,
+      "between convergence",
+      84
+    ],
+    [
+      413,
+      "between named",
+      84
+    ],
+    [
+      414,
+      "between divergence",
+      84
+    ],
+    [
+      415,
+      "between dropped",
+      84
+    ],
+    [
+      416,
+      "through synthesis",
+      84
+    ],
+    [
+      417,
+      "through compose",
+      84
+    ],
+    [
+      418,
+      "through composition",
+      84
+    ],
+    [
+      419,
+      "through carry",
+      84
+    ],
+    [
+      420,
+      "through nonmerge",
+      84
+    ],
+    [
+      421,
+      "through split",
+      84
+    ],
+    [
+      422,
+      "through surviving",
+      84
+    ],
+    [
+      423,
+      "through difference",
+      84
+    ],
+    [
+      424,
+      "through apart",
+      84
+    ],
+    [
+      425,
+      "through accepted",
+      84
+    ],
+    [
+      426,
+      "through convergence",
+      83
+    ],
+    [
+      427,
+      "through named",
+      83
+    ],
+    [
+      428,
+      "through divergence",
+      83
+    ],
+    [
+      429,
+      "through dropped",
+      83
+    ],
+    [
+      430,
+      "before synthesis",
+      83
+    ],
+    [
+      431,
+      "before compose",
+      83
+    ],
+    [
+      432,
+      "before composition",
+      83
+    ],
+    [
+      433,
+      "before carry",
+      83
+    ],
+    [
+      434,
+      "before nonmerge",
+      83
+    ],
+    [
+      435,
+      "before split",
+      83
+    ],
+    [
+      436,
+      "before surviving",
+      83
+    ],
+    [
+      437,
+      "before difference",
+      83
+    ],
+    [
+      438,
+      "before apart",
+      83
+    ],
+    [
+      439,
+      "before accepted",
+      83
+    ],
+    [
+      440,
+      "before convergence",
+      83
+    ],
+    [
+      441,
+      "before named",
+      83
+    ],
+    [
+      442,
+      "before divergence",
+      83
+    ],
+    [
+      443,
+      "before dropped",
+      83
+    ],
+    [
+      444,
+      "after synthesis",
+      83
+    ],
+    [
+      445,
+      "after compose",
+      83
+    ],
+    [
+      446,
+      "after composition",
+      83
+    ],
+    [
+      447,
+      "after carry",
+      83
+    ],
+    [
+      448,
+      "after nonmerge",
+      83
+    ],
+    [
+      449,
+      "after split",
+      83
+    ],
+    [
+      450,
+      "after surviving",
+      83
+    ],
+    [
+      451,
+      "after difference",
+      82
+    ],
+    [
+      452,
+      "after apart",
+      82
+    ],
+    [
+      453,
+      "after accepted",
+      82
+    ],
+    [
+      454,
+      "after convergence",
+      82
+    ],
+    [
+      455,
+      "after named",
+      82
+    ],
+    [
+      456,
+      "after divergence",
+      82
+    ],
+    [
+      457,
+      "after dropped",
+      82
+    ],
+    [
+      458,
+      "during synthesis",
+      82
+    ],
+    [
+      459,
+      "during compose",
+      82
+    ],
+    [
+      460,
+      "during composition",
+      82
+    ],
+    [
+      461,
+      "during receipt",
+      82
+    ],
+    [
+      462,
+      "during distinct",
+      82
+    ],
+    [
+      463,
+      "during preserve",
+      82
+    ],
+    [
+      464,
+      "during carry",
+      82
+    ],
+    [
+      465,
+      "during merge",
+      82
+    ],
+    [
+      466,
+      "during nonmerge",
+      82
+    ],
+    [
+      467,
+      "during tension",
+      82
+    ],
+    [
+      468,
+      "during split",
+      82
+    ],
+    [
+      469,
+      "during surviving",
+      82
+    ],
+    [
+      470,
+      "during difference",
+      82
+    ],
+    [
+      471,
+      "during held",
+      82
+    ],
+    [
+      472,
+      "during apart",
+      82
+    ],
+    [
+      473,
+      "during accepted",
+      82
+    ],
+    [
+      474,
+      "during convergence",
+      82
+    ],
+    [
+      475,
+      "during named",
+      82
+    ],
+    [
+      476,
+      "during divergence",
+      81
+    ],
+    [
+      477,
+      "during dropped",
+      81
+    ],
+    [
+      478,
+      "until synthesis",
+      81
+    ],
+    [
+      479,
+      "until compose",
+      81
+    ],
+    [
+      480,
+      "until composition",
+      81
+    ],
+    [
+      481,
+      "until carry",
+      81
+    ],
+    [
+      482,
+      "until nonmerge",
+      81
+    ],
+    [
+      483,
+      "until split",
+      81
+    ],
+    [
+      484,
+      "until surviving",
+      81
+    ],
+    [
+      485,
+      "until difference",
+      81
+    ],
+    [
+      486,
+      "until apart",
+      81
+    ],
+    [
+      487,
+      "until accepted",
+      81
+    ],
+    [
+      488,
+      "until convergence",
+      81
+    ],
+    [
+      489,
+      "until named",
+      81
+    ],
+    [
+      490,
+      "until divergence",
+      81
+    ],
+    [
+      491,
+      "until dropped",
+      81
+    ],
+    [
+      492,
+      "since synthesis",
+      81
+    ],
+    [
+      493,
+      "since compose",
+      81
+    ],
+    [
+      494,
+      "since composition",
+      81
+    ],
+    [
+      495,
+      "since receipt",
+      81
+    ],
+    [
+      496,
+      "since distinct",
+      81
+    ],
+    [
+      497,
+      "since preserve",
+      81
+    ],
+    [
+      498,
+      "since carry",
+      81
+    ],
+    [
+      499,
+      "since merge",
+      81
+    ],
+    [
+      500,
+      "since nonmerge",
+      81
+    ],
+    [
+      501,
+      "since tension",
+      80
+    ],
+    [
+      502,
+      "since split",
+      80
+    ],
+    [
+      503,
+      "since surviving",
+      80
+    ],
+    [
+      504,
+      "since difference",
+      80
+    ],
+    [
+      505,
+      "since held",
+      80
+    ],
+    [
+      506,
+      "since apart",
+      80
+    ],
+    [
+      507,
+      "since accepted",
+      80
+    ],
+    [
+      508,
+      "since convergence",
+      80
+    ],
+    [
+      509,
+      "since named",
+      80
+    ],
+    [
+      510,
+      "since divergence",
+      80
+    ],
+    [
+      511,
+      "since dropped",
+      80
+    ],
+    [
+      512,
+      "from synthesis",
+      80
+    ],
+    [
+      513,
+      "from compose",
+      80
+    ],
+    [
+      514,
+      "from composition",
+      80
+    ],
+    [
+      515,
+      "from receipt",
+      80
+    ],
+    [
+      516,
+      "from distinct",
+      80
+    ],
+    [
+      517,
+      "from preserve",
+      80
+    ],
+    [
+      518,
+      "from carry",
+      80
+    ],
+    [
+      519,
+      "from merge",
+      80
+    ],
+    [
+      520,
+      "from nonmerge",
+      80
+    ],
+    [
+      521,
+      "from tension",
+      80
+    ],
+    [
+      522,
+      "from split",
+      80
+    ],
+    [
+      523,
+      "from surviving",
+      80
+    ],
+    [
+      524,
+      "from difference",
+      80
+    ],
+    [
+      525,
+      "from held",
+      80
+    ],
+    [
+      526,
+      "from apart",
+      79
+    ],
+    [
+      527,
+      "from accepted",
+      79
+    ],
+    [
+      528,
+      "from convergence",
+      79
+    ],
+    [
+      529,
+      "from named",
+      79
+    ],
+    [
+      530,
+      "from divergence",
+      79
+    ],
+    [
+      531,
+      "from dropped",
+      79
+    ],
+    [
+      532,
+      "by synthesis",
+      79
+    ],
+    [
+      533,
+      "by compose",
+      79
+    ],
+    [
+      534,
+      "by composition",
+      79
+    ],
+    [
+      535,
+      "by receipt",
+      79
+    ],
+    [
+      536,
+      "by distinct",
+      79
+    ],
+    [
+      537,
+      "by preserve",
+      79
+    ],
+    [
+      538,
+      "by carry",
+      79
+    ],
+    [
+      539,
+      "by merge",
+      79
+    ],
+    [
+      540,
+      "by nonmerge",
+      79
+    ],
+    [
+      541,
+      "by tension",
+      79
+    ],
+    [
+      542,
+      "by split",
+      79
+    ],
+    [
+      543,
+      "by surviving",
+      79
+    ],
+    [
+      544,
+      "by difference",
+      79
+    ],
+    [
+      545,
+      "by held",
+      79
+    ],
+    [
+      546,
+      "by apart",
+      79
+    ],
+    [
+      547,
+      "by accepted",
+      79
+    ],
+    [
+      548,
+      "by convergence",
+      79
+    ],
+    [
+      549,
+      "by named",
+      79
+    ],
+    [
+      550,
+      "by divergence",
+      79
+    ],
+    [
+      551,
+      "by dropped",
+      78
+    ],
+    [
+      552,
+      "with synthesis",
+      78
+    ],
+    [
+      553,
+      "with compose",
+      78
+    ],
+    [
+      554,
+      "with composition",
+      78
+    ],
+    [
+      555,
+      "with receipt",
+      78
+    ],
+    [
+      556,
+      "with distinct",
+      78
+    ],
+    [
+      557,
+      "with preserve",
+      78
+    ],
+    [
+      558,
+      "with carry",
+      78
+    ],
+    [
+      559,
+      "with merge",
+      78
+    ],
+    [
+      560,
+      "with nonmerge",
+      78
+    ],
+    [
+      561,
+      "with tension",
+      78
+    ],
+    [
+      562,
+      "with split",
+      78
+    ],
+    [
+      563,
+      "with surviving",
+      78
+    ],
+    [
+      564,
+      "with difference",
+      78
+    ],
+    [
+      565,
+      "with held",
+      78
+    ],
+    [
+      566,
+      "with apart",
+      78
+    ],
+    [
+      567,
+      "with accepted",
+      78
+    ],
+    [
+      568,
+      "with convergence",
+      78
+    ],
+    [
+      569,
+      "with named",
+      78
+    ],
+    [
+      570,
+      "with divergence",
+      78
+    ],
+    [
+      571,
+      "with dropped",
+      78
+    ],
+    [
+      572,
+      "without synthesis",
+      78
+    ],
+    [
+      573,
+      "without compose",
+      78
+    ],
+    [
+      574,
+      "without composition",
+      78
+    ],
+    [
+      575,
+      "without receipt",
+      78
+    ],
+    [
+      576,
+      "without distinct",
+      77
+    ],
+    [
+      577,
+      "without preserve",
+      77
+    ],
+    [
+      578,
+      "without carry",
+      77
+    ],
+    [
+      579,
+      "without merge",
+      77
+    ],
+    [
+      580,
+      "without nonmerge",
+      77
+    ],
+    [
+      581,
+      "without tension",
+      77
+    ],
+    [
+      582,
+      "without split",
+      77
+    ],
+    [
+      583,
+      "without surviving",
+      77
+    ],
+    [
+      584,
+      "without difference",
+      77
+    ],
+    [
+      585,
+      "without held",
+      77
+    ],
+    [
+      586,
+      "without apart",
+      77
+    ],
+    [
+      587,
+      "without accepted",
+      77
+    ],
+    [
+      588,
+      "without convergence",
+      77
+    ],
+    [
+      589,
+      "without named",
+      77
+    ],
+    [
+      590,
+      "without divergence",
+      77
+    ],
+    [
+      591,
+      "without dropped",
+      77
+    ],
+    [
+      592,
+      "against synthesis",
+      77
+    ],
+    [
+      593,
+      "against compose",
+      77
+    ],
+    [
+      594,
+      "against composition",
+      77
+    ],
+    [
+      595,
+      "against receipt",
+      77
+    ],
+    [
+      596,
+      "against distinct",
+      77
+    ],
+    [
+      597,
+      "against preserve",
+      77
+    ],
+    [
+      598,
+      "against carry",
+      77
+    ],
+    [
+      599,
+      "against merge",
+      77
+    ],
+    [
+      600,
+      "against nonmerge",
+      77
+    ],
+    [
+      601,
+      "against tension",
+      76
+    ],
+    [
+      602,
+      "against split",
+      76
+    ],
+    [
+      603,
+      "against surviving",
+      76
+    ],
+    [
+      604,
+      "against difference",
+      76
+    ],
+    [
+      605,
+      "against held",
+      76
+    ],
+    [
+      606,
+      "against apart",
+      76
+    ],
+    [
+      607,
+      "against accepted",
+      76
+    ],
+    [
+      608,
+      "against convergence",
+      76
+    ],
+    [
+      609,
+      "against named",
+      76
+    ],
+    [
+      610,
+      "against divergence",
+      76
+    ],
+    [
+      611,
+      "against dropped",
+      76
+    ],
+    [
+      612,
+      "toward synthesis",
+      76
+    ],
+    [
+      613,
+      "toward compose",
+      76
+    ],
+    [
+      614,
+      "toward composition",
+      76
+    ],
+    [
+      615,
+      "toward receipt",
+      76
+    ],
+    [
+      616,
+      "toward distinct",
+      76
+    ],
+    [
+      617,
+      "toward preserve",
+      76
+    ],
+    [
+      618,
+      "toward carry",
+      76
+    ],
+    [
+      619,
+      "toward merge",
+      76
+    ],
+    [
+      620,
+      "toward nonmerge",
+      76
+    ],
+    [
+      621,
+      "toward tension",
+      76
+    ],
+    [
+      622,
+      "toward split",
+      76
+    ],
+    [
+      623,
+      "toward surviving",
+      76
+    ],
+    [
+      624,
+      "toward difference",
+      76
+    ],
+    [
+      625,
+      "toward held",
+      76
+    ],
+    [
+      626,
+      "toward apart",
+      75
+    ],
+    [
+      627,
+      "toward accepted",
+      75
+    ],
+    [
+      628,
+      "toward convergence",
+      75
+    ],
+    [
+      629,
+      "toward named",
+      75
+    ],
+    [
+      630,
+      "toward divergence",
+      75
+    ],
+    [
+      631,
+      "toward dropped",
+      75
+    ],
+    [
+      632,
+      "near synthesis",
+      75
+    ],
+    [
+      633,
+      "near compose",
+      75
+    ],
+    [
+      634,
+      "near composition",
+      75
+    ],
+    [
+      635,
+      "near receipt",
+      75
+    ],
+    [
+      636,
+      "near distinct",
+      75
+    ],
+    [
+      637,
+      "near preserve",
+      75
+    ],
+    [
+      638,
+      "near carry",
+      75
+    ],
+    [
+      639,
+      "near merge",
+      75
+    ],
+    [
+      640,
+      "near nonmerge",
+      75
+    ],
+    [
+      641,
+      "near tension",
+      75
+    ],
+    [
+      642,
+      "near split",
+      75
+    ],
+    [
+      643,
+      "near surviving",
+      75
+    ],
+    [
+      644,
+      "near difference",
+      75
+    ],
+    [
+      645,
+      "near held",
+      75
+    ],
+    [
+      646,
+      "near apart",
+      75
+    ],
+    [
+      647,
+      "near accepted",
+      75
+    ],
+    [
+      648,
+      "near convergence",
+      75
+    ],
+    [
+      649,
+      "near named",
+      75
+    ],
+    [
+      650,
+      "near divergence",
+      75
+    ],
+    [
+      651,
+      "near dropped",
+      74
+    ],
+    [
+      652,
+      "relative synthesis",
+      74
+    ],
+    [
+      653,
+      "relative compose",
+      74
+    ],
+    [
+      654,
+      "relative composition",
+      74
+    ],
+    [
+      655,
+      "relative receipt",
+      74
+    ],
+    [
+      656,
+      "relative distinct",
+      74
+    ],
+    [
+      657,
+      "relative preserve",
+      74
+    ],
+    [
+      658,
+      "relative carry",
+      74
+    ],
+    [
+      659,
+      "relative merge",
+      74
+    ],
+    [
+      660,
+      "relative nonmerge",
+      74
+    ],
+    [
+      661,
+      "relative tension",
+      74
+    ],
+    [
+      662,
+      "relative split",
+      74
+    ],
+    [
+      663,
+      "relative surviving",
+      74
+    ],
+    [
+      664,
+      "relative difference",
+      74
+    ],
+    [
+      665,
+      "relative held",
+      74
+    ],
+    [
+      666,
+      "relative apart",
+      74
+    ],
+    [
+      667,
+      "relative accepted",
+      74
+    ],
+    [
+      668,
+      "relative convergence",
+      74
+    ],
+    [
+      669,
+      "relative named",
+      74
+    ],
+    [
+      670,
+      "relative divergence",
+      74
+    ],
+    [
+      671,
+      "relative dropped",
+      74
+    ],
+    [
+      672,
+      "synthesis compose",
+      74
+    ],
+    [
+      673,
+      "synthesis composition",
+      74
+    ],
+    [
+      674,
+      "synthesis receipt",
+      74
+    ],
+    [
+      675,
+      "synthesis distinct",
+      74
+    ],
+    [
+      676,
+      "synthesis preserve",
+      73
+    ],
+    [
+      677,
+      "synthesis carry",
+      73
+    ],
+    [
+      678,
+      "synthesis merge",
+      73
+    ],
+    [
+      679,
+      "synthesis nonmerge",
+      73
+    ],
+    [
+      680,
+      "synthesis tension",
+      73
+    ],
+    [
+      681,
+      "synthesis split",
+      73
+    ],
+    [
+      682,
+      "synthesis surviving",
+      73
+    ],
+    [
+      683,
+      "compose composition",
+      73
+    ],
+    [
+      684,
+      "compose receipt",
+      73
+    ],
+    [
+      685,
+      "compose distinct",
+      73
+    ],
+    [
+      686,
+      "compose preserve",
+      73
+    ],
+    [
+      687,
+      "compose carry",
+      73
+    ],
+    [
+      688,
+      "compose merge",
+      73
+    ],
+    [
+      689,
+      "compose nonmerge",
+      73
+    ],
+    [
+      690,
+      "compose tension",
+      73
+    ],
+    [
+      691,
+      "compose split",
+      73
+    ],
+    [
+      692,
+      "compose surviving",
+      73
+    ],
+    [
+      693,
+      "compose difference",
+      73
+    ],
+    [
+      694,
+      "composition receipt",
+      73
+    ],
+    [
+      695,
+      "composition distinct",
+      73
+    ],
+    [
+      696,
+      "composition preserve",
+      73
+    ],
+    [
+      697,
+      "composition carry",
+      73
+    ],
+    [
+      698,
+      "composition merge",
+      73
+    ],
+    [
+      699,
+      "composition nonmerge",
+      73
+    ],
+    [
+      700,
+      "composition tension",
+      73
+    ],
+    [
+      701,
+      "composition split",
+      72
+    ],
+    [
+      702,
+      "composition surviving",
+      72
+    ],
+    [
+      703,
+      "composition difference",
+      72
+    ],
+    [
+      704,
+      "composition held",
+      72
+    ],
+    [
+      705,
+      "receipt distinct",
+      72
+    ],
+    [
+      706,
+      "receipt preserve",
+      72
+    ],
+    [
+      707,
+      "receipt carry",
+      72
+    ],
+    [
+      708,
+      "receipt merge",
+      72
+    ],
+    [
+      709,
+      "receipt nonmerge",
+      72
+    ],
+    [
+      710,
+      "receipt tension",
+      72
+    ],
+    [
+      711,
+      "receipt split",
+      72
+    ],
+    [
+      712,
+      "receipt surviving",
+      72
+    ],
+    [
+      713,
+      "receipt difference",
+      72
+    ],
+    [
+      714,
+      "receipt held",
+      72
+    ],
+    [
+      715,
+      "receipt apart",
+      72
+    ],
+    [
+      716,
+      "distinct preserve",
+      72
+    ],
+    [
+      717,
+      "distinct carry",
+      72
+    ],
+    [
+      718,
+      "distinct merge",
+      72
+    ],
+    [
+      719,
+      "distinct nonmerge",
+      72
+    ],
+    [
+      720,
+      "distinct tension",
+      72
+    ],
+    [
+      721,
+      "distinct split",
+      72
+    ],
+    [
+      722,
+      "distinct surviving",
+      72
+    ],
+    [
+      723,
+      "distinct difference",
+      72
+    ],
+    [
+      724,
+      "distinct held",
+      72
+    ],
+    [
+      725,
+      "distinct apart",
+      72
+    ],
+    [
+      726,
+      "distinct accepted",
+      71
+    ],
+    [
+      727,
+      "preserve carry",
+      71
+    ],
+    [
+      728,
+      "preserve nonmerge",
+      71
+    ],
+    [
+      729,
+      "preserve split",
+      71
+    ],
+    [
+      730,
+      "preserve surviving",
+      71
+    ],
+    [
+      731,
+      "preserve difference",
+      71
+    ],
+    [
+      732,
+      "preserve apart",
+      71
+    ],
+    [
+      733,
+      "preserve accepted",
+      71
+    ],
+    [
+      734,
+      "preserve convergence",
+      71
+    ],
+    [
+      735,
+      "carry merge",
+      71
+    ],
+    [
+      736,
+      "carry nonmerge",
+      71
+    ],
+    [
+      737,
+      "carry tension",
+      71
+    ],
+    [
+      738,
+      "carry split",
+      71
+    ],
+    [
+      739,
+      "carry surviving",
+      71
+    ],
+    [
+      740,
+      "carry difference",
+      71
+    ],
+    [
+      741,
+      "carry held",
+      71
+    ],
+    [
+      742,
+      "carry apart",
+      71
+    ],
+    [
+      743,
+      "carry accepted",
+      71
+    ],
+    [
+      744,
+      "carry convergence",
+      71
+    ],
+    [
+      745,
+      "carry named",
+      71
+    ],
+    [
+      746,
+      "merge nonmerge",
+      71
+    ],
+    [
+      747,
+      "merge tension",
+      71
+    ],
+    [
+      748,
+      "merge split",
+      71
+    ],
+    [
+      749,
+      "merge surviving",
+      71
+    ],
+    [
+      750,
+      "merge difference",
+      71
+    ],
+    [
+      751,
+      "merge held",
+      70
+    ],
+    [
+      752,
+      "merge apart",
+      70
+    ],
+    [
+      753,
+      "merge accepted",
+      70
+    ],
+    [
+      754,
+      "merge convergence",
+      70
+    ],
+    [
+      755,
+      "merge named",
+      70
+    ],
+    [
+      756,
+      "merge divergence",
+      70
+    ],
+    [
+      757,
+      "nonmerge tension",
+      70
+    ],
+    [
+      758,
+      "nonmerge split",
+      70
+    ],
+    [
+      759,
+      "nonmerge surviving",
+      70
+    ],
+    [
+      760,
+      "nonmerge difference",
+      70
+    ],
+    [
+      761,
+      "nonmerge held",
+      70
+    ],
+    [
+      762,
+      "nonmerge apart",
+      70
+    ],
+    [
+      763,
+      "nonmerge accepted",
+      70
+    ],
+    [
+      764,
+      "nonmerge convergence",
+      70
+    ],
+    [
+      765,
+      "nonmerge named",
+      70
+    ],
+    [
+      766,
+      "nonmerge divergence",
+      70
+    ],
+    [
+      767,
+      "nonmerge dropped",
+      70
+    ],
+    [
+      768,
+      "tension split",
+      70
+    ],
+    [
+      769,
+      "tension surviving",
+      70
+    ],
+    [
+      770,
+      "tension difference",
+      70
+    ],
+    [
+      771,
+      "tension held",
+      70
+    ],
+    [
+      772,
+      "tension apart",
+      70
+    ],
+    [
+      773,
+      "tension accepted",
+      70
+    ],
+    [
+      774,
+      "tension convergence",
+      70
+    ],
+    [
+      775,
+      "tension named",
+      70
+    ],
+    [
+      776,
+      "tension divergence",
+      69
+    ],
+    [
+      777,
+      "tension dropped",
+      69
+    ],
+    [
+      778,
+      "tension thread",
+      69
+    ],
+    [
+      779,
+      "split surviving",
+      69
+    ],
+    [
+      780,
+      "split difference",
+      69
+    ],
+    [
+      781,
+      "split apart",
+      69
+    ],
+    [
+      782,
+      "split accepted",
+      69
+    ],
+    [
+      783,
+      "split convergence",
+      69
+    ],
+    [
+      784,
+      "split named",
+      69
+    ],
+    [
+      785,
+      "split divergence",
+      69
+    ],
+    [
+      786,
+      "split dropped",
+      69
+    ],
+    [
+      787,
+      "split thread",
+      69
+    ],
+    [
+      788,
+      "split controller",
+      69
+    ],
+    [
+      789,
+      "surviving difference",
+      69
+    ],
+    [
+      790,
+      "surviving held",
+      69
+    ],
+    [
+      791,
+      "surviving apart",
+      69
+    ],
+    [
+      792,
+      "surviving accepted",
+      69
+    ],
+    [
+      793,
+      "surviving convergence",
+      69
+    ],
+    [
+      794,
+      "surviving named",
+      69
+    ],
+    [
+      795,
+      "surviving divergence",
+      69
+    ],
+    [
+      796,
+      "surviving dropped",
+      69
+    ],
+    [
+      797,
+      "surviving thread",
+      69
+    ],
+    [
+      798,
+      "surviving controller",
+      69
+    ],
+    [
+      799,
+      "surviving act",
+      69
+    ],
+    [
+      800,
+      "difference held",
+      69
+    ],
+    [
+      801,
+      "difference apart",
+      68
+    ],
+    [
+      802,
+      "difference accepted",
+      68
+    ],
+    [
+      803,
+      "difference convergence",
+      68
+    ],
+    [
+      804,
+      "difference named",
+      68
+    ],
+    [
+      805,
+      "difference divergence",
+      68
+    ],
+    [
+      806,
+      "difference dropped",
+      68
+    ],
+    [
+      807,
+      "difference thread",
+      68
+    ],
+    [
+      808,
+      "difference controller",
+      68
+    ],
+    [
+      809,
+      "difference act",
+      68
+    ],
+    [
+      810,
+      "difference structure",
+      68
+    ],
+    [
+      811,
+      "held accepted",
+      68
+    ],
+    [
+      812,
+      "held convergence",
+      68
+    ],
+    [
+      813,
+      "held named",
+      68
+    ],
+    [
+      814,
+      "held divergence",
+      68
+    ],
+    [
+      815,
+      "held dropped",
+      68
+    ],
+    [
+      816,
+      "held thread",
+      68
+    ],
+    [
+      817,
+      "held controller",
+      68
+    ],
+    [
+      818,
+      "held act",
+      68
+    ],
+    [
+      819,
+      "held structure",
+      68
+    ],
+    [
+      820,
+      "apart accepted",
+      68
+    ],
+    [
+      821,
+      "apart convergence",
+      68
+    ],
+    [
+      822,
+      "apart named",
+      68
+    ],
+    [
+      823,
+      "apart divergence",
+      68
+    ],
+    [
+      824,
+      "apart dropped",
+      68
+    ],
+    [
+      825,
+      "apart thread",
+      68
+    ],
+    [
+      826,
+      "apart controller",
+      67
+    ],
+    [
+      827,
+      "apart act",
+      67
+    ],
+    [
+      828,
+      "apart structure",
+      67
+    ],
+    [
+      829,
+      "apart boundary",
+      67
+    ],
+    [
+      830,
+      "apart not merged",
+      67
+    ],
+    [
+      831,
+      "accepted convergence",
+      67
+    ],
+    [
+      832,
+      "accepted named",
+      67
+    ],
+    [
+      833,
+      "accepted divergence",
+      67
+    ],
+    [
+      834,
+      "accepted dropped",
+      67
+    ],
+    [
+      835,
+      "accepted thread",
+      67
+    ],
+    [
+      836,
+      "accepted controller",
+      67
+    ],
+    [
+      837,
+      "accepted act",
+      67
+    ],
+    [
+      838,
+      "accepted structure",
+      67
+    ],
+    [
+      839,
+      "accepted boundary",
+      67
+    ],
+    [
+      840,
+      "accepted not merged",
+      67
+    ],
+    [
+      841,
+      "accepted not collapsed",
+      67
+    ],
+    [
+      842,
+      "convergence named",
+      67
+    ],
+    [
+      843,
+      "convergence divergence",
+      67
+    ],
+    [
+      844,
+      "convergence dropped",
+      67
+    ],
+    [
+      845,
+      "convergence thread",
+      67
+    ],
+    [
+      846,
+      "convergence controller",
+      67
+    ],
+    [
+      847,
+      "convergence act",
+      67
+    ],
+    [
+      848,
+      "convergence structure",
+      67
+    ],
+    [
+      849,
+      "convergence boundary",
+      67
+    ],
+    [
+      850,
+      "convergence not merged",
+      67
+    ],
+    [
+      851,
+      "convergence not collapsed",
+      66
+    ],
+    [
+      852,
+      "convergence held apart",
+      66
+    ],
+    [
+      853,
+      "named divergence",
+      66
+    ],
+    [
+      854,
+      "named dropped",
+      66
+    ],
+    [
+      855,
+      "named thread",
+      66
+    ],
+    [
+      856,
+      "named controller",
+      66
+    ],
+    [
+      857,
+      "named act",
+      66
+    ],
+    [
+      858,
+      "named structure",
+      66
+    ],
+    [
+      859,
+      "named boundary",
+      66
+    ],
+    [
+      860,
+      "named not merged",
+      66
+    ],
+    [
+      861,
+      "named not collapsed",
+      66
+    ],
+    [
+      862,
+      "named held apart",
+      66
+    ],
+    [
+      863,
+      "named surviving split",
+      66
+    ],
+    [
+      864,
+      "divergence dropped",
+      66
+    ],
+    [
+      865,
+      "divergence thread",
+      66
+    ],
+    [
+      866,
+      "divergence controller",
+      66
+    ],
+    [
+      867,
+      "divergence act",
+      66
+    ],
+    [
+      868,
+      "divergence structure",
+      66
+    ],
+    [
+      869,
+      "divergence boundary",
+      66
+    ],
+    [
+      870,
+      "divergence not merged",
+      66
+    ],
+    [
+      871,
+      "divergence not collapsed",
+      66
+    ],
+    [
+      872,
+      "divergence held apart",
+      66
+    ],
+    [
+      873,
+      "divergence surviving split",
+      66
+    ],
+    [
+      874,
+      "divergence excluded",
+      66
+    ],
+    [
+      875,
+      "dropped thread",
+      66
+    ],
+    [
+      876,
+      "dropped controller",
+      65
+    ],
+    [
+      877,
+      "dropped act",
+      65
+    ],
+    [
+      878,
+      "dropped structure",
+      65
+    ],
+    [
+      879,
+      "dropped boundary",
+      65
+    ],
+    [
+      880,
+      "dropped not merged",
+      65
+    ],
+    [
+      881,
+      "dropped not collapsed",
+      65
+    ],
+    [
+      882,
+      "dropped held apart",
+      65
+    ],
+    [
+      883,
+      "dropped surviving split",
+      65
+    ],
+    [
+      884,
+      "dropped excluded",
+      65
+    ],
+    [
+      885,
+      "dropped bounded exclusion",
+      65
+    ],
+    [
+      886,
+      "thread controller",
+      65
+    ],
+    [
+      887,
+      "thread act",
+      65
+    ],
+    [
+      888,
+      "thread structure",
+      65
+    ],
+    [
+      889,
+      "thread boundary",
+      65
+    ],
+    [
+      890,
+      "thread not merged",
+      65
+    ],
+    [
+      891,
+      "thread not collapsed",
+      65
+    ],
+    [
+      892,
+      "thread held apart",
+      65
+    ],
+    [
+      893,
+      "thread surviving split",
+      65
+    ],
+    [
+      894,
+      "thread excluded",
+      65
+    ],
+    [
+      895,
+      "thread bounded exclusion",
+      65
+    ],
+    [
+      896,
+      "thread unresolved",
+      65
+    ],
+    [
+      897,
+      "controller structure",
+      65
+    ],
+    [
+      898,
+      "controller boundary",
+      65
+    ],
+    [
+      899,
+      "controller not merged",
+      65
+    ],
+    [
+      900,
+      "controller not collapsed",
+      65
+    ],
+    [
+      901,
+      "mini-MMM shapes voice",
+      100
+    ],
+    [
+      902,
+      "mini MMM voice shape",
+      100
+    ],
+    [
+      903,
+      "voice shaped by nouns",
+      100
+    ],
+    [
+      904,
+      "aligned nouns shape voice",
+      100
+    ],
+    [
+      905,
+      "correlated thinkers shape voice",
+      100
+    ],
+    [
+      906,
+      "thinker alignment voice",
+      100
+    ],
+    [
+      907,
+      "noun alignment voice",
+      100
+    ],
+    [
+      908,
+      "voice signature nouns",
+      100
+    ],
+    [
+      909,
+      "local voice contour",
+      100
+    ],
+    [
+      910,
+      "merge without collapse",
+      97
+    ],
+    [
+      911,
+      "surviving disagreement",
+      97
+    ]
+  ],
+  "triplets": [
+    [
+      1,
+      "under current receipt",
+      100
+    ],
+    [
+      2,
+      "under local receipt",
+      100
+    ],
+    [
+      3,
+      "under bounded receipt",
+      100
+    ],
+    [
+      4,
+      "under finite receipt",
+      100
+    ],
+    [
+      5,
+      "under open receipt",
+      100
+    ],
+    [
+      6,
+      "under live receipt",
+      100
+    ],
+    [
+      7,
+      "within current receipt",
+      100
+    ],
+    [
+      8,
+      "within local receipt",
+      100
+    ],
+    [
+      9,
+      "within bounded receipt",
+      100
+    ],
+    [
+      10,
+      "within finite receipt",
+      100
+    ],
+    [
+      11,
+      "within open receipt",
+      100
+    ],
+    [
+      12,
+      "within live receipt",
+      100
+    ],
+    [
+      13,
+      "across current receipt",
+      100
+    ],
+    [
+      14,
+      "across local receipt",
+      100
+    ],
+    [
+      15,
+      "across bounded receipt",
+      100
+    ],
+    [
+      16,
+      "across finite receipt",
+      100
+    ],
+    [
+      17,
+      "across open receipt",
+      100
+    ],
+    [
+      18,
+      "across live receipt",
+      100
+    ],
+    [
+      19,
+      "between current receipt",
+      100
+    ],
+    [
+      20,
+      "between local receipt",
+      100
+    ],
+    [
+      21,
+      "between bounded receipt",
+      100
+    ],
+    [
+      22,
+      "between finite receipt",
+      100
+    ],
+    [
+      23,
+      "between open receipt",
+      100
+    ],
+    [
+      24,
+      "between live receipt",
+      100
+    ],
+    [
+      25,
+      "through current receipt",
+      100
+    ],
+    [
+      26,
+      "through local receipt",
+      99
+    ],
+    [
+      27,
+      "through bounded receipt",
+      99
+    ],
+    [
+      28,
+      "through finite receipt",
+      99
+    ],
+    [
+      29,
+      "through open receipt",
+      99
+    ],
+    [
+      30,
+      "through live receipt",
+      99
+    ],
+    [
+      31,
+      "before current receipt",
+      99
+    ],
+    [
+      32,
+      "before local receipt",
+      99
+    ],
+    [
+      33,
+      "before bounded receipt",
+      99
+    ],
+    [
+      34,
+      "before finite receipt",
+      99
+    ],
+    [
+      35,
+      "before open receipt",
+      99
+    ],
+    [
+      36,
+      "before live receipt",
+      99
+    ],
+    [
+      37,
+      "receipt evidence path",
+      99
+    ],
+    [
+      38,
+      "receipt support path",
+      99
+    ],
+    [
+      39,
+      "receipt path path",
+      99
+    ],
+    [
+      40,
+      "receipt surface path",
+      99
+    ],
+    [
+      41,
+      "receipt packet path",
+      99
+    ],
+    [
+      42,
+      "receipt receipt path",
+      99
+    ],
+    [
+      43,
+      "receipt trace path",
+      99
+    ],
+    [
+      44,
+      "receipt result path",
+      99
+    ],
+    [
+      45,
+      "receipt scope path",
+      99
+    ],
+    [
+      46,
+      "receipt boundary path",
+      99
+    ],
+    [
+      47,
+      "check receipt receipt",
+      99
+    ],
+    [
+      48,
+      "compare receipt receipt",
+      99
+    ],
+    [
+      49,
+      "observe receipt receipt",
+      99
+    ],
+    [
+      50,
+      "measure receipt receipt",
+      99
+    ],
+    [
+      51,
+      "test receipt receipt",
+      98
+    ],
+    [
+      52,
+      "verify receipt receipt",
+      98
+    ],
+    [
+      53,
+      "hold receipt receipt",
+      98
+    ],
+    [
+      54,
+      "preserve receipt receipt",
+      98
+    ],
+    [
+      55,
+      "under current preserve",
+      98
+    ],
+    [
+      56,
+      "under local preserve",
+      98
+    ],
+    [
+      57,
+      "under bounded preserve",
+      98
+    ],
+    [
+      58,
+      "under finite preserve",
+      98
+    ],
+    [
+      59,
+      "under open preserve",
+      98
+    ],
+    [
+      60,
+      "under live preserve",
+      98
+    ],
+    [
+      61,
+      "within current preserve",
+      98
+    ],
+    [
+      62,
+      "within local preserve",
+      98
+    ],
+    [
+      63,
+      "within bounded preserve",
+      98
+    ],
+    [
+      64,
+      "within finite preserve",
+      98
+    ],
+    [
+      65,
+      "within open preserve",
+      98
+    ],
+    [
+      66,
+      "within live preserve",
+      98
+    ],
+    [
+      67,
+      "across current preserve",
+      98
+    ],
+    [
+      68,
+      "across local preserve",
+      98
+    ],
+    [
+      69,
+      "across bounded preserve",
+      98
+    ],
+    [
+      70,
+      "across finite preserve",
+      98
+    ],
+    [
+      71,
+      "across open preserve",
+      98
+    ],
+    [
+      72,
+      "across live preserve",
+      98
+    ],
+    [
+      73,
+      "between current preserve",
+      98
+    ],
+    [
+      74,
+      "between local preserve",
+      98
+    ],
+    [
+      75,
+      "between bounded preserve",
+      98
+    ],
+    [
+      76,
+      "between finite preserve",
+      97
+    ],
+    [
+      77,
+      "between open preserve",
+      97
+    ],
+    [
+      78,
+      "between live preserve",
+      97
+    ],
+    [
+      79,
+      "through current preserve",
+      97
+    ],
+    [
+      80,
+      "through local preserve",
+      97
+    ],
+    [
+      81,
+      "through bounded preserve",
+      97
+    ],
+    [
+      82,
+      "through finite preserve",
+      97
+    ],
+    [
+      83,
+      "through open preserve",
+      97
+    ],
+    [
+      84,
+      "through live preserve",
+      97
+    ],
+    [
+      85,
+      "before current preserve",
+      97
+    ],
+    [
+      86,
+      "before local preserve",
+      97
+    ],
+    [
+      87,
+      "before bounded preserve",
+      97
+    ],
+    [
+      88,
+      "before finite preserve",
+      97
+    ],
+    [
+      89,
+      "before open preserve",
+      97
+    ],
+    [
+      90,
+      "before live preserve",
+      97
+    ],
+    [
+      91,
+      "preserve evidence path",
+      97
+    ],
+    [
+      92,
+      "preserve support path",
+      97
+    ],
+    [
+      93,
+      "preserve path path",
+      97
+    ],
+    [
+      94,
+      "preserve surface path",
+      97
+    ],
+    [
+      95,
+      "preserve packet path",
+      97
+    ],
+    [
+      96,
+      "preserve receipt path",
+      97
+    ],
+    [
+      97,
+      "preserve trace path",
+      97
+    ],
+    [
+      98,
+      "preserve result path",
+      97
+    ],
+    [
+      99,
+      "preserve scope path",
+      97
+    ],
+    [
+      100,
+      "preserve boundary path",
+      97
+    ],
+    [
+      101,
+      "check preserve receipt",
+      96
+    ],
+    [
+      102,
+      "compare preserve receipt",
+      96
+    ],
+    [
+      103,
+      "observe preserve receipt",
+      96
+    ],
+    [
+      104,
+      "measure preserve receipt",
+      96
+    ],
+    [
+      105,
+      "test preserve receipt",
+      96
+    ],
+    [
+      106,
+      "verify preserve receipt",
+      96
+    ],
+    [
+      107,
+      "hold preserve receipt",
+      96
+    ],
+    [
+      108,
+      "preserve preserve receipt",
+      96
+    ],
+    [
+      109,
+      "under current distinct",
+      96
+    ],
+    [
+      110,
+      "under local distinct",
+      96
+    ],
+    [
+      111,
+      "under bounded distinct",
+      96
+    ],
+    [
+      112,
+      "under finite distinct",
+      96
+    ],
+    [
+      113,
+      "under open distinct",
+      96
+    ],
+    [
+      114,
+      "under live distinct",
+      96
+    ],
+    [
+      115,
+      "within current distinct",
+      96
+    ],
+    [
+      116,
+      "within local distinct",
+      96
+    ],
+    [
+      117,
+      "within bounded distinct",
+      96
+    ],
+    [
+      118,
+      "within finite distinct",
+      96
+    ],
+    [
+      119,
+      "within open distinct",
+      96
+    ],
+    [
+      120,
+      "within live distinct",
+      96
+    ],
+    [
+      121,
+      "across current distinct",
+      96
+    ],
+    [
+      122,
+      "across local distinct",
+      96
+    ],
+    [
+      123,
+      "across bounded distinct",
+      96
+    ],
+    [
+      124,
+      "across finite distinct",
+      96
+    ],
+    [
+      125,
+      "across open distinct",
+      96
+    ],
+    [
+      126,
+      "across live distinct",
+      95
+    ],
+    [
+      127,
+      "between current distinct",
+      95
+    ],
+    [
+      128,
+      "between local distinct",
+      95
+    ],
+    [
+      129,
+      "between bounded distinct",
+      95
+    ],
+    [
+      130,
+      "between finite distinct",
+      95
+    ],
+    [
+      131,
+      "between open distinct",
+      95
+    ],
+    [
+      132,
+      "between live distinct",
+      95
+    ],
+    [
+      133,
+      "through current distinct",
+      95
+    ],
+    [
+      134,
+      "through local distinct",
+      95
+    ],
+    [
+      135,
+      "through bounded distinct",
+      95
+    ],
+    [
+      136,
+      "through finite distinct",
+      95
+    ],
+    [
+      137,
+      "through open distinct",
+      95
+    ],
+    [
+      138,
+      "through live distinct",
+      95
+    ],
+    [
+      139,
+      "before current distinct",
+      95
+    ],
+    [
+      140,
+      "before local distinct",
+      95
+    ],
+    [
+      141,
+      "before bounded distinct",
+      95
+    ],
+    [
+      142,
+      "before finite distinct",
+      95
+    ],
+    [
+      143,
+      "before open distinct",
+      95
+    ],
+    [
+      144,
+      "before live distinct",
+      95
+    ],
+    [
+      145,
+      "distinct evidence path",
+      95
+    ],
+    [
+      146,
+      "distinct support path",
+      95
+    ],
+    [
+      147,
+      "distinct path path",
+      95
+    ],
+    [
+      148,
+      "distinct surface path",
+      95
+    ],
+    [
+      149,
+      "distinct packet path",
+      95
+    ],
+    [
+      150,
+      "distinct receipt path",
+      95
+    ],
+    [
+      151,
+      "distinct trace path",
+      94
+    ],
+    [
+      152,
+      "distinct result path",
+      94
+    ],
+    [
+      153,
+      "distinct scope path",
+      94
+    ],
+    [
+      154,
+      "distinct boundary path",
+      94
+    ],
+    [
+      155,
+      "check distinct receipt",
+      94
+    ],
+    [
+      156,
+      "compare distinct receipt",
+      94
+    ],
+    [
+      157,
+      "observe distinct receipt",
+      94
+    ],
+    [
+      158,
+      "measure distinct receipt",
+      94
+    ],
+    [
+      159,
+      "test distinct receipt",
+      94
+    ],
+    [
+      160,
+      "verify distinct receipt",
+      94
+    ],
+    [
+      161,
+      "hold distinct receipt",
+      94
+    ],
+    [
+      162,
+      "preserve distinct receipt",
+      94
+    ],
+    [
+      163,
+      "under current refusal",
+      94
+    ],
+    [
+      164,
+      "under local refusal",
+      94
+    ],
+    [
+      165,
+      "under bounded refusal",
+      94
+    ],
+    [
+      166,
+      "under finite refusal",
+      94
+    ],
+    [
+      167,
+      "under open refusal",
+      94
+    ],
+    [
+      168,
+      "under live refusal",
+      94
+    ],
+    [
+      169,
+      "within current refusal",
+      94
+    ],
+    [
+      170,
+      "within local refusal",
+      94
+    ],
+    [
+      171,
+      "within bounded refusal",
+      94
+    ],
+    [
+      172,
+      "within finite refusal",
+      94
+    ],
+    [
+      173,
+      "within open refusal",
+      94
+    ],
+    [
+      174,
+      "within live refusal",
+      94
+    ],
+    [
+      175,
+      "across current refusal",
+      94
+    ],
+    [
+      176,
+      "across local refusal",
+      93
+    ],
+    [
+      177,
+      "across bounded refusal",
+      93
+    ],
+    [
+      178,
+      "across finite refusal",
+      93
+    ],
+    [
+      179,
+      "across open refusal",
+      93
+    ],
+    [
+      180,
+      "across live refusal",
+      93
+    ],
+    [
+      181,
+      "between current refusal",
+      93
+    ],
+    [
+      182,
+      "between local refusal",
+      93
+    ],
+    [
+      183,
+      "between bounded refusal",
+      93
+    ],
+    [
+      184,
+      "between finite refusal",
+      93
+    ],
+    [
+      185,
+      "between open refusal",
+      93
+    ],
+    [
+      186,
+      "between live refusal",
+      93
+    ],
+    [
+      187,
+      "through current refusal",
+      93
+    ],
+    [
+      188,
+      "through local refusal",
+      93
+    ],
+    [
+      189,
+      "through bounded refusal",
+      93
+    ],
+    [
+      190,
+      "through finite refusal",
+      93
+    ],
+    [
+      191,
+      "through open refusal",
+      93
+    ],
+    [
+      192,
+      "through live refusal",
+      93
+    ],
+    [
+      193,
+      "before current refusal",
+      93
+    ],
+    [
+      194,
+      "before local refusal",
+      93
+    ],
+    [
+      195,
+      "before bounded refusal",
+      93
+    ],
+    [
+      196,
+      "before finite refusal",
+      93
+    ],
+    [
+      197,
+      "before open refusal",
+      93
+    ],
+    [
+      198,
+      "before live refusal",
+      93
+    ],
+    [
+      199,
+      "refusal evidence path",
+      93
+    ],
+    [
+      200,
+      "refusal support path",
+      93
+    ],
+    [
+      201,
+      "refusal path path",
+      92
+    ],
+    [
+      202,
+      "refusal surface path",
+      92
+    ],
+    [
+      203,
+      "refusal packet path",
+      92
+    ],
+    [
+      204,
+      "refusal receipt path",
+      92
+    ],
+    [
+      205,
+      "refusal trace path",
+      92
+    ],
+    [
+      206,
+      "refusal result path",
+      92
+    ],
+    [
+      207,
+      "refusal scope path",
+      92
+    ],
+    [
+      208,
+      "refusal boundary path",
+      92
+    ],
+    [
+      209,
+      "check refusal receipt",
+      92
+    ],
+    [
+      210,
+      "compare refusal receipt",
+      92
+    ],
+    [
+      211,
+      "observe refusal receipt",
+      92
+    ],
+    [
+      212,
+      "measure refusal receipt",
+      92
+    ],
+    [
+      213,
+      "test refusal receipt",
+      92
+    ],
+    [
+      214,
+      "verify refusal receipt",
+      92
+    ],
+    [
+      215,
+      "hold refusal receipt",
+      92
+    ],
+    [
+      216,
+      "preserve refusal receipt",
+      92
+    ],
+    [
+      217,
+      "under current merge",
+      92
+    ],
+    [
+      218,
+      "under local merge",
+      92
+    ],
+    [
+      219,
+      "under bounded merge",
+      92
+    ],
+    [
+      220,
+      "under finite merge",
+      92
+    ],
+    [
+      221,
+      "under open merge",
+      92
+    ],
+    [
+      222,
+      "under live merge",
+      92
+    ],
+    [
+      223,
+      "within current merge",
+      92
+    ],
+    [
+      224,
+      "within local merge",
+      92
+    ],
+    [
+      225,
+      "within bounded merge",
+      92
+    ],
+    [
+      226,
+      "within finite merge",
+      91
+    ],
+    [
+      227,
+      "within open merge",
+      91
+    ],
+    [
+      228,
+      "within live merge",
+      91
+    ],
+    [
+      229,
+      "across current merge",
+      91
+    ],
+    [
+      230,
+      "across local merge",
+      91
+    ],
+    [
+      231,
+      "across bounded merge",
+      91
+    ],
+    [
+      232,
+      "across finite merge",
+      91
+    ],
+    [
+      233,
+      "across open merge",
+      91
+    ],
+    [
+      234,
+      "across live merge",
+      91
+    ],
+    [
+      235,
+      "between current merge",
+      91
+    ],
+    [
+      236,
+      "between local merge",
+      91
+    ],
+    [
+      237,
+      "between bounded merge",
+      91
+    ],
+    [
+      238,
+      "between finite merge",
+      91
+    ],
+    [
+      239,
+      "between open merge",
+      91
+    ],
+    [
+      240,
+      "between live merge",
+      91
+    ],
+    [
+      241,
+      "under synthesis compose",
+      91
+    ],
+    [
+      242,
+      "under synthesis composition",
+      91
+    ],
+    [
+      243,
+      "under synthesis receipt",
+      91
+    ],
+    [
+      244,
+      "under synthesis distinct",
+      91
+    ],
+    [
+      245,
+      "under compose composition",
+      91
+    ],
+    [
+      246,
+      "under compose receipt",
+      91
+    ],
+    [
+      247,
+      "under compose distinct",
+      91
+    ],
+    [
+      248,
+      "under compose preserve",
+      91
+    ],
+    [
+      249,
+      "under composition receipt",
+      91
+    ],
+    [
+      250,
+      "under composition distinct",
+      91
+    ],
+    [
+      251,
+      "under composition preserve",
+      90
+    ],
+    [
+      252,
+      "under composition carry",
+      90
+    ],
+    [
+      253,
+      "under receipt distinct",
+      90
+    ],
+    [
+      254,
+      "under receipt preserve",
+      90
+    ],
+    [
+      255,
+      "under receipt carry",
+      90
+    ],
+    [
+      256,
+      "under receipt merge",
+      90
+    ],
+    [
+      257,
+      "under distinct preserve",
+      90
+    ],
+    [
+      258,
+      "under distinct carry",
+      90
+    ],
+    [
+      259,
+      "under distinct merge",
+      90
+    ],
+    [
+      260,
+      "under distinct nonmerge",
+      90
+    ],
+    [
+      261,
+      "under preserve carry",
+      90
+    ],
+    [
+      262,
+      "under preserve merge",
+      90
+    ],
+    [
+      263,
+      "under preserve nonmerge",
+      90
+    ],
+    [
+      264,
+      "under preserve tension",
+      90
+    ],
+    [
+      265,
+      "under carry merge",
+      90
+    ],
+    [
+      266,
+      "under carry nonmerge",
+      90
+    ],
+    [
+      267,
+      "under carry tension",
+      90
+    ],
+    [
+      268,
+      "under carry split",
+      90
+    ],
+    [
+      269,
+      "under merge nonmerge",
+      90
+    ],
+    [
+      270,
+      "under merge tension",
+      90
+    ],
+    [
+      271,
+      "under merge split",
+      90
+    ],
+    [
+      272,
+      "under merge surviving",
+      90
+    ],
+    [
+      273,
+      "under nonmerge tension",
+      90
+    ],
+    [
+      274,
+      "under nonmerge split",
+      90
+    ],
+    [
+      275,
+      "under nonmerge surviving",
+      90
+    ],
+    [
+      276,
+      "under nonmerge difference",
+      89
+    ],
+    [
+      277,
+      "under tension split",
+      89
+    ],
+    [
+      278,
+      "under tension surviving",
+      89
+    ],
+    [
+      279,
+      "under tension difference",
+      89
+    ],
+    [
+      280,
+      "under tension held",
+      89
+    ],
+    [
+      281,
+      "under split surviving",
+      89
+    ],
+    [
+      282,
+      "under split difference",
+      89
+    ],
+    [
+      283,
+      "under split held",
+      89
+    ],
+    [
+      284,
+      "under split apart",
+      89
+    ],
+    [
+      285,
+      "under surviving difference",
+      89
+    ],
+    [
+      286,
+      "under surviving held",
+      89
+    ],
+    [
+      287,
+      "under surviving apart",
+      89
+    ],
+    [
+      288,
+      "under surviving accepted",
+      89
+    ],
+    [
+      289,
+      "under difference held",
+      89
+    ],
+    [
+      290,
+      "under difference apart",
+      89
+    ],
+    [
+      291,
+      "under difference accepted",
+      89
+    ],
+    [
+      292,
+      "under difference convergence",
+      89
+    ],
+    [
+      293,
+      "under held apart",
+      89
+    ],
+    [
+      294,
+      "under held accepted",
+      89
+    ],
+    [
+      295,
+      "under held convergence",
+      89
+    ],
+    [
+      296,
+      "under held named",
+      89
+    ],
+    [
+      297,
+      "under apart accepted",
+      89
+    ],
+    [
+      298,
+      "under apart convergence",
+      89
+    ],
+    [
+      299,
+      "under apart named",
+      89
+    ],
+    [
+      300,
+      "under apart divergence",
+      89
+    ],
+    [
+      301,
+      "under accepted convergence",
+      88
+    ],
+    [
+      302,
+      "under accepted named",
+      88
+    ],
+    [
+      303,
+      "under accepted divergence",
+      88
+    ],
+    [
+      304,
+      "under accepted dropped",
+      88
+    ],
+    [
+      305,
+      "under convergence named",
+      88
+    ],
+    [
+      306,
+      "under convergence divergence",
+      88
+    ],
+    [
+      307,
+      "under convergence dropped",
+      88
+    ],
+    [
+      308,
+      "under convergence thread",
+      88
+    ],
+    [
+      309,
+      "under named divergence",
+      88
+    ],
+    [
+      310,
+      "under named dropped",
+      88
+    ],
+    [
+      311,
+      "under named thread",
+      88
+    ],
+    [
+      312,
+      "under named controller",
+      88
+    ],
+    [
+      313,
+      "under divergence dropped",
+      88
+    ],
+    [
+      314,
+      "under divergence thread",
+      88
+    ],
+    [
+      315,
+      "under divergence controller",
+      88
+    ],
+    [
+      316,
+      "under divergence act",
+      88
+    ],
+    [
+      317,
+      "under dropped thread",
+      88
+    ],
+    [
+      318,
+      "under dropped controller",
+      88
+    ],
+    [
+      319,
+      "under dropped act",
+      88
+    ],
+    [
+      320,
+      "under dropped structure",
+      88
+    ],
+    [
+      321,
+      "within synthesis compose",
+      88
+    ],
+    [
+      322,
+      "within synthesis composition",
+      88
+    ],
+    [
+      323,
+      "within synthesis receipt",
+      88
+    ],
+    [
+      324,
+      "within synthesis distinct",
+      88
+    ],
+    [
+      325,
+      "within compose composition",
+      88
+    ],
+    [
+      326,
+      "within compose receipt",
+      87
+    ],
+    [
+      327,
+      "within compose distinct",
+      87
+    ],
+    [
+      328,
+      "within compose preserve",
+      87
+    ],
+    [
+      329,
+      "within composition receipt",
+      87
+    ],
+    [
+      330,
+      "within composition distinct",
+      87
+    ],
+    [
+      331,
+      "within composition preserve",
+      87
+    ],
+    [
+      332,
+      "within composition carry",
+      87
+    ],
+    [
+      333,
+      "within receipt distinct",
+      87
+    ],
+    [
+      334,
+      "within receipt preserve",
+      87
+    ],
+    [
+      335,
+      "within receipt carry",
+      87
+    ],
+    [
+      336,
+      "within receipt merge",
+      87
+    ],
+    [
+      337,
+      "within distinct preserve",
+      87
+    ],
+    [
+      338,
+      "within distinct carry",
+      87
+    ],
+    [
+      339,
+      "within distinct merge",
+      87
+    ],
+    [
+      340,
+      "within distinct nonmerge",
+      87
+    ],
+    [
+      341,
+      "within preserve carry",
+      87
+    ],
+    [
+      342,
+      "within preserve merge",
+      87
+    ],
+    [
+      343,
+      "within preserve nonmerge",
+      87
+    ],
+    [
+      344,
+      "within preserve tension",
+      87
+    ],
+    [
+      345,
+      "within carry merge",
+      87
+    ],
+    [
+      346,
+      "within carry nonmerge",
+      87
+    ],
+    [
+      347,
+      "within carry tension",
+      87
+    ],
+    [
+      348,
+      "within carry split",
+      87
+    ],
+    [
+      349,
+      "within merge nonmerge",
+      87
+    ],
+    [
+      350,
+      "within merge tension",
+      87
+    ],
+    [
+      351,
+      "within merge split",
+      86
+    ],
+    [
+      352,
+      "within merge surviving",
+      86
+    ],
+    [
+      353,
+      "within nonmerge tension",
+      86
+    ],
+    [
+      354,
+      "within nonmerge split",
+      86
+    ],
+    [
+      355,
+      "within nonmerge surviving",
+      86
+    ],
+    [
+      356,
+      "within nonmerge difference",
+      86
+    ],
+    [
+      357,
+      "within tension split",
+      86
+    ],
+    [
+      358,
+      "within tension surviving",
+      86
+    ],
+    [
+      359,
+      "within tension difference",
+      86
+    ],
+    [
+      360,
+      "within tension held",
+      86
+    ],
+    [
+      361,
+      "within split surviving",
+      86
+    ],
+    [
+      362,
+      "within split difference",
+      86
+    ],
+    [
+      363,
+      "within split held",
+      86
+    ],
+    [
+      364,
+      "within split apart",
+      86
+    ],
+    [
+      365,
+      "within surviving difference",
+      86
+    ],
+    [
+      366,
+      "within surviving held",
+      86
+    ],
+    [
+      367,
+      "within surviving apart",
+      86
+    ],
+    [
+      368,
+      "within surviving accepted",
+      86
+    ],
+    [
+      369,
+      "within difference held",
+      86
+    ],
+    [
+      370,
+      "within difference apart",
+      86
+    ],
+    [
+      371,
+      "within difference accepted",
+      86
+    ],
+    [
+      372,
+      "within difference convergence",
+      86
+    ],
+    [
+      373,
+      "within held apart",
+      86
+    ],
+    [
+      374,
+      "within held accepted",
+      86
+    ],
+    [
+      375,
+      "within held convergence",
+      86
+    ],
+    [
+      376,
+      "within held named",
+      85
+    ],
+    [
+      377,
+      "within apart accepted",
+      85
+    ],
+    [
+      378,
+      "within apart convergence",
+      85
+    ],
+    [
+      379,
+      "within apart named",
+      85
+    ],
+    [
+      380,
+      "within apart divergence",
+      85
+    ],
+    [
+      381,
+      "within accepted convergence",
+      85
+    ],
+    [
+      382,
+      "within accepted named",
+      85
+    ],
+    [
+      383,
+      "within accepted divergence",
+      85
+    ],
+    [
+      384,
+      "within accepted dropped",
+      85
+    ],
+    [
+      385,
+      "within convergence named",
+      85
+    ],
+    [
+      386,
+      "within convergence divergence",
+      85
+    ],
+    [
+      387,
+      "within convergence dropped",
+      85
+    ],
+    [
+      388,
+      "within convergence thread",
+      85
+    ],
+    [
+      389,
+      "within named divergence",
+      85
+    ],
+    [
+      390,
+      "within named dropped",
+      85
+    ],
+    [
+      391,
+      "within named thread",
+      85
+    ],
+    [
+      392,
+      "within named controller",
+      85
+    ],
+    [
+      393,
+      "within divergence dropped",
+      85
+    ],
+    [
+      394,
+      "within divergence thread",
+      85
+    ],
+    [
+      395,
+      "within divergence controller",
+      85
+    ],
+    [
+      396,
+      "within divergence act",
+      85
+    ],
+    [
+      397,
+      "within dropped thread",
+      85
+    ],
+    [
+      398,
+      "within dropped controller",
+      85
+    ],
+    [
+      399,
+      "within dropped act",
+      85
+    ],
+    [
+      400,
+      "within dropped structure",
+      85
+    ],
+    [
+      401,
+      "across synthesis compose",
+      84
+    ],
+    [
+      402,
+      "across synthesis composition",
+      84
+    ],
+    [
+      403,
+      "across synthesis receipt",
+      84
+    ],
+    [
+      404,
+      "across synthesis distinct",
+      84
+    ],
+    [
+      405,
+      "across compose composition",
+      84
+    ],
+    [
+      406,
+      "across compose receipt",
+      84
+    ],
+    [
+      407,
+      "across compose distinct",
+      84
+    ],
+    [
+      408,
+      "across compose preserve",
+      84
+    ],
+    [
+      409,
+      "across composition receipt",
+      84
+    ],
+    [
+      410,
+      "across composition distinct",
+      84
+    ],
+    [
+      411,
+      "across composition preserve",
+      84
+    ],
+    [
+      412,
+      "across composition carry",
+      84
+    ],
+    [
+      413,
+      "across receipt distinct",
+      84
+    ],
+    [
+      414,
+      "across receipt preserve",
+      84
+    ],
+    [
+      415,
+      "across receipt carry",
+      84
+    ],
+    [
+      416,
+      "across receipt merge",
+      84
+    ],
+    [
+      417,
+      "across distinct preserve",
+      84
+    ],
+    [
+      418,
+      "across distinct carry",
+      84
+    ],
+    [
+      419,
+      "across distinct merge",
+      84
+    ],
+    [
+      420,
+      "across distinct nonmerge",
+      84
+    ],
+    [
+      421,
+      "across preserve carry",
+      84
+    ],
+    [
+      422,
+      "across preserve merge",
+      84
+    ],
+    [
+      423,
+      "across preserve nonmerge",
+      84
+    ],
+    [
+      424,
+      "across preserve tension",
+      84
+    ],
+    [
+      425,
+      "across carry merge",
+      84
+    ],
+    [
+      426,
+      "across carry nonmerge",
+      83
+    ],
+    [
+      427,
+      "across carry tension",
+      83
+    ],
+    [
+      428,
+      "across carry split",
+      83
+    ],
+    [
+      429,
+      "across merge nonmerge",
+      83
+    ],
+    [
+      430,
+      "across merge tension",
+      83
+    ],
+    [
+      431,
+      "across merge split",
+      83
+    ],
+    [
+      432,
+      "across merge surviving",
+      83
+    ],
+    [
+      433,
+      "across nonmerge tension",
+      83
+    ],
+    [
+      434,
+      "across nonmerge split",
+      83
+    ],
+    [
+      435,
+      "across nonmerge surviving",
+      83
+    ],
+    [
+      436,
+      "across nonmerge difference",
+      83
+    ],
+    [
+      437,
+      "across tension split",
+      83
+    ],
+    [
+      438,
+      "across tension surviving",
+      83
+    ],
+    [
+      439,
+      "across tension difference",
+      83
+    ],
+    [
+      440,
+      "across tension held",
+      83
+    ],
+    [
+      441,
+      "across split surviving",
+      83
+    ],
+    [
+      442,
+      "across split difference",
+      83
+    ],
+    [
+      443,
+      "across split held",
+      83
+    ],
+    [
+      444,
+      "across split apart",
+      83
+    ],
+    [
+      445,
+      "across surviving difference",
+      83
+    ],
+    [
+      446,
+      "across surviving held",
+      83
+    ],
+    [
+      447,
+      "across surviving apart",
+      83
+    ],
+    [
+      448,
+      "across surviving accepted",
+      83
+    ],
+    [
+      449,
+      "across difference held",
+      83
+    ],
+    [
+      450,
+      "across difference apart",
+      83
+    ],
+    [
+      451,
+      "across difference accepted",
+      82
+    ],
+    [
+      452,
+      "across difference convergence",
+      82
+    ],
+    [
+      453,
+      "across held apart",
+      82
+    ],
+    [
+      454,
+      "across held accepted",
+      82
+    ],
+    [
+      455,
+      "across held convergence",
+      82
+    ],
+    [
+      456,
+      "across held named",
+      82
+    ],
+    [
+      457,
+      "across apart accepted",
+      82
+    ],
+    [
+      458,
+      "across apart convergence",
+      82
+    ],
+    [
+      459,
+      "across apart named",
+      82
+    ],
+    [
+      460,
+      "across apart divergence",
+      82
+    ],
+    [
+      461,
+      "across accepted convergence",
+      82
+    ],
+    [
+      462,
+      "across accepted named",
+      82
+    ],
+    [
+      463,
+      "across accepted divergence",
+      82
+    ],
+    [
+      464,
+      "across accepted dropped",
+      82
+    ],
+    [
+      465,
+      "across convergence named",
+      82
+    ],
+    [
+      466,
+      "across convergence divergence",
+      82
+    ],
+    [
+      467,
+      "across convergence dropped",
+      82
+    ],
+    [
+      468,
+      "across convergence thread",
+      82
+    ],
+    [
+      469,
+      "across named divergence",
+      82
+    ],
+    [
+      470,
+      "across named dropped",
+      82
+    ],
+    [
+      471,
+      "across named thread",
+      82
+    ],
+    [
+      472,
+      "across named controller",
+      82
+    ],
+    [
+      473,
+      "across divergence dropped",
+      82
+    ],
+    [
+      474,
+      "across divergence thread",
+      82
+    ],
+    [
+      475,
+      "across divergence controller",
+      82
+    ],
+    [
+      476,
+      "across divergence act",
+      81
+    ],
+    [
+      477,
+      "across dropped thread",
+      81
+    ],
+    [
+      478,
+      "across dropped controller",
+      81
+    ],
+    [
+      479,
+      "across dropped act",
+      81
+    ],
+    [
+      480,
+      "across dropped structure",
+      81
+    ],
+    [
+      481,
+      "between synthesis compose",
+      81
+    ],
+    [
+      482,
+      "between synthesis composition",
+      81
+    ],
+    [
+      483,
+      "between synthesis receipt",
+      81
+    ],
+    [
+      484,
+      "between synthesis distinct",
+      81
+    ],
+    [
+      485,
+      "between compose composition",
+      81
+    ],
+    [
+      486,
+      "between compose receipt",
+      81
+    ],
+    [
+      487,
+      "between compose distinct",
+      81
+    ],
+    [
+      488,
+      "between compose preserve",
+      81
+    ],
+    [
+      489,
+      "between composition receipt",
+      81
+    ],
+    [
+      490,
+      "between composition distinct",
+      81
+    ],
+    [
+      491,
+      "between composition preserve",
+      81
+    ],
+    [
+      492,
+      "between composition carry",
+      81
+    ],
+    [
+      493,
+      "between receipt distinct",
+      81
+    ],
+    [
+      494,
+      "between receipt preserve",
+      81
+    ],
+    [
+      495,
+      "between receipt carry",
+      81
+    ],
+    [
+      496,
+      "between receipt merge",
+      81
+    ],
+    [
+      497,
+      "between distinct preserve",
+      81
+    ],
+    [
+      498,
+      "between distinct carry",
+      81
+    ],
+    [
+      499,
+      "between distinct merge",
+      81
+    ],
+    [
+      500,
+      "between distinct nonmerge",
+      81
+    ],
+    [
+      501,
+      "between preserve carry",
+      80
+    ],
+    [
+      502,
+      "between preserve merge",
+      80
+    ],
+    [
+      503,
+      "between preserve nonmerge",
+      80
+    ],
+    [
+      504,
+      "between preserve tension",
+      80
+    ],
+    [
+      505,
+      "between carry merge",
+      80
+    ],
+    [
+      506,
+      "between carry nonmerge",
+      80
+    ],
+    [
+      507,
+      "between carry tension",
+      80
+    ],
+    [
+      508,
+      "between carry split",
+      80
+    ],
+    [
+      509,
+      "between merge nonmerge",
+      80
+    ],
+    [
+      510,
+      "between merge tension",
+      80
+    ],
+    [
+      511,
+      "between merge split",
+      80
+    ],
+    [
+      512,
+      "between merge surviving",
+      80
+    ],
+    [
+      513,
+      "between nonmerge tension",
+      80
+    ],
+    [
+      514,
+      "between nonmerge split",
+      80
+    ],
+    [
+      515,
+      "between nonmerge surviving",
+      80
+    ],
+    [
+      516,
+      "between nonmerge difference",
+      80
+    ],
+    [
+      517,
+      "between tension split",
+      80
+    ],
+    [
+      518,
+      "between tension surviving",
+      80
+    ],
+    [
+      519,
+      "between tension difference",
+      80
+    ],
+    [
+      520,
+      "between tension held",
+      80
+    ],
+    [
+      521,
+      "between split surviving",
+      80
+    ],
+    [
+      522,
+      "between split difference",
+      80
+    ],
+    [
+      523,
+      "between split held",
+      80
+    ],
+    [
+      524,
+      "between split apart",
+      80
+    ],
+    [
+      525,
+      "between surviving difference",
+      80
+    ],
+    [
+      526,
+      "between surviving held",
+      79
+    ],
+    [
+      527,
+      "between surviving apart",
+      79
+    ],
+    [
+      528,
+      "between surviving accepted",
+      79
+    ],
+    [
+      529,
+      "between difference held",
+      79
+    ],
+    [
+      530,
+      "between difference apart",
+      79
+    ],
+    [
+      531,
+      "between difference accepted",
+      79
+    ],
+    [
+      532,
+      "between difference convergence",
+      79
+    ],
+    [
+      533,
+      "between held apart",
+      79
+    ],
+    [
+      534,
+      "between held accepted",
+      79
+    ],
+    [
+      535,
+      "between held convergence",
+      79
+    ],
+    [
+      536,
+      "between held named",
+      79
+    ],
+    [
+      537,
+      "between apart accepted",
+      79
+    ],
+    [
+      538,
+      "between apart convergence",
+      79
+    ],
+    [
+      539,
+      "between apart named",
+      79
+    ],
+    [
+      540,
+      "between apart divergence",
+      79
+    ],
+    [
+      541,
+      "between accepted convergence",
+      79
+    ],
+    [
+      542,
+      "between accepted named",
+      79
+    ],
+    [
+      543,
+      "between accepted divergence",
+      79
+    ],
+    [
+      544,
+      "between accepted dropped",
+      79
+    ],
+    [
+      545,
+      "between convergence named",
+      79
+    ],
+    [
+      546,
+      "between convergence divergence",
+      79
+    ],
+    [
+      547,
+      "between convergence dropped",
+      79
+    ],
+    [
+      548,
+      "between convergence thread",
+      79
+    ],
+    [
+      549,
+      "between named divergence",
+      79
+    ],
+    [
+      550,
+      "between named dropped",
+      79
+    ],
+    [
+      551,
+      "between named thread",
+      78
+    ],
+    [
+      552,
+      "between named controller",
+      78
+    ],
+    [
+      553,
+      "between divergence dropped",
+      78
+    ],
+    [
+      554,
+      "between divergence thread",
+      78
+    ],
+    [
+      555,
+      "between divergence controller",
+      78
+    ],
+    [
+      556,
+      "between divergence act",
+      78
+    ],
+    [
+      557,
+      "between dropped thread",
+      78
+    ],
+    [
+      558,
+      "between dropped controller",
+      78
+    ],
+    [
+      559,
+      "between dropped act",
+      78
+    ],
+    [
+      560,
+      "between dropped structure",
+      78
+    ],
+    [
+      561,
+      "through synthesis compose",
+      78
+    ],
+    [
+      562,
+      "through synthesis composition",
+      78
+    ],
+    [
+      563,
+      "through synthesis receipt",
+      78
+    ],
+    [
+      564,
+      "through synthesis distinct",
+      78
+    ],
+    [
+      565,
+      "through compose composition",
+      78
+    ],
+    [
+      566,
+      "through compose receipt",
+      78
+    ],
+    [
+      567,
+      "through compose distinct",
+      78
+    ],
+    [
+      568,
+      "through compose preserve",
+      78
+    ],
+    [
+      569,
+      "through composition receipt",
+      78
+    ],
+    [
+      570,
+      "through composition distinct",
+      78
+    ],
+    [
+      571,
+      "through composition preserve",
+      78
+    ],
+    [
+      572,
+      "through composition carry",
+      78
+    ],
+    [
+      573,
+      "through receipt distinct",
+      78
+    ],
+    [
+      574,
+      "through receipt preserve",
+      78
+    ],
+    [
+      575,
+      "through receipt carry",
+      78
+    ],
+    [
+      576,
+      "through receipt merge",
+      77
+    ],
+    [
+      577,
+      "through distinct preserve",
+      77
+    ],
+    [
+      578,
+      "through distinct carry",
+      77
+    ],
+    [
+      579,
+      "through distinct merge",
+      77
+    ],
+    [
+      580,
+      "through distinct nonmerge",
+      77
+    ],
+    [
+      581,
+      "through preserve carry",
+      77
+    ],
+    [
+      582,
+      "through preserve merge",
+      77
+    ],
+    [
+      583,
+      "through preserve nonmerge",
+      77
+    ],
+    [
+      584,
+      "through preserve tension",
+      77
+    ],
+    [
+      585,
+      "through carry merge",
+      77
+    ],
+    [
+      586,
+      "through carry nonmerge",
+      77
+    ],
+    [
+      587,
+      "through carry tension",
+      77
+    ],
+    [
+      588,
+      "through carry split",
+      77
+    ],
+    [
+      589,
+      "through merge nonmerge",
+      77
+    ],
+    [
+      590,
+      "through merge tension",
+      77
+    ],
+    [
+      591,
+      "through merge split",
+      77
+    ],
+    [
+      592,
+      "through merge surviving",
+      77
+    ],
+    [
+      593,
+      "through nonmerge tension",
+      77
+    ],
+    [
+      594,
+      "through nonmerge split",
+      77
+    ],
+    [
+      595,
+      "through nonmerge surviving",
+      77
+    ],
+    [
+      596,
+      "through nonmerge difference",
+      77
+    ],
+    [
+      597,
+      "through tension split",
+      77
+    ],
+    [
+      598,
+      "through tension surviving",
+      77
+    ],
+    [
+      599,
+      "through tension difference",
+      77
+    ],
+    [
+      600,
+      "through tension held",
+      77
+    ],
+    [
+      601,
+      "through split surviving",
+      76
+    ],
+    [
+      602,
+      "through split difference",
+      76
+    ],
+    [
+      603,
+      "through split held",
+      76
+    ],
+    [
+      604,
+      "through split apart",
+      76
+    ],
+    [
+      605,
+      "through surviving difference",
+      76
+    ],
+    [
+      606,
+      "through surviving held",
+      76
+    ],
+    [
+      607,
+      "through surviving apart",
+      76
+    ],
+    [
+      608,
+      "through surviving accepted",
+      76
+    ],
+    [
+      609,
+      "through difference held",
+      76
+    ],
+    [
+      610,
+      "through difference apart",
+      76
+    ],
+    [
+      611,
+      "through difference accepted",
+      76
+    ],
+    [
+      612,
+      "through difference convergence",
+      76
+    ],
+    [
+      613,
+      "through held apart",
+      76
+    ],
+    [
+      614,
+      "through held accepted",
+      76
+    ],
+    [
+      615,
+      "through held convergence",
+      76
+    ],
+    [
+      616,
+      "through held named",
+      76
+    ],
+    [
+      617,
+      "through apart accepted",
+      76
+    ],
+    [
+      618,
+      "through apart convergence",
+      76
+    ],
+    [
+      619,
+      "through apart named",
+      76
+    ],
+    [
+      620,
+      "through apart divergence",
+      76
+    ],
+    [
+      621,
+      "through accepted convergence",
+      76
+    ],
+    [
+      622,
+      "through accepted named",
+      76
+    ],
+    [
+      623,
+      "through accepted divergence",
+      76
+    ],
+    [
+      624,
+      "through accepted dropped",
+      76
+    ],
+    [
+      625,
+      "through convergence named",
+      76
+    ],
+    [
+      626,
+      "through convergence divergence",
+      75
+    ],
+    [
+      627,
+      "through convergence dropped",
+      75
+    ],
+    [
+      628,
+      "through convergence thread",
+      75
+    ],
+    [
+      629,
+      "through named divergence",
+      75
+    ],
+    [
+      630,
+      "through named dropped",
+      75
+    ],
+    [
+      631,
+      "through named thread",
+      75
+    ],
+    [
+      632,
+      "through named controller",
+      75
+    ],
+    [
+      633,
+      "through divergence dropped",
+      75
+    ],
+    [
+      634,
+      "through divergence thread",
+      75
+    ],
+    [
+      635,
+      "through divergence controller",
+      75
+    ],
+    [
+      636,
+      "through divergence act",
+      75
+    ],
+    [
+      637,
+      "through dropped thread",
+      75
+    ],
+    [
+      638,
+      "through dropped controller",
+      75
+    ],
+    [
+      639,
+      "through dropped act",
+      75
+    ],
+    [
+      640,
+      "through dropped structure",
+      75
+    ],
+    [
+      641,
+      "before synthesis compose",
+      75
+    ],
+    [
+      642,
+      "before synthesis composition",
+      75
+    ],
+    [
+      643,
+      "before synthesis receipt",
+      75
+    ],
+    [
+      644,
+      "before synthesis distinct",
+      75
+    ],
+    [
+      645,
+      "before compose composition",
+      75
+    ],
+    [
+      646,
+      "before compose receipt",
+      75
+    ],
+    [
+      647,
+      "before compose distinct",
+      75
+    ],
+    [
+      648,
+      "before compose preserve",
+      75
+    ],
+    [
+      649,
+      "before composition receipt",
+      75
+    ],
+    [
+      650,
+      "before composition distinct",
+      75
+    ],
+    [
+      651,
+      "before composition preserve",
+      74
+    ],
+    [
+      652,
+      "before composition carry",
+      74
+    ],
+    [
+      653,
+      "before receipt distinct",
+      74
+    ],
+    [
+      654,
+      "before receipt preserve",
+      74
+    ],
+    [
+      655,
+      "before receipt carry",
+      74
+    ],
+    [
+      656,
+      "before receipt merge",
+      74
+    ],
+    [
+      657,
+      "before distinct preserve",
+      74
+    ],
+    [
+      658,
+      "before distinct carry",
+      74
+    ],
+    [
+      659,
+      "before distinct merge",
+      74
+    ],
+    [
+      660,
+      "before distinct nonmerge",
+      74
+    ],
+    [
+      661,
+      "before preserve carry",
+      74
+    ],
+    [
+      662,
+      "before preserve merge",
+      74
+    ],
+    [
+      663,
+      "before preserve nonmerge",
+      74
+    ],
+    [
+      664,
+      "before preserve tension",
+      74
+    ],
+    [
+      665,
+      "before carry merge",
+      74
+    ],
+    [
+      666,
+      "before carry nonmerge",
+      74
+    ],
+    [
+      667,
+      "before carry tension",
+      74
+    ],
+    [
+      668,
+      "before carry split",
+      74
+    ],
+    [
+      669,
+      "before merge nonmerge",
+      74
+    ],
+    [
+      670,
+      "before merge tension",
+      74
+    ],
+    [
+      671,
+      "before merge split",
+      74
+    ],
+    [
+      672,
+      "before merge surviving",
+      74
+    ],
+    [
+      673,
+      "before nonmerge tension",
+      74
+    ],
+    [
+      674,
+      "before nonmerge split",
+      74
+    ],
+    [
+      675,
+      "before nonmerge surviving",
+      74
+    ],
+    [
+      676,
+      "before nonmerge difference",
+      73
+    ],
+    [
+      677,
+      "before tension split",
+      73
+    ],
+    [
+      678,
+      "before tension surviving",
+      73
+    ],
+    [
+      679,
+      "before tension difference",
+      73
+    ],
+    [
+      680,
+      "before tension held",
+      73
+    ],
+    [
+      681,
+      "before split surviving",
+      73
+    ],
+    [
+      682,
+      "before split difference",
+      73
+    ],
+    [
+      683,
+      "before split held",
+      73
+    ],
+    [
+      684,
+      "before split apart",
+      73
+    ],
+    [
+      685,
+      "before surviving difference",
+      73
+    ],
+    [
+      686,
+      "before surviving held",
+      73
+    ],
+    [
+      687,
+      "before surviving apart",
+      73
+    ],
+    [
+      688,
+      "before surviving accepted",
+      73
+    ],
+    [
+      689,
+      "before difference held",
+      73
+    ],
+    [
+      690,
+      "before difference apart",
+      73
+    ],
+    [
+      691,
+      "before difference accepted",
+      73
+    ],
+    [
+      692,
+      "before difference convergence",
+      73
+    ],
+    [
+      693,
+      "before held apart",
+      73
+    ],
+    [
+      694,
+      "before held accepted",
+      73
+    ],
+    [
+      695,
+      "before held convergence",
+      73
+    ],
+    [
+      696,
+      "before held named",
+      73
+    ],
+    [
+      697,
+      "before apart accepted",
+      73
+    ],
+    [
+      698,
+      "before apart convergence",
+      73
+    ],
+    [
+      699,
+      "before apart named",
+      73
+    ],
+    [
+      700,
+      "before apart divergence",
+      73
+    ],
+    [
+      701,
+      "before accepted convergence",
+      72
+    ],
+    [
+      702,
+      "before accepted named",
+      72
+    ],
+    [
+      703,
+      "before accepted divergence",
+      72
+    ],
+    [
+      704,
+      "before accepted dropped",
+      72
+    ],
+    [
+      705,
+      "before convergence named",
+      72
+    ],
+    [
+      706,
+      "before convergence divergence",
+      72
+    ],
+    [
+      707,
+      "before convergence dropped",
+      72
+    ],
+    [
+      708,
+      "before convergence thread",
+      72
+    ],
+    [
+      709,
+      "before named divergence",
+      72
+    ],
+    [
+      710,
+      "before named dropped",
+      72
+    ],
+    [
+      711,
+      "before named thread",
+      72
+    ],
+    [
+      712,
+      "before named controller",
+      72
+    ],
+    [
+      713,
+      "before divergence dropped",
+      72
+    ],
+    [
+      714,
+      "before divergence thread",
+      72
+    ],
+    [
+      715,
+      "before divergence controller",
+      72
+    ],
+    [
+      716,
+      "before divergence act",
+      72
+    ],
+    [
+      717,
+      "before dropped thread",
+      72
+    ],
+    [
+      718,
+      "before dropped controller",
+      72
+    ],
+    [
+      719,
+      "before dropped act",
+      72
+    ],
+    [
+      720,
+      "before dropped structure",
+      72
+    ],
+    [
+      721,
+      "after synthesis compose",
+      72
+    ],
+    [
+      722,
+      "after synthesis composition",
+      72
+    ],
+    [
+      723,
+      "after synthesis receipt",
+      72
+    ],
+    [
+      724,
+      "after synthesis distinct",
+      72
+    ],
+    [
+      725,
+      "after compose composition",
+      72
+    ],
+    [
+      726,
+      "after compose receipt",
+      71
+    ],
+    [
+      727,
+      "after compose distinct",
+      71
+    ],
+    [
+      728,
+      "after compose preserve",
+      71
+    ],
+    [
+      729,
+      "after composition receipt",
+      71
+    ],
+    [
+      730,
+      "after composition distinct",
+      71
+    ],
+    [
+      731,
+      "after composition preserve",
+      71
+    ],
+    [
+      732,
+      "after composition carry",
+      71
+    ],
+    [
+      733,
+      "after receipt distinct",
+      71
+    ],
+    [
+      734,
+      "after receipt preserve",
+      71
+    ],
+    [
+      735,
+      "after receipt carry",
+      71
+    ],
+    [
+      736,
+      "after receipt merge",
+      71
+    ],
+    [
+      737,
+      "after distinct preserve",
+      71
+    ],
+    [
+      738,
+      "after distinct carry",
+      71
+    ],
+    [
+      739,
+      "after distinct merge",
+      71
+    ],
+    [
+      740,
+      "after distinct nonmerge",
+      71
+    ],
+    [
+      741,
+      "after preserve carry",
+      71
+    ],
+    [
+      742,
+      "after preserve merge",
+      71
+    ],
+    [
+      743,
+      "after preserve nonmerge",
+      71
+    ],
+    [
+      744,
+      "after preserve tension",
+      71
+    ],
+    [
+      745,
+      "after carry merge",
+      71
+    ],
+    [
+      746,
+      "after carry nonmerge",
+      71
+    ],
+    [
+      747,
+      "after carry tension",
+      71
+    ],
+    [
+      748,
+      "after carry split",
+      71
+    ],
+    [
+      749,
+      "after merge nonmerge",
+      71
+    ],
+    [
+      750,
+      "after merge tension",
+      71
+    ],
+    [
+      751,
+      "after merge split",
+      70
+    ],
+    [
+      752,
+      "after merge surviving",
+      70
+    ],
+    [
+      753,
+      "after nonmerge tension",
+      70
+    ],
+    [
+      754,
+      "after nonmerge split",
+      70
+    ],
+    [
+      755,
+      "after nonmerge surviving",
+      70
+    ],
+    [
+      756,
+      "after nonmerge difference",
+      70
+    ],
+    [
+      757,
+      "after tension split",
+      70
+    ],
+    [
+      758,
+      "after tension surviving",
+      70
+    ],
+    [
+      759,
+      "after tension difference",
+      70
+    ],
+    [
+      760,
+      "after tension held",
+      70
+    ],
+    [
+      761,
+      "after split surviving",
+      70
+    ],
+    [
+      762,
+      "after split difference",
+      70
+    ],
+    [
+      763,
+      "after split held",
+      70
+    ],
+    [
+      764,
+      "after split apart",
+      70
+    ],
+    [
+      765,
+      "after surviving difference",
+      70
+    ],
+    [
+      766,
+      "after surviving held",
+      70
+    ],
+    [
+      767,
+      "after surviving apart",
+      70
+    ],
+    [
+      768,
+      "after surviving accepted",
+      70
+    ],
+    [
+      769,
+      "after difference held",
+      70
+    ],
+    [
+      770,
+      "after difference apart",
+      70
+    ],
+    [
+      771,
+      "after difference accepted",
+      70
+    ],
+    [
+      772,
+      "after difference convergence",
+      70
+    ],
+    [
+      773,
+      "after held apart",
+      70
+    ],
+    [
+      774,
+      "after held accepted",
+      70
+    ],
+    [
+      775,
+      "after held convergence",
+      70
+    ],
+    [
+      776,
+      "after held named",
+      69
+    ],
+    [
+      777,
+      "after apart accepted",
+      69
+    ],
+    [
+      778,
+      "after apart convergence",
+      69
+    ],
+    [
+      779,
+      "after apart named",
+      69
+    ],
+    [
+      780,
+      "after apart divergence",
+      69
+    ],
+    [
+      781,
+      "after accepted convergence",
+      69
+    ],
+    [
+      782,
+      "after accepted named",
+      69
+    ],
+    [
+      783,
+      "after accepted divergence",
+      69
+    ],
+    [
+      784,
+      "after accepted dropped",
+      69
+    ],
+    [
+      785,
+      "after convergence named",
+      69
+    ],
+    [
+      786,
+      "after convergence divergence",
+      69
+    ],
+    [
+      787,
+      "after convergence dropped",
+      69
+    ],
+    [
+      788,
+      "after convergence thread",
+      69
+    ],
+    [
+      789,
+      "after named divergence",
+      69
+    ],
+    [
+      790,
+      "after named dropped",
+      69
+    ],
+    [
+      791,
+      "after named thread",
+      69
+    ],
+    [
+      792,
+      "after named controller",
+      69
+    ],
+    [
+      793,
+      "after divergence dropped",
+      69
+    ],
+    [
+      794,
+      "after divergence thread",
+      69
+    ],
+    [
+      795,
+      "after divergence controller",
+      69
+    ],
+    [
+      796,
+      "after divergence act",
+      69
+    ],
+    [
+      797,
+      "after dropped thread",
+      69
+    ],
+    [
+      798,
+      "after dropped controller",
+      69
+    ],
+    [
+      799,
+      "after dropped act",
+      69
+    ],
+    [
+      800,
+      "after dropped structure",
+      69
+    ],
+    [
+      801,
+      "during synthesis compose",
+      68
+    ],
+    [
+      802,
+      "during synthesis composition",
+      68
+    ],
+    [
+      803,
+      "during synthesis receipt",
+      68
+    ],
+    [
+      804,
+      "during synthesis distinct",
+      68
+    ],
+    [
+      805,
+      "during compose composition",
+      68
+    ],
+    [
+      806,
+      "during compose receipt",
+      68
+    ],
+    [
+      807,
+      "during compose distinct",
+      68
+    ],
+    [
+      808,
+      "during compose preserve",
+      68
+    ],
+    [
+      809,
+      "during composition receipt",
+      68
+    ],
+    [
+      810,
+      "during composition distinct",
+      68
+    ],
+    [
+      811,
+      "during composition preserve",
+      68
+    ],
+    [
+      812,
+      "during composition carry",
+      68
+    ],
+    [
+      813,
+      "during receipt distinct",
+      68
+    ],
+    [
+      814,
+      "during receipt preserve",
+      68
+    ],
+    [
+      815,
+      "during receipt carry",
+      68
+    ],
+    [
+      816,
+      "during receipt merge",
+      68
+    ],
+    [
+      817,
+      "during distinct preserve",
+      68
+    ],
+    [
+      818,
+      "during distinct carry",
+      68
+    ],
+    [
+      819,
+      "during distinct merge",
+      68
+    ],
+    [
+      820,
+      "during distinct nonmerge",
+      68
+    ],
+    [
+      821,
+      "during preserve carry",
+      68
+    ],
+    [
+      822,
+      "during preserve merge",
+      68
+    ],
+    [
+      823,
+      "during preserve nonmerge",
+      68
+    ],
+    [
+      824,
+      "during preserve tension",
+      68
+    ],
+    [
+      825,
+      "during carry merge",
+      68
+    ],
+    [
+      826,
+      "during carry nonmerge",
+      67
+    ],
+    [
+      827,
+      "during carry tension",
+      67
+    ],
+    [
+      828,
+      "during carry split",
+      67
+    ],
+    [
+      829,
+      "during merge nonmerge",
+      67
+    ],
+    [
+      830,
+      "during merge tension",
+      67
+    ],
+    [
+      831,
+      "during merge split",
+      67
+    ],
+    [
+      832,
+      "during merge surviving",
+      67
+    ],
+    [
+      833,
+      "during nonmerge tension",
+      67
+    ],
+    [
+      834,
+      "during nonmerge split",
+      67
+    ],
+    [
+      835,
+      "during nonmerge surviving",
+      67
+    ],
+    [
+      836,
+      "during nonmerge difference",
+      67
+    ],
+    [
+      837,
+      "during tension split",
+      67
+    ],
+    [
+      838,
+      "during tension surviving",
+      67
+    ],
+    [
+      839,
+      "during tension difference",
+      67
+    ],
+    [
+      840,
+      "during tension held",
+      67
+    ],
+    [
+      841,
+      "during split surviving",
+      67
+    ],
+    [
+      842,
+      "during split difference",
+      67
+    ],
+    [
+      843,
+      "during split held",
+      67
+    ],
+    [
+      844,
+      "during split apart",
+      67
+    ],
+    [
+      845,
+      "during surviving difference",
+      67
+    ],
+    [
+      846,
+      "during surviving held",
+      67
+    ],
+    [
+      847,
+      "during surviving apart",
+      67
+    ],
+    [
+      848,
+      "during surviving accepted",
+      67
+    ],
+    [
+      849,
+      "during difference held",
+      67
+    ],
+    [
+      850,
+      "during difference apart",
+      67
+    ],
+    [
+      851,
+      "during difference accepted",
+      66
+    ],
+    [
+      852,
+      "during difference convergence",
+      66
+    ],
+    [
+      853,
+      "during held apart",
+      66
+    ],
+    [
+      854,
+      "during held accepted",
+      66
+    ],
+    [
+      855,
+      "during held convergence",
+      66
+    ],
+    [
+      856,
+      "during held named",
+      66
+    ],
+    [
+      857,
+      "during apart accepted",
+      66
+    ],
+    [
+      858,
+      "during apart convergence",
+      66
+    ],
+    [
+      859,
+      "during apart named",
+      66
+    ],
+    [
+      860,
+      "during apart divergence",
+      66
+    ],
+    [
+      861,
+      "during accepted convergence",
+      66
+    ],
+    [
+      862,
+      "during accepted named",
+      66
+    ],
+    [
+      863,
+      "during accepted divergence",
+      66
+    ],
+    [
+      864,
+      "during accepted dropped",
+      66
+    ],
+    [
+      865,
+      "during convergence named",
+      66
+    ],
+    [
+      866,
+      "during convergence divergence",
+      66
+    ],
+    [
+      867,
+      "during convergence dropped",
+      66
+    ],
+    [
+      868,
+      "during convergence thread",
+      66
+    ],
+    [
+      869,
+      "during named divergence",
+      66
+    ],
+    [
+      870,
+      "during named dropped",
+      66
+    ],
+    [
+      871,
+      "during named thread",
+      66
+    ],
+    [
+      872,
+      "during named controller",
+      66
+    ],
+    [
+      873,
+      "during divergence dropped",
+      66
+    ],
+    [
+      874,
+      "during divergence thread",
+      66
+    ],
+    [
+      875,
+      "during divergence controller",
+      66
+    ],
+    [
+      876,
+      "during divergence act",
+      65
+    ],
+    [
+      877,
+      "during dropped thread",
+      65
+    ],
+    [
+      878,
+      "during dropped controller",
+      65
+    ],
+    [
+      879,
+      "during dropped act",
+      65
+    ],
+    [
+      880,
+      "during dropped structure",
+      65
+    ],
+    [
+      881,
+      "until synthesis compose",
+      65
+    ],
+    [
+      882,
+      "until synthesis composition",
+      65
+    ],
+    [
+      883,
+      "until synthesis receipt",
+      65
+    ],
+    [
+      884,
+      "until synthesis distinct",
+      65
+    ],
+    [
+      885,
+      "until compose composition",
+      65
+    ],
+    [
+      886,
+      "until compose receipt",
+      65
+    ],
+    [
+      887,
+      "until compose distinct",
+      65
+    ],
+    [
+      888,
+      "until compose preserve",
+      65
+    ],
+    [
+      889,
+      "until composition receipt",
+      65
+    ],
+    [
+      890,
+      "until composition distinct",
+      65
+    ],
+    [
+      891,
+      "until composition preserve",
+      65
+    ],
+    [
+      892,
+      "until composition carry",
+      65
+    ],
+    [
+      893,
+      "until receipt distinct",
+      65
+    ],
+    [
+      894,
+      "until receipt preserve",
+      65
+    ],
+    [
+      895,
+      "until receipt carry",
+      65
+    ],
+    [
+      896,
+      "until receipt merge",
+      65
+    ],
+    [
+      897,
+      "until distinct preserve",
+      65
+    ],
+    [
+      898,
+      "until distinct carry",
+      65
+    ],
+    [
+      899,
+      "until distinct merge",
+      65
+    ],
+    [
+      900,
+      "until distinct nonmerge",
+      65
+    ],
+    [
+      901,
+      "until preserve carry",
+      64
+    ],
+    [
+      902,
+      "until preserve merge",
+      64
+    ],
+    [
+      903,
+      "until preserve nonmerge",
+      64
+    ],
+    [
+      904,
+      "until preserve tension",
+      64
+    ],
+    [
+      905,
+      "until carry merge",
+      64
+    ],
+    [
+      906,
+      "until carry nonmerge",
+      64
+    ],
+    [
+      907,
+      "until carry tension",
+      64
+    ],
+    [
+      908,
+      "until carry split",
+      64
+    ],
+    [
+      909,
+      "until merge nonmerge",
+      64
+    ],
+    [
+      910,
+      "until merge tension",
+      64
+    ],
+    [
+      911,
+      "until merge split",
+      64
+    ],
+    [
+      912,
+      "until merge surviving",
+      64
+    ],
+    [
+      913,
+      "until nonmerge tension",
+      64
+    ],
+    [
+      914,
+      "until nonmerge split",
+      64
+    ],
+    [
+      915,
+      "until nonmerge surviving",
+      64
+    ],
+    [
+      916,
+      "until nonmerge difference",
+      64
+    ],
+    [
+      917,
+      "until tension split",
+      64
+    ],
+    [
+      918,
+      "until tension surviving",
+      64
+    ],
+    [
+      919,
+      "until tension difference",
+      64
+    ],
+    [
+      920,
+      "until tension held",
+      64
+    ],
+    [
+      921,
+      "until split surviving",
+      64
+    ],
+    [
+      922,
+      "until split difference",
+      64
+    ],
+    [
+      923,
+      "until split held",
+      64
+    ],
+    [
+      924,
+      "until split apart",
+      64
+    ],
+    [
+      925,
+      "until surviving difference",
+      64
+    ],
+    [
+      926,
+      "until surviving held",
+      63
+    ],
+    [
+      927,
+      "until surviving apart",
+      63
+    ],
+    [
+      928,
+      "until surviving accepted",
+      63
+    ],
+    [
+      929,
+      "until difference held",
+      63
+    ],
+    [
+      930,
+      "until difference apart",
+      63
+    ],
+    [
+      931,
+      "until difference accepted",
+      63
+    ],
+    [
+      932,
+      "until difference convergence",
+      63
+    ],
+    [
+      933,
+      "until held apart",
+      63
+    ],
+    [
+      934,
+      "until held accepted",
+      63
+    ],
+    [
+      935,
+      "until held convergence",
+      63
+    ],
+    [
+      936,
+      "until held named",
+      63
+    ],
+    [
+      937,
+      "until apart accepted",
+      63
+    ],
+    [
+      938,
+      "until apart convergence",
+      63
+    ],
+    [
+      939,
+      "until apart named",
+      63
+    ],
+    [
+      940,
+      "until apart divergence",
+      63
+    ],
+    [
+      941,
+      "until accepted convergence",
+      63
+    ],
+    [
+      942,
+      "until accepted named",
+      63
+    ],
+    [
+      943,
+      "until accepted divergence",
+      63
+    ],
+    [
+      944,
+      "until accepted dropped",
+      63
+    ],
+    [
+      945,
+      "until convergence named",
+      63
+    ],
+    [
+      946,
+      "until convergence divergence",
+      63
+    ],
+    [
+      947,
+      "until convergence dropped",
+      63
+    ],
+    [
+      948,
+      "until convergence thread",
+      63
+    ],
+    [
+      949,
+      "until named divergence",
+      63
+    ],
+    [
+      950,
+      "until named dropped",
+      63
+    ],
+    [
+      951,
+      "until named thread",
+      62
+    ],
+    [
+      952,
+      "until named controller",
+      62
+    ],
+    [
+      953,
+      "until divergence dropped",
+      62
+    ],
+    [
+      954,
+      "until divergence thread",
+      62
+    ],
+    [
+      955,
+      "until divergence controller",
+      62
+    ],
+    [
+      956,
+      "until divergence act",
+      62
+    ],
+    [
+      957,
+      "until dropped thread",
+      62
+    ],
+    [
+      958,
+      "until dropped controller",
+      62
+    ],
+    [
+      959,
+      "until dropped act",
+      62
+    ],
+    [
+      960,
+      "until dropped structure",
+      62
+    ],
+    [
+      961,
+      "since synthesis compose",
+      62
+    ],
+    [
+      962,
+      "since synthesis composition",
+      62
+    ],
+    [
+      963,
+      "since synthesis receipt",
+      62
+    ],
+    [
+      964,
+      "since synthesis distinct",
+      62
+    ],
+    [
+      965,
+      "since compose composition",
+      62
+    ],
+    [
+      966,
+      "since compose receipt",
+      62
+    ],
+    [
+      967,
+      "since compose distinct",
+      62
+    ],
+    [
+      968,
+      "since compose preserve",
+      62
+    ],
+    [
+      969,
+      "since composition receipt",
+      62
+    ],
+    [
+      970,
+      "since composition distinct",
+      62
+    ],
+    [
+      971,
+      "since composition preserve",
+      62
+    ],
+    [
+      972,
+      "since composition carry",
+      62
+    ],
+    [
+      973,
+      "since receipt distinct",
+      62
+    ],
+    [
+      974,
+      "since receipt preserve",
+      62
+    ],
+    [
+      975,
+      "since receipt carry",
+      62
+    ],
+    [
+      976,
+      "since receipt merge",
+      61
+    ],
+    [
+      977,
+      "since distinct preserve",
+      61
+    ],
+    [
+      978,
+      "since distinct carry",
+      61
+    ],
+    [
+      979,
+      "since distinct merge",
+      61
+    ],
+    [
+      980,
+      "since distinct nonmerge",
+      61
+    ],
+    [
+      981,
+      "since preserve carry",
+      61
+    ],
+    [
+      982,
+      "since preserve merge",
+      61
+    ],
+    [
+      983,
+      "since preserve nonmerge",
+      61
+    ],
+    [
+      984,
+      "since preserve tension",
+      61
+    ],
+    [
+      985,
+      "since carry merge",
+      61
+    ],
+    [
+      986,
+      "since carry nonmerge",
+      61
+    ],
+    [
+      987,
+      "since carry tension",
+      61
+    ],
+    [
+      988,
+      "since carry split",
+      61
+    ],
+    [
+      989,
+      "since merge nonmerge",
+      61
+    ],
+    [
+      990,
+      "since merge tension",
+      61
+    ],
+    [
+      991,
+      "since merge split",
+      61
+    ],
+    [
+      992,
+      "since merge surviving",
+      61
+    ],
+    [
+      993,
+      "since nonmerge tension",
+      61
+    ],
+    [
+      994,
+      "since nonmerge split",
+      61
+    ],
+    [
+      995,
+      "since nonmerge surviving",
+      61
+    ],
+    [
+      996,
+      "since nonmerge difference",
+      61
+    ],
+    [
+      997,
+      "since tension split",
+      61
+    ],
+    [
+      998,
+      "since tension surviving",
+      61
+    ],
+    [
+      999,
+      "since tension difference",
+      61
+    ],
+    [
+      1000,
+      "since tension held",
+      61
+    ],
+    [
+      1001,
+      "since split surviving",
+      60
+    ],
+    [
+      1002,
+      "since split difference",
+      60
+    ],
+    [
+      1003,
+      "since split held",
+      60
+    ],
+    [
+      1004,
+      "since split apart",
+      60
+    ],
+    [
+      1005,
+      "since surviving difference",
+      60
+    ],
+    [
+      1006,
+      "since surviving held",
+      60
+    ],
+    [
+      1007,
+      "since surviving apart",
+      60
+    ],
+    [
+      1008,
+      "since surviving accepted",
+      60
+    ],
+    [
+      1009,
+      "since difference held",
+      60
+    ],
+    [
+      1010,
+      "since difference apart",
+      60
+    ],
+    [
+      1011,
+      "since difference accepted",
+      60
+    ],
+    [
+      1012,
+      "since difference convergence",
+      60
+    ],
+    [
+      1013,
+      "since held apart",
+      60
+    ],
+    [
+      1014,
+      "since held accepted",
+      60
+    ],
+    [
+      1015,
+      "since held convergence",
+      60
+    ],
+    [
+      1016,
+      "since held named",
+      60
+    ],
+    [
+      1017,
+      "since apart accepted",
+      60
+    ],
+    [
+      1018,
+      "since apart convergence",
+      60
+    ],
+    [
+      1019,
+      "since apart named",
+      60
+    ],
+    [
+      1020,
+      "since apart divergence",
+      60
+    ],
+    [
+      1021,
+      "since accepted convergence",
+      60
+    ],
+    [
+      1022,
+      "since accepted named",
+      60
+    ],
+    [
+      1023,
+      "since accepted divergence",
+      60
+    ],
+    [
+      1024,
+      "since accepted dropped",
+      60
+    ],
+    [
+      1025,
+      "since convergence named",
+      60
+    ],
+    [
+      1026,
+      "since convergence divergence",
+      59
+    ],
+    [
+      1027,
+      "since convergence dropped",
+      59
+    ],
+    [
+      1028,
+      "since convergence thread",
+      59
+    ],
+    [
+      1029,
+      "since named divergence",
+      59
+    ],
+    [
+      1030,
+      "since named dropped",
+      59
+    ],
+    [
+      1031,
+      "since named thread",
+      59
+    ],
+    [
+      1032,
+      "since named controller",
+      59
+    ],
+    [
+      1033,
+      "since divergence dropped",
+      59
+    ],
+    [
+      1034,
+      "since divergence thread",
+      59
+    ],
+    [
+      1035,
+      "since divergence controller",
+      59
+    ],
+    [
+      1036,
+      "since divergence act",
+      59
+    ],
+    [
+      1037,
+      "since dropped thread",
+      59
+    ],
+    [
+      1038,
+      "since dropped controller",
+      59
+    ],
+    [
+      1039,
+      "since dropped act",
+      59
+    ],
+    [
+      1040,
+      "since dropped structure",
+      59
+    ],
+    [
+      1041,
+      "synthesis compose composition",
+      59
+    ],
+    [
+      1042,
+      "synthesis compose receipt",
+      59
+    ],
+    [
+      1043,
+      "synthesis compose distinct",
+      59
+    ],
+    [
+      1044,
+      "synthesis composition receipt",
+      59
+    ],
+    [
+      1045,
+      "synthesis composition distinct",
+      59
+    ],
+    [
+      1046,
+      "synthesis receipt composition",
+      59
+    ],
+    [
+      1047,
+      "synthesis receipt distinct",
+      59
+    ],
+    [
+      1048,
+      "synthesis distinct composition",
+      59
+    ],
+    [
+      1049,
+      "synthesis distinct receipt",
+      59
+    ],
+    [
+      1050,
+      "synthesis preserve composition",
+      59
+    ],
+    [
+      1051,
+      "synthesis preserve receipt",
+      58
+    ],
+    [
+      1052,
+      "synthesis preserve distinct",
+      58
+    ],
+    [
+      1053,
+      "compose composition receipt",
+      58
+    ],
+    [
+      1054,
+      "compose composition distinct",
+      58
+    ],
+    [
+      1055,
+      "compose composition preserve",
+      58
+    ],
+    [
+      1056,
+      "compose receipt distinct",
+      58
+    ],
+    [
+      1057,
+      "compose receipt preserve",
+      58
+    ],
+    [
+      1058,
+      "compose distinct receipt",
+      58
+    ],
+    [
+      1059,
+      "compose distinct preserve",
+      58
+    ],
+    [
+      1060,
+      "compose preserve receipt",
+      58
+    ],
+    [
+      1061,
+      "compose preserve distinct",
+      58
+    ],
+    [
+      1062,
+      "compose carry receipt",
+      58
+    ],
+    [
+      1063,
+      "compose carry distinct",
+      58
+    ],
+    [
+      1064,
+      "compose carry preserve",
+      58
+    ],
+    [
+      1065,
+      "composition receipt distinct",
+      58
+    ],
+    [
+      1066,
+      "composition receipt preserve",
+      58
+    ],
+    [
+      1067,
+      "composition receipt carry",
+      58
+    ],
+    [
+      1068,
+      "composition distinct preserve",
+      58
+    ],
+    [
+      1069,
+      "composition distinct carry",
+      58
+    ],
+    [
+      1070,
+      "composition preserve distinct",
+      58
+    ],
+    [
+      1071,
+      "composition preserve carry",
+      58
+    ],
+    [
+      1072,
+      "composition carry distinct",
+      58
+    ],
+    [
+      1073,
+      "composition carry preserve",
+      58
+    ],
+    [
+      1074,
+      "composition merge distinct",
+      58
+    ],
+    [
+      1075,
+      "composition merge preserve",
+      58
+    ],
+    [
+      1076,
+      "composition merge carry",
+      57
+    ],
+    [
+      1077,
+      "receipt distinct preserve",
+      57
+    ],
+    [
+      1078,
+      "receipt distinct carry",
+      57
+    ],
+    [
+      1079,
+      "receipt distinct merge",
+      57
+    ],
+    [
+      1080,
+      "receipt preserve carry",
+      57
+    ],
+    [
+      1081,
+      "receipt preserve merge",
+      57
+    ],
+    [
+      1082,
+      "receipt carry preserve",
+      57
+    ],
+    [
+      1083,
+      "receipt carry merge",
+      57
+    ],
+    [
+      1084,
+      "receipt merge preserve",
+      57
+    ],
+    [
+      1085,
+      "receipt merge carry",
+      57
+    ],
+    [
+      1086,
+      "receipt nonmerge preserve",
+      57
+    ],
+    [
+      1087,
+      "receipt nonmerge carry",
+      57
+    ],
+    [
+      1088,
+      "receipt nonmerge merge",
+      57
+    ],
+    [
+      1089,
+      "distinct preserve carry",
+      57
+    ],
+    [
+      1090,
+      "distinct preserve merge",
+      57
+    ],
+    [
+      1091,
+      "distinct preserve nonmerge",
+      57
+    ],
+    [
+      1092,
+      "distinct carry merge",
+      57
+    ],
+    [
+      1093,
+      "distinct carry nonmerge",
+      57
+    ],
+    [
+      1094,
+      "distinct merge carry",
+      57
+    ],
+    [
+      1095,
+      "distinct merge nonmerge",
+      57
+    ],
+    [
+      1096,
+      "distinct nonmerge carry",
+      57
+    ],
+    [
+      1097,
+      "distinct nonmerge merge",
+      57
+    ],
+    [
+      1098,
+      "distinct tension carry",
+      57
+    ],
+    [
+      1099,
+      "distinct tension merge",
+      57
+    ],
+    [
+      1100,
+      "distinct tension nonmerge",
+      57
+    ],
+    [
+      1101,
+      "preserve carry merge",
+      56
+    ],
+    [
+      1102,
+      "preserve carry nonmerge",
+      56
+    ],
+    [
+      1103,
+      "preserve carry tension",
+      56
+    ],
+    [
+      1104,
+      "preserve merge nonmerge",
+      56
+    ],
+    [
+      1105,
+      "preserve merge tension",
+      56
+    ],
+    [
+      1106,
+      "preserve nonmerge merge",
+      56
+    ],
+    [
+      1107,
+      "preserve nonmerge tension",
+      56
+    ],
+    [
+      1108,
+      "preserve tension merge",
+      56
+    ],
+    [
+      1109,
+      "preserve tension nonmerge",
+      56
+    ],
+    [
+      1110,
+      "preserve split merge",
+      56
+    ],
+    [
+      1111,
+      "preserve split nonmerge",
+      56
+    ],
+    [
+      1112,
+      "preserve split tension",
+      56
+    ],
+    [
+      1113,
+      "carry merge nonmerge",
+      56
+    ],
+    [
+      1114,
+      "carry merge tension",
+      56
+    ],
+    [
+      1115,
+      "carry merge split",
+      56
+    ],
+    [
+      1116,
+      "carry nonmerge tension",
+      56
+    ],
+    [
+      1117,
+      "carry nonmerge split",
+      56
+    ],
+    [
+      1118,
+      "carry tension nonmerge",
+      56
+    ],
+    [
+      1119,
+      "carry tension split",
+      56
+    ],
+    [
+      1120,
+      "carry split nonmerge",
+      56
+    ],
+    [
+      1121,
+      "carry split tension",
+      56
+    ],
+    [
+      1122,
+      "carry surviving nonmerge",
+      56
+    ],
+    [
+      1123,
+      "carry surviving tension",
+      56
+    ],
+    [
+      1124,
+      "carry surviving split",
+      56
+    ],
+    [
+      1125,
+      "merge nonmerge tension",
+      56
+    ],
+    [
+      1126,
+      "merge nonmerge split",
+      55
+    ],
+    [
+      1127,
+      "merge nonmerge surviving",
+      55
+    ],
+    [
+      1128,
+      "merge tension split",
+      55
+    ],
+    [
+      1129,
+      "merge tension surviving",
+      55
+    ],
+    [
+      1130,
+      "merge split tension",
+      55
+    ],
+    [
+      1131,
+      "merge split surviving",
+      55
+    ],
+    [
+      1132,
+      "merge surviving tension",
+      55
+    ],
+    [
+      1133,
+      "merge surviving split",
+      55
+    ],
+    [
+      1134,
+      "merge difference tension",
+      55
+    ],
+    [
+      1135,
+      "merge difference split",
+      55
+    ],
+    [
+      1136,
+      "merge difference surviving",
+      55
+    ],
+    [
+      1137,
+      "nonmerge tension split",
+      55
+    ],
+    [
+      1138,
+      "nonmerge tension surviving",
+      55
+    ],
+    [
+      1139,
+      "nonmerge tension difference",
+      55
+    ],
+    [
+      1140,
+      "nonmerge split surviving",
+      55
+    ],
+    [
+      1141,
+      "nonmerge split difference",
+      55
+    ],
+    [
+      1142,
+      "nonmerge surviving split",
+      55
+    ],
+    [
+      1143,
+      "nonmerge surviving difference",
+      55
+    ],
+    [
+      1144,
+      "nonmerge difference split",
+      55
+    ],
+    [
+      1145,
+      "nonmerge difference surviving",
+      55
+    ],
+    [
+      1146,
+      "nonmerge held split",
+      55
+    ],
+    [
+      1147,
+      "nonmerge held surviving",
+      55
+    ],
+    [
+      1148,
+      "nonmerge held difference",
+      55
+    ],
+    [
+      1149,
+      "tension split surviving",
+      55
+    ],
+    [
+      1150,
+      "tension split difference",
+      55
+    ],
+    [
+      1151,
+      "tension split held",
+      54
+    ],
+    [
+      1152,
+      "tension surviving difference",
+      54
+    ],
+    [
+      1153,
+      "tension surviving held",
+      54
+    ],
+    [
+      1154,
+      "tension difference surviving",
+      54
+    ],
+    [
+      1155,
+      "tension difference held",
+      54
+    ],
+    [
+      1156,
+      "tension held surviving",
+      54
+    ],
+    [
+      1157,
+      "tension held difference",
+      54
+    ],
+    [
+      1158,
+      "tension apart surviving",
+      54
+    ],
+    [
+      1159,
+      "tension apart difference",
+      54
+    ],
+    [
+      1160,
+      "tension apart held",
+      54
+    ],
+    [
+      1161,
+      "split surviving difference",
+      54
+    ],
+    [
+      1162,
+      "split surviving held",
+      54
+    ],
+    [
+      1163,
+      "split surviving apart",
+      54
+    ],
+    [
+      1164,
+      "split difference held",
+      54
+    ],
+    [
+      1165,
+      "split difference apart",
+      54
+    ],
+    [
+      1166,
+      "split held difference",
+      54
+    ],
+    [
+      1167,
+      "split held apart",
+      54
+    ],
+    [
+      1168,
+      "split apart difference",
+      54
+    ],
+    [
+      1169,
+      "split apart held",
+      54
+    ],
+    [
+      1170,
+      "split accepted difference",
+      54
+    ],
+    [
+      1171,
+      "split accepted held",
+      54
+    ],
+    [
+      1172,
+      "split accepted apart",
+      54
+    ],
+    [
+      1173,
+      "surviving difference held",
+      54
+    ],
+    [
+      1174,
+      "surviving difference apart",
+      54
+    ],
+    [
+      1175,
+      "surviving difference accepted",
+      54
+    ],
+    [
+      1176,
+      "surviving held apart",
+      53
+    ],
+    [
+      1177,
+      "surviving held accepted",
+      53
+    ],
+    [
+      1178,
+      "surviving apart held",
+      53
+    ],
+    [
+      1179,
+      "surviving apart accepted",
+      53
+    ],
+    [
+      1180,
+      "surviving accepted held",
+      53
+    ],
+    [
+      1181,
+      "surviving accepted apart",
+      53
+    ],
+    [
+      1182,
+      "surviving convergence held",
+      53
+    ],
+    [
+      1183,
+      "surviving convergence apart",
+      53
+    ],
+    [
+      1184,
+      "surviving convergence accepted",
+      53
+    ],
+    [
+      1185,
+      "difference held apart",
+      53
+    ],
+    [
+      1186,
+      "difference held accepted",
+      53
+    ],
+    [
+      1187,
+      "difference held convergence",
+      53
+    ],
+    [
+      1188,
+      "difference apart accepted",
+      53
+    ],
+    [
+      1189,
+      "difference apart convergence",
+      53
+    ],
+    [
+      1190,
+      "difference accepted apart",
+      53
+    ],
+    [
+      1191,
+      "difference accepted convergence",
+      53
+    ],
+    [
+      1192,
+      "difference convergence apart",
+      53
+    ],
+    [
+      1193,
+      "difference convergence accepted",
+      53
+    ],
+    [
+      1194,
+      "difference named apart",
+      53
+    ],
+    [
+      1195,
+      "difference named accepted",
+      53
+    ],
+    [
+      1196,
+      "difference named convergence",
+      53
+    ],
+    [
+      1197,
+      "held apart accepted",
+      53
+    ],
+    [
+      1198,
+      "held apart convergence",
+      53
+    ],
+    [
+      1199,
+      "held apart named",
+      53
+    ],
+    [
+      1200,
+      "held accepted convergence",
+      53
+    ],
+    [
+      1201,
+      "held accepted named",
+      52
+    ],
+    [
+      1202,
+      "held convergence accepted",
+      52
+    ],
+    [
+      1203,
+      "held convergence named",
+      52
+    ],
+    [
+      1204,
+      "held named accepted",
+      52
+    ],
+    [
+      1205,
+      "held named convergence",
+      52
+    ],
+    [
+      1206,
+      "held divergence accepted",
+      52
+    ],
+    [
+      1207,
+      "held divergence convergence",
+      52
+    ],
+    [
+      1208,
+      "held divergence named",
+      52
+    ],
+    [
+      1209,
+      "apart accepted convergence",
+      52
+    ],
+    [
+      1210,
+      "apart accepted named",
+      52
+    ],
+    [
+      1211,
+      "apart accepted divergence",
+      52
+    ],
+    [
+      1212,
+      "apart convergence named",
+      52
+    ],
+    [
+      1213,
+      "apart convergence divergence",
+      52
+    ],
+    [
+      1214,
+      "apart named convergence",
+      52
+    ],
+    [
+      1215,
+      "apart named divergence",
+      52
+    ],
+    [
+      1216,
+      "apart divergence convergence",
+      52
+    ],
+    [
+      1217,
+      "apart divergence named",
+      52
+    ],
+    [
+      1218,
+      "apart dropped convergence",
+      52
+    ],
+    [
+      1219,
+      "apart dropped named",
+      52
+    ],
+    [
+      1220,
+      "apart dropped divergence",
+      52
+    ],
+    [
+      1221,
+      "accepted convergence named",
+      52
+    ],
+    [
+      1222,
+      "accepted convergence divergence",
+      52
+    ],
+    [
+      1223,
+      "accepted convergence dropped",
+      52
+    ],
+    [
+      1224,
+      "accepted named divergence",
+      52
+    ],
+    [
+      1225,
+      "accepted named dropped",
+      52
+    ],
+    [
+      1226,
+      "accepted divergence named",
+      51
+    ],
+    [
+      1227,
+      "accepted divergence dropped",
+      51
+    ],
+    [
+      1228,
+      "accepted dropped named",
+      51
+    ],
+    [
+      1229,
+      "accepted dropped divergence",
+      51
+    ],
+    [
+      1230,
+      "accepted thread named",
+      51
+    ],
+    [
+      1231,
+      "accepted thread divergence",
+      51
+    ],
+    [
+      1232,
+      "accepted thread dropped",
+      51
+    ],
+    [
+      1233,
+      "convergence named divergence",
+      51
+    ],
+    [
+      1234,
+      "convergence named dropped",
+      51
+    ],
+    [
+      1235,
+      "convergence named thread",
+      51
+    ],
+    [
+      1236,
+      "convergence divergence dropped",
+      51
+    ],
+    [
+      1237,
+      "convergence divergence thread",
+      51
+    ],
+    [
+      1238,
+      "convergence dropped divergence",
+      51
+    ],
+    [
+      1239,
+      "convergence dropped thread",
+      51
+    ],
+    [
+      1240,
+      "convergence thread divergence",
+      51
+    ],
+    [
+      1241,
+      "convergence thread dropped",
+      51
+    ],
+    [
+      1242,
+      "convergence controller divergence",
+      51
+    ],
+    [
+      1243,
+      "convergence controller dropped",
+      51
+    ],
+    [
+      1244,
+      "convergence controller thread",
+      51
+    ],
+    [
+      1245,
+      "named divergence dropped",
+      51
+    ],
+    [
+      1246,
+      "named divergence thread",
+      51
+    ],
+    [
+      1247,
+      "named divergence controller",
+      51
+    ],
+    [
+      1248,
+      "named dropped thread",
+      51
+    ],
+    [
+      1249,
+      "named dropped controller",
+      51
+    ],
+    [
+      1250,
+      "named thread dropped",
+      51
+    ],
+    [
+      1251,
+      "named thread controller",
+      50
+    ],
+    [
+      1252,
+      "named controller dropped",
+      50
+    ],
+    [
+      1253,
+      "named controller thread",
+      50
+    ],
+    [
+      1254,
+      "named act dropped",
+      50
+    ],
+    [
+      1255,
+      "named act thread",
+      50
+    ],
+    [
+      1256,
+      "named act controller",
+      50
+    ],
+    [
+      1257,
+      "divergence dropped thread",
+      50
+    ],
+    [
+      1258,
+      "divergence dropped controller",
+      50
+    ],
+    [
+      1259,
+      "divergence dropped act",
+      50
+    ],
+    [
+      1260,
+      "divergence thread controller",
+      50
+    ],
+    [
+      1261,
+      "divergence thread act",
+      50
+    ],
+    [
+      1262,
+      "divergence controller thread",
+      50
+    ],
+    [
+      1263,
+      "divergence controller act",
+      50
+    ],
+    [
+      1264,
+      "divergence act thread",
+      50
+    ],
+    [
+      1265,
+      "divergence act controller",
+      50
+    ],
+    [
+      1266,
+      "divergence structure thread",
+      50
+    ],
+    [
+      1267,
+      "divergence structure controller",
+      50
+    ],
+    [
+      1268,
+      "divergence structure act",
+      50
+    ],
+    [
+      1269,
+      "dropped thread controller",
+      50
+    ],
+    [
+      1270,
+      "dropped thread act",
+      50
+    ],
+    [
+      1271,
+      "dropped thread structure",
+      50
+    ],
+    [
+      1272,
+      "dropped controller act",
+      50
+    ],
+    [
+      1273,
+      "dropped controller structure",
+      50
+    ],
+    [
+      1274,
+      "dropped act controller",
+      50
+    ],
+    [
+      1275,
+      "dropped act structure",
+      50
+    ],
+    [
+      1276,
+      "dropped structure controller",
+      49
+    ],
+    [
+      1277,
+      "dropped structure act",
+      49
+    ],
+    [
+      1278,
+      "dropped boundary controller",
+      49
+    ],
+    [
+      1279,
+      "dropped boundary act",
+      49
+    ],
+    [
+      1280,
+      "dropped boundary structure",
+      49
+    ],
+    [
+      1281,
+      "thread controller act",
+      49
+    ],
+    [
+      1282,
+      "thread controller structure",
+      49
+    ],
+    [
+      1283,
+      "thread controller boundary",
+      49
+    ],
+    [
+      1284,
+      "thread act structure",
+      49
+    ],
+    [
+      1285,
+      "thread act boundary",
+      49
+    ],
+    [
+      1286,
+      "thread structure act",
+      49
+    ],
+    [
+      1287,
+      "thread structure boundary",
+      49
+    ],
+    [
+      1288,
+      "thread boundary act",
+      49
+    ],
+    [
+      1289,
+      "thread boundary structure",
+      49
+    ],
+    [
+      1290,
+      "thread not merged act",
+      49
+    ],
+    [
+      1291,
+      "thread not merged structure",
+      49
+    ],
+    [
+      1292,
+      "thread not merged boundary",
+      49
+    ],
+    [
+      1293,
+      "controller act structure",
+      49
+    ],
+    [
+      1294,
+      "controller act boundary",
+      49
+    ],
+    [
+      1295,
+      "controller act not merged",
+      49
+    ],
+    [
+      1296,
+      "controller structure boundary",
+      49
+    ],
+    [
+      1297,
+      "controller structure not merged",
+      49
+    ],
+    [
+      1298,
+      "controller boundary structure",
+      49
+    ],
+    [
+      1299,
+      "controller boundary not merged",
+      49
+    ],
+    [
+      1300,
+      "controller not merged structure",
+      49
+    ],
+    [
+      1301,
+      "controller not merged boundary",
+      48
+    ],
+    [
+      1302,
+      "controller not collapsed structure",
+      48
+    ],
+    [
+      1303,
+      "controller not collapsed boundary",
+      48
+    ],
+    [
+      1304,
+      "controller not collapsed not merged",
+      48
+    ],
+    [
+      1305,
+      "act structure boundary",
+      48
+    ],
+    [
+      1306,
+      "act structure not merged",
+      48
+    ],
+    [
+      1307,
+      "act structure not collapsed",
+      48
+    ],
+    [
+      1308,
+      "act boundary not merged",
+      48
+    ],
+    [
+      1309,
+      "act boundary not collapsed",
+      48
+    ],
+    [
+      1310,
+      "act not merged boundary",
+      48
+    ],
+    [
+      1311,
+      "act not merged not collapsed",
+      48
+    ],
+    [
+      1312,
+      "act not collapsed boundary",
+      48
+    ],
+    [
+      1313,
+      "act not collapsed not merged",
+      48
+    ],
+    [
+      1314,
+      "act held apart boundary",
+      48
+    ],
+    [
+      1315,
+      "act held apart not merged",
+      48
+    ],
+    [
+      1316,
+      "act held apart not collapsed",
+      48
+    ],
+    [
+      1317,
+      "structure boundary not merged",
+      48
+    ],
+    [
+      1318,
+      "structure boundary not collapsed",
+      48
+    ],
+    [
+      1319,
+      "structure boundary held apart",
+      48
+    ],
+    [
+      1320,
+      "structure not merged not collapsed",
+      48
+    ],
+    [
+      1321,
+      "structure not merged held apart",
+      48
+    ],
+    [
+      1322,
+      "structure not collapsed not merged",
+      48
+    ],
+    [
+      1323,
+      "structure not collapsed held apart",
+      48
+    ],
+    [
+      1324,
+      "structure held apart not merged",
+      48
+    ],
+    [
+      1325,
+      "structure held apart not collapsed",
+      48
+    ],
+    [
+      1326,
+      "structure surviving split not merged",
+      47
+    ],
+    [
+      1327,
+      "structure surviving split not collapsed",
+      47
+    ],
+    [
+      1328,
+      "structure surviving split held apart",
+      47
+    ],
+    [
+      1329,
+      "boundary not merged not collapsed",
+      47
+    ],
+    [
+      1330,
+      "boundary not merged held apart",
+      47
+    ],
+    [
+      1331,
+      "boundary not merged surviving split",
+      47
+    ],
+    [
+      1332,
+      "boundary not collapsed held apart",
+      47
+    ],
+    [
+      1333,
+      "boundary not collapsed surviving split",
+      47
+    ],
+    [
+      1334,
+      "boundary held apart not collapsed",
+      47
+    ],
+    [
+      1335,
+      "boundary held apart surviving split",
+      47
+    ],
+    [
+      1336,
+      "boundary surviving split not collapsed",
+      47
+    ],
+    [
+      1337,
+      "boundary surviving split held apart",
+      47
+    ],
+    [
+      1338,
+      "boundary excluded not collapsed",
+      47
+    ],
+    [
+      1339,
+      "boundary excluded held apart",
+      47
+    ],
+    [
+      1340,
+      "boundary excluded surviving split",
+      47
+    ],
+    [
+      1341,
+      "mini-MMM shapes voice",
+      100
+    ],
+    [
+      1342,
+      "mini MMM voice shape",
+      100
+    ],
+    [
+      1343,
+      "voice shaped by nouns",
+      100
+    ],
+    [
+      1344,
+      "aligned nouns shape voice",
+      100
+    ],
+    [
+      1345,
+      "correlated thinkers shape voice",
+      100
+    ],
+    [
+      1346,
+      "receipt tension synthesis",
+      96
+    ]
+  ],
+  "v3_3_salience_expansion": {
+    "source": "deep-research-report.md",
+    "status": "positive salience only; not negative/reference boot",
+    "route": "SYNTHESIS",
+    "size": "full"
+  }
+}

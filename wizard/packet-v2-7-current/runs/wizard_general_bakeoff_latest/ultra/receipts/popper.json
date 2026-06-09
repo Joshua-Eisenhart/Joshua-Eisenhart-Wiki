@@ -1,0 +1,12 @@
+{
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate",
+  "checked": "loaded mini_mmms/ultra/voices/md/MMM_VOICE_POPPER_ULTRA_v2_7.md",
+  "concluded": "Falsifier: any visible lane without a receipt, or any live claim without fresh boot logs, kills acceptance.",
+  "evidence": "mini_mmms/ultra/voices/md/MMM_VOICE_POPPER_ULTRA_v2_7.md terms: what would break, what would rule out, conjectures and refutations, severe test, risky prediction, refuted claim, decisive check, failure condition",
+  "generated_at": "2026-04-28T08:03:24.959236+00:00",
+  "lane": "Popper",
+  "open": "live proof pending",
+  "output_excerpt": "Task: Compare Wizard General sizes and choose the best local runtime surface.\nWizard General size: ultra\nWave 1: Voice Wave\nFalsifier: any visible lane without a receipt, or any live claim without fresh boot logs, kills acceptance.\nLoaded language body terms: what would break, what would rule out, conjectures and refutations, severe test, risky prediction, refuted claim, decisive check, failure condition",
+  "output_sha256": "aae4939b5096fcaedeb4e4a008599a514b2eb433bd2e6fe6120599877d4199b5",
+  "schema_version": "wizard_behavior_harness.v1"
+}

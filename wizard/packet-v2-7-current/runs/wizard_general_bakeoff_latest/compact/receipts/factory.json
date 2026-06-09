@@ -1,0 +1,12 @@
+{
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate",
+  "checked": "loaded mini_mmms/compact/voices/md/MMM_VOICE_FACTORY_COMPACT_v2_7.md",
+  "concluded": "Bottleneck: the repeatable runner was missing; make run, validate, package, and follow-up checks a single flow.",
+  "evidence": "mini_mmms/compact/voices/md/MMM_VOICE_FACTORY_COMPACT_v2_7.md terms: work in progress, choke point, cycle time, standard work, throughput accounting, bottleneck control, queue length, bottleneck reinput",
+  "generated_at": "2026-04-28T08:03:24.994347+00:00",
+  "lane": "Factory",
+  "open": "live proof pending",
+  "output_excerpt": "Task: Compare Wizard General sizes and choose the best local runtime surface.\nWizard General size: compact\nWave 1: Voice Wave\nBottleneck: the repeatable runner was missing; make run, validate, package, and follow-up checks a single flow.\nLoaded language body terms: work in progress, choke point, cycle time, standard work, throughput accounting, bottleneck control, queue length, bottleneck reinput",
+  "output_sha256": "e3a360a9064944d0ac4b15530a364858ffba7539926394d5f1458a511dcc990f",
+  "schema_version": "wizard_behavior_harness.v1"
+}

@@ -1,0 +1,12663 @@
+{
+  "words": [
+    [
+      1,
+      "experiment",
+      100
+    ],
+    [
+      2,
+      "apparatus",
+      100
+    ],
+    [
+      3,
+      "observable",
+      100
+    ],
+    [
+      4,
+      "procedure",
+      100
+    ],
+    [
+      5,
+      "setup",
+      100
+    ],
+    [
+      6,
+      "demonstration",
+      100
+    ],
+    [
+      7,
+      "calibration",
+      100
+    ],
+    [
+      8,
+      "physical",
+      100
+    ],
+    [
+      9,
+      "intuition",
+      100
+    ],
+    [
+      10,
+      "example",
+      100
+    ],
+    [
+      11,
+      "picture",
+      100
+    ],
+    [
+      12,
+      "diagram",
+      100
+    ],
+    [
+      13,
+      "mechanism",
+      100
+    ],
+    [
+      14,
+      "simple",
+      100
+    ],
+    [
+      15,
+      "concrete",
+      100
+    ],
+    [
+      16,
+      "measure",
+      100
+    ],
+    [
+      17,
+      "pass",
+      100
+    ],
+    [
+      18,
+      "fail",
+      100
+    ],
+    [
+      19,
+      "knob",
+      100
+    ],
+    [
+      20,
+      "reading",
+      100
+    ],
+    [
+      21,
+      "instrument",
+      100
+    ],
+    [
+      22,
+      "scale",
+      100
+    ],
+    [
+      23,
+      "unit",
+      100
+    ],
+    [
+      24,
+      "motion",
+      100
+    ],
+    [
+      25,
+      "energy",
+      100
+    ],
+    [
+      26,
+      "particle",
+      99
+    ],
+    [
+      27,
+      "field",
+      99
+    ],
+    [
+      28,
+      "hands",
+      99
+    ],
+    [
+      29,
+      "worked",
+      99
+    ],
+    [
+      30,
+      "cargo cult science",
+      99
+    ],
+    [
+      31,
+      "scientific integrity",
+      99
+    ],
+    [
+      32,
+      "not fool yourself",
+      99
+    ],
+    [
+      33,
+      "experiment as judge",
+      99
+    ],
+    [
+      34,
+      "physical law",
+      99
+    ],
+    [
+      35,
+      "simple example",
+      99
+    ],
+    [
+      36,
+      "real measurement",
+      99
+    ],
+    [
+      37,
+      "apparatus reading",
+      99
+    ],
+    [
+      38,
+      "check the answer",
+      99
+    ],
+    [
+      39,
+      "operation",
+      99
+    ],
+    [
+      40,
+      "readout",
+      99
+    ],
+    [
+      41,
+      "test",
+      99
+    ],
+    [
+      42,
+      "run",
+      99
+    ],
+    [
+      43,
+      "check",
+      99
+    ],
+    [
+      44,
+      "compare",
+      99
+    ],
+    [
+      45,
+      "simple case",
+      99
+    ],
+    [
+      46,
+      "toy model",
+      99
+    ],
+    [
+      47,
+      "signal",
+      99
+    ],
+    [
+      48,
+      "noise",
+      99
+    ],
+    [
+      49,
+      "threshold",
+      99
+    ],
+    [
+      50,
+      "control",
+      99
+    ],
+    [
+      51,
+      "baseline",
+      98
+    ],
+    [
+      52,
+      "trial",
+      98
+    ],
+    [
+      53,
+      "repeat",
+      98
+    ],
+    [
+      54,
+      "result",
+      98
+    ],
+    [
+      55,
+      "what changes",
+      98
+    ],
+    [
+      56,
+      "what would count",
+      98
+    ],
+    [
+      57,
+      "criterion",
+      98
+    ],
+    [
+      58,
+      "measurable",
+      98
+    ],
+    [
+      59,
+      "output",
+      98
+    ],
+    [
+      60,
+      "input",
+      98
+    ],
+    [
+      61,
+      "unresolved",
+      98
+    ],
+    [
+      62,
+      "inspect",
+      98
+    ],
+    [
+      63,
+      "verify",
+      98
+    ],
+    [
+      64,
+      "under",
+      98
+    ],
+    [
+      65,
+      "within",
+      98
+    ],
+    [
+      66,
+      "across",
+      98
+    ],
+    [
+      67,
+      "between",
+      98
+    ],
+    [
+      68,
+      "through",
+      98
+    ],
+    [
+      69,
+      "before",
+      98
+    ],
+    [
+      70,
+      "after",
+      98
+    ],
+    [
+      71,
+      "until",
+      98
+    ],
+    [
+      72,
+      "where",
+      98
+    ],
+    [
+      73,
+      "while",
+      98
+    ],
+    [
+      74,
+      "against",
+      98
+    ],
+    [
+      75,
+      "along",
+      98
+    ],
+    [
+      76,
+      "around",
+      97
+    ],
+    [
+      77,
+      "among",
+      97
+    ],
+    [
+      78,
+      "inside",
+      97
+    ],
+    [
+      79,
+      "outside",
+      97
+    ],
+    [
+      80,
+      "near",
+      97
+    ],
+    [
+      81,
+      "beside",
+      97
+    ],
+    [
+      82,
+      "over",
+      97
+    ],
+    [
+      83,
+      "from",
+      97
+    ],
+    [
+      84,
+      "with",
+      97
+    ],
+    [
+      85,
+      "without",
+      97
+    ],
+    [
+      86,
+      "only",
+      97
+    ],
+    [
+      87,
+      "not",
+      97
+    ],
+    [
+      88,
+      "no",
+      97
+    ],
+    [
+      89,
+      "yet",
+      97
+    ],
+    [
+      90,
+      "then",
+      97
+    ],
+    [
+      91,
+      "current",
+      97
+    ],
+    [
+      92,
+      "actual",
+      97
+    ],
+    [
+      93,
+      "local",
+      97
+    ],
+    [
+      94,
+      "bounded",
+      97
+    ],
+    [
+      95,
+      "finite",
+      97
+    ],
+    [
+      96,
+      "open",
+      97
+    ],
+    [
+      97,
+      "live",
+      97
+    ],
+    [
+      98,
+      "distinct",
+      97
+    ],
+    [
+      99,
+      "plain",
+      97
+    ],
+    [
+      100,
+      "observed",
+      97
+    ],
+    [
+      101,
+      "inferred",
+      96
+    ],
+    [
+      102,
+      "known",
+      96
+    ],
+    [
+      103,
+      "unknown",
+      96
+    ],
+    [
+      104,
+      "checked",
+      96
+    ],
+    [
+      105,
+      "missing",
+      96
+    ],
+    [
+      106,
+      "stale",
+      96
+    ],
+    [
+      107,
+      "narrow",
+      96
+    ],
+    [
+      108,
+      "small",
+      96
+    ],
+    [
+      109,
+      "warm",
+      96
+    ],
+    [
+      110,
+      "careful",
+      96
+    ],
+    [
+      111,
+      "honest",
+      96
+    ],
+    [
+      112,
+      "first",
+      96
+    ],
+    [
+      113,
+      "next",
+      96
+    ],
+    [
+      114,
+      "prior",
+      96
+    ],
+    [
+      115,
+      "later",
+      96
+    ],
+    [
+      116,
+      "separate",
+      96
+    ],
+    [
+      117,
+      "together",
+      96
+    ],
+    [
+      118,
+      "apart",
+      96
+    ],
+    [
+      119,
+      "held",
+      96
+    ],
+    [
+      120,
+      "returned",
+      96
+    ],
+    [
+      121,
+      "found",
+      96
+    ],
+    [
+      122,
+      "compared",
+      96
+    ],
+    [
+      123,
+      "measured",
+      96
+    ],
+    [
+      124,
+      "named",
+      96
+    ],
+    [
+      125,
+      "used",
+      96
+    ],
+    [
+      126,
+      "fit",
+      95
+    ],
+    [
+      127,
+      "viable",
+      95
+    ],
+    [
+      128,
+      "direct",
+      95
+    ],
+    [
+      129,
+      "different",
+      95
+    ],
+    [
+      130,
+      "alternate",
+      95
+    ],
+    [
+      131,
+      "branch",
+      95
+    ],
+    [
+      132,
+      "path",
+      95
+    ],
+    [
+      133,
+      "surface",
+      95
+    ],
+    [
+      134,
+      "packet",
+      95
+    ],
+    [
+      135,
+      "artifact",
+      95
+    ],
+    [
+      136,
+      "receipt",
+      95
+    ],
+    [
+      137,
+      "trace",
+      95
+    ],
+    [
+      138,
+      "support",
+      95
+    ],
+    [
+      139,
+      "evidence",
+      95
+    ],
+    [
+      140,
+      "scope",
+      95
+    ],
+    [
+      141,
+      "boundary",
+      95
+    ],
+    [
+      142,
+      "gate",
+      95
+    ],
+    [
+      143,
+      "guard",
+      95
+    ],
+    [
+      144,
+      "rung",
+      95
+    ],
+    [
+      145,
+      "status",
+      95
+    ],
+    [
+      146,
+      "candidate",
+      95
+    ],
+    [
+      147,
+      "survivor",
+      95
+    ],
+    [
+      148,
+      "witness",
+      95
+    ],
+    [
+      149,
+      "probe",
+      95
+    ],
+    [
+      150,
+      "constraint",
+      95
+    ],
+    [
+      151,
+      "name",
+      94
+    ],
+    [
+      152,
+      "term",
+      94
+    ],
+    [
+      153,
+      "use",
+      94
+    ],
+    [
+      154,
+      "role",
+      94
+    ],
+    [
+      155,
+      "practice",
+      94
+    ],
+    [
+      156,
+      "custom",
+      94
+    ],
+    [
+      157,
+      "habit",
+      94
+    ],
+    [
+      158,
+      "experience",
+      94
+    ],
+    [
+      159,
+      "observation",
+      94
+    ],
+    [
+      160,
+      "impression",
+      94
+    ],
+    [
+      161,
+      "idea",
+      94
+    ],
+    [
+      162,
+      "perception",
+      94
+    ],
+    [
+      163,
+      "conjunction",
+      94
+    ],
+    [
+      164,
+      "resemblance",
+      94
+    ],
+    [
+      165,
+      "relation",
+      94
+    ],
+    [
+      166,
+      "probability",
+      94
+    ],
+    [
+      167,
+      "particular",
+      94
+    ],
+    [
+      168,
+      "predicate",
+      94
+    ],
+    [
+      169,
+      "class",
+      94
+    ],
+    [
+      170,
+      "model",
+      94
+    ],
+    [
+      171,
+      "solver",
+      94
+    ],
+    [
+      172,
+      "satisfiable",
+      94
+    ],
+    [
+      173,
+      "unsatisfiable",
+      94
+    ],
+    [
+      174,
+      "countermodel",
+      94
+    ],
+    [
+      175,
+      "counterexample",
+      94
+    ],
+    [
+      176,
+      "equivalence",
+      93
+    ],
+    [
+      177,
+      "indistinguishable",
+      93
+    ],
+    [
+      178,
+      "measurement",
+      93
+    ],
+    [
+      179,
+      "sample",
+      93
+    ],
+    [
+      180,
+      "route",
+      93
+    ],
+    [
+      181,
+      "lane",
+      93
+    ],
+    [
+      182,
+      "voice",
+      93
+    ],
+    [
+      183,
+      "lens",
+      93
+    ],
+    [
+      184,
+      "council",
+      93
+    ],
+    [
+      185,
+      "audit",
+      93
+    ],
+    [
+      186,
+      "finding",
+      93
+    ],
+    [
+      187,
+      "blocker",
+      93
+    ],
+    [
+      188,
+      "deferred",
+      93
+    ],
+    [
+      189,
+      "blocked",
+      93
+    ],
+    [
+      190,
+      "spawned",
+      93
+    ],
+    [
+      191,
+      "diagnostic",
+      93
+    ],
+    [
+      192,
+      "untried",
+      93
+    ],
+    [
+      193,
+      "preload",
+      93
+    ],
+    [
+      194,
+      "salience",
+      93
+    ],
+    [
+      195,
+      "language",
+      93
+    ],
+    [
+      196,
+      "body",
+      93
+    ],
+    [
+      197,
+      "during",
+      93
+    ],
+    [
+      198,
+      "since",
+      93
+    ],
+    [
+      199,
+      "by",
+      93
+    ],
+    [
+      200,
+      "toward",
+      93
+    ],
+    [
+      201,
+      "relative",
+      92
+    ],
+    [
+      202,
+      "according",
+      92
+    ],
+    [
+      203,
+      "locally",
+      92
+    ],
+    [
+      204,
+      "jointly",
+      92
+    ],
+    [
+      205,
+      "separately",
+      92
+    ],
+    [
+      206,
+      "rather",
+      92
+    ],
+    [
+      207,
+      "instead",
+      92
+    ],
+    [
+      208,
+      "still",
+      92
+    ],
+    [
+      209,
+      "often",
+      92
+    ],
+    [
+      210,
+      "sometimes",
+      92
+    ],
+    [
+      211,
+      "usually",
+      92
+    ],
+    [
+      212,
+      "seems",
+      92
+    ],
+    [
+      213,
+      "appears",
+      92
+    ],
+    [
+      214,
+      "likely",
+      92
+    ],
+    [
+      215,
+      "possible",
+      92
+    ],
+    [
+      216,
+      "plausible",
+      92
+    ],
+    [
+      217,
+      "tentative",
+      92
+    ],
+    [
+      218,
+      "provisional",
+      92
+    ],
+    [
+      219,
+      "partial",
+      92
+    ],
+    [
+      220,
+      "limited",
+      92
+    ],
+    [
+      221,
+      "mini-MMM",
+      100
+    ],
+    [
+      222,
+      "mini MMM",
+      100
+    ],
+    [
+      223,
+      "voice shape",
+      100
+    ],
+    [
+      224,
+      "voice shaping",
+      100
+    ],
+    [
+      225,
+      "shape voice",
+      100
+    ],
+    [
+      226,
+      "shaped voice",
+      100
+    ],
+    [
+      227,
+      "voice contour",
+      100
+    ],
+    [
+      228,
+      "voice signature",
+      100
+    ],
+    [
+      229,
+      "voice localizer",
+      100
+    ],
+    [
+      230,
+      "local voice",
+      100
+    ],
+    [
+      231,
+      "aligned nouns",
+      100
+    ],
+    [
+      232,
+      "correlated thinkers",
+      100
+    ],
+    [
+      233,
+      "thinker alignment",
+      100
+    ],
+    [
+      234,
+      "noun alignment",
+      100
+    ],
+    [
+      235,
+      "voice method",
+      100
+    ],
+    [
+      236,
+      "voice evidence",
+      100
+    ],
+    [
+      237,
+      "voice judgment",
+      100
+    ],
+    [
+      238,
+      "voice task",
+      100
+    ],
+    [
+      239,
+      "voice receipt",
+      100
+    ],
+    [
+      240,
+      "voice finding",
+      100
+    ],
+    [
+      241,
+      "voice constraint",
+      100
+    ],
+    [
+      242,
+      "voice noun",
+      100
+    ],
+    [
+      243,
+      "voice verb",
+      100
+    ],
+    [
+      244,
+      "voice signal",
+      100
+    ],
+    [
+      245,
+      "voice contrast",
+      100
+    ],
+    [
+      246,
+      "voice boundary",
+      100
+    ],
+    [
+      247,
+      "voice contribution",
+      100
+    ],
+    [
+      248,
+      "mini mmm loaded",
+      100
+    ],
+    [
+      249,
+      "loaded mini mmm",
+      100
+    ],
+    [
+      250,
+      "assigned mini mmm",
+      100
+    ],
+    [
+      251,
+      "local voice context",
+      100
+    ],
+    [
+      252,
+      "voice-specific nouns",
+      100
+    ],
+    [
+      253,
+      "method nouns",
+      100
+    ],
+    [
+      254,
+      "reader stance",
+      100
+    ],
+    [
+      255,
+      "decision stance",
+      100
+    ],
+    [
+      256,
+      "audit stance",
+      100
+    ],
+    [
+      257,
+      "build stance",
+      100
+    ],
+    [
+      258,
+      "repair stance",
+      100
+    ],
+    [
+      259,
+      "acceptance stance",
+      100
+    ],
+    [
+      260,
+      "subagent voice",
+      100
+    ],
+    [
+      261,
+      "voice worker",
+      100
+    ],
+    [
+      262,
+      "voice proof",
+      100
+    ],
+    [
+      263,
+      "distinct output",
+      100
+    ],
+    [
+      264,
+      "behavioral pull",
+      100
+    ],
+    [
+      265,
+      "salience pull",
+      100
+    ],
+    [
+      266,
+      "voice usefulness",
+      100
+    ],
+    [
+      267,
+      "output repair",
+      100
+    ],
+    [
+      268,
+      "system repair",
+      100
+    ],
+    [
+      269,
+      "mmm stability",
+      100
+    ],
+    [
+      270,
+      "wizard stability",
+      100
+    ],
+    [
+      271,
+      "qit support",
+      100
+    ],
+    [
+      272,
+      "sim support",
+      100
+    ]
+  ],
+  "couplings": [
+    [
+      1,
+      "under test",
+      100
+    ],
+    [
+      2,
+      "within test",
+      100
+    ],
+    [
+      3,
+      "across test",
+      100
+    ],
+    [
+      4,
+      "between test",
+      100
+    ],
+    [
+      5,
+      "through test",
+      100
+    ],
+    [
+      6,
+      "before test",
+      100
+    ],
+    [
+      7,
+      "after test",
+      100
+    ],
+    [
+      8,
+      "until test",
+      100
+    ],
+    [
+      9,
+      "where test",
+      100
+    ],
+    [
+      10,
+      "while test",
+      100
+    ],
+    [
+      11,
+      "test evidence",
+      100
+    ],
+    [
+      12,
+      "test support",
+      100
+    ],
+    [
+      13,
+      "test path",
+      100
+    ],
+    [
+      14,
+      "test surface",
+      100
+    ],
+    [
+      15,
+      "test packet",
+      100
+    ],
+    [
+      16,
+      "test receipt",
+      100
+    ],
+    [
+      17,
+      "test trace",
+      100
+    ],
+    [
+      18,
+      "test result",
+      100
+    ],
+    [
+      19,
+      "test scope",
+      100
+    ],
+    [
+      20,
+      "test boundary",
+      100
+    ],
+    [
+      21,
+      "test status",
+      100
+    ],
+    [
+      22,
+      "test candidate",
+      100
+    ],
+    [
+      23,
+      "test witness",
+      100
+    ],
+    [
+      24,
+      "test probe",
+      100
+    ],
+    [
+      25,
+      "test constraint",
+      100
+    ],
+    [
+      26,
+      "check test",
+      99
+    ],
+    [
+      27,
+      "compare test",
+      99
+    ],
+    [
+      28,
+      "observe test",
+      99
+    ],
+    [
+      29,
+      "measure test",
+      99
+    ],
+    [
+      30,
+      "test test",
+      99
+    ],
+    [
+      31,
+      "verify test",
+      99
+    ],
+    [
+      32,
+      "hold test",
+      99
+    ],
+    [
+      33,
+      "preserve test",
+      99
+    ],
+    [
+      34,
+      "split test",
+      99
+    ],
+    [
+      35,
+      "narrow test",
+      99
+    ],
+    [
+      36,
+      "under measure",
+      99
+    ],
+    [
+      37,
+      "within measure",
+      99
+    ],
+    [
+      38,
+      "across measure",
+      99
+    ],
+    [
+      39,
+      "between measure",
+      99
+    ],
+    [
+      40,
+      "through measure",
+      99
+    ],
+    [
+      41,
+      "before measure",
+      99
+    ],
+    [
+      42,
+      "after measure",
+      99
+    ],
+    [
+      43,
+      "until measure",
+      99
+    ],
+    [
+      44,
+      "where measure",
+      99
+    ],
+    [
+      45,
+      "while measure",
+      99
+    ],
+    [
+      46,
+      "measure evidence",
+      99
+    ],
+    [
+      47,
+      "measure support",
+      99
+    ],
+    [
+      48,
+      "measure path",
+      99
+    ],
+    [
+      49,
+      "measure surface",
+      99
+    ],
+    [
+      50,
+      "measure packet",
+      99
+    ],
+    [
+      51,
+      "measure receipt",
+      98
+    ],
+    [
+      52,
+      "measure trace",
+      98
+    ],
+    [
+      53,
+      "measure result",
+      98
+    ],
+    [
+      54,
+      "measure scope",
+      98
+    ],
+    [
+      55,
+      "measure boundary",
+      98
+    ],
+    [
+      56,
+      "measure status",
+      98
+    ],
+    [
+      57,
+      "measure candidate",
+      98
+    ],
+    [
+      58,
+      "measure witness",
+      98
+    ],
+    [
+      59,
+      "measure probe",
+      98
+    ],
+    [
+      60,
+      "measure constraint",
+      98
+    ],
+    [
+      61,
+      "check measure",
+      98
+    ],
+    [
+      62,
+      "compare measure",
+      98
+    ],
+    [
+      63,
+      "observe measure",
+      98
+    ],
+    [
+      64,
+      "measure measure",
+      98
+    ],
+    [
+      65,
+      "test measure",
+      98
+    ],
+    [
+      66,
+      "verify measure",
+      98
+    ],
+    [
+      67,
+      "hold measure",
+      98
+    ],
+    [
+      68,
+      "preserve measure",
+      98
+    ],
+    [
+      69,
+      "split measure",
+      98
+    ],
+    [
+      70,
+      "narrow measure",
+      98
+    ],
+    [
+      71,
+      "under observable",
+      98
+    ],
+    [
+      72,
+      "within observable",
+      98
+    ],
+    [
+      73,
+      "across observable",
+      98
+    ],
+    [
+      74,
+      "between observable",
+      98
+    ],
+    [
+      75,
+      "through observable",
+      98
+    ],
+    [
+      76,
+      "before observable",
+      97
+    ],
+    [
+      77,
+      "after observable",
+      97
+    ],
+    [
+      78,
+      "until observable",
+      97
+    ],
+    [
+      79,
+      "where observable",
+      97
+    ],
+    [
+      80,
+      "while observable",
+      97
+    ],
+    [
+      81,
+      "observable evidence",
+      97
+    ],
+    [
+      82,
+      "observable support",
+      97
+    ],
+    [
+      83,
+      "observable path",
+      97
+    ],
+    [
+      84,
+      "observable surface",
+      97
+    ],
+    [
+      85,
+      "observable packet",
+      97
+    ],
+    [
+      86,
+      "observable receipt",
+      97
+    ],
+    [
+      87,
+      "observable trace",
+      97
+    ],
+    [
+      88,
+      "observable result",
+      97
+    ],
+    [
+      89,
+      "observable scope",
+      97
+    ],
+    [
+      90,
+      "observable boundary",
+      97
+    ],
+    [
+      91,
+      "observable status",
+      97
+    ],
+    [
+      92,
+      "observable candidate",
+      97
+    ],
+    [
+      93,
+      "observable witness",
+      97
+    ],
+    [
+      94,
+      "observable probe",
+      97
+    ],
+    [
+      95,
+      "observable constraint",
+      97
+    ],
+    [
+      96,
+      "check observable",
+      97
+    ],
+    [
+      97,
+      "compare observable",
+      97
+    ],
+    [
+      98,
+      "observe observable",
+      97
+    ],
+    [
+      99,
+      "measure observable",
+      97
+    ],
+    [
+      100,
+      "test observable",
+      97
+    ],
+    [
+      101,
+      "verify observable",
+      96
+    ],
+    [
+      102,
+      "hold observable",
+      96
+    ],
+    [
+      103,
+      "preserve observable",
+      96
+    ],
+    [
+      104,
+      "split observable",
+      96
+    ],
+    [
+      105,
+      "narrow observable",
+      96
+    ],
+    [
+      106,
+      "under procedure",
+      96
+    ],
+    [
+      107,
+      "within procedure",
+      96
+    ],
+    [
+      108,
+      "across procedure",
+      96
+    ],
+    [
+      109,
+      "between procedure",
+      96
+    ],
+    [
+      110,
+      "through procedure",
+      96
+    ],
+    [
+      111,
+      "before procedure",
+      96
+    ],
+    [
+      112,
+      "after procedure",
+      96
+    ],
+    [
+      113,
+      "until procedure",
+      96
+    ],
+    [
+      114,
+      "where procedure",
+      96
+    ],
+    [
+      115,
+      "while procedure",
+      96
+    ],
+    [
+      116,
+      "procedure evidence",
+      96
+    ],
+    [
+      117,
+      "procedure support",
+      96
+    ],
+    [
+      118,
+      "procedure path",
+      96
+    ],
+    [
+      119,
+      "procedure surface",
+      96
+    ],
+    [
+      120,
+      "procedure packet",
+      96
+    ],
+    [
+      121,
+      "procedure receipt",
+      96
+    ],
+    [
+      122,
+      "procedure trace",
+      96
+    ],
+    [
+      123,
+      "procedure result",
+      96
+    ],
+    [
+      124,
+      "procedure scope",
+      96
+    ],
+    [
+      125,
+      "procedure boundary",
+      96
+    ],
+    [
+      126,
+      "procedure status",
+      95
+    ],
+    [
+      127,
+      "procedure candidate",
+      95
+    ],
+    [
+      128,
+      "procedure witness",
+      95
+    ],
+    [
+      129,
+      "procedure probe",
+      95
+    ],
+    [
+      130,
+      "procedure constraint",
+      95
+    ],
+    [
+      131,
+      "check procedure",
+      95
+    ],
+    [
+      132,
+      "compare procedure",
+      95
+    ],
+    [
+      133,
+      "observe procedure",
+      95
+    ],
+    [
+      134,
+      "measure procedure",
+      95
+    ],
+    [
+      135,
+      "test procedure",
+      95
+    ],
+    [
+      136,
+      "verify procedure",
+      95
+    ],
+    [
+      137,
+      "hold procedure",
+      95
+    ],
+    [
+      138,
+      "preserve procedure",
+      95
+    ],
+    [
+      139,
+      "split procedure",
+      95
+    ],
+    [
+      140,
+      "narrow procedure",
+      95
+    ],
+    [
+      141,
+      "under operation",
+      95
+    ],
+    [
+      142,
+      "within operation",
+      95
+    ],
+    [
+      143,
+      "across operation",
+      95
+    ],
+    [
+      144,
+      "between operation",
+      95
+    ],
+    [
+      145,
+      "through operation",
+      95
+    ],
+    [
+      146,
+      "before operation",
+      95
+    ],
+    [
+      147,
+      "after operation",
+      95
+    ],
+    [
+      148,
+      "until operation",
+      95
+    ],
+    [
+      149,
+      "where operation",
+      95
+    ],
+    [
+      150,
+      "while operation",
+      95
+    ],
+    [
+      151,
+      "operation evidence",
+      94
+    ],
+    [
+      152,
+      "operation support",
+      94
+    ],
+    [
+      153,
+      "operation path",
+      94
+    ],
+    [
+      154,
+      "operation surface",
+      94
+    ],
+    [
+      155,
+      "operation packet",
+      94
+    ],
+    [
+      156,
+      "operation receipt",
+      94
+    ],
+    [
+      157,
+      "operation trace",
+      94
+    ],
+    [
+      158,
+      "operation result",
+      94
+    ],
+    [
+      159,
+      "operation scope",
+      94
+    ],
+    [
+      160,
+      "operation boundary",
+      94
+    ],
+    [
+      161,
+      "operation status",
+      94
+    ],
+    [
+      162,
+      "operation candidate",
+      94
+    ],
+    [
+      163,
+      "operation witness",
+      94
+    ],
+    [
+      164,
+      "operation probe",
+      94
+    ],
+    [
+      165,
+      "operation constraint",
+      94
+    ],
+    [
+      166,
+      "check operation",
+      94
+    ],
+    [
+      167,
+      "compare operation",
+      94
+    ],
+    [
+      168,
+      "observe operation",
+      94
+    ],
+    [
+      169,
+      "measure operation",
+      94
+    ],
+    [
+      170,
+      "test operation",
+      94
+    ],
+    [
+      171,
+      "verify operation",
+      94
+    ],
+    [
+      172,
+      "hold operation",
+      94
+    ],
+    [
+      173,
+      "preserve operation",
+      94
+    ],
+    [
+      174,
+      "split operation",
+      94
+    ],
+    [
+      175,
+      "narrow operation",
+      94
+    ],
+    [
+      176,
+      "under setup",
+      93
+    ],
+    [
+      177,
+      "within setup",
+      93
+    ],
+    [
+      178,
+      "across setup",
+      93
+    ],
+    [
+      179,
+      "between setup",
+      93
+    ],
+    [
+      180,
+      "through setup",
+      93
+    ],
+    [
+      181,
+      "before setup",
+      93
+    ],
+    [
+      182,
+      "after setup",
+      93
+    ],
+    [
+      183,
+      "until setup",
+      93
+    ],
+    [
+      184,
+      "where setup",
+      93
+    ],
+    [
+      185,
+      "while setup",
+      93
+    ],
+    [
+      186,
+      "setup evidence",
+      93
+    ],
+    [
+      187,
+      "setup support",
+      93
+    ],
+    [
+      188,
+      "setup path",
+      93
+    ],
+    [
+      189,
+      "setup surface",
+      93
+    ],
+    [
+      190,
+      "setup packet",
+      93
+    ],
+    [
+      191,
+      "setup receipt",
+      93
+    ],
+    [
+      192,
+      "setup trace",
+      93
+    ],
+    [
+      193,
+      "setup result",
+      93
+    ],
+    [
+      194,
+      "setup scope",
+      93
+    ],
+    [
+      195,
+      "setup boundary",
+      93
+    ],
+    [
+      196,
+      "setup status",
+      93
+    ],
+    [
+      197,
+      "setup candidate",
+      93
+    ],
+    [
+      198,
+      "setup witness",
+      93
+    ],
+    [
+      199,
+      "setup probe",
+      93
+    ],
+    [
+      200,
+      "setup constraint",
+      93
+    ],
+    [
+      201,
+      "check setup",
+      92
+    ],
+    [
+      202,
+      "compare setup",
+      92
+    ],
+    [
+      203,
+      "observe setup",
+      92
+    ],
+    [
+      204,
+      "measure setup",
+      92
+    ],
+    [
+      205,
+      "test setup",
+      92
+    ],
+    [
+      206,
+      "verify setup",
+      92
+    ],
+    [
+      207,
+      "hold setup",
+      92
+    ],
+    [
+      208,
+      "preserve setup",
+      92
+    ],
+    [
+      209,
+      "split setup",
+      92
+    ],
+    [
+      210,
+      "narrow setup",
+      92
+    ],
+    [
+      211,
+      "under check",
+      92
+    ],
+    [
+      212,
+      "within check",
+      92
+    ],
+    [
+      213,
+      "across check",
+      92
+    ],
+    [
+      214,
+      "between check",
+      92
+    ],
+    [
+      215,
+      "through check",
+      92
+    ],
+    [
+      216,
+      "before check",
+      92
+    ],
+    [
+      217,
+      "after check",
+      92
+    ],
+    [
+      218,
+      "until check",
+      92
+    ],
+    [
+      219,
+      "where check",
+      92
+    ],
+    [
+      220,
+      "while check",
+      92
+    ],
+    [
+      221,
+      "check evidence",
+      92
+    ],
+    [
+      222,
+      "check support",
+      92
+    ],
+    [
+      223,
+      "check path",
+      92
+    ],
+    [
+      224,
+      "check surface",
+      92
+    ],
+    [
+      225,
+      "check packet",
+      92
+    ],
+    [
+      226,
+      "check receipt",
+      91
+    ],
+    [
+      227,
+      "check trace",
+      91
+    ],
+    [
+      228,
+      "check result",
+      91
+    ],
+    [
+      229,
+      "check scope",
+      91
+    ],
+    [
+      230,
+      "check boundary",
+      91
+    ],
+    [
+      231,
+      "check status",
+      91
+    ],
+    [
+      232,
+      "check candidate",
+      91
+    ],
+    [
+      233,
+      "check witness",
+      91
+    ],
+    [
+      234,
+      "check probe",
+      91
+    ],
+    [
+      235,
+      "check constraint",
+      91
+    ],
+    [
+      236,
+      "check check",
+      91
+    ],
+    [
+      237,
+      "compare check",
+      91
+    ],
+    [
+      238,
+      "observe check",
+      91
+    ],
+    [
+      239,
+      "measure check",
+      91
+    ],
+    [
+      240,
+      "test check",
+      91
+    ],
+    [
+      241,
+      "verify check",
+      91
+    ],
+    [
+      242,
+      "hold check",
+      91
+    ],
+    [
+      243,
+      "preserve check",
+      91
+    ],
+    [
+      244,
+      "split check",
+      91
+    ],
+    [
+      245,
+      "narrow check",
+      91
+    ],
+    [
+      246,
+      "under compare",
+      91
+    ],
+    [
+      247,
+      "within compare",
+      91
+    ],
+    [
+      248,
+      "across compare",
+      91
+    ],
+    [
+      249,
+      "between compare",
+      91
+    ],
+    [
+      250,
+      "through compare",
+      91
+    ],
+    [
+      251,
+      "before compare",
+      90
+    ],
+    [
+      252,
+      "after compare",
+      90
+    ],
+    [
+      253,
+      "until compare",
+      90
+    ],
+    [
+      254,
+      "where compare",
+      90
+    ],
+    [
+      255,
+      "while compare",
+      90
+    ],
+    [
+      256,
+      "compare evidence",
+      90
+    ],
+    [
+      257,
+      "compare support",
+      90
+    ],
+    [
+      258,
+      "compare path",
+      90
+    ],
+    [
+      259,
+      "compare surface",
+      90
+    ],
+    [
+      260,
+      "compare packet",
+      90
+    ],
+    [
+      261,
+      "compare receipt",
+      90
+    ],
+    [
+      262,
+      "compare trace",
+      90
+    ],
+    [
+      263,
+      "compare result",
+      90
+    ],
+    [
+      264,
+      "compare scope",
+      90
+    ],
+    [
+      265,
+      "compare boundary",
+      90
+    ],
+    [
+      266,
+      "compare status",
+      90
+    ],
+    [
+      267,
+      "compare candidate",
+      90
+    ],
+    [
+      268,
+      "compare witness",
+      90
+    ],
+    [
+      269,
+      "compare probe",
+      90
+    ],
+    [
+      270,
+      "compare constraint",
+      90
+    ],
+    [
+      271,
+      "check compare",
+      90
+    ],
+    [
+      272,
+      "compare compare",
+      90
+    ],
+    [
+      273,
+      "observe compare",
+      90
+    ],
+    [
+      274,
+      "measure compare",
+      90
+    ],
+    [
+      275,
+      "test compare",
+      90
+    ],
+    [
+      276,
+      "verify compare",
+      89
+    ],
+    [
+      277,
+      "hold compare",
+      89
+    ],
+    [
+      278,
+      "preserve compare",
+      89
+    ],
+    [
+      279,
+      "split compare",
+      89
+    ],
+    [
+      280,
+      "narrow compare",
+      89
+    ],
+    [
+      281,
+      "under run",
+      89
+    ],
+    [
+      282,
+      "within run",
+      89
+    ],
+    [
+      283,
+      "across run",
+      89
+    ],
+    [
+      284,
+      "between run",
+      89
+    ],
+    [
+      285,
+      "through run",
+      89
+    ],
+    [
+      286,
+      "before run",
+      89
+    ],
+    [
+      287,
+      "after run",
+      89
+    ],
+    [
+      288,
+      "until run",
+      89
+    ],
+    [
+      289,
+      "where run",
+      89
+    ],
+    [
+      290,
+      "while run",
+      89
+    ],
+    [
+      291,
+      "run evidence",
+      89
+    ],
+    [
+      292,
+      "run support",
+      89
+    ],
+    [
+      293,
+      "run path",
+      89
+    ],
+    [
+      294,
+      "run surface",
+      89
+    ],
+    [
+      295,
+      "run packet",
+      89
+    ],
+    [
+      296,
+      "run receipt",
+      89
+    ],
+    [
+      297,
+      "run trace",
+      89
+    ],
+    [
+      298,
+      "run result",
+      89
+    ],
+    [
+      299,
+      "run scope",
+      89
+    ],
+    [
+      300,
+      "run boundary",
+      89
+    ],
+    [
+      301,
+      "run status",
+      88
+    ],
+    [
+      302,
+      "run candidate",
+      88
+    ],
+    [
+      303,
+      "run witness",
+      88
+    ],
+    [
+      304,
+      "run probe",
+      88
+    ],
+    [
+      305,
+      "run constraint",
+      88
+    ],
+    [
+      306,
+      "check run",
+      88
+    ],
+    [
+      307,
+      "compare run",
+      88
+    ],
+    [
+      308,
+      "observe run",
+      88
+    ],
+    [
+      309,
+      "measure run",
+      88
+    ],
+    [
+      310,
+      "test run",
+      88
+    ],
+    [
+      311,
+      "verify run",
+      88
+    ],
+    [
+      312,
+      "hold run",
+      88
+    ],
+    [
+      313,
+      "preserve run",
+      88
+    ],
+    [
+      314,
+      "split run",
+      88
+    ],
+    [
+      315,
+      "narrow run",
+      88
+    ],
+    [
+      316,
+      "under fail",
+      88
+    ],
+    [
+      317,
+      "within fail",
+      88
+    ],
+    [
+      318,
+      "across fail",
+      88
+    ],
+    [
+      319,
+      "between fail",
+      88
+    ],
+    [
+      320,
+      "through fail",
+      88
+    ],
+    [
+      321,
+      "before fail",
+      88
+    ],
+    [
+      322,
+      "after fail",
+      88
+    ],
+    [
+      323,
+      "until fail",
+      88
+    ],
+    [
+      324,
+      "where fail",
+      88
+    ],
+    [
+      325,
+      "while fail",
+      88
+    ],
+    [
+      326,
+      "fail evidence",
+      87
+    ],
+    [
+      327,
+      "fail support",
+      87
+    ],
+    [
+      328,
+      "fail path",
+      87
+    ],
+    [
+      329,
+      "fail surface",
+      87
+    ],
+    [
+      330,
+      "fail packet",
+      87
+    ],
+    [
+      331,
+      "fail receipt",
+      87
+    ],
+    [
+      332,
+      "fail trace",
+      87
+    ],
+    [
+      333,
+      "fail result",
+      87
+    ],
+    [
+      334,
+      "fail scope",
+      87
+    ],
+    [
+      335,
+      "fail boundary",
+      87
+    ],
+    [
+      336,
+      "fail status",
+      87
+    ],
+    [
+      337,
+      "fail candidate",
+      87
+    ],
+    [
+      338,
+      "fail witness",
+      87
+    ],
+    [
+      339,
+      "fail probe",
+      87
+    ],
+    [
+      340,
+      "fail constraint",
+      87
+    ],
+    [
+      341,
+      "scientific integrity",
+      87
+    ],
+    [
+      342,
+      "physical law",
+      87
+    ],
+    [
+      343,
+      "simple example",
+      87
+    ],
+    [
+      344,
+      "real measurement",
+      87
+    ],
+    [
+      345,
+      "apparatus reading",
+      87
+    ],
+    [
+      346,
+      "simple case",
+      87
+    ],
+    [
+      347,
+      "toy model",
+      87
+    ],
+    [
+      348,
+      "what changes",
+      87
+    ],
+    [
+      349,
+      "cargo cult science",
+      87
+    ],
+    [
+      350,
+      "not fool yourself",
+      87
+    ],
+    [
+      351,
+      "experiment as judge",
+      86
+    ],
+    [
+      352,
+      "check the answer",
+      86
+    ],
+    [
+      353,
+      "operation",
+      86
+    ],
+    [
+      354,
+      "observable",
+      86
+    ],
+    [
+      355,
+      "measure",
+      86
+    ],
+    [
+      356,
+      "readout",
+      86
+    ],
+    [
+      357,
+      "setup",
+      86
+    ],
+    [
+      358,
+      "procedure",
+      86
+    ],
+    [
+      359,
+      "pass",
+      86
+    ],
+    [
+      360,
+      "fail",
+      86
+    ],
+    [
+      361,
+      "test",
+      86
+    ],
+    [
+      362,
+      "run",
+      86
+    ],
+    [
+      363,
+      "check",
+      86
+    ],
+    [
+      364,
+      "compare",
+      86
+    ],
+    [
+      365,
+      "example",
+      86
+    ],
+    [
+      366,
+      "instrument",
+      86
+    ],
+    [
+      367,
+      "signal",
+      86
+    ],
+    [
+      368,
+      "noise",
+      86
+    ],
+    [
+      369,
+      "threshold",
+      86
+    ],
+    [
+      370,
+      "control",
+      86
+    ],
+    [
+      371,
+      "baseline",
+      86
+    ],
+    [
+      372,
+      "trial",
+      86
+    ],
+    [
+      373,
+      "repeat",
+      86
+    ],
+    [
+      374,
+      "result",
+      86
+    ],
+    [
+      375,
+      "what would count",
+      86
+    ],
+    [
+      376,
+      "under experiment",
+      85
+    ],
+    [
+      377,
+      "under apparatus",
+      85
+    ],
+    [
+      378,
+      "under demonstration",
+      85
+    ],
+    [
+      379,
+      "under calibration",
+      85
+    ],
+    [
+      380,
+      "under physical",
+      85
+    ],
+    [
+      381,
+      "under intuition",
+      85
+    ],
+    [
+      382,
+      "under example",
+      85
+    ],
+    [
+      383,
+      "under picture",
+      85
+    ],
+    [
+      384,
+      "under diagram",
+      85
+    ],
+    [
+      385,
+      "under mechanism",
+      85
+    ],
+    [
+      386,
+      "under simple",
+      85
+    ],
+    [
+      387,
+      "under concrete",
+      85
+    ],
+    [
+      388,
+      "under pass",
+      85
+    ],
+    [
+      389,
+      "under knob",
+      85
+    ],
+    [
+      390,
+      "under reading",
+      85
+    ],
+    [
+      391,
+      "within experiment",
+      85
+    ],
+    [
+      392,
+      "within apparatus",
+      85
+    ],
+    [
+      393,
+      "within demonstration",
+      85
+    ],
+    [
+      394,
+      "within calibration",
+      85
+    ],
+    [
+      395,
+      "within physical",
+      85
+    ],
+    [
+      396,
+      "within intuition",
+      85
+    ],
+    [
+      397,
+      "within example",
+      85
+    ],
+    [
+      398,
+      "within picture",
+      85
+    ],
+    [
+      399,
+      "within diagram",
+      85
+    ],
+    [
+      400,
+      "within mechanism",
+      85
+    ],
+    [
+      401,
+      "within simple",
+      84
+    ],
+    [
+      402,
+      "within concrete",
+      84
+    ],
+    [
+      403,
+      "within pass",
+      84
+    ],
+    [
+      404,
+      "within knob",
+      84
+    ],
+    [
+      405,
+      "within reading",
+      84
+    ],
+    [
+      406,
+      "across experiment",
+      84
+    ],
+    [
+      407,
+      "across apparatus",
+      84
+    ],
+    [
+      408,
+      "across demonstration",
+      84
+    ],
+    [
+      409,
+      "across calibration",
+      84
+    ],
+    [
+      410,
+      "across physical",
+      84
+    ],
+    [
+      411,
+      "across intuition",
+      84
+    ],
+    [
+      412,
+      "across example",
+      84
+    ],
+    [
+      413,
+      "across picture",
+      84
+    ],
+    [
+      414,
+      "across diagram",
+      84
+    ],
+    [
+      415,
+      "across mechanism",
+      84
+    ],
+    [
+      416,
+      "across simple",
+      84
+    ],
+    [
+      417,
+      "across concrete",
+      84
+    ],
+    [
+      418,
+      "across pass",
+      84
+    ],
+    [
+      419,
+      "across knob",
+      84
+    ],
+    [
+      420,
+      "across reading",
+      84
+    ],
+    [
+      421,
+      "between experiment",
+      84
+    ],
+    [
+      422,
+      "between apparatus",
+      84
+    ],
+    [
+      423,
+      "between demonstration",
+      84
+    ],
+    [
+      424,
+      "between calibration",
+      84
+    ],
+    [
+      425,
+      "between physical",
+      84
+    ],
+    [
+      426,
+      "between intuition",
+      83
+    ],
+    [
+      427,
+      "between example",
+      83
+    ],
+    [
+      428,
+      "between picture",
+      83
+    ],
+    [
+      429,
+      "between diagram",
+      83
+    ],
+    [
+      430,
+      "between mechanism",
+      83
+    ],
+    [
+      431,
+      "between simple",
+      83
+    ],
+    [
+      432,
+      "between concrete",
+      83
+    ],
+    [
+      433,
+      "between pass",
+      83
+    ],
+    [
+      434,
+      "between knob",
+      83
+    ],
+    [
+      435,
+      "between reading",
+      83
+    ],
+    [
+      436,
+      "through experiment",
+      83
+    ],
+    [
+      437,
+      "through apparatus",
+      83
+    ],
+    [
+      438,
+      "through demonstration",
+      83
+    ],
+    [
+      439,
+      "through calibration",
+      83
+    ],
+    [
+      440,
+      "through physical",
+      83
+    ],
+    [
+      441,
+      "through intuition",
+      83
+    ],
+    [
+      442,
+      "through example",
+      83
+    ],
+    [
+      443,
+      "through picture",
+      83
+    ],
+    [
+      444,
+      "through diagram",
+      83
+    ],
+    [
+      445,
+      "through mechanism",
+      83
+    ],
+    [
+      446,
+      "through simple",
+      83
+    ],
+    [
+      447,
+      "through concrete",
+      83
+    ],
+    [
+      448,
+      "through pass",
+      83
+    ],
+    [
+      449,
+      "through knob",
+      83
+    ],
+    [
+      450,
+      "through reading",
+      83
+    ],
+    [
+      451,
+      "before experiment",
+      82
+    ],
+    [
+      452,
+      "before apparatus",
+      82
+    ],
+    [
+      453,
+      "before demonstration",
+      82
+    ],
+    [
+      454,
+      "before calibration",
+      82
+    ],
+    [
+      455,
+      "before physical",
+      82
+    ],
+    [
+      456,
+      "before intuition",
+      82
+    ],
+    [
+      457,
+      "before example",
+      82
+    ],
+    [
+      458,
+      "before picture",
+      82
+    ],
+    [
+      459,
+      "before diagram",
+      82
+    ],
+    [
+      460,
+      "before mechanism",
+      82
+    ],
+    [
+      461,
+      "before simple",
+      82
+    ],
+    [
+      462,
+      "before concrete",
+      82
+    ],
+    [
+      463,
+      "before pass",
+      82
+    ],
+    [
+      464,
+      "before knob",
+      82
+    ],
+    [
+      465,
+      "before reading",
+      82
+    ],
+    [
+      466,
+      "after experiment",
+      82
+    ],
+    [
+      467,
+      "after apparatus",
+      82
+    ],
+    [
+      468,
+      "after demonstration",
+      82
+    ],
+    [
+      469,
+      "after calibration",
+      82
+    ],
+    [
+      470,
+      "after physical",
+      82
+    ],
+    [
+      471,
+      "after intuition",
+      82
+    ],
+    [
+      472,
+      "after example",
+      82
+    ],
+    [
+      473,
+      "after picture",
+      82
+    ],
+    [
+      474,
+      "after diagram",
+      82
+    ],
+    [
+      475,
+      "after mechanism",
+      82
+    ],
+    [
+      476,
+      "after simple",
+      81
+    ],
+    [
+      477,
+      "after concrete",
+      81
+    ],
+    [
+      478,
+      "after pass",
+      81
+    ],
+    [
+      479,
+      "after knob",
+      81
+    ],
+    [
+      480,
+      "after reading",
+      81
+    ],
+    [
+      481,
+      "during experiment",
+      81
+    ],
+    [
+      482,
+      "during apparatus",
+      81
+    ],
+    [
+      483,
+      "during observable",
+      81
+    ],
+    [
+      484,
+      "during procedure",
+      81
+    ],
+    [
+      485,
+      "during setup",
+      81
+    ],
+    [
+      486,
+      "during demonstration",
+      81
+    ],
+    [
+      487,
+      "during calibration",
+      81
+    ],
+    [
+      488,
+      "during physical",
+      81
+    ],
+    [
+      489,
+      "during intuition",
+      81
+    ],
+    [
+      490,
+      "during example",
+      81
+    ],
+    [
+      491,
+      "during picture",
+      81
+    ],
+    [
+      492,
+      "during diagram",
+      81
+    ],
+    [
+      493,
+      "during mechanism",
+      81
+    ],
+    [
+      494,
+      "during simple",
+      81
+    ],
+    [
+      495,
+      "during concrete",
+      81
+    ],
+    [
+      496,
+      "during measure",
+      81
+    ],
+    [
+      497,
+      "during pass",
+      81
+    ],
+    [
+      498,
+      "during fail",
+      81
+    ],
+    [
+      499,
+      "during knob",
+      81
+    ],
+    [
+      500,
+      "during reading",
+      81
+    ],
+    [
+      501,
+      "until experiment",
+      80
+    ],
+    [
+      502,
+      "until apparatus",
+      80
+    ],
+    [
+      503,
+      "until demonstration",
+      80
+    ],
+    [
+      504,
+      "until calibration",
+      80
+    ],
+    [
+      505,
+      "until physical",
+      80
+    ],
+    [
+      506,
+      "until intuition",
+      80
+    ],
+    [
+      507,
+      "until example",
+      80
+    ],
+    [
+      508,
+      "until picture",
+      80
+    ],
+    [
+      509,
+      "until diagram",
+      80
+    ],
+    [
+      510,
+      "until mechanism",
+      80
+    ],
+    [
+      511,
+      "until simple",
+      80
+    ],
+    [
+      512,
+      "until concrete",
+      80
+    ],
+    [
+      513,
+      "until pass",
+      80
+    ],
+    [
+      514,
+      "until knob",
+      80
+    ],
+    [
+      515,
+      "until reading",
+      80
+    ],
+    [
+      516,
+      "since experiment",
+      80
+    ],
+    [
+      517,
+      "since apparatus",
+      80
+    ],
+    [
+      518,
+      "since observable",
+      80
+    ],
+    [
+      519,
+      "since procedure",
+      80
+    ],
+    [
+      520,
+      "since setup",
+      80
+    ],
+    [
+      521,
+      "since demonstration",
+      80
+    ],
+    [
+      522,
+      "since calibration",
+      80
+    ],
+    [
+      523,
+      "since physical",
+      80
+    ],
+    [
+      524,
+      "since intuition",
+      80
+    ],
+    [
+      525,
+      "since example",
+      80
+    ],
+    [
+      526,
+      "since picture",
+      79
+    ],
+    [
+      527,
+      "since diagram",
+      79
+    ],
+    [
+      528,
+      "since mechanism",
+      79
+    ],
+    [
+      529,
+      "since simple",
+      79
+    ],
+    [
+      530,
+      "since concrete",
+      79
+    ],
+    [
+      531,
+      "since measure",
+      79
+    ],
+    [
+      532,
+      "since pass",
+      79
+    ],
+    [
+      533,
+      "since fail",
+      79
+    ],
+    [
+      534,
+      "since knob",
+      79
+    ],
+    [
+      535,
+      "since reading",
+      79
+    ],
+    [
+      536,
+      "from experiment",
+      79
+    ],
+    [
+      537,
+      "from apparatus",
+      79
+    ],
+    [
+      538,
+      "from observable",
+      79
+    ],
+    [
+      539,
+      "from procedure",
+      79
+    ],
+    [
+      540,
+      "from setup",
+      79
+    ],
+    [
+      541,
+      "from demonstration",
+      79
+    ],
+    [
+      542,
+      "from calibration",
+      79
+    ],
+    [
+      543,
+      "from physical",
+      79
+    ],
+    [
+      544,
+      "from intuition",
+      79
+    ],
+    [
+      545,
+      "from example",
+      79
+    ],
+    [
+      546,
+      "from picture",
+      79
+    ],
+    [
+      547,
+      "from diagram",
+      79
+    ],
+    [
+      548,
+      "from mechanism",
+      79
+    ],
+    [
+      549,
+      "from simple",
+      79
+    ],
+    [
+      550,
+      "from concrete",
+      79
+    ],
+    [
+      551,
+      "from measure",
+      78
+    ],
+    [
+      552,
+      "from pass",
+      78
+    ],
+    [
+      553,
+      "from fail",
+      78
+    ],
+    [
+      554,
+      "from knob",
+      78
+    ],
+    [
+      555,
+      "from reading",
+      78
+    ],
+    [
+      556,
+      "by experiment",
+      78
+    ],
+    [
+      557,
+      "by apparatus",
+      78
+    ],
+    [
+      558,
+      "by observable",
+      78
+    ],
+    [
+      559,
+      "by procedure",
+      78
+    ],
+    [
+      560,
+      "by setup",
+      78
+    ],
+    [
+      561,
+      "by demonstration",
+      78
+    ],
+    [
+      562,
+      "by calibration",
+      78
+    ],
+    [
+      563,
+      "by physical",
+      78
+    ],
+    [
+      564,
+      "by intuition",
+      78
+    ],
+    [
+      565,
+      "by example",
+      78
+    ],
+    [
+      566,
+      "by picture",
+      78
+    ],
+    [
+      567,
+      "by diagram",
+      78
+    ],
+    [
+      568,
+      "by mechanism",
+      78
+    ],
+    [
+      569,
+      "by simple",
+      78
+    ],
+    [
+      570,
+      "by concrete",
+      78
+    ],
+    [
+      571,
+      "by measure",
+      78
+    ],
+    [
+      572,
+      "by pass",
+      78
+    ],
+    [
+      573,
+      "by fail",
+      78
+    ],
+    [
+      574,
+      "by knob",
+      78
+    ],
+    [
+      575,
+      "by reading",
+      78
+    ],
+    [
+      576,
+      "with experiment",
+      77
+    ],
+    [
+      577,
+      "with apparatus",
+      77
+    ],
+    [
+      578,
+      "with observable",
+      77
+    ],
+    [
+      579,
+      "with procedure",
+      77
+    ],
+    [
+      580,
+      "with setup",
+      77
+    ],
+    [
+      581,
+      "with demonstration",
+      77
+    ],
+    [
+      582,
+      "with calibration",
+      77
+    ],
+    [
+      583,
+      "with physical",
+      77
+    ],
+    [
+      584,
+      "with intuition",
+      77
+    ],
+    [
+      585,
+      "with example",
+      77
+    ],
+    [
+      586,
+      "with picture",
+      77
+    ],
+    [
+      587,
+      "with diagram",
+      77
+    ],
+    [
+      588,
+      "with mechanism",
+      77
+    ],
+    [
+      589,
+      "with simple",
+      77
+    ],
+    [
+      590,
+      "with concrete",
+      77
+    ],
+    [
+      591,
+      "with measure",
+      77
+    ],
+    [
+      592,
+      "with pass",
+      77
+    ],
+    [
+      593,
+      "with fail",
+      77
+    ],
+    [
+      594,
+      "with knob",
+      77
+    ],
+    [
+      595,
+      "with reading",
+      77
+    ],
+    [
+      596,
+      "without experiment",
+      77
+    ],
+    [
+      597,
+      "without apparatus",
+      77
+    ],
+    [
+      598,
+      "without observable",
+      77
+    ],
+    [
+      599,
+      "without procedure",
+      77
+    ],
+    [
+      600,
+      "without setup",
+      77
+    ],
+    [
+      601,
+      "without demonstration",
+      76
+    ],
+    [
+      602,
+      "without calibration",
+      76
+    ],
+    [
+      603,
+      "without physical",
+      76
+    ],
+    [
+      604,
+      "without intuition",
+      76
+    ],
+    [
+      605,
+      "without example",
+      76
+    ],
+    [
+      606,
+      "without picture",
+      76
+    ],
+    [
+      607,
+      "without diagram",
+      76
+    ],
+    [
+      608,
+      "without mechanism",
+      76
+    ],
+    [
+      609,
+      "without simple",
+      76
+    ],
+    [
+      610,
+      "without concrete",
+      76
+    ],
+    [
+      611,
+      "without measure",
+      76
+    ],
+    [
+      612,
+      "without pass",
+      76
+    ],
+    [
+      613,
+      "without fail",
+      76
+    ],
+    [
+      614,
+      "without knob",
+      76
+    ],
+    [
+      615,
+      "without reading",
+      76
+    ],
+    [
+      616,
+      "against experiment",
+      76
+    ],
+    [
+      617,
+      "against apparatus",
+      76
+    ],
+    [
+      618,
+      "against observable",
+      76
+    ],
+    [
+      619,
+      "against procedure",
+      76
+    ],
+    [
+      620,
+      "against setup",
+      76
+    ],
+    [
+      621,
+      "against demonstration",
+      76
+    ],
+    [
+      622,
+      "against calibration",
+      76
+    ],
+    [
+      623,
+      "against physical",
+      76
+    ],
+    [
+      624,
+      "against intuition",
+      76
+    ],
+    [
+      625,
+      "against example",
+      76
+    ],
+    [
+      626,
+      "against picture",
+      75
+    ],
+    [
+      627,
+      "against diagram",
+      75
+    ],
+    [
+      628,
+      "against mechanism",
+      75
+    ],
+    [
+      629,
+      "against simple",
+      75
+    ],
+    [
+      630,
+      "against concrete",
+      75
+    ],
+    [
+      631,
+      "against measure",
+      75
+    ],
+    [
+      632,
+      "against pass",
+      75
+    ],
+    [
+      633,
+      "against fail",
+      75
+    ],
+    [
+      634,
+      "against knob",
+      75
+    ],
+    [
+      635,
+      "against reading",
+      75
+    ],
+    [
+      636,
+      "toward experiment",
+      75
+    ],
+    [
+      637,
+      "toward apparatus",
+      75
+    ],
+    [
+      638,
+      "toward observable",
+      75
+    ],
+    [
+      639,
+      "toward procedure",
+      75
+    ],
+    [
+      640,
+      "toward setup",
+      75
+    ],
+    [
+      641,
+      "toward demonstration",
+      75
+    ],
+    [
+      642,
+      "toward calibration",
+      75
+    ],
+    [
+      643,
+      "toward physical",
+      75
+    ],
+    [
+      644,
+      "toward intuition",
+      75
+    ],
+    [
+      645,
+      "toward example",
+      75
+    ],
+    [
+      646,
+      "toward picture",
+      75
+    ],
+    [
+      647,
+      "toward diagram",
+      75
+    ],
+    [
+      648,
+      "toward mechanism",
+      75
+    ],
+    [
+      649,
+      "toward simple",
+      75
+    ],
+    [
+      650,
+      "toward concrete",
+      75
+    ],
+    [
+      651,
+      "toward measure",
+      74
+    ],
+    [
+      652,
+      "toward pass",
+      74
+    ],
+    [
+      653,
+      "toward fail",
+      74
+    ],
+    [
+      654,
+      "toward knob",
+      74
+    ],
+    [
+      655,
+      "toward reading",
+      74
+    ],
+    [
+      656,
+      "near experiment",
+      74
+    ],
+    [
+      657,
+      "near apparatus",
+      74
+    ],
+    [
+      658,
+      "near observable",
+      74
+    ],
+    [
+      659,
+      "near procedure",
+      74
+    ],
+    [
+      660,
+      "near setup",
+      74
+    ],
+    [
+      661,
+      "near demonstration",
+      74
+    ],
+    [
+      662,
+      "near calibration",
+      74
+    ],
+    [
+      663,
+      "near physical",
+      74
+    ],
+    [
+      664,
+      "near intuition",
+      74
+    ],
+    [
+      665,
+      "near example",
+      74
+    ],
+    [
+      666,
+      "near picture",
+      74
+    ],
+    [
+      667,
+      "near diagram",
+      74
+    ],
+    [
+      668,
+      "near mechanism",
+      74
+    ],
+    [
+      669,
+      "near simple",
+      74
+    ],
+    [
+      670,
+      "near concrete",
+      74
+    ],
+    [
+      671,
+      "near measure",
+      74
+    ],
+    [
+      672,
+      "near pass",
+      74
+    ],
+    [
+      673,
+      "near fail",
+      74
+    ],
+    [
+      674,
+      "near knob",
+      74
+    ],
+    [
+      675,
+      "near reading",
+      74
+    ],
+    [
+      676,
+      "relative experiment",
+      73
+    ],
+    [
+      677,
+      "relative apparatus",
+      73
+    ],
+    [
+      678,
+      "relative observable",
+      73
+    ],
+    [
+      679,
+      "relative procedure",
+      73
+    ],
+    [
+      680,
+      "relative setup",
+      73
+    ],
+    [
+      681,
+      "relative demonstration",
+      73
+    ],
+    [
+      682,
+      "relative calibration",
+      73
+    ],
+    [
+      683,
+      "relative physical",
+      73
+    ],
+    [
+      684,
+      "relative intuition",
+      73
+    ],
+    [
+      685,
+      "relative example",
+      73
+    ],
+    [
+      686,
+      "relative picture",
+      73
+    ],
+    [
+      687,
+      "relative diagram",
+      73
+    ],
+    [
+      688,
+      "relative mechanism",
+      73
+    ],
+    [
+      689,
+      "relative simple",
+      73
+    ],
+    [
+      690,
+      "relative concrete",
+      73
+    ],
+    [
+      691,
+      "relative measure",
+      73
+    ],
+    [
+      692,
+      "relative pass",
+      73
+    ],
+    [
+      693,
+      "relative fail",
+      73
+    ],
+    [
+      694,
+      "relative knob",
+      73
+    ],
+    [
+      695,
+      "relative reading",
+      73
+    ],
+    [
+      696,
+      "experiment apparatus",
+      73
+    ],
+    [
+      697,
+      "experiment observable",
+      73
+    ],
+    [
+      698,
+      "experiment procedure",
+      73
+    ],
+    [
+      699,
+      "experiment setup",
+      73
+    ],
+    [
+      700,
+      "experiment demonstration",
+      73
+    ],
+    [
+      701,
+      "experiment calibration",
+      72
+    ],
+    [
+      702,
+      "experiment physical",
+      72
+    ],
+    [
+      703,
+      "experiment intuition",
+      72
+    ],
+    [
+      704,
+      "experiment example",
+      72
+    ],
+    [
+      705,
+      "experiment picture",
+      72
+    ],
+    [
+      706,
+      "experiment diagram",
+      72
+    ],
+    [
+      707,
+      "apparatus observable",
+      72
+    ],
+    [
+      708,
+      "apparatus procedure",
+      72
+    ],
+    [
+      709,
+      "apparatus setup",
+      72
+    ],
+    [
+      710,
+      "apparatus demonstration",
+      72
+    ],
+    [
+      711,
+      "apparatus calibration",
+      72
+    ],
+    [
+      712,
+      "apparatus physical",
+      72
+    ],
+    [
+      713,
+      "apparatus intuition",
+      72
+    ],
+    [
+      714,
+      "apparatus example",
+      72
+    ],
+    [
+      715,
+      "apparatus picture",
+      72
+    ],
+    [
+      716,
+      "apparatus diagram",
+      72
+    ],
+    [
+      717,
+      "apparatus mechanism",
+      72
+    ],
+    [
+      718,
+      "observable procedure",
+      72
+    ],
+    [
+      719,
+      "observable setup",
+      72
+    ],
+    [
+      720,
+      "observable demonstration",
+      72
+    ],
+    [
+      721,
+      "observable calibration",
+      72
+    ],
+    [
+      722,
+      "observable physical",
+      72
+    ],
+    [
+      723,
+      "observable intuition",
+      72
+    ],
+    [
+      724,
+      "observable example",
+      72
+    ],
+    [
+      725,
+      "observable picture",
+      72
+    ],
+    [
+      726,
+      "observable diagram",
+      71
+    ],
+    [
+      727,
+      "observable mechanism",
+      71
+    ],
+    [
+      728,
+      "observable simple",
+      71
+    ],
+    [
+      729,
+      "procedure setup",
+      71
+    ],
+    [
+      730,
+      "procedure demonstration",
+      71
+    ],
+    [
+      731,
+      "procedure calibration",
+      71
+    ],
+    [
+      732,
+      "procedure physical",
+      71
+    ],
+    [
+      733,
+      "procedure intuition",
+      71
+    ],
+    [
+      734,
+      "procedure example",
+      71
+    ],
+    [
+      735,
+      "procedure picture",
+      71
+    ],
+    [
+      736,
+      "procedure diagram",
+      71
+    ],
+    [
+      737,
+      "procedure mechanism",
+      71
+    ],
+    [
+      738,
+      "procedure simple",
+      71
+    ],
+    [
+      739,
+      "procedure concrete",
+      71
+    ],
+    [
+      740,
+      "setup demonstration",
+      71
+    ],
+    [
+      741,
+      "setup calibration",
+      71
+    ],
+    [
+      742,
+      "setup physical",
+      71
+    ],
+    [
+      743,
+      "setup intuition",
+      71
+    ],
+    [
+      744,
+      "setup example",
+      71
+    ],
+    [
+      745,
+      "setup picture",
+      71
+    ],
+    [
+      746,
+      "setup diagram",
+      71
+    ],
+    [
+      747,
+      "setup mechanism",
+      71
+    ],
+    [
+      748,
+      "setup simple",
+      71
+    ],
+    [
+      749,
+      "setup concrete",
+      71
+    ],
+    [
+      750,
+      "setup measure",
+      71
+    ],
+    [
+      751,
+      "demonstration calibration",
+      70
+    ],
+    [
+      752,
+      "demonstration physical",
+      70
+    ],
+    [
+      753,
+      "demonstration intuition",
+      70
+    ],
+    [
+      754,
+      "demonstration example",
+      70
+    ],
+    [
+      755,
+      "demonstration picture",
+      70
+    ],
+    [
+      756,
+      "demonstration diagram",
+      70
+    ],
+    [
+      757,
+      "demonstration mechanism",
+      70
+    ],
+    [
+      758,
+      "demonstration simple",
+      70
+    ],
+    [
+      759,
+      "demonstration concrete",
+      70
+    ],
+    [
+      760,
+      "demonstration measure",
+      70
+    ],
+    [
+      761,
+      "demonstration pass",
+      70
+    ],
+    [
+      762,
+      "calibration physical",
+      70
+    ],
+    [
+      763,
+      "calibration intuition",
+      70
+    ],
+    [
+      764,
+      "calibration example",
+      70
+    ],
+    [
+      765,
+      "calibration picture",
+      70
+    ],
+    [
+      766,
+      "calibration diagram",
+      70
+    ],
+    [
+      767,
+      "calibration mechanism",
+      70
+    ],
+    [
+      768,
+      "calibration simple",
+      70
+    ],
+    [
+      769,
+      "calibration concrete",
+      70
+    ],
+    [
+      770,
+      "calibration measure",
+      70
+    ],
+    [
+      771,
+      "calibration pass",
+      70
+    ],
+    [
+      772,
+      "calibration fail",
+      70
+    ],
+    [
+      773,
+      "physical intuition",
+      70
+    ],
+    [
+      774,
+      "physical example",
+      70
+    ],
+    [
+      775,
+      "physical picture",
+      70
+    ],
+    [
+      776,
+      "physical diagram",
+      69
+    ],
+    [
+      777,
+      "physical mechanism",
+      69
+    ],
+    [
+      778,
+      "physical simple",
+      69
+    ],
+    [
+      779,
+      "physical concrete",
+      69
+    ],
+    [
+      780,
+      "physical measure",
+      69
+    ],
+    [
+      781,
+      "physical pass",
+      69
+    ],
+    [
+      782,
+      "physical fail",
+      69
+    ],
+    [
+      783,
+      "physical knob",
+      69
+    ],
+    [
+      784,
+      "intuition example",
+      69
+    ],
+    [
+      785,
+      "intuition picture",
+      69
+    ],
+    [
+      786,
+      "intuition diagram",
+      69
+    ],
+    [
+      787,
+      "intuition mechanism",
+      69
+    ],
+    [
+      788,
+      "intuition simple",
+      69
+    ],
+    [
+      789,
+      "intuition concrete",
+      69
+    ],
+    [
+      790,
+      "intuition measure",
+      69
+    ],
+    [
+      791,
+      "intuition pass",
+      69
+    ],
+    [
+      792,
+      "intuition fail",
+      69
+    ],
+    [
+      793,
+      "intuition knob",
+      69
+    ],
+    [
+      794,
+      "intuition reading",
+      69
+    ],
+    [
+      795,
+      "example picture",
+      69
+    ],
+    [
+      796,
+      "example diagram",
+      69
+    ],
+    [
+      797,
+      "example mechanism",
+      69
+    ],
+    [
+      798,
+      "example simple",
+      69
+    ],
+    [
+      799,
+      "example concrete",
+      69
+    ],
+    [
+      800,
+      "example measure",
+      69
+    ],
+    [
+      801,
+      "example pass",
+      68
+    ],
+    [
+      802,
+      "example fail",
+      68
+    ],
+    [
+      803,
+      "example knob",
+      68
+    ],
+    [
+      804,
+      "example reading",
+      68
+    ],
+    [
+      805,
+      "example instrument",
+      68
+    ],
+    [
+      806,
+      "picture diagram",
+      68
+    ],
+    [
+      807,
+      "picture mechanism",
+      68
+    ],
+    [
+      808,
+      "picture simple",
+      68
+    ],
+    [
+      809,
+      "picture concrete",
+      68
+    ],
+    [
+      810,
+      "picture measure",
+      68
+    ],
+    [
+      811,
+      "picture pass",
+      68
+    ],
+    [
+      812,
+      "picture fail",
+      68
+    ],
+    [
+      813,
+      "picture knob",
+      68
+    ],
+    [
+      814,
+      "picture reading",
+      68
+    ],
+    [
+      815,
+      "picture instrument",
+      68
+    ],
+    [
+      816,
+      "picture scale",
+      68
+    ],
+    [
+      817,
+      "diagram mechanism",
+      68
+    ],
+    [
+      818,
+      "diagram simple",
+      68
+    ],
+    [
+      819,
+      "diagram concrete",
+      68
+    ],
+    [
+      820,
+      "diagram measure",
+      68
+    ],
+    [
+      821,
+      "diagram pass",
+      68
+    ],
+    [
+      822,
+      "diagram fail",
+      68
+    ],
+    [
+      823,
+      "diagram knob",
+      68
+    ],
+    [
+      824,
+      "diagram reading",
+      68
+    ],
+    [
+      825,
+      "diagram instrument",
+      68
+    ],
+    [
+      826,
+      "diagram scale",
+      67
+    ],
+    [
+      827,
+      "diagram unit",
+      67
+    ],
+    [
+      828,
+      "mechanism simple",
+      67
+    ],
+    [
+      829,
+      "mechanism concrete",
+      67
+    ],
+    [
+      830,
+      "mechanism measure",
+      67
+    ],
+    [
+      831,
+      "mechanism pass",
+      67
+    ],
+    [
+      832,
+      "mechanism fail",
+      67
+    ],
+    [
+      833,
+      "mechanism knob",
+      67
+    ],
+    [
+      834,
+      "mechanism reading",
+      67
+    ],
+    [
+      835,
+      "mechanism instrument",
+      67
+    ],
+    [
+      836,
+      "mechanism scale",
+      67
+    ],
+    [
+      837,
+      "mechanism unit",
+      67
+    ],
+    [
+      838,
+      "mechanism motion",
+      67
+    ],
+    [
+      839,
+      "simple concrete",
+      67
+    ],
+    [
+      840,
+      "simple measure",
+      67
+    ],
+    [
+      841,
+      "simple pass",
+      67
+    ],
+    [
+      842,
+      "simple fail",
+      67
+    ],
+    [
+      843,
+      "simple knob",
+      67
+    ],
+    [
+      844,
+      "simple reading",
+      67
+    ],
+    [
+      845,
+      "simple instrument",
+      67
+    ],
+    [
+      846,
+      "simple scale",
+      67
+    ],
+    [
+      847,
+      "simple unit",
+      67
+    ],
+    [
+      848,
+      "simple motion",
+      67
+    ],
+    [
+      849,
+      "simple energy",
+      67
+    ],
+    [
+      850,
+      "concrete measure",
+      67
+    ],
+    [
+      851,
+      "concrete pass",
+      66
+    ],
+    [
+      852,
+      "concrete fail",
+      66
+    ],
+    [
+      853,
+      "concrete knob",
+      66
+    ],
+    [
+      854,
+      "concrete reading",
+      66
+    ],
+    [
+      855,
+      "concrete instrument",
+      66
+    ],
+    [
+      856,
+      "concrete scale",
+      66
+    ],
+    [
+      857,
+      "concrete unit",
+      66
+    ],
+    [
+      858,
+      "concrete motion",
+      66
+    ],
+    [
+      859,
+      "concrete energy",
+      66
+    ],
+    [
+      860,
+      "concrete particle",
+      66
+    ],
+    [
+      861,
+      "measure pass",
+      66
+    ],
+    [
+      862,
+      "measure fail",
+      66
+    ],
+    [
+      863,
+      "measure knob",
+      66
+    ],
+    [
+      864,
+      "measure reading",
+      66
+    ],
+    [
+      865,
+      "measure instrument",
+      66
+    ],
+    [
+      866,
+      "measure scale",
+      66
+    ],
+    [
+      867,
+      "measure unit",
+      66
+    ],
+    [
+      868,
+      "measure motion",
+      66
+    ],
+    [
+      869,
+      "measure energy",
+      66
+    ],
+    [
+      870,
+      "measure particle",
+      66
+    ],
+    [
+      871,
+      "measure field",
+      66
+    ],
+    [
+      872,
+      "pass fail",
+      66
+    ],
+    [
+      873,
+      "pass knob",
+      66
+    ],
+    [
+      874,
+      "pass reading",
+      66
+    ],
+    [
+      875,
+      "pass instrument",
+      66
+    ],
+    [
+      876,
+      "pass scale",
+      65
+    ],
+    [
+      877,
+      "pass unit",
+      65
+    ],
+    [
+      878,
+      "pass motion",
+      65
+    ],
+    [
+      879,
+      "pass energy",
+      65
+    ],
+    [
+      880,
+      "pass particle",
+      65
+    ],
+    [
+      881,
+      "pass field",
+      65
+    ],
+    [
+      882,
+      "pass hands",
+      65
+    ],
+    [
+      883,
+      "fail knob",
+      65
+    ],
+    [
+      884,
+      "fail reading",
+      65
+    ],
+    [
+      885,
+      "fail instrument",
+      65
+    ],
+    [
+      886,
+      "fail scale",
+      65
+    ],
+    [
+      887,
+      "fail unit",
+      65
+    ],
+    [
+      888,
+      "fail motion",
+      65
+    ],
+    [
+      889,
+      "fail energy",
+      65
+    ],
+    [
+      890,
+      "fail particle",
+      65
+    ],
+    [
+      891,
+      "fail field",
+      65
+    ],
+    [
+      892,
+      "fail hands",
+      65
+    ],
+    [
+      893,
+      "fail worked",
+      65
+    ],
+    [
+      894,
+      "knob reading",
+      65
+    ],
+    [
+      895,
+      "knob instrument",
+      65
+    ],
+    [
+      896,
+      "knob scale",
+      65
+    ],
+    [
+      897,
+      "knob unit",
+      65
+    ],
+    [
+      898,
+      "knob motion",
+      65
+    ],
+    [
+      899,
+      "knob energy",
+      65
+    ],
+    [
+      900,
+      "knob particle",
+      65
+    ],
+    [
+      901,
+      "mini-MMM shapes voice",
+      100
+    ],
+    [
+      902,
+      "mini MMM voice shape",
+      100
+    ],
+    [
+      903,
+      "voice shaped by nouns",
+      100
+    ],
+    [
+      904,
+      "aligned nouns shape voice",
+      100
+    ],
+    [
+      905,
+      "correlated thinkers shape voice",
+      100
+    ],
+    [
+      906,
+      "thinker alignment voice",
+      100
+    ],
+    [
+      907,
+      "noun alignment voice",
+      100
+    ],
+    [
+      908,
+      "voice signature nouns",
+      100
+    ],
+    [
+      909,
+      "local voice contour",
+      100
+    ]
+  ],
+  "triplets": [
+    [
+      1,
+      "under current test",
+      100
+    ],
+    [
+      2,
+      "under local test",
+      100
+    ],
+    [
+      3,
+      "under bounded test",
+      100
+    ],
+    [
+      4,
+      "under finite test",
+      100
+    ],
+    [
+      5,
+      "under open test",
+      100
+    ],
+    [
+      6,
+      "under live test",
+      100
+    ],
+    [
+      7,
+      "within current test",
+      100
+    ],
+    [
+      8,
+      "within local test",
+      100
+    ],
+    [
+      9,
+      "within bounded test",
+      100
+    ],
+    [
+      10,
+      "within finite test",
+      100
+    ],
+    [
+      11,
+      "within open test",
+      100
+    ],
+    [
+      12,
+      "within live test",
+      100
+    ],
+    [
+      13,
+      "across current test",
+      100
+    ],
+    [
+      14,
+      "across local test",
+      100
+    ],
+    [
+      15,
+      "across bounded test",
+      100
+    ],
+    [
+      16,
+      "across finite test",
+      100
+    ],
+    [
+      17,
+      "across open test",
+      100
+    ],
+    [
+      18,
+      "across live test",
+      100
+    ],
+    [
+      19,
+      "between current test",
+      100
+    ],
+    [
+      20,
+      "between local test",
+      100
+    ],
+    [
+      21,
+      "between bounded test",
+      100
+    ],
+    [
+      22,
+      "between finite test",
+      100
+    ],
+    [
+      23,
+      "between open test",
+      100
+    ],
+    [
+      24,
+      "between live test",
+      100
+    ],
+    [
+      25,
+      "through current test",
+      100
+    ],
+    [
+      26,
+      "through local test",
+      99
+    ],
+    [
+      27,
+      "through bounded test",
+      99
+    ],
+    [
+      28,
+      "through finite test",
+      99
+    ],
+    [
+      29,
+      "through open test",
+      99
+    ],
+    [
+      30,
+      "through live test",
+      99
+    ],
+    [
+      31,
+      "before current test",
+      99
+    ],
+    [
+      32,
+      "before local test",
+      99
+    ],
+    [
+      33,
+      "before bounded test",
+      99
+    ],
+    [
+      34,
+      "before finite test",
+      99
+    ],
+    [
+      35,
+      "before open test",
+      99
+    ],
+    [
+      36,
+      "before live test",
+      99
+    ],
+    [
+      37,
+      "test evidence path",
+      99
+    ],
+    [
+      38,
+      "test support path",
+      99
+    ],
+    [
+      39,
+      "test path path",
+      99
+    ],
+    [
+      40,
+      "test surface path",
+      99
+    ],
+    [
+      41,
+      "test packet path",
+      99
+    ],
+    [
+      42,
+      "test receipt path",
+      99
+    ],
+    [
+      43,
+      "test trace path",
+      99
+    ],
+    [
+      44,
+      "test result path",
+      99
+    ],
+    [
+      45,
+      "test scope path",
+      99
+    ],
+    [
+      46,
+      "test boundary path",
+      99
+    ],
+    [
+      47,
+      "check test receipt",
+      99
+    ],
+    [
+      48,
+      "compare test receipt",
+      99
+    ],
+    [
+      49,
+      "observe test receipt",
+      99
+    ],
+    [
+      50,
+      "measure test receipt",
+      99
+    ],
+    [
+      51,
+      "test test receipt",
+      98
+    ],
+    [
+      52,
+      "verify test receipt",
+      98
+    ],
+    [
+      53,
+      "hold test receipt",
+      98
+    ],
+    [
+      54,
+      "preserve test receipt",
+      98
+    ],
+    [
+      55,
+      "under current measure",
+      98
+    ],
+    [
+      56,
+      "under local measure",
+      98
+    ],
+    [
+      57,
+      "under bounded measure",
+      98
+    ],
+    [
+      58,
+      "under finite measure",
+      98
+    ],
+    [
+      59,
+      "under open measure",
+      98
+    ],
+    [
+      60,
+      "under live measure",
+      98
+    ],
+    [
+      61,
+      "within current measure",
+      98
+    ],
+    [
+      62,
+      "within local measure",
+      98
+    ],
+    [
+      63,
+      "within bounded measure",
+      98
+    ],
+    [
+      64,
+      "within finite measure",
+      98
+    ],
+    [
+      65,
+      "within open measure",
+      98
+    ],
+    [
+      66,
+      "within live measure",
+      98
+    ],
+    [
+      67,
+      "across current measure",
+      98
+    ],
+    [
+      68,
+      "across local measure",
+      98
+    ],
+    [
+      69,
+      "across bounded measure",
+      98
+    ],
+    [
+      70,
+      "across finite measure",
+      98
+    ],
+    [
+      71,
+      "across open measure",
+      98
+    ],
+    [
+      72,
+      "across live measure",
+      98
+    ],
+    [
+      73,
+      "between current measure",
+      98
+    ],
+    [
+      74,
+      "between local measure",
+      98
+    ],
+    [
+      75,
+      "between bounded measure",
+      98
+    ],
+    [
+      76,
+      "between finite measure",
+      97
+    ],
+    [
+      77,
+      "between open measure",
+      97
+    ],
+    [
+      78,
+      "between live measure",
+      97
+    ],
+    [
+      79,
+      "through current measure",
+      97
+    ],
+    [
+      80,
+      "through local measure",
+      97
+    ],
+    [
+      81,
+      "through bounded measure",
+      97
+    ],
+    [
+      82,
+      "through finite measure",
+      97
+    ],
+    [
+      83,
+      "through open measure",
+      97
+    ],
+    [
+      84,
+      "through live measure",
+      97
+    ],
+    [
+      85,
+      "before current measure",
+      97
+    ],
+    [
+      86,
+      "before local measure",
+      97
+    ],
+    [
+      87,
+      "before bounded measure",
+      97
+    ],
+    [
+      88,
+      "before finite measure",
+      97
+    ],
+    [
+      89,
+      "before open measure",
+      97
+    ],
+    [
+      90,
+      "before live measure",
+      97
+    ],
+    [
+      91,
+      "measure evidence path",
+      97
+    ],
+    [
+      92,
+      "measure support path",
+      97
+    ],
+    [
+      93,
+      "measure path path",
+      97
+    ],
+    [
+      94,
+      "measure surface path",
+      97
+    ],
+    [
+      95,
+      "measure packet path",
+      97
+    ],
+    [
+      96,
+      "measure receipt path",
+      97
+    ],
+    [
+      97,
+      "measure trace path",
+      97
+    ],
+    [
+      98,
+      "measure result path",
+      97
+    ],
+    [
+      99,
+      "measure scope path",
+      97
+    ],
+    [
+      100,
+      "measure boundary path",
+      97
+    ],
+    [
+      101,
+      "check measure receipt",
+      96
+    ],
+    [
+      102,
+      "compare measure receipt",
+      96
+    ],
+    [
+      103,
+      "observe measure receipt",
+      96
+    ],
+    [
+      104,
+      "measure measure receipt",
+      96
+    ],
+    [
+      105,
+      "test measure receipt",
+      96
+    ],
+    [
+      106,
+      "verify measure receipt",
+      96
+    ],
+    [
+      107,
+      "hold measure receipt",
+      96
+    ],
+    [
+      108,
+      "preserve measure receipt",
+      96
+    ],
+    [
+      109,
+      "under current observable",
+      96
+    ],
+    [
+      110,
+      "under local observable",
+      96
+    ],
+    [
+      111,
+      "under bounded observable",
+      96
+    ],
+    [
+      112,
+      "under finite observable",
+      96
+    ],
+    [
+      113,
+      "under open observable",
+      96
+    ],
+    [
+      114,
+      "under live observable",
+      96
+    ],
+    [
+      115,
+      "within current observable",
+      96
+    ],
+    [
+      116,
+      "within local observable",
+      96
+    ],
+    [
+      117,
+      "within bounded observable",
+      96
+    ],
+    [
+      118,
+      "within finite observable",
+      96
+    ],
+    [
+      119,
+      "within open observable",
+      96
+    ],
+    [
+      120,
+      "within live observable",
+      96
+    ],
+    [
+      121,
+      "across current observable",
+      96
+    ],
+    [
+      122,
+      "across local observable",
+      96
+    ],
+    [
+      123,
+      "across bounded observable",
+      96
+    ],
+    [
+      124,
+      "across finite observable",
+      96
+    ],
+    [
+      125,
+      "across open observable",
+      96
+    ],
+    [
+      126,
+      "across live observable",
+      95
+    ],
+    [
+      127,
+      "between current observable",
+      95
+    ],
+    [
+      128,
+      "between local observable",
+      95
+    ],
+    [
+      129,
+      "between bounded observable",
+      95
+    ],
+    [
+      130,
+      "between finite observable",
+      95
+    ],
+    [
+      131,
+      "between open observable",
+      95
+    ],
+    [
+      132,
+      "between live observable",
+      95
+    ],
+    [
+      133,
+      "through current observable",
+      95
+    ],
+    [
+      134,
+      "through local observable",
+      95
+    ],
+    [
+      135,
+      "through bounded observable",
+      95
+    ],
+    [
+      136,
+      "through finite observable",
+      95
+    ],
+    [
+      137,
+      "through open observable",
+      95
+    ],
+    [
+      138,
+      "through live observable",
+      95
+    ],
+    [
+      139,
+      "before current observable",
+      95
+    ],
+    [
+      140,
+      "before local observable",
+      95
+    ],
+    [
+      141,
+      "before bounded observable",
+      95
+    ],
+    [
+      142,
+      "before finite observable",
+      95
+    ],
+    [
+      143,
+      "before open observable",
+      95
+    ],
+    [
+      144,
+      "before live observable",
+      95
+    ],
+    [
+      145,
+      "observable evidence path",
+      95
+    ],
+    [
+      146,
+      "observable support path",
+      95
+    ],
+    [
+      147,
+      "observable path path",
+      95
+    ],
+    [
+      148,
+      "observable surface path",
+      95
+    ],
+    [
+      149,
+      "observable packet path",
+      95
+    ],
+    [
+      150,
+      "observable receipt path",
+      95
+    ],
+    [
+      151,
+      "observable trace path",
+      94
+    ],
+    [
+      152,
+      "observable result path",
+      94
+    ],
+    [
+      153,
+      "observable scope path",
+      94
+    ],
+    [
+      154,
+      "observable boundary path",
+      94
+    ],
+    [
+      155,
+      "check observable receipt",
+      94
+    ],
+    [
+      156,
+      "compare observable receipt",
+      94
+    ],
+    [
+      157,
+      "observe observable receipt",
+      94
+    ],
+    [
+      158,
+      "measure observable receipt",
+      94
+    ],
+    [
+      159,
+      "test observable receipt",
+      94
+    ],
+    [
+      160,
+      "verify observable receipt",
+      94
+    ],
+    [
+      161,
+      "hold observable receipt",
+      94
+    ],
+    [
+      162,
+      "preserve observable receipt",
+      94
+    ],
+    [
+      163,
+      "under current procedure",
+      94
+    ],
+    [
+      164,
+      "under local procedure",
+      94
+    ],
+    [
+      165,
+      "under bounded procedure",
+      94
+    ],
+    [
+      166,
+      "under finite procedure",
+      94
+    ],
+    [
+      167,
+      "under open procedure",
+      94
+    ],
+    [
+      168,
+      "under live procedure",
+      94
+    ],
+    [
+      169,
+      "within current procedure",
+      94
+    ],
+    [
+      170,
+      "within local procedure",
+      94
+    ],
+    [
+      171,
+      "within bounded procedure",
+      94
+    ],
+    [
+      172,
+      "within finite procedure",
+      94
+    ],
+    [
+      173,
+      "within open procedure",
+      94
+    ],
+    [
+      174,
+      "within live procedure",
+      94
+    ],
+    [
+      175,
+      "across current procedure",
+      94
+    ],
+    [
+      176,
+      "across local procedure",
+      93
+    ],
+    [
+      177,
+      "across bounded procedure",
+      93
+    ],
+    [
+      178,
+      "across finite procedure",
+      93
+    ],
+    [
+      179,
+      "across open procedure",
+      93
+    ],
+    [
+      180,
+      "across live procedure",
+      93
+    ],
+    [
+      181,
+      "between current procedure",
+      93
+    ],
+    [
+      182,
+      "between local procedure",
+      93
+    ],
+    [
+      183,
+      "between bounded procedure",
+      93
+    ],
+    [
+      184,
+      "between finite procedure",
+      93
+    ],
+    [
+      185,
+      "between open procedure",
+      93
+    ],
+    [
+      186,
+      "between live procedure",
+      93
+    ],
+    [
+      187,
+      "through current procedure",
+      93
+    ],
+    [
+      188,
+      "through local procedure",
+      93
+    ],
+    [
+      189,
+      "through bounded procedure",
+      93
+    ],
+    [
+      190,
+      "through finite procedure",
+      93
+    ],
+    [
+      191,
+      "through open procedure",
+      93
+    ],
+    [
+      192,
+      "through live procedure",
+      93
+    ],
+    [
+      193,
+      "before current procedure",
+      93
+    ],
+    [
+      194,
+      "before local procedure",
+      93
+    ],
+    [
+      195,
+      "before bounded procedure",
+      93
+    ],
+    [
+      196,
+      "before finite procedure",
+      93
+    ],
+    [
+      197,
+      "before open procedure",
+      93
+    ],
+    [
+      198,
+      "before live procedure",
+      93
+    ],
+    [
+      199,
+      "procedure evidence path",
+      93
+    ],
+    [
+      200,
+      "procedure support path",
+      93
+    ],
+    [
+      201,
+      "procedure path path",
+      92
+    ],
+    [
+      202,
+      "procedure surface path",
+      92
+    ],
+    [
+      203,
+      "procedure packet path",
+      92
+    ],
+    [
+      204,
+      "procedure receipt path",
+      92
+    ],
+    [
+      205,
+      "procedure trace path",
+      92
+    ],
+    [
+      206,
+      "procedure result path",
+      92
+    ],
+    [
+      207,
+      "procedure scope path",
+      92
+    ],
+    [
+      208,
+      "procedure boundary path",
+      92
+    ],
+    [
+      209,
+      "check procedure receipt",
+      92
+    ],
+    [
+      210,
+      "compare procedure receipt",
+      92
+    ],
+    [
+      211,
+      "observe procedure receipt",
+      92
+    ],
+    [
+      212,
+      "measure procedure receipt",
+      92
+    ],
+    [
+      213,
+      "test procedure receipt",
+      92
+    ],
+    [
+      214,
+      "verify procedure receipt",
+      92
+    ],
+    [
+      215,
+      "hold procedure receipt",
+      92
+    ],
+    [
+      216,
+      "preserve procedure receipt",
+      92
+    ],
+    [
+      217,
+      "under current operation",
+      92
+    ],
+    [
+      218,
+      "under local operation",
+      92
+    ],
+    [
+      219,
+      "under bounded operation",
+      92
+    ],
+    [
+      220,
+      "under finite operation",
+      92
+    ],
+    [
+      221,
+      "under open operation",
+      92
+    ],
+    [
+      222,
+      "under live operation",
+      92
+    ],
+    [
+      223,
+      "within current operation",
+      92
+    ],
+    [
+      224,
+      "within local operation",
+      92
+    ],
+    [
+      225,
+      "within bounded operation",
+      92
+    ],
+    [
+      226,
+      "within finite operation",
+      91
+    ],
+    [
+      227,
+      "within open operation",
+      91
+    ],
+    [
+      228,
+      "within live operation",
+      91
+    ],
+    [
+      229,
+      "across current operation",
+      91
+    ],
+    [
+      230,
+      "across local operation",
+      91
+    ],
+    [
+      231,
+      "across bounded operation",
+      91
+    ],
+    [
+      232,
+      "across finite operation",
+      91
+    ],
+    [
+      233,
+      "across open operation",
+      91
+    ],
+    [
+      234,
+      "across live operation",
+      91
+    ],
+    [
+      235,
+      "between current operation",
+      91
+    ],
+    [
+      236,
+      "between local operation",
+      91
+    ],
+    [
+      237,
+      "between bounded operation",
+      91
+    ],
+    [
+      238,
+      "between finite operation",
+      91
+    ],
+    [
+      239,
+      "between open operation",
+      91
+    ],
+    [
+      240,
+      "between live operation",
+      91
+    ],
+    [
+      241,
+      "cargo cult science",
+      91
+    ],
+    [
+      242,
+      "not fool yourself",
+      91
+    ],
+    [
+      243,
+      "experiment as judge",
+      91
+    ],
+    [
+      244,
+      "check the answer",
+      91
+    ],
+    [
+      245,
+      "what would count",
+      91
+    ],
+    [
+      246,
+      "under experiment apparatus",
+      91
+    ],
+    [
+      247,
+      "under experiment observable",
+      91
+    ],
+    [
+      248,
+      "under experiment procedure",
+      91
+    ],
+    [
+      249,
+      "under experiment setup",
+      91
+    ],
+    [
+      250,
+      "under apparatus observable",
+      91
+    ],
+    [
+      251,
+      "under apparatus procedure",
+      90
+    ],
+    [
+      252,
+      "under apparatus setup",
+      90
+    ],
+    [
+      253,
+      "under apparatus demonstration",
+      90
+    ],
+    [
+      254,
+      "under observable procedure",
+      90
+    ],
+    [
+      255,
+      "under observable setup",
+      90
+    ],
+    [
+      256,
+      "under observable demonstration",
+      90
+    ],
+    [
+      257,
+      "under observable calibration",
+      90
+    ],
+    [
+      258,
+      "under procedure setup",
+      90
+    ],
+    [
+      259,
+      "under procedure demonstration",
+      90
+    ],
+    [
+      260,
+      "under procedure calibration",
+      90
+    ],
+    [
+      261,
+      "under procedure physical",
+      90
+    ],
+    [
+      262,
+      "under setup demonstration",
+      90
+    ],
+    [
+      263,
+      "under setup calibration",
+      90
+    ],
+    [
+      264,
+      "under setup physical",
+      90
+    ],
+    [
+      265,
+      "under setup intuition",
+      90
+    ],
+    [
+      266,
+      "under demonstration calibration",
+      90
+    ],
+    [
+      267,
+      "under demonstration physical",
+      90
+    ],
+    [
+      268,
+      "under demonstration intuition",
+      90
+    ],
+    [
+      269,
+      "under demonstration example",
+      90
+    ],
+    [
+      270,
+      "under calibration physical",
+      90
+    ],
+    [
+      271,
+      "under calibration intuition",
+      90
+    ],
+    [
+      272,
+      "under calibration example",
+      90
+    ],
+    [
+      273,
+      "under calibration picture",
+      90
+    ],
+    [
+      274,
+      "under physical intuition",
+      90
+    ],
+    [
+      275,
+      "under physical example",
+      90
+    ],
+    [
+      276,
+      "under physical picture",
+      89
+    ],
+    [
+      277,
+      "under physical diagram",
+      89
+    ],
+    [
+      278,
+      "under intuition example",
+      89
+    ],
+    [
+      279,
+      "under intuition picture",
+      89
+    ],
+    [
+      280,
+      "under intuition diagram",
+      89
+    ],
+    [
+      281,
+      "under intuition mechanism",
+      89
+    ],
+    [
+      282,
+      "under example picture",
+      89
+    ],
+    [
+      283,
+      "under example diagram",
+      89
+    ],
+    [
+      284,
+      "under example mechanism",
+      89
+    ],
+    [
+      285,
+      "under example simple",
+      89
+    ],
+    [
+      286,
+      "under picture diagram",
+      89
+    ],
+    [
+      287,
+      "under picture mechanism",
+      89
+    ],
+    [
+      288,
+      "under picture simple",
+      89
+    ],
+    [
+      289,
+      "under picture concrete",
+      89
+    ],
+    [
+      290,
+      "under diagram mechanism",
+      89
+    ],
+    [
+      291,
+      "under diagram simple",
+      89
+    ],
+    [
+      292,
+      "under diagram concrete",
+      89
+    ],
+    [
+      293,
+      "under diagram measure",
+      89
+    ],
+    [
+      294,
+      "under mechanism simple",
+      89
+    ],
+    [
+      295,
+      "under mechanism concrete",
+      89
+    ],
+    [
+      296,
+      "under mechanism measure",
+      89
+    ],
+    [
+      297,
+      "under mechanism pass",
+      89
+    ],
+    [
+      298,
+      "under simple concrete",
+      89
+    ],
+    [
+      299,
+      "under simple measure",
+      89
+    ],
+    [
+      300,
+      "under simple pass",
+      89
+    ],
+    [
+      301,
+      "under simple fail",
+      88
+    ],
+    [
+      302,
+      "under concrete measure",
+      88
+    ],
+    [
+      303,
+      "under concrete pass",
+      88
+    ],
+    [
+      304,
+      "under concrete fail",
+      88
+    ],
+    [
+      305,
+      "under concrete knob",
+      88
+    ],
+    [
+      306,
+      "under measure pass",
+      88
+    ],
+    [
+      307,
+      "under measure fail",
+      88
+    ],
+    [
+      308,
+      "under measure knob",
+      88
+    ],
+    [
+      309,
+      "under measure reading",
+      88
+    ],
+    [
+      310,
+      "under pass fail",
+      88
+    ],
+    [
+      311,
+      "under pass knob",
+      88
+    ],
+    [
+      312,
+      "under pass reading",
+      88
+    ],
+    [
+      313,
+      "under pass instrument",
+      88
+    ],
+    [
+      314,
+      "under fail knob",
+      88
+    ],
+    [
+      315,
+      "under fail reading",
+      88
+    ],
+    [
+      316,
+      "under fail instrument",
+      88
+    ],
+    [
+      317,
+      "under fail scale",
+      88
+    ],
+    [
+      318,
+      "under knob reading",
+      88
+    ],
+    [
+      319,
+      "under knob instrument",
+      88
+    ],
+    [
+      320,
+      "under knob scale",
+      88
+    ],
+    [
+      321,
+      "under knob unit",
+      88
+    ],
+    [
+      322,
+      "under reading instrument",
+      88
+    ],
+    [
+      323,
+      "under reading scale",
+      88
+    ],
+    [
+      324,
+      "under reading unit",
+      88
+    ],
+    [
+      325,
+      "under reading motion",
+      88
+    ],
+    [
+      326,
+      "within experiment apparatus",
+      87
+    ],
+    [
+      327,
+      "within experiment observable",
+      87
+    ],
+    [
+      328,
+      "within experiment procedure",
+      87
+    ],
+    [
+      329,
+      "within experiment setup",
+      87
+    ],
+    [
+      330,
+      "within apparatus observable",
+      87
+    ],
+    [
+      331,
+      "within apparatus procedure",
+      87
+    ],
+    [
+      332,
+      "within apparatus setup",
+      87
+    ],
+    [
+      333,
+      "within apparatus demonstration",
+      87
+    ],
+    [
+      334,
+      "within observable procedure",
+      87
+    ],
+    [
+      335,
+      "within observable setup",
+      87
+    ],
+    [
+      336,
+      "within observable demonstration",
+      87
+    ],
+    [
+      337,
+      "within observable calibration",
+      87
+    ],
+    [
+      338,
+      "within procedure setup",
+      87
+    ],
+    [
+      339,
+      "within procedure demonstration",
+      87
+    ],
+    [
+      340,
+      "within procedure calibration",
+      87
+    ],
+    [
+      341,
+      "within procedure physical",
+      87
+    ],
+    [
+      342,
+      "within setup demonstration",
+      87
+    ],
+    [
+      343,
+      "within setup calibration",
+      87
+    ],
+    [
+      344,
+      "within setup physical",
+      87
+    ],
+    [
+      345,
+      "within setup intuition",
+      87
+    ],
+    [
+      346,
+      "within demonstration calibration",
+      87
+    ],
+    [
+      347,
+      "within demonstration physical",
+      87
+    ],
+    [
+      348,
+      "within demonstration intuition",
+      87
+    ],
+    [
+      349,
+      "within demonstration example",
+      87
+    ],
+    [
+      350,
+      "within calibration physical",
+      87
+    ],
+    [
+      351,
+      "within calibration intuition",
+      86
+    ],
+    [
+      352,
+      "within calibration example",
+      86
+    ],
+    [
+      353,
+      "within calibration picture",
+      86
+    ],
+    [
+      354,
+      "within physical intuition",
+      86
+    ],
+    [
+      355,
+      "within physical example",
+      86
+    ],
+    [
+      356,
+      "within physical picture",
+      86
+    ],
+    [
+      357,
+      "within physical diagram",
+      86
+    ],
+    [
+      358,
+      "within intuition example",
+      86
+    ],
+    [
+      359,
+      "within intuition picture",
+      86
+    ],
+    [
+      360,
+      "within intuition diagram",
+      86
+    ],
+    [
+      361,
+      "within intuition mechanism",
+      86
+    ],
+    [
+      362,
+      "within example picture",
+      86
+    ],
+    [
+      363,
+      "within example diagram",
+      86
+    ],
+    [
+      364,
+      "within example mechanism",
+      86
+    ],
+    [
+      365,
+      "within example simple",
+      86
+    ],
+    [
+      366,
+      "within picture diagram",
+      86
+    ],
+    [
+      367,
+      "within picture mechanism",
+      86
+    ],
+    [
+      368,
+      "within picture simple",
+      86
+    ],
+    [
+      369,
+      "within picture concrete",
+      86
+    ],
+    [
+      370,
+      "within diagram mechanism",
+      86
+    ],
+    [
+      371,
+      "within diagram simple",
+      86
+    ],
+    [
+      372,
+      "within diagram concrete",
+      86
+    ],
+    [
+      373,
+      "within diagram measure",
+      86
+    ],
+    [
+      374,
+      "within mechanism simple",
+      86
+    ],
+    [
+      375,
+      "within mechanism concrete",
+      86
+    ],
+    [
+      376,
+      "within mechanism measure",
+      85
+    ],
+    [
+      377,
+      "within mechanism pass",
+      85
+    ],
+    [
+      378,
+      "within simple concrete",
+      85
+    ],
+    [
+      379,
+      "within simple measure",
+      85
+    ],
+    [
+      380,
+      "within simple pass",
+      85
+    ],
+    [
+      381,
+      "within simple fail",
+      85
+    ],
+    [
+      382,
+      "within concrete measure",
+      85
+    ],
+    [
+      383,
+      "within concrete pass",
+      85
+    ],
+    [
+      384,
+      "within concrete fail",
+      85
+    ],
+    [
+      385,
+      "within concrete knob",
+      85
+    ],
+    [
+      386,
+      "within measure pass",
+      85
+    ],
+    [
+      387,
+      "within measure fail",
+      85
+    ],
+    [
+      388,
+      "within measure knob",
+      85
+    ],
+    [
+      389,
+      "within measure reading",
+      85
+    ],
+    [
+      390,
+      "within pass fail",
+      85
+    ],
+    [
+      391,
+      "within pass knob",
+      85
+    ],
+    [
+      392,
+      "within pass reading",
+      85
+    ],
+    [
+      393,
+      "within pass instrument",
+      85
+    ],
+    [
+      394,
+      "within fail knob",
+      85
+    ],
+    [
+      395,
+      "within fail reading",
+      85
+    ],
+    [
+      396,
+      "within fail instrument",
+      85
+    ],
+    [
+      397,
+      "within fail scale",
+      85
+    ],
+    [
+      398,
+      "within knob reading",
+      85
+    ],
+    [
+      399,
+      "within knob instrument",
+      85
+    ],
+    [
+      400,
+      "within knob scale",
+      85
+    ],
+    [
+      401,
+      "within knob unit",
+      84
+    ],
+    [
+      402,
+      "within reading instrument",
+      84
+    ],
+    [
+      403,
+      "within reading scale",
+      84
+    ],
+    [
+      404,
+      "within reading unit",
+      84
+    ],
+    [
+      405,
+      "within reading motion",
+      84
+    ],
+    [
+      406,
+      "across experiment apparatus",
+      84
+    ],
+    [
+      407,
+      "across experiment observable",
+      84
+    ],
+    [
+      408,
+      "across experiment procedure",
+      84
+    ],
+    [
+      409,
+      "across experiment setup",
+      84
+    ],
+    [
+      410,
+      "across apparatus observable",
+      84
+    ],
+    [
+      411,
+      "across apparatus procedure",
+      84
+    ],
+    [
+      412,
+      "across apparatus setup",
+      84
+    ],
+    [
+      413,
+      "across apparatus demonstration",
+      84
+    ],
+    [
+      414,
+      "across observable procedure",
+      84
+    ],
+    [
+      415,
+      "across observable setup",
+      84
+    ],
+    [
+      416,
+      "across observable demonstration",
+      84
+    ],
+    [
+      417,
+      "across observable calibration",
+      84
+    ],
+    [
+      418,
+      "across procedure setup",
+      84
+    ],
+    [
+      419,
+      "across procedure demonstration",
+      84
+    ],
+    [
+      420,
+      "across procedure calibration",
+      84
+    ],
+    [
+      421,
+      "across procedure physical",
+      84
+    ],
+    [
+      422,
+      "across setup demonstration",
+      84
+    ],
+    [
+      423,
+      "across setup calibration",
+      84
+    ],
+    [
+      424,
+      "across setup physical",
+      84
+    ],
+    [
+      425,
+      "across setup intuition",
+      84
+    ],
+    [
+      426,
+      "across demonstration calibration",
+      83
+    ],
+    [
+      427,
+      "across demonstration physical",
+      83
+    ],
+    [
+      428,
+      "across demonstration intuition",
+      83
+    ],
+    [
+      429,
+      "across demonstration example",
+      83
+    ],
+    [
+      430,
+      "across calibration physical",
+      83
+    ],
+    [
+      431,
+      "across calibration intuition",
+      83
+    ],
+    [
+      432,
+      "across calibration example",
+      83
+    ],
+    [
+      433,
+      "across calibration picture",
+      83
+    ],
+    [
+      434,
+      "across physical intuition",
+      83
+    ],
+    [
+      435,
+      "across physical example",
+      83
+    ],
+    [
+      436,
+      "across physical picture",
+      83
+    ],
+    [
+      437,
+      "across physical diagram",
+      83
+    ],
+    [
+      438,
+      "across intuition example",
+      83
+    ],
+    [
+      439,
+      "across intuition picture",
+      83
+    ],
+    [
+      440,
+      "across intuition diagram",
+      83
+    ],
+    [
+      441,
+      "across intuition mechanism",
+      83
+    ],
+    [
+      442,
+      "across example picture",
+      83
+    ],
+    [
+      443,
+      "across example diagram",
+      83
+    ],
+    [
+      444,
+      "across example mechanism",
+      83
+    ],
+    [
+      445,
+      "across example simple",
+      83
+    ],
+    [
+      446,
+      "across picture diagram",
+      83
+    ],
+    [
+      447,
+      "across picture mechanism",
+      83
+    ],
+    [
+      448,
+      "across picture simple",
+      83
+    ],
+    [
+      449,
+      "across picture concrete",
+      83
+    ],
+    [
+      450,
+      "across diagram mechanism",
+      83
+    ],
+    [
+      451,
+      "across diagram simple",
+      82
+    ],
+    [
+      452,
+      "across diagram concrete",
+      82
+    ],
+    [
+      453,
+      "across diagram measure",
+      82
+    ],
+    [
+      454,
+      "across mechanism simple",
+      82
+    ],
+    [
+      455,
+      "across mechanism concrete",
+      82
+    ],
+    [
+      456,
+      "across mechanism measure",
+      82
+    ],
+    [
+      457,
+      "across mechanism pass",
+      82
+    ],
+    [
+      458,
+      "across simple concrete",
+      82
+    ],
+    [
+      459,
+      "across simple measure",
+      82
+    ],
+    [
+      460,
+      "across simple pass",
+      82
+    ],
+    [
+      461,
+      "across simple fail",
+      82
+    ],
+    [
+      462,
+      "across concrete measure",
+      82
+    ],
+    [
+      463,
+      "across concrete pass",
+      82
+    ],
+    [
+      464,
+      "across concrete fail",
+      82
+    ],
+    [
+      465,
+      "across concrete knob",
+      82
+    ],
+    [
+      466,
+      "across measure pass",
+      82
+    ],
+    [
+      467,
+      "across measure fail",
+      82
+    ],
+    [
+      468,
+      "across measure knob",
+      82
+    ],
+    [
+      469,
+      "across measure reading",
+      82
+    ],
+    [
+      470,
+      "across pass fail",
+      82
+    ],
+    [
+      471,
+      "across pass knob",
+      82
+    ],
+    [
+      472,
+      "across pass reading",
+      82
+    ],
+    [
+      473,
+      "across pass instrument",
+      82
+    ],
+    [
+      474,
+      "across fail knob",
+      82
+    ],
+    [
+      475,
+      "across fail reading",
+      82
+    ],
+    [
+      476,
+      "across fail instrument",
+      81
+    ],
+    [
+      477,
+      "across fail scale",
+      81
+    ],
+    [
+      478,
+      "across knob reading",
+      81
+    ],
+    [
+      479,
+      "across knob instrument",
+      81
+    ],
+    [
+      480,
+      "across knob scale",
+      81
+    ],
+    [
+      481,
+      "across knob unit",
+      81
+    ],
+    [
+      482,
+      "across reading instrument",
+      81
+    ],
+    [
+      483,
+      "across reading scale",
+      81
+    ],
+    [
+      484,
+      "across reading unit",
+      81
+    ],
+    [
+      485,
+      "across reading motion",
+      81
+    ],
+    [
+      486,
+      "between experiment apparatus",
+      81
+    ],
+    [
+      487,
+      "between experiment observable",
+      81
+    ],
+    [
+      488,
+      "between experiment procedure",
+      81
+    ],
+    [
+      489,
+      "between experiment setup",
+      81
+    ],
+    [
+      490,
+      "between apparatus observable",
+      81
+    ],
+    [
+      491,
+      "between apparatus procedure",
+      81
+    ],
+    [
+      492,
+      "between apparatus setup",
+      81
+    ],
+    [
+      493,
+      "between apparatus demonstration",
+      81
+    ],
+    [
+      494,
+      "between observable procedure",
+      81
+    ],
+    [
+      495,
+      "between observable setup",
+      81
+    ],
+    [
+      496,
+      "between observable demonstration",
+      81
+    ],
+    [
+      497,
+      "between observable calibration",
+      81
+    ],
+    [
+      498,
+      "between procedure setup",
+      81
+    ],
+    [
+      499,
+      "between procedure demonstration",
+      81
+    ],
+    [
+      500,
+      "between procedure calibration",
+      81
+    ],
+    [
+      501,
+      "between procedure physical",
+      80
+    ],
+    [
+      502,
+      "between setup demonstration",
+      80
+    ],
+    [
+      503,
+      "between setup calibration",
+      80
+    ],
+    [
+      504,
+      "between setup physical",
+      80
+    ],
+    [
+      505,
+      "between setup intuition",
+      80
+    ],
+    [
+      506,
+      "between demonstration calibration",
+      80
+    ],
+    [
+      507,
+      "between demonstration physical",
+      80
+    ],
+    [
+      508,
+      "between demonstration intuition",
+      80
+    ],
+    [
+      509,
+      "between demonstration example",
+      80
+    ],
+    [
+      510,
+      "between calibration physical",
+      80
+    ],
+    [
+      511,
+      "between calibration intuition",
+      80
+    ],
+    [
+      512,
+      "between calibration example",
+      80
+    ],
+    [
+      513,
+      "between calibration picture",
+      80
+    ],
+    [
+      514,
+      "between physical intuition",
+      80
+    ],
+    [
+      515,
+      "between physical example",
+      80
+    ],
+    [
+      516,
+      "between physical picture",
+      80
+    ],
+    [
+      517,
+      "between physical diagram",
+      80
+    ],
+    [
+      518,
+      "between intuition example",
+      80
+    ],
+    [
+      519,
+      "between intuition picture",
+      80
+    ],
+    [
+      520,
+      "between intuition diagram",
+      80
+    ],
+    [
+      521,
+      "between intuition mechanism",
+      80
+    ],
+    [
+      522,
+      "between example picture",
+      80
+    ],
+    [
+      523,
+      "between example diagram",
+      80
+    ],
+    [
+      524,
+      "between example mechanism",
+      80
+    ],
+    [
+      525,
+      "between example simple",
+      80
+    ],
+    [
+      526,
+      "between picture diagram",
+      79
+    ],
+    [
+      527,
+      "between picture mechanism",
+      79
+    ],
+    [
+      528,
+      "between picture simple",
+      79
+    ],
+    [
+      529,
+      "between picture concrete",
+      79
+    ],
+    [
+      530,
+      "between diagram mechanism",
+      79
+    ],
+    [
+      531,
+      "between diagram simple",
+      79
+    ],
+    [
+      532,
+      "between diagram concrete",
+      79
+    ],
+    [
+      533,
+      "between diagram measure",
+      79
+    ],
+    [
+      534,
+      "between mechanism simple",
+      79
+    ],
+    [
+      535,
+      "between mechanism concrete",
+      79
+    ],
+    [
+      536,
+      "between mechanism measure",
+      79
+    ],
+    [
+      537,
+      "between mechanism pass",
+      79
+    ],
+    [
+      538,
+      "between simple concrete",
+      79
+    ],
+    [
+      539,
+      "between simple measure",
+      79
+    ],
+    [
+      540,
+      "between simple pass",
+      79
+    ],
+    [
+      541,
+      "between simple fail",
+      79
+    ],
+    [
+      542,
+      "between concrete measure",
+      79
+    ],
+    [
+      543,
+      "between concrete pass",
+      79
+    ],
+    [
+      544,
+      "between concrete fail",
+      79
+    ],
+    [
+      545,
+      "between concrete knob",
+      79
+    ],
+    [
+      546,
+      "between measure pass",
+      79
+    ],
+    [
+      547,
+      "between measure fail",
+      79
+    ],
+    [
+      548,
+      "between measure knob",
+      79
+    ],
+    [
+      549,
+      "between measure reading",
+      79
+    ],
+    [
+      550,
+      "between pass fail",
+      79
+    ],
+    [
+      551,
+      "between pass knob",
+      78
+    ],
+    [
+      552,
+      "between pass reading",
+      78
+    ],
+    [
+      553,
+      "between pass instrument",
+      78
+    ],
+    [
+      554,
+      "between fail knob",
+      78
+    ],
+    [
+      555,
+      "between fail reading",
+      78
+    ],
+    [
+      556,
+      "between fail instrument",
+      78
+    ],
+    [
+      557,
+      "between fail scale",
+      78
+    ],
+    [
+      558,
+      "between knob reading",
+      78
+    ],
+    [
+      559,
+      "between knob instrument",
+      78
+    ],
+    [
+      560,
+      "between knob scale",
+      78
+    ],
+    [
+      561,
+      "between knob unit",
+      78
+    ],
+    [
+      562,
+      "between reading instrument",
+      78
+    ],
+    [
+      563,
+      "between reading scale",
+      78
+    ],
+    [
+      564,
+      "between reading unit",
+      78
+    ],
+    [
+      565,
+      "between reading motion",
+      78
+    ],
+    [
+      566,
+      "through experiment apparatus",
+      78
+    ],
+    [
+      567,
+      "through experiment observable",
+      78
+    ],
+    [
+      568,
+      "through experiment procedure",
+      78
+    ],
+    [
+      569,
+      "through experiment setup",
+      78
+    ],
+    [
+      570,
+      "through apparatus observable",
+      78
+    ],
+    [
+      571,
+      "through apparatus procedure",
+      78
+    ],
+    [
+      572,
+      "through apparatus setup",
+      78
+    ],
+    [
+      573,
+      "through apparatus demonstration",
+      78
+    ],
+    [
+      574,
+      "through observable procedure",
+      78
+    ],
+    [
+      575,
+      "through observable setup",
+      78
+    ],
+    [
+      576,
+      "through observable demonstration",
+      77
+    ],
+    [
+      577,
+      "through observable calibration",
+      77
+    ],
+    [
+      578,
+      "through procedure setup",
+      77
+    ],
+    [
+      579,
+      "through procedure demonstration",
+      77
+    ],
+    [
+      580,
+      "through procedure calibration",
+      77
+    ],
+    [
+      581,
+      "through procedure physical",
+      77
+    ],
+    [
+      582,
+      "through setup demonstration",
+      77
+    ],
+    [
+      583,
+      "through setup calibration",
+      77
+    ],
+    [
+      584,
+      "through setup physical",
+      77
+    ],
+    [
+      585,
+      "through setup intuition",
+      77
+    ],
+    [
+      586,
+      "through demonstration calibration",
+      77
+    ],
+    [
+      587,
+      "through demonstration physical",
+      77
+    ],
+    [
+      588,
+      "through demonstration intuition",
+      77
+    ],
+    [
+      589,
+      "through demonstration example",
+      77
+    ],
+    [
+      590,
+      "through calibration physical",
+      77
+    ],
+    [
+      591,
+      "through calibration intuition",
+      77
+    ],
+    [
+      592,
+      "through calibration example",
+      77
+    ],
+    [
+      593,
+      "through calibration picture",
+      77
+    ],
+    [
+      594,
+      "through physical intuition",
+      77
+    ],
+    [
+      595,
+      "through physical example",
+      77
+    ],
+    [
+      596,
+      "through physical picture",
+      77
+    ],
+    [
+      597,
+      "through physical diagram",
+      77
+    ],
+    [
+      598,
+      "through intuition example",
+      77
+    ],
+    [
+      599,
+      "through intuition picture",
+      77
+    ],
+    [
+      600,
+      "through intuition diagram",
+      77
+    ],
+    [
+      601,
+      "through intuition mechanism",
+      76
+    ],
+    [
+      602,
+      "through example picture",
+      76
+    ],
+    [
+      603,
+      "through example diagram",
+      76
+    ],
+    [
+      604,
+      "through example mechanism",
+      76
+    ],
+    [
+      605,
+      "through example simple",
+      76
+    ],
+    [
+      606,
+      "through picture diagram",
+      76
+    ],
+    [
+      607,
+      "through picture mechanism",
+      76
+    ],
+    [
+      608,
+      "through picture simple",
+      76
+    ],
+    [
+      609,
+      "through picture concrete",
+      76
+    ],
+    [
+      610,
+      "through diagram mechanism",
+      76
+    ],
+    [
+      611,
+      "through diagram simple",
+      76
+    ],
+    [
+      612,
+      "through diagram concrete",
+      76
+    ],
+    [
+      613,
+      "through diagram measure",
+      76
+    ],
+    [
+      614,
+      "through mechanism simple",
+      76
+    ],
+    [
+      615,
+      "through mechanism concrete",
+      76
+    ],
+    [
+      616,
+      "through mechanism measure",
+      76
+    ],
+    [
+      617,
+      "through mechanism pass",
+      76
+    ],
+    [
+      618,
+      "through simple concrete",
+      76
+    ],
+    [
+      619,
+      "through simple measure",
+      76
+    ],
+    [
+      620,
+      "through simple pass",
+      76
+    ],
+    [
+      621,
+      "through simple fail",
+      76
+    ],
+    [
+      622,
+      "through concrete measure",
+      76
+    ],
+    [
+      623,
+      "through concrete pass",
+      76
+    ],
+    [
+      624,
+      "through concrete fail",
+      76
+    ],
+    [
+      625,
+      "through concrete knob",
+      76
+    ],
+    [
+      626,
+      "through measure pass",
+      75
+    ],
+    [
+      627,
+      "through measure fail",
+      75
+    ],
+    [
+      628,
+      "through measure knob",
+      75
+    ],
+    [
+      629,
+      "through measure reading",
+      75
+    ],
+    [
+      630,
+      "through pass fail",
+      75
+    ],
+    [
+      631,
+      "through pass knob",
+      75
+    ],
+    [
+      632,
+      "through pass reading",
+      75
+    ],
+    [
+      633,
+      "through pass instrument",
+      75
+    ],
+    [
+      634,
+      "through fail knob",
+      75
+    ],
+    [
+      635,
+      "through fail reading",
+      75
+    ],
+    [
+      636,
+      "through fail instrument",
+      75
+    ],
+    [
+      637,
+      "through fail scale",
+      75
+    ],
+    [
+      638,
+      "through knob reading",
+      75
+    ],
+    [
+      639,
+      "through knob instrument",
+      75
+    ],
+    [
+      640,
+      "through knob scale",
+      75
+    ],
+    [
+      641,
+      "through knob unit",
+      75
+    ],
+    [
+      642,
+      "through reading instrument",
+      75
+    ],
+    [
+      643,
+      "through reading scale",
+      75
+    ],
+    [
+      644,
+      "through reading unit",
+      75
+    ],
+    [
+      645,
+      "through reading motion",
+      75
+    ],
+    [
+      646,
+      "before experiment apparatus",
+      75
+    ],
+    [
+      647,
+      "before experiment observable",
+      75
+    ],
+    [
+      648,
+      "before experiment procedure",
+      75
+    ],
+    [
+      649,
+      "before experiment setup",
+      75
+    ],
+    [
+      650,
+      "before apparatus observable",
+      75
+    ],
+    [
+      651,
+      "before apparatus procedure",
+      74
+    ],
+    [
+      652,
+      "before apparatus setup",
+      74
+    ],
+    [
+      653,
+      "before apparatus demonstration",
+      74
+    ],
+    [
+      654,
+      "before observable procedure",
+      74
+    ],
+    [
+      655,
+      "before observable setup",
+      74
+    ],
+    [
+      656,
+      "before observable demonstration",
+      74
+    ],
+    [
+      657,
+      "before observable calibration",
+      74
+    ],
+    [
+      658,
+      "before procedure setup",
+      74
+    ],
+    [
+      659,
+      "before procedure demonstration",
+      74
+    ],
+    [
+      660,
+      "before procedure calibration",
+      74
+    ],
+    [
+      661,
+      "before procedure physical",
+      74
+    ],
+    [
+      662,
+      "before setup demonstration",
+      74
+    ],
+    [
+      663,
+      "before setup calibration",
+      74
+    ],
+    [
+      664,
+      "before setup physical",
+      74
+    ],
+    [
+      665,
+      "before setup intuition",
+      74
+    ],
+    [
+      666,
+      "before demonstration calibration",
+      74
+    ],
+    [
+      667,
+      "before demonstration physical",
+      74
+    ],
+    [
+      668,
+      "before demonstration intuition",
+      74
+    ],
+    [
+      669,
+      "before demonstration example",
+      74
+    ],
+    [
+      670,
+      "before calibration physical",
+      74
+    ],
+    [
+      671,
+      "before calibration intuition",
+      74
+    ],
+    [
+      672,
+      "before calibration example",
+      74
+    ],
+    [
+      673,
+      "before calibration picture",
+      74
+    ],
+    [
+      674,
+      "before physical intuition",
+      74
+    ],
+    [
+      675,
+      "before physical example",
+      74
+    ],
+    [
+      676,
+      "before physical picture",
+      73
+    ],
+    [
+      677,
+      "before physical diagram",
+      73
+    ],
+    [
+      678,
+      "before intuition example",
+      73
+    ],
+    [
+      679,
+      "before intuition picture",
+      73
+    ],
+    [
+      680,
+      "before intuition diagram",
+      73
+    ],
+    [
+      681,
+      "before intuition mechanism",
+      73
+    ],
+    [
+      682,
+      "before example picture",
+      73
+    ],
+    [
+      683,
+      "before example diagram",
+      73
+    ],
+    [
+      684,
+      "before example mechanism",
+      73
+    ],
+    [
+      685,
+      "before example simple",
+      73
+    ],
+    [
+      686,
+      "before picture diagram",
+      73
+    ],
+    [
+      687,
+      "before picture mechanism",
+      73
+    ],
+    [
+      688,
+      "before picture simple",
+      73
+    ],
+    [
+      689,
+      "before picture concrete",
+      73
+    ],
+    [
+      690,
+      "before diagram mechanism",
+      73
+    ],
+    [
+      691,
+      "before diagram simple",
+      73
+    ],
+    [
+      692,
+      "before diagram concrete",
+      73
+    ],
+    [
+      693,
+      "before diagram measure",
+      73
+    ],
+    [
+      694,
+      "before mechanism simple",
+      73
+    ],
+    [
+      695,
+      "before mechanism concrete",
+      73
+    ],
+    [
+      696,
+      "before mechanism measure",
+      73
+    ],
+    [
+      697,
+      "before mechanism pass",
+      73
+    ],
+    [
+      698,
+      "before simple concrete",
+      73
+    ],
+    [
+      699,
+      "before simple measure",
+      73
+    ],
+    [
+      700,
+      "before simple pass",
+      73
+    ],
+    [
+      701,
+      "before simple fail",
+      72
+    ],
+    [
+      702,
+      "before concrete measure",
+      72
+    ],
+    [
+      703,
+      "before concrete pass",
+      72
+    ],
+    [
+      704,
+      "before concrete fail",
+      72
+    ],
+    [
+      705,
+      "before concrete knob",
+      72
+    ],
+    [
+      706,
+      "before measure pass",
+      72
+    ],
+    [
+      707,
+      "before measure fail",
+      72
+    ],
+    [
+      708,
+      "before measure knob",
+      72
+    ],
+    [
+      709,
+      "before measure reading",
+      72
+    ],
+    [
+      710,
+      "before pass fail",
+      72
+    ],
+    [
+      711,
+      "before pass knob",
+      72
+    ],
+    [
+      712,
+      "before pass reading",
+      72
+    ],
+    [
+      713,
+      "before pass instrument",
+      72
+    ],
+    [
+      714,
+      "before fail knob",
+      72
+    ],
+    [
+      715,
+      "before fail reading",
+      72
+    ],
+    [
+      716,
+      "before fail instrument",
+      72
+    ],
+    [
+      717,
+      "before fail scale",
+      72
+    ],
+    [
+      718,
+      "before knob reading",
+      72
+    ],
+    [
+      719,
+      "before knob instrument",
+      72
+    ],
+    [
+      720,
+      "before knob scale",
+      72
+    ],
+    [
+      721,
+      "before knob unit",
+      72
+    ],
+    [
+      722,
+      "before reading instrument",
+      72
+    ],
+    [
+      723,
+      "before reading scale",
+      72
+    ],
+    [
+      724,
+      "before reading unit",
+      72
+    ],
+    [
+      725,
+      "before reading motion",
+      72
+    ],
+    [
+      726,
+      "after experiment apparatus",
+      71
+    ],
+    [
+      727,
+      "after experiment observable",
+      71
+    ],
+    [
+      728,
+      "after experiment procedure",
+      71
+    ],
+    [
+      729,
+      "after experiment setup",
+      71
+    ],
+    [
+      730,
+      "after apparatus observable",
+      71
+    ],
+    [
+      731,
+      "after apparatus procedure",
+      71
+    ],
+    [
+      732,
+      "after apparatus setup",
+      71
+    ],
+    [
+      733,
+      "after apparatus demonstration",
+      71
+    ],
+    [
+      734,
+      "after observable procedure",
+      71
+    ],
+    [
+      735,
+      "after observable setup",
+      71
+    ],
+    [
+      736,
+      "after observable demonstration",
+      71
+    ],
+    [
+      737,
+      "after observable calibration",
+      71
+    ],
+    [
+      738,
+      "after procedure setup",
+      71
+    ],
+    [
+      739,
+      "after procedure demonstration",
+      71
+    ],
+    [
+      740,
+      "after procedure calibration",
+      71
+    ],
+    [
+      741,
+      "after procedure physical",
+      71
+    ],
+    [
+      742,
+      "after setup demonstration",
+      71
+    ],
+    [
+      743,
+      "after setup calibration",
+      71
+    ],
+    [
+      744,
+      "after setup physical",
+      71
+    ],
+    [
+      745,
+      "after setup intuition",
+      71
+    ],
+    [
+      746,
+      "after demonstration calibration",
+      71
+    ],
+    [
+      747,
+      "after demonstration physical",
+      71
+    ],
+    [
+      748,
+      "after demonstration intuition",
+      71
+    ],
+    [
+      749,
+      "after demonstration example",
+      71
+    ],
+    [
+      750,
+      "after calibration physical",
+      71
+    ],
+    [
+      751,
+      "after calibration intuition",
+      70
+    ],
+    [
+      752,
+      "after calibration example",
+      70
+    ],
+    [
+      753,
+      "after calibration picture",
+      70
+    ],
+    [
+      754,
+      "after physical intuition",
+      70
+    ],
+    [
+      755,
+      "after physical example",
+      70
+    ],
+    [
+      756,
+      "after physical picture",
+      70
+    ],
+    [
+      757,
+      "after physical diagram",
+      70
+    ],
+    [
+      758,
+      "after intuition example",
+      70
+    ],
+    [
+      759,
+      "after intuition picture",
+      70
+    ],
+    [
+      760,
+      "after intuition diagram",
+      70
+    ],
+    [
+      761,
+      "after intuition mechanism",
+      70
+    ],
+    [
+      762,
+      "after example picture",
+      70
+    ],
+    [
+      763,
+      "after example diagram",
+      70
+    ],
+    [
+      764,
+      "after example mechanism",
+      70
+    ],
+    [
+      765,
+      "after example simple",
+      70
+    ],
+    [
+      766,
+      "after picture diagram",
+      70
+    ],
+    [
+      767,
+      "after picture mechanism",
+      70
+    ],
+    [
+      768,
+      "after picture simple",
+      70
+    ],
+    [
+      769,
+      "after picture concrete",
+      70
+    ],
+    [
+      770,
+      "after diagram mechanism",
+      70
+    ],
+    [
+      771,
+      "after diagram simple",
+      70
+    ],
+    [
+      772,
+      "after diagram concrete",
+      70
+    ],
+    [
+      773,
+      "after diagram measure",
+      70
+    ],
+    [
+      774,
+      "after mechanism simple",
+      70
+    ],
+    [
+      775,
+      "after mechanism concrete",
+      70
+    ],
+    [
+      776,
+      "after mechanism measure",
+      69
+    ],
+    [
+      777,
+      "after mechanism pass",
+      69
+    ],
+    [
+      778,
+      "after simple concrete",
+      69
+    ],
+    [
+      779,
+      "after simple measure",
+      69
+    ],
+    [
+      780,
+      "after simple pass",
+      69
+    ],
+    [
+      781,
+      "after simple fail",
+      69
+    ],
+    [
+      782,
+      "after concrete measure",
+      69
+    ],
+    [
+      783,
+      "after concrete pass",
+      69
+    ],
+    [
+      784,
+      "after concrete fail",
+      69
+    ],
+    [
+      785,
+      "after concrete knob",
+      69
+    ],
+    [
+      786,
+      "after measure pass",
+      69
+    ],
+    [
+      787,
+      "after measure fail",
+      69
+    ],
+    [
+      788,
+      "after measure knob",
+      69
+    ],
+    [
+      789,
+      "after measure reading",
+      69
+    ],
+    [
+      790,
+      "after pass fail",
+      69
+    ],
+    [
+      791,
+      "after pass knob",
+      69
+    ],
+    [
+      792,
+      "after pass reading",
+      69
+    ],
+    [
+      793,
+      "after pass instrument",
+      69
+    ],
+    [
+      794,
+      "after fail knob",
+      69
+    ],
+    [
+      795,
+      "after fail reading",
+      69
+    ],
+    [
+      796,
+      "after fail instrument",
+      69
+    ],
+    [
+      797,
+      "after fail scale",
+      69
+    ],
+    [
+      798,
+      "after knob reading",
+      69
+    ],
+    [
+      799,
+      "after knob instrument",
+      69
+    ],
+    [
+      800,
+      "after knob scale",
+      69
+    ],
+    [
+      801,
+      "after knob unit",
+      68
+    ],
+    [
+      802,
+      "after reading instrument",
+      68
+    ],
+    [
+      803,
+      "after reading scale",
+      68
+    ],
+    [
+      804,
+      "after reading unit",
+      68
+    ],
+    [
+      805,
+      "after reading motion",
+      68
+    ],
+    [
+      806,
+      "during experiment apparatus",
+      68
+    ],
+    [
+      807,
+      "during experiment observable",
+      68
+    ],
+    [
+      808,
+      "during experiment procedure",
+      68
+    ],
+    [
+      809,
+      "during experiment setup",
+      68
+    ],
+    [
+      810,
+      "during apparatus observable",
+      68
+    ],
+    [
+      811,
+      "during apparatus procedure",
+      68
+    ],
+    [
+      812,
+      "during apparatus setup",
+      68
+    ],
+    [
+      813,
+      "during apparatus demonstration",
+      68
+    ],
+    [
+      814,
+      "during observable procedure",
+      68
+    ],
+    [
+      815,
+      "during observable setup",
+      68
+    ],
+    [
+      816,
+      "during observable demonstration",
+      68
+    ],
+    [
+      817,
+      "during observable calibration",
+      68
+    ],
+    [
+      818,
+      "during procedure setup",
+      68
+    ],
+    [
+      819,
+      "during procedure demonstration",
+      68
+    ],
+    [
+      820,
+      "during procedure calibration",
+      68
+    ],
+    [
+      821,
+      "during procedure physical",
+      68
+    ],
+    [
+      822,
+      "during setup demonstration",
+      68
+    ],
+    [
+      823,
+      "during setup calibration",
+      68
+    ],
+    [
+      824,
+      "during setup physical",
+      68
+    ],
+    [
+      825,
+      "during setup intuition",
+      68
+    ],
+    [
+      826,
+      "during demonstration calibration",
+      67
+    ],
+    [
+      827,
+      "during demonstration physical",
+      67
+    ],
+    [
+      828,
+      "during demonstration intuition",
+      67
+    ],
+    [
+      829,
+      "during demonstration example",
+      67
+    ],
+    [
+      830,
+      "during calibration physical",
+      67
+    ],
+    [
+      831,
+      "during calibration intuition",
+      67
+    ],
+    [
+      832,
+      "during calibration example",
+      67
+    ],
+    [
+      833,
+      "during calibration picture",
+      67
+    ],
+    [
+      834,
+      "during physical intuition",
+      67
+    ],
+    [
+      835,
+      "during physical example",
+      67
+    ],
+    [
+      836,
+      "during physical picture",
+      67
+    ],
+    [
+      837,
+      "during physical diagram",
+      67
+    ],
+    [
+      838,
+      "during intuition example",
+      67
+    ],
+    [
+      839,
+      "during intuition picture",
+      67
+    ],
+    [
+      840,
+      "during intuition diagram",
+      67
+    ],
+    [
+      841,
+      "during intuition mechanism",
+      67
+    ],
+    [
+      842,
+      "during example picture",
+      67
+    ],
+    [
+      843,
+      "during example diagram",
+      67
+    ],
+    [
+      844,
+      "during example mechanism",
+      67
+    ],
+    [
+      845,
+      "during example simple",
+      67
+    ],
+    [
+      846,
+      "during picture diagram",
+      67
+    ],
+    [
+      847,
+      "during picture mechanism",
+      67
+    ],
+    [
+      848,
+      "during picture simple",
+      67
+    ],
+    [
+      849,
+      "during picture concrete",
+      67
+    ],
+    [
+      850,
+      "during diagram mechanism",
+      67
+    ],
+    [
+      851,
+      "during diagram simple",
+      66
+    ],
+    [
+      852,
+      "during diagram concrete",
+      66
+    ],
+    [
+      853,
+      "during diagram measure",
+      66
+    ],
+    [
+      854,
+      "during mechanism simple",
+      66
+    ],
+    [
+      855,
+      "during mechanism concrete",
+      66
+    ],
+    [
+      856,
+      "during mechanism measure",
+      66
+    ],
+    [
+      857,
+      "during mechanism pass",
+      66
+    ],
+    [
+      858,
+      "during simple concrete",
+      66
+    ],
+    [
+      859,
+      "during simple measure",
+      66
+    ],
+    [
+      860,
+      "during simple pass",
+      66
+    ],
+    [
+      861,
+      "during simple fail",
+      66
+    ],
+    [
+      862,
+      "during concrete measure",
+      66
+    ],
+    [
+      863,
+      "during concrete pass",
+      66
+    ],
+    [
+      864,
+      "during concrete fail",
+      66
+    ],
+    [
+      865,
+      "during concrete knob",
+      66
+    ],
+    [
+      866,
+      "during measure pass",
+      66
+    ],
+    [
+      867,
+      "during measure fail",
+      66
+    ],
+    [
+      868,
+      "during measure knob",
+      66
+    ],
+    [
+      869,
+      "during measure reading",
+      66
+    ],
+    [
+      870,
+      "during pass fail",
+      66
+    ],
+    [
+      871,
+      "during pass knob",
+      66
+    ],
+    [
+      872,
+      "during pass reading",
+      66
+    ],
+    [
+      873,
+      "during pass instrument",
+      66
+    ],
+    [
+      874,
+      "during fail knob",
+      66
+    ],
+    [
+      875,
+      "during fail reading",
+      66
+    ],
+    [
+      876,
+      "during fail instrument",
+      65
+    ],
+    [
+      877,
+      "during fail scale",
+      65
+    ],
+    [
+      878,
+      "during knob reading",
+      65
+    ],
+    [
+      879,
+      "during knob instrument",
+      65
+    ],
+    [
+      880,
+      "during knob scale",
+      65
+    ],
+    [
+      881,
+      "during knob unit",
+      65
+    ],
+    [
+      882,
+      "during reading instrument",
+      65
+    ],
+    [
+      883,
+      "during reading scale",
+      65
+    ],
+    [
+      884,
+      "during reading unit",
+      65
+    ],
+    [
+      885,
+      "during reading motion",
+      65
+    ],
+    [
+      886,
+      "until experiment apparatus",
+      65
+    ],
+    [
+      887,
+      "until experiment observable",
+      65
+    ],
+    [
+      888,
+      "until experiment procedure",
+      65
+    ],
+    [
+      889,
+      "until experiment setup",
+      65
+    ],
+    [
+      890,
+      "until apparatus observable",
+      65
+    ],
+    [
+      891,
+      "until apparatus procedure",
+      65
+    ],
+    [
+      892,
+      "until apparatus setup",
+      65
+    ],
+    [
+      893,
+      "until apparatus demonstration",
+      65
+    ],
+    [
+      894,
+      "until observable procedure",
+      65
+    ],
+    [
+      895,
+      "until observable setup",
+      65
+    ],
+    [
+      896,
+      "until observable demonstration",
+      65
+    ],
+    [
+      897,
+      "until observable calibration",
+      65
+    ],
+    [
+      898,
+      "until procedure setup",
+      65
+    ],
+    [
+      899,
+      "until procedure demonstration",
+      65
+    ],
+    [
+      900,
+      "until procedure calibration",
+      65
+    ],
+    [
+      901,
+      "until procedure physical",
+      64
+    ],
+    [
+      902,
+      "until setup demonstration",
+      64
+    ],
+    [
+      903,
+      "until setup calibration",
+      64
+    ],
+    [
+      904,
+      "until setup physical",
+      64
+    ],
+    [
+      905,
+      "until setup intuition",
+      64
+    ],
+    [
+      906,
+      "until demonstration calibration",
+      64
+    ],
+    [
+      907,
+      "until demonstration physical",
+      64
+    ],
+    [
+      908,
+      "until demonstration intuition",
+      64
+    ],
+    [
+      909,
+      "until demonstration example",
+      64
+    ],
+    [
+      910,
+      "until calibration physical",
+      64
+    ],
+    [
+      911,
+      "until calibration intuition",
+      64
+    ],
+    [
+      912,
+      "until calibration example",
+      64
+    ],
+    [
+      913,
+      "until calibration picture",
+      64
+    ],
+    [
+      914,
+      "until physical intuition",
+      64
+    ],
+    [
+      915,
+      "until physical example",
+      64
+    ],
+    [
+      916,
+      "until physical picture",
+      64
+    ],
+    [
+      917,
+      "until physical diagram",
+      64
+    ],
+    [
+      918,
+      "until intuition example",
+      64
+    ],
+    [
+      919,
+      "until intuition picture",
+      64
+    ],
+    [
+      920,
+      "until intuition diagram",
+      64
+    ],
+    [
+      921,
+      "until intuition mechanism",
+      64
+    ],
+    [
+      922,
+      "until example picture",
+      64
+    ],
+    [
+      923,
+      "until example diagram",
+      64
+    ],
+    [
+      924,
+      "until example mechanism",
+      64
+    ],
+    [
+      925,
+      "until example simple",
+      64
+    ],
+    [
+      926,
+      "until picture diagram",
+      63
+    ],
+    [
+      927,
+      "until picture mechanism",
+      63
+    ],
+    [
+      928,
+      "until picture simple",
+      63
+    ],
+    [
+      929,
+      "until picture concrete",
+      63
+    ],
+    [
+      930,
+      "until diagram mechanism",
+      63
+    ],
+    [
+      931,
+      "until diagram simple",
+      63
+    ],
+    [
+      932,
+      "until diagram concrete",
+      63
+    ],
+    [
+      933,
+      "until diagram measure",
+      63
+    ],
+    [
+      934,
+      "until mechanism simple",
+      63
+    ],
+    [
+      935,
+      "until mechanism concrete",
+      63
+    ],
+    [
+      936,
+      "until mechanism measure",
+      63
+    ],
+    [
+      937,
+      "until mechanism pass",
+      63
+    ],
+    [
+      938,
+      "until simple concrete",
+      63
+    ],
+    [
+      939,
+      "until simple measure",
+      63
+    ],
+    [
+      940,
+      "until simple pass",
+      63
+    ],
+    [
+      941,
+      "until simple fail",
+      63
+    ],
+    [
+      942,
+      "until concrete measure",
+      63
+    ],
+    [
+      943,
+      "until concrete pass",
+      63
+    ],
+    [
+      944,
+      "until concrete fail",
+      63
+    ],
+    [
+      945,
+      "until concrete knob",
+      63
+    ],
+    [
+      946,
+      "until measure pass",
+      63
+    ],
+    [
+      947,
+      "until measure fail",
+      63
+    ],
+    [
+      948,
+      "until measure knob",
+      63
+    ],
+    [
+      949,
+      "until measure reading",
+      63
+    ],
+    [
+      950,
+      "until pass fail",
+      63
+    ],
+    [
+      951,
+      "until pass knob",
+      62
+    ],
+    [
+      952,
+      "until pass reading",
+      62
+    ],
+    [
+      953,
+      "until pass instrument",
+      62
+    ],
+    [
+      954,
+      "until fail knob",
+      62
+    ],
+    [
+      955,
+      "until fail reading",
+      62
+    ],
+    [
+      956,
+      "until fail instrument",
+      62
+    ],
+    [
+      957,
+      "until fail scale",
+      62
+    ],
+    [
+      958,
+      "until knob reading",
+      62
+    ],
+    [
+      959,
+      "until knob instrument",
+      62
+    ],
+    [
+      960,
+      "until knob scale",
+      62
+    ],
+    [
+      961,
+      "until knob unit",
+      62
+    ],
+    [
+      962,
+      "until reading instrument",
+      62
+    ],
+    [
+      963,
+      "until reading scale",
+      62
+    ],
+    [
+      964,
+      "until reading unit",
+      62
+    ],
+    [
+      965,
+      "until reading motion",
+      62
+    ],
+    [
+      966,
+      "since experiment apparatus",
+      62
+    ],
+    [
+      967,
+      "since experiment observable",
+      62
+    ],
+    [
+      968,
+      "since experiment procedure",
+      62
+    ],
+    [
+      969,
+      "since experiment setup",
+      62
+    ],
+    [
+      970,
+      "since apparatus observable",
+      62
+    ],
+    [
+      971,
+      "since apparatus procedure",
+      62
+    ],
+    [
+      972,
+      "since apparatus setup",
+      62
+    ],
+    [
+      973,
+      "since apparatus demonstration",
+      62
+    ],
+    [
+      974,
+      "since observable procedure",
+      62
+    ],
+    [
+      975,
+      "since observable setup",
+      62
+    ],
+    [
+      976,
+      "since observable demonstration",
+      61
+    ],
+    [
+      977,
+      "since observable calibration",
+      61
+    ],
+    [
+      978,
+      "since procedure setup",
+      61
+    ],
+    [
+      979,
+      "since procedure demonstration",
+      61
+    ],
+    [
+      980,
+      "since procedure calibration",
+      61
+    ],
+    [
+      981,
+      "since procedure physical",
+      61
+    ],
+    [
+      982,
+      "since setup demonstration",
+      61
+    ],
+    [
+      983,
+      "since setup calibration",
+      61
+    ],
+    [
+      984,
+      "since setup physical",
+      61
+    ],
+    [
+      985,
+      "since setup intuition",
+      61
+    ],
+    [
+      986,
+      "since demonstration calibration",
+      61
+    ],
+    [
+      987,
+      "since demonstration physical",
+      61
+    ],
+    [
+      988,
+      "since demonstration intuition",
+      61
+    ],
+    [
+      989,
+      "since demonstration example",
+      61
+    ],
+    [
+      990,
+      "since calibration physical",
+      61
+    ],
+    [
+      991,
+      "since calibration intuition",
+      61
+    ],
+    [
+      992,
+      "since calibration example",
+      61
+    ],
+    [
+      993,
+      "since calibration picture",
+      61
+    ],
+    [
+      994,
+      "since physical intuition",
+      61
+    ],
+    [
+      995,
+      "since physical example",
+      61
+    ],
+    [
+      996,
+      "since physical picture",
+      61
+    ],
+    [
+      997,
+      "since physical diagram",
+      61
+    ],
+    [
+      998,
+      "since intuition example",
+      61
+    ],
+    [
+      999,
+      "since intuition picture",
+      61
+    ],
+    [
+      1000,
+      "since intuition diagram",
+      61
+    ],
+    [
+      1001,
+      "since intuition mechanism",
+      60
+    ],
+    [
+      1002,
+      "since example picture",
+      60
+    ],
+    [
+      1003,
+      "since example diagram",
+      60
+    ],
+    [
+      1004,
+      "since example mechanism",
+      60
+    ],
+    [
+      1005,
+      "since example simple",
+      60
+    ],
+    [
+      1006,
+      "since picture diagram",
+      60
+    ],
+    [
+      1007,
+      "since picture mechanism",
+      60
+    ],
+    [
+      1008,
+      "since picture simple",
+      60
+    ],
+    [
+      1009,
+      "since picture concrete",
+      60
+    ],
+    [
+      1010,
+      "since diagram mechanism",
+      60
+    ],
+    [
+      1011,
+      "since diagram simple",
+      60
+    ],
+    [
+      1012,
+      "since diagram concrete",
+      60
+    ],
+    [
+      1013,
+      "since diagram measure",
+      60
+    ],
+    [
+      1014,
+      "since mechanism simple",
+      60
+    ],
+    [
+      1015,
+      "since mechanism concrete",
+      60
+    ],
+    [
+      1016,
+      "since mechanism measure",
+      60
+    ],
+    [
+      1017,
+      "since mechanism pass",
+      60
+    ],
+    [
+      1018,
+      "since simple concrete",
+      60
+    ],
+    [
+      1019,
+      "since simple measure",
+      60
+    ],
+    [
+      1020,
+      "since simple pass",
+      60
+    ],
+    [
+      1021,
+      "since simple fail",
+      60
+    ],
+    [
+      1022,
+      "since concrete measure",
+      60
+    ],
+    [
+      1023,
+      "since concrete pass",
+      60
+    ],
+    [
+      1024,
+      "since concrete fail",
+      60
+    ],
+    [
+      1025,
+      "since concrete knob",
+      60
+    ],
+    [
+      1026,
+      "since measure pass",
+      59
+    ],
+    [
+      1027,
+      "since measure fail",
+      59
+    ],
+    [
+      1028,
+      "since measure knob",
+      59
+    ],
+    [
+      1029,
+      "since measure reading",
+      59
+    ],
+    [
+      1030,
+      "since pass fail",
+      59
+    ],
+    [
+      1031,
+      "since pass knob",
+      59
+    ],
+    [
+      1032,
+      "since pass reading",
+      59
+    ],
+    [
+      1033,
+      "since pass instrument",
+      59
+    ],
+    [
+      1034,
+      "since fail knob",
+      59
+    ],
+    [
+      1035,
+      "since fail reading",
+      59
+    ],
+    [
+      1036,
+      "since fail instrument",
+      59
+    ],
+    [
+      1037,
+      "since fail scale",
+      59
+    ],
+    [
+      1038,
+      "since knob reading",
+      59
+    ],
+    [
+      1039,
+      "since knob instrument",
+      59
+    ],
+    [
+      1040,
+      "since knob scale",
+      59
+    ],
+    [
+      1041,
+      "since knob unit",
+      59
+    ],
+    [
+      1042,
+      "since reading instrument",
+      59
+    ],
+    [
+      1043,
+      "since reading scale",
+      59
+    ],
+    [
+      1044,
+      "since reading unit",
+      59
+    ],
+    [
+      1045,
+      "since reading motion",
+      59
+    ],
+    [
+      1046,
+      "experiment apparatus observable",
+      59
+    ],
+    [
+      1047,
+      "experiment apparatus procedure",
+      59
+    ],
+    [
+      1048,
+      "experiment apparatus setup",
+      59
+    ],
+    [
+      1049,
+      "experiment observable procedure",
+      59
+    ],
+    [
+      1050,
+      "experiment observable setup",
+      59
+    ],
+    [
+      1051,
+      "experiment procedure observable",
+      58
+    ],
+    [
+      1052,
+      "experiment procedure setup",
+      58
+    ],
+    [
+      1053,
+      "experiment setup observable",
+      58
+    ],
+    [
+      1054,
+      "experiment setup procedure",
+      58
+    ],
+    [
+      1055,
+      "experiment demonstration observable",
+      58
+    ],
+    [
+      1056,
+      "experiment demonstration procedure",
+      58
+    ],
+    [
+      1057,
+      "experiment demonstration setup",
+      58
+    ],
+    [
+      1058,
+      "apparatus observable procedure",
+      58
+    ],
+    [
+      1059,
+      "apparatus observable setup",
+      58
+    ],
+    [
+      1060,
+      "apparatus observable demonstration",
+      58
+    ],
+    [
+      1061,
+      "apparatus procedure setup",
+      58
+    ],
+    [
+      1062,
+      "apparatus procedure demonstration",
+      58
+    ],
+    [
+      1063,
+      "apparatus setup procedure",
+      58
+    ],
+    [
+      1064,
+      "apparatus setup demonstration",
+      58
+    ],
+    [
+      1065,
+      "apparatus demonstration procedure",
+      58
+    ],
+    [
+      1066,
+      "apparatus demonstration setup",
+      58
+    ],
+    [
+      1067,
+      "apparatus calibration procedure",
+      58
+    ],
+    [
+      1068,
+      "apparatus calibration setup",
+      58
+    ],
+    [
+      1069,
+      "apparatus calibration demonstration",
+      58
+    ],
+    [
+      1070,
+      "observable procedure setup",
+      58
+    ],
+    [
+      1071,
+      "observable procedure demonstration",
+      58
+    ],
+    [
+      1072,
+      "observable procedure calibration",
+      58
+    ],
+    [
+      1073,
+      "observable setup demonstration",
+      58
+    ],
+    [
+      1074,
+      "observable setup calibration",
+      58
+    ],
+    [
+      1075,
+      "observable demonstration setup",
+      58
+    ],
+    [
+      1076,
+      "observable demonstration calibration",
+      57
+    ],
+    [
+      1077,
+      "observable calibration setup",
+      57
+    ],
+    [
+      1078,
+      "observable calibration demonstration",
+      57
+    ],
+    [
+      1079,
+      "observable physical setup",
+      57
+    ],
+    [
+      1080,
+      "observable physical demonstration",
+      57
+    ],
+    [
+      1081,
+      "observable physical calibration",
+      57
+    ],
+    [
+      1082,
+      "procedure setup demonstration",
+      57
+    ],
+    [
+      1083,
+      "procedure setup calibration",
+      57
+    ],
+    [
+      1084,
+      "procedure setup physical",
+      57
+    ],
+    [
+      1085,
+      "procedure demonstration calibration",
+      57
+    ],
+    [
+      1086,
+      "procedure demonstration physical",
+      57
+    ],
+    [
+      1087,
+      "procedure calibration demonstration",
+      57
+    ],
+    [
+      1088,
+      "procedure calibration physical",
+      57
+    ],
+    [
+      1089,
+      "procedure physical demonstration",
+      57
+    ],
+    [
+      1090,
+      "procedure physical calibration",
+      57
+    ],
+    [
+      1091,
+      "procedure intuition demonstration",
+      57
+    ],
+    [
+      1092,
+      "procedure intuition calibration",
+      57
+    ],
+    [
+      1093,
+      "procedure intuition physical",
+      57
+    ],
+    [
+      1094,
+      "setup demonstration calibration",
+      57
+    ],
+    [
+      1095,
+      "setup demonstration physical",
+      57
+    ],
+    [
+      1096,
+      "setup demonstration intuition",
+      57
+    ],
+    [
+      1097,
+      "setup calibration physical",
+      57
+    ],
+    [
+      1098,
+      "setup calibration intuition",
+      57
+    ],
+    [
+      1099,
+      "setup physical calibration",
+      57
+    ],
+    [
+      1100,
+      "setup physical intuition",
+      57
+    ],
+    [
+      1101,
+      "setup intuition calibration",
+      56
+    ],
+    [
+      1102,
+      "setup intuition physical",
+      56
+    ],
+    [
+      1103,
+      "setup example calibration",
+      56
+    ],
+    [
+      1104,
+      "setup example physical",
+      56
+    ],
+    [
+      1105,
+      "setup example intuition",
+      56
+    ],
+    [
+      1106,
+      "demonstration calibration physical",
+      56
+    ],
+    [
+      1107,
+      "demonstration calibration intuition",
+      56
+    ],
+    [
+      1108,
+      "demonstration calibration example",
+      56
+    ],
+    [
+      1109,
+      "demonstration physical intuition",
+      56
+    ],
+    [
+      1110,
+      "demonstration physical example",
+      56
+    ],
+    [
+      1111,
+      "demonstration intuition physical",
+      56
+    ],
+    [
+      1112,
+      "demonstration intuition example",
+      56
+    ],
+    [
+      1113,
+      "demonstration example physical",
+      56
+    ],
+    [
+      1114,
+      "demonstration example intuition",
+      56
+    ],
+    [
+      1115,
+      "demonstration picture physical",
+      56
+    ],
+    [
+      1116,
+      "demonstration picture intuition",
+      56
+    ],
+    [
+      1117,
+      "demonstration picture example",
+      56
+    ],
+    [
+      1118,
+      "calibration physical intuition",
+      56
+    ],
+    [
+      1119,
+      "calibration physical example",
+      56
+    ],
+    [
+      1120,
+      "calibration physical picture",
+      56
+    ],
+    [
+      1121,
+      "calibration intuition example",
+      56
+    ],
+    [
+      1122,
+      "calibration intuition picture",
+      56
+    ],
+    [
+      1123,
+      "calibration example intuition",
+      56
+    ],
+    [
+      1124,
+      "calibration example picture",
+      56
+    ],
+    [
+      1125,
+      "calibration picture intuition",
+      56
+    ],
+    [
+      1126,
+      "calibration picture example",
+      55
+    ],
+    [
+      1127,
+      "calibration diagram intuition",
+      55
+    ],
+    [
+      1128,
+      "calibration diagram example",
+      55
+    ],
+    [
+      1129,
+      "calibration diagram picture",
+      55
+    ],
+    [
+      1130,
+      "physical intuition example",
+      55
+    ],
+    [
+      1131,
+      "physical intuition picture",
+      55
+    ],
+    [
+      1132,
+      "physical intuition diagram",
+      55
+    ],
+    [
+      1133,
+      "physical example picture",
+      55
+    ],
+    [
+      1134,
+      "physical example diagram",
+      55
+    ],
+    [
+      1135,
+      "physical picture example",
+      55
+    ],
+    [
+      1136,
+      "physical picture diagram",
+      55
+    ],
+    [
+      1137,
+      "physical diagram example",
+      55
+    ],
+    [
+      1138,
+      "physical diagram picture",
+      55
+    ],
+    [
+      1139,
+      "physical mechanism example",
+      55
+    ],
+    [
+      1140,
+      "physical mechanism picture",
+      55
+    ],
+    [
+      1141,
+      "physical mechanism diagram",
+      55
+    ],
+    [
+      1142,
+      "intuition example picture",
+      55
+    ],
+    [
+      1143,
+      "intuition example diagram",
+      55
+    ],
+    [
+      1144,
+      "intuition example mechanism",
+      55
+    ],
+    [
+      1145,
+      "intuition picture diagram",
+      55
+    ],
+    [
+      1146,
+      "intuition picture mechanism",
+      55
+    ],
+    [
+      1147,
+      "intuition diagram picture",
+      55
+    ],
+    [
+      1148,
+      "intuition diagram mechanism",
+      55
+    ],
+    [
+      1149,
+      "intuition mechanism picture",
+      55
+    ],
+    [
+      1150,
+      "intuition mechanism diagram",
+      55
+    ],
+    [
+      1151,
+      "intuition simple picture",
+      54
+    ],
+    [
+      1152,
+      "intuition simple diagram",
+      54
+    ],
+    [
+      1153,
+      "intuition simple mechanism",
+      54
+    ],
+    [
+      1154,
+      "example picture diagram",
+      54
+    ],
+    [
+      1155,
+      "example picture mechanism",
+      54
+    ],
+    [
+      1156,
+      "example picture simple",
+      54
+    ],
+    [
+      1157,
+      "example diagram mechanism",
+      54
+    ],
+    [
+      1158,
+      "example diagram simple",
+      54
+    ],
+    [
+      1159,
+      "example mechanism diagram",
+      54
+    ],
+    [
+      1160,
+      "example mechanism simple",
+      54
+    ],
+    [
+      1161,
+      "example simple diagram",
+      54
+    ],
+    [
+      1162,
+      "example simple mechanism",
+      54
+    ],
+    [
+      1163,
+      "example concrete diagram",
+      54
+    ],
+    [
+      1164,
+      "example concrete mechanism",
+      54
+    ],
+    [
+      1165,
+      "example concrete simple",
+      54
+    ],
+    [
+      1166,
+      "picture diagram mechanism",
+      54
+    ],
+    [
+      1167,
+      "picture diagram simple",
+      54
+    ],
+    [
+      1168,
+      "picture diagram concrete",
+      54
+    ],
+    [
+      1169,
+      "picture mechanism simple",
+      54
+    ],
+    [
+      1170,
+      "picture mechanism concrete",
+      54
+    ],
+    [
+      1171,
+      "picture simple mechanism",
+      54
+    ],
+    [
+      1172,
+      "picture simple concrete",
+      54
+    ],
+    [
+      1173,
+      "picture concrete mechanism",
+      54
+    ],
+    [
+      1174,
+      "picture concrete simple",
+      54
+    ],
+    [
+      1175,
+      "picture measure mechanism",
+      54
+    ],
+    [
+      1176,
+      "picture measure simple",
+      53
+    ],
+    [
+      1177,
+      "picture measure concrete",
+      53
+    ],
+    [
+      1178,
+      "diagram mechanism simple",
+      53
+    ],
+    [
+      1179,
+      "diagram mechanism concrete",
+      53
+    ],
+    [
+      1180,
+      "diagram mechanism measure",
+      53
+    ],
+    [
+      1181,
+      "diagram simple concrete",
+      53
+    ],
+    [
+      1182,
+      "diagram simple measure",
+      53
+    ],
+    [
+      1183,
+      "diagram concrete simple",
+      53
+    ],
+    [
+      1184,
+      "diagram concrete measure",
+      53
+    ],
+    [
+      1185,
+      "diagram measure simple",
+      53
+    ],
+    [
+      1186,
+      "diagram measure concrete",
+      53
+    ],
+    [
+      1187,
+      "diagram pass simple",
+      53
+    ],
+    [
+      1188,
+      "diagram pass concrete",
+      53
+    ],
+    [
+      1189,
+      "diagram pass measure",
+      53
+    ],
+    [
+      1190,
+      "mechanism simple concrete",
+      53
+    ],
+    [
+      1191,
+      "mechanism simple measure",
+      53
+    ],
+    [
+      1192,
+      "mechanism simple pass",
+      53
+    ],
+    [
+      1193,
+      "mechanism concrete measure",
+      53
+    ],
+    [
+      1194,
+      "mechanism concrete pass",
+      53
+    ],
+    [
+      1195,
+      "mechanism measure concrete",
+      53
+    ],
+    [
+      1196,
+      "mechanism measure pass",
+      53
+    ],
+    [
+      1197,
+      "mechanism pass concrete",
+      53
+    ],
+    [
+      1198,
+      "mechanism pass measure",
+      53
+    ],
+    [
+      1199,
+      "mechanism fail concrete",
+      53
+    ],
+    [
+      1200,
+      "mechanism fail measure",
+      53
+    ],
+    [
+      1201,
+      "mechanism fail pass",
+      52
+    ],
+    [
+      1202,
+      "simple concrete measure",
+      52
+    ],
+    [
+      1203,
+      "simple concrete pass",
+      52
+    ],
+    [
+      1204,
+      "simple concrete fail",
+      52
+    ],
+    [
+      1205,
+      "simple measure pass",
+      52
+    ],
+    [
+      1206,
+      "simple measure fail",
+      52
+    ],
+    [
+      1207,
+      "simple pass measure",
+      52
+    ],
+    [
+      1208,
+      "simple pass fail",
+      52
+    ],
+    [
+      1209,
+      "simple fail measure",
+      52
+    ],
+    [
+      1210,
+      "simple fail pass",
+      52
+    ],
+    [
+      1211,
+      "simple knob measure",
+      52
+    ],
+    [
+      1212,
+      "simple knob pass",
+      52
+    ],
+    [
+      1213,
+      "simple knob fail",
+      52
+    ],
+    [
+      1214,
+      "concrete measure pass",
+      52
+    ],
+    [
+      1215,
+      "concrete measure fail",
+      52
+    ],
+    [
+      1216,
+      "concrete measure knob",
+      52
+    ],
+    [
+      1217,
+      "concrete pass fail",
+      52
+    ],
+    [
+      1218,
+      "concrete pass knob",
+      52
+    ],
+    [
+      1219,
+      "concrete fail pass",
+      52
+    ],
+    [
+      1220,
+      "concrete fail knob",
+      52
+    ],
+    [
+      1221,
+      "concrete knob pass",
+      52
+    ],
+    [
+      1222,
+      "concrete knob fail",
+      52
+    ],
+    [
+      1223,
+      "concrete reading pass",
+      52
+    ],
+    [
+      1224,
+      "concrete reading fail",
+      52
+    ],
+    [
+      1225,
+      "concrete reading knob",
+      52
+    ],
+    [
+      1226,
+      "measure pass fail",
+      51
+    ],
+    [
+      1227,
+      "measure pass knob",
+      51
+    ],
+    [
+      1228,
+      "measure pass reading",
+      51
+    ],
+    [
+      1229,
+      "measure fail knob",
+      51
+    ],
+    [
+      1230,
+      "measure fail reading",
+      51
+    ],
+    [
+      1231,
+      "measure knob fail",
+      51
+    ],
+    [
+      1232,
+      "measure knob reading",
+      51
+    ],
+    [
+      1233,
+      "measure reading fail",
+      51
+    ],
+    [
+      1234,
+      "measure reading knob",
+      51
+    ],
+    [
+      1235,
+      "measure instrument fail",
+      51
+    ],
+    [
+      1236,
+      "measure instrument knob",
+      51
+    ],
+    [
+      1237,
+      "measure instrument reading",
+      51
+    ],
+    [
+      1238,
+      "pass fail knob",
+      51
+    ],
+    [
+      1239,
+      "pass fail reading",
+      51
+    ],
+    [
+      1240,
+      "pass fail instrument",
+      51
+    ],
+    [
+      1241,
+      "pass knob reading",
+      51
+    ],
+    [
+      1242,
+      "pass knob instrument",
+      51
+    ],
+    [
+      1243,
+      "pass reading knob",
+      51
+    ],
+    [
+      1244,
+      "pass reading instrument",
+      51
+    ],
+    [
+      1245,
+      "pass instrument knob",
+      51
+    ],
+    [
+      1246,
+      "pass instrument reading",
+      51
+    ],
+    [
+      1247,
+      "pass scale knob",
+      51
+    ],
+    [
+      1248,
+      "pass scale reading",
+      51
+    ],
+    [
+      1249,
+      "pass scale instrument",
+      51
+    ],
+    [
+      1250,
+      "fail knob reading",
+      51
+    ],
+    [
+      1251,
+      "fail knob instrument",
+      50
+    ],
+    [
+      1252,
+      "fail knob scale",
+      50
+    ],
+    [
+      1253,
+      "fail reading instrument",
+      50
+    ],
+    [
+      1254,
+      "fail reading scale",
+      50
+    ],
+    [
+      1255,
+      "fail instrument reading",
+      50
+    ],
+    [
+      1256,
+      "fail instrument scale",
+      50
+    ],
+    [
+      1257,
+      "fail scale reading",
+      50
+    ],
+    [
+      1258,
+      "fail scale instrument",
+      50
+    ],
+    [
+      1259,
+      "fail unit reading",
+      50
+    ],
+    [
+      1260,
+      "fail unit instrument",
+      50
+    ],
+    [
+      1261,
+      "fail unit scale",
+      50
+    ],
+    [
+      1262,
+      "knob reading instrument",
+      50
+    ],
+    [
+      1263,
+      "knob reading scale",
+      50
+    ],
+    [
+      1264,
+      "knob reading unit",
+      50
+    ],
+    [
+      1265,
+      "knob instrument scale",
+      50
+    ],
+    [
+      1266,
+      "knob instrument unit",
+      50
+    ],
+    [
+      1267,
+      "knob scale instrument",
+      50
+    ],
+    [
+      1268,
+      "knob scale unit",
+      50
+    ],
+    [
+      1269,
+      "knob unit instrument",
+      50
+    ],
+    [
+      1270,
+      "knob unit scale",
+      50
+    ],
+    [
+      1271,
+      "knob motion instrument",
+      50
+    ],
+    [
+      1272,
+      "knob motion scale",
+      50
+    ],
+    [
+      1273,
+      "knob motion unit",
+      50
+    ],
+    [
+      1274,
+      "reading instrument scale",
+      50
+    ],
+    [
+      1275,
+      "reading instrument unit",
+      50
+    ],
+    [
+      1276,
+      "reading instrument motion",
+      49
+    ],
+    [
+      1277,
+      "reading scale unit",
+      49
+    ],
+    [
+      1278,
+      "reading scale motion",
+      49
+    ],
+    [
+      1279,
+      "reading unit scale",
+      49
+    ],
+    [
+      1280,
+      "reading unit motion",
+      49
+    ],
+    [
+      1281,
+      "reading motion scale",
+      49
+    ],
+    [
+      1282,
+      "reading motion unit",
+      49
+    ],
+    [
+      1283,
+      "reading energy scale",
+      49
+    ],
+    [
+      1284,
+      "reading energy unit",
+      49
+    ],
+    [
+      1285,
+      "reading energy motion",
+      49
+    ],
+    [
+      1286,
+      "instrument scale unit",
+      49
+    ],
+    [
+      1287,
+      "instrument scale motion",
+      49
+    ],
+    [
+      1288,
+      "instrument scale energy",
+      49
+    ],
+    [
+      1289,
+      "instrument unit motion",
+      49
+    ],
+    [
+      1290,
+      "instrument unit energy",
+      49
+    ],
+    [
+      1291,
+      "instrument motion unit",
+      49
+    ],
+    [
+      1292,
+      "instrument motion energy",
+      49
+    ],
+    [
+      1293,
+      "instrument energy unit",
+      49
+    ],
+    [
+      1294,
+      "instrument energy motion",
+      49
+    ],
+    [
+      1295,
+      "instrument particle unit",
+      49
+    ],
+    [
+      1296,
+      "instrument particle motion",
+      49
+    ],
+    [
+      1297,
+      "instrument particle energy",
+      49
+    ],
+    [
+      1298,
+      "scale unit motion",
+      49
+    ],
+    [
+      1299,
+      "scale unit energy",
+      49
+    ],
+    [
+      1300,
+      "scale unit particle",
+      49
+    ],
+    [
+      1301,
+      "scale motion energy",
+      48
+    ],
+    [
+      1302,
+      "scale motion particle",
+      48
+    ],
+    [
+      1303,
+      "scale energy motion",
+      48
+    ],
+    [
+      1304,
+      "scale energy particle",
+      48
+    ],
+    [
+      1305,
+      "scale particle motion",
+      48
+    ],
+    [
+      1306,
+      "scale particle energy",
+      48
+    ],
+    [
+      1307,
+      "scale field motion",
+      48
+    ],
+    [
+      1308,
+      "scale field energy",
+      48
+    ],
+    [
+      1309,
+      "scale field particle",
+      48
+    ],
+    [
+      1310,
+      "unit motion energy",
+      48
+    ],
+    [
+      1311,
+      "unit motion particle",
+      48
+    ],
+    [
+      1312,
+      "unit motion field",
+      48
+    ],
+    [
+      1313,
+      "unit energy particle",
+      48
+    ],
+    [
+      1314,
+      "unit energy field",
+      48
+    ],
+    [
+      1315,
+      "unit particle energy",
+      48
+    ],
+    [
+      1316,
+      "unit particle field",
+      48
+    ],
+    [
+      1317,
+      "unit field energy",
+      48
+    ],
+    [
+      1318,
+      "unit field particle",
+      48
+    ],
+    [
+      1319,
+      "unit hands energy",
+      48
+    ],
+    [
+      1320,
+      "unit hands particle",
+      48
+    ],
+    [
+      1321,
+      "unit hands field",
+      48
+    ],
+    [
+      1322,
+      "motion energy particle",
+      48
+    ],
+    [
+      1323,
+      "motion energy field",
+      48
+    ],
+    [
+      1324,
+      "motion energy hands",
+      48
+    ],
+    [
+      1325,
+      "motion particle field",
+      48
+    ],
+    [
+      1326,
+      "motion particle hands",
+      47
+    ],
+    [
+      1327,
+      "motion field particle",
+      47
+    ],
+    [
+      1328,
+      "motion field hands",
+      47
+    ],
+    [
+      1329,
+      "motion hands particle",
+      47
+    ],
+    [
+      1330,
+      "motion hands field",
+      47
+    ],
+    [
+      1331,
+      "motion worked particle",
+      47
+    ],
+    [
+      1332,
+      "motion worked field",
+      47
+    ],
+    [
+      1333,
+      "motion worked hands",
+      47
+    ],
+    [
+      1334,
+      "energy particle field",
+      47
+    ],
+    [
+      1335,
+      "energy particle hands",
+      47
+    ],
+    [
+      1336,
+      "energy particle worked",
+      47
+    ],
+    [
+      1337,
+      "energy field hands",
+      47
+    ],
+    [
+      1338,
+      "energy field worked",
+      47
+    ],
+    [
+      1339,
+      "energy hands field",
+      47
+    ],
+    [
+      1340,
+      "energy hands worked",
+      47
+    ],
+    [
+      1341,
+      "energy worked field",
+      47
+    ],
+    [
+      1342,
+      "energy worked hands",
+      47
+    ],
+    [
+      1343,
+      "energy cargo cult science field",
+      47
+    ],
+    [
+      1344,
+      "energy cargo cult science hands",
+      47
+    ],
+    [
+      1345,
+      "energy cargo cult science worked",
+      47
+    ],
+    [
+      1346,
+      "mini-MMM shapes voice",
+      100
+    ],
+    [
+      1347,
+      "mini MMM voice shape",
+      100
+    ],
+    [
+      1348,
+      "voice shaped by nouns",
+      100
+    ],
+    [
+      1349,
+      "aligned nouns shape voice",
+      100
+    ],
+    [
+      1350,
+      "correlated thinkers shape voice",
+      100
+    ]
+  ]
+}

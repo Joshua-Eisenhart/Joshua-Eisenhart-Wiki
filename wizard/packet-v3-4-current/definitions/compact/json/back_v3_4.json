@@ -1,0 +1,20 @@
+{
+  "id": "BACK",
+  "name": "Back",
+  "emoji": "⬅️",
+  "category": "lanes",
+  "scale": "lane",
+  "purpose": "return",
+  "unique_job": "return to a real previous decision surface when one exists",
+  "non_job": "Do not become decorative or unreceipted.",
+  "inputs": "prior fork, skipped evidence, user correction, unresolved decision",
+  "outputs": "recovered decision surface, resumed branch, or proof that no back route exists",
+  "subagent_contract": "If visible as ran, Back needs spawned/blocked/deferred/simulated truth and a receipt naming recovered surface, reason for return, and condition to move forward again.",
+  "receipt_requirement": "Visible route status must be exactly spawned, blocked, deferred, or simulated. Spawned receipts name unit_id, unit_type, wave, mini-MMM loaded path, task card, checked, concluded, open, evidence, and artifact/output. Blocked/deferred receipts name reason and condition_to_run.",
+  "collapse_signs": "Back appears when there is no real prior decision surface.",
+  "nearest_neighbors": [
+    "Reframe",
+    "Direct",
+    "Audit"
+  ]
+}

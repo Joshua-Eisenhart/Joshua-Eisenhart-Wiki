@@ -1,0 +1,919 @@
+{
+  "words": [
+    [
+      1,
+      "done condition",
+      100
+    ],
+    [
+      2,
+      "closeout",
+      100
+    ],
+    [
+      3,
+      "plain wording",
+      100
+    ],
+    [
+      4,
+      "stale surface",
+      100
+    ],
+    [
+      5,
+      "evidence missing",
+      100
+    ],
+    [
+      6,
+      "audit overclaim",
+      100
+    ],
+    [
+      7,
+      "trust boundary",
+      100
+    ],
+    [
+      8,
+      "bottleneck",
+      100
+    ],
+    [
+      9,
+      "done",
+      100
+    ],
+    [
+      10,
+      "safe",
+      100
+    ],
+    [
+      11,
+      "close",
+      100
+    ],
+    [
+      12,
+      "all-c",
+      100
+    ],
+    [
+      13,
+      "closure",
+      100
+    ],
+    [
+      14,
+      "wording",
+      100
+    ],
+    [
+      15,
+      "security",
+      100
+    ],
+    [
+      16,
+      "factory",
+      100
+    ],
+    [
+      17,
+      "cleanup",
+      100
+    ],
+    [
+      18,
+      "threats",
+      100
+    ],
+    [
+      19,
+      "orwell",
+      100
+    ],
+    [
+      20,
+      "landed",
+      100
+    ],
+    [
+      21,
+      "boundaries",
+      100
+    ],
+    [
+      22,
+      "block",
+      100
+    ],
+    [
+      23,
+      "exploration",
+      100
+    ],
+    [
+      24,
+      "redesign",
+      100
+    ],
+    [
+      25,
+      "ceremonial",
+      100
+    ],
+    [
+      26,
+      "closing",
+      100
+    ],
+    [
+      27,
+      "creates",
+      100
+    ],
+    [
+      28,
+      "theater",
+      100
+    ],
+    [
+      29,
+      "campaign",
+      100
+    ],
+    [
+      30,
+      "frame",
+      100
+    ],
+    [
+      31,
+      "game",
+      100
+    ],
+    [
+      32,
+      "live",
+      100
+    ],
+    [
+      33,
+      "long",
+      100
+    ],
+    [
+      34,
+      "options",
+      100
+    ],
+    [
+      35,
+      "path",
+      100
+    ],
+    [
+      36,
+      "plurality",
+      100
+    ],
+    [
+      37,
+      "reframe",
+      100
+    ],
+    [
+      38,
+      "retreat",
+      100
+    ],
+    [
+      39,
+      "strategy",
+      100
+    ],
+    [
+      40,
+      "surprise",
+      100
+    ],
+    [
+      41,
+      "wildcard",
+      100
+    ],
+    [
+      42,
+      "zhuangzi",
+      100
+    ],
+    [
+      43,
+      "final bounded move",
+      98
+    ],
+    [
+      44,
+      "concrete wording",
+      98
+    ],
+    [
+      45,
+      "readability check",
+      98
+    ],
+    [
+      46,
+      "security check",
+      98
+    ],
+    [
+      47,
+      "handoff check",
+      98
+    ]
+  ],
+  "couplings": [
+    [
+      1,
+      "closeout hygiene",
+      100
+    ],
+    [
+      2,
+      "done condition plain wording",
+      100
+    ],
+    [
+      3,
+      "done condition stale surface",
+      100
+    ],
+    [
+      4,
+      "done condition trust boundary",
+      100
+    ],
+    [
+      5,
+      "done condition bottleneck",
+      100
+    ],
+    [
+      6,
+      "done condition audit overclaim",
+      100
+    ],
+    [
+      7,
+      "done condition evidence missing",
+      100
+    ],
+    [
+      8,
+      "done condition",
+      100
+    ],
+    [
+      9,
+      "closeout security",
+      100
+    ],
+    [
+      10,
+      "closeout factory",
+      100
+    ],
+    [
+      11,
+      "closeout audit",
+      100
+    ],
+    [
+      12,
+      "closeout done",
+      100
+    ],
+    [
+      13,
+      "closeout condition",
+      100
+    ],
+    [
+      14,
+      "closeout cleanup",
+      100
+    ],
+    [
+      15,
+      "condition done condition",
+      100
+    ],
+    [
+      16,
+      "cleanup done condition",
+      100
+    ],
+    [
+      17,
+      "bundle done condition",
+      100
+    ],
+    [
+      18,
+      "safe done condition",
+      100
+    ],
+    [
+      19,
+      "close done condition",
+      100
+    ],
+    [
+      20,
+      "landed done condition",
+      100
+    ],
+    [
+      21,
+      "artifact done condition",
+      100
+    ],
+    [
+      22,
+      "plain wording stale surface",
+      100
+    ],
+    [
+      23,
+      "plain wording trust boundary",
+      100
+    ],
+    [
+      24,
+      "plain wording bottleneck",
+      100
+    ],
+    [
+      25,
+      "plain wording audit overclaim",
+      100
+    ],
+    [
+      26,
+      "stale surface trust boundary",
+      100
+    ],
+    [
+      27,
+      "stale surface bottleneck",
+      100
+    ],
+    [
+      28,
+      "stale surface audit overclaim",
+      100
+    ],
+    [
+      29,
+      "trust boundary bottleneck",
+      100
+    ],
+    [
+      30,
+      "trust boundary audit overclaim",
+      100
+    ],
+    [
+      31,
+      "factory audit",
+      100
+    ],
+    [
+      32,
+      "bottleneck audit overclaim",
+      100
+    ],
+    [
+      33,
+      "done condition under",
+      100
+    ],
+    [
+      34,
+      "plain wording evidence missing",
+      100
+    ],
+    [
+      35,
+      "stale surface evidence missing",
+      100
+    ],
+    [
+      36,
+      "trust boundary evidence missing",
+      100
+    ],
+    [
+      37,
+      "bottleneck evidence missing",
+      100
+    ],
+    [
+      38,
+      "evidence missing audit overclaim",
+      100
+    ],
+    [
+      39,
+      "campaign frame",
+      100
+    ],
+    [
+      40,
+      "live options",
+      100
+    ],
+    [
+      41,
+      "long game",
+      100
+    ],
+    [
+      42,
+      "noncollapse route",
+      100
+    ],
+    [
+      43,
+      "plurality strategy",
+      100
+    ],
+    [
+      44,
+      "reframe wildcard",
+      100
+    ],
+    [
+      45,
+      "retreat option",
+      100
+    ],
+    [
+      46,
+      "strategy campaign",
+      100
+    ],
+    [
+      47,
+      "surprise path",
+      100
+    ],
+    [
+      48,
+      "zhuangzi plurality",
+      100
+    ],
+    [
+      49,
+      "under closeout",
+      94
+    ],
+    [
+      50,
+      "under done condition",
+      94
+    ],
+    [
+      51,
+      "within closeout",
+      94
+    ],
+    [
+      52,
+      "under plain wording",
+      94
+    ],
+    [
+      53,
+      "within done condition",
+      93
+    ],
+    [
+      54,
+      "across closeout",
+      93
+    ],
+    [
+      55,
+      "across done condition",
+      93
+    ],
+    [
+      56,
+      "between closeout",
+      93
+    ],
+    [
+      57,
+      "between done condition",
+      93
+    ],
+    [
+      58,
+      "within plain wording",
+      93
+    ],
+    [
+      59,
+      "across plain wording",
+      93
+    ],
+    [
+      60,
+      "between plain wording",
+      93
+    ],
+    [
+      61,
+      "through closeout",
+      92
+    ],
+    [
+      62,
+      "through done condition",
+      92
+    ],
+    [
+      63,
+      "before closeout",
+      92
+    ],
+    [
+      64,
+      "before done condition",
+      92
+    ],
+    [
+      65,
+      "after closeout",
+      92
+    ],
+    [
+      66,
+      "after done condition",
+      91
+    ],
+    [
+      67,
+      "from closeout",
+      91
+    ],
+    [
+      68,
+      "from done condition",
+      91
+    ],
+    [
+      69,
+      "by closeout",
+      90
+    ],
+    [
+      70,
+      "by done condition",
+      90
+    ],
+    [
+      71,
+      "with closeout",
+      90
+    ],
+    [
+      72,
+      "with done condition",
+      90
+    ],
+    [
+      73,
+      "without closeout",
+      90
+    ],
+    [
+      74,
+      "without done condition",
+      89
+    ],
+    [
+      75,
+      "against closeout",
+      89
+    ],
+    [
+      76,
+      "against done condition",
+      89
+    ],
+    [
+      77,
+      "control-law security",
+      97
+    ],
+    [
+      78,
+      "bottleneck handoff",
+      97
+    ]
+  ],
+  "triplets": [
+    [
+      1,
+      "locally done condition plain wording",
+      100
+    ],
+    [
+      2,
+      "locally done condition stale surface",
+      100
+    ],
+    [
+      3,
+      "locally done condition trust boundary",
+      100
+    ],
+    [
+      4,
+      "locally done condition bottleneck",
+      100
+    ],
+    [
+      5,
+      "locally done condition audit overclaim",
+      100
+    ],
+    [
+      6,
+      "locally done condition evidence missing",
+      100
+    ],
+    [
+      7,
+      "under closeout security",
+      100
+    ],
+    [
+      8,
+      "under closeout factory",
+      100
+    ],
+    [
+      9,
+      "under closeout audit",
+      100
+    ],
+    [
+      10,
+      "locally done condition under",
+      100
+    ],
+    [
+      11,
+      "rather plain wording stale surface",
+      100
+    ],
+    [
+      12,
+      "rather plain wording trust boundary",
+      100
+    ],
+    [
+      13,
+      "still bottleneck audit overclaim",
+      100
+    ],
+    [
+      14,
+      "still bottleneck evidence missing",
+      100
+    ],
+    [
+      15,
+      "likely evidence missing audit overclaim",
+      100
+    ],
+    [
+      16,
+      "between factory audit",
+      100
+    ],
+    [
+      17,
+      "by bundle stale surface",
+      100
+    ],
+    [
+      18,
+      "with safe stale surface",
+      100
+    ],
+    [
+      19,
+      "with safe trust boundary",
+      100
+    ],
+    [
+      20,
+      "without close stale surface",
+      100
+    ],
+    [
+      21,
+      "without close trust boundary",
+      100
+    ],
+    [
+      22,
+      "campaign frame surprise",
+      100
+    ],
+    [
+      23,
+      "live options strategy",
+      100
+    ],
+    [
+      24,
+      "long game plurality",
+      100
+    ],
+    [
+      25,
+      "noncollapse strategy route",
+      100
+    ],
+    [
+      26,
+      "reframe wildcard zhuangzi",
+      100
+    ],
+    [
+      27,
+      "retreat option path",
+      100
+    ],
+    [
+      28,
+      "rather plain wording evidence missing",
+      99
+    ],
+    [
+      29,
+      "rather plain wording audit overclaim",
+      99
+    ],
+    [
+      30,
+      "instead stale surface trust boundary",
+      99
+    ],
+    [
+      31,
+      "instead stale surface bottleneck",
+      99
+    ],
+    [
+      32,
+      "instead stale surface evidence missing",
+      99
+    ],
+    [
+      33,
+      "instead stale surface audit overclaim",
+      99
+    ],
+    [
+      34,
+      "only trust boundary bottleneck",
+      99
+    ],
+    [
+      35,
+      "only trust boundary evidence missing",
+      99
+    ],
+    [
+      36,
+      "only trust boundary audit overclaim",
+      99
+    ],
+    [
+      37,
+      "under closeout hygiene",
+      94
+    ],
+    [
+      38,
+      "under closeout done",
+      94
+    ],
+    [
+      39,
+      "under closeout condition",
+      94
+    ],
+    [
+      40,
+      "under closeout cleanup",
+      94
+    ],
+    [
+      41,
+      "before done condition",
+      93
+    ],
+    [
+      42,
+      "without close bottleneck",
+      92
+    ],
+    [
+      43,
+      "after condition done condition",
+      89
+    ],
+    [
+      44,
+      "from cleanup done condition",
+      89
+    ],
+    [
+      45,
+      "from cleanup plain wording",
+      89
+    ],
+    [
+      46,
+      "by bundle done condition",
+      88
+    ],
+    [
+      47,
+      "with safe done condition",
+      88
+    ],
+    [
+      48,
+      "without close done condition",
+      88
+    ],
+    [
+      49,
+      "against landed done condition",
+      88
+    ],
+    [
+      50,
+      "relative artifact done condition",
+      88
+    ],
+    [
+      51,
+      "by bundle plain wording",
+      88
+    ],
+    [
+      52,
+      "with safe plain wording",
+      88
+    ],
+    [
+      53,
+      "without close plain wording",
+      88
+    ],
+    [
+      54,
+      "against landed plain wording",
+      88
+    ],
+    [
+      55,
+      "rather plain wording bottleneck",
+      87
+    ],
+    [
+      56,
+      "wording hygiene security",
+      96
+    ]
+  ],
+  "v4_1_salience_expansion": {
+    "source": "deep-research-report.md",
+    "status": "positive salience only; no diagnostic/provenance boot",
+    "route": "ALL_C",
+    "size": "compact"
+  }
+}

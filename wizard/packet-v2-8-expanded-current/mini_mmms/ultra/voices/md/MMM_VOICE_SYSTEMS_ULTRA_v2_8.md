@@ -1,0 +1,173 @@
+# MMM_VOICE_SYSTEMS_ULTRA_v2_8
+
+## words
+- mini-MMM :: 100
+- mini MMM :: 100
+- voice shape :: 100
+- voice shaping :: 100
+- shape voice :: 100
+- shaped voice :: 100
+- voice contour :: 100
+- voice signature :: 100
+- voice localizer :: 100
+- local voice :: 100
+- aligned nouns :: 100
+- correlated thinkers :: 100
+- thinker alignment :: 100
+- noun alignment :: 100
+
+- feedback :: 100
+- incentive :: 100
+- interaction :: 100
+- propagation :: 100
+- feedback loop :: 100
+- reinforcing loop :: 100
+- balancing loop :: 100
+- dependency :: 100
+- coupling :: 100
+- structure :: 100
+- loop :: 100
+- system structure :: 100
+- environment :: 100
+- emergence :: 100
+- selection :: 100
+- network :: 100
+- node :: 100
+- edge :: 100
+- balancing :: 100
+- reinforcing :: 100
+- second-order :: 100
+- emergent :: 100
+- system :: 100
+- stock :: 100
+- flow :: 100
+- delay :: 100
+- parameter :: 100
+- leverage :: 100
+
+## couplings
+
+- loop boundary :: 100
+- loop constraint :: 100
+- feedback boundary :: 100
+- feedback constraint :: 100
+- incentive boundary :: 100
+- incentive constraint :: 100
+- structure boundary :: 100
+- structure constraint :: 100
+- interaction boundary :: 100
+- interaction constraint :: 100
+- propagation boundary :: 100
+- propagation constraint :: 100
+- coupling boundary :: 100
+- coupling constraint :: 100
+- feedback loop :: 100
+- reinforcing loop :: 100
+- balancing loop :: 100
+- loop :: 100
+- loop evidence :: 100
+- loop support :: 100
+- loop path :: 100
+- loop surface :: 100
+- loop packet :: 100
+- loop receipt :: 100
+- loop trace :: 100
+- loop result :: 100
+- loop scope :: 100
+- loop status :: 100
+- loop candidate :: 100
+- loop witness :: 100
+- feedback :: 100
+- coupling :: 100
+- propagation :: 100
+- incentive :: 100
+- structure :: 100
+- dependency :: 100
+- interaction :: 100
+- loop probe :: 100
+- check loop :: 100
+- compare loop :: 100
+- observe loop :: 100
+- measure loop :: 100
+- test loop :: 100
+- verify loop :: 100
+- negative feedback :: 100
+- positive feedback :: 100
+- stock and flow :: 100
+- information flow :: 100
+
+## triplets
+
+- loop boundary path :: 100
+- feedback boundary path :: 100
+- incentive boundary path :: 100
+- structure boundary path :: 100
+- under environment loop :: 100
+- under boundary feedback :: 100
+- under boundary loop :: 100
+- under boundary coupling :: 100
+- under boundary incentive :: 100
+- under feedback loop :: 100
+- under loop coupling :: 100
+- under loop incentive :: 100
+- under loop emergence :: 100
+- stock flow feedback :: 100
+- goal rule incentive :: 100
+- loop delay response :: 100
+- system boundary coupling :: 100
+- leverage point intervention :: 100
+- information flow access :: 100
+- positive feedback growth :: 100
+- negative feedback correction :: 100
+- second order effect :: 100
+- emergent behavior pattern :: 100
+- self organization structure :: 100
+- rules goals paradigm :: 100
+- incentive selection pressure :: 100
+- coupling propagation path :: 100
+- under environment feedback :: 90
+- under environment coupling :: 90
+- under feedback coupling :: 90
+- under feedback incentive :: 90
+- under feedback emergence :: 90
+- under coupling incentive :: 90
+- under coupling emergence :: 90
+## voice noun reservoir stabilization addendum
+- voice method :: 100
+- voice evidence :: 100
+- voice judgment :: 100
+- voice task :: 100
+- voice receipt :: 100
+- voice finding :: 100
+- voice constraint :: 100
+- voice noun :: 100
+- voice verb :: 100
+- voice signal :: 100
+- voice contrast :: 100
+- voice boundary :: 100
+- voice contribution :: 100
+- mini mmm loaded :: 100
+- loaded mini mmm :: 100
+- assigned mini mmm :: 100
+- local voice context :: 100
+- voice-specific nouns :: 100
+- method nouns :: 100
+- reader stance :: 100
+- decision stance :: 100
+- audit stance :: 100
+- build stance :: 100
+- repair stance :: 100
+- acceptance stance :: 100
+- subagent voice :: 100
+- voice worker :: 100
+- voice proof :: 100
+- distinct output :: 100
+- behavioral pull :: 100
+- salience pull :: 100
+- voice usefulness :: 100
+- output repair :: 100
+- system repair :: 100
+- mmm stability :: 100
+- wizard stability :: 100
+- qit support :: 100
+- sim support :: 100

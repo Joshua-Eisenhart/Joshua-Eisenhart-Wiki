@@ -1,0 +1,12 @@
+{
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/mmm_wizard_complete_system_packet_v2_8_expanded_candidate",
+  "checked": "loaded mini_mmms/ultra/lanes/md/MMM_LANE_REPO_HYGIENE_ULTRA_v2_8.md",
+  "concluded": "Lane result: clean drift, bloat, stale wording, duplicate surfaces, and receipt confusion while preserving substance.",
+  "evidence": "mini_mmms/ultra/lanes/md/MMM_LANE_REPO_HYGIENE_ULTRA_v2_8.md terms: dead file :: 100, naming drift :: 100, duplicate :: 100, cleanup :: 100, stale :: 100, naming :: 100, orphan :: 100, active contract :: 100",
+  "generated_at": "2026-04-28T22:36:04.141073+00:00",
+  "lane": "Hygiene",
+  "open": "live proof pending",
+  "output_excerpt": "Task: Compare Wizard General sizes and choose the best local runtime surface.\nWizard General size: ultra\nWave 8: Follow-up Run/Scout Wave\nLane result: clean drift, bloat, stale wording, duplicate surfaces, and receipt confusion while preserving substance.\nLoaded language body terms: dead file :: 100, naming drift :: 100, duplicate :: 100, cleanup :: 100, stale :: 100, naming :: 100, orphan :: 100, active contract :: 100",
+  "output_sha256": "96eeb25d5811d57adf36c63c08ef1e4a75833d99e42d5378c5893dd59df0bc61",
+  "schema_version": "wizard_behavior_harness.v1"
+}

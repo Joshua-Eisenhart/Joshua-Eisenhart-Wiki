@@ -1,0 +1,553 @@
+---
+title: Mmm Main Ultra V2 7
+created: 2026-04-28
+updated: 2026-04-28
+type: concept
+tags: [wizard, mmm, packet, receipt]
+framing: current
+source_path: main_mmm/ultra/md/MMM_MAIN_ULTRA_v2_7.md
+---
+
+# MMM_MAIN_ULTRA_v2_7
+
+## aligned nouns and phrases
+
+- load-bearing tool
+- skip-ahead guard
+- live reading
+- separate readings
+- receipt truth
+- claim ceiling
+- support level
+- constraint-admissibility
+- probe family
+- status ladder
+- bounded work
+- admission gate
+- local rerun
+- canonical label
+- tool integration
+- proof witness
+- z3 unsat
+- graph evidence
+- qit engine
+- sim frontier
+- negative battery
+- behavior comparison
+- held apart
+- mini mmm loaded
+- task after language body
+- final output check
+- schema typed row
+- abuse path
+- active contract
+- alternate reading
+- alternative route
+- artifact path
+- audit finding
+- audit overclaim
+- audit result
+- balancing loop
+- bold conjecture
+- bounded exclusion
+- branch context
+- cheap test
+- choke point
+- collapse audit
+- conjectures and refutations
+- controller act
+- current-turn
+- cut a word
+- cycle time
+- dead file
+- dead phrase
+- decisive check
+- decisive front
+- different assumption
+- different problem
+- direct move
+- does not follow
+- done condition
+- drift condition
+- bottleneck control
+- edge case
+- edge move
+- evidence missing
+- failure condition
+- false binary
+- feedback loop
+- first move
+- hidden premise
+- human read
+- independent route
+- loaded phrasing
+- least privilege
+- live readings
+- live remainder
+- loop or sequence
+- many perspectives
+- method collapsed
+- method executed
+- mis-scoped
+- model family
+- naming drift
+- non-forcing
+- observable check
+- outside frame
+- plain english
+- plain wording
+- preserved difference
+- previous surface
+- primary answer
+- prior branch
+- queue length
+- real measurement
+- receipt changed
+- refuted claim
+- registry-backed
+- reinforcing loop
+- retreat condition
+- return trigger
+- risky claim
+- risky prediction
+- role-family
+- route status
+- language body
+- search clarity
+- second path
+- second-order
+- severe test
+- short word
+- simple case
+- simple example
+- small experiment
+- smaller move
+- smaller question
+- soft word
+- split retained
+- bounded claim
+- evidence label
+- lane separation
+- runtime registry
+- worker receipt
+- blocked truth
+- deferred truth
+- spawned truth
+- anti collapse
+- input path
+- followup audit
+- taxonomy clean
+- boot scope
+- provenance note
+- independent variant
+- behavior probe
+- better if
+- follow-up
+- acceptance
+- access
+- accommodation
+- action
+- admissible
+- advance
+- alignment
+- alternate
+- alternative
+- angle
+- anomaly
+- answer
+- anti
+- apparatus
+- artifact
+- assumption
+- asymmetric
+- audit
+- backup
+- balancing
+- baseline
+- bet
+- blocked
+- blocker
+- bottleneck
+- boundary
+- bounded
+- branch
+- bridge
+- buffer
+- calibration
+- campaign
+- capacity
+- carry
+- carryforward
+- challenge
+- cheap
+- check
+- choice
+- claim
+- clarity
+- clean
+- cleanup
+- clear
+- close
+- closeout
+- coexisting
+- collapse
+- compare
+- comparison
+- compose
+- composition
+- concern
+- concluded
+- concrete
+- condition
+- conditional
+- conjecture
+- context
+- contradiction
+- control
+- core
+- correction
+- cost
+- council
+- counterexample
+- counterinstance
+- coupling
+- creative
+- credential
+- criticism
+- cut
+- dead
+- debt
+- decision
+- decisive
+- default
+- defer
+- deferred
+- delay
+- deliverable
+- demarcation
+- deny
+- dependency
+- deprecated
+- derived
+- diagnostic
+- different
+- direct
+- disagree
+- disagreement
+- dissent
+- distinct
+- divergent
+- done
+- door
+- drift
+- duplicate
+- duplication
+- earlier
+- edge
+- emergence
+- emergent
+- enough
+- environment
+- euphemism
+- evidence
+- exact
+- example
+- excluded
+- experience
+- experiment
+- exposure
+- external
+- factory
+- fallback
+- falsifiability
+- falsification
+- falsifier
+- family
+- feedback
+- file
+- finding
+- flow
+
+## correlated thinkers
+
+- Feynman
+- Hume
+- Zhuangzi
+- Popper
+- Orwell
+
+## correlated couplings
+
+- graph evidence before bridge claim
+- tool integration before nonclassical sim
+- local winner before pairwise coupling
+- wiki source of truth
+- packet derived from wiki
+- proof gate before promotion
+- council whole-context triad
+- direct move alternative route
+- direct move audit result
+- direct move loop or sequence
+- direct move observable check
+- direct move retreat condition
+- direct move risky claim
+- done condition audit overclaim
+- done condition evidence missing
+- done condition plain wording
+- done condition trust boundary
+- human read collapse audit
+- human read live readings
+- human read surviving split
+- human read wildcard probe
+- live readings collapse audit
+- live readings surviving split
+- live readings wildcard probe
+- model family independent route
+- registry whole-context triad
+- bounded forward check
+- core claim pressure
+- council primary answer
+- cross model check
+- different path clear
+- direct plus falsifier
+- done condition bottleneck
+- final output check
+- human read falsifier
+- human read observable
+- left field check
+- live readings falsifier
+- live readings observable
+- local present perspective
+- minimum viable move
+- model family comparison
+- non obvious probe
+- plain testable route
+- registry primary answer
+- shortest defensible answer
+- smallest useful step
+- acceptance check
+- access control
+- accommodate difference
+- active verb
+- actual experience
+- advance with test
+- alternate reading
+- alternative option
+- alternative route
+- alternative tradeoff
+- anomaly probe
+- assumption reset
+- assumption shift
+- asymmetric upside
+- audit evidence
+- audit finding
+- audit receipt
+- audit trace
+- authz failure
+- background knowledge
+- balancing loop
+- basic statement
+- blocked diagnostic
+- blocked model
+- blocked untried
+- bold conjecture
+- bottleneck boundary
+- bottleneck clarity
+- bottleneck constraint
+- bottleneck evidence
+- bottleneck packet
+- bottleneck probe
+- bottleneck receipt
+- bottleneck result
+- bottleneck scope
+- bottleneck support
+- bottleneck trace
+- bottleneck witness
+- boundary check
+- boundary failure
+- boundary redraw
+- boundary scope
+- bridge boundary
+- bridge constraint
+- bridge evidence
+- bridge handoff
+- bridge layer
+- bridge packet
+- bridge probe
+- bridge receipt
+- bridge result
+- bridge scope
+- bridge support
+- bridge trace
+- bridge witness
+- campaign boundary
+- campaign direction
+- campaign evidence
+- campaign frame
+- campaign packet
+- campaign receipt
+- campaign result
+- campaign scope
+- campaign support
+- campaign trace
+- campaign witness
+- carry forward
+- challenge boundary
+- challenge scope
+- changed question
+- checked state
+- choke point
+- clean evidence
+- clean receipt
+- clean trace
+- cleanup target
+- closeout hygiene
+- collapse evidence
+- collapse receipt
+- collapse resistance
+- collapse trace
+- compare alternative
+- compare bottleneck
+- compare bridge
+- compare deliverable
+- compare exposure
+- compare falsifier
+- compare finding
+- compare fork
+- compare hold
+- compare loop
+- compare measure
+- compare observable
+- compare operation
+- compare plain
+- compare preserve
+- compare procedure
+- compare reframe
+- compare route
+- compare setup
+- compare stale
+- compare test
+- compare tradeoff
+- compare unexpected
+- compare viable
+- comparison route
+- compose carry
+- compose composition
+- compose distinct
+- compose preserve
+- compose receipt
+- compose tension
+- composition step
+- concern boundary
+- concern scope
+- concrete deliverable
+- concrete terms
+- conjecture and refutation
+- context prompt
+- context shift
+- controller act
+- controller synthesis
+- correction boundary
+- cost benefit
+- council audit
+- council disagreement
+- council dissent
+- council follow-up
+- council registry
+- council route
+- council split
+- council wave
+- counter instance
+
+## three-part cues
+
+- alternative factory Feynman
+- direct Hume Popper
+- wiki packet adapter
+- sim proof graph
+- local pairwise bridge
+- tool lego engine
+- likely alternative route audit result
+- locally core direct move
+- locally done condition audit overclaim
+- locally done condition bottleneck
+- locally done condition evidence missing
+- locally done condition plain wording
+- locally done condition trust boundary
+- locally previous surface branch context
+- locally previous surface navigation
+- locally previous surface target
+- possible wildcard probe collapse audit
+- rather direct move audit result
+- still falsifier collapse audit
+- still falsifier surviving split
+- still falsifier wildcard probe
+- instead human read collapse audit
+- instead human read falsifier
+- instead human read live readings
+- instead human read wildcard probe
+- only live readings falsifier
+- only live readings observable
+- only live readings wildcard probe
+- rather direct move observable check
+- rather direct move risky claim
+- relative motion direct move
+- rather direct move alternative route
+- rather direct move retreat condition
+- instead human read observable
+- instead human read surviving split
+- access control boundary
+- accommodation cooperation difference
+- active verb noun
+- actual experience formulation
+- alternative path viable
+- anomaly probe option
+- anomaly remains open
+- answer first action
+- apparatus measurement trace
+- assumption boundary redraw
+- asymmetric upside test
+- authz failure route
+- background knowledge challenged
+- basic statement evidence
+- blocked diagnostic untried
+- bottleneck queue flow
+- bottleneck test plain
+- bounded forward check
+- branch comparison result
+- campaign frame surprise
+- campaign sequence reinput
+- challenge reason correction
+- changed question context
+- checked concluded open
+- claim falsifier check
+- cloudy vagueness blocked
+- collapse detection audit
+- collapse resistance check
+- commitment cost risk
+- common life evidence
+- compare alternative receipt
+- compare audit receipt
+- compare bridge receipt
+- compare finding receipt
+- compare interface receipt
+- compare observable receipt
+- compare preserve receipt
+- compare procedure receipt
+- compare receipts compose
+- compare reframe receipt
+- compare tradeoff receipt
+- concrete example calculation
+- conjecture refutation test
+- context prompt bridge
+- cost benefit tradeoff
+- council receipt comparison
+- counterexample kills claim
+- cross model pressure
+- current target blocker
+- cut dead language
+- decisive front condition
+- deliverable acceptance check
+- deny default permission
+- dependency sequence order
+- details throw reserve

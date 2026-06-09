@@ -1,0 +1,12069 @@
+{
+  "words": [
+    [
+      1,
+      "plain",
+      100
+    ],
+    [
+      2,
+      "concrete",
+      100
+    ],
+    [
+      3,
+      "short",
+      100
+    ],
+    [
+      4,
+      "clear",
+      100
+    ],
+    [
+      5,
+      "cut",
+      100
+    ],
+    [
+      6,
+      "fog",
+      100
+    ],
+    [
+      7,
+      "euphemism",
+      100
+    ],
+    [
+      8,
+      "inflated",
+      100
+    ],
+    [
+      9,
+      "dead",
+      100
+    ],
+    [
+      10,
+      "phrase",
+      100
+    ],
+    [
+      11,
+      "jargon",
+      100
+    ],
+    [
+      12,
+      "bureaucratic",
+      100
+    ],
+    [
+      13,
+      "vague",
+      100
+    ],
+    [
+      14,
+      "muddy",
+      100
+    ],
+    [
+      15,
+      "pretentious",
+      100
+    ],
+    [
+      17,
+      "noun",
+      100
+    ],
+    [
+      18,
+      "image",
+      100
+    ],
+    [
+      19,
+      "metaphor",
+      100
+    ],
+    [
+      20,
+      "active",
+      100
+    ],
+    [
+      21,
+      "simple",
+      100
+    ],
+    [
+      22,
+      "verb",
+      100
+    ],
+    [
+      23,
+      "ordinary",
+      100
+    ],
+    [
+      24,
+      "word",
+      100
+    ],
+    [
+      25,
+      "exact",
+      100
+    ],
+    [
+      26,
+      "name",
+      99
+    ],
+    [
+      27,
+      "hard",
+      99
+    ],
+    [
+      28,
+      "soft",
+      99
+    ],
+    [
+      29,
+      "padding",
+      99
+    ],
+    [
+      30,
+      "cliche",
+      99
+    ],
+    [
+      31,
+      "stale",
+      99
+    ],
+    [
+      32,
+      "politics and english language",
+      99
+    ],
+    [
+      33,
+      "dying metaphor",
+      99
+    ],
+    [
+      34,
+      "verbal false limb",
+      99
+    ],
+    [
+      35,
+      "pretentious diction",
+      99
+    ],
+    [
+      36,
+      "meaningless word",
+      99
+    ],
+    [
+      37,
+      "cut a word",
+      99
+    ],
+    [
+      38,
+      "short word",
+      99
+    ],
+    [
+      39,
+      "active verb",
+      99
+    ],
+    [
+      40,
+      "plain english",
+      99
+    ],
+    [
+      41,
+      "stale image",
+      99
+    ],
+    [
+      42,
+      "remove",
+      99
+    ],
+    [
+      43,
+      "replace",
+      99
+    ],
+    [
+      44,
+      "direct",
+      99
+    ],
+    [
+      45,
+      "dead phrase",
+      99
+    ],
+    [
+      46,
+      "soft word",
+      99
+    ],
+    [
+      47,
+      "blocked",
+      99
+    ],
+    [
+      48,
+      "missing",
+      99
+    ],
+    [
+      49,
+      "wrong",
+      99
+    ],
+    [
+      50,
+      "inferred",
+      99
+    ],
+    [
+      51,
+      "untested",
+      98
+    ],
+    [
+      52,
+      "artifact",
+      98
+    ],
+    [
+      53,
+      "action",
+      98
+    ],
+    [
+      54,
+      "owner",
+      98
+    ],
+    [
+      55,
+      "test",
+      98
+    ],
+    [
+      56,
+      "prune",
+      98
+    ],
+    [
+      57,
+      "clean",
+      98
+    ],
+    [
+      58,
+      "blunt",
+      98
+    ],
+    [
+      59,
+      "visible",
+      98
+    ],
+    [
+      60,
+      "surface",
+      98
+    ],
+    [
+      61,
+      "under",
+      98
+    ],
+    [
+      62,
+      "within",
+      98
+    ],
+    [
+      63,
+      "across",
+      98
+    ],
+    [
+      64,
+      "between",
+      98
+    ],
+    [
+      65,
+      "through",
+      98
+    ],
+    [
+      66,
+      "before",
+      98
+    ],
+    [
+      67,
+      "after",
+      98
+    ],
+    [
+      68,
+      "until",
+      98
+    ],
+    [
+      69,
+      "where",
+      98
+    ],
+    [
+      70,
+      "while",
+      98
+    ],
+    [
+      71,
+      "against",
+      98
+    ],
+    [
+      72,
+      "along",
+      98
+    ],
+    [
+      73,
+      "around",
+      98
+    ],
+    [
+      74,
+      "among",
+      98
+    ],
+    [
+      75,
+      "inside",
+      98
+    ],
+    [
+      76,
+      "outside",
+      97
+    ],
+    [
+      77,
+      "near",
+      97
+    ],
+    [
+      78,
+      "beside",
+      97
+    ],
+    [
+      79,
+      "over",
+      97
+    ],
+    [
+      80,
+      "from",
+      97
+    ],
+    [
+      81,
+      "with",
+      97
+    ],
+    [
+      82,
+      "without",
+      97
+    ],
+    [
+      83,
+      "only",
+      97
+    ],
+    [
+      84,
+      "not",
+      97
+    ],
+    [
+      85,
+      "no",
+      97
+    ],
+    [
+      86,
+      "yet",
+      97
+    ],
+    [
+      87,
+      "then",
+      97
+    ],
+    [
+      88,
+      "current",
+      97
+    ],
+    [
+      89,
+      "actual",
+      97
+    ],
+    [
+      90,
+      "local",
+      97
+    ],
+    [
+      91,
+      "bounded",
+      97
+    ],
+    [
+      92,
+      "finite",
+      97
+    ],
+    [
+      93,
+      "open",
+      97
+    ],
+    [
+      94,
+      "live",
+      97
+    ],
+    [
+      95,
+      "distinct",
+      97
+    ],
+    [
+      96,
+      "observed",
+      97
+    ],
+    [
+      97,
+      "known",
+      97
+    ],
+    [
+      98,
+      "unknown",
+      97
+    ],
+    [
+      99,
+      "checked",
+      97
+    ],
+    [
+      100,
+      "narrow",
+      97
+    ],
+    [
+      101,
+      "small",
+      96
+    ],
+    [
+      102,
+      "warm",
+      96
+    ],
+    [
+      103,
+      "careful",
+      96
+    ],
+    [
+      104,
+      "honest",
+      96
+    ],
+    [
+      105,
+      "first",
+      96
+    ],
+    [
+      106,
+      "next",
+      96
+    ],
+    [
+      107,
+      "prior",
+      96
+    ],
+    [
+      108,
+      "later",
+      96
+    ],
+    [
+      109,
+      "separate",
+      96
+    ],
+    [
+      110,
+      "together",
+      96
+    ],
+    [
+      111,
+      "apart",
+      96
+    ],
+    [
+      112,
+      "held",
+      96
+    ],
+    [
+      113,
+      "returned",
+      96
+    ],
+    [
+      114,
+      "found",
+      96
+    ],
+    [
+      115,
+      "compared",
+      96
+    ],
+    [
+      116,
+      "measured",
+      96
+    ],
+    [
+      117,
+      "named",
+      96
+    ],
+    [
+      118,
+      "used",
+      96
+    ],
+    [
+      119,
+      "fit",
+      96
+    ],
+    [
+      120,
+      "viable",
+      96
+    ],
+    [
+      121,
+      "different",
+      96
+    ],
+    [
+      122,
+      "alternate",
+      96
+    ],
+    [
+      123,
+      "branch",
+      96
+    ],
+    [
+      124,
+      "path",
+      96
+    ],
+    [
+      125,
+      "packet",
+      96
+    ],
+    [
+      126,
+      "receipt",
+      95
+    ],
+    [
+      127,
+      "trace",
+      95
+    ],
+    [
+      128,
+      "result",
+      95
+    ],
+    [
+      129,
+      "support",
+      95
+    ],
+    [
+      130,
+      "evidence",
+      95
+    ],
+    [
+      131,
+      "scope",
+      95
+    ],
+    [
+      132,
+      "boundary",
+      95
+    ],
+    [
+      133,
+      "gate",
+      95
+    ],
+    [
+      134,
+      "guard",
+      95
+    ],
+    [
+      135,
+      "rung",
+      95
+    ],
+    [
+      136,
+      "status",
+      95
+    ],
+    [
+      137,
+      "candidate",
+      95
+    ],
+    [
+      138,
+      "survivor",
+      95
+    ],
+    [
+      139,
+      "witness",
+      95
+    ],
+    [
+      140,
+      "probe",
+      95
+    ],
+    [
+      141,
+      "constraint",
+      95
+    ],
+    [
+      142,
+      "term",
+      95
+    ],
+    [
+      143,
+      "use",
+      95
+    ],
+    [
+      144,
+      "role",
+      95
+    ],
+    [
+      145,
+      "practice",
+      95
+    ],
+    [
+      146,
+      "custom",
+      95
+    ],
+    [
+      147,
+      "habit",
+      95
+    ],
+    [
+      148,
+      "experience",
+      95
+    ],
+    [
+      149,
+      "observation",
+      95
+    ],
+    [
+      150,
+      "impression",
+      95
+    ],
+    [
+      151,
+      "idea",
+      94
+    ],
+    [
+      152,
+      "perception",
+      94
+    ],
+    [
+      153,
+      "conjunction",
+      94
+    ],
+    [
+      154,
+      "resemblance",
+      94
+    ],
+    [
+      155,
+      "relation",
+      94
+    ],
+    [
+      156,
+      "probability",
+      94
+    ],
+    [
+      157,
+      "particular",
+      94
+    ],
+    [
+      158,
+      "predicate",
+      94
+    ],
+    [
+      159,
+      "class",
+      94
+    ],
+    [
+      160,
+      "model",
+      94
+    ],
+    [
+      161,
+      "solver",
+      94
+    ],
+    [
+      162,
+      "satisfiable",
+      94
+    ],
+    [
+      163,
+      "unsatisfiable",
+      94
+    ],
+    [
+      164,
+      "countermodel",
+      94
+    ],
+    [
+      165,
+      "counterexample",
+      94
+    ],
+    [
+      166,
+      "equivalence",
+      94
+    ],
+    [
+      167,
+      "indistinguishable",
+      94
+    ],
+    [
+      168,
+      "readout",
+      94
+    ],
+    [
+      169,
+      "measure",
+      94
+    ],
+    [
+      170,
+      "measurement",
+      94
+    ],
+    [
+      171,
+      "operation",
+      94
+    ],
+    [
+      172,
+      "procedure",
+      94
+    ],
+    [
+      173,
+      "instrument",
+      94
+    ],
+    [
+      174,
+      "experiment",
+      94
+    ],
+    [
+      175,
+      "check",
+      94
+    ],
+    [
+      176,
+      "verify",
+      93
+    ],
+    [
+      177,
+      "compare",
+      93
+    ],
+    [
+      178,
+      "sample",
+      93
+    ],
+    [
+      179,
+      "route",
+      93
+    ],
+    [
+      180,
+      "lane",
+      93
+    ],
+    [
+      181,
+      "voice",
+      93
+    ],
+    [
+      182,
+      "lens",
+      93
+    ],
+    [
+      183,
+      "council",
+      93
+    ],
+    [
+      184,
+      "audit",
+      93
+    ],
+    [
+      185,
+      "finding",
+      93
+    ],
+    [
+      186,
+      "blocker",
+      93
+    ],
+    [
+      187,
+      "deferred",
+      93
+    ],
+    [
+      188,
+      "spawned",
+      93
+    ],
+    [
+      189,
+      "diagnostic",
+      93
+    ],
+    [
+      190,
+      "untried",
+      93
+    ],
+    [
+      191,
+      "preload",
+      93
+    ],
+    [
+      192,
+      "salience",
+      93
+    ],
+    [
+      193,
+      "language",
+      93
+    ],
+    [
+      194,
+      "body",
+      93
+    ],
+    [
+      195,
+      "during",
+      93
+    ],
+    [
+      196,
+      "since",
+      93
+    ],
+    [
+      197,
+      "by",
+      93
+    ],
+    [
+      198,
+      "toward",
+      93
+    ],
+    [
+      199,
+      "relative",
+      93
+    ],
+    [
+      200,
+      "according",
+      93
+    ],
+    [
+      201,
+      "locally",
+      92
+    ],
+    [
+      202,
+      "jointly",
+      92
+    ],
+    [
+      203,
+      "separately",
+      92
+    ],
+    [
+      204,
+      "rather",
+      92
+    ],
+    [
+      205,
+      "instead",
+      92
+    ],
+    [
+      206,
+      "still",
+      92
+    ],
+    [
+      207,
+      "often",
+      92
+    ],
+    [
+      208,
+      "sometimes",
+      92
+    ],
+    [
+      209,
+      "usually",
+      92
+    ],
+    [
+      210,
+      "seems",
+      92
+    ],
+    [
+      211,
+      "appears",
+      92
+    ],
+    [
+      212,
+      "likely",
+      92
+    ],
+    [
+      213,
+      "possible",
+      92
+    ],
+    [
+      214,
+      "plausible",
+      92
+    ],
+    [
+      215,
+      "tentative",
+      92
+    ],
+    [
+      216,
+      "provisional",
+      92
+    ],
+    [
+      217,
+      "partial",
+      92
+    ],
+    [
+      218,
+      "limited",
+      92
+    ],
+    [
+      219,
+      "case",
+      92
+    ],
+    [
+      220,
+      "instance",
+      92
+    ],
+    [
+      221,
+      "mini-MMM",
+      100
+    ],
+    [
+      222,
+      "mini MMM",
+      100
+    ],
+    [
+      223,
+      "voice shape",
+      100
+    ],
+    [
+      224,
+      "voice shaping",
+      100
+    ],
+    [
+      225,
+      "shape voice",
+      100
+    ],
+    [
+      226,
+      "shaped voice",
+      100
+    ],
+    [
+      227,
+      "voice contour",
+      100
+    ],
+    [
+      228,
+      "voice signature",
+      100
+    ],
+    [
+      229,
+      "voice localizer",
+      100
+    ],
+    [
+      230,
+      "local voice",
+      100
+    ],
+    [
+      231,
+      "aligned nouns",
+      100
+    ],
+    [
+      232,
+      "correlated thinkers",
+      100
+    ],
+    [
+      233,
+      "thinker alignment",
+      100
+    ],
+    [
+      234,
+      "noun alignment",
+      100
+    ],
+    [
+      235,
+      "voice method",
+      100
+    ],
+    [
+      236,
+      "voice evidence",
+      100
+    ],
+    [
+      237,
+      "voice judgment",
+      100
+    ],
+    [
+      238,
+      "voice task",
+      100
+    ],
+    [
+      239,
+      "voice receipt",
+      100
+    ],
+    [
+      240,
+      "voice finding",
+      100
+    ],
+    [
+      241,
+      "voice constraint",
+      100
+    ],
+    [
+      242,
+      "voice noun",
+      100
+    ],
+    [
+      243,
+      "voice verb",
+      100
+    ],
+    [
+      244,
+      "voice signal",
+      100
+    ],
+    [
+      245,
+      "voice contrast",
+      100
+    ],
+    [
+      246,
+      "voice boundary",
+      100
+    ],
+    [
+      247,
+      "voice contribution",
+      100
+    ],
+    [
+      248,
+      "mini mmm loaded",
+      100
+    ],
+    [
+      249,
+      "loaded mini mmm",
+      100
+    ],
+    [
+      250,
+      "assigned mini mmm",
+      100
+    ],
+    [
+      251,
+      "local voice context",
+      100
+    ],
+    [
+      252,
+      "voice-specific nouns",
+      100
+    ],
+    [
+      253,
+      "method nouns",
+      100
+    ],
+    [
+      254,
+      "reader stance",
+      100
+    ],
+    [
+      255,
+      "decision stance",
+      100
+    ],
+    [
+      256,
+      "audit stance",
+      100
+    ],
+    [
+      257,
+      "build stance",
+      100
+    ],
+    [
+      258,
+      "repair stance",
+      100
+    ],
+    [
+      259,
+      "acceptance stance",
+      100
+    ],
+    [
+      260,
+      "subagent voice",
+      100
+    ],
+    [
+      261,
+      "voice worker",
+      100
+    ],
+    [
+      262,
+      "voice proof",
+      100
+    ],
+    [
+      263,
+      "distinct output",
+      100
+    ],
+    [
+      264,
+      "behavioral pull",
+      100
+    ],
+    [
+      265,
+      "salience pull",
+      100
+    ],
+    [
+      266,
+      "voice usefulness",
+      100
+    ],
+    [
+      267,
+      "output repair",
+      100
+    ],
+    [
+      268,
+      "system repair",
+      100
+    ],
+    [
+      269,
+      "mmm stability",
+      100
+    ],
+    [
+      270,
+      "wizard stability",
+      100
+    ],
+    [
+      271,
+      "qit support",
+      100
+    ],
+    [
+      272,
+      "sim support",
+      100
+    ],
+    [
+      273,
+      "cut word",
+      98
+    ],
+    [
+      274,
+      "active voice",
+      98
+    ],
+    [
+      275,
+      "everyday English",
+      98
+    ],
+    [
+      276,
+      "concrete detail",
+      98
+    ],
+    [
+      277,
+      "dead metaphor",
+      98
+    ],
+    [
+      278,
+      "concrete noun",
+      98
+    ]
+  ],
+  "couplings": [
+    [
+      1,
+      "under plain",
+      100
+    ],
+    [
+      2,
+      "within plain",
+      100
+    ],
+    [
+      3,
+      "across plain",
+      100
+    ],
+    [
+      4,
+      "between plain",
+      100
+    ],
+    [
+      5,
+      "through plain",
+      100
+    ],
+    [
+      6,
+      "before plain",
+      100
+    ],
+    [
+      7,
+      "after plain",
+      100
+    ],
+    [
+      8,
+      "until plain",
+      100
+    ],
+    [
+      9,
+      "where plain",
+      100
+    ],
+    [
+      10,
+      "while plain",
+      100
+    ],
+    [
+      11,
+      "plain evidence",
+      100
+    ],
+    [
+      12,
+      "plain support",
+      100
+    ],
+    [
+      13,
+      "plain path",
+      100
+    ],
+    [
+      14,
+      "plain surface",
+      100
+    ],
+    [
+      15,
+      "plain packet",
+      100
+    ],
+    [
+      16,
+      "plain receipt",
+      100
+    ],
+    [
+      17,
+      "plain trace",
+      100
+    ],
+    [
+      18,
+      "plain result",
+      100
+    ],
+    [
+      19,
+      "plain scope",
+      100
+    ],
+    [
+      20,
+      "plain boundary",
+      100
+    ],
+    [
+      21,
+      "plain status",
+      100
+    ],
+    [
+      22,
+      "plain candidate",
+      100
+    ],
+    [
+      23,
+      "plain witness",
+      100
+    ],
+    [
+      24,
+      "plain probe",
+      100
+    ],
+    [
+      25,
+      "plain constraint",
+      100
+    ],
+    [
+      26,
+      "check plain",
+      99
+    ],
+    [
+      27,
+      "compare plain",
+      99
+    ],
+    [
+      28,
+      "observe plain",
+      99
+    ],
+    [
+      29,
+      "measure plain",
+      99
+    ],
+    [
+      30,
+      "test plain",
+      99
+    ],
+    [
+      31,
+      "verify plain",
+      99
+    ],
+    [
+      32,
+      "hold plain",
+      99
+    ],
+    [
+      33,
+      "preserve plain",
+      99
+    ],
+    [
+      34,
+      "split plain",
+      99
+    ],
+    [
+      35,
+      "narrow plain",
+      99
+    ],
+    [
+      36,
+      "under cut",
+      99
+    ],
+    [
+      37,
+      "within cut",
+      99
+    ],
+    [
+      38,
+      "across cut",
+      99
+    ],
+    [
+      39,
+      "between cut",
+      99
+    ],
+    [
+      40,
+      "through cut",
+      99
+    ],
+    [
+      41,
+      "before cut",
+      99
+    ],
+    [
+      42,
+      "after cut",
+      99
+    ],
+    [
+      43,
+      "until cut",
+      99
+    ],
+    [
+      44,
+      "where cut",
+      99
+    ],
+    [
+      45,
+      "while cut",
+      99
+    ],
+    [
+      46,
+      "cut evidence",
+      99
+    ],
+    [
+      47,
+      "cut support",
+      99
+    ],
+    [
+      48,
+      "cut path",
+      99
+    ],
+    [
+      49,
+      "cut surface",
+      99
+    ],
+    [
+      50,
+      "cut packet",
+      99
+    ],
+    [
+      51,
+      "cut receipt",
+      98
+    ],
+    [
+      52,
+      "cut trace",
+      98
+    ],
+    [
+      53,
+      "cut result",
+      98
+    ],
+    [
+      54,
+      "cut scope",
+      98
+    ],
+    [
+      55,
+      "cut boundary",
+      98
+    ],
+    [
+      56,
+      "cut status",
+      98
+    ],
+    [
+      57,
+      "cut candidate",
+      98
+    ],
+    [
+      58,
+      "cut witness",
+      98
+    ],
+    [
+      59,
+      "cut probe",
+      98
+    ],
+    [
+      60,
+      "cut constraint",
+      98
+    ],
+    [
+      61,
+      "check cut",
+      98
+    ],
+    [
+      62,
+      "compare cut",
+      98
+    ],
+    [
+      63,
+      "observe cut",
+      98
+    ],
+    [
+      64,
+      "measure cut",
+      98
+    ],
+    [
+      65,
+      "test cut",
+      98
+    ],
+    [
+      66,
+      "verify cut",
+      98
+    ],
+    [
+      67,
+      "hold cut",
+      98
+    ],
+    [
+      68,
+      "preserve cut",
+      98
+    ],
+    [
+      69,
+      "split cut",
+      98
+    ],
+    [
+      70,
+      "narrow cut",
+      98
+    ],
+    [
+      71,
+      "under short",
+      98
+    ],
+    [
+      72,
+      "within short",
+      98
+    ],
+    [
+      73,
+      "across short",
+      98
+    ],
+    [
+      74,
+      "between short",
+      98
+    ],
+    [
+      75,
+      "through short",
+      98
+    ],
+    [
+      76,
+      "before short",
+      97
+    ],
+    [
+      77,
+      "after short",
+      97
+    ],
+    [
+      78,
+      "until short",
+      97
+    ],
+    [
+      79,
+      "where short",
+      97
+    ],
+    [
+      80,
+      "while short",
+      97
+    ],
+    [
+      81,
+      "short evidence",
+      97
+    ],
+    [
+      82,
+      "short support",
+      97
+    ],
+    [
+      83,
+      "short path",
+      97
+    ],
+    [
+      84,
+      "short surface",
+      97
+    ],
+    [
+      85,
+      "short packet",
+      97
+    ],
+    [
+      86,
+      "short receipt",
+      97
+    ],
+    [
+      87,
+      "short trace",
+      97
+    ],
+    [
+      88,
+      "short result",
+      97
+    ],
+    [
+      89,
+      "short scope",
+      97
+    ],
+    [
+      90,
+      "short boundary",
+      97
+    ],
+    [
+      91,
+      "short status",
+      97
+    ],
+    [
+      92,
+      "short candidate",
+      97
+    ],
+    [
+      93,
+      "short witness",
+      97
+    ],
+    [
+      94,
+      "short probe",
+      97
+    ],
+    [
+      95,
+      "short constraint",
+      97
+    ],
+    [
+      96,
+      "check short",
+      97
+    ],
+    [
+      97,
+      "compare short",
+      97
+    ],
+    [
+      98,
+      "observe short",
+      97
+    ],
+    [
+      99,
+      "measure short",
+      97
+    ],
+    [
+      100,
+      "test short",
+      97
+    ],
+    [
+      101,
+      "verify short",
+      96
+    ],
+    [
+      102,
+      "hold short",
+      96
+    ],
+    [
+      103,
+      "preserve short",
+      96
+    ],
+    [
+      104,
+      "split short",
+      96
+    ],
+    [
+      105,
+      "narrow short",
+      96
+    ],
+    [
+      106,
+      "under concrete",
+      96
+    ],
+    [
+      107,
+      "within concrete",
+      96
+    ],
+    [
+      108,
+      "across concrete",
+      96
+    ],
+    [
+      109,
+      "between concrete",
+      96
+    ],
+    [
+      110,
+      "through concrete",
+      96
+    ],
+    [
+      111,
+      "before concrete",
+      96
+    ],
+    [
+      112,
+      "after concrete",
+      96
+    ],
+    [
+      113,
+      "until concrete",
+      96
+    ],
+    [
+      114,
+      "where concrete",
+      96
+    ],
+    [
+      115,
+      "while concrete",
+      96
+    ],
+    [
+      116,
+      "concrete evidence",
+      96
+    ],
+    [
+      117,
+      "concrete support",
+      96
+    ],
+    [
+      118,
+      "concrete path",
+      96
+    ],
+    [
+      119,
+      "concrete surface",
+      96
+    ],
+    [
+      120,
+      "concrete packet",
+      96
+    ],
+    [
+      121,
+      "concrete receipt",
+      96
+    ],
+    [
+      122,
+      "concrete trace",
+      96
+    ],
+    [
+      123,
+      "concrete result",
+      96
+    ],
+    [
+      124,
+      "concrete scope",
+      96
+    ],
+    [
+      125,
+      "concrete boundary",
+      96
+    ],
+    [
+      126,
+      "concrete status",
+      95
+    ],
+    [
+      127,
+      "concrete candidate",
+      95
+    ],
+    [
+      128,
+      "concrete witness",
+      95
+    ],
+    [
+      129,
+      "concrete probe",
+      95
+    ],
+    [
+      130,
+      "concrete constraint",
+      95
+    ],
+    [
+      131,
+      "check concrete",
+      95
+    ],
+    [
+      132,
+      "compare concrete",
+      95
+    ],
+    [
+      133,
+      "observe concrete",
+      95
+    ],
+    [
+      134,
+      "measure concrete",
+      95
+    ],
+    [
+      135,
+      "test concrete",
+      95
+    ],
+    [
+      136,
+      "verify concrete",
+      95
+    ],
+    [
+      137,
+      "hold concrete",
+      95
+    ],
+    [
+      138,
+      "preserve concrete",
+      95
+    ],
+    [
+      139,
+      "split concrete",
+      95
+    ],
+    [
+      140,
+      "narrow concrete",
+      95
+    ],
+    [
+      141,
+      "under word",
+      95
+    ],
+    [
+      142,
+      "within word",
+      95
+    ],
+    [
+      143,
+      "across word",
+      95
+    ],
+    [
+      144,
+      "between word",
+      95
+    ],
+    [
+      145,
+      "through word",
+      95
+    ],
+    [
+      146,
+      "before word",
+      95
+    ],
+    [
+      147,
+      "after word",
+      95
+    ],
+    [
+      148,
+      "until word",
+      95
+    ],
+    [
+      149,
+      "where word",
+      95
+    ],
+    [
+      150,
+      "while word",
+      95
+    ],
+    [
+      151,
+      "word evidence",
+      94
+    ],
+    [
+      152,
+      "word support",
+      94
+    ],
+    [
+      153,
+      "word path",
+      94
+    ],
+    [
+      154,
+      "word surface",
+      94
+    ],
+    [
+      155,
+      "word packet",
+      94
+    ],
+    [
+      156,
+      "word receipt",
+      94
+    ],
+    [
+      157,
+      "word trace",
+      94
+    ],
+    [
+      158,
+      "word result",
+      94
+    ],
+    [
+      159,
+      "word scope",
+      94
+    ],
+    [
+      160,
+      "word boundary",
+      94
+    ],
+    [
+      161,
+      "word status",
+      94
+    ],
+    [
+      163,
+      "word witness",
+      94
+    ],
+    [
+      164,
+      "word probe",
+      94
+    ],
+    [
+      165,
+      "word constraint",
+      94
+    ],
+    [
+      166,
+      "check word",
+      94
+    ],
+    [
+      167,
+      "compare word",
+      94
+    ],
+    [
+      168,
+      "observe word",
+      94
+    ],
+    [
+      169,
+      "measure word",
+      94
+    ],
+    [
+      170,
+      "test word",
+      94
+    ],
+    [
+      171,
+      "verify word",
+      94
+    ],
+    [
+      172,
+      "hold word",
+      94
+    ],
+    [
+      173,
+      "preserve word",
+      94
+    ],
+    [
+      174,
+      "split word",
+      94
+    ],
+    [
+      175,
+      "narrow word",
+      94
+    ],
+    [
+      176,
+      "under phrase",
+      93
+    ],
+    [
+      177,
+      "within phrase",
+      93
+    ],
+    [
+      178,
+      "across phrase",
+      93
+    ],
+    [
+      179,
+      "between phrase",
+      93
+    ],
+    [
+      180,
+      "through phrase",
+      93
+    ],
+    [
+      181,
+      "before phrase",
+      93
+    ],
+    [
+      182,
+      "after phrase",
+      93
+    ],
+    [
+      183,
+      "until phrase",
+      93
+    ],
+    [
+      184,
+      "where phrase",
+      93
+    ],
+    [
+      185,
+      "while phrase",
+      93
+    ],
+    [
+      186,
+      "phrase evidence",
+      93
+    ],
+    [
+      187,
+      "phrase support",
+      93
+    ],
+    [
+      188,
+      "phrase path",
+      93
+    ],
+    [
+      189,
+      "phrase surface",
+      93
+    ],
+    [
+      190,
+      "phrase packet",
+      93
+    ],
+    [
+      191,
+      "phrase receipt",
+      93
+    ],
+    [
+      192,
+      "phrase trace",
+      93
+    ],
+    [
+      193,
+      "phrase result",
+      93
+    ],
+    [
+      194,
+      "phrase scope",
+      93
+    ],
+    [
+      195,
+      "phrase boundary",
+      93
+    ],
+    [
+      196,
+      "phrase status",
+      93
+    ],
+    [
+      198,
+      "phrase witness",
+      93
+    ],
+    [
+      199,
+      "phrase probe",
+      93
+    ],
+    [
+      200,
+      "phrase constraint",
+      93
+    ],
+    [
+      201,
+      "check phrase",
+      92
+    ],
+    [
+      202,
+      "compare phrase",
+      92
+    ],
+    [
+      203,
+      "observe phrase",
+      92
+    ],
+    [
+      204,
+      "measure phrase",
+      92
+    ],
+    [
+      205,
+      "test phrase",
+      92
+    ],
+    [
+      206,
+      "verify phrase",
+      92
+    ],
+    [
+      207,
+      "hold phrase",
+      92
+    ],
+    [
+      208,
+      "preserve phrase",
+      92
+    ],
+    [
+      209,
+      "split phrase",
+      92
+    ],
+    [
+      210,
+      "narrow phrase",
+      92
+    ],
+    [
+      211,
+      "under name",
+      92
+    ],
+    [
+      212,
+      "within name",
+      92
+    ],
+    [
+      213,
+      "across name",
+      92
+    ],
+    [
+      214,
+      "between name",
+      92
+    ],
+    [
+      215,
+      "through name",
+      92
+    ],
+    [
+      216,
+      "before name",
+      92
+    ],
+    [
+      217,
+      "after name",
+      92
+    ],
+    [
+      218,
+      "until name",
+      92
+    ],
+    [
+      219,
+      "where name",
+      92
+    ],
+    [
+      220,
+      "while name",
+      92
+    ],
+    [
+      221,
+      "name evidence",
+      92
+    ],
+    [
+      222,
+      "name support",
+      92
+    ],
+    [
+      223,
+      "name path",
+      92
+    ],
+    [
+      224,
+      "name surface",
+      92
+    ],
+    [
+      225,
+      "name packet",
+      92
+    ],
+    [
+      226,
+      "name receipt",
+      91
+    ],
+    [
+      227,
+      "name trace",
+      91
+    ],
+    [
+      228,
+      "name result",
+      91
+    ],
+    [
+      229,
+      "name scope",
+      91
+    ],
+    [
+      230,
+      "name boundary",
+      91
+    ],
+    [
+      231,
+      "name status",
+      91
+    ],
+    [
+      232,
+      "name candidate",
+      91
+    ],
+    [
+      233,
+      "name witness",
+      91
+    ],
+    [
+      234,
+      "name probe",
+      91
+    ],
+    [
+      235,
+      "name constraint",
+      91
+    ],
+    [
+      236,
+      "check name",
+      91
+    ],
+    [
+      237,
+      "compare name",
+      91
+    ],
+    [
+      238,
+      "observe name",
+      91
+    ],
+    [
+      239,
+      "measure name",
+      91
+    ],
+    [
+      240,
+      "test name",
+      91
+    ],
+    [
+      241,
+      "verify name",
+      91
+    ],
+    [
+      242,
+      "hold name",
+      91
+    ],
+    [
+      243,
+      "preserve name",
+      91
+    ],
+    [
+      244,
+      "split name",
+      91
+    ],
+    [
+      245,
+      "narrow name",
+      91
+    ],
+    [
+      246,
+      "under fog",
+      91
+    ],
+    [
+      247,
+      "within fog",
+      91
+    ],
+    [
+      248,
+      "across fog",
+      91
+    ],
+    [
+      249,
+      "between fog",
+      91
+    ],
+    [
+      250,
+      "through fog",
+      91
+    ],
+    [
+      251,
+      "before fog",
+      90
+    ],
+    [
+      252,
+      "after fog",
+      90
+    ],
+    [
+      253,
+      "until fog",
+      90
+    ],
+    [
+      254,
+      "where fog",
+      90
+    ],
+    [
+      255,
+      "while fog",
+      90
+    ],
+    [
+      256,
+      "fog evidence",
+      90
+    ],
+    [
+      257,
+      "fog support",
+      90
+    ],
+    [
+      258,
+      "fog path",
+      90
+    ],
+    [
+      259,
+      "fog surface",
+      90
+    ],
+    [
+      260,
+      "fog packet",
+      90
+    ],
+    [
+      261,
+      "fog receipt",
+      90
+    ],
+    [
+      262,
+      "fog trace",
+      90
+    ],
+    [
+      263,
+      "fog result",
+      90
+    ],
+    [
+      264,
+      "fog scope",
+      90
+    ],
+    [
+      265,
+      "fog boundary",
+      90
+    ],
+    [
+      266,
+      "fog status",
+      90
+    ],
+    [
+      267,
+      "fog candidate",
+      90
+    ],
+    [
+      268,
+      "fog witness",
+      90
+    ],
+    [
+      269,
+      "fog probe",
+      90
+    ],
+    [
+      270,
+      "fog constraint",
+      90
+    ],
+    [
+      271,
+      "check fog",
+      90
+    ],
+    [
+      272,
+      "compare fog",
+      90
+    ],
+    [
+      273,
+      "observe fog",
+      90
+    ],
+    [
+      274,
+      "measure fog",
+      90
+    ],
+    [
+      275,
+      "test fog",
+      90
+    ],
+    [
+      276,
+      "verify fog",
+      89
+    ],
+    [
+      277,
+      "hold fog",
+      89
+    ],
+    [
+      278,
+      "preserve fog",
+      89
+    ],
+    [
+      279,
+      "split fog",
+      89
+    ],
+    [
+      280,
+      "narrow fog",
+      89
+    ],
+    [
+      281,
+      "under dead",
+      89
+    ],
+    [
+      282,
+      "within dead",
+      89
+    ],
+    [
+      283,
+      "across dead",
+      89
+    ],
+    [
+      284,
+      "between dead",
+      89
+    ],
+    [
+      285,
+      "through dead",
+      89
+    ],
+    [
+      286,
+      "before dead",
+      89
+    ],
+    [
+      287,
+      "after dead",
+      89
+    ],
+    [
+      288,
+      "until dead",
+      89
+    ],
+    [
+      289,
+      "where dead",
+      89
+    ],
+    [
+      290,
+      "while dead",
+      89
+    ],
+    [
+      291,
+      "dead evidence",
+      89
+    ],
+    [
+      292,
+      "dead support",
+      89
+    ],
+    [
+      293,
+      "dead path",
+      89
+    ],
+    [
+      294,
+      "dead surface",
+      89
+    ],
+    [
+      295,
+      "dead packet",
+      89
+    ],
+    [
+      296,
+      "dead receipt",
+      89
+    ],
+    [
+      297,
+      "dead trace",
+      89
+    ],
+    [
+      298,
+      "dead result",
+      89
+    ],
+    [
+      299,
+      "dead scope",
+      89
+    ],
+    [
+      300,
+      "dead boundary",
+      89
+    ],
+    [
+      301,
+      "dead status",
+      88
+    ],
+    [
+      303,
+      "dead witness",
+      88
+    ],
+    [
+      304,
+      "dead probe",
+      88
+    ],
+    [
+      305,
+      "dead constraint",
+      88
+    ],
+    [
+      306,
+      "check dead",
+      88
+    ],
+    [
+      307,
+      "compare dead",
+      88
+    ],
+    [
+      308,
+      "observe dead",
+      88
+    ],
+    [
+      309,
+      "measure dead",
+      88
+    ],
+    [
+      310,
+      "test dead",
+      88
+    ],
+    [
+      311,
+      "verify dead",
+      88
+    ],
+    [
+      312,
+      "hold dead",
+      88
+    ],
+    [
+      313,
+      "preserve dead",
+      88
+    ],
+    [
+      314,
+      "split dead",
+      88
+    ],
+    [
+      315,
+      "narrow dead",
+      88
+    ],
+    [
+      316,
+      "under inflated",
+      88
+    ],
+    [
+      317,
+      "within inflated",
+      88
+    ],
+    [
+      318,
+      "across inflated",
+      88
+    ],
+    [
+      319,
+      "between inflated",
+      88
+    ],
+    [
+      320,
+      "through inflated",
+      88
+    ],
+    [
+      321,
+      "before inflated",
+      88
+    ],
+    [
+      322,
+      "after inflated",
+      88
+    ],
+    [
+      323,
+      "until inflated",
+      88
+    ],
+    [
+      324,
+      "where inflated",
+      88
+    ],
+    [
+      325,
+      "while inflated",
+      88
+    ],
+    [
+      326,
+      "inflated evidence",
+      87
+    ],
+    [
+      327,
+      "inflated support",
+      87
+    ],
+    [
+      328,
+      "inflated path",
+      87
+    ],
+    [
+      329,
+      "inflated surface",
+      87
+    ],
+    [
+      330,
+      "inflated packet",
+      87
+    ],
+    [
+      331,
+      "inflated receipt",
+      87
+    ],
+    [
+      332,
+      "inflated trace",
+      87
+    ],
+    [
+      333,
+      "inflated result",
+      87
+    ],
+    [
+      334,
+      "inflated scope",
+      87
+    ],
+    [
+      335,
+      "inflated boundary",
+      87
+    ],
+    [
+      336,
+      "inflated status",
+      87
+    ],
+    [
+      337,
+      "inflated candidate",
+      87
+    ],
+    [
+      338,
+      "inflated witness",
+      87
+    ],
+    [
+      339,
+      "inflated probe",
+      87
+    ],
+    [
+      340,
+      "inflated constraint",
+      87
+    ],
+    [
+      341,
+      "dying metaphor",
+      87
+    ],
+    [
+      342,
+      "pretentious diction",
+      87
+    ],
+    [
+      343,
+      "meaningless word",
+      87
+    ],
+    [
+      344,
+      "short word",
+      87
+    ],
+    [
+      345,
+      "active verb",
+      87
+    ],
+    [
+      346,
+      "plain english",
+      87
+    ],
+    [
+      347,
+      "stale image",
+      87
+    ],
+    [
+      348,
+      "dead phrase",
+      87
+    ],
+    [
+      349,
+      "soft word",
+      87
+    ],
+    [
+      350,
+      "politics and english language",
+      87
+    ],
+    [
+      351,
+      "verbal false limb",
+      86
+    ],
+    [
+      352,
+      "cut a word",
+      86
+    ],
+    [
+      353,
+      "plain",
+      86
+    ],
+    [
+      354,
+      "cut",
+      86
+    ],
+    [
+      355,
+      "remove",
+      86
+    ],
+    [
+      356,
+      "replace",
+      86
+    ],
+    [
+      357,
+      "name",
+      86
+    ],
+    [
+      358,
+      "concrete",
+      86
+    ],
+    [
+      359,
+      "direct",
+      86
+    ],
+    [
+      360,
+      "short",
+      86
+    ],
+    [
+      361,
+      "clear",
+      86
+    ],
+    [
+      362,
+      "fog",
+      86
+    ],
+    [
+      363,
+      "vague",
+      86
+    ],
+    [
+      364,
+      "inflated",
+      86
+    ],
+    [
+      365,
+      "euphemism",
+      86
+    ],
+    [
+      366,
+      "blocked",
+      86
+    ],
+    [
+      367,
+      "stale",
+      86
+    ],
+    [
+      368,
+      "missing",
+      86
+    ],
+    [
+      369,
+      "wrong",
+      86
+    ],
+    [
+      370,
+      "inferred",
+      86
+    ],
+    [
+      371,
+      "untested",
+      86
+    ],
+    [
+      372,
+      "artifact",
+      86
+    ],
+    [
+      373,
+      "action",
+      86
+    ],
+    [
+      374,
+      "owner",
+      86
+    ],
+    [
+      375,
+      "test",
+      86
+    ],
+    [
+      376,
+      "under clear",
+      85
+    ],
+    [
+      377,
+      "under euphemism",
+      85
+    ],
+    [
+      378,
+      "under jargon",
+      85
+    ],
+    [
+      379,
+      "under bureaucratic",
+      85
+    ],
+    [
+      380,
+      "under vague",
+      85
+    ],
+    [
+      381,
+      "under muddy",
+      85
+    ],
+    [
+      382,
+      "under pretentious",
+      85
+    ],
+    [
+      384,
+      "under noun",
+      85
+    ],
+    [
+      385,
+      "under image",
+      85
+    ],
+    [
+      386,
+      "under metaphor",
+      85
+    ],
+    [
+      387,
+      "under active",
+      85
+    ],
+    [
+      388,
+      "within clear",
+      85
+    ],
+    [
+      389,
+      "within euphemism",
+      85
+    ],
+    [
+      390,
+      "within jargon",
+      85
+    ],
+    [
+      391,
+      "within bureaucratic",
+      85
+    ],
+    [
+      392,
+      "within vague",
+      85
+    ],
+    [
+      393,
+      "within muddy",
+      85
+    ],
+    [
+      394,
+      "within pretentious",
+      85
+    ],
+    [
+      396,
+      "within noun",
+      85
+    ],
+    [
+      397,
+      "within image",
+      85
+    ],
+    [
+      398,
+      "within metaphor",
+      85
+    ],
+    [
+      399,
+      "within active",
+      85
+    ],
+    [
+      400,
+      "across clear",
+      85
+    ],
+    [
+      401,
+      "across euphemism",
+      84
+    ],
+    [
+      402,
+      "across jargon",
+      84
+    ],
+    [
+      403,
+      "across bureaucratic",
+      84
+    ],
+    [
+      404,
+      "across vague",
+      84
+    ],
+    [
+      405,
+      "across muddy",
+      84
+    ],
+    [
+      406,
+      "across pretentious",
+      84
+    ],
+    [
+      408,
+      "across noun",
+      84
+    ],
+    [
+      409,
+      "across image",
+      84
+    ],
+    [
+      410,
+      "across metaphor",
+      84
+    ],
+    [
+      411,
+      "across active",
+      84
+    ],
+    [
+      412,
+      "between clear",
+      84
+    ],
+    [
+      413,
+      "between euphemism",
+      84
+    ],
+    [
+      414,
+      "between jargon",
+      84
+    ],
+    [
+      415,
+      "between bureaucratic",
+      84
+    ],
+    [
+      416,
+      "between vague",
+      84
+    ],
+    [
+      417,
+      "between muddy",
+      84
+    ],
+    [
+      418,
+      "between pretentious",
+      84
+    ],
+    [
+      420,
+      "between noun",
+      84
+    ],
+    [
+      421,
+      "between image",
+      84
+    ],
+    [
+      422,
+      "between metaphor",
+      84
+    ],
+    [
+      423,
+      "between active",
+      84
+    ],
+    [
+      424,
+      "through clear",
+      84
+    ],
+    [
+      425,
+      "through euphemism",
+      84
+    ],
+    [
+      426,
+      "through jargon",
+      83
+    ],
+    [
+      427,
+      "through bureaucratic",
+      83
+    ],
+    [
+      428,
+      "through vague",
+      83
+    ],
+    [
+      429,
+      "through muddy",
+      83
+    ],
+    [
+      430,
+      "through pretentious",
+      83
+    ],
+    [
+      432,
+      "through noun",
+      83
+    ],
+    [
+      433,
+      "through image",
+      83
+    ],
+    [
+      434,
+      "through metaphor",
+      83
+    ],
+    [
+      435,
+      "through active",
+      83
+    ],
+    [
+      436,
+      "before clear",
+      83
+    ],
+    [
+      437,
+      "before euphemism",
+      83
+    ],
+    [
+      438,
+      "before jargon",
+      83
+    ],
+    [
+      439,
+      "before bureaucratic",
+      83
+    ],
+    [
+      440,
+      "before vague",
+      83
+    ],
+    [
+      441,
+      "before muddy",
+      83
+    ],
+    [
+      442,
+      "before pretentious",
+      83
+    ],
+    [
+      444,
+      "before noun",
+      83
+    ],
+    [
+      445,
+      "before image",
+      83
+    ],
+    [
+      446,
+      "before metaphor",
+      83
+    ],
+    [
+      447,
+      "before active",
+      83
+    ],
+    [
+      448,
+      "after clear",
+      83
+    ],
+    [
+      449,
+      "after euphemism",
+      83
+    ],
+    [
+      450,
+      "after jargon",
+      83
+    ],
+    [
+      451,
+      "after bureaucratic",
+      82
+    ],
+    [
+      452,
+      "after vague",
+      82
+    ],
+    [
+      453,
+      "after muddy",
+      82
+    ],
+    [
+      454,
+      "after pretentious",
+      82
+    ],
+    [
+      456,
+      "after noun",
+      82
+    ],
+    [
+      457,
+      "after image",
+      82
+    ],
+    [
+      458,
+      "after metaphor",
+      82
+    ],
+    [
+      459,
+      "after active",
+      82
+    ],
+    [
+      460,
+      "during plain",
+      82
+    ],
+    [
+      461,
+      "during concrete",
+      82
+    ],
+    [
+      462,
+      "during short",
+      82
+    ],
+    [
+      463,
+      "during clear",
+      82
+    ],
+    [
+      464,
+      "during cut",
+      82
+    ],
+    [
+      465,
+      "during fog",
+      82
+    ],
+    [
+      466,
+      "during euphemism",
+      82
+    ],
+    [
+      467,
+      "during inflated",
+      82
+    ],
+    [
+      468,
+      "during dead",
+      82
+    ],
+    [
+      469,
+      "during phrase",
+      82
+    ],
+    [
+      470,
+      "during jargon",
+      82
+    ],
+    [
+      471,
+      "during bureaucratic",
+      82
+    ],
+    [
+      472,
+      "during vague",
+      82
+    ],
+    [
+      473,
+      "during muddy",
+      82
+    ],
+    [
+      474,
+      "during pretentious",
+      82
+    ],
+    [
+      476,
+      "during noun",
+      81
+    ],
+    [
+      477,
+      "during image",
+      81
+    ],
+    [
+      478,
+      "during metaphor",
+      81
+    ],
+    [
+      479,
+      "during active",
+      81
+    ],
+    [
+      480,
+      "until clear",
+      81
+    ],
+    [
+      481,
+      "until euphemism",
+      81
+    ],
+    [
+      482,
+      "until jargon",
+      81
+    ],
+    [
+      483,
+      "until bureaucratic",
+      81
+    ],
+    [
+      484,
+      "until vague",
+      81
+    ],
+    [
+      485,
+      "until muddy",
+      81
+    ],
+    [
+      486,
+      "until pretentious",
+      81
+    ],
+    [
+      488,
+      "until noun",
+      81
+    ],
+    [
+      489,
+      "until image",
+      81
+    ],
+    [
+      490,
+      "until metaphor",
+      81
+    ],
+    [
+      491,
+      "until active",
+      81
+    ],
+    [
+      492,
+      "since plain",
+      81
+    ],
+    [
+      493,
+      "since concrete",
+      81
+    ],
+    [
+      494,
+      "since short",
+      81
+    ],
+    [
+      495,
+      "since clear",
+      81
+    ],
+    [
+      496,
+      "since cut",
+      81
+    ],
+    [
+      497,
+      "since fog",
+      81
+    ],
+    [
+      498,
+      "since euphemism",
+      81
+    ],
+    [
+      499,
+      "since inflated",
+      81
+    ],
+    [
+      500,
+      "since dead",
+      81
+    ],
+    [
+      501,
+      "since phrase",
+      80
+    ],
+    [
+      502,
+      "since jargon",
+      80
+    ],
+    [
+      503,
+      "since bureaucratic",
+      80
+    ],
+    [
+      504,
+      "since vague",
+      80
+    ],
+    [
+      505,
+      "since muddy",
+      80
+    ],
+    [
+      506,
+      "since pretentious",
+      80
+    ],
+    [
+      508,
+      "since noun",
+      80
+    ],
+    [
+      509,
+      "since image",
+      80
+    ],
+    [
+      510,
+      "since metaphor",
+      80
+    ],
+    [
+      511,
+      "since active",
+      80
+    ],
+    [
+      512,
+      "from plain",
+      80
+    ],
+    [
+      513,
+      "from concrete",
+      80
+    ],
+    [
+      514,
+      "from short",
+      80
+    ],
+    [
+      515,
+      "from clear",
+      80
+    ],
+    [
+      516,
+      "from cut",
+      80
+    ],
+    [
+      517,
+      "from fog",
+      80
+    ],
+    [
+      518,
+      "from euphemism",
+      80
+    ],
+    [
+      519,
+      "from inflated",
+      80
+    ],
+    [
+      520,
+      "from dead",
+      80
+    ],
+    [
+      521,
+      "from phrase",
+      80
+    ],
+    [
+      522,
+      "from jargon",
+      80
+    ],
+    [
+      523,
+      "from bureaucratic",
+      80
+    ],
+    [
+      524,
+      "from vague",
+      80
+    ],
+    [
+      525,
+      "from muddy",
+      80
+    ],
+    [
+      526,
+      "from pretentious",
+      79
+    ],
+    [
+      528,
+      "from noun",
+      79
+    ],
+    [
+      529,
+      "from image",
+      79
+    ],
+    [
+      530,
+      "from metaphor",
+      79
+    ],
+    [
+      531,
+      "from active",
+      79
+    ],
+    [
+      532,
+      "by plain",
+      79
+    ],
+    [
+      533,
+      "by concrete",
+      79
+    ],
+    [
+      534,
+      "by short",
+      79
+    ],
+    [
+      535,
+      "by clear",
+      79
+    ],
+    [
+      536,
+      "by cut",
+      79
+    ],
+    [
+      537,
+      "by fog",
+      79
+    ],
+    [
+      538,
+      "by euphemism",
+      79
+    ],
+    [
+      539,
+      "by inflated",
+      79
+    ],
+    [
+      540,
+      "by dead",
+      79
+    ],
+    [
+      541,
+      "by phrase",
+      79
+    ],
+    [
+      542,
+      "by jargon",
+      79
+    ],
+    [
+      543,
+      "by bureaucratic",
+      79
+    ],
+    [
+      544,
+      "by vague",
+      79
+    ],
+    [
+      545,
+      "by muddy",
+      79
+    ],
+    [
+      546,
+      "by pretentious",
+      79
+    ],
+    [
+      548,
+      "by noun",
+      79
+    ],
+    [
+      549,
+      "by image",
+      79
+    ],
+    [
+      550,
+      "by metaphor",
+      79
+    ],
+    [
+      551,
+      "by active",
+      78
+    ],
+    [
+      552,
+      "with plain",
+      78
+    ],
+    [
+      553,
+      "with concrete",
+      78
+    ],
+    [
+      554,
+      "with short",
+      78
+    ],
+    [
+      555,
+      "with clear",
+      78
+    ],
+    [
+      556,
+      "with cut",
+      78
+    ],
+    [
+      557,
+      "with fog",
+      78
+    ],
+    [
+      558,
+      "with euphemism",
+      78
+    ],
+    [
+      559,
+      "with inflated",
+      78
+    ],
+    [
+      560,
+      "with dead",
+      78
+    ],
+    [
+      561,
+      "with phrase",
+      78
+    ],
+    [
+      562,
+      "with jargon",
+      78
+    ],
+    [
+      563,
+      "with bureaucratic",
+      78
+    ],
+    [
+      564,
+      "with vague",
+      78
+    ],
+    [
+      565,
+      "with muddy",
+      78
+    ],
+    [
+      566,
+      "with pretentious",
+      78
+    ],
+    [
+      568,
+      "with noun",
+      78
+    ],
+    [
+      569,
+      "with image",
+      78
+    ],
+    [
+      570,
+      "with metaphor",
+      78
+    ],
+    [
+      571,
+      "with active",
+      78
+    ],
+    [
+      572,
+      "without plain",
+      78
+    ],
+    [
+      573,
+      "without concrete",
+      78
+    ],
+    [
+      574,
+      "without short",
+      78
+    ],
+    [
+      575,
+      "without clear",
+      78
+    ],
+    [
+      576,
+      "without cut",
+      77
+    ],
+    [
+      577,
+      "without fog",
+      77
+    ],
+    [
+      578,
+      "without euphemism",
+      77
+    ],
+    [
+      579,
+      "without inflated",
+      77
+    ],
+    [
+      580,
+      "without dead",
+      77
+    ],
+    [
+      581,
+      "without phrase",
+      77
+    ],
+    [
+      582,
+      "without jargon",
+      77
+    ],
+    [
+      583,
+      "without bureaucratic",
+      77
+    ],
+    [
+      584,
+      "without vague",
+      77
+    ],
+    [
+      585,
+      "without muddy",
+      77
+    ],
+    [
+      586,
+      "without pretentious",
+      77
+    ],
+    [
+      588,
+      "without noun",
+      77
+    ],
+    [
+      589,
+      "without image",
+      77
+    ],
+    [
+      590,
+      "without metaphor",
+      77
+    ],
+    [
+      591,
+      "without active",
+      77
+    ],
+    [
+      592,
+      "against plain",
+      77
+    ],
+    [
+      593,
+      "against concrete",
+      77
+    ],
+    [
+      594,
+      "against short",
+      77
+    ],
+    [
+      595,
+      "against clear",
+      77
+    ],
+    [
+      596,
+      "against cut",
+      77
+    ],
+    [
+      597,
+      "against fog",
+      77
+    ],
+    [
+      598,
+      "against euphemism",
+      77
+    ],
+    [
+      599,
+      "against inflated",
+      77
+    ],
+    [
+      600,
+      "against dead",
+      77
+    ],
+    [
+      601,
+      "against phrase",
+      76
+    ],
+    [
+      602,
+      "against jargon",
+      76
+    ],
+    [
+      603,
+      "against bureaucratic",
+      76
+    ],
+    [
+      604,
+      "against vague",
+      76
+    ],
+    [
+      605,
+      "against muddy",
+      76
+    ],
+    [
+      606,
+      "against pretentious",
+      76
+    ],
+    [
+      608,
+      "against noun",
+      76
+    ],
+    [
+      609,
+      "against image",
+      76
+    ],
+    [
+      610,
+      "against metaphor",
+      76
+    ],
+    [
+      611,
+      "against active",
+      76
+    ],
+    [
+      612,
+      "toward plain",
+      76
+    ],
+    [
+      613,
+      "toward concrete",
+      76
+    ],
+    [
+      614,
+      "toward short",
+      76
+    ],
+    [
+      615,
+      "toward clear",
+      76
+    ],
+    [
+      616,
+      "toward cut",
+      76
+    ],
+    [
+      617,
+      "toward fog",
+      76
+    ],
+    [
+      618,
+      "toward euphemism",
+      76
+    ],
+    [
+      619,
+      "toward inflated",
+      76
+    ],
+    [
+      620,
+      "toward dead",
+      76
+    ],
+    [
+      621,
+      "toward phrase",
+      76
+    ],
+    [
+      622,
+      "toward jargon",
+      76
+    ],
+    [
+      623,
+      "toward bureaucratic",
+      76
+    ],
+    [
+      624,
+      "toward vague",
+      76
+    ],
+    [
+      625,
+      "toward muddy",
+      76
+    ],
+    [
+      626,
+      "toward pretentious",
+      75
+    ],
+    [
+      628,
+      "toward noun",
+      75
+    ],
+    [
+      629,
+      "toward image",
+      75
+    ],
+    [
+      630,
+      "toward metaphor",
+      75
+    ],
+    [
+      631,
+      "toward active",
+      75
+    ],
+    [
+      632,
+      "near plain",
+      75
+    ],
+    [
+      633,
+      "near concrete",
+      75
+    ],
+    [
+      634,
+      "near short",
+      75
+    ],
+    [
+      635,
+      "near clear",
+      75
+    ],
+    [
+      636,
+      "near cut",
+      75
+    ],
+    [
+      637,
+      "near fog",
+      75
+    ],
+    [
+      638,
+      "near euphemism",
+      75
+    ],
+    [
+      639,
+      "near inflated",
+      75
+    ],
+    [
+      640,
+      "near dead",
+      75
+    ],
+    [
+      641,
+      "near phrase",
+      75
+    ],
+    [
+      642,
+      "near jargon",
+      75
+    ],
+    [
+      643,
+      "near bureaucratic",
+      75
+    ],
+    [
+      644,
+      "near vague",
+      75
+    ],
+    [
+      645,
+      "near muddy",
+      75
+    ],
+    [
+      646,
+      "near pretentious",
+      75
+    ],
+    [
+      648,
+      "near noun",
+      75
+    ],
+    [
+      649,
+      "near image",
+      75
+    ],
+    [
+      650,
+      "near metaphor",
+      75
+    ],
+    [
+      651,
+      "near active",
+      74
+    ],
+    [
+      652,
+      "relative plain",
+      74
+    ],
+    [
+      653,
+      "relative concrete",
+      74
+    ],
+    [
+      654,
+      "relative short",
+      74
+    ],
+    [
+      655,
+      "relative clear",
+      74
+    ],
+    [
+      656,
+      "relative cut",
+      74
+    ],
+    [
+      657,
+      "relative fog",
+      74
+    ],
+    [
+      658,
+      "relative euphemism",
+      74
+    ],
+    [
+      659,
+      "relative inflated",
+      74
+    ],
+    [
+      660,
+      "relative dead",
+      74
+    ],
+    [
+      661,
+      "relative phrase",
+      74
+    ],
+    [
+      662,
+      "relative jargon",
+      74
+    ],
+    [
+      663,
+      "relative bureaucratic",
+      74
+    ],
+    [
+      664,
+      "relative vague",
+      74
+    ],
+    [
+      665,
+      "relative muddy",
+      74
+    ],
+    [
+      666,
+      "relative pretentious",
+      74
+    ],
+    [
+      668,
+      "relative noun",
+      74
+    ],
+    [
+      669,
+      "relative image",
+      74
+    ],
+    [
+      670,
+      "relative metaphor",
+      74
+    ],
+    [
+      671,
+      "relative active",
+      74
+    ],
+    [
+      672,
+      "plain concrete",
+      74
+    ],
+    [
+      673,
+      "plain short",
+      74
+    ],
+    [
+      674,
+      "plain clear",
+      74
+    ],
+    [
+      675,
+      "plain cut",
+      74
+    ],
+    [
+      676,
+      "plain fog",
+      73
+    ],
+    [
+      677,
+      "plain euphemism",
+      73
+    ],
+    [
+      678,
+      "plain inflated",
+      73
+    ],
+    [
+      679,
+      "plain dead",
+      73
+    ],
+    [
+      680,
+      "plain phrase",
+      73
+    ],
+    [
+      681,
+      "plain jargon",
+      73
+    ],
+    [
+      682,
+      "plain bureaucratic",
+      73
+    ],
+    [
+      683,
+      "concrete short",
+      73
+    ],
+    [
+      684,
+      "concrete clear",
+      73
+    ],
+    [
+      685,
+      "concrete cut",
+      73
+    ],
+    [
+      686,
+      "concrete fog",
+      73
+    ],
+    [
+      687,
+      "concrete euphemism",
+      73
+    ],
+    [
+      688,
+      "concrete inflated",
+      73
+    ],
+    [
+      689,
+      "concrete dead",
+      73
+    ],
+    [
+      690,
+      "concrete phrase",
+      73
+    ],
+    [
+      691,
+      "concrete jargon",
+      73
+    ],
+    [
+      692,
+      "concrete bureaucratic",
+      73
+    ],
+    [
+      693,
+      "concrete vague",
+      73
+    ],
+    [
+      694,
+      "short clear",
+      73
+    ],
+    [
+      695,
+      "short cut",
+      73
+    ],
+    [
+      696,
+      "short fog",
+      73
+    ],
+    [
+      697,
+      "short euphemism",
+      73
+    ],
+    [
+      698,
+      "short inflated",
+      73
+    ],
+    [
+      699,
+      "short dead",
+      73
+    ],
+    [
+      700,
+      "short phrase",
+      73
+    ],
+    [
+      701,
+      "short jargon",
+      72
+    ],
+    [
+      702,
+      "short bureaucratic",
+      72
+    ],
+    [
+      703,
+      "short vague",
+      72
+    ],
+    [
+      704,
+      "short muddy",
+      72
+    ],
+    [
+      705,
+      "clear cut",
+      72
+    ],
+    [
+      706,
+      "clear fog",
+      72
+    ],
+    [
+      707,
+      "clear euphemism",
+      72
+    ],
+    [
+      708,
+      "clear inflated",
+      72
+    ],
+    [
+      709,
+      "clear dead",
+      72
+    ],
+    [
+      710,
+      "clear phrase",
+      72
+    ],
+    [
+      711,
+      "clear jargon",
+      72
+    ],
+    [
+      712,
+      "clear bureaucratic",
+      72
+    ],
+    [
+      713,
+      "clear vague",
+      72
+    ],
+    [
+      714,
+      "clear muddy",
+      72
+    ],
+    [
+      715,
+      "clear pretentious",
+      72
+    ],
+    [
+      716,
+      "cut fog",
+      72
+    ],
+    [
+      717,
+      "cut euphemism",
+      72
+    ],
+    [
+      718,
+      "cut inflated",
+      72
+    ],
+    [
+      719,
+      "cut dead",
+      72
+    ],
+    [
+      720,
+      "cut phrase",
+      72
+    ],
+    [
+      721,
+      "cut jargon",
+      72
+    ],
+    [
+      722,
+      "cut bureaucratic",
+      72
+    ],
+    [
+      723,
+      "cut vague",
+      72
+    ],
+    [
+      724,
+      "cut muddy",
+      72
+    ],
+    [
+      725,
+      "cut pretentious",
+      72
+    ],
+    [
+      726,
+      "cut abstract",
+      71
+    ],
+    [
+      727,
+      "fog euphemism",
+      71
+    ],
+    [
+      728,
+      "fog inflated",
+      71
+    ],
+    [
+      729,
+      "fog dead",
+      71
+    ],
+    [
+      730,
+      "fog phrase",
+      71
+    ],
+    [
+      731,
+      "fog jargon",
+      71
+    ],
+    [
+      732,
+      "fog bureaucratic",
+      71
+    ],
+    [
+      733,
+      "fog vague",
+      71
+    ],
+    [
+      734,
+      "fog muddy",
+      71
+    ],
+    [
+      735,
+      "fog pretentious",
+      71
+    ],
+    [
+      736,
+      "fog abstract",
+      71
+    ],
+    [
+      737,
+      "fog noun",
+      71
+    ],
+    [
+      738,
+      "euphemism inflated",
+      71
+    ],
+    [
+      739,
+      "euphemism dead",
+      71
+    ],
+    [
+      740,
+      "euphemism phrase",
+      71
+    ],
+    [
+      741,
+      "euphemism jargon",
+      71
+    ],
+    [
+      742,
+      "euphemism bureaucratic",
+      71
+    ],
+    [
+      743,
+      "euphemism vague",
+      71
+    ],
+    [
+      744,
+      "euphemism muddy",
+      71
+    ],
+    [
+      745,
+      "euphemism pretentious",
+      71
+    ],
+    [
+      746,
+      "euphemism abstract",
+      71
+    ],
+    [
+      747,
+      "euphemism noun",
+      71
+    ],
+    [
+      748,
+      "euphemism image",
+      71
+    ],
+    [
+      749,
+      "inflated dead",
+      71
+    ],
+    [
+      750,
+      "inflated phrase",
+      71
+    ],
+    [
+      751,
+      "inflated jargon",
+      70
+    ],
+    [
+      752,
+      "inflated bureaucratic",
+      70
+    ],
+    [
+      753,
+      "inflated vague",
+      70
+    ],
+    [
+      754,
+      "inflated muddy",
+      70
+    ],
+    [
+      755,
+      "inflated pretentious",
+      70
+    ],
+    [
+      756,
+      "inflated abstract",
+      70
+    ],
+    [
+      757,
+      "inflated noun",
+      70
+    ],
+    [
+      758,
+      "inflated image",
+      70
+    ],
+    [
+      759,
+      "inflated metaphor",
+      70
+    ],
+    [
+      760,
+      "dead jargon",
+      70
+    ],
+    [
+      761,
+      "dead bureaucratic",
+      70
+    ],
+    [
+      762,
+      "dead vague",
+      70
+    ],
+    [
+      763,
+      "dead muddy",
+      70
+    ],
+    [
+      764,
+      "dead pretentious",
+      70
+    ],
+    [
+      765,
+      "dead abstract",
+      70
+    ],
+    [
+      766,
+      "dead noun",
+      70
+    ],
+    [
+      767,
+      "dead image",
+      70
+    ],
+    [
+      768,
+      "dead metaphor",
+      70
+    ],
+    [
+      769,
+      "dead active",
+      70
+    ],
+    [
+      770,
+      "phrase jargon",
+      70
+    ],
+    [
+      771,
+      "phrase bureaucratic",
+      70
+    ],
+    [
+      772,
+      "phrase vague",
+      70
+    ],
+    [
+      773,
+      "phrase muddy",
+      70
+    ],
+    [
+      774,
+      "phrase pretentious",
+      70
+    ],
+    [
+      775,
+      "phrase abstract",
+      70
+    ],
+    [
+      776,
+      "phrase noun",
+      69
+    ],
+    [
+      777,
+      "phrase image",
+      69
+    ],
+    [
+      778,
+      "phrase metaphor",
+      69
+    ],
+    [
+      779,
+      "phrase active",
+      69
+    ],
+    [
+      780,
+      "phrase simple",
+      69
+    ],
+    [
+      781,
+      "jargon bureaucratic",
+      69
+    ],
+    [
+      782,
+      "jargon vague",
+      69
+    ],
+    [
+      783,
+      "jargon muddy",
+      69
+    ],
+    [
+      784,
+      "jargon pretentious",
+      69
+    ],
+    [
+      785,
+      "jargon abstract",
+      69
+    ],
+    [
+      786,
+      "jargon noun",
+      69
+    ],
+    [
+      787,
+      "jargon image",
+      69
+    ],
+    [
+      788,
+      "jargon metaphor",
+      69
+    ],
+    [
+      789,
+      "jargon active",
+      69
+    ],
+    [
+      790,
+      "jargon simple",
+      69
+    ],
+    [
+      791,
+      "jargon verb",
+      69
+    ],
+    [
+      792,
+      "bureaucratic vague",
+      69
+    ],
+    [
+      793,
+      "bureaucratic muddy",
+      69
+    ],
+    [
+      794,
+      "bureaucratic pretentious",
+      69
+    ],
+    [
+      795,
+      "bureaucratic abstract",
+      69
+    ],
+    [
+      796,
+      "bureaucratic noun",
+      69
+    ],
+    [
+      797,
+      "bureaucratic image",
+      69
+    ],
+    [
+      798,
+      "bureaucratic metaphor",
+      69
+    ],
+    [
+      799,
+      "bureaucratic active",
+      69
+    ],
+    [
+      800,
+      "bureaucratic simple",
+      69
+    ],
+    [
+      801,
+      "bureaucratic verb",
+      68
+    ],
+    [
+      802,
+      "bureaucratic ordinary",
+      68
+    ],
+    [
+      803,
+      "vague muddy",
+      68
+    ],
+    [
+      804,
+      "vague pretentious",
+      68
+    ],
+    [
+      805,
+      "vague abstract",
+      68
+    ],
+    [
+      806,
+      "vague noun",
+      68
+    ],
+    [
+      807,
+      "vague image",
+      68
+    ],
+    [
+      808,
+      "vague metaphor",
+      68
+    ],
+    [
+      809,
+      "vague active",
+      68
+    ],
+    [
+      810,
+      "vague simple",
+      68
+    ],
+    [
+      811,
+      "vague verb",
+      68
+    ],
+    [
+      812,
+      "vague ordinary",
+      68
+    ],
+    [
+      813,
+      "vague word",
+      68
+    ],
+    [
+      814,
+      "muddy pretentious",
+      68
+    ],
+    [
+      815,
+      "muddy abstract",
+      68
+    ],
+    [
+      816,
+      "muddy noun",
+      68
+    ],
+    [
+      817,
+      "muddy image",
+      68
+    ],
+    [
+      818,
+      "muddy metaphor",
+      68
+    ],
+    [
+      819,
+      "muddy active",
+      68
+    ],
+    [
+      820,
+      "muddy simple",
+      68
+    ],
+    [
+      821,
+      "muddy verb",
+      68
+    ],
+    [
+      822,
+      "muddy ordinary",
+      68
+    ],
+    [
+      823,
+      "muddy word",
+      68
+    ],
+    [
+      824,
+      "muddy exact",
+      68
+    ],
+    [
+      825,
+      "pretentious abstract",
+      68
+    ],
+    [
+      826,
+      "pretentious noun",
+      67
+    ],
+    [
+      827,
+      "pretentious image",
+      67
+    ],
+    [
+      828,
+      "pretentious metaphor",
+      67
+    ],
+    [
+      829,
+      "pretentious active",
+      67
+    ],
+    [
+      830,
+      "pretentious simple",
+      67
+    ],
+    [
+      831,
+      "pretentious verb",
+      67
+    ],
+    [
+      832,
+      "pretentious ordinary",
+      67
+    ],
+    [
+      833,
+      "pretentious word",
+      67
+    ],
+    [
+      834,
+      "pretentious exact",
+      67
+    ],
+    [
+      835,
+      "pretentious name",
+      67
+    ],
+    [
+      836,
+      "abstract noun",
+      67
+    ],
+    [
+      847,
+      "noun image",
+      67
+    ],
+    [
+      848,
+      "noun metaphor",
+      67
+    ],
+    [
+      849,
+      "noun active",
+      67
+    ],
+    [
+      850,
+      "noun simple",
+      67
+    ],
+    [
+      851,
+      "noun verb",
+      66
+    ],
+    [
+      852,
+      "noun ordinary",
+      66
+    ],
+    [
+      853,
+      "noun word",
+      66
+    ],
+    [
+      854,
+      "noun exact",
+      66
+    ],
+    [
+      855,
+      "noun name",
+      66
+    ],
+    [
+      856,
+      "noun hard",
+      66
+    ],
+    [
+      857,
+      "noun soft",
+      66
+    ],
+    [
+      858,
+      "image metaphor",
+      66
+    ],
+    [
+      859,
+      "image active",
+      66
+    ],
+    [
+      860,
+      "image simple",
+      66
+    ],
+    [
+      861,
+      "image verb",
+      66
+    ],
+    [
+      862,
+      "image ordinary",
+      66
+    ],
+    [
+      863,
+      "image word",
+      66
+    ],
+    [
+      864,
+      "image exact",
+      66
+    ],
+    [
+      865,
+      "image name",
+      66
+    ],
+    [
+      866,
+      "image hard",
+      66
+    ],
+    [
+      867,
+      "image soft",
+      66
+    ],
+    [
+      868,
+      "image padding",
+      66
+    ],
+    [
+      869,
+      "metaphor active",
+      66
+    ],
+    [
+      870,
+      "metaphor simple",
+      66
+    ],
+    [
+      871,
+      "metaphor verb",
+      66
+    ],
+    [
+      872,
+      "metaphor ordinary",
+      66
+    ],
+    [
+      873,
+      "metaphor word",
+      66
+    ],
+    [
+      874,
+      "metaphor exact",
+      66
+    ],
+    [
+      875,
+      "metaphor name",
+      66
+    ],
+    [
+      876,
+      "metaphor hard",
+      65
+    ],
+    [
+      877,
+      "metaphor soft",
+      65
+    ],
+    [
+      878,
+      "metaphor padding",
+      65
+    ],
+    [
+      879,
+      "metaphor cliche",
+      65
+    ],
+    [
+      880,
+      "active simple",
+      65
+    ],
+    [
+      881,
+      "active ordinary",
+      65
+    ],
+    [
+      882,
+      "active word",
+      65
+    ],
+    [
+      883,
+      "active exact",
+      65
+    ],
+    [
+      884,
+      "active name",
+      65
+    ],
+    [
+      885,
+      "active hard",
+      65
+    ],
+    [
+      886,
+      "active soft",
+      65
+    ],
+    [
+      887,
+      "active padding",
+      65
+    ],
+    [
+      888,
+      "active cliche",
+      65
+    ],
+    [
+      889,
+      "active stale",
+      65
+    ],
+    [
+      890,
+      "simple verb",
+      65
+    ],
+    [
+      891,
+      "simple ordinary",
+      65
+    ],
+    [
+      892,
+      "simple word",
+      65
+    ],
+    [
+      893,
+      "simple exact",
+      65
+    ],
+    [
+      894,
+      "simple name",
+      65
+    ],
+    [
+      895,
+      "simple hard",
+      65
+    ],
+    [
+      896,
+      "simple soft",
+      65
+    ],
+    [
+      897,
+      "simple padding",
+      65
+    ],
+    [
+      898,
+      "simple cliche",
+      65
+    ],
+    [
+      899,
+      "simple stale",
+      65
+    ],
+    [
+      900,
+      "simple politics and english language",
+      65
+    ],
+    [
+      901,
+      "mini-MMM shapes voice",
+      100
+    ],
+    [
+      902,
+      "mini MMM voice shape",
+      100
+    ],
+    [
+      903,
+      "voice shaped by nouns",
+      100
+    ],
+    [
+      904,
+      "aligned nouns shape voice",
+      100
+    ],
+    [
+      905,
+      "correlated thinkers shape voice",
+      100
+    ],
+    [
+      906,
+      "thinker alignment voice",
+      100
+    ],
+    [
+      907,
+      "noun alignment voice",
+      100
+    ],
+    [
+      908,
+      "voice signature nouns",
+      100
+    ],
+    [
+      909,
+      "local voice contour",
+      100
+    ],
+    [
+      910,
+      "active voice",
+      97
+    ],
+    [
+      911,
+      "cut the word",
+      97
+    ],
+    [
+      912,
+      "clear language against euphemism",
+      97
+    ],
+    [
+      913,
+      "concrete nouns",
+      97
+    ]
+  ],
+  "triplets": [
+    [
+      1,
+      "under current plain",
+      100
+    ],
+    [
+      2,
+      "under local plain",
+      100
+    ],
+    [
+      3,
+      "under bounded plain",
+      100
+    ],
+    [
+      4,
+      "under finite plain",
+      100
+    ],
+    [
+      5,
+      "under open plain",
+      100
+    ],
+    [
+      6,
+      "under live plain",
+      100
+    ],
+    [
+      7,
+      "within current plain",
+      100
+    ],
+    [
+      8,
+      "within local plain",
+      100
+    ],
+    [
+      9,
+      "within bounded plain",
+      100
+    ],
+    [
+      10,
+      "within finite plain",
+      100
+    ],
+    [
+      11,
+      "within open plain",
+      100
+    ],
+    [
+      12,
+      "within live plain",
+      100
+    ],
+    [
+      13,
+      "across current plain",
+      100
+    ],
+    [
+      14,
+      "across local plain",
+      100
+    ],
+    [
+      15,
+      "across bounded plain",
+      100
+    ],
+    [
+      16,
+      "across finite plain",
+      100
+    ],
+    [
+      17,
+      "across open plain",
+      100
+    ],
+    [
+      18,
+      "across live plain",
+      100
+    ],
+    [
+      19,
+      "between current plain",
+      100
+    ],
+    [
+      20,
+      "between local plain",
+      100
+    ],
+    [
+      21,
+      "between bounded plain",
+      100
+    ],
+    [
+      22,
+      "between finite plain",
+      100
+    ],
+    [
+      23,
+      "between open plain",
+      100
+    ],
+    [
+      24,
+      "between live plain",
+      100
+    ],
+    [
+      25,
+      "through current plain",
+      100
+    ],
+    [
+      26,
+      "through local plain",
+      99
+    ],
+    [
+      27,
+      "through bounded plain",
+      99
+    ],
+    [
+      28,
+      "through finite plain",
+      99
+    ],
+    [
+      29,
+      "through open plain",
+      99
+    ],
+    [
+      30,
+      "through live plain",
+      99
+    ],
+    [
+      31,
+      "before current plain",
+      99
+    ],
+    [
+      32,
+      "before local plain",
+      99
+    ],
+    [
+      33,
+      "before bounded plain",
+      99
+    ],
+    [
+      34,
+      "before finite plain",
+      99
+    ],
+    [
+      35,
+      "before open plain",
+      99
+    ],
+    [
+      36,
+      "before live plain",
+      99
+    ],
+    [
+      37,
+      "plain evidence path",
+      99
+    ],
+    [
+      38,
+      "plain support path",
+      99
+    ],
+    [
+      39,
+      "plain path path",
+      99
+    ],
+    [
+      40,
+      "plain surface path",
+      99
+    ],
+    [
+      41,
+      "plain packet path",
+      99
+    ],
+    [
+      42,
+      "plain receipt path",
+      99
+    ],
+    [
+      43,
+      "plain trace path",
+      99
+    ],
+    [
+      44,
+      "plain result path",
+      99
+    ],
+    [
+      45,
+      "plain scope path",
+      99
+    ],
+    [
+      46,
+      "plain boundary path",
+      99
+    ],
+    [
+      47,
+      "check plain receipt",
+      99
+    ],
+    [
+      48,
+      "compare plain receipt",
+      99
+    ],
+    [
+      49,
+      "observe plain receipt",
+      99
+    ],
+    [
+      50,
+      "measure plain receipt",
+      99
+    ],
+    [
+      51,
+      "test plain receipt",
+      98
+    ],
+    [
+      52,
+      "verify plain receipt",
+      98
+    ],
+    [
+      53,
+      "hold plain receipt",
+      98
+    ],
+    [
+      54,
+      "preserve plain receipt",
+      98
+    ],
+    [
+      55,
+      "under current cut",
+      98
+    ],
+    [
+      56,
+      "under local cut",
+      98
+    ],
+    [
+      57,
+      "under bounded cut",
+      98
+    ],
+    [
+      58,
+      "under finite cut",
+      98
+    ],
+    [
+      59,
+      "under open cut",
+      98
+    ],
+    [
+      60,
+      "under live cut",
+      98
+    ],
+    [
+      61,
+      "within current cut",
+      98
+    ],
+    [
+      62,
+      "within local cut",
+      98
+    ],
+    [
+      63,
+      "within bounded cut",
+      98
+    ],
+    [
+      64,
+      "within finite cut",
+      98
+    ],
+    [
+      65,
+      "within open cut",
+      98
+    ],
+    [
+      66,
+      "within live cut",
+      98
+    ],
+    [
+      67,
+      "across current cut",
+      98
+    ],
+    [
+      68,
+      "across local cut",
+      98
+    ],
+    [
+      69,
+      "across bounded cut",
+      98
+    ],
+    [
+      70,
+      "across finite cut",
+      98
+    ],
+    [
+      71,
+      "across open cut",
+      98
+    ],
+    [
+      72,
+      "across live cut",
+      98
+    ],
+    [
+      73,
+      "between current cut",
+      98
+    ],
+    [
+      74,
+      "between local cut",
+      98
+    ],
+    [
+      75,
+      "between bounded cut",
+      98
+    ],
+    [
+      76,
+      "between finite cut",
+      97
+    ],
+    [
+      77,
+      "between open cut",
+      97
+    ],
+    [
+      78,
+      "between live cut",
+      97
+    ],
+    [
+      79,
+      "through current cut",
+      97
+    ],
+    [
+      80,
+      "through local cut",
+      97
+    ],
+    [
+      81,
+      "through bounded cut",
+      97
+    ],
+    [
+      82,
+      "through finite cut",
+      97
+    ],
+    [
+      83,
+      "through open cut",
+      97
+    ],
+    [
+      84,
+      "through live cut",
+      97
+    ],
+    [
+      85,
+      "before current cut",
+      97
+    ],
+    [
+      86,
+      "before local cut",
+      97
+    ],
+    [
+      87,
+      "before bounded cut",
+      97
+    ],
+    [
+      88,
+      "before finite cut",
+      97
+    ],
+    [
+      89,
+      "before open cut",
+      97
+    ],
+    [
+      90,
+      "before live cut",
+      97
+    ],
+    [
+      91,
+      "cut evidence path",
+      97
+    ],
+    [
+      92,
+      "cut support path",
+      97
+    ],
+    [
+      93,
+      "cut path path",
+      97
+    ],
+    [
+      94,
+      "cut surface path",
+      97
+    ],
+    [
+      95,
+      "cut packet path",
+      97
+    ],
+    [
+      96,
+      "cut receipt path",
+      97
+    ],
+    [
+      97,
+      "cut trace path",
+      97
+    ],
+    [
+      98,
+      "cut result path",
+      97
+    ],
+    [
+      99,
+      "cut scope path",
+      97
+    ],
+    [
+      100,
+      "cut boundary path",
+      97
+    ],
+    [
+      101,
+      "check cut receipt",
+      96
+    ],
+    [
+      102,
+      "compare cut receipt",
+      96
+    ],
+    [
+      103,
+      "observe cut receipt",
+      96
+    ],
+    [
+      104,
+      "measure cut receipt",
+      96
+    ],
+    [
+      105,
+      "test cut receipt",
+      96
+    ],
+    [
+      106,
+      "verify cut receipt",
+      96
+    ],
+    [
+      107,
+      "hold cut receipt",
+      96
+    ],
+    [
+      108,
+      "preserve cut receipt",
+      96
+    ],
+    [
+      109,
+      "under current short",
+      96
+    ],
+    [
+      110,
+      "under local short",
+      96
+    ],
+    [
+      111,
+      "under bounded short",
+      96
+    ],
+    [
+      112,
+      "under finite short",
+      96
+    ],
+    [
+      113,
+      "under open short",
+      96
+    ],
+    [
+      114,
+      "under live short",
+      96
+    ],
+    [
+      115,
+      "within current short",
+      96
+    ],
+    [
+      116,
+      "within local short",
+      96
+    ],
+    [
+      117,
+      "within bounded short",
+      96
+    ],
+    [
+      118,
+      "within finite short",
+      96
+    ],
+    [
+      119,
+      "within open short",
+      96
+    ],
+    [
+      120,
+      "within live short",
+      96
+    ],
+    [
+      121,
+      "across current short",
+      96
+    ],
+    [
+      122,
+      "across local short",
+      96
+    ],
+    [
+      123,
+      "across bounded short",
+      96
+    ],
+    [
+      124,
+      "across finite short",
+      96
+    ],
+    [
+      125,
+      "across open short",
+      96
+    ],
+    [
+      126,
+      "across live short",
+      95
+    ],
+    [
+      127,
+      "between current short",
+      95
+    ],
+    [
+      128,
+      "between local short",
+      95
+    ],
+    [
+      129,
+      "between bounded short",
+      95
+    ],
+    [
+      130,
+      "between finite short",
+      95
+    ],
+    [
+      131,
+      "between open short",
+      95
+    ],
+    [
+      132,
+      "between live short",
+      95
+    ],
+    [
+      133,
+      "through current short",
+      95
+    ],
+    [
+      134,
+      "through local short",
+      95
+    ],
+    [
+      135,
+      "through bounded short",
+      95
+    ],
+    [
+      136,
+      "through finite short",
+      95
+    ],
+    [
+      137,
+      "through open short",
+      95
+    ],
+    [
+      138,
+      "through live short",
+      95
+    ],
+    [
+      139,
+      "before current short",
+      95
+    ],
+    [
+      140,
+      "before local short",
+      95
+    ],
+    [
+      141,
+      "before bounded short",
+      95
+    ],
+    [
+      142,
+      "before finite short",
+      95
+    ],
+    [
+      143,
+      "before open short",
+      95
+    ],
+    [
+      144,
+      "before live short",
+      95
+    ],
+    [
+      145,
+      "short evidence path",
+      95
+    ],
+    [
+      146,
+      "short support path",
+      95
+    ],
+    [
+      147,
+      "short path path",
+      95
+    ],
+    [
+      148,
+      "short surface path",
+      95
+    ],
+    [
+      149,
+      "short packet path",
+      95
+    ],
+    [
+      150,
+      "short receipt path",
+      95
+    ],
+    [
+      151,
+      "short trace path",
+      94
+    ],
+    [
+      152,
+      "short result path",
+      94
+    ],
+    [
+      153,
+      "short scope path",
+      94
+    ],
+    [
+      154,
+      "short boundary path",
+      94
+    ],
+    [
+      155,
+      "check short receipt",
+      94
+    ],
+    [
+      156,
+      "compare short receipt",
+      94
+    ],
+    [
+      157,
+      "observe short receipt",
+      94
+    ],
+    [
+      158,
+      "measure short receipt",
+      94
+    ],
+    [
+      159,
+      "test short receipt",
+      94
+    ],
+    [
+      160,
+      "verify short receipt",
+      94
+    ],
+    [
+      161,
+      "hold short receipt",
+      94
+    ],
+    [
+      162,
+      "preserve short receipt",
+      94
+    ],
+    [
+      163,
+      "under current concrete",
+      94
+    ],
+    [
+      164,
+      "under local concrete",
+      94
+    ],
+    [
+      165,
+      "under bounded concrete",
+      94
+    ],
+    [
+      166,
+      "under finite concrete",
+      94
+    ],
+    [
+      167,
+      "under open concrete",
+      94
+    ],
+    [
+      168,
+      "under live concrete",
+      94
+    ],
+    [
+      169,
+      "within current concrete",
+      94
+    ],
+    [
+      170,
+      "within local concrete",
+      94
+    ],
+    [
+      171,
+      "within bounded concrete",
+      94
+    ],
+    [
+      172,
+      "within finite concrete",
+      94
+    ],
+    [
+      173,
+      "within open concrete",
+      94
+    ],
+    [
+      174,
+      "within live concrete",
+      94
+    ],
+    [
+      175,
+      "across current concrete",
+      94
+    ],
+    [
+      176,
+      "across local concrete",
+      93
+    ],
+    [
+      177,
+      "across bounded concrete",
+      93
+    ],
+    [
+      178,
+      "across finite concrete",
+      93
+    ],
+    [
+      179,
+      "across open concrete",
+      93
+    ],
+    [
+      180,
+      "across live concrete",
+      93
+    ],
+    [
+      181,
+      "between current concrete",
+      93
+    ],
+    [
+      182,
+      "between local concrete",
+      93
+    ],
+    [
+      183,
+      "between bounded concrete",
+      93
+    ],
+    [
+      184,
+      "between finite concrete",
+      93
+    ],
+    [
+      185,
+      "between open concrete",
+      93
+    ],
+    [
+      186,
+      "between live concrete",
+      93
+    ],
+    [
+      187,
+      "through current concrete",
+      93
+    ],
+    [
+      188,
+      "through local concrete",
+      93
+    ],
+    [
+      189,
+      "through bounded concrete",
+      93
+    ],
+    [
+      190,
+      "through finite concrete",
+      93
+    ],
+    [
+      191,
+      "through open concrete",
+      93
+    ],
+    [
+      192,
+      "through live concrete",
+      93
+    ],
+    [
+      193,
+      "before current concrete",
+      93
+    ],
+    [
+      194,
+      "before local concrete",
+      93
+    ],
+    [
+      195,
+      "before bounded concrete",
+      93
+    ],
+    [
+      196,
+      "before finite concrete",
+      93
+    ],
+    [
+      197,
+      "before open concrete",
+      93
+    ],
+    [
+      198,
+      "before live concrete",
+      93
+    ],
+    [
+      199,
+      "concrete evidence path",
+      93
+    ],
+    [
+      200,
+      "concrete support path",
+      93
+    ],
+    [
+      201,
+      "concrete path path",
+      92
+    ],
+    [
+      202,
+      "concrete surface path",
+      92
+    ],
+    [
+      203,
+      "concrete packet path",
+      92
+    ],
+    [
+      204,
+      "concrete receipt path",
+      92
+    ],
+    [
+      205,
+      "concrete trace path",
+      92
+    ],
+    [
+      206,
+      "concrete result path",
+      92
+    ],
+    [
+      207,
+      "concrete scope path",
+      92
+    ],
+    [
+      208,
+      "concrete boundary path",
+      92
+    ],
+    [
+      209,
+      "check concrete receipt",
+      92
+    ],
+    [
+      210,
+      "compare concrete receipt",
+      92
+    ],
+    [
+      211,
+      "observe concrete receipt",
+      92
+    ],
+    [
+      212,
+      "measure concrete receipt",
+      92
+    ],
+    [
+      213,
+      "test concrete receipt",
+      92
+    ],
+    [
+      214,
+      "verify concrete receipt",
+      92
+    ],
+    [
+      215,
+      "hold concrete receipt",
+      92
+    ],
+    [
+      216,
+      "preserve concrete receipt",
+      92
+    ],
+    [
+      217,
+      "under current word",
+      92
+    ],
+    [
+      218,
+      "under local word",
+      92
+    ],
+    [
+      219,
+      "under bounded word",
+      92
+    ],
+    [
+      220,
+      "under finite word",
+      92
+    ],
+    [
+      221,
+      "under open word",
+      92
+    ],
+    [
+      222,
+      "under live word",
+      92
+    ],
+    [
+      223,
+      "within current word",
+      92
+    ],
+    [
+      224,
+      "within local word",
+      92
+    ],
+    [
+      225,
+      "within bounded word",
+      92
+    ],
+    [
+      226,
+      "within finite word",
+      91
+    ],
+    [
+      227,
+      "within open word",
+      91
+    ],
+    [
+      228,
+      "within live word",
+      91
+    ],
+    [
+      229,
+      "across current word",
+      91
+    ],
+    [
+      230,
+      "across local word",
+      91
+    ],
+    [
+      231,
+      "across bounded word",
+      91
+    ],
+    [
+      232,
+      "across finite word",
+      91
+    ],
+    [
+      233,
+      "across open word",
+      91
+    ],
+    [
+      234,
+      "across live word",
+      91
+    ],
+    [
+      235,
+      "between current word",
+      91
+    ],
+    [
+      236,
+      "between local word",
+      91
+    ],
+    [
+      237,
+      "between bounded word",
+      91
+    ],
+    [
+      238,
+      "between finite word",
+      91
+    ],
+    [
+      239,
+      "between open word",
+      91
+    ],
+    [
+      240,
+      "between live word",
+      91
+    ],
+    [
+      241,
+      "verbal false limb",
+      91
+    ],
+    [
+      242,
+      "cut a word",
+      91
+    ],
+    [
+      243,
+      "under plain concrete",
+      91
+    ],
+    [
+      244,
+      "under plain short",
+      91
+    ],
+    [
+      245,
+      "under plain clear",
+      91
+    ],
+    [
+      246,
+      "under plain cut",
+      91
+    ],
+    [
+      247,
+      "under concrete short",
+      91
+    ],
+    [
+      248,
+      "under concrete clear",
+      91
+    ],
+    [
+      249,
+      "under concrete cut",
+      91
+    ],
+    [
+      250,
+      "under concrete fog",
+      91
+    ],
+    [
+      251,
+      "under short clear",
+      90
+    ],
+    [
+      252,
+      "under short cut",
+      90
+    ],
+    [
+      253,
+      "under short fog",
+      90
+    ],
+    [
+      254,
+      "under short euphemism",
+      90
+    ],
+    [
+      255,
+      "under clear cut",
+      90
+    ],
+    [
+      256,
+      "under clear fog",
+      90
+    ],
+    [
+      257,
+      "under clear euphemism",
+      90
+    ],
+    [
+      258,
+      "under clear inflated",
+      90
+    ],
+    [
+      259,
+      "under cut fog",
+      90
+    ],
+    [
+      260,
+      "under cut euphemism",
+      90
+    ],
+    [
+      261,
+      "under cut inflated",
+      90
+    ],
+    [
+      262,
+      "under cut dead",
+      90
+    ],
+    [
+      263,
+      "under fog euphemism",
+      90
+    ],
+    [
+      264,
+      "under fog inflated",
+      90
+    ],
+    [
+      265,
+      "under fog dead",
+      90
+    ],
+    [
+      266,
+      "under fog phrase",
+      90
+    ],
+    [
+      267,
+      "under euphemism inflated",
+      90
+    ],
+    [
+      268,
+      "under euphemism dead",
+      90
+    ],
+    [
+      269,
+      "under euphemism phrase",
+      90
+    ],
+    [
+      270,
+      "under euphemism jargon",
+      90
+    ],
+    [
+      271,
+      "under inflated dead",
+      90
+    ],
+    [
+      272,
+      "under inflated phrase",
+      90
+    ],
+    [
+      273,
+      "under inflated jargon",
+      90
+    ],
+    [
+      274,
+      "under inflated bureaucratic",
+      90
+    ],
+    [
+      275,
+      "under dead phrase",
+      90
+    ],
+    [
+      276,
+      "under dead jargon",
+      89
+    ],
+    [
+      277,
+      "under dead bureaucratic",
+      89
+    ],
+    [
+      278,
+      "under dead vague",
+      89
+    ],
+    [
+      279,
+      "under phrase jargon",
+      89
+    ],
+    [
+      280,
+      "under phrase bureaucratic",
+      89
+    ],
+    [
+      281,
+      "under phrase vague",
+      89
+    ],
+    [
+      282,
+      "under phrase muddy",
+      89
+    ],
+    [
+      283,
+      "under jargon bureaucratic",
+      89
+    ],
+    [
+      284,
+      "under jargon vague",
+      89
+    ],
+    [
+      285,
+      "under jargon muddy",
+      89
+    ],
+    [
+      286,
+      "under jargon pretentious",
+      89
+    ],
+    [
+      287,
+      "under bureaucratic vague",
+      89
+    ],
+    [
+      288,
+      "under bureaucratic muddy",
+      89
+    ],
+    [
+      289,
+      "under bureaucratic pretentious",
+      89
+    ],
+    [
+      291,
+      "under vague muddy",
+      89
+    ],
+    [
+      292,
+      "under vague pretentious",
+      89
+    ],
+    [
+      294,
+      "under vague noun",
+      89
+    ],
+    [
+      295,
+      "under muddy pretentious",
+      89
+    ],
+    [
+      297,
+      "under muddy noun",
+      89
+    ],
+    [
+      298,
+      "under muddy image",
+      89
+    ],
+    [
+      300,
+      "under pretentious noun",
+      89
+    ],
+    [
+      301,
+      "under pretentious image",
+      88
+    ],
+    [
+      302,
+      "under pretentious metaphor",
+      88
+    ],
+    [
+      307,
+      "under noun image",
+      88
+    ],
+    [
+      308,
+      "under noun metaphor",
+      88
+    ],
+    [
+      309,
+      "under noun active",
+      88
+    ],
+    [
+      310,
+      "under noun simple",
+      88
+    ],
+    [
+      311,
+      "under image metaphor",
+      88
+    ],
+    [
+      312,
+      "under image active",
+      88
+    ],
+    [
+      313,
+      "under image simple",
+      88
+    ],
+    [
+      314,
+      "under image verb",
+      88
+    ],
+    [
+      315,
+      "under metaphor active",
+      88
+    ],
+    [
+      316,
+      "under metaphor simple",
+      88
+    ],
+    [
+      317,
+      "under metaphor verb",
+      88
+    ],
+    [
+      318,
+      "under metaphor ordinary",
+      88
+    ],
+    [
+      319,
+      "under active simple",
+      88
+    ],
+    [
+      320,
+      "under active verb",
+      88
+    ],
+    [
+      321,
+      "under active ordinary",
+      88
+    ],
+    [
+      322,
+      "under active word",
+      88
+    ],
+    [
+      323,
+      "within plain concrete",
+      88
+    ],
+    [
+      324,
+      "within plain short",
+      88
+    ],
+    [
+      325,
+      "within plain clear",
+      88
+    ],
+    [
+      326,
+      "within plain cut",
+      87
+    ],
+    [
+      327,
+      "within concrete short",
+      87
+    ],
+    [
+      328,
+      "within concrete clear",
+      87
+    ],
+    [
+      329,
+      "within concrete cut",
+      87
+    ],
+    [
+      330,
+      "within concrete fog",
+      87
+    ],
+    [
+      331,
+      "within short clear",
+      87
+    ],
+    [
+      332,
+      "within short cut",
+      87
+    ],
+    [
+      333,
+      "within short fog",
+      87
+    ],
+    [
+      334,
+      "within short euphemism",
+      87
+    ],
+    [
+      335,
+      "within clear cut",
+      87
+    ],
+    [
+      336,
+      "within clear fog",
+      87
+    ],
+    [
+      337,
+      "within clear euphemism",
+      87
+    ],
+    [
+      338,
+      "within clear inflated",
+      87
+    ],
+    [
+      339,
+      "within cut fog",
+      87
+    ],
+    [
+      340,
+      "within cut euphemism",
+      87
+    ],
+    [
+      341,
+      "within cut inflated",
+      87
+    ],
+    [
+      342,
+      "within cut dead",
+      87
+    ],
+    [
+      343,
+      "within fog euphemism",
+      87
+    ],
+    [
+      344,
+      "within fog inflated",
+      87
+    ],
+    [
+      345,
+      "within fog dead",
+      87
+    ],
+    [
+      346,
+      "within fog phrase",
+      87
+    ],
+    [
+      347,
+      "within euphemism inflated",
+      87
+    ],
+    [
+      348,
+      "within euphemism dead",
+      87
+    ],
+    [
+      349,
+      "within euphemism phrase",
+      87
+    ],
+    [
+      350,
+      "within euphemism jargon",
+      87
+    ],
+    [
+      351,
+      "within inflated dead",
+      86
+    ],
+    [
+      352,
+      "within inflated phrase",
+      86
+    ],
+    [
+      353,
+      "within inflated jargon",
+      86
+    ],
+    [
+      354,
+      "within inflated bureaucratic",
+      86
+    ],
+    [
+      355,
+      "within dead phrase",
+      86
+    ],
+    [
+      356,
+      "within dead jargon",
+      86
+    ],
+    [
+      357,
+      "within dead bureaucratic",
+      86
+    ],
+    [
+      358,
+      "within dead vague",
+      86
+    ],
+    [
+      359,
+      "within phrase jargon",
+      86
+    ],
+    [
+      360,
+      "within phrase bureaucratic",
+      86
+    ],
+    [
+      361,
+      "within phrase vague",
+      86
+    ],
+    [
+      362,
+      "within phrase muddy",
+      86
+    ],
+    [
+      363,
+      "within jargon bureaucratic",
+      86
+    ],
+    [
+      364,
+      "within jargon vague",
+      86
+    ],
+    [
+      365,
+      "within jargon muddy",
+      86
+    ],
+    [
+      366,
+      "within jargon pretentious",
+      86
+    ],
+    [
+      367,
+      "within bureaucratic vague",
+      86
+    ],
+    [
+      368,
+      "within bureaucratic muddy",
+      86
+    ],
+    [
+      369,
+      "within bureaucratic pretentious",
+      86
+    ],
+    [
+      371,
+      "within vague muddy",
+      86
+    ],
+    [
+      372,
+      "within vague pretentious",
+      86
+    ],
+    [
+      374,
+      "within vague noun",
+      86
+    ],
+    [
+      375,
+      "within muddy pretentious",
+      86
+    ],
+    [
+      377,
+      "within muddy noun",
+      85
+    ],
+    [
+      378,
+      "within muddy image",
+      85
+    ],
+    [
+      380,
+      "within pretentious noun",
+      85
+    ],
+    [
+      381,
+      "within pretentious image",
+      85
+    ],
+    [
+      382,
+      "within pretentious metaphor",
+      85
+    ],
+    [
+      387,
+      "within noun image",
+      85
+    ],
+    [
+      388,
+      "within noun metaphor",
+      85
+    ],
+    [
+      389,
+      "within noun active",
+      85
+    ],
+    [
+      390,
+      "within noun simple",
+      85
+    ],
+    [
+      391,
+      "within image metaphor",
+      85
+    ],
+    [
+      392,
+      "within image active",
+      85
+    ],
+    [
+      393,
+      "within image simple",
+      85
+    ],
+    [
+      394,
+      "within image verb",
+      85
+    ],
+    [
+      395,
+      "within metaphor active",
+      85
+    ],
+    [
+      396,
+      "within metaphor simple",
+      85
+    ],
+    [
+      397,
+      "within metaphor verb",
+      85
+    ],
+    [
+      398,
+      "within metaphor ordinary",
+      85
+    ],
+    [
+      399,
+      "within active simple",
+      85
+    ],
+    [
+      400,
+      "within active verb",
+      85
+    ],
+    [
+      401,
+      "within active ordinary",
+      84
+    ],
+    [
+      402,
+      "within active word",
+      84
+    ],
+    [
+      403,
+      "across plain concrete",
+      84
+    ],
+    [
+      404,
+      "across plain short",
+      84
+    ],
+    [
+      405,
+      "across plain clear",
+      84
+    ],
+    [
+      406,
+      "across plain cut",
+      84
+    ],
+    [
+      407,
+      "across concrete short",
+      84
+    ],
+    [
+      408,
+      "across concrete clear",
+      84
+    ],
+    [
+      409,
+      "across concrete cut",
+      84
+    ],
+    [
+      410,
+      "across concrete fog",
+      84
+    ],
+    [
+      411,
+      "across short clear",
+      84
+    ],
+    [
+      412,
+      "across short cut",
+      84
+    ],
+    [
+      413,
+      "across short fog",
+      84
+    ],
+    [
+      414,
+      "across short euphemism",
+      84
+    ],
+    [
+      415,
+      "across clear cut",
+      84
+    ],
+    [
+      416,
+      "across clear fog",
+      84
+    ],
+    [
+      417,
+      "across clear euphemism",
+      84
+    ],
+    [
+      418,
+      "across clear inflated",
+      84
+    ],
+    [
+      419,
+      "across cut fog",
+      84
+    ],
+    [
+      420,
+      "across cut euphemism",
+      84
+    ],
+    [
+      421,
+      "across cut inflated",
+      84
+    ],
+    [
+      422,
+      "across cut dead",
+      84
+    ],
+    [
+      423,
+      "across fog euphemism",
+      84
+    ],
+    [
+      424,
+      "across fog inflated",
+      84
+    ],
+    [
+      425,
+      "across fog dead",
+      84
+    ],
+    [
+      426,
+      "across fog phrase",
+      83
+    ],
+    [
+      427,
+      "across euphemism inflated",
+      83
+    ],
+    [
+      428,
+      "across euphemism dead",
+      83
+    ],
+    [
+      429,
+      "across euphemism phrase",
+      83
+    ],
+    [
+      430,
+      "across euphemism jargon",
+      83
+    ],
+    [
+      431,
+      "across inflated dead",
+      83
+    ],
+    [
+      432,
+      "across inflated phrase",
+      83
+    ],
+    [
+      433,
+      "across inflated jargon",
+      83
+    ],
+    [
+      434,
+      "across inflated bureaucratic",
+      83
+    ],
+    [
+      435,
+      "across dead phrase",
+      83
+    ],
+    [
+      436,
+      "across dead jargon",
+      83
+    ],
+    [
+      437,
+      "across dead bureaucratic",
+      83
+    ],
+    [
+      438,
+      "across dead vague",
+      83
+    ],
+    [
+      439,
+      "across phrase jargon",
+      83
+    ],
+    [
+      440,
+      "across phrase bureaucratic",
+      83
+    ],
+    [
+      441,
+      "across phrase vague",
+      83
+    ],
+    [
+      442,
+      "across phrase muddy",
+      83
+    ],
+    [
+      443,
+      "across jargon bureaucratic",
+      83
+    ],
+    [
+      444,
+      "across jargon vague",
+      83
+    ],
+    [
+      445,
+      "across jargon muddy",
+      83
+    ],
+    [
+      446,
+      "across jargon pretentious",
+      83
+    ],
+    [
+      447,
+      "across bureaucratic vague",
+      83
+    ],
+    [
+      448,
+      "across bureaucratic muddy",
+      83
+    ],
+    [
+      449,
+      "across bureaucratic pretentious",
+      83
+    ],
+    [
+      451,
+      "across vague muddy",
+      82
+    ],
+    [
+      452,
+      "across vague pretentious",
+      82
+    ],
+    [
+      454,
+      "across vague noun",
+      82
+    ],
+    [
+      455,
+      "across muddy pretentious",
+      82
+    ],
+    [
+      457,
+      "across muddy noun",
+      82
+    ],
+    [
+      458,
+      "across muddy image",
+      82
+    ],
+    [
+      460,
+      "across pretentious noun",
+      82
+    ],
+    [
+      461,
+      "across pretentious image",
+      82
+    ],
+    [
+      462,
+      "across pretentious metaphor",
+      82
+    ],
+    [
+      467,
+      "across noun image",
+      82
+    ],
+    [
+      468,
+      "across noun metaphor",
+      82
+    ],
+    [
+      469,
+      "across noun active",
+      82
+    ],
+    [
+      470,
+      "across noun simple",
+      82
+    ],
+    [
+      471,
+      "across image metaphor",
+      82
+    ],
+    [
+      472,
+      "across image active",
+      82
+    ],
+    [
+      473,
+      "across image simple",
+      82
+    ],
+    [
+      474,
+      "across image verb",
+      82
+    ],
+    [
+      475,
+      "across metaphor active",
+      82
+    ],
+    [
+      476,
+      "across metaphor simple",
+      81
+    ],
+    [
+      477,
+      "across metaphor verb",
+      81
+    ],
+    [
+      478,
+      "across metaphor ordinary",
+      81
+    ],
+    [
+      479,
+      "across active simple",
+      81
+    ],
+    [
+      480,
+      "across active verb",
+      81
+    ],
+    [
+      481,
+      "across active ordinary",
+      81
+    ],
+    [
+      482,
+      "across active word",
+      81
+    ],
+    [
+      483,
+      "between plain concrete",
+      81
+    ],
+    [
+      484,
+      "between plain short",
+      81
+    ],
+    [
+      485,
+      "between plain clear",
+      81
+    ],
+    [
+      486,
+      "between plain cut",
+      81
+    ],
+    [
+      487,
+      "between concrete short",
+      81
+    ],
+    [
+      488,
+      "between concrete clear",
+      81
+    ],
+    [
+      489,
+      "between concrete cut",
+      81
+    ],
+    [
+      490,
+      "between concrete fog",
+      81
+    ],
+    [
+      491,
+      "between short clear",
+      81
+    ],
+    [
+      492,
+      "between short cut",
+      81
+    ],
+    [
+      493,
+      "between short fog",
+      81
+    ],
+    [
+      494,
+      "between short euphemism",
+      81
+    ],
+    [
+      495,
+      "between clear cut",
+      81
+    ],
+    [
+      496,
+      "between clear fog",
+      81
+    ],
+    [
+      497,
+      "between clear euphemism",
+      81
+    ],
+    [
+      498,
+      "between clear inflated",
+      81
+    ],
+    [
+      499,
+      "between cut fog",
+      81
+    ],
+    [
+      500,
+      "between cut euphemism",
+      81
+    ],
+    [
+      501,
+      "between cut inflated",
+      80
+    ],
+    [
+      502,
+      "between cut dead",
+      80
+    ],
+    [
+      503,
+      "between fog euphemism",
+      80
+    ],
+    [
+      504,
+      "between fog inflated",
+      80
+    ],
+    [
+      505,
+      "between fog dead",
+      80
+    ],
+    [
+      506,
+      "between fog phrase",
+      80
+    ],
+    [
+      507,
+      "between euphemism inflated",
+      80
+    ],
+    [
+      508,
+      "between euphemism dead",
+      80
+    ],
+    [
+      509,
+      "between euphemism phrase",
+      80
+    ],
+    [
+      510,
+      "between euphemism jargon",
+      80
+    ],
+    [
+      511,
+      "between inflated dead",
+      80
+    ],
+    [
+      512,
+      "between inflated phrase",
+      80
+    ],
+    [
+      513,
+      "between inflated jargon",
+      80
+    ],
+    [
+      514,
+      "between inflated bureaucratic",
+      80
+    ],
+    [
+      515,
+      "between dead phrase",
+      80
+    ],
+    [
+      516,
+      "between dead jargon",
+      80
+    ],
+    [
+      517,
+      "between dead bureaucratic",
+      80
+    ],
+    [
+      518,
+      "between dead vague",
+      80
+    ],
+    [
+      519,
+      "between phrase jargon",
+      80
+    ],
+    [
+      520,
+      "between phrase bureaucratic",
+      80
+    ],
+    [
+      521,
+      "between phrase vague",
+      80
+    ],
+    [
+      522,
+      "between phrase muddy",
+      80
+    ],
+    [
+      523,
+      "between jargon bureaucratic",
+      80
+    ],
+    [
+      524,
+      "between jargon vague",
+      80
+    ],
+    [
+      525,
+      "between jargon muddy",
+      80
+    ],
+    [
+      526,
+      "between jargon pretentious",
+      79
+    ],
+    [
+      527,
+      "between bureaucratic vague",
+      79
+    ],
+    [
+      528,
+      "between bureaucratic muddy",
+      79
+    ],
+    [
+      529,
+      "between bureaucratic pretentious",
+      79
+    ],
+    [
+      531,
+      "between vague muddy",
+      79
+    ],
+    [
+      532,
+      "between vague pretentious",
+      79
+    ],
+    [
+      534,
+      "between vague noun",
+      79
+    ],
+    [
+      535,
+      "between muddy pretentious",
+      79
+    ],
+    [
+      537,
+      "between muddy noun",
+      79
+    ],
+    [
+      538,
+      "between muddy image",
+      79
+    ],
+    [
+      540,
+      "between pretentious noun",
+      79
+    ],
+    [
+      541,
+      "between pretentious image",
+      79
+    ],
+    [
+      542,
+      "between pretentious metaphor",
+      79
+    ],
+    [
+      547,
+      "between noun image",
+      79
+    ],
+    [
+      548,
+      "between noun metaphor",
+      79
+    ],
+    [
+      549,
+      "between noun active",
+      79
+    ],
+    [
+      550,
+      "between noun simple",
+      79
+    ],
+    [
+      551,
+      "between image metaphor",
+      78
+    ],
+    [
+      552,
+      "between image active",
+      78
+    ],
+    [
+      553,
+      "between image simple",
+      78
+    ],
+    [
+      554,
+      "between image verb",
+      78
+    ],
+    [
+      555,
+      "between metaphor active",
+      78
+    ],
+    [
+      556,
+      "between metaphor simple",
+      78
+    ],
+    [
+      557,
+      "between metaphor verb",
+      78
+    ],
+    [
+      558,
+      "between metaphor ordinary",
+      78
+    ],
+    [
+      559,
+      "between active simple",
+      78
+    ],
+    [
+      560,
+      "between active verb",
+      78
+    ],
+    [
+      561,
+      "between active ordinary",
+      78
+    ],
+    [
+      562,
+      "between active word",
+      78
+    ],
+    [
+      563,
+      "through plain concrete",
+      78
+    ],
+    [
+      564,
+      "through plain short",
+      78
+    ],
+    [
+      565,
+      "through plain clear",
+      78
+    ],
+    [
+      566,
+      "through plain cut",
+      78
+    ],
+    [
+      567,
+      "through concrete short",
+      78
+    ],
+    [
+      568,
+      "through concrete clear",
+      78
+    ],
+    [
+      569,
+      "through concrete cut",
+      78
+    ],
+    [
+      570,
+      "through concrete fog",
+      78
+    ],
+    [
+      571,
+      "through short clear",
+      78
+    ],
+    [
+      572,
+      "through short cut",
+      78
+    ],
+    [
+      573,
+      "through short fog",
+      78
+    ],
+    [
+      574,
+      "through short euphemism",
+      78
+    ],
+    [
+      575,
+      "through clear cut",
+      78
+    ],
+    [
+      576,
+      "through clear fog",
+      77
+    ],
+    [
+      577,
+      "through clear euphemism",
+      77
+    ],
+    [
+      578,
+      "through clear inflated",
+      77
+    ],
+    [
+      579,
+      "through cut fog",
+      77
+    ],
+    [
+      580,
+      "through cut euphemism",
+      77
+    ],
+    [
+      581,
+      "through cut inflated",
+      77
+    ],
+    [
+      582,
+      "through cut dead",
+      77
+    ],
+    [
+      583,
+      "through fog euphemism",
+      77
+    ],
+    [
+      584,
+      "through fog inflated",
+      77
+    ],
+    [
+      585,
+      "through fog dead",
+      77
+    ],
+    [
+      586,
+      "through fog phrase",
+      77
+    ],
+    [
+      587,
+      "through euphemism inflated",
+      77
+    ],
+    [
+      588,
+      "through euphemism dead",
+      77
+    ],
+    [
+      589,
+      "through euphemism phrase",
+      77
+    ],
+    [
+      590,
+      "through euphemism jargon",
+      77
+    ],
+    [
+      591,
+      "through inflated dead",
+      77
+    ],
+    [
+      592,
+      "through inflated phrase",
+      77
+    ],
+    [
+      593,
+      "through inflated jargon",
+      77
+    ],
+    [
+      594,
+      "through inflated bureaucratic",
+      77
+    ],
+    [
+      595,
+      "through dead phrase",
+      77
+    ],
+    [
+      596,
+      "through dead jargon",
+      77
+    ],
+    [
+      597,
+      "through dead bureaucratic",
+      77
+    ],
+    [
+      598,
+      "through dead vague",
+      77
+    ],
+    [
+      599,
+      "through phrase jargon",
+      77
+    ],
+    [
+      600,
+      "through phrase bureaucratic",
+      77
+    ],
+    [
+      601,
+      "through phrase vague",
+      76
+    ],
+    [
+      602,
+      "through phrase muddy",
+      76
+    ],
+    [
+      603,
+      "through jargon bureaucratic",
+      76
+    ],
+    [
+      604,
+      "through jargon vague",
+      76
+    ],
+    [
+      605,
+      "through jargon muddy",
+      76
+    ],
+    [
+      606,
+      "through jargon pretentious",
+      76
+    ],
+    [
+      607,
+      "through bureaucratic vague",
+      76
+    ],
+    [
+      608,
+      "through bureaucratic muddy",
+      76
+    ],
+    [
+      609,
+      "through bureaucratic pretentious",
+      76
+    ],
+    [
+      611,
+      "through vague muddy",
+      76
+    ],
+    [
+      612,
+      "through vague pretentious",
+      76
+    ],
+    [
+      614,
+      "through vague noun",
+      76
+    ],
+    [
+      615,
+      "through muddy pretentious",
+      76
+    ],
+    [
+      617,
+      "through muddy noun",
+      76
+    ],
+    [
+      618,
+      "through muddy image",
+      76
+    ],
+    [
+      620,
+      "through pretentious noun",
+      76
+    ],
+    [
+      621,
+      "through pretentious image",
+      76
+    ],
+    [
+      622,
+      "through pretentious metaphor",
+      76
+    ],
+    [
+      627,
+      "through noun image",
+      75
+    ],
+    [
+      628,
+      "through noun metaphor",
+      75
+    ],
+    [
+      629,
+      "through noun active",
+      75
+    ],
+    [
+      630,
+      "through noun simple",
+      75
+    ],
+    [
+      631,
+      "through image metaphor",
+      75
+    ],
+    [
+      632,
+      "through image active",
+      75
+    ],
+    [
+      633,
+      "through image simple",
+      75
+    ],
+    [
+      634,
+      "through image verb",
+      75
+    ],
+    [
+      635,
+      "through metaphor active",
+      75
+    ],
+    [
+      636,
+      "through metaphor simple",
+      75
+    ],
+    [
+      637,
+      "through metaphor verb",
+      75
+    ],
+    [
+      638,
+      "through metaphor ordinary",
+      75
+    ],
+    [
+      639,
+      "through active simple",
+      75
+    ],
+    [
+      640,
+      "through active verb",
+      75
+    ],
+    [
+      641,
+      "through active ordinary",
+      75
+    ],
+    [
+      642,
+      "through active word",
+      75
+    ],
+    [
+      643,
+      "before plain concrete",
+      75
+    ],
+    [
+      644,
+      "before plain short",
+      75
+    ],
+    [
+      645,
+      "before plain clear",
+      75
+    ],
+    [
+      646,
+      "before plain cut",
+      75
+    ],
+    [
+      647,
+      "before concrete short",
+      75
+    ],
+    [
+      648,
+      "before concrete clear",
+      75
+    ],
+    [
+      649,
+      "before concrete cut",
+      75
+    ],
+    [
+      650,
+      "before concrete fog",
+      75
+    ],
+    [
+      651,
+      "before short clear",
+      74
+    ],
+    [
+      652,
+      "before short cut",
+      74
+    ],
+    [
+      653,
+      "before short fog",
+      74
+    ],
+    [
+      654,
+      "before short euphemism",
+      74
+    ],
+    [
+      655,
+      "before clear cut",
+      74
+    ],
+    [
+      656,
+      "before clear fog",
+      74
+    ],
+    [
+      657,
+      "before clear euphemism",
+      74
+    ],
+    [
+      658,
+      "before clear inflated",
+      74
+    ],
+    [
+      659,
+      "before cut fog",
+      74
+    ],
+    [
+      660,
+      "before cut euphemism",
+      74
+    ],
+    [
+      661,
+      "before cut inflated",
+      74
+    ],
+    [
+      662,
+      "before cut dead",
+      74
+    ],
+    [
+      663,
+      "before fog euphemism",
+      74
+    ],
+    [
+      664,
+      "before fog inflated",
+      74
+    ],
+    [
+      665,
+      "before fog dead",
+      74
+    ],
+    [
+      666,
+      "before fog phrase",
+      74
+    ],
+    [
+      667,
+      "before euphemism inflated",
+      74
+    ],
+    [
+      668,
+      "before euphemism dead",
+      74
+    ],
+    [
+      669,
+      "before euphemism phrase",
+      74
+    ],
+    [
+      670,
+      "before euphemism jargon",
+      74
+    ],
+    [
+      671,
+      "before inflated dead",
+      74
+    ],
+    [
+      672,
+      "before inflated phrase",
+      74
+    ],
+    [
+      673,
+      "before inflated jargon",
+      74
+    ],
+    [
+      674,
+      "before inflated bureaucratic",
+      74
+    ],
+    [
+      675,
+      "before dead phrase",
+      74
+    ],
+    [
+      676,
+      "before dead jargon",
+      73
+    ],
+    [
+      677,
+      "before dead bureaucratic",
+      73
+    ],
+    [
+      678,
+      "before dead vague",
+      73
+    ],
+    [
+      679,
+      "before phrase jargon",
+      73
+    ],
+    [
+      680,
+      "before phrase bureaucratic",
+      73
+    ],
+    [
+      681,
+      "before phrase vague",
+      73
+    ],
+    [
+      682,
+      "before phrase muddy",
+      73
+    ],
+    [
+      683,
+      "before jargon bureaucratic",
+      73
+    ],
+    [
+      684,
+      "before jargon vague",
+      73
+    ],
+    [
+      685,
+      "before jargon muddy",
+      73
+    ],
+    [
+      686,
+      "before jargon pretentious",
+      73
+    ],
+    [
+      687,
+      "before bureaucratic vague",
+      73
+    ],
+    [
+      688,
+      "before bureaucratic muddy",
+      73
+    ],
+    [
+      689,
+      "before bureaucratic pretentious",
+      73
+    ],
+    [
+      691,
+      "before vague muddy",
+      73
+    ],
+    [
+      692,
+      "before vague pretentious",
+      73
+    ],
+    [
+      694,
+      "before vague noun",
+      73
+    ],
+    [
+      695,
+      "before muddy pretentious",
+      73
+    ],
+    [
+      697,
+      "before muddy noun",
+      73
+    ],
+    [
+      698,
+      "before muddy image",
+      73
+    ],
+    [
+      700,
+      "before pretentious noun",
+      73
+    ],
+    [
+      701,
+      "before pretentious image",
+      72
+    ],
+    [
+      702,
+      "before pretentious metaphor",
+      72
+    ],
+    [
+      707,
+      "before noun image",
+      72
+    ],
+    [
+      708,
+      "before noun metaphor",
+      72
+    ],
+    [
+      709,
+      "before noun active",
+      72
+    ],
+    [
+      710,
+      "before noun simple",
+      72
+    ],
+    [
+      711,
+      "before image metaphor",
+      72
+    ],
+    [
+      712,
+      "before image active",
+      72
+    ],
+    [
+      713,
+      "before image simple",
+      72
+    ],
+    [
+      714,
+      "before image verb",
+      72
+    ],
+    [
+      715,
+      "before metaphor active",
+      72
+    ],
+    [
+      716,
+      "before metaphor simple",
+      72
+    ],
+    [
+      717,
+      "before metaphor verb",
+      72
+    ],
+    [
+      718,
+      "before metaphor ordinary",
+      72
+    ],
+    [
+      719,
+      "before active simple",
+      72
+    ],
+    [
+      720,
+      "before active verb",
+      72
+    ],
+    [
+      721,
+      "before active ordinary",
+      72
+    ],
+    [
+      722,
+      "before active word",
+      72
+    ],
+    [
+      723,
+      "after plain concrete",
+      72
+    ],
+    [
+      724,
+      "after plain short",
+      72
+    ],
+    [
+      725,
+      "after plain clear",
+      72
+    ],
+    [
+      726,
+      "after plain cut",
+      71
+    ],
+    [
+      727,
+      "after concrete short",
+      71
+    ],
+    [
+      728,
+      "after concrete clear",
+      71
+    ],
+    [
+      729,
+      "after concrete cut",
+      71
+    ],
+    [
+      730,
+      "after concrete fog",
+      71
+    ],
+    [
+      731,
+      "after short clear",
+      71
+    ],
+    [
+      732,
+      "after short cut",
+      71
+    ],
+    [
+      733,
+      "after short fog",
+      71
+    ],
+    [
+      734,
+      "after short euphemism",
+      71
+    ],
+    [
+      735,
+      "after clear cut",
+      71
+    ],
+    [
+      736,
+      "after clear fog",
+      71
+    ],
+    [
+      737,
+      "after clear euphemism",
+      71
+    ],
+    [
+      738,
+      "after clear inflated",
+      71
+    ],
+    [
+      739,
+      "after cut fog",
+      71
+    ],
+    [
+      740,
+      "after cut euphemism",
+      71
+    ],
+    [
+      741,
+      "after cut inflated",
+      71
+    ],
+    [
+      742,
+      "after cut dead",
+      71
+    ],
+    [
+      743,
+      "after fog euphemism",
+      71
+    ],
+    [
+      744,
+      "after fog inflated",
+      71
+    ],
+    [
+      745,
+      "after fog dead",
+      71
+    ],
+    [
+      746,
+      "after fog phrase",
+      71
+    ],
+    [
+      747,
+      "after euphemism inflated",
+      71
+    ],
+    [
+      748,
+      "after euphemism dead",
+      71
+    ],
+    [
+      749,
+      "after euphemism phrase",
+      71
+    ],
+    [
+      750,
+      "after euphemism jargon",
+      71
+    ],
+    [
+      751,
+      "after inflated dead",
+      70
+    ],
+    [
+      752,
+      "after inflated phrase",
+      70
+    ],
+    [
+      753,
+      "after inflated jargon",
+      70
+    ],
+    [
+      754,
+      "after inflated bureaucratic",
+      70
+    ],
+    [
+      755,
+      "after dead phrase",
+      70
+    ],
+    [
+      756,
+      "after dead jargon",
+      70
+    ],
+    [
+      757,
+      "after dead bureaucratic",
+      70
+    ],
+    [
+      758,
+      "after dead vague",
+      70
+    ],
+    [
+      759,
+      "after phrase jargon",
+      70
+    ],
+    [
+      760,
+      "after phrase bureaucratic",
+      70
+    ],
+    [
+      761,
+      "after phrase vague",
+      70
+    ],
+    [
+      762,
+      "after phrase muddy",
+      70
+    ],
+    [
+      763,
+      "after jargon bureaucratic",
+      70
+    ],
+    [
+      764,
+      "after jargon vague",
+      70
+    ],
+    [
+      765,
+      "after jargon muddy",
+      70
+    ],
+    [
+      766,
+      "after jargon pretentious",
+      70
+    ],
+    [
+      767,
+      "after bureaucratic vague",
+      70
+    ],
+    [
+      768,
+      "after bureaucratic muddy",
+      70
+    ],
+    [
+      769,
+      "after bureaucratic pretentious",
+      70
+    ],
+    [
+      771,
+      "after vague muddy",
+      70
+    ],
+    [
+      772,
+      "after vague pretentious",
+      70
+    ],
+    [
+      774,
+      "after vague noun",
+      70
+    ],
+    [
+      775,
+      "after muddy pretentious",
+      70
+    ],
+    [
+      777,
+      "after muddy noun",
+      69
+    ],
+    [
+      778,
+      "after muddy image",
+      69
+    ],
+    [
+      780,
+      "after pretentious noun",
+      69
+    ],
+    [
+      781,
+      "after pretentious image",
+      69
+    ],
+    [
+      782,
+      "after pretentious metaphor",
+      69
+    ],
+    [
+      787,
+      "after noun image",
+      69
+    ],
+    [
+      788,
+      "after noun metaphor",
+      69
+    ],
+    [
+      789,
+      "after noun active",
+      69
+    ],
+    [
+      790,
+      "after noun simple",
+      69
+    ],
+    [
+      791,
+      "after image metaphor",
+      69
+    ],
+    [
+      792,
+      "after image active",
+      69
+    ],
+    [
+      793,
+      "after image simple",
+      69
+    ],
+    [
+      794,
+      "after image verb",
+      69
+    ],
+    [
+      795,
+      "after metaphor active",
+      69
+    ],
+    [
+      796,
+      "after metaphor simple",
+      69
+    ],
+    [
+      797,
+      "after metaphor verb",
+      69
+    ],
+    [
+      798,
+      "after metaphor ordinary",
+      69
+    ],
+    [
+      799,
+      "after active simple",
+      69
+    ],
+    [
+      800,
+      "after active verb",
+      69
+    ],
+    [
+      801,
+      "after active ordinary",
+      68
+    ],
+    [
+      802,
+      "after active word",
+      68
+    ],
+    [
+      803,
+      "during plain concrete",
+      68
+    ],
+    [
+      804,
+      "during plain short",
+      68
+    ],
+    [
+      805,
+      "during plain clear",
+      68
+    ],
+    [
+      806,
+      "during plain cut",
+      68
+    ],
+    [
+      807,
+      "during concrete short",
+      68
+    ],
+    [
+      808,
+      "during concrete clear",
+      68
+    ],
+    [
+      809,
+      "during concrete cut",
+      68
+    ],
+    [
+      810,
+      "during concrete fog",
+      68
+    ],
+    [
+      811,
+      "during short clear",
+      68
+    ],
+    [
+      812,
+      "during short cut",
+      68
+    ],
+    [
+      813,
+      "during short fog",
+      68
+    ],
+    [
+      814,
+      "during short euphemism",
+      68
+    ],
+    [
+      815,
+      "during clear cut",
+      68
+    ],
+    [
+      816,
+      "during clear fog",
+      68
+    ],
+    [
+      817,
+      "during clear euphemism",
+      68
+    ],
+    [
+      818,
+      "during clear inflated",
+      68
+    ],
+    [
+      819,
+      "during cut fog",
+      68
+    ],
+    [
+      820,
+      "during cut euphemism",
+      68
+    ],
+    [
+      821,
+      "during cut inflated",
+      68
+    ],
+    [
+      822,
+      "during cut dead",
+      68
+    ],
+    [
+      823,
+      "during fog euphemism",
+      68
+    ],
+    [
+      824,
+      "during fog inflated",
+      68
+    ],
+    [
+      825,
+      "during fog dead",
+      68
+    ],
+    [
+      826,
+      "during fog phrase",
+      67
+    ],
+    [
+      827,
+      "during euphemism inflated",
+      67
+    ],
+    [
+      828,
+      "during euphemism dead",
+      67
+    ],
+    [
+      829,
+      "during euphemism phrase",
+      67
+    ],
+    [
+      830,
+      "during euphemism jargon",
+      67
+    ],
+    [
+      831,
+      "during inflated dead",
+      67
+    ],
+    [
+      832,
+      "during inflated phrase",
+      67
+    ],
+    [
+      833,
+      "during inflated jargon",
+      67
+    ],
+    [
+      834,
+      "during inflated bureaucratic",
+      67
+    ],
+    [
+      835,
+      "during dead phrase",
+      67
+    ],
+    [
+      836,
+      "during dead jargon",
+      67
+    ],
+    [
+      837,
+      "during dead bureaucratic",
+      67
+    ],
+    [
+      838,
+      "during dead vague",
+      67
+    ],
+    [
+      839,
+      "during phrase jargon",
+      67
+    ],
+    [
+      840,
+      "during phrase bureaucratic",
+      67
+    ],
+    [
+      841,
+      "during phrase vague",
+      67
+    ],
+    [
+      842,
+      "during phrase muddy",
+      67
+    ],
+    [
+      843,
+      "during jargon bureaucratic",
+      67
+    ],
+    [
+      844,
+      "during jargon vague",
+      67
+    ],
+    [
+      845,
+      "during jargon muddy",
+      67
+    ],
+    [
+      846,
+      "during jargon pretentious",
+      67
+    ],
+    [
+      847,
+      "during bureaucratic vague",
+      67
+    ],
+    [
+      848,
+      "during bureaucratic muddy",
+      67
+    ],
+    [
+      849,
+      "during bureaucratic pretentious",
+      67
+    ],
+    [
+      851,
+      "during vague muddy",
+      66
+    ],
+    [
+      852,
+      "during vague pretentious",
+      66
+    ],
+    [
+      854,
+      "during vague noun",
+      66
+    ],
+    [
+      855,
+      "during muddy pretentious",
+      66
+    ],
+    [
+      857,
+      "during muddy noun",
+      66
+    ],
+    [
+      858,
+      "during muddy image",
+      66
+    ],
+    [
+      860,
+      "during pretentious noun",
+      66
+    ],
+    [
+      861,
+      "during pretentious image",
+      66
+    ],
+    [
+      862,
+      "during pretentious metaphor",
+      66
+    ],
+    [
+      867,
+      "during noun image",
+      66
+    ],
+    [
+      868,
+      "during noun metaphor",
+      66
+    ],
+    [
+      869,
+      "during noun active",
+      66
+    ],
+    [
+      870,
+      "during noun simple",
+      66
+    ],
+    [
+      871,
+      "during image metaphor",
+      66
+    ],
+    [
+      872,
+      "during image active",
+      66
+    ],
+    [
+      873,
+      "during image simple",
+      66
+    ],
+    [
+      874,
+      "during image verb",
+      66
+    ],
+    [
+      875,
+      "during metaphor active",
+      66
+    ],
+    [
+      876,
+      "during metaphor simple",
+      65
+    ],
+    [
+      877,
+      "during metaphor verb",
+      65
+    ],
+    [
+      878,
+      "during metaphor ordinary",
+      65
+    ],
+    [
+      879,
+      "during active simple",
+      65
+    ],
+    [
+      880,
+      "during active verb",
+      65
+    ],
+    [
+      881,
+      "during active ordinary",
+      65
+    ],
+    [
+      882,
+      "during active word",
+      65
+    ],
+    [
+      883,
+      "until plain concrete",
+      65
+    ],
+    [
+      884,
+      "until plain short",
+      65
+    ],
+    [
+      885,
+      "until plain clear",
+      65
+    ],
+    [
+      886,
+      "until plain cut",
+      65
+    ],
+    [
+      887,
+      "until concrete short",
+      65
+    ],
+    [
+      888,
+      "until concrete clear",
+      65
+    ],
+    [
+      889,
+      "until concrete cut",
+      65
+    ],
+    [
+      890,
+      "until concrete fog",
+      65
+    ],
+    [
+      891,
+      "until short clear",
+      65
+    ],
+    [
+      892,
+      "until short cut",
+      65
+    ],
+    [
+      893,
+      "until short fog",
+      65
+    ],
+    [
+      894,
+      "until short euphemism",
+      65
+    ],
+    [
+      895,
+      "until clear cut",
+      65
+    ],
+    [
+      896,
+      "until clear fog",
+      65
+    ],
+    [
+      897,
+      "until clear euphemism",
+      65
+    ],
+    [
+      898,
+      "until clear inflated",
+      65
+    ],
+    [
+      899,
+      "until cut fog",
+      65
+    ],
+    [
+      900,
+      "until cut euphemism",
+      65
+    ],
+    [
+      901,
+      "until cut inflated",
+      64
+    ],
+    [
+      902,
+      "until cut dead",
+      64
+    ],
+    [
+      903,
+      "until fog euphemism",
+      64
+    ],
+    [
+      904,
+      "until fog inflated",
+      64
+    ],
+    [
+      905,
+      "until fog dead",
+      64
+    ],
+    [
+      906,
+      "until fog phrase",
+      64
+    ],
+    [
+      907,
+      "until euphemism inflated",
+      64
+    ],
+    [
+      908,
+      "until euphemism dead",
+      64
+    ],
+    [
+      909,
+      "until euphemism phrase",
+      64
+    ],
+    [
+      910,
+      "until euphemism jargon",
+      64
+    ],
+    [
+      911,
+      "until inflated dead",
+      64
+    ],
+    [
+      912,
+      "until inflated phrase",
+      64
+    ],
+    [
+      913,
+      "until inflated jargon",
+      64
+    ],
+    [
+      914,
+      "until inflated bureaucratic",
+      64
+    ],
+    [
+      915,
+      "until dead phrase",
+      64
+    ],
+    [
+      916,
+      "until dead jargon",
+      64
+    ],
+    [
+      917,
+      "until dead bureaucratic",
+      64
+    ],
+    [
+      918,
+      "until dead vague",
+      64
+    ],
+    [
+      919,
+      "until phrase jargon",
+      64
+    ],
+    [
+      920,
+      "until phrase bureaucratic",
+      64
+    ],
+    [
+      921,
+      "until phrase vague",
+      64
+    ],
+    [
+      922,
+      "until phrase muddy",
+      64
+    ],
+    [
+      923,
+      "until jargon bureaucratic",
+      64
+    ],
+    [
+      924,
+      "until jargon vague",
+      64
+    ],
+    [
+      925,
+      "until jargon muddy",
+      64
+    ],
+    [
+      926,
+      "until jargon pretentious",
+      63
+    ],
+    [
+      927,
+      "until bureaucratic vague",
+      63
+    ],
+    [
+      928,
+      "until bureaucratic muddy",
+      63
+    ],
+    [
+      929,
+      "until bureaucratic pretentious",
+      63
+    ],
+    [
+      931,
+      "until vague muddy",
+      63
+    ],
+    [
+      932,
+      "until vague pretentious",
+      63
+    ],
+    [
+      934,
+      "until vague noun",
+      63
+    ],
+    [
+      935,
+      "until muddy pretentious",
+      63
+    ],
+    [
+      937,
+      "until muddy noun",
+      63
+    ],
+    [
+      938,
+      "until muddy image",
+      63
+    ],
+    [
+      940,
+      "until pretentious noun",
+      63
+    ],
+    [
+      941,
+      "until pretentious image",
+      63
+    ],
+    [
+      942,
+      "until pretentious metaphor",
+      63
+    ],
+    [
+      947,
+      "until noun image",
+      63
+    ],
+    [
+      948,
+      "until noun metaphor",
+      63
+    ],
+    [
+      949,
+      "until noun active",
+      63
+    ],
+    [
+      950,
+      "until noun simple",
+      63
+    ],
+    [
+      951,
+      "until image metaphor",
+      62
+    ],
+    [
+      952,
+      "until image active",
+      62
+    ],
+    [
+      953,
+      "until image simple",
+      62
+    ],
+    [
+      954,
+      "until image verb",
+      62
+    ],
+    [
+      955,
+      "until metaphor active",
+      62
+    ],
+    [
+      956,
+      "until metaphor simple",
+      62
+    ],
+    [
+      957,
+      "until metaphor verb",
+      62
+    ],
+    [
+      958,
+      "until metaphor ordinary",
+      62
+    ],
+    [
+      959,
+      "until active simple",
+      62
+    ],
+    [
+      960,
+      "until active verb",
+      62
+    ],
+    [
+      961,
+      "until active ordinary",
+      62
+    ],
+    [
+      962,
+      "until active word",
+      62
+    ],
+    [
+      963,
+      "since plain concrete",
+      62
+    ],
+    [
+      964,
+      "since plain short",
+      62
+    ],
+    [
+      965,
+      "since plain clear",
+      62
+    ],
+    [
+      966,
+      "since plain cut",
+      62
+    ],
+    [
+      967,
+      "since concrete short",
+      62
+    ],
+    [
+      968,
+      "since concrete clear",
+      62
+    ],
+    [
+      969,
+      "since concrete cut",
+      62
+    ],
+    [
+      970,
+      "since concrete fog",
+      62
+    ],
+    [
+      971,
+      "since short clear",
+      62
+    ],
+    [
+      972,
+      "since short cut",
+      62
+    ],
+    [
+      973,
+      "since short fog",
+      62
+    ],
+    [
+      974,
+      "since short euphemism",
+      62
+    ],
+    [
+      975,
+      "since clear cut",
+      62
+    ],
+    [
+      976,
+      "since clear fog",
+      61
+    ],
+    [
+      977,
+      "since clear euphemism",
+      61
+    ],
+    [
+      978,
+      "since clear inflated",
+      61
+    ],
+    [
+      979,
+      "since cut fog",
+      61
+    ],
+    [
+      980,
+      "since cut euphemism",
+      61
+    ],
+    [
+      981,
+      "since cut inflated",
+      61
+    ],
+    [
+      982,
+      "since cut dead",
+      61
+    ],
+    [
+      983,
+      "since fog euphemism",
+      61
+    ],
+    [
+      984,
+      "since fog inflated",
+      61
+    ],
+    [
+      985,
+      "since fog dead",
+      61
+    ],
+    [
+      986,
+      "since fog phrase",
+      61
+    ],
+    [
+      987,
+      "since euphemism inflated",
+      61
+    ],
+    [
+      988,
+      "since euphemism dead",
+      61
+    ],
+    [
+      989,
+      "since euphemism phrase",
+      61
+    ],
+    [
+      990,
+      "since euphemism jargon",
+      61
+    ],
+    [
+      991,
+      "since inflated dead",
+      61
+    ],
+    [
+      992,
+      "since inflated phrase",
+      61
+    ],
+    [
+      993,
+      "since inflated jargon",
+      61
+    ],
+    [
+      994,
+      "since inflated bureaucratic",
+      61
+    ],
+    [
+      995,
+      "since dead phrase",
+      61
+    ],
+    [
+      996,
+      "since dead jargon",
+      61
+    ],
+    [
+      997,
+      "since dead bureaucratic",
+      61
+    ],
+    [
+      998,
+      "since dead vague",
+      61
+    ],
+    [
+      999,
+      "since phrase jargon",
+      61
+    ],
+    [
+      1000,
+      "since phrase bureaucratic",
+      61
+    ],
+    [
+      1001,
+      "since phrase vague",
+      60
+    ],
+    [
+      1002,
+      "since phrase muddy",
+      60
+    ],
+    [
+      1003,
+      "since jargon bureaucratic",
+      60
+    ],
+    [
+      1004,
+      "since jargon vague",
+      60
+    ],
+    [
+      1005,
+      "since jargon muddy",
+      60
+    ],
+    [
+      1006,
+      "since jargon pretentious",
+      60
+    ],
+    [
+      1007,
+      "since bureaucratic vague",
+      60
+    ],
+    [
+      1008,
+      "since bureaucratic muddy",
+      60
+    ],
+    [
+      1009,
+      "since bureaucratic pretentious",
+      60
+    ],
+    [
+      1011,
+      "since vague muddy",
+      60
+    ],
+    [
+      1012,
+      "since vague pretentious",
+      60
+    ],
+    [
+      1014,
+      "since vague noun",
+      60
+    ],
+    [
+      1015,
+      "since muddy pretentious",
+      60
+    ],
+    [
+      1017,
+      "since muddy noun",
+      60
+    ],
+    [
+      1018,
+      "since muddy image",
+      60
+    ],
+    [
+      1020,
+      "since pretentious noun",
+      60
+    ],
+    [
+      1021,
+      "since pretentious image",
+      60
+    ],
+    [
+      1022,
+      "since pretentious metaphor",
+      60
+    ],
+    [
+      1027,
+      "since noun image",
+      59
+    ],
+    [
+      1028,
+      "since noun metaphor",
+      59
+    ],
+    [
+      1029,
+      "since noun active",
+      59
+    ],
+    [
+      1030,
+      "since noun simple",
+      59
+    ],
+    [
+      1031,
+      "since image metaphor",
+      59
+    ],
+    [
+      1032,
+      "since image active",
+      59
+    ],
+    [
+      1033,
+      "since image simple",
+      59
+    ],
+    [
+      1034,
+      "since image verb",
+      59
+    ],
+    [
+      1035,
+      "since metaphor active",
+      59
+    ],
+    [
+      1036,
+      "since metaphor simple",
+      59
+    ],
+    [
+      1037,
+      "since metaphor verb",
+      59
+    ],
+    [
+      1038,
+      "since metaphor ordinary",
+      59
+    ],
+    [
+      1039,
+      "since active simple",
+      59
+    ],
+    [
+      1040,
+      "since active verb",
+      59
+    ],
+    [
+      1041,
+      "since active ordinary",
+      59
+    ],
+    [
+      1042,
+      "since active word",
+      59
+    ],
+    [
+      1043,
+      "plain concrete short",
+      59
+    ],
+    [
+      1044,
+      "plain concrete clear",
+      59
+    ],
+    [
+      1045,
+      "plain concrete cut",
+      59
+    ],
+    [
+      1046,
+      "plain short clear",
+      59
+    ],
+    [
+      1047,
+      "plain short cut",
+      59
+    ],
+    [
+      1048,
+      "plain clear short",
+      59
+    ],
+    [
+      1049,
+      "plain clear cut",
+      59
+    ],
+    [
+      1050,
+      "plain cut short",
+      59
+    ],
+    [
+      1051,
+      "plain cut clear",
+      58
+    ],
+    [
+      1052,
+      "plain fog short",
+      58
+    ],
+    [
+      1053,
+      "plain fog clear",
+      58
+    ],
+    [
+      1054,
+      "plain fog cut",
+      58
+    ],
+    [
+      1055,
+      "concrete short clear",
+      58
+    ],
+    [
+      1056,
+      "concrete short cut",
+      58
+    ],
+    [
+      1057,
+      "concrete short fog",
+      58
+    ],
+    [
+      1058,
+      "concrete clear cut",
+      58
+    ],
+    [
+      1059,
+      "concrete clear fog",
+      58
+    ],
+    [
+      1060,
+      "concrete cut clear",
+      58
+    ],
+    [
+      1061,
+      "concrete cut fog",
+      58
+    ],
+    [
+      1062,
+      "concrete fog clear",
+      58
+    ],
+    [
+      1063,
+      "concrete fog cut",
+      58
+    ],
+    [
+      1064,
+      "concrete euphemism clear",
+      58
+    ],
+    [
+      1065,
+      "concrete euphemism cut",
+      58
+    ],
+    [
+      1066,
+      "concrete euphemism fog",
+      58
+    ],
+    [
+      1067,
+      "short clear cut",
+      58
+    ],
+    [
+      1068,
+      "short clear fog",
+      58
+    ],
+    [
+      1069,
+      "short clear euphemism",
+      58
+    ],
+    [
+      1070,
+      "short cut fog",
+      58
+    ],
+    [
+      1071,
+      "short cut euphemism",
+      58
+    ],
+    [
+      1072,
+      "short fog cut",
+      58
+    ],
+    [
+      1073,
+      "short fog euphemism",
+      58
+    ],
+    [
+      1074,
+      "short euphemism cut",
+      58
+    ],
+    [
+      1075,
+      "short euphemism fog",
+      58
+    ],
+    [
+      1076,
+      "short inflated cut",
+      57
+    ],
+    [
+      1077,
+      "short inflated fog",
+      57
+    ],
+    [
+      1078,
+      "short inflated euphemism",
+      57
+    ],
+    [
+      1079,
+      "clear cut fog",
+      57
+    ],
+    [
+      1080,
+      "clear cut euphemism",
+      57
+    ],
+    [
+      1081,
+      "clear cut inflated",
+      57
+    ],
+    [
+      1082,
+      "clear fog euphemism",
+      57
+    ],
+    [
+      1083,
+      "clear fog inflated",
+      57
+    ],
+    [
+      1084,
+      "clear euphemism fog",
+      57
+    ],
+    [
+      1085,
+      "clear euphemism inflated",
+      57
+    ],
+    [
+      1086,
+      "clear inflated fog",
+      57
+    ],
+    [
+      1087,
+      "clear inflated euphemism",
+      57
+    ],
+    [
+      1088,
+      "clear dead fog",
+      57
+    ],
+    [
+      1089,
+      "clear dead euphemism",
+      57
+    ],
+    [
+      1090,
+      "clear dead inflated",
+      57
+    ],
+    [
+      1091,
+      "cut fog euphemism",
+      57
+    ],
+    [
+      1092,
+      "cut fog inflated",
+      57
+    ],
+    [
+      1093,
+      "cut fog dead",
+      57
+    ],
+    [
+      1094,
+      "cut euphemism inflated",
+      57
+    ],
+    [
+      1095,
+      "cut euphemism dead",
+      57
+    ],
+    [
+      1096,
+      "cut inflated euphemism",
+      57
+    ],
+    [
+      1097,
+      "cut inflated dead",
+      57
+    ],
+    [
+      1098,
+      "cut dead euphemism",
+      57
+    ],
+    [
+      1099,
+      "cut dead inflated",
+      57
+    ],
+    [
+      1100,
+      "cut phrase euphemism",
+      57
+    ],
+    [
+      1101,
+      "cut phrase inflated",
+      56
+    ],
+    [
+      1102,
+      "cut phrase dead",
+      56
+    ],
+    [
+      1103,
+      "fog euphemism inflated",
+      56
+    ],
+    [
+      1104,
+      "fog euphemism dead",
+      56
+    ],
+    [
+      1105,
+      "fog euphemism phrase",
+      56
+    ],
+    [
+      1106,
+      "fog inflated dead",
+      56
+    ],
+    [
+      1107,
+      "fog inflated phrase",
+      56
+    ],
+    [
+      1108,
+      "fog dead inflated",
+      56
+    ],
+    [
+      1109,
+      "fog dead phrase",
+      56
+    ],
+    [
+      1110,
+      "fog phrase inflated",
+      56
+    ],
+    [
+      1111,
+      "fog phrase dead",
+      56
+    ],
+    [
+      1112,
+      "fog jargon inflated",
+      56
+    ],
+    [
+      1113,
+      "fog jargon dead",
+      56
+    ],
+    [
+      1114,
+      "fog jargon phrase",
+      56
+    ],
+    [
+      1115,
+      "euphemism inflated dead",
+      56
+    ],
+    [
+      1116,
+      "euphemism inflated phrase",
+      56
+    ],
+    [
+      1117,
+      "euphemism inflated jargon",
+      56
+    ],
+    [
+      1118,
+      "euphemism dead phrase",
+      56
+    ],
+    [
+      1119,
+      "euphemism dead jargon",
+      56
+    ],
+    [
+      1120,
+      "euphemism phrase dead",
+      56
+    ],
+    [
+      1121,
+      "euphemism phrase jargon",
+      56
+    ],
+    [
+      1122,
+      "euphemism jargon dead",
+      56
+    ],
+    [
+      1123,
+      "euphemism jargon phrase",
+      56
+    ],
+    [
+      1124,
+      "euphemism bureaucratic dead",
+      56
+    ],
+    [
+      1125,
+      "euphemism bureaucratic phrase",
+      56
+    ],
+    [
+      1126,
+      "euphemism bureaucratic jargon",
+      55
+    ],
+    [
+      1127,
+      "inflated dead phrase",
+      55
+    ],
+    [
+      1128,
+      "inflated dead jargon",
+      55
+    ],
+    [
+      1129,
+      "inflated dead bureaucratic",
+      55
+    ],
+    [
+      1130,
+      "inflated phrase jargon",
+      55
+    ],
+    [
+      1131,
+      "inflated phrase bureaucratic",
+      55
+    ],
+    [
+      1132,
+      "inflated jargon phrase",
+      55
+    ],
+    [
+      1133,
+      "inflated jargon bureaucratic",
+      55
+    ],
+    [
+      1134,
+      "inflated bureaucratic phrase",
+      55
+    ],
+    [
+      1135,
+      "inflated bureaucratic jargon",
+      55
+    ],
+    [
+      1136,
+      "inflated vague phrase",
+      55
+    ],
+    [
+      1137,
+      "inflated vague jargon",
+      55
+    ],
+    [
+      1138,
+      "inflated vague bureaucratic",
+      55
+    ],
+    [
+      1139,
+      "dead phrase jargon",
+      55
+    ],
+    [
+      1140,
+      "dead phrase bureaucratic",
+      55
+    ],
+    [
+      1141,
+      "dead phrase vague",
+      55
+    ],
+    [
+      1142,
+      "dead jargon bureaucratic",
+      55
+    ],
+    [
+      1143,
+      "dead jargon vague",
+      55
+    ],
+    [
+      1144,
+      "dead bureaucratic jargon",
+      55
+    ],
+    [
+      1145,
+      "dead bureaucratic vague",
+      55
+    ],
+    [
+      1146,
+      "dead vague jargon",
+      55
+    ],
+    [
+      1147,
+      "dead vague bureaucratic",
+      55
+    ],
+    [
+      1148,
+      "dead muddy jargon",
+      55
+    ],
+    [
+      1149,
+      "dead muddy bureaucratic",
+      55
+    ],
+    [
+      1150,
+      "dead muddy vague",
+      55
+    ],
+    [
+      1151,
+      "phrase jargon bureaucratic",
+      54
+    ],
+    [
+      1152,
+      "phrase jargon vague",
+      54
+    ],
+    [
+      1153,
+      "phrase jargon muddy",
+      54
+    ],
+    [
+      1154,
+      "phrase bureaucratic vague",
+      54
+    ],
+    [
+      1155,
+      "phrase bureaucratic muddy",
+      54
+    ],
+    [
+      1156,
+      "phrase vague bureaucratic",
+      54
+    ],
+    [
+      1157,
+      "phrase vague muddy",
+      54
+    ],
+    [
+      1158,
+      "phrase muddy bureaucratic",
+      54
+    ],
+    [
+      1159,
+      "phrase muddy vague",
+      54
+    ],
+    [
+      1160,
+      "phrase pretentious bureaucratic",
+      54
+    ],
+    [
+      1161,
+      "phrase pretentious vague",
+      54
+    ],
+    [
+      1162,
+      "phrase pretentious muddy",
+      54
+    ],
+    [
+      1163,
+      "jargon bureaucratic vague",
+      54
+    ],
+    [
+      1164,
+      "jargon bureaucratic muddy",
+      54
+    ],
+    [
+      1165,
+      "jargon bureaucratic pretentious",
+      54
+    ],
+    [
+      1166,
+      "jargon vague muddy",
+      54
+    ],
+    [
+      1167,
+      "jargon vague pretentious",
+      54
+    ],
+    [
+      1168,
+      "jargon muddy vague",
+      54
+    ],
+    [
+      1169,
+      "jargon muddy pretentious",
+      54
+    ],
+    [
+      1170,
+      "jargon pretentious vague",
+      54
+    ],
+    [
+      1171,
+      "jargon pretentious muddy",
+      54
+    ],
+    [
+      1172,
+      "jargon abstract vague",
+      54
+    ],
+    [
+      1173,
+      "jargon abstract muddy",
+      54
+    ],
+    [
+      1174,
+      "jargon abstract pretentious",
+      54
+    ],
+    [
+      1175,
+      "bureaucratic vague muddy",
+      54
+    ],
+    [
+      1176,
+      "bureaucratic vague pretentious",
+      53
+    ],
+    [
+      1177,
+      "bureaucratic vague abstract",
+      53
+    ],
+    [
+      1178,
+      "bureaucratic muddy pretentious",
+      53
+    ],
+    [
+      1179,
+      "bureaucratic muddy abstract",
+      53
+    ],
+    [
+      1180,
+      "bureaucratic pretentious muddy",
+      53
+    ],
+    [
+      1181,
+      "bureaucratic pretentious abstract",
+      53
+    ],
+    [
+      1182,
+      "bureaucratic abstract muddy",
+      53
+    ],
+    [
+      1183,
+      "bureaucratic abstract pretentious",
+      53
+    ],
+    [
+      1184,
+      "bureaucratic noun muddy",
+      53
+    ],
+    [
+      1185,
+      "bureaucratic noun pretentious",
+      53
+    ],
+    [
+      1186,
+      "bureaucratic noun abstract",
+      53
+    ],
+    [
+      1187,
+      "vague muddy pretentious",
+      53
+    ],
+    [
+      1188,
+      "vague muddy abstract",
+      53
+    ],
+    [
+      1189,
+      "vague muddy noun",
+      53
+    ],
+    [
+      1190,
+      "vague pretentious abstract",
+      53
+    ],
+    [
+      1191,
+      "vague pretentious noun",
+      53
+    ],
+    [
+      1192,
+      "vague abstract pretentious",
+      53
+    ],
+    [
+      1193,
+      "vague abstract noun",
+      53
+    ],
+    [
+      1194,
+      "vague noun pretentious",
+      53
+    ],
+    [
+      1195,
+      "vague noun abstract",
+      53
+    ],
+    [
+      1196,
+      "vague image pretentious",
+      53
+    ],
+    [
+      1198,
+      "vague image noun",
+      53
+    ],
+    [
+      1199,
+      "muddy pretentious abstract",
+      53
+    ],
+    [
+      1200,
+      "muddy pretentious noun",
+      53
+    ],
+    [
+      1201,
+      "muddy pretentious image",
+      52
+    ],
+    [
+      1202,
+      "muddy abstract noun",
+      52
+    ],
+    [
+      1204,
+      "muddy noun abstract",
+      52
+    ],
+    [
+      1205,
+      "muddy noun image",
+      52
+    ],
+    [
+      1207,
+      "muddy image noun",
+      52
+    ],
+    [
+      1209,
+      "muddy metaphor noun",
+      52
+    ],
+    [
+      1210,
+      "muddy metaphor image",
+      52
+    ],
+    [
+      1211,
+      "pretentious abstract noun",
+      52
+    ],
+    [
+      1214,
+      "pretentious noun image",
+      52
+    ],
+    [
+      1215,
+      "pretentious noun metaphor",
+      52
+    ],
+    [
+      1216,
+      "pretentious image noun",
+      52
+    ],
+    [
+      1217,
+      "pretentious image metaphor",
+      52
+    ],
+    [
+      1218,
+      "pretentious metaphor noun",
+      52
+    ],
+    [
+      1219,
+      "pretentious metaphor image",
+      52
+    ],
+    [
+      1220,
+      "pretentious active noun",
+      52
+    ],
+    [
+      1221,
+      "pretentious active image",
+      52
+    ],
+    [
+      1222,
+      "pretentious active metaphor",
+      52
+    ],
+    [
+      1235,
+      "noun image metaphor",
+      51
+    ],
+    [
+      1236,
+      "noun image active",
+      51
+    ],
+    [
+      1237,
+      "noun image simple",
+      51
+    ],
+    [
+      1238,
+      "noun metaphor active",
+      51
+    ],
+    [
+      1239,
+      "noun metaphor simple",
+      51
+    ],
+    [
+      1240,
+      "noun active metaphor",
+      51
+    ],
+    [
+      1241,
+      "noun active simple",
+      51
+    ],
+    [
+      1242,
+      "noun simple metaphor",
+      51
+    ],
+    [
+      1243,
+      "noun simple active",
+      51
+    ],
+    [
+      1244,
+      "noun verb metaphor",
+      51
+    ],
+    [
+      1245,
+      "noun verb active",
+      51
+    ],
+    [
+      1246,
+      "noun verb simple",
+      51
+    ],
+    [
+      1247,
+      "image metaphor active",
+      51
+    ],
+    [
+      1248,
+      "image metaphor simple",
+      51
+    ],
+    [
+      1249,
+      "image metaphor verb",
+      51
+    ],
+    [
+      1250,
+      "image active simple",
+      51
+    ],
+    [
+      1251,
+      "image active verb",
+      50
+    ],
+    [
+      1252,
+      "image simple active",
+      50
+    ],
+    [
+      1253,
+      "image simple verb",
+      50
+    ],
+    [
+      1254,
+      "image verb active",
+      50
+    ],
+    [
+      1255,
+      "image verb simple",
+      50
+    ],
+    [
+      1256,
+      "image ordinary active",
+      50
+    ],
+    [
+      1257,
+      "image ordinary simple",
+      50
+    ],
+    [
+      1258,
+      "image ordinary verb",
+      50
+    ],
+    [
+      1259,
+      "metaphor active simple",
+      50
+    ],
+    [
+      1260,
+      "metaphor active verb",
+      50
+    ],
+    [
+      1261,
+      "metaphor active ordinary",
+      50
+    ],
+    [
+      1262,
+      "metaphor simple verb",
+      50
+    ],
+    [
+      1263,
+      "metaphor simple ordinary",
+      50
+    ],
+    [
+      1264,
+      "metaphor verb simple",
+      50
+    ],
+    [
+      1265,
+      "metaphor verb ordinary",
+      50
+    ],
+    [
+      1266,
+      "metaphor ordinary simple",
+      50
+    ],
+    [
+      1267,
+      "metaphor ordinary verb",
+      50
+    ],
+    [
+      1268,
+      "metaphor word simple",
+      50
+    ],
+    [
+      1269,
+      "metaphor word verb",
+      50
+    ],
+    [
+      1270,
+      "metaphor word ordinary",
+      50
+    ],
+    [
+      1271,
+      "active simple verb",
+      50
+    ],
+    [
+      1272,
+      "active simple ordinary",
+      50
+    ],
+    [
+      1273,
+      "active simple word",
+      50
+    ],
+    [
+      1274,
+      "active verb ordinary",
+      50
+    ],
+    [
+      1275,
+      "active verb word",
+      50
+    ],
+    [
+      1276,
+      "active ordinary verb",
+      49
+    ],
+    [
+      1277,
+      "active ordinary word",
+      49
+    ],
+    [
+      1278,
+      "active word verb",
+      49
+    ],
+    [
+      1279,
+      "active word ordinary",
+      49
+    ],
+    [
+      1280,
+      "active exact verb",
+      49
+    ],
+    [
+      1281,
+      "active exact ordinary",
+      49
+    ],
+    [
+      1282,
+      "active exact word",
+      49
+    ],
+    [
+      1283,
+      "simple verb ordinary",
+      49
+    ],
+    [
+      1284,
+      "simple verb word",
+      49
+    ],
+    [
+      1285,
+      "simple verb exact",
+      49
+    ],
+    [
+      1286,
+      "simple ordinary word",
+      49
+    ],
+    [
+      1287,
+      "simple ordinary exact",
+      49
+    ],
+    [
+      1288,
+      "simple word ordinary",
+      49
+    ],
+    [
+      1289,
+      "simple word exact",
+      49
+    ],
+    [
+      1290,
+      "simple exact ordinary",
+      49
+    ],
+    [
+      1291,
+      "simple exact word",
+      49
+    ],
+    [
+      1292,
+      "simple name ordinary",
+      49
+    ],
+    [
+      1293,
+      "simple name word",
+      49
+    ],
+    [
+      1294,
+      "simple name exact",
+      49
+    ],
+    [
+      1295,
+      "verb ordinary word",
+      49
+    ],
+    [
+      1296,
+      "verb ordinary exact",
+      49
+    ],
+    [
+      1297,
+      "verb ordinary name",
+      49
+    ],
+    [
+      1298,
+      "verb word exact",
+      49
+    ],
+    [
+      1299,
+      "verb word name",
+      49
+    ],
+    [
+      1300,
+      "verb exact word",
+      49
+    ],
+    [
+      1301,
+      "verb exact name",
+      48
+    ],
+    [
+      1302,
+      "verb name word",
+      48
+    ],
+    [
+      1303,
+      "verb name exact",
+      48
+    ],
+    [
+      1304,
+      "verb hard word",
+      48
+    ],
+    [
+      1305,
+      "verb hard exact",
+      48
+    ],
+    [
+      1306,
+      "verb hard name",
+      48
+    ],
+    [
+      1307,
+      "ordinary word exact",
+      48
+    ],
+    [
+      1308,
+      "ordinary word name",
+      48
+    ],
+    [
+      1309,
+      "ordinary word hard",
+      48
+    ],
+    [
+      1310,
+      "ordinary exact name",
+      48
+    ],
+    [
+      1311,
+      "ordinary exact hard",
+      48
+    ],
+    [
+      1312,
+      "ordinary name exact",
+      48
+    ],
+    [
+      1313,
+      "ordinary name hard",
+      48
+    ],
+    [
+      1314,
+      "ordinary hard exact",
+      48
+    ],
+    [
+      1315,
+      "ordinary hard name",
+      48
+    ],
+    [
+      1316,
+      "ordinary soft exact",
+      48
+    ],
+    [
+      1317,
+      "ordinary soft name",
+      48
+    ],
+    [
+      1318,
+      "ordinary soft hard",
+      48
+    ],
+    [
+      1319,
+      "word exact name",
+      48
+    ],
+    [
+      1320,
+      "word exact hard",
+      48
+    ],
+    [
+      1321,
+      "word exact soft",
+      48
+    ],
+    [
+      1322,
+      "word name hard",
+      48
+    ],
+    [
+      1323,
+      "word name soft",
+      48
+    ],
+    [
+      1324,
+      "word hard name",
+      48
+    ],
+    [
+      1325,
+      "word hard soft",
+      48
+    ],
+    [
+      1326,
+      "word soft name",
+      47
+    ],
+    [
+      1327,
+      "word soft hard",
+      47
+    ],
+    [
+      1328,
+      "word padding name",
+      47
+    ],
+    [
+      1329,
+      "word padding hard",
+      47
+    ],
+    [
+      1330,
+      "word padding soft",
+      47
+    ],
+    [
+      1331,
+      "exact name hard",
+      47
+    ],
+    [
+      1332,
+      "exact name soft",
+      47
+    ],
+    [
+      1333,
+      "exact name padding",
+      47
+    ],
+    [
+      1334,
+      "exact hard soft",
+      47
+    ],
+    [
+      1335,
+      "exact hard padding",
+      47
+    ],
+    [
+      1336,
+      "exact soft hard",
+      47
+    ],
+    [
+      1337,
+      "exact soft padding",
+      47
+    ],
+    [
+      1338,
+      "exact padding hard",
+      47
+    ],
+    [
+      1339,
+      "exact padding soft",
+      47
+    ],
+    [
+      1340,
+      "exact cliche hard",
+      47
+    ],
+    [
+      1341,
+      "exact cliche soft",
+      47
+    ],
+    [
+      1342,
+      "exact cliche padding",
+      47
+    ],
+    [
+      1343,
+      "mini-MMM shapes voice",
+      100
+    ],
+    [
+      1344,
+      "mini MMM voice shape",
+      100
+    ],
+    [
+      1345,
+      "voice shaped by nouns",
+      100
+    ],
+    [
+      1346,
+      "aligned nouns shape voice",
+      100
+    ],
+    [
+      1347,
+      "correlated thinkers shape voice",
+      100
+    ],
+    [
+      1348,
+      "plain active concrete",
+      96
+    ],
+    [
+      1349,
+      "cut euphemism fog",
+      96
+    ],
+    [
+      1350,
+      "word detail truth",
+      96
+    ]
+  ],
+  "v3_3_salience_expansion": {
+    "source": "deep-research-report.md",
+    "status": "positive salience only; not negative/reference boot",
+    "route": "ORWELL",
+    "size": "full"
+  }
+}

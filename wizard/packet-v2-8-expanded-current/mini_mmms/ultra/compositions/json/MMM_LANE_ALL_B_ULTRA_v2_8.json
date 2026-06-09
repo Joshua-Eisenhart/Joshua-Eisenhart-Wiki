@@ -1,0 +1,383 @@
+{
+  "words": [
+    [
+      1,
+      "human read",
+      100
+    ],
+    [
+      2,
+      "live readings",
+      100
+    ],
+    [
+      3,
+      "wildcard probe",
+      100
+    ],
+    [
+      4,
+      "collapse audit",
+      100
+    ],
+    [
+      5,
+      "surviving split",
+      100
+    ],
+    [
+      6,
+      "falsifier",
+      100
+    ],
+    [
+      7,
+      "observable",
+      100
+    ],
+    [
+      8,
+      "options",
+      100
+    ],
+    [
+      9,
+      "hume",
+      100
+    ],
+    [
+      10,
+      "zhuangzi",
+      100
+    ],
+    [
+      11,
+      "anti",
+      100
+    ],
+    [
+      12,
+      "central",
+      100
+    ],
+    [
+      13,
+      "throughput",
+      100
+    ],
+    [
+      14,
+      "clarity",
+      100
+    ],
+    [
+      15,
+      "alternative",
+      100
+    ],
+    [
+      16,
+      "factory",
+      100
+    ],
+    [
+      17,
+      "feynman",
+      100
+    ],
+    [
+      18,
+      "orwell",
+      100
+    ],
+    [
+      19,
+      "bottleneck",
+      100
+    ],
+    [
+      20,
+      "plain",
+      100
+    ],
+    [
+      21,
+      "testable",
+      100
+    ],
+    [
+      22,
+      "route",
+      100
+    ],
+    [
+      23,
+      "fog",
+      100
+    ],
+    [
+      24,
+      "removal",
+      100
+    ],
+    [
+      25,
+      "concrete",
+      100
+    ],
+    [
+      26,
+      "path",
+      100
+    ]
+  ],
+  "couplings": [
+    [
+      1,
+      "live options",
+      100
+    ],
+    [
+      2,
+      "human read live readings",
+      100
+    ],
+    [
+      3,
+      "human read falsifier",
+      100
+    ],
+    [
+      4,
+      "human read observable",
+      100
+    ],
+    [
+      5,
+      "human read wildcard probe",
+      100
+    ],
+    [
+      6,
+      "human read collapse audit",
+      100
+    ],
+    [
+      7,
+      "human read surviving split",
+      100
+    ],
+    [
+      8,
+      "live readings falsifier",
+      100
+    ],
+    [
+      9,
+      "live readings observable",
+      100
+    ],
+    [
+      10,
+      "live readings wildcard probe",
+      100
+    ],
+    [
+      11,
+      "live readings collapse audit",
+      100
+    ],
+    [
+      12,
+      "live readings surviving split",
+      100
+    ],
+    [
+      13,
+      "falsifier observable",
+      100
+    ],
+    [
+      14,
+      "hume zhuangzi",
+      100
+    ],
+    [
+      15,
+      "throughput and clarity",
+      100
+    ],
+    [
+      16,
+      "alternative route",
+      100
+    ],
+    [
+      17,
+      "factory bottleneck",
+      100
+    ],
+    [
+      18,
+      "feynman test",
+      100
+    ],
+    [
+      19,
+      "orwell cut",
+      100
+    ],
+    [
+      20,
+      "plain testable route",
+      100
+    ],
+    [
+      21,
+      "bottleneck clarity",
+      100
+    ],
+    [
+      22,
+      "different path clear",
+      100
+    ],
+    [
+      23,
+      "fog removed",
+      100
+    ],
+    [
+      24,
+      "operation explained",
+      100
+    ],
+    [
+      25,
+      "wildcard probe collapse audit",
+      99
+    ],
+    [
+      26,
+      "falsifier wildcard probe",
+      99
+    ],
+    [
+      27,
+      "falsifier collapse audit",
+      99
+    ],
+    [
+      28,
+      "falsifier surviving split",
+      99
+    ],
+    [
+      29,
+      "observable wildcard probe",
+      99
+    ]
+  ],
+  "triplets": [
+    [
+      1,
+      "possible wildcard probe collapse audit",
+      100
+    ],
+    [
+      2,
+      "still falsifier observable",
+      100
+    ],
+    [
+      3,
+      "still falsifier wildcard probe",
+      100
+    ],
+    [
+      4,
+      "still falsifier collapse audit",
+      100
+    ],
+    [
+      5,
+      "still falsifier surviving split",
+      100
+    ],
+    [
+      6,
+      "alternative factory feynman",
+      100
+    ],
+    [
+      7,
+      "throughput clarity path",
+      100
+    ],
+    [
+      8,
+      "bottleneck test plain",
+      100
+    ],
+    [
+      9,
+      "orwell feynman factory",
+      100
+    ],
+    [
+      10,
+      "different route concrete",
+      100
+    ],
+    [
+      11,
+      "fog removed operation",
+      100
+    ],
+    [
+      12,
+      "instead human read live readings",
+      91
+    ],
+    [
+      13,
+      "instead human read falsifier",
+      91
+    ],
+    [
+      14,
+      "instead human read wildcard probe",
+      91
+    ],
+    [
+      15,
+      "instead human read collapse audit",
+      91
+    ],
+    [
+      16,
+      "only live readings falsifier",
+      91
+    ],
+    [
+      17,
+      "only live readings observable",
+      91
+    ],
+    [
+      18,
+      "only live readings wildcard probe",
+      91
+    ],
+    [
+      19,
+      "instead human read observable",
+      79
+    ],
+    [
+      20,
+      "instead human read surviving split",
+      79
+    ]
+  ]
+}

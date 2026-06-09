@@ -1,0 +1,2134 @@
+{
+  "words": [
+    [
+      1,
+      "throughput",
+      100
+    ],
+    [
+      2,
+      "queue",
+      100
+    ],
+    [
+      3,
+      "workcell",
+      100
+    ],
+    [
+      4,
+      "latency",
+      100
+    ],
+    [
+      5,
+      "wip",
+      100
+    ],
+    [
+      6,
+      "repeatability",
+      100
+    ],
+    [
+      7,
+      "template",
+      100
+    ],
+    [
+      8,
+      "ownership",
+      100
+    ],
+    [
+      9,
+      "buffer",
+      100
+    ],
+    [
+      10,
+      "rework",
+      100
+    ],
+    [
+      11,
+      "work in progress",
+      100
+    ],
+    [
+      12,
+      "choke point",
+      100
+    ],
+    [
+      13,
+      "cycle time",
+      100
+    ],
+    [
+      14,
+      "standard work",
+      100
+    ],
+    [
+      15,
+      "bottleneck",
+      100
+    ],
+    [
+      16,
+      "flow",
+      100
+    ],
+    [
+      17,
+      "capacity",
+      100
+    ],
+    [
+      18,
+      "handoff",
+      100
+    ],
+    [
+      19,
+      "maintenance",
+      100
+    ],
+    [
+      20,
+      "throughput accounting",
+      100
+    ],
+    [
+      21,
+      "drum buffer rope",
+      100
+    ],
+    [
+      22,
+      "queue length",
+      100
+    ],
+    [
+      23,
+      "bottleneck resource",
+      100
+    ],
+    [
+      24,
+      "flow efficiency",
+      100
+    ],
+    [
+      25,
+      "batch",
+      100
+    ],
+    [
+      26,
+      "rate-limiter",
+      100
+    ],
+    [
+      27,
+      "leverage",
+      100
+    ],
+    [
+      28,
+      "work in process",
+      100
+    ],
+    [
+      29,
+      "progress",
+      100
+    ],
+    [
+      30,
+      "standard",
+      100
+    ],
+    [
+      31,
+      "checklist",
+      100
+    ],
+    [
+      32,
+      "kanban",
+      100
+    ],
+    [
+      33,
+      "drum",
+      100
+    ],
+    [
+      34,
+      "rope",
+      100
+    ],
+    [
+      35,
+      "choke",
+      100
+    ],
+    [
+      36,
+      "point",
+      100
+    ],
+    [
+      37,
+      "rate",
+      100
+    ],
+    [
+      38,
+      "limiter",
+      100
+    ],
+    [
+      39,
+      "scrap",
+      100
+    ],
+    [
+      40,
+      "cycle",
+      100
+    ],
+    [
+      41,
+      "time",
+      100
+    ],
+    [
+      42,
+      "theory of constraints",
+      100
+    ],
+    [
+      43,
+      "system constraint",
+      100
+    ],
+    [
+      44,
+      "continuous improvement",
+      100
+    ],
+    [
+      45,
+      "workstream",
+      100
+    ],
+    [
+      46,
+      "unblock",
+      100
+    ],
+    [
+      47,
+      "inventory",
+      100
+    ],
+    [
+      48,
+      "waiting",
+      100
+    ],
+    [
+      49,
+      "factory",
+      100
+    ],
+    [
+      50,
+      "drag",
+      100
+    ],
+    [
+      51,
+      "work",
+      100
+    ],
+    [
+      52,
+      "constraint",
+      100
+    ],
+    [
+      53,
+      "blocked",
+      100
+    ],
+    [
+      54,
+      "packet",
+      100
+    ],
+    [
+      55,
+      "actual",
+      100
+    ],
+    [
+      56,
+      "concrete",
+      100
+    ],
+    [
+      57,
+      "distinct",
+      100
+    ],
+    [
+      58,
+      "live",
+      100
+    ],
+    [
+      59,
+      "inferred",
+      100
+    ],
+    [
+      60,
+      "plain",
+      100
+    ],
+    [
+      61,
+      "known",
+      100
+    ],
+    [
+      62,
+      "unknown",
+      100
+    ],
+    [
+      63,
+      "narrow",
+      100
+    ],
+    [
+      64,
+      "andon",
+      100
+    ],
+    [
+      65,
+      "defect",
+      100
+    ],
+    [
+      66,
+      "heijunka",
+      100
+    ],
+    [
+      67,
+      "jidoka",
+      100
+    ],
+    [
+      68,
+      "justintime",
+      100
+    ],
+    [
+      69,
+      "kaizen",
+      100
+    ],
+    [
+      70,
+      "leadtime",
+      100
+    ],
+    [
+      71,
+      "management",
+      100
+    ],
+    [
+      72,
+      "pull",
+      100
+    ],
+    [
+      73,
+      "reliability",
+      100
+    ],
+    [
+      74,
+      "takt",
+      100
+    ],
+    [
+      75,
+      "visual",
+      100
+    ],
+    [
+      76,
+      "waste",
+      100
+    ],
+    [
+      77,
+      "small",
+      79
+    ],
+    [
+      78,
+      "mini-MMM",
+      100
+    ],
+    [
+      79,
+      "mini MMM",
+      100
+    ],
+    [
+      80,
+      "voice shape",
+      100
+    ],
+    [
+      81,
+      "voice shaping",
+      100
+    ],
+    [
+      82,
+      "shape voice",
+      100
+    ],
+    [
+      83,
+      "shaped voice",
+      100
+    ],
+    [
+      84,
+      "voice contour",
+      100
+    ],
+    [
+      85,
+      "voice signature",
+      100
+    ],
+    [
+      86,
+      "voice localizer",
+      100
+    ],
+    [
+      87,
+      "local voice",
+      100
+    ],
+    [
+      88,
+      "aligned nouns",
+      100
+    ],
+    [
+      89,
+      "correlated thinkers",
+      100
+    ],
+    [
+      90,
+      "thinker alignment",
+      100
+    ],
+    [
+      91,
+      "noun alignment",
+      100
+    ],
+    [
+      92,
+      "voice method",
+      100
+    ],
+    [
+      93,
+      "voice evidence",
+      100
+    ],
+    [
+      94,
+      "voice judgment",
+      100
+    ],
+    [
+      95,
+      "voice task",
+      100
+    ],
+    [
+      96,
+      "voice receipt",
+      100
+    ],
+    [
+      97,
+      "voice finding",
+      100
+    ],
+    [
+      98,
+      "voice constraint",
+      100
+    ],
+    [
+      99,
+      "voice noun",
+      100
+    ],
+    [
+      100,
+      "voice verb",
+      100
+    ],
+    [
+      101,
+      "voice signal",
+      100
+    ],
+    [
+      102,
+      "voice contrast",
+      100
+    ],
+    [
+      103,
+      "voice boundary",
+      100
+    ],
+    [
+      104,
+      "voice contribution",
+      100
+    ],
+    [
+      105,
+      "mini mmm loaded",
+      100
+    ],
+    [
+      106,
+      "loaded mini mmm",
+      100
+    ],
+    [
+      107,
+      "assigned mini mmm",
+      100
+    ],
+    [
+      108,
+      "local voice context",
+      100
+    ],
+    [
+      109,
+      "voice-specific nouns",
+      100
+    ],
+    [
+      110,
+      "method nouns",
+      100
+    ],
+    [
+      111,
+      "reader stance",
+      100
+    ],
+    [
+      112,
+      "decision stance",
+      100
+    ],
+    [
+      113,
+      "audit stance",
+      100
+    ],
+    [
+      114,
+      "build stance",
+      100
+    ],
+    [
+      115,
+      "repair stance",
+      100
+    ],
+    [
+      116,
+      "acceptance stance",
+      100
+    ],
+    [
+      117,
+      "subagent voice",
+      100
+    ],
+    [
+      118,
+      "voice worker",
+      100
+    ],
+    [
+      119,
+      "voice proof",
+      100
+    ],
+    [
+      120,
+      "distinct output",
+      100
+    ],
+    [
+      121,
+      "behavioral pull",
+      100
+    ],
+    [
+      122,
+      "salience pull",
+      100
+    ],
+    [
+      123,
+      "voice usefulness",
+      100
+    ],
+    [
+      124,
+      "output repair",
+      100
+    ],
+    [
+      125,
+      "system repair",
+      100
+    ],
+    [
+      126,
+      "mmm stability",
+      100
+    ],
+    [
+      127,
+      "wizard stability",
+      100
+    ],
+    [
+      128,
+      "qit support",
+      100
+    ],
+    [
+      129,
+      "sim support",
+      100
+    ],
+    [
+      130,
+      "Toyota Production System",
+      98
+    ],
+    [
+      131,
+      "lead time",
+      98
+    ],
+    [
+      132,
+      "quality",
+      98
+    ],
+    [
+      133,
+      "just-in-time",
+      98
+    ],
+    [
+      134,
+      "abnormality",
+      98
+    ],
+    [
+      135,
+      "pull system",
+      98
+    ],
+    [
+      136,
+      "incident review",
+      98
+    ]
+  ],
+  "couplings": [
+    [
+      1,
+      "choke point",
+      100
+    ],
+    [
+      2,
+      "cycle time",
+      100
+    ],
+    [
+      3,
+      "standard work",
+      100
+    ],
+    [
+      4,
+      "bottleneck evidence",
+      100
+    ],
+    [
+      5,
+      "bottleneck support",
+      100
+    ],
+    [
+      6,
+      "bottleneck path",
+      100
+    ],
+    [
+      7,
+      "bottleneck surface",
+      100
+    ],
+    [
+      8,
+      "bottleneck packet",
+      100
+    ],
+    [
+      9,
+      "bottleneck receipt",
+      100
+    ],
+    [
+      10,
+      "bottleneck trace",
+      100
+    ],
+    [
+      11,
+      "bottleneck result",
+      100
+    ],
+    [
+      12,
+      "bottleneck scope",
+      100
+    ],
+    [
+      13,
+      "bottleneck boundary",
+      100
+    ],
+    [
+      14,
+      "bottleneck status",
+      100
+    ],
+    [
+      15,
+      "bottleneck candidate",
+      100
+    ],
+    [
+      16,
+      "bottleneck witness",
+      100
+    ],
+    [
+      17,
+      "bottleneck",
+      100
+    ],
+    [
+      18,
+      "queue",
+      100
+    ],
+    [
+      19,
+      "handoff",
+      100
+    ],
+    [
+      20,
+      "throughput",
+      100
+    ],
+    [
+      21,
+      "wip",
+      100
+    ],
+    [
+      22,
+      "flow",
+      100
+    ],
+    [
+      23,
+      "maintenance",
+      100
+    ],
+    [
+      24,
+      "repeatability",
+      100
+    ],
+    [
+      25,
+      "template",
+      100
+    ],
+    [
+      26,
+      "ownership",
+      100
+    ],
+    [
+      27,
+      "workcell",
+      100
+    ],
+    [
+      28,
+      "capacity",
+      100
+    ],
+    [
+      29,
+      "latency",
+      100
+    ],
+    [
+      30,
+      "buffer",
+      100
+    ],
+    [
+      31,
+      "rework",
+      100
+    ],
+    [
+      32,
+      "bottleneck probe",
+      100
+    ],
+    [
+      33,
+      "bottleneck constraint",
+      100
+    ],
+    [
+      34,
+      "check bottleneck",
+      100
+    ],
+    [
+      35,
+      "compare bottleneck",
+      100
+    ],
+    [
+      36,
+      "observe bottleneck",
+      100
+    ],
+    [
+      37,
+      "measure bottleneck",
+      100
+    ],
+    [
+      38,
+      "test bottleneck",
+      100
+    ],
+    [
+      39,
+      "verify bottleneck",
+      100
+    ],
+    [
+      40,
+      "hold bottleneck",
+      100
+    ],
+    [
+      41,
+      "preserve bottleneck",
+      100
+    ],
+    [
+      42,
+      "split bottleneck",
+      100
+    ],
+    [
+      43,
+      "narrow bottleneck",
+      100
+    ],
+    [
+      44,
+      "under bottleneck",
+      100
+    ],
+    [
+      45,
+      "within bottleneck",
+      100
+    ],
+    [
+      46,
+      "across bottleneck",
+      100
+    ],
+    [
+      47,
+      "between bottleneck",
+      100
+    ],
+    [
+      48,
+      "through bottleneck",
+      100
+    ],
+    [
+      49,
+      "before bottleneck",
+      100
+    ],
+    [
+      50,
+      "after bottleneck",
+      100
+    ],
+    [
+      51,
+      "until bottleneck",
+      100
+    ],
+    [
+      52,
+      "where bottleneck",
+      100
+    ],
+    [
+      53,
+      "while bottleneck",
+      100
+    ],
+    [
+      54,
+      "queue evidence",
+      100
+    ],
+    [
+      55,
+      "queue support",
+      100
+    ],
+    [
+      56,
+      "queue path",
+      100
+    ],
+    [
+      57,
+      "queue surface",
+      100
+    ],
+    [
+      58,
+      "queue packet",
+      100
+    ],
+    [
+      59,
+      "work in progress",
+      100
+    ],
+    [
+      60,
+      "queue receipt",
+      100
+    ],
+    [
+      61,
+      "queue trace",
+      100
+    ],
+    [
+      62,
+      "queue result",
+      100
+    ],
+    [
+      63,
+      "queue scope",
+      100
+    ],
+    [
+      64,
+      "queue boundary",
+      100
+    ],
+    [
+      65,
+      "queue status",
+      100
+    ],
+    [
+      66,
+      "queue candidate",
+      100
+    ],
+    [
+      67,
+      "queue witness",
+      100
+    ],
+    [
+      68,
+      "queue probe",
+      100
+    ],
+    [
+      69,
+      "queue constraint",
+      100
+    ],
+    [
+      70,
+      "check queue",
+      100
+    ],
+    [
+      71,
+      "compare queue",
+      100
+    ],
+    [
+      72,
+      "observe queue",
+      100
+    ],
+    [
+      73,
+      "measure queue",
+      100
+    ],
+    [
+      74,
+      "test queue",
+      100
+    ],
+    [
+      75,
+      "verify queue",
+      100
+    ],
+    [
+      76,
+      "hold queue",
+      100
+    ],
+    [
+      77,
+      "preserve queue",
+      100
+    ],
+    [
+      78,
+      "split queue",
+      100
+    ],
+    [
+      79,
+      "narrow queue",
+      100
+    ],
+    [
+      80,
+      "under queue",
+      100
+    ],
+    [
+      81,
+      "within queue",
+      100
+    ],
+    [
+      82,
+      "across queue",
+      100
+    ],
+    [
+      83,
+      "between queue",
+      100
+    ],
+    [
+      84,
+      "through queue",
+      100
+    ],
+    [
+      85,
+      "before queue",
+      100
+    ],
+    [
+      86,
+      "after queue",
+      100
+    ],
+    [
+      87,
+      "until queue",
+      100
+    ],
+    [
+      88,
+      "where queue",
+      100
+    ],
+    [
+      89,
+      "while queue",
+      100
+    ],
+    [
+      90,
+      "throughput evidence",
+      100
+    ],
+    [
+      91,
+      "throughput support",
+      100
+    ],
+    [
+      92,
+      "throughput path",
+      100
+    ],
+    [
+      93,
+      "throughput surface",
+      100
+    ],
+    [
+      94,
+      "throughput packet",
+      100
+    ],
+    [
+      95,
+      "throughput receipt",
+      100
+    ],
+    [
+      96,
+      "throughput trace",
+      100
+    ],
+    [
+      97,
+      "throughput result",
+      100
+    ],
+    [
+      98,
+      "throughput scope",
+      100
+    ],
+    [
+      99,
+      "throughput boundary",
+      100
+    ],
+    [
+      100,
+      "throughput status",
+      100
+    ],
+    [
+      101,
+      "throughput candidate",
+      100
+    ],
+    [
+      102,
+      "throughput witness",
+      100
+    ],
+    [
+      103,
+      "throughput probe",
+      100
+    ],
+    [
+      104,
+      "throughput constraint",
+      100
+    ],
+    [
+      105,
+      "check throughput",
+      100
+    ],
+    [
+      106,
+      "compare throughput",
+      100
+    ],
+    [
+      107,
+      "observe throughput",
+      100
+    ],
+    [
+      108,
+      "measure throughput",
+      100
+    ],
+    [
+      109,
+      "test throughput",
+      100
+    ],
+    [
+      110,
+      "under throughput",
+      100
+    ],
+    [
+      111,
+      "within throughput",
+      100
+    ],
+    [
+      112,
+      "across throughput",
+      100
+    ],
+    [
+      113,
+      "between throughput",
+      100
+    ],
+    [
+      114,
+      "through throughput",
+      100
+    ],
+    [
+      115,
+      "verify throughput",
+      100
+    ],
+    [
+      116,
+      "hold throughput",
+      100
+    ],
+    [
+      117,
+      "preserve throughput",
+      100
+    ],
+    [
+      118,
+      "split throughput",
+      100
+    ],
+    [
+      119,
+      "narrow throughput",
+      100
+    ],
+    [
+      120,
+      "before throughput",
+      100
+    ],
+    [
+      121,
+      "after throughput",
+      100
+    ],
+    [
+      122,
+      "until throughput",
+      100
+    ],
+    [
+      123,
+      "where throughput",
+      100
+    ],
+    [
+      124,
+      "while throughput",
+      100
+    ],
+    [
+      125,
+      "handoff evidence",
+      100
+    ],
+    [
+      126,
+      "handoff support",
+      100
+    ],
+    [
+      127,
+      "handoff path",
+      100
+    ],
+    [
+      128,
+      "handoff surface",
+      100
+    ],
+    [
+      129,
+      "handoff packet",
+      100
+    ],
+    [
+      130,
+      "handoff receipt",
+      100
+    ],
+    [
+      131,
+      "handoff trace",
+      100
+    ],
+    [
+      132,
+      "handoff result",
+      100
+    ],
+    [
+      133,
+      "handoff scope",
+      100
+    ],
+    [
+      134,
+      "handoff boundary",
+      100
+    ],
+    [
+      135,
+      "handoff status",
+      100
+    ],
+    [
+      136,
+      "handoff candidate",
+      100
+    ],
+    [
+      137,
+      "handoff witness",
+      100
+    ],
+    [
+      138,
+      "handoff probe",
+      100
+    ],
+    [
+      139,
+      "handoff constraint",
+      100
+    ],
+    [
+      140,
+      "check handoff",
+      100
+    ],
+    [
+      141,
+      "compare handoff",
+      100
+    ],
+    [
+      142,
+      "observe handoff",
+      100
+    ],
+    [
+      143,
+      "measure handoff",
+      100
+    ],
+    [
+      144,
+      "test handoff",
+      100
+    ],
+    [
+      145,
+      "verify handoff",
+      100
+    ],
+    [
+      146,
+      "hold handoff",
+      100
+    ],
+    [
+      147,
+      "preserve handoff",
+      100
+    ],
+    [
+      148,
+      "split handoff",
+      100
+    ],
+    [
+      149,
+      "narrow handoff",
+      100
+    ],
+    [
+      150,
+      "until handoff",
+      100
+    ],
+    [
+      151,
+      "mini-MMM shapes voice",
+      100
+    ],
+    [
+      152,
+      "mini MMM voice shape",
+      100
+    ],
+    [
+      153,
+      "voice shaped by nouns",
+      100
+    ],
+    [
+      154,
+      "aligned nouns shape voice",
+      100
+    ],
+    [
+      155,
+      "correlated thinkers shape voice",
+      100
+    ],
+    [
+      156,
+      "thinker alignment voice",
+      100
+    ],
+    [
+      157,
+      "noun alignment voice",
+      100
+    ],
+    [
+      158,
+      "voice signature nouns",
+      100
+    ],
+    [
+      159,
+      "local voice contour",
+      100
+    ],
+    [
+      160,
+      "eliminate waste",
+      97
+    ],
+    [
+      161,
+      "shorten lead times",
+      97
+    ],
+    [
+      162,
+      "pull system",
+      97
+    ],
+    [
+      163,
+      "jidoka andon",
+      97
+    ],
+    [
+      164,
+      "visible abnormality",
+      97
+    ],
+    [
+      165,
+      "quality at source",
+      97
+    ]
+  ],
+  "triplets": [
+    [
+      1,
+      "work in progress",
+      100
+    ],
+    [
+      2,
+      "under throughput queue",
+      100
+    ],
+    [
+      3,
+      "under bottleneck queue",
+      100
+    ],
+    [
+      4,
+      "under queue handoff",
+      100
+    ],
+    [
+      5,
+      "under queue workcell",
+      100
+    ],
+    [
+      6,
+      "under queue flow",
+      100
+    ],
+    [
+      7,
+      "under queue capacity",
+      100
+    ],
+    [
+      8,
+      "bottleneck evidence path",
+      100
+    ],
+    [
+      9,
+      "bottleneck support path",
+      100
+    ],
+    [
+      10,
+      "bottleneck path path",
+      100
+    ],
+    [
+      11,
+      "bottleneck surface path",
+      100
+    ],
+    [
+      12,
+      "under open bottleneck",
+      100
+    ],
+    [
+      13,
+      "bottleneck packet path",
+      100
+    ],
+    [
+      14,
+      "within throughput queue",
+      100
+    ],
+    [
+      15,
+      "within bottleneck queue",
+      100
+    ],
+    [
+      16,
+      "within queue handoff",
+      100
+    ],
+    [
+      17,
+      "within queue workcell",
+      100
+    ],
+    [
+      18,
+      "within queue flow",
+      100
+    ],
+    [
+      19,
+      "within queue capacity",
+      100
+    ],
+    [
+      20,
+      "under live bottleneck",
+      100
+    ],
+    [
+      21,
+      "bottleneck receipt path",
+      100
+    ],
+    [
+      22,
+      "bottleneck trace path",
+      100
+    ],
+    [
+      23,
+      "bottleneck result path",
+      100
+    ],
+    [
+      24,
+      "bottleneck scope path",
+      100
+    ],
+    [
+      25,
+      "bottleneck boundary path",
+      100
+    ],
+    [
+      26,
+      "within open bottleneck",
+      100
+    ],
+    [
+      27,
+      "check bottleneck receipt",
+      100
+    ],
+    [
+      28,
+      "within live bottleneck",
+      100
+    ],
+    [
+      29,
+      "compare bottleneck receipt",
+      100
+    ],
+    [
+      30,
+      "observe bottleneck receipt",
+      100
+    ],
+    [
+      31,
+      "measure bottleneck receipt",
+      100
+    ],
+    [
+      32,
+      "across open bottleneck",
+      100
+    ],
+    [
+      33,
+      "across live bottleneck",
+      100
+    ],
+    [
+      34,
+      "between open bottleneck",
+      100
+    ],
+    [
+      35,
+      "between live bottleneck",
+      100
+    ],
+    [
+      36,
+      "test bottleneck receipt",
+      100
+    ],
+    [
+      37,
+      "verify bottleneck receipt",
+      100
+    ],
+    [
+      38,
+      "hold bottleneck receipt",
+      100
+    ],
+    [
+      39,
+      "preserve bottleneck receipt",
+      100
+    ],
+    [
+      40,
+      "andon visible problem",
+      100
+    ],
+    [
+      41,
+      "bottleneck queue flow",
+      100
+    ],
+    [
+      42,
+      "jidoka defect stop",
+      100
+    ],
+    [
+      43,
+      "just in time",
+      100
+    ],
+    [
+      44,
+      "kanban pull signal",
+      100
+    ],
+    [
+      45,
+      "lead time reduction",
+      100
+    ],
+    [
+      46,
+      "maintenance reliability throughput",
+      100
+    ],
+    [
+      47,
+      "next process pulls",
+      100
+    ],
+    [
+      48,
+      "quality built process",
+      100
+    ],
+    [
+      49,
+      "rework waste removal",
+      100
+    ],
+    [
+      50,
+      "right quantity timing",
+      100
+    ],
+    [
+      51,
+      "standard work improvement",
+      100
+    ],
+    [
+      52,
+      "takt time leveling",
+      100
+    ],
+    [
+      53,
+      "throughput handoff drag",
+      100
+    ],
+    [
+      54,
+      "wip inventory flow",
+      100
+    ],
+    [
+      55,
+      "under throughput bottleneck",
+      99
+    ],
+    [
+      56,
+      "under throughput handoff",
+      98
+    ],
+    [
+      57,
+      "under throughput workcell",
+      98
+    ],
+    [
+      58,
+      "under bottleneck handoff",
+      98
+    ],
+    [
+      59,
+      "under bottleneck workcell",
+      98
+    ],
+    [
+      60,
+      "under bottleneck flow",
+      98
+    ],
+    [
+      61,
+      "under handoff workcell",
+      98
+    ],
+    [
+      62,
+      "under handoff flow",
+      98
+    ],
+    [
+      63,
+      "under handoff capacity",
+      98
+    ],
+    [
+      64,
+      "under handoff latency",
+      98
+    ],
+    [
+      65,
+      "under workcell flow",
+      98
+    ],
+    [
+      66,
+      "under workcell capacity",
+      98
+    ],
+    [
+      67,
+      "under workcell latency",
+      98
+    ],
+    [
+      68,
+      "under workcell batch",
+      98
+    ],
+    [
+      69,
+      "under flow capacity",
+      98
+    ],
+    [
+      70,
+      "under flow latency",
+      98
+    ],
+    [
+      71,
+      "under flow batch",
+      98
+    ],
+    [
+      72,
+      "under capacity batch",
+      98
+    ],
+    [
+      73,
+      "under latency batch",
+      97
+    ],
+    [
+      74,
+      "under latency wip",
+      97
+    ],
+    [
+      75,
+      "under batch wip",
+      97
+    ],
+    [
+      76,
+      "under batch maintenance",
+      97
+    ],
+    [
+      77,
+      "under wip maintenance",
+      97
+    ],
+    [
+      78,
+      "under wip repeatability",
+      97
+    ],
+    [
+      79,
+      "under wip template",
+      97
+    ],
+    [
+      80,
+      "under maintenance repeatability",
+      97
+    ],
+    [
+      81,
+      "under maintenance template",
+      97
+    ],
+    [
+      82,
+      "under maintenance ownership",
+      97
+    ],
+    [
+      83,
+      "within throughput bottleneck",
+      96
+    ],
+    [
+      84,
+      "within throughput handoff",
+      96
+    ],
+    [
+      85,
+      "within throughput workcell",
+      96
+    ],
+    [
+      86,
+      "within bottleneck handoff",
+      96
+    ],
+    [
+      87,
+      "within bottleneck workcell",
+      96
+    ],
+    [
+      88,
+      "within bottleneck flow",
+      96
+    ],
+    [
+      89,
+      "within handoff workcell",
+      96
+    ],
+    [
+      90,
+      "within handoff flow",
+      96
+    ],
+    [
+      91,
+      "within handoff capacity",
+      96
+    ],
+    [
+      92,
+      "within handoff latency",
+      96
+    ],
+    [
+      93,
+      "within workcell flow",
+      96
+    ],
+    [
+      94,
+      "within workcell capacity",
+      96
+    ],
+    [
+      95,
+      "within workcell latency",
+      96
+    ],
+    [
+      96,
+      "within workcell batch",
+      96
+    ],
+    [
+      97,
+      "within flow capacity",
+      96
+    ],
+    [
+      98,
+      "within flow latency",
+      96
+    ],
+    [
+      99,
+      "within flow batch",
+      96
+    ],
+    [
+      100,
+      "within capacity batch",
+      96
+    ],
+    [
+      101,
+      "within latency batch",
+      96
+    ],
+    [
+      102,
+      "within latency wip",
+      96
+    ],
+    [
+      103,
+      "within batch wip",
+      96
+    ],
+    [
+      104,
+      "within batch maintenance",
+      96
+    ],
+    [
+      105,
+      "within wip maintenance",
+      96
+    ],
+    [
+      106,
+      "within wip repeatability",
+      96
+    ],
+    [
+      107,
+      "within wip template",
+      96
+    ],
+    [
+      108,
+      "within maintenance repeatability",
+      95
+    ],
+    [
+      109,
+      "within maintenance template",
+      95
+    ],
+    [
+      110,
+      "within maintenance ownership",
+      95
+    ],
+    [
+      111,
+      "under capacity latency",
+      88
+    ],
+    [
+      112,
+      "under repeatability template",
+      87
+    ],
+    [
+      113,
+      "under repeatability ownership",
+      87
+    ],
+    [
+      114,
+      "under template ownership",
+      87
+    ],
+    [
+      115,
+      "under ownership buffer",
+      87
+    ],
+    [
+      116,
+      "mini-MMM shapes voice",
+      100
+    ],
+    [
+      117,
+      "mini MMM voice shape",
+      100
+    ],
+    [
+      118,
+      "voice shaped by nouns",
+      100
+    ],
+    [
+      119,
+      "aligned nouns shape voice",
+      100
+    ],
+    [
+      120,
+      "correlated thinkers shape voice",
+      100
+    ],
+    [
+      121,
+      "jidoka andon abnormality",
+      96
+    ],
+    [
+      122,
+      "waste lead-time flow",
+      96
+    ],
+    [
+      123,
+      "kanban pull kaizen",
+      96
+    ]
+  ],
+  "v3_3_salience_expansion": {
+    "source": "deep-research-report.md",
+    "status": "positive salience only; not negative/reference boot",
+    "route": "FACTORY",
+    "size": "compact"
+  }
+}

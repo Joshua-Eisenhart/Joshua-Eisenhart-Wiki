@@ -1,0 +1,20 @@
+{
+  "id": "REFRAME",
+  "name": "Reframe",
+  "emoji": "🪞",
+  "category": "lanes",
+  "scale": "lane",
+  "purpose": "changed frame",
+  "unique_job": "shift premise, target, or unit when the current frame keeps causing the wrong work",
+  "non_job": "Do not become decorative or unreceipted.",
+  "inputs": "repeated failure, owner correction, mismatch between output and goal",
+  "outputs": "new unit of work, new acceptance gate, first action under the new frame",
+  "subagent_contract": "If visible as ran, Reframe needs spawned/blocked/deferred/simulated truth and a receipt naming old frame, failure caused by old frame, new frame, and first artifact under the new frame.",
+  "receipt_requirement": "Visible route status must be exactly spawned, blocked, deferred, or simulated. Spawned receipts name unit_id, unit_type, wave, mini-MMM loaded path, task card, checked, concluded, open, evidence, and artifact/output. Blocked/deferred receipts name reason and condition_to_run.",
+  "collapse_signs": "Reframe changes vocabulary but not the unit of work or acceptance gate.",
+  "nearest_neighbors": [
+    "Systems",
+    "Back",
+    "Wildcard"
+  ]
+}

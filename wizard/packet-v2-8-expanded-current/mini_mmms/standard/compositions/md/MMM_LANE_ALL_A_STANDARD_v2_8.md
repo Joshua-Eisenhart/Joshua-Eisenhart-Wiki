@@ -1,0 +1,372 @@
+# MMM_LANE_ALL_A_STANDARD_v2_8
+
+## words
+
+- advance :: 100
+- adversarial :: 100
+- alive :: 100
+- alternative route :: 100
+- audit :: 100
+- audit result :: 100
+- bounded :: 100
+- bundle :: 100
+- check :: 100
+- claim :: 100
+- compact :: 100
+- core :: 100
+- default :: 100
+- direct :: 100
+- direct move :: 100
+- evidence :: 100
+- falsifier :: 100
+- flattening :: 100
+- forward :: 100
+- ground :: 100
+- hume :: 100
+- keep :: 100
+- land :: 100
+- lanes :: 100
+- listing :: 100
+- loop or sequence :: 100
+- motion :: 100
+- names :: 100
+- observable check :: 100
+- observe :: 100
+- plan :: 100
+- popper :: 100
+- pressure :: 100
+- pressure-testing :: 100
+- prose :: 100
+- real :: 100
+- result :: 100
+- retreat condition :: 100
+- risky claim :: 100
+- running :: 100
+- substantive :: 100
+- systems :: 100
+- systems-or-strategy :: 100
+- test :: 100
+- unspawned :: 100
+- across :: 99
+- after :: 99
+- against :: 99
+- before :: 99
+- between :: 99
+- by :: 99
+- from :: 99
+- instead :: 99
+- likely :: 99
+- locally :: 99
+- only :: 99
+- rather :: 99
+- relative :: 99
+- still :: 99
+- through :: 99
+- under :: 99
+- with :: 99
+- within :: 99
+- without :: 99
+- case :: 98
+- checked :: 98
+- constraint :: 98
+- current :: 98
+- finite :: 98
+- instance :: 98
+- limited :: 98
+- local :: 98
+
+## couplings
+
+- across direct move :: 100
+- advance with test :: 100
+- after direct move :: 100
+- alternative route audit result :: 100
+- alternative route retreat condition :: 100
+- audit direct move :: 100
+- audit result :: 100
+- audit result retreat condition :: 100
+- before direct move :: 100
+- between direct move :: 100
+- bounded forward check :: 100
+- bundle direct move :: 100
+- bundle loop or sequence :: 100
+- bundle observable check :: 100
+- bundle risky claim :: 100
+- by direct move :: 100
+- core alternative route :: 100
+- core audit result :: 100
+- core claim pressure :: 100
+- core direct move :: 100
+- core observable check :: 100
+- core retreat condition :: 100
+- core risky claim :: 100
+- default bundle :: 100
+- default direct move :: 100
+- default observable check :: 100
+- default risky claim :: 100
+- direct move alternative route :: 100
+- direct move audit result :: 100
+- direct move loop or sequence :: 100
+- direct move observable check :: 100
+- direct move retreat condition :: 100
+- direct move risky claim :: 100
+- direct move under :: 100
+- direct plus falsifier :: 100
+- evidence and advance :: 100
+- forward alternative route :: 100
+- forward direct move :: 100
+- forward loop or sequence :: 100
+- forward observable check :: 100
+- forward risky claim :: 100
+- from direct move :: 100
+- ground and pressure :: 100
+- ground pressure :: 100
+- hume grounding :: 100
+- loop or sequence alternative route :: 100
+- loop or sequence audit result :: 100
+- loop or sequence retreat condition :: 100
+- motion alternative route :: 100
+- motion audit result :: 100
+- motion direct move :: 100
+- motion loop or sequence :: 100
+- motion observable check :: 100
+- motion risky claim :: 100
+- observable check alternative route :: 100
+- observable check audit result :: 100
+- observable check loop or sequence :: 100
+- observable check retreat condition :: 100
+- observed support :: 100
+- popper pressure :: 100
+- result direct move :: 100
+- result risky claim :: 100
+- risky claim alternative route :: 100
+- risky claim audit result :: 100
+- risky claim loop or sequence :: 100
+- risky claim observable check :: 100
+- risky claim retreat condition :: 100
+- systems support :: 100
+- through direct move :: 100
+- under audit :: 100
+- under bundle :: 100
+- under check :: 100
+- under claim :: 100
+- under core :: 100
+- under default :: 100
+- under direct :: 100
+- under direct move :: 100
+- under forward :: 100
+- under ground :: 100
+- under motion :: 100
+- under pressure :: 100
+- under result :: 100
+- under systems :: 100
+- under test :: 100
+- with direct move :: 100
+- within claim :: 100
+- within direct :: 100
+- within direct move :: 100
+- within ground :: 100
+- within pressure :: 100
+- within test :: 100
+- across audit :: 99
+- across check :: 99
+- across claim :: 99
+- across default :: 99
+- across direct :: 99
+- across ground :: 99
+- across pressure :: 99
+- across result :: 99
+- across systems :: 99
+- across test :: 99
+- against direct move :: 99
+- within audit :: 99
+- within bundle :: 99
+- within check :: 99
+- within core :: 99
+- within default :: 99
+- within forward :: 99
+- within motion :: 99
+- within result :: 99
+- within systems :: 99
+- without direct move :: 99
+- across bundle :: 98
+- across core :: 98
+- across forward :: 98
+- across motion :: 98
+- between audit :: 98
+- between bundle :: 98
+- between check :: 98
+- between claim :: 98
+- between core :: 98
+- between default :: 98
+- between direct :: 98
+- between forward :: 98
+- between ground :: 98
+- between motion :: 98
+- between pressure :: 98
+- between result :: 98
+- between systems :: 98
+- between test :: 98
+- before claim :: 97
+- before direct :: 97
+- before ground :: 97
+- before pressure :: 97
+- before test :: 97
+- through audit :: 97
+- through bundle :: 97
+- through check :: 97
+- through claim :: 97
+- through core :: 97
+- through default :: 97
+- through direct :: 97
+- through forward :: 97
+- through ground :: 97
+- through motion :: 97
+- through pressure :: 97
+- through result :: 97
+- through systems :: 97
+- through test :: 97
+- after audit :: 96
+- after check :: 96
+- after claim :: 96
+- after default :: 96
+- after direct :: 96
+- after ground :: 96
+- after pressure :: 96
+- after result :: 96
+- after systems :: 96
+- after test :: 96
+- before audit :: 96
+
+## triplets
+
+- across direct audit :: 100
+- across direct check :: 100
+- across direct claim :: 100
+- across direct result :: 100
+- across direct systems :: 100
+- across direct test :: 100
+- against forward loop or sequence :: 100
+- bounded forward check :: 100
+- direct hume popper :: 100
+- evidence claim falsifier :: 100
+- from audit direct move :: 100
+- from audit result :: 100
+- ground pressure advance :: 100
+- instead risky claim audit result :: 100
+- instead risky claim loop or sequence :: 100
+- likely alternative route audit result :: 100
+- likely alternative route retreat condition :: 100
+- locally core alternative route :: 100
+- locally core audit result :: 100
+- locally core direct move :: 100
+- locally core observable check :: 100
+- locally core retreat condition :: 100
+- locally core risky claim :: 100
+- observed support test :: 100
+- only observable check audit result :: 100
+- only observable check loop or sequence :: 100
+- possible audit result retreat condition :: 100
+- rather direct move audit result :: 100
+- rather direct move loop or sequence :: 100
+- still loop or sequence alternative route :: 100
+- still loop or sequence audit result :: 100
+- still loop or sequence retreat condition :: 100
+- systems hume pressure :: 100
+- under ground audit :: 100
+- under ground check :: 100
+- under ground claim :: 100
+- under ground direct :: 100
+- under ground pressure :: 100
+- under ground systems :: 100
+- under ground test :: 100
+- within pressure audit :: 100
+- within pressure check :: 100
+- within pressure claim :: 100
+- within pressure direct :: 100
+- within pressure result :: 100
+- within pressure systems :: 100
+- within pressure test :: 100
+- without bundle loop or sequence :: 100
+- across direct default :: 99
+- before systems audit :: 99
+- before systems bundle :: 99
+- before systems check :: 99
+- before systems default :: 99
+- before systems result :: 99
+- between claim audit :: 99
+- between claim bundle :: 99
+- between claim check :: 99
+- between claim default :: 99
+- between claim result :: 99
+- between claim systems :: 99
+- between claim test :: 99
+- through test audit :: 99
+- through test bundle :: 99
+- through test check :: 99
+- through test default :: 99
+- through test forward :: 99
+- through test result :: 99
+- through test systems :: 99
+- after check audit :: 98
+- after check bundle :: 98
+- after check core :: 98
+- after check default :: 98
+- after check forward :: 98
+- after check motion :: 98
+- after check result :: 98
+- against forward alternative route :: 98
+- against forward direct move :: 98
+- against forward observable check :: 98
+- against forward risky claim :: 98
+- before systems forward :: 98
+- before systems motion :: 98
+- by result bundle :: 98
+- by result default :: 98
+- by result direct move :: 98
+- by result forward :: 98
+- by result motion :: 98
+- by result risky claim :: 98
+- from audit bundle :: 98
+- from audit core :: 98
+- from audit default :: 98
+- from audit forward :: 98
+- from audit motion :: 98
+- rather direct move observable check :: 98
+- rather direct move risky claim :: 98
+- relative motion direct move :: 98
+- relative motion observable check :: 98
+- relative motion risky claim :: 98
+- with default direct move :: 98
+- with default observable check :: 98
+- with default risky claim :: 98
+- without bundle direct move :: 98
+- without bundle observable check :: 98
+- without bundle risky claim :: 98
+- against forward core :: 97
+- against forward motion :: 97
+- by result core :: 97
+- instead risky claim alternative route :: 97
+- instead risky claim observable check :: 97
+- instead risky claim retreat condition :: 97
+- only observable check alternative route :: 97
+- only observable check retreat condition :: 97
+- rather direct move alternative route :: 97
+- rather direct move retreat condition :: 97
+- rather direct move under :: 97
+- with default bundle :: 97
+- with default core :: 97
+- with default forward :: 97
+- with default motion :: 97
+- without bundle core :: 97
+- without bundle forward :: 97
+- without bundle motion :: 97
+- locally core loop or sequence :: 96
+- relative motion alternative route :: 96
+- relative motion audit result :: 96
+- relative motion core :: 96
+- relative motion loop or sequence :: 96
+- instead risky claim under :: 95
+- instead risky claim within :: 95
+- only observable check across :: 95
+- only observable check under :: 95

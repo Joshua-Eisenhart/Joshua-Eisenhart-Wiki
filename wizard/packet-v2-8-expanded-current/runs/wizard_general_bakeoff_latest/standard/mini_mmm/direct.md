@@ -1,0 +1,375 @@
+Lane-local behavior probe body for Direct. Candidate root: /Users/joshuaeisenhart/Desktop/mmm_wizard_complete_system_packet_v2_8_expanded_candidate. This record was normalized from collected probe output only. The harness did not spawn agents, infer hidden execution, or add a claim beyond the supplied lane record. Review this lane as receipt evidence: checked material, conclusion, remaining open question, and cited evidence must remain tied to the captured output. The body exists so the adapter can verify that every completed lane has a lane-local language surface rather than borrowing global prose. Future readers should treat the text as a behavior probe normalization artifact, not as independent proof of correctness. 
+
+Collected output:
+# MMM_LANE_DIRECT_STANDARD_v2_8
+
+## words
+
+- acceptance :: 100
+- action :: 100
+- actual :: 100
+- answer :: 100
+- apart :: 100
+- artifact :: 100
+- blocker :: 100
+- bounded :: 100
+- careful :: 100
+- checked :: 100
+- closeout :: 100
+- compared :: 100
+- concrete :: 100
+- current :: 100
+- deliverable :: 100
+- direct :: 100
+- distinct :: 100
+- done :: 100
+- done condition :: 100
+- exact :: 100
+- first :: 100
+- found :: 100
+- held :: 100
+- honest :: 100
+- immediate :: 100
+- inferred :: 100
+- known :: 100
+- landed :: 100
+- later :: 100
+- live :: 100
+- minimal :: 100
+- minimum :: 100
+- move :: 100
+- named :: 100
+- narrow :: 100
+- next :: 100
+- now :: 100
+- observed :: 100
+- packet :: 100
+- patch :: 100
+- path :: 100
+- plain :: 100
+- prior :: 100
+- result :: 100
+- returned :: 100
+- separate :: 100
+- shortest :: 100
+- simple :: 100
+- smallest :: 100
+- stale :: 100
+- step :: 100
+- target :: 100
+- this :: 100
+- unknown :: 100
+- useful :: 100
+- warm :: 100
+- across :: 99
+- after :: 99
+- against :: 99
+- along :: 99
+- among :: 99
+- around :: 99
+- before :: 99
+- beside :: 99
+- between :: 99
+- from :: 99
+- inside :: 99
+- near :: 99
+- outside :: 99
+- over :: 99
+- through :: 99
+- under :: 99
+
+## couplings
+
+- acceptance :: 100
+- acceptance check :: 100
+- across next :: 100
+- after next :: 100
+- answer first :: 100
+- artifact path :: 100
+- before next :: 100
+- between next :: 100
+- blocker :: 100
+- bounded action :: 100
+- bounded boundary :: 100
+- bounded candidate :: 100
+- bounded evidence :: 100
+- bounded packet :: 100
+- bounded path :: 100
+- bounded probe :: 100
+- bounded receipt :: 100
+- bounded result :: 100
+- bounded scope :: 100
+- bounded status :: 100
+- bounded support :: 100
+- bounded surface :: 100
+- bounded trace :: 100
+- bounded witness :: 100
+- check deliverable :: 100
+- check next :: 100
+- compare deliverable :: 100
+- compare next :: 100
+- concrete deliverable :: 100
+- current target :: 100
+- deliverable :: 100
+- deliverable boundary :: 100
+- deliverable candidate :: 100
+- deliverable constraint :: 100
+- deliverable evidence :: 100
+- deliverable packet :: 100
+- deliverable path :: 100
+- deliverable probe :: 100
+- deliverable receipt :: 100
+- deliverable result :: 100
+- deliverable scope :: 100
+- deliverable status :: 100
+- deliverable support :: 100
+- deliverable surface :: 100
+- deliverable trace :: 100
+- deliverable witness :: 100
+- direct acceptance :: 100
+- direct deliverable :: 100
+- direct path :: 100
+- done condition :: 100
+- exact step :: 100
+- hold deliverable :: 100
+- hold next :: 100
+- immediate action :: 100
+- measure deliverable :: 100
+- measure next :: 100
+- minimum viable move :: 100
+- move path :: 100
+- narrow deliverable :: 100
+- narrow next :: 100
+- next :: 100
+- next acceptance :: 100
+- next boundary :: 100
+- next bounded move :: 100
+- next candidate :: 100
+- next constraint :: 100
+- next deliverable :: 100
+- next evidence :: 100
+- next move :: 100
+- next packet :: 100
+- next path :: 100
+- next probe :: 100
+- next receipt :: 100
+- next result :: 100
+- next scope :: 100
+- next status :: 100
+- next support :: 100
+- next surface :: 100
+- next trace :: 100
+- next witness :: 100
+- observe deliverable :: 100
+- observe next :: 100
+- path :: 100
+- practical next :: 100
+- preserve deliverable :: 100
+- preserve next :: 100
+- shortest defensible answer :: 100
+- shortest path :: 100
+- smallest :: 100
+- smallest acceptance :: 100
+- smallest blocker :: 100
+- smallest deliverable :: 100
+- smallest useful step :: 100
+- split deliverable :: 100
+- split next :: 100
+- test deliverable :: 100
+- test next :: 100
+- through next :: 100
+- under next :: 100
+- until next :: 100
+- verify deliverable :: 100
+- verify next :: 100
+- visible blocker :: 100
+- where bounded :: 100
+- where deliverable :: 100
+- where next :: 100
+- while bounded :: 100
+- while deliverable :: 100
+- while next :: 100
+- within next :: 100
+- across bounded :: 99
+- across deliverable :: 99
+- after bounded :: 99
+- before bounded :: 99
+- between bounded :: 99
+- between deliverable :: 99
+- through bounded :: 99
+- through deliverable :: 99
+- under bounded :: 99
+- under deliverable :: 99
+- until bounded :: 99
+- within bounded :: 99
+- within deliverable :: 99
+- across move :: 98
+- after deliverable :: 98
+- before deliverable :: 98
+- between move :: 98
+- bounded constraint :: 98
+- check bounded :: 98
+- compare bounded :: 98
+- hold bounded :: 98
+- measure bounded :: 98
+- narrow bounded :: 98
+- observe bounded :: 98
+- preserve bounded :: 98
+- split bounded :: 98
+- test bounded :: 98
+- through move :: 98
+- under move :: 98
+- until deliverable :: 98
+- verify bounded :: 98
+- within move :: 98
+- after move :: 97
+- before move :: 97
+- check move :: 97
+- compare move :: 97
+- measure move :: 97
+- move boundary :: 97
+- move candidate :: 97
+- move constraint :: 97
+- move evidence :: 97
+- move packet :: 97
+- move probe :: 97
+- move receipt :: 97
+- move result :: 97
+- move scope :: 97
+- move status :: 97
+- move support :: 97
+- move surface :: 97
+- move trace :: 97
+
+## triplets
+
+- across bounded next :: 100
+- across current next :: 100
+- across finite next :: 100
+- across live next :: 100
+- across local next :: 100
+- across open next :: 100
+- answer first action :: 100
+- between bounded next :: 100
+- between current next :: 100
+- between finite next :: 100
+- between live next :: 100
+- between local next :: 100
+- between open next :: 100
+- bounded boundary path :: 100
+- bounded evidence path :: 100
+- bounded packet path :: 100
+- bounded path path :: 100
+- bounded receipt path :: 100
+- bounded result path :: 100
+- bounded scope path :: 100
+- bounded support path :: 100
+- bounded surface path :: 100
+- bounded trace path :: 100
+- current target blocker :: 100
+- deliverable acceptance check :: 100
+- direct path done :: 100
+- immediate concrete action :: 100
+- next boundary path :: 100
+- next bounded move :: 100
+- next evidence path :: 100
+- next packet path :: 100
+- next path path :: 100
+- next receipt path :: 100
+- next result path :: 100
+- next scope path :: 100
+- next support path :: 100
+- next surface path :: 100
+- next trace path :: 100
+- shortest defensible answer :: 100
+- shortest path path :: 100
+- smallest useful step :: 100
+- through current next :: 100
+- under bounded next :: 100
+- under current next :: 100
+- under finite next :: 100
+- under live next :: 100
+- under local next :: 100
+- under open next :: 100
+- within bounded next :: 100
+- within current next :: 100
+- within finite next :: 100
+- within live next :: 100
+- within local next :: 100
+- within open next :: 100
+- before bounded next :: 99
+- before current next :: 99
+- before finite next :: 99
+- before live next :: 99
+- before local next :: 99
+- before open next :: 99
+- check next receipt :: 99
+- compare next receipt :: 99
+- measure next receipt :: 99
+- observe next receipt :: 99
+- through bounded next :: 99
+- through finite next :: 99
+- through live next :: 99
+- through local next :: 99
+- through open next :: 99
+- across bounded bounded :: 98
+- across current bounded :: 98
+- across finite bounded :: 98
+- across live bounded :: 98
+- across local bounded :: 98
+- across open bounded :: 98
+- between bounded bounded :: 98
+- between current bounded :: 98
+- between local bounded :: 98
+- hold next receipt :: 98
+- preserve next receipt :: 98
+- test next receipt :: 98
+- under bounded bounded :: 98
+- under current bounded :: 98
+- under finite bounded :: 98
+- under live bounded :: 98
+- under local bounded :: 98
+- under open bounded :: 98
+- under path acceptance :: 98
+- under path deliverable :: 98
+- verify next receipt :: 98
+- within bounded bounded :: 98
+- within current bounded :: 98
+- within finite bounded :: 98
+- within live bounded :: 98
+- within local bounded :: 98
+- within open bounded :: 98
+- before bounded bounded :: 97
+- before current bounded :: 97
+- before finite bounded :: 97
+- before live bounded :: 97
+- before local bounded :: 97
+- before open bounded :: 97
+- between finite bounded :: 97
+- between live bounded :: 97
+- between open bounded :: 97
+- through bounded bounded :: 97
+- through current bounded :: 97
+- through finite bounded :: 97
+- through live bounded :: 97
+- through local bounded :: 97
+- through open bounded :: 97
+- under acceptance blocker :: 97
+- under blocker now :: 97
+- under deliverable acceptance :: 97
+- across bounded move :: 96
+- across current move :: 96
+- across finite move :: 96
+- across local move :: 96
+- across open move :: 96
+- check bounded receipt :: 96
+- compare bounded receipt :: 96
+- hold bounded receipt :: 96
+- measure bounded receipt :: 96
+- observe bounded receipt :: 96
+- preserve bounded receipt :: 96
+- test bounded receipt :: 96
+- under bounded move :: 96
+- under current move :: 96
+- under finite move :: 96
+- under live move :: 96

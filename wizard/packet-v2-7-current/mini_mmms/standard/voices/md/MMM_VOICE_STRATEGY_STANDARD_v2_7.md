@@ -1,0 +1,195 @@
+---
+title: Mmm Voice Strategy Standard V2 7
+created: 2026-04-28
+updated: 2026-04-28
+type: concept
+tags: [wizard, mmm, packet, receipt]
+framing: current
+source_path: mini_mmms/standard/voices/md/MMM_VOICE_STRATEGY_STANDARD_v2_7.md
+---
+
+# MMM_VOICE_STRATEGY_STANDARD_v2_7
+
+## aligned nouns and phrases
+
+- center of gravity
+- decisive point
+- decisive front
+- drift condition
+- economy of force
+- first move
+- work path
+- means and ends
+- retreat condition
+- return trigger
+- strategic reserve
+- action
+- advance
+- campaign
+- choice
+- coalition
+- commitment
+- concrete
+- condition
+- cost
+- course
+- decisive
+- defer
+- deferred
+- dependency
+- direction
+- distinct
+- drift
+- effort
+- uncertainty
+- friction
+- front
+- hold
+- initiative
+- leverage
+- line
+- merge
+- milestone
+- mission
+- objective
+- order
+- phase
+- position
+- priority
+- reserve
+- reinput
+- retreat
+- return
+- risk
+- role
+- route
+- scarce
+- scarcity
+- sequence
+- split
+- staged
+- strategy
+- tempo
+- terrain
+- timing
+- tradeoff
+- value
+
+## correlated couplings
+
+- campaign boundary
+- campaign constraint
+- campaign evidence
+- campaign packet
+- campaign probe
+- campaign receipt
+- campaign result
+- campaign scope
+- campaign support
+- campaign trace
+- campaign witness
+- compare campaign
+- compare front
+- compare sequence
+- decisive front
+- drift condition
+- first move
+- front boundary
+- front constraint
+- front evidence
+- front packet
+- front probe
+- front receipt
+- front result
+- front scope
+- front support
+- front trace
+- front witness
+- hold campaign
+- hold defer
+- hold front
+- hold merge
+- hold reinput
+- hold retreat
+- hold sequence
+- hold split
+- measure campaign
+- measure front
+- measure sequence
+- narrow campaign
+- narrow front
+- narrow sequence
+- preserve campaign
+- preserve front
+- preserve sequence
+- retreat boundary
+- retreat condition
+- retreat evidence
+- retreat packet
+- retreat probe
+- retreat receipt
+- retreat result
+- retreat scope
+- retreat support
+- retreat trace
+- retreat witness
+- return trigger
+- sequence boundary
+- sequence constraint
+- sequence evidence
+- sequence packet
+- sequence probe
+- sequence receipt
+- sequence result
+- sequence scope
+- sequence support
+- sequence trace
+- sequence witness
+- split campaign
+- split defer
+- split front
+- split hold
+- split merge
+- split reinput
+- split retreat
+- split sequence
+- advance
+- campaign
+- defer
+- front
+- hold
+- merge
+- mission
+- order
+- priority
+- reinput
+- retreat
+- role
+- scarce
+- sequence
+- split
+- timing
+
+## three-part cues
+
+- campaign sequence reinput
+- commitment cost risk
+- compare campaign receipt
+- decisive front condition
+- dependency sequence order
+- fallback plan reserve
+- front timing retreat
+- hold advance retreat
+- hold campaign receipt
+- hold front receipt
+- hold retreat receipt
+- hold sequence receipt
+- local win campaign
+- measure campaign receipt
+- option value tradeoff
+- preserve campaign receipt
+- priority order risk
+- role allocation timing
+- scarce reinput allocation
+- strategy drift condition
+- tempo control front

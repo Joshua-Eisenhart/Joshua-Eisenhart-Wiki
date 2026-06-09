@@ -1,0 +1,50 @@
+{
+  "voices": [
+    "HUME",
+    "ZHUANGZI",
+    "FEYNMAN",
+    "ORWELL",
+    "POPPER",
+    "PUSHBACK",
+    "FACTORY",
+    "STRATEGY",
+    "SYSTEMS"
+  ],
+  "lanes": [
+    "DIRECT",
+    "ALTERNATIVE",
+    "REFRAME",
+    "WILDCARD",
+    "BACK"
+  ],
+  "checks_guards": [
+    "AUDIT",
+    "HYGIENE",
+    "SECURITY"
+  ],
+  "system_routes": [
+    "LLM_COUNCIL"
+  ],
+  "compositions": [
+    {
+      "id": "ALL_A",
+      "description": "Build bundle: patch the smallest real artifact, name the falsifier, create the measurable check, inspect downstream effects, keep one alternate route open, then audit receipt truth.",
+      "action": "Deterministic repair bundle. Direct takes the smallest viable patch, Popper names the falsifier, Feynman turns it into a test, Systems and Strategy check downstream effects, Alternative keeps a second route alive, and Audit verifies receipt truth before the build moves forward."
+    },
+    {
+      "id": "ALL_B",
+      "description": "Collapse-audit bundle: scope confidence, preserve live readings, attack the strongest claim, compare observable behavior, run one off-axis stress probe, then audit whether collapse was avoided.",
+      "action": "Behavior proof bundle. Hume scopes confidence, Zhuangzi preserves live readings, Popper attacks the strongest claim, Feynman runs the observable comparison, Wildcard probes an off-axis failure mode, and Audit checks whether the MMM actually changed behavior."
+    },
+    {
+      "id": "ALL_C",
+      "description": "Closeout bundle: land the artifact, remove fog, improve scan quality, check boot/runtime boundaries, make the handoff repeatable, then verify final receipts.",
+      "action": "Closeout and shipping bundle. Direct lands the bounded artifact, Orwell cuts fog, Hygiene improves scan quality, Security checks boot and runtime boundaries, Factory makes the repeatable handoff, and Audit verifies the final receipt."
+    },
+    {
+      "id": "ALL_D",
+      "description": "Full Wizard: run preflight, all voices, all lanes, all checks, system routes, compositions, follow-up make/run/audit, and final receipt audit when partial coverage would hide drift.",
+      "action": "Full Wizard maximum-run bundle. Run preflight, all voices, all lanes, all checks, system routes, compositions, follow-up make/run/audit, and final receipt audit; use it for Wizard/MMM changes, QIT engine planning, runtime adapters, or any branch where partial coverage would hide drift."
+    }
+  ]
+}

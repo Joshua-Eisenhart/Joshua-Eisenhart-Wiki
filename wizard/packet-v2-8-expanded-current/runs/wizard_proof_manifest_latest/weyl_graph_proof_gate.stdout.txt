@@ -1,0 +1,1 @@
+{"chirality_pass": true, "forward_order_sat": true, "is_dag": true, "ok": true, "operator_sequence_ok": null, "reverse_order_unsat": true}

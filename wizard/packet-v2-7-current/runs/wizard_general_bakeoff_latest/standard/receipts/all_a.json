@@ -1,0 +1,12 @@
+{
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate",
+  "checked": "loaded mini_mmms/standard/compositions/md/MMM_LANE_ALL_A_STANDARD_v2_7.md",
+  "concluded": "All-A compilation: deterministic repair checks for taxonomy, schema, boot text, validators, and packaging.",
+  "evidence": "mini_mmms/standard/compositions/md/MMM_LANE_ALL_A_STANDARD_v2_7.md terms: alternative route, audit result, direct move, loop or sequence, observable check, pressure-testing, retreat condition, risky claim",
+  "generated_at": "2026-04-28T08:03:25.030686+00:00",
+  "lane": "All-A",
+  "open": "live proof pending",
+  "output_excerpt": "Task: Compare Wizard General sizes and choose the best local runtime surface.\nWizard General size: standard\nWave 7: Follow-up Make Wave\nAll-A compilation: deterministic repair checks for taxonomy, schema, boot text, validators, and packaging.\nLoaded language body terms: alternative route, audit result, direct move, loop or sequence, observable check, pressure-testing, retreat condition, risky claim",
+  "output_sha256": "bdb2baeb544fff5c26919fcefac2a6bee4ce1f9c5e8acd1741598a8e222e35f2",
+  "schema_version": "wizard_behavior_harness.v1"
+}

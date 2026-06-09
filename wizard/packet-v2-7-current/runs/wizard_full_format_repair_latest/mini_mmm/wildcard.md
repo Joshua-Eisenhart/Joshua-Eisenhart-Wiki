@@ -1,0 +1,391 @@
+---
+title: Wildcard
+created: 2026-04-28
+updated: 2026-04-28
+type: concept
+tags: [wizard, mmm, packet, receipt]
+framing: current
+source_path: runs/wizard_full_format_repair_latest/mini_mmm/wildcard.md
+---
+
+Lane-local behavior probe body for Wildcard. Candidate root: /Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate. This record was normalized from collected probe output only. The harness did not spawn agents, infer hidden execution, or add a claim beyond the supplied lane record. Review this lane as receipt evidence: checked material, conclusion, remaining open question, and cited evidence must remain tied to the captured output. The body exists so the adapter can verify that every completed lane has a lane-local language surface rather than borrowing global prose. Future readers should treat the text as a behavior probe normalization artifact, not as independent proof of correctness. 
+
+Collected output:
+# MMM_LANE_WILDCARD_FULL_v2_7
+
+## aligned nouns and phrases
+
+- cheap test
+- edge move
+- small experiment
+- language body
+- wildcard
+- surprise
+- unexpected
+- odd
+- path
+- unlock
+- probe
+- creative
+- angle
+- nonobvious
+- strange
+- fit
+- side
+- door
+- small
+- experiment
+- cheap
+- unusual
+- route
+- bounded
+- upside
+- blocker
+- leverage
+- stress
+- outside
+- only
+- then
+- finite
+- open
+- distinct
+- concrete
+- observed
+- missing
+- honest
+- first
+- prior
+- separate
+- together
+- compared
+- measured
+- used
+- viable
+- direct
+- different
+- alternate
+- branch
+- packet
+- artifact
+- receipt
+- trace
+- result
+- support
+- evidence
+- scope
+- boundary
+- gate
+- guard
+- rung
+- status
+- candidate
+- survivor
+- witness
+- constraint
+- name
+- use
+- role
+- practice
+- experience
+- observation
+- perception
+- conjunction
+- resemblance
+- relation
+- probability
+- particular
+- predicate
+- class
+- model
+- solver
+- satisfiable
+- unsatisfiable
+- countermodel
+- counterexample
+- equivalence
+- indistinguishable
+- readout
+- measure
+- measurement
+- operation
+- procedure
+- instrument
+- check
+- verify
+- compare
+- sample
+- lane
+- voice
+- lens
+- council
+- audit
+- finding
+- deferred
+- blocked
+- spawned
+- diagnostic
+- untried
+- preload
+- language
+- body
+- during
+- since
+- toward
+- relative
+- according
+- locally
+- jointly
+- separately
+- rather
+- instead
+- still
+- often
+- sometimes
+- usually
+- seems
+
+## correlated couplings
+
+- during cheap test
+- since cheap test
+- toward cheap test
+- relative cheap test
+- wildcard evidence
+- wildcard support
+- wildcard packet
+- wildcard receipt
+- wildcard trace
+- wildcard result
+- wildcard scope
+- wildcard boundary
+- wildcard witness
+- wildcard probe
+- wildcard constraint
+- compare wildcard
+- measure wildcard
+- hold wildcard
+- preserve wildcard
+- split wildcard
+- narrow wildcard
+- unexpected evidence
+- unexpected support
+- unexpected packet
+- unexpected receipt
+- unexpected trace
+- unexpected result
+- unexpected scope
+- unexpected boundary
+- unexpected witness
+- unexpected probe
+- unexpected constraint
+- compare unexpected
+- measure unexpected
+- hold unexpected
+- preserve unexpected
+- split unexpected
+- narrow unexpected
+- nonobvious evidence
+- nonobvious support
+- nonobvious packet
+- nonobvious receipt
+- nonobvious trace
+- nonobvious result
+- nonobvious scope
+- nonobvious boundary
+- nonobvious witness
+- nonobvious probe
+- nonobvious constraint
+- compare nonobvious
+- measure nonobvious
+- hold nonobvious
+- preserve nonobvious
+- split nonobvious
+- narrow nonobvious
+- probe evidence
+- probe support
+- probe packet
+- probe receipt
+- probe trace
+- probe result
+- probe scope
+- probe boundary
+- probe witness
+- probe constraint
+- compare probe
+- measure probe
+- hold probe
+- preserve probe
+- split probe
+- narrow probe
+- unlock evidence
+- unlock support
+- unlock packet
+- unlock receipt
+- unlock trace
+- unlock result
+- unlock scope
+- unlock boundary
+- unlock witness
+- unlock probe
+- unlock constraint
+- compare unlock
+- measure unlock
+- hold unlock
+- preserve unlock
+- split unlock
+- narrow unlock
+- angle evidence
+- angle support
+- angle packet
+- angle receipt
+- angle trace
+- angle result
+- angle scope
+- angle boundary
+- angle witness
+- angle probe
+- angle constraint
+- compare angle
+- measure angle
+- hold angle
+- preserve angle
+- split angle
+- narrow angle
+- surprise evidence
+- surprise support
+- surprise packet
+- surprise receipt
+- surprise trace
+- surprise result
+- surprise scope
+- surprise boundary
+- surprise witness
+- surprise probe
+- surprise constraint
+- compare surprise
+- measure surprise
+- hold surprise
+- preserve surprise
+- split surprise
+- narrow surprise
+- side evidence
+- side support
+- side packet
+- side receipt
+- side trace
+- side result
+- side scope
+- side boundary
+- side witness
+- side probe
+- side constraint
+- compare side
+- measure side
+- hold side
+- preserve side
+- split side
+- narrow side
+- path evidence
+- path support
+- path packet
+- path receipt
+- path trace
+- path result
+- path scope
+- path boundary
+- path witness
+- path probe
+- path constraint
+- odd evidence
+- odd support
+- odd packet
+- odd receipt
+- odd trace
+- odd result
+- odd scope
+- odd boundary
+- odd witness
+- odd probe
+
+## three-part cues
+
+- during experiment cheap test
+- during cheap edge move
+- during unusual cheap test
+- during unusual edge move
+- during route cheap test
+- during route edge move
+- during cheap test edge move
+- during cheap test bounded
+- during cheap test upside
+- during cheap test blocker
+- compare wildcard receipt
+- measure wildcard receipt
+- hold wildcard receipt
+- preserve wildcard receipt
+- compare unexpected receipt
+- measure unexpected receipt
+- hold unexpected receipt
+- preserve unexpected receipt
+- compare nonobvious receipt
+- measure nonobvious receipt
+- hold nonobvious receipt
+- preserve nonobvious receipt
+- compare probe receipt
+- measure probe receipt
+- hold probe receipt
+- preserve probe receipt
+- during wildcard surprise
+- during wildcard unexpected
+- during wildcard odd
+- during surprise unexpected
+- during surprise odd
+- during surprise unlock
+- during unexpected odd
+- during unexpected unlock
+- during unexpected probe
+- during odd unlock
+- during odd probe
+- during odd creative
+- during path unlock
+- during path probe
+- during path creative
+- during path angle
+- during unlock probe
+- during unlock creative
+- during unlock angle
+- during unlock nonobvious
+- during probe creative
+- during probe angle
+- during probe nonobvious
+- during probe strange
+- during creative angle
+- during creative nonobvious
+- during creative strange
+- during creative fit
+- during angle nonobvious
+- during angle strange
+- during angle fit
+- during angle side
+- during nonobvious strange
+- during nonobvious fit
+- during nonobvious side
+- during nonobvious door
+- during strange fit
+- during strange side
+- during strange door
+- during strange small
+- during fit side
+- during fit door
+- during fit small
+- during fit experiment
+- during side door
+- during side small
+- during side experiment
+- during side cheap
+- during door small
+- during door experiment
+- during door cheap
+- during door unusual
+- during small experiment
+- during small cheap

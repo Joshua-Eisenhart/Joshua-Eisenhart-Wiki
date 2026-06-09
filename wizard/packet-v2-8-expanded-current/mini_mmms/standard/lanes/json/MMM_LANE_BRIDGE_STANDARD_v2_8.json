@@ -1,0 +1,1818 @@
+{
+  "words": [
+    [
+      1,
+      "across",
+      100
+    ],
+    [
+      2,
+      "actual",
+      100
+    ],
+    [
+      3,
+      "apart",
+      100
+    ],
+    [
+      4,
+      "artifact",
+      100
+    ],
+    [
+      5,
+      "between",
+      100
+    ],
+    [
+      6,
+      "boundary",
+      100
+    ],
+    [
+      7,
+      "bridge",
+      100
+    ],
+    [
+      8,
+      "careful",
+      100
+    ],
+    [
+      9,
+      "carried",
+      100
+    ],
+    [
+      10,
+      "carry",
+      100
+    ],
+    [
+      11,
+      "checked",
+      100
+    ],
+    [
+      12,
+      "classical",
+      100
+    ],
+    [
+      13,
+      "concrete",
+      100
+    ],
+    [
+      14,
+      "context",
+      100
+    ],
+    [
+      15,
+      "coupling",
+      100
+    ],
+    [
+      16,
+      "derived",
+      100
+    ],
+    [
+      17,
+      "distinct",
+      100
+    ],
+    [
+      18,
+      "first",
+      100
+    ],
+    [
+      19,
+      "handoff",
+      100
+    ],
+    [
+      20,
+      "held",
+      100
+    ],
+    [
+      21,
+      "honest",
+      100
+    ],
+    [
+      22,
+      "human",
+      100
+    ],
+    [
+      23,
+      "hume",
+      100
+    ],
+    [
+      24,
+      "imported",
+      100
+    ],
+    [
+      25,
+      "inferred",
+      100
+    ],
+    [
+      26,
+      "interface",
+      100
+    ],
+    [
+      27,
+      "known",
+      100
+    ],
+    [
+      28,
+      "later",
+      100
+    ],
+    [
+      29,
+      "layers",
+      100
+    ],
+    [
+      30,
+      "live",
+      100
+    ],
+    [
+      31,
+      "meaning",
+      100
+    ],
+    [
+      32,
+      "middle",
+      100
+    ],
+    [
+      33,
+      "mixed",
+      100
+    ],
+    [
+      34,
+      "narrow",
+      100
+    ],
+    [
+      35,
+      "next",
+      100
+    ],
+    [
+      36,
+      "nonclassical",
+      100
+    ],
+    [
+      37,
+      "observed",
+      100
+    ],
+    [
+      38,
+      "packet",
+      100
+    ],
+    [
+      39,
+      "plain",
+      100
+    ],
+    [
+      40,
+      "preload",
+      100
+    ],
+    [
+      41,
+      "prior",
+      100
+    ],
+    [
+      42,
+      "prompt",
+      100
+    ],
+    [
+      43,
+      "read",
+      100
+    ],
+    [
+      44,
+      "receipt",
+      100
+    ],
+    [
+      45,
+      "result",
+      100
+    ],
+    [
+      46,
+      "returned",
+      100
+    ],
+    [
+      47,
+      "salience",
+      100
+    ],
+    [
+      48,
+      "separate",
+      100
+    ],
+    [
+      49,
+      "stale",
+      100
+    ],
+    [
+      50,
+      "summary",
+      100
+    ],
+    [
+      51,
+      "surface",
+      100
+    ],
+    [
+      52,
+      "task card",
+      100
+    ],
+    [
+      53,
+      "tier",
+      100
+    ],
+    [
+      54,
+      "translate",
+      100
+    ],
+    [
+      55,
+      "translation",
+      100
+    ],
+    [
+      56,
+      "unknown",
+      100
+    ],
+    [
+      57,
+      "warm",
+      100
+    ],
+    [
+      58,
+      "after",
+      99
+    ],
+    [
+      59,
+      "against",
+      99
+    ],
+    [
+      60,
+      "before",
+      99
+    ],
+    [
+      61,
+      "through",
+      99
+    ],
+    [
+      62,
+      "under",
+      99
+    ],
+    [
+      63,
+      "until",
+      99
+    ],
+    [
+      64,
+      "where",
+      99
+    ],
+    [
+      65,
+      "while",
+      99
+    ],
+    [
+      66,
+      "within",
+      99
+    ],
+    [
+      67,
+      "along",
+      98
+    ],
+    [
+      68,
+      "among",
+      98
+    ],
+    [
+      69,
+      "around",
+      98
+    ],
+    [
+      70,
+      "beside",
+      98
+    ],
+    [
+      71,
+      "bounded",
+      98
+    ],
+    [
+      72,
+      "current",
+      98
+    ]
+  ],
+  "couplings": [
+    [
+      1,
+      "across bridge",
+      100
+    ],
+    [
+      2,
+      "after bridge",
+      100
+    ],
+    [
+      3,
+      "authority artifact",
+      100
+    ],
+    [
+      4,
+      "authority boundary",
+      100
+    ],
+    [
+      5,
+      "authority preload",
+      100
+    ],
+    [
+      6,
+      "authority receipt",
+      100
+    ],
+    [
+      7,
+      "authority salience",
+      100
+    ],
+    [
+      8,
+      "authority task card",
+      100
+    ],
+    [
+      9,
+      "before bridge",
+      100
+    ],
+    [
+      10,
+      "between bridge",
+      100
+    ],
+    [
+      11,
+      "between levels",
+      100
+    ],
+    [
+      12,
+      "bridge boundary",
+      100
+    ],
+    [
+      13,
+      "bridge candidate",
+      100
+    ],
+    [
+      14,
+      "bridge constraint",
+      100
+    ],
+    [
+      15,
+      "bridge evidence",
+      100
+    ],
+    [
+      16,
+      "bridge handoff",
+      100
+    ],
+    [
+      17,
+      "bridge layer",
+      100
+    ],
+    [
+      18,
+      "bridge packet",
+      100
+    ],
+    [
+      19,
+      "bridge path",
+      100
+    ],
+    [
+      20,
+      "bridge probe",
+      100
+    ],
+    [
+      21,
+      "bridge receipt",
+      100
+    ],
+    [
+      22,
+      "bridge result",
+      100
+    ],
+    [
+      23,
+      "bridge scope",
+      100
+    ],
+    [
+      24,
+      "bridge status",
+      100
+    ],
+    [
+      25,
+      "bridge support",
+      100
+    ],
+    [
+      26,
+      "bridge surface",
+      100
+    ],
+    [
+      27,
+      "bridge trace",
+      100
+    ],
+    [
+      28,
+      "bridge translation",
+      100
+    ],
+    [
+      29,
+      "bridge witness",
+      100
+    ],
+    [
+      30,
+      "carry across",
+      100
+    ],
+    [
+      31,
+      "check bridge",
+      100
+    ],
+    [
+      32,
+      "check interface",
+      100
+    ],
+    [
+      33,
+      "compare bridge",
+      100
+    ],
+    [
+      34,
+      "compare interface",
+      100
+    ],
+    [
+      35,
+      "context prompt",
+      100
+    ],
+    [
+      36,
+      "derived artifact",
+      100
+    ],
+    [
+      37,
+      "derived authority",
+      100
+    ],
+    [
+      38,
+      "derived boundary",
+      100
+    ],
+    [
+      39,
+      "derived preload",
+      100
+    ],
+    [
+      40,
+      "derived receipt",
+      100
+    ],
+    [
+      41,
+      "derived salience",
+      100
+    ],
+    [
+      42,
+      "derived task card",
+      100
+    ],
+    [
+      43,
+      "handoff between",
+      100
+    ],
+    [
+      44,
+      "handoff context",
+      100
+    ],
+    [
+      45,
+      "handoff human",
+      100
+    ],
+    [
+      46,
+      "handoff layers",
+      100
+    ],
+    [
+      47,
+      "handoff plain",
+      100
+    ],
+    [
+      48,
+      "handoff prompt",
+      100
+    ],
+    [
+      49,
+      "handoff read",
+      100
+    ],
+    [
+      50,
+      "handoff surface",
+      100
+    ],
+    [
+      51,
+      "hold bridge",
+      100
+    ],
+    [
+      52,
+      "hume bridge",
+      100
+    ],
+    [
+      53,
+      "imported artifact",
+      100
+    ],
+    [
+      54,
+      "imported authority",
+      100
+    ],
+    [
+      55,
+      "imported derived",
+      100
+    ],
+    [
+      56,
+      "imported preload",
+      100
+    ],
+    [
+      57,
+      "imported receipt",
+      100
+    ],
+    [
+      58,
+      "imported salience",
+      100
+    ],
+    [
+      59,
+      "imported task card",
+      100
+    ],
+    [
+      60,
+      "interface boundary",
+      100
+    ],
+    [
+      61,
+      "interface candidate",
+      100
+    ],
+    [
+      62,
+      "interface constraint",
+      100
+    ],
+    [
+      63,
+      "interface evidence",
+      100
+    ],
+    [
+      64,
+      "interface packet",
+      100
+    ],
+    [
+      65,
+      "interface path",
+      100
+    ],
+    [
+      66,
+      "interface probe",
+      100
+    ],
+    [
+      67,
+      "interface receipt",
+      100
+    ],
+    [
+      68,
+      "interface result",
+      100
+    ],
+    [
+      69,
+      "interface scope",
+      100
+    ],
+    [
+      70,
+      "interface status",
+      100
+    ],
+    [
+      71,
+      "interface support",
+      100
+    ],
+    [
+      72,
+      "interface surface",
+      100
+    ],
+    [
+      73,
+      "interface trace",
+      100
+    ],
+    [
+      74,
+      "interface witness",
+      100
+    ],
+    [
+      75,
+      "measure bridge",
+      100
+    ],
+    [
+      76,
+      "middle voice",
+      100
+    ],
+    [
+      77,
+      "narrow bridge",
+      100
+    ],
+    [
+      78,
+      "observe bridge",
+      100
+    ],
+    [
+      79,
+      "packet boundary",
+      100
+    ],
+    [
+      80,
+      "packet receipt",
+      100
+    ],
+    [
+      81,
+      "packet surface",
+      100
+    ],
+    [
+      82,
+      "preload artifact",
+      100
+    ],
+    [
+      83,
+      "preload boundary",
+      100
+    ],
+    [
+      84,
+      "preload interface",
+      100
+    ],
+    [
+      85,
+      "preload receipt",
+      100
+    ],
+    [
+      86,
+      "preload task card",
+      100
+    ],
+    [
+      87,
+      "preserve bridge",
+      100
+    ],
+    [
+      88,
+      "receipt artifact",
+      100
+    ],
+    [
+      89,
+      "receipt interface",
+      100
+    ],
+    [
+      90,
+      "salience artifact",
+      100
+    ],
+    [
+      91,
+      "salience boundary",
+      100
+    ],
+    [
+      92,
+      "salience preload",
+      100
+    ],
+    [
+      93,
+      "salience receipt",
+      100
+    ],
+    [
+      94,
+      "salience task card",
+      100
+    ],
+    [
+      95,
+      "split bridge",
+      100
+    ],
+    [
+      96,
+      "summary bridge",
+      100
+    ],
+    [
+      97,
+      "surface authority",
+      100
+    ],
+    [
+      98,
+      "surface derived",
+      100
+    ],
+    [
+      99,
+      "surface imported",
+      100
+    ],
+    [
+      100,
+      "surface preload",
+      100
+    ],
+    [
+      101,
+      "surface salience",
+      100
+    ],
+    [
+      102,
+      "surface task card",
+      100
+    ],
+    [
+      103,
+      "task card artifact",
+      100
+    ],
+    [
+      104,
+      "task card boundary",
+      100
+    ],
+    [
+      105,
+      "task card interface",
+      100
+    ],
+    [
+      106,
+      "task card receipt",
+      100
+    ],
+    [
+      107,
+      "test bridge",
+      100
+    ],
+    [
+      108,
+      "through bridge",
+      100
+    ],
+    [
+      109,
+      "tier authority",
+      100
+    ],
+    [
+      110,
+      "tier derived",
+      100
+    ],
+    [
+      111,
+      "tier imported",
+      100
+    ],
+    [
+      112,
+      "tier preload",
+      100
+    ],
+    [
+      113,
+      "tier salience",
+      100
+    ],
+    [
+      114,
+      "tier surface",
+      100
+    ],
+    [
+      115,
+      "tier task card",
+      100
+    ],
+    [
+      116,
+      "translate receipts",
+      100
+    ],
+    [
+      117,
+      "translation handoff",
+      100
+    ],
+    [
+      118,
+      "under bridge",
+      100
+    ],
+    [
+      119,
+      "until bridge",
+      100
+    ],
+    [
+      120,
+      "verify bridge",
+      100
+    ],
+    [
+      121,
+      "where bridge",
+      100
+    ],
+    [
+      122,
+      "while bridge",
+      100
+    ],
+    [
+      123,
+      "within bridge",
+      100
+    ],
+    [
+      124,
+      "across packet",
+      99
+    ],
+    [
+      125,
+      "between packet",
+      99
+    ],
+    [
+      126,
+      "through packet",
+      99
+    ],
+    [
+      127,
+      "under packet",
+      99
+    ],
+    [
+      128,
+      "within packet",
+      99
+    ],
+    [
+      129,
+      "after packet",
+      98
+    ],
+    [
+      130,
+      "before packet",
+      98
+    ],
+    [
+      131,
+      "packet candidate",
+      98
+    ],
+    [
+      132,
+      "packet constraint",
+      98
+    ],
+    [
+      133,
+      "packet evidence",
+      98
+    ],
+    [
+      134,
+      "packet packet",
+      98
+    ],
+    [
+      135,
+      "packet path",
+      98
+    ],
+    [
+      136,
+      "packet probe",
+      98
+    ],
+    [
+      137,
+      "packet result",
+      98
+    ],
+    [
+      138,
+      "packet scope",
+      98
+    ],
+    [
+      139,
+      "packet status",
+      98
+    ],
+    [
+      140,
+      "packet support",
+      98
+    ],
+    [
+      141,
+      "packet trace",
+      98
+    ],
+    [
+      142,
+      "packet witness",
+      98
+    ],
+    [
+      143,
+      "under handoff",
+      98
+    ],
+    [
+      144,
+      "until packet",
+      98
+    ],
+    [
+      145,
+      "where packet",
+      98
+    ],
+    [
+      146,
+      "while packet",
+      98
+    ],
+    [
+      147,
+      "within handoff",
+      98
+    ],
+    [
+      148,
+      "across coupling",
+      97
+    ],
+    [
+      149,
+      "across handoff",
+      97
+    ],
+    [
+      150,
+      "after coupling",
+      97
+    ],
+    [
+      151,
+      "before coupling",
+      97
+    ],
+    [
+      152,
+      "between coupling",
+      97
+    ],
+    [
+      153,
+      "between handoff",
+      97
+    ],
+    [
+      154,
+      "between layers",
+      97
+    ],
+    [
+      155,
+      "check packet",
+      97
+    ],
+    [
+      156,
+      "compare packet",
+      97
+    ],
+    [
+      157,
+      "hold packet",
+      97
+    ],
+    [
+      158,
+      "measure packet",
+      97
+    ],
+    [
+      159,
+      "narrow packet",
+      97
+    ],
+    [
+      160,
+      "observe packet",
+      97
+    ]
+  ],
+  "triplets": [
+    [
+      1,
+      "across bounded bridge",
+      100
+    ],
+    [
+      2,
+      "across current bridge",
+      100
+    ],
+    [
+      3,
+      "across finite bridge",
+      100
+    ],
+    [
+      4,
+      "across live bridge",
+      100
+    ],
+    [
+      5,
+      "across local bridge",
+      100
+    ],
+    [
+      6,
+      "across open bridge",
+      100
+    ],
+    [
+      7,
+      "before live bridge",
+      100
+    ],
+    [
+      8,
+      "before open bridge",
+      100
+    ],
+    [
+      9,
+      "between current bridge",
+      100
+    ],
+    [
+      10,
+      "between levels handoff",
+      100
+    ],
+    [
+      11,
+      "between live bridge",
+      100
+    ],
+    [
+      12,
+      "between local bridge",
+      100
+    ],
+    [
+      13,
+      "between open bridge",
+      100
+    ],
+    [
+      14,
+      "bridge boundary path",
+      100
+    ],
+    [
+      15,
+      "bridge evidence path",
+      100
+    ],
+    [
+      16,
+      "bridge packet path",
+      100
+    ],
+    [
+      17,
+      "bridge path path",
+      100
+    ],
+    [
+      18,
+      "bridge receipt path",
+      100
+    ],
+    [
+      19,
+      "bridge result path",
+      100
+    ],
+    [
+      20,
+      "bridge scope path",
+      100
+    ],
+    [
+      21,
+      "bridge support path",
+      100
+    ],
+    [
+      22,
+      "bridge surface path",
+      100
+    ],
+    [
+      23,
+      "bridge trace path",
+      100
+    ],
+    [
+      24,
+      "carry across layers",
+      100
+    ],
+    [
+      25,
+      "check bridge receipt",
+      100
+    ],
+    [
+      26,
+      "check interface receipt",
+      100
+    ],
+    [
+      27,
+      "compare bridge receipt",
+      100
+    ],
+    [
+      28,
+      "compare interface receipt",
+      100
+    ],
+    [
+      29,
+      "context prompt bridge",
+      100
+    ],
+    [
+      30,
+      "hold bridge receipt",
+      100
+    ],
+    [
+      31,
+      "hold interface receipt",
+      100
+    ],
+    [
+      32,
+      "hume translates receipts",
+      100
+    ],
+    [
+      33,
+      "interface boundary path",
+      100
+    ],
+    [
+      34,
+      "interface receipt path",
+      100
+    ],
+    [
+      35,
+      "interface surface path",
+      100
+    ],
+    [
+      36,
+      "locally tier authority",
+      100
+    ],
+    [
+      37,
+      "locally tier derived",
+      100
+    ],
+    [
+      38,
+      "locally tier imported",
+      100
+    ],
+    [
+      39,
+      "locally tier preload",
+      100
+    ],
+    [
+      40,
+      "locally tier salience",
+      100
+    ],
+    [
+      41,
+      "locally tier surface",
+      100
+    ],
+    [
+      42,
+      "locally tier task card",
+      100
+    ],
+    [
+      43,
+      "measure bridge receipt",
+      100
+    ],
+    [
+      44,
+      "measure interface receipt",
+      100
+    ],
+    [
+      45,
+      "middle voice summary",
+      100
+    ],
+    [
+      46,
+      "observe bridge receipt",
+      100
+    ],
+    [
+      47,
+      "observe interface receipt",
+      100
+    ],
+    [
+      48,
+      "preserve bridge receipt",
+      100
+    ],
+    [
+      49,
+      "preserve interface receipt",
+      100
+    ],
+    [
+      50,
+      "still authority artifact",
+      100
+    ],
+    [
+      51,
+      "still authority boundary",
+      100
+    ],
+    [
+      52,
+      "still authority preload",
+      100
+    ],
+    [
+      53,
+      "still authority receipt",
+      100
+    ],
+    [
+      54,
+      "still authority salience",
+      100
+    ],
+    [
+      55,
+      "still authority task card",
+      100
+    ],
+    [
+      56,
+      "test bridge receipt",
+      100
+    ],
+    [
+      57,
+      "test interface receipt",
+      100
+    ],
+    [
+      58,
+      "through live bridge",
+      100
+    ],
+    [
+      59,
+      "through open bridge",
+      100
+    ],
+    [
+      60,
+      "under bounded bridge",
+      100
+    ],
+    [
+      61,
+      "under current bridge",
+      100
+    ],
+    [
+      62,
+      "under finite bridge",
+      100
+    ],
+    [
+      63,
+      "under live bridge",
+      100
+    ],
+    [
+      64,
+      "under local bridge",
+      100
+    ],
+    [
+      65,
+      "under open bridge",
+      100
+    ],
+    [
+      66,
+      "verify bridge receipt",
+      100
+    ],
+    [
+      67,
+      "verify interface receipt",
+      100
+    ],
+    [
+      68,
+      "within bounded bridge",
+      100
+    ],
+    [
+      69,
+      "within current bridge",
+      100
+    ],
+    [
+      70,
+      "within finite bridge",
+      100
+    ],
+    [
+      71,
+      "within live bridge",
+      100
+    ],
+    [
+      72,
+      "within local bridge",
+      100
+    ],
+    [
+      73,
+      "within open bridge",
+      100
+    ],
+    [
+      74,
+      "before bounded bridge",
+      99
+    ],
+    [
+      75,
+      "before current bridge",
+      99
+    ],
+    [
+      76,
+      "before finite bridge",
+      99
+    ],
+    [
+      77,
+      "before local bridge",
+      99
+    ],
+    [
+      78,
+      "between bounded bridge",
+      99
+    ],
+    [
+      79,
+      "between finite bridge",
+      99
+    ],
+    [
+      80,
+      "through bounded bridge",
+      99
+    ],
+    [
+      81,
+      "through current bridge",
+      99
+    ],
+    [
+      82,
+      "through finite bridge",
+      99
+    ],
+    [
+      83,
+      "through local bridge",
+      99
+    ],
+    [
+      84,
+      "under bounded packet",
+      98
+    ],
+    [
+      85,
+      "under current packet",
+      98
+    ],
+    [
+      86,
+      "under finite packet",
+      98
+    ],
+    [
+      87,
+      "under live packet",
+      98
+    ],
+    [
+      88,
+      "under local packet",
+      98
+    ],
+    [
+      89,
+      "under open packet",
+      98
+    ],
+    [
+      90,
+      "across bounded packet",
+      97
+    ],
+    [
+      91,
+      "across current packet",
+      97
+    ],
+    [
+      92,
+      "across finite packet",
+      97
+    ],
+    [
+      93,
+      "across handoff between",
+      97
+    ],
+    [
+      94,
+      "across handoff context",
+      97
+    ],
+    [
+      95,
+      "across handoff human",
+      97
+    ],
+    [
+      96,
+      "across handoff layers",
+      97
+    ],
+    [
+      97,
+      "across handoff plain",
+      97
+    ],
+    [
+      98,
+      "across handoff read",
+      97
+    ],
+    [
+      99,
+      "across live packet",
+      97
+    ],
+    [
+      100,
+      "across local packet",
+      97
+    ],
+    [
+      101,
+      "across open packet",
+      97
+    ],
+    [
+      102,
+      "between bounded packet",
+      97
+    ],
+    [
+      103,
+      "between current packet",
+      97
+    ],
+    [
+      104,
+      "between finite packet",
+      97
+    ],
+    [
+      105,
+      "between live packet",
+      97
+    ],
+    [
+      106,
+      "between local packet",
+      97
+    ],
+    [
+      107,
+      "between open packet",
+      97
+    ],
+    [
+      108,
+      "through current packet",
+      97
+    ],
+    [
+      109,
+      "through local packet",
+      97
+    ],
+    [
+      110,
+      "under bridge handoff",
+      97
+    ],
+    [
+      111,
+      "under bridge translation",
+      97
+    ],
+    [
+      112,
+      "within bounded packet",
+      97
+    ],
+    [
+      113,
+      "within current packet",
+      97
+    ],
+    [
+      114,
+      "within finite packet",
+      97
+    ],
+    [
+      115,
+      "within live packet",
+      97
+    ],
+    [
+      116,
+      "within local packet",
+      97
+    ],
+    [
+      117,
+      "within open packet",
+      97
+    ],
+    [
+      118,
+      "within translation handoff",
+      97
+    ],
+    [
+      119,
+      "across handoff prompt",
+      96
+    ],
+    [
+      120,
+      "before bounded packet",
+      96
+    ],
+    [
+      121,
+      "before current packet",
+      96
+    ],
+    [
+      122,
+      "before finite packet",
+      96
+    ],
+    [
+      123,
+      "before live packet",
+      96
+    ],
+    [
+      124,
+      "before local packet",
+      96
+    ],
+    [
+      125,
+      "before open packet",
+      96
+    ],
+    [
+      126,
+      "packet boundary path",
+      96
+    ],
+    [
+      127,
+      "packet evidence path",
+      96
+    ],
+    [
+      128,
+      "packet packet path",
+      96
+    ],
+    [
+      129,
+      "packet path path",
+      96
+    ],
+    [
+      130,
+      "packet receipt path",
+      96
+    ]
+  ]
+}

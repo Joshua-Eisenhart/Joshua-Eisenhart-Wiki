@@ -1,0 +1,21 @@
+{
+  "agent_tool_calls": 20,
+  "claim_limit": "This is an external Claude Code/Opus Task wave receipt, not native Codex subagent execution.",
+  "external_raw_stream_path": "/tmp/codex_claude_bridge/20260428T074339Z-wizard-all-d-20-wave-opus-20260428-7fa6c4a4e30e.stream.jsonl",
+  "external_raw_synthesis_path": "/tmp/wizard_all_d_20_wave_opus_synthesis.md",
+  "files": [
+    "prompt.txt",
+    "receipt.json",
+    "summary.json",
+    "codex_decision.md"
+  ],
+  "model": "claude-opus-4-7",
+  "packet_policy": "Raw Opus stream was not packaged because it contains historical pre-repair packet text and should not become boot-visible vocabulary.",
+  "rate_limit_events": 4,
+  "returncode": 0,
+  "role": "advisory only; Codex accepted/rejected findings before packet writes",
+  "status": "advisory_external_opus_completed",
+  "task_completed": 20,
+  "task_started": 20,
+  "total_cost_usd": 10.25337075
+}

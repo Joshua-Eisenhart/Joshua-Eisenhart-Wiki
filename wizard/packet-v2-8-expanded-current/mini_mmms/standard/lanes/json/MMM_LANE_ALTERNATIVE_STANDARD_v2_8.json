@@ -1,0 +1,1818 @@
+{
+  "words": [
+    [
+      1,
+      "actual",
+      100
+    ],
+    [
+      2,
+      "alternate",
+      100
+    ],
+    [
+      3,
+      "alternative",
+      100
+    ],
+    [
+      4,
+      "apart",
+      100
+    ],
+    [
+      5,
+      "assumption",
+      100
+    ],
+    [
+      6,
+      "backup",
+      100
+    ],
+    [
+      7,
+      "benefit",
+      100
+    ],
+    [
+      8,
+      "better if",
+      100
+    ],
+    [
+      9,
+      "branch",
+      100
+    ],
+    [
+      10,
+      "careful",
+      100
+    ],
+    [
+      11,
+      "case",
+      100
+    ],
+    [
+      12,
+      "checked",
+      100
+    ],
+    [
+      13,
+      "compare",
+      100
+    ],
+    [
+      14,
+      "compared",
+      100
+    ],
+    [
+      15,
+      "comparison",
+      100
+    ],
+    [
+      16,
+      "concrete",
+      100
+    ],
+    [
+      17,
+      "contrast",
+      100
+    ],
+    [
+      18,
+      "cost",
+      100
+    ],
+    [
+      19,
+      "difference",
+      100
+    ],
+    [
+      20,
+      "different",
+      100
+    ],
+    [
+      21,
+      "different assumption",
+      100
+    ],
+    [
+      22,
+      "distinct",
+      100
+    ],
+    [
+      23,
+      "divergent",
+      100
+    ],
+    [
+      24,
+      "exchange",
+      100
+    ],
+    [
+      25,
+      "fallback",
+      100
+    ],
+    [
+      26,
+      "first",
+      100
+    ],
+    [
+      27,
+      "fork",
+      100
+    ],
+    [
+      28,
+      "found",
+      100
+    ],
+    [
+      29,
+      "held",
+      100
+    ],
+    [
+      30,
+      "honest",
+      100
+    ],
+    [
+      31,
+      "inferred",
+      100
+    ],
+    [
+      32,
+      "known",
+      100
+    ],
+    [
+      33,
+      "later",
+      100
+    ],
+    [
+      34,
+      "live",
+      100
+    ],
+    [
+      35,
+      "narrow",
+      100
+    ],
+    [
+      36,
+      "next",
+      100
+    ],
+    [
+      37,
+      "observed",
+      100
+    ],
+    [
+      38,
+      "option",
+      100
+    ],
+    [
+      39,
+      "other",
+      100
+    ],
+    [
+      40,
+      "parallel",
+      100
+    ],
+    [
+      41,
+      "path",
+      100
+    ],
+    [
+      42,
+      "plain",
+      100
+    ],
+    [
+      43,
+      "prior",
+      100
+    ],
+    [
+      44,
+      "returned",
+      100
+    ],
+    [
+      45,
+      "route",
+      100
+    ],
+    [
+      46,
+      "second",
+      100
+    ],
+    [
+      47,
+      "second path",
+      100
+    ],
+    [
+      48,
+      "separate",
+      100
+    ],
+    [
+      49,
+      "side",
+      100
+    ],
+    [
+      50,
+      "stale",
+      100
+    ],
+    [
+      51,
+      "tradeoff",
+      100
+    ],
+    [
+      52,
+      "unknown",
+      100
+    ],
+    [
+      53,
+      "variant",
+      100
+    ],
+    [
+      54,
+      "viable",
+      100
+    ],
+    [
+      55,
+      "warm",
+      100
+    ],
+    [
+      56,
+      "worse if",
+      100
+    ],
+    [
+      57,
+      "across",
+      99
+    ],
+    [
+      58,
+      "after",
+      99
+    ],
+    [
+      59,
+      "against",
+      99
+    ],
+    [
+      60,
+      "along",
+      99
+    ],
+    [
+      61,
+      "among",
+      99
+    ],
+    [
+      62,
+      "around",
+      99
+    ],
+    [
+      63,
+      "before",
+      99
+    ],
+    [
+      64,
+      "beside",
+      99
+    ],
+    [
+      65,
+      "between",
+      99
+    ],
+    [
+      66,
+      "from",
+      99
+    ],
+    [
+      67,
+      "inside",
+      99
+    ],
+    [
+      68,
+      "near",
+      99
+    ],
+    [
+      69,
+      "not",
+      99
+    ],
+    [
+      70,
+      "only",
+      99
+    ],
+    [
+      71,
+      "outside",
+      99
+    ],
+    [
+      72,
+      "over",
+      99
+    ]
+  ],
+  "couplings": [
+    [
+      1,
+      "across alternative",
+      100
+    ],
+    [
+      2,
+      "across fork",
+      100
+    ],
+    [
+      3,
+      "across tradeoff",
+      100
+    ],
+    [
+      4,
+      "after alternative",
+      100
+    ],
+    [
+      5,
+      "after tradeoff",
+      100
+    ],
+    [
+      6,
+      "alternative boundary",
+      100
+    ],
+    [
+      7,
+      "alternative candidate",
+      100
+    ],
+    [
+      8,
+      "alternative constraint",
+      100
+    ],
+    [
+      9,
+      "alternative evidence",
+      100
+    ],
+    [
+      10,
+      "alternative option",
+      100
+    ],
+    [
+      11,
+      "alternative packet",
+      100
+    ],
+    [
+      12,
+      "alternative path",
+      100
+    ],
+    [
+      13,
+      "alternative probe",
+      100
+    ],
+    [
+      14,
+      "alternative receipt",
+      100
+    ],
+    [
+      15,
+      "alternative result",
+      100
+    ],
+    [
+      16,
+      "alternative scope",
+      100
+    ],
+    [
+      17,
+      "alternative status",
+      100
+    ],
+    [
+      18,
+      "alternative support",
+      100
+    ],
+    [
+      19,
+      "alternative surface",
+      100
+    ],
+    [
+      20,
+      "alternative trace",
+      100
+    ],
+    [
+      21,
+      "alternative tradeoff",
+      100
+    ],
+    [
+      22,
+      "alternative witness",
+      100
+    ],
+    [
+      23,
+      "assumption shift",
+      100
+    ],
+    [
+      24,
+      "before alternative",
+      100
+    ],
+    [
+      25,
+      "before tradeoff",
+      100
+    ],
+    [
+      26,
+      "between alternative",
+      100
+    ],
+    [
+      27,
+      "between fork",
+      100
+    ],
+    [
+      28,
+      "between tradeoff",
+      100
+    ],
+    [
+      29,
+      "branch contrast",
+      100
+    ],
+    [
+      30,
+      "check alternative",
+      100
+    ],
+    [
+      31,
+      "check fork",
+      100
+    ],
+    [
+      32,
+      "check tradeoff",
+      100
+    ],
+    [
+      33,
+      "compare alternative",
+      100
+    ],
+    [
+      34,
+      "compare fork",
+      100
+    ],
+    [
+      35,
+      "compare route",
+      100
+    ],
+    [
+      36,
+      "compare tradeoff",
+      100
+    ],
+    [
+      37,
+      "compare viable",
+      100
+    ],
+    [
+      38,
+      "comparison route",
+      100
+    ],
+    [
+      39,
+      "cost benefit",
+      100
+    ],
+    [
+      40,
+      "different assumption",
+      100
+    ],
+    [
+      41,
+      "different path",
+      100
+    ],
+    [
+      42,
+      "different tradeoff",
+      100
+    ],
+    [
+      43,
+      "fallback option",
+      100
+    ],
+    [
+      44,
+      "fork boundary",
+      100
+    ],
+    [
+      45,
+      "fork candidate",
+      100
+    ],
+    [
+      46,
+      "fork constraint",
+      100
+    ],
+    [
+      47,
+      "fork evidence",
+      100
+    ],
+    [
+      48,
+      "fork option",
+      100
+    ],
+    [
+      49,
+      "fork packet",
+      100
+    ],
+    [
+      50,
+      "fork path",
+      100
+    ],
+    [
+      51,
+      "fork probe",
+      100
+    ],
+    [
+      52,
+      "fork receipt",
+      100
+    ],
+    [
+      53,
+      "fork result",
+      100
+    ],
+    [
+      54,
+      "fork scope",
+      100
+    ],
+    [
+      55,
+      "fork status",
+      100
+    ],
+    [
+      56,
+      "fork support",
+      100
+    ],
+    [
+      57,
+      "fork surface",
+      100
+    ],
+    [
+      58,
+      "fork trace",
+      100
+    ],
+    [
+      59,
+      "fork tradeoff",
+      100
+    ],
+    [
+      60,
+      "fork witness",
+      100
+    ],
+    [
+      61,
+      "hold alternative",
+      100
+    ],
+    [
+      62,
+      "hold fork",
+      100
+    ],
+    [
+      63,
+      "hold tradeoff",
+      100
+    ],
+    [
+      64,
+      "measure alternative",
+      100
+    ],
+    [
+      65,
+      "measure fork",
+      100
+    ],
+    [
+      66,
+      "measure tradeoff",
+      100
+    ],
+    [
+      67,
+      "narrow alternative",
+      100
+    ],
+    [
+      68,
+      "narrow fork",
+      100
+    ],
+    [
+      69,
+      "narrow tradeoff",
+      100
+    ],
+    [
+      70,
+      "observe alternative",
+      100
+    ],
+    [
+      71,
+      "observe fork",
+      100
+    ],
+    [
+      72,
+      "observe tradeoff",
+      100
+    ],
+    [
+      73,
+      "option",
+      100
+    ],
+    [
+      74,
+      "other way",
+      100
+    ],
+    [
+      75,
+      "parallel option",
+      100
+    ],
+    [
+      76,
+      "preserve alternative",
+      100
+    ],
+    [
+      77,
+      "preserve fork",
+      100
+    ],
+    [
+      78,
+      "preserve tradeoff",
+      100
+    ],
+    [
+      79,
+      "real fork",
+      100
+    ],
+    [
+      80,
+      "route compare",
+      100
+    ],
+    [
+      81,
+      "route comparison",
+      100
+    ],
+    [
+      82,
+      "route option",
+      100
+    ],
+    [
+      83,
+      "route tradeoff",
+      100
+    ],
+    [
+      84,
+      "second route",
+      100
+    ],
+    [
+      85,
+      "split alternative",
+      100
+    ],
+    [
+      86,
+      "split fork",
+      100
+    ],
+    [
+      87,
+      "split tradeoff",
+      100
+    ],
+    [
+      88,
+      "test alternative",
+      100
+    ],
+    [
+      89,
+      "test fork",
+      100
+    ],
+    [
+      90,
+      "test tradeoff",
+      100
+    ],
+    [
+      91,
+      "through alternative",
+      100
+    ],
+    [
+      92,
+      "through tradeoff",
+      100
+    ],
+    [
+      93,
+      "tradeoff",
+      100
+    ],
+    [
+      94,
+      "tradeoff boundary",
+      100
+    ],
+    [
+      95,
+      "tradeoff candidate",
+      100
+    ],
+    [
+      96,
+      "tradeoff compare",
+      100
+    ],
+    [
+      97,
+      "tradeoff constraint",
+      100
+    ],
+    [
+      98,
+      "tradeoff evidence",
+      100
+    ],
+    [
+      99,
+      "tradeoff option",
+      100
+    ],
+    [
+      100,
+      "tradeoff packet",
+      100
+    ],
+    [
+      101,
+      "tradeoff path",
+      100
+    ],
+    [
+      102,
+      "tradeoff probe",
+      100
+    ],
+    [
+      103,
+      "tradeoff receipt",
+      100
+    ],
+    [
+      104,
+      "tradeoff result",
+      100
+    ],
+    [
+      105,
+      "tradeoff scope",
+      100
+    ],
+    [
+      106,
+      "tradeoff status",
+      100
+    ],
+    [
+      107,
+      "tradeoff support",
+      100
+    ],
+    [
+      108,
+      "tradeoff surface",
+      100
+    ],
+    [
+      109,
+      "tradeoff trace",
+      100
+    ],
+    [
+      110,
+      "tradeoff witness",
+      100
+    ],
+    [
+      111,
+      "under alternative",
+      100
+    ],
+    [
+      112,
+      "under fork",
+      100
+    ],
+    [
+      113,
+      "under tradeoff",
+      100
+    ],
+    [
+      114,
+      "until alternative",
+      100
+    ],
+    [
+      115,
+      "until tradeoff",
+      100
+    ],
+    [
+      116,
+      "verify alternative",
+      100
+    ],
+    [
+      117,
+      "verify fork",
+      100
+    ],
+    [
+      118,
+      "verify tradeoff",
+      100
+    ],
+    [
+      119,
+      "viable alternative",
+      100
+    ],
+    [
+      120,
+      "where alternative",
+      100
+    ],
+    [
+      121,
+      "where tradeoff",
+      100
+    ],
+    [
+      122,
+      "while alternative",
+      100
+    ],
+    [
+      123,
+      "while tradeoff",
+      100
+    ],
+    [
+      124,
+      "within alternative",
+      100
+    ],
+    [
+      125,
+      "within fork",
+      100
+    ],
+    [
+      126,
+      "within tradeoff",
+      100
+    ],
+    [
+      127,
+      "after fork",
+      99
+    ],
+    [
+      128,
+      "before fork",
+      99
+    ],
+    [
+      129,
+      "through fork",
+      99
+    ],
+    [
+      130,
+      "until fork",
+      99
+    ],
+    [
+      131,
+      "where fork",
+      99
+    ],
+    [
+      132,
+      "while fork",
+      99
+    ],
+    [
+      133,
+      "across viable",
+      98
+    ],
+    [
+      134,
+      "between viable",
+      98
+    ],
+    [
+      135,
+      "through viable",
+      98
+    ],
+    [
+      136,
+      "under viable",
+      98
+    ],
+    [
+      137,
+      "within viable",
+      98
+    ],
+    [
+      138,
+      "after viable",
+      97
+    ],
+    [
+      139,
+      "before viable",
+      97
+    ],
+    [
+      140,
+      "check viable",
+      97
+    ],
+    [
+      141,
+      "measure viable",
+      97
+    ],
+    [
+      142,
+      "observe viable",
+      97
+    ],
+    [
+      143,
+      "test viable",
+      97
+    ],
+    [
+      144,
+      "until viable",
+      97
+    ],
+    [
+      145,
+      "viable boundary",
+      97
+    ],
+    [
+      146,
+      "viable candidate",
+      97
+    ],
+    [
+      147,
+      "viable constraint",
+      97
+    ],
+    [
+      148,
+      "viable evidence",
+      97
+    ],
+    [
+      149,
+      "viable packet",
+      97
+    ],
+    [
+      150,
+      "viable path",
+      97
+    ],
+    [
+      151,
+      "viable probe",
+      97
+    ],
+    [
+      152,
+      "viable receipt",
+      97
+    ],
+    [
+      153,
+      "viable result",
+      97
+    ],
+    [
+      154,
+      "viable scope",
+      97
+    ],
+    [
+      155,
+      "viable status",
+      97
+    ],
+    [
+      156,
+      "viable support",
+      97
+    ],
+    [
+      157,
+      "viable surface",
+      97
+    ],
+    [
+      158,
+      "viable trace",
+      97
+    ],
+    [
+      159,
+      "viable witness",
+      97
+    ],
+    [
+      160,
+      "where viable",
+      97
+    ]
+  ],
+  "triplets": [
+    [
+      1,
+      "across bounded alternative",
+      100
+    ],
+    [
+      2,
+      "across current alternative",
+      100
+    ],
+    [
+      3,
+      "across finite alternative",
+      100
+    ],
+    [
+      4,
+      "across live alternative",
+      100
+    ],
+    [
+      5,
+      "across live tradeoff",
+      100
+    ],
+    [
+      6,
+      "across local alternative",
+      100
+    ],
+    [
+      7,
+      "across open alternative",
+      100
+    ],
+    [
+      8,
+      "across open tradeoff",
+      100
+    ],
+    [
+      9,
+      "alternative path viable",
+      100
+    ],
+    [
+      10,
+      "between bounded alternative",
+      100
+    ],
+    [
+      11,
+      "between current alternative",
+      100
+    ],
+    [
+      12,
+      "between finite alternative",
+      100
+    ],
+    [
+      13,
+      "between live alternative",
+      100
+    ],
+    [
+      14,
+      "between local alternative",
+      100
+    ],
+    [
+      15,
+      "between open alternative",
+      100
+    ],
+    [
+      16,
+      "branch comparison result",
+      100
+    ],
+    [
+      17,
+      "check tradeoff receipt",
+      100
+    ],
+    [
+      18,
+      "compare alternative receipt",
+      100
+    ],
+    [
+      19,
+      "compare fork receipt",
+      100
+    ],
+    [
+      20,
+      "compare tradeoff receipt",
+      100
+    ],
+    [
+      21,
+      "compare viable receipt",
+      100
+    ],
+    [
+      22,
+      "cost benefit tradeoff",
+      100
+    ],
+    [
+      23,
+      "different assumption path",
+      100
+    ],
+    [
+      24,
+      "fallback option contrast",
+      100
+    ],
+    [
+      25,
+      "hold tradeoff receipt",
+      100
+    ],
+    [
+      26,
+      "measure tradeoff receipt",
+      100
+    ],
+    [
+      27,
+      "observe tradeoff receipt",
+      100
+    ],
+    [
+      28,
+      "parallel route check",
+      100
+    ],
+    [
+      29,
+      "real fork tradeoff",
+      100
+    ],
+    [
+      30,
+      "second route comparison",
+      100
+    ],
+    [
+      31,
+      "test tradeoff receipt",
+      100
+    ],
+    [
+      32,
+      "through current alternative",
+      100
+    ],
+    [
+      33,
+      "tradeoff boundary path",
+      100
+    ],
+    [
+      34,
+      "tradeoff evidence path",
+      100
+    ],
+    [
+      35,
+      "tradeoff packet path",
+      100
+    ],
+    [
+      36,
+      "tradeoff path path",
+      100
+    ],
+    [
+      37,
+      "tradeoff receipt path",
+      100
+    ],
+    [
+      38,
+      "tradeoff result path",
+      100
+    ],
+    [
+      39,
+      "tradeoff scope path",
+      100
+    ],
+    [
+      40,
+      "tradeoff support path",
+      100
+    ],
+    [
+      41,
+      "tradeoff surface path",
+      100
+    ],
+    [
+      42,
+      "tradeoff trace path",
+      100
+    ],
+    [
+      43,
+      "under bounded alternative",
+      100
+    ],
+    [
+      44,
+      "under current alternative",
+      100
+    ],
+    [
+      45,
+      "under finite alternative",
+      100
+    ],
+    [
+      46,
+      "under live alternative",
+      100
+    ],
+    [
+      47,
+      "under live tradeoff",
+      100
+    ],
+    [
+      48,
+      "under local alternative",
+      100
+    ],
+    [
+      49,
+      "under open alternative",
+      100
+    ],
+    [
+      50,
+      "under open tradeoff",
+      100
+    ],
+    [
+      51,
+      "verify tradeoff receipt",
+      100
+    ],
+    [
+      52,
+      "within bounded alternative",
+      100
+    ],
+    [
+      53,
+      "within current alternative",
+      100
+    ],
+    [
+      54,
+      "within finite alternative",
+      100
+    ],
+    [
+      55,
+      "within live alternative",
+      100
+    ],
+    [
+      56,
+      "within live tradeoff",
+      100
+    ],
+    [
+      57,
+      "within local alternative",
+      100
+    ],
+    [
+      58,
+      "within open alternative",
+      100
+    ],
+    [
+      59,
+      "within open tradeoff",
+      100
+    ],
+    [
+      60,
+      "alternative boundary path",
+      99
+    ],
+    [
+      61,
+      "alternative evidence path",
+      99
+    ],
+    [
+      62,
+      "alternative packet path",
+      99
+    ],
+    [
+      63,
+      "alternative path path",
+      99
+    ],
+    [
+      64,
+      "alternative receipt path",
+      99
+    ],
+    [
+      65,
+      "alternative result path",
+      99
+    ],
+    [
+      66,
+      "alternative scope path",
+      99
+    ],
+    [
+      67,
+      "alternative support path",
+      99
+    ],
+    [
+      68,
+      "alternative surface path",
+      99
+    ],
+    [
+      69,
+      "alternative trace path",
+      99
+    ],
+    [
+      70,
+      "before bounded alternative",
+      99
+    ],
+    [
+      71,
+      "before current alternative",
+      99
+    ],
+    [
+      72,
+      "before finite alternative",
+      99
+    ],
+    [
+      73,
+      "before live alternative",
+      99
+    ],
+    [
+      74,
+      "before local alternative",
+      99
+    ],
+    [
+      75,
+      "before open alternative",
+      99
+    ],
+    [
+      76,
+      "check alternative receipt",
+      99
+    ],
+    [
+      77,
+      "measure alternative receipt",
+      99
+    ],
+    [
+      78,
+      "observe alternative receipt",
+      99
+    ],
+    [
+      79,
+      "through bounded alternative",
+      99
+    ],
+    [
+      80,
+      "through finite alternative",
+      99
+    ],
+    [
+      81,
+      "through live alternative",
+      99
+    ],
+    [
+      82,
+      "through local alternative",
+      99
+    ],
+    [
+      83,
+      "through open alternative",
+      99
+    ],
+    [
+      84,
+      "under alternative tradeoff",
+      99
+    ],
+    [
+      85,
+      "under route tradeoff",
+      99
+    ],
+    [
+      86,
+      "across bounded fork",
+      98
+    ],
+    [
+      87,
+      "across current fork",
+      98
+    ],
+    [
+      88,
+      "across finite fork",
+      98
+    ],
+    [
+      89,
+      "across live fork",
+      98
+    ],
+    [
+      90,
+      "across local fork",
+      98
+    ],
+    [
+      91,
+      "across open fork",
+      98
+    ],
+    [
+      92,
+      "between bounded fork",
+      98
+    ],
+    [
+      93,
+      "between current fork",
+      98
+    ],
+    [
+      94,
+      "between local fork",
+      98
+    ],
+    [
+      95,
+      "hold alternative receipt",
+      98
+    ],
+    [
+      96,
+      "preserve alternative receipt",
+      98
+    ],
+    [
+      97,
+      "test alternative receipt",
+      98
+    ],
+    [
+      98,
+      "under bounded fork",
+      98
+    ],
+    [
+      99,
+      "under current fork",
+      98
+    ],
+    [
+      100,
+      "under finite fork",
+      98
+    ],
+    [
+      101,
+      "under fork tradeoff",
+      98
+    ],
+    [
+      102,
+      "under live fork",
+      98
+    ],
+    [
+      103,
+      "under local fork",
+      98
+    ],
+    [
+      104,
+      "under open fork",
+      98
+    ],
+    [
+      105,
+      "under option compare",
+      98
+    ],
+    [
+      106,
+      "under tradeoff option",
+      98
+    ],
+    [
+      107,
+      "verify alternative receipt",
+      98
+    ],
+    [
+      108,
+      "within bounded fork",
+      98
+    ],
+    [
+      109,
+      "within current fork",
+      98
+    ],
+    [
+      110,
+      "within finite fork",
+      98
+    ],
+    [
+      111,
+      "within live fork",
+      98
+    ],
+    [
+      112,
+      "within local fork",
+      98
+    ],
+    [
+      113,
+      "within open fork",
+      98
+    ],
+    [
+      114,
+      "before bounded fork",
+      97
+    ],
+    [
+      115,
+      "before current fork",
+      97
+    ],
+    [
+      116,
+      "before finite fork",
+      97
+    ],
+    [
+      117,
+      "before live fork",
+      97
+    ],
+    [
+      118,
+      "before local fork",
+      97
+    ],
+    [
+      119,
+      "before open fork",
+      97
+    ],
+    [
+      120,
+      "between finite fork",
+      97
+    ],
+    [
+      121,
+      "between live fork",
+      97
+    ],
+    [
+      122,
+      "between open fork",
+      97
+    ],
+    [
+      123,
+      "fork boundary path",
+      97
+    ],
+    [
+      124,
+      "fork evidence path",
+      97
+    ],
+    [
+      125,
+      "fork packet path",
+      97
+    ],
+    [
+      126,
+      "fork path path",
+      97
+    ],
+    [
+      127,
+      "fork receipt path",
+      97
+    ],
+    [
+      128,
+      "fork result path",
+      97
+    ],
+    [
+      129,
+      "fork scope path",
+      97
+    ],
+    [
+      130,
+      "fork support path",
+      97
+    ]
+  ]
+}

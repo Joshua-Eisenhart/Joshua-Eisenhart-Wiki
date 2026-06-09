@@ -1,0 +1,134 @@
+# MMM_VOICE_SYNTHESIS_ULTRA_v2_8
+
+## words
+- mini-MMM :: 100
+- mini MMM :: 100
+- voice shape :: 100
+- voice shaping :: 100
+- shape voice :: 100
+- shaped voice :: 100
+- voice contour :: 100
+- voice signature :: 100
+- voice localizer :: 100
+- local voice :: 100
+- aligned nouns :: 100
+- correlated thinkers :: 100
+- thinker alignment :: 100
+- noun alignment :: 100
+
+- controller act :: 100
+- after receipts :: 100
+- preserved difference :: 100
+- surviving split :: 100
+- compose :: 100
+- carry :: 100
+- not merged :: 100
+- not collapsed :: 100
+- excluded :: 100
+- bounded exclusion :: 100
+- contradiction :: 100
+- live remainder :: 100
+- tension :: 100
+- held apart :: 100
+- unresolved :: 100
+- no consensus :: 100
+- synthesis :: 100
+- preserve :: 100
+- composition :: 100
+- distinct :: 100
+- receipt :: 100
+- nonmerge :: 100
+- interface :: 100
+- alignment :: 100
+- carryforward :: 100
+- separate :: 100
+- hold :: 100
+- compare :: 100
+
+## couplings
+
+- surviving split :: 100
+- controller act :: 100
+- compose :: 100
+- hold tension :: 100
+- preserved difference :: 100
+- preserve receipt :: 100
+- synthesis compose :: 100
+- compose composition :: 100
+- compose receipt :: 100
+- compose distinct :: 100
+- compose preserve :: 100
+- compose carry :: 100
+- compose tension :: 100
+- distinct receipt :: 100
+- preserve distinct :: 100
+- tension receipt :: 100
+- preserve tension :: 100
+- preserve evidence :: 100
+- preserve trace :: 100
+- preserve result :: 100
+- preserve scope :: 100
+- preserve status :: 100
+- preserve candidate :: 100
+- preserve witness :: 100
+- preserve constraint :: 100
+- check preserve :: 100
+- compare preserve :: 100
+- observe preserve :: 100
+- measure preserve :: 100
+- test preserve :: 100
+- verify preserve :: 100
+- preserve preserve :: 100
+- split preserve :: 100
+- narrow preserve :: 100
+- where preserve :: 100
+- while preserve :: 100
+- live remainder :: 100
+- distinct receipts :: 100
+- held tension :: 100
+- non merge :: 100
+- preserved split :: 100
+- surviving difference :: 100
+- separate receipts :: 100
+- composition step :: 100
+- controller synthesis :: 100
+- receipt comparison :: 100
+- carry forward :: 100
+- without flattening :: 100
+
+## triplets
+
+- preserve distinct receipt :: 100
+- under synthesis compose :: 100
+- under compose receipt :: 100
+- within synthesis compose :: 100
+- within compose receipt :: 100
+- preserve receipt path :: 100
+- check preserve receipt :: 100
+- compare preserve receipt :: 100
+- observe preserve receipt :: 100
+- measure preserve receipt :: 100
+- test preserve receipt :: 100
+- verify preserve receipt :: 100
+- hold preserve receipt :: 100
+- preserve preserve receipt :: 100
+- distinct receipts held :: 100
+- preserve tension nonmerge :: 100
+- compare receipts compose :: 100
+- surviving split carried :: 100
+- unresolved contradiction held :: 100
+- aggregate without flattening :: 100
+- receipt interface summary :: 100
+- separate branches retained :: 100
+- merge refusal boundary :: 100
+- composition after receipts :: 100
+- across synthesis compose :: 98
+- across compose receipt :: 98
+- between synthesis compose :: 97
+- between compose receipt :: 97
+- through synthesis compose :: 95
+- under compose composition :: 91
+- under compose distinct :: 91
+- under compose preserve :: 91
+- within compose composition :: 89
+- within compose distinct :: 88

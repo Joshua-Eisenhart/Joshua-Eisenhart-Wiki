@@ -1,0 +1,366 @@
+Lane-local behavior probe body for Systems. Candidate root: /Users/joshuaeisenhart/Desktop/mmm_wizard_complete_system_packet_v2_8_expanded_candidate. This record was normalized from collected probe output only. The harness did not spawn agents, infer hidden execution, or add a claim beyond the supplied lane record. Review this lane as receipt evidence: checked material, conclusion, remaining open question, and cited evidence must remain tied to the captured output. The body exists so the adapter can verify that every completed lane has a lane-local language surface rather than borrowing global prose. Future readers should treat the text as a behavior probe normalization artifact, not as independent proof of correctness. 
+
+Collected output:
+# MMM_VOICE_SYSTEMS_COMPACT_v2_8
+
+## words
+- mini-MMM :: 100
+- mini MMM :: 100
+- voice shape :: 100
+- voice shaping :: 100
+- shape voice :: 100
+- shaped voice :: 100
+- voice contour :: 100
+- voice signature :: 100
+- voice localizer :: 100
+- local voice :: 100
+- aligned nouns :: 100
+- correlated thinkers :: 100
+- thinker alignment :: 100
+- noun alignment :: 100
+
+- feedback :: 100
+- incentive :: 100
+- interaction :: 100
+- propagation :: 100
+- feedback loop :: 100
+- reinforcing loop :: 100
+- balancing loop :: 100
+- dependency :: 100
+- coupling :: 100
+- structure :: 100
+- loop :: 100
+- system structure :: 100
+- environment :: 100
+- emergence :: 100
+- selection :: 100
+- network :: 100
+- node :: 100
+- edge :: 100
+- balancing :: 100
+- reinforcing :: 100
+- second-order :: 100
+- emergent :: 100
+- transition :: 100
+- behavior :: 100
+- state :: 100
+- drift :: 100
+- boundary :: 100
+- constraint :: 100
+- system :: 100
+- subsystem :: 100
+- effect :: 100
+- reward :: 100
+- stock :: 100
+- delay :: 100
+- amplifying :: 100
+- dynamics :: 100
+- attractor :: 100
+- basin :: 100
+- homeostasis :: 100
+- perverse :: 100
+- leverage point :: 100
+- information flow :: 100
+- self organization :: 100
+- mental model :: 100
+- stocks and flows :: 100
+- dynamic :: 100
+- stabilizing :: 100
+- second :: 100
+- order :: 100
+- flow :: 100
+- side :: 100
+- actual :: 100
+- concrete :: 100
+- distinct :: 100
+- live :: 100
+- inferred :: 100
+- plain :: 100
+- known :: 100
+- unknown :: 100
+- narrow :: 100
+- stale :: 100
+- observed :: 100
+- warm :: 100
+- externality :: 100
+- goal :: 100
+- information :: 100
+- leverage :: 100
+- paradigm :: 100
+- parameter :: 100
+- power :: 100
+- rule :: 100
+- secondorder :: 100
+- selforganization :: 100
+- small :: 79
+
+## couplings
+
+- loop boundary :: 100
+- loop constraint :: 100
+- feedback boundary :: 100
+- feedback constraint :: 100
+- incentive boundary :: 100
+- incentive constraint :: 100
+- structure boundary :: 100
+- structure constraint :: 100
+- interaction boundary :: 100
+- interaction constraint :: 100
+- propagation boundary :: 100
+- propagation constraint :: 100
+- coupling boundary :: 100
+- coupling constraint :: 100
+- feedback loop :: 100
+- reinforcing loop :: 100
+- balancing loop :: 100
+- loop :: 100
+- loop evidence :: 100
+- loop support :: 100
+- loop path :: 100
+- loop surface :: 100
+- loop packet :: 100
+- loop receipt :: 100
+- loop trace :: 100
+- loop result :: 100
+- loop scope :: 100
+- loop status :: 100
+- loop candidate :: 100
+- loop witness :: 100
+- feedback :: 100
+- coupling :: 100
+- propagation :: 100
+- incentive :: 100
+- structure :: 100
+- dependency :: 100
+- interaction :: 100
+- loop probe :: 100
+- check loop :: 100
+- compare loop :: 100
+- observe loop :: 100
+- measure loop :: 100
+- test loop :: 100
+- verify loop :: 100
+- hold loop :: 100
+- preserve loop :: 100
+- split loop :: 100
+- narrow loop :: 100
+- under loop :: 100
+- within loop :: 100
+- across loop :: 100
+- between loop :: 100
+- through loop :: 100
+- before loop :: 100
+- after loop :: 100
+- until loop :: 100
+- where loop :: 100
+- while loop :: 100
+- feedback evidence :: 100
+- feedback support :: 100
+- feedback path :: 100
+- feedback surface :: 100
+- feedback packet :: 100
+- feedback receipt :: 100
+- feedback trace :: 100
+- feedback result :: 100
+- feedback scope :: 100
+- feedback status :: 100
+- feedback candidate :: 100
+- feedback witness :: 100
+- feedback probe :: 100
+- check feedback :: 100
+- compare feedback :: 100
+- observe feedback :: 100
+- measure feedback :: 100
+- test feedback :: 100
+- verify feedback :: 100
+- hold feedback :: 100
+- preserve feedback :: 100
+- split feedback :: 100
+- narrow feedback :: 100
+- under feedback :: 100
+- within feedback :: 100
+- across feedback :: 100
+- between feedback :: 100
+- through feedback :: 100
+- before feedback :: 100
+- after feedback :: 100
+- until feedback :: 100
+- where feedback :: 100
+- while feedback :: 100
+- incentive evidence :: 100
+- incentive support :: 100
+- incentive path :: 100
+- incentive surface :: 100
+- incentive packet :: 100
+- incentive receipt :: 100
+- incentive trace :: 100
+- incentive result :: 100
+- incentive scope :: 100
+- incentive status :: 100
+- incentive candidate :: 100
+- incentive witness :: 100
+- incentive probe :: 100
+- check incentive :: 100
+- compare incentive :: 100
+- observe incentive :: 100
+- measure incentive :: 100
+- test incentive :: 100
+- under incentive :: 100
+- within incentive :: 100
+- across incentive :: 100
+- between incentive :: 100
+- through incentive :: 100
+- verify incentive :: 100
+- hold incentive :: 100
+- preserve incentive :: 100
+- split incentive :: 100
+- narrow incentive :: 100
+- before incentive :: 100
+- after incentive :: 100
+- until incentive :: 100
+- where incentive :: 100
+- while incentive :: 100
+- structure evidence :: 100
+- structure support :: 100
+- structure path :: 100
+- structure surface :: 100
+- structure packet :: 100
+- structure receipt :: 100
+- structure trace :: 100
+- structure result :: 100
+- structure scope :: 100
+- structure status :: 100
+- structure candidate :: 100
+- structure witness :: 100
+- structure probe :: 100
+- check structure :: 100
+- compare structure :: 100
+- observe structure :: 100
+- measure structure :: 100
+- test structure :: 100
+- verify structure :: 100
+- hold structure :: 100
+- preserve structure :: 100
+- split structure :: 100
+- narrow structure :: 100
+- under structure :: 100
+- within structure :: 100
+- across structure :: 100
+
+## triplets
+
+- loop boundary path :: 100
+- feedback boundary path :: 100
+- incentive boundary path :: 100
+- structure boundary path :: 100
+- under environment loop :: 100
+- under boundary feedback :: 100
+- under boundary loop :: 100
+- under boundary coupling :: 100
+- under boundary incentive :: 100
+- under feedback loop :: 100
+- under loop coupling :: 100
+- under loop incentive :: 100
+- under loop emergence :: 100
+- loop evidence path :: 100
+- loop support path :: 100
+- loop path path :: 100
+- loop surface path :: 100
+- under open loop :: 100
+- loop packet path :: 100
+- within environment loop :: 100
+- within boundary feedback :: 100
+- within boundary loop :: 100
+- within boundary coupling :: 100
+- within boundary incentive :: 100
+- within feedback loop :: 100
+- within loop coupling :: 100
+- within loop incentive :: 100
+- within loop emergence :: 100
+- under live loop :: 100
+- loop receipt path :: 100
+- loop trace path :: 100
+- loop result path :: 100
+- loop scope path :: 100
+- within open loop :: 100
+- check loop receipt :: 100
+- within live loop :: 100
+- compare loop receipt :: 100
+- observe loop receipt :: 100
+- measure loop receipt :: 100
+- across open loop :: 100
+- across live loop :: 100
+- between open loop :: 100
+- between live loop :: 100
+- test loop receipt :: 100
+- verify loop receipt :: 100
+- hold loop receipt :: 100
+- preserve loop receipt :: 100
+- through open loop :: 100
+- through live loop :: 100
+- before open loop :: 100
+- before live loop :: 100
+- coupling propagation path :: 100
+- emergent behavior pattern :: 100
+- goal rule incentive :: 100
+- incentive selection pressure :: 100
+- information flow access :: 100
+- leverage point intervention :: 100
+- loop delay response :: 100
+- negative feedback correction :: 100
+- parameter stock flow :: 100
+- positive feedback growth :: 100
+- rules goals paradigm :: 100
+- second order effect :: 100
+- self organization structure :: 100
+- stock flow feedback :: 100
+- system boundary coupling :: 100
+- under environment feedback :: 98
+- under environment coupling :: 98
+- under feedback coupling :: 98
+- under feedback incentive :: 98
+- under feedback emergence :: 98
+- under coupling incentive :: 98
+- under coupling emergence :: 98
+- under incentive emergence :: 98
+- under current loop :: 98
+- under local loop :: 98
+- under bounded loop :: 98
+- under finite loop :: 98
+- within current loop :: 98
+- within local loop :: 98
+- within bounded loop :: 98
+- within finite loop :: 98
+- across current loop :: 98
+- across local loop :: 98
+- across bounded loop :: 98
+- across finite loop :: 98
+- between current loop :: 98
+- between local loop :: 98
+- between bounded loop :: 98
+- between finite loop :: 98
+- through current loop :: 98
+- under selection structure :: 97
+- under selection interaction :: 97
+- under selection propagation :: 97
+- under structure interaction :: 97
+- under structure propagation :: 97
+- under structure network :: 97
+- under structure node :: 97
+- under interaction propagation :: 97
+- under interaction network :: 97
+- under interaction node :: 97
+- under interaction edge :: 97
+- under propagation network :: 97
+- under propagation node :: 97
+- under propagation edge :: 97
+- through local loop :: 97
+- through bounded loop :: 97
+- through finite loop :: 97
+- before current loop :: 97
+- before local loop :: 97
+- before bounded loop :: 97
+- before finite loop :: 97
+- within environment feedback :: 96
+- within environment coupling :: 96
+- within feedback coupling :: 96

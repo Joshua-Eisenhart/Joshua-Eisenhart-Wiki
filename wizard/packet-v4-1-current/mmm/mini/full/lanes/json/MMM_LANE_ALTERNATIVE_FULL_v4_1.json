@@ -1,0 +1,8969 @@
+{
+  "words": [
+    [
+      1,
+      "alternative",
+      100
+    ],
+    [
+      2,
+      "second",
+      100
+    ],
+    [
+      3,
+      "route",
+      100
+    ],
+    [
+      4,
+      "fork",
+      100
+    ],
+    [
+      5,
+      "tradeoff",
+      100
+    ],
+    [
+      6,
+      "different",
+      100
+    ],
+    [
+      7,
+      "path",
+      100
+    ],
+    [
+      8,
+      "other",
+      100
+    ],
+    [
+      9,
+      "option",
+      100
+    ],
+    [
+      10,
+      "compare",
+      100
+    ],
+    [
+      11,
+      "fallback",
+      100
+    ],
+    [
+      12,
+      "variant",
+      100
+    ],
+    [
+      13,
+      "side",
+      100
+    ],
+    [
+      14,
+      "parallel",
+      100
+    ],
+    [
+      15,
+      "case",
+      100
+    ],
+    [
+      16,
+      "difference",
+      100
+    ],
+    [
+      17,
+      "alternate",
+      100
+    ],
+    [
+      18,
+      "second path",
+      100
+    ],
+    [
+      19,
+      "better if",
+      100
+    ],
+    [
+      20,
+      "worse if",
+      100
+    ],
+    [
+      21,
+      "different assumption",
+      100
+    ],
+    [
+      22,
+      "viable",
+      100
+    ],
+    [
+      23,
+      "assumption",
+      100
+    ],
+    [
+      24,
+      "divergent",
+      100
+    ],
+    [
+      25,
+      "backup",
+      99
+    ],
+    [
+      26,
+      "under",
+      99
+    ],
+    [
+      27,
+      "within",
+      99
+    ],
+    [
+      28,
+      "across",
+      99
+    ],
+    [
+      29,
+      "between",
+      99
+    ],
+    [
+      30,
+      "through",
+      99
+    ],
+    [
+      31,
+      "before",
+      99
+    ],
+    [
+      32,
+      "after",
+      99
+    ],
+    [
+      33,
+      "until",
+      99
+    ],
+    [
+      34,
+      "where",
+      99
+    ],
+    [
+      35,
+      "while",
+      99
+    ],
+    [
+      36,
+      "against",
+      99
+    ],
+    [
+      37,
+      "along",
+      99
+    ],
+    [
+      38,
+      "around",
+      99
+    ],
+    [
+      39,
+      "among",
+      99
+    ],
+    [
+      40,
+      "inside",
+      99
+    ],
+    [
+      41,
+      "outside",
+      99
+    ],
+    [
+      42,
+      "near",
+      99
+    ],
+    [
+      43,
+      "beside",
+      99
+    ],
+    [
+      44,
+      "over",
+      99
+    ],
+    [
+      45,
+      "from",
+      99
+    ],
+    [
+      46,
+      "with",
+      99
+    ],
+    [
+      47,
+      "without",
+      99
+    ],
+    [
+      48,
+      "only",
+      99
+    ],
+    [
+      49,
+      "not",
+      99
+    ],
+    [
+      50,
+      "no",
+      98
+    ],
+    [
+      51,
+      "yet",
+      98
+    ],
+    [
+      52,
+      "then",
+      98
+    ],
+    [
+      53,
+      "current",
+      98
+    ],
+    [
+      54,
+      "actual",
+      98
+    ],
+    [
+      55,
+      "local",
+      98
+    ],
+    [
+      56,
+      "bounded",
+      98
+    ],
+    [
+      57,
+      "finite",
+      98
+    ],
+    [
+      58,
+      "open",
+      98
+    ],
+    [
+      59,
+      "live",
+      98
+    ],
+    [
+      60,
+      "distinct",
+      98
+    ],
+    [
+      61,
+      "concrete",
+      98
+    ],
+    [
+      62,
+      "plain",
+      98
+    ],
+    [
+      63,
+      "observed",
+      98
+    ],
+    [
+      64,
+      "inferred",
+      98
+    ],
+    [
+      65,
+      "known",
+      98
+    ],
+    [
+      66,
+      "unknown",
+      98
+    ],
+    [
+      67,
+      "checked",
+      98
+    ],
+    [
+      68,
+      "missing",
+      98
+    ],
+    [
+      69,
+      "stale",
+      98
+    ],
+    [
+      70,
+      "narrow",
+      98
+    ],
+    [
+      71,
+      "small",
+      98
+    ],
+    [
+      72,
+      "warm",
+      98
+    ],
+    [
+      73,
+      "careful",
+      98
+    ],
+    [
+      74,
+      "honest",
+      98
+    ],
+    [
+      75,
+      "first",
+      97
+    ],
+    [
+      76,
+      "next",
+      97
+    ],
+    [
+      77,
+      "prior",
+      97
+    ],
+    [
+      78,
+      "later",
+      97
+    ],
+    [
+      79,
+      "separate",
+      97
+    ],
+    [
+      80,
+      "together",
+      97
+    ],
+    [
+      81,
+      "apart",
+      97
+    ],
+    [
+      82,
+      "held",
+      97
+    ],
+    [
+      83,
+      "returned",
+      97
+    ],
+    [
+      84,
+      "found",
+      97
+    ],
+    [
+      85,
+      "compared",
+      97
+    ],
+    [
+      86,
+      "measured",
+      97
+    ],
+    [
+      87,
+      "named",
+      97
+    ],
+    [
+      88,
+      "used",
+      97
+    ],
+    [
+      89,
+      "fit",
+      97
+    ],
+    [
+      90,
+      "direct",
+      97
+    ],
+    [
+      91,
+      "branch",
+      97
+    ],
+    [
+      92,
+      "surface",
+      97
+    ],
+    [
+      93,
+      "packet",
+      97
+    ],
+    [
+      94,
+      "artifact",
+      97
+    ],
+    [
+      95,
+      "receipt",
+      97
+    ],
+    [
+      96,
+      "trace",
+      97
+    ],
+    [
+      97,
+      "result",
+      97
+    ],
+    [
+      98,
+      "support",
+      97
+    ],
+    [
+      99,
+      "evidence",
+      97
+    ],
+    [
+      100,
+      "scope",
+      96
+    ],
+    [
+      101,
+      "boundary",
+      96
+    ],
+    [
+      102,
+      "gate",
+      96
+    ],
+    [
+      103,
+      "guard",
+      96
+    ],
+    [
+      104,
+      "rung",
+      96
+    ],
+    [
+      105,
+      "status",
+      96
+    ],
+    [
+      106,
+      "candidate",
+      96
+    ],
+    [
+      107,
+      "survivor",
+      96
+    ],
+    [
+      108,
+      "witness",
+      96
+    ],
+    [
+      109,
+      "probe",
+      96
+    ],
+    [
+      110,
+      "constraint",
+      96
+    ],
+    [
+      111,
+      "name",
+      96
+    ],
+    [
+      112,
+      "term",
+      96
+    ],
+    [
+      113,
+      "use",
+      96
+    ],
+    [
+      114,
+      "role",
+      96
+    ],
+    [
+      115,
+      "practice",
+      96
+    ],
+    [
+      116,
+      "custom",
+      96
+    ],
+    [
+      117,
+      "habit",
+      96
+    ],
+    [
+      118,
+      "experience",
+      96
+    ],
+    [
+      119,
+      "observation",
+      96
+    ],
+    [
+      120,
+      "impression",
+      96
+    ],
+    [
+      121,
+      "idea",
+      96
+    ],
+    [
+      122,
+      "perception",
+      96
+    ],
+    [
+      123,
+      "conjunction",
+      96
+    ],
+    [
+      124,
+      "resemblance",
+      96
+    ],
+    [
+      125,
+      "relation",
+      95
+    ],
+    [
+      126,
+      "probability",
+      95
+    ],
+    [
+      127,
+      "particular",
+      95
+    ],
+    [
+      128,
+      "predicate",
+      95
+    ],
+    [
+      129,
+      "class",
+      95
+    ],
+    [
+      130,
+      "model",
+      95
+    ],
+    [
+      131,
+      "solver",
+      95
+    ],
+    [
+      132,
+      "satisfiable",
+      95
+    ],
+    [
+      133,
+      "unsatisfiable",
+      95
+    ],
+    [
+      134,
+      "countermodel",
+      95
+    ],
+    [
+      135,
+      "counterexample",
+      95
+    ],
+    [
+      136,
+      "equivalence",
+      95
+    ],
+    [
+      137,
+      "indistinguishable",
+      95
+    ],
+    [
+      138,
+      "readout",
+      95
+    ],
+    [
+      139,
+      "measure",
+      95
+    ],
+    [
+      140,
+      "measurement",
+      95
+    ],
+    [
+      141,
+      "operation",
+      95
+    ],
+    [
+      142,
+      "procedure",
+      95
+    ],
+    [
+      143,
+      "instrument",
+      95
+    ],
+    [
+      144,
+      "experiment",
+      95
+    ],
+    [
+      145,
+      "test",
+      95
+    ],
+    [
+      146,
+      "check",
+      95
+    ],
+    [
+      147,
+      "verify",
+      95
+    ],
+    [
+      148,
+      "sample",
+      95
+    ],
+    [
+      149,
+      "lane",
+      95
+    ],
+    [
+      150,
+      "voice",
+      94
+    ],
+    [
+      151,
+      "lens",
+      94
+    ],
+    [
+      152,
+      "council",
+      94
+    ],
+    [
+      153,
+      "audit",
+      94
+    ],
+    [
+      154,
+      "finding",
+      94
+    ],
+    [
+      155,
+      "blocker",
+      94
+    ],
+    [
+      156,
+      "deferred",
+      94
+    ],
+    [
+      157,
+      "blocked",
+      94
+    ],
+    [
+      158,
+      "spawned",
+      94
+    ],
+    [
+      159,
+      "diagnostic",
+      94
+    ],
+    [
+      160,
+      "untried",
+      94
+    ],
+    [
+      161,
+      "preload",
+      94
+    ],
+    [
+      162,
+      "salience",
+      94
+    ],
+    [
+      163,
+      "language",
+      94
+    ],
+    [
+      164,
+      "body",
+      94
+    ],
+    [
+      165,
+      "during",
+      94
+    ],
+    [
+      166,
+      "since",
+      94
+    ],
+    [
+      167,
+      "by",
+      94
+    ],
+    [
+      168,
+      "toward",
+      94
+    ],
+    [
+      169,
+      "relative",
+      94
+    ],
+    [
+      170,
+      "according",
+      94
+    ],
+    [
+      171,
+      "locally",
+      94
+    ],
+    [
+      172,
+      "jointly",
+      94
+    ],
+    [
+      173,
+      "separately",
+      94
+    ],
+    [
+      174,
+      "rather",
+      94
+    ],
+    [
+      175,
+      "instead",
+      93
+    ],
+    [
+      176,
+      "still",
+      93
+    ],
+    [
+      177,
+      "often",
+      93
+    ],
+    [
+      178,
+      "sometimes",
+      93
+    ],
+    [
+      179,
+      "usually",
+      93
+    ],
+    [
+      180,
+      "second route",
+      98
+    ]
+  ],
+  "couplings": [
+    [
+      1,
+      "under alternative",
+      100
+    ],
+    [
+      2,
+      "within alternative",
+      100
+    ],
+    [
+      3,
+      "across alternative",
+      100
+    ],
+    [
+      4,
+      "between alternative",
+      100
+    ],
+    [
+      5,
+      "through alternative",
+      100
+    ],
+    [
+      6,
+      "before alternative",
+      100
+    ],
+    [
+      7,
+      "after alternative",
+      100
+    ],
+    [
+      8,
+      "until alternative",
+      100
+    ],
+    [
+      9,
+      "where alternative",
+      100
+    ],
+    [
+      10,
+      "while alternative",
+      100
+    ],
+    [
+      11,
+      "alternative evidence",
+      100
+    ],
+    [
+      12,
+      "alternative support",
+      100
+    ],
+    [
+      13,
+      "alternative path",
+      100
+    ],
+    [
+      14,
+      "alternative surface",
+      100
+    ],
+    [
+      15,
+      "alternative packet",
+      100
+    ],
+    [
+      16,
+      "alternative receipt",
+      100
+    ],
+    [
+      17,
+      "alternative trace",
+      100
+    ],
+    [
+      18,
+      "alternative result",
+      100
+    ],
+    [
+      19,
+      "alternative scope",
+      100
+    ],
+    [
+      20,
+      "alternative boundary",
+      100
+    ],
+    [
+      21,
+      "alternative status",
+      100
+    ],
+    [
+      22,
+      "alternative candidate",
+      100
+    ],
+    [
+      23,
+      "alternative witness",
+      100
+    ],
+    [
+      24,
+      "alternative probe",
+      100
+    ],
+    [
+      25,
+      "alternative constraint",
+      100
+    ],
+    [
+      26,
+      "check alternative",
+      99
+    ],
+    [
+      27,
+      "compare alternative",
+      99
+    ],
+    [
+      28,
+      "observe alternative",
+      99
+    ],
+    [
+      29,
+      "measure alternative",
+      99
+    ],
+    [
+      30,
+      "test alternative",
+      99
+    ],
+    [
+      31,
+      "verify alternative",
+      99
+    ],
+    [
+      32,
+      "hold alternative",
+      99
+    ],
+    [
+      33,
+      "preserve alternative",
+      99
+    ],
+    [
+      34,
+      "split alternative",
+      99
+    ],
+    [
+      35,
+      "narrow alternative",
+      99
+    ],
+    [
+      36,
+      "under fork",
+      99
+    ],
+    [
+      37,
+      "within fork",
+      99
+    ],
+    [
+      38,
+      "across fork",
+      99
+    ],
+    [
+      39,
+      "between fork",
+      99
+    ],
+    [
+      40,
+      "through fork",
+      99
+    ],
+    [
+      41,
+      "before fork",
+      99
+    ],
+    [
+      42,
+      "after fork",
+      99
+    ],
+    [
+      43,
+      "until fork",
+      99
+    ],
+    [
+      44,
+      "where fork",
+      99
+    ],
+    [
+      45,
+      "while fork",
+      99
+    ],
+    [
+      46,
+      "fork evidence",
+      99
+    ],
+    [
+      47,
+      "fork support",
+      99
+    ],
+    [
+      48,
+      "fork path",
+      99
+    ],
+    [
+      49,
+      "fork surface",
+      99
+    ],
+    [
+      50,
+      "fork packet",
+      99
+    ],
+    [
+      51,
+      "fork receipt",
+      98
+    ],
+    [
+      52,
+      "fork trace",
+      98
+    ],
+    [
+      53,
+      "fork result",
+      98
+    ],
+    [
+      54,
+      "fork scope",
+      98
+    ],
+    [
+      55,
+      "fork boundary",
+      98
+    ],
+    [
+      56,
+      "fork status",
+      98
+    ],
+    [
+      57,
+      "fork candidate",
+      98
+    ],
+    [
+      58,
+      "fork witness",
+      98
+    ],
+    [
+      59,
+      "fork probe",
+      98
+    ],
+    [
+      60,
+      "fork constraint",
+      98
+    ],
+    [
+      61,
+      "check fork",
+      98
+    ],
+    [
+      62,
+      "compare fork",
+      98
+    ],
+    [
+      63,
+      "observe fork",
+      98
+    ],
+    [
+      64,
+      "measure fork",
+      98
+    ],
+    [
+      65,
+      "test fork",
+      98
+    ],
+    [
+      66,
+      "verify fork",
+      98
+    ],
+    [
+      67,
+      "hold fork",
+      98
+    ],
+    [
+      68,
+      "preserve fork",
+      98
+    ],
+    [
+      69,
+      "split fork",
+      98
+    ],
+    [
+      70,
+      "narrow fork",
+      98
+    ],
+    [
+      71,
+      "under viable",
+      98
+    ],
+    [
+      72,
+      "within viable",
+      98
+    ],
+    [
+      73,
+      "across viable",
+      98
+    ],
+    [
+      74,
+      "between viable",
+      98
+    ],
+    [
+      75,
+      "through viable",
+      98
+    ],
+    [
+      76,
+      "before viable",
+      97
+    ],
+    [
+      77,
+      "after viable",
+      97
+    ],
+    [
+      78,
+      "until viable",
+      97
+    ],
+    [
+      79,
+      "where viable",
+      97
+    ],
+    [
+      80,
+      "while viable",
+      97
+    ],
+    [
+      81,
+      "viable evidence",
+      97
+    ],
+    [
+      82,
+      "viable support",
+      97
+    ],
+    [
+      83,
+      "viable path",
+      97
+    ],
+    [
+      84,
+      "viable surface",
+      97
+    ],
+    [
+      85,
+      "viable packet",
+      97
+    ],
+    [
+      86,
+      "viable receipt",
+      97
+    ],
+    [
+      87,
+      "viable trace",
+      97
+    ],
+    [
+      88,
+      "viable result",
+      97
+    ],
+    [
+      89,
+      "viable scope",
+      97
+    ],
+    [
+      90,
+      "viable boundary",
+      97
+    ],
+    [
+      91,
+      "viable status",
+      97
+    ],
+    [
+      92,
+      "viable candidate",
+      97
+    ],
+    [
+      93,
+      "viable witness",
+      97
+    ],
+    [
+      94,
+      "viable probe",
+      97
+    ],
+    [
+      95,
+      "viable constraint",
+      97
+    ],
+    [
+      96,
+      "check viable",
+      97
+    ],
+    [
+      97,
+      "compare viable",
+      97
+    ],
+    [
+      98,
+      "observe viable",
+      97
+    ],
+    [
+      99,
+      "measure viable",
+      97
+    ],
+    [
+      100,
+      "test viable",
+      97
+    ],
+    [
+      101,
+      "verify viable",
+      96
+    ],
+    [
+      102,
+      "hold viable",
+      96
+    ],
+    [
+      103,
+      "preserve viable",
+      96
+    ],
+    [
+      104,
+      "split viable",
+      96
+    ],
+    [
+      105,
+      "narrow viable",
+      96
+    ],
+    [
+      106,
+      "under tradeoff",
+      96
+    ],
+    [
+      107,
+      "within tradeoff",
+      96
+    ],
+    [
+      108,
+      "across tradeoff",
+      96
+    ],
+    [
+      109,
+      "between tradeoff",
+      96
+    ],
+    [
+      110,
+      "through tradeoff",
+      96
+    ],
+    [
+      111,
+      "before tradeoff",
+      96
+    ],
+    [
+      112,
+      "after tradeoff",
+      96
+    ],
+    [
+      113,
+      "until tradeoff",
+      96
+    ],
+    [
+      114,
+      "where tradeoff",
+      96
+    ],
+    [
+      115,
+      "while tradeoff",
+      96
+    ],
+    [
+      116,
+      "tradeoff evidence",
+      96
+    ],
+    [
+      117,
+      "tradeoff support",
+      96
+    ],
+    [
+      118,
+      "tradeoff path",
+      96
+    ],
+    [
+      119,
+      "tradeoff surface",
+      96
+    ],
+    [
+      120,
+      "tradeoff packet",
+      96
+    ],
+    [
+      121,
+      "tradeoff receipt",
+      96
+    ],
+    [
+      122,
+      "tradeoff trace",
+      96
+    ],
+    [
+      123,
+      "tradeoff result",
+      96
+    ],
+    [
+      124,
+      "tradeoff scope",
+      96
+    ],
+    [
+      125,
+      "tradeoff boundary",
+      96
+    ],
+    [
+      126,
+      "tradeoff status",
+      95
+    ],
+    [
+      127,
+      "tradeoff candidate",
+      95
+    ],
+    [
+      128,
+      "tradeoff witness",
+      95
+    ],
+    [
+      129,
+      "tradeoff probe",
+      95
+    ],
+    [
+      130,
+      "tradeoff constraint",
+      95
+    ],
+    [
+      131,
+      "check tradeoff",
+      95
+    ],
+    [
+      132,
+      "compare tradeoff",
+      95
+    ],
+    [
+      133,
+      "observe tradeoff",
+      95
+    ],
+    [
+      134,
+      "measure tradeoff",
+      95
+    ],
+    [
+      135,
+      "test tradeoff",
+      95
+    ],
+    [
+      136,
+      "verify tradeoff",
+      95
+    ],
+    [
+      137,
+      "hold tradeoff",
+      95
+    ],
+    [
+      138,
+      "preserve tradeoff",
+      95
+    ],
+    [
+      139,
+      "split tradeoff",
+      95
+    ],
+    [
+      140,
+      "narrow tradeoff",
+      95
+    ],
+    [
+      141,
+      "under different",
+      95
+    ],
+    [
+      142,
+      "within different",
+      95
+    ],
+    [
+      143,
+      "across different",
+      95
+    ],
+    [
+      144,
+      "between different",
+      95
+    ],
+    [
+      145,
+      "through different",
+      95
+    ],
+    [
+      146,
+      "before different",
+      95
+    ],
+    [
+      147,
+      "after different",
+      95
+    ],
+    [
+      148,
+      "until different",
+      95
+    ],
+    [
+      149,
+      "where different",
+      95
+    ],
+    [
+      150,
+      "while different",
+      95
+    ],
+    [
+      151,
+      "different evidence",
+      94
+    ],
+    [
+      152,
+      "different support",
+      94
+    ],
+    [
+      153,
+      "different path",
+      94
+    ],
+    [
+      154,
+      "different surface",
+      94
+    ],
+    [
+      155,
+      "different packet",
+      94
+    ],
+    [
+      156,
+      "different receipt",
+      94
+    ],
+    [
+      157,
+      "different trace",
+      94
+    ],
+    [
+      158,
+      "different result",
+      94
+    ],
+    [
+      159,
+      "different scope",
+      94
+    ],
+    [
+      160,
+      "different boundary",
+      94
+    ],
+    [
+      161,
+      "different status",
+      94
+    ],
+    [
+      162,
+      "different candidate",
+      94
+    ],
+    [
+      163,
+      "different witness",
+      94
+    ],
+    [
+      164,
+      "different probe",
+      94
+    ],
+    [
+      165,
+      "different constraint",
+      94
+    ],
+    [
+      166,
+      "check different",
+      94
+    ],
+    [
+      167,
+      "compare different",
+      94
+    ],
+    [
+      168,
+      "observe different",
+      94
+    ],
+    [
+      169,
+      "measure different",
+      94
+    ],
+    [
+      170,
+      "test different",
+      94
+    ],
+    [
+      171,
+      "verify different",
+      94
+    ],
+    [
+      172,
+      "hold different",
+      94
+    ],
+    [
+      173,
+      "preserve different",
+      94
+    ],
+    [
+      174,
+      "split different",
+      94
+    ],
+    [
+      175,
+      "narrow different",
+      94
+    ],
+    [
+      176,
+      "under route",
+      93
+    ],
+    [
+      177,
+      "within route",
+      93
+    ],
+    [
+      178,
+      "across route",
+      93
+    ],
+    [
+      179,
+      "between route",
+      93
+    ],
+    [
+      180,
+      "through route",
+      93
+    ],
+    [
+      181,
+      "before route",
+      93
+    ],
+    [
+      182,
+      "after route",
+      93
+    ],
+    [
+      183,
+      "until route",
+      93
+    ],
+    [
+      184,
+      "where route",
+      93
+    ],
+    [
+      185,
+      "while route",
+      93
+    ],
+    [
+      186,
+      "route evidence",
+      93
+    ],
+    [
+      187,
+      "route support",
+      93
+    ],
+    [
+      188,
+      "route path",
+      93
+    ],
+    [
+      189,
+      "route surface",
+      93
+    ],
+    [
+      190,
+      "route packet",
+      93
+    ],
+    [
+      191,
+      "route receipt",
+      93
+    ],
+    [
+      192,
+      "route trace",
+      93
+    ],
+    [
+      193,
+      "route result",
+      93
+    ],
+    [
+      194,
+      "route scope",
+      93
+    ],
+    [
+      195,
+      "route boundary",
+      93
+    ],
+    [
+      196,
+      "route status",
+      93
+    ],
+    [
+      197,
+      "route candidate",
+      93
+    ],
+    [
+      198,
+      "route witness",
+      93
+    ],
+    [
+      199,
+      "route probe",
+      93
+    ],
+    [
+      200,
+      "route constraint",
+      93
+    ],
+    [
+      201,
+      "check route",
+      92
+    ],
+    [
+      202,
+      "compare route",
+      92
+    ],
+    [
+      203,
+      "observe route",
+      92
+    ],
+    [
+      204,
+      "measure route",
+      92
+    ],
+    [
+      205,
+      "test route",
+      92
+    ],
+    [
+      206,
+      "verify route",
+      92
+    ],
+    [
+      207,
+      "hold route",
+      92
+    ],
+    [
+      208,
+      "preserve route",
+      92
+    ],
+    [
+      209,
+      "split route",
+      92
+    ],
+    [
+      210,
+      "narrow route",
+      92
+    ],
+    [
+      211,
+      "under compare",
+      92
+    ],
+    [
+      212,
+      "within compare",
+      92
+    ],
+    [
+      213,
+      "across compare",
+      92
+    ],
+    [
+      214,
+      "between compare",
+      92
+    ],
+    [
+      215,
+      "through compare",
+      92
+    ],
+    [
+      216,
+      "before compare",
+      92
+    ],
+    [
+      217,
+      "after compare",
+      92
+    ],
+    [
+      218,
+      "until compare",
+      92
+    ],
+    [
+      219,
+      "where compare",
+      92
+    ],
+    [
+      220,
+      "while compare",
+      92
+    ],
+    [
+      221,
+      "compare evidence",
+      92
+    ],
+    [
+      222,
+      "compare support",
+      92
+    ],
+    [
+      223,
+      "compare path",
+      92
+    ],
+    [
+      224,
+      "compare surface",
+      92
+    ],
+    [
+      225,
+      "compare packet",
+      92
+    ],
+    [
+      226,
+      "compare receipt",
+      91
+    ],
+    [
+      227,
+      "compare trace",
+      91
+    ],
+    [
+      228,
+      "compare result",
+      91
+    ],
+    [
+      229,
+      "compare scope",
+      91
+    ],
+    [
+      230,
+      "compare boundary",
+      91
+    ],
+    [
+      231,
+      "compare status",
+      91
+    ],
+    [
+      232,
+      "compare candidate",
+      91
+    ],
+    [
+      233,
+      "compare witness",
+      91
+    ],
+    [
+      234,
+      "compare probe",
+      91
+    ],
+    [
+      235,
+      "compare constraint",
+      91
+    ],
+    [
+      236,
+      "check compare",
+      91
+    ],
+    [
+      237,
+      "compare compare",
+      91
+    ],
+    [
+      238,
+      "observe compare",
+      91
+    ],
+    [
+      239,
+      "measure compare",
+      91
+    ],
+    [
+      240,
+      "test compare",
+      91
+    ],
+    [
+      241,
+      "verify compare",
+      91
+    ],
+    [
+      242,
+      "hold compare",
+      91
+    ],
+    [
+      243,
+      "preserve compare",
+      91
+    ],
+    [
+      244,
+      "split compare",
+      91
+    ],
+    [
+      245,
+      "narrow compare",
+      91
+    ],
+    [
+      246,
+      "under assumption",
+      91
+    ],
+    [
+      247,
+      "within assumption",
+      91
+    ],
+    [
+      248,
+      "across assumption",
+      91
+    ],
+    [
+      249,
+      "between assumption",
+      91
+    ],
+    [
+      250,
+      "through assumption",
+      91
+    ],
+    [
+      251,
+      "before assumption",
+      90
+    ],
+    [
+      252,
+      "after assumption",
+      90
+    ],
+    [
+      253,
+      "until assumption",
+      90
+    ],
+    [
+      254,
+      "where assumption",
+      90
+    ],
+    [
+      255,
+      "while assumption",
+      90
+    ],
+    [
+      256,
+      "assumption evidence",
+      90
+    ],
+    [
+      257,
+      "assumption support",
+      90
+    ],
+    [
+      258,
+      "assumption path",
+      90
+    ],
+    [
+      259,
+      "assumption surface",
+      90
+    ],
+    [
+      260,
+      "assumption packet",
+      90
+    ],
+    [
+      261,
+      "assumption receipt",
+      90
+    ],
+    [
+      262,
+      "assumption trace",
+      90
+    ],
+    [
+      263,
+      "assumption result",
+      90
+    ],
+    [
+      264,
+      "assumption scope",
+      90
+    ],
+    [
+      265,
+      "assumption boundary",
+      90
+    ],
+    [
+      266,
+      "assumption status",
+      90
+    ],
+    [
+      267,
+      "assumption candidate",
+      90
+    ],
+    [
+      268,
+      "assumption witness",
+      90
+    ],
+    [
+      269,
+      "assumption probe",
+      90
+    ],
+    [
+      270,
+      "assumption constraint",
+      90
+    ],
+    [
+      271,
+      "check assumption",
+      90
+    ],
+    [
+      272,
+      "compare assumption",
+      90
+    ],
+    [
+      273,
+      "observe assumption",
+      90
+    ],
+    [
+      274,
+      "measure assumption",
+      90
+    ],
+    [
+      275,
+      "test assumption",
+      90
+    ],
+    [
+      276,
+      "verify assumption",
+      89
+    ],
+    [
+      277,
+      "hold assumption",
+      89
+    ],
+    [
+      278,
+      "preserve assumption",
+      89
+    ],
+    [
+      279,
+      "split assumption",
+      89
+    ],
+    [
+      280,
+      "narrow assumption",
+      89
+    ],
+    [
+      281,
+      "under second",
+      89
+    ],
+    [
+      282,
+      "within second",
+      89
+    ],
+    [
+      283,
+      "across second",
+      89
+    ],
+    [
+      284,
+      "between second",
+      89
+    ],
+    [
+      285,
+      "through second",
+      89
+    ],
+    [
+      286,
+      "before second",
+      89
+    ],
+    [
+      287,
+      "after second",
+      89
+    ],
+    [
+      288,
+      "until second",
+      89
+    ],
+    [
+      289,
+      "where second",
+      89
+    ],
+    [
+      290,
+      "while second",
+      89
+    ],
+    [
+      291,
+      "second evidence",
+      89
+    ],
+    [
+      292,
+      "second support",
+      89
+    ],
+    [
+      293,
+      "second path",
+      89
+    ],
+    [
+      294,
+      "second surface",
+      89
+    ],
+    [
+      295,
+      "second packet",
+      89
+    ],
+    [
+      296,
+      "second receipt",
+      89
+    ],
+    [
+      297,
+      "second trace",
+      89
+    ],
+    [
+      298,
+      "second result",
+      89
+    ],
+    [
+      299,
+      "second scope",
+      89
+    ],
+    [
+      300,
+      "second boundary",
+      89
+    ],
+    [
+      301,
+      "second status",
+      88
+    ],
+    [
+      302,
+      "second candidate",
+      88
+    ],
+    [
+      303,
+      "second witness",
+      88
+    ],
+    [
+      304,
+      "second probe",
+      88
+    ],
+    [
+      305,
+      "second constraint",
+      88
+    ],
+    [
+      306,
+      "check second",
+      88
+    ],
+    [
+      307,
+      "compare second",
+      88
+    ],
+    [
+      308,
+      "observe second",
+      88
+    ],
+    [
+      309,
+      "measure second",
+      88
+    ],
+    [
+      310,
+      "test second",
+      88
+    ],
+    [
+      311,
+      "verify second",
+      88
+    ],
+    [
+      312,
+      "hold second",
+      88
+    ],
+    [
+      313,
+      "preserve second",
+      88
+    ],
+    [
+      314,
+      "split second",
+      88
+    ],
+    [
+      315,
+      "narrow second",
+      88
+    ],
+    [
+      316,
+      "under path",
+      88
+    ],
+    [
+      317,
+      "within path",
+      88
+    ],
+    [
+      318,
+      "across path",
+      88
+    ],
+    [
+      319,
+      "between path",
+      88
+    ],
+    [
+      320,
+      "through path",
+      88
+    ],
+    [
+      321,
+      "before path",
+      88
+    ],
+    [
+      322,
+      "after path",
+      88
+    ],
+    [
+      323,
+      "until path",
+      88
+    ],
+    [
+      324,
+      "where path",
+      88
+    ],
+    [
+      325,
+      "while path",
+      88
+    ],
+    [
+      326,
+      "path evidence",
+      87
+    ],
+    [
+      327,
+      "path support",
+      87
+    ],
+    [
+      328,
+      "path path",
+      87
+    ],
+    [
+      329,
+      "path surface",
+      87
+    ],
+    [
+      330,
+      "path packet",
+      87
+    ],
+    [
+      331,
+      "path receipt",
+      87
+    ],
+    [
+      332,
+      "path trace",
+      87
+    ],
+    [
+      333,
+      "path result",
+      87
+    ],
+    [
+      334,
+      "path scope",
+      87
+    ],
+    [
+      335,
+      "path boundary",
+      87
+    ],
+    [
+      336,
+      "path status",
+      87
+    ],
+    [
+      337,
+      "path candidate",
+      87
+    ],
+    [
+      338,
+      "path witness",
+      87
+    ],
+    [
+      339,
+      "path probe",
+      87
+    ],
+    [
+      340,
+      "path constraint",
+      87
+    ],
+    [
+      341,
+      "better if",
+      87
+    ],
+    [
+      342,
+      "worse if",
+      87
+    ],
+    [
+      343,
+      "different assumption",
+      87
+    ],
+    [
+      344,
+      "alternate",
+      87
+    ],
+    [
+      345,
+      "route",
+      87
+    ],
+    [
+      346,
+      "tradeoff",
+      87
+    ],
+    [
+      347,
+      "compare",
+      87
+    ],
+    [
+      348,
+      "fork",
+      87
+    ],
+    [
+      349,
+      "option",
+      87
+    ],
+    [
+      350,
+      "viable",
+      87
+    ],
+    [
+      351,
+      "under other",
+      86
+    ],
+    [
+      352,
+      "under option",
+      86
+    ],
+    [
+      353,
+      "under fallback",
+      86
+    ],
+    [
+      354,
+      "under variant",
+      86
+    ],
+    [
+      355,
+      "under side",
+      86
+    ],
+    [
+      356,
+      "under parallel",
+      86
+    ],
+    [
+      357,
+      "under case",
+      86
+    ],
+    [
+      358,
+      "under difference",
+      86
+    ],
+    [
+      359,
+      "under alternate",
+      86
+    ],
+    [
+      360,
+      "under second path",
+      86
+    ],
+    [
+      361,
+      "under better if",
+      86
+    ],
+    [
+      362,
+      "within other",
+      86
+    ],
+    [
+      363,
+      "within option",
+      86
+    ],
+    [
+      364,
+      "within fallback",
+      86
+    ],
+    [
+      365,
+      "within variant",
+      86
+    ],
+    [
+      366,
+      "within side",
+      86
+    ],
+    [
+      367,
+      "within parallel",
+      86
+    ],
+    [
+      368,
+      "within case",
+      86
+    ],
+    [
+      369,
+      "within difference",
+      86
+    ],
+    [
+      370,
+      "within alternate",
+      86
+    ],
+    [
+      371,
+      "within second path",
+      86
+    ],
+    [
+      372,
+      "within better if",
+      86
+    ],
+    [
+      373,
+      "across other",
+      86
+    ],
+    [
+      374,
+      "across option",
+      85
+    ],
+    [
+      375,
+      "across fallback",
+      85
+    ],
+    [
+      376,
+      "across variant",
+      85
+    ],
+    [
+      377,
+      "across side",
+      85
+    ],
+    [
+      378,
+      "across parallel",
+      85
+    ],
+    [
+      379,
+      "across case",
+      85
+    ],
+    [
+      380,
+      "across difference",
+      85
+    ],
+    [
+      381,
+      "across alternate",
+      85
+    ],
+    [
+      382,
+      "across second path",
+      85
+    ],
+    [
+      383,
+      "across better if",
+      85
+    ],
+    [
+      384,
+      "between other",
+      85
+    ],
+    [
+      385,
+      "between option",
+      85
+    ],
+    [
+      386,
+      "between fallback",
+      85
+    ],
+    [
+      387,
+      "between variant",
+      85
+    ],
+    [
+      388,
+      "between side",
+      85
+    ],
+    [
+      389,
+      "between parallel",
+      85
+    ],
+    [
+      390,
+      "between case",
+      85
+    ],
+    [
+      391,
+      "between difference",
+      85
+    ],
+    [
+      392,
+      "between alternate",
+      85
+    ],
+    [
+      393,
+      "between second path",
+      85
+    ],
+    [
+      394,
+      "between better if",
+      85
+    ],
+    [
+      395,
+      "through other",
+      85
+    ],
+    [
+      396,
+      "through option",
+      85
+    ],
+    [
+      397,
+      "through fallback",
+      84
+    ],
+    [
+      398,
+      "through variant",
+      84
+    ],
+    [
+      399,
+      "through side",
+      84
+    ],
+    [
+      400,
+      "through parallel",
+      84
+    ],
+    [
+      401,
+      "through case",
+      84
+    ],
+    [
+      402,
+      "through difference",
+      84
+    ],
+    [
+      403,
+      "through alternate",
+      84
+    ],
+    [
+      404,
+      "through second path",
+      84
+    ],
+    [
+      405,
+      "through better if",
+      84
+    ],
+    [
+      406,
+      "before other",
+      84
+    ],
+    [
+      407,
+      "before option",
+      84
+    ],
+    [
+      408,
+      "before fallback",
+      84
+    ],
+    [
+      409,
+      "before variant",
+      84
+    ],
+    [
+      410,
+      "before side",
+      84
+    ],
+    [
+      411,
+      "before parallel",
+      84
+    ],
+    [
+      412,
+      "before case",
+      84
+    ],
+    [
+      413,
+      "before difference",
+      84
+    ],
+    [
+      414,
+      "before alternate",
+      84
+    ],
+    [
+      415,
+      "before second path",
+      84
+    ],
+    [
+      416,
+      "before better if",
+      84
+    ],
+    [
+      417,
+      "after other",
+      84
+    ],
+    [
+      418,
+      "after option",
+      84
+    ],
+    [
+      419,
+      "after fallback",
+      84
+    ],
+    [
+      420,
+      "after variant",
+      83
+    ],
+    [
+      421,
+      "after side",
+      83
+    ],
+    [
+      422,
+      "after parallel",
+      83
+    ],
+    [
+      423,
+      "after case",
+      83
+    ],
+    [
+      424,
+      "after difference",
+      83
+    ],
+    [
+      425,
+      "after alternate",
+      83
+    ],
+    [
+      426,
+      "after second path",
+      83
+    ],
+    [
+      427,
+      "after better if",
+      83
+    ],
+    [
+      428,
+      "during alternative",
+      83
+    ],
+    [
+      429,
+      "during second",
+      83
+    ],
+    [
+      430,
+      "during route",
+      83
+    ],
+    [
+      431,
+      "during fork",
+      83
+    ],
+    [
+      432,
+      "during tradeoff",
+      83
+    ],
+    [
+      433,
+      "during different",
+      83
+    ],
+    [
+      434,
+      "during path",
+      83
+    ],
+    [
+      435,
+      "during other",
+      83
+    ],
+    [
+      436,
+      "during option",
+      83
+    ],
+    [
+      437,
+      "during compare",
+      83
+    ],
+    [
+      438,
+      "during fallback",
+      83
+    ],
+    [
+      439,
+      "during variant",
+      83
+    ],
+    [
+      440,
+      "during side",
+      83
+    ],
+    [
+      441,
+      "during parallel",
+      83
+    ],
+    [
+      442,
+      "during case",
+      83
+    ],
+    [
+      443,
+      "during difference",
+      82
+    ],
+    [
+      444,
+      "during alternate",
+      82
+    ],
+    [
+      445,
+      "during second path",
+      82
+    ],
+    [
+      446,
+      "during better if",
+      82
+    ],
+    [
+      447,
+      "until other",
+      82
+    ],
+    [
+      448,
+      "until option",
+      82
+    ],
+    [
+      449,
+      "until fallback",
+      82
+    ],
+    [
+      450,
+      "until variant",
+      82
+    ],
+    [
+      451,
+      "until side",
+      82
+    ],
+    [
+      452,
+      "until parallel",
+      82
+    ],
+    [
+      453,
+      "until case",
+      82
+    ],
+    [
+      454,
+      "until difference",
+      82
+    ],
+    [
+      455,
+      "until alternate",
+      82
+    ],
+    [
+      456,
+      "until second path",
+      82
+    ],
+    [
+      457,
+      "until better if",
+      82
+    ],
+    [
+      458,
+      "since alternative",
+      82
+    ],
+    [
+      459,
+      "since second",
+      82
+    ],
+    [
+      460,
+      "since route",
+      82
+    ],
+    [
+      461,
+      "since fork",
+      82
+    ],
+    [
+      462,
+      "since tradeoff",
+      82
+    ],
+    [
+      463,
+      "since different",
+      82
+    ],
+    [
+      464,
+      "since path",
+      82
+    ],
+    [
+      465,
+      "since other",
+      82
+    ],
+    [
+      466,
+      "since option",
+      82
+    ],
+    [
+      467,
+      "since compare",
+      81
+    ],
+    [
+      468,
+      "since fallback",
+      81
+    ],
+    [
+      469,
+      "since variant",
+      81
+    ],
+    [
+      470,
+      "since side",
+      81
+    ],
+    [
+      471,
+      "since parallel",
+      81
+    ],
+    [
+      472,
+      "since case",
+      81
+    ],
+    [
+      473,
+      "since difference",
+      81
+    ],
+    [
+      474,
+      "since alternate",
+      81
+    ],
+    [
+      475,
+      "since second path",
+      81
+    ],
+    [
+      476,
+      "since better if",
+      81
+    ],
+    [
+      477,
+      "from alternative",
+      81
+    ],
+    [
+      478,
+      "from second",
+      81
+    ],
+    [
+      479,
+      "from route",
+      81
+    ],
+    [
+      480,
+      "from fork",
+      81
+    ],
+    [
+      481,
+      "from tradeoff",
+      81
+    ],
+    [
+      482,
+      "from different",
+      81
+    ],
+    [
+      483,
+      "from path",
+      81
+    ],
+    [
+      484,
+      "from other",
+      81
+    ],
+    [
+      485,
+      "from option",
+      81
+    ],
+    [
+      486,
+      "from compare",
+      81
+    ],
+    [
+      487,
+      "from fallback",
+      81
+    ],
+    [
+      488,
+      "from variant",
+      81
+    ],
+    [
+      489,
+      "from side",
+      81
+    ],
+    [
+      490,
+      "from parallel",
+      81
+    ],
+    [
+      491,
+      "from case",
+      80
+    ],
+    [
+      492,
+      "from difference",
+      80
+    ],
+    [
+      493,
+      "from alternate",
+      80
+    ],
+    [
+      494,
+      "from second path",
+      80
+    ],
+    [
+      495,
+      "from better if",
+      80
+    ],
+    [
+      496,
+      "by alternative",
+      80
+    ],
+    [
+      497,
+      "by second",
+      80
+    ],
+    [
+      498,
+      "by route",
+      80
+    ],
+    [
+      499,
+      "by fork",
+      80
+    ],
+    [
+      500,
+      "by tradeoff",
+      80
+    ],
+    [
+      501,
+      "by different",
+      80
+    ],
+    [
+      502,
+      "by path",
+      80
+    ],
+    [
+      503,
+      "by other",
+      80
+    ],
+    [
+      504,
+      "by option",
+      80
+    ],
+    [
+      505,
+      "by compare",
+      80
+    ],
+    [
+      506,
+      "by fallback",
+      80
+    ],
+    [
+      507,
+      "by variant",
+      80
+    ],
+    [
+      508,
+      "by side",
+      80
+    ],
+    [
+      509,
+      "by parallel",
+      80
+    ],
+    [
+      510,
+      "by case",
+      80
+    ],
+    [
+      511,
+      "by difference",
+      80
+    ],
+    [
+      512,
+      "by alternate",
+      80
+    ],
+    [
+      513,
+      "by second path",
+      80
+    ],
+    [
+      514,
+      "by better if",
+      79
+    ],
+    [
+      515,
+      "with alternative",
+      79
+    ],
+    [
+      516,
+      "with second",
+      79
+    ],
+    [
+      517,
+      "with route",
+      79
+    ],
+    [
+      518,
+      "with fork",
+      79
+    ],
+    [
+      519,
+      "with tradeoff",
+      79
+    ],
+    [
+      520,
+      "with different",
+      79
+    ],
+    [
+      521,
+      "with path",
+      79
+    ],
+    [
+      522,
+      "with other",
+      79
+    ],
+    [
+      523,
+      "with option",
+      79
+    ],
+    [
+      524,
+      "with compare",
+      79
+    ],
+    [
+      525,
+      "with fallback",
+      79
+    ],
+    [
+      526,
+      "with variant",
+      79
+    ],
+    [
+      527,
+      "with side",
+      79
+    ],
+    [
+      528,
+      "with parallel",
+      79
+    ],
+    [
+      529,
+      "with case",
+      79
+    ],
+    [
+      530,
+      "with difference",
+      79
+    ],
+    [
+      531,
+      "with alternate",
+      79
+    ],
+    [
+      532,
+      "with second path",
+      79
+    ],
+    [
+      533,
+      "with better if",
+      79
+    ],
+    [
+      534,
+      "without alternative",
+      79
+    ],
+    [
+      535,
+      "without second",
+      79
+    ],
+    [
+      536,
+      "without route",
+      79
+    ],
+    [
+      537,
+      "without fork",
+      79
+    ],
+    [
+      538,
+      "without tradeoff",
+      78
+    ],
+    [
+      539,
+      "without different",
+      78
+    ],
+    [
+      540,
+      "without path",
+      78
+    ],
+    [
+      541,
+      "without other",
+      78
+    ],
+    [
+      542,
+      "without option",
+      78
+    ],
+    [
+      543,
+      "without compare",
+      78
+    ],
+    [
+      544,
+      "without fallback",
+      78
+    ],
+    [
+      545,
+      "without variant",
+      78
+    ],
+    [
+      546,
+      "without side",
+      78
+    ],
+    [
+      547,
+      "without parallel",
+      78
+    ],
+    [
+      548,
+      "without case",
+      78
+    ],
+    [
+      549,
+      "without difference",
+      78
+    ],
+    [
+      550,
+      "without alternate",
+      78
+    ],
+    [
+      551,
+      "without second path",
+      78
+    ],
+    [
+      552,
+      "without better if",
+      78
+    ],
+    [
+      553,
+      "against alternative",
+      78
+    ],
+    [
+      554,
+      "against second",
+      78
+    ],
+    [
+      555,
+      "against route",
+      78
+    ],
+    [
+      556,
+      "against fork",
+      78
+    ],
+    [
+      557,
+      "against tradeoff",
+      78
+    ],
+    [
+      558,
+      "against different",
+      78
+    ],
+    [
+      559,
+      "against path",
+      78
+    ],
+    [
+      560,
+      "against other",
+      78
+    ],
+    [
+      561,
+      "against option",
+      78
+    ],
+    [
+      562,
+      "against compare",
+      77
+    ],
+    [
+      563,
+      "against fallback",
+      77
+    ],
+    [
+      564,
+      "against variant",
+      77
+    ],
+    [
+      565,
+      "against side",
+      77
+    ],
+    [
+      566,
+      "against parallel",
+      77
+    ],
+    [
+      567,
+      "against case",
+      77
+    ],
+    [
+      568,
+      "against difference",
+      77
+    ],
+    [
+      569,
+      "against alternate",
+      77
+    ],
+    [
+      570,
+      "against second path",
+      77
+    ],
+    [
+      571,
+      "against better if",
+      77
+    ],
+    [
+      572,
+      "toward alternative",
+      77
+    ],
+    [
+      573,
+      "toward second",
+      77
+    ],
+    [
+      574,
+      "toward route",
+      77
+    ],
+    [
+      575,
+      "toward fork",
+      77
+    ],
+    [
+      576,
+      "toward tradeoff",
+      77
+    ],
+    [
+      577,
+      "toward different",
+      77
+    ],
+    [
+      578,
+      "toward path",
+      77
+    ],
+    [
+      579,
+      "toward other",
+      77
+    ],
+    [
+      580,
+      "toward option",
+      77
+    ],
+    [
+      581,
+      "toward compare",
+      77
+    ],
+    [
+      582,
+      "toward fallback",
+      77
+    ],
+    [
+      583,
+      "toward variant",
+      77
+    ],
+    [
+      584,
+      "toward side",
+      77
+    ],
+    [
+      585,
+      "toward parallel",
+      77
+    ],
+    [
+      586,
+      "toward case",
+      76
+    ],
+    [
+      587,
+      "toward difference",
+      76
+    ],
+    [
+      588,
+      "toward alternate",
+      76
+    ],
+    [
+      589,
+      "toward second path",
+      76
+    ],
+    [
+      590,
+      "toward better if",
+      76
+    ],
+    [
+      591,
+      "near alternative",
+      76
+    ],
+    [
+      592,
+      "near second",
+      76
+    ],
+    [
+      593,
+      "near route",
+      76
+    ],
+    [
+      594,
+      "near fork",
+      76
+    ],
+    [
+      595,
+      "near tradeoff",
+      76
+    ],
+    [
+      596,
+      "near different",
+      76
+    ],
+    [
+      597,
+      "near path",
+      76
+    ],
+    [
+      598,
+      "near other",
+      76
+    ],
+    [
+      599,
+      "near option",
+      76
+    ],
+    [
+      600,
+      "near compare",
+      76
+    ],
+    [
+      601,
+      "near fallback",
+      76
+    ],
+    [
+      602,
+      "near variant",
+      76
+    ],
+    [
+      603,
+      "near side",
+      76
+    ],
+    [
+      604,
+      "near parallel",
+      76
+    ],
+    [
+      605,
+      "near case",
+      76
+    ],
+    [
+      606,
+      "near difference",
+      76
+    ],
+    [
+      607,
+      "near alternate",
+      76
+    ],
+    [
+      608,
+      "near second path",
+      76
+    ],
+    [
+      609,
+      "near better if",
+      75
+    ],
+    [
+      610,
+      "relative alternative",
+      75
+    ],
+    [
+      611,
+      "relative second",
+      75
+    ],
+    [
+      612,
+      "relative route",
+      75
+    ],
+    [
+      613,
+      "relative fork",
+      75
+    ],
+    [
+      614,
+      "relative tradeoff",
+      75
+    ],
+    [
+      615,
+      "relative different",
+      75
+    ],
+    [
+      616,
+      "relative path",
+      75
+    ],
+    [
+      617,
+      "relative other",
+      75
+    ],
+    [
+      618,
+      "relative option",
+      75
+    ],
+    [
+      619,
+      "relative compare",
+      75
+    ],
+    [
+      620,
+      "relative fallback",
+      75
+    ],
+    [
+      621,
+      "relative variant",
+      75
+    ],
+    [
+      622,
+      "relative side",
+      75
+    ],
+    [
+      623,
+      "relative parallel",
+      75
+    ],
+    [
+      624,
+      "relative case",
+      75
+    ],
+    [
+      625,
+      "relative difference",
+      75
+    ],
+    [
+      626,
+      "relative alternate",
+      75
+    ],
+    [
+      627,
+      "relative second path",
+      75
+    ],
+    [
+      628,
+      "relative better if",
+      75
+    ],
+    [
+      629,
+      "alternative second",
+      75
+    ],
+    [
+      630,
+      "alternative route",
+      75
+    ],
+    [
+      631,
+      "alternative fork",
+      75
+    ],
+    [
+      632,
+      "alternative tradeoff",
+      75
+    ],
+    [
+      633,
+      "alternative different",
+      74
+    ],
+    [
+      634,
+      "alternative other",
+      74
+    ],
+    [
+      635,
+      "alternative option",
+      74
+    ],
+    [
+      636,
+      "alternative compare",
+      74
+    ],
+    [
+      637,
+      "alternative fallback",
+      74
+    ],
+    [
+      638,
+      "alternative variant",
+      74
+    ],
+    [
+      639,
+      "second route",
+      74
+    ],
+    [
+      640,
+      "second fork",
+      74
+    ],
+    [
+      641,
+      "second tradeoff",
+      74
+    ],
+    [
+      642,
+      "second different",
+      74
+    ],
+    [
+      643,
+      "second other",
+      74
+    ],
+    [
+      644,
+      "second option",
+      74
+    ],
+    [
+      645,
+      "second compare",
+      74
+    ],
+    [
+      646,
+      "second fallback",
+      74
+    ],
+    [
+      647,
+      "second variant",
+      74
+    ],
+    [
+      648,
+      "second side",
+      74
+    ],
+    [
+      649,
+      "route fork",
+      74
+    ],
+    [
+      650,
+      "route tradeoff",
+      74
+    ],
+    [
+      651,
+      "route different",
+      74
+    ],
+    [
+      652,
+      "route other",
+      74
+    ],
+    [
+      653,
+      "route option",
+      74
+    ],
+    [
+      654,
+      "route compare",
+      74
+    ],
+    [
+      655,
+      "route fallback",
+      74
+    ],
+    [
+      656,
+      "route variant",
+      74
+    ],
+    [
+      657,
+      "route side",
+      74
+    ],
+    [
+      658,
+      "route parallel",
+      73
+    ],
+    [
+      659,
+      "fork tradeoff",
+      73
+    ],
+    [
+      660,
+      "fork different",
+      73
+    ],
+    [
+      661,
+      "fork other",
+      73
+    ],
+    [
+      662,
+      "fork option",
+      73
+    ],
+    [
+      663,
+      "fork compare",
+      73
+    ],
+    [
+      664,
+      "fork fallback",
+      73
+    ],
+    [
+      665,
+      "fork variant",
+      73
+    ],
+    [
+      666,
+      "fork side",
+      73
+    ],
+    [
+      667,
+      "fork parallel",
+      73
+    ],
+    [
+      668,
+      "tradeoff different",
+      73
+    ],
+    [
+      669,
+      "tradeoff other",
+      73
+    ],
+    [
+      670,
+      "tradeoff option",
+      73
+    ],
+    [
+      671,
+      "tradeoff compare",
+      73
+    ],
+    [
+      672,
+      "tradeoff fallback",
+      73
+    ],
+    [
+      673,
+      "tradeoff variant",
+      73
+    ],
+    [
+      674,
+      "tradeoff side",
+      73
+    ],
+    [
+      675,
+      "tradeoff parallel",
+      73
+    ],
+    [
+      676,
+      "tradeoff case",
+      73
+    ],
+    [
+      677,
+      "different other",
+      73
+    ],
+    [
+      678,
+      "different option",
+      73
+    ],
+    [
+      679,
+      "different compare",
+      73
+    ],
+    [
+      680,
+      "different fallback",
+      73
+    ],
+    [
+      681,
+      "tradeoff axis",
+      97
+    ],
+    [
+      682,
+      "fallback branch",
+      97
+    ]
+  ],
+  "triplets": [
+    [
+      1,
+      "under current alternative",
+      100
+    ],
+    [
+      2,
+      "under local alternative",
+      100
+    ],
+    [
+      3,
+      "under bounded alternative",
+      100
+    ],
+    [
+      4,
+      "under finite alternative",
+      100
+    ],
+    [
+      5,
+      "under open alternative",
+      100
+    ],
+    [
+      6,
+      "under live alternative",
+      100
+    ],
+    [
+      7,
+      "within current alternative",
+      100
+    ],
+    [
+      8,
+      "within local alternative",
+      100
+    ],
+    [
+      9,
+      "within bounded alternative",
+      100
+    ],
+    [
+      10,
+      "within finite alternative",
+      100
+    ],
+    [
+      11,
+      "within open alternative",
+      100
+    ],
+    [
+      12,
+      "within live alternative",
+      100
+    ],
+    [
+      13,
+      "across current alternative",
+      100
+    ],
+    [
+      14,
+      "across local alternative",
+      100
+    ],
+    [
+      15,
+      "across bounded alternative",
+      100
+    ],
+    [
+      16,
+      "across finite alternative",
+      100
+    ],
+    [
+      17,
+      "across open alternative",
+      100
+    ],
+    [
+      18,
+      "across live alternative",
+      100
+    ],
+    [
+      19,
+      "between current alternative",
+      100
+    ],
+    [
+      20,
+      "between local alternative",
+      100
+    ],
+    [
+      21,
+      "between bounded alternative",
+      100
+    ],
+    [
+      22,
+      "between finite alternative",
+      100
+    ],
+    [
+      23,
+      "between open alternative",
+      100
+    ],
+    [
+      24,
+      "between live alternative",
+      100
+    ],
+    [
+      25,
+      "through current alternative",
+      100
+    ],
+    [
+      26,
+      "through local alternative",
+      99
+    ],
+    [
+      27,
+      "through bounded alternative",
+      99
+    ],
+    [
+      28,
+      "through finite alternative",
+      99
+    ],
+    [
+      29,
+      "through open alternative",
+      99
+    ],
+    [
+      30,
+      "through live alternative",
+      99
+    ],
+    [
+      31,
+      "before current alternative",
+      99
+    ],
+    [
+      32,
+      "before local alternative",
+      99
+    ],
+    [
+      33,
+      "before bounded alternative",
+      99
+    ],
+    [
+      34,
+      "before finite alternative",
+      99
+    ],
+    [
+      35,
+      "before open alternative",
+      99
+    ],
+    [
+      36,
+      "before live alternative",
+      99
+    ],
+    [
+      37,
+      "alternative evidence path",
+      99
+    ],
+    [
+      38,
+      "alternative support path",
+      99
+    ],
+    [
+      39,
+      "alternative path path",
+      99
+    ],
+    [
+      40,
+      "alternative surface path",
+      99
+    ],
+    [
+      41,
+      "alternative packet path",
+      99
+    ],
+    [
+      42,
+      "alternative receipt path",
+      99
+    ],
+    [
+      43,
+      "alternative trace path",
+      99
+    ],
+    [
+      44,
+      "alternative result path",
+      99
+    ],
+    [
+      45,
+      "alternative scope path",
+      99
+    ],
+    [
+      46,
+      "alternative boundary path",
+      99
+    ],
+    [
+      47,
+      "check alternative receipt",
+      99
+    ],
+    [
+      48,
+      "compare alternative receipt",
+      99
+    ],
+    [
+      49,
+      "observe alternative receipt",
+      99
+    ],
+    [
+      50,
+      "measure alternative receipt",
+      99
+    ],
+    [
+      51,
+      "test alternative receipt",
+      98
+    ],
+    [
+      52,
+      "verify alternative receipt",
+      98
+    ],
+    [
+      53,
+      "hold alternative receipt",
+      98
+    ],
+    [
+      54,
+      "preserve alternative receipt",
+      98
+    ],
+    [
+      55,
+      "under current fork",
+      98
+    ],
+    [
+      56,
+      "under local fork",
+      98
+    ],
+    [
+      57,
+      "under bounded fork",
+      98
+    ],
+    [
+      58,
+      "under finite fork",
+      98
+    ],
+    [
+      59,
+      "under open fork",
+      98
+    ],
+    [
+      60,
+      "under live fork",
+      98
+    ],
+    [
+      61,
+      "within current fork",
+      98
+    ],
+    [
+      62,
+      "within local fork",
+      98
+    ],
+    [
+      63,
+      "within bounded fork",
+      98
+    ],
+    [
+      64,
+      "within finite fork",
+      98
+    ],
+    [
+      65,
+      "within open fork",
+      98
+    ],
+    [
+      66,
+      "within live fork",
+      98
+    ],
+    [
+      67,
+      "across current fork",
+      98
+    ],
+    [
+      68,
+      "across local fork",
+      98
+    ],
+    [
+      69,
+      "across bounded fork",
+      98
+    ],
+    [
+      70,
+      "across finite fork",
+      98
+    ],
+    [
+      71,
+      "across open fork",
+      98
+    ],
+    [
+      72,
+      "across live fork",
+      98
+    ],
+    [
+      73,
+      "between current fork",
+      98
+    ],
+    [
+      74,
+      "between local fork",
+      98
+    ],
+    [
+      75,
+      "between bounded fork",
+      98
+    ],
+    [
+      76,
+      "between finite fork",
+      97
+    ],
+    [
+      77,
+      "between open fork",
+      97
+    ],
+    [
+      78,
+      "between live fork",
+      97
+    ],
+    [
+      79,
+      "through current fork",
+      97
+    ],
+    [
+      80,
+      "through local fork",
+      97
+    ],
+    [
+      81,
+      "through bounded fork",
+      97
+    ],
+    [
+      82,
+      "through finite fork",
+      97
+    ],
+    [
+      83,
+      "through open fork",
+      97
+    ],
+    [
+      84,
+      "through live fork",
+      97
+    ],
+    [
+      85,
+      "before current fork",
+      97
+    ],
+    [
+      86,
+      "before local fork",
+      97
+    ],
+    [
+      87,
+      "before bounded fork",
+      97
+    ],
+    [
+      88,
+      "before finite fork",
+      97
+    ],
+    [
+      89,
+      "before open fork",
+      97
+    ],
+    [
+      90,
+      "before live fork",
+      97
+    ],
+    [
+      91,
+      "fork evidence path",
+      97
+    ],
+    [
+      92,
+      "fork support path",
+      97
+    ],
+    [
+      93,
+      "fork path path",
+      97
+    ],
+    [
+      94,
+      "fork surface path",
+      97
+    ],
+    [
+      95,
+      "fork packet path",
+      97
+    ],
+    [
+      96,
+      "fork receipt path",
+      97
+    ],
+    [
+      97,
+      "fork trace path",
+      97
+    ],
+    [
+      98,
+      "fork result path",
+      97
+    ],
+    [
+      99,
+      "fork scope path",
+      97
+    ],
+    [
+      100,
+      "fork boundary path",
+      97
+    ],
+    [
+      101,
+      "check fork receipt",
+      96
+    ],
+    [
+      102,
+      "compare fork receipt",
+      96
+    ],
+    [
+      103,
+      "observe fork receipt",
+      96
+    ],
+    [
+      104,
+      "measure fork receipt",
+      96
+    ],
+    [
+      105,
+      "test fork receipt",
+      96
+    ],
+    [
+      106,
+      "verify fork receipt",
+      96
+    ],
+    [
+      107,
+      "hold fork receipt",
+      96
+    ],
+    [
+      108,
+      "preserve fork receipt",
+      96
+    ],
+    [
+      109,
+      "under current viable",
+      96
+    ],
+    [
+      110,
+      "under local viable",
+      96
+    ],
+    [
+      111,
+      "under bounded viable",
+      96
+    ],
+    [
+      112,
+      "under finite viable",
+      96
+    ],
+    [
+      113,
+      "under open viable",
+      96
+    ],
+    [
+      114,
+      "under live viable",
+      96
+    ],
+    [
+      115,
+      "within current viable",
+      96
+    ],
+    [
+      116,
+      "within local viable",
+      96
+    ],
+    [
+      117,
+      "within bounded viable",
+      96
+    ],
+    [
+      118,
+      "within finite viable",
+      96
+    ],
+    [
+      119,
+      "within open viable",
+      96
+    ],
+    [
+      120,
+      "within live viable",
+      96
+    ],
+    [
+      121,
+      "across current viable",
+      96
+    ],
+    [
+      122,
+      "across local viable",
+      96
+    ],
+    [
+      123,
+      "across bounded viable",
+      96
+    ],
+    [
+      124,
+      "across finite viable",
+      96
+    ],
+    [
+      125,
+      "across open viable",
+      96
+    ],
+    [
+      126,
+      "across live viable",
+      95
+    ],
+    [
+      127,
+      "between current viable",
+      95
+    ],
+    [
+      128,
+      "between local viable",
+      95
+    ],
+    [
+      129,
+      "between bounded viable",
+      95
+    ],
+    [
+      130,
+      "between finite viable",
+      95
+    ],
+    [
+      131,
+      "between open viable",
+      95
+    ],
+    [
+      132,
+      "between live viable",
+      95
+    ],
+    [
+      133,
+      "through current viable",
+      95
+    ],
+    [
+      134,
+      "through local viable",
+      95
+    ],
+    [
+      135,
+      "through bounded viable",
+      95
+    ],
+    [
+      136,
+      "through finite viable",
+      95
+    ],
+    [
+      137,
+      "through open viable",
+      95
+    ],
+    [
+      138,
+      "through live viable",
+      95
+    ],
+    [
+      139,
+      "before current viable",
+      95
+    ],
+    [
+      140,
+      "before local viable",
+      95
+    ],
+    [
+      141,
+      "before bounded viable",
+      95
+    ],
+    [
+      142,
+      "before finite viable",
+      95
+    ],
+    [
+      143,
+      "before open viable",
+      95
+    ],
+    [
+      144,
+      "before live viable",
+      95
+    ],
+    [
+      145,
+      "viable evidence path",
+      95
+    ],
+    [
+      146,
+      "viable support path",
+      95
+    ],
+    [
+      147,
+      "viable path path",
+      95
+    ],
+    [
+      148,
+      "viable surface path",
+      95
+    ],
+    [
+      149,
+      "viable packet path",
+      95
+    ],
+    [
+      150,
+      "viable receipt path",
+      95
+    ],
+    [
+      151,
+      "viable trace path",
+      94
+    ],
+    [
+      152,
+      "viable result path",
+      94
+    ],
+    [
+      153,
+      "viable scope path",
+      94
+    ],
+    [
+      154,
+      "viable boundary path",
+      94
+    ],
+    [
+      155,
+      "check viable receipt",
+      94
+    ],
+    [
+      156,
+      "compare viable receipt",
+      94
+    ],
+    [
+      157,
+      "observe viable receipt",
+      94
+    ],
+    [
+      158,
+      "measure viable receipt",
+      94
+    ],
+    [
+      159,
+      "test viable receipt",
+      94
+    ],
+    [
+      160,
+      "verify viable receipt",
+      94
+    ],
+    [
+      161,
+      "hold viable receipt",
+      94
+    ],
+    [
+      162,
+      "preserve viable receipt",
+      94
+    ],
+    [
+      163,
+      "under current tradeoff",
+      94
+    ],
+    [
+      164,
+      "under local tradeoff",
+      94
+    ],
+    [
+      165,
+      "under bounded tradeoff",
+      94
+    ],
+    [
+      166,
+      "under finite tradeoff",
+      94
+    ],
+    [
+      167,
+      "under open tradeoff",
+      94
+    ],
+    [
+      168,
+      "under live tradeoff",
+      94
+    ],
+    [
+      169,
+      "within current tradeoff",
+      94
+    ],
+    [
+      170,
+      "within local tradeoff",
+      94
+    ],
+    [
+      171,
+      "within bounded tradeoff",
+      94
+    ],
+    [
+      172,
+      "within finite tradeoff",
+      94
+    ],
+    [
+      173,
+      "within open tradeoff",
+      94
+    ],
+    [
+      174,
+      "within live tradeoff",
+      94
+    ],
+    [
+      175,
+      "across current tradeoff",
+      94
+    ],
+    [
+      176,
+      "across local tradeoff",
+      93
+    ],
+    [
+      177,
+      "across bounded tradeoff",
+      93
+    ],
+    [
+      178,
+      "across finite tradeoff",
+      93
+    ],
+    [
+      179,
+      "across open tradeoff",
+      93
+    ],
+    [
+      180,
+      "across live tradeoff",
+      93
+    ],
+    [
+      181,
+      "between current tradeoff",
+      93
+    ],
+    [
+      182,
+      "between local tradeoff",
+      93
+    ],
+    [
+      183,
+      "between bounded tradeoff",
+      93
+    ],
+    [
+      184,
+      "between finite tradeoff",
+      93
+    ],
+    [
+      185,
+      "between open tradeoff",
+      93
+    ],
+    [
+      186,
+      "between live tradeoff",
+      93
+    ],
+    [
+      187,
+      "through current tradeoff",
+      93
+    ],
+    [
+      188,
+      "through local tradeoff",
+      93
+    ],
+    [
+      189,
+      "through bounded tradeoff",
+      93
+    ],
+    [
+      190,
+      "through finite tradeoff",
+      93
+    ],
+    [
+      191,
+      "through open tradeoff",
+      93
+    ],
+    [
+      192,
+      "through live tradeoff",
+      93
+    ],
+    [
+      193,
+      "before current tradeoff",
+      93
+    ],
+    [
+      194,
+      "before local tradeoff",
+      93
+    ],
+    [
+      195,
+      "before bounded tradeoff",
+      93
+    ],
+    [
+      196,
+      "before finite tradeoff",
+      93
+    ],
+    [
+      197,
+      "before open tradeoff",
+      93
+    ],
+    [
+      198,
+      "before live tradeoff",
+      93
+    ],
+    [
+      199,
+      "tradeoff evidence path",
+      93
+    ],
+    [
+      200,
+      "tradeoff support path",
+      93
+    ],
+    [
+      201,
+      "tradeoff path path",
+      92
+    ],
+    [
+      202,
+      "tradeoff surface path",
+      92
+    ],
+    [
+      203,
+      "tradeoff packet path",
+      92
+    ],
+    [
+      204,
+      "tradeoff receipt path",
+      92
+    ],
+    [
+      205,
+      "tradeoff trace path",
+      92
+    ],
+    [
+      206,
+      "tradeoff result path",
+      92
+    ],
+    [
+      207,
+      "tradeoff scope path",
+      92
+    ],
+    [
+      208,
+      "tradeoff boundary path",
+      92
+    ],
+    [
+      209,
+      "check tradeoff receipt",
+      92
+    ],
+    [
+      210,
+      "compare tradeoff receipt",
+      92
+    ],
+    [
+      211,
+      "observe tradeoff receipt",
+      92
+    ],
+    [
+      212,
+      "measure tradeoff receipt",
+      92
+    ],
+    [
+      213,
+      "test tradeoff receipt",
+      92
+    ],
+    [
+      214,
+      "verify tradeoff receipt",
+      92
+    ],
+    [
+      215,
+      "hold tradeoff receipt",
+      92
+    ],
+    [
+      216,
+      "preserve tradeoff receipt",
+      92
+    ],
+    [
+      217,
+      "under current different",
+      92
+    ],
+    [
+      218,
+      "under local different",
+      92
+    ],
+    [
+      219,
+      "under bounded different",
+      92
+    ],
+    [
+      220,
+      "under finite different",
+      92
+    ],
+    [
+      221,
+      "under open different",
+      92
+    ],
+    [
+      222,
+      "under live different",
+      92
+    ],
+    [
+      223,
+      "within current different",
+      92
+    ],
+    [
+      224,
+      "within local different",
+      92
+    ],
+    [
+      225,
+      "within bounded different",
+      92
+    ],
+    [
+      226,
+      "within finite different",
+      91
+    ],
+    [
+      227,
+      "within open different",
+      91
+    ],
+    [
+      228,
+      "within live different",
+      91
+    ],
+    [
+      229,
+      "across current different",
+      91
+    ],
+    [
+      230,
+      "across local different",
+      91
+    ],
+    [
+      231,
+      "across bounded different",
+      91
+    ],
+    [
+      232,
+      "across finite different",
+      91
+    ],
+    [
+      233,
+      "across open different",
+      91
+    ],
+    [
+      234,
+      "across live different",
+      91
+    ],
+    [
+      235,
+      "between current different",
+      91
+    ],
+    [
+      236,
+      "between local different",
+      91
+    ],
+    [
+      237,
+      "between bounded different",
+      91
+    ],
+    [
+      238,
+      "between finite different",
+      91
+    ],
+    [
+      239,
+      "between open different",
+      91
+    ],
+    [
+      240,
+      "between live different",
+      91
+    ],
+    [
+      241,
+      "under alternative second",
+      91
+    ],
+    [
+      242,
+      "under alternative route",
+      91
+    ],
+    [
+      243,
+      "under alternative fork",
+      91
+    ],
+    [
+      244,
+      "under alternative tradeoff",
+      91
+    ],
+    [
+      245,
+      "under second route",
+      91
+    ],
+    [
+      246,
+      "under second fork",
+      91
+    ],
+    [
+      247,
+      "under second tradeoff",
+      91
+    ],
+    [
+      248,
+      "under second different",
+      91
+    ],
+    [
+      249,
+      "under route fork",
+      91
+    ],
+    [
+      250,
+      "under route tradeoff",
+      91
+    ],
+    [
+      251,
+      "under route different",
+      90
+    ],
+    [
+      252,
+      "under route path",
+      90
+    ],
+    [
+      253,
+      "under fork tradeoff",
+      90
+    ],
+    [
+      254,
+      "under fork different",
+      90
+    ],
+    [
+      255,
+      "under fork path",
+      90
+    ],
+    [
+      256,
+      "under fork other",
+      90
+    ],
+    [
+      257,
+      "under tradeoff different",
+      90
+    ],
+    [
+      258,
+      "under tradeoff path",
+      90
+    ],
+    [
+      259,
+      "under tradeoff other",
+      90
+    ],
+    [
+      260,
+      "under tradeoff option",
+      90
+    ],
+    [
+      261,
+      "under different path",
+      90
+    ],
+    [
+      262,
+      "under different other",
+      90
+    ],
+    [
+      263,
+      "under different option",
+      90
+    ],
+    [
+      264,
+      "under different compare",
+      90
+    ],
+    [
+      265,
+      "under path other",
+      90
+    ],
+    [
+      266,
+      "under path option",
+      90
+    ],
+    [
+      267,
+      "under path compare",
+      90
+    ],
+    [
+      268,
+      "under path fallback",
+      90
+    ],
+    [
+      269,
+      "under other option",
+      90
+    ],
+    [
+      270,
+      "under other compare",
+      90
+    ],
+    [
+      271,
+      "under other fallback",
+      90
+    ],
+    [
+      272,
+      "under other variant",
+      90
+    ],
+    [
+      273,
+      "under option compare",
+      90
+    ],
+    [
+      274,
+      "under option fallback",
+      90
+    ],
+    [
+      275,
+      "under option variant",
+      90
+    ],
+    [
+      276,
+      "under option side",
+      89
+    ],
+    [
+      277,
+      "under compare fallback",
+      89
+    ],
+    [
+      278,
+      "under compare variant",
+      89
+    ],
+    [
+      279,
+      "under compare side",
+      89
+    ],
+    [
+      280,
+      "under compare parallel",
+      89
+    ],
+    [
+      281,
+      "under fallback variant",
+      89
+    ],
+    [
+      282,
+      "under fallback side",
+      89
+    ],
+    [
+      283,
+      "under fallback parallel",
+      89
+    ],
+    [
+      284,
+      "under variant side",
+      89
+    ],
+    [
+      285,
+      "under variant parallel",
+      89
+    ],
+    [
+      286,
+      "under variant case",
+      89
+    ],
+    [
+      287,
+      "under side parallel",
+      89
+    ],
+    [
+      288,
+      "under side case",
+      89
+    ],
+    [
+      289,
+      "under side difference",
+      89
+    ],
+    [
+      290,
+      "under parallel case",
+      89
+    ],
+    [
+      291,
+      "under parallel difference",
+      89
+    ],
+    [
+      292,
+      "under parallel alternate",
+      89
+    ],
+    [
+      293,
+      "under case difference",
+      88
+    ],
+    [
+      294,
+      "under case alternate",
+      88
+    ],
+    [
+      295,
+      "under case second path",
+      88
+    ],
+    [
+      296,
+      "under case better if",
+      88
+    ],
+    [
+      297,
+      "under difference alternate",
+      88
+    ],
+    [
+      298,
+      "under difference second path",
+      88
+    ],
+    [
+      299,
+      "under difference better if",
+      88
+    ],
+    [
+      300,
+      "under difference worse if",
+      88
+    ],
+    [
+      301,
+      "under alternate second path",
+      88
+    ],
+    [
+      302,
+      "under alternate better if",
+      88
+    ],
+    [
+      303,
+      "under alternate worse if",
+      88
+    ],
+    [
+      304,
+      "under alternate different assumption",
+      88
+    ],
+    [
+      305,
+      "under second path better if",
+      88
+    ],
+    [
+      306,
+      "under second path worse if",
+      88
+    ],
+    [
+      307,
+      "under second path different assumption",
+      88
+    ],
+    [
+      308,
+      "under second path viable",
+      88
+    ],
+    [
+      309,
+      "under better if worse if",
+      88
+    ],
+    [
+      310,
+      "under better if different assumption",
+      88
+    ],
+    [
+      311,
+      "under better if viable",
+      88
+    ],
+    [
+      312,
+      "under better if assumption",
+      88
+    ],
+    [
+      313,
+      "within alternative second",
+      88
+    ],
+    [
+      314,
+      "within alternative route",
+      88
+    ],
+    [
+      315,
+      "within alternative fork",
+      88
+    ],
+    [
+      316,
+      "within alternative tradeoff",
+      88
+    ],
+    [
+      317,
+      "within second route",
+      88
+    ],
+    [
+      318,
+      "within second fork",
+      87
+    ],
+    [
+      319,
+      "within second tradeoff",
+      87
+    ],
+    [
+      320,
+      "within second different",
+      87
+    ],
+    [
+      321,
+      "within route fork",
+      87
+    ],
+    [
+      322,
+      "within route tradeoff",
+      87
+    ],
+    [
+      323,
+      "within route different",
+      87
+    ],
+    [
+      324,
+      "within route path",
+      87
+    ],
+    [
+      325,
+      "within fork tradeoff",
+      87
+    ],
+    [
+      326,
+      "within fork different",
+      87
+    ],
+    [
+      327,
+      "within fork path",
+      87
+    ],
+    [
+      328,
+      "within fork other",
+      87
+    ],
+    [
+      329,
+      "within tradeoff different",
+      87
+    ],
+    [
+      330,
+      "within tradeoff path",
+      87
+    ],
+    [
+      331,
+      "within tradeoff other",
+      87
+    ],
+    [
+      332,
+      "within tradeoff option",
+      87
+    ],
+    [
+      333,
+      "within different path",
+      87
+    ],
+    [
+      334,
+      "within different other",
+      87
+    ],
+    [
+      335,
+      "within different option",
+      87
+    ],
+    [
+      336,
+      "within different compare",
+      87
+    ],
+    [
+      337,
+      "within path other",
+      87
+    ],
+    [
+      338,
+      "within path option",
+      87
+    ],
+    [
+      339,
+      "within path compare",
+      87
+    ],
+    [
+      340,
+      "within path fallback",
+      87
+    ],
+    [
+      341,
+      "within other option",
+      87
+    ],
+    [
+      342,
+      "within other compare",
+      87
+    ],
+    [
+      343,
+      "within other fallback",
+      86
+    ],
+    [
+      344,
+      "within other variant",
+      86
+    ],
+    [
+      345,
+      "within option compare",
+      86
+    ],
+    [
+      346,
+      "within option fallback",
+      86
+    ],
+    [
+      347,
+      "within option variant",
+      86
+    ],
+    [
+      348,
+      "within option side",
+      86
+    ],
+    [
+      349,
+      "within compare fallback",
+      86
+    ],
+    [
+      350,
+      "within compare variant",
+      86
+    ],
+    [
+      351,
+      "within compare side",
+      86
+    ],
+    [
+      352,
+      "within compare parallel",
+      86
+    ],
+    [
+      353,
+      "within fallback variant",
+      86
+    ],
+    [
+      354,
+      "within fallback side",
+      86
+    ],
+    [
+      355,
+      "within fallback parallel",
+      86
+    ],
+    [
+      356,
+      "within variant side",
+      86
+    ],
+    [
+      357,
+      "within variant parallel",
+      86
+    ],
+    [
+      358,
+      "within variant case",
+      86
+    ],
+    [
+      359,
+      "within side parallel",
+      86
+    ],
+    [
+      360,
+      "within side case",
+      86
+    ],
+    [
+      361,
+      "within side difference",
+      86
+    ],
+    [
+      362,
+      "within parallel case",
+      86
+    ],
+    [
+      363,
+      "within parallel difference",
+      86
+    ],
+    [
+      364,
+      "within parallel alternate",
+      85
+    ],
+    [
+      365,
+      "within case difference",
+      85
+    ],
+    [
+      366,
+      "within case alternate",
+      85
+    ],
+    [
+      367,
+      "within case second path",
+      85
+    ],
+    [
+      368,
+      "within case better if",
+      85
+    ],
+    [
+      369,
+      "within difference alternate",
+      85
+    ],
+    [
+      370,
+      "within difference second path",
+      85
+    ],
+    [
+      371,
+      "within difference better if",
+      85
+    ],
+    [
+      372,
+      "within difference worse if",
+      85
+    ],
+    [
+      373,
+      "within alternate second path",
+      85
+    ],
+    [
+      374,
+      "within alternate better if",
+      85
+    ],
+    [
+      375,
+      "within alternate worse if",
+      85
+    ],
+    [
+      376,
+      "within alternate different assumption",
+      85
+    ],
+    [
+      377,
+      "within second path better if",
+      85
+    ],
+    [
+      378,
+      "within second path worse if",
+      85
+    ],
+    [
+      379,
+      "within second path different assumption",
+      85
+    ],
+    [
+      380,
+      "within second path viable",
+      85
+    ],
+    [
+      381,
+      "within better if worse if",
+      85
+    ],
+    [
+      382,
+      "within better if different assumption",
+      85
+    ],
+    [
+      383,
+      "within better if viable",
+      85
+    ],
+    [
+      384,
+      "within better if assumption",
+      85
+    ],
+    [
+      385,
+      "across alternative second",
+      84
+    ],
+    [
+      386,
+      "across alternative route",
+      84
+    ],
+    [
+      387,
+      "across alternative fork",
+      84
+    ],
+    [
+      388,
+      "across alternative tradeoff",
+      84
+    ],
+    [
+      389,
+      "across second route",
+      84
+    ],
+    [
+      390,
+      "across second fork",
+      84
+    ],
+    [
+      391,
+      "across second tradeoff",
+      84
+    ],
+    [
+      392,
+      "across second different",
+      84
+    ],
+    [
+      393,
+      "across route fork",
+      84
+    ],
+    [
+      394,
+      "across route tradeoff",
+      84
+    ],
+    [
+      395,
+      "across route different",
+      84
+    ],
+    [
+      396,
+      "across route path",
+      84
+    ],
+    [
+      397,
+      "across fork tradeoff",
+      84
+    ],
+    [
+      398,
+      "across fork different",
+      84
+    ],
+    [
+      399,
+      "across fork path",
+      84
+    ],
+    [
+      400,
+      "across fork other",
+      84
+    ],
+    [
+      401,
+      "across tradeoff different",
+      84
+    ],
+    [
+      402,
+      "across tradeoff path",
+      84
+    ],
+    [
+      403,
+      "across tradeoff other",
+      84
+    ],
+    [
+      404,
+      "across tradeoff option",
+      84
+    ],
+    [
+      405,
+      "across different path",
+      84
+    ],
+    [
+      406,
+      "across different other",
+      84
+    ],
+    [
+      407,
+      "across different option",
+      84
+    ],
+    [
+      408,
+      "across different compare",
+      84
+    ],
+    [
+      409,
+      "across path other",
+      84
+    ],
+    [
+      410,
+      "across path option",
+      83
+    ],
+    [
+      411,
+      "across path compare",
+      83
+    ],
+    [
+      412,
+      "across path fallback",
+      83
+    ],
+    [
+      413,
+      "across other option",
+      83
+    ],
+    [
+      414,
+      "across other compare",
+      83
+    ],
+    [
+      415,
+      "across other fallback",
+      83
+    ],
+    [
+      416,
+      "across other variant",
+      83
+    ],
+    [
+      417,
+      "across option compare",
+      83
+    ],
+    [
+      418,
+      "across option fallback",
+      83
+    ],
+    [
+      419,
+      "across option variant",
+      83
+    ],
+    [
+      420,
+      "across option side",
+      83
+    ],
+    [
+      421,
+      "across compare fallback",
+      83
+    ],
+    [
+      422,
+      "across compare variant",
+      83
+    ],
+    [
+      423,
+      "across compare side",
+      83
+    ],
+    [
+      424,
+      "across compare parallel",
+      83
+    ],
+    [
+      425,
+      "across fallback variant",
+      83
+    ],
+    [
+      426,
+      "across fallback side",
+      83
+    ],
+    [
+      427,
+      "across fallback parallel",
+      83
+    ],
+    [
+      428,
+      "across variant side",
+      83
+    ],
+    [
+      429,
+      "across variant parallel",
+      83
+    ],
+    [
+      430,
+      "across variant case",
+      83
+    ],
+    [
+      431,
+      "across side parallel",
+      83
+    ],
+    [
+      432,
+      "across side case",
+      82
+    ],
+    [
+      433,
+      "across side difference",
+      82
+    ],
+    [
+      434,
+      "across parallel case",
+      82
+    ],
+    [
+      435,
+      "across parallel difference",
+      82
+    ],
+    [
+      436,
+      "across parallel alternate",
+      82
+    ],
+    [
+      437,
+      "across case difference",
+      82
+    ],
+    [
+      438,
+      "across case alternate",
+      82
+    ],
+    [
+      439,
+      "across case second path",
+      82
+    ],
+    [
+      440,
+      "across case better if",
+      82
+    ],
+    [
+      441,
+      "across difference alternate",
+      82
+    ],
+    [
+      442,
+      "across difference second path",
+      82
+    ],
+    [
+      443,
+      "across difference better if",
+      82
+    ],
+    [
+      444,
+      "across difference worse if",
+      82
+    ],
+    [
+      445,
+      "across alternate second path",
+      82
+    ],
+    [
+      446,
+      "across alternate better if",
+      82
+    ],
+    [
+      447,
+      "across alternate worse if",
+      82
+    ],
+    [
+      448,
+      "across alternate different assumption",
+      82
+    ],
+    [
+      449,
+      "across second path better if",
+      82
+    ],
+    [
+      450,
+      "across second path worse if",
+      82
+    ],
+    [
+      451,
+      "across second path different assumption",
+      82
+    ],
+    [
+      452,
+      "across second path viable",
+      81
+    ],
+    [
+      453,
+      "across better if worse if",
+      81
+    ],
+    [
+      454,
+      "across better if different assumption",
+      81
+    ],
+    [
+      455,
+      "across better if viable",
+      81
+    ],
+    [
+      456,
+      "across better if assumption",
+      81
+    ],
+    [
+      457,
+      "between alternative second",
+      81
+    ],
+    [
+      458,
+      "between alternative route",
+      81
+    ],
+    [
+      459,
+      "between alternative fork",
+      81
+    ],
+    [
+      460,
+      "between alternative tradeoff",
+      81
+    ],
+    [
+      461,
+      "between second route",
+      81
+    ],
+    [
+      462,
+      "between second fork",
+      81
+    ],
+    [
+      463,
+      "between second tradeoff",
+      81
+    ],
+    [
+      464,
+      "between second different",
+      81
+    ],
+    [
+      465,
+      "between route fork",
+      81
+    ],
+    [
+      466,
+      "between route tradeoff",
+      81
+    ],
+    [
+      467,
+      "between route different",
+      81
+    ],
+    [
+      468,
+      "between route path",
+      81
+    ],
+    [
+      469,
+      "between fork tradeoff",
+      81
+    ],
+    [
+      470,
+      "between fork different",
+      81
+    ],
+    [
+      471,
+      "between fork path",
+      81
+    ],
+    [
+      472,
+      "between fork other",
+      81
+    ],
+    [
+      473,
+      "between tradeoff different",
+      81
+    ],
+    [
+      474,
+      "between tradeoff path",
+      81
+    ],
+    [
+      475,
+      "between tradeoff other",
+      81
+    ],
+    [
+      476,
+      "between tradeoff option",
+      81
+    ],
+    [
+      477,
+      "between different path",
+      80
+    ],
+    [
+      478,
+      "between different other",
+      80
+    ],
+    [
+      479,
+      "between different option",
+      80
+    ],
+    [
+      480,
+      "between different compare",
+      80
+    ],
+    [
+      481,
+      "between path other",
+      80
+    ],
+    [
+      482,
+      "between path option",
+      80
+    ],
+    [
+      483,
+      "between path compare",
+      80
+    ],
+    [
+      484,
+      "between path fallback",
+      80
+    ],
+    [
+      485,
+      "between other option",
+      80
+    ],
+    [
+      486,
+      "between other compare",
+      80
+    ],
+    [
+      487,
+      "between other fallback",
+      80
+    ],
+    [
+      488,
+      "between other variant",
+      80
+    ],
+    [
+      489,
+      "between option compare",
+      80
+    ],
+    [
+      490,
+      "between option fallback",
+      80
+    ],
+    [
+      491,
+      "between option variant",
+      80
+    ],
+    [
+      492,
+      "between option side",
+      80
+    ],
+    [
+      493,
+      "between compare fallback",
+      80
+    ],
+    [
+      494,
+      "between compare variant",
+      80
+    ],
+    [
+      495,
+      "between compare side",
+      80
+    ],
+    [
+      496,
+      "between compare parallel",
+      80
+    ],
+    [
+      497,
+      "between fallback variant",
+      80
+    ],
+    [
+      498,
+      "between fallback side",
+      80
+    ],
+    [
+      499,
+      "between fallback parallel",
+      80
+    ],
+    [
+      500,
+      "between variant side",
+      80
+    ],
+    [
+      501,
+      "between variant parallel",
+      79
+    ],
+    [
+      502,
+      "between variant case",
+      79
+    ],
+    [
+      503,
+      "between side parallel",
+      79
+    ],
+    [
+      504,
+      "between side case",
+      79
+    ],
+    [
+      505,
+      "between side difference",
+      79
+    ],
+    [
+      506,
+      "between parallel case",
+      79
+    ],
+    [
+      507,
+      "between parallel difference",
+      79
+    ],
+    [
+      508,
+      "between parallel alternate",
+      79
+    ],
+    [
+      509,
+      "between case difference",
+      79
+    ],
+    [
+      510,
+      "between case alternate",
+      79
+    ],
+    [
+      511,
+      "between case second path",
+      79
+    ],
+    [
+      512,
+      "between case better if",
+      79
+    ],
+    [
+      513,
+      "between difference alternate",
+      79
+    ],
+    [
+      514,
+      "between difference second path",
+      79
+    ],
+    [
+      515,
+      "between difference better if",
+      79
+    ],
+    [
+      516,
+      "between difference worse if",
+      79
+    ],
+    [
+      517,
+      "between alternate second path",
+      79
+    ],
+    [
+      518,
+      "between alternate better if",
+      79
+    ],
+    [
+      519,
+      "between alternate worse if",
+      78
+    ],
+    [
+      520,
+      "between alternate different assumption",
+      78
+    ],
+    [
+      521,
+      "between second path better if",
+      78
+    ],
+    [
+      522,
+      "between second path worse if",
+      78
+    ],
+    [
+      523,
+      "between second path different assumption",
+      78
+    ],
+    [
+      524,
+      "between second path viable",
+      78
+    ],
+    [
+      525,
+      "between better if worse if",
+      78
+    ],
+    [
+      526,
+      "between better if different assumption",
+      78
+    ],
+    [
+      527,
+      "between better if viable",
+      78
+    ],
+    [
+      528,
+      "between better if assumption",
+      78
+    ],
+    [
+      529,
+      "through alternative second",
+      78
+    ],
+    [
+      530,
+      "through alternative route",
+      78
+    ],
+    [
+      531,
+      "through alternative fork",
+      78
+    ],
+    [
+      532,
+      "through alternative tradeoff",
+      78
+    ],
+    [
+      533,
+      "through second route",
+      78
+    ],
+    [
+      534,
+      "through second fork",
+      78
+    ],
+    [
+      535,
+      "through second tradeoff",
+      78
+    ],
+    [
+      536,
+      "through second different",
+      78
+    ],
+    [
+      537,
+      "through route fork",
+      78
+    ],
+    [
+      538,
+      "through route tradeoff",
+      78
+    ],
+    [
+      539,
+      "through route different",
+      78
+    ],
+    [
+      540,
+      "through route path",
+      78
+    ],
+    [
+      541,
+      "through fork tradeoff",
+      78
+    ],
+    [
+      542,
+      "through fork different",
+      78
+    ],
+    [
+      543,
+      "through fork path",
+      78
+    ],
+    [
+      544,
+      "through fork other",
+      77
+    ],
+    [
+      545,
+      "through tradeoff different",
+      77
+    ],
+    [
+      546,
+      "through tradeoff path",
+      77
+    ],
+    [
+      547,
+      "through tradeoff other",
+      77
+    ],
+    [
+      548,
+      "through tradeoff option",
+      77
+    ],
+    [
+      549,
+      "through different path",
+      77
+    ],
+    [
+      550,
+      "through different other",
+      77
+    ],
+    [
+      551,
+      "through different option",
+      77
+    ],
+    [
+      552,
+      "through different compare",
+      77
+    ],
+    [
+      553,
+      "through path other",
+      77
+    ],
+    [
+      554,
+      "through path option",
+      77
+    ],
+    [
+      555,
+      "through path compare",
+      77
+    ],
+    [
+      556,
+      "through path fallback",
+      77
+    ],
+    [
+      557,
+      "through other option",
+      77
+    ],
+    [
+      558,
+      "through other compare",
+      77
+    ],
+    [
+      559,
+      "through other fallback",
+      77
+    ],
+    [
+      560,
+      "through other variant",
+      77
+    ],
+    [
+      561,
+      "through option compare",
+      77
+    ],
+    [
+      562,
+      "through option fallback",
+      77
+    ],
+    [
+      563,
+      "through option variant",
+      77
+    ],
+    [
+      564,
+      "through option side",
+      77
+    ],
+    [
+      565,
+      "through compare fallback",
+      77
+    ],
+    [
+      566,
+      "through compare variant",
+      77
+    ],
+    [
+      567,
+      "through compare side",
+      77
+    ],
+    [
+      568,
+      "through compare parallel",
+      77
+    ],
+    [
+      569,
+      "through fallback variant",
+      76
+    ],
+    [
+      570,
+      "through fallback side",
+      76
+    ],
+    [
+      571,
+      "through fallback parallel",
+      76
+    ],
+    [
+      572,
+      "through variant side",
+      76
+    ],
+    [
+      573,
+      "through variant parallel",
+      76
+    ],
+    [
+      574,
+      "through variant case",
+      76
+    ],
+    [
+      575,
+      "through side parallel",
+      76
+    ],
+    [
+      576,
+      "through side case",
+      76
+    ],
+    [
+      577,
+      "through side difference",
+      76
+    ],
+    [
+      578,
+      "through parallel case",
+      76
+    ],
+    [
+      579,
+      "through parallel difference",
+      76
+    ],
+    [
+      580,
+      "through parallel alternate",
+      76
+    ],
+    [
+      581,
+      "through case difference",
+      76
+    ],
+    [
+      582,
+      "through case alternate",
+      76
+    ],
+    [
+      583,
+      "through case second path",
+      76
+    ],
+    [
+      584,
+      "through case better if",
+      76
+    ],
+    [
+      585,
+      "through difference alternate",
+      76
+    ],
+    [
+      586,
+      "through difference second path",
+      75
+    ],
+    [
+      587,
+      "through difference better if",
+      75
+    ],
+    [
+      588,
+      "through difference worse if",
+      75
+    ],
+    [
+      589,
+      "through alternate second path",
+      75
+    ],
+    [
+      590,
+      "through alternate better if",
+      75
+    ],
+    [
+      591,
+      "through alternate worse if",
+      75
+    ],
+    [
+      592,
+      "through alternate different assumption",
+      75
+    ],
+    [
+      593,
+      "through second path better if",
+      75
+    ],
+    [
+      594,
+      "through second path worse if",
+      75
+    ],
+    [
+      595,
+      "through second path different assumption",
+      75
+    ],
+    [
+      596,
+      "through second path viable",
+      75
+    ],
+    [
+      597,
+      "through better if worse if",
+      75
+    ],
+    [
+      598,
+      "through better if different assumption",
+      75
+    ],
+    [
+      599,
+      "through better if viable",
+      75
+    ],
+    [
+      600,
+      "through better if assumption",
+      75
+    ],
+    [
+      601,
+      "before alternative second",
+      75
+    ],
+    [
+      602,
+      "before alternative route",
+      75
+    ],
+    [
+      603,
+      "before alternative fork",
+      75
+    ],
+    [
+      604,
+      "before alternative tradeoff",
+      75
+    ],
+    [
+      605,
+      "before second route",
+      75
+    ],
+    [
+      606,
+      "before second fork",
+      75
+    ],
+    [
+      607,
+      "before second tradeoff",
+      75
+    ],
+    [
+      608,
+      "before second different",
+      75
+    ],
+    [
+      609,
+      "before route fork",
+      75
+    ],
+    [
+      610,
+      "before route tradeoff",
+      75
+    ],
+    [
+      611,
+      "before route different",
+      74
+    ],
+    [
+      612,
+      "before route path",
+      74
+    ],
+    [
+      613,
+      "before fork tradeoff",
+      74
+    ],
+    [
+      614,
+      "before fork different",
+      74
+    ],
+    [
+      615,
+      "before fork path",
+      74
+    ],
+    [
+      616,
+      "before fork other",
+      74
+    ],
+    [
+      617,
+      "before tradeoff different",
+      74
+    ],
+    [
+      618,
+      "before tradeoff path",
+      74
+    ],
+    [
+      619,
+      "before tradeoff other",
+      74
+    ],
+    [
+      620,
+      "before tradeoff option",
+      74
+    ],
+    [
+      621,
+      "before different path",
+      74
+    ],
+    [
+      622,
+      "before different other",
+      74
+    ],
+    [
+      623,
+      "before different option",
+      74
+    ],
+    [
+      624,
+      "before different compare",
+      74
+    ],
+    [
+      625,
+      "before path other",
+      74
+    ],
+    [
+      626,
+      "before path option",
+      74
+    ],
+    [
+      627,
+      "before path compare",
+      74
+    ],
+    [
+      628,
+      "before path fallback",
+      74
+    ],
+    [
+      629,
+      "before other option",
+      74
+    ],
+    [
+      630,
+      "before other compare",
+      74
+    ],
+    [
+      631,
+      "before other fallback",
+      74
+    ],
+    [
+      632,
+      "before other variant",
+      74
+    ],
+    [
+      633,
+      "before option compare",
+      74
+    ],
+    [
+      634,
+      "before option fallback",
+      74
+    ],
+    [
+      635,
+      "before option variant",
+      74
+    ],
+    [
+      636,
+      "before option side",
+      73
+    ],
+    [
+      637,
+      "before compare fallback",
+      73
+    ],
+    [
+      638,
+      "before compare variant",
+      73
+    ],
+    [
+      639,
+      "before compare side",
+      73
+    ],
+    [
+      640,
+      "before compare parallel",
+      73
+    ],
+    [
+      641,
+      "before fallback variant",
+      73
+    ],
+    [
+      642,
+      "before fallback side",
+      73
+    ],
+    [
+      643,
+      "before fallback parallel",
+      73
+    ],
+    [
+      644,
+      "before variant side",
+      73
+    ],
+    [
+      645,
+      "before variant parallel",
+      73
+    ],
+    [
+      646,
+      "before variant case",
+      73
+    ],
+    [
+      647,
+      "before side parallel",
+      73
+    ],
+    [
+      648,
+      "before side case",
+      73
+    ],
+    [
+      649,
+      "before side difference",
+      73
+    ],
+    [
+      650,
+      "before parallel case",
+      73
+    ],
+    [
+      651,
+      "before parallel difference",
+      73
+    ],
+    [
+      652,
+      "before parallel alternate",
+      73
+    ],
+    [
+      653,
+      "before case difference",
+      72
+    ],
+    [
+      654,
+      "before case alternate",
+      72
+    ],
+    [
+      655,
+      "before case second path",
+      72
+    ],
+    [
+      656,
+      "before case better if",
+      72
+    ],
+    [
+      657,
+      "before difference alternate",
+      72
+    ],
+    [
+      658,
+      "before difference second path",
+      72
+    ],
+    [
+      659,
+      "before difference better if",
+      72
+    ],
+    [
+      660,
+      "before difference worse if",
+      72
+    ],
+    [
+      661,
+      "before alternate second path",
+      72
+    ],
+    [
+      662,
+      "before alternate better if",
+      72
+    ],
+    [
+      663,
+      "before alternate worse if",
+      72
+    ],
+    [
+      664,
+      "before alternate different assumption",
+      72
+    ],
+    [
+      665,
+      "before second path better if",
+      72
+    ],
+    [
+      666,
+      "before second path worse if",
+      72
+    ],
+    [
+      667,
+      "before second path different assumption",
+      72
+    ],
+    [
+      668,
+      "before second path viable",
+      72
+    ],
+    [
+      669,
+      "before better if worse if",
+      72
+    ],
+    [
+      670,
+      "before better if different assumption",
+      72
+    ],
+    [
+      671,
+      "before better if viable",
+      72
+    ],
+    [
+      672,
+      "before better if assumption",
+      72
+    ],
+    [
+      673,
+      "after alternative second",
+      72
+    ],
+    [
+      674,
+      "after alternative route",
+      72
+    ],
+    [
+      675,
+      "after alternative fork",
+      72
+    ],
+    [
+      676,
+      "after alternative tradeoff",
+      72
+    ],
+    [
+      677,
+      "after second route",
+      72
+    ],
+    [
+      678,
+      "after second fork",
+      71
+    ],
+    [
+      679,
+      "after second tradeoff",
+      71
+    ],
+    [
+      680,
+      "after second different",
+      71
+    ],
+    [
+      681,
+      "after route fork",
+      71
+    ],
+    [
+      682,
+      "after route tradeoff",
+      71
+    ],
+    [
+      683,
+      "after route different",
+      71
+    ],
+    [
+      684,
+      "after route path",
+      71
+    ],
+    [
+      685,
+      "after fork tradeoff",
+      71
+    ],
+    [
+      686,
+      "after fork different",
+      71
+    ],
+    [
+      687,
+      "after fork path",
+      71
+    ],
+    [
+      688,
+      "after fork other",
+      71
+    ],
+    [
+      689,
+      "after tradeoff different",
+      71
+    ],
+    [
+      690,
+      "after tradeoff path",
+      71
+    ],
+    [
+      691,
+      "after tradeoff other",
+      71
+    ],
+    [
+      692,
+      "after tradeoff option",
+      71
+    ],
+    [
+      693,
+      "after different path",
+      71
+    ],
+    [
+      694,
+      "after different other",
+      71
+    ],
+    [
+      695,
+      "after different option",
+      71
+    ],
+    [
+      696,
+      "after different compare",
+      71
+    ],
+    [
+      697,
+      "after path other",
+      71
+    ],
+    [
+      698,
+      "after path option",
+      71
+    ],
+    [
+      699,
+      "after path compare",
+      71
+    ],
+    [
+      700,
+      "after path fallback",
+      71
+    ],
+    [
+      701,
+      "after other option",
+      71
+    ],
+    [
+      702,
+      "after other compare",
+      71
+    ],
+    [
+      703,
+      "after other fallback",
+      70
+    ],
+    [
+      704,
+      "after other variant",
+      70
+    ],
+    [
+      705,
+      "after option compare",
+      70
+    ],
+    [
+      706,
+      "after option fallback",
+      70
+    ],
+    [
+      707,
+      "after option variant",
+      70
+    ],
+    [
+      708,
+      "after option side",
+      70
+    ],
+    [
+      709,
+      "after compare fallback",
+      70
+    ],
+    [
+      710,
+      "after compare variant",
+      70
+    ],
+    [
+      711,
+      "after compare side",
+      70
+    ],
+    [
+      712,
+      "after compare parallel",
+      70
+    ],
+    [
+      713,
+      "after fallback variant",
+      70
+    ],
+    [
+      714,
+      "after fallback side",
+      70
+    ],
+    [
+      715,
+      "after fallback parallel",
+      70
+    ],
+    [
+      716,
+      "after variant side",
+      70
+    ],
+    [
+      717,
+      "after variant parallel",
+      70
+    ],
+    [
+      718,
+      "after variant case",
+      70
+    ],
+    [
+      719,
+      "after side parallel",
+      70
+    ],
+    [
+      720,
+      "after side case",
+      70
+    ],
+    [
+      721,
+      "after side difference",
+      70
+    ],
+    [
+      722,
+      "after parallel case",
+      70
+    ],
+    [
+      723,
+      "after parallel difference",
+      70
+    ],
+    [
+      724,
+      "after parallel alternate",
+      69
+    ],
+    [
+      725,
+      "after case difference",
+      69
+    ],
+    [
+      726,
+      "after case alternate",
+      69
+    ],
+    [
+      727,
+      "after case second path",
+      69
+    ],
+    [
+      728,
+      "after case better if",
+      69
+    ],
+    [
+      729,
+      "after difference alternate",
+      69
+    ],
+    [
+      730,
+      "after difference second path",
+      69
+    ],
+    [
+      731,
+      "after difference better if",
+      69
+    ],
+    [
+      732,
+      "after difference worse if",
+      69
+    ],
+    [
+      733,
+      "after alternate second path",
+      69
+    ],
+    [
+      734,
+      "after alternate better if",
+      69
+    ],
+    [
+      735,
+      "after alternate worse if",
+      69
+    ],
+    [
+      736,
+      "after alternate different assumption",
+      69
+    ],
+    [
+      737,
+      "after second path better if",
+      69
+    ],
+    [
+      738,
+      "after second path worse if",
+      69
+    ],
+    [
+      739,
+      "after second path different assumption",
+      69
+    ],
+    [
+      740,
+      "after second path viable",
+      69
+    ],
+    [
+      741,
+      "after better if worse if",
+      69
+    ],
+    [
+      742,
+      "after better if different assumption",
+      69
+    ],
+    [
+      743,
+      "after better if viable",
+      69
+    ],
+    [
+      744,
+      "after better if assumption",
+      69
+    ],
+    [
+      745,
+      "during alternative second",
+      68
+    ],
+    [
+      746,
+      "during alternative route",
+      68
+    ],
+    [
+      747,
+      "during alternative fork",
+      68
+    ],
+    [
+      748,
+      "during alternative tradeoff",
+      68
+    ],
+    [
+      749,
+      "during second route",
+      68
+    ],
+    [
+      750,
+      "during second fork",
+      68
+    ],
+    [
+      751,
+      "during second tradeoff",
+      68
+    ],
+    [
+      752,
+      "during second different",
+      68
+    ],
+    [
+      753,
+      "during route fork",
+      68
+    ],
+    [
+      754,
+      "during route tradeoff",
+      68
+    ],
+    [
+      755,
+      "during route different",
+      68
+    ],
+    [
+      756,
+      "during route path",
+      68
+    ],
+    [
+      757,
+      "during fork tradeoff",
+      68
+    ],
+    [
+      758,
+      "during fork different",
+      68
+    ],
+    [
+      759,
+      "during fork path",
+      68
+    ],
+    [
+      760,
+      "during fork other",
+      68
+    ],
+    [
+      761,
+      "during tradeoff different",
+      68
+    ],
+    [
+      762,
+      "during tradeoff path",
+      68
+    ],
+    [
+      763,
+      "during tradeoff other",
+      68
+    ],
+    [
+      764,
+      "during tradeoff option",
+      68
+    ],
+    [
+      765,
+      "during different path",
+      68
+    ],
+    [
+      766,
+      "during different other",
+      68
+    ],
+    [
+      767,
+      "during different option",
+      68
+    ],
+    [
+      768,
+      "during different compare",
+      68
+    ],
+    [
+      769,
+      "during path other",
+      68
+    ],
+    [
+      770,
+      "during path option",
+      67
+    ],
+    [
+      771,
+      "during path compare",
+      67
+    ],
+    [
+      772,
+      "during path fallback",
+      67
+    ],
+    [
+      773,
+      "during other option",
+      67
+    ],
+    [
+      774,
+      "during other compare",
+      67
+    ],
+    [
+      775,
+      "during other fallback",
+      67
+    ],
+    [
+      776,
+      "during other variant",
+      67
+    ],
+    [
+      777,
+      "during option compare",
+      67
+    ],
+    [
+      778,
+      "during option fallback",
+      67
+    ],
+    [
+      779,
+      "during option variant",
+      67
+    ],
+    [
+      780,
+      "during option side",
+      67
+    ],
+    [
+      781,
+      "during compare fallback",
+      67
+    ],
+    [
+      782,
+      "during compare variant",
+      67
+    ],
+    [
+      783,
+      "during compare side",
+      67
+    ],
+    [
+      784,
+      "during compare parallel",
+      67
+    ],
+    [
+      785,
+      "during fallback variant",
+      67
+    ],
+    [
+      786,
+      "during fallback side",
+      67
+    ],
+    [
+      787,
+      "during fallback parallel",
+      67
+    ],
+    [
+      788,
+      "during variant side",
+      67
+    ],
+    [
+      789,
+      "during variant parallel",
+      67
+    ],
+    [
+      790,
+      "during variant case",
+      67
+    ],
+    [
+      791,
+      "during side parallel",
+      67
+    ],
+    [
+      792,
+      "during side case",
+      66
+    ],
+    [
+      793,
+      "during side difference",
+      66
+    ],
+    [
+      794,
+      "during parallel case",
+      66
+    ],
+    [
+      795,
+      "during parallel difference",
+      66
+    ],
+    [
+      796,
+      "during parallel alternate",
+      66
+    ],
+    [
+      797,
+      "during case difference",
+      66
+    ],
+    [
+      798,
+      "during case alternate",
+      66
+    ],
+    [
+      799,
+      "during case second path",
+      66
+    ],
+    [
+      800,
+      "during case better if",
+      66
+    ],
+    [
+      801,
+      "during difference alternate",
+      66
+    ],
+    [
+      802,
+      "during difference second path",
+      66
+    ],
+    [
+      803,
+      "during difference better if",
+      66
+    ],
+    [
+      804,
+      "during difference worse if",
+      66
+    ],
+    [
+      805,
+      "during alternate second path",
+      66
+    ],
+    [
+      806,
+      "during alternate better if",
+      66
+    ],
+    [
+      807,
+      "during alternate worse if",
+      66
+    ],
+    [
+      808,
+      "during alternate different assumption",
+      66
+    ],
+    [
+      809,
+      "during second path better if",
+      66
+    ],
+    [
+      810,
+      "during second path worse if",
+      66
+    ],
+    [
+      811,
+      "during second path different assumption",
+      66
+    ],
+    [
+      812,
+      "during second path viable",
+      65
+    ],
+    [
+      813,
+      "during better if worse if",
+      65
+    ],
+    [
+      814,
+      "during better if different assumption",
+      65
+    ],
+    [
+      815,
+      "during better if viable",
+      65
+    ],
+    [
+      816,
+      "during better if assumption",
+      65
+    ],
+    [
+      817,
+      "until alternative second",
+      65
+    ],
+    [
+      818,
+      "until alternative route",
+      65
+    ],
+    [
+      819,
+      "until alternative fork",
+      65
+    ],
+    [
+      820,
+      "until alternative tradeoff",
+      65
+    ],
+    [
+      821,
+      "until second route",
+      65
+    ],
+    [
+      822,
+      "until second fork",
+      65
+    ],
+    [
+      823,
+      "until second tradeoff",
+      65
+    ],
+    [
+      824,
+      "until second different",
+      65
+    ],
+    [
+      825,
+      "until route fork",
+      65
+    ],
+    [
+      826,
+      "until route tradeoff",
+      65
+    ],
+    [
+      827,
+      "until route different",
+      65
+    ],
+    [
+      828,
+      "until route path",
+      65
+    ],
+    [
+      829,
+      "until fork tradeoff",
+      65
+    ],
+    [
+      830,
+      "until fork different",
+      65
+    ],
+    [
+      831,
+      "until fork path",
+      65
+    ],
+    [
+      832,
+      "until fork other",
+      65
+    ],
+    [
+      833,
+      "until tradeoff different",
+      65
+    ],
+    [
+      834,
+      "until tradeoff path",
+      65
+    ],
+    [
+      835,
+      "until tradeoff other",
+      65
+    ],
+    [
+      836,
+      "until tradeoff option",
+      65
+    ],
+    [
+      837,
+      "until different path",
+      64
+    ],
+    [
+      838,
+      "until different other",
+      64
+    ],
+    [
+      839,
+      "until different option",
+      64
+    ],
+    [
+      840,
+      "until different compare",
+      64
+    ],
+    [
+      841,
+      "until path other",
+      64
+    ],
+    [
+      842,
+      "until path option",
+      64
+    ],
+    [
+      843,
+      "until path compare",
+      64
+    ],
+    [
+      844,
+      "until path fallback",
+      64
+    ],
+    [
+      845,
+      "until other option",
+      64
+    ],
+    [
+      846,
+      "until other compare",
+      64
+    ],
+    [
+      847,
+      "until other fallback",
+      64
+    ],
+    [
+      848,
+      "until other variant",
+      64
+    ],
+    [
+      849,
+      "until option compare",
+      64
+    ],
+    [
+      850,
+      "until option fallback",
+      64
+    ],
+    [
+      851,
+      "until option variant",
+      64
+    ],
+    [
+      852,
+      "until option side",
+      64
+    ],
+    [
+      853,
+      "until compare fallback",
+      64
+    ],
+    [
+      854,
+      "until compare variant",
+      64
+    ],
+    [
+      855,
+      "until compare side",
+      64
+    ],
+    [
+      856,
+      "until compare parallel",
+      64
+    ],
+    [
+      857,
+      "until fallback variant",
+      64
+    ],
+    [
+      858,
+      "until fallback side",
+      64
+    ],
+    [
+      859,
+      "until fallback parallel",
+      64
+    ],
+    [
+      860,
+      "until variant side",
+      64
+    ],
+    [
+      861,
+      "until variant parallel",
+      63
+    ],
+    [
+      862,
+      "until variant case",
+      63
+    ],
+    [
+      863,
+      "until side parallel",
+      63
+    ],
+    [
+      864,
+      "until side case",
+      63
+    ],
+    [
+      865,
+      "until side difference",
+      63
+    ],
+    [
+      866,
+      "until parallel case",
+      63
+    ],
+    [
+      867,
+      "until parallel difference",
+      63
+    ],
+    [
+      868,
+      "until parallel alternate",
+      63
+    ],
+    [
+      869,
+      "until case difference",
+      63
+    ],
+    [
+      870,
+      "until case alternate",
+      63
+    ],
+    [
+      871,
+      "until case second path",
+      63
+    ],
+    [
+      872,
+      "until case better if",
+      63
+    ],
+    [
+      873,
+      "until difference alternate",
+      63
+    ],
+    [
+      874,
+      "until difference second path",
+      63
+    ],
+    [
+      875,
+      "until difference better if",
+      63
+    ],
+    [
+      876,
+      "until difference worse if",
+      63
+    ],
+    [
+      877,
+      "until alternate second path",
+      63
+    ],
+    [
+      878,
+      "until alternate better if",
+      63
+    ],
+    [
+      879,
+      "until alternate worse if",
+      62
+    ],
+    [
+      880,
+      "until alternate different assumption",
+      62
+    ],
+    [
+      881,
+      "until second path better if",
+      62
+    ],
+    [
+      882,
+      "until second path worse if",
+      62
+    ],
+    [
+      883,
+      "until second path different assumption",
+      62
+    ],
+    [
+      884,
+      "until second path viable",
+      62
+    ],
+    [
+      885,
+      "until better if worse if",
+      62
+    ],
+    [
+      886,
+      "until better if different assumption",
+      62
+    ],
+    [
+      887,
+      "until better if viable",
+      62
+    ],
+    [
+      888,
+      "until better if assumption",
+      62
+    ],
+    [
+      889,
+      "since alternative second",
+      62
+    ],
+    [
+      890,
+      "since alternative route",
+      62
+    ],
+    [
+      891,
+      "since alternative fork",
+      62
+    ],
+    [
+      892,
+      "since alternative tradeoff",
+      62
+    ],
+    [
+      893,
+      "since second route",
+      62
+    ],
+    [
+      894,
+      "since second fork",
+      62
+    ],
+    [
+      895,
+      "since second tradeoff",
+      62
+    ],
+    [
+      896,
+      "since second different",
+      62
+    ],
+    [
+      897,
+      "since route fork",
+      62
+    ],
+    [
+      898,
+      "since route tradeoff",
+      62
+    ],
+    [
+      899,
+      "since route different",
+      62
+    ],
+    [
+      900,
+      "since route path",
+      62
+    ],
+    [
+      901,
+      "since fork tradeoff",
+      62
+    ],
+    [
+      902,
+      "since fork different",
+      62
+    ],
+    [
+      903,
+      "since fork path",
+      62
+    ],
+    [
+      904,
+      "since fork other",
+      61
+    ],
+    [
+      905,
+      "since tradeoff different",
+      61
+    ],
+    [
+      906,
+      "since tradeoff path",
+      61
+    ],
+    [
+      907,
+      "since tradeoff other",
+      61
+    ],
+    [
+      908,
+      "since tradeoff option",
+      61
+    ],
+    [
+      909,
+      "since different path",
+      61
+    ],
+    [
+      910,
+      "since different other",
+      61
+    ],
+    [
+      911,
+      "since different option",
+      61
+    ],
+    [
+      912,
+      "since different compare",
+      61
+    ],
+    [
+      913,
+      "since path other",
+      61
+    ],
+    [
+      914,
+      "since path option",
+      61
+    ],
+    [
+      915,
+      "since path compare",
+      61
+    ],
+    [
+      916,
+      "since path fallback",
+      61
+    ],
+    [
+      917,
+      "since other option",
+      61
+    ],
+    [
+      918,
+      "since other compare",
+      61
+    ],
+    [
+      919,
+      "since other fallback",
+      61
+    ],
+    [
+      920,
+      "since other variant",
+      61
+    ],
+    [
+      921,
+      "since option compare",
+      61
+    ],
+    [
+      922,
+      "since option fallback",
+      61
+    ],
+    [
+      923,
+      "since option variant",
+      61
+    ],
+    [
+      924,
+      "since option side",
+      61
+    ],
+    [
+      925,
+      "since compare fallback",
+      61
+    ],
+    [
+      926,
+      "since compare variant",
+      61
+    ],
+    [
+      927,
+      "since compare side",
+      61
+    ],
+    [
+      928,
+      "since compare parallel",
+      61
+    ],
+    [
+      929,
+      "branch compare tradeoff",
+      96
+    ]
+  ],
+  "v4_1_salience_expansion": {
+    "source": "deep-research-report.md",
+    "status": "positive salience only; no diagnostic/provenance boot",
+    "route": "ALTERNATIVE",
+    "size": "full"
+  }
+}

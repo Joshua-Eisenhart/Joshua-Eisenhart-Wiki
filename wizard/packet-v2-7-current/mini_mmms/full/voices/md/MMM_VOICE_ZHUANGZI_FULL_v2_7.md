@@ -1,0 +1,430 @@
+---
+title: Mmm Voice Zhuangzi Full V2 7
+created: 2026-04-28
+updated: 2026-04-28
+type: concept
+tags: [wizard, mmm, packet, receipt]
+framing: current
+source_path: mini_mmms/full/voices/md/MMM_VOICE_ZHUANGZI_FULL_v2_7.md
+---
+
+# MMM_VOICE_ZHUANGZI_FULL_v2_7
+
+## aligned nouns and phrases
+
+- live reading
+- separate readings
+- unruled option
+- surviving alternative
+- unforced choice
+- open branch
+- anti-collapse
+- coexisting candidates
+- premature closure
+- reading under probe
+- held apart
+- plural view kept distinct
+- name ruling condition
+- premature merge warning
+- reading remains live
+- branch stays open
+- anti collapse method
+- unused value
+- many perspectives
+- non-forcing
+- edge case
+- still possible
+- surviving alternatives
+- language body
+- exclusion test
+- collapse check
+- hold alternatives apart
+- surviving interpretation
+- evidence excludes later
+- possibility ledger
+- perspective
+- transformation
+- pivot
+- open
+- nonforcing
+- unfixed
+- many
+- readings
+- plural
+- drift
+- return
+- reversal
+- situated
+- responsive
+- empty
+- soft
+- yielding
+- indirect
+- play
+- difference
+- change
+- turning
+- shift
+- branch
+- fork
+- coexisting
+- unsettled
+- plurality
+- coexist
+- distinct
+- separate
+- transform
+- path
+- tension
+- residue
+- undecided
+- unforced
+- light
+- angle
+- alternate
+- admissible
+- candidate
+- outside
+- only
+- then
+- bounded
+- finite
+- concrete
+- observed
+- missing
+- small
+- honest
+- first
+- prior
+- together
+- compared
+- measured
+- used
+- fit
+- viable
+- direct
+- different
+- packet
+- artifact
+- receipt
+- trace
+- result
+- support
+- evidence
+- scope
+- boundary
+- gate
+- guard
+- rung
+- status
+- survivor
+- witness
+- probe
+- constraint
+- name
+- use
+- role
+- practice
+- experience
+- observation
+- perception
+- conjunction
+- resemblance
+- relation
+- probability
+- particular
+- predicate
+- class
+- model
+- solver
+- satisfiable
+- unsatisfiable
+- countermodel
+- counterexample
+- equivalence
+- indistinguishable
+- readout
+- measure
+- measurement
+- operation
+- procedure
+- instrument
+- experiment
+- check
+- verify
+- compare
+- sample
+- route
+- lane
+- voice
+- lens
+- council
+- audit
+- finding
+- blocker
+- deferred
+- blocked
+- spawned
+- diagnostic
+- untried
+- preload
+- language
+- body
+- during
+- since
+- toward
+- relative
+- according
+- locally
+- jointly
+- separately
+- rather
+- instead
+- still
+- often
+
+## correlated couplings
+
+- two readings kept distinct
+- alternative held until excluded
+- unforced branch before synthesis
+- anti-collapse under receipt
+- live evidence
+- live support
+- live packet
+- live receipt
+- live trace
+- live result
+- live scope
+- live boundary
+- live witness
+- live probe
+- live constraint
+- compare live
+- measure live
+- hold live
+- preserve live
+- split live
+- narrow live
+- open evidence
+- open support
+- open packet
+- open receipt
+- open trace
+- open result
+- open scope
+- open boundary
+- open witness
+- open probe
+- open constraint
+- compare open
+- measure open
+- hold open
+- preserve open
+- split open
+- narrow open
+- branch evidence
+- branch support
+- branch packet
+- branch receipt
+- branch trace
+- branch result
+- branch scope
+- branch boundary
+- branch witness
+- branch probe
+- branch constraint
+- compare branch
+- measure branch
+- hold branch
+- preserve branch
+- split branch
+- narrow branch
+- reading evidence
+- reading support
+- reading packet
+- reading receipt
+- reading trace
+- reading result
+- reading scope
+- reading boundary
+- reading witness
+- reading probe
+- reading constraint
+- compare reading
+- measure reading
+- hold reading
+- preserve reading
+- split reading
+- narrow reading
+- readings evidence
+- readings support
+- readings packet
+- readings receipt
+- readings trace
+- readings result
+- readings scope
+- readings boundary
+- readings witness
+- readings probe
+- readings constraint
+- compare readings
+- measure readings
+- hold readings
+- preserve readings
+- split readings
+- narrow readings
+- plural evidence
+- plural support
+- plural packet
+- plural receipt
+- plural trace
+- plural result
+- plural scope
+- plural boundary
+- plural witness
+- plural probe
+- plural constraint
+- compare plural
+- measure plural
+- hold plural
+- preserve plural
+- split plural
+- narrow plural
+- plurality evidence
+- plurality support
+- plurality packet
+- plurality receipt
+- plurality trace
+- plurality result
+- plurality scope
+- plurality boundary
+- plurality witness
+- plurality probe
+- plurality constraint
+- compare plurality
+- measure plurality
+- hold plurality
+- preserve plurality
+- split plurality
+- narrow plurality
+- coexist evidence
+- coexist support
+- coexist packet
+- coexist receipt
+- coexist trace
+- coexist result
+- coexist scope
+- coexist boundary
+- coexist witness
+- coexist probe
+- coexist constraint
+- compare coexist
+- measure coexist
+- hold coexist
+- preserve coexist
+- split coexist
+- narrow coexist
+- distinct evidence
+- distinct support
+- distinct packet
+- distinct receipt
+- distinct trace
+- distinct result
+- distinct scope
+- distinct boundary
+- distinct witness
+- distinct probe
+- distinct constraint
+- compare distinct
+- measure distinct
+- hold distinct
+- preserve distinct
+- split distinct
+- narrow distinct
+- separate evidence
+- separate support
+- separate packet
+
+## three-part cues
+
+- live alternatives preserved
+- reading probe exclusion
+- branch before synthesis
+- compare live receipt
+- measure live receipt
+- hold live receipt
+- preserve live receipt
+- compare open receipt
+- measure open receipt
+- hold open receipt
+- preserve open receipt
+- compare branch receipt
+- measure branch receipt
+- hold branch receipt
+- preserve branch receipt
+- compare reading receipt
+- measure reading receipt
+- hold reading receipt
+- preserve reading receipt
+- during way perspective
+- during way transformation
+- during perspective transformation
+- during perspective pivot
+- during transformation pivot
+- during transformation open
+- during transformation reading
+- during pivot open
+- during pivot reading
+- during pivot live
+- during open reading
+- during open live
+- during open nonforcing
+- during open unfixed
+- during reading live
+- during reading nonforcing
+- during reading unfixed
+- during live nonforcing
+- during live unfixed
+- during live many
+- during nonforcing unfixed
+- during nonforcing many
+- during nonforcing readings
+- during unfixed many
+- during unfixed readings
+- during unfixed plural
+- during many readings
+- during many plural
+- during many drift
+- during many return
+- during readings plural
+- during readings drift
+- during readings return
+- during readings reversal
+- during plural drift
+- during plural return
+- during plural reversal
+- during plural situated
+- during drift return
+- during drift reversal
+- during drift situated
+- during drift responsive
+- during return reversal
+- during return situated
+- during return responsive
+- during return empty
+- during reversal situated
+- during reversal responsive
+- during reversal empty
+- during reversal soft
+- during situated responsive
+- during situated empty
+- during situated soft
+- during situated yielding
+- since way perspective
+- since way transformation
+- since perspective transformation
+- since perspective pivot
+- since transformation pivot
+- since transformation open
+- since transformation reading

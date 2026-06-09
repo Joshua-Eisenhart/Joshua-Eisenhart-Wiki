@@ -1,0 +1,389 @@
+---
+title: Direct
+created: 2026-04-28
+updated: 2026-04-28
+type: concept
+tags: [wizard, mmm, packet, receipt]
+framing: current
+source_path: runs/wizard_general_bakeoff_latest/full/mini_mmm/direct.md
+---
+
+Lane-local behavior probe body for Direct. Candidate root: /Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate. This record was normalized from collected probe output only. The harness did not spawn agents, infer hidden execution, or add a claim beyond the supplied lane record. Review this lane as receipt evidence: checked material, conclusion, remaining open question, and cited evidence must remain tied to the captured output. The body exists so the adapter can verify that every completed lane has a lane-local language surface rather than borrowing global prose. Future readers should treat the text as a behavior probe normalization artifact, not as independent proof of correctness. 
+
+Collected output:
+# MMM_LANE_DIRECT_FULL_v2_7
+
+## aligned nouns and phrases
+
+- done condition
+- language body
+- direct
+- move
+- smallest
+- immediate
+- action
+- shortest
+- path
+- bounded
+- deliverable
+- acceptance
+- this
+- landed
+- blocker
+- now
+- first
+- packet
+- minimal
+- patch
+- artifact
+- step
+- result
+- concrete
+- target
+- closeout
+- useful
+- outside
+- only
+- then
+- finite
+- open
+- distinct
+- observed
+- missing
+- small
+- honest
+- prior
+- separate
+- together
+- compared
+- measured
+- used
+- fit
+- viable
+- different
+- alternate
+- branch
+- receipt
+- trace
+- support
+- evidence
+- scope
+- boundary
+- gate
+- guard
+- rung
+- status
+- candidate
+- survivor
+- witness
+- probe
+- constraint
+- name
+- use
+- role
+- practice
+- experience
+- observation
+- perception
+- conjunction
+- resemblance
+- relation
+- probability
+- particular
+- predicate
+- class
+- model
+- solver
+- satisfiable
+- unsatisfiable
+- countermodel
+- counterexample
+- equivalence
+- indistinguishable
+- readout
+- measure
+- measurement
+- operation
+- procedure
+- instrument
+- experiment
+- check
+- verify
+- compare
+- sample
+- route
+- lane
+- voice
+- lens
+- council
+- audit
+- finding
+- deferred
+- blocked
+- spawned
+- diagnostic
+- untried
+- preload
+- language
+- body
+- during
+- since
+- toward
+- relative
+- according
+- locally
+- jointly
+- separately
+- rather
+- instead
+- still
+- often
+- sometimes
+- usually
+- seems
+
+## correlated couplings
+
+- bounded evidence
+- bounded support
+- bounded packet
+- bounded receipt
+- bounded trace
+- bounded result
+- bounded scope
+- bounded boundary
+- bounded witness
+- bounded probe
+- bounded constraint
+- compare bounded
+- measure bounded
+- hold bounded
+- preserve bounded
+- split bounded
+- narrow bounded
+- move evidence
+- move support
+- move packet
+- move receipt
+- move trace
+- move result
+- move scope
+- move boundary
+- move witness
+- move probe
+- move constraint
+- compare move
+- measure move
+- hold move
+- preserve move
+- split move
+- narrow move
+- shortest evidence
+- shortest support
+- shortest packet
+- shortest receipt
+- shortest trace
+- shortest result
+- shortest scope
+- shortest boundary
+- shortest witness
+- shortest probe
+- shortest constraint
+- compare shortest
+- measure shortest
+- hold shortest
+- preserve shortest
+- split shortest
+- narrow shortest
+- path evidence
+- path support
+- path packet
+- path receipt
+- path trace
+- path result
+- path scope
+- path boundary
+- path witness
+- path probe
+- path constraint
+- action evidence
+- action support
+- action packet
+- action receipt
+- action trace
+- action result
+- action scope
+- action boundary
+- action witness
+- action probe
+- action constraint
+- compare action
+- measure action
+- hold action
+- preserve action
+- split action
+- narrow action
+- artifact evidence
+- artifact support
+- artifact packet
+- artifact receipt
+- artifact trace
+- artifact result
+- artifact scope
+- artifact boundary
+- artifact witness
+- artifact probe
+- artifact constraint
+- compare artifact
+- measure artifact
+- hold artifact
+- preserve artifact
+- split artifact
+- narrow artifact
+- deliverable evidence
+- deliverable support
+- deliverable packet
+- deliverable receipt
+- deliverable trace
+- deliverable result
+- deliverable scope
+- deliverable boundary
+- deliverable witness
+- deliverable probe
+- deliverable constraint
+- compare deliverable
+- measure deliverable
+- hold deliverable
+- preserve deliverable
+- split deliverable
+- narrow deliverable
+- immediate evidence
+- immediate support
+- immediate packet
+- immediate receipt
+- immediate trace
+- immediate result
+- immediate scope
+- immediate boundary
+- immediate witness
+- immediate probe
+- immediate constraint
+- compare immediate
+- measure immediate
+- hold immediate
+- preserve immediate
+- split immediate
+- narrow immediate
+- result evidence
+- result support
+- result packet
+- result receipt
+- result trace
+- result scope
+- result boundary
+- result witness
+- result probe
+- result constraint
+- done condition
+- during direct
+- during move
+- during smallest
+- during immediate
+- during action
+- during shortest
+- during bounded
+- during deliverable
+- during acceptance
+- during this
+- during landed
+- during complete
+- during blocker
+- during now
+- during first
+- during packet
+- during minimal
+- during patch
+- since direct
+
+## three-part cues
+
+- during packet done condition
+- during minimal done condition
+- during patch done condition
+- compare bounded receipt
+- measure bounded receipt
+- hold bounded receipt
+- preserve bounded receipt
+- compare move receipt
+- measure move receipt
+- hold move receipt
+- preserve move receipt
+- compare shortest receipt
+- measure shortest receipt
+- hold shortest receipt
+- preserve shortest receipt
+- during direct move
+- during direct smallest
+- during direct immediate
+- during move smallest
+- during move immediate
+- during move action
+- during move shortest
+- during smallest immediate
+- during smallest action
+- during smallest shortest
+- during immediate action
+- during immediate shortest
+- during immediate bounded
+- during action shortest
+- during action bounded
+- during action deliverable
+- during shortest bounded
+- during shortest deliverable
+- during shortest acceptance
+- during path bounded
+- during path deliverable
+- during path acceptance
+- during path this
+- during bounded deliverable
+- during bounded acceptance
+- during bounded this
+- during bounded landed
+- during deliverable acceptance
+- during deliverable this
+- during deliverable landed
+- during deliverable complete
+- during acceptance this
+- during acceptance landed
+- during acceptance complete
+- during acceptance blocker
+- during this landed
+- during this complete
+- during this blocker
+- during this now
+- during landed complete
+- during landed blocker
+- during landed now
+- during landed first
+- during complete blocker
+- during complete now
+- during complete first
+- during complete packet
+- during blocker now
+- during blocker first
+- during blocker packet
+- during blocker minimal
+- during now first
+- during now packet
+- during now minimal
+- during now patch
+- during first packet
+- during first minimal
+- during first patch
+- during first artifact
+- during packet minimal
+- during packet patch
+- during packet artifact
+- during minimal patch
+- during minimal artifact
+- during minimal step

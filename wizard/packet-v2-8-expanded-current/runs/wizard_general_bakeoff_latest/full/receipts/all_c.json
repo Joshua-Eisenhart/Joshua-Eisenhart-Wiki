@@ -1,0 +1,12 @@
+{
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/mmm_wizard_complete_system_packet_v2_8_expanded_candidate",
+  "checked": "loaded mini_mmms/full/compositions/md/MMM_LANE_ALL_C_FULL_v2_8.md",
+  "concluded": "All-C compilation: voice and lane tuning pass for Hume, Zhuangzi, Popper, Feynman, Orwell, and Pushback.",
+  "evidence": "mini_mmms/full/compositions/md/MMM_LANE_ALL_C_FULL_v2_8.md terms: closeout :: 100, hygiene :: 100, security :: 100, factory :: 100, audit :: 100, done :: 100, condition :: 100, cleanup :: 100",
+  "generated_at": "2026-04-28T22:36:04.253131+00:00",
+  "lane": "All-C",
+  "open": "live proof pending",
+  "output_excerpt": "Task: Compare Wizard General sizes and choose the best local runtime surface.\nWizard General size: full\nWave 7: Follow-up Make Wave\nAll-C compilation: voice and lane tuning pass for Hume, Zhuangzi, Popper, Feynman, Orwell, and Pushback.\nLoaded language body terms: closeout :: 100, hygiene :: 100, security :: 100, factory :: 100, audit :: 100, done :: 100, condition :: 100, cleanup :: 100",
+  "output_sha256": "726c90a54bd20245e663b3d42295640eabae8c63d46033e7c6b7139d66744a82",
+  "schema_version": "wizard_behavior_harness.v1"
+}

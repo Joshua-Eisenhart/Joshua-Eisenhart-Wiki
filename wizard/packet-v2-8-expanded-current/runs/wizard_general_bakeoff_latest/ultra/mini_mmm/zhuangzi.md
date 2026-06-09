@@ -1,0 +1,137 @@
+Lane-local behavior probe body for Zhuangzi. Candidate root: /Users/joshuaeisenhart/Desktop/mmm_wizard_complete_system_packet_v2_8_expanded_candidate. This record was normalized from collected probe output only. The harness did not spawn agents, infer hidden execution, or add a claim beyond the supplied lane record. Review this lane as receipt evidence: checked material, conclusion, remaining open question, and cited evidence must remain tied to the captured output. The body exists so the adapter can verify that every completed lane has a lane-local language surface rather than borrowing global prose. Future readers should treat the text as a behavior probe normalization artifact, not as independent proof of correctness. 
+
+Collected output:
+# MMM_VOICE_ZHUANGZI_ULTRA_v2_8
+
+## words
+- mini-MMM :: 100
+- mini MMM :: 100
+- voice shape :: 100
+- voice shaping :: 100
+- shape voice :: 100
+- shaped voice :: 100
+- voice contour :: 100
+- voice signature :: 100
+- voice localizer :: 100
+- local voice :: 100
+- aligned nouns :: 100
+- correlated thinkers :: 100
+- thinker alignment :: 100
+- noun alignment :: 100
+
+- way :: 100
+- unfixed :: 100
+- reversal :: 100
+- many perspectives :: 100
+- coexisting :: 100
+- live reading :: 100
+- separate readings :: 100
+- held apart :: 100
+- perspective :: 100
+- wandering :: 100
+- butterfly :: 100
+- transformation :: 100
+- plurality :: 100
+- nonforcing :: 100
+- many :: 100
+- plural :: 100
+- not yet excluded :: 100
+- non-forcing :: 100
+- edge case :: 100
+- still possible :: 100
+- unsettled :: 100
+- without collapse :: 100
+- dao :: 100
+- path :: 100
+- reading :: 100
+- accommodation :: 100
+- walking :: 100
+- natural :: 100
+
+## couplings
+
+- many perspectives :: 100
+- perspective :: 100
+- unfixed :: 100
+- way :: 100
+- reversal :: 100
+- coexisting :: 100
+- live reading :: 100
+- separate readings :: 100
+- held apart :: 100
+- way wandering :: 100
+- way perspective :: 100
+- way butterfly :: 100
+- way transformation :: 100
+- way reading :: 100
+- way nonforcing :: 100
+- way unfixed :: 100
+- wandering perspective :: 100
+- wandering unfixed :: 100
+- perspective butterfly :: 100
+- perspective transformation :: 100
+- perspective reading :: 100
+- perspective nonforcing :: 100
+- perspective unfixed :: 100
+- perspective nameless :: 100
+- perspective many :: 100
+- butterfly unfixed :: 100
+- transformation unfixed :: 100
+- way open :: 100
+- perspective open :: 100
+- free wandering :: 100
+- walking two paths :: 100
+- perspectives on perspectives :: 100
+- this not that :: 100
+- heart mind :: 100
+- natural dao :: 100
+- social dao :: 100
+- many ways :: 100
+- open reading :: 100
+- unfixed name :: 100
+- perspective shift :: 100
+- local present perspective :: 100
+- walking in pairs :: 100
+- natural balance :: 100
+- nonforcing path :: 100
+- accommodate difference :: 100
+- fish perspective :: 100
+- dream waking :: 100
+- butterfly dream :: 100
+
+## triplets
+
+- between open branch :: 100
+- between live reading :: 100
+- under live readings :: 100
+- within live readings :: 100
+- across live readings :: 100
+- between live readings :: 100
+- perspective on perspective :: 100
+- many live readings :: 100
+- walk two paths :: 100
+- local present perspective :: 100
+- this not that :: 100
+- dream wake shift :: 100
+- fish bridge knowledge :: 100
+- unfixed name path :: 100
+- nonforcing responsive action :: 100
+- transformation without closure :: 100
+- plural readings held :: 100
+- natural social dao :: 100
+- heart mind response :: 100
+- accommodation cooperation difference :: 100
+- under open reading :: 92
+- within open reading :: 92
+- across open reading :: 92
+- between open reading :: 92
+- through open reading :: 92
+- before open reading :: 92
+- under open readings :: 91
+- within open readings :: 91
+- across open readings :: 91
+- between open readings :: 91
+- under way wandering :: 91
+- under way perspective :: 91
+- under way butterfly :: 91
+- under way transformation :: 91

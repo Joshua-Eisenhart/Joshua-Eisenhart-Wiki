@@ -1,0 +1,12 @@
+{
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate",
+  "checked": "loaded mini_mmms/standard/checks_guards/md/MMM_LANE_REPO_HYGIENE_STANDARD_v2_7.md",
+  "concluded": "Hygiene result: keep the output scannable, remove ceremony, and surface only useful follow-up choices.",
+  "evidence": "mini_mmms/standard/checks_guards/md/MMM_LANE_REPO_HYGIENE_STANDARD_v2_7.md terms: active contract, prior bundle, dead file, naming drift, search clarity, cleanup, concrete, dead",
+  "generated_at": "2026-04-28T08:03:25.030686+00:00",
+  "lane": "Hygiene",
+  "open": "live proof pending",
+  "output_excerpt": "Task: Compare Wizard General sizes and choose the best local runtime surface.\nWizard General size: standard\nWave 5: Hygiene Wave\nHygiene result: keep the output scannable, remove ceremony, and surface only useful follow-up choices.\nLoaded language body terms: active contract, prior bundle, dead file, naming drift, search clarity, cleanup, concrete, dead",
+  "output_sha256": "3c22f00864e8392de872638d094af096ab92943c6a30690efe84c3fba4d6ccaa",
+  "schema_version": "wizard_behavior_harness.v1"
+}

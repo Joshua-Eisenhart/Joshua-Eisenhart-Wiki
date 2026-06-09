@@ -1,0 +1,149 @@
+# MMM_VOICE_HUME_ULTRA_v2_8
+
+## words
+- mini-MMM :: 100
+- mini MMM :: 100
+- voice shape :: 100
+- voice shaping :: 100
+- shape voice :: 100
+- shaped voice :: 100
+- voice contour :: 100
+- voice signature :: 100
+- voice localizer :: 100
+- local voice :: 100
+- aligned nouns :: 100
+- correlated thinkers :: 100
+- thinker alignment :: 100
+- noun alignment :: 100
+
+- sensible :: 100
+- enough :: 100
+- testimony and experience :: 100
+- remembered :: 100
+- not enough :: 100
+- conditional :: 100
+- what follows now :: 100
+- ordinary :: 100
+- human :: 100
+- experience :: 100
+- unlikely :: 100
+- warm :: 100
+- careful :: 100
+- plain :: 100
+- appears :: 100
+- seems :: 100
+- inferred :: 100
+- unknown :: 100
+- observed :: 100
+- humane :: 100
+- support :: 100
+- evidence :: 100
+- observation :: 100
+- sentiment :: 100
+
+## couplings
+
+- observed evidence :: 100
+- observed support :: 100
+- inferred evidence :: 100
+- inferred support :: 100
+- remembered evidence :: 100
+- remembered support :: 100
+- proposed evidence :: 100
+- proposed support :: 100
+- unknown evidence :: 100
+- unknown support :: 100
+- experience evidence :: 100
+- experience support :: 100
+- observed path :: 100
+- observed surface :: 100
+- observed packet :: 100
+- observed receipt :: 100
+- observed trace :: 100
+- observed result :: 100
+- observed scope :: 100
+- observed boundary :: 100
+- observed status :: 100
+- observed candidate :: 100
+- observed witness :: 100
+- sensible :: 100
+- remembered :: 100
+- unknown :: 100
+- seems :: 100
+- appears :: 100
+- enough :: 100
+- support :: 100
+- experience :: 100
+- ordinary :: 100
+- conditional :: 100
+- careful :: 100
+- human :: 100
+- warm :: 100
+
+## triplets
+
+- observed evidence path :: 100
+- observed support path :: 100
+- inferred evidence path :: 100
+- inferred support path :: 100
+- remembered evidence path :: 100
+- remembered support path :: 100
+- proposed evidence path :: 100
+- proposed support path :: 100
+- testimony and experience :: 100
+- matter fact evidence :: 100
+- testimony memory sense :: 100
+- probable inference degree :: 100
+- plain human judgment :: 100
+- warm modest caution :: 100
+- particular observed case :: 100
+- what follows now :: 100
+- not enough evidence :: 100
+- sensible support level :: 100
+- common life evidence :: 100
+- under testimony sensible :: 89
+- under testimony ordinary :: 89
+- under sensible ordinary :: 89
+- under sensible plain :: 89
+- under sensible warm :: 89
+- under sensible careful :: 89
+- under ordinary plain :: 89
+## voice noun reservoir stabilization addendum
+- voice method :: 100
+- voice evidence :: 100
+- voice judgment :: 100
+- voice task :: 100
+- voice receipt :: 100
+- voice finding :: 100
+- voice constraint :: 100
+- voice noun :: 100
+- voice verb :: 100
+- voice signal :: 100
+- voice contrast :: 100
+- voice boundary :: 100
+- voice contribution :: 100
+- mini mmm loaded :: 100
+- loaded mini mmm :: 100
+- assigned mini mmm :: 100
+- local voice context :: 100
+- voice-specific nouns :: 100
+- method nouns :: 100
+- reader stance :: 100
+- decision stance :: 100
+- audit stance :: 100
+- build stance :: 100
+- repair stance :: 100
+- acceptance stance :: 100
+- subagent voice :: 100
+- voice worker :: 100
+- voice proof :: 100
+- distinct output :: 100
+- behavioral pull :: 100
+- salience pull :: 100
+- voice usefulness :: 100
+- output repair :: 100
+- system repair :: 100
+- mmm stability :: 100
+- wizard stability :: 100
+- qit support :: 100
+- sim support :: 100

@@ -1,0 +1,237 @@
+{
+  "version": "v3.3",
+  "root": "MMM_WIZARD_CLEAN_SYSTEM_PACKET_v3_3",
+  "zip": "MMM_WIZARD_CLEAN_SYSTEM_PACKET_v3_3_DOWNLOADABLE.zip",
+  "results": [
+    {
+      "gate": "all_json_parses",
+      "status": "PASS",
+      "detail": "101 JSON files checked; bad=[]"
+    },
+    {
+      "gate": "forbidden_active_dirs_absent",
+      "status": "PASS",
+      "detail": "forbidden dirs present: []"
+    },
+    {
+      "gate": "no_reference_negative_boot_path",
+      "status": "PASS",
+      "detail": "checked boot/load instruction lines"
+    },
+    {
+      "gate": "no_archive_boot_path",
+      "status": "PASS",
+      "detail": "checked boot/load instruction lines"
+    },
+    {
+      "gate": "main_agent_does_not_load_mini",
+      "status": "PASS",
+      "detail": "README/core state main-only boot"
+    },
+    {
+      "gate": "subagent_does_not_load_main",
+      "status": "PASS",
+      "detail": "README/core state subagent boundary"
+    },
+    {
+      "gate": "universal_full_materially_larger",
+      "status": "PASS",
+      "detail": "full=54425, compact=7338"
+    },
+    {
+      "gate": "compact_standalone",
+      "status": "PASS",
+      "detail": "standalone markers present"
+    },
+    {
+      "gate": "embedded_runtime_definitions",
+      "status": "PASS",
+      "detail": "definitions embedded"
+    },
+    {
+      "gate": "main_mmm_full_md_exists",
+      "status": "PASS",
+      "detail": "mmm/main/full/md/MMM_MAIN_FULL_v3_3.md"
+    },
+    {
+      "gate": "main_mmm_full_json_exists",
+      "status": "PASS",
+      "detail": "mmm/main/full/json/MMM_MAIN_FULL_v3_3.json"
+    },
+    {
+      "gate": "main_mmm_compact_md_exists",
+      "status": "PASS",
+      "detail": "mmm/main/compact/md/MMM_MAIN_COMPACT_v3_3.md"
+    },
+    {
+      "gate": "main_mmm_compact_json_exists",
+      "status": "PASS",
+      "detail": "mmm/main/compact/json/MMM_MAIN_COMPACT_v3_3.json"
+    },
+    {
+      "gate": "mini_full_voices_md_exists",
+      "status": "PASS",
+      "detail": "mmm/mini/full/voices/md"
+    },
+    {
+      "gate": "mini_full_voices_json_exists",
+      "status": "PASS",
+      "detail": "mmm/mini/full/voices/json"
+    },
+    {
+      "gate": "mini_full_lanes_md_exists",
+      "status": "PASS",
+      "detail": "mmm/mini/full/lanes/md"
+    },
+    {
+      "gate": "mini_full_lanes_json_exists",
+      "status": "PASS",
+      "detail": "mmm/mini/full/lanes/json"
+    },
+    {
+      "gate": "mini_full_checks_guards_md_exists",
+      "status": "PASS",
+      "detail": "mmm/mini/full/checks_guards/md"
+    },
+    {
+      "gate": "mini_full_checks_guards_json_exists",
+      "status": "PASS",
+      "detail": "mmm/mini/full/checks_guards/json"
+    },
+    {
+      "gate": "mini_full_system_routes_md_exists",
+      "status": "PASS",
+      "detail": "mmm/mini/full/system_routes/md"
+    },
+    {
+      "gate": "mini_full_system_routes_json_exists",
+      "status": "PASS",
+      "detail": "mmm/mini/full/system_routes/json"
+    },
+    {
+      "gate": "mini_full_compositions_md_exists",
+      "status": "PASS",
+      "detail": "mmm/mini/full/compositions/md"
+    },
+    {
+      "gate": "mini_full_compositions_json_exists",
+      "status": "PASS",
+      "detail": "mmm/mini/full/compositions/json"
+    },
+    {
+      "gate": "mini_full_controller_acts_md_exists",
+      "status": "PASS",
+      "detail": "mmm/mini/full/controller_acts/md"
+    },
+    {
+      "gate": "mini_full_controller_acts_json_exists",
+      "status": "PASS",
+      "detail": "mmm/mini/full/controller_acts/json"
+    },
+    {
+      "gate": "mini_compact_voices_md_exists",
+      "status": "PASS",
+      "detail": "mmm/mini/compact/voices/md"
+    },
+    {
+      "gate": "mini_compact_voices_json_exists",
+      "status": "PASS",
+      "detail": "mmm/mini/compact/voices/json"
+    },
+    {
+      "gate": "mini_compact_lanes_md_exists",
+      "status": "PASS",
+      "detail": "mmm/mini/compact/lanes/md"
+    },
+    {
+      "gate": "mini_compact_lanes_json_exists",
+      "status": "PASS",
+      "detail": "mmm/mini/compact/lanes/json"
+    },
+    {
+      "gate": "mini_compact_checks_guards_md_exists",
+      "status": "PASS",
+      "detail": "mmm/mini/compact/checks_guards/md"
+    },
+    {
+      "gate": "mini_compact_checks_guards_json_exists",
+      "status": "PASS",
+      "detail": "mmm/mini/compact/checks_guards/json"
+    },
+    {
+      "gate": "mini_compact_system_routes_md_exists",
+      "status": "PASS",
+      "detail": "mmm/mini/compact/system_routes/md"
+    },
+    {
+      "gate": "mini_compact_system_routes_json_exists",
+      "status": "PASS",
+      "detail": "mmm/mini/compact/system_routes/json"
+    },
+    {
+      "gate": "mini_compact_compositions_md_exists",
+      "status": "PASS",
+      "detail": "mmm/mini/compact/compositions/md"
+    },
+    {
+      "gate": "mini_compact_compositions_json_exists",
+      "status": "PASS",
+      "detail": "mmm/mini/compact/compositions/json"
+    },
+    {
+      "gate": "mini_compact_controller_acts_md_exists",
+      "status": "PASS",
+      "detail": "mmm/mini/compact/controller_acts/md"
+    },
+    {
+      "gate": "mini_compact_controller_acts_json_exists",
+      "status": "PASS",
+      "detail": "mmm/mini/compact/controller_acts/json"
+    },
+    {
+      "gate": "followup_maps_outputs_to_lanes_compositions",
+      "status": "PASS",
+      "detail": "Make/Assembly rules present"
+    },
+    {
+      "gate": "full_wizard_max_option_exists",
+      "status": "PASS",
+      "detail": "max option present"
+    },
+    {
+      "gate": "quality_score_footer_only",
+      "status": "PASS",
+      "detail": "footer-only rule present"
+    },
+    {
+      "gate": "audit_not_default_section",
+      "status": "PASS",
+      "detail": "default output rule present"
+    },
+    {
+      "gate": "deep_research_salience_in_main_mmm",
+      "status": "PASS",
+      "detail": "checked deep-research positive salience anchors in main full JSON"
+    },
+    {
+      "gate": "deep_research_salience_in_mini_mmm",
+      "status": "PASS",
+      "detail": "checked route-specific mini-MMM salience"
+    },
+    {
+      "gate": "zip_opens_cleanly",
+      "status": "PASS",
+      "detail": "entries=176, bad=None"
+    },
+    {
+      "gate": "pro_audit_packet_availability",
+      "status": "PASS",
+      "detail": "MMM_V2_8_PRO_AUDIT_PACKET_DOWNLOADABLE.zip was found and archived."
+    },
+    {
+      "gate": "deep_research_report_availability",
+      "status": "PASS",
+      "detail": "deep-research-report.md was found and mined for positive salience."
+    }
+  ]
+}

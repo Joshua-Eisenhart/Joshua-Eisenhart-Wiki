@@ -1,0 +1,171 @@
+# MMM_VOICE_PUSHBACK_ULTRA_v2_8
+
+## words
+- mini-MMM :: 100
+- mini MMM :: 100
+- voice shape :: 100
+- voice shaping :: 100
+- shape voice :: 100
+- shaped voice :: 100
+- voice contour :: 100
+- voice signature :: 100
+- voice localizer :: 100
+- local voice :: 100
+- aligned nouns :: 100
+- correlated thinkers :: 100
+- thinker alignment :: 100
+- noun alignment :: 100
+
+- concern :: 100
+- not supported :: 100
+- does not follow :: 100
+- stop condition :: 100
+- mis-scoped :: 100
+- unsafe :: 100
+- hold :: 100
+- boundary :: 100
+- overreach :: 100
+- unearned :: 100
+- correction :: 100
+- smaller move :: 100
+- reason :: 100
+- support level :: 100
+- no :: 100
+- challenge :: 100
+- admissible :: 100
+- unsupported :: 100
+- scoped :: 100
+- condition :: 100
+- known :: 100
+- unknown :: 100
+- stop :: 100
+- disagree :: 100
+- risk :: 100
+- mis :: 100
+
+## couplings
+
+- challenge boundary :: 100
+- hold challenge :: 100
+- hold scope :: 100
+- correction boundary :: 100
+- hold boundary :: 100
+- hold correction :: 100
+- concern scope :: 100
+- concern boundary :: 100
+- hold concern :: 100
+- boundary scope :: 100
+- reason boundary :: 100
+- hold reason :: 100
+- stop condition :: 100
+- concern :: 100
+- unsafe :: 100
+- no :: 100
+- does not follow :: 100
+- stop boundary :: 100
+- hold stop :: 100
+- challenge scope :: 100
+- mis-scoped :: 100
+- hold :: 100
+- boundary :: 100
+- hold evidence :: 100
+- hold support :: 100
+- hold trace :: 100
+- hold result :: 100
+- hold status :: 100
+- hold candidate :: 100
+- hold witness :: 100
+- hold constraint :: 100
+- check hold :: 100
+- compare hold :: 100
+- observe hold :: 100
+- measure hold :: 100
+- test hold :: 100
+- verify hold :: 100
+- hold hold :: 100
+- preserve hold :: 100
+- split hold :: 100
+- narrow hold :: 100
+- hold overreach :: 100
+- hold unearned :: 100
+- earned disagreement :: 100
+- clear no :: 100
+- hold condition :: 100
+- boundary check :: 100
+- unsupported overreach :: 100
+
+## triplets
+
+- hold scope path :: 100
+- hold boundary path :: 100
+- challenge boundary path :: 100
+- hold challenge receipt :: 100
+- does not follow :: 100
+- under hold boundary :: 100
+- under boundary overreach :: 100
+- under boundary unearned :: 100
+- under boundary unsupported :: 100
+- under boundary unsafe :: 100
+- within hold boundary :: 100
+- hold evidence path :: 100
+- hold support path :: 100
+- hold path path :: 100
+- hold surface path :: 100
+- hold packet path :: 100
+- within boundary overreach :: 100
+- within boundary unearned :: 100
+- within boundary unsupported :: 100
+- challenge reason correction :: 100
+- no hold condition :: 100
+- unsupported claim blocked :: 100
+- risk support level :: 100
+- smallest viable correction :: 100
+- warm firm boundary :: 100
+- owner plan pressure :: 100
+- evidence mismatch stop :: 100
+- concern not fact :: 100
+- mis scoped move :: 100
+- that does not follow :: 100
+- unsafe unearned overreach :: 100
+- under hold overreach :: 91
+- under hold unearned :: 91
+- under overreach unsafe :: 90
+## voice noun reservoir stabilization addendum
+- voice method :: 100
+- voice evidence :: 100
+- voice judgment :: 100
+- voice task :: 100
+- voice receipt :: 100
+- voice finding :: 100
+- voice constraint :: 100
+- voice noun :: 100
+- voice verb :: 100
+- voice signal :: 100
+- voice contrast :: 100
+- voice boundary :: 100
+- voice contribution :: 100
+- mini mmm loaded :: 100
+- loaded mini mmm :: 100
+- assigned mini mmm :: 100
+- local voice context :: 100
+- voice-specific nouns :: 100
+- method nouns :: 100
+- reader stance :: 100
+- decision stance :: 100
+- audit stance :: 100
+- build stance :: 100
+- repair stance :: 100
+- acceptance stance :: 100
+- subagent voice :: 100
+- voice worker :: 100
+- voice proof :: 100
+- distinct output :: 100
+- behavioral pull :: 100
+- salience pull :: 100
+- voice usefulness :: 100
+- output repair :: 100
+- system repair :: 100
+- mmm stability :: 100
+- wizard stability :: 100
+- qit support :: 100
+- sim support :: 100

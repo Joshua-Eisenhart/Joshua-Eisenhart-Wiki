@@ -1,0 +1,1939 @@
+{
+  "couplings": [
+    [
+      1,
+      "observed evidence",
+      100
+    ],
+    [
+      2,
+      "observed support",
+      100
+    ],
+    [
+      3,
+      "inferred evidence",
+      100
+    ],
+    [
+      4,
+      "inferred support",
+      100
+    ],
+    [
+      5,
+      "remembered evidence",
+      100
+    ],
+    [
+      6,
+      "remembered support",
+      100
+    ],
+    [
+      7,
+      "proposed evidence",
+      100
+    ],
+    [
+      8,
+      "proposed support",
+      100
+    ],
+    [
+      9,
+      "unknown evidence",
+      100
+    ],
+    [
+      10,
+      "unknown support",
+      100
+    ],
+    [
+      11,
+      "experience evidence",
+      100
+    ],
+    [
+      12,
+      "experience support",
+      100
+    ],
+    [
+      13,
+      "observed path",
+      100
+    ],
+    [
+      14,
+      "observed surface",
+      100
+    ],
+    [
+      15,
+      "observed packet",
+      100
+    ],
+    [
+      16,
+      "observed receipt",
+      100
+    ],
+    [
+      17,
+      "observed trace",
+      100
+    ],
+    [
+      18,
+      "observed result",
+      100
+    ],
+    [
+      19,
+      "observed scope",
+      100
+    ],
+    [
+      20,
+      "observed boundary",
+      100
+    ],
+    [
+      21,
+      "observed status",
+      100
+    ],
+    [
+      22,
+      "observed candidate",
+      100
+    ],
+    [
+      23,
+      "observed witness",
+      100
+    ],
+    [
+      24,
+      "sensible",
+      100
+    ],
+    [
+      25,
+      "remembered",
+      100
+    ],
+    [
+      26,
+      "unknown",
+      100
+    ],
+    [
+      27,
+      "seems",
+      100
+    ],
+    [
+      28,
+      "appears",
+      100
+    ],
+    [
+      29,
+      "enough",
+      100
+    ],
+    [
+      30,
+      "support",
+      100
+    ],
+    [
+      31,
+      "experience",
+      100
+    ],
+    [
+      32,
+      "ordinary",
+      100
+    ],
+    [
+      33,
+      "conditional",
+      100
+    ],
+    [
+      34,
+      "careful",
+      100
+    ],
+    [
+      35,
+      "human",
+      100
+    ],
+    [
+      36,
+      "warm",
+      100
+    ],
+    [
+      37,
+      "observed probe",
+      100
+    ],
+    [
+      38,
+      "observed constraint",
+      100
+    ],
+    [
+      39,
+      "check observed",
+      100
+    ],
+    [
+      40,
+      "compare observed",
+      100
+    ],
+    [
+      41,
+      "observe observed",
+      100
+    ],
+    [
+      42,
+      "measure observed",
+      100
+    ],
+    [
+      43,
+      "test observed",
+      100
+    ],
+    [
+      44,
+      "verify observed",
+      100
+    ],
+    [
+      45,
+      "hold observed",
+      100
+    ],
+    [
+      46,
+      "preserve observed",
+      100
+    ],
+    [
+      47,
+      "split observed",
+      100
+    ],
+    [
+      48,
+      "narrow observed",
+      100
+    ],
+    [
+      49,
+      "testimony and experience",
+      100
+    ],
+    [
+      50,
+      "where observed",
+      100
+    ],
+    [
+      51,
+      "while observed",
+      100
+    ],
+    [
+      52,
+      "inferred path",
+      100
+    ],
+    [
+      53,
+      "inferred surface",
+      100
+    ],
+    [
+      54,
+      "inferred packet",
+      100
+    ],
+    [
+      55,
+      "likely",
+      100
+    ],
+    [
+      56,
+      "unlikely",
+      100
+    ],
+    [
+      57,
+      "limited",
+      100
+    ],
+    [
+      58,
+      "inferred receipt",
+      100
+    ],
+    [
+      59,
+      "inferred trace",
+      100
+    ],
+    [
+      60,
+      "inferred result",
+      100
+    ],
+    [
+      61,
+      "inferred scope",
+      100
+    ],
+    [
+      62,
+      "inferred boundary",
+      100
+    ],
+    [
+      63,
+      "inferred status",
+      100
+    ],
+    [
+      64,
+      "inferred candidate",
+      100
+    ],
+    [
+      65,
+      "inferred witness",
+      100
+    ],
+    [
+      66,
+      "inferred probe",
+      100
+    ],
+    [
+      67,
+      "inferred constraint",
+      100
+    ],
+    [
+      68,
+      "check inferred",
+      100
+    ],
+    [
+      69,
+      "compare inferred",
+      100
+    ],
+    [
+      70,
+      "observe inferred",
+      100
+    ],
+    [
+      71,
+      "measure inferred",
+      100
+    ],
+    [
+      72,
+      "test inferred",
+      100
+    ],
+    [
+      73,
+      "verify inferred",
+      100
+    ],
+    [
+      74,
+      "hold inferred",
+      100
+    ],
+    [
+      75,
+      "preserve inferred",
+      100
+    ],
+    [
+      76,
+      "split inferred",
+      100
+    ],
+    [
+      77,
+      "narrow inferred",
+      100
+    ],
+    [
+      78,
+      "under inferred",
+      100
+    ],
+    [
+      79,
+      "within inferred",
+      100
+    ],
+    [
+      80,
+      "across inferred",
+      100
+    ],
+    [
+      81,
+      "between inferred",
+      100
+    ],
+    [
+      82,
+      "through inferred",
+      100
+    ],
+    [
+      83,
+      "before inferred",
+      100
+    ],
+    [
+      84,
+      "after inferred",
+      100
+    ],
+    [
+      85,
+      "until inferred",
+      100
+    ],
+    [
+      86,
+      "where inferred",
+      100
+    ],
+    [
+      87,
+      "while inferred",
+      100
+    ],
+    [
+      88,
+      "remembered path",
+      100
+    ],
+    [
+      89,
+      "remembered surface",
+      100
+    ],
+    [
+      90,
+      "remembered packet",
+      100
+    ],
+    [
+      91,
+      "remembered receipt",
+      100
+    ],
+    [
+      92,
+      "remembered trace",
+      100
+    ],
+    [
+      93,
+      "remembered result",
+      100
+    ],
+    [
+      94,
+      "remembered scope",
+      100
+    ],
+    [
+      95,
+      "remembered boundary",
+      100
+    ],
+    [
+      96,
+      "remembered status",
+      100
+    ],
+    [
+      97,
+      "remembered candidate",
+      100
+    ],
+    [
+      98,
+      "remembered witness",
+      100
+    ],
+    [
+      99,
+      "remembered probe",
+      100
+    ],
+    [
+      100,
+      "remembered constraint",
+      100
+    ],
+    [
+      101,
+      "check remembered",
+      100
+    ],
+    [
+      102,
+      "compare remembered",
+      100
+    ],
+    [
+      103,
+      "observe remembered",
+      100
+    ],
+    [
+      104,
+      "measure remembered",
+      100
+    ],
+    [
+      105,
+      "test remembered",
+      100
+    ],
+    [
+      106,
+      "what follows now",
+      100
+    ],
+    [
+      107,
+      "verify remembered",
+      100
+    ],
+    [
+      108,
+      "hold remembered",
+      100
+    ],
+    [
+      109,
+      "preserve remembered",
+      100
+    ],
+    [
+      110,
+      "split remembered",
+      100
+    ],
+    [
+      111,
+      "narrow remembered",
+      100
+    ],
+    [
+      112,
+      "where remembered",
+      100
+    ],
+    [
+      113,
+      "while remembered",
+      100
+    ],
+    [
+      114,
+      "plain",
+      100
+    ],
+    [
+      115,
+      "observed",
+      100
+    ],
+    [
+      116,
+      "evidence",
+      100
+    ],
+    [
+      117,
+      "unknown path",
+      100
+    ],
+    [
+      118,
+      "unknown surface",
+      100
+    ],
+    [
+      119,
+      "unknown packet",
+      100
+    ],
+    [
+      120,
+      "unknown receipt",
+      100
+    ],
+    [
+      121,
+      "unknown trace",
+      100
+    ],
+    [
+      122,
+      "unknown result",
+      100
+    ],
+    [
+      123,
+      "unknown scope",
+      100
+    ],
+    [
+      124,
+      "careful belief",
+      100
+    ],
+    [
+      125,
+      "checked support",
+      100
+    ],
+    [
+      126,
+      "common life",
+      100
+    ],
+    [
+      127,
+      "degree of evidence",
+      100
+    ],
+    [
+      128,
+      "evidence scoped",
+      100
+    ],
+    [
+      129,
+      "experienced regularity",
+      100
+    ],
+    [
+      130,
+      "felt difference",
+      100
+    ],
+    [
+      131,
+      "found so far",
+      100
+    ],
+    [
+      132,
+      "gentle doubt",
+      100
+    ],
+    [
+      133,
+      "human feeling",
+      100
+    ],
+    [
+      134,
+      "human read",
+      100
+    ],
+    [
+      135,
+      "humane summary",
+      100
+    ],
+    [
+      136,
+      "inward sentiment",
+      100
+    ],
+    [
+      137,
+      "mini-MMM shapes voice",
+      100
+    ],
+    [
+      138,
+      "mini MMM voice shape",
+      100
+    ],
+    [
+      139,
+      "voice shaped by nouns",
+      100
+    ],
+    [
+      140,
+      "aligned nouns shape voice",
+      100
+    ],
+    [
+      141,
+      "correlated thinkers shape voice",
+      100
+    ],
+    [
+      142,
+      "thinker alignment voice",
+      100
+    ],
+    [
+      143,
+      "noun alignment voice",
+      100
+    ],
+    [
+      144,
+      "voice signature nouns",
+      100
+    ],
+    [
+      145,
+      "local voice contour",
+      100
+    ],
+    [
+      146,
+      "fact and observation",
+      97
+    ],
+    [
+      147,
+      "experience confirms",
+      97
+    ],
+    [
+      148,
+      "custom alone",
+      97
+    ],
+    [
+      149,
+      "ordinary wisdom of nature",
+      97
+    ]
+  ],
+  "triplets": [
+    [
+      1,
+      "observed evidence path",
+      100
+    ],
+    [
+      2,
+      "observed support path",
+      100
+    ],
+    [
+      3,
+      "inferred evidence path",
+      100
+    ],
+    [
+      4,
+      "inferred support path",
+      100
+    ],
+    [
+      5,
+      "remembered evidence path",
+      100
+    ],
+    [
+      6,
+      "remembered support path",
+      100
+    ],
+    [
+      7,
+      "proposed evidence path",
+      100
+    ],
+    [
+      8,
+      "proposed support path",
+      100
+    ],
+    [
+      9,
+      "testimony and experience",
+      100
+    ],
+    [
+      10,
+      "observed path path",
+      100
+    ],
+    [
+      11,
+      "observed surface path",
+      100
+    ],
+    [
+      12,
+      "under open observed",
+      100
+    ],
+    [
+      13,
+      "observed packet path",
+      100
+    ],
+    [
+      14,
+      "what follows now",
+      100
+    ],
+    [
+      15,
+      "under live observed",
+      100
+    ],
+    [
+      16,
+      "observed receipt path",
+      100
+    ],
+    [
+      17,
+      "observed trace path",
+      100
+    ],
+    [
+      18,
+      "observed result path",
+      100
+    ],
+    [
+      19,
+      "observed scope path",
+      100
+    ],
+    [
+      20,
+      "observed boundary path",
+      100
+    ],
+    [
+      21,
+      "within open observed",
+      100
+    ],
+    [
+      22,
+      "check observed receipt",
+      100
+    ],
+    [
+      23,
+      "within live observed",
+      100
+    ],
+    [
+      24,
+      "compare observed receipt",
+      100
+    ],
+    [
+      25,
+      "observe observed receipt",
+      100
+    ],
+    [
+      26,
+      "measure observed receipt",
+      100
+    ],
+    [
+      27,
+      "across open observed",
+      100
+    ],
+    [
+      28,
+      "across live observed",
+      100
+    ],
+    [
+      29,
+      "between open observed",
+      100
+    ],
+    [
+      30,
+      "between live observed",
+      100
+    ],
+    [
+      31,
+      "test observed receipt",
+      100
+    ],
+    [
+      32,
+      "verify observed receipt",
+      100
+    ],
+    [
+      33,
+      "hold observed receipt",
+      100
+    ],
+    [
+      34,
+      "preserve observed receipt",
+      100
+    ],
+    [
+      35,
+      "through open observed",
+      100
+    ],
+    [
+      36,
+      "through live observed",
+      100
+    ],
+    [
+      37,
+      "before open observed",
+      100
+    ],
+    [
+      38,
+      "before live observed",
+      100
+    ],
+    [
+      39,
+      "inferred path path",
+      100
+    ],
+    [
+      40,
+      "common life evidence",
+      100
+    ],
+    [
+      41,
+      "current checked support",
+      100
+    ],
+    [
+      42,
+      "human feeling judgment",
+      100
+    ],
+    [
+      43,
+      "matter fact evidence",
+      100
+    ],
+    [
+      44,
+      "memory sense testimony",
+      100
+    ],
+    [
+      45,
+      "not enough evidence",
+      100
+    ],
+    [
+      46,
+      "observed fact relation",
+      100
+    ],
+    [
+      47,
+      "particular observed case",
+      100
+    ],
+    [
+      48,
+      "plain human judgment",
+      100
+    ],
+    [
+      49,
+      "plain ordinary account",
+      100
+    ],
+    [
+      50,
+      "probable inference degree",
+      100
+    ],
+    [
+      51,
+      "sensible support level",
+      100
+    ],
+    [
+      52,
+      "sober finite estimate",
+      100
+    ],
+    [
+      53,
+      "testimony memory sense",
+      100
+    ],
+    [
+      54,
+      "warm modest caution",
+      100
+    ],
+    [
+      55,
+      "under finite observed",
+      98
+    ],
+    [
+      56,
+      "within finite observed",
+      98
+    ],
+    [
+      57,
+      "across finite observed",
+      98
+    ],
+    [
+      58,
+      "between finite observed",
+      98
+    ],
+    [
+      59,
+      "under testimony sensible",
+      97
+    ],
+    [
+      60,
+      "under testimony ordinary",
+      97
+    ],
+    [
+      61,
+      "under sensible ordinary",
+      97
+    ],
+    [
+      62,
+      "under sensible plain",
+      97
+    ],
+    [
+      63,
+      "under sensible warm",
+      97
+    ],
+    [
+      64,
+      "under sensible careful",
+      97
+    ],
+    [
+      65,
+      "under ordinary plain",
+      97
+    ],
+    [
+      66,
+      "under ordinary warm",
+      97
+    ],
+    [
+      67,
+      "under ordinary careful",
+      97
+    ],
+    [
+      68,
+      "under ordinary human",
+      97
+    ],
+    [
+      69,
+      "under plain warm",
+      97
+    ],
+    [
+      70,
+      "under plain careful",
+      97
+    ],
+    [
+      71,
+      "under plain human",
+      97
+    ],
+    [
+      72,
+      "under plain enough",
+      97
+    ],
+    [
+      73,
+      "under warm careful",
+      97
+    ],
+    [
+      74,
+      "under careful human",
+      97
+    ],
+    [
+      75,
+      "under careful enough",
+      97
+    ],
+    [
+      76,
+      "through finite observed",
+      97
+    ],
+    [
+      77,
+      "before finite observed",
+      97
+    ],
+    [
+      78,
+      "within testimony sensible",
+      96
+    ],
+    [
+      79,
+      "within testimony ordinary",
+      96
+    ],
+    [
+      80,
+      "within sensible ordinary",
+      95
+    ],
+    [
+      81,
+      "within sensible plain",
+      95
+    ],
+    [
+      82,
+      "within sensible warm",
+      95
+    ],
+    [
+      83,
+      "within sensible careful",
+      95
+    ],
+    [
+      84,
+      "within ordinary plain",
+      95
+    ],
+    [
+      85,
+      "within ordinary warm",
+      95
+    ],
+    [
+      86,
+      "within ordinary careful",
+      95
+    ],
+    [
+      87,
+      "within ordinary human",
+      95
+    ],
+    [
+      88,
+      "within plain warm",
+      95
+    ],
+    [
+      89,
+      "within plain careful",
+      95
+    ],
+    [
+      90,
+      "within plain human",
+      95
+    ],
+    [
+      91,
+      "within plain enough",
+      95
+    ],
+    [
+      92,
+      "within warm careful",
+      95
+    ],
+    [
+      93,
+      "within careful human",
+      95
+    ],
+    [
+      94,
+      "within careful enough",
+      95
+    ],
+    [
+      95,
+      "across testimony sensible",
+      94
+    ],
+    [
+      96,
+      "across testimony ordinary",
+      94
+    ],
+    [
+      97,
+      "under current observed",
+      88
+    ],
+    [
+      98,
+      "under local observed",
+      88
+    ],
+    [
+      99,
+      "under bounded observed",
+      88
+    ],
+    [
+      100,
+      "mini-MMM shapes voice",
+      100
+    ],
+    [
+      101,
+      "mini MMM voice shape",
+      100
+    ],
+    [
+      102,
+      "voice shaped by nouns",
+      100
+    ],
+    [
+      103,
+      "aligned nouns shape voice",
+      100
+    ],
+    [
+      104,
+      "correlated thinkers shape voice",
+      100
+    ],
+    [
+      105,
+      "fact observation experience",
+      96
+    ],
+    [
+      106,
+      "custom habit belief",
+      96
+    ]
+  ],
+  "words": [
+    [
+      1,
+      "sensible",
+      100
+    ],
+    [
+      2,
+      "enough",
+      100
+    ],
+    [
+      3,
+      "testimony and experience",
+      100
+    ],
+    [
+      4,
+      "remembered",
+      100
+    ],
+    [
+      5,
+      "not enough",
+      100
+    ],
+    [
+      6,
+      "conditional",
+      100
+    ],
+    [
+      7,
+      "what follows now",
+      100
+    ],
+    [
+      8,
+      "ordinary",
+      100
+    ],
+    [
+      9,
+      "human",
+      100
+    ],
+    [
+      10,
+      "experience",
+      100
+    ],
+    [
+      11,
+      "unlikely",
+      100
+    ],
+    [
+      12,
+      "warm",
+      100
+    ],
+    [
+      13,
+      "careful",
+      100
+    ],
+    [
+      14,
+      "plain",
+      100
+    ],
+    [
+      15,
+      "appears",
+      100
+    ],
+    [
+      16,
+      "seems",
+      100
+    ],
+    [
+      17,
+      "inferred",
+      100
+    ],
+    [
+      18,
+      "unknown",
+      100
+    ],
+    [
+      19,
+      "observed",
+      100
+    ],
+    [
+      20,
+      "humane",
+      100
+    ],
+    [
+      21,
+      "support",
+      100
+    ],
+    [
+      22,
+      "evidence",
+      100
+    ],
+    [
+      23,
+      "degree of evidence",
+      100
+    ],
+    [
+      24,
+      "belief",
+      100
+    ],
+    [
+      25,
+      "testimony",
+      100
+    ],
+    [
+      26,
+      "usable",
+      100
+    ],
+    [
+      27,
+      "next honest move",
+      100
+    ],
+    [
+      28,
+      "what this amounts to",
+      100
+    ],
+    [
+      29,
+      "what remains open",
+      100
+    ],
+    [
+      30,
+      "proposed",
+      100
+    ],
+    [
+      31,
+      "limited",
+      100
+    ],
+    [
+      32,
+      "likely",
+      100
+    ],
+    [
+      33,
+      "relations of ideas",
+      100
+    ],
+    [
+      34,
+      "checked",
+      100
+    ],
+    [
+      35,
+      "found",
+      100
+    ],
+    [
+      36,
+      "probability",
+      100
+    ],
+    [
+      37,
+      "matters of fact",
+      100
+    ],
+    [
+      38,
+      "matter",
+      100
+    ],
+    [
+      39,
+      "fact",
+      100
+    ],
+    [
+      40,
+      "probable",
+      100
+    ],
+    [
+      41,
+      "memory",
+      100
+    ],
+    [
+      42,
+      "sense",
+      100
+    ],
+    [
+      43,
+      "modest",
+      100
+    ],
+    [
+      44,
+      "sober",
+      100
+    ],
+    [
+      45,
+      "gentle",
+      100
+    ],
+    [
+      46,
+      "reasonable",
+      100
+    ],
+    [
+      47,
+      "common",
+      100
+    ],
+    [
+      48,
+      "lively",
+      100
+    ],
+    [
+      49,
+      "faint",
+      100
+    ],
+    [
+      50,
+      "copy",
+      100
+    ],
+    [
+      51,
+      "succession",
+      100
+    ],
+    [
+      52,
+      "probable reasoning",
+      100
+    ],
+    [
+      53,
+      "memory and sense",
+      100
+    ],
+    [
+      54,
+      "particular observation",
+      100
+    ],
+    [
+      55,
+      "sentiment",
+      100
+    ],
+    [
+      56,
+      "appear",
+      100
+    ],
+    [
+      57,
+      "conjunction",
+      100
+    ],
+    [
+      58,
+      "constant",
+      100
+    ],
+    [
+      59,
+      "degree",
+      100
+    ],
+    [
+      60,
+      "expectation",
+      100
+    ],
+    [
+      61,
+      "feeling",
+      100
+    ],
+    [
+      62,
+      "finite",
+      100
+    ],
+    [
+      63,
+      "infer",
+      100
+    ],
+    [
+      64,
+      "judge",
+      100
+    ],
+    [
+      65,
+      "likelihood",
+      100
+    ],
+    [
+      66,
+      "moderated",
+      100
+    ],
+    [
+      67,
+      "observation",
+      100
+    ],
+    [
+      68,
+      "particular",
+      100
+    ],
+    [
+      69,
+      "relation",
+      100
+    ],
+    [
+      70,
+      "resemblance",
+      100
+    ],
+    [
+      71,
+      "seem",
+      100
+    ],
+    [
+      72,
+      "mini-MMM",
+      100
+    ],
+    [
+      73,
+      "mini MMM",
+      100
+    ],
+    [
+      74,
+      "voice shape",
+      100
+    ],
+    [
+      75,
+      "voice shaping",
+      100
+    ],
+    [
+      76,
+      "shape voice",
+      100
+    ],
+    [
+      77,
+      "shaped voice",
+      100
+    ],
+    [
+      78,
+      "voice contour",
+      100
+    ],
+    [
+      79,
+      "voice signature",
+      100
+    ],
+    [
+      80,
+      "voice localizer",
+      100
+    ],
+    [
+      81,
+      "local voice",
+      100
+    ],
+    [
+      82,
+      "aligned nouns",
+      100
+    ],
+    [
+      83,
+      "correlated thinkers",
+      100
+    ],
+    [
+      84,
+      "thinker alignment",
+      100
+    ],
+    [
+      85,
+      "noun alignment",
+      100
+    ],
+    [
+      86,
+      "voice method",
+      100
+    ],
+    [
+      87,
+      "voice evidence",
+      100
+    ],
+    [
+      88,
+      "voice judgment",
+      100
+    ],
+    [
+      89,
+      "voice task",
+      100
+    ],
+    [
+      90,
+      "voice receipt",
+      100
+    ],
+    [
+      91,
+      "voice finding",
+      100
+    ],
+    [
+      92,
+      "voice constraint",
+      100
+    ],
+    [
+      93,
+      "voice noun",
+      100
+    ],
+    [
+      94,
+      "voice verb",
+      100
+    ],
+    [
+      95,
+      "voice signal",
+      100
+    ],
+    [
+      96,
+      "voice boundary",
+      100
+    ],
+    [
+      97,
+      "voice contribution",
+      100
+    ],
+    [
+      98,
+      "mini mmm loaded",
+      100
+    ],
+    [
+      99,
+      "loaded mini mmm",
+      100
+    ],
+    [
+      100,
+      "assigned mini mmm",
+      100
+    ],
+    [
+      101,
+      "local voice context",
+      100
+    ],
+    [
+      102,
+      "voice-specific nouns",
+      100
+    ],
+    [
+      103,
+      "method nouns",
+      100
+    ],
+    [
+      104,
+      "reader stance",
+      100
+    ],
+    [
+      105,
+      "decision stance",
+      100
+    ],
+    [
+      106,
+      "audit stance",
+      100
+    ],
+    [
+      107,
+      "build stance",
+      100
+    ],
+    [
+      108,
+      "repair stance",
+      100
+    ],
+    [
+      109,
+      "acceptance stance",
+      100
+    ],
+    [
+      110,
+      "subagent voice",
+      100
+    ],
+    [
+      111,
+      "voice worker",
+      100
+    ],
+    [
+      112,
+      "voice proof",
+      100
+    ],
+    [
+      113,
+      "distinct output",
+      100
+    ],
+    [
+      114,
+      "behavioral pull",
+      100
+    ],
+    [
+      115,
+      "salience pull",
+      100
+    ],
+    [
+      116,
+      "voice usefulness",
+      100
+    ],
+    [
+      117,
+      "output repair",
+      100
+    ],
+    [
+      118,
+      "system repair",
+      100
+    ],
+    [
+      119,
+      "mmm stability",
+      100
+    ],
+    [
+      120,
+      "wizard stability",
+      100
+    ],
+    [
+      121,
+      "qit support",
+      100
+    ],
+    [
+      122,
+      "sim support",
+      100
+    ],
+    [
+      123,
+      "impression",
+      98
+    ],
+    [
+      124,
+      "idea",
+      98
+    ],
+    [
+      125,
+      "custom",
+      98
+    ],
+    [
+      126,
+      "habit",
+      98
+    ],
+    [
+      127,
+      "probable inference",
+      98
+    ],
+    [
+      128,
+      "ordinary wisdom",
+      98
+    ],
+    [
+      129,
+      "common life",
+      98
+    ],
+    [
+      130,
+      "empiricism",
+      98
+    ]
+  ],
+  "v3_4_salience_expansion": {
+    "source": "deep-research-report.md",
+    "status": "positive salience only; no diagnostic/provenance boot",
+    "route": "HUME",
+    "size": "compact"
+  }
+}

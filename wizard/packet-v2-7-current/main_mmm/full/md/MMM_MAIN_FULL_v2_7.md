@@ -1,0 +1,552 @@
+---
+title: Mmm Main Full V2 7
+created: 2026-04-28
+updated: 2026-04-28
+type: concept
+tags: [wizard, mmm, packet, receipt]
+framing: current
+source_path: main_mmm/full/md/MMM_MAIN_FULL_v2_7.md
+---
+
+# MMM_MAIN_FULL_v2_7
+
+## aligned nouns and phrases
+
+- load-bearing tool
+- skip-ahead guard
+- live reading
+- support level
+- separate readings
+- receipt truth
+- claim ceiling
+- constraint-admissibility
+- probe family
+- status ladder
+- bounded work
+- admission gate
+- local rerun
+- canonical label
+- tool integration
+- proof witness
+- z3 unsat
+- graph evidence
+- qit engine
+- sim frontier
+- negative battery
+- behavior comparison
+- held apart
+- whole-context triad
+- cargo cult science
+- politics and english language
+- verbal false limb
+- what would break
+- what would rule out
+- what follows now
+- what remains open
+- what this amounts to
+- what would count
+- model-family-specific
+- mini mmm loaded
+- task after language body
+- final output check
+- schema typed row
+- alternative route
+- audit overclaim
+- audit result
+- branch context
+- cheap test
+- different assumption
+- different problem
+- direct move
+- done condition
+- edge move
+- evidence missing
+- false binary
+- hidden premise
+- human read
+- loaded phrasing
+- live readings
+- loop or sequence
+- observable check
+- plain wording
+- previous surface
+- primary answer
+- prior branch
+- risky claim
+- language body
+- second path
+- small experiment
+- smaller question
+- stale surface
+- trust boundary
+- wildcard probe
+- wrong question
+- abuse path
+- active contract
+- active verb
+- alternate reading
+- apparatus reading
+- artifact path
+- audit finding
+- balancing loop
+- bold conjecture
+- bottleneck reinput
+- bounded exclusion
+- center of gravity
+- choke point
+- collapse audit
+- conjectures and refutations
+- continuous improvement
+- controller act
+- corroborated theory
+- critical rationalism
+- decisive point
+- current-turn
+- cut a word
+- cycle time
+- dead file
+- dead phrase
+- decisive check
+- decisive front
+- degree of evidence
+- does not follow
+- drift condition
+- bottleneck control
+- dying metaphor
+- edge case
+- error elimination
+- experiment as judge
+- failure condition
+- falsifiable hypothesis
+- feedback loop
+- first move
+- flow efficiency
+- independent route
+- information flow
+- least privilege
+- leverage point
+- work path
+- live remainder
+- many perspectives
+- meaningless word
+- means and ends
+- memory and sense
+- mental model
+- method collapsed
+- method executed
+- mis-scoped
+- model family
+- naming drift
+- non-forcing
+- outside frame
+- particular observation
+- physical law
+- plain english
+- preserved difference
+- pretentious diction
+- probable reasoning
+- problem situation
+- queue length
+- rate-limiter
+- real measurement
+- receipt changed
+- refuted claim
+- reinforcing loop
+- retreat condition
+- return trigger
+- risky prediction
+- route status
+- scientific integrity
+- search clarity
+- second-order
+- self organization
+- severe test
+- short word
+- simple case
+- simple example
+- smaller move
+- soft word
+- split retained
+- stale image
+- standard work
+- still possible
+- stocks and flows
+- stop condition
+- strategic reserve
+- surviving split
+- system constraint
+- system structure
+- task card
+- testimony and experience
+- theory of constraints
+- threat surface
+- throughput accounting
+- toy model
+- unsafe default
+- unused value
+- work in process
+- work in progress
+- worker id
+- surviving alternatives
+- what changes
+- full-context
+- systems-or-strategy
+- model-family
+- pressure-testing
+- registry-backed
+- role-family
+- whole-context
+- controller-local
+- outside-frame
+- wall-text
+- plurality-preservation
+- pressure-tests
+- bounded claim
+- evidence label
+- lane separation
+- runtime registry
+- worker receipt
+- blocked truth
+- deferred truth
+- spawned truth
+- anti collapse
+- input path
+- followup audit
+- taxonomy clean
+- boot scope
+- provenance note
+- independent variant
+- behavior probe
+- better if
+- follow-up
+- worse if
+- abuse
+- acceptance
+- access
+- act
+- action
+- advance
+- alternate
+- alternative
+- amplifying
+- angle
+- anti
+- apparatus
+- artifact
+- assumption
+- audit
+- batch
+- belief
+- blocked
+- blocker
+- bold
+- bottleneck
+- boundary
+- bounded
+- branch
+- break
+- bridge
+- buffer
+- bundle
+- bureaucratic
+- calibration
+- campaign
+- capacity
+- carry
+- case
+- challenge
+- cheap
+- check
+- checklist
+- choice
+- choke
+- claim
+- clean
+- cleanup
+- clear
+- close
+- closeout
+
+## correlated thinkers
+
+- Hume
+- Zhuangzi
+- Popper
+- Feynman
+- Orwell
+
+## correlated couplings
+
+- graph evidence before bridge claim
+- tool integration before nonclassical sim
+- local winner before pairwise coupling
+- wiki source of truth
+- packet derived from wiki
+- proof gate before promotion
+- council whole-context triad
+- followup whole-context triad
+- registry whole-context triad
+- audit whole-context triad
+- direct move observable check
+- direct move risky claim
+- done condition audit overclaim
+- done condition evidence missing
+- done condition plain wording
+- done condition trust boundary
+- plain wording trust boundary
+- whole-context triad blocked
+- whole-context triad deferred
+- whole-context triad follow-up
+- whole-context triad primary answer
+- whole-context triad spawned
+- direct move alternative route
+- direct move audit result
+- direct move loop or sequence
+- direct move retreat condition
+- human read collapse audit
+- human read live readings
+- human read surviving split
+- human read wildcard probe
+- live readings collapse audit
+- live readings surviving split
+- live readings wildcard probe
+- loop or sequence alternative route
+- observable check alternative route
+- observable check audit result
+- observable check loop or sequence
+- observable check retreat condition
+- plain wording audit overclaim
+- plain wording evidence missing
+- risky claim alternative route
+- risky claim audit result
+- risky claim loop or sequence
+- risky claim observable check
+- risky claim retreat condition
+- stale surface audit overclaim
+- stale surface evidence missing
+- stale surface trust boundary
+- trust boundary audit overclaim
+- trust boundary evidence missing
+- alternative route audit result
+- alternative route retreat condition
+- audit result retreat condition
+- evidence missing audit overclaim
+- loop or sequence audit result
+- loop or sequence retreat condition
+- wildcard probe collapse audit
+- wildcard probe surviving split
+- collapse audit surviving split
+- previous surface branch context
+- dead file active contract
+- dead file naming drift
+- trust boundary least privilege
+- trust boundary unsafe default
+- abuse path least privilege
+- abuse path unsafe default
+- active contract search clarity
+- dead file search clarity
+- naming drift active contract
+- naming drift search clarity
+- language body task card
+- unsafe default least privilege
+- model family alternate reading
+- model family independent route
+- model family outside frame
+- model family receipt changed
+- model family split retained
+- alternate reading receipt changed
+- outside frame alternate reading
+- outside frame independent route
+- outside frame receipt changed
+- outside frame split retained
+- alternate reading independent route
+- alternate reading split retained
+- receipt changed independent route
+- receipt changed split retained
+- independent route split retained
+- simple politics and english language
+- audit direct move
+- cleanup done condition
+- cleanup plain wording
+- context primary answer
+- anti human read
+- anti live readings
+- bundle direct move
+- bundle done condition
+- bundle loop or sequence
+- bundle observable check
+- bundle plain wording
+- bundle risky claim
+- close done condition
+- close plain wording
+- close trust boundary
+- collapse human read
+- collapse live readings
+- council primary answer
+- default direct move
+- default observable check
+- default risky claim
+- followup primary answer
+- forward direct move
+- landed done condition
+- landed plain wording
+- probe human read
+- registry primary answer
+- result direct move
+- result risky claim
+- safe done condition
+- safe plain wording
+- safe trust boundary
+- artifact audit overclaim
+- artifact done condition
+- artifact evidence missing
+- artifact plain wording
+- artifact trust boundary
+- audit primary answer
+- bundle human read
+- bundle live readings
+- cargo cult science
+- core alternative route
+- core audit result
+- core direct move
+- core loop or sequence
+- core observable check
+- core retreat condition
+- core risky claim
+- dissent collapse audit
+- dissent human read
+- dissent live readings
+- dissent wildcard probe
+- divergence human read
+- divergence live readings
+- divergence wildcard probe
+- done condition bottleneck
+- forward alternative route
+- forward loop or sequence
+- forward observable check
+- forward risky claim
+- landed evidence missing
+- landed trust boundary
+- motion alternative route
+- motion audit result
+- motion direct move
+- motion loop or sequence
+- motion observable check
+- motion risky claim
+- politics and english language
+- preserve human read
+- preserve live readings
+- primary answer blocked
+- primary answer follow-up
+- whole-context triad under
+- whole-context triad within
+- bottleneck evidence missing
+- bundle collapse audit
+- bundle surviving split
+- bundle wildcard probe
+- human read falsifier
+- human read observable
+- live readings falsifier
+- live readings observable
+- plain wording bottleneck
+- primary answer deferred
+- primary answer spawned
+- stale surface bottleneck
+- trust boundary bottleneck
+- verbal false limb
+- what would break
+- what would count
+- what would rule out
+
+## three-part cues
+
+- wiki packet adapter
+- sim proof graph
+- local pairwise bridge
+- tool lego engine
+- locally core alternative route
+- locally core audit result
+- locally core direct move
+- locally core loop or sequence
+- locally core observable check
+- locally core retreat condition
+- locally core risky claim
+- locally dissent collapse audit
+- locally dissent human read
+- locally dissent live readings
+- locally dissent wildcard probe
+- locally done condition audit overclaim
+- locally done condition bottleneck
+- locally done condition evidence missing
+- locally done condition plain wording
+- locally done condition trust boundary
+- locally whole-context triad blocked
+- locally whole-context triad deferred
+- locally whole-context triad spawned
+- locally whole-context triad under
+- locally whole-context triad within
+- rather bundle human read
+- rather bundle live readings
+- rather direct move observable check
+- rather direct move risky claim
+- rather plain wording trust boundary
+- rather primary answer blocked
+- rather primary answer follow-up
+- relative artifact audit overclaim
+- relative artifact done condition
+- relative artifact evidence missing
+- relative artifact plain wording
+- relative artifact trust boundary
+- relative audit primary answer
+- relative audit whole-context triad
+- relative divergence human read
+- relative divergence live readings
+- relative divergence wildcard probe
+- relative motion alternative route
+- relative motion audit result
+- relative motion direct move
+- relative motion loop or sequence
+- relative motion observable check
+- relative motion risky claim
+- instead human read collapse audit
+- instead human read falsifier
+- instead human read live readings
+- instead human read observable
+- instead human read surviving split
+- instead human read wildcard probe
+- instead risky claim alternative route
+- instead risky claim audit result
+- instead risky claim observable check
+- instead risky claim retreat condition
+- instead stale surface audit overclaim
+- instead stale surface bottleneck
+- instead stale surface evidence missing
+- instead stale surface trust boundary
+- only live readings collapse audit
+- only live readings falsifier
+- only live readings observable
+- only live readings surviving split
+- only live readings wildcard probe
+- only observable check alternative route
+- only observable check audit result
+- only observable check retreat condition
+- only trust boundary audit overclaim
+- only trust boundary bottleneck
+- only trust boundary evidence missing
+- rather bundle collapse audit
+- rather bundle surviving split
+- rather bundle wildcard probe
+- rather direct move alternative route
+- rather direct move audit result
+- rather direct move retreat condition
+- rather plain wording audit overclaim
+- rather plain wording bottleneck
+- rather plain wording evidence missing
+- rather primary answer deferred
+- rather primary answer spawned
+- still bottleneck evidence missing
+- likely alternative route audit result
+- likely alternative route retreat condition
+- likely evidence missing audit overclaim
+- likely observable collapse audit
+- likely observable surviving split

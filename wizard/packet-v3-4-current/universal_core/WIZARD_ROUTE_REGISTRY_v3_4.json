@@ -1,0 +1,579 @@
+{
+  "version": "v3.4",
+  "sizes": [
+    "full",
+    "compact"
+  ],
+  "main_mmm": {
+    "full": {
+      "md": "mmm/main/full/md/MMM_MAIN_FULL_v3_4.md",
+      "json": "mmm/main/full/json/MMM_MAIN_FULL_v3_4.json"
+    },
+    "compact": {
+      "md": "mmm/main/compact/md/MMM_MAIN_COMPACT_v3_4.md",
+      "json": "mmm/main/compact/json/MMM_MAIN_COMPACT_v3_4.json"
+    }
+  },
+  "units": [
+    {
+      "id": "HUME",
+      "name": "Hume",
+      "emoji": "🦉",
+      "category": "voices",
+      "scale": "voice",
+      "paths": {
+        "full": {
+          "md": "mmm/mini/full/voices/md/MMM_VOICE_HUME_FULL_v3_4.md",
+          "json": "mmm/mini/full/voices/json/MMM_VOICE_HUME_FULL_v3_4.json"
+        },
+        "compact": {
+          "md": "mmm/mini/compact/voices/md/MMM_VOICE_HUME_COMPACT_v3_4.md",
+          "json": "mmm/mini/compact/voices/json/MMM_VOICE_HUME_COMPACT_v3_4.json"
+        }
+      },
+      "boot_scope": "assigned voice subagent only",
+      "visible_status_values": [
+        "spawned",
+        "blocked",
+        "deferred",
+        "simulated"
+      ]
+    },
+    {
+      "id": "ZHUANGZI",
+      "name": "Zhuangzi",
+      "emoji": "🦋",
+      "category": "voices",
+      "scale": "voice",
+      "paths": {
+        "full": {
+          "md": "mmm/mini/full/voices/md/MMM_VOICE_ZHUANGZI_FULL_v3_4.md",
+          "json": "mmm/mini/full/voices/json/MMM_VOICE_ZHUANGZI_FULL_v3_4.json"
+        },
+        "compact": {
+          "md": "mmm/mini/compact/voices/md/MMM_VOICE_ZHUANGZI_COMPACT_v3_4.md",
+          "json": "mmm/mini/compact/voices/json/MMM_VOICE_ZHUANGZI_COMPACT_v3_4.json"
+        }
+      },
+      "boot_scope": "assigned voice subagent only",
+      "visible_status_values": [
+        "spawned",
+        "blocked",
+        "deferred",
+        "simulated"
+      ]
+    },
+    {
+      "id": "FEYNMAN",
+      "name": "Feynman",
+      "emoji": "🔬",
+      "category": "voices",
+      "scale": "voice",
+      "paths": {
+        "full": {
+          "md": "mmm/mini/full/voices/md/MMM_VOICE_FEYNMAN_FULL_v3_4.md",
+          "json": "mmm/mini/full/voices/json/MMM_VOICE_FEYNMAN_FULL_v3_4.json"
+        },
+        "compact": {
+          "md": "mmm/mini/compact/voices/md/MMM_VOICE_FEYNMAN_COMPACT_v3_4.md",
+          "json": "mmm/mini/compact/voices/json/MMM_VOICE_FEYNMAN_COMPACT_v3_4.json"
+        }
+      },
+      "boot_scope": "assigned voice subagent only",
+      "visible_status_values": [
+        "spawned",
+        "blocked",
+        "deferred",
+        "simulated"
+      ]
+    },
+    {
+      "id": "ORWELL",
+      "name": "Orwell",
+      "emoji": "✂️",
+      "category": "voices",
+      "scale": "voice",
+      "paths": {
+        "full": {
+          "md": "mmm/mini/full/voices/md/MMM_VOICE_ORWELL_FULL_v3_4.md",
+          "json": "mmm/mini/full/voices/json/MMM_VOICE_ORWELL_FULL_v3_4.json"
+        },
+        "compact": {
+          "md": "mmm/mini/compact/voices/md/MMM_VOICE_ORWELL_COMPACT_v3_4.md",
+          "json": "mmm/mini/compact/voices/json/MMM_VOICE_ORWELL_COMPACT_v3_4.json"
+        }
+      },
+      "boot_scope": "assigned voice subagent only",
+      "visible_status_values": [
+        "spawned",
+        "blocked",
+        "deferred",
+        "simulated"
+      ]
+    },
+    {
+      "id": "POPPER",
+      "name": "Popper",
+      "emoji": "🧨",
+      "category": "voices",
+      "scale": "voice",
+      "paths": {
+        "full": {
+          "md": "mmm/mini/full/voices/md/MMM_VOICE_POPPER_FULL_v3_4.md",
+          "json": "mmm/mini/full/voices/json/MMM_VOICE_POPPER_FULL_v3_4.json"
+        },
+        "compact": {
+          "md": "mmm/mini/compact/voices/md/MMM_VOICE_POPPER_COMPACT_v3_4.md",
+          "json": "mmm/mini/compact/voices/json/MMM_VOICE_POPPER_COMPACT_v3_4.json"
+        }
+      },
+      "boot_scope": "assigned voice subagent only",
+      "visible_status_values": [
+        "spawned",
+        "blocked",
+        "deferred",
+        "simulated"
+      ]
+    },
+    {
+      "id": "PUSHBACK",
+      "name": "Pushback",
+      "emoji": "🥊",
+      "category": "voices",
+      "scale": "voice",
+      "paths": {
+        "full": {
+          "md": "mmm/mini/full/voices/md/MMM_VOICE_PUSHBACK_FULL_v3_4.md",
+          "json": "mmm/mini/full/voices/json/MMM_VOICE_PUSHBACK_FULL_v3_4.json"
+        },
+        "compact": {
+          "md": "mmm/mini/compact/voices/md/MMM_VOICE_PUSHBACK_COMPACT_v3_4.md",
+          "json": "mmm/mini/compact/voices/json/MMM_VOICE_PUSHBACK_COMPACT_v3_4.json"
+        }
+      },
+      "boot_scope": "assigned voice subagent only",
+      "visible_status_values": [
+        "spawned",
+        "blocked",
+        "deferred",
+        "simulated"
+      ]
+    },
+    {
+      "id": "FACTORY",
+      "name": "Factory",
+      "emoji": "🏭",
+      "category": "voices",
+      "scale": "voice",
+      "paths": {
+        "full": {
+          "md": "mmm/mini/full/voices/md/MMM_VOICE_FACTORY_FULL_v3_4.md",
+          "json": "mmm/mini/full/voices/json/MMM_VOICE_FACTORY_FULL_v3_4.json"
+        },
+        "compact": {
+          "md": "mmm/mini/compact/voices/md/MMM_VOICE_FACTORY_COMPACT_v3_4.md",
+          "json": "mmm/mini/compact/voices/json/MMM_VOICE_FACTORY_COMPACT_v3_4.json"
+        }
+      },
+      "boot_scope": "assigned voice subagent only",
+      "visible_status_values": [
+        "spawned",
+        "blocked",
+        "deferred",
+        "simulated"
+      ]
+    },
+    {
+      "id": "STRATEGY",
+      "name": "Strategy",
+      "emoji": "♟️",
+      "category": "voices",
+      "scale": "voice",
+      "paths": {
+        "full": {
+          "md": "mmm/mini/full/voices/md/MMM_VOICE_STRATEGY_FULL_v3_4.md",
+          "json": "mmm/mini/full/voices/json/MMM_VOICE_STRATEGY_FULL_v3_4.json"
+        },
+        "compact": {
+          "md": "mmm/mini/compact/voices/md/MMM_VOICE_STRATEGY_COMPACT_v3_4.md",
+          "json": "mmm/mini/compact/voices/json/MMM_VOICE_STRATEGY_COMPACT_v3_4.json"
+        }
+      },
+      "boot_scope": "assigned voice subagent only",
+      "visible_status_values": [
+        "spawned",
+        "blocked",
+        "deferred",
+        "simulated"
+      ]
+    },
+    {
+      "id": "SYSTEMS",
+      "name": "Systems",
+      "emoji": "🔁",
+      "category": "voices",
+      "scale": "voice",
+      "paths": {
+        "full": {
+          "md": "mmm/mini/full/voices/md/MMM_VOICE_SYSTEMS_FULL_v3_4.md",
+          "json": "mmm/mini/full/voices/json/MMM_VOICE_SYSTEMS_FULL_v3_4.json"
+        },
+        "compact": {
+          "md": "mmm/mini/compact/voices/md/MMM_VOICE_SYSTEMS_COMPACT_v3_4.md",
+          "json": "mmm/mini/compact/voices/json/MMM_VOICE_SYSTEMS_COMPACT_v3_4.json"
+        }
+      },
+      "boot_scope": "assigned voice subagent only",
+      "visible_status_values": [
+        "spawned",
+        "blocked",
+        "deferred",
+        "simulated"
+      ]
+    },
+    {
+      "id": "DIRECT",
+      "name": "Direct",
+      "emoji": "🎯",
+      "category": "lanes",
+      "scale": "lane",
+      "paths": {
+        "full": {
+          "md": "mmm/mini/full/lanes/md/MMM_LANE_DIRECT_FULL_v3_4.md",
+          "json": "mmm/mini/full/lanes/json/MMM_LANE_DIRECT_FULL_v3_4.json"
+        },
+        "compact": {
+          "md": "mmm/mini/compact/lanes/md/MMM_LANE_DIRECT_COMPACT_v3_4.md",
+          "json": "mmm/mini/compact/lanes/json/MMM_LANE_DIRECT_COMPACT_v3_4.json"
+        }
+      },
+      "boot_scope": "assigned lane subagent only",
+      "visible_status_values": [
+        "spawned",
+        "blocked",
+        "deferred",
+        "simulated"
+      ]
+    },
+    {
+      "id": "ALTERNATIVE",
+      "name": "Alternative",
+      "emoji": "🔀",
+      "category": "lanes",
+      "scale": "lane",
+      "paths": {
+        "full": {
+          "md": "mmm/mini/full/lanes/md/MMM_LANE_ALTERNATIVE_FULL_v3_4.md",
+          "json": "mmm/mini/full/lanes/json/MMM_LANE_ALTERNATIVE_FULL_v3_4.json"
+        },
+        "compact": {
+          "md": "mmm/mini/compact/lanes/md/MMM_LANE_ALTERNATIVE_COMPACT_v3_4.md",
+          "json": "mmm/mini/compact/lanes/json/MMM_LANE_ALTERNATIVE_COMPACT_v3_4.json"
+        }
+      },
+      "boot_scope": "assigned lane subagent only",
+      "visible_status_values": [
+        "spawned",
+        "blocked",
+        "deferred",
+        "simulated"
+      ]
+    },
+    {
+      "id": "REFRAME",
+      "name": "Reframe",
+      "emoji": "🪞",
+      "category": "lanes",
+      "scale": "lane",
+      "paths": {
+        "full": {
+          "md": "mmm/mini/full/lanes/md/MMM_LANE_REFRAME_FULL_v3_4.md",
+          "json": "mmm/mini/full/lanes/json/MMM_LANE_REFRAME_FULL_v3_4.json"
+        },
+        "compact": {
+          "md": "mmm/mini/compact/lanes/md/MMM_LANE_REFRAME_COMPACT_v3_4.md",
+          "json": "mmm/mini/compact/lanes/json/MMM_LANE_REFRAME_COMPACT_v3_4.json"
+        }
+      },
+      "boot_scope": "assigned lane subagent only",
+      "visible_status_values": [
+        "spawned",
+        "blocked",
+        "deferred",
+        "simulated"
+      ]
+    },
+    {
+      "id": "WILDCARD",
+      "name": "Wildcard",
+      "emoji": "🃏",
+      "category": "lanes",
+      "scale": "lane",
+      "paths": {
+        "full": {
+          "md": "mmm/mini/full/lanes/md/MMM_LANE_WILDCARD_FULL_v3_4.md",
+          "json": "mmm/mini/full/lanes/json/MMM_LANE_WILDCARD_FULL_v3_4.json"
+        },
+        "compact": {
+          "md": "mmm/mini/compact/lanes/md/MMM_LANE_WILDCARD_COMPACT_v3_4.md",
+          "json": "mmm/mini/compact/lanes/json/MMM_LANE_WILDCARD_COMPACT_v3_4.json"
+        }
+      },
+      "boot_scope": "assigned lane subagent only",
+      "visible_status_values": [
+        "spawned",
+        "blocked",
+        "deferred",
+        "simulated"
+      ]
+    },
+    {
+      "id": "BACK",
+      "name": "Back",
+      "emoji": "⬅️",
+      "category": "lanes",
+      "scale": "lane",
+      "paths": {
+        "full": {
+          "md": "mmm/mini/full/lanes/md/MMM_LANE_BACK_FULL_v3_4.md",
+          "json": "mmm/mini/full/lanes/json/MMM_LANE_BACK_FULL_v3_4.json"
+        },
+        "compact": {
+          "md": "mmm/mini/compact/lanes/md/MMM_LANE_BACK_COMPACT_v3_4.md",
+          "json": "mmm/mini/compact/lanes/json/MMM_LANE_BACK_COMPACT_v3_4.json"
+        }
+      },
+      "boot_scope": "assigned lane subagent only",
+      "visible_status_values": [
+        "spawned",
+        "blocked",
+        "deferred",
+        "simulated"
+      ]
+    },
+    {
+      "id": "AUDIT",
+      "name": "Audit",
+      "emoji": "🔎",
+      "category": "checks_guards",
+      "scale": "check_guard",
+      "paths": {
+        "full": {
+          "md": "mmm/mini/full/checks_guards/md/MMM_CHECK_GUARD_AUDIT_FULL_v3_4.md",
+          "json": "mmm/mini/full/checks_guards/json/MMM_CHECK_GUARD_AUDIT_FULL_v3_4.json"
+        },
+        "compact": {
+          "md": "mmm/mini/compact/checks_guards/md/MMM_CHECK_GUARD_AUDIT_COMPACT_v3_4.md",
+          "json": "mmm/mini/compact/checks_guards/json/MMM_CHECK_GUARD_AUDIT_COMPACT_v3_4.json"
+        }
+      },
+      "boot_scope": "assigned check/guard worker only",
+      "visible_status_values": [
+        "spawned",
+        "blocked",
+        "deferred",
+        "simulated"
+      ]
+    },
+    {
+      "id": "HYGIENE",
+      "name": "Hygiene",
+      "emoji": "🧼",
+      "category": "checks_guards",
+      "scale": "check_guard",
+      "paths": {
+        "full": {
+          "md": "mmm/mini/full/checks_guards/md/MMM_CHECK_GUARD_HYGIENE_FULL_v3_4.md",
+          "json": "mmm/mini/full/checks_guards/json/MMM_CHECK_GUARD_HYGIENE_FULL_v3_4.json"
+        },
+        "compact": {
+          "md": "mmm/mini/compact/checks_guards/md/MMM_CHECK_GUARD_HYGIENE_COMPACT_v3_4.md",
+          "json": "mmm/mini/compact/checks_guards/json/MMM_CHECK_GUARD_HYGIENE_COMPACT_v3_4.json"
+        }
+      },
+      "boot_scope": "assigned check/guard worker only",
+      "visible_status_values": [
+        "spawned",
+        "blocked",
+        "deferred",
+        "simulated"
+      ]
+    },
+    {
+      "id": "SECURITY",
+      "name": "Security",
+      "emoji": "🛡️",
+      "category": "checks_guards",
+      "scale": "check_guard",
+      "paths": {
+        "full": {
+          "md": "mmm/mini/full/checks_guards/md/MMM_CHECK_GUARD_SECURITY_FULL_v3_4.md",
+          "json": "mmm/mini/full/checks_guards/json/MMM_CHECK_GUARD_SECURITY_FULL_v3_4.json"
+        },
+        "compact": {
+          "md": "mmm/mini/compact/checks_guards/md/MMM_CHECK_GUARD_SECURITY_COMPACT_v3_4.md",
+          "json": "mmm/mini/compact/checks_guards/json/MMM_CHECK_GUARD_SECURITY_COMPACT_v3_4.json"
+        }
+      },
+      "boot_scope": "assigned check/guard worker only",
+      "visible_status_values": [
+        "spawned",
+        "blocked",
+        "deferred",
+        "simulated"
+      ]
+    },
+    {
+      "id": "LLM_COUNCIL",
+      "name": "LLM Council",
+      "emoji": "🧠",
+      "category": "system_routes",
+      "scale": "system_route",
+      "paths": {
+        "full": {
+          "md": "mmm/mini/full/system_routes/md/MMM_SYSTEM_ROUTE_LLM_COUNCIL_FULL_v3_4.md",
+          "json": "mmm/mini/full/system_routes/json/MMM_SYSTEM_ROUTE_LLM_COUNCIL_FULL_v3_4.json"
+        },
+        "compact": {
+          "md": "mmm/mini/compact/system_routes/md/MMM_SYSTEM_ROUTE_LLM_COUNCIL_COMPACT_v3_4.md",
+          "json": "mmm/mini/compact/system_routes/json/MMM_SYSTEM_ROUTE_LLM_COUNCIL_COMPACT_v3_4.json"
+        }
+      },
+      "boot_scope": "LLM Council wave only",
+      "visible_status_values": [
+        "spawned",
+        "blocked",
+        "deferred",
+        "simulated"
+      ]
+    },
+    {
+      "id": "ALL_A",
+      "name": "All-A",
+      "emoji": "🔗",
+      "category": "compositions",
+      "scale": "composition",
+      "paths": {
+        "full": {
+          "md": "mmm/mini/full/compositions/md/MMM_COMPOSITION_ALL_A_FULL_v3_4.md",
+          "json": "mmm/mini/full/compositions/json/MMM_COMPOSITION_ALL_A_FULL_v3_4.json"
+        },
+        "compact": {
+          "md": "mmm/mini/compact/compositions/md/MMM_COMPOSITION_ALL_A_COMPACT_v3_4.md",
+          "json": "mmm/mini/compact/compositions/json/MMM_COMPOSITION_ALL_A_COMPACT_v3_4.json"
+        }
+      },
+      "boot_scope": "assigned composition worker only",
+      "visible_status_values": [
+        "spawned",
+        "blocked",
+        "deferred",
+        "simulated"
+      ]
+    },
+    {
+      "id": "ALL_B",
+      "name": "All-B",
+      "emoji": "🧬",
+      "category": "compositions",
+      "scale": "composition",
+      "paths": {
+        "full": {
+          "md": "mmm/mini/full/compositions/md/MMM_COMPOSITION_ALL_B_FULL_v3_4.md",
+          "json": "mmm/mini/full/compositions/json/MMM_COMPOSITION_ALL_B_FULL_v3_4.json"
+        },
+        "compact": {
+          "md": "mmm/mini/compact/compositions/md/MMM_COMPOSITION_ALL_B_COMPACT_v3_4.md",
+          "json": "mmm/mini/compact/compositions/json/MMM_COMPOSITION_ALL_B_COMPACT_v3_4.json"
+        }
+      },
+      "boot_scope": "assigned composition worker only",
+      "visible_status_values": [
+        "spawned",
+        "blocked",
+        "deferred",
+        "simulated"
+      ]
+    },
+    {
+      "id": "ALL_C",
+      "name": "All-C",
+      "emoji": "🧹",
+      "category": "compositions",
+      "scale": "composition",
+      "paths": {
+        "full": {
+          "md": "mmm/mini/full/compositions/md/MMM_COMPOSITION_ALL_C_FULL_v3_4.md",
+          "json": "mmm/mini/full/compositions/json/MMM_COMPOSITION_ALL_C_FULL_v3_4.json"
+        },
+        "compact": {
+          "md": "mmm/mini/compact/compositions/md/MMM_COMPOSITION_ALL_C_COMPACT_v3_4.md",
+          "json": "mmm/mini/compact/compositions/json/MMM_COMPOSITION_ALL_C_COMPACT_v3_4.json"
+        }
+      },
+      "boot_scope": "assigned composition worker only",
+      "visible_status_values": [
+        "spawned",
+        "blocked",
+        "deferred",
+        "simulated"
+      ]
+    },
+    {
+      "id": "FULL_WIZARD",
+      "name": "Full Wizard",
+      "emoji": "🧙🏽‍♂️",
+      "category": "compositions",
+      "scale": "composition",
+      "paths": {
+        "full": {
+          "md": "mmm/mini/full/compositions/md/MMM_COMPOSITION_FULL_WIZARD_FULL_v3_4.md",
+          "json": "mmm/mini/full/compositions/json/MMM_COMPOSITION_FULL_WIZARD_FULL_v3_4.json"
+        },
+        "compact": {
+          "md": "mmm/mini/compact/compositions/md/MMM_COMPOSITION_FULL_WIZARD_COMPACT_v3_4.md",
+          "json": "mmm/mini/compact/compositions/json/MMM_COMPOSITION_FULL_WIZARD_COMPACT_v3_4.json"
+        }
+      },
+      "boot_scope": "assigned composition worker only",
+      "visible_status_values": [
+        "spawned",
+        "blocked",
+        "deferred",
+        "simulated"
+      ]
+    },
+    {
+      "id": "SYNTHESIS",
+      "name": "Synthesis",
+      "emoji": "🧩",
+      "category": "controller_acts",
+      "scale": "controller_act",
+      "paths": {
+        "full": {
+          "md": "mmm/mini/full/controller_acts/md/MMM_CONTROLLER_ACT_SYNTHESIS_FULL_v3_4.md",
+          "json": "mmm/mini/full/controller_acts/json/MMM_CONTROLLER_ACT_SYNTHESIS_FULL_v3_4.json"
+        },
+        "compact": {
+          "md": "mmm/mini/compact/controller_acts/md/MMM_CONTROLLER_ACT_SYNTHESIS_COMPACT_v3_4.md",
+          "json": "mmm/mini/compact/controller_acts/json/MMM_CONTROLLER_ACT_SYNTHESIS_COMPACT_v3_4.json"
+        }
+      },
+      "boot_scope": "controller after receipts only",
+      "visible_status_values": [
+        "spawned",
+        "blocked",
+        "deferred",
+        "simulated"
+      ]
+    }
+  ],
+  "forbidden_active_dirs": [
+    "universal_mmm",
+    "runtime_adapters",
+    "source_notes",
+    "boot_rules",
+    "standard",
+    "ultra"
+  ]
+}

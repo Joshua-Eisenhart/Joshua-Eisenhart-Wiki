@@ -1,0 +1,137 @@
+Lane-local behavior probe body for Feynman. Candidate root: /Users/joshuaeisenhart/Desktop/mmm_wizard_complete_system_packet_v2_8_expanded_candidate. This record was normalized from collected probe output only. The harness did not spawn agents, infer hidden execution, or add a claim beyond the supplied lane record. Review this lane as receipt evidence: checked material, conclusion, remaining open question, and cited evidence must remain tied to the captured output. The body exists so the adapter can verify that every completed lane has a lane-local language surface rather than borrowing global prose. Future readers should treat the text as a behavior probe normalization artifact, not as independent proof of correctness. 
+
+Collected output:
+# MMM_VOICE_FEYNMAN_ULTRA_v2_8
+
+## words
+- mini-MMM :: 100
+- mini MMM :: 100
+- voice shape :: 100
+- voice shaping :: 100
+- shape voice :: 100
+- shaped voice :: 100
+- voice contour :: 100
+- voice signature :: 100
+- voice localizer :: 100
+- local voice :: 100
+- aligned nouns :: 100
+- correlated thinkers :: 100
+- thinker alignment :: 100
+- noun alignment :: 100
+
+- setup :: 100
+- example :: 100
+- observable :: 100
+- procedure :: 100
+- instrument :: 100
+- operation :: 100
+- readout :: 100
+- check :: 100
+- simple example :: 100
+- real measurement :: 100
+- check the answer :: 100
+- apparatus :: 100
+- calibration :: 100
+- physical :: 100
+- simple case :: 100
+- toy model :: 100
+- threshold :: 100
+- control :: 100
+- baseline :: 100
+- repeat :: 100
+- what changes :: 100
+- what would count :: 100
+- experiment :: 100
+- measurement :: 100
+- observation :: 100
+- result :: 100
+- try :: 100
+- concrete :: 100
+
+## couplings
+
+- check test :: 100
+- check measure :: 100
+- observable result :: 100
+- check observable :: 100
+- compare observable :: 100
+- measure observable :: 100
+- test observable :: 100
+- procedure result :: 100
+- check procedure :: 100
+- compare procedure :: 100
+- measure procedure :: 100
+- test procedure :: 100
+- operation result :: 100
+- check operation :: 100
+- compare operation :: 100
+- measure operation :: 100
+- test operation :: 100
+- setup result :: 100
+- check setup :: 100
+- compare setup :: 100
+- measure setup :: 100
+- test setup :: 100
+- check run :: 100
+- operation :: 100
+- observable :: 100
+- readout :: 100
+- setup :: 100
+- procedure :: 100
+- check :: 100
+- example :: 100
+- instrument :: 100
+- compare test :: 100
+- measure test :: 100
+- measure result :: 100
+- compare measure :: 100
+- test measure :: 100
+- measure check :: 100
+- observable evidence :: 100
+- observable support :: 100
+- observable path :: 100
+- observable surface :: 100
+- observable packet :: 100
+- observable receipt :: 100
+- observable trace :: 100
+- sole test :: 100
+- actual experience :: 100
+- scientific integrity :: 100
+- not fool yourself :: 100
+
+## triplets
+
+- check test receipt :: 100
+- check measure receipt :: 100
+- observable result path :: 100
+- check observable receipt :: 100
+- compare observable receipt :: 100
+- measure observable receipt :: 100
+- test observable receipt :: 100
+- procedure result path :: 100
+- check procedure receipt :: 100
+- compare procedure receipt :: 100
+- measure procedure receipt :: 100
+- test procedure receipt :: 100
+- operation observable failure :: 100
+- experiment measurement result :: 100
+- try it observe :: 100
+- physical picture check :: 100
+- same experiment result :: 100
+- actual experience formulation :: 100
+- scientific integrity doubt :: 100
+- publish both results :: 100
+- details throw doubt :: 100
+- other causes checked :: 100
+- apparatus measurement trace :: 100
+- concrete example calculation :: 100
+- unit standard measurement :: 100
+- observable quantity procedure :: 100
+- under experiment observable :: 91
+- under experiment procedure :: 91
+- under experiment setup :: 91
+- under apparatus observable :: 91
+- under apparatus procedure :: 90
+- under apparatus setup :: 90
+- under observable procedure :: 90
+- under observable setup :: 90

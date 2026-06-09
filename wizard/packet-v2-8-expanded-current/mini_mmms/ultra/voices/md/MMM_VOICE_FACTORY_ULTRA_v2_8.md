@@ -1,0 +1,173 @@
+# MMM_VOICE_FACTORY_ULTRA_v2_8
+
+## words
+- mini-MMM :: 100
+- mini MMM :: 100
+- voice shape :: 100
+- voice shaping :: 100
+- shape voice :: 100
+- shaped voice :: 100
+- voice contour :: 100
+- voice signature :: 100
+- voice localizer :: 100
+- local voice :: 100
+- aligned nouns :: 100
+- correlated thinkers :: 100
+- thinker alignment :: 100
+- noun alignment :: 100
+
+- throughput :: 100
+- queue :: 100
+- workcell :: 100
+- latency :: 100
+- wip :: 100
+- repeatability :: 100
+- template :: 100
+- ownership :: 100
+- buffer :: 100
+- rework :: 100
+- work in progress :: 100
+- choke point :: 100
+- cycle time :: 100
+- standard work :: 100
+- bottleneck :: 100
+- flow :: 100
+- capacity :: 100
+- handoff :: 100
+- maintenance :: 100
+- throughput accounting :: 100
+- drum buffer rope :: 100
+- queue length :: 100
+- factory :: 100
+- reliability :: 100
+- kanban :: 100
+- jidoka :: 100
+- justintime :: 100
+- takt :: 100
+
+## couplings
+
+- choke point :: 100
+- cycle time :: 100
+- standard work :: 100
+- bottleneck evidence :: 100
+- bottleneck support :: 100
+- bottleneck path :: 100
+- bottleneck surface :: 100
+- bottleneck packet :: 100
+- bottleneck receipt :: 100
+- bottleneck trace :: 100
+- bottleneck result :: 100
+- bottleneck scope :: 100
+- bottleneck boundary :: 100
+- bottleneck status :: 100
+- bottleneck candidate :: 100
+- bottleneck witness :: 100
+- bottleneck :: 100
+- queue :: 100
+- handoff :: 100
+- throughput :: 100
+- wip :: 100
+- flow :: 100
+- maintenance :: 100
+- repeatability :: 100
+- template :: 100
+- ownership :: 100
+- workcell :: 100
+- capacity :: 100
+- latency :: 100
+- buffer :: 100
+- rework :: 100
+- bottleneck probe :: 100
+- bottleneck constraint :: 100
+- check bottleneck :: 100
+- compare bottleneck :: 100
+- observe bottleneck :: 100
+- measure bottleneck :: 100
+- test bottleneck :: 100
+- verify bottleneck :: 100
+- hold bottleneck :: 100
+- preserve bottleneck :: 100
+- split bottleneck :: 100
+- narrow bottleneck :: 100
+- queue bottleneck :: 100
+- throughput constraint :: 100
+- handoff drag :: 100
+- work in process :: 100
+- pull system :: 100
+
+## triplets
+
+- work in progress :: 100
+- under throughput queue :: 100
+- under bottleneck queue :: 100
+- under queue handoff :: 100
+- under queue workcell :: 100
+- under queue flow :: 100
+- under queue capacity :: 100
+- bottleneck queue flow :: 100
+- throughput handoff drag :: 100
+- kanban pull signal :: 100
+- jidoka defect stop :: 100
+- just in time :: 100
+- takt time leveling :: 100
+- standard work improvement :: 100
+- wip inventory flow :: 100
+- rework waste removal :: 100
+- lead time reduction :: 100
+- quality built process :: 100
+- next process pulls :: 100
+- right quantity timing :: 100
+- andon visible problem :: 100
+- under throughput bottleneck :: 91
+- under throughput handoff :: 90
+- under throughput workcell :: 90
+- under bottleneck handoff :: 90
+- under bottleneck workcell :: 90
+- under bottleneck flow :: 90
+- under handoff workcell :: 90
+- under handoff flow :: 90
+- under handoff capacity :: 90
+- under handoff latency :: 90
+- under workcell flow :: 90
+- under workcell capacity :: 90
+- under workcell latency :: 90
+## voice noun reservoir stabilization addendum
+- voice method :: 100
+- voice evidence :: 100
+- voice judgment :: 100
+- voice task :: 100
+- voice receipt :: 100
+- voice finding :: 100
+- voice constraint :: 100
+- voice noun :: 100
+- voice verb :: 100
+- voice signal :: 100
+- voice contrast :: 100
+- voice boundary :: 100
+- voice contribution :: 100
+- mini mmm loaded :: 100
+- loaded mini mmm :: 100
+- assigned mini mmm :: 100
+- local voice context :: 100
+- voice-specific nouns :: 100
+- method nouns :: 100
+- reader stance :: 100
+- decision stance :: 100
+- audit stance :: 100
+- build stance :: 100
+- repair stance :: 100
+- acceptance stance :: 100
+- subagent voice :: 100
+- voice worker :: 100
+- voice proof :: 100
+- distinct output :: 100
+- behavioral pull :: 100
+- salience pull :: 100
+- voice usefulness :: 100
+- output repair :: 100
+- system repair :: 100
+- mmm stability :: 100
+- wizard stability :: 100
+- qit support :: 100
+- sim support :: 100

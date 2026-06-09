@@ -1,0 +1,66 @@
+{
+  "id": "WILDCARD",
+  "name": "Wildcard",
+  "emoji": "🃏",
+  "category": "lanes",
+  "scale": "lane",
+  "purpose": "bounded off-axis probe",
+  "unique_job": "run one safe non-obvious move that may unlock the problem",
+  "non_job": "Do not become decorative or unreceipted.",
+  "inputs": "stale route, suspected hidden failure, bounded safe probe",
+  "outputs": "probe result, payoff or no-payoff, retire/continue decision",
+  "subagent_contract": "If visible as ran, Wildcard needs spawned/blocked/deferred/simulated truth and a receipt naming probe, payoff, stop condition, and whether the probe changed the main route.",
+  "receipt_requirement": "Visible route status must be exactly spawned, blocked, deferred, or simulated. Spawned receipts name unit_id, unit_type, wave, mini-MMM loaded path, task card, checked, concluded, open, evidence, and artifact/output. Blocked/deferred receipts name reason and condition_to_run.",
+  "collapse_signs": "Wildcard becomes random ideation or an unbounded tangent.",
+  "nearest_neighbors": [
+    "Alternative",
+    "Zhuangzi",
+    "All-B"
+  ],
+  "salience_drivers": {
+    "full_top_words": [
+      "wildcard",
+      "surprise",
+      "unexpected",
+      "odd",
+      "path",
+      "unlock",
+      "probe",
+      "creative",
+      "angle",
+      "nonobvious",
+      "strange",
+      "fit",
+      "side",
+      "door"
+    ],
+    "compact_top_words": [
+      "unexpected",
+      "unlock",
+      "probe",
+      "odd",
+      "cheap test",
+      "edge move",
+      "upside",
+      "small experiment"
+    ],
+    "deep_research_positive_words": [
+      "probe",
+      "scout",
+      "excursion",
+      "wedge",
+      "unlock"
+    ],
+    "deep_research_couplings": [
+      "off-axis probe",
+      "scout path",
+      "unlock wedge"
+    ],
+    "deep_research_triplets": [
+      "probe scout unlock"
+    ]
+  },
+  "people_schools_systems_methods": "Lateral thinking, adversarial probes, bounded novelty, off-axis unlocks.",
+  "math_operator_geometry_associations": "Randomized probe, perturbation, lateral move, search outside local basin.",
+  "legacy_mined_notes": "Wildcard is a bounded off-axis probe with a payoff and stop condition. It can invert a test, load a deliberately bad MMM row, stress a follow-up menu, use proof/graph tooling early, or compare a runtime adapter against a wiki source. v2.8 Pro audit requested richer debugging definitions and positive people/schools/systems/methods/math salience. deep-research-report.md supplied the positive noun/coupling/triplet expansion used here."
+}

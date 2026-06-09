@@ -1,0 +1,12754 @@
+{
+  "words": [
+    [
+      1,
+      "strategy",
+      100
+    ],
+    [
+      2,
+      "campaign",
+      100
+    ],
+    [
+      3,
+      "sequence",
+      100
+    ],
+    [
+      4,
+      "priority",
+      100
+    ],
+    [
+      5,
+      "resource",
+      100
+    ],
+    [
+      6,
+      "timing",
+      100
+    ],
+    [
+      7,
+      "front",
+      100
+    ],
+    [
+      8,
+      "decisive",
+      100
+    ],
+    [
+      9,
+      "retreat",
+      100
+    ],
+    [
+      10,
+      "hold",
+      100
+    ],
+    [
+      11,
+      "advance",
+      100
+    ],
+    [
+      12,
+      "defer",
+      100
+    ],
+    [
+      13,
+      "split",
+      100
+    ],
+    [
+      14,
+      "merge",
+      100
+    ],
+    [
+      15,
+      "tradeoff",
+      100
+    ],
+    [
+      16,
+      "objective",
+      100
+    ],
+    [
+      17,
+      "mission",
+      100
+    ],
+    [
+      18,
+      "position",
+      100
+    ],
+    [
+      19,
+      "terrain",
+      100
+    ],
+    [
+      20,
+      "initiative",
+      100
+    ],
+    [
+      21,
+      "commitment",
+      100
+    ],
+    [
+      22,
+      "scarce",
+      100
+    ],
+    [
+      23,
+      "drift",
+      100
+    ],
+    [
+      24,
+      "condition",
+      100
+    ],
+    [
+      25,
+      "return",
+      100
+    ],
+    [
+      26,
+      "reserve",
+      99
+    ],
+    [
+      27,
+      "line",
+      99
+    ],
+    [
+      28,
+      "effort",
+      99
+    ],
+    [
+      29,
+      "course",
+      99
+    ],
+    [
+      30,
+      "action",
+      99
+    ],
+    [
+      31,
+      "option",
+      99
+    ],
+    [
+      32,
+      "value",
+      99
+    ],
+    [
+      33,
+      "center of gravity",
+      99
+    ],
+    [
+      34,
+      "decisive point",
+      99
+    ],
+    [
+      35,
+      "friction",
+      99
+    ],
+    [
+      36,
+      "fog of war",
+      99
+    ],
+    [
+      37,
+      "line of operation",
+      99
+    ],
+    [
+      38,
+      "culminating point",
+      99
+    ],
+    [
+      39,
+      "means and ends",
+      99
+    ],
+    [
+      40,
+      "retreat condition",
+      99
+    ],
+    [
+      41,
+      "economy of force",
+      99
+    ],
+    [
+      42,
+      "strategic reserve",
+      99
+    ],
+    [
+      43,
+      "decisive front",
+      99
+    ],
+    [
+      44,
+      "role",
+      99
+    ],
+    [
+      45,
+      "order",
+      99
+    ],
+    [
+      46,
+      "drift condition",
+      99
+    ],
+    [
+      47,
+      "first move",
+      99
+    ],
+    [
+      48,
+      "return trigger",
+      99
+    ],
+    [
+      49,
+      "cost",
+      99
+    ],
+    [
+      50,
+      "leverage",
+      99
+    ],
+    [
+      51,
+      "direction",
+      98
+    ],
+    [
+      52,
+      "route",
+      98
+    ],
+    [
+      53,
+      "staged",
+      98
+    ],
+    [
+      54,
+      "choice",
+      98
+    ],
+    [
+      55,
+      "under",
+      98
+    ],
+    [
+      56,
+      "within",
+      98
+    ],
+    [
+      57,
+      "across",
+      98
+    ],
+    [
+      58,
+      "between",
+      98
+    ],
+    [
+      59,
+      "through",
+      98
+    ],
+    [
+      60,
+      "before",
+      98
+    ],
+    [
+      61,
+      "after",
+      98
+    ],
+    [
+      62,
+      "until",
+      98
+    ],
+    [
+      63,
+      "where",
+      98
+    ],
+    [
+      64,
+      "while",
+      98
+    ],
+    [
+      65,
+      "against",
+      98
+    ],
+    [
+      66,
+      "along",
+      98
+    ],
+    [
+      67,
+      "around",
+      98
+    ],
+    [
+      68,
+      "among",
+      98
+    ],
+    [
+      69,
+      "inside",
+      98
+    ],
+    [
+      70,
+      "outside",
+      98
+    ],
+    [
+      71,
+      "near",
+      98
+    ],
+    [
+      72,
+      "beside",
+      98
+    ],
+    [
+      73,
+      "over",
+      98
+    ],
+    [
+      74,
+      "from",
+      98
+    ],
+    [
+      75,
+      "with",
+      98
+    ],
+    [
+      76,
+      "without",
+      97
+    ],
+    [
+      77,
+      "only",
+      97
+    ],
+    [
+      78,
+      "not",
+      97
+    ],
+    [
+      79,
+      "no",
+      97
+    ],
+    [
+      80,
+      "yet",
+      97
+    ],
+    [
+      81,
+      "then",
+      97
+    ],
+    [
+      82,
+      "current",
+      97
+    ],
+    [
+      83,
+      "actual",
+      97
+    ],
+    [
+      84,
+      "local",
+      97
+    ],
+    [
+      85,
+      "bounded",
+      97
+    ],
+    [
+      86,
+      "finite",
+      97
+    ],
+    [
+      87,
+      "open",
+      97
+    ],
+    [
+      88,
+      "live",
+      97
+    ],
+    [
+      89,
+      "distinct",
+      97
+    ],
+    [
+      90,
+      "concrete",
+      97
+    ],
+    [
+      91,
+      "plain",
+      97
+    ],
+    [
+      92,
+      "observed",
+      97
+    ],
+    [
+      93,
+      "inferred",
+      97
+    ],
+    [
+      94,
+      "known",
+      97
+    ],
+    [
+      95,
+      "unknown",
+      97
+    ],
+    [
+      96,
+      "checked",
+      97
+    ],
+    [
+      97,
+      "missing",
+      97
+    ],
+    [
+      98,
+      "stale",
+      97
+    ],
+    [
+      99,
+      "narrow",
+      97
+    ],
+    [
+      100,
+      "small",
+      97
+    ],
+    [
+      101,
+      "warm",
+      96
+    ],
+    [
+      102,
+      "careful",
+      96
+    ],
+    [
+      103,
+      "honest",
+      96
+    ],
+    [
+      104,
+      "first",
+      96
+    ],
+    [
+      105,
+      "next",
+      96
+    ],
+    [
+      106,
+      "prior",
+      96
+    ],
+    [
+      107,
+      "later",
+      96
+    ],
+    [
+      108,
+      "separate",
+      96
+    ],
+    [
+      109,
+      "together",
+      96
+    ],
+    [
+      110,
+      "apart",
+      96
+    ],
+    [
+      111,
+      "held",
+      96
+    ],
+    [
+      112,
+      "returned",
+      96
+    ],
+    [
+      113,
+      "found",
+      96
+    ],
+    [
+      114,
+      "compared",
+      96
+    ],
+    [
+      115,
+      "measured",
+      96
+    ],
+    [
+      116,
+      "named",
+      96
+    ],
+    [
+      117,
+      "used",
+      96
+    ],
+    [
+      118,
+      "fit",
+      96
+    ],
+    [
+      119,
+      "viable",
+      96
+    ],
+    [
+      120,
+      "direct",
+      96
+    ],
+    [
+      121,
+      "different",
+      96
+    ],
+    [
+      122,
+      "alternate",
+      96
+    ],
+    [
+      123,
+      "branch",
+      96
+    ],
+    [
+      124,
+      "path",
+      96
+    ],
+    [
+      125,
+      "surface",
+      96
+    ],
+    [
+      126,
+      "packet",
+      95
+    ],
+    [
+      127,
+      "artifact",
+      95
+    ],
+    [
+      128,
+      "receipt",
+      95
+    ],
+    [
+      129,
+      "trace",
+      95
+    ],
+    [
+      130,
+      "result",
+      95
+    ],
+    [
+      131,
+      "support",
+      95
+    ],
+    [
+      132,
+      "evidence",
+      95
+    ],
+    [
+      133,
+      "scope",
+      95
+    ],
+    [
+      134,
+      "boundary",
+      95
+    ],
+    [
+      135,
+      "gate",
+      95
+    ],
+    [
+      136,
+      "guard",
+      95
+    ],
+    [
+      137,
+      "rung",
+      95
+    ],
+    [
+      138,
+      "status",
+      95
+    ],
+    [
+      139,
+      "candidate",
+      95
+    ],
+    [
+      140,
+      "survivor",
+      95
+    ],
+    [
+      141,
+      "witness",
+      95
+    ],
+    [
+      142,
+      "probe",
+      95
+    ],
+    [
+      143,
+      "constraint",
+      95
+    ],
+    [
+      144,
+      "name",
+      95
+    ],
+    [
+      145,
+      "term",
+      95
+    ],
+    [
+      146,
+      "use",
+      95
+    ],
+    [
+      147,
+      "practice",
+      95
+    ],
+    [
+      148,
+      "custom",
+      95
+    ],
+    [
+      149,
+      "habit",
+      95
+    ],
+    [
+      150,
+      "experience",
+      95
+    ],
+    [
+      151,
+      "observation",
+      94
+    ],
+    [
+      152,
+      "impression",
+      94
+    ],
+    [
+      153,
+      "idea",
+      94
+    ],
+    [
+      154,
+      "perception",
+      94
+    ],
+    [
+      155,
+      "conjunction",
+      94
+    ],
+    [
+      156,
+      "resemblance",
+      94
+    ],
+    [
+      157,
+      "relation",
+      94
+    ],
+    [
+      158,
+      "probability",
+      94
+    ],
+    [
+      159,
+      "particular",
+      94
+    ],
+    [
+      160,
+      "predicate",
+      94
+    ],
+    [
+      161,
+      "class",
+      94
+    ],
+    [
+      162,
+      "model",
+      94
+    ],
+    [
+      163,
+      "solver",
+      94
+    ],
+    [
+      164,
+      "satisfiable",
+      94
+    ],
+    [
+      165,
+      "unsatisfiable",
+      94
+    ],
+    [
+      166,
+      "countermodel",
+      94
+    ],
+    [
+      167,
+      "counterexample",
+      94
+    ],
+    [
+      168,
+      "equivalence",
+      94
+    ],
+    [
+      169,
+      "indistinguishable",
+      94
+    ],
+    [
+      170,
+      "readout",
+      94
+    ],
+    [
+      171,
+      "measure",
+      94
+    ],
+    [
+      172,
+      "measurement",
+      94
+    ],
+    [
+      173,
+      "operation",
+      94
+    ],
+    [
+      174,
+      "procedure",
+      94
+    ],
+    [
+      175,
+      "instrument",
+      94
+    ],
+    [
+      176,
+      "experiment",
+      93
+    ],
+    [
+      177,
+      "test",
+      93
+    ],
+    [
+      178,
+      "check",
+      93
+    ],
+    [
+      179,
+      "verify",
+      93
+    ],
+    [
+      180,
+      "compare",
+      93
+    ],
+    [
+      181,
+      "sample",
+      93
+    ],
+    [
+      182,
+      "lane",
+      93
+    ],
+    [
+      183,
+      "voice",
+      93
+    ],
+    [
+      184,
+      "lens",
+      93
+    ],
+    [
+      185,
+      "council",
+      93
+    ],
+    [
+      186,
+      "audit",
+      93
+    ],
+    [
+      187,
+      "finding",
+      93
+    ],
+    [
+      188,
+      "blocker",
+      93
+    ],
+    [
+      189,
+      "deferred",
+      93
+    ],
+    [
+      190,
+      "blocked",
+      93
+    ],
+    [
+      191,
+      "spawned",
+      93
+    ],
+    [
+      192,
+      "diagnostic",
+      93
+    ],
+    [
+      193,
+      "untried",
+      93
+    ],
+    [
+      194,
+      "preload",
+      93
+    ],
+    [
+      195,
+      "salience",
+      93
+    ],
+    [
+      196,
+      "language",
+      93
+    ],
+    [
+      197,
+      "body",
+      93
+    ],
+    [
+      198,
+      "during",
+      93
+    ],
+    [
+      199,
+      "since",
+      93
+    ],
+    [
+      200,
+      "by",
+      93
+    ],
+    [
+      201,
+      "toward",
+      92
+    ],
+    [
+      202,
+      "relative",
+      92
+    ],
+    [
+      203,
+      "according",
+      92
+    ],
+    [
+      204,
+      "locally",
+      92
+    ],
+    [
+      205,
+      "jointly",
+      92
+    ],
+    [
+      206,
+      "separately",
+      92
+    ],
+    [
+      207,
+      "rather",
+      92
+    ],
+    [
+      208,
+      "instead",
+      92
+    ],
+    [
+      209,
+      "still",
+      92
+    ],
+    [
+      210,
+      "often",
+      92
+    ],
+    [
+      211,
+      "sometimes",
+      92
+    ],
+    [
+      212,
+      "usually",
+      92
+    ],
+    [
+      213,
+      "seems",
+      92
+    ],
+    [
+      214,
+      "appears",
+      92
+    ],
+    [
+      215,
+      "likely",
+      92
+    ],
+    [
+      216,
+      "possible",
+      92
+    ],
+    [
+      217,
+      "plausible",
+      92
+    ],
+    [
+      218,
+      "tentative",
+      92
+    ],
+    [
+      219,
+      "provisional",
+      92
+    ],
+    [
+      220,
+      "partial",
+      92
+    ],
+    [
+      221,
+      "mini-MMM",
+      100
+    ],
+    [
+      222,
+      "mini MMM",
+      100
+    ],
+    [
+      223,
+      "voice shape",
+      100
+    ],
+    [
+      224,
+      "voice shaping",
+      100
+    ],
+    [
+      225,
+      "shape voice",
+      100
+    ],
+    [
+      226,
+      "shaped voice",
+      100
+    ],
+    [
+      227,
+      "voice contour",
+      100
+    ],
+    [
+      228,
+      "voice signature",
+      100
+    ],
+    [
+      229,
+      "voice localizer",
+      100
+    ],
+    [
+      230,
+      "local voice",
+      100
+    ],
+    [
+      231,
+      "aligned nouns",
+      100
+    ],
+    [
+      232,
+      "correlated thinkers",
+      100
+    ],
+    [
+      233,
+      "thinker alignment",
+      100
+    ],
+    [
+      234,
+      "noun alignment",
+      100
+    ],
+    [
+      235,
+      "voice method",
+      100
+    ],
+    [
+      236,
+      "voice evidence",
+      100
+    ],
+    [
+      237,
+      "voice judgment",
+      100
+    ],
+    [
+      238,
+      "voice task",
+      100
+    ],
+    [
+      239,
+      "voice receipt",
+      100
+    ],
+    [
+      240,
+      "voice finding",
+      100
+    ],
+    [
+      241,
+      "voice constraint",
+      100
+    ],
+    [
+      242,
+      "voice noun",
+      100
+    ],
+    [
+      243,
+      "voice verb",
+      100
+    ],
+    [
+      244,
+      "voice signal",
+      100
+    ],
+    [
+      245,
+      "voice boundary",
+      100
+    ],
+    [
+      246,
+      "voice contribution",
+      100
+    ],
+    [
+      247,
+      "mini mmm loaded",
+      100
+    ],
+    [
+      248,
+      "loaded mini mmm",
+      100
+    ],
+    [
+      249,
+      "assigned mini mmm",
+      100
+    ],
+    [
+      250,
+      "local voice context",
+      100
+    ],
+    [
+      251,
+      "voice-specific nouns",
+      100
+    ],
+    [
+      252,
+      "method nouns",
+      100
+    ],
+    [
+      253,
+      "reader stance",
+      100
+    ],
+    [
+      254,
+      "decision stance",
+      100
+    ],
+    [
+      255,
+      "audit stance",
+      100
+    ],
+    [
+      256,
+      "build stance",
+      100
+    ],
+    [
+      257,
+      "repair stance",
+      100
+    ],
+    [
+      258,
+      "acceptance stance",
+      100
+    ],
+    [
+      259,
+      "subagent voice",
+      100
+    ],
+    [
+      260,
+      "voice worker",
+      100
+    ],
+    [
+      261,
+      "voice proof",
+      100
+    ],
+    [
+      262,
+      "distinct output",
+      100
+    ],
+    [
+      263,
+      "behavioral pull",
+      100
+    ],
+    [
+      264,
+      "salience pull",
+      100
+    ],
+    [
+      265,
+      "voice usefulness",
+      100
+    ],
+    [
+      266,
+      "output repair",
+      100
+    ],
+    [
+      267,
+      "system repair",
+      100
+    ],
+    [
+      268,
+      "mmm stability",
+      100
+    ],
+    [
+      269,
+      "wizard stability",
+      100
+    ],
+    [
+      270,
+      "qit support",
+      100
+    ],
+    [
+      271,
+      "sim support",
+      100
+    ],
+    [
+      272,
+      "observe",
+      98
+    ],
+    [
+      273,
+      "orient",
+      98
+    ],
+    [
+      274,
+      "decide",
+      98
+    ],
+    [
+      275,
+      "act",
+      98
+    ],
+    [
+      276,
+      "disposition",
+      98
+    ],
+    [
+      277,
+      "movement",
+      98
+    ],
+    [
+      278,
+      "tempo",
+      98
+    ],
+    [
+      279,
+      "Boyd",
+      98
+    ],
+    [
+      280,
+      "OODA",
+      98
+    ],
+    [
+      281,
+      "Clausewitz",
+      98
+    ],
+    [
+      282,
+      "Sunzi",
+      98
+    ]
+  ],
+  "couplings": [
+    [
+      1,
+      "under campaign",
+      100
+    ],
+    [
+      2,
+      "within campaign",
+      100
+    ],
+    [
+      3,
+      "across campaign",
+      100
+    ],
+    [
+      4,
+      "between campaign",
+      100
+    ],
+    [
+      5,
+      "through campaign",
+      100
+    ],
+    [
+      6,
+      "before campaign",
+      100
+    ],
+    [
+      7,
+      "after campaign",
+      100
+    ],
+    [
+      8,
+      "until campaign",
+      100
+    ],
+    [
+      9,
+      "where campaign",
+      100
+    ],
+    [
+      10,
+      "while campaign",
+      100
+    ],
+    [
+      11,
+      "campaign evidence",
+      100
+    ],
+    [
+      12,
+      "campaign support",
+      100
+    ],
+    [
+      13,
+      "campaign path",
+      100
+    ],
+    [
+      14,
+      "campaign surface",
+      100
+    ],
+    [
+      15,
+      "campaign packet",
+      100
+    ],
+    [
+      16,
+      "campaign receipt",
+      100
+    ],
+    [
+      17,
+      "campaign trace",
+      100
+    ],
+    [
+      18,
+      "campaign result",
+      100
+    ],
+    [
+      19,
+      "campaign scope",
+      100
+    ],
+    [
+      20,
+      "campaign boundary",
+      100
+    ],
+    [
+      21,
+      "campaign status",
+      100
+    ],
+    [
+      22,
+      "campaign candidate",
+      100
+    ],
+    [
+      23,
+      "campaign witness",
+      100
+    ],
+    [
+      24,
+      "campaign probe",
+      100
+    ],
+    [
+      25,
+      "campaign constraint",
+      100
+    ],
+    [
+      26,
+      "check campaign",
+      99
+    ],
+    [
+      27,
+      "compare campaign",
+      99
+    ],
+    [
+      28,
+      "observe campaign",
+      99
+    ],
+    [
+      29,
+      "measure campaign",
+      99
+    ],
+    [
+      30,
+      "test campaign",
+      99
+    ],
+    [
+      31,
+      "verify campaign",
+      99
+    ],
+    [
+      32,
+      "hold campaign",
+      99
+    ],
+    [
+      33,
+      "preserve campaign",
+      99
+    ],
+    [
+      34,
+      "split campaign",
+      99
+    ],
+    [
+      35,
+      "narrow campaign",
+      99
+    ],
+    [
+      36,
+      "under sequence",
+      99
+    ],
+    [
+      37,
+      "within sequence",
+      99
+    ],
+    [
+      38,
+      "across sequence",
+      99
+    ],
+    [
+      39,
+      "between sequence",
+      99
+    ],
+    [
+      40,
+      "through sequence",
+      99
+    ],
+    [
+      41,
+      "before sequence",
+      99
+    ],
+    [
+      42,
+      "after sequence",
+      99
+    ],
+    [
+      43,
+      "until sequence",
+      99
+    ],
+    [
+      44,
+      "where sequence",
+      99
+    ],
+    [
+      45,
+      "while sequence",
+      99
+    ],
+    [
+      46,
+      "sequence evidence",
+      99
+    ],
+    [
+      47,
+      "sequence support",
+      99
+    ],
+    [
+      48,
+      "sequence path",
+      99
+    ],
+    [
+      49,
+      "sequence surface",
+      99
+    ],
+    [
+      50,
+      "sequence packet",
+      99
+    ],
+    [
+      51,
+      "sequence receipt",
+      98
+    ],
+    [
+      52,
+      "sequence trace",
+      98
+    ],
+    [
+      53,
+      "sequence result",
+      98
+    ],
+    [
+      54,
+      "sequence scope",
+      98
+    ],
+    [
+      55,
+      "sequence boundary",
+      98
+    ],
+    [
+      56,
+      "sequence status",
+      98
+    ],
+    [
+      57,
+      "sequence candidate",
+      98
+    ],
+    [
+      58,
+      "sequence witness",
+      98
+    ],
+    [
+      59,
+      "sequence probe",
+      98
+    ],
+    [
+      60,
+      "sequence constraint",
+      98
+    ],
+    [
+      61,
+      "check sequence",
+      98
+    ],
+    [
+      62,
+      "compare sequence",
+      98
+    ],
+    [
+      63,
+      "observe sequence",
+      98
+    ],
+    [
+      64,
+      "measure sequence",
+      98
+    ],
+    [
+      65,
+      "test sequence",
+      98
+    ],
+    [
+      66,
+      "verify sequence",
+      98
+    ],
+    [
+      67,
+      "hold sequence",
+      98
+    ],
+    [
+      68,
+      "preserve sequence",
+      98
+    ],
+    [
+      69,
+      "split sequence",
+      98
+    ],
+    [
+      70,
+      "narrow sequence",
+      98
+    ],
+    [
+      71,
+      "under front",
+      98
+    ],
+    [
+      72,
+      "within front",
+      98
+    ],
+    [
+      73,
+      "across front",
+      98
+    ],
+    [
+      74,
+      "between front",
+      98
+    ],
+    [
+      75,
+      "through front",
+      98
+    ],
+    [
+      76,
+      "before front",
+      97
+    ],
+    [
+      77,
+      "after front",
+      97
+    ],
+    [
+      78,
+      "until front",
+      97
+    ],
+    [
+      79,
+      "where front",
+      97
+    ],
+    [
+      80,
+      "while front",
+      97
+    ],
+    [
+      81,
+      "front evidence",
+      97
+    ],
+    [
+      82,
+      "front support",
+      97
+    ],
+    [
+      83,
+      "front path",
+      97
+    ],
+    [
+      84,
+      "front surface",
+      97
+    ],
+    [
+      85,
+      "front packet",
+      97
+    ],
+    [
+      86,
+      "front receipt",
+      97
+    ],
+    [
+      87,
+      "front trace",
+      97
+    ],
+    [
+      88,
+      "front result",
+      97
+    ],
+    [
+      89,
+      "front scope",
+      97
+    ],
+    [
+      90,
+      "front boundary",
+      97
+    ],
+    [
+      91,
+      "front status",
+      97
+    ],
+    [
+      92,
+      "front candidate",
+      97
+    ],
+    [
+      93,
+      "front witness",
+      97
+    ],
+    [
+      94,
+      "front probe",
+      97
+    ],
+    [
+      95,
+      "front constraint",
+      97
+    ],
+    [
+      96,
+      "check front",
+      97
+    ],
+    [
+      97,
+      "compare front",
+      97
+    ],
+    [
+      98,
+      "observe front",
+      97
+    ],
+    [
+      99,
+      "measure front",
+      97
+    ],
+    [
+      100,
+      "test front",
+      97
+    ],
+    [
+      101,
+      "verify front",
+      96
+    ],
+    [
+      102,
+      "hold front",
+      96
+    ],
+    [
+      103,
+      "preserve front",
+      96
+    ],
+    [
+      104,
+      "split front",
+      96
+    ],
+    [
+      105,
+      "narrow front",
+      96
+    ],
+    [
+      106,
+      "under retreat",
+      96
+    ],
+    [
+      107,
+      "within retreat",
+      96
+    ],
+    [
+      108,
+      "across retreat",
+      96
+    ],
+    [
+      109,
+      "between retreat",
+      96
+    ],
+    [
+      110,
+      "through retreat",
+      96
+    ],
+    [
+      111,
+      "before retreat",
+      96
+    ],
+    [
+      112,
+      "after retreat",
+      96
+    ],
+    [
+      113,
+      "until retreat",
+      96
+    ],
+    [
+      114,
+      "where retreat",
+      96
+    ],
+    [
+      115,
+      "while retreat",
+      96
+    ],
+    [
+      116,
+      "retreat evidence",
+      96
+    ],
+    [
+      117,
+      "retreat support",
+      96
+    ],
+    [
+      118,
+      "retreat path",
+      96
+    ],
+    [
+      119,
+      "retreat surface",
+      96
+    ],
+    [
+      120,
+      "retreat packet",
+      96
+    ],
+    [
+      121,
+      "retreat receipt",
+      96
+    ],
+    [
+      122,
+      "retreat trace",
+      96
+    ],
+    [
+      123,
+      "retreat result",
+      96
+    ],
+    [
+      124,
+      "retreat scope",
+      96
+    ],
+    [
+      125,
+      "retreat boundary",
+      96
+    ],
+    [
+      126,
+      "retreat status",
+      95
+    ],
+    [
+      127,
+      "retreat candidate",
+      95
+    ],
+    [
+      128,
+      "retreat witness",
+      95
+    ],
+    [
+      129,
+      "retreat probe",
+      95
+    ],
+    [
+      130,
+      "retreat constraint",
+      95
+    ],
+    [
+      131,
+      "check retreat",
+      95
+    ],
+    [
+      132,
+      "compare retreat",
+      95
+    ],
+    [
+      133,
+      "observe retreat",
+      95
+    ],
+    [
+      134,
+      "measure retreat",
+      95
+    ],
+    [
+      135,
+      "test retreat",
+      95
+    ],
+    [
+      136,
+      "verify retreat",
+      95
+    ],
+    [
+      137,
+      "hold retreat",
+      95
+    ],
+    [
+      138,
+      "preserve retreat",
+      95
+    ],
+    [
+      139,
+      "split retreat",
+      95
+    ],
+    [
+      140,
+      "narrow retreat",
+      95
+    ],
+    [
+      141,
+      "under hold",
+      95
+    ],
+    [
+      142,
+      "within hold",
+      95
+    ],
+    [
+      143,
+      "across hold",
+      95
+    ],
+    [
+      144,
+      "between hold",
+      95
+    ],
+    [
+      145,
+      "through hold",
+      95
+    ],
+    [
+      146,
+      "before hold",
+      95
+    ],
+    [
+      147,
+      "after hold",
+      95
+    ],
+    [
+      148,
+      "until hold",
+      95
+    ],
+    [
+      149,
+      "where hold",
+      95
+    ],
+    [
+      150,
+      "while hold",
+      95
+    ],
+    [
+      151,
+      "hold evidence",
+      94
+    ],
+    [
+      152,
+      "hold support",
+      94
+    ],
+    [
+      153,
+      "hold path",
+      94
+    ],
+    [
+      154,
+      "hold surface",
+      94
+    ],
+    [
+      155,
+      "hold packet",
+      94
+    ],
+    [
+      156,
+      "hold receipt",
+      94
+    ],
+    [
+      157,
+      "hold trace",
+      94
+    ],
+    [
+      158,
+      "hold result",
+      94
+    ],
+    [
+      159,
+      "hold scope",
+      94
+    ],
+    [
+      160,
+      "hold boundary",
+      94
+    ],
+    [
+      161,
+      "hold status",
+      94
+    ],
+    [
+      162,
+      "hold candidate",
+      94
+    ],
+    [
+      163,
+      "hold witness",
+      94
+    ],
+    [
+      164,
+      "hold probe",
+      94
+    ],
+    [
+      165,
+      "hold constraint",
+      94
+    ],
+    [
+      166,
+      "check hold",
+      94
+    ],
+    [
+      167,
+      "compare hold",
+      94
+    ],
+    [
+      168,
+      "observe hold",
+      94
+    ],
+    [
+      169,
+      "measure hold",
+      94
+    ],
+    [
+      170,
+      "test hold",
+      94
+    ],
+    [
+      171,
+      "verify hold",
+      94
+    ],
+    [
+      172,
+      "hold hold",
+      94
+    ],
+    [
+      173,
+      "preserve hold",
+      94
+    ],
+    [
+      174,
+      "split hold",
+      94
+    ],
+    [
+      175,
+      "narrow hold",
+      94
+    ],
+    [
+      176,
+      "under defer",
+      93
+    ],
+    [
+      177,
+      "within defer",
+      93
+    ],
+    [
+      178,
+      "across defer",
+      93
+    ],
+    [
+      179,
+      "between defer",
+      93
+    ],
+    [
+      180,
+      "through defer",
+      93
+    ],
+    [
+      181,
+      "before defer",
+      93
+    ],
+    [
+      182,
+      "after defer",
+      93
+    ],
+    [
+      183,
+      "until defer",
+      93
+    ],
+    [
+      184,
+      "where defer",
+      93
+    ],
+    [
+      185,
+      "while defer",
+      93
+    ],
+    [
+      186,
+      "defer evidence",
+      93
+    ],
+    [
+      187,
+      "defer support",
+      93
+    ],
+    [
+      188,
+      "defer path",
+      93
+    ],
+    [
+      189,
+      "defer surface",
+      93
+    ],
+    [
+      190,
+      "defer packet",
+      93
+    ],
+    [
+      191,
+      "defer receipt",
+      93
+    ],
+    [
+      192,
+      "defer trace",
+      93
+    ],
+    [
+      193,
+      "defer result",
+      93
+    ],
+    [
+      194,
+      "defer scope",
+      93
+    ],
+    [
+      195,
+      "defer boundary",
+      93
+    ],
+    [
+      196,
+      "defer status",
+      93
+    ],
+    [
+      197,
+      "defer candidate",
+      93
+    ],
+    [
+      198,
+      "defer witness",
+      93
+    ],
+    [
+      199,
+      "defer probe",
+      93
+    ],
+    [
+      200,
+      "defer constraint",
+      93
+    ],
+    [
+      201,
+      "check defer",
+      92
+    ],
+    [
+      202,
+      "compare defer",
+      92
+    ],
+    [
+      203,
+      "observe defer",
+      92
+    ],
+    [
+      204,
+      "measure defer",
+      92
+    ],
+    [
+      205,
+      "test defer",
+      92
+    ],
+    [
+      206,
+      "verify defer",
+      92
+    ],
+    [
+      207,
+      "hold defer",
+      92
+    ],
+    [
+      208,
+      "preserve defer",
+      92
+    ],
+    [
+      209,
+      "split defer",
+      92
+    ],
+    [
+      210,
+      "narrow defer",
+      92
+    ],
+    [
+      211,
+      "under split",
+      92
+    ],
+    [
+      212,
+      "within split",
+      92
+    ],
+    [
+      213,
+      "across split",
+      92
+    ],
+    [
+      214,
+      "between split",
+      92
+    ],
+    [
+      215,
+      "through split",
+      92
+    ],
+    [
+      216,
+      "before split",
+      92
+    ],
+    [
+      217,
+      "after split",
+      92
+    ],
+    [
+      218,
+      "until split",
+      92
+    ],
+    [
+      219,
+      "where split",
+      92
+    ],
+    [
+      220,
+      "while split",
+      92
+    ],
+    [
+      221,
+      "split evidence",
+      92
+    ],
+    [
+      222,
+      "split support",
+      92
+    ],
+    [
+      223,
+      "split path",
+      92
+    ],
+    [
+      224,
+      "split surface",
+      92
+    ],
+    [
+      225,
+      "split packet",
+      92
+    ],
+    [
+      226,
+      "split receipt",
+      91
+    ],
+    [
+      227,
+      "split trace",
+      91
+    ],
+    [
+      228,
+      "split result",
+      91
+    ],
+    [
+      229,
+      "split scope",
+      91
+    ],
+    [
+      230,
+      "split boundary",
+      91
+    ],
+    [
+      231,
+      "split status",
+      91
+    ],
+    [
+      232,
+      "split candidate",
+      91
+    ],
+    [
+      233,
+      "split witness",
+      91
+    ],
+    [
+      234,
+      "split probe",
+      91
+    ],
+    [
+      235,
+      "split constraint",
+      91
+    ],
+    [
+      236,
+      "check split",
+      91
+    ],
+    [
+      237,
+      "compare split",
+      91
+    ],
+    [
+      238,
+      "observe split",
+      91
+    ],
+    [
+      239,
+      "measure split",
+      91
+    ],
+    [
+      240,
+      "test split",
+      91
+    ],
+    [
+      241,
+      "verify split",
+      91
+    ],
+    [
+      242,
+      "hold split",
+      91
+    ],
+    [
+      243,
+      "preserve split",
+      91
+    ],
+    [
+      244,
+      "split split",
+      91
+    ],
+    [
+      245,
+      "narrow split",
+      91
+    ],
+    [
+      246,
+      "under merge",
+      91
+    ],
+    [
+      247,
+      "within merge",
+      91
+    ],
+    [
+      248,
+      "across merge",
+      91
+    ],
+    [
+      249,
+      "between merge",
+      91
+    ],
+    [
+      250,
+      "through merge",
+      91
+    ],
+    [
+      251,
+      "before merge",
+      90
+    ],
+    [
+      252,
+      "after merge",
+      90
+    ],
+    [
+      253,
+      "until merge",
+      90
+    ],
+    [
+      254,
+      "where merge",
+      90
+    ],
+    [
+      255,
+      "while merge",
+      90
+    ],
+    [
+      256,
+      "merge evidence",
+      90
+    ],
+    [
+      257,
+      "merge support",
+      90
+    ],
+    [
+      258,
+      "merge path",
+      90
+    ],
+    [
+      259,
+      "merge surface",
+      90
+    ],
+    [
+      260,
+      "merge packet",
+      90
+    ],
+    [
+      261,
+      "merge receipt",
+      90
+    ],
+    [
+      262,
+      "merge trace",
+      90
+    ],
+    [
+      263,
+      "merge result",
+      90
+    ],
+    [
+      264,
+      "merge scope",
+      90
+    ],
+    [
+      265,
+      "merge boundary",
+      90
+    ],
+    [
+      266,
+      "merge status",
+      90
+    ],
+    [
+      267,
+      "merge candidate",
+      90
+    ],
+    [
+      268,
+      "merge witness",
+      90
+    ],
+    [
+      269,
+      "merge probe",
+      90
+    ],
+    [
+      270,
+      "merge constraint",
+      90
+    ],
+    [
+      271,
+      "check merge",
+      90
+    ],
+    [
+      272,
+      "compare merge",
+      90
+    ],
+    [
+      273,
+      "observe merge",
+      90
+    ],
+    [
+      274,
+      "measure merge",
+      90
+    ],
+    [
+      275,
+      "test merge",
+      90
+    ],
+    [
+      276,
+      "verify merge",
+      89
+    ],
+    [
+      277,
+      "hold merge",
+      89
+    ],
+    [
+      278,
+      "preserve merge",
+      89
+    ],
+    [
+      279,
+      "split merge",
+      89
+    ],
+    [
+      280,
+      "narrow merge",
+      89
+    ],
+    [
+      281,
+      "under resource",
+      89
+    ],
+    [
+      282,
+      "within resource",
+      89
+    ],
+    [
+      283,
+      "across resource",
+      89
+    ],
+    [
+      284,
+      "between resource",
+      89
+    ],
+    [
+      285,
+      "through resource",
+      89
+    ],
+    [
+      286,
+      "before resource",
+      89
+    ],
+    [
+      287,
+      "after resource",
+      89
+    ],
+    [
+      288,
+      "until resource",
+      89
+    ],
+    [
+      289,
+      "where resource",
+      89
+    ],
+    [
+      290,
+      "while resource",
+      89
+    ],
+    [
+      291,
+      "resource evidence",
+      89
+    ],
+    [
+      292,
+      "resource support",
+      89
+    ],
+    [
+      293,
+      "resource path",
+      89
+    ],
+    [
+      294,
+      "resource surface",
+      89
+    ],
+    [
+      295,
+      "resource packet",
+      89
+    ],
+    [
+      296,
+      "resource receipt",
+      89
+    ],
+    [
+      297,
+      "resource trace",
+      89
+    ],
+    [
+      298,
+      "resource result",
+      89
+    ],
+    [
+      299,
+      "resource scope",
+      89
+    ],
+    [
+      300,
+      "resource boundary",
+      89
+    ],
+    [
+      301,
+      "resource status",
+      88
+    ],
+    [
+      302,
+      "resource candidate",
+      88
+    ],
+    [
+      303,
+      "resource witness",
+      88
+    ],
+    [
+      304,
+      "resource probe",
+      88
+    ],
+    [
+      305,
+      "resource constraint",
+      88
+    ],
+    [
+      306,
+      "check resource",
+      88
+    ],
+    [
+      307,
+      "compare resource",
+      88
+    ],
+    [
+      308,
+      "observe resource",
+      88
+    ],
+    [
+      309,
+      "measure resource",
+      88
+    ],
+    [
+      310,
+      "test resource",
+      88
+    ],
+    [
+      311,
+      "verify resource",
+      88
+    ],
+    [
+      312,
+      "hold resource",
+      88
+    ],
+    [
+      313,
+      "preserve resource",
+      88
+    ],
+    [
+      314,
+      "split resource",
+      88
+    ],
+    [
+      315,
+      "narrow resource",
+      88
+    ],
+    [
+      316,
+      "under scarce",
+      88
+    ],
+    [
+      317,
+      "within scarce",
+      88
+    ],
+    [
+      318,
+      "across scarce",
+      88
+    ],
+    [
+      319,
+      "between scarce",
+      88
+    ],
+    [
+      320,
+      "through scarce",
+      88
+    ],
+    [
+      321,
+      "before scarce",
+      88
+    ],
+    [
+      322,
+      "after scarce",
+      88
+    ],
+    [
+      323,
+      "until scarce",
+      88
+    ],
+    [
+      324,
+      "where scarce",
+      88
+    ],
+    [
+      325,
+      "while scarce",
+      88
+    ],
+    [
+      326,
+      "scarce evidence",
+      87
+    ],
+    [
+      327,
+      "scarce support",
+      87
+    ],
+    [
+      328,
+      "scarce path",
+      87
+    ],
+    [
+      329,
+      "scarce surface",
+      87
+    ],
+    [
+      330,
+      "scarce packet",
+      87
+    ],
+    [
+      331,
+      "scarce receipt",
+      87
+    ],
+    [
+      332,
+      "scarce trace",
+      87
+    ],
+    [
+      333,
+      "scarce result",
+      87
+    ],
+    [
+      334,
+      "scarce scope",
+      87
+    ],
+    [
+      335,
+      "scarce boundary",
+      87
+    ],
+    [
+      336,
+      "scarce status",
+      87
+    ],
+    [
+      337,
+      "scarce candidate",
+      87
+    ],
+    [
+      338,
+      "scarce witness",
+      87
+    ],
+    [
+      339,
+      "scarce probe",
+      87
+    ],
+    [
+      340,
+      "scarce constraint",
+      87
+    ],
+    [
+      341,
+      "decisive point",
+      87
+    ],
+    [
+      342,
+      "culminating point",
+      87
+    ],
+    [
+      343,
+      "retreat condition",
+      87
+    ],
+    [
+      344,
+      "strategic reserve",
+      87
+    ],
+    [
+      345,
+      "decisive front",
+      87
+    ],
+    [
+      346,
+      "drift condition",
+      87
+    ],
+    [
+      347,
+      "first move",
+      87
+    ],
+    [
+      348,
+      "return trigger",
+      87
+    ],
+    [
+      349,
+      "center of gravity",
+      87
+    ],
+    [
+      350,
+      "friction",
+      87
+    ],
+    [
+      351,
+      "fog of war",
+      86
+    ],
+    [
+      352,
+      "line of operation",
+      86
+    ],
+    [
+      353,
+      "means and ends",
+      86
+    ],
+    [
+      354,
+      "economy of force",
+      86
+    ],
+    [
+      355,
+      "campaign",
+      86
+    ],
+    [
+      356,
+      "sequence",
+      86
+    ],
+    [
+      357,
+      "priority",
+      86
+    ],
+    [
+      358,
+      "resource",
+      86
+    ],
+    [
+      359,
+      "scarce",
+      86
+    ],
+    [
+      360,
+      "timing",
+      86
+    ],
+    [
+      361,
+      "hold",
+      86
+    ],
+    [
+      362,
+      "defer",
+      86
+    ],
+    [
+      363,
+      "retreat",
+      86
+    ],
+    [
+      364,
+      "advance",
+      86
+    ],
+    [
+      365,
+      "split",
+      86
+    ],
+    [
+      366,
+      "merge",
+      86
+    ],
+    [
+      367,
+      "role",
+      86
+    ],
+    [
+      368,
+      "order",
+      86
+    ],
+    [
+      369,
+      "cost",
+      86
+    ],
+    [
+      370,
+      "leverage",
+      86
+    ],
+    [
+      371,
+      "front",
+      86
+    ],
+    [
+      372,
+      "mission",
+      86
+    ],
+    [
+      373,
+      "under strategy",
+      86
+    ],
+    [
+      374,
+      "under priority",
+      86
+    ],
+    [
+      375,
+      "under timing",
+      86
+    ],
+    [
+      376,
+      "under decisive",
+      85
+    ],
+    [
+      377,
+      "under advance",
+      85
+    ],
+    [
+      378,
+      "under tradeoff",
+      85
+    ],
+    [
+      379,
+      "under objective",
+      85
+    ],
+    [
+      380,
+      "under mission",
+      85
+    ],
+    [
+      381,
+      "under position",
+      85
+    ],
+    [
+      382,
+      "under terrain",
+      85
+    ],
+    [
+      383,
+      "under initiative",
+      85
+    ],
+    [
+      384,
+      "within strategy",
+      85
+    ],
+    [
+      385,
+      "within priority",
+      85
+    ],
+    [
+      386,
+      "within timing",
+      85
+    ],
+    [
+      387,
+      "within decisive",
+      85
+    ],
+    [
+      388,
+      "within advance",
+      85
+    ],
+    [
+      389,
+      "within tradeoff",
+      85
+    ],
+    [
+      390,
+      "within objective",
+      85
+    ],
+    [
+      391,
+      "within mission",
+      85
+    ],
+    [
+      392,
+      "within position",
+      85
+    ],
+    [
+      393,
+      "within terrain",
+      85
+    ],
+    [
+      394,
+      "within initiative",
+      85
+    ],
+    [
+      395,
+      "across strategy",
+      85
+    ],
+    [
+      396,
+      "across priority",
+      85
+    ],
+    [
+      397,
+      "across timing",
+      85
+    ],
+    [
+      398,
+      "across decisive",
+      85
+    ],
+    [
+      399,
+      "across advance",
+      85
+    ],
+    [
+      400,
+      "across tradeoff",
+      85
+    ],
+    [
+      401,
+      "across objective",
+      84
+    ],
+    [
+      402,
+      "across mission",
+      84
+    ],
+    [
+      403,
+      "across position",
+      84
+    ],
+    [
+      404,
+      "across terrain",
+      84
+    ],
+    [
+      405,
+      "across initiative",
+      84
+    ],
+    [
+      406,
+      "between strategy",
+      84
+    ],
+    [
+      407,
+      "between priority",
+      84
+    ],
+    [
+      408,
+      "between timing",
+      84
+    ],
+    [
+      409,
+      "between decisive",
+      84
+    ],
+    [
+      410,
+      "between advance",
+      84
+    ],
+    [
+      411,
+      "between tradeoff",
+      84
+    ],
+    [
+      412,
+      "between objective",
+      84
+    ],
+    [
+      413,
+      "between mission",
+      84
+    ],
+    [
+      414,
+      "between position",
+      84
+    ],
+    [
+      415,
+      "between terrain",
+      84
+    ],
+    [
+      416,
+      "between initiative",
+      84
+    ],
+    [
+      417,
+      "through strategy",
+      84
+    ],
+    [
+      418,
+      "through priority",
+      84
+    ],
+    [
+      419,
+      "through timing",
+      84
+    ],
+    [
+      420,
+      "through decisive",
+      84
+    ],
+    [
+      421,
+      "through advance",
+      84
+    ],
+    [
+      422,
+      "through tradeoff",
+      84
+    ],
+    [
+      423,
+      "through objective",
+      84
+    ],
+    [
+      424,
+      "through mission",
+      84
+    ],
+    [
+      425,
+      "through position",
+      84
+    ],
+    [
+      426,
+      "through terrain",
+      83
+    ],
+    [
+      427,
+      "through initiative",
+      83
+    ],
+    [
+      428,
+      "before strategy",
+      83
+    ],
+    [
+      429,
+      "before priority",
+      83
+    ],
+    [
+      430,
+      "before timing",
+      83
+    ],
+    [
+      431,
+      "before decisive",
+      83
+    ],
+    [
+      432,
+      "before advance",
+      83
+    ],
+    [
+      433,
+      "before tradeoff",
+      83
+    ],
+    [
+      434,
+      "before objective",
+      83
+    ],
+    [
+      435,
+      "before mission",
+      83
+    ],
+    [
+      436,
+      "before position",
+      83
+    ],
+    [
+      437,
+      "before terrain",
+      83
+    ],
+    [
+      438,
+      "before initiative",
+      83
+    ],
+    [
+      439,
+      "after strategy",
+      83
+    ],
+    [
+      440,
+      "after priority",
+      83
+    ],
+    [
+      441,
+      "after timing",
+      83
+    ],
+    [
+      442,
+      "after decisive",
+      83
+    ],
+    [
+      443,
+      "after advance",
+      83
+    ],
+    [
+      444,
+      "after tradeoff",
+      83
+    ],
+    [
+      445,
+      "after objective",
+      83
+    ],
+    [
+      446,
+      "after mission",
+      83
+    ],
+    [
+      447,
+      "after position",
+      83
+    ],
+    [
+      448,
+      "after terrain",
+      83
+    ],
+    [
+      449,
+      "after initiative",
+      83
+    ],
+    [
+      450,
+      "during strategy",
+      83
+    ],
+    [
+      451,
+      "during campaign",
+      82
+    ],
+    [
+      452,
+      "during sequence",
+      82
+    ],
+    [
+      453,
+      "during priority",
+      82
+    ],
+    [
+      454,
+      "during resource",
+      82
+    ],
+    [
+      455,
+      "during timing",
+      82
+    ],
+    [
+      456,
+      "during front",
+      82
+    ],
+    [
+      457,
+      "during decisive",
+      82
+    ],
+    [
+      458,
+      "during retreat",
+      82
+    ],
+    [
+      459,
+      "during hold",
+      82
+    ],
+    [
+      460,
+      "during advance",
+      82
+    ],
+    [
+      461,
+      "during defer",
+      82
+    ],
+    [
+      462,
+      "during split",
+      82
+    ],
+    [
+      463,
+      "during merge",
+      82
+    ],
+    [
+      464,
+      "during tradeoff",
+      82
+    ],
+    [
+      465,
+      "during objective",
+      82
+    ],
+    [
+      466,
+      "during mission",
+      82
+    ],
+    [
+      467,
+      "during position",
+      82
+    ],
+    [
+      468,
+      "during terrain",
+      82
+    ],
+    [
+      469,
+      "during initiative",
+      82
+    ],
+    [
+      470,
+      "until strategy",
+      82
+    ],
+    [
+      471,
+      "until priority",
+      82
+    ],
+    [
+      472,
+      "until timing",
+      82
+    ],
+    [
+      473,
+      "until decisive",
+      82
+    ],
+    [
+      474,
+      "until advance",
+      82
+    ],
+    [
+      475,
+      "until tradeoff",
+      82
+    ],
+    [
+      476,
+      "until objective",
+      81
+    ],
+    [
+      477,
+      "until mission",
+      81
+    ],
+    [
+      478,
+      "until position",
+      81
+    ],
+    [
+      479,
+      "until terrain",
+      81
+    ],
+    [
+      480,
+      "until initiative",
+      81
+    ],
+    [
+      481,
+      "since strategy",
+      81
+    ],
+    [
+      482,
+      "since campaign",
+      81
+    ],
+    [
+      483,
+      "since sequence",
+      81
+    ],
+    [
+      484,
+      "since priority",
+      81
+    ],
+    [
+      485,
+      "since resource",
+      81
+    ],
+    [
+      486,
+      "since timing",
+      81
+    ],
+    [
+      487,
+      "since front",
+      81
+    ],
+    [
+      488,
+      "since decisive",
+      81
+    ],
+    [
+      489,
+      "since retreat",
+      81
+    ],
+    [
+      490,
+      "since hold",
+      81
+    ],
+    [
+      491,
+      "since advance",
+      81
+    ],
+    [
+      492,
+      "since defer",
+      81
+    ],
+    [
+      493,
+      "since split",
+      81
+    ],
+    [
+      494,
+      "since merge",
+      81
+    ],
+    [
+      495,
+      "since tradeoff",
+      81
+    ],
+    [
+      496,
+      "since objective",
+      81
+    ],
+    [
+      497,
+      "since mission",
+      81
+    ],
+    [
+      498,
+      "since position",
+      81
+    ],
+    [
+      499,
+      "since terrain",
+      81
+    ],
+    [
+      500,
+      "since initiative",
+      81
+    ],
+    [
+      501,
+      "from strategy",
+      80
+    ],
+    [
+      502,
+      "from campaign",
+      80
+    ],
+    [
+      503,
+      "from sequence",
+      80
+    ],
+    [
+      504,
+      "from priority",
+      80
+    ],
+    [
+      505,
+      "from resource",
+      80
+    ],
+    [
+      506,
+      "from timing",
+      80
+    ],
+    [
+      507,
+      "from front",
+      80
+    ],
+    [
+      508,
+      "from decisive",
+      80
+    ],
+    [
+      509,
+      "from retreat",
+      80
+    ],
+    [
+      510,
+      "from hold",
+      80
+    ],
+    [
+      511,
+      "from advance",
+      80
+    ],
+    [
+      512,
+      "from defer",
+      80
+    ],
+    [
+      513,
+      "from split",
+      80
+    ],
+    [
+      514,
+      "from merge",
+      80
+    ],
+    [
+      515,
+      "from tradeoff",
+      80
+    ],
+    [
+      516,
+      "from objective",
+      80
+    ],
+    [
+      517,
+      "from mission",
+      80
+    ],
+    [
+      518,
+      "from position",
+      80
+    ],
+    [
+      519,
+      "from terrain",
+      80
+    ],
+    [
+      520,
+      "from initiative",
+      80
+    ],
+    [
+      521,
+      "by strategy",
+      80
+    ],
+    [
+      522,
+      "by campaign",
+      80
+    ],
+    [
+      523,
+      "by sequence",
+      80
+    ],
+    [
+      524,
+      "by priority",
+      80
+    ],
+    [
+      525,
+      "by resource",
+      80
+    ],
+    [
+      526,
+      "by timing",
+      79
+    ],
+    [
+      527,
+      "by front",
+      79
+    ],
+    [
+      528,
+      "by decisive",
+      79
+    ],
+    [
+      529,
+      "by retreat",
+      79
+    ],
+    [
+      530,
+      "by hold",
+      79
+    ],
+    [
+      531,
+      "by advance",
+      79
+    ],
+    [
+      532,
+      "by defer",
+      79
+    ],
+    [
+      533,
+      "by split",
+      79
+    ],
+    [
+      534,
+      "by merge",
+      79
+    ],
+    [
+      535,
+      "by tradeoff",
+      79
+    ],
+    [
+      536,
+      "by objective",
+      79
+    ],
+    [
+      537,
+      "by mission",
+      79
+    ],
+    [
+      538,
+      "by position",
+      79
+    ],
+    [
+      539,
+      "by terrain",
+      79
+    ],
+    [
+      540,
+      "by initiative",
+      79
+    ],
+    [
+      541,
+      "with strategy",
+      79
+    ],
+    [
+      542,
+      "with campaign",
+      79
+    ],
+    [
+      543,
+      "with sequence",
+      79
+    ],
+    [
+      544,
+      "with priority",
+      79
+    ],
+    [
+      545,
+      "with resource",
+      79
+    ],
+    [
+      546,
+      "with timing",
+      79
+    ],
+    [
+      547,
+      "with front",
+      79
+    ],
+    [
+      548,
+      "with decisive",
+      79
+    ],
+    [
+      549,
+      "with retreat",
+      79
+    ],
+    [
+      550,
+      "with hold",
+      79
+    ],
+    [
+      551,
+      "with advance",
+      78
+    ],
+    [
+      552,
+      "with defer",
+      78
+    ],
+    [
+      553,
+      "with split",
+      78
+    ],
+    [
+      554,
+      "with merge",
+      78
+    ],
+    [
+      555,
+      "with tradeoff",
+      78
+    ],
+    [
+      556,
+      "with objective",
+      78
+    ],
+    [
+      557,
+      "with mission",
+      78
+    ],
+    [
+      558,
+      "with position",
+      78
+    ],
+    [
+      559,
+      "with terrain",
+      78
+    ],
+    [
+      560,
+      "with initiative",
+      78
+    ],
+    [
+      561,
+      "without strategy",
+      78
+    ],
+    [
+      562,
+      "without campaign",
+      78
+    ],
+    [
+      563,
+      "without sequence",
+      78
+    ],
+    [
+      564,
+      "without priority",
+      78
+    ],
+    [
+      565,
+      "without resource",
+      78
+    ],
+    [
+      566,
+      "without timing",
+      78
+    ],
+    [
+      567,
+      "without front",
+      78
+    ],
+    [
+      568,
+      "without decisive",
+      78
+    ],
+    [
+      569,
+      "without retreat",
+      78
+    ],
+    [
+      570,
+      "without hold",
+      78
+    ],
+    [
+      571,
+      "without advance",
+      78
+    ],
+    [
+      572,
+      "without defer",
+      78
+    ],
+    [
+      573,
+      "without split",
+      78
+    ],
+    [
+      574,
+      "without merge",
+      78
+    ],
+    [
+      575,
+      "without tradeoff",
+      78
+    ],
+    [
+      576,
+      "without objective",
+      77
+    ],
+    [
+      577,
+      "without mission",
+      77
+    ],
+    [
+      578,
+      "without position",
+      77
+    ],
+    [
+      579,
+      "without terrain",
+      77
+    ],
+    [
+      580,
+      "without initiative",
+      77
+    ],
+    [
+      581,
+      "against strategy",
+      77
+    ],
+    [
+      582,
+      "against campaign",
+      77
+    ],
+    [
+      583,
+      "against sequence",
+      77
+    ],
+    [
+      584,
+      "against priority",
+      77
+    ],
+    [
+      585,
+      "against resource",
+      77
+    ],
+    [
+      586,
+      "against timing",
+      77
+    ],
+    [
+      587,
+      "against front",
+      77
+    ],
+    [
+      588,
+      "against decisive",
+      77
+    ],
+    [
+      589,
+      "against retreat",
+      77
+    ],
+    [
+      590,
+      "against hold",
+      77
+    ],
+    [
+      591,
+      "against advance",
+      77
+    ],
+    [
+      592,
+      "against defer",
+      77
+    ],
+    [
+      593,
+      "against split",
+      77
+    ],
+    [
+      594,
+      "against merge",
+      77
+    ],
+    [
+      595,
+      "against tradeoff",
+      77
+    ],
+    [
+      596,
+      "against objective",
+      77
+    ],
+    [
+      597,
+      "against mission",
+      77
+    ],
+    [
+      598,
+      "against position",
+      77
+    ],
+    [
+      599,
+      "against terrain",
+      77
+    ],
+    [
+      600,
+      "against initiative",
+      77
+    ],
+    [
+      601,
+      "toward strategy",
+      76
+    ],
+    [
+      602,
+      "toward campaign",
+      76
+    ],
+    [
+      603,
+      "toward sequence",
+      76
+    ],
+    [
+      604,
+      "toward priority",
+      76
+    ],
+    [
+      605,
+      "toward resource",
+      76
+    ],
+    [
+      606,
+      "toward timing",
+      76
+    ],
+    [
+      607,
+      "toward front",
+      76
+    ],
+    [
+      608,
+      "toward decisive",
+      76
+    ],
+    [
+      609,
+      "toward retreat",
+      76
+    ],
+    [
+      610,
+      "toward hold",
+      76
+    ],
+    [
+      611,
+      "toward advance",
+      76
+    ],
+    [
+      612,
+      "toward defer",
+      76
+    ],
+    [
+      613,
+      "toward split",
+      76
+    ],
+    [
+      614,
+      "toward merge",
+      76
+    ],
+    [
+      615,
+      "toward tradeoff",
+      76
+    ],
+    [
+      616,
+      "toward objective",
+      76
+    ],
+    [
+      617,
+      "toward mission",
+      76
+    ],
+    [
+      618,
+      "toward position",
+      76
+    ],
+    [
+      619,
+      "toward terrain",
+      76
+    ],
+    [
+      620,
+      "toward initiative",
+      76
+    ],
+    [
+      621,
+      "near strategy",
+      76
+    ],
+    [
+      622,
+      "near campaign",
+      76
+    ],
+    [
+      623,
+      "near sequence",
+      76
+    ],
+    [
+      624,
+      "near priority",
+      76
+    ],
+    [
+      625,
+      "near resource",
+      76
+    ],
+    [
+      626,
+      "near timing",
+      75
+    ],
+    [
+      627,
+      "near front",
+      75
+    ],
+    [
+      628,
+      "near decisive",
+      75
+    ],
+    [
+      629,
+      "near retreat",
+      75
+    ],
+    [
+      630,
+      "near hold",
+      75
+    ],
+    [
+      631,
+      "near advance",
+      75
+    ],
+    [
+      632,
+      "near defer",
+      75
+    ],
+    [
+      633,
+      "near split",
+      75
+    ],
+    [
+      634,
+      "near merge",
+      75
+    ],
+    [
+      635,
+      "near tradeoff",
+      75
+    ],
+    [
+      636,
+      "near objective",
+      75
+    ],
+    [
+      637,
+      "near mission",
+      75
+    ],
+    [
+      638,
+      "near position",
+      75
+    ],
+    [
+      639,
+      "near terrain",
+      75
+    ],
+    [
+      640,
+      "near initiative",
+      75
+    ],
+    [
+      641,
+      "relative strategy",
+      75
+    ],
+    [
+      642,
+      "relative campaign",
+      75
+    ],
+    [
+      643,
+      "relative sequence",
+      75
+    ],
+    [
+      644,
+      "relative priority",
+      75
+    ],
+    [
+      645,
+      "relative resource",
+      75
+    ],
+    [
+      646,
+      "relative timing",
+      75
+    ],
+    [
+      647,
+      "relative front",
+      75
+    ],
+    [
+      648,
+      "relative decisive",
+      75
+    ],
+    [
+      649,
+      "relative retreat",
+      75
+    ],
+    [
+      650,
+      "relative hold",
+      75
+    ],
+    [
+      651,
+      "relative advance",
+      74
+    ],
+    [
+      652,
+      "relative defer",
+      74
+    ],
+    [
+      653,
+      "relative split",
+      74
+    ],
+    [
+      654,
+      "relative merge",
+      74
+    ],
+    [
+      655,
+      "relative tradeoff",
+      74
+    ],
+    [
+      656,
+      "relative objective",
+      74
+    ],
+    [
+      657,
+      "relative mission",
+      74
+    ],
+    [
+      658,
+      "relative position",
+      74
+    ],
+    [
+      659,
+      "relative terrain",
+      74
+    ],
+    [
+      660,
+      "relative initiative",
+      74
+    ],
+    [
+      661,
+      "strategy campaign",
+      74
+    ],
+    [
+      662,
+      "strategy sequence",
+      74
+    ],
+    [
+      663,
+      "strategy priority",
+      74
+    ],
+    [
+      664,
+      "strategy resource",
+      74
+    ],
+    [
+      665,
+      "strategy timing",
+      74
+    ],
+    [
+      666,
+      "strategy front",
+      74
+    ],
+    [
+      667,
+      "strategy decisive",
+      74
+    ],
+    [
+      668,
+      "strategy retreat",
+      74
+    ],
+    [
+      669,
+      "strategy hold",
+      74
+    ],
+    [
+      670,
+      "strategy advance",
+      74
+    ],
+    [
+      671,
+      "strategy defer",
+      74
+    ],
+    [
+      672,
+      "campaign sequence",
+      74
+    ],
+    [
+      673,
+      "campaign priority",
+      74
+    ],
+    [
+      674,
+      "campaign resource",
+      74
+    ],
+    [
+      675,
+      "campaign timing",
+      74
+    ],
+    [
+      676,
+      "campaign front",
+      73
+    ],
+    [
+      677,
+      "campaign decisive",
+      73
+    ],
+    [
+      678,
+      "campaign retreat",
+      73
+    ],
+    [
+      679,
+      "campaign hold",
+      73
+    ],
+    [
+      680,
+      "campaign advance",
+      73
+    ],
+    [
+      681,
+      "campaign defer",
+      73
+    ],
+    [
+      682,
+      "campaign split",
+      73
+    ],
+    [
+      683,
+      "sequence priority",
+      73
+    ],
+    [
+      684,
+      "sequence resource",
+      73
+    ],
+    [
+      685,
+      "sequence timing",
+      73
+    ],
+    [
+      686,
+      "sequence front",
+      73
+    ],
+    [
+      687,
+      "sequence decisive",
+      73
+    ],
+    [
+      688,
+      "sequence retreat",
+      73
+    ],
+    [
+      689,
+      "sequence hold",
+      73
+    ],
+    [
+      690,
+      "sequence advance",
+      73
+    ],
+    [
+      691,
+      "sequence defer",
+      73
+    ],
+    [
+      692,
+      "sequence split",
+      73
+    ],
+    [
+      693,
+      "sequence merge",
+      73
+    ],
+    [
+      694,
+      "priority resource",
+      73
+    ],
+    [
+      695,
+      "priority timing",
+      73
+    ],
+    [
+      696,
+      "priority front",
+      73
+    ],
+    [
+      697,
+      "priority decisive",
+      73
+    ],
+    [
+      698,
+      "priority retreat",
+      73
+    ],
+    [
+      699,
+      "priority hold",
+      73
+    ],
+    [
+      700,
+      "priority advance",
+      73
+    ],
+    [
+      701,
+      "priority defer",
+      72
+    ],
+    [
+      702,
+      "priority split",
+      72
+    ],
+    [
+      703,
+      "priority merge",
+      72
+    ],
+    [
+      704,
+      "priority tradeoff",
+      72
+    ],
+    [
+      705,
+      "resource timing",
+      72
+    ],
+    [
+      706,
+      "resource front",
+      72
+    ],
+    [
+      707,
+      "resource decisive",
+      72
+    ],
+    [
+      708,
+      "resource retreat",
+      72
+    ],
+    [
+      709,
+      "resource hold",
+      72
+    ],
+    [
+      710,
+      "resource advance",
+      72
+    ],
+    [
+      711,
+      "resource defer",
+      72
+    ],
+    [
+      712,
+      "resource split",
+      72
+    ],
+    [
+      713,
+      "resource merge",
+      72
+    ],
+    [
+      714,
+      "resource tradeoff",
+      72
+    ],
+    [
+      715,
+      "resource objective",
+      72
+    ],
+    [
+      716,
+      "timing front",
+      72
+    ],
+    [
+      717,
+      "timing decisive",
+      72
+    ],
+    [
+      718,
+      "timing retreat",
+      72
+    ],
+    [
+      719,
+      "timing hold",
+      72
+    ],
+    [
+      720,
+      "timing advance",
+      72
+    ],
+    [
+      721,
+      "timing defer",
+      72
+    ],
+    [
+      722,
+      "timing split",
+      72
+    ],
+    [
+      723,
+      "timing merge",
+      72
+    ],
+    [
+      724,
+      "timing tradeoff",
+      72
+    ],
+    [
+      725,
+      "timing objective",
+      72
+    ],
+    [
+      726,
+      "timing mission",
+      71
+    ],
+    [
+      727,
+      "front decisive",
+      71
+    ],
+    [
+      728,
+      "front retreat",
+      71
+    ],
+    [
+      729,
+      "front hold",
+      71
+    ],
+    [
+      730,
+      "front advance",
+      71
+    ],
+    [
+      731,
+      "front defer",
+      71
+    ],
+    [
+      732,
+      "front split",
+      71
+    ],
+    [
+      733,
+      "front merge",
+      71
+    ],
+    [
+      734,
+      "front tradeoff",
+      71
+    ],
+    [
+      735,
+      "front objective",
+      71
+    ],
+    [
+      736,
+      "front mission",
+      71
+    ],
+    [
+      737,
+      "front position",
+      71
+    ],
+    [
+      738,
+      "decisive retreat",
+      71
+    ],
+    [
+      739,
+      "decisive hold",
+      71
+    ],
+    [
+      740,
+      "decisive advance",
+      71
+    ],
+    [
+      741,
+      "decisive defer",
+      71
+    ],
+    [
+      742,
+      "decisive split",
+      71
+    ],
+    [
+      743,
+      "decisive merge",
+      71
+    ],
+    [
+      744,
+      "decisive tradeoff",
+      71
+    ],
+    [
+      745,
+      "decisive objective",
+      71
+    ],
+    [
+      746,
+      "decisive mission",
+      71
+    ],
+    [
+      747,
+      "decisive position",
+      71
+    ],
+    [
+      748,
+      "decisive terrain",
+      71
+    ],
+    [
+      749,
+      "retreat hold",
+      71
+    ],
+    [
+      750,
+      "retreat advance",
+      71
+    ],
+    [
+      751,
+      "retreat defer",
+      70
+    ],
+    [
+      752,
+      "retreat split",
+      70
+    ],
+    [
+      753,
+      "retreat merge",
+      70
+    ],
+    [
+      754,
+      "retreat tradeoff",
+      70
+    ],
+    [
+      755,
+      "retreat objective",
+      70
+    ],
+    [
+      756,
+      "retreat mission",
+      70
+    ],
+    [
+      757,
+      "retreat position",
+      70
+    ],
+    [
+      758,
+      "retreat terrain",
+      70
+    ],
+    [
+      759,
+      "retreat initiative",
+      70
+    ],
+    [
+      760,
+      "hold advance",
+      70
+    ],
+    [
+      761,
+      "hold tradeoff",
+      70
+    ],
+    [
+      762,
+      "hold objective",
+      70
+    ],
+    [
+      763,
+      "hold mission",
+      70
+    ],
+    [
+      764,
+      "hold position",
+      70
+    ],
+    [
+      765,
+      "hold terrain",
+      70
+    ],
+    [
+      766,
+      "hold initiative",
+      70
+    ],
+    [
+      767,
+      "hold commitment",
+      70
+    ],
+    [
+      768,
+      "advance defer",
+      70
+    ],
+    [
+      769,
+      "advance split",
+      70
+    ],
+    [
+      770,
+      "advance merge",
+      70
+    ],
+    [
+      771,
+      "advance tradeoff",
+      70
+    ],
+    [
+      772,
+      "advance objective",
+      70
+    ],
+    [
+      773,
+      "advance mission",
+      70
+    ],
+    [
+      774,
+      "advance position",
+      70
+    ],
+    [
+      775,
+      "advance terrain",
+      70
+    ],
+    [
+      776,
+      "advance initiative",
+      69
+    ],
+    [
+      777,
+      "advance commitment",
+      69
+    ],
+    [
+      778,
+      "advance scarce",
+      69
+    ],
+    [
+      779,
+      "defer split",
+      69
+    ],
+    [
+      780,
+      "defer merge",
+      69
+    ],
+    [
+      781,
+      "defer tradeoff",
+      69
+    ],
+    [
+      782,
+      "defer objective",
+      69
+    ],
+    [
+      783,
+      "defer mission",
+      69
+    ],
+    [
+      784,
+      "defer position",
+      69
+    ],
+    [
+      785,
+      "defer terrain",
+      69
+    ],
+    [
+      786,
+      "defer initiative",
+      69
+    ],
+    [
+      787,
+      "defer commitment",
+      69
+    ],
+    [
+      788,
+      "defer scarce",
+      69
+    ],
+    [
+      789,
+      "defer drift",
+      69
+    ],
+    [
+      790,
+      "split tradeoff",
+      69
+    ],
+    [
+      791,
+      "split objective",
+      69
+    ],
+    [
+      792,
+      "split mission",
+      69
+    ],
+    [
+      793,
+      "split position",
+      69
+    ],
+    [
+      794,
+      "split terrain",
+      69
+    ],
+    [
+      795,
+      "split initiative",
+      69
+    ],
+    [
+      796,
+      "split commitment",
+      69
+    ],
+    [
+      797,
+      "split scarce",
+      69
+    ],
+    [
+      798,
+      "split drift",
+      69
+    ],
+    [
+      799,
+      "split condition",
+      69
+    ],
+    [
+      800,
+      "merge tradeoff",
+      69
+    ],
+    [
+      801,
+      "merge objective",
+      68
+    ],
+    [
+      802,
+      "merge mission",
+      68
+    ],
+    [
+      803,
+      "merge position",
+      68
+    ],
+    [
+      804,
+      "merge terrain",
+      68
+    ],
+    [
+      805,
+      "merge initiative",
+      68
+    ],
+    [
+      806,
+      "merge commitment",
+      68
+    ],
+    [
+      807,
+      "merge scarce",
+      68
+    ],
+    [
+      808,
+      "merge drift",
+      68
+    ],
+    [
+      809,
+      "merge condition",
+      68
+    ],
+    [
+      810,
+      "merge return",
+      68
+    ],
+    [
+      811,
+      "tradeoff objective",
+      68
+    ],
+    [
+      812,
+      "tradeoff mission",
+      68
+    ],
+    [
+      813,
+      "tradeoff position",
+      68
+    ],
+    [
+      814,
+      "tradeoff terrain",
+      68
+    ],
+    [
+      815,
+      "tradeoff initiative",
+      68
+    ],
+    [
+      816,
+      "tradeoff commitment",
+      68
+    ],
+    [
+      817,
+      "tradeoff scarce",
+      68
+    ],
+    [
+      818,
+      "tradeoff drift",
+      68
+    ],
+    [
+      819,
+      "tradeoff condition",
+      68
+    ],
+    [
+      820,
+      "tradeoff return",
+      68
+    ],
+    [
+      821,
+      "tradeoff reserve",
+      68
+    ],
+    [
+      822,
+      "objective mission",
+      68
+    ],
+    [
+      823,
+      "objective position",
+      68
+    ],
+    [
+      824,
+      "objective terrain",
+      68
+    ],
+    [
+      825,
+      "objective initiative",
+      68
+    ],
+    [
+      826,
+      "objective commitment",
+      67
+    ],
+    [
+      827,
+      "objective scarce",
+      67
+    ],
+    [
+      828,
+      "objective drift",
+      67
+    ],
+    [
+      829,
+      "objective condition",
+      67
+    ],
+    [
+      830,
+      "objective return",
+      67
+    ],
+    [
+      831,
+      "objective reserve",
+      67
+    ],
+    [
+      832,
+      "objective line",
+      67
+    ],
+    [
+      833,
+      "mission position",
+      67
+    ],
+    [
+      834,
+      "mission terrain",
+      67
+    ],
+    [
+      835,
+      "mission initiative",
+      67
+    ],
+    [
+      836,
+      "mission commitment",
+      67
+    ],
+    [
+      837,
+      "mission scarce",
+      67
+    ],
+    [
+      838,
+      "mission drift",
+      67
+    ],
+    [
+      839,
+      "mission condition",
+      67
+    ],
+    [
+      840,
+      "mission return",
+      67
+    ],
+    [
+      841,
+      "mission reserve",
+      67
+    ],
+    [
+      842,
+      "mission line",
+      67
+    ],
+    [
+      843,
+      "mission effort",
+      67
+    ],
+    [
+      844,
+      "position terrain",
+      67
+    ],
+    [
+      845,
+      "position initiative",
+      67
+    ],
+    [
+      846,
+      "position commitment",
+      67
+    ],
+    [
+      847,
+      "position scarce",
+      67
+    ],
+    [
+      848,
+      "position drift",
+      67
+    ],
+    [
+      849,
+      "position condition",
+      67
+    ],
+    [
+      850,
+      "position return",
+      67
+    ],
+    [
+      851,
+      "position reserve",
+      66
+    ],
+    [
+      852,
+      "position line",
+      66
+    ],
+    [
+      853,
+      "position effort",
+      66
+    ],
+    [
+      854,
+      "position course",
+      66
+    ],
+    [
+      855,
+      "terrain initiative",
+      66
+    ],
+    [
+      856,
+      "terrain commitment",
+      66
+    ],
+    [
+      857,
+      "terrain scarce",
+      66
+    ],
+    [
+      858,
+      "terrain drift",
+      66
+    ],
+    [
+      859,
+      "terrain condition",
+      66
+    ],
+    [
+      860,
+      "terrain return",
+      66
+    ],
+    [
+      861,
+      "terrain reserve",
+      66
+    ],
+    [
+      862,
+      "terrain line",
+      66
+    ],
+    [
+      863,
+      "terrain effort",
+      66
+    ],
+    [
+      864,
+      "terrain course",
+      66
+    ],
+    [
+      865,
+      "terrain action",
+      66
+    ],
+    [
+      866,
+      "initiative commitment",
+      66
+    ],
+    [
+      867,
+      "initiative scarce",
+      66
+    ],
+    [
+      868,
+      "initiative drift",
+      66
+    ],
+    [
+      869,
+      "initiative condition",
+      66
+    ],
+    [
+      870,
+      "initiative return",
+      66
+    ],
+    [
+      871,
+      "initiative reserve",
+      66
+    ],
+    [
+      872,
+      "initiative line",
+      66
+    ],
+    [
+      873,
+      "initiative effort",
+      66
+    ],
+    [
+      874,
+      "initiative course",
+      66
+    ],
+    [
+      875,
+      "initiative action",
+      66
+    ],
+    [
+      876,
+      "initiative option",
+      65
+    ],
+    [
+      877,
+      "commitment scarce",
+      65
+    ],
+    [
+      878,
+      "commitment drift",
+      65
+    ],
+    [
+      879,
+      "commitment condition",
+      65
+    ],
+    [
+      880,
+      "commitment return",
+      65
+    ],
+    [
+      881,
+      "commitment reserve",
+      65
+    ],
+    [
+      882,
+      "commitment line",
+      65
+    ],
+    [
+      883,
+      "commitment effort",
+      65
+    ],
+    [
+      884,
+      "commitment course",
+      65
+    ],
+    [
+      885,
+      "commitment action",
+      65
+    ],
+    [
+      886,
+      "commitment option",
+      65
+    ],
+    [
+      887,
+      "commitment value",
+      65
+    ],
+    [
+      888,
+      "scarce drift",
+      65
+    ],
+    [
+      889,
+      "scarce condition",
+      65
+    ],
+    [
+      890,
+      "scarce return",
+      65
+    ],
+    [
+      891,
+      "scarce reserve",
+      65
+    ],
+    [
+      892,
+      "scarce line",
+      65
+    ],
+    [
+      893,
+      "scarce effort",
+      65
+    ],
+    [
+      894,
+      "scarce course",
+      65
+    ],
+    [
+      895,
+      "scarce action",
+      65
+    ],
+    [
+      896,
+      "scarce option",
+      65
+    ],
+    [
+      897,
+      "scarce value",
+      65
+    ],
+    [
+      898,
+      "scarce center of gravity",
+      65
+    ],
+    [
+      899,
+      "drift return",
+      65
+    ],
+    [
+      900,
+      "drift reserve",
+      65
+    ],
+    [
+      901,
+      "mini-MMM shapes voice",
+      100
+    ],
+    [
+      902,
+      "mini MMM voice shape",
+      100
+    ],
+    [
+      903,
+      "voice shaped by nouns",
+      100
+    ],
+    [
+      904,
+      "aligned nouns shape voice",
+      100
+    ],
+    [
+      905,
+      "correlated thinkers shape voice",
+      100
+    ],
+    [
+      906,
+      "thinker alignment voice",
+      100
+    ],
+    [
+      907,
+      "noun alignment voice",
+      100
+    ],
+    [
+      908,
+      "voice signature nouns",
+      100
+    ],
+    [
+      909,
+      "local voice contour",
+      100
+    ],
+    [
+      910,
+      "observe orient",
+      97
+    ],
+    [
+      911,
+      "decide act",
+      97
+    ],
+    [
+      912,
+      "campaign objective",
+      97
+    ],
+    [
+      913,
+      "tempo and reserve",
+      97
+    ]
+  ],
+  "triplets": [
+    [
+      1,
+      "under current campaign",
+      100
+    ],
+    [
+      2,
+      "under local campaign",
+      100
+    ],
+    [
+      3,
+      "under bounded campaign",
+      100
+    ],
+    [
+      4,
+      "under finite campaign",
+      100
+    ],
+    [
+      5,
+      "under open campaign",
+      100
+    ],
+    [
+      6,
+      "under live campaign",
+      100
+    ],
+    [
+      7,
+      "within current campaign",
+      100
+    ],
+    [
+      8,
+      "within local campaign",
+      100
+    ],
+    [
+      9,
+      "within bounded campaign",
+      100
+    ],
+    [
+      10,
+      "within finite campaign",
+      100
+    ],
+    [
+      11,
+      "within open campaign",
+      100
+    ],
+    [
+      12,
+      "within live campaign",
+      100
+    ],
+    [
+      13,
+      "across current campaign",
+      100
+    ],
+    [
+      14,
+      "across local campaign",
+      100
+    ],
+    [
+      15,
+      "across bounded campaign",
+      100
+    ],
+    [
+      16,
+      "across finite campaign",
+      100
+    ],
+    [
+      17,
+      "across open campaign",
+      100
+    ],
+    [
+      18,
+      "across live campaign",
+      100
+    ],
+    [
+      19,
+      "between current campaign",
+      100
+    ],
+    [
+      20,
+      "between local campaign",
+      100
+    ],
+    [
+      21,
+      "between bounded campaign",
+      100
+    ],
+    [
+      22,
+      "between finite campaign",
+      100
+    ],
+    [
+      23,
+      "between open campaign",
+      100
+    ],
+    [
+      24,
+      "between live campaign",
+      100
+    ],
+    [
+      25,
+      "through current campaign",
+      100
+    ],
+    [
+      26,
+      "through local campaign",
+      99
+    ],
+    [
+      27,
+      "through bounded campaign",
+      99
+    ],
+    [
+      28,
+      "through finite campaign",
+      99
+    ],
+    [
+      29,
+      "through open campaign",
+      99
+    ],
+    [
+      30,
+      "through live campaign",
+      99
+    ],
+    [
+      31,
+      "before current campaign",
+      99
+    ],
+    [
+      32,
+      "before local campaign",
+      99
+    ],
+    [
+      33,
+      "before bounded campaign",
+      99
+    ],
+    [
+      34,
+      "before finite campaign",
+      99
+    ],
+    [
+      35,
+      "before open campaign",
+      99
+    ],
+    [
+      36,
+      "before live campaign",
+      99
+    ],
+    [
+      37,
+      "campaign evidence path",
+      99
+    ],
+    [
+      38,
+      "campaign support path",
+      99
+    ],
+    [
+      39,
+      "campaign path path",
+      99
+    ],
+    [
+      40,
+      "campaign surface path",
+      99
+    ],
+    [
+      41,
+      "campaign packet path",
+      99
+    ],
+    [
+      42,
+      "campaign receipt path",
+      99
+    ],
+    [
+      43,
+      "campaign trace path",
+      99
+    ],
+    [
+      44,
+      "campaign result path",
+      99
+    ],
+    [
+      45,
+      "campaign scope path",
+      99
+    ],
+    [
+      46,
+      "campaign boundary path",
+      99
+    ],
+    [
+      47,
+      "check campaign receipt",
+      99
+    ],
+    [
+      48,
+      "compare campaign receipt",
+      99
+    ],
+    [
+      49,
+      "observe campaign receipt",
+      99
+    ],
+    [
+      50,
+      "measure campaign receipt",
+      99
+    ],
+    [
+      51,
+      "test campaign receipt",
+      98
+    ],
+    [
+      52,
+      "verify campaign receipt",
+      98
+    ],
+    [
+      53,
+      "hold campaign receipt",
+      98
+    ],
+    [
+      54,
+      "preserve campaign receipt",
+      98
+    ],
+    [
+      55,
+      "under current sequence",
+      98
+    ],
+    [
+      56,
+      "under local sequence",
+      98
+    ],
+    [
+      57,
+      "under bounded sequence",
+      98
+    ],
+    [
+      58,
+      "under finite sequence",
+      98
+    ],
+    [
+      59,
+      "under open sequence",
+      98
+    ],
+    [
+      60,
+      "under live sequence",
+      98
+    ],
+    [
+      61,
+      "within current sequence",
+      98
+    ],
+    [
+      62,
+      "within local sequence",
+      98
+    ],
+    [
+      63,
+      "within bounded sequence",
+      98
+    ],
+    [
+      64,
+      "within finite sequence",
+      98
+    ],
+    [
+      65,
+      "within open sequence",
+      98
+    ],
+    [
+      66,
+      "within live sequence",
+      98
+    ],
+    [
+      67,
+      "across current sequence",
+      98
+    ],
+    [
+      68,
+      "across local sequence",
+      98
+    ],
+    [
+      69,
+      "across bounded sequence",
+      98
+    ],
+    [
+      70,
+      "across finite sequence",
+      98
+    ],
+    [
+      71,
+      "across open sequence",
+      98
+    ],
+    [
+      72,
+      "across live sequence",
+      98
+    ],
+    [
+      73,
+      "between current sequence",
+      98
+    ],
+    [
+      74,
+      "between local sequence",
+      98
+    ],
+    [
+      75,
+      "between bounded sequence",
+      98
+    ],
+    [
+      76,
+      "between finite sequence",
+      97
+    ],
+    [
+      77,
+      "between open sequence",
+      97
+    ],
+    [
+      78,
+      "between live sequence",
+      97
+    ],
+    [
+      79,
+      "through current sequence",
+      97
+    ],
+    [
+      80,
+      "through local sequence",
+      97
+    ],
+    [
+      81,
+      "through bounded sequence",
+      97
+    ],
+    [
+      82,
+      "through finite sequence",
+      97
+    ],
+    [
+      83,
+      "through open sequence",
+      97
+    ],
+    [
+      84,
+      "through live sequence",
+      97
+    ],
+    [
+      85,
+      "before current sequence",
+      97
+    ],
+    [
+      86,
+      "before local sequence",
+      97
+    ],
+    [
+      87,
+      "before bounded sequence",
+      97
+    ],
+    [
+      88,
+      "before finite sequence",
+      97
+    ],
+    [
+      89,
+      "before open sequence",
+      97
+    ],
+    [
+      90,
+      "before live sequence",
+      97
+    ],
+    [
+      91,
+      "sequence evidence path",
+      97
+    ],
+    [
+      92,
+      "sequence support path",
+      97
+    ],
+    [
+      93,
+      "sequence path path",
+      97
+    ],
+    [
+      94,
+      "sequence surface path",
+      97
+    ],
+    [
+      95,
+      "sequence packet path",
+      97
+    ],
+    [
+      96,
+      "sequence receipt path",
+      97
+    ],
+    [
+      97,
+      "sequence trace path",
+      97
+    ],
+    [
+      98,
+      "sequence result path",
+      97
+    ],
+    [
+      99,
+      "sequence scope path",
+      97
+    ],
+    [
+      100,
+      "sequence boundary path",
+      97
+    ],
+    [
+      101,
+      "check sequence receipt",
+      96
+    ],
+    [
+      102,
+      "compare sequence receipt",
+      96
+    ],
+    [
+      103,
+      "observe sequence receipt",
+      96
+    ],
+    [
+      104,
+      "measure sequence receipt",
+      96
+    ],
+    [
+      105,
+      "test sequence receipt",
+      96
+    ],
+    [
+      106,
+      "verify sequence receipt",
+      96
+    ],
+    [
+      107,
+      "hold sequence receipt",
+      96
+    ],
+    [
+      108,
+      "preserve sequence receipt",
+      96
+    ],
+    [
+      109,
+      "under current front",
+      96
+    ],
+    [
+      110,
+      "under local front",
+      96
+    ],
+    [
+      111,
+      "under bounded front",
+      96
+    ],
+    [
+      112,
+      "under finite front",
+      96
+    ],
+    [
+      113,
+      "under open front",
+      96
+    ],
+    [
+      114,
+      "under live front",
+      96
+    ],
+    [
+      115,
+      "within current front",
+      96
+    ],
+    [
+      116,
+      "within local front",
+      96
+    ],
+    [
+      117,
+      "within bounded front",
+      96
+    ],
+    [
+      118,
+      "within finite front",
+      96
+    ],
+    [
+      119,
+      "within open front",
+      96
+    ],
+    [
+      120,
+      "within live front",
+      96
+    ],
+    [
+      121,
+      "across current front",
+      96
+    ],
+    [
+      122,
+      "across local front",
+      96
+    ],
+    [
+      123,
+      "across bounded front",
+      96
+    ],
+    [
+      124,
+      "across finite front",
+      96
+    ],
+    [
+      125,
+      "across open front",
+      96
+    ],
+    [
+      126,
+      "across live front",
+      95
+    ],
+    [
+      127,
+      "between current front",
+      95
+    ],
+    [
+      128,
+      "between local front",
+      95
+    ],
+    [
+      129,
+      "between bounded front",
+      95
+    ],
+    [
+      130,
+      "between finite front",
+      95
+    ],
+    [
+      131,
+      "between open front",
+      95
+    ],
+    [
+      132,
+      "between live front",
+      95
+    ],
+    [
+      133,
+      "through current front",
+      95
+    ],
+    [
+      134,
+      "through local front",
+      95
+    ],
+    [
+      135,
+      "through bounded front",
+      95
+    ],
+    [
+      136,
+      "through finite front",
+      95
+    ],
+    [
+      137,
+      "through open front",
+      95
+    ],
+    [
+      138,
+      "through live front",
+      95
+    ],
+    [
+      139,
+      "before current front",
+      95
+    ],
+    [
+      140,
+      "before local front",
+      95
+    ],
+    [
+      141,
+      "before bounded front",
+      95
+    ],
+    [
+      142,
+      "before finite front",
+      95
+    ],
+    [
+      143,
+      "before open front",
+      95
+    ],
+    [
+      144,
+      "before live front",
+      95
+    ],
+    [
+      145,
+      "front evidence path",
+      95
+    ],
+    [
+      146,
+      "front support path",
+      95
+    ],
+    [
+      147,
+      "front path path",
+      95
+    ],
+    [
+      148,
+      "front surface path",
+      95
+    ],
+    [
+      149,
+      "front packet path",
+      95
+    ],
+    [
+      150,
+      "front receipt path",
+      95
+    ],
+    [
+      151,
+      "front trace path",
+      94
+    ],
+    [
+      152,
+      "front result path",
+      94
+    ],
+    [
+      153,
+      "front scope path",
+      94
+    ],
+    [
+      154,
+      "front boundary path",
+      94
+    ],
+    [
+      155,
+      "check front receipt",
+      94
+    ],
+    [
+      156,
+      "compare front receipt",
+      94
+    ],
+    [
+      157,
+      "observe front receipt",
+      94
+    ],
+    [
+      158,
+      "measure front receipt",
+      94
+    ],
+    [
+      159,
+      "test front receipt",
+      94
+    ],
+    [
+      160,
+      "verify front receipt",
+      94
+    ],
+    [
+      161,
+      "hold front receipt",
+      94
+    ],
+    [
+      162,
+      "preserve front receipt",
+      94
+    ],
+    [
+      163,
+      "under current retreat",
+      94
+    ],
+    [
+      164,
+      "under local retreat",
+      94
+    ],
+    [
+      165,
+      "under bounded retreat",
+      94
+    ],
+    [
+      166,
+      "under finite retreat",
+      94
+    ],
+    [
+      167,
+      "under open retreat",
+      94
+    ],
+    [
+      168,
+      "under live retreat",
+      94
+    ],
+    [
+      169,
+      "within current retreat",
+      94
+    ],
+    [
+      170,
+      "within local retreat",
+      94
+    ],
+    [
+      171,
+      "within bounded retreat",
+      94
+    ],
+    [
+      172,
+      "within finite retreat",
+      94
+    ],
+    [
+      173,
+      "within open retreat",
+      94
+    ],
+    [
+      174,
+      "within live retreat",
+      94
+    ],
+    [
+      175,
+      "across current retreat",
+      94
+    ],
+    [
+      176,
+      "across local retreat",
+      93
+    ],
+    [
+      177,
+      "across bounded retreat",
+      93
+    ],
+    [
+      178,
+      "across finite retreat",
+      93
+    ],
+    [
+      179,
+      "across open retreat",
+      93
+    ],
+    [
+      180,
+      "across live retreat",
+      93
+    ],
+    [
+      181,
+      "between current retreat",
+      93
+    ],
+    [
+      182,
+      "between local retreat",
+      93
+    ],
+    [
+      183,
+      "between bounded retreat",
+      93
+    ],
+    [
+      184,
+      "between finite retreat",
+      93
+    ],
+    [
+      185,
+      "between open retreat",
+      93
+    ],
+    [
+      186,
+      "between live retreat",
+      93
+    ],
+    [
+      187,
+      "through current retreat",
+      93
+    ],
+    [
+      188,
+      "through local retreat",
+      93
+    ],
+    [
+      189,
+      "through bounded retreat",
+      93
+    ],
+    [
+      190,
+      "through finite retreat",
+      93
+    ],
+    [
+      191,
+      "through open retreat",
+      93
+    ],
+    [
+      192,
+      "through live retreat",
+      93
+    ],
+    [
+      193,
+      "before current retreat",
+      93
+    ],
+    [
+      194,
+      "before local retreat",
+      93
+    ],
+    [
+      195,
+      "before bounded retreat",
+      93
+    ],
+    [
+      196,
+      "before finite retreat",
+      93
+    ],
+    [
+      197,
+      "before open retreat",
+      93
+    ],
+    [
+      198,
+      "before live retreat",
+      93
+    ],
+    [
+      199,
+      "retreat evidence path",
+      93
+    ],
+    [
+      200,
+      "retreat support path",
+      93
+    ],
+    [
+      201,
+      "retreat path path",
+      92
+    ],
+    [
+      202,
+      "retreat surface path",
+      92
+    ],
+    [
+      203,
+      "retreat packet path",
+      92
+    ],
+    [
+      204,
+      "retreat receipt path",
+      92
+    ],
+    [
+      205,
+      "retreat trace path",
+      92
+    ],
+    [
+      206,
+      "retreat result path",
+      92
+    ],
+    [
+      207,
+      "retreat scope path",
+      92
+    ],
+    [
+      208,
+      "retreat boundary path",
+      92
+    ],
+    [
+      209,
+      "check retreat receipt",
+      92
+    ],
+    [
+      210,
+      "compare retreat receipt",
+      92
+    ],
+    [
+      211,
+      "observe retreat receipt",
+      92
+    ],
+    [
+      212,
+      "measure retreat receipt",
+      92
+    ],
+    [
+      213,
+      "test retreat receipt",
+      92
+    ],
+    [
+      214,
+      "verify retreat receipt",
+      92
+    ],
+    [
+      215,
+      "hold retreat receipt",
+      92
+    ],
+    [
+      216,
+      "preserve retreat receipt",
+      92
+    ],
+    [
+      217,
+      "under current hold",
+      92
+    ],
+    [
+      218,
+      "under local hold",
+      92
+    ],
+    [
+      219,
+      "under bounded hold",
+      92
+    ],
+    [
+      220,
+      "under finite hold",
+      92
+    ],
+    [
+      221,
+      "under open hold",
+      92
+    ],
+    [
+      222,
+      "under live hold",
+      92
+    ],
+    [
+      223,
+      "within current hold",
+      92
+    ],
+    [
+      224,
+      "within local hold",
+      92
+    ],
+    [
+      225,
+      "within bounded hold",
+      92
+    ],
+    [
+      226,
+      "within finite hold",
+      91
+    ],
+    [
+      227,
+      "within open hold",
+      91
+    ],
+    [
+      228,
+      "within live hold",
+      91
+    ],
+    [
+      229,
+      "across current hold",
+      91
+    ],
+    [
+      230,
+      "across local hold",
+      91
+    ],
+    [
+      231,
+      "across bounded hold",
+      91
+    ],
+    [
+      232,
+      "across finite hold",
+      91
+    ],
+    [
+      233,
+      "across open hold",
+      91
+    ],
+    [
+      234,
+      "across live hold",
+      91
+    ],
+    [
+      235,
+      "between current hold",
+      91
+    ],
+    [
+      236,
+      "between local hold",
+      91
+    ],
+    [
+      237,
+      "between bounded hold",
+      91
+    ],
+    [
+      238,
+      "between finite hold",
+      91
+    ],
+    [
+      239,
+      "between open hold",
+      91
+    ],
+    [
+      240,
+      "between live hold",
+      91
+    ],
+    [
+      241,
+      "center of gravity",
+      91
+    ],
+    [
+      242,
+      "fog of war",
+      91
+    ],
+    [
+      243,
+      "line of operation",
+      91
+    ],
+    [
+      244,
+      "means and ends",
+      91
+    ],
+    [
+      245,
+      "economy of force",
+      91
+    ],
+    [
+      246,
+      "under strategy campaign",
+      91
+    ],
+    [
+      247,
+      "under strategy sequence",
+      91
+    ],
+    [
+      248,
+      "under strategy priority",
+      91
+    ],
+    [
+      249,
+      "under strategy resource",
+      91
+    ],
+    [
+      250,
+      "under campaign sequence",
+      91
+    ],
+    [
+      251,
+      "under campaign priority",
+      90
+    ],
+    [
+      252,
+      "under campaign resource",
+      90
+    ],
+    [
+      253,
+      "under campaign timing",
+      90
+    ],
+    [
+      254,
+      "under sequence priority",
+      90
+    ],
+    [
+      255,
+      "under sequence resource",
+      90
+    ],
+    [
+      256,
+      "under sequence timing",
+      90
+    ],
+    [
+      257,
+      "under sequence front",
+      90
+    ],
+    [
+      258,
+      "under priority resource",
+      90
+    ],
+    [
+      259,
+      "under priority timing",
+      90
+    ],
+    [
+      260,
+      "under priority front",
+      90
+    ],
+    [
+      261,
+      "under priority decisive",
+      90
+    ],
+    [
+      262,
+      "under resource timing",
+      90
+    ],
+    [
+      263,
+      "under resource front",
+      90
+    ],
+    [
+      264,
+      "under resource decisive",
+      90
+    ],
+    [
+      265,
+      "under resource retreat",
+      90
+    ],
+    [
+      266,
+      "under timing front",
+      90
+    ],
+    [
+      267,
+      "under timing decisive",
+      90
+    ],
+    [
+      268,
+      "under timing retreat",
+      90
+    ],
+    [
+      269,
+      "under timing hold",
+      90
+    ],
+    [
+      270,
+      "under front decisive",
+      90
+    ],
+    [
+      271,
+      "under front retreat",
+      90
+    ],
+    [
+      272,
+      "under front hold",
+      90
+    ],
+    [
+      273,
+      "under front advance",
+      90
+    ],
+    [
+      274,
+      "under decisive retreat",
+      90
+    ],
+    [
+      275,
+      "under decisive hold",
+      90
+    ],
+    [
+      276,
+      "under decisive advance",
+      89
+    ],
+    [
+      277,
+      "under decisive defer",
+      89
+    ],
+    [
+      278,
+      "under retreat hold",
+      89
+    ],
+    [
+      279,
+      "under retreat advance",
+      89
+    ],
+    [
+      280,
+      "under retreat defer",
+      89
+    ],
+    [
+      281,
+      "under retreat split",
+      89
+    ],
+    [
+      282,
+      "under hold advance",
+      89
+    ],
+    [
+      283,
+      "under hold defer",
+      89
+    ],
+    [
+      284,
+      "under hold split",
+      89
+    ],
+    [
+      285,
+      "under hold merge",
+      89
+    ],
+    [
+      286,
+      "under advance defer",
+      89
+    ],
+    [
+      287,
+      "under advance split",
+      89
+    ],
+    [
+      288,
+      "under advance merge",
+      89
+    ],
+    [
+      289,
+      "under advance tradeoff",
+      89
+    ],
+    [
+      290,
+      "under defer split",
+      89
+    ],
+    [
+      291,
+      "under defer merge",
+      89
+    ],
+    [
+      292,
+      "under defer tradeoff",
+      89
+    ],
+    [
+      293,
+      "under defer objective",
+      89
+    ],
+    [
+      294,
+      "under split merge",
+      89
+    ],
+    [
+      295,
+      "under split tradeoff",
+      89
+    ],
+    [
+      296,
+      "under split objective",
+      89
+    ],
+    [
+      297,
+      "under split mission",
+      89
+    ],
+    [
+      298,
+      "under merge tradeoff",
+      89
+    ],
+    [
+      299,
+      "under merge objective",
+      89
+    ],
+    [
+      300,
+      "under merge mission",
+      89
+    ],
+    [
+      301,
+      "under merge position",
+      88
+    ],
+    [
+      302,
+      "under tradeoff objective",
+      88
+    ],
+    [
+      303,
+      "under tradeoff mission",
+      88
+    ],
+    [
+      304,
+      "under tradeoff position",
+      88
+    ],
+    [
+      305,
+      "under tradeoff terrain",
+      88
+    ],
+    [
+      306,
+      "under objective mission",
+      88
+    ],
+    [
+      307,
+      "under objective position",
+      88
+    ],
+    [
+      308,
+      "under objective terrain",
+      88
+    ],
+    [
+      309,
+      "under objective initiative",
+      88
+    ],
+    [
+      310,
+      "under mission position",
+      88
+    ],
+    [
+      311,
+      "under mission terrain",
+      88
+    ],
+    [
+      312,
+      "under mission initiative",
+      88
+    ],
+    [
+      313,
+      "under mission commitment",
+      88
+    ],
+    [
+      314,
+      "under position terrain",
+      88
+    ],
+    [
+      315,
+      "under position initiative",
+      88
+    ],
+    [
+      316,
+      "under position commitment",
+      88
+    ],
+    [
+      317,
+      "under position scarce",
+      88
+    ],
+    [
+      318,
+      "under terrain initiative",
+      88
+    ],
+    [
+      319,
+      "under terrain commitment",
+      88
+    ],
+    [
+      320,
+      "under terrain scarce",
+      88
+    ],
+    [
+      321,
+      "under terrain drift",
+      88
+    ],
+    [
+      322,
+      "under initiative commitment",
+      88
+    ],
+    [
+      323,
+      "under initiative scarce",
+      88
+    ],
+    [
+      324,
+      "under initiative drift",
+      88
+    ],
+    [
+      325,
+      "under initiative condition",
+      88
+    ],
+    [
+      326,
+      "within strategy campaign",
+      87
+    ],
+    [
+      327,
+      "within strategy sequence",
+      87
+    ],
+    [
+      328,
+      "within strategy priority",
+      87
+    ],
+    [
+      329,
+      "within strategy resource",
+      87
+    ],
+    [
+      330,
+      "within campaign sequence",
+      87
+    ],
+    [
+      331,
+      "within campaign priority",
+      87
+    ],
+    [
+      332,
+      "within campaign resource",
+      87
+    ],
+    [
+      333,
+      "within campaign timing",
+      87
+    ],
+    [
+      334,
+      "within sequence priority",
+      87
+    ],
+    [
+      335,
+      "within sequence resource",
+      87
+    ],
+    [
+      336,
+      "within sequence timing",
+      87
+    ],
+    [
+      337,
+      "within sequence front",
+      87
+    ],
+    [
+      338,
+      "within priority resource",
+      87
+    ],
+    [
+      339,
+      "within priority timing",
+      87
+    ],
+    [
+      340,
+      "within priority front",
+      87
+    ],
+    [
+      341,
+      "within priority decisive",
+      87
+    ],
+    [
+      342,
+      "within resource timing",
+      87
+    ],
+    [
+      343,
+      "within resource front",
+      87
+    ],
+    [
+      344,
+      "within resource decisive",
+      87
+    ],
+    [
+      345,
+      "within resource retreat",
+      87
+    ],
+    [
+      346,
+      "within timing front",
+      87
+    ],
+    [
+      347,
+      "within timing decisive",
+      87
+    ],
+    [
+      348,
+      "within timing retreat",
+      87
+    ],
+    [
+      349,
+      "within timing hold",
+      87
+    ],
+    [
+      350,
+      "within front decisive",
+      87
+    ],
+    [
+      351,
+      "within front retreat",
+      86
+    ],
+    [
+      352,
+      "within front hold",
+      86
+    ],
+    [
+      353,
+      "within front advance",
+      86
+    ],
+    [
+      354,
+      "within decisive retreat",
+      86
+    ],
+    [
+      355,
+      "within decisive hold",
+      86
+    ],
+    [
+      356,
+      "within decisive advance",
+      86
+    ],
+    [
+      357,
+      "within decisive defer",
+      86
+    ],
+    [
+      358,
+      "within retreat hold",
+      86
+    ],
+    [
+      359,
+      "within retreat advance",
+      86
+    ],
+    [
+      360,
+      "within retreat defer",
+      86
+    ],
+    [
+      361,
+      "within retreat split",
+      86
+    ],
+    [
+      362,
+      "within hold advance",
+      86
+    ],
+    [
+      363,
+      "within hold defer",
+      86
+    ],
+    [
+      364,
+      "within hold split",
+      86
+    ],
+    [
+      365,
+      "within hold merge",
+      86
+    ],
+    [
+      366,
+      "within advance defer",
+      86
+    ],
+    [
+      367,
+      "within advance split",
+      86
+    ],
+    [
+      368,
+      "within advance merge",
+      86
+    ],
+    [
+      369,
+      "within advance tradeoff",
+      86
+    ],
+    [
+      370,
+      "within defer split",
+      86
+    ],
+    [
+      371,
+      "within defer merge",
+      86
+    ],
+    [
+      372,
+      "within defer tradeoff",
+      86
+    ],
+    [
+      373,
+      "within defer objective",
+      86
+    ],
+    [
+      374,
+      "within split merge",
+      86
+    ],
+    [
+      375,
+      "within split tradeoff",
+      86
+    ],
+    [
+      376,
+      "within split objective",
+      85
+    ],
+    [
+      377,
+      "within split mission",
+      85
+    ],
+    [
+      378,
+      "within merge tradeoff",
+      85
+    ],
+    [
+      379,
+      "within merge objective",
+      85
+    ],
+    [
+      380,
+      "within merge mission",
+      85
+    ],
+    [
+      381,
+      "within merge position",
+      85
+    ],
+    [
+      382,
+      "within tradeoff objective",
+      85
+    ],
+    [
+      383,
+      "within tradeoff mission",
+      85
+    ],
+    [
+      384,
+      "within tradeoff position",
+      85
+    ],
+    [
+      385,
+      "within tradeoff terrain",
+      85
+    ],
+    [
+      386,
+      "within objective mission",
+      85
+    ],
+    [
+      387,
+      "within objective position",
+      85
+    ],
+    [
+      388,
+      "within objective terrain",
+      85
+    ],
+    [
+      389,
+      "within objective initiative",
+      85
+    ],
+    [
+      390,
+      "within mission position",
+      85
+    ],
+    [
+      391,
+      "within mission terrain",
+      85
+    ],
+    [
+      392,
+      "within mission initiative",
+      85
+    ],
+    [
+      393,
+      "within mission commitment",
+      85
+    ],
+    [
+      394,
+      "within position terrain",
+      85
+    ],
+    [
+      395,
+      "within position initiative",
+      85
+    ],
+    [
+      396,
+      "within position commitment",
+      85
+    ],
+    [
+      397,
+      "within position scarce",
+      85
+    ],
+    [
+      398,
+      "within terrain initiative",
+      85
+    ],
+    [
+      399,
+      "within terrain commitment",
+      85
+    ],
+    [
+      400,
+      "within terrain scarce",
+      85
+    ],
+    [
+      401,
+      "within terrain drift",
+      84
+    ],
+    [
+      402,
+      "within initiative commitment",
+      84
+    ],
+    [
+      403,
+      "within initiative scarce",
+      84
+    ],
+    [
+      404,
+      "within initiative drift",
+      84
+    ],
+    [
+      405,
+      "within initiative condition",
+      84
+    ],
+    [
+      406,
+      "across strategy campaign",
+      84
+    ],
+    [
+      407,
+      "across strategy sequence",
+      84
+    ],
+    [
+      408,
+      "across strategy priority",
+      84
+    ],
+    [
+      409,
+      "across strategy resource",
+      84
+    ],
+    [
+      410,
+      "across campaign sequence",
+      84
+    ],
+    [
+      411,
+      "across campaign priority",
+      84
+    ],
+    [
+      412,
+      "across campaign resource",
+      84
+    ],
+    [
+      413,
+      "across campaign timing",
+      84
+    ],
+    [
+      414,
+      "across sequence priority",
+      84
+    ],
+    [
+      415,
+      "across sequence resource",
+      84
+    ],
+    [
+      416,
+      "across sequence timing",
+      84
+    ],
+    [
+      417,
+      "across sequence front",
+      84
+    ],
+    [
+      418,
+      "across priority resource",
+      84
+    ],
+    [
+      419,
+      "across priority timing",
+      84
+    ],
+    [
+      420,
+      "across priority front",
+      84
+    ],
+    [
+      421,
+      "across priority decisive",
+      84
+    ],
+    [
+      422,
+      "across resource timing",
+      84
+    ],
+    [
+      423,
+      "across resource front",
+      84
+    ],
+    [
+      424,
+      "across resource decisive",
+      84
+    ],
+    [
+      425,
+      "across resource retreat",
+      84
+    ],
+    [
+      426,
+      "across timing front",
+      83
+    ],
+    [
+      427,
+      "across timing decisive",
+      83
+    ],
+    [
+      428,
+      "across timing retreat",
+      83
+    ],
+    [
+      429,
+      "across timing hold",
+      83
+    ],
+    [
+      430,
+      "across front decisive",
+      83
+    ],
+    [
+      431,
+      "across front retreat",
+      83
+    ],
+    [
+      432,
+      "across front hold",
+      83
+    ],
+    [
+      433,
+      "across front advance",
+      83
+    ],
+    [
+      434,
+      "across decisive retreat",
+      83
+    ],
+    [
+      435,
+      "across decisive hold",
+      83
+    ],
+    [
+      436,
+      "across decisive advance",
+      83
+    ],
+    [
+      437,
+      "across decisive defer",
+      83
+    ],
+    [
+      438,
+      "across retreat hold",
+      83
+    ],
+    [
+      439,
+      "across retreat advance",
+      83
+    ],
+    [
+      440,
+      "across retreat defer",
+      83
+    ],
+    [
+      441,
+      "across retreat split",
+      83
+    ],
+    [
+      442,
+      "across hold advance",
+      83
+    ],
+    [
+      443,
+      "across hold defer",
+      83
+    ],
+    [
+      444,
+      "across hold split",
+      83
+    ],
+    [
+      445,
+      "across hold merge",
+      83
+    ],
+    [
+      446,
+      "across advance defer",
+      83
+    ],
+    [
+      447,
+      "across advance split",
+      83
+    ],
+    [
+      448,
+      "across advance merge",
+      83
+    ],
+    [
+      449,
+      "across advance tradeoff",
+      83
+    ],
+    [
+      450,
+      "across defer split",
+      83
+    ],
+    [
+      451,
+      "across defer merge",
+      82
+    ],
+    [
+      452,
+      "across defer tradeoff",
+      82
+    ],
+    [
+      453,
+      "across defer objective",
+      82
+    ],
+    [
+      454,
+      "across split merge",
+      82
+    ],
+    [
+      455,
+      "across split tradeoff",
+      82
+    ],
+    [
+      456,
+      "across split objective",
+      82
+    ],
+    [
+      457,
+      "across split mission",
+      82
+    ],
+    [
+      458,
+      "across merge tradeoff",
+      82
+    ],
+    [
+      459,
+      "across merge objective",
+      82
+    ],
+    [
+      460,
+      "across merge mission",
+      82
+    ],
+    [
+      461,
+      "across merge position",
+      82
+    ],
+    [
+      462,
+      "across tradeoff objective",
+      82
+    ],
+    [
+      463,
+      "across tradeoff mission",
+      82
+    ],
+    [
+      464,
+      "across tradeoff position",
+      82
+    ],
+    [
+      465,
+      "across tradeoff terrain",
+      82
+    ],
+    [
+      466,
+      "across objective mission",
+      82
+    ],
+    [
+      467,
+      "across objective position",
+      82
+    ],
+    [
+      468,
+      "across objective terrain",
+      82
+    ],
+    [
+      469,
+      "across objective initiative",
+      82
+    ],
+    [
+      470,
+      "across mission position",
+      82
+    ],
+    [
+      471,
+      "across mission terrain",
+      82
+    ],
+    [
+      472,
+      "across mission initiative",
+      82
+    ],
+    [
+      473,
+      "across mission commitment",
+      82
+    ],
+    [
+      474,
+      "across position terrain",
+      82
+    ],
+    [
+      475,
+      "across position initiative",
+      82
+    ],
+    [
+      476,
+      "across position commitment",
+      81
+    ],
+    [
+      477,
+      "across position scarce",
+      81
+    ],
+    [
+      478,
+      "across terrain initiative",
+      81
+    ],
+    [
+      479,
+      "across terrain commitment",
+      81
+    ],
+    [
+      480,
+      "across terrain scarce",
+      81
+    ],
+    [
+      481,
+      "across terrain drift",
+      81
+    ],
+    [
+      482,
+      "across initiative commitment",
+      81
+    ],
+    [
+      483,
+      "across initiative scarce",
+      81
+    ],
+    [
+      484,
+      "across initiative drift",
+      81
+    ],
+    [
+      485,
+      "across initiative condition",
+      81
+    ],
+    [
+      486,
+      "between strategy campaign",
+      81
+    ],
+    [
+      487,
+      "between strategy sequence",
+      81
+    ],
+    [
+      488,
+      "between strategy priority",
+      81
+    ],
+    [
+      489,
+      "between strategy resource",
+      81
+    ],
+    [
+      490,
+      "between campaign sequence",
+      81
+    ],
+    [
+      491,
+      "between campaign priority",
+      81
+    ],
+    [
+      492,
+      "between campaign resource",
+      81
+    ],
+    [
+      493,
+      "between campaign timing",
+      81
+    ],
+    [
+      494,
+      "between sequence priority",
+      81
+    ],
+    [
+      495,
+      "between sequence resource",
+      81
+    ],
+    [
+      496,
+      "between sequence timing",
+      81
+    ],
+    [
+      497,
+      "between sequence front",
+      81
+    ],
+    [
+      498,
+      "between priority resource",
+      81
+    ],
+    [
+      499,
+      "between priority timing",
+      81
+    ],
+    [
+      500,
+      "between priority front",
+      81
+    ],
+    [
+      501,
+      "between priority decisive",
+      80
+    ],
+    [
+      502,
+      "between resource timing",
+      80
+    ],
+    [
+      503,
+      "between resource front",
+      80
+    ],
+    [
+      504,
+      "between resource decisive",
+      80
+    ],
+    [
+      505,
+      "between resource retreat",
+      80
+    ],
+    [
+      506,
+      "between timing front",
+      80
+    ],
+    [
+      507,
+      "between timing decisive",
+      80
+    ],
+    [
+      508,
+      "between timing retreat",
+      80
+    ],
+    [
+      509,
+      "between timing hold",
+      80
+    ],
+    [
+      510,
+      "between front decisive",
+      80
+    ],
+    [
+      511,
+      "between front retreat",
+      80
+    ],
+    [
+      512,
+      "between front hold",
+      80
+    ],
+    [
+      513,
+      "between front advance",
+      80
+    ],
+    [
+      514,
+      "between decisive retreat",
+      80
+    ],
+    [
+      515,
+      "between decisive hold",
+      80
+    ],
+    [
+      516,
+      "between decisive advance",
+      80
+    ],
+    [
+      517,
+      "between decisive defer",
+      80
+    ],
+    [
+      518,
+      "between retreat hold",
+      80
+    ],
+    [
+      519,
+      "between retreat advance",
+      80
+    ],
+    [
+      520,
+      "between retreat defer",
+      80
+    ],
+    [
+      521,
+      "between retreat split",
+      80
+    ],
+    [
+      522,
+      "between hold advance",
+      80
+    ],
+    [
+      523,
+      "between hold defer",
+      80
+    ],
+    [
+      524,
+      "between hold split",
+      80
+    ],
+    [
+      525,
+      "between hold merge",
+      80
+    ],
+    [
+      526,
+      "between advance defer",
+      79
+    ],
+    [
+      527,
+      "between advance split",
+      79
+    ],
+    [
+      528,
+      "between advance merge",
+      79
+    ],
+    [
+      529,
+      "between advance tradeoff",
+      79
+    ],
+    [
+      530,
+      "between defer split",
+      79
+    ],
+    [
+      531,
+      "between defer merge",
+      79
+    ],
+    [
+      532,
+      "between defer tradeoff",
+      79
+    ],
+    [
+      533,
+      "between defer objective",
+      79
+    ],
+    [
+      534,
+      "between split merge",
+      79
+    ],
+    [
+      535,
+      "between split tradeoff",
+      79
+    ],
+    [
+      536,
+      "between split objective",
+      79
+    ],
+    [
+      537,
+      "between split mission",
+      79
+    ],
+    [
+      538,
+      "between merge tradeoff",
+      79
+    ],
+    [
+      539,
+      "between merge objective",
+      79
+    ],
+    [
+      540,
+      "between merge mission",
+      79
+    ],
+    [
+      541,
+      "between merge position",
+      79
+    ],
+    [
+      542,
+      "between tradeoff objective",
+      79
+    ],
+    [
+      543,
+      "between tradeoff mission",
+      79
+    ],
+    [
+      544,
+      "between tradeoff position",
+      79
+    ],
+    [
+      545,
+      "between tradeoff terrain",
+      79
+    ],
+    [
+      546,
+      "between objective mission",
+      79
+    ],
+    [
+      547,
+      "between objective position",
+      79
+    ],
+    [
+      548,
+      "between objective terrain",
+      79
+    ],
+    [
+      549,
+      "between objective initiative",
+      79
+    ],
+    [
+      550,
+      "between mission position",
+      79
+    ],
+    [
+      551,
+      "between mission terrain",
+      78
+    ],
+    [
+      552,
+      "between mission initiative",
+      78
+    ],
+    [
+      553,
+      "between mission commitment",
+      78
+    ],
+    [
+      554,
+      "between position terrain",
+      78
+    ],
+    [
+      555,
+      "between position initiative",
+      78
+    ],
+    [
+      556,
+      "between position commitment",
+      78
+    ],
+    [
+      557,
+      "between position scarce",
+      78
+    ],
+    [
+      558,
+      "between terrain initiative",
+      78
+    ],
+    [
+      559,
+      "between terrain commitment",
+      78
+    ],
+    [
+      560,
+      "between terrain scarce",
+      78
+    ],
+    [
+      561,
+      "between terrain drift",
+      78
+    ],
+    [
+      562,
+      "between initiative commitment",
+      78
+    ],
+    [
+      563,
+      "between initiative scarce",
+      78
+    ],
+    [
+      564,
+      "between initiative drift",
+      78
+    ],
+    [
+      565,
+      "between initiative condition",
+      78
+    ],
+    [
+      566,
+      "through strategy campaign",
+      78
+    ],
+    [
+      567,
+      "through strategy sequence",
+      78
+    ],
+    [
+      568,
+      "through strategy priority",
+      78
+    ],
+    [
+      569,
+      "through strategy resource",
+      78
+    ],
+    [
+      570,
+      "through campaign sequence",
+      78
+    ],
+    [
+      571,
+      "through campaign priority",
+      78
+    ],
+    [
+      572,
+      "through campaign resource",
+      78
+    ],
+    [
+      573,
+      "through campaign timing",
+      78
+    ],
+    [
+      574,
+      "through sequence priority",
+      78
+    ],
+    [
+      575,
+      "through sequence resource",
+      78
+    ],
+    [
+      576,
+      "through sequence timing",
+      77
+    ],
+    [
+      577,
+      "through sequence front",
+      77
+    ],
+    [
+      578,
+      "through priority resource",
+      77
+    ],
+    [
+      579,
+      "through priority timing",
+      77
+    ],
+    [
+      580,
+      "through priority front",
+      77
+    ],
+    [
+      581,
+      "through priority decisive",
+      77
+    ],
+    [
+      582,
+      "through resource timing",
+      77
+    ],
+    [
+      583,
+      "through resource front",
+      77
+    ],
+    [
+      584,
+      "through resource decisive",
+      77
+    ],
+    [
+      585,
+      "through resource retreat",
+      77
+    ],
+    [
+      586,
+      "through timing front",
+      77
+    ],
+    [
+      587,
+      "through timing decisive",
+      77
+    ],
+    [
+      588,
+      "through timing retreat",
+      77
+    ],
+    [
+      589,
+      "through timing hold",
+      77
+    ],
+    [
+      590,
+      "through front decisive",
+      77
+    ],
+    [
+      591,
+      "through front retreat",
+      77
+    ],
+    [
+      592,
+      "through front hold",
+      77
+    ],
+    [
+      593,
+      "through front advance",
+      77
+    ],
+    [
+      594,
+      "through decisive retreat",
+      77
+    ],
+    [
+      595,
+      "through decisive hold",
+      77
+    ],
+    [
+      596,
+      "through decisive advance",
+      77
+    ],
+    [
+      597,
+      "through decisive defer",
+      77
+    ],
+    [
+      598,
+      "through retreat hold",
+      77
+    ],
+    [
+      599,
+      "through retreat advance",
+      77
+    ],
+    [
+      600,
+      "through retreat defer",
+      77
+    ],
+    [
+      601,
+      "through retreat split",
+      76
+    ],
+    [
+      602,
+      "through hold advance",
+      76
+    ],
+    [
+      603,
+      "through hold defer",
+      76
+    ],
+    [
+      604,
+      "through hold split",
+      76
+    ],
+    [
+      605,
+      "through hold merge",
+      76
+    ],
+    [
+      606,
+      "through advance defer",
+      76
+    ],
+    [
+      607,
+      "through advance split",
+      76
+    ],
+    [
+      608,
+      "through advance merge",
+      76
+    ],
+    [
+      609,
+      "through advance tradeoff",
+      76
+    ],
+    [
+      610,
+      "through defer split",
+      76
+    ],
+    [
+      611,
+      "through defer merge",
+      76
+    ],
+    [
+      612,
+      "through defer tradeoff",
+      76
+    ],
+    [
+      613,
+      "through defer objective",
+      76
+    ],
+    [
+      614,
+      "through split merge",
+      76
+    ],
+    [
+      615,
+      "through split tradeoff",
+      76
+    ],
+    [
+      616,
+      "through split objective",
+      76
+    ],
+    [
+      617,
+      "through split mission",
+      76
+    ],
+    [
+      618,
+      "through merge tradeoff",
+      76
+    ],
+    [
+      619,
+      "through merge objective",
+      76
+    ],
+    [
+      620,
+      "through merge mission",
+      76
+    ],
+    [
+      621,
+      "through merge position",
+      76
+    ],
+    [
+      622,
+      "through tradeoff objective",
+      76
+    ],
+    [
+      623,
+      "through tradeoff mission",
+      76
+    ],
+    [
+      624,
+      "through tradeoff position",
+      76
+    ],
+    [
+      625,
+      "through tradeoff terrain",
+      76
+    ],
+    [
+      626,
+      "through objective mission",
+      75
+    ],
+    [
+      627,
+      "through objective position",
+      75
+    ],
+    [
+      628,
+      "through objective terrain",
+      75
+    ],
+    [
+      629,
+      "through objective initiative",
+      75
+    ],
+    [
+      630,
+      "through mission position",
+      75
+    ],
+    [
+      631,
+      "through mission terrain",
+      75
+    ],
+    [
+      632,
+      "through mission initiative",
+      75
+    ],
+    [
+      633,
+      "through mission commitment",
+      75
+    ],
+    [
+      634,
+      "through position terrain",
+      75
+    ],
+    [
+      635,
+      "through position initiative",
+      75
+    ],
+    [
+      636,
+      "through position commitment",
+      75
+    ],
+    [
+      637,
+      "through position scarce",
+      75
+    ],
+    [
+      638,
+      "through terrain initiative",
+      75
+    ],
+    [
+      639,
+      "through terrain commitment",
+      75
+    ],
+    [
+      640,
+      "through terrain scarce",
+      75
+    ],
+    [
+      641,
+      "through terrain drift",
+      75
+    ],
+    [
+      642,
+      "through initiative commitment",
+      75
+    ],
+    [
+      643,
+      "through initiative scarce",
+      75
+    ],
+    [
+      644,
+      "through initiative drift",
+      75
+    ],
+    [
+      645,
+      "through initiative condition",
+      75
+    ],
+    [
+      646,
+      "before strategy campaign",
+      75
+    ],
+    [
+      647,
+      "before strategy sequence",
+      75
+    ],
+    [
+      648,
+      "before strategy priority",
+      75
+    ],
+    [
+      649,
+      "before strategy resource",
+      75
+    ],
+    [
+      650,
+      "before campaign sequence",
+      75
+    ],
+    [
+      651,
+      "before campaign priority",
+      74
+    ],
+    [
+      652,
+      "before campaign resource",
+      74
+    ],
+    [
+      653,
+      "before campaign timing",
+      74
+    ],
+    [
+      654,
+      "before sequence priority",
+      74
+    ],
+    [
+      655,
+      "before sequence resource",
+      74
+    ],
+    [
+      656,
+      "before sequence timing",
+      74
+    ],
+    [
+      657,
+      "before sequence front",
+      74
+    ],
+    [
+      658,
+      "before priority resource",
+      74
+    ],
+    [
+      659,
+      "before priority timing",
+      74
+    ],
+    [
+      660,
+      "before priority front",
+      74
+    ],
+    [
+      661,
+      "before priority decisive",
+      74
+    ],
+    [
+      662,
+      "before resource timing",
+      74
+    ],
+    [
+      663,
+      "before resource front",
+      74
+    ],
+    [
+      664,
+      "before resource decisive",
+      74
+    ],
+    [
+      665,
+      "before resource retreat",
+      74
+    ],
+    [
+      666,
+      "before timing front",
+      74
+    ],
+    [
+      667,
+      "before timing decisive",
+      74
+    ],
+    [
+      668,
+      "before timing retreat",
+      74
+    ],
+    [
+      669,
+      "before timing hold",
+      74
+    ],
+    [
+      670,
+      "before front decisive",
+      74
+    ],
+    [
+      671,
+      "before front retreat",
+      74
+    ],
+    [
+      672,
+      "before front hold",
+      74
+    ],
+    [
+      673,
+      "before front advance",
+      74
+    ],
+    [
+      674,
+      "before decisive retreat",
+      74
+    ],
+    [
+      675,
+      "before decisive hold",
+      74
+    ],
+    [
+      676,
+      "before decisive advance",
+      73
+    ],
+    [
+      677,
+      "before decisive defer",
+      73
+    ],
+    [
+      678,
+      "before retreat hold",
+      73
+    ],
+    [
+      679,
+      "before retreat advance",
+      73
+    ],
+    [
+      680,
+      "before retreat defer",
+      73
+    ],
+    [
+      681,
+      "before retreat split",
+      73
+    ],
+    [
+      682,
+      "before hold advance",
+      73
+    ],
+    [
+      683,
+      "before hold defer",
+      73
+    ],
+    [
+      684,
+      "before hold split",
+      73
+    ],
+    [
+      685,
+      "before hold merge",
+      73
+    ],
+    [
+      686,
+      "before advance defer",
+      73
+    ],
+    [
+      687,
+      "before advance split",
+      73
+    ],
+    [
+      688,
+      "before advance merge",
+      73
+    ],
+    [
+      689,
+      "before advance tradeoff",
+      73
+    ],
+    [
+      690,
+      "before defer split",
+      73
+    ],
+    [
+      691,
+      "before defer merge",
+      73
+    ],
+    [
+      692,
+      "before defer tradeoff",
+      73
+    ],
+    [
+      693,
+      "before defer objective",
+      73
+    ],
+    [
+      694,
+      "before split merge",
+      73
+    ],
+    [
+      695,
+      "before split tradeoff",
+      73
+    ],
+    [
+      696,
+      "before split objective",
+      73
+    ],
+    [
+      697,
+      "before split mission",
+      73
+    ],
+    [
+      698,
+      "before merge tradeoff",
+      73
+    ],
+    [
+      699,
+      "before merge objective",
+      73
+    ],
+    [
+      700,
+      "before merge mission",
+      73
+    ],
+    [
+      701,
+      "before merge position",
+      72
+    ],
+    [
+      702,
+      "before tradeoff objective",
+      72
+    ],
+    [
+      703,
+      "before tradeoff mission",
+      72
+    ],
+    [
+      704,
+      "before tradeoff position",
+      72
+    ],
+    [
+      705,
+      "before tradeoff terrain",
+      72
+    ],
+    [
+      706,
+      "before objective mission",
+      72
+    ],
+    [
+      707,
+      "before objective position",
+      72
+    ],
+    [
+      708,
+      "before objective terrain",
+      72
+    ],
+    [
+      709,
+      "before objective initiative",
+      72
+    ],
+    [
+      710,
+      "before mission position",
+      72
+    ],
+    [
+      711,
+      "before mission terrain",
+      72
+    ],
+    [
+      712,
+      "before mission initiative",
+      72
+    ],
+    [
+      713,
+      "before mission commitment",
+      72
+    ],
+    [
+      714,
+      "before position terrain",
+      72
+    ],
+    [
+      715,
+      "before position initiative",
+      72
+    ],
+    [
+      716,
+      "before position commitment",
+      72
+    ],
+    [
+      717,
+      "before position scarce",
+      72
+    ],
+    [
+      718,
+      "before terrain initiative",
+      72
+    ],
+    [
+      719,
+      "before terrain commitment",
+      72
+    ],
+    [
+      720,
+      "before terrain scarce",
+      72
+    ],
+    [
+      721,
+      "before terrain drift",
+      72
+    ],
+    [
+      722,
+      "before initiative commitment",
+      72
+    ],
+    [
+      723,
+      "before initiative scarce",
+      72
+    ],
+    [
+      724,
+      "before initiative drift",
+      72
+    ],
+    [
+      725,
+      "before initiative condition",
+      72
+    ],
+    [
+      726,
+      "after strategy campaign",
+      71
+    ],
+    [
+      727,
+      "after strategy sequence",
+      71
+    ],
+    [
+      728,
+      "after strategy priority",
+      71
+    ],
+    [
+      729,
+      "after strategy resource",
+      71
+    ],
+    [
+      730,
+      "after campaign sequence",
+      71
+    ],
+    [
+      731,
+      "after campaign priority",
+      71
+    ],
+    [
+      732,
+      "after campaign resource",
+      71
+    ],
+    [
+      733,
+      "after campaign timing",
+      71
+    ],
+    [
+      734,
+      "after sequence priority",
+      71
+    ],
+    [
+      735,
+      "after sequence resource",
+      71
+    ],
+    [
+      736,
+      "after sequence timing",
+      71
+    ],
+    [
+      737,
+      "after sequence front",
+      71
+    ],
+    [
+      738,
+      "after priority resource",
+      71
+    ],
+    [
+      739,
+      "after priority timing",
+      71
+    ],
+    [
+      740,
+      "after priority front",
+      71
+    ],
+    [
+      741,
+      "after priority decisive",
+      71
+    ],
+    [
+      742,
+      "after resource timing",
+      71
+    ],
+    [
+      743,
+      "after resource front",
+      71
+    ],
+    [
+      744,
+      "after resource decisive",
+      71
+    ],
+    [
+      745,
+      "after resource retreat",
+      71
+    ],
+    [
+      746,
+      "after timing front",
+      71
+    ],
+    [
+      747,
+      "after timing decisive",
+      71
+    ],
+    [
+      748,
+      "after timing retreat",
+      71
+    ],
+    [
+      749,
+      "after timing hold",
+      71
+    ],
+    [
+      750,
+      "after front decisive",
+      71
+    ],
+    [
+      751,
+      "after front retreat",
+      70
+    ],
+    [
+      752,
+      "after front hold",
+      70
+    ],
+    [
+      753,
+      "after front advance",
+      70
+    ],
+    [
+      754,
+      "after decisive retreat",
+      70
+    ],
+    [
+      755,
+      "after decisive hold",
+      70
+    ],
+    [
+      756,
+      "after decisive advance",
+      70
+    ],
+    [
+      757,
+      "after decisive defer",
+      70
+    ],
+    [
+      758,
+      "after retreat hold",
+      70
+    ],
+    [
+      759,
+      "after retreat advance",
+      70
+    ],
+    [
+      760,
+      "after retreat defer",
+      70
+    ],
+    [
+      761,
+      "after retreat split",
+      70
+    ],
+    [
+      762,
+      "after hold advance",
+      70
+    ],
+    [
+      763,
+      "after hold defer",
+      70
+    ],
+    [
+      764,
+      "after hold split",
+      70
+    ],
+    [
+      765,
+      "after hold merge",
+      70
+    ],
+    [
+      766,
+      "after advance defer",
+      70
+    ],
+    [
+      767,
+      "after advance split",
+      70
+    ],
+    [
+      768,
+      "after advance merge",
+      70
+    ],
+    [
+      769,
+      "after advance tradeoff",
+      70
+    ],
+    [
+      770,
+      "after defer split",
+      70
+    ],
+    [
+      771,
+      "after defer merge",
+      70
+    ],
+    [
+      772,
+      "after defer tradeoff",
+      70
+    ],
+    [
+      773,
+      "after defer objective",
+      70
+    ],
+    [
+      774,
+      "after split merge",
+      70
+    ],
+    [
+      775,
+      "after split tradeoff",
+      70
+    ],
+    [
+      776,
+      "after split objective",
+      69
+    ],
+    [
+      777,
+      "after split mission",
+      69
+    ],
+    [
+      778,
+      "after merge tradeoff",
+      69
+    ],
+    [
+      779,
+      "after merge objective",
+      69
+    ],
+    [
+      780,
+      "after merge mission",
+      69
+    ],
+    [
+      781,
+      "after merge position",
+      69
+    ],
+    [
+      782,
+      "after tradeoff objective",
+      69
+    ],
+    [
+      783,
+      "after tradeoff mission",
+      69
+    ],
+    [
+      784,
+      "after tradeoff position",
+      69
+    ],
+    [
+      785,
+      "after tradeoff terrain",
+      69
+    ],
+    [
+      786,
+      "after objective mission",
+      69
+    ],
+    [
+      787,
+      "after objective position",
+      69
+    ],
+    [
+      788,
+      "after objective terrain",
+      69
+    ],
+    [
+      789,
+      "after objective initiative",
+      69
+    ],
+    [
+      790,
+      "after mission position",
+      69
+    ],
+    [
+      791,
+      "after mission terrain",
+      69
+    ],
+    [
+      792,
+      "after mission initiative",
+      69
+    ],
+    [
+      793,
+      "after mission commitment",
+      69
+    ],
+    [
+      794,
+      "after position terrain",
+      69
+    ],
+    [
+      795,
+      "after position initiative",
+      69
+    ],
+    [
+      796,
+      "after position commitment",
+      69
+    ],
+    [
+      797,
+      "after position scarce",
+      69
+    ],
+    [
+      798,
+      "after terrain initiative",
+      69
+    ],
+    [
+      799,
+      "after terrain commitment",
+      69
+    ],
+    [
+      800,
+      "after terrain scarce",
+      69
+    ],
+    [
+      801,
+      "after terrain drift",
+      68
+    ],
+    [
+      802,
+      "after initiative commitment",
+      68
+    ],
+    [
+      803,
+      "after initiative scarce",
+      68
+    ],
+    [
+      804,
+      "after initiative drift",
+      68
+    ],
+    [
+      805,
+      "after initiative condition",
+      68
+    ],
+    [
+      806,
+      "during strategy campaign",
+      68
+    ],
+    [
+      807,
+      "during strategy sequence",
+      68
+    ],
+    [
+      808,
+      "during strategy priority",
+      68
+    ],
+    [
+      809,
+      "during strategy resource",
+      68
+    ],
+    [
+      810,
+      "during campaign sequence",
+      68
+    ],
+    [
+      811,
+      "during campaign priority",
+      68
+    ],
+    [
+      812,
+      "during campaign resource",
+      68
+    ],
+    [
+      813,
+      "during campaign timing",
+      68
+    ],
+    [
+      814,
+      "during sequence priority",
+      68
+    ],
+    [
+      815,
+      "during sequence resource",
+      68
+    ],
+    [
+      816,
+      "during sequence timing",
+      68
+    ],
+    [
+      817,
+      "during sequence front",
+      68
+    ],
+    [
+      818,
+      "during priority resource",
+      68
+    ],
+    [
+      819,
+      "during priority timing",
+      68
+    ],
+    [
+      820,
+      "during priority front",
+      68
+    ],
+    [
+      821,
+      "during priority decisive",
+      68
+    ],
+    [
+      822,
+      "during resource timing",
+      68
+    ],
+    [
+      823,
+      "during resource front",
+      68
+    ],
+    [
+      824,
+      "during resource decisive",
+      68
+    ],
+    [
+      825,
+      "during resource retreat",
+      68
+    ],
+    [
+      826,
+      "during timing front",
+      67
+    ],
+    [
+      827,
+      "during timing decisive",
+      67
+    ],
+    [
+      828,
+      "during timing retreat",
+      67
+    ],
+    [
+      829,
+      "during timing hold",
+      67
+    ],
+    [
+      830,
+      "during front decisive",
+      67
+    ],
+    [
+      831,
+      "during front retreat",
+      67
+    ],
+    [
+      832,
+      "during front hold",
+      67
+    ],
+    [
+      833,
+      "during front advance",
+      67
+    ],
+    [
+      834,
+      "during decisive retreat",
+      67
+    ],
+    [
+      835,
+      "during decisive hold",
+      67
+    ],
+    [
+      836,
+      "during decisive advance",
+      67
+    ],
+    [
+      837,
+      "during decisive defer",
+      67
+    ],
+    [
+      838,
+      "during retreat hold",
+      67
+    ],
+    [
+      839,
+      "during retreat advance",
+      67
+    ],
+    [
+      840,
+      "during retreat defer",
+      67
+    ],
+    [
+      841,
+      "during retreat split",
+      67
+    ],
+    [
+      842,
+      "during hold advance",
+      67
+    ],
+    [
+      843,
+      "during hold defer",
+      67
+    ],
+    [
+      844,
+      "during hold split",
+      67
+    ],
+    [
+      845,
+      "during hold merge",
+      67
+    ],
+    [
+      846,
+      "during advance defer",
+      67
+    ],
+    [
+      847,
+      "during advance split",
+      67
+    ],
+    [
+      848,
+      "during advance merge",
+      67
+    ],
+    [
+      849,
+      "during advance tradeoff",
+      67
+    ],
+    [
+      850,
+      "during defer split",
+      67
+    ],
+    [
+      851,
+      "during defer merge",
+      66
+    ],
+    [
+      852,
+      "during defer tradeoff",
+      66
+    ],
+    [
+      853,
+      "during defer objective",
+      66
+    ],
+    [
+      854,
+      "during split merge",
+      66
+    ],
+    [
+      855,
+      "during split tradeoff",
+      66
+    ],
+    [
+      856,
+      "during split objective",
+      66
+    ],
+    [
+      857,
+      "during split mission",
+      66
+    ],
+    [
+      858,
+      "during merge tradeoff",
+      66
+    ],
+    [
+      859,
+      "during merge objective",
+      66
+    ],
+    [
+      860,
+      "during merge mission",
+      66
+    ],
+    [
+      861,
+      "during merge position",
+      66
+    ],
+    [
+      862,
+      "during tradeoff objective",
+      66
+    ],
+    [
+      863,
+      "during tradeoff mission",
+      66
+    ],
+    [
+      864,
+      "during tradeoff position",
+      66
+    ],
+    [
+      865,
+      "during tradeoff terrain",
+      66
+    ],
+    [
+      866,
+      "during objective mission",
+      66
+    ],
+    [
+      867,
+      "during objective position",
+      66
+    ],
+    [
+      868,
+      "during objective terrain",
+      66
+    ],
+    [
+      869,
+      "during objective initiative",
+      66
+    ],
+    [
+      870,
+      "during mission position",
+      66
+    ],
+    [
+      871,
+      "during mission terrain",
+      66
+    ],
+    [
+      872,
+      "during mission initiative",
+      66
+    ],
+    [
+      873,
+      "during mission commitment",
+      66
+    ],
+    [
+      874,
+      "during position terrain",
+      66
+    ],
+    [
+      875,
+      "during position initiative",
+      66
+    ],
+    [
+      876,
+      "during position commitment",
+      65
+    ],
+    [
+      877,
+      "during position scarce",
+      65
+    ],
+    [
+      878,
+      "during terrain initiative",
+      65
+    ],
+    [
+      879,
+      "during terrain commitment",
+      65
+    ],
+    [
+      880,
+      "during terrain scarce",
+      65
+    ],
+    [
+      881,
+      "during terrain drift",
+      65
+    ],
+    [
+      882,
+      "during initiative commitment",
+      65
+    ],
+    [
+      883,
+      "during initiative scarce",
+      65
+    ],
+    [
+      884,
+      "during initiative drift",
+      65
+    ],
+    [
+      885,
+      "during initiative condition",
+      65
+    ],
+    [
+      886,
+      "until strategy campaign",
+      65
+    ],
+    [
+      887,
+      "until strategy sequence",
+      65
+    ],
+    [
+      888,
+      "until strategy priority",
+      65
+    ],
+    [
+      889,
+      "until strategy resource",
+      65
+    ],
+    [
+      890,
+      "until campaign sequence",
+      65
+    ],
+    [
+      891,
+      "until campaign priority",
+      65
+    ],
+    [
+      892,
+      "until campaign resource",
+      65
+    ],
+    [
+      893,
+      "until campaign timing",
+      65
+    ],
+    [
+      894,
+      "until sequence priority",
+      65
+    ],
+    [
+      895,
+      "until sequence resource",
+      65
+    ],
+    [
+      896,
+      "until sequence timing",
+      65
+    ],
+    [
+      897,
+      "until sequence front",
+      65
+    ],
+    [
+      898,
+      "until priority resource",
+      65
+    ],
+    [
+      899,
+      "until priority timing",
+      65
+    ],
+    [
+      900,
+      "until priority front",
+      65
+    ],
+    [
+      901,
+      "until priority decisive",
+      64
+    ],
+    [
+      902,
+      "until resource timing",
+      64
+    ],
+    [
+      903,
+      "until resource front",
+      64
+    ],
+    [
+      904,
+      "until resource decisive",
+      64
+    ],
+    [
+      905,
+      "until resource retreat",
+      64
+    ],
+    [
+      906,
+      "until timing front",
+      64
+    ],
+    [
+      907,
+      "until timing decisive",
+      64
+    ],
+    [
+      908,
+      "until timing retreat",
+      64
+    ],
+    [
+      909,
+      "until timing hold",
+      64
+    ],
+    [
+      910,
+      "until front decisive",
+      64
+    ],
+    [
+      911,
+      "until front retreat",
+      64
+    ],
+    [
+      912,
+      "until front hold",
+      64
+    ],
+    [
+      913,
+      "until front advance",
+      64
+    ],
+    [
+      914,
+      "until decisive retreat",
+      64
+    ],
+    [
+      915,
+      "until decisive hold",
+      64
+    ],
+    [
+      916,
+      "until decisive advance",
+      64
+    ],
+    [
+      917,
+      "until decisive defer",
+      64
+    ],
+    [
+      918,
+      "until retreat hold",
+      64
+    ],
+    [
+      919,
+      "until retreat advance",
+      64
+    ],
+    [
+      920,
+      "until retreat defer",
+      64
+    ],
+    [
+      921,
+      "until retreat split",
+      64
+    ],
+    [
+      922,
+      "until hold advance",
+      64
+    ],
+    [
+      923,
+      "until hold defer",
+      64
+    ],
+    [
+      924,
+      "until hold split",
+      64
+    ],
+    [
+      925,
+      "until hold merge",
+      64
+    ],
+    [
+      926,
+      "until advance defer",
+      63
+    ],
+    [
+      927,
+      "until advance split",
+      63
+    ],
+    [
+      928,
+      "until advance merge",
+      63
+    ],
+    [
+      929,
+      "until advance tradeoff",
+      63
+    ],
+    [
+      930,
+      "until defer split",
+      63
+    ],
+    [
+      931,
+      "until defer merge",
+      63
+    ],
+    [
+      932,
+      "until defer tradeoff",
+      63
+    ],
+    [
+      933,
+      "until defer objective",
+      63
+    ],
+    [
+      934,
+      "until split merge",
+      63
+    ],
+    [
+      935,
+      "until split tradeoff",
+      63
+    ],
+    [
+      936,
+      "until split objective",
+      63
+    ],
+    [
+      937,
+      "until split mission",
+      63
+    ],
+    [
+      938,
+      "until merge tradeoff",
+      63
+    ],
+    [
+      939,
+      "until merge objective",
+      63
+    ],
+    [
+      940,
+      "until merge mission",
+      63
+    ],
+    [
+      941,
+      "until merge position",
+      63
+    ],
+    [
+      942,
+      "until tradeoff objective",
+      63
+    ],
+    [
+      943,
+      "until tradeoff mission",
+      63
+    ],
+    [
+      944,
+      "until tradeoff position",
+      63
+    ],
+    [
+      945,
+      "until tradeoff terrain",
+      63
+    ],
+    [
+      946,
+      "until objective mission",
+      63
+    ],
+    [
+      947,
+      "until objective position",
+      63
+    ],
+    [
+      948,
+      "until objective terrain",
+      63
+    ],
+    [
+      949,
+      "until objective initiative",
+      63
+    ],
+    [
+      950,
+      "until mission position",
+      63
+    ],
+    [
+      951,
+      "until mission terrain",
+      62
+    ],
+    [
+      952,
+      "until mission initiative",
+      62
+    ],
+    [
+      953,
+      "until mission commitment",
+      62
+    ],
+    [
+      954,
+      "until position terrain",
+      62
+    ],
+    [
+      955,
+      "until position initiative",
+      62
+    ],
+    [
+      956,
+      "until position commitment",
+      62
+    ],
+    [
+      957,
+      "until position scarce",
+      62
+    ],
+    [
+      958,
+      "until terrain initiative",
+      62
+    ],
+    [
+      959,
+      "until terrain commitment",
+      62
+    ],
+    [
+      960,
+      "until terrain scarce",
+      62
+    ],
+    [
+      961,
+      "until terrain drift",
+      62
+    ],
+    [
+      962,
+      "until initiative commitment",
+      62
+    ],
+    [
+      963,
+      "until initiative scarce",
+      62
+    ],
+    [
+      964,
+      "until initiative drift",
+      62
+    ],
+    [
+      965,
+      "until initiative condition",
+      62
+    ],
+    [
+      966,
+      "since strategy campaign",
+      62
+    ],
+    [
+      967,
+      "since strategy sequence",
+      62
+    ],
+    [
+      968,
+      "since strategy priority",
+      62
+    ],
+    [
+      969,
+      "since strategy resource",
+      62
+    ],
+    [
+      970,
+      "since campaign sequence",
+      62
+    ],
+    [
+      971,
+      "since campaign priority",
+      62
+    ],
+    [
+      972,
+      "since campaign resource",
+      62
+    ],
+    [
+      973,
+      "since campaign timing",
+      62
+    ],
+    [
+      974,
+      "since sequence priority",
+      62
+    ],
+    [
+      975,
+      "since sequence resource",
+      62
+    ],
+    [
+      976,
+      "since sequence timing",
+      61
+    ],
+    [
+      977,
+      "since sequence front",
+      61
+    ],
+    [
+      978,
+      "since priority resource",
+      61
+    ],
+    [
+      979,
+      "since priority timing",
+      61
+    ],
+    [
+      980,
+      "since priority front",
+      61
+    ],
+    [
+      981,
+      "since priority decisive",
+      61
+    ],
+    [
+      982,
+      "since resource timing",
+      61
+    ],
+    [
+      983,
+      "since resource front",
+      61
+    ],
+    [
+      984,
+      "since resource decisive",
+      61
+    ],
+    [
+      985,
+      "since resource retreat",
+      61
+    ],
+    [
+      986,
+      "since timing front",
+      61
+    ],
+    [
+      987,
+      "since timing decisive",
+      61
+    ],
+    [
+      988,
+      "since timing retreat",
+      61
+    ],
+    [
+      989,
+      "since timing hold",
+      61
+    ],
+    [
+      990,
+      "since front decisive",
+      61
+    ],
+    [
+      991,
+      "since front retreat",
+      61
+    ],
+    [
+      992,
+      "since front hold",
+      61
+    ],
+    [
+      993,
+      "since front advance",
+      61
+    ],
+    [
+      994,
+      "since decisive retreat",
+      61
+    ],
+    [
+      995,
+      "since decisive hold",
+      61
+    ],
+    [
+      996,
+      "since decisive advance",
+      61
+    ],
+    [
+      997,
+      "since decisive defer",
+      61
+    ],
+    [
+      998,
+      "since retreat hold",
+      61
+    ],
+    [
+      999,
+      "since retreat advance",
+      61
+    ],
+    [
+      1000,
+      "since retreat defer",
+      61
+    ],
+    [
+      1001,
+      "since retreat split",
+      60
+    ],
+    [
+      1002,
+      "since hold advance",
+      60
+    ],
+    [
+      1003,
+      "since hold defer",
+      60
+    ],
+    [
+      1004,
+      "since hold split",
+      60
+    ],
+    [
+      1005,
+      "since hold merge",
+      60
+    ],
+    [
+      1006,
+      "since advance defer",
+      60
+    ],
+    [
+      1007,
+      "since advance split",
+      60
+    ],
+    [
+      1008,
+      "since advance merge",
+      60
+    ],
+    [
+      1009,
+      "since advance tradeoff",
+      60
+    ],
+    [
+      1010,
+      "since defer split",
+      60
+    ],
+    [
+      1011,
+      "since defer merge",
+      60
+    ],
+    [
+      1012,
+      "since defer tradeoff",
+      60
+    ],
+    [
+      1013,
+      "since defer objective",
+      60
+    ],
+    [
+      1014,
+      "since split merge",
+      60
+    ],
+    [
+      1015,
+      "since split tradeoff",
+      60
+    ],
+    [
+      1016,
+      "since split objective",
+      60
+    ],
+    [
+      1017,
+      "since split mission",
+      60
+    ],
+    [
+      1018,
+      "since merge tradeoff",
+      60
+    ],
+    [
+      1019,
+      "since merge objective",
+      60
+    ],
+    [
+      1020,
+      "since merge mission",
+      60
+    ],
+    [
+      1021,
+      "since merge position",
+      60
+    ],
+    [
+      1022,
+      "since tradeoff objective",
+      60
+    ],
+    [
+      1023,
+      "since tradeoff mission",
+      60
+    ],
+    [
+      1024,
+      "since tradeoff position",
+      60
+    ],
+    [
+      1025,
+      "since tradeoff terrain",
+      60
+    ],
+    [
+      1026,
+      "since objective mission",
+      59
+    ],
+    [
+      1027,
+      "since objective position",
+      59
+    ],
+    [
+      1028,
+      "since objective terrain",
+      59
+    ],
+    [
+      1029,
+      "since objective initiative",
+      59
+    ],
+    [
+      1030,
+      "since mission position",
+      59
+    ],
+    [
+      1031,
+      "since mission terrain",
+      59
+    ],
+    [
+      1032,
+      "since mission initiative",
+      59
+    ],
+    [
+      1033,
+      "since mission commitment",
+      59
+    ],
+    [
+      1034,
+      "since position terrain",
+      59
+    ],
+    [
+      1035,
+      "since position initiative",
+      59
+    ],
+    [
+      1036,
+      "since position commitment",
+      59
+    ],
+    [
+      1037,
+      "since position scarce",
+      59
+    ],
+    [
+      1038,
+      "since terrain initiative",
+      59
+    ],
+    [
+      1039,
+      "since terrain commitment",
+      59
+    ],
+    [
+      1040,
+      "since terrain scarce",
+      59
+    ],
+    [
+      1041,
+      "since terrain drift",
+      59
+    ],
+    [
+      1042,
+      "since initiative commitment",
+      59
+    ],
+    [
+      1043,
+      "since initiative scarce",
+      59
+    ],
+    [
+      1044,
+      "since initiative drift",
+      59
+    ],
+    [
+      1045,
+      "since initiative condition",
+      59
+    ],
+    [
+      1046,
+      "strategy campaign sequence",
+      59
+    ],
+    [
+      1047,
+      "strategy campaign priority",
+      59
+    ],
+    [
+      1048,
+      "strategy campaign resource",
+      59
+    ],
+    [
+      1049,
+      "strategy sequence priority",
+      59
+    ],
+    [
+      1050,
+      "strategy sequence resource",
+      59
+    ],
+    [
+      1051,
+      "strategy priority sequence",
+      58
+    ],
+    [
+      1052,
+      "strategy priority resource",
+      58
+    ],
+    [
+      1053,
+      "strategy resource sequence",
+      58
+    ],
+    [
+      1054,
+      "strategy resource priority",
+      58
+    ],
+    [
+      1055,
+      "strategy timing sequence",
+      58
+    ],
+    [
+      1056,
+      "strategy timing priority",
+      58
+    ],
+    [
+      1057,
+      "strategy timing resource",
+      58
+    ],
+    [
+      1058,
+      "campaign sequence priority",
+      58
+    ],
+    [
+      1059,
+      "campaign sequence resource",
+      58
+    ],
+    [
+      1060,
+      "campaign sequence timing",
+      58
+    ],
+    [
+      1061,
+      "campaign priority resource",
+      58
+    ],
+    [
+      1062,
+      "campaign priority timing",
+      58
+    ],
+    [
+      1063,
+      "campaign resource priority",
+      58
+    ],
+    [
+      1064,
+      "campaign resource timing",
+      58
+    ],
+    [
+      1065,
+      "campaign timing priority",
+      58
+    ],
+    [
+      1066,
+      "campaign timing resource",
+      58
+    ],
+    [
+      1067,
+      "campaign front priority",
+      58
+    ],
+    [
+      1068,
+      "campaign front resource",
+      58
+    ],
+    [
+      1069,
+      "campaign front timing",
+      58
+    ],
+    [
+      1070,
+      "sequence priority resource",
+      58
+    ],
+    [
+      1071,
+      "sequence priority timing",
+      58
+    ],
+    [
+      1072,
+      "sequence priority front",
+      58
+    ],
+    [
+      1073,
+      "sequence resource timing",
+      58
+    ],
+    [
+      1074,
+      "sequence resource front",
+      58
+    ],
+    [
+      1075,
+      "sequence timing resource",
+      58
+    ],
+    [
+      1076,
+      "sequence timing front",
+      57
+    ],
+    [
+      1077,
+      "sequence front resource",
+      57
+    ],
+    [
+      1078,
+      "sequence front timing",
+      57
+    ],
+    [
+      1079,
+      "sequence decisive resource",
+      57
+    ],
+    [
+      1080,
+      "sequence decisive timing",
+      57
+    ],
+    [
+      1081,
+      "sequence decisive front",
+      57
+    ],
+    [
+      1082,
+      "priority resource timing",
+      57
+    ],
+    [
+      1083,
+      "priority resource front",
+      57
+    ],
+    [
+      1084,
+      "priority resource decisive",
+      57
+    ],
+    [
+      1085,
+      "priority timing front",
+      57
+    ],
+    [
+      1086,
+      "priority timing decisive",
+      57
+    ],
+    [
+      1087,
+      "priority front timing",
+      57
+    ],
+    [
+      1088,
+      "priority front decisive",
+      57
+    ],
+    [
+      1089,
+      "priority decisive timing",
+      57
+    ],
+    [
+      1090,
+      "priority decisive front",
+      57
+    ],
+    [
+      1091,
+      "priority retreat timing",
+      57
+    ],
+    [
+      1092,
+      "priority retreat front",
+      57
+    ],
+    [
+      1093,
+      "priority retreat decisive",
+      57
+    ],
+    [
+      1094,
+      "resource timing front",
+      57
+    ],
+    [
+      1095,
+      "resource timing decisive",
+      57
+    ],
+    [
+      1096,
+      "resource timing retreat",
+      57
+    ],
+    [
+      1097,
+      "resource front decisive",
+      57
+    ],
+    [
+      1098,
+      "resource front retreat",
+      57
+    ],
+    [
+      1099,
+      "resource decisive front",
+      57
+    ],
+    [
+      1100,
+      "resource decisive retreat",
+      57
+    ],
+    [
+      1101,
+      "resource retreat front",
+      56
+    ],
+    [
+      1102,
+      "resource retreat decisive",
+      56
+    ],
+    [
+      1103,
+      "resource hold front",
+      56
+    ],
+    [
+      1104,
+      "resource hold decisive",
+      56
+    ],
+    [
+      1105,
+      "resource hold retreat",
+      56
+    ],
+    [
+      1106,
+      "timing front decisive",
+      56
+    ],
+    [
+      1107,
+      "timing front retreat",
+      56
+    ],
+    [
+      1108,
+      "timing front hold",
+      56
+    ],
+    [
+      1109,
+      "timing decisive retreat",
+      56
+    ],
+    [
+      1110,
+      "timing decisive hold",
+      56
+    ],
+    [
+      1111,
+      "timing retreat decisive",
+      56
+    ],
+    [
+      1112,
+      "timing retreat hold",
+      56
+    ],
+    [
+      1113,
+      "timing hold decisive",
+      56
+    ],
+    [
+      1114,
+      "timing hold retreat",
+      56
+    ],
+    [
+      1115,
+      "timing advance decisive",
+      56
+    ],
+    [
+      1116,
+      "timing advance retreat",
+      56
+    ],
+    [
+      1117,
+      "timing advance hold",
+      56
+    ],
+    [
+      1118,
+      "front decisive retreat",
+      56
+    ],
+    [
+      1119,
+      "front decisive hold",
+      56
+    ],
+    [
+      1120,
+      "front decisive advance",
+      56
+    ],
+    [
+      1121,
+      "front retreat hold",
+      56
+    ],
+    [
+      1122,
+      "front retreat advance",
+      56
+    ],
+    [
+      1123,
+      "front hold retreat",
+      56
+    ],
+    [
+      1124,
+      "front hold advance",
+      56
+    ],
+    [
+      1125,
+      "front advance retreat",
+      56
+    ],
+    [
+      1126,
+      "front advance hold",
+      55
+    ],
+    [
+      1127,
+      "front defer retreat",
+      55
+    ],
+    [
+      1128,
+      "front defer hold",
+      55
+    ],
+    [
+      1129,
+      "front defer advance",
+      55
+    ],
+    [
+      1130,
+      "decisive retreat hold",
+      55
+    ],
+    [
+      1131,
+      "decisive retreat advance",
+      55
+    ],
+    [
+      1132,
+      "decisive retreat defer",
+      55
+    ],
+    [
+      1133,
+      "decisive hold advance",
+      55
+    ],
+    [
+      1134,
+      "decisive hold defer",
+      55
+    ],
+    [
+      1135,
+      "decisive advance hold",
+      55
+    ],
+    [
+      1136,
+      "decisive advance defer",
+      55
+    ],
+    [
+      1137,
+      "decisive defer hold",
+      55
+    ],
+    [
+      1138,
+      "decisive defer advance",
+      55
+    ],
+    [
+      1139,
+      "decisive split hold",
+      55
+    ],
+    [
+      1140,
+      "decisive split advance",
+      55
+    ],
+    [
+      1141,
+      "decisive split defer",
+      55
+    ],
+    [
+      1142,
+      "retreat hold advance",
+      55
+    ],
+    [
+      1143,
+      "retreat hold defer",
+      55
+    ],
+    [
+      1144,
+      "retreat hold split",
+      55
+    ],
+    [
+      1145,
+      "retreat advance defer",
+      55
+    ],
+    [
+      1146,
+      "retreat advance split",
+      55
+    ],
+    [
+      1147,
+      "retreat defer advance",
+      55
+    ],
+    [
+      1148,
+      "retreat defer split",
+      55
+    ],
+    [
+      1149,
+      "retreat split advance",
+      55
+    ],
+    [
+      1150,
+      "retreat split defer",
+      55
+    ],
+    [
+      1151,
+      "retreat merge advance",
+      54
+    ],
+    [
+      1152,
+      "retreat merge defer",
+      54
+    ],
+    [
+      1153,
+      "retreat merge split",
+      54
+    ],
+    [
+      1154,
+      "hold advance defer",
+      54
+    ],
+    [
+      1155,
+      "hold advance split",
+      54
+    ],
+    [
+      1156,
+      "hold advance merge",
+      54
+    ],
+    [
+      1157,
+      "hold defer split",
+      54
+    ],
+    [
+      1158,
+      "hold defer merge",
+      54
+    ],
+    [
+      1159,
+      "hold split defer",
+      54
+    ],
+    [
+      1160,
+      "hold split merge",
+      54
+    ],
+    [
+      1161,
+      "hold merge defer",
+      54
+    ],
+    [
+      1162,
+      "hold merge split",
+      54
+    ],
+    [
+      1163,
+      "hold tradeoff defer",
+      54
+    ],
+    [
+      1164,
+      "hold tradeoff split",
+      54
+    ],
+    [
+      1165,
+      "hold tradeoff merge",
+      54
+    ],
+    [
+      1166,
+      "advance defer split",
+      54
+    ],
+    [
+      1167,
+      "advance defer merge",
+      54
+    ],
+    [
+      1168,
+      "advance defer tradeoff",
+      54
+    ],
+    [
+      1169,
+      "advance split merge",
+      54
+    ],
+    [
+      1170,
+      "advance split tradeoff",
+      54
+    ],
+    [
+      1171,
+      "advance merge split",
+      54
+    ],
+    [
+      1172,
+      "advance merge tradeoff",
+      54
+    ],
+    [
+      1173,
+      "advance tradeoff split",
+      54
+    ],
+    [
+      1174,
+      "advance tradeoff merge",
+      54
+    ],
+    [
+      1175,
+      "advance objective split",
+      54
+    ],
+    [
+      1176,
+      "advance objective merge",
+      53
+    ],
+    [
+      1177,
+      "advance objective tradeoff",
+      53
+    ],
+    [
+      1178,
+      "defer split merge",
+      53
+    ],
+    [
+      1179,
+      "defer split tradeoff",
+      53
+    ],
+    [
+      1180,
+      "defer split objective",
+      53
+    ],
+    [
+      1181,
+      "defer merge tradeoff",
+      53
+    ],
+    [
+      1182,
+      "defer merge objective",
+      53
+    ],
+    [
+      1183,
+      "defer tradeoff merge",
+      53
+    ],
+    [
+      1184,
+      "defer tradeoff objective",
+      53
+    ],
+    [
+      1185,
+      "defer objective merge",
+      53
+    ],
+    [
+      1186,
+      "defer objective tradeoff",
+      53
+    ],
+    [
+      1187,
+      "defer mission merge",
+      53
+    ],
+    [
+      1188,
+      "defer mission tradeoff",
+      53
+    ],
+    [
+      1189,
+      "defer mission objective",
+      53
+    ],
+    [
+      1190,
+      "split merge tradeoff",
+      53
+    ],
+    [
+      1191,
+      "split merge objective",
+      53
+    ],
+    [
+      1192,
+      "split merge mission",
+      53
+    ],
+    [
+      1193,
+      "split tradeoff objective",
+      53
+    ],
+    [
+      1194,
+      "split tradeoff mission",
+      53
+    ],
+    [
+      1195,
+      "split objective tradeoff",
+      53
+    ],
+    [
+      1196,
+      "split objective mission",
+      53
+    ],
+    [
+      1197,
+      "split mission tradeoff",
+      53
+    ],
+    [
+      1198,
+      "split mission objective",
+      53
+    ],
+    [
+      1199,
+      "split position tradeoff",
+      53
+    ],
+    [
+      1200,
+      "split position objective",
+      53
+    ],
+    [
+      1201,
+      "split position mission",
+      52
+    ],
+    [
+      1202,
+      "merge tradeoff objective",
+      52
+    ],
+    [
+      1203,
+      "merge tradeoff mission",
+      52
+    ],
+    [
+      1204,
+      "merge tradeoff position",
+      52
+    ],
+    [
+      1205,
+      "merge objective mission",
+      52
+    ],
+    [
+      1206,
+      "merge objective position",
+      52
+    ],
+    [
+      1207,
+      "merge mission objective",
+      52
+    ],
+    [
+      1208,
+      "merge mission position",
+      52
+    ],
+    [
+      1209,
+      "merge position objective",
+      52
+    ],
+    [
+      1210,
+      "merge position mission",
+      52
+    ],
+    [
+      1211,
+      "merge terrain objective",
+      52
+    ],
+    [
+      1212,
+      "merge terrain mission",
+      52
+    ],
+    [
+      1213,
+      "merge terrain position",
+      52
+    ],
+    [
+      1214,
+      "tradeoff objective mission",
+      52
+    ],
+    [
+      1215,
+      "tradeoff objective position",
+      52
+    ],
+    [
+      1216,
+      "tradeoff objective terrain",
+      52
+    ],
+    [
+      1217,
+      "tradeoff mission position",
+      52
+    ],
+    [
+      1218,
+      "tradeoff mission terrain",
+      52
+    ],
+    [
+      1219,
+      "tradeoff position mission",
+      52
+    ],
+    [
+      1220,
+      "tradeoff position terrain",
+      52
+    ],
+    [
+      1221,
+      "tradeoff terrain mission",
+      52
+    ],
+    [
+      1222,
+      "tradeoff terrain position",
+      52
+    ],
+    [
+      1223,
+      "tradeoff initiative mission",
+      52
+    ],
+    [
+      1224,
+      "tradeoff initiative position",
+      52
+    ],
+    [
+      1225,
+      "tradeoff initiative terrain",
+      52
+    ],
+    [
+      1226,
+      "objective mission position",
+      51
+    ],
+    [
+      1227,
+      "objective mission terrain",
+      51
+    ],
+    [
+      1228,
+      "objective mission initiative",
+      51
+    ],
+    [
+      1229,
+      "objective position terrain",
+      51
+    ],
+    [
+      1230,
+      "objective position initiative",
+      51
+    ],
+    [
+      1231,
+      "objective terrain position",
+      51
+    ],
+    [
+      1232,
+      "objective terrain initiative",
+      51
+    ],
+    [
+      1233,
+      "objective initiative position",
+      51
+    ],
+    [
+      1234,
+      "objective initiative terrain",
+      51
+    ],
+    [
+      1235,
+      "objective commitment position",
+      51
+    ],
+    [
+      1236,
+      "objective commitment terrain",
+      51
+    ],
+    [
+      1237,
+      "objective commitment initiative",
+      51
+    ],
+    [
+      1238,
+      "mission position terrain",
+      51
+    ],
+    [
+      1239,
+      "mission position initiative",
+      51
+    ],
+    [
+      1240,
+      "mission position commitment",
+      51
+    ],
+    [
+      1241,
+      "mission terrain initiative",
+      51
+    ],
+    [
+      1242,
+      "mission terrain commitment",
+      51
+    ],
+    [
+      1243,
+      "mission initiative terrain",
+      51
+    ],
+    [
+      1244,
+      "mission initiative commitment",
+      51
+    ],
+    [
+      1245,
+      "mission commitment terrain",
+      51
+    ],
+    [
+      1246,
+      "mission commitment initiative",
+      51
+    ],
+    [
+      1247,
+      "mission scarce terrain",
+      51
+    ],
+    [
+      1248,
+      "mission scarce initiative",
+      51
+    ],
+    [
+      1249,
+      "mission scarce commitment",
+      51
+    ],
+    [
+      1250,
+      "position terrain initiative",
+      51
+    ],
+    [
+      1251,
+      "position terrain commitment",
+      50
+    ],
+    [
+      1252,
+      "position terrain scarce",
+      50
+    ],
+    [
+      1253,
+      "position initiative commitment",
+      50
+    ],
+    [
+      1254,
+      "position initiative scarce",
+      50
+    ],
+    [
+      1255,
+      "position commitment initiative",
+      50
+    ],
+    [
+      1256,
+      "position commitment scarce",
+      50
+    ],
+    [
+      1257,
+      "position scarce initiative",
+      50
+    ],
+    [
+      1258,
+      "position scarce commitment",
+      50
+    ],
+    [
+      1259,
+      "position drift initiative",
+      50
+    ],
+    [
+      1260,
+      "position drift commitment",
+      50
+    ],
+    [
+      1261,
+      "position drift scarce",
+      50
+    ],
+    [
+      1262,
+      "terrain initiative commitment",
+      50
+    ],
+    [
+      1263,
+      "terrain initiative scarce",
+      50
+    ],
+    [
+      1264,
+      "terrain initiative drift",
+      50
+    ],
+    [
+      1265,
+      "terrain commitment scarce",
+      50
+    ],
+    [
+      1266,
+      "terrain commitment drift",
+      50
+    ],
+    [
+      1267,
+      "terrain scarce commitment",
+      50
+    ],
+    [
+      1268,
+      "terrain scarce drift",
+      50
+    ],
+    [
+      1269,
+      "terrain drift commitment",
+      50
+    ],
+    [
+      1270,
+      "terrain drift scarce",
+      50
+    ],
+    [
+      1271,
+      "terrain condition commitment",
+      50
+    ],
+    [
+      1272,
+      "terrain condition scarce",
+      50
+    ],
+    [
+      1273,
+      "terrain condition drift",
+      50
+    ],
+    [
+      1274,
+      "initiative commitment scarce",
+      50
+    ],
+    [
+      1275,
+      "initiative commitment drift",
+      50
+    ],
+    [
+      1276,
+      "initiative commitment condition",
+      49
+    ],
+    [
+      1277,
+      "initiative scarce drift",
+      49
+    ],
+    [
+      1278,
+      "initiative scarce condition",
+      49
+    ],
+    [
+      1279,
+      "initiative drift scarce",
+      49
+    ],
+    [
+      1280,
+      "initiative drift condition",
+      49
+    ],
+    [
+      1281,
+      "initiative condition scarce",
+      49
+    ],
+    [
+      1282,
+      "initiative condition drift",
+      49
+    ],
+    [
+      1283,
+      "initiative return scarce",
+      49
+    ],
+    [
+      1284,
+      "initiative return drift",
+      49
+    ],
+    [
+      1285,
+      "initiative return condition",
+      49
+    ],
+    [
+      1286,
+      "commitment scarce drift",
+      49
+    ],
+    [
+      1287,
+      "commitment scarce condition",
+      49
+    ],
+    [
+      1288,
+      "commitment scarce return",
+      49
+    ],
+    [
+      1289,
+      "commitment drift condition",
+      49
+    ],
+    [
+      1290,
+      "commitment drift return",
+      49
+    ],
+    [
+      1291,
+      "commitment condition drift",
+      49
+    ],
+    [
+      1292,
+      "commitment condition return",
+      49
+    ],
+    [
+      1293,
+      "commitment return drift",
+      49
+    ],
+    [
+      1294,
+      "commitment return condition",
+      49
+    ],
+    [
+      1295,
+      "commitment reserve drift",
+      49
+    ],
+    [
+      1296,
+      "commitment reserve condition",
+      49
+    ],
+    [
+      1297,
+      "commitment reserve return",
+      49
+    ],
+    [
+      1298,
+      "scarce drift condition",
+      49
+    ],
+    [
+      1299,
+      "scarce drift return",
+      49
+    ],
+    [
+      1300,
+      "scarce drift reserve",
+      49
+    ],
+    [
+      1301,
+      "scarce condition return",
+      48
+    ],
+    [
+      1302,
+      "scarce condition reserve",
+      48
+    ],
+    [
+      1303,
+      "scarce return condition",
+      48
+    ],
+    [
+      1304,
+      "scarce return reserve",
+      48
+    ],
+    [
+      1305,
+      "scarce reserve condition",
+      48
+    ],
+    [
+      1306,
+      "scarce reserve return",
+      48
+    ],
+    [
+      1307,
+      "scarce line condition",
+      48
+    ],
+    [
+      1308,
+      "scarce line return",
+      48
+    ],
+    [
+      1309,
+      "scarce line reserve",
+      48
+    ],
+    [
+      1310,
+      "drift condition return",
+      48
+    ],
+    [
+      1311,
+      "drift condition reserve",
+      48
+    ],
+    [
+      1312,
+      "drift condition line",
+      48
+    ],
+    [
+      1313,
+      "drift return reserve",
+      48
+    ],
+    [
+      1314,
+      "drift return line",
+      48
+    ],
+    [
+      1315,
+      "drift reserve return",
+      48
+    ],
+    [
+      1316,
+      "drift reserve line",
+      48
+    ],
+    [
+      1317,
+      "drift line return",
+      48
+    ],
+    [
+      1318,
+      "drift line reserve",
+      48
+    ],
+    [
+      1319,
+      "drift effort return",
+      48
+    ],
+    [
+      1320,
+      "drift effort reserve",
+      48
+    ],
+    [
+      1321,
+      "drift effort line",
+      48
+    ],
+    [
+      1322,
+      "condition return reserve",
+      48
+    ],
+    [
+      1323,
+      "condition return line",
+      48
+    ],
+    [
+      1324,
+      "condition return effort",
+      48
+    ],
+    [
+      1325,
+      "condition reserve line",
+      48
+    ],
+    [
+      1326,
+      "condition reserve effort",
+      47
+    ],
+    [
+      1327,
+      "condition line reserve",
+      47
+    ],
+    [
+      1328,
+      "condition line effort",
+      47
+    ],
+    [
+      1329,
+      "condition effort reserve",
+      47
+    ],
+    [
+      1330,
+      "condition effort line",
+      47
+    ],
+    [
+      1331,
+      "condition course reserve",
+      47
+    ],
+    [
+      1332,
+      "condition course line",
+      47
+    ],
+    [
+      1333,
+      "condition course effort",
+      47
+    ],
+    [
+      1334,
+      "return reserve line",
+      47
+    ],
+    [
+      1335,
+      "return reserve effort",
+      47
+    ],
+    [
+      1336,
+      "return reserve course",
+      47
+    ],
+    [
+      1337,
+      "return line effort",
+      47
+    ],
+    [
+      1338,
+      "return line course",
+      47
+    ],
+    [
+      1339,
+      "return effort line",
+      47
+    ],
+    [
+      1340,
+      "return effort course",
+      47
+    ],
+    [
+      1341,
+      "return course line",
+      47
+    ],
+    [
+      1342,
+      "return course effort",
+      47
+    ],
+    [
+      1343,
+      "return action line",
+      47
+    ],
+    [
+      1344,
+      "return action effort",
+      47
+    ],
+    [
+      1345,
+      "return action course",
+      47
+    ],
+    [
+      1346,
+      "mini-MMM shapes voice",
+      100
+    ],
+    [
+      1347,
+      "mini MMM voice shape",
+      100
+    ],
+    [
+      1348,
+      "voice shaped by nouns",
+      100
+    ],
+    [
+      1349,
+      "aligned nouns shape voice",
+      100
+    ],
+    [
+      1350,
+      "correlated thinkers shape voice",
+      100
+    ],
+    [
+      1351,
+      "observe orient decide",
+      96
+    ],
+    [
+      1352,
+      "campaign tempo reserve",
+      96
+    ],
+    [
+      1353,
+      "terrain disposition movement",
+      96
+    ]
+  ],
+  "v3_4_salience_expansion": {
+    "source": "deep-research-report.md",
+    "status": "positive salience only; no diagnostic/provenance boot",
+    "route": "STRATEGY",
+    "size": "full"
+  }
+}

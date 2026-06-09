@@ -1,0 +1,386 @@
+---
+title: Mmm Lane Alternative Full V2 7
+created: 2026-04-28
+updated: 2026-04-28
+type: concept
+tags: [wizard, mmm, packet, receipt]
+framing: current
+source_path: mini_mmms/full/lanes/md/MMM_LANE_ALTERNATIVE_FULL_v2_7.md
+---
+
+# MMM_LANE_ALTERNATIVE_FULL_v2_7
+
+## aligned nouns and phrases
+
+- second path
+- different assumption
+- language body
+- better if
+- worse if
+- alternative
+- second
+- route
+- fork
+- tradeoff
+- different
+- path
+- other
+- compare
+- fallback
+- variant
+- side
+- parallel
+- case
+- difference
+- alternate
+- viable
+- assumption
+- divergent
+- backup
+- outside
+- only
+- then
+- bounded
+- finite
+- open
+- distinct
+- concrete
+- observed
+- missing
+- small
+- honest
+- first
+- prior
+- separate
+- together
+- compared
+- measured
+- used
+- fit
+- direct
+- branch
+- packet
+- artifact
+- receipt
+- trace
+- result
+- support
+- evidence
+- scope
+- boundary
+- gate
+- guard
+- rung
+- status
+- candidate
+- survivor
+- witness
+- probe
+- constraint
+- name
+- use
+- role
+- practice
+- experience
+- observation
+- perception
+- conjunction
+- resemblance
+- relation
+- probability
+- particular
+- predicate
+- class
+- model
+- solver
+- satisfiable
+- unsatisfiable
+- countermodel
+- counterexample
+- equivalence
+- indistinguishable
+- readout
+- measure
+- measurement
+- operation
+- procedure
+- instrument
+- experiment
+- check
+- verify
+- sample
+- lane
+- voice
+- lens
+- council
+- audit
+- finding
+- blocker
+- deferred
+- blocked
+- spawned
+- diagnostic
+- untried
+- preload
+- language
+- body
+- during
+- since
+- toward
+- relative
+- according
+- locally
+- jointly
+- separately
+- rather
+- instead
+- still
+- often
+- sometimes
+- usually
+
+## correlated couplings
+
+- alternative evidence
+- alternative support
+- alternative packet
+- alternative receipt
+- alternative trace
+- alternative result
+- alternative scope
+- alternative boundary
+- alternative witness
+- alternative probe
+- alternative constraint
+- compare alternative
+- measure alternative
+- hold alternative
+- preserve alternative
+- split alternative
+- narrow alternative
+- fork evidence
+- fork support
+- fork packet
+- fork receipt
+- fork trace
+- fork result
+- fork scope
+- fork boundary
+- fork witness
+- fork probe
+- fork constraint
+- compare fork
+- measure fork
+- hold fork
+- preserve fork
+- split fork
+- narrow fork
+- viable evidence
+- viable support
+- viable packet
+- viable receipt
+- viable trace
+- viable result
+- viable scope
+- viable boundary
+- viable witness
+- viable probe
+- viable constraint
+- compare viable
+- measure viable
+- hold viable
+- preserve viable
+- split viable
+- narrow viable
+- tradeoff evidence
+- tradeoff support
+- tradeoff packet
+- tradeoff receipt
+- tradeoff trace
+- tradeoff result
+- tradeoff scope
+- tradeoff boundary
+- tradeoff witness
+- tradeoff probe
+- tradeoff constraint
+- compare tradeoff
+- measure tradeoff
+- hold tradeoff
+- preserve tradeoff
+- split tradeoff
+- narrow tradeoff
+- different evidence
+- different support
+- different packet
+- different receipt
+- different trace
+- different result
+- different scope
+- different boundary
+- different witness
+- different probe
+- different constraint
+- compare different
+- measure different
+- hold different
+- preserve different
+- split different
+- narrow different
+- route evidence
+- route support
+- route packet
+- route receipt
+- route trace
+- route result
+- route scope
+- route boundary
+- route witness
+- route probe
+- route constraint
+- compare route
+- measure route
+- hold route
+- preserve route
+- split route
+- narrow route
+- compare evidence
+- compare support
+- compare packet
+- compare receipt
+- compare trace
+- compare result
+- compare scope
+- compare boundary
+- compare witness
+- compare probe
+- compare constraint
+- measure compare
+- hold compare
+- preserve compare
+- split compare
+- narrow compare
+- assumption evidence
+- assumption support
+- assumption packet
+- assumption receipt
+- assumption trace
+- assumption result
+- assumption scope
+- assumption boundary
+- assumption witness
+- assumption probe
+- assumption constraint
+- compare assumption
+- measure assumption
+- hold assumption
+- preserve assumption
+- split assumption
+- narrow assumption
+- second evidence
+- second support
+- second packet
+- second receipt
+- second trace
+- second result
+- second scope
+- second boundary
+- second witness
+- second probe
+- second constraint
+- compare second
+- measure second
+- hold second
+- preserve second
+- split second
+- narrow second
+- path evidence
+- path support
+- path packet
+- path receipt
+- path trace
+- path result
+- path scope
+- path boundary
+
+## three-part cues
+
+- during alternate different assumption
+- during second path better if
+- during second path worse if
+- during second path different assumption
+- during second path viable
+- during better if different assumption
+- compare alternative receipt
+- measure alternative receipt
+- hold alternative receipt
+- preserve alternative receipt
+- compare fork receipt
+- measure fork receipt
+- hold fork receipt
+- preserve fork receipt
+- compare viable receipt
+- measure viable receipt
+- hold viable receipt
+- preserve viable receipt
+- compare tradeoff receipt
+- measure tradeoff receipt
+- hold tradeoff receipt
+- preserve tradeoff receipt
+- during alternative second
+- during alternative route
+- during alternative fork
+- during alternative tradeoff
+- during second route
+- during second fork
+- during second tradeoff
+- during second different
+- during route fork
+- during route tradeoff
+- during route different
+- during fork tradeoff
+- during fork different
+- during fork other
+- during tradeoff different
+- during tradeoff other
+- during tradeoff option
+- during different other
+- during different option
+- during different compare
+- during path other
+- during path option
+- during path compare
+- during path fallback
+- during other option
+- during other compare
+- during other fallback
+- during other variant
+- during option compare
+- during option fallback
+- during option variant
+- during option side
+- during compare fallback
+- during compare variant
+- during compare side
+- during compare parallel
+- during fallback variant
+- during fallback side
+- during fallback parallel
+- during variant side
+- during variant parallel
+- during variant case
+- during side parallel
+- during side case
+- during side difference
+- during parallel case
+- during parallel difference
+- during parallel alternate
+- during case difference
+- during case alternate
+- during case better if
+- during difference alternate
+- during difference better if
+- during difference worse if
+- during alternate better if
+- during alternate worse if
+- during better if viable
+- during better if assumption

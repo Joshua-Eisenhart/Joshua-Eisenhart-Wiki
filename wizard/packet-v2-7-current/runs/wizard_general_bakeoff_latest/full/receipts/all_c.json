@@ -1,0 +1,12 @@
+{
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate",
+  "checked": "loaded mini_mmms/full/compositions/md/MMM_LANE_ALL_C_FULL_v2_7.md",
+  "concluded": "All-C compilation: voice and lane tuning pass for Hume, Zhuangzi, Popper, Feynman, Orwell, and Pushback.",
+  "evidence": "mini_mmms/full/compositions/md/MMM_LANE_ALL_C_FULL_v2_7.md terms: done condition, plain wording, stale surface, trust boundary, evidence missing, audit overclaim, closeout, hygiene",
+  "generated_at": "2026-04-28T08:03:25.064055+00:00",
+  "lane": "All-C",
+  "open": "live proof pending",
+  "output_excerpt": "Task: Compare Wizard General sizes and choose the best local runtime surface.\nWizard General size: full\nWave 7: Follow-up Make Wave\nAll-C compilation: voice and lane tuning pass for Hume, Zhuangzi, Popper, Feynman, Orwell, and Pushback.\nLoaded language body terms: done condition, plain wording, stale surface, trust boundary, evidence missing, audit overclaim, closeout, hygiene",
+  "output_sha256": "600ef4848f27408a8ca23e604849f0d693e18dedce4f2a315ff7305f5f209b24",
+  "schema_version": "wizard_behavior_harness.v1"
+}

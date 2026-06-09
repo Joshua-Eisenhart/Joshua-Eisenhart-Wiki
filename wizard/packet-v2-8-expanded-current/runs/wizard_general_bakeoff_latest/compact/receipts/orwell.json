@@ -1,0 +1,12 @@
+{
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/mmm_wizard_complete_system_packet_v2_8_expanded_candidate",
+  "checked": "loaded mini_mmms/compact/voices/md/MMM_VOICE_ORWELL_COMPACT_v2_8.md",
+  "concluded": "Plain wording rule: metadata belongs in JSON; boot-visible Markdown should carry language, not labels.",
+  "evidence": "mini_mmms/compact/voices/md/MMM_VOICE_ORWELL_COMPACT_v2_8.md terms: mini-MMM :: 100, mini MMM :: 100, voice shape :: 100, voice shaping :: 100, shape voice :: 100, shaped voice :: 100, voice contour :: 100, voice signature :: 100",
+  "generated_at": "2026-04-28T22:36:04.182895+00:00",
+  "lane": "Orwell",
+  "open": "live proof pending",
+  "output_excerpt": "Task: Compare Wizard General sizes and choose the best local runtime surface.\nWizard General size: compact\nWave 1: Voice Wave\nPlain wording rule: metadata belongs in JSON; boot-visible Markdown should carry language, not labels.\nLoaded language body terms: mini-MMM :: 100, mini MMM :: 100, voice shape :: 100, voice shaping :: 100, shape voice :: 100, shaped voice :: 100, voice contour :: 100, voice signature :: 100",
+  "output_sha256": "a1a859add48e63e4c8e7f0ef73c744ce2b1e36c1d3aa68d797a8c5c311a65b5c",
+  "schema_version": "wizard_behavior_harness.v1"
+}

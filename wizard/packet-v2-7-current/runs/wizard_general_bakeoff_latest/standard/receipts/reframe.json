@@ -1,0 +1,12 @@
+{
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate",
+  "checked": "loaded mini_mmms/standard/lanes/md/MMM_LANE_REFRAME_STANDARD_v2_7.md",
+  "concluded": "Frame shift: the Wizard is a runnable receipt system, not only a folder of rule documents.",
+  "evidence": "mini_mmms/standard/lanes/md/MMM_LANE_REFRAME_STANDARD_v2_7.md terms: different problem, false binary, hidden premise, smaller question, wrong question, angle, assumption, boundary",
+  "generated_at": "2026-04-28T08:03:25.030686+00:00",
+  "lane": "Reframe",
+  "open": "live proof pending",
+  "output_excerpt": "Task: Compare Wizard General sizes and choose the best local runtime surface.\nWizard General size: standard\nWave 8: Follow-up Run/Scout Wave\nFrame shift: the Wizard is a runnable receipt system, not only a folder of rule documents.\nLoaded language body terms: different problem, false binary, hidden premise, smaller question, wrong question, angle, assumption, boundary",
+  "output_sha256": "a8686d3820a263b1440f8cf0e73171e22b21101cf274740a9fd28313a354bc34",
+  "schema_version": "wizard_behavior_harness.v1"
+}

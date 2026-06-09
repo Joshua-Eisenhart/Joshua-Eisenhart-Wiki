@@ -1,0 +1,12 @@
+{
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/mmm_wizard_complete_system_packet_v2_8_expanded_candidate",
+  "checked": "loaded mini_mmms/standard/lanes/md/MMM_LANE_WILDCARD_STANDARD_v2_8.md",
+  "concluded": "Off-axis probe: add a deliberately bad unlisted-material task in a future run to confirm refusal behavior.",
+  "evidence": "mini_mmms/standard/lanes/md/MMM_LANE_WILDCARD_STANDARD_v2_8.md terms: actual :: 100, angle :: 100, anomaly :: 100, apart :: 100, asymmetric :: 100, bet :: 100, blocker :: 100, bounded :: 100",
+  "generated_at": "2026-04-28T22:36:04.218294+00:00",
+  "lane": "Wildcard",
+  "open": "live proof pending",
+  "output_excerpt": "Task: Compare Wizard General sizes and choose the best local runtime surface.\nWizard General size: standard\nWave 8: Follow-up Run/Scout Wave\nOff-axis probe: add a deliberately bad unlisted-material task in a future run to confirm refusal behavior.\nLoaded language body terms: actual :: 100, angle :: 100, anomaly :: 100, apart :: 100, asymmetric :: 100, bet :: 100, blocker :: 100, bounded :: 100",
+  "output_sha256": "2dad8a0a498319d1edf640075f1d69ff7a38d3ee8a5af589a810c678c8c64a42",
+  "schema_version": "wizard_behavior_harness.v1"
+}

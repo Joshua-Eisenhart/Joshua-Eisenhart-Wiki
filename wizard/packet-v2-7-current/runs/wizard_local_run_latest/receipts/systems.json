@@ -1,0 +1,12 @@
+{
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate",
+  "checked": "loaded mini_mmms/full/voices/md/MMM_VOICE_SYSTEMS_FULL_v2_7.md",
+  "concluded": "Loop: refine language bodies, run the Wizard, audit receipts, package, then feed failures back into pruning.",
+  "evidence": "mini_mmms/full/voices/md/MMM_VOICE_SYSTEMS_FULL_v2_7.md terms: leverage point, feedback loop, information flow, system structure, self organization, mental model, stocks and flows, reinforcing loop",
+  "generated_at": "2026-04-28T08:03:24.959556+00:00",
+  "lane": "Systems",
+  "open": "live proof pending",
+  "output_excerpt": "Task: Improve and locally run the repaired MMM Wizard packet without live wiring.\nWizard General size: full\nWave 1: Voice Wave\nLoop: refine language bodies, run the Wizard, audit receipts, package, then feed failures back into pruning.\nLoaded language body terms: leverage point, feedback loop, information flow, system structure, self organization, mental model, stocks and flows, reinforcing loop",
+  "output_sha256": "d37a01a2f253d23243ed445cf881f822ca6c7c71607403e01f8fe906123af33d",
+  "schema_version": "wizard_behavior_harness.v1"
+}

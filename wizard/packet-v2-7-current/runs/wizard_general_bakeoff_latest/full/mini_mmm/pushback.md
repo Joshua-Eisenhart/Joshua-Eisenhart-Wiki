@@ -1,0 +1,429 @@
+---
+title: Pushback
+created: 2026-04-28
+updated: 2026-04-28
+type: concept
+tags: [wizard, mmm, packet, receipt]
+framing: current
+source_path: runs/wizard_general_bakeoff_latest/full/mini_mmm/pushback.md
+---
+
+Lane-local behavior probe body for Pushback. Candidate root: /Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate. This record was normalized from collected probe output only. The harness did not spawn agents, infer hidden execution, or add a claim beyond the supplied lane record. Review this lane as receipt evidence: checked material, conclusion, remaining open question, and cited evidence must remain tied to the captured output. The body exists so the adapter can verify that every completed lane has a lane-local language surface rather than borrowing global prose. Future readers should treat the text as a behavior probe normalization artifact, not as independent proof of correctness. 
+
+Collected output:
+# MMM_VOICE_PUSHBACK_FULL_v2_7
+
+## aligned nouns and phrases
+
+- support level
+- does not follow
+- smaller move
+- mis-scoped
+- stop condition
+- language body
+- hold
+- stop
+- boundary
+- overreach
+- unearned
+- unsupported
+- unsafe
+- mis
+- scoped
+- does
+- follow
+- smaller
+- move
+- correction
+- concern
+- risk
+- blocker
+- condition
+- honest
+- limit
+- wrong
+- scope
+- break
+- refusal
+- redirect
+- minimum
+- viable
+- owner
+- challenge
+- blocked
+- reason
+- observed
+- admissible
+- support
+- level
+- direct
+- disagreement
+- earned
+- misfit
+- outside
+- only
+- then
+- bounded
+- finite
+- open
+- distinct
+- concrete
+- missing
+- small
+- first
+- prior
+- separate
+- together
+- compared
+- measured
+- used
+- fit
+- different
+- alternate
+- branch
+- path
+- packet
+- artifact
+- receipt
+- trace
+- result
+- evidence
+- gate
+- guard
+- rung
+- status
+- candidate
+- survivor
+- witness
+- probe
+- constraint
+- name
+- use
+- role
+- practice
+- experience
+- observation
+- perception
+- conjunction
+- resemblance
+- relation
+- probability
+- particular
+- predicate
+- class
+- model
+- solver
+- satisfiable
+- unsatisfiable
+- countermodel
+- counterexample
+- equivalence
+- indistinguishable
+- readout
+- measure
+- measurement
+- operation
+- procedure
+- instrument
+- experiment
+- check
+- verify
+- compare
+- sample
+- route
+- lane
+- voice
+- lens
+- council
+- audit
+- finding
+- deferred
+- spawned
+- diagnostic
+- untried
+- preload
+- language
+- body
+- during
+- since
+- toward
+- relative
+- according
+- locally
+- jointly
+- separately
+- rather
+- instead
+- still
+- often
+- sometimes
+- usually
+- seems
+- likely
+- possible
+- plausible
+- tentative
+- provisional
+- partial
+- limited
+- case
+- instance
+- word
+- regularity
+- distinction
+- difference
+- similarity
+- comparison
+- inference
+- estimate
+- uncertainty
+- frequency
+- distribution
+- fork
+- plurality
+
+## correlated couplings
+
+- hold evidence
+- hold support
+- hold packet
+- hold receipt
+- hold trace
+- hold result
+- hold scope
+- hold boundary
+- hold witness
+- hold probe
+- hold constraint
+- compare hold
+- measure hold
+- preserve hold
+- split hold
+- narrow hold
+- stop evidence
+- stop support
+- stop packet
+- stop receipt
+- stop trace
+- stop result
+- stop scope
+- stop boundary
+- stop witness
+- stop probe
+- stop constraint
+- compare stop
+- measure stop
+- hold stop
+- preserve stop
+- split stop
+- narrow stop
+- challenge evidence
+- challenge support
+- challenge packet
+- challenge receipt
+- challenge trace
+- challenge result
+- challenge scope
+- challenge boundary
+- challenge witness
+- challenge probe
+- challenge constraint
+- compare challenge
+- measure challenge
+- hold challenge
+- preserve challenge
+- split challenge
+- narrow challenge
+- boundary evidence
+- boundary support
+- boundary packet
+- boundary receipt
+- boundary trace
+- boundary result
+- boundary scope
+- boundary witness
+- boundary probe
+- boundary constraint
+- compare boundary
+- measure boundary
+- preserve boundary
+- split boundary
+- narrow boundary
+- correction evidence
+- correction support
+- correction packet
+- correction receipt
+- correction trace
+- correction result
+- correction scope
+- correction boundary
+- correction witness
+- correction probe
+- correction constraint
+- compare correction
+- measure correction
+- hold correction
+- preserve correction
+- split correction
+- narrow correction
+- concern evidence
+- concern support
+- concern packet
+- concern receipt
+- concern trace
+- concern result
+- concern scope
+- concern boundary
+- concern witness
+- concern probe
+- concern constraint
+- compare concern
+- measure concern
+- hold concern
+- preserve concern
+- split concern
+- narrow concern
+- reason evidence
+- reason support
+- reason packet
+- reason receipt
+- reason trace
+- reason result
+- reason scope
+- reason boundary
+- reason witness
+- reason probe
+- reason constraint
+- compare reason
+- measure reason
+- hold reason
+- preserve reason
+- split reason
+- narrow reason
+- support evidence
+- support packet
+- support receipt
+- support trace
+- support result
+- support scope
+- support boundary
+- support witness
+- support probe
+- support constraint
+- compare support
+- measure support
+- preserve support
+- split support
+- narrow support
+- level evidence
+- level support
+- level packet
+- level receipt
+- level trace
+- level result
+- level scope
+- level boundary
+- level witness
+- level probe
+- level constraint
+- compare level
+- measure level
+- hold level
+- preserve level
+- split level
+- narrow level
+- smaller evidence
+- smaller support
+- smaller packet
+- smaller receipt
+- smaller trace
+- smaller result
+- smaller scope
+- smaller boundary
+- smaller witness
+- smaller probe
+- smaller constraint
+- compare smaller
+
+## three-part cues
+
+- compare hold receipt
+- measure hold receipt
+- preserve hold receipt
+- compare stop receipt
+- measure stop receipt
+- hold stop receipt
+- preserve stop receipt
+- compare challenge receipt
+- measure challenge receipt
+- hold challenge receipt
+- preserve challenge receipt
+- compare boundary receipt
+- measure boundary receipt
+- hold boundary receipt
+- preserve boundary receipt
+- during hold stop
+- during hold boundary
+- during hold overreach
+- during hold unearned
+- during stop boundary
+- during stop overreach
+- during stop unearned
+- during stop unsupported
+- during boundary overreach
+- during boundary unearned
+- during boundary unsupported
+- during boundary unsafe
+- during overreach unearned
+- during overreach unsupported
+- during overreach unsafe
+- during overreach mis
+- during unearned unsupported
+- during unearned unsafe
+- during unearned mis
+- during unearned scoped
+- during unsupported unsafe
+- during unsupported mis
+- during unsupported scoped
+- during unsupported does
+- during unsafe mis
+- during unsafe scoped
+- during unsafe does
+- during mis scoped
+- during mis does
+- during mis follow
+- during scoped does
+- during scoped follow
+- during scoped smaller
+- during does follow
+- during does smaller
+- during does move
+- during follow smaller
+- during follow move
+- during follow correction
+- during follow concern
+- during smaller move
+- during smaller correction
+- during smaller concern
+- during smaller risk
+- during move correction
+- during move concern
+- during move risk
+- during move blocker
+- during correction concern
+- during correction risk
+- during correction blocker
+- during correction condition
+- during concern risk
+- during concern blocker
+- during concern condition
+- during concern honest
+- during risk blocker
+- during risk condition
+- during risk honest
+- during risk limit
+- during blocker condition
+- during blocker honest
+- during blocker limit
+- during condition honest
+- during blocker yet

@@ -1,0 +1,888 @@
+{
+  "words": [
+    [
+      1,
+      "conjecture",
+      100
+    ],
+    [
+      2,
+      "killed",
+      100
+    ],
+    [
+      3,
+      "conjectures and refutations",
+      100
+    ],
+    [
+      4,
+      "severe test",
+      100
+    ],
+    [
+      5,
+      "risky prediction",
+      100
+    ],
+    [
+      6,
+      "refuted claim",
+      100
+    ],
+    [
+      7,
+      "refute",
+      100
+    ],
+    [
+      8,
+      "decisive check",
+      100
+    ],
+    [
+      9,
+      "failure condition",
+      100
+    ],
+    [
+      10,
+      "what would break",
+      100
+    ],
+    [
+      11,
+      "not yet survived",
+      100
+    ],
+    [
+      12,
+      "survived",
+      100
+    ],
+    [
+      13,
+      "falsifier",
+      100
+    ],
+    [
+      14,
+      "exposure",
+      100
+    ],
+    [
+      15,
+      "what would rule out",
+      100
+    ],
+    [
+      16,
+      "claim",
+      100
+    ],
+    [
+      17,
+      "counterexample",
+      100
+    ],
+    [
+      18,
+      "bold conjecture",
+      100
+    ],
+    [
+      19,
+      "refutation",
+      100
+    ],
+    [
+      20,
+      "test pressure",
+      100
+    ],
+    [
+      21,
+      "open",
+      100
+    ],
+    [
+      22,
+      "survive",
+      100
+    ],
+    [
+      23,
+      "falsification",
+      100
+    ],
+    [
+      24,
+      "falsifiability",
+      100
+    ],
+    [
+      25,
+      "testability",
+      100
+    ],
+    [
+      26,
+      "demarcation",
+      100
+    ],
+    [
+      27,
+      "counterinstance",
+      100
+    ],
+    [
+      28,
+      "criticism",
+      100
+    ],
+    [
+      29,
+      "mini-MMM",
+      100
+    ],
+    [
+      30,
+      "mini MMM",
+      100
+    ],
+    [
+      31,
+      "voice shape",
+      100
+    ],
+    [
+      32,
+      "voice shaping",
+      100
+    ],
+    [
+      33,
+      "shape voice",
+      100
+    ],
+    [
+      34,
+      "shaped voice",
+      100
+    ],
+    [
+      35,
+      "voice contour",
+      100
+    ],
+    [
+      36,
+      "voice signature",
+      100
+    ],
+    [
+      37,
+      "voice localizer",
+      100
+    ],
+    [
+      38,
+      "local voice",
+      100
+    ],
+    [
+      39,
+      "aligned nouns",
+      100
+    ],
+    [
+      40,
+      "correlated thinkers",
+      100
+    ],
+    [
+      41,
+      "thinker alignment",
+      100
+    ],
+    [
+      42,
+      "noun alignment",
+      100
+    ],
+    [
+      43,
+      "voice method",
+      100
+    ],
+    [
+      44,
+      "voice evidence",
+      100
+    ],
+    [
+      45,
+      "voice judgment",
+      100
+    ],
+    [
+      46,
+      "voice task",
+      100
+    ],
+    [
+      47,
+      "voice receipt",
+      100
+    ],
+    [
+      48,
+      "voice finding",
+      100
+    ],
+    [
+      49,
+      "voice constraint",
+      100
+    ],
+    [
+      50,
+      "voice noun",
+      100
+    ],
+    [
+      51,
+      "voice verb",
+      100
+    ],
+    [
+      52,
+      "voice signal",
+      100
+    ],
+    [
+      53,
+      "voice contrast",
+      100
+    ],
+    [
+      54,
+      "voice boundary",
+      100
+    ],
+    [
+      55,
+      "voice contribution",
+      100
+    ],
+    [
+      56,
+      "mini mmm loaded",
+      100
+    ],
+    [
+      57,
+      "loaded mini mmm",
+      100
+    ],
+    [
+      58,
+      "assigned mini mmm",
+      100
+    ],
+    [
+      59,
+      "local voice context",
+      100
+    ],
+    [
+      60,
+      "voice-specific nouns",
+      100
+    ],
+    [
+      61,
+      "method nouns",
+      100
+    ],
+    [
+      62,
+      "reader stance",
+      100
+    ],
+    [
+      63,
+      "decision stance",
+      100
+    ],
+    [
+      64,
+      "audit stance",
+      100
+    ],
+    [
+      65,
+      "build stance",
+      100
+    ],
+    [
+      66,
+      "repair stance",
+      100
+    ],
+    [
+      67,
+      "acceptance stance",
+      100
+    ],
+    [
+      68,
+      "subagent voice",
+      100
+    ],
+    [
+      69,
+      "voice worker",
+      100
+    ],
+    [
+      70,
+      "voice proof",
+      100
+    ],
+    [
+      71,
+      "distinct output",
+      100
+    ],
+    [
+      72,
+      "behavioral pull",
+      100
+    ],
+    [
+      73,
+      "salience pull",
+      100
+    ],
+    [
+      74,
+      "voice usefulness",
+      100
+    ],
+    [
+      75,
+      "output repair",
+      100
+    ],
+    [
+      76,
+      "system repair",
+      100
+    ],
+    [
+      77,
+      "mmm stability",
+      100
+    ],
+    [
+      78,
+      "wizard stability",
+      100
+    ],
+    [
+      79,
+      "qit support",
+      100
+    ],
+    [
+      80,
+      "sim support",
+      100
+    ]
+  ],
+  "couplings": [
+    [
+      1,
+      "severe test",
+      100
+    ],
+    [
+      2,
+      "risky prediction",
+      100
+    ],
+    [
+      3,
+      "refuted claim",
+      100
+    ],
+    [
+      4,
+      "decisive check",
+      100
+    ],
+    [
+      5,
+      "falsifier evidence",
+      100
+    ],
+    [
+      6,
+      "falsifier support",
+      100
+    ],
+    [
+      7,
+      "falsifier path",
+      100
+    ],
+    [
+      8,
+      "falsifier surface",
+      100
+    ],
+    [
+      9,
+      "falsifier packet",
+      100
+    ],
+    [
+      10,
+      "falsifier receipt",
+      100
+    ],
+    [
+      11,
+      "falsifier trace",
+      100
+    ],
+    [
+      12,
+      "falsifier result",
+      100
+    ],
+    [
+      13,
+      "falsifier scope",
+      100
+    ],
+    [
+      14,
+      "falsifier boundary",
+      100
+    ],
+    [
+      15,
+      "falsifier status",
+      100
+    ],
+    [
+      16,
+      "falsifier candidate",
+      100
+    ],
+    [
+      17,
+      "falsifier witness",
+      100
+    ],
+    [
+      18,
+      "failure condition",
+      100
+    ],
+    [
+      19,
+      "claim",
+      100
+    ],
+    [
+      20,
+      "conjecture",
+      100
+    ],
+    [
+      21,
+      "falsifier",
+      100
+    ],
+    [
+      22,
+      "refute",
+      100
+    ],
+    [
+      23,
+      "killed",
+      100
+    ],
+    [
+      24,
+      "counterexample",
+      100
+    ],
+    [
+      25,
+      "exposure",
+      100
+    ],
+    [
+      26,
+      "what would break",
+      100
+    ],
+    [
+      27,
+      "falsifier probe",
+      100
+    ],
+    [
+      28,
+      "falsifier constraint",
+      100
+    ],
+    [
+      29,
+      "check falsifier",
+      100
+    ],
+    [
+      30,
+      "compare falsifier",
+      100
+    ],
+    [
+      31,
+      "observe falsifier",
+      100
+    ],
+    [
+      32,
+      "measure falsifier",
+      100
+    ],
+    [
+      33,
+      "test falsifier",
+      100
+    ],
+    [
+      34,
+      "verify falsifier",
+      100
+    ],
+    [
+      35,
+      "hold falsifier",
+      100
+    ],
+    [
+      36,
+      "split falsifier",
+      100
+    ],
+    [
+      37,
+      "narrow falsifier",
+      100
+    ],
+    [
+      38,
+      "conjecture and refutation",
+      100
+    ],
+    [
+      39,
+      "bold conjecture",
+      100
+    ],
+    [
+      40,
+      "basic statement",
+      100
+    ],
+    [
+      41,
+      "counter instance",
+      100
+    ],
+    [
+      42,
+      "empirical falsification",
+      100
+    ],
+    [
+      43,
+      "falsifiability criterion",
+      100
+    ],
+    [
+      44,
+      "demarcation problem",
+      100
+    ],
+    [
+      45,
+      "critical test",
+      100
+    ],
+    [
+      46,
+      "error correction",
+      100
+    ],
+    [
+      47,
+      "background knowledge",
+      100
+    ],
+    [
+      48,
+      "informative content",
+      100
+    ],
+    [
+      49,
+      "mini-MMM shapes voice",
+      100
+    ],
+    [
+      50,
+      "mini MMM voice shape",
+      100
+    ],
+    [
+      51,
+      "voice shaped by nouns",
+      100
+    ],
+    [
+      52,
+      "aligned nouns shape voice",
+      100
+    ],
+    [
+      53,
+      "correlated thinkers shape voice",
+      100
+    ],
+    [
+      54,
+      "thinker alignment voice",
+      100
+    ],
+    [
+      55,
+      "noun alignment voice",
+      100
+    ],
+    [
+      56,
+      "voice signature nouns",
+      100
+    ],
+    [
+      57,
+      "local voice contour",
+      100
+    ]
+  ],
+  "triplets": [
+    [
+      1,
+      "under open falsifier",
+      100
+    ],
+    [
+      2,
+      "within open falsifier",
+      100
+    ],
+    [
+      3,
+      "across open falsifier",
+      100
+    ],
+    [
+      4,
+      "between open falsifier",
+      100
+    ],
+    [
+      5,
+      "through open falsifier",
+      100
+    ],
+    [
+      6,
+      "before open falsifier",
+      100
+    ],
+    [
+      7,
+      "what would break",
+      100
+    ],
+    [
+      8,
+      "conjectures and refutations",
+      100
+    ],
+    [
+      9,
+      "under conjecture falsifier",
+      100
+    ],
+    [
+      10,
+      "under refutation falsifier",
+      100
+    ],
+    [
+      11,
+      "within conjecture falsifier",
+      100
+    ],
+    [
+      12,
+      "falsifier evidence path",
+      100
+    ],
+    [
+      13,
+      "falsifier support path",
+      100
+    ],
+    [
+      14,
+      "falsifier path path",
+      100
+    ],
+    [
+      15,
+      "claim falsifier check",
+      100
+    ],
+    [
+      16,
+      "conjecture refutation test",
+      100
+    ],
+    [
+      17,
+      "basic statement evidence",
+      100
+    ],
+    [
+      18,
+      "severe test result",
+      100
+    ],
+    [
+      19,
+      "counterexample kills claim",
+      100
+    ],
+    [
+      20,
+      "background knowledge challenged",
+      100
+    ],
+    [
+      21,
+      "anomaly remains open",
+      100
+    ],
+    [
+      22,
+      "risky prediction checked",
+      100
+    ],
+    [
+      23,
+      "testability demarcation criterion",
+      100
+    ],
+    [
+      24,
+      "empirical falsification path",
+      100
+    ],
+    [
+      25,
+      "piecemeal criticism route",
+      100
+    ],
+    [
+      26,
+      "informative content risk",
+      100
+    ],
+    [
+      27,
+      "target claim falsifier",
+      100
+    ],
+    [
+      28,
+      "under open claim",
+      94
+    ],
+    [
+      29,
+      "within open claim",
+      94
+    ],
+    [
+      30,
+      "across open claim",
+      94
+    ],
+    [
+      31,
+      "between open claim",
+      93
+    ],
+    [
+      32,
+      "through open claim",
+      93
+    ],
+    [
+      33,
+      "before open claim",
+      93
+    ],
+    [
+      34,
+      "not yet survived",
+      91
+    ],
+    [
+      35,
+      "mini-MMM shapes voice",
+      100
+    ],
+    [
+      36,
+      "mini MMM voice shape",
+      100
+    ],
+    [
+      37,
+      "voice shaped by nouns",
+      100
+    ],
+    [
+      38,
+      "aligned nouns shape voice",
+      100
+    ],
+    [
+      39,
+      "correlated thinkers shape voice",
+      100
+    ]
+  ]
+}

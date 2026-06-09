@@ -1,0 +1,2143 @@
+{
+  "words": [
+    [
+      2,
+      "action",
+      100
+    ],
+    [
+      3,
+      "active",
+      100
+    ],
+    [
+      4,
+      "active verb",
+      100
+    ],
+    [
+      5,
+      "actual",
+      100
+    ],
+    [
+      6,
+      "artifact",
+      100
+    ],
+    [
+      7,
+      "blocked",
+      100
+    ],
+    [
+      8,
+      "blunt",
+      100
+    ],
+    [
+      9,
+      "bureaucratic",
+      100
+    ],
+    [
+      10,
+      "clean",
+      100
+    ],
+    [
+      11,
+      "clear",
+      100
+    ],
+    [
+      12,
+      "cliche",
+      100
+    ],
+    [
+      13,
+      "cloudy",
+      100
+    ],
+    [
+      14,
+      "concrete",
+      100
+    ],
+    [
+      15,
+      "cut",
+      100
+    ],
+    [
+      16,
+      "cut a word",
+      100
+    ],
+    [
+      17,
+      "dead",
+      100
+    ],
+    [
+      18,
+      "dead phrase",
+      100
+    ],
+    [
+      19,
+      "diction",
+      100
+    ],
+    [
+      20,
+      "direct",
+      100
+    ],
+    [
+      21,
+      "distinct",
+      100
+    ],
+    [
+      22,
+      "dying metaphor",
+      100
+    ],
+    [
+      23,
+      "euphemism",
+      100
+    ],
+    [
+      24,
+      "exact",
+      100
+    ],
+    [
+      25,
+      "false",
+      100
+    ],
+    [
+      26,
+      "fog",
+      100
+    ],
+    [
+      27,
+      "hard",
+      100
+    ],
+    [
+      28,
+      "image",
+      100
+    ],
+    [
+      29,
+      "inferred",
+      100
+    ],
+    [
+      30,
+      "inflated",
+      100
+    ],
+    [
+      31,
+      "jargon",
+      100
+    ],
+    [
+      32,
+      "known",
+      100
+    ],
+    [
+      33,
+      "limb",
+      100
+    ],
+    [
+      34,
+      "meaning",
+      100
+    ],
+    [
+      35,
+      "meaningless word",
+      100
+    ],
+    [
+      36,
+      "metaphor",
+      100
+    ],
+    [
+      37,
+      "missing",
+      100
+    ],
+    [
+      38,
+      "muddy",
+      100
+    ],
+    [
+      39,
+      "name",
+      100
+    ],
+    [
+      40,
+      "named",
+      100
+    ],
+    [
+      41,
+      "noun",
+      100
+    ],
+    [
+      42,
+      "ordinary",
+      100
+    ],
+    [
+      43,
+      "owner",
+      100
+    ],
+    [
+      44,
+      "padding",
+      100
+    ],
+    [
+      45,
+      "passive",
+      100
+    ],
+    [
+      46,
+      "phrase",
+      100
+    ],
+    [
+      47,
+      "plain",
+      100
+    ],
+    [
+      48,
+      "plain english",
+      100
+    ],
+    [
+      49,
+      "politics and english language",
+      100
+    ],
+    [
+      50,
+      "precision",
+      100
+    ],
+    [
+      51,
+      "pretentious",
+      100
+    ],
+    [
+      52,
+      "pretentious diction",
+      100
+    ],
+    [
+      53,
+      "prune",
+      100
+    ],
+    [
+      54,
+      "remove",
+      100
+    ],
+    [
+      55,
+      "replace",
+      100
+    ],
+    [
+      56,
+      "say",
+      100
+    ],
+    [
+      57,
+      "short",
+      100
+    ],
+    [
+      58,
+      "short word",
+      100
+    ],
+    [
+      59,
+      "show",
+      100
+    ],
+    [
+      60,
+      "simple",
+      100
+    ],
+    [
+      61,
+      "soft",
+      100
+    ],
+    [
+      62,
+      "soft word",
+      100
+    ],
+    [
+      63,
+      "stale",
+      100
+    ],
+    [
+      64,
+      "stale image",
+      100
+    ],
+    [
+      65,
+      "surface",
+      100
+    ],
+    [
+      66,
+      "test",
+      100
+    ],
+    [
+      67,
+      "untested",
+      100
+    ],
+    [
+      68,
+      "vague",
+      100
+    ],
+    [
+      69,
+      "verb",
+      100
+    ],
+    [
+      70,
+      "verbal false limb",
+      100
+    ],
+    [
+      71,
+      "visible",
+      100
+    ],
+    [
+      72,
+      "word",
+      100
+    ],
+    [
+      73,
+      "mini-MMM",
+      100
+    ],
+    [
+      74,
+      "mini MMM",
+      100
+    ],
+    [
+      75,
+      "voice shape",
+      100
+    ],
+    [
+      76,
+      "voice shaping",
+      100
+    ],
+    [
+      77,
+      "shape voice",
+      100
+    ],
+    [
+      78,
+      "shaped voice",
+      100
+    ],
+    [
+      79,
+      "voice contour",
+      100
+    ],
+    [
+      80,
+      "voice signature",
+      100
+    ],
+    [
+      81,
+      "voice localizer",
+      100
+    ],
+    [
+      82,
+      "local voice",
+      100
+    ],
+    [
+      83,
+      "aligned nouns",
+      100
+    ],
+    [
+      84,
+      "correlated thinkers",
+      100
+    ],
+    [
+      85,
+      "thinker alignment",
+      100
+    ],
+    [
+      86,
+      "noun alignment",
+      100
+    ],
+    [
+      87,
+      "voice method",
+      100
+    ],
+    [
+      88,
+      "voice evidence",
+      100
+    ],
+    [
+      89,
+      "voice judgment",
+      100
+    ],
+    [
+      90,
+      "voice task",
+      100
+    ],
+    [
+      91,
+      "voice receipt",
+      100
+    ],
+    [
+      92,
+      "voice finding",
+      100
+    ],
+    [
+      93,
+      "voice constraint",
+      100
+    ],
+    [
+      94,
+      "voice noun",
+      100
+    ],
+    [
+      95,
+      "voice verb",
+      100
+    ],
+    [
+      96,
+      "voice signal",
+      100
+    ],
+    [
+      97,
+      "voice contrast",
+      100
+    ],
+    [
+      98,
+      "voice boundary",
+      100
+    ],
+    [
+      99,
+      "voice contribution",
+      100
+    ],
+    [
+      100,
+      "mini mmm loaded",
+      100
+    ],
+    [
+      101,
+      "loaded mini mmm",
+      100
+    ],
+    [
+      102,
+      "assigned mini mmm",
+      100
+    ],
+    [
+      103,
+      "local voice context",
+      100
+    ],
+    [
+      104,
+      "voice-specific nouns",
+      100
+    ],
+    [
+      105,
+      "method nouns",
+      100
+    ],
+    [
+      106,
+      "reader stance",
+      100
+    ],
+    [
+      107,
+      "decision stance",
+      100
+    ],
+    [
+      108,
+      "audit stance",
+      100
+    ],
+    [
+      109,
+      "build stance",
+      100
+    ],
+    [
+      110,
+      "repair stance",
+      100
+    ],
+    [
+      111,
+      "acceptance stance",
+      100
+    ],
+    [
+      112,
+      "subagent voice",
+      100
+    ],
+    [
+      113,
+      "voice worker",
+      100
+    ],
+    [
+      114,
+      "voice proof",
+      100
+    ],
+    [
+      115,
+      "distinct output",
+      100
+    ],
+    [
+      116,
+      "behavioral pull",
+      100
+    ],
+    [
+      117,
+      "salience pull",
+      100
+    ],
+    [
+      118,
+      "voice usefulness",
+      100
+    ],
+    [
+      119,
+      "output repair",
+      100
+    ],
+    [
+      120,
+      "system repair",
+      100
+    ],
+    [
+      121,
+      "mmm stability",
+      100
+    ],
+    [
+      122,
+      "wizard stability",
+      100
+    ],
+    [
+      123,
+      "qit support",
+      100
+    ],
+    [
+      124,
+      "sim support",
+      100
+    ]
+  ],
+  "couplings": [
+    [
+      1,
+      "across cut",
+      100
+    ],
+    [
+      2,
+      "across plain",
+      100
+    ],
+    [
+      3,
+      "across short",
+      100
+    ],
+    [
+      4,
+      "after cut",
+      100
+    ],
+    [
+      5,
+      "after plain",
+      100
+    ],
+    [
+      6,
+      "after short",
+      100
+    ],
+    [
+      7,
+      "before cut",
+      100
+    ],
+    [
+      8,
+      "before plain",
+      100
+    ],
+    [
+      9,
+      "before short",
+      100
+    ],
+    [
+      10,
+      "between cut",
+      100
+    ],
+    [
+      11,
+      "between plain",
+      100
+    ],
+    [
+      12,
+      "between short",
+      100
+    ],
+    [
+      13,
+      "check concrete",
+      100
+    ],
+    [
+      14,
+      "check cut",
+      100
+    ],
+    [
+      15,
+      "check plain",
+      100
+    ],
+    [
+      16,
+      "check short",
+      100
+    ],
+    [
+      17,
+      "clear",
+      100
+    ],
+    [
+      18,
+      "compare concrete",
+      100
+    ],
+    [
+      19,
+      "compare cut",
+      100
+    ],
+    [
+      20,
+      "compare plain",
+      100
+    ],
+    [
+      21,
+      "compare short",
+      100
+    ],
+    [
+      22,
+      "concrete",
+      100
+    ],
+    [
+      23,
+      "concrete boundary",
+      100
+    ],
+    [
+      24,
+      "concrete candidate",
+      100
+    ],
+    [
+      25,
+      "concrete clear",
+      100
+    ],
+    [
+      26,
+      "concrete constraint",
+      100
+    ],
+    [
+      27,
+      "concrete cut",
+      100
+    ],
+    [
+      28,
+      "concrete euphemism",
+      100
+    ],
+    [
+      29,
+      "concrete evidence",
+      100
+    ],
+    [
+      30,
+      "concrete fog",
+      100
+    ],
+    [
+      31,
+      "concrete inflated",
+      100
+    ],
+    [
+      32,
+      "concrete packet",
+      100
+    ],
+    [
+      33,
+      "concrete path",
+      100
+    ],
+    [
+      34,
+      "concrete probe",
+      100
+    ],
+    [
+      35,
+      "concrete receipt",
+      100
+    ],
+    [
+      36,
+      "concrete result",
+      100
+    ],
+    [
+      37,
+      "concrete scope",
+      100
+    ],
+    [
+      38,
+      "concrete short",
+      100
+    ],
+    [
+      39,
+      "concrete status",
+      100
+    ],
+    [
+      40,
+      "concrete support",
+      100
+    ],
+    [
+      41,
+      "concrete surface",
+      100
+    ],
+    [
+      42,
+      "concrete trace",
+      100
+    ],
+    [
+      43,
+      "concrete witness",
+      100
+    ],
+    [
+      44,
+      "cut",
+      100
+    ],
+    [
+      45,
+      "cut boundary",
+      100
+    ],
+    [
+      46,
+      "cut candidate",
+      100
+    ],
+    [
+      47,
+      "cut constraint",
+      100
+    ],
+    [
+      48,
+      "cut evidence",
+      100
+    ],
+    [
+      49,
+      "cut packet",
+      100
+    ],
+    [
+      50,
+      "cut path",
+      100
+    ],
+    [
+      51,
+      "cut probe",
+      100
+    ],
+    [
+      52,
+      "cut receipt",
+      100
+    ],
+    [
+      53,
+      "cut result",
+      100
+    ],
+    [
+      54,
+      "cut scope",
+      100
+    ],
+    [
+      55,
+      "cut status",
+      100
+    ],
+    [
+      56,
+      "cut support",
+      100
+    ],
+    [
+      57,
+      "cut surface",
+      100
+    ],
+    [
+      58,
+      "cut trace",
+      100
+    ],
+    [
+      59,
+      "cut witness",
+      100
+    ],
+    [
+      60,
+      "euphemism",
+      100
+    ],
+    [
+      61,
+      "fog",
+      100
+    ],
+    [
+      62,
+      "hold concrete",
+      100
+    ],
+    [
+      63,
+      "hold cut",
+      100
+    ],
+    [
+      64,
+      "hold plain",
+      100
+    ],
+    [
+      65,
+      "hold short",
+      100
+    ],
+    [
+      66,
+      "measure concrete",
+      100
+    ],
+    [
+      67,
+      "measure cut",
+      100
+    ],
+    [
+      68,
+      "measure plain",
+      100
+    ],
+    [
+      69,
+      "measure short",
+      100
+    ],
+    [
+      70,
+      "narrow concrete",
+      100
+    ],
+    [
+      71,
+      "narrow cut",
+      100
+    ],
+    [
+      72,
+      "narrow plain",
+      100
+    ],
+    [
+      73,
+      "narrow short",
+      100
+    ],
+    [
+      74,
+      "observe concrete",
+      100
+    ],
+    [
+      75,
+      "observe cut",
+      100
+    ],
+    [
+      76,
+      "observe plain",
+      100
+    ],
+    [
+      77,
+      "observe short",
+      100
+    ],
+    [
+      78,
+      "plain",
+      100
+    ],
+    [
+      79,
+      "plain boundary",
+      100
+    ],
+    [
+      80,
+      "plain candidate",
+      100
+    ],
+    [
+      81,
+      "plain clear",
+      100
+    ],
+    [
+      82,
+      "plain concrete",
+      100
+    ],
+    [
+      83,
+      "plain constraint",
+      100
+    ],
+    [
+      84,
+      "plain cut",
+      100
+    ],
+    [
+      85,
+      "plain english",
+      100
+    ],
+    [
+      86,
+      "plain euphemism",
+      100
+    ],
+    [
+      87,
+      "plain evidence",
+      100
+    ],
+    [
+      88,
+      "plain fog",
+      100
+    ],
+    [
+      89,
+      "plain inflated",
+      100
+    ],
+    [
+      90,
+      "plain jargon",
+      100
+    ],
+    [
+      91,
+      "plain packet",
+      100
+    ],
+    [
+      92,
+      "plain path",
+      100
+    ],
+    [
+      93,
+      "plain probe",
+      100
+    ],
+    [
+      94,
+      "plain receipt",
+      100
+    ],
+    [
+      95,
+      "plain result",
+      100
+    ],
+    [
+      96,
+      "plain scope",
+      100
+    ],
+    [
+      97,
+      "plain short",
+      100
+    ],
+    [
+      98,
+      "plain status",
+      100
+    ],
+    [
+      99,
+      "plain support",
+      100
+    ],
+    [
+      100,
+      "plain surface",
+      100
+    ],
+    [
+      101,
+      "plain trace",
+      100
+    ],
+    [
+      102,
+      "plain witness",
+      100
+    ],
+    [
+      103,
+      "preserve concrete",
+      100
+    ],
+    [
+      104,
+      "preserve cut",
+      100
+    ],
+    [
+      105,
+      "preserve plain",
+      100
+    ],
+    [
+      106,
+      "preserve short",
+      100
+    ],
+    [
+      107,
+      "replace",
+      100
+    ],
+    [
+      108,
+      "short",
+      100
+    ],
+    [
+      109,
+      "short boundary",
+      100
+    ],
+    [
+      110,
+      "short candidate",
+      100
+    ],
+    [
+      111,
+      "short constraint",
+      100
+    ],
+    [
+      112,
+      "short evidence",
+      100
+    ],
+    [
+      113,
+      "short packet",
+      100
+    ],
+    [
+      114,
+      "short path",
+      100
+    ],
+    [
+      115,
+      "short probe",
+      100
+    ],
+    [
+      116,
+      "short receipt",
+      100
+    ],
+    [
+      117,
+      "short result",
+      100
+    ],
+    [
+      118,
+      "short scope",
+      100
+    ],
+    [
+      119,
+      "short status",
+      100
+    ],
+    [
+      120,
+      "short support",
+      100
+    ],
+    [
+      121,
+      "short surface",
+      100
+    ],
+    [
+      122,
+      "short trace",
+      100
+    ],
+    [
+      123,
+      "short witness",
+      100
+    ],
+    [
+      124,
+      "split concrete",
+      100
+    ],
+    [
+      125,
+      "split cut",
+      100
+    ],
+    [
+      126,
+      "split plain",
+      100
+    ],
+    [
+      127,
+      "split short",
+      100
+    ],
+    [
+      128,
+      "test concrete",
+      100
+    ],
+    [
+      129,
+      "test cut",
+      100
+    ],
+    [
+      130,
+      "test fog",
+      100
+    ],
+    [
+      131,
+      "test plain",
+      100
+    ],
+    [
+      132,
+      "test short",
+      100
+    ],
+    [
+      133,
+      "through cut",
+      100
+    ],
+    [
+      134,
+      "through plain",
+      100
+    ],
+    [
+      135,
+      "through short",
+      100
+    ],
+    [
+      136,
+      "under cut",
+      100
+    ],
+    [
+      137,
+      "under plain",
+      100
+    ],
+    [
+      138,
+      "under short",
+      100
+    ],
+    [
+      139,
+      "untested",
+      100
+    ],
+    [
+      140,
+      "until cut",
+      100
+    ],
+    [
+      141,
+      "until plain",
+      100
+    ],
+    [
+      142,
+      "until short",
+      100
+    ],
+    [
+      143,
+      "verify concrete",
+      100
+    ],
+    [
+      144,
+      "verify cut",
+      100
+    ],
+    [
+      145,
+      "verify plain",
+      100
+    ],
+    [
+      146,
+      "verify short",
+      100
+    ],
+    [
+      147,
+      "where concrete",
+      100
+    ],
+    [
+      148,
+      "where cut",
+      100
+    ],
+    [
+      149,
+      "where plain",
+      100
+    ],
+    [
+      150,
+      "where short",
+      100
+    ],
+    [
+      151,
+      "while concrete",
+      100
+    ],
+    [
+      152,
+      "while cut",
+      100
+    ],
+    [
+      153,
+      "while plain",
+      100
+    ],
+    [
+      154,
+      "while short",
+      100
+    ],
+    [
+      155,
+      "within cut",
+      100
+    ],
+    [
+      156,
+      "within plain",
+      100
+    ],
+    [
+      157,
+      "within short",
+      100
+    ],
+    [
+      158,
+      "across concrete",
+      96
+    ],
+    [
+      159,
+      "after concrete",
+      96
+    ],
+    [
+      160,
+      "before concrete",
+      96
+    ],
+    [
+      161,
+      "mini-MMM shapes voice",
+      100
+    ],
+    [
+      162,
+      "mini MMM voice shape",
+      100
+    ],
+    [
+      163,
+      "voice shaped by nouns",
+      100
+    ],
+    [
+      164,
+      "aligned nouns shape voice",
+      100
+    ],
+    [
+      165,
+      "correlated thinkers shape voice",
+      100
+    ],
+    [
+      166,
+      "thinker alignment voice",
+      100
+    ],
+    [
+      167,
+      "noun alignment voice",
+      100
+    ],
+    [
+      168,
+      "voice signature nouns",
+      100
+    ],
+    [
+      169,
+      "local voice contour",
+      100
+    ]
+  ],
+  "triplets": [
+    [
+      1,
+      "across bounded plain",
+      100
+    ],
+    [
+      2,
+      "across current plain",
+      100
+    ],
+    [
+      3,
+      "across finite plain",
+      100
+    ],
+    [
+      4,
+      "across live plain",
+      100
+    ],
+    [
+      5,
+      "across local plain",
+      100
+    ],
+    [
+      6,
+      "across open plain",
+      100
+    ],
+    [
+      7,
+      "active verb noun",
+      100
+    ],
+    [
+      8,
+      "before live plain",
+      100
+    ],
+    [
+      9,
+      "before open plain",
+      100
+    ],
+    [
+      10,
+      "between bounded plain",
+      100
+    ],
+    [
+      11,
+      "between current plain",
+      100
+    ],
+    [
+      12,
+      "between finite plain",
+      100
+    ],
+    [
+      13,
+      "between live plain",
+      100
+    ],
+    [
+      14,
+      "between local plain",
+      100
+    ],
+    [
+      15,
+      "between open plain",
+      100
+    ],
+    [
+      16,
+      "check plain receipt",
+      100
+    ],
+    [
+      17,
+      "cloudy vagueness blocked",
+      100
+    ],
+    [
+      18,
+      "compare plain receipt",
+      100
+    ],
+    [
+      19,
+      "cut dead language",
+      100
+    ],
+    [
+      20,
+      "euphemism vague fog",
+      100
+    ],
+    [
+      21,
+      "false limb removed",
+      100
+    ],
+    [
+      22,
+      "hold plain receipt",
+      100
+    ],
+    [
+      23,
+      "inflated noun replaced",
+      100
+    ],
+    [
+      24,
+      "measure plain receipt",
+      100
+    ],
+    [
+      25,
+      "name the thing",
+      100
+    ],
+    [
+      26,
+      "observe plain receipt",
+      100
+    ],
+    [
+      27,
+      "plain boundary path",
+      100
+    ],
+    [
+      28,
+      "plain concrete words",
+      100
+    ],
+    [
+      29,
+      "plain english surface",
+      100
+    ],
+    [
+      30,
+      "plain evidence path",
+      100
+    ],
+    [
+      31,
+      "plain packet path",
+      100
+    ],
+    [
+      32,
+      "plain path path",
+      100
+    ],
+    [
+      33,
+      "plain receipt path",
+      100
+    ],
+    [
+      34,
+      "plain result path",
+      100
+    ],
+    [
+      35,
+      "plain scope path",
+      100
+    ],
+    [
+      36,
+      "plain support path",
+      100
+    ],
+    [
+      37,
+      "plain surface path",
+      100
+    ],
+    [
+      38,
+      "plain trace path",
+      100
+    ],
+    [
+      39,
+      "preserve plain receipt",
+      100
+    ],
+    [
+      40,
+      "pretentious diction cut",
+      100
+    ],
+    [
+      41,
+      "short simple verb",
+      100
+    ],
+    [
+      42,
+      "specific meaning first",
+      100
+    ],
+    [
+      43,
+      "stale metaphor removed",
+      100
+    ],
+    [
+      44,
+      "test concrete receipt",
+      100
+    ],
+    [
+      45,
+      "test cut receipt",
+      100
+    ],
+    [
+      46,
+      "test plain receipt",
+      100
+    ],
+    [
+      47,
+      "test short receipt",
+      100
+    ],
+    [
+      48,
+      "through current plain",
+      100
+    ],
+    [
+      49,
+      "through live plain",
+      100
+    ],
+    [
+      50,
+      "through open plain",
+      100
+    ],
+    [
+      51,
+      "under bounded plain",
+      100
+    ],
+    [
+      52,
+      "under current plain",
+      100
+    ],
+    [
+      53,
+      "under finite plain",
+      100
+    ],
+    [
+      54,
+      "under live plain",
+      100
+    ],
+    [
+      55,
+      "under local plain",
+      100
+    ],
+    [
+      56,
+      "under open plain",
+      100
+    ],
+    [
+      57,
+      "verify plain receipt",
+      100
+    ],
+    [
+      58,
+      "within bounded plain",
+      100
+    ],
+    [
+      59,
+      "within current plain",
+      100
+    ],
+    [
+      60,
+      "within finite plain",
+      100
+    ],
+    [
+      61,
+      "within live plain",
+      100
+    ],
+    [
+      62,
+      "within local plain",
+      100
+    ],
+    [
+      63,
+      "within open plain",
+      100
+    ],
+    [
+      64,
+      "word meaning reunited",
+      100
+    ],
+    [
+      65,
+      "before bounded plain",
+      99
+    ],
+    [
+      66,
+      "before current plain",
+      99
+    ],
+    [
+      67,
+      "before finite plain",
+      99
+    ],
+    [
+      68,
+      "before local plain",
+      99
+    ],
+    [
+      69,
+      "through bounded plain",
+      99
+    ],
+    [
+      70,
+      "through finite plain",
+      99
+    ],
+    [
+      71,
+      "through local plain",
+      99
+    ],
+    [
+      72,
+      "under concrete clear",
+      99
+    ],
+    [
+      73,
+      "under concrete cut",
+      99
+    ],
+    [
+      74,
+      "under concrete fog",
+      99
+    ],
+    [
+      75,
+      "under concrete short",
+      99
+    ],
+    [
+      76,
+      "under plain clear",
+      99
+    ],
+    [
+      77,
+      "under plain concrete",
+      99
+    ],
+    [
+      78,
+      "under plain cut",
+      99
+    ],
+    [
+      79,
+      "under plain short",
+      99
+    ],
+    [
+      80,
+      "across bounded cut",
+      98
+    ],
+    [
+      81,
+      "across current cut",
+      98
+    ],
+    [
+      82,
+      "across finite cut",
+      98
+    ],
+    [
+      83,
+      "across live cut",
+      98
+    ],
+    [
+      84,
+      "across local cut",
+      98
+    ],
+    [
+      85,
+      "across open cut",
+      98
+    ],
+    [
+      86,
+      "between bounded cut",
+      98
+    ],
+    [
+      87,
+      "between current cut",
+      98
+    ],
+    [
+      88,
+      "between local cut",
+      98
+    ],
+    [
+      89,
+      "under bounded cut",
+      98
+    ],
+    [
+      90,
+      "under clear cut",
+      98
+    ],
+    [
+      91,
+      "under clear euphemism",
+      98
+    ],
+    [
+      92,
+      "under clear fog",
+      98
+    ],
+    [
+      93,
+      "under clear inflated",
+      98
+    ],
+    [
+      94,
+      "under current cut",
+      98
+    ],
+    [
+      95,
+      "under cut euphemism",
+      98
+    ],
+    [
+      96,
+      "under cut fog",
+      98
+    ],
+    [
+      97,
+      "under cut inflated",
+      98
+    ],
+    [
+      98,
+      "under euphemism inflated",
+      98
+    ],
+    [
+      99,
+      "under euphemism jargon",
+      98
+    ],
+    [
+      100,
+      "under finite cut",
+      98
+    ],
+    [
+      101,
+      "under fog euphemism",
+      98
+    ],
+    [
+      102,
+      "under fog inflated",
+      98
+    ],
+    [
+      103,
+      "under live cut",
+      98
+    ],
+    [
+      104,
+      "under local cut",
+      98
+    ],
+    [
+      105,
+      "under open cut",
+      98
+    ],
+    [
+      106,
+      "under short clear",
+      98
+    ],
+    [
+      107,
+      "under short cut",
+      98
+    ],
+    [
+      108,
+      "under short euphemism",
+      98
+    ],
+    [
+      109,
+      "under short fog",
+      98
+    ],
+    [
+      110,
+      "within bounded cut",
+      98
+    ],
+    [
+      111,
+      "within current cut",
+      98
+    ],
+    [
+      112,
+      "within finite cut",
+      98
+    ],
+    [
+      113,
+      "within live cut",
+      98
+    ],
+    [
+      114,
+      "within local cut",
+      98
+    ],
+    [
+      115,
+      "within open cut",
+      98
+    ],
+    [
+      116,
+      "before bounded cut",
+      97
+    ],
+    [
+      117,
+      "before current cut",
+      97
+    ],
+    [
+      118,
+      "before finite cut",
+      97
+    ],
+    [
+      119,
+      "before live cut",
+      97
+    ],
+    [
+      120,
+      "before local cut",
+      97
+    ],
+    [
+      121,
+      "before open cut",
+      97
+    ],
+    [
+      122,
+      "between finite cut",
+      97
+    ],
+    [
+      123,
+      "between live cut",
+      97
+    ],
+    [
+      124,
+      "between open cut",
+      97
+    ],
+    [
+      125,
+      "cut boundary path",
+      97
+    ],
+    [
+      126,
+      "cut evidence path",
+      97
+    ],
+    [
+      127,
+      "cut packet path",
+      97
+    ],
+    [
+      128,
+      "cut path path",
+      97
+    ],
+    [
+      129,
+      "cut receipt path",
+      97
+    ],
+    [
+      130,
+      "cut result path",
+      97
+    ],
+    [
+      131,
+      "mini-MMM shapes voice",
+      100
+    ],
+    [
+      132,
+      "mini MMM voice shape",
+      100
+    ],
+    [
+      133,
+      "voice shaped by nouns",
+      100
+    ],
+    [
+      134,
+      "aligned nouns shape voice",
+      100
+    ],
+    [
+      135,
+      "correlated thinkers shape voice",
+      100
+    ]
+  ]
+}

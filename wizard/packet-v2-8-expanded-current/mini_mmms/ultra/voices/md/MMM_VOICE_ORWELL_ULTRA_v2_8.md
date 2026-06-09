@@ -1,0 +1,173 @@
+# MMM_VOICE_ORWELL_ULTRA_v2_8
+
+## words
+- mini-MMM :: 100
+- mini MMM :: 100
+- voice shape :: 100
+- voice shaping :: 100
+- shape voice :: 100
+- shaped voice :: 100
+- voice contour :: 100
+- voice signature :: 100
+- voice localizer :: 100
+- local voice :: 100
+- aligned nouns :: 100
+- correlated thinkers :: 100
+- thinker alignment :: 100
+- noun alignment :: 100
+
+- short :: 100
+- clear :: 100
+- euphemism :: 100
+- plain english :: 100
+- cut :: 100
+- fog :: 100
+- untested :: 100
+- replace :: 100
+- concrete :: 100
+- plain :: 100
+- cut a word :: 100
+- short word :: 100
+- inflated :: 100
+- jargon :: 100
+- vague :: 100
+- remove :: 100
+- dead phrase :: 100
+- soft word :: 100
+- owner :: 100
+- wrong :: 100
+- action :: 100
+- stale image :: 100
+- active :: 100
+- verb :: 100
+- noun :: 100
+- meaning :: 100
+- image :: 100
+- stale :: 100
+
+## couplings
+
+- test plain :: 100
+- test cut :: 100
+- test short :: 100
+- test concrete :: 100
+- test fog :: 100
+- plain english :: 100
+- plain evidence :: 100
+- plain support :: 100
+- plain path :: 100
+- plain packet :: 100
+- plain receipt :: 100
+- plain trace :: 100
+- plain scope :: 100
+- plain boundary :: 100
+- plain status :: 100
+- plain candidate :: 100
+- plain witness :: 100
+- cut :: 100
+- concrete :: 100
+- short :: 100
+- clear :: 100
+- fog :: 100
+- euphemism :: 100
+- plain probe :: 100
+- plain constraint :: 100
+- check plain :: 100
+- compare plain :: 100
+- observe plain :: 100
+- measure plain :: 100
+- verify plain :: 100
+- hold plain :: 100
+- preserve plain :: 100
+- split plain :: 100
+- narrow plain :: 100
+- where plain :: 100
+- while plain :: 100
+- cut evidence :: 100
+- cut support :: 100
+- cut path :: 100
+- cut surface :: 100
+- cut packet :: 100
+- cut receipt :: 100
+- cut trace :: 100
+- cut result :: 100
+- concrete terms :: 100
+- active verb :: 100
+- simple verb :: 100
+- dead metaphor :: 100
+
+## triplets
+
+- test plain receipt :: 100
+- test cut receipt :: 100
+- test short receipt :: 100
+- test concrete receipt :: 100
+- plain evidence path :: 100
+- plain concrete words :: 100
+- active verb noun :: 100
+- cut dead language :: 100
+- stale metaphor removed :: 100
+- euphemism vague fog :: 100
+- specific meaning first :: 100
+- name the thing :: 100
+- short simple verb :: 100
+- pretentious diction cut :: 100
+- false limb removed :: 100
+- cloudy vagueness blocked :: 100
+- plain english surface :: 100
+- word meaning reunited :: 100
+- inflated noun replaced :: 100
+- under plain concrete :: 91
+- under plain short :: 91
+- under plain clear :: 91
+- under plain cut :: 91
+- under concrete short :: 91
+- under concrete clear :: 91
+- under concrete cut :: 91
+- under concrete fog :: 91
+- under short clear :: 90
+- under short cut :: 90
+- under short fog :: 90
+- under short euphemism :: 90
+- under clear cut :: 90
+- under clear fog :: 90
+- under clear euphemism :: 90
+## voice noun reservoir stabilization addendum
+- voice method :: 100
+- voice evidence :: 100
+- voice judgment :: 100
+- voice task :: 100
+- voice receipt :: 100
+- voice finding :: 100
+- voice constraint :: 100
+- voice noun :: 100
+- voice verb :: 100
+- voice signal :: 100
+- voice contrast :: 100
+- voice boundary :: 100
+- voice contribution :: 100
+- mini mmm loaded :: 100
+- loaded mini mmm :: 100
+- assigned mini mmm :: 100
+- local voice context :: 100
+- voice-specific nouns :: 100
+- method nouns :: 100
+- reader stance :: 100
+- decision stance :: 100
+- audit stance :: 100
+- build stance :: 100
+- repair stance :: 100
+- acceptance stance :: 100
+- subagent voice :: 100
+- voice worker :: 100
+- voice proof :: 100
+- distinct output :: 100
+- behavioral pull :: 100
+- salience pull :: 100
+- voice usefulness :: 100
+- output repair :: 100
+- system repair :: 100
+- mmm stability :: 100
+- wizard stability :: 100
+- qit support :: 100
+- sim support :: 100

@@ -1,0 +1,73 @@
+{
+  "best_final_answer_path": "/Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate/runs/wizard_general_bakeoff_latest/best_final_answer.md",
+  "best_size": "standard",
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate",
+  "generated_at": "2026-04-28T08:03:25.114749+00:00",
+  "out_dir": "/Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate/runs/wizard_general_bakeoff_latest",
+  "results": [
+    {
+      "final_answer_path": "/Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate/runs/wizard_general_bakeoff_latest/ultra/final_answer.md",
+      "final_words": 1545,
+      "general_words": 44,
+      "notes": [
+        "validation passed",
+        "too small to carry output shape",
+        "complete but scannable output",
+        "emergency shorthand only"
+      ],
+      "ok": true,
+      "out_dir": "/Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate/runs/wizard_general_bakeoff_latest/ultra",
+      "score": 75,
+      "size": "ultra",
+      "validation_path": "/Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate/runs/wizard_general_bakeoff_latest/ultra/validation_final_answer.json"
+    },
+    {
+      "final_answer_path": "/Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate/runs/wizard_general_bakeoff_latest/compact/final_answer.md",
+      "final_words": 1545,
+      "general_words": 82,
+      "notes": [
+        "validation passed",
+        "usable but not ideal size",
+        "complete but scannable output"
+      ],
+      "ok": true,
+      "out_dir": "/Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate/runs/wizard_general_bakeoff_latest/compact",
+      "score": 125,
+      "size": "compact",
+      "validation_path": "/Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate/runs/wizard_general_bakeoff_latest/compact/validation_final_answer.json"
+    },
+    {
+      "final_answer_path": "/Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate/runs/wizard_general_bakeoff_latest/standard/final_answer.md",
+      "final_words": 1545,
+      "general_words": 269,
+      "notes": [
+        "validation passed",
+        "runtime-sized prompt",
+        "complete but scannable output",
+        "preferred default when tied"
+      ],
+      "ok": true,
+      "out_dir": "/Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate/runs/wizard_general_bakeoff_latest/standard",
+      "score": 158,
+      "size": "standard",
+      "validation_path": "/Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate/runs/wizard_general_bakeoff_latest/standard/validation_final_answer.json"
+    },
+    {
+      "final_answer_path": "/Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate/runs/wizard_general_bakeoff_latest/full/final_answer.md",
+      "final_words": 1545,
+      "general_words": 3567,
+      "notes": [
+        "validation passed",
+        "too large for routine runtime",
+        "complete but scannable output",
+        "reference/debugging size"
+      ],
+      "ok": true,
+      "out_dir": "/Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate/runs/wizard_general_bakeoff_latest/full",
+      "score": 55,
+      "size": "full",
+      "validation_path": "/Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate/runs/wizard_general_bakeoff_latest/full/validation_final_answer.json"
+    }
+  ],
+  "task": "Compare Wizard General sizes and choose the best local runtime surface."
+}

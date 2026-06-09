@@ -1,0 +1,119 @@
+# MMM_VOICE_AUDIT_ULTRA_v2_8
+
+## words
+
+- method collapsed :: 100
+- audit finding :: 100
+- not run :: 100
+- unverified :: 100
+- concluded :: 100
+- clean :: 100
+- collapse :: 100
+- finding :: 100
+- receipt :: 100
+- checked :: 100
+- evidence :: 100
+- verified :: 100
+- current-turn :: 100
+- method executed :: 100
+- worker id :: 100
+- artifact path :: 100
+- open :: 100
+- duplicate :: 100
+- traceability :: 100
+- audit :: 100
+- observed :: 100
+- inferred :: 100
+- unknown :: 100
+- stale :: 100
+- missing :: 100
+- inconsistency :: 100
+- contradiction :: 100
+
+## couplings
+
+- audit evidence :: 100
+- audit receipt :: 100
+- finding evidence :: 100
+- finding receipt :: 100
+- finding trace :: 100
+- clean evidence :: 100
+- clean receipt :: 100
+- clean trace :: 100
+- receipt evidence :: 100
+- receipt trace :: 100
+- missing evidence :: 100
+- missing receipt :: 100
+- collapse evidence :: 100
+- collapse receipt :: 100
+- collapse trace :: 100
+- overclaim evidence :: 100
+- overclaim receipt :: 100
+- method collapsed :: 100
+- audit finding :: 100
+- concluded :: 100
+- audit trace :: 100
+- collapse :: 100
+- clean :: 100
+- finding :: 100
+- duplicate evidence :: 100
+- duplicate receipt :: 100
+- finding support :: 100
+- finding path :: 100
+- finding surface :: 100
+- finding packet :: 100
+- finding result :: 100
+- finding scope :: 100
+- finding boundary :: 100
+- finding status :: 100
+- finding candidate :: 100
+- finding witness :: 100
+- finding probe :: 100
+- finding constraint :: 100
+- unverified :: 100
+- check finding :: 100
+- compare finding :: 100
+- observe finding :: 100
+- receipt truth :: 100
+- checked state :: 100
+- evidence path :: 100
+- source trace :: 100
+- provenance check :: 100
+- false closure :: 100
+
+## triplets
+
+- audit evidence path :: 100
+- under open audit :: 100
+- audit receipt path :: 100
+- within open audit :: 100
+- check audit receipt :: 100
+- compare audit receipt :: 100
+- observe audit receipt :: 100
+- measure audit receipt :: 100
+- across open audit :: 100
+- between open audit :: 100
+- test audit receipt :: 100
+- verify audit receipt :: 100
+- hold audit receipt :: 100
+- preserve audit receipt :: 100
+- through open audit :: 100
+- before open audit :: 100
+- finding evidence path :: 100
+- finding receipt path :: 100
+- finding trace path :: 100
+- check finding receipt :: 100
+- compare finding receipt :: 100
+- observe finding receipt :: 100
+- measure finding receipt :: 100
+- test finding receipt :: 100
+- verify finding receipt :: 100
+- hold finding receipt :: 100
+- preserve finding receipt :: 100
+- checked concluded open :: 100
+- evidence receipt path :: 100
+- observed inferred unknown :: 100
+- missing receipt blocked :: 100
+- false closure finding :: 100
+- collapse detection audit :: 100
+- stale claim flagged :: 100

@@ -1,0 +1,425 @@
+---
+title: Audit
+created: 2026-04-28
+updated: 2026-04-28
+type: concept
+tags: [wizard, mmm, packet, receipt]
+framing: current
+source_path: runs/wizard_full_format_repair_latest/mini_mmm/audit.md
+---
+
+Lane-local behavior probe body for Audit. Candidate root: /Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate. This record was normalized from collected probe output only. The harness did not spawn agents, infer hidden execution, or add a claim beyond the supplied lane record. Review this lane as receipt evidence: checked material, conclusion, remaining open question, and cited evidence must remain tied to the captured output. The body exists so the adapter can verify that every completed lane has a lane-local language surface rather than borrowing global prose. Future readers should treat the text as a behavior probe normalization artifact, not as independent proof of correctness. 
+
+Collected output:
+# MMM_VOICE_AUDIT_FULL_v2_7
+
+## aligned nouns and phrases
+
+- current-turn
+- method executed
+- method collapsed
+- worker id
+- artifact path
+- audit finding
+- language body
+- audit
+- receipt
+- concluded
+- open
+- evidence
+- finding
+- clean
+- missing
+- unsupported
+- unread
+- verified
+- failed
+- pass
+- fail
+- drift
+- collapse
+- fake
+- plurality
+- duplicate
+- method
+- check
+- closeout
+- registry
+- traceability
+- unverified
+- verify
+- path
+- row
+- deferred
+- blocked
+- unrun
+- gap
+- defect
+- ledger
+- outside
+- only
+- then
+- bounded
+- finite
+- distinct
+- concrete
+- observed
+- small
+- honest
+- first
+- prior
+- separate
+- together
+- compared
+- measured
+- used
+- fit
+- viable
+- direct
+- different
+- alternate
+- branch
+- packet
+- artifact
+- trace
+- result
+- support
+- scope
+- boundary
+- gate
+- guard
+- rung
+- status
+- candidate
+- survivor
+- witness
+- probe
+- constraint
+- name
+- use
+- role
+- practice
+- experience
+- observation
+- perception
+- conjunction
+- resemblance
+- relation
+- probability
+- particular
+- predicate
+- class
+- model
+- solver
+- satisfiable
+- unsatisfiable
+- countermodel
+- counterexample
+- equivalence
+- indistinguishable
+- readout
+- measure
+- measurement
+- operation
+- procedure
+- instrument
+- experiment
+- compare
+- sample
+- route
+- lane
+- voice
+- lens
+- council
+- blocker
+- spawned
+- diagnostic
+- untried
+- preload
+- language
+- body
+- during
+- since
+- toward
+- relative
+- according
+- locally
+- jointly
+- separately
+- rather
+- instead
+- still
+- often
+- sometimes
+- usually
+- seems
+- likely
+- possible
+- plausible
+- tentative
+- provisional
+- partial
+- limited
+- case
+- instance
+- word
+- regularity
+- distinction
+- difference
+- similarity
+- comparison
+- inference
+- estimate
+- uncertainty
+- frequency
+- distribution
+- condition
+- fork
+- perspective
+- claim
+
+## correlated couplings
+
+- fail current-turn
+- drift current-turn
+- collapse current-turn
+- fake current-turn
+- fake method executed
+- audit evidence
+- audit support
+- audit packet
+- audit receipt
+- audit trace
+- audit result
+- audit scope
+- audit boundary
+- audit witness
+- audit probe
+- audit constraint
+- compare audit
+- measure audit
+- hold audit
+- preserve audit
+- split audit
+- narrow audit
+- receipt evidence
+- receipt support
+- receipt packet
+- receipt trace
+- receipt result
+- receipt scope
+- receipt boundary
+- receipt witness
+- receipt probe
+- receipt constraint
+- compare receipt
+- measure receipt
+- hold receipt
+- preserve receipt
+- split receipt
+- narrow receipt
+- finding evidence
+- finding support
+- finding packet
+- finding receipt
+- finding trace
+- finding result
+- finding scope
+- finding boundary
+- finding witness
+- finding probe
+- finding constraint
+- compare finding
+- measure finding
+- hold finding
+- preserve finding
+- split finding
+- narrow finding
+- clean evidence
+- clean support
+- clean packet
+- clean receipt
+- clean trace
+- clean result
+- clean scope
+- clean boundary
+- clean witness
+- clean probe
+- clean constraint
+- compare clean
+- measure clean
+- hold clean
+- preserve clean
+- split clean
+- narrow clean
+- missing evidence
+- missing support
+- missing packet
+- missing receipt
+- missing trace
+- missing result
+- missing scope
+- missing boundary
+- missing witness
+- missing probe
+- missing constraint
+- compare missing
+- measure missing
+- hold missing
+- preserve missing
+- split missing
+- narrow missing
+- duplicate evidence
+- duplicate support
+- duplicate packet
+- duplicate receipt
+- duplicate trace
+- duplicate result
+- duplicate scope
+- duplicate boundary
+- duplicate witness
+- duplicate probe
+- duplicate constraint
+- compare duplicate
+- measure duplicate
+- hold duplicate
+- preserve duplicate
+- split duplicate
+- narrow duplicate
+- collapse evidence
+- collapse support
+- collapse packet
+- collapse receipt
+- collapse trace
+- collapse result
+- collapse scope
+- collapse boundary
+- collapse witness
+- collapse probe
+- collapse constraint
+- compare collapse
+- measure collapse
+- hold collapse
+- preserve collapse
+- split collapse
+- narrow collapse
+- overclaim evidence
+- overclaim support
+- overclaim packet
+- overclaim receipt
+- overclaim trace
+- overclaim result
+- overclaim scope
+- overclaim boundary
+- overclaim witness
+- overclaim probe
+- overclaim constraint
+- compare overclaim
+- measure overclaim
+- hold overclaim
+- preserve overclaim
+- split overclaim
+- narrow overclaim
+- compare verify
+- measure verify
+- hold verify
+- preserve verify
+- split verify
+- narrow verify
+- compare check
+- method executed
+- method collapsed
+- worker id
+- audit finding
+- current-turn
+- during audit
+- during receipt
+- during checked
+- during concluded
+- during open
+- during evidence
+- during finding
+- during clean
+
+## three-part cues
+
+- method current-turn closeout
+- method current-turn registry
+- method current-turn traceability
+- compare audit receipt
+- measure audit receipt
+- hold audit receipt
+- preserve audit receipt
+- compare finding receipt
+- measure finding receipt
+- hold finding receipt
+- preserve finding receipt
+- compare clean receipt
+- measure clean receipt
+- hold clean receipt
+- preserve clean receipt
+- during audit receipt
+- during audit checked
+- during audit concluded
+- during audit open
+- during receipt checked
+- during receipt concluded
+- during receipt open
+- during receipt evidence
+- during checked concluded
+- during checked open
+- during checked evidence
+- during checked finding
+- during concluded open
+- during concluded evidence
+- during concluded finding
+- during concluded clean
+- during open evidence
+- during open finding
+- during open clean
+- during open missing
+- during evidence finding
+- during evidence clean
+- during evidence missing
+- during evidence unsupported
+- during finding clean
+- during finding missing
+- during finding unsupported
+- during finding stale
+- during clean missing
+- during clean unsupported
+- during clean stale
+- during clean unread
+- during missing unsupported
+- during missing stale
+- during missing unread
+- during unsupported stale
+- during unsupported unread
+- during stale unread
+- during stale verified
+- during unread verified
+- during unread failed
+- during verified failed
+- during verified pass
+- during verified fail
+- during verified drift
+- during failed pass
+- during failed fail
+- during failed drift
+- during failed collapse
+- during pass fail
+- during pass drift
+- during pass collapse
+- during pass fake
+- during fail drift
+- during fail collapse
+- during fail fake
+- during fail plurality
+- during drift collapse
+- during drift fake
+- during drift plurality
+- during drift duplicate
+- during collapse fake
+- during collapse plurality
+- during collapse duplicate
+- during collapse method

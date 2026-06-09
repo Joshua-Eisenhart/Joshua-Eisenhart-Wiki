@@ -1,0 +1,372 @@
+# MMM_LANE_ALTERNATIVE_STANDARD_v2_8
+
+## words
+
+- actual :: 100
+- alternate :: 100
+- alternative :: 100
+- apart :: 100
+- assumption :: 100
+- backup :: 100
+- benefit :: 100
+- better if :: 100
+- branch :: 100
+- careful :: 100
+- case :: 100
+- checked :: 100
+- compare :: 100
+- compared :: 100
+- comparison :: 100
+- concrete :: 100
+- contrast :: 100
+- cost :: 100
+- difference :: 100
+- different :: 100
+- different assumption :: 100
+- distinct :: 100
+- divergent :: 100
+- exchange :: 100
+- fallback :: 100
+- first :: 100
+- fork :: 100
+- found :: 100
+- held :: 100
+- honest :: 100
+- inferred :: 100
+- known :: 100
+- later :: 100
+- live :: 100
+- narrow :: 100
+- next :: 100
+- observed :: 100
+- option :: 100
+- other :: 100
+- parallel :: 100
+- path :: 100
+- plain :: 100
+- prior :: 100
+- returned :: 100
+- route :: 100
+- second :: 100
+- second path :: 100
+- separate :: 100
+- side :: 100
+- stale :: 100
+- tradeoff :: 100
+- unknown :: 100
+- variant :: 100
+- viable :: 100
+- warm :: 100
+- worse if :: 100
+- across :: 99
+- after :: 99
+- against :: 99
+- along :: 99
+- among :: 99
+- around :: 99
+- before :: 99
+- beside :: 99
+- between :: 99
+- from :: 99
+- inside :: 99
+- near :: 99
+- not :: 99
+- only :: 99
+- outside :: 99
+- over :: 99
+
+## couplings
+
+- across alternative :: 100
+- across fork :: 100
+- across tradeoff :: 100
+- after alternative :: 100
+- after tradeoff :: 100
+- alternative boundary :: 100
+- alternative candidate :: 100
+- alternative constraint :: 100
+- alternative evidence :: 100
+- alternative option :: 100
+- alternative packet :: 100
+- alternative path :: 100
+- alternative probe :: 100
+- alternative receipt :: 100
+- alternative result :: 100
+- alternative scope :: 100
+- alternative status :: 100
+- alternative support :: 100
+- alternative surface :: 100
+- alternative trace :: 100
+- alternative tradeoff :: 100
+- alternative witness :: 100
+- assumption shift :: 100
+- before alternative :: 100
+- before tradeoff :: 100
+- between alternative :: 100
+- between fork :: 100
+- between tradeoff :: 100
+- branch contrast :: 100
+- check alternative :: 100
+- check fork :: 100
+- check tradeoff :: 100
+- compare alternative :: 100
+- compare fork :: 100
+- compare route :: 100
+- compare tradeoff :: 100
+- compare viable :: 100
+- comparison route :: 100
+- cost benefit :: 100
+- different assumption :: 100
+- different path :: 100
+- different tradeoff :: 100
+- fallback option :: 100
+- fork boundary :: 100
+- fork candidate :: 100
+- fork constraint :: 100
+- fork evidence :: 100
+- fork option :: 100
+- fork packet :: 100
+- fork path :: 100
+- fork probe :: 100
+- fork receipt :: 100
+- fork result :: 100
+- fork scope :: 100
+- fork status :: 100
+- fork support :: 100
+- fork surface :: 100
+- fork trace :: 100
+- fork tradeoff :: 100
+- fork witness :: 100
+- hold alternative :: 100
+- hold fork :: 100
+- hold tradeoff :: 100
+- measure alternative :: 100
+- measure fork :: 100
+- measure tradeoff :: 100
+- narrow alternative :: 100
+- narrow fork :: 100
+- narrow tradeoff :: 100
+- observe alternative :: 100
+- observe fork :: 100
+- observe tradeoff :: 100
+- option :: 100
+- other way :: 100
+- parallel option :: 100
+- preserve alternative :: 100
+- preserve fork :: 100
+- preserve tradeoff :: 100
+- real fork :: 100
+- route compare :: 100
+- route comparison :: 100
+- route option :: 100
+- route tradeoff :: 100
+- second route :: 100
+- split alternative :: 100
+- split fork :: 100
+- split tradeoff :: 100
+- test alternative :: 100
+- test fork :: 100
+- test tradeoff :: 100
+- through alternative :: 100
+- through tradeoff :: 100
+- tradeoff :: 100
+- tradeoff boundary :: 100
+- tradeoff candidate :: 100
+- tradeoff compare :: 100
+- tradeoff constraint :: 100
+- tradeoff evidence :: 100
+- tradeoff option :: 100
+- tradeoff packet :: 100
+- tradeoff path :: 100
+- tradeoff probe :: 100
+- tradeoff receipt :: 100
+- tradeoff result :: 100
+- tradeoff scope :: 100
+- tradeoff status :: 100
+- tradeoff support :: 100
+- tradeoff surface :: 100
+- tradeoff trace :: 100
+- tradeoff witness :: 100
+- under alternative :: 100
+- under fork :: 100
+- under tradeoff :: 100
+- until alternative :: 100
+- until tradeoff :: 100
+- verify alternative :: 100
+- verify fork :: 100
+- verify tradeoff :: 100
+- viable alternative :: 100
+- where alternative :: 100
+- where tradeoff :: 100
+- while alternative :: 100
+- while tradeoff :: 100
+- within alternative :: 100
+- within fork :: 100
+- within tradeoff :: 100
+- after fork :: 99
+- before fork :: 99
+- through fork :: 99
+- until fork :: 99
+- where fork :: 99
+- while fork :: 99
+- across viable :: 98
+- between viable :: 98
+- through viable :: 98
+- under viable :: 98
+- within viable :: 98
+- after viable :: 97
+- before viable :: 97
+- check viable :: 97
+- measure viable :: 97
+- observe viable :: 97
+- test viable :: 97
+- until viable :: 97
+- viable boundary :: 97
+- viable candidate :: 97
+- viable constraint :: 97
+- viable evidence :: 97
+- viable packet :: 97
+- viable path :: 97
+- viable probe :: 97
+- viable receipt :: 97
+- viable result :: 97
+- viable scope :: 97
+- viable status :: 97
+- viable support :: 97
+- viable surface :: 97
+- viable trace :: 97
+- viable witness :: 97
+- where viable :: 97
+
+## triplets
+
+- across bounded alternative :: 100
+- across current alternative :: 100
+- across finite alternative :: 100
+- across live alternative :: 100
+- across live tradeoff :: 100
+- across local alternative :: 100
+- across open alternative :: 100
+- across open tradeoff :: 100
+- alternative path viable :: 100
+- between bounded alternative :: 100
+- between current alternative :: 100
+- between finite alternative :: 100
+- between live alternative :: 100
+- between local alternative :: 100
+- between open alternative :: 100
+- branch comparison result :: 100
+- check tradeoff receipt :: 100
+- compare alternative receipt :: 100
+- compare fork receipt :: 100
+- compare tradeoff receipt :: 100
+- compare viable receipt :: 100
+- cost benefit tradeoff :: 100
+- different assumption path :: 100
+- fallback option contrast :: 100
+- hold tradeoff receipt :: 100
+- measure tradeoff receipt :: 100
+- observe tradeoff receipt :: 100
+- parallel route check :: 100
+- real fork tradeoff :: 100
+- second route comparison :: 100
+- test tradeoff receipt :: 100
+- through current alternative :: 100
+- tradeoff boundary path :: 100
+- tradeoff evidence path :: 100
+- tradeoff packet path :: 100
+- tradeoff path path :: 100
+- tradeoff receipt path :: 100
+- tradeoff result path :: 100
+- tradeoff scope path :: 100
+- tradeoff support path :: 100
+- tradeoff surface path :: 100
+- tradeoff trace path :: 100
+- under bounded alternative :: 100
+- under current alternative :: 100
+- under finite alternative :: 100
+- under live alternative :: 100
+- under live tradeoff :: 100
+- under local alternative :: 100
+- under open alternative :: 100
+- under open tradeoff :: 100
+- verify tradeoff receipt :: 100
+- within bounded alternative :: 100
+- within current alternative :: 100
+- within finite alternative :: 100
+- within live alternative :: 100
+- within live tradeoff :: 100
+- within local alternative :: 100
+- within open alternative :: 100
+- within open tradeoff :: 100
+- alternative boundary path :: 99
+- alternative evidence path :: 99
+- alternative packet path :: 99
+- alternative path path :: 99
+- alternative receipt path :: 99
+- alternative result path :: 99
+- alternative scope path :: 99
+- alternative support path :: 99
+- alternative surface path :: 99
+- alternative trace path :: 99
+- before bounded alternative :: 99
+- before current alternative :: 99
+- before finite alternative :: 99
+- before live alternative :: 99
+- before local alternative :: 99
+- before open alternative :: 99
+- check alternative receipt :: 99
+- measure alternative receipt :: 99
+- observe alternative receipt :: 99
+- through bounded alternative :: 99
+- through finite alternative :: 99
+- through live alternative :: 99
+- through local alternative :: 99
+- through open alternative :: 99
+- under alternative tradeoff :: 99
+- under route tradeoff :: 99
+- across bounded fork :: 98
+- across current fork :: 98
+- across finite fork :: 98
+- across live fork :: 98
+- across local fork :: 98
+- across open fork :: 98
+- between bounded fork :: 98
+- between current fork :: 98
+- between local fork :: 98
+- hold alternative receipt :: 98
+- preserve alternative receipt :: 98
+- test alternative receipt :: 98
+- under bounded fork :: 98
+- under current fork :: 98
+- under finite fork :: 98
+- under fork tradeoff :: 98
+- under live fork :: 98
+- under local fork :: 98
+- under open fork :: 98
+- under option compare :: 98
+- under tradeoff option :: 98
+- verify alternative receipt :: 98
+- within bounded fork :: 98
+- within current fork :: 98
+- within finite fork :: 98
+- within live fork :: 98
+- within local fork :: 98
+- within open fork :: 98
+- before bounded fork :: 97
+- before current fork :: 97
+- before finite fork :: 97
+- before live fork :: 97
+- before local fork :: 97
+- before open fork :: 97
+- between finite fork :: 97
+- between live fork :: 97
+- between open fork :: 97
+- fork boundary path :: 97
+- fork evidence path :: 97
+- fork packet path :: 97
+- fork path path :: 97
+- fork receipt path :: 97
+- fork result path :: 97
+- fork scope path :: 97
+- fork support path :: 97

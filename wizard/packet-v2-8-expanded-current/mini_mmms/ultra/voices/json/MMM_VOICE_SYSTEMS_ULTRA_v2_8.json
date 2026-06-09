@@ -1,0 +1,888 @@
+{
+  "words": [
+    [
+      1,
+      "feedback",
+      100
+    ],
+    [
+      2,
+      "incentive",
+      100
+    ],
+    [
+      3,
+      "interaction",
+      100
+    ],
+    [
+      4,
+      "propagation",
+      100
+    ],
+    [
+      5,
+      "feedback loop",
+      100
+    ],
+    [
+      6,
+      "reinforcing loop",
+      100
+    ],
+    [
+      7,
+      "balancing loop",
+      100
+    ],
+    [
+      8,
+      "dependency",
+      100
+    ],
+    [
+      9,
+      "coupling",
+      100
+    ],
+    [
+      10,
+      "structure",
+      100
+    ],
+    [
+      11,
+      "loop",
+      100
+    ],
+    [
+      12,
+      "system structure",
+      100
+    ],
+    [
+      13,
+      "environment",
+      100
+    ],
+    [
+      14,
+      "emergence",
+      100
+    ],
+    [
+      15,
+      "selection",
+      100
+    ],
+    [
+      16,
+      "network",
+      100
+    ],
+    [
+      17,
+      "node",
+      100
+    ],
+    [
+      18,
+      "edge",
+      100
+    ],
+    [
+      19,
+      "balancing",
+      100
+    ],
+    [
+      20,
+      "reinforcing",
+      100
+    ],
+    [
+      21,
+      "second-order",
+      100
+    ],
+    [
+      22,
+      "emergent",
+      100
+    ],
+    [
+      23,
+      "system",
+      100
+    ],
+    [
+      24,
+      "stock",
+      100
+    ],
+    [
+      25,
+      "flow",
+      100
+    ],
+    [
+      26,
+      "delay",
+      100
+    ],
+    [
+      27,
+      "parameter",
+      100
+    ],
+    [
+      28,
+      "leverage",
+      100
+    ],
+    [
+      29,
+      "mini-MMM",
+      100
+    ],
+    [
+      30,
+      "mini MMM",
+      100
+    ],
+    [
+      31,
+      "voice shape",
+      100
+    ],
+    [
+      32,
+      "voice shaping",
+      100
+    ],
+    [
+      33,
+      "shape voice",
+      100
+    ],
+    [
+      34,
+      "shaped voice",
+      100
+    ],
+    [
+      35,
+      "voice contour",
+      100
+    ],
+    [
+      36,
+      "voice signature",
+      100
+    ],
+    [
+      37,
+      "voice localizer",
+      100
+    ],
+    [
+      38,
+      "local voice",
+      100
+    ],
+    [
+      39,
+      "aligned nouns",
+      100
+    ],
+    [
+      40,
+      "correlated thinkers",
+      100
+    ],
+    [
+      41,
+      "thinker alignment",
+      100
+    ],
+    [
+      42,
+      "noun alignment",
+      100
+    ],
+    [
+      43,
+      "voice method",
+      100
+    ],
+    [
+      44,
+      "voice evidence",
+      100
+    ],
+    [
+      45,
+      "voice judgment",
+      100
+    ],
+    [
+      46,
+      "voice task",
+      100
+    ],
+    [
+      47,
+      "voice receipt",
+      100
+    ],
+    [
+      48,
+      "voice finding",
+      100
+    ],
+    [
+      49,
+      "voice constraint",
+      100
+    ],
+    [
+      50,
+      "voice noun",
+      100
+    ],
+    [
+      51,
+      "voice verb",
+      100
+    ],
+    [
+      52,
+      "voice signal",
+      100
+    ],
+    [
+      53,
+      "voice contrast",
+      100
+    ],
+    [
+      54,
+      "voice boundary",
+      100
+    ],
+    [
+      55,
+      "voice contribution",
+      100
+    ],
+    [
+      56,
+      "mini mmm loaded",
+      100
+    ],
+    [
+      57,
+      "loaded mini mmm",
+      100
+    ],
+    [
+      58,
+      "assigned mini mmm",
+      100
+    ],
+    [
+      59,
+      "local voice context",
+      100
+    ],
+    [
+      60,
+      "voice-specific nouns",
+      100
+    ],
+    [
+      61,
+      "method nouns",
+      100
+    ],
+    [
+      62,
+      "reader stance",
+      100
+    ],
+    [
+      63,
+      "decision stance",
+      100
+    ],
+    [
+      64,
+      "audit stance",
+      100
+    ],
+    [
+      65,
+      "build stance",
+      100
+    ],
+    [
+      66,
+      "repair stance",
+      100
+    ],
+    [
+      67,
+      "acceptance stance",
+      100
+    ],
+    [
+      68,
+      "subagent voice",
+      100
+    ],
+    [
+      69,
+      "voice worker",
+      100
+    ],
+    [
+      70,
+      "voice proof",
+      100
+    ],
+    [
+      71,
+      "distinct output",
+      100
+    ],
+    [
+      72,
+      "behavioral pull",
+      100
+    ],
+    [
+      73,
+      "salience pull",
+      100
+    ],
+    [
+      74,
+      "voice usefulness",
+      100
+    ],
+    [
+      75,
+      "output repair",
+      100
+    ],
+    [
+      76,
+      "system repair",
+      100
+    ],
+    [
+      77,
+      "mmm stability",
+      100
+    ],
+    [
+      78,
+      "wizard stability",
+      100
+    ],
+    [
+      79,
+      "qit support",
+      100
+    ],
+    [
+      80,
+      "sim support",
+      100
+    ]
+  ],
+  "couplings": [
+    [
+      1,
+      "loop boundary",
+      100
+    ],
+    [
+      2,
+      "loop constraint",
+      100
+    ],
+    [
+      3,
+      "feedback boundary",
+      100
+    ],
+    [
+      4,
+      "feedback constraint",
+      100
+    ],
+    [
+      5,
+      "incentive boundary",
+      100
+    ],
+    [
+      6,
+      "incentive constraint",
+      100
+    ],
+    [
+      7,
+      "structure boundary",
+      100
+    ],
+    [
+      8,
+      "structure constraint",
+      100
+    ],
+    [
+      9,
+      "interaction boundary",
+      100
+    ],
+    [
+      10,
+      "interaction constraint",
+      100
+    ],
+    [
+      11,
+      "propagation boundary",
+      100
+    ],
+    [
+      12,
+      "propagation constraint",
+      100
+    ],
+    [
+      13,
+      "coupling boundary",
+      100
+    ],
+    [
+      14,
+      "coupling constraint",
+      100
+    ],
+    [
+      15,
+      "feedback loop",
+      100
+    ],
+    [
+      16,
+      "reinforcing loop",
+      100
+    ],
+    [
+      17,
+      "balancing loop",
+      100
+    ],
+    [
+      18,
+      "loop",
+      100
+    ],
+    [
+      19,
+      "loop evidence",
+      100
+    ],
+    [
+      20,
+      "loop support",
+      100
+    ],
+    [
+      21,
+      "loop path",
+      100
+    ],
+    [
+      22,
+      "loop surface",
+      100
+    ],
+    [
+      23,
+      "loop packet",
+      100
+    ],
+    [
+      24,
+      "loop receipt",
+      100
+    ],
+    [
+      25,
+      "loop trace",
+      100
+    ],
+    [
+      26,
+      "loop result",
+      100
+    ],
+    [
+      27,
+      "loop scope",
+      100
+    ],
+    [
+      28,
+      "loop status",
+      100
+    ],
+    [
+      29,
+      "loop candidate",
+      100
+    ],
+    [
+      30,
+      "loop witness",
+      100
+    ],
+    [
+      31,
+      "feedback",
+      100
+    ],
+    [
+      32,
+      "coupling",
+      100
+    ],
+    [
+      33,
+      "propagation",
+      100
+    ],
+    [
+      34,
+      "incentive",
+      100
+    ],
+    [
+      35,
+      "structure",
+      100
+    ],
+    [
+      36,
+      "dependency",
+      100
+    ],
+    [
+      37,
+      "interaction",
+      100
+    ],
+    [
+      38,
+      "loop probe",
+      100
+    ],
+    [
+      39,
+      "check loop",
+      100
+    ],
+    [
+      40,
+      "compare loop",
+      100
+    ],
+    [
+      41,
+      "observe loop",
+      100
+    ],
+    [
+      42,
+      "measure loop",
+      100
+    ],
+    [
+      43,
+      "test loop",
+      100
+    ],
+    [
+      44,
+      "verify loop",
+      100
+    ],
+    [
+      45,
+      "negative feedback",
+      100
+    ],
+    [
+      46,
+      "positive feedback",
+      100
+    ],
+    [
+      47,
+      "stock and flow",
+      100
+    ],
+    [
+      48,
+      "information flow",
+      100
+    ],
+    [
+      49,
+      "mini-MMM shapes voice",
+      100
+    ],
+    [
+      50,
+      "mini MMM voice shape",
+      100
+    ],
+    [
+      51,
+      "voice shaped by nouns",
+      100
+    ],
+    [
+      52,
+      "aligned nouns shape voice",
+      100
+    ],
+    [
+      53,
+      "correlated thinkers shape voice",
+      100
+    ],
+    [
+      54,
+      "thinker alignment voice",
+      100
+    ],
+    [
+      55,
+      "noun alignment voice",
+      100
+    ],
+    [
+      56,
+      "voice signature nouns",
+      100
+    ],
+    [
+      57,
+      "local voice contour",
+      100
+    ]
+  ],
+  "triplets": [
+    [
+      1,
+      "loop boundary path",
+      100
+    ],
+    [
+      2,
+      "feedback boundary path",
+      100
+    ],
+    [
+      3,
+      "incentive boundary path",
+      100
+    ],
+    [
+      4,
+      "structure boundary path",
+      100
+    ],
+    [
+      5,
+      "under environment loop",
+      100
+    ],
+    [
+      6,
+      "under boundary feedback",
+      100
+    ],
+    [
+      7,
+      "under boundary loop",
+      100
+    ],
+    [
+      8,
+      "under boundary coupling",
+      100
+    ],
+    [
+      9,
+      "under boundary incentive",
+      100
+    ],
+    [
+      10,
+      "under feedback loop",
+      100
+    ],
+    [
+      11,
+      "under loop coupling",
+      100
+    ],
+    [
+      12,
+      "under loop incentive",
+      100
+    ],
+    [
+      13,
+      "under loop emergence",
+      100
+    ],
+    [
+      14,
+      "stock flow feedback",
+      100
+    ],
+    [
+      15,
+      "goal rule incentive",
+      100
+    ],
+    [
+      16,
+      "loop delay response",
+      100
+    ],
+    [
+      17,
+      "system boundary coupling",
+      100
+    ],
+    [
+      18,
+      "leverage point intervention",
+      100
+    ],
+    [
+      19,
+      "information flow access",
+      100
+    ],
+    [
+      20,
+      "positive feedback growth",
+      100
+    ],
+    [
+      21,
+      "negative feedback correction",
+      100
+    ],
+    [
+      22,
+      "second order effect",
+      100
+    ],
+    [
+      23,
+      "emergent behavior pattern",
+      100
+    ],
+    [
+      24,
+      "self organization structure",
+      100
+    ],
+    [
+      25,
+      "rules goals paradigm",
+      100
+    ],
+    [
+      26,
+      "incentive selection pressure",
+      100
+    ],
+    [
+      27,
+      "coupling propagation path",
+      100
+    ],
+    [
+      28,
+      "under environment feedback",
+      90
+    ],
+    [
+      29,
+      "under environment coupling",
+      90
+    ],
+    [
+      30,
+      "under feedback coupling",
+      90
+    ],
+    [
+      31,
+      "under feedback incentive",
+      90
+    ],
+    [
+      32,
+      "under feedback emergence",
+      90
+    ],
+    [
+      33,
+      "under coupling incentive",
+      90
+    ],
+    [
+      34,
+      "under coupling emergence",
+      90
+    ],
+    [
+      35,
+      "mini-MMM shapes voice",
+      100
+    ],
+    [
+      36,
+      "mini MMM voice shape",
+      100
+    ],
+    [
+      37,
+      "voice shaped by nouns",
+      100
+    ],
+    [
+      38,
+      "aligned nouns shape voice",
+      100
+    ],
+    [
+      39,
+      "correlated thinkers shape voice",
+      100
+    ]
+  ]
+}

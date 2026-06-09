@@ -1,0 +1,12 @@
+{
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate",
+  "checked": "loaded mini_mmms/full/voices/md/MMM_VOICE_STRATEGY_FULL_v2_7.md",
+  "concluded": "Decisive point: prove receipt truth first, then run fresh-agent behavior tests, then consider live wiring.",
+  "evidence": "mini_mmms/full/voices/md/MMM_VOICE_STRATEGY_FULL_v2_7.md terms: center of gravity, decisive point, work path, means and ends, retreat condition, economy of force, strategic reserve, decisive front",
+  "generated_at": "2026-04-28T08:22:15.046153+00:00",
+  "lane": "Strategy",
+  "open": "live proof pending",
+  "output_excerpt": "Task: Improve and locally run the repaired MMM Wizard packet without live wiring.\nWizard General size: full\nWave 1: Voice Wave\nDecisive point: prove receipt truth first, then run fresh-agent behavior tests, then consider live wiring.\nLoaded language body terms: center of gravity, decisive point, work path, means and ends, retreat condition, economy of force, strategic reserve, decisive front",
+  "output_sha256": "5b14acec213f003d033ff322d38976c874529690fbc9544a2ee27d683fdef81d",
+  "schema_version": "wizard_behavior_harness.v1"
+}

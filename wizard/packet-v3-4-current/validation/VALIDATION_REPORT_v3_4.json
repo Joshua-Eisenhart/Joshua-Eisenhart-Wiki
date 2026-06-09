@@ -1,0 +1,24 @@
+{
+  "version": "v3.4",
+  "status": "PASS",
+  "checks": {
+    "zip_base_extracted": true,
+    "all_json_parses": true,
+    "required_files_exist": true,
+    "no_forbidden_active_dirs": true,
+    "runtime_capability_negotiation": true,
+    "compact_runtime_capability": true,
+    "simulated_status_defined": true,
+    "elastic_wave_doctrine": true,
+    "adapters_translation_only": true,
+    "hybrid_codex_claude_exists": true,
+    "controller_synthesis_not_execution": true,
+    "main_mmm_files_exist": true,
+    "main_boot_semantic_clean": true,
+    "diagnostic_vocab_retained_in_allowed_places": true,
+    "universal_full_larger_than_compact": true
+  },
+  "json_count": 101,
+  "json_errors": [],
+  "semantic_hits_count": 0
+}

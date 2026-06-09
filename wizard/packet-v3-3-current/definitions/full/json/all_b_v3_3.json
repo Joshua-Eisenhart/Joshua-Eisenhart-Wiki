@@ -1,0 +1,66 @@
+{
+  "id": "ALL_B",
+  "name": "All-B",
+  "emoji": "🧬",
+  "category": "compositions",
+  "scale": "composition",
+  "purpose": "Preserve divergence and prevent single-narrative collapse.",
+  "unique_job": "Hume -> Zhuangzi -> Popper -> Feynman -> Wildcard -> Audit",
+  "non_job": "Do not become decorative or unreceipted.",
+  "inputs": "behavior claim, baseline output, loaded-MMM output, audit criteria",
+  "outputs": "Plain evidence bridge, live readings, exclusion tests, falsifier, measurable check, off-axis probe, collapse audit.",
+  "subagent_contract": "Composition requires member route receipts or blocked/deferred truth, then an integrated composition receipt. It normally appears in audited Follow-up, not as a body catalog.",
+  "receipt_requirement": "Visible route status must be exactly spawned, blocked, or deferred. Spawned receipts name unit_id, unit_type, wave, mini-MMM loaded path, task card, checked, concluded, open, evidence, and artifact/output. Blocked/deferred receipts name reason and condition_to_run.",
+  "collapse_signs": "Composition becomes a decorative route list without integrated tension, receipts, and selection condition.",
+  "nearest_neighbors": [
+    "Hume",
+    "Zhuangzi",
+    "Wildcard"
+  ],
+  "salience_drivers": {
+    "full_top_words": [
+      "plurality",
+      "live",
+      "options",
+      "hume",
+      "read",
+      "zhuangzi",
+      "hold",
+      "wildcard",
+      "probe",
+      "anti",
+      "collapse",
+      "preserve",
+      "divergence",
+      "dissent"
+    ],
+    "compact_top_words": [
+      "human read",
+      "live readings",
+      "wildcard probe",
+      "collapse audit",
+      "surviving split",
+      "falsifier",
+      "observable",
+      "options"
+    ],
+    "deep_research_positive_words": [
+      "evidence bridge",
+      "live readings",
+      "exclusion tests",
+      "off-axis probe",
+      "collapse audit"
+    ],
+    "deep_research_couplings": [
+      "preserve divergence",
+      "prevent collapse",
+      "off-axis probe"
+    ],
+    "deep_research_triplets": [
+      "evidence readings exclusion"
+    ]
+  },
+  "people_schools_systems_methods": "Collapse-audit bundle: evidence bridge, plural readings, exclusion tests, measurement, off-axis probe, audit.",
+  "math_operator_geometry_associations": "Divergence-preserving composition over Hume, Zhuangzi, Popper, Feynman, Wildcard, Audit.",
+  "legacy_mined_notes": "All-B is the behavior-proof and collapse-audit bundle. Hume states what receipts support, Zhuangzi preserves live readings, Popper names the behavior falsifier, Feynman defines the comparison operation, Wildcard adds an adversarial probe, and Audit decides whether salience claims survived. v2.8 Pro audit requested richer debugging definitions and positive people/schools/systems/methods/math salience. deep-research-report.md supplied the positive noun/coupling/triplet expansion used here."
+}

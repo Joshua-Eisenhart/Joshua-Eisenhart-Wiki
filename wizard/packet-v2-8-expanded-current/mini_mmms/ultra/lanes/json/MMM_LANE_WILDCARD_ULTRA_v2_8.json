@@ -1,0 +1,548 @@
+{
+  "words": [
+    [
+      1,
+      "unexpected",
+      100
+    ],
+    [
+      2,
+      "unlock",
+      100
+    ],
+    [
+      3,
+      "probe",
+      100
+    ],
+    [
+      4,
+      "odd",
+      100
+    ],
+    [
+      5,
+      "cheap test",
+      100
+    ],
+    [
+      6,
+      "edge move",
+      100
+    ],
+    [
+      7,
+      "upside",
+      100
+    ],
+    [
+      8,
+      "small experiment",
+      100
+    ],
+    [
+      9,
+      "wildcard",
+      100
+    ],
+    [
+      10,
+      "surprise",
+      100
+    ],
+    [
+      11,
+      "blocker",
+      100
+    ],
+    [
+      12,
+      "bounded",
+      100
+    ],
+    [
+      13,
+      "creative",
+      100
+    ],
+    [
+      14,
+      "nonobvious",
+      100
+    ],
+    [
+      15,
+      "strange",
+      100
+    ],
+    [
+      16,
+      "door",
+      100
+    ],
+    [
+      17,
+      "cheap",
+      100
+    ],
+    [
+      18,
+      "unusual",
+      100
+    ],
+    [
+      19,
+      "lateral",
+      100
+    ],
+    [
+      20,
+      "weird",
+      100
+    ],
+    [
+      21,
+      "anomaly",
+      100
+    ],
+    [
+      22,
+      "small",
+      100
+    ],
+    [
+      23,
+      "bet",
+      100
+    ],
+    [
+      24,
+      "asymmetric",
+      100
+    ],
+    [
+      25,
+      "edge",
+      100
+    ],
+    [
+      26,
+      "inversion",
+      100
+    ]
+  ],
+  "couplings": [
+    [
+      1,
+      "unexpected probe",
+      100
+    ],
+    [
+      2,
+      "wildcard probe",
+      100
+    ],
+    [
+      3,
+      "unlock probe",
+      100
+    ],
+    [
+      4,
+      "surprise probe",
+      100
+    ],
+    [
+      5,
+      "odd probe",
+      100
+    ],
+    [
+      6,
+      "probe",
+      100
+    ],
+    [
+      7,
+      "unexpected",
+      100
+    ],
+    [
+      8,
+      "unlock",
+      100
+    ],
+    [
+      9,
+      "unexpected evidence",
+      100
+    ],
+    [
+      10,
+      "unexpected support",
+      100
+    ],
+    [
+      11,
+      "unexpected path",
+      100
+    ],
+    [
+      12,
+      "unexpected surface",
+      100
+    ],
+    [
+      13,
+      "unexpected packet",
+      100
+    ],
+    [
+      14,
+      "unexpected receipt",
+      100
+    ],
+    [
+      15,
+      "unexpected trace",
+      100
+    ],
+    [
+      16,
+      "unexpected result",
+      100
+    ],
+    [
+      17,
+      "unexpected scope",
+      100
+    ],
+    [
+      18,
+      "unexpected boundary",
+      100
+    ],
+    [
+      19,
+      "unexpected status",
+      100
+    ],
+    [
+      20,
+      "unexpected candidate",
+      100
+    ],
+    [
+      21,
+      "unexpected witness",
+      100
+    ],
+    [
+      22,
+      "unexpected constraint",
+      100
+    ],
+    [
+      23,
+      "check unexpected",
+      100
+    ],
+    [
+      24,
+      "compare unexpected",
+      100
+    ],
+    [
+      25,
+      "observe unexpected",
+      100
+    ],
+    [
+      26,
+      "measure unexpected",
+      100
+    ],
+    [
+      27,
+      "test unexpected",
+      100
+    ],
+    [
+      28,
+      "verify unexpected",
+      100
+    ],
+    [
+      29,
+      "hold unexpected",
+      100
+    ],
+    [
+      30,
+      "preserve unexpected",
+      100
+    ],
+    [
+      31,
+      "split unexpected",
+      100
+    ],
+    [
+      32,
+      "narrow unexpected",
+      100
+    ],
+    [
+      33,
+      "non obvious probe",
+      100
+    ],
+    [
+      34,
+      "surprise route",
+      100
+    ],
+    [
+      35,
+      "lateral move",
+      100
+    ],
+    [
+      36,
+      "unlock move",
+      100
+    ],
+    [
+      37,
+      "small bet",
+      100
+    ],
+    [
+      38,
+      "asymmetric upside",
+      100
+    ],
+    [
+      39,
+      "unexpected angle",
+      100
+    ],
+    [
+      40,
+      "weird edge",
+      100
+    ],
+    [
+      41,
+      "anomaly probe",
+      100
+    ],
+    [
+      42,
+      "inversion test",
+      100
+    ],
+    [
+      43,
+      "wildcard option",
+      100
+    ],
+    [
+      44,
+      "unusual route",
+      100
+    ],
+    [
+      45,
+      "edge case",
+      100
+    ],
+    [
+      46,
+      "left field check",
+      100
+    ],
+    [
+      47,
+      "under unexpected",
+      95
+    ],
+    [
+      48,
+      "within unexpected",
+      95
+    ]
+  ],
+  "triplets": [
+    [
+      1,
+      "under unexpected probe",
+      100
+    ],
+    [
+      2,
+      "under odd probe",
+      100
+    ],
+    [
+      3,
+      "under unlock probe",
+      100
+    ],
+    [
+      4,
+      "non obvious probe",
+      100
+    ],
+    [
+      5,
+      "surprise route unlock",
+      100
+    ],
+    [
+      6,
+      "lateral move small",
+      100
+    ],
+    [
+      7,
+      "asymmetric upside test",
+      100
+    ],
+    [
+      8,
+      "weird edge case",
+      100
+    ],
+    [
+      9,
+      "anomaly probe option",
+      100
+    ],
+    [
+      10,
+      "unexpected angle check",
+      100
+    ],
+    [
+      11,
+      "inversion test route",
+      100
+    ],
+    [
+      12,
+      "under wildcard unexpected",
+      91
+    ],
+    [
+      13,
+      "under surprise unexpected",
+      91
+    ],
+    [
+      14,
+      "under surprise unlock",
+      91
+    ],
+    [
+      15,
+      "under unexpected odd",
+      91
+    ],
+    [
+      16,
+      "under unexpected unlock",
+      90
+    ],
+    [
+      17,
+      "under odd unlock",
+      90
+    ],
+    [
+      18,
+      "within wildcard unexpected",
+      89
+    ],
+    [
+      19,
+      "under bounded probe",
+      86
+    ],
+    [
+      20,
+      "within bounded probe",
+      86
+    ],
+    [
+      21,
+      "across bounded probe",
+      86
+    ],
+    [
+      22,
+      "between bounded probe",
+      86
+    ],
+    [
+      23,
+      "through bounded probe",
+      86
+    ],
+    [
+      24,
+      "before bounded probe",
+      86
+    ],
+    [
+      25,
+      "under bounded unexpected",
+      77
+    ],
+    [
+      26,
+      "within bounded unexpected",
+      77
+    ],
+    [
+      27,
+      "across bounded unexpected",
+      77
+    ],
+    [
+      28,
+      "between bounded unexpected",
+      77
+    ],
+    [
+      29,
+      "through bounded unexpected",
+      76
+    ],
+    [
+      30,
+      "before bounded unexpected",
+      76
+    ],
+    [
+      31,
+      "under bounded unlock",
+      73
+    ],
+    [
+      32,
+      "within bounded unlock",
+      73
+    ],
+    [
+      33,
+      "across bounded unlock",
+      73
+    ],
+    [
+      34,
+      "between bounded unlock",
+      73
+    ]
+  ]
+}

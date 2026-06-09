@@ -1,0 +1,698 @@
+{
+  "words": [
+    [
+      1,
+      "controller act",
+      100
+    ],
+    [
+      2,
+      "after receipts",
+      100
+    ],
+    [
+      3,
+      "preserved difference",
+      100
+    ],
+    [
+      4,
+      "surviving split",
+      100
+    ],
+    [
+      5,
+      "compose",
+      100
+    ],
+    [
+      6,
+      "carry",
+      100
+    ],
+    [
+      7,
+      "not merged",
+      100
+    ],
+    [
+      8,
+      "not collapsed",
+      100
+    ],
+    [
+      9,
+      "excluded",
+      100
+    ],
+    [
+      10,
+      "bounded exclusion",
+      100
+    ],
+    [
+      11,
+      "contradiction",
+      100
+    ],
+    [
+      12,
+      "live remainder",
+      100
+    ],
+    [
+      13,
+      "tension",
+      100
+    ],
+    [
+      14,
+      "held apart",
+      100
+    ],
+    [
+      15,
+      "unresolved",
+      100
+    ],
+    [
+      16,
+      "no consensus",
+      100
+    ],
+    [
+      17,
+      "synthesis",
+      100
+    ],
+    [
+      18,
+      "preserve",
+      100
+    ],
+    [
+      19,
+      "composition",
+      100
+    ],
+    [
+      20,
+      "distinct",
+      100
+    ],
+    [
+      21,
+      "receipt",
+      100
+    ],
+    [
+      22,
+      "nonmerge",
+      100
+    ],
+    [
+      23,
+      "interface",
+      100
+    ],
+    [
+      24,
+      "alignment",
+      100
+    ],
+    [
+      25,
+      "carryforward",
+      100
+    ],
+    [
+      26,
+      "separate",
+      100
+    ],
+    [
+      27,
+      "hold",
+      100
+    ],
+    [
+      28,
+      "compare",
+      100
+    ],
+    [
+      29,
+      "mini-MMM",
+      100
+    ],
+    [
+      30,
+      "mini MMM",
+      100
+    ],
+    [
+      31,
+      "voice shape",
+      100
+    ],
+    [
+      32,
+      "voice shaping",
+      100
+    ],
+    [
+      33,
+      "shape voice",
+      100
+    ],
+    [
+      34,
+      "shaped voice",
+      100
+    ],
+    [
+      35,
+      "voice contour",
+      100
+    ],
+    [
+      36,
+      "voice signature",
+      100
+    ],
+    [
+      37,
+      "voice localizer",
+      100
+    ],
+    [
+      38,
+      "local voice",
+      100
+    ],
+    [
+      39,
+      "aligned nouns",
+      100
+    ],
+    [
+      40,
+      "correlated thinkers",
+      100
+    ],
+    [
+      41,
+      "thinker alignment",
+      100
+    ],
+    [
+      42,
+      "noun alignment",
+      100
+    ]
+  ],
+  "couplings": [
+    [
+      1,
+      "surviving split",
+      100
+    ],
+    [
+      2,
+      "controller act",
+      100
+    ],
+    [
+      3,
+      "compose",
+      100
+    ],
+    [
+      4,
+      "hold tension",
+      100
+    ],
+    [
+      5,
+      "preserved difference",
+      100
+    ],
+    [
+      6,
+      "preserve receipt",
+      100
+    ],
+    [
+      7,
+      "synthesis compose",
+      100
+    ],
+    [
+      8,
+      "compose composition",
+      100
+    ],
+    [
+      9,
+      "compose receipt",
+      100
+    ],
+    [
+      10,
+      "compose distinct",
+      100
+    ],
+    [
+      11,
+      "compose preserve",
+      100
+    ],
+    [
+      12,
+      "compose carry",
+      100
+    ],
+    [
+      13,
+      "compose tension",
+      100
+    ],
+    [
+      14,
+      "distinct receipt",
+      100
+    ],
+    [
+      15,
+      "preserve distinct",
+      100
+    ],
+    [
+      16,
+      "tension receipt",
+      100
+    ],
+    [
+      17,
+      "preserve tension",
+      100
+    ],
+    [
+      18,
+      "preserve evidence",
+      100
+    ],
+    [
+      19,
+      "preserve trace",
+      100
+    ],
+    [
+      20,
+      "preserve result",
+      100
+    ],
+    [
+      21,
+      "preserve scope",
+      100
+    ],
+    [
+      22,
+      "preserve status",
+      100
+    ],
+    [
+      23,
+      "preserve candidate",
+      100
+    ],
+    [
+      24,
+      "preserve witness",
+      100
+    ],
+    [
+      25,
+      "preserve constraint",
+      100
+    ],
+    [
+      26,
+      "check preserve",
+      100
+    ],
+    [
+      27,
+      "compare preserve",
+      100
+    ],
+    [
+      28,
+      "observe preserve",
+      100
+    ],
+    [
+      29,
+      "measure preserve",
+      100
+    ],
+    [
+      30,
+      "test preserve",
+      100
+    ],
+    [
+      31,
+      "verify preserve",
+      100
+    ],
+    [
+      32,
+      "preserve preserve",
+      100
+    ],
+    [
+      33,
+      "split preserve",
+      100
+    ],
+    [
+      34,
+      "narrow preserve",
+      100
+    ],
+    [
+      35,
+      "where preserve",
+      100
+    ],
+    [
+      36,
+      "while preserve",
+      100
+    ],
+    [
+      37,
+      "live remainder",
+      100
+    ],
+    [
+      38,
+      "distinct receipts",
+      100
+    ],
+    [
+      39,
+      "held tension",
+      100
+    ],
+    [
+      40,
+      "non merge",
+      100
+    ],
+    [
+      41,
+      "preserved split",
+      100
+    ],
+    [
+      42,
+      "surviving difference",
+      100
+    ],
+    [
+      43,
+      "separate receipts",
+      100
+    ],
+    [
+      44,
+      "composition step",
+      100
+    ],
+    [
+      45,
+      "controller synthesis",
+      100
+    ],
+    [
+      46,
+      "receipt comparison",
+      100
+    ],
+    [
+      47,
+      "carry forward",
+      100
+    ],
+    [
+      48,
+      "without flattening",
+      100
+    ],
+    [
+      49,
+      "mini-MMM shapes voice",
+      100
+    ],
+    [
+      50,
+      "mini MMM voice shape",
+      100
+    ],
+    [
+      51,
+      "voice shaped by nouns",
+      100
+    ],
+    [
+      52,
+      "aligned nouns shape voice",
+      100
+    ],
+    [
+      53,
+      "correlated thinkers shape voice",
+      100
+    ],
+    [
+      54,
+      "thinker alignment voice",
+      100
+    ],
+    [
+      55,
+      "noun alignment voice",
+      100
+    ],
+    [
+      56,
+      "voice signature nouns",
+      100
+    ],
+    [
+      57,
+      "local voice contour",
+      100
+    ]
+  ],
+  "triplets": [
+    [
+      1,
+      "preserve distinct receipt",
+      100
+    ],
+    [
+      2,
+      "under synthesis compose",
+      100
+    ],
+    [
+      3,
+      "under compose receipt",
+      100
+    ],
+    [
+      4,
+      "within synthesis compose",
+      100
+    ],
+    [
+      5,
+      "within compose receipt",
+      100
+    ],
+    [
+      6,
+      "preserve receipt path",
+      100
+    ],
+    [
+      7,
+      "check preserve receipt",
+      100
+    ],
+    [
+      8,
+      "compare preserve receipt",
+      100
+    ],
+    [
+      9,
+      "observe preserve receipt",
+      100
+    ],
+    [
+      10,
+      "measure preserve receipt",
+      100
+    ],
+    [
+      11,
+      "test preserve receipt",
+      100
+    ],
+    [
+      12,
+      "verify preserve receipt",
+      100
+    ],
+    [
+      13,
+      "hold preserve receipt",
+      100
+    ],
+    [
+      14,
+      "preserve preserve receipt",
+      100
+    ],
+    [
+      15,
+      "distinct receipts held",
+      100
+    ],
+    [
+      16,
+      "preserve tension nonmerge",
+      100
+    ],
+    [
+      17,
+      "compare receipts compose",
+      100
+    ],
+    [
+      18,
+      "surviving split carried",
+      100
+    ],
+    [
+      19,
+      "unresolved contradiction held",
+      100
+    ],
+    [
+      20,
+      "aggregate without flattening",
+      100
+    ],
+    [
+      21,
+      "receipt interface summary",
+      100
+    ],
+    [
+      22,
+      "separate branches retained",
+      100
+    ],
+    [
+      23,
+      "merge refusal boundary",
+      100
+    ],
+    [
+      24,
+      "composition after receipts",
+      100
+    ],
+    [
+      25,
+      "across synthesis compose",
+      98
+    ],
+    [
+      26,
+      "across compose receipt",
+      98
+    ],
+    [
+      27,
+      "between synthesis compose",
+      97
+    ],
+    [
+      28,
+      "between compose receipt",
+      97
+    ],
+    [
+      29,
+      "through synthesis compose",
+      95
+    ],
+    [
+      30,
+      "under compose composition",
+      91
+    ],
+    [
+      31,
+      "under compose distinct",
+      91
+    ],
+    [
+      32,
+      "under compose preserve",
+      91
+    ],
+    [
+      33,
+      "within compose composition",
+      89
+    ],
+    [
+      34,
+      "within compose distinct",
+      88
+    ],
+    [
+      35,
+      "mini-MMM shapes voice",
+      100
+    ],
+    [
+      36,
+      "mini MMM voice shape",
+      100
+    ],
+    [
+      37,
+      "voice shaped by nouns",
+      100
+    ],
+    [
+      38,
+      "aligned nouns shape voice",
+      100
+    ],
+    [
+      39,
+      "correlated thinkers shape voice",
+      100
+    ]
+  ]
+}

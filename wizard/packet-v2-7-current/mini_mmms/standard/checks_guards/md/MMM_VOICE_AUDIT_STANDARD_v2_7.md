@@ -1,0 +1,199 @@
+---
+title: Mmm Voice Audit Standard V2 7
+created: 2026-04-28
+updated: 2026-04-28
+type: concept
+tags: [wizard, mmm, packet, receipt]
+framing: current
+source_path: mini_mmms/standard/checks_guards/md/MMM_VOICE_AUDIT_STANDARD_v2_7.md
+---
+
+# MMM_VOICE_AUDIT_STANDARD_v2_7
+
+## aligned nouns and phrases
+
+- artifact path
+- audit finding
+- current-turn
+- method collapsed
+- method executed
+- audit
+- blocked
+- check
+- citation
+- clean
+- closeout
+- closure
+- collapse
+- concluded
+- concrete
+- contradiction
+- defect
+- deferred
+- distinct
+- drift
+- duplicate
+- evidence
+- fail
+- failed
+- fake
+- false
+- finding
+- first
+- gap
+- honest
+- inconsistency
+- leakage
+- ledger
+- method
+- missing
+- observed
+- open
+- pass
+- path
+- plurality
+- prior
+- provenance
+- receipt
+- registry
+- report
+- row
+- severity
+- input
+- trace
+- traceability
+- unread
+- unresolved
+- unrun
+- unsupported
+- unverified
+- verified
+- verify
+
+## correlated couplings
+
+- audit boundary
+- audit checked
+- audit clean
+- audit concluded
+- audit constraint
+- audit evidence
+- audit finding
+- audit open
+- audit packet
+- audit probe
+- audit receipt
+- audit result
+- audit scope
+- audit support
+- audit trace
+- audit witness
+- checked clean
+- checked concluded
+- checked evidence
+- checked finding
+- checked missing
+- checked open
+- checked state
+- clean boundary
+- clean constraint
+- clean evidence
+- clean packet
+- clean probe
+- clean receipt
+- clean result
+- clean scope
+- clean support
+- clean trace
+- clean verified
+- clean witness
+- collapse evidence
+- collapse receipt
+- collapse trace
+- compare clean
+- compare finding
+- concluded clean
+- concluded evidence
+- concluded finding
+- concluded missing
+- concluded open
+- concluded verified
+- duplicate evidence
+- duplicate receipt
+- evidence clean
+- evidence finding
+- evidence missing
+- evidence verified
+- finding boundary
+- finding clean
+- finding constraint
+- finding evidence
+- finding packet
+- finding probe
+- finding receipt
+- finding result
+- finding scope
+- finding support
+- finding trace
+- finding verified
+- finding witness
+- hold clean
+- hold finding
+- measure clean
+- measure finding
+- method collapsed
+- missing evidence
+- missing receipt
+- missing trace
+- narrow clean
+- narrow finding
+- narrow receipt
+- open clean
+- open finding
+- open missing
+- open verified
+- overclaim evidence
+- overclaim receipt
+- preserve clean
+- preserve finding
+- preserve receipt
+- receipt boundary
+- receipt checked
+- receipt clean
+- receipt concluded
+- receipt constraint
+- receipt evidence
+- receipt finding
+- receipt missing
+- receipt open
+- receipt packet
+- receipt probe
+- receipt result
+- receipt scope
+- receipt support
+- receipt trace
+
+## three-part cues
+
+- checked concluded open
+- collapse detection audit
+- compare audit receipt
+- compare clean receipt
+- compare finding receipt
+- current receipt required
+- false closure finding
+- finding severity clean
+- hold audit receipt
+- hold clean receipt
+- hold finding receipt
+- measure audit receipt
+- measure clean receipt
+- measure finding receipt
+- missing receipt blocked
+- observed inferred unknown
+- overclaim risk open
+- preserve audit receipt
+- preserve clean receipt
+- preserve finding receipt
+- input trace provenance
+- stale claim flagged

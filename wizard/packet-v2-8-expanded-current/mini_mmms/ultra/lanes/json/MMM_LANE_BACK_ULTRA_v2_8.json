@@ -1,0 +1,498 @@
+{
+  "words": [
+    [
+      1,
+      "back",
+      100
+    ],
+    [
+      2,
+      "resume",
+      100
+    ],
+    [
+      3,
+      "navigation",
+      100
+    ],
+    [
+      4,
+      "previous surface",
+      100
+    ],
+    [
+      5,
+      "return",
+      100
+    ],
+    [
+      6,
+      "previous",
+      100
+    ],
+    [
+      7,
+      "undo",
+      100
+    ],
+    [
+      8,
+      "restore",
+      100
+    ],
+    [
+      9,
+      "prior branch",
+      100
+    ],
+    [
+      10,
+      "branch context",
+      100
+    ],
+    [
+      11,
+      "no branch",
+      100
+    ],
+    [
+      12,
+      "target",
+      100
+    ],
+    [
+      13,
+      "returned",
+      100
+    ],
+    [
+      14,
+      "earlier",
+      100
+    ],
+    [
+      15,
+      "revisit",
+      100
+    ],
+    [
+      16,
+      "choice",
+      100
+    ],
+    [
+      17,
+      "frame",
+      100
+    ],
+    [
+      18,
+      "interactive",
+      100
+    ],
+    [
+      19,
+      "prior",
+      100
+    ],
+    [
+      20,
+      "surface",
+      100
+    ],
+    [
+      21,
+      "branch",
+      100
+    ],
+    [
+      22,
+      "context",
+      100
+    ],
+    [
+      23,
+      "last",
+      100
+    ],
+    [
+      24,
+      "decision",
+      100
+    ]
+  ],
+  "couplings": [
+    [
+      1,
+      "previous surface",
+      100
+    ],
+    [
+      2,
+      "back evidence",
+      100
+    ],
+    [
+      3,
+      "back support",
+      100
+    ],
+    [
+      4,
+      "back path",
+      100
+    ],
+    [
+      5,
+      "back surface",
+      100
+    ],
+    [
+      6,
+      "back packet",
+      100
+    ],
+    [
+      7,
+      "back receipt",
+      100
+    ],
+    [
+      8,
+      "back trace",
+      100
+    ],
+    [
+      9,
+      "back result",
+      100
+    ],
+    [
+      10,
+      "back scope",
+      100
+    ],
+    [
+      11,
+      "back boundary",
+      100
+    ],
+    [
+      12,
+      "back status",
+      100
+    ],
+    [
+      13,
+      "back candidate",
+      100
+    ],
+    [
+      14,
+      "back witness",
+      100
+    ],
+    [
+      15,
+      "back probe",
+      100
+    ],
+    [
+      16,
+      "back constraint",
+      100
+    ],
+    [
+      17,
+      "check back",
+      100
+    ],
+    [
+      18,
+      "compare back",
+      100
+    ],
+    [
+      19,
+      "observe back",
+      100
+    ],
+    [
+      20,
+      "measure back",
+      100
+    ],
+    [
+      21,
+      "test back",
+      100
+    ],
+    [
+      22,
+      "verify back",
+      100
+    ],
+    [
+      23,
+      "hold back",
+      100
+    ],
+    [
+      24,
+      "preserve back",
+      100
+    ],
+    [
+      25,
+      "split back",
+      100
+    ],
+    [
+      26,
+      "narrow back",
+      100
+    ],
+    [
+      27,
+      "where back",
+      100
+    ],
+    [
+      28,
+      "while back",
+      100
+    ],
+    [
+      29,
+      "return surface",
+      100
+    ],
+    [
+      30,
+      "prior decision",
+      100
+    ],
+    [
+      31,
+      "previous branch",
+      100
+    ],
+    [
+      32,
+      "resume context",
+      100
+    ],
+    [
+      33,
+      "back navigation",
+      100
+    ],
+    [
+      34,
+      "restore thread",
+      100
+    ],
+    [
+      35,
+      "last choice",
+      100
+    ],
+    [
+      36,
+      "return point",
+      100
+    ],
+    [
+      37,
+      "under back",
+      96
+    ],
+    [
+      38,
+      "within back",
+      96
+    ],
+    [
+      39,
+      "across back",
+      96
+    ],
+    [
+      40,
+      "between back",
+      96
+    ],
+    [
+      41,
+      "through back",
+      96
+    ],
+    [
+      42,
+      "before back",
+      96
+    ],
+    [
+      43,
+      "after back",
+      96
+    ],
+    [
+      44,
+      "until back",
+      96
+    ]
+  ],
+  "triplets": [
+    [
+      1,
+      "back evidence path",
+      100
+    ],
+    [
+      2,
+      "back support path",
+      100
+    ],
+    [
+      3,
+      "back path path",
+      100
+    ],
+    [
+      4,
+      "back surface path",
+      100
+    ],
+    [
+      5,
+      "locally previous surface target",
+      100
+    ],
+    [
+      6,
+      "locally previous surface navigation",
+      100
+    ],
+    [
+      7,
+      "locally previous surface branch context",
+      100
+    ],
+    [
+      8,
+      "under live back",
+      100
+    ],
+    [
+      9,
+      "return prior surface",
+      100
+    ],
+    [
+      10,
+      "previous branch resume",
+      100
+    ],
+    [
+      11,
+      "restore context thread",
+      100
+    ],
+    [
+      12,
+      "back navigation choice",
+      100
+    ],
+    [
+      13,
+      "under open back",
+      96
+    ],
+    [
+      14,
+      "within open back",
+      96
+    ],
+    [
+      15,
+      "under back return",
+      89
+    ],
+    [
+      16,
+      "under back previous",
+      89
+    ],
+    [
+      17,
+      "under back resume",
+      89
+    ],
+    [
+      18,
+      "under back undo",
+      89
+    ],
+    [
+      19,
+      "within return previous",
+      89
+    ],
+    [
+      20,
+      "within return resume",
+      89
+    ],
+    [
+      21,
+      "within return undo",
+      89
+    ],
+    [
+      22,
+      "through previous resume",
+      88
+    ],
+    [
+      23,
+      "under current back",
+      78
+    ],
+    [
+      24,
+      "under local back",
+      78
+    ],
+    [
+      25,
+      "under bounded back",
+      78
+    ],
+    [
+      26,
+      "under finite back",
+      78
+    ],
+    [
+      27,
+      "within current back",
+      78
+    ],
+    [
+      28,
+      "within local back",
+      78
+    ],
+    [
+      29,
+      "within bounded back",
+      78
+    ],
+    [
+      30,
+      "within finite back",
+      78
+    ]
+  ]
+}

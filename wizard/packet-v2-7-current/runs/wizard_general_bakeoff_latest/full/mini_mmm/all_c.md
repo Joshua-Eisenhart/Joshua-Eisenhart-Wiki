@@ -1,0 +1,365 @@
+---
+title: All C
+created: 2026-04-28
+updated: 2026-04-28
+type: concept
+tags: [wizard, mmm, packet, receipt]
+framing: current
+source_path: runs/wizard_general_bakeoff_latest/full/mini_mmm/all_c.md
+---
+
+Lane-local behavior probe body for All-C. Candidate root: /Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate. This record was normalized from collected probe output only. The harness did not spawn agents, infer hidden execution, or add a claim beyond the supplied lane record. Review this lane as receipt evidence: checked material, conclusion, remaining open question, and cited evidence must remain tied to the captured output. The body exists so the adapter can verify that every completed lane has a lane-local language surface rather than borrowing global prose. Future readers should treat the text as a behavior probe normalization artifact, not as independent proof of correctness. 
+
+Collected output:
+# MMM_LANE_ALL_C_FULL_v2_7
+
+## aligned nouns and phrases
+
+- done condition
+- plain wording
+- stale surface
+- trust boundary
+- evidence missing
+- audit overclaim
+- closeout
+- hygiene
+- security
+- factory
+- audit
+- done
+- condition
+- cleanup
+- bundle
+- safe
+- close
+- landed
+- artifact
+- bottleneck
+- relative
+- locally
+- rather
+- instead
+- only
+- still
+- likely
+- possible
+- bounded
+- finite
+- observed
+- measured
+- open
+- partial
+- limited
+- constraint
+- evidence
+- observation
+- measurement
+- trace
+- sample
+- case
+- instance
+- name
+- word
+- use
+- relation
+- distinction
+- comparison
+- support
+- estimate
+- uncertainty
+- model
+- witness
+- counterexample
+- candidate
+- survivor
+- boundary
+- scope
+- result
+- path
+- branch
+- fork
+- plurality
+- perspective
+- claim
+- route
+- receipt
+- voice
+- lane
+- risk
+- composite
+- when
+- work
+- closure
+- drift
+- wording
+- are
+- the
+- threats
+- compose
+- direct
+- repo
+- target
+- cut
+- fog
+- check
+- boundaries
+- inspect
+- maintenance
+- drag
+- block
+- missing
+- default
+- execution
+- exploration
+- broad
+- redesign
+- ceremonial
+- closing
+- that
+- creates
+- theater
+- polish
+- hides
+- mostly
+- cleanly
+- closed
+- which
+- residue
+- will
+- harm
+- future
+- blocks
+- promotion
+- problem
+- solving
+- preservation
+- exposure
+- analysis
+- trust
+- closes
+- cleans
+- advances
+- tests
+- reduces
+
+## correlated thinkers
+
+- Orwell
+
+## correlated couplings
+
+- done condition plain wording
+- done condition trust boundary
+- done condition evidence missing
+- done condition audit overclaim
+- plain wording trust boundary
+- plain wording evidence missing
+- plain wording audit overclaim
+- stale surface trust boundary
+- stale surface evidence missing
+- stale surface audit overclaim
+- trust boundary evidence missing
+- trust boundary audit overclaim
+- evidence missing audit overclaim
+- cleanup done condition
+- cleanup plain wording
+- bundle done condition
+- bundle plain wording
+- safe done condition
+- safe plain wording
+- safe trust boundary
+- close done condition
+- close plain wording
+- close trust boundary
+- landed done condition
+- landed plain wording
+- landed trust boundary
+- landed evidence missing
+- artifact done condition
+- artifact plain wording
+- artifact trust boundary
+- artifact evidence missing
+- artifact audit overclaim
+- done condition bottleneck
+- plain wording bottleneck
+- stale surface bottleneck
+- trust boundary bottleneck
+- bottleneck evidence missing
+- bottleneck audit overclaim
+- closeout hygiene
+- closeout security
+- closeout factory
+- closeout audit
+- closeout done
+- closeout condition
+- closeout cleanup
+- hygiene security
+- hygiene factory
+- hygiene audit
+- hygiene done
+- hygiene condition
+- hygiene cleanup
+- hygiene bundle
+- security factory
+- security audit
+- security done
+- security condition
+- security cleanup
+- security bundle
+- security safe
+- factory audit
+- factory done
+- factory condition
+- factory cleanup
+- factory bundle
+- factory safe
+- factory close
+- audit done
+- audit condition
+- audit cleanup
+- audit bundle
+- audit safe
+- audit close
+- audit landed
+- done condition
+- done cleanup
+- done bundle
+- done safe
+- done close
+- done landed
+- done artifact
+- condition cleanup
+- condition bundle
+- condition safe
+- condition close
+- condition landed
+- condition artifact
+- cleanup bundle
+- cleanup safe
+- cleanup close
+- cleanup landed
+- cleanup artifact
+- bundle safe
+- bundle close
+- bundle landed
+- bundle artifact
+- safe close
+- safe landed
+- safe artifact
+- close landed
+- close artifact
+- close bottleneck
+- landed artifact
+- landed bottleneck
+- artifact bottleneck
+- done condition under
+- plain wording under
+- plain wording within
+- stale surface under
+- stale surface within
+- stale surface across
+- trust boundary under
+- trust boundary within
+- trust boundary across
+- trust boundary between
+- evidence missing under
+- evidence missing within
+- evidence missing across
+- evidence missing between
+- evidence missing through
+- evidence missing before
+- audit overclaim under
+- audit overclaim within
+- audit overclaim across
+- audit overclaim between
+- audit overclaim through
+- audit overclaim before
+- audit overclaim after
+- bottleneck under
+- bottleneck within
+- bottleneck across
+- bottleneck between
+- bottleneck through
+
+## three-part cues
+
+- relative artifact done condition
+- relative artifact plain wording
+- relative artifact trust boundary
+- relative artifact evidence missing
+- relative artifact audit overclaim
+- locally done condition plain wording
+- locally done condition trust boundary
+- locally done condition bottleneck
+- locally done condition evidence missing
+- locally done condition audit overclaim
+- rather plain wording trust boundary
+- rather plain wording bottleneck
+- rather plain wording evidence missing
+- rather plain wording audit overclaim
+- instead stale surface trust boundary
+- instead stale surface bottleneck
+- instead stale surface evidence missing
+- instead stale surface audit overclaim
+- only trust boundary bottleneck
+- only trust boundary evidence missing
+- only trust boundary audit overclaim
+- still bottleneck evidence missing
+- still bottleneck audit overclaim
+- likely evidence missing audit overclaim
+- relative artifact bottleneck
+- locally done condition under
+- rather plain wording under
+- rather plain wording within
+- instead stale surface under
+- instead stale surface within
+- instead stale surface across
+- only trust boundary under
+- only trust boundary within
+- only trust boundary across
+- only trust boundary between
+- likely evidence missing under
+- likely evidence missing within
+- likely evidence missing across
+- likely evidence missing between
+- likely evidence missing through
+- likely evidence missing before
+- possible audit overclaim under
+- possible audit overclaim within
+- possible audit overclaim across
+- possible audit overclaim between
+- possible audit overclaim through
+- possible audit overclaim before
+- possible audit overclaim after
+- still bottleneck under
+- still bottleneck within
+- still bottleneck across
+- still bottleneck between
+- still bottleneck through
+- bounded under within
+- bounded under across
+- bounded under between
+- bounded under through
+- bounded under before
+- bounded under after
+- bounded under from
+- finite within across
+- finite within between
+- finite within through
+- finite within before
+- finite within after
+- finite within from
+- finite within by
+- local across between
+- local across through
+- local across before
+- local across after
+- local across from
+- local across by
+- local across with
+- current between through
+- current between before
+- current between after
+- current between from
+- current between by
+- current between with

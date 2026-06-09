@@ -1,0 +1,918 @@
+{
+  "version": "v3.3",
+  "root": "MMM_WIZARD_CLEAN_SYSTEM_PACKET_v3_3",
+  "sizes": [
+    "FULL",
+    "COMPACT"
+  ],
+  "source_hierarchy": [
+    "current user-stated canon",
+    "v2.8 packet reservoir",
+    "v2.8 Pro audit repair plan",
+    "deep research positive salience mining",
+    "legacy docs mining only",
+    "v3.0/v3.2 rejected-pattern examples only"
+  ],
+  "sources": {
+    "v2_8_zip": "MMM_WIZARD_COMPLETE_SYSTEM_PACKET_v2_8_EXPANDED_DOWNLOADABLE.zip",
+    "v2_8_pro_audit_zip": "MMM_V2_8_PRO_AUDIT_PACKET_DOWNLOADABLE.zip",
+    "deep_research_report": "deep-research-report.md",
+    "v3_2_failure_reference_zip": "MMM_WIZARD_CLEAN_SYSTEM_PACKET_v3_2_DOWNLOADABLE.zip"
+  },
+  "main_mmm": {
+    "full": {
+      "md": "mmm/main/full/md/MMM_MAIN_FULL_v3_3.md",
+      "json": "mmm/main/full/json/MMM_MAIN_FULL_v3_3.json"
+    },
+    "compact": {
+      "md": "mmm/main/compact/md/MMM_MAIN_COMPACT_v3_3.md",
+      "json": "mmm/main/compact/json/MMM_MAIN_COMPACT_v3_3.json"
+    }
+  },
+  "route_count": 23,
+  "file_inventory_excludes": [
+    "MMM_PACKET_MANIFEST_v3_3.json",
+    "MMM_PACKET_MANIFEST_v3_3.md"
+  ],
+  "file_inventory_count": 174,
+  "file_inventory": [
+    {
+      "path": "README_FIRST_v3_3.md",
+      "bytes": 2333,
+      "sha256": "477cc6801409f4a8e2f3f21947e01b213c258f5d8a8e25d8920639a67ec0a8c4"
+    },
+    {
+      "path": "archive/source_zips/MMM_V2_8_PRO_AUDIT_PACKET_DOWNLOADABLE.zip",
+      "bytes": 13775,
+      "sha256": "e707a959d03263d3e806422bda8224f4f0301ddefbc6f1fcd5a0e193d4b1abec"
+    },
+    {
+      "path": "archive/source_zips/MMM_WIZARD_CLEAN_SYSTEM_PACKET_v3_2_DOWNLOADABLE.zip",
+      "bytes": 45773,
+      "sha256": "90e64e3cd5a71ffab1efeea7eb19eb7234975651f5560c21787127ccaf34a001"
+    },
+    {
+      "path": "archive/source_zips/MMM_WIZARD_COMPLETE_SYSTEM_PACKET_v2_8_EXPANDED_DOWNLOADABLE.zip",
+      "bytes": 2257075,
+      "sha256": "f59b649d1b275c5548d62c91f4b272ca529178a3a101a3640a777df22fcf8ea5"
+    },
+    {
+      "path": "archive/source_zips/README_ARCHIVE_NOT_CURRENT_LAW.md",
+      "bytes": 372,
+      "sha256": "1e906d76daf1dff1395609d57c6a18137c9af97c39c488a156a563c337662df1"
+    },
+    {
+      "path": "archive/source_zips/deep-research-report.md",
+      "bytes": 14785,
+      "sha256": "a135ebb012132eaddede38d811301c8f9f6ec63486f822b6d9b4afc472dff99e"
+    },
+    {
+      "path": "definitions/compact/json/MMM_DEFINITIONS_COMPACT_v3_3.json",
+      "bytes": 27552,
+      "sha256": "5b444912d2ded8e51daf1015a1fead155e3d049f4b1376e41be9e82e13089e31"
+    },
+    {
+      "path": "definitions/compact/json/all_a_v3_3.json",
+      "bytes": 1246,
+      "sha256": "277696dd115de7bf8d96a98421815f966cdf77d8812e6c7b665b49aeb74a96bc"
+    },
+    {
+      "path": "definitions/compact/json/all_b_v3_3.json",
+      "bytes": 1236,
+      "sha256": "48ee26cd444726c3b21e47b664a0a90fffd9c4ca18377f3098675815c0b0650c"
+    },
+    {
+      "path": "definitions/compact/json/all_c_v3_3.json",
+      "bytes": 1289,
+      "sha256": "8659e125d796916c24a76a1958cb3427d056e21cc53e86f9c309b2044533e43c"
+    },
+    {
+      "path": "definitions/compact/json/alternative_v3_3.json",
+      "bytes": 1151,
+      "sha256": "3a001b0469ab3fc5b6c4a2a5c5ed421677f20792b1c6e30189d46e4a97970b40"
+    },
+    {
+      "path": "definitions/compact/json/audit_v3_3.json",
+      "bytes": 1065,
+      "sha256": "7c721ba10e15f9e620a6174c8f89ef9417ef26e71f607e4132bd530feea78e4c"
+    },
+    {
+      "path": "definitions/compact/json/back_v3_3.json",
+      "bytes": 1065,
+      "sha256": "0df76fae196ef3cd68f3a3af462f1f4c23ebb78f75816670347671a89e9994d2"
+    },
+    {
+      "path": "definitions/compact/json/direct_v3_3.json",
+      "bytes": 1130,
+      "sha256": "0741c8b8b4a76d6772061816afbf6111d92963bb9ea9e53bfc6bf192208fa636"
+    },
+    {
+      "path": "definitions/compact/json/factory_v3_3.json",
+      "bytes": 1080,
+      "sha256": "f97cf529a4a05cae9a86192a3e2cfdcbe3e8b1f1ad99a0c52d90c663420dd367"
+    },
+    {
+      "path": "definitions/compact/json/feynman_v3_3.json",
+      "bytes": 991,
+      "sha256": "a0070a3c33a269d0faa23204af36c677b19018dace2ab489bcf3fb20b290d8fc"
+    },
+    {
+      "path": "definitions/compact/json/full_wizard_v3_3.json",
+      "bytes": 1490,
+      "sha256": "c6125720ee9b08f37cdb96539ea6714b7f73e5cf10d5040de2c5b6f0f147ddc1"
+    },
+    {
+      "path": "definitions/compact/json/hume_v3_3.json",
+      "bytes": 1073,
+      "sha256": "cefa847098917e2d63d066897498138f537795aca6e4ca510854cccfff3b3c37"
+    },
+    {
+      "path": "definitions/compact/json/hygiene_v3_3.json",
+      "bytes": 1039,
+      "sha256": "23745da733347937abb74ba0b3a2b6842dbc145064dbacb68a67893f3f372874"
+    },
+    {
+      "path": "definitions/compact/json/llm_council_v3_3.json",
+      "bytes": 997,
+      "sha256": "0c6359029d2db8fc9689eba9ce81710a5491ab461850adaa85503b642f5e9122"
+    },
+    {
+      "path": "definitions/compact/json/orwell_v3_3.json",
+      "bytes": 1003,
+      "sha256": "214d23996847555f24605c13f554fdb2f5bc19c47a23b2fa338db911bb3c4164"
+    },
+    {
+      "path": "definitions/compact/json/popper_v3_3.json",
+      "bytes": 958,
+      "sha256": "27bed0ac18899bd0c215b40b1f75aa19abff29bbc12d52a190ea1940d1ae46a6"
+    },
+    {
+      "path": "definitions/compact/json/pushback_v3_3.json",
+      "bytes": 1001,
+      "sha256": "5d2509285dc42eaf542da0f8761999037fa1c3144e642069128baacce1c1bbcf"
+    },
+    {
+      "path": "definitions/compact/json/reframe_v3_3.json",
+      "bytes": 1128,
+      "sha256": "872efd50486793615dfa21e27c5de109beb1071aa51dbcdc6329740d3606d61f"
+    },
+    {
+      "path": "definitions/compact/json/security_v3_3.json",
+      "bytes": 1248,
+      "sha256": "d88c015b55cf638d6e4bc6032378ff50cf0915cdb2eb6cc24607e23296e4c636"
+    },
+    {
+      "path": "definitions/compact/json/strategy_v3_3.json",
+      "bytes": 1023,
+      "sha256": "a951409dd152a098c79fdb2c5aead82c6c883476bc28b5dfeb67253bbcfecd34"
+    },
+    {
+      "path": "definitions/compact/json/synthesis_v3_3.json",
+      "bytes": 969,
+      "sha256": "a17d82dd26508eaf4eb5ddbc9f10372bc31bf7ea5131c9250bbe1bb73312415d"
+    },
+    {
+      "path": "definitions/compact/json/systems_v3_3.json",
+      "bytes": 1055,
+      "sha256": "dd9d87dd4c429eddb0a1e923bb7c1739ab356dc4ab7bd476df000937b56db424"
+    },
+    {
+      "path": "definitions/compact/json/wildcard_v3_3.json",
+      "bytes": 1069,
+      "sha256": "06cd9df76abfacd6251f9d75c29d25e1ad61e77c30f69e7e6c05616774c959f6"
+    },
+    {
+      "path": "definitions/compact/json/zhuangzi_v3_3.json",
+      "bytes": 1065,
+      "sha256": "7018bbe0138f1082b9d716dc0ce9dd54c4b05dd025744de801a9ccd560374e0f"
+    },
+    {
+      "path": "definitions/compact/md/MMM_DEFINITIONS_COMPACT_v3_3.md",
+      "bytes": 39543,
+      "sha256": "3d26e5b64abd8ddb937c0d76b5ee685ca2b9b6da02758221acfe50363a4db181"
+    },
+    {
+      "path": "definitions/full/json/MMM_DEFINITIONS_FULL_v3_3.json",
+      "bytes": 70434,
+      "sha256": "b93f229944dc7677af402570e342e3d2643b7b06c4088eb0de5f1d797c2eb6fe"
+    },
+    {
+      "path": "definitions/full/json/all_a_v3_3.json",
+      "bytes": 2873,
+      "sha256": "c7c8b36e1d594ae61f92b05c53aa14dce2f6f7adeea7311a46c35f68b10b54c4"
+    },
+    {
+      "path": "definitions/full/json/all_b_v3_3.json",
+      "bytes": 2889,
+      "sha256": "de2b932032e1ae4c7ac9be8ce1666a8143e04b95c1b15966b79244edc795bf71"
+    },
+    {
+      "path": "definitions/full/json/all_c_v3_3.json",
+      "bytes": 2902,
+      "sha256": "927ce08476e260990ea6972f46335cd56e05b9292cb2677f117b0f71c3a9ae6c"
+    },
+    {
+      "path": "definitions/full/json/alternative_v3_3.json",
+      "bytes": 2607,
+      "sha256": "fb6187b4eee7cca4ae36025fd5f3157d0655562237341c1c1fa6347bb8565746"
+    },
+    {
+      "path": "definitions/full/json/audit_v3_3.json",
+      "bytes": 2802,
+      "sha256": "a98eb280bdc30c4317fb3a06f4364d993b3084e9d3e2d5181d2e0b26d7cc2fee"
+    },
+    {
+      "path": "definitions/full/json/back_v3_3.json",
+      "bytes": 2479,
+      "sha256": "532dd845b3367be42e38c7844fbd7f16d350a5879776b609be9921a89d524178"
+    },
+    {
+      "path": "definitions/full/json/direct_v3_3.json",
+      "bytes": 2572,
+      "sha256": "fdca174a7d453a06252447189511b104f893a00773b7a5693078814ce7c7d5fb"
+    },
+    {
+      "path": "definitions/full/json/factory_v3_3.json",
+      "bytes": 2927,
+      "sha256": "b9a7be8b30c11c40b20a0e7483416b5b19ee9ff94eecee5d7ef691764bcb9f78"
+    },
+    {
+      "path": "definitions/full/json/feynman_v3_3.json",
+      "bytes": 2730,
+      "sha256": "8e0935fe186f02d6aa6b55e47739054ba0824b255e764eac2185b25d086d1c89"
+    },
+    {
+      "path": "definitions/full/json/full_wizard_v3_3.json",
+      "bytes": 3179,
+      "sha256": "74e09b666fbe2029a709920d6d4c439a430f07ac85087cf595846d2e83a8f610"
+    },
+    {
+      "path": "definitions/full/json/hume_v3_3.json",
+      "bytes": 2885,
+      "sha256": "590a620397f3f247c66ccc4bf6739df84225db1223b3296afaa51ef59f4882f9"
+    },
+    {
+      "path": "definitions/full/json/hygiene_v3_3.json",
+      "bytes": 2452,
+      "sha256": "c0699ef24f181f022f2e265ade51eeb36201aa5b27924be1ba43a14dea798679"
+    },
+    {
+      "path": "definitions/full/json/llm_council_v3_3.json",
+      "bytes": 2813,
+      "sha256": "1c53cc45b554eb58fbcf3a37e29a37d81498b82a610e2780f8a748d638f66d28"
+    },
+    {
+      "path": "definitions/full/json/orwell_v3_3.json",
+      "bytes": 2629,
+      "sha256": "07307b635f6a9461a9c74fed26c0f6a0fca5d1ce6efc9d89ec3162fd1e94591a"
+    },
+    {
+      "path": "definitions/full/json/popper_v3_3.json",
+      "bytes": 2732,
+      "sha256": "e6ad1247c5ac729eccd5ff9dcb9b82cbabe4f6c98597d998ed4b7d341976e72e"
+    },
+    {
+      "path": "definitions/full/json/pushback_v3_3.json",
+      "bytes": 2488,
+      "sha256": "88fe05e3daeae0ab54780ffc3bb78f303090c4778469ed8565a396d53b783530"
+    },
+    {
+      "path": "definitions/full/json/reframe_v3_3.json",
+      "bytes": 2617,
+      "sha256": "2fa8b593ecc0127bda6a512d7fa2015a8f1061aa8f20296d530a552a1999784f"
+    },
+    {
+      "path": "definitions/full/json/security_v3_3.json",
+      "bytes": 3101,
+      "sha256": "76d698fd34ff74f77ee0e7dd03031c8fa861bce5d2efbd4af8b9dbe3b2103b54"
+    },
+    {
+      "path": "definitions/full/json/strategy_v3_3.json",
+      "bytes": 2890,
+      "sha256": "9385afd3948e37e96de2e51c3df225bdf576014d851de4fc369538401fa3db03"
+    },
+    {
+      "path": "definitions/full/json/synthesis_v3_3.json",
+      "bytes": 2463,
+      "sha256": "3383659c16fbbc14fc9b5f5a701c460406387066821acafb46746797852255c2"
+    },
+    {
+      "path": "definitions/full/json/systems_v3_3.json",
+      "bytes": 3067,
+      "sha256": "9c394629f96c5b8a4acee6a6d11d0f966c9569715250b9fbb3d7d01efbb433c3"
+    },
+    {
+      "path": "definitions/full/json/wildcard_v3_3.json",
+      "bytes": 2518,
+      "sha256": "bb141075316402e6df45c8e02561649a5b940caf0cc9d504f87a218371b019eb"
+    },
+    {
+      "path": "definitions/full/json/zhuangzi_v3_3.json",
+      "bytes": 2861,
+      "sha256": "44d4a939f88003c37a5ea2ea9f33ced09a7e3ca96eca3aaf7e6b831513c6e795"
+    },
+    {
+      "path": "definitions/full/md/MMM_DEFINITIONS_FULL_v3_3.md",
+      "bytes": 49244,
+      "sha256": "e78e937da6e7b3d46f01eb67cc4493e5ee00078ee0c7dcb8fd38a74f35d6bf3b"
+    },
+    {
+      "path": "legacy_mining/DEEP_RESEARCH_POSITIVE_SALIENCE_REPORT.md",
+      "bytes": 14786,
+      "sha256": "3831d7cba0ae417efe2e4625c857bccafa7a5f7859ad5a7007374dcb1512bb3c"
+    },
+    {
+      "path": "legacy_mining/EXTRACTED_USEFUL_PATTERNS.md",
+      "bytes": 1689,
+      "sha256": "ddd14a3b7d2588e975f193dd068422fb23ef844e28e2be93d5de08556f138e4f"
+    },
+    {
+      "path": "legacy_mining/PRO_AUDIT_REPAIR_PLAN_MINED.md",
+      "bytes": 16410,
+      "sha256": "98e2c5e5cc47e12383bc1d3952213d0a310c9fe396a7d7bee8409db2bcf2ab77"
+    },
+    {
+      "path": "legacy_mining/README_LEGACY_NOT_CANON.md",
+      "bytes": 465,
+      "sha256": "08fd2e3e11822709bf78c11464a91d4bb4f205cbededd236a51342abd98db399"
+    },
+    {
+      "path": "legacy_mining/REJECTED_LEGACY_PATTERNS.md",
+      "bytes": 452,
+      "sha256": "20304f87f2afe8f8d03b44c056ae58030e5a3924791c0330ac0714f837250192"
+    },
+    {
+      "path": "mmm/main/compact/json/MMM_MAIN_COMPACT_v3_3.json",
+      "bytes": 289908,
+      "sha256": "87c4298d24a58949d667b2ecf0c4f97221442b4bc240fe43adfb0261de7757fc"
+    },
+    {
+      "path": "mmm/main/compact/md/MMM_MAIN_COMPACT_v3_3.md",
+      "bytes": 127102,
+      "sha256": "3f10b094f7fe07abfa6ca2517398498a5a3b19b98c89bcbce6ca26677a8b85aa"
+    },
+    {
+      "path": "mmm/main/full/json/MMM_MAIN_FULL_v3_3.json",
+      "bytes": 2390675,
+      "sha256": "23a2e875efcba13532c0234f77e262fec5508b828c5df53b524770050c4b905c"
+    },
+    {
+      "path": "mmm/main/full/md/MMM_MAIN_FULL_v3_3.md",
+      "bytes": 1044076,
+      "sha256": "cb2cc6a54b6ff5e0987633fee37830dbcbbac9c1ea7dbcfe6ddc4b6a024757b6"
+    },
+    {
+      "path": "mmm/mini/compact/checks_guards/json/MMM_CHECK_GUARD_AUDIT_COMPACT_v3_3.json",
+      "bytes": 20580,
+      "sha256": "b0f2389b9ed7fd3d343058a809700793fc268da062254bb641451ddb65aa2a6b"
+    },
+    {
+      "path": "mmm/mini/compact/checks_guards/json/MMM_CHECK_GUARD_HYGIENE_COMPACT_v3_3.json",
+      "bytes": 18109,
+      "sha256": "b3aff23d38e122976b11448377f3e88fb852922c2c9c4364ebe94bf5adac2e7f"
+    },
+    {
+      "path": "mmm/mini/compact/checks_guards/json/MMM_CHECK_GUARD_SECURITY_COMPACT_v3_3.json",
+      "bytes": 18515,
+      "sha256": "99fe2bf718102fce66be4c04281fcdc574ce83abf405c2d49e78b222b0efa871"
+    },
+    {
+      "path": "mmm/mini/compact/checks_guards/md/MMM_CHECK_GUARD_AUDIT_COMPACT_v3_3.md",
+      "bytes": 9325,
+      "sha256": "9dacb9e0ebe7abe2cdd3bd4c24049f708f17628b6e1efe83c5059097da34525f"
+    },
+    {
+      "path": "mmm/mini/compact/checks_guards/md/MMM_CHECK_GUARD_HYGIENE_COMPACT_v3_3.md",
+      "bytes": 8455,
+      "sha256": "c3ae7cf3ab02721fbfd273778d07a76ed1620ab6f86e43f5de12aa65bfbfd327"
+    },
+    {
+      "path": "mmm/mini/compact/checks_guards/md/MMM_CHECK_GUARD_SECURITY_COMPACT_v3_3.md",
+      "bytes": 8883,
+      "sha256": "ec79a393f484a28d3473a5ccfb73d3cbf3d2861b89555e1b963d8b64da40da9d"
+    },
+    {
+      "path": "mmm/mini/compact/compositions/json/MMM_COMPOSITION_ALL_A_COMPACT_v3_3.json",
+      "bytes": 11563,
+      "sha256": "e8a191a1f87f9808afad109b117bbea65bd48323065038ca23852c54bc1ae6fe"
+    },
+    {
+      "path": "mmm/mini/compact/compositions/json/MMM_COMPOSITION_ALL_B_COMPACT_v3_3.json",
+      "bytes": 11306,
+      "sha256": "83ddf9ea7720f9f6d06a01d7313ac2d29abe58e034900a224317f44aff0b3455"
+    },
+    {
+      "path": "mmm/mini/compact/compositions/json/MMM_COMPOSITION_ALL_C_COMPACT_v3_3.json",
+      "bytes": 11526,
+      "sha256": "977b4ccd5b510f09b563723a480a1ac08ac8fca2485071c0be5cccb75f462d33"
+    },
+    {
+      "path": "mmm/mini/compact/compositions/json/MMM_COMPOSITION_FULL_WIZARD_COMPACT_v3_3.json",
+      "bytes": 11832,
+      "sha256": "329c02a35c697f33b340de8d91d71bab25ca9c60164d4676d832790e575ebf97"
+    },
+    {
+      "path": "mmm/mini/compact/compositions/md/MMM_COMPOSITION_ALL_A_COMPACT_v3_3.md",
+      "bytes": 6230,
+      "sha256": "98e948755fdc90371a9ba8d9b09d6355467c324dfb6b3a0c2a3ea74678a18838"
+    },
+    {
+      "path": "mmm/mini/compact/compositions/md/MMM_COMPOSITION_ALL_B_COMPACT_v3_3.md",
+      "bytes": 6003,
+      "sha256": "2c2b4428e61a091f1e9cd219e147ca02df1d525b9474b1eacc6e1e6df17a2548"
+    },
+    {
+      "path": "mmm/mini/compact/compositions/md/MMM_COMPOSITION_ALL_C_COMPACT_v3_3.md",
+      "bytes": 6076,
+      "sha256": "f138c2913ad5ae7b20b1dc6e506c3f90684e01d6e8a2dbf3ff0d2d384b43a42f"
+    },
+    {
+      "path": "mmm/mini/compact/compositions/md/MMM_COMPOSITION_FULL_WIZARD_COMPACT_v3_3.md",
+      "bytes": 5726,
+      "sha256": "034ada41303f53917e45876a504ddc7d41c4a80e58718b4bcbafed998aaccd85"
+    },
+    {
+      "path": "mmm/mini/compact/controller_acts/json/MMM_CONTROLLER_ACT_SYNTHESIS_COMPACT_v3_3.json",
+      "bytes": 22924,
+      "sha256": "a82c606fc0671994009bb047ea0c7e70dc9453e56ddc32c5b1eff454bcb99e00"
+    },
+    {
+      "path": "mmm/mini/compact/controller_acts/md/MMM_CONTROLLER_ACT_SYNTHESIS_COMPACT_v3_3.md",
+      "bytes": 10357,
+      "sha256": "dcc0ec49cc56ad792b1d0cfc009fa80d7f3b66ac13ba6dce8821df412f347e4d"
+    },
+    {
+      "path": "mmm/mini/compact/lanes/json/MMM_LANE_ALTERNATIVE_COMPACT_v3_3.json",
+      "bytes": 17483,
+      "sha256": "a8b8642ae6ee52ef4b63021438ae3ffaaa8786465c3dcd6afd786ed021c89d67"
+    },
+    {
+      "path": "mmm/mini/compact/lanes/json/MMM_LANE_BACK_COMPACT_v3_3.json",
+      "bytes": 16197,
+      "sha256": "fd371e2460c5def3178926dde462d434e4fc58c049f0a93d71be994d0245565b"
+    },
+    {
+      "path": "mmm/mini/compact/lanes/json/MMM_LANE_DIRECT_COMPACT_v3_3.json",
+      "bytes": 17522,
+      "sha256": "8c50a9658e6382ea637c9da1dbe676241e384447c6562abc014aecf23451fb5d"
+    },
+    {
+      "path": "mmm/mini/compact/lanes/json/MMM_LANE_REFRAME_COMPACT_v3_3.json",
+      "bytes": 17260,
+      "sha256": "63094c76f2fb3084975b8f15ce37c9a9bc38196d0c9f5ea446f0c034108210e4"
+    },
+    {
+      "path": "mmm/mini/compact/lanes/json/MMM_LANE_WILDCARD_COMPACT_v3_3.json",
+      "bytes": 17570,
+      "sha256": "9c6debaf7f2eec7cf3a31b59cd8db77922513870dc32e68db8650de44753e995"
+    },
+    {
+      "path": "mmm/mini/compact/lanes/md/MMM_LANE_ALTERNATIVE_COMPACT_v3_3.md",
+      "bytes": 8468,
+      "sha256": "ab81b27b0fdec622c75cd54984ae605ac30cb7da9562ffb2a781be963ce7c88d"
+    },
+    {
+      "path": "mmm/mini/compact/lanes/md/MMM_LANE_BACK_COMPACT_v3_3.md",
+      "bytes": 7581,
+      "sha256": "de516a296b914332628a2eef5b383bbc1fd8fe8fb0905465939b43245f338ef2"
+    },
+    {
+      "path": "mmm/mini/compact/lanes/md/MMM_LANE_DIRECT_COMPACT_v3_3.md",
+      "bytes": 8166,
+      "sha256": "87d2f02c7f1dcde20fe3341fdd6999c5351e949239ec70b5bf79459e2b3205c1"
+    },
+    {
+      "path": "mmm/mini/compact/lanes/md/MMM_LANE_REFRAME_COMPACT_v3_3.md",
+      "bytes": 7919,
+      "sha256": "367c34086ab71dbfc4682af0d4f24539f5695477605f8ec38653528ffee77eb9"
+    },
+    {
+      "path": "mmm/mini/compact/lanes/md/MMM_LANE_WILDCARD_COMPACT_v3_3.md",
+      "bytes": 8191,
+      "sha256": "c9788e569a1a32469afa7dc941ec6e25aceec90a39d2648d84d847d76bfdcbbd"
+    },
+    {
+      "path": "mmm/mini/compact/system_routes/json/MMM_SYSTEM_ROUTE_LLM_COUNCIL_COMPACT_v3_3.json",
+      "bytes": 23231,
+      "sha256": "63c0edd8dd737cd8b440b80d0dedf8ee807d5f24e073a10c393fded5afd9fdc5"
+    },
+    {
+      "path": "mmm/mini/compact/system_routes/md/MMM_SYSTEM_ROUTE_LLM_COUNCIL_COMPACT_v3_3.md",
+      "bytes": 10403,
+      "sha256": "6bb4aa68af8356c065500a97693d8e7fa9bea7e1d79cf1f4b02e0b77f8bbd43c"
+    },
+    {
+      "path": "mmm/mini/compact/voices/json/MMM_VOICE_FACTORY_COMPACT_v3_3.json",
+      "bytes": 25112,
+      "sha256": "cc3f093d9548ed5379f0a2fbf902be76bfdd42f567a789ed0a165fd7e0c8474b"
+    },
+    {
+      "path": "mmm/mini/compact/voices/json/MMM_VOICE_FEYNMAN_COMPACT_v3_3.json",
+      "bytes": 25591,
+      "sha256": "ed6edd881a4fd9fc4befc04cbb7ceece7c223d0928b8e57349905ffc60aa5ac9"
+    },
+    {
+      "path": "mmm/mini/compact/voices/json/MMM_VOICE_HUME_COMPACT_v3_3.json",
+      "bytes": 22797,
+      "sha256": "c5920afce5b7729dcfc7171b76d3fb90b031931fe4b3cca5dffbf2c8da8393fd"
+    },
+    {
+      "path": "mmm/mini/compact/voices/json/MMM_VOICE_ORWELL_COMPACT_v3_3.json",
+      "bytes": 23829,
+      "sha256": "50852d5c0fdd8e5396140d3cbfd755eb33071a134d40fa33d66ef5135dfb8d5e"
+    },
+    {
+      "path": "mmm/mini/compact/voices/json/MMM_VOICE_POPPER_COMPACT_v3_3.json",
+      "bytes": 25008,
+      "sha256": "1c7d282aac16ef4f0d4876b7be3e960acf30ec07f95fd858a0c000eb351f79fb"
+    },
+    {
+      "path": "mmm/mini/compact/voices/json/MMM_VOICE_PUSHBACK_COMPACT_v3_3.json",
+      "bytes": 23860,
+      "sha256": "351fb4c4735bf519fc4dfb6b10e94d37733458800100f778a09c68804fd1c070"
+    },
+    {
+      "path": "mmm/mini/compact/voices/json/MMM_VOICE_STRATEGY_COMPACT_v3_3.json",
+      "bytes": 24452,
+      "sha256": "fa3b30bb55bae1bf1a8ffb14a81018dda3e3262d30f5193fa237dc262f0ad8ca"
+    },
+    {
+      "path": "mmm/mini/compact/voices/json/MMM_VOICE_SYSTEMS_COMPACT_v3_3.json",
+      "bytes": 24874,
+      "sha256": "b4c8b511d3228aae4e5f61055d98f3f03f8b4d437152a0cb8f2b74792b1d312d"
+    },
+    {
+      "path": "mmm/mini/compact/voices/json/MMM_VOICE_ZHUANGZI_COMPACT_v3_3.json",
+      "bytes": 25337,
+      "sha256": "25bbd09c1847256df658845d082c6a7d48543c70ae1212938d7fe1633ff8dbfa"
+    },
+    {
+      "path": "mmm/mini/compact/voices/md/MMM_VOICE_FACTORY_COMPACT_v3_3.md",
+      "bytes": 11077,
+      "sha256": "2f1ba1b6d2acbb5f5ead0f1273e2640ce079c8f27a3f0aeed91f681db8151390"
+    },
+    {
+      "path": "mmm/mini/compact/voices/md/MMM_VOICE_FEYNMAN_COMPACT_v3_3.md",
+      "bytes": 11585,
+      "sha256": "90e220bfcf779834bdced207ef9f4817970d2a60ba170534bf6c6a506ec3ece4"
+    },
+    {
+      "path": "mmm/mini/compact/voices/md/MMM_VOICE_HUME_COMPACT_v3_3.md",
+      "bytes": 10088,
+      "sha256": "09f200755d37fd6bdc797adf5951facf75c7dcd57ca1479a56d718660a1e127a"
+    },
+    {
+      "path": "mmm/mini/compact/voices/md/MMM_VOICE_ORWELL_COMPACT_v3_3.md",
+      "bytes": 10090,
+      "sha256": "1804bc0e5771774ae82222c736f62392be43d2b86abf2fd42912510f7f9c35aa"
+    },
+    {
+      "path": "mmm/mini/compact/voices/md/MMM_VOICE_POPPER_COMPACT_v3_3.md",
+      "bytes": 11321,
+      "sha256": "8288383f19e732e7fb99e80dfac8fa036775e3598e42edfbc53f6f82db7f4f34"
+    },
+    {
+      "path": "mmm/mini/compact/voices/md/MMM_VOICE_PUSHBACK_COMPACT_v3_3.md",
+      "bytes": 10414,
+      "sha256": "019a805cf1ce3e56a5558ce0eb80c099d73fa0471100e98d8d54097d74ad7833"
+    },
+    {
+      "path": "mmm/mini/compact/voices/md/MMM_VOICE_STRATEGY_COMPACT_v3_3.md",
+      "bytes": 10576,
+      "sha256": "3e05f860ad8ef6a9174139e5c34e0bc9f2b7cf72b52c4b7da3e42185cb9078c1"
+    },
+    {
+      "path": "mmm/mini/compact/voices/md/MMM_VOICE_SYSTEMS_COMPACT_v3_3.md",
+      "bytes": 10936,
+      "sha256": "da52c8262671f16944fb5641b7ea4f7c9d556f855a105977bfd06d39099faa01"
+    },
+    {
+      "path": "mmm/mini/compact/voices/md/MMM_VOICE_ZHUANGZI_COMPACT_v3_3.md",
+      "bytes": 11268,
+      "sha256": "a880fe61ebfee66edbfb5af655a788a0fb835b0391eaf9cfb2c1d24ad3cda04f"
+    },
+    {
+      "path": "mmm/mini/full/checks_guards/json/MMM_CHECK_GUARD_AUDIT_FULL_v3_3.json",
+      "bytes": 145693,
+      "sha256": "8feffa68c96886c14061e183e45492e9833e336d4a482e93eebd5065ebef6c7a"
+    },
+    {
+      "path": "mmm/mini/full/checks_guards/json/MMM_CHECK_GUARD_HYGIENE_FULL_v3_3.json",
+      "bytes": 63968,
+      "sha256": "f23883f7e1895012043b252b75bdc942fa08834ac8f83c822deecfa8829b5d3a"
+    },
+    {
+      "path": "mmm/mini/full/checks_guards/json/MMM_CHECK_GUARD_SECURITY_FULL_v3_3.json",
+      "bytes": 64475,
+      "sha256": "b0e746d591a35e62622a55a53ee446682f6c8a1281c7c1804a530ace6c7970ac"
+    },
+    {
+      "path": "mmm/mini/full/checks_guards/md/MMM_CHECK_GUARD_AUDIT_FULL_v3_3.md",
+      "bytes": 63075,
+      "sha256": "86199ca0a90e42b7f38d11180d29d26fa659b5bf6dd435feb4648a90b432581a"
+    },
+    {
+      "path": "mmm/mini/full/checks_guards/md/MMM_CHECK_GUARD_HYGIENE_FULL_v3_3.md",
+      "bytes": 27517,
+      "sha256": "ee6e00cece245080891dfeb3f2642bcafc7ee15a3b899734f180f58e6206d2e8"
+    },
+    {
+      "path": "mmm/mini/full/checks_guards/md/MMM_CHECK_GUARD_SECURITY_FULL_v3_3.md",
+      "bytes": 28392,
+      "sha256": "0429ced5d817f89948a32898114be40664c130c86843646eeaaed27d7f9709a7"
+    },
+    {
+      "path": "mmm/mini/full/compositions/json/MMM_COMPOSITION_ALL_A_FULL_v3_3.json",
+      "bytes": 40447,
+      "sha256": "c71a78e3fe2e994849c8053cb44078b08951b74039e0205fce7583669f33642d"
+    },
+    {
+      "path": "mmm/mini/full/compositions/json/MMM_COMPOSITION_ALL_B_FULL_v3_3.json",
+      "bytes": 40198,
+      "sha256": "0a33546d8e1f7884803561576f234f9722ac584a4a2ff89111bf3f6f9f99a984"
+    },
+    {
+      "path": "mmm/mini/full/compositions/json/MMM_COMPOSITION_ALL_C_FULL_v3_3.json",
+      "bytes": 40700,
+      "sha256": "72b31202d1ee21993c2ea568b8476084218d04553763b9e3ad30a9a481223628"
+    },
+    {
+      "path": "mmm/mini/full/compositions/json/MMM_COMPOSITION_FULL_WIZARD_FULL_v3_3.json",
+      "bytes": 41303,
+      "sha256": "a218e9f68e4c6b2481e436c42cbeb0e3e612c5581ef04f93e1c0bc4a78eb0bb0"
+    },
+    {
+      "path": "mmm/mini/full/compositions/md/MMM_COMPOSITION_ALL_A_FULL_v3_3.md",
+      "bytes": 17767,
+      "sha256": "2d9af316a88bdf5c6cb5b682ee17c8e7f0affa2542b0bbe272b35bfa92394b2b"
+    },
+    {
+      "path": "mmm/mini/full/compositions/md/MMM_COMPOSITION_ALL_B_FULL_v3_3.md",
+      "bytes": 17600,
+      "sha256": "50c9cd3a0f75250ae29d93fce80cdf8bbcfc4c9d230de403b959e42b0845e39d"
+    },
+    {
+      "path": "mmm/mini/full/compositions/md/MMM_COMPOSITION_ALL_C_FULL_v3_3.md",
+      "bytes": 17986,
+      "sha256": "f0959cafa3899b96c43b8246b8f32422348f5be696659def4758d0c966a0aaa1"
+    },
+    {
+      "path": "mmm/mini/full/compositions/md/MMM_COMPOSITION_FULL_WIZARD_FULL_v3_3.md",
+      "bytes": 17615,
+      "sha256": "ce0d863612ef69600afecc9aae6b961e9d7a75f0e46923873a566a93fb6df4a8"
+    },
+    {
+      "path": "mmm/mini/full/controller_acts/json/MMM_CONTROLLER_ACT_SYNTHESIS_FULL_v3_3.json",
+      "bytes": 153419,
+      "sha256": "3114dc7943be78e9b076f20201f72736da205f10cc23ec28944d938069c23300"
+    },
+    {
+      "path": "mmm/mini/full/controller_acts/md/MMM_CONTROLLER_ACT_SYNTHESIS_FULL_v3_3.md",
+      "bytes": 68556,
+      "sha256": "5335334f3d9b68cd4818ad8be7f557809aa742a3ed398dc4d9d9fc0bca681e81"
+    },
+    {
+      "path": "mmm/mini/full/lanes/json/MMM_LANE_ALTERNATIVE_FULL_v3_3.json",
+      "bytes": 114238,
+      "sha256": "5d2c960a2e28bd6d2e131b08eb72db4feeedb262390cad097500846d04f513df"
+    },
+    {
+      "path": "mmm/mini/full/lanes/json/MMM_LANE_BACK_FULL_v3_3.json",
+      "bytes": 63660,
+      "sha256": "4f64a08ee466746bd5cf8d09e3e374a0c57ec736edec43c37267a3c91e8cc3db"
+    },
+    {
+      "path": "mmm/mini/full/lanes/json/MMM_LANE_DIRECT_FULL_v3_3.json",
+      "bytes": 112334,
+      "sha256": "c1bf1d3f86a181647cf2e162135cf1d62aedd1fdefe25290466fba045420a882"
+    },
+    {
+      "path": "mmm/mini/full/lanes/json/MMM_LANE_REFRAME_FULL_v3_3.json",
+      "bytes": 114452,
+      "sha256": "b896ca7fab51486c3ba0d5301f97cd314d9228cef5a08fe0fba7d4a37468a860"
+    },
+    {
+      "path": "mmm/mini/full/lanes/json/MMM_LANE_WILDCARD_FULL_v3_3.json",
+      "bytes": 112412,
+      "sha256": "9828bbe900b0b7f661dcc6c66438a7264926b2ca6e0f2a03165bbfa2f57aeed7"
+    },
+    {
+      "path": "mmm/mini/full/lanes/md/MMM_LANE_ALTERNATIVE_FULL_v3_3.md",
+      "bytes": 51060,
+      "sha256": "0fbba16ec7d2bd0ea4e5544900cde5e187180ca92637afd1fe35d0e799bc09f9"
+    },
+    {
+      "path": "mmm/mini/full/lanes/md/MMM_LANE_BACK_FULL_v3_3.md",
+      "bytes": 27479,
+      "sha256": "9021d5472a253dffb98ee6a11a121ec58af453c98ae9c2f7c128ff4c875f5459"
+    },
+    {
+      "path": "mmm/mini/full/lanes/md/MMM_LANE_DIRECT_FULL_v3_3.md",
+      "bytes": 49079,
+      "sha256": "31855a1efdfef91ee978ecfc9e4b1db5b8ce2a83371d7a37f944ce3642401e02"
+    },
+    {
+      "path": "mmm/mini/full/lanes/md/MMM_LANE_REFRAME_FULL_v3_3.md",
+      "bytes": 51162,
+      "sha256": "0bdd58163cc031307c06500c1d85079b103e501a4bee0eba81a0e643f116672d"
+    },
+    {
+      "path": "mmm/mini/full/lanes/md/MMM_LANE_WILDCARD_FULL_v3_3.md",
+      "bytes": 49069,
+      "sha256": "1ddcf3459ba26d7cbe8ac8ba0763b47e3057d2396e7de4d2db92d8774487220d"
+    },
+    {
+      "path": "mmm/mini/full/system_routes/json/MMM_SYSTEM_ROUTE_LLM_COUNCIL_FULL_v3_3.json",
+      "bytes": 129723,
+      "sha256": "6aee9ae454d5376b052ffee7238fe3aeafc0feda56c265dd01c40814a2fc7f91"
+    },
+    {
+      "path": "mmm/mini/full/system_routes/md/MMM_SYSTEM_ROUTE_LLM_COUNCIL_FULL_v3_3.md",
+      "bytes": 57552,
+      "sha256": "bcb3c2a223b104b0473075a331bbbddafc6964009fabe877985aac2f2105f0c9"
+    },
+    {
+      "path": "mmm/mini/full/voices/json/MMM_VOICE_FACTORY_FULL_v3_3.json",
+      "bytes": 155851,
+      "sha256": "2ae2d096c5506a5b6b0b20fca728457406d229793dc4b9a829ba2b84d1cffeda"
+    },
+    {
+      "path": "mmm/mini/full/voices/json/MMM_VOICE_FEYNMAN_FULL_v3_3.json",
+      "bytes": 155829,
+      "sha256": "c21699c67de647198d12649f20c01982fa4628f529e1409e0c6638f8caea13d7"
+    },
+    {
+      "path": "mmm/mini/full/voices/json/MMM_VOICE_HUME_FULL_v3_3.json",
+      "bytes": 123644,
+      "sha256": "e98f161bb2429271e3a6cd901f868054663b350668fa680ba123d066db3230ef"
+    },
+    {
+      "path": "mmm/mini/full/voices/json/MMM_VOICE_ORWELL_FULL_v3_3.json",
+      "bytes": 142328,
+      "sha256": "ec7240995b6a29a2c1495261b2bd7af045b184896f7ac1b386bb0989ed38bd25"
+    },
+    {
+      "path": "mmm/mini/full/voices/json/MMM_VOICE_POPPER_FULL_v3_3.json",
+      "bytes": 156923,
+      "sha256": "8dde7189c9b7dbf15188b66313c36a7e509785e4dd2c5d7807cfbcceda15630e"
+    },
+    {
+      "path": "mmm/mini/full/voices/json/MMM_VOICE_PUSHBACK_FULL_v3_3.json",
+      "bytes": 151044,
+      "sha256": "f4bd5f95b0ec4bfbabf739a38be479c361253cc09e44da30277418f0f36e05a0"
+    },
+    {
+      "path": "mmm/mini/full/voices/json/MMM_VOICE_STRATEGY_FULL_v3_3.json",
+      "bytes": 154467,
+      "sha256": "54921a6ffbc77d24ca4d919bcf288c640961ac0fe098932bdc5cce31e0cf5b92"
+    },
+    {
+      "path": "mmm/mini/full/voices/json/MMM_VOICE_SYSTEMS_FULL_v3_3.json",
+      "bytes": 155815,
+      "sha256": "a1dc6a4093bb1c87ba7ce110ec5bb536f22be5540dae2b6910adfb48d501c17c"
+    },
+    {
+      "path": "mmm/mini/full/voices/json/MMM_VOICE_ZHUANGZI_FULL_v3_3.json",
+      "bytes": 154247,
+      "sha256": "ccb9130b788826ff268734814b6740c62d126ff6a5b5d1bcd1dc7d8a8ea4550f"
+    },
+    {
+      "path": "mmm/mini/full/voices/md/MMM_VOICE_FACTORY_FULL_v3_3.md",
+      "bytes": 69103,
+      "sha256": "f38818967a8bfd3c2a951b12a4b5a6fc0237f48df6e8fb2fb26c1711789730a7"
+    },
+    {
+      "path": "mmm/mini/full/voices/md/MMM_VOICE_FEYNMAN_FULL_v3_3.md",
+      "bytes": 69506,
+      "sha256": "6fa611d88a6a828837584eba6a4bca51ba892a7e761cc9a3d4715e00f02b016f"
+    },
+    {
+      "path": "mmm/mini/full/voices/md/MMM_VOICE_HUME_FULL_v3_3.md",
+      "bytes": 53800,
+      "sha256": "752e101737f6472d96ae34d253151284fc076f0f43aacf8c12ed360f07b5c57a"
+    },
+    {
+      "path": "mmm/mini/full/voices/md/MMM_VOICE_ORWELL_FULL_v3_3.md",
+      "bytes": 60428,
+      "sha256": "72a272a84306a05c79d779674cf5aeeca8f3822722cae3363d548f27d35e7f4c"
+    },
+    {
+      "path": "mmm/mini/full/voices/md/MMM_VOICE_POPPER_FULL_v3_3.md",
+      "bytes": 70816,
+      "sha256": "02cd1704afdc6ca26a35e0713d8c267ae5b3534c61ce116f14276ab88f9b9442"
+    },
+    {
+      "path": "mmm/mini/full/voices/md/MMM_VOICE_PUSHBACK_FULL_v3_3.md",
+      "bytes": 64995,
+      "sha256": "84548ed32c8588df6b78b4c821d61e59df3cfd7c9e61ca837a4d69c6ff15f425"
+    },
+    {
+      "path": "mmm/mini/full/voices/md/MMM_VOICE_STRATEGY_FULL_v3_3.md",
+      "bytes": 67854,
+      "sha256": "096e54188935cced814a5196af9158eb7c857ae0b51a9c0587612ac8c1344914"
+    },
+    {
+      "path": "mmm/mini/full/voices/md/MMM_VOICE_SYSTEMS_FULL_v3_3.md",
+      "bytes": 69451,
+      "sha256": "84b121a1f0d534a5f93f240e2041677c81d59b3eae848b54515d40c935fd1091"
+    },
+    {
+      "path": "mmm/mini/full/voices/md/MMM_VOICE_ZHUANGZI_FULL_v3_3.md",
+      "bytes": 68244,
+      "sha256": "694c6d1c34c60d4756d2e7978734be508a4d5af5cdee64f5f301fcc62e71855d"
+    },
+    {
+      "path": "reference_only_negative/README_NEGATIVE_REFERENCE_ONLY_v3_3.md",
+      "bytes": 261,
+      "sha256": "0c86dba45af8263de675a7258fad8b0b57b6420f14e7493cddac1db9d3b3c635"
+    },
+    {
+      "path": "reference_only_negative/json/MMM_NEGATIVE_REFERENCE_v3_3.json",
+      "bytes": 43,
+      "sha256": "8aef43df2cce374ce643a1f1ed98556e37af12cfdd3fad5ce03b6fa3130f9872"
+    },
+    {
+      "path": "reference_only_negative/md/MMM_NEGATIVE_REFERENCE_v3_3.md",
+      "bytes": 59,
+      "sha256": "860b9b448c21d3d6d6d3f923d784e33e0078d5e6061f4a15b6617b5f77d9f646"
+    },
+    {
+      "path": "universal_core/WIZARD_ACCEPTANCE_GATES_v3_3.json",
+      "bytes": 1986,
+      "sha256": "2aacd1438a735c5741b9462a32c446095d9440f01f79afad42c42993e1b657b9"
+    },
+    {
+      "path": "universal_core/WIZARD_ACCEPTANCE_GATES_v3_3.md",
+      "bytes": 1391,
+      "sha256": "ad60e2333f7fe6ea1df3d5c63a0b97be16ed166e1d16a7fc474d98c58e5e4c00"
+    },
+    {
+      "path": "universal_core/WIZARD_FOLLOWUP_SYSTEM_v3_3.md",
+      "bytes": 2376,
+      "sha256": "66c040a4c26a32756aaa38e5ac7f63f2ed7a0a042cc8f295e7a777cb4aa0d60e"
+    },
+    {
+      "path": "universal_core/WIZARD_HEADER_FOOTER_TEMPLATES_v3_3.md",
+      "bytes": 1262,
+      "sha256": "e014e9feba1c4c6396592417604521e9ff678e0a3a41872933acded6eed13504"
+    },
+    {
+      "path": "universal_core/WIZARD_ROUTE_REGISTRY_v3_3.json",
+      "bytes": 17000,
+      "sha256": "ad2073c42548eecfe91b0335cddfba098cd58fd4e5a98380d81ab01df259cf5a"
+    },
+    {
+      "path": "universal_core/WIZARD_ROUTE_REGISTRY_v3_3.md",
+      "bytes": 4047,
+      "sha256": "6888b1d97eb633fff4808f01975a36325087f7cb61c5d56753a2522fb23866a0"
+    },
+    {
+      "path": "universal_core/WIZARD_UNIVERSAL_CORE_COMPACT_v3_3.md",
+      "bytes": 7480,
+      "sha256": "3a8a43fb3f6ea1e093a37e9207671a2d18014c1180e792d3078e09824664b12b"
+    },
+    {
+      "path": "universal_core/WIZARD_UNIVERSAL_CORE_FULL_v3_3.md",
+      "bytes": 54636,
+      "sha256": "bf37e17a9329c3e5a4f1e1a5daac4b9431deb097812b85f8b59f3d450126c32a"
+    },
+    {
+      "path": "validation/BOOT_PATH_CONTAMINATION_CHECK.md",
+      "bytes": 325,
+      "sha256": "06061f9d61963603e8938e2722b57bfe1bfc48603ac47b97b82d918bee23d1b5"
+    },
+    {
+      "path": "validation/FULLNESS_CHECK.md",
+      "bytes": 202,
+      "sha256": "c54685aa7ffac9b434cbac6a997d7826923053cff52bfa0b2fdecfb12bbe8d8e"
+    },
+    {
+      "path": "validation/JSON_VALIDATION_REPORT.md",
+      "bytes": 68,
+      "sha256": "df4b6df6f697c960c7d9d4fa63ce1cf98d1aadec58be87e61ad562717b1a826a"
+    },
+    {
+      "path": "validation/MINI_MMM_TIER_CHECK.md",
+      "bytes": 2153,
+      "sha256": "ec828849636630b22651fb1b5a0060f490c83761bee23ae74b05a229f5e8cee0"
+    },
+    {
+      "path": "validation/VALIDATION_REPORT_v3_3.json",
+      "bytes": 6469,
+      "sha256": "bad7835c7e219677bae68bbe37a6966dfba0a7a6edcc14da827bce5e704ac236"
+    },
+    {
+      "path": "validation/VALIDATION_REPORT_v3_3.md",
+      "bytes": 3718,
+      "sha256": "c68a5ce0a53f12ba10032d2fad24e90c961dc83dfc2480e5e96a47926016735b"
+    }
+  ],
+  "forbidden_active_dirs": [
+    "universal_mmm",
+    "runtime_adapters",
+    "source_notes",
+    "boot_rules",
+    "standard",
+    "ultra"
+  ]
+}

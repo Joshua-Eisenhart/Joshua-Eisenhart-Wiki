@@ -1,0 +1,904 @@
+{
+  "words": [
+    [
+      1,
+      "direct move",
+      100
+    ],
+    [
+      2,
+      "risky claim",
+      100
+    ],
+    [
+      3,
+      "observable check",
+      100
+    ],
+    [
+      4,
+      "loop or sequence",
+      100
+    ],
+    [
+      5,
+      "alternative route",
+      100
+    ],
+    [
+      6,
+      "audit result",
+      100
+    ],
+    [
+      7,
+      "retreat condition",
+      100
+    ],
+    [
+      8,
+      "ground",
+      100
+    ],
+    [
+      9,
+      "systems",
+      100
+    ],
+    [
+      10,
+      "forward",
+      100
+    ],
+    [
+      11,
+      "core",
+      100
+    ],
+    [
+      12,
+      "substantive",
+      100
+    ],
+    [
+      13,
+      "systems-or-strategy",
+      100
+    ],
+    [
+      14,
+      "motion",
+      100
+    ],
+    [
+      15,
+      "pressure-testing",
+      100
+    ],
+    [
+      16,
+      "keep",
+      100
+    ],
+    [
+      17,
+      "real",
+      100
+    ],
+    [
+      18,
+      "alive",
+      100
+    ],
+    [
+      19,
+      "land",
+      100
+    ],
+    [
+      20,
+      "compact",
+      100
+    ],
+    [
+      21,
+      "flattening",
+      100
+    ],
+    [
+      22,
+      "listing",
+      100
+    ],
+    [
+      23,
+      "names",
+      100
+    ],
+    [
+      24,
+      "plan",
+      100
+    ],
+    [
+      25,
+      "running",
+      100
+    ],
+    [
+      26,
+      "unspawned",
+      100
+    ],
+    [
+      27,
+      "lanes",
+      100
+    ],
+    [
+      28,
+      "prose",
+      100
+    ],
+    [
+      29,
+      "advance",
+      100
+    ],
+    [
+      30,
+      "adversarial",
+      100
+    ],
+    [
+      31,
+      "bounded",
+      100
+    ],
+    [
+      32,
+      "check",
+      100
+    ],
+    [
+      33,
+      "claim",
+      100
+    ],
+    [
+      34,
+      "direct",
+      100
+    ],
+    [
+      35,
+      "evidence",
+      100
+    ],
+    [
+      36,
+      "falsifier",
+      100
+    ],
+    [
+      37,
+      "hume",
+      100
+    ],
+    [
+      38,
+      "observe",
+      100
+    ],
+    [
+      39,
+      "popper",
+      100
+    ],
+    [
+      40,
+      "pressure",
+      100
+    ],
+    [
+      41,
+      "bounded artifact",
+      98
+    ],
+    [
+      42,
+      "riskiest claim",
+      98
+    ],
+    [
+      43,
+      "real alternative",
+      98
+    ]
+  ],
+  "couplings": [
+    [
+      1,
+      "direct move risky claim",
+      100
+    ],
+    [
+      2,
+      "direct move observable check",
+      100
+    ],
+    [
+      3,
+      "direct move alternative route",
+      100
+    ],
+    [
+      4,
+      "direct move audit result",
+      100
+    ],
+    [
+      5,
+      "direct move retreat condition",
+      100
+    ],
+    [
+      6,
+      "under direct move",
+      100
+    ],
+    [
+      7,
+      "direct move loop or sequence",
+      100
+    ],
+    [
+      8,
+      "within direct move",
+      100
+    ],
+    [
+      9,
+      "across direct move",
+      100
+    ],
+    [
+      10,
+      "between direct move",
+      100
+    ],
+    [
+      11,
+      "through direct move",
+      100
+    ],
+    [
+      12,
+      "before direct move",
+      100
+    ],
+    [
+      13,
+      "after direct move",
+      100
+    ],
+    [
+      14,
+      "from direct move",
+      100
+    ],
+    [
+      15,
+      "by direct move",
+      100
+    ],
+    [
+      16,
+      "with direct move",
+      100
+    ],
+    [
+      17,
+      "alternative route audit result",
+      100
+    ],
+    [
+      18,
+      "audit direct move",
+      100
+    ],
+    [
+      19,
+      "result direct move",
+      100
+    ],
+    [
+      20,
+      "default direct move",
+      100
+    ],
+    [
+      21,
+      "bundle direct move",
+      100
+    ],
+    [
+      22,
+      "forward direct move",
+      100
+    ],
+    [
+      23,
+      "ground pressure",
+      100
+    ],
+    [
+      24,
+      "motion direct move",
+      100
+    ],
+    [
+      25,
+      "core direct move",
+      100
+    ],
+    [
+      26,
+      "risky claim observable check",
+      100
+    ],
+    [
+      27,
+      "risky claim alternative route",
+      100
+    ],
+    [
+      28,
+      "risky claim audit result",
+      100
+    ],
+    [
+      29,
+      "risky claim retreat condition",
+      100
+    ],
+    [
+      30,
+      "observable check alternative route",
+      100
+    ],
+    [
+      31,
+      "observable check audit result",
+      100
+    ],
+    [
+      32,
+      "observable check retreat condition",
+      100
+    ],
+    [
+      33,
+      "alternative route retreat condition",
+      100
+    ],
+    [
+      34,
+      "audit result retreat condition",
+      100
+    ],
+    [
+      35,
+      "direct move under",
+      100
+    ],
+    [
+      36,
+      "risky claim loop or sequence",
+      100
+    ],
+    [
+      37,
+      "observable check loop or sequence",
+      100
+    ],
+    [
+      38,
+      "loop or sequence alternative route",
+      100
+    ],
+    [
+      39,
+      "loop or sequence audit result",
+      100
+    ],
+    [
+      40,
+      "loop or sequence retreat condition",
+      100
+    ],
+    [
+      41,
+      "default bundle",
+      100
+    ],
+    [
+      42,
+      "audit result",
+      100
+    ],
+    [
+      43,
+      "result risky claim",
+      100
+    ],
+    [
+      44,
+      "default risky claim",
+      100
+    ],
+    [
+      45,
+      "default observable check",
+      100
+    ],
+    [
+      46,
+      "bundle risky claim",
+      100
+    ],
+    [
+      47,
+      "bundle observable check",
+      100
+    ],
+    [
+      48,
+      "forward risky claim",
+      100
+    ],
+    [
+      49,
+      "forward observable check",
+      100
+    ],
+    [
+      50,
+      "forward alternative route",
+      100
+    ],
+    [
+      51,
+      "motion risky claim",
+      100
+    ],
+    [
+      52,
+      "motion observable check",
+      100
+    ],
+    [
+      53,
+      "motion alternative route",
+      100
+    ],
+    [
+      54,
+      "motion audit result",
+      100
+    ],
+    [
+      55,
+      "core risky claim",
+      100
+    ],
+    [
+      56,
+      "core observable check",
+      100
+    ],
+    [
+      57,
+      "core alternative route",
+      100
+    ],
+    [
+      58,
+      "core audit result",
+      100
+    ],
+    [
+      59,
+      "core retreat condition",
+      100
+    ],
+    [
+      60,
+      "bundle loop or sequence",
+      100
+    ],
+    [
+      61,
+      "under ground",
+      100
+    ],
+    [
+      62,
+      "under pressure",
+      100
+    ],
+    [
+      63,
+      "forward loop or sequence",
+      100
+    ],
+    [
+      64,
+      "motion loop or sequence",
+      100
+    ],
+    [
+      65,
+      "advance with test",
+      100
+    ],
+    [
+      66,
+      "bounded forward check",
+      100
+    ],
+    [
+      67,
+      "core claim pressure",
+      100
+    ],
+    [
+      68,
+      "direct plus falsifier",
+      100
+    ],
+    [
+      69,
+      "evidence and advance",
+      100
+    ],
+    [
+      70,
+      "ground and pressure",
+      100
+    ],
+    [
+      71,
+      "hume grounding",
+      100
+    ],
+    [
+      72,
+      "observed support",
+      100
+    ],
+    [
+      73,
+      "popper pressure",
+      100
+    ],
+    [
+      74,
+      "systems support",
+      100
+    ],
+    [
+      75,
+      "without direct move",
+      99
+    ],
+    [
+      76,
+      "against direct move",
+      99
+    ],
+    [
+      77,
+      "bounded forward move",
+      97
+    ],
+    [
+      78,
+      "pressure-test it",
+      97
+    ],
+    [
+      79,
+      "observable check",
+      97
+    ]
+  ],
+  "triplets": [
+    [
+      1,
+      "rather direct move loop or sequence",
+      100
+    ],
+    [
+      2,
+      "rather direct move audit result",
+      100
+    ],
+    [
+      3,
+      "likely alternative route audit result",
+      100
+    ],
+    [
+      4,
+      "from audit direct move",
+      100
+    ],
+    [
+      5,
+      "locally core direct move",
+      100
+    ],
+    [
+      6,
+      "instead risky claim loop or sequence",
+      100
+    ],
+    [
+      7,
+      "instead risky claim audit result",
+      100
+    ],
+    [
+      8,
+      "only observable check loop or sequence",
+      100
+    ],
+    [
+      9,
+      "only observable check audit result",
+      100
+    ],
+    [
+      10,
+      "still loop or sequence alternative route",
+      100
+    ],
+    [
+      11,
+      "still loop or sequence audit result",
+      100
+    ],
+    [
+      12,
+      "still loop or sequence retreat condition",
+      100
+    ],
+    [
+      13,
+      "likely alternative route retreat condition",
+      100
+    ],
+    [
+      14,
+      "possible audit result retreat condition",
+      100
+    ],
+    [
+      15,
+      "under ground pressure",
+      100
+    ],
+    [
+      16,
+      "from audit result",
+      100
+    ],
+    [
+      17,
+      "locally core risky claim",
+      100
+    ],
+    [
+      18,
+      "locally core observable check",
+      100
+    ],
+    [
+      19,
+      "locally core alternative route",
+      100
+    ],
+    [
+      20,
+      "locally core audit result",
+      100
+    ],
+    [
+      21,
+      "locally core retreat condition",
+      100
+    ],
+    [
+      22,
+      "without bundle loop or sequence",
+      100
+    ],
+    [
+      23,
+      "against forward loop or sequence",
+      100
+    ],
+    [
+      24,
+      "bounded forward check",
+      100
+    ],
+    [
+      25,
+      "direct hume popper",
+      100
+    ],
+    [
+      26,
+      "evidence claim falsifier",
+      100
+    ],
+    [
+      27,
+      "ground pressure advance",
+      100
+    ],
+    [
+      28,
+      "observed support test",
+      100
+    ],
+    [
+      29,
+      "systems hume pressure",
+      100
+    ],
+    [
+      30,
+      "rather direct move risky claim",
+      98
+    ],
+    [
+      31,
+      "rather direct move observable check",
+      98
+    ],
+    [
+      32,
+      "by result direct move",
+      98
+    ],
+    [
+      33,
+      "with default direct move",
+      98
+    ],
+    [
+      34,
+      "without bundle direct move",
+      98
+    ],
+    [
+      35,
+      "against forward direct move",
+      98
+    ],
+    [
+      36,
+      "relative motion direct move",
+      98
+    ],
+    [
+      37,
+      "by result risky claim",
+      98
+    ],
+    [
+      38,
+      "with default risky claim",
+      98
+    ],
+    [
+      39,
+      "with default observable check",
+      98
+    ],
+    [
+      40,
+      "without bundle risky claim",
+      98
+    ],
+    [
+      41,
+      "without bundle observable check",
+      98
+    ],
+    [
+      42,
+      "against forward risky claim",
+      98
+    ],
+    [
+      43,
+      "against forward observable check",
+      98
+    ],
+    [
+      44,
+      "against forward alternative route",
+      98
+    ],
+    [
+      45,
+      "relative motion risky claim",
+      98
+    ],
+    [
+      46,
+      "relative motion observable check",
+      98
+    ],
+    [
+      47,
+      "rather direct move alternative route",
+      97
+    ],
+    [
+      48,
+      "rather direct move retreat condition",
+      97
+    ],
+    [
+      49,
+      "rather direct move under",
+      97
+    ],
+    [
+      50,
+      "instead risky claim observable check",
+      97
+    ],
+    [
+      51,
+      "instead risky claim alternative route",
+      97
+    ],
+    [
+      52,
+      "instead risky claim retreat condition",
+      97
+    ],
+    [
+      53,
+      "only observable check alternative route",
+      97
+    ],
+    [
+      54,
+      "only observable check retreat condition",
+      97
+    ],
+    [
+      55,
+      "with default bundle",
+      92
+    ],
+    [
+      56,
+      "claim falsifier check",
+      96
+    ]
+  ],
+  "v3_4_salience_expansion": {
+    "source": "deep-research-report.md",
+    "status": "positive salience only; no diagnostic/provenance boot",
+    "route": "ALL_A",
+    "size": "compact"
+  }
+}

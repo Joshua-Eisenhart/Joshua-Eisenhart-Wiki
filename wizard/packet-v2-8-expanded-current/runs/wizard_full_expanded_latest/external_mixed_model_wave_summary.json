@@ -1,0 +1,35 @@
+{
+  "scope": "mixed-model full Wizard live pass 2026-04-28",
+  "mixed_wave_dir": "/tmp/codex_claude_bridge/full_wizard_mixed_model_waves_20260428T233235Z",
+  "valid_live_waves_proven": 10,
+  "mixed_model_rule": "Every wave attempted sonnet, opus, codex, and gemini; lagging Sonnet branches were cut and not counted.",
+  "claude": [
+    {
+      "status": "completed",
+      "model": "claude-sonnet-4-6",
+      "task_completed": 99,
+      "agent_tool_calls": 100,
+      "waves_with_completed_workers": 10
+    },
+    {
+      "status": "completed",
+      "model": "claude-opus-4-7",
+      "task_completed": 12,
+      "agent_tool_calls": 0,
+      "waves_with_completed_workers": 12
+    }
+  ],
+  "codex_native_agents_by_model": {
+    "codex 5.5 high": 12
+  },
+  "codex_native_agents_completed": 12,
+  "gemini_calls": 12,
+  "blocked": {
+    "sonnet_wave_branches_killed_for_lag": [
+      "W10",
+      "W12"
+    ],
+    "gemini_initial_untrusted_attempts": 14,
+    "native_codex_stuck_worker_killed": 1
+  }
+}

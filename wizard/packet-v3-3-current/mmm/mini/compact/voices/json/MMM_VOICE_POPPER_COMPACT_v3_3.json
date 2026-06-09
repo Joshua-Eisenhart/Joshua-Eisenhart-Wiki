@@ -1,0 +1,2109 @@
+{
+  "words": [
+    [
+      1,
+      "conjecture",
+      100
+    ],
+    [
+      2,
+      "killed",
+      100
+    ],
+    [
+      3,
+      "conjectures and refutations",
+      100
+    ],
+    [
+      4,
+      "severe test",
+      100
+    ],
+    [
+      5,
+      "risky prediction",
+      100
+    ],
+    [
+      6,
+      "refuted claim",
+      100
+    ],
+    [
+      7,
+      "refute",
+      100
+    ],
+    [
+      8,
+      "decisive check",
+      100
+    ],
+    [
+      9,
+      "failure condition",
+      100
+    ],
+    [
+      10,
+      "what would break",
+      100
+    ],
+    [
+      11,
+      "not yet survived",
+      100
+    ],
+    [
+      12,
+      "survived",
+      100
+    ],
+    [
+      13,
+      "falsifier",
+      100
+    ],
+    [
+      14,
+      "exposure",
+      100
+    ],
+    [
+      15,
+      "what would rule out",
+      100
+    ],
+    [
+      16,
+      "claim",
+      100
+    ],
+    [
+      17,
+      "counterexample",
+      100
+    ],
+    [
+      18,
+      "bold conjecture",
+      100
+    ],
+    [
+      19,
+      "refutation",
+      100
+    ],
+    [
+      20,
+      "test pressure",
+      100
+    ],
+    [
+      21,
+      "open",
+      100
+    ],
+    [
+      22,
+      "survive",
+      100
+    ],
+    [
+      23,
+      "unsupported",
+      100
+    ],
+    [
+      24,
+      "falsification",
+      100
+    ],
+    [
+      25,
+      "severe",
+      100
+    ],
+    [
+      26,
+      "prediction",
+      100
+    ],
+    [
+      27,
+      "testable",
+      100
+    ],
+    [
+      28,
+      "critical",
+      100
+    ],
+    [
+      29,
+      "error",
+      100
+    ],
+    [
+      30,
+      "corroboration",
+      100
+    ],
+    [
+      31,
+      "counterinstance",
+      100
+    ],
+    [
+      32,
+      "bold",
+      100
+    ],
+    [
+      33,
+      "critical rationalism",
+      100
+    ],
+    [
+      34,
+      "falsifiable hypothesis",
+      100
+    ],
+    [
+      35,
+      "problem situation",
+      100
+    ],
+    [
+      36,
+      "error elimination",
+      100
+    ],
+    [
+      37,
+      "corroborated theory",
+      100
+    ],
+    [
+      38,
+      "falsify",
+      100
+    ],
+    [
+      39,
+      "tested",
+      100
+    ],
+    [
+      40,
+      "risky",
+      100
+    ],
+    [
+      41,
+      "trial",
+      100
+    ],
+    [
+      42,
+      "stress",
+      100
+    ],
+    [
+      43,
+      "challenge",
+      100
+    ],
+    [
+      44,
+      "break",
+      100
+    ],
+    [
+      45,
+      "problem",
+      100
+    ],
+    [
+      46,
+      "fail",
+      100
+    ],
+    [
+      47,
+      "strongest",
+      100
+    ],
+    [
+      48,
+      "decisive",
+      100
+    ],
+    [
+      49,
+      "pressure",
+      100
+    ],
+    [
+      50,
+      "risk",
+      100
+    ],
+    [
+      51,
+      "target",
+      100
+    ],
+    [
+      52,
+      "check",
+      100
+    ],
+    [
+      53,
+      "live",
+      100
+    ],
+    [
+      54,
+      "evidence",
+      100
+    ],
+    [
+      55,
+      "path",
+      100
+    ],
+    [
+      56,
+      "actual",
+      100
+    ],
+    [
+      57,
+      "concrete",
+      100
+    ],
+    [
+      58,
+      "distinct",
+      100
+    ],
+    [
+      59,
+      "inferred",
+      100
+    ],
+    [
+      60,
+      "plain",
+      100
+    ],
+    [
+      61,
+      "known",
+      100
+    ],
+    [
+      62,
+      "unknown",
+      100
+    ],
+    [
+      63,
+      "narrow",
+      100
+    ],
+    [
+      64,
+      "anomaly",
+      100
+    ],
+    [
+      65,
+      "background",
+      100
+    ],
+    [
+      66,
+      "basic",
+      100
+    ],
+    [
+      67,
+      "content",
+      100
+    ],
+    [
+      68,
+      "correction",
+      100
+    ],
+    [
+      69,
+      "criticism",
+      100
+    ],
+    [
+      70,
+      "demarcation",
+      100
+    ],
+    [
+      71,
+      "empirical",
+      100
+    ],
+    [
+      72,
+      "falsifiability",
+      100
+    ],
+    [
+      73,
+      "incompatible",
+      100
+    ],
+    [
+      74,
+      "informative",
+      100
+    ],
+    [
+      75,
+      "knowledge",
+      100
+    ],
+    [
+      76,
+      "piecemeal",
+      100
+    ],
+    [
+      77,
+      "refutable",
+      100
+    ],
+    [
+      78,
+      "refuted",
+      100
+    ],
+    [
+      79,
+      "statement",
+      100
+    ],
+    [
+      80,
+      "testability",
+      100
+    ],
+    [
+      81,
+      "mini-MMM",
+      100
+    ],
+    [
+      82,
+      "mini MMM",
+      100
+    ],
+    [
+      83,
+      "voice shape",
+      100
+    ],
+    [
+      84,
+      "voice shaping",
+      100
+    ],
+    [
+      85,
+      "shape voice",
+      100
+    ],
+    [
+      86,
+      "shaped voice",
+      100
+    ],
+    [
+      87,
+      "voice contour",
+      100
+    ],
+    [
+      88,
+      "voice signature",
+      100
+    ],
+    [
+      89,
+      "voice localizer",
+      100
+    ],
+    [
+      90,
+      "local voice",
+      100
+    ],
+    [
+      91,
+      "aligned nouns",
+      100
+    ],
+    [
+      92,
+      "correlated thinkers",
+      100
+    ],
+    [
+      93,
+      "thinker alignment",
+      100
+    ],
+    [
+      94,
+      "noun alignment",
+      100
+    ],
+    [
+      95,
+      "voice method",
+      100
+    ],
+    [
+      96,
+      "voice evidence",
+      100
+    ],
+    [
+      97,
+      "voice judgment",
+      100
+    ],
+    [
+      98,
+      "voice task",
+      100
+    ],
+    [
+      99,
+      "voice receipt",
+      100
+    ],
+    [
+      100,
+      "voice finding",
+      100
+    ],
+    [
+      101,
+      "voice constraint",
+      100
+    ],
+    [
+      102,
+      "voice noun",
+      100
+    ],
+    [
+      103,
+      "voice verb",
+      100
+    ],
+    [
+      104,
+      "voice signal",
+      100
+    ],
+    [
+      105,
+      "voice contrast",
+      100
+    ],
+    [
+      106,
+      "voice boundary",
+      100
+    ],
+    [
+      107,
+      "voice contribution",
+      100
+    ],
+    [
+      108,
+      "mini mmm loaded",
+      100
+    ],
+    [
+      109,
+      "loaded mini mmm",
+      100
+    ],
+    [
+      110,
+      "assigned mini mmm",
+      100
+    ],
+    [
+      111,
+      "local voice context",
+      100
+    ],
+    [
+      112,
+      "voice-specific nouns",
+      100
+    ],
+    [
+      113,
+      "method nouns",
+      100
+    ],
+    [
+      114,
+      "reader stance",
+      100
+    ],
+    [
+      115,
+      "decision stance",
+      100
+    ],
+    [
+      116,
+      "audit stance",
+      100
+    ],
+    [
+      117,
+      "build stance",
+      100
+    ],
+    [
+      118,
+      "repair stance",
+      100
+    ],
+    [
+      119,
+      "acceptance stance",
+      100
+    ],
+    [
+      120,
+      "subagent voice",
+      100
+    ],
+    [
+      121,
+      "voice worker",
+      100
+    ],
+    [
+      122,
+      "voice proof",
+      100
+    ],
+    [
+      123,
+      "distinct output",
+      100
+    ],
+    [
+      124,
+      "behavioral pull",
+      100
+    ],
+    [
+      125,
+      "salience pull",
+      100
+    ],
+    [
+      126,
+      "voice usefulness",
+      100
+    ],
+    [
+      127,
+      "output repair",
+      100
+    ],
+    [
+      128,
+      "system repair",
+      100
+    ],
+    [
+      129,
+      "mmm stability",
+      100
+    ],
+    [
+      130,
+      "wizard stability",
+      100
+    ],
+    [
+      131,
+      "qit support",
+      100
+    ],
+    [
+      132,
+      "sim support",
+      100
+    ],
+    [
+      133,
+      "theory",
+      98
+    ],
+    [
+      134,
+      "counter-instance",
+      98
+    ],
+    [
+      135,
+      "basic statement",
+      98
+    ],
+    [
+      136,
+      "intersubjective test",
+      98
+    ]
+  ],
+  "couplings": [
+    [
+      1,
+      "severe test",
+      100
+    ],
+    [
+      2,
+      "risky prediction",
+      100
+    ],
+    [
+      3,
+      "refuted claim",
+      100
+    ],
+    [
+      4,
+      "decisive check",
+      100
+    ],
+    [
+      5,
+      "falsifier evidence",
+      100
+    ],
+    [
+      6,
+      "falsifier support",
+      100
+    ],
+    [
+      7,
+      "falsifier path",
+      100
+    ],
+    [
+      8,
+      "falsifier surface",
+      100
+    ],
+    [
+      9,
+      "falsifier packet",
+      100
+    ],
+    [
+      10,
+      "falsifier receipt",
+      100
+    ],
+    [
+      11,
+      "falsifier trace",
+      100
+    ],
+    [
+      12,
+      "falsifier result",
+      100
+    ],
+    [
+      13,
+      "falsifier scope",
+      100
+    ],
+    [
+      14,
+      "falsifier boundary",
+      100
+    ],
+    [
+      15,
+      "falsifier status",
+      100
+    ],
+    [
+      16,
+      "falsifier candidate",
+      100
+    ],
+    [
+      17,
+      "falsifier witness",
+      100
+    ],
+    [
+      18,
+      "failure condition",
+      100
+    ],
+    [
+      19,
+      "claim",
+      100
+    ],
+    [
+      20,
+      "conjecture",
+      100
+    ],
+    [
+      21,
+      "falsifier",
+      100
+    ],
+    [
+      22,
+      "refute",
+      100
+    ],
+    [
+      23,
+      "killed",
+      100
+    ],
+    [
+      24,
+      "counterexample",
+      100
+    ],
+    [
+      25,
+      "exposure",
+      100
+    ],
+    [
+      26,
+      "what would break",
+      100
+    ],
+    [
+      27,
+      "falsifier probe",
+      100
+    ],
+    [
+      28,
+      "falsifier constraint",
+      100
+    ],
+    [
+      29,
+      "check falsifier",
+      100
+    ],
+    [
+      30,
+      "compare falsifier",
+      100
+    ],
+    [
+      31,
+      "observe falsifier",
+      100
+    ],
+    [
+      32,
+      "measure falsifier",
+      100
+    ],
+    [
+      33,
+      "test falsifier",
+      100
+    ],
+    [
+      34,
+      "verify falsifier",
+      100
+    ],
+    [
+      35,
+      "hold falsifier",
+      100
+    ],
+    [
+      36,
+      "split falsifier",
+      100
+    ],
+    [
+      37,
+      "narrow falsifier",
+      100
+    ],
+    [
+      38,
+      "under falsifier",
+      100
+    ],
+    [
+      39,
+      "within falsifier",
+      100
+    ],
+    [
+      40,
+      "across falsifier",
+      100
+    ],
+    [
+      41,
+      "between falsifier",
+      100
+    ],
+    [
+      42,
+      "through falsifier",
+      100
+    ],
+    [
+      43,
+      "before falsifier",
+      100
+    ],
+    [
+      44,
+      "after falsifier",
+      100
+    ],
+    [
+      45,
+      "until falsifier",
+      100
+    ],
+    [
+      46,
+      "where falsifier",
+      100
+    ],
+    [
+      47,
+      "while falsifier",
+      100
+    ],
+    [
+      48,
+      "conjectures and refutations",
+      100
+    ],
+    [
+      49,
+      "claim evidence",
+      100
+    ],
+    [
+      50,
+      "claim support",
+      100
+    ],
+    [
+      51,
+      "claim path",
+      100
+    ],
+    [
+      52,
+      "claim surface",
+      100
+    ],
+    [
+      53,
+      "claim packet",
+      100
+    ],
+    [
+      54,
+      "claim receipt",
+      100
+    ],
+    [
+      55,
+      "claim trace",
+      100
+    ],
+    [
+      56,
+      "claim scope",
+      100
+    ],
+    [
+      57,
+      "claim boundary",
+      100
+    ],
+    [
+      58,
+      "claim status",
+      100
+    ],
+    [
+      59,
+      "claim candidate",
+      100
+    ],
+    [
+      60,
+      "claim witness",
+      100
+    ],
+    [
+      61,
+      "claim probe",
+      100
+    ],
+    [
+      62,
+      "claim constraint",
+      100
+    ],
+    [
+      63,
+      "check claim",
+      100
+    ],
+    [
+      64,
+      "compare claim",
+      100
+    ],
+    [
+      65,
+      "observe claim",
+      100
+    ],
+    [
+      66,
+      "measure claim",
+      100
+    ],
+    [
+      67,
+      "test claim",
+      100
+    ],
+    [
+      68,
+      "verify claim",
+      100
+    ],
+    [
+      69,
+      "hold claim",
+      100
+    ],
+    [
+      70,
+      "preserve claim",
+      100
+    ],
+    [
+      71,
+      "split claim",
+      100
+    ],
+    [
+      72,
+      "narrow claim",
+      100
+    ],
+    [
+      73,
+      "where claim",
+      100
+    ],
+    [
+      74,
+      "while claim",
+      100
+    ],
+    [
+      75,
+      "preserve falsifier",
+      100
+    ],
+    [
+      76,
+      "conjecture refutation",
+      100
+    ],
+    [
+      77,
+      "conjecture falsifier",
+      100
+    ],
+    [
+      78,
+      "refutation falsifier",
+      100
+    ],
+    [
+      79,
+      "claim result",
+      100
+    ],
+    [
+      80,
+      "open",
+      100
+    ],
+    [
+      81,
+      "killed evidence",
+      100
+    ],
+    [
+      82,
+      "killed support",
+      100
+    ],
+    [
+      83,
+      "survive killed",
+      100
+    ],
+    [
+      84,
+      "killed path",
+      100
+    ],
+    [
+      85,
+      "killed surface",
+      100
+    ],
+    [
+      86,
+      "killed packet",
+      100
+    ],
+    [
+      87,
+      "what would rule out",
+      100
+    ],
+    [
+      88,
+      "killed survived",
+      100
+    ],
+    [
+      89,
+      "killed claim",
+      100
+    ],
+    [
+      90,
+      "killed receipt",
+      100
+    ],
+    [
+      91,
+      "killed trace",
+      100
+    ],
+    [
+      92,
+      "killed result",
+      100
+    ],
+    [
+      93,
+      "killed scope",
+      100
+    ],
+    [
+      94,
+      "killed boundary",
+      100
+    ],
+    [
+      95,
+      "killed status",
+      100
+    ],
+    [
+      96,
+      "killed candidate",
+      100
+    ],
+    [
+      97,
+      "killed witness",
+      100
+    ],
+    [
+      98,
+      "killed probe",
+      100
+    ],
+    [
+      99,
+      "killed constraint",
+      100
+    ],
+    [
+      100,
+      "check killed",
+      100
+    ],
+    [
+      101,
+      "compare killed",
+      100
+    ],
+    [
+      102,
+      "observe killed",
+      100
+    ],
+    [
+      103,
+      "measure killed",
+      100
+    ],
+    [
+      104,
+      "test killed",
+      100
+    ],
+    [
+      105,
+      "verify killed",
+      100
+    ],
+    [
+      106,
+      "hold killed",
+      100
+    ],
+    [
+      107,
+      "preserve killed",
+      100
+    ],
+    [
+      108,
+      "split killed",
+      100
+    ],
+    [
+      109,
+      "narrow killed",
+      100
+    ],
+    [
+      110,
+      "survived claim",
+      100
+    ],
+    [
+      111,
+      "survived exposure",
+      100
+    ],
+    [
+      112,
+      "where killed",
+      100
+    ],
+    [
+      113,
+      "while killed",
+      100
+    ],
+    [
+      114,
+      "survive open",
+      100
+    ],
+    [
+      115,
+      "survived evidence",
+      100
+    ],
+    [
+      116,
+      "survived support",
+      100
+    ],
+    [
+      117,
+      "survived path",
+      100
+    ],
+    [
+      118,
+      "survived surface",
+      100
+    ],
+    [
+      119,
+      "survived packet",
+      100
+    ],
+    [
+      120,
+      "survived receipt",
+      100
+    ],
+    [
+      121,
+      "survived trace",
+      100
+    ],
+    [
+      122,
+      "survived result",
+      100
+    ],
+    [
+      123,
+      "survived scope",
+      100
+    ],
+    [
+      124,
+      "survived boundary",
+      100
+    ],
+    [
+      125,
+      "killed open",
+      100
+    ],
+    [
+      126,
+      "open survived",
+      100
+    ],
+    [
+      127,
+      "open claim",
+      100
+    ],
+    [
+      128,
+      "open exposure",
+      100
+    ],
+    [
+      129,
+      "survived status",
+      100
+    ],
+    [
+      130,
+      "survived candidate",
+      100
+    ],
+    [
+      131,
+      "survived witness",
+      100
+    ],
+    [
+      132,
+      "anomalous result",
+      100
+    ],
+    [
+      133,
+      "apparent falsifier",
+      100
+    ],
+    [
+      134,
+      "background knowledge",
+      100
+    ],
+    [
+      135,
+      "basic statement",
+      100
+    ],
+    [
+      136,
+      "bold conjecture",
+      100
+    ],
+    [
+      137,
+      "claim under test",
+      100
+    ],
+    [
+      138,
+      "conjecture and refutation",
+      100
+    ],
+    [
+      139,
+      "corroborated theory",
+      100
+    ],
+    [
+      140,
+      "counter instance",
+      100
+    ],
+    [
+      141,
+      "counterinstance check",
+      100
+    ],
+    [
+      142,
+      "critical test",
+      100
+    ],
+    [
+      143,
+      "decisive counterexample",
+      100
+    ],
+    [
+      144,
+      "demarcation problem",
+      100
+    ],
+    [
+      145,
+      "empirical falsification",
+      100
+    ],
+    [
+      146,
+      "error correction",
+      100
+    ],
+    [
+      147,
+      "falsifiability criterion",
+      100
+    ],
+    [
+      148,
+      "informative content",
+      100
+    ],
+    [
+      149,
+      "inter subjective test",
+      100
+    ],
+    [
+      150,
+      "open falsifier",
+      100
+    ],
+    [
+      151,
+      "mini-MMM shapes voice",
+      100
+    ],
+    [
+      152,
+      "mini MMM voice shape",
+      100
+    ],
+    [
+      153,
+      "voice shaped by nouns",
+      100
+    ],
+    [
+      154,
+      "aligned nouns shape voice",
+      100
+    ],
+    [
+      155,
+      "correlated thinkers shape voice",
+      100
+    ],
+    [
+      156,
+      "thinker alignment voice",
+      100
+    ],
+    [
+      157,
+      "noun alignment voice",
+      100
+    ],
+    [
+      158,
+      "voice signature nouns",
+      100
+    ],
+    [
+      159,
+      "local voice contour",
+      100
+    ],
+    [
+      160,
+      "provisional corroboration",
+      97
+    ],
+    [
+      161,
+      "single genuine counter-instance",
+      97
+    ]
+  ],
+  "triplets": [
+    [
+      1,
+      "under open falsifier",
+      100
+    ],
+    [
+      2,
+      "within open falsifier",
+      100
+    ],
+    [
+      3,
+      "across open falsifier",
+      100
+    ],
+    [
+      4,
+      "between open falsifier",
+      100
+    ],
+    [
+      5,
+      "through open falsifier",
+      100
+    ],
+    [
+      6,
+      "before open falsifier",
+      100
+    ],
+    [
+      7,
+      "under open claim",
+      100
+    ],
+    [
+      8,
+      "within open claim",
+      100
+    ],
+    [
+      9,
+      "across open claim",
+      100
+    ],
+    [
+      10,
+      "between open claim",
+      100
+    ],
+    [
+      11,
+      "through open claim",
+      100
+    ],
+    [
+      12,
+      "before open claim",
+      100
+    ],
+    [
+      13,
+      "what would break",
+      100
+    ],
+    [
+      14,
+      "conjectures and refutations",
+      100
+    ],
+    [
+      15,
+      "under conjecture falsifier",
+      100
+    ],
+    [
+      16,
+      "under refutation falsifier",
+      100
+    ],
+    [
+      17,
+      "within conjecture falsifier",
+      100
+    ],
+    [
+      18,
+      "falsifier evidence path",
+      100
+    ],
+    [
+      19,
+      "falsifier support path",
+      100
+    ],
+    [
+      20,
+      "falsifier path path",
+      100
+    ],
+    [
+      21,
+      "falsifier surface path",
+      100
+    ],
+    [
+      22,
+      "falsifier packet path",
+      100
+    ],
+    [
+      23,
+      "within refutation falsifier",
+      100
+    ],
+    [
+      24,
+      "under live falsifier",
+      100
+    ],
+    [
+      25,
+      "falsifier receipt path",
+      100
+    ],
+    [
+      26,
+      "falsifier trace path",
+      100
+    ],
+    [
+      27,
+      "falsifier result path",
+      100
+    ],
+    [
+      28,
+      "falsifier scope path",
+      100
+    ],
+    [
+      29,
+      "falsifier boundary path",
+      100
+    ],
+    [
+      30,
+      "check falsifier receipt",
+      100
+    ],
+    [
+      31,
+      "within live falsifier",
+      100
+    ],
+    [
+      32,
+      "compare falsifier receipt",
+      100
+    ],
+    [
+      33,
+      "observe falsifier receipt",
+      100
+    ],
+    [
+      34,
+      "measure falsifier receipt",
+      100
+    ],
+    [
+      35,
+      "across live falsifier",
+      100
+    ],
+    [
+      36,
+      "between live falsifier",
+      100
+    ],
+    [
+      37,
+      "test falsifier receipt",
+      100
+    ],
+    [
+      38,
+      "verify falsifier receipt",
+      100
+    ],
+    [
+      39,
+      "hold falsifier receipt",
+      100
+    ],
+    [
+      40,
+      "preserve falsifier receipt",
+      100
+    ],
+    [
+      41,
+      "through live falsifier",
+      100
+    ],
+    [
+      42,
+      "before live falsifier",
+      100
+    ],
+    [
+      43,
+      "across conjecture falsifier",
+      100
+    ],
+    [
+      44,
+      "across refutation falsifier",
+      100
+    ],
+    [
+      45,
+      "under open falsify",
+      100
+    ],
+    [
+      46,
+      "within open falsify",
+      100
+    ],
+    [
+      47,
+      "across open falsify",
+      100
+    ],
+    [
+      48,
+      "between conjecture falsifier",
+      100
+    ],
+    [
+      49,
+      "between refutation falsifier",
+      100
+    ],
+    [
+      50,
+      "between open falsify",
+      100
+    ],
+    [
+      51,
+      "through open falsify",
+      100
+    ],
+    [
+      52,
+      "before open falsify",
+      100
+    ],
+    [
+      53,
+      "through conjecture falsifier",
+      100
+    ],
+    [
+      54,
+      "through refutation falsifier",
+      100
+    ],
+    [
+      55,
+      "claim evidence path",
+      100
+    ],
+    [
+      56,
+      "claim support path",
+      100
+    ],
+    [
+      57,
+      "claim path path",
+      100
+    ],
+    [
+      58,
+      "claim surface path",
+      100
+    ],
+    [
+      59,
+      "claim packet path",
+      100
+    ],
+    [
+      60,
+      "claim receipt path",
+      100
+    ],
+    [
+      61,
+      "under live claim",
+      100
+    ],
+    [
+      62,
+      "within live claim",
+      100
+    ],
+    [
+      63,
+      "anomaly remains open",
+      100
+    ],
+    [
+      64,
+      "background knowledge challenged",
+      100
+    ],
+    [
+      65,
+      "basic statement evidence",
+      100
+    ],
+    [
+      66,
+      "bold conjecture stress",
+      100
+    ],
+    [
+      67,
+      "claim falsifier check",
+      100
+    ],
+    [
+      68,
+      "conjecture refutation test",
+      100
+    ],
+    [
+      69,
+      "counterexample kills claim",
+      100
+    ],
+    [
+      70,
+      "empirical falsification path",
+      100
+    ],
+    [
+      71,
+      "informative content risk",
+      100
+    ],
+    [
+      72,
+      "killed open survived",
+      100
+    ],
+    [
+      73,
+      "piecemeal criticism route",
+      100
+    ],
+    [
+      74,
+      "risky prediction checked",
+      100
+    ],
+    [
+      75,
+      "severe test result",
+      100
+    ],
+    [
+      76,
+      "target claim falsifier",
+      100
+    ],
+    [
+      77,
+      "testability demarcation criterion",
+      100
+    ],
+    [
+      78,
+      "not yet survived",
+      99
+    ],
+    [
+      79,
+      "under conjecture refutation",
+      99
+    ],
+    [
+      80,
+      "under survive killed",
+      97
+    ],
+    [
+      81,
+      "under survive open",
+      97
+    ],
+    [
+      82,
+      "under killed open",
+      97
+    ],
+    [
+      83,
+      "under killed survived",
+      97
+    ],
+    [
+      84,
+      "under open survived",
+      97
+    ],
+    [
+      85,
+      "within conjecture refutation",
+      97
+    ],
+    [
+      86,
+      "within survive killed",
+      95
+    ],
+    [
+      87,
+      "within survive open",
+      95
+    ],
+    [
+      88,
+      "within killed open",
+      95
+    ],
+    [
+      89,
+      "within killed survived",
+      95
+    ],
+    [
+      90,
+      "within open survived",
+      95
+    ],
+    [
+      91,
+      "across conjecture refutation",
+      94
+    ],
+    [
+      92,
+      "across survive killed",
+      93
+    ],
+    [
+      93,
+      "across survive open",
+      93
+    ],
+    [
+      94,
+      "across killed open",
+      93
+    ],
+    [
+      95,
+      "across killed survived",
+      93
+    ],
+    [
+      96,
+      "across open survived",
+      93
+    ],
+    [
+      97,
+      "between conjecture refutation",
+      93
+    ],
+    [
+      98,
+      "between survive killed",
+      91
+    ],
+    [
+      99,
+      "between survive open",
+      91
+    ],
+    [
+      100,
+      "between killed open",
+      91
+    ],
+    [
+      101,
+      "between killed survived",
+      91
+    ],
+    [
+      102,
+      "between open survived",
+      91
+    ],
+    [
+      103,
+      "through conjecture refutation",
+      91
+    ],
+    [
+      104,
+      "under current falsifier",
+      88
+    ],
+    [
+      105,
+      "under local falsifier",
+      88
+    ],
+    [
+      106,
+      "under bounded falsifier",
+      88
+    ],
+    [
+      107,
+      "under finite falsifier",
+      88
+    ],
+    [
+      108,
+      "within current falsifier",
+      88
+    ],
+    [
+      109,
+      "within local falsifier",
+      88
+    ],
+    [
+      110,
+      "within bounded falsifier",
+      88
+    ],
+    [
+      111,
+      "within finite falsifier",
+      88
+    ],
+    [
+      112,
+      "across current falsifier",
+      88
+    ],
+    [
+      113,
+      "across local falsifier",
+      88
+    ],
+    [
+      114,
+      "across bounded falsifier",
+      88
+    ],
+    [
+      115,
+      "across finite falsifier",
+      88
+    ],
+    [
+      116,
+      "mini-MMM shapes voice",
+      100
+    ],
+    [
+      117,
+      "mini MMM voice shape",
+      100
+    ],
+    [
+      118,
+      "voice shaped by nouns",
+      100
+    ],
+    [
+      119,
+      "aligned nouns shape voice",
+      100
+    ],
+    [
+      120,
+      "correlated thinkers shape voice",
+      100
+    ],
+    [
+      121,
+      "theory prediction counterinstance",
+      96
+    ],
+    [
+      122,
+      "problem theory refutation",
+      96
+    ]
+  ],
+  "v3_3_salience_expansion": {
+    "source": "deep-research-report.md",
+    "status": "positive salience only; not negative/reference boot",
+    "route": "POPPER",
+    "size": "compact"
+  }
+}

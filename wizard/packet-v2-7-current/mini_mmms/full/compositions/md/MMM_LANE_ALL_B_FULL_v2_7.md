@@ -1,0 +1,383 @@
+---
+title: Mmm Lane All B Full V2 7
+created: 2026-04-28
+updated: 2026-04-28
+type: concept
+tags: [wizard, mmm, packet, receipt]
+framing: current
+source_path: mini_mmms/full/compositions/md/MMM_LANE_ALL_B_FULL_v2_7.md
+---
+
+# MMM_LANE_ALL_B_FULL_v2_7
+
+## aligned nouns and phrases
+
+- human read
+- live readings
+- wildcard probe
+- collapse audit
+- surviving split
+- plurality
+- options
+- read
+- hold
+- wildcard
+- probe
+- anti
+- collapse
+- preserve
+- divergence
+- dissent
+- bundle
+- falsifier
+- observable
+- relative
+- locally
+- rather
+- instead
+- only
+- still
+- likely
+- possible
+- bounded
+- finite
+- observed
+- measured
+- open
+- partial
+- limited
+- constraint
+- evidence
+- observation
+- measurement
+- trace
+- sample
+- case
+- instance
+- name
+- word
+- use
+- relation
+- distinction
+- comparison
+- support
+- estimate
+- uncertainty
+- model
+- witness
+- counterexample
+- candidate
+- survivor
+- boundary
+- scope
+- condition
+- result
+- path
+- branch
+- fork
+- perspective
+- claim
+- route
+- receipt
+- voice
+- lane
+- preservation
+- composite
+- when
+- readings
+- resistance
+- are
+- compose
+- audit
+- state
+- the
+- human
+- keeping
+- attack
+- strongest
+- make
+- check
+- exclusion
+- earns
+- convergence
+- direct
+- closeout
+- voices
+- indefinite
+- indecision
+- turning
+- one
+- story
+- duplicating
+- different
+- labels
+- forgetting
+- decisive
+- letting
+- noise
+- signal
+- what
+- would
+- exclude
+- which
+- surprise
+- could
+- separate
+- default
+- execution
+- pressure
+- hygiene
+- composition
+- once
+- receipts
+- exist
+- surviving
+- split
+- starts
+
+## correlated thinkers
+
+- Hume
+- Zhuangzi
+- Popper
+- Feynman
+
+## correlated couplings
+
+- plurality Hume
+- plurality Zhuangzi
+- live Hume
+- live Zhuangzi
+- options Hume
+- options Zhuangzi
+- Hume read
+- Hume Zhuangzi
+- Hume hold
+- Hume wildcard
+- Hume probe
+- Hume anti
+- Hume collapse
+- read Zhuangzi
+- Zhuangzi hold
+- Zhuangzi wildcard
+- Zhuangzi probe
+- Zhuangzi anti
+- Zhuangzi collapse
+- Zhuangzi preserve
+- Zhuangzi divergence
+- human read live readings
+- human read wildcard probe
+- human read collapse audit
+- human read surviving split
+- live readings wildcard probe
+- live readings collapse audit
+- live readings surviving split
+- wildcard probe collapse audit
+- wildcard probe surviving split
+- collapse audit surviving split
+- probe human read
+- anti human read
+- anti live readings
+- collapse human read
+- collapse live readings
+- preserve human read
+- preserve live readings
+- divergence human read
+- divergence live readings
+- divergence wildcard probe
+- dissent human read
+- dissent live readings
+- dissent wildcard probe
+- dissent collapse audit
+- bundle human read
+- bundle live readings
+- bundle wildcard probe
+- bundle collapse audit
+- bundle surviving split
+- human read falsifier
+- human read observable
+- live readings falsifier
+- live readings observable
+- falsifier wildcard probe
+- falsifier collapse audit
+- falsifier surviving split
+- observable wildcard probe
+- observable collapse audit
+- observable surviving split
+- plurality live
+- plurality options
+- plurality read
+- plurality hold
+- plurality wildcard
+- live options
+- live read
+- live hold
+- live wildcard
+- live probe
+- options read
+- options hold
+- options wildcard
+- options probe
+- options anti
+- read hold
+- read wildcard
+- read probe
+- read anti
+- read collapse
+- read preserve
+- hold wildcard
+- hold probe
+- hold anti
+- hold collapse
+- hold preserve
+- hold divergence
+- hold dissent
+- wildcard probe
+- wildcard anti
+- wildcard collapse
+- wildcard preserve
+- wildcard divergence
+- wildcard dissent
+- wildcard bundle
+- probe anti
+- probe collapse
+- probe preserve
+- probe divergence
+- probe dissent
+- probe bundle
+- anti collapse
+- anti preserve
+- anti divergence
+- anti dissent
+- anti bundle
+- collapse preserve
+- collapse divergence
+- collapse dissent
+- collapse bundle
+- collapse falsifier
+- preserve divergence
+- preserve dissent
+- preserve bundle
+- preserve falsifier
+- preserve observable
+- divergence dissent
+- divergence bundle
+- divergence falsifier
+- divergence observable
+- dissent bundle
+- dissent falsifier
+- dissent observable
+- bundle falsifier
+- bundle observable
+- human read under
+- live readings under
+- live readings within
+- falsifier observable
+- wildcard probe under
+- wildcard probe within
+- wildcard probe across
+- wildcard probe between
+- wildcard probe through
+- collapse audit under
+- collapse audit within
+- collapse audit across
+- collapse audit between
+- collapse audit through
+- collapse audit before
+- surviving split under
+- surviving split within
+- surviving split across
+- surviving split between
+- surviving split through
+- surviving split before
+- surviving split after
+- falsifier under
+- falsifier within
+- falsifier across
+- observable under
+- observable within
+- observable across
+- observable between
+
+## three-part cues
+
+- relative divergence human read
+- relative divergence live readings
+- relative divergence wildcard probe
+- locally dissent human read
+- locally dissent live readings
+- locally dissent wildcard probe
+- locally dissent collapse audit
+- rather bundle human read
+- rather bundle live readings
+- rather bundle wildcard probe
+- rather bundle collapse audit
+- rather bundle surviving split
+- instead human read live readings
+- instead human read falsifier
+- instead human read observable
+- instead human read wildcard probe
+- instead human read collapse audit
+- instead human read surviving split
+- only live readings falsifier
+- only live readings observable
+- only live readings wildcard probe
+- only live readings collapse audit
+- only live readings surviving split
+- still falsifier wildcard probe
+- still falsifier collapse audit
+- still falsifier surviving split
+- likely observable wildcard probe
+- likely observable collapse audit
+- likely observable surviving split
+- possible wildcard probe collapse audit
+- possible wildcard probe surviving split
+- bounded collapse audit surviving split
+- relative divergence dissent
+- relative divergence bundle
+- relative divergence falsifier
+- relative divergence observable
+- locally dissent bundle
+- locally dissent falsifier
+- locally dissent observable
+- rather bundle falsifier
+- rather bundle observable
+- instead human read under
+- only live readings under
+- only live readings within
+- still falsifier observable
+- possible wildcard probe under
+- possible wildcard probe within
+- possible wildcard probe across
+- possible wildcard probe between
+- possible wildcard probe through
+- bounded collapse audit under
+- bounded collapse audit within
+- bounded collapse audit across
+- bounded collapse audit between
+- bounded collapse audit through
+- bounded collapse audit before
+- finite surviving split under
+- finite surviving split within
+- finite surviving split across
+- finite surviving split between
+- finite surviving split through
+- finite surviving split before
+- finite surviving split after
+- still falsifier under
+- still falsifier within
+- still falsifier across
+- likely observable under
+- likely observable within
+- likely observable across
+- likely observable between
+- local under within
+- local under across
+- local under between
+- local under through
+- local under before
+- local under after
+- local under from
+- current within across
+- current within between
+- current within through

@@ -1,0 +1,2124 @@
+{
+  "words": [
+    [
+      1,
+      "feedback",
+      100
+    ],
+    [
+      2,
+      "incentive",
+      100
+    ],
+    [
+      3,
+      "interaction",
+      100
+    ],
+    [
+      4,
+      "propagation",
+      100
+    ],
+    [
+      5,
+      "feedback loop",
+      100
+    ],
+    [
+      6,
+      "reinforcing loop",
+      100
+    ],
+    [
+      7,
+      "balancing loop",
+      100
+    ],
+    [
+      8,
+      "dependency",
+      100
+    ],
+    [
+      9,
+      "coupling",
+      100
+    ],
+    [
+      10,
+      "structure",
+      100
+    ],
+    [
+      11,
+      "loop",
+      100
+    ],
+    [
+      12,
+      "system structure",
+      100
+    ],
+    [
+      13,
+      "environment",
+      100
+    ],
+    [
+      14,
+      "emergence",
+      100
+    ],
+    [
+      15,
+      "selection",
+      100
+    ],
+    [
+      16,
+      "network",
+      100
+    ],
+    [
+      17,
+      "node",
+      100
+    ],
+    [
+      18,
+      "edge",
+      100
+    ],
+    [
+      19,
+      "balancing",
+      100
+    ],
+    [
+      20,
+      "reinforcing",
+      100
+    ],
+    [
+      21,
+      "second-order",
+      100
+    ],
+    [
+      22,
+      "emergent",
+      100
+    ],
+    [
+      23,
+      "transition",
+      100
+    ],
+    [
+      24,
+      "behavior",
+      100
+    ],
+    [
+      25,
+      "state",
+      100
+    ],
+    [
+      26,
+      "drift",
+      100
+    ],
+    [
+      27,
+      "boundary",
+      100
+    ],
+    [
+      28,
+      "constraint",
+      100
+    ],
+    [
+      29,
+      "system",
+      100
+    ],
+    [
+      30,
+      "subsystem",
+      100
+    ],
+    [
+      31,
+      "effect",
+      100
+    ],
+    [
+      32,
+      "reward",
+      100
+    ],
+    [
+      33,
+      "stock",
+      100
+    ],
+    [
+      34,
+      "delay",
+      100
+    ],
+    [
+      35,
+      "amplifying",
+      100
+    ],
+    [
+      36,
+      "dynamics",
+      100
+    ],
+    [
+      37,
+      "attractor",
+      100
+    ],
+    [
+      38,
+      "basin",
+      100
+    ],
+    [
+      39,
+      "homeostasis",
+      100
+    ],
+    [
+      40,
+      "perverse",
+      100
+    ],
+    [
+      41,
+      "leverage point",
+      100
+    ],
+    [
+      42,
+      "information flow",
+      100
+    ],
+    [
+      43,
+      "self organization",
+      100
+    ],
+    [
+      44,
+      "mental model",
+      100
+    ],
+    [
+      45,
+      "stocks and flows",
+      100
+    ],
+    [
+      46,
+      "dynamic",
+      100
+    ],
+    [
+      47,
+      "stabilizing",
+      100
+    ],
+    [
+      48,
+      "second",
+      100
+    ],
+    [
+      49,
+      "order",
+      100
+    ],
+    [
+      50,
+      "flow",
+      100
+    ],
+    [
+      51,
+      "side",
+      100
+    ],
+    [
+      52,
+      "actual",
+      100
+    ],
+    [
+      53,
+      "concrete",
+      100
+    ],
+    [
+      54,
+      "distinct",
+      100
+    ],
+    [
+      55,
+      "live",
+      100
+    ],
+    [
+      56,
+      "inferred",
+      100
+    ],
+    [
+      57,
+      "plain",
+      100
+    ],
+    [
+      58,
+      "known",
+      100
+    ],
+    [
+      59,
+      "unknown",
+      100
+    ],
+    [
+      60,
+      "narrow",
+      100
+    ],
+    [
+      61,
+      "stale",
+      100
+    ],
+    [
+      62,
+      "observed",
+      100
+    ],
+    [
+      63,
+      "warm",
+      100
+    ],
+    [
+      64,
+      "externality",
+      100
+    ],
+    [
+      65,
+      "goal",
+      100
+    ],
+    [
+      66,
+      "information",
+      100
+    ],
+    [
+      67,
+      "leverage",
+      100
+    ],
+    [
+      68,
+      "paradigm",
+      100
+    ],
+    [
+      69,
+      "parameter",
+      100
+    ],
+    [
+      70,
+      "power",
+      100
+    ],
+    [
+      71,
+      "rule",
+      100
+    ],
+    [
+      72,
+      "secondorder",
+      100
+    ],
+    [
+      73,
+      "selforganization",
+      100
+    ],
+    [
+      74,
+      "small",
+      79
+    ],
+    [
+      75,
+      "mini-MMM",
+      100
+    ],
+    [
+      76,
+      "mini MMM",
+      100
+    ],
+    [
+      77,
+      "voice shape",
+      100
+    ],
+    [
+      78,
+      "voice shaping",
+      100
+    ],
+    [
+      79,
+      "shape voice",
+      100
+    ],
+    [
+      80,
+      "shaped voice",
+      100
+    ],
+    [
+      81,
+      "voice contour",
+      100
+    ],
+    [
+      82,
+      "voice signature",
+      100
+    ],
+    [
+      83,
+      "voice localizer",
+      100
+    ],
+    [
+      84,
+      "local voice",
+      100
+    ],
+    [
+      85,
+      "aligned nouns",
+      100
+    ],
+    [
+      86,
+      "correlated thinkers",
+      100
+    ],
+    [
+      87,
+      "thinker alignment",
+      100
+    ],
+    [
+      88,
+      "noun alignment",
+      100
+    ],
+    [
+      89,
+      "voice method",
+      100
+    ],
+    [
+      90,
+      "voice evidence",
+      100
+    ],
+    [
+      91,
+      "voice judgment",
+      100
+    ],
+    [
+      92,
+      "voice task",
+      100
+    ],
+    [
+      93,
+      "voice receipt",
+      100
+    ],
+    [
+      94,
+      "voice finding",
+      100
+    ],
+    [
+      95,
+      "voice constraint",
+      100
+    ],
+    [
+      96,
+      "voice noun",
+      100
+    ],
+    [
+      97,
+      "voice verb",
+      100
+    ],
+    [
+      98,
+      "voice signal",
+      100
+    ],
+    [
+      99,
+      "voice contrast",
+      100
+    ],
+    [
+      100,
+      "voice boundary",
+      100
+    ],
+    [
+      101,
+      "voice contribution",
+      100
+    ],
+    [
+      102,
+      "mini mmm loaded",
+      100
+    ],
+    [
+      103,
+      "loaded mini mmm",
+      100
+    ],
+    [
+      104,
+      "assigned mini mmm",
+      100
+    ],
+    [
+      105,
+      "local voice context",
+      100
+    ],
+    [
+      106,
+      "voice-specific nouns",
+      100
+    ],
+    [
+      107,
+      "method nouns",
+      100
+    ],
+    [
+      108,
+      "reader stance",
+      100
+    ],
+    [
+      109,
+      "decision stance",
+      100
+    ],
+    [
+      110,
+      "audit stance",
+      100
+    ],
+    [
+      111,
+      "build stance",
+      100
+    ],
+    [
+      112,
+      "repair stance",
+      100
+    ],
+    [
+      113,
+      "acceptance stance",
+      100
+    ],
+    [
+      114,
+      "subagent voice",
+      100
+    ],
+    [
+      115,
+      "voice worker",
+      100
+    ],
+    [
+      116,
+      "voice proof",
+      100
+    ],
+    [
+      117,
+      "distinct output",
+      100
+    ],
+    [
+      118,
+      "behavioral pull",
+      100
+    ],
+    [
+      119,
+      "salience pull",
+      100
+    ],
+    [
+      120,
+      "voice usefulness",
+      100
+    ],
+    [
+      121,
+      "output repair",
+      100
+    ],
+    [
+      122,
+      "system repair",
+      100
+    ],
+    [
+      123,
+      "mmm stability",
+      100
+    ],
+    [
+      124,
+      "wizard stability",
+      100
+    ],
+    [
+      125,
+      "qit support",
+      100
+    ],
+    [
+      126,
+      "sim support",
+      100
+    ],
+    [
+      127,
+      "Norbert Wiener",
+      98
+    ],
+    [
+      128,
+      "Stafford Beer",
+      98
+    ],
+    [
+      129,
+      "Donella Meadows",
+      98
+    ],
+    [
+      130,
+      "cybernetics",
+      98
+    ],
+    [
+      131,
+      "monitor",
+      98
+    ],
+    [
+      132,
+      "controller",
+      98
+    ],
+    [
+      133,
+      "control",
+      98
+    ],
+    [
+      134,
+      "communication",
+      98
+    ],
+    [
+      135,
+      "buffer",
+      98
+    ]
+  ],
+  "couplings": [
+    [
+      1,
+      "loop boundary",
+      100
+    ],
+    [
+      2,
+      "loop constraint",
+      100
+    ],
+    [
+      3,
+      "feedback boundary",
+      100
+    ],
+    [
+      4,
+      "feedback constraint",
+      100
+    ],
+    [
+      5,
+      "incentive boundary",
+      100
+    ],
+    [
+      6,
+      "incentive constraint",
+      100
+    ],
+    [
+      7,
+      "structure boundary",
+      100
+    ],
+    [
+      8,
+      "structure constraint",
+      100
+    ],
+    [
+      9,
+      "interaction boundary",
+      100
+    ],
+    [
+      10,
+      "interaction constraint",
+      100
+    ],
+    [
+      11,
+      "propagation boundary",
+      100
+    ],
+    [
+      12,
+      "propagation constraint",
+      100
+    ],
+    [
+      13,
+      "coupling boundary",
+      100
+    ],
+    [
+      14,
+      "coupling constraint",
+      100
+    ],
+    [
+      15,
+      "feedback loop",
+      100
+    ],
+    [
+      16,
+      "reinforcing loop",
+      100
+    ],
+    [
+      17,
+      "balancing loop",
+      100
+    ],
+    [
+      18,
+      "loop",
+      100
+    ],
+    [
+      19,
+      "loop evidence",
+      100
+    ],
+    [
+      20,
+      "loop support",
+      100
+    ],
+    [
+      21,
+      "loop path",
+      100
+    ],
+    [
+      22,
+      "loop surface",
+      100
+    ],
+    [
+      23,
+      "loop packet",
+      100
+    ],
+    [
+      24,
+      "loop receipt",
+      100
+    ],
+    [
+      25,
+      "loop trace",
+      100
+    ],
+    [
+      26,
+      "loop result",
+      100
+    ],
+    [
+      27,
+      "loop scope",
+      100
+    ],
+    [
+      28,
+      "loop status",
+      100
+    ],
+    [
+      29,
+      "loop candidate",
+      100
+    ],
+    [
+      30,
+      "loop witness",
+      100
+    ],
+    [
+      31,
+      "feedback",
+      100
+    ],
+    [
+      32,
+      "coupling",
+      100
+    ],
+    [
+      33,
+      "propagation",
+      100
+    ],
+    [
+      34,
+      "incentive",
+      100
+    ],
+    [
+      35,
+      "structure",
+      100
+    ],
+    [
+      36,
+      "dependency",
+      100
+    ],
+    [
+      37,
+      "interaction",
+      100
+    ],
+    [
+      38,
+      "loop probe",
+      100
+    ],
+    [
+      39,
+      "check loop",
+      100
+    ],
+    [
+      40,
+      "compare loop",
+      100
+    ],
+    [
+      41,
+      "observe loop",
+      100
+    ],
+    [
+      42,
+      "measure loop",
+      100
+    ],
+    [
+      43,
+      "test loop",
+      100
+    ],
+    [
+      44,
+      "verify loop",
+      100
+    ],
+    [
+      45,
+      "hold loop",
+      100
+    ],
+    [
+      46,
+      "preserve loop",
+      100
+    ],
+    [
+      47,
+      "split loop",
+      100
+    ],
+    [
+      48,
+      "narrow loop",
+      100
+    ],
+    [
+      49,
+      "under loop",
+      100
+    ],
+    [
+      50,
+      "within loop",
+      100
+    ],
+    [
+      51,
+      "across loop",
+      100
+    ],
+    [
+      52,
+      "between loop",
+      100
+    ],
+    [
+      53,
+      "through loop",
+      100
+    ],
+    [
+      54,
+      "before loop",
+      100
+    ],
+    [
+      55,
+      "after loop",
+      100
+    ],
+    [
+      56,
+      "until loop",
+      100
+    ],
+    [
+      57,
+      "where loop",
+      100
+    ],
+    [
+      58,
+      "while loop",
+      100
+    ],
+    [
+      59,
+      "feedback evidence",
+      100
+    ],
+    [
+      60,
+      "feedback support",
+      100
+    ],
+    [
+      61,
+      "feedback path",
+      100
+    ],
+    [
+      62,
+      "feedback surface",
+      100
+    ],
+    [
+      63,
+      "feedback packet",
+      100
+    ],
+    [
+      64,
+      "feedback receipt",
+      100
+    ],
+    [
+      65,
+      "feedback trace",
+      100
+    ],
+    [
+      66,
+      "feedback result",
+      100
+    ],
+    [
+      67,
+      "feedback scope",
+      100
+    ],
+    [
+      68,
+      "feedback status",
+      100
+    ],
+    [
+      69,
+      "feedback candidate",
+      100
+    ],
+    [
+      70,
+      "feedback witness",
+      100
+    ],
+    [
+      71,
+      "feedback probe",
+      100
+    ],
+    [
+      72,
+      "check feedback",
+      100
+    ],
+    [
+      73,
+      "compare feedback",
+      100
+    ],
+    [
+      74,
+      "observe feedback",
+      100
+    ],
+    [
+      75,
+      "measure feedback",
+      100
+    ],
+    [
+      76,
+      "test feedback",
+      100
+    ],
+    [
+      77,
+      "verify feedback",
+      100
+    ],
+    [
+      78,
+      "hold feedback",
+      100
+    ],
+    [
+      79,
+      "preserve feedback",
+      100
+    ],
+    [
+      80,
+      "split feedback",
+      100
+    ],
+    [
+      81,
+      "narrow feedback",
+      100
+    ],
+    [
+      82,
+      "under feedback",
+      100
+    ],
+    [
+      83,
+      "within feedback",
+      100
+    ],
+    [
+      84,
+      "across feedback",
+      100
+    ],
+    [
+      85,
+      "between feedback",
+      100
+    ],
+    [
+      86,
+      "through feedback",
+      100
+    ],
+    [
+      87,
+      "before feedback",
+      100
+    ],
+    [
+      88,
+      "after feedback",
+      100
+    ],
+    [
+      89,
+      "until feedback",
+      100
+    ],
+    [
+      90,
+      "where feedback",
+      100
+    ],
+    [
+      91,
+      "while feedback",
+      100
+    ],
+    [
+      92,
+      "incentive evidence",
+      100
+    ],
+    [
+      93,
+      "incentive support",
+      100
+    ],
+    [
+      94,
+      "incentive path",
+      100
+    ],
+    [
+      95,
+      "incentive surface",
+      100
+    ],
+    [
+      96,
+      "incentive packet",
+      100
+    ],
+    [
+      97,
+      "incentive receipt",
+      100
+    ],
+    [
+      98,
+      "incentive trace",
+      100
+    ],
+    [
+      99,
+      "incentive result",
+      100
+    ],
+    [
+      100,
+      "incentive scope",
+      100
+    ],
+    [
+      101,
+      "incentive status",
+      100
+    ],
+    [
+      102,
+      "incentive candidate",
+      100
+    ],
+    [
+      103,
+      "incentive witness",
+      100
+    ],
+    [
+      104,
+      "incentive probe",
+      100
+    ],
+    [
+      105,
+      "check incentive",
+      100
+    ],
+    [
+      106,
+      "compare incentive",
+      100
+    ],
+    [
+      107,
+      "observe incentive",
+      100
+    ],
+    [
+      108,
+      "measure incentive",
+      100
+    ],
+    [
+      109,
+      "test incentive",
+      100
+    ],
+    [
+      110,
+      "under incentive",
+      100
+    ],
+    [
+      111,
+      "within incentive",
+      100
+    ],
+    [
+      112,
+      "across incentive",
+      100
+    ],
+    [
+      113,
+      "between incentive",
+      100
+    ],
+    [
+      114,
+      "through incentive",
+      100
+    ],
+    [
+      115,
+      "verify incentive",
+      100
+    ],
+    [
+      116,
+      "hold incentive",
+      100
+    ],
+    [
+      117,
+      "preserve incentive",
+      100
+    ],
+    [
+      118,
+      "split incentive",
+      100
+    ],
+    [
+      119,
+      "narrow incentive",
+      100
+    ],
+    [
+      120,
+      "before incentive",
+      100
+    ],
+    [
+      121,
+      "after incentive",
+      100
+    ],
+    [
+      122,
+      "until incentive",
+      100
+    ],
+    [
+      123,
+      "where incentive",
+      100
+    ],
+    [
+      124,
+      "while incentive",
+      100
+    ],
+    [
+      125,
+      "structure evidence",
+      100
+    ],
+    [
+      126,
+      "structure support",
+      100
+    ],
+    [
+      127,
+      "structure path",
+      100
+    ],
+    [
+      128,
+      "structure surface",
+      100
+    ],
+    [
+      129,
+      "structure packet",
+      100
+    ],
+    [
+      130,
+      "structure receipt",
+      100
+    ],
+    [
+      131,
+      "structure trace",
+      100
+    ],
+    [
+      132,
+      "structure result",
+      100
+    ],
+    [
+      133,
+      "structure scope",
+      100
+    ],
+    [
+      134,
+      "structure status",
+      100
+    ],
+    [
+      135,
+      "structure candidate",
+      100
+    ],
+    [
+      136,
+      "structure witness",
+      100
+    ],
+    [
+      137,
+      "structure probe",
+      100
+    ],
+    [
+      138,
+      "check structure",
+      100
+    ],
+    [
+      139,
+      "compare structure",
+      100
+    ],
+    [
+      140,
+      "observe structure",
+      100
+    ],
+    [
+      141,
+      "measure structure",
+      100
+    ],
+    [
+      142,
+      "test structure",
+      100
+    ],
+    [
+      143,
+      "verify structure",
+      100
+    ],
+    [
+      144,
+      "hold structure",
+      100
+    ],
+    [
+      145,
+      "preserve structure",
+      100
+    ],
+    [
+      146,
+      "split structure",
+      100
+    ],
+    [
+      147,
+      "narrow structure",
+      100
+    ],
+    [
+      148,
+      "under structure",
+      100
+    ],
+    [
+      149,
+      "within structure",
+      100
+    ],
+    [
+      150,
+      "across structure",
+      100
+    ],
+    [
+      151,
+      "mini-MMM shapes voice",
+      100
+    ],
+    [
+      152,
+      "mini MMM voice shape",
+      100
+    ],
+    [
+      153,
+      "voice shaped by nouns",
+      100
+    ],
+    [
+      154,
+      "aligned nouns shape voice",
+      100
+    ],
+    [
+      155,
+      "correlated thinkers shape voice",
+      100
+    ],
+    [
+      156,
+      "thinker alignment voice",
+      100
+    ],
+    [
+      157,
+      "noun alignment voice",
+      100
+    ],
+    [
+      158,
+      "voice signature nouns",
+      100
+    ],
+    [
+      159,
+      "local voice contour",
+      100
+    ],
+    [
+      160,
+      "stocks and flows",
+      97
+    ],
+    [
+      161,
+      "buffer and delay",
+      97
+    ],
+    [
+      162,
+      "monitor controller",
+      97
+    ],
+    [
+      163,
+      "leverage point",
+      97
+    ],
+    [
+      164,
+      "control and communication",
+      97
+    ]
+  ],
+  "triplets": [
+    [
+      1,
+      "loop boundary path",
+      100
+    ],
+    [
+      2,
+      "feedback boundary path",
+      100
+    ],
+    [
+      3,
+      "incentive boundary path",
+      100
+    ],
+    [
+      4,
+      "structure boundary path",
+      100
+    ],
+    [
+      5,
+      "under environment loop",
+      100
+    ],
+    [
+      6,
+      "under boundary feedback",
+      100
+    ],
+    [
+      7,
+      "under boundary loop",
+      100
+    ],
+    [
+      8,
+      "under boundary coupling",
+      100
+    ],
+    [
+      9,
+      "under boundary incentive",
+      100
+    ],
+    [
+      10,
+      "under feedback loop",
+      100
+    ],
+    [
+      11,
+      "under loop coupling",
+      100
+    ],
+    [
+      12,
+      "under loop incentive",
+      100
+    ],
+    [
+      13,
+      "under loop emergence",
+      100
+    ],
+    [
+      14,
+      "loop evidence path",
+      100
+    ],
+    [
+      15,
+      "loop support path",
+      100
+    ],
+    [
+      16,
+      "loop path path",
+      100
+    ],
+    [
+      17,
+      "loop surface path",
+      100
+    ],
+    [
+      18,
+      "under open loop",
+      100
+    ],
+    [
+      19,
+      "loop packet path",
+      100
+    ],
+    [
+      20,
+      "within environment loop",
+      100
+    ],
+    [
+      21,
+      "within boundary feedback",
+      100
+    ],
+    [
+      22,
+      "within boundary loop",
+      100
+    ],
+    [
+      23,
+      "within boundary coupling",
+      100
+    ],
+    [
+      24,
+      "within boundary incentive",
+      100
+    ],
+    [
+      25,
+      "within feedback loop",
+      100
+    ],
+    [
+      26,
+      "within loop coupling",
+      100
+    ],
+    [
+      27,
+      "within loop incentive",
+      100
+    ],
+    [
+      28,
+      "within loop emergence",
+      100
+    ],
+    [
+      29,
+      "under live loop",
+      100
+    ],
+    [
+      30,
+      "loop receipt path",
+      100
+    ],
+    [
+      31,
+      "loop trace path",
+      100
+    ],
+    [
+      32,
+      "loop result path",
+      100
+    ],
+    [
+      33,
+      "loop scope path",
+      100
+    ],
+    [
+      34,
+      "within open loop",
+      100
+    ],
+    [
+      35,
+      "check loop receipt",
+      100
+    ],
+    [
+      36,
+      "within live loop",
+      100
+    ],
+    [
+      37,
+      "compare loop receipt",
+      100
+    ],
+    [
+      38,
+      "observe loop receipt",
+      100
+    ],
+    [
+      39,
+      "measure loop receipt",
+      100
+    ],
+    [
+      40,
+      "across open loop",
+      100
+    ],
+    [
+      41,
+      "across live loop",
+      100
+    ],
+    [
+      42,
+      "between open loop",
+      100
+    ],
+    [
+      43,
+      "between live loop",
+      100
+    ],
+    [
+      44,
+      "test loop receipt",
+      100
+    ],
+    [
+      45,
+      "verify loop receipt",
+      100
+    ],
+    [
+      46,
+      "hold loop receipt",
+      100
+    ],
+    [
+      47,
+      "preserve loop receipt",
+      100
+    ],
+    [
+      48,
+      "through open loop",
+      100
+    ],
+    [
+      49,
+      "through live loop",
+      100
+    ],
+    [
+      50,
+      "before open loop",
+      100
+    ],
+    [
+      51,
+      "before live loop",
+      100
+    ],
+    [
+      52,
+      "coupling propagation path",
+      100
+    ],
+    [
+      53,
+      "emergent behavior pattern",
+      100
+    ],
+    [
+      54,
+      "goal rule incentive",
+      100
+    ],
+    [
+      55,
+      "incentive selection pressure",
+      100
+    ],
+    [
+      56,
+      "information flow access",
+      100
+    ],
+    [
+      57,
+      "leverage point intervention",
+      100
+    ],
+    [
+      58,
+      "loop delay response",
+      100
+    ],
+    [
+      59,
+      "negative feedback correction",
+      100
+    ],
+    [
+      60,
+      "parameter stock flow",
+      100
+    ],
+    [
+      61,
+      "positive feedback growth",
+      100
+    ],
+    [
+      62,
+      "rules goals paradigm",
+      100
+    ],
+    [
+      63,
+      "second order effect",
+      100
+    ],
+    [
+      64,
+      "self organization structure",
+      100
+    ],
+    [
+      65,
+      "stock flow feedback",
+      100
+    ],
+    [
+      66,
+      "system boundary coupling",
+      100
+    ],
+    [
+      67,
+      "under environment feedback",
+      98
+    ],
+    [
+      68,
+      "under environment coupling",
+      98
+    ],
+    [
+      69,
+      "under feedback coupling",
+      98
+    ],
+    [
+      70,
+      "under feedback incentive",
+      98
+    ],
+    [
+      71,
+      "under feedback emergence",
+      98
+    ],
+    [
+      72,
+      "under coupling incentive",
+      98
+    ],
+    [
+      73,
+      "under coupling emergence",
+      98
+    ],
+    [
+      74,
+      "under incentive emergence",
+      98
+    ],
+    [
+      75,
+      "under current loop",
+      98
+    ],
+    [
+      76,
+      "under local loop",
+      98
+    ],
+    [
+      77,
+      "under bounded loop",
+      98
+    ],
+    [
+      78,
+      "under finite loop",
+      98
+    ],
+    [
+      79,
+      "within current loop",
+      98
+    ],
+    [
+      80,
+      "within local loop",
+      98
+    ],
+    [
+      81,
+      "within bounded loop",
+      98
+    ],
+    [
+      82,
+      "within finite loop",
+      98
+    ],
+    [
+      83,
+      "across current loop",
+      98
+    ],
+    [
+      84,
+      "across local loop",
+      98
+    ],
+    [
+      85,
+      "across bounded loop",
+      98
+    ],
+    [
+      86,
+      "across finite loop",
+      98
+    ],
+    [
+      87,
+      "between current loop",
+      98
+    ],
+    [
+      88,
+      "between local loop",
+      98
+    ],
+    [
+      89,
+      "between bounded loop",
+      98
+    ],
+    [
+      90,
+      "between finite loop",
+      98
+    ],
+    [
+      91,
+      "through current loop",
+      98
+    ],
+    [
+      92,
+      "under selection structure",
+      97
+    ],
+    [
+      93,
+      "under selection interaction",
+      97
+    ],
+    [
+      94,
+      "under selection propagation",
+      97
+    ],
+    [
+      95,
+      "under structure interaction",
+      97
+    ],
+    [
+      96,
+      "under structure propagation",
+      97
+    ],
+    [
+      97,
+      "under structure network",
+      97
+    ],
+    [
+      98,
+      "under structure node",
+      97
+    ],
+    [
+      99,
+      "under interaction propagation",
+      97
+    ],
+    [
+      100,
+      "under interaction network",
+      97
+    ],
+    [
+      101,
+      "under interaction node",
+      97
+    ],
+    [
+      102,
+      "under interaction edge",
+      97
+    ],
+    [
+      103,
+      "under propagation network",
+      97
+    ],
+    [
+      104,
+      "under propagation node",
+      97
+    ],
+    [
+      105,
+      "under propagation edge",
+      97
+    ],
+    [
+      106,
+      "through local loop",
+      97
+    ],
+    [
+      107,
+      "through bounded loop",
+      97
+    ],
+    [
+      108,
+      "through finite loop",
+      97
+    ],
+    [
+      109,
+      "before current loop",
+      97
+    ],
+    [
+      110,
+      "before local loop",
+      97
+    ],
+    [
+      111,
+      "before bounded loop",
+      97
+    ],
+    [
+      112,
+      "before finite loop",
+      97
+    ],
+    [
+      113,
+      "within environment feedback",
+      96
+    ],
+    [
+      114,
+      "within environment coupling",
+      96
+    ],
+    [
+      115,
+      "within feedback coupling",
+      96
+    ],
+    [
+      116,
+      "mini-MMM shapes voice",
+      100
+    ],
+    [
+      117,
+      "mini MMM voice shape",
+      100
+    ],
+    [
+      118,
+      "voice shaped by nouns",
+      100
+    ],
+    [
+      119,
+      "aligned nouns shape voice",
+      100
+    ],
+    [
+      120,
+      "correlated thinkers shape voice",
+      100
+    ],
+    [
+      121,
+      "monitor controller feedback",
+      96
+    ],
+    [
+      122,
+      "stock flow delay",
+      96
+    ],
+    [
+      123,
+      "goal paradigm leverage",
+      96
+    ]
+  ],
+  "v3_3_salience_expansion": {
+    "source": "deep-research-report.md",
+    "status": "positive salience only; not negative/reference boot",
+    "route": "SYSTEMS",
+    "size": "compact"
+  }
+}

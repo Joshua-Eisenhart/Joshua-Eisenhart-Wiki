@@ -1,0 +1,1883 @@
+{
+  "words": [
+    [
+      1,
+      "all",
+      100
+    ],
+    [
+      2,
+      "all-of-the-above",
+      100
+    ],
+    [
+      3,
+      "answer",
+      100
+    ],
+    [
+      4,
+      "audit",
+      100
+    ],
+    [
+      5,
+      "blocked",
+      100
+    ],
+    [
+      6,
+      "burden",
+      100
+    ],
+    [
+      7,
+      "check",
+      100
+    ],
+    [
+      8,
+      "collapse",
+      100
+    ],
+    [
+      9,
+      "context",
+      100
+    ],
+    [
+      10,
+      "council",
+      100
+    ],
+    [
+      11,
+      "deferred",
+      100
+    ],
+    [
+      12,
+      "follow-up",
+      100
+    ],
+    [
+      13,
+      "followup",
+      100
+    ],
+    [
+      14,
+      "full",
+      100
+    ],
+    [
+      15,
+      "full-context",
+      100
+    ],
+    [
+      16,
+      "lowers",
+      100
+    ],
+    [
+      17,
+      "preflight",
+      100
+    ],
+    [
+      18,
+      "primary answer",
+      100
+    ],
+    [
+      19,
+      "produce",
+      100
+    ],
+    [
+      20,
+      "protect",
+      100
+    ],
+    [
+      21,
+      "receipts",
+      100
+    ],
+    [
+      22,
+      "registry",
+      100
+    ],
+    [
+      23,
+      "registry-backed",
+      100
+    ],
+    [
+      24,
+      "resistance",
+      100
+    ],
+    [
+      25,
+      "spawned",
+      100
+    ],
+    [
+      26,
+      "triad",
+      100
+    ],
+    [
+      27,
+      "under",
+      100
+    ],
+    [
+      28,
+      "units",
+      100
+    ],
+    [
+      29,
+      "unreceipted",
+      100
+    ],
+    [
+      30,
+      "user",
+      100
+    ],
+    [
+      31,
+      "voices",
+      100
+    ],
+    [
+      32,
+      "wave",
+      100
+    ],
+    [
+      33,
+      "waves",
+      100
+    ],
+    [
+      34,
+      "whole",
+      100
+    ],
+    [
+      35,
+      "whole-context triad",
+      100
+    ],
+    [
+      36,
+      "wizard",
+      100
+    ],
+    [
+      37,
+      "across",
+      99
+    ],
+    [
+      38,
+      "after",
+      99
+    ],
+    [
+      39,
+      "against",
+      99
+    ],
+    [
+      40,
+      "before",
+      99
+    ],
+    [
+      41,
+      "between",
+      99
+    ],
+    [
+      42,
+      "bounded",
+      99
+    ],
+    [
+      43,
+      "by",
+      99
+    ],
+    [
+      44,
+      "from",
+      99
+    ],
+    [
+      45,
+      "instead",
+      99
+    ],
+    [
+      46,
+      "likely",
+      99
+    ],
+    [
+      47,
+      "locally",
+      99
+    ],
+    [
+      48,
+      "only",
+      99
+    ],
+    [
+      49,
+      "possible",
+      99
+    ],
+    [
+      50,
+      "rather",
+      99
+    ],
+    [
+      51,
+      "relative",
+      99
+    ],
+    [
+      52,
+      "still",
+      99
+    ],
+    [
+      53,
+      "through",
+      99
+    ],
+    [
+      54,
+      "with",
+      99
+    ],
+    [
+      55,
+      "within",
+      99
+    ],
+    [
+      56,
+      "without",
+      99
+    ],
+    [
+      57,
+      "case",
+      98
+    ],
+    [
+      58,
+      "checked",
+      98
+    ],
+    [
+      59,
+      "constraint",
+      98
+    ],
+    [
+      60,
+      "current",
+      98
+    ],
+    [
+      61,
+      "evidence",
+      98
+    ],
+    [
+      62,
+      "finite",
+      98
+    ],
+    [
+      63,
+      "instance",
+      98
+    ],
+    [
+      64,
+      "limited",
+      98
+    ],
+    [
+      65,
+      "local",
+      98
+    ],
+    [
+      66,
+      "measured",
+      98
+    ],
+    [
+      67,
+      "measurement",
+      98
+    ],
+    [
+      68,
+      "name",
+      98
+    ],
+    [
+      69,
+      "observation",
+      98
+    ],
+    [
+      70,
+      "observed",
+      98
+    ],
+    [
+      71,
+      "open",
+      98
+    ],
+    [
+      72,
+      "partial",
+      98
+    ],
+    [
+      73,
+      "integrated composition pass",
+      100
+    ],
+    [
+      74,
+      "useful composition work",
+      100
+    ],
+    [
+      75,
+      "clean closeout trust check whole-context behavior proof",
+      100
+    ],
+    [
+      76,
+      "Council Audit survival",
+      100
+    ],
+    [
+      77,
+      "selective C9 integration",
+      100
+    ],
+    [
+      78,
+      "not decorative all-of-above",
+      100
+    ]
+  ],
+  "couplings": [
+    [
+      1,
+      "across council",
+      100
+    ],
+    [
+      2,
+      "across preflight",
+      100
+    ],
+    [
+      3,
+      "across registry",
+      100
+    ],
+    [
+      4,
+      "after council",
+      100
+    ],
+    [
+      5,
+      "after preflight",
+      100
+    ],
+    [
+      6,
+      "after registry",
+      100
+    ],
+    [
+      7,
+      "all council",
+      100
+    ],
+    [
+      8,
+      "all registry",
+      100
+    ],
+    [
+      9,
+      "all voices",
+      100
+    ],
+    [
+      10,
+      "before council",
+      100
+    ],
+    [
+      11,
+      "before preflight",
+      100
+    ],
+    [
+      12,
+      "before registry",
+      100
+    ],
+    [
+      13,
+      "between council",
+      100
+    ],
+    [
+      14,
+      "between preflight",
+      100
+    ],
+    [
+      15,
+      "between registry",
+      100
+    ],
+    [
+      16,
+      "by preflight",
+      100
+    ],
+    [
+      17,
+      "by registry",
+      100
+    ],
+    [
+      18,
+      "collapse resistance",
+      100
+    ],
+    [
+      19,
+      "context council",
+      100
+    ],
+    [
+      20,
+      "context registry",
+      100
+    ],
+    [
+      21,
+      "council audit",
+      100
+    ],
+    [
+      22,
+      "council follow-up",
+      100
+    ],
+    [
+      23,
+      "council primary answer",
+      100
+    ],
+    [
+      24,
+      "council registry",
+      100
+    ],
+    [
+      25,
+      "council wave",
+      100
+    ],
+    [
+      26,
+      "council whole-context triad",
+      100
+    ],
+    [
+      27,
+      "final output check",
+      100
+    ],
+    [
+      28,
+      "followup audit",
+      100
+    ],
+    [
+      29,
+      "from preflight",
+      100
+    ],
+    [
+      30,
+      "from registry",
+      100
+    ],
+    [
+      31,
+      "full context",
+      100
+    ],
+    [
+      32,
+      "full council",
+      100
+    ],
+    [
+      33,
+      "full preflight",
+      100
+    ],
+    [
+      34,
+      "preflight all",
+      100
+    ],
+    [
+      35,
+      "preflight check",
+      100
+    ],
+    [
+      36,
+      "preflight context",
+      100
+    ],
+    [
+      37,
+      "preflight council",
+      100
+    ],
+    [
+      38,
+      "preflight followup",
+      100
+    ],
+    [
+      39,
+      "preflight voices",
+      100
+    ],
+    [
+      40,
+      "preflight whole",
+      100
+    ],
+    [
+      41,
+      "receipt truth",
+      100
+    ],
+    [
+      42,
+      "registry audit",
+      100
+    ],
+    [
+      43,
+      "registry blocked",
+      100
+    ],
+    [
+      44,
+      "registry deferred",
+      100
+    ],
+    [
+      45,
+      "registry follow-up",
+      100
+    ],
+    [
+      46,
+      "registry primary answer",
+      100
+    ],
+    [
+      47,
+      "registry spawned",
+      100
+    ],
+    [
+      48,
+      "registry whole-context triad",
+      100
+    ],
+    [
+      49,
+      "through council",
+      100
+    ],
+    [
+      50,
+      "through preflight",
+      100
+    ],
+    [
+      51,
+      "through registry",
+      100
+    ],
+    [
+      52,
+      "under all",
+      100
+    ],
+    [
+      53,
+      "under audit",
+      100
+    ],
+    [
+      54,
+      "under check",
+      100
+    ],
+    [
+      55,
+      "under context",
+      100
+    ],
+    [
+      56,
+      "under council",
+      100
+    ],
+    [
+      57,
+      "under followup",
+      100
+    ],
+    [
+      58,
+      "under full",
+      100
+    ],
+    [
+      59,
+      "under preflight",
+      100
+    ],
+    [
+      60,
+      "under primary answer",
+      100
+    ],
+    [
+      61,
+      "under registry",
+      100
+    ],
+    [
+      62,
+      "under voices",
+      100
+    ],
+    [
+      63,
+      "under wave",
+      100
+    ],
+    [
+      64,
+      "under whole",
+      100
+    ],
+    [
+      65,
+      "under whole-context triad",
+      100
+    ],
+    [
+      66,
+      "under wizard",
+      100
+    ],
+    [
+      67,
+      "voice wave",
+      100
+    ],
+    [
+      68,
+      "voices audit",
+      100
+    ],
+    [
+      69,
+      "voices council",
+      100
+    ],
+    [
+      70,
+      "voices registry",
+      100
+    ],
+    [
+      71,
+      "wave council",
+      100
+    ],
+    [
+      72,
+      "wave preflight",
+      100
+    ],
+    [
+      73,
+      "wave registry",
+      100
+    ],
+    [
+      74,
+      "whole context triad",
+      100
+    ],
+    [
+      75,
+      "whole council",
+      100
+    ],
+    [
+      76,
+      "whole registry",
+      100
+    ],
+    [
+      77,
+      "with preflight",
+      100
+    ],
+    [
+      78,
+      "with registry",
+      100
+    ],
+    [
+      79,
+      "within all",
+      100
+    ],
+    [
+      80,
+      "within council",
+      100
+    ],
+    [
+      81,
+      "within full",
+      100
+    ],
+    [
+      82,
+      "within preflight",
+      100
+    ],
+    [
+      83,
+      "within registry",
+      100
+    ],
+    [
+      84,
+      "within wave",
+      100
+    ],
+    [
+      85,
+      "within wizard",
+      100
+    ],
+    [
+      86,
+      "without preflight",
+      100
+    ],
+    [
+      87,
+      "wizard bundle",
+      100
+    ],
+    [
+      88,
+      "wizard preflight",
+      100
+    ],
+    [
+      89,
+      "wizard voices",
+      100
+    ],
+    [
+      90,
+      "across all",
+      99
+    ],
+    [
+      91,
+      "across context",
+      99
+    ],
+    [
+      92,
+      "across followup",
+      99
+    ],
+    [
+      93,
+      "across full",
+      99
+    ],
+    [
+      94,
+      "across voices",
+      99
+    ],
+    [
+      95,
+      "across wave",
+      99
+    ],
+    [
+      96,
+      "across whole",
+      99
+    ],
+    [
+      97,
+      "across wizard",
+      99
+    ],
+    [
+      98,
+      "against preflight",
+      99
+    ],
+    [
+      99,
+      "against registry",
+      99
+    ],
+    [
+      100,
+      "within audit",
+      99
+    ],
+    [
+      101,
+      "within check",
+      99
+    ],
+    [
+      102,
+      "within context",
+      99
+    ],
+    [
+      103,
+      "within followup",
+      99
+    ],
+    [
+      104,
+      "within primary answer",
+      99
+    ],
+    [
+      105,
+      "within voices",
+      99
+    ],
+    [
+      106,
+      "within whole",
+      99
+    ],
+    [
+      107,
+      "within whole-context triad",
+      99
+    ],
+    [
+      108,
+      "without registry",
+      99
+    ],
+    [
+      109,
+      "across audit",
+      98
+    ],
+    [
+      110,
+      "across check",
+      98
+    ],
+    [
+      111,
+      "across primary answer",
+      98
+    ],
+    [
+      112,
+      "across whole-context triad",
+      98
+    ],
+    [
+      113,
+      "between all",
+      98
+    ],
+    [
+      114,
+      "between audit",
+      98
+    ],
+    [
+      115,
+      "between check",
+      98
+    ],
+    [
+      116,
+      "between context",
+      98
+    ],
+    [
+      117,
+      "between followup",
+      98
+    ],
+    [
+      118,
+      "between full",
+      98
+    ],
+    [
+      119,
+      "between primary answer",
+      98
+    ],
+    [
+      120,
+      "between voices",
+      98
+    ],
+    [
+      121,
+      "between wave",
+      98
+    ],
+    [
+      122,
+      "between whole",
+      98
+    ],
+    [
+      123,
+      "between whole-context triad",
+      98
+    ],
+    [
+      124,
+      "between wizard",
+      98
+    ],
+    [
+      125,
+      "before all",
+      97
+    ],
+    [
+      126,
+      "before full",
+      97
+    ],
+    [
+      127,
+      "before wave",
+      97
+    ],
+    [
+      128,
+      "before wizard",
+      97
+    ],
+    [
+      129,
+      "through all",
+      97
+    ],
+    [
+      130,
+      "through audit",
+      97
+    ],
+    [
+      131,
+      "through check",
+      97
+    ],
+    [
+      132,
+      "through context",
+      97
+    ],
+    [
+      133,
+      "through followup",
+      97
+    ],
+    [
+      134,
+      "through full",
+      97
+    ],
+    [
+      135,
+      "through primary answer",
+      97
+    ],
+    [
+      136,
+      "through voices",
+      97
+    ],
+    [
+      137,
+      "through wave",
+      97
+    ],
+    [
+      138,
+      "through whole",
+      97
+    ],
+    [
+      139,
+      "through whole-context triad",
+      97
+    ],
+    [
+      140,
+      "through wizard",
+      97
+    ],
+    [
+      141,
+      "after all",
+      96
+    ],
+    [
+      142,
+      "after context",
+      96
+    ],
+    [
+      143,
+      "after followup",
+      96
+    ],
+    [
+      144,
+      "after full",
+      96
+    ],
+    [
+      145,
+      "after voices",
+      96
+    ],
+    [
+      146,
+      "after wave",
+      96
+    ],
+    [
+      147,
+      "after whole",
+      96
+    ],
+    [
+      148,
+      "after wizard",
+      96
+    ],
+    [
+      149,
+      "before audit",
+      96
+    ],
+    [
+      150,
+      "before check",
+      96
+    ],
+    [
+      151,
+      "before context",
+      96
+    ],
+    [
+      152,
+      "before followup",
+      96
+    ],
+    [
+      153,
+      "before primary answer",
+      96
+    ],
+    [
+      154,
+      "before voices",
+      96
+    ],
+    [
+      155,
+      "before whole",
+      96
+    ],
+    [
+      156,
+      "before whole-context triad",
+      96
+    ],
+    [
+      157,
+      "after audit",
+      95
+    ],
+    [
+      158,
+      "after check",
+      95
+    ],
+    [
+      159,
+      "after primary answer",
+      95
+    ],
+    [
+      160,
+      "after whole-context triad",
+      95
+    ],
+    [
+      161,
+      "C9 integrates compositions",
+      100
+    ],
+    [
+      162,
+      "clean closeout trust check",
+      100
+    ],
+    [
+      163,
+      "whole-context behavior proof",
+      100
+    ],
+    [
+      164,
+      "Council Audit survival",
+      100
+    ]
+  ],
+  "triplets": [
+    [
+      1,
+      "across wave all",
+      100
+    ],
+    [
+      2,
+      "across wave context",
+      100
+    ],
+    [
+      3,
+      "across wave council",
+      100
+    ],
+    [
+      4,
+      "across wave preflight",
+      100
+    ],
+    [
+      5,
+      "across wave voices",
+      100
+    ],
+    [
+      6,
+      "across wave whole",
+      100
+    ],
+    [
+      7,
+      "after whole council",
+      100
+    ],
+    [
+      8,
+      "after whole registry",
+      100
+    ],
+    [
+      9,
+      "against registry audit",
+      100
+    ],
+    [
+      10,
+      "against registry blocked",
+      100
+    ],
+    [
+      11,
+      "against registry deferred",
+      100
+    ],
+    [
+      12,
+      "against registry follow-up",
+      100
+    ],
+    [
+      13,
+      "against registry spawned",
+      100
+    ],
+    [
+      14,
+      "before voices audit",
+      100
+    ],
+    [
+      15,
+      "before voices council",
+      100
+    ],
+    [
+      16,
+      "before voices registry",
+      100
+    ],
+    [
+      17,
+      "between preflight all",
+      100
+    ],
+    [
+      18,
+      "between preflight check",
+      100
+    ],
+    [
+      19,
+      "between preflight context",
+      100
+    ],
+    [
+      20,
+      "between preflight council",
+      100
+    ],
+    [
+      21,
+      "between preflight followup",
+      100
+    ],
+    [
+      22,
+      "between preflight voices",
+      100
+    ],
+    [
+      23,
+      "between preflight whole",
+      100
+    ],
+    [
+      24,
+      "by council audit",
+      100
+    ],
+    [
+      25,
+      "by council check",
+      100
+    ],
+    [
+      26,
+      "by council follow-up",
+      100
+    ],
+    [
+      27,
+      "by council followup",
+      100
+    ],
+    [
+      28,
+      "by council primary answer",
+      100
+    ],
+    [
+      29,
+      "by council registry",
+      100
+    ],
+    [
+      30,
+      "by council whole-context triad",
+      100
+    ],
+    [
+      31,
+      "collapse resistance check",
+      100
+    ],
+    [
+      32,
+      "final output check",
+      100
+    ],
+    [
+      33,
+      "followup make audit",
+      100
+    ],
+    [
+      34,
+      "from context council",
+      100
+    ],
+    [
+      35,
+      "from context registry",
+      100
+    ],
+    [
+      36,
+      "locally whole-context triad blocked",
+      100
+    ],
+    [
+      37,
+      "locally whole-context triad deferred",
+      100
+    ],
+    [
+      38,
+      "locally whole-context triad follow-up",
+      100
+    ],
+    [
+      39,
+      "locally whole-context triad primary answer",
+      100
+    ],
+    [
+      40,
+      "locally whole-context triad spawned",
+      100
+    ],
+    [
+      41,
+      "preflight voices council",
+      100
+    ],
+    [
+      42,
+      "registry receipt audit",
+      100
+    ],
+    [
+      43,
+      "relative audit blocked",
+      100
+    ],
+    [
+      44,
+      "relative audit follow-up",
+      100
+    ],
+    [
+      45,
+      "relative audit primary answer",
+      100
+    ],
+    [
+      46,
+      "relative audit whole-context triad",
+      100
+    ],
+    [
+      47,
+      "still deferred spawned",
+      100
+    ],
+    [
+      48,
+      "through all council",
+      100
+    ],
+    [
+      49,
+      "through all registry",
+      100
+    ],
+    [
+      50,
+      "through all voices",
+      100
+    ],
+    [
+      51,
+      "under wizard all",
+      100
+    ],
+    [
+      52,
+      "under wizard context",
+      100
+    ],
+    [
+      53,
+      "under wizard full",
+      100
+    ],
+    [
+      54,
+      "under wizard preflight",
+      100
+    ],
+    [
+      55,
+      "under wizard voices",
+      100
+    ],
+    [
+      56,
+      "under wizard wave",
+      100
+    ],
+    [
+      57,
+      "under wizard whole",
+      100
+    ],
+    [
+      58,
+      "whole context triad",
+      100
+    ],
+    [
+      59,
+      "with followup registry",
+      100
+    ],
+    [
+      60,
+      "within full all",
+      100
+    ],
+    [
+      61,
+      "within full context",
+      100
+    ],
+    [
+      62,
+      "within full council",
+      100
+    ],
+    [
+      63,
+      "within full preflight",
+      100
+    ],
+    [
+      64,
+      "within full voices",
+      100
+    ],
+    [
+      65,
+      "within full wave",
+      100
+    ],
+    [
+      66,
+      "within full whole",
+      100
+    ],
+    [
+      67,
+      "without check registry",
+      100
+    ],
+    [
+      68,
+      "across wave followup",
+      99
+    ],
+    [
+      69,
+      "before voices check",
+      99
+    ],
+    [
+      70,
+      "before voices context",
+      99
+    ],
+    [
+      71,
+      "before voices followup",
+      99
+    ],
+    [
+      72,
+      "before voices whole",
+      99
+    ],
+    [
+      73,
+      "through all check",
+      99
+    ],
+    [
+      74,
+      "through all context",
+      99
+    ],
+    [
+      75,
+      "through all followup",
+      99
+    ],
+    [
+      76,
+      "through all whole",
+      99
+    ],
+    [
+      77,
+      "after whole audit",
+      98
+    ],
+    [
+      78,
+      "after whole check",
+      98
+    ],
+    [
+      79,
+      "after whole context",
+      98
+    ],
+    [
+      80,
+      "after whole followup",
+      98
+    ],
+    [
+      81,
+      "after whole whole-context triad",
+      98
+    ],
+    [
+      82,
+      "against registry primary answer",
+      98
+    ],
+    [
+      83,
+      "against registry whole-context triad",
+      98
+    ],
+    [
+      84,
+      "from context audit",
+      98
+    ],
+    [
+      85,
+      "from context check",
+      98
+    ],
+    [
+      86,
+      "from context followup",
+      98
+    ],
+    [
+      87,
+      "from context primary answer",
+      98
+    ],
+    [
+      88,
+      "from context whole-context triad",
+      98
+    ],
+    [
+      89,
+      "with followup audit",
+      97
+    ],
+    [
+      90,
+      "with followup blocked",
+      97
+    ],
+    [
+      91,
+      "with followup check",
+      97
+    ],
+    [
+      92,
+      "with followup follow-up",
+      97
+    ],
+    [
+      93,
+      "with followup primary answer",
+      97
+    ],
+    [
+      94,
+      "with followup whole-context triad",
+      97
+    ],
+    [
+      95,
+      "without check audit",
+      97
+    ],
+    [
+      96,
+      "without check blocked",
+      97
+    ],
+    [
+      97,
+      "without check deferred",
+      97
+    ],
+    [
+      98,
+      "without check follow-up",
+      97
+    ],
+    [
+      99,
+      "without check primary answer",
+      97
+    ],
+    [
+      100,
+      "without check whole-context triad",
+      97
+    ],
+    [
+      101,
+      "locally whole-context triad under",
+      96
+    ],
+    [
+      102,
+      "locally whole-context triad within",
+      96
+    ],
+    [
+      103,
+      "rather primary answer blocked",
+      96
+    ],
+    [
+      104,
+      "rather primary answer follow-up",
+      96
+    ],
+    [
+      105,
+      "relative audit deferred",
+      96
+    ],
+    [
+      106,
+      "relative audit spawned",
+      96
+    ],
+    [
+      107,
+      "relative audit under",
+      96
+    ],
+    [
+      108,
+      "instead follow-up across",
+      95
+    ],
+    [
+      109,
+      "instead follow-up between",
+      95
+    ],
+    [
+      110,
+      "instead follow-up blocked",
+      95
+    ],
+    [
+      111,
+      "instead follow-up deferred",
+      95
+    ],
+    [
+      112,
+      "instead follow-up spawned",
+      95
+    ],
+    [
+      113,
+      "instead follow-up under",
+      95
+    ],
+    [
+      114,
+      "instead follow-up within",
+      95
+    ],
+    [
+      115,
+      "only blocked across",
+      95
+    ],
+    [
+      116,
+      "only blocked between",
+      95
+    ],
+    [
+      117,
+      "only blocked deferred",
+      95
+    ],
+    [
+      118,
+      "only blocked spawned",
+      95
+    ],
+    [
+      119,
+      "only blocked through",
+      95
+    ],
+    [
+      120,
+      "only blocked under",
+      95
+    ],
+    [
+      121,
+      "only blocked within",
+      95
+    ],
+    [
+      122,
+      "rather primary answer across",
+      95
+    ],
+    [
+      123,
+      "rather primary answer deferred",
+      95
+    ],
+    [
+      124,
+      "rather primary answer spawned",
+      95
+    ],
+    [
+      125,
+      "rather primary answer under",
+      95
+    ],
+    [
+      126,
+      "rather primary answer within",
+      95
+    ],
+    [
+      127,
+      "likely spawned across",
+      94
+    ],
+    [
+      128,
+      "likely spawned after",
+      94
+    ],
+    [
+      129,
+      "likely spawned before",
+      94
+    ],
+    [
+      130,
+      "likely spawned between",
+      94
+    ],
+    [
+      131,
+      "C9 clean trust context",
+      100
+    ],
+    [
+      132,
+      "C9 behavior proof audit",
+      100
+    ],
+    [
+      133,
+      "composition work survives audit",
+      100
+    ]
+  ]
+}

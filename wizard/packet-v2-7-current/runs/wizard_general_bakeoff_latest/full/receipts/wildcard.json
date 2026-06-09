@@ -1,0 +1,12 @@
+{
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate",
+  "checked": "loaded mini_mmms/full/lanes/md/MMM_LANE_WILDCARD_FULL_v2_7.md",
+  "concluded": "Off-axis probe: add a deliberately bad unlisted-material task in a future run to confirm refusal behavior.",
+  "evidence": "mini_mmms/full/lanes/md/MMM_LANE_WILDCARD_FULL_v2_7.md terms: cheap test, edge move, small experiment, language body, wildcard, surprise, unexpected, odd",
+  "generated_at": "2026-04-28T08:03:25.064055+00:00",
+  "lane": "Wildcard",
+  "open": "live proof pending",
+  "output_excerpt": "Task: Compare Wizard General sizes and choose the best local runtime surface.\nWizard General size: full\nWave 8: Follow-up Run/Scout Wave\nOff-axis probe: add a deliberately bad unlisted-material task in a future run to confirm refusal behavior.\nLoaded language body terms: cheap test, edge move, small experiment, language body, wildcard, surprise, unexpected, odd",
+  "output_sha256": "199ebe598c0ad38b1befeae0fbab3c449e7d12910174e549079593d6f4d29938",
+  "schema_version": "wizard_behavior_harness.v1"
+}

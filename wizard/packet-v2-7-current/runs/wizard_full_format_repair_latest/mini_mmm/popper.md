@@ -1,0 +1,428 @@
+---
+title: Popper
+created: 2026-04-28
+updated: 2026-04-28
+type: concept
+tags: [wizard, mmm, packet, receipt]
+framing: current
+source_path: runs/wizard_full_format_repair_latest/mini_mmm/popper.md
+---
+
+Lane-local behavior probe body for Popper. Candidate root: /Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate. This record was normalized from collected probe output only. The harness did not spawn agents, infer hidden execution, or add a claim beyond the supplied lane record. Review this lane as receipt evidence: checked material, conclusion, remaining open question, and cited evidence must remain tied to the captured output. The body exists so the adapter can verify that every completed lane has a lane-local language surface rather than borrowing global prose. Future readers should treat the text as a behavior probe normalization artifact, not as independent proof of correctness. 
+
+Collected output:
+# MMM_VOICE_POPPER_FULL_v2_7
+
+## aligned nouns and phrases
+
+- what would break
+- what would rule out
+- conjectures and refutations
+- critical rationalism
+- bold conjecture
+- severe test
+- risky prediction
+- falsifiable hypothesis
+- problem situation
+- error elimination
+- corroborated theory
+- refuted claim
+- decisive check
+- failure condition
+- language body
+- conjecture
+- refutation
+- falsifier
+- falsification
+- severe
+- risky
+- prediction
+- testable
+- critical
+- problem
+- error
+- trial
+- corroboration
+- survive
+- fail
+- killed
+- open
+- survived
+- counterinstance
+- decisive
+- stress
+- pressure
+- challenge
+- bold
+- claim
+- target
+- break
+- exposure
+- refute
+- counterexample
+- unsupported
+- falsify
+- check
+- risk
+- tested
+- evidence
+- strongest
+- path
+- outside
+- only
+- then
+- bounded
+- finite
+- distinct
+- concrete
+- observed
+- missing
+- small
+- honest
+- first
+- prior
+- separate
+- together
+- compared
+- measured
+- used
+- fit
+- viable
+- direct
+- different
+- alternate
+- branch
+- packet
+- artifact
+- receipt
+- trace
+- result
+- support
+- scope
+- boundary
+- gate
+- guard
+- rung
+- status
+- candidate
+- survivor
+- witness
+- probe
+- constraint
+- name
+- use
+- role
+- practice
+- experience
+- observation
+- perception
+- conjunction
+- resemblance
+- relation
+- probability
+- particular
+- predicate
+- class
+- model
+- solver
+- satisfiable
+- unsatisfiable
+- countermodel
+- equivalence
+- indistinguishable
+- readout
+- measure
+- measurement
+- operation
+- procedure
+- instrument
+- experiment
+- verify
+- compare
+- sample
+- route
+- lane
+- voice
+- lens
+- council
+- audit
+- finding
+- blocker
+- deferred
+- blocked
+- spawned
+- diagnostic
+- untried
+- preload
+- language
+- body
+- during
+- since
+- toward
+- relative
+- according
+- locally
+- jointly
+- separately
+- rather
+- instead
+- still
+- often
+- sometimes
+- usually
+- seems
+- likely
+- possible
+- plausible
+- tentative
+- provisional
+- partial
+- limited
+- case
+- instance
+
+## correlated couplings
+
+- what would break
+- what would rule out
+- survived conjectures and refutations
+- counterinstance conjectures and refutations
+- counterinstance critical rationalism
+- falsifier evidence
+- falsifier support
+- falsifier packet
+- falsifier receipt
+- falsifier trace
+- falsifier result
+- falsifier scope
+- falsifier boundary
+- falsifier witness
+- falsifier probe
+- falsifier constraint
+- compare falsifier
+- measure falsifier
+- hold falsifier
+- preserve falsifier
+- split falsifier
+- narrow falsifier
+- falsify evidence
+- falsify support
+- falsify packet
+- falsify receipt
+- falsify trace
+- falsify result
+- falsify scope
+- falsify boundary
+- falsify witness
+- falsify probe
+- falsify constraint
+- compare falsify
+- measure falsify
+- hold falsify
+- preserve falsify
+- split falsify
+- narrow falsify
+- claim evidence
+- claim support
+- claim packet
+- claim receipt
+- claim trace
+- claim result
+- claim scope
+- claim boundary
+- claim witness
+- claim probe
+- claim constraint
+- compare claim
+- measure claim
+- hold claim
+- preserve claim
+- split claim
+- narrow claim
+- break evidence
+- break support
+- break packet
+- break receipt
+- break trace
+- break result
+- break scope
+- break boundary
+- break witness
+- break probe
+- break constraint
+- compare break
+- measure break
+- hold break
+- preserve break
+- split break
+- narrow break
+- decisive evidence
+- decisive support
+- decisive packet
+- decisive receipt
+- decisive trace
+- decisive result
+- decisive scope
+- decisive boundary
+- decisive witness
+- decisive probe
+- decisive constraint
+- compare decisive
+- measure decisive
+- hold decisive
+- preserve decisive
+- split decisive
+- narrow decisive
+- compare check
+- measure check
+- hold check
+- preserve check
+- split check
+- narrow check
+- killed evidence
+- killed support
+- killed packet
+- killed receipt
+- killed trace
+- killed result
+- killed scope
+- killed boundary
+- killed witness
+- killed probe
+- killed constraint
+- compare killed
+- measure killed
+- hold killed
+- preserve killed
+- split killed
+- narrow killed
+- open evidence
+- open support
+- open packet
+- open receipt
+- open trace
+- open result
+- open scope
+- open boundary
+- open witness
+- open probe
+- open constraint
+- compare open
+- measure open
+- hold open
+- preserve open
+- split open
+- narrow open
+- survived evidence
+- survived support
+- survived packet
+- survived receipt
+- survived trace
+- survived result
+- survived scope
+- survived boundary
+- survived witness
+- survived probe
+- survived constraint
+- compare survived
+- measure survived
+- hold survived
+- preserve survived
+- split survived
+- narrow survived
+- counterexample evidence
+- counterexample support
+- counterexample packet
+- counterexample receipt
+- counterexample trace
+- counterexample result
+- counterexample scope
+- counterexample boundary
+- counterexample witness
+- counterexample probe
+- counterexample constraint
+- critical rationalism
+- bold conjecture
+
+## three-part cues
+
+- bold conjectures and refutations target
+- bold conjectures and refutations break
+- bold conjectures and refutations exposure
+- claim target conjectures and refutations
+- claim break conjectures and refutations
+- claim exposure conjectures and refutations
+- claim conjectures and refutations break
+- claim conjectures and refutations exposure
+- claim critical rationalism break
+- claim critical rationalism exposure
+- compare falsifier receipt
+- measure falsifier receipt
+- hold falsifier receipt
+- preserve falsifier receipt
+- compare falsify receipt
+- measure falsify receipt
+- hold falsify receipt
+- preserve falsify receipt
+- compare claim receipt
+- measure claim receipt
+- hold claim receipt
+- preserve claim receipt
+- compare break receipt
+- measure break receipt
+- hold break receipt
+- preserve break receipt
+- what would break
+- during conjecture refutation
+- during conjecture falsifier
+- during conjecture falsification
+- during conjecture severe
+- during refutation falsifier
+- during refutation falsification
+- during refutation severe
+- during refutation risky
+- during falsifier falsification
+- during falsifier severe
+- during falsifier risky
+- during falsifier prediction
+- during falsification severe
+- during falsification risky
+- during falsification prediction
+- during falsification testable
+- during severe risky
+- during severe prediction
+- during severe testable
+- during severe critical
+- during risky prediction
+- during risky testable
+- during risky critical
+- during risky problem
+- during prediction testable
+- during prediction critical
+- during prediction problem
+- during prediction error
+- during testable critical
+- during testable problem
+- during testable error
+- during testable trial
+- during critical problem
+- during critical error
+- during critical trial
+- during critical corroboration
+- during problem error
+- during problem trial
+- during problem corroboration
+- during problem survive
+- during error trial
+- during error corroboration
+- during error survive
+- during error fail
+- during trial corroboration
+- during trial survive
+- during trial fail
+- during trial killed
+- during corroboration survive
+- during corroboration fail
+- during corroboration killed
+- during corroboration open
+- during survive fail

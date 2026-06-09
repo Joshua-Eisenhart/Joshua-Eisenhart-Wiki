@@ -1,0 +1,137 @@
+Lane-local behavior probe body for LLM Council. Candidate root: /Users/joshuaeisenhart/Desktop/mmm_wizard_complete_system_packet_v2_8_expanded_candidate. This record was normalized from collected probe output only. The harness did not spawn agents, infer hidden execution, or add a claim beyond the supplied lane record. Review this lane as receipt evidence: checked material, conclusion, remaining open question, and cited evidence must remain tied to the captured output. The body exists so the adapter can verify that every completed lane has a lane-local language surface rather than borrowing global prose. Future readers should treat the text as a behavior probe normalization artifact, not as independent proof of correctness. 
+
+Collected output:
+# MMM_VOICE_LLM_COUNCIL_ULTRA_v2_8
+
+## words
+- mini-MMM :: 100
+- mini MMM :: 100
+- voice shape :: 100
+- voice shaping :: 100
+- shape voice :: 100
+- shaped voice :: 100
+- voice contour :: 100
+- voice signature :: 100
+- voice localizer :: 100
+- local voice :: 100
+- aligned nouns :: 100
+- correlated thinkers :: 100
+- thinker alignment :: 100
+- noun alignment :: 100
+
+- independent route :: 100
+- route status :: 100
+- dissent :: 100
+- council :: 100
+- untried :: 100
+- diagnostic :: 100
+- comparison :: 100
+- model family :: 100
+- outside frame :: 100
+- alternate reading :: 100
+- receipt changed :: 100
+- not a vote :: 100
+- split retained :: 100
+- disagreement :: 100
+- no consensus :: 100
+- unsupported :: 100
+- blocked :: 100
+- route :: 100
+- live :: 100
+- role :: 100
+- role-family :: 100
+- roles :: 100
+- independent :: 100
+- model :: 100
+- family :: 100
+- external :: 100
+- check :: 100
+- split :: 100
+
+## couplings
+
+- council :: 100
+- untried :: 100
+- diagnostic :: 100
+- dissent :: 100
+- comparison :: 100
+- independent route :: 100
+- route status :: 100
+- council route :: 100
+- council dissent :: 100
+- council disagreement :: 100
+- route dissent :: 100
+- route untried :: 100
+- dissent disagreement :: 100
+- dissent blocked :: 100
+- dissent untried :: 100
+- dissent diagnostic :: 100
+- dissent live :: 100
+- disagreement untried :: 100
+- disagreement diagnostic :: 100
+- model family :: 100
+- alternate reading :: 100
+- receipt changed :: 100
+- blocked untried :: 100
+- blocked diagnostic :: 100
+- untried diagnostic :: 100
+- untried live :: 100
+- split retained :: 100
+- live :: 100
+- diagnostic live :: 100
+- model route :: 100
+- outside frame :: 100
+- model family independent route :: 100
+- model family comparison :: 100
+- model family route status :: 100
+- independent comparison :: 100
+- live dissent :: 100
+- external check :: 100
+- council split :: 100
+- route state :: 100
+- diagnostic route :: 100
+- blocked model :: 100
+- untried route :: 100
+- minority objection :: 100
+- receipt comparison :: 100
+- independent reviewer :: 100
+- cross model check :: 100
+- disagreement preserved :: 100
+- route blocker :: 100
+
+## triplets
+
+- under council route :: 100
+- under untried live :: 100
+- under diagnostic live :: 100
+- within council route :: 100
+- within untried live :: 100
+- within diagnostic live :: 100
+- across council route :: 100
+- across untried live :: 100
+- model route state :: 100
+- independent external check :: 100
+- live dissent preserved :: 100
+- blocked diagnostic untried :: 100
+- council receipt comparison :: 100
+- outside frame objection :: 100
+- model family route :: 100
+- minority objection held :: 100
+- cross model pressure :: 100
+- under dissent disagreement :: 95
+- under dissent blocked :: 95
+- under dissent untried :: 95
+- under disagreement untried :: 95
+- under disagreement diagnostic :: 95
+- under blocked untried :: 95
+- under blocked diagnostic :: 95
+- under untried diagnostic :: 95
+- within dissent disagreement :: 94
+- within dissent blocked :: 94
+- within dissent untried :: 94
+- within disagreement untried :: 94
+- within disagreement diagnostic :: 94
+- within blocked untried :: 93
+- within blocked diagnostic :: 93
+- within untried diagnostic :: 93
+- across dissent disagreement :: 92

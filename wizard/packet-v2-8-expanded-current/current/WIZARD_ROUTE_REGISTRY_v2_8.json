@@ -1,0 +1,686 @@
+{
+  "purpose": "canonical route registry with v2.5 legacy discovery aliases; aliases do not duplicate bodies",
+  "sizes": [
+    "compact",
+    "standard",
+    "ultra",
+    "full"
+  ],
+  "units": [
+    {
+      "canonical_folder": "voices",
+      "category": "voice",
+      "legacy_discovery_buckets": [],
+      "paths": {
+        "compact": {
+          "json": "mini_mmms/compact/voices/json/MMM_VOICE_HUME_COMPACT_v2_8.json",
+          "md": "mini_mmms/compact/voices/md/MMM_VOICE_HUME_COMPACT_v2_8.md"
+        },
+        "full": {
+          "json": "mini_mmms/full/voices/json/MMM_VOICE_HUME_FULL_v2_8.json",
+          "md": "mini_mmms/full/voices/md/MMM_VOICE_HUME_FULL_v2_8.md"
+        },
+        "standard": {
+          "json": "mini_mmms/standard/voices/json/MMM_VOICE_HUME_STANDARD_v2_8.json",
+          "md": "mini_mmms/standard/voices/md/MMM_VOICE_HUME_STANDARD_v2_8.md"
+        },
+        "ultra": {
+          "json": "mini_mmms/ultra/voices/json/MMM_VOICE_HUME_ULTRA_v2_8.json",
+          "md": "mini_mmms/ultra/voices/md/MMM_VOICE_HUME_ULTRA_v2_8.md"
+        }
+      },
+      "unit": "HUME"
+    },
+    {
+      "canonical_folder": "voices",
+      "category": "voice",
+      "legacy_discovery_buckets": [],
+      "paths": {
+        "compact": {
+          "json": "mini_mmms/compact/voices/json/MMM_VOICE_ZHUANGZI_COMPACT_v2_8.json",
+          "md": "mini_mmms/compact/voices/md/MMM_VOICE_ZHUANGZI_COMPACT_v2_8.md"
+        },
+        "full": {
+          "json": "mini_mmms/full/voices/json/MMM_VOICE_ZHUANGZI_FULL_v2_8.json",
+          "md": "mini_mmms/full/voices/md/MMM_VOICE_ZHUANGZI_FULL_v2_8.md"
+        },
+        "standard": {
+          "json": "mini_mmms/standard/voices/json/MMM_VOICE_ZHUANGZI_STANDARD_v2_8.json",
+          "md": "mini_mmms/standard/voices/md/MMM_VOICE_ZHUANGZI_STANDARD_v2_8.md"
+        },
+        "ultra": {
+          "json": "mini_mmms/ultra/voices/json/MMM_VOICE_ZHUANGZI_ULTRA_v2_8.json",
+          "md": "mini_mmms/ultra/voices/md/MMM_VOICE_ZHUANGZI_ULTRA_v2_8.md"
+        }
+      },
+      "unit": "ZHUANGZI"
+    },
+    {
+      "canonical_folder": "voices",
+      "category": "voice",
+      "legacy_discovery_buckets": [],
+      "paths": {
+        "compact": {
+          "json": "mini_mmms/compact/voices/json/MMM_VOICE_FEYNMAN_COMPACT_v2_8.json",
+          "md": "mini_mmms/compact/voices/md/MMM_VOICE_FEYNMAN_COMPACT_v2_8.md"
+        },
+        "full": {
+          "json": "mini_mmms/full/voices/json/MMM_VOICE_FEYNMAN_FULL_v2_8.json",
+          "md": "mini_mmms/full/voices/md/MMM_VOICE_FEYNMAN_FULL_v2_8.md"
+        },
+        "standard": {
+          "json": "mini_mmms/standard/voices/json/MMM_VOICE_FEYNMAN_STANDARD_v2_8.json",
+          "md": "mini_mmms/standard/voices/md/MMM_VOICE_FEYNMAN_STANDARD_v2_8.md"
+        },
+        "ultra": {
+          "json": "mini_mmms/ultra/voices/json/MMM_VOICE_FEYNMAN_ULTRA_v2_8.json",
+          "md": "mini_mmms/ultra/voices/md/MMM_VOICE_FEYNMAN_ULTRA_v2_8.md"
+        }
+      },
+      "unit": "FEYNMAN"
+    },
+    {
+      "canonical_folder": "voices",
+      "category": "voice",
+      "legacy_discovery_buckets": [],
+      "paths": {
+        "compact": {
+          "json": "mini_mmms/compact/voices/json/MMM_VOICE_ORWELL_COMPACT_v2_8.json",
+          "md": "mini_mmms/compact/voices/md/MMM_VOICE_ORWELL_COMPACT_v2_8.md"
+        },
+        "full": {
+          "json": "mini_mmms/full/voices/json/MMM_VOICE_ORWELL_FULL_v2_8.json",
+          "md": "mini_mmms/full/voices/md/MMM_VOICE_ORWELL_FULL_v2_8.md"
+        },
+        "standard": {
+          "json": "mini_mmms/standard/voices/json/MMM_VOICE_ORWELL_STANDARD_v2_8.json",
+          "md": "mini_mmms/standard/voices/md/MMM_VOICE_ORWELL_STANDARD_v2_8.md"
+        },
+        "ultra": {
+          "json": "mini_mmms/ultra/voices/json/MMM_VOICE_ORWELL_ULTRA_v2_8.json",
+          "md": "mini_mmms/ultra/voices/md/MMM_VOICE_ORWELL_ULTRA_v2_8.md"
+        }
+      },
+      "unit": "ORWELL"
+    },
+    {
+      "canonical_folder": "voices",
+      "category": "voice",
+      "legacy_discovery_buckets": [],
+      "paths": {
+        "compact": {
+          "json": "mini_mmms/compact/voices/json/MMM_VOICE_POPPER_COMPACT_v2_8.json",
+          "md": "mini_mmms/compact/voices/md/MMM_VOICE_POPPER_COMPACT_v2_8.md"
+        },
+        "full": {
+          "json": "mini_mmms/full/voices/json/MMM_VOICE_POPPER_FULL_v2_8.json",
+          "md": "mini_mmms/full/voices/md/MMM_VOICE_POPPER_FULL_v2_8.md"
+        },
+        "standard": {
+          "json": "mini_mmms/standard/voices/json/MMM_VOICE_POPPER_STANDARD_v2_8.json",
+          "md": "mini_mmms/standard/voices/md/MMM_VOICE_POPPER_STANDARD_v2_8.md"
+        },
+        "ultra": {
+          "json": "mini_mmms/ultra/voices/json/MMM_VOICE_POPPER_ULTRA_v2_8.json",
+          "md": "mini_mmms/ultra/voices/md/MMM_VOICE_POPPER_ULTRA_v2_8.md"
+        }
+      },
+      "unit": "POPPER"
+    },
+    {
+      "canonical_folder": "voices",
+      "category": "voice",
+      "legacy_discovery_buckets": [],
+      "paths": {
+        "compact": {
+          "json": "mini_mmms/compact/voices/json/MMM_VOICE_PUSHBACK_COMPACT_v2_8.json",
+          "md": "mini_mmms/compact/voices/md/MMM_VOICE_PUSHBACK_COMPACT_v2_8.md"
+        },
+        "full": {
+          "json": "mini_mmms/full/voices/json/MMM_VOICE_PUSHBACK_FULL_v2_8.json",
+          "md": "mini_mmms/full/voices/md/MMM_VOICE_PUSHBACK_FULL_v2_8.md"
+        },
+        "standard": {
+          "json": "mini_mmms/standard/voices/json/MMM_VOICE_PUSHBACK_STANDARD_v2_8.json",
+          "md": "mini_mmms/standard/voices/md/MMM_VOICE_PUSHBACK_STANDARD_v2_8.md"
+        },
+        "ultra": {
+          "json": "mini_mmms/ultra/voices/json/MMM_VOICE_PUSHBACK_ULTRA_v2_8.json",
+          "md": "mini_mmms/ultra/voices/md/MMM_VOICE_PUSHBACK_ULTRA_v2_8.md"
+        }
+      },
+      "unit": "PUSHBACK"
+    },
+    {
+      "canonical_folder": "voices",
+      "category": "voice",
+      "legacy_discovery_buckets": [
+        "lanes"
+      ],
+      "paths": {
+        "compact": {
+          "json": "mini_mmms/compact/voices/json/MMM_VOICE_FACTORY_COMPACT_v2_8.json",
+          "md": "mini_mmms/compact/voices/md/MMM_VOICE_FACTORY_COMPACT_v2_8.md"
+        },
+        "full": {
+          "json": "mini_mmms/full/voices/json/MMM_VOICE_FACTORY_FULL_v2_8.json",
+          "md": "mini_mmms/full/voices/md/MMM_VOICE_FACTORY_FULL_v2_8.md"
+        },
+        "standard": {
+          "json": "mini_mmms/standard/voices/json/MMM_VOICE_FACTORY_STANDARD_v2_8.json",
+          "md": "mini_mmms/standard/voices/md/MMM_VOICE_FACTORY_STANDARD_v2_8.md"
+        },
+        "ultra": {
+          "json": "mini_mmms/ultra/voices/json/MMM_VOICE_FACTORY_ULTRA_v2_8.json",
+          "md": "mini_mmms/ultra/voices/md/MMM_VOICE_FACTORY_ULTRA_v2_8.md"
+        }
+      },
+      "unit": "FACTORY"
+    },
+    {
+      "canonical_folder": "voices",
+      "category": "voice",
+      "legacy_discovery_buckets": [
+        "lanes"
+      ],
+      "paths": {
+        "compact": {
+          "json": "mini_mmms/compact/voices/json/MMM_VOICE_STRATEGY_COMPACT_v2_8.json",
+          "md": "mini_mmms/compact/voices/md/MMM_VOICE_STRATEGY_COMPACT_v2_8.md"
+        },
+        "full": {
+          "json": "mini_mmms/full/voices/json/MMM_VOICE_STRATEGY_FULL_v2_8.json",
+          "md": "mini_mmms/full/voices/md/MMM_VOICE_STRATEGY_FULL_v2_8.md"
+        },
+        "standard": {
+          "json": "mini_mmms/standard/voices/json/MMM_VOICE_STRATEGY_STANDARD_v2_8.json",
+          "md": "mini_mmms/standard/voices/md/MMM_VOICE_STRATEGY_STANDARD_v2_8.md"
+        },
+        "ultra": {
+          "json": "mini_mmms/ultra/voices/json/MMM_VOICE_STRATEGY_ULTRA_v2_8.json",
+          "md": "mini_mmms/ultra/voices/md/MMM_VOICE_STRATEGY_ULTRA_v2_8.md"
+        }
+      },
+      "unit": "STRATEGY"
+    },
+    {
+      "canonical_folder": "voices",
+      "category": "voice",
+      "legacy_discovery_buckets": [
+        "lanes"
+      ],
+      "paths": {
+        "compact": {
+          "json": "mini_mmms/compact/voices/json/MMM_VOICE_SYSTEMS_COMPACT_v2_8.json",
+          "md": "mini_mmms/compact/voices/md/MMM_VOICE_SYSTEMS_COMPACT_v2_8.md"
+        },
+        "full": {
+          "json": "mini_mmms/full/voices/json/MMM_VOICE_SYSTEMS_FULL_v2_8.json",
+          "md": "mini_mmms/full/voices/md/MMM_VOICE_SYSTEMS_FULL_v2_8.md"
+        },
+        "standard": {
+          "json": "mini_mmms/standard/voices/json/MMM_VOICE_SYSTEMS_STANDARD_v2_8.json",
+          "md": "mini_mmms/standard/voices/md/MMM_VOICE_SYSTEMS_STANDARD_v2_8.md"
+        },
+        "ultra": {
+          "json": "mini_mmms/ultra/voices/json/MMM_VOICE_SYSTEMS_ULTRA_v2_8.json",
+          "md": "mini_mmms/ultra/voices/md/MMM_VOICE_SYSTEMS_ULTRA_v2_8.md"
+        }
+      },
+      "unit": "SYSTEMS"
+    },
+    {
+      "canonical_folder": "lanes",
+      "category": "lane",
+      "legacy_discovery_buckets": [],
+      "paths": {
+        "compact": {
+          "json": "mini_mmms/compact/lanes/json/MMM_LANE_DIRECT_COMPACT_v2_8.json",
+          "md": "mini_mmms/compact/lanes/md/MMM_LANE_DIRECT_COMPACT_v2_8.md"
+        },
+        "full": {
+          "json": "mini_mmms/full/lanes/json/MMM_LANE_DIRECT_FULL_v2_8.json",
+          "md": "mini_mmms/full/lanes/md/MMM_LANE_DIRECT_FULL_v2_8.md"
+        },
+        "standard": {
+          "json": "mini_mmms/standard/lanes/json/MMM_LANE_DIRECT_STANDARD_v2_8.json",
+          "md": "mini_mmms/standard/lanes/md/MMM_LANE_DIRECT_STANDARD_v2_8.md"
+        },
+        "ultra": {
+          "json": "mini_mmms/ultra/lanes/json/MMM_LANE_DIRECT_ULTRA_v2_8.json",
+          "md": "mini_mmms/ultra/lanes/md/MMM_LANE_DIRECT_ULTRA_v2_8.md"
+        }
+      },
+      "unit": "DIRECT"
+    },
+    {
+      "canonical_folder": "lanes",
+      "category": "lane",
+      "legacy_discovery_buckets": [],
+      "paths": {
+        "compact": {
+          "json": "mini_mmms/compact/lanes/json/MMM_LANE_ALTERNATIVE_COMPACT_v2_8.json",
+          "md": "mini_mmms/compact/lanes/md/MMM_LANE_ALTERNATIVE_COMPACT_v2_8.md"
+        },
+        "full": {
+          "json": "mini_mmms/full/lanes/json/MMM_LANE_ALTERNATIVE_FULL_v2_8.json",
+          "md": "mini_mmms/full/lanes/md/MMM_LANE_ALTERNATIVE_FULL_v2_8.md"
+        },
+        "standard": {
+          "json": "mini_mmms/standard/lanes/json/MMM_LANE_ALTERNATIVE_STANDARD_v2_8.json",
+          "md": "mini_mmms/standard/lanes/md/MMM_LANE_ALTERNATIVE_STANDARD_v2_8.md"
+        },
+        "ultra": {
+          "json": "mini_mmms/ultra/lanes/json/MMM_LANE_ALTERNATIVE_ULTRA_v2_8.json",
+          "md": "mini_mmms/ultra/lanes/md/MMM_LANE_ALTERNATIVE_ULTRA_v2_8.md"
+        }
+      },
+      "unit": "ALTERNATIVE"
+    },
+    {
+      "canonical_folder": "lanes",
+      "category": "lane",
+      "legacy_discovery_buckets": [],
+      "paths": {
+        "compact": {
+          "json": "mini_mmms/compact/lanes/json/MMM_LANE_REFRAME_COMPACT_v2_8.json",
+          "md": "mini_mmms/compact/lanes/md/MMM_LANE_REFRAME_COMPACT_v2_8.md"
+        },
+        "full": {
+          "json": "mini_mmms/full/lanes/json/MMM_LANE_REFRAME_FULL_v2_8.json",
+          "md": "mini_mmms/full/lanes/md/MMM_LANE_REFRAME_FULL_v2_8.md"
+        },
+        "standard": {
+          "json": "mini_mmms/standard/lanes/json/MMM_LANE_REFRAME_STANDARD_v2_8.json",
+          "md": "mini_mmms/standard/lanes/md/MMM_LANE_REFRAME_STANDARD_v2_8.md"
+        },
+        "ultra": {
+          "json": "mini_mmms/ultra/lanes/json/MMM_LANE_REFRAME_ULTRA_v2_8.json",
+          "md": "mini_mmms/ultra/lanes/md/MMM_LANE_REFRAME_ULTRA_v2_8.md"
+        }
+      },
+      "unit": "REFRAME"
+    },
+    {
+      "canonical_folder": "lanes",
+      "category": "lane",
+      "legacy_discovery_buckets": [],
+      "paths": {
+        "compact": {
+          "json": "mini_mmms/compact/lanes/json/MMM_LANE_WILDCARD_COMPACT_v2_8.json",
+          "md": "mini_mmms/compact/lanes/md/MMM_LANE_WILDCARD_COMPACT_v2_8.md"
+        },
+        "full": {
+          "json": "mini_mmms/full/lanes/json/MMM_LANE_WILDCARD_FULL_v2_8.json",
+          "md": "mini_mmms/full/lanes/md/MMM_LANE_WILDCARD_FULL_v2_8.md"
+        },
+        "standard": {
+          "json": "mini_mmms/standard/lanes/json/MMM_LANE_WILDCARD_STANDARD_v2_8.json",
+          "md": "mini_mmms/standard/lanes/md/MMM_LANE_WILDCARD_STANDARD_v2_8.md"
+        },
+        "ultra": {
+          "json": "mini_mmms/ultra/lanes/json/MMM_LANE_WILDCARD_ULTRA_v2_8.json",
+          "md": "mini_mmms/ultra/lanes/md/MMM_LANE_WILDCARD_ULTRA_v2_8.md"
+        }
+      },
+      "unit": "WILDCARD"
+    },
+    {
+      "canonical_folder": "lanes",
+      "category": "lane",
+      "legacy_discovery_buckets": [],
+      "paths": {
+        "compact": {
+          "json": "mini_mmms/compact/lanes/json/MMM_LANE_BACK_COMPACT_v2_8.json",
+          "md": "mini_mmms/compact/lanes/md/MMM_LANE_BACK_COMPACT_v2_8.md"
+        },
+        "full": {
+          "json": "mini_mmms/full/lanes/json/MMM_LANE_BACK_FULL_v2_8.json",
+          "md": "mini_mmms/full/lanes/md/MMM_LANE_BACK_FULL_v2_8.md"
+        },
+        "standard": {
+          "json": "mini_mmms/standard/lanes/json/MMM_LANE_BACK_STANDARD_v2_8.json",
+          "md": "mini_mmms/standard/lanes/md/MMM_LANE_BACK_STANDARD_v2_8.md"
+        },
+        "ultra": {
+          "json": "mini_mmms/ultra/lanes/json/MMM_LANE_BACK_ULTRA_v2_8.json",
+          "md": "mini_mmms/ultra/lanes/md/MMM_LANE_BACK_ULTRA_v2_8.md"
+        }
+      },
+      "unit": "BACK"
+    },
+    {
+      "canonical_folder": "lanes",
+      "category": "lane",
+      "legacy_discovery_buckets": [],
+      "paths": {
+        "compact": {
+          "json": "mini_mmms/compact/lanes/json/MMM_LANE_BRIDGE_COMPACT_v2_8.json",
+          "md": "mini_mmms/compact/lanes/md/MMM_LANE_BRIDGE_COMPACT_v2_8.md"
+        },
+        "full": {
+          "json": "mini_mmms/full/lanes/json/MMM_LANE_BRIDGE_FULL_v2_8.json",
+          "md": "mini_mmms/full/lanes/md/MMM_LANE_BRIDGE_FULL_v2_8.md"
+        },
+        "standard": {
+          "json": "mini_mmms/standard/lanes/json/MMM_LANE_BRIDGE_STANDARD_v2_8.json",
+          "md": "mini_mmms/standard/lanes/md/MMM_LANE_BRIDGE_STANDARD_v2_8.md"
+        },
+        "ultra": {
+          "json": "mini_mmms/ultra/lanes/json/MMM_LANE_BRIDGE_ULTRA_v2_8.json",
+          "md": "mini_mmms/ultra/lanes/md/MMM_LANE_BRIDGE_ULTRA_v2_8.md"
+        }
+      },
+      "unit": "BRIDGE"
+    },
+    {
+      "canonical_folder": "checks_guards",
+      "category": "check_guard",
+      "legacy_discovery_buckets": [
+        "voices"
+      ],
+      "paths": {
+        "compact": {
+          "json": "mini_mmms/compact/checks_guards/json/MMM_VOICE_AUDIT_COMPACT_v2_8.json",
+          "md": "mini_mmms/compact/checks_guards/md/MMM_VOICE_AUDIT_COMPACT_v2_8.md"
+        },
+        "full": {
+          "json": "mini_mmms/full/checks_guards/json/MMM_VOICE_AUDIT_FULL_v2_8.json",
+          "md": "mini_mmms/full/checks_guards/md/MMM_VOICE_AUDIT_FULL_v2_8.md"
+        },
+        "standard": {
+          "json": "mini_mmms/standard/checks_guards/json/MMM_VOICE_AUDIT_STANDARD_v2_8.json",
+          "md": "mini_mmms/standard/checks_guards/md/MMM_VOICE_AUDIT_STANDARD_v2_8.md"
+        },
+        "ultra": {
+          "json": "mini_mmms/ultra/checks_guards/json/MMM_VOICE_AUDIT_ULTRA_v2_8.json",
+          "md": "mini_mmms/ultra/checks_guards/md/MMM_VOICE_AUDIT_ULTRA_v2_8.md"
+        }
+      },
+      "unit": "AUDIT"
+    },
+    {
+      "canonical_folder": "lanes",
+      "category": "lane",
+      "legacy_discovery_buckets": [],
+      "paths": {
+        "compact": {
+          "json": "mini_mmms/compact/lanes/json/MMM_LANE_REPO_HYGIENE_COMPACT_v2_8.json",
+          "md": "mini_mmms/compact/lanes/md/MMM_LANE_REPO_HYGIENE_COMPACT_v2_8.md"
+        },
+        "full": {
+          "json": "mini_mmms/full/lanes/json/MMM_LANE_REPO_HYGIENE_FULL_v2_8.json",
+          "md": "mini_mmms/full/lanes/md/MMM_LANE_REPO_HYGIENE_FULL_v2_8.md"
+        },
+        "standard": {
+          "json": "mini_mmms/standard/lanes/json/MMM_LANE_REPO_HYGIENE_STANDARD_v2_8.json",
+          "md": "mini_mmms/standard/lanes/md/MMM_LANE_REPO_HYGIENE_STANDARD_v2_8.md"
+        },
+        "ultra": {
+          "json": "mini_mmms/ultra/lanes/json/MMM_LANE_REPO_HYGIENE_ULTRA_v2_8.json",
+          "md": "mini_mmms/ultra/lanes/md/MMM_LANE_REPO_HYGIENE_ULTRA_v2_8.md"
+        }
+      },
+      "unit": "REPO_HYGIENE"
+    },
+    {
+      "canonical_folder": "lanes",
+      "category": "lane",
+      "legacy_discovery_buckets": [],
+      "paths": {
+        "compact": {
+          "json": "mini_mmms/compact/lanes/json/MMM_LANE_SECURITY_COMPACT_v2_8.json",
+          "md": "mini_mmms/compact/lanes/md/MMM_LANE_SECURITY_COMPACT_v2_8.md"
+        },
+        "full": {
+          "json": "mini_mmms/full/lanes/json/MMM_LANE_SECURITY_FULL_v2_8.json",
+          "md": "mini_mmms/full/lanes/md/MMM_LANE_SECURITY_FULL_v2_8.md"
+        },
+        "standard": {
+          "json": "mini_mmms/standard/lanes/json/MMM_LANE_SECURITY_STANDARD_v2_8.json",
+          "md": "mini_mmms/standard/lanes/md/MMM_LANE_SECURITY_STANDARD_v2_8.md"
+        },
+        "ultra": {
+          "json": "mini_mmms/ultra/lanes/json/MMM_LANE_SECURITY_ULTRA_v2_8.json",
+          "md": "mini_mmms/ultra/lanes/md/MMM_LANE_SECURITY_ULTRA_v2_8.md"
+        }
+      },
+      "unit": "SECURITY"
+    },
+    {
+      "canonical_folder": "system_routes",
+      "category": "system_route",
+      "legacy_discovery_buckets": [
+        "voices"
+      ],
+      "paths": {
+        "compact": {
+          "json": "mini_mmms/compact/system_routes/json/MMM_VOICE_LLM_COUNCIL_COMPACT_v2_8.json",
+          "md": "mini_mmms/compact/system_routes/md/MMM_VOICE_LLM_COUNCIL_COMPACT_v2_8.md"
+        },
+        "full": {
+          "json": "mini_mmms/full/system_routes/json/MMM_VOICE_LLM_COUNCIL_FULL_v2_8.json",
+          "md": "mini_mmms/full/system_routes/md/MMM_VOICE_LLM_COUNCIL_FULL_v2_8.md"
+        },
+        "standard": {
+          "json": "mini_mmms/standard/system_routes/json/MMM_VOICE_LLM_COUNCIL_STANDARD_v2_8.json",
+          "md": "mini_mmms/standard/system_routes/md/MMM_VOICE_LLM_COUNCIL_STANDARD_v2_8.md"
+        },
+        "ultra": {
+          "json": "mini_mmms/ultra/system_routes/json/MMM_VOICE_LLM_COUNCIL_ULTRA_v2_8.json",
+          "md": "mini_mmms/ultra/system_routes/md/MMM_VOICE_LLM_COUNCIL_ULTRA_v2_8.md"
+        }
+      },
+      "unit": "LLM_COUNCIL"
+    },
+    {
+      "canonical_folder": "controller_acts",
+      "category": "controller_act",
+      "legacy_discovery_buckets": [
+        "voices"
+      ],
+      "paths": {
+        "compact": {
+          "json": "mini_mmms/compact/controller_acts/json/MMM_VOICE_SYNTHESIS_COMPACT_v2_8.json",
+          "md": "mini_mmms/compact/controller_acts/md/MMM_VOICE_SYNTHESIS_COMPACT_v2_8.md"
+        },
+        "full": {
+          "json": "mini_mmms/full/controller_acts/json/MMM_VOICE_SYNTHESIS_FULL_v2_8.json",
+          "md": "mini_mmms/full/controller_acts/md/MMM_VOICE_SYNTHESIS_FULL_v2_8.md"
+        },
+        "standard": {
+          "json": "mini_mmms/standard/controller_acts/json/MMM_VOICE_SYNTHESIS_STANDARD_v2_8.json",
+          "md": "mini_mmms/standard/controller_acts/md/MMM_VOICE_SYNTHESIS_STANDARD_v2_8.md"
+        },
+        "ultra": {
+          "json": "mini_mmms/ultra/controller_acts/json/MMM_VOICE_SYNTHESIS_ULTRA_v2_8.json",
+          "md": "mini_mmms/ultra/controller_acts/md/MMM_VOICE_SYNTHESIS_ULTRA_v2_8.md"
+        }
+      },
+      "unit": "SYNTHESIS"
+    },
+    {
+      "canonical_folder": "compositions",
+      "category": "composition",
+      "legacy_discovery_buckets": [
+        "lanes"
+      ],
+      "paths": {
+        "compact": {
+          "json": "mini_mmms/compact/compositions/json/MMM_LANE_ALL_A_COMPACT_v2_8.json",
+          "md": "mini_mmms/compact/compositions/md/MMM_LANE_ALL_A_COMPACT_v2_8.md"
+        },
+        "full": {
+          "json": "mini_mmms/full/compositions/json/MMM_LANE_ALL_A_FULL_v2_8.json",
+          "md": "mini_mmms/full/compositions/md/MMM_LANE_ALL_A_FULL_v2_8.md"
+        },
+        "standard": {
+          "json": "mini_mmms/standard/compositions/json/MMM_LANE_ALL_A_STANDARD_v2_8.json",
+          "md": "mini_mmms/standard/compositions/md/MMM_LANE_ALL_A_STANDARD_v2_8.md"
+        },
+        "ultra": {
+          "json": "mini_mmms/ultra/compositions/json/MMM_LANE_ALL_A_ULTRA_v2_8.json",
+          "md": "mini_mmms/ultra/compositions/md/MMM_LANE_ALL_A_ULTRA_v2_8.md"
+        }
+      },
+      "unit": "ALL_A"
+    },
+    {
+      "canonical_folder": "compositions",
+      "category": "composition",
+      "legacy_discovery_buckets": [
+        "lanes"
+      ],
+      "paths": {
+        "compact": {
+          "json": "mini_mmms/compact/compositions/json/MMM_LANE_ALL_B_COMPACT_v2_8.json",
+          "md": "mini_mmms/compact/compositions/md/MMM_LANE_ALL_B_COMPACT_v2_8.md"
+        },
+        "full": {
+          "json": "mini_mmms/full/compositions/json/MMM_LANE_ALL_B_FULL_v2_8.json",
+          "md": "mini_mmms/full/compositions/md/MMM_LANE_ALL_B_FULL_v2_8.md"
+        },
+        "standard": {
+          "json": "mini_mmms/standard/compositions/json/MMM_LANE_ALL_B_STANDARD_v2_8.json",
+          "md": "mini_mmms/standard/compositions/md/MMM_LANE_ALL_B_STANDARD_v2_8.md"
+        },
+        "ultra": {
+          "json": "mini_mmms/ultra/compositions/json/MMM_LANE_ALL_B_ULTRA_v2_8.json",
+          "md": "mini_mmms/ultra/compositions/md/MMM_LANE_ALL_B_ULTRA_v2_8.md"
+        }
+      },
+      "unit": "ALL_B"
+    },
+    {
+      "canonical_folder": "compositions",
+      "category": "composition",
+      "legacy_discovery_buckets": [
+        "lanes"
+      ],
+      "paths": {
+        "compact": {
+          "json": "mini_mmms/compact/compositions/json/MMM_LANE_ALL_C_COMPACT_v2_8.json",
+          "md": "mini_mmms/compact/compositions/md/MMM_LANE_ALL_C_COMPACT_v2_8.md"
+        },
+        "full": {
+          "json": "mini_mmms/full/compositions/json/MMM_LANE_ALL_C_FULL_v2_8.json",
+          "md": "mini_mmms/full/compositions/md/MMM_LANE_ALL_C_FULL_v2_8.md"
+        },
+        "standard": {
+          "json": "mini_mmms/standard/compositions/json/MMM_LANE_ALL_C_STANDARD_v2_8.json",
+          "md": "mini_mmms/standard/compositions/md/MMM_LANE_ALL_C_STANDARD_v2_8.md"
+        },
+        "ultra": {
+          "json": "mini_mmms/ultra/compositions/json/MMM_LANE_ALL_C_ULTRA_v2_8.json",
+          "md": "mini_mmms/ultra/compositions/md/MMM_LANE_ALL_C_ULTRA_v2_8.md"
+        }
+      },
+      "unit": "ALL_C"
+    },
+    {
+      "canonical_folder": "compositions",
+      "category": "composition",
+      "legacy_discovery_buckets": [
+        "lanes"
+      ],
+      "paths": {
+        "compact": {
+          "json": "mini_mmms/compact/compositions/json/MMM_LANE_ALL_OF_ABOVE_WIZARD_COMPACT_v2_8.json",
+          "md": "mini_mmms/compact/compositions/md/MMM_LANE_ALL_OF_ABOVE_WIZARD_COMPACT_v2_8.md"
+        },
+        "full": {
+          "json": "mini_mmms/full/compositions/json/MMM_LANE_ALL_OF_ABOVE_WIZARD_FULL_v2_8.json",
+          "md": "mini_mmms/full/compositions/md/MMM_LANE_ALL_OF_ABOVE_WIZARD_FULL_v2_8.md"
+        },
+        "standard": {
+          "json": "mini_mmms/standard/compositions/json/MMM_LANE_ALL_OF_ABOVE_WIZARD_STANDARD_v2_8.json",
+          "md": "mini_mmms/standard/compositions/md/MMM_LANE_ALL_OF_ABOVE_WIZARD_STANDARD_v2_8.md"
+        },
+        "ultra": {
+          "json": "mini_mmms/ultra/compositions/json/MMM_LANE_ALL_OF_ABOVE_WIZARD_ULTRA_v2_8.json",
+          "md": "mini_mmms/ultra/compositions/md/MMM_LANE_ALL_OF_ABOVE_WIZARD_ULTRA_v2_8.md"
+        }
+      },
+      "unit": "ALL_OF_ABOVE_WIZARD"
+    },
+    {
+      "canonical_folder": "compositions",
+      "category": "composition",
+      "legacy_discovery_buckets": [
+        "lanes"
+      ],
+      "paths": {
+        "compact": {
+          "json": "mini_mmms/compact/compositions/json/MMM_LANE_ALL_E_HYGIENE_COMPACT_v2_8.json",
+          "md": "mini_mmms/compact/compositions/md/MMM_LANE_ALL_E_HYGIENE_COMPACT_v2_8.md"
+        },
+        "full": {
+          "json": "mini_mmms/full/compositions/json/MMM_LANE_ALL_E_HYGIENE_FULL_v2_8.json",
+          "md": "mini_mmms/full/compositions/md/MMM_LANE_ALL_E_HYGIENE_FULL_v2_8.md"
+        },
+        "standard": {
+          "json": "mini_mmms/standard/compositions/json/MMM_LANE_ALL_E_HYGIENE_STANDARD_v2_8.json",
+          "md": "mini_mmms/standard/compositions/md/MMM_LANE_ALL_E_HYGIENE_STANDARD_v2_8.md"
+        },
+        "ultra": {
+          "json": "mini_mmms/ultra/compositions/json/MMM_LANE_ALL_E_HYGIENE_ULTRA_v2_8.json",
+          "md": "mini_mmms/ultra/compositions/md/MMM_LANE_ALL_E_HYGIENE_ULTRA_v2_8.md"
+        }
+      },
+      "unit": "ALL_E"
+    },
+    {
+      "canonical_folder": "compositions",
+      "category": "composition",
+      "legacy_discovery_buckets": [
+        "lanes"
+      ],
+      "paths": {
+        "compact": {
+          "json": "mini_mmms/compact/compositions/json/MMM_LANE_ALL_F_SECURITY_COMPACT_v2_8.json",
+          "md": "mini_mmms/compact/compositions/md/MMM_LANE_ALL_F_SECURITY_COMPACT_v2_8.md"
+        },
+        "full": {
+          "json": "mini_mmms/full/compositions/json/MMM_LANE_ALL_F_SECURITY_FULL_v2_8.json",
+          "md": "mini_mmms/full/compositions/md/MMM_LANE_ALL_F_SECURITY_FULL_v2_8.md"
+        },
+        "standard": {
+          "json": "mini_mmms/standard/compositions/json/MMM_LANE_ALL_F_SECURITY_STANDARD_v2_8.json",
+          "md": "mini_mmms/standard/compositions/md/MMM_LANE_ALL_F_SECURITY_STANDARD_v2_8.md"
+        },
+        "ultra": {
+          "json": "mini_mmms/ultra/compositions/json/MMM_LANE_ALL_F_SECURITY_ULTRA_v2_8.json",
+          "md": "mini_mmms/ultra/compositions/md/MMM_LANE_ALL_F_SECURITY_ULTRA_v2_8.md"
+        }
+      },
+      "unit": "ALL_F"
+    },
+    {
+      "canonical_folder": "compositions",
+      "category": "composition",
+      "legacy_discovery_buckets": [
+        "lanes"
+      ],
+      "paths": {
+        "compact": {
+          "json": "mini_mmms/compact/compositions/json/MMM_LANE_ALL_H_OVERALL_CONTEXT_COMPACT_v2_8.json",
+          "md": "mini_mmms/compact/compositions/md/MMM_LANE_ALL_H_OVERALL_CONTEXT_COMPACT_v2_8.md"
+        },
+        "full": {
+          "json": "mini_mmms/full/compositions/json/MMM_LANE_ALL_H_OVERALL_CONTEXT_FULL_v2_8.json",
+          "md": "mini_mmms/full/compositions/md/MMM_LANE_ALL_H_OVERALL_CONTEXT_FULL_v2_8.md"
+        },
+        "standard": {
+          "json": "mini_mmms/standard/compositions/json/MMM_LANE_ALL_H_OVERALL_CONTEXT_STANDARD_v2_8.json",
+          "md": "mini_mmms/standard/compositions/md/MMM_LANE_ALL_H_OVERALL_CONTEXT_STANDARD_v2_8.md"
+        },
+        "ultra": {
+          "json": "mini_mmms/ultra/compositions/json/MMM_LANE_ALL_H_OVERALL_CONTEXT_ULTRA_v2_8.json",
+          "md": "mini_mmms/ultra/compositions/md/MMM_LANE_ALL_H_OVERALL_CONTEXT_ULTRA_v2_8.md"
+        }
+      },
+      "unit": "ALL_H"
+    }
+  ],
+  "version": "v2_8"
+}

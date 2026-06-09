@@ -1,0 +1,10228 @@
+{
+  "couplings": [
+    [
+      1,
+      "under observed",
+      100
+    ],
+    [
+      2,
+      "within observed",
+      100
+    ],
+    [
+      3,
+      "across observed",
+      100
+    ],
+    [
+      4,
+      "between observed",
+      100
+    ],
+    [
+      5,
+      "through observed",
+      100
+    ],
+    [
+      6,
+      "before observed",
+      100
+    ],
+    [
+      7,
+      "after observed",
+      100
+    ],
+    [
+      8,
+      "until observed",
+      100
+    ],
+    [
+      9,
+      "where observed",
+      100
+    ],
+    [
+      10,
+      "while observed",
+      100
+    ],
+    [
+      11,
+      "observed evidence",
+      100
+    ],
+    [
+      12,
+      "observed support",
+      100
+    ],
+    [
+      13,
+      "observed path",
+      100
+    ],
+    [
+      14,
+      "observed surface",
+      100
+    ],
+    [
+      15,
+      "observed packet",
+      100
+    ],
+    [
+      16,
+      "observed receipt",
+      100
+    ],
+    [
+      17,
+      "observed trace",
+      100
+    ],
+    [
+      18,
+      "observed result",
+      100
+    ],
+    [
+      19,
+      "observed scope",
+      100
+    ],
+    [
+      20,
+      "observed boundary",
+      100
+    ],
+    [
+      21,
+      "observed status",
+      100
+    ],
+    [
+      22,
+      "observed candidate",
+      100
+    ],
+    [
+      23,
+      "observed witness",
+      100
+    ],
+    [
+      24,
+      "observed probe",
+      100
+    ],
+    [
+      25,
+      "observed constraint",
+      100
+    ],
+    [
+      26,
+      "check observed",
+      99
+    ],
+    [
+      27,
+      "compare observed",
+      99
+    ],
+    [
+      28,
+      "observe observed",
+      99
+    ],
+    [
+      29,
+      "measure observed",
+      99
+    ],
+    [
+      30,
+      "test observed",
+      99
+    ],
+    [
+      31,
+      "verify observed",
+      99
+    ],
+    [
+      32,
+      "hold observed",
+      99
+    ],
+    [
+      33,
+      "preserve observed",
+      99
+    ],
+    [
+      34,
+      "split observed",
+      99
+    ],
+    [
+      35,
+      "narrow observed",
+      99
+    ],
+    [
+      36,
+      "under inferred",
+      99
+    ],
+    [
+      37,
+      "within inferred",
+      99
+    ],
+    [
+      38,
+      "across inferred",
+      99
+    ],
+    [
+      39,
+      "between inferred",
+      99
+    ],
+    [
+      40,
+      "through inferred",
+      99
+    ],
+    [
+      41,
+      "before inferred",
+      99
+    ],
+    [
+      42,
+      "after inferred",
+      99
+    ],
+    [
+      43,
+      "until inferred",
+      99
+    ],
+    [
+      44,
+      "where inferred",
+      99
+    ],
+    [
+      45,
+      "while inferred",
+      99
+    ],
+    [
+      46,
+      "inferred evidence",
+      99
+    ],
+    [
+      47,
+      "inferred support",
+      99
+    ],
+    [
+      48,
+      "inferred path",
+      99
+    ],
+    [
+      49,
+      "inferred surface",
+      99
+    ],
+    [
+      50,
+      "inferred packet",
+      99
+    ],
+    [
+      51,
+      "inferred receipt",
+      98
+    ],
+    [
+      52,
+      "inferred trace",
+      98
+    ],
+    [
+      53,
+      "inferred result",
+      98
+    ],
+    [
+      54,
+      "inferred scope",
+      98
+    ],
+    [
+      55,
+      "inferred boundary",
+      98
+    ],
+    [
+      56,
+      "inferred status",
+      98
+    ],
+    [
+      57,
+      "inferred candidate",
+      98
+    ],
+    [
+      58,
+      "inferred witness",
+      98
+    ],
+    [
+      59,
+      "inferred probe",
+      98
+    ],
+    [
+      60,
+      "inferred constraint",
+      98
+    ],
+    [
+      61,
+      "check inferred",
+      98
+    ],
+    [
+      62,
+      "compare inferred",
+      98
+    ],
+    [
+      63,
+      "observe inferred",
+      98
+    ],
+    [
+      64,
+      "measure inferred",
+      98
+    ],
+    [
+      65,
+      "test inferred",
+      98
+    ],
+    [
+      66,
+      "verify inferred",
+      98
+    ],
+    [
+      67,
+      "hold inferred",
+      98
+    ],
+    [
+      68,
+      "preserve inferred",
+      98
+    ],
+    [
+      69,
+      "split inferred",
+      98
+    ],
+    [
+      70,
+      "narrow inferred",
+      98
+    ],
+    [
+      71,
+      "under remembered",
+      98
+    ],
+    [
+      72,
+      "within remembered",
+      98
+    ],
+    [
+      73,
+      "across remembered",
+      98
+    ],
+    [
+      74,
+      "between remembered",
+      98
+    ],
+    [
+      75,
+      "through remembered",
+      98
+    ],
+    [
+      76,
+      "before remembered",
+      97
+    ],
+    [
+      77,
+      "after remembered",
+      97
+    ],
+    [
+      78,
+      "until remembered",
+      97
+    ],
+    [
+      79,
+      "where remembered",
+      97
+    ],
+    [
+      80,
+      "while remembered",
+      97
+    ],
+    [
+      81,
+      "remembered evidence",
+      97
+    ],
+    [
+      82,
+      "remembered support",
+      97
+    ],
+    [
+      83,
+      "remembered path",
+      97
+    ],
+    [
+      84,
+      "remembered surface",
+      97
+    ],
+    [
+      85,
+      "remembered packet",
+      97
+    ],
+    [
+      86,
+      "remembered receipt",
+      97
+    ],
+    [
+      87,
+      "remembered trace",
+      97
+    ],
+    [
+      88,
+      "remembered result",
+      97
+    ],
+    [
+      89,
+      "remembered scope",
+      97
+    ],
+    [
+      90,
+      "remembered boundary",
+      97
+    ],
+    [
+      91,
+      "remembered status",
+      97
+    ],
+    [
+      92,
+      "remembered candidate",
+      97
+    ],
+    [
+      93,
+      "remembered witness",
+      97
+    ],
+    [
+      94,
+      "remembered probe",
+      97
+    ],
+    [
+      95,
+      "remembered constraint",
+      97
+    ],
+    [
+      96,
+      "check remembered",
+      97
+    ],
+    [
+      97,
+      "compare remembered",
+      97
+    ],
+    [
+      98,
+      "observe remembered",
+      97
+    ],
+    [
+      99,
+      "measure remembered",
+      97
+    ],
+    [
+      100,
+      "test remembered",
+      97
+    ],
+    [
+      101,
+      "verify remembered",
+      96
+    ],
+    [
+      102,
+      "hold remembered",
+      96
+    ],
+    [
+      103,
+      "preserve remembered",
+      96
+    ],
+    [
+      104,
+      "split remembered",
+      96
+    ],
+    [
+      105,
+      "narrow remembered",
+      96
+    ],
+    [
+      106,
+      "under proposed",
+      96
+    ],
+    [
+      107,
+      "within proposed",
+      96
+    ],
+    [
+      108,
+      "across proposed",
+      96
+    ],
+    [
+      109,
+      "between proposed",
+      96
+    ],
+    [
+      110,
+      "through proposed",
+      96
+    ],
+    [
+      111,
+      "before proposed",
+      96
+    ],
+    [
+      112,
+      "after proposed",
+      96
+    ],
+    [
+      113,
+      "until proposed",
+      96
+    ],
+    [
+      114,
+      "where proposed",
+      96
+    ],
+    [
+      115,
+      "while proposed",
+      96
+    ],
+    [
+      116,
+      "proposed evidence",
+      96
+    ],
+    [
+      117,
+      "proposed support",
+      96
+    ],
+    [
+      118,
+      "proposed path",
+      96
+    ],
+    [
+      119,
+      "proposed surface",
+      96
+    ],
+    [
+      120,
+      "proposed packet",
+      96
+    ],
+    [
+      121,
+      "proposed receipt",
+      96
+    ],
+    [
+      122,
+      "proposed trace",
+      96
+    ],
+    [
+      123,
+      "proposed result",
+      96
+    ],
+    [
+      124,
+      "proposed scope",
+      96
+    ],
+    [
+      125,
+      "proposed boundary",
+      96
+    ],
+    [
+      126,
+      "proposed status",
+      95
+    ],
+    [
+      127,
+      "proposed candidate",
+      95
+    ],
+    [
+      128,
+      "proposed witness",
+      95
+    ],
+    [
+      129,
+      "proposed probe",
+      95
+    ],
+    [
+      130,
+      "proposed constraint",
+      95
+    ],
+    [
+      131,
+      "check proposed",
+      95
+    ],
+    [
+      132,
+      "compare proposed",
+      95
+    ],
+    [
+      133,
+      "observe proposed",
+      95
+    ],
+    [
+      134,
+      "measure proposed",
+      95
+    ],
+    [
+      135,
+      "test proposed",
+      95
+    ],
+    [
+      136,
+      "verify proposed",
+      95
+    ],
+    [
+      137,
+      "hold proposed",
+      95
+    ],
+    [
+      138,
+      "preserve proposed",
+      95
+    ],
+    [
+      139,
+      "split proposed",
+      95
+    ],
+    [
+      140,
+      "narrow proposed",
+      95
+    ],
+    [
+      141,
+      "under unknown",
+      95
+    ],
+    [
+      142,
+      "within unknown",
+      95
+    ],
+    [
+      143,
+      "across unknown",
+      95
+    ],
+    [
+      144,
+      "between unknown",
+      95
+    ],
+    [
+      145,
+      "through unknown",
+      95
+    ],
+    [
+      146,
+      "before unknown",
+      95
+    ],
+    [
+      147,
+      "after unknown",
+      95
+    ],
+    [
+      148,
+      "until unknown",
+      95
+    ],
+    [
+      149,
+      "where unknown",
+      95
+    ],
+    [
+      150,
+      "while unknown",
+      95
+    ],
+    [
+      151,
+      "unknown evidence",
+      94
+    ],
+    [
+      152,
+      "unknown support",
+      94
+    ],
+    [
+      153,
+      "unknown path",
+      94
+    ],
+    [
+      154,
+      "unknown surface",
+      94
+    ],
+    [
+      155,
+      "unknown packet",
+      94
+    ],
+    [
+      156,
+      "unknown receipt",
+      94
+    ],
+    [
+      157,
+      "unknown trace",
+      94
+    ],
+    [
+      158,
+      "unknown result",
+      94
+    ],
+    [
+      159,
+      "unknown scope",
+      94
+    ],
+    [
+      160,
+      "unknown boundary",
+      94
+    ],
+    [
+      161,
+      "unknown status",
+      94
+    ],
+    [
+      162,
+      "unknown candidate",
+      94
+    ],
+    [
+      163,
+      "unknown witness",
+      94
+    ],
+    [
+      164,
+      "unknown probe",
+      94
+    ],
+    [
+      165,
+      "unknown constraint",
+      94
+    ],
+    [
+      166,
+      "check unknown",
+      94
+    ],
+    [
+      167,
+      "compare unknown",
+      94
+    ],
+    [
+      168,
+      "observe unknown",
+      94
+    ],
+    [
+      169,
+      "measure unknown",
+      94
+    ],
+    [
+      170,
+      "test unknown",
+      94
+    ],
+    [
+      171,
+      "verify unknown",
+      94
+    ],
+    [
+      172,
+      "hold unknown",
+      94
+    ],
+    [
+      173,
+      "preserve unknown",
+      94
+    ],
+    [
+      174,
+      "split unknown",
+      94
+    ],
+    [
+      175,
+      "narrow unknown",
+      94
+    ],
+    [
+      176,
+      "under experience",
+      93
+    ],
+    [
+      177,
+      "within experience",
+      93
+    ],
+    [
+      178,
+      "across experience",
+      93
+    ],
+    [
+      179,
+      "between experience",
+      93
+    ],
+    [
+      180,
+      "through experience",
+      93
+    ],
+    [
+      181,
+      "before experience",
+      93
+    ],
+    [
+      182,
+      "after experience",
+      93
+    ],
+    [
+      183,
+      "until experience",
+      93
+    ],
+    [
+      184,
+      "where experience",
+      93
+    ],
+    [
+      185,
+      "while experience",
+      93
+    ],
+    [
+      186,
+      "experience evidence",
+      93
+    ],
+    [
+      187,
+      "experience support",
+      93
+    ],
+    [
+      188,
+      "experience path",
+      93
+    ],
+    [
+      189,
+      "experience surface",
+      93
+    ],
+    [
+      190,
+      "experience packet",
+      93
+    ],
+    [
+      191,
+      "experience receipt",
+      93
+    ],
+    [
+      192,
+      "experience trace",
+      93
+    ],
+    [
+      193,
+      "experience result",
+      93
+    ],
+    [
+      194,
+      "experience scope",
+      93
+    ],
+    [
+      195,
+      "experience boundary",
+      93
+    ],
+    [
+      196,
+      "experience status",
+      93
+    ],
+    [
+      197,
+      "experience candidate",
+      93
+    ],
+    [
+      198,
+      "experience witness",
+      93
+    ],
+    [
+      199,
+      "experience probe",
+      93
+    ],
+    [
+      200,
+      "experience constraint",
+      93
+    ],
+    [
+      201,
+      "check experience",
+      92
+    ],
+    [
+      202,
+      "compare experience",
+      92
+    ],
+    [
+      203,
+      "observe experience",
+      92
+    ],
+    [
+      204,
+      "measure experience",
+      92
+    ],
+    [
+      205,
+      "test experience",
+      92
+    ],
+    [
+      206,
+      "verify experience",
+      92
+    ],
+    [
+      207,
+      "hold experience",
+      92
+    ],
+    [
+      208,
+      "preserve experience",
+      92
+    ],
+    [
+      209,
+      "split experience",
+      92
+    ],
+    [
+      210,
+      "narrow experience",
+      92
+    ],
+    [
+      342,
+      "probable reasoning",
+      87
+    ],
+    [
+      344,
+      "particular observation",
+      87
+    ],
+    [
+      345,
+      "not enough",
+      87
+    ],
+    [
+      346,
+      "matters of fact",
+      87
+    ],
+    [
+      347,
+      "relations of ideas",
+      87
+    ],
+    [
+      349,
+      "testimony and experience",
+      87
+    ],
+    [
+      350,
+      "memory and sense",
+      87
+    ],
+    [
+      351,
+      "degree of evidence",
+      86
+    ],
+    [
+      352,
+      "plain",
+      86
+    ],
+    [
+      353,
+      "sensible",
+      86
+    ],
+    [
+      354,
+      "observed",
+      86
+    ],
+    [
+      355,
+      "inferred",
+      86
+    ],
+    [
+      356,
+      "remembered",
+      86
+    ],
+    [
+      357,
+      "unknown",
+      86
+    ],
+    [
+      358,
+      "seems",
+      86
+    ],
+    [
+      359,
+      "appears",
+      86
+    ],
+    [
+      360,
+      "enough",
+      86
+    ],
+    [
+      361,
+      "checked",
+      86
+    ],
+    [
+      362,
+      "found",
+      86
+    ],
+    [
+      363,
+      "support",
+      86
+    ],
+    [
+      364,
+      "evidence",
+      86
+    ],
+    [
+      365,
+      "experience",
+      86
+    ],
+    [
+      366,
+      "ordinary",
+      86
+    ],
+    [
+      367,
+      "likely",
+      86
+    ],
+    [
+      368,
+      "unlikely",
+      86
+    ],
+    [
+      369,
+      "limited",
+      86
+    ],
+    [
+      370,
+      "conditional",
+      86
+    ],
+    [
+      371,
+      "careful",
+      86
+    ],
+    [
+      372,
+      "human",
+      86
+    ],
+    [
+      373,
+      "warm",
+      86
+    ],
+    [
+      374,
+      "usable",
+      86
+    ],
+    [
+      375,
+      "next honest move",
+      86
+    ],
+    [
+      376,
+      "what this amounts to",
+      85
+    ],
+    [
+      377,
+      "what follows now",
+      85
+    ],
+    [
+      378,
+      "what remains open",
+      85
+    ],
+    [
+      379,
+      "under matter",
+      85
+    ],
+    [
+      380,
+      "under fact",
+      85
+    ],
+    [
+      381,
+      "under belief",
+      85
+    ],
+    [
+      382,
+      "under probable",
+      85
+    ],
+    [
+      383,
+      "under testimony",
+      85
+    ],
+    [
+      384,
+      "under memory",
+      85
+    ],
+    [
+      385,
+      "under sense",
+      85
+    ],
+    [
+      386,
+      "under sensible",
+      85
+    ],
+    [
+      387,
+      "under ordinary",
+      85
+    ],
+    [
+      388,
+      "under plain",
+      85
+    ],
+    [
+      389,
+      "under warm",
+      85
+    ],
+    [
+      390,
+      "under careful",
+      85
+    ],
+    [
+      391,
+      "under human",
+      85
+    ],
+    [
+      392,
+      "under enough",
+      85
+    ],
+    [
+      393,
+      "under modest",
+      85
+    ],
+    [
+      394,
+      "within matter",
+      85
+    ],
+    [
+      395,
+      "within fact",
+      85
+    ],
+    [
+      396,
+      "within belief",
+      85
+    ],
+    [
+      397,
+      "within probable",
+      85
+    ],
+    [
+      398,
+      "within testimony",
+      85
+    ],
+    [
+      399,
+      "within memory",
+      85
+    ],
+    [
+      400,
+      "within sense",
+      85
+    ],
+    [
+      401,
+      "within sensible",
+      84
+    ],
+    [
+      402,
+      "within ordinary",
+      84
+    ],
+    [
+      403,
+      "within plain",
+      84
+    ],
+    [
+      404,
+      "within warm",
+      84
+    ],
+    [
+      405,
+      "within careful",
+      84
+    ],
+    [
+      406,
+      "within human",
+      84
+    ],
+    [
+      407,
+      "within enough",
+      84
+    ],
+    [
+      408,
+      "within modest",
+      84
+    ],
+    [
+      409,
+      "across matter",
+      84
+    ],
+    [
+      410,
+      "across fact",
+      84
+    ],
+    [
+      411,
+      "across belief",
+      84
+    ],
+    [
+      412,
+      "across probable",
+      84
+    ],
+    [
+      413,
+      "across testimony",
+      84
+    ],
+    [
+      414,
+      "across memory",
+      84
+    ],
+    [
+      415,
+      "across sense",
+      84
+    ],
+    [
+      416,
+      "across sensible",
+      84
+    ],
+    [
+      417,
+      "across ordinary",
+      84
+    ],
+    [
+      418,
+      "across plain",
+      84
+    ],
+    [
+      419,
+      "across warm",
+      84
+    ],
+    [
+      420,
+      "across careful",
+      84
+    ],
+    [
+      421,
+      "across human",
+      84
+    ],
+    [
+      422,
+      "across enough",
+      84
+    ],
+    [
+      423,
+      "across modest",
+      84
+    ],
+    [
+      424,
+      "between matter",
+      84
+    ],
+    [
+      425,
+      "between fact",
+      84
+    ],
+    [
+      426,
+      "between belief",
+      83
+    ],
+    [
+      427,
+      "between probable",
+      83
+    ],
+    [
+      428,
+      "between testimony",
+      83
+    ],
+    [
+      429,
+      "between memory",
+      83
+    ],
+    [
+      430,
+      "between sense",
+      83
+    ],
+    [
+      431,
+      "between sensible",
+      83
+    ],
+    [
+      432,
+      "between ordinary",
+      83
+    ],
+    [
+      433,
+      "between plain",
+      83
+    ],
+    [
+      434,
+      "between warm",
+      83
+    ],
+    [
+      435,
+      "between careful",
+      83
+    ],
+    [
+      436,
+      "between human",
+      83
+    ],
+    [
+      437,
+      "between enough",
+      83
+    ],
+    [
+      438,
+      "between modest",
+      83
+    ],
+    [
+      439,
+      "through matter",
+      83
+    ],
+    [
+      440,
+      "through fact",
+      83
+    ],
+    [
+      441,
+      "through belief",
+      83
+    ],
+    [
+      442,
+      "through probable",
+      83
+    ],
+    [
+      443,
+      "through testimony",
+      83
+    ],
+    [
+      444,
+      "through memory",
+      83
+    ],
+    [
+      445,
+      "through sense",
+      83
+    ],
+    [
+      446,
+      "through sensible",
+      83
+    ],
+    [
+      447,
+      "through ordinary",
+      83
+    ],
+    [
+      448,
+      "through plain",
+      83
+    ],
+    [
+      449,
+      "through warm",
+      83
+    ],
+    [
+      450,
+      "through careful",
+      83
+    ],
+    [
+      451,
+      "through human",
+      82
+    ],
+    [
+      452,
+      "through enough",
+      82
+    ],
+    [
+      453,
+      "through modest",
+      82
+    ],
+    [
+      454,
+      "before matter",
+      82
+    ],
+    [
+      455,
+      "before fact",
+      82
+    ],
+    [
+      456,
+      "before belief",
+      82
+    ],
+    [
+      457,
+      "before probable",
+      82
+    ],
+    [
+      458,
+      "before testimony",
+      82
+    ],
+    [
+      459,
+      "before memory",
+      82
+    ],
+    [
+      460,
+      "before sense",
+      82
+    ],
+    [
+      461,
+      "before sensible",
+      82
+    ],
+    [
+      462,
+      "before ordinary",
+      82
+    ],
+    [
+      463,
+      "before plain",
+      82
+    ],
+    [
+      464,
+      "before warm",
+      82
+    ],
+    [
+      465,
+      "before careful",
+      82
+    ],
+    [
+      466,
+      "before human",
+      82
+    ],
+    [
+      467,
+      "before enough",
+      82
+    ],
+    [
+      468,
+      "before modest",
+      82
+    ],
+    [
+      469,
+      "after matter",
+      82
+    ],
+    [
+      470,
+      "after fact",
+      82
+    ],
+    [
+      471,
+      "after belief",
+      82
+    ],
+    [
+      472,
+      "after probable",
+      82
+    ],
+    [
+      473,
+      "after testimony",
+      82
+    ],
+    [
+      474,
+      "after memory",
+      82
+    ],
+    [
+      475,
+      "after sense",
+      82
+    ],
+    [
+      476,
+      "after sensible",
+      81
+    ],
+    [
+      477,
+      "after ordinary",
+      81
+    ],
+    [
+      478,
+      "after plain",
+      81
+    ],
+    [
+      479,
+      "after warm",
+      81
+    ],
+    [
+      480,
+      "after careful",
+      81
+    ],
+    [
+      481,
+      "after human",
+      81
+    ],
+    [
+      482,
+      "after enough",
+      81
+    ],
+    [
+      483,
+      "after modest",
+      81
+    ],
+    [
+      484,
+      "during experience",
+      81
+    ],
+    [
+      489,
+      "during matter",
+      81
+    ],
+    [
+      490,
+      "during fact",
+      81
+    ],
+    [
+      491,
+      "during belief",
+      81
+    ],
+    [
+      492,
+      "during probable",
+      81
+    ],
+    [
+      493,
+      "during testimony",
+      81
+    ],
+    [
+      494,
+      "during memory",
+      81
+    ],
+    [
+      495,
+      "during sense",
+      81
+    ],
+    [
+      496,
+      "during sensible",
+      81
+    ],
+    [
+      497,
+      "during ordinary",
+      81
+    ],
+    [
+      498,
+      "during plain",
+      81
+    ],
+    [
+      499,
+      "during warm",
+      81
+    ],
+    [
+      500,
+      "during careful",
+      81
+    ],
+    [
+      501,
+      "during human",
+      80
+    ],
+    [
+      502,
+      "during enough",
+      80
+    ],
+    [
+      503,
+      "during modest",
+      80
+    ],
+    [
+      504,
+      "until matter",
+      80
+    ],
+    [
+      505,
+      "until fact",
+      80
+    ],
+    [
+      506,
+      "until belief",
+      80
+    ],
+    [
+      507,
+      "until probable",
+      80
+    ],
+    [
+      508,
+      "until testimony",
+      80
+    ],
+    [
+      509,
+      "until memory",
+      80
+    ],
+    [
+      510,
+      "until sense",
+      80
+    ],
+    [
+      511,
+      "until sensible",
+      80
+    ],
+    [
+      512,
+      "until ordinary",
+      80
+    ],
+    [
+      513,
+      "until plain",
+      80
+    ],
+    [
+      514,
+      "until warm",
+      80
+    ],
+    [
+      515,
+      "until careful",
+      80
+    ],
+    [
+      516,
+      "until human",
+      80
+    ],
+    [
+      517,
+      "until enough",
+      80
+    ],
+    [
+      518,
+      "until modest",
+      80
+    ],
+    [
+      519,
+      "since experience",
+      80
+    ],
+    [
+      524,
+      "since matter",
+      80
+    ],
+    [
+      525,
+      "since fact",
+      80
+    ],
+    [
+      526,
+      "since belief",
+      79
+    ],
+    [
+      527,
+      "since probable",
+      79
+    ],
+    [
+      528,
+      "since testimony",
+      79
+    ],
+    [
+      529,
+      "since memory",
+      79
+    ],
+    [
+      530,
+      "since sense",
+      79
+    ],
+    [
+      531,
+      "since sensible",
+      79
+    ],
+    [
+      532,
+      "since ordinary",
+      79
+    ],
+    [
+      533,
+      "since plain",
+      79
+    ],
+    [
+      534,
+      "since warm",
+      79
+    ],
+    [
+      535,
+      "since careful",
+      79
+    ],
+    [
+      536,
+      "since human",
+      79
+    ],
+    [
+      537,
+      "since enough",
+      79
+    ],
+    [
+      538,
+      "since modest",
+      79
+    ],
+    [
+      539,
+      "from experience",
+      79
+    ],
+    [
+      544,
+      "from matter",
+      79
+    ],
+    [
+      545,
+      "from fact",
+      79
+    ],
+    [
+      546,
+      "from belief",
+      79
+    ],
+    [
+      547,
+      "from probable",
+      79
+    ],
+    [
+      548,
+      "from testimony",
+      79
+    ],
+    [
+      549,
+      "from memory",
+      79
+    ],
+    [
+      550,
+      "from sense",
+      79
+    ],
+    [
+      551,
+      "from sensible",
+      78
+    ],
+    [
+      552,
+      "from ordinary",
+      78
+    ],
+    [
+      553,
+      "from plain",
+      78
+    ],
+    [
+      554,
+      "from warm",
+      78
+    ],
+    [
+      555,
+      "from careful",
+      78
+    ],
+    [
+      556,
+      "from human",
+      78
+    ],
+    [
+      557,
+      "from enough",
+      78
+    ],
+    [
+      558,
+      "from modest",
+      78
+    ],
+    [
+      559,
+      "by experience",
+      78
+    ],
+    [
+      564,
+      "by matter",
+      78
+    ],
+    [
+      565,
+      "by fact",
+      78
+    ],
+    [
+      566,
+      "by belief",
+      78
+    ],
+    [
+      567,
+      "by probable",
+      78
+    ],
+    [
+      568,
+      "by testimony",
+      78
+    ],
+    [
+      569,
+      "by memory",
+      78
+    ],
+    [
+      570,
+      "by sense",
+      78
+    ],
+    [
+      571,
+      "by sensible",
+      78
+    ],
+    [
+      572,
+      "by ordinary",
+      78
+    ],
+    [
+      573,
+      "by plain",
+      78
+    ],
+    [
+      574,
+      "by warm",
+      78
+    ],
+    [
+      575,
+      "by careful",
+      78
+    ],
+    [
+      576,
+      "by human",
+      77
+    ],
+    [
+      577,
+      "by enough",
+      77
+    ],
+    [
+      578,
+      "by modest",
+      77
+    ],
+    [
+      579,
+      "with experience",
+      77
+    ],
+    [
+      584,
+      "with matter",
+      77
+    ],
+    [
+      585,
+      "with fact",
+      77
+    ],
+    [
+      586,
+      "with belief",
+      77
+    ],
+    [
+      587,
+      "with probable",
+      77
+    ],
+    [
+      588,
+      "with testimony",
+      77
+    ],
+    [
+      589,
+      "with memory",
+      77
+    ],
+    [
+      590,
+      "with sense",
+      77
+    ],
+    [
+      591,
+      "with sensible",
+      77
+    ],
+    [
+      592,
+      "with ordinary",
+      77
+    ],
+    [
+      593,
+      "with plain",
+      77
+    ],
+    [
+      594,
+      "with warm",
+      77
+    ],
+    [
+      595,
+      "with careful",
+      77
+    ],
+    [
+      596,
+      "with human",
+      77
+    ],
+    [
+      597,
+      "with enough",
+      77
+    ],
+    [
+      598,
+      "with modest",
+      77
+    ],
+    [
+      599,
+      "without experience",
+      77
+    ],
+    [
+      604,
+      "without matter",
+      76
+    ],
+    [
+      605,
+      "without fact",
+      76
+    ],
+    [
+      606,
+      "without belief",
+      76
+    ],
+    [
+      607,
+      "without probable",
+      76
+    ],
+    [
+      608,
+      "without testimony",
+      76
+    ],
+    [
+      609,
+      "without memory",
+      76
+    ],
+    [
+      610,
+      "without sense",
+      76
+    ],
+    [
+      611,
+      "without sensible",
+      76
+    ],
+    [
+      612,
+      "without ordinary",
+      76
+    ],
+    [
+      613,
+      "without plain",
+      76
+    ],
+    [
+      614,
+      "without warm",
+      76
+    ],
+    [
+      615,
+      "without careful",
+      76
+    ],
+    [
+      616,
+      "without human",
+      76
+    ],
+    [
+      617,
+      "without enough",
+      76
+    ],
+    [
+      618,
+      "without modest",
+      76
+    ],
+    [
+      619,
+      "against experience",
+      76
+    ],
+    [
+      624,
+      "against matter",
+      76
+    ],
+    [
+      625,
+      "against fact",
+      76
+    ],
+    [
+      626,
+      "against belief",
+      75
+    ],
+    [
+      627,
+      "against probable",
+      75
+    ],
+    [
+      628,
+      "against testimony",
+      75
+    ],
+    [
+      629,
+      "against memory",
+      75
+    ],
+    [
+      630,
+      "against sense",
+      75
+    ],
+    [
+      631,
+      "against sensible",
+      75
+    ],
+    [
+      632,
+      "against ordinary",
+      75
+    ],
+    [
+      633,
+      "against plain",
+      75
+    ],
+    [
+      634,
+      "against warm",
+      75
+    ],
+    [
+      635,
+      "against careful",
+      75
+    ],
+    [
+      636,
+      "against human",
+      75
+    ],
+    [
+      637,
+      "against enough",
+      75
+    ],
+    [
+      638,
+      "against modest",
+      75
+    ],
+    [
+      639,
+      "toward experience",
+      75
+    ],
+    [
+      644,
+      "toward matter",
+      75
+    ],
+    [
+      645,
+      "toward fact",
+      75
+    ],
+    [
+      646,
+      "toward belief",
+      75
+    ],
+    [
+      647,
+      "toward probable",
+      75
+    ],
+    [
+      648,
+      "toward testimony",
+      75
+    ],
+    [
+      649,
+      "toward memory",
+      75
+    ],
+    [
+      650,
+      "toward sense",
+      75
+    ],
+    [
+      651,
+      "toward sensible",
+      74
+    ],
+    [
+      652,
+      "toward ordinary",
+      74
+    ],
+    [
+      653,
+      "toward plain",
+      74
+    ],
+    [
+      654,
+      "toward warm",
+      74
+    ],
+    [
+      655,
+      "toward careful",
+      74
+    ],
+    [
+      656,
+      "toward human",
+      74
+    ],
+    [
+      657,
+      "toward enough",
+      74
+    ],
+    [
+      658,
+      "toward modest",
+      74
+    ],
+    [
+      659,
+      "near experience",
+      74
+    ],
+    [
+      664,
+      "near matter",
+      74
+    ],
+    [
+      665,
+      "near fact",
+      74
+    ],
+    [
+      666,
+      "near belief",
+      74
+    ],
+    [
+      667,
+      "near probable",
+      74
+    ],
+    [
+      668,
+      "near testimony",
+      74
+    ],
+    [
+      669,
+      "near memory",
+      74
+    ],
+    [
+      670,
+      "near sense",
+      74
+    ],
+    [
+      671,
+      "near sensible",
+      74
+    ],
+    [
+      672,
+      "near ordinary",
+      74
+    ],
+    [
+      673,
+      "near plain",
+      74
+    ],
+    [
+      674,
+      "near warm",
+      74
+    ],
+    [
+      675,
+      "near careful",
+      74
+    ],
+    [
+      676,
+      "near human",
+      73
+    ],
+    [
+      677,
+      "near enough",
+      73
+    ],
+    [
+      678,
+      "near modest",
+      73
+    ],
+    [
+      679,
+      "relative experience",
+      73
+    ],
+    [
+      684,
+      "relative matter",
+      73
+    ],
+    [
+      685,
+      "relative fact",
+      73
+    ],
+    [
+      686,
+      "relative belief",
+      73
+    ],
+    [
+      687,
+      "relative probable",
+      73
+    ],
+    [
+      688,
+      "relative testimony",
+      73
+    ],
+    [
+      689,
+      "relative memory",
+      73
+    ],
+    [
+      690,
+      "relative sense",
+      73
+    ],
+    [
+      691,
+      "relative sensible",
+      73
+    ],
+    [
+      692,
+      "relative ordinary",
+      73
+    ],
+    [
+      693,
+      "relative plain",
+      73
+    ],
+    [
+      694,
+      "relative warm",
+      73
+    ],
+    [
+      695,
+      "relative careful",
+      73
+    ],
+    [
+      696,
+      "relative human",
+      73
+    ],
+    [
+      697,
+      "relative enough",
+      73
+    ],
+    [
+      698,
+      "relative modest",
+      73
+    ],
+    [
+      703,
+      "experience matter",
+      72
+    ],
+    [
+      704,
+      "experience fact",
+      72
+    ],
+    [
+      705,
+      "experience belief",
+      72
+    ],
+    [
+      706,
+      "experience probable",
+      72
+    ],
+    [
+      707,
+      "experience testimony",
+      72
+    ],
+    [
+      708,
+      "experience memory",
+      72
+    ],
+    [
+      709,
+      "experience sense",
+      72
+    ],
+    [
+      754,
+      "matter fact",
+      70
+    ],
+    [
+      755,
+      "matter belief",
+      70
+    ],
+    [
+      756,
+      "matter probable",
+      70
+    ],
+    [
+      757,
+      "matter testimony",
+      70
+    ],
+    [
+      758,
+      "matter memory",
+      70
+    ],
+    [
+      759,
+      "matter sense",
+      70
+    ],
+    [
+      760,
+      "matter sensible",
+      70
+    ],
+    [
+      761,
+      "matter ordinary",
+      70
+    ],
+    [
+      762,
+      "matter plain",
+      70
+    ],
+    [
+      763,
+      "matter warm",
+      70
+    ],
+    [
+      764,
+      "matter careful",
+      70
+    ],
+    [
+      765,
+      "fact belief",
+      70
+    ],
+    [
+      766,
+      "fact probable",
+      70
+    ],
+    [
+      767,
+      "fact testimony",
+      70
+    ],
+    [
+      768,
+      "fact memory",
+      70
+    ],
+    [
+      769,
+      "fact sense",
+      70
+    ],
+    [
+      770,
+      "fact sensible",
+      70
+    ],
+    [
+      771,
+      "fact ordinary",
+      70
+    ],
+    [
+      772,
+      "fact plain",
+      70
+    ],
+    [
+      773,
+      "fact warm",
+      70
+    ],
+    [
+      774,
+      "fact careful",
+      70
+    ],
+    [
+      775,
+      "fact human",
+      70
+    ],
+    [
+      776,
+      "belief probable",
+      69
+    ],
+    [
+      777,
+      "belief testimony",
+      69
+    ],
+    [
+      778,
+      "belief memory",
+      69
+    ],
+    [
+      779,
+      "belief sense",
+      69
+    ],
+    [
+      780,
+      "belief sensible",
+      69
+    ],
+    [
+      781,
+      "belief ordinary",
+      69
+    ],
+    [
+      782,
+      "belief plain",
+      69
+    ],
+    [
+      783,
+      "belief warm",
+      69
+    ],
+    [
+      784,
+      "belief careful",
+      69
+    ],
+    [
+      785,
+      "belief human",
+      69
+    ],
+    [
+      786,
+      "belief enough",
+      69
+    ],
+    [
+      787,
+      "probable testimony",
+      69
+    ],
+    [
+      788,
+      "probable memory",
+      69
+    ],
+    [
+      789,
+      "probable sense",
+      69
+    ],
+    [
+      790,
+      "probable sensible",
+      69
+    ],
+    [
+      791,
+      "probable ordinary",
+      69
+    ],
+    [
+      792,
+      "probable plain",
+      69
+    ],
+    [
+      793,
+      "probable warm",
+      69
+    ],
+    [
+      794,
+      "probable careful",
+      69
+    ],
+    [
+      795,
+      "probable human",
+      69
+    ],
+    [
+      796,
+      "probable enough",
+      69
+    ],
+    [
+      797,
+      "probable modest",
+      69
+    ],
+    [
+      798,
+      "testimony memory",
+      69
+    ],
+    [
+      799,
+      "testimony sense",
+      69
+    ],
+    [
+      800,
+      "testimony sensible",
+      69
+    ],
+    [
+      801,
+      "testimony ordinary",
+      68
+    ],
+    [
+      802,
+      "testimony plain",
+      68
+    ],
+    [
+      803,
+      "testimony warm",
+      68
+    ],
+    [
+      804,
+      "testimony careful",
+      68
+    ],
+    [
+      805,
+      "testimony human",
+      68
+    ],
+    [
+      806,
+      "testimony enough",
+      68
+    ],
+    [
+      807,
+      "testimony modest",
+      68
+    ],
+    [
+      808,
+      "testimony sober",
+      68
+    ],
+    [
+      809,
+      "memory sense",
+      68
+    ],
+    [
+      810,
+      "memory sensible",
+      68
+    ],
+    [
+      811,
+      "memory ordinary",
+      68
+    ],
+    [
+      812,
+      "memory plain",
+      68
+    ],
+    [
+      813,
+      "memory warm",
+      68
+    ],
+    [
+      814,
+      "memory careful",
+      68
+    ],
+    [
+      815,
+      "memory human",
+      68
+    ],
+    [
+      816,
+      "memory enough",
+      68
+    ],
+    [
+      817,
+      "memory modest",
+      68
+    ],
+    [
+      818,
+      "memory sober",
+      68
+    ],
+    [
+      819,
+      "memory gentle",
+      68
+    ],
+    [
+      820,
+      "sense sensible",
+      68
+    ],
+    [
+      821,
+      "sense ordinary",
+      68
+    ],
+    [
+      822,
+      "sense plain",
+      68
+    ],
+    [
+      823,
+      "sense warm",
+      68
+    ],
+    [
+      824,
+      "sense careful",
+      68
+    ],
+    [
+      825,
+      "sense human",
+      68
+    ],
+    [
+      826,
+      "sense enough",
+      67
+    ],
+    [
+      827,
+      "sense modest",
+      67
+    ],
+    [
+      828,
+      "sense sober",
+      67
+    ],
+    [
+      829,
+      "sense gentle",
+      67
+    ],
+    [
+      830,
+      "sense reasonable",
+      67
+    ],
+    [
+      831,
+      "sensible ordinary",
+      67
+    ],
+    [
+      832,
+      "sensible plain",
+      67
+    ],
+    [
+      833,
+      "sensible warm",
+      67
+    ],
+    [
+      834,
+      "sensible careful",
+      67
+    ],
+    [
+      835,
+      "sensible human",
+      67
+    ],
+    [
+      836,
+      "sensible enough",
+      67
+    ],
+    [
+      837,
+      "sensible modest",
+      67
+    ],
+    [
+      838,
+      "sensible sober",
+      67
+    ],
+    [
+      839,
+      "sensible gentle",
+      67
+    ],
+    [
+      840,
+      "sensible reasonable",
+      67
+    ],
+    [
+      841,
+      "sensible humane",
+      67
+    ],
+    [
+      842,
+      "ordinary plain",
+      67
+    ],
+    [
+      843,
+      "ordinary warm",
+      67
+    ],
+    [
+      844,
+      "ordinary careful",
+      67
+    ],
+    [
+      845,
+      "ordinary human",
+      67
+    ],
+    [
+      846,
+      "ordinary enough",
+      67
+    ],
+    [
+      847,
+      "ordinary modest",
+      67
+    ],
+    [
+      848,
+      "ordinary sober",
+      67
+    ],
+    [
+      849,
+      "ordinary gentle",
+      67
+    ],
+    [
+      850,
+      "ordinary reasonable",
+      67
+    ],
+    [
+      851,
+      "ordinary humane",
+      66
+    ],
+    [
+      852,
+      "ordinary common",
+      66
+    ],
+    [
+      853,
+      "plain warm",
+      66
+    ],
+    [
+      854,
+      "plain careful",
+      66
+    ],
+    [
+      855,
+      "plain human",
+      66
+    ],
+    [
+      856,
+      "plain enough",
+      66
+    ],
+    [
+      857,
+      "plain modest",
+      66
+    ],
+    [
+      858,
+      "plain sober",
+      66
+    ],
+    [
+      859,
+      "plain gentle",
+      66
+    ],
+    [
+      860,
+      "plain reasonable",
+      66
+    ],
+    [
+      861,
+      "plain humane",
+      66
+    ],
+    [
+      862,
+      "plain common",
+      66
+    ],
+    [
+      863,
+      "plain lively",
+      66
+    ],
+    [
+      864,
+      "warm careful",
+      66
+    ],
+    [
+      865,
+      "warm human",
+      66
+    ],
+    [
+      866,
+      "warm enough",
+      66
+    ],
+    [
+      867,
+      "warm modest",
+      66
+    ],
+    [
+      868,
+      "warm sober",
+      66
+    ],
+    [
+      869,
+      "warm gentle",
+      66
+    ],
+    [
+      870,
+      "warm reasonable",
+      66
+    ],
+    [
+      871,
+      "warm humane",
+      66
+    ],
+    [
+      872,
+      "warm common",
+      66
+    ],
+    [
+      873,
+      "warm lively",
+      66
+    ],
+    [
+      874,
+      "warm faint",
+      66
+    ],
+    [
+      875,
+      "careful human",
+      66
+    ],
+    [
+      876,
+      "careful enough",
+      65
+    ],
+    [
+      877,
+      "careful modest",
+      65
+    ],
+    [
+      878,
+      "careful sober",
+      65
+    ],
+    [
+      879,
+      "careful gentle",
+      65
+    ],
+    [
+      880,
+      "careful reasonable",
+      65
+    ],
+    [
+      881,
+      "careful humane",
+      65
+    ],
+    [
+      882,
+      "careful common",
+      65
+    ],
+    [
+      883,
+      "careful lively",
+      65
+    ],
+    [
+      884,
+      "careful faint",
+      65
+    ],
+    [
+      885,
+      "careful copy",
+      65
+    ],
+    [
+      886,
+      "human enough",
+      65
+    ],
+    [
+      887,
+      "human modest",
+      65
+    ],
+    [
+      888,
+      "human sober",
+      65
+    ],
+    [
+      889,
+      "human gentle",
+      65
+    ],
+    [
+      890,
+      "human reasonable",
+      65
+    ],
+    [
+      891,
+      "human humane",
+      65
+    ],
+    [
+      892,
+      "human common",
+      65
+    ],
+    [
+      893,
+      "human lively",
+      65
+    ],
+    [
+      894,
+      "human faint",
+      65
+    ],
+    [
+      895,
+      "human copy",
+      65
+    ],
+    [
+      896,
+      "human conjunction",
+      65
+    ],
+    [
+      897,
+      "enough modest",
+      65
+    ],
+    [
+      898,
+      "enough sober",
+      65
+    ],
+    [
+      899,
+      "enough gentle",
+      65
+    ],
+    [
+      900,
+      "enough reasonable",
+      65
+    ],
+    [
+      901,
+      "mini-MMM shapes voice",
+      100
+    ],
+    [
+      902,
+      "mini MMM voice shape",
+      100
+    ],
+    [
+      903,
+      "voice shaped by nouns",
+      100
+    ],
+    [
+      904,
+      "aligned nouns shape voice",
+      100
+    ],
+    [
+      905,
+      "correlated thinkers shape voice",
+      100
+    ],
+    [
+      906,
+      "thinker alignment voice",
+      100
+    ],
+    [
+      907,
+      "noun alignment voice",
+      100
+    ],
+    [
+      908,
+      "voice signature nouns",
+      100
+    ],
+    [
+      909,
+      "local voice contour",
+      100
+    ]
+  ],
+  "triplets": [
+    [
+      1,
+      "under current observed",
+      100
+    ],
+    [
+      2,
+      "under local observed",
+      100
+    ],
+    [
+      3,
+      "under bounded observed",
+      100
+    ],
+    [
+      4,
+      "under finite observed",
+      100
+    ],
+    [
+      5,
+      "under open observed",
+      100
+    ],
+    [
+      6,
+      "under live observed",
+      100
+    ],
+    [
+      7,
+      "within current observed",
+      100
+    ],
+    [
+      8,
+      "within local observed",
+      100
+    ],
+    [
+      9,
+      "within bounded observed",
+      100
+    ],
+    [
+      10,
+      "within finite observed",
+      100
+    ],
+    [
+      11,
+      "within open observed",
+      100
+    ],
+    [
+      12,
+      "within live observed",
+      100
+    ],
+    [
+      13,
+      "across current observed",
+      100
+    ],
+    [
+      14,
+      "across local observed",
+      100
+    ],
+    [
+      15,
+      "across bounded observed",
+      100
+    ],
+    [
+      16,
+      "across finite observed",
+      100
+    ],
+    [
+      17,
+      "across open observed",
+      100
+    ],
+    [
+      18,
+      "across live observed",
+      100
+    ],
+    [
+      19,
+      "between current observed",
+      100
+    ],
+    [
+      20,
+      "between local observed",
+      100
+    ],
+    [
+      21,
+      "between bounded observed",
+      100
+    ],
+    [
+      22,
+      "between finite observed",
+      100
+    ],
+    [
+      23,
+      "between open observed",
+      100
+    ],
+    [
+      24,
+      "between live observed",
+      100
+    ],
+    [
+      25,
+      "through current observed",
+      100
+    ],
+    [
+      26,
+      "through local observed",
+      99
+    ],
+    [
+      27,
+      "through bounded observed",
+      99
+    ],
+    [
+      28,
+      "through finite observed",
+      99
+    ],
+    [
+      29,
+      "through open observed",
+      99
+    ],
+    [
+      30,
+      "through live observed",
+      99
+    ],
+    [
+      31,
+      "before current observed",
+      99
+    ],
+    [
+      32,
+      "before local observed",
+      99
+    ],
+    [
+      33,
+      "before bounded observed",
+      99
+    ],
+    [
+      34,
+      "before finite observed",
+      99
+    ],
+    [
+      35,
+      "before open observed",
+      99
+    ],
+    [
+      36,
+      "before live observed",
+      99
+    ],
+    [
+      37,
+      "observed evidence path",
+      99
+    ],
+    [
+      38,
+      "observed support path",
+      99
+    ],
+    [
+      39,
+      "observed path path",
+      99
+    ],
+    [
+      40,
+      "observed surface path",
+      99
+    ],
+    [
+      41,
+      "observed packet path",
+      99
+    ],
+    [
+      42,
+      "observed receipt path",
+      99
+    ],
+    [
+      43,
+      "observed trace path",
+      99
+    ],
+    [
+      44,
+      "observed result path",
+      99
+    ],
+    [
+      45,
+      "observed scope path",
+      99
+    ],
+    [
+      46,
+      "observed boundary path",
+      99
+    ],
+    [
+      47,
+      "check observed receipt",
+      99
+    ],
+    [
+      48,
+      "compare observed receipt",
+      99
+    ],
+    [
+      49,
+      "observe observed receipt",
+      99
+    ],
+    [
+      50,
+      "measure observed receipt",
+      99
+    ],
+    [
+      51,
+      "test observed receipt",
+      98
+    ],
+    [
+      52,
+      "verify observed receipt",
+      98
+    ],
+    [
+      53,
+      "hold observed receipt",
+      98
+    ],
+    [
+      54,
+      "preserve observed receipt",
+      98
+    ],
+    [
+      55,
+      "under current inferred",
+      98
+    ],
+    [
+      56,
+      "under local inferred",
+      98
+    ],
+    [
+      57,
+      "under bounded inferred",
+      98
+    ],
+    [
+      58,
+      "under finite inferred",
+      98
+    ],
+    [
+      59,
+      "under open inferred",
+      98
+    ],
+    [
+      60,
+      "under live inferred",
+      98
+    ],
+    [
+      61,
+      "within current inferred",
+      98
+    ],
+    [
+      62,
+      "within local inferred",
+      98
+    ],
+    [
+      63,
+      "within bounded inferred",
+      98
+    ],
+    [
+      64,
+      "within finite inferred",
+      98
+    ],
+    [
+      65,
+      "within open inferred",
+      98
+    ],
+    [
+      66,
+      "within live inferred",
+      98
+    ],
+    [
+      67,
+      "across current inferred",
+      98
+    ],
+    [
+      68,
+      "across local inferred",
+      98
+    ],
+    [
+      69,
+      "across bounded inferred",
+      98
+    ],
+    [
+      70,
+      "across finite inferred",
+      98
+    ],
+    [
+      71,
+      "across open inferred",
+      98
+    ],
+    [
+      72,
+      "across live inferred",
+      98
+    ],
+    [
+      73,
+      "between current inferred",
+      98
+    ],
+    [
+      74,
+      "between local inferred",
+      98
+    ],
+    [
+      75,
+      "between bounded inferred",
+      98
+    ],
+    [
+      76,
+      "between finite inferred",
+      97
+    ],
+    [
+      77,
+      "between open inferred",
+      97
+    ],
+    [
+      78,
+      "between live inferred",
+      97
+    ],
+    [
+      79,
+      "through current inferred",
+      97
+    ],
+    [
+      80,
+      "through local inferred",
+      97
+    ],
+    [
+      81,
+      "through bounded inferred",
+      97
+    ],
+    [
+      82,
+      "through finite inferred",
+      97
+    ],
+    [
+      83,
+      "through open inferred",
+      97
+    ],
+    [
+      84,
+      "through live inferred",
+      97
+    ],
+    [
+      85,
+      "before current inferred",
+      97
+    ],
+    [
+      86,
+      "before local inferred",
+      97
+    ],
+    [
+      87,
+      "before bounded inferred",
+      97
+    ],
+    [
+      88,
+      "before finite inferred",
+      97
+    ],
+    [
+      89,
+      "before open inferred",
+      97
+    ],
+    [
+      90,
+      "before live inferred",
+      97
+    ],
+    [
+      91,
+      "inferred evidence path",
+      97
+    ],
+    [
+      92,
+      "inferred support path",
+      97
+    ],
+    [
+      93,
+      "inferred path path",
+      97
+    ],
+    [
+      94,
+      "inferred surface path",
+      97
+    ],
+    [
+      95,
+      "inferred packet path",
+      97
+    ],
+    [
+      96,
+      "inferred receipt path",
+      97
+    ],
+    [
+      97,
+      "inferred trace path",
+      97
+    ],
+    [
+      98,
+      "inferred result path",
+      97
+    ],
+    [
+      99,
+      "inferred scope path",
+      97
+    ],
+    [
+      100,
+      "inferred boundary path",
+      97
+    ],
+    [
+      101,
+      "check inferred receipt",
+      96
+    ],
+    [
+      102,
+      "compare inferred receipt",
+      96
+    ],
+    [
+      103,
+      "observe inferred receipt",
+      96
+    ],
+    [
+      104,
+      "measure inferred receipt",
+      96
+    ],
+    [
+      105,
+      "test inferred receipt",
+      96
+    ],
+    [
+      106,
+      "verify inferred receipt",
+      96
+    ],
+    [
+      107,
+      "hold inferred receipt",
+      96
+    ],
+    [
+      108,
+      "preserve inferred receipt",
+      96
+    ],
+    [
+      109,
+      "under current remembered",
+      96
+    ],
+    [
+      110,
+      "under local remembered",
+      96
+    ],
+    [
+      111,
+      "under bounded remembered",
+      96
+    ],
+    [
+      112,
+      "under finite remembered",
+      96
+    ],
+    [
+      113,
+      "under open remembered",
+      96
+    ],
+    [
+      114,
+      "under live remembered",
+      96
+    ],
+    [
+      115,
+      "within current remembered",
+      96
+    ],
+    [
+      116,
+      "within local remembered",
+      96
+    ],
+    [
+      117,
+      "within bounded remembered",
+      96
+    ],
+    [
+      118,
+      "within finite remembered",
+      96
+    ],
+    [
+      119,
+      "within open remembered",
+      96
+    ],
+    [
+      120,
+      "within live remembered",
+      96
+    ],
+    [
+      121,
+      "across current remembered",
+      96
+    ],
+    [
+      122,
+      "across local remembered",
+      96
+    ],
+    [
+      123,
+      "across bounded remembered",
+      96
+    ],
+    [
+      124,
+      "across finite remembered",
+      96
+    ],
+    [
+      125,
+      "across open remembered",
+      96
+    ],
+    [
+      126,
+      "across live remembered",
+      95
+    ],
+    [
+      127,
+      "between current remembered",
+      95
+    ],
+    [
+      128,
+      "between local remembered",
+      95
+    ],
+    [
+      129,
+      "between bounded remembered",
+      95
+    ],
+    [
+      130,
+      "between finite remembered",
+      95
+    ],
+    [
+      131,
+      "between open remembered",
+      95
+    ],
+    [
+      132,
+      "between live remembered",
+      95
+    ],
+    [
+      133,
+      "through current remembered",
+      95
+    ],
+    [
+      134,
+      "through local remembered",
+      95
+    ],
+    [
+      135,
+      "through bounded remembered",
+      95
+    ],
+    [
+      136,
+      "through finite remembered",
+      95
+    ],
+    [
+      137,
+      "through open remembered",
+      95
+    ],
+    [
+      138,
+      "through live remembered",
+      95
+    ],
+    [
+      139,
+      "before current remembered",
+      95
+    ],
+    [
+      140,
+      "before local remembered",
+      95
+    ],
+    [
+      141,
+      "before bounded remembered",
+      95
+    ],
+    [
+      142,
+      "before finite remembered",
+      95
+    ],
+    [
+      143,
+      "before open remembered",
+      95
+    ],
+    [
+      144,
+      "before live remembered",
+      95
+    ],
+    [
+      145,
+      "remembered evidence path",
+      95
+    ],
+    [
+      146,
+      "remembered support path",
+      95
+    ],
+    [
+      147,
+      "remembered path path",
+      95
+    ],
+    [
+      148,
+      "remembered surface path",
+      95
+    ],
+    [
+      149,
+      "remembered packet path",
+      95
+    ],
+    [
+      150,
+      "remembered receipt path",
+      95
+    ],
+    [
+      151,
+      "remembered trace path",
+      94
+    ],
+    [
+      152,
+      "remembered result path",
+      94
+    ],
+    [
+      153,
+      "remembered scope path",
+      94
+    ],
+    [
+      154,
+      "remembered boundary path",
+      94
+    ],
+    [
+      155,
+      "check remembered receipt",
+      94
+    ],
+    [
+      156,
+      "compare remembered receipt",
+      94
+    ],
+    [
+      157,
+      "observe remembered receipt",
+      94
+    ],
+    [
+      158,
+      "measure remembered receipt",
+      94
+    ],
+    [
+      159,
+      "test remembered receipt",
+      94
+    ],
+    [
+      160,
+      "verify remembered receipt",
+      94
+    ],
+    [
+      161,
+      "hold remembered receipt",
+      94
+    ],
+    [
+      162,
+      "preserve remembered receipt",
+      94
+    ],
+    [
+      163,
+      "under current proposed",
+      94
+    ],
+    [
+      164,
+      "under local proposed",
+      94
+    ],
+    [
+      165,
+      "under bounded proposed",
+      94
+    ],
+    [
+      166,
+      "under finite proposed",
+      94
+    ],
+    [
+      167,
+      "under open proposed",
+      94
+    ],
+    [
+      168,
+      "under live proposed",
+      94
+    ],
+    [
+      169,
+      "within current proposed",
+      94
+    ],
+    [
+      170,
+      "within local proposed",
+      94
+    ],
+    [
+      171,
+      "within bounded proposed",
+      94
+    ],
+    [
+      172,
+      "within finite proposed",
+      94
+    ],
+    [
+      173,
+      "within open proposed",
+      94
+    ],
+    [
+      174,
+      "within live proposed",
+      94
+    ],
+    [
+      175,
+      "across current proposed",
+      94
+    ],
+    [
+      176,
+      "across local proposed",
+      93
+    ],
+    [
+      177,
+      "across bounded proposed",
+      93
+    ],
+    [
+      178,
+      "across finite proposed",
+      93
+    ],
+    [
+      179,
+      "across open proposed",
+      93
+    ],
+    [
+      180,
+      "across live proposed",
+      93
+    ],
+    [
+      181,
+      "between current proposed",
+      93
+    ],
+    [
+      182,
+      "between local proposed",
+      93
+    ],
+    [
+      183,
+      "between bounded proposed",
+      93
+    ],
+    [
+      184,
+      "between finite proposed",
+      93
+    ],
+    [
+      185,
+      "between open proposed",
+      93
+    ],
+    [
+      186,
+      "between live proposed",
+      93
+    ],
+    [
+      187,
+      "through current proposed",
+      93
+    ],
+    [
+      188,
+      "through local proposed",
+      93
+    ],
+    [
+      189,
+      "through bounded proposed",
+      93
+    ],
+    [
+      190,
+      "through finite proposed",
+      93
+    ],
+    [
+      191,
+      "through open proposed",
+      93
+    ],
+    [
+      192,
+      "through live proposed",
+      93
+    ],
+    [
+      193,
+      "before current proposed",
+      93
+    ],
+    [
+      194,
+      "before local proposed",
+      93
+    ],
+    [
+      195,
+      "before bounded proposed",
+      93
+    ],
+    [
+      196,
+      "before finite proposed",
+      93
+    ],
+    [
+      197,
+      "before open proposed",
+      93
+    ],
+    [
+      198,
+      "before live proposed",
+      93
+    ],
+    [
+      199,
+      "proposed evidence path",
+      93
+    ],
+    [
+      200,
+      "proposed support path",
+      93
+    ],
+    [
+      201,
+      "proposed path path",
+      92
+    ],
+    [
+      202,
+      "proposed surface path",
+      92
+    ],
+    [
+      203,
+      "proposed packet path",
+      92
+    ],
+    [
+      204,
+      "proposed receipt path",
+      92
+    ],
+    [
+      205,
+      "proposed trace path",
+      92
+    ],
+    [
+      206,
+      "proposed result path",
+      92
+    ],
+    [
+      207,
+      "proposed scope path",
+      92
+    ],
+    [
+      208,
+      "proposed boundary path",
+      92
+    ],
+    [
+      209,
+      "check proposed receipt",
+      92
+    ],
+    [
+      210,
+      "compare proposed receipt",
+      92
+    ],
+    [
+      211,
+      "observe proposed receipt",
+      92
+    ],
+    [
+      212,
+      "measure proposed receipt",
+      92
+    ],
+    [
+      213,
+      "test proposed receipt",
+      92
+    ],
+    [
+      214,
+      "verify proposed receipt",
+      92
+    ],
+    [
+      215,
+      "hold proposed receipt",
+      92
+    ],
+    [
+      216,
+      "preserve proposed receipt",
+      92
+    ],
+    [
+      217,
+      "under current unknown",
+      92
+    ],
+    [
+      218,
+      "under local unknown",
+      92
+    ],
+    [
+      219,
+      "under bounded unknown",
+      92
+    ],
+    [
+      220,
+      "under finite unknown",
+      92
+    ],
+    [
+      221,
+      "under open unknown",
+      92
+    ],
+    [
+      222,
+      "under live unknown",
+      92
+    ],
+    [
+      223,
+      "within current unknown",
+      92
+    ],
+    [
+      224,
+      "within local unknown",
+      92
+    ],
+    [
+      225,
+      "within bounded unknown",
+      92
+    ],
+    [
+      226,
+      "within finite unknown",
+      91
+    ],
+    [
+      227,
+      "within open unknown",
+      91
+    ],
+    [
+      228,
+      "within live unknown",
+      91
+    ],
+    [
+      229,
+      "across current unknown",
+      91
+    ],
+    [
+      230,
+      "across local unknown",
+      91
+    ],
+    [
+      231,
+      "across bounded unknown",
+      91
+    ],
+    [
+      232,
+      "across finite unknown",
+      91
+    ],
+    [
+      233,
+      "across open unknown",
+      91
+    ],
+    [
+      234,
+      "across live unknown",
+      91
+    ],
+    [
+      235,
+      "between current unknown",
+      91
+    ],
+    [
+      236,
+      "between local unknown",
+      91
+    ],
+    [
+      237,
+      "between bounded unknown",
+      91
+    ],
+    [
+      238,
+      "between finite unknown",
+      91
+    ],
+    [
+      239,
+      "between open unknown",
+      91
+    ],
+    [
+      240,
+      "between live unknown",
+      91
+    ],
+    [
+      241,
+      "matters of fact",
+      91
+    ],
+    [
+      242,
+      "relations of ideas",
+      91
+    ],
+    [
+      244,
+      "testimony and experience",
+      91
+    ],
+    [
+      245,
+      "memory and sense",
+      91
+    ],
+    [
+      246,
+      "degree of evidence",
+      91
+    ],
+    [
+      247,
+      "next honest move",
+      91
+    ],
+    [
+      248,
+      "what follows now",
+      91
+    ],
+    [
+      249,
+      "what remains open",
+      91
+    ],
+    [
+      270,
+      "under matter fact",
+      90
+    ],
+    [
+      271,
+      "under matter belief",
+      90
+    ],
+    [
+      272,
+      "under matter probable",
+      90
+    ],
+    [
+      273,
+      "under matter testimony",
+      90
+    ],
+    [
+      274,
+      "under fact belief",
+      90
+    ],
+    [
+      275,
+      "under fact probable",
+      90
+    ],
+    [
+      276,
+      "under fact testimony",
+      89
+    ],
+    [
+      277,
+      "under fact memory",
+      89
+    ],
+    [
+      278,
+      "under belief probable",
+      89
+    ],
+    [
+      279,
+      "under belief testimony",
+      89
+    ],
+    [
+      280,
+      "under belief memory",
+      89
+    ],
+    [
+      281,
+      "under belief sense",
+      89
+    ],
+    [
+      282,
+      "under probable testimony",
+      89
+    ],
+    [
+      283,
+      "under probable memory",
+      89
+    ],
+    [
+      284,
+      "under probable sense",
+      89
+    ],
+    [
+      285,
+      "under probable sensible",
+      89
+    ],
+    [
+      286,
+      "under testimony memory",
+      89
+    ],
+    [
+      287,
+      "under testimony sense",
+      89
+    ],
+    [
+      288,
+      "under testimony sensible",
+      89
+    ],
+    [
+      289,
+      "under testimony ordinary",
+      89
+    ],
+    [
+      290,
+      "under memory sense",
+      89
+    ],
+    [
+      291,
+      "under memory sensible",
+      89
+    ],
+    [
+      292,
+      "under memory ordinary",
+      89
+    ],
+    [
+      293,
+      "under memory plain",
+      89
+    ],
+    [
+      294,
+      "under sense sensible",
+      89
+    ],
+    [
+      295,
+      "under sense ordinary",
+      89
+    ],
+    [
+      296,
+      "under sense plain",
+      89
+    ],
+    [
+      297,
+      "under sense warm",
+      89
+    ],
+    [
+      298,
+      "under sensible ordinary",
+      89
+    ],
+    [
+      299,
+      "under sensible plain",
+      89
+    ],
+    [
+      300,
+      "under sensible warm",
+      89
+    ],
+    [
+      301,
+      "under sensible careful",
+      88
+    ],
+    [
+      302,
+      "under ordinary plain",
+      88
+    ],
+    [
+      303,
+      "under ordinary warm",
+      88
+    ],
+    [
+      304,
+      "under ordinary careful",
+      88
+    ],
+    [
+      305,
+      "under ordinary human",
+      88
+    ],
+    [
+      306,
+      "under plain warm",
+      88
+    ],
+    [
+      307,
+      "under plain careful",
+      88
+    ],
+    [
+      308,
+      "under plain human",
+      88
+    ],
+    [
+      309,
+      "under plain enough",
+      88
+    ],
+    [
+      310,
+      "under warm careful",
+      88
+    ],
+    [
+      311,
+      "under warm human",
+      88
+    ],
+    [
+      312,
+      "under warm enough",
+      88
+    ],
+    [
+      313,
+      "under warm modest",
+      88
+    ],
+    [
+      314,
+      "under careful human",
+      88
+    ],
+    [
+      315,
+      "under careful enough",
+      88
+    ],
+    [
+      316,
+      "under careful modest",
+      88
+    ],
+    [
+      317,
+      "under careful sober",
+      88
+    ],
+    [
+      318,
+      "under human enough",
+      88
+    ],
+    [
+      319,
+      "under human modest",
+      88
+    ],
+    [
+      320,
+      "under human sober",
+      88
+    ],
+    [
+      321,
+      "under human gentle",
+      88
+    ],
+    [
+      322,
+      "under enough modest",
+      88
+    ],
+    [
+      323,
+      "under enough sober",
+      88
+    ],
+    [
+      324,
+      "under enough gentle",
+      88
+    ],
+    [
+      325,
+      "under enough reasonable",
+      88
+    ],
+    [
+      326,
+      "under modest sober",
+      87
+    ],
+    [
+      327,
+      "under modest gentle",
+      87
+    ],
+    [
+      328,
+      "under modest reasonable",
+      87
+    ],
+    [
+      329,
+      "under modest humane",
+      87
+    ],
+    [
+      350,
+      "within matter fact",
+      87
+    ],
+    [
+      351,
+      "within matter belief",
+      86
+    ],
+    [
+      352,
+      "within matter probable",
+      86
+    ],
+    [
+      353,
+      "within matter testimony",
+      86
+    ],
+    [
+      354,
+      "within fact belief",
+      86
+    ],
+    [
+      355,
+      "within fact probable",
+      86
+    ],
+    [
+      356,
+      "within fact testimony",
+      86
+    ],
+    [
+      357,
+      "within fact memory",
+      86
+    ],
+    [
+      358,
+      "within belief probable",
+      86
+    ],
+    [
+      359,
+      "within belief testimony",
+      86
+    ],
+    [
+      360,
+      "within belief memory",
+      86
+    ],
+    [
+      361,
+      "within belief sense",
+      86
+    ],
+    [
+      362,
+      "within probable testimony",
+      86
+    ],
+    [
+      363,
+      "within probable memory",
+      86
+    ],
+    [
+      364,
+      "within probable sense",
+      86
+    ],
+    [
+      365,
+      "within probable sensible",
+      86
+    ],
+    [
+      366,
+      "within testimony memory",
+      86
+    ],
+    [
+      367,
+      "within testimony sense",
+      86
+    ],
+    [
+      368,
+      "within testimony sensible",
+      86
+    ],
+    [
+      369,
+      "within testimony ordinary",
+      86
+    ],
+    [
+      370,
+      "within memory sense",
+      86
+    ],
+    [
+      371,
+      "within memory sensible",
+      86
+    ],
+    [
+      372,
+      "within memory ordinary",
+      86
+    ],
+    [
+      373,
+      "within memory plain",
+      86
+    ],
+    [
+      374,
+      "within sense sensible",
+      86
+    ],
+    [
+      375,
+      "within sense ordinary",
+      86
+    ],
+    [
+      376,
+      "within sense plain",
+      85
+    ],
+    [
+      377,
+      "within sense warm",
+      85
+    ],
+    [
+      378,
+      "within sensible ordinary",
+      85
+    ],
+    [
+      379,
+      "within sensible plain",
+      85
+    ],
+    [
+      380,
+      "within sensible warm",
+      85
+    ],
+    [
+      381,
+      "within sensible careful",
+      85
+    ],
+    [
+      382,
+      "within ordinary plain",
+      85
+    ],
+    [
+      383,
+      "within ordinary warm",
+      85
+    ],
+    [
+      384,
+      "within ordinary careful",
+      85
+    ],
+    [
+      385,
+      "within ordinary human",
+      85
+    ],
+    [
+      386,
+      "within plain warm",
+      85
+    ],
+    [
+      387,
+      "within plain careful",
+      85
+    ],
+    [
+      388,
+      "within plain human",
+      85
+    ],
+    [
+      389,
+      "within plain enough",
+      85
+    ],
+    [
+      390,
+      "within warm careful",
+      85
+    ],
+    [
+      391,
+      "within warm human",
+      85
+    ],
+    [
+      392,
+      "within warm enough",
+      85
+    ],
+    [
+      393,
+      "within warm modest",
+      85
+    ],
+    [
+      394,
+      "within careful human",
+      85
+    ],
+    [
+      395,
+      "within careful enough",
+      85
+    ],
+    [
+      396,
+      "within careful modest",
+      85
+    ],
+    [
+      397,
+      "within careful sober",
+      85
+    ],
+    [
+      398,
+      "within human enough",
+      85
+    ],
+    [
+      399,
+      "within human modest",
+      85
+    ],
+    [
+      400,
+      "within human sober",
+      85
+    ],
+    [
+      401,
+      "within human gentle",
+      84
+    ],
+    [
+      402,
+      "within enough modest",
+      84
+    ],
+    [
+      403,
+      "within enough sober",
+      84
+    ],
+    [
+      404,
+      "within enough gentle",
+      84
+    ],
+    [
+      405,
+      "within enough reasonable",
+      84
+    ],
+    [
+      406,
+      "within modest sober",
+      84
+    ],
+    [
+      407,
+      "within modest gentle",
+      84
+    ],
+    [
+      408,
+      "within modest reasonable",
+      84
+    ],
+    [
+      409,
+      "within modest humane",
+      84
+    ],
+    [
+      430,
+      "across matter fact",
+      83
+    ],
+    [
+      431,
+      "across matter belief",
+      83
+    ],
+    [
+      432,
+      "across matter probable",
+      83
+    ],
+    [
+      433,
+      "across matter testimony",
+      83
+    ],
+    [
+      434,
+      "across fact belief",
+      83
+    ],
+    [
+      435,
+      "across fact probable",
+      83
+    ],
+    [
+      436,
+      "across fact testimony",
+      83
+    ],
+    [
+      437,
+      "across fact memory",
+      83
+    ],
+    [
+      438,
+      "across belief probable",
+      83
+    ],
+    [
+      439,
+      "across belief testimony",
+      83
+    ],
+    [
+      440,
+      "across belief memory",
+      83
+    ],
+    [
+      441,
+      "across belief sense",
+      83
+    ],
+    [
+      442,
+      "across probable testimony",
+      83
+    ],
+    [
+      443,
+      "across probable memory",
+      83
+    ],
+    [
+      444,
+      "across probable sense",
+      83
+    ],
+    [
+      445,
+      "across probable sensible",
+      83
+    ],
+    [
+      446,
+      "across testimony memory",
+      83
+    ],
+    [
+      447,
+      "across testimony sense",
+      83
+    ],
+    [
+      448,
+      "across testimony sensible",
+      83
+    ],
+    [
+      449,
+      "across testimony ordinary",
+      83
+    ],
+    [
+      450,
+      "across memory sense",
+      83
+    ],
+    [
+      451,
+      "across memory sensible",
+      82
+    ],
+    [
+      452,
+      "across memory ordinary",
+      82
+    ],
+    [
+      453,
+      "across memory plain",
+      82
+    ],
+    [
+      454,
+      "across sense sensible",
+      82
+    ],
+    [
+      455,
+      "across sense ordinary",
+      82
+    ],
+    [
+      456,
+      "across sense plain",
+      82
+    ],
+    [
+      457,
+      "across sense warm",
+      82
+    ],
+    [
+      458,
+      "across sensible ordinary",
+      82
+    ],
+    [
+      459,
+      "across sensible plain",
+      82
+    ],
+    [
+      460,
+      "across sensible warm",
+      82
+    ],
+    [
+      461,
+      "across sensible careful",
+      82
+    ],
+    [
+      462,
+      "across ordinary plain",
+      82
+    ],
+    [
+      463,
+      "across ordinary warm",
+      82
+    ],
+    [
+      464,
+      "across ordinary careful",
+      82
+    ],
+    [
+      465,
+      "across ordinary human",
+      82
+    ],
+    [
+      466,
+      "across plain warm",
+      82
+    ],
+    [
+      467,
+      "across plain careful",
+      82
+    ],
+    [
+      468,
+      "across plain human",
+      82
+    ],
+    [
+      469,
+      "across plain enough",
+      82
+    ],
+    [
+      470,
+      "across warm careful",
+      82
+    ],
+    [
+      471,
+      "across warm human",
+      82
+    ],
+    [
+      472,
+      "across warm enough",
+      82
+    ],
+    [
+      473,
+      "across warm modest",
+      82
+    ],
+    [
+      474,
+      "across careful human",
+      82
+    ],
+    [
+      475,
+      "across careful enough",
+      82
+    ],
+    [
+      476,
+      "across careful modest",
+      81
+    ],
+    [
+      477,
+      "across careful sober",
+      81
+    ],
+    [
+      478,
+      "across human enough",
+      81
+    ],
+    [
+      479,
+      "across human modest",
+      81
+    ],
+    [
+      480,
+      "across human sober",
+      81
+    ],
+    [
+      481,
+      "across human gentle",
+      81
+    ],
+    [
+      482,
+      "across enough modest",
+      81
+    ],
+    [
+      483,
+      "across enough sober",
+      81
+    ],
+    [
+      484,
+      "across enough gentle",
+      81
+    ],
+    [
+      485,
+      "across enough reasonable",
+      81
+    ],
+    [
+      486,
+      "across modest sober",
+      81
+    ],
+    [
+      487,
+      "across modest gentle",
+      81
+    ],
+    [
+      488,
+      "across modest reasonable",
+      81
+    ],
+    [
+      489,
+      "across modest humane",
+      81
+    ],
+    [
+      510,
+      "between matter fact",
+      80
+    ],
+    [
+      511,
+      "between matter belief",
+      80
+    ],
+    [
+      512,
+      "between matter probable",
+      80
+    ],
+    [
+      513,
+      "between matter testimony",
+      80
+    ],
+    [
+      514,
+      "between fact belief",
+      80
+    ],
+    [
+      515,
+      "between fact probable",
+      80
+    ],
+    [
+      516,
+      "between fact testimony",
+      80
+    ],
+    [
+      517,
+      "between fact memory",
+      80
+    ],
+    [
+      518,
+      "between belief probable",
+      80
+    ],
+    [
+      519,
+      "between belief testimony",
+      80
+    ],
+    [
+      520,
+      "between belief memory",
+      80
+    ],
+    [
+      521,
+      "between belief sense",
+      80
+    ],
+    [
+      522,
+      "between probable testimony",
+      80
+    ],
+    [
+      523,
+      "between probable memory",
+      80
+    ],
+    [
+      524,
+      "between probable sense",
+      80
+    ],
+    [
+      525,
+      "between probable sensible",
+      80
+    ],
+    [
+      526,
+      "between testimony memory",
+      79
+    ],
+    [
+      527,
+      "between testimony sense",
+      79
+    ],
+    [
+      528,
+      "between testimony sensible",
+      79
+    ],
+    [
+      529,
+      "between testimony ordinary",
+      79
+    ],
+    [
+      530,
+      "between memory sense",
+      79
+    ],
+    [
+      531,
+      "between memory sensible",
+      79
+    ],
+    [
+      532,
+      "between memory ordinary",
+      79
+    ],
+    [
+      533,
+      "between memory plain",
+      79
+    ],
+    [
+      534,
+      "between sense sensible",
+      79
+    ],
+    [
+      535,
+      "between sense ordinary",
+      79
+    ],
+    [
+      536,
+      "between sense plain",
+      79
+    ],
+    [
+      537,
+      "between sense warm",
+      79
+    ],
+    [
+      538,
+      "between sensible ordinary",
+      79
+    ],
+    [
+      539,
+      "between sensible plain",
+      79
+    ],
+    [
+      540,
+      "between sensible warm",
+      79
+    ],
+    [
+      541,
+      "between sensible careful",
+      79
+    ],
+    [
+      542,
+      "between ordinary plain",
+      79
+    ],
+    [
+      543,
+      "between ordinary warm",
+      79
+    ],
+    [
+      544,
+      "between ordinary careful",
+      79
+    ],
+    [
+      545,
+      "between ordinary human",
+      79
+    ],
+    [
+      546,
+      "between plain warm",
+      79
+    ],
+    [
+      547,
+      "between plain careful",
+      79
+    ],
+    [
+      548,
+      "between plain human",
+      79
+    ],
+    [
+      549,
+      "between plain enough",
+      79
+    ],
+    [
+      550,
+      "between warm careful",
+      79
+    ],
+    [
+      551,
+      "between warm human",
+      78
+    ],
+    [
+      552,
+      "between warm enough",
+      78
+    ],
+    [
+      553,
+      "between warm modest",
+      78
+    ],
+    [
+      554,
+      "between careful human",
+      78
+    ],
+    [
+      555,
+      "between careful enough",
+      78
+    ],
+    [
+      556,
+      "between careful modest",
+      78
+    ],
+    [
+      557,
+      "between careful sober",
+      78
+    ],
+    [
+      558,
+      "between human enough",
+      78
+    ],
+    [
+      559,
+      "between human modest",
+      78
+    ],
+    [
+      560,
+      "between human sober",
+      78
+    ],
+    [
+      561,
+      "between human gentle",
+      78
+    ],
+    [
+      562,
+      "between enough modest",
+      78
+    ],
+    [
+      563,
+      "between enough sober",
+      78
+    ],
+    [
+      564,
+      "between enough gentle",
+      78
+    ],
+    [
+      565,
+      "between enough reasonable",
+      78
+    ],
+    [
+      566,
+      "between modest sober",
+      78
+    ],
+    [
+      567,
+      "between modest gentle",
+      78
+    ],
+    [
+      568,
+      "between modest reasonable",
+      78
+    ],
+    [
+      569,
+      "between modest humane",
+      78
+    ],
+    [
+      590,
+      "through matter fact",
+      77
+    ],
+    [
+      591,
+      "through matter belief",
+      77
+    ],
+    [
+      592,
+      "through matter probable",
+      77
+    ],
+    [
+      593,
+      "through matter testimony",
+      77
+    ],
+    [
+      594,
+      "through fact belief",
+      77
+    ],
+    [
+      595,
+      "through fact probable",
+      77
+    ],
+    [
+      596,
+      "through fact testimony",
+      77
+    ],
+    [
+      597,
+      "through fact memory",
+      77
+    ],
+    [
+      598,
+      "through belief probable",
+      77
+    ],
+    [
+      599,
+      "through belief testimony",
+      77
+    ],
+    [
+      600,
+      "through belief memory",
+      77
+    ],
+    [
+      601,
+      "through belief sense",
+      76
+    ],
+    [
+      602,
+      "through probable testimony",
+      76
+    ],
+    [
+      603,
+      "through probable memory",
+      76
+    ],
+    [
+      604,
+      "through probable sense",
+      76
+    ],
+    [
+      605,
+      "through probable sensible",
+      76
+    ],
+    [
+      606,
+      "through testimony memory",
+      76
+    ],
+    [
+      607,
+      "through testimony sense",
+      76
+    ],
+    [
+      608,
+      "through testimony sensible",
+      76
+    ],
+    [
+      609,
+      "through testimony ordinary",
+      76
+    ],
+    [
+      610,
+      "through memory sense",
+      76
+    ],
+    [
+      611,
+      "through memory sensible",
+      76
+    ],
+    [
+      612,
+      "through memory ordinary",
+      76
+    ],
+    [
+      613,
+      "through memory plain",
+      76
+    ],
+    [
+      614,
+      "through sense sensible",
+      76
+    ],
+    [
+      615,
+      "through sense ordinary",
+      76
+    ],
+    [
+      616,
+      "through sense plain",
+      76
+    ],
+    [
+      617,
+      "through sense warm",
+      76
+    ],
+    [
+      618,
+      "through sensible ordinary",
+      76
+    ],
+    [
+      619,
+      "through sensible plain",
+      76
+    ],
+    [
+      620,
+      "through sensible warm",
+      76
+    ],
+    [
+      621,
+      "through sensible careful",
+      76
+    ],
+    [
+      622,
+      "through ordinary plain",
+      76
+    ],
+    [
+      623,
+      "through ordinary warm",
+      76
+    ],
+    [
+      624,
+      "through ordinary careful",
+      76
+    ],
+    [
+      625,
+      "through ordinary human",
+      76
+    ],
+    [
+      626,
+      "through plain warm",
+      75
+    ],
+    [
+      627,
+      "through plain careful",
+      75
+    ],
+    [
+      628,
+      "through plain human",
+      75
+    ],
+    [
+      629,
+      "through plain enough",
+      75
+    ],
+    [
+      630,
+      "through warm careful",
+      75
+    ],
+    [
+      631,
+      "through warm human",
+      75
+    ],
+    [
+      632,
+      "through warm enough",
+      75
+    ],
+    [
+      633,
+      "through warm modest",
+      75
+    ],
+    [
+      634,
+      "through careful human",
+      75
+    ],
+    [
+      635,
+      "through careful enough",
+      75
+    ],
+    [
+      636,
+      "through careful modest",
+      75
+    ],
+    [
+      637,
+      "through careful sober",
+      75
+    ],
+    [
+      638,
+      "through human enough",
+      75
+    ],
+    [
+      639,
+      "through human modest",
+      75
+    ],
+    [
+      640,
+      "through human sober",
+      75
+    ],
+    [
+      641,
+      "through human gentle",
+      75
+    ],
+    [
+      642,
+      "through enough modest",
+      75
+    ],
+    [
+      643,
+      "through enough sober",
+      75
+    ],
+    [
+      644,
+      "through enough gentle",
+      75
+    ],
+    [
+      645,
+      "through enough reasonable",
+      75
+    ],
+    [
+      646,
+      "through modest sober",
+      75
+    ],
+    [
+      647,
+      "through modest gentle",
+      75
+    ],
+    [
+      648,
+      "through modest reasonable",
+      75
+    ],
+    [
+      649,
+      "through modest humane",
+      75
+    ],
+    [
+      670,
+      "before matter fact",
+      74
+    ],
+    [
+      671,
+      "before matter belief",
+      74
+    ],
+    [
+      672,
+      "before matter probable",
+      74
+    ],
+    [
+      673,
+      "before matter testimony",
+      74
+    ],
+    [
+      674,
+      "before fact belief",
+      74
+    ],
+    [
+      675,
+      "before fact probable",
+      74
+    ],
+    [
+      676,
+      "before fact testimony",
+      73
+    ],
+    [
+      677,
+      "before fact memory",
+      73
+    ],
+    [
+      678,
+      "before belief probable",
+      73
+    ],
+    [
+      679,
+      "before belief testimony",
+      73
+    ],
+    [
+      680,
+      "before belief memory",
+      73
+    ],
+    [
+      681,
+      "before belief sense",
+      73
+    ],
+    [
+      682,
+      "before probable testimony",
+      73
+    ],
+    [
+      683,
+      "before probable memory",
+      73
+    ],
+    [
+      684,
+      "before probable sense",
+      73
+    ],
+    [
+      685,
+      "before probable sensible",
+      73
+    ],
+    [
+      686,
+      "before testimony memory",
+      73
+    ],
+    [
+      687,
+      "before testimony sense",
+      73
+    ],
+    [
+      688,
+      "before testimony sensible",
+      73
+    ],
+    [
+      689,
+      "before testimony ordinary",
+      73
+    ],
+    [
+      690,
+      "before memory sense",
+      73
+    ],
+    [
+      691,
+      "before memory sensible",
+      73
+    ],
+    [
+      692,
+      "before memory ordinary",
+      73
+    ],
+    [
+      693,
+      "before memory plain",
+      73
+    ],
+    [
+      694,
+      "before sense sensible",
+      73
+    ],
+    [
+      695,
+      "before sense ordinary",
+      73
+    ],
+    [
+      696,
+      "before sense plain",
+      73
+    ],
+    [
+      697,
+      "before sense warm",
+      73
+    ],
+    [
+      698,
+      "before sensible ordinary",
+      73
+    ],
+    [
+      699,
+      "before sensible plain",
+      73
+    ],
+    [
+      700,
+      "before sensible warm",
+      73
+    ],
+    [
+      701,
+      "before sensible careful",
+      72
+    ],
+    [
+      702,
+      "before ordinary plain",
+      72
+    ],
+    [
+      703,
+      "before ordinary warm",
+      72
+    ],
+    [
+      704,
+      "before ordinary careful",
+      72
+    ],
+    [
+      705,
+      "before ordinary human",
+      72
+    ],
+    [
+      706,
+      "before plain warm",
+      72
+    ],
+    [
+      707,
+      "before plain careful",
+      72
+    ],
+    [
+      708,
+      "before plain human",
+      72
+    ],
+    [
+      709,
+      "before plain enough",
+      72
+    ],
+    [
+      710,
+      "before warm careful",
+      72
+    ],
+    [
+      711,
+      "before warm human",
+      72
+    ],
+    [
+      712,
+      "before warm enough",
+      72
+    ],
+    [
+      713,
+      "before warm modest",
+      72
+    ],
+    [
+      714,
+      "before careful human",
+      72
+    ],
+    [
+      715,
+      "before careful enough",
+      72
+    ],
+    [
+      716,
+      "before careful modest",
+      72
+    ],
+    [
+      717,
+      "before careful sober",
+      72
+    ],
+    [
+      718,
+      "before human enough",
+      72
+    ],
+    [
+      719,
+      "before human modest",
+      72
+    ],
+    [
+      720,
+      "before human sober",
+      72
+    ],
+    [
+      721,
+      "before human gentle",
+      72
+    ],
+    [
+      722,
+      "before enough modest",
+      72
+    ],
+    [
+      723,
+      "before enough sober",
+      72
+    ],
+    [
+      724,
+      "before enough gentle",
+      72
+    ],
+    [
+      725,
+      "before enough reasonable",
+      72
+    ],
+    [
+      726,
+      "before modest sober",
+      71
+    ],
+    [
+      727,
+      "before modest gentle",
+      71
+    ],
+    [
+      728,
+      "before modest reasonable",
+      71
+    ],
+    [
+      729,
+      "before modest humane",
+      71
+    ],
+    [
+      750,
+      "after matter fact",
+      71
+    ],
+    [
+      751,
+      "after matter belief",
+      70
+    ],
+    [
+      752,
+      "after matter probable",
+      70
+    ],
+    [
+      753,
+      "after matter testimony",
+      70
+    ],
+    [
+      754,
+      "after fact belief",
+      70
+    ],
+    [
+      755,
+      "after fact probable",
+      70
+    ],
+    [
+      756,
+      "after fact testimony",
+      70
+    ],
+    [
+      757,
+      "after fact memory",
+      70
+    ],
+    [
+      758,
+      "after belief probable",
+      70
+    ],
+    [
+      759,
+      "after belief testimony",
+      70
+    ],
+    [
+      760,
+      "after belief memory",
+      70
+    ],
+    [
+      761,
+      "after belief sense",
+      70
+    ],
+    [
+      762,
+      "after probable testimony",
+      70
+    ],
+    [
+      763,
+      "after probable memory",
+      70
+    ],
+    [
+      764,
+      "after probable sense",
+      70
+    ],
+    [
+      765,
+      "after probable sensible",
+      70
+    ],
+    [
+      766,
+      "after testimony memory",
+      70
+    ],
+    [
+      767,
+      "after testimony sense",
+      70
+    ],
+    [
+      768,
+      "after testimony sensible",
+      70
+    ],
+    [
+      769,
+      "after testimony ordinary",
+      70
+    ],
+    [
+      770,
+      "after memory sense",
+      70
+    ],
+    [
+      771,
+      "after memory sensible",
+      70
+    ],
+    [
+      772,
+      "after memory ordinary",
+      70
+    ],
+    [
+      773,
+      "after memory plain",
+      70
+    ],
+    [
+      774,
+      "after sense sensible",
+      70
+    ],
+    [
+      775,
+      "after sense ordinary",
+      70
+    ],
+    [
+      776,
+      "after sense plain",
+      69
+    ],
+    [
+      777,
+      "after sense warm",
+      69
+    ],
+    [
+      778,
+      "after sensible ordinary",
+      69
+    ],
+    [
+      779,
+      "after sensible plain",
+      69
+    ],
+    [
+      780,
+      "after sensible warm",
+      69
+    ],
+    [
+      781,
+      "after sensible careful",
+      69
+    ],
+    [
+      782,
+      "after ordinary plain",
+      69
+    ],
+    [
+      783,
+      "after ordinary warm",
+      69
+    ],
+    [
+      784,
+      "after ordinary careful",
+      69
+    ],
+    [
+      785,
+      "after ordinary human",
+      69
+    ],
+    [
+      786,
+      "after plain warm",
+      69
+    ],
+    [
+      787,
+      "after plain careful",
+      69
+    ],
+    [
+      788,
+      "after plain human",
+      69
+    ],
+    [
+      789,
+      "after plain enough",
+      69
+    ],
+    [
+      790,
+      "after warm careful",
+      69
+    ],
+    [
+      791,
+      "after warm human",
+      69
+    ],
+    [
+      792,
+      "after warm enough",
+      69
+    ],
+    [
+      793,
+      "after warm modest",
+      69
+    ],
+    [
+      794,
+      "after careful human",
+      69
+    ],
+    [
+      795,
+      "after careful enough",
+      69
+    ],
+    [
+      796,
+      "after careful modest",
+      69
+    ],
+    [
+      797,
+      "after careful sober",
+      69
+    ],
+    [
+      798,
+      "after human enough",
+      69
+    ],
+    [
+      799,
+      "after human modest",
+      69
+    ],
+    [
+      800,
+      "after human sober",
+      69
+    ],
+    [
+      801,
+      "after human gentle",
+      68
+    ],
+    [
+      802,
+      "after enough modest",
+      68
+    ],
+    [
+      803,
+      "after enough sober",
+      68
+    ],
+    [
+      804,
+      "after enough gentle",
+      68
+    ],
+    [
+      805,
+      "after enough reasonable",
+      68
+    ],
+    [
+      806,
+      "after modest sober",
+      68
+    ],
+    [
+      807,
+      "after modest gentle",
+      68
+    ],
+    [
+      808,
+      "after modest reasonable",
+      68
+    ],
+    [
+      809,
+      "after modest humane",
+      68
+    ],
+    [
+      830,
+      "during matter fact",
+      67
+    ],
+    [
+      831,
+      "during matter belief",
+      67
+    ],
+    [
+      832,
+      "during matter probable",
+      67
+    ],
+    [
+      833,
+      "during matter testimony",
+      67
+    ],
+    [
+      834,
+      "during fact belief",
+      67
+    ],
+    [
+      835,
+      "during fact probable",
+      67
+    ],
+    [
+      836,
+      "during fact testimony",
+      67
+    ],
+    [
+      837,
+      "during fact memory",
+      67
+    ],
+    [
+      838,
+      "during belief probable",
+      67
+    ],
+    [
+      839,
+      "during belief testimony",
+      67
+    ],
+    [
+      840,
+      "during belief memory",
+      67
+    ],
+    [
+      841,
+      "during belief sense",
+      67
+    ],
+    [
+      842,
+      "during probable testimony",
+      67
+    ],
+    [
+      843,
+      "during probable memory",
+      67
+    ],
+    [
+      844,
+      "during probable sense",
+      67
+    ],
+    [
+      845,
+      "during probable sensible",
+      67
+    ],
+    [
+      846,
+      "during testimony memory",
+      67
+    ],
+    [
+      847,
+      "during testimony sense",
+      67
+    ],
+    [
+      848,
+      "during testimony sensible",
+      67
+    ],
+    [
+      849,
+      "during testimony ordinary",
+      67
+    ],
+    [
+      850,
+      "during memory sense",
+      67
+    ],
+    [
+      851,
+      "during memory sensible",
+      66
+    ],
+    [
+      852,
+      "during memory ordinary",
+      66
+    ],
+    [
+      853,
+      "during memory plain",
+      66
+    ],
+    [
+      854,
+      "during sense sensible",
+      66
+    ],
+    [
+      855,
+      "during sense ordinary",
+      66
+    ],
+    [
+      856,
+      "during sense plain",
+      66
+    ],
+    [
+      857,
+      "during sense warm",
+      66
+    ],
+    [
+      858,
+      "during sensible ordinary",
+      66
+    ],
+    [
+      859,
+      "during sensible plain",
+      66
+    ],
+    [
+      860,
+      "during sensible warm",
+      66
+    ],
+    [
+      861,
+      "during sensible careful",
+      66
+    ],
+    [
+      862,
+      "during ordinary plain",
+      66
+    ],
+    [
+      863,
+      "during ordinary warm",
+      66
+    ],
+    [
+      864,
+      "during ordinary careful",
+      66
+    ],
+    [
+      865,
+      "during ordinary human",
+      66
+    ],
+    [
+      866,
+      "during plain warm",
+      66
+    ],
+    [
+      867,
+      "during plain careful",
+      66
+    ],
+    [
+      868,
+      "during plain human",
+      66
+    ],
+    [
+      869,
+      "during plain enough",
+      66
+    ],
+    [
+      870,
+      "during warm careful",
+      66
+    ],
+    [
+      871,
+      "during warm human",
+      66
+    ],
+    [
+      872,
+      "during warm enough",
+      66
+    ],
+    [
+      873,
+      "during warm modest",
+      66
+    ],
+    [
+      874,
+      "during careful human",
+      66
+    ],
+    [
+      875,
+      "during careful enough",
+      66
+    ],
+    [
+      876,
+      "during careful modest",
+      65
+    ],
+    [
+      877,
+      "during careful sober",
+      65
+    ],
+    [
+      878,
+      "during human enough",
+      65
+    ],
+    [
+      879,
+      "during human modest",
+      65
+    ],
+    [
+      880,
+      "during human sober",
+      65
+    ],
+    [
+      881,
+      "during human gentle",
+      65
+    ],
+    [
+      882,
+      "during enough modest",
+      65
+    ],
+    [
+      883,
+      "during enough sober",
+      65
+    ],
+    [
+      884,
+      "during enough gentle",
+      65
+    ],
+    [
+      885,
+      "during enough reasonable",
+      65
+    ],
+    [
+      886,
+      "during modest sober",
+      65
+    ],
+    [
+      887,
+      "during modest gentle",
+      65
+    ],
+    [
+      888,
+      "during modest reasonable",
+      65
+    ],
+    [
+      889,
+      "during modest humane",
+      65
+    ],
+    [
+      910,
+      "until matter fact",
+      64
+    ],
+    [
+      911,
+      "until matter belief",
+      64
+    ],
+    [
+      912,
+      "until matter probable",
+      64
+    ],
+    [
+      913,
+      "until matter testimony",
+      64
+    ],
+    [
+      914,
+      "until fact belief",
+      64
+    ],
+    [
+      915,
+      "until fact probable",
+      64
+    ],
+    [
+      916,
+      "until fact testimony",
+      64
+    ],
+    [
+      917,
+      "until fact memory",
+      64
+    ],
+    [
+      918,
+      "until belief probable",
+      64
+    ],
+    [
+      919,
+      "until belief testimony",
+      64
+    ],
+    [
+      920,
+      "until belief memory",
+      64
+    ],
+    [
+      921,
+      "until belief sense",
+      64
+    ],
+    [
+      922,
+      "until probable testimony",
+      64
+    ],
+    [
+      923,
+      "until probable memory",
+      64
+    ],
+    [
+      924,
+      "until probable sense",
+      64
+    ],
+    [
+      925,
+      "until probable sensible",
+      64
+    ],
+    [
+      926,
+      "until testimony memory",
+      63
+    ],
+    [
+      927,
+      "until testimony sense",
+      63
+    ],
+    [
+      928,
+      "until testimony sensible",
+      63
+    ],
+    [
+      929,
+      "until testimony ordinary",
+      63
+    ],
+    [
+      930,
+      "until memory sense",
+      63
+    ],
+    [
+      931,
+      "until memory sensible",
+      63
+    ],
+    [
+      932,
+      "until memory ordinary",
+      63
+    ],
+    [
+      933,
+      "until memory plain",
+      63
+    ],
+    [
+      934,
+      "until sense sensible",
+      63
+    ],
+    [
+      935,
+      "until sense ordinary",
+      63
+    ],
+    [
+      936,
+      "until sense plain",
+      63
+    ],
+    [
+      937,
+      "until sense warm",
+      63
+    ],
+    [
+      938,
+      "until sensible ordinary",
+      63
+    ],
+    [
+      939,
+      "until sensible plain",
+      63
+    ],
+    [
+      940,
+      "until sensible warm",
+      63
+    ],
+    [
+      941,
+      "until sensible careful",
+      63
+    ],
+    [
+      942,
+      "until ordinary plain",
+      63
+    ],
+    [
+      943,
+      "until ordinary warm",
+      63
+    ],
+    [
+      944,
+      "until ordinary careful",
+      63
+    ],
+    [
+      945,
+      "until ordinary human",
+      63
+    ],
+    [
+      946,
+      "until plain warm",
+      63
+    ],
+    [
+      947,
+      "until plain careful",
+      63
+    ],
+    [
+      948,
+      "until plain human",
+      63
+    ],
+    [
+      949,
+      "until plain enough",
+      63
+    ],
+    [
+      950,
+      "until warm careful",
+      63
+    ],
+    [
+      951,
+      "until warm human",
+      62
+    ],
+    [
+      952,
+      "until warm enough",
+      62
+    ],
+    [
+      953,
+      "until warm modest",
+      62
+    ],
+    [
+      954,
+      "until careful human",
+      62
+    ],
+    [
+      955,
+      "until careful enough",
+      62
+    ],
+    [
+      956,
+      "until careful modest",
+      62
+    ],
+    [
+      957,
+      "until careful sober",
+      62
+    ],
+    [
+      958,
+      "until human enough",
+      62
+    ],
+    [
+      959,
+      "until human modest",
+      62
+    ],
+    [
+      960,
+      "until human sober",
+      62
+    ],
+    [
+      961,
+      "until human gentle",
+      62
+    ],
+    [
+      962,
+      "until enough modest",
+      62
+    ],
+    [
+      963,
+      "until enough sober",
+      62
+    ],
+    [
+      964,
+      "until enough gentle",
+      62
+    ],
+    [
+      965,
+      "until enough reasonable",
+      62
+    ],
+    [
+      966,
+      "until modest sober",
+      62
+    ],
+    [
+      967,
+      "until modest gentle",
+      62
+    ],
+    [
+      968,
+      "until modest reasonable",
+      62
+    ],
+    [
+      969,
+      "until modest humane",
+      62
+    ],
+    [
+      990,
+      "since matter fact",
+      61
+    ],
+    [
+      991,
+      "since matter belief",
+      61
+    ],
+    [
+      992,
+      "since matter probable",
+      61
+    ],
+    [
+      993,
+      "since matter testimony",
+      61
+    ],
+    [
+      994,
+      "since fact belief",
+      61
+    ],
+    [
+      995,
+      "since fact probable",
+      61
+    ],
+    [
+      996,
+      "since fact testimony",
+      61
+    ],
+    [
+      997,
+      "since fact memory",
+      61
+    ],
+    [
+      998,
+      "since belief probable",
+      61
+    ],
+    [
+      999,
+      "since belief testimony",
+      61
+    ],
+    [
+      1000,
+      "since belief memory",
+      61
+    ],
+    [
+      1001,
+      "since belief sense",
+      60
+    ],
+    [
+      1002,
+      "since probable testimony",
+      60
+    ],
+    [
+      1003,
+      "since probable memory",
+      60
+    ],
+    [
+      1004,
+      "since probable sense",
+      60
+    ],
+    [
+      1005,
+      "since probable sensible",
+      60
+    ],
+    [
+      1006,
+      "since testimony memory",
+      60
+    ],
+    [
+      1007,
+      "since testimony sense",
+      60
+    ],
+    [
+      1008,
+      "since testimony sensible",
+      60
+    ],
+    [
+      1009,
+      "since testimony ordinary",
+      60
+    ],
+    [
+      1010,
+      "since memory sense",
+      60
+    ],
+    [
+      1011,
+      "since memory sensible",
+      60
+    ],
+    [
+      1012,
+      "since memory ordinary",
+      60
+    ],
+    [
+      1013,
+      "since memory plain",
+      60
+    ],
+    [
+      1014,
+      "since sense sensible",
+      60
+    ],
+    [
+      1015,
+      "since sense ordinary",
+      60
+    ],
+    [
+      1016,
+      "since sense plain",
+      60
+    ],
+    [
+      1017,
+      "since sense warm",
+      60
+    ],
+    [
+      1018,
+      "since sensible ordinary",
+      60
+    ],
+    [
+      1019,
+      "since sensible plain",
+      60
+    ],
+    [
+      1020,
+      "since sensible warm",
+      60
+    ],
+    [
+      1021,
+      "since sensible careful",
+      60
+    ],
+    [
+      1022,
+      "since ordinary plain",
+      60
+    ],
+    [
+      1023,
+      "since ordinary warm",
+      60
+    ],
+    [
+      1024,
+      "since ordinary careful",
+      60
+    ],
+    [
+      1025,
+      "since ordinary human",
+      60
+    ],
+    [
+      1026,
+      "since plain warm",
+      59
+    ],
+    [
+      1027,
+      "since plain careful",
+      59
+    ],
+    [
+      1028,
+      "since plain human",
+      59
+    ],
+    [
+      1029,
+      "since plain enough",
+      59
+    ],
+    [
+      1030,
+      "since warm careful",
+      59
+    ],
+    [
+      1031,
+      "since warm human",
+      59
+    ],
+    [
+      1032,
+      "since warm enough",
+      59
+    ],
+    [
+      1033,
+      "since warm modest",
+      59
+    ],
+    [
+      1034,
+      "since careful human",
+      59
+    ],
+    [
+      1035,
+      "since careful enough",
+      59
+    ],
+    [
+      1036,
+      "since careful modest",
+      59
+    ],
+    [
+      1037,
+      "since careful sober",
+      59
+    ],
+    [
+      1038,
+      "since human enough",
+      59
+    ],
+    [
+      1039,
+      "since human modest",
+      59
+    ],
+    [
+      1040,
+      "since human sober",
+      59
+    ],
+    [
+      1041,
+      "since human gentle",
+      59
+    ],
+    [
+      1042,
+      "since enough modest",
+      59
+    ],
+    [
+      1043,
+      "since enough sober",
+      59
+    ],
+    [
+      1044,
+      "since enough gentle",
+      59
+    ],
+    [
+      1045,
+      "since enough reasonable",
+      59
+    ],
+    [
+      1046,
+      "since modest sober",
+      59
+    ],
+    [
+      1047,
+      "since modest gentle",
+      59
+    ],
+    [
+      1048,
+      "since modest reasonable",
+      59
+    ],
+    [
+      1049,
+      "since modest humane",
+      59
+    ],
+    [
+      1110,
+      "matter fact belief",
+      56
+    ],
+    [
+      1111,
+      "matter fact probable",
+      56
+    ],
+    [
+      1112,
+      "matter fact testimony",
+      56
+    ],
+    [
+      1113,
+      "matter belief probable",
+      56
+    ],
+    [
+      1114,
+      "matter belief testimony",
+      56
+    ],
+    [
+      1115,
+      "matter probable belief",
+      56
+    ],
+    [
+      1116,
+      "matter probable testimony",
+      56
+    ],
+    [
+      1117,
+      "matter testimony belief",
+      56
+    ],
+    [
+      1118,
+      "matter testimony probable",
+      56
+    ],
+    [
+      1119,
+      "matter memory belief",
+      56
+    ],
+    [
+      1120,
+      "matter memory probable",
+      56
+    ],
+    [
+      1121,
+      "matter memory testimony",
+      56
+    ],
+    [
+      1122,
+      "fact belief probable",
+      56
+    ],
+    [
+      1123,
+      "fact belief testimony",
+      56
+    ],
+    [
+      1124,
+      "fact belief memory",
+      56
+    ],
+    [
+      1125,
+      "fact probable testimony",
+      56
+    ],
+    [
+      1126,
+      "fact probable memory",
+      55
+    ],
+    [
+      1127,
+      "fact testimony probable",
+      55
+    ],
+    [
+      1128,
+      "fact testimony memory",
+      55
+    ],
+    [
+      1129,
+      "fact memory probable",
+      55
+    ],
+    [
+      1130,
+      "fact memory testimony",
+      55
+    ],
+    [
+      1131,
+      "fact sense probable",
+      55
+    ],
+    [
+      1132,
+      "fact sense testimony",
+      55
+    ],
+    [
+      1133,
+      "fact sense memory",
+      55
+    ],
+    [
+      1134,
+      "belief probable testimony",
+      55
+    ],
+    [
+      1135,
+      "belief probable memory",
+      55
+    ],
+    [
+      1136,
+      "belief probable sense",
+      55
+    ],
+    [
+      1137,
+      "belief testimony memory",
+      55
+    ],
+    [
+      1138,
+      "belief testimony sense",
+      55
+    ],
+    [
+      1139,
+      "belief memory testimony",
+      55
+    ],
+    [
+      1140,
+      "belief memory sense",
+      55
+    ],
+    [
+      1141,
+      "belief sense testimony",
+      55
+    ],
+    [
+      1142,
+      "belief sense memory",
+      55
+    ],
+    [
+      1143,
+      "belief sensible testimony",
+      55
+    ],
+    [
+      1144,
+      "belief sensible memory",
+      55
+    ],
+    [
+      1145,
+      "belief sensible sense",
+      55
+    ],
+    [
+      1146,
+      "probable testimony memory",
+      55
+    ],
+    [
+      1147,
+      "probable testimony sense",
+      55
+    ],
+    [
+      1148,
+      "probable testimony sensible",
+      55
+    ],
+    [
+      1149,
+      "probable memory sense",
+      55
+    ],
+    [
+      1150,
+      "probable memory sensible",
+      55
+    ],
+    [
+      1151,
+      "probable sense memory",
+      54
+    ],
+    [
+      1152,
+      "probable sense sensible",
+      54
+    ],
+    [
+      1153,
+      "probable sensible memory",
+      54
+    ],
+    [
+      1154,
+      "probable sensible sense",
+      54
+    ],
+    [
+      1155,
+      "probable ordinary memory",
+      54
+    ],
+    [
+      1156,
+      "probable ordinary sense",
+      54
+    ],
+    [
+      1157,
+      "probable ordinary sensible",
+      54
+    ],
+    [
+      1158,
+      "testimony memory sense",
+      54
+    ],
+    [
+      1159,
+      "testimony memory sensible",
+      54
+    ],
+    [
+      1160,
+      "testimony memory ordinary",
+      54
+    ],
+    [
+      1161,
+      "testimony sense sensible",
+      54
+    ],
+    [
+      1162,
+      "testimony sense ordinary",
+      54
+    ],
+    [
+      1163,
+      "testimony sensible sense",
+      54
+    ],
+    [
+      1164,
+      "testimony sensible ordinary",
+      54
+    ],
+    [
+      1165,
+      "testimony ordinary sense",
+      54
+    ],
+    [
+      1166,
+      "testimony ordinary sensible",
+      54
+    ],
+    [
+      1167,
+      "testimony plain sense",
+      54
+    ],
+    [
+      1168,
+      "testimony plain sensible",
+      54
+    ],
+    [
+      1169,
+      "testimony plain ordinary",
+      54
+    ],
+    [
+      1170,
+      "memory sense sensible",
+      54
+    ],
+    [
+      1171,
+      "memory sense ordinary",
+      54
+    ],
+    [
+      1172,
+      "memory sense plain",
+      54
+    ],
+    [
+      1173,
+      "memory sensible ordinary",
+      54
+    ],
+    [
+      1174,
+      "memory sensible plain",
+      54
+    ],
+    [
+      1175,
+      "memory ordinary sensible",
+      54
+    ],
+    [
+      1176,
+      "memory ordinary plain",
+      53
+    ],
+    [
+      1177,
+      "memory plain sensible",
+      53
+    ],
+    [
+      1178,
+      "memory plain ordinary",
+      53
+    ],
+    [
+      1179,
+      "memory warm sensible",
+      53
+    ],
+    [
+      1180,
+      "memory warm ordinary",
+      53
+    ],
+    [
+      1181,
+      "memory warm plain",
+      53
+    ],
+    [
+      1182,
+      "sense sensible ordinary",
+      53
+    ],
+    [
+      1183,
+      "sense sensible plain",
+      53
+    ],
+    [
+      1184,
+      "sense sensible warm",
+      53
+    ],
+    [
+      1185,
+      "sense ordinary plain",
+      53
+    ],
+    [
+      1186,
+      "sense ordinary warm",
+      53
+    ],
+    [
+      1187,
+      "sense plain ordinary",
+      53
+    ],
+    [
+      1188,
+      "sense plain warm",
+      53
+    ],
+    [
+      1189,
+      "sense warm ordinary",
+      53
+    ],
+    [
+      1190,
+      "sense warm plain",
+      53
+    ],
+    [
+      1191,
+      "sense careful ordinary",
+      53
+    ],
+    [
+      1192,
+      "sense careful plain",
+      53
+    ],
+    [
+      1193,
+      "sense careful warm",
+      53
+    ],
+    [
+      1194,
+      "sensible ordinary plain",
+      53
+    ],
+    [
+      1195,
+      "sensible ordinary warm",
+      53
+    ],
+    [
+      1196,
+      "sensible ordinary careful",
+      53
+    ],
+    [
+      1197,
+      "sensible plain warm",
+      53
+    ],
+    [
+      1198,
+      "sensible plain careful",
+      53
+    ],
+    [
+      1199,
+      "sensible warm plain",
+      53
+    ],
+    [
+      1200,
+      "sensible warm careful",
+      53
+    ],
+    [
+      1201,
+      "sensible careful plain",
+      52
+    ],
+    [
+      1202,
+      "sensible careful warm",
+      52
+    ],
+    [
+      1203,
+      "sensible human plain",
+      52
+    ],
+    [
+      1204,
+      "sensible human warm",
+      52
+    ],
+    [
+      1205,
+      "sensible human careful",
+      52
+    ],
+    [
+      1206,
+      "ordinary plain warm",
+      52
+    ],
+    [
+      1207,
+      "ordinary plain careful",
+      52
+    ],
+    [
+      1208,
+      "ordinary plain human",
+      52
+    ],
+    [
+      1209,
+      "ordinary warm careful",
+      52
+    ],
+    [
+      1210,
+      "ordinary warm human",
+      52
+    ],
+    [
+      1211,
+      "ordinary careful warm",
+      52
+    ],
+    [
+      1212,
+      "ordinary careful human",
+      52
+    ],
+    [
+      1213,
+      "ordinary human warm",
+      52
+    ],
+    [
+      1214,
+      "ordinary human careful",
+      52
+    ],
+    [
+      1215,
+      "ordinary enough warm",
+      52
+    ],
+    [
+      1216,
+      "ordinary enough careful",
+      52
+    ],
+    [
+      1217,
+      "ordinary enough human",
+      52
+    ],
+    [
+      1218,
+      "plain warm careful",
+      52
+    ],
+    [
+      1219,
+      "plain warm human",
+      52
+    ],
+    [
+      1220,
+      "plain warm enough",
+      52
+    ],
+    [
+      1221,
+      "plain careful human",
+      52
+    ],
+    [
+      1222,
+      "plain careful enough",
+      52
+    ],
+    [
+      1223,
+      "plain human careful",
+      52
+    ],
+    [
+      1224,
+      "plain human enough",
+      52
+    ],
+    [
+      1225,
+      "plain enough careful",
+      52
+    ],
+    [
+      1226,
+      "plain enough human",
+      51
+    ],
+    [
+      1227,
+      "plain modest careful",
+      51
+    ],
+    [
+      1228,
+      "plain modest human",
+      51
+    ],
+    [
+      1229,
+      "plain modest enough",
+      51
+    ],
+    [
+      1230,
+      "warm careful human",
+      51
+    ],
+    [
+      1231,
+      "warm careful enough",
+      51
+    ],
+    [
+      1232,
+      "warm careful modest",
+      51
+    ],
+    [
+      1233,
+      "warm human enough",
+      51
+    ],
+    [
+      1234,
+      "warm human modest",
+      51
+    ],
+    [
+      1235,
+      "warm enough human",
+      51
+    ],
+    [
+      1236,
+      "warm enough modest",
+      51
+    ],
+    [
+      1237,
+      "warm modest human",
+      51
+    ],
+    [
+      1238,
+      "warm modest enough",
+      51
+    ],
+    [
+      1239,
+      "warm sober human",
+      51
+    ],
+    [
+      1240,
+      "warm sober enough",
+      51
+    ],
+    [
+      1241,
+      "warm sober modest",
+      51
+    ],
+    [
+      1242,
+      "careful human enough",
+      51
+    ],
+    [
+      1243,
+      "careful human modest",
+      51
+    ],
+    [
+      1244,
+      "careful human sober",
+      51
+    ],
+    [
+      1245,
+      "careful enough modest",
+      51
+    ],
+    [
+      1246,
+      "careful enough sober",
+      51
+    ],
+    [
+      1247,
+      "careful modest enough",
+      51
+    ],
+    [
+      1248,
+      "careful modest sober",
+      51
+    ],
+    [
+      1249,
+      "careful sober enough",
+      51
+    ],
+    [
+      1250,
+      "careful sober modest",
+      51
+    ],
+    [
+      1251,
+      "careful gentle enough",
+      50
+    ],
+    [
+      1252,
+      "careful gentle modest",
+      50
+    ],
+    [
+      1253,
+      "careful gentle sober",
+      50
+    ],
+    [
+      1254,
+      "human enough modest",
+      50
+    ],
+    [
+      1255,
+      "human enough sober",
+      50
+    ],
+    [
+      1256,
+      "human enough gentle",
+      50
+    ],
+    [
+      1257,
+      "human modest sober",
+      50
+    ],
+    [
+      1258,
+      "human modest gentle",
+      50
+    ],
+    [
+      1259,
+      "human sober modest",
+      50
+    ],
+    [
+      1260,
+      "human sober gentle",
+      50
+    ],
+    [
+      1261,
+      "human gentle modest",
+      50
+    ],
+    [
+      1262,
+      "human gentle sober",
+      50
+    ],
+    [
+      1263,
+      "human reasonable modest",
+      50
+    ],
+    [
+      1264,
+      "human reasonable sober",
+      50
+    ],
+    [
+      1265,
+      "human reasonable gentle",
+      50
+    ],
+    [
+      1266,
+      "enough modest sober",
+      50
+    ],
+    [
+      1267,
+      "enough modest gentle",
+      50
+    ],
+    [
+      1268,
+      "enough modest reasonable",
+      50
+    ],
+    [
+      1269,
+      "enough sober gentle",
+      50
+    ],
+    [
+      1270,
+      "enough sober reasonable",
+      50
+    ],
+    [
+      1271,
+      "enough gentle sober",
+      50
+    ],
+    [
+      1272,
+      "enough gentle reasonable",
+      50
+    ],
+    [
+      1273,
+      "enough reasonable sober",
+      50
+    ],
+    [
+      1274,
+      "enough reasonable gentle",
+      50
+    ],
+    [
+      1275,
+      "enough humane sober",
+      50
+    ],
+    [
+      1276,
+      "enough humane gentle",
+      49
+    ],
+    [
+      1277,
+      "enough humane reasonable",
+      49
+    ],
+    [
+      1278,
+      "modest sober gentle",
+      49
+    ],
+    [
+      1279,
+      "modest sober reasonable",
+      49
+    ],
+    [
+      1280,
+      "modest sober humane",
+      49
+    ],
+    [
+      1281,
+      "modest gentle reasonable",
+      49
+    ],
+    [
+      1282,
+      "modest gentle humane",
+      49
+    ],
+    [
+      1283,
+      "modest reasonable gentle",
+      49
+    ],
+    [
+      1284,
+      "modest reasonable humane",
+      49
+    ],
+    [
+      1285,
+      "modest humane gentle",
+      49
+    ],
+    [
+      1286,
+      "modest humane reasonable",
+      49
+    ],
+    [
+      1287,
+      "modest common gentle",
+      49
+    ],
+    [
+      1288,
+      "modest common reasonable",
+      49
+    ],
+    [
+      1289,
+      "modest common humane",
+      49
+    ],
+    [
+      1290,
+      "sober gentle reasonable",
+      49
+    ],
+    [
+      1291,
+      "sober gentle humane",
+      49
+    ],
+    [
+      1292,
+      "sober gentle common",
+      49
+    ],
+    [
+      1293,
+      "sober reasonable humane",
+      49
+    ],
+    [
+      1294,
+      "sober reasonable common",
+      49
+    ],
+    [
+      1295,
+      "sober humane reasonable",
+      49
+    ],
+    [
+      1296,
+      "sober humane common",
+      49
+    ],
+    [
+      1297,
+      "sober common reasonable",
+      49
+    ],
+    [
+      1298,
+      "sober common humane",
+      49
+    ],
+    [
+      1299,
+      "sober lively reasonable",
+      49
+    ],
+    [
+      1300,
+      "sober lively humane",
+      49
+    ],
+    [
+      1301,
+      "sober lively common",
+      48
+    ],
+    [
+      1302,
+      "gentle reasonable humane",
+      48
+    ],
+    [
+      1303,
+      "gentle reasonable common",
+      48
+    ],
+    [
+      1304,
+      "gentle reasonable lively",
+      48
+    ],
+    [
+      1305,
+      "gentle humane common",
+      48
+    ],
+    [
+      1306,
+      "gentle humane lively",
+      48
+    ],
+    [
+      1307,
+      "gentle common humane",
+      48
+    ],
+    [
+      1308,
+      "gentle common lively",
+      48
+    ],
+    [
+      1309,
+      "gentle lively humane",
+      48
+    ],
+    [
+      1310,
+      "gentle lively common",
+      48
+    ],
+    [
+      1311,
+      "gentle faint humane",
+      48
+    ],
+    [
+      1312,
+      "gentle faint common",
+      48
+    ],
+    [
+      1313,
+      "gentle faint lively",
+      48
+    ],
+    [
+      1314,
+      "reasonable humane common",
+      48
+    ],
+    [
+      1315,
+      "reasonable humane lively",
+      48
+    ],
+    [
+      1316,
+      "reasonable humane faint",
+      48
+    ],
+    [
+      1317,
+      "reasonable common lively",
+      48
+    ],
+    [
+      1318,
+      "reasonable common faint",
+      48
+    ],
+    [
+      1319,
+      "reasonable lively common",
+      48
+    ],
+    [
+      1320,
+      "reasonable lively faint",
+      48
+    ],
+    [
+      1321,
+      "reasonable faint common",
+      48
+    ],
+    [
+      1322,
+      "reasonable faint lively",
+      48
+    ],
+    [
+      1323,
+      "reasonable copy common",
+      48
+    ],
+    [
+      1324,
+      "reasonable copy lively",
+      48
+    ],
+    [
+      1325,
+      "reasonable copy faint",
+      48
+    ],
+    [
+      1326,
+      "humane common lively",
+      47
+    ],
+    [
+      1327,
+      "humane common faint",
+      47
+    ],
+    [
+      1328,
+      "humane common copy",
+      47
+    ],
+    [
+      1329,
+      "humane lively faint",
+      47
+    ],
+    [
+      1330,
+      "humane lively copy",
+      47
+    ],
+    [
+      1331,
+      "humane faint lively",
+      47
+    ],
+    [
+      1332,
+      "humane faint copy",
+      47
+    ],
+    [
+      1333,
+      "humane copy lively",
+      47
+    ],
+    [
+      1334,
+      "humane copy faint",
+      47
+    ],
+    [
+      1335,
+      "humane conjunction lively",
+      47
+    ],
+    [
+      1336,
+      "humane conjunction faint",
+      47
+    ],
+    [
+      1337,
+      "humane conjunction copy",
+      47
+    ],
+    [
+      1338,
+      "common lively faint",
+      47
+    ],
+    [
+      1339,
+      "common lively copy",
+      47
+    ],
+    [
+      1340,
+      "common lively conjunction",
+      47
+    ],
+    [
+      1341,
+      "common faint copy",
+      47
+    ],
+    [
+      1342,
+      "common faint conjunction",
+      47
+    ],
+    [
+      1343,
+      "common copy faint",
+      47
+    ],
+    [
+      1344,
+      "common copy conjunction",
+      47
+    ],
+    [
+      1345,
+      "common conjunction faint",
+      47
+    ],
+    [
+      1346,
+      "common conjunction copy",
+      47
+    ],
+    [
+      1347,
+      "common succession faint",
+      47
+    ],
+    [
+      1348,
+      "common succession copy",
+      47
+    ],
+    [
+      1349,
+      "common succession conjunction",
+      47
+    ],
+    [
+      1350,
+      "mini-MMM shapes voice",
+      100
+    ],
+    [
+      1351,
+      "mini MMM voice shape",
+      100
+    ],
+    [
+      1352,
+      "voice shaped by nouns",
+      100
+    ],
+    [
+      1353,
+      "aligned nouns shape voice",
+      100
+    ],
+    [
+      1354,
+      "correlated thinkers shape voice",
+      100
+    ]
+  ],
+  "words": [
+    [
+      1,
+      "experience",
+      100
+    ],
+    [
+      6,
+      "matter",
+      100
+    ],
+    [
+      7,
+      "fact",
+      100
+    ],
+    [
+      8,
+      "belief",
+      100
+    ],
+    [
+      9,
+      "probable",
+      100
+    ],
+    [
+      10,
+      "testimony",
+      100
+    ],
+    [
+      11,
+      "memory",
+      100
+    ],
+    [
+      12,
+      "sense",
+      100
+    ],
+    [
+      13,
+      "sensible",
+      100
+    ],
+    [
+      14,
+      "ordinary",
+      100
+    ],
+    [
+      15,
+      "plain",
+      100
+    ],
+    [
+      16,
+      "warm",
+      100
+    ],
+    [
+      17,
+      "careful",
+      100
+    ],
+    [
+      18,
+      "human",
+      100
+    ],
+    [
+      19,
+      "enough",
+      100
+    ],
+    [
+      20,
+      "modest",
+      100
+    ],
+    [
+      21,
+      "sober",
+      100
+    ],
+    [
+      22,
+      "gentle",
+      100
+    ],
+    [
+      23,
+      "reasonable",
+      100
+    ],
+    [
+      24,
+      "humane",
+      100
+    ],
+    [
+      25,
+      "common",
+      100
+    ],
+    [
+      26,
+      "lively",
+      99
+    ],
+    [
+      27,
+      "faint",
+      99
+    ],
+    [
+      28,
+      "copy",
+      99
+    ],
+    [
+      29,
+      "conjunction",
+      99
+    ],
+    [
+      30,
+      "succession",
+      99
+    ],
+    [
+      31,
+      "resemblance",
+      99
+    ],
+    [
+      33,
+      "matters of fact",
+      99
+    ],
+    [
+      34,
+      "relations of ideas",
+      99
+    ],
+    [
+      37,
+      "probable reasoning",
+      99
+    ],
+    [
+      39,
+      "testimony and experience",
+      99
+    ],
+    [
+      40,
+      "memory and sense",
+      99
+    ],
+    [
+      41,
+      "particular observation",
+      99
+    ],
+    [
+      42,
+      "degree of evidence",
+      99
+    ],
+    [
+      43,
+      "observed",
+      99
+    ],
+    [
+      44,
+      "inferred",
+      99
+    ],
+    [
+      45,
+      "remembered",
+      99
+    ],
+    [
+      46,
+      "unknown",
+      99
+    ],
+    [
+      47,
+      "seems",
+      99
+    ],
+    [
+      48,
+      "appears",
+      99
+    ],
+    [
+      49,
+      "not enough",
+      99
+    ],
+    [
+      50,
+      "checked",
+      99
+    ],
+    [
+      51,
+      "found",
+      98
+    ],
+    [
+      52,
+      "support",
+      98
+    ],
+    [
+      53,
+      "evidence",
+      98
+    ],
+    [
+      54,
+      "likely",
+      98
+    ],
+    [
+      55,
+      "unlikely",
+      98
+    ],
+    [
+      56,
+      "limited",
+      98
+    ],
+    [
+      57,
+      "conditional",
+      98
+    ],
+    [
+      58,
+      "usable",
+      98
+    ],
+    [
+      59,
+      "next honest move",
+      98
+    ],
+    [
+      60,
+      "what this amounts to",
+      98
+    ],
+    [
+      61,
+      "what follows now",
+      98
+    ],
+    [
+      62,
+      "what remains open",
+      98
+    ],
+    [
+      63,
+      "proposed",
+      98
+    ],
+    [
+      64,
+      "perception",
+      98
+    ],
+    [
+      65,
+      "relation",
+      98
+    ],
+    [
+      66,
+      "probability",
+      98
+    ],
+    [
+      68,
+      "particular",
+      98
+    ],
+    [
+      69,
+      "local",
+      98
+    ],
+    [
+      70,
+      "bounded",
+      98
+    ],
+    [
+      71,
+      "sentiment",
+      98
+    ],
+    [
+      72,
+      "continuity",
+      98
+    ],
+    [
+      73,
+      "reuse",
+      98
+    ],
+    [
+      74,
+      "comparison",
+      98
+    ],
+    [
+      75,
+      "warrant",
+      98
+    ],
+    [
+      76,
+      "under",
+      97
+    ],
+    [
+      77,
+      "within",
+      97
+    ],
+    [
+      78,
+      "across",
+      97
+    ],
+    [
+      79,
+      "between",
+      97
+    ],
+    [
+      80,
+      "through",
+      97
+    ],
+    [
+      81,
+      "before",
+      97
+    ],
+    [
+      82,
+      "after",
+      97
+    ],
+    [
+      83,
+      "until",
+      97
+    ],
+    [
+      84,
+      "where",
+      97
+    ],
+    [
+      85,
+      "while",
+      97
+    ],
+    [
+      86,
+      "against",
+      97
+    ],
+    [
+      87,
+      "along",
+      97
+    ],
+    [
+      88,
+      "around",
+      97
+    ],
+    [
+      89,
+      "among",
+      97
+    ],
+    [
+      90,
+      "inside",
+      97
+    ],
+    [
+      91,
+      "outside",
+      97
+    ],
+    [
+      92,
+      "near",
+      97
+    ],
+    [
+      93,
+      "beside",
+      97
+    ],
+    [
+      94,
+      "over",
+      97
+    ],
+    [
+      95,
+      "from",
+      97
+    ],
+    [
+      96,
+      "with",
+      97
+    ],
+    [
+      97,
+      "without",
+      97
+    ],
+    [
+      98,
+      "only",
+      97
+    ],
+    [
+      99,
+      "not",
+      97
+    ],
+    [
+      100,
+      "no",
+      97
+    ],
+    [
+      101,
+      "yet",
+      96
+    ],
+    [
+      102,
+      "then",
+      96
+    ],
+    [
+      103,
+      "current",
+      96
+    ],
+    [
+      104,
+      "actual",
+      96
+    ],
+    [
+      105,
+      "finite",
+      96
+    ],
+    [
+      106,
+      "open",
+      96
+    ],
+    [
+      107,
+      "live",
+      96
+    ],
+    [
+      108,
+      "distinct",
+      96
+    ],
+    [
+      109,
+      "concrete",
+      96
+    ],
+    [
+      110,
+      "known",
+      96
+    ],
+    [
+      111,
+      "missing",
+      96
+    ],
+    [
+      112,
+      "stale",
+      96
+    ],
+    [
+      113,
+      "narrow",
+      96
+    ],
+    [
+      114,
+      "small",
+      96
+    ],
+    [
+      115,
+      "honest",
+      96
+    ],
+    [
+      116,
+      "first",
+      96
+    ],
+    [
+      117,
+      "next",
+      96
+    ],
+    [
+      118,
+      "prior",
+      96
+    ],
+    [
+      119,
+      "later",
+      96
+    ],
+    [
+      120,
+      "separate",
+      96
+    ],
+    [
+      121,
+      "together",
+      96
+    ],
+    [
+      122,
+      "apart",
+      96
+    ],
+    [
+      123,
+      "held",
+      96
+    ],
+    [
+      124,
+      "returned",
+      96
+    ],
+    [
+      125,
+      "compared",
+      96
+    ],
+    [
+      126,
+      "measured",
+      95
+    ],
+    [
+      127,
+      "named",
+      95
+    ],
+    [
+      128,
+      "used",
+      95
+    ],
+    [
+      129,
+      "fit",
+      95
+    ],
+    [
+      130,
+      "viable",
+      95
+    ],
+    [
+      131,
+      "direct",
+      95
+    ],
+    [
+      132,
+      "different",
+      95
+    ],
+    [
+      133,
+      "alternate",
+      95
+    ],
+    [
+      134,
+      "branch",
+      95
+    ],
+    [
+      135,
+      "path",
+      95
+    ],
+    [
+      136,
+      "surface",
+      95
+    ],
+    [
+      137,
+      "packet",
+      95
+    ],
+    [
+      138,
+      "artifact",
+      95
+    ],
+    [
+      139,
+      "receipt",
+      95
+    ],
+    [
+      140,
+      "trace",
+      95
+    ],
+    [
+      141,
+      "result",
+      95
+    ],
+    [
+      142,
+      "scope",
+      95
+    ],
+    [
+      143,
+      "boundary",
+      95
+    ],
+    [
+      144,
+      "gate",
+      95
+    ],
+    [
+      145,
+      "guard",
+      95
+    ],
+    [
+      146,
+      "rung",
+      95
+    ],
+    [
+      147,
+      "status",
+      95
+    ],
+    [
+      148,
+      "candidate",
+      95
+    ],
+    [
+      149,
+      "survivor",
+      95
+    ],
+    [
+      150,
+      "witness",
+      95
+    ],
+    [
+      151,
+      "probe",
+      94
+    ],
+    [
+      152,
+      "constraint",
+      94
+    ],
+    [
+      153,
+      "name",
+      94
+    ],
+    [
+      154,
+      "term",
+      94
+    ],
+    [
+      155,
+      "use",
+      94
+    ],
+    [
+      156,
+      "role",
+      94
+    ],
+    [
+      157,
+      "practice",
+      94
+    ],
+    [
+      158,
+      "observation",
+      94
+    ],
+    [
+      159,
+      "predicate",
+      94
+    ],
+    [
+      160,
+      "class",
+      94
+    ],
+    [
+      161,
+      "model",
+      94
+    ],
+    [
+      162,
+      "solver",
+      94
+    ],
+    [
+      163,
+      "satisfiable",
+      94
+    ],
+    [
+      164,
+      "unsatisfiable",
+      94
+    ],
+    [
+      165,
+      "countermodel",
+      94
+    ],
+    [
+      166,
+      "counterexample",
+      94
+    ],
+    [
+      167,
+      "equivalence",
+      94
+    ],
+    [
+      168,
+      "indistinguishable",
+      94
+    ],
+    [
+      169,
+      "readout",
+      94
+    ],
+    [
+      170,
+      "measure",
+      94
+    ],
+    [
+      171,
+      "measurement",
+      94
+    ],
+    [
+      172,
+      "operation",
+      94
+    ],
+    [
+      173,
+      "procedure",
+      94
+    ],
+    [
+      174,
+      "instrument",
+      94
+    ],
+    [
+      175,
+      "experiment",
+      94
+    ],
+    [
+      176,
+      "test",
+      93
+    ],
+    [
+      177,
+      "check",
+      93
+    ],
+    [
+      178,
+      "verify",
+      93
+    ],
+    [
+      179,
+      "compare",
+      93
+    ],
+    [
+      180,
+      "sample",
+      93
+    ],
+    [
+      181,
+      "route",
+      93
+    ],
+    [
+      182,
+      "lane",
+      93
+    ],
+    [
+      183,
+      "voice",
+      93
+    ],
+    [
+      184,
+      "lens",
+      93
+    ],
+    [
+      185,
+      "council",
+      93
+    ],
+    [
+      186,
+      "audit",
+      93
+    ],
+    [
+      187,
+      "finding",
+      93
+    ],
+    [
+      188,
+      "blocker",
+      93
+    ],
+    [
+      189,
+      "deferred",
+      93
+    ],
+    [
+      190,
+      "blocked",
+      93
+    ],
+    [
+      191,
+      "spawned",
+      93
+    ],
+    [
+      192,
+      "diagnostic",
+      93
+    ],
+    [
+      193,
+      "untried",
+      93
+    ],
+    [
+      194,
+      "preload",
+      93
+    ],
+    [
+      195,
+      "salience",
+      93
+    ],
+    [
+      196,
+      "language",
+      93
+    ],
+    [
+      197,
+      "body",
+      93
+    ],
+    [
+      198,
+      "during",
+      93
+    ],
+    [
+      199,
+      "since",
+      93
+    ],
+    [
+      200,
+      "by",
+      93
+    ],
+    [
+      201,
+      "toward",
+      92
+    ],
+    [
+      202,
+      "relative",
+      92
+    ],
+    [
+      203,
+      "according",
+      92
+    ],
+    [
+      204,
+      "locally",
+      92
+    ],
+    [
+      205,
+      "jointly",
+      92
+    ],
+    [
+      206,
+      "separately",
+      92
+    ],
+    [
+      207,
+      "rather",
+      92
+    ],
+    [
+      208,
+      "instead",
+      92
+    ],
+    [
+      209,
+      "still",
+      92
+    ],
+    [
+      210,
+      "often",
+      92
+    ],
+    [
+      211,
+      "sometimes",
+      92
+    ],
+    [
+      212,
+      "usually",
+      92
+    ],
+    [
+      213,
+      "possible",
+      92
+    ],
+    [
+      214,
+      "plausible",
+      92
+    ],
+    [
+      215,
+      "tentative",
+      92
+    ],
+    [
+      216,
+      "provisional",
+      92
+    ],
+    [
+      217,
+      "partial",
+      92
+    ],
+    [
+      218,
+      "case",
+      92
+    ],
+    [
+      219,
+      "instance",
+      92
+    ],
+    [
+      220,
+      "word",
+      92
+    ],
+    [
+      221,
+      "mini-MMM",
+      100
+    ],
+    [
+      222,
+      "mini MMM",
+      100
+    ],
+    [
+      223,
+      "voice shape",
+      100
+    ],
+    [
+      224,
+      "voice shaping",
+      100
+    ],
+    [
+      225,
+      "shape voice",
+      100
+    ],
+    [
+      226,
+      "shaped voice",
+      100
+    ],
+    [
+      227,
+      "voice contour",
+      100
+    ],
+    [
+      228,
+      "voice signature",
+      100
+    ],
+    [
+      229,
+      "voice localizer",
+      100
+    ],
+    [
+      230,
+      "local voice",
+      100
+    ],
+    [
+      231,
+      "aligned nouns",
+      100
+    ],
+    [
+      232,
+      "correlated thinkers",
+      100
+    ],
+    [
+      233,
+      "thinker alignment",
+      100
+    ],
+    [
+      234,
+      "noun alignment",
+      100
+    ],
+    [
+      235,
+      "voice method",
+      100
+    ],
+    [
+      236,
+      "voice evidence",
+      100
+    ],
+    [
+      237,
+      "voice judgment",
+      100
+    ],
+    [
+      238,
+      "voice task",
+      100
+    ],
+    [
+      239,
+      "voice receipt",
+      100
+    ],
+    [
+      240,
+      "voice finding",
+      100
+    ],
+    [
+      241,
+      "voice constraint",
+      100
+    ],
+    [
+      242,
+      "voice noun",
+      100
+    ],
+    [
+      243,
+      "voice verb",
+      100
+    ],
+    [
+      244,
+      "voice signal",
+      100
+    ],
+    [
+      245,
+      "voice contrast",
+      100
+    ],
+    [
+      246,
+      "voice boundary",
+      100
+    ],
+    [
+      247,
+      "voice contribution",
+      100
+    ],
+    [
+      248,
+      "mini mmm loaded",
+      100
+    ],
+    [
+      249,
+      "loaded mini mmm",
+      100
+    ],
+    [
+      250,
+      "assigned mini mmm",
+      100
+    ],
+    [
+      251,
+      "local voice context",
+      100
+    ],
+    [
+      252,
+      "voice-specific nouns",
+      100
+    ],
+    [
+      253,
+      "method nouns",
+      100
+    ],
+    [
+      254,
+      "reader stance",
+      100
+    ],
+    [
+      255,
+      "decision stance",
+      100
+    ],
+    [
+      256,
+      "audit stance",
+      100
+    ],
+    [
+      257,
+      "build stance",
+      100
+    ],
+    [
+      258,
+      "repair stance",
+      100
+    ],
+    [
+      259,
+      "acceptance stance",
+      100
+    ],
+    [
+      260,
+      "subagent voice",
+      100
+    ],
+    [
+      261,
+      "voice worker",
+      100
+    ],
+    [
+      262,
+      "voice proof",
+      100
+    ],
+    [
+      263,
+      "distinct output",
+      100
+    ],
+    [
+      264,
+      "behavioral pull",
+      100
+    ],
+    [
+      265,
+      "salience pull",
+      100
+    ],
+    [
+      266,
+      "voice usefulness",
+      100
+    ],
+    [
+      267,
+      "output repair",
+      100
+    ],
+    [
+      268,
+      "system repair",
+      100
+    ],
+    [
+      269,
+      "mmm stability",
+      100
+    ],
+    [
+      270,
+      "wizard stability",
+      100
+    ],
+    [
+      271,
+      "qit support",
+      100
+    ],
+    [
+      272,
+      "sim support",
+      100
+    ]
+  ]
+}

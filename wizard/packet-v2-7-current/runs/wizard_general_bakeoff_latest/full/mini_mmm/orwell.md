@@ -1,0 +1,428 @@
+---
+title: Orwell
+created: 2026-04-28
+updated: 2026-04-28
+type: concept
+tags: [wizard, mmm, packet, receipt]
+framing: current
+source_path: runs/wizard_general_bakeoff_latest/full/mini_mmm/orwell.md
+---
+
+Lane-local behavior probe body for Orwell. Candidate root: /Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate. This record was normalized from collected probe output only. The harness did not spawn agents, infer hidden execution, or add a claim beyond the supplied lane record. Review this lane as receipt evidence: checked material, conclusion, remaining open question, and cited evidence must remain tied to the captured output. The body exists so the adapter can verify that every completed lane has a lane-local language surface rather than borrowing global prose. Future readers should treat the text as a behavior probe normalization artifact, not as independent proof of correctness. 
+
+Collected output:
+# MMM_VOICE_ORWELL_FULL_v2_7
+
+## aligned nouns and phrases
+
+- politics and english language
+- verbal false limb
+- loaded phrasing
+- dying metaphor
+- pretentious diction
+- meaningless word
+- cut a word
+- short word
+- active verb
+- plain english
+- stale image
+- dead phrase
+- soft word
+- language body
+- concrete
+- short
+- clear
+- cut
+- fog
+- euphemism
+- inflated
+- dead
+- phrase
+- bureaucratic
+- vague
+- muddy
+- pretentious
+- noun
+- image
+- metaphor
+- simple
+- verb
+- ordinary
+- word
+- exact
+- name
+- hard
+- soft
+- padding
+- cliche
+- remove
+- replace
+- direct
+- blocked
+- missing
+- wrong
+- untested
+- artifact
+- action
+- owner
+- prune
+- clean
+- blunt
+- visible
+- outside
+- only
+- then
+- bounded
+- finite
+- open
+- distinct
+- observed
+- small
+- honest
+- first
+- prior
+- separate
+- together
+- compared
+- measured
+- used
+- fit
+- viable
+- different
+- alternate
+- branch
+- path
+- packet
+- receipt
+- trace
+- result
+- support
+- evidence
+- scope
+- boundary
+- gate
+- guard
+- rung
+- status
+- candidate
+- survivor
+- witness
+- probe
+- constraint
+- use
+- role
+- practice
+- experience
+- observation
+- perception
+- conjunction
+- resemblance
+- relation
+- probability
+- particular
+- predicate
+- class
+- model
+- solver
+- satisfiable
+- unsatisfiable
+- countermodel
+- counterexample
+- equivalence
+- indistinguishable
+- readout
+- measure
+- measurement
+- operation
+- procedure
+- instrument
+- experiment
+- check
+- verify
+- compare
+- sample
+- route
+- lane
+- voice
+- lens
+- council
+- audit
+- finding
+- blocker
+- deferred
+- spawned
+- diagnostic
+- untried
+- preload
+- language
+- body
+- during
+- since
+- toward
+- relative
+- according
+- locally
+- jointly
+- separately
+- rather
+- instead
+- still
+- often
+- sometimes
+- usually
+- seems
+- likely
+- possible
+- plausible
+- tentative
+- provisional
+- partial
+- limited
+- case
+- instance
+
+## correlated couplings
+
+- simple politics and english language
+- politics and english language
+- verbal false limb
+- during loaded phrasing
+- since loaded phrasing
+- toward loaded phrasing
+- relative loaded phrasing
+- plain loaded phrasing
+- concrete loaded phrasing
+- short loaded phrasing
+- clear loaded phrasing
+- cut loaded phrasing
+- fog loaded phrasing
+- euphemism loaded phrasing
+- inflated loaded phrasing
+- dead loaded phrasing
+- phrase loaded phrasing
+- loaded phrasing bureaucratic
+- loaded phrasing vague
+- loaded phrasing muddy
+- loaded phrasing pretentious
+- loaded phrasing abstract
+- loaded phrasing noun
+- loaded phrasing image
+- loaded phrasing metaphor
+- loaded phrasing active
+- loaded phrasing simple
+- loaded phrasing verb
+- plain evidence
+- plain support
+- plain packet
+- plain receipt
+- plain trace
+- plain result
+- plain scope
+- plain boundary
+- plain witness
+- plain probe
+- plain constraint
+- compare plain
+- measure plain
+- hold plain
+- preserve plain
+- split plain
+- narrow plain
+- cut evidence
+- cut support
+- cut packet
+- cut receipt
+- cut trace
+- cut result
+- cut scope
+- cut boundary
+- cut witness
+- cut probe
+- cut constraint
+- compare cut
+- measure cut
+- hold cut
+- preserve cut
+- split cut
+- narrow cut
+- short evidence
+- short support
+- short packet
+- short receipt
+- short trace
+- short result
+- short scope
+- short boundary
+- short witness
+- short probe
+- short constraint
+- compare short
+- measure short
+- hold short
+- preserve short
+- split short
+- narrow short
+- concrete evidence
+- concrete support
+- concrete packet
+- concrete receipt
+- concrete trace
+- concrete result
+- concrete scope
+- concrete boundary
+- concrete witness
+- concrete probe
+- concrete constraint
+- compare concrete
+- measure concrete
+- hold concrete
+- preserve concrete
+- split concrete
+- narrow concrete
+- word evidence
+- word support
+- word packet
+- word receipt
+- word trace
+- word result
+- word scope
+- word boundary
+- word witness
+- word probe
+- word constraint
+- compare word
+- measure word
+- hold word
+- preserve word
+- split word
+- narrow word
+- phrase evidence
+- phrase support
+- phrase packet
+- phrase receipt
+- phrase trace
+- phrase result
+- phrase scope
+- phrase boundary
+- phrase witness
+- phrase probe
+- phrase constraint
+- compare phrase
+- measure phrase
+- hold phrase
+- preserve phrase
+- split phrase
+- narrow phrase
+- name evidence
+- name support
+- name packet
+- name receipt
+- name trace
+- name result
+- name scope
+- name boundary
+- name witness
+- name probe
+- name constraint
+- compare name
+- measure name
+- hold name
+- preserve name
+- split name
+- narrow name
+- fog evidence
+- fog support
+- fog packet
+- fog receipt
+- fog trace
+- fog result
+- fog scope
+- fog boundary
+- fog witness
+- fog probe
+- fog constraint
+- compare fog
+- measure fog
+
+## three-part cues
+
+- during euphemism loaded phrasing
+- during inflated loaded phrasing
+- during dead loaded phrasing
+- during phrase loaded phrasing
+- during loaded phrasing bureaucratic
+- during loaded phrasing vague
+- during loaded phrasing muddy
+- during loaded phrasing pretentious
+- since euphemism loaded phrasing
+- since inflated loaded phrasing
+- since dead loaded phrasing
+- since phrase loaded phrasing
+- since loaded phrasing bureaucratic
+- since loaded phrasing vague
+- since loaded phrasing muddy
+- since loaded phrasing pretentious
+- fog loaded phrasing inflated
+- fog loaded phrasing dead
+- fog loaded phrasing phrase
+- euphemism inflated loaded phrasing
+- euphemism dead loaded phrasing
+- euphemism phrase loaded phrasing
+- euphemism loaded phrasing dead
+- euphemism loaded phrasing phrase
+- euphemism bureaucratic loaded phrasing
+- inflated dead loaded phrasing
+- inflated phrase loaded phrasing
+- inflated loaded phrasing phrase
+- inflated loaded phrasing bureaucratic
+- inflated bureaucratic loaded phrasing
+- inflated vague loaded phrasing
+- dead phrase loaded phrasing
+- dead loaded phrasing bureaucratic
+- dead loaded phrasing vague
+- dead bureaucratic loaded phrasing
+- dead vague loaded phrasing
+- dead muddy loaded phrasing
+- phrase loaded phrasing bureaucratic
+- phrase loaded phrasing vague
+- phrase loaded phrasing muddy
+- loaded phrasing bureaucratic vague
+- loaded phrasing bureaucratic muddy
+- loaded phrasing bureaucratic pretentious
+- loaded phrasing vague muddy
+- loaded phrasing vague pretentious
+- loaded phrasing muddy vague
+- loaded phrasing muddy pretentious
+- loaded phrasing pretentious vague
+- loaded phrasing pretentious muddy
+- loaded phrasing abstract vague
+- loaded phrasing abstract muddy
+- loaded phrasing abstract pretentious
+- compare plain receipt
+- measure plain receipt
+- hold plain receipt
+- preserve plain receipt
+- compare cut receipt
+- measure cut receipt
+- hold cut receipt
+- preserve cut receipt
+- compare short receipt
+- measure short receipt
+- hold short receipt
+- preserve short receipt
+- compare concrete receipt
+- measure concrete receipt
+- hold concrete receipt
+- preserve concrete receipt
+- verbal false limb
+- during plain concrete
+- during plain short
+- during plain clear
+- during plain cut
+- during concrete short
+- during concrete clear
+- during concrete cut
+- during concrete fog
+- during short clear
+- during short cut
+- during short fog

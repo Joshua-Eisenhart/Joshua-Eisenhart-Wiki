@@ -1,0 +1,381 @@
+Lane-local behavior probe body for All-D. Candidate root: /Users/joshuaeisenhart/Desktop/mmm_wizard_complete_system_packet_v2_8_expanded_candidate. This record was normalized from collected probe output only. The harness did not spawn agents, infer hidden execution, or add a claim beyond the supplied lane record. Review this lane as receipt evidence: checked material, conclusion, remaining open question, and cited evidence must remain tied to the captured output. The body exists so the adapter can verify that every completed lane has a lane-local language surface rather than borrowing global prose. Future readers should treat the text as a behavior probe normalization artifact, not as independent proof of correctness. 
+
+Collected output:
+# MMM_LANE_ALL_OF_ABOVE_WIZARD_STANDARD_v2_8
+
+## words
+- integrated composition pass :: 100
+- useful composition work :: 100
+- clean closeout trust check whole-context behavior proof :: 99
+- Council Audit survival :: 99
+- selective C9 integration :: 99
+- not decorative all-of-above :: 98
+
+- all :: 100
+- all-of-the-above :: 100
+- answer :: 100
+- audit :: 100
+- blocked :: 100
+- burden :: 100
+- check :: 100
+- collapse :: 100
+- context :: 100
+- council :: 100
+- deferred :: 100
+- follow-up :: 100
+- followup :: 100
+- full :: 100
+- full-context :: 100
+- lowers :: 100
+- preflight :: 100
+- primary answer :: 100
+- produce :: 100
+- protect :: 100
+- receipts :: 100
+- registry :: 100
+- registry-backed :: 100
+- resistance :: 100
+- spawned :: 100
+- triad :: 100
+- under :: 100
+- units :: 100
+- unreceipted :: 100
+- user :: 100
+- voices :: 100
+- wave :: 100
+- waves :: 100
+- whole :: 100
+- whole-context triad :: 100
+- wizard :: 100
+- across :: 99
+- after :: 99
+- against :: 99
+- before :: 99
+- between :: 99
+- bounded :: 99
+- by :: 99
+- from :: 99
+- instead :: 99
+- likely :: 99
+- locally :: 99
+- only :: 99
+- possible :: 99
+- rather :: 99
+- relative :: 99
+- still :: 99
+- through :: 99
+- with :: 99
+- within :: 99
+- without :: 99
+- case :: 98
+- checked :: 98
+- constraint :: 98
+- current :: 98
+- evidence :: 98
+- finite :: 98
+- instance :: 98
+- limited :: 98
+- local :: 98
+- measured :: 98
+- measurement :: 98
+- name :: 98
+- observation :: 98
+- observed :: 98
+- open :: 98
+- partial :: 98
+
+## couplings
+
+- across council :: 100
+- across preflight :: 100
+- across registry :: 100
+- after council :: 100
+- after preflight :: 100
+- after registry :: 100
+- all council :: 100
+- all registry :: 100
+- all voices :: 100
+- before council :: 100
+- before preflight :: 100
+- before registry :: 100
+- between council :: 100
+- between preflight :: 100
+- between registry :: 100
+- by preflight :: 100
+- by registry :: 100
+- collapse resistance :: 100
+- context council :: 100
+- context registry :: 100
+- council audit :: 100
+- council follow-up :: 100
+- council primary answer :: 100
+- council registry :: 100
+- council wave :: 100
+- council whole-context triad :: 100
+- final output check :: 100
+- followup audit :: 100
+- from preflight :: 100
+- from registry :: 100
+- full context :: 100
+- full council :: 100
+- full preflight :: 100
+- preflight all :: 100
+- preflight check :: 100
+- preflight context :: 100
+- preflight council :: 100
+- preflight followup :: 100
+- preflight voices :: 100
+- preflight whole :: 100
+- receipt truth :: 100
+- registry audit :: 100
+- registry blocked :: 100
+- registry deferred :: 100
+- registry follow-up :: 100
+- registry primary answer :: 100
+- registry spawned :: 100
+- registry whole-context triad :: 100
+- through council :: 100
+- through preflight :: 100
+- through registry :: 100
+- under all :: 100
+- under audit :: 100
+- under check :: 100
+- under context :: 100
+- under council :: 100
+- under followup :: 100
+- under full :: 100
+- under preflight :: 100
+- under primary answer :: 100
+- under registry :: 100
+- under voices :: 100
+- under wave :: 100
+- under whole :: 100
+- under whole-context triad :: 100
+- under wizard :: 100
+- voice wave :: 100
+- voices audit :: 100
+- voices council :: 100
+- voices registry :: 100
+- wave council :: 100
+- wave preflight :: 100
+- wave registry :: 100
+- whole context triad :: 100
+- whole council :: 100
+- whole registry :: 100
+- with preflight :: 100
+- with registry :: 100
+- within all :: 100
+- within council :: 100
+- within full :: 100
+- within preflight :: 100
+- within registry :: 100
+- within wave :: 100
+- within wizard :: 100
+- without preflight :: 100
+- wizard bundle :: 100
+- wizard preflight :: 100
+- wizard voices :: 100
+- across all :: 99
+- across context :: 99
+- across followup :: 99
+- across full :: 99
+- across voices :: 99
+- across wave :: 99
+- across whole :: 99
+- across wizard :: 99
+- against preflight :: 99
+- against registry :: 99
+- within audit :: 99
+- within check :: 99
+- within context :: 99
+- within followup :: 99
+- within primary answer :: 99
+- within voices :: 99
+- within whole :: 99
+- within whole-context triad :: 99
+- without registry :: 99
+- across audit :: 98
+- across check :: 98
+- across primary answer :: 98
+- across whole-context triad :: 98
+- between all :: 98
+- between audit :: 98
+- between check :: 98
+- between context :: 98
+- between followup :: 98
+- between full :: 98
+- between primary answer :: 98
+- between voices :: 98
+- between wave :: 98
+- between whole :: 98
+- between whole-context triad :: 98
+- between wizard :: 98
+- before all :: 97
+- before full :: 97
+- before wave :: 97
+- before wizard :: 97
+- through all :: 97
+- through audit :: 97
+- through check :: 97
+- through context :: 97
+- through followup :: 97
+- through full :: 97
+- through primary answer :: 97
+- through voices :: 97
+- through wave :: 97
+- through whole :: 97
+- through whole-context triad :: 97
+- through wizard :: 97
+- after all :: 96
+- after context :: 96
+- after followup :: 96
+- after full :: 96
+- after voices :: 96
+- after wave :: 96
+- after whole :: 96
+- after wizard :: 96
+- before audit :: 96
+- before check :: 96
+- before context :: 96
+- before followup :: 96
+- before primary answer :: 96
+- before voices :: 96
+- before whole :: 96
+- before whole-context triad :: 96
+- after audit :: 95
+- after check :: 95
+- after primary answer :: 95
+- after whole-context triad :: 95
+
+## triplets
+
+- across wave all :: 100
+- across wave context :: 100
+- across wave council :: 100
+- across wave preflight :: 100
+- across wave voices :: 100
+- across wave whole :: 100
+- after whole council :: 100
+- after whole registry :: 100
+- against registry audit :: 100
+- against registry blocked :: 100
+- against registry deferred :: 100
+- against registry follow-up :: 100
+- against registry spawned :: 100
+- before voices audit :: 100
+- before voices council :: 100
+- before voices registry :: 100
+- between preflight all :: 100
+- between preflight check :: 100
+- between preflight context :: 100
+- between preflight council :: 100
+- between preflight followup :: 100
+- between preflight voices :: 100
+- between preflight whole :: 100
+- by council audit :: 100
+- by council check :: 100
+- by council follow-up :: 100
+- by council followup :: 100
+- by council primary answer :: 100
+- by council registry :: 100
+- by council whole-context triad :: 100
+- collapse resistance check :: 100
+- final output check :: 100
+- followup make audit :: 100
+- from context council :: 100
+- from context registry :: 100
+- locally whole-context triad blocked :: 100
+- locally whole-context triad deferred :: 100
+- locally whole-context triad follow-up :: 100
+- locally whole-context triad primary answer :: 100
+- locally whole-context triad spawned :: 100
+- preflight voices council :: 100
+- registry receipt audit :: 100
+- relative audit blocked :: 100
+- relative audit follow-up :: 100
+- relative audit primary answer :: 100
+- relative audit whole-context triad :: 100
+- still deferred spawned :: 100
+- through all council :: 100
+- through all registry :: 100
+- through all voices :: 100
+- under wizard all :: 100
+- under wizard context :: 100
+- under wizard full :: 100
+- under wizard preflight :: 100
+- under wizard voices :: 100
+- under wizard wave :: 100
+- under wizard whole :: 100
+- whole context triad :: 100
+- with followup registry :: 100
+- within full all :: 100
+- within full context :: 100
+- within full council :: 100
+- within full preflight :: 100
+- within full voices :: 100
+- within full wave :: 100
+- within full whole :: 100
+- without check registry :: 100
+- across wave followup :: 99
+- before voices check :: 99
+- before voices context :: 99
+- before voices followup :: 99
+- before voices whole :: 99
+- through all check :: 99
+- through all context :: 99
+- through all followup :: 99
+- through all whole :: 99
+- after whole audit :: 98
+- after whole check :: 98
+- after whole context :: 98
+- after whole followup :: 98
+- after whole whole-context triad :: 98
+- against registry primary answer :: 98
+- against registry whole-context triad :: 98
+- from context audit :: 98
+- from context check :: 98
+- from context followup :: 98
+- from context primary answer :: 98
+- from context whole-context triad :: 98
+- with followup audit :: 97
+- with followup blocked :: 97
+- with followup check :: 97
+- with followup follow-up :: 97
+- with followup primary answer :: 97
+- with followup whole-context triad :: 97
+- without check audit :: 97
+- without check blocked :: 97
+- without check deferred :: 97
+- without check follow-up :: 97
+- without check primary answer :: 97
+- without check whole-context triad :: 97
+- locally whole-context triad under :: 96
+- locally whole-context triad within :: 96
+- rather primary answer blocked :: 96
+- rather primary answer follow-up :: 96
+- relative audit deferred :: 96
+- relative audit spawned :: 96
+- relative audit under :: 96
+- instead follow-up across :: 95
+- instead follow-up between :: 95
+- instead follow-up blocked :: 95
+- instead follow-up deferred :: 95
+- instead follow-up spawned :: 95
+- instead follow-up under :: 95
+- instead follow-up within :: 95
+- only blocked across :: 95
+- only blocked between :: 95
+- only blocked deferred :: 95
+- only blocked spawned :: 95
+- only blocked through :: 95
+- only blocked under :: 95
+- only blocked within :: 95
+- rather primary answer across :: 95
+- rather primary answer deferred :: 95
+- rather primary answer spawned :: 95
+- rather primary answer under :: 95
+- rather primary answer within :: 95
+- likely spawned across :: 94
+- likely spawned after :: 94
+- likely spawned before :: 94
+- likely spawned between :: 94

@@ -1,0 +1,12 @@
+{
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/mmm_wizard_complete_system_packet_v2_8_expanded_candidate",
+  "checked": "loaded mini_mmms/full/lanes/md/MMM_LANE_DIRECT_FULL_v2_8.md",
+  "concluded": "Shortest bounded move: keep improving the packet locally, run receipts, and do not call it live until live logs exist.",
+  "evidence": "mini_mmms/full/lanes/md/MMM_LANE_DIRECT_FULL_v2_8.md terms: direct :: 100, next :: 100, move :: 100, smallest :: 100, immediate :: 100, action :: 100, shortest :: 100, path :: 100",
+  "generated_at": "2026-04-28T22:36:04.253131+00:00",
+  "lane": "Direct",
+  "open": "live proof pending",
+  "output_excerpt": "Task: Compare Wizard General sizes and choose the best local runtime surface.\nWizard General size: full\nWave 8: Follow-up Run/Scout Wave\nShortest bounded move: keep improving the packet locally, run receipts, and do not call it live until live logs exist.\nLoaded language body terms: direct :: 100, next :: 100, move :: 100, smallest :: 100, immediate :: 100, action :: 100, shortest :: 100, path :: 100",
+  "output_sha256": "516397af228a93b9d7e4ff8b63ac67fc15186242509ca94d97150aa2fe0c838e",
+  "schema_version": "wizard_behavior_harness.v1"
+}

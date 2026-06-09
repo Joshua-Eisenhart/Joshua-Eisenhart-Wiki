@@ -1,0 +1,12 @@
+{
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate",
+  "checked": "loaded mini_mmms/full/lanes/md/MMM_LANE_ALTERNATIVE_FULL_v2_7.md",
+  "concluded": "Second route: keep this local runner as the stable gate while Opus or other external reviewers remain optional.",
+  "evidence": "mini_mmms/full/lanes/md/MMM_LANE_ALTERNATIVE_FULL_v2_7.md terms: second path, different assumption, language body, better if, worse if, alternative, second, route",
+  "generated_at": "2026-04-28T08:22:15.046153+00:00",
+  "lane": "Alternative",
+  "open": "live proof pending",
+  "output_excerpt": "Task: Improve and locally run the repaired MMM Wizard packet without live wiring.\nWizard General size: full\nWave 8: Follow-up Run/Scout Wave\nSecond route: keep this local runner as the stable gate while Opus or other external reviewers remain optional.\nLoaded language body terms: second path, different assumption, language body, better if, worse if, alternative, second, route",
+  "output_sha256": "445517c38224427608e7f74c99b9c3abaf1add5974fa158194789175050b1fb5",
+  "schema_version": "wizard_behavior_harness.v1"
+}

@@ -1,0 +1,430 @@
+---
+title: Factory
+created: 2026-04-28
+updated: 2026-04-28
+type: concept
+tags: [wizard, mmm, packet, receipt]
+framing: current
+source_path: runs/wizard_full_format_repair_latest/mini_mmm/factory.md
+---
+
+Lane-local behavior probe body for Factory. Candidate root: /Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate. This record was normalized from collected probe output only. The harness did not spawn agents, infer hidden execution, or add a claim beyond the supplied lane record. Review this lane as receipt evidence: checked material, conclusion, remaining open question, and cited evidence must remain tied to the captured output. The body exists so the adapter can verify that every completed lane has a lane-local language surface rather than borrowing global prose. Future readers should treat the text as a behavior probe normalization artifact, not as independent proof of correctness. 
+
+Collected output:
+# MMM_VOICE_FACTORY_FULL_v2_7
+
+## aligned nouns and phrases
+
+- theory of constraints
+- system constraint
+- throughput accounting
+- bottleneck control
+- work in process
+- queue length
+- bottleneck reinput
+- flow efficiency
+- continuous improvement
+- work in progress
+- rate-limiter
+- choke point
+- cycle time
+- standard work
+- language body
+- factory
+- throughput
+- bottleneck
+- queue
+- handoff
+- workcell
+- flow
+- capacity
+- latency
+- batch
+- work
+- progress
+- wip
+- maintenance
+- repeatability
+- template
+- standard
+- ownership
+- checklist
+- kanban
+- drum
+- buffer
+- rope
+- choke
+- point
+- constraint
+- rate
+- limiter
+- drag
+- rework
+- scrap
+- cycle
+- time
+- leverage
+- workstream
+- unblock
+- inventory
+- blocked
+- waiting
+- packet
+- outside
+- only
+- then
+- bounded
+- finite
+- open
+- distinct
+- concrete
+- observed
+- missing
+- small
+- honest
+- first
+- prior
+- separate
+- together
+- compared
+- measured
+- used
+- fit
+- viable
+- direct
+- different
+- alternate
+- branch
+- path
+- artifact
+- receipt
+- trace
+- result
+- support
+- evidence
+- scope
+- boundary
+- gate
+- guard
+- rung
+- status
+- candidate
+- survivor
+- witness
+- probe
+- name
+- use
+- role
+- practice
+- experience
+- observation
+- perception
+- conjunction
+- resemblance
+- relation
+- probability
+- particular
+- predicate
+- class
+- model
+- solver
+- satisfiable
+- unsatisfiable
+- countermodel
+- counterexample
+- equivalence
+- indistinguishable
+- readout
+- measure
+- measurement
+- operation
+- procedure
+- instrument
+- experiment
+- check
+- verify
+- compare
+- sample
+- route
+- lane
+- voice
+- lens
+- council
+- audit
+- finding
+- blocker
+- deferred
+- spawned
+- diagnostic
+- untried
+- preload
+- language
+- body
+- during
+- since
+- toward
+- relative
+- according
+- locally
+- jointly
+- separately
+- rather
+- instead
+- still
+- often
+- sometimes
+- usually
+- seems
+- likely
+- possible
+- plausible
+- tentative
+- provisional
+- partial
+- limited
+
+## correlated couplings
+
+- bottleneck evidence
+- bottleneck support
+- bottleneck packet
+- bottleneck receipt
+- bottleneck trace
+- bottleneck result
+- bottleneck scope
+- bottleneck boundary
+- bottleneck witness
+- bottleneck probe
+- bottleneck constraint
+- compare bottleneck
+- measure bottleneck
+- hold bottleneck
+- preserve bottleneck
+- split bottleneck
+- narrow bottleneck
+- queue evidence
+- queue support
+- queue packet
+- queue receipt
+- queue trace
+- queue result
+- queue scope
+- queue boundary
+- queue witness
+- queue probe
+- queue constraint
+- compare queue
+- measure queue
+- hold queue
+- preserve queue
+- split queue
+- narrow queue
+- throughput evidence
+- throughput support
+- throughput packet
+- throughput receipt
+- throughput trace
+- throughput result
+- throughput scope
+- throughput boundary
+- throughput witness
+- throughput probe
+- throughput constraint
+- compare throughput
+- measure throughput
+- hold throughput
+- preserve throughput
+- split throughput
+- narrow throughput
+- handoff evidence
+- handoff support
+- handoff packet
+- handoff receipt
+- handoff trace
+- handoff result
+- handoff scope
+- handoff boundary
+- handoff witness
+- handoff probe
+- handoff constraint
+- compare handoff
+- measure handoff
+- hold handoff
+- preserve handoff
+- split handoff
+- narrow handoff
+- choke evidence
+- choke support
+- choke packet
+- choke receipt
+- choke trace
+- choke result
+- choke scope
+- choke boundary
+- choke witness
+- choke probe
+- choke constraint
+- compare choke
+- measure choke
+- hold choke
+- preserve choke
+- split choke
+- narrow choke
+- leverage evidence
+- leverage support
+- leverage packet
+- leverage receipt
+- leverage trace
+- leverage result
+- leverage scope
+- leverage boundary
+- leverage witness
+- leverage probe
+- leverage constraint
+- compare leverage
+- measure leverage
+- hold leverage
+- preserve leverage
+- split leverage
+- narrow leverage
+- drag evidence
+- drag support
+- drag packet
+- drag receipt
+- drag trace
+- drag result
+- drag scope
+- drag boundary
+- drag witness
+- drag probe
+- drag constraint
+- compare drag
+- measure drag
+- hold drag
+- preserve drag
+- split drag
+- narrow drag
+- workstream evidence
+- workstream support
+- workstream packet
+- workstream receipt
+- workstream trace
+- workstream result
+- workstream scope
+- workstream boundary
+- workstream witness
+- workstream probe
+- workstream constraint
+- compare workstream
+- measure workstream
+- hold workstream
+- preserve workstream
+- split workstream
+- narrow workstream
+- maintenance evidence
+- maintenance support
+- maintenance packet
+- maintenance receipt
+- maintenance trace
+- maintenance result
+- maintenance scope
+- maintenance boundary
+- maintenance witness
+- maintenance probe
+- maintenance constraint
+- compare maintenance
+- measure maintenance
+- hold maintenance
+- preserve maintenance
+- split maintenance
+- narrow maintenance
+- unblock evidence
+- unblock support
+- unblock packet
+- unblock receipt
+- unblock trace
+- unblock result
+- bottleneck control
+
+## three-part cues
+
+- compare bottleneck receipt
+- measure bottleneck receipt
+- hold bottleneck receipt
+- preserve bottleneck receipt
+- compare queue receipt
+- measure queue receipt
+- hold queue receipt
+- preserve queue receipt
+- compare throughput receipt
+- measure throughput receipt
+- hold throughput receipt
+- preserve throughput receipt
+- compare handoff receipt
+- measure handoff receipt
+- hold handoff receipt
+- preserve handoff receipt
+- during factory throughput
+- during factory bottleneck
+- during factory queue
+- during factory handoff
+- during throughput bottleneck
+- during throughput queue
+- during throughput handoff
+- during throughput workcell
+- during bottleneck queue
+- during bottleneck handoff
+- during bottleneck workcell
+- during bottleneck flow
+- during queue handoff
+- during queue workcell
+- during queue flow
+- during queue capacity
+- during handoff workcell
+- during handoff flow
+- during handoff capacity
+- during handoff latency
+- during workcell flow
+- during workcell capacity
+- during workcell latency
+- during workcell batch
+- during flow capacity
+- during flow latency
+- during flow batch
+- during flow work
+- during capacity latency
+- during capacity batch
+- during capacity work
+- during capacity progress
+- during latency batch
+- during latency work
+- during latency progress
+- during latency wip
+- during batch work
+- during batch progress
+- during batch wip
+- during batch maintenance
+- during work progress
+- during work wip
+- during work maintenance
+- during work repeatability
+- during progress wip
+- during progress maintenance
+- during progress repeatability
+- during progress template
+- during wip maintenance
+- during wip repeatability
+- during wip template
+- during wip standard
+- during maintenance repeatability
+- during maintenance template
+- during maintenance standard
+- during maintenance ownership
+- during repeatability template
+- during repeatability standard
+- during repeatability ownership
+- during repeatability checklist
+- during template standard
+- during template ownership
+- during template checklist
+- bottleneck control

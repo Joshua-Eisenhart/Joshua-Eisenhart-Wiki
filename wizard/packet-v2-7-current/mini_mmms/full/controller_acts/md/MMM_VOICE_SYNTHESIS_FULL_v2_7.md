@@ -1,0 +1,419 @@
+---
+title: Mmm Voice Synthesis Full V2 7
+created: 2026-04-28
+updated: 2026-04-28
+type: concept
+tags: [wizard, mmm, packet, receipt]
+framing: current
+source_path: mini_mmms/full/controller_acts/md/MMM_VOICE_SYNTHESIS_FULL_v2_7.md
+---
+
+# MMM_VOICE_SYNTHESIS_FULL_v2_7
+
+## aligned nouns and phrases
+
+- held apart
+- surviving split
+- bounded exclusion
+- controller act
+- preserved difference
+- live remainder
+- language body
+- synthesis
+- compose
+- composition
+- receipt
+- distinct
+- preserve
+- carry
+- merge
+- nonmerge
+- tension
+- split
+- surviving
+- difference
+- convergence
+- divergence
+- dropped
+- thread
+- controller
+- act
+- structure
+- boundary
+- excluded
+- unresolved
+- contradiction
+- refusal
+- pair
+- compare
+- visible
+- dissent
+- aside
+- outside
+- only
+- then
+- bounded
+- finite
+- open
+- concrete
+- observed
+- missing
+- small
+- honest
+- first
+- prior
+- separate
+- together
+- compared
+- measured
+- used
+- fit
+- viable
+- direct
+- different
+- alternate
+- branch
+- path
+- packet
+- artifact
+- trace
+- result
+- support
+- evidence
+- scope
+- gate
+- guard
+- rung
+- status
+- candidate
+- survivor
+- witness
+- probe
+- constraint
+- name
+- use
+- role
+- practice
+- experience
+- observation
+- perception
+- conjunction
+- resemblance
+- relation
+- probability
+- particular
+- predicate
+- class
+- model
+- solver
+- satisfiable
+- unsatisfiable
+- countermodel
+- counterexample
+- equivalence
+- indistinguishable
+- readout
+- measure
+- measurement
+- operation
+- procedure
+- instrument
+- experiment
+- check
+- verify
+- sample
+- route
+- lane
+- voice
+- lens
+- council
+- audit
+- finding
+- blocker
+- deferred
+- blocked
+- spawned
+- diagnostic
+- untried
+- preload
+- language
+- body
+- during
+- since
+- toward
+- relative
+- according
+- locally
+- jointly
+- separately
+- rather
+- instead
+- still
+- often
+- sometimes
+- usually
+- seems
+- likely
+- possible
+- plausible
+- tentative
+- provisional
+- partial
+- limited
+- case
+- instance
+- word
+- regularity
+- distinction
+- similarity
+- comparison
+- inference
+- estimate
+- uncertainty
+- frequency
+
+## correlated couplings
+
+- named surviving split
+- divergence surviving split
+- dropped surviving split
+- dropped bounded exclusion
+- thread surviving split
+- thread bounded exclusion
+- receipt evidence
+- receipt support
+- receipt packet
+- receipt trace
+- receipt result
+- receipt scope
+- receipt boundary
+- receipt witness
+- receipt probe
+- receipt constraint
+- compare receipt
+- measure receipt
+- hold receipt
+- preserve receipt
+- split receipt
+- narrow receipt
+- preserve evidence
+- preserve support
+- preserve packet
+- preserve trace
+- preserve result
+- preserve scope
+- preserve boundary
+- preserve witness
+- preserve probe
+- preserve constraint
+- compare preserve
+- measure preserve
+- hold preserve
+- split preserve
+- narrow preserve
+- distinct evidence
+- distinct support
+- distinct packet
+- distinct receipt
+- distinct trace
+- distinct result
+- distinct scope
+- distinct boundary
+- distinct witness
+- distinct probe
+- distinct constraint
+- compare distinct
+- measure distinct
+- hold distinct
+- preserve distinct
+- split distinct
+- narrow distinct
+- refusal evidence
+- refusal support
+- refusal packet
+- refusal receipt
+- refusal trace
+- refusal result
+- refusal scope
+- refusal boundary
+- refusal witness
+- refusal probe
+- refusal constraint
+- compare refusal
+- measure refusal
+- hold refusal
+- preserve refusal
+- split refusal
+- narrow refusal
+- merge evidence
+- merge support
+- merge packet
+- merge receipt
+- merge trace
+- merge result
+- merge scope
+- merge boundary
+- merge witness
+- merge probe
+- merge constraint
+- compare merge
+- measure merge
+- hold merge
+- preserve merge
+- split merge
+- narrow merge
+- pair evidence
+- pair support
+- pair packet
+- pair receipt
+- pair trace
+- pair result
+- pair scope
+- pair boundary
+- pair witness
+- pair probe
+- pair constraint
+- compare pair
+- measure pair
+- hold pair
+- preserve pair
+- split pair
+- narrow pair
+- tension evidence
+- tension support
+- tension packet
+- tension receipt
+- tension trace
+- tension result
+- tension scope
+- tension boundary
+- tension witness
+- tension probe
+- tension constraint
+- compare tension
+- measure tension
+- hold tension
+- preserve tension
+- split tension
+- narrow tension
+- held evidence
+- held support
+- held packet
+- held receipt
+- held trace
+- held result
+- held scope
+- held boundary
+- held witness
+- held probe
+- held constraint
+- compare held
+- measure held
+- hold held
+- preserve held
+- split held
+- narrow held
+- compare evidence
+- compare support
+- compare packet
+- compare trace
+- compare result
+- compare scope
+- compare boundary
+- compare witness
+- compare probe
+- compare constraint
+- surviving split
+- bounded exclusion
+- controller act
+- preserved difference
+- live remainder
+- during synthesis
+- during compose
+- during composition
+- during receipt
+- during distinct
+- during preserve
+
+## three-part cues
+
+- structure surviving split not merged
+- structure surviving split not collapsed
+- structure surviving split held apart
+- boundary not merged surviving split
+- boundary not collapsed surviving split
+- boundary held apart surviving split
+- boundary surviving split not collapsed
+- boundary surviving split held apart
+- boundary excluded surviving split
+- compare preserve receipt
+- measure preserve receipt
+- hold preserve receipt
+- compare distinct receipt
+- measure distinct receipt
+- hold distinct receipt
+- preserve distinct receipt
+- compare refusal receipt
+- measure refusal receipt
+- hold refusal receipt
+- preserve refusal receipt
+- during synthesis compose
+- during synthesis composition
+- during synthesis receipt
+- during synthesis distinct
+- during compose composition
+- during compose receipt
+- during compose distinct
+- during compose preserve
+- during composition receipt
+- during composition distinct
+- during composition preserve
+- during composition carry
+- during receipt distinct
+- during receipt preserve
+- during receipt carry
+- during receipt merge
+- during distinct preserve
+- during distinct carry
+- during distinct merge
+- during distinct nonmerge
+- during preserve carry
+- during preserve merge
+- during preserve nonmerge
+- during preserve tension
+- during carry merge
+- during carry nonmerge
+- during carry tension
+- during carry split
+- during merge nonmerge
+- during merge tension
+- during merge split
+- during merge surviving
+- during nonmerge tension
+- during nonmerge split
+- during nonmerge surviving
+- during nonmerge difference
+- during tension split
+- during tension surviving
+- during tension difference
+- during tension held
+- during split surviving
+- during split difference
+- during split held
+- during surviving difference
+- during surviving held
+- during surviving accepted
+- during difference held
+- during difference accepted
+- during difference convergence
+- during held accepted
+- during held convergence
+- during held named
+- during accepted convergence
+- during accepted named
+- during accepted divergence
+- during accepted dropped
+- during convergence named
+- during convergence divergence
+- during convergence dropped
+- during convergence thread

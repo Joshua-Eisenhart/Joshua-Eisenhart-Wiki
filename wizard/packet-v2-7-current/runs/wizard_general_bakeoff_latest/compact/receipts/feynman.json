@@ -1,0 +1,12 @@
+{
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate",
+  "checked": "loaded mini_mmms/compact/voices/md/MMM_VOICE_FEYNMAN_COMPACT_v2_7.md",
+  "concluded": "Operational test: load packet files, produce lane receipts, validate the final answer, and package only after hashes match.",
+  "evidence": "mini_mmms/compact/voices/md/MMM_VOICE_FEYNMAN_COMPACT_v2_7.md terms: what would count, cargo cult science, simple example, real measurement, simple case, toy model, what changes, experiment as judge",
+  "generated_at": "2026-04-28T08:03:24.994347+00:00",
+  "lane": "Feynman",
+  "open": "live proof pending",
+  "output_excerpt": "Task: Compare Wizard General sizes and choose the best local runtime surface.\nWizard General size: compact\nWave 1: Voice Wave\nOperational test: load packet files, produce lane receipts, validate the final answer, and package only after hashes match.\nLoaded language body terms: what would count, cargo cult science, simple example, real measurement, simple case, toy model, what changes, experiment as judge",
+  "output_sha256": "8a19288e2dae8543f237304cb5adfefb2615db0a38aceb5f47217cac5c47dfcf",
+  "schema_version": "wizard_behavior_harness.v1"
+}

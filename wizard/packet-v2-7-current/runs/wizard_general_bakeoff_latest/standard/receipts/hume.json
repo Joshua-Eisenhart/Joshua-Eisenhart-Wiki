@@ -1,0 +1,12 @@
+{
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate",
+  "checked": "loaded mini_mmms/standard/voices/md/MMM_VOICE_HUME_STANDARD_v2_7.md",
+  "concluded": "Measured judgment: the evidence supports local dry-run readiness, while live-agent confidence remains unearned.",
+  "evidence": "mini_mmms/standard/voices/md/MMM_VOICE_HUME_STANDARD_v2_7.md terms: evidence-scoped judgment, receipt grounded, claim ceiling, support level, credible but open, bounded confidence, what was checked, what remains open",
+  "generated_at": "2026-04-28T08:03:25.030686+00:00",
+  "lane": "Hume",
+  "open": "live proof pending",
+  "output_excerpt": "Task: Compare Wizard General sizes and choose the best local runtime surface.\nWizard General size: standard\nWave 1: Voice Wave\nMeasured judgment: the evidence supports local dry-run readiness, while live-agent confidence remains unearned.\nLoaded language body terms: evidence-scoped judgment, receipt grounded, claim ceiling, support level, credible but open, bounded confidence, what was checked, what remains open",
+  "output_sha256": "781593efba20d15d7c3edacf021a4dd095a4e8665c47f515a514e77915ebdf9f",
+  "schema_version": "wizard_behavior_harness.v1"
+}

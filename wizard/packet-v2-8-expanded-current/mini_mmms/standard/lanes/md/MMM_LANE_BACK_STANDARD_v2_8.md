@@ -1,0 +1,372 @@
+# MMM_LANE_BACK_STANDARD_v2_8
+
+## words
+
+- actual :: 100
+- apart :: 100
+- back :: 100
+- branch :: 100
+- branch context :: 100
+- careful :: 100
+- checked :: 100
+- choice :: 100
+- compared :: 100
+- concrete :: 100
+- context :: 100
+- decision :: 100
+- distinct :: 100
+- earlier :: 100
+- first :: 100
+- fit :: 100
+- found :: 100
+- frame :: 100
+- held :: 100
+- honest :: 100
+- inferred :: 100
+- interactive :: 100
+- known :: 100
+- last :: 100
+- later :: 100
+- live :: 100
+- named :: 100
+- narrow :: 100
+- navigation :: 100
+- next :: 100
+- no branch :: 100
+- observed :: 100
+- path :: 100
+- plain :: 100
+- previous :: 100
+- previous surface :: 100
+- prior :: 100
+- prior branch :: 100
+- restore :: 100
+- resume :: 100
+- return :: 100
+- returned :: 100
+- revisit :: 100
+- route :: 100
+- separate :: 100
+- stale :: 100
+- surface :: 100
+- target :: 100
+- undo :: 100
+- unknown :: 100
+- used :: 100
+- warm :: 100
+- across :: 99
+- after :: 99
+- against :: 99
+- along :: 99
+- among :: 99
+- around :: 99
+- before :: 99
+- beside :: 99
+- between :: 99
+- inside :: 99
+- near :: 99
+- outside :: 99
+- through :: 99
+- under :: 99
+- until :: 99
+- where :: 99
+- while :: 99
+- within :: 99
+- bounded :: 98
+- current :: 98
+
+## couplings
+
+- across back :: 100
+- across resume :: 100
+- after back :: 100
+- back boundary :: 100
+- back candidate :: 100
+- back constraint :: 100
+- back evidence :: 100
+- back navigation :: 100
+- back packet :: 100
+- back path :: 100
+- back previous :: 100
+- back probe :: 100
+- back receipt :: 100
+- back result :: 100
+- back resume :: 100
+- back return :: 100
+- back scope :: 100
+- back status :: 100
+- back support :: 100
+- back surface :: 100
+- back trace :: 100
+- back undo :: 100
+- back witness :: 100
+- before back :: 100
+- before resume :: 100
+- between back :: 100
+- between resume :: 100
+- check back :: 100
+- check resume :: 100
+- check return :: 100
+- compare back :: 100
+- compare resume :: 100
+- compare return :: 100
+- hold back :: 100
+- hold resume :: 100
+- hold return :: 100
+- last choice :: 100
+- measure back :: 100
+- measure resume :: 100
+- measure return :: 100
+- narrow back :: 100
+- narrow resume :: 100
+- narrow return :: 100
+- navigation branch context :: 100
+- navigation no branch :: 100
+- observe back :: 100
+- observe resume :: 100
+- observe return :: 100
+- preserve back :: 100
+- preserve resume :: 100
+- preserve return :: 100
+- previous branch :: 100
+- previous context :: 100
+- previous resume :: 100
+- previous surface :: 100
+- previous surface branch context :: 100
+- previous surface navigation :: 100
+- previous surface no branch :: 100
+- previous surface target :: 100
+- prior branch navigation :: 100
+- prior branch previous surface :: 100
+- prior decision :: 100
+- prior surface :: 100
+- restore navigation :: 100
+- restore previous surface :: 100
+- restore thread :: 100
+- resume boundary :: 100
+- resume candidate :: 100
+- resume constraint :: 100
+- resume context :: 100
+- resume evidence :: 100
+- resume packet :: 100
+- resume path :: 100
+- resume previous surface :: 100
+- resume prior branch :: 100
+- resume probe :: 100
+- resume receipt :: 100
+- resume restore :: 100
+- resume result :: 100
+- resume scope :: 100
+- resume status :: 100
+- resume support :: 100
+- resume surface :: 100
+- resume trace :: 100
+- resume undo :: 100
+- resume witness :: 100
+- return boundary :: 100
+- return candidate :: 100
+- return constraint :: 100
+- return evidence :: 100
+- return packet :: 100
+- return path :: 100
+- return point :: 100
+- return previous :: 100
+- return probe :: 100
+- return receipt :: 100
+- return result :: 100
+- return resume :: 100
+- return scope :: 100
+- return status :: 100
+- return support :: 100
+- return surface :: 100
+- return trace :: 100
+- return undo :: 100
+- return witness :: 100
+- split back :: 100
+- split resume :: 100
+- split return :: 100
+- target navigation :: 100
+- test back :: 100
+- test resume :: 100
+- test return :: 100
+- through back :: 100
+- through resume :: 100
+- under back :: 100
+- under resume :: 100
+- undo previous surface :: 100
+- until back :: 100
+- verify back :: 100
+- verify resume :: 100
+- verify return :: 100
+- where back :: 100
+- where return :: 100
+- while back :: 100
+- while return :: 100
+- within back :: 100
+- within resume :: 100
+- across prior :: 99
+- between prior :: 99
+- through prior :: 99
+- under prior :: 99
+- within prior :: 99
+- after prior :: 98
+- before prior :: 98
+- prior boundary :: 98
+- prior candidate :: 98
+- prior constraint :: 98
+- prior evidence :: 98
+- prior packet :: 98
+- prior path :: 98
+- prior probe :: 98
+- prior receipt :: 98
+- prior result :: 98
+- prior scope :: 98
+- prior status :: 98
+- prior support :: 98
+- prior trace :: 98
+- prior witness :: 98
+- until prior :: 98
+- where prior :: 98
+- while prior :: 98
+- across previous :: 97
+- after previous :: 97
+- before previous :: 97
+- between previous :: 97
+- check prior :: 97
+- compare prior :: 97
+- hold prior :: 97
+- measure prior :: 97
+- narrow prior :: 97
+
+## triplets
+
+- across bounded back :: 100
+- across current back :: 100
+- across finite back :: 100
+- across live back :: 100
+- across local back :: 100
+- across open back :: 100
+- after resume previous surface :: 100
+- after resume prior branch :: 100
+- back boundary path :: 100
+- back evidence path :: 100
+- back navigation choice :: 100
+- back packet path :: 100
+- back path path :: 100
+- back receipt path :: 100
+- back result path :: 100
+- back scope path :: 100
+- back support path :: 100
+- back surface path :: 100
+- back trace path :: 100
+- before live back :: 100
+- before open back :: 100
+- between current back :: 100
+- between live back :: 100
+- between local back :: 100
+- between open back :: 100
+- check back receipt :: 100
+- compare back receipt :: 100
+- from undo previous surface :: 100
+- hold back receipt :: 100
+- instead navigation branch context :: 100
+- instead navigation no branch :: 100
+- locally previous surface branch context :: 100
+- locally previous surface navigation :: 100
+- locally previous surface no branch :: 100
+- locally previous surface target :: 100
+- measure back receipt :: 100
+- observe back receipt :: 100
+- preserve back receipt :: 100
+- previous branch resume :: 100
+- previous surface path :: 100
+- relative prior branch navigation :: 100
+- relative prior branch previous surface :: 100
+- restore context thread :: 100
+- return evidence path :: 100
+- return prior surface :: 100
+- return support path :: 100
+- test back receipt :: 100
+- through live back :: 100
+- through open back :: 100
+- under bounded back :: 100
+- under current back :: 100
+- under finite back :: 100
+- under live back :: 100
+- under live return :: 100
+- under local back :: 100
+- under open back :: 100
+- verify back receipt :: 100
+- with restore previous surface :: 100
+- within bounded back :: 100
+- within current back :: 100
+- within finite back :: 100
+- within live back :: 100
+- within local back :: 100
+- within open back :: 100
+- before bounded back :: 99
+- before current back :: 99
+- before finite back :: 99
+- before local back :: 99
+- between bounded back :: 99
+- between finite back :: 99
+- through bounded back :: 99
+- through current back :: 99
+- through finite back :: 99
+- through local back :: 99
+- under open return :: 99
+- under bounded prior :: 98
+- under current prior :: 98
+- under finite prior :: 98
+- under live prior :: 98
+- under local prior :: 98
+- under open prior :: 98
+- across bounded prior :: 97
+- across current prior :: 97
+- across finite prior :: 97
+- across live prior :: 97
+- across local prior :: 97
+- across open prior :: 97
+- between bounded prior :: 97
+- between current prior :: 97
+- between finite prior :: 97
+- between live prior :: 97
+- between local prior :: 97
+- between open prior :: 97
+- through current prior :: 97
+- through local prior :: 97
+- under back previous :: 97
+- under back resume :: 97
+- under back return :: 97
+- under back undo :: 97
+- within bounded prior :: 97
+- within current prior :: 97
+- within finite prior :: 97
+- within live prior :: 97
+- within local prior :: 97
+- within open prior :: 97
+- within return previous :: 97
+- within return resume :: 97
+- within return undo :: 97
+- after resume restore :: 96
+- after resume undo :: 96
+- before bounded prior :: 96
+- before current prior :: 96
+- before finite prior :: 96
+- before live prior :: 96
+- before local prior :: 96
+- before open prior :: 96
+- prior boundary path :: 96
+- prior evidence path :: 96
+- prior packet path :: 96
+- prior path path :: 96
+- prior receipt path :: 96
+- prior result path :: 96
+- prior scope path :: 96
+- prior support path :: 96
+- prior surface path :: 96
+- prior trace path :: 96
+- through bounded prior :: 96
+- through finite prior :: 96
+- through live prior :: 96
+- through open prior :: 96

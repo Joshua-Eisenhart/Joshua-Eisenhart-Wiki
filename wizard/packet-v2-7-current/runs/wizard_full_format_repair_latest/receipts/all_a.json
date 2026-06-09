@@ -1,0 +1,12 @@
+{
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate",
+  "checked": "loaded mini_mmms/full/compositions/md/MMM_LANE_ALL_A_FULL_v2_7.md",
+  "concluded": "All-A compilation: deterministic repair checks for taxonomy, schema, boot text, validators, and packaging.",
+  "evidence": "mini_mmms/full/compositions/md/MMM_LANE_ALL_A_FULL_v2_7.md terms: direct move, risky claim, observable check, loop or sequence, alternative route, audit result, retreat condition, systems-or-strategy",
+  "generated_at": "2026-04-28T08:22:15.046153+00:00",
+  "lane": "All-A",
+  "open": "live proof pending",
+  "output_excerpt": "Task: Improve and locally run the repaired MMM Wizard packet without live wiring.\nWizard General size: full\nWave 7: Follow-up Make Wave\nAll-A compilation: deterministic repair checks for taxonomy, schema, boot text, validators, and packaging.\nLoaded language body terms: direct move, risky claim, observable check, loop or sequence, alternative route, audit result, retreat condition, systems-or-strategy",
+  "output_sha256": "41c19eb92750a02d710174a3be283e67722b5f3c7a5d12c0418d45bafe069715",
+  "schema_version": "wizard_behavior_harness.v1"
+}

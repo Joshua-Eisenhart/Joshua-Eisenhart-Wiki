@@ -1,0 +1,12 @@
+{
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate",
+  "checked": "loaded mini_mmms/full/voices/md/MMM_VOICE_ORWELL_FULL_v2_7.md",
+  "concluded": "Plain wording rule: metadata belongs in JSON; boot-visible Markdown should carry language, not labels.",
+  "evidence": "mini_mmms/full/voices/md/MMM_VOICE_ORWELL_FULL_v2_7.md terms: politics and english language, verbal false limb, loaded phrasing, dying metaphor, pretentious diction, meaningless word, cut a word, short word",
+  "generated_at": "2026-04-28T08:03:25.064055+00:00",
+  "lane": "Orwell",
+  "open": "live proof pending",
+  "output_excerpt": "Task: Compare Wizard General sizes and choose the best local runtime surface.\nWizard General size: full\nWave 1: Voice Wave\nPlain wording rule: metadata belongs in JSON; boot-visible Markdown should carry language, not labels.\nLoaded language body terms: politics and english language, verbal false limb, loaded phrasing, dying metaphor, pretentious diction, meaningless word, cut a word, short word",
+  "output_sha256": "196f21089309ed680b64c79c8881f1ebf237379219e61cb80f79b4e430d34956",
+  "schema_version": "wizard_behavior_harness.v1"
+}

@@ -1,0 +1,2063 @@
+{
+  "words": [
+    [
+      1,
+      "setup",
+      100
+    ],
+    [
+      2,
+      "example",
+      100
+    ],
+    [
+      3,
+      "observable",
+      100
+    ],
+    [
+      4,
+      "procedure",
+      100
+    ],
+    [
+      5,
+      "instrument",
+      100
+    ],
+    [
+      6,
+      "operation",
+      100
+    ],
+    [
+      7,
+      "readout",
+      100
+    ],
+    [
+      8,
+      "check",
+      100
+    ],
+    [
+      9,
+      "simple example",
+      100
+    ],
+    [
+      10,
+      "real measurement",
+      100
+    ],
+    [
+      11,
+      "check the answer",
+      100
+    ],
+    [
+      12,
+      "apparatus",
+      100
+    ],
+    [
+      13,
+      "calibration",
+      100
+    ],
+    [
+      14,
+      "physical",
+      100
+    ],
+    [
+      15,
+      "simple case",
+      100
+    ],
+    [
+      16,
+      "toy model",
+      100
+    ],
+    [
+      17,
+      "threshold",
+      100
+    ],
+    [
+      18,
+      "control",
+      100
+    ],
+    [
+      19,
+      "baseline",
+      100
+    ],
+    [
+      20,
+      "repeat",
+      100
+    ],
+    [
+      21,
+      "what changes",
+      100
+    ],
+    [
+      22,
+      "what would count",
+      100
+    ],
+    [
+      23,
+      "pass",
+      100
+    ],
+    [
+      24,
+      "signal",
+      100
+    ],
+    [
+      25,
+      "noise",
+      100
+    ],
+    [
+      26,
+      "measurement",
+      100
+    ],
+    [
+      27,
+      "trial",
+      100
+    ],
+    [
+      28,
+      "fail",
+      100
+    ],
+    [
+      29,
+      "run",
+      100
+    ],
+    [
+      30,
+      "experiment as judge",
+      100
+    ],
+    [
+      31,
+      "physical law",
+      100
+    ],
+    [
+      32,
+      "apparatus reading",
+      100
+    ],
+    [
+      33,
+      "experiment",
+      100
+    ],
+    [
+      34,
+      "measure",
+      100
+    ],
+    [
+      35,
+      "concrete",
+      100
+    ],
+    [
+      36,
+      "compare",
+      100
+    ],
+    [
+      37,
+      "checked",
+      100
+    ],
+    [
+      38,
+      "test",
+      100
+    ],
+    [
+      39,
+      "result",
+      100
+    ],
+    [
+      40,
+      "counterexample",
+      100
+    ],
+    [
+      41,
+      "demonstration",
+      100
+    ],
+    [
+      42,
+      "intuition",
+      100
+    ],
+    [
+      43,
+      "picture",
+      100
+    ],
+    [
+      44,
+      "diagram",
+      100
+    ],
+    [
+      45,
+      "mechanism",
+      100
+    ],
+    [
+      46,
+      "knob",
+      100
+    ],
+    [
+      47,
+      "scale",
+      100
+    ],
+    [
+      48,
+      "unit",
+      100
+    ],
+    [
+      49,
+      "energy",
+      100
+    ],
+    [
+      50,
+      "particle",
+      100
+    ],
+    [
+      51,
+      "field",
+      100
+    ],
+    [
+      52,
+      "hands",
+      100
+    ],
+    [
+      53,
+      "worked",
+      100
+    ],
+    [
+      54,
+      "cargo cult science",
+      100
+    ],
+    [
+      55,
+      "scientific integrity",
+      100
+    ],
+    [
+      56,
+      "not fool yourself",
+      100
+    ],
+    [
+      57,
+      "criterion",
+      100
+    ],
+    [
+      58,
+      "measurable",
+      100
+    ],
+    [
+      59,
+      "input",
+      100
+    ],
+    [
+      60,
+      "compared",
+      100
+    ],
+    [
+      61,
+      "measured",
+      100
+    ],
+    [
+      62,
+      "rung",
+      100
+    ],
+    [
+      63,
+      "simple",
+      100
+    ],
+    [
+      64,
+      "motion",
+      100
+    ],
+    [
+      65,
+      "amplitude",
+      100
+    ],
+    [
+      66,
+      "atom",
+      100
+    ],
+    [
+      67,
+      "both",
+      100
+    ],
+    [
+      68,
+      "calculation",
+      100
+    ],
+    [
+      69,
+      "detail",
+      100
+    ],
+    [
+      70,
+      "doubt",
+      100
+    ],
+    [
+      71,
+      "fooled",
+      100
+    ],
+    [
+      72,
+      "force",
+      100
+    ],
+    [
+      73,
+      "honest",
+      100
+    ],
+    [
+      74,
+      "interpretation",
+      100
+    ],
+    [
+      75,
+      "kinds",
+      100
+    ],
+    [
+      76,
+      "law",
+      100
+    ],
+    [
+      77,
+      "model",
+      100
+    ],
+    [
+      78,
+      "number",
+      100
+    ],
+    [
+      79,
+      "observation",
+      100
+    ],
+    [
+      80,
+      "probability",
+      100
+    ],
+    [
+      81,
+      "mini-MMM",
+      100
+    ],
+    [
+      82,
+      "mini MMM",
+      100
+    ],
+    [
+      83,
+      "voice shape",
+      100
+    ],
+    [
+      84,
+      "voice shaping",
+      100
+    ],
+    [
+      85,
+      "shape voice",
+      100
+    ],
+    [
+      86,
+      "shaped voice",
+      100
+    ],
+    [
+      87,
+      "voice contour",
+      100
+    ],
+    [
+      88,
+      "voice signature",
+      100
+    ],
+    [
+      89,
+      "voice localizer",
+      100
+    ],
+    [
+      90,
+      "local voice",
+      100
+    ],
+    [
+      91,
+      "aligned nouns",
+      100
+    ],
+    [
+      92,
+      "correlated thinkers",
+      100
+    ],
+    [
+      93,
+      "thinker alignment",
+      100
+    ],
+    [
+      94,
+      "noun alignment",
+      100
+    ],
+    [
+      95,
+      "voice method",
+      100
+    ],
+    [
+      96,
+      "voice evidence",
+      100
+    ],
+    [
+      97,
+      "voice judgment",
+      100
+    ],
+    [
+      98,
+      "voice task",
+      100
+    ],
+    [
+      99,
+      "voice receipt",
+      100
+    ],
+    [
+      100,
+      "voice finding",
+      100
+    ],
+    [
+      101,
+      "voice constraint",
+      100
+    ],
+    [
+      102,
+      "voice noun",
+      100
+    ],
+    [
+      103,
+      "voice verb",
+      100
+    ],
+    [
+      104,
+      "voice signal",
+      100
+    ],
+    [
+      105,
+      "voice contrast",
+      100
+    ],
+    [
+      106,
+      "voice boundary",
+      100
+    ],
+    [
+      107,
+      "voice contribution",
+      100
+    ],
+    [
+      108,
+      "mini mmm loaded",
+      100
+    ],
+    [
+      109,
+      "loaded mini mmm",
+      100
+    ],
+    [
+      110,
+      "assigned mini mmm",
+      100
+    ],
+    [
+      111,
+      "local voice context",
+      100
+    ],
+    [
+      112,
+      "voice-specific nouns",
+      100
+    ],
+    [
+      113,
+      "method nouns",
+      100
+    ],
+    [
+      114,
+      "reader stance",
+      100
+    ],
+    [
+      115,
+      "decision stance",
+      100
+    ],
+    [
+      116,
+      "audit stance",
+      100
+    ],
+    [
+      117,
+      "build stance",
+      100
+    ],
+    [
+      118,
+      "repair stance",
+      100
+    ],
+    [
+      119,
+      "acceptance stance",
+      100
+    ],
+    [
+      120,
+      "subagent voice",
+      100
+    ],
+    [
+      121,
+      "voice worker",
+      100
+    ],
+    [
+      122,
+      "voice proof",
+      100
+    ],
+    [
+      123,
+      "distinct output",
+      100
+    ],
+    [
+      124,
+      "behavioral pull",
+      100
+    ],
+    [
+      125,
+      "salience pull",
+      100
+    ],
+    [
+      126,
+      "voice usefulness",
+      100
+    ],
+    [
+      127,
+      "output repair",
+      100
+    ],
+    [
+      128,
+      "system repair",
+      100
+    ],
+    [
+      129,
+      "mmm stability",
+      100
+    ],
+    [
+      130,
+      "wizard stability",
+      100
+    ],
+    [
+      131,
+      "qit support",
+      100
+    ],
+    [
+      132,
+      "sim support",
+      100
+    ]
+  ],
+  "couplings": [
+    [
+      1,
+      "check test",
+      100
+    ],
+    [
+      2,
+      "check measure",
+      100
+    ],
+    [
+      3,
+      "observable result",
+      100
+    ],
+    [
+      4,
+      "check observable",
+      100
+    ],
+    [
+      5,
+      "compare observable",
+      100
+    ],
+    [
+      6,
+      "measure observable",
+      100
+    ],
+    [
+      7,
+      "test observable",
+      100
+    ],
+    [
+      8,
+      "procedure result",
+      100
+    ],
+    [
+      9,
+      "check procedure",
+      100
+    ],
+    [
+      10,
+      "compare procedure",
+      100
+    ],
+    [
+      11,
+      "measure procedure",
+      100
+    ],
+    [
+      12,
+      "test procedure",
+      100
+    ],
+    [
+      13,
+      "operation result",
+      100
+    ],
+    [
+      14,
+      "check operation",
+      100
+    ],
+    [
+      15,
+      "compare operation",
+      100
+    ],
+    [
+      16,
+      "measure operation",
+      100
+    ],
+    [
+      17,
+      "test operation",
+      100
+    ],
+    [
+      18,
+      "setup result",
+      100
+    ],
+    [
+      19,
+      "check setup",
+      100
+    ],
+    [
+      20,
+      "compare setup",
+      100
+    ],
+    [
+      21,
+      "measure setup",
+      100
+    ],
+    [
+      22,
+      "test setup",
+      100
+    ],
+    [
+      23,
+      "check run",
+      100
+    ],
+    [
+      24,
+      "operation",
+      100
+    ],
+    [
+      25,
+      "observable",
+      100
+    ],
+    [
+      26,
+      "readout",
+      100
+    ],
+    [
+      27,
+      "setup",
+      100
+    ],
+    [
+      28,
+      "procedure",
+      100
+    ],
+    [
+      29,
+      "check",
+      100
+    ],
+    [
+      30,
+      "example",
+      100
+    ],
+    [
+      31,
+      "instrument",
+      100
+    ],
+    [
+      32,
+      "compare test",
+      100
+    ],
+    [
+      33,
+      "measure test",
+      100
+    ],
+    [
+      34,
+      "measure result",
+      100
+    ],
+    [
+      35,
+      "compare measure",
+      100
+    ],
+    [
+      36,
+      "test measure",
+      100
+    ],
+    [
+      37,
+      "measure check",
+      100
+    ],
+    [
+      38,
+      "observable evidence",
+      100
+    ],
+    [
+      39,
+      "observable support",
+      100
+    ],
+    [
+      40,
+      "observable path",
+      100
+    ],
+    [
+      41,
+      "observable surface",
+      100
+    ],
+    [
+      42,
+      "observable packet",
+      100
+    ],
+    [
+      43,
+      "observable receipt",
+      100
+    ],
+    [
+      44,
+      "observable trace",
+      100
+    ],
+    [
+      45,
+      "observable scope",
+      100
+    ],
+    [
+      46,
+      "observable boundary",
+      100
+    ],
+    [
+      47,
+      "observable status",
+      100
+    ],
+    [
+      48,
+      "observable candidate",
+      100
+    ],
+    [
+      49,
+      "observable witness",
+      100
+    ],
+    [
+      50,
+      "observable probe",
+      100
+    ],
+    [
+      51,
+      "observable constraint",
+      100
+    ],
+    [
+      52,
+      "observe observable",
+      100
+    ],
+    [
+      53,
+      "under observable",
+      100
+    ],
+    [
+      54,
+      "within observable",
+      100
+    ],
+    [
+      55,
+      "across observable",
+      100
+    ],
+    [
+      56,
+      "between observable",
+      100
+    ],
+    [
+      57,
+      "through observable",
+      100
+    ],
+    [
+      58,
+      "verify observable",
+      100
+    ],
+    [
+      59,
+      "hold observable",
+      100
+    ],
+    [
+      60,
+      "split observable",
+      100
+    ],
+    [
+      61,
+      "narrow observable",
+      100
+    ],
+    [
+      62,
+      "before observable",
+      100
+    ],
+    [
+      63,
+      "after observable",
+      100
+    ],
+    [
+      64,
+      "until observable",
+      100
+    ],
+    [
+      65,
+      "compare check",
+      100
+    ],
+    [
+      66,
+      "where observable",
+      100
+    ],
+    [
+      67,
+      "while observable",
+      100
+    ],
+    [
+      68,
+      "procedure evidence",
+      100
+    ],
+    [
+      69,
+      "procedure support",
+      100
+    ],
+    [
+      70,
+      "test check",
+      100
+    ],
+    [
+      71,
+      "procedure path",
+      100
+    ],
+    [
+      72,
+      "procedure surface",
+      100
+    ],
+    [
+      73,
+      "procedure packet",
+      100
+    ],
+    [
+      74,
+      "procedure receipt",
+      100
+    ],
+    [
+      75,
+      "procedure trace",
+      100
+    ],
+    [
+      76,
+      "procedure scope",
+      100
+    ],
+    [
+      77,
+      "procedure boundary",
+      100
+    ],
+    [
+      78,
+      "test result",
+      100
+    ],
+    [
+      79,
+      "check compare",
+      100
+    ],
+    [
+      80,
+      "procedure status",
+      100
+    ],
+    [
+      81,
+      "procedure candidate",
+      100
+    ],
+    [
+      82,
+      "check result",
+      100
+    ],
+    [
+      83,
+      "procedure witness",
+      100
+    ],
+    [
+      84,
+      "procedure probe",
+      100
+    ],
+    [
+      85,
+      "procedure constraint",
+      100
+    ],
+    [
+      86,
+      "observe procedure",
+      100
+    ],
+    [
+      87,
+      "verify procedure",
+      100
+    ],
+    [
+      88,
+      "hold procedure",
+      100
+    ],
+    [
+      89,
+      "preserve procedure",
+      100
+    ],
+    [
+      90,
+      "split procedure",
+      100
+    ],
+    [
+      91,
+      "narrow procedure",
+      100
+    ],
+    [
+      92,
+      "under procedure",
+      100
+    ],
+    [
+      93,
+      "within procedure",
+      100
+    ],
+    [
+      94,
+      "across procedure",
+      100
+    ],
+    [
+      95,
+      "between procedure",
+      100
+    ],
+    [
+      96,
+      "through procedure",
+      100
+    ],
+    [
+      97,
+      "before procedure",
+      100
+    ],
+    [
+      98,
+      "after procedure",
+      100
+    ],
+    [
+      99,
+      "until procedure",
+      100
+    ],
+    [
+      100,
+      "where procedure",
+      100
+    ],
+    [
+      101,
+      "while procedure",
+      100
+    ],
+    [
+      102,
+      "experiment observable",
+      100
+    ],
+    [
+      103,
+      "experiment procedure",
+      100
+    ],
+    [
+      104,
+      "experiment setup",
+      100
+    ],
+    [
+      105,
+      "operation evidence",
+      100
+    ],
+    [
+      106,
+      "operation support",
+      100
+    ],
+    [
+      107,
+      "operation path",
+      100
+    ],
+    [
+      108,
+      "operation surface",
+      100
+    ],
+    [
+      109,
+      "operation packet",
+      100
+    ],
+    [
+      110,
+      "operation receipt",
+      100
+    ],
+    [
+      111,
+      "operation trace",
+      100
+    ],
+    [
+      112,
+      "operation scope",
+      100
+    ],
+    [
+      113,
+      "operation boundary",
+      100
+    ],
+    [
+      114,
+      "operation status",
+      100
+    ],
+    [
+      115,
+      "operation candidate",
+      100
+    ],
+    [
+      116,
+      "operation witness",
+      100
+    ],
+    [
+      117,
+      "operation probe",
+      100
+    ],
+    [
+      118,
+      "operation constraint",
+      100
+    ],
+    [
+      119,
+      "observe operation",
+      100
+    ],
+    [
+      120,
+      "experiment example",
+      100
+    ],
+    [
+      121,
+      "apparatus observable",
+      100
+    ],
+    [
+      122,
+      "apparatus procedure",
+      100
+    ],
+    [
+      123,
+      "apparatus setup",
+      100
+    ],
+    [
+      124,
+      "apparatus example",
+      100
+    ],
+    [
+      125,
+      "observable procedure",
+      100
+    ],
+    [
+      126,
+      "observable setup",
+      100
+    ],
+    [
+      127,
+      "observable calibration",
+      100
+    ],
+    [
+      128,
+      "observable physical",
+      100
+    ],
+    [
+      129,
+      "observable example",
+      100
+    ],
+    [
+      130,
+      "verify operation",
+      100
+    ],
+    [
+      131,
+      "hold operation",
+      100
+    ],
+    [
+      132,
+      "preserve operation",
+      100
+    ],
+    [
+      133,
+      "split operation",
+      100
+    ],
+    [
+      134,
+      "narrow operation",
+      100
+    ],
+    [
+      135,
+      "where operation",
+      100
+    ],
+    [
+      136,
+      "while operation",
+      100
+    ],
+    [
+      137,
+      "procedure setup",
+      100
+    ],
+    [
+      138,
+      "procedure calibration",
+      100
+    ],
+    [
+      139,
+      "procedure physical",
+      100
+    ],
+    [
+      140,
+      "procedure example",
+      100
+    ],
+    [
+      141,
+      "procedure concrete",
+      100
+    ],
+    [
+      142,
+      "setup calibration",
+      100
+    ],
+    [
+      143,
+      "actual experience",
+      100
+    ],
+    [
+      144,
+      "apparatus trace",
+      100
+    ],
+    [
+      145,
+      "calculation check",
+      100
+    ],
+    [
+      146,
+      "check the idea",
+      100
+    ],
+    [
+      147,
+      "concrete operation",
+      100
+    ],
+    [
+      148,
+      "details that doubt",
+      100
+    ],
+    [
+      149,
+      "diagram first",
+      100
+    ],
+    [
+      150,
+      "different result",
+      100
+    ],
+    [
+      151,
+      "mini-MMM shapes voice",
+      100
+    ],
+    [
+      152,
+      "mini MMM voice shape",
+      100
+    ],
+    [
+      153,
+      "voice shaped by nouns",
+      100
+    ],
+    [
+      154,
+      "aligned nouns shape voice",
+      100
+    ],
+    [
+      155,
+      "correlated thinkers shape voice",
+      100
+    ],
+    [
+      156,
+      "thinker alignment voice",
+      100
+    ],
+    [
+      157,
+      "noun alignment voice",
+      100
+    ],
+    [
+      158,
+      "voice signature nouns",
+      100
+    ],
+    [
+      159,
+      "local voice contour",
+      100
+    ]
+  ],
+  "triplets": [
+    [
+      1,
+      "check test receipt",
+      100
+    ],
+    [
+      2,
+      "check measure receipt",
+      100
+    ],
+    [
+      3,
+      "observable result path",
+      100
+    ],
+    [
+      4,
+      "check observable receipt",
+      100
+    ],
+    [
+      5,
+      "compare observable receipt",
+      100
+    ],
+    [
+      6,
+      "measure observable receipt",
+      100
+    ],
+    [
+      7,
+      "test observable receipt",
+      100
+    ],
+    [
+      8,
+      "procedure result path",
+      100
+    ],
+    [
+      9,
+      "check procedure receipt",
+      100
+    ],
+    [
+      10,
+      "compare procedure receipt",
+      100
+    ],
+    [
+      11,
+      "measure procedure receipt",
+      100
+    ],
+    [
+      12,
+      "test procedure receipt",
+      100
+    ],
+    [
+      13,
+      "test result path",
+      100
+    ],
+    [
+      14,
+      "compare test receipt",
+      100
+    ],
+    [
+      15,
+      "measure test receipt",
+      100
+    ],
+    [
+      16,
+      "measure result path",
+      100
+    ],
+    [
+      17,
+      "compare measure receipt",
+      100
+    ],
+    [
+      18,
+      "test measure receipt",
+      100
+    ],
+    [
+      19,
+      "observable evidence path",
+      100
+    ],
+    [
+      20,
+      "observable support path",
+      100
+    ],
+    [
+      21,
+      "observable path path",
+      100
+    ],
+    [
+      22,
+      "observable surface path",
+      100
+    ],
+    [
+      23,
+      "under open observable",
+      100
+    ],
+    [
+      24,
+      "observable packet path",
+      100
+    ],
+    [
+      25,
+      "observable receipt path",
+      100
+    ],
+    [
+      26,
+      "under live observable",
+      100
+    ],
+    [
+      27,
+      "actual experience formulation",
+      100
+    ],
+    [
+      28,
+      "apparatus measurement trace",
+      100
+    ],
+    [
+      29,
+      "concrete example calculation",
+      100
+    ],
+    [
+      30,
+      "details throw doubt",
+      100
+    ],
+    [
+      31,
+      "experiment measurement result",
+      100
+    ],
+    [
+      32,
+      "not fool yourself",
+      100
+    ],
+    [
+      33,
+      "observable quantity procedure",
+      100
+    ],
+    [
+      34,
+      "operation observable failure",
+      100
+    ],
+    [
+      35,
+      "other causes checked",
+      100
+    ],
+    [
+      36,
+      "physical picture check",
+      100
+    ],
+    [
+      37,
+      "publish both results",
+      100
+    ],
+    [
+      38,
+      "result whichever way",
+      100
+    ],
+    [
+      39,
+      "same experiment result",
+      100
+    ],
+    [
+      40,
+      "scientific integrity doubt",
+      100
+    ],
+    [
+      41,
+      "theory experiment decides",
+      100
+    ],
+    [
+      42,
+      "try it observe",
+      100
+    ],
+    [
+      43,
+      "unit standard measurement",
+      100
+    ],
+    [
+      44,
+      "under experiment observable",
+      99
+    ],
+    [
+      45,
+      "under experiment procedure",
+      99
+    ],
+    [
+      46,
+      "under experiment setup",
+      99
+    ],
+    [
+      47,
+      "under apparatus observable",
+      99
+    ],
+    [
+      48,
+      "under apparatus procedure",
+      98
+    ],
+    [
+      49,
+      "under apparatus setup",
+      98
+    ],
+    [
+      50,
+      "under observable procedure",
+      98
+    ],
+    [
+      51,
+      "under observable setup",
+      98
+    ],
+    [
+      52,
+      "under observable calibration",
+      98
+    ],
+    [
+      53,
+      "under procedure setup",
+      98
+    ],
+    [
+      54,
+      "under procedure calibration",
+      98
+    ],
+    [
+      55,
+      "under procedure physical",
+      98
+    ],
+    [
+      56,
+      "under setup calibration",
+      98
+    ],
+    [
+      57,
+      "under setup physical",
+      98
+    ],
+    [
+      58,
+      "under physical example",
+      98
+    ],
+    [
+      59,
+      "within experiment observable",
+      96
+    ],
+    [
+      60,
+      "within experiment procedure",
+      96
+    ],
+    [
+      61,
+      "within experiment setup",
+      96
+    ],
+    [
+      62,
+      "within apparatus observable",
+      96
+    ],
+    [
+      63,
+      "within apparatus procedure",
+      96
+    ],
+    [
+      64,
+      "within apparatus setup",
+      96
+    ],
+    [
+      65,
+      "within observable procedure",
+      96
+    ],
+    [
+      66,
+      "within observable setup",
+      96
+    ],
+    [
+      67,
+      "within observable calibration",
+      96
+    ],
+    [
+      68,
+      "within procedure setup",
+      96
+    ],
+    [
+      69,
+      "within procedure calibration",
+      96
+    ],
+    [
+      70,
+      "within procedure physical",
+      96
+    ],
+    [
+      71,
+      "within setup calibration",
+      96
+    ],
+    [
+      72,
+      "within setup physical",
+      96
+    ],
+    [
+      73,
+      "within physical example",
+      96
+    ],
+    [
+      74,
+      "across experiment observable",
+      94
+    ],
+    [
+      75,
+      "across experiment procedure",
+      94
+    ],
+    [
+      76,
+      "across experiment setup",
+      94
+    ],
+    [
+      77,
+      "across apparatus observable",
+      94
+    ],
+    [
+      78,
+      "across apparatus procedure",
+      94
+    ],
+    [
+      79,
+      "across apparatus setup",
+      94
+    ],
+    [
+      80,
+      "across observable procedure",
+      94
+    ],
+    [
+      81,
+      "across observable setup",
+      94
+    ],
+    [
+      82,
+      "across observable calibration",
+      94
+    ],
+    [
+      83,
+      "across procedure setup",
+      94
+    ],
+    [
+      84,
+      "across procedure calibration",
+      94
+    ],
+    [
+      85,
+      "across procedure physical",
+      94
+    ],
+    [
+      86,
+      "across setup calibration",
+      94
+    ],
+    [
+      87,
+      "across setup physical",
+      94
+    ],
+    [
+      88,
+      "across physical example",
+      94
+    ],
+    [
+      89,
+      "between experiment observable",
+      93
+    ],
+    [
+      90,
+      "between experiment procedure",
+      93
+    ],
+    [
+      91,
+      "between experiment setup",
+      93
+    ],
+    [
+      92,
+      "between apparatus observable",
+      93
+    ],
+    [
+      93,
+      "between apparatus procedure",
+      93
+    ],
+    [
+      94,
+      "between apparatus setup",
+      93
+    ],
+    [
+      95,
+      "between observable procedure",
+      93
+    ],
+    [
+      96,
+      "between observable setup",
+      93
+    ],
+    [
+      97,
+      "between observable calibration",
+      93
+    ],
+    [
+      98,
+      "between procedure setup",
+      93
+    ],
+    [
+      99,
+      "between procedure calibration",
+      93
+    ],
+    [
+      100,
+      "between procedure physical",
+      92
+    ],
+    [
+      101,
+      "between setup calibration",
+      92
+    ],
+    [
+      102,
+      "between setup physical",
+      92
+    ],
+    [
+      103,
+      "between physical example",
+      92
+    ],
+    [
+      104,
+      "through experiment observable",
+      91
+    ],
+    [
+      105,
+      "through experiment procedure",
+      91
+    ],
+    [
+      106,
+      "through experiment setup",
+      91
+    ],
+    [
+      107,
+      "through apparatus observable",
+      91
+    ],
+    [
+      108,
+      "through apparatus procedure",
+      91
+    ],
+    [
+      109,
+      "through apparatus setup",
+      91
+    ],
+    [
+      110,
+      "through observable procedure",
+      91
+    ],
+    [
+      111,
+      "through observable setup",
+      91
+    ],
+    [
+      112,
+      "through observable calibration",
+      90
+    ],
+    [
+      113,
+      "through procedure setup",
+      90
+    ],
+    [
+      114,
+      "through procedure calibration",
+      90
+    ],
+    [
+      115,
+      "through procedure physical",
+      90
+    ],
+    [
+      116,
+      "mini-MMM shapes voice",
+      100
+    ],
+    [
+      117,
+      "mini MMM voice shape",
+      100
+    ],
+    [
+      118,
+      "voice shaped by nouns",
+      100
+    ],
+    [
+      119,
+      "aligned nouns shape voice",
+      100
+    ],
+    [
+      120,
+      "correlated thinkers shape voice",
+      100
+    ]
+  ]
+}

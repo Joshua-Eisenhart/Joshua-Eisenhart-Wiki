@@ -1,0 +1,372 @@
+# MMM_LANE_REPO_HYGIENE_STANDARD_v2_8
+
+## words
+
+- active contract :: 100
+- actual :: 100
+- archive :: 100
+- careful :: 100
+- checked :: 100
+- cleanup :: 100
+- concrete :: 100
+- dead :: 100
+- dead file :: 100
+- deadend :: 100
+- debt :: 100
+- deprecated :: 100
+- distinct :: 100
+- drift :: 100
+- duplicate :: 100
+- duplication :: 100
+- file :: 100
+- first :: 100
+- folder :: 100
+- handoff :: 100
+- held :: 100
+- honest :: 100
+- hygiene :: 100
+- inconsistent :: 100
+- index :: 100
+- inferred :: 100
+- known :: 100
+- later :: 100
+- live :: 100
+- maintenance :: 100
+- manifest :: 100
+- misplaced :: 100
+- naming :: 100
+- naming drift :: 100
+- narrow :: 100
+- next :: 100
+- observed :: 100
+- obsolete :: 100
+- orphan :: 100
+- outdated :: 100
+- path :: 100
+- plain :: 100
+- prior :: 100
+- provenance :: 100
+- readme :: 100
+- registry :: 100
+- repo :: 100
+- residue :: 100
+- rot :: 100
+- scan :: 100
+- search clarity :: 100
+- separate :: 100
+- stale :: 100
+- surface :: 100
+- unknown :: 100
+- warm :: 100
+- across :: 99
+- after :: 99
+- before :: 99
+- between :: 99
+- through :: 99
+- under :: 99
+- until :: 99
+- where :: 99
+- within :: 99
+- against :: 98
+- along :: 98
+- among :: 98
+- around :: 98
+- beside :: 98
+- current :: 98
+- from :: 98
+
+## couplings
+
+- across stale :: 100
+- after stale :: 100
+- archive candidate :: 100
+- before stale :: 100
+- between stale :: 100
+- check duplicate :: 100
+- check stale :: 100
+- cleanup boundary :: 100
+- cleanup candidate :: 100
+- cleanup constraint :: 100
+- cleanup evidence :: 100
+- cleanup maintenance :: 100
+- cleanup orphan :: 100
+- cleanup packet :: 100
+- cleanup path :: 100
+- cleanup probe :: 100
+- cleanup receipt :: 100
+- cleanup result :: 100
+- cleanup scope :: 100
+- cleanup status :: 100
+- cleanup support :: 100
+- cleanup surface :: 100
+- cleanup target :: 100
+- cleanup trace :: 100
+- cleanup witness :: 100
+- compare duplicate :: 100
+- compare stale :: 100
+- dead code :: 100
+- dead file :: 100
+- dead file active contract :: 100
+- dead file archive :: 100
+- dead file handoff :: 100
+- dead file naming drift :: 100
+- dead file provenance :: 100
+- dead file search clarity :: 100
+- dead file surface :: 100
+- dead surface :: 100
+- deprecated file :: 100
+- drift cleanup :: 100
+- drift surface :: 100
+- duplicate boundary :: 100
+- duplicate candidate :: 100
+- duplicate cleanup :: 100
+- duplicate constraint :: 100
+- duplicate doc :: 100
+- duplicate drift :: 100
+- duplicate evidence :: 100
+- duplicate maintenance :: 100
+- duplicate naming :: 100
+- duplicate orphan :: 100
+- duplicate packet :: 100
+- duplicate path :: 100
+- duplicate probe :: 100
+- duplicate receipt :: 100
+- duplicate result :: 100
+- duplicate scope :: 100
+- duplicate status :: 100
+- duplicate support :: 100
+- duplicate surface :: 100
+- duplicate trace :: 100
+- duplicate witness :: 100
+- folder naming drift :: 100
+- hold duplicate :: 100
+- hold stale :: 100
+- index repair :: 100
+- maintenance debt :: 100
+- manifest mismatch :: 100
+- manifest naming drift :: 100
+- measure duplicate :: 100
+- measure stale :: 100
+- misplaced file :: 100
+- naming cleanup :: 100
+- naming drift :: 100
+- naming drift active contract :: 100
+- naming drift archive :: 100
+- naming drift handoff :: 100
+- naming drift provenance :: 100
+- naming drift residue :: 100
+- naming drift search clarity :: 100
+- naming drift surface :: 100
+- naming surface :: 100
+- narrow duplicate :: 100
+- narrow stale :: 100
+- observe duplicate :: 100
+- observe stale :: 100
+- obsolete surface :: 100
+- orphan path :: 100
+- path mismatch :: 100
+- path naming drift :: 100
+- preserve duplicate :: 100
+- preserve stale :: 100
+- readme drift :: 100
+- readme naming drift :: 100
+- registry drift :: 100
+- registry naming drift :: 100
+- residue cleanup :: 100
+- scan naming drift :: 100
+- split duplicate :: 100
+- split stale :: 100
+- stale boundary :: 100
+- stale candidate :: 100
+- stale cleanup :: 100
+- stale constraint :: 100
+- stale docs :: 100
+- stale drift :: 100
+- stale duplicate :: 100
+- stale evidence :: 100
+- stale file :: 100
+- stale maintenance :: 100
+- stale naming :: 100
+- stale packet :: 100
+- stale path :: 100
+- stale probe :: 100
+- stale receipt :: 100
+- stale result :: 100
+- stale scope :: 100
+- stale status :: 100
+- stale support :: 100
+- stale surface :: 100
+- stale trace :: 100
+- stale witness :: 100
+- test duplicate :: 100
+- test stale :: 100
+- through stale :: 100
+- under duplicate :: 100
+- under stale :: 100
+- until stale :: 100
+- verify duplicate :: 100
+- verify stale :: 100
+- version mismatch :: 100
+- where cleanup :: 100
+- where stale :: 100
+- while cleanup :: 100
+- while stale :: 100
+- within duplicate :: 100
+- within stale :: 100
+- across drift :: 99
+- between drift :: 99
+- through drift :: 99
+- under drift :: 99
+- until cleanup :: 99
+- within drift :: 99
+- after drift :: 98
+- before drift :: 98
+- drift boundary :: 98
+- drift candidate :: 98
+- drift constraint :: 98
+- drift evidence :: 98
+- drift packet :: 98
+- drift path :: 98
+- drift probe :: 98
+- drift receipt :: 98
+- drift result :: 98
+- drift scope :: 98
+- drift status :: 98
+- drift support :: 98
+- drift trace :: 98
+- drift witness :: 98
+- until drift :: 98
+- where drift :: 98
+
+## triplets
+
+- across bounded stale :: 100
+- across current stale :: 100
+- across finite stale :: 100
+- across live stale :: 100
+- across local stale :: 100
+- across open stale :: 100
+- before live stale :: 100
+- before open stale :: 100
+- between current stale :: 100
+- between live stale :: 100
+- between local stale :: 100
+- between open stale :: 100
+- bounded dead file active contract :: 100
+- bounded dead file archive :: 100
+- bounded dead file handoff :: 100
+- bounded dead file naming drift :: 100
+- bounded dead file provenance :: 100
+- bounded dead file search clarity :: 100
+- bounded dead file surface :: 100
+- check stale receipt :: 100
+- compare stale receipt :: 100
+- dead surface archive :: 100
+- drift surface path :: 100
+- duplicate surface path :: 100
+- finite naming drift active contract :: 100
+- finite naming drift archive :: 100
+- finite naming drift handoff :: 100
+- finite naming drift provenance :: 100
+- finite naming drift search clarity :: 100
+- finite naming drift surface :: 100
+- hold stale receipt :: 100
+- likely registry naming drift :: 100
+- manifest registry mismatch :: 100
+- measure stale receipt :: 100
+- naming duplication cleanup :: 100
+- observe stale receipt :: 100
+- obsolete deprecated residue :: 100
+- orphan path repair :: 100
+- possible scan naming drift :: 100
+- preserve stale receipt :: 100
+- readme index drift :: 100
+- repo hygiene audit :: 100
+- stale boundary path :: 100
+- stale evidence path :: 100
+- stale file drift :: 100
+- stale packet path :: 100
+- stale path path :: 100
+- stale receipt path :: 100
+- stale result path :: 100
+- stale scope path :: 100
+- stale support path :: 100
+- stale surface path :: 100
+- stale trace path :: 100
+- still readme naming drift :: 100
+- test stale receipt :: 100
+- through live stale :: 100
+- through open stale :: 100
+- under bounded stale :: 100
+- under current stale :: 100
+- under finite stale :: 100
+- under live stale :: 100
+- under local stale :: 100
+- under open stale :: 100
+- verify stale receipt :: 100
+- version path mismatch :: 100
+- within bounded stale :: 100
+- within current stale :: 100
+- within finite stale :: 100
+- within live stale :: 100
+- within local stale :: 100
+- within open stale :: 100
+- before bounded stale :: 99
+- before current stale :: 99
+- before finite stale :: 99
+- before local stale :: 99
+- between bounded stale :: 99
+- between finite stale :: 99
+- through bounded stale :: 99
+- through current stale :: 99
+- through finite stale :: 99
+- through local stale :: 99
+- under bounded drift :: 98
+- under current drift :: 98
+- under finite drift :: 98
+- under live drift :: 98
+- under local drift :: 98
+- under open drift :: 98
+- across bounded drift :: 97
+- across current drift :: 97
+- across finite drift :: 97
+- across live drift :: 97
+- across local drift :: 97
+- across open drift :: 97
+- across stale cleanup :: 97
+- across stale drift :: 97
+- across stale duplicate :: 97
+- across stale naming :: 97
+- between bounded drift :: 97
+- between current drift :: 97
+- between finite drift :: 97
+- between live drift :: 97
+- between local drift :: 97
+- between open drift :: 97
+- through current drift :: 97
+- through local drift :: 97
+- within bounded drift :: 97
+- within current drift :: 97
+- within finite drift :: 97
+- within live drift :: 97
+- within local drift :: 97
+- within open drift :: 97
+- across stale maintenance :: 96
+- after naming cleanup :: 96
+- after naming drift :: 96
+- before bounded drift :: 96
+- before current drift :: 96
+- before duplicate cleanup :: 96
+- before duplicate drift :: 96
+- before duplicate maintenance :: 96
+- before duplicate naming :: 96
+- before duplicate orphan :: 96
+- before finite drift :: 96
+- before live drift :: 96
+- before local drift :: 96
+- before open drift :: 96
+- by cleanup maintenance :: 96
+- by cleanup orphan :: 96
+- drift boundary path :: 96
+- drift evidence path :: 96
+- drift packet path :: 96

@@ -1,0 +1,1818 @@
+{
+  "words": [
+    [
+      1,
+      "actual",
+      100
+    ],
+    [
+      2,
+      "angle",
+      100
+    ],
+    [
+      3,
+      "anomaly",
+      100
+    ],
+    [
+      4,
+      "apart",
+      100
+    ],
+    [
+      5,
+      "asymmetric",
+      100
+    ],
+    [
+      6,
+      "bet",
+      100
+    ],
+    [
+      7,
+      "blocker",
+      100
+    ],
+    [
+      8,
+      "bounded",
+      100
+    ],
+    [
+      9,
+      "careful",
+      100
+    ],
+    [
+      10,
+      "cheap",
+      100
+    ],
+    [
+      11,
+      "cheap test",
+      100
+    ],
+    [
+      12,
+      "checked",
+      100
+    ],
+    [
+      13,
+      "compared",
+      100
+    ],
+    [
+      14,
+      "concrete",
+      100
+    ],
+    [
+      15,
+      "creative",
+      100
+    ],
+    [
+      16,
+      "distinct",
+      100
+    ],
+    [
+      17,
+      "door",
+      100
+    ],
+    [
+      18,
+      "edge",
+      100
+    ],
+    [
+      19,
+      "edge move",
+      100
+    ],
+    [
+      20,
+      "experiment",
+      100
+    ],
+    [
+      21,
+      "first",
+      100
+    ],
+    [
+      22,
+      "fit",
+      100
+    ],
+    [
+      23,
+      "found",
+      100
+    ],
+    [
+      24,
+      "held",
+      100
+    ],
+    [
+      25,
+      "honest",
+      100
+    ],
+    [
+      26,
+      "inferred",
+      100
+    ],
+    [
+      27,
+      "inversion",
+      100
+    ],
+    [
+      28,
+      "known",
+      100
+    ],
+    [
+      29,
+      "later",
+      100
+    ],
+    [
+      30,
+      "lateral",
+      100
+    ],
+    [
+      31,
+      "leverage",
+      100
+    ],
+    [
+      32,
+      "live",
+      100
+    ],
+    [
+      33,
+      "narrow",
+      100
+    ],
+    [
+      34,
+      "next",
+      100
+    ],
+    [
+      35,
+      "nonobvious",
+      100
+    ],
+    [
+      36,
+      "observed",
+      100
+    ],
+    [
+      37,
+      "odd",
+      100
+    ],
+    [
+      38,
+      "option",
+      100
+    ],
+    [
+      39,
+      "path",
+      100
+    ],
+    [
+      40,
+      "plain",
+      100
+    ],
+    [
+      41,
+      "prior",
+      100
+    ],
+    [
+      42,
+      "probe",
+      100
+    ],
+    [
+      43,
+      "returned",
+      100
+    ],
+    [
+      44,
+      "route",
+      100
+    ],
+    [
+      45,
+      "separate",
+      100
+    ],
+    [
+      46,
+      "side",
+      100
+    ],
+    [
+      47,
+      "small",
+      100
+    ],
+    [
+      48,
+      "small experiment",
+      100
+    ],
+    [
+      49,
+      "stale",
+      100
+    ],
+    [
+      50,
+      "strange",
+      100
+    ],
+    [
+      51,
+      "stress",
+      100
+    ],
+    [
+      52,
+      "surprise",
+      100
+    ],
+    [
+      53,
+      "unexpected",
+      100
+    ],
+    [
+      54,
+      "unknown",
+      100
+    ],
+    [
+      55,
+      "unlock",
+      100
+    ],
+    [
+      56,
+      "unusual",
+      100
+    ],
+    [
+      57,
+      "upside",
+      100
+    ],
+    [
+      58,
+      "warm",
+      100
+    ],
+    [
+      59,
+      "weird",
+      100
+    ],
+    [
+      60,
+      "wildcard",
+      100
+    ],
+    [
+      61,
+      "across",
+      99
+    ],
+    [
+      62,
+      "after",
+      99
+    ],
+    [
+      63,
+      "against",
+      99
+    ],
+    [
+      64,
+      "along",
+      99
+    ],
+    [
+      65,
+      "among",
+      99
+    ],
+    [
+      66,
+      "around",
+      99
+    ],
+    [
+      67,
+      "before",
+      99
+    ],
+    [
+      68,
+      "beside",
+      99
+    ],
+    [
+      69,
+      "between",
+      99
+    ],
+    [
+      70,
+      "from",
+      99
+    ],
+    [
+      71,
+      "inside",
+      99
+    ],
+    [
+      72,
+      "near",
+      99
+    ]
+  ],
+  "couplings": [
+    [
+      1,
+      "across probe",
+      100
+    ],
+    [
+      2,
+      "across unexpected",
+      100
+    ],
+    [
+      3,
+      "across unlock",
+      100
+    ],
+    [
+      4,
+      "across wildcard",
+      100
+    ],
+    [
+      5,
+      "after probe",
+      100
+    ],
+    [
+      6,
+      "after unexpected",
+      100
+    ],
+    [
+      7,
+      "after unlock",
+      100
+    ],
+    [
+      8,
+      "after wildcard",
+      100
+    ],
+    [
+      9,
+      "anomaly probe",
+      100
+    ],
+    [
+      10,
+      "asymmetric upside",
+      100
+    ],
+    [
+      11,
+      "before probe",
+      100
+    ],
+    [
+      12,
+      "before unexpected",
+      100
+    ],
+    [
+      13,
+      "before unlock",
+      100
+    ],
+    [
+      14,
+      "before wildcard",
+      100
+    ],
+    [
+      15,
+      "between probe",
+      100
+    ],
+    [
+      16,
+      "between unexpected",
+      100
+    ],
+    [
+      17,
+      "between unlock",
+      100
+    ],
+    [
+      18,
+      "between wildcard",
+      100
+    ],
+    [
+      19,
+      "check unexpected",
+      100
+    ],
+    [
+      20,
+      "check unlock",
+      100
+    ],
+    [
+      21,
+      "compare unexpected",
+      100
+    ],
+    [
+      22,
+      "compare unlock",
+      100
+    ],
+    [
+      23,
+      "edge case",
+      100
+    ],
+    [
+      24,
+      "hold unexpected",
+      100
+    ],
+    [
+      25,
+      "hold unlock",
+      100
+    ],
+    [
+      26,
+      "inversion test",
+      100
+    ],
+    [
+      27,
+      "lateral move",
+      100
+    ],
+    [
+      28,
+      "left field check",
+      100
+    ],
+    [
+      29,
+      "measure probe",
+      100
+    ],
+    [
+      30,
+      "measure unexpected",
+      100
+    ],
+    [
+      31,
+      "measure unlock",
+      100
+    ],
+    [
+      32,
+      "narrow probe",
+      100
+    ],
+    [
+      33,
+      "narrow unexpected",
+      100
+    ],
+    [
+      34,
+      "narrow unlock",
+      100
+    ],
+    [
+      35,
+      "non obvious probe",
+      100
+    ],
+    [
+      36,
+      "nonobvious probe",
+      100
+    ],
+    [
+      37,
+      "observe probe",
+      100
+    ],
+    [
+      38,
+      "observe unexpected",
+      100
+    ],
+    [
+      39,
+      "observe unlock",
+      100
+    ],
+    [
+      40,
+      "odd probe",
+      100
+    ],
+    [
+      41,
+      "odd unlock",
+      100
+    ],
+    [
+      42,
+      "preserve probe",
+      100
+    ],
+    [
+      43,
+      "preserve unexpected",
+      100
+    ],
+    [
+      44,
+      "preserve unlock",
+      100
+    ],
+    [
+      45,
+      "probe",
+      100
+    ],
+    [
+      46,
+      "probe boundary",
+      100
+    ],
+    [
+      47,
+      "probe candidate",
+      100
+    ],
+    [
+      48,
+      "probe constraint",
+      100
+    ],
+    [
+      49,
+      "probe evidence",
+      100
+    ],
+    [
+      50,
+      "probe packet",
+      100
+    ],
+    [
+      51,
+      "probe path",
+      100
+    ],
+    [
+      52,
+      "probe probe",
+      100
+    ],
+    [
+      53,
+      "probe receipt",
+      100
+    ],
+    [
+      54,
+      "probe result",
+      100
+    ],
+    [
+      55,
+      "probe scope",
+      100
+    ],
+    [
+      56,
+      "probe status",
+      100
+    ],
+    [
+      57,
+      "probe support",
+      100
+    ],
+    [
+      58,
+      "probe surface",
+      100
+    ],
+    [
+      59,
+      "probe trace",
+      100
+    ],
+    [
+      60,
+      "probe witness",
+      100
+    ],
+    [
+      61,
+      "side probe",
+      100
+    ],
+    [
+      62,
+      "small bet",
+      100
+    ],
+    [
+      63,
+      "split probe",
+      100
+    ],
+    [
+      64,
+      "split unexpected",
+      100
+    ],
+    [
+      65,
+      "split unlock",
+      100
+    ],
+    [
+      66,
+      "surprise probe",
+      100
+    ],
+    [
+      67,
+      "surprise route",
+      100
+    ],
+    [
+      68,
+      "surprise unexpected",
+      100
+    ],
+    [
+      69,
+      "surprise unlock",
+      100
+    ],
+    [
+      70,
+      "test probe",
+      100
+    ],
+    [
+      71,
+      "test unexpected",
+      100
+    ],
+    [
+      72,
+      "test unlock",
+      100
+    ],
+    [
+      73,
+      "through probe",
+      100
+    ],
+    [
+      74,
+      "through unexpected",
+      100
+    ],
+    [
+      75,
+      "through unlock",
+      100
+    ],
+    [
+      76,
+      "through wildcard",
+      100
+    ],
+    [
+      77,
+      "under probe",
+      100
+    ],
+    [
+      78,
+      "under unexpected",
+      100
+    ],
+    [
+      79,
+      "under unlock",
+      100
+    ],
+    [
+      80,
+      "under wildcard",
+      100
+    ],
+    [
+      81,
+      "unexpected",
+      100
+    ],
+    [
+      82,
+      "unexpected angle",
+      100
+    ],
+    [
+      83,
+      "unexpected boundary",
+      100
+    ],
+    [
+      84,
+      "unexpected candidate",
+      100
+    ],
+    [
+      85,
+      "unexpected constraint",
+      100
+    ],
+    [
+      86,
+      "unexpected evidence",
+      100
+    ],
+    [
+      87,
+      "unexpected odd",
+      100
+    ],
+    [
+      88,
+      "unexpected packet",
+      100
+    ],
+    [
+      89,
+      "unexpected path",
+      100
+    ],
+    [
+      90,
+      "unexpected probe",
+      100
+    ],
+    [
+      91,
+      "unexpected receipt",
+      100
+    ],
+    [
+      92,
+      "unexpected result",
+      100
+    ],
+    [
+      93,
+      "unexpected scope",
+      100
+    ],
+    [
+      94,
+      "unexpected status",
+      100
+    ],
+    [
+      95,
+      "unexpected support",
+      100
+    ],
+    [
+      96,
+      "unexpected surface",
+      100
+    ],
+    [
+      97,
+      "unexpected trace",
+      100
+    ],
+    [
+      98,
+      "unexpected unlock",
+      100
+    ],
+    [
+      99,
+      "unexpected witness",
+      100
+    ],
+    [
+      100,
+      "unlock",
+      100
+    ],
+    [
+      101,
+      "unlock boundary",
+      100
+    ],
+    [
+      102,
+      "unlock candidate",
+      100
+    ],
+    [
+      103,
+      "unlock constraint",
+      100
+    ],
+    [
+      104,
+      "unlock evidence",
+      100
+    ],
+    [
+      105,
+      "unlock move",
+      100
+    ],
+    [
+      106,
+      "unlock packet",
+      100
+    ],
+    [
+      107,
+      "unlock path",
+      100
+    ],
+    [
+      108,
+      "unlock probe",
+      100
+    ],
+    [
+      109,
+      "unlock receipt",
+      100
+    ],
+    [
+      110,
+      "unlock result",
+      100
+    ],
+    [
+      111,
+      "unlock scope",
+      100
+    ],
+    [
+      112,
+      "unlock status",
+      100
+    ],
+    [
+      113,
+      "unlock support",
+      100
+    ],
+    [
+      114,
+      "unlock surface",
+      100
+    ],
+    [
+      115,
+      "unlock trace",
+      100
+    ],
+    [
+      116,
+      "unlock witness",
+      100
+    ],
+    [
+      117,
+      "until probe",
+      100
+    ],
+    [
+      118,
+      "until unexpected",
+      100
+    ],
+    [
+      119,
+      "until unlock",
+      100
+    ],
+    [
+      120,
+      "until wildcard",
+      100
+    ],
+    [
+      121,
+      "unusual route",
+      100
+    ],
+    [
+      122,
+      "verify probe",
+      100
+    ],
+    [
+      123,
+      "verify unexpected",
+      100
+    ],
+    [
+      124,
+      "verify unlock",
+      100
+    ],
+    [
+      125,
+      "weird edge",
+      100
+    ],
+    [
+      126,
+      "where probe",
+      100
+    ],
+    [
+      127,
+      "where unexpected",
+      100
+    ],
+    [
+      128,
+      "where unlock",
+      100
+    ],
+    [
+      129,
+      "where wildcard",
+      100
+    ],
+    [
+      130,
+      "while probe",
+      100
+    ],
+    [
+      131,
+      "while unexpected",
+      100
+    ],
+    [
+      132,
+      "while unlock",
+      100
+    ],
+    [
+      133,
+      "while wildcard",
+      100
+    ],
+    [
+      134,
+      "wildcard boundary",
+      100
+    ],
+    [
+      135,
+      "wildcard candidate",
+      100
+    ],
+    [
+      136,
+      "wildcard constraint",
+      100
+    ],
+    [
+      137,
+      "wildcard evidence",
+      100
+    ],
+    [
+      138,
+      "wildcard option",
+      100
+    ],
+    [
+      139,
+      "wildcard packet",
+      100
+    ],
+    [
+      140,
+      "wildcard path",
+      100
+    ],
+    [
+      141,
+      "wildcard probe",
+      100
+    ],
+    [
+      142,
+      "wildcard receipt",
+      100
+    ],
+    [
+      143,
+      "wildcard result",
+      100
+    ],
+    [
+      144,
+      "wildcard scope",
+      100
+    ],
+    [
+      145,
+      "wildcard status",
+      100
+    ],
+    [
+      146,
+      "wildcard support",
+      100
+    ],
+    [
+      147,
+      "wildcard surface",
+      100
+    ],
+    [
+      148,
+      "wildcard trace",
+      100
+    ],
+    [
+      149,
+      "wildcard unexpected",
+      100
+    ],
+    [
+      150,
+      "wildcard unlock",
+      100
+    ],
+    [
+      151,
+      "wildcard witness",
+      100
+    ],
+    [
+      152,
+      "within probe",
+      100
+    ],
+    [
+      153,
+      "within unexpected",
+      100
+    ],
+    [
+      154,
+      "within unlock",
+      100
+    ],
+    [
+      155,
+      "within wildcard",
+      100
+    ],
+    [
+      156,
+      "check wildcard",
+      99
+    ],
+    [
+      157,
+      "compare wildcard",
+      99
+    ],
+    [
+      158,
+      "hold wildcard",
+      99
+    ],
+    [
+      159,
+      "measure wildcard",
+      99
+    ],
+    [
+      160,
+      "narrow wildcard",
+      99
+    ]
+  ],
+  "triplets": [
+    [
+      1,
+      "across bounded wildcard",
+      100
+    ],
+    [
+      2,
+      "across current wildcard",
+      100
+    ],
+    [
+      3,
+      "across finite wildcard",
+      100
+    ],
+    [
+      4,
+      "across live unexpected",
+      100
+    ],
+    [
+      5,
+      "across live wildcard",
+      100
+    ],
+    [
+      6,
+      "across local wildcard",
+      100
+    ],
+    [
+      7,
+      "across odd probe",
+      100
+    ],
+    [
+      8,
+      "across open unexpected",
+      100
+    ],
+    [
+      9,
+      "across open wildcard",
+      100
+    ],
+    [
+      10,
+      "across unexpected probe",
+      100
+    ],
+    [
+      11,
+      "across unlock probe",
+      100
+    ],
+    [
+      12,
+      "anomaly probe option",
+      100
+    ],
+    [
+      13,
+      "asymmetric upside test",
+      100
+    ],
+    [
+      14,
+      "between bounded wildcard",
+      100
+    ],
+    [
+      15,
+      "between current wildcard",
+      100
+    ],
+    [
+      16,
+      "between finite wildcard",
+      100
+    ],
+    [
+      17,
+      "between live wildcard",
+      100
+    ],
+    [
+      18,
+      "between local wildcard",
+      100
+    ],
+    [
+      19,
+      "between odd probe",
+      100
+    ],
+    [
+      20,
+      "between open wildcard",
+      100
+    ],
+    [
+      21,
+      "between unexpected probe",
+      100
+    ],
+    [
+      22,
+      "check unexpected receipt",
+      100
+    ],
+    [
+      23,
+      "compare unexpected receipt",
+      100
+    ],
+    [
+      24,
+      "inversion test route",
+      100
+    ],
+    [
+      25,
+      "lateral move small",
+      100
+    ],
+    [
+      26,
+      "measure unexpected receipt",
+      100
+    ],
+    [
+      27,
+      "non obvious probe",
+      100
+    ],
+    [
+      28,
+      "observe unexpected receipt",
+      100
+    ],
+    [
+      29,
+      "surprise route unlock",
+      100
+    ],
+    [
+      30,
+      "test unexpected receipt",
+      100
+    ],
+    [
+      31,
+      "through current wildcard",
+      100
+    ],
+    [
+      32,
+      "under bounded wildcard",
+      100
+    ],
+    [
+      33,
+      "under current wildcard",
+      100
+    ],
+    [
+      34,
+      "under finite wildcard",
+      100
+    ],
+    [
+      35,
+      "under live unexpected",
+      100
+    ],
+    [
+      36,
+      "under live wildcard",
+      100
+    ],
+    [
+      37,
+      "under local wildcard",
+      100
+    ],
+    [
+      38,
+      "under odd probe",
+      100
+    ],
+    [
+      39,
+      "under open unexpected",
+      100
+    ],
+    [
+      40,
+      "under open wildcard",
+      100
+    ],
+    [
+      41,
+      "under unexpected probe",
+      100
+    ],
+    [
+      42,
+      "under unlock probe",
+      100
+    ],
+    [
+      43,
+      "unexpected angle check",
+      100
+    ],
+    [
+      44,
+      "unexpected boundary path",
+      100
+    ],
+    [
+      45,
+      "unexpected evidence path",
+      100
+    ],
+    [
+      46,
+      "unexpected packet path",
+      100
+    ],
+    [
+      47,
+      "unexpected path path",
+      100
+    ],
+    [
+      48,
+      "unexpected receipt path",
+      100
+    ],
+    [
+      49,
+      "unexpected result path",
+      100
+    ],
+    [
+      50,
+      "unexpected scope path",
+      100
+    ],
+    [
+      51,
+      "unexpected support path",
+      100
+    ],
+    [
+      52,
+      "unexpected surface path",
+      100
+    ],
+    [
+      53,
+      "unexpected trace path",
+      100
+    ],
+    [
+      54,
+      "verify unexpected receipt",
+      100
+    ],
+    [
+      55,
+      "weird edge case",
+      100
+    ],
+    [
+      56,
+      "within bounded wildcard",
+      100
+    ],
+    [
+      57,
+      "within current wildcard",
+      100
+    ],
+    [
+      58,
+      "within finite wildcard",
+      100
+    ],
+    [
+      59,
+      "within live unexpected",
+      100
+    ],
+    [
+      60,
+      "within live wildcard",
+      100
+    ],
+    [
+      61,
+      "within local wildcard",
+      100
+    ],
+    [
+      62,
+      "within odd probe",
+      100
+    ],
+    [
+      63,
+      "within open unexpected",
+      100
+    ],
+    [
+      64,
+      "within open wildcard",
+      100
+    ],
+    [
+      65,
+      "within unexpected probe",
+      100
+    ],
+    [
+      66,
+      "within unlock probe",
+      100
+    ],
+    [
+      67,
+      "before bounded wildcard",
+      99
+    ],
+    [
+      68,
+      "before current wildcard",
+      99
+    ],
+    [
+      69,
+      "before finite wildcard",
+      99
+    ],
+    [
+      70,
+      "before live wildcard",
+      99
+    ],
+    [
+      71,
+      "before local wildcard",
+      99
+    ],
+    [
+      72,
+      "before open wildcard",
+      99
+    ],
+    [
+      73,
+      "check wildcard receipt",
+      99
+    ],
+    [
+      74,
+      "compare wildcard receipt",
+      99
+    ],
+    [
+      75,
+      "measure wildcard receipt",
+      99
+    ],
+    [
+      76,
+      "observe wildcard receipt",
+      99
+    ],
+    [
+      77,
+      "through bounded wildcard",
+      99
+    ],
+    [
+      78,
+      "through finite wildcard",
+      99
+    ],
+    [
+      79,
+      "through live wildcard",
+      99
+    ],
+    [
+      80,
+      "through local wildcard",
+      99
+    ],
+    [
+      81,
+      "through open wildcard",
+      99
+    ],
+    [
+      82,
+      "under surprise unexpected",
+      99
+    ],
+    [
+      83,
+      "under surprise unlock",
+      99
+    ],
+    [
+      84,
+      "under unexpected odd",
+      99
+    ],
+    [
+      85,
+      "under wildcard unexpected",
+      99
+    ],
+    [
+      86,
+      "wildcard boundary path",
+      99
+    ],
+    [
+      87,
+      "wildcard evidence path",
+      99
+    ],
+    [
+      88,
+      "wildcard packet path",
+      99
+    ],
+    [
+      89,
+      "wildcard path path",
+      99
+    ],
+    [
+      90,
+      "wildcard receipt path",
+      99
+    ],
+    [
+      91,
+      "wildcard result path",
+      99
+    ],
+    [
+      92,
+      "wildcard scope path",
+      99
+    ],
+    [
+      93,
+      "wildcard support path",
+      99
+    ],
+    [
+      94,
+      "wildcard surface path",
+      99
+    ],
+    [
+      95,
+      "wildcard trace path",
+      99
+    ],
+    [
+      96,
+      "across bounded unexpected",
+      98
+    ],
+    [
+      97,
+      "across current unexpected",
+      98
+    ],
+    [
+      98,
+      "across finite unexpected",
+      98
+    ],
+    [
+      99,
+      "across local unexpected",
+      98
+    ],
+    [
+      100,
+      "between bounded unexpected",
+      98
+    ],
+    [
+      101,
+      "between current unexpected",
+      98
+    ],
+    [
+      102,
+      "between local unexpected",
+      98
+    ],
+    [
+      103,
+      "hold wildcard receipt",
+      98
+    ],
+    [
+      104,
+      "preserve wildcard receipt",
+      98
+    ],
+    [
+      105,
+      "test wildcard receipt",
+      98
+    ],
+    [
+      106,
+      "under bounded unexpected",
+      98
+    ],
+    [
+      107,
+      "under current unexpected",
+      98
+    ],
+    [
+      108,
+      "under finite unexpected",
+      98
+    ],
+    [
+      109,
+      "under local unexpected",
+      98
+    ],
+    [
+      110,
+      "under odd unlock",
+      98
+    ],
+    [
+      111,
+      "under unexpected unlock",
+      98
+    ],
+    [
+      112,
+      "verify wildcard receipt",
+      98
+    ],
+    [
+      113,
+      "within bounded unexpected",
+      98
+    ],
+    [
+      114,
+      "within current unexpected",
+      98
+    ],
+    [
+      115,
+      "within finite unexpected",
+      98
+    ],
+    [
+      116,
+      "within local unexpected",
+      98
+    ],
+    [
+      117,
+      "before bounded unexpected",
+      97
+    ],
+    [
+      118,
+      "before current unexpected",
+      97
+    ],
+    [
+      119,
+      "before finite unexpected",
+      97
+    ],
+    [
+      120,
+      "before live unexpected",
+      97
+    ],
+    [
+      121,
+      "before local unexpected",
+      97
+    ],
+    [
+      122,
+      "before open unexpected",
+      97
+    ],
+    [
+      123,
+      "between finite unexpected",
+      97
+    ],
+    [
+      124,
+      "between live unexpected",
+      97
+    ],
+    [
+      125,
+      "between open unexpected",
+      97
+    ],
+    [
+      126,
+      "through bounded unexpected",
+      97
+    ],
+    [
+      127,
+      "through current unexpected",
+      97
+    ],
+    [
+      128,
+      "through finite unexpected",
+      97
+    ],
+    [
+      129,
+      "through live unexpected",
+      97
+    ],
+    [
+      130,
+      "through local unexpected",
+      97
+    ]
+  ]
+}

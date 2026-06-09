@@ -1,0 +1,12689 @@
+{
+  "words": [
+    [
+      1,
+      "conjecture",
+      100
+    ],
+    [
+      2,
+      "refutation",
+      100
+    ],
+    [
+      3,
+      "falsifier",
+      100
+    ],
+    [
+      4,
+      "falsification",
+      100
+    ],
+    [
+      5,
+      "severe",
+      100
+    ],
+    [
+      6,
+      "risky",
+      100
+    ],
+    [
+      7,
+      "prediction",
+      100
+    ],
+    [
+      8,
+      "testable",
+      100
+    ],
+    [
+      9,
+      "critical",
+      100
+    ],
+    [
+      10,
+      "problem",
+      100
+    ],
+    [
+      11,
+      "error",
+      100
+    ],
+    [
+      12,
+      "trial",
+      100
+    ],
+    [
+      13,
+      "corroboration",
+      100
+    ],
+    [
+      14,
+      "survive",
+      100
+    ],
+    [
+      15,
+      "fail",
+      100
+    ],
+    [
+      16,
+      "killed",
+      100
+    ],
+    [
+      17,
+      "open",
+      100
+    ],
+    [
+      18,
+      "survived",
+      100
+    ],
+    [
+      19,
+      "counterinstance",
+      100
+    ],
+    [
+      20,
+      "decisive",
+      100
+    ],
+    [
+      21,
+      "stress",
+      100
+    ],
+    [
+      22,
+      "pressure",
+      100
+    ],
+    [
+      23,
+      "challenge",
+      100
+    ],
+    [
+      24,
+      "bold",
+      100
+    ],
+    [
+      25,
+      "claim",
+      100
+    ],
+    [
+      26,
+      "target",
+      99
+    ],
+    [
+      27,
+      "break",
+      99
+    ],
+    [
+      28,
+      "exposure",
+      99
+    ],
+    [
+      29,
+      "conjectures and refutations",
+      99
+    ],
+    [
+      30,
+      "critical rationalism",
+      99
+    ],
+    [
+      31,
+      "bold conjecture",
+      99
+    ],
+    [
+      32,
+      "severe test",
+      99
+    ],
+    [
+      33,
+      "risky prediction",
+      99
+    ],
+    [
+      34,
+      "falsifiable hypothesis",
+      99
+    ],
+    [
+      35,
+      "problem situation",
+      99
+    ],
+    [
+      36,
+      "error elimination",
+      99
+    ],
+    [
+      37,
+      "corroborated theory",
+      99
+    ],
+    [
+      38,
+      "refuted claim",
+      99
+    ],
+    [
+      39,
+      "refute",
+      99
+    ],
+    [
+      40,
+      "counterexample",
+      99
+    ],
+    [
+      41,
+      "decisive check",
+      99
+    ],
+    [
+      42,
+      "failure condition",
+      99
+    ],
+    [
+      43,
+      "what would break",
+      99
+    ],
+    [
+      44,
+      "what would rule out",
+      99
+    ],
+    [
+      45,
+      "not yet survived",
+      99
+    ],
+    [
+      46,
+      "unsupported",
+      99
+    ],
+    [
+      47,
+      "test pressure",
+      99
+    ],
+    [
+      48,
+      "falsify",
+      99
+    ],
+    [
+      49,
+      "check",
+      99
+    ],
+    [
+      50,
+      "risk",
+      99
+    ],
+    [
+      51,
+      "tested",
+      98
+    ],
+    [
+      52,
+      "evidence",
+      98
+    ],
+    [
+      53,
+      "strongest",
+      98
+    ],
+    [
+      54,
+      "live",
+      98
+    ],
+    [
+      55,
+      "path",
+      98
+    ],
+    [
+      56,
+      "under",
+      98
+    ],
+    [
+      57,
+      "within",
+      98
+    ],
+    [
+      58,
+      "across",
+      98
+    ],
+    [
+      59,
+      "between",
+      98
+    ],
+    [
+      60,
+      "through",
+      98
+    ],
+    [
+      61,
+      "before",
+      98
+    ],
+    [
+      62,
+      "after",
+      98
+    ],
+    [
+      63,
+      "until",
+      98
+    ],
+    [
+      64,
+      "where",
+      98
+    ],
+    [
+      65,
+      "while",
+      98
+    ],
+    [
+      66,
+      "against",
+      98
+    ],
+    [
+      67,
+      "along",
+      98
+    ],
+    [
+      68,
+      "around",
+      98
+    ],
+    [
+      69,
+      "among",
+      98
+    ],
+    [
+      70,
+      "inside",
+      98
+    ],
+    [
+      71,
+      "outside",
+      98
+    ],
+    [
+      72,
+      "near",
+      98
+    ],
+    [
+      73,
+      "beside",
+      98
+    ],
+    [
+      74,
+      "over",
+      98
+    ],
+    [
+      75,
+      "from",
+      98
+    ],
+    [
+      76,
+      "with",
+      97
+    ],
+    [
+      77,
+      "without",
+      97
+    ],
+    [
+      78,
+      "only",
+      97
+    ],
+    [
+      79,
+      "not",
+      97
+    ],
+    [
+      80,
+      "no",
+      97
+    ],
+    [
+      81,
+      "yet",
+      97
+    ],
+    [
+      82,
+      "then",
+      97
+    ],
+    [
+      83,
+      "current",
+      97
+    ],
+    [
+      84,
+      "actual",
+      97
+    ],
+    [
+      85,
+      "local",
+      97
+    ],
+    [
+      86,
+      "bounded",
+      97
+    ],
+    [
+      87,
+      "finite",
+      97
+    ],
+    [
+      88,
+      "distinct",
+      97
+    ],
+    [
+      89,
+      "concrete",
+      97
+    ],
+    [
+      90,
+      "plain",
+      97
+    ],
+    [
+      91,
+      "observed",
+      97
+    ],
+    [
+      92,
+      "inferred",
+      97
+    ],
+    [
+      93,
+      "known",
+      97
+    ],
+    [
+      94,
+      "unknown",
+      97
+    ],
+    [
+      95,
+      "checked",
+      97
+    ],
+    [
+      96,
+      "missing",
+      97
+    ],
+    [
+      97,
+      "stale",
+      97
+    ],
+    [
+      98,
+      "narrow",
+      97
+    ],
+    [
+      99,
+      "small",
+      97
+    ],
+    [
+      100,
+      "warm",
+      97
+    ],
+    [
+      101,
+      "careful",
+      96
+    ],
+    [
+      102,
+      "honest",
+      96
+    ],
+    [
+      103,
+      "first",
+      96
+    ],
+    [
+      104,
+      "next",
+      96
+    ],
+    [
+      105,
+      "prior",
+      96
+    ],
+    [
+      106,
+      "later",
+      96
+    ],
+    [
+      107,
+      "separate",
+      96
+    ],
+    [
+      108,
+      "together",
+      96
+    ],
+    [
+      109,
+      "apart",
+      96
+    ],
+    [
+      110,
+      "held",
+      96
+    ],
+    [
+      111,
+      "returned",
+      96
+    ],
+    [
+      112,
+      "found",
+      96
+    ],
+    [
+      113,
+      "compared",
+      96
+    ],
+    [
+      114,
+      "measured",
+      96
+    ],
+    [
+      115,
+      "named",
+      96
+    ],
+    [
+      116,
+      "used",
+      96
+    ],
+    [
+      117,
+      "fit",
+      96
+    ],
+    [
+      118,
+      "viable",
+      96
+    ],
+    [
+      119,
+      "direct",
+      96
+    ],
+    [
+      120,
+      "different",
+      96
+    ],
+    [
+      121,
+      "alternate",
+      96
+    ],
+    [
+      122,
+      "branch",
+      96
+    ],
+    [
+      123,
+      "surface",
+      96
+    ],
+    [
+      124,
+      "packet",
+      96
+    ],
+    [
+      125,
+      "artifact",
+      96
+    ],
+    [
+      126,
+      "receipt",
+      95
+    ],
+    [
+      127,
+      "trace",
+      95
+    ],
+    [
+      128,
+      "result",
+      95
+    ],
+    [
+      129,
+      "support",
+      95
+    ],
+    [
+      130,
+      "scope",
+      95
+    ],
+    [
+      131,
+      "boundary",
+      95
+    ],
+    [
+      132,
+      "gate",
+      95
+    ],
+    [
+      133,
+      "guard",
+      95
+    ],
+    [
+      134,
+      "rung",
+      95
+    ],
+    [
+      135,
+      "status",
+      95
+    ],
+    [
+      136,
+      "candidate",
+      95
+    ],
+    [
+      137,
+      "survivor",
+      95
+    ],
+    [
+      138,
+      "witness",
+      95
+    ],
+    [
+      139,
+      "probe",
+      95
+    ],
+    [
+      140,
+      "constraint",
+      95
+    ],
+    [
+      141,
+      "name",
+      95
+    ],
+    [
+      142,
+      "term",
+      95
+    ],
+    [
+      143,
+      "use",
+      95
+    ],
+    [
+      144,
+      "role",
+      95
+    ],
+    [
+      145,
+      "practice",
+      95
+    ],
+    [
+      146,
+      "custom",
+      95
+    ],
+    [
+      147,
+      "habit",
+      95
+    ],
+    [
+      148,
+      "experience",
+      95
+    ],
+    [
+      149,
+      "observation",
+      95
+    ],
+    [
+      150,
+      "impression",
+      95
+    ],
+    [
+      151,
+      "idea",
+      94
+    ],
+    [
+      152,
+      "perception",
+      94
+    ],
+    [
+      153,
+      "conjunction",
+      94
+    ],
+    [
+      154,
+      "resemblance",
+      94
+    ],
+    [
+      155,
+      "relation",
+      94
+    ],
+    [
+      156,
+      "probability",
+      94
+    ],
+    [
+      157,
+      "particular",
+      94
+    ],
+    [
+      158,
+      "predicate",
+      94
+    ],
+    [
+      159,
+      "class",
+      94
+    ],
+    [
+      160,
+      "model",
+      94
+    ],
+    [
+      161,
+      "solver",
+      94
+    ],
+    [
+      162,
+      "satisfiable",
+      94
+    ],
+    [
+      163,
+      "unsatisfiable",
+      94
+    ],
+    [
+      164,
+      "countermodel",
+      94
+    ],
+    [
+      165,
+      "equivalence",
+      94
+    ],
+    [
+      166,
+      "indistinguishable",
+      94
+    ],
+    [
+      167,
+      "readout",
+      94
+    ],
+    [
+      168,
+      "measure",
+      94
+    ],
+    [
+      169,
+      "measurement",
+      94
+    ],
+    [
+      170,
+      "operation",
+      94
+    ],
+    [
+      171,
+      "procedure",
+      94
+    ],
+    [
+      172,
+      "instrument",
+      94
+    ],
+    [
+      173,
+      "experiment",
+      94
+    ],
+    [
+      174,
+      "test",
+      94
+    ],
+    [
+      175,
+      "verify",
+      94
+    ],
+    [
+      176,
+      "compare",
+      93
+    ],
+    [
+      177,
+      "sample",
+      93
+    ],
+    [
+      178,
+      "route",
+      93
+    ],
+    [
+      179,
+      "lane",
+      93
+    ],
+    [
+      180,
+      "voice",
+      93
+    ],
+    [
+      181,
+      "lens",
+      93
+    ],
+    [
+      182,
+      "council",
+      93
+    ],
+    [
+      183,
+      "audit",
+      93
+    ],
+    [
+      184,
+      "finding",
+      93
+    ],
+    [
+      185,
+      "blocker",
+      93
+    ],
+    [
+      186,
+      "deferred",
+      93
+    ],
+    [
+      187,
+      "blocked",
+      93
+    ],
+    [
+      188,
+      "spawned",
+      93
+    ],
+    [
+      189,
+      "diagnostic",
+      93
+    ],
+    [
+      190,
+      "untried",
+      93
+    ],
+    [
+      191,
+      "preload",
+      93
+    ],
+    [
+      192,
+      "salience",
+      93
+    ],
+    [
+      193,
+      "language",
+      93
+    ],
+    [
+      194,
+      "body",
+      93
+    ],
+    [
+      195,
+      "during",
+      93
+    ],
+    [
+      196,
+      "since",
+      93
+    ],
+    [
+      197,
+      "by",
+      93
+    ],
+    [
+      198,
+      "toward",
+      93
+    ],
+    [
+      199,
+      "relative",
+      93
+    ],
+    [
+      200,
+      "according",
+      93
+    ],
+    [
+      201,
+      "locally",
+      92
+    ],
+    [
+      202,
+      "jointly",
+      92
+    ],
+    [
+      203,
+      "separately",
+      92
+    ],
+    [
+      204,
+      "rather",
+      92
+    ],
+    [
+      205,
+      "instead",
+      92
+    ],
+    [
+      206,
+      "still",
+      92
+    ],
+    [
+      207,
+      "often",
+      92
+    ],
+    [
+      208,
+      "sometimes",
+      92
+    ],
+    [
+      209,
+      "usually",
+      92
+    ],
+    [
+      210,
+      "seems",
+      92
+    ],
+    [
+      211,
+      "appears",
+      92
+    ],
+    [
+      212,
+      "likely",
+      92
+    ],
+    [
+      213,
+      "possible",
+      92
+    ],
+    [
+      214,
+      "plausible",
+      92
+    ],
+    [
+      215,
+      "tentative",
+      92
+    ],
+    [
+      216,
+      "provisional",
+      92
+    ],
+    [
+      217,
+      "partial",
+      92
+    ],
+    [
+      218,
+      "limited",
+      92
+    ],
+    [
+      219,
+      "case",
+      92
+    ],
+    [
+      220,
+      "instance",
+      92
+    ],
+    [
+      221,
+      "mini-MMM",
+      100
+    ],
+    [
+      222,
+      "mini MMM",
+      100
+    ],
+    [
+      223,
+      "voice shape",
+      100
+    ],
+    [
+      224,
+      "voice shaping",
+      100
+    ],
+    [
+      225,
+      "shape voice",
+      100
+    ],
+    [
+      226,
+      "shaped voice",
+      100
+    ],
+    [
+      227,
+      "voice contour",
+      100
+    ],
+    [
+      228,
+      "voice signature",
+      100
+    ],
+    [
+      229,
+      "voice localizer",
+      100
+    ],
+    [
+      230,
+      "local voice",
+      100
+    ],
+    [
+      231,
+      "aligned nouns",
+      100
+    ],
+    [
+      232,
+      "correlated thinkers",
+      100
+    ],
+    [
+      233,
+      "thinker alignment",
+      100
+    ],
+    [
+      234,
+      "noun alignment",
+      100
+    ],
+    [
+      235,
+      "voice method",
+      100
+    ],
+    [
+      236,
+      "voice evidence",
+      100
+    ],
+    [
+      237,
+      "voice judgment",
+      100
+    ],
+    [
+      238,
+      "voice task",
+      100
+    ],
+    [
+      239,
+      "voice receipt",
+      100
+    ],
+    [
+      240,
+      "voice finding",
+      100
+    ],
+    [
+      241,
+      "voice constraint",
+      100
+    ],
+    [
+      242,
+      "voice noun",
+      100
+    ],
+    [
+      243,
+      "voice verb",
+      100
+    ],
+    [
+      244,
+      "voice signal",
+      100
+    ],
+    [
+      245,
+      "voice boundary",
+      100
+    ],
+    [
+      246,
+      "voice contribution",
+      100
+    ],
+    [
+      247,
+      "mini mmm loaded",
+      100
+    ],
+    [
+      248,
+      "loaded mini mmm",
+      100
+    ],
+    [
+      249,
+      "assigned mini mmm",
+      100
+    ],
+    [
+      250,
+      "local voice context",
+      100
+    ],
+    [
+      251,
+      "voice-specific nouns",
+      100
+    ],
+    [
+      252,
+      "method nouns",
+      100
+    ],
+    [
+      253,
+      "reader stance",
+      100
+    ],
+    [
+      254,
+      "decision stance",
+      100
+    ],
+    [
+      255,
+      "audit stance",
+      100
+    ],
+    [
+      256,
+      "build stance",
+      100
+    ],
+    [
+      257,
+      "repair stance",
+      100
+    ],
+    [
+      258,
+      "acceptance stance",
+      100
+    ],
+    [
+      259,
+      "subagent voice",
+      100
+    ],
+    [
+      260,
+      "voice worker",
+      100
+    ],
+    [
+      261,
+      "voice proof",
+      100
+    ],
+    [
+      262,
+      "distinct output",
+      100
+    ],
+    [
+      263,
+      "behavioral pull",
+      100
+    ],
+    [
+      264,
+      "salience pull",
+      100
+    ],
+    [
+      265,
+      "voice usefulness",
+      100
+    ],
+    [
+      266,
+      "output repair",
+      100
+    ],
+    [
+      267,
+      "system repair",
+      100
+    ],
+    [
+      268,
+      "mmm stability",
+      100
+    ],
+    [
+      269,
+      "wizard stability",
+      100
+    ],
+    [
+      270,
+      "qit support",
+      100
+    ],
+    [
+      271,
+      "sim support",
+      100
+    ],
+    [
+      272,
+      "theory",
+      98
+    ],
+    [
+      273,
+      "counter-instance",
+      98
+    ],
+    [
+      274,
+      "basic statement",
+      98
+    ],
+    [
+      275,
+      "intersubjective test",
+      98
+    ]
+  ],
+  "couplings": [
+    [
+      1,
+      "under falsifier",
+      100
+    ],
+    [
+      2,
+      "within falsifier",
+      100
+    ],
+    [
+      3,
+      "across falsifier",
+      100
+    ],
+    [
+      4,
+      "between falsifier",
+      100
+    ],
+    [
+      5,
+      "through falsifier",
+      100
+    ],
+    [
+      6,
+      "before falsifier",
+      100
+    ],
+    [
+      7,
+      "after falsifier",
+      100
+    ],
+    [
+      8,
+      "until falsifier",
+      100
+    ],
+    [
+      9,
+      "where falsifier",
+      100
+    ],
+    [
+      10,
+      "while falsifier",
+      100
+    ],
+    [
+      11,
+      "falsifier evidence",
+      100
+    ],
+    [
+      12,
+      "falsifier support",
+      100
+    ],
+    [
+      13,
+      "falsifier path",
+      100
+    ],
+    [
+      14,
+      "falsifier surface",
+      100
+    ],
+    [
+      15,
+      "falsifier packet",
+      100
+    ],
+    [
+      16,
+      "falsifier receipt",
+      100
+    ],
+    [
+      17,
+      "falsifier trace",
+      100
+    ],
+    [
+      18,
+      "falsifier result",
+      100
+    ],
+    [
+      19,
+      "falsifier scope",
+      100
+    ],
+    [
+      20,
+      "falsifier boundary",
+      100
+    ],
+    [
+      21,
+      "falsifier status",
+      100
+    ],
+    [
+      22,
+      "falsifier candidate",
+      100
+    ],
+    [
+      23,
+      "falsifier witness",
+      100
+    ],
+    [
+      24,
+      "falsifier probe",
+      100
+    ],
+    [
+      25,
+      "falsifier constraint",
+      100
+    ],
+    [
+      26,
+      "check falsifier",
+      99
+    ],
+    [
+      27,
+      "compare falsifier",
+      99
+    ],
+    [
+      28,
+      "observe falsifier",
+      99
+    ],
+    [
+      29,
+      "measure falsifier",
+      99
+    ],
+    [
+      30,
+      "test falsifier",
+      99
+    ],
+    [
+      31,
+      "verify falsifier",
+      99
+    ],
+    [
+      32,
+      "hold falsifier",
+      99
+    ],
+    [
+      33,
+      "preserve falsifier",
+      99
+    ],
+    [
+      34,
+      "split falsifier",
+      99
+    ],
+    [
+      35,
+      "narrow falsifier",
+      99
+    ],
+    [
+      36,
+      "under falsify",
+      99
+    ],
+    [
+      37,
+      "within falsify",
+      99
+    ],
+    [
+      38,
+      "across falsify",
+      99
+    ],
+    [
+      39,
+      "between falsify",
+      99
+    ],
+    [
+      40,
+      "through falsify",
+      99
+    ],
+    [
+      41,
+      "before falsify",
+      99
+    ],
+    [
+      42,
+      "after falsify",
+      99
+    ],
+    [
+      43,
+      "until falsify",
+      99
+    ],
+    [
+      44,
+      "where falsify",
+      99
+    ],
+    [
+      45,
+      "while falsify",
+      99
+    ],
+    [
+      46,
+      "falsify evidence",
+      99
+    ],
+    [
+      47,
+      "falsify support",
+      99
+    ],
+    [
+      48,
+      "falsify path",
+      99
+    ],
+    [
+      49,
+      "falsify surface",
+      99
+    ],
+    [
+      50,
+      "falsify packet",
+      99
+    ],
+    [
+      51,
+      "falsify receipt",
+      98
+    ],
+    [
+      52,
+      "falsify trace",
+      98
+    ],
+    [
+      53,
+      "falsify result",
+      98
+    ],
+    [
+      54,
+      "falsify scope",
+      98
+    ],
+    [
+      55,
+      "falsify boundary",
+      98
+    ],
+    [
+      56,
+      "falsify status",
+      98
+    ],
+    [
+      57,
+      "falsify candidate",
+      98
+    ],
+    [
+      58,
+      "falsify witness",
+      98
+    ],
+    [
+      59,
+      "falsify probe",
+      98
+    ],
+    [
+      60,
+      "falsify constraint",
+      98
+    ],
+    [
+      61,
+      "check falsify",
+      98
+    ],
+    [
+      62,
+      "compare falsify",
+      98
+    ],
+    [
+      63,
+      "observe falsify",
+      98
+    ],
+    [
+      64,
+      "measure falsify",
+      98
+    ],
+    [
+      65,
+      "test falsify",
+      98
+    ],
+    [
+      66,
+      "verify falsify",
+      98
+    ],
+    [
+      67,
+      "hold falsify",
+      98
+    ],
+    [
+      68,
+      "preserve falsify",
+      98
+    ],
+    [
+      69,
+      "split falsify",
+      98
+    ],
+    [
+      70,
+      "narrow falsify",
+      98
+    ],
+    [
+      71,
+      "under claim",
+      98
+    ],
+    [
+      72,
+      "within claim",
+      98
+    ],
+    [
+      73,
+      "across claim",
+      98
+    ],
+    [
+      74,
+      "between claim",
+      98
+    ],
+    [
+      75,
+      "through claim",
+      98
+    ],
+    [
+      76,
+      "before claim",
+      97
+    ],
+    [
+      77,
+      "after claim",
+      97
+    ],
+    [
+      78,
+      "until claim",
+      97
+    ],
+    [
+      79,
+      "where claim",
+      97
+    ],
+    [
+      80,
+      "while claim",
+      97
+    ],
+    [
+      81,
+      "claim evidence",
+      97
+    ],
+    [
+      82,
+      "claim support",
+      97
+    ],
+    [
+      83,
+      "claim path",
+      97
+    ],
+    [
+      84,
+      "claim surface",
+      97
+    ],
+    [
+      85,
+      "claim packet",
+      97
+    ],
+    [
+      86,
+      "claim receipt",
+      97
+    ],
+    [
+      87,
+      "claim trace",
+      97
+    ],
+    [
+      88,
+      "claim result",
+      97
+    ],
+    [
+      89,
+      "claim scope",
+      97
+    ],
+    [
+      90,
+      "claim boundary",
+      97
+    ],
+    [
+      91,
+      "claim status",
+      97
+    ],
+    [
+      92,
+      "claim candidate",
+      97
+    ],
+    [
+      93,
+      "claim witness",
+      97
+    ],
+    [
+      94,
+      "claim probe",
+      97
+    ],
+    [
+      95,
+      "claim constraint",
+      97
+    ],
+    [
+      96,
+      "check claim",
+      97
+    ],
+    [
+      97,
+      "compare claim",
+      97
+    ],
+    [
+      98,
+      "observe claim",
+      97
+    ],
+    [
+      99,
+      "measure claim",
+      97
+    ],
+    [
+      100,
+      "test claim",
+      97
+    ],
+    [
+      101,
+      "verify claim",
+      96
+    ],
+    [
+      102,
+      "hold claim",
+      96
+    ],
+    [
+      103,
+      "preserve claim",
+      96
+    ],
+    [
+      104,
+      "split claim",
+      96
+    ],
+    [
+      105,
+      "narrow claim",
+      96
+    ],
+    [
+      106,
+      "under break",
+      96
+    ],
+    [
+      107,
+      "within break",
+      96
+    ],
+    [
+      108,
+      "across break",
+      96
+    ],
+    [
+      109,
+      "between break",
+      96
+    ],
+    [
+      110,
+      "through break",
+      96
+    ],
+    [
+      111,
+      "before break",
+      96
+    ],
+    [
+      112,
+      "after break",
+      96
+    ],
+    [
+      113,
+      "until break",
+      96
+    ],
+    [
+      114,
+      "where break",
+      96
+    ],
+    [
+      115,
+      "while break",
+      96
+    ],
+    [
+      116,
+      "break evidence",
+      96
+    ],
+    [
+      117,
+      "break support",
+      96
+    ],
+    [
+      118,
+      "break path",
+      96
+    ],
+    [
+      119,
+      "break surface",
+      96
+    ],
+    [
+      120,
+      "break packet",
+      96
+    ],
+    [
+      121,
+      "break receipt",
+      96
+    ],
+    [
+      122,
+      "break trace",
+      96
+    ],
+    [
+      123,
+      "break result",
+      96
+    ],
+    [
+      124,
+      "break scope",
+      96
+    ],
+    [
+      125,
+      "break boundary",
+      96
+    ],
+    [
+      126,
+      "break status",
+      95
+    ],
+    [
+      127,
+      "break candidate",
+      95
+    ],
+    [
+      128,
+      "break witness",
+      95
+    ],
+    [
+      129,
+      "break probe",
+      95
+    ],
+    [
+      130,
+      "break constraint",
+      95
+    ],
+    [
+      131,
+      "check break",
+      95
+    ],
+    [
+      132,
+      "compare break",
+      95
+    ],
+    [
+      133,
+      "observe break",
+      95
+    ],
+    [
+      134,
+      "measure break",
+      95
+    ],
+    [
+      135,
+      "test break",
+      95
+    ],
+    [
+      136,
+      "verify break",
+      95
+    ],
+    [
+      137,
+      "hold break",
+      95
+    ],
+    [
+      138,
+      "preserve break",
+      95
+    ],
+    [
+      139,
+      "split break",
+      95
+    ],
+    [
+      140,
+      "narrow break",
+      95
+    ],
+    [
+      141,
+      "under decisive",
+      95
+    ],
+    [
+      142,
+      "within decisive",
+      95
+    ],
+    [
+      143,
+      "across decisive",
+      95
+    ],
+    [
+      144,
+      "between decisive",
+      95
+    ],
+    [
+      145,
+      "through decisive",
+      95
+    ],
+    [
+      146,
+      "before decisive",
+      95
+    ],
+    [
+      147,
+      "after decisive",
+      95
+    ],
+    [
+      148,
+      "until decisive",
+      95
+    ],
+    [
+      149,
+      "where decisive",
+      95
+    ],
+    [
+      150,
+      "while decisive",
+      95
+    ],
+    [
+      151,
+      "decisive evidence",
+      94
+    ],
+    [
+      152,
+      "decisive support",
+      94
+    ],
+    [
+      153,
+      "decisive path",
+      94
+    ],
+    [
+      154,
+      "decisive surface",
+      94
+    ],
+    [
+      155,
+      "decisive packet",
+      94
+    ],
+    [
+      156,
+      "decisive receipt",
+      94
+    ],
+    [
+      157,
+      "decisive trace",
+      94
+    ],
+    [
+      158,
+      "decisive result",
+      94
+    ],
+    [
+      159,
+      "decisive scope",
+      94
+    ],
+    [
+      160,
+      "decisive boundary",
+      94
+    ],
+    [
+      161,
+      "decisive status",
+      94
+    ],
+    [
+      162,
+      "decisive candidate",
+      94
+    ],
+    [
+      163,
+      "decisive witness",
+      94
+    ],
+    [
+      164,
+      "decisive probe",
+      94
+    ],
+    [
+      165,
+      "decisive constraint",
+      94
+    ],
+    [
+      166,
+      "check decisive",
+      94
+    ],
+    [
+      167,
+      "compare decisive",
+      94
+    ],
+    [
+      168,
+      "observe decisive",
+      94
+    ],
+    [
+      169,
+      "measure decisive",
+      94
+    ],
+    [
+      170,
+      "test decisive",
+      94
+    ],
+    [
+      171,
+      "verify decisive",
+      94
+    ],
+    [
+      172,
+      "hold decisive",
+      94
+    ],
+    [
+      173,
+      "preserve decisive",
+      94
+    ],
+    [
+      174,
+      "split decisive",
+      94
+    ],
+    [
+      175,
+      "narrow decisive",
+      94
+    ],
+    [
+      176,
+      "under check",
+      93
+    ],
+    [
+      177,
+      "within check",
+      93
+    ],
+    [
+      178,
+      "across check",
+      93
+    ],
+    [
+      179,
+      "between check",
+      93
+    ],
+    [
+      180,
+      "through check",
+      93
+    ],
+    [
+      181,
+      "before check",
+      93
+    ],
+    [
+      182,
+      "after check",
+      93
+    ],
+    [
+      183,
+      "until check",
+      93
+    ],
+    [
+      184,
+      "where check",
+      93
+    ],
+    [
+      185,
+      "while check",
+      93
+    ],
+    [
+      186,
+      "check evidence",
+      93
+    ],
+    [
+      187,
+      "check support",
+      93
+    ],
+    [
+      188,
+      "check path",
+      93
+    ],
+    [
+      189,
+      "check surface",
+      93
+    ],
+    [
+      190,
+      "check packet",
+      93
+    ],
+    [
+      191,
+      "check receipt",
+      93
+    ],
+    [
+      192,
+      "check trace",
+      93
+    ],
+    [
+      193,
+      "check result",
+      93
+    ],
+    [
+      194,
+      "check scope",
+      93
+    ],
+    [
+      195,
+      "check boundary",
+      93
+    ],
+    [
+      196,
+      "check status",
+      93
+    ],
+    [
+      197,
+      "check candidate",
+      93
+    ],
+    [
+      198,
+      "check witness",
+      93
+    ],
+    [
+      199,
+      "check probe",
+      93
+    ],
+    [
+      200,
+      "check constraint",
+      93
+    ],
+    [
+      201,
+      "check check",
+      92
+    ],
+    [
+      202,
+      "compare check",
+      92
+    ],
+    [
+      203,
+      "observe check",
+      92
+    ],
+    [
+      204,
+      "measure check",
+      92
+    ],
+    [
+      205,
+      "test check",
+      92
+    ],
+    [
+      206,
+      "verify check",
+      92
+    ],
+    [
+      207,
+      "hold check",
+      92
+    ],
+    [
+      208,
+      "preserve check",
+      92
+    ],
+    [
+      209,
+      "split check",
+      92
+    ],
+    [
+      210,
+      "narrow check",
+      92
+    ],
+    [
+      211,
+      "under killed",
+      92
+    ],
+    [
+      212,
+      "within killed",
+      92
+    ],
+    [
+      213,
+      "across killed",
+      92
+    ],
+    [
+      214,
+      "between killed",
+      92
+    ],
+    [
+      215,
+      "through killed",
+      92
+    ],
+    [
+      216,
+      "before killed",
+      92
+    ],
+    [
+      217,
+      "after killed",
+      92
+    ],
+    [
+      218,
+      "until killed",
+      92
+    ],
+    [
+      219,
+      "where killed",
+      92
+    ],
+    [
+      220,
+      "while killed",
+      92
+    ],
+    [
+      221,
+      "killed evidence",
+      92
+    ],
+    [
+      222,
+      "killed support",
+      92
+    ],
+    [
+      223,
+      "killed path",
+      92
+    ],
+    [
+      224,
+      "killed surface",
+      92
+    ],
+    [
+      225,
+      "killed packet",
+      92
+    ],
+    [
+      226,
+      "killed receipt",
+      91
+    ],
+    [
+      227,
+      "killed trace",
+      91
+    ],
+    [
+      228,
+      "killed result",
+      91
+    ],
+    [
+      229,
+      "killed scope",
+      91
+    ],
+    [
+      230,
+      "killed boundary",
+      91
+    ],
+    [
+      231,
+      "killed status",
+      91
+    ],
+    [
+      232,
+      "killed candidate",
+      91
+    ],
+    [
+      233,
+      "killed witness",
+      91
+    ],
+    [
+      234,
+      "killed probe",
+      91
+    ],
+    [
+      235,
+      "killed constraint",
+      91
+    ],
+    [
+      236,
+      "check killed",
+      91
+    ],
+    [
+      237,
+      "compare killed",
+      91
+    ],
+    [
+      238,
+      "observe killed",
+      91
+    ],
+    [
+      239,
+      "measure killed",
+      91
+    ],
+    [
+      240,
+      "test killed",
+      91
+    ],
+    [
+      241,
+      "verify killed",
+      91
+    ],
+    [
+      242,
+      "hold killed",
+      91
+    ],
+    [
+      243,
+      "preserve killed",
+      91
+    ],
+    [
+      244,
+      "split killed",
+      91
+    ],
+    [
+      245,
+      "narrow killed",
+      91
+    ],
+    [
+      246,
+      "under open",
+      91
+    ],
+    [
+      247,
+      "within open",
+      91
+    ],
+    [
+      248,
+      "across open",
+      91
+    ],
+    [
+      249,
+      "between open",
+      91
+    ],
+    [
+      250,
+      "through open",
+      91
+    ],
+    [
+      251,
+      "before open",
+      90
+    ],
+    [
+      252,
+      "after open",
+      90
+    ],
+    [
+      253,
+      "until open",
+      90
+    ],
+    [
+      254,
+      "where open",
+      90
+    ],
+    [
+      255,
+      "while open",
+      90
+    ],
+    [
+      256,
+      "open evidence",
+      90
+    ],
+    [
+      257,
+      "open support",
+      90
+    ],
+    [
+      258,
+      "open path",
+      90
+    ],
+    [
+      259,
+      "open surface",
+      90
+    ],
+    [
+      260,
+      "open packet",
+      90
+    ],
+    [
+      261,
+      "open receipt",
+      90
+    ],
+    [
+      262,
+      "open trace",
+      90
+    ],
+    [
+      263,
+      "open result",
+      90
+    ],
+    [
+      264,
+      "open scope",
+      90
+    ],
+    [
+      265,
+      "open boundary",
+      90
+    ],
+    [
+      266,
+      "open status",
+      90
+    ],
+    [
+      267,
+      "open candidate",
+      90
+    ],
+    [
+      268,
+      "open witness",
+      90
+    ],
+    [
+      269,
+      "open probe",
+      90
+    ],
+    [
+      270,
+      "open constraint",
+      90
+    ],
+    [
+      271,
+      "check open",
+      90
+    ],
+    [
+      272,
+      "compare open",
+      90
+    ],
+    [
+      273,
+      "observe open",
+      90
+    ],
+    [
+      274,
+      "measure open",
+      90
+    ],
+    [
+      275,
+      "test open",
+      90
+    ],
+    [
+      276,
+      "verify open",
+      89
+    ],
+    [
+      277,
+      "hold open",
+      89
+    ],
+    [
+      278,
+      "preserve open",
+      89
+    ],
+    [
+      279,
+      "split open",
+      89
+    ],
+    [
+      280,
+      "narrow open",
+      89
+    ],
+    [
+      281,
+      "under survived",
+      89
+    ],
+    [
+      282,
+      "within survived",
+      89
+    ],
+    [
+      283,
+      "across survived",
+      89
+    ],
+    [
+      284,
+      "between survived",
+      89
+    ],
+    [
+      285,
+      "through survived",
+      89
+    ],
+    [
+      286,
+      "before survived",
+      89
+    ],
+    [
+      287,
+      "after survived",
+      89
+    ],
+    [
+      288,
+      "until survived",
+      89
+    ],
+    [
+      289,
+      "where survived",
+      89
+    ],
+    [
+      290,
+      "while survived",
+      89
+    ],
+    [
+      291,
+      "survived evidence",
+      89
+    ],
+    [
+      292,
+      "survived support",
+      89
+    ],
+    [
+      293,
+      "survived path",
+      89
+    ],
+    [
+      294,
+      "survived surface",
+      89
+    ],
+    [
+      295,
+      "survived packet",
+      89
+    ],
+    [
+      296,
+      "survived receipt",
+      89
+    ],
+    [
+      297,
+      "survived trace",
+      89
+    ],
+    [
+      298,
+      "survived result",
+      89
+    ],
+    [
+      299,
+      "survived scope",
+      89
+    ],
+    [
+      300,
+      "survived boundary",
+      89
+    ],
+    [
+      301,
+      "survived status",
+      88
+    ],
+    [
+      302,
+      "survived candidate",
+      88
+    ],
+    [
+      303,
+      "survived witness",
+      88
+    ],
+    [
+      304,
+      "survived probe",
+      88
+    ],
+    [
+      305,
+      "survived constraint",
+      88
+    ],
+    [
+      306,
+      "check survived",
+      88
+    ],
+    [
+      307,
+      "compare survived",
+      88
+    ],
+    [
+      308,
+      "observe survived",
+      88
+    ],
+    [
+      309,
+      "measure survived",
+      88
+    ],
+    [
+      310,
+      "test survived",
+      88
+    ],
+    [
+      311,
+      "verify survived",
+      88
+    ],
+    [
+      312,
+      "hold survived",
+      88
+    ],
+    [
+      313,
+      "preserve survived",
+      88
+    ],
+    [
+      314,
+      "split survived",
+      88
+    ],
+    [
+      315,
+      "narrow survived",
+      88
+    ],
+    [
+      316,
+      "under counterexample",
+      88
+    ],
+    [
+      317,
+      "within counterexample",
+      88
+    ],
+    [
+      318,
+      "across counterexample",
+      88
+    ],
+    [
+      319,
+      "between counterexample",
+      88
+    ],
+    [
+      320,
+      "through counterexample",
+      88
+    ],
+    [
+      321,
+      "before counterexample",
+      88
+    ],
+    [
+      322,
+      "after counterexample",
+      88
+    ],
+    [
+      323,
+      "until counterexample",
+      88
+    ],
+    [
+      324,
+      "where counterexample",
+      88
+    ],
+    [
+      325,
+      "while counterexample",
+      88
+    ],
+    [
+      326,
+      "counterexample evidence",
+      87
+    ],
+    [
+      327,
+      "counterexample support",
+      87
+    ],
+    [
+      328,
+      "counterexample path",
+      87
+    ],
+    [
+      329,
+      "counterexample surface",
+      87
+    ],
+    [
+      330,
+      "counterexample packet",
+      87
+    ],
+    [
+      331,
+      "counterexample receipt",
+      87
+    ],
+    [
+      332,
+      "counterexample trace",
+      87
+    ],
+    [
+      333,
+      "counterexample result",
+      87
+    ],
+    [
+      334,
+      "counterexample scope",
+      87
+    ],
+    [
+      335,
+      "counterexample boundary",
+      87
+    ],
+    [
+      336,
+      "counterexample status",
+      87
+    ],
+    [
+      337,
+      "counterexample candidate",
+      87
+    ],
+    [
+      338,
+      "counterexample witness",
+      87
+    ],
+    [
+      339,
+      "counterexample probe",
+      87
+    ],
+    [
+      340,
+      "counterexample constraint",
+      87
+    ],
+    [
+      341,
+      "critical rationalism",
+      87
+    ],
+    [
+      342,
+      "bold conjecture",
+      87
+    ],
+    [
+      343,
+      "severe test",
+      87
+    ],
+    [
+      344,
+      "risky prediction",
+      87
+    ],
+    [
+      345,
+      "falsifiable hypothesis",
+      87
+    ],
+    [
+      346,
+      "problem situation",
+      87
+    ],
+    [
+      347,
+      "error elimination",
+      87
+    ],
+    [
+      348,
+      "corroborated theory",
+      87
+    ],
+    [
+      349,
+      "refuted claim",
+      87
+    ],
+    [
+      350,
+      "decisive check",
+      87
+    ],
+    [
+      351,
+      "failure condition",
+      86
+    ],
+    [
+      352,
+      "test pressure",
+      86
+    ],
+    [
+      353,
+      "conjectures and refutations",
+      86
+    ],
+    [
+      354,
+      "claim",
+      86
+    ],
+    [
+      355,
+      "conjecture",
+      86
+    ],
+    [
+      356,
+      "falsifier",
+      86
+    ],
+    [
+      357,
+      "refute",
+      86
+    ],
+    [
+      358,
+      "survive",
+      86
+    ],
+    [
+      359,
+      "killed",
+      86
+    ],
+    [
+      360,
+      "open",
+      86
+    ],
+    [
+      361,
+      "counterexample",
+      86
+    ],
+    [
+      362,
+      "exposure",
+      86
+    ],
+    [
+      363,
+      "what would break",
+      86
+    ],
+    [
+      364,
+      "what would rule out",
+      86
+    ],
+    [
+      365,
+      "not yet survived",
+      86
+    ],
+    [
+      366,
+      "unsupported",
+      86
+    ],
+    [
+      367,
+      "under conjecture",
+      86
+    ],
+    [
+      368,
+      "under refutation",
+      86
+    ],
+    [
+      369,
+      "under falsification",
+      86
+    ],
+    [
+      370,
+      "under severe",
+      86
+    ],
+    [
+      371,
+      "under risky",
+      86
+    ],
+    [
+      372,
+      "under prediction",
+      86
+    ],
+    [
+      373,
+      "under testable",
+      86
+    ],
+    [
+      374,
+      "under critical",
+      86
+    ],
+    [
+      375,
+      "under problem",
+      86
+    ],
+    [
+      376,
+      "under error",
+      85
+    ],
+    [
+      377,
+      "under trial",
+      85
+    ],
+    [
+      378,
+      "under corroboration",
+      85
+    ],
+    [
+      379,
+      "under survive",
+      85
+    ],
+    [
+      380,
+      "under fail",
+      85
+    ],
+    [
+      381,
+      "under counterinstance",
+      85
+    ],
+    [
+      382,
+      "within conjecture",
+      85
+    ],
+    [
+      383,
+      "within refutation",
+      85
+    ],
+    [
+      384,
+      "within falsification",
+      85
+    ],
+    [
+      385,
+      "within severe",
+      85
+    ],
+    [
+      386,
+      "within risky",
+      85
+    ],
+    [
+      387,
+      "within prediction",
+      85
+    ],
+    [
+      388,
+      "within testable",
+      85
+    ],
+    [
+      389,
+      "within critical",
+      85
+    ],
+    [
+      390,
+      "within problem",
+      85
+    ],
+    [
+      391,
+      "within error",
+      85
+    ],
+    [
+      392,
+      "within trial",
+      85
+    ],
+    [
+      393,
+      "within corroboration",
+      85
+    ],
+    [
+      394,
+      "within survive",
+      85
+    ],
+    [
+      395,
+      "within fail",
+      85
+    ],
+    [
+      396,
+      "within counterinstance",
+      85
+    ],
+    [
+      397,
+      "across conjecture",
+      85
+    ],
+    [
+      398,
+      "across refutation",
+      85
+    ],
+    [
+      399,
+      "across falsification",
+      85
+    ],
+    [
+      400,
+      "across severe",
+      85
+    ],
+    [
+      401,
+      "across risky",
+      84
+    ],
+    [
+      402,
+      "across prediction",
+      84
+    ],
+    [
+      403,
+      "across testable",
+      84
+    ],
+    [
+      404,
+      "across critical",
+      84
+    ],
+    [
+      405,
+      "across problem",
+      84
+    ],
+    [
+      406,
+      "across error",
+      84
+    ],
+    [
+      407,
+      "across trial",
+      84
+    ],
+    [
+      408,
+      "across corroboration",
+      84
+    ],
+    [
+      409,
+      "across survive",
+      84
+    ],
+    [
+      410,
+      "across fail",
+      84
+    ],
+    [
+      411,
+      "across counterinstance",
+      84
+    ],
+    [
+      412,
+      "between conjecture",
+      84
+    ],
+    [
+      413,
+      "between refutation",
+      84
+    ],
+    [
+      414,
+      "between falsification",
+      84
+    ],
+    [
+      415,
+      "between severe",
+      84
+    ],
+    [
+      416,
+      "between risky",
+      84
+    ],
+    [
+      417,
+      "between prediction",
+      84
+    ],
+    [
+      418,
+      "between testable",
+      84
+    ],
+    [
+      419,
+      "between critical",
+      84
+    ],
+    [
+      420,
+      "between problem",
+      84
+    ],
+    [
+      421,
+      "between error",
+      84
+    ],
+    [
+      422,
+      "between trial",
+      84
+    ],
+    [
+      423,
+      "between corroboration",
+      84
+    ],
+    [
+      424,
+      "between survive",
+      84
+    ],
+    [
+      425,
+      "between fail",
+      84
+    ],
+    [
+      426,
+      "between counterinstance",
+      83
+    ],
+    [
+      427,
+      "through conjecture",
+      83
+    ],
+    [
+      428,
+      "through refutation",
+      83
+    ],
+    [
+      429,
+      "through falsification",
+      83
+    ],
+    [
+      430,
+      "through severe",
+      83
+    ],
+    [
+      431,
+      "through risky",
+      83
+    ],
+    [
+      432,
+      "through prediction",
+      83
+    ],
+    [
+      433,
+      "through testable",
+      83
+    ],
+    [
+      434,
+      "through critical",
+      83
+    ],
+    [
+      435,
+      "through problem",
+      83
+    ],
+    [
+      436,
+      "through error",
+      83
+    ],
+    [
+      437,
+      "through trial",
+      83
+    ],
+    [
+      438,
+      "through corroboration",
+      83
+    ],
+    [
+      439,
+      "through survive",
+      83
+    ],
+    [
+      440,
+      "through fail",
+      83
+    ],
+    [
+      441,
+      "through counterinstance",
+      83
+    ],
+    [
+      442,
+      "before conjecture",
+      83
+    ],
+    [
+      443,
+      "before refutation",
+      83
+    ],
+    [
+      444,
+      "before falsification",
+      83
+    ],
+    [
+      445,
+      "before severe",
+      83
+    ],
+    [
+      446,
+      "before risky",
+      83
+    ],
+    [
+      447,
+      "before prediction",
+      83
+    ],
+    [
+      448,
+      "before testable",
+      83
+    ],
+    [
+      449,
+      "before critical",
+      83
+    ],
+    [
+      450,
+      "before problem",
+      83
+    ],
+    [
+      451,
+      "before error",
+      82
+    ],
+    [
+      452,
+      "before trial",
+      82
+    ],
+    [
+      453,
+      "before corroboration",
+      82
+    ],
+    [
+      454,
+      "before survive",
+      82
+    ],
+    [
+      455,
+      "before fail",
+      82
+    ],
+    [
+      456,
+      "before counterinstance",
+      82
+    ],
+    [
+      457,
+      "after conjecture",
+      82
+    ],
+    [
+      458,
+      "after refutation",
+      82
+    ],
+    [
+      459,
+      "after falsification",
+      82
+    ],
+    [
+      460,
+      "after severe",
+      82
+    ],
+    [
+      461,
+      "after risky",
+      82
+    ],
+    [
+      462,
+      "after prediction",
+      82
+    ],
+    [
+      463,
+      "after testable",
+      82
+    ],
+    [
+      464,
+      "after critical",
+      82
+    ],
+    [
+      465,
+      "after problem",
+      82
+    ],
+    [
+      466,
+      "after error",
+      82
+    ],
+    [
+      467,
+      "after trial",
+      82
+    ],
+    [
+      468,
+      "after corroboration",
+      82
+    ],
+    [
+      469,
+      "after survive",
+      82
+    ],
+    [
+      470,
+      "after fail",
+      82
+    ],
+    [
+      471,
+      "after counterinstance",
+      82
+    ],
+    [
+      472,
+      "during conjecture",
+      82
+    ],
+    [
+      473,
+      "during refutation",
+      82
+    ],
+    [
+      474,
+      "during falsifier",
+      82
+    ],
+    [
+      475,
+      "during falsification",
+      82
+    ],
+    [
+      476,
+      "during severe",
+      81
+    ],
+    [
+      477,
+      "during risky",
+      81
+    ],
+    [
+      478,
+      "during prediction",
+      81
+    ],
+    [
+      479,
+      "during testable",
+      81
+    ],
+    [
+      480,
+      "during critical",
+      81
+    ],
+    [
+      481,
+      "during problem",
+      81
+    ],
+    [
+      482,
+      "during error",
+      81
+    ],
+    [
+      483,
+      "during trial",
+      81
+    ],
+    [
+      484,
+      "during corroboration",
+      81
+    ],
+    [
+      485,
+      "during survive",
+      81
+    ],
+    [
+      486,
+      "during fail",
+      81
+    ],
+    [
+      487,
+      "during killed",
+      81
+    ],
+    [
+      488,
+      "during open",
+      81
+    ],
+    [
+      489,
+      "during survived",
+      81
+    ],
+    [
+      490,
+      "during counterinstance",
+      81
+    ],
+    [
+      491,
+      "during decisive",
+      81
+    ],
+    [
+      492,
+      "until conjecture",
+      81
+    ],
+    [
+      493,
+      "until refutation",
+      81
+    ],
+    [
+      494,
+      "until falsification",
+      81
+    ],
+    [
+      495,
+      "until severe",
+      81
+    ],
+    [
+      496,
+      "until risky",
+      81
+    ],
+    [
+      497,
+      "until prediction",
+      81
+    ],
+    [
+      498,
+      "until testable",
+      81
+    ],
+    [
+      499,
+      "until critical",
+      81
+    ],
+    [
+      500,
+      "until problem",
+      81
+    ],
+    [
+      501,
+      "until error",
+      80
+    ],
+    [
+      502,
+      "until trial",
+      80
+    ],
+    [
+      503,
+      "until corroboration",
+      80
+    ],
+    [
+      504,
+      "until survive",
+      80
+    ],
+    [
+      505,
+      "until fail",
+      80
+    ],
+    [
+      506,
+      "until counterinstance",
+      80
+    ],
+    [
+      507,
+      "since conjecture",
+      80
+    ],
+    [
+      508,
+      "since refutation",
+      80
+    ],
+    [
+      509,
+      "since falsifier",
+      80
+    ],
+    [
+      510,
+      "since falsification",
+      80
+    ],
+    [
+      511,
+      "since severe",
+      80
+    ],
+    [
+      512,
+      "since risky",
+      80
+    ],
+    [
+      513,
+      "since prediction",
+      80
+    ],
+    [
+      514,
+      "since testable",
+      80
+    ],
+    [
+      515,
+      "since critical",
+      80
+    ],
+    [
+      516,
+      "since problem",
+      80
+    ],
+    [
+      517,
+      "since error",
+      80
+    ],
+    [
+      518,
+      "since trial",
+      80
+    ],
+    [
+      519,
+      "since corroboration",
+      80
+    ],
+    [
+      520,
+      "since survive",
+      80
+    ],
+    [
+      521,
+      "since fail",
+      80
+    ],
+    [
+      522,
+      "since killed",
+      80
+    ],
+    [
+      523,
+      "since open",
+      80
+    ],
+    [
+      524,
+      "since survived",
+      80
+    ],
+    [
+      525,
+      "since counterinstance",
+      80
+    ],
+    [
+      526,
+      "since decisive",
+      79
+    ],
+    [
+      527,
+      "from conjecture",
+      79
+    ],
+    [
+      528,
+      "from refutation",
+      79
+    ],
+    [
+      529,
+      "from falsifier",
+      79
+    ],
+    [
+      530,
+      "from falsification",
+      79
+    ],
+    [
+      531,
+      "from severe",
+      79
+    ],
+    [
+      532,
+      "from risky",
+      79
+    ],
+    [
+      533,
+      "from prediction",
+      79
+    ],
+    [
+      534,
+      "from testable",
+      79
+    ],
+    [
+      535,
+      "from critical",
+      79
+    ],
+    [
+      536,
+      "from problem",
+      79
+    ],
+    [
+      537,
+      "from error",
+      79
+    ],
+    [
+      538,
+      "from trial",
+      79
+    ],
+    [
+      539,
+      "from corroboration",
+      79
+    ],
+    [
+      540,
+      "from survive",
+      79
+    ],
+    [
+      541,
+      "from fail",
+      79
+    ],
+    [
+      542,
+      "from killed",
+      79
+    ],
+    [
+      543,
+      "from open",
+      79
+    ],
+    [
+      544,
+      "from survived",
+      79
+    ],
+    [
+      545,
+      "from counterinstance",
+      79
+    ],
+    [
+      546,
+      "from decisive",
+      79
+    ],
+    [
+      547,
+      "by conjecture",
+      79
+    ],
+    [
+      548,
+      "by refutation",
+      79
+    ],
+    [
+      549,
+      "by falsifier",
+      79
+    ],
+    [
+      550,
+      "by falsification",
+      79
+    ],
+    [
+      551,
+      "by severe",
+      78
+    ],
+    [
+      552,
+      "by risky",
+      78
+    ],
+    [
+      553,
+      "by prediction",
+      78
+    ],
+    [
+      554,
+      "by testable",
+      78
+    ],
+    [
+      555,
+      "by critical",
+      78
+    ],
+    [
+      556,
+      "by problem",
+      78
+    ],
+    [
+      557,
+      "by error",
+      78
+    ],
+    [
+      558,
+      "by trial",
+      78
+    ],
+    [
+      559,
+      "by corroboration",
+      78
+    ],
+    [
+      560,
+      "by survive",
+      78
+    ],
+    [
+      561,
+      "by fail",
+      78
+    ],
+    [
+      562,
+      "by killed",
+      78
+    ],
+    [
+      563,
+      "by open",
+      78
+    ],
+    [
+      564,
+      "by survived",
+      78
+    ],
+    [
+      565,
+      "by counterinstance",
+      78
+    ],
+    [
+      566,
+      "by decisive",
+      78
+    ],
+    [
+      567,
+      "with conjecture",
+      78
+    ],
+    [
+      568,
+      "with refutation",
+      78
+    ],
+    [
+      569,
+      "with falsifier",
+      78
+    ],
+    [
+      570,
+      "with falsification",
+      78
+    ],
+    [
+      571,
+      "with severe",
+      78
+    ],
+    [
+      572,
+      "with risky",
+      78
+    ],
+    [
+      573,
+      "with prediction",
+      78
+    ],
+    [
+      574,
+      "with testable",
+      78
+    ],
+    [
+      575,
+      "with critical",
+      78
+    ],
+    [
+      576,
+      "with problem",
+      77
+    ],
+    [
+      577,
+      "with error",
+      77
+    ],
+    [
+      578,
+      "with trial",
+      77
+    ],
+    [
+      579,
+      "with corroboration",
+      77
+    ],
+    [
+      580,
+      "with survive",
+      77
+    ],
+    [
+      581,
+      "with fail",
+      77
+    ],
+    [
+      582,
+      "with killed",
+      77
+    ],
+    [
+      583,
+      "with open",
+      77
+    ],
+    [
+      584,
+      "with survived",
+      77
+    ],
+    [
+      585,
+      "with counterinstance",
+      77
+    ],
+    [
+      586,
+      "with decisive",
+      77
+    ],
+    [
+      587,
+      "without conjecture",
+      77
+    ],
+    [
+      588,
+      "without refutation",
+      77
+    ],
+    [
+      589,
+      "without falsifier",
+      77
+    ],
+    [
+      590,
+      "without falsification",
+      77
+    ],
+    [
+      591,
+      "without severe",
+      77
+    ],
+    [
+      592,
+      "without risky",
+      77
+    ],
+    [
+      593,
+      "without prediction",
+      77
+    ],
+    [
+      594,
+      "without testable",
+      77
+    ],
+    [
+      595,
+      "without critical",
+      77
+    ],
+    [
+      596,
+      "without problem",
+      77
+    ],
+    [
+      597,
+      "without error",
+      77
+    ],
+    [
+      598,
+      "without trial",
+      77
+    ],
+    [
+      599,
+      "without corroboration",
+      77
+    ],
+    [
+      600,
+      "without survive",
+      77
+    ],
+    [
+      601,
+      "without fail",
+      76
+    ],
+    [
+      602,
+      "without killed",
+      76
+    ],
+    [
+      603,
+      "without open",
+      76
+    ],
+    [
+      604,
+      "without survived",
+      76
+    ],
+    [
+      605,
+      "without counterinstance",
+      76
+    ],
+    [
+      606,
+      "without decisive",
+      76
+    ],
+    [
+      607,
+      "against conjecture",
+      76
+    ],
+    [
+      608,
+      "against refutation",
+      76
+    ],
+    [
+      609,
+      "against falsifier",
+      76
+    ],
+    [
+      610,
+      "against falsification",
+      76
+    ],
+    [
+      611,
+      "against severe",
+      76
+    ],
+    [
+      612,
+      "against risky",
+      76
+    ],
+    [
+      613,
+      "against prediction",
+      76
+    ],
+    [
+      614,
+      "against testable",
+      76
+    ],
+    [
+      615,
+      "against critical",
+      76
+    ],
+    [
+      616,
+      "against problem",
+      76
+    ],
+    [
+      617,
+      "against error",
+      76
+    ],
+    [
+      618,
+      "against trial",
+      76
+    ],
+    [
+      619,
+      "against corroboration",
+      76
+    ],
+    [
+      620,
+      "against survive",
+      76
+    ],
+    [
+      621,
+      "against fail",
+      76
+    ],
+    [
+      622,
+      "against killed",
+      76
+    ],
+    [
+      623,
+      "against open",
+      76
+    ],
+    [
+      624,
+      "against survived",
+      76
+    ],
+    [
+      625,
+      "against counterinstance",
+      76
+    ],
+    [
+      626,
+      "against decisive",
+      75
+    ],
+    [
+      627,
+      "toward conjecture",
+      75
+    ],
+    [
+      628,
+      "toward refutation",
+      75
+    ],
+    [
+      629,
+      "toward falsifier",
+      75
+    ],
+    [
+      630,
+      "toward falsification",
+      75
+    ],
+    [
+      631,
+      "toward severe",
+      75
+    ],
+    [
+      632,
+      "toward risky",
+      75
+    ],
+    [
+      633,
+      "toward prediction",
+      75
+    ],
+    [
+      634,
+      "toward testable",
+      75
+    ],
+    [
+      635,
+      "toward critical",
+      75
+    ],
+    [
+      636,
+      "toward problem",
+      75
+    ],
+    [
+      637,
+      "toward error",
+      75
+    ],
+    [
+      638,
+      "toward trial",
+      75
+    ],
+    [
+      639,
+      "toward corroboration",
+      75
+    ],
+    [
+      640,
+      "toward survive",
+      75
+    ],
+    [
+      641,
+      "toward fail",
+      75
+    ],
+    [
+      642,
+      "toward killed",
+      75
+    ],
+    [
+      643,
+      "toward open",
+      75
+    ],
+    [
+      644,
+      "toward survived",
+      75
+    ],
+    [
+      645,
+      "toward counterinstance",
+      75
+    ],
+    [
+      646,
+      "toward decisive",
+      75
+    ],
+    [
+      647,
+      "near conjecture",
+      75
+    ],
+    [
+      648,
+      "near refutation",
+      75
+    ],
+    [
+      649,
+      "near falsifier",
+      75
+    ],
+    [
+      650,
+      "near falsification",
+      75
+    ],
+    [
+      651,
+      "near severe",
+      74
+    ],
+    [
+      652,
+      "near risky",
+      74
+    ],
+    [
+      653,
+      "near prediction",
+      74
+    ],
+    [
+      654,
+      "near testable",
+      74
+    ],
+    [
+      655,
+      "near critical",
+      74
+    ],
+    [
+      656,
+      "near problem",
+      74
+    ],
+    [
+      657,
+      "near error",
+      74
+    ],
+    [
+      658,
+      "near trial",
+      74
+    ],
+    [
+      659,
+      "near corroboration",
+      74
+    ],
+    [
+      660,
+      "near survive",
+      74
+    ],
+    [
+      661,
+      "near fail",
+      74
+    ],
+    [
+      662,
+      "near killed",
+      74
+    ],
+    [
+      663,
+      "near open",
+      74
+    ],
+    [
+      664,
+      "near survived",
+      74
+    ],
+    [
+      665,
+      "near counterinstance",
+      74
+    ],
+    [
+      666,
+      "near decisive",
+      74
+    ],
+    [
+      667,
+      "relative conjecture",
+      74
+    ],
+    [
+      668,
+      "relative refutation",
+      74
+    ],
+    [
+      669,
+      "relative falsifier",
+      74
+    ],
+    [
+      670,
+      "relative falsification",
+      74
+    ],
+    [
+      671,
+      "relative severe",
+      74
+    ],
+    [
+      672,
+      "relative risky",
+      74
+    ],
+    [
+      673,
+      "relative prediction",
+      74
+    ],
+    [
+      674,
+      "relative testable",
+      74
+    ],
+    [
+      675,
+      "relative critical",
+      74
+    ],
+    [
+      676,
+      "relative problem",
+      73
+    ],
+    [
+      677,
+      "relative error",
+      73
+    ],
+    [
+      678,
+      "relative trial",
+      73
+    ],
+    [
+      679,
+      "relative corroboration",
+      73
+    ],
+    [
+      680,
+      "relative survive",
+      73
+    ],
+    [
+      681,
+      "relative fail",
+      73
+    ],
+    [
+      682,
+      "relative killed",
+      73
+    ],
+    [
+      683,
+      "relative open",
+      73
+    ],
+    [
+      684,
+      "relative survived",
+      73
+    ],
+    [
+      685,
+      "relative counterinstance",
+      73
+    ],
+    [
+      686,
+      "relative decisive",
+      73
+    ],
+    [
+      687,
+      "conjecture refutation",
+      73
+    ],
+    [
+      688,
+      "conjecture falsifier",
+      73
+    ],
+    [
+      689,
+      "conjecture falsification",
+      73
+    ],
+    [
+      690,
+      "conjecture severe",
+      73
+    ],
+    [
+      691,
+      "conjecture risky",
+      73
+    ],
+    [
+      692,
+      "conjecture prediction",
+      73
+    ],
+    [
+      693,
+      "conjecture testable",
+      73
+    ],
+    [
+      694,
+      "conjecture critical",
+      73
+    ],
+    [
+      695,
+      "conjecture problem",
+      73
+    ],
+    [
+      696,
+      "conjecture error",
+      73
+    ],
+    [
+      697,
+      "conjecture trial",
+      73
+    ],
+    [
+      698,
+      "refutation falsifier",
+      73
+    ],
+    [
+      699,
+      "refutation falsification",
+      73
+    ],
+    [
+      700,
+      "refutation severe",
+      73
+    ],
+    [
+      701,
+      "refutation risky",
+      72
+    ],
+    [
+      702,
+      "refutation prediction",
+      72
+    ],
+    [
+      703,
+      "refutation testable",
+      72
+    ],
+    [
+      704,
+      "refutation critical",
+      72
+    ],
+    [
+      705,
+      "refutation problem",
+      72
+    ],
+    [
+      706,
+      "refutation error",
+      72
+    ],
+    [
+      707,
+      "refutation trial",
+      72
+    ],
+    [
+      708,
+      "refutation corroboration",
+      72
+    ],
+    [
+      709,
+      "falsifier falsification",
+      72
+    ],
+    [
+      710,
+      "falsifier severe",
+      72
+    ],
+    [
+      711,
+      "falsifier risky",
+      72
+    ],
+    [
+      712,
+      "falsifier prediction",
+      72
+    ],
+    [
+      713,
+      "falsifier testable",
+      72
+    ],
+    [
+      714,
+      "falsifier critical",
+      72
+    ],
+    [
+      715,
+      "falsifier problem",
+      72
+    ],
+    [
+      716,
+      "falsifier error",
+      72
+    ],
+    [
+      717,
+      "falsifier trial",
+      72
+    ],
+    [
+      718,
+      "falsifier corroboration",
+      72
+    ],
+    [
+      719,
+      "falsifier survive",
+      72
+    ],
+    [
+      720,
+      "falsification severe",
+      72
+    ],
+    [
+      721,
+      "falsification risky",
+      72
+    ],
+    [
+      722,
+      "falsification prediction",
+      72
+    ],
+    [
+      723,
+      "falsification testable",
+      72
+    ],
+    [
+      724,
+      "falsification critical",
+      72
+    ],
+    [
+      725,
+      "falsification problem",
+      72
+    ],
+    [
+      726,
+      "falsification error",
+      71
+    ],
+    [
+      727,
+      "falsification trial",
+      71
+    ],
+    [
+      728,
+      "falsification corroboration",
+      71
+    ],
+    [
+      729,
+      "falsification survive",
+      71
+    ],
+    [
+      730,
+      "falsification fail",
+      71
+    ],
+    [
+      731,
+      "severe risky",
+      71
+    ],
+    [
+      732,
+      "severe prediction",
+      71
+    ],
+    [
+      733,
+      "severe testable",
+      71
+    ],
+    [
+      734,
+      "severe critical",
+      71
+    ],
+    [
+      735,
+      "severe problem",
+      71
+    ],
+    [
+      736,
+      "severe error",
+      71
+    ],
+    [
+      737,
+      "severe trial",
+      71
+    ],
+    [
+      738,
+      "severe corroboration",
+      71
+    ],
+    [
+      739,
+      "severe survive",
+      71
+    ],
+    [
+      740,
+      "severe fail",
+      71
+    ],
+    [
+      741,
+      "severe killed",
+      71
+    ],
+    [
+      742,
+      "risky testable",
+      71
+    ],
+    [
+      743,
+      "risky critical",
+      71
+    ],
+    [
+      744,
+      "risky problem",
+      71
+    ],
+    [
+      745,
+      "risky error",
+      71
+    ],
+    [
+      746,
+      "risky trial",
+      71
+    ],
+    [
+      747,
+      "risky corroboration",
+      71
+    ],
+    [
+      748,
+      "risky survive",
+      71
+    ],
+    [
+      749,
+      "risky fail",
+      71
+    ],
+    [
+      750,
+      "risky killed",
+      71
+    ],
+    [
+      751,
+      "risky open",
+      70
+    ],
+    [
+      752,
+      "prediction testable",
+      70
+    ],
+    [
+      753,
+      "prediction critical",
+      70
+    ],
+    [
+      754,
+      "prediction problem",
+      70
+    ],
+    [
+      755,
+      "prediction error",
+      70
+    ],
+    [
+      756,
+      "prediction trial",
+      70
+    ],
+    [
+      757,
+      "prediction corroboration",
+      70
+    ],
+    [
+      758,
+      "prediction survive",
+      70
+    ],
+    [
+      759,
+      "prediction fail",
+      70
+    ],
+    [
+      760,
+      "prediction killed",
+      70
+    ],
+    [
+      761,
+      "prediction open",
+      70
+    ],
+    [
+      762,
+      "prediction survived",
+      70
+    ],
+    [
+      763,
+      "testable critical",
+      70
+    ],
+    [
+      764,
+      "testable problem",
+      70
+    ],
+    [
+      765,
+      "testable error",
+      70
+    ],
+    [
+      766,
+      "testable trial",
+      70
+    ],
+    [
+      767,
+      "testable corroboration",
+      70
+    ],
+    [
+      768,
+      "testable survive",
+      70
+    ],
+    [
+      769,
+      "testable fail",
+      70
+    ],
+    [
+      770,
+      "testable killed",
+      70
+    ],
+    [
+      771,
+      "testable open",
+      70
+    ],
+    [
+      772,
+      "testable survived",
+      70
+    ],
+    [
+      773,
+      "testable counterinstance",
+      70
+    ],
+    [
+      774,
+      "critical problem",
+      70
+    ],
+    [
+      775,
+      "critical error",
+      70
+    ],
+    [
+      776,
+      "critical trial",
+      69
+    ],
+    [
+      777,
+      "critical corroboration",
+      69
+    ],
+    [
+      778,
+      "critical survive",
+      69
+    ],
+    [
+      779,
+      "critical fail",
+      69
+    ],
+    [
+      780,
+      "critical killed",
+      69
+    ],
+    [
+      781,
+      "critical open",
+      69
+    ],
+    [
+      782,
+      "critical survived",
+      69
+    ],
+    [
+      783,
+      "critical counterinstance",
+      69
+    ],
+    [
+      784,
+      "critical decisive",
+      69
+    ],
+    [
+      785,
+      "problem error",
+      69
+    ],
+    [
+      786,
+      "problem trial",
+      69
+    ],
+    [
+      787,
+      "problem corroboration",
+      69
+    ],
+    [
+      788,
+      "problem survive",
+      69
+    ],
+    [
+      789,
+      "problem fail",
+      69
+    ],
+    [
+      790,
+      "problem killed",
+      69
+    ],
+    [
+      791,
+      "problem open",
+      69
+    ],
+    [
+      792,
+      "problem survived",
+      69
+    ],
+    [
+      793,
+      "problem counterinstance",
+      69
+    ],
+    [
+      794,
+      "problem decisive",
+      69
+    ],
+    [
+      795,
+      "problem stress",
+      69
+    ],
+    [
+      796,
+      "error trial",
+      69
+    ],
+    [
+      797,
+      "error corroboration",
+      69
+    ],
+    [
+      798,
+      "error survive",
+      69
+    ],
+    [
+      799,
+      "error fail",
+      69
+    ],
+    [
+      800,
+      "error killed",
+      69
+    ],
+    [
+      801,
+      "error open",
+      68
+    ],
+    [
+      802,
+      "error survived",
+      68
+    ],
+    [
+      803,
+      "error counterinstance",
+      68
+    ],
+    [
+      804,
+      "error decisive",
+      68
+    ],
+    [
+      805,
+      "error stress",
+      68
+    ],
+    [
+      806,
+      "error pressure",
+      68
+    ],
+    [
+      807,
+      "trial corroboration",
+      68
+    ],
+    [
+      808,
+      "trial survive",
+      68
+    ],
+    [
+      809,
+      "trial fail",
+      68
+    ],
+    [
+      810,
+      "trial killed",
+      68
+    ],
+    [
+      811,
+      "trial open",
+      68
+    ],
+    [
+      812,
+      "trial survived",
+      68
+    ],
+    [
+      813,
+      "trial counterinstance",
+      68
+    ],
+    [
+      814,
+      "trial decisive",
+      68
+    ],
+    [
+      815,
+      "trial stress",
+      68
+    ],
+    [
+      816,
+      "trial pressure",
+      68
+    ],
+    [
+      817,
+      "trial challenge",
+      68
+    ],
+    [
+      818,
+      "corroboration survive",
+      68
+    ],
+    [
+      819,
+      "corroboration fail",
+      68
+    ],
+    [
+      820,
+      "corroboration killed",
+      68
+    ],
+    [
+      821,
+      "corroboration open",
+      68
+    ],
+    [
+      822,
+      "corroboration survived",
+      68
+    ],
+    [
+      823,
+      "corroboration counterinstance",
+      68
+    ],
+    [
+      824,
+      "corroboration decisive",
+      68
+    ],
+    [
+      825,
+      "corroboration stress",
+      68
+    ],
+    [
+      826,
+      "corroboration pressure",
+      67
+    ],
+    [
+      827,
+      "corroboration challenge",
+      67
+    ],
+    [
+      828,
+      "corroboration bold",
+      67
+    ],
+    [
+      829,
+      "survive fail",
+      67
+    ],
+    [
+      830,
+      "survive killed",
+      67
+    ],
+    [
+      831,
+      "survive open",
+      67
+    ],
+    [
+      832,
+      "survive survived",
+      67
+    ],
+    [
+      833,
+      "survive counterinstance",
+      67
+    ],
+    [
+      834,
+      "survive decisive",
+      67
+    ],
+    [
+      835,
+      "survive stress",
+      67
+    ],
+    [
+      836,
+      "survive pressure",
+      67
+    ],
+    [
+      837,
+      "survive challenge",
+      67
+    ],
+    [
+      838,
+      "survive bold",
+      67
+    ],
+    [
+      839,
+      "survive claim",
+      67
+    ],
+    [
+      840,
+      "fail killed",
+      67
+    ],
+    [
+      841,
+      "fail open",
+      67
+    ],
+    [
+      842,
+      "fail survived",
+      67
+    ],
+    [
+      843,
+      "fail counterinstance",
+      67
+    ],
+    [
+      844,
+      "fail decisive",
+      67
+    ],
+    [
+      845,
+      "fail stress",
+      67
+    ],
+    [
+      846,
+      "fail pressure",
+      67
+    ],
+    [
+      847,
+      "fail challenge",
+      67
+    ],
+    [
+      848,
+      "fail bold",
+      67
+    ],
+    [
+      849,
+      "fail claim",
+      67
+    ],
+    [
+      850,
+      "fail target",
+      67
+    ],
+    [
+      851,
+      "killed open",
+      66
+    ],
+    [
+      852,
+      "killed survived",
+      66
+    ],
+    [
+      853,
+      "killed counterinstance",
+      66
+    ],
+    [
+      854,
+      "killed decisive",
+      66
+    ],
+    [
+      855,
+      "killed stress",
+      66
+    ],
+    [
+      856,
+      "killed pressure",
+      66
+    ],
+    [
+      857,
+      "killed challenge",
+      66
+    ],
+    [
+      858,
+      "killed bold",
+      66
+    ],
+    [
+      859,
+      "killed claim",
+      66
+    ],
+    [
+      860,
+      "killed target",
+      66
+    ],
+    [
+      861,
+      "killed break",
+      66
+    ],
+    [
+      862,
+      "open survived",
+      66
+    ],
+    [
+      863,
+      "open counterinstance",
+      66
+    ],
+    [
+      864,
+      "open decisive",
+      66
+    ],
+    [
+      865,
+      "open stress",
+      66
+    ],
+    [
+      866,
+      "open pressure",
+      66
+    ],
+    [
+      867,
+      "open challenge",
+      66
+    ],
+    [
+      868,
+      "open bold",
+      66
+    ],
+    [
+      869,
+      "open claim",
+      66
+    ],
+    [
+      870,
+      "open target",
+      66
+    ],
+    [
+      871,
+      "open break",
+      66
+    ],
+    [
+      872,
+      "open exposure",
+      66
+    ],
+    [
+      873,
+      "survived counterinstance",
+      66
+    ],
+    [
+      874,
+      "survived decisive",
+      66
+    ],
+    [
+      875,
+      "survived stress",
+      66
+    ],
+    [
+      876,
+      "survived pressure",
+      65
+    ],
+    [
+      877,
+      "survived challenge",
+      65
+    ],
+    [
+      878,
+      "survived bold",
+      65
+    ],
+    [
+      879,
+      "survived claim",
+      65
+    ],
+    [
+      880,
+      "survived target",
+      65
+    ],
+    [
+      881,
+      "survived break",
+      65
+    ],
+    [
+      882,
+      "survived exposure",
+      65
+    ],
+    [
+      883,
+      "survived conjectures and refutations",
+      65
+    ],
+    [
+      884,
+      "counterinstance decisive",
+      65
+    ],
+    [
+      885,
+      "counterinstance stress",
+      65
+    ],
+    [
+      886,
+      "counterinstance pressure",
+      65
+    ],
+    [
+      887,
+      "counterinstance challenge",
+      65
+    ],
+    [
+      888,
+      "counterinstance bold",
+      65
+    ],
+    [
+      889,
+      "counterinstance claim",
+      65
+    ],
+    [
+      890,
+      "counterinstance target",
+      65
+    ],
+    [
+      891,
+      "counterinstance break",
+      65
+    ],
+    [
+      892,
+      "counterinstance exposure",
+      65
+    ],
+    [
+      893,
+      "counterinstance conjectures and refutations",
+      65
+    ],
+    [
+      894,
+      "counterinstance critical rationalism",
+      65
+    ],
+    [
+      895,
+      "decisive stress",
+      65
+    ],
+    [
+      896,
+      "decisive pressure",
+      65
+    ],
+    [
+      897,
+      "decisive challenge",
+      65
+    ],
+    [
+      898,
+      "decisive bold",
+      65
+    ],
+    [
+      899,
+      "decisive claim",
+      65
+    ],
+    [
+      900,
+      "decisive target",
+      65
+    ],
+    [
+      901,
+      "mini-MMM shapes voice",
+      100
+    ],
+    [
+      902,
+      "mini MMM voice shape",
+      100
+    ],
+    [
+      903,
+      "voice shaped by nouns",
+      100
+    ],
+    [
+      904,
+      "aligned nouns shape voice",
+      100
+    ],
+    [
+      905,
+      "correlated thinkers shape voice",
+      100
+    ],
+    [
+      906,
+      "thinker alignment voice",
+      100
+    ],
+    [
+      907,
+      "noun alignment voice",
+      100
+    ],
+    [
+      908,
+      "voice signature nouns",
+      100
+    ],
+    [
+      909,
+      "local voice contour",
+      100
+    ],
+    [
+      910,
+      "basic statement",
+      97
+    ],
+    [
+      911,
+      "provisional corroboration",
+      97
+    ],
+    [
+      912,
+      "single genuine counter-instance",
+      97
+    ],
+    [
+      913,
+      "conjecture and refutation",
+      97
+    ]
+  ],
+  "triplets": [
+    [
+      1,
+      "under current falsifier",
+      100
+    ],
+    [
+      2,
+      "under local falsifier",
+      100
+    ],
+    [
+      3,
+      "under bounded falsifier",
+      100
+    ],
+    [
+      4,
+      "under finite falsifier",
+      100
+    ],
+    [
+      5,
+      "under open falsifier",
+      100
+    ],
+    [
+      6,
+      "under live falsifier",
+      100
+    ],
+    [
+      7,
+      "within current falsifier",
+      100
+    ],
+    [
+      8,
+      "within local falsifier",
+      100
+    ],
+    [
+      9,
+      "within bounded falsifier",
+      100
+    ],
+    [
+      10,
+      "within finite falsifier",
+      100
+    ],
+    [
+      11,
+      "within open falsifier",
+      100
+    ],
+    [
+      12,
+      "within live falsifier",
+      100
+    ],
+    [
+      13,
+      "across current falsifier",
+      100
+    ],
+    [
+      14,
+      "across local falsifier",
+      100
+    ],
+    [
+      15,
+      "across bounded falsifier",
+      100
+    ],
+    [
+      16,
+      "across finite falsifier",
+      100
+    ],
+    [
+      17,
+      "across open falsifier",
+      100
+    ],
+    [
+      18,
+      "across live falsifier",
+      100
+    ],
+    [
+      19,
+      "between current falsifier",
+      100
+    ],
+    [
+      20,
+      "between local falsifier",
+      100
+    ],
+    [
+      21,
+      "between bounded falsifier",
+      100
+    ],
+    [
+      22,
+      "between finite falsifier",
+      100
+    ],
+    [
+      23,
+      "between open falsifier",
+      100
+    ],
+    [
+      24,
+      "between live falsifier",
+      100
+    ],
+    [
+      25,
+      "through current falsifier",
+      100
+    ],
+    [
+      26,
+      "through local falsifier",
+      99
+    ],
+    [
+      27,
+      "through bounded falsifier",
+      99
+    ],
+    [
+      28,
+      "through finite falsifier",
+      99
+    ],
+    [
+      29,
+      "through open falsifier",
+      99
+    ],
+    [
+      30,
+      "through live falsifier",
+      99
+    ],
+    [
+      31,
+      "before current falsifier",
+      99
+    ],
+    [
+      32,
+      "before local falsifier",
+      99
+    ],
+    [
+      33,
+      "before bounded falsifier",
+      99
+    ],
+    [
+      34,
+      "before finite falsifier",
+      99
+    ],
+    [
+      35,
+      "before open falsifier",
+      99
+    ],
+    [
+      36,
+      "before live falsifier",
+      99
+    ],
+    [
+      37,
+      "falsifier evidence path",
+      99
+    ],
+    [
+      38,
+      "falsifier support path",
+      99
+    ],
+    [
+      39,
+      "falsifier path path",
+      99
+    ],
+    [
+      40,
+      "falsifier surface path",
+      99
+    ],
+    [
+      41,
+      "falsifier packet path",
+      99
+    ],
+    [
+      42,
+      "falsifier receipt path",
+      99
+    ],
+    [
+      43,
+      "falsifier trace path",
+      99
+    ],
+    [
+      44,
+      "falsifier result path",
+      99
+    ],
+    [
+      45,
+      "falsifier scope path",
+      99
+    ],
+    [
+      46,
+      "falsifier boundary path",
+      99
+    ],
+    [
+      47,
+      "check falsifier receipt",
+      99
+    ],
+    [
+      48,
+      "compare falsifier receipt",
+      99
+    ],
+    [
+      49,
+      "observe falsifier receipt",
+      99
+    ],
+    [
+      50,
+      "measure falsifier receipt",
+      99
+    ],
+    [
+      51,
+      "test falsifier receipt",
+      98
+    ],
+    [
+      52,
+      "verify falsifier receipt",
+      98
+    ],
+    [
+      53,
+      "hold falsifier receipt",
+      98
+    ],
+    [
+      54,
+      "preserve falsifier receipt",
+      98
+    ],
+    [
+      55,
+      "under current falsify",
+      98
+    ],
+    [
+      56,
+      "under local falsify",
+      98
+    ],
+    [
+      57,
+      "under bounded falsify",
+      98
+    ],
+    [
+      58,
+      "under finite falsify",
+      98
+    ],
+    [
+      59,
+      "under open falsify",
+      98
+    ],
+    [
+      60,
+      "under live falsify",
+      98
+    ],
+    [
+      61,
+      "within current falsify",
+      98
+    ],
+    [
+      62,
+      "within local falsify",
+      98
+    ],
+    [
+      63,
+      "within bounded falsify",
+      98
+    ],
+    [
+      64,
+      "within finite falsify",
+      98
+    ],
+    [
+      65,
+      "within open falsify",
+      98
+    ],
+    [
+      66,
+      "within live falsify",
+      98
+    ],
+    [
+      67,
+      "across current falsify",
+      98
+    ],
+    [
+      68,
+      "across local falsify",
+      98
+    ],
+    [
+      69,
+      "across bounded falsify",
+      98
+    ],
+    [
+      70,
+      "across finite falsify",
+      98
+    ],
+    [
+      71,
+      "across open falsify",
+      98
+    ],
+    [
+      72,
+      "across live falsify",
+      98
+    ],
+    [
+      73,
+      "between current falsify",
+      98
+    ],
+    [
+      74,
+      "between local falsify",
+      98
+    ],
+    [
+      75,
+      "between bounded falsify",
+      98
+    ],
+    [
+      76,
+      "between finite falsify",
+      97
+    ],
+    [
+      77,
+      "between open falsify",
+      97
+    ],
+    [
+      78,
+      "between live falsify",
+      97
+    ],
+    [
+      79,
+      "through current falsify",
+      97
+    ],
+    [
+      80,
+      "through local falsify",
+      97
+    ],
+    [
+      81,
+      "through bounded falsify",
+      97
+    ],
+    [
+      82,
+      "through finite falsify",
+      97
+    ],
+    [
+      83,
+      "through open falsify",
+      97
+    ],
+    [
+      84,
+      "through live falsify",
+      97
+    ],
+    [
+      85,
+      "before current falsify",
+      97
+    ],
+    [
+      86,
+      "before local falsify",
+      97
+    ],
+    [
+      87,
+      "before bounded falsify",
+      97
+    ],
+    [
+      88,
+      "before finite falsify",
+      97
+    ],
+    [
+      89,
+      "before open falsify",
+      97
+    ],
+    [
+      90,
+      "before live falsify",
+      97
+    ],
+    [
+      91,
+      "falsify evidence path",
+      97
+    ],
+    [
+      92,
+      "falsify support path",
+      97
+    ],
+    [
+      93,
+      "falsify path path",
+      97
+    ],
+    [
+      94,
+      "falsify surface path",
+      97
+    ],
+    [
+      95,
+      "falsify packet path",
+      97
+    ],
+    [
+      96,
+      "falsify receipt path",
+      97
+    ],
+    [
+      97,
+      "falsify trace path",
+      97
+    ],
+    [
+      98,
+      "falsify result path",
+      97
+    ],
+    [
+      99,
+      "falsify scope path",
+      97
+    ],
+    [
+      100,
+      "falsify boundary path",
+      97
+    ],
+    [
+      101,
+      "check falsify receipt",
+      96
+    ],
+    [
+      102,
+      "compare falsify receipt",
+      96
+    ],
+    [
+      103,
+      "observe falsify receipt",
+      96
+    ],
+    [
+      104,
+      "measure falsify receipt",
+      96
+    ],
+    [
+      105,
+      "test falsify receipt",
+      96
+    ],
+    [
+      106,
+      "verify falsify receipt",
+      96
+    ],
+    [
+      107,
+      "hold falsify receipt",
+      96
+    ],
+    [
+      108,
+      "preserve falsify receipt",
+      96
+    ],
+    [
+      109,
+      "under current claim",
+      96
+    ],
+    [
+      110,
+      "under local claim",
+      96
+    ],
+    [
+      111,
+      "under bounded claim",
+      96
+    ],
+    [
+      112,
+      "under finite claim",
+      96
+    ],
+    [
+      113,
+      "under open claim",
+      96
+    ],
+    [
+      114,
+      "under live claim",
+      96
+    ],
+    [
+      115,
+      "within current claim",
+      96
+    ],
+    [
+      116,
+      "within local claim",
+      96
+    ],
+    [
+      117,
+      "within bounded claim",
+      96
+    ],
+    [
+      118,
+      "within finite claim",
+      96
+    ],
+    [
+      119,
+      "within open claim",
+      96
+    ],
+    [
+      120,
+      "within live claim",
+      96
+    ],
+    [
+      121,
+      "across current claim",
+      96
+    ],
+    [
+      122,
+      "across local claim",
+      96
+    ],
+    [
+      123,
+      "across bounded claim",
+      96
+    ],
+    [
+      124,
+      "across finite claim",
+      96
+    ],
+    [
+      125,
+      "across open claim",
+      96
+    ],
+    [
+      126,
+      "across live claim",
+      95
+    ],
+    [
+      127,
+      "between current claim",
+      95
+    ],
+    [
+      128,
+      "between local claim",
+      95
+    ],
+    [
+      129,
+      "between bounded claim",
+      95
+    ],
+    [
+      130,
+      "between finite claim",
+      95
+    ],
+    [
+      131,
+      "between open claim",
+      95
+    ],
+    [
+      132,
+      "between live claim",
+      95
+    ],
+    [
+      133,
+      "through current claim",
+      95
+    ],
+    [
+      134,
+      "through local claim",
+      95
+    ],
+    [
+      135,
+      "through bounded claim",
+      95
+    ],
+    [
+      136,
+      "through finite claim",
+      95
+    ],
+    [
+      137,
+      "through open claim",
+      95
+    ],
+    [
+      138,
+      "through live claim",
+      95
+    ],
+    [
+      139,
+      "before current claim",
+      95
+    ],
+    [
+      140,
+      "before local claim",
+      95
+    ],
+    [
+      141,
+      "before bounded claim",
+      95
+    ],
+    [
+      142,
+      "before finite claim",
+      95
+    ],
+    [
+      143,
+      "before open claim",
+      95
+    ],
+    [
+      144,
+      "before live claim",
+      95
+    ],
+    [
+      145,
+      "claim evidence path",
+      95
+    ],
+    [
+      146,
+      "claim support path",
+      95
+    ],
+    [
+      147,
+      "claim path path",
+      95
+    ],
+    [
+      148,
+      "claim surface path",
+      95
+    ],
+    [
+      149,
+      "claim packet path",
+      95
+    ],
+    [
+      150,
+      "claim receipt path",
+      95
+    ],
+    [
+      151,
+      "claim trace path",
+      94
+    ],
+    [
+      152,
+      "claim result path",
+      94
+    ],
+    [
+      153,
+      "claim scope path",
+      94
+    ],
+    [
+      154,
+      "claim boundary path",
+      94
+    ],
+    [
+      155,
+      "check claim receipt",
+      94
+    ],
+    [
+      156,
+      "compare claim receipt",
+      94
+    ],
+    [
+      157,
+      "observe claim receipt",
+      94
+    ],
+    [
+      158,
+      "measure claim receipt",
+      94
+    ],
+    [
+      159,
+      "test claim receipt",
+      94
+    ],
+    [
+      160,
+      "verify claim receipt",
+      94
+    ],
+    [
+      161,
+      "hold claim receipt",
+      94
+    ],
+    [
+      162,
+      "preserve claim receipt",
+      94
+    ],
+    [
+      163,
+      "under current break",
+      94
+    ],
+    [
+      164,
+      "under local break",
+      94
+    ],
+    [
+      165,
+      "under bounded break",
+      94
+    ],
+    [
+      166,
+      "under finite break",
+      94
+    ],
+    [
+      167,
+      "under open break",
+      94
+    ],
+    [
+      168,
+      "under live break",
+      94
+    ],
+    [
+      169,
+      "within current break",
+      94
+    ],
+    [
+      170,
+      "within local break",
+      94
+    ],
+    [
+      171,
+      "within bounded break",
+      94
+    ],
+    [
+      172,
+      "within finite break",
+      94
+    ],
+    [
+      173,
+      "within open break",
+      94
+    ],
+    [
+      174,
+      "within live break",
+      94
+    ],
+    [
+      175,
+      "across current break",
+      94
+    ],
+    [
+      176,
+      "across local break",
+      93
+    ],
+    [
+      177,
+      "across bounded break",
+      93
+    ],
+    [
+      178,
+      "across finite break",
+      93
+    ],
+    [
+      179,
+      "across open break",
+      93
+    ],
+    [
+      180,
+      "across live break",
+      93
+    ],
+    [
+      181,
+      "between current break",
+      93
+    ],
+    [
+      182,
+      "between local break",
+      93
+    ],
+    [
+      183,
+      "between bounded break",
+      93
+    ],
+    [
+      184,
+      "between finite break",
+      93
+    ],
+    [
+      185,
+      "between open break",
+      93
+    ],
+    [
+      186,
+      "between live break",
+      93
+    ],
+    [
+      187,
+      "through current break",
+      93
+    ],
+    [
+      188,
+      "through local break",
+      93
+    ],
+    [
+      189,
+      "through bounded break",
+      93
+    ],
+    [
+      190,
+      "through finite break",
+      93
+    ],
+    [
+      191,
+      "through open break",
+      93
+    ],
+    [
+      192,
+      "through live break",
+      93
+    ],
+    [
+      193,
+      "before current break",
+      93
+    ],
+    [
+      194,
+      "before local break",
+      93
+    ],
+    [
+      195,
+      "before bounded break",
+      93
+    ],
+    [
+      196,
+      "before finite break",
+      93
+    ],
+    [
+      197,
+      "before open break",
+      93
+    ],
+    [
+      198,
+      "before live break",
+      93
+    ],
+    [
+      199,
+      "break evidence path",
+      93
+    ],
+    [
+      200,
+      "break support path",
+      93
+    ],
+    [
+      201,
+      "break path path",
+      92
+    ],
+    [
+      202,
+      "break surface path",
+      92
+    ],
+    [
+      203,
+      "break packet path",
+      92
+    ],
+    [
+      204,
+      "break receipt path",
+      92
+    ],
+    [
+      205,
+      "break trace path",
+      92
+    ],
+    [
+      206,
+      "break result path",
+      92
+    ],
+    [
+      207,
+      "break scope path",
+      92
+    ],
+    [
+      208,
+      "break boundary path",
+      92
+    ],
+    [
+      209,
+      "check break receipt",
+      92
+    ],
+    [
+      210,
+      "compare break receipt",
+      92
+    ],
+    [
+      211,
+      "observe break receipt",
+      92
+    ],
+    [
+      212,
+      "measure break receipt",
+      92
+    ],
+    [
+      213,
+      "test break receipt",
+      92
+    ],
+    [
+      214,
+      "verify break receipt",
+      92
+    ],
+    [
+      215,
+      "hold break receipt",
+      92
+    ],
+    [
+      216,
+      "preserve break receipt",
+      92
+    ],
+    [
+      217,
+      "under current decisive",
+      92
+    ],
+    [
+      218,
+      "under local decisive",
+      92
+    ],
+    [
+      219,
+      "under bounded decisive",
+      92
+    ],
+    [
+      220,
+      "under finite decisive",
+      92
+    ],
+    [
+      221,
+      "under open decisive",
+      92
+    ],
+    [
+      222,
+      "under live decisive",
+      92
+    ],
+    [
+      223,
+      "within current decisive",
+      92
+    ],
+    [
+      224,
+      "within local decisive",
+      92
+    ],
+    [
+      225,
+      "within bounded decisive",
+      92
+    ],
+    [
+      226,
+      "within finite decisive",
+      91
+    ],
+    [
+      227,
+      "within open decisive",
+      91
+    ],
+    [
+      228,
+      "within live decisive",
+      91
+    ],
+    [
+      229,
+      "across current decisive",
+      91
+    ],
+    [
+      230,
+      "across local decisive",
+      91
+    ],
+    [
+      231,
+      "across bounded decisive",
+      91
+    ],
+    [
+      232,
+      "across finite decisive",
+      91
+    ],
+    [
+      233,
+      "across open decisive",
+      91
+    ],
+    [
+      234,
+      "across live decisive",
+      91
+    ],
+    [
+      235,
+      "between current decisive",
+      91
+    ],
+    [
+      236,
+      "between local decisive",
+      91
+    ],
+    [
+      237,
+      "between bounded decisive",
+      91
+    ],
+    [
+      238,
+      "between finite decisive",
+      91
+    ],
+    [
+      239,
+      "between open decisive",
+      91
+    ],
+    [
+      240,
+      "between live decisive",
+      91
+    ],
+    [
+      241,
+      "conjectures and refutations",
+      91
+    ],
+    [
+      242,
+      "what would break",
+      91
+    ],
+    [
+      243,
+      "not yet survived",
+      91
+    ],
+    [
+      244,
+      "under conjecture refutation",
+      91
+    ],
+    [
+      245,
+      "under conjecture falsifier",
+      91
+    ],
+    [
+      246,
+      "under conjecture falsification",
+      91
+    ],
+    [
+      247,
+      "under conjecture severe",
+      91
+    ],
+    [
+      248,
+      "under refutation falsifier",
+      91
+    ],
+    [
+      249,
+      "under refutation falsification",
+      91
+    ],
+    [
+      250,
+      "under refutation severe",
+      91
+    ],
+    [
+      251,
+      "under refutation risky",
+      90
+    ],
+    [
+      252,
+      "under falsifier falsification",
+      90
+    ],
+    [
+      253,
+      "under falsifier severe",
+      90
+    ],
+    [
+      254,
+      "under falsifier risky",
+      90
+    ],
+    [
+      255,
+      "under falsifier prediction",
+      90
+    ],
+    [
+      256,
+      "under falsification severe",
+      90
+    ],
+    [
+      257,
+      "under falsification risky",
+      90
+    ],
+    [
+      258,
+      "under falsification prediction",
+      90
+    ],
+    [
+      259,
+      "under falsification testable",
+      90
+    ],
+    [
+      260,
+      "under severe risky",
+      90
+    ],
+    [
+      261,
+      "under severe prediction",
+      90
+    ],
+    [
+      262,
+      "under severe testable",
+      90
+    ],
+    [
+      263,
+      "under severe critical",
+      90
+    ],
+    [
+      264,
+      "under risky prediction",
+      90
+    ],
+    [
+      265,
+      "under risky testable",
+      90
+    ],
+    [
+      266,
+      "under risky critical",
+      90
+    ],
+    [
+      267,
+      "under risky problem",
+      90
+    ],
+    [
+      268,
+      "under prediction testable",
+      90
+    ],
+    [
+      269,
+      "under prediction critical",
+      90
+    ],
+    [
+      270,
+      "under prediction problem",
+      90
+    ],
+    [
+      271,
+      "under prediction error",
+      90
+    ],
+    [
+      272,
+      "under testable critical",
+      90
+    ],
+    [
+      273,
+      "under testable problem",
+      90
+    ],
+    [
+      274,
+      "under testable error",
+      90
+    ],
+    [
+      275,
+      "under testable trial",
+      90
+    ],
+    [
+      276,
+      "under critical problem",
+      89
+    ],
+    [
+      277,
+      "under critical error",
+      89
+    ],
+    [
+      278,
+      "under critical trial",
+      89
+    ],
+    [
+      279,
+      "under critical corroboration",
+      89
+    ],
+    [
+      280,
+      "under problem error",
+      89
+    ],
+    [
+      281,
+      "under problem trial",
+      89
+    ],
+    [
+      282,
+      "under problem corroboration",
+      89
+    ],
+    [
+      283,
+      "under problem survive",
+      89
+    ],
+    [
+      284,
+      "under error trial",
+      89
+    ],
+    [
+      285,
+      "under error corroboration",
+      89
+    ],
+    [
+      286,
+      "under error survive",
+      89
+    ],
+    [
+      287,
+      "under error fail",
+      89
+    ],
+    [
+      288,
+      "under trial corroboration",
+      89
+    ],
+    [
+      289,
+      "under trial survive",
+      89
+    ],
+    [
+      290,
+      "under trial fail",
+      89
+    ],
+    [
+      291,
+      "under trial killed",
+      89
+    ],
+    [
+      292,
+      "under corroboration survive",
+      89
+    ],
+    [
+      293,
+      "under corroboration fail",
+      89
+    ],
+    [
+      294,
+      "under corroboration killed",
+      89
+    ],
+    [
+      295,
+      "under corroboration open",
+      89
+    ],
+    [
+      296,
+      "under survive fail",
+      89
+    ],
+    [
+      297,
+      "under survive killed",
+      89
+    ],
+    [
+      298,
+      "under survive open",
+      89
+    ],
+    [
+      299,
+      "under survive survived",
+      89
+    ],
+    [
+      300,
+      "under fail killed",
+      89
+    ],
+    [
+      301,
+      "under fail open",
+      88
+    ],
+    [
+      302,
+      "under fail survived",
+      88
+    ],
+    [
+      303,
+      "under fail counterinstance",
+      88
+    ],
+    [
+      304,
+      "under killed open",
+      88
+    ],
+    [
+      305,
+      "under killed survived",
+      88
+    ],
+    [
+      306,
+      "under killed counterinstance",
+      88
+    ],
+    [
+      307,
+      "under killed decisive",
+      88
+    ],
+    [
+      308,
+      "under open survived",
+      88
+    ],
+    [
+      309,
+      "under open counterinstance",
+      88
+    ],
+    [
+      310,
+      "under open stress",
+      88
+    ],
+    [
+      311,
+      "under survived counterinstance",
+      88
+    ],
+    [
+      312,
+      "under survived decisive",
+      88
+    ],
+    [
+      313,
+      "under survived stress",
+      88
+    ],
+    [
+      314,
+      "under survived pressure",
+      88
+    ],
+    [
+      315,
+      "under counterinstance decisive",
+      88
+    ],
+    [
+      316,
+      "under counterinstance stress",
+      88
+    ],
+    [
+      317,
+      "under counterinstance pressure",
+      88
+    ],
+    [
+      318,
+      "under counterinstance challenge",
+      88
+    ],
+    [
+      319,
+      "under decisive stress",
+      88
+    ],
+    [
+      320,
+      "under decisive pressure",
+      88
+    ],
+    [
+      321,
+      "under decisive challenge",
+      88
+    ],
+    [
+      322,
+      "under decisive bold",
+      88
+    ],
+    [
+      323,
+      "within conjecture refutation",
+      88
+    ],
+    [
+      324,
+      "within conjecture falsifier",
+      88
+    ],
+    [
+      325,
+      "within conjecture falsification",
+      88
+    ],
+    [
+      326,
+      "within conjecture severe",
+      87
+    ],
+    [
+      327,
+      "within refutation falsifier",
+      87
+    ],
+    [
+      328,
+      "within refutation falsification",
+      87
+    ],
+    [
+      329,
+      "within refutation severe",
+      87
+    ],
+    [
+      330,
+      "within refutation risky",
+      87
+    ],
+    [
+      331,
+      "within falsifier falsification",
+      87
+    ],
+    [
+      332,
+      "within falsifier severe",
+      87
+    ],
+    [
+      333,
+      "within falsifier risky",
+      87
+    ],
+    [
+      334,
+      "within falsifier prediction",
+      87
+    ],
+    [
+      335,
+      "within falsification severe",
+      87
+    ],
+    [
+      336,
+      "within falsification risky",
+      87
+    ],
+    [
+      337,
+      "within falsification prediction",
+      87
+    ],
+    [
+      338,
+      "within falsification testable",
+      87
+    ],
+    [
+      339,
+      "within severe risky",
+      87
+    ],
+    [
+      340,
+      "within severe prediction",
+      87
+    ],
+    [
+      341,
+      "within severe testable",
+      87
+    ],
+    [
+      342,
+      "within severe critical",
+      87
+    ],
+    [
+      343,
+      "within risky prediction",
+      87
+    ],
+    [
+      344,
+      "within risky testable",
+      87
+    ],
+    [
+      345,
+      "within risky critical",
+      87
+    ],
+    [
+      346,
+      "within risky problem",
+      87
+    ],
+    [
+      347,
+      "within prediction testable",
+      87
+    ],
+    [
+      348,
+      "within prediction critical",
+      87
+    ],
+    [
+      349,
+      "within prediction problem",
+      87
+    ],
+    [
+      350,
+      "within prediction error",
+      87
+    ],
+    [
+      351,
+      "within testable critical",
+      86
+    ],
+    [
+      352,
+      "within testable problem",
+      86
+    ],
+    [
+      353,
+      "within testable error",
+      86
+    ],
+    [
+      354,
+      "within testable trial",
+      86
+    ],
+    [
+      355,
+      "within critical problem",
+      86
+    ],
+    [
+      356,
+      "within critical error",
+      86
+    ],
+    [
+      357,
+      "within critical trial",
+      86
+    ],
+    [
+      358,
+      "within critical corroboration",
+      86
+    ],
+    [
+      359,
+      "within problem error",
+      86
+    ],
+    [
+      360,
+      "within problem trial",
+      86
+    ],
+    [
+      361,
+      "within problem corroboration",
+      86
+    ],
+    [
+      362,
+      "within problem survive",
+      86
+    ],
+    [
+      363,
+      "within error trial",
+      86
+    ],
+    [
+      364,
+      "within error corroboration",
+      86
+    ],
+    [
+      365,
+      "within error survive",
+      86
+    ],
+    [
+      366,
+      "within error fail",
+      86
+    ],
+    [
+      367,
+      "within trial corroboration",
+      86
+    ],
+    [
+      368,
+      "within trial survive",
+      86
+    ],
+    [
+      369,
+      "within trial fail",
+      86
+    ],
+    [
+      370,
+      "within trial killed",
+      86
+    ],
+    [
+      371,
+      "within corroboration survive",
+      86
+    ],
+    [
+      372,
+      "within corroboration fail",
+      86
+    ],
+    [
+      373,
+      "within corroboration killed",
+      86
+    ],
+    [
+      374,
+      "within corroboration open",
+      86
+    ],
+    [
+      375,
+      "within survive fail",
+      86
+    ],
+    [
+      376,
+      "within survive killed",
+      85
+    ],
+    [
+      377,
+      "within survive open",
+      85
+    ],
+    [
+      378,
+      "within survive survived",
+      85
+    ],
+    [
+      379,
+      "within fail killed",
+      85
+    ],
+    [
+      380,
+      "within fail open",
+      85
+    ],
+    [
+      381,
+      "within fail survived",
+      85
+    ],
+    [
+      382,
+      "within fail counterinstance",
+      85
+    ],
+    [
+      383,
+      "within killed open",
+      85
+    ],
+    [
+      384,
+      "within killed survived",
+      85
+    ],
+    [
+      385,
+      "within killed counterinstance",
+      85
+    ],
+    [
+      386,
+      "within killed decisive",
+      85
+    ],
+    [
+      387,
+      "within open survived",
+      85
+    ],
+    [
+      388,
+      "within open counterinstance",
+      85
+    ],
+    [
+      389,
+      "within open stress",
+      85
+    ],
+    [
+      390,
+      "within survived counterinstance",
+      85
+    ],
+    [
+      391,
+      "within survived decisive",
+      85
+    ],
+    [
+      392,
+      "within survived stress",
+      85
+    ],
+    [
+      393,
+      "within survived pressure",
+      85
+    ],
+    [
+      394,
+      "within counterinstance decisive",
+      85
+    ],
+    [
+      395,
+      "within counterinstance stress",
+      85
+    ],
+    [
+      396,
+      "within counterinstance pressure",
+      85
+    ],
+    [
+      397,
+      "within counterinstance challenge",
+      85
+    ],
+    [
+      398,
+      "within decisive stress",
+      85
+    ],
+    [
+      399,
+      "within decisive pressure",
+      85
+    ],
+    [
+      400,
+      "within decisive challenge",
+      85
+    ],
+    [
+      401,
+      "within decisive bold",
+      84
+    ],
+    [
+      402,
+      "across conjecture refutation",
+      84
+    ],
+    [
+      403,
+      "across conjecture falsifier",
+      84
+    ],
+    [
+      404,
+      "across conjecture falsification",
+      84
+    ],
+    [
+      405,
+      "across conjecture severe",
+      84
+    ],
+    [
+      406,
+      "across refutation falsifier",
+      84
+    ],
+    [
+      407,
+      "across refutation falsification",
+      84
+    ],
+    [
+      408,
+      "across refutation severe",
+      84
+    ],
+    [
+      409,
+      "across refutation risky",
+      84
+    ],
+    [
+      410,
+      "across falsifier falsification",
+      84
+    ],
+    [
+      411,
+      "across falsifier severe",
+      84
+    ],
+    [
+      412,
+      "across falsifier risky",
+      84
+    ],
+    [
+      413,
+      "across falsifier prediction",
+      84
+    ],
+    [
+      414,
+      "across falsification severe",
+      84
+    ],
+    [
+      415,
+      "across falsification risky",
+      84
+    ],
+    [
+      416,
+      "across falsification prediction",
+      84
+    ],
+    [
+      417,
+      "across falsification testable",
+      84
+    ],
+    [
+      418,
+      "across severe risky",
+      84
+    ],
+    [
+      419,
+      "across severe prediction",
+      84
+    ],
+    [
+      420,
+      "across severe testable",
+      84
+    ],
+    [
+      421,
+      "across severe critical",
+      84
+    ],
+    [
+      422,
+      "across risky prediction",
+      84
+    ],
+    [
+      423,
+      "across risky testable",
+      84
+    ],
+    [
+      424,
+      "across risky critical",
+      84
+    ],
+    [
+      425,
+      "across risky problem",
+      84
+    ],
+    [
+      426,
+      "across prediction testable",
+      83
+    ],
+    [
+      427,
+      "across prediction critical",
+      83
+    ],
+    [
+      428,
+      "across prediction problem",
+      83
+    ],
+    [
+      429,
+      "across prediction error",
+      83
+    ],
+    [
+      430,
+      "across testable critical",
+      83
+    ],
+    [
+      431,
+      "across testable problem",
+      83
+    ],
+    [
+      432,
+      "across testable error",
+      83
+    ],
+    [
+      433,
+      "across testable trial",
+      83
+    ],
+    [
+      434,
+      "across critical problem",
+      83
+    ],
+    [
+      435,
+      "across critical error",
+      83
+    ],
+    [
+      436,
+      "across critical trial",
+      83
+    ],
+    [
+      437,
+      "across critical corroboration",
+      83
+    ],
+    [
+      438,
+      "across problem error",
+      83
+    ],
+    [
+      439,
+      "across problem trial",
+      83
+    ],
+    [
+      440,
+      "across problem corroboration",
+      83
+    ],
+    [
+      441,
+      "across problem survive",
+      83
+    ],
+    [
+      442,
+      "across error trial",
+      83
+    ],
+    [
+      443,
+      "across error corroboration",
+      83
+    ],
+    [
+      444,
+      "across error survive",
+      83
+    ],
+    [
+      445,
+      "across error fail",
+      83
+    ],
+    [
+      446,
+      "across trial corroboration",
+      83
+    ],
+    [
+      447,
+      "across trial survive",
+      83
+    ],
+    [
+      448,
+      "across trial fail",
+      83
+    ],
+    [
+      449,
+      "across trial killed",
+      83
+    ],
+    [
+      450,
+      "across corroboration survive",
+      83
+    ],
+    [
+      451,
+      "across corroboration fail",
+      82
+    ],
+    [
+      452,
+      "across corroboration killed",
+      82
+    ],
+    [
+      453,
+      "across corroboration open",
+      82
+    ],
+    [
+      454,
+      "across survive fail",
+      82
+    ],
+    [
+      455,
+      "across survive killed",
+      82
+    ],
+    [
+      456,
+      "across survive open",
+      82
+    ],
+    [
+      457,
+      "across survive survived",
+      82
+    ],
+    [
+      458,
+      "across fail killed",
+      82
+    ],
+    [
+      459,
+      "across fail open",
+      82
+    ],
+    [
+      460,
+      "across fail survived",
+      82
+    ],
+    [
+      461,
+      "across fail counterinstance",
+      82
+    ],
+    [
+      462,
+      "across killed open",
+      82
+    ],
+    [
+      463,
+      "across killed survived",
+      82
+    ],
+    [
+      464,
+      "across killed counterinstance",
+      82
+    ],
+    [
+      465,
+      "across killed decisive",
+      82
+    ],
+    [
+      466,
+      "across open survived",
+      82
+    ],
+    [
+      467,
+      "across open counterinstance",
+      82
+    ],
+    [
+      468,
+      "across open stress",
+      82
+    ],
+    [
+      469,
+      "across survived counterinstance",
+      82
+    ],
+    [
+      470,
+      "across survived decisive",
+      82
+    ],
+    [
+      471,
+      "across survived stress",
+      82
+    ],
+    [
+      472,
+      "across survived pressure",
+      82
+    ],
+    [
+      473,
+      "across counterinstance decisive",
+      82
+    ],
+    [
+      474,
+      "across counterinstance stress",
+      82
+    ],
+    [
+      475,
+      "across counterinstance pressure",
+      82
+    ],
+    [
+      476,
+      "across counterinstance challenge",
+      81
+    ],
+    [
+      477,
+      "across decisive stress",
+      81
+    ],
+    [
+      478,
+      "across decisive pressure",
+      81
+    ],
+    [
+      479,
+      "across decisive challenge",
+      81
+    ],
+    [
+      480,
+      "across decisive bold",
+      81
+    ],
+    [
+      481,
+      "between conjecture refutation",
+      81
+    ],
+    [
+      482,
+      "between conjecture falsifier",
+      81
+    ],
+    [
+      483,
+      "between conjecture falsification",
+      81
+    ],
+    [
+      484,
+      "between conjecture severe",
+      81
+    ],
+    [
+      485,
+      "between refutation falsifier",
+      81
+    ],
+    [
+      486,
+      "between refutation falsification",
+      81
+    ],
+    [
+      487,
+      "between refutation severe",
+      81
+    ],
+    [
+      488,
+      "between refutation risky",
+      81
+    ],
+    [
+      489,
+      "between falsifier falsification",
+      81
+    ],
+    [
+      490,
+      "between falsifier severe",
+      81
+    ],
+    [
+      491,
+      "between falsifier risky",
+      81
+    ],
+    [
+      492,
+      "between falsifier prediction",
+      81
+    ],
+    [
+      493,
+      "between falsification severe",
+      81
+    ],
+    [
+      494,
+      "between falsification risky",
+      81
+    ],
+    [
+      495,
+      "between falsification prediction",
+      81
+    ],
+    [
+      496,
+      "between falsification testable",
+      81
+    ],
+    [
+      497,
+      "between severe risky",
+      81
+    ],
+    [
+      498,
+      "between severe prediction",
+      81
+    ],
+    [
+      499,
+      "between severe testable",
+      81
+    ],
+    [
+      500,
+      "between severe critical",
+      81
+    ],
+    [
+      501,
+      "between risky prediction",
+      80
+    ],
+    [
+      502,
+      "between risky testable",
+      80
+    ],
+    [
+      503,
+      "between risky critical",
+      80
+    ],
+    [
+      504,
+      "between risky problem",
+      80
+    ],
+    [
+      505,
+      "between prediction testable",
+      80
+    ],
+    [
+      506,
+      "between prediction critical",
+      80
+    ],
+    [
+      507,
+      "between prediction problem",
+      80
+    ],
+    [
+      508,
+      "between prediction error",
+      80
+    ],
+    [
+      509,
+      "between testable critical",
+      80
+    ],
+    [
+      510,
+      "between testable problem",
+      80
+    ],
+    [
+      511,
+      "between testable error",
+      80
+    ],
+    [
+      512,
+      "between testable trial",
+      80
+    ],
+    [
+      513,
+      "between critical problem",
+      80
+    ],
+    [
+      514,
+      "between critical error",
+      80
+    ],
+    [
+      515,
+      "between critical trial",
+      80
+    ],
+    [
+      516,
+      "between critical corroboration",
+      80
+    ],
+    [
+      517,
+      "between problem error",
+      80
+    ],
+    [
+      518,
+      "between problem trial",
+      80
+    ],
+    [
+      519,
+      "between problem corroboration",
+      80
+    ],
+    [
+      520,
+      "between problem survive",
+      80
+    ],
+    [
+      521,
+      "between error trial",
+      80
+    ],
+    [
+      522,
+      "between error corroboration",
+      80
+    ],
+    [
+      523,
+      "between error survive",
+      80
+    ],
+    [
+      524,
+      "between error fail",
+      80
+    ],
+    [
+      525,
+      "between trial corroboration",
+      80
+    ],
+    [
+      526,
+      "between trial survive",
+      79
+    ],
+    [
+      527,
+      "between trial fail",
+      79
+    ],
+    [
+      528,
+      "between trial killed",
+      79
+    ],
+    [
+      529,
+      "between corroboration survive",
+      79
+    ],
+    [
+      530,
+      "between corroboration fail",
+      79
+    ],
+    [
+      531,
+      "between corroboration killed",
+      79
+    ],
+    [
+      532,
+      "between corroboration open",
+      79
+    ],
+    [
+      533,
+      "between survive fail",
+      79
+    ],
+    [
+      534,
+      "between survive killed",
+      79
+    ],
+    [
+      535,
+      "between survive open",
+      79
+    ],
+    [
+      536,
+      "between survive survived",
+      79
+    ],
+    [
+      537,
+      "between fail killed",
+      79
+    ],
+    [
+      538,
+      "between fail open",
+      79
+    ],
+    [
+      539,
+      "between fail survived",
+      79
+    ],
+    [
+      540,
+      "between fail counterinstance",
+      79
+    ],
+    [
+      541,
+      "between killed open",
+      79
+    ],
+    [
+      542,
+      "between killed survived",
+      79
+    ],
+    [
+      543,
+      "between killed counterinstance",
+      79
+    ],
+    [
+      544,
+      "between killed decisive",
+      79
+    ],
+    [
+      545,
+      "between open survived",
+      79
+    ],
+    [
+      546,
+      "between open counterinstance",
+      79
+    ],
+    [
+      547,
+      "between open stress",
+      79
+    ],
+    [
+      548,
+      "between survived counterinstance",
+      79
+    ],
+    [
+      549,
+      "between survived decisive",
+      79
+    ],
+    [
+      550,
+      "between survived stress",
+      79
+    ],
+    [
+      551,
+      "between survived pressure",
+      78
+    ],
+    [
+      552,
+      "between counterinstance decisive",
+      78
+    ],
+    [
+      553,
+      "between counterinstance stress",
+      78
+    ],
+    [
+      554,
+      "between counterinstance pressure",
+      78
+    ],
+    [
+      555,
+      "between counterinstance challenge",
+      78
+    ],
+    [
+      556,
+      "between decisive stress",
+      78
+    ],
+    [
+      557,
+      "between decisive pressure",
+      78
+    ],
+    [
+      558,
+      "between decisive challenge",
+      78
+    ],
+    [
+      559,
+      "between decisive bold",
+      78
+    ],
+    [
+      560,
+      "through conjecture refutation",
+      78
+    ],
+    [
+      561,
+      "through conjecture falsifier",
+      78
+    ],
+    [
+      562,
+      "through conjecture falsification",
+      78
+    ],
+    [
+      563,
+      "through conjecture severe",
+      78
+    ],
+    [
+      564,
+      "through refutation falsifier",
+      78
+    ],
+    [
+      565,
+      "through refutation falsification",
+      78
+    ],
+    [
+      566,
+      "through refutation severe",
+      78
+    ],
+    [
+      567,
+      "through refutation risky",
+      78
+    ],
+    [
+      568,
+      "through falsifier falsification",
+      78
+    ],
+    [
+      569,
+      "through falsifier severe",
+      78
+    ],
+    [
+      570,
+      "through falsifier risky",
+      78
+    ],
+    [
+      571,
+      "through falsifier prediction",
+      78
+    ],
+    [
+      572,
+      "through falsification severe",
+      78
+    ],
+    [
+      573,
+      "through falsification risky",
+      78
+    ],
+    [
+      574,
+      "through falsification prediction",
+      78
+    ],
+    [
+      575,
+      "through falsification testable",
+      78
+    ],
+    [
+      576,
+      "through severe risky",
+      77
+    ],
+    [
+      577,
+      "through severe prediction",
+      77
+    ],
+    [
+      578,
+      "through severe testable",
+      77
+    ],
+    [
+      579,
+      "through severe critical",
+      77
+    ],
+    [
+      580,
+      "through risky prediction",
+      77
+    ],
+    [
+      581,
+      "through risky testable",
+      77
+    ],
+    [
+      582,
+      "through risky critical",
+      77
+    ],
+    [
+      583,
+      "through risky problem",
+      77
+    ],
+    [
+      584,
+      "through prediction testable",
+      77
+    ],
+    [
+      585,
+      "through prediction critical",
+      77
+    ],
+    [
+      586,
+      "through prediction problem",
+      77
+    ],
+    [
+      587,
+      "through prediction error",
+      77
+    ],
+    [
+      588,
+      "through testable critical",
+      77
+    ],
+    [
+      589,
+      "through testable problem",
+      77
+    ],
+    [
+      590,
+      "through testable error",
+      77
+    ],
+    [
+      591,
+      "through testable trial",
+      77
+    ],
+    [
+      592,
+      "through critical problem",
+      77
+    ],
+    [
+      593,
+      "through critical error",
+      77
+    ],
+    [
+      594,
+      "through critical trial",
+      77
+    ],
+    [
+      595,
+      "through critical corroboration",
+      77
+    ],
+    [
+      596,
+      "through problem error",
+      77
+    ],
+    [
+      597,
+      "through problem trial",
+      77
+    ],
+    [
+      598,
+      "through problem corroboration",
+      77
+    ],
+    [
+      599,
+      "through problem survive",
+      77
+    ],
+    [
+      600,
+      "through error trial",
+      77
+    ],
+    [
+      601,
+      "through error corroboration",
+      76
+    ],
+    [
+      602,
+      "through error survive",
+      76
+    ],
+    [
+      603,
+      "through error fail",
+      76
+    ],
+    [
+      604,
+      "through trial corroboration",
+      76
+    ],
+    [
+      605,
+      "through trial survive",
+      76
+    ],
+    [
+      606,
+      "through trial fail",
+      76
+    ],
+    [
+      607,
+      "through trial killed",
+      76
+    ],
+    [
+      608,
+      "through corroboration survive",
+      76
+    ],
+    [
+      609,
+      "through corroboration fail",
+      76
+    ],
+    [
+      610,
+      "through corroboration killed",
+      76
+    ],
+    [
+      611,
+      "through corroboration open",
+      76
+    ],
+    [
+      612,
+      "through survive fail",
+      76
+    ],
+    [
+      613,
+      "through survive killed",
+      76
+    ],
+    [
+      614,
+      "through survive open",
+      76
+    ],
+    [
+      615,
+      "through survive survived",
+      76
+    ],
+    [
+      616,
+      "through fail killed",
+      76
+    ],
+    [
+      617,
+      "through fail open",
+      76
+    ],
+    [
+      618,
+      "through fail survived",
+      76
+    ],
+    [
+      619,
+      "through fail counterinstance",
+      76
+    ],
+    [
+      620,
+      "through killed open",
+      76
+    ],
+    [
+      621,
+      "through killed survived",
+      76
+    ],
+    [
+      622,
+      "through killed counterinstance",
+      76
+    ],
+    [
+      623,
+      "through killed decisive",
+      76
+    ],
+    [
+      624,
+      "through open survived",
+      76
+    ],
+    [
+      625,
+      "through open counterinstance",
+      76
+    ],
+    [
+      626,
+      "through open decisive",
+      75
+    ],
+    [
+      627,
+      "through open stress",
+      75
+    ],
+    [
+      628,
+      "through survived counterinstance",
+      75
+    ],
+    [
+      629,
+      "through survived decisive",
+      75
+    ],
+    [
+      630,
+      "through survived stress",
+      75
+    ],
+    [
+      631,
+      "through survived pressure",
+      75
+    ],
+    [
+      632,
+      "through counterinstance decisive",
+      75
+    ],
+    [
+      633,
+      "through counterinstance stress",
+      75
+    ],
+    [
+      634,
+      "through counterinstance pressure",
+      75
+    ],
+    [
+      635,
+      "through counterinstance challenge",
+      75
+    ],
+    [
+      636,
+      "through decisive stress",
+      75
+    ],
+    [
+      637,
+      "through decisive pressure",
+      75
+    ],
+    [
+      638,
+      "through decisive challenge",
+      75
+    ],
+    [
+      639,
+      "through decisive bold",
+      75
+    ],
+    [
+      640,
+      "before conjecture refutation",
+      75
+    ],
+    [
+      641,
+      "before conjecture falsifier",
+      75
+    ],
+    [
+      642,
+      "before conjecture falsification",
+      75
+    ],
+    [
+      643,
+      "before conjecture severe",
+      75
+    ],
+    [
+      644,
+      "before refutation falsifier",
+      75
+    ],
+    [
+      645,
+      "before refutation falsification",
+      75
+    ],
+    [
+      646,
+      "before refutation severe",
+      75
+    ],
+    [
+      647,
+      "before refutation risky",
+      75
+    ],
+    [
+      648,
+      "before falsifier falsification",
+      75
+    ],
+    [
+      649,
+      "before falsifier severe",
+      75
+    ],
+    [
+      650,
+      "before falsifier risky",
+      75
+    ],
+    [
+      651,
+      "before falsifier prediction",
+      74
+    ],
+    [
+      652,
+      "before falsification severe",
+      74
+    ],
+    [
+      653,
+      "before falsification risky",
+      74
+    ],
+    [
+      654,
+      "before falsification prediction",
+      74
+    ],
+    [
+      655,
+      "before falsification testable",
+      74
+    ],
+    [
+      656,
+      "before severe risky",
+      74
+    ],
+    [
+      657,
+      "before severe prediction",
+      74
+    ],
+    [
+      658,
+      "before severe testable",
+      74
+    ],
+    [
+      659,
+      "before severe critical",
+      74
+    ],
+    [
+      660,
+      "before risky prediction",
+      74
+    ],
+    [
+      661,
+      "before risky testable",
+      74
+    ],
+    [
+      662,
+      "before risky critical",
+      74
+    ],
+    [
+      663,
+      "before risky problem",
+      74
+    ],
+    [
+      664,
+      "before prediction testable",
+      74
+    ],
+    [
+      665,
+      "before prediction critical",
+      74
+    ],
+    [
+      666,
+      "before prediction problem",
+      74
+    ],
+    [
+      667,
+      "before prediction error",
+      74
+    ],
+    [
+      668,
+      "before testable critical",
+      74
+    ],
+    [
+      669,
+      "before testable problem",
+      74
+    ],
+    [
+      670,
+      "before testable error",
+      74
+    ],
+    [
+      671,
+      "before testable trial",
+      74
+    ],
+    [
+      672,
+      "before critical problem",
+      74
+    ],
+    [
+      673,
+      "before critical error",
+      74
+    ],
+    [
+      674,
+      "before critical trial",
+      74
+    ],
+    [
+      675,
+      "before critical corroboration",
+      74
+    ],
+    [
+      676,
+      "before problem error",
+      73
+    ],
+    [
+      677,
+      "before problem trial",
+      73
+    ],
+    [
+      678,
+      "before problem corroboration",
+      73
+    ],
+    [
+      679,
+      "before problem survive",
+      73
+    ],
+    [
+      680,
+      "before error trial",
+      73
+    ],
+    [
+      681,
+      "before error corroboration",
+      73
+    ],
+    [
+      682,
+      "before error survive",
+      73
+    ],
+    [
+      683,
+      "before error fail",
+      73
+    ],
+    [
+      684,
+      "before trial corroboration",
+      73
+    ],
+    [
+      685,
+      "before trial survive",
+      73
+    ],
+    [
+      686,
+      "before trial fail",
+      73
+    ],
+    [
+      687,
+      "before trial killed",
+      73
+    ],
+    [
+      688,
+      "before corroboration survive",
+      73
+    ],
+    [
+      689,
+      "before corroboration fail",
+      73
+    ],
+    [
+      690,
+      "before corroboration killed",
+      73
+    ],
+    [
+      691,
+      "before corroboration open",
+      73
+    ],
+    [
+      692,
+      "before survive fail",
+      73
+    ],
+    [
+      693,
+      "before survive killed",
+      73
+    ],
+    [
+      694,
+      "before survive open",
+      73
+    ],
+    [
+      695,
+      "before survive survived",
+      73
+    ],
+    [
+      696,
+      "before fail killed",
+      73
+    ],
+    [
+      697,
+      "before fail open",
+      73
+    ],
+    [
+      698,
+      "before fail survived",
+      73
+    ],
+    [
+      699,
+      "before fail counterinstance",
+      73
+    ],
+    [
+      700,
+      "before killed open",
+      73
+    ],
+    [
+      701,
+      "before killed survived",
+      72
+    ],
+    [
+      702,
+      "before killed counterinstance",
+      72
+    ],
+    [
+      703,
+      "before killed decisive",
+      72
+    ],
+    [
+      704,
+      "before open survived",
+      72
+    ],
+    [
+      705,
+      "before open counterinstance",
+      72
+    ],
+    [
+      706,
+      "before open decisive",
+      72
+    ],
+    [
+      707,
+      "before open stress",
+      72
+    ],
+    [
+      708,
+      "before survived counterinstance",
+      72
+    ],
+    [
+      709,
+      "before survived decisive",
+      72
+    ],
+    [
+      710,
+      "before survived stress",
+      72
+    ],
+    [
+      711,
+      "before survived pressure",
+      72
+    ],
+    [
+      712,
+      "before counterinstance decisive",
+      72
+    ],
+    [
+      713,
+      "before counterinstance stress",
+      72
+    ],
+    [
+      714,
+      "before counterinstance pressure",
+      72
+    ],
+    [
+      715,
+      "before counterinstance challenge",
+      72
+    ],
+    [
+      716,
+      "before decisive stress",
+      72
+    ],
+    [
+      717,
+      "before decisive pressure",
+      72
+    ],
+    [
+      718,
+      "before decisive challenge",
+      72
+    ],
+    [
+      719,
+      "before decisive bold",
+      72
+    ],
+    [
+      720,
+      "after conjecture refutation",
+      72
+    ],
+    [
+      721,
+      "after conjecture falsifier",
+      72
+    ],
+    [
+      722,
+      "after conjecture falsification",
+      72
+    ],
+    [
+      723,
+      "after conjecture severe",
+      72
+    ],
+    [
+      724,
+      "after refutation falsifier",
+      72
+    ],
+    [
+      725,
+      "after refutation falsification",
+      72
+    ],
+    [
+      726,
+      "after refutation severe",
+      71
+    ],
+    [
+      727,
+      "after refutation risky",
+      71
+    ],
+    [
+      728,
+      "after falsifier falsification",
+      71
+    ],
+    [
+      729,
+      "after falsifier severe",
+      71
+    ],
+    [
+      730,
+      "after falsifier risky",
+      71
+    ],
+    [
+      731,
+      "after falsifier prediction",
+      71
+    ],
+    [
+      732,
+      "after falsification severe",
+      71
+    ],
+    [
+      733,
+      "after falsification risky",
+      71
+    ],
+    [
+      734,
+      "after falsification prediction",
+      71
+    ],
+    [
+      735,
+      "after falsification testable",
+      71
+    ],
+    [
+      736,
+      "after severe risky",
+      71
+    ],
+    [
+      737,
+      "after severe prediction",
+      71
+    ],
+    [
+      738,
+      "after severe testable",
+      71
+    ],
+    [
+      739,
+      "after severe critical",
+      71
+    ],
+    [
+      740,
+      "after risky prediction",
+      71
+    ],
+    [
+      741,
+      "after risky testable",
+      71
+    ],
+    [
+      742,
+      "after risky critical",
+      71
+    ],
+    [
+      743,
+      "after risky problem",
+      71
+    ],
+    [
+      744,
+      "after prediction testable",
+      71
+    ],
+    [
+      745,
+      "after prediction critical",
+      71
+    ],
+    [
+      746,
+      "after prediction problem",
+      71
+    ],
+    [
+      747,
+      "after prediction error",
+      71
+    ],
+    [
+      748,
+      "after testable critical",
+      71
+    ],
+    [
+      749,
+      "after testable problem",
+      71
+    ],
+    [
+      750,
+      "after testable error",
+      71
+    ],
+    [
+      751,
+      "after testable trial",
+      70
+    ],
+    [
+      752,
+      "after critical problem",
+      70
+    ],
+    [
+      753,
+      "after critical error",
+      70
+    ],
+    [
+      754,
+      "after critical trial",
+      70
+    ],
+    [
+      755,
+      "after critical corroboration",
+      70
+    ],
+    [
+      756,
+      "after problem error",
+      70
+    ],
+    [
+      757,
+      "after problem trial",
+      70
+    ],
+    [
+      758,
+      "after problem corroboration",
+      70
+    ],
+    [
+      759,
+      "after problem survive",
+      70
+    ],
+    [
+      760,
+      "after error trial",
+      70
+    ],
+    [
+      761,
+      "after error corroboration",
+      70
+    ],
+    [
+      762,
+      "after error survive",
+      70
+    ],
+    [
+      763,
+      "after error fail",
+      70
+    ],
+    [
+      764,
+      "after trial corroboration",
+      70
+    ],
+    [
+      765,
+      "after trial survive",
+      70
+    ],
+    [
+      766,
+      "after trial fail",
+      70
+    ],
+    [
+      767,
+      "after trial killed",
+      70
+    ],
+    [
+      768,
+      "after corroboration survive",
+      70
+    ],
+    [
+      769,
+      "after corroboration fail",
+      70
+    ],
+    [
+      770,
+      "after corroboration killed",
+      70
+    ],
+    [
+      771,
+      "after corroboration open",
+      70
+    ],
+    [
+      772,
+      "after survive fail",
+      70
+    ],
+    [
+      773,
+      "after survive killed",
+      70
+    ],
+    [
+      774,
+      "after survive open",
+      70
+    ],
+    [
+      775,
+      "after survive survived",
+      70
+    ],
+    [
+      776,
+      "after fail killed",
+      69
+    ],
+    [
+      777,
+      "after fail open",
+      69
+    ],
+    [
+      778,
+      "after fail survived",
+      69
+    ],
+    [
+      779,
+      "after fail counterinstance",
+      69
+    ],
+    [
+      780,
+      "after killed open",
+      69
+    ],
+    [
+      781,
+      "after killed survived",
+      69
+    ],
+    [
+      782,
+      "after killed counterinstance",
+      69
+    ],
+    [
+      783,
+      "after killed decisive",
+      69
+    ],
+    [
+      784,
+      "after open survived",
+      69
+    ],
+    [
+      785,
+      "after open counterinstance",
+      69
+    ],
+    [
+      786,
+      "after open decisive",
+      69
+    ],
+    [
+      787,
+      "after open stress",
+      69
+    ],
+    [
+      788,
+      "after survived counterinstance",
+      69
+    ],
+    [
+      789,
+      "after survived decisive",
+      69
+    ],
+    [
+      790,
+      "after survived stress",
+      69
+    ],
+    [
+      791,
+      "after survived pressure",
+      69
+    ],
+    [
+      792,
+      "after counterinstance decisive",
+      69
+    ],
+    [
+      793,
+      "after counterinstance stress",
+      69
+    ],
+    [
+      794,
+      "after counterinstance pressure",
+      69
+    ],
+    [
+      795,
+      "after counterinstance challenge",
+      69
+    ],
+    [
+      796,
+      "after decisive stress",
+      69
+    ],
+    [
+      797,
+      "after decisive pressure",
+      69
+    ],
+    [
+      798,
+      "after decisive challenge",
+      69
+    ],
+    [
+      799,
+      "after decisive bold",
+      69
+    ],
+    [
+      800,
+      "during conjecture refutation",
+      69
+    ],
+    [
+      801,
+      "during conjecture falsifier",
+      68
+    ],
+    [
+      802,
+      "during conjecture falsification",
+      68
+    ],
+    [
+      803,
+      "during conjecture severe",
+      68
+    ],
+    [
+      804,
+      "during refutation falsifier",
+      68
+    ],
+    [
+      805,
+      "during refutation falsification",
+      68
+    ],
+    [
+      806,
+      "during refutation severe",
+      68
+    ],
+    [
+      807,
+      "during refutation risky",
+      68
+    ],
+    [
+      808,
+      "during falsifier falsification",
+      68
+    ],
+    [
+      809,
+      "during falsifier severe",
+      68
+    ],
+    [
+      810,
+      "during falsifier risky",
+      68
+    ],
+    [
+      811,
+      "during falsifier prediction",
+      68
+    ],
+    [
+      812,
+      "during falsification severe",
+      68
+    ],
+    [
+      813,
+      "during falsification risky",
+      68
+    ],
+    [
+      814,
+      "during falsification prediction",
+      68
+    ],
+    [
+      815,
+      "during falsification testable",
+      68
+    ],
+    [
+      816,
+      "during severe risky",
+      68
+    ],
+    [
+      817,
+      "during severe prediction",
+      68
+    ],
+    [
+      818,
+      "during severe testable",
+      68
+    ],
+    [
+      819,
+      "during severe critical",
+      68
+    ],
+    [
+      820,
+      "during risky prediction",
+      68
+    ],
+    [
+      821,
+      "during risky testable",
+      68
+    ],
+    [
+      822,
+      "during risky critical",
+      68
+    ],
+    [
+      823,
+      "during risky problem",
+      68
+    ],
+    [
+      824,
+      "during prediction testable",
+      68
+    ],
+    [
+      825,
+      "during prediction critical",
+      68
+    ],
+    [
+      826,
+      "during prediction problem",
+      67
+    ],
+    [
+      827,
+      "during prediction error",
+      67
+    ],
+    [
+      828,
+      "during testable critical",
+      67
+    ],
+    [
+      829,
+      "during testable problem",
+      67
+    ],
+    [
+      830,
+      "during testable error",
+      67
+    ],
+    [
+      831,
+      "during testable trial",
+      67
+    ],
+    [
+      832,
+      "during critical problem",
+      67
+    ],
+    [
+      833,
+      "during critical error",
+      67
+    ],
+    [
+      834,
+      "during critical trial",
+      67
+    ],
+    [
+      835,
+      "during critical corroboration",
+      67
+    ],
+    [
+      836,
+      "during problem error",
+      67
+    ],
+    [
+      837,
+      "during problem trial",
+      67
+    ],
+    [
+      838,
+      "during problem corroboration",
+      67
+    ],
+    [
+      839,
+      "during problem survive",
+      67
+    ],
+    [
+      840,
+      "during error trial",
+      67
+    ],
+    [
+      841,
+      "during error corroboration",
+      67
+    ],
+    [
+      842,
+      "during error survive",
+      67
+    ],
+    [
+      843,
+      "during error fail",
+      67
+    ],
+    [
+      844,
+      "during trial corroboration",
+      67
+    ],
+    [
+      845,
+      "during trial survive",
+      67
+    ],
+    [
+      846,
+      "during trial fail",
+      67
+    ],
+    [
+      847,
+      "during trial killed",
+      67
+    ],
+    [
+      848,
+      "during corroboration survive",
+      67
+    ],
+    [
+      849,
+      "during corroboration fail",
+      67
+    ],
+    [
+      850,
+      "during corroboration killed",
+      67
+    ],
+    [
+      851,
+      "during corroboration open",
+      66
+    ],
+    [
+      852,
+      "during survive fail",
+      66
+    ],
+    [
+      853,
+      "during survive killed",
+      66
+    ],
+    [
+      854,
+      "during survive open",
+      66
+    ],
+    [
+      855,
+      "during survive survived",
+      66
+    ],
+    [
+      856,
+      "during fail killed",
+      66
+    ],
+    [
+      857,
+      "during fail open",
+      66
+    ],
+    [
+      858,
+      "during fail survived",
+      66
+    ],
+    [
+      859,
+      "during fail counterinstance",
+      66
+    ],
+    [
+      860,
+      "during killed open",
+      66
+    ],
+    [
+      861,
+      "during killed survived",
+      66
+    ],
+    [
+      862,
+      "during killed counterinstance",
+      66
+    ],
+    [
+      863,
+      "during killed decisive",
+      66
+    ],
+    [
+      864,
+      "during open survived",
+      66
+    ],
+    [
+      865,
+      "during open counterinstance",
+      66
+    ],
+    [
+      866,
+      "during open decisive",
+      66
+    ],
+    [
+      867,
+      "during open stress",
+      66
+    ],
+    [
+      868,
+      "during survived counterinstance",
+      66
+    ],
+    [
+      869,
+      "during survived decisive",
+      66
+    ],
+    [
+      870,
+      "during survived stress",
+      66
+    ],
+    [
+      871,
+      "during survived pressure",
+      66
+    ],
+    [
+      872,
+      "during counterinstance decisive",
+      66
+    ],
+    [
+      873,
+      "during counterinstance stress",
+      66
+    ],
+    [
+      874,
+      "during counterinstance pressure",
+      66
+    ],
+    [
+      875,
+      "during counterinstance challenge",
+      66
+    ],
+    [
+      876,
+      "during decisive stress",
+      65
+    ],
+    [
+      877,
+      "during decisive pressure",
+      65
+    ],
+    [
+      878,
+      "during decisive challenge",
+      65
+    ],
+    [
+      879,
+      "during decisive bold",
+      65
+    ],
+    [
+      880,
+      "until conjecture refutation",
+      65
+    ],
+    [
+      881,
+      "until conjecture falsifier",
+      65
+    ],
+    [
+      882,
+      "until conjecture falsification",
+      65
+    ],
+    [
+      883,
+      "until conjecture severe",
+      65
+    ],
+    [
+      884,
+      "until refutation falsifier",
+      65
+    ],
+    [
+      885,
+      "until refutation falsification",
+      65
+    ],
+    [
+      886,
+      "until refutation severe",
+      65
+    ],
+    [
+      887,
+      "until refutation risky",
+      65
+    ],
+    [
+      888,
+      "until falsifier falsification",
+      65
+    ],
+    [
+      889,
+      "until falsifier severe",
+      65
+    ],
+    [
+      890,
+      "until falsifier risky",
+      65
+    ],
+    [
+      891,
+      "until falsifier prediction",
+      65
+    ],
+    [
+      892,
+      "until falsification severe",
+      65
+    ],
+    [
+      893,
+      "until falsification risky",
+      65
+    ],
+    [
+      894,
+      "until falsification prediction",
+      65
+    ],
+    [
+      895,
+      "until falsification testable",
+      65
+    ],
+    [
+      896,
+      "until severe risky",
+      65
+    ],
+    [
+      897,
+      "until severe prediction",
+      65
+    ],
+    [
+      898,
+      "until severe testable",
+      65
+    ],
+    [
+      899,
+      "until severe critical",
+      65
+    ],
+    [
+      900,
+      "until risky prediction",
+      65
+    ],
+    [
+      901,
+      "until risky testable",
+      64
+    ],
+    [
+      902,
+      "until risky critical",
+      64
+    ],
+    [
+      903,
+      "until risky problem",
+      64
+    ],
+    [
+      904,
+      "until prediction testable",
+      64
+    ],
+    [
+      905,
+      "until prediction critical",
+      64
+    ],
+    [
+      906,
+      "until prediction problem",
+      64
+    ],
+    [
+      907,
+      "until prediction error",
+      64
+    ],
+    [
+      908,
+      "until testable critical",
+      64
+    ],
+    [
+      909,
+      "until testable problem",
+      64
+    ],
+    [
+      910,
+      "until testable error",
+      64
+    ],
+    [
+      911,
+      "until testable trial",
+      64
+    ],
+    [
+      912,
+      "until critical problem",
+      64
+    ],
+    [
+      913,
+      "until critical error",
+      64
+    ],
+    [
+      914,
+      "until critical trial",
+      64
+    ],
+    [
+      915,
+      "until critical corroboration",
+      64
+    ],
+    [
+      916,
+      "until problem error",
+      64
+    ],
+    [
+      917,
+      "until problem trial",
+      64
+    ],
+    [
+      918,
+      "until problem corroboration",
+      64
+    ],
+    [
+      919,
+      "until problem survive",
+      64
+    ],
+    [
+      920,
+      "until error trial",
+      64
+    ],
+    [
+      921,
+      "until error corroboration",
+      64
+    ],
+    [
+      922,
+      "until error survive",
+      64
+    ],
+    [
+      923,
+      "until error fail",
+      64
+    ],
+    [
+      924,
+      "until trial corroboration",
+      64
+    ],
+    [
+      925,
+      "until trial survive",
+      64
+    ],
+    [
+      926,
+      "until trial fail",
+      63
+    ],
+    [
+      927,
+      "until trial killed",
+      63
+    ],
+    [
+      928,
+      "until corroboration survive",
+      63
+    ],
+    [
+      929,
+      "until corroboration fail",
+      63
+    ],
+    [
+      930,
+      "until corroboration killed",
+      63
+    ],
+    [
+      931,
+      "until corroboration open",
+      63
+    ],
+    [
+      932,
+      "until survive fail",
+      63
+    ],
+    [
+      933,
+      "until survive killed",
+      63
+    ],
+    [
+      934,
+      "until survive open",
+      63
+    ],
+    [
+      935,
+      "until survive survived",
+      63
+    ],
+    [
+      936,
+      "until fail killed",
+      63
+    ],
+    [
+      937,
+      "until fail open",
+      63
+    ],
+    [
+      938,
+      "until fail survived",
+      63
+    ],
+    [
+      939,
+      "until fail counterinstance",
+      63
+    ],
+    [
+      940,
+      "until killed open",
+      63
+    ],
+    [
+      941,
+      "until killed survived",
+      63
+    ],
+    [
+      942,
+      "until killed counterinstance",
+      63
+    ],
+    [
+      943,
+      "until killed decisive",
+      63
+    ],
+    [
+      944,
+      "until open survived",
+      63
+    ],
+    [
+      945,
+      "until open counterinstance",
+      63
+    ],
+    [
+      946,
+      "until open decisive",
+      63
+    ],
+    [
+      947,
+      "until open stress",
+      63
+    ],
+    [
+      948,
+      "until survived counterinstance",
+      63
+    ],
+    [
+      949,
+      "until survived decisive",
+      63
+    ],
+    [
+      950,
+      "until survived stress",
+      63
+    ],
+    [
+      951,
+      "until survived pressure",
+      62
+    ],
+    [
+      952,
+      "until counterinstance decisive",
+      62
+    ],
+    [
+      953,
+      "until counterinstance stress",
+      62
+    ],
+    [
+      954,
+      "until counterinstance pressure",
+      62
+    ],
+    [
+      955,
+      "until counterinstance challenge",
+      62
+    ],
+    [
+      956,
+      "until decisive stress",
+      62
+    ],
+    [
+      957,
+      "until decisive pressure",
+      62
+    ],
+    [
+      958,
+      "until decisive challenge",
+      62
+    ],
+    [
+      959,
+      "until decisive bold",
+      62
+    ],
+    [
+      960,
+      "since conjecture refutation",
+      62
+    ],
+    [
+      961,
+      "since conjecture falsifier",
+      62
+    ],
+    [
+      962,
+      "since conjecture falsification",
+      62
+    ],
+    [
+      963,
+      "since conjecture severe",
+      62
+    ],
+    [
+      964,
+      "since refutation falsifier",
+      62
+    ],
+    [
+      965,
+      "since refutation falsification",
+      62
+    ],
+    [
+      966,
+      "since refutation severe",
+      62
+    ],
+    [
+      967,
+      "since refutation risky",
+      62
+    ],
+    [
+      968,
+      "since falsifier falsification",
+      62
+    ],
+    [
+      969,
+      "since falsifier severe",
+      62
+    ],
+    [
+      970,
+      "since falsifier risky",
+      62
+    ],
+    [
+      971,
+      "since falsifier prediction",
+      62
+    ],
+    [
+      972,
+      "since falsification severe",
+      62
+    ],
+    [
+      973,
+      "since falsification risky",
+      62
+    ],
+    [
+      974,
+      "since falsification prediction",
+      62
+    ],
+    [
+      975,
+      "since falsification testable",
+      62
+    ],
+    [
+      976,
+      "since severe risky",
+      61
+    ],
+    [
+      977,
+      "since severe prediction",
+      61
+    ],
+    [
+      978,
+      "since severe testable",
+      61
+    ],
+    [
+      979,
+      "since severe critical",
+      61
+    ],
+    [
+      980,
+      "since risky prediction",
+      61
+    ],
+    [
+      981,
+      "since risky testable",
+      61
+    ],
+    [
+      982,
+      "since risky critical",
+      61
+    ],
+    [
+      983,
+      "since risky problem",
+      61
+    ],
+    [
+      984,
+      "since prediction testable",
+      61
+    ],
+    [
+      985,
+      "since prediction critical",
+      61
+    ],
+    [
+      986,
+      "since prediction problem",
+      61
+    ],
+    [
+      987,
+      "since prediction error",
+      61
+    ],
+    [
+      988,
+      "since testable critical",
+      61
+    ],
+    [
+      989,
+      "since testable problem",
+      61
+    ],
+    [
+      990,
+      "since testable error",
+      61
+    ],
+    [
+      991,
+      "since testable trial",
+      61
+    ],
+    [
+      992,
+      "since critical problem",
+      61
+    ],
+    [
+      993,
+      "since critical error",
+      61
+    ],
+    [
+      994,
+      "since critical trial",
+      61
+    ],
+    [
+      995,
+      "since critical corroboration",
+      61
+    ],
+    [
+      996,
+      "since problem error",
+      61
+    ],
+    [
+      997,
+      "since problem trial",
+      61
+    ],
+    [
+      998,
+      "since problem corroboration",
+      61
+    ],
+    [
+      999,
+      "since problem survive",
+      61
+    ],
+    [
+      1000,
+      "since error trial",
+      61
+    ],
+    [
+      1001,
+      "since error corroboration",
+      60
+    ],
+    [
+      1002,
+      "since error survive",
+      60
+    ],
+    [
+      1003,
+      "since error fail",
+      60
+    ],
+    [
+      1004,
+      "since trial corroboration",
+      60
+    ],
+    [
+      1005,
+      "since trial survive",
+      60
+    ],
+    [
+      1006,
+      "since trial fail",
+      60
+    ],
+    [
+      1007,
+      "since trial killed",
+      60
+    ],
+    [
+      1008,
+      "since corroboration survive",
+      60
+    ],
+    [
+      1009,
+      "since corroboration fail",
+      60
+    ],
+    [
+      1010,
+      "since corroboration killed",
+      60
+    ],
+    [
+      1011,
+      "since corroboration open",
+      60
+    ],
+    [
+      1012,
+      "since survive fail",
+      60
+    ],
+    [
+      1013,
+      "since survive killed",
+      60
+    ],
+    [
+      1014,
+      "since survive open",
+      60
+    ],
+    [
+      1015,
+      "since survive survived",
+      60
+    ],
+    [
+      1016,
+      "since fail killed",
+      60
+    ],
+    [
+      1017,
+      "since fail open",
+      60
+    ],
+    [
+      1018,
+      "since fail survived",
+      60
+    ],
+    [
+      1019,
+      "since fail counterinstance",
+      60
+    ],
+    [
+      1020,
+      "since killed open",
+      60
+    ],
+    [
+      1021,
+      "since killed survived",
+      60
+    ],
+    [
+      1022,
+      "since killed counterinstance",
+      60
+    ],
+    [
+      1023,
+      "since killed decisive",
+      60
+    ],
+    [
+      1024,
+      "since open survived",
+      60
+    ],
+    [
+      1025,
+      "since open counterinstance",
+      60
+    ],
+    [
+      1026,
+      "since open decisive",
+      59
+    ],
+    [
+      1027,
+      "since open stress",
+      59
+    ],
+    [
+      1028,
+      "since survived counterinstance",
+      59
+    ],
+    [
+      1029,
+      "since survived decisive",
+      59
+    ],
+    [
+      1030,
+      "since survived stress",
+      59
+    ],
+    [
+      1031,
+      "since survived pressure",
+      59
+    ],
+    [
+      1032,
+      "since counterinstance decisive",
+      59
+    ],
+    [
+      1033,
+      "since counterinstance stress",
+      59
+    ],
+    [
+      1034,
+      "since counterinstance pressure",
+      59
+    ],
+    [
+      1035,
+      "since counterinstance challenge",
+      59
+    ],
+    [
+      1036,
+      "since decisive stress",
+      59
+    ],
+    [
+      1037,
+      "since decisive pressure",
+      59
+    ],
+    [
+      1038,
+      "since decisive challenge",
+      59
+    ],
+    [
+      1039,
+      "since decisive bold",
+      59
+    ],
+    [
+      1040,
+      "conjecture refutation falsifier",
+      59
+    ],
+    [
+      1041,
+      "conjecture refutation falsification",
+      59
+    ],
+    [
+      1042,
+      "conjecture refutation severe",
+      59
+    ],
+    [
+      1043,
+      "conjecture falsifier falsification",
+      59
+    ],
+    [
+      1044,
+      "conjecture falsifier severe",
+      59
+    ],
+    [
+      1045,
+      "conjecture falsification falsifier",
+      59
+    ],
+    [
+      1046,
+      "conjecture falsification severe",
+      59
+    ],
+    [
+      1047,
+      "conjecture severe falsifier",
+      59
+    ],
+    [
+      1048,
+      "conjecture severe falsification",
+      59
+    ],
+    [
+      1049,
+      "conjecture risky falsifier",
+      59
+    ],
+    [
+      1050,
+      "conjecture risky falsification",
+      59
+    ],
+    [
+      1051,
+      "conjecture risky severe",
+      58
+    ],
+    [
+      1052,
+      "refutation falsifier falsification",
+      58
+    ],
+    [
+      1053,
+      "refutation falsifier severe",
+      58
+    ],
+    [
+      1054,
+      "refutation falsifier risky",
+      58
+    ],
+    [
+      1055,
+      "refutation falsification severe",
+      58
+    ],
+    [
+      1056,
+      "refutation falsification risky",
+      58
+    ],
+    [
+      1057,
+      "refutation severe falsification",
+      58
+    ],
+    [
+      1058,
+      "refutation severe risky",
+      58
+    ],
+    [
+      1059,
+      "refutation risky falsification",
+      58
+    ],
+    [
+      1060,
+      "refutation risky severe",
+      58
+    ],
+    [
+      1061,
+      "refutation prediction falsification",
+      58
+    ],
+    [
+      1062,
+      "refutation prediction severe",
+      58
+    ],
+    [
+      1063,
+      "refutation prediction risky",
+      58
+    ],
+    [
+      1064,
+      "falsifier falsification severe",
+      58
+    ],
+    [
+      1065,
+      "falsifier falsification risky",
+      58
+    ],
+    [
+      1066,
+      "falsifier falsification prediction",
+      58
+    ],
+    [
+      1067,
+      "falsifier severe risky",
+      58
+    ],
+    [
+      1068,
+      "falsifier severe prediction",
+      58
+    ],
+    [
+      1069,
+      "falsifier risky severe",
+      58
+    ],
+    [
+      1070,
+      "falsifier risky prediction",
+      58
+    ],
+    [
+      1071,
+      "falsifier prediction severe",
+      58
+    ],
+    [
+      1072,
+      "falsifier prediction risky",
+      58
+    ],
+    [
+      1073,
+      "falsifier testable severe",
+      58
+    ],
+    [
+      1074,
+      "falsifier testable risky",
+      58
+    ],
+    [
+      1075,
+      "falsifier testable prediction",
+      58
+    ],
+    [
+      1076,
+      "falsification severe risky",
+      57
+    ],
+    [
+      1077,
+      "falsification severe prediction",
+      57
+    ],
+    [
+      1078,
+      "falsification severe testable",
+      57
+    ],
+    [
+      1079,
+      "falsification risky prediction",
+      57
+    ],
+    [
+      1080,
+      "falsification risky testable",
+      57
+    ],
+    [
+      1081,
+      "falsification prediction risky",
+      57
+    ],
+    [
+      1082,
+      "falsification prediction testable",
+      57
+    ],
+    [
+      1083,
+      "falsification testable risky",
+      57
+    ],
+    [
+      1084,
+      "falsification testable prediction",
+      57
+    ],
+    [
+      1085,
+      "falsification critical risky",
+      57
+    ],
+    [
+      1086,
+      "falsification critical prediction",
+      57
+    ],
+    [
+      1087,
+      "falsification critical testable",
+      57
+    ],
+    [
+      1088,
+      "severe risky prediction",
+      57
+    ],
+    [
+      1089,
+      "severe risky testable",
+      57
+    ],
+    [
+      1090,
+      "severe risky critical",
+      57
+    ],
+    [
+      1091,
+      "severe prediction testable",
+      57
+    ],
+    [
+      1092,
+      "severe prediction critical",
+      57
+    ],
+    [
+      1093,
+      "severe testable prediction",
+      57
+    ],
+    [
+      1094,
+      "severe testable critical",
+      57
+    ],
+    [
+      1095,
+      "severe critical prediction",
+      57
+    ],
+    [
+      1096,
+      "severe critical testable",
+      57
+    ],
+    [
+      1097,
+      "severe problem prediction",
+      57
+    ],
+    [
+      1098,
+      "severe problem testable",
+      57
+    ],
+    [
+      1099,
+      "severe problem critical",
+      57
+    ],
+    [
+      1100,
+      "risky prediction testable",
+      57
+    ],
+    [
+      1101,
+      "risky prediction critical",
+      56
+    ],
+    [
+      1102,
+      "risky prediction problem",
+      56
+    ],
+    [
+      1103,
+      "risky testable critical",
+      56
+    ],
+    [
+      1104,
+      "risky testable problem",
+      56
+    ],
+    [
+      1105,
+      "risky critical testable",
+      56
+    ],
+    [
+      1106,
+      "risky critical problem",
+      56
+    ],
+    [
+      1107,
+      "risky problem testable",
+      56
+    ],
+    [
+      1108,
+      "risky problem critical",
+      56
+    ],
+    [
+      1109,
+      "risky error testable",
+      56
+    ],
+    [
+      1110,
+      "risky error critical",
+      56
+    ],
+    [
+      1111,
+      "risky error problem",
+      56
+    ],
+    [
+      1112,
+      "prediction testable critical",
+      56
+    ],
+    [
+      1113,
+      "prediction testable problem",
+      56
+    ],
+    [
+      1114,
+      "prediction testable error",
+      56
+    ],
+    [
+      1115,
+      "prediction critical problem",
+      56
+    ],
+    [
+      1116,
+      "prediction critical error",
+      56
+    ],
+    [
+      1117,
+      "prediction problem critical",
+      56
+    ],
+    [
+      1118,
+      "prediction problem error",
+      56
+    ],
+    [
+      1119,
+      "prediction error critical",
+      56
+    ],
+    [
+      1120,
+      "prediction error problem",
+      56
+    ],
+    [
+      1121,
+      "prediction trial critical",
+      56
+    ],
+    [
+      1122,
+      "prediction trial problem",
+      56
+    ],
+    [
+      1123,
+      "prediction trial error",
+      56
+    ],
+    [
+      1124,
+      "testable critical problem",
+      56
+    ],
+    [
+      1125,
+      "testable critical error",
+      56
+    ],
+    [
+      1126,
+      "testable critical trial",
+      55
+    ],
+    [
+      1127,
+      "testable problem error",
+      55
+    ],
+    [
+      1128,
+      "testable problem trial",
+      55
+    ],
+    [
+      1129,
+      "testable error problem",
+      55
+    ],
+    [
+      1130,
+      "testable error trial",
+      55
+    ],
+    [
+      1131,
+      "testable trial problem",
+      55
+    ],
+    [
+      1132,
+      "testable trial error",
+      55
+    ],
+    [
+      1133,
+      "testable corroboration problem",
+      55
+    ],
+    [
+      1134,
+      "testable corroboration error",
+      55
+    ],
+    [
+      1135,
+      "testable corroboration trial",
+      55
+    ],
+    [
+      1136,
+      "critical problem error",
+      55
+    ],
+    [
+      1137,
+      "critical problem trial",
+      55
+    ],
+    [
+      1138,
+      "critical problem corroboration",
+      55
+    ],
+    [
+      1139,
+      "critical error trial",
+      55
+    ],
+    [
+      1140,
+      "critical error corroboration",
+      55
+    ],
+    [
+      1141,
+      "critical trial error",
+      55
+    ],
+    [
+      1142,
+      "critical trial corroboration",
+      55
+    ],
+    [
+      1143,
+      "critical corroboration error",
+      55
+    ],
+    [
+      1144,
+      "critical corroboration trial",
+      55
+    ],
+    [
+      1145,
+      "critical survive error",
+      55
+    ],
+    [
+      1146,
+      "critical survive trial",
+      55
+    ],
+    [
+      1147,
+      "critical survive corroboration",
+      55
+    ],
+    [
+      1148,
+      "problem error trial",
+      55
+    ],
+    [
+      1149,
+      "problem error corroboration",
+      55
+    ],
+    [
+      1150,
+      "problem error survive",
+      55
+    ],
+    [
+      1151,
+      "problem trial corroboration",
+      54
+    ],
+    [
+      1152,
+      "problem trial survive",
+      54
+    ],
+    [
+      1153,
+      "problem corroboration trial",
+      54
+    ],
+    [
+      1154,
+      "problem corroboration survive",
+      54
+    ],
+    [
+      1155,
+      "problem survive trial",
+      54
+    ],
+    [
+      1156,
+      "problem survive corroboration",
+      54
+    ],
+    [
+      1157,
+      "problem fail trial",
+      54
+    ],
+    [
+      1158,
+      "problem fail corroboration",
+      54
+    ],
+    [
+      1159,
+      "problem fail survive",
+      54
+    ],
+    [
+      1160,
+      "error trial corroboration",
+      54
+    ],
+    [
+      1161,
+      "error trial survive",
+      54
+    ],
+    [
+      1162,
+      "error trial fail",
+      54
+    ],
+    [
+      1163,
+      "error corroboration survive",
+      54
+    ],
+    [
+      1164,
+      "error corroboration fail",
+      54
+    ],
+    [
+      1165,
+      "error survive corroboration",
+      54
+    ],
+    [
+      1166,
+      "error survive fail",
+      54
+    ],
+    [
+      1167,
+      "error fail corroboration",
+      54
+    ],
+    [
+      1168,
+      "error fail survive",
+      54
+    ],
+    [
+      1169,
+      "error killed corroboration",
+      54
+    ],
+    [
+      1170,
+      "error killed survive",
+      54
+    ],
+    [
+      1171,
+      "error killed fail",
+      54
+    ],
+    [
+      1172,
+      "trial corroboration survive",
+      54
+    ],
+    [
+      1173,
+      "trial corroboration fail",
+      54
+    ],
+    [
+      1174,
+      "trial corroboration killed",
+      54
+    ],
+    [
+      1175,
+      "trial survive fail",
+      54
+    ],
+    [
+      1176,
+      "trial survive killed",
+      53
+    ],
+    [
+      1177,
+      "trial fail survive",
+      53
+    ],
+    [
+      1178,
+      "trial fail killed",
+      53
+    ],
+    [
+      1179,
+      "trial killed survive",
+      53
+    ],
+    [
+      1180,
+      "trial killed fail",
+      53
+    ],
+    [
+      1181,
+      "trial open survive",
+      53
+    ],
+    [
+      1182,
+      "trial open fail",
+      53
+    ],
+    [
+      1183,
+      "trial open killed",
+      53
+    ],
+    [
+      1184,
+      "corroboration survive fail",
+      53
+    ],
+    [
+      1185,
+      "corroboration survive killed",
+      53
+    ],
+    [
+      1186,
+      "corroboration survive open",
+      53
+    ],
+    [
+      1187,
+      "corroboration fail killed",
+      53
+    ],
+    [
+      1188,
+      "corroboration fail open",
+      53
+    ],
+    [
+      1189,
+      "corroboration killed fail",
+      53
+    ],
+    [
+      1190,
+      "corroboration killed open",
+      53
+    ],
+    [
+      1191,
+      "corroboration open fail",
+      53
+    ],
+    [
+      1192,
+      "corroboration open killed",
+      53
+    ],
+    [
+      1193,
+      "corroboration survived fail",
+      53
+    ],
+    [
+      1194,
+      "corroboration survived killed",
+      53
+    ],
+    [
+      1195,
+      "corroboration survived open",
+      53
+    ],
+    [
+      1196,
+      "survive fail killed",
+      53
+    ],
+    [
+      1197,
+      "survive fail open",
+      53
+    ],
+    [
+      1198,
+      "survive fail survived",
+      53
+    ],
+    [
+      1199,
+      "survive killed open",
+      53
+    ],
+    [
+      1200,
+      "survive killed survived",
+      53
+    ],
+    [
+      1201,
+      "survive open killed",
+      52
+    ],
+    [
+      1202,
+      "survive open survived",
+      52
+    ],
+    [
+      1203,
+      "survive survived killed",
+      52
+    ],
+    [
+      1204,
+      "survive survived open",
+      52
+    ],
+    [
+      1205,
+      "survive counterinstance killed",
+      52
+    ],
+    [
+      1206,
+      "survive counterinstance open",
+      52
+    ],
+    [
+      1207,
+      "survive counterinstance survived",
+      52
+    ],
+    [
+      1208,
+      "fail killed open",
+      52
+    ],
+    [
+      1209,
+      "fail killed survived",
+      52
+    ],
+    [
+      1210,
+      "fail killed counterinstance",
+      52
+    ],
+    [
+      1211,
+      "fail open survived",
+      52
+    ],
+    [
+      1212,
+      "fail open counterinstance",
+      52
+    ],
+    [
+      1213,
+      "fail survived open",
+      52
+    ],
+    [
+      1214,
+      "fail survived counterinstance",
+      52
+    ],
+    [
+      1215,
+      "fail counterinstance open",
+      52
+    ],
+    [
+      1216,
+      "fail counterinstance survived",
+      52
+    ],
+    [
+      1217,
+      "fail decisive open",
+      52
+    ],
+    [
+      1218,
+      "fail decisive survived",
+      52
+    ],
+    [
+      1219,
+      "fail decisive counterinstance",
+      52
+    ],
+    [
+      1220,
+      "killed open survived",
+      52
+    ],
+    [
+      1221,
+      "killed open counterinstance",
+      52
+    ],
+    [
+      1222,
+      "killed open decisive",
+      52
+    ],
+    [
+      1223,
+      "killed survived counterinstance",
+      52
+    ],
+    [
+      1224,
+      "killed survived decisive",
+      52
+    ],
+    [
+      1225,
+      "killed counterinstance survived",
+      52
+    ],
+    [
+      1226,
+      "killed counterinstance decisive",
+      51
+    ],
+    [
+      1227,
+      "killed decisive survived",
+      51
+    ],
+    [
+      1228,
+      "killed decisive counterinstance",
+      51
+    ],
+    [
+      1229,
+      "killed stress survived",
+      51
+    ],
+    [
+      1230,
+      "killed stress counterinstance",
+      51
+    ],
+    [
+      1231,
+      "killed stress decisive",
+      51
+    ],
+    [
+      1232,
+      "open survived counterinstance",
+      51
+    ],
+    [
+      1233,
+      "open survived decisive",
+      51
+    ],
+    [
+      1234,
+      "open survived stress",
+      51
+    ],
+    [
+      1235,
+      "open counterinstance decisive",
+      51
+    ],
+    [
+      1236,
+      "open counterinstance stress",
+      51
+    ],
+    [
+      1237,
+      "open decisive counterinstance",
+      51
+    ],
+    [
+      1238,
+      "open decisive stress",
+      51
+    ],
+    [
+      1239,
+      "open stress counterinstance",
+      51
+    ],
+    [
+      1240,
+      "open stress decisive",
+      51
+    ],
+    [
+      1241,
+      "open pressure counterinstance",
+      51
+    ],
+    [
+      1242,
+      "open pressure decisive",
+      51
+    ],
+    [
+      1243,
+      "open pressure stress",
+      51
+    ],
+    [
+      1244,
+      "survived counterinstance decisive",
+      51
+    ],
+    [
+      1245,
+      "survived counterinstance stress",
+      51
+    ],
+    [
+      1246,
+      "survived counterinstance pressure",
+      51
+    ],
+    [
+      1247,
+      "survived decisive stress",
+      51
+    ],
+    [
+      1248,
+      "survived decisive pressure",
+      51
+    ],
+    [
+      1249,
+      "survived stress decisive",
+      51
+    ],
+    [
+      1250,
+      "survived stress pressure",
+      51
+    ],
+    [
+      1251,
+      "survived pressure decisive",
+      50
+    ],
+    [
+      1252,
+      "survived pressure stress",
+      50
+    ],
+    [
+      1253,
+      "survived challenge decisive",
+      50
+    ],
+    [
+      1254,
+      "survived challenge stress",
+      50
+    ],
+    [
+      1255,
+      "survived challenge pressure",
+      50
+    ],
+    [
+      1256,
+      "counterinstance decisive stress",
+      50
+    ],
+    [
+      1257,
+      "counterinstance decisive pressure",
+      50
+    ],
+    [
+      1258,
+      "counterinstance decisive challenge",
+      50
+    ],
+    [
+      1259,
+      "counterinstance stress pressure",
+      50
+    ],
+    [
+      1260,
+      "counterinstance stress challenge",
+      50
+    ],
+    [
+      1261,
+      "counterinstance pressure stress",
+      50
+    ],
+    [
+      1262,
+      "counterinstance pressure challenge",
+      50
+    ],
+    [
+      1263,
+      "counterinstance challenge stress",
+      50
+    ],
+    [
+      1264,
+      "counterinstance challenge pressure",
+      50
+    ],
+    [
+      1265,
+      "counterinstance bold stress",
+      50
+    ],
+    [
+      1266,
+      "counterinstance bold pressure",
+      50
+    ],
+    [
+      1267,
+      "counterinstance bold challenge",
+      50
+    ],
+    [
+      1268,
+      "decisive stress pressure",
+      50
+    ],
+    [
+      1269,
+      "decisive stress challenge",
+      50
+    ],
+    [
+      1270,
+      "decisive stress bold",
+      50
+    ],
+    [
+      1271,
+      "decisive pressure challenge",
+      50
+    ],
+    [
+      1272,
+      "decisive pressure bold",
+      50
+    ],
+    [
+      1273,
+      "decisive challenge pressure",
+      50
+    ],
+    [
+      1274,
+      "decisive challenge bold",
+      50
+    ],
+    [
+      1275,
+      "decisive bold pressure",
+      50
+    ],
+    [
+      1276,
+      "decisive bold challenge",
+      49
+    ],
+    [
+      1277,
+      "decisive claim pressure",
+      49
+    ],
+    [
+      1278,
+      "decisive claim challenge",
+      49
+    ],
+    [
+      1279,
+      "decisive claim bold",
+      49
+    ],
+    [
+      1280,
+      "stress pressure challenge",
+      49
+    ],
+    [
+      1281,
+      "stress pressure bold",
+      49
+    ],
+    [
+      1282,
+      "stress pressure claim",
+      49
+    ],
+    [
+      1283,
+      "stress challenge bold",
+      49
+    ],
+    [
+      1284,
+      "stress challenge claim",
+      49
+    ],
+    [
+      1285,
+      "stress bold challenge",
+      49
+    ],
+    [
+      1286,
+      "stress bold claim",
+      49
+    ],
+    [
+      1287,
+      "stress claim challenge",
+      49
+    ],
+    [
+      1288,
+      "stress claim bold",
+      49
+    ],
+    [
+      1289,
+      "stress target challenge",
+      49
+    ],
+    [
+      1290,
+      "stress target bold",
+      49
+    ],
+    [
+      1291,
+      "stress target claim",
+      49
+    ],
+    [
+      1292,
+      "pressure challenge bold",
+      49
+    ],
+    [
+      1293,
+      "pressure challenge claim",
+      49
+    ],
+    [
+      1294,
+      "pressure challenge target",
+      49
+    ],
+    [
+      1295,
+      "pressure bold claim",
+      49
+    ],
+    [
+      1296,
+      "pressure bold target",
+      49
+    ],
+    [
+      1297,
+      "pressure claim bold",
+      49
+    ],
+    [
+      1298,
+      "pressure claim target",
+      49
+    ],
+    [
+      1299,
+      "pressure target bold",
+      49
+    ],
+    [
+      1300,
+      "pressure target claim",
+      49
+    ],
+    [
+      1301,
+      "pressure break bold",
+      48
+    ],
+    [
+      1302,
+      "pressure break claim",
+      48
+    ],
+    [
+      1303,
+      "pressure break target",
+      48
+    ],
+    [
+      1304,
+      "challenge bold claim",
+      48
+    ],
+    [
+      1305,
+      "challenge bold target",
+      48
+    ],
+    [
+      1306,
+      "challenge bold break",
+      48
+    ],
+    [
+      1307,
+      "challenge claim target",
+      48
+    ],
+    [
+      1308,
+      "challenge claim break",
+      48
+    ],
+    [
+      1309,
+      "challenge target claim",
+      48
+    ],
+    [
+      1310,
+      "challenge target break",
+      48
+    ],
+    [
+      1311,
+      "challenge break claim",
+      48
+    ],
+    [
+      1312,
+      "challenge break target",
+      48
+    ],
+    [
+      1313,
+      "challenge exposure claim",
+      48
+    ],
+    [
+      1314,
+      "challenge exposure target",
+      48
+    ],
+    [
+      1315,
+      "challenge exposure break",
+      48
+    ],
+    [
+      1316,
+      "bold claim target",
+      48
+    ],
+    [
+      1317,
+      "bold claim break",
+      48
+    ],
+    [
+      1318,
+      "bold claim exposure",
+      48
+    ],
+    [
+      1319,
+      "bold target break",
+      48
+    ],
+    [
+      1320,
+      "bold target exposure",
+      48
+    ],
+    [
+      1321,
+      "bold break target",
+      48
+    ],
+    [
+      1322,
+      "bold break exposure",
+      48
+    ],
+    [
+      1323,
+      "bold exposure target",
+      48
+    ],
+    [
+      1324,
+      "bold exposure break",
+      48
+    ],
+    [
+      1325,
+      "bold conjectures and refutations target",
+      48
+    ],
+    [
+      1326,
+      "bold conjectures and refutations break",
+      47
+    ],
+    [
+      1327,
+      "bold conjectures and refutations exposure",
+      47
+    ],
+    [
+      1328,
+      "claim target break",
+      47
+    ],
+    [
+      1329,
+      "claim target exposure",
+      47
+    ],
+    [
+      1330,
+      "claim target conjectures and refutations",
+      47
+    ],
+    [
+      1331,
+      "claim break exposure",
+      47
+    ],
+    [
+      1332,
+      "claim break conjectures and refutations",
+      47
+    ],
+    [
+      1333,
+      "claim exposure break",
+      47
+    ],
+    [
+      1334,
+      "claim exposure conjectures and refutations",
+      47
+    ],
+    [
+      1335,
+      "claim conjectures and refutations break",
+      47
+    ],
+    [
+      1336,
+      "claim conjectures and refutations exposure",
+      47
+    ],
+    [
+      1337,
+      "claim critical rationalism break",
+      47
+    ],
+    [
+      1338,
+      "claim critical rationalism exposure",
+      47
+    ],
+    [
+      1339,
+      "claim critical rationalism conjectures and refutations",
+      47
+    ],
+    [
+      1340,
+      "mini-MMM shapes voice",
+      100
+    ],
+    [
+      1341,
+      "mini MMM voice shape",
+      100
+    ],
+    [
+      1342,
+      "voice shaped by nouns",
+      100
+    ],
+    [
+      1343,
+      "aligned nouns shape voice",
+      100
+    ],
+    [
+      1344,
+      "correlated thinkers shape voice",
+      100
+    ],
+    [
+      1345,
+      "claim falsifier check",
+      96
+    ],
+    [
+      1346,
+      "theory prediction counterinstance",
+      96
+    ],
+    [
+      1347,
+      "problem theory refutation",
+      96
+    ]
+  ],
+  "v4_1_salience_expansion": {
+    "source": "deep-research-report.md",
+    "status": "positive salience only; no diagnostic/provenance boot",
+    "route": "POPPER",
+    "size": "full"
+  }
+}

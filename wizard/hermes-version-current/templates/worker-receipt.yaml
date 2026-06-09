@@ -1,0 +1,18 @@
+# Hermes Wizard worker receipt template
+schema: hermes_wizard_worker_receipt_v0
+receipt_id: <id>
+surface_id: <id>
+surface_kind: lane | voice | followup | council | audit | tool | memory | session
+action_class: controller_local | tool_run | spawn_worker | enqueue_runner | blocked | deferred | not_run | superseded
+route_status: completed | blocked | deferred | not_run | superseded | partial
+runtime_target: hermes_controller | hermes_tool | delegate_task | terminal_process | cronjob | external_cli | memory | session_search
+worker_id: <tool/process/delegate id or none>
+what_checked:
+  - <source>
+conclusion: <delta>
+remains_open:
+  - <open/blocker>
+artifacts:
+  - <path/id/output or none>
+evidence_boundary: <what this proves and does not prove>
+next_bounded_move: <move or stop>

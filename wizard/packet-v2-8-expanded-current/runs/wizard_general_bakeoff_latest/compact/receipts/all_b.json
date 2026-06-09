@@ -1,0 +1,12 @@
+{
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/mmm_wizard_complete_system_packet_v2_8_expanded_candidate",
+  "checked": "loaded mini_mmms/compact/compositions/md/MMM_LANE_ALL_B_COMPACT_v2_8.md",
+  "concluded": "All-B compilation: behavior proof plan for no-MMM, main-MMM, and mini-MMM comparison.",
+  "evidence": "mini_mmms/compact/compositions/md/MMM_LANE_ALL_B_COMPACT_v2_8.md terms: human read :: 100, live readings :: 100, wildcard probe :: 100, collapse audit :: 100, surviving split :: 100, falsifier :: 100, observable :: 100, options :: 100",
+  "generated_at": "2026-04-28T22:36:04.182895+00:00",
+  "lane": "All-B",
+  "open": "live proof pending",
+  "output_excerpt": "Task: Compare Wizard General sizes and choose the best local runtime surface.\nWizard General size: compact\nWave 7: Follow-up Make Wave\nAll-B compilation: behavior proof plan for no-MMM, main-MMM, and mini-MMM comparison.\nLoaded language body terms: human read :: 100, live readings :: 100, wildcard probe :: 100, collapse audit :: 100, surviving split :: 100, falsifier :: 100, observable :: 100, options :: 100",
+  "output_sha256": "299fe9c89e6adcd38e4b769c96ba996252b1c1cf107ce0f01f411e9c4a9b5fcd",
+  "schema_version": "wizard_behavior_harness.v1"
+}

@@ -1,0 +1,12 @@
+{
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate",
+  "checked": "loaded mini_mmms/full/system_routes/md/MMM_VOICE_LLM_COUNCIL_FULL_v2_7.md",
+  "concluded": "Council result: local system run is useful; live acceptance remains held pending independent fresh-agent logs.",
+  "evidence": "mini_mmms/full/system_routes/md/MMM_VOICE_LLM_COUNCIL_FULL_v2_7.md terms: model-family-specific, model family, outside frame, alternate reading, receipt changed, independent route, split retained, route status",
+  "generated_at": "2026-04-28T08:22:15.046153+00:00",
+  "lane": "LLM Council",
+  "open": "live proof pending",
+  "output_excerpt": "Task: Improve and locally run the repaired MMM Wizard packet without live wiring.\nWizard General size: full\nWave 4: LLM Council Wave\nCouncil result: local system run is useful; live acceptance remains held pending independent fresh-agent logs.\nLoaded language body terms: model-family-specific, model family, outside frame, alternate reading, receipt changed, independent route, split retained, route status",
+  "output_sha256": "b8f5b4ed5841a25dab9489d253cd68282acae24148606d0c6185e438d1d82831",
+  "schema_version": "wizard_behavior_harness.v1"
+}

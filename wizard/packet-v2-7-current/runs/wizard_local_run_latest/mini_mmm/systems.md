@@ -1,0 +1,430 @@
+---
+title: Systems
+created: 2026-04-28
+updated: 2026-04-28
+type: concept
+tags: [wizard, mmm, packet, receipt]
+framing: current
+source_path: runs/wizard_local_run_latest/mini_mmm/systems.md
+---
+
+Lane-local behavior probe body for Systems. Candidate root: /Users/joshuaeisenhart/Desktop/Codex Ratchet/work/mmm_wizard_repair/mmm_wizard_complete_system_packet_v2_7_candidate. This record was normalized from collected probe output only. The harness did not spawn agents, infer hidden execution, or add a claim beyond the supplied lane record. Review this lane as receipt evidence: checked material, conclusion, remaining open question, and cited evidence must remain tied to the captured output. The body exists so the adapter can verify that every completed lane has a lane-local language surface rather than borrowing global prose. Future readers should treat the text as a behavior probe normalization artifact, not as independent proof of correctness. 
+
+Collected output:
+# MMM_VOICE_SYSTEMS_FULL_v2_7
+
+## aligned nouns and phrases
+
+- leverage point
+- feedback loop
+- information flow
+- system structure
+- self organization
+- mental model
+- stocks and flows
+- reinforcing loop
+- balancing loop
+- second-order
+- language body
+- system
+- subsystem
+- environment
+- boundary
+- feedback
+- loop
+- coupling
+- incentive
+- emergence
+- second
+- order
+- side
+- effect
+- selection
+- reward
+- structure
+- interaction
+- propagation
+- network
+- node
+- edge
+- stock
+- flow
+- delay
+- amplifying
+- balancing
+- reinforcing
+- dynamics
+- attractor
+- basin
+- homeostasis
+- perverse
+- emergent
+- dependency
+- constraint
+- behavior
+- state
+- transition
+- drift
+- dynamic
+- stabilizing
+- outside
+- only
+- then
+- bounded
+- finite
+- open
+- distinct
+- concrete
+- observed
+- missing
+- small
+- honest
+- first
+- prior
+- separate
+- together
+- compared
+- measured
+- used
+- fit
+- viable
+- direct
+- different
+- alternate
+- branch
+- path
+- packet
+- artifact
+- receipt
+- trace
+- result
+- support
+- evidence
+- scope
+- gate
+- guard
+- rung
+- status
+- candidate
+- survivor
+- witness
+- probe
+- name
+- use
+- role
+- practice
+- experience
+- observation
+- perception
+- conjunction
+- resemblance
+- relation
+- probability
+- particular
+- predicate
+- class
+- model
+- solver
+- satisfiable
+- unsatisfiable
+- countermodel
+- counterexample
+- equivalence
+- indistinguishable
+- readout
+- measure
+- measurement
+- operation
+- procedure
+- instrument
+- experiment
+- check
+- verify
+- compare
+- sample
+- route
+- lane
+- voice
+- lens
+- council
+- audit
+- finding
+- blocker
+- deferred
+- blocked
+- spawned
+- diagnostic
+- untried
+- preload
+- language
+- body
+- during
+- since
+- toward
+- relative
+- according
+- locally
+- jointly
+- separately
+- rather
+- instead
+- still
+- often
+- sometimes
+- usually
+- seems
+- likely
+- possible
+- plausible
+- tentative
+- provisional
+- partial
+- limited
+- case
+- instance
+
+## correlated couplings
+
+- stock leverage point
+- loop evidence
+- loop support
+- loop packet
+- loop receipt
+- loop trace
+- loop result
+- loop scope
+- loop boundary
+- loop witness
+- loop probe
+- loop constraint
+- compare loop
+- measure loop
+- hold loop
+- preserve loop
+- split loop
+- narrow loop
+- feedback evidence
+- feedback support
+- feedback packet
+- feedback receipt
+- feedback trace
+- feedback result
+- feedback scope
+- feedback boundary
+- feedback witness
+- feedback probe
+- feedback constraint
+- compare feedback
+- measure feedback
+- hold feedback
+- preserve feedback
+- split feedback
+- narrow feedback
+- incentive evidence
+- incentive support
+- incentive packet
+- incentive receipt
+- incentive trace
+- incentive result
+- incentive scope
+- incentive boundary
+- incentive witness
+- incentive probe
+- incentive constraint
+- compare incentive
+- measure incentive
+- hold incentive
+- preserve incentive
+- split incentive
+- narrow incentive
+- structure evidence
+- structure support
+- structure packet
+- structure receipt
+- structure trace
+- structure result
+- structure scope
+- structure boundary
+- structure witness
+- structure probe
+- structure constraint
+- compare structure
+- measure structure
+- hold structure
+- preserve structure
+- split structure
+- narrow structure
+- coupling evidence
+- coupling support
+- coupling packet
+- coupling receipt
+- coupling trace
+- coupling result
+- coupling scope
+- coupling boundary
+- coupling witness
+- coupling probe
+- coupling constraint
+- compare coupling
+- measure coupling
+- hold coupling
+- preserve coupling
+- split coupling
+- narrow coupling
+- interaction evidence
+- interaction support
+- interaction packet
+- interaction receipt
+- interaction trace
+- interaction result
+- interaction scope
+- interaction boundary
+- interaction witness
+- interaction probe
+- interaction constraint
+- compare interaction
+- measure interaction
+- hold interaction
+- preserve interaction
+- split interaction
+- narrow interaction
+- propagation evidence
+- propagation support
+- propagation packet
+- propagation receipt
+- propagation trace
+- propagation result
+- propagation scope
+- propagation boundary
+- propagation witness
+- propagation probe
+- propagation constraint
+- compare propagation
+- measure propagation
+- hold propagation
+- preserve propagation
+- split propagation
+- narrow propagation
+- emergence evidence
+- emergence support
+- emergence packet
+- emergence receipt
+- emergence trace
+- emergence result
+- emergence scope
+- emergence boundary
+- emergence witness
+- emergence probe
+- emergence constraint
+- compare emergence
+- measure emergence
+- hold emergence
+- preserve emergence
+- split emergence
+- narrow emergence
+- second evidence
+- second support
+- second packet
+- second receipt
+- second trace
+- second result
+- second scope
+- second boundary
+- second witness
+- second probe
+- second constraint
+- compare second
+- measure second
+- hold second
+- preserve second
+- split second
+- narrow second
+- order evidence
+- order support
+- order packet
+- order receipt
+- order trace
+- order result
+
+## three-part cues
+
+- compare loop receipt
+- measure loop receipt
+- hold loop receipt
+- preserve loop receipt
+- compare feedback receipt
+- measure feedback receipt
+- hold feedback receipt
+- preserve feedback receipt
+- compare incentive receipt
+- measure incentive receipt
+- hold incentive receipt
+- preserve incentive receipt
+- compare structure receipt
+- measure structure receipt
+- hold structure receipt
+- preserve structure receipt
+- during system subsystem
+- during system environment
+- during system boundary
+- during system feedback
+- during subsystem environment
+- during subsystem boundary
+- during subsystem feedback
+- during subsystem loop
+- during environment boundary
+- during environment feedback
+- during environment loop
+- during environment coupling
+- during boundary feedback
+- during boundary loop
+- during boundary coupling
+- during boundary incentive
+- during feedback loop
+- during feedback coupling
+- during feedback incentive
+- during feedback emergence
+- during loop coupling
+- during loop incentive
+- during loop emergence
+- during loop second
+- during coupling incentive
+- during coupling emergence
+- during coupling second
+- during coupling order
+- during incentive emergence
+- during incentive second
+- during incentive order
+- during incentive side
+- during emergence second
+- during emergence order
+- during emergence side
+- during emergence effect
+- during second order
+- during second side
+- during second effect
+- during second selection
+- during order side
+- during order effect
+- during order selection
+- during order reward
+- during side effect
+- during side selection
+- during side reward
+- during side structure
+- during effect selection
+- during effect reward
+- during effect structure
+- during effect interaction
+- during selection reward
+- during selection structure
+- during selection interaction
+- during selection propagation
+- during reward structure
+- during reward interaction
+- during reward propagation
+- during reward network
+- during structure interaction
+- during structure propagation
+- during structure network
+- during structure node

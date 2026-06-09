@@ -1,0 +1,372 @@
+# MMM_LANE_SECURITY_STANDARD_v2_8
+
+## words
+
+- abuse :: 100
+- abuse path :: 100
+- access :: 100
+- actual :: 100
+- apart :: 100
+- authn :: 100
+- authz :: 100
+- blocker :: 100
+- boundary :: 100
+- careful :: 100
+- checked :: 100
+- concrete :: 100
+- credential :: 100
+- data :: 100
+- default :: 100
+- deny :: 100
+- distinct :: 100
+- exposure :: 100
+- first :: 100
+- held :: 100
+- honest :: 100
+- inferred :: 100
+- injection :: 100
+- isolation :: 100
+- known :: 100
+- later :: 100
+- leak :: 100
+- least :: 100
+- least privilege :: 100
+- live :: 100
+- misconfiguration :: 100
+- narrow :: 100
+- next :: 100
+- observed :: 100
+- origin :: 100
+- path :: 100
+- permission :: 100
+- plain :: 100
+- policy :: 100
+- prior :: 100
+- privilege :: 100
+- returned :: 100
+- risk :: 100
+- sandbox :: 100
+- scope :: 100
+- secret :: 100
+- security :: 100
+- sensitive :: 100
+- separate :: 100
+- stale :: 100
+- surface :: 100
+- threat :: 100
+- threat surface :: 100
+- token :: 100
+- traversal :: 100
+- trust :: 100
+- trust boundary :: 100
+- unknown :: 100
+- unsafe :: 100
+- unsafe default :: 100
+- warm :: 100
+- across :: 99
+- after :: 99
+- against :: 99
+- along :: 99
+- before :: 99
+- between :: 99
+- through :: 99
+- under :: 99
+- until :: 99
+- where :: 99
+- while :: 99
+
+## couplings
+
+- access control :: 100
+- access risk :: 100
+- access trust boundary :: 100
+- access unsafe default :: 100
+- across exposure :: 100
+- across permission :: 100
+- across secret :: 100
+- after exposure :: 100
+- after permission :: 100
+- authz failure :: 100
+- before exposure :: 100
+- before permission :: 100
+- between exposure :: 100
+- between permission :: 100
+- between secret :: 100
+- boundary credential :: 100
+- boundary exposure :: 100
+- boundary failure :: 100
+- check exposure :: 100
+- check permission :: 100
+- check secret :: 100
+- compare exposure :: 100
+- compare permission :: 100
+- compare secret :: 100
+- credential leak :: 100
+- credential privilege :: 100
+- deny default :: 100
+- exposure boundary :: 100
+- exposure candidate :: 100
+- exposure constraint :: 100
+- exposure credential :: 100
+- exposure evidence :: 100
+- exposure packet :: 100
+- exposure path :: 100
+- exposure privilege :: 100
+- exposure probe :: 100
+- exposure receipt :: 100
+- exposure result :: 100
+- exposure scope :: 100
+- exposure status :: 100
+- exposure support :: 100
+- exposure surface :: 100
+- exposure trace :: 100
+- exposure witness :: 100
+- hold exposure :: 100
+- hold permission :: 100
+- insecure default :: 100
+- leak risk :: 100
+- leak trust boundary :: 100
+- least privilege :: 100
+- measure exposure :: 100
+- measure permission :: 100
+- measure secret :: 100
+- narrow exposure :: 100
+- narrow permission :: 100
+- observe exposure :: 100
+- observe permission :: 100
+- observe secret :: 100
+- origin boundary :: 100
+- path traversal :: 100
+- path trust boundary :: 100
+- permission boundary :: 100
+- permission candidate :: 100
+- permission check :: 100
+- permission constraint :: 100
+- permission credential :: 100
+- permission drift :: 100
+- permission evidence :: 100
+- permission exposure :: 100
+- permission packet :: 100
+- permission path :: 100
+- permission probe :: 100
+- permission receipt :: 100
+- permission result :: 100
+- permission scope :: 100
+- permission status :: 100
+- permission support :: 100
+- permission surface :: 100
+- permission trace :: 100
+- permission witness :: 100
+- policy trust boundary :: 100
+- preserve exposure :: 100
+- preserve permission :: 100
+- privilege escalation :: 100
+- sandbox escape :: 100
+- sandbox trust boundary :: 100
+- sandbox unsafe default :: 100
+- secret boundary :: 100
+- secret candidate :: 100
+- secret constraint :: 100
+- secret credential :: 100
+- secret evidence :: 100
+- secret exposure :: 100
+- secret leak :: 100
+- secret packet :: 100
+- secret path :: 100
+- secret permission :: 100
+- secret probe :: 100
+- secret receipt :: 100
+- secret result :: 100
+- secret scope :: 100
+- secret status :: 100
+- secret support :: 100
+- secret surface :: 100
+- secret trace :: 100
+- secret witness :: 100
+- security exposure :: 100
+- security misconfiguration :: 100
+- security permission :: 100
+- security secret :: 100
+- sensitive data :: 100
+- split exposure :: 100
+- split permission :: 100
+- test exposure :: 100
+- test permission :: 100
+- test secret :: 100
+- through exposure :: 100
+- through permission :: 100
+- through secret :: 100
+- token exposure :: 100
+- trust boundary :: 100
+- under exposure :: 100
+- under permission :: 100
+- under secret :: 100
+- unsafe default :: 100
+- until exposure :: 100
+- until permission :: 100
+- verify exposure :: 100
+- verify permission :: 100
+- where exposure :: 100
+- where permission :: 100
+- while exposure :: 100
+- while permission :: 100
+- within exposure :: 100
+- within permission :: 100
+- within secret :: 100
+- after secret :: 97
+- before secret :: 97
+- until secret :: 97
+- where secret :: 97
+- while secret :: 97
+- across boundary :: 95
+- after boundary :: 95
+- before boundary :: 95
+- between boundary :: 95
+- boundary evidence :: 95
+- boundary packet :: 95
+- boundary path :: 95
+- boundary support :: 95
+- boundary surface :: 95
+- hold secret :: 95
+- narrow secret :: 95
+- preserve secret :: 95
+- split secret :: 95
+- through boundary :: 95
+- under boundary :: 95
+- until boundary :: 95
+- verify secret :: 95
+- where boundary :: 95
+- while boundary :: 95
+
+## triplets
+
+- access control boundary :: 100
+- across bounded exposure :: 100
+- across current exposure :: 100
+- across finite exposure :: 100
+- across live exposure :: 100
+- across local exposure :: 100
+- across open exposure :: 100
+- across permission boundary :: 100
+- authz failure route :: 100
+- before live exposure :: 100
+- before open exposure :: 100
+- between current exposure :: 100
+- between live exposure :: 100
+- between local exposure :: 100
+- between open exposure :: 100
+- between trust boundary :: 100
+- check exposure receipt :: 100
+- compare exposure receipt :: 100
+- deny default permission :: 100
+- exposure boundary path :: 100
+- exposure evidence path :: 100
+- exposure packet path :: 100
+- exposure path path :: 100
+- exposure receipt path :: 100
+- exposure result path :: 100
+- exposure scope path :: 100
+- exposure support path :: 100
+- exposure surface path :: 100
+- exposure trace path :: 100
+- hold exposure receipt :: 100
+- instead leak trust boundary :: 100
+- least privilege default :: 100
+- likely policy trust boundary :: 100
+- measure exposure receipt :: 100
+- observe exposure receipt :: 100
+- observed least privilege blocker :: 100
+- observed least privilege threat surface :: 100
+- only access trust boundary :: 100
+- permission boundary path :: 100
+- preserve exposure receipt :: 100
+- privilege escalation path :: 100
+- rather path trust boundary :: 100
+- secret boundary path :: 100
+- secret token leak :: 100
+- security misconfiguration exposure :: 100
+- sensitive data boundary :: 100
+- still sandbox trust boundary :: 100
+- still sandbox unsafe default :: 100
+- test exposure receipt :: 100
+- through boundary credential :: 100
+- through boundary exposure :: 100
+- through live exposure :: 100
+- through open exposure :: 100
+- trust boundary check :: 100
+- under bounded exposure :: 100
+- under current exposure :: 100
+- under finite exposure :: 100
+- under live exposure :: 100
+- under local exposure :: 100
+- under open exposure :: 100
+- under open permission :: 100
+- under security exposure :: 100
+- under security permission :: 100
+- under security secret :: 100
+- unsafe default blocked :: 100
+- verify exposure receipt :: 100
+- within bounded exposure :: 100
+- within current exposure :: 100
+- within finite exposure :: 100
+- within live exposure :: 100
+- within local exposure :: 100
+- within open exposure :: 100
+- within secret boundary :: 100
+- before bounded exposure :: 99
+- before current exposure :: 99
+- before finite exposure :: 99
+- before local exposure :: 99
+- between bounded exposure :: 99
+- between finite exposure :: 99
+- through bounded exposure :: 99
+- through current exposure :: 99
+- through finite exposure :: 99
+- through local exposure :: 99
+- under bounded permission :: 98
+- under current permission :: 98
+- under finite permission :: 98
+- under live permission :: 98
+- under local permission :: 98
+- across bounded permission :: 97
+- across current permission :: 97
+- across finite permission :: 97
+- across live permission :: 97
+- across local permission :: 97
+- across open permission :: 97
+- across permission credential :: 97
+- across permission exposure :: 97
+- between bounded permission :: 97
+- between current permission :: 97
+- between finite permission :: 97
+- between live permission :: 97
+- between local permission :: 97
+- between open permission :: 97
+- through current permission :: 97
+- through local permission :: 97
+- within bounded permission :: 97
+- within current permission :: 97
+- within finite permission :: 97
+- within live permission :: 97
+- within local permission :: 97
+- within open permission :: 97
+- within secret credential :: 97
+- within secret exposure :: 97
+- within secret permission :: 97
+- after unsafe default :: 96
+- before bounded permission :: 96
+- before current permission :: 96
+- before exposure credential :: 96
+- before exposure privilege :: 96
+- before finite permission :: 96
+- before live permission :: 96
+- before local permission :: 96
+- before open permission :: 96
+- by credential privilege :: 96
+- permission evidence path :: 96
+- permission packet path :: 96
+- permission path path :: 96
+- permission receipt path :: 96
+- permission result path :: 96
+- permission scope path :: 96
+- permission support path :: 96

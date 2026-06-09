@@ -1,0 +1,115 @@
+# MMM_LANE_SECURITY_ULTRA_v2_8
+
+## words
+
+- secret :: 100
+- permission :: 100
+- credential :: 100
+- unsafe default :: 100
+- least privilege :: 100
+- trust boundary :: 100
+- exposure :: 100
+- risk :: 100
+- privilege :: 100
+- leak :: 100
+- access :: 100
+- abuse path :: 100
+- threat surface :: 100
+- security :: 100
+- boundary :: 100
+- blocker :: 100
+- token :: 100
+- threat :: 100
+- unsafe :: 100
+- default :: 100
+- least :: 100
+- deny :: 100
+- misconfiguration :: 100
+
+## couplings
+
+- exposure boundary :: 100
+- permission boundary :: 100
+- secret boundary :: 100
+- trust boundary :: 100
+- exposure evidence :: 100
+- exposure support :: 100
+- exposure path :: 100
+- exposure surface :: 100
+- exposure packet :: 100
+- exposure receipt :: 100
+- exposure trace :: 100
+- exposure result :: 100
+- exposure scope :: 100
+- exposure status :: 100
+- exposure candidate :: 100
+- exposure witness :: 100
+- exposure probe :: 100
+- exposure constraint :: 100
+- check exposure :: 100
+- compare exposure :: 100
+- observe exposure :: 100
+- measure exposure :: 100
+- test exposure :: 100
+- verify exposure :: 100
+- hold exposure :: 100
+- preserve exposure :: 100
+- split exposure :: 100
+- narrow exposure :: 100
+- security secret :: 100
+- security permission :: 100
+- access control :: 100
+- least privilege :: 100
+- deny default :: 100
+- permission check :: 100
+- secret leak :: 100
+- token exposure :: 100
+- unsafe default :: 100
+- security misconfiguration :: 100
+- sensitive data :: 100
+- credential leak :: 100
+- privilege escalation :: 100
+- origin boundary :: 100
+- authz failure :: 100
+- sandbox escape :: 100
+- path traversal :: 100
+- insecure default :: 100
+- permission drift :: 100
+- boundary failure :: 100
+
+## triplets
+
+- exposure boundary path :: 100
+- permission boundary path :: 100
+- secret boundary path :: 100
+- under security secret :: 100
+- under security permission :: 100
+- under security exposure :: 100
+- within secret boundary :: 100
+- across permission boundary :: 100
+- exposure evidence path :: 100
+- exposure support path :: 100
+- exposure path path :: 100
+- exposure surface path :: 100
+- between trust boundary :: 100
+- through boundary exposure :: 100
+- through boundary credential :: 100
+- access control boundary :: 100
+- least privilege default :: 100
+- deny default permission :: 100
+- secret token leak :: 100
+- security misconfiguration exposure :: 100
+- sensitive data boundary :: 100
+- privilege escalation path :: 100
+- trust boundary check :: 100
+- unsafe default blocked :: 100
+- authz failure route :: 100
+- least privilege boundary :: 100
+- secret leakage exposure :: 100
+- under open exposure :: 96
+- within secret permission :: 89
+- within secret exposure :: 89
+- within secret credential :: 89
+- across permission exposure :: 89
+- across permission credential :: 89
+- before exposure credential :: 88

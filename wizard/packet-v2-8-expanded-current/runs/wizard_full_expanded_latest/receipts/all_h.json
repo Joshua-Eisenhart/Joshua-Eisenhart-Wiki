@@ -1,0 +1,12 @@
+{
+  "candidate_root": "/Users/joshuaeisenhart/Desktop/mmm_wizard_complete_system_packet_v2_8_expanded_candidate",
+  "checked": "loaded mini_mmms/full/compositions/md/MMM_LANE_ALL_H_OVERALL_CONTEXT_FULL_v2_8.md",
+  "concluded": "All-H composition: check whole-context fit by combining Reframe, Systems, Factory, Strategy, Hygiene, Audit, and Council.",
+  "evidence": "mini_mmms/full/compositions/md/MMM_LANE_ALL_H_OVERALL_CONTEXT_FULL_v2_8.md terms: systems :: 100, factory :: 99, strategy :: 98, context :: 97, loop :: 96, incentive :: 95, coupling :: 94, delay :: 93",
+  "generated_at": "2026-04-29T00:15:50.230177+00:00",
+  "lane": "All-H",
+  "open": "live proof pending",
+  "output_excerpt": "Task: Run the full Wizard after repairing output shape, full-MMM boot, guide size, voice mini-MMM loading proof, behavior load proof, and noun reservoir expansion.\nWizard General size: full\nWave 9: Follow-up Audit/Improve Wave\nAll-H composition: check whole-context fit by combining Reframe, Systems, Factory, Strategy, Hygiene, Audit, and Council.\nLoaded language body terms: systems :: 100, factory :: 99, strategy :: 98, context :: 97, loop :: 96, incentive :: 95, coupling :: 94, delay :: 93",
+  "output_sha256": "8b27a928058b61d7bed6e7fafaa30c721bdcc3dd28967d58aaa7c6766f060c48",
+  "schema_version": "wizard_behavior_harness.v1"
+}
