@@ -1,0 +1,6557 @@
+Resource theory of asymmetric distinguishability for quantum channels
+Xin Wang1, 2, ∗ and Mark M. Wilde3, †
+1
+
+arXiv:1907.06306v2 [quant-ph] 11 Dec 2019
+
+Joint Center for Quantum Information and Computer Science,
+University of Maryland, College Park, Maryland 20742, USA
+2
+Institute for Quantum Computing, Baidu Research, Beijing 100193, China
+3
+Hearne Institute for Theoretical Physics, Department of Physics and Astronomy,
+Center for Computation and Technology, Louisiana State University, Baton Rouge, Louisiana 70803, USA
+(Dated: December 12, 2019)
+This paper develops the resource theory of asymmetric distinguishability for quantum channels,
+generalizing the related resource theory for states [Matsumoto, arXiv:1010.1030; Wang and Wilde,
+Phys. Rev. Research 1, 033170 (2019)]. The key constituents of the channel resource theory are
+quantum channel boxes, consisting of a pair of quantum channels, which can be manipulated for
+free by means of an arbitrary quantum superchannel (the most general physical transformation
+of a quantum channel). One main question of the resource theory is the approximate channel box
+transformation problem, in which the goal is to transform an initial channel box (or boxes) to a final
+channel box (or boxes), while allowing for an asymmetric error in the transformation. The channel
+resource theory is richer than its counterpart for states because there is a wider variety of ways in
+which this question can be framed, either in the one-shot or n-shot regimes, with the latter having
+parallel and sequential variants. As in our prior work [Wang and Wilde, Phys. Rev. Research 1,
+033170 (2019)], we consider two special cases of the general channel box transformation problem,
+known as distinguishability distillation and dilution. For the one-shot case, we find that the optimal
+values of the various tasks are equal to the non-smooth or smooth channel min- or max-relative
+entropies, thus endowing all of these quantities with operational interpretations. In the asymptotic
+sequential setting, we prove that the exact distinguishability cost is equal to the channel maxrelative entropy and the distillable distinguishability is equal to the amortized channel relative
+entropy of [arXiv:1808.01498]. This latter result can also be understood as a solution to Stein’s
+lemma for quantum channels in the sequential setting. Finally, the theory simplifies significantly for
+environment-seizable and classical–quantum channel boxes.
+
+I.
+
+INTRODUCTION
+
+In many scientific fields of interest, distinguishability is
+an important concept. More generally, it can be considered as a resource in that it allows for making decisions,
+and furthermore, the more distinguishable that two possibilities are, the easier and faster it is to make a decision.
+In a recent paper, we formalized the notion of distinguishability as a resource by developing the resource theory of asymmetric distinguishability in detail [WW19],
+following the original proposal from [Mat10, Mat11].
+This resource theory demonstrates that distinguishability is truly a fundamental resource that can be manipulated and interconverted into different forms. The
+benefit of developing this resource theory is that, not
+only can fundamental tasks such as quantum hypothesis testing [HP91, ON00, Hay03, Hay04, WR12, Hay17]
+be recast into an intuitive approach based on resourcetheoretic thinking, but also new information processing
+tasks emerge, such as distinguishability dilution, which
+is related to concepts such as simulation and synthesis
+of quantum states. The present paper illustrates further
+benefits of the resource-theoretic approach by using it to
+solve some outstanding questions in the theory of quantum channel discrimination.
+∗ wangxinfelix@gmail.com
+† mwilde@lsu.edu
+
+In the resource theory of asymmetric distinguishability for states [WW19], the basic object to be manipulated is a quantum “box” (ρ, σ) consisting of two quantum states ρ and σ. The descriptor “asymmetric” applies
+to this resource theory because it allows for a slight error in the transformation of the first state of the box,
+while not allowing for any error in the transformation of
+the second state of the box. One basic task is to distill
+as many bits of asymmetric distinguishability as possible
+from this box by processing it with an arbitrary quantum
+channel [WW19]. Another basic task is to dilute bits of
+asymmetric distinguishability to prepare the box (ρ, σ),
+with the goal being to use as few bits of asymmetric
+distinguishability as possible in order to do so [WW19].
+These tasks give operational meaning to fundamental entropic measures such as the min-relative entropy [Dat09],
+the smooth min-relative entropy [BD10, BD11, WR12],
+the max-relative entropy [Dat09], and the smooth maxrelative entropy [Dat09]. One of the core results for this
+resource theory is that it is reversible, and the fundamental rate of interconversion is characterized by the quantum relative entropy [WW19].
+The main goal of the present paper is to generalize
+these concepts from quantum states to quantum channels, given the prominent role of the latter in quantum information and beyond. We note here that recently there has been much effort more generally in
+extending concepts from resource theories of quantum
+states to resource theories for quantum channels (see,
+
+2
+e.g., [BHLS03, BGMW17, DBW17, GFW+ 18, LBL18,
+BDW18, TR19, TEZP19, WW18, SC19, WWS19, LY19,
+LW19, YLZ+ 19]). In the resource theory of asymmetric
+distinguishability for quantum channels presented here,
+the basic object to be manipulated is a quantum channel
+box (N , M), which consists of two quantum channels N
+and M. The idea is that the input and output ports
+of the channel box are accessible to an agent in the resource theory, while the particular choice of the channel
+is unknown to the agent. A key difference between this
+resource theory and the former one for quantum states is
+that a quantum channel can be probed by means of both
+an input port and an output port, which implies that
+the way they are manipulated is by means of a quantum superchannel [CDP08b]. As a simple example of
+a superchannel, consider that the encoding and decoding, i.e., pre- and post-processing, of a channel commonly
+employed in quantum Shannon theory [Wil17] realize a
+physical transformation of a channel. The incorporation
+of superchannels into the resource theory implies that
+the channel resource theory is more involved than it is
+for boxes consisting only of states.
+More generally, we allow for quantum strategy boxes
+[GW07, CDP08a, CDP09, Gut09, Gut12, GRS18] and
+manipulate them by means of general physical transformations [CDP09] that take quantum strategies to
+other quantum strategies (note that quantum strategies
+are in one-to-one correspondence with quantum combs
+[CDP09]). By the results of [CDP09], such physical
+transformations are in fact quantum strategies themselves, so that our generalization of the resource theory
+to quantum strategies is a significant generalization.
+We consider several fundamental tasks in this resource
+theory, which can be understood as extensions of the
+tasks considered in [WW19]. The first basic one is distinguishability distillation, in which the goal is to distill
+as many bits of asymmetric distinguishability as possible from a single channel box in the one-shot setting, or
+multiple channel boxes in the n-shot setting. This task is
+intimately related to asymmetric hypothesis testing for
+quantum channels [CMW16] (see [Hay09] for the classical case), which is a particular kind of quantum channel discrimination. For this task, there are a variety
+of possibilities to consider, including the one-shot case
+and the n-shot case, in the latter using either a parallel
+or sequential strategy [GW07, CDP08a, Gut09, DFY09,
+HHLW10, Gut12, CMW16]. We also consider this task
+for quantum strategy boxes. Another basic task of interest is distinguishability dilution, in which the goal is to
+dilute bits of asymmetric distinguishability to a single or
+multiple channel boxes, using as few bits of asymmetric
+distinguishability as possible. This task also has a variety of possibilities, including one- and n-shot, the latter
+having parallel and sequential variants as well. We likewise consider this task for quantum strategy boxes. This
+task is also intimately related to quantum channel simulation [BSST02, BDH+ 14, BCR11, BBCW13, BRW14,
+Ber13, BGMW17, GFW+ 18, FBB19, FWTB19, Wil18],
+
+but here takes on a specific form due to the structure of
+the resource theory of asymmetric distinguishability.
+One of the major tasks in this resource theory is to
+convert one channel box to another, doing so either exactly or approximately. As a variant of this problem,
+another task is to determine the rate at which it is possible to convert n channel boxes, with each box consisting
+of the same pair of channels, to m boxes consisting of
+another pair of channels, when n is allowed to be arbitrarily large. More generally, we consider the conversion of an n-round quantum strategy box to an m-round
+strategy box. The simpler transformation problem for
+state boxes was solved in [WW19] and is relevant for
+addressing the channel box transformation problem for
+particular channel boxes that are environment-seizable,
+as defined in [BHKW18].
+
+II.
+
+SUMMARY OF RESULTS
+
+We now summarize the main contributions and results
+of our paper:
+1. We establish the resource theory of asymmetric distinguishability for quantum channels, with the basic objects being quantum channel boxes, the free
+operations to manipulate them being quantum superchannels [CDP08b], and the basic units of currency being bits of asymmetric distinguishability
+(see Section III). Later we accomplish the same for
+quantum strategy boxes, with the free operations
+to manipulate them being quantum strategies (see
+Section VIII).
+2. We prove that the approximate channel box transformation problem is characterized by a semidefinite program and thus can be calculated efficiently with respect to the input and output dimensions of the channels (see Section IV).
+3. The exact one-shot distillable distinguishability of
+a quantum channel box is equal to the channel
+min-relative entropy, which is a particular case
+of the generalized channel divergence of [CMW16,
+LKDW18]. The exact one-shot distinguishability
+cost of a quantum channel box is equal to the
+channel max-relative entropy, which is a particular case of the generalized channel divergence of
+[CMW16, LKDW18] and explored in more detail
+in [GFW+ 18, BHKW18]. See Section V A for both
+of these results.
+4. The approximate one-shot distillable distinguishability of a quantum channel box is equal to the
+smooth channel min-relative entropy of [CMW16],
+the latter also known as channel hypothesis testing
+relative entropy [CMW16]. The approximate oneshot distinguishability cost of a quantum channel
+box is equal to the smooth channel max-relative
+
+3
+entropy, again a particular case of the generalized
+channel divergence of [LKDW18] and explored in
+more detail in [GFW+ 18]. See Section V B for both
+of these results.
+5. We consider asymptotic parallel versions of the
+above tasks in Section VI. We find that the exact distillable distinguishability is given by the
+regularized channel min-relative entropy (see Section VI A). By means of an example from [Aci01],
+we conclude that the regularization seems to be
+necessary because the channel min-relative entropy
+is highly non-additive. We then prove that the exact distinguishability cost is equal to the channel
+max-relative entropy (see Section VI B). The distillable distinguishability is equal to the regularized
+channel relative entropy (see Section VI C), and the
+same quantity is a lower bound on the distinguishability cost (see Section VI D). These latter operational tasks simplify for both environment-seizable
+and classical–quantum channel boxes.
+6. Section VII considers the asymptotic parallel version of the general channel box transformation
+problem, giving basic definitions and some bounds
+that apply to this case. Again, the results simplify
+for the case of environment-seizable and classical–
+quantum channel boxes.
+7. Section VIII considers the quantum strategy box
+transformation problem. To begin with, this section introduces the generalized quantum strategy
+divergence as a generalization of the strategy distance of [CDP08a, CDP09, Gut12] and establishes
+a data processing inequality for this distinguishability measure. The section then establishes several
+bounds on how well one can perform a physical
+transformation from one strategy box to another
+strategy box. All of the results apply to sequential channel boxes because these are special cases
+of strategy boxes. Furthermore, we consider an
+asymptotic version of the box transformation problem for sequential channel boxes and prove concrete results for environment-seizable and classical–
+quantum channel boxes.
+8. We then consider distillation and dilution of strategy boxes in Section IX. Our key results here, specialized to sequential channel boxes, include singleletter formulas for the asymptotic exact sequential
+distinguishability cost and the asymptotic sequential distillable distinguishability, expressed respectively as the channel max-relative entropy and the
+amortized channel relative entropy of [BHKW18],
+giving these quantities fundamental operational interpretations in the resource theory of asymmetric
+distinguishability. The latter result can be alternatively understood as a solution to Stein’s lemma
+for quantum channels in the sequential setting.
+
+In the rest of the paper, we discuss details of the resource theory of asymmetric distinguishability for quantum channels, as well as the contributions listed above.
+
+III. RESOURCE THEORY OF ASYMMETRIC
+DISTINGUISHABILITY FOR QUANTUM
+CHANNELS
+
+We begin by generalizing the resource theory of asymmetric distinguishability from [WW19] to the setting of
+quantum channels, by considering a channel box of the
+following form:
+(N , M),
+
+(1)
+
+where N and M are quantum channels, each acting on
+an input system A and outputting a system B. Recall
+that a quantum channel is a completely positive, tracepreserving (CPTP) map. We also write these as NA→B
+and MA→B in what follows in order to indicate the input
+and output systems explicitly. The channel box generalizes the state box (ρ, σ) from [WW19], which consists of
+a pair of quantum states ρ and σ. In fact, a state box is a
+special case of a channel box in which the input systems
+are trivial.
+One interpretation of the channel box in (1) is that
+a distinguisher is allowed to prepare any state ρRA of a
+reference system R and the channel input A, either the
+channel NA→B or MA→B is applied, and then the distinguisher is allowed to perform any post-processing on
+the reference R and the channel output B in order to decide which channel was applied. That is, by inputting an
+arbitrary state ρRA to the channel box (pre-processing)
+and then applying the channel PRB→S (post-processing),
+one can transform it to the following state box:
+(PRB→S (NA→B (ρRA )), PRB→S (MA→B (ρRA ))).
+
+(2)
+
+More generally, the agent who has access to the channel box in (1) can perform a quantum superchannel
+[CDP08b] on it in order to transform it to another channel box, as discussed in Section III B below.
+As stated earlier, the channel box in (1) indeed generalizes the state box (ρ, σ) considered previously in [WW19].
+Another way of seeing this is to take the channels N and
+M in (1) to be replacer channels with the following action:
+NA→B (ωA ) = TrA [ωA ]ρB ,
+MA→B (ωA ) = TrA [ωA ]σB .
+
+(3)
+(4)
+
+Then no matter what state τRA is input to the channel
+box (N , M), it reduces to the state box (τR ⊗ ρA , τR ⊗
+σB ), which, by the discussion in [WW19, Section III], is
+equivalent by a free operation to the state box (ρB , σB ).
+
+4
+
+Other simple classes of channel boxes that are strongly
+related to state boxes, generalizing the above example
+of a replacer channel box in (3)–(4), include those that
+are environment parametrized [TW16] and the subclass
+of environment-seizable channel boxes [BHKW18]. Note
+that environment-parametrized channel boxes are related
+to programmable channels [NC97, DP05].
+A channel box (NA→B , MA→B ) is environment
+parametrized with associated environment states ρE and
+σE if there exists a common interaction channel PAE→B
+such that
+
+becomes non-trivial when the background environment
+states have finite distinguishability, when measured according to some divergence, so that the channel box can
+be realized starting from a finite number of bits of asymmetric distinguishability.
+Environment-seizable channel boxes are defined to be
+environment-parametrized with associated environment
+states ρE and σE and additionally have the property
+that it is possible to find a common pre- and postprocessing of the channel box (NA→B , MA→B ) to retrieve the state box (ρE , σE ) from it [BHKW18]. That is,
+for environment-seizable channels, there exists a common
+input state τRA and a common post-processing channel
+DRB→E such that
+
+NA→B (ωA ) = PAE→B (ωA ⊗ ρE ),
+MA→B (ωA ) = PAE→B (ωA ⊗ σE )
+
+DRB→E (NA→B (τRA )) = ρE ,
+DRB→E (MA→B (τRA )) = σE .
+
+A.
+
+Environment-parametrized and -seizable
+channels
+
+(5)
+(6)
+
+for all inputs ωA [TW16]. In this way, any pre-processing
+of an environment-parametrized channel box as
+(NA→B , MA→B ) → (NA→B (ωA ), MA→B (ωA ))
+
+In this way, we have the following equivalence for
+environment-seizable channels:
+(NA→B , MA→B ) ↔ (ρE , σE ),
+
+(7)
+
+can be viewed as a postprocessing of the state box
+(ρE , σE ), via
+(ρE , σE ) → (ωA ⊗ ρE , ωA ⊗ σE )
+→ (PAE→B (ωA ⊗ ρE ), PAE→B (ωA ⊗ σE ))
+= (NA→B (ωA ), MA→B (ωA )),
+(8)
+so that the distinguishability of the channel box (N , M)
+is always limited by that of the state box (ρE , σE ), as
+observed in [TW16] (see [JWD+ 08, DDM14] for related
+observations in quantum estimation theory).
+We should emphasize that an arbitrary channel box
+(N , M) is environment-parametrized with associated environment states that are orthogonal [DW19]. That is,
+we can set ρE = |0ih0|E and σE = |1ih1|E and the common interaction channel PAE→B as
+PAE→B (ζAE ) = NA→B (h0|E ζAE |0iE )
++ MA→B (h1|E ζAE |1iE ). (9)
+In this way, the channels NA→B and MA→B are realized as in (5)–(6), by starting from the state box
+(|0ih0|E , |1ih1|E ) and applying the common interaction
+channel PAE→B in (9). However, this realization of the
+channels is the least efficient from the perspective of the
+resource theory of asymmetric distinguishability, because
+a state box consisting of a pair of orthogonal states is
+equivalent to an infinite number of bits of asymmetric
+distinguishability [WW19]. (See [WW19] for the notion
+of bits of asymmetric distinguishability, and Section V
+for this notion in the channel resource theory.) In this
+sense, the realization of an arbitrary channel box in the
+above way is trivial because it requires an infinite number
+of bits of asymmetric distinguishability in order to do so.
+The concept of environment-parametrized channel boxes
+
+(10)
+(11)
+
+(12)
+
+with the direction ← of the equivalence following from
+(8) and the other direction → following from the seizable property. Thus, environment-seizable channel boxes
+represent a broader generalization of state boxes than
+do channel boxes consisting of replacer channels. Furthermore, environment-seizable channel boxes are fully
+identified with the background environment states ρE
+and σE in the above sense. As we show later, and as
+observed in earlier work [TW16, BHKW18], the equivalence in (12) simplifies the resource theory of asymmetric
+distinguishability significantly for environment-seizable
+channel boxes. Finally, several examples of environmentseizable channel boxes were presented in [BHKW18],
+and the notion of environment-seizable channel boxes
+is related to the notion of resource-seizable channels
+from [Wil18].
+
+B.
+
+Superchannels as transformations of channel
+boxes
+
+The most general physical transformation allowed on
+a channel box is a superchannel Θ, which is a quantum physical transformation of channels [CDP08b]. That
+is, a superchannel is a linear map that preserves the
+set of quantum channels, even when the quantum channel is an arbitrary bipartite channel with external input and output systems that are arbitrarily large. In
+this sense, superchannels are completely CPTP preserving. Note that the terminology “superchannel” was introduced in [Gou19].
+To see this, a superchannel Θ(A→B)→(C→D) takes as
+input a quantum channel NA→B and outputs a quantum
+channel KC→D , which we denote by
+Θ(A→B)→(C→D) (NA→B ) = KC→D .
+
+(13)
+
+5
+
+A
+C
+
+E
+
+N
+
+M
+
+B
+
+D
+
+D
+
+FIG. 1. The figure depicts the transformation of a channel
+NA→B by a superchannel Θ(A→B)→(C→D) , the latter of which
+consists of the pre-processing channel EC→AM and the postprocessing channel DBM →D .
+
+The superchannel Θ(A→B)→(C→D) is completely CPTP
+preserving in the sense that the following output channel
+
+(14)
+id(R)→(R) ⊗Θ(A→B)→(C→D) (MRA→RB ),
+is a CPTP map for all input quantum channels
+MRA→RB , where id(R)→(R) denotes the identity superchannel [CDP08b].
+One of the fundamental theorems of superchannels is
+that each superchannel Θ(A→B)→(C→D) has a physical
+realization as a pre- and post-processing of the channel
+NA→B along with a quantum memory system:
+Θ(A→B)→(C→D) (NA→B )
+= DBM →D ◦ NA→B ◦ EC→AM , (15)
+where EC→AM and DBM →D are pre- and post-processing
+quantum channels, respectively [CDP08b]. This transformation is depicted in Figure 1.
+
+ε((N , M) → (K, L)) :=
+inf {ε ∈ [0, 1] : Θ(N ) ≈ε K, Θ(M) = L} , (19)
+Θ∈SC
+
+where SC denotes the set of superchannels and the shorthand N 1 ≈ε N 2 for channels N 1 and N 2 is defined as
+follows:
+N 1 ≈ε N 2
+
+1
+N 1 − N 2  ≤ ε.
+2
+
+⇐⇒
+
+(20)
+
+In the above, kPA→B k denotes the diamond norm
+[Kit97] of a Hermiticity-preserving map PA→B , defined
+as
+kPA→B k := sup kPA→B (ρRA )k1 ,
+
+IV. GENERAL CHANNEL BOX
+TRANSFORMATION PROBLEM
+
+(21)
+
+ρRA
+
+We can now state one main problem for the resource theory of asymmetric distinguishability for quantum channels, which we call the channel box transformation problem. The goal of this problem is to determine,
+for an input channel box (NA→B , MA→B ) and an output channel box (KC→D , LC→D ), whether there exists
+a superchannel Θ(A→B)→(C→D) such that the following
+transformation is possible:
+(NA→B , MA→B ) →
+Θ (KC→D , LC→D ),
+−
+
+This problem was introduced and solved in [Gou19], in
+the sense that the answer to this question can be determined by means of a semi-definite program or by employing the extended conditional min-entropy and a quantum dynamic generalization of majorization. The problem there was called “comparison of quantum channels.”
+Note that the simpler problem regarding transformation
+of state boxes via a common quantum channel has a
+long history, having been considered extensively both in
+classical and quantum information theory [Bla53, AU80,
+CJW04, MOA11, Bus12, HJRW12, BDS14, BaHN+ 15,
+Ren16, BD16, Bus16, GJB+ 18, Bus17, BG17].
+In many cases of interest, the transformation in (16)
+is simply not possible. Thus, it is sensible to modify
+the problem to allow for approximation, and the way
+that we do so is consistent with how we did so for the
+related problem in the resource theory of asymmetric
+distinguishability for states [WW19]. Namely, we allow
+for an approximation error in the transformation of the
+first channel in the box, but we demand that the second channel be simulated exactly (hence the descriptor
+“asymmetric” in “resource theory of asymmetric distinguishability”). Mathematically, this corresponds to the
+following optimization problem:
+
+(16)
+
+where the notation means that the following equations
+should be satisfied
+Θ(A→B)→(C→D) (NA→B ) = KC→D ,
+
+(17)
+
+Θ(A→B)→(C→D) (MA→B ) = LC→D .
+
+(18)
+
+where the optimization is with respect to quantum states
+ρRA and the reference system R can be arbitrarily large.
+However, note that the following significant simplification
+holds
+kPA→B k := sup kPA→B (ψRA )k1 ,
+
+(22)
+
+ψRA
+
+where the optimization is with respect to pure-state inputs ψRA with the reference system R isomorphic to the
+input system A.
+Why do we adopt the diamond norm to measure
+the distance between two quantum channels NA→B and
+MA→B ? Related, how should we assess the performance
+of a quantum information processing protocol in which
+the ideal channel to be simulated is NA→B but the channel realized in practice is MA→B ? Suppose that a third
+party is trying to assess how distinguishable the actual
+
+6
+channel MA→B is from the ideal channel NA→B . Such an
+individual has access to both the input and output ports
+of the channel, and so the most general strategy for the
+distinguisher to employ is to prepare a state ρRA of a reference system R and the channel input system A. The
+distinguisher transmits the A system of ρRA into the unknown channel. After that, the distinguisher receives the
+channel output system B and then performs a measurement described by the POVM {ΛxRB }x on the reference
+system R and the channel output system B. The probability of obtaining a particular outcome ΛxRB is given
+by the Born rule. In the case that the unknown channel is NA→B , this probability is Tr[ΛxRB NA→B (ρRA )],
+and in the case that the unknown channel is MA→B ,
+this probability is Tr[ΛxRB MA→B (ρRA )]. What we demand is that the deviation between the two probabilities Tr[ΛxRB NA→B (ρRA )] and Tr[ΛxRB MA→B (ρRA )] is no
+larger than some tolerance ε. Since this should be the
+case for all possible input states and measurement outcomes, what we demand mathematically is that
+
+sible with small error), then it is sensible to consider the
+relaxation presented in (19). Furthermore, generalizations of the approximate box transformation problem will
+have applications in other resource theories of channels,
+such as entanglement, thermodynamics, purity, magic,
+etc., and therein can also be interpreted as second laws
+or approximate second laws.
+In Appendix B, we show that the optimization in (19)
+for the approximate channel box transformation problem can be calculated by a semi-definite program, and
+thus can be efficiently solved, where the complexity of
+the problem is polynomial in the dimension of the inputs and outputs of the channels (NA→B , MA→B ) and
+(KC→D , LC→D ). This result generalizes the recent finding in [Gou19] mentioned after (16) above.
+
+sup | Tr[ΛRB NA→B (ρRA )] − Tr[ΛRB MA→B (ρRA )]| ≤ ε,
+
+Another way of addressing the general approximate
+channel box transformation problem, which is helpful
+for considering asymptotic versions of the problem, is
+to break it into two steps, as was done in [WW19] for
+the case of states. Namely, one can first distill a standard channel box from the original one, and then dilute
+this standard channel box to the final target one. In
+this work, we take the standard channel box to be the
+following one:
+
+ρRA ,
+ΛRB
+
+(23)
+where ρRA ≥ 0, Tr[ρRA ] = 1, and 0 ≤ ΛRB ≤ IRB . As
+a consequence of a well known characterization of trace
+distance from [Hel69, Hel76], we have that
+sup
+
+| Tr[ΛRB (NA→B − MA→B )(ρRA )]|
+
+ρRA ,ΛRB
+
+1
+kNA→B (ρRA ) − MA→B (ρRA )k1
+ρRA 2
+1
+= kN − Mk ,
+2
+= sup
+
+V.
+
+ONE-SHOT DISTILLATION AND DILUTION
+OF QUANTUM CHANNEL BOXES
+
+(24)
+
+(R|0ih0| , RπM ),
+
+(25)
+
+where Rσ denotes a replacer channel, which has the following action on an arbitrary input ρ:
+
+where 21 kN − Mk is the normalized diamond distance
+between N and M. This indicates that if 12 kN − Mk ≤
+ε, then the deviation between probabilities for any possible input state and measurement operator never exceeds
+ε, so that the approximation between quantum channels
+NA→B and MA→B is naturally quantified by the normalized diamond distance 12 kN − Mk . We note that
+related interpretations of the diamond distance of channels have been given in [KW04, RW05, GLN05].
+As we indicated above, the approximate channel box
+transformation problem is fundamental to the resource
+theory of asymmetric distinguishability, indicating exactly how well one can convert channel boxes. It captures distinguishability in a fundamental way: as pointed
+out in [Gou19], a necessary condition for a transformation to be possible exactly is if the two channels in one
+channel box are more distinguishable than the two channels in the target channel box, as quantified by a channel divergence [LKDW18]. Thinking along the lines of
+[BaHN+ 15], these kinds of limitations from channel divergences can be interpreted as “second laws” for distinguishability that draw the line between the possible and
+impossible. As these lines might be too sharp for practical purposes (i.e., if the transformation were to be pos-
+
+Rσ (ρ) = Tr[ρ]σ,
+
+(26)
+
+(27)
+
+which is simply to discard the input ρ and replace it with
+a state σ. Also, the state πM is defined as
+
+
+1
+1
+|0ih0| + 1 −
+|1ih1|,
+(28)
+πM :=
+M
+M
+for M ≥ 1. Our interpretation of the channel box in
+(26) is that it contains log2 M bits of asymmetric distinguishability. Since the replacer channel box in (26)
+is equivalent to the state channel box (|0ih0|, πM ), this
+interpretation is consistent with the interpretation given
+in [WW19].
+
+A.
+
+Exact one-shot distillation and dilution of
+quantum channel boxes
+
+A primary goal in this setting is the task of exact distillation of as many bits of asymmetric distinguishability
+as possible, which is similar to the task for states considered in [WW19], but instead we allow for the most
+
+7
+general processing of the channel box according to a superchannel. Mathematically, we can phrase this problem
+as the following optimization:
+Dd0 (N , M) :=
+log2 sup {M : Θ(N ) = R|0ih0| , Θ(M) = RπM }.
+
+Dd0 (N , M) = Dmin (N kM),
+(29)
+
+Θ∈SC
+
+We also consider exact dilution of the channel box,
+starting from as few bits of asymmetric distinguishability as possible. The requirement here is to convert bits of
+asymmetric distinguishability by the action of a common
+superchannel to the channel box (N , M) exactly, in such
+a way that the number of bits log2 M of asymmetric distinguishability is as small as possible. Mathematically,
+this corresponds to the following optimization problem:
+Dc0 (N , M) :=
+log2 inf {M : Θ(R|0ih0| ) = N , Θ(RπM ) = M}.
+Θ∈SC
+
+(30)
+
+Let Dmin (N kM) denote the channel min-relative entropy, defined as
+Dmin (N kM) := sup Dmin (NA→B (ψRA )kMA→B (ψRA )),
+ψRA
+
+(31)
+with the min-relative entropy of states ρ and σ defined
+as [Dat09]
+Dmin (ρkσ) := − log2 Tr[Πρ σ],
+
+(32)
+
+(34)
+
+(35)
+
+and the max-relative entropy of states ρ and σ defined as
+[Dat09]
+
+Dmax (ρkσ) := inf λ : ρ ≤ 2λ σ .
+
+Dc0 (N , M) = Dmax (N kM).
+
+(38)
+
+The equality in (37) is proved in Appendix C 1, and
+the equality in (38) is proved in Appendix C 2.
+We remark that it is appealing that the exact one-shot
+distinguishability cost of a channel box has a simple characterization in terms of the Choi states of the channels
+N and M, as indicated by the equality in (34).
+
+B.
+
+Approximate one-shot distillation and dilution
+of quantum channel boxes
+
+We also consider approximate versions of these tasks.
+The goal of approximate distillation is to transform the
+channel box (N , M) into as many ε-approximate bits of
+asymmetric distinguishability as possible. Mathematically, this corresponds to the following optimization:
+Ddε (N , M) :=
+log2 sup {M : Θ(N ) ≈ε R|0ih0| , Θ(M) = RπM }. (39)
+The goal of approximate dilution is to transform as
+few bits of asymmetric distinguishability into a channel
+e , M), such that N
+e ≈ε N . Mathematically, this
+box (N
+corresponds to the following optimization:
+Dcε (N , M) :=
+log2 inf {M : Θ(R|0ih0| ) ≈ε N , Θ(RπM ) = M}. (40)
+Θ∈SC
+
+with the maximally entangled state ΦRA of Schmidt rank
+d defined as
+1X
+|iihj|R ⊗ |iihj|A ,
+ΦRA :=
+d i,j
+
+and the exact one-shot distinguishability cost is equal to
+the channel max-relative entropy:
+
+(33)
+
+ψRA
+
+= Dmax (NA→B (ΦRA )kMA→B (ΦRA )),
+
+(37)
+
+Θ∈SC
+
+and Πρ is the projection onto the support of ρ. Note
+that the min-relative entropy of states is also equal to the
+Petz–Rényi relative entropy of order zero [Pet85, Pet86],
+as observed in [Dat09].
+Let Dmax (N kM) denote the channel max-relative entropy [CMW16, LKDW18, GFW+ 18], defined as
+Dmax (N kM)
+:= sup Dmax (NA→B (ψRA )kMA→B (ψRA ))
+
+Theorem 1 The exact one-shot distillable distinguishability of the channel box (N , M) is equal to the channel
+min-relative entropy:
+
+ε
+Let Dmin
+(N kM) denote the smooth channel minrelative entropy from [CMW16], defined as
+ε
+ε
+Dmin
+(N kM) := sup Dmin
+(NA→B (ψRA )kMA→B (ψRA )),
+ψRA
+
+(41)
+with the optimization being with respect to all pure
+states ψRA with system R isomorphic to the channel input system A. The smooth min-relative entropy of states
+ρ and σ is defined as [BD10, BD11, WR12]
+ε
+Dmin
+(ρkσ) := − log2 inf {Tr[Λσ] : Λ ≤ I, Tr[Λρ] ≥ 1−ε}.
+Λ≥0
+
+(36)
+
+The equality in (34) was proved in [GFW+ 18, BHKW18].
+We then have the following fundamental result for exact distillation and dilution:
+
+(42)
+ε
+The quantity Dmin
+(ρkσ) is also known as the hypothε
+esis testing relative entropy [WR12], and Dmin
+(N kM)
+is also known as the channel hypothesis testing relative
+entropy [CMW16].
+
+8
+ε
+Let Dmax
+(N kM) denote the smooth channel maxrelative entropy [GFW+ 18, Definition 19], defined as
+ε
+e kM),
+Dmax
+(N kM) := inf Dmax (N
+
+(43)
+
+e ≈ε N
+N
+
+with the optimization being with respect to all quantum
+e satisfying N
+e ≈ε N , in the sense of (20). We
+channels N
+note here that the smooth channel max-relative entropy
+has been studied extensively in [LW19], in the context of
+resource erasure.
+In Appendix C 3, we prove that the smooth channel
+min- and max-relative entropies can be calculated by
+semi-definite programs. It follows from these characterizations that the non-smooth quantities can be as well.
+We then have the following result, endowing both the
+smooth channel min- and max-relative entropies with
+fundamental operational meanings in the context of the
+resource theory of asymmetric distinguishability:
+Theorem 2 The approximate one-shot distillable distinguishability of the channel box (N , M) is equal to the
+smooth channel min-relative entropy:
+ε
+Ddε (N , M) = Dmin
+(N kM),
+
+(44)
+
+and the approximate one-shot distinguishability cost is
+equal to the smooth channel max-relative entropy:
+ε
+Dcε (N , M) = Dmax
+(N kM).
+
+(45)
+
+The equality in (44) is proved in Appendix C 4, and
+the equality in (45) is proved in Appendix C 5.
+As a consequence of Theorems 1 and 2, and the facts
+that
+lim Ddε (N , M) = Dd0 (N , M),
+
+(46)
+
+lim Dcε (N , M) = Dc0 (N , M),
+
+(47)
+
+ε→0
+
+ε→0
+
+we conclude the following limits:
+ε
+lim Dmin
+(N kM) = Dmin (N kM),
+
+(48)
+
+ε
+lim Dmax
+(N kM) = Dmax (N kM).
+
+(49)
+
+ε→0
+ε→0
+
+We give alternative proofs of these limits in Appendix C 6.
+As an application of the operational approach taken
+ε1
+here, we arrive at the following bound relating Dmin
+ε2
+and Dmax
+:
+
+
+1
+ε1
+ε2
+,
+Dmin
+(N kM) ≤ Dmax
+(N kM) + log2
+1 − ε1 − ε2
+(50)
+where ε1 , ε2 ≥ 0 and ε1 + ε2 < 1. This bound represents
+a generalization of a related bound for quantum states
+in [WW19], and it in fact reduces to it when the channel
+box (N , M) is environment seizable.
+The main idea for arriving at the bound in (50) can be
+understood as a channel generalization of the operational
+
+argument from [WW19]. As shown in [WW19], any approximate distillation protocol performed on the state
+box (|0ih0|, πM ) that leads to the state box (e
+0ε , πK ), for
+ε ∈ [0, 1) and e
+0ε a state such that e
+0ε ≈ε |0ih0|, is required
+to obey the bound
+log2 K ≤ log2 M + log2 (1/ [1 − ε]).
+
+(51)
+
+One way to realize the full transformation
+(|0ih0|, πM ) → (e
+0ε , πK )
+
+(52)
+
+is to proceed in two steps: use the equivalence
+|0ih0|
+M
+(|0ih0|, πM ) ↔ (RC→D , RπC→D
+), first perform an op|0ih0|
+M
+e , M),
+timal dilution protocol (RC→D , RπC→D
+) → (N
+e
+e
+where N is a channel satisfying N ≈ε2 N such that
+ε2
+log2 M = Dmax
+(N kM) and then perform an optimal dise |0ih0| , RπK ) such that
+tillation protocol (N , M) → (R
+C→D
+C→D
+ε1
+log2 K = Dmin (N kM). Finally, we realize the transfore |0ih0| , RπK ) → (e
+0ε1 , πK ) by inputting any
+mation (R
+C→D
+C→D
+state to the final channel box. By employing the triangle inequality for the diamond distance, the error of the
+overall transformation is no larger than ε1 + ε2 . Since
+the fundamental limitation in (51) applies to any protocol, the bound in (50) follows.
+
+VI. PARALLEL n-SHOT DISTILLATION AND
+DILUTION OF QUANTUM CHANNEL BOXES
+
+An important case to consider in the resource theory
+of asymmetric distinguishability for channels is the case
+of parallel tasks. In particular, we are interested in nshot parallel distillation and dilution of channel boxes,
+which essentially amounts to the replacement (N , M) →
+(N ⊗n , M⊗n ) in our previous one-shot results from Section V. However, here we are interested in optimal rates
+at which one can distill or dilute bits of asymmetric distinguishability from or to a channel box, respectively,
+both in the exact and approximate cases.
+
+A.
+
+Exact case: distillable distinguishability
+
+We define the n-shot, parallel, exact distillable distinguishability of a channel box (N , M) as follows:
+1 0 ⊗n
+1
+D (N , M⊗n ) = Dmin (N ⊗n kM⊗n ),
+n d
+n
+
+(53)
+
+noting that it is equal to the optimal rate at which one
+can distill exact bits of asymmetric distinguishability for
+fixed n ≥ 1. The equality above is a direct consequence
+of (37).
+The asymptotic parallel exact distillable distinguishability is then defined as
+1 0 ⊗n
+Dd (N , M⊗n )
+n→∞ n
+
+Dd0,p (N , M) := lim
+
+(54)
+
+9
+= lim
+
+1
+
+n→∞ n
+
+Dmin (N ⊗n kM⊗n ),
+
+(55)
+
+where the equality is again a direct consequence of (37).
+We note that the regularization in (55) seems to be
+necessary in general, due to the fact that Dmin for channels can be non-additive. As an example, suppose that
+N is the identity channel and M is a unitary channel
+characterized by a unitary operator U . Then it follows
+that
+2
+
+Dmin (N kM) = − log2 inf |hψ|RA (IR ⊗ UA ) |ψiRA |
+|ψiRA
+
+:= − log2 F (I, U ).
+
+(56)
+
+It is known from [Aci01] that there are unitaries for which
+F (I, U ) ∈ (0, 1) but F (I ⊗n , U ⊗n ) = 0 for some finite n.
+Turning this around, we conclude that there are channels
+for which
+Dmin (N kM) < ∞,
+
+(57)
+
+but
+Dmin (N ⊗n kM⊗n ) = ∞,
+
+(58)
+
+for some finite n, indicating that the channel min-relative
+entropy exhibits an extreme form of non-additivity.
+A special case for which the exact distillable distinguishability simplifies is for environment-seizable channels. As a consequence of the observation in (12), an
+immediate conclusion is the following equality:
+1 0 ⊗n
+1
+⊗n
+Dd (N , M⊗n ) = Dmin (ρ⊗n
+E kσE )
+n
+n
+= Dmin (ρE kσE ),
+
+(59)
+(60)
+
+which holds for any channel box (N , M) that is environment seizable in the sense of (12). The first equality
+follows from (12), and the second follows from the additivity of the min-relative entropy for states. We thus
+conclude that the asymptotic exact parallel distillable
+distinguishability has the following single-letter formula
+for the case of environment-seizable channel boxes:
+Dd0,p (N , M) = Dmin (ρE kσE ).
+
+(61)
+
+The asymptotic exact distinguishability cost is then
+defined as
+n→∞ n
+
+Dc0 (N ⊗n , M⊗n )
+
+= Dmax (N kM),
+
+(63)
+(64)
+
+where the equality is again a direct consequence of (38).
+Thus, exact distinguishability dilution in the parallel
+case is rather different from exact distinguishability distillation, given that we have a simple single-letter formula
+characterizing all channel boxes for the former case but
+not for the latter.
+C.
+
+Approximate case: distillable distinguishability
+
+We define the n-shot, parallel, ε-approximate distillable distinguishability as follows:
+1 ε ⊗n
+D (N , M⊗n ),
+n d
+
+(65)
+
+noting that it is equal to the optimal rate at which one
+can distill approximate bits of asymmetric distinguishability for fixed n ≥ 1 and ε ∈ (0, 1). The asymptotic
+parallel distillable distinguishability of the channel box
+(N , M) is then defined as the following limit of the above
+formula:
+Ddp (N , M) := lim lim
+
+1
+
+Ddε (N ⊗n , M⊗n )
+
+(66)
+
+ε
+Dmin
+(N ⊗n kM⊗n ),
+
+(67)
+
+ε→0 n→∞ n
+
+= lim lim
+
+1
+
+ε→0 n→∞ n
+
+where the latter equality follows from (44).
+Note that the quantity in (66) is equal to the optimal exponent in Stein’s lemma for the case of parallel
+quantum channel discrimination [CMW16]. The following theorem gives a formal expression for this quantity
+in terms of the regularized channel relative entropy.
+Theorem 3 The parallel distillable distinguishability of
+the channel box (N , M) is equal to the regularized channel relative entropy:
+Ddp (N , M) = lim
+
+B.
+
+1
+
+Dc0,p (N , M) := lim
+
+1
+
+m→∞ m
+
+Exact case: distinguishability cost
+
+D(N ⊗m kM⊗m ),
+
+(68)
+
+and it is finite if and only if Dmax (N kM) < ∞.
+We define the n-shot, parallel, exact distinguishability
+cost of a channel box (N , M) as follows:
+1 0 ⊗n
+D (N , M⊗n ) = Dmax (N kM),
+n c
+
+(62)
+
+noting that it is equal to the optimal rate at which one
+can dilute exact bits of asymmetric distinguishability to
+the channel box (N ⊗n , M⊗n ) for fixed n ≥ 1. The equality above is a direct consequence of (38) and the additivity of the max-relative entropy of channels, due to the
+fact that (34) holds.
+
+Proof. By exploiting the following bound for states ρ
+and σ [WR12, MW14, KW17],
+ε
+Dmin
+(ρkσ) ≤
+
+1
+[D(ρkσ) + h2 (ε)] ,
+1−ε
+
+(69)
+
+where h2 (ε) := −ε log2 ε−(1 − ε) log2 (1−ε) is the binary
+entropy, we conclude the following bound for channels
+after an optimization:
+ε
+Dmin
+(N kM) ≤
+
+1
+[D(N kM) + h2 (ε)] .
+1−ε
+
+(70)
+
+10
+By making the substitution (N , M) → (N ⊗m , M⊗m ),
+dividing by m, and taking the limit m → ∞ followed by
+ε → 0, we conclude that
+Ddp (N , M) ≤ lim
+
+1
+
+m→∞ m
+
+D(N ⊗m kM⊗m ).
+
+(71)
+
+Also, note that the following lower bound holds as a
+consequence of the lower bound from [Li14, TH13]:
+ε
+Dmin
+(N ⊗n kM⊗n ) ≥ nD(N kM)
+p
++ nVε (N kM)Φ−1 (ε) + O(log n),
+
+(72)
+
+Vε (N kM) :=
+inf ψRA ∈Π V (NA→B (ψRA )kMA→B (ψRA )) if ε < 1/2
+,
+supψRA ∈Π V (NA→B (ψRA )kMA→B (ψRA ))
+else
+(73)
+
+with Π the set of all bipartite pure states achieving the
+optimal value of D(N kM) and the relative entropy variance V (ρkσ) of states ρ and σ defined as
+2
+
+V (ρkσ) := Tr[ρ (log2 ρ − log2 σ − D(ρkσ)) ].
+
+lim lim
+
+1
+
+ε
+Dmin
+(N ⊗n kM⊗n ) ≥ D(N kM).
+
+1
+D(N ⊗m kM⊗m ),
+m
+
+(76)
+
+MX→B (ωX ) :=
+
+x
+hx|X ωX |xiX σB
+,
+
+(83)
+
+x
+
+(84)
+
+x
+
+Eq. (84) indicates that the asymptotic parallel distillable
+distinguishability of a classical-quantum channel box depends only on the maximum quantum relative entropy
+that can be realized by the input of a single classical
+state to the channels.
+
+D.
+
+Approximate case: distinguishability cost
+
+(77)
+
+(78)
+
+As observed in [BHKW18, Remark 19], the regularized
+channel relative entropy on the right-hand side is finite
+if and only if Dmax (N kM) < ∞.
+An important case in which the situation simplifies
+considerably is for environment-seizable channel boxes,
+as identified in [BHKW18]. As a consequence of the observation in (12), an immediate conclusion is the following equality
+1 ε
+1 ε ⊗n
+⊗n
+Dd (N , M⊗n ) = Dmin
+(ρ⊗n
+E kσE ),
+n
+n
+
+x
+
+X
+
+x
+Ddp (NX→B , MX→B ) = sup D(ρxB kσB
+).
+
+for all m ≥ 1. Since this bound holds for all m, we
+can take the limit, and when combining with (71), we
+conclude that
+1
+Ddp (N , M) = lim
+D(N ⊗m kM⊗m ).
+m→∞ m
+
+for such environment-seizable channel boxes.
+Another important case for which we have a handle
+on the distillable distinguishability is classical–quantum
+channel boxes, defined as
+X
+NX→B (ωX ) :=
+hx|X ωX |xiX ρxB ,
+(82)
+
+(75)
+
+by making the substitution (N , M) → (N ⊗m , M⊗m ) in
+(72), from which we conclude that
+Ddp (N , M) ≥
+
+(81)
+
+(74)
+
+However, we can also conclude the following bound
+ε
+Dmin
+(N ⊗nm kM⊗nm ) ≥ nD(N ⊗m kM⊗m )
+p
++ nVε (N ⊗m kM⊗m )Φ−1 (ε) + O(log n),
+
+Ddp (N , M) = D(ρE kσE )
+
+where ωX is an arbitrary input state, {|xiX }x is an orx
+}x are sets of states.
+thonormal basis, and {ρxB }x and {σB
+An immediate consequence of [BHKW18, Corollary 28]
+is the following equality for classical–quantum channel
+boxes:
+
+Taking the limit as n → ∞ and ε → 0, we find that
+ε→0 n→∞ n
+
+1 ε ⊗n
+D (N , M⊗n ) = D(ρE kσE )
+n d
+r
+1
+V (ρE kσE )Φ−1 (ε) + O(log n), (80)
++
+n
+so that
+
+where Φ−1 is the inverse of the cumulative standard normal distribution function, Vε (N kM) is the channel relative entropy variance, defined as
+
+
+
+for any channel box (N , M) that is environment seizable
+in the sense of (12). For such channels, we can even
+conclude the following expansion:
+
+(79)
+
+We define the n-shot, parallel, ε-approximate distinguishability cost as follows:
+1 ε ⊗n
+D (N , M⊗n ),
+n c
+
+(85)
+
+noting that it is equal to the optimal rate at which one
+can dilute the channel box (N ⊗m , M⊗m ) approximately
+from bits of asymmetric distinguishability for fixed n ≥ 1
+and ε ∈ (0, 1). The asymptotic parallel distinguishability
+cost of the channel box (N , M) is then defined as the
+following limit of the above formula:
+Dcp (N , M) := lim lim
+
+1
+
+Dcε (N ⊗n , M⊗n )
+
+(86)
+
+ε
+Dmax
+(N ⊗n kM⊗n ),
+
+(87)
+
+ε→0 n→∞ n
+
+= lim lim
+
+1
+
+ε→0 n→∞ n
+
+where the latter equality follows from (45).
+
+11
+As a direct consequence of the inequality in (50) and
+Theorem 3, we find that
+1
+D(N ⊗m kM⊗m ).
+m→∞ m
+
+Dcp (N , M) ≥ lim
+
+(88)
+
+We note that an inequality similar to the above one,
+which does not include regularization, has been reported
+as [LW19, Theorem 11]. Whether the lower bound in (88)
+is also an upper bound remains an open question. However, the following upper bound holds as a consequence
+of definitions and the fact that the channel max-relative
+entropy is single-letter:
+Dcp (N , M) ≤ Dmax (N kM).
+
+(89)
+
+Furthermore, from this upper bound and [BHKW18, Remark 19], we conclude that the asymptotic parallel distinguishability cost is finite if and only if Dmax (N kM)
+is.
+Although we have not been able to solve the asymptotic parallel distinguishability cost in general, we can
+do so for some interesting special cases. First, for any
+channel box (N , M) that is environment seizable, in the
+sense of (12), an immediate conclusion is the following
+equality:
+
+is a direct consequence of (88) and (93).
+To establish the upper bound, we make use of Proposition 4 from Appendix D, which states that the following
+inequality holds for all α > 1 and ε ∈ (0, 1):
+ε
+e α (NX→B kMX→B )
+Dmax
+(NX→B kMX→B ) ≤ D
+
+
+ 
+1
+1
+1
++
+. (95)
+log2 2 + log2
+α−1
+ε
+1 − ε2
+
+As such, we apply this inequality to the channel box
+⊗n
+(NX→B
+, M⊗n
+X→B ), as well as [BHKW18, Lemma 25], to
+find that the following inequality holds for all α > 1 and
+ε ∈ (0, 1):
+1 ε
+e
+D
+(N ⊗n kM⊗n
+X→B ) ≤ Dα (NX→B kMX→B )
+n max X→B
+
+ 
+
+1
+1
+1
+1
+. (96)
+log2 2 + log2
++
+n (α − 1)
+ε
+n
+1 − ε2
+Taking the limit as n → ∞, we find that the following
+inequality holds for all α > 1:
+lim sup
+n→∞
+
+1 ε ⊗n
+1 ε
+⊗n
+D (N , M⊗n ) = Dmax
+(ρ⊗n
+E kσE ).
+n c
+n
+
+(90)
+
+Then as a consequence of the asymptotic equipartition
+property for states [TCR09], by taking the limit n → ∞
+of (90), it follows that
+Dcp (N , M) = D(ρE kσE ),
+
+(91)
+
+thus demonstrating a complete understanding of the
+asymptotic cost for these channel boxes. As in [WW19],
+one can make refined statements (for second-order expansions) of n1 Dcε (N ⊗n , M⊗n ) for such channels.
+Another important case for which we have a handle on
+the distinguishability cost are classical–quantum channel
+boxes (NX→B , MX→B ), with a common classical input
+alphabet and output Hilbert space, defined as in (82)–
+(83):
+Proposition 1 Let (NX→B , MX→B ) be a classical–
+quantum channel box as in (82)–(83). Then the asymptotic parallel distinguishability cost is equal to the channel
+relative entropy:
+x
+Dcp (NX→B , MX→B ) = sup D(ρxB kσB
+).
+
+(92)
+
+x
+
+1 ε
+D
+(NX→B kMX→B )
+n max
+e α (NX→B kMX→B ). (97)
+≤D
+
+Now taking the limit as α → 1, we conclude that
+1 ε
+Dmax (NX→B kMX→B )
+n
+n→∞
+≤ D(NX→B kMX→B )
+x
+= sup D(ρxB kσB
+).
+
+lim sup
+
+(98)
+(99)
+
+x
+
+This concludes the proof.
+Proposition 1 indicates that the asymptotic parallel
+distinguishability cost of a classical-quantum channel box
+depends only on the maximum quantum relative entropy
+that can be realized by the input of a single classical
+state to the channels. As such, when combined with the
+result from (84), we conclude that the resource theory of
+asymmetric distinguishability is reversible in the asymptotic setting of parallel channel box transformations when
+restricted to classical–quantum channel boxes, meaning
+that one can convert between such channel boxes without
+any loss. We provide further related remarks about this
+observation in the next section.
+
+Proof. It is known from [BHKW18] that the following
+identity holds for classical–quantum channel boxes:
+x
+D(NX→B kMX→B ) = sup D(ρxB kσB
+).
+
+(93)
+
+x
+
+Thus, the lower bound
+x
+Dcp (NX→B , MX→B ) ≥ sup D(ρxB kσB
+)
+x
+
+(94)
+
+VII. GENERAL CHANNEL BOX
+TRANSFORMATION: PARALLEL CASE
+
+We can now address the general channel box transformation problem for the parallel case. Before doing so, let
+us formalize the problem. Let n, m ∈ Z+ and ε ∈ [0, 1].
+
+12
+An (n, m, ε) parallel channel box transformation protocol for the channel boxes (N , M) and (K, L) consists of
+a superchannel Θ(n) such that
+Θ(n) (N ⊗n ) ≈ε K⊗m ,
+
+(100)
+
+Θ(n) (M⊗n ) = L⊗m .
+
+(101)
+
+A rate R is achievable if for all ε ∈ (0, 1], δ > 0, and
+sufficiently large n, there exists an (n, n [R − δ] , ε) parallel channel box transformation protocol. The optimal
+parallel channel box transformation rate Rp ((N , M) →
+(K, L)) is equal to the supremum of all achievable rates.
+On the other hand, a rate R is a strong converse rate
+if for all ε ∈ [0, 1), δ > 0, and sufficiently large n, there
+does not exist an (n, n [R + δ] , ε) parallel channel box
+transformation protocol. The strong converse parallel
+ep ((N , M) → (K, L))
+channel box transformation rate R
+is equal to the infimum of all strong converse rates.
+Note that the following inequality is a consequence of
+the definitions:
+ep ((N , M) → (K, L)). (102)
+Rp ((N , M) → (K, L)) ≤ R
+An important result is that if the channel boxes
+(N , M) and (K, L) are either classical–quantum or
+environment-seizable, then the following equality holds
+ep ((N , M) → (K, L)) (103)
+Rp ((N , M) → (K, L)) = R
+D(N kM)
+,
+(104)
+=
+D(KkL)
+indicating that the channel relative entropy plays a central role as the optimal conversion rate between these
+kinds of channel boxes. Appendix E provides detailed
+proofs of converse bounds that justify the claim in (104),
+by starting with converse bounds for generic one-shot
+channel box transformation protocols and then applying them to the parallel case of interest (see also Appendix F for how to translate some of these bounds to
+lower bounds on the smooth channel max-relative entropy). The achievability part follows from combining a
+distillation protocol with a dilution protocol (as was done
+for states in [WW19]) and the fact that these tasks have
+simple characterizations for these channel boxes.
+
+VIII. GENERAL BOX TRANSFORMATION:
+SEQUENTIAL CHANNELS AND QUANTUM
+STRATEGIES
+
+We now move on to consider another variant of the
+general channel box transformation problem corresponding to the sequential case. This case is more involved
+than the parallel case considered above because it cannot be reduced to the one-shot case. That is, it is fundamentally a multi-shot problem, and the theory relies
+upon key developments from [CDP09]. As such, we
+
+develop the theory more generally for quantum strategies [GW07] or quantum combs [CDP09] and then apply it to sequential channel boxes, which are a special case of quantum strategies. A quantum strategy
+consists of a sequence of quantum channels, each of
+which has an accessible input and output, while passing
+along an internal memory system that can vary in size
+[GW07]. We remark here that there are various terms
+to refer to this same physical object, including quantum
+memory channels [KW05, CGLM14], quantum strategies [GW07, Gut09, Gut12, GRS18], and quantum combs
+[CDP09], and there are even earlier works where similar
+notions appear [BGNP01, ESW02]. Here we adopt the
+terminology “quantum strategy” to refer to such an object.
+The main reason for considering the more complicated
+quantum strategies is that doing so leads to a better understanding and simplification of the analysis of sequential channel boxes, while at the same time providing a
+significant generalization of the theory. Indeed, regarding this latter point, one might think of generalizing the
+theory even further by considering physical transformations of quantum strategies and even an infinite hierarchy
+of this sort, just as we generalized the resource theory of
+states to channels by considering physical transformations of channels in the form of superchannels. However,
+a key insight of [CDP09] is that quantum strategies are
+the end of the line: physical transformations of quantum
+strategies are simply quantum strategies, so that the hierarchy ends with quantum strategies. Thus, the theory
+developed here in this sense is a rather general resource
+theory of asymmetric distinguishability.
+
+A.
+
+Quantum strategies and sequential channel
+boxes
+
+The basic object to manipulate in this setting is
+a quantum strategy box or a sequential channel box
+(N (n) , M(n) ). A sequential channel box is a special case
+of a quantum strategy box, and since it is simpler, we
+discuss it briefly first. For a sequential channel box, the
+notation N (n) indicates n sequential uses of the channel
+NA→B and M(n) indicates n sequential uses of the channel MA→B . Sequential channel boxes have been considered implicitly in previous work on sequential quantum channel discrimination [CDP08a, CDP09, DFY09,
+HHLW10, CMW16, BHKW18].
+More generally, a quantum strategy N (n) consists of
+2
+a sequence of channels NA1 1 →M1 B1 , NM
+,
+1 A2 →M2 B2
+n−1
+n
+...,
+NMn−2 An−1 →Mn−1 Bn−1 ,
+and NMn−1 An →Bn ,
+and the quantum strategy M(n) consists of a sequence of channels M1A1 →M1 B1 , M2M1 A2 →M2 B2 ,
+. . . , Mn−1
+and MnMn−1 An →Bn .
+Mn−2 An−1 →Mn−1 Bn−1 ,
+As indicated above, quantum strategies are in
+one-to-one correspondence with quantum combs
+[GW07, CDP08a, CDP09]. In order to have a uniform
+
+13
+M1
+A1
+
+M2
+
+N1 B1
+
+A2
+
+A1
+
+R1
+
+N2 B2
+
+R2
+
+A3
+
+A2
+
+N3 B
+
+3
+
+R3
+
+FIG. 2. A depiction of the state ρRn Bn in (107) with n = 3,
+which results from the interaction of a three-round quantum
+strategy N (3) with a co-strategy.
+
+where the generalized divergence D for states is defined
+by (A1), the states ρRn Bn and σRn Bn are defined in
+(107) and (108), respectively, and the optimization is
+with respect to all quantum co-strategies or testers that
+could be used to distinguish the quantum strategies N (n)
+and M(n) .
+Note that this quantity generalizes the quantum strategy distance and quantum strategy fidelity of [CDP08a,
+CDP09, Gut12, GRS18], as well as the strategy maxrelative entropy of [CE16], to arbitrary divergences.
+Those quantities employ trace distance, fidelity, and
+max-relative entropy as the underlying divergences, respectively, but in what follows, we make extensive use of
+the generality afforded by Definition 1.
+
+notation, we sometimes write
+i
+N (n) = (NM
+)n ,
+i−1 Ai →Mi Bi i=1
+(n)
+
+M
+
+= (MiMi−1 Ai →Mi Bi )ni=1 ,
+
+(105)
+(106)
+
+where M0 and Mn are trivial registers.
+It is straightforward to see that a quantum strategy box generalizes a sequential channel box discussed
+above, with each element of a sequential channel box being a sequence of the same channel without any memory. That is, the sequential channel box is a special case
+i
+of (105) and (106) with NM
+= NAi →Bi and
+i−1 Ai →Mi Bi
+i
+MMi−1 Ai →Mi Bi = MAi →Bi for all i ∈ {1, . . . , n}.
+A quantum co-strategy [GW07] (or tester [CDP08a,
+CDP09]) for distinguishing two quantum strategies consists of an input state ρR1 A1 and a set of testing channels {AiRi Bi →Ri+1 Ai+1 }n−1
+i=1 , such that the final state when
+processing the first quantum strategy N (n) is given by
+n
+ρRn Bn := NM
+◦
+n−1 An →Bn
+
+(
+
+n−1 i
+i
+i=1 ARi Bi →Ri+1 Ai+1 ◦ NMi−1 Ai →Mi Bi )(ρR1 A1 )
+
+(107)
+
+and the final state when processing the second quantum
+strategy M(n) is given by
+σRn Bn := MnMn−1 An →Bn ◦
+(
+
+B.
+
+n−1 i
+i
+i=1 ARi Bi →Ri+1 Ai+1 ◦ MMi−1 Ai →Mi Bi )(ρR1 A1 ).
+
+Just as quantum channels model physical transformations of quantum states and superchannels model physical transformations of quantum channels, we can also
+consider physical transformations of quantum strategies.
+Given a quantum strategy N (n) , we consider a general
+linear and completely positive transformation Θ(n→m) of
+it, which takes as input an n-round quantum strategy
+and outputs an m-round quantum strategy. A fundamental result of [CDP09] is that such a physical transformation Θ(n→m) of a quantum strategy N (n) is in turn
+described by an (n + m)-round quantum strategy that
+interconnects with N (n) to generate an output, m-round
+quantum strategy.
+Due to various choices of time ordering involved, there
+is not a unique way to describe this physical transformation [CDP09], but here we adopt the choice that the
+physical transformation Θ(n→m) first processes all channels involved in the quantum strategy N (n) , and then it
+generates the output m-round strategy Θ(n→m) (N (n) ).
+As such, the physical transformation Θ(n→m) consists of
+n + m channels F i for i ∈ {1, . . . , n + m}, and the output
+quantum strategy K(m) = Θ(n→m) (N (n) ) then consists
+of the following m channels:
+1
+KC
+:=
+0
+1 →M1 D1
+
+(108)
+Figure 2 depicts the state ρRn Bn in (107) when n = 3.
+For our developments in this and the next section, it
+is helpful to define a generalized quantum strategy divergence as an abstract measure of how distinguishable two
+quantum strategies are.
+Definition 1 (Generalized q. strategy divergence)
+The generalized quantum strategy divergence of a quantum strategy box (N (n) , M(n) ) is defined as
+D(N (n) kM(n) ) :=
+sup
+ρR1 A1 ,{AiR B →R
+i
+
+i
+
+i+1 Ai+1
+
+D(ρRn Bn kσRn Bn ), (109)
+}n−1
+i=1
+
+Physical transformations of quantum strategy
+boxes and data processing
+
+
+
+i+1
+n
+i
+i=1 FRi Bi →Ri+1 Ai+1 ◦ NMi−1 Ai →Mi Bi
+
+
+
+◦FC1 1 →R1 A1 ,
+(110)
+
+j
+KM
+0
+
+0
+j−1 Cj →Mj Dj
+
+n+j
+:= FR
+,
+n+j Cj →Rn+1+j Dj
+
+n+m
+m
+KM
+:= FR
+,
+0
+n+m Cm →Dm
+m−1 Cm →Dm
+
+(111)
+(112)
+
+for j ∈ {2, . . . , m − 1}, where we identify the memory
+systems for the output strategy K(m) as Mk0 ≡ Rn+k
+for k ∈ {1, . . . , m}. Figure 3 depicts the transformation of a three-round quantum strategy N (3) to a threeround quantum strategy K(3) by a physical transformation Θ(3→3) consisting of the channels F 1 , . . . , F 6 , along
+
+14
+with the pairing of the transformed strategy with a quantum co-strategy.
+The following data processing inequality for the generalized strategy divergence is a direct consequence of the
+definition and the fact that the underlying generalized
+divergence D obeys data processing. This key property
+allows for establishing bounds on the general strategy
+box transformation problem. Also, it generalizes the data
+processing inequality for strategy distance and strategy
+fidelity from [GRS18], but we require physical transformations in order to establish it.
+Theorem 4 Let N (n) and M(n) be n-round quantum
+strategies, and let Θ(n→m) be a physical transformation of
+them, of the form discussed above, that leads to m-round
+quantum strategies Θ(n→m) (N (n) ) and Θ(n→m) (M(n) ).
+Then the following data processing inequality holds for
+the generalized quantum strategy divergence:
+D(N
+
+(n)
+
+kM
+
+(n)
+
+(n→m)
+
+) ≥ D(Θ
+
+(N
+
+(n)
+
+(n→m)
+
+)kΘ
+
+(M
+
+n+m
+FR
+◦ Am−1
+R0
+Dm−1 →R0 Cm ◦
+n+m−1 Cm →Dm
+m−1
+
+m
+
+m−2
+n+1+i
+i
+0
+Ci+1 .
+i=1 FRn+i Ci+1 →Rn+1+i Di+1 ◦ ARi0 Di →Ri+1
+
+(118)
+
+We also define the following states for the quantum
+strategy M(n) :
+ξR10 Rn Bn := MnMn−1 An →Bn
+
+
+n−1 i+1
+i
+◦
+F
+◦
+M
+Mi−1 Ai →Mi Bi
+i=1 Ri Bi →Ri+1 Ai+1
+◦ FC1 1 →R1 A1 (ρR10 C1 ), (119)
+n+1
+ξR10 Rn+1 D1 := FR
+(ξR10 Rn Bn ),
+n Bn →Rn+1 D1
+0 D
+0 D (ξR0 R
+ξRm
+:= PR10 L1 D1 →Rm
+).
+m
+m
+1 n+1 D1
+
+(120)
+(121)
+
+Then consider that
+
+(n)
+
+)).
+(113)
+
+D(N (n) kM(n) ) ≥ D(ωR10 Rn Bn kξR10 Rn Bn )
+0 D kξR0 D ).
+≥ D(ωRm
+m
+m m
+
+(122)
+(123)
+
+(n→m)
+
+Proof. The physical transformation Θ
+consists of
+the channels F i for i ∈ {1, . . . , n + m}. Set K(m) =
+Θ(n→m) (N (n) ) and L(m) = Θ(n→m) (M(n) ). Also, let us
+consider a quantum co-strategy for K(m) and L(m) , which
+m−1
+consists of a state ρR10 C1 and a set {AiR0 Di →R0 Ci+1 }i=1
+i
+i+1
+of channels:
+o
+n
+m−1
+}
+.
+(114)
+T := ρR0 C1 , {AiRi0 Di →Ri+1
+0
+Ci+1 i=1
+Suppose first that the physical transformation Θ(n→m)
+acts on the quantum strategy N (n) . In this case, the first
+channel FC1 1 →R1 A1 acts on the state ρR10 C1 and outputs
+systems A1 and R1 . Then the channel NA1 1 →M1 B1 is ap2
+is applied.
+plied, and the second channel FR
+1 B1 →R2 A2
+This repeats n − 1 more times, and the resulting state is
+as follows:
+n
+ωR10 Rn Bn := NM
+n−1 An →Bn
+
+
+n−1 i+1
+i
+◦
+i=1 FRi Bi →Ri+1 Ai+1 ◦ NMi−1 Ai →Mi Bi
+
+The first inequality follows because the state ρR10 C1 and
+the channels F i for i ∈ {1, . . . , n} constitute a particular co-strategy for discriminating N (n) from M(n) . The
+next inequality is a consequence of quantum data processing for the underlying generalized divergence, given
+0 D
+that PR10 L1 D1 →Rm
+is a quantum channel. Since the inm
+equality holds for all possible co-strategies T that could
+be used to distinguish K(m) from L(m) , we conclude
+(113).
+Remark 1 We note that the data processing inequality
+in (113) holds more generally for physical transformations of quantum strategy boxes that do not necessarily
+proceed in the order that we have fixed (i.e., it holds for
+other time orderings of physical transformations of strategy boxes). The main idea for establishing it is to use
+the data processing inequality for the underlying generalized divergence and that a co-strategy for a physically
+transformed strategy is a special kind of co-strategy for
+the original strategy.
+
+◦ FC1 1 →R1 A1 (ρR10 C1 ), (115)
+C.
+n+1
+ωR10 Rn+1 D1 := FR
+(ωR10 Rn Bn ).
+n Bn →Rn+1 D1
+
+At this point, the other elements of the co-strategy
+and the remainder of the transformation Θ(n→m) are
+applied, which consists of the co-strategy channels
+{AiR0 Di →R0 Ci+1 }m−1
+i=1 interleaved by the transformation
+i
+
+i+1
+
+channels F n+2 , . . . , F m . The resulting state is then
+0 D
+ωRm
+:= P
+m
+
+0 D
+R10 L1 D1 →Rm
+m
+
+where
+0 D
+PR10 Rn+1 D1 →Rm
+:=
+m
+
+(ω
+
+R10 Rn+1 D1
+
+),
+
+Quantum strategy box transformation problem
+
+(116)
+The goal of this setting is to convert the quantum strategy box (N (n) , M(n) ) to the strategy box (K(m) , L(m) ) by
+means of common physical transformation Θ(n→m) , subject to the constraint that K(m) is realized approximately
+from N (n) , i.e.,
+Θ(n→m) (N (n) ) ≈ε K(m) ,
+
+(124)
+
+(117)
+while L(m) is realized perfectly from M(n) by the protocol Θ(n→m) , i.e.,
+Θ(n→m) (M(n) ) = L(m) ,
+
+(125)
+
+15
+M1
+A1
+
+F1
+
+R1
+
+M2
+
+N1 B1
+
+A2
+
+F2
+
+R2
+
+N2 B2
+
+A3
+
+F3
+
+N3 B
+
+3
+
+R4
+
+F
+
+R3
+
+R5
+
+4
+
+C1
+
+D1
+
+C2
+
+A1
+
+R’1
+
+M’1
+C1
+
+R’1
+
+K1
+
+F6
+
+F5
+D2
+
+A2
+
+R’2
+
+=
+
+D1
+
+D3
+
+R’3
+
+M’2
+C2
+
+A1
+
+C3
+
+R’2
+
+K2
+
+D2
+
+C3
+
+A2
+
+K3
+
+D3
+
+R’3
+
+FIG. 3. A depiction of the transformation of a three-round quantum strategy N (3) to a three-round quantum strategy K(3) by
+a physical transformation Θ(3→3) consisting of the channels F 1 , . . . , F 6 , along with the pairing of the transformed strategy
+with a quantum co-strategy.
+
+just as is the case with all of the other transformations
+that we have considered in the resource theory of asymmetric distinguishability. The common physical transformation Θ(n→m) that we consider is as we discussed in
+Section VIII B and is depicted in Figures 4 and 5. It consists of a general physical processing of the strategy box
+(N (n) , M(n) ) to convert it approximately to the strategy
+box (K(m) , L(m) ), in the sense given in (124)–(125).
+The notion of approximation that we employ in (124)
+is the normalized strategy distance of [CDP08a, CDP09,
+Gut12], which generalizes the normalized diamond distance to the setting of interest here. This quantity is a
+special case of the generalized strategy divergence from
+Definition 1, with the underlying divergence set to be the
+normalized trace distance 12 k·k1 . The motivation for employing the normalized strategy distance is the same as
+that which we gave for normalized diamond distance: it
+quantifies the worst-case statistical error (absolute deviation) that one could make when trying to distinguish the
+simulation Θ(n→m) (N (n) ) from the ideal output strategy
+K(m) by any quantum-physical experiment.
+We now describe the above in more detail. The general
+physical transformation Θ(n→m) of the first strategy box
+(N (n) , M(n) ) consists of n + m channels, denoted by F i
+for i ∈ {1, . . . , n + m}. To assess the performance of the
+transformation
+(N (n) , M(n) ) → (Θ(n→m) (N (n) ), Θ(n→m) (M(n) ))
+(126)
+
+in simulating the strategy K(m) , the resulting quantum
+strategy Θ(n→m) (N (n) ) is paired up with a quantum costrategy T [GW07] (or tester [CDP08a, CDP09]), which
+m−1
+of
+consists of a state ρR0 C1 , a set {AiR0 Di →R0 Ci+1 }i=1
+i
+i+1
+0 D , IR0 D
+channels, and a final measurement {QRm
+−
+m
+m m
+0 D }:
+QRm
+m
+n
+o
+m−1
+0 D
+T := ρR0 C1 , {AiRi0 Di →Ri+1
+}
+,
+Q
+. (127)
+0
+R
+Ci+1 i=1
+m m
+Suppose first that the transformation Θ(n→m) acts on
+the quantum strategy N (n) . In this case, the first channel
+FC1 1 →R1 A1 acts on the state ρR10 C1 and outputs systems
+A1 and R1 . Then the channel NA1 →B1 is applied, and
+2
+the second channel FR
+is applied. This repeats
+1 B1 →R2 A2
+n − 1 more times, and the resulting state is as follows:
+n+1
+ωR10 Rn+1 D1 := FR
+◦ NMn−1 An →Bn
+n Bn →Rn+1 D1
+
+
+n−1 i+1
+◦
+F
+◦
+N
+M
+A
+→M
+B
+i−1 i
+i i
+i=1 Ri Bi →Ri+1 Ai+1
+
+◦ FC1 1 →R1 A1 (ρR10 C1 ). (128)
+At this point, the other elements of the co-strategy and
+the remainder of the simulation are applied, which conm−1
+sists of the testing channels {AiR0 Di →R0 Ci+1 }i=1
+interi
+
+i+1
+
+leaved by the simulation channels F n+2 , . . . , F m . The
+resulting state is then
+0 D
+0 D (ωR0 R
+ωRm
+:= PR10 L1 D1 →Rm
+),
+m
+m
+1 n+1 D1
+
+(129)
+
+16
+M1
+A1
+
+F1
+
+M2
+
+N1 B1
+
+R1
+
+A2
+
+F2
+
+N2 B2
+
+A3
+
+F3
+
+R2
+
+N3 B
+
+3
+
+R4
+
+F
+
+R3
+
+R5
+
+4
+
+C1
+
+D1
+
+C2
+
+A1
+
+R’1
+
+M’1
+C1
+
+R’1
+
+K1
+
+F6
+
+F5
+D2
+
+A2
+
+R’2
+
+≈
+
+D1
+
+D3
+
+R’3
+
+M’2
+C2
+
+A1
+
+C3
+
+R’2
+
+K2
+
+D2
+
+C3
+
+A2
+
+K3
+
+D3
+
+R’3
+
+FIG. 4. Depiction of the physical transformation Θ(n→m) that converts the three-round strategy N (3) to the three-round
+strategy K(3) . The physical transformation Θ(n→m) consists of the channels F 1 , . . . , F 6 . A discriminator could in principle
+then perform a co-strategy to distinguish the simulation in the top part of the figure from the ideal implementation of the
+strategy K(3) in the bottom part of the figure. We demand that the absolute deviation in probability between any measurement
+outcome in the top part be no larger than ε when compared to the same from the bottom part, i.e., that the normalized strategy
+distance be no larger than ε.
+
+where
+
+in [CDP08a, CDP09, Gut12, GRS18], so that we can
+write (132) equivalently as
+
+0 D
+PR10 Rn+1 D1 →Rm
+:=
+m
+
+1
+Θ(n→m) (N (n) ) − K(m)
+≤ ε.
+2
+m
+
+n+m
+FR
+◦ Am−1
+R0
+Dm−1 →R0 Cm ◦
+n+m−1 Cm →Dm
+m−1
+
+m
+
+m−2
+n+1+i
+i
+0
+Ci+1
+i=1 FRn+i Ci+1 →Rn+1+i Di+1 ◦ ARi0 Di →Ri+1
+
+(130)
+
+The final state above is then compared with the following state, which results from the application of the
+quantum co-strategy T to the ideal strategy K(m) :
+0
+0 D
+τRm
+:= KMm−1
+Cm →Dm ◦
+m
+
+(
+
+m−1 i
+0
+0
+Ci →Mi0 Di )(ρR10 C1 )
+Ci+1 ◦ KMi−1
+i=1 ARi0 Di →Ri+1
+
+(131)
+See Figure 4 for a depiction of these two scenarios.
+The simulation has ε error if the following inequality
+holds
+
+0 D
+0 D
+0 D
+sup
+Tr[QRm
+ωRm
+− τRm
+] ≤ ε,
+m
+m
+m
+ρ,{Ai }m−1
+i=1 ,Q
+
+(132)
+where the optimization is with respect to all quantum
+co-strategies T as defined in (127). The expression
+on the left-hand side above is in fact equal to the mround normalized quantum strategy distance considered
+
+(133)
+
+As a shorthand for the inequality in (133), we employ the
+notation
+Θ(n→m) (N (n) ) ≈ε K(m) .
+
+(134)
+
+It is also demanded that the transformation Θ(n→m)
+be such that Θ(n→m) (M(n) ) = L(m) , which is the same
+[Gut12] as demanding that
+1
+Θ(n→m) (M(n) ) − L(m)
+= 0.
+2
+m
+
+(135)
+
+This is consistent with our prior error criteria in the simpler scenarios for the resource theory of asymmetric distinguishability.
+Thus, the general strategy box transformation problem
+can be phrased as the following optimization problem,
+which is a function of n, m ∈ Z+ and channels N , M, K,
+and L:
+
+
+ε ∈ [0, 1] : Θ(n→m) (N (n) ) ≈ε K(m) ,
+inf
+, (136)
+Θ(n→m) (M(n) ) = L(m)
+Θ(n→m)
+
+17
+M1
+A1
+
+F1
+
+R1
+
+M2
+
+M1 B1
+
+A2
+
+F2
+
+R2
+
+M2 B2
+
+A3
+
+F3
+
+M3 B
+
+3
+
+R4
+
+F
+
+R3
+
+R5
+
+4
+
+C1
+
+D1
+
+C2
+
+A1
+
+R’1
+
+M’1
+C1
+
+R’1
+
+L1
+
+F6
+
+F5
+D2
+
+A2
+
+R’2
+
+=
+
+D1
+
+D3
+
+R’3
+
+M’2
+C2
+
+A1
+
+C3
+
+L2
+
+D2
+
+C3
+
+A2
+
+R’2
+
+L3
+
+D3
+
+R’3
+
+FIG. 5. Depiction of the physical transformation Θ(n→m) that converts the three-round strategy M(3) to the three-round
+strategy L(3) . The physical transformation Θ(n→m) is the same as that given in Figure 4 and consists of the channels F 1 ,
+. . . , F 6 . A discriminator could in principle then perform a strategy to distinguish the simulation in the top part of the figure
+from the ideal implementation of the three-round strategy L(3) in the bottom part of the figure. We demand that the absolute
+deviation in probability between any measurement outcome in the top part be exactly equal to zero when compared to the
+same from the bottom part, i.e., that the normalized strategy distance be equal to zero, so that the simulation is perfect in
+this case.
+
+where the infimum is with respect to physical transformations Θ(n→m) .
+We assert here that the optimization problem in (136)
+can be cast as a semi-definite program, by employing
+the facts that the quantum strategy distance can be calculated by a semi-definite program and one can write
+down Choi operators for Θ(n→m) , N (n) , M(n) , K(m) ,
+and L(m) [CDP08a, CDP09, Gut12] along with various
+non-signaling constraints to denote the time-orderings involved. However, we do not elaborate on the details here.
+In Appendix G, Proposition 14 states converse bounds
+that apply to arbitrary protocols that transform the nround strategy box (N (n) , M(n) ) to the m-round strategy box (K(m) , L(m) ) while satisfying Θ(n→m) (N (n) ) ≈ε
+K(m) and Θ(n→m) (M(n) ) = L(m) . The bounds are expressed in terms of strategy Rényi divergences, which are
+defined as special cases of Definition 1 with the underlying divergence fixed to be the Rényi divergences.
+
+D.
+
+Asymptotic setting for sequential channel box
+transformations
+
+It does not seem sensible to consider an asymptotic
+version of the general strategy box transformation prob-
+
+lem, as in general there is no regular structure associated
+with arbitrary strategy boxes. However, if we impose
+some structure, then it is sensible to do so.
+The simplest structure that we can impose is that each
+strategy box is actually a sequential channel box, involving sequential uses of the same quantum channels. Then
+we can phrase the sequential channel box transformation problem in an asymptotic, Shannon-theoretic way,
+similar to how we did for the parallel channel box transformation problem in Section VII.
+Let n, m ∈ Z+ and ε ∈ [0, 1]. An (n, m, ε) sequential channel box transformation protocol for the channel
+boxes (N , M) and (K, L) consists of a physical transformation Θ(n→m) , as described in Section VIII B, such
+that
+Θ(n→m) (N (n) ) ≈ε K(m) ,
+(n→m)
+
+Θ
+
+(n)
+
+(M
+
+(m)
+
+)=L
+
+,
+
+(137)
+(138)
+
+where N (n) , M(n) , K(m) , and L(m) are the sequential
+channels corresponding to the channels N , M, K, and
+L, respectively. For clarity, Figure 6 depicts an example
+of a sequential channel box transformation protocol.
+A rate R is achievable if for all ε ∈ (0, 1], δ > 0, and sufficiently large n, there exists an (n, n [R − δ] , ε) sequen-
+
+18
+A1
+
+F1
+
+N
+
+B1
+
+A2
+
+F2
+
+R1
+
+N
+
+A3
+
+B2
+
+F3
+
+R2
+
+N
+
+B3
+R4
+
+F
+
+R3
+
+R5
+
+4
+
+C1
+
+C2
+
+A1
+
+R’1
+
+C1
+
+K
+
+D1
+
+F1
+
+R1
+
+M
+
+B1
+
+A2
+
+F2
+
+R2
+
+M
+
+A3
+
+B2
+
+F3
+
+M
+
+≈
+A1
+
+R’1
+A1
+
+F6
+
+F5
+D1
+
+D2
+
+A2
+
+R’2
+
+C2
+
+C3
+
+K
+
+D2
+
+R’3
+
+C3
+
+A2
+
+R’2
+
+D3
+
+K
+
+D3
+
+R’3
+
+B3
+R4
+
+F
+
+R3
+
+C1
+
+R5
+
+4
+
+C2
+
+A1
+
+R’1
+
+C1
+
+R’1
+
+L
+
+F6
+
+F5
+D1
+
+D1
+
+=
+A1
+
+D2
+
+A2
+
+R’2
+
+C2
+
+R’2
+
+C3
+
+L
+
+D2
+
+R’3
+
+C3
+
+A2
+
+D3
+
+L
+
+D3
+
+R’3
+
+FIG. 6. Depiction of a sequential channel box transformation protocol. Three sequential uses of the channel N are converted
+approximately to three sequential uses of the channel K, while three sequential uses of the channel M are converted exactly to
+three sequential uses of the channel L. This is a special case of a strategy box transformation protocol, as depicted in Figures 4
+and 5.
+
+tial channel box transformation protocol. The optimal
+sequential channel box transformation rate R((N , M) →
+(K, L)) is equal to the supremum of all achievable rates.
+On the other hand, a rate R is a strong converse rate
+if for all ε ∈ [0, 1), δ > 0, and sufficiently large n, there
+does not exist an (n, n [R + δ] , ε) sequential channel box
+transformation protocol. The strong converse sequential
+e
+channel box transformation rate R((N
+, M) → (K, L)) is
+equal to the infimum of all strong converse rates.
+The following inequality is a direct consequence of definitions:
+e
+R((N , M) → (K, L)) ≤ R((N
+, M) → (K, L)).
+
+termine the optimal rates in (139) for arbitrary channel
+boxes, there are some special cases for which it is possible
+to determine them.
+1. If the channel boxes (N , M) and (K, L) are
+environment-seizable, then our prior results from
+[WW19] and Corollary 2 from Appendix G 1 imply
+that
+R((N , M) → (K, L))
+e
+= R((N
+, M) → (K, L))
+
+(139)
+
+Although it is a challenging question in general to de-
+
+=
+
+D(N kM)
+.
+D(KkL)
+
+(140)
+(141)
+
+19
+The main reason that this simplification occurs is
+that the channels involved for environment-seizable
+pairs are equivalent to states, so that the prior
+achievability results for states [WW19] apply. Also,
+the converse bounds from Appendix G 1 simplify
+for the same reason.
+2. If the channel boxes (N , M) and (K, L) are
+classical–quantum, then the following strong converse bound holds
+D(N kM)
+e
+R((N
+, M) → (K, L)) ≤
+,
+D(KkL)
+
+(142)
+
+as a consequence of [BHKW18, Lemma 26] and the
+discussion in Appendix G 2. It is reasonable to conjecture that this bound is saturated—what remains
+is to show that D(N kM) is the optimal rate of distinguishability dilution for classical–quantum channels.
+3. If the channel box (N , M) is classical–quantum and
+(K, L) is environment seizable, then the equalities
+in (140)–(141) hold. This is a consequence of the
+upper bound in (142) holding in this case, while
+kM)
+the lower bound R((N , M) → (K, L)) ≥ D(N
+D(KkL)
+follows because one can first distill bits of asymmetric distinguishability from (N , M) at the rate
+D(N kM) and then dilute them to (K, L), in a sequential simulation, with the latter simulation being possible easily by preparing the environment
+states for (K, L) and then acting with the relevant
+common channels on demand when needed.
+
+IX. DISTILLATION AND DILUTION OF
+QUANTUM STRATEGY AND SEQUENTIAL
+CHANNEL BOXES
+
+In this section, we present distillation and dilution of
+quantum strategy boxes. A special case of this theory
+involves distillation and dilution of sequential channel
+boxes. Here we are interested in not only in the optimal number but also rates at which one can distill or
+dilute bits of asymmetric distinguishability from or to a
+strategy or sequential channel box, respectively, both in
+the exact and approximate cases.
+All of the basic definitions in this case represent generalizations of what we have presented previously for oneshot tasks regarding quantum channels. As such, we do
+not delve into as many details as we did before but mainly
+state the results and provide brief justifications.
+
+A.
+
+Exact case: distillable distinguishability
+
+Given a strategy box (N (n) , M(n) ), the exact distillable distinguishability is equal to the largest M such
+that we can transform (N (n) , M(n) ) to the channel box
+
+|0ih0|
+
+M
+(RC→D , RπC→D
+) exactly by means of a physical transformation Θ(n→1) . Note that the physical transformation Θ(n→1) is a special case of those that we discussed
+previously in Section VIII B, taking an n-round quantum
+strategy box to a channel box. Mathematically, the exact distillable distinguishability is defined as the following
+optimization problem:
+
+Dd0 (N (n) , M(n) ) :=
+
+
+|0ih0|
+log2 M : Θ(n→1) (N (n) ) = RC→D ,
+sup
+. (143)
+M
+Θ(n→1) (M(n) ) = RπC→D
+Θ(n→1)
+that this problem is essentially equivalent to
+ Note
+Dd0 (N (n) , M(n) ) , which is the largest m for which a
+physical transformation Θ(n→m) exists such that
+|0ih0|
+
+Θ(n→m) (N (n) ) = (RC→D )(m) ,
+Θ
+
+(n→m)
+
+(n)
+
+(M
+
+) = (RπC→D )(m) ,
+
+(144)
+(145)
+
+where the superscript (m) indicates m sequential channel uses.
+This is because the channel
+|0ih0|
+2m
+box (RC→D , RπC→D
+) and the sequential channel box
+|0ih0|
+((RC→D )(m) , (RπC→D )(m) ) are equivalent to each other
+by means of common quantum strategies, due to the fact
+that the underlying channel pairs are environment seizable and thus equivalent to state boxes.
+By employing reasoning similar to that which we employed previously to justify (37), we conclude that
+Dd0 (N (n) , M(n) ) = Dmin (N (n) kM(n) ),
+
+(146)
+
+where Dmin (N (n) kM(n) ) is the quantum strategy divergence from Definition 1, with D therein set to Dmin . The
+main reasons that this equality holds are that 1) the optimal co-strategy for Dmin (N (n) kM(n) ) leads to a protocol
+for distilling bits of asymmetric distinguishability and 2)
+its optimality follows from the data processing inequality (Theorem 4) for Dmin (N (n) kM(n) ) with respect to an
+arbitrary physical transformation Θ(n→1) that produces
+|0ih0|
+M
+the channel box (RC→D , RπC→D
+) exactly.
+(n)
+(n)
+If the strategy box (N , M ) is in fact a sequential
+channel box for all n, with corresponding channels N
+and M, then we define the exact sequential distillable
+distinguishability as
+Dd0 (N , M) := lim
+
+1
+
+n→∞ n
+
+Dd0 (N (n) , M(n) ).
+
+(147)
+
+Just as with the parallel case discussed in Section IX A,
+the underlying quantity Dd0 (N (n) , M(n) ) can jump from
+zero to ∞ as n increases. In fact, this jump can occur in
+the simplest case when n goes from one to two [HHLW10].
+By the general bound from [BHKW18], we have that
+Dd0 (N , M) ≤ Dmax (N kM).
+
+(148)
+
+20
+B.
+
+M, then we define the exact sequential distinguishability
+cost as
+
+Exact case: distinguishability cost
+
+Given a strategy box (N (n) , M(n) ), the exact distinguishability cost is equal to the smallest M such that
+|0ih0|
+M
+we can transform the channel box (RC→D , RπC→D
+) to
+(n)
+(n)
+(N , M ) exactly by means of a physical transformation Θ(1→n) . Note that the physical transformation
+Θ(1→n) is a special case of those that we discussed previously in Section VIII B, taking a channel box to an nround quantum strategy box. Mathematically, the exact
+distinguishability cost is defined as the following optimization problem:
+Dc0 (N (n) , M(n) ) :=
+
+
+|0ih0|
+log2 M : N (n) = Θ(1→n) (RC→D ),
+inf
+. (149)
+M
+M(n) = Θ(1→n) (RπC→D
+)
+Θ(1→n)
+For similar reasons stated in the previous
+section, this
+
+
+problem is essentially equivalent to Dc0 (N (n) , M(n) ) ,
+which is the smallest m for which a physical transformation Θ(m→n) exists such that
+|0ih0|
+
+N (n) = Θ(m→n) ((RC→D )(m) ),
+M
+
+(n)
+
+(m→n)
+
+=Θ
+
+((RπC→D )(m) ),
+
+(150)
+(151)
+
+where the superscript (m) again indicates m sequential
+channel uses.
+By employing reasoning similar to that which we used
+previously to justify (38), we conclude that
+Dc0 (N (n) , M(n) ) = Dmax (N (n) kM(n) ),
+(n)
+
+(152)
+
+Dc0 (N , M) := lim
+
+(n)
+
+(n)
+
+2Dmax (N kM ) M(n) − N (n)
+2Dmax (N (n) kM(n) ) − 1
+
+(153)
+
+if |1ih1| is input and 2) its optimality follows
+from the data processing inequality (Theorem 4) for
+Dmax (N (n) kM(n) ) with respect to an arbitrary physical transformation Θ(1→n) that produces the strategy box (N (n) , M(n) ) exactly from the channel box
+|0ih0|
+M
+(RC→D , RπC→D
+).
+If the strategy box (N (n) , M(n) ) is in fact a sequential
+channel box for all n, with corresponding channels N and
+
+Dc0 (N (n) , M(n) ).
+
+(154)
+
+Note that the following inequality holds
+Dc0 (N , M) ≥ Dc0,p (N , M),
+
+(155)
+
+because a sequential simulation is more stringent than a
+parallel simulation. That is, any sequential simulation
+works as a parallel simulation.
+A key result that we have for this problem, strengthening our earlier finding from (64), is expressed by the
+following theorem.
+Theorem 5 For channels N and M, the exact sequential distinguishability cost is equal to the channel maxrelative entropy:
+Dc0 (N , M) = Dmax (N kM).
+
+(156)
+
+Proof. The inequality Dc0 (N , M) ≥ Dmax (N kM) is
+a consequence of (155) and (64). The other inequality
+is a consequence of the following scheme for simulating
+the sequential channel box (N (n) , M(n) ), similar to that
+employed in [GFW+ 18, WW18]. In the first round of
+the sequential simulation, one starts from the channel
+|0ih0|
+M
+box (RC→D , RπC→D
+) and simulates the tensor product
+π M1
+|0ih0|
+channel box (RC→D ⊗ N , RC→D
+⊗ M). Employing (38),
+the cost for doing so is
+|0ih0|
+
+π
+
+M1
+log2 M = Dmax (RC→D ⊗ N kRC→D
+⊗ M)
+
+π M1
+|0ih0|
+= Dmax (RC→D kRC→D
+) + Dmax (N kM)
+
+(n)
+
+where Dmax (N kM ) is the quantum strategy divergence from Definition 1, with D therein set to Dmax . The
+quantity Dmax (N (n) kM(n) ) has already been defined in
+and studied in [CE16], wherein it was shown that it is
+equal to the max-relative entropy of the Choi operators
+of the strategies. Eq. (152) gives Dmax (N (n) kM(n) ) its
+fundamental operational meaning in terms of the exact
+distinguishability cost of the strategy box (N (n) , M(n) ).
+The main reasons that the equality in (152) holds are
+that 1) an optimal dilution protocol, generalizing that
+from Appendix C 2, results from a strategy that outputs
+strategy N (n) if |0ih0| is input and outputs the strategy
+
+1
+
+n→∞ n
+
+= log2 M1 + Dmax (N kM).
+
+(157)
+(158)
+(159)
+
+In the next round, one uses the leftover channel box
+π M1
+|0ih0|
+|0ih0|
+(RC→D , RC→D
+) to simulate the channel box (RC→D ⊗
+πM2
+N , RC→D ⊗ M). Again employing (38) and an analysis
+similar to the above, the cost for doing so is
+log2 M1 = log2 M2 + Dmax (N kM).
+
+(160)
+
+This continues until the last round, and adding everything up, the total cost for the simulation of the sequential channel box (N (n) , M(n) ) is nDmax (N kM). Since
+this holds for every n, we conclude that Dc0 (N , M) ≤
+Dmax (N kM), and in turn, we conclude (156).
+
+C.
+
+Approximate case: distillable distinguishability
+
+Given a strategy box (N (n) , M(n) ), the approximate distillable distinguishability is equal to the largest
+M such that we can transform the strategy box
+|0ih0|
+M
+(N (n) , M(n) ) to the channel box (RC→D , RπC→D
+) approximately by means of a physical transformation
+
+21
+Θ(n→1) . Mathematically, it is defined as the following
+optimization problem:
+Ddε (N (n) , M(n) ) :=
+
+
+|0ih0|
+log2 M : Θ(n→1) (N (n) ) ≈ε RC→D ,
+sup
+, (161)
+M
+Θ(n→1) (M(n) ) = RπC→D
+Θ(n→1)
+where the shorthand ≈ε is defined in (133)–(134) in terms
+of the normalized strategy distance.
+For similar reasons stated in the previous
+section, this
+
+
+problem is essentially equivalent to Ddε (N (n) , M(n) ) ,
+which is the largest m for which a physical transformation
+Θ(n→m) exists such that
+|0ih0|
+
+Θ(n→m) (N (n) ) ≈ε (RC→D )(m) ,
+
+(162)
+
+Θ(n→m) (M(n) ) = (RπC→D )(m) .
+
+(163)
+
+By employing reasoning similar to that which we used
+previously to justify (44), we conclude that
+ε
+Ddε (N (n) , M(n) ) = Dmin
+(N (n) kM(n) ),
+
+(164)
+
+ε
+where Dmin
+(N (n) kM(n) ) is the quantum strategy diverε
+gence from Definition 1, with D therein set to Dmin
+. The
+
+main reasons that this equality holds are that 1) the opε
+timal co-strategy for Dmin
+(N (n) kM(n) ) leads to a protocol for distilling bits of asymmetric distinguishability approximately and 2) its optimality follows from the data
+ε
+processing inequality for Dmin
+(N (n) kM(n) ) with respect
+to an arbitrary physical transformation Θ(n→1) that pro|0ih0|
+M
+duces the channel box (RC→D , RπC→D
+) approximately.
+If the strategy box (N (n) , M(n) ) is in fact a sequential
+channel box for all n, with corresponding channels N and
+M, then we define the sequential distillable distinguishability as
+Dd (N , M) := lim lim
+
+1
+
+ε→0 n→∞ n
+
+Ddε (N (n) , M(n) ).
+
+(165)
+
+A key result of our paper is the following formal expression for Dd (N , M) in terms of the amortized channel
+relative entropy from [BHKW18]:
+Theorem 6 For channels N and M, the sequential distillable distinguishability is equal to the amortized channel
+relative entropy of [BHKW18]:
+Dd (N , M) = DA (N kM),
+
+follows from [BHKW18, Proposition 16], due to the
+equivalence between sequential distillable distinguishability and the optimal rate of the quantum hypothesis
+testing problem considered in [BHKW18]. So it remains
+to establish the opposite inequality.
+To do so, here we employ a technique used in the
+resource theory of coherence [GFW+ 18, Theorem 17],
+which was used therein to show that the amortized relative entropy of coherence is equal to the distillable coherence of a quantum channel. A similar technique was
+also discussed previously in [BHLS03, Section 2.4].
+Let ρRA and σRA be arbitrary quantum states. Let
+ψRA be a state such that
+D(NA→B (ψRA )kMA→B (ψRA )) > 0.
+
+(169)
+
+(If such a state does not exist, then Dd (N , M) is trivially equal to zero.) The first step is to send in the tensor⊗m
+power state ψRA
+to m parallel calls of the unknown channel, where
+m&n
+
+D(ρRA kσRA ) + δ
+D(NA→B (ψRA )kMA→B (ψRA )) − δ
+
+(170)
+
+for δ > 0, and distill bits of asymmetric distinguishability
+at the rate D(NA→B (ψRA )kMA→B (ψRA )). Second, we
+dilute these bits of asymmetric distinguishability to the
+⊗n
+state box (ρ⊗n
+RA , σRA ). Third, we then send this state box
+into n uses of the unknown channel, producing the state
+box ([NA→B (ρRA )]⊗n , [MA→B (σRA )]⊗n ). Fourth, from
+this state box, we distill bits of asymmetric distinguishability at the rate D(NA→B (ρRA )kMA→B (σRA )) − δ. We
+output a fraction R − 2δ of these bits, where
+R := D(NA→B (ρRA )kMA→B (σRA )) − D(ρRA kσRA ),
+(171)
+and then reinvest a fraction D(ρRA kσRA )+δ for the next
+round. We then repeat steps 2) through 4) k times. In
+the last round, a fraction Rf − δ bits of asymmetric distinguishability are output, where
+Rf := D(NA→B (ρRA )kMA→B (σRA )),
+
+(172)
+
+and no reinvestment is made (because it is the last
+round). Counting up everything, this protocol calls the
+unknown channel kn + m times, while outputting
+(k − 1) n (R − 2δ) + n (Rf − δ)
+
+(173)
+
+(166)
+bits of asymmetric distinguishability. Thus, the rate of
+the protocol is given by
+
+where
+DA (N kM) :=
+sup D(NA→B (ρRA )kMA→B (σRA ))−D(ρRA kσRA ).
+ρRA ,σRA
+
+(167)
+Proof. The bound
+Dd (N , M) ≤ DA (N kM)
+
+(168)
+
+(k − 1) n (R − 2δ) + n (Rf − δ)
+.
+kn + m
+
+(174)
+
+In the limit as k → ∞, this rate converges to R−2δ. Since
+δ > 0 is arbitrary, the rate R is achievable. Note that all
+of the conversions stated above are approximate, but for
+large enough n and by employing the triangle inequality,
+the error vanishes. Finally, since the states ρRA and σRA
+
+22
+are arbitrary, we can take a supremum over all of them
+and conclude the inequality
+Dd (N , M) ≥ DA (N kM),
+
+(175)
+
+thus completing the proof.
+Theorem 6 establishes an operational meaning for the
+amortized channel relative entropy of [BHKW18], thus
+giving it some distinction in the resource theory of asymmetric distinguishability for quantum channels. Theorem 6 can alternatively be understood as a formal solution to Stein’s lemma for quantum channels in the sequential setting, thus completing the line of reasoning
+put forward in [BHKW18].
+More generally, this result can be used to determine
+whether a sequential protocol is truly necessary to attain
+the optimal distillable distinguishability. If an amortization collapse occurs for a pair of channels, so that
+DA (N kM) = D(N kM), then one can conclude that
+a sequential protocol is not necessary and one can sim⊗n
+ply input a tensor-power state ψRA
+to distinguish the
+channels optimally in the asymptotic regime [BHKW18].
+This collapse occurs for both environment-seizable and
+classical–quantum channel boxes. It also occurs for channel boxes in which the first channel is arbitrary and the
+second is a replacer channel [CMW16, BHKW18]. What
+Theorems 3 and 6 add to this story is that the condition
+1
+D(N ⊗n kM⊗n )
+n→∞ n
+
+DA (N kM) > lim
+
+(176)
+
+is necessary and sufficient for an adaptive strategy to
+have an advantage over a parallel strategy in the setting of asymmetric channel discrimination, or equivalently, when distilling bits of asymmetric distinguishability. Determining whether (176) holds for a pair of
+quantum channels is an interesting and challenging open
+problem.
+It seems that the main idea of [GFW+ 18, Theorem 17]
+(also [BHLS03, Section 2.4]), as used in the proof of Theorem 6, can be employed for a sequential distillation task
+in any quantum resource thery for which the static version of the theory (for quantum states) is asymptotically
+reversible. This is because the interleaving of distillation
+and dilution plays an essential role in the given protocol, and for an asymptotically reversible resource theory,
+there is no loss when going back and forth like this.
+
+Dcε (N (n) , M(n) ) :=
+
+
+|0ih0|
+log2 M : N (n) ≈ε Θ(1→n) (RC→D ),
+inf
+. (177)
+M
+M(n) = Θ(1→n) (RπC→D
+)
+Θ(1→n)
+For similar reasons stated
+previously, this
+
+ problem is
+essentially equivalent to Dcε (N (n) , M(n) ) , which is the
+smallest m for which a physical transformation Θ(m→n)
+exists such that
+|0ih0|
+
+N (n) ≈ε Θ(m→n) ((RC→D )(m) ),
+(n)
+
+M
+
+(m→n)
+
+=Θ
+
+((RπC→D )(m) ),
+
+Approximate case: distinguishability cost
+
+Given a strategy box (N (n) , M(n) ), the approximate
+distinguishability cost is equal to the smallest M such
+|0ih0|
+M
+that we can transform the channel box (RC→D , RπC→D
+)
+(n)
+(n)
+to (N , M ) approximately by means of a physical
+transformation Θ(1→n) . Mathematically, it is defined as
+the following optimization problem:
+
+(179)
+
+where the superscript (m) again indicates m sequential
+channel uses.
+By employing reasoning similar to that which we used
+previously to justify (45), we conclude that
+ε
+Dcε (N (n) , M(n) ) = Dmax
+(N (n) kM(n) ),
+
+(180)
+
+where the smooth strategy max-relative entropy is defined as
+ε
+Dmax
+(N (n) kM(n) ) :=
+1
+2
+
+e (n) kM(n) ), (181)
+Dmax (N
+inf
+kNe (n) −N (n) kn ≤ε
+
+e (n) kM(n) ) is defined in (152). The infimum
+and Dmax (N
+e (n) that
+in (181) is with respect to n-round strategies N
+are ε-close in normalized strategy distance to the strategy N (n) . The main reasons that this equality holds
+are that 1) an optimal approximate dilution protocol results from applying an optimal exact dilution protocol
+e (n) and M(n) , where N
+e (n) is ε-close to N (n) with
+to N
+respect to the normalized strategy distance and 2) its
+optimality follows from the data processing inequality
+ε
+(N (n) kM(n) ) with respect to an arbitrary physfor Dmax
+ical transformation Θ(1→n) that produces the strategy
+box (N (n) , M(n) ) approximately from the channel box
+|0ih0|
+M
+(RC→D , RπC→D
+).
+If the strategy box (N (n) , M(n) ) is in fact a sequential
+channel box for all n, with corresponding channels N and
+M, then we define the sequential distinguishability cost
+as
+1
+Dc (N , M) := lim lim Dcε (N (n) , M(n) ).
+(182)
+ε→0 n→∞ n
+Note that the following inequality holds
+Dc (N , M) ≥ Dcp (N , M),
+
+D.
+
+(178)
+
+(183)
+
+because a sequential simulation is more stringent than a
+parallel simulation. That is, any sequential simulation
+works as a parallel simulation.
+As occurred for all other tasks in this paper,
+the sequential distinguishability cost simplifies for
+environment-seizable channel boxes. It remains an interesting open question to understand the sequential distinguishability cost of quantum channel boxes other than
+environment-seizable ones.
+
+23
+X.
+
+CONCLUSION
+
+In this paper, we generalized the resource theory
+of asymmetric distinguishability from states [Mat10,
+Mat11, WW19] to channels. In this resource theory,
+the main constituents are quantum channel boxes that
+can be manipulated by means of a quantum superchannel, the most general physical transformation that sends
+quantum channels to quantum channels. Furthermore,
+the basic units of currency are bits of asymmetric distinguishability [WW19].
+In the one-shot scenario, we considered the approximate channel box transformation problem and proved
+that it is characterized by a semi-definite program. As
+special cases of this, we considered exact and approximate one-shot distillation and dilution of channel boxes,
+arriving at the following conclusions:
+1. The exact one-shot distillable distinguishability of
+a channel box is equal to the channel min-relative
+entropy.
+2. The exact one-shot distinguishability cost of a channel box is equal to the channel max-relative entropy.
+3. The approximate one-shot distillable distinguishability of a channel box is equal to the smooth channel min-relative entropy.
+4. The approximate one-shot distinguishability cost of
+a channel box is equal to the smooth channel maxrelative entropy.
+These results endow these fundamental channel measures
+of distinguishability with operational interpretations.
+We then moved on to consider asymptotic parallel versions of the above tasks, with our key findings here being that the parallel distillable distinguishability is equal
+to the regularized channel relative entropy and the parallel exact distinguishability cost is equal to the channel max-relative entropy. We solved the asymptotic version of the parallel channel box transformation problem
+for environment-seizable and classical–quantum channel
+boxes.
+We finally considered the approximate strategy box
+transformation problem and asserted that it is characterized by a semi-definite program. We introduced the
+generalized strategy divergence as a way of quantifying
+distinguishability of quantum strategies and used instantiations of this concept to provide bounds on how well one
+can convert one strategy box to another. In particular,
+transformations of sequential channel boxes are a special
+case of transformations of strategy boxes, so that many
+
+[ABJT19] Anurag Anshu, Mario Berta, Rahul Jain, and
+Marco Tomamichel. A minimax approach to one-shot
+entropy inequalities. June 2019. 1906.00333v1.
+
+of the results for strategy boxes apply directly, and all of
+the results simplify for environment-seizable or classical–
+quantum sequential channel boxes.
+By focusing on distillation and dilution tasks, we
+proved that the asymptotic sequential distillable distinguishability of a sequential channel box is equal to the
+amortized channel relative entropy of [BHKW18], thus
+endowing this quantity with a fundamental operational
+meaning. We also proved that the exact sequential distinguishability cost is equal to the channel max-relative
+entropy.
+Going forward from here, there are many open questions for future work. Are there other channel boxes, besides environment-seizable and classical–quantum ones,
+for which the theory simplifies significantly? Based on
+the distillation results of [CMW16], and other findings of
+[FWTB19], it seems plausible that the channel relative
+entropy should be the optimal rate for dilution protocols
+of channel boxes in which the first channel is arbitrary
+and the second is a replacer channel. Are there examples of channel boxes for which the regularization in the
+regularized channel relative entropy is necessary? Are
+there examples of channel boxes for which the amortized
+channel relative entropy does not collapse to the ordinary channel relative entropy? Answers to these questions would provide insights as to whether general parallel or sequential strategies are helpful in distinguishability
+distillation. Can we characterize the asymptotic parallel
+or sequential distinguishability cost, in the case in which
+the simulation need not be exact but with vanishing error in the asymptotic limit? Is it possible to give a more
+general theory beyond independent and identically distributed channels, i.e., for memory channels with some
+structure? These and other questions remain the subject
+of future investigations.
+Note: After our paper appeared online, the preprint
+[FFRS19] was posted, which has addressed some of the
+open questions from our paper.
+
+ACKNOWLEDGMENTS
+
+We are grateful to Vishal Katariya for pointing out
+a problem with our previous formulation of the semidefinite program for the smooth channel max-relative entropy. We are grateful to Andreas Winter for pointing out
+[BHLS03, Section 2.4] in the context of Theorem 6. XW
+acknowledges support from the Department of Defense,
+and MMW acknowledges support from the National Science Foundation under Grant No. 1907615.
+
+[Aci01] Antonio Acin.
+Statistical distinguishability between unitary operations. Physical Review Letters,
+87(17):177901, October 2001. arXiv:quant-ph/0102064.
+
+24
+[AU80] P. M. Alberti and A. Uhlmann. A problem relating
+to positive linear maps on matrix algebras. Reports on
+Mathematical Physics, 18(2):163–176, October 1980.
+[BaHN+ 15] Fernando G. S. L. Brandão, Michal Horodecki,
+Nelly Ng, Jonathan Oppenheim, and Stephanie Wehner.
+The second laws of quantum thermodynamics. Proceedings of the National Academy of Sciences, 112(11):3275–
+3279, March 2015. arXiv:1305.5278.
+[BBCW13] Mario Berta, Fernando G. S. L. Brandão,
+Matthias Christandl, and Stephanie Wehner. Entanglement cost of quantum channels. IEEE Transactions on
+Information Theory, 59(10):6779–6795, October 2013.
+arXiv:1108.5357.
+[BCR11] Mario Berta, Matthias Christandl, and Renato Renner. The quantum reverse Shannon theorem based
+on one-shot information theory. Communications in
+Mathematical Physics, 306(3):579–615, August 2011.
+arXiv:0912.3805.
+[BD10] Francesco Buscemi and Nilanjana Datta. The quantum capacity of channels with arbitrarily correlated
+noise. IEEE Transactions on Information Theory,
+56(3):1447–1460, March 2010. arXiv:0902.0158.
+[BD11] Fernando G. S. L. Brandao and Nilanjana Datta.
+One-shot rates for entanglement manipulation under non-entangling maps.
+IEEE Transactions on
+Information Theory, 57(3):1754–1760, March 2011.
+arXiv:0905.2673.
+[BD16] Francesco Buscemi and Nilanjana Datta. Equivalence between divisibility and monotonic decrease of
+information in classical and quantum stochastic processes. Physical Review A, 93(1):012101, January 2016.
+arXiv:1408.7062.
+[BDH+ 14] Charles H. Bennett, Igor Devetak, Aram W. Harrow, Peter W. Shor, and Andreas Winter. The quantum reverse Shannon theorem and resource tradeoffs
+for simulating quantum channels. IEEE Transactions
+on Information Theory, 60(5):2926–2959, May 2014.
+arXiv:0912.5537.
+[BDS14] Francesco Buscemi,
+Nilanjana Datta,
+and
+Sergii Strelchuk.
+Game-theoretic characterization
+of antidegradable channels.
+Journal of Mathematical Physics, 55(9):092202, September 2014.
+arXiv:1404.0277.
+[BDW18] Stefan Bäuml, Siddhartha Das, and Mark M.
+Wilde. Fundamental limits on the capacities of bipartite quantum interactions. Physical Review Letters,
+121(25):250504, December 2018. arXiv:1812.08223.
+[Bei13] Salman Beigi. Sandwiched Rényi divergence satisfies data processing inequality. Journal of Mathematical Physics, 54(12):122202, December 2013.
+arXiv:1306.5920.
+[Ben05] Charles H. Bennett. Simulated time travel, teleportation without communication, and how to conduct a romance with someone who has fallen into a
+black hole. https://www.research.ibm.com/people/
+b/bennetc/QUPONBshort.pdf, May 2005.
+[Ber13] Mario Berta. Quantum Side Information: Uncertainty Relations, Extractors, Channel Simulations. PhD
+thesis, ETH Zurich, October 2013. arXiv:1310.4581.
+[BG17] Francesco Buscemi and Gilad Gour. Quantum relative Lorenz curves. Physical Review A, 95(1):012110,
+January 2017. arXiv:1607.05735.
+[BGMW17] Khaled Ben Dana, Marı́a Garcı́a Dı́az, Mohamed
+Mejatty, and Andreas Winter. Resource theory of coher-
+
+ence: Beyond states. Physical Review A, 95(6):062327,
+June 2017. arXiv:1704.03710.
+[BGNP01] David Beckman, Daniel Gottesman, M. A.
+Nielsen, and John Preskill. Causal and localizable quantum operations. Physical Review A, 64(5):052309, October 2001. arXiv:quant-ph/0102043.
+[BHKW18] Mario Berta, Christoph Hirche, Eneet Kaur, and
+Mark M. Wilde. Amortized channel divergence for
+asymptotic quantum channel discrimination. August
+2018. arXiv:1808.01498v1.
+[BHLS03] Charles H. Bennett, Aram W. Harrow, Debbie W.
+Leung, and John A. Smolin. On the capacities of bipartite Hamiltonians and unitary gates. IEEE Transactions
+on Information Theory, 49(8):1895–1911, August 2003.
+arXiv:quant-ph/0205057.
+[Bla53] David Blackwell. Equivalent comparisons of experiments. The Annals of Mathematical Statistics,
+24(2):265–272, June 1953.
+[BRW14] Mario Berta, Joseph M. Renes, and Mark M. Wilde.
+Identifying the information gain of a quantum measurement. IEEE Transactions on Information Theory,
+60(12):7987–8006, December 2014. arXiv:1301.1594.
+[BSST02] Charles H. Bennett, Peter W. Shor, John A.
+Smolin, and Ashish V. Thapliyal.
+Entanglementassisted capacity of a quantum channel and the reverse
+Shannon theorem. IEEE Transactions on Information
+Theory, 48(10):2637–2655, October 2002. arXiv:quantph/0106052.
+[Bus12] Francesco Buscemi. Comparison of quantum statistical models: Equivalent conditions for sufficiency. Communications in Mathematical Physics, 310(3):625–647,
+March 2012. arXiv:1004.3794.
+[Bus16] Francesco Buscemi. Degradable channels, less noisy
+channels, and quantum statistical morphisms: An
+equivalence relation. Problems of Information Transmission, 52(3):201–213, July 2016. arXiv:1511.08893.
+[Bus17] Francesco Buscemi. Comparison of noisy channels
+and reverse data-processing theorems. 2017 IEEE
+Information Theory Workshop, pages 489–493, 2017.
+arXiv:1803.02945.
+[CDP08a] Giulio Chiribella, Giacomo Mauro D’Ariano, and
+Paolo Perinotti. Memory effects in quantum channel discrimination. Physical Review Letters, 101(18):180501,
+October 2008. arXiv:0803.3237.
+[CDP08b] Giulio Chiribella, Giacomo Mauro D’Ariano, and
+Paolo Perinotti. Transforming quantum operations:
+Quantum supermaps. Europhysics Letters, 83(3):30004,
+August 2008. arXiv:0804.0180.
+[CDP09] Giulio Chiribella, Giacomo Mauro D’Ariano, and
+Paolo Perinotti. Theoretical framework for quantum
+networks. Physical Review A, 80(2):022339, August
+2009. arXiv:0904.4483.
+[CE16] Giulio Chiribella and Daniel Ebler.
+Optimal
+quantum networks and one-shot entropies.
+New
+Journal of Physics, 18(9):093053, September 2016.
+arXiv:1606.02394.
+[CGLM14] Filippo Caruso, Vittorio Giovannetti, Cosmo
+Lupo, and Stefano Mancini.
+Quantum channels
+and memory effects.
+Reviews of Modern Physics,
+86(4):1203–1259, December 2014. arXiv:1207.5435.
+[CJW04] Anthony Chefles, Richard Jozsa, and Andreas Winter. On the existence of physical transformations between sets of quantum states. International Journal
+of Quantum Information, 02(01):11–21, March 2004.
+
+25
+arXiv:quant-ph/0307227.
+[CMW16] Tom Cooney, Milán Mosonyi, and Mark M. Wilde.
+Strong converse exponents for a quantum channel
+discrimination problem and quantum-feedback-assisted
+communication.
+Communications in Mathematical
+Physics, 344(3):797–829, June 2016. arXiv:1408.3373.
+[Dat09] Nilanjana Datta. Min- and max-relative entropies
+and a new entanglement monotone. IEEE Transactions
+on Information Theory, 55(6):2816–2826, June 2009.
+arXiv:0803.2770.
+[DBW17] Siddhartha Das, Stefan Bäuml, and Mark M.
+Wilde. Entanglement and secret-key-agreement capacities of bipartite quantum interactions and read-only
+memory devices. December 2017. arXiv:1712.00827.
+[DDM14] Rafal Demkowicz-Dobrzański and Lorenzo Maccone. Using entanglement against noise in quantum
+metrology. Physical Review Letters, 113(25):250801, December 2014. arXiv:1407.2934.
+[DFY09] Runyao Duan, Yuan Feng, and Mingsheng Ying.
+Perfect distinguishability of quantum operations. Physical Review Letters, 103(21):210501, November 2009.
+arXiv:0908.0119.
+[DP05] Giacomo Mauro D’Ariano and Paolo Perinotti. Programmable quantum channels and measurements. In
+Workshop on Quantum Information Theory and Quantum Statistical Inference, Tokyo, ERATO Quantum
+Computation and Information Project, November 2005.
+arXiv:quant-ph/0510033.
+[DW19] Siddhartha Das and Mark M. Wilde. Quantum reading capacity: General definition and bounds. IEEE
+Transactions on Information Theory, 65(11):7566–7583,
+November 2019. arXiv:1703.03706.
+[ESW02] T. Eggeling, D. Schlingemann, and Reinhard F.
+Werner.
+Semicausal operations are semilocalizable. Europhysics Letters, 57(6):782–788, March 2002.
+arXiv:quant-ph/0104027.
+[Fai19] Philippe Faist. Unpublished notes. April 2019.
+[FBB19] Philippe Faist, Mario Berta, and Fernando G. S. L.
+Brandao. Thermodynamic capacity of quantum processes. Physical Review Letters, 122(20):200601, May
+2019. arXiv:1807.05610.
+[FFRS19] Kun Fang, Omar Fawzi, Renato Renner, and David
+Sutter. A chain rule for the quantum relative entropy.
+September 2019. arXiv:1909.05826.
+[FL13] Rupert L. Frank and Elliott H. Lieb.
+Monotonicity of a relative Rényi entropy.
+Journal of
+Mathematical Physics, 54(12):122201, December 2013.
+arXiv:1306.5358.
+[FWTB19] Kun Fang, Xin Wang, Marco Tomamichel, and
+Mario Berta. Quantum channel simulation and the
+channel’s smooth max-information. IEEE Transactions on Information Theory (in press), July 2019.
+arXiv:1807.05354.
+[GFW+ 18] Marı́a Garcı́a Dı́az, Kun Fang, Xin Wang, Matteo Rosati, Michalis Skotiniotis, John Calsamiglia, and
+Andreas Winter. Using and reusing coherence to realize quantum processes. Quantum, 2:100, October 2018.
+arXiv:1805.04045.
+[GJB+ 18] Gilad Gour, David Jennings, Francesco Buscemi,
+Runyao Duan, and Iman Marvian. Quantum majorization and a complete set of entropic conditions for
+quantum thermodynamics. Nature Communications,
+9(1):5352, December 2018. arXiv:1708.04302.
+[GLN05] Alexei Gilchrist, Nathan K. Langford, and
+
+Michael A. Nielsen. Distance measures to compare
+real and ideal quantum processes. Physical Review A,
+71(6):062310, June 2005. arXiv:quant-ph/0408063.
+[Gou19] Gilad Gour.
+Comparison of quantum channels
+with superchannels.
+IEEE Transactions on Information Theory, 65(9):5880–5904, September 2019.
+arXiv:1808.02607.
+[GRS18] Gus Gutoski, Ansis Rosmanis, and Jamie Sikora.
+Fidelity of quantum strategies with applications to
+cryptography.
+Quantum, 2:89, September 2018.
+arXiv:1704.04033.
+[Gut09] Gus Gutoski. Quantum strategies and local operations. PhD thesis, University of Waterloo, 2009.
+arXiv:1003.0038.
+[Gut12] Gus Gutoski. On a measure of distance for quantum strategies.
+Journal of Mathematical Physics,
+53(3):032202, March 2012. arXiv:1008.4636.
+[GW07] Gus Gutoski and John Watrous. Toward a general
+theory of quantum games. Proceedings of the thirtyninth annual ACM symposium on theory of computing,
+pages 565–574, 2007. arXiv:quant-ph/0611234.
+[Hay03] Masahito Hayashi. Hypothesis testing approach to
+quantum information theory. In COE Symposium on
+Quantum Information Theory, pages 15–16, Kyoto,
+Japan, 2003.
+[Hay04] Masahito Hayashi. Hypothesis testing approach
+to quantum information theory. In 1st Asia-Pacific
+Conference on Quantum Information Science, National
+Cheng Kung University, Tainan, Taiwan, 2004.
+[Hay09] Masahito Hayashi. Discrimination of two channels
+by adaptive methods and its application to quantum
+system. IEEE Transactions on Information Theory,
+55(8):3807–3820, August 2009. arXiv:0804.0686.
+[Hay17] Masahito Hayashi. Role of hypothesis testing in
+quantum information theory. In Asian Conference
+on Quantum Information Science (AQIS 17), National
+University of Singapore, Singapore, September 2017.
+arXiv:1709.07701.
+[Hel69] Carl W. Helstrom. Quantum detection and estimation theory. Journal of Statistical Physics, 1:231–252,
+1969.
+[Hel76] Carl W. Helstrom. Quantum Detection and Estimation Theory. Academic, New York, 1976.
+[HHLW10] Aram W. Harrow, Avinatan Hassidim, Debbie W.
+Leung, and John Watrous. Adaptive versus nonadaptive
+strategies for quantum channel discrimination. Physical
+Review A, 81(3):032339, March 2010. arXiv:0909.0256.
+[HJRW12] Teiko Heinosaari, Maria A. Jivulescu, David Reeb,
+and Michael M. Wolf. Extending quantum operations.
+Journal of Mathematical Physics, 53(10):102208, October 2012. arXiv:1205.0641.
+[HP91] Fumio Hiai and Dénes Petz. The proper formula
+for relative entropy and its asymptotics in quantum
+probability. Communications in Mathematical Physics,
+143(1):99–114, December 1991.
+[JN12] Rahul Jain and Ashwin Nayak. Short proofs of
+the quantum substate theorem. IEEE Transactions
+on Information Theory, 58(6):3664–3669, June 2012.
+arXiv:1103.6067.
+[JRS+ 16] Marius Junge, Renato Renner, David Sutter,
+Mark M. Wilde, and Andreas Winter. Universal recoverability in quantum information. In 2016 IEEE International Symposium on Information Theory (ISIT),
+pages 2494–2498, July 2016.
+
+26
+[JWD+ 08] Zhengfeng Ji, Guoming Wang, Runyao Duan,
+Yuan Feng, and Mingsheng Ying. Parameter estimation of quantum channels. IEEE Transactions on Information Theory, 54(11):5172–5185, November 2008.
+arXiv:quant-ph/0610060.
+[Kit97] Alexei Yu Kitaev. Quantum computations: algorithms and error correction. Russian Mathematical Surveys, 52(6):1191–1249, December 1997.
+[KW04] Dennis Kretschmann and Reinhard F. Werner. Tema
+con variazioni: quantum channel capacity. New Journal
+of Physics, 6(1):26, 2004. arXiv:quant-ph/0311037.
+[KW05] Dennis Kretschmann and Reinhard F. Werner.
+Quantum channels with memory.
+Physical Review A, 72(6):062323, December 2005. arXiv:quantph/0502106.
+[KW17] Eneet Kaur and Mark M. Wilde. Upper bounds on
+secret key agreement over lossy thermal bosonic channels. Physical Review A, 96(6):062318, December 2017.
+arXiv:1706.04590.
+[LBL18] Lu Li, Kaifeng Bu, and Zi-Wen Liu. Quantifying the
+resource content of quantum channels: An operational
+approach. December 2018. arXiv:1812.02572.
+[Li14] Ke Li. Second order asymptotics for quantum hypothesis testing. Annals of Statistics, 42(1):171–189, February 2014. arXiv:1208.1400.
+[LKDW18] Felix Leditzky, Eneet Kaur, Nilanjana Datta,
+and Mark M. Wilde. Approaches for approximate additivity of the Holevo information of quantum channels. Physical Review A, 97(1):012332, January 2018.
+arXiv:1709.01111.
+[LW19] Zi-Wen Liu and Andreas Winter. Resource theories
+of quantum channels and the universal role of resource
+erasure. April 2019. arXiv:1904.04201v1.
+[LY19] Yunchao Liu and Xiao Yuan.
+Operational resource theory of quantum channels.
+April 2019.
+arXiv:1904.02680.
+[Mat10] Keiji Matsumoto.
+Reverse test and characterization of quantum relative entropy. October 2010.
+arXiv:1010.1030.
+[Mat11] Keiji Matsumoto.
+Reverse test and characterization of quantum relative entropy.
+In The
+Second Nagoya Winter Workshop on Quantum Information, Measurement, and Foundations, 2011.
+Slides available at https://sites.google.com/site/
+nww2011/home/talks-slides/matsumoto.pdf.
+[MLDS+ 13] Martin Müller-Lennert, Frédéric Dupuis, Oleg
+Szehr, Serge Fehr, and Marco Tomamichel. On quantum
+Rényi entropies: a new generalization and some properties. Journal of Mathematical Physics, 54(12):122203,
+December 2013. arXiv:1306.3142.
+[MOA11] Albert W. Marshall, Ingram Olkin, and Barry C.
+Arnold. Inequalities: Theory of Majorization and Its
+Applications. Springer, second edition, 2011.
+[MW14] William Matthews and Stephanie Wehner. Finite blocklength converse bounds for quantum channels.
+IEEE Transactions on Information Theory,
+60(11):7317–7329, November 2014. arXiv:1210.4722.
+[NC97] Michael A. Nielsen and Isaac L. Chuang. Programmable quantum gate arrays. Physical Review
+Letters, 79(2):321–324, July 1997.
+arXiv:quantph/9703032.
+[ON00] Tomohiro Ogawa and Hiroshi Nagaoka. Strong converse and Stein’s lemma in quantum hypothesis testing.
+IEEE Transactions on Information Theory, 46(7):2428–
+
+2433, November 2000. arXiv:quant-ph/9906090.
+[Pet85] Dénes Petz. Quasi-entropies for states of a von Neumann algebra. Publ. RIMS, Kyoto University, 21:787–
+800, 1985.
+[Pet86] Dénes Petz. Quasi-entropies for finite quantum systems. Reports in Mathematical Physics, 23:57–65, 1986.
+[Ren16] Joseph M. Renes. Relative submajorization and
+its use in quantum resource theories.
+Journal of
+Mathematical Physics, 57(12):122202, December 2016.
+arXiv:1510.03695.
+[RW05] Bill Rosgen and John Watrous.
+On the hardness of distinguishing mixed-state quantum computations. Proceedings of the 20th IEEE Conference on
+Computational Complexity, pages 344–354, June 2005.
+arXiv:cs/0407056.
+[SC19] James R. Seddon and Earl Campbell.
+Quantifying magic for multi-qubit operations.
+Proceedings of the Royal Society A, 475(2227), July 2019.
+arXiv:1901.03322.
+[Sio58] M. Sion. On general minimax theorems. Pacific Journal of Mathematics, 8(1):171–176, 1958.
+[SW12] Naresh Sharma and Naqueeb Ahmad Warsi. On the
+strong converses for the quantum channel capacity theorems. May 2012. arXiv:1205.1712.
+[TCR09] Marco Tomamichel, Roger Colbeck, and Renato
+Renner. A fully quantum asymptotic equipartition
+property. IEEE Transactions on Information Theory,
+55(12):5840–5847, December 2009. arXiv:0811.1221.
+[TEZP19] Thomas Theurer, Dario Egloff, Lijian Zhang, and
+Martin B. Plenio. Quantifying operations with an
+application to coherence. Physical Review Letters,
+122(19):190405, May 2019. arXiv:1806.07332.
+[TH13] Marco Tomamichel and Masahito Hayashi. A hierarchy of information quantities for finite block length
+analysis of quantum tasks. IEEE Transactions on
+Information Theory, 59(11):7693–7710, August 2013.
+arXiv:1208.1478.
+[TR19] Ryuji Takagi and Bartosz Regula. General resource
+theories in quantum mechanics and beyond: operational
+characterization via discrimination tasks. January 2019.
+arXiv:1901.08127.
+[TW16] Masahiro Takeoka and Mark M. Wilde.
+Optimal estimation and discrimination of excess noise in
+thermal and amplifier channels.
+November 2016.
+arXiv:1611.09165.
+[Uhl76] Armin Uhlmann. The “transition probability” in the
+state space of a *-algebra. Reports on Mathematical
+Physics, 9(2):273–279, 1976.
+[Ume62] Hisaharu Umegaki. Conditional expectations in an
+operator algebra IV (entropy and information). Kodai
+Mathematical Seminar Reports, 14(2):59–85, 1962.
+[Wat09] John Watrous. Semidefinite programs for completely
+bounded norms. Theory of Computing, 5(11):217–238,
+November 2009. arXiv:0901.4709.
+[Wil17] Mark M. Wilde.
+Quantum Information Theory.
+Cambridge University Press, March 2017.
+arXiv:1106.1445v7.
+[Wil18] Mark M. Wilde. Entanglement cost and quantum
+channel simulation. Physical Review A, 98(4):042320,
+October 2018. arXiv:1807.11939.
+[WR12] Ligong Wang and Renato Renner.
+One-shot
+classical-quantum capacity and hypothesis testing.
+Physical Review Letters, 108(20):200501, May 2012.
+arXiv:1007.5456.
+
+27
+[WW18] Xin Wang and Mark M. Wilde. Exact entanglement cost of quantum states and channels under PPT-preserving operations.
+September 2018.
+arXiv:1809.09592.
+[WW19] Xin Wang and Mark M. Wilde. Resource theory
+of asymmetric distinguishability. Physical Review Research, 1(3):033170, December 2019. arXiv:1905.11629.
+[WWS19] Xin Wang, Mark M. Wilde, and Yuan Su.
+Quantifying the magic of quantum channels. New
+Journal of Physics, 21(103002), September 2019.
+arXiv:1903.04483.
+[WWY14] Mark M. Wilde, Andreas Winter, and Dong
+Yang. Strong converse for the classical capacity of
+entanglement-breaking and Hadamard channels via a
+sandwiched Rényi relative entropy. Communications in
+Mathematical Physics, 331(2):593–622, October 2014.
+arXiv:1306.1586.
+[YLZ+ 19] Xiao Yuan, Yunchao Liu, Qi Zhao, Bartosz Regula,
+Jayne Thompson, and Mile Gu. Robustness of quantum
+memories: An operational resource-theoretic approach.
+July 2019. arXiv:1907.02521.
+[Yua19] Xiao Yuan. Relative entropies of quantum channels
+with applications in resource theory. Physical Review
+A, 99(3):032317, March 2019. arXiv:1807.05958.
+
+Generalized divergences
+
+A generalized divergence is a function D(ρkσ) taking
+arbitrary quantum states ρ and σ to the non-negative
+reals and such that the data processing inequality holds
+for an arbitrary quantum channel N [SW12]:
+D(ρkσ) ≥ D(N (ρ)kN (σ)).
+
+(A1)
+
+Generalized divergences of interest include the trace distance, the negative logarithm of the fidelity [Uhl76], the
+quantum relative entropy [Ume62], the Petz–Rényi relative entropy [Pet85, Pet86], and the sandwiched Rényi
+relative entropy [MLDS+ 13, WWY14].
+For completeness, we define the last three quantities
+now and refer to our companion paper [WW19] for further details of their properties. The quantum relative
+entropy D(ρkσ) is defined for states ρ and σ as
+D(ρkσ) := Tr[ρ(log2 ρ − log2 σ)]
+
+(A2)
+
+if supp(ρ) ⊆ supp(σ) and it is set to ∞ otherwise. The
+Petz–Rényi relative entropy is defined for states ρ and σ
+as [Pet86]
+Dα (ρkσ) :=
+
+1
+log2 Tr[ρα σ 1−α ]
+α−1
+
+(A3)
+
+if α ∈ (0, 1) or α ∈ (1, ∞) and supp(ρ) ⊆ supp(σ). If
+α ∈ (1, ∞) and supp(ρ) 6⊆ supp(σ), then Dα (ρkσ) :=
+∞ [TCR09]. The sandwiched Rényi relative entropy is
+defined for states ρ and σ as [MLDS+ 13, WWY14]
+e α (ρkσ) :=
+D
+
+D(N kM) := sup D(NA→B (ρRA )kMA→B (ρRA )), (A5)
+ρRA
+
+where the optimization is with respect to a quantum state
+ρRA such that the reference system is arbitrary. As observed in [LKDW18], the following simplification holds
+D(N kM) = sup D(NA→B (ψRA )kMA→B (ψRA )), (A6)
+ψRA
+
+where the optimization is with respect to pure states ψRA
+such that the reference system R is isomorphic to the
+channel input system A.
+The data processing inequality holds for the generalized channel divergence, with respect to a superchannel Θ:
+D(N kM) ≥ D(Θ(N )kΘ(M)),
+
+Appendix A: Background
+1.
+
+if α ∈ (0, 1) or α ∈ (1, ∞) and supp(ρ) ⊆ supp(σ). If
+e α (ρkσ) := ∞.
+α ∈ (1, ∞) and supp(ρ) 6⊆ supp(σ), then D
+A generalized channel divergence is defined from that
+for states, as presented above, given by the following function of quantum channels NA→B and MA→B
+[LKDW18]:
+
+1
+log2 Tr[(σ (1−α)/2α ρσ (1−α)/2α )α ]
+α−1
+(A4)
+
+(A7)
+
+as proved in [Gou19]. The inequality in (A7) follows from
+the definition in (A5) and the fact that the underlying
+generalized divergence D obeys the data processing inequality in (A1). Other applications and interpretations
+of channel divergences were considered in [Yua19].
+For an environment-parametrized channel box (N , M)
+with environment states ρE and σE , the following inequality holds [TW16]
+D(N kM) ≤ D(ρE kσE ).
+
+(A8)
+
+If the channel box is also environment seizable (see Section III A), then the opposite inequality D(N kM) ≥
+D(ρE kσE ) holds as well (as a consequence of (A7)), from
+which we conclude the following equality in this case:
+D(N kM) = D(ρE kσE ).
+
+(A9)
+
+Particular examples of generalized channel divergences
+are the channel min-relative entropy in (31), the smooth
+channel min-relative entropy in (41), and the channel
+max-relative entropy in (33). Other examples include
+those built from the relative entropy, the Petz–Rényi relative entropy, and the sandwiched Rényi relative entropy,
+as defined in [CMW16]. As such, the inequality in (A7)
+holds for all of these channel divergences, a property that
+we make extensive use of in what follows.
+It is not clear how to write the smooth channel maxrelative entropy in (43) as a generalized channel divergence. However, it does obey the data processing inequality in (A7), as the following simple argument demonstrates. Let N and M be arbitrary channels, and let Θ be
+e be a channel satisfying N
+e ≈ε N .
+a superchannel. Let N
+
+28
+Then, from the data processing inequality for the diamond distance with respect to superchannels, it follows
+e ) ≈ε Θ(N ). We then have that
+that Θ(N
+e kM) ≥ Dmax (Θ(N
+e )kΘ(M))
+Dmax (N
+ε
+≥ Dmax (Θ(N )kΘ(M)).
+
+(A10)
+(A11)
+
+The first inequality follows from the data processing inequality for Dmax of channels, and the second follows
+from the definition of the smooth channel max-relative
+e ) ≈ε Θ(N ). Since the inentropy and the fact that Θ(N
+e satisfying N
+e ≈ε N , we conclude
+equality holds for all N
+the desired data processing inequality:
+ε
+ε
+Dmax
+(N kM) ≥ Dmax
+(Θ(N )kΘ(M)).
+
+(A12)
+
+3.
+
+Semi-definite programs for diamond distance
+
+The normalized diamond distance between quantum
+channels NA→B and MA→B is given by the following
+primal and dual semi-definite programs [Wat09]:
+1
+kN − Mk
+2
+
+
+M
+Tr[ΩRB (ΓN
+RB − ΓRB )] :
+= sup
+Ω
+≤
+ρ
+⊗
+I
+,
+Tr[ρ
+RB
+R
+B
+R] = 1
+ρR ,ΩRB ≥0
+
+
+M
+µ : ZRB ≥ ΓN
+RB − ΓRB ,
+.
+= inf
+µIR ≥ TrB [ZRB ]
+µ,ZRB ≥0
+
+The latter expression is equal to
+
+M
+inf
+kTrB [ZRB ]k∞ : ZRB ≥ ΓN
+RB − ΓRB .
+ZRB ≥0
+
+2.
+
+
+(A19)
+(A20)
+
+(A21)
+
+Choi isomorphism for quantum channels
+
+The Choi isomorphism is a way of characterizing quantum channels that is suitable for optimizing over them in
+semi-definite programs. For a quantum channel NA→B ,
+its Choi operator is given by
+ΓN
+RB := NA→B (ΓRA ),
+
+(A13)
+
+where ΓRA = |ΓihΓ|RA and
+X
+|ΓiRA :=
+|iiR |iiA ,
+
+(A14)
+
+i
+
+with {|iiR }i and {|iiA } orthonormal bases. The Choi
+operator is positive semi-definite ΓN
+RB ≥ 0, corresponding to NA→B being completely positive, and satisfies
+TrB [ΓN
+RB ] = IR , the latter corresponding to NA→B being
+trace preserving. On the other hand, given an operator
+M
+M
+ΓM
+RB satisfying ΓRB ≥ 0 and TrB [ΓRB ] = IR , one realizes via postselected teleportation [Ben05] the following
+quantum channel:
+
+MA→B (ρA ) = hΓ|SR ρS ⊗ ΓM
+(A15)
+RB |ΓiSR
+= TrR [(TR (ρR ) ⊗ IB )ΓM
+RB ],
+
+(A16)
+
+where systems S, R, and A are isomorphic and the
+last line employs the facts that (MS ⊗ IR ) |ΓiSR =
+(IS ⊗ TR (MR )) |ΓiSR for TR the transpose map, defined
+as
+X
+TR (ρR ) =
+|iihj|R ρR |iihj|R ,
+(A17)
+
+4.
+
+Choi isomorphism for quantum superchannels
+
+Just as there is a Choi isomorphism for quantum channels, as reviewed in Appendix A 2, there is a Choi isomorphism for quantum superchannels [CDP08b, Gou19].
+To define it, we can exploit the known result that a
+quantum superchannel Θ(A→B)→(C→D) is in one-to-one
+correspondence with a bipartite channel LCB→AD that
+has no-signaling constraints [CDP08b, Gou19]. That is,
+as stated in (15), every superchannel Θ(A→B)→(C→D)
+can be physically realized by means of pre- and postprocessing channels EC→AM and DBM →D , respectively,
+such that (15) holds. The bipartite channel corresponding to EC→AM and DBM →D is then given by
+LCB→AD = DBM →D ◦ EC→AM ,
+
+(A22)
+
+i.e., where we do not “plug in” the channel NA→B to
+the ports A and B, and instead system B is available as
+input and system A is available as output. On the other
+hand, suppose that LCB→AD is a bipartite channel with
+the constraint that it is no-signaling from input system B
+to output system A. Then there exist channels EC→AM
+and DBM →D such that LCB→AD can be realized as in
+(A22), as proved in [ESW02], placing superchannels in
+one-to-one correspondence with bipartite channels that
+have a no-signaling constraint.
+Using this correspondence, we define the Choi operator of a superchannel Θ(A→B)→(C→D) with corresponding B 6→ A no-signaling bipartite channel LCB→AD as
+
+i,j
+
+and hΓ|SR (IS ⊗ XRB ) |ΓiSR = TrR [XRB ]. We often abbreviate the transpose map simply as
+ρTR = TR (ρR ).
+
+(A18)
+
+M
+Since the constraints ΓM
+RB ≥ 0 and TrB [ΓRB ] = IR are
+semi-definite, this is a useful way of incorporating optimizations over quantum channels into semi-definite programs.
+
+ΓΘ
+RC RB AD := LCB→AD (ΓRC C ⊗ ΓRB B ).
+
+(A23)
+
+The fact that Θ(A→B)→(C→D) preserves completely positivity corresponds to the condition ΓΘ
+RC RB AD ≥ 0, and
+the fact that Θ(A→B)→(C→D) preserves trace preservation corresponds to the condition ΓΘ
+RC RB = IRC RB .
+The no-signaling condition corresponds to ΓΘ
+RC RB A =
+ΓΘ
+⊗
+π
+,
+where
+π
+is
+the
+maximally
+mixed
+state.
+R
+R
+B
+B
+RC A
+Furthermore, as an extension of (A16), the Choi operator
+
+29
+ΓK
+RC D for the output channel KC→D of the superchannel
+Θ(A→B)→(C→D) , when the input is a channel NA→B with
+Choi operator ΓN
+RA B , is as follows:
+N
+Θ
+ΓK
+RC D = TrRA B [(TRA B (ΓRA B ) ⊗ IRC D )ΓRC RB AD ].
+(A24)
+This kind of formulation of a superchannel allows for incorporating optimizations over superchannels into semidefinite programs, as we do in Appendix B.
+
+Appendix B: General channel box transformation
+problem as a semi-definite program
+
+Here we prove the statement claimed at the end of
+Section IV, that the general channel box transformation problem stated in (19) can be solved by means of
+a semi-definite program. By employing the Choi representation of superchannels from Appendix A 4, as well
+as the semi-definite program for the diamond distance in
+Appendix A 3, we find that (19), as a function of channels NA→B , MA→B , KC→D , and LC→D , can be written
+as the following semi-definite program:
+inf
+
+ZCD , ΓΘ
+CBAD ≥0
+
+kTrD [ZCD ]k∞ ,
+
+(B1)
+
+subject to
+N T Θ
+ZCD ≥ ΓK
+CD − TrAB [(ΓAB ) ΓCBAD ],
+
+Appendix C: One-shot distillation and dilution of
+channel boxes
+1.
+
+Channel min-relative entropy as exact one-shot
+distillable distinguishability
+
+To establish (37), we first prove the inequality
+Dd0 (N , M) ≥ Dmin (N kM).
+
+Let Θ(A→B)→(C→D) be the superchannel that traces out
+the input C, prepares the pure state ψRA , transmits A
+through the unknown channel N or M, and then applies
+the following channel to systems R and B, where B is
+the output of the unknown channel:
+N (ψ)
+
+ωRB → Tr[ΠRB ωRB ]|0ih0|D
+N (ψ)
+
++ Tr[(IRB − ΠRB )ωRB ]|1ih1|D , (C2)
+N (ψ)
+
+and ΠRB is the projection onto the support of the state
+NA→B (ψRA ). By construction, if the unknown channel
+is NA→B , then the channel realized by the superchannel
+|0ih0|
+delineated above is the replacer channel RC→D . On the
+other hand, note that if ωRB = MA→B (ψRA ) is the input
+to the channel in (C2), then the output is the state πM ,
+where
+log2 M = Dmin (NA→B (ψRA )kMA→B (ψRA )).
+
+M T Θ
+ΓL
+CD = TrAB [(ΓAB ) ΓCBAD ],
+
+ΓΘ
+CB = ICB ,
+
+(C1)
+
+(C3)
+
+(B2)
+
+So the output in this latter case is the replacer channel
+M
+RπC→D
+. Taking a supremum over all input states ψRA
+then establishes the inequality in (C1).
+The opposite inequality
+
+ΓK
+CD := KC 0 →D (ΓCC 0 ),
+
+(B3)
+
+Dmin (N kM) ≥ Dd0 (N , M)
+
+ΓN
+AB := NA0 →B (ΓAA0 ),
+ΓM
+AB := MA0 →B (ΓAA0 ),
+
+(B4)
+
+Θ
+ΓΘ
+CBA = ΓCA ⊗ IB / |B| ,
+
+where we employ the shorthand
+
+(B5)
+
+with system C 0 isomorphic to system C and system A0
+isomorphic to system A.
+The dual of the semi-definite program in (B1)–(B2) is
+given by
+L
+sup Tr[ΓK
+CD YCD ] + Tr[ΓCD WCD ] + Tr[SCB ],
+
+(B6)
+
+subject to
+
+follows from the data processing inequality for
+Dmin (N kM) under the action of a superchannel. Let
+Θ be an arbitrary superchannel satisfying
+|0ih0|
+
+Θ(NA→B ) = RC→D ,
+M
+Θ(MA→B ) = RπC→D
+.
+
+Tr[MC ] ≤ 1,
+
+YCD ≤ MC ⊗ ID ,
+
+(B7)
+(B8)
+(B9)
+
+T
+IBD ⊗ TrB [LCBA ]/ |B| ≥ YCD ⊗ (ΓN
+AB )
+T
++ WCD ⊗ (ΓM
+AB ) + SCB ⊗ IAD
++ LCBA ⊗ ID . (B10)
+
+By employing strong duality, it follows that the optimal
+value of (B1)–(B2) is equal to the optimal value of (B6).
+
+(C5)
+(C6)
+
+Then it follows from (A7) that
+Dmin (N kM) ≥ Dmin (Θ(N )kΘ(M))
+
+YCD , MC ≥ 0,
+WCD , SCB , LCBA ∈ Herm,
+
+(C4)
+
+|0ih0|
+M
+= Dmin (RC→D kRπC→D
+)
+
+= Dmin (|0ih0|kπM )
+= log2 M,
+
+(C7)
+(C8)
+(C9)
+(C10)
+
+where the second-to-last equality follows from (A9), given
+that pairs of replacer channels are environment seizable,
+and the last equality follows by direct evaluation. Since
+the exact distillable distinguishability involves an optimization over all superchannels, the inequality in (C4)
+follows, and combined with (C1), we conclude (37).
+
+30
+2.
+
+Channel max-relative entropy as exact one-shot
+distinguishability cost
+
+follows from the data processing inequality for
+Dmax (N kM) under the action of a superchannel. Let
+Θ be an arbitrary superchannel satisfying
+
+To establish (38), we first prove the inequality
+Dc0 (N , M) ≤ Dmax (N kM).
+
+|0ih0|
+
+(C11)
+
+Recall the characterization of Dmax (N kM) from (34).
+Let λ be such that
+NA→B (ΦRA ) ≤ 2λ MA→B (ΦRA ).
+
+Θ(RC→D ) = NA→B ,
+M
+Θ(RπC→D
+) = MA→B .
+Then it follows from (A7) that
+log2 M = Dmax (|0ih0|kπM )
+
+(C12)
+
+|0ih0|
+
+M
+= Dmax (RC→D kRπC→D
+)
+
+|0ih0|
+M
+≥ Dmax (Θ(RC→D )kΘ(RπC→D
+))
+
+λ
+
+Then this means that 2 MA→B (ΦRA ) − NA→B (ΦRA ) ≥
+0, so that
+λ
+
+ωRA :=
+
+2 MA→B (ΦRA ) − NA→B (ΦRA )
+2λ − 1
+
+(C13)
+
+is a quantum state. Furthermore, since
+ λ
+
+2 MA→B (ΦRA ) − NA→B (ΦRA )
+TrB
+= πR , (C14)
+2λ − 1
+where πR is the maximally mixed state on system R, it
+follows that ωRA is the Choi state of a quantum channel
+0
+NA→B
+, so that
+0
+ωRA = NA→B
+(ΦRA ).
+
+2λ MA→B − NA→B
+.
+2λ − 1
+
+= Dmax (N kM),
+
+(C23)
+(C24)
+(C25)
+(C26)
+
+The first equality follows by direct evaluation, and the
+second follows from (A9), given that pairs of replacer
+channels are environment seizable. Since the exact distinguishability cost involves an optimization over all superchannels, the inequality in (C20) follows, and combined
+with (C11), we conclude (38).
+3.
+
+Semi-definite programs for smooth channel minand max-relative entropies
+
+(C15)
+
+In this appendix, we prove that the smooth channel min- and max-relative entropies are characterized by
+semi-definite programs, starting with the former. We
+note that Proposition 2 below was also found in [Fai19].
+
+(C16)
+
+Proposition 2 Let NA→B and MA→B be quantum
+channels and ε ∈ [0, 1]. The smooth channel min-relative
+entropy is given by the following primal semi-definite program:
+
+Furthermore, by linearity, we have that
+0
+NA→B
+=
+
+(C21)
+(C22)
+
+Then we construct the superchannel Θ(C→D)→(A→B)
+as follows. Let τC be a fixed state that is input to the
+|0ih0|
+M
+unknown replacer channel RC→D or RπC→D
+, where M =
+λ
+2 . Then we perform the following channel on the output
+system D and the input system A:
+PAD (ρA ⊗ σD ) := NA→B (ρA )h0|σD |0iD
+0
++ NA→B
+(ρA )h1|σD |1iD . (C17)
+|0ih0|
+
+In the case that the unknown channel is RC→D , the channel realized by this process is NA→B . In the case that
+M
+the unknown channel is RπC→D
+, the channel realized by
+this process is
+ 0
+2−λ NA→B + 1 − 2−λ NA→B
+= MA→B ,
+(C18)
+
+ε
+Dmin
+(N kM) =
+
+
+Tr[ΩRB ΓM
+
+RB ] :
+.
+− log2
+inf
+]
+≥
+1
+−
+ε,
+Tr[ΩRB ΓN
+RB
+ρR ,ΩRB ≥0 
+
+ΩRB ≤ ρR ⊗ IB , Tr[ρR ] = 1
+(C27)
+
+
+
+The dual semi-definite program is given by
+ε
+Dmin
+(N kM) =
+
+
+
+
+
+µ (1 − ε) − λ :
+
+M
+µΓN
+≤
+Γ
++
+Y
+,
+− log2 sup
+. (C28)
+RB
+RB
+RB
+λ,µ,YRB ≥0 
+TrB [YRB ] ≤ λIR 
+Proof. By definition, we have that
+
+demonstrating that
+Dc0 (N , M) ≤ λ.
+
+(C19)
+
+Now taking an infimum over all λ such that (C12) holds,
+we conclude the inequality in (C11).
+The opposite inequality
+
+ε
+ε
+Dmin
+(N kM) = sup Dmin
+(NA→B (ψRA )kMA→B (ψRA )),
+ψRA
+
+(C29)
+where
+ε
+Dmin
+(ρkσ) = − log2 inf {Tr[Λσ] : Tr[Λρ] ≥ 1 − ε, Λ ≤ I} .
+Λ≥0
+
+Dmax (N kM) ≤ Dc0 (N , M)
+
+(C20)
+
+(C30)
+
+31
+This then means that
+ε
+Dmin
+(N kM) =
+
+
+Tr[ΛRB MA→B (ψRA )] :
+
+
+Tr[ΛRB NA→B (ψRA )] ≥ 1 − ε,
+− log2
+inf
+.
+ψRA ,ΛRB ≥0 
+ ΛRB ≤2 IRB , Tr[ψRA ] = 1, 
+
+Tr[ψRA ] = 1, ψRA ≥ 0
+(C31)
+
+
+
+
+Consider that we can restrict the infimum above to being
+over all pure states ψRA such that the reduced state ψR
+is positive definite, i.e., ψR > 0, due to the fact that
+the set of all such states is dense in the set of all pure
+bipartite states. Note that we can write all such states
+†
+as ψRA = XR ΓRA XR
+for some operator XR such that
+†
+|XR | > 0 and Tr[XR
+XR ] = 1. Then it follows that
+Tr[ΛRB MA→B (ψRA )] = Tr[ΩRB ΓM
+RB ],
+
+(C32)
+
+Tr[ΛRB NA→B (ψRA )] = Tr[ΩRB ΓN
+RB ],
+0 ≤ ΛRB ≤ IRB
+
+⇐⇒
+
+(C33)
+0 ≤ ΩRB ≤ ρR ⊗ IB .
+(C34)
+
+†
+where we have defined ΩRB := XR
+ΛRB XR and ρR
+†
+XR XR . Then we can rewrite as
+
+:=
+
+ε
+Dmin
+(N kM) =
+
+
+Tr[ΩRB ΓM
+
+RB ] :
+.
+− log2
+inf
+Tr[ΩRB ΓN
+RB ] ≥ 1 − ε,
+ρR >0,ΩRB ≥0 
+
+ΩRB ≤ ρR ⊗ IB , Tr[ρR ] = 1
+(C35)
+
+
+
+Again using the fact that the set of positive-definite density operators is dense in the set of all density operators,
+we conclude (C27).
+The dual SDP is given by (C28), and its optimal value
+is equal to the optimal value of the primal SDP in (C27)
+by strong duality.
+Semi-definite programs for the channel min-relative entropy Dmin (N kM) are recovered by setting ε = 0 in
+(C27) and (C28).
+Proposition 3 Let NA→B and MA→B be quantum
+channels and ε ∈ [0, 1]. The smooth channel max-relative
+entropy is given by the following primal semi-definite program:
+ε
+Dmax
+(N kM) =
+
+
+
+
+
+
+
+λ:
+
+
+
+YRB ≤ λΓM
+, TrB [YRB ] = IR
+RB
+log2 inf
+. (C36)
+εIR ≥ TrB [ZRB ],
+
+λ,ZRB , 
+
+
+
+YRB ≥0 
+ZRB ≥ ΓN
+RB − YRB
+The dual semi-definite program is given by
+ε
+Dmax
+(N kM) =
+
+
+
+
+Tr[ZR ] − ε Tr[PR ] + Tr[YRB ΓN
+RB ] : 
+
+
+
+
+Tr[ΓM
+RB LRB ] ≤ 1,
+log2 sup
+.
+YRB ≤ PR ⊗ IB ,
+
+LRB ,PR , 
+
+
+
+
+YRB ≥0,
+ZR ⊗ IB + YRB ≤ LRB
+ZR ∈Herm
+
+(C37)
+Proof. The primal form in (C36) follows from the SDP
+formulation of the max-relative entropy and the SDP
+formulation of the diamond distance of two channels in
+(A20). By definition, we have that
+ε
+Dmax
+(N kM) =
+
+inf
+
+e −N k ≤ε
+e : 1 kN
+N
+2
+
+e kM).
+Dmax (N
+
+(C38)
+
+
+
+Considering that
+n
+o
+e
+M
+e kM) = log2 inf λ : ΓN
+Dmax (N
+(C39)
+RB ≤ λΓRB ,
+
+
+e
+N
+N
+1 e
+,
+µ
+:
+Z
+≥
+Γ
+−
+Γ
+RB
+RB
+RB
+,
+N − N = inf
+µ,ZRB ≥0
+µIR ≥ TrB [ZRB ]
+2
+
+(C40)
+the optimization in (C41) below follows by combining
+these, with YRB understood as the Choi operator for the
+e being optimized:
+channel N
+ε
+Dmax
+(N kM) =
+
+
+λ:
+
+
+
+
+
+
+, TrB [YRB ] = IR
+YRB ≤ λΓM
+RB
+. (C41)
+log2 inf
+εIR ≥ TrB [ZRB ],
+
+λ,ZRB , 
+
+
+
+YRB ≥0 
+N
+−Y
+Z
+≥Γ
+RB
+
+RB
+
+RB
+
+The dual program is given by (C37), and its optimal
+value is equal to the optimal value of (C36) by strong
+duality.
+Semi-definite programs for the channel max-relative
+entropy Dmax (N kM) are recovered by setting ε = 0 in
+(C36) and (C37).
+
+4. Smooth channel min-relative entropy as
+approximate one-shot distillable distinguishability
+
+In order to establish the equality in (44), we first prove
+the following inequality:
+ε
+Ddε (N , M) ≥ Dmin
+(N kM).
+
+(C42)
+
+Let ψRA be an arbitrary pure state and ΛRB a corresponding measurement operator satisfying 0 ≤ ΛRB ≤
+IRB and
+Tr[ΛRB NA→B (ψRA )] ≥ 1 − ε.
+
+(C43)
+
+Let Θ(A→B)→(C→D) be the superchannel that traces out
+the input C, prepares the pure state ψRA , transmits system A through the unknown channel N or M, and then
+
+32
+applies the following channel PRB→X to systems R and
+B, where B is the output of the unknown channel:
+PRB→X (ωRB ) := Tr[ΛRB ωRB ]|0ih0|X
++ Tr[(IRB − ΛRB ) ωRB ]|1ih1|X . (C44)
+With this construction, it follows that both
+Θ(A→B)→(C→D) (NA→B ) and Θ(A→B)→(C→D) (MA→B )
+are replacer channels, and we find that
+|0ih0|
+
+Θ(A→B)→(C→D) (NA→B ) ≈ε RC→D .
+
+(C45)
+
+Furthermore, the following equality holds
+M
+Θ(A→B)→(C→D) (MA→B ) = RπC→D
+,
+
+(C46)
+
+for
+M=
+
+1
+Tr[ΛRB MA→B (ψRA )]
+
+.
+
+(C47)
+
+The equality in (C45) follows from the reasoning in
+[WW19, Appendix F-1]. It then follows that
+Ddε (N , M) ≥ − log2 Tr[ΛRB MA→B (ψRA )].
+
+(C48)
+
+Optimizing over all such ψRA and ΛRB satisfying the
+constraints above, we conclude that
+ε
+Ddε (N , M) ≥ Dmin
+(N kM).
+
+(C49)
+
+We now prove the opposite inequality:
+ε
+Dmin
+(N kM) ≥ Ddε (N , M)
+
+(C50)
+
+Now let Θ(A→B)→(C→D) be an arbitrary superchannel
+satisfying
+|0ih0|
+
+Θ(A→B)→(C→D) (NA→B ) ≈ε RC→D ,
+M
+.
+Θ(A→B)→(C→D) (MA→B ) = RπC→D
+
+(C51)
+(C52)
+
+(C53)
+(C54)
+(C55)
+
+The first inequality follows from (A7) and the second
+equality from (C52). The last inequality follows from
+reasoning similar to that in [WW19, Appendix F-1]. Let
+∆(·) = |0ih0|(·)|0ih0| + |1ih1|(·)|1ih1| denote the com|0ih0|
+pletely dephasing channel. Since Θ(N ) ≈ε RC→D , we
+find from the data processing inequality for normalized
+trace distance and an arbitrary input state ψRC that
+1
+|0ih0|
+ε≥
+Θ(N )(ψRC ) − RC→D (ψRC )
+2
+1
+1
+|0ih0|
+≥
+Θ(N )(ψC ) − RC→D (ψC )
+2
+1
+
+(C58)
+(C59)
+(C60)
+
+which implies that h0|Θ(N )(ψC )|0i ≥ 1 − ε for all input states ψRC . Thus, we can take ΛRD = IR ⊗
+ε
+M
+|0ih0|D in the definition of Dmin
+(Θ(N )kRπC→D
+), and
+we have that Tr[ΛRD Θ(N )(ψRC )] ≥ 1 − ε while
+M
+Tr[ΛRD RπC→D
+(ψRC )] = 1/M for all input states ψRC .
+ε
+M
+Since Dmin (Θ(N )kRπC→D
+) involves an optimization over
+all measurement operators ΛRD and states ψRC satisfying Tr[ΛRD Θ(N )(ψRC )] ≥ 1 − ε, we conclude the inequality in (C55). Since the inequality holds for an arbitrary superchannel Θ(A→B)→(C→D) satisfying (C51)–
+(C52), we conclude (C50).
+Putting together (C42) and (C50), we conclude the
+ε
+equality in (44), i.e., Dmin
+(N kM) = Ddε (N , M).
+5. Smooth channel max-relative entropy as
+approximate one-shot distinguishability cost
+
+In order to establish the equality in (45), we first prove
+the following inequality:
+ε
+Dcε (N , M) ≤ Dmax
+(N kM).
+
+(C61)
+
+eA→B be a quantum channel satisfying N
+eA→B ≈ε
+Let N
+NA→B . Then by constructing a superchannel as we did
+eA→B instead of NA→B , we
+in Appendix C 2, but for N
+conclude the following inequality:
+e kM).
+Dcε (N , M) ≤ Dmax (N
+
+(C62)
+
+eA→B
+Then taking the infimum over all such channels N
+e
+satisfying NA→B ≈ε NA→B , we conclude the inequality
+in (C61).
+For the opposite inequality
+ε
+Dcε (N , M) ≥ Dmax
+(N kM),
+
+Then we find that
+ε
+ε
+Dmin
+(N kM) ≥ Dmin
+(Θ(N )kΘ(M))
+ε
+M
+= Dmin (Θ(N )kRπC→D
+)
+≥ log2 M.
+
+1
+kΘ(N )(ψC ) − |0ih0|k1
+2
+1
+≥ k∆(Θ(N )(ψC )) − ∆(|0ih0|)k1
+2
+= 1 − h0|Θ(N )(ψC )|0i,
+=
+
+(C63)
+
+let Θ be an arbitrary superchannel satisfying
+|0ih0|
+
+Θ(RC→D ) ≈ε NA→B ,
+M
+Θ(RπC→D
+) = MA→B .
+
+(C64)
+(C65)
+
+Then consider that
+log2 M = Dmax (|0ih0|kπM )
+
+(C66)
+
+(C56)
+
+|0ih0|
+M
+= Dmax (RC→D kRπC→D
+)
+|0ih0|
+M
+≥ Dmax (Θ(RC→D )kΘ(RπC→D
+))
+|0ih0|
+= Dmax (Θ(RC→D )kMA→B )
+ε
+≥ Dmax
+(NA→B kMA→B ).
+
+(C57)
+
+The second equality follows from (A9), given that pairs
+of replacer channels are environment seizable. The first
+
+(C67)
+(C68)
+(C69)
+(C70)
+
+33
+inequality follows from (A7). The last inequality follows
+from the definition in (43). Since the chain of inequalities
+holds for all superchannels Θ satisfying (C64)–(C65), we
+conclude (C63).
+Putting together (C61) and (C63), we conclude the
+ε
+(N kM).
+equality in (45), i.e., Dcε (N , M) = Dmax
+6.
+
+Limits of smooth channel min- and max-relative
+entropy
+
+Here we provide an alternate proof of the limits stated
+in (48)–(49), starting with (48). These proofs use some
+of the results from [WW19, Appendix A-3] as a starting
+point. Let ψRA be an arbitrary bipartite state. By the
+ε
+inequality Dmin
+(ρkσ) ≥ Dmin (ρkσ), which holds for all
+states ρ and σ and ε ∈ (0, 1), we conclude that
+ε
+Dmin
+(NA→B (ψRA )kMA→B (ψRA ))
+≥ Dmin (NA→B (ψRA )kMA→B (ψRA ))
+
+(C71)
+
+for all ε ∈ (0, 1). Now taking a supremum over all ψRA ,
+we find that
+ε
+Dmin
+(N kM) ≥ Dmin (N kM),
+
+(C72)
+
+for all ε ∈ (0, 1). Taking the limit, we conclude that
+ε
+lim inf Dmin
+(N kM) ≥ Dmin (N kM).
+ε→0
+
+(C73)
+
+For the other limit, recall the following inequality from
+[WW19, Appendix A-3], holding for all states ρ and σ,
+for ε ∈ (0, 1), and α ∈ (0, 1):
+
+Another proof for the inequality in (49) goes as follows.
+e = N , we conclude that N
+e ≈ε N , so that
+By taking N
+applying definitions gives
+ε
+Dmax (N kM) ≥ Dmax
+(N kM)
+
+(C78)
+
+for all ε ∈ (0, 1). Then applying a limit gives
+ε
+Dmax (N kM) ≥ lim sup Dmax
+(N kM).
+
+(C79)
+
+ε→0
+
+e is a channel satisfying N
+e ≈ε N for
+Now suppose that N
+ε ∈ (0, 1). Then this implies that
+1 e
+NA→B (ΦRA ) − NA→B (ΦRA ) ≤ ε,
+2
+1
+
+(C80)
+
+and applying an inequality from [WW19, Appendix A-3],
+we find that
+e kM) ≥
+Dmax (N
+
+1
+−1
+[MA→B (ΦRA )] 2 [NA→B (ΦRA )] 2
+log2 
+−1
+−2ε (MA→B (ΦRA ))
+
+
+∞ 
+
+(C81)
+
+∞
+
+e satSince this bound holds uniformly for all channels N
+e ≈ε N , we conclude that
+isfying N
+ε
+Dmax
+(N kM) ≥
+
+1
+−1
+[MA→B (ΦRA )] 2 [NA→B (ΦRA )] 2
+log2 
+−1
+−2ε (MA→B (ΦRA ))
+
+
+∞ 
+
+(C82)
+
+∞
+
+Now taking the limit ε → 0, we find that
+Dα (ρkσ) ≥
+"
+1−α #
+ε
+α
+1
+(1 − ε) 2−Dmin (ρkσ)
+log2
+1−α . (C74)
+ε
+α−1
++ εα 1 − 2−Dmin (ρkσ)
+
+ε
+lim inf Dmax
+(N kM) ≥ Dmax (N kM).
+ε→0
+
+(C83)
+
+Combining (C79) and (C83), we conclude the inequality
+in (49).
+
+Taking an optimization over all input states ψRA to the
+channels NA→B and MA→B , we conclude that
+Dα (N kM) ≥
+"
+1−α #
+ε
+α
+1
+(1 − ε) 2−Dmin (N kM)
+log2
+1−α . (C75)
+ε
+α−1
++ εα 1 − 2−Dmin (N kM)
+Taking the limit as ε → 0, we conclude that
+ε
+Dα (N kM) ≥ lim sup Dmin
+(N kM)
+
+(C76)
+
+ε→0
+
+for all α ∈ (0, 1). Now taking the limit of the left-hand
+side as α → 0, and applying arguments similar to those
+needed for [CMW16, Lemma 10], we conclude that
+ε
+Dmin (N kM) ≥ lim sup Dmin
+(N kM).
+
+(C77)
+
+ε→0
+
+Combining (C73) and (C77), we conclude the limit stated
+in (48).
+
+Appendix D: Upper bound on smooth max-relative
+entropy of classical–quantum channels
+
+The main purpose of this appendix is to prove Proposition 4, which establishes an upper bound on the smooth
+max-relative entropy of classical–quantum channels. We
+begin by noting a simple lemma:
+x
+Lemma 1 Let {ρxB }x∈X and {σB
+}x∈X be the output states of classical–quantum channels NX→B and
+MX→B , respectively, as defined in (82)–(83). Then we
+have that
+x
+kNX→B − MX→B k = sup kρxB − σB
+k1 ,
+
+(D1)
+
+x
+e α (NX→B kMX→B ) = sup D
+e α (ρxB kσB1
+D
+),
+
+(D2)
+
+x
+
+x
+
+where the latter equality holds for all α ∈ [1/2, 1)∪(1, ∞).
+
+34
+Proof. The second equality follows from [BHKW18,
+Lemma 26]. The proof of the first equality is similar
+to the proof of the second one. For completeness, we
+provide a proof. Let ψRX be an arbitrary pure bipartite
+quantum state (X is a quantum system here). Then the
+states resulting from the action of the classical–quantum
+channels on this state are as follows:
+X
+x
+ωRB :=
+p(x)ψR
+⊗ ρxB ,
+(D3)
+
+=
+=
+
+=
+
+x
+
+x
+
+inf
+
+sup 2Dmax (eρB kσB )
+
+inf
+
+sup
+
+sup
+
+{e
+ρx
+x∈X
+Λx
+B }x∈X :
+B ≥0,
+x
+1
+x
+ρx
+Tr[Λx
+B −ρB k1 ≤ε
+2 ke
+B σB ]≤1
+
+sup
+
+inf
+
+Tr[ΛxB ρexB ]
+
+sup
+
+{e
+ρx
+Λx
+{p(x)}x∈X
+B }x∈X :
+B ≥0,
+x
+x
+1
+x
+ke
+ρ
+Tr[Λx
+B −ρB k1 ≤ε
+2
+B σB ]≤1
+
+τRB :=
+
+x
+x
+p(x)ψR
+⊗ σB
+,
+
+(D4)
+
+X
+
+=
+
+sup
+{p(x)}x∈X
+
+x
+
+p(x) Tr[ΛxB ρexB ]
+
+x
+
+sup
+
+X
+
+inf
+
+x
+
+{e
+ρB }x∈X :
+Λx
+B ≥0,
+x
+x
+1
+x
+ke
+ρx
+Tr[Λx
+B −ρB k1 ≤ε
+B σB ]≤1 2
+
+p(x) Tr[ΛxB ρexB ].
+(D17)
+
+where
+p(x) := Tr[|xihx|X ψRX ],
+1
+x
+TrX [|xihx|X ψRX ].
+ψR
+:=
+p(x)
+
+(D5)
+(D6)
+
+Then it follows that
+kNX→B (ψRX ) − MX→B (ψRX )k1
+= kωRB − τRB k1
+X
+x
+x
+x
+≤
+p(x) kψR
+⊗ ρxB − ψR
+⊗ σB
+k1
+
+(D7)
+(D8)
+
+x
+
+=
+
+X
+
+(D9)
+
+x
+≤ sup kρxB − σB
+k1 .
+
+(D10)
+
+x
+
+So we have established a uniform upper bound for any
+possible bipartite input state. The upper bound is
+achieved by calculating the value of x that achieves the
+optimum and inputting |xihx|X to the channel box.
+The following proposition generalizes [WW19, Proposition 11] and [ABJT19, Theorem 3]. The main proof
+idea ultimately still has its roots in [JN12].
+x
+}x∈X be the outProposition 4 Let {ρxB }x∈X and {σB
+put states of classical–quantum channels NX→B and
+MX→B , respectively. Then the following bound holds for
+all α > 1 and ε ∈ (0, 1):
+ε
+e α (NX→B kMX→B )
+Dmax
+(NX→B kMX→B ) ≤ D
+ 
+
+
+1
+1
+1
+log2 2 + log2
+. (D11)
++
+α−1
+ε
+1 − ε2
+
+Proof. Consider that
+ε
+
+2Dmax (N kM)
+inf
+
+2Dmax (N kM)
+
+(D12)
+
+e
+
+e : 1 kN
+e −N k ≤ε
+N
+2
+
+
+
+
+≤
+
+inf
+
+{e
+ρx
+B }x∈X :
+x
+x
+1
+ke
+ρ
+B −ρB k1 ≤ε
+2
+
+The first inequality follows by restricting the optimization to be over classical–quantum channels. The
+last
+because the objective function
+P equalityx follows
+x
+p(x)
+Tr[Λ
+ρ
+e
+]
+is
+jointly
+concave with respect to
+B B
+x
+{p(x)}x∈X and {ΛxB }x∈X , and it is convex with respect
+to the states {e
+ρxB }x∈X . Also, the sets over which we are
+optimizing are convex and compact. Thus, the Sion minimax theorem applies [Sio58]. For each operator ΛxB , let
+its spectral decomposition be given as
+X
+ΛxB =
+λx,y |φx,y ihφx,y |B .
+(D18)
+y
+
+x
+p(x) kρxB − σB
+k1
+
+x
+
+=
+
+(D15)
+
+(D16)
+
+x
+
+X
+
+(D14)
+
+{e
+ρx
+x∈X
+B }x∈X :
+x
+x
+1
+ke
+ρ
+B −ρB k1 ≤ε
+2
+
+Dmax
+
+2
+
+L
+x
+
+ρ
+ex
+B
+
+L
+x
+
+x
+σB
+
+Then define the set Sx and the projection ΠxB as
+
+x
+Sx := y : hφx,y |B ρxB |φx,y iB > 2λ hφx,y |B σB
+|φx,y iB ,
+(D19)
+
+
+e α (N kM) + 1 log2 1
+λ := D
+α−1
+ε2
+X
+ΠxB :=
+|φx,y ihφx,y |B .
+
+
+,
+
+(D20)
+(D21)
+
+y∈Sx
+
+The above implies for all x ∈ X that
+Tr[ΠxB ρxB ]
+λ
+x] > 2 .
+Tr[ΠxB σB
+
+(D22)
+
+Then from the data processing inequality of the sandwiched Rényi relative entropy for α > 1 [FL13, Bei13]
+and by dropping terms, we find that
+e α (N kM)
+D
+
+α−1 !
+x x
+1
+Tr[Π
+ρ
+]
+B B
+≥
+log2 Tr[ΠxB ρxB ]
+x]
+α−1
+Tr[ΠxB σB
+
+α−1 
+1
+≥
+log2 Tr[ΠxB ρxB ] 2λ
+α−1
+1
+=
+log2 Tr[ΠxB ρxB ] + λ,
+α−1
+
+(D23)
+(D24)
+(D25)
+
+
+
+(D13)
+
+which in turn implies that
+Tr[ΠxB ρxB ] ≤ ε2 ,
+
+(D26)
+
+35
+for all x ∈ X . Then we find that
+Tr[Π̂xB ρxB ] ≥ 1 − ε2 ,
+
+(D27)
+
+e β (ρ0 kσ) − D
+e α (ρ1 kσ) ≥
+D
+
+for all x ∈ X , where
+Π̂xB := IB − ΠxB .
+
+(D28)
+
+We define the states
+ρexB :=
+
+Π̂xB ρxB Π̂xB
+
+Tr[Π̂xB ρxB ]
+Π̂x ρx Π̂x
+≤ B B 2B ,
+1−ε
+
+(D29)
+(D30)
+
+and we note that F (e
+ρxB , ρxB ) ≥ 1 − ε2 implies
+1 x
+ke
+ρ − ρxB k1 ≤ ε
+2 B
+
+(D31)
+
+≤ Tr[ΛxB Π̂xB ρxB Π̂xB ]
+
+(D32)
+
+= Tr[Π̂xB ΛxB Π̂xB ρxB ]
+
+(D33)
+
+X
+
+λx,y hφx,y |B ρxB |φx,y iB
+
+(D34)
+
+X
+
+(D35)
+
+y ∈S
+/ x
+
+≤ 2λ
+
+x
+λx,y hφx,y |B σB
+|φx,y iB
+
+y ∈S
+/ x
+x
+≤ 2λ Tr[ΛxB σB
+]
+λ
+
+≤2 .
+
+(D36)
+(D37)
+
+So this means that we have the following bound holding
+for all x ∈ X :
+
+
+1
+λ+log2 1−ε
+x x
+2
+Tr[ΛB ρeB ] ≤ 2
+.
+
+α
+log2 F (ρ0 , ρ1 ).
+1−α
+
+(E2)
+
+Let ψRA be a pure bipartite state. Applying the above
+inequality for states, we find that
+0
+e β (NA→B
+D
+(ψRA )kMA→B (ψRA ))
+1
+e α (NA→B
+≥D
+(ψRA )kMA→B (ψRA ))
+α
+0
+1
+log2 F (NA→B
++
+(ψRA ), NA→B
+(ψRA )). (E3)
+1−α
+
+Taking a supremum over all input states ψRA on the lefthand side, and an infimum on the right-hand side, we find
+that
+1
+e β (N 0 kM) ≥ D
+e α (NA→B
+D
+(ψRA )kMA→B (ψRA ))
+α
++
+log2 F (N 0 , N 1 ). (E4)
+1−α
+
+for all x ∈ X . Then we find that
+
+1 − ε2 Tr[ΛxB ρexB ]
+
+=
+
+Proof. Recall the following inequality from [WW19,
+Lemma 1] for states ρ0 , ρ1 , and σ:
+
+(D38)
+
+From this, we conclude (D11).
+Appendix E: Bounds for general one-shot or n-shot
+parallel channel box transformations
+
+In this appendix, we establish some bounds for general
+channel box transformations, by generalizing the results
+of [WW19] from states to channels. We begin with the
+following proposition:
+0
+1
+Proposition 5 Let NA→B
+, NA→B
+, and MA→B be
+0
+channels such that Dmax (N kM) < ∞. Then for α ∈
+(1/2, 1) and β := β(α) = α/ (2α − 1) > 1, the following
+inequality holds
+e β (N 0 kM) − D
+e α (N 1 kM) ≥ α log2 F (N 0 , N 1 ),
+D
+1−α
+(E1)
+e β (N 0 kM) and D
+e α (N 1 kM) are channel sandwhere D
+wiched Rényi relative entropies and F (N 0 , N 1 ) is the
+channel fidelity, each of which is defined from (A5) and
+the underlying functions of states.
+
+Since the above inequality holds for all input states ψRA ,
+we finally take another supremum to conclude (E1).
+0
+1
+Proposition 6 Let NA→B
+, NA→B
+, and MA→B be
+0
+channels such that Dmax (N kM) < ∞. Then for α ∈
+(0, 1) and β := β(α) = 2 − α > 1, the following inequality
+holds
+
+Dβ (N 0 kM) − Dα (N 1 kM)
+
+
+1
+2
+0
+1
+log2 1 −
+N − N  . (E5)
+≥
+1−α
+2
+where Dβ (N 0 kM) and Dα (N 1 kM) are channel Petz–
+Rényi relative entropies, each of which is defined from
+(A5) and the underlying functions of states.
+Proof. This is a consequence of the following inequality
+from [WW19, Lemma 4], for states ρ0 , ρ1 , and σ, and
+the same reasoning as in the proof of Proposition 5:
+
+
+2
+1
+Dβ (ρ0 kσ) − Dα (ρ1 kσ) ≥
+log2 1 − kρ0 − ρ1 k1 ,
+1−α
+2
+(E6)
+concluding the proof.
+We can then use the above bounds for channels to establish converse bounds for general channel box transformation protocols.
+Proposition 7 Let NA→B , MA→B , KC→D , LC→D be
+quantum channels, and let Θ(A→B)→(C→D) be a superchannel such that Θ(M) = L. For α ∈ (1/2, 1) and
+β := β(α) = α/ (2α − 1) > 1, the following inequality
+holds
+e β (N kM) ≥ D
+e α (KkL) + α log2 F (Θ(N ), K),
+D
+1−α
+(E7)
+
+36
+and for α0 ∈ (0, 1) and β 0 := β 0 (α0 ) := 2 − α0 ∈ (1, 2), the
+following inequality holds
+
+Proof. Applying Proposition 7, we conclude that
+
+Dβ 0 (N kM) ≥ Dα0 (KkL)
+
+e α (K⊗m kL⊗m ) +
+≥D
+
+
+
+1
+2
+log
+1
+−
+kΘ(N
+)
+−
+Kk
++
+2
+ .
+1 − α0
+2
+(E8)
+Proof. As a consequence of the data processing inequality for channel divergences with respect to superchannels,
+we find that
+e β (N kM)
+D
+e β (Θ(N )kΘ(M))
+≥D
+
+(E9)
+
+e β (Θ(N )kL)
+=D
+
+(E10)
+
+e α (KkL) + α log2 F (Θ(N ), K),
+≥D
+1−α
+
+(E11)
+
+where the last inequality follows from Proposition 5.
+The inequality in (E8) follows similarly from data processing but then using Proposition 6.
+We can now use these one-shot bounds to establish
+converse bounds on the rate at which it is possible to
+convert the n-fold channel box (N ⊗n , M⊗n ) to the mfold channel box (K⊗m , L⊗m ).
+Proposition 8 Let channels NA→B , MA→B , KC→D ,
+LC→D be given and suppose that there exists an (n, m, ε)
+channel box transformation protocol (i.e., a superchannel
+Θ(n) such that Θ(n) (N ⊗n ) ≈ε K⊗m and Θ(n) (M⊗n ) =
+L⊗m ). Then for α ∈ (1/2, 1) and β := β(α) =
+α/ (2α − 1) > 1, the following bound holds
+m
+≥
+(m)
+e
+n
+Dα (KkL)
+
+The second inequality follows from the fact that
+√
+
+1
+Θ(n) (N ⊗n ) − K⊗m .
+2
+
+(E17)
+The other inequality follows from similar reasoning but
+instead using data processing and (E8).
+F (Θ(n) (N ⊗n ), K⊗m ) ≥ 1 −
+
+Corollary 1 Let (N , M) and (K, L) be channel boxes
+such that
+e (n) (N kM) = D
+e β (N kM),
+D
+β
+
+(E18)
+
+e α(m) (KkL) = D
+e α (KkL),
+D
+
+(E19)
+
+for n, m ≥ 1, α ∈ (1/2, 1), and β := β(α) =
+α/ (2α − 1) > 1. Then the following bound applies to
+an (n, m, ε) general channel box transformation protocol:
+e β (N kM)
+D
+m
+≥
+e
+n
+Dα (KkL)
++
+
+2α
+log2 (1 − ε). (E20)
+e α (KkL)
+n (1 − α) D
+
+Alternatively, suppose that (N , M) and (K, L) satisfy
+(n)
+
+(E21)
+
+(m)
+
+(E22)
+
+Dα0 (KkL) = Dα0 (KkL),
+
+2α
+log2 (1 − ε). (E12)
+e α(m) (KkL)
+n (1 − α) D
+
+For α0 ∈ (0, 1) and β 0 := β 0 (α0 ) := 2 − α0 ∈ (1, 2), the
+following bound holds
+
+for n, m ≥ 1, α0 ∈ (0, 1), and β 0 := β 0 (α0 ) := 2 − α0 ∈
+(1, 2). Then the following bound holds
+Dβ 0 (N kM)
+m
+≥
+Dα0 (KkL)
+n
++
+
+(n)
+Dβ 0 (N kM)
+m
+≥
+(m)
+n
+Dα0 (KkL)
+
++
+
+α
+log2 F (Θ(n) (N ⊗n ), K⊗m )
+1−α
+√
+e α (K⊗m kL⊗m ) + 2α log2 F (Θ(n) (N ⊗n ), K⊗m )
+=D
+1−α
+⊗m
+⊗m
+e α (K kL ) + 2α log2 (1 − ε).
+≥D
+(E16)
+1−α
+
+Dβ 0 (N kM) = Dβ 0 (N kM),
+
+e (n) (N kM)
+D
+β
+
++
+
+e β (N ⊗n kM⊗n )
+D
+
+2
+(m)
+n (1 − α0 ) Dα0 (KkL)
+
+log2 (1 − ε). (E13)
+
+In the above,
+e (n) (N kM) := 1 D
+e β (N ⊗n kM⊗n ),
+D
+β
+n
+1
+(n)
+Dβ 0 (N kM) := Dβ 0 (N ⊗n kM⊗n ),
+n
+with a similar definition for the other quantities.
+
+(E14)
+(E15)
+
+2α
+log2 (1 − ε). (E23)
+n (1 − α) Dα0 (KkL)
+
+Proof. This is a direct consequence of Proposition 8
+and the additivity relations assumed in (E18)–(E19) and
+(E21)–(E22).
+Remark 2 The desired additivity relations in (E18)–
+(E19) and (E21)–(E22) hold for channel boxes that are
+classical–quantum or environment seizable [BHKW18].
+Thus, by applying reasoning similar to that given in
+[WW19, Appendix J], we conclude the following strong
+converse bound for these channel boxes:
+ep ((N , M) → (K, L)) ≤ D(N kM) .
+R
+D(KkL)
+
+(E24)
+
+37
+The lower bound (achievability)
+Rp ((N , M) → (K, L)) ≥
+
+D(N kM)
+.
+D(KkL)
+
+(E25)
+
+follows from combining a distillation protocol with a dilution protocol for these channel boxes, as well as reasoning
+similar to that given in [WW19, Appendix J], and along
+with the fact that the rates D(N kM) and D(KkL) are
+achievable for these tasks and these channel boxes. Thus,
+the asymptotic parallel box transformation problem has a
+simple solution for these channel boxes.
+
+Appendix F: Bounding the smooth channel
+max-relative entropy in terms of channel relative
+entropies
+
+In this appendix, we provide lower bounds for the
+smooth channel max-relative entropy in terms of the
+channel sandwiched and Petz–Rényi relative entropies.
+Proposition 9 Let NA→B and MA→B be quantum
+channels. Then the following bound holds for all α ∈
+[1/2, 1) and ε ∈ [0, 1):
+ε
+e α (N kM)+
+Dmax
+(N kM) ≥ D
+
+
+
+1
+2α
+log2
+. (F1)
+α−1
+1−ε
+
+e to be a
+Proof. First fix α ∈ (1/2, 1). Then pick N
+e
+channel such that N ≈ε N . We find for β := α/(2α − 1)
+that
+e kM)
+Dmax (N
+e β (N
+e kM)
+≥D
+
+(F2)
+
+e, N)
+e α (N kM) + α log2 F (N
+≥D
+1−α
+√
+e α (N kM) + 2α log2 F (N
+e, N)
+=D
+1−α
+e α (N kM) + 2α log2 (1 − ε).
+≥D
+1−α
+
+(F3)
+(F4)
+(F5)
+
+The first inequality follows from the fact that the
+sandwiched Rényi relative entropies are monotone
+e α = Dmax [MLDS+ 13]. The
+[MLDS+ 13] and limα→∞ D
+second inequality follows from Proposition 5. The final
+inequality follows because
+1−
+
+√
+
+e, N) ≤ 1 N
+e −N
+F (N
+2
+
+
+
+.
+
+(F6)
+
+e satSince the bound holds for an arbitrary channel N
+e
+isfying N ≈ε N , we conclude (F1). The inequality for
+α = 1/2 follows by taking a limit.
+Another lower bound on the smooth channel maxrelative entropy is as follows:
+
+Proposition 10 Let NA→B and MA→B be quantum
+channels. Then the following bound holds for all α ∈
+[0, 1) and ε ∈ [0, 1):
+
+
+2
+1
+ε
+Dmax
+(N kM) ≥ Dα (N kM)+
+log2
+. (F7)
+α−1
+1−ε
+e to be a channel
+Proof. First fix α ∈ (0, 1). Then pick N
+e
+such that N ≈ε N . We find for β := 2 − α that
+e kM)
+Dmax (N
+e kM)
+≥ Dβ (N
+
+(F8)
+
+
+2
+1 e
+N −N
+≥ Dα (N kM) +
+log2 1 −
+1−α
+2
+2α
+≥ Dα (N kM) +
+log2 (1 − ε).
+1−α
+
+
+
+
+(F9)
+(F10)
+
+The first inequality follows from the fact that Dmax ≥ D2
+[JRS+ 16, WW19] and the Petz–Rényi relative entropies
+are monotone with respect to β [TCR09]. The second
+inequality follows from Proposition 6. Since the bound
+e satisfying N
+e ≈ε N , we
+holds for an arbitrary channel N
+conclude (F7). The inequality for α = 0 follows by taking
+a limit.
+Appendix G: Quantum strategy and sequential
+channel box transformations
+1.
+
+Bounds for general n-round strategy box
+transformations
+
+In this appendix, we provide bounds for general nround strategy box transformations. These bounds are
+similar in some regards to those given in Appendix E, following essentially the same line of reasoning to establish
+them.
+Proposition 11 Let N (n) , L(n) , and M(n) be quantum
+strategies such that Dmax (N (n) kM(n) ) < ∞. Then for
+α ∈ (1/2, 1) and β := β(α) = α/ (2α − 1) > 1, the following inequality holds
+e β (N (n) kM(n) ) − D
+e α (L(n) kM(n) )
+D
+α
+≥
+log2 F (N (n) , L(n) ), (G1)
+1−α
+where F (N (n) , L(n) ) is the strategy fidelity of [GRS18].
+Proof. Recall the following inequality from [WW19,
+Lemma 1] for states ρ0 , ρ1 , and σ:
+e β (ρ0 kσ) − D
+e α (ρ1 kσ) ≥
+D
+
+α
+log2 F (ρ0 , ρ1 ).
+1−α
+
+(G2)
+
+Applying the above inequality for states, and defining
+τRn Bn from L(n) in an analogous fashion to ρRn Bn and
+σRn Bn in (107) and (108), respectively, we find that
+
+38
+e β (ρR B kσR B )
+D
+n n
+n n
+e α (τR B kσR B )
+≥D
+n n
+n n
+α
++
+log2 F (ρRn Bn , τRn Bn ). (G3)
+1−α
+Taking
+a
+supremum
+over
+all
+co-strategies
+{ρR1 A1 , {AiRi Bi →Ri+1 Ai+1 }n−1
+}
+on
+the
+left-hand
+side,
+i=1
+and an infimum on the right-hand side, we find that
+e β (N (n) kM(n) ) ≥ D
+e α (τR B kσR B )
+D
+n n
+n n
+α
+log2 F (N (n) , L(n) ). (G4)
++
+1−α
+Since the above inequality holds for all co-strategies
+{ρR1 A1 , {AiRi Bi →Ri+1 Ai+1 }n−1
+i=1 }, we finally take another
+supremum to conclude (G1).
+Proposition 12 Let N (n) , L(n) , and M(n) be quantum
+strategies such that Dmax (N (n) kM(n) ) < ∞. Then for
+α ∈ (0, 1) and β := β(α) = 2 − α > 1, the following
+inequality holds
+Dβ (N (n) kM(n) ) − Dα (L(n) kM(n) )
+
+
+2
+1
+≥
+log2 1 −
+N (n) − L(n)
+, (G5)
+1−α
+2
+n
+where N (n) − L(n) n denotes the quantum strategy distance of [CDP08a, CDP09, Gut12].
+Proof. This is a consequence of the following inequality
+from [WW19, Lemma 4], for states ρ0 , ρ1 , and σ, and
+the same reasoning as in the proof of Proposition 11:
+
+
+1
+2
+log2 1 − kρ0 − ρ1 k1 ,
+Dβ (ρ0 kσ) − Dα (ρ1 kσ) ≥
+1−α
+2
+(G6)
+concluding the proof.
+We can then use the above bounds for quantum strategies to establish converse bounds for general strategy box
+transformation protocols.
+Proposition 13 Let N (n) , M(n) , K(m) , L(m) be quantum strategies, and let Θ(n→m) be a physical transformation such that Θ(n→m) (M(n) ) = L(m) . For α ∈ (1/2, 1)
+and β := β(α) = α/ (2α − 1) > 1, the following inequality holds
+e β (N (n) kM(n) ) ≥ D
+e α (K(m) kL(m) )
+D
+α
++
+log2 F (Θ(n→m) (N (n) ), K(m) ). (G7)
+1−α
+For α0 ∈ (0, 1) and β 0 := β 0 (α0 ) := 2 − α0 ∈ (1, 2), the
+following inequality holds
+Dβ 0 (N (n) kM(n) ) ≥ Dα0 (K(m) kL(m) )
+
+
+2
+1
+(n→m)
+(n)
+(m)
++
+log2 1 −
+Θ
+(N ) − K
+. (G8)
+1 − α0
+2
+
+
+Proof. As a consequence of the data processing inequality for the quantum strategy divergence with respect to
+physical transformations (Theorem 4), we find that
+e β (N (n) kM(n) )
+D
+e β (Θ(n→m) (N (n) )kΘ(n→m) (M(n) ))
+≥D
+e β (Θ(n→m) (N (n) )kL(m) )
+=D
+e α (K(m) kL(m) )
+≥D
+α
+log2 F (Θ(n→m) (N (n) ), K(m) ),
++
+1−α
+
+(G9)
+(G10)
+
+(G11)
+
+where the last inequality follows from Proposition 11.
+The inequality in (G8) follows similarly from data processing but then using Proposition 12.
+We can now use these bounds to establish converse
+bounds on the rate at which it is possible to convert the
+quantum strategy box (N (n) , M(n) ) to the strategy box
+(K(m) , L(m) ).
+Proposition 14 Let quantum strategies N (n) , M(n) ,
+K(m) , L(m) be given and suppose that there exists an (n, m, ε) strategy box transformation protocol (i.e., a physical transformation Θ(n→m) such that
+Θ(n→m) (N (n) ) ≈ε K(m) and Θ(n→m) (M(n) ) = L(m) ).
+Then for α ∈ (1/2, 1) and β := β(α) = α/ (2α − 1) > 1,
+the following bound holds
+e β (N (n) kM(n) )/n
+D
+m
+≥
+(m)
+(m)
+e
+n
+Dα (K kL )/m
++
+
+2α
+log2 (1 − ε). (G12)
+e
+n (1 − α) Dα (K(m) kL(m) )/m
+
+For α0 ∈ (0, 1) and β 0 := β 0 (α0 ) := 2 − α0 ∈ (1, 2), the
+following bound holds
+Dβ 0 (N (n) kM(n) )/n
+m
+≥
+n
+Dα0 (K(m) kL(m) )/m
+2
++
+log2 (1 − ε). (G13)
+n (1 − α0 ) Dα0 (KkL(m) )/m
+Proof. Applying Proposition 13, we conclude that
+e β (N (n) kM(n) )
+D
+e α (K(m) kL(m) )
+≥D
+α
++
+log2 F (Θ(n→m) (N (n) ), K(m) )
+1−α
+e α (K(m) kL(m) )
+=D
+√
+2α
++
+log2 F (Θ(n→m) (N (n) ), K(m) )
+1−α
+2α
+e
+≥ Dα (K(m) kL(m) ) +
+log2 (1 − ε).
+1−α
+
+(G14)
+
+(G15)
+(G16)
+
+The second inequality follows from the fact that [GRS18]
+√
+
+F (Θ(n) (N (n) ), K(m) )
+
+39
+≥1−
+
+1
+Θ(n) (N (n) ) − K(m) . (G17)
+2
+
+
+The other inequality follows from similar reasoning but
+instead using data processing and (G8).
+Corollary 2 Let (N (n) , M(n) ) and (K(m) , L(m) ) be sequential channel boxes such that
+e β (N (n) kM(n) )/n = D
+e β (N kM),
+D
+e α (K(m) kL(m) )/m = D
+e α (KkL),
+D
+
+(G19)
+
+2α
+log2 (1 − ε). (G20)
+e α (KkL)
+n (1 − α) D
+(N (n) , M(n) )
+
+that
+
+Dβ 0 (N (n) kM(n) )/n = Dβ 0 (N kM),
+Dα0 (K
+
+(m)
+
+(m)
+
+kL
+
+0
+
+)/m = Dα0 (KkL),
+0
+
+0
+
+and
+
+(G21)
+(G22)
+
+0
+
+0
+
+for n, m ≥ 1, α ∈ (0, 1), and β := β (α ) := 2 − α ∈
+(1, 2). Then the following bound holds
+m
+Dβ 0 (N kM)
+≥
+Dα0 (KkL)
+n
++
+
+In [BHKW18], the notion of amortized channel divergence of a channel box (N , M) was introduced as
+DA (N kM) :=
+sup D(NA→B (ρRA )kMA→B (σRA ))−D(ρRA kσRA ),
+ρRA ,σRA
+
+e β (N kM)
+m
+D
+≥
+e
+n
+Dα (KkL)
+
+Alternatively,
+suppose
+(K(m) , L(m) ) satisfy
+
+Sequential channel box transformations and
+amortized channel divergence
+
+(G18)
+
+for n, m ≥ 1, α ∈ (1/2, 1), and β := β(α) =
+α/ (2α − 1) > 1. Then the following bound applies to
+an (n, m, ε) general channel box transformation protocol:
+
++
+
+2.
+
+2
+log2 (1 − ε). (G23)
+n (1 − α0 ) Dα0 (KkL)
+
+Proof. This is a direct consequence of Proposition 14
+and the relations assumed in (G18)–(G19) and (G21)–
+(G22).
+
+(G24)
+where the optimization is with respect to input states
+ρRA and σRA , and the system R has unbounded dimension. The intuition behind this quantity is that it represents the largest net distinguishability that can be generated by the channels N and M if we are allowed to start
+with some distinguishability to begin with, in the form
+of the state box (ρRA , σRA ).
+Suppose now that we have a sequential channel box
+(N (n) , M(n) ), where N (n) consists of a sequence of n
+uses of N and M(n) consists of a sequence of n uses
+of M. As stated earlier, this sequential channel box is
+a special kind of strategy box. Then by employing the
+same reasoning as in the proof of [BHKW18, Lemma 14],
+we conclude that the amortized channel divergence is an
+upper bound on the normalized strategy divergence of
+(N (n) , M(n) ):
+1
+D(N (n) kM(n) ) ≤ DA (N kM).
+n
+
+(G25)
+
+For some channel boxes and choices of divergences,
+the inequality in (G25) is saturated as a consequence
+of the amortized channel divergence collapsing to the
+usual channel divergence [BHKW18]. This occurs for all
+classical–quantum or environment-seizable channel boxes
+paired up with the Petz–Rényi relative entropy, the sandwiched Rényi relative entropy, or the quantum relative
+entropy [BHKW18]. Thus, for these channels, the desired relations in (G18)–(G19) and (G21)–(G22) hold, so
+that the bounds in (G20) and (G23) hold for these channels.
+
+

@@ -1,0 +1,160 @@
+{
+  "queue_id": "wiki_processing_webui_deepresearch_candidate_sources_2026_04_10",
+  "created_on": "2026-04-10",
+  "purpose": "Candidate citations extracted from audited GitHub WebUI Pro/Deep Research return branches. These are queued as support candidates, not downloaded evidence or canon.",
+  "audit_result": "pass_with_cautions",
+  "source_branches": [
+    "origin/pro/deepresearch-gap-audit-20260410",
+    "origin/pro/deepresearch-thermo-lane-20260410",
+    "origin/pro/deepresearch-distinguishability-20260410"
+  ],
+  "entries": [
+    {
+      "domain": "distinguishability_resource_theory",
+      "citation": "Torgersen (1991) Comparison of Statistical Experiments",
+      "source_branch": "origin/pro/deepresearch-gap-audit-20260410",
+      "owner_pages": [
+        "/Users/joshuaeisenhart/wiki/concepts/distinguishability-formal-reference.md"
+      ],
+      "status": "candidate_citation_from_audited_webui_return"
+    },
+    {
+      "domain": "distinguishability_resource_theory",
+      "citation": "Audenaert et al. (2007) Discriminating States: The Quantum Chernoff Bound",
+      "source_branch": "origin/pro/deepresearch-gap-audit-20260410",
+      "owner_pages": [
+        "/Users/joshuaeisenhart/wiki/concepts/distinguishability-formal-reference.md"
+      ],
+      "status": "candidate_citation_from_audited_webui_return"
+    },
+    {
+      "domain": "distinguishability_resource_theory",
+      "citation": "Hughston, Jozsa, Wootters (1993) A Complete Classification of Quantum Ensembles Having a Given Density Matrix",
+      "source_branch": "origin/pro/deepresearch-distinguishability-20260410",
+      "owner_pages": [
+        "/Users/joshuaeisenhart/wiki/concepts/distinguishability-formal-reference.md"
+      ],
+      "status": "candidate_citation_from_audited_webui_return"
+    },
+    {
+      "domain": "distinguishability_resource_theory",
+      "citation": "Abramsky and Brandenburger (2011) The Sheaf-Theoretic Structure of Non-Locality and Contextuality",
+      "source_branch": "origin/pro/deepresearch-distinguishability-20260410",
+      "owner_pages": [
+        "/Users/joshuaeisenhart/wiki/concepts/distinguishability-formal-reference.md",
+        "/Users/joshuaeisenhart/wiki/concepts/topos-quantum-mechanics-reference.md"
+      ],
+      "status": "candidate_citation_from_audited_webui_return"
+    },
+    {
+      "domain": "process_relational_topos",
+      "citation": "Heunen, Landsman, Spitters (2009) A Topos for Algebraic Quantum Theory",
+      "source_branch": "origin/pro/deepresearch-distinguishability-20260410",
+      "owner_pages": [
+        "/Users/joshuaeisenhart/wiki/concepts/topos-quantum-mechanics-reference.md",
+        "/Users/joshuaeisenhart/wiki/concepts/distinguishability-formal-reference.md"
+      ],
+      "status": "candidate_citation_from_audited_webui_return"
+    },
+    {
+      "domain": "information_geometry",
+      "citation": "Petz and Ghinea (2011) Introduction to Quantum Fisher Information",
+      "source_branch": "origin/pro/deepresearch-gap-audit-20260410",
+      "owner_pages": [
+        "/Users/joshuaeisenhart/wiki/concepts/information-geometry-reference.md"
+      ],
+      "status": "candidate_citation_from_audited_webui_return"
+    },
+    {
+      "domain": "attractors_viability",
+      "citation": "Mitchell, Bayen, Tomlin (2005) A Time-Dependent Hamilton-Jacobi Formulation of Reachable Sets for Continuous Dynamic Games",
+      "source_branch": "origin/pro/deepresearch-gap-audit-20260410",
+      "owner_pages": [
+        "/Users/joshuaeisenhart/wiki/concepts/viability-theory-reference.md"
+      ],
+      "status": "candidate_citation_from_audited_webui_return"
+    },
+    {
+      "domain": "attractors_viability",
+      "citation": "Conley (1978) Isolated Invariant Sets and the Morse Index",
+      "source_branch": "origin/pro/deepresearch-gap-audit-20260410",
+      "owner_pages": [
+        "/Users/joshuaeisenhart/wiki/concepts/attractor-basins-formal-reference.md"
+      ],
+      "status": "candidate_citation_from_audited_webui_return"
+    },
+    {
+      "domain": "attractors_viability",
+      "citation": "Bovier and den Hollander Metastability: A Potential-Theoretic Approach",
+      "source_branch": "origin/pro/deepresearch-gap-audit-20260410",
+      "owner_pages": [
+        "/Users/joshuaeisenhart/wiki/concepts/attractor-basins-formal-reference.md",
+        "/Users/joshuaeisenhart/wiki/concepts/stochastic-thermodynamics-reference.md"
+      ],
+      "status": "candidate_citation_from_audited_webui_return"
+    },
+    {
+      "domain": "stochastic_thermodynamics",
+      "citation": "Parrondo, Horowitz, Sagawa (2015) Thermodynamics of Information",
+      "source_branch": "origin/pro/deepresearch-gap-audit-20260410",
+      "owner_pages": [
+        "/Users/joshuaeisenhart/wiki/concepts/stochastic-thermodynamics-reference.md"
+      ],
+      "status": "candidate_citation_from_audited_webui_return"
+    },
+    {
+      "domain": "stochastic_thermodynamics",
+      "citation": "Reeb and Wolf (2014) An improved Landauer principle with finite-size corrections",
+      "source_branch": "origin/pro/deepresearch-thermo-lane-20260410",
+      "owner_pages": [
+        "/Users/joshuaeisenhart/wiki/concepts/stochastic-thermodynamics-reference.md"
+      ],
+      "status": "candidate_citation_from_audited_webui_return"
+    },
+    {
+      "domain": "stochastic_thermodynamics",
+      "citation": "Faist et al. (2015) Minimal Work Cost of Information Processing",
+      "source_branch": "origin/pro/deepresearch-thermo-lane-20260410",
+      "owner_pages": [
+        "/Users/joshuaeisenhart/wiki/concepts/stochastic-thermodynamics-reference.md"
+      ],
+      "status": "candidate_citation_from_audited_webui_return"
+    },
+    {
+      "domain": "stochastic_thermodynamics",
+      "citation": "Sagawa and Ueda (2009) Minimal Energy Cost for Thermodynamic Information Processing: Measurement and Information Erasure",
+      "source_branch": "origin/pro/deepresearch-thermo-lane-20260410",
+      "owner_pages": [
+        "/Users/joshuaeisenhart/wiki/concepts/stochastic-thermodynamics-reference.md"
+      ],
+      "status": "candidate_citation_from_audited_webui_return"
+    },
+    {
+      "domain": "stochastic_thermodynamics",
+      "citation": "Sagawa and Ueda (2010) Generalized Jarzynski Equality under Nonequilibrium Feedback Control",
+      "source_branch": "origin/pro/deepresearch-thermo-lane-20260410",
+      "owner_pages": [
+        "/Users/joshuaeisenhart/wiki/concepts/stochastic-thermodynamics-reference.md"
+      ],
+      "status": "candidate_citation_from_audited_webui_return"
+    },
+    {
+      "domain": "llm_failure_modes",
+      "citation": "Casper et al. (2023) Open Problems and Fundamental Limitations of Reinforcement Learning from Human Feedback",
+      "source_branch": "origin/pro/deepresearch-gap-audit-20260410",
+      "owner_pages": [
+        "/Users/joshuaeisenhart/wiki/concepts/llm-bias-and-failure-modes-reference.md"
+      ],
+      "status": "candidate_citation_from_audited_webui_return"
+    },
+    {
+      "domain": "chinese_philosophy",
+      "citation": "Ziporyn (2009) Zhuangzi: The Essential Writings with Selections from Traditional Commentaries",
+      "source_branch": "origin/pro/deepresearch-gap-audit-20260410",
+      "owner_pages": [
+        "/Users/joshuaeisenhart/wiki/concepts/chinese-philosophy-reference.md"
+      ],
+      "status": "candidate_citation_from_audited_webui_return"
+    }
+  ]
+}

@@ -1,0 +1,800 @@
+Non Abelian Berry Phase in Noncommutative Quantum Mechanics
+Alain Bérard and Hervé Mohrbach
+
+arXiv:hep-th/0404165v5 27 Mar 2006
+
+Laboratoire de Physique Moléculaire et des Collisions,
+Institut de Physique, Technopôle 2000, 57078 Metz, France
+(Dated: October 22, 2018)
+We consider the adiabatic evolution of the Dirac equation in order to compute its Berry curvature
+in momentum space. It is found that the position operator acquires an anomalous contribution due
+to the non Abelian Berry gauge connection making the quantum mechanical algebra noncommutative. A generalization to any known spinning particles is possible by using the Bargmann-Wigner
+equation of motions. The non-commutativity of the coordinates is responsible for the topological
+spin transport of spinning particles similarly to the spin Hall effect in spintronic physics or the
+Magnus effect in optics. As an application we predict new dynamics for non-relativistic particles in
+an electric field and for photons in a gravitational field.
+PACS numbers:
+
+I.
+
+INTRODUCTION
+
+Recently, Quantum Mechanics involving noncommutative space time coordinates has led to numerous
+works. The assumption that the coordinate operators
+do not commute was originally introduced by Snyder [1]
+as a short distance regularization to resolve the problem
+of infinite energies in Quantum Field Theory. This
+idea became popular when Connes [2] analyzed Yang
+Mills theories on non-commutative space. More recently
+a correspondence between a non-commutative gauge
+theory and a conventional gauge theory was introduced
+by Seiberg and Witten [3]. Non-commutative gauge
+theories are also naturally related to string and M-theory
+[4] and to Galilean symmetry in the plane [5].
+Applications of non-commutative theories were also
+found in condensed matter physics, for instance in the
+Quantum Hall effect [6] and the non-commutative Landau problem [7]. Recently, it was found that a noncommutative geometry also underlies the semiclassical
+dynamics of electrons in semi-conductors [8]. In this case,
+the non-commutativity property of the coordinates originates from the presence of a Berry phase which by changing drastically the equations of motion, induces a purely
+topological and dissipationless spin current. Other equations of motion including a contribution of a Berry phase
+were also recently found for the propagation of Bloch
+electrons [9].
+In this paper we show that a non-commutative geometry underlies the algebraic structure of all known spinning particles. In the Foldy-Wouthuysen representation
+of the Dirac equation, the position operator acquires a
+spin-orbit contribution which turns out to be a gauge
+potential (Berry connection). It is important to mention
+that anomalous contributions to the position operator
+were already found some time ago in different contexts,
+for instance in the Bloch representation of electrons in
+a periodic potential [10] and for electrons in narrow-gap
+semi-conductors (where the spin-orbit term is called a
+Yafet term [11]). The common feature in all these cases is
+that an anomalous contribution to the position operator
+
+stems from the representation where the kinetic energy is
+diagonal (FW or Bloch representation). When interband
+transitions (adiabatic motion) are neglected the algebraic
+structure of the coordinates becomes non-commutative.
+Then, after having determined the new position operator for spinning particles we propose to explore its
+consequences at the level of semi-classical equations of
+motion in several physical situations. In particular, our
+approach provides a new interpretation of the Magnus
+effect, which was observed experimentally in optics. But
+first of all, we recall some previous results we derived in
+the framework of non-commutative Quantum mechanics
+from symmetry arguments only [12].
+II.
+
+MONOPOLE IN MOMENTUM SPACE
+
+In non-commutative Quantum mechanics an antisymmetric parameter θij usually taken to be constant [13]
+is introduced in the commutation relation of the coordinates in the space manifold
+ i j
+(1)
+x , x = i~θij .
+In a recent paper [12] we generalized the quantum mechanics in noncommutative geometry by considering a
+quantum particle whose coordinates satisfy the deformed
+Heisenberg algebra
+ i j
+x , x = i~θij (x, p),
+(2)
+[xi , pj ] = i~δ ij , and [pi , pj ] = 0.
+From Jacobi identity
+
+
+[pi , xj , xk ] + [xj , [xk , pi ]] + [xk , [pi , xj ]] = 0,
+
+(3)
+
+(4)
+
+we deduced the important property that the θ field is
+only momentum dependent. An important consequence
+of the non-commutativity between the coordinates is that
+neither the position operator does satisfy the usual law
+[xi , Lj ] = i~εijk xk , nor the angular momenta satisfy the
+
+2
+standard so(3) algebra [Li , Lj ] = i~εijk Lk . In fact we
+have
+[xi , Lj ] = i~εijk xk + i~εj kl pl θik (p),
+
+(5)
+
+[Li , Lj ] = i~εij k Lk + i~εi kl εj mn pl pn θkm (p).
+
+(6)
+
+and
+
+To remedy this absence of generators of rotation in the
+noncommutative geometry we had to introduce a generalized angular momentum
+p
+(7)
+J = r∧p+λ ,
+p
+that satisfies the so(3) algebra. The position operator
+then transforms as a vector under rotations i.e., [xi , J j ] =
+i~εijk xk . The presence of the dual Poincare momentum
+λp/p leads to a dual Dirac monopole in momentum space
+for the position algebra
+ i j
+pk
+x , x = −i~λεijk 3 .
+p
+
+(8)
+
+This result immediately implies that the coordinates of
+spinless particles are commuting. Another consequence
+is the quantification of the helicity λ = n~/2 that arises
+from the restoration of the translation group of momentum that is broken by the monopole [12][14]. Note
+also that other recent theoretical works concerning the
+anomalous Hall effect in two-dimensional ferromagnets
+predicted a topological singularity in the Brillouin zone
+[15]. In addition, in recent experiments a monopole in the
+crystal momentum space was discovered and interpreted
+in terms of an Abelian Berry curvature [16].
+In quantum mechanics this construction may look formal because it is always possible to introduce commuting
+coordinates with the transformation R = r − p ∧ S/p2 .
+The angular momentum is then J = R ∧ p + S which
+satisfies the usual so(3) algebra, whereas the potential
+energy term in the Hamiltonian now contains spin-orbit
+interactions V (R + p ∧ S/p2 ). In fact, the inverse procedure is usually more efficient: considering an Hamiltonian with a particular spin-orbit interaction one can
+try to obtain a trivial Hamiltonian with a dynamics due
+to the noncommutative coordinates algebra. This procedure has been applied with success to the study of adiabatic transport in semiconductor with spin-orbit couplings [8] where the particular dynamics of charges is
+governed by the commutation relation (8). The important point is to determine which one of the two position
+operators r or R gives rise to the real mean trajectory
+of the particle. In fact it is well known that R does not
+have the genuine property of a position operator for a
+relativistic particle. As we shall see this crucial remark
+implies a new prediction concerning the non-relativistic
+limit of a Dirac particle.
+In particle physics it is by now well known that the
+non-commutativity of the coordinates of massless particles is a fundamental property because the position operator does not transform like a vector unless it satisfies
+
+equation (8) and that θij (p) is the Berry curvature for a
+massless particle with a given helicity λ [17].
+In this letter we present another point of view of the
+origin of the monopole in high energy and condensed matter physics by considering the adiabatic evolution of relativistic massive spinning particles. In particular the computation of the Berry curvature of Dirac particles gives
+rise to a noncommutative position operator that was already postulated by Bacry [18] some time ago. A generalization to any spin is possible via the Bargmann-Wigner
+[19] equations of motion. By doing that construction, we
+are brought to make a generalization of noncommutative algebra by considering a θ field which is momentum
+as well as spin dependent. The associated connection is
+then non Abelian but becomes Abelian in the limit of
+vanishing mass leading to a monopole configuration for
+the Berry curvature. In this respect our approach is different from [17] because the description of the photons
+is obtained by taking the zero mass limit of the massive
+representation of a spin one particle.
+III.
+
+THE FOLDY-WOUTHUYSEN
+REPRESENTATION
+
+The Dirac’s Hamiltonian for a relativistic particle of
+mass m has the form
+Ĥ = α.p + βm + V̂ (R) ,
+where V̂ is an operator that acts only on the orbital degrees of freedom. Using the Foldy-Wouthuysen unitary
+transformation
+Ep + mc2 + cβα.p
+U (p) = p
+,
+2Ep (Ep + mc2 )
+
+p
+with Ep = p2 c2 + m2 c4 , we obtain the following transformed Hamiltonian
+U (p)ĤU (p)+ = Ep β + U (p)V̂ (i~∂p )U (p)+ .
+The kinetic energy is now diagonal whereas the potential
+term becomes V̂ (D) with the covariant derivative defined
+by D =i~∂p + A, and with the gauge potential A =
+i~U (p)∂p U (p)+ , which reads
+
+
+~c ic2 p(α.p)β + iβ Ep + mc2 Ep α−cEp Σ ∧ p
+A=
+,
+2Ep2 (Ep + mc2 )
+(9)
+where Σ = 1 ⊗ σ, is a (4 × 4) matrix. We consider the
+adiabatic approximation by identifying the momentum
+degree of freedom as slow and the spin degree of freedom
+as fast, similarly to the nuclear configuration in adiabatic
+treatment of molecular problems, which allows us to neglect the interband transition. We then keep only the
+block diagonal matrix element in the gauge potential and
+project on the subspace of positive energy. This projection cancels the zitterbewegung which corresponds to an
+
+3
+oscillatory motion around the mean position of the particle that mixes the positive and negative energies. In this
+way we obtain a non trivial gauge connection allowing us
+to define a new position operator r for this particle
+r =iℏ∂p +
+
+c2 ℏ ( p ∧ σ)
+,
+2Ep (Ep + mc2 )
+
+of a pair during the measurement process (for a detailed
+discussion of this important point see [18])
+To generalize the construction of the position operator
+for a particle with unspecified n/2 (n > 1) spin, we start
+with the Bargmann-Wigner equations
+
+(10)
+
+which is a (2 × 2) matrix. The position operator (10)
+is not new, as it was postulated by H. Bacry [18]. By
+considering the irreducible representation of the Poincare
+group, this author proposed to adopt a general position
+operator for free massive or massless particles with any
+spin. In our approach which is easily generalizable to
+any known spin (see formula (17)) the anomalous part
+of the position operator arises from an adiabatic process
+of an interacting system and as we will now see is related to the Berry connection. For a different work with
+operator valued position connected to the spin-degree of
+freedom see [20]. Zitterbewegung-free noncommutative
+coordinates were also introduced for massless particles
+with rigidity and in the context of anyons [21].
+It is straightforward to prove that the anomalous part
+of the position operator can be interpreted as a Berry
+connection in momentum space which, by definition is
+the (4 × 4) matrix
+
+(γµ(i) ∂µ + m + V̂ )ψ(a1 ...an ) = 0
+
+(i = 1, 2...n),
+
+where ψ(a1 ...an ) is a Bargmann-Wigner amplitude and
+γ (i) are matrices acting on ai . For each equation we have
+a Hamiltonian
+Ĥ (i) = α(i) .p + βm + V̂ ,
+then
+(
+
+n
+Y
+
+U (j) (p))Hˆ(i) (
+
+U (j) (p)+ ) = Ep β (i) + V̂ (D), (16)
+
+j=1
+
+j=1
+
+with
+
+n
+Y
+
+D =i~∂p
+
++
+
+n
+P
+
+A(i) ,
+
+and
+
+A(i)
+
+=
+
+i=1
+
+i~U (i) (p)∂p U (i) (p)+ .
+Again by considering the
+adiabatic approximation we deduce a general position
+operator r for spinning particles
+
+c2 (p ∧ S)
+,
+(17)
+Ep (Ep + mc2 )
+Aαβ (p) = i~ < αp+ | ∂p | βp+ >
+(11)
+
+with S =ℏ σ (1) + ... + σ (n) /2. The generalization of
+where | α p+ > is an eigenvector of the free Dirac equa(15) is then
+tion of positive energy. The Berry connection can also
+
+
+be written as
+ i j
+pk (p.S)
+c4
+.
+x , x = iℏθij (p, S) = −i~εijk 3 mS k +
+Ep
+Ep + mc2
+Aαβ (p) = i~ < φα | U ∂p U + | φβ >,
+(12)
+(18)
+For
+a
+massless
+particle
+we
+recover
+the
+relation
+r
+=iℏ∂
+in terms of
+the
+canonical
+base
+vectors
+|
+φ
+>=
+p+
+α
+
+
+p ∧ S/p2 , with the commutation relation giving rise to
+1 0 0 0 and | φβ >= 0 1 0 0 . With the non
+
+
+k
+zero element belonging only to the positive subspace, we
+the monopole xi , xj = iℏθij (p) = −i~εijk λ pp3 . The
+can define the Berry connection by considering a 2 × 2
+monopole in momentum introduced in [12] in order to
+matrix
+construct genuine angular momenta has then a very simple physical interpretation. It corresponds to the Berry
+A(p) = i~P(U ∂p U + ),
+(13)
+curvature resulting from an adiabatic process of a massless particle with helicity λ. For λ = ±1 we have the powhere P is a projector on the positive energy subspace.
+sition operator of the photon, whose non-commutativity
+In this context the θ field we postulated in [12] emerges
+property agrees with the weak localizability of the photon
+naturally as a consequence of the adiabatic motion of a
+which is certainly an experimental fact. It is not surprisDirac particle and corresponds to a non-Abelian gauge
+ing that a massless particle has a monopole Berry curvacurvature satisfying the relation
+ture as it is well known that the band touching point acts
+ i j
+ij
+j
+i
+as a monopole in momentum space [22]. This is precisely
+(14)
+θ (p, σ) = ∂pi A − ∂pj A + A , A .
+the case for massless particles for which the positive and
+negative energy band are degenerate in p = 0. In our
+The commutation relations between the coordinates are
+approach, the monopole appears as a limiting case of a
+then
+more general Non Abelian Berry curvature arising from
+
+
+ i j
+c4
+pk (p.σ)
+ij
+2
+k
+x , x = iℏθ (p, σ) = −i~ εijk
+mσ +
+. an adiabatic process of massive spinning particles.
+2Ep3
+Ep + mc2
+The spin-orbit coupling term in (17) is a very small
+(15)
+correction to the usual operator in the particle physics
+This relation has very important consequences as it imcontext but it may be strongly enhanced and observable
+plies the nonlocalizability of the spinning particles. This
+in solid state physics because of the spin-orbit effect beis an intrinsic property and is not related to the creation
+ing more pronounced than in the vacuum. For instance
+r =iℏ∂p +
+
+4
+in narrow gap semiconductors the equations of the band
+theory are similar to the Dirac equation with the forbidden gap EG between the valence and conduction bands
+instead of the Dirac gap 2mc2 [23].The monopole in momentum space predicted and observed in semiconductors
+results from the limit of vanishing gap EG → 0 between
+the valence and conduction bands.
+It is also interesting to consider the symmetry properties of the position operator with respect to the group of
+spatial rotations. In terms of commuting coordinates R
+the angular momentum is by definition J = R ∧ p + S,
+whereas in terms of the noncommuting coordinates the
+angular momentum reads J = r ∧ p + M, where
+M = S − A ∧ p.
+
+(19)
+
+One can explicitly check that in terms of the non commuting coordinates the relation [xi , J j ] = i~εijk xk is satisfied, so r like R transforms as a vector under space rotations, but dR/dt = cα which is physically unacceptable.
+For a massless particle (19) leads to the Poincaré momentum associated to the monopole in momentum space
+deduced in [12].
+IV.
+
+DYNAMICAL EQUATIONS OF MOTION
+
+Let us now look at some physical consequences of the
+non-commuting position operator on the dynamics of a
+quantum particle in an arbitrary potential. Due to the
+Berry phase in the definition of the position the equation
+of motion should
+be changed. But to compute commu
+tators like xk , V (x) one
+ resorts to the semiclassical approximation xk , V (x) = i~∂l V (x)θkl + O(~2 ) leading to
+new equations of motion
+.
+
+r=
+
+.
+p
+− p ∧θ,
+Ep
+
+and
+
+.
+
+p= −∇V (r)
+
+(20)
+
+with θi = εijk θjk /2. While the equation for the momentum is as usual, the one for the velocity acquires a topological contribution due to the Berry phase. The latter
+is responsible for the relativistic topological spin transport as in the context of semi-conductors where similar
+non-relativistic equations [8] lead to the spin Hall effect
+[24].
+V.
+A.
+
+APPLICATIONS
+
+Non-relativistic Dirac particle in an electric
+potential
+
+As a particular application, consider the nonrelativistic
+limit of a charged spinning Dirac particle in an electric
+potential V̂ (r). In the NR limit the Hamiltonian reads
+
+
+p2
+e~
+e
+H(R,
+p) ≈ mc2 +
++ V̂ (R) +
+σ.
+∇
+V̂(r)
+∧
+p
+,
+2m
+4m2 c2
+(21)
+
+which is a Pauli Hamiltonian with a spin-orbit term.
+As shown in [25], the nonrelativistic Berry phase θij =
+−εijk σ k /2mc2 results also from the Born-Oppenheimer
+approximation of the Dirac equation which leads to the
+same non-relativistic Hamiltonian. In the same paper, it
+was also proved that the adiabaticity condition is satisfied for slowly varying potential such that L >> λ̃, where
+L is the length scale over which V̂ (r) varies and λ̃ is the
+de Broglie wave length of the particle. From Hamiltonian
+(21) we deduce the dynamics of the Galilean Schrödinger
+position operator R
+dX i
+pi
+eℏ ijk
+ε σj ∂k V̂ (r),
+=
++
+dt
+m 4m2 c2
+
+(22)
+
+whereas the non relativistic limit of (20) leads to the
+following velocity
+dxi
+pi
+eℏ ijk
+ε σj ∂k V̂ (r).
+=
++
+dt
+m 2m2 c2
+
+(23)
+
+We then predict an enhancement of the spin-orbit coupling when the new position operator is considered. One
+can appreciate the similarity between this result and the
+Thomas precession as it offers another manifestation of
+the difference between the Galilean limit (22) and the
+non-relativistic limit (23).
+B.
+
+Rashba coupling
+
+Another interesting non relativistic situation concerns
+a parabolic quantum well with an asymmetric confining
+potential V (z) = mω 2 z 2 /2 in a normal electric field Ez
+producing the structure inversion asymmetry. By considering again the NR limit of the position operator (17),
+we get a spin orbit coupling of the form 4m~2 c2 (eEz +
+mω02 Z) (px σy − py σx ) + O 1/m3 , which for strong confinement in the (x, y) plane is similar to the Rashba
+spin-orbit coupling well known in semi-conductor spintronics [26]. This effect is very small for non-relativistic
+momenta, but as already said, it is greatly enhanced in
+semiconductors by a factor of about mc2 /EG .
+C.
+
+Ultrarelativistic particle in an electric field
+
+Another example of topological spin transport that we
+consider now arises in the ultrarelativistic limit. In this
+limiting case Ep ≈ pc and the equations of motion of the
+spinning particle in a constant electric field are
+dxi
+cpi
+pj
+=
++ λeεijk 3 Ek .
+dt
+p
+p
+
+(24)
+
+Taking the electric field in the z direction and as initial
+conditions p1 (0) = p3 (0) = 0 and p2 (0) = p0 >> mc2 , we
+obtain the coordinates in the Heisenberg representation
+x (t) =
+
+eEt
+λ
+,
+2
+p0 (p + e2 E 2 t2 )1/2
+0
+
+(25)
+
+5
+y(t) =
+
+z(t) =
+
+p0 c
+arg sinh
+eE
+
+
+
+eEt
+p0
+
+
+
+,
+
+i
+1/2
+c h 2
+− p0 .
+p 0 + e 2 E 2 t2
+eE
+
+E.
+
+(26)
+
+(27)
+
+We observe an unusual displacement in the x direction
+perpendicular to the electric field which depends on the
+value of the helicity. This topological spin transport can
+be considered as a relativistic generalization of the spin
+Hall effect discussed in [8]. At large time the shift is of
+the order of the particle wave length |∆x| ∼ λ̃ which in
+ultrarelativistic limit is of the order of the Compton wave
+length. This very small effect is obviously very difficult
+to observe in particular due to the creation of pair particles during the measurement process itself. Actually this
+effect has been already observed however only in the case
+of photons propagating in an inhomogeneous medium.
+
+Photon in a static gravitational field
+
+Our theory is easily generalizable to the photon propagation in an anisotropic medium, a situation which is simply mentioned in [27] but could not be studied with their
+phenomenological approach. As a typical anisotropic
+medium consider the photon propagation in a static gravij
+itational field whose metric
+ g (x) is supposed to be
+0i
+time independent g = 0 and having a Hamiltonian
+1/2
+
+p gij (x)p
+H = c − ig00 (x) j
+. In the semi-classical approximation the equations of motion are
+ ij
+
+dpk
+g (x)
+c2 p i p j
+(29)
+=
+∂k
+dt
+2H
+g 00 (x)
+and
+√
+c g00 g ki pi
+dxk
+dpl kl
++
+= p
+θ
+ij
+dt
+dt
+−g pi pj
+
+(30)
+
+For a static gravitational field the velocity is then
+D.
+
+Spin Hall effect of light
+
+Experimentally what we call a topological spin transport has been first observed in the case of the photon
+propagation in an inhomogeneous medium [27], where the
+right and left circular polarization propagate along different trajectories in a wave guide (the transverse shift is
+observable due to the multiple reflections), a phenomena
+interpreted quantum mechanically as arising from the interaction between the orbital momentum and the spin of
+the photon [27]. To interpret the experiments these authors introduced a complicated phenomenological Hamiltonian leading to generalized geometrical optic equation.
+Our approach provides a new satisfactory interpretation
+as this effect, also called optical Magnus effect, is now interpreted in terms of the non-commuting property of the
+position operator containing the Berry phase. Note that
+the adiabaticity conditions in this case are given in [28].
+To illustrate our purpose consider the Hamiltonian of a
+photon in an inhomogeneous medium H = pc/n(r). The
+·
+·
+ i 
+ i 
+1
+1
+equations of motion xi = i~
+x , H and pi = i~
+p , H in
+the semi-classical approximation leads to following relations between velocities and momenta
+
+
+c pi
+λεijk pk ∂ ln n
+dxi
+(28)
+=
++
+dt
+n p
+p2
+∂xj
+which are similar to those introduced phenomenologically
+in [27]. However, here they are deduced rigorously from
+different physical considerations. We readily observe that
+the Berry phase gives rise to an ”ultra-relativistic spinHall effect” which in turn implies that the velocity is
+no more equal to c/n. Note that similar equations are
+also given in [29] where the optical Magnus effect is also
+interpreted in terms of a monopole Berry curvature but
+in the context of geometric optics.
+
+1 dpl kl
+c dxi
+g ij pj
+p
++√
+vi = √
+=
+c
+θ
+ij
+g00 dx0
+g00 dt
+−g pi pj
+
+(31)
+
+with x0 = ct. Equations (29) and (30) are our new equations for the semiclassical propagation of light which take
+into account the non-commutative nature of the position
+operator, i.e the spin-orbit coupling of the photon. The
+spinning nature of photon introduces a quantum Berry
+phase, which affects the propagation of light in a static
+background gravitational field at the semi-classical level.
+This new fundamental prediction will be studied in more
+detail in a future paper, but we can already observe that
+the Berry phase implies a speed of light different from
+the universal value c. This effect which is still very small
+could become important for a photon being propagated
+in the gravitational field of a black hole. This result goes
+in the same direction as recent works on the possibility
+of a variable speed of light [30] but here this variation
+has a physical origin.
+VI.
+
+CONCLUSION
+
+In summary, we looked at the adiabatic evolution of
+the Dirac equation in order to clarify the relation between
+monopole and Berry curvature in momentum space. It
+was found that the position operator acquires naturally
+an anomalous contribution due to a non Abelian Berry
+gauge connection making the quantum mechanical algebra non-commutative. Using the Bargmann-Wigner
+equation of motions we generalized our formalism to all
+known spinning particles. The non-commutativity of the
+coordinates is responsible for the topological spin transport of spinning particles similarly to the spin Hall effect
+in spintronic physics or the optical Magnus effect in optics. In particular we predict two new effects. One is
+
+6
+an unusual spin-orbit contribution of a non-relativistic
+particle in an external field. The other one concerns the
+
+effect of the Berry phase on the propagation of light in a
+static background gravitational field.
+
+[1] H. Snyder, Phys. Rev.71 (1947) 38;
+[2] A. Connes, ”Noncommutative Geometry”, Academic
+press, San Diego (1994);
+[3] N. Seiberg, E. Witten, JHEP. 09 (1999) 32;
+[4] A. Konechny, A. Schwarz, Phys. Rep. 360 (2002) 353.
+[5] C. Duval and P. A. Horvathy Phys. lett. B. 479 (2000)
+284; J. Phys. A 34 (2001) 10097.
+[6] J. Belissard, Lecture Notes in Physics 257 (1986) 99; J.
+Belissard, A. Van Elst and H. Schulz-Baldes, cond-mat/
+9301005.
+[7] J. Gamboa et al., Mod. Phys. Lett. A 16 (2001) 2075; P.
+A. Horvathy, Ann. Phys. 299 (2002) 128.
+[8] S. Murakami, N. Nagaosa, S.C. Zhang, Science 301
+(2003) 1348.
+[9] G. Sundaram, Q. Niu, Phys. Rev. B 59 (1999) 14915.
+[10] E. M. Lifshitz and L. P. Pitaevskii, ”Statistical Physics”,
+Vol 9, Pergamon Press (1981).
+[11] Y. Yafet, ”Solid State Physics”, Vol 14, Academic, New
+York, (1963)
+[12] A. Bérard, H. Mohrbach, Phys. Rev. D 69 (2004) 127701;
+A. Bérard, Y. Grandati, H. Mohrbach, Phys. lett. A 254
+(1999) 133; A. Bérard, J. Lages, H. Mohrbach, Eur. Phys.
+J. C 35 2004 (373).
+[13] A. A. Deriglazov, JHEP 03, (2003) 021; Phys. Lett.
+B 555 (2003) 83; M. Sheikh-Jabbari, Nucl. Phys. B
+611 (2001) 383; M. Chaichan, M. Sheikh-Jabbari and A.
+Tureanu, Phys. Rev. Lett., 86 (2001) 2716; S. Ghosh,
+Phys. Rev. D 66 (2002) 045031; J. Romero, J. Santiago
+and J. D. Vergara, Phys. Lett. A 310, (2003) 9.
+
+[14] R. Jackiw, Phys. Rev. Lett. 54 (1985) 159 and hep-th
+/0212058.
+[15] M. Onoda, N. Nagasoa, J. Phys. Soc. Jpn. 71 (2002) 19.
+[16] Z. Fang et al., Science 302 (2003) 92.
+[17] B.S. Skagerstam hep-th /9210054.
+[18] H. Bacry, ”Localizability and Space in Quantum
+Physics”, Lecture Notes in Physics, Vol 308, Heidelberg,
+Springer-Verlag, (1988).
+[19] V. Bargmann, E.P. Wigner, Proc. Nat. Acd. Sci. 34
+(1948) 211.
+[20] S. Ghosh, Phys. Lett. B 571 (2003) 97.
+[21] M.S. Plyushchay, Mod. Phys. Lett. A 4 (1989) 837; Phys.
+Lett. B 243 (1990) 383; J.L. Cortes, M.S. Plyushchay,
+Int. J. Mod. Phys. A 11 (1996) 3331; P.A. Horvathy, M.S.
+Plyushchay, JHEP 0206 (2002) 033; hep-th/0404137.
+[22] M.V. Berry, Proc. R. Soc. London A 392 (1984) 45.
+[23] E.I. Rashba, Physica E, 20 (2004) 189.
+[24] J.E. Hirsch, Phys. Rev. Lett. 83 (1999) 1834.
+[25] H. Mathur, Phys. Rev. Lett. 67 (1991) 3325.
+[26] Yu. Bychkov and E.I. Rashba, JETP Lett. 39 (1984) 78.
+[27] A.V. Dooghin et al., Phys. Rev. A 45 (1992) 8204; V.S.
+Liberman, B.Y. Zeldovich, Phys. Rev. A 46 (1992) 5199.
+[28] R.Y. Chiao, Y. Wu, Phys. Rev. Lett. 57 (1986) 933.
+[29] K.Y. Bliokh, Y.P. Bliokh, Phys. Lett A 333 (2004), 181;
+Phys. Rev. E 70 (2004) 026605. M. Onoda, S. Murakami,
+N. Nagasoa, Phys. Rev. Lett. 93 (2004) 083901.
+[30] J. Magueijo, Rep. Prog. Phys. 66 (2003) 2025.
+
+

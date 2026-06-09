@@ -1,0 +1,1173 @@
+arXiv:2107.02684v2 [math.OC] 30 May 2022
+
+Collective management of environmental
+commons with multiple usages: a guaranteed
+viability approach.
+I. Alvarez1,2 , L. Zaleski3 , J-P. Briot3 , M. de A. Irving4
+1
+
+UCA, INRAE, LISC
+9 avenue Blaise Pascal CS 20085, F-63178 Aubière, France
+e-mail: Isabelle.Alvarez@inrae.fr
+2
+CNRS, ISC-PIF
+113 rue Nationale, F-75013, Paris, France
+3
+
+SU, CNRS, LIP6
+4 place Jussieu, F-75005, Paris, France
+e-mail: laetitia.zaleski@gmail.com, Jean-Pierre.Briot@lip6.fr
+4
+
+EICOS, IP, UFRJ
+Avenida Pasteur, 250 Rio de Janeiro 22290-240, BR
+e-mail: mirving@mandic.com.br
+
+Abstract
+In this paper we address the collective management of environmental commons
+with multiple usages in the framework of the mathematical viability theory. We
+consider that the stakeholders can derive from the study of their own socioeconomic problem the variables describing their different usages of the commons
+and its evolution, and a representation of the desirable states for the commons.
+We then consider the guaranteed viability kernel, subset of the set of desirable
+states where it is possible to maintain the state of the commons even when its
+evolution is represented by several conflicting models. This approach is illustrated on a problem of lake eutrophication.
+Key words viability theory; guaranteed viability; collaborative decision; environmental commons; lake eutophication
+
+1
+
+Introduction
+
+Sustainable use of natural resources, environmental conservation, social inclusion and welfare, economic activity and development imply generally conflicting
+
+1
+
+management objectives. In the tragedy of the commons, [Hardin, 1968] highlights the exhaustion of open-access resources by numerous users with similar
+view, but the same analysis can be done with different types of users whose
+activity is based on the resource. A lot of work on sustainability of natural resources is still focused on allocation problem, where stakeholders are considered
+as competitors for the share of quotas, for example for the regulation of fisheries or water sharing (see references for instance in [Parrachino et al., 2006],
+[Oubraham and Zaccour, 2018]).
+In order to take into account the different types of stakeholders’ interests,
+many efforts are done in the economic approach to assess the value of environmental and social services (see for example a framework in [de Groot, 2006]).
+When points of view are considered to be incommensurable, multi-criteria or viability theory approaches propose interesting alternatives. Even when stakeholders are considered as competitors for one common resource, these approaches
+allow to take into account more indicators than the level of renewable resource
+and the profit directly based on it. For example, in a quantitative work on
+fishing regulation [Dowling et al., 2020], 21 score functions are designed for the
+regulation of fishing, depending on fish biomass and parameters computed each
+year depending on the control scenario. Weighted stakeholders’ preferences over
+the score functions are then optimized each year for different levels of the control variable. When stakeholders express different points of view, the viability
+theory (VT) approach allows to combine the different constraints placed on the
+system, without direct connection to the underlying profit of the related activity.
+For instance, in a hydro-power dam management problem [Alais et al., 2017],
+the main concern is maximizing the profit of the electricity provider with water control under uncertainty on water inflow and electricity price. Recreational
+and agricultural activities impose an additional seasonal constraint on the water
+level without further profit analysis. In [Wei et al., 2013], the multi-objective
+concern of a tourist city is studied through the linked evolution of the number
+of tourists, tourism infrastructure and environment quality. The different stakes
+are represented by constraints on the level of these variables. The VT algorithm
+identifies the area where it is possible to maintain the evolution of the three variables between these bounds. Viability approach has shown its potential in many
+other domains as stated in the review from [Oubraham and Zaccour, 2018]. In
+all these works, the model of the evolution of common resources or land uses,
+together with the impact of controls on the system (such as the total allowable catch in fishery regulation), is supposed to be consensual. It is generally
+taken from the literature or from previous work and parameters are calibrated
+from data and time series. In works cited in [Oubraham and Zaccour, 2018], the
+model representing the system at stake is always considered as consensual. In
+theoretical works, models can certainly be generic functions of variables, controls
+and uncertainties (it is the case in [De Lara and Martinet, 2009],[Křivan, 1991],
+[Křivan and Colombo, 1998], [Martinet et al., 2016]). But in their applications
+and in the other works cited in [Oubraham and Zaccour, 2018], when uncertainty is explicitly taken into account, it is in fact related to data and measurements used to assess parameters in the model, not to the definition of the
+2
+
+model itself. As stated in [Martinet et al., 2016], uncertainty affects parameters
+such as growth rate, recruitment or mortality in dynamic population models,
+unknown or unpredictable events such as climate fluctuations, or externalities
+such as price, as in games against nature. Models are supposed to be consensual with their explicit hypotheses (which are generally discussed). Actually in
+[Little et al., 2007] three models are considered for larval dispersal and modelers can parameterize the system to run simulations with their own choice of
+model. It is motivated by the possibility of studying different species, so for the
+viability study only one model is parameterized.
+However, the ComMod approach [Etienne, 2014] has shown that modeling
+the evolution of the system at stake is difficult and hardly consensual, since
+scientific or technical viewpoint can be considered by stakeholders as a viewpoint among others. The ComMod approach addresses this problem with serious games supported by simulation models [Barreteau et al., 2001] where stakeholders can test their hypotheses about the system evolution and the impact
+of actions. The process goes on, with additional research if necessary, until a
+consensus on the model is reached.
+To take into account this discrepancy at the model level we consider here
+that stakeholders have their own model of the evolution of the system with the
+impact of controls. We consider that stakeholders are able to define constraints
+on the key variables of their usages of the commons, such as the number of
+tourists, the quality of water (for example measured in term of concentration
+of pollutant or bacteria), the quality of the environment (for example measured with biodiversity indicators related to the population of local species),
+etc. These constraints are generally seen as thresholds. We consider that the
+objective of the group of stakeholders is to define a set of states where the system
+can be maintained with appropriate controls. We use viability theory, in particular the concept of guaranteed viability set [Aubin, 1997], which is defined
+to take into account uncertainties (such as move by nature, see for instance
+[Bates and Saint-Pierre, 2018]).
+The paper is organized as followed: we first describe the problem and our
+hypotheses, together with a reminder of viability theory. We describe individual
+and group viewpoint as viability problems, and show why in this context of
+several models it is more difficult to seek technically sound agreement. We
+illustrate this approach with a problem of lake eutrophication. In Section 3, we
+first present the perturbation embedding function, which allows us to consider
+each model as a perturbation of a central model. This formulation enables the
+definition of a guaranteed viability problem. In Section 4 we present and discuss
+the application to the management of the lake. We summarize the results and
+perspectives in the concluding section.
+
+2
+
+Definition of the problem
+
+Let us consider an entity A (for instance a preserved area) in evolution, which
+is submitted to the management decision of a group of N members. The group
+
+3
+
+has to first define a project for A as a set K of desirable states within which
+the state of A should remain with an appropriate set of actions depending on
+the state of A. The group has then to find a solution to this project.
+Each member i ∈ N := {1, . . . , N } has a personal view and project for
+entity A. Each member i considers that entity A is described by a vector of
+state variables xi ∈ Rni , and that its evolution is governed by a controlled
+dynamical system. Member i considers that the state of A should remain in
+a set of desirable states, Ki ⊂ Rni . Member i deems that the controls which
+should be used depend on the state of A. These admissible controls are defined
+by a set-valued map Ui : Rni
+Rpi , where Ui (xi ) is the set of admissible
+controls that member i finds appropriate at state xi .
+Definition 1 (Ki , Ui ) defines member i’s project for the management of A,
+where Ki is the set of desirable sets and Ui the admissible control map.
+From the viability theory viewpoint, a solution to member i’s project consists
+in finding the states of Ki from which there always exists a control function
+selected in Ui so that the state of A remains in Ki .
+The objective of the group to define its project, compatible with every member’s project, then to find a solution to it, compatible with everyone’s solution.
+We use as an illustration a problem of lake eutrophication as stated in
+[Carpenter et al., 1999]. Agricultural practice and other human activities can
+lead to lake pollution with phosphates. Phosphorus dynamics in the lake can
+lead to eutrophication, which negatively impacts the biodiversity of ecosystem,
+and causes serious annoyance to residents and tourism activities. We consider
+that a committee is formed to study and manage the problem. It is composed
+of farmers and local elected authorities.
+
+2.1
+
+What members share about their project
+
+Assumption 1 Members of the decision group share the knowledge about which
+state variables they consider for A, so ∀i ∈ N , ni = n. We note x ∈ Rn the
+vector of state variables of A that is shared by each member of the group.
+In particular, when measurements of the state of A are possible, all members
+agree on the validity of the measure, so if the measure of the state of A at date
+T is x(T ), then ∀i ∈ N , xi (T ) = x(T ).
+In the lake and nearby farms problem, following [Carpenter et al., 1999] and
+[Martin, 2004], we consider that all members agree that the key variables to the
+problem are the Phosphorus input (noted L) and the Phosphorus concentration
+in the lake (noted P ).
+Assumption 2 Members of the decision group share the knowledge about the
+control variables they consider for A. We note U : Rn
+Rp the set-valued map
+of admissible control which associates the group’s set of admissible controls with
+the state of A: ∀i ∈ N , Ui = U .
+
+4
+
+Assumption 2 supposes that all group member’s have reached a consensus regarding which control variables are to be considered. This can be achieved by
+restriction
+to the intersection of members’ control set so that ∀x ∈ Rn , U (x) =
+T
+i∈N Ui (x). When the latter is empty, a negotiation should take place to build
+a non empty U (x). We suppose here that such a negotiation has taken place.
+In the lake and nearby farms problem, following [Martin, 2004], we consider
+that the committee agrees to the possibility of controlling the rate of variation
+of the Phosphorus input and to maintain this rate between boundaries, so U =
+[umin , umax ]. This can be done by farmers controlling their fertilizer input, by
+the greater or lesser use of wetlands or by the use of water treatment plants
+([Gajardo et al., 2017]).
+With Assumption 1 and 2, it is possible to define the group project for A.
+T
+Definition 2 Let K = i∈N Ki with K 6= ∅, and U : Rn
+Rp a set-valued
+control map defined on K. (K, U ) is a group project if all members agree that
+the state of A should remain in the set of desirable states K, using controls from
+the admissible map U .
+When K ⊂ Rn = ∅, a negotiation should take place to build a non empty K.
+We suppose here that such a negotiation has taken place.
+In the lake and nearby farms problem, everybody wants to keep the lake in
+an oligotrophic state, which supposes to set a concentration limit of Phophorus
+Pmax in the lake (for example established from previous observations). Everybody also wants to maintain or develop the agricultural activity, which supposes
+to allow a minimum amount of Phophorus input Lmin in the lake. So everybody
+agree to maintain the state of the lake described by (L, P ) in a set of desirable
+states K = [Lmin , +∞) × [0, Pmax ].
+When Assumption 1 and Assumption 2 are verified, all group members can
+describe the dynamics of the state of A as they seen it as a (possibly discrete)
+controlled dynamical system with the shared variables. In the case of the lake
+and neighboring farms, the dynamics for member i is supposed to be defined
+according to [Carpenter et al., 1999] and [Martin, 2004], by the equations of
+system 1 with the constraints on Lmin and Pmax .
+( dL
+= u ∈ U = [umin , umax ]
+dt
+S(bi , ri , qi , mi )
+(1)
+(t)qi
+dP
+= −bi P (t) + L(t) + ri mqPi +P
+dt
+(t)qi
+i
+
+umin and umax are the maximum effort farmers and local authorities are ready
+to allow or to take to increase or decrease the phosphorus input. bi is the
+rate of loss (due to sedimentation and outflow), ri , qi and mi are parameters
+of the sygmoid-like (s-shaped) dynamics of Phophorus recycling in the lake,
+which are generally set by calibration from observations: ri is the maximum
+rate of recycled Phophorus, mi is the concentration of Phosphorus at which the
+recycling rate is half its maximum and qi is a parameter of the steepness of the
+dynamics (see [Carpenter et al., 1999] for more details).
+
+5
+
+In the general case, we note Sc(f, U ) the continuous dynamical system defined by:
+ 0
+x (t) = f (x(t), u(t))
+Sc(f, U )
+(2)
+u(t) ∈ U (x(t)) ⊂ Rp .
+where f is a function from Rn × Rp to Rn and U a set-valued map from Rn to
+Rp . Similarly, we note Sd(f, U ) the discrete dynamical system defined by:
+ k+1
+x
+= f (xk , uk )
+Sd(f, U )
+(3)
+k
+u
+∈ U (xk ) ⊂ Rp .
+We note Sci = Sc(fi , U ) the dynamical system that described the evolution of
+A for member i in a continuous case. We note Sdi = Sd(fi , U ) the discrete
+dynamical system that described the evolution of A for member i in a discrete
+case. The function fi : Rn × Rp → Rn associates the variations of A state
+variables for member i with the current values of the state and control variables.
+We don’t assume that the different stakeholders in the group share their
+dynamics. We consider here that they don’t necessarily agree on dynamics, and
+that they are not compelled to make their belief public. But we assume that
+they agree to share this information with a trusted third party.
+
+2.2
+
+A reminder of the viability theory
+
+Referring to [Aubin, 1991], we define viable evolutions and the viability kernel.
+Definition 3 An evolution of the system Sc(f, U ) (2) (resp. Sd(f, U ) (3)) is
+viable in K if and only if its trajectory remains in K. In the continuous case:
+∀t ∈ R+ x(t) ∈ K. In the discrete case: ∀k ∈ N xk ∈ K.
+Definition 4 A set L is viable for the system Sc(f, U ) (2) (resp. Sd(f, U ) (3))
+if for all x ∈ L there is an evolution of the system Sc(f, U ) (2) (resp. Sd(f, U )
+(3)) starting at x and viable in L.
+Definition 5 The viability kernel associated to system Sc(f, U ) (2) (resp. system Sd(f, U ) (3)) under constraint K is the set of all states in K from which
+there is an evolution of Sc(f, U ) (resp. Sd(f, U )) starting at x and viable in K.
+Under some general conditions listed in appendix A, the viability kernel is a
+close set. In the interior of the viability kernel, all control are viable, so viable
+controls on the boundary show how it is possible to maintain the system in the
+constraint set. This information can be used to define control strategies.
+Definition 6 A control map with images restricted to viable controls only is
+called a viable regulation map.
+Proposition 1 [Aubin, 1991]. If L is a viable set for the system Sc(f, U ) (2)
+(resp. Sd(f, U ) (3)), let Ũ be a viable regulation map, then L is a viable set
+for the system Sc(f, Ũ ) (2) (resp. Sd(f, Ũ ) (3). Moreover, for all x ∈ L,
+any evolution starting from x and governed by Sc(f, Ũ ) (resp. Sd(f, Ũ ) in the
+discrete case) is viable in L. L is called an invariant set for dynamics Sc(fi , Ũ )
+(resp. Sd(fi , Ũ ).
+6
+
+Figure 1: Viability kernel (in gray) of the lake and neighboring farms problem, with
+Lmin = 0.1, Pmax = 1.4 (L and P in µgL−1 ), U = [−0.9, 0.9], dynamics parameters
+value q = 8, m = r = 1, b = 0.7. Constraint set boundary is in black plain lines
+(L = Lmin , P = Pmax ). The curve of equilibria is dashed. Viable controls are shown
+as a black line in cartouches. A viable trajectory starting from A is shown (u = −0.09
+from A to B, then a cycle with u = +0.09 from B to C, u = −0.09 from C to D,
+u = +0.05 from D to B). From S where the lake is still in an oligotrophic state, even
+with maximum effort from the farmers (u = umin ) the concentration of Phosphorus
+becomes too high. From state R also outside the viability kernel, all trajectories
+leave the constraint set, leading the lake to eutrophic state or farmers’ activity to an
+unsustainable state.
+
+From any state in the viability kernel, it is always possible to find a control
+function that allows the state of the system to stay in the viability kernel indefinitely. Conversely, from any initial state outside the viability kernel, there
+is no way to prevent the exit in finite time of an evolution governed by system
+(2) (resp. (3) in the discrete case).
+In the case of the lake and its neighboring farms, it is shown in [Martin, 2004]
+that the viability kernel associated to system (1) submitted to the constraint
+(L, P ) ∈ K = [Lmin , +∞) × [0, Pmax ] is not empty when Pmax is greater than
+the smallest P -value of the equilibria associated with Lmin (an equilibrium P value is defined by dP
+dt = 0). For example in Figure 1, the state (Lmin , Pe ) is
+an equilibrium with Pe ≤ Pmax , so the viability kernel is not empty. When the
+curve of Equilibria intersects the half-line (L ≥ Lmin , P = Pmax ) at (Le , Pmax ),
+the boundary of the viability kernel is delimited by the segment line (L =
+Lmin , P ≤ Pmax ), the segment line (Lmin ≤ L ≤ Le , P = Pmax ) and the integral
+curve of the dynamics with control u = umin arriving in (Le , Pmax ). When the
+curve of Equilibria doesn’t intersect the half-line (L ≥ Lmin , P = Pmax ), as in
+
+7
+
+Figure 1, we note Pe the P-value of the highest equilibrum on the segment line
+(L = Lmin , P ≤ Pmax ). In that case, the boundary of the viability kernel is
+delimited by the segment line (L = Lmin , P ≤ Pe ) and the integral curve of the
+dynamics with control u = umin passing through (Lmin , Pe ).
+Figure 1 shows the viability kernel for the lake and neighboring farm problem
+in this latter case, for a given set of parameters for system (1) and constraint
+set K. From any state in this viability kernel, it is possible to find a trajectory
+that stays in the viability kernel indefinitely. Figure 1 presents an example of
+viable trajectory from a state in the viability kernel. It also shows examples of
+states outside the viability kernel; even the most severe control cannot prevent
+trajectories from leaving the constraint set. Either the lake will shift to an
+eutrophic state, or the economic activity will be jeopardized.
+From a state outside the viability kernel, every evolution governed by system (1) with this particular set of parameters, choice of constraint set and
+control interval will exit the constraint set. In general, dealing with state outside the viability kernel implies to study the resilience (as in [Martin, 2004]) or
+to redefine the problem. This can be done by relaxing the constraints on the
+desirable set (when it is possible), by allowing more efficient control which are
+not presently part of the admissible controls, or by modifying the dynamics.
+This latter option is generally more difficult to implement, since it implies to
+modify the lake itself (see [Liu et al., 2015] for example of such actions).
+
+2.3
+
+Viewpoints as viability problems
+
+Objectives. We assume that Assumptions 1 and 2 are verified, and that the
+group has defined (K, U ) as its project for A according to Definition 2. K 6=
+∅ ⊂ Rn is the set of desirable states for A and U : Rn
+Rp the set-valued map
+of admissible controls. With this definition of the group project, each member
+can work on a solution according to the dynamics he assumes for A. Finally, the
+objective of the group is to design a solution from all member’s solutions. Figure
+2 summarizes the implications of considering different usages and stakeholders
+for the lake and nearby farms problem. Although the intuition is to work from
+the set of individual solutions, in this section we show that this approach is
+difficult to implement.
+2.3.1
+
+Individual Viewpoint
+
+We consider here that each member i is able to describe the evolution of the
+state of A with a controlled dynamical system. It is either a continuous system
+Sci = Sc(fi , U ) (equation 2), or a discrete system Sdi = Sd(fi , U ) (equation 3).
+We also consider in the following that the conditions for Proposition 3 (resp. 4)
+are fulfilled: the viability kernel associated to member i’s system and constraints
+is closed.
+Let Li ⊂ K be a non-empty viable set for the continuous (resp. discrete)
+system Sc(fi , U ) (2) (resp. Sd(fi , U ) (3)) submitted to constraints K. Then
+from all states in Li there is at least one viable evolution governed by Sc(fi , U )
+
+8
+
+Figure 2: Diagram of the finding of management solutions for the lake and nearby
+farms (system A) in the framework of viability theory with different stakeholders.
+Gray arrows denote relationship in the dynamics model. Large gray arrows represents
+interaction with stakeholders models and dynamics (which are not explicit). Black
+arrows represents the viability analysis process. Dotted lines and arrows show the
+main focus of the article.
+
+(resp. Sd(fi , U )) that stays in Li . From member i viewpoint, Li is a solution
+state set to the management of A.
+Definition 7 Li ⊂ K is a solution state set for Member i for project (K, U ) if
+Li is a non-empty viable set for Member i’s dynamics.
+We note viabi (K) the viability kernel associated to member i’s project with
+dynamical system Sc(fi , U ) (2) (resp. Sd(fi , U ) (3)) submitted to the viability
+constraint K.
+In the case of the lake and its neighboring farms, Figure 1 shows the viability
+kernel for the dynamics (1) submitted to constraint set K = [Lmin , +∞) ×
+[0, Pmax ] for the particular values of the dynamics parameters (noted as farmers
+representative in Figure 3).
+2.3.2
+
+Group Viewpoint
+
+In the following we suppose that the group project for A is (K, U ) and that all
+group members can propose their own individual solution to the management
+of A:
+∀i ∈ N , viabi (K) 6= ∅
+T
+We note H = i∈N viabi (K). If H = ∅ a negotiation should obviously take
+place between stakeholders, since there is no way to operate A and satisfy the
+group members. When the intersection is not empty, it seems a good candidate.
+The intersection of viability kernels has already been proposed as a solution
+9
+
+to insure the viability of two fishing fleets operating on the same resource. In
+[Sanogo et al., 2012], the intersection of the viability kernel of both fleets is
+viable for each fleet if they change their effort at the same time when necessary,
+which suppose a high level of cooperation. But unfortunately, it is not always
+the case.
+Proposition 2 The intersection of all members’ viability kernels is not necessary viable for all members.
+Proof. The problem of the lake and neighboring farms gives a counterexample. We consider here two stakeholders, say a mayor and a farmer’s union
+representative (respectively noted with m and f indices). Both stakeholders
+interpret the observations in different ways, so they adopt different values for
+the parameters of dynamics (1). Their respective viability kernel (viabm and
+viabf ) associated to the constraint set K = [Lmin , +∞)×[0, Pmax ] are shown on
+Figure 3. For the particular parameters chosen, the intersection H is not empty.
+For x = (L, P ) ∈ viabi , viable controls are defined by Ũi with Ũi (Lmin , P ) =
+[0, umax ], Ũi (L, P ) = {umin } when (L, P ) is on the boundary of viabi with L 6=
+Lmin , and otherwise Ũi (x) = U . Nevertheless, state A in the intersection is not
+viable for the mayor. State A is on the boundary of the mayor’s viability kernel,
+so Ũm (A) = {umin } and the only viable control for the mayor is u = −0.09.
+But the trajectory starting at A and governed by (Sm ) with u = −0.09 stays
+on the boundary of viabm so it leaves H. 
+
+Figure 3: Viability kernels of two stakeholders in the lake and neighboring farms
+problem, with Lmin = 0.1 and Pmax = 1.4 (L and P in µgL−1 ), U = [−0.9, 0.9],
+shared parameters value q = 8, m = 1 . In white, the intersection H of the viability
+kernels. In dark (resp. light) gray, the complementary area of the mayor (resp. farmer)
+viability kernel. State A is not viable in the intersection for the mayor. The arrow
+shows the trajectory of state A according to the mayor: it leaves the white area.
+
+10
+
+Definition 8 Let L ⊂ K and let (UT
+i )i∈N be control maps defined on L. Let U
+be defined for all x ∈ L by U (x) = i∈N Ui (x). U is called the intersection of
+(Ui )i∈N on L.
+We note Ũ the regulation map defined on the intersection H of all viability
+kernels of the group members
+T by the intersection of all the corresponding viable
+regulation map: Ũ (x) = i∈N Ũi (x). Obviously, if there is a state z ∈ H such
+that Ũ (z) = ∅, it means that members cannot agree on a way to control the
+evolution of A at this particular state. Unfortunately, even if all members agree
+on controls on H, it is not sufficient to reach a consensus.
+T
+Corollary 1 Let Ũ be the intersection on H = i∈N viabi (K) of the viable
+regulation map Ui on each viabi (K) of each member i ∈ N . Dom(Ũ ) = H is
+not a sufficient condition for H being a viable set for all members.
+Proof. In the previous example, we can derive that Ũm (L, P ) = Ũf (L, P ) for all
+(L, P ) in the intersection except on the set Hb of the boundary of H wherever
+L 6= Lmin . On the part of the boundary of H which is the boundary of viabm
+only, U˜m (L, P ) = {umin }, while U˜f (L, P ) = U (and conversely on the boundary
+of viabf only). So for (L, P ) ∈ Hb , Ũ (L, P ) = {umin } so Dom(Ũ ) = H.
+Nevertheless state A is not viable in H for the mayor. 
+From Proposition 2, and Corollary 1 we propose the following definition for
+a technically sound consensus solution to the management of A.
+Definition 9 Let (K, U ) be the projet of the management group for A. A set
+of state H ⊂ K is a consensus solution if H is a viable set for the each member
+and if the domain of the intersection Ũ of the viable regulation maps of each
+member on H, (Ui )i∈N , is such that Dom(Ũ ) = H.
+Actually, to be a consensus solution, a subset H of the constraint set has to
+be viable for all members and each viable state has to share at least one viable
+control for all members. In that case it is possible for the group member to
+reach an agreement on the control, regardless of trajectories. For example, in
+the discrete case, from any state x0 of H, all group members share at least one
+viable control value that allows the state of A to stay in H. Since the dynamics
+they consider are different, there is generally no consensus on state x1 . But as
+long as the group members still share a viable control value they still can agree
+on it. When it is no longer the case, for example at step n, the true value of the
+state of A can be measured to continue this process from xn as new starting
+point. In the continuous case, when H is a close set, such situations arise only
+on the boundary of H.
+Figure 4 shows a consensus state set for the lake and neighboring farms
+system (1) with parameters of Figure 3. The associated regulation map Ũ is
+such that Ũ (Lmin , P ) = [0, umax ], Ũ (L, P ) = {umin } when (L, P ) is on the
+boundary with L 6= Lmin , and otherwise Ũ (L, P ) = [umin , umax ]. For every
+state (L0 , P0 ) of the consensus state set G, there is an evolution governed by
+system (1) for each stakeholder, starting at (L0 , P0 ), with the same u(0) ∈
+11
+
+Figure 4: A consensus state set for the two stakeholders in the lake and neighboring
+farms problem with parameters from Figure 3. In very light gray, the consensus state
+set G, delimited in dot dashed line by the trajectory following the mayor’s dynamics
+that is tangent to the boundary of the viability kernel of the farmer at state T (in
+plain line). From each state (L, P ) of this trajectory before the tangent state T (with
+L > LT ), the evolution governed by the farmer’s system starting at these states
+with u = umin leaves the boundary to evolve inside G, as it is shown for state C.
+Respectively, from each state of the boundary of the viability kernel of the farmer
+with Lmin < L < LT , the evolution governed by the mayor’s system starting at these
+states with u = umin leaves the boundary to evolve inside G, as it is shown for state
+B. In dashed line, the line of equilibrium for the farmers representative’s dynamics.
+
+Ũ (L0 , P0 ) that stays in G. In the interior of the intersection of the viability
+kernels this property is also verified since for every states in the interior all
+controls are viable in the viability kernel of each stakeholder. For states on the
+boundary with L = Lmin , for both the mayor and the farmers’ representative
+several evolutions are viable, in particular with u = 0. The consensus state space
+is delimited by the boundary of the farmers’representative and the trajectory
+governed by the mayor’s dynamics with the minimum control value that stays
+in the viability kernel of the farmers’representative with largest L when P = 0.
+In the case of the lake and neighboring farms problem, with only two group
+members, it is possible to define a consensus state set because of the properties
+of the dynamics, for which the line of equilibria is known, and the viability
+kernels and the trajectories corresponding to minimum control value umin can
+be easily defined and computed [Martin, 2004]).
+For more general cases it is necessary to propose a method that can be
+applied without such knowledge. We present such a method in the next section.
+
+12
+
+3
+
+Consensus with guaranteed Viability
+
+3.1
+
+Embedding function for the dynamics
+
+Since the group members have their own definition for the dynamics, all members can see others’ definitions as perturbations of their own. We show here
+that is possible to define the dynamics of A embedding all members’ definitions
+seen as perturbations. The dynamics of A depends on the state of A, x(t),
+on the control chosen in U (x(t)) and on perturbations occurring from a set
+V (x(t)) ⊂ Rq that depends on the state of A. In the continuous case we have:
+ 0
+ x (t) = f (x(t), u(t), v(t))
+u(t) ∈ U (x(t))
+Svc(f, U, V )
+(4)
+
+v(t) ∈ V (x(t))
+In the discrete case:
+ k+1
+ x
+uk
+Svd(f, U, V )
+ k
+v
+
+=
+∈
+∈
+
+f (xk , uk , v k )
+U (xk ) ⊂ Rp
+V (xk ) ⊂ Rq ,
+
+(5)
+
+where f associates the new state of A with its present state, a control chosen in
+U (x(t)) and a perturbation in V (x(t)). Scv(f, U, V ) and Sdv(f, U, V ) are called
+dynamical controlled tychastic systems [Aubin, 1997].
+Definition 10 We say that System Svc(f, U, V ) (4) (resp. Svd(f, U, V ) (5))
+embeds System Sc(fi , U )(2) (resp. Sd(fi , U ) (3)) for i ∈ N , and call the corresponding pair (f, V ) an embedding solution if and only if:
+∀x ∈ K, ∀u ∈ U (x), ∀i ∈ N , ∃vi,u,x ∈ V (x), fi (x, u) = f (x, u, vi,u,x )
+
+(6)
+
+We show in appendix B that under some general conditions a System (4) (resp.
+5 in the discrete case) can embed Sc(fi , U )(2) (resp. Sd(fi , U ) (3)) for all i ∈ N .
+For example, for the problem of the lake and neighboring farms, the dynamics for every group member are defined from Slake in equation (1) by
+f i : R2 × R
+R2 , with:
+!
+u
+q
+fi ((x1 , x2 ), u) =
+(7)
+x2
+−bi x2 + x1 + ri m+x
+q
+2
+
+where parameters m and q have consensus values among the group, whether parameters bi and ri have not. Then, by defining V = [mini∈N (bi ), maxi∈N (bi )] ×
+[mini∈N (ri ), maxi∈N (ri )] and f as:
+!
+u
+q
+f ((x1 , x2 ), u, v) =
+(8)
+x2
+v1 x2 + x1 + v2 m+x
+q
+2
+
+with v = (v1 , v2 ) ∈ V , equation (6) is verified, since in this simple case we have:
+∀x ∈ K, ∀u ∈ U (x), ∀i ∈ N , vi,u,x = (bi , ri ).
+13
+
+In the following, we assume that the group has defined a map f and a perturbation map V such that System (2) (resp. (3) in the discrete case) describes
+the dynamics of A, embedding the viewpoint of all group members.
+The objective of the group is then to find a consensus solution for A which
+will guarantee the viability for each member with shared viable controls.
+
+3.2
+
+Guaranteed Viability with embedding dynamics
+
+We recall here some definitions and properties of the mathematical theory of
+viability, from [Aubin, 1991] and [Lavallée, 2020], relatively to guaranteed viability.
+Definition 11 A solution x(.) of system (4) (resp.5) is an evolution (t 7→ x(t))
+(resp. (xk )k∈N ) such that there is a control function (t 7→ u(t)) (resp. (uk )k∈N )
+and a perturbation function (t 7→ v(t)) (resp. (v k )k∈N ) such that system (4)
+(resp.5) is verified for almost all t ≥ R+ (resp. for all k ∈ N).
+Definition 12 An evolution x(.) (resp. (xk )) solution of system (4) (resp.5) is
+viable in L if and only if its trajectory remains in L.
+Following [Aubin, 1991], [Doyen, 2000] and [Lavallée, 2020], we recall the
+property of guaranteed viability.
+Definition 13 (From [Aubin, 1997]) A set L verifies the property of guaranteed
+viability for Svc(f, U, V ) (4) (resp. Svd(f, U, V ) (5)) if there is a regulation map
+Ũ defined on L with non empty subset of U images, i.e. ∀x ∈ L, Ũ (x) 6= ∅ and
+Ũ (x) ⊂ U (x) such that for all x0 in L, all evolutions starting at x0 and governed
+by Svc(f, Ũ , V ) (resp. Svd(f, Ũ , V )) are viable in L.
+Definition 14 The guaranteed viability kernel associated to a set K is the
+largest set in K with property of guaranteed viability (for λ-Lipschitz controls in
+the continuous case - see appendix A for definition).
+We note GuarSdv(f,U,V ) the guaranteed viability kernel associated to a set K for
+the discrete dynamics (5). In the continuous case (4), we note it Guarλ,Scv(f,U,V ) .
+We have seen that the intersection of each member’s solution is not necessarily a solution for all members. We are going to show that the guaranteed
+viability kernel is a consensus solution (as in Definition 9).
+Let Scv(f, U, V ) (resp. Sdv(f, U, V ) ) be an embedding solution for all group
+members, which fulfilled conditions of Proposition 5. Let L 6= ∅ be the guaranteed viability kernel for system Scv(f, U, V ) with λ Lipschitz constant (resp.
+Sdv(f, U, V )) associated to constraint set K. Then we have the following property:
+Theorem 1 The guaranteed viability kernel associated to K for Scv(f, U, V )
+(with λ Lipschitz constant in the continuous case) (resp. Sdv(f, U, V ) in the
+discrete case ) is a consensus solution to the management of A.
+
+14
+
+The demonstration can be found in appendix A.3. We note GuarK the guaranteed viability kernel and Ũ the associated viable regulation map. The basic
+idea is that in GuarK , from member i’s perspective, an evolution governed by
+system Sc0i = Sc(fi , Ũ ) (resp. Sd0i = Sd(fi , Ũ ) in the discrete case) is also governed by the embedding system Scv(f, U, V ) (resp. Sdv(f, U, V )), so it remains
+in GuarK , therefore GuarK is a viable set for each member i. 
+Under some general conditions, the guaranteed viability kernel is a close
+set (see Proposition 5 in appendix A.3). If the guaranteed viability kernel is
+closed, it is possible to retrieve the value of viable controls on its boundary.
+This information could be used to anticipate or to design control strategies that
+keep an evolution away from the boundary.
+
+4
+
+Application to the problem of lake eutrophication
+
+4.1
+
+Lake Bourget case
+
+We consider Lake Bourget, which is the biggest lake located entirely within
+France. It is monitored by the inter-syndicate committee CISALP, which is
+in charge of the design, animation and management of contractual actions for
+depollution and restoration of Lake Bourget. The lake had experienced a long
+eutrophication period, since in 1974, incoming amount of P in the lake was
+around 300 tons per year, in 1989 the in-lake concentration was above 150
+mg.m−3 ([Vinçon-Leite and Tassin, 1990]) where OECD norms assess the inlake concentration to a maximum of Po = 10 mg.m−3 (equivalent of 36 tons)
+for the oligotrophic state (from [Vollenweider, 1982]). Similarly a threshold for
+mesotrophic state Pm = 35 mg.m−3 can be defined. With concentration above
+Pm the lake is supposed to be in an eutrophic state. Since the lake is monitored
+and the data are available, it is possible to calibrate the equations of system 1
+for lake Bourget. For Phosphorus unit in mg.m−3 states values and parameters
+r and m are divided by the volume of the lake in billions of m3 . The volume of
+the lake is v = 3.6 109 m3 and supposed to be constant. Calibration coefficients
+from [Brias et al., 2018] are given in Table 1.
+Lake Bourget offers multiple services apart from being a freshwater reserve.
+It is an area of major ecological interest for flora, fauna and the diversity of its
+biotopes. Several areas of the lake are classified as protected area. It supports a
+Table 1: Parameters of the Lake Bourget model
+Parameter
+Value
+
+b
+
+r
+q
+m
+state unit in tons
+2.2676 367.04 2.222
+96.85
+state unit in mg.m−3 (or µg.l−1 )
+2.2676 101.96 2.222
+26.90
+
+15
+
+lot of tourism and recreational activities (water-sport, fishing, beaches, marina)
+and cultural activities linked in particular to historical heritage and literature.
+Several other services are being considered, such as the production of hydrothermal energy. Although the state of the lake has considerably improved, it is still
+considered as oligo-mesotrophic. Its dynamics can be unstable due to P loading
+and several blooms of cyanobacteria have been observed lately.
+Agriculture is now the main source of P loading since major prevention measures have been taken since 1980. In particular the effluents of water treatment
+plants are no longer rejected in the lake.
+The control of incoming P is considered as essential because of the potential
+lagged impact of P release from sediments ([Jacquet, 2018]).
+We consider a scenario where the CISALP in its mission of negotiation would
+approach agricultural unions, local representatives and managers of tourism activities, to form a committee in order to control P loading in the lake to prevent
+eutrophication and its consequences. The effort on P loading we consider is
+a limit on its variation as it is common in environmental actions. It can be
+implemented by changes in agricultural practice and by the use of wetlands
+or retention basins. Actually retention basins are being built to regulate the
+incoming of polluted water.
+As in Section 2, we consider that the committee members are aware of models
+regarding lake Bourget (such as [Brias et al., 2018]), but they can disagree on
+the value of parameters or even on the model formulation. We consider that
+they can agree on a set K of desirable states and on a set of admissible control
+U , or at least they can consider several scenarios for the definition of theses sets.
+
+4.2
+
+Scenarios and Results
+
+We consider a scenario where members of the committee agree on the state variables and the possibility of controlling the rate of P loading (L). They consider
+different parameters sets for model (1), and possibly a different formulation for
+the process of recycling from sediments. Some members consider that the recycling process can have more effect at low value of P total than with model (1).
+A different formula for the sigmoid-like function is used in that case as shown
+in Equation (9), with parameter λi controlling the shape instead of qi in model
+(1). For small value of λi > 0 the recycling occurs also for low level of in-lake
+P , so the lower branch of the equilibrium curve is actually higher.
+(
+dL
+= u ∈ U = [umin , umax ]
+dt
+0
+(9)
+Si
+P (t)
+dP
+= −bi P (t) + L(t) + ri P (t)+m e(−λ
+dt
+i (P (t)−mi ))
+i
+
+It is possible to embed both model types by considering an additional parameter
+αi ∈ [0, 1] which controls the predominance of one type over the other. The
+corresponding model is represented in Equation (10).
+
+16
+
+( dL
+Bi
+
+dt = u ∈ U = [umin , umax ]
+P (t)
+P (t)qi
+dP
+dt = −bi P (t) + L(t) + (1 − αi )ri mqi i +P (t)qi + αi ri P (t)+mi e(−λi (P (t)−mi ))
+
+(10)
+The committee members’ believes we consider are summarized in Table 2.
+Regarding the definition of the constraint set, we consider that agricultural
+activity leads to at least 25 tons of incoming P each year. This value is arbitrary but it is lower than the mean loading between 2004 and 2016 which
+was above 33 tons/year (see [Brias et al., 2018]). So we choose as lower limit
+Lmin = 25/v ≈ 6.94 µg.l−1 . Considering the desirable threshold for in-lake
+P, we consider an optimistic scenario with the value of the mesotropic equilibrium as maximum, Pmax = 24.76 µg.l−1 . The constraint set for this scenario
+is K = {(L, P ), L ≥ Lmin , P ≤ P1 } (respectively P2 for K2 ). As possibility
+of control, we consider that the maximum rate for the reduction of incoming
+P is half the maximum difference ∆ of loading between two consecutive years
+between 2004 and 2016. For the increase of the loading we consider that the
+maximum rate can be ∆. So the set of admissible control is U = [− ∆
+2 , ∆], with
+∆ ≈ 3.15 µg.l−1 y −1 . When parameters are in a range, we consider the embedding dynamics Sv as in equation 8 with the corresponding parameter as v and
+V its range. For each member i it is possible to define a viability problem either
+as in Section 2.3.1, when parameters have fixed values, or a guarantied viability
+problem as in Section 3.2, when parameters are in a range. We note viabi the
+viability kernel associated to Member i’s project (K, U ) and dynamics Si (or
+Si0 ) with fixed parameters (or Svi or Si0 with parameter in a range). Figure 5
+shows the viability and guarantied viability kernels computed for scenario 1 for
+members 2 to 4.
+Applying the method described in the previous section, we define an embedding function fB for the group from model ()9) and Table 1. We then define
+Parameters
+b, r, m
+in µg.l−1
+Table 1
+/ Member 1
+Member 2
+Member 3
+Member 4
+
+bi
+P loss
+
+ri
+max.
+rate
+
+mi
+αi
+qi
+λi
+P value model steepness steepness
+at half
+type model (1) model (9)
+max. rate
+Si
+Si0
+
+2.2676
+
+101.96
+
+26.90
+
+1
+
+2.222
+
+2.2676
+[2.2, 2.3]
+2.2676
+
+101.96
+101.96
+101.96
+
+26.90
+26.90
+26.90
+
+1
+1
+0
+
+[2.2, 2.3]
+2.222
+[1/19, 1/16]
+
+-
+
+Table 2: Believes regarding the model and parameters of Lake Bourget dynamics.
+
+17
+
+the guarantied viability problem Bv (equation 13) associated to fB .
+!
+
+u
+fB (x, u, v) =
+
+
+
+v3
+
+P
+−v1 P + L + r (1 − v2 ) mvP
++ v2 P +me(−v
+3 +P v3
+4 (P −m))
+
+
+
+(11)
+where v1 stands for parameter bi , v2 for αi , v3 for qi and v4 for λi , with :
+
+ x = (L, P ) ∈ K
+(12)
+u ∈ U = [− ∆
+2 , ∆]
+
+v ∈ V = [2.2, 2.3] × [0, 1] × [2.2, 2.3] × [1/19, 1/18]
+
+(a) (a) Member 2 versus Member 1.
+
+(b) Member 3 versus Member 1.
+
+(c) Member 4 guarantied viability kernel versus Member 1.
+
+(d) Guarantied Viability kernel
+GuarfBd associated to the group
+versus Member 1.
+
+Figure 5: Guarantied viability kernel for each member and the group versus
+Member 1’s viability kernel. Computation with R ([Team, 2010]) and ViabLab
+([Désilles, 2020])
+.
+18
+
+
+(L, P )0 (t)
+
+
+
+u(t)
+Bv
+v(t)
+
+
+
+(L, P )(t)
+
+=
+∈
+∈
+∈
+
+fB ((L, P )(t), u(t), v(t))
+U
+V
+K
+
+(13)
+
+Since U and V are constant function of (L, P ), and since fB is Lipschitz, the
+conditions of Proposition 5 are fulfilled. Since U is constant, it is Lipschitz
+for every λ > 0, so the guarantied viability kernel Guarλ ,fB (K) associated to
+problem (13) is closed and has the property of guarantied viability. It is then
+from Theorem 1 a consensus set of states for the four member of the committee
+whose believes are summarized in Table 2. To compute an approximation of
+Guarλ ,fB (K), we use the ViabLab library [Désilles, 2020], developed by A.
+Désilles and used in [Durand et al., 2017]. This library uses the convergence
+conditions of the algorithm established by P. Saint-Pierre [Saint-Pierre, 1994].
+Since the ViabLab library requires presently for the computation of guarantied
+viability kernel discrete problems in time and space, we defined a discretized
+version of the viability problem, with function fBd from equation (14), with a
+discretization parameter τ = 0.1 for which the dynamics are stable. We also
+used projection on grid method from [Lavallée, 2020] to minimize discretization
+error.
+
+
+L + τu
+
+
+fBd ((L, P ), u, v) =  P + τ [−v
+i 
+ 1 P + L+
+v3
+
+P
++ v2 x +me(−v
+r (1 − v2 ) mvP
+3 +P v3
+4 (P −m))
+2
+
+(14)
+The resulting approximation GuarfBd (K) is shown on Figure 5d. The guarantied viability kernel for the group is a viable set for all members, and the
+viable controls on its boundary are viable controls for all members.
+
+4.3
+
+Discussion
+
+Depending on the dynamics and the beliefs of the different group members, the
+guarantied viability kernel computed following the approach of Section 3.1 could
+be smaller than the largest viable set corresponding to the union of the parameters set of each group member. For instance, with (b, r) ∈ {(2.1, 100), (2.2, 80)},
+it is possible to design a viable set for these two values only, solving the problem
+with the computation of integral curves as it is done in Section 2.3 for the lake
+problem (see figure 4). Whereas following the method in Section 3.1, in order to
+respect the conditions of VT theorems and use the viablab library it is necessary
+to define a guaranty viability problem for (b, r) ∈ [2.1, 2.2] × [80, 100]. But when
+the dimension of the state space is greater than 2, the first method is virtually
+impossible to implement with a generic module (since a specific mathematical
+study of the dynamics is necessary).
+The viability algorithm is exponential with the dimension of the space in the
+general case, so it can be very slow, in particular when the viability kernel is
+empty or with high dimension problems. For each alternative model definition
+a tyche has to be considered, which increases the dimension of V linearly with
+19
+
+the number of models. The computation of GuarfBd (K) on Figure 5d takes
+938.64s with a processor i7-8650U CPU @ 1.90GHz × 8 and 15.5GiB RAM,
+with an accuracy of 1000 points/axis and a discretization step of 11 for control
+and the model type and 5 for the three other tyches (b,q,λ). It takes 1243.86 s
+for a scenario with Pmax = 15.0 µg.l−1 (all parameters being equal), and the
+guarantied viability kernel is not empty. Increasing the dimension of V can
+also lead to much longer computation time. For instance, it takes 7122.99 s
+for the scenario with Pmax = 15.0 µg.l−1 , all parameters being equal except
+for m ∈ [26.0, 27.0] as additional tyche. In that case the guarantied viability
+kernel is empty. This method has been used for a dimension 3 problem of
+management of marine protected area [Zaleski, 2020]. With an accuracy of 100
+points/axis and dimension 2 controls and tyches (with discretization step of
+11), the computation time is 437.94 s. It is 3153.31 s with an accuracy of 300
+points/axis and 5 steps for each tyche.
+Regarding the model of Lake Bourget itself, we consider here a single control for different practices (use of wetlands, use of retention basins, different farmer practices), and the value of its range is consistent with observations but arbitrary. The model could be improved by taking into account
+more detailed mechanisms for these different types of control and their relation to soil leaching and rainfall. The lake is considered as homogeneous, which
+seams a reasonable assumption regarding the water resident time of 14 years
+([Brias et al., 2018]). On the other hand, since blooms of cyanobacteria are often localized, it could be useful to use spatial and weekly data to assess the size
+of perturbations and take them into account to consider robustness issues as
+defined in [Martin and Alvarez, 2019].
+
+5
+
+Conclusion
+
+In this paper, we have presented a method for reaching a viability-based consensus for the management of commons with multiple usages. We have proposed a definition of the management project and stakeholder viewpoints, and
+a viability-based definition for the consensus solution as a viable set for all stakeholders with conditions on their regulation map. We have defined embedding
+functions that allow to compute a guarantied viability kernel for the associated
+dynamics. We have then shown that this guarantied viability kernel is a consensus solution (Theorem 1). It can then be computed with algorithms used for
+viability kernel approximation. We have then applied this method to a management scenario for Lake Bourget. The main interest of this method is that
+stakeholders can retain their vision of the dynamics. Negotiations can focus on
+the definition of desirable states and admissible actions. It also prepare the way
+for an alternative to agent based modeling when dealing with stakeholders for
+management of commons.
+
+20
+
+References
+[Alais et al., 2017] Alais, J.-C., Carpentier, P., and De Lara, M. (2017). Multiusage hydropower single dam management: chance-constrained optimization
+and stochastic viability. Energy Systems, 8(1):7–30.
+[Aubin, 1991] Aubin, J.-P. (1991). Viability Theory. Birkhäuser, Basel.
+[Aubin, 1997] Aubin, J.-P. (1997). Dynamic economic theory: a viability approach, volume 5. Springer Verlag.
+[Barreteau et al., 2001] Barreteau, O., Bousquet, F., and Attonaty, J.-M.
+(2001). Role-playing games for opening the black box of multi-agent systems: method and lessons of its application to Senegal River. Journal of
+Artificial Societies and Social Simulation, 4(2):5.
+[Bates and Saint-Pierre, 2018] Bates, S. and Saint-Pierre, P. (2018). Adaptive
+policy framework through the lens of the viability theory: A theoretical contribution to sustainability in the anthropocene era. Ecological Economics,
+145:244–262.
+[Brias et al., 2018] Brias, A., Mathias, J.-D., and Deffuant, G. (2018). Interannual rainfall variability may foster lake regime shifts: An example from
+Lake Bourget in France. Ecological Modelling, 389:11–18.
+[Carpenter et al., 1999] Carpenter, S. R., Ludwig, D., and Brock, W. A. (1999).
+Management of Eutrophication for Lakes Subject to Potentially Irreversible
+Change. Ecological Applications, 9(3):751–771.
+[de Groot, 2006] de Groot, R. (2006). Function-analysis and valuation as a
+tool to assess land use conflicts in planning for sustainable, multi-functional
+landscapes. Landscape and Urban Planning, 75(3):175 – 186.
+[De Lara and Martinet, 2009] De Lara, M. and Martinet, V. (2009). Multicriteria dynamic decision under uncertainty: A stochastic viability analysis
+and an application to sustainable fishery management. Mathematical Biosciences, 217(2):118–124.
+[Désilles, 2020] Désilles, A. (2020). Viablab library. Technical report, LASTRES. https://github.com/lastre-viab/VIABLAB.
+[Dowling et al., 2020] Dowling, N. A., Dichmont, C. M., Leigh, G. M., Pascoe,
+S., Pears, R. J., Roberts, T., Breen, S., Cannard, T., Mamula, A., and Mangel, M. (2020). Optimising harvest strategies over multiple objectives and
+stakeholder preferences. Ecological Modelling, 435:109243.
+[Doyen, 2000] Doyen, L. (2000). Lipschitz Kernel of a Closed Set-Valued Map.
+Set-Valued Analysis, 8(1):101–109.
+
+21
+
+[Durand et al., 2017] Durand, M.-H., Désilles, A., Saint-Pierre, P., Angeon, V.,
+and Ozier-Lafontaine, H. (2017). Agroecological transition: A viability model
+to assess soil restoration. Natural resource modeling, 30(3):e12134.
+[Etienne, 2014] Etienne, M., editor (2014). Companion Modelling: A Participatory Approach to Support Sustainable Development. Springer Netherlands.
+[Gajardo et al., 2017] Gajardo, P., Harmand, J., Ramirez, H., Rapaport, A.,
+Riquelme, V., and Rousseau, A. (2017). Modeling and control of in-situ
+decontamination of large water resources. ESAIM: Proceedings and Surveys,
+57:70–85.
+[Hardin, 1968] Hardin, G. (1968). The Tragedy of the Commons. Science, New
+Series, 162(3859):1243–1248.
+[Jacquet, 2018] Jacquet, S. (2018). Suivi scientifique du lac du Bourget pour
+l’année 2017. Technical report, INRAE ; CISALB ; Agence de l’eau RMC.
+[Křivan, 1991] Křivan, V. (1991). Differential inclusions as a methodology tool
+in population biology. In Proceedings of the 1995 European Simulation Multiconference, pages 544–547, Prague.
+[Křivan and Colombo, 1998] Křivan, V. and Colombo, G. (1998). A Nonstochastic Approach for Modeling Uncertainty in Population Dynamics. Bulletin of Mathematical Biology, 60(4):721–751.
+[Lavallée, 2020] Lavallée, F. (2020). PhD thesis. Model, exploration, viability
+theory for management support of invasive species. Sorbonne University. In
+French.
+[Little et al., 2007] Little, L. R., Punt, A. E., Mapstone, B. D., Pantus, F.,
+Smith, A. D. M., Davies, C. R., and McDonald, A. D. (2007). ELFSim—A
+model for evaluating management options for spatially structured reef fish
+populations. Ecological Modelling, 205(3):381–396.
+[Liu et al., 2015] Liu, W., Wang, S., Zhang, L., and Ni, Z. (2015). Water pollution characteristics of Dianchi Lake and the course of protection and pollution
+management. Environmental Earth Sciences, 74(5):3767–3780.
+[Martin, 2004] Martin, S. (2004). The cost of restoration as a way of defining
+resilience: a viability approach applied to a model of lake eutrophication.
+Ecol. Soc., 2(9):8.
+[Martin and Alvarez, 2019] Martin, S. and Alvarez, I. (2019). Anticipating
+shocks in the state space: Characterizing robustness and building increasingly
+robust evolutions. SIAM Journal on Control and Optimization, 57(1):490–
+509.
+[Martinet et al., 2016] Martinet, V., Peña-Torres, J., De Lara, M., and
+Ramı́rez C., H. (2016). Risk and Sustainability: Assessing Fishery Management Strategies. Environmental and Resource Economics, 64(4):683–707.
+22
+
+[Oubraham and Zaccour, 2018] Oubraham, A. and Zaccour, G. (2018). A Survey of Applications of Viability Theory to the Sustainable Exploitation of
+Renewable Resources. Ecological Economics, 145:346–367.
+[Parrachino et al., 2006] Parrachino, I., Dinar, A., and Patrone, F. (2006). Cooperative Game Theory And Its Application To Natural, Environmental, And
+Water Resource Issues : 3. Application To Water Resources. Policy Research
+Working Papers. The World Bank.
+[Saint-Pierre, 1994] Saint-Pierre, P. (1994). Approximation of the viability kernel. Applied Mathematics and Optimization, 29(2):187–209.
+[Sanogo et al., 2012] Sanogo, C., Ben Miled, S., and Raissi, N. (2012). Viability
+Analysis of Multi-fishery. Acta Biotheoretica, 60(1):189–207.
+[Team, 2010] Team, R. D. C. (2010). R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna.
+[Vinçon-Leite and Tassin, 1990] Vinçon-Leite, B. and Tassin, B. (1990).
+Modélisation de la qualité des eaux des lacs profonds : modèle thermique
+et biogéochimique du lac du Bourget. La Houille Blanche, (3-4):231–236.
+[Vollenweider, 1982] Vollenweider (1982). coord. Eutrophication of waters.
+Monitoring, assessment and control. Technical report, OECD.
+[Wei et al., 2013] Wei, W., Alvarez, I., and Martin, S. (2013). Sustainability
+analysis: Viability concepts to consider transient and asymptotical dynamics
+in socio-ecological tourism-based systems. Ecological Modelling, 251:103–113.
+[Zaleski, 2020] Zaleski, L. (2020). PhD thesis. Decision and negociation assistant by viability analysis: Application to the participatory management of
+protected areas. Sorbonne University. In French.
+
+A
+
+Properties of Viability Kernels
+
+A.1
+
+Properties of Multi-valued Maps
+
+Let G be a multi-valued map from Rn to Rp . The domain of G is Dom(G) =
+{x ∈ Rn , G(x) 6= ∅}. The graph of G is Graph(G) = {(x, y) ∈ Rn × Rp , y ∈
+G(x)}. G has a linear growth if there is c > 0 such that for all x ∈ Dom(G),
+kG(x)k ≤ c(kxk + 1). The system Sc(f, U ) (2) is Marchaud if f is continuous,
+Graph(U ) is closed, f and U have linear growth and the image set {f (x, u), u ∈
+U (x)} is convex for all of x ∈ Dom(U ). G is Lipschitz for constant λ > 0 (or
+λ-Lipschitz) if for all x1 , x2 in Rn , G(x1 ) ⊂ G(x2 ) + λkx1 − x2 kB, where B is
+the unit ball.
+
+23
+
+A.2
+
+Closed Viability Kernels [Aubin, 1991]
+
+Proposition 3 Continuous case: When the system Sc(f, U ) (2) is Marchaud
+and K is closed, the associated viability kernel is closed. It is the largest viable
+set in K.
+Proposition 4 Discrete case: When system Sd(f, U ) (3) is such that f is continuous, U has a linear growth, Graph(U ) is closed, and when K is closed, the
+associated viability kernel is closed.
+
+A.3
+
+Guaranteed Viability Kernels
+
+We recall some properties of dynamical controlled tychastic systems.
+Definition 15 A dynamical controlled tychastic system Scv(f, U, V ) (4) is Lipschitz if f is Lipschitz, and U and V are Lipschitz with compact images.
+Proposition 5 From [Doyen, 2000] in the continuous case and [Lavallée, 2020]
+in the discrete case. The guaranteed viability kernel associated to a set K is
+closed when the dynamics verify the following conditions: In the continuous
+case, when K is closed and Scv(f, U, V ) is Lipschitz ; In the discrete case, when
+f and V are continuous, Graph(U ) is closed and U has a linear growth (see 2.2
+for the definitions).
+We recall Theorem 1: The guaranteed viability kernel associated to K for
+Scv(f, U, V ) (with λ Lipschitz constant in the continuous case) (resp. Sdv(f, U, V )
+in the discrete case ) is a consensus solution to the management of A.
+Proof of Theorem 1. Let L 6= ∅ be the guaranteed viability kernel for
+system (4) with λ Lipschitz constant (resp. system (5) in the discrete case)
+associated to constraint set K. Let Ũ be the guaranteed regulation map. By
+definition, DomŨ = L. We now prove that the guaranteed viability kernel is a
+viable set for each member i. Let i ∈ N , we consider the system Sc0i = Sc(fi , Ũ )
+(resp. Sd0i = Sd(fi , Ũ ) in the discrete case). Since the guaranteed viability
+kernel is defined from the group project (K, U ), we have L ⊂ K, and for all x ∈
+L, Ũ (x) ⊂ U (x). So an evolution governed by Sc0i (resp. Sd0i ) is also an evolution
+governed by Sc(fi , U ) (resp. Sd(fi , U )). Since system (4) (resp. system (5) )
+embeds Sc(fi , Ui ) (resp. Sd(fi , Ui )), it also embeds Sc0i (resp. Sd0i ). Let x0 ∈ L,
+and let x(.) (resp. xk ) be a trajectory starting at x0 and governed by Sc0i (resp.
+Sd0i ). Because of the embedding there is a function v such that fi (x(t), ũ(t)) =
+f (x(t), ũ(t), v(t)) (resp. fi (xk ), ũk ) = f (xk , ũk , v k ) in the discrete case). So x(.)
+is also an evolution governed by system (4) (resp.(5)). Since L is the guaranteed
+viability kernel for system (4) with λ Lipschitz constant (resp.(5)) associated
+to constraint K, from Definition (13), all trajectories starting from x0 ∈ L and
+governed by (4) (resp.(5)) are viable in L for control selection in Ũ . So the
+trajectory of x(.) governed by Sc0i (resp. Sd0i ) starting at x0 stays in L. So x(.)
+is an evolution starting at x0 governed by Sci (resp. Sdi ) viable in L. So L is
+a viable set for member i. 
+24
+
+B
+
+Embedding system
+
+Proposition 6 If U has a linear growth and for all i ∈ N , fi has a linear
+growth, then a System (4) (resp. 5) can embed Sc(fi , U )(2) (resp. Sd(fi , U )
+(3)) for all i ∈ N .
+Proof. We note Mx = maxi∈N ,u∈U (x) (kf1 (x, u) − fi (x, u)k). Mx is defined
+since U and all fi have a linear growth. We define f (x, u, v) = f1 (x, u) + v(x)
+with v(x) ∈ V (x) = B(0, Mx ), where B(a, r) is the closed ball with center a and
+radius r. Then for x ∈ K and u ∈ U (x) we define vi,u,x = fi (x, u) − f1 (x, u).
+We have kvi,u,x k ≤ Mx , so vi,u,x ∈ V (x). Then ∀i ∈ N , fi (x, u) = f (x, u, vi,u,x )
+and equation (6) is verified. 
+Definition of f leading to smaller sets of perturbation are preferable. For
+instance, it can be interesting to define f with the convex hull
+P of the fi (x, u):
+With i ∈ J = N r {1} we consider
+v
+=
+(v
+),
+v
+∈
+[0,
+1]
+with
+i
+i
+i∈J vi ≤ 1, and
+P
+P
+define f (x, u, v) = f1 (x, u)(1 −
+vi ) +
+vi fi (x, u).
+i∈J
+
+i∈J
+
+25
+
+

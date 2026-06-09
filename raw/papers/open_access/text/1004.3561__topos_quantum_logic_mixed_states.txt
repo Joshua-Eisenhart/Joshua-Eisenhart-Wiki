@@ -1,0 +1,1022 @@
+arXiv:1004.3561v1 [quant-ph] 20 Apr 2010
+
+Topos Quantum Logic and Mixed States
+Andreas Döring∗
+Computing Laboratory, University of Oxford
+April, 2010
+
+Abstract
+The topos approach to the formulation of physical theories includes a new form of quantum logic. We present this topos quantum
+logic, including some new results, and compare it to standard quantum
+logic, all with an eye to conceptual issues. In particular, we show that
+topos quantum logic is distributive, multi-valued, contextual and intuitionistic. It incorporates superposition without being based on linear
+structures, has a built-in form of coarse-graining which automatically
+avoids interpretational problems usually associated with the conjunction of propositions about incompatible physical quantities, and provides a material implication that is lacking from standard quantum
+logic. Importantly, topos quantum logic comes with a clear geometrical underpinning. The representation of pure states and truth-value
+assignments are discussed. It is briefly shown how mixed states fit
+into this approach.
+
+1
+
+Introduction
+
+At a very basic level, physics is about propositions of the form “the physical
+quantity A (of some given system S) has a value in the set ∆ of real numbers”, written shortly as “Aε∆”. One wants to know what truth-values such
+propositions have in a given state of the system. It is also of interest how
+the truth-value changes with the state (in time).
+In classical physics, this is unproblematic: there is a space of states, and
+in any given (pure) state
+∗
+
+andreas.doering@comlab.ox.ac.uk
+
+1
+
+(a) all physical quantities have a value,
+(b) all propositions of the form “Aε∆” have a truth-value.
+For a classical system, propositions are represented by subsets of the state
+space. Usually, one restricts attention to Borel subsets, and we will follow
+this convention here. A (pure) state of a classical system is a point of the
+state space of the system,1 and the truth-values of propositions are true,
+false. The Borel subsets of the state space form a Boolean σ-algebra, and
+the logic of classical physical systems is Boolean logic. Classical physics is a
+realist theory fulfilling properties (a) and (b).
+As is well-known, there is no such realist formulation of quantum theory:
+the Kochen-Specker theorem [29, 9] shows that there is no state space of a
+quantum system analogous to the classical state space. Hilbert space does not
+play this role. In particular, Kochen and Specker required that the physical
+quantities are represented as real-valued functions on the (hypothetical) state
+space of a quantum system and then showed that such a space does not
+exist. In fact, they showed the even stronger result that under very natural
+conditions it is impossible to assign values to all physical quantities at once,
+and hence it is also impossible to assign true resp. false to all propositions.
+In standard quantum logic, which goes back to the seminal paper [5]
+by Birkhoff and von Neumann, propositions like “A ε ∆” are represented
+by projection operators on Hilbert space (via the spectral theorem). The
+projections form a non-distributive lattice, which makes the interpretation
+of the lattice operations as logical operations very dubious. Quantum logic
+is lacking a proper semantics. Pure states are represented by unit vectors in
+Hilbert space. Let Ê[Aε∆] denote the projection representing the proposition
+“A ε ∆”. In a given state |ψi, we can calculate the probability of “Aε∆”
+being true in the state |ψi:
+P (A ε ∆; |ψi) := hψ| Ê[A ε ∆] |ψi ∈ [0, 1].
+
+(1)
+
+The interpretation is instrumentalist: upon measurement of the physical
+quantity A, we will find the result to lie in ∆ with probability P (A ε ∆; |ψi).
+Standard quantum logic and its many generalisations [8] have a number of
+conceptual and interpretational problems. To us, non-distribuitivity and the
+fundamental dependence on instrumentalist notions seem the most severe. In
+the following, a proposal for a new form of quantum logic is sketched which
+overcomes these problems. This new form of quantum logic arose from the
+1
+
+We avoid the notion ‘phase space’, which seems to be a historical misnomer.
+
+2
+
+topos approach to the formulation of physical theories, initiated more than a
+decade ago by Butterfield and Isham [23, 24, 25, 26]. Further references are
+given below.
+In Section 2, the basic structures of the topos approach are introduced. In
+Section 3, the representation of propositions and daseinisation of projections
+are discussed. Section 4 is concerned with pure states and how they serve
+to assign topos-internal truth-values to all propositions. Sections 3 and 4
+are developing joint work with Chris Isham. A number of new small results
+is proved. In particular, it is shown that topos quantum logic ‘preserves’
+superposition. There is some emphasis on the conceptual discussion of the
+topos scheme. Section 5 sketches how mixed states can be treated in the
+topos approach and how this relates to the logical aspects. In Section 6,
+some related work is pointed out. Section 7 concludes.
+
+2
+
+The basic structures
+
+In this section, some of the basic structures of the topos approach to quantum theory are introduced. We can only give a sketch and some intuitive
+ideas here, for a comprehensive presentation including many further aspects
+and results see [14, 15, 16, 17] and [18]. A short introduction to the topos
+approach in general is given in [10], and more recently in [13, 22].
+We assume that a quantum system is described by its algebra of observables. For simplicity, we assume that this algebra is B(H), the algebra of all
+bounded operators on a separable Hilbert space H of dimension 2 or greater.
+The Hilbert space can be infinite-dimensional. To each physical quantity A
+of the quantum system, there corresponds a self-adjoint operator Â in B(H)
+and vice versa. B(H) is a von Neumann algebra.
+We emphasise that all our results generalise without extra effort to arbitrary von Neumann algebras.2
+
+2.1
+
+The context category
+
+One central idea in the topos approach is to take contextuality into account,
+as suggested by the Kochen-Specker theorem. For us, a context is an abelian
+2
+
+It is no problem that physical quantities like position and momentum are described by
+unbounded operators, while a von Neumann algebra contains only bounded operators. An
+unbounded operator can be affiliated to a von Neumann algebra provided all its spectral
+projections lie in the algebra (see e.g. [28]).
+
+3
+
+subalgebra of the non-abelian von Neumann algebra B(H). We consider only
+abelian von Neumann subalgebras, since we want enough projections in each
+algebra for the spectral theorem to hold. Moreover, we consider only those
+abelian subalgebras that contain the identity operator 1̂ on H. Let V(H)
+denote the set of unital, abelian von Neumann subalgebras of B(H). V(H)
+is a partially ordered set under the inclusion of smaller into larger algebras.
+If V ′ , V ∈ V(H) are contexts such that V ′ is contained in V , we denote the
+inclusion as iV ′ V : V ′ → V . Since every poset is a category, we call V(H)
+the context category. Its objects are the abelian von Neumann subalgebras
+of B(H), and its arrows are the inclusions between them.
+Every context V ∈ V(H) provides a classical perspective on the quantum
+system, since, as in classical physics, all the physical quantities resp. the
+corresponding self-adjoint operators in a context commute. Of course, the
+perspective provided by a single context V is partial, since the quantum
+system has non-commuting physical quantities that cannot all be contained
+in the context. But by taking all contexts into account at once, and by
+moreover keeping track of their relations, one can hope to gain a complete
+picture of the quantum system.
+
+2.2
+
+The topos associated to a quantum system and its
+internal logic
+
+Of course, it will not be enough to consider the context category V(H) alone.
+Instead, one defines structures over V(H) and relations between these structures. Concretely, one considers Set-valued functors on the context category
+V(H) and natural transformations between them.3 At this point, a choice
+between covariant and contravariant functors must be made.
+Let V, V ′ ∈ V(H) such that V ′ ⊂ V . The step from the algebra V to the
+smaller algebra V ′ is a process of coarse-graining: since V ′ contains less selfadjoint operators and less projections than V , one can describe less physics
+from the perspective of V ′ than from V . Mapping self-adjoint operators
+and projections from V to V ′ hence will make it necessary to approximate.
+If we consider a proposition “A ε ∆” about a physical quantity A that is
+represented by a self-adjoint operator Â in V , then there exists a projection
+P̂ = Ê[A ε ∆] in V that represents the proposition. It may happen that
+the smaller abelian subalgebra V ′ does not contain the projection P̂ . This
+means that the proposition “A ε ∆” cannot be stated from the perspective
+of V ′ . Both the projection P̂ and the corresponding proposition “A ε ∆”
+3
+
+The standard reference on category theory is [30].
+
+4
+
+must be adapted to V ′ by making them coarser. This leads to the idea of
+daseinisation, which is discussed in detail in the following section.
+On the other hand, the step from V ′ to V is trivial, since every self-adjoint
+operator and every projection in V ′ is of course also contained in V . Going
+in this direction, one can merely embed the smaller algebra V ′ into the larger
+one, without making use of the extra structure (more self-adjoint operators,
+more projections, hence more propositions) available in V .
+This strongly suggests to use contravariant functors on the context category V(H): the arrows in V(H) are the inclusions of smaller contexts V ′ into
+larger ones like V , so if we want to incorporate coarse-graining, our functors over V(H) must
+invert the direction of the arrows. The idea hence is
+op
+to consider SetV(H) , the collection of Set-valued contravariant functors—
+traditionally called presheaves—over the base category V(H).
+With natural
+V(H)op
+transformations as arrows between the presheaves, Set
+becomes a category. This category has all the extra structure that makes it into a topos.4
+Topos theory is a highly developed branch of pure mathematics, and we refer to the literature for more information [20, 31, 27]. For us, the important
+aspect is that a toposopis a category whose objects ‘behave like sets’. Each
+presheaf P ∈ SetV(H) can be seen as kind of a generalised set, and each
+natural transformation τ : P1 → P2 between presheaves is the analogue of a
+function between sets. Presheaves can have extra structure so as to become
+op
+a group, a topological space, a ring etc. internally in the topos SetV(H)
+(and natural transformations may or may not preserve this extra structure).
+op
+
+The context category V(H) is the base category of the topos SetV(H) ,
+and theopcontexts V ∈ V(H) are also called stages. Each presheaf P ∈
+SetV(H) can be seen as a collection (P V )V ∈V(H) of sets, one for each context,
+together with functions P(iV ′ V ) : P V → P V ′ whenever V ′ ⊂ V . (If V ′ = V ,
+then the function P(iV V ) is the identity on P V .)
+The subobject classifier Ω in a topos is the object that generalises the
+set {0, 1} of truth-values (where 0 is identified with false and
+1 with true) in
+V(H)op
+the topos Set of sets and functions. In the topos Set
+, the subobject
+classifier Ω is the presheaf of sieves on V(H). To each V ∈ V(H), the set ΩV
+of all sieves on V is assigned. A sieve σ on V is a collection of subalgebras
+of V that is downwards closed, i.e., if V ′ ∈ σ and V ′′ ⊂ V ′ , then V ′′ ∈ σ.
+The maximal sieve on V is just the downset ↓V of V in V(H). If V ′ ⊂ V ,
+then the function Ω(iV ′ V ) : ΩV → ΩV ′ sends a sieve σ ∈ ΩV to the sieve
+σ∩ ↓V ′ ∈ ΩV ′ .
+op
+
+A truth-value in the internal logic of the topos SetV(H) is a global element
+4
+
+I.e., it has finite limits and colimits, exponentials as well as a subobject classifier.
+
+5
+
+γ = (γV )V ∈V(H) of the subobject classifier Ω, i.e., we have γV ∈ ΩV for all
+V ∈ V(H) and γV ∩ ↓V ′ = γV ′ whenever V ′ ⊂ V .
+The intuitive interpretation of such a truth-value γ simply is that for each
+context V ∈ V(H), we have a local truth-value true or false: if V ∈ γṼ for
+some Ṽ ⊇ V , then at V , we have true, else we have false. The fact that γ
+is a global element guarantees that this is independent of the choice of Ṽ .
+Moreover, the fact that we have sieves means that if at some V ∈ V(H) we
+have true, then we have true at all V ′ ⊂ V .
+Physically, we interpret the contexts V ∈ V(H) as classical perspectives
+on the quantum system under consideration. A truth-value γ hence is contextual: it provides information about truth or falsity from each perspective
+V . Clearly, there is a truth-value γ1 consisting of the maximal sieve ↓ V
+for each context. This is interpreted as totally true, i.e., true from all perspectives V ∈ V(H). The truth-value γ0 consisting of the empty sieve for
+each V is interpreted as totally false. There are many other truth-values between γ0 and γ1 . The truth-values are partially ordered under inclusion. It is
+well-known that they form a Heyting algebra, the algebraic representative of
+intuitionistic propositional logic. In particular, this means that conjunction
+and disjunction behave distributively. The main difference between an intuitionistic and a Boolean logical calculus is that the law of excluded middle
+need not hold in the former. If H is a Heyting algebra with top element 1,
+and a ∈ H with ¬a its negation, then
+a ∨ ¬a ≤ 1.
+
+(2)
+
+In a Boolean algebra, equality holds.
+op
+
+The internal logic provided by the topos SetV(H) hence is distributive,
+multi-valued, contextual and intuitionistic. We will apply this logical structure to quantum theory.
+
+2.3
+
+The spectral presheaf
+
+The fact that we are using Boolean logic in classical physics is closely tied to
+the fact that classical physics is based upon the idea of a state space S. A
+proposition “A ε ∆” about a physical quantity A of the system is represented
+by a subset S of the state space. This subset contains all states (i.e., elements
+of the state space) in which the proposition is true. Usually, one does not
+consider all subsets of state space, but restricts attention to measurable ones.
+The Borel subsets B(S) form a σ-complete Boolean algebra.
+In classical physics, in any given state s ∈ S, every proposition has a
+6
+
+truth-value. If s lies in the subset of S representing the proposition, then the
+proposition is true, otherwise it is false.
+The Kochen-Specker theorem [29] shows that there is no analogous state
+space picture for quantum theory. The theorem is often interpreted as meaning that there are no non-contextual truth-value assignments in quantum
+theory. The topos approach takes this as a motivation and starting point.
+For each context V ∈ V(H), there exists a state space picture similar to the
+classical case: each V is an abelian C ∗ -algebra, so by Gel’fand duality there
+is an isomorphism G : V → C(ΣV ) of C ∗ -algebras between V and the continuous, complex-valued functions on the Gel’fand spectrum ΣV of V . Here,
+the Gel’fand spectrum ΣV , which is a compact Hausdorff space, takes the
+rôle of the state space for the physical quantities described by self-adjoint
+operators in V . Each self-adjoint operator Â ∈ V is sent to the real-valued
+function G(Â) on ΣV , given by
+∀λ ∈ ΣV : G(Â)(λ) = λ(Â.)
+
+(3)
+
+It holds that im(G(Â)) = sp(Â). Since V is a von Neumann algebra, the
+Gel’fand spectrum ΣV is extremely disconnected.
+The main idea is to define a presheaf Σ over the context category V(H)
+from all the local state spaces ΣV , V ∈ V(H), by assigning to each context
+V ∈ V(H) its Gel’fand spectrum ΣV = ΣV . If V ′ ⊂ V , then there is a
+canonical function
+Σ(iV ′ V ) : ΣV −→ ΣV ′
+λ 7−→ λ|V ′ .
+
+(4)
+
+This defines the spectral presheaf Σ, which is the analogue of the state space
+S of a classical system. It is a generalised set in the sense discussed in section
+2.2.
+Each context V ∈ V(H) is determined by its lattice of projections P(V )
+(since a von Neumann algebra is generated by its projections). The projections Q̂ ∈ P(V ) represent propositions “A ε ∆” that can be made from the
+perspective of V . Since V is an abelian von Neumann algebra, the projection
+lattice P(V ) is a distributive lattice. Moreover, P(V ) is complete and orthocomplemented. There is a lattice isomorphism between P(V ) and Cl(ΣV ),
+the lattice of clopen, i.e., closed and open subsets of the Gel’fand spectrum
+ΣV of V :
+α : P(V ) −→ Cl(ΣV )
+P̂ 7−→ SP̂ := {λ ∈ ΣV | λ(P̂ ) = 1}.
+7
+
+(5)
+
+Locally, at each V ∈ V(H), this gives the correspondence between projections
+in V and subsets of the Gel’fand spectrum ΣV .
+
+3
+
+Representation of Propositions
+
+3.1
+
+Daseinisation of Projections
+
+Let S be a given quantum system, and let “A ε ∆” be a proposition about
+the value of some physical quantity A of the system. The task is to find a
+suitable representative of the proposition within the topos scheme.
+The main idea is very simple: the spectral presheaf Σ is an analogue of the
+state space of a classical system. Since, in classical physics, propositions correspond to Borel subsets of the state space, we construct suitable subsets, or
+rather, subobjects, of the spectral presheaf that will serve as representatives
+of propositions.
+There is a straightforward way of doing this: let “A ε ∆” be a proposition,
+and let P̂ = Ê[A ε ∆] be the corresponding projection in P(H). In a first
+step, we ‘adapt’ the projection P̂ to all contexts by defining
+^
+∀V ∈ V(H) : δ o (P̂ )V := {Q̂ ∈ P(V ) | Q̂ ≥ P̂ }.
+(6)
+That is, we approximate P̂ from above by the smallest projection in V that
+is larger than or equal to P̂ . On the level of local propositions5 , we pick
+the strongest local proposition implied by “A ε ∆” that is available from the
+perspective of V . In simple cases, δ o (P̂ )V represents a local proposition
+“A ε Γ”, where Γ ⊇ ∆. In general, the self-adjoint operator Â representing
+a physical quantity A need not be contained in V and thus the proposition
+represented by δ o (P̂ )V is of the form “B ∈ Γ”, where B is a physical quantity
+such that the corresponding self-adjoint operator B̂ is in V .6 In any case,
+δ o (P̂ )V ≥ P̂ .
+The central conceptual idea in the definition of the representative of a
+proposition “A ε ∆” is coarse-graining. Each context V ∈ V(H) provides a
+classical perspective on the quantum system, characterised by the collection
+P(V ) of projection operators in V . The projections in V correspond to
+5
+
+We call those propositions local (at V ) that are represented by projection operators in
+V via the spectral theorem. The proposition “A ε ∆” that we want to represent is global.
+For each context V ∈ V(H), the global proposition becomes coarse-grained to give some
+local proposition.
+6
+We remark that even if Â ∈
+/ V , we can still have P̂ = Ê[A ε ∆] ∈ V .
+
+8
+
+local propositions about the values of physical quantities in V . If the global
+proposition “A ε ∆” that we start from is a proposition about some physical
+quantity A that is is represented by a self-adjoint operator Â in V , then the
+projection P̂ representing “A ε ∆” is also contained in V , and daseinisation
+will pick this projection at P̂ (i.e., δ o (P̂ )V = P̂ ). If Â ∈
+/ V and P̂ ∈
+/ V , we
+have to adapt P̂ to the context V . It is natural to pick the strongest local
+proposition implied by “A ε ∆” that can be made from the perspective of
+V . On the level of projections, this means that one has to take the smallest
+projection in V larger than P̂ . In this case, δ o (P̂ )V > P̂ .
+From P̂ , we thus obtain a collection of projections, one for each context
+V ∈ V(H). We then use, for each V ∈ V(H), the isomorphism (5) to obtain
+a family (Sδo (P̂ )V )V ∈V(H) of clopen subsets. It is straightforward to show that
+for all V ′ , V ∈ V(H) such that V ′ ⊂ V , it holds that
+Sδo (P̂ )V |V ′ = {λ|V ′ | λ ∈ Sδo (P̂ )V } ⊆ Sδo (P̂ )V ′
+
+(7)
+
+(see Thm. 3.1 in [15]. Actually, there it is shown that equality holds, which is
+more than we need here.) This means that the family (Sδo (P̂ )V )V ∈V(H) forms
+a subobject—which is nothing but a subpresheaf—of the spectral presheaf
+Σ. This subobject will be denoted as δ(P̂ ) and is called the daseinisation of
+P̂ .
+While we defined the subobject δ(P̂ ) of Σ stagewise, i.e., for each V ∈
+V(H), the subobject itself is a global object, consisting of all the subsets
+δ(P̂ )V = Sδo (P̂ )V
+
+(8)
+
+for V ∈ V(H), and the functions
+δ(P̂ )V −→ δ(P̂ )V ′ ,
+
+λ 7−→ λ|V ′
+
+(9)
+
+between them (for all V ′ ⊆ V ). In other words, δ(P̂ ) is a presheaf over the
+context category V(H) and not a mere set. The whole of δ(P̂ ) represents the
+proposition “A ε ∆” (where P̂ is the projection corresponding to the proposition “A ε ∆”). Many mathematical arguments concerning subobjects can
+be made stage by stage, yet the global character of subobjects is important
+both mathematically and in the physical interpretation.
+A subobject S of Σ such that the components S V are clopen sets for all
+V is called a clopen subobject. One can show that the clopen subobjects form
+a complete Heyting algebra Subcl (Σ) (see Thm. 2.5 in [15]). The subobjects
+obtained from daseinisation are all clopen. Compared to all subobjects of
+9
+
+Σ, the use of clopen ones has some technical advantages. We regard the
+Heyting algebra Subcl (Σ) of clopen subobjects of the spectral presheaf as the
+algebra representing (propositional) quantum logic in the topos formulation.
+Subcl (Σ) is the analogue of the Boolean σ-algebra of Borel subsets of the
+state space S of a classical system.
+In the following, we discuss the main properties of daseinisation and of
+topos quantum logic in general.
+
+3.2
+
+Properties of daseinisation and their physical interpretation
+
+The following mapping is called daseinisation of projections:
+δ : P(H) −→ Subcl (Σ)
+P̂ 7−→ δ(P̂ ).
+
+(10)
+
+It is straightforward to show that daseinisation has the following properties:
+(1) If P̂ < Q̂, then δ(P̂ ) < δ(Q̂), i.e., daseinisation is order-preserving;
+(2) the mapping δ : P(H) → Subcl (Σ) is injective, that is, two inequivalent
+propositions7 correspond to two different subobjects;
+(3) δ(0̂) = 0, the empty subobject, and δ(1̂) = Σ. The trivially false
+proposition is represented by the empty subobject, the trivially true
+proposition is represented by the whole of Σ.
+Moreover, we will show that
+(4) for all P̂ , Q̂ ∈ P(H), it holds that δ(P̂ ∨ Q̂) = δ(P̂ ) ∨ δ(Q̂), that is,
+daseinisation preserves the disjunction (Or) of propositions;
+(5) for all P̂ , Q̂ ∈ P(H), it holds that δ(P̂ ∧ Q̂) ≤ δ(P̂ ) ∧ δ(Q̂), that is,
+daseinisation does not preserve the conjunction (And) of propositions;
+(6) in general, δ(P̂ ) ∧ δ(Q̂) is not of the form δ(R̂) for a projection R̂ ∈
+P(H), and daseinisation is not surjective.
+7
+
+It is well-known that the mapping from propositions to projections is many-to-one.
+Two propositions are equivalent if they correspond to the same projection.
+
+10
+
+Daseinisation can be seen as a ‘translation’ mapping between ordinary, Birkhoff-von Neumann quantum logic [5], which is based upon the non-distributive
+lattice of projections P(H) in B(H), and the topos form of propositional
+quantum logic, which is based upon the distributive lattice Subcl (Σ). The
+latter more precisely is a Heyting algebra.
+The properties (1–3) clearly are physically sensible. Before discussing
+properties (4–6) in some more detail, we emphasise that this representation
+of propositions
+by subobjects of the spectral presheaf, an object in the topos
+V(H)op
+Set
+, has a strong geometric aspect. The spectral presheaf is the object
+that naturally incorporates the state spaces of all abelian subalgebras V ∈
+V(H) of the algebra B(H) of physical quantities of the quantum system.
+Moreover, the local state spaces ΣV are related by the canonical restriction
+functions Σ(iV ′ V ) : ΣV → ΣV ′ , λ 7→ λ|V ′ , for all V ′ , V ∈ V(H) such that
+V′ ⊂V.
+The opspectral presheaf can be seen as a topological space in the topos
+SetV(H) , and it is closely related to the internal Gel’fand spectrum of an
+abelian C ∗ -algebra B(H) in the functor topos SetV(H) that can be defined
+canonically from B(H) as suggested in [21]. Details about the relation between the spectral presheaf Σ and the spectrum of B(H) can be found in
+[12]. This strong geometrical and topological character of our quantum state
+space Σ is very different from the usual interpretation of Hilbert space as a
+state space, with closed subspaces resp. the projections onto these as representatives of propositions. In particular, neither the spectral presheaf Σ nor
+its components ΣV , V ∈ V(H), are linear spaces.
+In order to prove property (4), we first observe that for every V ∈ V(H),
+the mapping
+δVo : P(H) −→ P(V )
+^
+P̂ 7−→
+{Q̂ ∈ P(V ) | Q̂ ≥ P̂ }
+
+(11)
+
+is order-preserving. Let P̂ , Q̂ ∈ P(H), then δ o (P̂ )V ≤ δ o (P̂ ∨ Q̂)V and
+δ o (Q̂)V ≤ δ o (P̂ ∨ Q̂)V , so δ o (P̂ )V ∨ δ o (Q̂)V ≤ δ o (P̂ ∨ Q̂)V . Conversely,
+δ o (P̂ )V ∨δ o (Q̂)V ≥ P̂ and δ o (P̂ )V ∨δ o (Q̂)V ≥ Q̂, so δ o (P̂ )V ∨δ o (Q̂)V ≥ P̂ ∨ Q̂.
+But since δ o (P̂ )V ∨ δ o (Q̂)V ∈ P(V ) and δ o (P̂ ∨ Q̂)V is the smallest projection
+in V larger than or equal to P̂ ∨Q̂, we also have δ o (P̂ )V ∨δ o (Q̂)V ≥ δ o (P̂ ∨Q̂)V .
+Since the join of subobjects is defined stagewise, property (4) follows.
+It is easy to see that property (4), the preservation of joins, can actually
+be generalised to arbitrary joins,
+_
+_
+δ(P̂i ).
+(12)
+δ( P̂i ) =
+i∈I
+
+i∈I
+
+11
+
+The join of projections relates to superposition in standard quantum logic.
+The following argument is from standard quantum logic: let “A ε ∆” and
+“BεΓ” be two propositions, represented by projections P̂ resp. Q̂. Any unit
+vector ψ in the closed subspace P̂ H of Hilbert space represents a pure state
+in which the proposition “A ε ∆” is true (i.e., the expectation value of P̂ in
+such a state is 1). Similarly, every unit vector in Q̂H is a state such that
+“BεΓ” is true.
+Superposition without linearity. The join P̂ ∨ Q̂ of the two projections
+is the projection onto the closure of the linear subspace spanned by P̂ H
+and Q̂H. In general, there are unit vectors, i.e., pure states ψ in the closed
+subspace (P̂ ∨ Q̂)H that are neither in P̂ H nor in Q̂H. Such a state ψ makes
+the proposition “‘A ε ∆ or BεΓ”, represented by P̂ ∨ Q̂, true, despite the
+fact that in the state ψ, neither “A ε ∆” nor “BεΓ” are true. A state ψ of
+this kind can be written as a linear combination of vectors in P̂ H and Q̂H
+and is called a superposition state. The fact that states can be superposed
+by linear combinations is a fundamental fact of quantum theory. Clearly,
+superposition relates directly to the fact that Hilbert space is a linear space.
+In this argument, one uses a certain feature of standard quantum logic
+that has been regarded as problematic: the fact that closed subspaces or
+projections represent physical properties in an intensional sense and, at the
+same time, are the extensions thereof, namely the collection of states which
+make the proposition true. This extensional collapse has been called the
+“metaphysical disaster” of standard quantum logic by Foulis and Randall
+[33], see also the discussion in [8], where the problem is stated as:
+“The standard structures seem to determine a kind of extensional collapse. In
+fact, the closed subspaces of a Hilbert space represent at the same time physical
+properties in an intensional sense and the extensions thereof (sets of states that
+certainly verify the properties in question). As happens in classical set theoretical
+semantics, there is no mathematical representative for physical properties in an
+intensional sense. Foulis and Randall have called such an extensional collapse “the
+metaphysical disaster” of the standard quantum logical approach.”
+
+In our topos approach, we did not invoke states yet, nor is our quantum
+state object Σ a linear space. Yet, we have the remarkable fact that daseinisation ‘translates’ the disjunction of projections into the disjunction of clopen
+subobjects, i.e., daseinisation is a join-semilattice morphism. Interestingly,
+the binary join in Subcl (Σ) is defined componentwise by set-theoretic union:
+let S 1 , S 2 be two clopen subobjects, then
+∀V ∈ V(H) : (S 1 ∨ S 2 )V = S 1;V ∪ S 2;V .
+12
+
+(13)
+
+Differently from the Hilbert space situation, the linear span of linear subspaces does not play any role. The behaviour of projections under joins,
+which in standard quantum theory is so closely linked to superposition and
+the linear character of Hilbert space, is mapped by daseinisation to a lattice
+where joins are given by set-theoretic unions (in each component). Despite
+the fact that the spectral presheaf is not a linear space, daseinisation thus
+preserves a central aspect of standard quantum logic, namely that part which
+relates to superposition.
+We further remark that we avoid the metaphysical disaster criticised by
+Foulis and Randall. Clopen subobjects represent propositions, but they are
+not collections of states that make the propositions true.
+Conjunction and coarse-graining. Property (5) shows that conjunction
+of projections is not preserved. It is straightforward to construct a counterexample: let P̂ ∈ P(H) be a projection, and let V ∈ V(H) be a context
+that does not contain P̂ . Then δ o (P̂ )V > P̂ and δ o (1̂ − P̂ )V > 1̂ − P̂ , so
+δ o (P̂ )V ∧ δ o (1̂ − P̂ )V > 0̂, while of course P̂ ∧ (1̂ − P̂ ) = 0̂. Since the meet
+of subobjects is defined stagewise, property (5) follows. This clearly also
+implies property (6).
+The counterexample shows that preservation of conjunction does not fail
+just because of non-commutativity of the projections, which usually is interpreted as expressing incompatibility of the propositions represented by the
+projections. Rather, in the counterexample preservation of conjunction is
+not given due to coarse-graining.
+Dalla Chiara and Giuntini [8] sum up another common criticism of the
+standard quantum logic formalism:
+“The lattice structure of the closed subspaces automatically renders the quantum proposition system closed under logical conjunction. This seems to imply
+some counterintuitive consequences from the physical point of view. Suppose two
+experimental propositions that concern two strongly incompatible quantities, like
+“the spin in the x direction is up”, “the spin in the y direction is down”. In such a
+situation, the intuition of the quantum physicist seems to suggest the following semantic requirement: the conjunction of our propositions has no definite meaning;
+for, they cannot be experimentally tested at the same time. As a consequence, the
+lattice proposition structure seems to be too strong.”
+
+In the topos approach, as in standard quantum logic, the conjunction of
+any two propositions is defined, but there is an interesting conceptual twist:
+the built-in contextuality and coarse-graining take care of the fact that there
+are strongly incompatible propositions as the ones mentioned above. Let P̂
+13
+
+be the projection representing the proposition “the spin in the x direction
+is up” (which clearly is of the form “A ε ∆”), and let Q̂ represent “the spin
+in the y direction is down”. Then P̂ and Q̂ do not commute, so they are
+not both contained in any context V ∈ V(H). If we consider a context V
+such that P̂ ∈ V , then Q̂ ∈
+/ V and hence δ o (Q̂)V > Q̂. From a perspective
+of such a context V , the proposition “the spin in the y direction is down”
+becomes coarse-grained, potentially to become the trivially true proposition
+represented by the identity operator 1̂. Similarly, if a context V contains Q̂,
+then δ o (P̂ )V > P̂ , and hence the proposition “the spin in the x direction is
+up” becomes coarse-grained from the perspective of such a context. There is
+no single context that allows to express the conjunction between the incompatible propositions within the context. But, since the (clopen) subobjects
+representing propositions are global objects, it still makes sense to talk about
+the conjunction of incompatible propositions in the topos scheme.
+When discussing states and how they assign truth-values to propositions,
+we will see that there are non-trivial propositions that are not totally true in
+any state. This is possible because the topos approach provides us with the
+collection of all clopen subobjects of the spectral presheaf as representatives
+of propositions. Among them are many that are not of the form δ(P̂ ) for a
+projection P̂ . In contrast to that, in standard quantum logic every non-trivial
+proposition corresponds to a non-trivial closed subspace of Hilbert space, so
+there always are states that make the proposition true.
+Material implication. Each Heyting algebra H has an implication, given
+by
+_
+∀x, y ∈ H : (x ⇒ y) = {z ∈ H | z ∧ x ≤ y}.
+(14)
+Applied to our Heyting algebra Subcl (Σ), whose elements represent propositions about the quantum system under consideration, this becomes
+_
+∀S 1 , S 2 ∈ Subcl (Σ) : (S 1 ⇒ S 2 ) = {S ∈ Subcl (Σ) | S ∧ S 1 ≤ S 2 }. (15)
+Using the well-known form for Heyting implication in presheaf topoi (see e.g.
+[31], p56), this can be evaluated concretely for all V ∈ V(H) as
+(S 1 ⇒ S 2 )V = {λ ∈ ΣV | ∀V ′ ⊆ V : if λ|V ′ ∈ S 1;V ′ then λ|V ′ ∈ S 2;V ′ }.
+(16)
+Note that this expression is not local at V , since a local definition would fail
+to give a subobject.
+Hence, topos quantum logic comes with a material implication. This is
+another improvement compared to standard quantum logic, which is suffering
+14
+
+from the lack of a proper implication. In particular, the Sasaki hook does
+not provide a material implication, as is well known.
+Negation in topos quantum logic. The negation is given in terms of
+the Heyting implication as usual:
+¬S := (S ⇒ 0),
+
+(17)
+
+where 0 is the minimal element in the Heyting algebra Subcl (Σ), namely the
+empty subobject.
+This can be evaluated concretely for all V ∈ V(H) as
+/ S V ′ }.
+¬S V := {λ ∈ ΣV | ∀V ′ ⊆ V : λ|V ′ ∈
+
+(18)
+
+4
+
+Pure states and truth-value assignments
+
+4.1
+
+Truth objects and pseudo-states
+
+Let ψ ∈ H be a unit vector. As usual, ψ is identified with the vector state it
+determines:
+wψ : B(H) −→ C
+
+(19)
+
+Â 7−→ wψ (Â) = hψ| Â |ψi.
+The vector state ψ is a pure state on B(H), i.e., an extreme point of the
+space of states (positive linear functionals of norm 1) on B(H). In the topos
+approach, one cannot simply pick a (global) element of the spectral presheaf
+Σ as the representative of a state, since Σ has no global elements at all. As
+Butterfield and Isham observed, this is exactly equivalent to the KochenSpecker theorem [23, 24, 25, 26].
+Instead, one defines a presheaf Tψ over V(H) that collects all those propositions that are totally true in the state ψ. For each V ∈ V(H), let
+TψV = {SP̂ ∈ Cl(ΣV ) | P̂ ≥ P̂ψ }.
+
+(20)
+
+Here, SP̂ = α(P̂ ) is the clopen subset of ΣV corresponding to P̂ as defined
+in (5), and P̂ψ is the projection onto the one-dimensional subspace of Hilbert
+space determined by ψ. The component TψV hence contains all those clopen
+subsets of ΣV that (a) represent local propositions that can be made from
+the perspective of V and (b) are true in the state ψ.
+15
+
+If V ′ ⊂ V , then there is a function
+Tψ (iV ′ V ) : TψV −→ TψV ′
+SP̂ 7−→ Sδo (P̂ )V ′ .
+
+(21)
+(22)
+
+In this way, Tψ becomes a presheaf. It is called the truth object associated to
+ψ.
+A global element S of Tψ consists of one clopen subset S V ∈ Cl(ΣV ) for
+each V ∈ V(H) such that S V |V ′ = S V ′ . Such a global element S clearly is a
+clopen subobject of Σ. The physical interpretation is that those subobjects
+S that are global elements of Tψ (and those which are larger than a global
+element of Tψ ) represent propositions that are totally true in the state ψ.
+The collection ΓTψ of global elements of the truth object forms a partially
+ordered set. It is easy to see that this poset is contained in the filter
+ΓTψ = {S ∈ Subcl (Σ) | S ≥ δ(P̂ψ )}.
+
+(23)
+
+The clopen subobject δ(P̂ψ ) hence plays a special rôle, it is the smallest
+subobject representing a totally true proposition. If a classical system is in
+a pure state s ∈ S, then the smallest subset representing a proposition that
+is true in the state s is {s}. Hence, the subobject δ(P̂ψ ) is the analogue of a
+one-element subset {s} of the state space S of a classical system.
+wψ := δ(P̂ψ )
+
+(24)
+
+is called the pseudo-state associated to ψ.
+
+4.2
+
+Truth-value assignments
+
+As mentioned before, in classical physics the assignment of truth-values to
+propositions is straightforward. Given a state s ∈ S of the system, a proposition “A ε ∆” is true if s is contained in the Borel subset S of the state space
+S that represents the proposition, and false otherwise.
+In the topos scheme, we have a completely analogous situation: let S be
+the clopen subobject of the spectral presheaf representing a proposition constructed by conjunction, disjunction and/or negation of elementary propositions “A ε ∆”, and let wψ be the pseudo-state associated to some given state
+ψ. It is straightforward to prove that for each V ∈ V(H),
+v(wψ ⊆ S)V = {V ′ ⊆ V | wψV ′ ⊆ S V ′ }
+16
+
+(25)
+
+is a sieve on V . Moreover, if V ′ ⊂ V , then
+v(wψ ⊆ S)V ′ = v(wψ ⊆ S)V ∩ ↓V ′ ,
+
+(26)
+
+so v(wψ ⊆ S) = (v(wψ ⊆ S)V )V ∈V(H) is a global element of the subobject
+op
+classifier Ω of SetV(H) , i.e., a topos-internal truth-value for the proposition
+“A ε ∆” in the state ψ. For more details, see [18]. The truth-value v(wψ ⊆ S)
+can be interpreted as the answer of the question ‘to which degree does the
+pseudo-state wψ lie in the subobject S?’. Different from the classical case,
+where a point s either lies in a subset or not (which determines a Boolean
+truth-value in opthe topos Set), we have a truth-value in the logic given by our
+topos SetV(H) .
+The simplest description of the truth-value v(wψ ⊆ S) is a more global
+one: v(wψ ⊆ S) is the collection of all V ∈ V(H) such that the component
+wψV of the pseudo-state is contained in the component S V of the subobject
+representing a proposition. By construction, if V is contained in this collection, then all V ′ ⊂ V are also contained in it. A context V is contained in
+the collection if and only if the local proposition at V is true in the state
+ψ, which is the case if and only if the expectation value of the projection
+P̂S V = α−1 (S V ) in the state ψ is 1.
+It also becomes clear that the smallest subobjects that can represent
+totally true propositions are those of the form wψ = δ(P̂ψ ). There are
+smaller non-trivial subobjects S, for example those given by a conjunction
+δ(P̂ψ1 ) ∧ δ(P̂ψ2 ). The subobject that represents the proposition “spin in x
+direction is up and spin in y direction is down” is of this form. There is
+no state ψ that makes this proposition totally true. In this sense, the topos
+form of quantum logic takes care of the conjunction of non-compatible propositions in a non-trivial way, different from Birkhoff-von Neumann quantum
+logic. We conjecture that this feature will lead to a logical formulation of the
+uncertainty relations.
+Each pure state ψ determines a truth-value assignment
+vψ : Subcl (Σ) −→ ΓΩ
+S 7−→ v(wψ ⊆ S).
+
+(27)
+
+Since both the clopen subobjects Subcl (Σ) of the spectral presheaf and the
+truth-values ΓΩ form a Heyting algebra, one might wonder if vψ is a homomorphism of Heyting algebras. Let S 1 , S 2 be two clopen subobjects. Then,
+
+17
+
+for all V ∈ V(H),
+vψ (S 1 ∧ S 2 )V
+
+= {V ′ ⊆ V | P̂(S 1 ∧S 2 )V ≥ P̂ψ }
+= {V ′ ⊆ V | P̂S 1;V ∧ P̂S 2;V ≥ P̂ψ }
+= {V ′ ⊆ V | P̂S 1;V ≥ P̂ψ } ∩ {V ′ ⊆ V | P̂S 2;V ≥ P̂ψ }
+= vψ (S 1 )V ∧ vψ (S 2 )V ,
+
+so we obtain
+∀S 1 , S 2 ∈ Subcl (Σ) : vψ (S 1 ∧ S 2 ) = vψ (S 1 ) ∧ vψ (S 2 ).
+
+(28)
+
+Truth-value assignments thus preserve conjunction. On the other hand, for
+all V ∈ V(H),
+vψ (S 1 ∨ S 2 )V
+
+= {V ′ ⊆ V | P̂(S 1 ∨S 2 )V ≥ P̂ψ }
+= {V ′ ⊆ V | P̂S 1;V ∨ P̂S 2;V ≥ P̂ψ }
+⊇ {V ′ ⊆ V | P̂S 1;V ≥ P̂ψ } ∪ {V ′ ⊆ V | P̂S 2;V ≥ P̂ψ }
+= vψ (S 1 )V ∨ vψ (S 2 )V ,
+
+so
+∀S 1 , S 2 ∈ Subcl (Σ) : vψ (S 1 ∨ S 2 ) ≥ vψ (S 1 ) ∨ vψ (S 2 ).
+
+(29)
+
+A truth-value assignment vψ need not preserve disjunction. In general, the
+truth-value of a disjunction of two propositions is larger than the disjunction
+of the truth-values of the propositions. Clearly, this relates to superposition.
+While we have used a formulation of the truth-value assignment employing
+projections, one could as well formulate everything just using clopen subsets
+of Gel’fand spectra. This shows that the topos form of quantum logic preserves that part of standard quantum logic that relates to superposition, but
+without the need for linear structures.
+
+5
+
+Mixed states
+
+In this short section, we will sketch how mixed states can be treated in the
+topos approach and how they relate to the logical aspects.
+
+5.1
+
+States as measures on the spectral presheaf
+
+Let ρ be an arbitrary state of the quantum system under consideration. ρ is
+a positive linear functional on B(H) of norm 1. This is very different from
+18
+
+the classical case, where an arbitrary state is a probability measure µ on the
+state space S of the system.
+Interestingly, the topos approach allows the representation of arbitrary
+states ρ of a quantum system by probability measures on the spectral presheaf,
+as was shown in [11]. We refer to this article for the proofs of the results in
+this section.
+The measure µρ associated to ρ is the mapping
+µρ : Subcl (Σ) −→ Γ[0, 1]
+
+(30)
+
+S = (S V )V ∈V(H) 7−→ µρ (S) = (ρ(P̂S V ))V ∈V(H) .
+The codomain Γ[0, 1] denotes antitone functions from V(H) to the unit
+interval [0, 1], i.e., if g ∈ Γ[0, 1] and V ′ ⊂ V , then 1 ≥ g(V ′ ) ≥ g(V ) ≥
+0. (These functions can be understood as the global elements of a certain
+presheaf, hence the notation.) To each clopen subobject, such a function is
+assigned by the measure µρ . It is straightforward to see that µρ (Σ) = 1V(H) ,
+the function that is constantly 1.
+The abstract definition of a measure is as follows: a mapping
+µ : Subcl (Σ) −→ Γ[0, 1]
+S = (S V )V ∈V(H) 7−→ µ(S) = (µ(S V ))V ∈V(H)
+
+(31)
+(32)
+
+is called a measure on the clopen subobjects of Σ if the following two conditions are fulfilled:
+• µ(Σ) = 1V(H) ;
+• for all S 1 , S 2 ∈ Subcl (Σ), it holds that µ(S 1 ∨ S 2 ) + µ(S 1 ∧ S 2 ) =
+µ(S 1 ) + µ(S 2 ).
+Somewhat surprisingly, these very weak conditions—which do not refer to
+non-commutativity or linearity in any direct sense—suffice to determine a
+unique state ρµ on B(H) provided dim(H) ≥ 3, and every state arises that
+way. Measures on the spectral presheaf hence completely encode positive
+linear functionals on the algebra B(H) of physical quantities.
+
+5.2
+
+The relation between measures and logical aspects
+
+Let ρ = ψ be a pure state, and let µψ be the corresponding measure. Clearly,
+if for some S ∈ Subcl (Σ) we have µψ (S) = 1V(H) , i.e., the clopen subobject
+19
+
+S is of measure 1V(H) , then S represents a proposition that is totally true
+in the state described by µψ . The smallest subobject of measure 1V(H) with
+respect to the measure µψ , that is, the support of the measure µψ , is the
+pseudo-state wψ .
+More generally, the truth-value of the proposition represented by S in
+the state represented by µψ is the collection of all those V ∈ V(H) such that
+µψ (S)(V ) = 1, since
+vψ (S) = {V ∈ V(H) | µψ (S)(V ) = 1}
+= {V ∈ V(H) | hψ| P̂SV |ψi = 1}
+= {V ∈ V(H) | P̂S V ≥ P̂ψ },
+where P̂S V = α−1 (S V ). The measure µψ corresponding to a pure state ψ
+hence encodes the logical aspects given by the truth-value assignment vψ
+determined by ψ.
+For mixed states, there is no such simple connection between the measuretheoretical and the logical aspects. The pseudo-state wψ corresponding to a
+pure state ψ determines a unique measure µψ that has wψ as its support. In
+contrast to that, a mixed state ρ is not determined uniquely by its support.
+One may, however, describe an arbitrary mixed state ρ uniquely in terms of
+a family of generalised truth objects.
+Instead of considering a single truth object Tρ , we define a family (Tρr )r∈(0,1]
+by
+∀V ∈ V(H)∀r ∈ (0, 1] : Tρr;V
+
+:= {S ∈ Cl(ΣV ) | ρ(P̂S ) ≥ r}
+= {S ∈ Cl(ΣV ) | µρ (S) ≥ r}.
+
+(33)
+(34)
+
+This is a direct generalisation of the definition of a truth object (equation
+(20)), since
+TψV = {SP̂ ∈ Cl(ΣV ) | P̂ ≥ P̂ψ }
+= {S ∈ Cl(ΣV ) | P̂S ≥ P̂ψ }
+= {S ∈ Cl(ΣV ) | hψ| P̂S |ψi = 1}
+= {S ∈ Cl(ΣV ) | hψ| P̂S |ψi ≥ 1}
+so the truth object Tψ is equal to the element Tψ1 of the family (Tψr )r∈(0,1] .
+It is easy to see that each Tρr , r ∈ (0, 1], is a presheaf over V(H). The
+global elements of Tρr are clopen subobjects that are of measure rV(H) or
+greater with respect to the measure µρ . Here, rV(H) is the function that is
+constantly r on V(H).
+20
+
+We saw that every measure µρ determines a unique family (Tρr )r∈(0,1] of
+generalised truth objects. Conversely, the measure µρ can be reconstructed
+from the family (Tρr )r∈(0,1] . This and many further aspects will be treated in
+detail in [19].
+
+6
+
+Related work
+
+Recently, Landsman et al. proposed to another scheme of topos quantum
+logic that is closely related to ours [21, 6]. The main difference lies in the
+fact that Landsman et al. are using the topos SetV(H) of covariant functors
+over the context category. In fact, in [21], they consider an arbitrary C ∗ algebra, not just B(H). Yet, in [6], where some definitions from [21] are
+made explicit, the special case of the algebra Mn (C) is used, which of course
+equals B(H) for an n-dimensional Hilbert space. The main advantage of using
+covariant functors is that the external algebra B(H) determines a canonical
+internal algebra B(H) which is an abelian C ∗ -algebra in the topos SetV(H) .
+By constructive Gel’fand duality, as developed by Banaschewski and Mulvey
+[1, 2, 3, 4], this internal algebra has a Gel’fand spectrum Σ, which is a locale in
+the topos SetV(H) . (A locale is a generalised topological space, see e.g. [27].)
+Landsman et al. suggest to use the opens in this locale as the representatives
+of propositions. For a detailed comparison between the contravariant and
+the covariant approach, see [12].
+The use of a form of intuitionistic logic for quantum theory has also been
+suggested by Coecke in [7]. He uses a construction discovered by Bruns and
+Lakser, the so-called injective hull of meet-semilattices (see also [34]) to embed a meet-semilattice of propositions into a Heyting algebra by introducing
+new joins to the meet-semilattice. There are no further obvious connections
+between this approach and the topos form of quantum logic, but it would
+be interesting to compare both constructions with respect to the underlying
+geometric structures: both approaches formulate an intuitionistic form of
+quantum logic using Heyting algebras, and every complete Heyting algebra
+is a locale and hence a generalised topological space.
+
+7
+
+Conclusion
+
+We presented the main features of the topos form of quantum logic. This
+new form of quantum logic is distributive, intuitionistic, multi-valued and
+contextual. Moreover, it has a clear underlying geometric structure. The
+21
+
+spectral presheaf serves as an analogue of the state space of a classical system, with propositions being represented as subobjects. Interestingly, topos
+quantum logic preserves that part of standard quantum logic that relates
+to superposition. The truth-value assignments given by pure states do not
+depend on any notion of measurement and observers, i.e., there is no need
+for an instrumentalist interpretation. Mixed states can be fully described as
+measures on the spectral presheaf. There are interesting relations between
+the measure-theoretical and the logical aspects of the theory that will be
+further investigated in future work.
+Acknowledgements. First of all, I want to thank Chris Isham for many
+discussions, constant support and his great generosity. I thank Bob Coecke,
+Pedro Resende, Chris Mulvey, Steve Vickers and Bas Spitters for useful discussions. I also want to thank the organisers of QPL’08 and ’09 for creating
+a very interesting workshop.
+
+References
+[1] B. Banaschewski, C.J. Mulvey. A constructive proof of the StoneWeierstrass theorem. J. Pure Appl. Algebra 116, 25–40 (1997).
+[2] B. Banaschewski, C.J. Mulvey. The spectral theory of commutative C ∗ algebras: the constructive spectrum. Quaest. Math. 23, 425–464 (2000).
+[3] B. Banaschewski, C.J. Mulvey. The spectral theory of commutative C ∗ algebras: the constructive Gelfand-Mazur theorem. Quaest. Math. 23,
+465–488 (2000).
+[4] B. Banaschewski and C.J. Mulvey. A globalisation of the Gelfand duality
+theorem. Ann. Pure & Applied Logic 137, 62–103 (2006).
+[5] G. Birkhoff and J. von Neumann. The logic of quantum mechanics. Ann.
+Math. 37, 823–843 (1936).
+[6] M. Caspers, C. Heunen, N. Landsman, B. Spitters. Intuitionistic quantum logic of an n-level system. Found. of Phys., 39(7), 731–759 (2009).
+arXiv:0902.3201v2.
+[7] B. Coecke. Quantum Logic in Intuitionistic Perspective. Studia Logica
+70, 411–440 (2002).
+
+22
+
+[8] M.L. Dalla Chiara, R. Giuntini. Quantum logics. In Handbook of Philosophical Logic, vol. VI, eds. G. Gabbay and F. Guenthner. Kluwer,
+Dordrecht, 129–228 (2002).
+[9] A. Döring. Kochen-Specker theorem for von Neumann algebras. Int.
+Jour. Theor. Phys. 44, 139–160 (2005).
+[10] A. Döring. Topos theory and ‘neo-realist’ quantum theory. In Quantum Field Theory, Competitive Models, eds. B. Fauser, J. Tolksdorf, E.
+Zeidler, Birkhäuser, Basel, Boston, Berlin (2009). arXiv:0712.4003.
+[11] A. Döring. Quantum States and Measures on the Spectral Presheaf. Adv.
+Sci. Lett. 2, Number 2 (Special Issue on “Quantum Gravity, Cosmology
+and Black Holes”, ed. M. Bojowald), 291–301 (2009). arXiv:0809.4847
+[12] A. Döring. Algebraic quantum theory in a topos: a comparison. In
+preparation (2010).
+[13] A. Döring. The physical interpretation of daseinisation. To appear in
+Deep Beauty, ed. Hans Halvorson, Cambridge University Press (2010).
+[14] A. Döring, C.J. Isham. A topos foundation for theories of physics: I.
+Formal languages for physics. J. Math. Phys. 49, Issue 5, 053515 (2008).
+arXiv:quant-ph/0703060.
+[15] A. Döring, C.J. Isham. A topos foundation for theories of physics: II.
+Daseinisation and the liberation of quantum theory. J. Math. Phys. 49,
+Issue 5, 053516 (2008). arXiv:quant-ph/0703062.
+[16] A. Döring, C.J. Isham. A topos foundation for theories of physics:
+III. Quantum theory and the representation of physical quantities with
+arrows δ̆(A) : Σ → R . J. Math. Phys. 49, Issue 5, 053517 (2008).
+arXiv:quant-ph/0703064.
+[17] A. Döring, C.J. Isham. A topos foundation for theories of physics:
+IV. Categories of systems. J. Math. Phys. 49, Issue 5, 053518 (2008).
+arXiv:quant-ph/0703066.
+[18] A. Döring, C.J. Isham. ‘What is a Thing?’: Topos Theory in the Foundations of Physics. To appear in New Structures in Physics, ed. B. Coecke,
+Springer Lecture Notes in Physics, Springer, Berlin, Heidelberg, New
+York (2010). arXiv:0803.0417.
+[19] A. Döring, C.J. Isham. Measures and topos quantum logic. In preparation (2010).
+23
+
+[20] R. Goldblatt. Topoi: The Categorial Analysis of Logic. North-Holland,
+London (1984).
+[21] C. Heunen, N.P. Landsman, B. Spitters. A topos for algebraic quantum
+theory. Commun. Math. Phys. 291(1), 63–110 (2009).
+[22] C.J. Isham. Topos Methods in the Foundations of Physics. To appear in
+Deep Beauty, ed. Hans Halvorson, Cambridge University Press (2010).
+[23] C.J. Isham, J. Butterfield. A topos perspective on the Kochen-Specker
+theorem: I. Quantum states as generalised valuations. Int. J. Theor.
+Phys. 37, 2669–2733 (1998).
+[24] C.J. Isham, J. Butterfield. A topos perspective on the Kochen-Specker
+theorem: II. Conceptual aspects, and classical analogues. Int. J. Theor.
+Phys. 38, 827–859 (1999).
+[25] C.J. Isham, J. Hamilton, J. Butterfield. A topos perspective on the
+Kochen-Specker theorem: III. Von Neumann algebras as the base category. Int. J. Theor. Phys. 39, 1413-1436 (2000).
+[26] C.J. Isham, J. Butterfield. A topos perspective on the Kochen-Specker
+theorem: IV. Interval valuations. Int. J. Theor. Phys 41, 613–639
+(2002).
+[27] P.T. Johnstone. Sketches of an Elephant: A Topos Theory Compendium
+I, II. Oxford Science Publications, Oxford (2002/03).
+[28] R.V. Kadison, J.R. Ringrose. Fundamentals of the Theory of Operator
+Algebras, Volume 1: Elementary Theory. Academic Press, New York
+(1983).
+[29] S. Kochen and E.P. Specker. The problem of hidden variables in quantum mechanics. Journal of Mathematics and Mechanics 17, 59–87
+(1967).
+[30] S. MacLane. Categories for the Working Mathematician. Springer, New
+York, Berlin, Heidelberg (1971).
+[31] S. MacLane, I. Moerdijk. Sheaves in Geometry and Logic: A First
+Introduction to Topos Theory. Springer, New York, Berlin, Heidelberg
+(1992).
+[32] M.P. Olson. The Selfadjoint Operators of a von Neumann Algebra form a
+Conditionally Complete Lattice. Proc. of the AMS 28, 537–544 (1971).
+24
+
+[33] C.H. Randall, D.J. Foulis. Properties and Operational Propositions in
+Quantum Mechanics. Found. Phys. 13, no. 8, 843–857 (1983).
+[34] I. Stubbe. The Canonical Topology on a Meet-Semilattice. Int. J. Theor.
+Phys. 44, no. 12, 2283–2293 (2005).
+
+25
+
+

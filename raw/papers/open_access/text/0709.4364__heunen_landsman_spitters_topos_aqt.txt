@@ -1,0 +1,3249 @@
+A topos for algebraic quantum theory
+
+arXiv:0709.4364v3 [quant-ph] 17 Apr 2009
+
+Chris Heunen∗
+
+Nicolaas P. Landsman†
+
+Bas Spitters‡
+
+October 22, 2018
+Dedicated to Ieke Moerdijk, at his 50th birthday
+Abstract
+The aim of this paper is to relate algebraic quantum mechanics to topos theory, so
+as to construct new foundations for quantum logic and quantum spaces. Motivated by
+Bohr’s idea that the empirical content of quantum physics is accessible only through
+classical physics, we show how a noncommutative C*-algebra of observables A induces a
+topos T (A) in which the amalgamation of all of its commutative subalgebras comprises
+a single commutative C*-algebra A. According to the constructive Gelfand duality
+theorem of Banaschewski and Mulvey, the latter has an internal spectrum Σ(A) in
+T (A), which in our approach plays the role of the quantum phase space of the system.
+Thus we associate a locale (which is the topos-theoretical notion of a space and which
+intrinsically carries the intuitionistic logical structure of a Heyting algebra) to a C*algebra (which is the noncommutative notion of a space). In this setting, states on
+A become probability measures (more precisely, valuations) on Σ, and self-adjoint
+elements of A define continuous functions (more precisely, locale maps) from Σ to
+Scott’s interval domain. Noting that open subsets of Σ(A) correspond to propositions
+about the system, the pairing map that assigns a (generalized) truth value to a state
+and a proposition assumes an extremely simple categorical form. Formulated in this
+way, the quantum theory defined by A is essentially turned into a classical theory,
+internal to the topos T (A).
+These results were inspired by the topos-theoretic approach to quantum physics
+proposed by Butterfield and Isham, as recently generalized by Döring and Isham.
+
+Motto
+‘Ces “nuages probabilistes”, remplaçant les rassurantes particules matérielles
+d’antan, me rappellent étrangement les élusifs “voisinages ouverts” qui peuplent les topos, tels des fantômes évanescents, pour entourer des “points”
+imaginaires.’ (A. Grothendieck [42])1
+∗
+
+Radboud Universiteit Nijmegen, Institute for Mathematics, Astrophysics, and Particle Physics, Toernooiveld 1, 6525 ED NIJMEGEN, THE NETHERLANDS. Supported by N.W.O.
+†
+Radboud Universiteit Nijmegen, Institute for Mathematics, Astrophysics, and Particle Physics, Toernooiveld 1, 6525 ED NIJMEGEN, THE NETHERLANDS.
+‡
+Eindhoven University of Technology, Department of Mathematics and Computer Science, P.O. Box
+513, 5600 MB EINDHOVEN, THE NETHERLANDS. Supported by N.W.O.
+1
+‘These “probability clouds”, replacing the reassuring material particles of before, remind me strangely
+of the elusive “open neighborhoods” that populate the topoi, like evanescent phantoms, to surround the
+imaginary “points”.’
+
+1
+
+1
+
+INTRODUCTION
+
+1
+
+Introduction
+
+2
+
+This introduction is intended for both mathematical physicists and topos theorists. We
+apologize in advance for stating the obvious for one or the other of these groups at various
+points, but we hope that most of it is interesting to both communities.
+
+1.1
+
+The logic of classical physics
+
+In classical mechanics, the logical structure of a physical system is encoded in its phase
+space M . Indeed, elementary propositions (also called ‘yes-no questions’ in physics) correspond to suitable subsets of M (such as all sets, all measurable sets or all regular open
+sets), and the logical connectives are given by the standard set-theoretic operations. This
+makes the logic of the system ‘spatial’; its realization as a Boolean algebra (i.e. a distributive lattice with 0 and 1 in which every element has a complement) confirms the ‘classical’
+nature of the situation [76].
+Physicists do not usually describe a system in the above way. Instead, they work with
+observables a : M → R, like position or energy. (Such functions might be arbitrary, or
+else required to be measurable or continuous as appropriate.) From that perspective, the
+elementary propositions are of the form a ∈ ∆, where ∆ ⊆ R is a (arbitrary, measurable,
+or regular open) subset of the reals.
+Either way, a state of the system may be construed as a catalogue of answers to all
+yes-no questions about the systems. We concentrate on pure states ρ ∈ M , which provide
+sharp (as opposed to probabilistic) answers. In the first description, a proposition U ⊆ M
+is true (equivalently, the answer to the corresponding question is ‘yes’) iff ρ ∈ U . In the
+second description, a ∈ ∆ is true for a state ρ iff a(ρ) ∈ ∆, i.e. iff ρ ∈ a−1 (∆). Thus
+propositions of the second type fall into equivalence classes [a ∈ ∆] = a−1 (∆). As these
+are subsets of M , this leads us back to the purely spatial picture of the first description.
+This truth assignment has a very simple categorical description. We regard M as an
+object in the category Sets of all sets as objects and all functions as arrows, and interpret
+ρ
+
+/ M , where 1 is any singleton. A subset
+ρ as an arrow (in fact, a monomorphism) 1
+U ⊆ M may alternatively be described by its characteristic function χU : M → {0, 1};
+anticipating the convention in topos theory, we relabel {0, 1} as Ω and regard this as an
+
+object in Sets. Composition of 1
+1
+
+hρ,a∈∆i
+
+/Ω
+
+ρ
+
+χa−1 (∆)
+
+/ M and M
+
+=
+
+1
+
+ρ
+
+/M
+
+/ Ω then yields an arrow
+
+χa−1 (∆)
+
+/ Ω,
+
+(1)
+
+i.e. we have defined
+hρ, a ∈ ∆i = χa−1 (∆) ◦ ρ.
+
+(2)
+
+The image of 1 under this map is a point of Ω, which is precisely the above truth value of
+the proposition a ∈ ∆ in the state ρ (provided we identify {0, 1} with {false, true}).
+It is important for what follows to reformulate this description in terms of the topology O(M ) of M (i.e. its collection of opens) instead of M itself. This makes sense if the
+subsets U ⊆ M above are open, which in our second description is the case if the observables a are continuous and the value sets ∆ ⊆ R are open as well. Hence a−1 (∆) is an
+
+1
+
+INTRODUCTION
+
+3
+
+a−1 (∆)
+
+/ O(M ) in Sets, but ρ ∈ M is now represented by the ‘state subobject’
+arrow 1
+[ρ] ⊆ O(M ) given by
+
+[ρ] = {V ∈ O(M ) | ρ ∈ V } = {V ∈ O(M ) | δρ (V ) = 1},
+
+(3)
+
+where δρ is the Dirac measure on M concentrated at ρ. We describe this object by its
+characteristic function χ[ρ] : O(M ) → Ω. The pairing map then becomes
+1
+
+ha∈∆,ρi
+
+/Ω
+
+=
+
+1
+
+a−1 (∆)
+
+/ O(M )
+
+χ[ρ]
+
+/ Ω,
+
+(4)
+
+or, in other words,
+ha ∈ ∆, ρi = χ[ρ] ◦ a−1 (∆).
+
+(5)
+
+The reader may verify that ha ∈ ∆, ρi = hρ, a ∈ ∆i, so that our second categorical
+description of the state-proposition pairing is equivalent to the first. More generally, if µ
+is a probability measure on M , we might define a state object [µ] by replacing the Dirac
+measure δρ in (3) by µ, i.e.
+[µ] = {V ∈ O(M ) | µ(V ) = 1}.
+
+(6)
+
+In physics, µ plays the role of a mixed state (unless it is a point measure, in which case it
+happens to be pure). Like the pure state ρ (or rather its associated probability measure
+δρ ), the mixed state µ defines a characteristic function χ[µ] : O(M ) → Ω. The latter,
+however, turns out not to share the attractive logical properties of χ[ρ] ≡ χδρ (unless µ is
+pure); see Subsection 1.5.
+
+1.2
+
+Spatial quantum logic
+
+The goal of this paper is to generalize this situation to quantum mechanics. In particular,
+we wish to find a spatial notion of quantum logic. This objective will be accomplished by:
+1. Identifying an appropriate notion of a quantum phase ‘space’ Σ.
+2. Defining suitable ‘subsets’ of Σ that act as elementary logical propositions of quantum mechanics.
+3. Describing observables and states in terms of Σ.
+4. Associating a proposition a ∈ ∆ (and hence a ‘subset’ [a ∈ ∆] of Σ) to an observable
+a and an open subset ∆ ⊆ R.
+5. Finding a pairing map between pure states and ‘subsets’ of Σ (and hence between
+states and propositions of the type a ∈ ∆).
+In the last step, a state assigns a particular truth value to a given proposition; this is
+supposed to give empirical content to the formalism. The codomain Ω of the pairing map
+in item 5, which may be called the ‘truth object’ of the theory, is by no means obvious
+and identifying it is explicitly part of the question. Certainly, 20th century physics shows
+that the ‘classical’ choice Ω = {0, 1} is out of the question.
+The formulation of these objectives and the associated program goes back to von
+Neumann, who also famously proposed the following extremely elegant solution:
+
+1
+
+INTRODUCTION
+
+4
+
+1. A quantum phase space is a Hilbert space H.
+2. Elementary propositions correspond to closed linear subspaces of H.
+3. Observables are selfadjoint operators on H and pure states are unit vectors in H.
+4. The closed linear subspace [a ∈ ∆] is the image E(∆)H of the spectral projection
+E(∆) defined by a and ∆ (provided the latter is measurable).
+5. The pairing map takes values in [0, 1] and is given by the “Born rule” hΨ, a ∈ ∆i =
+(Ψ, E(∆)Ψ).
+Thus subsets of phase space became closed linear subspaces of Hilbert space, which,
+as Birkhoff and von Neumann [10] noticed, form a lattice L(H) under inclusion as partial
+order. However, this lattice fails to be Boolean, basically because it is nondistributive.
+Nonetheless, Birkhoff and von Neumann interpreted the lattice operations ∧ and ∨ as
+‘and’ and ‘or’, as in the classical case, and argued that the departure from the Boolean
+structure (and hence from classical logic) meant that one had to deal with a new kind of
+logic, which they aptly called quantum logic. This looked highly innovative, but on the
+other hand it conservatively preserved the spatial nature of the logic of classical physics,
+in that the logical structure of propositions is still associated with the spatial (i.e. Hilbert
+space) structure of the theory.
+Attractive and revolutionary as this spatial quantum ‘logic’ may appear [76, 54, 55, 70],
+it faces severe problems. The main logical drawbacks are:
+• Due to its lack of distributivity, quantum ‘logic’ is difficult to interpret as a logical
+structure.
+• In particular, despite various proposals no satisfactory implication operator has been
+found (so that there is no deductive system in quantum logic).
+• Quantum ‘logic’ is a propositional language; no satisfactory generalization to predicate logic has been found.
+Quantum logic is also problematic from a physical perspective. Since (by various
+theorems [14] and wide agreement) quantum probabilities do not admit an ignorance
+interpretation, [0, 1]-valued truth values attributed to propositions by pure states via the
+Born rule cannot be regarded as sharp (i.e. {0, 1}-valued) truth values muddled by human
+ignorance. This implies that, if x = [a ∈ ∆] represents a quantum-mechanical proposition,
+it is wrong to say that either x or its negation holds, but we just do not know which of
+these alternatives applies. However, in quantum logic one has the law of the excluded
+middle in the form x ∨ x⊥ = 1 for all x. Thus the formalism of quantum logic does not
+match the probabilistic structure of quantum theory responsible for its empirical content.
+In fact, the above argument suggests that it is intuitionistic logic rather than quantum
+logic that is relevant in quantum mechanics (cf. [4]). More generally, as argued in particular
+by Butterfield and Isham [17, 20], the fact that pure states fail to define truth assignments
+in the usual binary sense (i.e. true or false) renders the entire notion of truth in quantum
+mechanics obscure and calls for a complete reanalysis thereof [33, 34, 35, 36, 37]. As also
+probably first recognized by the same authors, such an analysis can fruitfully be attempted
+using topos theory, whose internal logic is indeed intuitionistic.
+
+1
+
+INTRODUCTION
+
+5
+
+From our perspective, another reason why topos theory offers itself on a silver tray
+in our search for a spatial quantum logic lies in the interplay between spatial and logical
+structures inherent in topos theory, as exemplified by the opening words of the renowned
+textbook by Mac Lane and Moerdijk:
+A startling aspect of topos theory is that it unifies two seemingly wholly distinct
+mathematical subjects: on the one hand, topology and algebraic geometry and
+on the other hand, logic and set theory.
+We refer to [41, 63, 50, 51] for accounts of topos theory; see also [9, 65, 57] for historical
+details. Briefly, a topos is a category in which one can essentially reason as in the category
+Sets of all sets (with functions as arrows), except for the fact that the logic is intuitionistic
+and the axiom of choice is generally not available. Briefly, the mathematics underlying
+topos theory is constructive.
+Specifically, a topos is a category with the following ingredients:
+1. Terminal object. This is an object called 1 (unique up to isomorphism) such that
+for each object A there is a unique arrow A → 1, generalizing the singleton set in
+the category Sets.
+2. Pullbacks. These generalize the fibered product B ×A C = {(b, c) ∈ B × C | f (b) =
+g
+
+f
+
+/ A in Sets into a pullback square with appropriate
+/ A and C
+g(c)} of B
+universality property. Cartesian products are a special case.
+
+3. Exponentials. These generalize the idea that the class B A of functions from a set A
+to a set B is itself a set, and hence an object in Sets, equipped with the evaluation
+map ev : A × B A → B.
+4. Subobject classifier. This generalizes the idea that one may characterize a subset A ⊆
+B by its characteristic function χA : B → {0, 1}. Subsets generalize to subobjects,
+i.e. monic (“injective”) arrows A ֌ B, and in a topos there exists an object Ω
+(the subobject classifier) with associated arrow 1
+subobject A ֌ B there is a unique arrow B
+χA
+
+⊤
+
+χA
+
+⊤
+
+/ Ω (“truth”) such that for any
+
+/ Ω for which B o
+
+f
+
+A
+
+/ 1 is
+
+χ
+
+/ Ω and 1
+/ Ω. Conversely, given any arrow B
+/ Ω there
+a pullback of B
+exists a subobject A ֌ B of B (unique up to isomorphism) whose classifying arrow
+χB equals χ. The subobject classifier in a topos play the role of a “multi-valued truth
+object”, generalizing the simple situation in Sets, where Ω = {0, 1} = {false, true});
+see (2) and subsequent text.
+
+We assume that our topoi are cocomplete and have a natural numbers object.
+
+1.3
+
+Generalized notions of space
+
+Our first objective in the list at the beginning of Subsection 1.2, i.e. the identification of
+an appropriate notion of a quantum phase ‘space’, will be met by a combination of two
+profound notions of generalized space that have been around for some time.
+
+1
+
+INTRODUCTION
+
+6
+
+1. First, let us recall the strategy of noncommutative geometry [24, 25]. One starts
+with the replacement of a compact topological space X by the associated algebra
+of complex-valued continuous functions C(X, C). If X fails to be Hausdorff, this
+step loses information, but if it is, one may recover X from the commutative C*algebra C(X, C) as its Gelfand spectrum. This yields a duality between the category
+of compact Hausdorff spaces and the category of unital commutative C*-algebras:
+nothing is lost, but nothing is gained either by abstracting spaces as commutative
+C*-algebras. The thrust of noncommutative geometry, then, is to allow C*-algebras
+to be noncommutative without losing the spatial perspective. That this can be
+done is impressive enough, but as the logical situation is obscured by moving from
+commutative to noncommutative C*-algebras, further ideas are needed (at least if
+one is interested in quantum logic).
+2. A second approach to generalizing topological spaces would be to replace X by its
+topology O(X). This has a natural lattice structure under inclusion, and in fact
+defines a highly structured kind W
+of latticeW known as a frame. This is a complete
+distributive lattice such that x ∧ λ yλ = λ x ∧ yλ for arbitrary families {yλ } (and
+not just for finite ones, in which case the said property follows from the definition of
+a distributive lattice). For example, if X is a topological space, then the topology
+O(X) of X is a frame with U ⩽ V if U ⊆ V . A frame homomorphism preserves
+finite meets and arbitrary joins; this leads to the category Frm of frames and frame
+homomorphisms.
+Abstracting frames O(X) coming from a topological space to general frames is a genuine
+generalization of the concept of a space, as plenty of frames exist that are not of the form
+O(X). A simple example is the frame Oreg (R) of regular open subsets of R, i.e. of open
+subsets U with the property ¬¬U = U , where ¬U is the interior of the complement of U .
+This may be contrasted with the situation for unital commutative C*-algebras, which, as
+just recalled, are all of the form C(X). Moreover, far from obscuring the logical structure
+of space, the generalization of spaces by frames rather explains and deepens this structure.
+Indeed, a frame is a complete Heyting algebra, with its intrinsic structure of an intuitionistic propositional logic. Here a Heyting algebra is a distributive lattice L with a
+map →: L × L → L satisfying x ⩽ (y → z) iff x ∧ y ⩽ z, called implication [41, 63, 80].
+Every Boolean algebra is a Heyting algebra, but not vice versa; in fact, a Heyting algebra
+is Boolean iff ¬¬x = x for all x, which is the case iff ¬x ∨ x = ⊤ for all x. Here negation
+is a derived notion, defined by ¬x = (x →⊥). For example, Oreg (R) is Boolean, but O(R)
+is not. In general, the elements of a Heyting algebra form an intuitionistic propositional
+logic under the usual logical interpretation of the lattice operations.
+A Heyting algebra is complete when arbitrary joins (i.e. sups) and meets (i.e. infs)
+exist. A complete HeytingWalgebra is essentially the same thing as a frame, for in a frame
+one may define y → z = {x | x ∧ y ⩽ z}. Conversely, the infinite distributivity law in
+a frame is automatically satisfied in a Heyting algebra. The set of subobjects of a given
+object in a topos forms a complete Heyting algebra (as long as the topos in question is
+defined “internal to Sets”), generalizing the fact that the set of subsets of a given set is
+a Boolean algebra. The subobject classifier of such a topos is a complete Heyting algebra
+as well; in fact, these two statements are equivalent. (Note, however, frame maps do
+not necessarily preserve the implication → defining the Heyting algebra structure, as can
+
+1
+
+INTRODUCTION
+
+7
+
+already be seen in examples of the type f −1 : O(Y ) → O(X), where f : X → Y is
+continuous [63]. Consequently, negation may not be preserved by frame maps either.)
+The category Loc of locales is the opposite category to Frm, i.e. it has the same
+objects but all arrows go in the opposite direction. Some topos theorists write X for a
+locale and OX or O(X) for the same object seen as a frame [48, 63, 80]. Apart from
+the already unfortunate fact that this notation is applied also when O(X) does not stand
+for the opens of a space X but denotes a general frame, it fails to distinguish between
+a topological space X and the associated locale (i.e. the frame O(X) seen as a locale).
+Nonetheless, this notation often leads to elegant expressions and we will heavily use it.
+If X and Y are spaces, a continuous map f : X → Y induces a frame map f −1 :
+O(Y ) → O(X) and hence an arrow O(X) → O(Y ) in Loc, simply defined as f −1 read
+in the opposite direction. We write the latter arrow in Loc simply as f : X → Y . In
+general, an arrow in Frm is written as f −1 : O(Y ) → O(X) (whether or not the frames
+in question come from topological spaces and if so, whether or not f −1 is indeed the
+pullback of a continuous function between these spaces), and the corresponding arrow in
+Loc is denoted by f : X → Y . Similarly, we will write C(X, Y ) for HomLoc (X, Y ) =
+HomFrm (O(Y ), O(X)). In particular, for a locale X, C(X, C) will denote the set of frame
+maps O(C) → O(X).
+
+1.4
+
+Points and opens of locales
+
+An element of a set X (and hence a fortiori also a point of a topological space X) may
+be identified with an arrow ∗ → X, where ∗ is a given singleton (for simplicity we write ∗
+instead of the more usual {∗}). The same goes for locales X, so that by definition a point of
+a locale X is a locale map p : ∗ → X, hence a frame map p−1 : O(X) → O(∗) ∼
+= {0, 1} = Ω;
+recall that the subobject classifier in Sets, seen as a topos, is Ω = {0, 1} and note that ∗
+is precisely the locale associated to Ω, as our notation Ω = O(∗) has indicated.
+A point of a locale X being defined as a locale map ∗ → X or as the corresponding
+frame map O(X) → Ω, an open of X is defined as a locale map X → S, where S is
+the locale defined by the so-called Sierpinski space, i.e. {0, 1} with {1} as the only open
+point. The corresponding frame map O(S) → O(X) is determined by its value at 1 (since
+∅ 7→ ∅ and {0, 1} 7→ X), so that we may simply look at opens in X as arrows 1 → O(X)
+(where the singleton 1 is seen as the terminal object in Sets). Clearly, if X is a genuine
+topological space with associated frame O(X) of opens, then each such map 1 → O(X)
+corresponds to an open subset of X in the usual sense. Using this concept, the set Pt(X)
+of points of a locale X may be topologized in a natural way, by declaring its opens to be
+the sets of the form
+Pt(U ) = {p ∈ Pt(X) | p−1 (U ) = 1},
+(7)
+where U ∈ O(X) is some open. We say that a locale X is spatial if it is isomorphic (in
+the category of locales) to Pt(X) (more precisely, to the locale associated to the frame
+O(Pt(X)) in the above topology). Conversely, a topological space X is called sober if it is
+homeomorphic to Pt(X) (which, with the notation introduced above, really stands for the
+space of points of the locale associated to the frame O(X)). It is useful to know that X
+is sober when it is Hausdorff. If X is sober, any frame map ϕ : O(Y ) → O(X) is induced
+by a continuous map f : X → Y as ϕ = f −1 . This provides additional justification for the
+
+1
+
+INTRODUCTION
+
+8
+
+notation f −1 : O(Y ) → O(X) for a general frame map, and f : X → Y for the associated
+locale map. See [63, §IX.3] for a very clear exposition of all this.
+For example, referring to Subsection 1.1, the characteristic function χ[ρ] : O(M ) → Ω
+introduced below (3) is easily checked to define a frame map. Renaming this map as
+χ[ρ] ≡ ρ−1 , the associated locale map ρ : ∗ → M is therefore a point of the locale M in the
+above sense. In this special case, such a point may also be described by an arrow 1 → M ,
+where 1 is the terminal object in Sets and M denotes M as a set rather than as a locale.
+This notion of points as elements of sets will be avoided in what follows.
+Thus frames and locales are two sides of the same coin: the elements 1 → O(X) of
+the Heyting algebra O(X) are the opens of the associated locale X, to be thought of as
+propositions, whereas the points of the locale correspond to models of the logical theory
+defined by these propositions. See [51, 63] and especially [80] for a very clear explanation
+of this perspective. More precisely, recall that geometric propositional logic stands for
+the following fragment of intuitionistic propositional logic [63, 51, 80]. A formula ϕ in
+propositional geometric logic must be built from atomic propositions using the symbols
+⊤ (for “truth”), ∧ (for “and”), and ∨ (for “or”), where ∨ but not ∧ is allowed to carry
+an infinite index set. (This may be motivated by the remark that to verify a proposition
+∨λ∈Λ pλ , one only needs to find a single pλ , whereas to verify ∧λ∈Λ pλ the truth of each pλ
+needs to be established, an impossible task in practice when Λ is infinite.) Sequents or
+axioms must take the form ϕ → ψ, where ϕ and ψ are formulae.
+A frame O(X), then, defines a geometric propositional theory whose propositions
+correspond to opens in X, combined by logical connectives given by the lattice operations
+in O(X) à la Boole. This quite literally holds in the case of classical physics discussed in
+Subsection 1.1, where the opens of the locale M are just the opens U of M as a topological
+space in the naive sense, construed as propositions “the system is in a state located within
+U ”. Conversely, a propositional geometric theory T has an associated Lindenbaum algebra
+O([T]), defined as the poset of formulae of T modulo provable equivalence, ordered by
+entailment. This poset turns out to be a frame, and the (standard) models of T (that by
+definition assign one of the two standard truth values 0 or 1 to the propositions of T in a
+consistent way) bijectively correspond to frame maps O([T]) → {0, 1}. Identifying {0, 1}
+with Ω = O(∗) as explained above, we see that a model of the theory T is the same thing
+as a point ∗ → [T] of the locale [T]. More generally, one may consider a model of T in a
+frame O(Y ) (generalizing the standard models where Y = ∗) to be a locale map Y → [T].
+
+1.5
+
+Locales in topoi
+
+The generalization from topological spaces to frames is an important step towards our
+goal, but it is not enough. Seeking further generality pertinent to quantum theory, one
+may proceed in at least two different ways. First, one may generalize locales to quantales
+[67]. This step leads to recognizable logical structures, but it does not relate well to the
+Copenhagen Interpretation of quantum mechanics we favour.
+Instead, we pass from frames as special objects in the category of sets (as defined above)
+to frames in more general topoi. This is indeed possible, as all of the above concepts can be
+defined in any topos by using its internal language [63]; see [12] for details. In particular,
+in a topos T one may consider the category FrmT of internal frames and its opposite
+category LocT of internal locales. The terminal object of the latter is the locale ∗ whose
+
+1
+
+INTRODUCTION
+
+9
+
+associated frame O(∗) is the subobject classifier Ω of T . Opens, points and models are then
+defined in exactly the same way as in Sets, as long as one realizes that the identification
+of Ω with {0, 1} and of ∗ with the singleton is peculiar to Sets.
+In particular, a point of a locale X in T is a frame map O(X) → Ω, whereas an open
+in X may be defined as an arrow 1 → O(X). The collection Pt(X) of a locale is still
+defined as the subobject of ΩO(X) corresponding to frame maps, its opens being given by
+interpreting (7) in the internal language of T , where U ∈ O(X) is interpreted as an arrow
+U
+
+1 → O(X) and p−1 (U ) = 1 means that p−1 ◦ U = ⊤, i.e. the truth arrow ⊤ : 1 → Ω in T .
+In any case, it is reassuring that topos theorists simply refer to ‘internal’ locales as
+‘spaces’ [52, 53, 66]: returning to the opening words from Mac Lane and Moerdijk quoted
+earlier, one might say that the unification in question is exemplified by the idea of an
+internal locale with its associated Heyting algebra structure.
+Our quantum phase spaces Σ, then, will be examples of locales in topoi. Their opens
+1 → O(Σ) will correspond to the elementary propositions or yes-no questions about the
+system, and each physical state on the system will define a map O(Σ) → Ω, where Ω is
+the subobject classifier in the particular topos in which Σ is defined. It is important to
+note that such maps generally fail to be frame maps, i.e. they do not define models in the
+above sense. This phenomenon already arises in classical physics if one considers mixed
+rather than pure states; indeed, the map χ[µ] : O(M ) → Ω introduced below (6) fails to
+be a frame map (except when µ happens to be pure).
+However, a fundamental difference between classical and quantum physics in this respect lies in the Kochen–Specker Theorem, which in its topos-theoretic incarnation (given
+in different versions in [20] and in Theorem 6 below) states that (generically) the quantum phase space Σ has no points at all, although the quantum system has pure states (see
+Subsection 4.1). Hence whereas pure states in classical physics - as defined in the usual
+sense through convexity - are also ‘pure’ in the logical sense, this is no longer the case in
+quantum physics.
+Nonetheless, pairing states and propositions into an internal truth value, i.e. taking
+the subobject classifier to be the codomain of the pairing map, is a central goal of this
+work, which we share with (and adopted from) the work of Isham et al. [20, 33]. Unlike
+real-number valued pairings (which from a logical perspective might be preferable), an
+Ω-valued pairing avoids both the problems with the ignorance interpretation of the Born
+probabilities (see Subsection 1.2) and the bizarre ontology of the so-called Many-Worlds
+interpretation of quantum mechanics (cf. [14, 17]). A philosophical defence of this goal
+may also be found in [18]. However, the final verdict about its validity, or rather its
+relevance to physics, can only be given once the Born rule has been derived from our
+Ω-valued pairing, along with an appropriate interpretation of the Born probabilities. This
+derivation will be given in future work, in which the results of Section 6 of this paper will
+be combined with those in [61].
+
+1.6
+
+Basic construction
+
+The two notions of generalized space just described, i.e. noncommutative C*-algebras and
+locales in arbitrary topoi, will be related by one of the main constructions in this paper,
+which we summarize in this subsection. This construction associates a certain internal
+locale to a noncommutative C*-algebra (assumed unital), and hinges on three ideas:
+
+1
+
+INTRODUCTION
+
+10
+
+1. Algebraic quantum theory [38, 43, 58];
+2. Constructive Gelfand duality [5, 6, 7, 26, 28];
+3. Bohr’s doctrine of classical concepts [11, 73, 60].
+From the first, we just adopt the methodology of describing a quantum system by a
+noncommutative C*-algebra A (defined in the usual topos Sets). This move generalizes
+the usual Hilbert space framework of quantum theory and has the advantage of being able
+to incorporate superselection rules in infinite systems, as well as other limiting situations
+like the transition from quantum to classical mechanics (and back).
+As to the second, it turns out that the notion of a C*-algebra makes sense in an
+arbitrary topos, so that one may, in particular, internalize commutative C*-algebras. Examples of such internal commutative C*-algebras arise from compact completely regular
+locales ([7, 48], see also footnotes 2 and 3 below): if X is such a locale in some topos T ,
+and if C is the locale defined by the complex numbers object in T (as in[7]), then the
+object C(X, C) of all locale maps from X to C is a commutative C*-algebra in T under
+natural operations. The Gelfand duality theorem of Banaschewski and Mulvey [7] states
+that, like in the case of the topos Sets, up to isomorphism these are the only examples
+of unital commutative C*-algebras: if A is a unital commutative C*-algebra in a topos
+T , there exists a compact completely regular locale Σ such that A ∼
+= C(Σ, C). Here ∼
+=
+denotes isomorphism in the category T and the arrows implementing this isomorphism are
+C*-algebra maps. Moreover, this isomorphism extends to a categorical duality between
+compact completely regular locales and unital commutative C*-algebras in T . We call the
+locale Σ or Σ(A) the Gelfand spectrum of A. It is defined up to isomorphism of locales.
+Third, Niels Bohr’s “doctrine of classical concepts” states that we can only look at
+the quantum world through classical glasses, measurement merely providing a “classical
+snapshot of reality”. The combination of all such snapshots should then provide a complete
+picture. In Bohr’s own words ([11], p. 209):
+However far the phenomena transcend the scope of classical physical explanation, the account of all evidence must be expressed in classical terms. (. . . )
+The argument is simply that by the word experiment we refer to a situation
+where we can tell others what we have done and what we have learned and
+that, therefore, the account of the experimental arrangements and of the results
+of the observations must be expressed in unambiguous language with suitable
+application of the terminology of classical physics.
+This doctrine has a transparent formulation in algebraic quantum theory, to the effect
+that the empirical content of a quantum theory described by a certain noncommutative
+C*-algebra A is contained in suitable commutative C*-algebras associated to A. In the
+simplest case, which we study in this paper, these are simply the (unital) commutative
+C ∗ -subalgebras of A. (To understand classical behaviour in general, the pertinent commutative C*-algebras have to be extracted from A using limiting procedures like ~ → 0 or
+N → ∞ [60].)
+The following construction weaves these three threads together. Let A be a unital
+C*-algebra (in the usual sense, i.e. in Sets) and let C(A) be the collection of its unital
+commutative C ∗ -subalgebras, partially ordered by inclusion. We regard the poset C(A)
+
+1
+
+INTRODUCTION
+
+11
+
+as a category, whose objects are the unital C ∗ -subalgebras C ⊆ A, and whose Hom-sets
+HomC(A) (C, D) consist of a single arrow if C ⊆ D and are empty otherwise. The category
+C(A) is a catalogue of all ‘classical snapshots of reality’ one may take of the quantum
+system described by A.
+Recall that for any category C, the topos SetsC has functors C → Sets as objects and
+natural transformations as arrows [63]. Put
+T (A) = SetsC(A) .
+
+(8)
+
+The philosophical idea is that as observers we are confined to the topos T (A), whereas the
+physical system itself divinely exists in the ambient topos Sets. According to Bohr and
+Heisenberg, the system might seem to behave probabilistically from our limited classical
+perspective, but this behaviour is just a consequence of our confinement to T (A) (cf.
+Theorem 14 below).
+We will underline entities internal to T (A). It turns out that the tautological functor A : C 7→ C, which (with some abuse of notation) maps a unital commutative C ∗ subalgebra C of A (seen as an object of the category C(A)) into itself (seen as a set), is a
+unital commutative C*-algebra in T (A). We call A the Bohrification of A. It has an associated Gelfand spectrum Σ(A), which is a locale in T (A). The map A 7→ Σ(A) associates
+a ‘space’ Σ(A) in the sense of topos theory to a ‘space’ A in the sense of noncommutative
+geometry.
+In principle, this construction leads to the solution of all five problems listed at the
+beginning of Subsection 1.2:
+1. The quantum phase space of the system described by A is the locale Σ ≡ Σ(A) in
+the topos T (A).
+2. The “subsets” of the locale Σ acting as elementary propositions about A are simply
+the ‘opens’ in Σ, defined as arrows 1 → O(Σ) in T (A). Thus the quantum logic of
+A is given by the Heyting algebra underlying Σ(A).
+3. Observables a ∈ A define locale maps δ(a) : Σ → IR, where IR is the so-called interval domain. States ρ on A yield probability measures (more precisely, valuations)
+µρ on Σ.
+∆
+
+4. An open interval ∆ ⊆ R defines an arrow 1
+
+/ O(IR) of T (A) (where 1 is the ter-
+
+minal object in T (A)), which, composed with the map O(IR)
+δ(a), yields the desired proposition
+1
+
+[a∈∆]
+
+/ O(Σ)
+
+=
+
+∆
+
+1
+
+δ(a)−1
+
+/ O(Σ) underlying
+
+−1
+
+/ O(IR) δ(a) / O(Σ).
+
+5. State-proposition pairing is defined exactly as in (4), i.e.by
+ha∈∆,ρi
+
+1
+
+/Ω
+
+=
+
+1
+
+[a∈∆]
+
+/ O(Σ)
+
+χ[ρ]
+
+/ Ω,
+
+(9)
+
+where Ω is the subobject classifier of T (A) and χ[ρ] is the characteristic map of the
+subobject [ρ] of O(Σ) consisting of all opens U of Σ with µρ (U ) = 1 (defined through
+the internal language of T (A)).
+
+1
+
+INTRODUCTION
+
+12
+
+The construction of δ(a) is inspired by, and partly generalizes, the Daseinisation map of
+Döring and Isham ([34, 35], cf. also Appendix B).
+The subobject classifier Ω is the functor C(A) → Sets given by
+Ω(C) = {S ⊆↑ C | S is an upper set},
+
+(10)
+
+where for any poset P an upper set in P is a subset U ⊆ P for which x ∈ U and x ⩽ y
+implies y ∈ U , and one writes ↑ x = {y ∈ P | x ⩽ y} for the so-called principal upper set
+on x. Note that Ω(C) is a poset (and even a frame) under inclusion as partial ordering,
+with ∅ as bottom element, and ↑ C as top element. (One might think of the principal
+upper set ↑ C on the “classical snapshot of reality” C as the collection of all finer versions
+of the knowledge present in C.) The subobject classifier Ω is a (covariant) functor by
+stipulating that if C ⊆ D, then the induced map Ω(C) → Ω(D) is given by S 7→ S ∩ ↑ D.
+In this setup, we have taken Sets as the ambient topos. There are several reasons,
+however, one might want to consider other ambient topoi. Leaving the matter to future
+investigation, let us briefly indicate an important application. An algebraic quantum
+field theory (AQFT) [43] may be defined as a functor (O(M ), ⊆) → CStar satisfying
+certain separability constraints, where M is Minkowski space-time and O(M ) is its set of
+opens [13]. Analogous to Theorem 5 below, an AQFT may then be shown to be given by
+a single C*-algebra in the presheaf topos SetsO(M ) .
+
+1.7
+
+Internal and external language
+
+We have repeatedly used the word ‘internal’ for a construction intrinsic to a certain topos
+T ; for example, A and its Gelfand spectrum Σ are internal to T (A), as is the Heyting
+algebra structure of Σ. At this point, confusion may arise, for on the one hand the
+propositional logic carried by Σ is intuitionistic, while on the other hand all constructions
+(ranging from the initial C*-algebra A to the locale Σ(A) as an object in the associated
+functor topos SetsC(A) ) eventually arise from the topos Sets, whose underlying logic is
+classical.
+To clarify this, we remark that it is a very important aspect of topos theory that
+one may, indeed, usually adopt two points of view: an external one and an internal one.
+External constructions are carried out using classical mathematics, which (at least for the
+topoi used in this paper) takes place in the familiar topos Sets (even if the constructions
+in question are concerned with some other topos). Internal constructions, on the other
+hand, only use concepts intrinsic to the topos one is studying. This idea is formalized by
+the internal or Mitchell-Bénabou language associated with each topos [12, 51, 63]. This is a
+logical language that for many instances and purposes allows one to reason within a given
+topos as if it were the topos Sets. For example, one may employ the usual logical and
+set-theoretic symbols (the latter even if an object X has no or few elements in the sense
+of arrows 1 → X), whose meaning is determined by the so-called Kripke-Joyal semantics
+associated with the Mitchell-Bénabou language. We will actually use this semantics in
+our theory of state-proposition pairing. However, using the internal language one may (in
+general) neither appeal to the law of excluded middle x ∨ ¬x = ⊤, nor to the Axiom of
+Choice (although restricted versions thereof are sometimes valid). These limitations are
+a consequence of the fact that the internal language of a topos happens to be based on
+intuitionistic predicate logic (see [12, 51] for the precise rules).
+
+1
+
+INTRODUCTION
+
+13
+
+ambient topos Set
+C*-algebra
+b
+
+x
+
+A
+
+topos T (A) induced by A
+internal C*-algebra
+b
+
+A
+
+mathematician
+using meta-logic
+
+x
+
+internal observer
+
+Figure 1: Illustration of universes of discourse
+
+Thus a topos can be seen as a universe of discourse, to which a mathematician or
+observer may wish to confine himself. On the other hand, even the internal language
+and associated logic can alternatively be studied externally with classical meta-logic. The
+various entities at play in our application of topos theory to quantum physics are illustrated
+in Figure 1. This illustrates, in particular, that our quantum logic is meant to be the logic
+of an ‘internal’ observer, with all the restrictions this brings with it (whereas the quantum
+‘logic’ of Birkhoff and von Neumann, to the extent it is a logic at all, rather pertains to a
+fictitious entity like Laplace’s demon, to whose intellect ‘nothing would be uncertain and
+the future just like the past would be present before its eyes.’)
+Let us give three closely related examples of internal versus external descriptions, each
+relevant to our logical approach to quantum theory.
+First, a fundamental fact of topos theory is that the subobjects SubT (A) of a given
+object A in a topos T (with subobject classifier ΩT ) form a (complete) Heyting algebra.
+• Externally, one simply looks at SubT (A) as a set, equipped with the structure of a
+Heyting algebra in the category Sets.
+• Internally, SubT (A) is described as the exponential ΩA
+T (or power ‘set’ P(A)), which
+is a Heyting algebra object in T . See [63, p. 201].
+Second, as these Heyting algebras are complete, they are frames. The explicit internal
+description of a frame or locale is rather complicated as far as the completeness property
+of the underlying lattice is concerned [12]. However, if the topos T = Sh(X) is that of
+op
+sheaves on a locale X (which, we recall, consists of those functors F in SetsO(X) that
+satisfy a gluing condition stating that F (U ) can be computed from the F (Ui ) under any
+open covering U = ∪i Ui [63, Ch. II]), a simple external description is available [49, 53] (also
+cf. [51, §C1.6]): a locale L in Sh(X) is externally described by a locale map f : L → X in
+Sets, with
+L = L(X).
+(11)
+Furthermore, if L1 and L2 are locales in Sh(X) with external descriptions fi : Li → X,
+then an internal locale map g : L1 → L2 in Sh(X) is externally given by a locale map
+g : L1 → L2 in Sets such that f2 ◦ g = f1 .
+To see that this situation is relevant to our construction, first recall the Alexandrov
+topology on a poset P . Its opens are simply the upper sets, and the special upper sets
+
+1
+
+INTRODUCTION
+
+14
+
+of the form U = ↑x form a basis of the Alexandrov topology. Equipping P with the
+Alexandrov topology, one has an isomorphism of categories
+SetsP ∼
+= Sh(P ).
+
+(12)
+
+To understand this, just note that a sheaf F on P is determined by its values on the basis
+opens ↑x; a functor F : P → Sets then corresponds to F by
+F (x) = F (↑x).
+
+(13)
+
+It is, then, immediate from (8) and (12) that
+T (A) ∼
+= Sh(C(A)),
+
+(14)
+
+so that we have the above-mentioned external description of locales to our avail, with
+X = C(A).
+Explicitly, to describe an internal locale L in Sh(X) externally, i.e. in terms of the
+topos Sets, consider the set ΓO(L) = HomSh(X) (1, O(L)) of global sections of the associated frame O(L); this set coincides with O(L)(X) (since a natural transformation in
+HomSh(X) (1, O(L)) is determined by its value at X) and defines a frame O(L)(X) in Sets
+under the lattice structure borrowed from O(L). For V ⊆ U , let LU
+V : O(L)(U ) → O(L)(V )
+op
+be the arrow part of the functor O(L) : O(X) → Sets, with special case LV ≡ LX
+V . The
+completeness of O(L) implies that LV has a left adjoint L∗V : O(L)(V ) → O(L)(X), which
+in turn defines a map f ∗ : O(X) → O(L)(X) by f ∗ : V 7→ L∗V (⊤L(V ) ), where ⊤L(V ) is the
+top element of the lattice O(L)(V ). This is a frame map, and if we write O(Y ) = O(L)(X),
+the corresponding locale map f : Y → X is the external description of L.
+Conversely, a locale L in Sets along with a locale map f : L → X (i.e. a frame map
+f ∗ : O(X) → O(L)) induces a locale L in Sh(X), defined as the sheaf L(U ) = {V ∈ L |
+V ⩽ f ∗ (U )}. These constructions are adjoint to each other, yielding an equivalence of the
+category Loc(Sh(X)) of locales in Sh(X) and the slice category Loc/X relative to the
+category Loc of locales in Sets.
+For us, the external description of locales is useful for two reasons:
+1. Returning to (9), we are clearly interested in the set
+ΓO(Σ) ∼
+= HomSetsC(A) (1, O(Σ))
+of opens in Σ, as it encodes the quantum logic of our C*-algebra A. Let O(Σ) be
+the sheaf on C(A) that corresponds to O(Σ) by (13), so that ΓO(Σ) ∼
+= ΓO(Σ), with
+ΓO(Σ) = HomSh(C(A)) (1, O(Σ)). Clearly, if a poset P has a bottom element ⊥ and
+Z is any object in SetsP , then ΓZ ∼
+= Z(⊥). This applies to P = C(A) with ⊥= C · 1,
+so that
+(15)
+ΓO(Σ) ∼
+= O(Σ)(C · 1) ∼
+= O(Σ)(C(A)) = O(Σ),
+where we have used (11). Hence the external description of the quantum logic of the
+C*-algebra A is entirely given in terms of the locale Σ in Sets.
+2. Important internal number systems in T (A) that are defined by geometric propositional theories T (see Subsection 1.4) may be computed from (13) and their description in Sh(C(A)), which in turn is based on their external description in Sets.
+
+1
+
+INTRODUCTION
+
+15
+
+Specifically, if [T] is the locale defined by T in Sets, then the locale [T] ≡ [T]Sh(X)
+giving the interpretation of T in Sh(X) has external description π1 : X × [T] → X,
+where π1 is projection on the first component. It follows that the frame O([T]) in
+Sh(X) corresponding to [T] is given by the sheaf U 7→ O(U × [T]). Applying this
+to the case at hand, we see that frame O([T]) corresponding to the interpretation
+[T] ≡ [T]C(A) of T in T (A) is given by the functor
+O([T]) : C 7→ O(↑ C × [T]).
+
+(16)
+
+See Subsections 2.3 and 5.1 for examples of this procedure.
+Our third example applies the second one to points of locales [63], and continues the
+discussion in Subsection 1.4:
+• Internally, a point of a locale Y in a general topos T (internal to Sets for simplicity)
+is a locale map ∗ → Y , which is the same thing as an internal frame map O(Y ) → Ω
+(where Ω is the subobject classifier in T ).
+• Externally, we look at Ω as the frame SubT (1) in Sets of subobjects of the terminal
+object 1 in T . The locale in Sets with frame SubT (1) is called the localic reflection
+Loc(T ) of T , i.e. O(Loc(T )) = SubT (1). For example, in T = Sh(X) one has
+SubSh(X) (1) ∼
+= O(X) and hence Loc(Sh(X)) ∼
+= X. Applying the second example
+above, we find that the external description of the locale ∗ in Sh(X) is just id : X →
+X, so that points in a locale L in Sh(X) with external description f : Y → X are
+given by locale maps ϕ : X → Y that satisfy f ◦ ϕ = id, i.e. cross-sections of f .
+The fourth example continues both the previous one and the discussion of models in
+Subsection 1.4. We initially defined a standard model of a geometric propositional theory
+T as a locale map ∗ → [T], and subsequently mentioned more general models Y → [T],
+still in Sets. We now consider even more general models of T in a topos T .
+• Externally, these are given by locale maps Loc(T ) → [T] in Sets. This is because
+the classifying topos of T is Sh([T]), and one has an equivalence between geometric
+morhisms T → Sh([T]) (which classify T-models in T , cf. [63, Thm. X.6.1]) and
+locale maps Loc(T ) → [T] (see [63, § IX.5]).
+• Internally, one may interpret the theory T in T and thus define a locale [T]T internal
+to T . The points of this locale, i.e. the locale maps ∗ → [T]T or frame maps
+O([T]T ) → ΩT , describe the models of T in T internally.
+One may explicitly verify the equivalence between the internal and the external descriptions for T = Sh(X), for in that case the external description of [T]T is the map
+π1 : X × [T] → X. Hence locale maps ϕ : X → X × [T] that satisfy π1 ◦ ϕ = id are just
+(unconstrained) locale maps X → [T].
+
+1.8
+
+Observation and approximation
+
+Our construction of the locale map δ(a) : Σ → IR in Section 1.6 involves the so-called
+interval domain IR [74]. To motivate its definition, consider the approximation of real
+
+1
+
+INTRODUCTION
+
+16
+
+numbers by nested intervals with endpoints in Q. For example, the real number π can be
+described by specifying the sequence
+[3, 4], [3.1, 3.2], [3.14, 3.15], [3.141, 3.142], . . .
+Each individual interval may be interpreted as finitary information about the real number
+under scrutiny, involving the single observation that the real number is contained in the
+interval. This description of the reals, which goes back to L.E.J. Brouwer, is formalized
+by the notion of the interval domain. Consider the poset IR whose elements are compact
+intervals [a, b] in R (including singletons [a, a] = {a}), ordered by reverse inclusion (for
+a smaller interval means that we have more information about the real number that the
+ever smaller intervals converge to). This poset is a so-called dcpo (directed complete
+partial order); directed suprema are simply intersections. As such, it carries the Scott
+topology [2, 74], whose closed sets are lower sets that are closed under suprema of directed
+subsets. Here a lower set in a poset P is a subset L ⊆ P such that x ∈ L and y ⩽ x
+implies y ∈ L; equivalently, ↓ L ⊆ L, where ↓ L = {y ∈ P | ∃ x ∈ L : y ⩽ x}. (Lower
+sets are sometimes called down sets or downward closed sets.) Consequently, Scott opens
+must be upper sets U (defined
+W in the obvious way) with the additional property that for
+every directed set D with D ∈ U the intersection D ∩ U is nonempty. In the case of
+IR, this means that each open interval (p, q) in R (with p = −∞ and q = +∞ allowed)
+corresponds to a Scott open {[a, b] | p < a, b < q} in IR, and these opens form a basis of the
+Scott topology. The collection OScott (IR) is, of course, a frame, initially defined in Sets.
+The basis opens (r, s) may be reinterpreted as a collection of generators for this frame,
+which from the point of view of generators and relations differs from the frame O(R) of
+Dedekind reals in that the relation (p, q) = (p, q1 ) ∨ (p1 , q) for p ⩽ p1 ⩽ q1 ⩽ q holds for
+the reals, but not for the interval domain (see [51, D4.7.4] or Subsection 2.3 below for the
+other relations for O(R)). The interval domain admits an internal definition in any topos.
+Its realization in T (A) will play an important role in this paper; see Subsection 5.1.
+A related notion of approximation appears when considering an observable a ∈ Asa of
+a quantum system described by a C*-algebra A, as seen from inside its associated topos
+T (A). Specifically, we should approximate a within each classical snapshot C of A, where
+C ∈ C(A) is some commutative subalgebra. The difficulty is, of course, that a need not
+lie in C, but neither is there a single element of C that forms the ‘best approximation’ of
+a in C. The best one can do is approximate a by a family of elements of C, as follows.
+The self-adjoint part Asa of a C*-algebra A has a natural partial order ⩽, defined by
+a ⩽ b iff b − a = c∗ c for some c ∈ A. (Equivalently, a ⩽ b iff b − a = f 2 for some f ∈ Asa .)
+This partial order is linear— in the sense that a + c ⩽ b + c whenever a ⩽ b. For the
+C*-algebra A = C(X, C) one just recovers the pointwise order on (real-valued) functions,
+since Asa = C(X, R). For A = B(H), the bounded operator on Hilbert space H, one
+has a ≥ 0 for a ∈ Asa iff (Ψ, aΨ) ≥ 0 for all Ψ ∈ H. (Indeed, this is really a pointwise
+order as well, if one regards operators a on H as functions â on H by â(Ψ) = (Ψ, aΨ).
+See e.g.[58].) Thus one may approximate a in C by collections of intervals of the type
+{[f, g] | f, g ∈ Csa , f ⩽ a ⩽ g} (note that this is inhabited, since f = −kak · 1 and
+g = kak · 1 occur). Since the intervals [f, g] in Csa fail to form a dcpo, however, a slight
+adaptation of this idea is needed, for which we refer to Subsection 5.1 below.
+
+2
+
+C*-ALGEBRAS AND GELFAND DUALITY IN A TOPOS
+
+1.9
+
+17
+
+Structure of this article
+
+Section 2 reviews the Gelfand duality theory in a topos due to Banaschewski and Mulvey.
+Our original results are as follows.
+1. The construction of the ‘quantum phase space’ Σ(A) from a C*-algebra A in Sets
+as the Gelfand spectrum of the Bohrification A of A in the topos T (A) is explained
+in Section 3. This section also contains our version of the Kochen–Specker Theorem.
+2. Section 4 first describes the construction of states on A as probability integrals on
+the self-adjoint part of A. These, in turn, are equivalent to probability valuations
+on its Gelfand spectrum Σ(A). On this basis, we eventually show that states define
+subobjects of the quantum phase space Σ(A), as in classical physics (see (3)).
+3. The interpretation of observables in A in terms of the Bohrification A is the subject
+of Section 5. In particular, we give our analogue of the Daseinisation map of Döring
+and Isham in Subsection 5.2 (and more fully in Appendix A.2).
+4. The pairing of states and propositions is elucidated in Section 6, yielding an element
+of the subobject classifier of T (A) that we explicitly compute. This pairing connects
+the mathematical constructions to quantum physics and completes steps 1 to 5 of
+our general program mentioned at the beginning of Subsection 1.2.
+Appendix A contains a number of technical results that somewhat distract from the main
+development of the paper. Finally, Appendix B discusses related work by Döring and
+Isham, which partly inspired the present article.
+Acknowledgement
+The authors are indebted to Andreas Döring, Ieke Moerdijk, Chris Mulvey, Isar Stubbe,
+and Steve Vickers for guidance and useful feedback on talks and earlier drafts of this
+article. We are exceptionally grateful to the referee of this paper for unusually detailed
+and helpful comments.
+
+2
+
+C*-algebras and Gelfand duality in a topos
+
+This section recapitulates a constructive version of Gelfand duality, which is valid in
+every topos [5, 6, 7]. Recall that the usual version of Gelfand duality characterises unital
+commutative C*-algebras as algebras of complex-valued continuous functions on a compact
+Hausdorff space. More generally, the category cCStar of unital commutative C*-algebras
+and unital ∗ -homomorphisms is dual to the category KHausSp of compact Hausdorff
+spaces and continuous maps (see [48] for a proof aimed at algebraists and [59] for a proof
+in the spirit of C*-algebras). From a topos-theoretic point of view, this formulation is
+internal to the topos Sets, since both categories are defined relative to it.
+To understand the generalization of Gelfand duality to arbitrary topoi, a slight reformulation of the situation in Sets is appropriate: we replace topological spaces X by the
+associated locales, and hence replace KHausSp by the equivalent category KRegLoc of
+
+2
+
+C*-ALGEBRAS AND GELFAND DUALITY IN A TOPOS
+
+18
+
+compact regular locales [48].2 Consequently, the duality cCStar ≃ KHausSp may be
+replaced by cCStar ≃ KRegLoc: the contravariant functor cCStar → KRegLoc is still
+given by A 7→ Σ(A), where Σ(A) is the locale defined by the usual Gelfand spectrum of
+A (i.e. its pure state space), and in the opposite direction one has the familiar expression
+X 7→ C(X, C), in which the right-hand side now stands for the locale maps from X to C.
+For technical reasons, in general topoi regular compact locales have to be replaced
+by completely regular compact locales,3 but otherwise one has a direct generalization of
+the above reformulation of Gelfand duality in Sets. The following theorem is predicated
+on an internal definition of the category cCStar, which we shall give in Subsection 2.1.
+Here and in what follows, all mathematical symbols are to be interpreted in the internal
+language of the topos T at hand.
+Theorem 1 (Gelfand duality in a topos) [5, 6, 7]. In any topos T , there is a categorical duality (i.e. contravariant equivalence)
+cCStar o
+
+Σ
+⊥
+C(−,CT )
+
+/
+
+KRegLoc,
+
+where the categories in questions are defined internally to T .
+For A ∈ cCStar, the locale Σ(A) is called the Gelfand spectrum of A. Here the symbol
+CT stands for the locale of Dedekind complex numbers in T .
+
+2.1
+
+C*-algebras in a topos
+
+In any topos T (with natural numbers object), the rationals Q can be interpreted [63,
+§ VI.8], as can the Gaussian integers CQ = {p + qi : p, q ∈ Q}. For example, the interpretation of CQ in a functor topos SetsC (where, in our case, C is a poset) is the constant
+functor that assigns the set CQ to every C ∈ C.
+A *-algebra in T is a vector space A over CQ that carries an associative bilinear map
+· : A × A → A, and is furthermore equipped with a map (−)∗ : A → A satisfying
+(a + b)∗ = a∗ + b∗ ,
+
+(z · a)∗ = z · a∗ ,
+
+(a · b)∗ = b∗ · a∗ ,
+
+a∗∗ = a,
+
+for all a, b ∈ A and z ∈ CQ . A is called commutative if a · b = b · a for all a, b ∈ A, and
+unital if there is a neutral element 1 for the multiplication.
+To define an internal C*-algebra, we define a seminorm on such an algebra; in general,
+a norm may not actually be definable in the internal language of a topos. This is a relation
+2
+
+W
+W
+A locale L is compact if every subset S ⊆ L with S = ⊤ has a finite subset F with F = ⊤. It is
+regular if every element of L is the join of the elements well inside itself, where a is well inside b (denoted
+a ≪ b) if there exists c with c ∧ a =⊥ and c ∨ b = ⊤. The (internal) categories KRegLoc and KHausSp
+in a topos T are equivalent when the full axiom of choice is available in T [48].
+3
+See [48] or [7] for the definition of complete regularity. If the axiom of dependent choice (stating that
+for any nonempty set X and any relation R ⊆ X × X such that for all x there is an y with (x, y) ∈ R,
+there is a sequence (xn ) such that (xn , xn+1 ) ∈ R for each n ∈ N) is valid in a topos, then compact regular
+locales are automatically completely regular. This is the case in Sets, for example (where, of course, the
+full axiom of choice holds), and also in topoi like T (A) consisting of functors whose codomain validates
+dependent choice [40].
+
+2
+
+C*-ALGEBRAS AND GELFAND DUALITY IN A TOPOS
+
+19
+
+N ⊆ A×Q+ , which in Sets would have the meaning that (a, q) ∈ N iff kak < q. In general,
+N must satisfy
+(0, p) ∈ N,
+∃q∈Q+ [(a, q) ∈ N ],
+(a, p) ∈ N → (a∗ , p) ∈ N,
+(a, q) ∈ N ↔ ∃p<q [(a, p) ∈ N ],
+(a, p) ∈ N ∧ (b, q) ∈ N → (a + b, p + q) ∈ N,
+(a, p) ∈ N ∧ (b, q) ∈ N → (a · b, p · q) ∈ N,
+(a, p) ∈ N → (z · a, p · q) ∈ N
+
+(|z| < q),
+
+for all a, b ∈ A, p, q ∈ Q+ , and z ∈ CQ . For a unital *-algebra, we also require
+(1, p) ∈ N
+
+(p > 1).
+
+If the seminorm relation furthermore satisfies
+(a∗ · a, q 2 ) ∈ N ↔ (a, q) ∈ N
+for all a ∈ A and q ∈ Q+ , then A is said to be a pre-semi-C*-algebra.
+To proceed to a C*-algebra, one requires a = 0 whenever (a, q) ∈ N for all q in Q+ ,
+making the seminorm into a norm, and subsequently one requires this normed space to be
+complete in a suitable sense (see [7] for details). As a consequence of its completeness, a
+C*-algebra is automatically an algebra over a suitable completion of CQ (and not just over
+CQ itself, as baked into the definition). Note that in general topoi one has to distinguish
+certain real and complex number objects that coincide in Sets. From Q, one may construct
+the locale Rd ≡ R of Dedekind real numbers [63, § VI.8] (see also Subsection 2.3 below);
+we will drop the suffix d for simplicity. The object Pt(C) (which is the completion of CQ
+meant above) comprises the points of the complexified locale C = R + iR; see also [7]
+for a direct description that avoids R. In Sets, C is the locale with frame O(C), where
+(abusing notation) C are the usual complex numbers. In any topos, the one-dimensional
+C*-algebra C(∗, C) is nothing but Pt(C) and has Gelfand spectrum ∗ (i.e. the locale with
+frame Ω).
+A unital *-homomorphism between C*-algebras A and B is, as usual, a linear map
+f : A → B satisfying f (ab) = f (a)f (b), f (a∗ ) = f (a)∗ and f (1A ) = 1B . Unital C*-algebras
+with unital *-homomorphisms form a category CStar (internal to T ); commutative unital
+C*-algebras form a full subcategory cCStar thereof.
+
+2.2
+
+Spectrum
+
+The definition of the category KRegLoc of completely regular compact locales can be
+internalized without difficulty. The next step is to explicitly describe the Gelfand spectrum
+Σ(A) ≡ Σ of a given commutative C*-algebra A. We will do so following the reformulation
+in [26, 28] of the pioneering work of Banaschewski and Mulvey [7].
+To motivate the description, note that even in Sets the spectrum is now described
+(with the usual notational ambiguity explained in Subsection 1.3) as the locale Σ defined
+
+2
+
+C*-ALGEBRAS AND GELFAND DUALITY IN A TOPOS
+
+20
+
+by the frame O(Σ) of open subsets of the usual Gelfand spectrum Σ of A (defined as the
+subset of the dual A∗ consisting of space of nonzero multiplicative functionals on A in
+the relative weak∗ topology). The topology on the space Σ can be described by giving a
+sub-base, for which one often takes U(a,ρ0 ,ε) = {ρ | |ρ(a) − ρ0 (a)| < ε} for a ∈ A, ρ0 ∈ Σ,
+ε > 0. However, a much simpler choice of sub-base would be
+Da = {ρ ∈ Σ | ρ(a) > 0},
+
+(17)
+
+where a ∈ Asa . Both the property that the ρ are multiplicative and the fact that the Da
+form a sub-base of the Gelfand topology may then be expressed lattice-theoretically by
+saying that O(Σ) is the frame FAsa freely generated by the formal symbols Da , a ∈ Asa ,
+subject to the relations
+D1 = ⊤,
+
+(18)
+
+Da ∧ D−a = ⊥,
+
+(19)
+
+D−b2 = ⊥,
+
+(20)
+
+Da+b ⩽ Da ∨ Db ,
+
+(21)
+
+Dab = (Da ∧ Db ) ∨ (D−a ∧ D−b ),
+
+(22)
+
+supplemented with the ‘regularity rule’
+Da ⩽
+
+_
+
+Da−r .
+
+(23)
+
+r∈Q+
+
+This turns out to be a correct description of the spectrum of A also in an arbitrary
+topos T , in which case (18)–(23) have to be interpreted in T , of course.4
+
+2.3
+
+Gelfand transform
+∼
+=
+
+Classically, for a commutative unital C*-algebra A the Gelfand transform A → C(Σ, C)
+is given by a 7→ â with â(ρ) = ρ(a). In our setting it is convenient to restrict the Gelfand
+transform to Asa , yielding an isomorphism
+Asa ∼
+= C(Σ, R).
+
+(24)
+
+In a topos T , the Gelfand transform of an internal commutative unital C*-algebra A in
+T associates a locale map
+â : Σ → RT ,
+(25)
+to each a ∈ Asa , where Σ is the spectrum of A and RT is the locale of internal Dedekind
+real numbers in T ; see below. Recalling from Subsection 1.3 that â is by definition a frame
+map
+â−1 : O(RT ) → O(Σ),
+(26)
+4
+
+See [77] and the Appendix to this paper for the procedure of constructing a frame from generators
+and relations. Equivalently, in the spirit of [7] one could rephrase the above definition by saying that Σ is
+the locale [T] corresponding to the propositional geometric theory T (in the sense explained in Subsection
+1.4) determined by the collection of propositions Da , a ∈ Asa , subject to the axioms (18)–(23), with ⩽
+replaced by ⊢.
+
+2
+
+C*-ALGEBRAS AND GELFAND DUALITY IN A TOPOS
+
+21
+
+X
+
+→Z
+[63, §I.6], we note that the Gelfand transform
+and using the “λ-conversion rule” YY×X→Z
+may alternatively be regarded as a map
+
+ˆ· : Asa × O(RT ) → O(Σ).
+
+(27)
+
+Thus the use of the symbol a ∈ Asa in the internal language of T may be avoided in
+principle. In practice, however, we will often use the notation (25) or (26), and hence the
+formal symbols Da . For example, in the description (18)–(23) of the spectrum Σ in terms
+of generators and relations, it is sufficient to define the frame map (26) on basic opens
+(−∞, r) and (s, ∞) in RT . In the classical case (i.e. in Sets) discussed above, one has
+â−1 (0, ∞) = Da from (17), and this remains true in general if â−1 has the meaning (26).
+Using (18)–(21), one then finds
+â−1 : (−∞, s) 7→ Ds−a ;
+
+(28)
+
+(r, ∞) 7→ Da−r .
+
+(29)
+
+As â−1 is a frame map, for bounded open intervals (r, s) we therefore obtain5
+â−1 : (r, s) 7→ Ds−a ∧ Da−r .
+
+(30)
+
+We now recall an explicit construction of the Dedekind reals [39], [51, D4.7.4 & D4.7.5].
+Define the propositional geometric theory TR generated by formal symbols (p, q) ∈ Q × Q
+with p < q, ordered as (p, q) ⩽ (p′ , q ′ ) iff p′ ⩽ p and q ⩽ q ′ , subject to the following axioms
+(or relations):
+1. (p1 , q1 ) ∧ (p2 , q2 ) = (max{p1 , p2 }, min{q1 , q2 }) if max{p1 , p2 } < min{q1 , q2 }, and
+(p1 , q1 ) ∧ (p2 , q2 ) = ⊥ otherwise;
+W
+2. (p, q) = {(p′ , q ′ ) | p < p′ < q ′ < q};
+W
+3. ⊤ = {(p, q) | p < q};
+4. (p, q) = (p, q1 ) ∨ (p1 , q) if p ⩽ p1 ⩽ q1 ⩽ q.
+This theory may be interpreted in any topos T , defining an internal locale (TR )T ≡ RT
+with associated frame O(RT ). Points m of RT , i.e. frame maps m−1 : O(RT ) → ΩT ,
+correspond bijectively to Dedekind cuts (L, U ) of Q (cf. [63, p. 321]) in the following way:
+a model m determines a Dedekind cut by
+L = {p ∈ Q | m |= (p, ∞)};
+U
+
+= {q ∈ Q | m |= (−∞, q)},
+
+(31)
+(32)
+
+where (p, ∞)W
+and (−∞, q) are defined in terms W
+of the formal generators of the frame O(Q)
+by (p, ∞) = {(p, r) | p < r} and (−∞, q) = {(r, q) | r < q}. The notation m |= (p, q)
+used here means that m−1 (p, q) = ⊤, where ⊤ : 1 → ΩT is the truth element of ΩT and
+5
+
+Banaschewski and Mulvey [7] work with such intervals (r, s) as basic opens, in terms of which they
+write the Gelfand transform as â−1 : (r, s) 7→ a ∈ (r, s). Here the role of generators of the locale Σ is played
+by elementary propositions of the logical theory generating Σ as its Lindenbaum algebra, our generator
+Da corresponding to their proposition a ∈ (0, ∞). Classically, the proposition a ∈ (r, s) may be identified
+with the open a−1 (r, s) in the spectrum Σ; cf. Subsection 1.1.
+
+2
+
+C*-ALGEBRAS AND GELFAND DUALITY IN A TOPOS
+
+22
+
+(p, q) is seen as an arrow (p, q) : 1 → Q × Q → O(RT ). Conversely, a Dedekind cut (L, U )
+uniquely determines a point m that maps a generator I = (p, q) to m(I) = ⊤ iff I ∩ U 6= ∅
+and I ∩ L 6= ∅. The Dedekind reals Pt(RT ), then, are defined in any topos T as the
+subobject of P(QT ) × P(QT ) consisting of those (L, U ) that are points of RT [63].
+We mention four examples:
+1. In T = Sets, a point m of R ≡ RSets corresponds to a real x described in the usual
+calculus way, so that L = {p ∈ Q | p < x} and U = {q ∈ Q | x > q}. Hence Pt(R)
+may be identified with R in the usual sense, and R is spatial as a locale; its frame
+O(R) is just the usual topology of R [51, D4.7.4]. From this perspective, the first
+condition in the definition of TR enforces that L and U are lower and upper sections
+of Q, respectively, the second implies that they are open, and the third means that
+L and U are both inhabited. The fourth – Dedekind – relation says that L and U
+‘kiss’ each other.6
+2. If X is a topological space (or, more generally, a locale), the structure of the locale
+RSh(X) and its associated sheaf of Dedekind reals Pt(RSh(X) ) in the topos Sh(X) of
+sheaves on X follows from the argument above (16) in Subsection 1.7. First, the
+frame of of Dedekind reals is given by the sheaf
+O(R)Sh(X) : U 7→ O(U × R),
+
+(33)
+
+whereas the Dedekind real numbers object is the sheaf (See also [63])
+Pt(R)Sh(X) : U 7→ C(U, R).
+
+(34)
+
+3. Consequently, using (12) and (13) we infer that in our functor topos T (A) =
+SetsC(A) , the frame of Dedekind reals is the functor
+O(R) : C 7→ O((↑ C) × R);
+
+(35)
+
+the set on the right-hand side may be identified with the set of monotone functions
+from ↑ C to O(R).7
+Perhaps surprisingly, the associated functor of points Pt(R) may be identified with
+the constant functor
+Pt(R) : C 7→ R;
+(36)
+6
+The collection of L satisfying only the first three relations forms the locale of lower reals, which we
+denote by Rl . Locale maps to Rl are, classically, lower-semicontinuous real-valued functions. Analogously,
+there is a locale Ru of upper reals. See [51].
+7
+This identification proceeds in two steps. First, for any topological space X one has a bijection
+O(X) ∼
+= C(X, S), where S = {0, 1} carries the Sierpinski topology, see Subsection 1.4; explicitly, U ∈ O(X)
+is mapped to χU , whereas in the opposite direction g ∈ C(X, S) is sent to g −1 ({1}). Hence O(↑ C × R) ∼
+=
+C(↑ C × R, S) (with apologies for the double use of C, first for ‘continuous’ and second for C ∈ C(A)).
+Second, in general λ-conversion or ‘currying’ gives a bijection between functions Y × R → S and functions
+Y → S R ; with Y =↑ C equipped with the Alexandrov topology and C(R, S) ∼
+= O(R), continuity then
+translates into monotonicity.
+
+3
+
+THE INTERNAL C*-ALGEBRA AND ITS SPECTRUM
+
+23
+
+this follows from (34) and the fact that Alexandrov-continuous functions U → R (or,
+indeed, into any Hausdorff space) must be locally constant on any open U ⊆ C(A).8
+4. If Σ is the Gelfand spectrum of a commutative C*-algebra A in T , in the sheaf topos
+Sh(Σ) internal to T we similarly have
+Pt(R)Sh(Σ) : U 7→ C(U, R).
+
+(37)
+
+Here we identify the open U of Σ with its associated sublocale {V ∈ Σ | V ⩽ U } of
+Σ. This locale, as well as R, is to be interpreted in the ambient topos T as explained
+in the above items.
+Example 4 leads to an elegant reformulation of the isomorphism (24) given by the
+Gelfand theory: since
+C(Σ, R) = Γ(Pt(R)Sh(Σ) ),
+(38)
+where Γ is the global sections functor, one infers from (24) that
+Asa ∼
+= Γ(Pt(R)Sh(Σ) ).
+
+(39)
+
+In other words, the self-adjoint part of a unital commutative C*-algebra A in a topos is
+isomorphic to the global sections of the Dedekind reals in the internal topos of sheaves on
+its spectrum (and A itself “is” the complex numbers in the same sense).
+
+3
+
+The internal C*-algebra and its spectrum
+
+In this section we explain the association of a particular commutative C*-algebra A, which
+is internal to a certain functor topos T (A), to a (generally) noncommutative C*-algebra
+A. As mentioned in the Introduction, this construction is motivated by Bohr’s doctrine
+of classical concepts, so that we call A the Bohrification of A.
+
+3.1
+
+The topos associated to a C*-algebra
+
+We first construct the topos T (A) in which A resides and draw attention to the functoriality of the map A 7→ T (A). We denote the category of partially ordered sets and monotone
+functions by Poset.
+Proposition 2 There is a functor C : CStar → Poset, defined on objects as
+C(A) = {C ⊆ A | C ∈ cCStar},
+ordered by inclusion. On a morphism f : A → B of CStar, it acts as C(f ) : C(A) → C(B)
+by the direct image C 7→ f (C).
+8
+
+We take X = C(A), equipped with the Alexandrov topology, and prove that in this topology any
+f ∈ C(U, R) must be locally constant. Suppose C ⩽ D in U , take and V ⊆ R open with f (C) ∈ V . Then
+tautologically C ∈ f −1 (V ) and f −1 (V ) is open by continuity of f . But the smallest open set containing
+C is ↑ C, which contains D, so that f (D) ∈ V . Taking V = (f (C) − ǫ, ∞) gives f (D) > f (C) − ǫ for all
+ǫ > 0, whence f (D) ⩾ f (C), whereas V = (−∞, f (C) + ǫ) yields f (D) ⩽ f (C). Hence f (C) = f (D).
+
+3
+
+THE INTERNAL C*-ALGEBRA AND ITS SPECTRUM
+
+24
+
+As announced in (8) in the Introduction, the collection of functors C(A) → Sets forms a
+topos T (A) = SetsC(A) . This is the topos associated to A. We recall our convention to
+underline entities internal to T (A). The subobject classifier Ω in T (A) has already been
+given in (10).
+Recall that a geometric morphism f : S → T between topoi is a pair of adjoint functors,
+consisting of a direct image part f∗ : S → T and an inverse image part f ∗ : T → S, of
+which f ∗ is required to preserve finite limits. Denote the category of elementary topoi and
+geometric morphisms by Topos.9
+Proposition 3 There is a functor T : CStar → Topos, defined on objects by T (A) =
+SetsC(A) , the category of functors from C(A) to the ambient topos.
+This immediately follows from Theorem VII.2.2 in [63] (p. 359) and Proposition 2.
+To close this subsection, note that instead of initially regarding C(A) as a poset as
+in the main text, we could have considered it as a category from the start, having the
+same objects, but with (equivalence classes of) monomorphisms as arrows (instead of
+inclusions). The functor in Proposition 2 would then have the category Cat of categories
+as its codomain. This would still have allowed us to define the associated topos, and also
+the internal C*-algebra we will define below. From then on, most constructions will be
+within the associated topos, and hence go through as well.
+
+3.2
+
+Bohrification
+
+Whereas the previous subsection considered the topos T (A) associated to a C*-algebra A,
+this one is devoted to a particular object A in this topos. In fact, the definition of A is
+‘tautological’ in a literal sense.
+Definition 4 Let A be a C*-algebra in Sets. The functor A : C(A) → Sets is given on
+objects by
+A(C) = C,
+and on morphisms D ⊆ C of C(A) as the inclusion A(D) ֒→ A(C).
+Note that the functor A : C(A) → Sets factors through CStar or cCstar via the forgetful
+embedding of CStar or cCstar in the ambient topos Sets.
+Theorem 5 A is a commutative C*-algebra in T (A) under the operations inherited from
+A. More precisely, A is a vector space over the internal complex numbers Pt(C) (given
+simply by the constant functor Pt(C) : C 7→ C) by
+0: 1 → A
+
+0C (∗) = 0,
+
++: A × A → A
+
+a +C b = a + b,
+
+· : Pt(C) × A → A
+
+z ·C a = z · a,
+
+and an involutive algebra through
+· : A×A →A
+
+a ·C b = a · b,
+
+∗
+
+(a∗ )C = a∗ .
+
+(−) : A → A
+9
+
+We will not worry about the fact that Topos, like Poset and CStar, is a large category; when pressed
+one can limit these categories to a chosen universe to make them small.
+
+3
+
+THE INTERNAL C*-ALGEBRA AND ITS SPECTRUM
+
+25
+
+The norm relation is given by
+N : A × Q+ → Ω
+
+NC (a, q) iff kak < q.
+
+Proof One easily checks that the arrows are natural transformations (and hence morphisms in T (A)) and that this structure satisfies the requirements for A to be a pre-semiC*-algebra in T (A). Since each A(C) is a commutative C*-algebra in the ambient topos, A
+is commutative as well. (Alternatively, since the definition of a commutative pre-semi-C*algebra consists only of geometrically definable objects (e.g.CQ ) and geometric formulae
+(see Appendix A and Section 2), it follows from Lemma 21 that A is a commutative presemi-C*-algebra in T (A), because every A(C) is a commutative C*-algebra in the ambient
+topos.)
+In fact, A is a pre-C*-algebra, i.e. internally the semi-norm is a norm: if for all q > 0 we
+have (a, q) ∈ N , then a = 0. To prove this, we need to show that C ∀a∈Asa ∀q∈Q+ .(a, q) ∈
+N → a = 0, where we are using the internal language of T (A). In other words:
+for all C ′ ⊇ C and a ∈ C ′ , if C ′
+′
+
+∀q∈Q+ .(a, q) ∈ N, then C ′
+
+′
+
+′′
+
+a = 0,
+
+i.e. for all C ⊇ C and a ∈ C , if for all C ⊇ C and q ∈ Q we have C ′′
+then C
+′
+
+′
+
+′
+
++
+
+(a, q) ∈ N,
+
+a = 0,
+
+′
+
+i.e. for all C ⊇ C and a ∈ C , if kak = 0, then a = 0.
+But this holds, since every C ′ is a C*-algebra.
+Finally, A is in fact a C*-algebra, i.e. internally we have Cauchy completeness. By the
+axiom of dependent choice (which holds because T (A) is a functor topos whose codomain
+validates dependent choice [40]) it suffices to prove that every regular Cauchy sequence
+(i.e. a sequence (xn ) such that ||xn − xm || ⩽ 2−n + 2−m for all n, m) converges. Thus we
+need to prove
+C
+
+∀n,m.||xn − xm || ⩽ 2−n + 2−m → ∃x∈A .∀n .||x − xn || ⩽ 2−n ,
+
+i.e. for all C ′ ⊇ C, if C ′
+then C ′
+i.e. for all C ′ ⊇ C, if C ′
+
+(∀n,m .kxn − xm k ⩽ 2−n + 2−m ),
+∃x∈A .∀n .||x − xn || ⩽ 2−n ,
+“x is regular”, then C ′
+
+Once again, this holds because every C ′ is a C*-algebra.
+
+∃x∈A .∀n .kx − xn k ⩽ 2−n .
+
+
+The functor A is our internal C*-algebra. By changing the universe of discourse from
+the ambient topos Sets to T (A), the (generally) noncommutative C*-algebra A has become a commutative C*-algebra A. Multiplication of two non-commuting operators is no
+longer defined, since they live in different commutative subalgebras.10
+10
+
+Kochen and Specker refer to such a structure as a partial algebra [56] and stress its relevance for the
+foundations of quantum theory; in a partial algebra both addition and multiplication need only be defined
+for commuting operators.
+
+3
+
+THE INTERNAL C*-ALGEBRA AND ITS SPECTRUM
+
+3.3
+
+26
+
+The Kochen–Specker Theorem
+
+Combining the material in Sections 2 and 3 so far, we obtain a mapping A 7→ Σ(A),
+which associates a certain internal locale to a (generally) noncommutative C*-algebra.
+As argued in the Introduction, Σ(A) describes the quantum logic of the physical system
+whose algebra of observables is A.
+An important property of the internal spectrum Σ is that it may typically be highly
+non-spatial from an external point of view. First, recall (see Subsection 1.4) that a point
+of a locale X in a topos T is a frame map O(X) → Ω, where Ω is the subobject classifier
+in T .
+Theorem 6 Let H be a Hilbert space with dim(H) > 2 and let A be the C*-algebra of
+bounded operators on H. Then the locale Σ(A) has no points.
+Proof We reason internally. A point ρ : ∗ → Σ of the locale Σ (see Subsection 1.5) may
+be combined with a ∈ Asa with Gelfand transform â : Σ → R (see (25)), so as to produce
+a point â ◦ ρ : ∗ → R of the locale R. This yields a map V ρ : Asa → Pt(R), which can be
+shown to be an internal multiplicative functional; see [6, 7, 26].11 Being an arrow in T (A),
+the map V ρ is a natural transformation, with components V ρ (C) : Asa (C) → Pt(R)(C);
+by Definition 4 and (36), this is just V ρ (C) : Csa → R. Hence one has a multiplicative
+functional V ρ (C) for each C ∈ C(A) in the usual sense, with the property (which follows
+from naturality) that if C ⊆ D, then the restriction of V ρ (D) to Csa coincides with V ρ (C).
+But this is precisely a valuation12 on B(H), whose nonexistence was proved by Kochen
+and Specker [56].
+
+This is a localic reformulation of the original topos-theoretic version of the KochenSpecker theorem due to Butterfield and Isham [20]. As in their work, the proof relies
+on the original version, but in being a statement about the lack of models of a certain
+theory, our reformulation has a logical thrust that both the original version by Kochen
+and Specker and the reformulation by Butterfield and Isham lack.
+The theorem certainly holds for more general C*-algebras than just the collection of
+all bounded operators on a Hilbert space; see [31] and [46] for results on von Neumann
+algebras. For C*-algebras, one has the result that a simple infinite unital C*-algebra
+does not admit a dispersion-free quasi-state [44]. Evidently, Theorem 6 holds for such
+extensions as well.
+One way of looking at such results is to see them as illustrations of the failure of the
+Krein-Milman theorem in a constructive context [68]. Indeed, recall that the classical
+Krein-Milman theorem states that a compact convex set is the closed convex hull of its
+extreme points. The state space of A is still a compact convex set in an appropriate localic
+sense (see Section 4), and the pure states on A would be its extreme boundary. These
+points, however, fail to exist, as we have just seen.
+11
+
+This map may explicitly be given in the internal language of T (A), by noting that for each a ∈ Asa
+the expression ρ̃(a) = (Lρ,a , Uρ,a ) = ({r ∈ Q | ρ |= Da−r }, {s ∈ Q | ρ |= Ds−a }) is a Dedekind cut in T (A).
+12
+This terminology is to be distinguished from the one used in Subsection 4.2 below. The naturality
+property just mentioned is often called noncontextuality in the philosophy of physics literature.
+
+4
+
+(QUASI-)STATES AS INTEGRALS
+
+4
+
+27
+
+(Quasi-)states as integrals
+
+This section about states, and the next one about observables, are both concerned with
+connections between the two levels we have developed (see Figure 1):
+1. the ambient topos Sets, containing the C*-algebra A;
+2. the associated topos T (A), containing the internal commutative C*-algebra A and
+its spectrum Σ.
+The main result of this section is Theorem 14, which gives an isomorphism between quasistates on A at level 1 and, at level 2, either probability integrals on Asa , or, equivalently,
+probability valuations on the Gelfand spectrum Σ. Subsequently, we show that probability
+valuations define subobjects of Σ, as in classical physics.
+All this requires some preparation, firstly in the theory of quasi-states on C*-algebras
+(Subsection 4.1) and secondly in abstract constructive integration theory (Subsection 4.2).
+
+4.1
+
+States and quasi-states
+
+A linear functional ρ : A → C on a C*-algebra A is called positive when ρ(a∗ a) ≥ 0 for
+all a ∈ A. It is a state when it is positive and satisfies ρ(1) = 1. A state ρ is pure when
+ρ = tσ + (1 − t)ω for some t ∈ (0, 1) and some states σ and ω implies ω = σ. Otherwise, it
+is called mixed. For example, if A ⊆ B(H) for some Hilbert space H (which we may always
+assume by the Gelfand–Naimark Theorem), then each unit vector Ψ ∈ H defines a state ψ
+on A by ψ(a) = (Ψ, aΨ). If A = B(H), such states are pure. (If H is infinite-dimensional,
+not all pure state arise in this
+P way, though.) Mixed states ρ on B(H) arise from countable
+sequences (pi ), 0P
+⩽ pi ⩽ 1, i pi = 1, coupled with an orthonormal family of vectors (Ψi ),
+through ρ(a) = i pi ψi (a). (By the spectral theorem, one may equivalently say that such
+states are given by positive operators ρ̂ on H with unit trace, through ρ(a) = Tr (ρ̂a).) A
+state ρ : A → C is called faithful when ρ(a∗ a) = 0 implies a = 0. For example, if, in the
+situation just described, the Ψi comprise an orthonormal basis of H and each pi > 0, then
+the associated state ρ is faithful. The states of a C*-algebra form a compact convex set,
+the extremal points of which are by definition the pure states. States are automatically
+hermitian, in the sense that ρ(a∗ ) = ρ(a), or equivalently, ρ(a) ∈ R for self-adjoint a.
+In algebraic quantum physics, mathematical states as defined above are often used to
+model the physical states of the quantum system. However, when taking Bohr’s doctrine
+of classical concepts seriously, one should take into account that two observables can only
+be added in a physically meaningful way when they are jointly measurable, i.e. when
+the corresponding operators commute. Thus one may relax the definition of a quantum
+state, which ought to be linear only on commutative parts. This leads to the notion of a
+quasi-state [1]:13
+13
+
+Axiom VII of Mackey’s foundation of quantum mechanics [64] states that a measure on the projections
+of a von Neumann algebra extends to a state on the von Neumann algebra. Mackey stresses that, in contrast
+to his other axioms, Axiom VII does not have a physical justification. One can prove that a measure extends
+to a quasi-state, so one is led to ask whether every quasi-state is a state. This is not the case when the
+von Neumann algebra has a summand of type I2 , but it holds for all other von Neumann algebras [15].
+For C*-algebras the question is more difficult. The main result seems to be the following [16]. Consider a
+C*-algebra with no quotient isomorphic to M2 (C) and let ρ be a quasi-linear functional. Then ρ is linear
+iff ρ restricted to the unit ball is uniformly weakly continuous.
+
+4
+
+(QUASI-)STATES AS INTEGRALS
+
+28
+
+Definition 7 A quasi-linear functional on a C*-algebra A is a map ρ : A → C that is
+linear on all commutative subalgebras and satisfies ρ(a + ib) = ρ(a) + iρ(b) for all selfadjoint a, b ∈ A (possibly non-commuting). It is called positive when ρ(a∗ a) ≥ 0 for all
+a ∈ A. When A is unital, a positive quasi-linear functional is called a quasi-state when
+ρ(1) = 1.
+This kind of quasi-linearity also determines when some property P of the C*-algebra
+A descends to a corresponding property P of the internal C*-algebra A, as the following
+lemma shows. To be precise, for P ⊆ A, define a subfunctor of A by P (C) = P ∩ C. Let
+us call a property P ⊆ A quasi-linear when a ∈ P and b ∈ P imply µa + iλb ∈ P for all
+µ, λ ∈ R and a, b ∈ Asa .
+Lemma 8 Let A be a C*-algebra, and let P ⊆ A be a quasi-linear property. Then P = A
+if and only if P = A.
+Proof One implication is trivial; for the other, suppose that P = A. For a ∈ A, denote by
+C ∗ (a) the sub-C*-algebra generated by a. When a is self-adjoint, C ∗ (a) is commutative.
+So Asa ⊆ P , whence by quasi-linearity of P and the unique decomposition of elements in
+a real and imaginary part, we have A ⊆ P .
+
+
+4.2
+
+Algebraic integration theory
+
+The well-known correspondence between states on commutative C*-algebras A and probability measures on the underlying Gelfand spectrum Σ is an immediate consequence of
+the Gelfand isomorphism A ∼
+= C(Σ, C) and the Riesz-Markov representation theorem in
+measure theory. In the present topos-theoretical setting, it turns out to be more natural
+to work with integrals and valuations rather than measures. Recall the a priori difference
+between these three concepts:
+• measures are defined on Borel subsets of some space X;
+• valuations are defined only on the open subsets of X;
+• integrals are positive linear functionals on the (ordered) vector space Cc (X, R).
+Classically, if X is locally compact Hausdorff and the measures in question are suitably
+regular, there are isomorphisms between these notions. From a constructive point of view,
+however, there is a subtle difference between valuations and integrals.14 In any case,
+the fundamental role locales play in this paper as the Gelfand spectra of the internal
+C*-algebras A makes it quite natural to assign probabilities to opens (rather than Borel
+subsets) of the spectrum.
+14
+
+The integral I(f ) of a function f ∈ C(X) is a Dedekind real, so that it can be approximated by
+rationals. This may not be the case for the valuation µ(U ) of an open U , as the ‘kissing’ property (if r < s
+then µ(U ) < s or r < µ(U )) may fail. Accordingly, µ(U ) is only a lower real, and can be thought of as
+a predicate r < µ(U ) on the rationals. This predicate is downward closed: if r < µ(U ) and s ⩽ r, then
+s < µ(U ). But in general, given ε > 0 one cannot approximate µ(U ) up to ε with rationals. Given an
+integral I, we can define a corresponding valuation µI (U ) by taking the sup of I(f ) over all 0 ⩽ f ⩽ 1
+with support in U . It is remarkable that for any valuation µ one can conversely find a (unique) integral
+I such that
+R µ = µI . So despite the fact that one may not be able to compute µ(U ), it is still possible to
+compute f dµ as a Dedekind real, which a priori is only a lower real.
+
+4
+
+(QUASI-)STATES AS INTEGRALS
+
+29
+
+The following string of definitions gives an abstract (and constructive) version of integration theory based on ordered vector spaces, abstracting from the Riemann, Lebesgue
+and Daniell integrals [29, 30, 75]. Several axiomatizations are possible, of which the one
+in terms of so-called f-algebras is the most convenient for our purposes.
+Definition 9 A Riesz space or vector lattice is a partially ordered vector space (R, ⩽) over
+R (i.e. a real vector space R with partial ordering ⩽ such that f ⩽ g implies f + h ⩽ g + h
+for all h and f ≥ 0 implies rf ≥ 0 for all r ∈ R+ ) that is a distributive lattice with respect
+to its partial order [62, Definition 11.1].
+An f-algebra is a commutative, unital, real algebra R whose underlying vector space
+is a Riesz space in which f, g ≥ 0 implies f g ≥ 0, and f ∧ g = 0 implies hf ∧ g = 0 for
+all h ≥ 0. Moreover, the multiplicative unit 1 has to be strong in the sense that for each
+f ∈ R there exists a natural number n such that −n1 ⩽ f ⩽ n1 [82, Definition 140.8].
+Note that although f-algebras are a priori defined over the real numbers, they can a fortiori
+be defined over Q as well.
+The self-adjoint part of any commutative C*-algebra A is an example of an f-algebra
+by defining a ⩽ b in the usual way (i.e.iff ∃c∈A [b − a = c∗ c]); one has f ∨ g = max{f, g}
+and f ∧ g = min{f, g}. Conversely, by the Stone-Yosida representation theorem every
+f-algebra can be densely embedded in a space of real continuous functions on a compact
+space.
+Definition 10 An integral on an ordered vector space R is a linear functional I : R → R
+that is positive, i.e. if f ≥ 0 then also I(f ) ≥ 0. If R has a strong unit 1 ( e.g., the
+multiplicative unit in the case of f-algebras), then an integral I satisfying I(1) = 1 is called
+a probability integral. An integral is faithful when its kernel is {0}, i.e., when I(f ) = 0
+and f ≥ 0 imply f = 0.
+Except in the degenerate case I(1) = 0, any integral can obviously be normalised to
+a probability integral. The prime example of an integral is the Riemann or Lebesgue
+integral on the ordered vector space C[0, 1]. More generally, any positive linear functional
+on a commutative C*-algebra provides an example, states yielding probability integrals.
+We wish to use a certain generalization of the Riesz-Markov theorem that can be
+proved constructively [29] and hence can be used within our topos T (A). This requires a
+localic reformulation of Definition 9, as well as a similar approach to valuations.
+Let R be an f-algebra (in Sets, for the moment). In defining the following frame it is
+technically convenient to define R as a vector space over Q. Define Integral(R) as the
+distributive lattice freely generated by Pf , f ∈ R, subject to the relations
+P1 = ⊤,
+Pf ∧ P−f = ⊥,
+Pf +g ⩽ Pf ∨ Pg ,
+Pf = ⊥
+
+(for f ⩽ 0).
+
+This lattice generates a frame O(I(R)) by adding the regularity condition
+_
+P(f ) =
+P(f − q)
+Q∋q>0
+
+(40)
+
+4
+
+(QUASI-)STATES AS INTEGRALS
+
+30
+
+to the relations above, just like (23) in the case of the spectrum. It can be shown (cf.
+(17)) that
+Pf = {ρ : R → R | ρ(f ) > 0},
+(41)
+where each ρ is understood to be a positive linear functional. Models of this theory, i.e.
+points of the associated locale, precisely correspond to probability integrals on R; if I is
+such an integral, the associated model mI is given by mI (Pf ) = 1 iff I(f ) > 0. Conversely,
+a model m defines an integral Im by (compare with the proof of Theorem 6)
+Im (f ) := ({p | m |= Pf −p }, {q | m |= Pq−f }),
+where the right-hand side is seen to be a Dedekind real from the relations on P• . All this
+may be internalized to any topos, where, of course, there is no a priori guarantee that
+points of the locale with frame O(I(R)) exist (and hence that expressions like (41) make
+good sense).
+The final ingredient of the constructive Riesz-Markov theorem is the definition of a
+locale of valuations. These were studied in [45] and [81].
+Definition 11 A probability valuation on a locale X is a monotone map µ : O(X) →
+[0, 1]l that satisfies the usual additivityWand regularity
+W conditions for measures, i.e. µ(U ) +
+µ(V ) = µ(U ∧ V ) + µ(U ∨ V ) and µ( λ Uλ ) = λ µ(Uλ ) for any directed family. (Here,
+[0, 1]l is the collection of lower reals between 0 and 1.)
+Like integrals, probability valuations on X organize themselves in a locale V(X).
+The generalized Riesz-Markov Theorem, then, is as follows.
+Theorem 12 [29] Let R be an f-algebra and let Σ be its spectrum.15 Then the locales
+I(R) and V(Σ) are isomorphic. To obtain an integral from a valuation we define:
+P
+P
+Iµ f := (sup(si ) si µ(si < f < si+1 ), inf (si ) si+1 (1 − µ(si > f ) − µ(f > si+1 )),
+where (s < f ) is a notation for Df −s and (s < f < t) denotes Df −s ∧ Dt−f and si is a
+partition of [a, b] such that a ⩽ f ⩽ b. Conversely, to obtain a valuation from an integral
+I we define:
+
+µI (Da ) := sup I(na+ ∧ 1)|n ∈ N .
+Note that both locales in question are compact regular [29]. Logically speaking, the
+theorem follows from the existence of a bi-interpretation between the geometric theories
+Integral(R) and Valuation(Σ) (i.e. there are interpretation maps in two directions which
+are each other’s inverses) and the equivalence of the category of propositional geometric
+theories with interpretations to the category of frames.
+
+4.3
+
+From states on A to subobjects of O(Σ)
+
+We return to our main topic. Since everything in this section so far may be interpreted in
+the internal language of a topos and the proof of Theorem 12 is constructive, we have:
+15
+
+See [26] for the notion of the spectrum of an f-algebra, which is described exactly as in Subsection
+2.2. If the f-algebra is the self-adjoint part of a commutative C*-algebra, then its spectrum as an f-algebra
+coincides with its spectrum as a C*-algebra.
+
+4
+
+(QUASI-)STATES AS INTEGRALS
+
+31
+
+Corollary 13 Let A be a C*-algebra with Bohrification A and associated Gelfand spectrum Σ in the topos T (A). Then the locale I(A) of probability integrals on Asa is homeomorphic to the locale V(Σ) of probability valuations on Σ.
+As announced at the beginning of this section, the next theorem crosses two levels of
+Figure 1.
+Theorem 14 There is a bijective correspondence between quasi-states on A and either
+probability integrals on Asa , or, equivalently, probability valuations on its Gelfand spectrum
+Σ.
+This theorem may actually be extended to a correspondence between (faithful) positive
+quasi-linear functionals on A and (faithful) integrals on A, etc.
+Proof Every positive quasi-linear functional ρ gives a natural transformation Iρ : Asa → R
+if we define its components (Iρ )C : Csa → R to be ρ|Csa (i.e. the restriction of ρ to
+Csa ⊆ Asa ).
+Conversely, let I : Asa → R be an integral. Define ρ : Asa → R by
+ρ(a) = IC ∗ (a) (a).
+For commuting a, b ∈ Asa ,
+ρ(a + b) = IC ∗ (a+b) (a + b)
+= IC ∗ (a,b) (a + b)
+= IC ∗ (a,b) (a) + IC ∗ (a,b) (b)
+= IC ∗ (a) (a) + IC ∗ (b) (b)
+= ρ(a) + ρ(b),
+because I is a natural transformation, C ∗ (a) ∪ C ∗ (b) ⊆ C ∗ (a, b) ⊇ C ∗ (a + b), and I is
+locally linear. Moreover, ρ is positive because I is locally positive (see Lemma 8). Hence
+we have defined ρ on Asa and may extend it to A by complex linearity. It is clear that the
+two maps I 7→ ρ and ρ 7→ I and are inverses of each other and that if I is a probability
+integral, then ρ is a quasi-state, and vice versa.
+
+In the Introduction, we have seen that in the classical case a (pure) state ρ defines a
+subobject [ρ] of the frame of opens of the classical phase space; see (3). As we shall
+now show, this remains true, mutatis mutandis, in the quantum case. The main technical
+difficulty is to adapt the condition δρ (V ) = 1 in (3).
+Theorem 14 yields a bijective correspondence between quasi-states ρ on A and probability valuations µρ on Σ. Fix a state, or quasi-state, ρ on A. The logical formula
+µρ (−) = 1 (of the Mitchell-Bénabou language of T (A)) is a predicate on O(Σ) and hence
+defines a subobject [ρ] of O(Σ) with characteristic arrow χ[ρ] : O(Σ) → Ω. This arrow is
+just the interpretation of µρ (−) = 1, i.e.
+χ[ρ] = Jµρ (−) = 1K.
+
+(42)
+
+Compare with (3); beyond mimicking the notation, we see that we have been able to
+transfer the classical description of states to the quantum situation in every respect.
+
+5
+
+OBSERVABLES AND PROPOSITIONS
+
+5
+
+32
+
+Observables and propositions
+
+In this section and the next we give the details of steps 2 to 5 of our five-step program
+for spatial quantum logic; cf. Subsections 1.2 and 1.6. We start with the locale map
+δ(a) : Σ → IR, then turn to the description of elementary propositions a ∈ ∆ as opens in
+the spectrum Σ, and finally consider the pairing of states and propositions to arrive at a
+suitable notion of (multi-valued) truth in quantum theory.
+
+5.1
+
+Interval domain
+
+For a commutative unital C*-algebra A with Gelfand spectrum Σ in Sets, the Gelfand
+transform of a ∈ Asa is a continuous function â : Σ → R. Equivalently, it is a locale map
+(25). As we have seen in Subsection 2.3, mutatis mutandis the description (25) still applies
+when A is a commutative unital C*-algebra A with Gelfand spectrum Σ in a topos T . In
+particular, one has the Gelfand transform
+â : Σ → R
+
+(a ∈ Asa ).
+
+(43)
+
+Our problem, however, is to express an element a ∈ Asa of a noncommutative C*-algebra
+A in Sets in terms of some locale map δ(a) defined on the spectrum Σ of the Bohrification
+A of A in T (A). As we shall see, this problem can be solved if we introduce some fuzziness,
+in that δ(a) no longer takes values in the internal Dedekind reals R in T (A), like â, but
+in the so-called interval domain IR, internalized in T (A) as IR. Thus, apart from (43) we
+are dealing with a second locale map
+δ(a) : Σ → IR
+
+(a ∈ Asa ).
+
+(44)
+
+In honour of Döring and Isham, we refer to δ(a) as the Daseinisation of a (although our
+map differs from theirs, cf. Appendix B).
+We have already encountered Scott’s interval domain IR in Subsection 1.8 as the
+poset of compact intervals in R, ordered by inverse inclusion. Like the Dedekind real
+numbers, the interval domain is easily internalized and hence definable in any topos. In
+fact, the construction of the Dedekind real numbers in Subsection 2.3 only requires a
+single modification so as to obtain the interval domain: the corresponding frame O(IR) is
+defined by the very same generators (p, q) and relations as O(R), except that the fourth
+relation (i.e. (p, q) = (p, q1 ) ∨ (p1 , q) if p ⩽ p1 ⩽ q1 ⩽ q) is dropped. The models of
+O(IR) or points of the associated locale IR again correspond to pairs (L, U ) given by (31)
+and (32), but this time such a pair may fail to define a Dedekind cut; axiomatically, only
+the ‘kissing’ requirement no longer holds. In any topos T , we denote the locale defined
+by the geometric propositional theory given by the first three axioms in the list following
+(30) in Subsection 2.3 — interpreted in T — by O(IR)T , with the usual special case
+IR ≡ IRT (A) . Similarly, the subobject of P(Q) × P(Q) consisting of models of O(IR)T is
+denoted by Pt(IR)T , with Pt(IR)T (A) ≡ Pt(IR).
+The examples in Subsection 2.3 now read as follows:
+1. In Sets (or, more generally, when classical logic applies in T ), a cut (L, U ) defines a
+compact interval [sup L, inf U ] (where sup and inf are taken in R), so that Pt(IR) may
+be identified with the classical Scott interval domain IR. In that case, a generator
+
+5
+
+OBSERVABLES AND PROPOSITIONS
+
+33
+
+(p, q) ∈ O(IR) may be identified with the Scott open in IR that contains all intervals
+[a, b] such that p < a ⩽ b < q.
+2. In a topos Sh(X) of sheaves one has
+O(R)Sh(X) : U 7→ O(U × IR),
+
+(45)
+
+but its points are not as easily described as (34); instead, one has
+Pt(IR) : U 7→ {(f, g) | f, g : U → R | f ⩽ g, f lower-semicont., g upper-semicont.}.
+(46)
+This follows by carefully adapting the proof of [63, Theorem VI.8.2] for R.
+3. In particular, for T (A) = SetsC(A) , one has
+O(IR) : C 7→ O((↑ C) × IR),
+
+(47)
+
+which may be identified with the set of monotone functions from ↑ C to O(IR).16
+The object Pt(IR) will not be used in this paper.17
+
+5.2
+
+Daseinisation
+
+After this preparation, we turn to the Daseinisation (44), or rather to the corresponding
+frame map
+(48)
+δ(a)−1 : O(IR) → O(Σ).
+A complete description of this map, based on the technique of generating (semi)lattices
+for frames, may be found in Appendix A.2. Here, we just look at the special case
+(1
+
+δ(a)−1 (r,s)
+
+(r,s)
+
+−1
+
+/ O(Σ)) = (1 −→ O(IR) δ(a)
+−→ O(Σ)),
+
+(49)
+
+where the arrow (r, s) : 1 → O(IR) maps into the monotone function with constant value
+↓ (r, s).18 We may even simplify (49) even further by localizing it at C · 1; this, however,
+entails no loss of generality, for O(Σ)(C · 1) is the frame in Sets that (together with the
+frame map (88)) provides the external description of the internal locale Σ in T (A) (see
+Subsection 1.7 and Appendix A.2).
+The quantity δ(a)−1 (r, s)(C · 1) is a global element U of O(Σ)(C · 1) as described by
+Theorem 29 in the Appendix. Briefly, this theorem states that O(Σ)(C · 1) may be seen
+as the set of all subfunctors U of the functor C 7→ LC that satisfy a certain regularity
+condition, where LC is the distributive lattice freely generated by the formal symbols Dc ,
+c ∈ Csa subject to the relations (18)–(22) (simply interpreted in Sets).19 Abbreviating
+δ(a)−1 (r, s) = δ(a)−1 (r, s)(C · 1),
+16
+
+(50)
+
+The argument is the same as for R, see footnote 7.
+For completeness, we mention that Pt(IR)(C) is the set of all pairs (L, U ), where L and U are subfunctors of the constant functor Q, truncated to ↑ C ⊂ C(A), such that for all D ⊇ C, (L(D), U (D)) is a
+pair of the form (31)–(32).
+18
+Here (r, s) is seen as an element of the generating semilattice Q ×< Q, whereas ↓ (r, s) is its image in
+the frame O(IR) through the canonical map (67); see the Appendix.
+19
+See Appendix A.1 for a detailed description of the functor C 7→ LC .
+17
+
+5
+
+OBSERVABLES AND PROPOSITIONS
+
+34
+
+the ensuing element δ(a)−1 (r, s) of O(Σ)(C · 1) turns out to be the functor
+δ(a)−1 (r, s) : C 7→ {Df −r ∧ Ds−g | f, g ∈ Csa , f ⩽ a ⩽ g}.
+
+(51)
+
+This follows from (106) and the definition of δ(a)−1 in Appendix A.2, combined with the
+equality
+[
+{Df −p ∧Dq−g | f, g ∈ Csa , f ⩽ a ⩽ g} = {Df −r ∧Ds−g | f, g ∈ Csa , f ⩽ a ⩽ g}.
+{p<q|(p,q)⊆(r,s)}
+
+An alternative description of δ(a)−1 is as follows. For fixed a ∈ Asa , define functors
+La ∈ T (A) and Ua ∈ T (A) by
+La (C) = {f ∈ Csa | f ⩽ a};
+Ua (C) = {g ∈ Csa | a ⩽ g}.
+
+(52)
+
+Each of these defines a subobject of Asa . In fact, the pair (La , Ua ) is a directed subobject
+of Asa × Aop
+sa . Now take a generator (r, s) of O(IR), and write (r, s) = (−∞, s) ∧ (r, ∞).
+The Gelfand transform (27) defines subobjects ˆ·(La , (r, ∞)) and ˆ·(Ua , (−∞, s)) of O(Σ).
+We then put
+_
+(53)
+δ(a)−1 : (r, s) 7→ ˆ·(La , (r, ∞)) ∧ ˆ·(Ua , (−∞, s)).
+Using (28) and (29), this gives20
+δ(a)−1 (r, s) =
+
+_
+
+Df −r ∧ Ds−g .
+
+(54)
+
+f ∈La ,g∈Ua
+
+To illustrate what is going on, it is helpful to compute the right-hand side of (51) or
+(54) in Sets for A = C = C(Σ, C). In that case the meaning of Da is given by (17), so
+that with ρ(f ) = f (ρ) one finds Df −r = {ρ ∈ Σ | f (ρ) > r} and Ds−g = {ρ ∈ Σ | g(ρ) < s}.
+One then obtains (with ∧ for ‘and’)
+[
+{ρ ∈ Σ | f (ρ) > r ∧ g(ρ) < s}
+δ(a)−1
+A (r, s) =
+f,g∈Csa ,f ⩽a⩽g
+
+= {ρ ∈ Σ | ∃f ⩽a [f (ρ) > r ∧ f (ρ) < s] ∧ ∃g≥a [g(ρ) > r ∧ g(ρ) < s]}
+= {ρ ∈ Σ | r < a(ρ) < s}
+= a−1 (r, s).
+
+(55)
+
+To close this subsection, we note the following.
+Proposition 15 The map δ : Asa → C(Σ, IR) is injective, and a ⩽ b iff δ(a) ⩽ δ(b).
+Proof Suppose that δ(a) = δ(b). Then for all C ∈ C(A), the sets La (C) = {f ∈ Csa |
+f ⩽ a} and Ua (C) = {g ∈ Csa | a ⩽ g} must coincide with Lb (C) and Ub (C), respectively.
+Imposing these equalities at C = C ∗ (a) and at C = C ∗ (b) yields a = b. The order in
+Asa is clearly preserved by δ, whereas the converse implication can be shown by the same
+method as the first claim of the proposition.
+
+20
+
+Using a generic point σ, we may even define
+δ(a)(σ) := (sup σ(La ), inf σ(Ua )).
+
+Analoguously, one can view δ(a) as an interpretation of the geometric theory Σ in the geometric theory of
+the intervals; see [29].
+
+6
+
+STATE-PROPOSITION PAIRING
+
+5.3
+
+35
+
+Propositions
+
+It immediately follows from the existence of the Daseinisation map (48) (see Subsection
+5.2 and Appendix A.2) that, as in the classical case, elementary propositions a ∈ ∆ define
+opens in phase space. For an open in the ‘quantum phase space’ Σ is simply defined as a
+global element 1 → O(Σ) (cf. Subsection 1.4)), so that given an observable a ∈ Asa and a
+Scott open ∆ ∈ O(IR), we may combine the corresponding arrows δ(a)−1 : O(IR) → O(Σ)
+and ∆ : 1 → O(IR) into
+(1
+
+[a∈∆]
+
+/ O(Σ))
+
+=
+
+(1
+
+∆
+
+/ O(IR)
+
+δ(a)−1
+
+/ O(Σ)).
+
+(56)
+
+This generalises (49); in particular, ∆ : 1 → O(IR) is defined at C as the monotone
+function ↑ C → O(IR) taking constant value ∆. In other words,
+[a ∈ ∆] = δ(a)−1 ◦ ∆.
+
+6
+
+(57)
+
+State-proposition pairing
+
+In Subsection 4.3 we have shown how a state ρ on A gives rise to a subobject [ρ] of O(Σ)
+χ[ρ]
+
+/ Ω related to the
+defined by the predicate µρ (−) = 1, and hence to an arrow O(Σ)
+predicate in question by (42).
+Also, we have just seen the description (56) of propositions a ∈ ∆ as opens in Σ. Hence
+we can pair a physical state ρ and a physical proposition a ∈ ∆ by composition, to end up
+with a ‘truth value’ ha ∈ ∆, ρi in the subobject classifier Ω of T (A). Explicitly, one has
+
+1
+
+ha∈∆,ρi
+
+/Ω
+
+=
+
+1
+
+[a∈∆]
+
+/ O(Σ)
+
+χ[ρ]
+
+/ Ω,
+
+(58)
+
+or
+ha ∈ ∆, ρi = χ[ρ] ◦ δ(a)−1 ◦ ∆.
+
+(59)
+
+In what follows, we need the basic definitions of Kripke-Joyal semantics. If ϕ is some
+formula interpreted in a topos T as an arrow JϕK : F → Ω, and α : B → F is any arrow in
+T (defining a ‘generalized element’ of F ), then the notation B ϕ(α), or, less precisely,
+α
+
+JϕK
+
+B ϕ (for ‘B forces ϕ’) means that the composite arrow B → F −→ Ω factors through
+⊤ : 1 → Ω. In a functor topos SetsC , where C is some category, the notation C ϕ for
+some C ∈ C is shorthand for y(C) ϕ, where y(C) : D 7→ HomC (D, C) is the Yoneda
+functor. In our case T = T (A), the interpretation JϕK is a natural transformation F → Ω,
+given by its components JϕK(C) : F (C) → Ω(C), where C ∈ C(A). In that case the forcing
+condition C
+ϕ turns out to be equivalent to JϕK(C)(F (C)) = ⊤C , where ⊤C is the
+maximal upper set on C.
+Using the Kripke-Joyal semantics of T (A), we now explicitly compute the stateproposition pairing in case that ∆ = (r, s) is a rational interval. The computation is
+straightforward when using generating lattices (see Appendix). From here on, ρ is a fixed
+state on A and we abbreviate µρ by µ. For D ∈ C(A),
+(58)
+
+(ha ∈ (r, s), ρi)D (∗) = (χ[ρ] ◦ [a ∈ (r, s)])D (∗)
+(57),(42)
+
+=
+
+Jµ(δ(a)−1 (r, s)) = 1K(D).
+
+6
+
+STATE-PROPOSITION PAIRING
+
+36
+
+Being a global element 1 → Ω of the subobject classifier Ω of T (A), the right-hand side is
+an element of the set Ω(D), and hence an upper set on D. With slight abuse of notation,
+we simply call the latter ha ∈ (r, s), ρi(D). It follows that
+ha ∈ (r, s), ρi(D) = {C ∈ C(A) | C ⊇ D, C
+
+µ(δ(a)−1 (r, s)) = 1},
+
+(60)
+
+where µ ◦ δ(a)−1 (−) = 1 is the obvious predicate on O(IR) defined by µ(−) = 1 on O(Σ)
+and the Daseinisation map (48). Since ha ∈ (r, s), ρi(D) is the truncation to ↑ D of the
+corresponding upper set at C · 1, we may use (51) or (54), from which we see that the
+forcing condition C µ(δ(a)−1 (r, s)) = 1 is equivalent to
+
+
+_
+µC 
+Df −r ∧ Ds−g  = 1.
+f ⩽a⩽g, f,g∈Csa
+
+Here µC is the valuation defined as µρ , but with ρ restricted to C. Similarly, Df −r refers
+to an open in the spectrum of C (cf. Theorem 20, according to which the Da with a ∈ Csa
+may be seen as generators of the spectrum of C). Since the measure of the intersection of
+two opens equals one if the measures of both opens do, this means (for f, g ∈ Csa )
+
+ 
+
+_
+_
+µC 
+Ds−g  = 1,
+Df −r  ∧ 
+g≥a
+
+f ⩽a
+
+which happens if and only if
+
+
+
+
+_
+_
+µC 
+Df −r  = 1 and µC 
+Ds−g  = 1.
+g≥a
+
+f ⩽a
+
+The left conjunct means
+∀n∈N ∃f ∈Csa , f ⩽a [µC (Df −r ) > 1 −
+
+1
+],
+n
+
+(61)
+
+since T (A) is a functor topos and hence the quantifiers above are interpreted locally. The
+construction of µρ from ρ (see Section 4) implies
+µC (Dh ) = lim ρ((mh+ ) ∧ 1),
+m→∞
+
+where the limit is a lower real. In W
+other words, µC (Dh ) > q iff there exists m in N such
+that ρ((mh+ ) ∧ 1) > q. So C µρ ( f ⩽a Df −r ) = 1 means that for each n ∈ N there exists
+f ∈ C with f ⩽ a and µC (Df −r ) > 1 − n1 .
+Hence at the end of the day the state-proposition pairing ha ∈ (r, s), ρi explicitly yields
+the upper set at D given by
+ha ∈ (r, s), ρi(D) =
+
+
+
+C ∈ C(A) | C ⊇ D, µC 
+
+
+(62)
+_
+
+f ⩽a,f ∈Csa
+
+
+
+
+
+Df −r  = 1 and µC 
+
+_
+
+a⩽g,g∈Csa
+
+
+
+Ds−g  = 1 .
+
+
+
+A
+
+GENERATING LATTICES FOR FRAMES
+
+37
+
+This formula can be put in a slightly more palpable form when A and each C ∈ C(A)
+are von Neumann algebras (in the ambient topos Sets). In that case, it can be shown
+[46] that the open Df −r in the spectrum corresponds to a projection operator [Df −r ], to
+which we can directly
+apply the state ρ. Moreover, unlike for general C*-algebras, the
+W
+supremum P = {[Df −r ] | f ⩽ a, f ∈ CsaW
+} exists. One then simply has µC (P ) = 1 when
+ρ(P ) = 1. Similarly, the projection Q = {[Ds−g ] | a ⩽ g, g ∈ Csa } exists and µC (Q) = 1
+when ρ(Q) = 1.
+To close, we remark that one might consider a proposition µρ (−) > p, for some rational
+number p, instead of the proposition µρ (−) = 1 as in this paper. This would simplify the
+computations above slightly. For instance, (61) would become
+∃f ∈Csa , f ⩽a [µC (Df −r ) > p].
+This eliminates a universal quantification, but otherwise the computations would continue
+mutatis mutandis as before.
+
+A
+
+Generating lattices for frames
+
+At various places in this article we refer to a presentation of a frame (or locale) by a generating lattice with a covering relation. This technique has been developed in the context
+of formal topology [71, 72], and extends an analogous construction due to Johnstone [48].
+Note that formal topology may be developed in the framework of constructive set theory
+[3], and hence may be internalized in topos theory.
+Let (L, ⩽) be a meet semilattice (i.e. a poset in which any pair of elements has a meet
+= g.l.b. = infimum; in most of our applications (L, ⩽) is actually a distributive lattice).
+Definition 16 A covering relation on L is a relation ⊳ ⊆ L × P(L) - equivalently, a
+function L → P(P(L)) - written x ⊳ U when (x, U ) ∈ ⊳, such that:
+1. If x ∈ U then x ⊳ U ;
+2. If x ⊳ U and U ⊳ V (i.e. y ⊳ V for all y ∈ U ) then x ⊳ V ;
+3. If x ⊳ U then x ∧ y ⊳ U ;
+4. If x ∈ U and x ∈ V , then x ⊳ U ∧ V (where U ∧ V = {x ∧ y | x ∈ U, y ∈ V }).
+W
+For example, if (L, ⩽) = (O(X), ⊆) one may take x ⊳ U iff x ⩽ U , i.e. iff U covers x.
+Let DL be the poset of all lower sets in L, ordered by inclusion; this is a frame [48,
+§1.2]. The structure ⊳ gives rise to a closure operation21 A : DL → DL, given by
+AU = {x ∈ L | x ⊳ U },
+
+(63)
+
+which has the following properties: ↓U ⊆ AU , U ⊆ AV ⇒ AU ⊆ AV , AU ∩ AV ⊆
+A(↓U ∩ ↓V ). The frame F(L, ⊳) generated by such a structure is then defined by
+F(L, ⊳) = {U ∈ DL | AU = U } = {U ∈ P(L) | x ⊳ U ⇒ x ∈ U };
+21
+
+(64)
+
+As a map, A is also defined on P(L). Let χ⊳ : L × P(L) → Ω be the characteristic function of the
+subset ⊳ ⊆ L × P(L). Then A = χ̂⊳ is just the ‘curry’ or ‘λ-conversion’ of χ⊳ .
+
+A
+
+GENERATING LATTICES FOR FRAMES
+
+38
+
+the second equality follows because firstly the property AU = U guarantees that U ∈ DL,
+and secondly one has AU = U iff x ⊳ U implies x ∈ U . An equivalent description of
+F(L, ⊳) is
+F(L, ⊳) ∼
+(65)
+= P(L)/ ∼,
+where U ∼ V iff U ⊳ V and V ⊳ U . Indeed, the map U 7→ [U ] from F(L, ⊳) (as defined
+in (64)) to P(L)/ ∼ is a frame map with inverse [U ] 7→ AU ; hence the idea behind the
+isomorphism (65) is that the map A picks a unique representative in the equivalence class
+[U ], namely AU .
+The frame F(L, ⊳) comes equipped with a canonical map
+f : L → F(L, ⊳);
+
+(66)
+
+x 7→ A(↓x),
+
+(67)
+
+W
+which satisfies f (x) ⩽ f (U ) if x ⊳ U . In fact, f is universal with this property, W
+in that
+any homomorphism g : L → G of meet semilattices into a frame G such that g(x) ⩽ g(U )
+whenever x ⊳ U has a factorisation g = ϕ◦f for some unique frame map ϕ : F(L, C) → G.
+This suggests that the point of the construction is that F(L, ⊳) is (isomorphic to) a frame
+defined by generators and relations, provided the covering relation is suitably defined in
+terms of the relations. More precisely [3, Thm. 12]:
+Proposition 17 Suppose one has a frame F and a meet semilattice22 L with a map
+f : LW
+→ F of meet semilattices that generates F in the sense that for each U ∈ F one has
+U = {f (x) | x ∈ L, f (x) ≤ U }. Define a cover relation ⊳ on L by
+_
+x ⊳ U iff f (x) ⩽
+f (U ).
+(68)
+Then one has a frame isomorphism F ∼
+= F(L, ⊳).
+We now turn to maps between frames.
+Definition 18 Let (L, ⊳) and (M, ◭) be meet semilattices with covering relation as above,
+and let f ∗ : L → P(M ) be such that:
+1. f ∗ (L) = M ;23
+2. f ∗ (x) ∧ f ∗ (y) ◭ f ∗ (x ∧ y);
+3. x ⊳ U ⇒ f ∗ (x) ◭ f ∗ (U ) (where f ∗ (U ) =
+
+S
+
+u∈U f (U )).
+
+Define two such maps f1∗ , f2∗ to be equivalent if f1∗ (x) ∼ f2∗ (x) (i.e. f1∗ (x) ◭ f2∗ (x) and
+∗
+f2 (x) ◭ f1∗ (x)) for all x ∈ L. A continuous map f : (M, ◭) → (L, ⊳) is an equivalence
+class of such maps f ∗ : L → P(M ).24
+22
+
+This even works in case that L is just a set preordered by x ⩽ y when f (x) ⩽ f (y).
+If L and M have top elements ⊤L and ⊤M , respectively, then this condition may be replaced by
+f ∗ (⊤L ) = ⊤M .
+24
+Instead of taking equivalence classes, one could demand as a fourth condition that f ∗ (x) = Af ∗ (x)
+for all x ∈ L.
+23
+
+A
+
+GENERATING LATTICES FOR FRAMES
+
+39
+
+Our main interest in continuous maps lies in the following result.25
+Proposition 19 Each continuous map f : (M, ◭) → (L, ⊳) is equivalent to a frame map
+F(f ) : F(L, ⊳) → F(M, ◭), given by
+F(f ) : U 7→ Af ∗ (U ).
+
+(69)
+
+All results in this subsection may be internalized in any topos; for example, a covering
+relation on an internal meet semilattice L in a topos T is simply a subobject ⊳ of L × ΩL ,
+where Ω is the subobject classifier in T . The defining properties of a covering relation are
+then interpreted in the internal language of T . Proposition 19 holds in this generality,
+since its proof is constructive; see especially [3].
+
+A.1
+
+Localization of the spectrum
+
+We now consider some applications pertinent to the main body of the paper. First,
+we return to the Gelfand spectrum in Subsection 2.2. In its presentation by means of
+generators and relations, eqs. (18)–(22) play a different role from the regularity rule (23),
+and we will treat the latter separately. First, for an arbitrary unital commutative C*algebra A in some topos, consider the distributive lattice LA freely generated by the
+formal symbols Da , a ∈ Asa (i.e. a is a variable of type Asa ), subject to the relations
+(18)–(22). As shown in [26, 30], LA can be described more explicitly, as follows.
+Let A+ := {a ∈ Asa | a ≥ 0}. Define p 4 q iff there exists n ∈ N such that p ⩽ nq.
+Define p ≈ q iff p 4 q and q 4 p. The lattice operations on A respect ≈ and hence A+ / ≈
+is a lattice. We then have
+LA ∼
+(70)
+= A+ / ≈ .
+The image of the generator Da in LA , seen as an element of A+ / ≈, may also be described
+explicitly: decomposing a ∈ Asa as a = a+ − a− with a± ∈ A+ in the usual way, under
+the isomorphism (70) this image coincides with the equivalence class [a+ ] in A+ / ≈. In
+explicit computations [47, 46], one may therefore simply identify LA with A+ / ≈ and Da
+(seen as an element of LA ) with [a+ ], respectively. Such computations are also greatly
+facilitated by the following ‘locality’ theorem.
+Theorem 20 For each C ∈ C(A) one has
+LA (C) = LC ,
+
+(71)
+
+where the right-hand side is simply defined in Sets (where it may be computed through
+(70)). Furthermore, if C ⊆ D, then the map LA (C) → LA (D) given by the functoriality of
+LA simply maps each generator Dc for c ∈ Csa to the same generator for the spectrum of D
+(this is well defined because c ∈ Dsa , and this inclusion preserves the relations (18)–(22));
+we write this as LC ֒→ LD .
+25
+
+In fact, one may extend this into an equivalence F between the category of formal topologies and the
+category of frames. A formal topology is a generalization of the above triples (L, ⩽, ⊳), where ⩽ is merely
+required to be a preorder. In this more general case, the axioms on the cover relation ⊳ take a slightly
+different form. See [8, 69].
+
+A
+
+GENERATING LATTICES FOR FRAMES
+
+40
+
+A proof of this theorem by explicit computation may be found in [22, Thm. 5.2.3].
+Here, we give an alternative proof, which requires some familiarity with geometric logic
+[63, 51, 80].26 It relies on the following lemmas.
+Lemma 21 Let T be a geometric theory. For any category C, there is an isomorphism
+of categories Mod(T, SetsC ) ∼
+= Mod(T, Sets)C .
+Here Mod(T, T ) is the category of T-models in T .27 This lemma may be found in [51,
+Corollary D.1.2.14].
+Lemma 22 The lattice LA generating the spectrum of an internal commutative C*-algebra
+A is preserved under inverse images of geometric morphisms.
+To prove the second lemma, we first use the characterization of the real part Asa of a
+commutative C*-algebra A as an f-algebra over the rationals (see Definition 9). Moreover,
+the spectrum of a C*-algebra coincides with the spectrum of the f-algebra of its selfadjoint elements [28]. We claim that the theory of f-algebras is geometric. First, we
+observe that an f-algebra is precisely a uniquely divisible lattice ordered ring [26, p151],
+since unique divisibility turns a ring into a Q-algebra. The definition of a lattice ordered
+ring is algebraic: it can be written using equations only. The theory of torsion-free rings,
+i.e. (nx = 0 ⊢x x = 0) for all n > 0, is also algebraic. The theory of divisible rings is
+obtained by adding infinitely many geometric axioms ⊤ ⊢x ∃y ny = x, one for each n > 0,
+to the algebraic theory of rings. A torsion-free divisible ring is the same as a uniquely
+divisible ring: Suppose that ny = x and nz = x, then n(y − z) = 0, and so y − z = 0.
+We conclude that the theory of uniquely divisible lattice ordered rings, i.e. f-algebras, is
+geometric. In particular, Asa and hence A+ are definable by a geometric theory. Secondly,
+the relation ≈ in (70) is defined by an existential quantification, so that the generating
+lattice A+ / ≈ – and hence by (70) also LA – is preserved under inverse images of geometric
+morphisms. This proves Lemma 22.
+
+Combining Lemma 22 with Lemma 21, we obtain (71) and hence Theorem 20.
+
+For later we use, we put an important property of LA on record.
+Definition 23 A distributive lattice is normal if for all b1 , b2 such that b1 ∨ b2 = ⊤ there
+are c1 , c2 such that c1 ∧ c2 = ⊥ and c1 ∨ b1 = ⊤ and c2 ∨ b2 = ⊤. A distributive lattice is
+called strongly normal if for all a, b there exist x, y such that a ⩽ b ∨ x and b ⩽ a ∨ y and
+x ∧ y = ⊥.
+Lemma 24 The lattice LA is strongly normal, and hence normal.
+26
+
+Further to our remarks in Subsection 1.4 on geometric propositional logic, we recall that a geometric
+predicate logic is a theory whose formulae are as described there (where the atomic formulae may now
+involve relations and equalities and all the usual structures allowed in first-order logic as well), now also
+involving finitely many free variables x = (x1 , . . . , xn ), and the existential quantifier ∃, with axioms taking
+the form ∀x : ϕ(x) → ψ(x). Geometric formulae form an important class of logical formulae, because they
+are precisely the ones whose truth value is preserved by inverse images of geometric morphisms between
+topoi. From their syntactic form alone, it follows that their interpretation in the external language is
+determined locally.
+27
+This lemma is, in fact, valid for any topos E replacing Sets; Johnstone’s proof just relies on the fact that
+the functor evC : E C → E that evaluates at C ∈ C is (the inverse image part of) a geometric morphism.
+The stated generalization follows because the functor (evC )∗ : E → E C given by (evC )∗ (S) = S C(−,C)
+determines the direct image part [63, Exercise VII.10.1].
+
+A
+
+GENERATING LATTICES FOR FRAMES
+
+41
+
+This lemma is due to Coquand [26, Thm. 1.11], but we give a proof.
+Proof First, every strongly normal lattice is normal. To prove this, let b1 ∨ b2 = ⊤ and
+choose x, y such that b1 ⩽ b2 ∨ x, b2 ⩽ b1 ∨ y, and x ∧ y = ⊥. Then ⊤ ⩽ b1 ∨ b2 ⩽
+(b2 ∨ x) ∨ b2 = b2 ∨ x. Similarly, ⊤ = b1 ∨ y.
+Second, to check that LA is strongly normal, it is enough to verify the defining property
+on the generators Da . So we pick a, b in Asa . Then one has Da ⩽ Da−b ∨ Db , Db ⩽ Db−a ∨ Da ,
+and Da−b ∧ Db−a = ⊥.
+
+We now turn to the relation (23), which is to be imposed on LA . It turns out that (23)
+is a special case of a relation that can be defined on any distributive lattice L by x ≪ y
+iff there exists z such that x ∧ z = ⊥ and y ∨ z = ⊤.28
+Lemma 25 For all Da , Db ∈ LA , the following are equivalent:29
+1. There exists Dc ∈ LA such that Dc ∨ Da = ⊤ and Dc ∧ Db = ⊥;
+2. There exists q > 0 such that Db ⩽ Da−q .
+Proof 1 ⇒ 2: By [26, Cor 1.7] there exists q > 0 such that Dc−q ∨ Da−q = ⊤. Hence
+Dc ∨ Da−q = ⊤, so Db = Db ∧ (Dc ∨ Da−q ) = Db ∧ Da−q ⩽ Da−q .
+2 ⇒ 1: Choose Dc := Dq−a .
+
+Hence in what follows we write
+Db ≪ Da iff ∃q>0 Db ⩽ Da−q ,
+
+(72)
+
+։
+
+and note with Coquand [26] that in view of the above lemma the relation (23) just states
+that the frame O(Σ) is regular.30 This leads to the following description.
+For any distributive lattice L, an ideal I ∈ Idl(L) is called regular if I ⊇ x implies
+x ∈ I, where
+x = {y ∈ L | y ≪ x}.
+(73)
+։
+
+Expressed in logical language, I is therefore a regular ideal if
+∀y∈L (y ≪ x ⇒ y ∈ I) ⇒ x ∈ I,
+
+(74)
+
+and hence one has the frame RIdl(L) of regular ideals of L, defined by
+RIdl(L) = {U ∈ Idl(L) | (∀y∈L y ≪ x ⇒ y ∈ U ) ⇒ x ∈ U };
+
+(75)
+
+for the sake of completeness, U ∈ Idl(L) as a predicate on P(L) stands for ⊥ ≡ 0 ∈ U and
+x ∈ U, y ⩽ x ⇒ y ∈ U ;
+x, y ∈ U
+
+⇒ x ∨ y ∈ U.
+
+(76)
+(77)
+
+28
+Banaschewski and Mulvey write that x is ‘rather below’ y [7], whereas Johnstone [48] says that x is
+‘well inside’ y. The notation ≪ is usually reserved for the so-called ‘way below’ relation, but this relation
+coincides with the ‘well inside’ relation on compact regular locales (see [48, p.303] and Theorem 27), so we
+feel entitled to identify them notationally.
+29
+In what follows, one may take q > 0 either in Q or in R.
+30
+See [48, III.1.1] for this notion. Recall that by the general theory of Banaschewski and Mulvey [7], the
+spectrum has to be a compact regular frame.
+
+A
+
+GENERATING LATTICES FOR FRAMES
+
+42
+
+Any ideal U ∈ Idl(L) can be turned into a regular ideal AU by means of the closure
+operation A : DL → DL defined by [23]
+AU = {x ∈ L | ∀y∈L y ≪ x ⇒ y ∈ U },
+
+(78)
+
+and the canonical map f : L → RIdl(L) is given in terms of (78) by (67).
+Combining Theorem 27 in [23] (which states that the regular ideals in a normal distributive lattice form a compact regular frame) with Theorem 1.11 in [26] (which applies
+this to the case at hand), we finally obtain:
+Theorem 26 The Gelfand spectrum O(Σ) of a commutative unital C*-algebra A is isomorphic (as a frame) to the frame of all regular ideals of LA , i.e.
+O(Σ) ∼
+= {U ∈ Idl(LA ) | (∀Db ∈LA Db ≪ Da ⇒ Db ∈ U ) ⇒ Da ∈ U }.
+
+(79)
+
+In this realization, the canonical map f : LA → O(Σ) is given by
+f (Da ) = {Dc ∈ LA | ∀Db ∈LA Db ≪ Dc ⇒ Db ⩽ Da }.
+
+(80)
+
+By construction, we then have
+f (Da ) ⩽
+
+_
+{f (Da−q ) | q > 0}.
+
+(81)
+
+For later use, also note that (80) implies
+f (Da ) = ⊤ ⇔ Da = ⊤.
+
+(82)
+
+We may now equip LA with the covering relation defined by (68), given (79) and the
+ensuing map (80).31 Consequently, by Proposition 17 one has
+O(Σ) ∼
+= F(LA , ⊳).
+
+(83)
+
+This description becomes computable by the following two results.
+Theorem 27 In any topos, the covering relation ⊳ on LA defined by (68) with (79) and
+(80) is given
+by Da ⊳ U iff for all q > 0 there exists a (Kuratowski) finite U0 ⊆ U such that
+W
+Da−q ⩽ U0 . (If U is directed, this means that there exists Db ∈ U such that Da−q ⩽ Db .)
+Proof
+The easy part is the “⇐” direction: from (81) and the assumption we have f (Da ) ⩽
+W
+f (U ) and hence Da ⊳ U by definition of the covering relation.
+In the opposite direction, assume
+W Da ⊳ U and take some q > 0. From (the proof of)
+Lemma 25, Da ∨ Dq−a = ⊤,Whence f (U ) ∨ f (Dq−a ) = ⊤. Since O(Σ) is compact, there is
+a finite U0 W
+⊂ U for which f (U0 ) ∨ f (Dq−a ) = ⊤, so that by (82) we have Db ∨ Dq−a = ⊤,
+with Db = U0 . By (19) we have Da−q ∧ Dq−a = ⊥, and hence
+_
+Da−q = Da−q ∧ ⊤ = Da−q ∧ (Db ∨ Dq−a ) = Da−q ∧ Db ⩽ Db =
+U0 .
+
+։
+
+31
+
+Alternatively, writing Da ⊳0 U iff U ⊇ Da , the covering relation ⊳ is inductively generated by ⊳0 , as
+explained in [27, 79]. The triple (LA , ⩽, ⊳0 ) is a flat site as defined in [79].
+
+A
+
+GENERATING LATTICES FOR FRAMES
+
+43
+
+Thus we have two alternative expressions for the spectrum:
+O(Σ) ∼
+= {U ∈ Idl(LA ) | ∀q>0 Da−q ∈ U ⇒ Da ∈ U },
+∼
+= {U ∈ P(LA ) | Da ⊳ U ⇒ Da ∈ U }.
+
+(84)
+(85)
+
+The first follows from (79), the second from (64) and (83).
+To apply this to our functor topos T (A), we apply the Kripke–Joyal semantics for the
+internal language of the topos T (A) (see [63, §VI.7], whose notation we will use, and [12,
+§6.6]) to the statement Da ⊳ U . This is a formula φ with two free variables, namely Da of
+type LA , and U of type P(LA ) ≡ ΩLA . Hence in the forcing statement C φ(α) in T (A),
+we have to insert
+α ∈ (LA × ΩLA )(C) ∼
+= LC × Sub(LA|↑C ),
+where LA|↑C is the restriction of the functor LA : C(A) → Sets to ↑ C ⊂ C(A). Here we
+have used (71), as well as the isomorphism [63, §II.8]
+ΩLA (C) ∼
+= Sub(LA|↑C ).
+
+(86)
+
+Consequently, we have α = (Dc , U ), where Dc ∈ LC for some c ∈ Csa (note the change of
+typefont between the formal variable Da and the actual element Dc ) and U : ↑ C → Sets
+is a subfunctor of LA|↑C . In particular, U (D) ⊆ LD is defined whenever D ⊇ C, and the
+subfunctor condition on U simply boils down to U (D) ⊆ U (E) whenever C ⊆ D ⊆ E.
+Corollary 28 In the topos T (A) the cover ⊳ of Theorem 27 may be computed locally, in
+the sense that for any C ∈ C(A), Dc ∈ LC and U ∈ Sub(LA|↑C ), one has
+C
+
+Da ⊳ U (Dc , U ) iff Dc ⊳C U (C),
+
+W
+in that for all q > 0 there exists a finite U0 ⊆ U (C) such that Dc−q ⩽ U0 .
+W
+W
+Proof For simplicity, assume that U0 ∈ U , so that we may replace U0 by Db = U0 ;
+the general case is analogous. We then have to inductively analyze the formula Da ⊳ U ,
+which, under the stated assumption, in view of Theorem 27 may be taken to mean
+∀q>0 ∃Db ∈LA (Db ∈ U ∧ Da−q ⩽ Db ).
+
+(87)
+
+We now infer from the rules for Kripke–Joyal semantics in a functor topos that:32
+1. C (Da ∈ U )(Dc , U ) iff for all D ⊇ C one has Dc ∈ U (D); since U (C) ⊆ U (D), this
+happens to be the case iff Dc ∈ U (C).
+2. C
+
+(Db ⩽ Da )(Dc′ , Dc ) iff Dc′ ⩽ Dc in LC .
+
+3. C
+
+(∃Db ∈LA Db ∈ U ∧Da−q ⩽ Db )(Dc , U ) iff there is Dc′ ∈ U (C) such that Dc−q ⩽ Dc′ .
+
+4. C (∀q>0 ∃Db ∈LA Db ∈ U ∧ Da−q ⩽ Db )(Dc , U ) iff for all D ⊇ C and all q > 0 there
+is Dd ∈ U (D) such that Dc−q ⩽ Dd , where Dc ∈ LC is seen as an element of LD
+through the injection LC ֒→ LD of Theorem 20, and U ∈ Sub(LA|↑C ) is seen as an
+element of Sub(LA|↑D ) by restriction. This, however, is true at all D ⊇ C iff it is
+true at C, because U (C) ⊆ U (D) and hence one can take Dd = Dc′ for the Dc′ ∈ LC
+that makes the condition true at C.
+
+32
+
+The first one follows from [12, Prop. 6.6.10] and a routine computation. The others are obvious from
+either [63, §VI.7] or [12, §6.6].
+
+A
+
+GENERATING LATTICES FOR FRAMES
+
+44
+
+This brings us to our recipe for computing the spectrum in T (A) locally:
+Theorem 29 The spectrum O(Σ) of A in T (A) can be computed as follows:
+1. At C ∈ C(A), the set O(Σ)(C) consists of those subfunctors U ∈ Sub(LA|↑C ) such
+that for all D ⊇ C and all Dd ∈ LD one has Dd ⊳D U (D) ⇒ Dd ∈ U (D).
+2. In particular, at C · 1, the set O(Σ)(C · 1) consists of those subfunctors U ∈ Sub(LA )
+such that for all C ∈ C(A) and all Dc ∈ LC one has Dc ⊳C U (C) ⇒ Dc ∈ U (C).
+3. The condition that U = {U (C) ⊆ LC }C∈C(A) be a subfunctor of LA comes down to
+the requirement that U (C) ⊆ U (D) whenever C ⊆ D.
+4. The map O(Σ)(C) → O(Σ)(D) given by the functoriality of O(Σ) whenever C ⊆ D
+is given by truncating an element U :↑ C → Sets of O(Σ)(C) to ↑ D.
+5. The external description of O(Σ) is the frame map
+∗
+πΣ
+: O(C(A)) → O(Σ)(C · 1),
+
+(88)
+
+given on the basic opens ↑ D ∈ O(C(A)) by
+∗
+πΣ
+(↑ D) = χ↑D : E 7→ ⊤ (E ⊇ D);
+
+E 7→ ⊥ (E + D),
+
+(89)
+
+where the top and bottom elements ⊤, ⊥ at E are given by {LE } and ∅, respectively.
+Proof By (85), O(Σ) is the subobject of ΩLA defined by the formula φ given by
+∀Da ∈LA Da ⊳ U ⇒ Da ∈ U,
+
+(90)
+
+whose interpretation in T (A) is an arrow from ΩLA to Ω. In view of (86), we may
+identify an element U ∈ O(Σ)(C) with a subfunctor of LA|↑C , and by (90) and Kripke–
+Joyal semantics in functor topoi (see, in particular, [63, §IV.7]), we have U ∈ O(Σ)(C) iff
+C φ(U ), with φ given by (90). UnfoldiIng this using the rules for Kripke–Joyal semantics
+and using Corollary 28 (including part 1 of its proof), we find that U ∈ O(Σ)(C) iff
+∀D⊇C ∀Dd ∈LD ∀E⊇D Dd ⊳E U (E) ⇒ Dd ∈ U (E),
+
+(91)
+
+where Dd is regarded as an element of LE . This condition, however, is equivalent to the
+apparently weaker condition
+∀D⊇C ∀Dd ∈LD Dd ⊳D U (D) ⇒ Dd ∈ U (D);
+
+(92)
+
+condition (91) clearly implies (92), but the latter applied at D = E actually implies the
+first, since Dd ∈ LD also lies in LE .
+Items 2 to 4 are now obvious, and the last follows by the explicit prescription for the
+external description of frames recalled in in Subsection 1.7. Note that each O(Σ)(C) is a
+
+frame in Sets, inheriting the frame structure of the ambient frame Sub(LA|↑C ).
+
+A
+
+GENERATING LATTICES FOR FRAMES
+
+45
+
+An equivalent way to compute the spectrum, which derives from (84) rather than
+(85), is as follows: O(Σ)(C · 1) (and similarly all the other O(Σ)(C)) consists of those
+subfunctors U ∈ Sub(LA ) such that for all C ∈ C(A), U (C) is a regular ideal in LC .
+To prove this, according to (84) the formula expressing that U ∈ P(LA ) be a regular
+ideal is
+U ∈ Idl(L) ∧ ∀Da ∈LA ∀q>0 Da−q ∈ U ⇒ Da ∈ U,
+(93)
+where the condition U ∈ Idl(L) is spelled out in (76) and (77). The locality of this
+first condition and of the conjunction in (93) being almost trivial, we concentrate on the
+second term, calling it φ as usual. We then find that C · 1 φ(U ) iff for all C ∈ C(A),
+all Dc ∈ U (C), and all D ⊇ C one has: if Dc−q ∈ U (E) for all q > 0 at all E ⊇ D, then
+Dc ∈ U (D). Now the antecedent automatically holds at all E ⊇ D iff it holds at D, and
+similarly the if . . . then statement holds at all D ⊇ C if it holds at C.
+
+A.2
+
+Daseinisation map
+
+Our next aim is to construct the Daseinisation map (44), which, read as a frame map, for
+fixed a ∈ Asa is
+(94)
+δ(a)−1 : O(IR) → O(Σ).
+We will use the realization (83) of the spectrum O(Σ) of A as the frame F(LA , ⊳) defined
+in the preceding subsection. The second frame we deal with is that of the interval domain
+O(IR), cf. Subsection 5.1. Following [69], we construct the interval domain as a frame
+F(Q ×< Q, ◭) defined by a covering relation. Here the pertinent meet semilattice Q ×< Q
+consists of pairs (p, q) ∈ Q × Q with p < q, ordered by inclusion (i.e. (p, q) ⩽ (p′ , q ′ ) iff
+p′ ⩽ p and q ⩽ q ′ ), with a bottom element ⊥ added. The covering relation ◭ is defined
+by ⊥ ◭ U for all U and (p, q) ◭ U iff for all rational p′ , q ′ with p < p′ < q ′ < q there exists
+(p′′ , q ′′ ) ∈ U with (p′ , q ′ ) ⩽ (p′′ , q ′′ ). In Sets one easily verifies the frame isomorphism
+F(Q ×< Q, ◭) ∼
+= O(IR),
+
+(95)
+
+so that, in particular, we may regard O(IR) as a subset of the power set P(Q ×< Q).
+Proposition 30 The functor O(IR) internalizing the interval domain in T (A) is given
+by
+O(IR) ∼
+(96)
+= F(Q ×< Q, ◭).
+Explicitly, we have
+O(IR)(C · 1) ∼
+= {S ∈ Sub(Q ×< Q) | S(C) ∈ O(IR) for all C ∈ C(A)},
+
+(97)
+
+where O(IR) ⊂ P(Q ×< Q) through (95), as just explained. Furthermore, O(IR)(C) is the
+truncation of (97) to ↑ C (cf. Theorem 29), and the functorial map O(IR)(C) → O(IR)(D)
+whenever C ⊆ D is given by truncation. Finally, the external description of O(IR) is given
+by the frame map
+∗
+πIR
+: O(C(A)) → O(IR)(C · 1),
+(98)
+∗ is given by a formula similar to (89).
+where πIR
+
+A
+
+GENERATING LATTICES FOR FRAMES
+
+46
+
+Proof This follows from a computation analogous to but simpler than the proof of Theorem 29, combined with the remark following (47) and the observation that the condition
+that S : C(A) → P(Q ×< Q) in the right-hand side of (97) be a subfunctor of Q ×< Q
+means that we may identify S with a monotone function from C(A) to O(IR).
+
+We now give the external description
+δ(a)−1 : O(IR)(C · 1) → O(Σ)(C · 1)
+
+(99)
+
+of our Daseinisation map (94). In view of (83) and (96), we will define (99) as a frame
+map
+(100)
+δ(a)−1 : F(Q ×< Q, ◭)(C · 1) → F(LA , ⊳)(C · 1).
+Internalizing Proposition 19 to T (A), we proceed by constructing a continuous map
+d(a) : (LA , ⊳) → (Q ×< Q, ◭),
+
+(101)
+
+δ(a)−1 = F(d(a))(C · 1).
+
+(102)
+
+for in that case we may put
+By definition, as a map in the functor topos T (A) the continuous map d(a) is a natural
+transformation
+(103)
+d(a)∗ : Q ×< Q → P(LA ) = ΩLA
+with components d(a)∗C : Q ×< Q(C) → ΩLA (C). One has Q ×< Q(C) ∼
+= Q ×< Q, so by
+∗
+(86) the d(a)C are maps
+(104)
+d(a)∗C : Q ×< Q → Sub(LA|↑C ).
+By naturality, d(a)∗C is determined by d(a)∗C·1 : Q ×< Q → Sub(LA ) as
+d(a)∗C (r, s)(D) = d(a)∗C·1 (r, s)(D),
+
+(105)
+
+for all D ⊇ C, so d(a)∗ is determined by d(a)∗C·1 . Using the description of the lattice
+LA (C) by Theorem 20, we may now define
+d(a)∗C·1 (r, s) : C 7→ {Df −r ∧ Ds−g | f, g ∈ Csa , f ⩽ a ⩽ g},
+
+(106)
+
+which is indeed a subset of LA (C) = LC , as required.
+Lemma 31 The map (101) defined by (103), (105) and (106) is continuous (in the sense
+of Definition 18, internalized to T (A)).
+Proof First, we claim that d is continuous iff each d(a)C is. Indeed, with regard to the
+first condition in Definition 18 this is obvious; for the second cf. [63, Prop. I.8.5], and
+for the third this is true because both covering relations are described locally in C (cf.
+Corollary 28). By Proposition 19, continuity of d, in turn, would mean that (100) is well
+defined as a frame map.
+Thus what remains is to verify that each map d(a)C is continuous in the sense of
+Definition 18. This is indeed the case; we spare the readers the details.33
+
+33
+
+These will appear in the PhD Thesis of the first author.
+
+B
+
+RELATED WORK
+
+47
+
+We now compute the associated frame map (100). The map (103) induces a map
+Sub(Q ×< Q) → Sub(ΩLA ) as the left adjoint of the pullback in the opposite direction
+(see, e.g., [63, Exercise I.10]), which by composition with ∪ yields a map Sub(Q ×< Q) →
+Sub(LA ). The latter restricts to a map F(Q ×< Q, ◭)(C · 1) → F(LA , ⊳)(C · 1), which by
+definition is the map (100) and hence gives the external description (99) of our Daseinisation map.34 This is a frame map by construction; see Lemma (31) and Proposition (19).
+The associated locale map δ(a) : Σ → IR is our version of the Döring–Isham Daseinisation
+map. It is unenlightening to write it down explicitly, but we give an appealing special case
+in Subsection 5.2.
+
+A.3
+
+Localization of integrals
+
+Finally, to compute the interpretation of the locale of integrals we may proceed analogously to the case of the spectrum. The free distributive lattice satisfying the relations
+in Section 4.2 may alternatively be defined by an entailment relation [23]. Consequently,
+it suffices to describe when ∧A ⊢ ∨B in the lattice. As proved in [26, 29], this holds if a
+positive combination of elements in A is below a positive combination
+in B - in
+P of elements
+P
+symbols, if there are ri , sj > 0 and ai in A and bj in B such that
+ri ai ⩽ sj bj . This is
+an existential quantification over finite subsets of an f-algebra. The construction of taking
+the (Kuratowski) finite powerset is geometric, see e.g. [80]. So existential quantification
+over it is preserved by geometric morphisms. Applying this to the internal C*-algebra and
+applying Lemma 21 we obtain (cf. Theorem 20):
+Proposition 32 The interpretation of the lattice generating the locale of integrals of the
+internal C*-algebra is given by the functor assigning to each commutative subalgebra C
+the lattice generating the integrals on C. If C ⊆ D, then the inclusion maps generators of
+the lattice for C to generators of the lattice for D and preserves relations. The covering
+relation for the space of integrals is also interpreted locally.
+A similar statement holds for valuations; see [81, 29]. Vickers [78] uses a presentation
+of locales which is similar to formal topology, but which is tailored for geometric reasoning.
+
+B
+
+Related work
+
+The present article was to a considerable extent motivated by the fundamental work of
+Butterfield and Isham [20, 21] and Döring and Isham [33, 34, 35, 36, 37]. We refrain from
+a full comparison, but restrict ourselves to what we see as the key points.
+As to Butterfield and Isham, our reformulation of the Kochen–Specker Theorem is in
+their spirit, but we feel our version is more powerful, especially from a logical perspective:
+our statement that a certain locale has no points has a logical interpretation in terms of
+(the lack of) models of a certain geometric theory, whereas the original reformulation [20]
+merely claims that some presheaf lacks global sections (i.e. points).
+Compared with Döring and Isham, our overall programme and philosophy, as explained
+in the Introduction, are quite different from theirs: our ambitions are limited to finding a
+34
+According to (69), this map is just the component of F(d(a)) at C · 1. This component, however,
+determines F(d(a)) as a whole, since F(d(a))(C) is just the restriction of F(d(a))(C · 1) to the truncation
+of each subfunctor S in (97) to ↑ C.
+
+REFERENCES
+
+48
+
+spatial notion of quantum logic (although we do hope that locales in topoi might provide
+a generalized concept of space that will be useful in quantum gravity). The principal
+technical differences between the two approaches lie in our use of:
+1. covariant functors (instead of contravariant ones);
+2. C*-algebras (instead of von Neumann algebras);
+3. locales (instead of Stone spaces);
+4. internal reasoning and the associated use of Kripke–Joyal semantics;
+5. states as internal integrals and the correspondence between integrals and valuations
+(i.e. measures defined on open sets).35
+This has many technical advantages, which has made it possible to obtain our main results
+(see Subsection 1.9). Conceptually, the two programs in question overlap to the effect that
+the Gelfand spectrum O(Σ) of the Bohrification A of A provides a pointfree realization
+of Döring and Isham’s notion of a state object in a topos, whereas the interval domain
+O(IR) realizes their quantity object, again in the sense of pointfree topology internalized
+to a suitable topos.36 These objects are linked by observables, which define arrows from
+the state object to the quantity object. Thus for each a ∈ Asa , our Daseinisation δ(a) :
+Σ → IR is an observable in the sense of Döring and Isham. Restricted to the special
+case A = B(H), our construction resembles the single example of such a topos that both
+Butterfield, Hamilton and Isham [19] and Döring and Isham [34, 35] give, namely that of
+presheaves over the preorder category of commutative von Neumann subalgebras of B(H)
+(ordered by inclusion).
+
+References
+[1] Johan F. Aarnes. Quasi-states on C ∗ -algebras. Trans. Amer. Math. Soc., 149:601–625, 1970.
+[2] Samson Abramsky and Achim Jung. Domain theory. In Handbook for Logic in Computer
+Science, volume 3. Clarendon Press, 1994.
+[3] Peter Aczel. Aspects of general topology in constructive set theory. Annals of Pure and
+Applied Logic, 137:3–29, 2006.
+[4] Murray Adelman and John V. Corbett. A sheaf model for intuitionistic quantum mechanics.
+Applied Categorical Structures, 3:79–104, 1995.
+[5] Bernhard Banaschewski and Christopher J. Mulvey. The spectral theory of commutative C*algebras: the constructive Gelfand-Mazur theorem. Quaestiones Mathematicae, 23(4):465–
+488, 2000.
+[6] Bernhard Banaschewski and Christopher J. Mulvey. The spectral theory of commutative
+C*-algebras: the constructive spectrum. Quaestiones Mathematicae, 23(4):425–464, 2000.
+[7] Bernhard Banaschewski and Christopher J. Mulvey. A globalisation of the Gelfand duality
+theorem. Annals of Pure and Applied Logic, 137(1–3):62–103, 2006.
+35
+
+An analogous external result has meanwhile been found by Döring [32].
+In fact, our use of pointfree techniques leads to topoi of covariant functors just as inevitably as the
+more conventional methods in [20, 21, 19, 33, 34, 35, 36] lead to topoi of presheaves.
+36
+
+REFERENCES
+
+49
+
+[8] Giulia Battilotti and Giovanni Sambin. Pretopologies and uniform presentation of sup-lattices,
+quantales and frames. Annals of Pure and Applied Logic, 137:30–61, 2006.
+[9] John L. Bell. The development of categorical logic. In Handbook of Philosophical Logic,
+volume 12. Springer, (to appear), 2005.
+[10] Garrett Birkhoff and John von Neumann. The logic of quantum mechanics. Annals of Mathematics, 37(4):823–843, 1936.
+[11] Niels Bohr. Discussion with einstein on epistemological problems in atomic physics. In Albert
+Einstein: Philosopher-Scientist, pages 201–241. La Salle: Open Court, 1949.
+[12] Francis Borceux. Handbook of categorical algebra. 3. Categories of sheaves, volume 52 of
+Encyclopedia of Mathematics and its Applications. Cambridge University Press, 1994.
+[13] Romeo Brunetti, Klaus Fredenhagen, and Rainer Verch. The generally covariant locality
+principle—a new paradigm for local quantum field theory. Comm. Math. Phys., 237(1-2):31–
+68, 2003. Dedicated to Rudolf Haag.
+[14] Jeffrey Bub. Interpreting the quantum world. Cambridge University Press, 1997.
+[15] Leslie J. Bunce and J. D. Maitland Wright. The Mackey-Gleason problem for vector measures
+on projections in von Neumann algebras. J. London Math. Soc. (2), 49(1):133–149, 1994.
+[16] Leslie J. Bunce and J. D. Maitland Wright. The quasi-linearity problem for C ∗ -algebras.
+Pacific J. Math., 172(1):41–47, 1996.
+[17] Jeremy Butterfield. Some worlds of quantum theory. In J. Polkinghorne R.Russell, editor,
+Quantum Mechanics (Scientific Perspectives on Divine Action Vol. 5), pages 111–140. Vatican
+Observatory Publications, 2002.
+[18] Jeremy Butterfield. Topos theory as a framework for partial truth. In J. Wolenski
+P. Gärdenfors, K. Kijania-Placek, editor, In the Scope of Logic, Methodology and Philosophy of Science, pages 307–329. Springer, 2003.
+[19] Jeremy Butterfield, John Hamilton, and Chris J. Isham. A topos perspective on the KochenSpecker theorem: III. Von Neumann algebras as the base category. International Journal of
+Theoretical Physics, 39(6):1413–1436, 2000.
+[20] Jeremy Butterfield and Chris J. Isham. A topos perspective on the Kochen-Specker theorem:
+I. quantum states as generalized valuations. International Journal of Theoretical Physics,
+37(11):2669–2733, 1998.
+[21] Jeremy Butterfield and Chris J. Isham. A topos perspective on the Kochen-Specker theorem:
+II. conceptual aspects and classical analogues. International Journal of Theoretical Physics,
+38(3):827–859, 1999.
+[22] Martijn Caspers. Gelfand spectra of C*-algebras in topos theory. M.Sc. Thesis Radboud
+University Nijmegen, available at http://www.math.ru.nl/~landsman/scriptieMartijn.pdf,
+2008.
+[23] Jan Cederquist and Thierry Coquand. Entailment relations and distributive lattices. In Logic
+Colloquium ’98 (Prague), volume 13 of Lect. Notes Log., pages 127–139. Assoc. Symbol. Logic,
+Urbana, IL, 2000.
+[24] Alain Connes. Noncommutative geometry. Academic Press Inc., San Diego, CA, 1994.
+[25] Alain Connes and Matilde Marcolli. Noncommutative geometry, quantum fields and motices,
+volume 55 of Colloquium Publications. American Mathematical Society, 2008.
+[26] Thierry Coquand. About Stone’s notion of spectrum. Journal of Pure and Applied Algebra,
+197:141–158, 2005.
+
+REFERENCES
+
+50
+
+[27] Thierry Coquand, Giovanni Sambin, Jan Smith, and Silvio Valentini. Inductively generated
+formal topologies. Annals of Pure and Applied Logic, 124:71–106, 2003.
+[28] Thierry Coquand and Bas Spitters. Constructive Gelfand duality for C*-algebras. Mathematical Proceedings of the Cambridge Philosophical Society, 2009. Accepted.
+[29] Thierry Coquand and Bas Spitters. Integrals and valuations. Journal of Logic and Analysis,
+1(3):1–22, 2009.
+[30] Thiery Coquand and Bas Spitters. Formal topology and constructive mathematics: the
+Gelfand and Stone-Yosida representation theorems. Journal of Universal Computer Science,
+11(12):1932–1944, 2005.
+[31] Andreas Döring. Kochen-specker theorem for Von Neumann algebras. International Journal
+of Theoretical Physics, 44(2):139–160, 2005.
+[32] Andreas Döring. Quantum states and measures on the spectral presheaf. arxiv:0809.4847,
+2008.
+[33] Andreas Döring and Chris J. Isham. A topos foundation for theories of physics: I. Formal
+languages for physics. Journal of Mathematical Physics, 49:053515, 2008.
+[34] Andreas Döring and Chris J. Isham. A topos foundation for theories of physics: II. Daseinisation and the liberation of quantum theory. Journal of Mathematical Physics, 49:053516,
+2008.
+[35] Andreas Döring and Chris J. Isham. A topos foundation for theories of physics: III. The
+representation of physical quantities with arrows. Journal of Mathematical Physics, 49:053517,
+2008.
+[36] Andreas Döring and Chris J. Isham. A topos foundation for theories of physics: IV. Categories
+of systems. Journal of Mathematical Physics, 49:053518, 2008.
+[37] Andreas Döring and Chris J. Isham. ‘What is a thing?’: Topos theory in the foundations of
+physics. In Bob Coecke, editor, New Structures in Physics, Lecture Notes in Physics. Springer,
+2009. To appear; arXiv:0803.0417.
+[38] Gérard G. Emch. Mathematical and conceptual foundations of 20th-century physics, volume
+100 of North-Holland Mathematics Studies. North-Holland Publishing Co., Amsterdam, 1984.
+Notas de Matemática [Mathematical Notes], 100.
+[39] Michael P. Fourman and Robin J. Grayson. Formal spaces. In The L. E. J. Brouwer Centenary
+Symposium, number 110 in Studies in Logic and the Foundations of Mathematics, pages 107–
+122. North-Holland, 1982.
+[40] Michael P. Fourman and Andre Ščedrov. The “world’s simplest axiom of choice” fails.
+Manuscripta mathematica, 38(3):325–332, 1982.
+[41] Robert Goldblatt. Topoi, the categorical analysis of logic. North-Holland, 1984.
+[42] Alexandre Grothendieck. Récoltes et Semailles, témoignage sur un passé de mathématicien.
+Université des Sciences et Techniques du Languedoc, Montpellier, 1985–1987.
+[43] Rudolf Haag. Local quantum physics. Texts and Monographs in Physics. Springer-Verlag,
+Berlin, second edition, 1996. Fields, particles, algebras.
+[44] Jan Hamhalter. Traces, dispersions of states and hidden variables. Found. Phys. Lett.,
+17(6):581–597, 2004.
+[45] Reinhold Heckmann. Probabilistic power domains, information systems, and locales. Lecture
+Notes Comput. Sci., 802:410–437, 1994.
+
+REFERENCES
+
+51
+
+[46] Chris Heunen, Nicolaas P. Landsman, and Bas Spitters. Bohrification of von Neumann algebras and quantum logic. Synthese, 2009. in preparation.
+[47] Chris Heunen, Nicolaas P. Landsman, and Bas Spitters. Intuitionistic quantum logic of an
+n-level system. Foundations of Physics, 2009. in press, arXiv:0902.3201.
+[48] Peter T. Johnstone. Stone Spaces. Cambridge University Press, 1982.
+[49] Peter T. Johnstone. Open locales and exponentiation. In J.W. Gray, editor, Mathematical
+Applications of Category Theory, number 30 in Contemporary Mathematics, pages 84–116.
+American Mathematical Society, 1984.
+[50] Peter T. Johnstone. Sketches of an Elephant: A topos theory compendium, volume 1. Clarendon Press, 2002.
+[51] Peter T. Johnstone. Sketches of an Elephant: A topos theory compendium, volume 2. Clarendon Press, 2002.
+[52] André Joyal and Ieke Moerdijk. Toposes are cohomologically equivalent to spaces. American
+Journal of Mathematics, 112(1):87–95, 1990.
+[53] André Joyal and Miles Tierney. An extension of the Galois theory of Grothendieck, volume 51.
+Memoirs of the American Mathematical Society, 1984.
+[54] Gudrun Kalmbach. Orthomodular lattices, volume 18 of London Mathematical Society Monographs. Academic Press, 1983.
+[55] Gudrun Kalmbach. Measures and Hilbert lattices. World Scientific, 1986.
+[56] Simon Kochen and Ernst Specker. The problem of hidden variables in quantum mechanics.
+Journal of Mathematics and Mechanics, 17:59–87, 1967.
+[57] Ralf Krömer. Tool and object: a history and philosophy of category theory. Birkhäuser, 2007.
+[58] Nicolaas P. Landsman.
+Springer, 1998.
+
+Mathematical topics between classical and quantum mechanics.
+
+[59] Nicolaas P. Landsman.
+Lecture notes on C*-algebras and K-theory.
+http://www.science.uva.nl/~npl/CK.pdf, 2004.
+
+Available at
+
+[60] Nicolaas P. Landsman. Between classical and quantum. In J. Earman J. Butterfield, editor,
+Handbook of Philosophy of Science, volume 2: Philosophy of Physics, pages 417–553. Elsevier,
+2007.
+[61] Nicolaas P. Landsman. Macroscopic observables and the Born rule. I. Long run frequencies.
+Rev. Math. Phys., 20:1173–1190, 2008.
+[62] Wilhelmus A. J. Luxemburg. and Adriaan C. Zaanen. Riesz spaces. Vol. I. North-Holland
+Publishing Co., Amsterdam, 1971. North-Holland Mathematical Library.
+[63] Saunders Mac Lane and Ieke Moerdijk. Sheaves in Geometry and Logic. Springer, 1992.
+[64] George W. Mackey. The mathematical foundations of quantum mechanics. Mathematical
+Physics Monograph Series. Benjamin/Cummings Publishing Co. Inc. Advanced Book Program, Reading, Mass., 1980. A lecture-note volume, Reprint of the 1963 original.
+[65] Colin McLarty. The uses and abuses of the history of topos theory. British J. Philos. Sci.,
+41(3):351–375, 1990.
+[66] Ieke Moerdijk. Spaced spaces. Compositio Mathematica, 53(2):171–209, 1984.
+[67] Christopher J. Mulvey. &. Rend. Circ. Mat. Palermo (2) Suppl., 12:99–104, 1986. Second
+topology conference (Taormina, 1984).
+
+REFERENCES
+
+52
+
+[68] Christopher J. Mulvey and Joan Wick Pelletier. A geometric characterization concerning
+compact, convex sets. Math. Proc. Cambridge Philos. Soc., 109(2):351–361, 1991.
+[69] Sara Negri. Continuous domains as formal spaces. Mathematical Structures in Computer
+Science, 12(1):19–52, 2002.
+[70] Miklós Rédei. Quantum logic in algebraic approach, volume 91. Kluwer Academic Publishers,
+1998.
+[71] Giovanni Sambin. Intuitionistic formal spaces - a first communication. In D. Skordev, editor,
+Mathematical logic and its Applications, pages 187–204. Plenum, 1987.
+[72] Giovanni Sambin. Some points in formal topology. Theoretical Computer Science, 305:347–
+408, 2003.
+[73] Ernhard Scheibe. The Logical Analysis of Quantum Mechanics. Oxford: Pergamon Press,
+1973.
+[74] Dana Scott. Lattice theory, data types and semantics. In NYU Symposium on formal semantics (ed R. Rustin), pages 65–106. Prentice-Hall, 1972.
+[75] Bas Spitters. Constructive algebraic integration theory without choice. In Thierry Coquand,
+Henri Lombardi, and Marie-Françoise Roy, editors, Mathematics, Algorithms, Proofs, number
+05021 in Dagstuhl Seminar Proceedings. IBFI, 2005.
+[76] Veeravalli S. Varadarajan. Geometry of quantum theory. Springer, second edition, 1985.
+[77] Steven Vickers. Topology via Logic. Cambridge University Press, 1989.
+[78] Steven Vickers. The double powerlocale and exponentiation: a case study in geometric logic.
+Theory and Applications of Categories, 12:372–422, 2004.
+[79] Steven Vickers. Compactness in locales and in formal topology. Annals of Pure and Applied
+Logic, 137:413–438, 2006.
+[80] Steven Vickers. Locales and toposes as spaces. In Marco Aiello, Ian E. Pratt-Hartmann, and
+Johan F.A.K. van Benthem, editors, Handbook of Spatial Logics, chapter 8. Springer, 2007.
+[81] Steven Vickers. A localic theory of lower and upper integrals. Mathematical Logic Quarterly,
+54:109–123, 2008.
+[82] Adriaan C. Zaanen. Riesz spaces. II, volume 30 of North-Holland Mathematical Library.
+North-Holland Publishing Co., Amsterdam, 1983.
+
+

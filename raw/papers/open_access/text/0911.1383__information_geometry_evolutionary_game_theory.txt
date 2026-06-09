@@ -1,0 +1,694 @@
+INFORMATION GEOMETRY AND EVOLUTIONARY
+GAME THEORY
+
+arXiv:0911.1383v1 [cs.IT] 9 Nov 2009
+
+MARC HARPER
+Abstract. The Shahshahani geometry of evolutionary game theory is realized as the information geometry of the simplex, deriving
+from the Fisher information metric of the manifold of categorical
+probability distributions. Some essential concepts in evolutionary
+game theory are realized information-theoretically. Results are extended to the Lotka-Volterra equation and to multiple population
+systems.
+
+1. Introduction
+The replicator equation is a widely-used model of natural selection.
+This paper explains the realization of the geometry of evolutionary
+game theory in terms of information theoretical principles, giving a
+purely mathematical and statistical origination of the replicator equation. Under this interpretation, the replicator equation models the
+information dynamics of a population of replicating entities. Additionally, the Kullback-Liebler information divergence, which serves as
+a Lyapunov function for the replicator dynamic, can be interpreted as
+a measure potential information, characterizing the concept of evolutionary stable state informatically.
+1.1. Continuous Replicator Dynamic. Consider a categorical distribution X on n categories of entities in a population. This is discrete probability distribution represented by a unit vector of n variables x = (x1 , . . . , xn ) under the normalization |x| = x1 + · · · + xn = 1,
+where xi denotes the proportion of the i-th type in the population. The
+replicator equation on this distribution is the differential equation
+
+ẋi = xi fi (x) − f¯(x) ,
+
+Date: October 25, 2018.
+2000 Mathematics Subject Classification. Primary: 37N25; Secondary: 91A22,
+94A15.
+Key words and phrases. evolutionary game theory, information geometry, information divergence.
+1
+
+2
+
+MARC HARPER
+
+where f (x) = (f1 (x), . . . , fn (x)) is a fitness landscape and f¯(x) =
+x1 f1 (x) + · · · + xn fn (x) is the mean fitness.
+2. Geometric Aspects of Evolutionary Game Theory
+The information theoretic interpretations of the previous chapter
+have a unified basis in information geometry. We begin with a description of the geometry of the simplex and geometric results known in
+evolutionary game theory.
+2.1. The Geometry of the Simplex. Let S n be the interior of the
+n-simplex ∆n , which is (n − 1)-dimensional. Each point x of the simplex has the property that x1 +· · ·+xn = 1, so the tangent space at any
+point on the interior is the (n − 1)-dimensional vector space described
+by n vectors v1 , . . . , vn such that v1 +· · ·+vn = 0. The orthogonal complement of the tangent space is the one dimensional line with direction
+vector 1 = (1, 1, . . . , 1). Indeed 1 · v = 0 for any v in the tangent space
+and the complement is necessarily one-dimensional. The faces of ∆n
+are isomorphic to a simplex of one lower dimension, which can be seen
+by setting one of the xi to zero and indicates the absence of that type
+in the population. The replicator equation is forward-invariant on the
+simplex (and hence each of its faces), since if xi = 0 then ẋi = 0. Because of this property, the replicator equation is called non-innovative
+since new types cannot arise, in contrast to evolutionary dynamics in
+which this is possible (notably the replicator-mutator equation [10] and
+the orthogonal projection dynamic [12]).
+2.2. Shahshahani Geometry. Shahshahani introduced two Riemannian manifolds into mathematical biology [13]: the positive orthant of
+Rn , denoted Rn+ , with the metric
+|x|
+δij ,
+xi
+P
+n
+where |x| =
+= {x ∈
+i xi and the restriction to the simplex ∆
+n
+n
+R | |x| = 1, xi ≥ 0 ∀i} ⊂ R+ , with the metric
+gij (x) =
+
+1
+δij .
+xi
+Call the latter manifold the Shahshahani manifold; its metric is known
+as the Shahshahani metric. There is a normalization map N : Rn+ →
+x
+∆n given by x 7→ |x|
+. For each τ ∈ R+ , there is a map ϕτ mapping the
+n
+simplex into R+ by x 7→ τ x. These maps are sections of the normalization map since N ◦ ϕτ = id∆n . The Shahshahani metric diverges on the
+boundary of the simplex so the metric is valid only on the interior S n .
+gij (x) =
+
+INFORMATION GEOMETRY AND EVOLUTIONARY GAME THEORY
+
+3
+
+Dynamics that are forward-invariant, such as the replicator dynamic,
+are not affected by the discontinuity at the boundary.
+2.3. The Replicator Dynamic, Geometrically. The geometry of
+the Shahshahani manifold yields an elegant interpretation of the replicator equation: it is the gradient flow of the Shahshahani metric.
+Shahshahani proved the result for a special case of the replicator equation; the following more general theorem comes from [8].
+Theorem 1. If the differential equation ẋi = fi (x) is a Euclidean
+∂V
+gradient with fi = ∂x
+then the replicator equation xi = fˆi (x) =
+i
+xi (fi (x) − f¯(x)) is a gradient with respect to the Shahshahani metric.
+In the case that the fitness landscape is a Euclidean gradient, the
+Shahshahani gradient gives a Lyapunov function for the dynamic. The
+classical case is that of a symmetric matrix A and fitness landscape
+f (x) = Ax, where A is the matrix of Malthusian fitness parameters
+given by the difference in birth rates and death rates aij = bij − dij of
+an individual having alleles i and j, where the alleles are of a single
+gene locus. In this case the Shahshahani potential is the mean fitness
+1
+x · f (x) = 21 x · Ax, with Ax the Euclidean gradient [8, 13].
+2
+2.4. Fisher’s Fundamental Theorem and Kimura’s Maximal
+Principle. Fisher’s fundamental theorem is a consequence of the geometric approach.
+Theorem 2. The rate of change of the Shahshahani potential is equal
+to the variance of the fitness landscape [8].
+V̇ (x) = Varx [f (x)].
+This is a general version of Fisher’s Fundamental Theorem of Natural Selection, specializing to the traditional result in the case of a
+symmetric and linear fitness landscape [8]. Kimura’s maximal principle follows from the fact that the replicator equation is a gradient
+flow [13]. As these are both important results in mathematical biology emerging from the geometry, an interpretation is desired of the
+Shahshahani metric that provides intuition for the introduced geometry on the simplex in the context of modeling natural selection.
+3. The Information Geometry of Natural Selection
+An intuitive interpretation of the Shahshahani geometry is provided
+by information theory. Information geometry [5] studies manifolds of
+probability distributions p(s, x) on a set S depending on parameters x,
+
+4
+
+MARC HARPER
+
+which are the coordinates of the manifold. The manifold is endowed
+with the Fisher information metric,
+
+
+∂ log p ∂ log p
+gij (x) = E
+∂xi ∂xj
+which can be shown to be the unique (up to a constant) metric respecting sufficient statistics [7].
+3.1. The Fisher Information Metric is the Shahshahani Metric.
+The manifold of immediate interest is P (X), the set of categorical
+probability distributions on a finite set X, with the Fisher information
+metric. In this case, it is convenient to abuse notation by allowing the
+parameters x and distribution variables s to have the same symbolic
+representation. 1 There is a natural mapping ϕ : P (X) → ∆n , where
+|X| = n, given by p → (p(1), p(2), . . . , p(n)) = (x1 , . . . , xn ). This maps
+P (X) isometrically onto the simplex, and an easy computation shows
+that that the Fisher information metric is induced by the Shahshahani
+metric under this mapping. Simply observe that
+
+ X
+∂ log x ∂ log x
+1
+1
+1
+gij (x) = E
+=
+xk δik δjk = δij
+i
+j
+∂x
+∂x
+xi xj
+xi
+k
+This result was recognized in [4] and [6].
+3.2. Fisher’s Fundamental Theorem. Fisher’s fundamental theorem is built into the geometry of P (X) [5]. Define the maps E[g] on
+P (X) by p 7→ Ep [g], where g is from the set of functions RX = {g :
+X → R} and Ep is the mean taken at the distribution p. Similarly, let
+Vp [g] denote the variance of the function g at p.
+Theorem 3. For any g : X → R ∈ RX ,
+Vp = ||(dE[g])p ||2p = ||(∇E[g])p ||2p ,
+where the norm is induced by the Fisher information metric, for all
+p ∈ P (X).
+1Different coordinates are sometimes chosen in information geometry for P (X),
+
+P
+P
+letting (for instance) xn+1 = 1 − ni=1 xi to enforce i xi = 1. This yields an
+asymmetric set of replicator equations, so a different set of coordinates is chosen in
+this exposition.
+
+INFORMATION GEOMETRY AND EVOLUTIONARY GAME THEORY
+
+5
+
+3.3. Information Divergences and Metrics on P (X). Some Riemannian metrics on P (X) can be derived from information divergences [5]. Information geometry defines an information divergence
+as a smooth function D(·||·) : P (X) × P (X) such that D(x||y) ≥ 0
+with equality iff x = y. The second order Taylor expansion in either
+variable evaluated along the diagonal x = y begins with the Hessian
+term H. Indeed,
+1
+D(x||y) = D(x||y)|x=y + (∇D(x||y)|x=y ) · (x − y) + · (x − y)T H(x) · (x − y) + · · ·
+2
+1
+= 0 + 0 + · (x − y)T H(x) · (x − y) + · · ·
+2
+because the gradient is parallel to 1 and 1 · (x − y) = 1 · x − 1 · y =
+1 − 1 = 0.
+In the case that the Hessian is positive definite, it can be used to
+define a metric,
+ 2
+
+∂ D
+(D)
+gij =
+|x=y .
+∂xi ∂yj
+A metric then defines a gradient flow, hence a global information
+divergence yields a dynamical system on the simplex. Importantly, the
+Hessian of the Kullback-Liebler divergence (in either variable, evaluated on the diagonal) is the Fisher information matrix, yielding the
+local to global connection of these two measures of information.
+Example 4 (Kullback-Liebler Divergence). The Kullback-Liebler divergence localizes to the Fisher information metric. In coordinates we
+obtain the Shahshahani metric since
+1
+∂2
+DKL (x||y)|x=y = δij .
+∂xi ∂yj
+xi
+Hence the induced gradient flow is the replicator equation. This allows
+the interpretation of Fisher’s Fundamental theorem and Kimura’s maximal principle in terms of Fisher information: natural selection forms a
+gradient with respect to an informatic measure, and hence locally has
+the direction of maximal information increase. The rate of change of
+the mean fitness of the population is given by the informatic variance.
+3.4. Kullback-Liebler Divergence is a Lyapunov function for
+the Replicator Dynamic. The following theorem shows that the
+Kullback-Liebler information divergence forms a Lyapunov function for
+the replicator dynamic, given an evolutionarily stable state. In fact,
+evolutionary stability is characterized by this property. A version of
+this theorem was proved in [1] and in [3].
+
+6
+
+MARC HARPER
+
+Theorem 5. The state x̂ is an interior ESS for the replicator dynamic
+if and only if DKL (x̂||x) is a local Lyapunov function.
+P
+P
+Proof. Let V (x) = DKL (x̂||x) = i x̂i log x̂i − i x̂i log xi . Then we
+have that
+X
+X ẋi
+x̂i (fi (x) − f¯(x))
+V̇ (x) = −
+x̂i = −
+x
+i
+i
+i
+!
+X
+X
+X
+X
+=−
+x̂i fi (x) +
+x̂i f¯(x) = −
+x̂i fi (x) +
+x̂i f¯(x)
+i
+
+=−
+
+X
+
+i
+
+i
+
+i
+
+x̂i fi (x) + f¯(x) = −(x̂ · f (x) − x · f (x)) < 0.
+
+i
+
+The last inequality holds if and only if x̂ is an ESS. Finally, by Jensen’s
+inequality, DKL is minimized when x = x̂, so it is a local Lyapunov
+function.
+
+result is proven in [8], with the Lyapunov function V (x) =
+Q A x̂similar
+i
+i xi , but the informatic origin is not apparent in this form, although
+the quantity V can be interpreted as the probability of finding a categorical distribution on x in the state x̂. The quantity DKL (x̂||x) can
+be described as the potential information of the replicator system. The
+above result can then be interpreted information theoretically – natural
+selection acts to minimize the potential information.
+Theorem 5 holds for a class of ecological dynamics. A dynamic of the
+form ẋi = xi gi (x), i = 1, . . . , n (an ecological dynamic) is called aggregate monotone with respect to a fitness landscape f if g = (g1 , . . . , gn )
+has the property that y·f (x) > z·f (x) if and only if y·g(x) > z·g(x), for
+all distributions x, y, z. An aggregate monotone dynamic is the replicator dynamic up to a change in velocity [11]. In particular, the replicator
+equation with a convex function applied to the fitness landscape is aggregate monotone. Consider the following extension of Theorem 5.
+Theorem 6. For an aggregate monotone ecological dynamic ẋi = xi gi (x),
+DKL (x̂||x) is a Lyapunov function for the dynamic if x̂ is an interior
+ESS.
+P
+P
+Proof. Let V (x) = DKL (x̂||x) = i x̂i log x̂i − i x̂i log xP
+i . Note that
+since ẋi = xi gi (x) is a dynamic on the simplex, 0 =
+i xi gi (x) =
+x · g(x). Then we have that
+X ẋi
+X
+V̇ (x) = −
+x̂i = −
+x̂i gi (x)
+xi
+i
+i
+= −x̂ · g(x) = −(x̂ · g(x) − x · g(x))
+
+INFORMATION GEOMETRY AND EVOLUTIONARY GAME THEORY
+
+7
+
+Applying aggregate monotonicity to the last equality completes the
+proof.
+
+Since a change of velocity does not alter the orbits of the dynamic,
+Theorem 6 shows that the replicator equation is essentially the only
+aggregate monotone ecological dynamic in which evolutionary stability
+corresponds to minimizing the Kullback-Liebler divergence. For exactly which class of evolutionary dynamics this property holds for is
+an open question. From the proof it is clear that the assumption of
+aggregate monotonicity is too strong for a full characterization since it
+is only needed that x̂ · g(x) − x · g(x) > 0 if x̂ · f (x) − x · f (x) > 0,
+which quantifies over two distributions rather than three.
+3.5. Exponential Families as Solutions of the Replicator Equation. The exponential map on the Shahshahani manifold is
+X xi evi
+P
+exp(x, v) =
+eˆ ,
+vj i
+j xj e
+i
+where eˆi is the i-th coordinate vector [6]. The exponential map reduces
+to the exponential family at the barycenter b = ( n1 , . . . , n1 ),
+exp(b, v) =
+
+X
+i
+
+1 vi
+e
+1
+Pn 1 v eˆi = P v (ev1 , . . . , evn ).
+j
+j
+je
+j ne
+
+The solutions of the replicator equation can be realized as exponential families [2, 6, 9]. Let xi = exp(vi − G) with v̇i = fi (x) and G(x)
+a normalization constant
+to ensureP
+that the distribution sums to one.
+P
+From the fact that i xi = 1, 0 = i ẋi and so
+X
+X
+0=
+ẋi =
+exp(vi (x) − G(x))(v̇i (x) − Ġ(x))
+i
+
+i
+
+=
+
+X
+
+xi (v̇i (x) − Ġ(x)) =
+
+i
+
+= f¯(x) − Ġ(x)
+
+X
+
+(xi fi (x)) − Ġ(x)
+
+i
+
+Hence Ġ = f¯(x). Now xi satisfies
+ẋi = exp(vi (x) − G(x))(v̇i (x) − Ġ(x)) = xi (fi (x) − f¯(x)),
+which is the replicator equation. In the case of a log-linear fitness landscape, explicit solutions can be derived [6]. In this case, the equation
+for the variable v can be reduced to a linear differential equation, which
+can be solved with eigenvalue methods.
+
+8
+
+MARC HARPER
+
+3.6. Denormalization. Information geometry defines the denormalized manifold P̃ (X) = {τ p|τ ∈ R+ , p ∈ P (X)}, which can be thought
+of as non-normalized discrete probability distributions. As with P (X),
+P̃ (X) has an information metric. The denormalized manifold embeds
+into the reals as Rn+ , with the denormalized information metric induced
+by the the metric given by Shahshahani, where the mapping back onto
+P (X) realizes τ as |x|. In coordinates, the metric is given by
+τ
+g̃ij (x) = τ gij (x) = δij ,
+xi
+Akin uses the metric
+gij (x) =
+
+1
+δij
+xi
+
+on Rn+ rather than the metric
+gij (x) =
+
+|x|
+δij
+xi
+
+given by Shahshahani [2, 13]. Both metrics restrict to the same metric given by Shahshahani on the simplex. From the point of view of
+information geometry, the metric given by Shahshahani is the natural
+choice. The choice affects the form of the gradient on Rn+ , which is in
+the case of Akin’s metric is the Lotka-Volterra predator-prey equation.
+3.7. The Lotka-Volterra Equations and the Replicator Equation. The Lotka-Volterra equations
+(1)
+
+ẋi = xi fi (x)
+
+descend from Rn+ , through a normalization map onto the simplex, to
+a replicator equation with an altered landscape. To see this, let |x| =
+xi
+x1 + · · · + xn , ẋi = xi fi (x) and yi = |x|
+. Rearrange to |x|yi = xi and
+P
+P
+d
+note that dt |x| = i ẋi = i xi fi (x) = x · f (x). By the product rule,
+d
+|x|yi + |x|ẏi = ẋi and so
+dt
+ẋi − dtd |x|ẏi
+d
+yi =
+dt
+|x|
+xi fi (x) − x · f (x)yi
+=
+|x|
+= yi (fi (x) − y · f (x))
+= yi (gi (y) − y · g(y)),
+where gi (y) = fi (x) is an alteration of the fitness landscape.
+
+INFORMATION GEOMETRY AND EVOLUTIONARY GAME THEORY
+
+9
+
+The Lotka-Volterra equations are the gradient flow with respect to
+the metric given by Akin on Rn+ [8]. The gradient of the metric given
+by Shahshahani differs by a factor of |x|:
+
+(2)
+
+ẋi =
+
+xi
+fi (x),
+|x|
+
+This system is transformable to Equation 1 after a change of velocity
+1
+eliminating the scalar function B(x) = |x|
+because B is strictly posn
+itive on R+ . Equation 2 transforms to a replicator equation via the
+normalization map [13].
+The Lotka-Volterra equations can be interpreted as a gradient of
+the denormalized Fisher information metric, in the case that f is an
+Euclidean metric, in analogy to the replicator equation. This allows
+denormalized analogues of earlier results, such as the following, which
+is true for the denormalized version of the Lotka-Volterra equation.
+Theorem 7. Let x̂ in Rn+ be such that
+
+x · f (x)
+x̂ · f (x)
+>
+|x̂|
+|x|
+
+in some neighborhood of x̂ (a denormalized ESS). Suppose that the
+xi
+trajectory of ẋi = |x|
+fi (x) lies in a set that contains no point parallel
+to x̂. Then the denormalized Kullback-Liebler divergence
+
+DKL
+
+
+
+x̂ x
+||
+|x̂| |x|
+
+
+
+is a local Lyapunov function for Equation 2.
+Proof. The divergence is minimal (and equal to zero) when x = cx̂ for
+some constant c. Hence if the line through the origin and the point x̂
+intersects the the trajectory at most once, the divergence is zero if and
+
+10
+
+MARC HARPER
+
+only if x̂ = x. The time derivative is
+"
+#
+
+
+
+X
+x̂ x
+d
+x̂i
+d
+DKL
+=0−
+||
+(log xi − log |x|)
+dt
+|x̂| |x|
+dt i |x̂|
+=−
+
+X x̂i ẋi
+i
+
+=−
+
+|x̂| xi
+
++
+
+X x̂i 1 xi
+
+˙
+X x̂i |x|
+i
+
+|x̂| |x|
+
+fi (x) +
+
+x · f (x)
+|x|2
+
+|x̂| xi |x|
+1 X x̂i
+1
+=−
+fi (x) + 2 x · f (x)
+|x| i |x̂|
+|x|
+
+
+1 x̂ · f (x) x · f (x)
+< 0.
+−
+=−
+|x|
+|x̂|
+|x|
+i
+
+
+
+4. Informatics of Multiple Population Replicator
+Dynamics
+The information-theoretic approach easily extends to multiple population replicator equations such as bimatrix games. As before, the
+potential information plays a crucial role. It is the sum of the potential informations of all populations that plays the role of the Lyapunov
+function and gives rise to the geometry. It suffices to discuss the two
+population case as it is clear that the results extend inductively to
+finitely-many populations.
+4.1. Two Populations. Consider two categorical distributions p =
+(p1 , . . . , pn ) and q = (qn+1 , . . . , qn+m ) with fitness landscapes f (p, q) =
+(f1 (p, q), . . . , fn (p, q)) and g(p, q) = (gn+1(p, q), . . . , gn+m(p, q)). Define
+the coupled replicator system
+
+ṗi = pi (fi (p, q) − Ep [f (p, q)])
+q˙j = qj (gj (p, q) − Eq [g(p, q)])
+where i runs from 1 to n and j runs from n + 1 to n + m. Note carefully
+that the expected values are taken with each distribution respectively.
+
+INFORMATION GEOMETRY AND EVOLUTIONARY GAME THEORY
+
+11
+
+This system is the gradient flow of the Riemannian metric defined
+on the interior of ∆n × ∆m given by
+
+1
+
+ pi if i = j ≤ n
+Gi,j (p, q) = q1i if i = j > n
+
+
+0 else
+
+That is, the matrix is the direct sum matrix of the usual metric for
+each equation. As in the single population case, we can use potential
+information to form a Lyapunov function for the system. Given states p̂
+and q̂, let L be the sum of the potential information of each categorical
+distribution. That is,
+L = Dp (p̂, p) + Dq (q̂, q)
+X
+X
+X
+X
+q̂j log q̂j −
+q̂j log qj
+p̂i log pi +
+=
+p̂i log p̂i −
+i
+
+i
+
+j
+
+j
+
+The metric can be obtained as the localization of the sum of the
+divergence functions. All the usual calculations follow from the fact
+that the system is a gradient, e.g. Fisher’s Fundamental Theorem.
+4.2. Potential Information is a Lyapunov Function. Recall that
+p̂ is an ESS in the single population case if p̂ · f (p) > p · f (p) for all p
+in a neighborhood of p̂.
+Theorem 8. If p̂ and q̂ are ESS for each system respectively then L is
+a Lyapunov function for the coupled system.
+Proof. A straight-forward computation shows that (up to a negative)
+L̇ = p̂ · f (p, q) − p · f (p, q) + q̂ · g(p, q) − q · g(p, q).
+L is positive everywhere and has minimum at (p̂, q̂). Since p̂ and q̂ are
+ESS, L̇ < 0, so L is a local Lyapunov function.
+
+Notice that the hypothesis that both p̂ and q̂ are ESS is too strong.
+Indeed, all that is required is that
+p̂ · f (p, q) + q̂ · g(p, q) > p · f (p, q) + q · g(p, q).
+Call this condition a coupled ESS (as well as its obvious higher dimensional analogs) and note that any ESS is a coupled ESS. Then L is a
+Lyapunov for the system if and only if (p̂ and q̂) is a coupled ESS for
+the two population system.
+
+12
+
+MARC HARPER
+
+4.3. Solutions. We can again show that the solutions are exponential
+families. Let v̇ = f (p, q) and ẇ = g(p, q). Let Ṅ = Ep [f (p, q)] and
+Ṁ = Eq [g(p, q)]. Then pi = exp (vi − N) and qj = exp (wj − M) is a
+solution to the coupled system. Indeed,
+ṗi = exp (vi − N)(v̇i − Ṅ ) = pi (fi (p, q) − Ep [f (p, q)]),
+and similarly for qj .
+4.4. Multiple Populations. The above generalizes by induction to
+show that for a coupled system of multiple interacting populations, the
+sum of the respective potential informations gives a Lyapunov function
+for a coupled ESS.
+5. Discussion
+The Shahshahani geometry can be interpreted within the framework
+of information theory as the information geometry of the simplex. This
+explains the origin of several quantities in evolutionary game theory
+including the Shahshahani metric and the Kullback-Liebler information divergence. An important feature of the approach is that the
+information-geometric reasoning extends to the Lotka-Volterra equation and the multiple population replicator equation easily within the
+framework. Additionally, the replicator dynamic arises intuitively from
+purely mathematical and statistical concepts such as Fisher information. This shows that the replicator equation models the information
+dynamics of natural selection.
+References
+[1] Ethan Akin. The geometry of population genetics. Lecture Notes in Biomathematics, 17(30-31), 1979.
+[2] Ethan Akin. Exponential families and game dynamics. Canadian Journal of
+Mathematics, XXXIV(2):374–405, 1982.
+[3] Ethan Akin. The differential geometry of population genetics and evolutionary games. Mathematical and Statistical Developments of Evolutionary Theory,
+299:1–94, 1990.
+[4] Shunichi Amari and A Fujiwara. Gradient systems in view of information geometry. Physica D: Nonlinear Phenomena, 1995.
+[5] Shunichi Amari and Hiroshi Nagaoka. Methods of Information Geometry, volume 191 of Translations of Mathematical Monographs. Oxford University Press,
+1993.
+[6] Nihat Ay and Ionas Erb. On a notion of linear replicator equations. Journal
+of Dynamics and Differential Equations, 17(2):427–451, 2005.
+[7] N.N. Chentsov. Statistical decision rules and optimal inference. 1982.
+[8] Josef Hofbauer and Karl Sigmund. Evolutionary Games and Population Dynamics. Cambridge University Press, 1998.
+
+INFORMATION GEOMETRY AND EVOLUTIONARY GAME THEORY
+
+13
+
+[9] Georgiy P Karev. Replicator equations and the principle of minimal production
+of information. ArXiv.
+[10] Martin Nowak. Evolutionary Dynamics: Exploring the Equations of Life. Belknap Press of Harvard University Press, 2006.
+[11] K. Ritzberger and J.W. Weibull. Evolutionary selection in normal form games.
+Econometrica, 63:1371–1399, 1995.
+[12] William H. Sandholm. Population Games and Evolutionary Dynamics. Cambridge, 2008.
+[13] S. Shahshahani. A new mathematical framework for the study of linkage and
+selection. Memoirs of the AMS, 17(221), 1979.
+University of California Los Angeles
+E-mail address: marcharper@ucla.edu
+
+

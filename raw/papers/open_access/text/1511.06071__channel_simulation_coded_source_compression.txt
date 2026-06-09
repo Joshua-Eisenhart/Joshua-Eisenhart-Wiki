@@ -1,0 +1,1835 @@
+1
+
+Channel Simulation and Coded Source Compression
+
+arXiv:1511.06071v2 [cs.IT] 7 Mar 2019
+
+Min-Hsiu Hsieh and Shun Watanabe
+
+Abstract—Coded source compression, also known as source
+compression with helpers, has been a major variant of distributed
+source compression, but has hitherto received little attention in
+the quantum regime. This work treats and solves the corresponding quantum coded source compression through an observation
+that connects coded source compression with channel simulation.
+First, we consider classical source coding with quantum side
+information where the quantum side information is observed
+by a helper and sent to the decoder via a classical channel.
+We derive a single-letter characterization of the achievable rate
+region for this problem. The direct coding theorem of our result
+is proved via the measurement compression theory of Winter,
+a quantum-to-classical channel simulation. Our result reveals
+that a helper’s scheme which separately conducts a measurement
+and a compression is suboptimal, and measurement compression
+seems necessary to achieve the optimal rate region. We then
+study coded source compression in the fully quantum regime,
+where two different scenarios are considered depending on the
+types of communication channels between the legitimate source
+and the receiver. We further allow entanglement assistance from
+the quantum helper in both scenarios. We characterize the
+involved quantum resources, and derive single-letter expressions
+of the achievable rate region. The direct coding proofs are based
+on well-known quantum protocols, the quantum state merging
+protocol and the fully quantum Slepian-Wolf protocol, together
+with the quantum reverse Shannon theorem.
+
+I. I NTRODUCTION
+Source coding normally refers to the information processing
+task that aims to reduce the redundancy exhibited when
+multiple copies of the same source are used. In establishing information theory, Shannon demonstrated a fundamental result
+that source coding can be done in a lossless fashion; namely,
+the recovered source will be an exact replica of the original
+one when the number of copies of the source goes to infinity
+[1]. If representing the source by a random variable X, with
+output space X and distribution pX , lossless source coding is
+possible if and only if the compression rate R is above its
+Shannon entropy:
+R ≥ H(X),
+(1)
+P
+where H(X) := x∈X −pX (x) log pX (x).
+Redundancy can also exist in scenarios where multiple
+copies of the source are shared by two or more parties
+that are far apart. Compression in this particular setting is
+This work was partially in Proceedings of IEEE Intl. Symp. Inf. Theory
+2015, and in Proceedings of IEEE Information Theory Workshop 2015.
+Min-Hsiu Hsieh is with the Centre for Quantum Computation & Intelligent
+Systems, Faculty of Engineering and Information Technology, University of
+Technology Sydney, Australia. Min-Hsiu Hsieh acknowledges the hospitality
+of the UTS-AMSS Joint Research Laboratory for Quantum Computation
+and Quantum Information Processing, Academy of Mathematics and Systems
+Science, Chinese Academy of Sciences, Beijing 100190, China. (email: MinHsiu.Hsieh@uts.edu.au)
+Shun Watanabe is with the Department of Computer and Information
+Sciences, Tokyo University of Agriculture and Technology, Japan. (email:
+shunwata@cc.tuat.ac.jp).
+
+called distributed source coding, which has been proven to
+be important in the internet era. The goal is to minimise
+the information sent by each party so that the decoder can
+still recover the source faithfully. Shannon’s lossless source
+coding theorem can still be applied individually to each party.
+However, it has been discovered that a better source coding
+strategy exists if the sources between different parties are
+correlated. Denote by X and Y the sources held by the two
+distant parties, where the joint distribution is PXY and the
+output spaces are X and Y, respectively. Slepian and Wolf
+showed that lossless distributed source coding is possible when
+the compression rates R1 and R2 for the two parties satisfy
+[2]:
+R1 ≥ H(X|Y ),
+R2 ≥ H(Y |X),
+
+R1 + R2 ≥ H(XY ),
+
+(2)
+(3)
+(4)
+
+where H(X|Y ) is the conditional Shannon entropy. This
+theorem is now called the classical Slepian-Wolf theorem [2].
+In particular, when the source Y is directly observed at the
+decoder, the problem is sometimes called source coding with
+(full) side information.
+Another commonly encountered scenario in a communication network is that a centralised server exists and its role is
+to coordinate all the information processing tasks, including
+the task of source coding, between the nodes in this network.
+Obviously, the role of the server is simply as a helper and it is
+not critical to reproduce the exact information communicated
+by the server. This is a major variant of distributed source
+compression, and proves to be important in the internet era.
+This slightly different scenario results in a completely different
+characterisation of the rate region, as observed by Wyner [8]
+and Ahlswede-Körner [4]. Consider that the receiver wants
+to recover the source X with the assistance of the server
+(that we will call a helper from now on) holding Y , where
+the distribution is PXY . Let R1 and R2 be the compression
+rates for the sender and the helper, respectively. Wyner and
+Ahlswede-Körner showed that the optimal rate region for
+lossless source coding of X with a classical helper Y is the
+set of rate pairs (R1 , R2 ) such that
+R1 ≥ H(X|U ),
+R2 ≥ I(U ; Y ),
+
+(5)
+(6)
+
+for some conditional distribution pU|Y (u|y), and I(U ; Y ) is
+the classical mutual information between random variables U
+and Y . When there is no constraint on R2 (i.e. R2 can be as
+large as it can be), this problem reduces to source coding with
+(full) side information.
+All of the above discussions are special cases of multiterminal noiseless source coding problems [5], [6], [7],
+
+2
+
+X1n
+
+E1
+
+X2n
+
+E2
+
+X3n
+
+E3
+
+R1
+R2
+
+Es−1
+
+Xsn
+
+Es
+
+Fig. 1.
+
+bn
+X
+g(1)
+
+D2
+
+bn
+X
+g(2)
+
+R3
+
+..
+.
+
+n
+Xs−1
+
+D1
+
+..
+.
+
+..
+.
+
+Rs−1
+Rs
+
+Dr
+
+bn
+X
+g(r)
+
+General multi-terminal noiseless source coding problem.
+
+illustrated in Figure 1. Consider s dependent sources
+X1 , X2 , · · · , Xs and let S = {1, 2, · · · , s}. These s sources
+are spatially separated, each observed by its own encoder
+Ei . There are r decoders D1 , · · · , Dr , and we denote D =
+{1, 2, · · · , r}. Each decoder Dk receives inputs from a predetermined set Si ⊂ S of encoders and is required to output
+the g(j)-th source information Xg(j) with vanishing probability of error as n goes to infinity. The function g : D → S, and
+we further assume that g(j) ∈ Sj , ∀j ∈ D. The target source
+Xg(j) is called the primary source for the j-th decoder Dj ,
+while all other {Xp }p∈Sj \g(j) are called the side information
+for Dj . The achievable rate region (R1 , R2 , · · · , Rs ) for this
+general multi-terminal noiseless source coding problem is
+derived in [6], [7]. It is interesting to see that the Slepian-Wolf
+case corresponds to S = D = {1, 2}, Sj = S, g(j) = j.
+The Wyner and Ahlswede-Körner case [8], [4] corresponds to
+S = {1, 2}, D = {1}, S1 = {1, 2}, g(1) = 1. It also reduces
+to other instances of distributed source coding problems that
+fall beyond the main interests of this paper [8], [9], [5].
+The problem of source coding, when replacing classical
+sources with quantum sources, appears to be highly non-trivial
+in the first place1 . The first quantum source coding theorem
+was established by Schumacher. A quantum source ρA can be
+losslessly compressed and decompressed if and only if the rate
+R is above its von Neumann entropy2:
+R ≥ H(A)ρ ,
+
+(7)
+
+where H(A)ρ := − Tr ρA log ρA .
+Schumacher’s quantum source coding theorem bears a close
+resemblance to its classical counterpart. One will naturally
+expect that the same will hold true for the distributed source
+coding problem in the quantum regime. Consider that Alice,
+who has the quantum system A of an entangled source ρAB ,
+1 The first quantum source coding result [10] took a much longer time to
+develop, considering that quantum theory began to evolve in the mid-1920s.
+2 The subscript A is a label to which the quantum system ρ belongs.
+A
+
+would like to merge her state to the distant party Bob. The
+quantum distributed source coding theorem (also known as
+quantum state merging) aims to answer the optimal rate R at
+which quantum information in system A can be communicated
+faithfully to a party with quantum side information in system
+B. As it turns out, the optimal rate is given by the conditional
+von Neumann entropy H(A|B)ρ , a quantum generalisation
+of classical conditional Shannon entropy. While the quantum
+formula to the distributed source coding problem is also of
+the form of conditional entropy, this result has a much deeper
+and profound impact in the theory of quantum information,
+as it marks a clear departure between classical and quantum
+information theory. It is rather perplexing that the rate at
+which R is quantified by the conditional entropy H(A|B)ρ
+can be negative. This major piece of the puzzle was resolved
+with the interpretation that if the rate is negative, the state
+can be merged, and in addition, the two parties will gain
+|H(A|B)ρ | amount of entanglement for later quantum communication [13], [14], [15]. The distributed quantum source
+coding problem was later fully solved [16], [19] where the
+trade-off rate region between the quantum communication and
+the entanglement resource is derived. The result is now called
+the fully quantum Slepian-Wolf theorem (FQSW).
+Source coding with hybrid classical-quantum states ρXB ,
+with X representing a classical system and B a quantum
+system, has also been considered in quantum information
+theory, and one of our main results falls into this category. In
+[20], Devetak and Winter considered classical source coding
+with quantum side information at the decoder, and showed that
+the optimal rate R1 is given by H(X|B)ρ . This result can be
+regarded as a classical-quantum version of the source coding
+with (full) side information.
+In this work, we first revisit the classical coded source
+compression [8], [4]. We significantly simplify the original
+proof, which might appear to be somewhat ad hoc. Instead,
+our arguably simpler achievability proof (Theorem 2) reveals
+a structure of the composition of known protocols. We can
+achieve this due to the observation that connects coded source
+compression with classical channel simulation, a powerful
+information-theoretical tool obtained recently [33]. The proof
+indicates that channel simulation is a general subroutine employed between the helper and the decoder in the task of coded
+source compression. The approach of composing protocols is
+advocated under the name of “resource inequalities”, and has
+been successful in quantum information theory [17], [18], [19].
+Next, we consider classical source coding with a quantum
+helper. In our setup, the quantum side information is observed by the helper, and the decoder only has a classical
+description from the quantum helper. Although our problem
+can be regarded as a classical-quantum version of the classical
+helper problem studied in [8], [4], in contrast to its classical
+counterpart, our problem does not reduce to source coding
+with quantum side information studied in [20], even if there
+is no constraint on rate R2 . However, when the ensemble
+that constitutes the quantum side information is commutative,
+our problem reduces to the classical helper problem [8], [4].
+We completely characterize the rate region of the classical
+source coding with the quantum helper problem. In fact, the
+
+3
+
+formulae describing the rate region (cf. Theorem 3) resembles
+the classical counterpart (cf. (8) and (9)). However, the proof
+technique is very different due to the quantum nature of the
+helper. In particular, we use Winter’s measurement compression theory [29] in the direct coding theorem. One of the
+interesting consequences of our result is that a helper’s scheme
+that separately conducts a measurement and a compression is
+suboptimal; measurement compression appears to be necessary
+to achieve the optimal rate region.
+We then extend the classical distributed source coding
+problem [8], [4] and its classical-quantum generalisation to
+the fully quantum version; namely compression of a quantum
+source with the help of a quantum server. We consider two
+natural scenarios depending on the types of communication
+channels, be it classical or quantum, shared between the
+legitimate sender and the receiver. Moreover, we allow the
+quantum helper to utilize the quantum resource of entanglement freely. This assumption could somehow be justified
+since the centralized server normally has more resources at his
+disposal. Our direct coding proofs compose two fundamental
+quantum protocols; the state merging protocol [13], [14] and
+the fully quantum Slepian-Wolf protocol, together with the
+quantum reverse Shannon theorem [34]. The current progress
+of coded source compression is summarized in Table I. We
+hope that this observation will lead to concrete progress of the
+quantum multi-terminal noiseless source coding problem. We
+Classical Helper
+Quantum Helper
+
+Classical Source
+Refs. [8], [4]
+Theorem 3
+
+Quantum Source
+×
+Theorem 6
+
+TABLE I
+C ODED S OURCE C ODING IN C LASSICAL AND Q UANTUM R EGIMES
+
+remark that the quantum source compression with a classical
+helper is a very subtle task, which is left open even when
+the decoder has full classical side information [20] (instead of
+partial side information from the classical helper).
+The quantum source compression with a quantum helper is
+treated in a different scenario in Ref. [14]. Over there, classical
+communication is allowed from the helper to the receiver, and
+limited entanglement resource is considered. As a result, their
+formula requires regularization. By contrast, our result resorts
+to a quantum reverse Shannon theorem, and has the appealing
+single-letter expression.
+There is a huge amount of work devoted to both classical
+and quantum lossy source coding [21], [22], [23], [24], [25],
+[26]. We will restrict ourselves to only noiseless source coding
+in this work. However, as it turns out, channel simulation
+simplifies both rate distortion theory and coded source compression.
+Notations. In this paper, we will use capital letters
+X, Y, Z, U etc. to denote classical random variables, and lower
+cases x, y, z, u to denote their realisations. We use X , Y, Z, U
+to denote the sample spaces. We denote xn = x1 x2 · · · xn .
+A quantum state is a positive semi-definite matrix with
+trace equal to one. We will use ρ or σ to denote quantum
+states in this paper. Furthermore, we will reserve the notation
+τ to denote the completely mixed state. In case we need to
+
+specify which party the quantum state belongs to, we will use
+a subscript description ρA , meaning that the quantum system
+is held by A(lice). Letting {|xihx|}x∈X be a set of orthonormal
+basis vectors, a classical-quantum state ρXB is written as
+X
+ρXB =
+pX (x)|xihx| ⊗ ρx ,
+x
+
+so that n copies of it is
+X (n)
+ρ⊗n
+pX (xn )|xn ihxn | ⊗ ρxn ,
+XB =
+xn
+
+where we denote ρxn := ρx1 ⊗· · ·⊗ρxn for the sequence xn . A
+positive-operator valued measure (POVM), Λ = {Λy }y∈Y , is a
+quantum measurement whose elements areP
+non-negative selfadjoint operators on a Hilbert space so that y∈Y Λy = I. For
+a quantum channel E : A → B, we will denote its Stinespring
+extension by UE : A → BC.
+Various entropic quantities will be used in the paper. The
+von Neumann entropy of a quantum state ρA , where the
+subscript A represents the quantum state held by A(lice), is
+H(A)ρ = − Tr(ρA log ρA ). The conditional von Neumann
+entropy of system A conditioned on B of a bipartite state ρAB
+is H(A|B)ρ = H(AB)ρ −H(B)ρ . The quantum mutual information between two systems A and B of ρAB is I(A; B)ρ =
+H(A)ρ + H(B)ρ − H(AB)ρ . The conditional quantum mutual
+information I(A; B|C)ρ = I(A; BC)ρ − I(A; C)ρ .
+We will also employ the framework of Resource Inequality
+(RI) [17], [19]. The RIs are a concise way of describing
+interconversion of resources in an information-processing task.
+Denote by [qq] and [q → q] an ebit (maximally entangled pairs
+of qubits) and a noiseless qubit channel, respectively. Then a
+quantum channel N that can faithfully transmit Q(N ) qubits
+per channel use with an unlimited amount of entanglement
+assistance can be symbolically represented as
+hN i + ∞[qq] ≥ Q(N )[q → q],
+where hN i is an asymptotic noisy resource that corresponds
+to many independent uses, i.e. N ⊗n . Schumacher’s noiseless
+source compression [10] can be similarly expressed
+H(B)ρ [q → q] ≥ hρB i,
+which means that a rate of H(B)ρ noiseless qubits asymptotically is sufficient to represent the noisy quantum source
+ρB .
+Sometimes, the RI only applies to the relative resource, hN :
+ρi, which means that the asymptotic accuracy is achieved only
+when n uses of N are fed an input of the form ρ⊗n . For
+detailed treatment of combining two RIs and cancellations of
+quantum resources, see Ref. [17].
+This paper is organised as follows. In Sec II, we revisit
+classical source compression with a helper using the channel
+simulation idea. In Sec III, we formally define the problem of
+source coding with a quantum helper, and present the main
+result as well as its proof. In Sec IV, we study the source
+coding with a helper in the fully quantum regime, and two
+different scenarios will be treated. We conclude in Sec V with
+open questions.
+
+4
+
+II. C LASSICAL C ODED S OURCE C OMPRESSION
+We first define the classical channel simulation capacity,
+paralleling the definition in [33, Eq. (4)]. Consider two classical channels W1 : X1 → Y1 and W2 : X2 → Y2 . To be
+completely general, we also allow (sufficiently many) common
+randomness ΦAB on A × B shared between Alice’s encoding
+and Bob’s decoding operations, where A = B. For given
+integers n and m, a channel simulation code is specified by
+m
+n
+• Alice’s encoding operation En : X2 × A → X1 and
+n
+m
+• Bob’s decoding operation Dn : Y1 × B → Y2 .
+We say that a given channel simulation code is (n, m, ǫ)-code
+if, for every xm ∈ X2m ,
+
+Xn ϕ
+
+M
+
+ρ⊗n
+XB
+B
+
+n
+
+Λℓ
+
+L
+
+D
+
+bn
+X
+
+Fig. 2. Classical Source Compression with a Quantum Helper.
+
+for some conditional distribution pU|Y (u|y), and I(U ; Y ) is
+the classical mutual information between random variables U
+and Y .
+With the help of Theorem 1, we can provide a simpler direct
+⊗m m
+⊗n
+m
+kW2 (x )−(IA ⊗Dn )◦((W1 ◦En )⊗IB )(x ⊗ΦAB )k1 ≤ ǫ.
+coding theorem for Theorem 2.
+Then, we say that rate R is achievable if, for any ǫ, δ > 0 Proof. In the proof, the strategy that the classical helper
+and all sufficiently large n, there exists an (n, m, ǫ) code employs can be conceptually viewed as assisting the decoder
+with m ≥ n(R − δ). The channel simulation capacity of to simulate the local channel pU|Y . For n sufficiently large,
+the first channel W1 needed to simulate the second channel the classical communication rate that the helper needs to send
+W2 , C(W1 → W2 ), is the supremum of all achievable rates. is I(U ; Y ) and
+Shannon’s noiseless channel coding theorem can be seen as a
+kpnUX − qUn X n k1 ≤ ǫ,
+special case of C(W1 → W2 ) in which W2 is the identity
+channel id. Another special case is the following classical where qUn X n is the joint distribution induced by the
+reverse Shannon Theorem where W1 is the identity channel simulation of pU|Y . Thus, the full side information about
+U n is possessed by the decoder, and the source compression
+id ([33, Theorem 2] and [34, Theorem 1(a)]).
+with full side information can be carried out. Since the
+Theorem 1 (Classical Reverse Shannon Theorem):
+helper’s local channel can be simulated at the decoder whose
+1
+inaccuracy is at most ǫ, the overall error for classical source
+,
+C(id → N ) =
+C(N )
+compression with a classical helper can be achieved with this
+additional ǫ error.
+where C(N ) is the Shannon capacity of the channel N .
+Using a noiseless resource to simulate a noisy one seems
+like a useless task to explore at first glance. However, it turns
+III. C LASSICAL S OURCE C OMPRESSION WITH A
+out that such a task can be used to simplify coded source
+Q UANTUM H ELPER
+compression conceptually (among others).
+Consider a discrete memoryless source (X, Y ) with a joint
+As shown in Figure 2, the protocol for classical source
+distribution pXY (x, y) over X × Y. To begin with, we define coding with a quantum helper involves two senders, Alice
+an (n, ǫ) code for classical coded source compression that and Bob, and one receiver, Charlie. Initially Alice and Bob
+consists of the following:
+hold n copies of a classical-quantum state ρXB . In this case,
+n
+Alice holds classical random variables X n while Bob (as a
+• Alice’s encoding operation ϕA : X → M, where M :=
+helper) holds a quantum system B n that is correlated to Alice’s
+{1, 2, · · · , |M|} and |M| = 2nR1 ;
+n
+• Bob’s encoding operation ϕB : Y
+→ L, where L := message. The goal is for the decoder, Charlie, to faithfully
+recover Alice’s message when assisted by the quantum helper,
+{1, 2, · · · , |L|} and |L| = 2nR2 ;
+bn
+Bob.
+• a decoding operation D : M × L → X
+We now proceed to formally define the coding procedure.
+so that
+We
+define an (n, ǫ) code for classical source compression with
+n
+n
+b } ≤ ǫ.
+Pr{X 6= X
+a quantum helper that consists of the following:
+n
+A rate pair (R1 , R2 ) is said to be achievable if for any ǫ, δ > 0
+• Alice’s encoding operation ϕ : X → M, where M :=
+nR1
+and all sufficiently large n, there exists an (n, ǫ) code with
+;
+{1, 2, · · · , |M|} and |M| = 2
+n
+the rates R1 + δ and R2 + δ. The rate region is defined as the
+• Bob’s POVM Λ = {Λℓ } : B
+→ L, where L :=
+collection of all achievable rate pairs.
+{1, 2, · · · , |L|} and |L| = 2nR2 ;
+bn
+• Charlie’s decoding operation D : M × L → X
+Theorem 2 (Classical source compression with a classical
+helper [8], [4]): The optimal rate region for lossless source so that the error probability satisfies
+coding of X with a classical helper Y is the set of rate pairs
+b n } ≤ ǫ.
+Pr{X n 6= X
+(10)
+(R1 , R2 ) such that
+A rate pair (R1 , R2 ) is said to be achievable if for any
+R1 ≥ H(X|U ),
+(8)
+ǫ, δ > 0 and all sufficiently large n, there exists an (n, ǫ) code
+R2 ≥ I(U ; Y ),
+(9) with the rates R + δ and R + δ. The rate region is then
+1
+2
+
+5
+
+defined as the collection of all achievable rate pairs. Our main
+result is the following theorem.
+
+R2
+
+Theorem 3: Given is a classical-quantum source ρXB . The
+optimal rate region for lossless source coding of X with a
+quantum helper B is the set of rate pairs (R1 , R2 ) such that
+
+H(U*)
+I(U*;B)σ
+
+R1 ≥ H(X|U )
+
+R2 ≥ I(U ; B)σ .
+
+(11)
+(12)
+
+The state σUB (Λ) resulting from Bob’s application of the
+POVM Λ = {Λu }u∈U is
+σUB (Λ) =
+
+X
+
+u∈U
+
+pU (u)|uihu| ⊗ ρu
+
+(13)
+
+where
+
+H(X|B)ρ
+
+H(X)
+
+R1
+
+H(X|U*) = H(X) - Iacc
+Fig. 3. A typical shape for the rate region in Theorem 3.
+
+First, we have the following bound:
+pU (u) = Tr(ρB Λu )
+1 √
+√
+ρu =
+[ ρ B Λ u ρ B ]∗
+pU (u)
+X
+ρB =
+pX (x)ρx .
+
+(14)
+
+log |M| ≥ H(M )
+≥ H(M |L)
+
+(15)
+
+≥ H(M |L) − H(M |L, X n )
+= I(X n ; M |L)
+
+(16)
+
+x
+
+A typical shape for the rate region in Theorem 3 is illustrated in Figure 3. When there is no constraint on R2 , rate R1
+can be decreased to be as small as
+
+= H(X n |L) − H(X n |M L)
+
+(23)
+
+≥ H(X n |L) − nǫn
+n
+(b) X
+≥
+H(Xt |X<t , L) − nǫn
+
+(24)
+
+(c)
+
+=
+
+t=1
+n
+X
+t=1
+
+(d)
+
+H(X|U ) := min H(X|U )
+Λ
+
+(18)
+
+= H(X) − Iacc ,
+
+(19)
+
+Λ
+
+where Iacc is the accessible information for the ensemble
+{pX (x), ρx }x∈X . Unless the ensemble commutes [12], the
+minimum rate H(X|U ∗ ) is larger than the rate H(X|B)ρ ,
+which is the optimal rate in the source coding with quantum
+side information [20]. To achieve R1 = H(X|U ∗ ), it suffices
+to have R2 ≥ I(U ∗ ; B)σ , which is smaller than H(U ∗ ) in
+general. This means that the following separation scheme is
+suboptimal: first conduct a measurement to get U ∗ and then
+compress U ∗ . For more detail, see the direct coding proof.
+1) Converse Proof: Let ϕ : X n → M be Alice’s encoder, and let {Λℓ }ℓ∈L be Bob’s measurement. Alice sends
+M = ϕ(X n ) to the decoder, and Bob sends the measurement outcome L to the decoder. Fano’s inequality states that
+H(X n |M, L) ≤ nǫn for some ǫn → 0 as n → ∞, given the
+condition (10) holds.
+
+H(Xt |Ut ) − nǫn
+
+= nH(XJ |UJ , J) − nǫn ,
+
+(17)
+
+= H(X) − max I(X; U )
+
+(22)
+
+(a)
+
+where ∗ denotes complex conjugation in the standard basis.
+Furthermore, we can restrict the size of POVM as |U| ≤ d2B ,
+where dB is the dimension of Bob’s system.
+
+∗
+
+(20)
+(21)
+
+(25)
+(26)
+(27)
+
+where (a) follows from Fano’s inequality: H(X n |M, L) ≤
+nǫn for some ǫn → 0 as n → ∞; (b) uses the chain rule
+and denotes X<t := (X1 , . . . , Xt−1 ); in (c), we denote Ut :=
+(X<t , L); (d) introduces a time-sharing random variable J
+that is uniformly distributed in the set {1, 2, · · · n}.
+Denote the state after the helper’s measurement {Λℓ } by
+
+ωLX n B n :=
+
+X
+ℓ
+
+n
+
+pL|X n (ℓ|xn )pX n (xn )|ℓihℓ| ⊗ |xn ihxn | ⊗ ρB
+ℓxn ,
+
+where
+
+pL|X n (ℓ|xn )
+n
+
+ρB
+ℓxn
+
+= Tr[ρxn Λℓ ]
+1
+√
+√
+=
+[ ρ x n Λ ℓ ρ x n ]∗ .
+n
+pL|X n (ℓ|x )
+
+6
+
+The following equations are evaluated on the state ωLX n B n :
+log |L| ≥ H(L)
+≥ I(L; B n )
+n
+X
+=
+I(L; Bt |B<t )
+t=1
+n
+X
+
+=
+=
+
+(30)
+
+I(L, B<t ; Bt )
+
+t=1
+n
+X
+
+(a)
+
+(28)
+(29)
+
+(31)
+
+I(L, B<t , X<t ; Bt )
+
+(32)
+
+I(L, X<t ; Bt )
+
+(33)
+
+I(Ut ; Bt )
+
+(34)
+
+t=1
+
+≥
+=
+
+n
+X
+
+t=1
+n
+X
+t=1
+
+I(X<t ; Bt |L, B<t ) ≤ I(X<t ; Bt , B>t |L, B<t )
+(35)
+n
+= H(X<t |L, B<t ) − H(X<t |L, B )
+(36)
+≤ H(X<t |B<t ) − H(X<t |L, B n ) (37)
+= H(X<t |B<t ) − H(X<t |B n )
+(38)
+= H(X<t |B<t ) − H(X<t |B<t )
+= 0.
+
+(39)
+(40)
+
+The equality in Eq. (38) follows since L − B n − X n is a
+Markov chain.
+Following from Eq. (34), we can again introduce a timesharing random variable J that is uniformly distributed in the
+set {1, 2, · · · , n}:
+I(Ut ; Bt ) = n
+
+t=1
+
+n
+X
+t=1
+
+I(Ut ; Bt |J = t)
+
+(41)
+
+= nI(UJ ; BJ |J)
+= nI(UJ J; BJ )
+
+(42)
+(43)
+
+where the last equality follows because I(J; BJ ) = 0. To
+get the single-letter formula, define X := XJ , B := BJ ,
+U := (UJ , J) and let n → ∞:
+1
+R1 = log |M| ≥ H(X|U )
+n
+1
+R2 = log |L| ≥ I(U ; B).
+n
+
+(44)
+(45)
+
+Note that the distribution of Ut = (L, X<t ) can be written as
+!
+Y
+pX (xi ) ×
+pX<t L (x<t , ℓ) =
+Tr
+P
+
+i<t
+"(
+
+O
+i<t
+
+PXU (x, u) = pX (x)pU|X (u|x).
+
+ρx i
+
+!
+
+⊗ ρBt ⊗
+
+O
+i>t
+
+ρBi
+
+!)
+
+#
+
+Λℓ ,
+(46)
+
+where ρBj = xj ∈X pX (xj )ρxj . Thus, we can get Ut as a
+measurement outcome of Bt by first generating X<t , then by
+
+(47)
+
+The observation made in the achievability proof is the
+application of Winter’s measurement compression theory [29].
+Theorem 4 (Measurement compression theorem [29], [30]):
+Let ρA be a source state and Λ a POVM to simulate on this
+state. A protocol for a faithful simulation of the POVM is
+achievable with classical communication rate R and common
+randomness rate S if and only if the following set of inequalities hold
+R ≥ I (X; R) , R + S ≥ H (X) ,
+
+where (a) follows from
+
+n
+X
+
+N
+N
+appending
+i>t ρxi to ancillae systems, and
+i<t ρxi and
+finally by conducting the measurement {Λℓ }ℓ∈L .
+Finally, the bound on |U| can be proved via Carathódory’s
+theorem (cf. [32, Appendix C]).
+2) Direct Coding Theorem: Fix a POVM Λ = {Λu }u∈U . It
+induces a conditional probability pU|X (u|x) = Tr[Λu ρx ], and
+a joint probability distribution
+
+(48)
+
+where the entropies are with respect to a state of the following
+form:
+X
+|xi hx|X ⊗ TrA {(IR ⊗ Λx ) φRA } ,
+(49)
+x
+
+and |φRA i is some purification of the state ρA .
+Let K be a random variable on K, which describes the
+common randomness shared between Alice and Bob. Let
+e (k)
+{Λ
+un }un ∈U n be collection of POVMs. Let
+X 1
+(n)
+e (k)
+QnX Ue (xn , un ) := PX (xn )
+(50)
+Tr[ρxn Λ
+un ],
+|K|
+k∈K
+
+(n)
+where PX (xn )
+
+:= PX (x1 ) × · · · × PX (xn ). The faithful
+simulation of n copies of POVM Λ := {Λu }u∈U , i.e. Λ⊗n ,
+implies that for any ǫ > 0 and n sufficiently large, there exist
+e (k) }k∈K , where Λ
+e (k) := {Λ
+e (k)
+POVMs {Λ
+un }un ∈U n , with
+
+1 (n)
+kP
+− QnX Ue k1 ≤ ǫ.
+(51)
+2 XU
+Note that Winter’s measurement compression theorem can be
+expressed in terms of a resource inequality (RI) as follows:
+I(X; R)[c → c] + H(X|R)[cc] ≥ hΛ : ρA i,
+
+where the entropic quantities are defined with respect to the
+state in Eq. (49).
+Now, we are ready to prove the direct coding theorem. The
+key insight is the equivalence between the role of a quantum
+helper in the coded source compression and the simulation of
+a quantum-classical channel (i.e. a quantum measurement).
+Bob’s coding. Recall the state σUB (Λ) in Eq. (13), where a
+classical random variable U is generated after Bob’s measurement Λ = {Λu }u∈U acting on his quantum system B. Note
+that Alice and Bob now hold classical random variables X n
+and U n , respectively. Instead of performing the purely classical coding strategy on X n U n stated in Theorem 2, the decoder
+Charlie can directly simulate the measurement outcome U n
+using Winter’s measurement compression theorem [29], [30].
+Then Theorem 4 promises that by sending R2 ≥ I(U ; B)σ
+from Bob to the decoder Charlie, Charlie will have a local
+
+7
+
+e n that is ǫ-close to U n . Furthermore, the distribution
+copy U
+n
+QX Ue between Alice and Charlie will satisfy Eq. (51).
+Alice’s coding. Alice’s strategy is very simple once Charlie
+e n . She just uses the Slepian-Wolf coding as if she
+has had U
+starts with the distribution PXU with Charlie. In fact, it is well
+known (cf. [27]) that an encoder ϕ : X n → M and a decoder
+D : M × U n → X n exist such that |M| = 2n(H(X|U)+δ) and
+(n)
+
+PXU (Ac ) ≤ ǫ
+
+(52)
+
+for sufficiently large n, where
+A := {(xn , un ) ∈ X n × U n : D(ϕ(xn ), un ) = xn }
+
+(53)
+
+is the set of correctably decodable pairs.
+Now, suppose that Alice and Bob use the same code for
+the simulated distribution QnX Ue . Then, by the definition of the
+variational distance and Eq. (51), we have
+(n)
+
+QnX Ũ (Ac ) ≤ PXU (Ac ) + ǫ.
+
+(54)
+
+(n)
+
+Thus, if we can find a good code for PXU , we can also use
+that code for QnX Ue for a sufficiently large n.
+Derandomization. The standard derandomization technique
+works here. If the random coding strategy works fine on
+average, then there is one realisation
+that also works. Since
+P
+1
+n
+Q
+the distribution QnX Ue = |K|
+k∈K X U
+e |k , we have
+X 1
+k
+
+|K|
+
+QnX Ue |K=k (Ac ) = QnX Ũ (Ac ) ≤ PXU (Ac ) + ǫ. (55)
+
+c
+Thus, there exists one k ∈ K so that QnX U|k
+e (A ) is small.
+
+IV. F ULLY Q UANTUM S OURCE C OMPRESSION WITH A
+Q UANTUM H ELPER
+The coding scenario for quantum sources with a quantum
+helper is potentially more complicated than purely classical
+settings due to the existence of entanglement. We will discuss
+two scenarios that depend on the types of communication
+channels between the legitimate sender and the receiver. In
+both settings, we assume that the helper (or the centralized
+server) possesses quantum resources of entanglement shared
+between him and the receiver. Before showing the main results
+in this section, we first present relevant quantum protocols that
+prove crucial in the proof of achievability.
+Relevant quantum protocols. Given a bipartite state ρAB
+whose purification is |ψABR i, the state merging protocol [13],
+[14], [15] is the information-processing task of distributing the
+A-part of the system, that originally belongs to Alice, to the
+distant Bob without altering the joint state. Moreover, Alice
+and Bob have access to pre-shared entanglement and their goal
+is to minimise the number of EPR pairs consumed during the
+protocol. The state merging can be efficiently expressed as the
+following RI:
+hψA|B|R i + I(A; R)ψ [c → c] + H(A|B)ψ [qq] ≥ hψ|AB|R i
+(56)
+where the notation ψA|B|R denotes the state is originally
+shared between three distant parties Alice, Bob, and Eve, while
+ψ|AB|R means that the system A is now together with the
+system B. This protocol involves classical communication;
+
+however, for the purpose of this section, quantum resources
+are much more valuable and classical communication is considered to be free. As a result, the state merging protocol either
+consumes EPR pairs with rate H(A|B)ψ when this quantity
+is positive, or generates EPR pairs with rate |H(A|B)ψ | for
+later uses, if H(A|B)ψ is negative, after the transmission of
+the system A to B.
+The state merging protocol gives the first operational interpretation to the conditional von Neumann entropy. More
+importantly, it provides an answer to a formerly long-standing
+puzzle—the conditional von Neumann entropy can be negative, a situation that has no classical correspondence.
+The fully quantum Slepian-Wolf (FQSW) protocol [16],
+[19] can be considered as the coherent version of the state
+merging protocol. It can be described as
+1
+1
+hψA|B|R i + I(A; R)ψ [q → q] ≥ I(A; B)ψ [qq] + hψ|AB|R i.
+2
+2
+(57)
+It is a simple exercise to show, via the resource inequalities,
+that the state merging protocol can be obtained by combining
+teleportation with the FQSW protocol [16], [19]. Moreover,
+the FQSW protocol can be transformed into a version of
+the quantum reverse Shannon theorem (QRST) that involves
+entanglement assistance [16].
+The quantum reverse Shannon theorem (QRST) addresses a
+fundamental task that asks, given a quantum channel N , how
+much quantum communication is required from Alice to Bob
+so that the channel N can be simulated. There are variants of
+the QRST depending on whether entanglement or feedback is
+allowed in the simulation (see [34, Theorem 3]). The QRST
+protocol has become a powerful tool in quantum information
+theory. It can be used to establish a strong converse to the
+entanglement-assisted capacity theorem. Moreover, it can also
+be used to establish quantum rate distortion theorems [24],
+[25], [26].
+In this paper, we will use the QRST with entanglement
+assistance [34, Theorem 3(a)].
+Theorem 5 (Quantum Reverse Shannon Theorem): Let N
+be a quantum channel from A to B so that its isometry
+UN : A → BE results in the following tripartite state when
+inputting ρA :
+ρ
+i,
+|ψRBE i = IR ⊗ UN |ψRA
+
+ρ
+ρ
+where TrR |ψRA
+ihψRA
+| = ρA . Then with a sufficient amount
+of pre-shared entanglement, the channel N with input ρA can
+be simulated with quantum communication rate 12 I(R; B)ψ :
+
+1
+1
+I(R; B)ψ [q → q] + I(E; B)ψ [qq] ≥ hN : ρA i.
+2
+2
+
+(58)
+
+A. Scenario I: Classical Communication Channel between the
+Quantum Source and Receiver
+As shown in Figure 4, the protocol for fully quantum
+source coding with a quantum helper involves two senders,
+Alice and Bob, and one receiver, Charlie. Initially Alice and
+Bob hold n copies of a bipartite quantum state ρAB , where
+Alice holds quantum systems An := A1 · · · An while Bob
+(being a quantum helper) holds quantum systems B n =
+
+8
+
+ΦTA TA′
+
+ρ⊗n
+AB
+
+ΦTB TB′
+
+TA
+An
+B
+
+TA′
+
+A1
+EA
+
+M
+
+TB
+
+EB
+
+C1
+D
+
+n
+
+L
+
+The state φACER resulting from Bob’s application of some
+CPTP map E : B → C with isometric extension UE :
+B → CE is
+
+TB′
+
+bn
+A
+b
+L
+Tb′
+
+|φACER i = IRA ⊗ UE |ψABR i.
+
+B
+
+Fig. 4. Fully quantum source compression with a quantum helper when the
+quantum source and the receiver are connected by a classical channel.
+
+B1 · · · Bn . Moreover, there are pre-shared entangled states
+|ΦTA TA′ i between Alice and Charlie, and pre-shared entangled
+states |ΦTB TB′ i between Bob and Charlie. The goal is for the
+decoder Charlie to faithfully recover Alice’s quantum state
+ρAn = Tr ρ⊗n
+AB when assisted by the quantum helper Bob.
+We now proceed to formally define the coding procedure.
+Let ψABR be a purification of ρAB . We define an (n, ǫ) code
+for fully quantum source compression with a quantum helper
+to consist of the following:
+n
+• Alice’s encoding operation EA : TA A → A1 M , where
+A1 is a quantum system and M is a classical system;
+Alice only sends M to Charlie;
+n
+• Bob’s encoding operation EB : TB B → L, where L is
+a quantum system of dimension |L| = 2nR2 ; Bob sends
+the quantum system to Charlie;
+′ ′
+bn L
+b Tb′
+• Charlie’s decoding operation D : M LTA TB → A
+B
+n b b′
+′ ′
+b
+with isometric extension UD : M LTA TB → C1 A LTB
+that produces
+′ T′ )
+ωA1 C1 Abn LR
+b n Tb′ = IA1 Rn ⊗ UD (σA1 MLRn TA
+B
+B
+
+where
+σA1 MLRn TA′ TB′ = EA ⊗ IRn LTB′ (θAn Rn LTB′ ⊗ ΦTA TA′ )
+and
+⊗n
+⊗ ΦTB TB′ ).
+θAn Rn LTB′ = IAn Rn TB′ ⊗ EB (ψABR
+
+B
+
+(59)
+
+where |ΦA1 C1 i is a maximally entangled state. This condition
+(59) guarantees that Alice’s quantum system An is sent to
+Charlie faithfully since ωAbn ≈ǫ θAn = ρAn .
+Let R1 = log |TA | − log |A1 |. A rate pair (R1 , R2 ) is said
+to be achievable if for any ǫ, δ > 0 and all sufficiently large n,
+there exists an (n, ǫ) code with rates R1 + δ and R2 + δ. The
+rate region is then defined as the collection of all achievable
+rate pairs. Our main result is the following theorem.
+Theorem 6: Given is a bipartite quantum source ρAB =
+TrR ψABR . The optimal rate region for lossless source coding
+of A with a quantum helper B is the set of rate pairs (R1 , R2 )
+such that
+R1
+R2
+
+≥ H(A|C)φ
+1
+≥
+I(RA; C)φ .
+2
+
+1) Direct part: We use the channel simulation method. For
+any local channel E : B → C performed by the quantum
+helper B on his half of bipartite state ρAB , it can be simulated
+by the decoder using the quantum reverse Shannon theorem
+(QRST) (Theorem 5):
+1
+1
+I(RA; C)φ [q → q] + I(E; C)φ [qq] ≥ hE : ρB i,
+2
+2
+
+(63)
+
+where |φACER i is given in Eq. (62). In other words, by
+using the pre-shared entanglement between the helper and the
+decoder with rate 21 I(E; C)φ and sending quantum message
+from the helper to the decoder with rate 12 I(RA; C)φ , the
+decoder can simulate the quantum state E(ρB ) locally with
+error going to zero in the asymptotic sense.
+Alice’s coding: Once the decoder has the system C, Alice
+and Charlie start the state merging protocol (56), using the
+pre-shared entanglement with rate H(A|C)φ .
+2) Converse part: We refer to Figure 4 for corresponding
+labels used in the converse proof. Recall the condition (59)
+states that the output state ωA1 C1 Abn Rn LbTb′ ≈ǫ ΦA1 C1 ⊗
+B
+θAn Rn LTB′ , where
+⊗n
+θAn Rn LTB′ = IAn Rn TB′ ⊗ EB (ψABR
+⊗ ΦTB TB′ ).
+
+We will omit the state θ in the subscript in the following
+sequences of equations to simplify the notation.
+To bound nR1 = log |TA | − log |A1 |, we follow steps in the
+converse proof of the state merging protocol [14] and have
+
+We demand the final state to satisfy
+kωA1 C1 Abn Rn LbTb′ − ΦA1 C1 ⊗ θAn Rn LTB′ k1 ≤ ǫ,
+
+(62)
+
+(60)
+(61)
+
+nR1 ≥ H(An |LTB′ )θ + f (ǫ)
+n
+X
+H(Ai |LTB′ A<i )θ + f (ǫ)
+=
+i=1
+n
+X
+
+(64)
+(65)
+
+H(Ai |Ui )θ + f (ǫ)
+
+(66)
+
+= nH(AT |UT T ) + f (ǫ)
+
+(67)
+
+=
+
+i=1
+
+= nH(A|C) + f (ǫ),
+
+(68)
+
+where f (ǫ) → 0 as ǫ → 0. We set Ui := (L, TB′ , A<i ) in
+Eq. (66). We relabel A := AT and C := (UT , T ) in the last
+equality, so that we recover Eq. (60).
+To bound the quantum communication rate R2 = log |L|,
+we follow steps in the converse proof of the entanglement-
+
+9
+
+U EA
+ρ⊗n
+AB
+
+An
+
+M
+
+Bn
+
+L
+U EB
+
+ΦTB TB′
+
+TB
+
+E
+
+where
+
+C1
+
+A1
+UD
+
+′
+
+TB′
+
+|σA1 MRn LE ′ TB′ i = (UEA ⊗ IRn LE ′ TB′ )|θAn Rn LE ′ TB′ i
+
+bn
+A
+b
+L
+Tb′
+
+and
+|θAn Rn LE ′ TB′ i = IAn Rn TB′ ⊗UEB (|ψABR i⊗n ⊗|ΦTB TB′ i).
+
+B
+
+We require that the final state satisfies
+kωA1 C1 Abn Rn LbTb′ − ΦA1 C1 ⊗ θAn Rn LTB′ k1 ≤ ǫ,
+
+Fig. 5. Fully quantum source compression with a quantum helper when the
+quantum source and the receiver are connected by a quantum channel.
+
+assisted quantum rate-distortion theorem (see Eq. (21) in [25]):
+2nR2 ≥ I(LTB′ ; Rn An )θ
+n
+X
+I(LTB′ ; Ri Ai |R<i A<i )θ
+=
+=
+
+i=1
+n
+X
+i=1
+
+n
+X
+
+(69)
+(70)
+
+[I(LTB′ R<i A<i ; Ri Ai )θ − I(R<i A<i ; Ri Ai )θ ]
+(71)
+I(LTB′ R<i A<i ; Ri Ai )θ
+
+(72)
+
+I(LTB′ A<i ; Ri Ai )θ
+
+(73)
+
+I(Ui ; Ri Ai )θ
+
+(74)
+
+= nI(UT ; RT AT |T )
+= nI(UT T ; RT AT )
+
+(75)
+(76)
+
+= nI(C; RA).
+
+(77)
+
+=
+≥
+=
+
+i=1
+n
+X
+
+i=1
+n
+X
+i=1
+
+Note that Ui can be generated from Bi via Bob’s local
+CPTP, and T again is a time-sharing random variable that is
+uniformly distributed in the set {1, 2, · · · , n}. In fact, Bob
+can first append the maximally entangled states (TB , TB′ ),
+systems (A<i , B<i ), and B>i . Then, he can perform EB , and
+get Ui = (L, TB′ , A<i ). With the relabelling, it is clear that
+Eq. (77) is evaluated on a quantum state of the form |φACER i
+in Eq. (62).
+B. Scenario II: Quantum Communication Channel between
+the Quantum Source and Receiver
+In this scenario, we replace the classical channel between
+Alice and Charlie with a quantum channel, as shown in
+Figure 5. We define an (n, ǫ) code for fully quantum source
+compression with a quantum helper to consist of the following:
+n
+• Alice’s encoding operation EA : A → M with isometric
+n
+extension UEA : A → A1 M , where the quantum system
+M to be sent is of size |M | = 2nR1 ;
+n
+• Bob’s encoding operation EB : TB B → L with UEB :
+TB B n → LE ′ , where the quantum system L to be sent
+is of size |L| = 2nR2 ;
+′
+b Tb′
+bn L
+• Charlie’s decoding operation D : M LTB → A
+B
+n b b′
+′
+b
+with UD : M LTB → C1 A LTB that produces
+|ωA1 C1 E ′ Abn Rn LbTb′ i = (IA1 Rn E ′ ⊗ UD )|σA1 MRn LE ′ TB′ i
+B
+
+(78)
+
+B
+
+where |ΦA1 C1 i is a maximally entangled state. The condition
+(78) guarantees that the output state ωAbn Rn LbTb′ is close to the
+B
+state θAn Rn LTB′ . Consequently, ωAbn ≈ǫ θAn = ρAn .
+A rate pair (R1 , R2 ) is said to be achievable if for any
+ǫ, δ > 0 and all sufficiently large n, there exists an (n, ǫ) code
+with the rates R1 + δ and R2 + δ. The rate region is then
+defined as the collection of all achievable rate pairs. Our main
+result is the following theorem.
+Theorem 7: Given a bipartite quantum source ρAB =
+TrR ψABR , the optimal rate region for lossless source coding
+of A with a quantum helper B is the set of rate pairs (R1 , R2 )
+such that
+1
+R1 ≥
+I(A; ER)φ
+(79)
+2
+1
+I(RA; C)φ .
+(80)
+R2 ≥
+2
+The state φACER resulting from Bob’s application of some
+CPTP map E : B → C with isometric extension UE : B →
+CE is
+|φACER i = IRA ⊗ UE |ψABR i.
+(81)
+1) Direct part: Again, we use the channel simulation
+method. Any local channel E : B → C performed by the
+quantum helper B on his half of bipartite state ρAB can be
+simulated by the decoder using the quantum reverse Shannon
+theorem (QRST) (Theorem 5):
+1
+1
+I(RA; C)φ [q → q] + I(E; C)φ [qq] ≥ hE : ρB i, (82)
+2
+2
+where φACER is given in Eq. (81). In other words, by using the
+pre-shared entanglement between the helper and the decoder
+with rate 12 I(E; C)φ and sending quantum message from the
+helper to the decoder with rate 12 I(RA; C)φ , the decoder can
+simulate the quantum state E(ρB ) locally with error goes to
+zero in the asymptotic sense.
+Alice’s coding: Once the decoder has the quantum system
+C, Alice starts the FQSW protocol (57) with Charlie to
+merge her quantum system A to C. The needed quantum
+communication rate is 21 I(A; ER)φ .
+2) Converse part: We refer to Figure 5 for corresponding
+labels used in the converse proof. Denote the states after
+Bob’s encoding, Alice’s and Bob’s encodings, and all three
+operations as
+θAn LE ′ TB′
+
+=
+
+σA1 MLE ′ TB′
+ωA1 C1 Abn LbTb′
+
+=
+=
+
+B
+
+′
+IAn TB′ ⊗ UEB (ρ⊗n
+AB ⊗ ΦTB TB ) (83)
+
+UEA ⊗ ILE ′ TB′ (θAn LE ′ TB′ )
+IA1 E ′ ⊗ UD (σA1 MLTB′ ),
+
+(84)
+(85)
+
+and note that the reference system Rn that purifies ρ⊗n
+AB
+also purifies θAn LE ′ TB′ , σA1 MLE ′ TB′ and ωA1 C1 E ′ Abn LbTb′ . Also
+B
+
+10
+
+recall that the state ωA1 C1 Abn Rn LbTb′ satisfies the condition (78);
+B
+hence ωA1 C1 Abn Rn LbTb′ ≈ǫ ΦA1 C1 ⊗ θAn Rn LTB′ .
+B
+Clearly, the lower bound for rate R2 follows exactly from
+Eqs. (69)-(77):
+1
+R2 ≥ I(C; RA).
+2
+To show the lower bound for R1 , we begin with
+H(LTB′ )σ + H(M )σ
+≥ H(LTB′ M )σ
+bn L
+b Tb′ )ω
+= H(C1 A
+
+(86)
+(87)
+
+B
+
+= H(A1 Rn E ′ )ω
+
+(88)
+n
+
+′
+
+≥ H(A1 )τ + H(R E )θ + f (ǫ)
+(89)
+n
+n ′
+≥ H(A )θ − H(M )σ + H(R E )θ + f (ǫ). (90)
+The first inequality follows from the subadditivity of the
+von Neumann entropy. The second inequality (89) follows
+from Eq. (78), the Fannes inequality, and note that τA1 =
+TrC1 ΦA1 C1 and f (ǫ) → 0 as ǫ → 0. The final inequality again
+follows from the subadditivity of the von Neumann entropy:
+H(An )θ = H(A1 M )σ ≤ H(A1 )σ + H(M )σ
+
+and H(A1 )τ ≥ H(A1 )σ since τA1 is the completely mixed
+state. Then
+R1 ≥ H(M )σ
+(91)
+1
+n
+n ′
+′
+≥ [H(A )θ + H(R E )θ − H(LTB )σ ]
+(92)
+2
+1
+= [H(An )θ + H(Rn E ′ )θ − H(An Rn E ′ )θ ]
+(93)
+2
+1
+= I(An ; Rn E ′ )θ ,
+(94)
+2
+where the second line follows from Eq. (90), and the third line
+follows from H(LTB′ )σ = H(LTB′ )θ = H(An Rn E ′ )θ . These
+lines (86)-(94) closely follow steps in the converse proof of
+the FQSW [16].
+Finally, continuing from Eq. (94) gives
+1
+R1 ≥ I(An ; Rn E ′ )
+(95)
+2
+n
+1X
+I(Ai ; Rn E ′ |A<i )
+(96)
+=
+2 i=1
+#
+" n
+1 X
+n ′
+=
+I(Ai ; R E A<i ) − I(Ai ; A<i )
+(97)
+2 i=1
+n
+
+=
+
+1X
+I(Ai ; Rn E ′ A<i )
+2 i=1
+
+(98)
+
+n
+
+1X
+I(Ai ; R≤i E ′ )
+≥
+2 i=1
+
+(99)
+
+n
+
+1X
+=
+I(Ai ; Ri Ei )
+2 i=1
+
+(100)
+
+=
+
+(101)
+
+1
+nI(AT ; RT ET |T )
+2
+1
+= nI(AT ; T RT ET )
+2
+1
+= nI(A; RE).
+2
+
+(102)
+(103)
+
+To ease the notation, we omit the subscript state θ in the
+sequences of equations. We denote Ei := (R<i , E ′ ) in
+Eq. (100), introduce the auxiliary random variable T that is
+uniformly distributed in the set {1, 2, · · · , n} in Eq. (101), and
+denote E := (T, ET ), A := AT and R := RT in Eq. (103).
+Note that Ei in Eq. (100) is the environment which purifies
+Ui in Eq. (74).
+V. C ONCLUSION AND D ISCUSSION
+We first considered the problem of compression of a classical source with a quantum helper. We completely characterized
+its rate region and showed that the capacity formula does
+not require regularization. While the expressions for the rate
+region are similar to the classical result in [8], [4], [28],
+we have employed a different proof technique. To prove the
+achievability, we employed a powerful theorem, the measurement compression theorem [29], that can decompose quantum
+measurement. A similar approach was recently applied to
+derive a non-asymptotic bound on the classical helper problem
+[31].
+The rate region in our Theorem 6 bears a close resemblance
+to its classical counterpart. Our result also shows that a helper’s
+strategy of simply compressing the side information H(C)φ
+and sending it to the decoder is sub-optimal with entanglement
+assistance. Recall the following identity:
+1
+1
+I(C; E)φ + I(C; RA)φ ,
+2
+2
+where the state |φACER i is given in Eq. (62). The QRST
+protocol allows us to divide the amount of quantum communication required for lossless transmission of system C to the
+decoder into pre-shared entanglement with rate 21 I(C; E)φ and
+quantum communication with rate 12 I(C; RA)φ .
+We would like to point out that the definition of fully
+quantum source compression with a quantum helper requires
+explicit inclusion of additional quantum systems LTB′ (see
+Eqs. (59) and (78)) for technical purposes. The reason behind
+this is that when the quantum state merging is performed, the
+target systems into which the quantum state is merged need to
+be specified. We believe that the inclusion of these additional
+systems in the definition is inevitable, and signals a fundamental difference between the fully quantum source compression
+with a quantum helper and its classical counterpart.
+One interesting direction to extend our results is a problem
+involving multiple senders and/or multiple receivers (Figure 1). Such a problem has been extensively studied in classical information theory; see [6], [7] and references therein.
+When there are more than two helpers, such a problem is
+called two-helper problem, and has not been solved even in
+the classical case. Thus, it is expected that a quantum version
+of such a problem is also a difficult problem. When there are
+multiple receivers, the message sent by one sender may be sent
+to more than one receiver in the classical setting. However,
+since quantum states cannot be copied, quantum extension of
+multiple receiver problems must be defined carefully.
+Finally, in classical source coding with a helper problem,
+it is possible to bound the dimension of the helper’s output
+system |U| ≤ |Y| + 1, where |Y| is the alphabetical size of
+H(C)φ =
+
+11
+
+the random variable Y . Such a dimension bound is a simple
+application of Carathéodory theorem. However, bounding the
+dimension of an auxiliary quantum system, i.e. the quantum
+helper, turns out to be very non-trivial, and very little is known
+(cf. [36]).
+ACKNOWLEDGEMENTS
+MH is supported by an ARC Future Fellowship under Grant
+FT140100574. SW was supported in part by JSPS Postdoctoral
+Fellowships for Research Abroad.
+R EFERENCES
+[1] C. E. Shannon, “A mathematical theory of communication,” Bell Syst.
+Tech. J., vol. 27, pp. 379–423, 623–656, 1948.
+[2] D. Slepian and J. K. Wolf, “Noiseless coding of correlated information
+sources,” IEEE Trans. Inform. Theory, vol. 19, no. 4, pp. 471–480, 1973.
+[3] A. D. Wyner, “On source coding with side information at the decoder,”
+IEEE Trans. Inform. Theory, vol. 21, no. 3, pp. 294–300, 1975.
+[4] R. Ahlswede and J. Körner, “Source coding with side information and
+a converse for the degraded broadcast channel,” IEEE Trans. Inform.
+Theory, vol. 21, no. 6, pp. 629–637, 1975.
+[5] J. Korner and K. Marton, “Images of a set via two channels and their
+role in multi-user communication,” IEEE Transactions on Information
+Theory, vol. 23, no. 6, pp. 751–761, 1977.
+[6] I. Csiszar and J. Korner, “Towards a general theory of source networks,”
+IEEE Transactions on Information Theory, vol. 26, no. 2, pp. 155–165,
+1980.
+[7] T. S. Han and K. Kobayashi, “A unified achievable rate region for
+a general class of multiterminal source coding systems,” IEEE Trans.
+Information Theory, vol. 26, no. 3, pp. 277–288, 1980.
+[8] A. Wyner, “On source coding with side information at the decoder,”
+IEEE Trans. Information Theory, vol. 21, no. 3, pp. 294–300, 1975.
+[9] A. Sgarro, “Source coding with side information at several decoders,”
+IEEE Trans. Information Theory, vol. 23, no. 2, pp. 179–182, 1977.
+[10] B. Schumacher, “Quantum coding,” Phys. Rev. A, vol. 51, no. 4, pp.
+2738–2747, Apr. 1995.
+[11] R. Jozsa and B. Schumacher, “A New Proof of the Quantum Noiseless
+Coding Theorem,” J. of Modern Optics, vol. 41, no. 12, pp. 2343–2349,
+Dec. 1994.
+[12] A. S. Holevo, “Statistical decision theory for quantum systems,” Journal
+of Multivariate Analysis, vol. 3, no. 4, pp. 337–394, 1973.
+[13] M. Horodecki, J. Oppenheim, and A. Winter, “Partial quantum information,” Nature, vol. 436, no. 7051, pp. 673–676, Aug. 2005.
+[14] M. Horodecki, J. Oppenheim, and A. Winter, “Quantum State Merging
+and Negative Information,” Communications in Mathematical Physics,
+vol. 269, no. 1, pp. 107–136, Oct. 2006.
+[15] F. Dupuis, M. Berta, J. Wullschleger, and R. Renner, “One-Shot Decoupling,” Communications in Mathematical Physics, vol. 328, no. 1, pp.
+251–284, Mar. 2014.
+[16] A. Abeyesinghe, I. Devetak, P. M. Hayden, and A. Winter, “The
+mother of all protocols: restructuring quantum information’s family
+tree,” Proceedings of the Royal Society A: Mathematical, Physical and
+Engineering Sciences, vol. 465, no. 2108, pp. 2537–2563, Jun. 2009.
+[17] I. Devetak, A. W. Harrow, and A. Winter. A Resource Framework for
+Quantum Shannon Theory. IEEE Trans. Inform. Theory, vol. 54, no. 10,
+pp. 4587–4618, Oct. 2008.
+[18] M.-H. Hsieh and M.M. Wilde, “Trading Classical Communication,
+Quantum Communication, and Entanglement in Quantum Shannon
+Theory,” IEEE Transactions on Information Theory, vol. 56, no. 9, pp.
+4705–4730, 2010.
+[19] N. Datta and M.-H. Hsieh, “The apex of the family tree of protocols:
+optimal rates and resource inequalities,” New J. Phys., vol. 13, no. 9, p.
+093042, 2011.
+[20] I. Devetak and A. Winter, “Classical data compression with quantum
+side information,” Phys. Rev. A, vol. 68, no. 4, Oct. 2003.
+[21] C. E. Shannon, “Coding theorems for a discrete source with a fidelity
+criterion,” IRE Nat. Conv. Rec, vol. 4, pp. 142–163, 1959.
+[22] T. Berger, Rate Distortion Theory: A Mathematical Basis for Data
+Compression. Englewood Cliffs, NJ: Prentice Hall, 1971.
+[23] I. Devetak and T. Berger, “Quantum rate-distortion theory for memoryless sources,” IEEE Trans. Inform. Theory, vol. 48, no. 6, pp. 1580–1589,
+2002.
+
+[24] N. Datta, M.-H. Hsieh, and M. M. Wilde, “Quantum Rate Distortion, Reverse ShannonTheorems, and Source-Channel Separation,” IEEE Trans.
+Inform. Theory, vol. 59, no. 1, pp. 615–629, 2013.
+[25] M. M. Wilde, N. Datta, M.-H. Hsieh, and A. Winter, “Quantum RateDistortion Coding With Auxiliary Resources,” IEEE Trans. Inform.
+Theory, vol. 59, no. 10, pp. 6755–6773, 2013.
+[26] N. Datta, M.-H. Hsieh, M. M. Wilde, and A. Winter, “Quantum-toclassical rate distortion coding,” J. Math. Phys., vol. 54, no. 4, p. 042201,
+2013.
+[27] T. M. Cover and J. A. Thomas, Elements of Information Theory . Wiley,
+New York, 1991.
+[28] A. El Gamal and Y.-H. Kim, Network information theory. Cambridge
+University Press, 2011.
+[29] A. Winter, “Extrinsic” and “Intrinsic” Data in Quantum Measurements: Asymptotic Convex Decomposition of Positive Operator Valued
+Measures. Communications in Mathematical Physics, 244(1), 157–185,
+2004.
+[30] M. M. Wilde, P. M. Hayden, F. Buscemi, and M.-H. Hsieh, “The
+information-theoretic costs of simulating quantum measurements,” Journal of Physics A: Mathematical and Theoretical, vol. 45, no. 45, pp.
+453001, Nov. 2012.
+[31] S. Watanabe, S. Kuzuoka, and V. Y. F. Tan, “Non-Asymptotic and
+Second-Order Achievability Bounds for Source Coding With SideInformation,” in Proc. 2013 IEEE International Symposium on Information Theory, pp. 3055–3059.
+[32] I. Devetak and A. Winter, “Distillation of secret key and entanglement
+from quantum states,” in Proc. of The Royal Society A, vol. 461, pp.
+207–235, Jan. 2005.
+[33] Bennett, Charles, Peter W Shor, John A Smolin, and A V Thapliyal.
+“Entanglement-Assisted Capacity of a Quantum Channel and the Reverse Shannon Theorem.” IEEE Transactions on Information Theory
+48, no. 10 (October 2002): 2637–2655. doi:10.1109/TIT.2002.802612.
+[34] C. H. Bennett, I. Devetak, A. W. Harrow, P. W. Shor, and A. Winter.
+The Quantum Reverse Shannon Theorem and Resource Tradeoffs for
+Simulating Quantum Channels. IEEE Trans. Inform. Theory, vol. 60,
+no. 5, pp. 2926–2959, 2014.
+[35] M.-H. Hsieh and S. Watanabe. Source Compression with a Quantum
+Helper. arXiv:1501.04366, 2015 (accepted for publication in ISIT 2015).
+[36] S. Beigi and A. Gohari, “On Dimension Bounds for Auxiliary Quantum
+Systems,” IEEE Trans. Inform. Theory, vol. 60, no. 1, pp. 368–387,
+2014.
+
+Min-Hsiu Hsieh (M’09–SM’16) received his PhD degree in electrical engineering from the University of Southern California, Los Angeles, in 2008.
+From 2008-2010, he was a Researcher at the ERATO-SORST Quantum
+Computation and Information Project, Japan Science and Technology Agency,
+Tokyo, Japan. From 2010-2012, he was a Postdoctoral Researcher at the
+Statistical Laboratory, the Centre for Mathematical Sciences, the University
+of Cambridge, UK. He is now an Australian Research Council (ARC) Future
+Fellow and an Associate Professor at the Centre for Quantum Computation &
+Intelligent Systems (QCIS), Faculty of Engineering and Information Technology (FEIT), University of Technology Sydney (UTS). His scientific interests
+include quantum Shannon theory, entanglement theory, and quantum coding
+theory.
+
+Shun Watanabe (M’09) received the B.E., M.E., and Ph.D. degrees from
+the Tokyo Institute of Technology in 2005, 2007, and 2009, respectively.
+During April 2009 to February 2015, he was an Assistant Professor in the
+Department of Information Science and Intelligent Systems at the University
+of Tokushima. During April 2013 to March 2015, he was a visiting Assistant
+Professor in the Institute for Systems Research at the University of Maryland,
+College Park. Since February 2015, he has been an Associate Professor in the
+Department of Computer and Information Sciences at Tokyo University of
+Agriculture and Technology. His current research interests are in the areas of
+information theory, quantum information theory, cryptography, and computer
+science.
+
+

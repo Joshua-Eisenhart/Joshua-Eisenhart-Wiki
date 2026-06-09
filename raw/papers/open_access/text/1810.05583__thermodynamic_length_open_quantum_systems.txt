@@ -1,0 +1,2547 @@
+Thermodynamic length in open quantum systems
+Matteo Scandi and Martí Perarnau-Llobet
+Max-Planck-Institut für Quantenoptik, D-85748 Garching, Germany
+
+arXiv:1810.05583v5 [quant-ph] 14 Oct 2019
+
+October 15, 2019
+
+The dissipation generated during a quasistatic thermodynamic process can be
+characterised by introducing a metric on
+the space of Gibbs states, in such a way
+that minimally-dissipating protocols correspond to geodesic trajectories. Here, we
+show how to generalize this approach to
+open quantum systems by finding the thermodynamic metric associated to a given
+Lindblad master equation. The obtained
+metric can be understood as a perturbation over the background geometry of equilibrium Gibbs states, which is induced by
+the Kubo-Mori-Bogoliubov (KMB) inner
+product. We illustrate this construction
+on two paradigmatic examples: an Ising
+chain and a two-level system interacting
+with a bosonic bath with different spectral
+densities.
+
+tion, which are of crucial importance in finitetime protocols. For arbitrary out-of equilibrium
+evolutions, a notion of thermodynamic length has
+been put forward in [21, 22]; yet, this approach
+requires full knowledge of the global unitary evolution, which makes it difficult to apply in common situations where the size of the bath allows
+only for an effective description of the dynamics.
+Finally, Kubo linear-response theory also allows
+for describing dissipation near equilibrium [23–
+25], which in turn allows for defining a notion of
+thermodynamic metric [24, 26].
+The goal of this article is to provide a general
+framework to construct a thermodynamic metric whenever the evolution of the system can be
+described by a Lindblad master equation (see
+also [27]). The obtained metric can be expressed
+as the background equilibrium geometry of [16–
+19] acted upon by the Drazin inverse of the Lindblad operator, which encodes the different equilibration timescales of the dissipative dynamics.
+This geometrical approach is used to find minimally dissipating protocols of a slowly driven
+Ising chain in a transverse field, and of a qubit in
+contact with a bosonic bath with different spectral densities.
+
+1 Introduction
+A central task in finite-time thermodynamics is
+to design protocols that maximise the extracted
+work while minimising the dissipation during the
+process. In the slow driving regime, a powerful
+approach consists in equipping the space of thermodynamic states with a metric whose geodesics
+correspond to minimally dissipative processes.
+This geometrical construction was first developed
+in the 80s for macroscopic endoreversible thermodynamics in a series of seminal papers [1–8], and
+more recently it was extended to the microscopic
+regime [9–12], leading to several applications in,
+e.g., molecular motors [13] and small-scale information processing [14, 15].
+While this approach is well established for classical systems, the quantum regime has remained
+less explored. The geometry of quantum equilibrium Gibbs states has been characterised in [16–
+20]; however the resulting metric does not take
+into account dynamical features of the dissipa-
+
+2 Dissipation in quantum systems
+Before presenting the construction of the metric, we here define the quantum correspondent
+of some important quantities of classical thermodynamics. A quantum system is described by
+its density matrix ρ and its Hamiltonian H; if
+the state is given by the Gibbs ensemble we will
+use the notation ρ ≡ ωβ (H), where ωβ (H) =
+e−βH /Tr(e−βH ) and β is the inverse temperature of the surrounding bath. We will sometimes
+also use the shorthand notation ω := ωβ (H). A
+functional of key importance is the non equilibrium free energy, which is defined by the formula
+F (ρ, H) = hHiρ − β −1 S(ρ), where we define the
+1
+
+average as hAiρ = Tr [Aρ], and we denote by S(ρ)
+the von Neumann entropy of the state.
+Direct calculations show that the non equilibrium free energy is connected to the equilibrium
+one by the equality
+
+so that the integral accounts for the correction
+to the second law in the presence of dissipation
+(Appendix A).
+When the driving of Ht is slow (i.e. the characteristic timescale of the driving is longer than the
+relaxation timescales), it is sensible to assume
+that the entropy production rate will only depend
+on the base point Ht and on the velocity Ḣt . The
+key idea of the classical papers [4–7] is then to
+reduce the task of finding the minimally dissipating path γ ∗ to the problem of finding the geodesic
+of the metric induced by the entropy production
+rate on the thermodynamic space. We will now
+show how to apply this idea to open quantum
+systems.
+
+F (ρ, H) = F (ωβ (H), H) + β −1 S(ρ||ωβ (H)) (1)
+where S(ρ||ωβ (H)) is the relative entropy. This
+quantity is positive definite and it can be understood as a measure of how statistically different
+the current state is from the thermal one. Moreover, it corresponds to the extractable work from
+ρ and, for this reason, it is sometimes referred to
+as availability.
+We consider thermodynamic processes in which
+the Hamiltonian of a system in contact with a
+thermal bath is experimentally varied between
+two fixed endpoints, say HA and HB . Each protocol is then defined by a curve γ in the space of
+controllable parameters, and by its duration T .
+The work extracted is defined as
+W =−
+
+Z
+
+h
+
+i
+
+dt Tr ρt Ḣt .
+
+3 Metric structure in open quantum
+systems
+We assume that the dissipative dynamics is described by a time-dependent Lindblad equation,
+
+(2)
+
+γ
+
+ρ̇t = Lt [ρt ]
+
+It is useful for what follows to rewrite the work in
+terms of the non equilibrium free energy. Using
+the insight coming from (1), we integrate equation (2) by parts and obtain (see Appendix A):
+W = −∆Fn.eq. − β
+
+−1
+
+Z
+γ
+
+Since a Lindbladian master equation always leads
+to Markovian dynamics [28], this assumption
+guarantees the positivity of the entropy production rate. Furthermore, we assume that the
+Lindbladian operator has a unique zero eigenstate, given by the instantaneous Gibbs state
+(Lt [ωβ (Ht )] = 0), and that all the other eigenvalues have strictly negative real part. These two
+assumptions are sufficient to ensure that given
+any initial conditions the system will thermalise
+to the instantenous Gibbs state of Ht ,
+
+dt [−∂ρt S(ρt ||ωβ (Ht ))],
+(3)
+
+where ∆Fn.eq. is the difference in the non
+equilibrium free energy at the endpoints, and
+∂ρt S(ρt ||ω(Ht )) is given by the limit
+lim
+
+ε→0
+
+S(ρt+ε ||ωβ (Ht )) − S(ρt ||ωβ (Ht ))
+.
+ε
+
+(4)
+
+lim eτ Lt ρ = ωβ (Ht ).
+
+The importance of equation (3) is that it makes
+manifest that we can isolate a term which only
+depends on the endpoints of the protocol, and a
+contribution, Wdiss (γ) = −(W + ∆Fn.eq. ), which
+accounts for the dissipation during the process
+and that explicitly depends on the path γ. The
+quantity inside the integral can be identified with
+the entropy production rate, which is guaranteed
+to be positive definite whenever one has Markovian dynamics (see Appendix B). This identification is also justified by noting that the heat
+supplied to the system can be rewritten as:
+β∆Q = ∆S −
+
+Z
+γ
+
+dt [−∂ρt S(ρt ||ωβ (Ht ))],
+
+(6)
+
+τ →∞
+
+(7)
+
+As a final remark, note that by assuming
+Lt (ωβ (Ht )) = 0 we are neglecting non-adiabatic
+contributions to Lt , which is justified whenever
+the bath dynamics are fast compared to the driving rate of the system Hamiltonian [29–31].
+For slow driving of Ht , we can assume that
+the state is always close to the equilibrium one:
+ρt = ωβ (Ht ) + δωt . Plugging this expansion
+in equation (6), we obtain an equation for δωt
+as [32–34]:
+
+
+(5)
+
+Lt −
+
+2
+
+d
+d
+[δωt ] = ωβ (Ht ).
+dt
+dt
+
+
+(8)
+
+It is useful to express the derivative on the right
+hand side using the derivative for the exponential
+of operators [35]:
+de−βHt
+= −β
+dt
+
+Z 1
+
+ds e−βsH Ḣt e−β(1−s)H ,
+
+(9)
+
+0
+
+obtaining ω̇β (Ht ) = −βJωβ (Ht ) [Ḣt ], where we defined the operator:
+Z 1
+
+1−s
+
+ds ρ
+
+Jρ [A] :=
+
+0
+
+(A − Tr[ρA]1) ρ .
+s
+
+Figure 1: A thermodynamic protocol in the slow driving
+regime naturally corresponds to a trajectory in the space
+of Gibbs states ωβ (H). The metric introduced lives in
+the tangent space of this manifold parametrized by ωt :=
+ωβ (Ht ).
+
+(10)
+
+In order to solve equation (8) we need to introduce the Drazin inverse of the Lindbladian operator L+
+t
+L+
+t [A] :=
+
+Z ∞
+
+dν e
+
+νLt
+
+approximation implicitly assumes that the trajectory is sufficiently smooth so that derivatives of
+Ht are always bounded, and that the duration of
+the protocol is much larger than the equilibration
+timescales encoded in L+
+t .
+Plugging expression (12) into ∂ρt S(ρt ||ω(Ht ))
+gives the following formula for the dissipation (see
+Appendix D):
+
+
+
+ωβ (Ht )Tr [A] − A . (11)
+
+0
+
+which is the unique operator satisfying the three
+conditions (see [36] and Appendix C for details): (i) commutation with the Lindbladian
++
+(Lt L+
+t [A] = Lt Lt [A] = A − ωβ (Ht )Tr [A]), (ii)
+invariance of the thermal state
+(Li+
+t [ωβ (Ht )] = 0)
+h
++
+and (iii) tracelessness (Tr Lt [A] = 0).
+
+Wdiss = −β
+
+An alternative expression of L+
+t can be constructed in finite dimensions as follows [32]: Consider the space of traceless states, i.e., for any
+state ρt we consider the traceless component
+given by δωt := ρt − ωβ (Ht ). Thanks to the stationarity of ωβ (Ht ), equation (6) can be rewritten in the instantaneous basis as: δ ω̇t = Λt [δωt ],
+where Λt is the projection of Lt on the space of
+traceless states. Since the only zero eigenstate of
+the Lindbladian is traceful, Λt is invertible on this
+−1
+subspace and we can identify L+
+t ≡ Λt , thanks
+to the uniqueness of the Drazin inverse. From
+this expression it is clear that L+
+t encodes the
+thermalisation timescales of the system.
+We can proceed to solve equation (8):
++
+multiplying
+
+ both sides by Lt and inverting
+d
+1 − L+
+t dt we obtain
+
+Z
+
+h
+
+γ
+
+ρt =
+
+d
+L+
+t
+
+n=0
+
+dt
+
+Wdiss = β
+
+n
+
+γ
+
+ωβ (Ht ) =
+h
+
+i
+
+= ωβ (Ht ) − βL+
+t Jωβ (Ht ) [Ḣt ] + . . .
+
+ii
+
+. (13)
+
+It should be noticed that this expression could
+be obtained directly by plugging the expansion
+of the state in the definition of the work (2), but
+we preferred to keep the discussion independent
+of the particular expansion (12), so to emphasise the connection between Wdiss and the entropy
+production rate.
+At this point the introduction of a metric structure on the thermodynamic space is
+quite straightforward. Without loss of generality, we decompose the
+system Hamiltonian as
+ i
+P i
+H = λt Xi , where λt are the time-dependent
+externally controllable parameters, and {Xi } are
+the corresponding observables.
+Then, equation (13) can be rewritten as:
+Z
+
+∞ 
+X
+
+h
+
+dt Tr Ḣt L+
+t Jωβ (Ht ) [Ḣt ]
+
+j
+dt λ̇it mL
+ωβ (Ht ) (Xi , Xj ) λ̇t
+
+(14)
+
+where we introduced the bilinear form:
+(12)
+
+i
+1 h
++
++
+mL
+ω (A, B) = − Tr A Lω [Jω [B]] + B Lω [Jω [A]]
+2
+(15)
+
+In the slow driving limit each Ḣt is of order
+O (1/T ) (recall that T is the total time of the process), so that we can truncate the perturbative
+expansion above at the second
+term, with cor
+2
+rections of order O 1/T . More precisely, this
+
+which is symmetric by construction, positive definite, thanks to the positivity of the entropy production rate, and it depends smoothly on the
+3
+
+base point ω. These are the defining properties
+of a metric. Note that, while we assumed Lindblad master equation to ensure the positivity of
+(15), the positivity also holds for more general
+maps [37], for which this approach can be naturally generalised.
+Equation (14) can be interpreted as the energy
+functional, or the action, of the curve γ({λt }).
+This denomination can be understood thinking
+of Wdiss as the action of a system of point particles moving freely along γ({λt }), with coordinate
+dependent mass encoded in mL
+ω . Then, one can
+use Euler-Lagrange equations of motion [38, 39]
+to construct curves in the space of parameters
+which minimize the dissipation at first order in
+O (1/T ). This means that the geodesics induced
+by the metric (15) correspond to minimally dissipative protocols in the regime of slow processes.
+
+Moreover, the entropy production rate for discrete perfectly thermalising protocols coincides
+with the one coming from this fictitious evolution (see Appendix E). This connection is a consequence of the fact that for discrete protocols
+details about the dynamics are disregarded, since
+at each step the state completely reaches equilibrium. This is translated into a master equation
+which has the least possible structure: in fact, the
+evolution (18) for a fixed t leads to an exponential relaxation for all observables with the same
+timescale τ .
+In this context, we see that the metric (15) reduces to the Kubo-Mori-Boguliobov (KMB) inner
+product
+
+3.1 Connection with classical results
+
+mKMB
+(A, B)
+ω
+= covω (A, B) = Tr [A Jω [B]] , (19)
+τ
+
+from the master equation,
+ρ̇t = τ −1 (ωβ (Ht ) − ρt ).
+
+also known as generalised covariance in the context of linear response theory [40, 41]. This quantity is directly related to the partition function by
+differentiation:
+
+The connection between the entropy production rate in the slowly driven regime and the geometry of Gibbs states has been studied for classical systems since the 70s [1–7]. Historically, the
+formalism of thermodynamic length has been initially developed in the context of discrete perfectly thermalising protocols, in which case the
+thermodynamic metric can be obtained as the
+second derivative of the partition function with
+respect to the control parameters [6, 9]. Let us
+now show how to recover this metric within our
+framework.
+Let us assume that the parameters of 
+the system
+are changed in discrete steps from λi0 to
+ i
+λN . After each step we wait enough time for
+the system to perfectly equilibrate. In the quasistatic limit (N  1) we can use the approximation
+
+
+
+
+Hi+1 = Hi + τ Ḣi + O τ 2 ,
+
+β 2 mKMB
+=
+i,j
+
+∂2
+log ZH ,
+∂λi ∂λj
+
+(20)
+
+where we indicate mKMB
+≡ mKMB
+(Xi , Xj ),
+ω
+i,j
+and ZH is the partition function defined as:
+ZH = Tr[e−βH ].
+In the classical case the generalised covariance (19) is substituted by the standard covariance hABiω − hAiω hBiω [9]. Indeed, when the
+protocol does not generate coherence between different energy levels, that is when [Ht , Ḣt ] = 0,
+the former reduces to the latter. Hence, it is only
+in the case of non-commuting protocols, meaning
+[Ht , Ḣt ] 6= 0, that we expect qualitatively different results with respect to classical systems.
+Similarly to the classical case, the metric (19)
+can be interpreted as a quantum Fisher information matrix. The corresponding Riemannian
+structure has been studied both from the mathematical and the physical point of view [16, 17,
+20, 42]. In particular, (20) makes clear the relation between phase transitions, statistical distinguishability and dissipation: in fact, close to a
+phase transition the eigenvalues of the Fisher information matrix corresponding to the order parameters diverge. Thanks to the extreme sensibility of the system, it is indeed easier to estimate
+
+(16)
+
+where τ is the time spent at each step, so that
+the total time of the protocol is given by T = N τ .
+Using the derivative of the
+exponential (9) we also
+
+2
+have up to order O τ that:
+ωβ (Hi+1 ) = ωβ (Hi ) − τ βJωβ (Hi ) [Ḣi ].
+
+(18)
+
+(17)
+
+Comparing the expression just obtained with
+the expansion (12), it is straightforward to see
+that we could obtain the same result starting
+4
+
+the values of the external parameters in this region. In the same way, the abrupt changes in the
+system makes it more difficult to stay within the
+quasistatic limit, so that for any N the dissipation will diverge close to the critical point.
+In conclusion, the metric (15) extends the
+standard thermodynamic metric (20) by including non-trivial relaxation dynamics through the
+Drazin inverse L+
+t . This modifies the underlying equilibrium geometry to account for the specific nature of the dissipative dynamics: since
+observables closer to their equilibrium value dissipate less when they are manipulated, the introduction of L+
+t can be interpreted as a way
+to favour parameters which thermalise faster. A
+similar extension to non-trivial dynamics of the
+geometric framework for classical systems was obtained in [12, 13] and the construction presented
+here constitutes the natural generalisation to the
+quantum regime. In fact, if we consider the particular case in which the controllable observables
+satisfy the relaxation dynamics:
+D
+
+Ẋi
+
+E
+
+
+
+ρt
+
+
+
+= τi−1 hXi iωt − hXi iρt ,
+
+then be obtained by solving the geodesic equation:
+λ̈it + Γij,k λt λ̇jt λ̇kt = 0,
+
+where Γ denotes the Christoffel symbols, which
+can be computed from the formula:
+1
+Γij,k |λt = mi,l (∂j ml,k + ∂k mj,l − ∂l mj,k ) |λt ,
+2
+(24)
+where mi,l is the inverse of the metric, and
+we use the shorthand notation ∂i mj,k |λt ≡
+(∂mj,k /∂λi )|λ=λt .
+In this way, the machinery presented here provides an automatic method to obtain differential
+equations for the optimal trajectory directly in
+the space of parameters, which is usually of a dimension much smaller than the one of the full
+Hilbert space. Nonetheless, it is important to
+keep in mind that the computational cost still
+scales with the total dimension, where the most
+expensive operation is the computation of mi,j
+itself.
+In the case of the master equation (18), there
+are some important simplifications coming from
+the fact that the KMB metric is directly related
+to the partition function. In fact, one can obtain
+simply by differentiation:
+
+(21)
+
+then the metric takes the simple form (see Appendix F):
+mL
+ω (Xi , Xj ) =
+
+τi + τj KMB
+mi,j ,
+2
+
+(23)
+
+(22)
+1
+β 3 Γij,k |λt = mi,l
+2
+
+in complete analogy with the classical result [12],
+which gives the thermodynamic length as the
+Hadamard product between a matrix encoding
+the equilibration timescales of the system and the
+Fisher information matrix.
+
+!
+
+∂3
+log ZH . (25)
+∂λj ∂λk ∂λl
+
+This makes this approach particularly simple
+when an analytical expression for ZH is known,
+as we will illustrate in the following example.
+
+4 Constructing minimally dissipating
+trajectories
+
+4.1 Ising chain in a transverse field
+We now consider the system to be given by an
+Ising chain in a transverse field, which equilibrates through (18). The Hamiltonian of the system is given by:
+
+We now discuss how to find minimially dissipative processes from the metric (15), which is then
+applied to an Ising chain in a transverse field,
+which equilibrates through (18), and for a qubit
+in contact with a bosonic bath.
+Before starting with the calculations some general remarks need to be made. First, it should be
+noticed that, in the case of partial control over the
+P
+Hamiltonian H = λit Xi , the metric mi,j will
+be of the same dimension as the number of controllable parameters {λit } (see Appendix F for an
+explicit expression). The optimal trajectory can
+
+HI = −J
+
+n
+X
+
+z
+σiz σi+1
++ gσix
+
+
+
+(26)
+
+i=1
+
+where J > 0 set a measure for the energy scale
+and g is a dimensionless coupling parameter,
+which can be interpreted as an external magnetic field. For simplicity, in the following we
+will measure times in units of τ and energies
+in units of J. The spectrum of the system can
+5
+
+be computed analytically for periodic boundary
+conditions through a Jordan-Wigner transformation, and in the thermodynamic limit the partition function is given by the integral expression
+(see e.g. [43])
+1
+log Z =
+n→∞ N
+
+Z 2π
+
+
+
+
+
+dk log 2 cosh β
+
+lim
+
+0
+
+εk
+2
+
+
+
+,
+(27)
+
+where εk is the eigenvalue corresponding to the
+momentum k, which reads:
+εk = 2J
+
+q
+
+1 + g 2 − 2g cos k.
+
+(28)
+Figure 2: The top two figures show the metric and the
+Christoffel symbol for the Ising chain at different temperatures as a function of the coupling g. On the bottom,
+on the left we present the behaviour of minimally dissipating trajectories defined by the boundary conditions
+g(0) = 0 to g(1) = 5; on the right, the phase diagram
+of the system.
+
+This system presents a phase transition at zero
+temperature and g = 1 from an ordered ferromagnetic phase to a quantum paramagnetic phase.
+Moreover, at finite but low enough temperatures,
+there is a rich variety of different physical regimes
+(summarised in Fig. 2), characterised by different
+scaling for the correlation length and the equilibration timescale of the system (see e.g. [43] for
+details).
+We study here the case in which one has control
+only over g, so that the metric and the Christoffel
+symbols become a scalar, which we name m and
+Γ, respectively. In particular, we see that it is
+sufficient to differentiate (27) with respect to g
+twice, to obtain:
+
+the temperature is decreased, illustrating how the
+dissipation increases in the presence of a phase
+transition. This behaviour reflects in the shape of
+the geodesics, as Ḣt decreases close to the phase
+transition in order to compensate for the larger
+dissipation.
+
+4.2 Qubit in contact with a bosonic bath
+We now move to treat an example in which L+
+t is
+non-trivial, a two level system in contact with a
+bosonic bath with spectral density J(ω) = γ0 ω α .
+The Lindbladian we use can be obtained through
+a microscopic derivation [44]; more details and
+the particular form of the dynamics are given in
+appendix G. The parameter α characterises the
+ohmicity of the environment, and we have that
+for α = 1, α > 1, α < 1, the bath is ohmic,
+superohmic and subohmic, respectively. We assume full control on the Hamiltonian of the twolevel system, which is parametrised by spherical
+coordinates
+
+m(g) =
+Z 2π
+
+
+
+dk
+0
+
+ε̈k
+εk
+tanh β
+2
+2
+
+
+
+
+
++
+
+ε̇k
+εk
+sech β
+2
+2
+
+
+2 !
+
+,
+(29)
+
+Similarly, we can compute Γ using (25). Both
+m and Γ are shown in Fig. 2 for different temperatures. Finally, we also compute numerically
+optimal thermodynamic processes through the
+geodesic equations (23). The results are also
+shown in Fig. 2.
+Since the metric is connected with the free
+energy of the system, it is interesting to notice
+how the Riemannian structure is affected by the
+presence of a phase transition at zero temperature. Comparing the metric and, in particular,
+the Christoffel symbol with the phase diagram of
+the system, we can see that the change in behaviour of these geometric quantities retrace a
+change in the underlying physical properties. Additionally, note that m increases close to g = 1 as
+
+H = r cos ϕ sin θ σ̂x + r sin ϕ sin θ σ̂y + r cos θ σ̂z ,
+(30)
+where (r, θ, ϕ) are the control parameters.
+Thanks to the convenient choice of coordinates,
+the metric takes the particularly simple form (see
+Appendix G)
+mL =
+
+6
+
+n
+o
+1
+2
+2
+2
+diag
+λ
+,
+λ
+r
+,
+λ
+r
+sin
+θ
+,
+q
+q
+d
+rα
+
+(31)
+
+metric with a factor r−α , which is the overall dependence of the equilibration timescales on the
+energy spacing r. Owing to this dependence, optimal protocols will tend to spend more time in
+the region with low r. This effect is illustrated in
+the right top panel of Fig. 3, where we construct
+optimal trajectories in the radial direction. As expected, this effect is more pronounced for higher
+αs.
+Our results also allow for constructing optimal
+trajectories between non-commuting endpoints.
+Then we necessarily have that [Ḣt , Ht ] 6= 0,
+so that quantum coherence between energy levels is created along the protocol. Optimal noncommuting trajectories are shown in the bottom
+left Figure of 3. Interestingly, we see that the
+ohmicity of the bath qualitatively changes the behaviour of the optimal trajectories.
+In order to illustrate the improvement obtained
+by using geodesic trajectories, we compare them
+to a naive choice where the parameters are linearly modified in time. We consider boundary
+conditions HA = 0 and HB = Ef σz (energy is
+measured in units of β). Restricting to trivial
+dynamics (18), which allows for a simple analytic
+solution, we find at first order in O (1/T ):
+
+Figure 3: From left to right, from top to bottom: dependence of the classical and quantum component of
+the metric λd,q on the energy spacing r; geodesics in
+the radial direction (r(0) = 0.1, r(1) = 5) for constant θ and φ; geodesics in Cartesian coordinates for
+non commuting Hamiltonians ({x(0), z(0)} = {0, 1},
+{x(1), z(1)} = {1, 1}) and y ≡ 0; comparison of the
+first order contribution to the dissipation during a linear
+protocol with respect to the optimal one as a function of
+the energy spacing. The energies are measured in units
+of β.
+
+where we can identify the expression of
+the Euclidean metric in spherical coordinates
+(diag{1, r2 , r2 sin2 (θ)}), and the two eigenvalues
+are given by:
+tanh(r)
+,
+λd =
+cosh2 (r)
+
+2 tanh2 (r)
+.
+λq =
+r
+
+lin
+Wdis
+= Ef tanh Ef ,
+2
+1
+KMB
+Wdis
+=
+π − 2 tan−1 (csch(Ef )) .
+4
+
+(32)
+
+(33)
+(34)
+
+In the limit of Ef  1 the first term diverges
+KMB
+linearly in Ef , while Wdis
+≈ π 2 /4. This difference makes clear how for big energy gaps or,
+equivalently, at low temperature, using a geodesic
+trajectory gives an increasingly bigger advantage,
+making the use of optimal trajectories particularly relevant in the quantum regime. These considerations are also relevant for experiments, as
+current demonstrations of the Landauer principle
+rely on a linear increase of E(t) [45–48].
+
+The existence of different eigenvalues for the radial direction and the solid angle reflects the
+physical fact that the system dissipates differently
+if only the energy spacing is moved, or if coherence between the two levels is created. Moreover,
+it is straightforward to verify that the ratio λq /λd
+diverges for r → ∞. This illustrates a general behaviour: the existence of exponentially more dissipative parameters in thermodynamic systems.
+In this case, there is a simple physical explanation: changing the energy spacing only affects
+an exponentially small fraction of the population,
+whereas the whole system has to be manipulated
+in order to create coherence. This example however illustrates the fact that inspecting the metric
+eigenvalues provides us with a powerful description of the physics of dissipation, which is crucial
+in more complex systems where a simple intuitive
+understanding is out of reach.
+The ohmicity of the bath contributes to the
+
+5 Comparison to other approaches
+Whereas the presented results are valid in the
+slow driving limit, exact solutions for minimising dissipation also exist in the literature [49–
+52]. In particular, optimal finite-time protocols
+for two-level systems have been treated in a variety of settings [50–54]. Besides specific solvable
+systems, a general approach for minimising dissipation based on optimal control theory has been
+7
+
+agreement between them even when the total
+time T of the protocol is similar to the time scale
+of relaxation, see also [26].
+
+put forward in [51, 52, 54], which requires solving
+a system of D non-linear differential equations,
+where D is the Hilbert space dimension (see [51]
+and Appendix H).
+Conversely, the geometric approach provides
+an approximation of the optimal solution (which
+becomes exact in the slow driving limit) by a
+set of d non-linear differential equations, where
+d is the number of controllable parameters in the
+Hamiltonian (see Eq. (23)). This makes this approach particularly useful in more complex systems, where d  D, as we have illustrated in the
+Ising chain example where d = 1 and D → ∞.
+This gives the geometric approach a wide range
+of applicability, which has also been illustrated in
+classical systems of different nature and complexity [4–7, 13–15, 55–58]. It is however important
+to keep in mind that in general building the metric (15) requires diagonalising the Hamiltonian of
+the system of interest, as discussed in Appendix
+F. A class of dynamics where the computation of
+the metric notably simplifies is when the expected
+value of each externally controlled observable (i.e.
+hXi iρt )) relaxes to its thermal expectation value
+with a well defined time scale τi as in (21); as
+in this case the corresponding metric (22) can be
+directly computed from the partition function.
+Besides providing an efficient way of finding
+minimally dissipative paths, there are other advantages of working in the quasistatic regime:
+
+6 Conclusions and outlook
+We developed a general framework to define a
+thermodynamic metric for systems that evolve
+under a Lindblad master equation, in such a
+way that geodesics correspond to minimallydissipative paths in the quasistatic regime. The
+connection with the non-equilibrium free energy
+makes it extremely versatile and an extension
+to more general settings seems to be foreseeable
+with only minor modifications. For example, it
+should be possible to extend our approach to generalised Gibbs ensembles [60–63] simply by redefining the non equilibrium free energy (1) so
+to take into account the extra conserved quantities. We can even consider a dynamics which
+equilibrates to a non equilibrium steady states
+by simply substituting the thermal state in the
+definition (4) of the entropy production rate with
+the appropriate steady state π(H) [33]. For nonequilibrium steady states, an interesting future
+direction is to consider relations between this geometric approach and quantum thermodynamic
+uncertainty relations [42, 64]. Moreover, despite
+the fact that we assume a Lindblad master equation, and therefore weak coupling, thanks to the
+reaction-coordinate mapping, an extension to the
+strong coupling regime is possible [65–72]. In this
+context, since the spectral density of the bath is
+modified under the mapping, we expect that in
+the strong coupling regime there will be qualitatively changes in the behaviour of optimal trajectories, similarly to what we showed in Fig. 3.
+Similarly, the same framework can also be applied
+to other types of thermalisation such as in collisional models [73]. Another interesting research
+direction is to investigate the connection between
+optimal thermodynamic processes and shortcuts
+to thermalisation [74]. Overall, it seems that the
+introduction of a metric structure on the space of
+thermodynamic states is not only natural, but it
+is worth of more investigation in the future.
+
+1. By construction, the protocols developed are
+independent of the total time T . That is, one
+does not need to optimise the path for every
+duration of the protocol.
+2. When dealing with small systems, it is not
+only important to minimise the dissipated
+work, but also to minimise fluctuations. In
+the quasistatic limit, minimising dissipation
+guarantees the minimisation of fluctuations
+for classical systems [9], and for commuting
+protocols in the quantum regime [59].
+3. The introduction of a Riemannian structure
+in the space of parameters provides an automatic way to infer the dissipative properties
+of the system, just by inspecting the eigenvalues of the metric.
+Finally, in Appendix H we also qualitatively
+compare the geometric approach with exact approaches for a two-level system finding good
+
+Acknowledgements. We thank G. Crooks, S.
+Deffner, M. Ueda, and V. Cavina for insightful
+8
+
+hold and Gilmore.
+Phys. Rev. A, 37:
+845–848, Feb 1988. DOI: 10.1103/PhysRevA.37.845.
+URL https://link.aps.
+org/doi/10.1103/PhysRevA.37.845.
+[8] L. Diosi, K. Kulacsy, B. Lukacs, and
+A. Racz. Thermodynamic length, time,
+speed, and optimum path to minimize entropy production. The Journal of chemical
+physics, 105(24):11220–11225, 1996. URL
+https://aip.scitation.org/doi/abs/
+10.1063/1.472897.
+[9] G. E. Crooks.
+Measuring thermodynamic
+length.
+Phys. Rev.
+Lett., 99:100602, Sep 2007.
+DOI:
+10.1103/PhysRevLett.99.100602.
+URL
+https://link.aps.org/doi/10.1103/
+PhysRevLett.99.100602.
+[10] P. R. Zulkowski, D. A. Sivak, G. E. Crooks,
+and M. R. DeWeese. Geometry of thermodynamic control.
+Phys. Rev. E, 86:
+041148, Oct 2012. DOI: 10.1103/PhysRevE.86.041148. URL https://link.aps.
+org/doi/10.1103/PhysRevE.86.041148.
+[11] E. H. Feng and G. E. Crooks.
+Farfrom-equilibrium measurements of thermodynamic length.
+Phys. Rev. E, 79:
+012104, Jan 2009.
+DOI: 10.1103/PhysRevE.79.012104. URL https://link.aps.
+org/doi/10.1103/PhysRevE.79.012104.
+[12] D. A. Sivak and G. E. Crooks. Thermodynamic metrics and optimal paths. Phys.
+Rev. Lett., 108:190602, May 2012. DOI:
+10.1103/PhysRevLett.108.190602.
+URL
+https://link.aps.org/doi/10.1103/
+PhysRevLett.108.190602.
+[13] D. A. Sivak and G. E. Crooks. Thermodynamic geometry of minimum-dissipation
+driven barrier crossing. Phys. Rev. E, 94:
+052106, Nov 2016. DOI: 10.1103/PhysRevE.94.052106. URL https://link.aps.
+org/doi/10.1103/PhysRevE.94.052106.
+[14] P. R. Zulkowski, D. A. Sivak, and M. R.
+DeWeese. Optimal control of transitions
+between nonequilibrium steady states. PloS
+one, 8(12):e82754, 2013.
+URL https:
+//journals.plos.org/plosone/article?
+id=10.1371/journal.pone.0082754.
+[15] P. R. Zulkowski and M. R. DeWeese.
+Optimal control of overdamped systems. Phys. Rev. E, 92:032117, Sep 2015.
+DOI: 10.1103/PhysRevE.92.032117. URL
+
+comments. M.P.-L. acknowledges support from
+the Alexander von Humboldt Foundation. This
+project has received funding from the European
+Union’s Horizon 2020 research and innovation
+programme under the Marie Skłodowska-Curie
+grant agreement No 713729, and from Spanish MINECO (QIBEQI FIS2016-80773-P, Severo
+Ochoa SEV-2015-0522), Fundacio Cellex, Generalitat de Catalunya (SGR 1381 and CERCA Programme). This research was also supported in
+part by the National Science Foundation under
+Grant No. NSF PHY-1748958.
+
+References
+[1] F. Weinhold. Metric geometry of equilibrium
+thermodynamics. The Journal of Chemical
+Physics, 63:2479, 1975. URL https://doi.
+org/10.1063/1.431689.
+[2] F. Weinhold. Metric geometry of equilibrium thermodynamics. III. Elementary formal structure of a vector-algebraic representation of equilibrium thermodynamics. The
+Journal of Chemical Physics, 63(6):2488–
+2495, 1975. DOI: 10.1063/1.431636. URL
+https://doi.org/10.1063/1.431636.
+[3] F. Schlögl.
+Thermodynamic metric
+and stochastic measures.
+Zeitschrift
+für Physik B Condensed Matter, 59
+(4):449–454, Dec 1985.
+ISSN 1431584X. DOI: 10.1007/BF01328857. URL
+https://doi.org/10.1007/BF01328857.
+[4] P. Salamon and R. S. Berry. Thermodynamic length and dissipated availability.
+Phys. Rev. Lett., 51:1127–1130, Sep 1983.
+DOI: 10.1103/PhysRevLett.51.1127. URL
+https://link.aps.org/doi/10.1103/
+PhysRevLett.51.1127.
+[5] P. Salamon, B. Andresen, P. D. Gait, and
+R. S. Berry. The significance of Weinhold’s
+length. The Journal of Chemical Physics,
+73(2):1001–1002, 1980. URL https://doi.
+org/10.1063/1.440217.
+[6] J. Nulton, P. Salamon, B. Andresen, and
+Q. Anmin. Quasistatic processes as step
+equilibrations. The Journal of Chemical
+Physics, 83:334, 1985. URL https://doi.
+org/10.1063/1.449774.
+[7] B. Andresen, R. S. Berry, R. Gilmore,
+E. Ihrig, and P. Salamon.
+Thermodynamic geometry and the metrics of Wein9
+
+and S. Deffner.
+Shortcuts to adiabaticity from linear response theory.
+Physical Review E, 92(4):042148, 2015.
+URL
+https://journals.aps.org/pre/
+abstract/10.1103/PhysRevE.92.042148.
+[25] M. F. Ludovico, F. Battista, F. von Oppen, and L. Arrachea.
+Adiabatic response and quantum thermoelectrics for acdriven quantum systems. Phys. Rev. B,
+93:075136, Feb 2016. DOI: 10.1103/PhysRevB.93.075136. URL https://link.aps.
+org/doi/10.1103/PhysRevB.93.075136.
+[26] M. V. S. Bonança and S. Deffner. Minimal
+dissipation in processes far from equilibrium. Phys. Rev. E, 98:042103, Oct 2018.
+DOI: 10.1103/PhysRevE.98.042103. URL
+https://link.aps.org/doi/10.1103/
+PhysRevE.98.042103.
+[27] Patrick R. Zulkowski and Michael R. DeWeese. Optimal protocols for slowly driven
+quantum systems.
+Phys. Rev. E, 92:
+032113, Sep 2015.
+DOI: 10.1103/PhysRevE.92.032113. URL https://link.aps.
+org/doi/10.1103/PhysRevE.92.032113.
+[28] V. Gorini, A. Kossakowski, and E. C. G.
+Sudarshan. Completely positive dynamical
+semigroups of n-level systems.
+Journal
+of Mathematical Physics, 17(5):821–825,
+1976.
+DOI: 10.1063/1.522979.
+URL
+https://aip.scitation.org/doi/abs/
+10.1063/1.522979.
+[29] Tameem Albash, Sergio Boixo, Daniel A
+Lidar, and Paolo Zanardi.
+Quantum
+adiabatic markovian master equations.
+New Journal of Physics, 14(12):123016,
+December 2012.
+DOI: 10.1088/13672630/14/12/123016. URL https://doi.
+org/10.1088/1367-2630/14/12/123016.
+[30] Makoto Yamaguchi, Tatsuro Yuge, and
+Tetsuo Ogawa. Markovian quantum master
+equation beyond adiabatic regime. Phys.
+Rev. E, 95:012136, Jan 2017.
+DOI:
+10.1103/PhysRevE.95.012136.
+URL
+https://link.aps.org/doi/10.1103/
+PhysRevE.95.012136.
+[31] Roie Dann, Amikam Levy, and Ronnie
+Kosloff. Time-dependent markovian quantum master equation. Phys. Rev. A, 98:
+052129, Nov 2018. DOI: 10.1103/PhysRevA.98.052129. URL https://link.aps.
+org/doi/10.1103/PhysRevA.98.052129.
+
+https://link.aps.org/doi/10.1103/
+PhysRevE.92.032117.
+[16] D. Petz and G. Toth. The Bogoliubov inner product in quantum statistics. Letters in Mathematical Physics, 27(3):205–
+216, Mar 1993. ISSN 1573-0530. DOI:
+10.1007/BF00739578. URL https://doi.
+org/10.1007/BF00739578.
+[17] P. W. Michor, D. Petz, and A. Andai.
+On the curvature of a certain Riemannian space of matrices. Infinite Dimensional Analysis, Quantum Probability and
+Related Topics, 03(02):199–212, 2000. DOI:
+10.1142/S0219025700000145. URL https:
+//doi.org/10.1142/S0219025700000145.
+[18] D. Petz. Covariance and Fisher information in quantum mechanics. Journal of
+Physics A: Mathematical and General, 35(4):
+929, 2002. URL http://stacks.iop.org/
+0305-4470/35/i=4/a=305.
+[19] D. Petz and C. Ghinea.
+Introduction
+to quantum Fisher information, pages
+261–281. World Scientific, 2011. DOI:
+10.1142/9789814338745_0015.
+URL
+https://www.worldscientific.com/doi/
+abs/10.1142/9789814338745_0015.
+[20] R. Balian.
+The entropy-based quantum metric.
+Entropy, 16(7):3878–
+3888, 2014.
+ISSN 1099-4300.
+DOI:
+10.3390/e16073878.
+URL
+http:
+//www.mdpi.com/1099-4300/16/7/3878.
+[21] S. Deffner and E. Lutz.
+Generalized
+clausius
+inequality
+for
+nonequilibrium quantum processes.
+Phys. Rev.
+Lett., 105:170402, Oct 2010.
+DOI:
+10.1103/PhysRevLett.105.170402.
+URL
+https://link.aps.org/doi/10.1103/
+PhysRevLett.105.170402.
+[22] S. Deffner and E. Lutz.
+Thermodynamic length for far-from-equilibrium
+quantum systems.
+Phys. Rev. E, 87:
+022143, Feb 2013.
+DOI: 10.1103/PhysRevE.87.022143. URL https://link.aps.
+org/doi/10.1103/PhysRevE.87.022143.
+[23] M. Campisi, S. Denisov, and P. Hänggi.
+Geometric magnetism in open quantum
+systems. Phys. Rev. A, 86:032114, Sep 2012.
+DOI: 10.1103/PhysRevA.86.032114. URL
+https://link.aps.org/doi/10.1103/
+PhysRevA.86.032114.
+[24] T. V. Acconcia, M. V. S. Bonança,
+10
+
+their application in the Kondo problem. Comm. Math. Phys., 46(3):253–262,
+1976. URL https://projecteuclid.org:
+443/euclid.cmp/1103899639.
+[42] G. Guarnieri, G. T. Landi, S. R. Clark,
+and J. Goold. Thermodynamics of precision
+in quantum non equilibrium steady states.
+arXiv preprint arXiv:1901.10428, 2019.
+[43] S. Sachdev. Quantum phase transitions.
+Handbook of Magnetism and Advanced Magnetic Materials, 2007.
+[44] H. P. Breuer and F. Petruccione. The theory
+of open quantum systems. Oxford University
+Press, Great Clarendon Street, 2002.
+[45] A. Bérut, A. Arakelyan, A. Petrosyan,
+S. Ciliberto, R. Dillenschneider, and E. Lutz.
+Experimental verification of Landauer’s
+principle linking information and thermodynamics. Nature, 483(7388):187, 2012.
+URL https://www.nature.com/articles/
+nature10872.
+[46] Y. Jun, M. Gavrilov, and J. Bechhoefer.
+High-precision test of Landauer’s
+principle in a feedback trap.
+Phys.
+Rev. Lett., 113:190601, Nov 2014. DOI:
+10.1103/PhysRevLett.113.190601.
+URL
+https://link.aps.org/doi/10.1103/
+PhysRevLett.113.190601.
+[47] J. V. Koski, V. F. Maisi, J. P. Pekola,
+and D. V. Averin. Experimental realization of a Szilard engine with a single electron. Proceedings of the National Academy
+of Sciences, 111(38):13786–13789, 2014.
+URL http://www.pnas.org/content/111/
+38/13786.
+[48] R. Gaudenzi, E. Burzurí, S. Maegawa,
+H. S. J. Zant, and F. Luis. Quantum
+Landauer erasure with a molecular nanomagnet. Nature Physics, 14(6):565, 2018.
+URL https://www.nature.com/articles/
+s41567-018-0070-7.
+[49] T. Schmiedl and U. Seifert. Optimal finitetime processes in stochastic thermodynamics. Phys. Rev. Lett., 98:108301, Mar 2007.
+DOI: 10.1103/PhysRevLett.98.108301. URL
+https://link.aps.org/doi/10.1103/
+PhysRevLett.98.108301.
+[50] M. Esposito, R. Kawai, K. Lindenberg, and
+C. Van den Broeck. Finite-time thermodynamics for a single-level quantum dot.
+EPL (Europhysics Letters), 89(2):20003,
+
+[32] V. Cavina, A. Mari, and V. Giovannetti. Slow dynamics and thermodynamics
+of open quantum systems.
+Phys. Rev.
+Lett., 119:050601, Aug 2017.
+DOI:
+10.1103/PhysRevLett.119.050601.
+URL
+https://link.aps.org/doi/10.1103/
+PhysRevLett.119.050601.
+[33] D. Mandal and C. Jarzynski. Analysis
+of slow transitions between nonequilibrium steady states.
+Journal of Statistical Mechanics:
+Theory and Experiment, 2016(6):063204, jun 2016.
+DOI:
+10.1088/1742-5468/2016/06/063204. URL
+https://doi.org/10.1088/1742-5468/
+2016/06/063204.
+[34] Gavin E Crooks. On the Drazin inverse of
+the rate matrix. 2018.
+[35] F. Hiai and D. Petz. Introduction to Matrix Analysis and Applications. Springer International Publishing, Cham, 2014. ISBN
+978-3-319-04150-6. DOI: 10.1007/978-3-31904150-6_3.
+URL https://doi.org/10.
+1007/978-3-319-04150-6_3.
+[36] T. L. Boullion and P. L. Odell. Generalised
+inverse matrices. Wiley-Interscience, New
+York, 1971.
+[37] A. Müller-Hermes and D. Reeb. Monotonicity of the quantum relative entropy
+under positive maps.
+Annales Henri
+Poincaré, 18(5):1777–1788, jan 2017. DOI:
+10.1007/s00023-017-0550-9. URL https://
+doi.org/10.1007/s00023-017-0550-9.
+[38] B. O’Neill. Semi-Riemannian geometry with
+applications to relativity. Pure and Applied
+Mathematics. Elsevier Science, 1983. ISBN
+9780080570570.
+[39] V. I. Arnold. Lagrangian mechanics on
+manifolds, pages 75–97.
+Springer New
+York, New York, NY, 1989. ISBN 978-14757-2063-1. DOI: 10.1007/978-1-4757-20631_4.
+URL https://doi.org/10.1007/
+978-1-4757-2063-1_4.
+[40] F. J. Dyson, E. H. Lieb, and B. Simon.
+Phase transitions in quantum spin systems
+with isotropic and nonisotropic interactions.
+Journal of Statistical Physics, 18(4):335–
+383, Apr 1978. ISSN 1572-9613. DOI:
+10.1007/BF01106729. URL https://doi.
+org/10.1007/BF01106729.
+[41] G. Roepstorff.
+Correlation inequalities in quantum statistical mechanics and
+11
+
+E. Vanden-Eijnden. Geometric approach
+to optimal nonequilibrium control: minimizing dissipation in nanomagnetic spin
+systems. Phys. Rev. E, 95:012148, Jan 2017.
+DOI: 10.1103/PhysRevE.95.012148. URL
+https://link.aps.org/doi/10.1103/
+PhysRevE.95.012148.
+[59] Harry JD Miller, Matteo Scandi, Janet Anders, and Martí Perarnau-Llobet. Work fluctuations in slow processes: quantum signatures and optimal control. arXiv preprint
+arXiv:1905.07328, 2019.
+[60] Y. Guryanova, S. Popescu, A. J. Short,
+R. Silva, and P. Skrzypczyk. Thermodynamics of quantum systems with multiple conserved quantities. Nature communications,
+7:ncomms12049, 2016. URL https://www.
+nature.com/articles/ncomms12049/.
+[61] M. Lostaglio, D. Jennings, and T. Rudolph.
+Thermodynamic
+resource
+theories,
+non-commutativity and maximum entropy principles.
+New Journal of
+Physics, 19(4):043008, 2017.
+URL
+http://iopscience.iop.org/article/
+10.1088/1367-2630/aa617f/meta.
+[62] N. Y. Halpern, P. Faist, J. Oppenheim, and
+A. Winter. Microcanonical and resourcetheoretic derivations of the thermal state
+of a quantum system with noncommuting charges. Nature communications, 7:
+12051, 2016. URL https://www.nature.
+com/articles/ncomms12051.
+[63] M. Perarnau-Llobet, A. Riera, R. Gallego, H. Wilming, and J. Eisert. Work
+and entropy production in generalised
+Gibbs ensembles.
+New Journal of
+Physics, 18(12):123035, 2016.
+URL
+http://iopscience.iop.org/article/
+10.1088/1367-2630/aa4fa6/meta.
+[64] André M. Timpanaro, Giacomo Guarnieri,
+John Goold, and Gabriel T. Landi. Thermodynamic uncertainty relations from
+exchange fluctuation theorems.
+Phys.
+Rev. Lett., 123:090604, Aug 2019. DOI:
+10.1103/PhysRevLett.123.090604.
+URL
+https://link.aps.org/doi/10.1103/
+PhysRevLett.123.090604.
+[65] M. F. Gelin and M. Thoss. Thermodynamics of a subensemble of a canonical
+ensemble. Phys. Rev. E, 79:051121, May
+2009. DOI: 10.1103/PhysRevE.79.051121.
+
+2010. URL http://iopscience.iop.org/
+article/10.1209/0295-5075/89/20003.
+[51] V. Cavina, A. Mari, A. Carlini, and V. Giovannetti. Optimal thermodynamic control
+in open quantum systems. Phys. Rev. A,
+98:012139, Jul 2018. DOI: 10.1103/PhysRevA.98.012139. URL https://link.aps.
+org/doi/10.1103/PhysRevA.98.012139.
+[52] Paul Menczel, Tuomas Pyhäranta, Christian Flindt, and Kay Brandner. Two-stroke
+optimization scheme for mesoscopic refrigerators. Phys. Rev. B, 99:224306, Jun 2019.
+DOI: 10.1103/PhysRevB.99.224306. URL
+https://link.aps.org/doi/10.1103/
+PhysRevB.99.224306.
+[53] S. Deffner. Optimal control of a qubit in
+an optical cavity.
+Journal of Physics
+B: Atomic,
+Molecular and Optical
+Physics, 47(14):145502, 2014.
+URL
+http://iopscience.iop.org/article/
+10.1088/0953-4075/47/14/145502/meta.
+[54] Vasco Cavina, Andrea Mari, Alberto Carlini, and Vittorio Giovannetti.
+Variational approach to the optimal control of coherently driven, open quantum
+system dynamics.
+Phys. Rev. A, 98:
+052125, Nov 2018. DOI: 10.1103/PhysRevA.98.052125. URL https://link.aps.
+org/doi/10.1103/PhysRevA.98.052125.
+[55] M. V. S. Bonança and S. Deffner. Optimal driving of isothermal processes close
+to equilibrium.
+The Journal of chemical physics, 140(24):244119, 2014. URL
+https://aip.scitation.org/doi/abs/
+10.1063/1.4885277?journalCode=jcp.
+[56] G. M. Rotskoff and G. E. Crooks. Optimal control in nonequilibrium systems:
+dynamic Riemannian geometry of the Ising
+model. Phys. Rev. E, 92:060102, Dec 2015.
+DOI: 10.1103/PhysRevE.92.060102. URL
+https://link.aps.org/doi/10.1103/
+PhysRevE.92.060102.
+[57] T. R. Gingrich, G. M. Rotskoff, G. E.
+Crooks, and P. L. Geissler.
+Nearoptimal protocols in complex nonequilibrium transformations.
+Proceedings
+of the National Academy of Sciences,
+113(37):10263–10268, aug 2016.
+DOI:
+10.1073/pnas.1606273113.
+URL https:
+//doi.org/10.1073/pnas.1606273113.
+[58] G. M. Rotskoff, G. E. Crooks, and
+12
+
+of Physics, 18(7):073007, 2016.
+URL
+http://iopscience.iop.org/article/
+10.1088/1367-2630/18/7/073007/meta.
+[71] D. Newman, F. Mintert, and A. Nazir.
+Performance of a quantum heat engine at
+strong reservoir coupling. Phys. Rev. E,
+95:032139, Mar 2017. DOI: 10.1103/PhysRevE.95.032139. URL https://link.aps.
+org/doi/10.1103/PhysRevE.95.032139.
+[72] M. Perarnau-Llobet, H. Wilming, A. Riera,
+R. Gallego, and J. Eisert. Strong coupling
+corrections in quantum thermodynamics.
+Phys. Rev. Lett., 120:120602, Mar 2018.
+DOI:
+10.1103/PhysRevLett.120.120602.
+URL
+https://link.aps.org/doi/10.
+1103/PhysRevLett.120.120602.
+[73] Elisa Bäumer, Martí Perarnau-Llobet,
+Philipp Kammerlander, Henrik Wilming, and Renato Renner.
+Imperfect
+Thermalizations Allow for Optimal Thermodynamic Processes.
+Quantum, 3:
+153, June 2019. ISSN 2521-327X. DOI:
+10.22331/q-2019-06-24-153. URL https:
+//doi.org/10.22331/q-2019-06-24-153.
+[74] Roie Dann, Ander Tobalina, and Ronnie Kosloff.
+Shortcut to equilibration
+of an open quantum system.
+Phys.
+Rev. Lett., 122:250402, Jun 2019. DOI:
+10.1103/PhysRevLett.122.250402.
+URL
+https://link.aps.org/doi/10.1103/
+PhysRevLett.122.250402.
+
+URL
+https://link.aps.org/doi/10.
+1103/PhysRevE.79.051121.
+[66] M. Campisi, P. Talkner, and P. Hänggi.
+Fluctuation
+theorem
+for
+arbitrary
+open quantum systems.
+Phys. Rev.
+Lett., 102:210401, May 2009.
+DOI:
+10.1103/PhysRevLett.102.210401.
+URL
+https://link.aps.org/doi/10.1103/
+PhysRevLett.102.210401.
+[67] S. Hilt, B. Thomas, and E. Lutz. Hamiltonian of mean force for damped quantum
+systems. Phys. Rev. E, 84:031110, Sep 2011.
+DOI: 10.1103/PhysRevE.84.031110. URL
+https://link.aps.org/doi/10.1103/
+PhysRevE.84.031110.
+[68] R Gallego, A Riera, and J Eisert. Thermal machines beyond the weak coupling
+regime. New Journal of Physics, 16(12):
+125009, 2014. URL http://stacks.iop.
+org/1367-2630/16/i=12/a=125009.
+[69] D. Gelbwaser-Klimovsky and A. AspuruGuzik. Strongly coupled quantum heat
+machines. The journal of physical chemistry letters, 6(17):3477–3482, 2015. URL
+https://pubs.acs.org/doi/abs/10.
+1021/acs.jpclett.5b01404.
+[70] P. Strasberg, G. Schaller, N. Lambert,
+and T. Brandes.
+Nonequilibrium thermodynamics in the strong coupling and
+non-Markovian regime based on a reaction coordinate mapping.
+New Journal
+
+13
+
+A Non equilibrium free energy and work extraction
+In this section we give the details on how to derive equation (1) and (3) of the main text. First, it is
+straightforward to show, using the defining formula F (ρ, H) = hHiρ − β −1 S(ρ), that the free energy
+of a thermal state ωβ (H) is given by
+F (ω, H) = hHiρ − β −1 (β hHiρ + log ZH ) = −β −1 log ZH
+
+(35)
+
+in complete analogy with classical thermodynamics. Then, equation (1) is obtained by direct computation, rewriting the relative entropy as:
+β −1 S(ρ||ωβ (H)) = β −1 Tr [ρ(log ρ − log ωβ (H))] =
+
+
+
+
+= −β −1 S(ρ) + hHiρ + β −1 log ZH =
+= F (ρ, H) − F (ωβ (H), H),
+
+(36)
+
+which gives the result after rearranging the terms. For what regards equation (3), it is useful to first
+give the expression of the total derivative of the non equilibrium free energy along a trajectory (ρt , Ht ).
+This can be decomposed in the two terms:
+d
+d
+(37)
+F (ρt , Ht ) = (Tr [ρ̇t Ht ] + β −1 Tr [ρt log ρt ]) + Tr[ρt Ḣt ].
+dt
+dt
+The last trace can be rewritten as:
+F (ρt , Ht+ε ) − F (ρt , Ht )
+Tr[ρt Ḣt ] = lim
+=: ∂Ht F (ρt , Ht ).
+(38)
+ε→0
+ε
+For what regards the term inside the parenthesis, it should be first noticed that we can rewrite:
+h
+
+i
+
+Tr [ρ̇t Ht ] = −β −1 (Tr ρ̇t log e−βHt − log ZH Tr [ρ̇t ]) =
+= −β −1 Tr [ρ̇t log ωβ (Ht )] ,
+
+(39)
+
+where in the first line we use the fact that the derivative of a state is traceless. Then, we obtain for
+the whole expression:
+S(ρt+ε ||ωβ (Ht )) − S(ρt ||ωβ (Ht ))
+d
+Tr [ρt log ρt ] − Tr [ρ̇t log ωβ (Ht )] = lim
+=: ∂ρt S(ρt ||ωβ (Ht )), (40)
+ε→0
+dt
+ε
+where we recognise the quantity defined in (4). In this way, equation (37) can be expressed in the
+compact form:
+d
+F (ρt , Ht ) = ∂Ht F (ρt , Ht ) + β −1 ∂ρt S(ρt ||ωβ (Ht ))
+(41)
+dt
+This equality can be used to obtain equation (3). In fact, starting from the definition of the work
+in (2), a simple integration by parts gives:
+W =−
+
+Z
+
+h
+
+i
+
+dt Tr ρt Ḣt = −
+
+Z
+
+γ
+
+= −∆Fn.eq. − β −1
+
+γ
+
+Z
+γ
+
+dt ∂Ht F (ρt , Ht ) =
+
+dt [−∂ρt S(ρt ||ωβ (Ht ))]
+
+(42)
+
+This concludes the derivation of (3).
+Finally, one can obtain equation (5) simply by using the first law of thermodynamics, plugging in
+the definition of ∆Fn.eq. :
+∆Q = ∆U + W = ∆U − ∆Fn.eq. − β −1
+
+Z
+γ
+
+−
+ + β −1 ∆S − β −1
+=
+∆U
+∆U
+
+Multiplying both sides by β, we obtain (5).
+14
+
+Z
+γ
+
+dt [−∂ρt S(ρt ||ωβ (Ht ))]
+
+dt [−∂ρt S(ρt ||ωβ (Ht ))].
+
+(43)
+
+B The entropy production rate
+We now study the main features of the entropy production rate. Equation (42) suggests that the
+definition of the instantaneous entropy production rate is [44]:
+S(ρt+ε ||ωβ (Ht )) − S(ρt ||ωβ (Ht ))
+.
+ε→0
+ε
+
+σ̇(ρt ) := − ∂ρt S(ρt ||ωβ (Ht )) = − lim
+
+(44)
+
+Before investigating the positivity of this quantity, it is useful to show a weaker equation for ρt which
+are induced by CPTP maps in the case in which there is no driving. In particular, assuming the system
+to be initially uncorrelated with the environment (ρU N IV (0) = ρS0 ⊗ ρE
+0 ), and that the Gibbs state is
+stationary under the evolution, one has that:
+h
+
+i
+
+h
+
+i
+
+†
+†
+E
+S(ρt ||ωβ (H)) = S(TrE Ut (ρS0 ⊗ ρE
+0 )Ut ||TrE Ut (ωβ (H) ⊗ ρ0 )Ut ) ≤
+†
+†
+E
+S
+E
+E
+≤ S(Ut (ρS0 ⊗ ρE
+0 )Ut ||Ut (ωβ (H) ⊗ ρ0 )Ut ) = S(ρ0 ⊗ ρ0 ||ωβ (H) ⊗ ρ0 ) =
+
+E
+= S(ρS0 ||ωβ (H)) + 
+S(ρ
+E
+0 ||ρ0 ),
+
+
+(45)
+
+where we used the fact that the relative entropy decreases when one traces out part of the system,
+together with its invariance under unitary evolution. Denoting with Vt the dynamical map which bring
+the reduced density matrix of the system from the original state ρS0 to ρt , we can rewrite the equation
+as:
+S(ρS0 ||ωβ (H)) − S(Vt ρS0 ||ωβ (H)) ≥ 0,
+
+(46)
+
+which ensures that on any finite time the integral of −∂ρt S(ρt ||ωβ (H)) is positive. Unfortunately,
+this result does not give any information about the monotonicity of the change of entropy: it is
+sufficient to consider an exactly recurrent system, with periodicity T , for which the the quantity
+S(ρS0 ||ωβ (H)) − S(ρt ||ωβ (H)) will first increase, to only go back to zero at time T .
+Nonetheless, when Vt is a dynamical semigroup, meaning that for any t, s ≥ 0 the identity Vt+s = Vt Vs
+holds, one can further prove that:
+S(Vt0 ρ||ωβ (H)) = S(Vt0 −t Vt ρ||ωβ (H)) ≤ S(Vt ρ||ωβ (H))
+
+for t0 ≥ t.
+
+(47)
+
+This result implies that the entropy production rate in (44) is positive. As it was stated above, this
+result is true in general only if the dynamics can be described by a dynamical semigroup, that is, if
+the evolution is Markovian.
+The generalization to the case in which the system is slowly driven as considered here follows directly
+from the fact that we are dealing with adiabatic master equations for which L(ωβ (Ht )) = 0 ∀t, and
+hence we can restrict ourselves for each time t to an infinitesimal region around Ht and apply the same
+reasoning.
+
+C Drazin inverse of the Lindblad operator
+Here we derive the integral expression for the Drazin inverse L+
+t in the space of trace-class operators.
+We first recall the three conditions needed to define the inverse:
++
+Lt L+
+t [A] = Lt Lt [A] = A − ωβ (Ht )Tr [A] ;
+
+(48)
+
+L+
+t [ωβ (Ht )] = 0;
+
+(49)
+
+h
+
+i
+
+Tr L+
+t [A] = 0.
+
+(50)
+
+We introduce the following trial solution
+Λ+
+t [A] :=
+
+Z ∞
+
+dν eνLt ωβ (Ht )Tr [A] − A .
+
+
+0
+
+15
+
+(51)
+
+We first check (49), which gives
+Λ+
+t [ωβ (Ht )] =
+
+Z ∞
+
+dν eνLt ωβ (Ht )Tr [ωβ (Ht )] − ωβ (Ht ) = 0,
+
+
+(52)
+
+0
+
+which follows from the normalisation of ωβ (Ht ). For what regards (50) we find
+Tr
+
+h
+
+i
+
+Λ+
+t [A]
+
+Z ∞
+
+=
+Z0∞
+
+=
+
+h
+
+dν Tr eνLt ωβ (Ht )Tr [A] − A
+
+i
+
+=
+
+
+
+dν Tr [ωβ (Ht )] Tr [A] − Tr [A] = 0,
+
+(53)
+
+0
+
+where we used the fact that the propagator eνLt is trace-preserving. Finally, in order to show that (48)
+holds, we first find the following:
+Z ∞
+
+ν=∞
+
+
+
+d νLt
+d eνLt ωβ (Ht )Tr [A] − A =
+e
+ωβ (Ht )Tr [A] − A =
+dν
+0
+ν=0
+
+νLt
+= A − ωβ (Ht )Tr [A] + lim e
+ωβ (Ht )Tr [A] − A = A − lim eνLt A =
+
+Lt Λ+
+t [A] =
+
+Z
+
+dν
+
+ν→∞
+
+ν→∞
+
+= A − ωβ (Ht )Tr [A] ,
+
+(54)
+
+where we used the fact that ∀t limν→∞ eνLt [B] = ωβ (Ht ), for any normalised operator B. Moreover,
+it also follows from the definition that
+Λ+
+t Lt [A] =
+
+Z ∞
+
+dν e
+
+νLt
+
+
+
+ωβ (Ht )Tr [Lt [A]] − Lt [A] = −
+
+0
+
+=−
+
+Z ∞
+
+dν eνLt Lt [A] =
+
+0
+
+Z ν=∞
+
+d e
+
+νLt 
+
+νLt
+
+A = A − lim e
+ν→∞
+
+ν=0
+
+A=
+
+= A − ωβ (Ht )Tr [A] .
+
+(55)
+
++
++
++
+We thus conclude that Λ+
+t = Lt . In fact, assume that there exists another Λ̃t 6= Λt satisfying
+conditions (37-39). Then, ∀A we would have:
+(49)
+
+(48)
+
+h
+
+i
+
+h
+
+i (48)
+
++
++
++
+Λ̃+
+t [A] = Λ̃t [A − ωβ (Ht )Tr [A]] = Λ̃t Lt Λt [A] =
++
+= Λ̃+
+t Lt Λt [A]
+
+h
+
+i (50)
+
++
+= Λ+
+t [A] − ωβ (Ht )Tr Λt [A]
+
+= Λ+
+t [A] , (56)
+
++
+which is in contradiction with the assumption that Λ̃+
+t 6= Λt . This completes the derivation of the
+integral expression (11).
+
+D Metric in open quantum systems
+We show here how to obtain equation (13) of the main text from the expression of the entropy production rate in (42) and (44). Before starting, it is useful to introduce the derivative of the logarithm
+of a density matrix [35]:
+log(ρ + εδρ) − log(ρ)
+=
+ε→0
+ε
+
+J−1
+ρ [δρ] := lim
+
+Z ∞
+
+dx (x + ρ)−1 δρ (x + ρ)−1 .
+
+(57)
+
+0
+
+It is worth pointing out that this operator is the inverse of Jρ defined in the main text, when one
+restricts ρ to density matrices.
+We can now pass to first express the entropy production rate (44) for a Lindbladian evolution, and
+then plug the quasistatic expansion of the state (12). First notice that we can split at first order σ̇ as:
+Tr [ρt+ε log ωβ (Ht )] − Tr [ρt log ωβ (Ht )]
+Tr [ρt+ε log ρt+ε ] − Tr [ρt log ρt ]
+σ̇(ρt ) = − lim
++
+=
+ε→0
+ε
+ε
+Tr [ρt log ρt+ε ] − Tr [ρt log ρt ]
+= −Tr [Lt [ρt ](log ρt − log ωβ (Ht ))] − lim
+.
+(58)
+ε→0
+ε
+
+
+
+
+16
+
+where we used the Lindblad equation ρ̇t = Lt [ρt ]. We will now show that the last term is actually zero.
+In fact, since for ε  1, ρt+ε ≃ ρt + εLt [ρt ] + . . . , we can expand the logarithm as:
+h
+
+i
+
+Tr [ρt log ρt ] + εTr ρt J−1
+ρt [Lt [ρt ]] − Tr [ρt log ρt ]
+
+Tr [ρt log ρt+ε ] − Tr [ρt log ρt ]
+≃ lim
+ε→0
+εi
+h
+= Tr ρt J−1
+ρt [Lt [ρt ]] = Tr [Lt [ρt ]] = 0,
+
+lim
+
+ε
+
+ε→0
+
+=
+(59)
+
+where in the second line we
+used the
+fact that J−1
+is self-adjoint with respect to the trace inner
+ −1
+
+
+−1
+product, meaning that: Tr AJ [B] = Tr J [A]B . This property can be inferred directly from the
+definition (57) and the cyclicity of the trace. Moreover, it is just a matter of computation to see that
+Jρ−1 [ρ] = 1. Finally, in the last equality we used the fact that Lt [ρ] is traceless.
+We can now pass to give the quasi-static expansion of the entropy production rate. Recall that in
+this limit the state is given by:
+h
+
+i
+
+ρt = ωβ (Ht ) − βL+
+t Jωβ (Ht ) [Ḣt ] + . . .
+
+(60)
+
+at first order in O (1/T ). Plugging this expression in (58), we can obtain the result presented in the
+main text:
+σ̇(ρt ) = −Tr [Lt [ρt ](log ρt − log ωβ (Ht ))] =
+h
+
+h
+
+ii
+
++
+= β Tr Lt [ρt ] J−1
+ωβ (Ht ) [Lt Jωβ (Ht ) [Ḣt ] ] =
+
+h
+
+h
+
+ii
+
++
+= −β 2 Tr Jωβ (Ht ) [Ḣt ] J−1
+ωβ (Ht ) [Lt Jωβ (Ht ) [Ḣt ] ] =
+
+h
+
+h
+
+= −β 2 Tr Ḣt L+
+t Jωβ (Ht ) [Ḣt ]
+
+ii
+
+(61)
+
+where in the second line we used the expansion of the logarithm, in the third line we plugged in the
+expansion of the state and used the property of the Drazin inverse, and in the last line the fact that
+J−1 is self adjoint. This conclude the derivation of (11).
+
+E Work for discrete processes
+The natural extension of the definition of extracted work (2) for processes in which the Hamiltonian
+is changed through a series of N quenches is given by:
+W =
+
+N
+−1
+X
+
+Tr [ρi (Hi − Hi+1 )] ,
+
+(62)
+
+i=0
+
+where Hi and ρi are respectively the Hamiltonian of the system and its density matrix at the i-th step.
+Adding and subtracting at each step S(ρi ) and using the definition of nonequilibrium free energy, we
+can obtain a splitting analogous to (3):
+W =
+=
+
+N
+−1
+X
+
+(Tr [ρi Hi ] − β −1 S(ρi )) − (Tr [ρi Hi+1 ] − β −1 S(ρi )) =
+
+i=0
+N
+−1
+X
+
+(F (ρi , Hi ) − F (ρi , Hi+1 )) =
+
+i=0
+
+= F (ρ0 , H0 ) − F (ρN , HN ) −
+
+N
+−1
+X
+
+(F (ρi , Hi+1 ) − F (ρi+1 , Hi+1 )) =
+
+i=0
+
+= −∆Fn.eq. − β −1
+
+N
+−1
+X
+
+(S(ρi ||ωβ (Hi+1 )) − S(ρi+1 ||ωβ (Hi+1 ))),
+
+i=0
+
+17
+
+(63)
+
+where in the last line we used the relation (1), which connects the nonequilibrium free energy with
+the equilibrium one. In this way, we can see that the entropy production rate for a discrete process is
+completely analogous to the one defined for a continuous evolution (4).
+If we now assume that at each step the system is allowed enough time to thermalise (ρi ≡ ωβ (Hi ))
+the dissipation simplifies to:
+Wdiss = β −1
+
+N
+−1
+X
+
+S(ωβ (Hi )||ωβ (Hi+1 )).
+
+(64)
+
+i=0
+
+Before proceeding further, it is useful to point out that the expansion of the relative entropy is given
+by [35]:
+h
+
+ 
+
+i
+
+3
+.
+S(ρ||ρ + εσ) = ε2 Tr σJ−1
+ρ [σ] + O ε
+
+(65)
+
+Then, if we assume to be in the
+quasistatic regime, so that we can use the expansion (17), Wdiss can
+
+be rewritten up to order O τ 2 as:
+Wdiss = β −1
+= βτ 2
+
+N
+−1
+X
+i=0
+N
+−1
+X
+
+S(ωβ (Hi )||ωβ (Hi ) − τ βJωβ (Hi ) [Ḣi+1 ]) =
+h
+
+i
+
+Tr Jωβ (Hi ) [Ḣi+1 ]J−1
+ωβ (Hi ) [Jωβ (Hi ) [Ḣi+1 ]] =
+
+i=0
+
+Z
+
+h
+
+= βτ
+γ
+
+i
+
+
+
+
+
+dt Tr Ḣt Jωβ (Ht ) [Ḣt ] + O τ 2 ,
+
+(66)
+
+where in the last line we used the definition of Riemann sum to pass from the discrete sum to the
+integral expression. As it can be seen, a formally equivalent result could be obtained from the fictitious
+master equation (18).
+
+F Expression of the metric in coordinates
+In this section we explain how to get an explicit expression of the metric for general Lindbladian
+evolutions. As a preliminary remark, it should be notice that any operator A can be treated as a
+vector in a linear space via the identification:
+A=
+
+X
+
+Alm |lihm| −→ |A i =
+
+X
+
+l,m
+
+Alm |lmi,
+
+(67)
+
+lm
+
+where |ii is some orthogonal basis. In particular, since any Hermitian operator can be expressed as a
+linear combination of:
+∆l = |l i hl | ,
+
+1
+Σxlm = √ ( |l i hm | + |m i hl |),
+2
+
+i
+Σylm = √ ( |l i hm | − |m i hl |),
+2
+
+(68)
+
+we can interpret these operators as an orthonormal basis of the corresponding real vector space. Moreover, we can lift the Hilbert-Schmidt inner product to define a scalar product
+hA|Bi = Tr[A† B].
+
+(69)
+
+This construction can be used to rewrite any linear superoperator as a d2 · d2 , matrix, where d is the
+dimension of the original Hilbert space.
+Using this identification, we can give an explicit expression for the Drazin inverse of a mixing
+Lindbladian. As it was said in the main text, Lindbladians of this type have a unique zero eigenvector,
+which we will denote by |ωβ (H) i, and all the other eigenvalues λα (corresponding to the eigenvectors
+18
+
+|α i) have negative real part. Moreover, since Lω is trace preserving, all the corresponding operators
+α must be traceless. We can give an explicit expression of L+
+ω as:
+L+
+ω =
+
+X
+
+(L+
+ω )α |α i hα | = −
+
+α
+
+=−
+
+X Z ∞
+0
+
+α
+
+XZ ∞
+α
+
+
+
+dν hα | eνL |α i |α i hα | =
+
+dν eνλα |α i hα | =
+
+X 1
+
+0
+
+α
+
+λα
+
+|α i hα |
+
+(70)
+
+This explicit construction is a further proof of the fact that the Drazin inverse simply corresponds to
+the usual inverse restricted to the traceless subspace.
+We can now pass to the explicit computation of the metric. For simplicity, we choose as a basis on
+the original Hilbert space the eigenbasis |i i of H. The only non-zero matrix element of Jωβ (H) in the
+basis given by the identification (67) can be explicitly evaluated as:
+1
+1
+e−βl i l −sβj
+j
+ds e−(1−s)βi (δli δm
+−
+δ δ )e
+=
+ZH 0
+ZH j m
+!
+!
+1 e−βi − e−βj
+e−β(i +l )
+j
+l
+=
+δli δm
+−
+δji δm
+.
+2
+ZH βj − βi
+ZH
+
+Z
+
+(Jωβ (H) )ij
+lm =
+
+(71)
+
+Moreover, since we can rewrite the eigenbasis of Lω as:
+|α i = uα,ij |ij i ,
+
+(72)
+
+where u is a unitary matrix, L+
+ω is expressed in this basis simply by:
+L+
+ω =
+
+X 1
+α
+
+λα
+
+|α i hα | =
+
+X u∗ij,α uα,lm
+α,i,j
+
+λα
+
+n
+
+o
+
+|ij i hlm | .
+
+(73)
+
+Now, assuming control only on a set of observables X (i) , we can then finally compute the metric
+entries as:
+L
+(i)
+(j)
+(mL
+ω )i,j = mω (X , X ) =
+1 X (i) (j)
+xy
+ml
+ml
++ xy
+=−
+X X ((L+
+ω )xy (Jωβ (H) )kn + (Jωβ (H) )xy (Lω )kn ).
+2 lm,kn lm kn
+
+(74)
+
+However cumbersome at a first look, this expression corresponds to a simple matrix product of the
+operator specified in coordinates in (71) and (73). In this way, one gets a matrix expression of mL
+ω of
+the same dimension as the one of controllable parameters.
+We can now derive equation (22) in the main text. Considering an evolution equation as in (21),
+the Lindbladian can be expressed as:
+Lω = −
+
+X
+
+τi−1 |Xi − hXi iω i hXi − hXi iω | .
+
+(75)
+
+i
+
+Then, we can use equation (70) to find the Drazin inverse of Lω , and plugging this expression in (74)
+simply gives:
+mL
+ω (Xi , Xj ) =
+=
+
+1 X (i) (j)
+ml
+X X (τi (Jωβ (H) )ml
+kn + τj (Jωβ (H) )kn ) =
+2 lm,kn lm kn
+τi + τj KMB
+mω (Xi , Xj ),
+2
+
+which proves the claim.
+19
+
+(76)
+
+G Two level system coupled to a bosonic bath
+In this section the details about the Lindblad master equation of a qubit in contact with a bosonic
+bath. We preliminary choose the basis of the Hilbert space in such a way that the Hamiltonian can be
+rewritten as:
+1
+H = rσ̂z .
+(77)
+2
+The dynamics induced in the interaction picture by a bosonic bath with spectral density J(r) ∝ rα is
+described by the master equation [44]:
+
+
+1
+1
+{σ̂+ σ̂− , ρt } + γr Pr σ̂+ ρt σ̂− − {σ̂− σ̂+ , ρt } ,
+2
+2
+
+
+ρ̇t = γr (Pr + 1) σ̂− ρt σ̂+ −
+
+
+
+
+
+(78)
+
+where γr and Pr are given by:
+γr = γ̃0 rα
+
+Pr =
+
+1
+e2βr − 1
+
+.
+
+(79)
+
+For simplicity, the proper equilibration timescale γ̃0−1 is assumed to be one. Additionally, for bookkeeping reasons it is useful to define the quantity Γr = γr (2Pr + 1). As it was argued in the main text,
+we can divide the density matrix of the system in a traceful and traceless component ρ = ωβ (H) + δω,
+so that the Lindblad equation can be rewritten as ρ̇t = Λt [δωt ]. In this simple case, we can use the
+Pauli matrices to parametrize the traceless space:
+z
+x + iy
+x − iy
+−z
+
+!
+
+−−−−−−−→ (x, y, z).
+
+(80)
+
+and plugging this expansion into (78) we obtain:
+
+
+
+
+
+
+ẋ(t)
+− Γr
+
+
+ 2
+ẏ(t) = Λr (ρ(t) − ωβ (H)) =  0
+ż(t)
+0
+
+0
+− Γ2r
+0
+
+
+
+
+
+0
+x(t)
+
+
+0  y(t) ,
+z(t)
+−Γr
+
+(81)
+
+In this way we obtained a definition for Λr , and consequently for its Drazin inverse. Assuming that
+the dissipative dynamics only depends on the energy spacing of the Hamiltonian, and not on the unit
+vector n̂ = (x̂, ŷ, ẑ), the Drazin inverse for a generic Hamiltonian is simply obtained by a change of
+basis. More explicitly we have:
+1
+−1 †
+H(x, y, z) = r U σ̂z U †
+(82)
+−→
+Λ−1
+(x,y,z) = U Λr U .
+2
+We now pass to quickly show how to obtain the metric in this case starting from the parametrisation
+in spherical coordinates:
+H = r cos ϕ sin θ σ̂x + r sin ϕ sin θ σ̂y + r cos θ σ̂z .
+
+(83)
+
+Using the parametrisation (80) the metric could be directly computed by plugging the Pauli matrices
+in equation (14). In spherical coordinates, though, one needs to first find the basis of the tangent space
+induced by the parametrisation, which can be computed by simple differentiation of the coordinate
+chart:
+
+
+ ∂r = cos ϕ sin θ σ̂x + sin ϕ sin θ σ̂y + cos θ σ̂z
+
+∂ = r cos ϕ cos θ σ̂ + r sin ϕ cos θ σ̂ − r sin θ σ̂z
+
+(84)
+
+x
+y
+θ
+
+ ∂ = −r sin ϕ sin θ σ̂ + r cos ϕ sin θ σ̂ .
+ϕ
+x
+y
+
+n
+
+o
+
+Then, the matrix form of the metric can be obtained directly from (74), using as X (i) the observables (84) or, equivalently:
+i
+1 h +
++
+mi, j = mL
+(∂
+,
+∂
+)
+=
+−
+L
+[J
+[∂
+]]
+∂
++
+L
+[J
+[∂
+]]
+∂
+.
+(85)
+Tr
+i
+j
+ω
+j
+i
+ω
+i
+j
+ω
+ω
+ω
+2
+
+20
+
+Figure 4: On the left hand side of the picture optimal protocols between (0) = −2β and (1) = 2β are presented
+for different times. These results are obtained with the technique presented in [50]. As it can be seen, for short times
+the trajectories present a quench at the beginning and at the end of the protocol. In the large time limit, instead,
+the optimal protocols become equivalent to the one obtained with the thermodynamic length. This behaviour is
+illustrated on the left hand side, where we plot the work required for trajectories obtained by exact minimisation or
+by solving the geodesic equation in function of time.
+
+H Comparison with optimal control optimisation
+The geometric approach provides an approximate solution which becomes exact in the limit of slow
+driving. In this appendix we compare it with the exact solutions reported in [50? ]. First, we compare
+in general terms the present method to the approach presented in [? ] to minimise dissipation in open
+quantum systems, discussing how complex the two optimisation procedures are. Then, we focus on a
+specific protocol involving a driven qubit and compare both approaches quantitatively.
+The main idea of [? ] is to use the Pontryagin’s minimum principle (PMP) to minimise the dissipation
+given a general Lindbladian master equation. In particular, using the decomposition of the system
+P
+Hamiltonian H = λit Xi , we denote by d the number of externally controllable parameters and by
+D the dimension of the Hilbert space. Then, following [? ], one needs to solve a differential system of
+2D equations (see Eq. (16) in [? ]), constraint by d algebraic equations. This should be contrasted
+to the geometric approach reported here, which only requires the solution of d differential equations
+(see Eqs. (15), (23) and (24) in the main text). In general, in the optimal control theory there is
+no systematic way to reduce the number of differential equations from 2D to d. This is possible in
+particular systems, e.g., when the problem can be linearised; however, in thermodynamics the control
+parameters usually appear both in H and e−βH , making such a linearisation not possible. Hence, while
+the complexity of the solution will of course depend on the specific system under considerations, it
+seems reasonable to say that the geometric approach will be considerably simpler in mesoscopic/manybody systems, in which usually d  D. An extreme case is shown for the Ising chain in the main text,
+where d = 1 and D → ∞. Another advantage of the geometric approach is that it allows to easily
+identify the less dissipating transformations of Ht by simple inspection of the eigenvalues of the metric.
+This was illustrated in the qubit case, where the effect of quantum coherence or of different timescales
+in the Lindbladian could be read out from the metric.
+It should however be kept in mind that the geometric approach provides an approximate solution,
+which becomes only exact in the slowly driven limit. To quantitatively analyse how good the approximation is, we now compare it to the exact solution for a quantum dot presented in [50] (the same
+results can be obtained using [? ]) with the one obtained solving the geodesic equation with the same
+Lindbladian as above and a varying Hamiltonian of the form: H = (t)
+2 (1 + σz ). For simplicity of
+notation, we will measure the energy in units of β and the times in τ . In [50] it is shown that optimal
+protocols will present a quench in the Hamiltonian at the beginning and at the end of the protocol
+when T is small. The size of the jumps is proportional to the duration of the process, and goes to zero
+for T → ∞. This behaviour is illustrated on the left hand side of figure 4. Comparing the asymptotic
+solution for T → ∞ with the one provided by the geodesic equation we notice that the two actually
+coincide. As expected, this implies that geodesics become optimal in the limit of big T , that is, in the
+21
+
+regime in which the quenches at the beginning and at the end of the protocol becomes negligible. This
+trend is confirmed by the plot on the right hand side of Fig. 4, where we plot the total work necessary
+to excite the quantum dot from (0) = −2β to (1) = 2β in function of the duration of the protocol.
+In fact, the two minimisation protocols give results which are reasonably similar already for times of
+order T ≈ τ , diverging by ∼ 10% when T = τ .
+Summarising, both the approach reported here and in [? ] allow for minimising dissipation given
+a Lindbladian master equation, and they appear to be complementary: [? ] provides exact solutions,
+whereas the geometric approach provides approximate solutions (which become exact in the slow
+driving limit) with a considerably simpler minimisation. The latter approach appears particularly
+suited for mesoscopic/many-body systems, where the number of control parameters in the Hamiltonian
+is small but the Hilbert space dimension is exponentially large.
+
+22
+
+

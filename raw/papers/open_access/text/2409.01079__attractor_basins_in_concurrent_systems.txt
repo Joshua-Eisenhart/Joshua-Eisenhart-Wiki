@@ -1,0 +1,1566 @@
+ATTRACTOR BASINS IN CONCURRENT SYSTEMS
+
+arXiv:2409.01079v1 [cs.FL] 2 Sep 2024
+
+GIANN KARLO AGUIRRE-SAMBONÍ a,e , STEFAN HAAR d , LOÏC PAULEVÉ
+STEFAN SCHWOON a , AND NICK WÜRDEMANN c
+
+b
+
+,
+
+a
+
+Université Paris-Saclay, INRIA and LMF, CNRS and ENS Paris-Saclay, Gif-sur-Yvette, France
+e-mail address: (giann-karlo.aguirre-samboni,stefan.schwoon)@inria.fr
+
+b
+
+Univ. Bordeaux, Bordeaux INP, CNRS, LaBRI, UMR5800, Talence, France
+e-mail address: loic.pauleve@labri.fr
+
+c
+
+Department of Computing Science, University of Oldenburg, Oldenburg, Germany
+e-mail address: wuerdemann@informatik.uni-oldenburg.de
+
+d
+
+INRIA Saclay center, Musca team
+e-mail address: stefan.haar@inria.fr
+
+e
+
+Mines Paris, PSL Research University, Centre for Computational Biology, 75006 Paris, France
+Institut Curie, PSL Research University, 75005 Paris, France
+INSERM, U900, 75005 Paris, France
+e-mail address: giann-karlo.aguirre samboni@minesparis.psl.eu
+
+Abstract. A crucial question in analyzing a concurrent system is to determine its longrun behaviour, and in particular, whether there are irreversible choices in its evolution, leading into parts of the reachability space from which there is no return to other parts. Casting
+this problem in the unifying framework of safe Petri nets, our previous work [CHJ+ 14] has
+provided techniques for identifying attractors, i.e. terminal strongly connected components
+of the reachability space. What we aim at is to determine the attraction basins associated
+to those attractors; that is, those states from where all infinite runs are doomed to end
+in the given attractor, as opposed to those that are free to evolve differently. Here, we
+provide a solution for the case of safe Petri nets. Our algorithm uses net unfoldings and
+provides a map of all of those configurations (concurrent executions of the system) that
+lead onto cliff-edges, i.e. any maximal extension for those configurations lies in some basin
+that is considered fatal.
+
+1. Introduction
+With the growing interest in formal methods for biology, the key feature of multistability of systems [Td90, PMO95, OTL+ 04, PF14] comes into focus. It has been studied in
+other qualitative models such as Boolean and multivalued networks [Tho80, TT95, Ric19].
+Multistability characterizes many fundamental biological processes, such as cellular differentiation, cellular reprogramming, and cell-fate decision; in fact, stabilization of a cell
+regulatory network corresponds reaching one of the - possibly many - phenotypes of the
+Preprint submitted to
+Logical Methods in Computer Science
+
+© G.K. Aguirre, S. Haar, L. Paulevé, S. Schwoon, and N. Würdemann
+CC
+Creative Commons
+
+1
+
+cell, thus explaining the important role of multistability in cell biology. However, multistability emerges also in many other branches of the life sciences; our own motivation is the
+qualitative analysis of the fate of ecosystems, see [PTG22].
+Multistability can be succinctly described as the presence of several attractors in the
+system under study. Attractors characterize the stable behaviours, given as the smallest
+subsets of states from which the system cannot escape; in other words, they are terminal
+strongly connected components of the associated transition system. In the long run, the
+system will enter one of its attractors and remain inside; multi-stability arises when there
+is more than one such attractor.
+Remark: Regardless of the application domain, there are typically some attractors
+that play a more ‘negative’ role then others; in cell regulation, e.g., some attractors simply
+represent different healthy phenotypes into which a cell may differentiate, while others can
+be cancerous. In ecology, there may even be not a single attractor that can be considered
+‘healthy’ in the sense that every such stable region may be characterized by the collapse
+of some species or sub-ecosystems. The survival, or the avoidance of doom as we will
+call it, consists for such systems in staying forever in some transient but doom-free loop.
+The purpose of this article is to provide formal tools for addressing these forms or doom
+avoidance, in the context of concurrent systems modeled by safe Petri nets.
+Returning to the discussion of basic notions, the basin B(A) of a given attractor A
+consists of the states that are doomed in the sense that any infinite run from them inevitably
+leads the system into A.
+The basin includes the attractor itself, and possibly one or several transient states [KHNS20].
+We aim at finding the basin boundaries at which the system switches from an undetermined or free state into some basin. While interesting beyond that domain, this is a recurrent question in the analysis of signalling and gene regulatory networks [CMR+ 15, MHR+ 18].
+In [FRGP17], the authors provide a method for identifying, in a boolean network model,
+the states in which one transition leads to losing the reachability of a given attractor (called
+bifurcation transitions there; we prefer to speak of tipping points instead). However, enumerating the states in which the identified transitions make the system branch away from
+the attractor can be highly combinatorial and hinders a fine understanding of the branching.
+Thus, the challenge resides in identifying the specific contexts and sequences of transitions
+leading to a strong basin.
+Unfoldings of Petri nets [EH08], which are essentially event structures in the sense of
+Winskel et al. [NPW79] with additional information about states, are an acyclic representation of the possible sequences of transitions, akin to Mazurkiewicz traces but enriched with
+branching information.
+Many reachability-related verification problems for concurrent systems have been successfully addressed by Petri-net unfolding methods over the past decades, see [McM92,
+ERV02, EH08]. However, questions of long-term behaviour and stabilization have received
+relatively little attention.
+We have shown in previous work [CHJ+ 14] how all reachable attractors can be extracted
+using bounded unfolding prefixes. Also, we have exhibited ([HPS20]) the particular shape
+of basins that can arise in a concurrent model.
+In the present paper, we build on these previous results; the point of view taken here
+is that all attractors correspond to the end of the system’s free behaviour, in other words
+to its doom. We will give characterizations of basin boundaries (called cliff-edges below),
+and of those behaviours that remain free, in terms of properties of the unfolding, reporting
+2
+
+also on practical experiments with an implementation of the algorithms derived. We finally
+introduce a novel type of quantitative measure, called protectedness, to indicate how far away
+(or close) a system is from doom, in a state that is still free per se. General discussions and
+outlook will conclude this paper.
+
+2. Petri Nets and Unfoldings
+We begin now by recalling the basic definitions needed below. A Petri net is a bipartite
+directed graph whose nodes are either places or transitions, and places may carry tokens.
+In this paper, we consider only safe Petri nets where a place carries either one or no token
+in any reachable marking. The set of currently active places form the state, or marking, of
+the net.
+Note. Some remarks are in order concerning our use of Petri nets versus that of
+boolean networks, which are more widely used in systems biology. Safe (or 1-bounded)
+Petri nets [Mur89] are close to Boolean and multivalued networks [CHK+ 20], yet enable a
+more fine-grained specification of the conditions for triggering value changes. Focussing on
+safe PNs entails no limitation of generality of the model, as two-way behaviour-preserving
+translations between Boolean and multivalued models exist (see [CHK+ 20] and the appendix
+of [CHJ+ 14] for discussion). We are thus entitled to move between these models without
+loss of expressiveness; however, Petri nets provide more convenient ways to develop and
+present the theory and the algorithms here.
+Formally, a net is a tuple N = hP , T , F i, where T is a finite set of transitions, P a
+finite set of places, and F ⊆ (P × T ) ∪ (T × P ) is a flow relation whose elements are called
+arcs. In figures, places are represented by circles and the transitions by boxes (each one
+with a label identifying it).
+For any node x ∈ P ∪ T , we call pre-set of x the set • x = {y ∈ P ∪ T | hy, xi ∈ F }
+and post-set of x the set x• = {y ∈ P ∪ T | hx, yi ∈ F }. A marking for N is a mapping
+M : P → N0 . A Petri net is a tuple N = hP , T , F , M0 i, with M0 ⊆ P (i.e., M0 : P →
+{0, 1}) an initial marking. Markings are represented by dots (or tokens) in the marked
+t
+places. A transition t ∈ T is enabled at a marking M , denoted M →, if and only if
+∀p ∈ • t : M (p) ≥ 1. An enabled transition t can fire, leading to the new marking M ′ given
+t
+by M ′ (p) = (M (p) − 1• t (p)) + 1t • (p) in that case we write M → M ′ . A firing sequence
+from a marking M0′ is a (finite or infinite) sequence w = t1 t2 t3 . . . over T such that there
+t1
+t2
+t3
+exist markings M1′ , M2′ , . . . with M0′ →
+M1′ →
+M2′ →
+. . . . If w is finite and of length n, we
+w
+′
+′
+′
+write M0 → Mn , and we say that Mn is reachable from M0′ , also simply written M0′ → Mn′ .
+We denote the set of markings reachable from some marking M in a net N by RN (M ).
+A cycle is a tuple hM1 , . . . , Mn i of reachable markings such that there exists a finite firing
+t1
+t2
+t3
+tn
+sequence w = t1 t2 . . . tn for which M1 →
+M2 →
+M3 →
+... →
+M1 . Clearly, hM1 , . . . , Mn i
+is a cycle iff hM2 , . . . , Mn , M1 i is. A Petri net hN , M0 i is n-bounded if M (p) ⩽ n for every
+reachable marking M ∈ RN (M0 ) and every place p ∈ P . A 1-bounded Petri net is called
+safe. In this paper, we assume that all Petri nets considered are safe.
+From an initial marking of the net, one can recursively derive all possible transitions
+and reachable markings, resulting in a marking graph (Def. 1).
+Definition 1. Let N = hP , T , F i be a net and M a set of markings. The marking graph
+induced by M is a directed graph hM, Ei such that E ⊆ M × M contains hM , M ′ i iff
+3
+
+t
+
+M → M ′ for some t ∈ T ; the arc hM , M ′ i is then labeled by t. The reachability graph of
+a Petri net hN , M0 i is the graph induced by RN (M0 ).
+Figure 1b shows the reachability graph for our running example 1a. Note that the
+reachability graph is always finite for safe Petri nets.
+{p1 , p2 }
+
+(b)
+(a)
+
+α
+
+p1 •
+α
+
+γ
+
+β
+
+p3
+
+β
+
+p2 •
+
+p4
+
+δ
+
+p5
+
+δ
+
+γ
+
+{p3 , p2 } {p4 , p2 } {p1 , p5 } {p1 , p6 }
+
+κ
+
+γ
+
+p6
+
+αδ
+
+αβ
+
+β γ
+
+{p3 , p5 } {p4 , p6 } {p3 , p6 } {p4 , p5 }
+ξ
+
+ζ
+
+η
+
+θ
+
+B(A)
+
+ξ
+
+η
+
+A {p8 }
+p8
+
+θ
+
+ζ
+
+{p7 }
+
+p7
+
+Figure 1. Petri net example from [HPS20] in (a), and its reachability graph
+in (b). The only attractor A is highlighted in dark gray, and its (strong) basin
+B(A) in light gray.
+Unfoldings. Roughly speaking, the unfolding of a Petri net N is an acyclic Petri
+net (with particular structural properties), U exhibiting reproduces exactly the same nonsequential behaviours as N .
+Let us now give the technical definitions to introduce unfoldings formally. A more
+extensive treatment can be found, e.g., in [ERV02, EH08].
+Definition 2 (Causality, conflict, concurrency). Let N = hP, T, F i be a net and x, y ∈ P ∪T
+two nodes of N . We say that x is a causal predecessor of y, noted x < y, if there exists a
+non-empty path of arcs from x to y. We note x ≤ y if x < y or x = y. If x ≤ y or y ≤ x,
+then x and y are said to be causally related. Transitions u and v are in direct conflict,
+noted u #δ v, iff • u ∩ • v 6= ∅; nodes x and y are in conflict, noted x # y, if there exist
+u, v ∈ T such that u 6= v, u ≤ x, v ≤ y, and u #δ v. We call x and y concurrent, noted
+x co y, if they are neither causally related nor in conflict. A set of concurrent places is
+called a co-set.
+In Figure 2, α1 and β1 are in conflict, while α1 and γ1 are concurrent. Further, α1 is a
+causal predecessor of ξ1 , θ1 , and κ2 ; readers will easily identify other relations in this figure.
+Definition 3 (Occurrence net). Let O = hB , E , G, c0 i be a Petri net. We say that O is an
+occurrence net if it satisfies the following properties:
+(1) The causality relation < is acyclic and well-founded;
+(2) |• b| ≤ 1 for all places b ∈ B , and b ∈ c0 iff |• b| = 0;
+(3) For every transition e ∈ E , e # e does not hold, and {x | x ≤ e} is finite.
+4
+
+κ
+
+The reader is invited to check that the net in Figure 2 is indeed an occurrence net.
+Following the convention in the unfolding literature, we refer to the places of an occurrence net as conditions (B ) and to its transitions as events (E ). Due to the structural
+constraints, the firing sequences of occurrence nets have special properties: if some condition b is marked during a run, then the token on b was either present initially in c0 , or
+produced by one particular event (the single event in • b); moreover, once the token on b is
+consumed, it can never be replaced by another token, due to acyclicity of <.
+Definition 4 (Configurations, cuts). Let O = hB , E , G, c0 i be an occurrence net. A set
+C ⊆ E is called a configuration of O if (i) C is causally closed, i.e. e′ < e and e ∈ C imply
+e′ ∈ C ; and (ii) C is conflict-free, i.e. if e, e′ ∈ C , then ¬(e # e′ ). In particular, for any
+△
+
+△
+
+e ∈ E, [e] = {e′ ∈ E : e′ ⩽ e} and hei = {e′ ∈ E : e′ < e} are configurations, called the
+cone and stump of e, respectively; any C such that ∃ e ∈ E : C = [e] is called a prime
+configuration. Denote the set of all configurations of O as C(O), and its subsets containing
+all finite configurations as C f (O), where we drop the reference to O if no confusion can
+arise. The cut of a finite C , denoted cut(C ), is the set of conditions (c0 ∪ C • ) \ • C . A run
+is a maximal element of C(O) w.r.t. set inclusion; denote the set of O’s runs as Ω = Ω(O),
+and its elements generically by ω. Denote by Cˆ∞ (O) the set of all infinite configurations,
+and let
+△
+C ∞ (O) = Cˆ∞ (O) ∪ Ω (O)
+△
+
+If C ∈ C f , let the crest of C be the set crest(C ) = max< (C ) of its maximal events. We
+e
+say that configuration C enables event e, written C , iff i) e 6∈ C and ii) C ∪ {e} is a
+configuration. Configurations C1 , C2 are in conflict, written C1 # C2 , iff (C1 ∪ C2 ) 6∈ C or,
+equivalently, iff there exist e1 ∈ C1 and e2 ∈ C2 such that e1 # e2 .1 Let C be a configuration
+△
+
+and E ∩ C = ∅ such that C ∪ E is a configuration. Write C ⊕ E = C ∪ E in that case; we
+△
+
+call C ⊕ E = C ∪ E an extension of C , and E a suffix of C .
+Intuitively, a configuration is the partially ordered set of transition firings occurring
+during an enabled firing sequence of N , and its cut (if it exists) is the set of conditions
+marked after completing that firing sequence. Note that ∅ is a configuration, that crest(∅) =
+∅, and that c0 is the cut of the configuration ∅. Moreover, if C ∞ (O) 6= ∅, then C ∞ (O) ∩
+Ω(O) 6= ∅; however, it is in general not the case that C ∞ (O) ⊆ Ω(O). The crest of a prime
+configuration [e] is {e}.
+In Figure 2, the initial cut is c0 = {b11 , b12 }; we have prime configurations, e.g., {α1 },
+{β1 }, {α1 , γ1 , ξ1 }, {β1 , γ1 , ζ1 } etc, and non-prime configurations {α1 , γ1 }, {α1 , δ1 } etc.
+Definition of Unfoldings.
+Definition 5 (Net homomorphism). Let N1 = hP1 , T1 , F1 i and N2 = hP2 , T2 , F2 i be two
+nets. A homomorphism from N1 to N2 is a mapping φ : P1 ∪ T1 → P2 ∪ T2 such that
+φ(P1 ) ⊆ P2 and φ(T1 ) ⊆ T2 , and that satisfies, in addition, for every t ∈ T1 ,
+φ (• t) = • φ(t) and
+
+φ (t • ) = φ(t)•
+
+Definition 6 (Branching Process and Unfolding). Let N = hP , T , F , M0 i be a safe Petri
+net. A branching process of N is a pair Π = (O, π) with O = hB , E , G, c0 i an occurrence
+1The use of the same symbol # is motivated by the fact that C = [e ] and C = [e ] implies C # C ⇔
+1
+1
+2
+2
+1
+2
+
+e1 # e2 .
+5
+
+b11
+α1
+b3
+
+ξ1
+
+b12
+β1
+
+γ1
+
+δ1
+
+b4
+
+b5
+
+b6
+
+ζ1
+
+η1
+
+θ1
+
+b17
+
+b28
+
+b27
+
+b18
+κ1
+b21
+
+b22
+
+b1
+
+κ2
+b2
+
+Figure 2. A prefix of the unfolding for the Petri net of Figure 1a.
+net and π : B ∪ E → P ∪ T a homomorphism that satisfies the following parsimony property:
+
+•e = •e ′
+′
+⇒ e = e′
+(2.1)
+∀ e, e ∈ E :
+π(e) = π(e ′ )
+If Π1 = (O1 , π1 ) and Π2 = (O2 , π2 ) are two branching processes of N , we say that Π1 is
+a prefix of Π2 iff i) O1 is a prefix modulo net isomorphism of O2 , and ii) π1 agrees on
+its domain, modulo net isomorphism, with π2 ’s restriction to π1′ s domain. There exists a
+unique (up to isomorphism) branching process ΠU = (U , πU ) that is maximal in the sense
+that any branching process of which ΠU is a prefix, must be an isomorphic copy of ΠU ; we
+call unfolding of N the maximal branching process ΠU and, by abuse of terminology, also
+the occurrence net U if no confusion can arise.
+In the unfolding (U , π) of N with U = hB , E , G, c0 i, the firing sequences and reachable
+cuts of U correspond exactly the firing sequences and reachable markings of N under the
+homomorphism π, see below. Note that the occurrence net U may be infinite; it can be
+inductively constructed as follows:
+(1) Every condition in B is characterized by a pair (e, p) ∈ (E ∪ {⊥}) × P . For condition
+b = he, pi, we will have e = ⊥ iff b ∈ c0 ; otherwise e is the singleton event in • b.
+Moreover, π(b) = p. The initial cut c0 contains as many conditions h⊥, pi for each
+token initially on place p under M0 in N .
+(2) The events of E are a subset of 2B × T . More precisely, for every co-set B ′ ⊆ B such
+that π(B ′ ) = • t, we have an event e = hB ′ , ti. In this case, we add edges hb, ei for each
+b ∈ B ′ (i.e. • e = B ′ ), we set π(e) = t, and for each p ∈ t • , we add to B a condition
+b = he, pi connected by an edge he, bi.
+Intuitively, a condition he, pi represents the possibility of putting a token onto place p
+through a particular set of events, while an event hB ′ , ti represents a possibility of firing
+transition t in a particular context.
+Configurations and Markings. The following facts from the literature will be useful:
+Lemma 1 (see e.g. [ERV02]). Fix N = hP , T , F , M0 i and its unfolding U = hB , E , G, c0 , πi.
+Then for any two conditions (events) b, b ′ (e, e ′ ) such that b co b ′ (e co e ′ ), one has
+π(b) 6= π(b ′ ) (π(e) 6= π(e ′ )). Moreover, every finite configuration C of U represents a
+6
+
+possible firing sequence whose resulting marking corresponds, due to the construction of
+△
+
+U , to a reachable marking of N . This marking is defined by Mark (C ) = π −1 (cut(C )).
+Moreover, for any two distinct configurations C1 , C2 that satisfy Mark (C1 ) = Mark (C2 ), we
+have an isomorphism of labeled occurrence nets
+I(C1 ,C2 ) : U/C1 → U/C2 ,
+
+(2.2)
+
+where U/C1 is the suffix of U after removing configuration C1 and all nodes in conflict with
+C1 .
+In fact, U/C1 and U/C2 in (2.2) are isomorphic copies of U (N , Mark (C1 )). This means,
+informally speaking, that any configuration of the system can be split into consecutive parts
+in such a way that each part is itself a configuration obtained by unfolding the Petri net
+‘renewed’ with the marking reached by the previous configuration.
+Complete Prefix. In general, U is an infinite net, but if N is bounded, then it
+is possible to compute a finite prefix Π of U that is “complete” in the sense that every
+reachable marking of N has a reachable counterpart in Π, and vice versa. One may require
+other completeness properties, as we will see below; here, the definition follows the notion
+dominant in the literature.
+Definition 7 (complete prefix, see [McM92, ERV02, EH08]). Let N = hN , M0 i be a bounded
+Petri net and U = hB , E , G, c0 , πi its unfolding. A finite occurrence net Π = hB ′ , E ′ , G ′ , c0 i
+is said to be a prefix of U if E ′ ⊆ E is causally closed, B ′ = c0 ∪E ′ • , and G ′ is the restriction
+of G to B ′ and E ′ . A prefix Π is said to be complete if for every reachable marking M of N
+there exists a configuration C of Π such that (i) Mark (C ) = M , and (ii) for each transition
+t ∈ T enabled in M , there is an event hB ′′ , ti ∈ E ′ enabled in cut(C ).
+We shall write Π0 = Π0 (N ) to denote an arbitrary complete prefix of the unfolding
+of N . The construction of such a complete prefix is indeed possible ([McM92, ERV02]),
+and efficient tools such as Ecofolder ([AS24]) and Mole ([Sch14]) exist for this purpose.
+Several ingredients of this construction will play a role below, so we sketch them here.
+Cutoff events and the complete prefix scheme. The unfolding is stopped on each
+branch when some cutoff event is added.
+The criterion for classifying an event e as cutoff is given by marking equivalence: the
+marking Mark ([e]) that e ‘discovers’ has already been discovered by a smaller (wrt some
+ordering relation ≺) configuration. Now, to ensure completeness, the ordering relation ≺
+to compare two configurations must be an adequate order, in the following sense:
+Definition 8 ([ERV02], Def. 4.5). A partial order ≺ on C f is called adequate order iff
+• ≺ is well-founded,
+• C1 ⊆ C2 implies C1 ≺ C2 , and
+• ≺ preserves extensions, i.e. for any C1 ≺ C2 such that Mark (C1 ) = Mark (C2 ), one has
+C1 ⊕ E ≺ C2 ⊕ I(C1 ,C2 ) (E) for the isomorphism I(C1 ,C2 ) from (2.2).
+As shown in [ERV02], for some choices of ≺, the obtained prefix may be bigger than the
+reachability graph for some safe nets; however, if ≺ is a total adequate order, the number
+of non-cutoff events of the prefix Π0 thus obtained never exceeds the size of the reachability
+graph.
+We will refer throughout this paper to the complete prefixes Π≺
+0 computed according
+to some adequate total order, as is done in the tools Mole [Sch14] and Ecofolder [AS24],
+7
+
+△
+
+as Esparza prefixes. If instead one chooses ≺=(, the resulting prefix ΠM cM = Π(
+0 , as can
+be done in Ecofolder [AS24], is referred to as the McMillan prefix.
+
+3. Attractors, Basins, And Fairness
+
+3.1. Attractors and Basins.
+Definition 9. An attractor A ⊆ 2P is a terminal SCC of the marking graph; that is, two
+states in A are reachable from one another, and no state outside A is reachable from any
+state in A. Denote the set of attractors of N reachable from a marking M in N by A.
+Attractor A is a fixed point iff there is M ∈ M such that A = {M }, and for any t ∈ T ,
+t
+M → M ′ implies M = M ′ .
+Unfoldings do not show attractors directly; however, the following observations are
+useful (fixing N = (N , M0 ) and A ∈ A(N )):
+• If some finite configuration C satisfies Mark (C ) ∈ A, then so does any finite configuration
+△
+
+f = {C ∈ C f : Mark (C ) ∈ A}.
+C ′ such that C ⊆ C ′ . Write CA
+f such
+• In the light of the above, call a maximal run ω an A-run iff there exists C ∈ CA
+that C ⊆ ω. Denote the set of A-runs by ΩA .
+
+Definition 10. The C-basin B ∗ (A) of A is the set of finite configurations all of whose
+△
+
+maximal extensions land in A: B ∗ (A) = {C ∈ C f : ∀ ω ∈ Ω : C ⊆ ω ⇒ ω ∈ ΩA } The
+△
+
+basin B(A) of A is the set of markings from which reaching A is inevitable: B(A) = {M ∈
+R(M0 ) : ∀C ∈ C f (N ) : Mark (C ) = M ⇒ C ∈ B ∗ (A)}
+By definition, any attractor is an absorbing set of states (and so is any basin); once
+a system run enters some attractor (some basin), it will stay there forever. A different
+question is whether any infinite execution will eventually enter some attractor basin; in
+general, the answer is negative, since the system may exhibit transient loops in which it can
+forever remain active without ever entering any basin.
+One of our central tasks below is to identify whether or not a system state allows
+to loop in such away as to avoid a fatal attractor’s basin, or doom as we will say. To
+clarify this point, and to close a gap in the literature on attractors, we will next discuss
+which fairness properties prevent transient loops. Thus, the conclusion will be - as our title
+suggests - that, roughly speaking, fairness in behaviour may lead the system into doom. Put
+otherwise, avoiding doom requires to impose some sort of control in the system to prevent
+its free action from fatality.
+
+3.2. Fairness, and how it leads into an attractor basin.
+8
+
+Situation Fairness. Despite their name, attractors do not in any way ‘attract’ the system’s
+behaviour in their direction, nor is the system necessarily entering any attractor eventually.
+Standard examples are non-attractor loops in the state graph; restrictions to behaviour
+are needed to ensure that the system eventually leaves such loops. Such an intuition is
+often captured by the notion of (strong) fairness, cf. [KW97, Vog95]: any transition that is
+enabled infinitely often, must also eventually occur. It is often assumed that strong fairness
+is sufficient to guarantee that all maximal runs eventually enter one or another attractor
+(and will obviously stay in it). We report here that in concurrent systems, this assumption
+is false. To see the point, consider Figure 3. The Petri net’s only attractor is formed by the
+marking {A} (which coincides with its basin). However, the Petri net depicted might cycle
+forever in the set of states in which p3 and p4 are never jointly marked, and therefore never
+enter the attractor basin. This shows that in order to ensure that the system eventually
+enters some attractor, we need to restrict its behavior to those runs that ‘eventually explore
+all accessible branches’2.
+However, strong fairness is not sufficient to ensure that a concurrent system eventually
+enters a terminal SCC; the example of Figure 3 illustrates this.
+p1
+•
+a
+
+p3
+
+p2
+•
+c
+
+b
+x
+
+d
+
+p4
+
+A
+Figure 3. Illustration of the fairness condition underlying the attractor
+notion. Clearly, the system has exactly one attractor, given by fixed point
+△
+
+A = {{A}}. However, sequence (badc)∞ is strongly fair and never reaches
+A; on the other hand, every situation fair execution leads, after finitely but
+unboundedly many steps, into A.
+In this Petri net, a finite firing sequence can be strongly fair only if its final marking is
+{A}; At the same time, no infinite strongly fair firing sequence in this net would permit x
+to be enabled infinitely often. Nevertheless, there are infinite strongly fair executions that
+avoid enabling x too often, e.g. the sequences (badc)∞ or (babadc)∞ , etc. Such sequences,
+however, must necessarily be unfair to some transition in the context of the same marking;
+△
+
+in the example, the sequence (badc)∞ yields infinitely often the marking M = {p2 , p3 }, and
+from this marking it ‘chooses’ a constantly, although d is also enabled in M . Yet, strong
+fairness is fulfilled because d fires infinitely often, but not from instances of M . To eliminate
+such ‘missed opportunities’, we introduce a finer fairness notion. We will call an execution
+situation fair iff any transition enabled in an infinitely visited marking, also fires infinitely
+often from that marking. More formally:
+2Dually, of course, such behaviour is to be avoided at any cost if it is undesirable to enter some attractor;
+
+we will return to this point in the next sections.
+9
+
+t
+
+t
+
+1
+2
+Definition 11 (Situation fairness). In N as above, a firing sequence M0 →
+M1 →
+. . . is
+situation-fair iff either (i) it is finite, and its last marking enables no transition, or (ii) for
+t
+all t ∈ T and all M ⊆ P such that M →:
+
+|{i ∈ N : Mi = M }| = ∞ =⇒ |{j ∈ N : Mj = M ∧ tj+1 = t}| = ∞.
+
+(3.1)
+
+Note that such executions always exist; they may be obtained e.g. by applying a round
+robin firing policy, in which, for {t0 , . . . , tn−1 } the transitions enabled at marking M , the
+transition selected at the k-th visit to marking M is t(k mod n) . Before establishing the link
+between fairness and attractors, let us introduce one more auxiliary notion:
+Definition 12. For any reachable marking M , let KM be the smallest integer k such that
+t1 ,...,t
+there exist an attractor A and t1 , . . . , tk ∈ T such that M → k MA with MA ∈ A. More△
+
+over, let KN = maxM ∈R(M ) (KM ).
+Note that in safe Petri nets, both KM and KN are well-defined and finite. Obviously
+KM must be finite for all reachable markings M of N ; since N is finite and safe, KN is
+finite as well.
+The following Theorem 1 states that any situation-fair execution of a safe net, i.e. round
+robin or other, will eventually leave any transient SCC and sooner or later enter a terminal
+SCC forever:
+t
+
+t
+
+1
+2
+Theorem 1. Let σ = M0 →
+M1 →
+. . . be a situation-fair execution of a safe Petri net N .
+Then either σ is finite and its final marking is a fixed point, or σ is infinite and there exists
+an attractor A and k ∈ N such that ∀i ∈ N : Mk+i ∈ A.
+
+Proof: By the definition of situation fairness, if σ is finite, its final marking must be
+a fixed point. Thus assume that σ is infinite; it then suffices to show that σ eventually
+reaches an attractor, since by definition no markings outside the attractor are reachable
+from there. Since σ is infinite and N is safe, there must be at least one marking M that is
+visited infinitely often by σ. We shall prove that M is part of an attractor. Indeed, suppose
+this is not the case. Then M is part of a transient SCC, and by definition, some attractor
+t1
+t2
+tn
+A is reachable from M . Thus, we have an executable path M →
+M1 →
+... →
+Mn ∈ A,
+for n = KM and some attractor A. Since σ is situation fair vis-à-vis t1 in Mσ , it must
+visit M1 infinitely often as well. Repeating this argument, we obtain that all Mk , for
+k = 1, . . . , n, must be visited infinitely often, too. But M is not reachable from Mn , which
+is a contradiction. Thus M must be part of an attractor.
+
+We will now turn to the classification of states according to the long run behaviours
+available after them. That is, attractors may in general be desirable or undesirable; as long
+as the system still has some maximal behaviour available in which no bad state is reached,
+we will call it free, otherwise it is doomed. The next section will make these notions precise.
+
+4. The Bad, the Good, the Doomed, and the Free
+Bad states. Our formal setting contains and extends the one presented in [GX05], specialized here to the 1-safe case. We assume that we are given a set of bad markings
+△
+
+MB ⊆ R(M0 ), and write MG = R(M0 )\MB . Since we are interested in long-term behaviours, we happily adopt the assumption from [GX05] that MB is reachability-closed, i.e.
+10
+
+M ∈ MB and M → M ′ imply M ′ ∈ MB .
+△
+
+Bad configurations. Define CB = {C ∈ C f : Mark (C ) ∈ MB } as the set of bad finite configurations, and let CB 0 be the set of configurations in CB that are contained in Π0 . CB ⊆ C
+is absorbing or upward closed, that is, for all C1 ∈ CB and C2 ∈ C f such that C1 ⊆ C2 , one
+must have C2 ∈ CB .
+This upward closure justifies the following extension of our terminology: let C ∈ C ∞ ;
+then C is bad iff there exists C ′ ∈ CB such that C ′ ⊆ C .
+△
+For any C ∈ C, let ΩC = {ω ∈ Ω : C ⊆ ω} denote the maximal runs into which C
+can evolve. We are interested in those finite configurations all of whose extensions are
+‘eventually bad’.
+We will call such configurations doomed, since from them, the system cannot avoid
+entering a bad marking sooner or later (and from then on, all reachable markings are bad).
+Definition 13. Configuration C ∈ C f is
+(1) strongly doomed iff
+∀ C ∗ ∈ C ∞ : C ⊆ C ∗ ⇒ ∃ C ′ ∈ CB : C ′ ⊆ C ∗
+
+(4.1)
+
+∀ ω ∗ ∈ Ω : C ⊆ ω ⇒ ∃ C ′ ∈ CB : C ′ ⊆ C ∗
+
+(4.2)
+
+(2) doomed iff
+
+Denote the set of strongly doomed configurations by D ∗ , that of doomed configurations by
+D, and the set of minimal elements in D by Ď. We call finite configurations that are not
+△
+
+doomed free. The set of free configurations is denoted by F = C f \D.
+
+p
+•
+
+r
+•
+
+U1
+
+p1
+•
+
+• r1
+
+a1
+
+b1
+s1
+
+N1
+
+a
+
+c
+
+b
+
+U2
+
+q1
+
+N2
+
+c1
+q
+
+s
+
+..
+.
+
+Figure 4. Left: Two safe Petri nets, N2 properly contains N1 ; right: their
+respective unfoldings U1 and U2
+
+11
+
+Remarks. Some comments are in order here, since i) Definition 13 introduces two different doomedness notions, and ii) clearly prefers the second over the first, in that the dual
+notion of freeness is defined without regard to strong doom. To understand the motivation
+behind this choice, one must first appreciate the difference between doom and strong doom.
+Consider the toy example shown in Figure 4, and suppose in both nets, a marking is bad
+iff it contains place q. Then the initial marking {p} of N1 is clearly both doomed and
+strongly doomed. However, marking M0 = {p, r} and the configuration ∅ ‘leading to’ M0
+in N2 is doomed, since the only maximal configuration of U2 contains a1 . Nevertheless, ∅
+△
+
+is not strongly doomed, since with C = {bi , ci : i ∈ N} we have ∅ ( C ∈ C ∞ , yet no finite
+configuration contained in C is bad.
+The difference in the two notions of doom thus lies in a semantic assumption of progress,
+or weak fairness. While it is interesting in its own right, and potentially a subject for future
+work, to study the ramifications of the theory that build on the absence of progress, and
+hence on the notion of ‘strong doom’, we choose here to focus on the notion of doom
+given in (4.2), and to consider those configurations that are doomed to be configurations to
+avoid. Once one assumes that the enabled transition a, that cannot be enabled, will fatally
+eventually fire, one is indeed led to seeing ∅ in Figure 4 as fatal, and as a state to avoid in
+any application.
+△
+
+Returning to the running example of Figures 1a and 2, if we consider MB = {{p8 }},
+△
+
+△
+
+△
+
+then configuration C1 = {α1 } is free, and C2 = C1 ∪ {γ1 } is doomed because C3 = C2 ∪ {ξ1 }
+is bad.
+By abuse of terminology, we will call any marking M free if there is a free C ∈ C f such
+that Mark (C ) = M . In the following, we assume that the badness problem ‘M ∈ MB ?’
+has been decided for every reachable marking M . In fact, a typical badness criteria can be
+easily decided, e.g. by presence or absence of a fixed submarking. We will not dwell on the
+complexity of this decision problem as it is outside the scope of this article.
+Since all bad markings are automatically doomed, we need to classify good markings
+into the doomed ones on the one hand, and the free ones on the other; the next two chapters
+will address this problem.
+
+5. Verification of Freeness
+In order to check whether a given marking M is partially free, the key question is whether
+it is possible to reach, from M , some M ′ ∈ MG such that M ′ admits a non-empty firing
+σ
+sequence σ with M ′ → M ′ . Indeed, under the assumption that N is deadlock-free in the
+sense that no maximal configuration contains any maximal event, it is easy to see that
+the existence of such an M ′ is equivalent to partial freedom of M . Of course, deadlockfreeness can always be obtained by adding dummy loop transitions to any deadlocked partial
+marking; the assumption therefore means no loss of generality. Note that the classical
+algorithms for finding loops in a transition system will not help us here, since the size of the
+state graph of most Petri nets we endeavour is prohibitive; we will adapt unfolding-based
+methods following [EH08]. A procedure that, for any reachable marking M , generalizes
+that for McMillan’s complete prefix from M , will produce a sufficient data structure for
+checking freedom of M .
+12
+
+5.1. Search for loops. The key for obtaining this is obviously the power to identify loops
+in the reachability relation. We need to catch such loops at the earliest possible opportunity,
+in a small prefix.
+Definition 14. C1 , C2 ∈ C f are marking equivalent, written C1 ∼M C2 , iff Mark (C1 ) =
+Mark (C2 ). Say that C1 and C2 form a loop, written loop(C1 , C2 ), iff
+(1) they exhibit a cycle in the state graph, i.e. C1 ∼M C2 and C1 ( C2 , and
+(2) there are no configurations between C1 and C2 that exhibit such a cycle, i.e. there do
+not exist C3 , C4 ∈ C f such that
+(a) C1 ⊆ C3 ( C4 ( C2
+(b) C3 ∼M C4
+(c) {C1 , C2 } =
+6 {C3 , C4 }.
+Write mloop(C1 , C2 ) iff C1 and C2 form a minimal loop wrt inclusion, i.e. iff
+(a) loop(C1 , C2 )
+(b) for C1′ , C2′ ∈ C f , C1′ ( C1 and C2′ ⊆ C2 together imply that ¬loop(C1′ , C2′ ).
+We have:
+Lemma 2. Every loop-free configuration CM ∈ C f such that Mark (CM ) = M is in McMil△
+
+cM (M ) = Π( (M ).
+lan’s ( [McM92]) prefix ΠM
+0
+0
+cM (M ) since configurations are only trunProof: Follows from the construction of ΠM
+0
+cated by the cutoff criterion when they produce a loop.
+
+cM (M )
+Lemma 3. ∀ C1 , C2 ∈ C f (M0 ): if mloop(C1 , C2 ), then C2 is a configuration of ΠM
+0
+(and a fortiori, so is C1 ).
+
+Proof: Suppose that under the assumptions of the lemma, C2 is not a configuration
+cM (M ). In that case, it must contain C a ⊆ C b ( C such that loop(C a , C b ). But
+of ΠM
+2
+2
+2
+2
+2
+0
+mloop(C1 , C2 ) implies this is impossible unless C1 = C2a and C2 = C2b . But if this is the
+cM (M ).
+smallest loop in C2 , then C2 must be in ΠM
+
+0
+t
+
+1
+Lemma 4. For every marking sequence M →
+. . . M that contains no properly smaller loop,
+M
+cM
+(M ) such that mloop(∅, CM ).
+there is a configuration CM in Π0
+
+cM (M ) and of Lemma 3.
+Proof: A consequence of the definition of ΠM
+0
+
+
+
+5.2. Verification of Freeness. By the above discussion, inspection of Π⊆
+0 (M ) yields all
+loops reachable from M ; M is free if any of them is good, i.e. such that the loop contains
+no bad marking. Equivalently, a loop (C1 , C2 ) is good iff Mark (C1 ) = Mark (C2 ) 6∈ MB .
+Concretely, it suffices to consider every maximal event e of Π⊆
+0 (M ), since all these e must
+have a mirror event e′ < e such that mloop([e′ ], [e]). If Mark (e) is good, so is the entire
+loop.
+This informal algorithm can be sped up by declaring, in addition to loop-cutoffs, any
+event e such that Mark ([e]) ∈ MB (or equivalently, [e ∈ CB ]) as a cutoff event in the
+unfolding procedure. To decide if Mark ([e]) ∈ MB , we take advantage of MB ’s reachability
+closure; all the initially known bad markings are used in N (referred as the bad net, NB )
+to unfold it so that we can check reachability and test whether a marking is bad or not, i.e.,
+if Mark ([e]) ∈ UNB then Mark ([e]) is bad, and hence e is a cutoff. The resulting prefix is
+slightly, sometimes considerably smaller than the full McMillan prefix; the worst case size
+13
+
+of the latter remains, however, to be taken into account. Below, this algorithm is assumed
+invoked by the boolean function FreeCheck(M ) that outputs True iff marking M is free.
+
+6. Cliff-Edges and Ridges
+Recall that every reachable marking is represented by at least one configuration of the
+unfolding. Moreover, since the future evolution of N depends only on the current marking,
+Mark (C1 ) = Mark (C2 ) for two configurations C1 and C2 implies that either both C1 and
+C2 are free, or both are doomed. Therefore, by extension, we call Mark (C ) free or doomed
+whenever C is.
+Running Example. In the context of Figures 1a and 2, we consider MB the singleton set
+containing the marking M8 = {P8 }. Clearly, C1 = {α1 , γ1 , ξ1 } and C2 = {β1 , δ1 , η1 } satisfy
+Mark (C1 ) = Mark (C2 ) = M8 and therefore C1 , C2 ∈ CB . But note that C1′ = {α1 , γ1 } and
+C2′ = {β1 , δ1 } produce markings outside MB , but they are doomed since any extension of
+these configurations leads into MB . Therefore, C1′ , C2′ ∈ CB . On the other hand, ∅ is free,
+as well as {β1 , γ1 }, {α1 , δ1 }, etc. We note in passing that the Petri net in Fig 1a allows to
+refine the understanding of the ‘tipping point’ by showing that doom is not brought about
+by a single transition but rather the combined effect of two independent choices; this fact
+is obscured, or at least far from obvious, in the state graph shown in Figure 1b.
+Identifying free and doomed configurations belongs to the core objectives of this paper.
+From the minimal doomed configurations, we derive the critical ‘points’ at which a run
+becomes doomed:
+Definition 15. An event set γ ⊆ E is called a cliff-edge iff there exists a minimally doomed
+configuration C ∈ Ď such that γ = crest(C ). The set of cliff-edges is denoted Γ. The folding
+△
+
+χ = π(γ) ⊆ T of a cliff-edge γ is called a ridge.
+To complete the map of the evolutional landscape for N , it is important to find, in
+a bounded prefix of the unfolding, all ridges that determine the viability of a trajectory.
+Notice that the completeness of prefix Π0 only guarantees that all reachable markings of
+N are represented by at least one configuration of Π0 ; this does not extend to a guarantee
+that all concurrent steps that lead into a doomed marking can be found in Π0 as well.
+Fortunately, one has:
+Lemma 6.1. For every ridge χ of N there is a witness in Π⊆
+0 , i.e. there exists a minimally
+doomed configuration C in Π⊆
+such
+that
+π(crest(C
+))
+=
+χ.
+0
+Proof:
+
+Fix χ, and let Cχ be any configuration such that π(crest(Cχ )) = χ; set
+
+C △
+
+χ
+
+M = Mark (Cχ ), and let MχC the unique reachable marking such that MχC → M C . Then
+any such MχC is represented by some C χ in Π⊆
+
+0 by completeness.
+7. Finding Minimally Doomed Configurations
+In the light of the above, we need to proceed in two steps. First, a configuration whose
+end events are without any immediate conflict - we will call such events unchallenged cannot be minimal; we will thus first describe how to shave given configurations in order to
+approximate minimally doomed ones contained in them. Then we need to check whether
+14
+
+b1
+x
+b2
+
+b3
+y
+
+z
+b4
+
+α
+b6
+
+b5
+γ
+
+β
+b7
+
+δ
+b8
+
+b9
+
+u
+b10
+△
+
+△
+
+Figure 5. An occurrence net. With C = {x, y, z, β, γ} and C ′ = C ∪ {u},
+suppose MB = {Mark (C ′ )} = π({b10 }). Then shave(C ′ ) = C , and C is
+△
+
+△
+
+doomed. Moreover, C ∈ Ď since both C3 = C \{β} and C4 = C \{γ} are
+free.
+a given configuration is doomed or free. The algorithm MinDoo will then combine both
+functions into a search for minimally doomed configurations.
+7.1. Preparations: Shaving. Let us start by observing that CB , an upward closed set by
+construction, also has some downward closure properties, meaning one can restrict control
+to act on ‘small’ configurations. The first idea is to remove maximal events e from a
+configuration C if they are not involved in any direct conflict; the idea is that in such a
+case, the reduced configuration C \{e} has exactly the same maximal extensions as C . In
+fact, C \{e} reveals e in a sense made precise in [BCH13, Haa10, HKS13, HRS13]; however,
+we will not be using exactly the relations introduced there.
+Definition 16. An event e is unchallenged iff there is no e ′ such that e #δ e ′ , i.e. (• e)• =
+{e}.
+△
+
+Lemma 7.1. Let C ∈ C f and e ∈ crest(C ) unchallenged; set C ′ = C \{e}. Then C ′ ∈ C f ,
+and ΩC = ΩC ′ .
+Proof: C ′ ∈ C f holds by construction. Also, ΩC ⊆ ΩC ′ follows from C ′ ⊆ C ; it
+remains to show the reverse inclusion. Assume there exists ω ∈ ΩC ′ \ΩC ; then C \ω = {e},
+and hei ⊆ ω. By maximality, ω must contain some e ′ such that e # e ′ . Then by definition,
+there are events u 6= v, u ≤ e, v ≤ e′ , and u #δ v. In particular, u # e′ , and since
+{e′ } ∪ hei ⊆ ω, this implies u = e. But e is unchallenged, so v cannot exist, and neither can
+ω.
+
+15
+
+Definition 17. A configuration C ∈ C f such that crest(C ) contains no unchallenged event
+is called shaved.
+Clearly, every C ∈ C f contains a unique maximal shaved configuration, which we call
+shave(C ); it can be obtained from C by recursively ‘shaving away’ any unchallenged e ∈
+crest(C ), and then continuing with the new crest, until no unchallenged events remain.
+Example. In the context of Figure 5, for C1 = {x, y, z} and C2 = C1 ∪ {β, γ, u}, one has
+shave(C1 ) = ∅ since x, y, and z are unchallenged, and shave(C2 ) = C1 ∪ {β, γ} since u is
+unchallenged but neither β nor γ are. Note that in the unfolding of the running example
+shown in Figure 2, the κ-labeled events are the only unchallenged ones.
+As a consequence of Lemma 7.1, any C ∈ C f is in CB iff shave(C ) is. Still, it may be
+possible that such a shave(C ) can still be reduced further by removing some of its crest
+events. This would be the case, e.g., if two conflicting events both lead to a bad state. Thus,
+given a crest event e, we test whether C \{e} is free (e.g. because some event in conflict
+with e may allow to move away from doom) or still doomed. If the latter is the case, then
+C was not minimally doomed, and analysis continues with C \{e} (we say that we ‘rub
+away’ e). If C \{e} is free, we leave e in place and test the remaining events from crest(C ).
+A configuration that is shaved and from which no event can be rubbed away is minimally
+doomed.
+7.2. Algorithm MinDoo. Algorithm 1 uses a ‘worklist’ set wl of doomed, shaved configurations to be explored; wl is modified when a configuration is replaced by a set of rubbed
+(and again, shaved) versions of itself, or when a configuration C is identified as minimally
+doomed, in which case it is removed from wl and added to D.
+Every branch of MinDoo stops when a minimally doomed configuration is reached,
+i.e., a doomed configuration C such by rubbing off any crest event e from C makes it
+free, i.e. C \{e} is free for all e ∈ crest(C ). When the worklist is empty, all minimally
+doomed configurations have been collected in D. Note that if ∅ ∈ wl at any stage during the
+execution of Algorithm Mindoo, then ∅ will be added to D, since Mindoo will not enter
+the second foreach-loop in that case. In fact, if this situation arises, every configuration is
+doomed, and thus ∅ is the unique minimally doomed configuration.
+The configurations produced in the course of the search strictly decrease w.r.t both size
+and inclusion. Moreover, an upper bound on the prefixes explored at each step is given by CB ,
+itself strictly contained in the complete finite prefix used to find all bad markings. According
+to [ERV02], this prefix can be chosen of size equal or smaller (typically: considerably smaller)
+than the reachability graph of N (number of non-cut-off events in the prefix are less or equal
+than the number of reachable markings in N ).
+Theorem 7.2. For any safe Petri net N = hN , M0 i and bad states set MB ⊆ RN (M0 ),
+Algorithm MinDoo terminates, with output set D containing exactly all minimal doomed
+configurations, i.e. D = Ď.
+Proof: Termination follows from the finiteness of min⊆ (CB 0 ), since in each round of
+MinDoo there is one configuration C that is either replaced by a set of strict prefixes or
+removed from wl. Therefore, after a finite number of steps, wl is empty.
+As shown in Section 5.1, the status (doomed or free) of a given finite configuration
+can effectively be checked on a fixed finite prefix of U . Assume that after termination
+of MinDoo, one has C ∈ D; we need to show C ∈ Ď. Clearly, when C was added to
+16
+
+Algorithm 1: Algorithm MinDoo
+Data: Complete prefix Π0 of safe Petri Net N = hP , T , F , M0 i and the set CB 0 of
+bad configurations of Π0
+Result: The set D of Π′0 s ⊆-minimal doomed configurations
+D ← ∅; wl ← ∅;
+foreach C ∈ min⊆ (CB 0 ) do
+C ′ ← shave(C );
+wl ← wl ∪ {C ′ };
+end
+while wl 6= ∅ do
+Pick C ∈ wl; add ← true;
+if NOT FreeCheck(Mark (C \crest(C ))) then
+add ← false;
+C ′ ← shave(C \crest(C ));
+wl ← (wl ∪ {C ′ });
+else
+foreach e ∈ crest(C ) do
+if NOT FreeCheck(Mark ((C \{e})) then
+add ← false;
+C ′ ← shave(C \{e});
+wl ← wl ∪ {C ′ };
+end
+end
+end
+wl ← wl\{C };
+if add then
+D ← D ∪ {C };
+end
+end
+return D
+D, it had been detected as doomed; it remains to show that C is also minimal with this
+property. Assume that there is C ′ ( C that is doomed as well. But in that case there exists
+e ∈ crest(C ) such that C ′ ⊆ (C \{e}) ( C , which implies that this (C \{e}) is doomed as
+well. But then add has been set to false in the second foreach-loop, before C could have
+been added to D.
+Conversely, let C ∈ Ď. Then (C \{e}) is free for all e ∈ crest(C ); the variable add
+remains thus at the value true because no round of the second foreach-loop can flip it.
+Thus C is added to D, from which MinDoo never removes any configuration.
+
+7.3. Implementation and Experiments. An implementation of Mindoo is available
+at [AS24] using the module doomed. It takes as input a safe Petri net in the PEP [Ste04]
+format, the list of undesired (or bad) markings separated by newlines and the unfolding
+of the bad net, it relies on Ecofolder [AS24] for computing the complete finite prefix
+17
+
+Table 1. Statistics of Algorithm 1 on Petri net models of biological systems.
+|P | is the number of places in the system; |T | is the number of transitions; the
+size of Π0 is the number of their events; |MB | is the number of bad markings;
+|wl| is the number of bad configurations initially identified; “# free checks”
+is the number of freeness checks for free status of a configuration. “time” is
+the total computation time on a 1.8Ghz CPU.
+Model
+|P | |T | size Π0 |MB | |wl| |Ď| # free checks time
+Lambda switch
+11 41
+126
+1
+5
+5
+13
+1s
+Mammalian cell cycle
+20 38
+176
+1
+25
+0
+78
+1s
+Cell death receptor
+22 33
+791
+1
+16 14
+146
+9m57s
+Budding yeast cell cycle 18 32
+1,413
+1
+30 28
+165
+2m28s
+Π0 of both the system and the bad net. Also, Ecofolder is used to apply McMillan’s
+criterion [McM92] to unfold every corresponding system’s net initialized with a marking of
+a configuration’s crest choosen from wl. In the unfolding process, we perform reachability
+checks using Answer-Set programming (ASP) to know whether the marking is reachable in
+the bad net, then decide its freeness status. We have implemented Algorithm 1 in Python,
+using ASP for the identification of bad configurations, specifically with the help of the
+Clingo solver [GKKS14].
+Table 1 illustrates the performance of the implementation on different instances of Petri
+nets modeling biological processes. In each case, we report the number of places and transitions, the size (number of events) of prefix Π0 (including cut-off events), the number of bad
+markings initially given to the algorithm (|MB |), the number of bad configurations in wl
+leading to the given bad markings, the number of minimally doomed configurations (|Ď|),
+the number of configurations which have been tested for being free, and the total time.
+The aim of the experiments conducted in this study was to investigate the feasibility and
+effectiveness of our approach for analyzing standard models of biological systems from the
+literature. Specifically, we focused on models for which the study of doomed configurations
+was relevant, as these configurations can provide important insights into the behavior and
+properties of the system. Potential bottlenecks include the computation of those maximal
+configurations that lead to a bad marking, and most importantly the unfolding process using McMillan’s cutoff criterion [McM93] for the freeness test since, as shown in [ERV02], it
+can be exponentially larger than the number of reachable markings of the net. Hereafter,
+our experiments focused on evaluating the impact of different number of places and transitions, and prefix sizes (Π0 ) on several metrics, including the number of minimally doomed
+configurations, the number of candidate configurations screened by Algorithm 1 (# of free
+checks in Table 1), and the overall computation time as the prefix size and the number
+of nodes in the net increased. We have selected four models that had been initially published as Boolean networks, which can be translated into equivalent safe Petri nets using
+the encoding described in [CHJ+ 14] and implemented in the tool Pint [Pau17].
+The “Lambda switch” model [TT95] comprises 11 places and 41 transitions, and is
+a gene regulatory network for a bacterial virus known as the lambda phage. This virus
+is a type of temperate bacteriophage, which means it can establish a long-term symbiotic
+relationship with its bacterial host, known as the lysogenic response. In this state, the virus
+is faithfully transmitted to the bacterial progeny. However, in most cases, the virus follows
+18
+
+the lytic response, where it replicates itself, destroys the host cell, and ultimately lyses the
+cell. This dichotomous decision is cell-dependent and is regulated by intertwined feedback
+mechanisms involving four genes: cI, cro, cII, and N. In our experiments, we define the lytic
+response as “bad” or undesired, and initialize the cro gene with a token while leaving all
+other genes without tokens.
+The “Mammalian cell cycle” model [FNCT06] compromises 20 places and 38 transitions,
+reproducing the main known dynamical features of the wild-type biological system. Mammalian cell division is a highly regulated process that must be coordinated with the overall
+growth and development of the organism. This coordination is necessary to ensure that cell
+division occurs only when needed, such as during tissue repair or in response to hormonal
+signals. The decision of whether a cell will divide or remain in a resting state (known as
+quiescence or G0 phase) is determined by a complex interplay of extracellular positive and
+negative signals. These signals can include growth factors, cytokines, and other signaling
+molecules that bind to specific receptors on the cell surface. The balance of these signals
+ultimately determines whether the cell will enter the cell cycle or arrest the process; one of
+the factors causing cell arrest is disruption on Cyclin D (CycD) and its associated CDKs
+since they are vital for the transition from G1 to S phase. Therefore, we determine CycD
+disruption as a bad marking resulting in an empty set of minimally doomed configurations.
+In other words, the only configuration in the prefix that can avoid cell arrest is the empty
+set, a finding that is suggestive in itself.
+The “Cell death receptor” model [CTF+ 10] comprises 22 places and 33 transitions, and
+reproduces a bifurcation process into different cell fates, one of which has been declared as
+bad (apoptosis). The model focuses on the activation of death receptors (TNF and FAS) in
+various cell types and conditions. The cell’s fate can vary significantly as the same signal
+can trigger survival by activating the NFkB signaling pathway or lead to death by apoptosis
+or necrosis. The study reveals the complex interplay and mutual inhibition between the
+NFkB pro-survival, RIP1-dependent necrosis, and apoptosis pathways. Our analysis shows
+that the minimally doomed configurations identify the configurations in which a decisive
+event has occurred, committing the system to the undesirable attractor marked as bad.
+By detecting these configurations, biologists gain insight into the causal steps that lead to
+cell death via apoptosis, and identify decisive points where alternative pathways are still
+possible.
+The “Budding yeast cell cycle” model [OLB+ 08] comprises 18 places and 32 transitions,
+capturing the oscillatory behavior of gene activity throughout the cell cycle. The biochemical oscillator controlling periodic events during the cell cycle is centered on the activity of
+cyclin-dependent kinases (CDKs), which are thought to play a crucial role in controlling
+the temporally ordered program of transcription in somatic cells and yeast. However, the
+study [OLB+ 08] had integrated genome-wide transcription data and built models, in which
+periodic transcription emerges as a property of a transcription factor network. The authors
+investigated the dynamics of genome-wide transcription in budding yeast cells disrupted for
+all S-phase and mitotic cyclins to determine the extent to which CDKs and transcription
+factor networks contribute to global regulation of the cell-cycle transcription program. In
+our analysis, we use this model to identify the minimally doomed configurations that lead
+to a bad marking, in which the cycle exits its oscillatory behavior and all genes become
+inactive. By detecting these configurations, we can precisely identify the underlying factors
+that lead to the system exiting its oscillatory behavior.
+19
+
+In each case, the number of minimally doomed configurations is a fraction of the size
+of the finite complete prefix Π0 . The computation time for identifying minimally doomed
+configurations is primarily affected, as previously mentioned, by the potential bottleneck
+of checking for loops using McMillan’s cutoff criterion. In general, as the number of places
+increases, it naturally becomes more difficult to determine whether a marking is reachable
+from a bad one. However, the particulary of the freeness check lies in the fact that one
+needs to unfold McMillan’s prefix in order to be sure to have detected all cases in which a
+loop exists. In the worst case, this prefix may be exponentially larger than the reachability
+graph; and in any case, one has to explore individual branches to a considerable depth,
+leading in turn to exponential branching in the prefix constructed.
+Future work may explore ways to handle this bottleneck more efficiently, by accelerating
+computation speed for loop checks, particularly in hard and complex examples.
+Another relevant challenge is to find compact representations of the set of minimally
+doomed configurations; indeed, as these configurations often share many events, biological
+interpretation may be facilitated by regrouping them in a helpful way.
+8. Protectedness
+
+8.1. Measuring the Distance from Doom.
+Decisional Height. With the above, we have the tools to draw a map of the ‘landscape’ in
+which the system evolves, with doomed zones and cliff-edges highlighted. What we wish to
+add now is to assist navigation in this landscape: we intend to give a meaningful measure
+of how well, or badly, a current system state is protected against falling from a cliff-edge,
+that is, how far the system is from entering a doomed state. We have chosen to measure
+this distance in terms not of the length of paths, or of similar notions, but rather in terms
+of the choices that are made by the system in following a particular path.
+Consider a configuration C and the non-sequential process that it represents. Some of
+the events in C can be seen as representing a decision, in the sense that their occurrence
+took place in conflict with some event that was enabled by some prefix of C . The number
+of such events gives a measure of the information contained in C , in terms of the decisions
+necessary to obtain C :
+Definition 18. Let C ∈ C f , and define
+
+△
+′
+dech(C ) =
+e ∈ C : ∃ e ′ ∈ E : e #C
+σ e
+
+,
+
+where #C
+σ is the strict C -conflict relation defined, for all e ∈ C , by
+△
+
+′
+e #C
+⇐⇒ e #δ e ′ ∧ he ′ i ⊆ C .
+σ e
+
+dech(C ) is called the decisional height of C .
+In Figure 2, the configuration C1 = {ξ1 , α1 , γ1 } satisfies dech(C1 ) = 2, whereas for
+C0 = {β1 }, one has dech(C0 ) = 1.
+△
+
+Figure 6 shows an occurrence net with configuration Cβ = {x, y, β} that has dech(Cβ ) =
+△
+
+3 (because of z, α, and γ) and configuration Cα = {x, z, α} with dech(Cα ) = 1 (because of
+y).
+20
+
+b1
+
+b2
+
+x
+
+y
+
+b3
+
+z
+
+b4
+
+α
+
+b5
+γ
+
+β
+
+b6
+
+b7
+
+b8
+
+Figure 6. Illustration of direct conflict.
+b1
+
+b2
+y
+
+x
+b3
+
+b4
+
+α
+
+γ
+
+β
+b5
+
+b6
+
+b7
+
+Figure 7. An ‘unprotected’ branching process
+Note that #C
+σ is more restrictive than direct conflict #δ ; it is also more restrictive
+than the immediate conflict in the literature (e.g. [AB06]). It is closely dependent on the
+configuration C under study, and describes precisely those events against which the process
+had to decide in performing C .
+One may wonder why we choose this particular definition of decision, rather than using
+the customary direct or immediate conflicts. The reason is that we wish to consider as
+decisions only deliberate actions against or in favor particular branches in a bifurcation
+situation, and not any resolution of conflicts brought about by the nondeterminism in
+the ‘race’ between two concurrent processes. Consider Figure 7, assuming that the only
+△
+
+bad configuration is CCB = {α, γ, x, y}. Then clearly, the configurations Cα = {α, x} and
+△
+
+Cγ = {γ, y} are both doomed. Their height, measured by either direct or immediate conflict,
+would be 1; in our definition, it is 0, since α (or γ, respectively) was enabled by Cα \{α}
+(or Cγ \{γ}) without any conflict, since neither Cα \{α} nor Cγ \{γ} enabled β. Underlying
+this is the fact that the ‘decision’ against β is taken here without any choice, merely by the
+fact that of the two concurrent events x and y, one may occur much faster than the other,
+creating a situation in which α (or γ) has no competitor.
+21
+
+Defining Protectedness. Now, for any free marking M (or, equivalently, any free configuration C such that Mark (C ) = M ), we wish to measure the threat represented by doomed
+markings reachable from M : how far away from doom is the system when it is in M ?
+Using the decisional height introduced above, we can define a height difference in terms of
+the conflicts that lead from one marking to another:
+Definition 19. For C ∈ C f , let
+ĎC
+
+△
+
+=
+
+
+
+{C ′ ∈ Ď : C ⊆ C ′ } : C ∈ F
+{C }
+: C ∈ CB
+
+(8.1)
+
+The protectedness of C is then
+△
+
+prot(C ) =
+
+min
+
+C ′ ∈ĎC
+
+
+
+dech(C ′ \C )
+
+(8.2)
+
+In Figure 5, with the definitions introduced there, prot(C ) = prot(C ′ ) = 0. Setting
+△
+
+△
+
+△
+
+△
+
+△
+
+△
+
+C1 = {x}, C2 = {x, y}, C3 = {x, z}, C4 = C2 ∪ C3 , C5 = C4 ∪ {β}, C6 = C4 ∪ {γ}, one
+further has
+prot(C1 ) = prot(C2 ) = prot(C3 ) = prot(C4 ) = 2
+prot(C5 ) = prot(C6 ) = 1.
+Returning to Figure 6, suppose that C ′ = {x, y, β} is the only minimally doomed configuration. Then for C = {x, z, α} as above, we have prot(C ) = 1, because the only strict (and
+direct) conflict here is the one between z and y.
+Note that the definition of protectedness is parametrized by the choice of conflict relation in computing dech(•). Using direct conflict instead of strict conflict would increase
+dech(•) and lead to an overevaluation of protectedness.
+To see the point, consider the occurrence net in Figure 6. Let Cα = {x, z, α}, Cβ =
+{x, y, β} and Cγ = {x, y, α, γ}. We have dech(Cα ) = 1, dech(Cβ ) = 3 and dech(Cγ ) = 2.
+Were #σ replaced by #δ in the computation of dech(•), these values would not change
+except for Cα where it would change to 2. As a result, if C ∈ Ď, the protectedness of
+the empty configuration would be evaluated as 2, whereas by our definition prot(∅) = 1.
+Indeed, ∅ is just one wrong decision away from doom, and this is what protectness is meant
+to express.
+An even starker illustration is once again provided by Figure 7: in fact, we have
+prot(∅) = 0, as follows from the discussion above.
+8.2. Computing Protectedness is Feasible. Computation of prot(•) does not require
+any larger data structure than those already required for computing Ď. In fact, an alternative - and often much smaller prefix - is also sufficient:
+Lemma 8.1. There exists an adequate total order ≺ such that the associate complete prefix
+scheme producing Π≺
+0 whose size is bounded by the number of reachable markings, and such
+that for every finite configuration C , prot(C ) can be computed on Π≺
+0 (Mark (C )).
+Proof: If Ď ∩ C(Π0 ) = ∅, then all extensions of C are free, and we are done. Otherwise, we have to find an adequate total order ≺ on finite configurations, that ensures that
+Π≺
+0 contains at least one minimally doomed configuration that minimizes dech(•) over all
+minimally doomed configurations in U (Mark (C )). The following order ≺ is obtained by
+22
+
+modifying the total order ≺F introduced in [ERV02], Def. 6.2.: For C1 , C2 ∈ C f , write
+C1 ≺ C2 iff either
+• dech(C1 ) < dech(C2 ), or
+• dech(C1 ) = dech(C2 ) and C1 ≪ C2 , or
+• dech(C1 ) = dech(C2 ) and C1 ≡ C2 , and F C(C1 ) ≪ F C(C2 ),
+where ≪ (≡) denote lexicographic ordering (lexicographic equivalence) wrt some total ordering of the transition set T , and F C denotes Cartier-Foata normal form. The proof of
+Theorem 6.4. of [ERV02] extends immediately, proving that ≺ is an adequate total order;
+therefore, Lemma 5.3. of [ERV02] applies, hence any complete prefix Π≺
+0 obtained via the
+scheme using ≺ is bounded in size by the reachability graph. Now, let C ∗ be the set of
+configurations from Ď(Mark (C )) that minimize dech(•); by construction of ≺, one has
+C ∗ ∩ C(Π≺
+
+0 ) 6= ∅.
+9. Discussion
+The results presented here contain, extend and complete those in our conference paper [AHP+ 22].
+The toolkit for the analysis of tipping situations in a safe Petri net, i.e. when and how a
+basin boundary is crossed; an algorithmic method for finding minimally doomed configuration has been developed, implemented and tested.
+Moreover, we have introduced a measure of protectedness that indicates the number
+of decisions that separate a free state from doom. It uses an intrinsic notion of decisional
+height that allows to warn about impending dangerous scenarios; at the same time, this
+height is also ‘natural’ for unfoldings, in the sense that it induces an adequate linear order
+that allows to compute complete prefixes of bounded size.
+On a more general level, the results here are part of a broader effort to provide a
+discrete, Petri-net based framework for dynamical systems analysis in the life sciences. The
+applications that we target here lie in systems biology and ecology.
+Future work will investigate possibilities for Doom Avoidance Control, i.e. devising
+strategies that allow to steer away from doom; we expect to complement the existing approaches via structural methods of e.g. Antsaklis et al [IA03, IA06], and also the unfolding
+construction of Giua and Xie [GX05]. A crucial question is the knowledge that any control
+player can be assumed to have, as a basis for chosing control actions. We believe the protectedness measure is a valid candidate for coding this information, so that a controller may
+take action when the system is too close to doom (wrt some thresholds to be calibrated)
+but there still remain decisions that can be taken to avoid it. Evaluating this option, along
+with other approaches, must, however, be left to future work.
+Acknowlegments: We gratefully acknowledge the fruitful exchanges with Cédric
+Gaucherel and Franck Pommereau. This work was supported by the DIGICOSME grant
+Escape, DIGICOSME RD 242-ESCAPE-15203, and by the French Agence Nationale pour
+la Recherche (ANR) in the scope of the project “BNeDiction” (grant number ANR-20-CE450001).
+References
+[AB06]
+
+Samy Abbes and Albert Benveniste. True-concurrency probabilistic models: Branching
+cells and distributed probabilities for event structures. Inf. Comput., 204(2):231–274, 2006.
+doi:10.1016/j.ic.2005.10.001.
+23
+
+[AHP+ 22] Giann Karlo Aguirre-Sambonı́, Stefan Haar, Loı̈c Paulevé, Stefan Schwoon, and Nick
+Würdemann. Avoid one’s doom: Finding cliff-edge configurations in petri nets. In Pierre Ganty
+and Dario Della Monica, editors, Proceedings of the 13th International Symposium on Games,
+Automata, Logics and Formal Verification, GandALF 2022, Madrid, Spain, September 21-23,
+2022, volume 370 of EPTCS, pages 178–193, 2022. doi:10.4204/EPTCS.370.12.
+[AS24]
+Giann Karlo Aguirre-Sambonı́. Ecofolder, 2024. URL: https://github.com/giannkas/ecofolder.
+[BCH13] Sandie Balaguer, Thomas Chatain, and Stefan Haar. Building occurrence nets
+from reveals relations. Fundamenta Informaticae, 123(3):245–272, May 2013. URL:
+http://www.lsv.fr/Publis/PAPERS/PDF/BCH-fi12.pdf, doi:10.3233/FI-2013-809.
+[CHJ+ 14] Thomas Chatain, Stefan Haar, Loı̈g Jezequel, Loı̈c Paulevé, and Stefan Schwoon. Characterization of reachable attractors using petri net unfoldings. In Proc. CMSB 2014, LNCS 8859, pages
+129–142. Springer, 2014. doi:10.1007/978-3-319-12982-2\_10.
+[CHK+ 20] Thomas Chatain, Stefan Haar, Juraj Kolcák, Loı̈c Paulevé, and Aalok Thakkar. Concurrency in
+boolean networks. Nat. Comput., 19(1):91–109, 2020. doi:10.1007/s11047-019-09748-4.
+[CMR+ 15] David P. A. Cohen, Loredana Martignetti, Sylvie Robine, Emmanuel Barillot, Andrei Yu. Zinovyev, and Laurence Calzone. Mathematical modelling of molecular pathways enabling tumour cell invasion and migration. PLoS Comput. Biol., 11(11), 2015.
+doi:10.1371/journal.pcbi.1004571.
+[CTF+ 10] Laurence Calzone, Laurent Tournier, Simon Fourquet, Denis Thieffry, Boris Zhivotovsky,
+Emmanuel Barillot, and Andrei Yu. Zinovyev. Mathematical modelling of cell-fate decision in response to death receptor engagement. PLoS Comput. Biol., 6(3), 2010.
+doi:10.1371/journal.pcbi.1000702.
+[EH08]
+Javier Esparza and Keijo Heljanko. Unfoldings - A Partial-Order Approach to Model Checking. Monographs in Theoretical Computer Science. An EATCS Series. Springer, 2008.
+doi:10.1007/978-3-540-77426-6.
+[ERV02]
+Javier Esparza, Stefan Römer, and Walter Vogler. An improvement of mcmillan’s unfolding
+algorithm. Formal Methods Syst. Des., 20(3):285–310, 2002. doi:10.1023/A:1014746130920.
+[FNCT06] Adrien Fauré, Aurélien Naldi, Claudine Chaouiya, and Denis Thieffry. Dynamical analysis of a
+generic boolean model for the control of the mammalian cell cycle. Bioinformatics, 22(14):e124–
+31, 2006. doi:10.1093/bioinformatics/btl210.
+[FRGP17] Louis Fippo Fitime, Olivier F. Roux, Carito Guziolowski, and Loı̈c Paulevé. Identification of bifurcation transitions in biological regulatory networks using answer-set programming. Algorithms
+Mol. Biol., 12(1):19:1–19:14, 2017. doi:10.1186/s13015-017-0110-3.
+[GKKS14] Martin Gebser, Roland Kaminski, Benjamin Kaufmann, and Torsten Schaub. Clingo = ASP +
+control: Preliminary report. CoRR, abs/1405.3694, 2014. doi:10.48550/arXiv.1405.3694.
+[GX05]
+Alessandro Giua and Xiaolan Xie. Control of safe ordinary petri nets using unfolding. Discret.
+Event Dyn. Syst., 15(4):349–373, 2005. doi:10.1007/s10626-005-4057-z.
+[Haa10]
+Stefan Haar. Types of asynchronous diagnosability and the reveals-relation in occurrence
+nets. IEEE Transactions on Automatic Control, 55(10):2310–2320, October 2010. URL:
+http://www.lsv.fr/Publis/PAPERS/PDF/haar-tac10.pdf, doi:10.1109/TAC.2010.2063490.
+[HKS13]
+Stefan Haar, Christian Kern, and Stefan Schwoon. Computing the reveals relation in occurrence nets. Theoretical Computer Science, 493:66–79, July 2013. URL:
+http://www.lsv.fr/Publis/PAPERS/PDF/HKS-tcs13.pdf, doi:10.1016/j.tcs.2013.04.028.
+[HPS20]
+Stefan Haar, Loı̈c Paulevé, and Stefan Schwoon. Drawing the line: Basin boundaries
+in safe petri nets. In Proc. CMSB 2020, LNCS 12314, pages 321–336. Springer, 2020.
+doi:10.1007/978-3-030-60327-4\_17.
+[HRS13]
+Stefan Haar, César Rodrı́guez, and Stefan Schwoon. Reveal your faults: It’s only fair! In Proc.
+ACSD 2013, pages 120–129. IEEE Computer Society, 2013. doi:10.1109/ACSD.2013.15.
+[IA03]
+Marian V. Iordache and Panos J. Antsaklis. Decentralized control of petri nets. In Proc. Workshop on Discrete Event Systems Control at the 24th International Conference on Application and
+Theory of Petri Nets (ATPN 2003), pages 143–158, 2003.
+[IA06]
+Marian V. Iordache and Panos J. Antsaklis. Supervisory Control of Concurrent Systems: A Petri
+Net Structural Approach. Birkhäuser, Boston, Basel, Berlin, 2006.
+
+24
+
+[KHNS20] Hannes Klarner, Frederike Heinitz, Sarah Nee, and Heike Siebert. Basins of attraction, commitment sets, and phenotypes of boolean networks. IEEE ACM Trans. Comput. Biol. Bioinform.,
+17(4):1115–1124, 2020. doi:10.1109/TCBB.2018.2879097.
+[KW97]
+Ekkart Kindler and Rolf Walter. Mutex needs fairness. Inf. Process. Lett., 62:31–39, 04 1997.
+doi:10.1016/S0020-0190(97)00033-1.
+[McM92] Kenneth L. McMillan. Using unfoldings to avoid the state explosion problem in the verification of asynchronous circuits. In Proc. CAV ’92, LNCS 663, pages 164–177. Springer, 1992.
+doi:10.1007/3-540-56496-9\_14.
+[McM93] Ken McMillan. Using unfoldings to avoid the state explosion problem in the verification
+of asynchronous circuits. In Gregor von Bochmann and David Karl Probst, editors, Computer Aided Verification, pages 164–177, Berlin, Heidelberg, 1993. Springer Berlin Heidelberg.
+doi:10.1007/3-540-56496-9_14.
+[MHR+ 18] Nuno D. Mendes, Rui Henriques, Elisabeth Remy, Jorge Carneiro, Pedro T. Monteiro, and
+Claudine Chaouiya. Estimating attractor reachability in asynchronous logical models. Frontiers
+in Physiology, 9, 2018. doi:10.3389/fphys.2018.01161.
+[Mur89]
+Tadao Murata. Petri nets: Properties, analysis and applications. Proc. IEEE, 77(4):541–580,
+1989. doi:10.1109/5.24143.
+[NPW79] Mogens Nielsen, Gordon D. Plotkin, and Glynn Winskel. Petri nets, event structures and domains.
+In Proc. SCC 1979, LNCS 70, pages 266–284. Springer, 1979. doi:10.1007/BFb0022474.
+[OLB+ 08] David A. Orlando, Charles Y. Lin, Allister Bernard, Jean Y. Wang, Joshua E. S. Socolar, Edwin S. Iversen, Alexander J. Hartemink, and Steven B. Haase. Global control of cellcycle transcription by coupled CDK and network oscillators. Nature, 453(7197):944–947, 2008.
+doi:10.1038/nature06955.
+[OTL+ 04] Ertugrul M. Ozbudak, Mukund Thattai, Han N. Lim, Boris I. Shraiman, and Alexander
+van Oudenaarden. Multistability in the lactose utilization network of escherichia coli. Nature,
+427(6976):737–740, 2004. doi:10.1038/nature02298.
+[Pau17]
+Loı̈c Paulevé. Pint: A static analyzer for transient dynamics of qualitative networks with
+ipython interface. In Proc. CMSB 2017, LNCS 10545, pages 309–316. Springer, 2017.
+doi:10.1007/978-3-319-67471-1\_20.
+[PF14]
+Alexander N. Pisarchik and Ulrike Feudel. Control of multistability. Physics Reports, 540(4):167–
+218, 2014. doi:10.1016/j.physrep.2014.02.007.
+[PMO95] Erik Plahte, Thomas Mestl, and Stig W. Omholt. Feedback Loops, Stability
+and Multistationarity in Dynamical Systems. J. Biol. Syst., 03(02):409–413, 1995.
+doi:10.1142/s0218339095000381.
+[PTG22] Franck Pommereau, Colin Thomas, and Cédric Gaucherel. Petri nets semantics of reaction rules
+(RR) - A language for ecosystems modelling. In Proc. PETRI NETS 2022, LNCS 13288, pages
+175–194. Springer, 2022. doi:10.1007/978-3-031-06653-5\_10.
+[Ric19]
+Adrien Richard. Positive and negative cycles in boolean networks. Journal of Theoretical Biology,
+463:67–76, 2019. doi:10.1016/j.jtbi.2018.11.028.
+[Sch14]
+Stefan Schwoon. The Mole tool, 2014. URL: http://www.lsv.ens-cachan.fr/~ schwoon/tools/mole/.
+[Ste04]
+Christian Stehno. The PEP tool, 2004. URL: https://sourceforge.net/projects/peptool/.
+[Td90]
+René Thomas and Richard d’Ari. Biological Feedback. CRC Press, Boca Raton, Florida, USA,
+1990.
+[Tho80]
+René Thomas. On the relation between the logical structure of systems and their ability to
+generate multiple steady states or sustained oscillations. Springer Series in Synergies 9, pages
+180–193, 1980. doi:10.1007/978-3-642-81703-8_24.
+[TT95]
+Denis Thieffry and René Thomas. Dynamical behaviour of biological regulatory networks—ii.
+immunity control in bacteriophage lambda. Bulletin of Mathematical Biology, 57:277–297, 1995.
+doi:10.1007/BF02460619.
+[Vog95]
+Walter Vogler. Fairness and partial order semantics. Inf. Process. Lett., 55(1):33–39, 1995.
+doi:10.1016/0020-0190(95)00049-I.
+
+25
+
+This work is licensed under the Creative Commons Attribution License. To view a copy of this
+license, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to Creative
+Commons, 171 Second St, Suite 300, San Francisco, CA 94105, USA, or Eisenacher Strasse 2,
+10777 Berlin, Germany
+
+

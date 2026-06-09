@@ -1,0 +1,2946 @@
+Relative submajorization and its use in quantum resource theories
+Joseph M. Renes
+Institute for Theoretical Physics, ETH Zürich, 8093 Zürich, Switzerland
+
+arXiv:1510.03695v2 [quant-ph] 4 Mar 2016
+
+March 7, 2016
+We introduce and study a generalization of majorization called relative submajorization and show
+that it has many applications to the resource theories of thermodynamics, bipartite entanglement, and
+quantum coherence. Relative majorization is an ordering on pairs of vectors induced by stochastic
+transformations: One pair of vectors relatively majorizes another when there exists a stochastic transformation taking the former to the latter. Relative submajorization is a weakened version in which a
+substochastic matrix need only generate a vector pair obeying certain positivity conditions relative to
+the input pair. In the context of resource theories, we show that relative submajorization characterizes
+both the probability and approximation error that can be obtained when transforming one resource
+to another, also when assisted by additional standard resources such as useful work or maximallyentangled states. These characterizations have a geometric formulation as the ratios or differences,
+respectively, between the Lorenz curves associated with the input and output resources, making them
+efficient to compute. We also find several interesting bounds on the reversibility of a given transformation in terms of the properties of the forward transformation. The main technical tool used to
+establish these results is linear programming duality, which is used to show that any instance of relative
+submajorization can be “dilated” to an instance of strict relative majorization.
+
+1
+
+Introduction
+
+Majorization is an incredibly useful ordering relation on vectors, with applications to a wide variety of
+subjects, including quantum resource theories. Most famously, Nielsen showed that one bipartite pure state
+can be transformed into another by means of local operations and classical communication precisely when
+the Schmidt coefficients of the latter majorize those of the former [1]. Recently, a similar statement has
+been shown for transformations of pure single-system states by “incoherent” operations [2] in the resource
+theory of quantum coherence. And a relative version of majorization has been shown to characterize the
+possibility of resource conversion in the formulation of thermodynamics as a resource theory [3]. Here
+majorization is relative to the Gibbs state, rather than the uniform distribution as in usual majorization.
+In all of these applications the focus is on exact transformations: Given the ostensible input and output states, the respective majorization conditions determine whether the transformation is possible or
+not. However, in the operationally-motivated setting of resource theories, approximate and probabilistic
+transformations are more relevant, as are transformations aided by additional “standard” resources such
+as maximally-entangled states or useful work, or even combinations of all of these. Instead of an all-ornothing proposition, the focus now shifts to quantitative questions such as how much error will be incurred
+in a particular transformation or how many additional resources will be needed to complete it. These issues have also be addressed in the framework of majorization. For thermodynamics, a majorization characterization of work-assisted transformations was given in [4] and of probabilistic transformations in [5].
+Transformations of pure bipartite states assisted by maximally-entangled states were characterized in [6].
+In this paper we show that for resource-assisted transformations, both the achievable probability and
+the achievable approximation error are precisely determined by an extension to majorization we term relative submajorization. This includes and substantially extends the previous results. Approximate resourceassisted transformations have not been so characterized before, to our knowledge, and the combination
+of probabilistic and resource-assisted transformations is also novel. Majorization has an elegant geometric
+formulation involving the ordering of the Lorenz curves of the two vectors, and we also show that this
+formulation extends to relative submajorization. Then we can show, in particular, that approximate or
+probabilistic resource-assisted transformations can be directly characterized in terms of the ratios or differences, respectively, of the Lorenz curves of the resources themselves. Figures 1 and 2 depict our results
+as applied to thermodynamics, and the captions reference the precise technical statements.
+1
+
+1
+λ
+
+λ0
+1
+λ?
+
+(λ0 , z0 )
+
+feasible λ, z
+
+R
+R0
+z0
+
+1
+
+1
+
+(a) Feasibility of λ0 , z0 via Lorenz curves
+
+z
+
+z?
+
+(b) Feasibility region
+
+Figure 1: Feasible transformation probabilities and work-assistance for converting resource R to R0 by
+thermal operations at a fixed (inverse) temperature β. In (a), the transformation R → R0 is not possible
+deterministically, as the Lorenz curve of R (defined in §2.2) does not lie everywhere above that of R0 .
+However, by supplementing the input with additional work, the success probability of the transformation
+can be increased. The additional work W corresponds to horizontally scaling the Lorenz curve of the
+output by z0 = eβW , and as shown in §3.2, λ0 is an achievable transformation probability if rescaling the
+output vertically by λ produces a curve below that of the input R. By (32) (cf. Corollary 1), for fixed z
+the optimal λ is the smallest ratio of the input Lorenz curve to that of the horizontally-scaled output. The
+set of all feasible (λ, z) pairs is depicted in (b), with the particular (λ0 , z0 ) from (a) indicated, as well as
+the optimal probability λ? involving no work and the optimal amount of work needed for deterministic
+transformation.
+
+1
+
+1
+
+slope z 0
+α y (p, q) or x
+
+λ?z (R → 1)
+
+"z?0 (1 → R)
+
+R
+R0
+
+y or β x (p, q)
+
+R
+z
+
+1
+
+1
+
+(b) The value of the Lorenz curve for resource R at z is
+the maximum probability λ?z (R → 1) that an amount of
+work W can be obtained from R by thermal operations
+at inverse temperature β, with z = e−βW (cf. Prop. 7).
+Meanwhile, the tangent with slope z 0 intercepts the vertical axis at the lowest approximation error "z?0 (1 → R)
+0
+for producing R and extracting work W 0 , for z 0 = e−βW
+(cf. Prop. 8). For z 0 > 1, as here, work is expended to
+create an approximation to R.
+
+(a) The differences between two Lorenz curves are related to the two kinds of error in transforming R → R0 ,
+defined in §3.3. The dashed line shows the maximum
+vertical difference between R0 and R, the dotted line the
+maximum horizontal difference between R and R0 (note
+the different orderings). The former is equal to the first
+kind of error "(R → R0 ), while the latter is directly related to the second kind of error η(R → R0 ) (cf. Prop. 6).
+
+Figure 2: Thermodynamical interpretation of (a) the maximum differences between Lorenz curves of two
+resources and (b) a resource’s Lorenz curve and its Legendre transform.
+
+2
+
+The mathematical machinery of relative submajorization also leads to several interesting bounds relating to the reversibility of a transformation, generalizing results obtained in [5–7]. In particular, we find a
+lower bound on the work required to probabilistically reverse a transformation in terms of the work cost
+of the forward transformation and the probabilities involved (Prop. 13), as well as an upper bound on
+the approximation error given the change in relative entropy of the resource (Prop. 15). Applied to the
+resource theory of coherence (and similar results hold for bipartite entanglement), we determine the coherence cost of transforming any given pure state into another using only incoherent operations (Prop. 18)
+and find bounds relating the transformation fidelity to the coherence cost of the transformation, as well as
+to the entropy of the squared amplitudes of the states in the classical basis (Prop. 20).
+The remainder of the paper is structured as follows. We first define relative submajorization in §2 and
+study its properties in a purely mathematical setting, without consideration of any eventual applications.
+Then, in §3 we apply the framework to the resource theory of thermodynamics, in particular for quasiclassical resources that are diagonal in the energy eigenbasis. In §4 we consider the resource theory of
+pure bipartite entanglement and the closely related resource theory of pure state quantum coherence. We
+conclude with a brief summary in §5.
+
+2
+
+Mathematical Framework
+
+2.1
+
+Notation and Conventions
+
+Let us first establish notation and our conventions for vectors and matrices. We will be concerned with realn
+valued vectors, elements of Rn , especially those in the positive cone R+
+(those with non-negative entries).
+Vectors are considered to be column vectors unless otherwise specified, and 1n denotes the length-n vector
+of all ones. The positive part of a vector v is denoted (v)+ , i.e. v with all negative entries set to zero. The
+expression |v| indicates the one-norm of v, i.e. the sum of the components for vectors in the positive cone.
+n
+The inequality v ≥ 0 is taken to mean v ∈ R+
+. The simplex of valid probability distributions (probability
+n
+mass functions) on n outcomes, i.e. v ∈ R+ with |v| = 1, is denoted Sn . The symbol ⊕ denotes the direct
+sum of vectors, and ⊗ the direct product.
+A particularly useful distance measure on Sn is the variational distance δ(p, q) := max{t · (p − q) : 0 ≤
+t ≤ 1n } = min{|v| : v ≥ p − q}, as it is directly related to the probability that any experiment could detect
+the difference between a system
+Pndescribed by p or by q. Meanwhile, the relative entropy of p to q, denoted
+D(p, q) is given by D(p, q) = k=1 pk log pk /qk . Here, and the remainder of the paper, we use the natural
+logarithm.
+n×m
+We will also be concerned with real-valued matrices, and denote by R+
+the set of real-valued n × m
+matrices with nonegative entries; for a given matrix M , this condition is also expressed as M ≥ 0. An
+T
+T
+m × n matrix M with M ≥ 0 is stochastic when 1m
+M = 1nT , and substochastic when 1m
+M ≤ 1nT . It is doubly
+stochastic when, in addition to being stochastic, n = m and M 1n = 1m .
+Linear programming and in particular its duality is the main mathematical tool behind the results we
+shall present. A formulation useful for our purposes here is given in Appendix A.
+
+2.2
+
+Testing regions and Lorenz curves
+
+We begin by defining the testing region of two (unnormalized) probability distributions. This is closely related with Neyman-Pearson hypothesis testing, and will turn out to be very closely related to majorization.
+Vectors 0 ≤ t ≤ 1n are “tests” because the vectors t and 1n − t can be associated with the outcomes of
+a dichotomous measurement, such that for underlying probability distribution p, the probabilities of the
+outcomes are just t · p and 1 − t · p, respectively.
+n
+Definition 1. For two positive vectors p, q ∈ R+
+, the testing region T (p, q) is given by
+
+T (p, q) := {(x, y) ∈ R2+ : (x, y) = (t · p, t · q), 0 ≤ t ≤ 1n }.
+
+(1)
+
+The testing region is a convex set whose extreme points correspond to the extreme points of the set
+of tests t, those whose entries are either zero or one. Hence it contains the points (0, 0) and (|p|, |q|),
+corresponding to the tests t = 0 and t = 1n , respectively, as well as the line joining them. Furthermore,
+3
+
+it is symmetric under (x, y) 7→ (|p| − x, |q| − y), corresponding to t → 1n − t. An example is depicted in
+Figure 3.
+|q|
+
+t ·q
+
+y4?
+T (p, q)
+
+y3?
+y2?
+y1?
+0
+
+0
+
+x 1?
+
+x 2?
+
+x 3?
+
+t·p
+
+x 4? |p|
+
+n
+Figure 3: Example of a testing region T (p, q) for p, q ∈ R+
+with n = 5. The region is a subset of the
+2
+positive quadrant of R consisting of all pairs (t · p, t · q) for test vectors 0 ≤ t ≤ 1n . The testing region is
+convex and due to the symmetry under t 7→ 1n − t, meaning (|p| − x, |q| − y) ∈ T (p, q) for (x, y) ∈ T (p, q),
+it is sufficient to specify the region by describing its lower (or upper) boundary. The y coordinates of
+the boundary are the function values β x (p, q), while the while the x coordinates are the function values
+α y (p, q). In fact, T (p, q) is the convex hull of just 2n extreme points, as shown in Lemma 1. Those
+along the lower boundary are indicated, the x coordinates of which comprise the set Tx? (p, q) and the y
+coordinates T y? (p, q).
+
+A priori, there could be as many as 2n extreme points of T (p, q), one for every extreme point in the set
+of tests. However, the following lemma shows that there are at most 2n extreme points for any T (p, q).
+n
+Lemma 1. For any p, q ∈ R+
+, the extreme points of the lower boundary of T (p, q) are, along with (0,0),
+
+
+
+
+k
+k
+X
+X
+
+
+(x k? , yk? ) = 
+pπ( j) ,
+qπ( j)  ,
+j=1
+
+(2)
+
+j=1
+
+where k = 1, . . . , n and π is any permutation of {1, . . . n} such that the sequence (pπ( j) /qπ( j) )nj=1 is nonincreasing.
+Intuitively, these are the points “farthest away” from the diagonal running from (0, 0) to (|p|, |q|). For
+convenience later, define Tx? (p, q) to be the set {x k? }nk=1 and similarly T y? (p, q) = { yk? }nk=1 . These points will
+be referred to as “elbows” of the boundary curve.
+By symmetry, it is sufficient to describe T (p, q) by its lower (or upper) boundary, and to prove the
+statement, it is useful to work with the function taking the x coordinate of points on the lower boundary
+to their corresponding y coordinates. Setting
+β x (p, q) := min { y : (x, y) ∈ T (p, q)},
+
+(3)
+
+x 7→ β x (p, q) is an increasing, convex function with domain [0, |p|]. By construction, the value β x (p, q) is
+the solution of a linear program, one which satsifies strong duality. The dual optimizations are as follows.
+
+4
+
+β x (p, q) = infimum
+t
+
+t ·q
+
+t · p ≥ x,
+0 ≤ t ≤ 1n .
+
+(4a)
+
+subject to µp − q ≤ s,
+µ, s ≥ 0.
+
+(4b)
+
+subject to
+
+= supremum µx − 1n · s
+µ,s
+
+Strong duality is assured by the existence of a feasible test for the dual, namely µ = s = 0. Nominally,
+the inequality constraint in the primal form should be an equality, to match with the definition in (3).
+However, the test optimal in the primal has the property that t · p = x, since any t with t · p > x can simply
+be rescaled to meet the constraint with equality and thereby decrease the objective function (equality can
+also be seen from the complementary slackness conditions). Moreover, the primal form (4a) should now
+be taken as the definition of the function x 7→ β x (p, q), since we no longer need to restrict the domain of
+x. For x < 0, the function simply takes the value zero (t = 0 in the primal; µ = s = 0 in the dual), and for
+x > |p| the value +∞ as the primal problem is no longer feasible.
+Using the dual, we can easily prove Lemma 1.
+Proof of Lemma 1. Letting t k be the vector whose components are 1 for indices π(1), . . . , π(k) and zero
+otherwise. Then, by the primal formulation, direct calculation gives β x ? (p, q) ≤ yk? for all k. By mixing
+k
+?
+?
+the t k tests, it immediately follows that β x (p, q) ≤ λ yk? + (1 − λ) yk+1
+for x = λx k? + (1 − λ)x k+1
+with any
+λ ∈ [0, 1].
+To prove the opposite inequalities, set µk such that µk pπ(k+1) = qπ(k+1) and then choose sk = (µk p−q)+
+in the dual. By construction,
+1n · sk =
+
+k
+X
+j=1
+
+µk pπ( j) − qπ( j) = µk x k? − yk? .
+
+(5)
+
+?
+?
+Thus, β x ? (p, q) ≥ yk? for all k. For arbitrary x = λx k? + (1 − λ)x k+1
+, note that λx k? + (1 − λ)x k+1
+=
+k
+?
+?
+x k + (1 − λ)pπ(k+1) and the analogous statement holds for yk . Thus,
+
+β x (p, q) ≥ yk? + (1 − λ)µk pπ(k+1)
+= yk? + (1 − λ)qπ(k+1) ,
+
+(6)
+(7)
+
+completing the proof.
+Later the following lemma will also be useful.
+n
+m
+Lemma 2. For any p, q ∈ R+
+and r ∈ R+
+, we have, for all x ∈ R,
+
+β x (p ⊕ 0m , q ⊕ r) = β x (p, q),
+1
+β (p ⊗ r, q ⊗ r) = β x (p, q).
+|r| x|r|
+
+and
+
+(8)
+(9)
+
+Proof. The optimal test for the lefthand quantity in (8) may as well have the form t ⊕0m , since feasibility is
+not affected by having positive t 0 in the second system and the objective function will only become larger.
+Then the optimal test for either quantity is a feasible test for the other.
+The lefthand side of (9) is clearly no larger than the righthand side, since any test t for the latter can
+be used in the former via t ⊗ 1m . Conversely, the optimal s in the dual of β x (p, q) is clearly (µp − q)+ , from
+which it follows that the left side must be larger than the right.
+In describing the lower boundary, we could just as well consider the map from the y- to the xcoordinates:
+α y (p, q) := max {x : (x, y) ∈ T (p, q)}.
+5
+
+(10)
+
+The function y 7→ α y (p, q) has domain [0, |q|] and is again an increasing function, but now concave. By
+construction, α(p, q) and β(p, q) are inverses of each other, in that
+βα y (r,g) (r, g) = y,
+
+∀ y ∈ [0, |q|]
+
+αβ x (r,g) (r, g) = x,
+
+∀x ∈ [0, |p|].
+
+When |p| = |q|, the symmetry of T (p, q) implies that
+
+α y (p, q) + β1− y (q, p) = 1.
+
+(11)
+(12)
+
+(13)
+
+The linear program formulation of α y (p, q) is as follows:
+α y (p, q) = supremum
+t
+
+t·p
+
+t · q ≤ y,
+0 ≤ t ≤ 1n ,
+
+(14a)
+
+subject to s ≥ p − νq,
+ν, s ≥ 0.
+
+(14b)
+
+subject to
+
+= infimum ν y + 1n · s
+ν,s
+
+Again in this formulation the domain of y 7→ α y (p, q) is extended to all of R. When y < 0, the function
+takes the value −∞ as the program is no longer feasible. On the other hand, for y > |q|, the function
+takes the value |p|, which can be seen by choosing ν = 0 and s = p in the dual formulation.
+All four possible functions describing the two boundaries are used in the literature. The function
+x 7→ β x (p, q) is commonly used in classical information theory, particularly for |p| = |q| = 1, when it
+describes the minimal type-II error of a Neyman-Pearson asymmetric hypothesis test between p and q for
+type-I error no larger than 1 − x [8]. In quantum thermodynamics it is common to use α y (p, q) [4]. We
+shall adopt this use here, and refer to the graph of the function y 7→ α y (p, q) as the Lorenz curve of (p, q).
+For an illustration, see Fig. 4.
+Meanwhile, in statistics, it is common to consider the upper boundary α̂(p, q) : y 7→ α̂ y (p, q) = |p| −
+α|q|− y (p, q). This is the maximum power at significance level y.1 If we follow Harremoës [11] and consider
+q to be uniform, then the Lorenz curve of economics as commonly defined today [12, Ch. 17C] is the x
+coordinate of the upper boundary considered as a function of the y coordinate.2
+
+2.3
+
+Majorization
+
+Majorization is an incredibly useful ordering relation on vectors, with applications to a wide variety of
+subjects, far too many to list here. An excellent overview is given in [12]. Although there are many
+equivalent characterizations of majorization, to this author the most fundamental appears to be the notion
+that p majorizes q when q can be obtained from p by the action of a doubly stochastic matrix.
+Majorization can be usefully extended to pairs of vectors, as introduced by Veinott [14], and called
+d-majorization or relative majorization.3 Actually, the notion is older in the context of statistics, where it
+arises naturally in the context of comparing experiments (see, e.g. the influential papers by Blackwell [15,
+16] or the encyclopedic volume by Torgersen [10], particularly §9.1). Now the criterion is that there exists
+a stochastic matrix M that takes each vector in the input pair to the corresponding vector in the output
+n
+pair. Here we are (mostly) concerned with vectors in the positive cone R+
+, though the definition can be
+made in more general settings; see [12, §14.B] or [10].
+0
+
+n
+n
+Definition 2 (Relative majorization). For p, q ∈ R+
+and p0 , q0 ∈ R+
+, the pair (p, q) is said to majorize (or
+0 0
+0 0
+relatively majorize) the pair (p , q ), denoted (p, q)  (p , q ), when there exists an n0 × n stochastic matrix
+M such that
+
+M p = p0 ,
+
+(15a)
+
+Mq = q .
+
+(15b)
+
+0
+
+1
+
+However, in the statistics literature it is common to call this function β (!) [9, 10].
+Though Lorenz’s original definition in [13] was the statistician’s choice, y 7→ α̂ y (p, q).
+3
+In [12] relative majorization refers to the case when the second vector is the same for both pairs.
+2
+
+6
+
+α y (p, q) or x
+p4
+p3
+
+p2
+
+(p, q)
+(p0 , q0 )
+
+p1
+
+q1
+
+q2
+
+q4
+
+q3
+
+y or β x (p, q)
+
+Figure 4: Lorenz curves for two normalized pairs (p, q) and (p0 , q0 ), with (p, q)  (p0 , q0 ). The value of
+the Lorenz curve for (p, q) as a function of the horizontal value y is simply α y (p, q). As a function of the
+vertical value x, it is β x (p, q). The advantage of the former (standard) interpretation is that (p, q)  (p0 , q0 )
+corresponds to the Lorenz curve of the former lying above that of the latter. The distances between
+horizontal and vertical coordinate values of the elbows of the curve are simply the components of q and p,
+respectively (cf. Lemma 1). Here, p and q are already assumed to be ordered so that the ratios pk /qk form
+a decreasing sequence. Note that it suffices to check that the elbows of (p0 , q0 ) lie below the (p, q) curve.
+Clearly, for (p, q)  (p0 , q0 ) to hold, we must have |p0 | = |p| and |q0 | = |q|. Note that (p, q)  (p0 , q0 ) ⇔
+(q, p)  (q0 , p0 ), so there is no inherent ordering to the pair.
+Usual majorization p  q is just the case that n = n0 and the second (or first) vector in the pair is
+proportional to 1n , the vector of all ones; this ensures that the map from p to q is doubly stochastic. For
+vectors of unequal length we may just embed both in some Rm with m ≥ max{n, n0 }, by padding with
+zeros, and then define p  q to be (p, 1m )  (q, 1m ).
+An important property of relative majorization is that it is completely characterized by the inclusion of
+T (p0 , q0 ) in T (p, q). Stated in terms of the Lorenz curve, we have
+(p, q)  (p, q0 )
+
+⇔
+
+β x (p, q) ≤ β x (p0 , q0 ) ∀x ∈ R.
+
+(16)
+
+Proof of this statement can be traced back to results of Blackwell [16] (see [10, Ex. 9.1.5]), while direct
+proofs in these terms were given in [17] and [18]. In the second statement it is indeed enough to test
+the inequality only at x ∈ Tx? (p0 , q0 ). The extension to all x ∈ Tx (p0 , q0 ) follows since the function x 7→
+?
+β x (p0 , q0 ) interpolates linearly between βk? (p0 , q0 ) and βk+1
+(p0 , q0 ) for the largest k such that α?k (p0 , q0 ) < x,
+while the graph of x 7→ β x (p, q) lies below the endpoints and is convex.
+
+2.4
+
+Relative submajorization
+
+Comparison of (15) and (16) immediately reveals that, for general vectors, the equality conditions in the
+former are sufficient but not necessary for the Lorenz curves to be ordered as in the latter. By weakening
+the equality constraints and considering substochastic matrices, we can define a generalization whose
+Lorenz curves are still ordered. For reasons which will become apparent later, we term this generalization
+“relative submajorization”.
+0 0
+Definition 3 (Relative submajorization). The pair (p, q) ∈ R2n
++ is said to (relatively) submajorize (p , q ) ∈
+0
+0
+0 0
+n ×n
+R2n
+such that
++ , denoted (p, q)  (p , q ), when there exists an M ∈ R+
+
+M p ≥ p0 ,
+0
+
+Mq ≤ q ,
+
+1nT0 M ≤ 1nT .
+7
+
+(17a)
+
+(17b)
+(17c)
+
+Additionally, if (17a) holds with equality, we write (p, q) ³ (p0 , q0 ), while if (17b) and (17c) hold with
+equality, we write (p, q) ¼ (p0 , q0 ).
+The symmetry between the two vectors in the pair is now lifted, since the inequalities run in different
+directions. The condition can only hold when |p| ≥ |p0 |, but the second member of the pair faces no such
+constraint.
+Nevertheless, when |p0 | = |p| and |q0 | = |q| both hold, submajorization is equivalent to strict majorization. Clearly the latter implies the former, and the reverse implication hinges on (16). Specifically, let t 0 be
+the optimal test in β x (p0 , q0 ), so that x = t 0 · p0 and β x (p0 , q0 ) = t 0 · q0 . Defining t = M T t 0 , substochasticity
+of M ensures that t is a valid test. The remaining inequalities give t · p ≥ x and t · q ≤ β x (p0 , q0 ), and
+therefore β x (p, q) ≤ β x (p0 , q0 ) for all x ∈ [0, 1]. Using (16) completes the reverse implication.
+As shown in Lemma 3 of the Appendix, it turns out that  and ³ are equivalent. Moreover, by
+Lemma 6,  and ¼ are equivalent when |q0 | = |q|,
+The former equivalence motivates the name “submajorization”, since again setting the second vector
+in the pair proportional to 1n , we recover the usual notion of (weak) submajorization that p (weakly)
+submajorizes q when there is a doubly substochastic matrix M such that M p = q (cf. [12, Th. 2.C.4]).4
+Even though we can recover standard majorization by setting the first vector in the pair proportional to
+1n , doing so here would not yield supermajorization of [12], since the condition (17c) forces M to be suband not super-stochastic. While it is possible to embed or convert relative (sub)majorization into standard
+(sub)majorization [17, 19, 20], at which point one could attempt to glean properties of the latter from
+those of the former, we refrain from doing so here as the proofs of the interesting properties presented
+below are essentially the same in the two cases.
+We constructed the inequalities in (17) so that the forward implication in (16) still holds, i.e. so that
+the Lorenz curves would still be ordered. Importantly, the reverse implication also holds, even though the
+differing norms of the vectors prevent their associated testing regions from obeying an inclusion relation.
+The ultimate reason for this is that two given pairs of vectors can be “dilated” to two new pairs which
+satisfy the testing region inclusion condition.5 Put differently, while strict majorization is a special case
+of submajorization, any instance of submajorization can be dilated to an instance of strict majorization
+in the sense that the vectors involved the submajorization condition are projected versions of the vectors
+involved in the strict majorization condition. This state of affairs is encapsulated in the following theorem.
+0
+
+n
+n
+Theorem 1. For any p, q ∈ R+
+and p0 , q0 ∈ R+
+, the following are equivalent:
+
+(a) (p, q)  (p0 , q0 ),
+
+(b) (p ⊕ 0, q ⊕ zq)  (p0 ⊕ s0 , q0 ⊕ z −1 q0 ) for s0 ∝ q0 with |s0 | + |p0 | = |p| and z = |q0 |/|q|,
+(c) β x (p, q) ≤ β x (p0 , q0 ) for all x ∈ Tx (p0 , q0 ), indeed for all x ∈ Tx? (p0 , q0 ).
+
+The proof of the the theorem is divided into Lemmas 4, 6, and 7 in the Appendix, relying on strong
+duality of linear programming. We also sketch an alternate, more constructive proof based on interpolation
+of tests.
+
+2.5
+
+Feasible norms in relative submajorization
+
+Given any two pairs of vectors R = (p, q) and R0 = (p0 , q0 ), it is interesting to consider the possible
+combinations of λ, z ≥ 0 such that (p, q)  (λp0 , zq0 ). Since we are considering scaling each vector
+in the second pair by some positive constant, we might as well focus on the case |p0 | = |p| = 1 and
+|q0 | = |q| = 1, and we refer to the corresponding R and R0 as normalized. Let us denote the set of all
+possible combinations for normalized R and R0 by S (R, R0 ), that is
+
+S (R, R0 ) := (λ, z) : λ ∈ [0, 1], z ≥ 0, (p, q)  (λp0 , zq0 ) .
+(18)
+4
+
+Note, however, that this is apparently not compatible with the notion of submajorization given by Torgersen [10]. In fact,
+what we have called submajorization is a generalization of his notion of supermajorization (compare Theorem 1 when |p0 | = |p|
+with condition (iii000 ), pp. 577).
+5
+The notion of dilation is that of Naimark, Stinespring, and so forth, where the general object is shown to be “compressed”
+or “projected” version of a nicer object on a larger space (see Paulsen [21], from which this description was taken), and not the
+notion of a dilation as a particular kind of stochastic map as used by, e.g. Torgersen [10, pp. 346].
+
+8
+
+Its boundary can be specified by giving the largest possible λ for each z; call this value λ?z (R → R0 ). We will
+also have use to refer to the smallest z for a given λ, call it zλ? (R → R0 ). The boundary can be determined
+directly from the Lorenz curves of R and R0 , as illustrated in Fig. 1.
+Corollary 1. For any normalized R and R0 , the set S (R, R0 ) is convex. Furthermore, for T ? (p0 , q0 ) =
+0
+{(x k? , yk? )}nk=1 ,
+λ?z (R → R0 ) =
+
+min
+
+α y ? (p, 1z q)
+k
+
+k∈1,...,n0 α y ? (p 0 , q 0 )
+
+.
+
+(19)
+
+k
+
+Proof. To establish convexity, suppose M j is a substochastic matrix associated with (p, q)  (λ j p0 , z j q0 )
+according to (17). Any convex combination of M j ’s is also substochastic, and immediately gives (p, q) 
+(λ̄p0 , z̄q0 ), where λ̄ (z̄) is the same convex combination of the λ j (z j ).
+To establish (19), observe that (p, q)  (λp0 , zq0 ) is equivalent to (p, 1z q)  (λp0 , q0 ). By Theorem 1,
+
+this is further equivalent to α y (p, 1z q) ≥ α y (λp0 , q0 ) = λα y (p0 , q0 ) for all y ∈ [0, 1]. Thus, any feasible λ
+must be less than the smallest ratio of the two Lorenz curve values, and we need only check the ratio at
+the elbows of (p0 , q0 ).
+
+Convexity of S (R, R0 ) means that the function z 7→ λ?z (R → R0 ) is concave; it is an increasing function
+since increasing z in (p, q)  (λp0 , zq0 ) still produces a feasible λ, z pair. In the special case R0 = R, it is not
+difficult to show
+¨
+z z ≤ 1,
+?
+λz (R → R) =
+(20)
+1 z > 1.
+In terms of the Lorenz curve, it holds that α y (p, q) ≥ α y (λp, zq) for all y ≥ 0. At the point y = zqπ(1) ,
+for π a permutation as in Lemma 1, we have α y (λp, zq) = λpπ(1) . However, for y ∈ [0, qπ(1) ], the
+function y 7→ α y (p, q) interpolates linearly between zero and pπ(1) . Thus, α y (p, q) = z pπ(1) , and the
+above inequality becomes z ≥ λ. Clearly λ = z is feasible, by choosing M = λ1 in (17).
+By the definition of submajorization, (p, q)  (p0 , q0 ) is equivalent to (λp, zq)  (λp0 , zq0 ), and the
+following proposition is immediate.
+Proposition 1. Suppose (p1 , q1 )  (λp2 , zq2 ) and (p2 , q2 )  (λ0 p3 , z 0 q3 ). Then (p1 , q1 )  (λλ0 p3 , zz 0 q3 ).
+
+2.6
+
+Approximate relative submajorization
+
+It is also interesting to consider the question of approximate relative submajorization. Even if (p, q) 
+(p0 , q0 ), it might be possible to find some other pair (p̂0 , q̂0 ) close to (p0 , q0 ) such that (p, q)  (p̂0 , q̂0 ) as
+quantified by some measure. Let us specialize to the variational distance δ and measure the approximation
+quality δ(p0 , p̂0 ) and δ(q0 , q̂0 ) separately. (Note, we are now using the variational distance outside the usual
+context of normalized vectors, but this will be useful later.) Then we can make the following definition.
+Definition 4 (Approximate relative submajorization). The pair (p, q) ∈ R2n
++ is said to approximately rela0 0
+2n0
+tively submajorize (p , q ) ∈ R+ with errors " and η, denoted (p, q) ",η (p0 , q0 ), when there exist p̂0 and q̂0
+such that (p, q)  (p̂0 , q̂0 ), δ(p0 , p̂0 ) ≤ ", and δ(q0 , q̂0 ) ≤ η.
+
+More explicitly, using the dual formulation of the variational distance, we have (p, q) ",η (p0 , q0 ) when
+n0
+there exists a substochastic n0 × n matrix M and a, b ∈ R+
+such that
+1 T a ≤ ",
+T
+
+(21a)
+
+1 b ≤ η,
+
+(21b)
+
+0
+
+(21d)
+
+0
+
+M p ≥ p − a,
+M q ≤ q + b.
+
+(21c)
+
+As in the previous section, the feasibility of any particular " and η combination for two given pairs
+R = (p, q) and R0 = (p0 , q0 ) can be determined directly from the Lorenz curves of R and R0 . This is the
+content of the following theorem, whose proof(→) is given in the Appendix.
+9
+
+0
+
+n
+n
+Theorem 2. For any p, q ∈ R+
+and p0 , q0 ∈ R+
+and ", η ≥ 0, the following are equivalent:
+
+(a) (p, q) ",η (p0 , q0 ),
+
+(b) β x (p, q) ≤ β x+" (p0 , q0 ) + η for all x ∈ R.
+
+In the context of statistics the definition above corresponds to the randomization characterization
+for approximate sufficiency of one experiment relative to another (see [10, §6.4]), which is related to the
+decisition theoretic notion of deficiency of experiments by LeCam’s randomization criterion [10, Th. 6.4.1].
+Theorem 2 is a generalization of the analogous result for strict relative majorization by Torgersen [22, Cor.
+16],[23, Th. 5.2],[10, Cor. 9.3.26].
+
+3
+
+Applications to the resource theory of thermal operations
+
+3.1
+
+Resource theories and thermal operations
+
+A useful approach to understanding thermodynamics, and particularly the thermodynamics of systems we
+describe using microscopic degrees of freedom, is as a resource theory [3, 24]. Any resource theory posits
+a restriction on the possible operations available to an experimenter and then studies which states can
+be transformed into which others under this restriction. For instance, by restricting operations to those
+which have a given symmetry, systems that do no possess the symmetry become a useful resource which
+can be used to implement previously-unavailable transformations. A well-studied example in quantum
+information theory is the resource theory of bipartite entanglement, corresponding to a restriction on bipartite quantum operations to those which consist of operations on one subsystem or the other, augmented
+by classical communication between the two (local operations and classical communication, LOCC). The
+maximally-entangled state is the ultimate resource in this theory, as it completely lifts the LOCC restriction.
+By making use of quantum teleportation, one can perform any bipartite quantum operation using LOCC
+operations and the maximally-entangled state.
+The resource theory approach to thermodynamics seeks to model thermal operations at a fixed background inverse temperature β (not at all related to β x (p, q)). In the theory, each system has a Hamiltonian
+describing its allowed energies and specifying its dynamics, interactions are presumed to be negligible (else
+we would define the systems differently), and the only allowed operations are those which preserve the
+energy, i.e. those which commute with the total Hamiltonian. The background temperature is fixed by
+the additional allowed operation of creating the Gibbs state at inverse temperature β of any system. Put
+differently, these systems comprise the thermal bath which fixes the temperature. Any state that is not
+precisely of this form is regarded as a resource, and the central questions of the resource theory revolve
+around determining which resources can be transformed into which others, at what rates, and so forth.
+Recently, there have been a number of important results in the area [4, 5, 7, 25–27]. Note that in this
+paper, we shall consider only states which are block-diagonal in the energy eigenbasis, and therefore we
+do not consider the very delicate question of the impact of quantum coherence on the resource theory.
+It is sufficient to describe any resource system R by the pair (r, g) of its probability distribution of
+energy levels r and the corresponding distribution for the Gibbs state g. We say that R ≥ R0 if there exists
+a thermal operation of the kind described above which can transform R into R0 . Crucially for our present
+purposes, this condition is equivalent to relative majorization of the vector pairs, as shown in [3] and [28]
+(in the latter, this is termed “thermomajorization”). Formally, we have
+Proposition 2 (Theorem 5 [3]). For any resources R and R0 ,
+R ≥ R0
+
+3.2
+
+⇔
+
+(r, g)  (r 0 , g 0 ).
+
+(22)
+
+Probabilistic and work-assisted transformations
+
+Relative submajorization is useful in the context of thermodynamics, as it succinctly encapsulates the possibility of probabilistic work-assisted thermal transformations. In this section we will show that Corollary 1
+gives a simple expression, in terms of their Lorenz curves, for the optimal probability of performing a
+transformation R → R0 when aided by a given amount of work. First let us precisely define probabilistic
+10
+
+and work-assisted transformations separately and see how submajorization is relevant to each. We begin
+with the latter.
+If the transformation R → R0 is not possible by thermal operations, we may consider supplying some
+amount of work so that the transformation is possible. In the resource theory setting, work can be understood as energy stored in a “battery” or “accumulator” system. The battery is a resource system consisting
+of many, finely-spaced energy levels, and we confine ourselves to operations which always leave it in a
+well-defined energy level. This prevents the battery from being used as an entropy sink. Denoting the
+battery in energy level E by B E , an amount of work W can be extracted during the transformation of R to
+R0 when, for any E,
+R ⊗ B E ≥ R0 ⊗ B E+W .
+
+(23)
+
+Our convention is that positive W is work extracted, and negative W is work expended. It will be more
+convienient to use the quantity z = e−βW , for which z < 1 corresponds to work extracted and z > 1 to
+work expended.
+Using the results of §2, we can easily show
+Proposition 3. For any resources R and R0 , the following are equivalent
+(a) R ⊗ B E ≥ R0 ⊗ B E+W for some E,
+(b) R ⊗ B0 ≥ R0 ⊗ BW ,
+(c) (r, g)  (r 0 , z g 0 ).
+
+First, let a(E) be the probability vector with all its weight concentrated on energy level E, and call the
+thermal state of the battery g B . Then, (23) is equivalent to
+(r ⊗ a(E), g ⊗ g B )  (r 0 ⊗ a(E + W ), g 0 ⊗ g B ).
+
+(24)
+
+Converting to the Lorenz curve, we have β x (r ⊗ a(E), g ⊗ g B ) ≤ β x (r 0 ⊗ a(E +W ), g 0 ⊗ g B ) for all x ∈ [0, 1].
+Using Lemma 2, one may simplify this condition to
+e−β E
+ZB
+
+β x (r, g) ≤
+
+e−β(E+W )
+ZB
+
+β x (r 0 , g 0 ),
+
+(25)
+
+again for all x ∈ [0, 1], where ZB is the partition function of the battery. The factor e−β E /ZB is evidently
+common to both sides, leaving just zβ x (r 0 , g 0 ) on the right. But this is simply β x (r 0 , z g 0 ), so Theorem 1
+implies (23) is equivalent to (r, g)  (r 0 , z g 0 ) as claimed. Since the value of E is ultimately irrelevant,
+our definition of work is equivalent to the “work bit” formulation of [4]. The connection between work
+assistance and rescaling of the Lorenz curve, which is implicit in Prop. 3, was observed in [4, 26, 29].
+Similarly, if the R → R0 transformation is impossible, we may still attempt to produce R0 probabilistically. There are two sensible notions of probabilistic transformation, mixture probability and heralded
+probability, and we can show that in a certain setting these are identical. The first approach, taken in [5],
+treats probability as the weight λ of r 0 in a mixture of r 0 and some other state s0 at the output. That is,
+it is possible to transform R into R0 with probability λ when there exists some other resource R̂0 = (s0 , g 0 )
+such that
+R ≥ λR0 + (1 − λ)R̂0 .
+
+(26)
+
+In terms of majorization, this condition is (r, g)  (λr 0 + (1 − λ)s0 , g 0 ), which implies (r, g) ¼ (λr 0 , g 0 ) and
+therefore (r, g)  (λr 0 , g 0 ). The converse follows by the second part of Lemma 6 in the Appendix.
+Heralded probability refers to the setup in which the output is accompanied by an additional system
+which indicates whether R0 was successfully created or not. The additional system can simply be a twolevel system with trivial Hamiltonian. Despite the fact that energy is not directly involved, such systems
+11
+
+have resource value in the thermal setting since they can be used as entropy sinks, and so it is necessary
+to take this value into account. One way to do so is to simply provide a suitably-initialized bit at the
+beginning of the process. Initially the bit is in one of the two states, say 0, described by the probability
+distribution b(0) = (1, 0), while the equilibrium state g b of the bit is simply the equal mixture of 0 and
+1, g b = (1, 1)/2. Defining bk = (b(k), g b ), it is possible to transform R to R0 with heralded probability p
+when
+R ⊗ b0 ≥ pR0 ⊗ b1 + (1 − p)R̂0 ⊗ b0 ,
+
+(27)
+
+(r ⊗ b(0), g ⊗ g b )  (pr 0 ⊗ b(1) + (1 − p)s0 ⊗ b(0), g 0 ⊗ g b ).
+
+(28)
+
+again for some R̂0 = (s0 , g 0 ). In terms of majorization, this condition is just
+
+But this is nothing other than (b) in Theorem 1 (upon using z = 1 and rescaling the second vector in each
+pair by 21 ), and so the mixture and heralded notions of probability are in fact identical (when supplying
+the additional bit for the latter). Formally, we have shown
+Proposition 4. For any two resources R and R0 , the following are equivalent:
+(a) R ≥ λR0 + (1 − λ)R̂0 ,
+
+(b) R ⊗ b0 ≥ λR0 ⊗ b1 + (1 − λ)R̂0 ⊗ b0 ,
+(c) (r, g)  (λr 0 , g 0 ).
+
+That there exists a measurement transforming the mixture λr 0 + s0 into the heralded mixture λr 0 ⊕ s0
+was observed in [5]. Moreover, it was shown that there exists a thermal operation which can perform
+the measurement, provided a blank bit is made available at the outset of the process, but the operation
+involves a quantum unitary operation. It was left open whether or not the measurement can be performed
+by classical thermal operations, as we are considering here. Prop. 4 does not address this question directly,
+but does show that the heralded probability equals the mixed probability under classical thermal operations when a blank bit is supplied in the former case. It appears from numerical investigation that indeed
+it is possible to transform any mixture to a heralded mixture by classical thermal operations, again aided
+by a blank bit, but a proof of this statement (or a counterexample) must be left to future work.
+It is a simple matter to now combine work-assistance with probabilitistic transformation. Using
+Prop. 3(b) and Prop. 4(a), the transformation of R to R0 with probability λ and z = e−βW is possible
+when
+R ⊗ B0 ≥ λR0 ⊗ BW + (1 − λ)R00 ,
+
+(29)
+
+(r ⊗ a(0), g ⊗ g B )  (λr 0 ⊗ a(W ) + (1 − λ)s0 , g 0 ⊗ g B )
+
+(30)
+
+(r ⊗ a(0), g ⊗ g B ) ¼ (λr 0 ⊗ a(W ), g 0 ⊗ g B ),
+
+(31)
+
+where R00 is a joint resource state of the output and battery. That is, in this definition, the probability does
+not distinguish between failure to produce R0 and failure to leave the battery in the appropriate energy
+level. In terms of submajorization, (29) is
+
+for some s0 . This implies
+
+and then by converting to the Lorenz curve as in the case λ = 1, we arrive at the conclusion that (29)
+implies (r, g)  (λr 0 , z g 0 ). Conversely, when the submajorization condition holds, then by Theorem 1
+there exists an s0 such that (29) holds. Indeed, from the statement of the theorem, it is always possible to
+pick an s0 with no support on the a(W ) sector.
+
+12
+
+Now we may apply Corollary 1 to obtain the optimal λ for a given z and vice versa. For T ? (r 0 , g 0 ) =
+{(x k? , yk? )}, we have
+λ?z (R → R0 ) =
+
+α y ? (r, 1z g)
+k
+
+min
+
+,
+
+(32)
+
+.
+
+(33)
+
+k∈1,...,n0 α y ? (r 0 , g 0 )
+k
+
+zλ? (R → R0 ) = max 0
+
+β x ? ( λ1 r, g)
+k
+
+k∈1,...n β x ? (r 0 , g 0 )
+k
+
+It is interesting to note that a different form of the latter expression was obtained in a different model
+of thermal operations and a different notion of work by Egloff et al. [6]. They use a more cumbersome
+integral form of the Lorenz curve, for which it is not clear that one can easily compute zλ? (R → R0 ).
+Lemma 1 shows that the Lorenz curve has a much simpler form, so that in (32) we need only minimize the
+ratio of the Lorenz curves over a finite number of points, where the most computationally-intensive step
+of constructing each Lorenz curve is sorting the set of ratios rk /g k . We shall discuss the relation between
+the two approaches in more detail in Appendix D.
+In the setting of thermal operations using the same definition of work as here, special cases of this
+result have been previously derived. The case λ = 1 in zλ? was observed to be expressible as a linear
+program by the author in [29],6 and was subsequently shown by Alhambra et al. to have the form of (33)
+in [5, Lemma 6]. A particular example is depicted in Fig. 5a. Meanwhile, the case z = 1 in λ?z is Theorem
+5 of [5], an example of which is shown in Fig. 5b.
+Using (32) and (33) we can quite easily rederive a variety of results on asymptotic transformations by
+simply invoking Stein’s lemma. The details are presented in Appendix C.
+αy
+
+x
+
+1
+
+1
+
+λ?
+
+R
+R0
+
+R
+R0
+1
+
+z?
+
+(a) Work cost of R → R0 .
+
+βx
+
+1
+
+y
+
+(b) Transformation probability of R →
+R0 .
+
+Figure 5: Determining (a) the work cost and (b) probability of the transformation R → R0 via their Lorenz
+curves. It is possible to transform R to R0 while extracting work W if and only if (r, g)  (r 0 , z g 0 ), where
+z = e−βW (cf. Prop. 3). Thus, the optimal (smallest) z is the largest ratio of the β x values of the input R to
+the output R0 (cf. (33) with λ = 1). Similarly, it is possible to transform R to R0 with probability λ if and
+only if (r, g)  (λr 0 , g 0 ), and the same holds for heralded transformations, provided a blank bit is provided
+at the outset of the process (cf. Prop. 4). Thus, the optimal (largest) λ is the smallest ratio of the α y values
+of the input to the output (cf. (32) with z = 1).
+6
+
+Note that the model of work in [29] is to change the gap of a two level system, while ensuring that it remains in its excited
+state. This model is only equivalent to the present formulation when the initial and final gaps are very large compared to the
+temperature. Additionally, one statement of [29] is in error: It is possible to formulate the work cost in the basic setup by
+minimizing the variable x = e−β(E+W ) /(1 + e−β(E+W ) ). The constraint G(1, e−β E )/(1 + e−β E ) ⊗ g = (x, 1 − x) ⊗ g 0 is now linear in
+x.
+
+13
+
+3.3
+
+Approximate transformation
+
+We should be careful to contrast the above notions of probabilistic transformation with that of an approximate transformation of R to R0 . Given a distance measure δ between two probability distributions, there
+are indeed two distinct notions of an approximate transformation of R to R0 , corresponding to each of the
+two vectors in the resource pair. One could of course consider transformations which incur both kinds of
+error, but we will not pursue this further here. The first kind of error, which we will denote ", pertains
+to transformations which take g to g 0 exactly, but produce only an approximate version of r 0 from r. The
+second kind of error, denoted η, is the opposite. The interpretation of the first is that the resource state of
+the output is approximated, while in the second the thermal state, or equivalently the Hamiltonian of the
+output system is approximated.
+It is not substantially more effort to formally consider work-assisted approximate transformations.7
+We specialize to δ being the variational distance in the following. A particular " is a feasible first kind of
+error when
+R ⊗ B E ≥ R̃01 ≈ R0 ⊗ B E+W ,
+
+(34)
+
+R ⊗ B E ≥ R̃02 ≈ R0 ⊗ B E+W ,
+
+(35)
+
+for some R̃01 = (s0 , g 0 ⊗ g B ) with δ(r 0 ⊗ a(E + W ), s0 ) ≤ " and all E. That is, the transformation produces an
+approximation to both the output system and the battery, and the approximation error does not distinguish
+between errors on either part. Similarly, a particular η is a feasible second kind of error when
+
+for some R̃02 = (r 0 ⊗ a(E + W ), s0 ) with δ(g 0 ⊗ g B , s0 ) ≤ η.
+Of course, we are mainly interested in the optimal errors for a given work-assisted transformation.
+We can use relative submajorization to characterize these without directly including the battery system as
+done above. It turns out that the structure of the battery and initial energy level is essentially irrelevant to
+errors of the first kind, but errors of the second kind depend on the initial energy level and the partition
+function ZB of the battery. Letting "z? (R → R0 ) and η?z (R → R0 ) denote these optimal errors, we can show
+that they are directly related to the two parameters in approximate submajorization.
+Proposition 5. For any resources R and R0 and any z ≥ 0,
+
+"z (R → R0 ) = min{" : (r, g) ",0 (r 0 , z g 0 )}
+ηz (R → R0 ) =
+
+e−β E
+ZB
+
+η̂z (R → R0 ),
+
+and
+
+for
+
+(36)
+(37a)
+
+η̂z (R → R0 ) := min{η : (r, g) 0,η (r 0 , z g 0 )}.
+
+(37b)
+
+δ(r 0 ⊗ a(E + W ), ŝ) = 1 · (r 0 ⊗ a(E + W ) − ŝ)+
+
+(38)
+
+Proof. Starting with (36), let ŝ be such that (r ⊗ a(E), g ⊗ g B )  (ŝ, g ⊗ g B ) with δ(r 0 ⊗ a(E + W ), ŝ) = ".
+We can express the variational distance in terms of the component of ŝ with support on a(E + W ) in the
+battery, call it s0 :
+0
+
+0
+
+= 1 · (r − s )+
+0
+
+0
+
+= δ(r , s ).
+
+(39)
+(40)
+
+Moreover, by Theorem 1, (r ⊗ a(E), g ⊗ g B )  (s0 ⊗ a(E + W ) ⊕ s̄0 , g ⊗ g B ) is equivalent to (r, g)  (s0 , z g 0 ),
+where s̄0 ⊕ s0 = ŝ. This establishes (36).
+The proof of (37) is more involved, and is based on the proof of Lemma 4. As this lemma appears in
+the Appendix, we defer the present proof(→) to the Appendix as well.
+It is easy to show that "z? (R → R0 ) ≤ 1 − λ?z (R → R0 ) by directly calculating the variational distance
+δ(r , λr 0 + s0 ); note that there is no difference between the two quantities when the output space has
+dimension two.
+Theorem 2 immediately implies that the two optimal errors are equal to the maximal horizontal and
+vertical differences between the Lorenz curves, as follows:
+0
+
+7
+
+We will not consider approximate probabilistic work-assisted transformations for simplicity.
+
+14
+
+Proposition 6. For any resources R and R0 ,
+
+
+"z? (R → R0 ) = max α y (r 0 , z g 0 ) − α y (r, g) ,
+y∈R
+
+?
+0
+η̂z (R → R ) = max β x (r, g) − β x (r 0 , z g 0 ) .
+x∈R
+
+(41a)
+(41b)
+
+Naturally, we need only optimize over the elbows of the two functions in either case, which follows by
+considering the derivatives of their difference.
+
+3.4
+
+Work value and cost
+
+Let us apply the above results to the question of the work value or work cost of a given resource. Here
+all the quantities of interest turn out to be simple functions of the Lorenz curve or its Legendre transform.
+The work value of R corresponds to the work that can be gained in the transformation R → 1, where 1
+denotes the trivial resource with r 0 = g 0 = 1, i.e. no output. Conversely, the work cost of R is just the work
+required to effect 1 → R.
+Starting with work value, we find
+Proposition 7. For any resource R and z ∈ (0, 1],
+
+(a) zλ? (R → 1) = βλ (r, g),
+
+(b) λ?z (R → 1) = αz (r, g) = 1 − "z? (R → 1),
+(c) η̂?z (R → 1) = 1 − z.
+
+Note that (a) is the first part of Theorem 5 in [26].
+
+Proof. To start, set r 0 = g 0 = 1 in (33), which means the only available x k? is x k? = 1. The statement (a) then
+follows, since β1 ( λ1 r, g) = βλ (r, g). For the first equality in (b), note that (32) is just α1 (r, 1z g) = αz (r, g).
+The second must hold because only two levels of the work system are relevant, but it can also be seen
+directly by noticing that y = z is the optimal choice in (41a). Finally, (c) follows from (41b) upon
+observing that x = 1 is the optimal choice.
+P
+To state the results for work cost, let ϕz (R) = k (rk − z g k )+ ; in the proof of Lemma 6 it is established
+that m 7→ mϕ1/m is the Legendre transform of x 7→ β x . Then we have
+Proposition 8. For any resource R,
+r
+
+(a) zλ? (1 → R) = λ maxk gk ,
+k
+
+(b)
+
+For z ≥ 1, "z? (1 → R) = ϕz (R) = η?z (1 → R).
+
+Proof. For (a), interchange R and R0 in (33), and set (r 0 , g 0 ) = (1, 1). Since β x ( λ1 1, 1) = λx, we find
+zλ? (1 → R) = max λ
+k∈1,...n
+
+=λ
+
+α y ? (r, g)
+k
+
+β x ? (r, g)
+
+(42)
+
+k
+
+α y1? (r, g)
+
+β x 1? (r, g)
+rk
+= λ max .
+k gk
+
+(43)
+(44)
+
+For the second equality in (b), using (41b) gives
+η̂?z (1 → R) = max(x − zβ x (r, g))
+x∈R
+
+= z max( xz − β x (r, g))
+x∈R
+
+= ϕz (R).
+15
+
+(45)
+(46)
+(47)
+
+1
+slope z 0
+
+"z? (R → 1)
+
+zz 0
+
+"z?0 (1 → R)
+
+R
+z
+
+1
+
+Figure 6: Graphical depiction of the equality condition in Prop. 9. Choosing z and z 0 such that a line with
+slope z 0 is tangent to αz (r, g) leads to the equality "z? (R → 1) + "z?0 (1 → R) + zz 0 = 1 for any R = (r, g).
+Similarly, but slightly more involved, starting from (41a) we have
+"z? (1 → R) = max(α y (r, z g) − y)
+y∈R
+
+= max max (t · r − z t · g)
+y∈R t:t·z g= y
+
+= max (t · r − z t · g)
+0≤t≤1n
+
+= max max (t · r − z t · g)
+x∈R t:t·r=x
+
+= max (x − zβz (r, g)).
+x∈R
+
+(48)
+(49)
+(50)
+(51)
+(52)
+
+This is just (45), and the remaining steps go through as before.
+Since the work value and work cost involve functions which are Legendre transforms of one another,
+we can apply Fenchel’s inequality [30, §3.3.2] to obtain the following
+Proposition 9. For any resource R and z, z 0 ≥ 0,
+
+"z? (R → 1) + "z?0 (1 → R) ≥ 1 − zz 0 ,
+
+(53)
+
+with equality if z 0 is the slope of a tangent to αz (r, g) at z.
+The case of equality is illustrated in Figure 6.
+
+Proof. Start with the direct statement of Fenchel’s inequality:
+β x (r, g) + mϕ 1 (R) ≥ x m.
+m
+
+(54)
+
+1
+Substituting z 0 = m
+and working in terms of αz (r, g) instead yields
+
+z+
+
+1
+z0
+
+1
+ϕz 0 (R) ≥ αz (r, g) 0 .
+z
+
+Rearranging and using Propositions 7 and 8 gives the result.
+
+16
+
+(55)
+
+3.5
+
+Useful bounds
+
+In this section, we detail some interesting and useful bounds that one can obtain from relative submajorization. First we discuss constraints on work, transformation probability, and approximation error in
+transformations taking R to R0 . Later, we consider bounds involving these quantities for several different
+transformations, including R → R0 and its reverse.
+The first two bounds provide a way to bootstrap from a pair (λ, z) known to be feasible or infeasible
+in the R → R0 transformation to some constraints on the optimal values at given λ or z.
+
+Proposition 10. For any resources R and R0 , suppose (λ, z) is feasible in (r, g)  (λr 0 , z g 0 ). Then,
+λ?z (R → R0 ) zλ? (R → R0 ) ≤ λ z.
+
+(56)
+
+On the other hand, if (λ, z) is infeasible, then
+λ?z (R → R0 ) zλ? (R → R0 ) ≥ λ z.
+
+(57)
+
+As an illustration, take the case λ = z = 1. If R  R0 , then the second of these implies λ? z ? ≥ 1 (this
+is the lower bound of Lemma 7 in [5]). The optimal transformation probability provides a lower bound
+on the optimal z, hence a lower bound on the optimal amount of work which must be expended to drive
+the transformation, and vice versa. On the other hand, if R ≥ R0 , then any (λ, 1) is feasible, and (56)
+implies zλ? ≤ λ. In words, a decreased success probability leads to a gain in work extractable from the
+transformation which is at least in proportion (strictly, z = e−βW is in proportion) to the probability.
+Proof. These properties follow directly from the fact that z 7→ λ?z is an increasing, concave function. For the
+first, given a feasible (λ, z), consider the line joining the origin with (λ?z , z); the boundary of the feasible
+region must lie above this line. Interpolating linearly from (λ?z , z) to the point (λ, z 0 ) gives a feasible
+z 0 = λz/λ?z . Then (56) is a rearrangement of zλ? ≤ z 0 .
+Now suppose instead that (λ, z) is infeasible. The line joining the origin with (λ? , z) intersects the
+boundary at (λ? , z) and lies above it for larger z. Interpolating linearly to (λ, z 0 ) again results in z 0 = λz/λ?z ,
+but now zλ? ≥ z 0 , which is (57).
+Note that (57) implies (1 − "z? (R → R0 )) zλ? (R → R0 ) ≥ λz for (λ, z) infeasible. The following is a similar
+version for η̂?z , with the restriction that (1, z) be infeasible. It provides an upper bound on the optimal η
+error in terms of the optimal work extracted in the transformation.
+Proposition 11. For any resources R and R0 and z ≤ z ? (R → R0 ),
+
+(1 − η̂?z (R → R0 )) z ? (R → R0 ) ≥ z.
+
+(58)
+
+We defer the proof(→) to the Appendix, as it makes use of the linear program formulation of η̂?z .
+Next, we consider relations between work, success probability, and approximation error for several
+transformations, in particular R → R0 and the reverse transformation R0 → R. First, Prop. 1 gives a kind of
+“chain rule” for work cost and transformation probability.
+Proposition 12. For any three resources R1 , R2 , and R3 , λ, λ0 ∈ [0, 1] and z, z 0 ∈ R+ ,
+?
+?
+?
+zλλ
+0 (R 1 → R 3 ) ≤ zλ (R 1 → R 2 )zλ0 (R 2 → R 3 ),
+
+λ?zz 0 (R1 → R3 ) ≥ λ?z (R1 → R2 )λ?z 0 (R2 → R3 ).
+
+(59)
+(60)
+
+Proof. In the former, for fixed λ, λ0 , Prop. 1 applied to z = zλ? (R1 → R2 ) and similarly for z 0 implies
+zλ? (R1 → R2 )zλ? 0 (R2 → R3 ) is feasible for transforming R1 to R3 with probability λλ0 . But the optimal value
+of z for this transformation must be smaller, whence (59). Entirely similar reasoning gives (60).
+Setting R3 = R1 in Prop. 1 and using (20), one generally has λλ0 ≤ zz 0 for any (λ, z) feasible in the
+forward transformation and (λ0 , z 0 ) feasible in the reverse. Choosing various optimal parameters then
+gives the following:
+
+17
+
+Proposition 13. For any resources R and R0 , λ, λ0 ∈ [0, 1], and z ≥ 0,
+zλ? (R → R0 ) zλ? 0 (R0 → R) ≥ λλ0 ,
+
+(61)
+
+λλ?z (R0 → R) ≤ zzλ? (R → R0 ).
+
+(62)
+
+The first of these states that the work cost of the reverse process is bounded from below by a simple
+function of the work cost of the forward process and the probabilities fixed for each. This is an improvement of the “triangle inequality” described in [6], as their bound effectively involved z ? (R → R) on the
+λ̃
+
+righthand side, with λ̃ = λ + λ0 − 1.8 The second of these gives an upper bound to the optimal probability
+of the reverse transformation in terms of the optimal work cost of the forward transformation. The case
+λ = z = 1 is the upper bound of Lemma 7 in [5]. Eq. (62) is a very useful generalization, since the
+λ = z = 1 bound is only meaningful when z ? (R → R0 ) < 1, i.e. when work can be extracted in the R → R0
+transformation, which is not the generic situation. Here, allowing arbitrary λ removes this restriction and
+can, by picking λ small enough, yield a nontrivial bound on λ?z even when R  R0 .
+We can also show that a large probabilistic work gain in the R → R0 transformation leads to high η
+approximation error of the reverse transformation.
+Proposition 14. For any resources R = (r, g) and R0 = (r 0 , g 0 ),
+η̂?z (R0 → R) ≥
+
+1
+z
+
+− z ? (R → R0 ).
+
+(63)
+
+Proof. Using (41b) we have
+η̂?z (R → R0 ) =
+
+
+max β x (r, g)
+
+1
+
+−
+
+
+
+β x (r, g)
+
+
+1 β x (r 0 , g 0 )
+≥ max β x (r, g) min
+−
+x∈[0,1]
+z
+β x (r, g)
+x∈[0,1]
+1
+= − z ? (R0 → R).
+z
+x∈[0,1]
+
+z
+
+β x (r 0 , g 0 )
+
+(64)
+(65)
+(66)
+
+The last step uses (33).
+Upper bounds on the approximation error of the reverse process can be obtained in terms of the relative
+entropy, by making use of results on the reversibility of stochastic operations [31].
+Proposition 15. For any resources R and R0 such that R ⊗ B0 ≥ R0 ⊗ BW ,
+If R ≥ R0 , then
+
+2
+?
+"1/z
+(R0 → R) ≤ 2 D(r, g) − D(r 0 , z g 0 ) .
+
+(67)
+
+2
+η? (R0 → R) ≤ 2 D(g, r) − D(g 0 , r 0 ) .
+
+(68)
+
+Proof. The proof is essentially just that of Statement 3 of [31], which we include as Lemma 8. For the first
+case, let T be the stochastic map from R ⊗ B E to R0 ⊗ B E+W . Then T̂ from Lemma 8 takes g 0 ⊗ g B to g ⊗ g B ,
+so it corresponds to a thermal operation, and we have
+D(r ⊗ a(E), g ⊗ g B ) − D(r 0 ⊗ a(E + W ), g ⊗ g B ) ≥ D(r ⊗ a(E), T̂ Tr ⊗ a(E)).
+
+(69)
+
+The left side can be simplified by using the facts D(p ⊕ 0, q ⊕ q0 ) = D(p, q) and D(p, cq) = log 1c + D(p, q)
+for normalized p. Then we obtain
+
+8
+
+D(r, g) − D(r 0 , z g) ≥ D(r ⊗ a(E), T̂ (r 0 ⊗ a(E + W )).
+
+(70)
+
+1
+; on the right we now have a constant instead of the quantity
+Eq. 61 is, in their notation, W " (A → B) + W " (B → A) ≤ β2 log 1−"
+
+W 2" (A → A). Eq. 59 is a slight improvement over [6, Lem. 14]: λλ0 appears on the lefthand side as opposed to λ + λ0 − 1.
+
+18
+
+Applying Pinsker’s inequality, δ(p, q) ≤ 2D(p, q)2 [32, Lem. 11.6.1], to the statement of the lemma gives
+(67).
+The second case is the same as the first, with the roles of r and g reversed. Since the relative entropy
+is undefined (infinite) when the support of the second argument is strictly contained in the support of the
+first, we must restrict to the case that W = 0.
+Wehner et al. show (67) for z = 1 in the quantum case, even with catalytic operations, by directly constructing the thermal operation taking R0 to R [7]. Here, by constrast, we need not construct the thermal
+operation itself, just the apprpropriate stochastic map on r 0 and g 0 . This approach gives a statement for
+z 6= 1 and naturally yields (68).
+
+4
+
+Applications to the resource theory of pure bipartite entanglement
+
+Another resource theory in which we may fruitfully apply relative submajorization is the resource theory of
+(pure) bipartite entanglement. This resource theory, introduced in [33–35], seeks to capture the difficulty
+of creating entangled states shared by two separated parties who can only perform local operations and
+exchance classical communication (LOCC operations).
+The general resource theory considers transformations of mixed states under LOCC. When restricting
+to pure states, Nielsen showed that there exists an LOCC transformation taking one pure bipartite state
+to another exactly when the Schmidt coefficients of the latter majorize those of the former [1]. This
+statement is the analog of Prop. 2. To formalize it, let |ψ p 〉AB be a bipartite state with Schmidt coefficients
+Pn p
+given by p ∈ Sn , i.e. |ψ p 〉 = j=1 p j |ξ j 〉A ⊗ |η j 〉B for some orthonormal bases {|ξ j 〉A} j and {|η j 〉B } j .
+Nielsen showed
+Proposition 16 ([1]). For any p ∈ Sn and q ∈ Sm , there exists an LOCC operation EAB mapping |ψq 〉AB to
+|ψ p 〉AB if and only if p  q.
+
+Applying the results of relative submajorization, from this we immediately obtain the probability of a
+transformation between two given states, first shown in [36]. If there is no LOCC operation taking |ψq 〉 to
+|ψ p 〉, we may enlarge the output space by including an additional qubit A0 held by Alice and instead ask
+p
+p
+for an operation which produces λ |ψ p 〉 |0〉 + 1 − λ |ψ r 〉 |1〉, where r ∈ Sm is arbitrary. Measurement
+of the additional qubit in the classical basis produces |ψ p 〉 with probability λ. The Schmidt coefficients of
+this superposition state are given by the classical probability distribution λp ⊕ (1 − λ)r, and therefore the
+largest probability of the transformation is
+λ? (|ψq 〉 → |ψ p 〉) := max{λ : λp ⊕ (1 − λ)r  q, r ∈ Sm }.
+
+(71)
+
+Note that this is not at all the analog of (26); the sense of majorization is opposite here. In terms of
+submajorization, the condition is just (1n0 , λp)  (1n0 , q), for n0 = max(n, m). As in the proof of Corollary 1,
+we have λβ x (1n0 , p) = β x (1n0 , λp) ≤ β x (1n0 , q) for all x ∈ {1, . . . , n0 }, and therefore
+λ? (|ψq 〉 → |ψ p 〉) =
+Since βk (1n0 , q) = 1 −
+
+min 0
+
+β x (1n0 , q)
+
+x∈{1,...,n } β x (1n0 , p)
+
+.
+
+(72)
+
+Pn0
+↓
+↓
+j=1 q j =
+j=n0 −k q j , we have reproven
+
+Pk
+
+Proposition 17 (Equation 3 [36]). For any |ψ p 〉 and |ψq 〉,
+?
+
+λ (|ψq 〉 → |ψ p 〉) =
+
+min
+
+k∈{1,...,n0 }
+
+Pn0
+
+↓
+j=k q j
+
+P n0
+
+↓
+j=k p j
+
+.
+
+(73)
+
+Using the Lorenz curve, we may also determine the entanglement cost of a transformation, this time in
+an analogous fashion to the work cost of a thermal operation. To properly define the entanglement cost by
+analogy, we need to first establish a useful notion of an entanglement battery. Note that any state |ψ p 〉 for
+p ∈ Sn can be created from the state |ψw 〉 with w = 1n /n, because p  w holds for all p ∈ Sn . Let us denote
+19
+
+this state by |ϕn 〉. We may therefore consider the entanglement battery to be a system which is always
+in the state |ϕn b 〉 for some n b , and which may be used to enable an otherwise impossible transformation
+|ψq 〉 → |ψ p 〉 in the sense that |ψq 〉 ⊗ |ϕn b 〉 → |ψ p 〉 ⊗ |ϕn0 〉 is possible for appropriate choices of n b and n0b .
+b
+In terms of majorization, the transformation is possible if and only if p ⊗ w n0  q ⊗ w n b . As in the thermal
+b
+case, we define
+¨
+«
+nb
+?
+z (|ψq 〉 → |ψ p 〉) := min
+(74)
+: p ⊗ w n0  q ⊗ w n b .
+b
+n0b
+Measuring entanglement logarithmically, the entanglement gain of the transformation is then − log z ? (|ψq 〉 →
+|ψ p 〉). This notion has also been recently employed in [5, 6].
+The majorization condition is equivalent to β x (p ⊗ w n0 , 1∞ ) ≤ β x (q ⊗ w n b , 1∞ ) for all x ∈ [0, 1]. Here
+b
+we embed both vectors in a countably infinite dimensional vector space rather than specifically naming
+the (smallest) dimension necessary to contain both input and output vectors. We can regard 1∞ in this
+expression equally well as 1∞ ⊗ 1n b = n b 1∞ ⊗ w n b and then use the fact that β x (p ⊗ r, q ⊗ r) = β x (p, q)
+from Lemma 2 to infer that the above transformation is possible if and only if n0b β x (p, 1∞ ) ≤ n b β x (q, 1∞ )
+for all x ∈ [0, 1]. Equivalently, as in the thermal case, z ? (|ψq 〉 → |ψ p 〉) = min{z : (p, 1∞ )  (q, z1∞ ). We
+have shown the following analog to (33) (with λ = 1):
+Proposition 18. For any states |ψ p 〉 and |ψq 〉,
+z ? (|ψq 〉 → |ψ p 〉) = max
+
+β x (p, 1∞ )
+
+x∈[0,1] β x (q, 1∞ )
+
+.
+
+(75)
+
+Unlike in the resource theory of thermodynamics, here we cannot use Lorenz majorization to combine
+probabilistic and entanglement-assisted transformations. The difficulty is that both conditions lead to
+upper bounds, as in (17b), and neither to lower bounds.
+Continuing, we can formulate a useful notion of approximation by using the fidelity. Let Fz? (|ψq 〉 →
+|ψ p 〉) be the largest fidelity between the output of an LOCC operation on |ψq 〉 and the ideal output |ψ p 〉,
+when assisted by an amount of entanglement characterized by z. Note that that the fidelity of |ψ p 〉 and
+|ψ p0 〉 is given by
+F (|ψ p 〉 , |ψ p0 〉) =
+
+XÆ
+k
+
+pk pk0 ,
+
+(76)
+
+where the optimization over LOCC operations removes any differences in the choice of local bases. The
+righthand expression is the fidelity of the classical distributions, more commonly known as the Bhattacharyya coefficient B(p, p0 ). It is related to the variational distance by the bounds
+p
+1 − B(p, p0 ) ≤ δ(p, p0 ) ≤ 1 − B(p, p0 )2 .
+(77)
+Now suppose that p does not majorize q, but does majorize q0 , with δ(q, q0 ) ≤ ". Applying the operation E that produces |ψ p 〉 from |ψq0 〉 to |ψq 〉 instead produces ρ p0 . By the monotonicity of fidelity,
+F (ρ p0 , |ψ p 〉〈ψ p |) = F (E (|ψq 〉〈ψq |), E (|ψq0 〉〈ψq0 |))
+≥ F (|ψq 〉〈ψq |, |ψq0 〉〈ψq0 |)
+
+≥ 1 − ".
+
+(78)
+(79)
+(80)
+
+Therefore,
+1 − Fz? (|ψq 〉 → |ψ p 〉) ≤ min{" : (p, 1∞ ) ",0 (q, z1∞ )}
+= max α y (q, z1∞ ) − α y (p, 1∞ ).
+y∈R
+
+(81)
+(82)
+
+Using the explicit form for α y , we have found the following bound on the fidelity of a pure state transformation.
+20
+
+Proposition 19. For any |ψq 〉 and |ψ p 〉,
+Fz? (|ψq 〉 → |ψ p 〉) ≥ 1 − max
+k
+
+k
+1X
+↓
+↓
+q − pj .
+z j=1 j
+
+(83)
+
+We can apply (67) and the bound (1 − "z? ) z ? ≥ z from (57) to obtain further bounds in terms of
+entropies or entanglement cost:
+Proposition 20. For any |ψq 〉 and |ψ p 〉, if p  q, then
+2
+F ? (|ψ p 〉 → |ψq 〉) ≥ 1 − 2 H(p) − H(q) .
+For z ≤ z ? (|ψq 〉 → |ψ p 〉),
+Fz? (|ψq 〉 → |ψ p 〉) ≥
+
+z
+z ? (|ψq 〉 → |ψ p 〉)
+
+.
+
+(84)
+
+(85)
+
+We can apply all of the above in the resource theory of coherence, introduced by [37, 38]. The resource
+theory of coherence seeks to capture the difficulty of creating coherent superpositions of states drawn from
+a fixed basis, call it {|k〉}. Classical transformations from one basis state to another are presumed to be
+easy, but everything else difficult. Hence, the allowed operations are restricted to the so-called incoherent
+operations. These include preparing any incoherent mixture of classical basis states (called an incoherent
+state), and any quantum operation all of whose Kraus operators map incoherent states P
+to incoherent states.
+Winter and Yang observe that this implies each Kraus operator has the form K = j c( j) | f ( j)〉 〈 j| for
+some function f and some complex coefficients c( j) [39]. When f is one-to-one in each Kraus operator,
+they call the operation strictly incoherent. For pure state transformations, they show that there exists a
+strictly incoherent operation transforming |ψ〉 to |ϕ〉 if and only if the squared amplitudes (in the classical
+basis) of |ϕ〉 majorize those of |ψ〉.9
+
+5
+
+Summary & Open questions
+
+We have carefully investigated the properties of relative submajorization and shown that not only is submajorization characterized by the ordering of the Lorenz curves, but that the Lorenz curves also characterize
+the set of feasible λ and z in (p, q)  (λp0 , zq0 ) as well as the approximation error in transforming (p, q)
+to (p0 , q0 ). This has immediate application in the resource theories of thermodynamics and of quantum
+coherence. In the thermodynamic setting, we find exact expressions for the work cost of a probabilistic
+transformation and for both kinds of approximation errors. These lead to a characterization of the Lorenz
+curve itself in terms of the work value and cost of a given resource, as well as interesting bounds on the
+reversibility of a transformation. In the setting of LOCC manipulations of pure bipartite states, we find
+an exact expression for the entanglement cost of a transformation as well as bounds on the fidelity of
+entanglement-assisted transformation. These bounds also apply to the transformation of pure states under
+strictly incoherent operations.
+Recently, Alhambra et al. [40] extended the resource theory formulation of thermodynamics to incorporate arbitrary probabilistic work batteries and showed how the Jarzynski [41] and Crooks [42] fluctuation relations can be easily derived in this extended framework. It should be noted that their framework
+also applies to general quantum resource states, not just the quasi-classical setting considered in this paper; see also Åberg [43] for similar results in this direction. It would be interesting to extend the methods
+presented here to their setup. In the following we sketch how this might be done.
+Whereas we have treated the battery simply as another resource, subject to the constraint of being in
+a well-defined energy level, the battery in [40] is a special system whose interactions with the thermal
+bath and resource states is restricted in such a way that it cannot be used as an entropy sink. Specifically,
+the energy-preserving unitary operation that couples the bath, resources, and battery must commute with
+9
+
+Du et al. [2] claim majorization is necessary and sufficient for the existence of more general incoherent operations. However,
+Winter and Yang note that there appears to be a gap in their reasoning and that necessity of majorization is still an open question.
+
+21
+
+shifts of the battery energy (a constraint also used in a slightly different setting in [44]). This definition of
+the battery is via dynamics, not properties of its state, which enables one to consider arbitrary distributions
+of the work value in a given process.10
+Now the connection to thermomajorization when considering work assistance is lost, i.e. Proposition 3
+does not hold in their framework. However, they show that a modified majorization condition does hold.
+Instead of a stochastic map on resource systems, one considers a stochastic map from the input resource
+system to two outputs: the output resource system and the battery system. Calling the map M̂ , its components M̂ ( j, w|k) are probability distributions over j and w for each k. Here j refers to the jth energy
+level of the output system, k corresponding similarly to the input system, and w to the work taken up by
+the battery (we assume the possible values form a finite set). They show that M̂ can be implemented by
+thermal operations if and only if
+X
+∀ j,
+(86)
+eβ w M̂ ( j, w|k)e−β Ek = e−β E j
+k,w
+
+where β is the (inverse) temperature of the bath. We can express this in a notation similar to that of
+relative (sub)majorization by letting p be the vector with components eβ w and b (b0 ) the vector with
+components e−β Ek for all input (output) energy values Ek . The condition (86) then reads
+(1 ⊗ p T ) M̂ b = b0 .
+
+(87)
+
+From (24) it follows that any feasible work-assisted transformation as defined in §3.2 is an instance of an
+transformation according to [40]. Similarly, the maximal amount of extractable work with fixed probability, given in (33), must apply in the extended framework since the optimal M̂ can be converted into
+a feasible M for the relative submajorization condition (r, g)  (λr 0 , z g 0 ). Equation (87) also implies
+that deciding on the existence of a thermal operation that takes r to r 0 ⊗ q, i.e. M r = r ⊗ q, for some
+distributions r and r 0 of the resource and q of the battery is again a linear program like that of relative
+majorization in (15). It should then be possible to incorporate probabilistic or approximate transformations as was done for submajorization, as well as to investigate constraints on the work system, e.g. the
+necessary fluctuations for given transformations.
+Acknowledgments: The author is grateful to Philipp Kammerlander for a careful reading of an early draft
+and Philippe Faist for helping clear up the relation of the results reported herein to those of [6]. This work
+was supported by the Swiss National Science Foundation (through the National Centre of Competence in
+Research ‘Quantum Science and Technology’) and by the European Research Council (grant No. 258932).
+
+References
+[1] M. A. Nielsen, “Conditions for a Class of Entanglement Transformations”, Physical Review Letters
+83, 436 (1999) (pages 1, 19).
+[2] S. Du, Z. Bai, and Y. Guo, “Conditions for coherence transformations under incoherent operations”,
+Physical Review A 91, 052120 (2015) (pages 1, 21).
+[3] D. Janzing, P. Wocjan, R. Zeier, R. Geiss, and T. Beth, “Thermodynamic Cost of Reliability and
+Low Temperatures: Tightening Landauer’s Principle and the Second Law”, International Journal of
+Theoretical Physics 39, 2717–2753 (2000) (pages 1, 10, 33, 34).
+[4] M. Horodecki and J. Oppenheim, “Fundamental limitations for quantum and nanoscale thermodynamics”, Nature Communications 4, 2059 (2013) (pages 1, 6, 10, 11).
+[5] Á. M. Alhambra, J. Oppenheim, and C. Perry, “What is the probability of a thermodynamical transition?”, arXiv:1504.00020v3 [quant-ph] (2015) (pages 1, 3, 10–13, 17, 18, 20).
+10
+
+The framework of Egloff et al. [6] also allows for arbitrary distributions of work, but their definition of work is different from
+either of these. See Appendix D.
+
+22
+
+[6] D. Egloff, O. C. O. Dahlsten, R. Renner, and V. Vedral, “A measure of majorization emerging from
+single-shot statistical mechanics”, New Journal of Physics 17, 073001 (2015) (pages 1, 3, 13, 18,
+20, 22, 34, 35).
+[7] S. Wehner, M. M. Wilde, and M. P. Woods, “Work and reversibility in quantum thermodynamics”,
+arXiv:1506.08145 [quant-ph] (2015) (pages 3, 10, 19).
+[8] Y. Polyanskiy, “Saddle Point in the Minimax Converse for Channel Coding”, IEEE Transactions on
+Information Theory 59, 2576–2595 (2013) (page 6).
+[9] E. L. Lehmann and J. P. Romano, Testing statistical hypotheses, 3rd ed, Springer texts in statistics
+(Springer, New York, 2005) (page 6).
+[10] E. N. Torgersen, Comparison of statistical experiments, Encyclopedia of mathematics and its applications v. 36 (Cambridge University Press, Cambridge ; New York, 1991) (pages 6–8, 10).
+[11] P. Harremoës, “A New Look at Majorization”, in Proceedings of the 2004 International Symposium
+on Information Theory and its Applications (Oct. 2004), pp. 1422–1425 (page 6).
+[12] A. W. Marshall, I. Olkin, and B. C. Arnold, Inequalities: Theory of Majorization and Its Applications,
+2nd (Springer, Jan. 2009) (pages 6, 8, 26).
+[13] M. O. Lorenz, “Methods of Measuring the Concentration of Wealth”, Publications of the American
+Statistical Association 9, 209–219 (1905) (page 6).
+[14] A. F. Veinott, “Least D-Majorized Network Flows with Inventory and Statistical Applications”, Management Science 17, 547–567 (1971) (page 6).
+[15] D. Blackwell, “Comparison of Experiments”, in Proceedings of the second Berkeley symposium on
+mathematical statistics and probability (1951) (page 6).
+[16] D. Blackwell, “Equivalent Comparisons of Experiments”, The Annals of Mathematical Statistics 24,
+265–272 (1953) (pages 6, 7).
+[17] E. Ruch, R. Schranner, and T. H. Seligman, “The mixing distance”, The Journal of Chemical Physics
+69, 386–392 (1978) (pages 7, 8).
+[18] A. Uhlmann, “Ordnungsstrukturen im Raume der gemischten Zustände und die H-Theoreme von
+Felderhof - van Kampen”, Wiss. Z. Karl-Marx-Univ. Leipzig, Math.-Nat. R. 27, 213–228 (1978)
+(page 7).
+[19] E. Ruch and A. Mead, “The principle of increasing mixing character and some of its consequences”,
+Theoretica Chimica Acta 41, 95–117 (1976) (page 8).
+[20] H. Joe, “Majorization and divergence”, Journal of Mathematical Analysis and Applications 148,
+287–305 (1990) (page 8).
+[21] V. Paulsen, Completely Bounded Maps and Operator Algebras, Vol. 78, Cambridge Studies in Advanced
+Mathematics (Cambridge University Press, Jan. 2003) (page 8).
+[22] D. E. N. Torgersen, “Comparison of experiments when the parameter space is finite”, Zeitschrift für
+Wahrscheinlichkeitstheorie und Verwandte Gebiete 16, 219–249 (1970) (pages 10, 27).
+[23] E. Torgersen, “Stochastic orders and comparison of experiments”, in Institute of Mathematical Statistics Lecture Notes - Monograph Series (Institute of Mathematical Statistics, Hayward, CA, 1991),
+pp. 334–371 (pages 10, 29).
+[24] F. G. S. L. Brandão, M. Horodecki, J. Oppenheim, J. M. Renes, and R. W. Spekkens, “Resource Theory of Quantum States Out of Thermal Equilibrium”, Physical Review Letters 111, 250404 (2013)
+(pages 10, 32, 33).
+[25] F. Brandão, M. Horodecki, N. Ng, J. Oppenheim, and S. Wehner, “The second laws of quantum thermodynamics”, Proceedings of the National Academy of Sciences 112, 3275–3279 (2015) (page 10).
+[26] N. Yunger Halpern and J. M. Renes, “Beyond heat baths: Generalized resource theories for smallscale thermodynamics”, Physical Review E 93, 022126 (2016) (pages 10, 11, 15).
+
+23
+
+[27] M. Lostaglio, M. P. Müller, and M. Pastena, “Stochastic Independence as a Resource in Small-Scale
+Thermodynamics”, Physical Review Letters 115, 150402 (2015) (page 10).
+[28] M. Horodecki and J. Oppenheim, “(Quantumness in the context of) Resource Theories”, International Journal of Modern Physics B 27, 1345019 (2013) (page 10).
+[29] J. M. Renes, “Work cost of thermal operations in quantum thermodynamics”, The European Physical
+Journal Plus 129 (2014) (pages 11, 13, 26).
+[30] S. Boyd and L. Vandenberghe, Convex Optimization (Cambridge University Press, Mar. 2004) (pages 16,
+25).
+[31] A. Winter and K. Li, “A stronger subadditivity relation? with applications to squashed entanglement, sharability and separability”, Presented at BIRS workshop: Operator structures in quantum
+information theory (2012) (pages 18, 32).
+[32] T. M. Cover and J. A. Thomas, Elements of Information Theory, 2nd ed. (Wiley-Interscience, July
+2006) (page 19).
+[33] C. H. Bennett, H. J. Bernstein, S. Popescu, and B. Schumacher, “Concentrating partial entanglement
+by local operations”, Physical Review A 53, 2046 (1996) (page 19).
+[34] C. H. Bennett, D. P. DiVincenzo, J. A. Smolin, and W. K. Wootters, “Mixed-state entanglement and
+quantum error correction”, Physical Review A 54, 3824 (1996) (page 19).
+[35] C. H. Bennett, G. Brassard, S. Popescu, B. Schumacher, J. A. Smolin, and W. K. Wootters, “Purification of Noisy Entanglement and Faithful Teleportation via Noisy Channels”, Physical Review Letters
+76, 722 (1996) (page 19).
+[36] G. Vidal, “Entanglement of Pure States for a Single Copy”, Physical Review Letters 83, 1046–1049
+(1999) (page 19).
+[37] J. Åberg, “Quantifying Superposition”, arXiv:quant-ph/0612146 (2006) (page 21).
+[38] T. Baumgratz, M. Cramer, and M. Plenio, “Quantifying Coherence”, Physical Review Letters 113,
+140401 (2014) (page 21).
+[39] A. Winter and D. Yang, “Operational Resource Theory of Coherence”, arXiv:1506.07975v3 [quantph] (2015) (page 21).
+[40] Á. M. Alhambra, L. Masanes, J. Oppenheim, and C. Perry, “The second law of quantum thermodynamics as an equality”, arXiv:1601.05799v2 [quant-ph] (2016) (pages 21, 22).
+[41] C. Jarzynski, “Nonequilibrium Equality for Free Energy Differences”, Physical Review Letters 78,
+2690 (1997) (page 21).
+[42] G. E. Crooks, “Entropy production fluctuation theorem and the nonequilibrium work relation for
+free energy differences”, Physical Review E 60, 2721 (1999) (page 21).
+[43] J. Åberg, “Fully quantum fluctuation theorems”, arXiv:1601.01302 [quant-ph] (2016) (page 21).
+[44] P. Skrzypczyk, A. J. Short, and S. Popescu, “Work extraction and thermodynamics for individual
+quantum systems”, Nature Communications 5, 4185 (2014) (page 22).
+[45] A. Barvinok, A Course in Convexity (American Mathematical Society, Nov. 2002) (page 25).
+[46] D. Petz, “Sufficiency of Channels Over Von Neumann Algebras”, The Quarterly Journal of Mathematics 39, 97–108 (1988) (page 32).
+[47] P. Hayden, R. Jozsa, D. Petz, and A. Winter, “Structure of States Which Satisfy Strong Subadditivity of Quantum Entropy with Equality”, Communications in Mathematical Physics 246, 359–374
+(2004) (page 32).
+[48] H. Barnum and E. Knill, “Reversing quantum dynamics with near-optimal quantum and classical
+fidelity”, Journal of Mathematical Physics 43, 2097–2106 (2002) (page 32).
+[49] R. E. Blahut, Principles and practice of information theory, Addison-Wesley series in electrical and
+computer engineering (Addison-Wesley, Reading, Mass, 1987) (page 32).
+
+24
+
+A
+
+Linear programming
+
+Since we are considering linear programs whose variables are stochastic matrices, it is useful to present a
+more general formulation of linear programming than that of, e.g. Boyd and Vandenberghe [30]. Here we
+follow Barvinok [45], making some specializations for simplicity. The setting of linear programming is two
+inner product spaces with a (non-negative) convex cone defined in each.11 Let V1 and V2 be two vector
+spaces with inner products 〈·, ·〉1 , 〈·, ·〉2 , and K1 and K2 cones in V1 and V2 , respectively. In this setting, a
+particular linear program is specified by vectors c ∈ V1 , b ∈ V2 and a linear map A : V1 → V2 . The primal
+form is
+γ(A, b, c) = maximum 〈c, x〉1
+x
+
+subject to
+
+b − Ax ∈ K2 ,
+x ∈ K1 .
+
+(88)
+
+The dual form of the program involves the adjoint map A∗ : V2 → V1 :
+ζ(A, b, c) = minimum 〈b, y〉2
+y
+
+subject to A∗ y − c ∈ K1 ,
+y ∈ K2 .
+
+(89)
+
+Weak duality is the inequality ζ(A, b, c) ≥ γ(A, b, c), and strong duality the equality. The former always
+holds, while the latter is assured by a feasible x in the primal or y in the dual [30, §5.2.4], [45, Th. 8.2].
+The following complementary slackness conditions are necessary and sufficient for optimal solutions x ?
+and y ? when ζ(A, b, c) = γ(A, b, c):
+〈A∗ y ? − c, x ? 〉1 = 0,
+?
+
+?
+
+(90)
+
+〈b − Ax , y 〉2 = 0.
+
+(91)
+
+〈 y, AM 〉2 = 〈A∗ y, M 〉1 .
+
+(92)
+
+Now consider the case in which V1 is the space of n2 × n1 real-valued matrices, equipped with the
+Hilbert-Schmidt inner product 〈M , M 0 〉1 = Tr[M T M 0 ], K1 is the cone of matrices with non-negative entries,
+n
+while V2 = Rn2 with the usual Euclidean inner product and K2 = R+2 , the positive orthant in V2 . The
+n1
+mapping M 7→ y = M a for some a ∈ R is a linear map, a valid map A. Treating vectors as n × 1 matrices,
+i.e. column vectors, the adjoint A∗ is the mapping A∗ : y 7→ y a T . This can be easily verified from the
+definition of the adjoint,
+
+Writing C for the variable in V1 to emphasize that it is a matrix, the primal and dual forms become
+γ(a, b, C) = maximum Tr[C T M ]
+M
+
+subject to
+and
+ζ(a, b, C) = minimum
+y
+
+subject to
+
+M a ≤ b,
+M ≥ 0,
+b· y
+
+y a T ≥ C,
+y ≥ 0.
+
+(93)
+
+(94)
+
+For use in numerical algorithms, it is useful to convert the above to standard “vector” form. Here, M
+becomes the vector v(M ) formed by flattening out the matrix, joining subsequent rows, whence the inner
+product is just Tr[M T M 0 ] = v(M ) · v(M 0 ). It can then be verified that right multiplication by a ∈ Rn1
+is (left) multiplication by 1n2 ⊗ a T , where a is treated as a column vector, i.e. M a = (1n2 ⊗ a T )v(M ).
+Similarly, left multiplication by b ∈ Rn2 is (left) multiplication by b T ⊗ 1n1 , i.e. b T M = (b T ⊗ 1n1 )v(M ).
+Readers familiar
+with the formalism of quantum information theory will recognize v(M ) as just A ⊗ 1 |Ω〉
+Pn1
+for |Ω〉 = k=1 |k〉 ⊗ |k〉, right multiplication as 1 ⊗ 〈a| and left multiplication as 〈b| ⊗ 1.
+11
+
+Even this is not necessary; the presentation of Barvinok considers the more general setting of vector spaces and their duals.
+
+25
+
+B
+
+Proofs deferred from the main text
+
+The following lemmas underpin the proof of Theorem 1. We begin with the equivalence of  and ³, which
+is important in the dilation lemma that follows.
+0
+
+n
+n
+Lemma 3. For any p, q ∈ R+
+and p0 , q0 ∈ R+
+,
+
+(p, q)  (p0 , q0 )
+
+⇔
+
+(p, q) ³ (p0 , q0 ).
+
+(95)
+
+Proof. The reverse implication is immediate. For for the forward implication, consider the feasibility LP
+for Lorenz majorization and its dual
+c = infimum 0
+M
+
+subject to
+
+M p ≥ p0
+M q ≤ q0 ,
+T
+1m
+M ≤ 1nT
+M ≥ 0,
+
+(96)
+
+c = supremum u T p0 − v T q0 − 1nT w
+u,v,w
+
+(97)
+
+subject to −pu T + qv T + w1nT0 ≥ 0,
+u, v, w ≥ 0.
+
+First observe that dropping the u ≥ 0 constraint in the dual does not change its optimal value. To see this,
+suppose u  0 is feasible and let u0 = (u)+ be its positive part. Since q, v, w, and 1 are all positive, setting
+the negative parts of u to zero does not affect feasibility. Moreover, replacing u with u0 can at best increase
+the objective function.
+But the dual of the dual program absent the u ≥ 0 constraint is just the original primal program, but
+with the equality constraint M p = p0 . Thus, for any feasible M for the original primal problem, there
+exists a feasible M for the modified primal problem, and the forward implication holds.
+The following dilation lemma is an adaptation of a result by the author in [29]. See Eq. 2.C.4 of [12]
+for a similar dilation of a doubly substochastic matrix to a doubly stochastic matrix which enables dilation
+of standard submajorization into standard majorization.
+0
+
+n
+n
+Lemma 4. For any p, q ∈ R+
+and p0 , q0 ∈ R+
+, let z = |q0 |/|q|. Then the following are equivalent
+
+(a) (p, q)  (p0 , q0 ),
+
+(b) (p ⊕ 0, q ⊕ zq) ¼ (p0 ⊕ 0, q0 ⊕ z −1 q0 ),
+
+(c) (p ⊕ 0, q ⊕ zq)  (p0 ⊕ r, q0 ⊕ z −1 q0 ) for r ∝ q0 .
+
+Proof. We begin with the easier implications. First, (c) clearly implies (b). Condition (b) can be expressed
+in terms of the blocks of M as
+M11 p ≥ p0 ,
+0
+
+M11 q + z M12 q = q ,
+T
+1n0 M11 + 1nT0 M21 = 1nT ,
+
+M21 p ≥ 0,
+
+(98a)
+−1 0
+
+q,
+
+(98b)
+
+1nT0 M12 + 1nT0 M22 = 1nT .
+
+(98c)
+
+M21 q + z M22 q = z
+
+Using the condition involving M11 in each pair and positivity of M12 , M21 , q, and z, we see that M11 p ≥ p0 ,
+M11 q ≤ q0 and M11 is substochastic. Thus, (b) implies (a).
+To establish (a)⇒ (b), we construct the appropriate stochastic matrix for (b) from the substochastic
+matrix F of (a). Suppose F is a substochastic matrix such that F p ≥ p0 and F q ≤ q0 . Define
+u := q0 − F q
+
+v T := 1nT − 1nT0 F,
+26
+
+and
+
+(99)
+(100)
+
+which are both nonnegative vectors. Then set
+M11 = F,
+M21 =
+
+1
+|q0 |
+
+M12 =
+0 T
+
+qv ,
+
+1
+|q0 |
+
+u1nT
+(101)
+
+1
+
+M22 = 0 2 1nT0 F q q0 1nT .
+|q |
+
+Now we can verify that the required conditions from (98) are fulfilled. In the first set we have M11 p ≥ p0
+and M21 p = q0 v T p/|q0 | ≥ 0, since v T ≥ 0. In the second, we have equality:
+
+The same holds for the third:
+
+M11 q + z M12 q = F q + u = q0 and
+1 0 T
+z M21 q + z 2 M22 q =
+q (v + 1nT0 F )q = q0 .
+|q|
+
+(102)
+
+(103)
+
+1nT0 M11 + 1nT0 M21 = 1nT0 F + v T = 1nT and
+1
+1nT0 M12 + 1nT0 M22 = 0 (1nT0 u + 1nT0 F q)1nT = 1nT .
+|q |
+
+(104)
+(105)
+
+Finally, for (b)⇒(c), use the equivalence from Lemma 3 and repeat the above argument starting from
+substochastic F satsifying F p = p0 and F q ≤ q0 . The necessary r is simply a suitably-normalized version of
+q0 : r = q0 v T p/|q0 |.
+
+Before proceeding to the equivalence between submajorization and ordering of Lorenz curves, it is
+convenient to state an additional lemma. To do so, we define the function f a : x 7→ (x − a) and the
+associated “angle” function f a+ : x 7→ (x − a)+ , as well as the homogeneous two-dimensional variants
+hu,v : (x, y) 7→ ux − v y and h+
+u,v : (x, y) 7→ (ux − v y)+ . Observe that, for u, y > 0, the two are related by
++
+a perspective transformation, namely hu,v (x, y) = u y f v/u (x/ y) and h+
+u,v (x, y) = u y f v/u (x/ y).
+Lemma 5 (cf. Th. 15 of [22]). For any set of {(uk , vk ) ∈ R2+ }nk=1 , there exists a set {(a j , b j , c j ) ∈ R3+ }nj=1
+such that for all x ≥ 0
+max h+
+uk ,vk (x, y) ≥
+k
+
+n
+X
+j=1
+
+a j h+b ,c (x, y),
+j
+
+(106)
+
+j
+
+where equality holds when y ≥ 0 and the inequality holds for y < 0.
+Similarly, when only the uk are required to be positive, then there exists a set {(a j , b j , c j ) ∈ R3+ }nj=0 such
+that, for all (x, y) ∈ R2+ ,
+
+max huk ,vk (x, y) = a0 (b0 x − c0 y) +
+k
+
+n
+X
+j=1
+
+a j h+b ,c (x, y).
+j
+
+(107)
+
+j
+
++
+Proof. For (x, y) with y > 0, we may convert each h+
+u ,v to its perspective angle function f u /v . This
+k
+
+k
+
+k
+
+k
+
+reduces the problem to one dimension, the line y = 1. Each h+
+uk ,vk is increasing along this line, since
+uk > 0 is the component of the gradient in this direction. Moreover, with vk ≥ 0, the maximum is a
+maximum of angle functions with elbows at positive x values. Not all intersections between the h+
+uk ,vk are
+found in the positive quadrant, but only those that do are relevant for the behavior of the maximization
+along the y = 1 line. Hence, there are at most n intersections, and it is easy to see that any maximum of
+angle functions is itself just a positive linear combination of angle functions.
+Converting back to h+
+uk ,vk gives the desired statement for x ≥ 0 and y > 0, and the case y = 0 follows
++
+by continuity of hu,v . The one-dimensional restriction misses all the intersections that take place outside
+the positive quadrant, so only the inequality holds for points in this region.
+The only difference in the case of maximizing huk ,vk instead of h+
+uk ,vk is that the linear functions along
+the line y = 1 no longer necessarily take the value 0 at some positive x. Thus, to recreate the maximization
+it is necessary to add a linear function and a constant function to the positive linear combination of angle
+functions.
+27
+
+0
+
+n
+n
+Lemma 6. For any p, q ∈ R+
+and p0 , q0 ∈ R+
+, the following are equivalent:
+
+(a) (p, q)  (p0 , q0 )
+
+(b) β x (p, q) ≤ β x (p0 , q0 ) for all x ∈ R.
+
+Furthermore, if |q0 | = |q|, then these two are also equivalent to (p, q) ¼ (p0 , q0 ).
+
+Proof. To start, assume that (p, q)  (p0 , q0 ). For any x ∈ [0, |p0 |], let t 0 be the optimal test in β x (p0 , q0 ),
+so that t 0 · p0 = x and t 0 · q0 = β x (p0 , q0 ). The vector t = M T t 0 satisfies 0 ≤ t ≤ 1n by the stochasticity
+of M , and t · p = t 0 · M p ≥ t 0 · p0 = x. Therefore, t is feasible for β x (p, q), and we immediately have
+β x (p, q) ≤ t · q = t 0 · M q ≤ t 0 · q0 = β x (p0 , q0 ).
+For the implication from (b) to (a), we show that assuming both (p, q)  (p0 , q0 ) and ordered Lorenz
+curves leads to a contradiction. Consider the feasibility linear program for relative submajorization, particularly the dual version given in (97). Infeasibility of submajorization means there exists a feasible
+set of dual variables u, v, w such that the objective function exceeds zero. Observe that, for any feasible u and v, the optimal w has components w j = maxk (p j uk − q j vk )+ = maxk h+
+uk ,vk (p j , q j ). Since
+P
+0
+0
++
+0 0
+u·p −v·q ≤
+j maxk huk ,vk (p j , q j ), for any u and v such that the objective function exceeds zero,
+we have
+n
+X
+j=1
+
+max h+
+uk ,vk (p j , q j ) <
+k
+
+n0
+X
+j=1
+
+0 0
+max h+
+u ,v (p j , q j ).
+k
+
+k
+
+k
+
+(108)
+
+By Lemma 5, we can convert the maximization into a positive linear combination of h+b ,c . Factoring out
+k k
+ck and defining µk = bk /ck , we see that (p, q)  (p0 , q0 ) implies
+X
+X
+X
+X
+ak ck
+(µk p j − q j )+ <
+ak ck
+(µk p0j − q0j )+ .
+(109)
+j
+
+k
+
+j
+
+k
+
+Now consider the dual formulation of β x , given in (4b). The optimal s is clearly s = (µp − q)+ , which
+gives β x (p, q) = max{µx − 1 · (µp − q)+ : µ ≥ 0}. Therefore, µ 7→ 1 · (µp − q)+ is the Legendre transform
+of x 7→ β x (p, q). As the Legendre transform is order-reversing, β x (p, q) ≤ β x (p0 q0 ) for all x ∈ R implies,
+for all µ ≥ 0,
+X
+X
+(µp j − q j )+ ≥
+(µp0j − q0j )+ .
+(110)
+j
+
+j
+
+This contradicts (109), and hence the Lorenz curves cannot be ordered if (p, q)  (p0 , q0 ).
+Finally, to establish the equivalence to (p, q) ¼ (p0 , q0 ) when |q0 | = |q|, we need only show this statement is implied by (b), since it implies (a). Again we argue via contradiction, and the argument is similar
+to that above. In this case, the dual of the feasibility linear program only requires u ≥ 0, but v and w are
+unconstrained. P
+The optimal w now has components w j = maxk (p j uk − q j vk ) = maxk huk ,vk (p j , q j ). Since
+0
+0
+u · p − v · q ≤ j maxk huk ,vk (p0j , q0j ), for any u and v such that the objective function exceeds zero, we
+now have
+n
+X
+j=1
+
+max huk ,vk (p j , q j ) <
+
+n0
+X
+
+k
+
+j=1
+
+max huk ,vk (p0j , q0j ).
+k
+
+(111)
+
+Using the second part of Lemma 5, we can again convert this to a positive linear combination of h+b ,c , as
+k k
+P
+P
+in (109), plus additional linear terms: j a0 (b0 p j − c0 q j ) on the left and j a0 (b0 p0j − c0 q0j ) on the right.
+But the former is just a0 (b0 |p| − c0 |q|) and the latter a0 (b0 |p0 | − c0 |q0 |). The |q| and |q0 | terms are identical,
+so we are left with
+a0 b0 |p| +
+
+n X
+X
+k=1
+
+j
+
+ak ck (µk p j − q j )+ < a0 b0 |p0 | +
+
+X
+k
+
+ak ck
+
+X
+(µk p0j − q0j )+ .
+
+(112)
+
+j
+
+But this condition certainly cannot hold if (b) does, using (110) and the fact that the β x ordering implies
+|p| ≥ |p0 | (which is more easily seen using α y ).
+28
+
+Finally, we formalize the statement that one only need check for ordering of the Lorenz curves at the
+elbows of ostensibly submajorized pair.
+0
+
+n
+n
+Lemma 7. For any p, q ∈ R+
+and p0 , q0 ∈ R+
+, the condition β x (p, q) ≤ β x (p0 , q0 ) for all x ∈ [0, |p0 |] holds if
+and only if it holds for all x ∈ Tx? (p0 , q0 ) (at the elbows of (p0 , q0 )).
+
+Proof. Clearly the ordering of the Lorenz curves at the elbows of (p0 , q0 ) is necessary. Sufficiency follows
+?
+from the fact that the function x 7→ β x (p0 , q0 ) interpolates linearly between βk? (p0 , q0 ) and βk+1
+(p0 , q0 ) for
+? 0 0
+the largest k such that αk (p , q ) < x, while the graph of x 7→ β x (p, q) lies below these two endpoints and
+is convex.
+
+As mentioned in the main text, it is possible to construct the necessary stochastic matrix M such that
+M p = p0 and M q ≤ q0 from the Lorenz curves of (p, q) and (p0 , q0 ) themselves. Here we sketch the
+argument, which is based on §5 of [23]. First, suppose that we find a sequence of tests 0 = t 0 ≤ t 1 ≤
+Pk
+Pk
+0
+0
+. . . t k ≤ t n0 ≤ 1 such that t k · p = j=1 pπ(
+and
+t
+·
+q
+≤
+k
+j=1 qπ( j) , where again π is a permutation as in
+j)
+Lemma 1. Then observe the differences between subsequent tests form the rows of a substochastic matrix
+such that M p = p0 and M q ≤ q0 . Finally, it is straightforward to construct an appropriate sequence of
+tests by interpolating between the optimal tests corresponding to the elbows of the Lorenz curve of (p, q).
+To start, consider the line joining the origin and the first elbow of the Lorenz curve of (p0 , q0 ). This line
+intersects the Lorenz curve of (p, q) at some point, corresponding to a test t̂ 1 . Interpolating between t̂ 1
+and the zero test, we can construct a sequence of tests which yields the first segment of the (p0 , q0 ) Lorenz
+curve. By similarly extending the next segment, we find the appropriate test t̂ 2 , and continue. Should
+the extended line of a particular segment fail to intersect the (p, q) Lorenz curve (because the slope is too
+small), we can simply take the associated test t̂ = 1.
+A slight modification of the proof of Lemma 6 gives the proof of Theorem 2.
+Proof of Theorem 2. The easier implication is from (a) to (b), so we begin here. Using (21) in the definition
+of β x , we have β x (p, q) ≤ β x (p0 − a, q0 + b) for all x ∈ [0, |p0 |−"]. Let t be the optimal test for β x+" (p0 , q0 );
+then t ·p0 = x +" ≥ x + t ·a as t ≤ 1. Therefore t is feasible in β x (p0 −a, q0 + b), implying β x (p0 −a, q0 + b) ≤
+β x+" (p0 , q0 ) + η.
+To show (b) implies (a), we show that assuming (b) and not-(a) leads to contradiction. First consider
+(b). Taking the Legendre transform gives the reverse inequality
+sup µx − β x (p, q) ≥ sup µx − β x+" (p0 , q0 ) − η,
+x
+
+x
+
+(113)
+
+valid for all µ ∈ R. The lefthand side can be expressed as
+sup µx − β x (p, q) = sup µt · p − t · q,
+x
+
+t:0≤t≤1
+
+(114)
+
+which makes it clear that the solution is just 1 · (µp − q)+ . Proceeding similarly on the righthand side leads
+to
+1 · (µp − q)+ ≥ 1 · (µp0 − q0 )+ − µ" − η.
+
+(115)
+
+For the negation of (a), we appeal to the formulation of approximate submajorization as a dual pair of
+
+29
+
+linear programs.
+c",η = infimum 0
+M
+
+subject to
+
+M p ≥ p0 − a
+
+M q ≤ q0 + b,
+
+(116)
+
+T
+1m
+M ≤ 1nT
+T
+1m
+a≤"
+
+T
+1m
+b≤η
+
+a, b, M ≥ 0,
+
+c",η = supremum u T p0 − v T q0 − 1nT w − µ" − νη
+u,v,w,µ,ν
+
+subject to −pu T + qv T + w1nT0 ≥ 0,
+u ≤ µ1n0
+
+(117)
+
+v ≤ ν1n0
+
+µ, ν, u, v, w ≥ 0.
+
+When (p, q) ",η (p0 , q0 ), then in the dual formulation there are feasible points for which the objective exceeds zero. Again the optimal w has components w j = maxk (p j uk − q j vk )+ = maxk huk ,vk (p j , q j ), while the
+optimal µ and ν are clearly maxk uk and maxk vk , respectively. Using hu,v , we can rewrite the infeasibility
+condition in terms of the objective function as
+X
+X
+max huk ,vk (p0j , q0j ) −
+max huk ,vk (p j , q j ) − max huk ,vk (", −η) > 0.
+(118)
+k
+
+j
+
+j
+
+k
+
+k
+
+Applying Lemma 5 and interchanging the summation order gives
+
+
+X
+X
+X
+
+
+ak ck  (µk p0j − q0j )+ −
+(µk p j − q j )+ − (µk " + η)+  > 0,
+k
+
+j
+
+(119)
+
+j
+
+for µk = bk /ck ≥ 0. However, each term contradicts (115), meaning not-(a) and (b) cannot both be
+true.
+Proof of Prop. 5, Eq. (37). We give the proof for a battery with three levels, which serves to illustrate the
+general idea. Let the battery levels have energies E, E + W , and E + W 0 , and set r ⊗ a(E) = r ⊕ 0 ⊕ 0,
+0
+r ⊗ a(E + W ) = 0 ⊕ r ⊕ 0, and r ⊗ a(E + W 0 ) = 0 ⊕ 0 ⊕ r. Furthermore, let z = e−βW and z 0 = e−βW as
+usual.
+Now observe that by using the dual formulation of δ, we may formulate η?z (R → R0 ) feasibility as a
+linear program:
+T
+η?z (R → R0 ) = minimize 13n
+0d
+d,M
+
+subject to
+
+M (r ⊕ 0 ⊕ 0) ≥ 0 ⊕ r 0 ⊕ 0,
+
+ZB eβ E d ≥ M (g ⊕ z g ⊕ z 0 g) − g 0 ⊕ z g 0 ⊕ z 0 g 0 ,
+
+T
+T
+13n
+0 M ≤ 13n ,
+0
+
+(120)
+
+0
+
+3n ×3n
+d ∈ R3n
+.
++ , M ∈ R+
+
+The dual form is
+T
+η? (R → R0 ) = maximize u T (0 ⊕ r 0 ⊕ 0) − v T (g 0 ⊕ z g 0 ⊕ z 0 g 0 ) − 13n
+w
+u,v,w
+
+subject to
+
+T
+ZB eβ E v ≤ 13n
+0,
+
+T
+(r ⊕ 0 ⊕ 0)u T − (g ⊕ z g ⊕ z 0 g)v T − w13n
+0 ≤ 0,
+0
+
+3n
+u, v ∈ R3n
++ , w ∈ R+ .
+
+30
+
+(121)
+
+Strong duality holds since all dual variables equal to zero is a feasible choice. Now let u = u1 ⊕ u2 ⊕ u3
+and the same for v and w. In terms of these variables, the matrix constraint becomes nine individual
+constraints: ru1T − g v1T − w1 1nT ≤ 0 and so on. However, six of these are superfluous, since those which do
+not involve any u component are satisfied for any permissible choice of v and w. This leaves
+η? (R → R0 ) = maximize u2T r 0 − v1T g 0 − z v2T g 0 − z 0 v3T g 0 − 1nT w1 − 1nT w2 − 1nT w3
+u,v,w
+
+subject to
+
+T
+ZB eβ E v ≤ 13n
+0,
+
+ru1T − g v1T − w1 1nT ≤ 0,
+
+(122)
+
+ru2T − g v2T − w1 1nT ≤ 0,
+ru3T − g v3T − w1 1nT ≤ 0,
+
+u, v, w ≥ 0,
+0
+
+u, v ∈ R3n , w ∈ R3n .
+Now, for any feasible set of variables, the same set with u1 = u3 = 0 is also feasible and has the same
+value of the objective function. Furthermore, setting v1 = v3 = w2 = w3 = 0 in any feasible set produces
+another, but with possibly larger objective. Therefore, we have
+η?z (R → R0 ) = maximize u T r 0 − z v T g 0 − 1nT w1
+u,v,w
+
+ZB eβ E v ≤ 1nT0 ,
+ru T − g v T − w1nT0 ≤ 0,
+n0
+n
+u, v ∈ R+
+, w ∈ R+
+.
+
+subject to
+
+(123)
+
+= minimize 1nT0 d
+d,M
+
+M r ≥ r 0,
+ZB e β E d ≥ M g − z g 0 ,
+1nT0 M ≤ 1nT ,
+n0
+n0 ×n
+d ∈ R+
+, M ∈ R+
+.
+
+subject to
+
+(124)
+
+Subsuming ZB e−β E into d in the latter expression, we see that it is linear program for the smallest
+−β E
+n0
+δ(s0 , z g 0 ) e Z such that (r, g)  (r 0 , s0 ) for some s0 ∈ R+
+. Since the same proof carries over to a battery
+B
+with an arbitrary number of levels, this gives the latter two statements of the proposition.
+Proof of Prop. 11. Start with (r, g)  (r 0 , z ? g 0 ). This entails the existence of a substochastic M such that
+M r ≥ r 0 and g 00 := M g ≤ z ? g 0 ; indeed, there must be some k such that g k00 = (M g)k = z ? g k , else a smaller
+z would be feasible. We may use this M in the primal form of η̂?z , (124). The optimal d given this (or any)
+choice of M is clearly (g 00 − z g 0 )+ . This yields
+η̂?z ≤
+=
+
+n0
+X
+(g k00 − z g k0 )+
+
+(125)
+
+k=1
+
+n0
+X
+k=1
+
+g k00 (1 − z 0
+
+≤ max (1 − z
+k
+
+=1−
+=1−
+
+z
+
+g k0
+
+g 00
+
+z
+
+z?
+
+g k00
+
+g k00
+
+maxk gk0
+
+g k0
+
+)
+
+)+
+
+(126)
+(127)
+(128)
+
+k
+
+,
+
+which is (58).
+
+31
+
+(129)
+
+n
+Lemma 8 (Statement 3 [31]). Given any p ∈ S n , q ∈ R+
+, and any n0 × n stochastic matrix T , there exists
+an n × n0 stochastic matrix T̂ depending only on T and q, such that T̂ T q = q and
+
+D(p, q) − D(T p, T q) ≥ D(p, T̂ T p).
+
+(130)
+
+Proof. The map T̂ is the so-called Petz map [46],[47, Th. 3] (see also the independent definition in Eq. 9
+of [48]), which is constructed from the stochastic map T and the vector g. In particular, if we define u  v
+to be the component-wise ratio of the vectors u and v and u  v to be their component-wise product, then
+0
+the Petz map T̂ : Rn → Rn has the action
+
+T̂ : v → g  T T v  T g .
+(131)
+Since T is stochastic, it follows at once that T̂ g 0 = g. It is not immediately obvious that T̂ is itself
+stochastic, but by using components,
+( T̂ v)k = g k
+
+X
+j
+
+T jk P
+
+vj
+k0 T jk0 g k0
+
+,
+
+(132)
+
+this follows by direct calculation.
+Observe that the quantity D(r, T̂ Tr) involves
+
+
+
+0
+X
+r
+j
+
+(log T̂ Tr)k = log g k + log 
+T jk 0  .
+g
+j
+j
+
+(133)
+
+0
+
+Since {T jk }nj=1 is a probability distribution for each k, concavity of the logarithm and Jensen’s inequality
+implies
+!
+X
+s0j
+.
+(134)
+(log T̂ Tr)k ≥ log g k +
+T jk log
+g 0j
+j
+Thus, for each term in D(r, T̂ Tr) we have
+rk log rk − rk log( T̂ Tr)k ≤ rk log
+
+rk
+gk
+
+− rk
+
+X
+
+T jk log
+
+j
+
+s0j
+g 0j
+
+!
+.
+
+(135)
+
+Summing over k gives the desired result.
+
+C
+
+Recovering asymptotic results
+
+Using (32) and (33) we can very easily rederive many results on transitions involving asymptotically many
+resources. For instance, in the limit of large N , the work gain of the transformation Rn → R0N is governed
+by the relative entropy difference D(r, g) − D(r 0 , g 0 ), as shown in [24]. This follows immediately from
+(33), as we have
+lim −
+
+N →∞
+
+1
+N
+
+log z ? (RN → R0N ) = lim −
+N →∞
+
+= lim −
+
+1
+N
+1
+
+log max
+
+β x (r ⊗N , g ⊗N )
+
+x∈(0,1] β x (r 0⊗N , g 0⊗N )
+
+log
+
+β x ? (r ⊗N , g ⊗N )
+
+N
+β x ? (r 0⊗N , g 0⊗N )
+
+1
+= lim −
+log β x ? (r ⊗N , g ⊗N ) − log β x ? (r 0⊗N , g 0⊗N )
+N →∞
+N
+= D(r, g) − D(r 0 , g 0 ).
+N →∞
+
+(136)
+(137)
+(138)
+(139)
+
+Here, x ? is the optimal value of x and in the last line we use Stein’s lemma, which holds for any
+x ? ∈ (0, 1) [49, Th. 4.4.4]. When x ? = 1, we must take a slight detour. First, the upper bound
+32
+
+limN →∞ − N1 log z ? (RN → R0N ) ≤ D(r, g) − D(r 0 , g 0 ) holds by lower bounding the maximum ratio, using
+an x < 1. Second, the maximum ratio is continuous at x = 1, since it is the ratio of two linear functions
+which intersect at x = 1. Thus, by choosing x close enough to 1, we can ensure that the maximum ratio is
+upper bounded by, say, twice the value at x. This gives a lower bound of precisely the same form, as the
+additional log 2 term will vanish in the limit.
+Choosing R0 to be the trivial resource r 0 = g 0 = 1, we recover the asymptotic work value of R, namely
+D(r, g), since D(1, 1) = 0. Similarly, setting R to be the trivial resource, the asymptotic work cost of R0
+is D(r 0 , g 0 ). Chaining these two together, it is apparent that the rate of reversible interconversion of R to
+R0 must be the ratio D(r, g)/D(r 0 , g 0 ). To perform the transformation, we simply extract all the available
+work from R and use it to create instances of R0 . Since the asymptotic work cost and gain are equal, the
+transformation is reversible, at least in the sense that only a sublinear amount of work (zero rate) needs
+to be supplied.
+Note that the transformation so constructed is slightly different to that of [24], though the approach
+of splitting the transformation into two steps is similar. There, each step is performed approximately, in
+that the output of the first step is not precisely the input considered in the second step, but in a way that
+ensures the approximation error goes to zero in the limit of large N . Here no such approximations are
+employed; instead the precise sublinear amount of work required may be different.
+We cannot usefully apply Stein’s lemma in (32) to obtain an asymptotic limit for λ? (R → R0 ), since α y
+is not a type-II error, but one minus a type-II error, as evidenced by (13). Another way to see this is that
+α y involves a maximization, not a minimization as in β x . However, we can use Stein’s lemma in (32) to
+rederive Theorem 8 from [3] that the reverse relative entropy D(g, r) determines the asymptotics of using
+RN to cool (or heat) a two-level system. Similarly, D(g, r) quantifies the difficulty of creating erased bits,
+a two-level resource R b = (b(0), g b ).
+Beginning with the latter example, λ? (RN → R b ) is the largest probability of creating a perfectly erased
+bit, or equivalently, one minus the approximation error " ? (RN → R b ) in doing so. Since α y ((1, 0), g b ) has
+only one elbow, at ( 12 , 1), (32) gives
+λ? (RN → R b ) = α 1 (r ⊗N , g ⊗N ).
+
+(140)
+
+" ? (RN → R b ) = β 1 (g ⊗N , r ⊗N ),
+
+(141)
+
+2
+
+In view of (13) we have
+2
+
+and thus, by Stein’s lemma
+lim −
+
+N →∞
+
+1
+N
+
+log " ? (RN → R b ) = D(g, r).
+
+(142)
+
+Thus, the error in creating a perfectly erased bit decreases exponentially with N .
+Continuing the with former example of a two-level system with energy gap E, let βN ,β0 be the lowest
+temperature that can be created by using N instances of a resource R = (r, g) and thermal operations
+at background temperature β0 . Since a two-level system with distribution (λ, 1 − λ) and energy gap E
+is a canonical state with temperature determined by e−β E = (1 − λ)/λ (where the second level has the
+higher energy), we are just interested in the largest λ such that (r N , g N )  ((λ, 1 − λ), g 0 ), where g 0 is the
+canoncial state at temperature β0 . But this is just λ? (RN → R0 ) with R0 = ((1, 0), g 0 ). Replaying the above
+argument, the elbow in α y ((1, 0), g 0 ) is at (g10 , 1), so (32) and (13) give
+
+Then, the limit of large N yields
+lim
+
+1
+
+N →∞ N
+
+1 − λ? (RN → R0 ) = β1−g10 (g ⊗N , r ⊗N ).
+
+
+
+1
+log 1 − λ? (RN → R0 ) + lim
+log λ? (RN → R0 )
+N →∞ N
+N →∞ N
+1
+= lim − log β1−g10 (g ⊗N , r ⊗N )
+N →∞ N
+= D(g, r).
+
+βN ,β0 E = lim −
+
+1
+
+33
+
+(143)
+
+(144)
+(145)
+(146)
+
+In the second equality we use the fact that λ? (RN → R0 ) tends to one with increasing N . Thus, the lowest
+temperature decreases in proportion to N at a rate given by the reversed relative entropy.
+We could just as well set R0 = ((0, 1), g 0 ), so that we are trying to create a two-level system with
+a temperature inversion. Denoting by β̂N ,β0 the highest temperature inversion, repeating the argument
+above yields
+lim
+
+1
+
+N →∞ N
+
+D
+
+β̂N ,β0 E = −D(g, r).
+
+(147)
+
+Comparison with the work extraction game of Egloff et al. [6]
+
+There are two major differences between the present approach to modelling thermodynamic operations
+and the approach by Egloff et al.: the set of allowed operations and the definition of work. Nevertheless,
+we shall see that the operations allowed in their model are a subset of those in the resource theory model
+as defined in §3.1. From our perspective, we can regard [6] as showing that a restricted set of thermal
+operations suffice to achieve the optimal λ and z values in (32) and (33).
+In their model, which they term the “work extraction game”, there are two kinds of allowed operations.
+In the first, the resource system is allowed to thermalize with the bath. In the second, the Hamiltonian of
+the resource system is changed, with all energy shifts being taken up by (energy-conserving) interaction
+with the battery. Both of these steps are thermal operations as we have defined them, the former manifestly
+so. Janzing et al. [3] showed how to model a changing Hamiltonian in the resource theory framework,
+simply by introducing a new system in the Gibbs state of the new Hamiltonian and essentially just swapping
+the state of the resource system onto the new system, taking up any energy changes via the battery as
+needed. Therefore, the operations allowed in the work extraction game are a subset of thermal operations;
+in particular, the resource system is not allowed to interact with the battery and the bath at the same time.
+The notion of work in [6] is subtly different from ours, in two ways. The first difference lies in the
+probablistic or deterministic nature of extracted work. We say an amount W of work is extracted when the
+energy level of the battery is increased by precisely W . In [6], by constrast, the energy of the battery need
+only increase by at least W . Their notion of work contains a probabilistic element from the outset, as the
+battery is not necessarily in a deterministic state at the end of the process.12 Nonetheless, it is possible to
+convert this probabilistic battery to a deterministic one by thermal operations. One might worry that this
+could lead to a violation of the second law, since we essentially want to remove entropy from the battery
+without incurring any work cost. However, as we shall now see, the conversion does not remove entropy
+in the sense of resetting an arbitrary state of certain degrees of freedom so much as simply throwing these
+entropy-bearing degrees of freedom away.
+The procedure is simple. Imagine that the battery actually consists of the given battery, denoted by s,
+plus an additional work bit denoted by b. Since the battery is anyway meant to have an infinite spectrum,
+this poses no particular formal difficulty. The two levels of the work bit have energy zero and W , and
+we imagine that the process begins and ends with the work bit in the zero energy state. The other part
+of the battery begins in its zero energy state and ends in some state with energy at least W . By an
+energy-preserving transformation we may map all the states a(E) ⊗ b(0) to a(E − W ) ⊗ b(W ). Discarding
+a, we now have an overall process which deterministically takes the work bit from energy zero to W .
+Put differently, we are just utilizing some of the (formally infinite) degrees of freedom of the battery to
+deterministically store the extracted work, while putting all the entropy into different degrees of freedom,
+and then discarding the latter.
+The second subtle difference in the definition of work extraction is in the treatment of the output
+state of the resource and battery in (30). Here we do not commit to any particular s0 , meaning when the
+transformation is only probabilistically possible, the probability could come from not being able to create
+the desired resource state or not being able to move the energy level of the battery the required amount,
+or some combination of both. In contrast, [6] demands that the desired output state of the resource be
+12
+Allowing the battery to accept entropy might cause one to be suspicious of the ability of their work extraction game to
+capture features of classical thermodynamics. However, their results show that this worry is unfounded, and more conceptually,
+the battery cannot be used as an entropy sink to take energy from the bath without causing the probability of work extraction to
+become very small.
+
+34
+
+created perfectly, corresponding to an output state of the form r 0 ⊗ sB0 , for some distribution sB0 of the
+battery’s energy levels having weight at least λ on energies not smaller than W .
+By the above discussion, we could just as well require sB0 to have weight λ on energy level W itself.
+Then observe that we still end up with the submajorization condition (r, g)  (λr 0 , z g 0 ). The reason is that,
+while (30) has a more specific form, it still leads to (31), and thus the submajorization condition. We have
+not shown that the converse still holds in this more specific case, i.e. that anytime the submajorization
+condition holds, there is a thermal operation which will produce this particular kind of state at the output.
+But we can view the results of [6] as proving precisely this claim.
+
+35
+
+

@@ -1,0 +1,1105 @@
+Topos theory and ‘neo-realist’
+quantum theory
+Andreas Döring∗
+
+arXiv:0712.4003v1 [quant-ph] 24 Dec 2007
+
+Theoretical Physics Group, Blackett Laboratory
+Imperial College, London
+
+December 24, 2007
+
+Topos theory, a branch of category theory, has been proposed as mathematical basis for the formulation of physical theories. In this article, we give
+a brief introduction to this approach, emphasising the logical aspects. Each
+topos serves as a ‘mathematical universe’ with an internal logic, which is used
+to assign truth-values to all propositions about a physical system. We show in
+detail how this works for (algebraic) quantum theory.
+
+“The problem is all inside your head”, she said to me
+the answer is easy if you take it logically
+Paul Simon (from ‘50 Ways To Leave Your Lover’ )
+
+1 Introduction
+The use of topos theory in the foundations of physics and, in particular, the foundations
+of quantum theory was suggested by Chris Isham more than 10 years ago in [Ish97].
+Subsequently, these ideas were developed in an application to the Kochen-Specker theorem
+(with Jeremy Butterfield, [IB98, IB99, IBH00, IB02], for conceptual considerations see
+[IB00]). In these papers, the use of a multi-valued, contextual logic for quantum theory
+was proposed. This logic is given by the internal logic of a certain topos of presheaves over
+a category of contexts. Here, contexts typically are abelian parts of a larger, non-abelian
+structure. There are several possible choices for the context category. We will concentrate
+on algebraic quantum theory and use the category V(R) of unital abelian von Neumann
+∗
+
+a.doering@imperial.ac.uk
+
+1
+
+subalgebras of the non-abelian von Neumann algebra of observables R of the quantum
+system, as first suggested in [IBH00].
+The use of presheaves over such a category of contexts is motivated by the very natural
+construction of the spectral presheaf Σ, which collects all the Gel’fand spectra of the
+abelian subalgebras V ∈ V(R) into one larger structure. The Gel’fand spectra can be
+seen as ‘local state spaces’, and the spectral presheaf serves as a state space analogue for
+quantum theory. Interestingly, as Isham and Butterfield showed, this presheaf is not like a
+space: it has no points (in a category-theoretical sense), and this fact is exactly equivalent
+to the Kochen-Specker theorem.
+The topos approach was developed considerably in the series of papers [DI07a, DI07b,
+DI07c, DI07d] by Chris Isham and the author. In these papers, it was shown how topos
+theory can serve as a new mathematical framework for the formulation of physical theories.
+The basic idea of the topos programme is that by representing the relevant physical structures (states, physical quantities and propositions about physical quantities) in suitable
+topoi, one can achieve a remarkable structural similarity between classical and quantum
+physics. Moreover, the topos programme is general enough to allow for major generalisations. Theories beyond classical and quantum theory are conceivable. Arguably, this
+generality will be needed in a future theory of quantum gravity, which is expected to go
+well beyond our conventional theories.
+In this paper, we will concentrate on algebraic quantum theory. We briefly motivate the
+mathematical constructions and give the main definitions.1 Throughout, we concentrate
+on the logical aspects of the theory. We will show in detail how, given a state, truthvalues are assigned to all propositions about a quantum system. This is independent of
+any measurement or observer. For that reason, we say that the topos approach gives a
+‘neo-realist’ formulation of quantum theory.
+
+1.1 What is a topos?
+It is impossible to give even the briefest introduction to topos theory here. At the danger
+of being highly imprecise, we restrict ourselves to mentioning some aspects of this welldeveloped mathematical theory and give a number of pointers to the literature. The aim
+merely is to give a very rough idea of the structure and internal logic of a topos. In the
+next subsection, we argue that this mathematical structure may be useful in physics.
+There are a number of excellent textbooks on topos theory, and the reader should consult
+at least one of them. We found the following books useful: [LR03, Gol84, MM92, Joh02a,
+Joh02b, Bell88, LS86].
+
+1
+
+We suppose that the reader is familiar with the definitions of a category, functor and natural transformation.
+
+2
+
+Topoi as mathematical universes. Every (elementary) topos E can be seen as a
+mathematical universe. As a category, a topos E possesses a number of structures that generalise constructions that are possible in the category Set of sets and functions.2 Namely,
+in Set, we can construct new sets from given ones in several ways: let S, T be two sets,
+then we can form the cartesian product S ×T , the disjoint union S ∐T and the exponential
+S T , the set of all functions from T to S. These constructions turn out to be fundamental
+and can all be phrased in an abstract, categorical manner, where they are called finite
+limits, colimits and exponentials, respectively. By definition, a topos E has all of these.
+One consequence of the existence of finite limits is that each topos has a terminal object,
+denoted by 1. This is characterised by the property that for any object A in the topos E,
+there exists exactly one arrow from A to 1. In Set, a one-element set 1 = {∗} is terminal.3
+Of course, Set is a topos, too, and it is precisely the topos which usually plays the rôle
+of our mathematical universe, since we construct our mathematical objects starting from
+sets and functions between them. As a slogan, we have: a topos E is a category similar
+to Set. A very nice and gentle introduction to these aspects of topos theory is the book
+[LR03]. Other good sources are [Gol84, McL71].
+In order to ‘do mathematics’, one must also have a logic, including a deductive system.
+Each topos comes equipped with an internal logic, which is of intuitionistic type. We
+very briefly sketch the main characteristics of intuitionistic logic and the mathematical
+structures in a topos that realise this logic.
+Intuitionistic logic. Intuitionistic logic is similar to Boolean logic, the main difference
+being that the law of excluded middle need not hold. In intuitionistic logic, there is no
+axiom
+⊢ a ∨ ¬a
+(∗)
+like in Boolean logic. Here, ¬a is the negation of the formula (or proposition) a. The
+algebraic structures representing intuitionistic logic are Heyting algebras. A Heyting algebra is a pseudocomplemented, distributive lattice4 with zero element 0 and unit element
+1, representing ‘totally false’ resp. ‘totally true’. The pseudocomplement is denoted by ¬,
+and one has, for all elements α of a Heyting algebra H,
+α ∨ ¬α ≤ 1,
+in contrast to α∨¬α = 1 in a Boolean algebra. This means that the disjunction (“Or”) of a
+proposition α and its negation need not be (totally) true in a Heyting algebra. Equivalently,
+2
+
+More precisely, small sets and functions between them. Small means that we do not have proper classes.
+One must take care in these foundational issues to avoid problems like Russell’s paradox.
+3
+Like many categorical constructions, the terminal object is fixed only up to isomorphism: any two oneelement sets are isomorphic, and any of them can serve as a terminal object. Nonetheless, one speaks
+of the terminal object.
+4
+Lattice is meant in the algebraic sense: a partially ordered set L such that any two elements a, b ∈ L
+have a minimum (greatest lower bound) a ∧ b and a maximum (least upper bound) a ∨ b in L. A lattice
+L is distributive if and only if a ∨ (b ∧ c) = (a ∨ b) ∧ (a ∨ c) as well as a ∧ (b ∨ c) = (a ∧ b) ∨ (a ∧ c) hold
+for all a, b, c ∈ L.
+
+3
+
+one has
+¬¬α ≥ α,
+in contrast to ¬¬α = α in Boolean algebras.
+Obviously, Boolean logic is a special case of intuitionistic logic. It is known from Stone’s
+theorem [Sto36] that each Boolean algebra is isomorphic to an algebra of (clopen, i.e.,
+closed and open) subsets of a suitable (topological) space.
+Let X be a set, and let P (X) be the power set of X, that is, the set of subsets of X.
+Given a subset S ∈ P (X), one can ask for each point x ∈ X whether it lies in S or not.
+This can be expressed by the characteristic function χS : X → {0, 1}, which is defined as
+
+1 if x ∈ S
+χS (x) :=
+0 if x ∈
+/S
+for all x ∈ X. The two-element set {0, 1} plays the rôle of a set of truth-values for
+propositions (of the form “x ∈ S”). Clearly, 1 corresponds to ‘true’, 0 corresponds to
+‘false’, and there are no other possibilities. This is an argument about sets, so it takes
+place in and uses the logic of the topos Set of sets and functions. Set is a Boolean topos,
+in which the familiar two-valued logic and the axiom (∗) hold. (This does not contradict
+the fact that the internal logic of topoi is intuitionistic, since Boolean logic is a special case
+of intuitionistic logic.)
+In an arbitrary topos, there is a special object Ω, called the subobject classifier, that
+takes the rôle of the set {0, 1} ≃ {false,true} of truth-values. Let B be an object in the
+topos, and let A be a subobject of B. This means that there is a monic A → B,5 generalising the inclusion of a subset S into a larger set X. Like in Set, we can also characterise
+A as a subobject of B by an arrow from B to the subobject classifier Ω. (In Set, this
+arrow is the characteristic function χS : X → {0, 1}.) Intuitively, this characteristic arrow
+from B to Ω tells us how A ‘lies in’ B. The textbook definition is:
+
+Definition 1 In a category C with finite limits, a subobject classifier is an object Ω,
+together with a monic true : 1 → Ω, such that to every monic m : A → B in C there is a
+unique arrow χ which, with the given monic, forms a pullback square
+A
+
+✲1
+❄
+
+❄
+
+m
+
+true
+❄
+
+B
+
+5
+
+χ
+
+❄
+✲Ω
+
+A monic is the categorical version of an injective function. In the topos Set, monics exactly are injective
+functions.
+
+4
+
+In Set, the arrow true : 1 → {0, 1} is given by true(∗) = 1. In general, the subobject
+classifier Ω need not be a set, since it is an object in the topos E, and the objects of
+E need not be sets. Nonetheless, there is an abstract notion of elements (or points) in
+category theory that we can use. The elements of Ω are the truth-values available in the
+internal logic of our topos E, just like ‘false’ and ‘true’, the elements of {false,true}, are
+the truth-values available in the topos Set.
+To understand the abstract notion of elements, let us consider sets for a moment. Let
+1 = {∗} be a one-element set, the terminal object in Set. Let S be a set and consider an
+arrow e from 1 to S. Clearly, e(∗) ∈ S is one element of S. The set of all functions from
+1 to S corresponds exactly to the elements of S. This idea can be generalised to other
+categories: if there is a terminal object 1, then we consider arrows from 1 to an object A in
+the category as elements of A. For example, in the definition of the subobject classifier the
+arrow true : 1 → Ω is an element of Ω. It may happen that an object A has no elements,
+i.e., there are no arrows 1 → A. It is common to consider arrows from subobjects U of A
+to A as generalised elements, but we will not need this except briefly in subsection 5.1.
+As mentioned, the elements of the subobject classifier, understood as the arrows 1 → Ω,
+are the truth-values. Moreover, the set of these arrows forms a Heyting algebra (see, for
+example, section 8.3 in [Gol84]). This is how (the algebraic representation of) intuitionistic
+logic manifests itself in a topos. Another, closely related fact is that the subobjects of any
+object A in a topos form a Heyting algebra.
+
+1.2 Topos theory and physics
+A large part of the work on topos theory in physics consists in showing how states, physical
+quantities and propositions about physical quantities can be represented within a suitable
+topos attached to the system [DI07a, DI07b, DI07c, DI07d]. The choice of topos will
+depend on the theory type (classical, quantum or, in future developments, even something
+completely new). Let us consider classical physics for the moment to motivate this.
+Realism in classical physics. In classical physics, one has a space of states S, and
+physical quantities A are represented by real-valued functions fA : S → R.6 A proposition
+about a physical quantity A is of the form “A ∈ ∆”, which means “the physical quantity
+A has a value in the (Borel) set ∆”. This proposition is represented by the inverse image
+fA−1 (∆) ⊆ S. In general, propositions about the physical system correspond to Borel
+subsets of the state space S. If we have two propositions “A ∈ ∆1 ”, “B ∈ ∆2 ” and
+the corresponding subsets fA−1 (∆1 ), fB−1 (∆2 ), then the intersection fA−1 (∆1 ) ∩ fB−1 (∆2 )
+corresponds to the proposition “A ∈ ∆1 and B ∈ ∆2 ”, the union fA−1 (∆1 ) ∪ fB−1 (∆2 )
+corresponds to “A ∈ ∆1 or B ∈ ∆2 ”, and the complement S\fA−1 (∆1 ) corresponds to the
+negation “A ∈
+/ ∆1 ”. Moreover, given a state s, i.e., an element of the state space S, each
+proposition is either true or false: if s lies in the subset of S representing the proposition,
+6
+
+We assume that fA is at least measurable.
+
+5
+
+then the proposition is true, otherwise it is false. Every physical quantity A has a value
+in the state s, namely fA (s) ∈ R. Thus classical physics is a realist theory in which
+propositions have truth-values independent of measurements, observers etc. The logic is
+Boolean, since classical physics is based on constructions with sets and functions, i.e., it
+takes place in the topos Set. We take this as a rule: if we want to describe a physical
+system S as a classical system, then the topos Set is used. This means no departure from
+what is ordinarily done, but it emphasises certain structural and logical aspects of the
+theory.
+Instrumentalism in quantum theory. In quantum theory, the mathematical description is very different. Physical quantities A are represented by self-adjoint operators
+b on a Hilbert space H. While H can be called a space of states, the states ψ ∈ H play a
+A
+very different rôle from those in classical theory. In particular, a state ψ does not assign
+values to all physical quantities, only to those for which ψ happens to be an eigenstate.
+The spectral theorem shows that propositions “A ∈ ∆” are represented by projection opb ∈ ∆] on Hilbert space. Unless ψ is an eigenstate of A, such a proposition is
+erators E[A
+b ∈ ∆] = b
+neither true nor false (except for the trivial cases E[A
+0, which represents trivially
+b
+b
+false propositions, and E[A ∈ ∆] = 1, which represents trivially true propositions). The
+mathematical formalism of quantum theory is interpreted in an instrumentalist manner:
+given a state ψ, the proposition “A ∈ ∆” is assigned a probability of being true, given
+b ∈ ∆] |ψi. This means that upon meaby the expectation value p(A ∈ ∆; ψ) := hψ| E[A
+surement of the physical quantity A, one will find the measurement result to lie in ∆ with
+probability p(A ∈ ∆; ψ). This interpretation depends on measurements and an external
+observer. Moreover, the measurement devices (and the observer) are described in terms of
+classical physics, not quantum physics.
+The motivation from quantum gravity. An instrumentalist interpretation cannot
+describe closed quantum systems, at least there is nothing much to be said about them
+from this perspective. A theory of quantum cosmology or quantum gravity will presumably be a quantum theory of the whole universe. Since there is no external observer who
+could perform measurements in such a theory, instrumentalism becomes meaningless. One
+of the main motivations for the topos programme is to overcome or circumvent the usual
+instrumentalism of quantum theory and to replace it with a more realist account of quantum systems. The idea is to use the internal logic of a topos to assign truth-values to
+propositions about the system.
+In order to achieve this, we will sketch a new mathematical formulation of quantum
+theory that is structurally similar to classical physics. The details can be found in [DI07a,
+DI07b, DI07c, DI07d] and references therein.
+Plan of the paper. The starting point is the definition of a formal language L(S)
+attached to a physical system S. This is done in section 2 and emphasises the common
+structure of classical and quantum physics. In section 3, we introduce the topos associated to a system S in the case of quantum theory, and in section 4 we briefly discuss
+the representation of L(S) in this topos. The representation of states and the assignment
+
+6
+
+of truth-values to propositions is treated in section 5, which is the longest and most detailed section. Section 6 concludes with some remarks on related work and on possible
+generalisations.
+
+2 A formal language for physics
+There is a well-developed branch of topos theory that puts emphasis on the logical aspects. As already mentioned, a topos can be seen as the embodiment of (higher-order)
+intuitionistic logic. This point of view is expounded in detail in Bell’s book [Bell88], which
+is our standard reference on these matters. Other excellent sources are [LS86] and part
+D of [Joh02b]. The basic concept consists in defining a formal language and then finding a representation of it in a suitable topos. As usual in mathematical logic, the formal
+language encodes the syntactic aspects of the theory and the representation provides the
+semantics. Topoi are a natural ‘home’ for the representation of formal languages encoding
+intuitionistic logic, more precisely, intuitionistic, higher-order, typed predicate logic with
+equality. Typed means that there are several primitive species or kinds of objects (instead
+of just sets as primitives), from which sets are extracted as a subspecies; predicate logic
+means that one has quantifiers, namely an existence quantifier ∃ (“it exists”) and a universal quantifier ∀ (“for all”). Higher-order refers to the fact that quantification can take
+place not only over variable individuals, but also over subsets and functions of individuals
+as well as iterates of these constructions. Bell presents a particularly elegant way to specify
+a formal language with these properties. He calls this type of language a local language,
+see chapter 3 of [Bell88].
+Let S denote a physical system to which we attach a higher-order, typed language L(S).
+We can only sketch the most important aspects here, details can be found in section 4
+of [DI07a]. The language L(S) does not depend on the theory type (classical, quantum,
+...), while its representation of course does. The language contains at least the following
+type symbols: 1, Ω, Σ and R. The symbol Σ serves as a precursor of the state object (see
+below), the symbol R is a precursor of the quantity-value object, which is where physical
+quantities take their values. Moreover, we require the existence of function symbols of the
+form A : Σ → R. These are the linguistic precursors of physical quantities. For each type,
+there exist variables of that type. There are a number of rules how to form terms and
+formulae (terms of type Ω) from variables of the various types, including the definition of
+logical connectives ∧ (“And”), ∨ (“Or”) and ¬ (“Not”). Moreover, there are axioms giving
+rules of inference that define how to get new formulae from sets of given formulae. As an
+example, we mention the cut rule: if Γ is a set of formulae and α and β are formulae, then
+we have
+Γ : α α, Γ : β
+Γ:β
+(here, any free variable in α must be free in Γ or β). In a representation, where the
+formulae aquire an interpretation and a ‘meaning’, this expresses that if Γ implies α, and
+α and Γ together imply β, then Γ also implies β. The axioms and rules of inference are
+chosen in a way such that the logical operations satisfy the laws of intuitionistic logic.
+
+7
+
+The formal language L(S) captures a number of abstract properties of the physical
+system S. For example, if S is the harmonic oscillator, then we expect to be able to
+speak about the physical quantity energy in all theory types, classical or quantum (or
+other). Thus, among the function symbols A : Σ → R, there will be one symbol E :
+Σ → R which, in a representation, will become the mathematical entity describing energy.
+(Which mathematical object that will be depends on the theory type and thus on the
+representation.)
+The representation of the language L(S) takes place in a suitable, physically motivated
+topos E. The type symbol 1 is represented by the terminal object 1 in E, the type symbol
+Ω is represented by the subobject classifier Ω. The choice of an appropriate object Σ in the
+topos that represents the symbol Σ depends on physical insight. The representing object
+Σ is called the state object, and it plays the rôle of a generalised state space. What actually
+is generalised is the space, not the states: Σ is an object in a topos E, which need not be
+a topos of sets, so Σ need not be a set or space-like. However, as an object in a topos,
+Σ does have subobjects. These subobjects will be interpreted as (the representatives of)
+propositions about the physical quantities, just like in classical physics, where propositions
+correspond to subsets of state space. The propositions are of the form “A ∈ ∆”, where ∆
+now is a subobject of the object R that represents the symbol R. The object R is called
+the quantity-value object, and this is where physical quantities take their values. Somewhat
+surprisingly, even for ordinary quantum theory this is not the real number object in the
+topos. Finally, the function symbols A : Σ → R are represented by arrows betwen the
+objects Σ and R in the topos E.
+In classical physics, the representation is the obvious one: the topos to be used is the
+topos Set of sets and mappings, the symbol Σ is represented by a symplectic manifold S
+which is the state space, the symbol R is represented by the real numbers and function
+symbols A : Σ → R are represented by real-valued functions fA : S → R. Propositions
+about physical quantities correspond to subsets of the state space.
+
+3 The context category V(R) and the topos of
+op
+presheaves SetV(R)
+We will now discuss the representation of L(S) in the case that S is to be described as a
+quantum system. We assume that S is a non-trivial system that −in the usual description−
+has a Hilbert space H of dimension 3 or greater, and that the physical quantities belonging
+to S form a von Neumann algebra R(S) ⊆ B(H) that contains the identity operator b
+1.7
+
+From the Kochen-Specker theorem [KS67] we know that there is no state space model
+of quantum theory if the algebra of observables is B(H) (for the generalisation to von
+Neumann algebras see [Doe05]). More concretely, there is no state space S such that the
+physical quantities are real-valued functions on S. The reason is that if there existed such
+7
+
+There should arise no confusion between the von Neumann algebra R = R(S) and the symbol R of
+our formal language, we hope.
+
+8
+
+a state space S, then each point (i.e., state) s ∈ S would allow to assign values to all
+physical quantities at once, simply by evaluating the functions representing the physical
+quantities at s. One can show that under very mild and natural conditions, this leads to
+a mathematical contradiction.
+For an abelian von Neumann algebra V , there is no such obstacle: the Gel’fand spectrum
+ΣV of V can be interpreted as a state space, and the Gel’fand transforms A of self-adjoint
+b ∈ V , representing physical quantities, are real-valued functions on ΣV . The
+operators A
+Gel’fand spectrum ΣV of an abelian von Neumann algebra V consists of the pure states λ
+bB
+b ∈ V , we
+on V (see e.g. [KR83]). Each λ ∈ ΣV also is a multiplicative state; for all A,
+have
+bB)
+b = λ(A)λ(
+b B),
+b
+λ(A
+which, for projections Pb ∈ P(V ), implies
+
+λ(Pb) = λ(Pb 2) = λ(Pb)λ(Pb) ∈ {0, 1}.
+
+Finally, each λ ∈ ΣV is an algebra homomorphism from V to C. The Gel’fand spectrum
+ΣV is equipped with the weak* topology and thus becomes a compact Hausdorff space.
+b ∈ V and define
+Let A
+
+A : ΣV −→ C
+b
+λ 7−→ A(λ) := λ(A).
+
+b It is a continuous function such that
+The function A is called the Gel’fand transform of A.
+b In particular, if A
+b is self-adjoint, then λ(A)
+b ∈ sp A
+b ⊂ R. The mapping
+im A = sp A.
+V −→ C(ΣV )
+b 7−→ A
+A
+
+is called the Gel’fand transformation on V . It is an isometric ∗-isomorphism between V
+and C(ΣV ).8
+This leads to the idea of considering the set V(R) of non-trivial unital abelian von
+Neumann subalgebras of R.9 These abelian subalgebras are also called contexts. V(R)
+is partially ordered by inclusion and thus becomes a category. There is an arrow iV ′ V :
+V ′ → V if and only if V ′ ⊆ V , and then iV ′ V is just the inclusion (or the identity arrow
+if V ′ = V ). The category V(R) is called the context category and serves as our index
+category. The process of going from one abelian algebra V to a smaller algebra V ′ ⊂ V
+can be seen as a process of coarse-graining: the algebra V ′ contains less physical quantities
+(self-adjoint operators), so we can describe less physics in V ′ than in V . We collect all the
+‘local state spaces’ ΣV into one large object:
+8
+
+Of course, all this holds more generally for abelian C ∗ -algebras. We concentrate on von Neumann
+algebras, since we need these in our application.
+9
+We exclude the trivial algebra Cb
+1, which is a subalgebra of all other subalgebras.
+
+9
+
+Definition 2 The spectral presheaf Σ is the presheaf10 over V(R) defined
+a) on objects: for all V ∈ V(R), ΣV = ΣV is the Gel’fand spectrum of V ,
+b) on arrows: for all iV ′ V , Σ(iV ′ V ) : ΣV → ΣV ′ is given by restriction, λ 7→ λ|V ′ .
+The spectral presheaf was first considered by Chris Isham and Jeremy Butterfield in
+the series [IB98, IB99, IBH00, IB02] (see in
+particular the third of these papers). The
+V(R)op
+presheaves over V(R) form a topos Set
+. The arrows in this topos are natural transformations between the presheaves. Isham and Butterfield developed opthe idea that this
+is the appropriate topos for quantum theory. The object Σ in SetV(R) serves as a state
+space analogue. In the light of the new developments op
+in [DI07a]-[DI07d], using formal
+languages, we identify Σ as the state object in SetV(R) , i.e., the representative of the
+symbol Σ of our formal language L(S).
+Isham and Butterfield showed that the Kochen-Specker theorem is exactly equivalent
+to the fact that the spectral presheaf Σ hasopno elements, in the sense that there are no
+arrows from the terminal object 1 in SetV(R) to Σ. It is not hard to show that having an
+element of Σ would allow the assignment of real values to all physical quantities at once.
+
+4 Representing L(S) in the presheaf topos SetV(R)
+
+op
+
+The quantity-value object for quantum theory. We already have identified the topos
+for the quantum-theoretical description of a system S and the state object Σ in this topos.
+Let V ∈ V(R) be a context, then ↓V := {V ′ ∈ V(R) | V ′ ⊆ V } denotes the set of all
+subalgebras of V , equipped with the partial order inherited from V(R). It can be shown
+that the symbol R should be represented by the following presheaf [DI07c]:
+Definition 3 The presheaf R↔ of order-preserving and -reversing functions on
+V(R) is defined
+a) on objects: for all V ∈ V(R), R↔ V := {(µ, ν) | µ :↓ V → R is order-preserving,
+ν :↓V → R is order-reversing and µ ≤ ν},
+b) on arrows: for all iV ′ V , R↔ (iV ′ V ) : R↔ V → R↔ V ′ is given by restriction, (µ, ν) 7→
+(µ|V ′ , ν|V ′ ).
+Here, an order-preserving function µ :↓V → R is a function such that V ′′ ⊆ V ′ (where
+V ′ , V ′′ ∈↓V ) implies µ(V ′′ ) ≤ µ(V ′ ). Order-reversing functions are defined analogously.
+op
+
+The presheaf R↔ is not the real-number object R in the topos SetV(R) , which is the
+constant presheaf defined by R(V ) := R for all V and R(iV ′ V ) : R → R as the identity.
+From the Kochen-Specker theorem, we would not expect that physical quantities take their
+values in the real numbers. (This does not mean that the results of measurements are not
+10
+
+A presheaf is a contravariant functor from V(R) to Set, and obviously, Σ is of this kind. In our notation,
+presheaves will always be underlined.
+
+10
+
+real numbers. We do not discuss measurement here.) More importantly, the presheaf R↔
+takes into account the coarse-graining inherent in the base category V(R): at each stage
+V , a pair (µ, ν) consisting of an order-preserving and an order-reversing function defines
+a whole range or interval [µ(V ), ν(V )] of real numbers, not just a single real number. (It
+can happen that µ(V ) = ν(V ).) If we go to a smaller subalgebra V ′ ⊂ V , which is a kind
+of coarse-graining, then we have µ(V ′ ) ≤ µ(V ) and ν(V ′ ) ≥ ν(V ), so the corresponding
+interval [µ(V ′ ), ν(V ′ )] can only become larger.
+The representation of function symbols A : Σ → R. In order to represent a
+physical quantity A belonging to the system S as an arrow from Σ to the presheaf R↔ of
+‘values’, we have to use a two-step process.
+b ∈ R be the self-adjoint operator representing A. For each abelian subalgebra
+1. Let A
+V ∈ V(R), we define
+^
+b V := {B
+b ∈ Vsa |B
+b ≥s A},
+b
+δ o (A)
+_
+b V := {C
+b ∈ Vsa |C
+b ≤s A}.
+b
+δ i (A)
+
+Here, the spectral order on self-adjoint operators is used [Ols71, deG05]. This is defined
+bB
+b with spectral families E
+b A resp. E
+b B as
+for all self-adjoint operators A,
+b ≤s B
+b :⇔ (∀λ ∈ R : E
+bA ≥ E
+b B ).
+A
+λ
+λ
+
+Equipped with the spectral order, the set of self-adjoint operators in a von Neumann
+algebra becomes a boundedly complete lattice. In particular, the mappings δVo , δVi : Rsa →
+Vsa are well-defined. We call these mappings outer and inner daseinisation, respectively.
+b V of A
+b to the context V is the approximation from above by
+The outer daseinisation δ o (A)
+b Likewise, the inner
+the smallest self-adjoint operator in V that is spectrally larger than A.
+i b
+daseinisation δ (A)V is the approximation from below by the largest self-adjoint operator
+b Since the spectral order is coarser than the usual,
+in V that is spectrally smaller then A.
+linear order, we have, for all V ,
+bV ≤A
+b ≤ δ o (A)
+b V.
+δ i (A)
+
+b V and δ o (A)
+b V are subsets of the spectrum of A,
+b
+One can show that the spectra of δ i (A)
+which seems physically very sensible. If we used the approximation in the linear order,
+this would not hold in general. The approximation of self-adjoint operators in the spectral
+order was suggested by de Groote [deG05b, deG07]. If V ′ ⊂ V , then, by construction,
+b V , which implies
+b V and δ o (A)
+b V ′ ≥s δ o (A)
+b V ′ ≤s δ i (A)
+δ i (A)
+b V,
+b V ′ ≤ δ i (A)
+δ i (A)
+b V.
+b V ′ ≥ δ o (A)
+δ o (A)
+
+b become coarser if the context becomes smaller.
+In this sense, the approximations to A
+
+11
+
+b V , δ o (A)
+b V ) of operators approximating
+2. Now that we have constructed a pair (δ i (A)
+b from below and from above for each context V , we can define a natural transformation
+A
+b from Σ to R↔ in the following way: let V ∈ V(R) be a context, and let λ ∈ ΣV be a
+δ̆(A)
+pure state of V . Then define, for all V ′ ∈↓V ,
+b V ′ ) = δ i (A)
+b V ′ (λ),
+µλ (V ′ ) := λ(δ i (A)
+
+b V ′ . From the
+b V ′ is the Gel’fand transform of the self-adjoint operator δ i (A)
+where δ i (A)
+i b ′
+∗
+i b ′
+theory of abelian C -algebras, it is known that λ(δ (A)V ) ∈ sp(δ (A)V ) (see e.g. [KR83]).
+b V ′ , which implies
+b V ′′ ≤ δ i (A)
+Let V ′ , V ′′ ∈↓ V such that V ′′ ⊂ V ′ . We saw that δ i (A)
+i b ′
+i b ′′
+λ(δ (A)V ) ≤ λ(δ (A)V ), so µλ :↓V → R is an order-preserving function. Analogously, let
+b V ′ ) = δ o (A)
+b V ′ (λ)
+νλ (V ′ ) := λ(δ o (A)
+
+for all V ′ ∈↓ V . We obtain an order-reversing function νλ :↓ V → R. Then, for all
+V ∈ V(R), let
+b
+δ̆(A)(V
+) : ΣV −→ R↔ V
+λ 7−→ (µλ , νλ ).
+b
+By construction, these mappings are the components of a natural transformation δ̆(A):
+↔
+′
+′
+Σ → R . For all V, V ∈ V(R) such that V ⊆ V , we have a commuting diagram
+ΣV
+b
+δ̆(A)(V
+)
+
+Σ(iV ′ V )
+
+V
+
+′
+b
+δ̆(A)(V
+)
+
+❄
+
+R↔ V
+
+✲Σ ′
+
+↔
+
+R (iV ′ V )
+
+❄
+✲ R↔ ′
+V
+
+b : Σ → R↔ in the presheaf topos SetV(R)op is the representative of the
+The arrow δ̆(A)
+physical quantity A, which is abstractly described by the function symbol A : Σ → R
+in our formal language. The physical content, namely the appropriate choice of the selfb from which we construct the arrow δ̆(A),
+b is not part of the language,
+adjoint operator A
+11
+but part of the representation.
+The representation of propositions. As discussed in subsection 1.2, in classical
+physics the subset of state space S representing a proposition “A ∈ ∆” is constructed by
+taking the inverse image fA−1 (∆) of ∆ under the function representing A. We will use the
+analogous construction in the topos formulation of quantum theory: the set ∆ is a subset
+(that is, subobject) of the quantity-value object R in classical physics, so we start from
+11
+
+The current scheme is not completely topos-internal yet. It is an open question if every arrow from
+b to
+Σ to R↔ comes from a self-adjoint operator. This is why we start from a self-adjoint operator A
+b
+construct δ̆(A). We are working on a more internal characterisation.
+
+12
+
+a subobject Θ of the presheaf R↔ . We get a subobject of the state object Σ by pullback
+b which we denote by δ̆(A)
+b −1 (Θ).12 For details see subsection 3.6 in [DI07c] and
+along δ̆(A),
+also [HS07].
+In both classical and quantum theory, propositions are represented by subobjects of
+the quantity-value object (state space S resp. spectral presheaf Σ). Such subobjects are
+constructed by pullback from subobjects of the quantity-value object (real numbers R
+resp. presheaf of order-preserving and -reversing functions R↔ ). The interpretation and
+meaningop of such propositions is determined by the internal logic of the topos (Set resp.
+SetV(R) ). In the classical case, where Set is used, this is the ordinary Boolean logic
+that weopare familiar with. In the quantum case, the internal logic of the presheaf topos
+SetV(R) has to be used. This intuitionistic logic can be interpreted using Kripke-Joyal
+semantics, see e.g. chapter VI in [MM92].
+The Heyting algebra structure of subobjects.
+In the next section, we discuss
+V(R)op
+the representation of states in the topos Set
+and the assignment of truth-values to
+propositions. Before doing so, it is worth noting that the subobjects of Σ form a Heyting
+algebra (since the subobjects of any object in a topos do), so we have mapped propositions
+“A ∈ ∆” (understood as discussed) to a distributive lattice with a pseudocomplement. Together with the results from the next section, we have a completely
+new form of quantum
+V(R)op
+logic, based upon the internal logic of the presheaf topos Set
+. Since this is a distributive logic and since the internal logic of a topos has powerful rules of inference, this kind
+of quantum logic is potentially much better interpretable than ordinary quantum logic of
+the Birkhoff-von Neumann kind. The latter type of quantum logic and its generalisations
+are based on nondistributive structures and lack a deductive system.
+
+5 Truth objects and truth-values
+In classical physics, a state is just a point of state space.13 Since, as we saw, the spectral
+presheaf Σ has no elementsop(or, global elements14 ), we must represent states differently in
+the presheaf topos SetV(R) .
+
+5.1 Generalised elements as generalised states
+One direct way, suggested in [HS07], is the following generalisation: Σ has no global
+elements 1 → Σ, but it does have subobjects U ֒→ Σ. In algebraic geometry and more
+generally in category theory, such monics (and, more generally, arbitrary arrows) are called
+12
+
+This is a well-defined categorical construction, since the pullback of a monic is a monic, so we get a
+subobject of Σ from a subobject of R↔ .
+13
+One might call this a pure state, though this is not customary in classical physics. Such a state actually
+is a point measure on state space, in contrast to more general probability measures that describe
+general states. We only consider pure states here and identify the point measure with the corresonding
+point of state space.
+14
+Elements 1 → P of a presheaf P are called global elements or global sections in category theory. We
+follow this convention to avoid confusion with points or elements of sets.
+
+13
+
+generalised elements [LR03]. We could postulate that these subobjects, or some of them,
+are ‘generalised states’. Consider another subobject of Σ that represents a proposition
+“A ∈ ∆” about the quantum system, given by its characteristic arrow χS : Σ → Ω. Then
+we can compose these arrows
+U ֒→ Σ → Ω
+to obtain an arrow U → Ω. This is not a global element 1 → Ω of Ω, and by construction,
+it cannot be, since Σ has no global elements, but it is a generalised element of Ω. It
+might be possible to give a physical meaning to these arrows U → Ω if one can (a) give
+physical meaning to the subobject U ֒→ Σ, making clear what a generalised state actually
+is, and (b) give a logical and physical interpretation of an arrow U → Ω. While a global
+element 1 → Ω is interpreted as a truth-value in the internal logic of a topos, the logical
+interpretation of an arrow U → Ω is not so clear.
+We want to emphasise that mathematically, the above construction is perfectly welldefined. It remains to be worked out if a physical and logical meaning can be attached to
+it.
+
+5.2 The construction of truth objects
+We now turn to the construction of so-called ‘truth objects’ from pure quantum states ψ,
+see also [DI07b]. (To be precise, a unit vector ψ in the Hilbert space H represents a vector
+b := hψ| A
+b |ψi for all A
+b ∈ R.
+state ϕψ : R → C on a von Neumann algebra, given by ϕψ (A)
+If R = B(H), then every ϕψ is a pure state.) Of course, the Hilbert space H is the Hilbert
+space on which the von Neumann algebra of observables R ⊆ B(H) is represented. This is
+the most direct way in which
+Hilbert space actually enters the mathematical constructions
+op
+inside the topos SetV(R) . However, we will see how this direct appeal to Hilbert space
+possibly can be circumvented.
+Given a subobject of Σ that represents some proposition, a truth object will allow us
+to construct a global element 1 → Σ of Σ, as we will show in subsection 5.4. This means
+that from a proposition and a state, we do
+get an actual truth-value for that proposition
+V(R)op
+in the internal logic of the topos Set
+. The construction of truth objects is a direct
+generalisation of the classical case.
+For the moment, let us consider sets. Let S be a subset of some larger set X, and let
+x ∈ X. Then
+(x ∈ S) ⇔ (S ∈ U(x)),
+where U(x) denotes the set of neighbourhoods of x in X. The key observation is that while
+the l.h.s. cannot be generalised to the topos setting, since we cannot talk about points like
+x, the r.h.s. can. The task is to define neighbourhoods in a suitable manner. We observe
+that U(x) is a subset of the power set P X = P (X), which is the same as an element of
+the power set of the power set P P X = P (P (X)).
+
+14
+
+This leads to the idea that for each context V ∈ V(R), we must choose an appropriate
+set of subsets of the Gel’fand spectrum ΣV such that these sets of subsets form an element
+in P P Σ. Additionally, the subsets we choose at each stage V should be clopen, since the
+clopen subsets Pcl (ΣV ) form a lattice that is isomorphic to the lattice P(V ) of projections
+in V .
+The main difficulty lies in the fact that the spectral presheaf Σ has no global elements,
+which is equivalent to the Kochen-Specker theorem. A global element, if it existed, would
+pick one point λV from each Gel’fand spectrum ΣV (V ∈ V(R)) such that, whenever
+V ′ ⊂ V , we would have λV ′ = λV |V ′ . If we had such global elements, we could define
+neighbourhoods for them by taking, for each V ∈ V(R), neighbourhoods of λV in ΣV .
+Since no such global elements exist, we cannot expect to have neighbourhoods of points
+at each stage. Rather, we will get neighbourhoods of sets at each stage V , and only for
+particular V , these sets will have just one element. In any case, the sets will depend on
+the state ψ in a straighforward manner. We define:
+Definition 4 Let ψ ∈ H be a unit vector, let Pbψ the projection onto the corresponding onedimensional subspace (i.e., ray) of H, and let Pcl (ΣV ) be the clopen subsets of the Gel’fand
+spectrum ΣV . If S ∈ Pcl (ΣV ), then PbS ∈ P(V ) denotes the corresponding projection. The
+truth object Tψ = (TψV )V ∈V(R) is given by
+∀V ∈ V(R) : TψV := {S ∈ Pcl (ΣV ) | hψ| PbS |ψi = 1}.
+
+At each stage V , TψV collects all subsets S of ΣV such that the expectation value of the
+projection corresponding to this subset is 1. From this definition, it is not clear at first
+sight that the set TψV can be seen as a set of neighbourhoods.
+Lemma 5 We have the following equalities:
+∀V ∈ V(R) : TψV = {S ∈ Pcl (ΣV ) | hψ| PbS |ψi = 1}
+= {S ∈ Pcl (Σ ) | PbS ≥ Pbψ }
+V
+
+= {S ∈ Pcl (ΣV ) | PbS ≥ δ o (Pbψ )V }
+= {S ∈ Pcl (ΣV ) | S ⊇ Sδo (Pbψ )V }.
+
+Proof. If hψ| PbS |ψi = 1, then ψ lies entirely in the subspace of Hilbert space that PbS
+projects onto. This is equivalent to PbS ≥ Pbψ . Since PbS ∈ P(V ) and δ o (Pbψ )V is the smallest
+projection in V that is larger than Pbψ ,15 we also have PbS ≥ δ o (Pbψ )V . In the last step, we
+simply go from the projections in V to the corresponding clopen subsets of ΣV .
+This reformulation shows that TψV actually consists of subsets of the Gel’fand spectrum
+ΣV that can be seen as some kind of neigbourhoods, not of a single point of ΣV , but of
+a certain subset of ΣV , namely Sδo (Pbψ )V . In the simplest case, we have Pbψ ∈ P(V ), so
+15
+
+On projections, the spectral order ≤s and the linear order ≤ coincide.
+
+15
+
+δ o (Pbψ )V = Pbψ . Then Sδo (Pbψ )V = SPbψ , and this subset contains a single element, namely
+the pure state λ such that
+λ(Pbψ ) = 1
+
+b = 0 for all Q
+b ∈ P(V ) such that Q
+bPbψ = 0. In this case, Tψ actually consists of
+and λ(Q)
+V
+all the clopen neighbourhoods of the point λ in ΣV .
+
+In general, if Pbψ does not lie in the projections P(V ), then there is no subset of ΣV
+that corresponds directly to Pbψ . We must first approximate Pbψ by a projection in V , and
+δ o (Pbψ )V is the smallest projection in V larger than Pbψ . The projection δ o (Pbψ )V corresponds
+to a subset Sδo (Pbψ )V ⊆ ΣV that may contain more than one element. However, TψV can still
+be seen as a set of neighbourhoods, but now of this set Sδo (Pbψ )V rather than of a single
+point.
+It is an interesting and non-trivial point that the (outer) daseinisation δ o (Pbψ )V (V ∈
+V(R)) shows up in this construction. We did not discuss this here, but the subobjects of Σ
+constructed from the outer daseinisation of projections play a central rôle in the representation of a certain propositional language PL(S) that one can attach to a physical system
+S [DI07a, DI07b]. Moreover, these subobjects are ‘optimal’ in the sense that, whenever
+V ′ ⊂ V , the restriction from Sδo (Pb)V to Sδo (Pb)V ′ is surjective, see Theorem 3.1 in [DI07b].
+This property can also lead the way to a more internal characterisation of truth-objects,
+without reference to a state ψ and hence to Hilbert space.
+
+5.3 Truth objects and Birkhoff-von Neumann quantum logic
+There is yet another point of view on what a truth object Tψ is, closer the ordinary quantum
+logic, which goes back to the famous paper [BV36] by Birkhoff and von Neumann. For
+now, let us assume that R = B(H), then we write P(H) := P(B(H)) for the lattice
+of projections on Hilbert space. In their paper, Birkhoff and von Neumann identify a
+b ∈ ∆] ∈
+proposition “A ∈ ∆” about a quantum system with a projection operator E[A
+P(H) via the spectral theorem [KR83] and interpret the lattice structure of P(H) as
+giving a quantum logic. This is very different from the topos form of quantum logic, since
+P(H) is a non-distributive lattice, leading to all the well-known interpretational difficulties.
+Nonetheless, in this subsection we want to interpret truth objects from the perspective of
+Birkhoff-von Neumann quantum logic.
+The implication in ordinary quantum logic is given by the partial order on P(H): a
+proposition “A ∈ ∆1 ” implies a proposition “B ∈ ∆2 ” (where we can have B = A) if and
+b ∈ ∆1 ] ≤ E[B
+b ∈ ∆2 ] holds for the corresponding projections.
+only if E[A
+The idea now is that, given a pure state ψ and the corresponding projection Pbψ onto a
+ray, we can collect all the projections larger than or equal to Pbψ . We denote this by
+T ψ := {Pb ∈ P(H) | Pb ≥ Pbψ }.
+
+16
+
+The propositions represented by these projections are exactly those propositions about the
+quantum system that are (totally) true if the system is in the state ψ. Totally true means
+‘true with probability 1’ in an instrumentalist interpretation. If, for example, a projection
+b ∈ ∆] is larger than Pbψ and hence contained in T ψ , then, upon measurement of the
+E[A
+physical quantity A, we will find the measurement result to lie in the set ∆ with certainty
+(i.e., with probability 1).
+T ψ is a maximal (proper) filter in P(H). Every pure state ψ gives rise to such a maximal
+filter T ψ , and clearly, the mapping ψ 7→ T ψ is injective. We can obtain the truth object
+Tψ from the maximal filter T ψ simply by defining
+∀V ∈ V(R) : TψV := T ψ ∩ V.
+In each context V , we collect all the projections larger than Pbψ . On the level of propositions, we have all the propositions about physical quantities A in the context V that are
+totally true in the state ψ.
+
+5.4 The assignment of truth-values to propositions
+op
+
+We return to the consideration of the internal logic of the topos SetV(R) and show how to
+define a global element 1 → Ω of the subobject classifier from a clopen subobject S of Σ and
+a truth object Tψ . The subobject S represents a proposition about the quantum system,
+the truth object Tψ represents a state, and the global element of Ω will be interpreted as the
+truth-value of the proposition
+in the given state. Thus, we make use of the internal logic
+V(R)op
+of the topos Set
+of presheaves over the context category V(R) to assign truth-values
+to all propositions about a quantum system.
+It is well known that the subobject classifier Ω in a topos of presheaves is the presheaf
+of sieves (see e.g. [MM92]). A sieve σ on an object A in some category C is a collection of
+arrows with codomain A with the following property: if f : B → A is in σ and g : C → B
+is another arrow in C, then f ◦ g : C → A is in σ, too. In other words, a sieve on A is
+a downward closed set of arrows with codomain A. Since the context category V(R) is a
+partially ordered set, things become very simple: the only arrows with codomain V are the
+inclusions iV ′ V . Since such an arrow is specified uniquely by its domain V ′ , we can think
+of the sieve σ on V as consisting of certain subalgebras V ′ of V . If V ′ ∈ σ and V ′′ ⊂ V ′ ,
+then V ′′ ∈ σ.
+The restriction mappings of the presheaf Ω are given by pullbacks of sieves. The pullback
+of sieves over a partially ordered set takes a particularly simple form:
+Lemma 6 If σ is a sieve on V ∈ V(R) and V ′ ⊂ V , then the pullback σ · iV ′ V is given by
+σ∩ ↓V ′ . (This holds analogously for sieves on any partially ordered set, not just V(R)).
+Proof. For the moment, we switch to the arrows notation. By definition, the pullback
+σ · iV ′ V is given by
+σ · iV ′ V := {iV ′′ V ′ | iV ′ V ◦ iV ′′ V ′ ∈ σ}.
+
+17
+
+We now identify arrows and subalgebras as usual and obtain (using the fact that V ′′ ⊆ V ′
+implies V ′′ ⊂ V )
+{iV ′′ V ′ | iV ′ V ◦ iV ′′ V ′ ∈ σ} ≃ {V ′′ ⊆ V ′ | V ′′ ∈ σ} =↓V ′ ∩ σ.
+Since ↓ V ′ is the maximal sieve on V ′ , the pullback σ · iV ′ V is given as the intersection of
+σ with the maximal sieve on V ′ .
+The name pSq of the subobject S is the unique arrow 1 → P Σ = ΩΣ into the power
+object of Σ (i.e., the subobjects of Σ) that ‘picks out’ S among all subobjects. pSq is
+a global element of P Σ. Here, one uses the fact that power objects behave like sets, in
+particular, they have global elements. Since we assume that S is a clopen subobject, we
+also get an arrow 1 → Pcl Σ into the clopen power object of Σ, see [DI07b]. We denote this
+arrow by pSq, as well.
+Since Tψ ∈ P Pcl Σ is a collection of clopen subobjects of Σ, it makes sense to ask if S
+is among them; an expression like pSq ∈ Tψ is well-defined. We define, for all V ∈ V(R),
+the valuation
+v(pSq ∈ Tψ )V := {V ′ ⊆ V | S(V ′ ) ∈ TψV ′ }.
+At each stage V , we collect all those subalgebras of V such that S(V ′ ) is contained in TψV ′ .
+In order to construct a global element of the presheaf of sieves Ω, we must first show that
+v(pSq ∈ Tψ )V is a sieve on V . In the proof we use the fact that the subobjects obtained
+from daseinisation are optimal in a certain sense.
+Proposition 7 v(pSq ∈ Tψ )V := {V ′ ⊆ V | S(V ′ ) ∈ TψV ′ } is a sieve on V .
+Proof. As usual, we identify an inclusion morphism iV ′ V with V ′ itself, so a sieve on V
+consists of certain subalgebras of V . We have to show that if V ′ ∈ v(pSq ∈ Tψ )V and
+V ′′ ⊂ V ′ , then V ′′ ∈ v(pSq ∈ Tψ )V . Now, V ′ ∈ v(pSq ∈ Tψ )V means that S(V ′ ) ∈ TψV ′ ,
+which is eqivalent to S(V ′ ) ⊇ S δo (Pbψ )V ′ . Here, S δo (Pbψ )V ′ is the component at V ′ of the
+sub-object S o b = (S o b )V ∈V(R) of Σ obtained from daseinisation of Pbψ . According
+δ (Pψ )
+
+δ (Pψ )V
+
+to Thm. 3.1 in [DI07b], the sub-object S δo (Pbψ ) is optimal in the following sense: when
+restricting from V ′ to V ′′ , we have Σ(iV ′′ V ′ )(S δo (Pbψ )V ′ ) = S δo (Pbψ )V ′′ , i.e., the restriction is
+surjective. By assumption, S(V ′ ) ⊇ S δo (Pbψ )V ′ , which implies
+S(V ′′ ) ⊇ Σ(iV ′′ V ′ )(S(V ′ )) ⊇ Σ(iV ′′ V ′ )(S δo (Pbψ ) ′ ) = S δo (Pbψ ) ′′ .
+V
+
+V
+
+This shows that S(V ′′ ) ∈ TψV ′′ and hence V ′′ ∈ v(pSq ∈ Tψ )V .
+Finally, we have to show that the sieves v(pSq ∈ Tψ )V , V ∈ V(R), actually form a global
+element of Ω, i.e., they all fit together under the restriction mappings of the presheaf Ω:
+Proposition 8 The sieves v(pSq ∈ Tψ )V , V ∈ V(R), (see Prop. 7) form a global element
+of Ω.
+
+18
+
+Proof. From Lemma 6, is suffices to show that, whenever V ′ ⊂ V , we have v(pSq ∈
+Tψ )V ′ = v(pSq ∈ Tψ )V ∩ ↓V ′ . If V ′′ ∈ v(pSq ∈ Tψ )V ′ , then S(V ′′ ) ∈ TψV ′′ , which implies
+V ′′ ∈ v(pSq ∈ Tψ )V . Conversely, if V ′′ ∈↓ V ′ and V ′′ ∈ v(pSq ∈ Tψ )V , then, again,
+S(V ′′ ) ∈ TψV ′′ , which implies V ′′ ∈ v(pSq ∈ Tψ )V ′ .
+The global element v(pSq ∈ Tψ ) = (v(pSq ∈ Tψ )V )V ∈V(R) of Ω is interpreted as the
+truth-value of the proposition represented by S ∈ Pcl (Σ) if the quantum system is in the
+state ψ (resp. Tψ ). This assignment of truth-values is
+• contextual, since the contexts V ∈ V(R) play a central rôle in the whole construction
+• global in the sense that every proposition is assigned a truth-value
+• completely independent of any notion of measurement or observer, hence we call our
+scheme a ‘neo-realist’ formulation of quantum theory
+• topos-internal,
+the logical structure is not chosen arbitrarily, but fixed by the topos
+V(R)op
+Set
+. This topos is directly motivated from the Kochen-Specker theorem
+• non-Boolean, since there are (a) more truth-values than just ‘true’ and ‘false’ and
+(b) the global elements form a Heyting algebra, not a Boolean algebra. There is a
+global element 1 of Ω, consisting of the maximal sieve ↓V at each stage V , which is
+interpreted as ‘totally true’, and there is a global element 0 consisting of the empty
+sieve for all V , which is interpreted as ‘totally false’. Apart from that, there are many
+other global elements that represent truth-values between ‘totally true’ and ‘totally
+false’. These truth-values are neither numbers nor opprobabilities, but are given by
+the logical structure of the presheaf topos SetV(R) . Since a Heyting algebra in
+particular is a partially ordered set, there are truth-values v1 , v2 such that neither
+v1 < v2 nor v2 < v1 , which is also different from two-valued Boolean
+logic where
+V(R)op
+simply 0 < 1 (i.e., ‘false’<‘true’). The presheaf topos Set
+has a rich logical
+structure.
+
+6 Conclusion and outlook
+op
+
+The formulation of quantum theory within the presheaf topos SetV(R) gives a theory
+that is remarkably similar to classical physics from a structural perspective. In particular,
+there is a state object (the spectral presheaf Σ) and a quantity-value object (the presheaf
+R↔ of order-preserving and -reversing functions). Physical quantities are represented by
+arrows between Σ and R↔ .
+One of the future tasks will be the incorporation of dynamics. The process of daseinisation behaves well with respect to the action of unitary operators, see section 5.2 in
+[DI07c], so it is conceivable that there is a ‘Heisenberg picture’ of dynamics. Commutators
+remain to be understood in the topos picture. On the other hand, it is possible to let a
+truth-object Tψ change in time by applying Schrödinger evolution to ψ. It remains to be
+shown how this can be understood topos-internally.
+
+19
+
+Mulvey and Banaschewski have recently shown how to define the Gel’fand spectrum
+of an abelian C ∗ -algebra A in any Grothendieck topos, using constructive methods (see
+[BM06] and references therein). Spitters and Heunen made the following construction
+in [HS07]: one takes a non-abelian C ∗ -algebra A and considers the topos of (covariant)
+functors over the category of abelian subalgebras of A. The algebra A induces an internal
+abelian C ∗ -algebra A in this topos of functors. (Internally, algebraic operations are only
+allowed between commuting operators.) Spitters and Heunen observed that the Gel’fand
+spectrum of this internal algebra basically is the spectral presheaf.16 It is very reassuring
+that the spectral presheaf not only has a physical interpretation, but also such a nice and
+natural mathematical one. Spitters and Heunen also discuss integration theory in the
+constructive context. These tools will be very useful in order to regain actual numbers and
+expectation values from the topos formalism.
+Since the whole topos programme is based on the representation of formal languages,
+major generalisations are possible. One can represent the same language
+L(S) in different
+V(R)op
+topoi, as we already did with Set for classical physics and Set
+for algebraic quantum
+theory. For physical theories going beyond this, other topoi will play a rôle. The biggest
+task is the incorporation of space-time concepts, which will, at the very least, necessitate
+a change of the base category. It is also conceivable that the ‘smooth topoi’ of synthetic
+differential geometry (SDG) will play a rôle.
+Acknowledgements. I want to thank Chris Isham for numerous discussions and constant support. Moreover, I would like to thank Bob Coecke, Samson Abramsky, Jamie
+Vicary, Bas Spitters and Chris Heunen for stimulating discussions. This work was supported by the DAAD and the FQXi, which is gratefully acknowledged. Finally, I want
+to thank the organisers of the RDQFT workshop, Bertfried Fauser, Jürgen Tolksdorf and
+Eberhard Zeidler, for inviting me. It was a very enjoyable experience.
+
+References
+[Bell88] J. L. Bell, Toposes and Local Set Theories (Clarendon Press, Oxford 1988)
+[BM06] B. Banaschewski, C. J. Mulvey, “A globalisation of the Gelfand duality theorem”,
+Ann. of Pure and Applied Logic 137 (2006), 62-103
+[BV36]
+
+G. Birkhoff, J. von Neumann, “The logic of quantum mechanics”, Ann. of Math.
+37 (1936), 823-843
+
+[Doe05] A. Döring, “Kochen-Specker Theorem for von Neumann Algebras”, Int. J. Theor.
+Phys. 44, no. 2 (2005), 139-160
+[DI07a] A. Döring, C. J. Isham, “A Topos Foundation for Theories of Physics: I. Formal
+Languages for Physics”, quant-ph/0703060
+16
+
+The change from presheaves, i.e., contravariant functors, to covariant functors is necessary in the constructive context.
+
+20
+
+[DI07b] A. Döring, C. J. Isham, “A Topos Foundation for Theories of Physics: II. Daseinisation and the Liberation of Quantum Theory”, quant-ph/0703062
+[DI07c] A. Döring, C. J. Isham, “A Topos Foundation for Theories of Physics: III.
+The Representation of Physical Quantities with Arrows δ o (A) : Σ → R ”,
+quant-ph/0703064
+[DI07d] A. Döring, C. J. Isham, “A Topos Foundation for Theories of Physics: IV. Categories of Systems”, quant-ph/0703066
+[Gol84] R. Goldblatt, Topoi, The Categorical Analysis of Logic, revised second edition
+(North-Holland, Amsterdam, New York, Oxford 1984)
+[deG05] H. F. de Groote, “On a canonical lattice structure on the effect algebra of a von
+Neumann algebra”, quant-ph/0410018 v2 (2005)
+[deG05b] H. F. de Groote, “Observables”, math-ph/0507019
+[deG07] H. F. de Groote, “Observables IV: The Presheaf Perspective”, mathph/0708.0677
+[HS07]
+
+C. Heunen, B. Spitters, “A topos for algebraic quantum theory”, quantph/0709.4364
+
+[Ish97]
+
+C. J. Isham “Topos Theory and Consistent Histories: The Internal Logic of the
+Set of all Consistent Sets”, Int. J. Theor. Phys. 36 (1997), 785-814
+
+[IB98]
+
+C. J. Isham, J. Butterfield, “A topos perspective on the Kochen-Specker theorem:
+I. Quantum states as generalised valuations”, Int. J. Theor. Phys. 37 (1998),
+2669-2733
+
+[IB99]
+
+C. J. Isham, J. Butterfield, “A topos perspective on the Kochen-Specker theorem:
+II. Conceptual aspects, and classical analogues”, Int. J. Theor. Phys. 38 (1999),
+827-859
+
+[IB00]
+
+C. J. Isham, J. Butterfield, “Some Possible Roles for Topos Theory in Quantum
+Theory and Quantum Gravity”, Found. Phys. 30 (2000), 1707-1735
+
+[IBH00] C. J. Isham, J. Butterfield, J. Hamilton, “A topos perspective on the KochenSpecker theorem: III. Von Neumann algebras as the base category”, Int. J. Theor.
+Phys. 39 (2000), 1413-1436
+[IB02]
+
+C. J. Isham, J. Butterfield, “A topos perspective on the Kochen-Specker theorem:
+IV. Interval valuations”, Int. J. Theor. Phys. 41, no. 4 (2002), 613-639
+
+[Joh02a] P. T. Johnstone, Sketches of an Elephant, A Topos Theory Compendium, Vol. 1
+(Clarendon Press, Oxford 2002)
+[Joh02b] P. T. Johnstone, Sketches of an Elephant, A Topos Theory Compendium, Vol. 2
+(Clarendon Press, Oxford 2002)
+
+21
+
+[KR83] R. V. Kadison, J. R. Ringrose, Fundamentals of the Theory of Operator Algebras,
+Vol. 1 (Academic Press, San Diego 1983; AMS reprint 2000)
+[KS67]
+
+S. Kochen, E. P. Specker, “The problem of hidden variables in quantum mechanics”, Journal of Mathematics and Mechanics 17 (1967), 59-87
+
+[LS86]
+
+J. Lambek, P. J. Scott, Introduction to higher order categorical logic (Cambridge
+University Press, Cambridge, New York etc. 1986)
+
+[LR03]
+
+F. W. Lawvere, R. Rosebrugh, Sets for Mathematicians (Cambridge University
+Press, Cambridge 2003)
+
+[McL71] S. Mac Lane, Categories for the Working Mathematician (Springer, New York,
+Berlin etc. 1971; second, revised edition 1997)
+[MM92] S. Mac Lane, I. Moerdijk, Sheaves in Geometry and Logic, A First Introduction
+to Topos Theory, Springer (New York, Berlin etc. 1992)
+[Ols71]
+
+M. P. Olson, “The Selfadjoint Operators of a von Neumann Algebra Form a
+Conditionally Complete Lattice”, Proc. of the AMS 28 (1971), 537-544
+
+[Sto36]
+
+M. H. Stone, “The theory of representations for Boolean algebras”, Trans. Amer.
+Math. Soc. 40 (1936), 37-111
+
+22
+
+

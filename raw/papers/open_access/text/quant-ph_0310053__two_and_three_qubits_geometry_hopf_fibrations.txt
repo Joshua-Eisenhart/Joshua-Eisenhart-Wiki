@@ -1,0 +1,925 @@
+TWO AND THREE QUBITS GEOMETRY AND HOPF
+FIBRATIONS
+
+arXiv:quant-ph/0310053v1 8 Oct 2003
+
+REMY MOSSERI
+
+Abstract. This paper reviews recent attempts to describe the two- and threequbit Hilbert space geometries with the help of Hopf fibrations. In both cases,
+it is shown that the associated Hopf map is strongly sensitive to states entanglement content. In the two-qubit case, a generalization of the one-qubit
+celebrated Bloch sphere representation is described.
+
+1. Introduction
+Two-level quantum systems, denoted qubits, have gained a renewed interest in
+the past ten years, owing to the fascinating perspectives of quantum information[1].
+Having in mind the different qubit manipulation protocols that are proposed in this
+growing field, it is therefore of high interest to represent their quantum evolution in
+a suitable representation space, in order to get some insight into the subtleties of this
+complicated problem. For single two-level systems, a well known tool in quantum
+optics is the Bloch sphere representation, where the simple qubit state is faithfully
+represented, up to a global phase, by a point on a standard sphere S 2 , whose
+coordinates are expectation values of physically interesting operators for the given
+quantum state. Guided by the relation between the Bloch sphere and a geometric
+object called the Hopf fibration of the S 3 hypersphere[4], a generalization for a twoqubit system was recently proposed[5], in the framework of the (high dimensional)
+S 7 sphere Hopf fibration, and will be recalled below. An interesting result is that
+the S 7 Hopf fibration is entanglement sensitive and therefore provides a kind of
+”stratification” for the 2 qubits states space with respect to their entanglement
+content. An extension of this description to a three qubits system, using the S 15
+Hopf fibration, will also be presented here.
+We first briefly remind known facts about the Bloch sphere representation, and
+its close relation to the S 3 Hopf fibration. We then recall in some details what was
+recently done for the two-qubit case in terms of the S 7 Hopf fibration. The S 15
+Hopf fibration is then introduced, which helps describing the three-qubits Hilbert
+space geometry. As far as computation is concerned, going from the S 3 to the
+S 7 and then the S 15 fibrations merely amounts to replacing complex numbers by
+quaternions and then octonions. This is why a brief introduction to quaternions
+and octonions is given in appendix. Note that using these two kinds of generalized
+numbers is not strictly necessary here, but they provide an elegant way to put
+the calculations into a compact form, and have (by nature) a natural geometrical
+interpretation
+1
+
+2
+
+REMY MOSSERI
+
+2. From the S3 hypersphere to the Bloch sphere representation
+A (single) qubit state reads
+(1)
+
+|Ψi = α |0i + β |1i ,
+
+2
+
+α, β ∈ C,
+
+2
+
+|α| + |β| = 1
+
+In the spin 12 context, the orthonormal basis {|0i , |1i} are the two eigenvectors
+of the (say) σz (Pauli spin) operator. Viewed as pairs of real numbers, the two
+normalized components α, β generate a unit radius sphere S3 embedded in R4 . To
+take into account the global phase freedom, one expects to find a way to fill S3
+with circles (the orbit of a global phase exp iω multiplying the pair (α, β)), such
+that each state belongs to exactly one such circle. This task is nicely fulfilled by
+the so-called S3 Hopf fibration [2].
+A fibred space E is defined by a (many-to-one) map from E to the so-called
+”base space”, all points of a given fibre F being mapped onto a single base point.
+A fibration is said ”trivial” if the base B can be embedded in the fibred space E,
+the latter being faithfully described as the direct product of the base and the fibre
+(think for instance of fibrations of R3 by parallel lines R and base R2 or by parallel
+planes R2 and base R).
+The simplest, and most famous, example of a non trivial fibration is the Hopf
+fibration of S 3 by great circles S 1 and base space S 2 . For the qubit Hilbert space
+purpose, the fibre represents the global phase degree of freedom, and the base S 2
+is identified to the Bloch sphere. One standard notation for a fibred space is that
+S1
+
+F
+
+of a map E → B, which reads here S 3 → S 2 . Its non trivial character implies
+S 3 6= S 2 × S 1 . This translates into the known failure in ascribing consistantly a
+definite phase to each representing point on the Bloch sphere.
+To describe this fibration in an analytical form, we go back to the definition of
+S 3 as pairs of complex numbers (α, β) which satisfy |α|2 + |β|2 = 1. The Hopf map
+is defined as the composition of a map h1 from S 3 to R2 (+∞), followed by an
+inverse stereographic map h2 from R2 to S 2 :
+h1 :
+(2)
+
+h2 :
+
+S3
+−→ R2 + {∞}
+(α, β) −→ C = αβ −1
+
+R2 + {∞}
+C
+
+α, β ∈ C
+
+−→
+S2
+−→ M (X, Y, Z)
+
+X2 + Y 2 + Z2 = 1
+
+where z is the complex conjugate of z). The first map h1 clearly shows that the
+full S 3 great circle, parametrized by (α exp iω, β exp iω), is mapped onto the same
+single point with complex coordinate C. It is easy to show that, with R2 cutting
+the unit radius S 2 along the equator, and the north pole (along the Z axis) as the
+stereographic projection pole, the S 2 Hopf fibration base coordinates coincide with
+the well known S 2 Bloch sphere coordinates :
+(3)
+
+X = hσx iΨ = 2 Re(αβ)
+Y = hσy iΨ = 2 Im(αβ)
+2
+
+2
+
+Z = hσz iΨ = |α| − |β| )
+This correspondance between Hopf map and Bloch sphere is not new [4], but is
+poorly known in both communities (quantum optics and geometry). It is striking
+
+TWO AND THREE QUBITS GEOMETRY AND HOPF FIBRATIONS
+
+3
+
+that the simplest non trivial object of quantum physics, the two-level system, bears
+such an intimate relation with the simplest non trivial fibred space.
+It is tempting to try to visualize the full (S 3 ) Hilbert space with its fibre structure. This can be achieved by doing a (direct) stereographic map from S 3 to R3
+(figure 1). Each S 3 circular fibre is mapped onto a circle in R3 , with an exceptional
+straight line, image of the unique S 3 great circle passing through the projection
+pole.
+
+Figure 1 : S 3 Hopf fibration after a stereographic map
+onto R3 . Circular S 1 fibres are mapped onto circles in
+R3 , except the exceptional fibre through the projection
+pole, which is mapped onto a vertical straight line.
+Fibres can be grouped into a continuous family of nested
+tori, three of which are shown here
+
+3. Two qubits, entanglement and the S 7 Hopf fibration
+3.1. The two-qubits Hilbert space. We now proceed one step further, and investigate pure states for two qubits. The Hilbert space E for the compound system
+is the tensor product of the individual Hilbert spaces E1 ⊗ E2 , with a direct product
+basis {|00i , |01i , |10i , |11i}. A two-qubit state reads
+(4)
+
+|Ψi = α |00i + β |01i + γ |10i + δ |11i
+2
+
+2
+
+2
+
+2
+
+with α, β, γ, δ ∈ C, and |α| + |β| + |γ| + |δ| = 1
+|Ψi is said ”separable” if it can be written as a simple product of individual kets
+belonging to E1 and E2 separately, a definition which translates into the well known
+following condition : αδ = βγ. A generic state is not separable, and is said to be
+”entangled”. The |Ψi normalization condition |α|2 + |β|2 + |γ|2 + |δ|2 = 1 identifies
+E to the 7-dimensional sphere S 7 , embedded in R8 . It was therefore tempting to see
+whether the known S 7 Hopf fibration (with fibres S 3 and base S 4 ) can play any role
+
+4
+
+REMY MOSSERI
+
+in the Hilbert space description. This is the case indeed, as we have shown recently
+[5]. Let us summarize the main results, keeping in mind that some notations has
+been changed as compared to this latter reference.
+3.2. The S 7 Hopf fibration. One follows the same line as in the S 3 case, but
+using quaternions instead of complex numbers (see appendix). We write
+(5)
+
+q1 = α + βj, q2 = γ + δj,
+
+q1, q2 ∈ Q,
+
+and a point (representing the state |Ψi) on the unit radius S 7 as a pair of
+quaternions (q1, q2 ) satisfying |q1 |2 + |q2 |2 = 1. The Hopf map from S 7 to the base
+S 4 is the composition of a map h1 from S 7 to R4 (+∞), followed by an inverse
+stereographic map h2 from R4 to S 4 .
+
+(6)
+
+h1 :
+
+S7
+(q1 , q2 )
+
+−→ R4 + {∞}
+−→ Q = q1 q2−1
+
+h2 :
+
+R4 + {∞} −→
+S4
+Q
+−→ M (xl )
+
+q1, q2 ∈ Q
+l=4
+X
+
+x2l = 1
+
+l=0
+
+The base space S 4 is not embedded in S 7 : the fibration is again not trivial. The
+fibre is a unit S 3 sphere as can seen easily by remarking that the S 7 points (q1, q2 )
+and (q1 q, q2 q), with q a unit quaternion (geometrically a S 3 sphere) are mapped
+onto the same Q value.
+The h1 map leads to
+h
+i
+1
+1
+(α + βj) (γ − δj) =
+(7)
+(C1 + C2 j)
+Q = q1 q2−1 =
+2
+sin (θ/2)
+sin2 (θ/2)
+
+with sin (θ/2) = |q2 | , C1 = αγ + βδ , C2 = (αδ − βγ) and C1 , C2 ∈ C
+
+We face here a first striking result: the Hopf map is entanglement sensitive!
+Indeed, non entangled states satisfy αδ = βγ and therefore map onto the subset of
+pure complex numbers in the quaternion field (both being completed by ∞ when
+the Q denominator vanishes3). Geometrically, this means that non-entangled states
+map from S 7 onto a 2-dimensional planar subspace of the target space R4 .
+The second map h2 sends states onto points on S 4 , with coordinates xl , with
+l running from to 0 to 4. With the inverse stereographic pole located on the S 4
+”north pole ” (x0 = +1), and the target space R4 cutting S 4 along the equator,
+we get the following coordinate expressions
+(8)
+
+2
+
+x0 = cos θ = |q1 | − |q2 |
+
+2
+
+x1 = sin θ S(Q′ ) = 2 Re αγ + βδ
+
+
+
+x2 = sin θ Vi (Q′ ) = 2 Im αγ + βδ
+
+
+
+x3 = sin θ Vj (Q′ ) = 2 Re (αδ − βγ)
+
+x4 = sin θ Vk (Q′ ) = 2 Im (αδ − βγ)
+Q′ is the normalized image of the h1 map (Q′ = tan (θ/2) Q), S(Q′ ) and Vi,j,k (Q′ )
+being respectively the scalar and vectorial parts of the quaternion Q′ (see appendix).
+As for the standard Bloch sphere case, the xl coordinates are also expectation values
+of simple operators in the two-qubits state. An obvious one is x0 which corresponds
+
+TWO AND THREE QUBITS GEOMETRY AND HOPF FIBRATIONS
+
+5
+
+to hσz ⊗ IdiΨ . The two next coordinates are also easily recovered as
+
+(9)
+x1 = 2 Re αγ + βδ = hσx ⊗ IdiΨ
+
+x2 = 2 Im αγ + βδ = hσy ⊗ IdiΨ
+
+The remaining two coordinates, x3 and x4 , are also expectation values of an
+operator acting on E, but in a more subtle way. Define J as the (antilinear) ”conjugator”, an operator which takes the complex conjugate of all complex numbers
+involved in an expression (here acting on the left in the scalar product below). Form
+then the antilinear operator E (for ”entanglor”): E = −J (σy ⊗ σy ). One finds
+x3 = Re hEiΨ
+
+x4 = Im hEiΨ .
+
+Note that hEiΨ vanishes for non entangled states, and takes its maximal norm
+(equals to 1) for maximally entangled states. Such an operator, which is nothing
+but the time reversal operator for two spins 12 , is already widely used in quantifying
+entanglement[7], through a quantity called the ”concurrence” c, which corresponds
+here to c = 2 |C2 |.
+3.3. Generalized Bloch sphere for the two-qubit case. Let us first inverse
+the Hopf map, and get the general expression for the set of states ( a S 3 sphere
+in S 7 ) which is sent to Q by the h1 map. A generic such state, noted ΨQ , reads
+(given as a pair of quaternions)
+(10)
+
+ΨQ = (cos (θ/2) q , sin (θ/2) Q′ q),
+
+with q a unit quaternion spanning the S 3 fibre. Notice that we could also write
+ΨQ in a way that recall the standard spinor notation (but here with quaternionic
+instead of complex components):
+(11)
+
+ΨQ = (cos (θ/2) exp (−ϕt/2) q , sin (θ/2) exp (ϕt/2) q),
+
+where cos ϕ = x1 / sin θ = S(Q′ ), and t is the following unit pure imaginary
+quaternion :
+(12)
+
+t = (Vi (Q′ )i + Vj (Q′ )j + Vk (Q′ )k) / sin ϕ.
+
+In order to compare with the generic expression (4), we aim to write ΨQ as
+a quadruplet of complex numbers. For that purpose, we express the two unit
+quaternions q and Q′ in terms of pairs of complex numbers, q = a + bj (with
+2
+2
+2
+2
+|a| + |b| = 1), and Q′ = u + vj (with |u| + |v| = 1), and eventually get:
+(13)
+
+ΨQ = (cos (θ/2) a , cos (θ/2) b, sin (θ/2) (ua − vb), sin (θ/2) (ub + va))
+
+In the above expression, θ, u and v correspond to the base space part of the
+fibration. Furthermore, we can relate u and v to already known quantities. Indeed
+u = (x1 + ix2 )/ sin θ = h(σx + iσy ) ⊗ IdiΨ / sin θ.
+
+In addition, the state global phase indeterminacy allows to take v a real. More
+precisely
+v = c/ sin θ , where c is the above mentionned concurrence
+Let us now describe the two extreme cases of separable and maximally entangled
+states.
+
+6
+
+REMY MOSSERI
+
+3.3.1. Separable states. In the non entangled case, we have seen above that Q is a
+complex number, t = i, and therefore u = exp iϕ and v = 0. The above expression
+simplifies to
+(14)
+
+ΨQ = (cos (θ/2) a, cos (θ/2) b, sin (θ/2) a exp iϕ, sin (θ/2) b exp iϕ).
+
+Up to a global rescaling by exp (−iϕ/2), one gets the following ket |ΨQ i:
+(15)
+|ΨQ i = (cos (θ/2) exp (−iϕ/2) |0i1 + sin (θ/2) exp (iϕ/2) |1i1 ) ⊗ ( a |0i2 + b |1i2 )
+The projective Hilbert space for two non-entangled qubits is known to be the
+product of two 2-dimensional spheres S12 × S22 , each sphere being the Bloch sphere
+associated with the given qubit. This property is clearly displayed here. The unit
+S 4 base space reduces to a unit S 2 sphere (since x3 = x4 = 0) which is nothing but
+the Bloch sphere for the first qubit. The second qubit Bloch sphere is then recovered
+from the fibre, spanned by q = a + bj. Indeed, we can iterate the fibration process
+on the S 3 fibre itself and get the (Hopf fibration base)-(Bloch sphere) coordinates
+for this two-level system. It is now easy to recover that this new S 2 base is the
+second qubit Bloch sphere.
+In summary, for non entangled qubits, the S 7 Hopf fibration, with base S 4 and
+fibre S 3 , simplifies to the simple product of a S 2 sub-sphere of the base (the first
+qubit Bloch sphere) by a second S 2 (the second qubit Bloch sphere) obtained as
+the base of a S 3 Hopf fibration applied to the fibre itself. Let us stress that this
+last iterated fibration is necessary to take into account the global phase of the two
+qubit system.
+The fact that these two S 2 spheres play a symmetrical role (although one is
+related to the base and the other to the fibre) can be understood in the following
+way. We grouped together α and β on one hand, and γ and δ on the other hand,
+to form the quaternions q1 and q2 , and then define the Hopf map h1 as the ratio of
+these two quaternions (plus a complex conjugation). Had we grouped α and γ, and
+β and δ, to form two new quaternions, and use the same definition for the Hopf
+map, we would also get a S 7 Hopf fibration, but differently oriented. We let as an
+exercise to compute the base and fibre coordinates in that case. The net effect is to
+interchange the role of the two qubits: the second qubit Bloch sphere is now part
+of the S 4 base, while the first qubit Bloch sphere is obtained from the S 3 fibre.
+3.3.2. Maximally entangled states. Let us now focus on maximally entangled states
+(M.E.S.). They correspond to the complex number C2 having maximal norm 1/2
+(unit concurrence). This in turn implies that the Hopf map base reduces to a
+unit circle in the plane (x3 , x4 ), parametrized by the unit complex number 2C2 .
+The projective Hilbert space for these M.E.S. is known to be S 3 /Z2 , a S 3 sphere
+with identified opposite points [3] (this is linked to the fact that all M.E.S. can be
+related by a local operation on one sub-system, since S 3 /Z2 = SO(3)). In order
+to recover this result in the present framework, one can follow the trajectory of a
+representative point on the base and on the fibre while the state is multiplied by
+an overall phase exp (iω). The expression for C2 (= αδ − βγ) shows that the point
+on the base turns by twice the angle ω. Only when ω = π does the corresponding
+state belongs to the same fiber (e.g. maps onto the same value on the base). The
+fact that the fibre is a S 3 sphere, and this two-to-one correspondance between the
+fibre and the base under a global phase change, explains the S 3 /Z2 topology for
+
+TWO AND THREE QUBITS GEOMETRY AND HOPF FIBRATIONS
+
+7
+
+the M.E.S. projective Hilbert space. Let us give now a more explicit proof of that
+result.
+M.E.S.correspond to θ = π/2 and maximal concurrence (c = 1), which leads to
+u = 0 and v = 1. ΨMES therefore read , from expression (13):
+(16)
+
+1
+ΨMES = √ (a, b , −b, a).
+2
+
+The latter expression (16) for maximally entangled states is rather interesting in
+that it directly shows the S 3 /Z2 topology for the M.E.S. projective Hilbert space.
+Indeed, the M.E.S. set corresponds to pairs (a, b), which as a whole cover a unit
+radius S 3 sphere. Now, looking to the quadruplet expression (16), opposite points
+(a, b) and (−a, −b) on S 3 clearly correspond to the same state ΨMES (up to a global
+phase). Opposite points on S 3 have therefore tobe identified, leading to the S 3 /Z2
+(≡ SO(3)) structure.
+This one-to-one correspondance between M.E.S. and 3 dimensional rotation matrices has recently led to propose using the former in an ”applied topology” experiment [8]: to verify experimentally the well known subtle topology of the (two-fold
+connected) SO(3) group. The latter property is evidenced by constructing the two
+inequivalent family of closed paths in the geometrical manifold representing this
+group. This is done by choosing sequences of unitary operations on the MES twoqubits states. The non equivalence between the two paths is manifested by a π
+topological phase shift which should result from an adequate interference experiment (a twin photons experiment have been proposed, but other two-qubit states
+could be used).
+3.3.3. A generalization of the Bloch sphere representation. We are now led to consider a generalization of the Bloch sphere for the two-qubit projective Hilbert space.
+Clearly, the present Hopf fibration description suggests a splitting of the representation space in a product of base and fibres sub-spaces. Of the base space S 4 , we
+propose to only keep the first three coordinates
+
+(17)
+(x0 , x1 , x2 ) = hσz ⊗ IdiΨ , hσx ⊗ IdiΨ , hσy ⊗ IdiΨ
+
+All states map inside a standard ball B 3 of radius 1, where the set of separable
+states forms the S 2 boundary (the usual first qubit Bloch sphere), and the centre
+corresponds to maximally entangled states. Concentric spherical shells around the
+centre correspond to states of equal concurrence c (maximal at
+√ the centre, zero on
+the surface), the radius of the spherical shell being equal to 1 − c2 . The idea of
+slicing the 2-qubit Hilbert space into manifolds of equal concurrence is not new
+[3],[9]. What is nice here is that, under the Hopf map (and a projection onto the
+3d subspace of the base spanned by the first three coordinates), these manifolds
+transforms into concentric S 2 shells which fill the unit ball.
+To each point (x0 , x1 , x2 ), it corresponds a S 3 /Z2 manifold, spanned by the
+couple (a, b), as seen clearly from relation (13), with an added identification of
+(a, b) and (−a, −b). The natural generalization of the Bloch sphere for two qubits is
+therefore a product of two B 3 balls. The first one, spanned by the triple (x0 , x1 , x2 ),
+has just been described as containing the partial Bloch sphere for one the two qubits,
+with its set of concentric iso-concurrence spheres. The second one corresponds to
+←
+→
+the standard representation of SO(3) by a B 3 ball of radius π, the double arrow
+sign recalling that opposite points on the boundary S 2 sphere have to be identified.
+
+8
+
+REMY MOSSERI
+
+Figure 1. Foliation of the two-qubits Hilbert space with respect
+to state entanglement
+This picture is valid for all states except the separable ones, for which the fiber
+←
+→
+derived B 3 space reduces to a S 2 sphere (the second qubit partial Bloch sphere).
+Instead of mapping the continuous set of S 2 spheres onto the filled ball B 3
+in the space spanned by (x0 , x1 , x2 ), this nice(but singular) foliation of the twoqubit projective Hilbert space (here the complex projective space CP 3 ) can be
+also pictured as a concurrence segment (between 0 and 1) with the corresponding
+sub-manifolds. The sub-space of vanishing concurrence has a S 2 × S 2 structure,
+while that of maximal (c = 1) concurrence corresponds to SO(3). Sub-manifolds
+2
+of intermediate concurrence
+√ have the structure of a direct product S × SO(3), the
+2
+2
+sphere S having radius 1 − c . This illustrated in the figure 2 below
+Examples
+Back to to the B 3 picture, let us for instance go through the states along a simple
+B ray, from the point (0, 1, 0) , image of the states ΨS such that hσx ⊗ IdiΨ = 1,
+to the B 3 center (0, 0, 0), image the maximally entangled states ΨMES . Q′ reduces
+to a unit circle in the plane spanned by (x1 , x3 ), and these states are therefore
+parametrized by a single angle ǫ in the interval [0, π/2],
+3
+
+1
+Ψǫ = √ ( q , exp (ǫj) q).,
+2
+or, written as a quadruplet of complex numbers,
+
+(18)
+
+1
+Ψǫ = √ (a , b, a cos ǫ − b sin ǫ, b cos ǫ + a sin ǫ).
+2
+For ǫ = 0, one gets
+1
+(20)
+Ψǫ=0 = ΨS = √ (a, b, a, b) . and therefore
+2
+1
+|ΨS i = √ (|0i1 + |1i1 ) ⊗ (a |0i2 + b |1i2 ) ,
+2
+as expected for the set of separable states which are eigenstates of σx ⊗ Id (with
+eigenvalue +1).
+For ǫ = π/2, the above set of maximally entangled states, as given by relation
+(16), is recovered. Intermediate values of ǫ correspond to less entangled states,
+(19)
+
+TWO AND THREE QUBITS GEOMETRY AND HOPF FIBRATIONS
+
+9
+
+whose concurrence read c = sin ǫ, as can be easily found from equation (19). Expression (19) also proves that the set of such states describes a S 3 /Z2 manifold.
+Similar analyses can be done for any path inside the B 3 ball. A second very
+simple example is provided by the path from (1, 0, 0) to (0, 0, 0). In that case the
+states, again parametrized by an angle ǫ, read
+ǫ
+ǫ
+ǫ
+ǫ
+Ψǫ = (cos a , cos b, − sin b, sin a).
+2
+2
+2
+2
+3.3.4. Relation with the Bloch ball representation for mixed states. The Bloch ball
+single qubit mixed state representation was recalled above. In that case, the centre
+of the Bloch ball corresponds to maximally mixed states. The reader should not
+be surprised to find here (in the two-qubits case) a second unit radius ball, with
+maximally entangled states now at the centre. It corresponds to a known relation
+between partially traced two-qubit pure states and one-qubit mixed state. Indeed
+the partially traced density matrix ρ1 is simply written in terms of C1 and C2
+derived from the S 7 Hopf map:
+(21)
+
+ρ1 =
+
+1
+2
+
+
+
+1 + x0
+x1 + i x2
+
+x1 − i x2
+1 − x0
+
+
+
+=
+
+
+
+|q1 |2
+C1
+
+C1
+|q2 |2
+
+
+
+with unit trace and det ρ1 = |C2 |2 . The partial ρ1 represents a pure state density
+matrix whenever C2 vanishes (the separable case), and allows for a unit Bloch sphere
+(that associated to the first qubit). It corresponds to a mixed state density matrix
+as soon as |C2 | > 0 (and an entangled state for the two qubit state). The other
+partially traced density matrix ρ2 is related to the other S 7 Hopf fibration which
+was discussed above.
+4. Three qubits, and the S 15 Hopf fibration
+4.1. Three qubits. The Hilbert space E for the compound system is the tensor
+product of the individual Hilbert spaces E1 ⊗ E2 ⊗ E3 , with a direct product basis
+{|000i , |001i , |010i , |011i , |100i , |101i , |110i , |111i} ,
+which can be written {|li , l = 0..7}. A three-qubit state reads
+|Ψi =
+
+7
+X
+l=0
+
+tl |li
+
+with tl ∈ C, and
+
+X
+
+2
+
+|tl | = 1
+
+The |Ψi normalization condition identifies E to the 15-dimensional sphere S 15 ,
+embedded in R16 . This suggests looking to how far the third Hopf fibration (that of
+S 15 , with base S 8 and fibres S 7 ) can be helpful for describing the 3 qubits Hilbert
+space geometry.
+4.2. The S 15 Hopf fibration. One proceeds along the same line as for the previous
+S 3 and S 7 cases, but using now octonions (see appendix). We write
+(22)
+
+a = a′ + a”e, b = b′ + b”e,
+
+a, b ∈ O, and a′ , a”, b′ , b” ∈ Q,
+
+and a point (representing the state |Ψi) on the unit radius S 15 as a pair of
+2
+2
+octonions (a, b) satisfying |a| +|b| = 1. But, to get a Hopf map of physical interest,
+with coordinates simply related to interesting observable expectation values, one
+
+10
+
+REMY MOSSERI
+
+needs to define a slightly tricky relation between |Ψi and the octonions pair (a, b),
+as follows:
+(23)
+
+a = (t0 + t1 j,t2 + jt3 ) = (t0 + t1 j,t2 + t3 j) = (a′ , a′′ )
+b = (t4 + t5 j,t6 + jt7 ) = (t4 + t5 j,t6 + t7 j) = (b′ , b′′ )
+
+The Hopf map from S 15 to the base S 8 is the composition of a map h1 from S 15
+to R8 (+∞), followed by an inverse stereographic map h2 from R8 to S 8 .
+
+(24)
+
+h1 :
+
+S 15
+(a, b)
+
+−→ R8 + {∞}
+−→ P = ab−1
+
+h2 :
+
+R8 + {∞}
+P
+
+−→
+S8
+−→ M (xl )
+
+8
+
+a, b ∈ O
+l=8
+X
+
+x2l = 1
+
+l=0
+
+15
+
+The base space S is not embedded in S : the fibration is again not trivial.
+The fibre is a unit S 7 sphere, the proof of which is more tricky (and not given
+here) than in the lower dimension case. The h1 map leads to
+1
+(25)
+(Q1 + Q2 e)
+P = ab−1 =
+2
+sin θ/2
+with sin θ/2 = |b| , Q1 = (b′ a′ + a′′ b′′ ), Q2 = (−a′′ b′ + b′′ a′ ) and Q1 , Q2 ∈ Q
+Athough this is not at first sight evident, the Hopf map is still entanglement
+sensitive in that case. To show this, it is instructive to first express Q1 and Q2 in
+term of the tl components read out from (23).
+
+Q1 = t0 t4 + t1 t5 + t2 t6 + t3 t7 ) + (t0 t5 − t1 t4 + t2 t7 − t3 t6 j
+
+Q2 = t0 t6 + t2 t4 + t3 t5 − t1 t7 ) + (t1 t6 − t2 t5 + t0 t7 − t3 t4 j
+
+Let us introduce the generalised complex concurrence terms Tij,kl = ti tj − tk tl .
+They allow to write in a synthetic form the coordinates on the base S 8 . The second
+map h2 sends states onto points on S 8 , with coordinates xl , with l running from
+to 0 to 8. With the inverse stereographic pole located on the S 8 ”north pole ”
+(x0 = +1), and the target space R8 cutting S 8 along the equator, we get the
+following coordinate expressions
+(26)
+
+(27)
+
+2
+
+2
+
+x0 = cos θ = |a| − |b| = hσz ⊗ Id ⊗ IdiΨ
+
+x1 + i x2 = 2 t0 t4 + t1 t5 + t2 t6 + t3 t7 = (σx + i σy )1 ⊗ Id ⊗ Id Ψ
+
+x3 + i x4 = 2 T05,14 + T27,36
+
+x5 + i x6 = 2 T06,24 + T35,17
+
+x7 + i x8 = 2 T16,25 + T07,34
+
+A lengthy, but trivial, computation allows to verify that the base S 8 has unit
+radius.
+4.3. Discussion. It is easy to show that three-qubits states such that the first
+qubit is separated from the two others map onto a point such that xj = 0, for
+j = 4, 5, 6, 7, 8. One way to show this is to realize that, in a multi-qubit state, a given
+qubit is separated from the others when its partial Bloch sphere has a unit radius.
+The first qubit partial Bloch sphere is spanned here by the triplet (x0 , x1 , x2 ). A
+
+TWO AND THREE QUBITS GEOMETRY AND HOPF FIBRATIONS
+
+11
+
+second proof consists in writing down the separability algebraic conditions [10]. In
+the present case, the latter imply that the above generalized concurrences vanish
+(in fact the six vanishing conditions only rely onto three independant conditions).
+Going back to the above definition of the h1 map, this means that in that case, the
+Hopf map carries an octonion couple onto a pure complex number P . Therefore, as
+for two-qubits and S 7 , the S 15 Hopf fibration is also entanglement sensitive
+for three qubits! This result has been independantly derived by Bernevig and
+Chen[11].
+However, one should notice an important difference between the two- and threequbit cases. In the two-qubit case, the S 7 Hopf fibration have allowed us to foliate
+the projective Hilbert space with respect to state entanglement, the latter, measured
+by the concurrence, being simply related to the norm the restriction of the base
+point to the subspace spanned by the triplet (x3 , x4 ). Since the base space S 4 has
+unit radius, the entanglement is therefore simply related to the radius the first qubit
+partial Bloch sphere, spanned by the triplet (x0 , x1 , x2 ). The first-to-second qubit
+distinction (base-fibre in the fibration) do not matter here (to define the foliation)
+since the two partial Bloch sphere radii are equal.
+The S 15 Hopf fibration is clearly sensitive to the entanglement of one qubit (the
+first qubit in the present case) with respect to the other two qubits: the first qubit
+partial Bloch sphere radius is still read out from the norm of the restriction of the
+base point to the subspace spanned by the triplet (x0 , x1 , x2 ). However, the latter
+does not tell the whole story in terms of state entanglement. Once you know how
+far qubit 1 is entangled with the remaining two, you do not yet know whether the
+second (or third) qubit is or not separated. This prevents from building a foliation
+driven by a single entanglement parameter. One possibility for such a foliation
+unique parameter would be to use the 3-tangle[12]. But it does not distinguish
+among separable and entangled W states. An alternative entanglement parameter
+has been by suggested by Bernevig and Chen [11] (see also ref.[13] for a related
+measure): to recover the symmetry between the three qubits, an average over the
+three qubits partial Bloch sphere radii is used.
+The solution to the foliation problem might be to use three (instead of one)
+parameters, by considering three distinct S 15 Hopf fibrations, such that each of the
+three qubits partial Bloch spheres is singled out by the first three coordinates on
+the base. Said more simply, one may try to describe the Hilbert space geometry
+in a space spanned by the three partial Bloch sphere radii (r1 , r2 , r3 ). Since each
+radius belongs to the interval [0, 1] , the whole representation lies inside a unit cube.
+When one radius equals 1, one qubit is separated from the other two, and the other
+two radii are equal. We then see that the set under consideration cuts three square
+faces of the cube (such that rj = 1), along a diagonal. These diagonals corresponds
+to the product of a sphere S 2 (the Bloch sphere of the separated qubit), and a
+copy of the above foliation for the remaining two qubits. Notice that the latter
+foliation was introduced above with respect to state entanglement, as measured
+by the concurrence c, instead of the partial Bloch sphere radius. To get a fully
+equivalent picture,
+one should therefore transform the original coordinate system
+√
+from c to r = 1 − c2 .
+
+12
+
+REMY MOSSERI
+
+Figure 2. Figure 3: Nesting of the three Hopf fibrations
+5. Conclusion
+Our main goal in this paper was to provide a geometrical representation of the
+two and three-qubit Hilbert space pure states. We have shown that, as for the
+one-qubit Bloch sphere relation to the S 3 Hopf fibration, the more complex S 7 and
+S 15 Hopf fibrations also play a natural role in that case. Note that, as already
+mentionned in ref. [5], in the three Hopf fibration sequence (S 15 , S 7 , S 3 ), the fibre
+in the larger dimensional space is the full space in next case. This is illustrated
+below:
+This offers the possibility of further nesting the fibrations, a possibility that was
+already used in the present analysis of two-qubit separable case. This also applies
+to the three qubit case: whenever the first qubit is separated from the other two,
+the base reduces to the first qubit Bloch sphere, and the S 7 fibre is precisely the
+Hilbert space of the remaining two qubits.
+In the two-qubit case, this approach has in particular allowed for a complete
+description of the pure state projective Hilbert space, in terms of an entanglement
+driven foliation, with well characterized leaves. This goal has not yet been achieved
+in the three qubits case, although a plausible track has been proposed here.
+Appendix A. Quaternions and Octonions
+Quaternions
+Quaternions are usually presented with the imaginary units i, j et k in the form :
+q = x0 + x1 i + x2 j + x3 k,
+
+x0 , x1 , x2 , x3 ∈ R
+
+with i2 = j2 = k2 = ijk = −1,
+
+the latter ”Hamilton” relations defining the quaternion multiplication rules which
+are non-commutative. They can also be defined equivalently, using the complex
+numbers c1 = x0 + x1 i and c2 = x2 + x3 i, in the form q = c1 + c2 j, or equivalently
+as an ordered pair of complex numbers staisfying
+(c1 , c2 ) + (d1 , d2 ) = (c1 + d1 , c2 + d2 )
+(c1 , c2 ) (d1 , d2 ) = c1 d1 − c2 d2 , c1 d2 + c2 d1
+
+
+
+TWO AND THREE QUBITS GEOMETRY AND HOPF FIBRATIONS
+
+13
+
+The conjugate of a quaternion q is q = x0 − x1 i − x2 j − x3 k =c1 − c2 j and its
+squared norm reads Nq2 = qq.
+Another way in which q can be written is as a scalar part S(q) and a vectorial
+part V(q):
+q = S(q) + V(q), S(q) = x0 , V(q) = x1 i + x2 j + x3 k,
+with the relations
+1
+1
+(q + q), V(q) = (q − q).
+2
+2
+A quaternion is said to be real if V(q) = 0, and pure imaginary if S(q) = 0. We
+shall also write Vi,j,k (q) for the component of V(q) along i, j, k. Finally, and as for
+complex numbers, a quaternion can be noted in an exponential form as
+S(q) =
+
+q = |q| exp ϕt = |q| (cos ϕ + sin ϕ t) ,
+where t is a unit pure imaginary quaternion. When t = i, usual complex numbers
+are recovered. Note that quaternion multiplication is non-commutative so that
+exp ϕt exp λu = exp(ϕt+λu)
+only if t = u.
+Octonions
+An octonion a can be defined by introducing a new unit e (different from the preceding unit quaternions i, j and k, and such that e2 = −1), and pairs of quaternions
+a′ , a′′ :
+a = a′ + a′′ e
+ab = (a′ + a′′ e) (b′ + b′′ e)
+
+
+= a′ b′ − b′′ a′′ + b′′ a′ + a′′ b′ e
+
+It is helpfull to write any octonion a as
+a=
+
+l=7
+X
+
+ul el , with e0 = 1, e1 = i, e2 = j, e3 = k, e4 = e, e5 = ie, e6 = je, e7 = ke
+
+l=0
+
+with the following multiplication table
+
+e0 e1
+e2
+e3
+e4
+ e1 −e0 e3 −e2 e5
+
+ e2 −e3 −e0 e1
+e6
+
+ e3 e2 −e1 −e0 e7
+
+ e4 −e5 −e6 −e7 −e0
+
+ e5 e4 −e7 e6 −e1
+
+ e6 e7
+e4 −e5 −e2
+e7 −e6 e5
+e4 −e3
+
+e5
+−e4
+e7
+−e6
+e1
+−e0
+e3
+−e2
+
+e6
+−e7
+−e4
+e5
+e2
+−e3
+−e0
+e1
+
+
+e7
+e6 
+
+−e5 
+
+−e4 
+
+e3 
+
+e2 
+
+−e1 
+−e0
+
+Note that other multiplication tables could be defined (see [14]). In analogy with
+the quaternions scalar and vectorial parts, we can also write a as
+a = S(a) + V(a), with S(a) = u0 , V(a) =
+
+l=7
+X
+l=1
+
+u l el ,
+
+14
+
+REMY MOSSERI
+
+The conjugate of an octonion a is a = S(a) − V (a)=a′ − a′′ e and its squared
+norm reads Na2 = aa
+A (very) important difference between quaternions and octonions is that the
+latter, besides being non commutative are also non associative.
+Acknowledgement and comments
+It is a pleasure to acknowledge several discussions with Rossen Dandoloff, Karol
+Zyczkowski and Perola Milman.
+The main content of this paper was presented at the Dresde ”Topology in Condensed Matter Physics” colloquium in june 2002. Also included is a reference to a
+paper by B. A. Bernevig and H.D. Chen, who have independantly done the analysis
+of the three-qubit case along parallel lines. It is a pleasure to acknowledge several
+discussions with Andrei Bernevig in that context. Informations on more recent
+work with P. Milman on the the SO(3) topological phase has been added. Also not
+presented in Dresde was the above suggestion to use, for the three-qubit case, a
+three parameter foliation based on the three partial Bloch sphere radii.
+References
+[1] D. Bouwmeester, A. Eckert and A. Zeilinger, The Physics of Quantum Information, SpringerVerlag 2000
+[2] H. Hopf, Math. Ann., 104 (1931), pp637-665
+[3] M. Kus and K. Zyczkowski, Phys. Rev A. 63 (2001) page 032307, and references herein.
+[4] H. Urbanke, American Journal of Physics, 59 (1991) page 53
+[5] R. Mosseri and R. Dandoloff, J. Phys. A: Math. Gen., 34 (2001), pp 10243-10252
+[6] A. Peres, Quantum Theory: Concepts and methods, Kluwer, Dordrecht 1993
+[7] W.K. Wootters, Phys. Rev. Lett. 80 (1998) 2245
+[8] P. Milman and R. Mosseri, Phys. Rev. Lett., 90 (2003) p. 230403
+[9] M. Sinolecka, K. Zyczkowski and M. Kus, Act. Phys. Pol. B 33,2081 (2002)
+[10] P. Jorrand and M. Mhalla, quant-ph/0209125
+[11] B.A. Bernevig and H-D. Chen, J. Phys. A: Math. Gen. 36 (2003) p. 8325
+[12] V. Coffman, J. Kundu and W. Wootters, Phys. Rev. A 61 (2000) p. 52306
+[13] D.A. Meyer and N.R. Wallach, J. of Math. Phys.43 (2002) p.4273
+[14] J.C. Baez, The Octonions, math.RA/0105155
+
+Groupe de Physique des Solides, CNRS UMR 7588,, Universités Pierre et Marie Curie
+Paris 6 et Denis Diderot Paris 7,, 2 place Jussieu, 75251 Paris Cedex 05 France,
+E-mail address: mosseri@ccr.jussieu.fr;
+
+

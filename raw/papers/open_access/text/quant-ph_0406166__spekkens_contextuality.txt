@@ -1,0 +1,2036 @@
+Contextuality for preparations, transformations and unsharp measurements
+R. W. Spekkens∗
+
+arXiv:quant-ph/0406166v3 18 Mar 2005
+
+Perimeter Institute for Theoretical Physics, 35 King St. North, Waterloo, Ontario N2J 2W9, Canada
+(Dated: Feb. 25, 2005)
+The Bell-Kochen-Specker theorem establishes the impossibility of a noncontextual hidden variable model of quantum theory, or equivalently, that quantum theory is contextual. In this paper,
+an operational definition of contextuality is introduced which generalizes the standard notion in
+three ways: (1) it applies to arbitrary operational theories rather than just quantum theory, (2)
+it applies to arbitrary experimental procedures rather than just sharp measurements, and (3) it
+applies to a broad class of ontological models of quantum theory rather than just deterministic
+hidden variable models. We derive three no-go theorems for ontological models, each based on an
+assumption of noncontextuality for a different sort of experimental procedure; one for preparation
+procedures, another for unsharp measurement procedures (that is, measurement procedures associated with positive-operator valued measures), and a third for transformation procedures. All three
+proofs apply to two-dimensional Hilbert spaces, and are therefore stronger than traditional proofs
+of contextuality.
+PACS numbers: 03.65.Ta, 03.65.Ud
+
+I.
+
+INTRODUCTION
+
+Traditionally, a noncontextual hidden variable model
+of quantum theory is one wherein the measurement outcome that occurs for a particular set of values of the
+hidden variables depends only on the Hermitian operator associated with the measurement and not on which
+Hermitian operators are measured simultaneously with
+it. For instance, suppose A,B and C are Hermitian operators such that A and B commute, A and C commute,
+but B and C do not commute. Then the assumption of
+noncontextuality is that the value predicted to occur in
+a measurement of A does not depend on whether B or C
+was measured simultaneously. The Bell-Kochen-Specker
+theorem shows that a hidden variable model of quantum
+theory that is noncontextual in this sense is impossible
+for Hilbert spaces of dimension three or greater [1, 2].
+The traditional definition of noncontextuality is lacking in several respects: (1) it does not apply to an arbitrary physical theory, but is rather specific to quantum theory; (2) it does not apply to unsharp measurements, that is, those associated with positive-operator
+valued measures (POVMs), nor does it apply to preparation or transformation procedures; and (3) it does not
+apply to ontological models wherein the outcomes of measurements are determined only probabilistically from the
+complete physical state of the system under investigation, for instance, indeterministic hidden variable models
+or ontological models of quantum theory lacking hidden
+variables. In this paper, we propose a new definition:
+A noncontextual ontological model of an operational theory is one wherein if two experimental procedures are operationally equiv-
+
+∗ Electronic address: rspekkens@perimeterinstitute.ca
+
+alent, then they have equivalent representations in the ontological model.
+
+This definition will be explained in section II of this
+article, where we provide a precise account of what it
+is for two experimental procedures to be operationally
+equivalent, and describe what is meant by an ontological model of an operational theory, specifying in particular how different experimental procedures (preparations,
+measurements and transformations) are represented in
+such a model. We also explain why it is appropriate
+to call this sort of ontological model noncontextual by
+providing an operational definition of an experimental
+context.
+In section III, we specialize our definition to the case
+of quantum theory. We provide examples of the sorts of
+contexts that can arise for preparations, transformations
+and measurements, and describe what an assumption of
+noncontextuality for each type of procedure implies for
+an ontological model of quantum theory. In the case of
+measurements, we also generalize the object that is examined for context-dependence from outcomes to probabilities of outcomes, and discuss the motivation for doing
+so. Further, we show how the traditional notion of noncontextuality is subsumed as a special case of our generalized notion when the outcomes of sharp measurements
+are assumed to be uniquely determined by the complete
+physical state of the system under investigation.
+In sections IV, V, and VI, we provide no-go theorems
+for ontological models based on the assumption of noncontextuality for preparations, unsharp measurements,
+and transformations, respectively. All three proofs apply
+to two-dimensional (2d) Hilbert spaces, and are therefore stronger than traditional no-go theorems for noncontextuality, which require Hilbert spaces of dimension
+
+2
+three or greater1 . In section V, we also provide a no-go
+theorem for noncontextuality of unsharp measurements
+based on a recent generalization of Gleason’s theorem to
+2d Hilbert spaces [5, 6]. Section VII provides a general
+discussion of the motivation and plausibility of noncontextuality for different sorts of procedures, and section
+VIII investigates the connection between these different
+sorts of noncontextuality and the assumption that measurement outcomes are uniquely determined by the complete physical state of the system under investigation.
+Some conclusions and questions for future research are
+presented in section IX.
+II.
+
+DEFINITIONS OF NONCONTEXTUALITY
+FOR ANY OPERATIONAL THEORY
+
+In an operational interpretation of a physical theory,
+the primitive elements are preparation procedures, transformation procedures, and measurement procedures.
+These are understood as lists of instructions to be implemented in the laboratory. The role of an operational
+theory is merely to specify the probabilities p(k|P, T, M)
+of different outcomes k that may result from a measurement procedure M given a particular preparation procedure P, and a particular transformation procedure T.
+When there is no transformation procedure, or when it
+is considered to be part of the preparation or the measurement, we have simply p(k|P, M).
+Given the rule for determining probabilities of outcomes, one can define a notion of equivalence among
+experimental procedures. Specifically, two preparation
+procedures are deemed equivalent if they yield the same
+long-run statistics for every possible measurement procedure, that is, P is equivalent to P′ if
+p(k|P, M) = p(k|P′ , M) for all M.
+
+(1)
+
+Two measurement procedures are deemed equivalent if
+they yield the same long-run statistics for every possible
+preparation procedure, that is, M is equivalent to M′ if
+their outcomes can be associated one-to-one such that
+p(k|P, M) = p(k|P, M′ ) for all P.
+
+(2)
+
+Finally, two transformation procedures are deemed
+equivalent if they yield the same long-run statistics for
+every possible preparation procedure that may precede
+and every possible measurement procedure that may follow, that is, T is equivalent to T′ if
+p(k|P, T, M) = p(k|P, T′ , M) for all P, M.
+
+(3)
+
+1 Recent work by Cabello [4] generalizes the notion of contextual-
+
+ity to unsharp measurements in a manner that is different from
+the proposal of this paper. From our perspective, this work
+makes use of an assumption of deterministic outcomes for unsharp measurements that cannot be justified by an assumption
+of noncontextuality. This issue is discussed in section VIII.
+
+It follows that one can distinguish two types of features
+of an experimental procedure: the first type of feature is
+one that is specified by specifying the equivalence class
+that the procedure falls in, while the second type is one
+that is not. The set of features of the second type – those
+that are not specified by specifying the equivalence class
+– we call the context of the experimental procedure. Note
+that by our definition of an experimental context having
+knowledge of the context does not enable one to predict
+the outcome of an experiment any better than if one only
+knew the equivalence class of the experimental procedure.
+An example from quantum theory should clarify the
+notion of a context. Consider the following different measurement procedures for photon polarization. The first,
+which we denote by M1 , constitutes a piece of polaroid
+oriented to pass light that is vertically polarized along
+the ẑ axis, followed by a photodetector. The second,
+which we denote by M2 , constitutes a birefringent crystal oriented to separate light that is vertically polarized
+along the ẑ axis from light that is horizontally polarized
+along this axis, followed by a photodetector in the vertically polarized output. The third and fourth procedures,
+denoted M3 and M4 are identical to M1 and M2 respectively, except that they are defined relative to an axis n̂
+that is skew to the ẑ axis. It turns out that the statistics
+of outcomes for M1 are the same as those for M2 , for all
+preparation procedures, and those for M3 are the same
+as those for M4 . However, the statistics of outcomes for
+the first pair are different from those of the second. Thus,
+M1 and M2 fall in one equivalence class of measurements,
+and M3 and M4 fall in another. The orientation of the
+polaroid or calcite crystal is an example of the first sort
+of feature of an experimental operation, one whose variation involves a variation in the operational equivalence
+class of the procedure. On the other hand, whether one
+uses a piece of polaroid or a birefringent crystal to measure photon polarization is a feature of the measurement
+procedure of the second type; a variation of this feature
+does not change the equivalence class of the procedure.
+It is therefore part of the context of the measurement
+procedure.
+To properly define a noncontextual ontological model
+of an operational theory, it is not enough to have a definition of context; we also need to specify precisely what
+we mean by an ontological model. We turn to this now.
+An ontological model is an attempt to offer an explanation of the success of an operational theory by assuming
+that there exist physical systems that are the subject of
+the experiment. These systems are presumed to have attributes regardless of whether they are being subjected to
+experimental test, and regardless of what anyone knows
+about them. These attributes describe the real state of
+affairs of the system. Thus, a specification of which instance of each attribute applies at a given time we call
+the ontic state of the system. If the ontic state is not
+completely specified after specifying the preparation procedure, then the additional variables required to specify
+it are called hidden variables. Although most ontologi-
+
+3
+cal models do involve hidden variables, this is not always
+the case. For instance, the ontic states may be associated one-to-one with the equivalence classes of preparation procedures (as is the case for pure preparation procedures in the Beltrametti-Bugajski model of quantum
+theory [8]). We shall denote the complete set of variables
+in an ontological model by λ, and the space of values of
+λ by Ω.
+Within an ontological model of an operational theory, preparation procedures are preparations of the ontic
+state of the system. However, the procedure need not fix
+this state uniquely; rather, it might only fix the probabilities that the system be in different ontic states. Thus,
+someone who knows that a system was prepared using
+the preparation procedure P describes the system by a
+probability density µP (λ) over the model variables.
+Similarly, measurement procedures are measurements
+of the ontic state of the system. Again, these procedures need not enable one to infer the identity of the
+ontic state uniquely, nor need they even enable one to
+infer a set of ontic states within which the actual ontic state lies. Rather, they might only enable one to infer
+probabilities for the system to have been in different ontic
+states. In this, the most general case, the outcome of the
+measurement is not uniquely determined by λ. Only the
+probabilities of the different outcomes are so determined.
+Thus, for every value of λ, one associates a probability
+ξM,k (λ) which is the probability of obtaining outcome k
+in a measurement M given that the system is in the ontic
+state λ. We call ξM,k (λ) an “indicator function”2 .
+Finally, transformation procedures are transformations
+of the ontic state of the system. These may be stochastic transitions. Thus, a transformation procedure T is
+represented by a transition matrix, ΓT (λ′ , λ), which represents the probability density for a transition from the
+ontic state λ to the ontic state λ′ .
+Thus, within an ontological model, if the preparation procedure is P, and the measurement procedure
+is M, then the probability assigned to outcome k is
+the probability assigned to outcome k given λ, averaged
+R over all λ, weighted by the probability of λ, that
+is, dλµP (λ)ξM,k (λ). If there is a transformation procedure T intervening between the preparation and measurement, and this is associated with the transition ma-
+
+′
+Rtrix ′ ΓT (λ , λ), ′ then ′the probability of outcome k is
+dλ dλ ξM,k (λ ) ΓT (λ , λ) µP (λ).
+Summarizing, an ontological model assumes: (1) every
+preparation procedure P is associated with a normalized
+probability density
+R over the ontic state space, µP : Ω →
+[0, 1] such that µP (λ)dλ = 1; (2) every measurement
+procedure M with outcomes labelled by k is associated
+with a set of indicator functions {ξM,k (λ)}k over the ontic states, P
+that is, a set of functions ξM,k : Ω → [0, 1]
+satisfying k ξM,k (λ) = 1 for all λ; (3) every transformation procedure T is associated
+R with a transition matrix
+ΓT : Ω × Ω → [0, 1] such that ΓT (λ′ , λ)dλ′ = 1 for all
+λ, and (4) the predictions of the operational theory are
+reproduced exactly by the model, that is,
+Z
+p(k|P, T, M) = dλ′ dλ ξM,k (λ′ ) ΓT (λ′ , λ) µP (λ) (4)
+
+2 Some might argue that within the framework of an ontological
+
+ξM,k (λ) = ξe(M),k (λ)
+
+model, the term measurement ought to be reserved for a procedure which reveals some attribute of the system under investigation. However, we feel that it is suitable for any procedure that
+leads to an update in one’s information about which instance
+of some attribute applied, or equivalently, in one’s information
+about what the ontic state of the system was prior to the procedure being implemented. Note that even this weak notion of
+what constitutes a measurement fails for some experimental procedures that lead to distinct outcomes, namely, those wherein
+the probabilities of the different outcomes are independent of
+the ontic state. For simplicity however, we shall not introduce
+any novel terminology for this exceptional case.
+
+for all P , T, and M.
+In general, the representation of an experimental procedure in an ontological model might depend on both its
+equivalence class and its context.3 It is natural, however, to consider the possibility of a model wherein the
+representation of every experimental procedure depends
+only on its equivalence class and not on its context. After all, a natural way to explain the fact that a pair
+of preparation (measurement,transformation) procedures
+are operationally equivalent is to assume that they prepare (measure,transform) the ontic state of the system
+in precisely the same way. We shall call such an ontological model noncontextual.
+Any operational theory
+that admits such a model shall also be called noncontextual 4 . In general, if any set of procedures is represented in
+a context-independent way within an ontological model,
+we shall say that the model is noncontextual for those
+procedures.
+It is useful to explicitly characterize the assumption of
+noncontextuality for preparations, transformations, and
+measurements. We will call an ontological model preparation noncontextual if the representation of every preparation procedure is independent of context, that is, if
+µP (λ) = µe(P) (λ)
+
+(5)
+
+where e(P) is P’s equivalence class. Similarly, we will
+call a model measurement noncontextual if the representation of every measurement procedure is independent of
+context, that is, if
+(6)
+
+3 If one allows such generality, then – perhaps contrary to a com-
+
+mon impression – it is possible to provide an ontological model of
+quantum theory. The deBroglie-Bohm theory [9] is an example.
+4 This terminology allows one to use the phrase ”quantum theory is
+contextual” as a shorthand for ”quantum theory does not admit
+a noncontextual ontological model”, much as it is common to use
+the phrase ”quantum theory is nonlocal” in place of ”quantum
+theory does not admit a local ontological model”.
+
+4
+where e(M) is M’s equivalence class. Finally, a model
+is called transformation noncontextual if the representation of every transformation procedure is independent of
+context, that is, if
+ΓT (λ′ , λ) = Γe(T) (λ′ , λ)
+
+(7)
+
+where e(T) is T’s equivalence class. A universally noncontextual ontological model is one that is noncontextual
+for all experimental procedures: preparations, transformations, and measurements.
+III.
+
+DEFINITIONS OF NONCONTEXTUALITY
+IN QUANTUM THEORY
+
+We begin with a quick review of the operational approach to quantum theory, described, for instance, in
+Refs. [10, 11, 12, 13].
+An equivalence class of preparation procedures is associated with a density operator ρ. This is a positive
+trace-1 operator over the Hilbert space H of the system:
+ρ > 0, Tr(ρ) = 1. Rank-1 density operators are simply
+projectors onto rays of Hilbert space, and are called pure.
+An equivalence class of measurement procedures is
+associated with a positive operator valued measure
+(POVM) {Ek }. A POVM is an ordered
+Pset {Ek } of positive operators that sum to identity,
+k Ek = I. The
+kth element, Ek , is associated with the kth outcome.
+Specifically, given a preparation associated with a density operator ρ, the probability of the outcome k is simply
+Tr(ρEk ). It is useful to single out the POVMs whose elements are idempotent, that is, those for which Ek2 = Ek
+for all k. Since idempotent positive operators are projectors, these POVMs are called projective-valued measures (PVMs). The associated measurements are said to
+be sharp. These are the sorts of measurements that are
+considered in standard textbook treatments of quantum
+mechanics. A Hermitian operator defines a PVM through
+the projectors in its spectral resolution.
+Finally, an equivalence class of transformation procedures is associated with a completely positive (CP) map
+T . A CP map T is a positive linear map on the space
+of operators over H such that T ⊗ I is a positive linear
+map on the space of operators over H ⊗ H′ , where H′
+is of arbitrary dimension, and I is the identity map on
+H′ . Unitary maps, familiar from textbook treatments of
+quantum theory, are reversible CP maps.
+A preparation procedure associated with a non-rank1 density operator ρ can be implemented in as many
+ways as there are convex decompositions of ρ. SupposeP
+{(pk , ρk )} is a convex decomposition of ρ, that is,
+ρ = k pk ρk . If one generates a random number according to the distribution pk , and upon obtaining the number k, one implements the preparation associated with
+ρk , this procedure is a member of the equivalence class
+of procedures associated with ρ. Another way of implementing a preparation procedure that is associated with
+ρ is to implement a preparation of a purification |ψi of ρ
+
+on H ⊗ H′ (a purification of ρ is any state |ψi such that
+TrH′ |ψi hψ| = ρ). The equivalence class therefore also
+contains members associated with different purifications
+of ρ.
+The assumption of preparation noncontextuality in
+quantum theory is that the probability distribution over
+ontic states that is associated with a preparation procedure P depends only on the density operator ρ associated
+with P,
+µP (λ) = µρ (λ).
+
+(8)
+
+In particular, the distribution does not depend on the
+particular convex decomposition of ρ or on the particular purification of ρ that is used in the preparation procedure.
+The multiplicity of contexts for transformation procedures parallels the multiplicity of contexts for preparation procedures. Transformation procedures that are
+associated with non-unitary CP maps can be obtained
+as a convex sum of unitary maps in many different ways,
+each one of which corresponds to a distinct transformation procedure, and can also be obtained by implementing a unitary map on a larger system that incorporates
+the system of interest [14].
+The assumption of transformation noncontextuality in
+quantum theory is that the transition matrix that is associated with a given transformation procedure T depends
+only on the CP map T associated with T,
+ΓT (λ′ , λ) = ΓT (λ′ , λ).
+
+(9)
+
+It does not, for instance, depend on the particular convex
+sum of unitaries or the particular unitary on a larger
+system by which the transformation was implemented.
+In the case of quantum measurements, there are also
+many sorts of contexts. For instance, every fine-graining
+of a non-maximally informative measurement (i.e. a measurement associated with a POVM at least one element
+of which is not rank-1) provides a different context. Suppose the POVM {Fj } is a fine-graining of {Ek }, which
+is to say that there is a partitioning
+of the outcomes j
+P
+into sets Sk such that Ek = j∈Sk Fj . By implementing
+a measurement associated with the POVM {Fj }, then
+discarding all information about j except the set Sk to
+which it belongs, one implements a measurement in the
+equivalence class associated with the POVM {Ek }.
+Despite the fact that the independence of representation on fine-graining is traditionally the full extent of
+the assumption of noncontextuality for measurements (as
+we will show below), it is not difficult to see that there
+are many other sorts of contexts. For instance, there
+is a context for every convex decomposition of a nonmaximal measurement. A convex decomposition of a
+POVM {Ek } is defined as a probability distribution {pα }
+and a set ofPPOVMs, {Fα } where Fα = {Fkα }, such
+α
+that Ek =
+α pα Fk . By sampling α from the distribution {pα }, then implementing the measurement associated with the POVM {Fkα }, and registering only the
+
+5
+outcome of this measurement, one implements a measurement in the equivalence class associated with the POVM
+{Ek }. There is also a context for every way of obtaining
+a POVM by coupling to an ancilla and measuring a PVM
+on the composite of system+ancilla [15].
+The assumption of measurement noncontextuality in
+quantum theory is that the set of indicator functions representing a measurement M depends only on the POVM
+{Ek } associated with M,
+ξM,k (λ) = ξ{Ek },k (λ).
+
+(10)
+
+In addition to admitting new sorts of contexts for measurements, our generalized notion of measurement contextuality involves a slight revision of what it is that depends on the measurement context.
+In the past, measurement contextuality has only been
+considered within the framework of deterministic hidden
+variable theories, and the question of interest has been
+whether or not the measurement outcome for a given ontic state of the system depends on the context of the
+measurement. However, for objectively indeterministic
+ontological models, it is clear that the natural question
+to ask is whether the probabilities of different outcomes
+for a given ontic state of the system depend on the context. This is analogous to Bell’s [16] generalization of
+the notion of locality from measurement outcomes being causally independent of parameter settings at spacelike separation to the probabilities of measurement outcomes being causally independent of parameter settings
+at space-like separation5 . This distinction was introduced by Bell in order to cleanly separate the notion of
+locality from the notion of determinism. Similarly, our
+generalized definition allows one to cleanly separate the
+notion of measurement noncontextuality from the notion
+of determinism.
+Once the question is posed, it is somewhat obvious that
+if there is to be any notion of measurement contextuality within objectively indeterministic ontological models, the appropriate quantities to examine for contextdependence are the probabilities of different outcomes for
+a given ontic state of the system. A less obvious feature
+of our generalized notion of measurement contextuality
+is that the probabilities of outcomes are the appropriate quantities to examine for context-dependence even in
+objectively deterministic ontological models. The key is
+that the latter sort of model may still exhibit an epistemic indeterminism, wherein knowledge of the equivalence class of the measurement together with the ontic
+
+5 More specifically, Bell [16] defined a theory to be locally deter-
+
+ministic if the variables in space-time region I are determined by
+the variables in a space-time region that fully closes the backward
+light-cone of I, and locally causal if the probability distribution
+over values for a variable in space-time region I are determined by
+a specification of the values of all the variables in the backward
+light-cone of I (“determined” in the sense that further conditioning on variables in the region outside the backward light-cone
+would not change the probability distribution).
+
+state of the system under investigation does not uniquely
+fix the outcome. To explain this properly, we need to
+consider some of the details of the mathematical representation of these measurements.
+The distinction between the ontic state of the system
+determining the outcome and determining only the probabilities of different outcomes is captured mathematically
+within an ontological model by the sorts of indicator functions one uses to represent measurements. The former
+case is represented by an indicator function that is idempotent, that is, one for which χ(λ)2 = χ(λ) (we shall denote idempotent indicator functions by χ(λ) rather than
+ξ(λ)). Such functions are necessarily equal to one in some
+region of the ontic state space and zero elsewhere. By
+virtue of
+Pthe fact that a set of indicator functions must
+satisfy k χk (λ) = 1, if all the indicator functions are
+idempotent, then the latter must be nonoverlapping, that
+is, χk (λ)χk′ (λ) = 0 for k 6= k ′ . Thus, for every value of
+λ, only a single indicator function in the set {χk (λ)} receives the value 1 while the others receive the value 0.
+Since the value of the kth indicator function at a given
+λ specifies the probability of the kth outcome given the
+ontic state λ , the outcome of the measurement is determined for all ontic states if and only if the latter is
+represented by a set of idempotent indicator functions.
+We shall call the assumption that a particular measurement is represented by a set of idempotent indicator functions the assumption of outcome determinism for
+that measurement.
+Now note that even within an objectively deterministic ontological model, measurements may fail to exhibit
+outcome determinism: specifying the ontic state of the
+system under investigation together with the equivalence
+class of the measurement procedure may be insufficient
+to uniquely fix the outcome. The outcome might only be
+fixed uniquely by supplementary features of the measurement procedure (which constitute part of the context of
+the measurement by our definition), such as microscopic
+degrees of freedom of the apparatus. Because the indicator function for a measurement specifies the dependence
+of the outcome on the ontic state of the system under
+investigation, and not the dependence of the outcome on
+the ontic state of any systems that make up the measurement apparatus or the environment, such a measurement
+must be represented by a non-idempotent set of indicator
+functions. Nonetheless, it may still be the case that for
+each equivalence class of measurements, all the elements
+of the class are represented by the same non-idempotent
+set of indicator functions, and this is all that is required
+for the measurements to be deemed noncontextual by our
+definition.
+As an example, consider a classical system and a classical measurement device that generates an outcome by
+rolling one of several differently weighted dice, with the
+choice of the dice being determined by the ontic state of
+the system. Two such devices are only found to be operationally equivalent if all of the dice of one are weighted
+in the same way as those of the other. Thus, every device
+
+6
+in the equivalence class is represented by the same set of
+indicator functions, and consequently one has measurement noncontextuality by our definition. The underlying ontological model (classical mechanics) is objectively
+deterministic, but in order to predict the outcome of a
+particular measurement, one must supplement the ontic
+state of the system by the precise initial configuration of
+the dice and their environment, features that form part
+of the context of the measurement. Thus, although the
+outcome of the measurement clearly depends on the context, we take this to be a failure of outcome determinism
+rather than a failure of measurement noncontextuality6 .
+Thus, it is really the notion of outcome determinism,
+rather than the notion of determinism, which we seek to
+cleanly separate from the notion of measurement noncontextuality through our generalized definition. This makes
+our definition of measurement noncontextuality revisionist insofar as the traditional definition implicitly incorporated the assumption of outcome determinism, while
+ours does not. This suggested revision in terminology is
+motivated by the idea that what is crucial to the notion
+of a noncontextual ontological model is that it reproduces
+the equivalence class structure of the operational theory.
+It is worth noting that, given the additional assumption of outcome determinism, one can recover the traditional definition of measurement noncontextuality as a
+special case of our definition. Specifically, if one considers only sharp measurements and one represents these by
+sets of idempotent functions (i.e. one assumes outcome
+determinism for these measurements), then the assumption of the independence of the representation of a measurement on the fine-graining of the PVM with which it
+is implemented is just the traditional notion of noncontextuality (described in the introduction). This can be
+seen as follows. Specifying whether a Hermitian operator
+A is measured together with B or with C is equivalent
+to specifying a fine-graining of the PVM {Pk } that is
+defined by the spectral resolution of A; the simultaneous eigenspaces of A and B define one such fine-graining,
+while the simultaneous eigenspaces of A and C define
+another. Specifying the eigenvalue assigned to an operator A for every value of λ is equivalent to specifying
+a set of idempotent indicator functions; the values of λ
+in the support of the function associated with outcome
+k are simply those that assign the kth eigenvalue to A.
+Clearly then, assuming that the value assigned to A is
+independent of whether A is measured together with B
+or C is equivalent to assuming that the set of idempotent indicator functions associated with the PVM {Pk }
+is independent of the fine-graining by which it was implemented.
+
+6 By our definition, any classical theory is necessarily noncontex-
+
+tual for all experimental procedures. This highlights another
+virtue of our particular definition: contextuality, in all of its
+manifestations, is found to be a nonclassical phenomenon. For
+an opposing perspective, see Ref. [17].
+
+No-go theorems based on the traditional definition of
+noncontextuality apply only in Hilbert spaces of dimensionality three or greater. Moreover, one cannot extend
+such proofs to 2d Hilbert spaces because there are no
+fine-grainings of non-trivial PVM measurements in a 2d
+Hilbert space, and fine-graining is the only notion of context that is recognized traditionally. However, by appealing to preparations, transformations, and unsharp
+measurements, which admit many contexts even in a 2d
+Hilbert space, proofs of contextuality can be achieved
+here as well. From this perspective, the restriction of
+previous proofs of contextuality to 3d Hilbert spaces was
+an artifact of a limited notion of a context.
+Among the new proofs of contextuality that we shall
+present, the proof of preparation contextuality is the simplest, and so we begin with this case.
+IV.
+
+PROOF OF PREPARATION
+CONTEXTUALITY IN 2D
+
+There are two features of the representation of preparation procedures in an ontological model that are central
+to our proof. The first concerns distinguishability, and
+the second convex combination.
+Feature 1 If two preparation procedures, P and P′ are distinguishable with certainty in a single-shot measurement,
+then their associated probability distributions, µ(λ) and
+µ′ (λ), are nonoverlapping, that is,
+µ(λ)µ′ (λ) = 0 for all λ.
+
+(11)
+
+This feature can be understood as follows. Suppose
+one wishes to perform a measurement that discriminates,
+with certainty, between two probability distributions. In
+other words, one wishes to perform a measurement that
+allows one to retrodict, with certainty, which distribution applied. This is only possible if the distributions to
+be discriminated are nonoverlapping. The reason is that
+if the two distributions overlapped in some region of the
+space of ontic states, then whenever the actual ontic state
+was in that region (and it will sometimes be in that region, because the region is assigned nonzero probability
+by both distributions), no measurement would be able to
+distinguish with certainty whether the system had been
+prepared using one or the other distribution, since the actual ontic state is consistent with both. Thus, if, within
+an operational theory, a pair of preparation procedures
+are distinguishable with certainty, then the only way an
+ontological model of the theory can account for this fact
+is by associating these procedures with nonoverlapping
+distribution functions.
+The second feature of an ontological model that is critical to our proof is the manner in which convex combinations of preparation procedures are represented. Suppose
+that the preparation procedures P and P′ are represented
+by distributions µ(λ) and µ′ (λ). Now suppose that a bit
+is generated uniformly at random from the distribution
+
+7
+p, 1 − p, and the value of the bit is used to determine
+whether P or P′ is implemented, after which the bit is
+forgotten. This effective procedure, which we call P′′ ,
+must be represented within the ontological model by a
+distribution µ′′ (λ) satisfying
+µ′′ (λ) = pµ(λ) + (1 − p)µ′ (λ).
+
+(12)
+
+The reason is as follows. The probability that the ontic
+state of the system is λ given procedure P′′ , is simply the
+sum of the probability that it is λ given procedure P and
+the probability that it is λ given procedure P′ , weighted
+by the respective probabilities of P and P′ given P′′ .
+Thus, we have:
+Feature 2 A convex combination of preparation procedures is represented within an ontological model by a
+convex sum of the associated probability distributions.
+With these facts in hand, we now proceed with the
+proof.
+Consider a set of six pure preparations, denoted
+Pa , PA , Pb , PB , Pc , and PC , corresponding to the normalized Hilbert space vectors
+
+and with no record being made of the choice. Denote this
+procedure by PaA . Define procedures PbB and PcC similarly. Consider also the preparation procedure wherein
+one of Pa , Pb , or PC is implemented, again, with equal
+probabilities for each, and without recording the choice.
+We denote this by Pabc . The procedure PABC is defined
+similarly.
+These procedures are represented in the quantum formalism by the appropriate convex sums of the density
+operators in Eq. (14). It turns out that all of these convex sums yield the same rank-2 density operator, namely,
+ 1
+
+0
+2
+I/2 =
+,
+(18)
+0 12
+commonly referred to as the ‘completely mixed state’.
+Specifically,
+I/2 =
+=
+=
+
+ψa = (1, 0)
+ψA = (0, 1)
+
+√
+ψb = (1/2, 3/2)
+√
+ψB = ( 3/2, −1/2)
+√
+ψc = (1/2, − 3/2)
+√
+ψC = ( 3/2, 1/2)
+or, equivalently, the rank 1 density operators
+
+
+1 0
+σa =
+0 0
+
+
+0 0
+σA =
+0 1
+√ 
+ 1
+1
+4
+4 3
+√
+σb =
+1
+3 34
+√ 
+ 4 3
+− 41 3
+4√
+σB =
+1
+−1 3
+4
+√ 
+ 41
+1
+−
+3
+4
+4
+√
+σc =
+3
+− 14 3
+√ 4
+ 3
+1
+4
+4 3
+√
+σC =
+1
+1
+4 3
+4
+
+=
+=
+(13)
+
+(19)
+(20)
+(21)
+(22)
+(23)
+
+In figure 1, we present the Bloch ball representation
+of the seven density operators defined above. This provides a graphical synopsis of the relevant orthogonality
+relations and convex structure.
+
+σa
+σB
+
+σC
+I/2
+
+σc
+
+σb
+σA
+
+(14)
+
+One can easily verify the following orthogonality conditions
+σa σA = 0,
+σb σB = 0,
+σc σC = 0.
+
+1
+1
+σa + σA
+2
+2
+1
+1
+σb + σB
+2
+2
+1
+1
+σc + σC
+2
+2
+1
+1
+1
+σa + σb + σc
+3
+3
+3
+1
+1
+1
+σA + σB + σC .
+3
+3
+3
+
+(15)
+(16)
+(17)
+
+Now consider the preparation procedure wherein one of
+Pa or PA is implemented, with the choice being made uniformly at random (for instance, by flipping a fair coin),
+
+FIG. 1: The Bloch ball representation of the six pure states
+and the five convex decompositions of the completely mixed
+state used in the proof of preparation contextuality. Each
+convex decomposition is represented by a convex polytope
+whose vertices represent the elements of the decomposition
+[18]. The 2-element decompositions in our example are represented by line segments, and the 3-element decompositions
+by equilateral triangles.
+
+Within an ontological model of operational quantum
+theory, each preparation procedure Px is associated with
+a probability distribution µx (λ). Now note that if two
+density operators, σ and σ ′ , are orthogonal in the vector
+
+8
+space of operators, that is, σσ ′ = 0, then the associated preparation procedures can be distinguished with
+certainty in a single-shot measurement (for instance, for
+preparations associated with orthogonal Hilbert space
+vectors, one simply implements the measurement associated with an orthogonal basis that includes these vectors). By feature 1 of ontological models (described
+above), distinguishable procedures are represented by
+nonoverlapping distributions. Thus, from Eqs. (15)-(17)
+we can infer that
+µa (λ)µA (λ) = 0,
+µb (λ)µB (λ) = 0,
+µc (λ)µC (λ) = 0.
+
+(24)
+(25)
+(26)
+
+Furthermore, in any ontological model a convex
+combination of preparation procedures is represented
+by a convex sum of the associated probability distributions (feature 2 above).
+Thus, if the procedures PaA , PbB , . . . , PABC are represented by distributions µaA (λ), µbB (λ), . . . , µABC (λ), the manner in which
+these procedures are obtained by convex combination of
+Pa , Pb , . . . , PC implies that
+µaA (λ) =
+µbB (λ) =
+µcC (λ) =
+µabc (λ) =
+µABC (λ) =
+
+1
+1
+µa (λ) + µA (λ)
+2
+2
+1
+1
+µb (λ) + µB (λ)
+2
+2
+1
+1
+µc (λ) + µC (λ)
+2
+2
+1
+1
+1
+µa (λ) + µb (λ) + µc (λ)
+3
+3
+3
+1
+1
+1
+µA (λ) + µB (λ) + µC (λ).
+3
+3
+3
+
+(27)
+(28)
+(29)
+(30)
+
+=
+=
+=
+=
+
+1
+1
+µa (λ) + µA (λ)
+2
+2
+1
+1
+µb (λ) + µB (λ)
+2
+2
+1
+1
+µc (λ) + µC (λ)
+2
+2
+1
+1
+1
+µa (λ) + µb (λ) + µc (λ)
+3
+3
+3
+1
+1
+1
+µA (λ) + µB (λ) + µC (λ).
+3
+3
+3
+
+V.
+
+(31)
+
+The assumption of a preparation noncontextual ontological model is that the distribution associated with a
+preparation procedure depends only on the operational
+equivalence class of that procedure, and thus only on the
+density operator associated with that procedure. Since
+the procedures PaA , PbB , . . . , PABC are all represented
+by I/2, they must all be represented by the same distribution in a preparation noncontextual ontological model.
+Thus, we require µaA = µbB = · · · = µABC . Denoting
+this distribution by ν(λ), we have simply
+ν(λ) =
+
+values of the various probability densities at a fixed value
+of λ. We denote these simply as µa , µA , . . . , µC . We show
+that the only solution to all the constraints, for a fixed λ,
+is µa , µA , . . . , µC = 0, which we call the all-zero solution.
+To satisfy Eqs. (24)-(26), one of the pair µa and µA
+must be zero, as must be one of the pair µb and µB and
+one of the pair µc and µC . In all, there are eight possible
+assignments of zeroes that satisfy Eqs. (24)-(26). We
+consider each of these in turn.
+If we have µa , µb , µc = 0 then by Eq. (35) we have ν =
+0, and by Eqs. (32)-(34), we conclude that µA , µB , µC =
+0, so that we have the all-zero solution. If, instead we
+have µa , µb , µC = 0 then by combining Eq. (34) and Eq.
+(35) we find 12 µc = 31 µc , for which the only solution is
+µc = 0. But this gets us back to the first case, and the
+all-zero solution. Every other case yields the all-zero solution by virtue of the symmetry of the problem under
+rotations by multiples of 60 degrees in the Bloch sphere
+representation.
+The above argument did not depend on λ, and thus
+for all λ the only solution is the all-zero solution. Consequently, the only set of distributions that satisfy Eqs.
+(24)-(26) and Eqs. (32)-(36) is the set of uniformly zero
+distributions, µa (λ), µA (λ), · · · , µC (λ) = 0. But such
+distributions are not probability distributions since they
+are not normalized to one. This concludes the proof.
+I am grateful to Terry Rudolph for having improved
+upon my original proof of preparation contextuality by
+proposing the highly symmetric example presented here.
+
+(32)
+
+PROOFS OF CONTEXTUALITY FOR
+UNSHARP MEASUREMENTS IN 2D
+
+Proofs of measurement contextuality have usually
+arisen only in the context of sharp measurements, that is,
+those associated with PVMs7 , and outcome determinism
+has been assumed for such measurements. We shall make
+the same assumption here for sharp measurements, but
+we shall be considering unsharp measurements as well,
+that is, those associated with POVMs, and for these, outcome determinism will not be assumed. It is important to
+note that the “proofs of contextuality” presented in the
+next two subsections are contingent on the assumption of
+outcome determinism for sharp measurements. The status of this assumption will be revisited in section VIII,
+where we will clarify what, precisely, has been proven.
+
+(33)
+A.
+
+A proof based on a finite set of measurements
+
+(34)
+(35)
+(36)
+
+We now show that there is no set of distributions satisfying Eqs. (24)-(26) and Eqs. (32)-(36). Consider the
+
+Consider three binary-outcome measurements,
+Ma , Mb , and Mc , associated respectively with PVMs
+{Pa , PA }, {Pb , PB } and {Pc , PC }, where Pa projects
+
+7 Exceptions are Refs. [4, 17, 19]
+
+9
+Note that the POVM (49) is equal to9
+
+onto the ray spanned by ψa , PA projects onto the ray
+spanned by ψA , and so forth, with the vectors ψx being
+those that are defined in Eq. (13)8 .
+By the definition of a PVM, we have
+Pa + PA = I,
+Pb + PB = I,
+Pc + PC = I,
+
+(37)
+(38)
+(39)
+
+Pa PA = 0,
+Pb PB = 0,
+Pc PC = 0.
+
+(40)
+(41)
+(42)
+
+and
+
+Given the assumption of outcome determinism for
+sharp measurements, the representations of Ma , Mb , and
+Mc in an ontological model are the sets of idempotent
+indicator functions {χa (λ), χA (λ)}, {χb (λ), χB (λ)}, and
+{χc (λ), χC (λ)} respectively. By definition, these must
+satisfy
+χa (λ) + χA (λ) = 1,
+χb (λ) + χB (λ) = 1,
+χc (λ) + χC (λ) = 1,
+
+(43)
+(44)
+(45)
+
+χa (λ)χA (λ) = 0,
+χb (λ)χB (λ) = 0,
+χc (λ)χC (λ) = 0.
+
+(46)
+(47)
+(48)
+
+and
+
+Now consider choosing one of Ma , Mb , and Mc at random, with probability 1/3 for each, implementing the
+chosen measurement, and only registering whether the
+first (small letter) or the second (capital letter) outcome
+occurred. Call the effective measurement procedure that
+results M. It is associated with the POVM
+{ 31 Pa + 31 Pb + 13 Pc , 31 PA + 13 PB + 31 PC }.
+
+1
+1
+1
+3 χA (λ) + 3 χB (λ) + 3 χC (λ)}.
+
+(51)
+
+But it is clear from this way of writing the POVM that
+the measurement has a random outcome regardless of the
+preparation procedure, since Tr(ρ 12 I) = 21 regardless of ρ.
+It then follows that the equivalence class of measurement
+procedures that contains M also contains the ”measurement” procedure M̃ that completely ignores the system
+and just flips a fair coin to determine the outcome. Now
+consider how the measurement M̃ is represented in the
+ontological model. Because the outcome doesn’t depend
+on the system at all, it follows that regardless of the value
+of λ, there is a probability of 1/2 for each outcome, so it
+is represented by the set of indicator functions
+{ 21 , 12 },
+
+(52)
+
+where each element should be thought of as a uniform
+function over λ of height 12 10 .
+By the assumption of measurement noncontextuality,
+the measurement M must be represented by the same set
+of indicator functions as the measurement M̃. It follows
+that the set of functions (50) must be equal to the set of
+functions (52). However, this constraint is inconsistent
+with the constraints (43)-(48). To satisfy Eqs. (43)-(48)
+it is necessary that for every value of λ, one of χa (λ)
+and χA (λ) must be equal to 0 and the other equal to
+1. The same is true of χb (λ) and χB (λ) and of χc (λ)
+and χC (λ). The eight possible assignments of values to
+these six quantities leave the set of functions (50) with
+the values {0, 1}, {1, 0}, { 32 , 13 } or { 31 , 32 } but never { 12 , 21 }.
+This concludes the proof.
+
+B.
+
+(49)
+
+In an ontological model, a convex combination of measurements procedures is represented by an element-wise
+convex sum of the associated sets of indicator functions
+(for the same reason that an ontological model has feature 2 of section IV). Thus, M is represented by the set
+of indicator functions
+{ 31 χa (λ) + 31 χb (λ) + 13 χc (λ),
+
+{ 12 I, 21 I}.
+
+A proof based on the 2D version of Gleason’s
+theorem
+
+The impossibility of noncontextuality for unsharp measurements and outcome determinism for sharp measurements can also be established in a 2d Hilbert space by
+making appeal to a recent Gleason-like derivation of the
+quantum probability rule by Busch [5] and by Caves et al.
+[6]. This “generalized Gleason’s theorem” starts from the
+assumption that there exists a probability measure that
+
+(50)
+9 This fact is also captured by Eqs. (22) and (23).
+10
+
+8 Note that P
+
+a = σa , PA = σA , etcetera, where σx is defined in
+
+Eq. (14). This follows from the fact that the rank-1 density operator associated with a vector is simply the projector onto the
+ray spanned by that vector. It follows that Eqs. (37)-(39) and
+Eqs. (40)-(42) are equivalent to Eqs. (19)-(21) and Eqs. (15)-(17)
+respectively. We use a distinct notation for the same mathematical operators to remind the reader of the fact that in this section
+they represent measurement outcomes rather than preparation
+procedures.
+
+This fact can also be established by noting that the equivalence
+class includes the measurement M′ , obtained from M by permuting the two outcomes (because such a permutation does not
+change the statistics of outcomes). The ontological representations of M and M′ are {ξ1 (λ), ξ2 (λ)} and {ξ2 (λ), ξ1 (λ)}. Now,
+the assumption of measurement noncontextuality implies that
+since M and M′ are in the same equivalence class, they must be
+represented by the same set of indicator functions. Thus we require that ξ1 (λ) = ξ2 (λ). But since ξ1 (λ) + ξ2 (λ) = 1, it follows
+that ξ1 (λ) = ξ2 (λ) = 1/2 for all λ.
+
+10
+assigns a unique probability w(E) to every positive operator E such that w(I) = 1, and whenever P
+a set of positive
+operators forms a resolution of identity,
+k Ek = I, the
+P
+associated probabilities sum to 1, k w(Ek ) = 1. From
+these assumptions, it is proven that the measure must
+satisfy w(E) = Tr(ρE) for some density operator ρ [5, 6].
+Recall that the values of a set of indicator functions
+{ξk (λ)} at a particular value of λ form a probability distribution over k. In a measurement noncontextual theory, every positive operator E is represented by a unique
+indicator function ξE (λ), with the identity operator being represented by the unit function. Moreover, whenever
+a
+Pset of positive operators forms a resolution of identity,
+k Ek = I, the
+Passociated indicator functions sum to the
+unit function, k ξEk (λ) = 1. Thus, the set of all indicator functions for a given value of λ in an ontological model
+satisfy the assumptions of the set of probability measures
+in the generalized Gleason’s theorem. It follows therefore
+that for every value of λ in the ontological model, there
+is a density operator ρλ such that ξE (λ) = Tr(ρλ E).
+If in addition to measurement noncontextuality, one
+assumes outcome determinism for sharp measurements,
+then every projector is represented by a unique idempotent indicator function χP (λ), and by the generalized
+Gleason’s theorem,
+χP (λ) = Tr(ρλ P ).
+
+(53)
+
+Suppose that P = |ψi hψ|, and consider a λ such
+that χP (λ) = 1. In this case, Eq. (53) implies that
+ρλ = |ψi hψ|. But then for some other projector P ′ =
+2
+|ψ ′ i hψ ′ |, where 0 < |hψ|ψ ′ i| < 1, we have for this
+2
+value of λ that χP ′ = Tr(ρλ P ′ ) = |hψ|ψ ′ i| and consequently 0 < χP ′ (λ) < 1, which implies that χP ′ (λ) is
+not idempotent. Thus, the assumption of noncontextuality for unsharp measurements and outcome determinism
+for sharp measurements yields a contradiction in a 2d
+Hilbert space.
+This no-go theorem is related to the no-go theorem
+of the previous section in the same way that the no-go
+theorem [1] that is obtained from the standard Gleason’s
+theorem [7] is related to the original Kochen-Specker theorem [2]. The former derive a contradiction using the full
+set of measurements, while the latter only make use of a
+finite set.
+VI.
+
+PROOF OF TRANSFORMATION
+CONTEXTUALITY IN 2D
+
+Consider a set of six transformation procedures, denoted T0 ,Tπ/3 ,T2π/3 ,Tπ ,T4π/3 ,T5π/3 , where the procedure Tθ corresponds to the CP map
+†
+Tθ (ρ) = Uy,θ ρUy,θ
+,
+
+(54)
+
+and where
+
+is the unitary operator describing a rotation by θ about
+the y axis in the Bloch sphere. Consider also the CP map
+T that takes all points in the Bloch sphere and projects
+them onto the y axis. There are many ways of implementing T as a convex sum of transformations, specifically,
+
+1
+1
+T0 + Tπ
+(56)
+2
+2
+1
+1
+= Tπ/3 + T4π/3
+(57)
+2
+2
+1
+1
+= T2π/3 + T5π/3
+(58)
+2
+2
+1
+1
+1
+= T0 + T2π/3 + T4π/3
+(59)
+3
+3
+3
+1
+1
+1
+= Tπ/3 + Tπ + T5π/3
+(60)
+3
+3
+3
+These identities can be explained as follows. The map T
+can be achieved by performing with probability 1/2 a rotation in the Bloch sphere about the y axis by θ and with
+probability 1/2 a rotation by θ + π. Taking θ = 0, π/3
+and 2π/3 yields Eqs. (56)-(58). The map T can also
+be achieved by performing a rotation about y by θ, by
+θ + 2π/3 or by θ + 4π/3 with equal probabilities. Taking
+θ = 0 and π/3 yields Eqs. (59) and (60). A rigorous proof
+of these statements is provided in the appendix.
+By the assumption of transformation noncontextuality each of the seven CP maps we have considered is
+associated with a unique transition matrix on the space
+of ontic states. Suppose that we denote the transition
+matrix associated with T by Γ, and the transition matrix associated with Tθ by Γθ . Because a convex sum of
+transformation procedures is represented in an ontological model by a convex sum of the associated transition
+matrices, Eqs. (56)-(60) imply
+T =
+
+1
+1
+Γ0 + Γπ
+(61)
+2
+2
+1
+1
+= Γπ/3 + Γ4π/3
+(62)
+2
+2
+1
+1
+= Γ2π/3 + Γ5π/3
+(63)
+2
+2
+1
+1
+1
+= Γ0 + Γ2π/3 + Γ4π/3
+(64)
+3
+3
+3
+1
+1
+1
+= Γπ/3 + Γπ + Γ5π/3
+(65)
+3
+3
+3
+Note that Tθ and Tθ+π take any rank-1 density operator lying in the z-x plane of the Bloch sphere to a
+pair of orthogonal density operators. Since these are distinguishable with certainty, it follows from feature 1 of
+ontological models (see section IV) that the transition
+matrices Γθ and Γθ+π must take any distribution µx (λ)
+to disjoint distributions, that is,
+Z
+Z
+dλ′ Γθ (λ, λ′ ) µx (λ′ )
+dλ′ Γθ+π (λ, λ′ ) µx (λ′ ) = 0.
+Γ =
+
+(66)
+Uy,θ =
+
+
+
+cos θ2 − sin 2θ
+sin θ2 cos 2θ
+
+
+
+(55)
+
+Now consider how our seven transition matrices affect the distribution µa (λ) associated with the density
+
+11
+operator σa , defined in Eq. (14) (recall that σa is represented on the Bloch sphere by the vector pointing
+along the z axis). We obtain seven
+distinct distribuR
+tions, which we denote µθ (λ) ≡ dλ′ Γθ (λ, λ′ ) µx (λ′ ),
+for
+R ′θ = ′ 0, π/3,′ 2π/3, π, 4π/3, 5π/3, and µ(λ) ≡
+dλ Γ(λ, λ ) µx (λ ). By virtue of Eqs. (61)-(65) and Eq.
+(66), these seven distributions satisfy Eqs. (32)-(36) and
+Eqs. (24)-(26) where a, A, b, B, c, C are associated with
+θ = 0, π, 2π/3, 5π/3, 4π/3, π/3 respectively. But Eqs.
+(32)-(36) and Eqs. (24)-(26) cannot be satisfied simultaneously, so we have arrived at a contradiction11 .
+In a draft of this article, the question of the existence of
+a no-go theorem for transformation noncontextuality was
+left as an open problem. The question was resolved by
+Terry Rudolph who provided the example given above. I
+am grateful for his permission to present the result here.
+
+VII. IS THE ASSUMPTION OF
+NONCONTEXTUALITY NATURAL?
+
+An important question is whether the assumption of
+noncontextuality for preparations, transformations, and
+unsharp measurements is as well motivated as this same
+assumption for sharp measurements, to which the notion
+is usually restricted. To answer this, one must consider
+the motivation for the latter, which seems to be one of
+ontological economy: be wary of introducing differences
+in the ontological explanations of empirical phenomena
+where there are no differences in the phenomena themselves. Einstein’s equivalence principle is an example of a
+fruitful application of this principle. If this is indeed the
+motivation, then it clearly also applies to our generalized
+notions of noncontextuality. Specifically, if one believes
+that equivalent statistics suggest equivalent ontological
+representations for sharp measurements, why should one
+not believe this for preparations, transformations, and
+unsharp measurements as well? Thus, barring an alternative motivation for the traditional notion of noncontextuality, it seems that an ontological model that respects
+the statistical equivalence class structure of preparations,
+transformations, and unsharp measurements is as well (or
+badly) motivated as an ontological model that respects
+the statistical equivalence class structure of sharp measurements.
+This of course leaves open the question of whether any
+assumption of noncontextuality is natural. The answer
+seems to depend on one’s interpretational bent. John
+Bell, for instance, thought that contextuality was not at
+all surprising12 , whereas David Mermin has characterized
+
+11 It
+
+should be noted that the above argument is equivalent to
+a proof of preparation contextuality in four dimensions if one
+makes use of the Jamiolkowski isomorphism between density operators in a 4d space and CP maps in a 2d space [20].
+12 Bell states: “The result of an observation may reasonably depend
+not only on the state of the system (including hidden variables)
+
+it as a mystery in need of explanation13 .
+In order to defend the view that measurement contextuality is indeed mysterious within the framework of an
+ontological model, we show that the reasons for thinking
+so are very similar to the reasons for thinking that nonlocality is mysterious. Disregarding classical prejudice,
+nonlocality is not an unreasonable assumption. However, if the universe is fundamentally nonseparable or is
+such that causal influences can propagate faster than the
+speed of light, then why should it also be the case that
+one cannot use these effects to achieve super-luminal signalling? Given the presence of nonlocality at the ontological level, it seems almost conspiratorial that one
+cannot make use of this nonlocality for signalling. Similarly, it is certainly not unreasonable for the statistics of
+experimental outcomes for a given ontic state to depend
+on details of the experimental procedure. But assuming this to be the case, it is very surprising that when
+one considers any valid probability distribution over the
+ontic states (that is, any distribution that characterizes
+what someone who knows only the preparation procedure
+knows about the ontic state), the weighted average over
+the statistics of outcomes does not depend on the details
+of the experimental procedure. Again, this seems almost
+conspiratorial. This analogy suggests that removing the
+appearance of conspiracy from contextuality may well be
+on a par with reconciling Bell’s theorem and relativity as
+a guide for progress in the search for a wholly satisfactory
+realist interpretation of quantum theory.
+It is likely that the notion of preparation noncontextuality will also seem natural to some and unnatural to
+others. To shed some light on the diversity of reactions, it
+is useful to distinguish two different types of ontological
+model of quantum theory. Specifically, we distinguish
+what we call the epistemic view and the ontic view of
+quantum states [25].
+The epistemic view of quantum states asserts that a
+density operator represents nothing more than an agent’s
+knowledge about the ontic state of the system. Specifically, it represents the knowledge of someone who knows
+only the preparation procedure. In this view, the ontic state of a system does not fix the density operator
+that is used to describe it. Distinct non-orthogonal density operators (including the pure cases) are represented
+by overlapping probability distributions within this view
+and are thus consistent with a single ontic state. By contrast, the ontic view of quantum states asserts that the
+density operator itself represents an attribute of the system, and consequently that two distinct density operators represent mutually exclusive physical states of affairs
+
+but also on the complete disposition of the apparatus.” [1]
+13 Mermin states: “if one is attempting a hidden variable model at
+
+all, it seems not unreasonable to expect the model to provide the
+obvious explanation for this striking insensitivity of the distribution to changes in the experimental arrangement — namely, that
+the hidden variables are noncontextual” [21]
+
+12
+and are therefore represented in the ontological model by
+nonoverlapping (i.e. disjoint) probability distributions.
+To be precise, for a set S of density operators (assumed
+to contain some nonorthogonal elements), an ontological
+model adopts an ontic view of S if all distinct elements
+of S are represented by disjoint distributions, that is,
+ρ 6= ρ′ implies µρ (λ)µρ′ (λ) = 0 for all ρ, ρ′ ∈ S,
+
+(67)
+
+whereas an ontological model adopts an epistemic view
+of S if only orthogonal elements of S are represented by
+disjoint distributions
+µρ (λ)µρ′ (λ) = 0 only if ρρ′ = 0, for all ρ, ρ′ ∈ S
+
+(68)
+
+In other words, in an epistemic view of S, being orthogonal is a necessary condition for a pair of quantum states
+to be represented by disjoint distributions (the argument
+presented at the beginning of section IV shows that orthogonality is a sufficient condition for disjointness, regardless of whether one adopts an ontic or an epistemic
+view.)
+We now show that an ontic view of the set of pure
+quantum states rules out the possibility of preparation
+noncontextuality trivially. Our purpose here is to show
+that an implicit commitment to such a view can lead to
+the impression that the assumption of preparation noncontextuality is unnatural.
+Consider the four preparation procedures Pa , PA , Pb
+and PB from section IV, represented in quantum theory
+by the Hilbert space vectors ψa , ψA , ψb and ψB respectively. An ontic view of pure quantum states implies
+that not only are the orthogonal states associated with
+disjoint distributions,
+µa (λ)µA (λ) = 0
+µb (λ)µB (λ) = 0,
+
+(69)
+(70)
+
+states trivially precludes the possibility of preparation
+noncontextuality.
+Since our manner of speaking about pure quantum
+states typically favors the ontic view of the latter, it
+also tends to make the assumption of preparation noncontextuality seem implausible. The very term “quantum state” already predisposes one to thinking of the
+density operator as representing the physical state of affairs rather than an agent’s knowledge. For instance, in
+the context of photon polarization, the multiplicity of
+convex decompositions of the completely mixed state is
+sometimes summarized as follows: “an equal mixture of
+states of horizontal and vertical polarization is statistically indistinguishable from an equal mixture of states
+of left and right circular polarization”. Implicit in this
+sort of language is the assumption that the four different
+states of polarization are mutually exclusive states of affairs and are therefore ontic states. Indeed, this way of
+putting things compels us to question (in vain) whether
+there isn’t really some measurement that could tell these
+two cases apart. However, it is wrong to take this as an
+argument against the “naturalness” of preparation noncontextuality because this impression can be attributed
+entirely to the language that is used to describe the phenomenon.
+If one is to take the epistemic view seriously, as one
+should in an investigation of the possibility of an ontological model of quantum theory, then this sort of language must be avoided, and the assumption of preparation noncontextuality is a priori very plausible. Indeed, in light of the arguments that have recently been
+made in favor of the epistemic view of quantum states
+[22, 23, 24, 25] and the fact that one can reproduce
+qualitatively many quantum phenomena in noncontextual theories [25, 26, 27, 28], the impossibility of a preparation noncontextual ontological model appears all the
+more shocking to the devoted realist.
+
+but also nonorthogonal states are associated with disjoint
+distributions,
+µa (λ)µb (λ) = 0
+µA (λ)µb (λ) = 0
+µa (λ)µB (λ) = 0
+µA (λ)µB (λ) = 0
+
+(71)
+(72)
+(73)
+(74)
+(75)
+
+It is then clear that the preparation procedures PaA and
+PbB , obtained respectively by implementing Pa and PA
+with equal probability, or Pb and PB with equal probability, are represented by distributions µaA and µbB (defined
+in Eqs. (27) and (28)) that are also disjoint,
+µaA (λ)µbB (λ) = 0.
+
+(76)
+
+However, since these two procedures are represented by
+the same density operator, namely I/2, they must be
+represented by the same distribution in a preparation
+noncontextual model. Thus, an ontic view of quantum
+
+VIII.
+
+THE ISSUE OF OUTCOME
+DETERMINISM
+
+In our proof of contextuality for unsharp measurements, we assumed outcome determinism for sharp measurements but we assumed outcome indeterminism for
+unsharp measurements. This amounts to representing
+all and only those POVMs with idempotent elements by
+sets of indicator functions that are idempotent. Although
+this seems like a natural assumption to make, two alternative assumptions might seem a priori worth considering: (1) that both sharp and unsharp measurements
+are outcome-deterministic, or (2) that both are outcomeindeterministic.
+We begin by considering the first alternative, that outcome determinism also holds for unsharp measurements.
+It turns out that this is trivially inconsistent with assuming measurement noncontextuality. Consider a measurement procedure M associated with the POVM {I/2, I/2}.
+
+13
+As argued in section V, the assumption of measurement
+noncontextuality implies that M must be represented in
+an ontological model by the set of indicator functions
+{1/2, 1/2} which are not idempotent, and thus M cannot be outcome deterministic. A recent result by Cabello [4] also rules out the possibility of a hidden variable
+model that is measurement noncontextual and outcome
+deterministic for unsharp measurements. However, this
+proof is unnecessarily complex since a consideration of
+the POVM {I/2, I/2} yields the result immediately.
+The second alternative is that both sharp and unsharp
+measurements are outcome-indeterministic. This is the
+more significant alternative, because it constitutes the
+weakest assumption and consequently the most general
+framework for an ontological model. Indeed, unless the
+assumption of outcome determinism can itself be justified by the assumption of noncontextuality, it is inappropriate to call any no-go theorem that makes use of this
+assumption a proof of contextuality, because in the face
+of a contradiction one can always assume that the faulty
+assumption was that of outcome determinism rather than
+that of measurement noncontextuality. Thus, neither the
+proof of Bell [1], nor the proof of Kochen and Specker
+[2], nor any of the proofs of these types including those
+presented in section V, serve to rule out the possibility
+of measurement noncontextuality (in the sense in which
+we have defined the term). It turns out, however, that
+the assumption of outcome determinism for sharp measurements can be justified by an assumption of preparation noncontextuality, as we shall presently demonstrate.
+Given this inference, the old proofs are vindicated insofar as they remain proofs of the impossibility of universal
+noncontextuality (noncontextuality for all experimental
+procedures).
+It should be noted that Toner, Bacon, and Ben-Or [19]
+have considered a third alternative, namely, that outcome
+determinism holds for just those POVMs with elements
+that are not repeatable, that is, elements that cannot
+appear twice in a single POVM, and have obtained a
+nontrivial no-go theorem. Bacciagaluppi [17] has considered a similar alternative and obtained a similar result.
+Although this is a much weaker assumption than the first
+alternative, the resulting theorems are still not proofs of
+the impossibility of universal noncontextuality, according
+to our definition, since the assumption of outcome determinism for these special POVMs has not been justified
+by an assumption of universal noncontextuality. In contrast, outcome determinism for all sharp measurements
+can be so justified. We turn now to the proof of this
+statement.
+
+A.
+
+Preparation noncontextuality implies outcome
+determinism for sharp measurements
+
+Consider a rank-1 PVM {Pk }. Thinking of each of the
+elements as a rank-1 density operator, ρk = Pk , we obtain an orthogonal set of rank-1 density operators {ρk }.
+
+We denote the density operators and projectors differently because they are represented differently in the ontological model. The set {ρk } is represented by a set
+of probability densities {µk (λ)}, while the PVM {Pk } is
+represented by a set of indicator functions {ξk (λ)}. Since
+the ρk are orthogonal, the associated preparations are
+distinguishable with certainty, and thus by feature 1 of
+ontological models we must have
+µk (λ)µk′ (λ) = δk,k′ .
+
+(77)
+
+The support of µk (λ), denoted Ωk , is the region of the
+ontic state space assigned non-zero probability by µk (λ),
+Ωk = {λ|µk (λ) > 0}.
+
+(78)
+
+Eq. (77) then implies that
+Ωk ∩ Ωk′ = ∅ if k 6= k ′ .
+
+(79)
+
+Now, by virtue of the fact that
+T r(ρk Pk′ ) = δk,k′ ,
+
+(80)
+
+ξk (λ)µk′ (λ) = δk,k′ .
+
+(81)
+
+we infer that
+Z
+
+But, given Eq. (78), this implies that
+ξk (λ) =
+
+1 for λ ∈ Ωk
+,
+0 for λ ∈ ∪k′ 6=k Ωk′
+
+(82)
+
+or, equivalently,
+ξk (λ)ξk′ (λ) = δk,k′ for λ ∈ ∪j Ωj .
+
+(83)
+
+So, if one can show that the union of the supports of the
+µk (λ) is the entire ontic state space, i.e.,
+∪j Ωj = Ω,
+
+(84)
+
+then Eq. (83) would imply that {ξk (λ)} is a set of idempotent indicator functions, and consequently would establish that our rank-1 PVM must be outcome-deterministic
+in the ontological model.
+It turns out that Eq. (84) follows from the assumption
+of preparation noncontextuality. First note that the ontic
+state space Ω can be defined as the set of λ that are
+assigned non-zero probability by some density operator
+Ω = {λ|µρ (λ) > 0 for some ρ} .
+
+(85)
+
+However, since every density operator ρ appears in some
+convex decomposition of the completely mixed state I/d
+(where d is the dimensionality of the Hilbert space), and
+since preparation noncontextuality implies that there is
+a unique distribution µI/d (λ) associated with this state,
+
+14
+it follows that Ω is simply the set of λ assigned non-zero
+probability by the latter, i.e.,
+
+Ω = λ|µI/d (λ) > 0 .
+(86)
+But given that the ρk form a convex decomposition of
+I/d,
+X1
+k
+
+d
+
+ρk =
+
+I
+,
+d
+
+(87)
+
+it follows from preparation noncontextuality that
+X1
+k
+
+d
+
+µk (λ) = µI/d (λ),
+
+(88)
+
+which implies Eq. (84).
+This establishes outcome determinism for PVMs all of
+whose elements are rank 1. Since an arbitrary PVM can
+always be obtained by coarse-graining of a rank-1 PVM,
+and since coarse-graining takes idempotent functions to
+idempotent functions, any PVM is represented by a set of
+idempotent indicator functions. This establishes that the
+assumption of outcome determinism for sharp measurements follows from an assumption of preparation noncontextuality.
+It is natural to wonder whether outcome determinism
+for sharp measurements might be justified by an assumption of measurement noncontextuality (rather than an assumption of preparation noncontextuality). If this were
+possible, then the proofs in section V would derive contradictions from measurement noncontextuality alone. It
+turns out that this is not possible, because measurement
+noncontextuality on its own is consistent with quantum
+theory, as we now show.
+B.
+
+Achieving measurement noncontextuality by
+giving up outcome determinism
+
+Consider the following ontological model of quantum
+theory, which is objectively indeterministic and adopts
+an ontic view of quantum states. The ontic state space
+Ω is simply taken to be the projective Hilbert space, that
+is, the set of rays of Hilbert space. Thus, for every rank-1
+projector |ψi hψ| , we associate a single ontic state, which
+we denote by ψ. Consequently, there are no hidden variables in this ontological model. A preparation procedure
+associated with the rank-1 density operator |ψ ′ i hψ ′ | is
+represented by a Dirac-delta distribution
+µψ′ (ψ) = δ(ψ − ψ ′ ).
+
+(89)
+
+A preparation procedure involving a convex combination of rank-1 density operators {p(ψ ′ ), |ψ ′ i hψ ′ |} is represented by the distribution
+Z
+µ(ψ) = dψ ′ p(ψ ′ )δ(ψ − ψ ′ ),
+(90)
+
+where dψ is the unitarily-invariant measure on the projective Hilbert space. A measurement of the POVM {Qk }
+is associated with a set of indicator functions {ξQk (λ)}
+defined by
+ξQk (ψ) = Tr(Qk |ψi hψ|).
+
+(91)
+
+These functions are clearly positive by virtue of the positivity
+Pof the Qk , and sum to unity by virtue of the fact
+that k Qk = I. Note also that they depend only on the
+POVM that is associated with the measurement and not
+on how it was implemented. One can see that this model
+reproduces quantum theory by noting that
+Z
+µψ′ (ψ)ξQk (ψ)dψ = Tr(Qk |ψ ′ i hψ ′ |).
+(92)
+The predictions for mixed preparations are also reproduced.
+This model has been discussed at length by Beltrametti and Bugajski [8], and captures to some extent the
+ontological model that many physicists implicitly adhere
+to. Note that the model is obviously preparation contextual since the distribution that represents a convex
+combination of preparation procedures, described in Eq.
+(90), depends on the particular ensemble of pure states,
+and not just on the density operator associated with the
+mixture. This fact comes as no surprise since the results
+of section IV show that any ontological model, deterministic or not, must be preparation contextual. More
+importantly for the purposes of this section, the set of
+indicator functions associated with any PVM {Pk } are
+not idempotent. This is clear since Tr(Pk |ψi hψ|) is only
+0 or 1 if |ψi lies in an eigenspace of Pk . It follows that
+the assumption of outcome determinism for sharp measurements is explicitly violated. However, because the
+set of indicator functions depends only on the POVM,
+and not on its context, the assumption of measurement
+noncontextuality is upheld.
+
+IX.
+
+CONCLUSIONS
+
+Because the traditional notion of noncontextuality
+only allowed for a no-go theorem in Hilbert spaces of
+dimensionality greater than two, there have been many
+proposed hidden variable models for 2d Hilbert spaces
+that are purported to be noncontextual [1, 2]. These
+have been presented primarily as pedagogical examples
+of what sort of model is excluded for larger-dimensional
+Hilbert spaces. However, by our generalized definition
+of noncontextuality, all of these models are deemed contextual by virtue of being contextual for preparations,
+transformations, and unsharp measurements. This overturns the notion, suggested by the restriction of old BellKochen-Specker theorems to Hilbert spaces of dimensionality greater than two, that there is nothing inherently
+nonclassical about a 2d Hilbert space [29].
+
+15
+In the face of this claim, a sceptic might argue that
+the proofs presented here have made use of mixed preparations, unsharp measurements, and irreversible transformations (associated respectively with non-rank-1 density operators, non-projective POVMs, and non-unitary
+CP maps), and that these are necessarily implemented
+in practice through pure preparations, sharp measurements, and reversible transformations (associated respectively with rank-1 density operators, PVMs, and unitary
+maps) on a larger system and therefore implicitly make
+use of a Hilbert space of dimension greater than two.
+However, this is incorrect. If one examines carefully the
+proofs presented in this article, one finds that wherever
+non-rank-1 density operators, non-projective POVMs, or
+non-unitary CP maps arise, they are due to ignorance of
+which of several rank-1 density operators, PVMs, or unitary maps in the 2d Hilbert space is appropriate, rather
+than being due to the neglect of a subspace or subsystem
+of a larger dimensional Hilbert space. In other words,
+any “ancillary” systems used to implement such procedures can be treated classically, and thus do not require
+one to posit a larger Hilbert space.
+Our operational definition of noncontextuality has allowed us to distinguish the notions of preparation, transformation, and measurement noncontextuality. Our
+proof of preparation contextuality is particularly novel as
+a no-go theorem insofar as it focusses on the impossibility of reproducing, within a particular kind of ontological
+model, the convex structure of the set of quantum states
+rather than the algebraic structure of the set of quantum
+measurements. It is interesting to note that wherever
+one finds a freedom of decomposition in the formalism
+of operational quantum theory, such as the multiplicity
+of convex decompositions of a mixed quantum state or
+of a POVM element, the multiplicity of fine-grainings
+of a non-rank-1 POVM, or the unitary freedom in the
+operator-sum representation of a non-unitary CP map,
+one can develop a proof of contextuality that is based on
+this freedom.
+We have shown that one can confine all the contextuality into the preparations and transformations if one likes,
+because there exist outcome-indeterministic ontological
+models of quantum theory, such as the BeltramettiBugajski model, that are measurement noncontextual.
+On the other hand, one cannot confine all the contextuality into the measurements, because the assumption
+of preparation noncontextuality yields a contradiction on
+its own. In this sense, preparation contextuality is more
+fundamental to quantum theory than measurement contextuality.
+The issue of noncontextuality is closely linked with the
+issue of locality. Indeed, it is sometimes claimed that
+nonlocality is an instance of measurement contextuality.
+If this were the case, then proofs of nonlocality would
+also constitute proofs of measurement contextuality, and
+since there exist proofs of nonlocality that do not assume
+outcome determinism for sharp measurements, it would
+appear that there should exist proofs of measurement
+
+contextuality that do not make this assumption either.
+But this would be in contradiction with the claims of the
+previous section.
+The resolution of this puzzle is that one can distinguish two sorts of locality [30], and it is only the failure
+of one of these that implies measurement contextuality.
+The first notion of locality, which we call separability,
+is the assumption that the ontic state of the universe
+is defined in terms of the ontic states at each point of
+space-time. The other sort of locality assumption, which
+presumes separability, we call local causality. It is the
+assumption that the probability distribution over values
+for a variable in a space-time region are determined by
+the values of all the variables in the backward light-cone
+of this region (see footnote in section III). A failure of local causality within the framework of a separable model
+does indeed imply measurement contextuality. However,
+a model can be nonlocal by virtue of failing to be separable, and in this case it does not follow that the model is
+measurement contextual. This is precisely what occurs
+in the Beltrametti-Bugajski model. The variables for a
+composite system are not simply the Cartesian product
+of the variables of the components, since the Cartesian
+product of two projective Hilbert spaces is not the projective Hilbert space of the tensor product (it fails to include
+the entangled states). In particular, spatially separated
+systems are not associated with distinct variables. Thus,
+the Beltrametti-Bugajski model is not separable. It is
+only within the context of a separable theory that Bell’s
+theorem implies measurement contextuality.
+The opposite inference has also received a great deal of
+attention: whether a proof of measurement contextuality
+can be turned into a proof of nonlocality (note that the
+question is only interesting if one presumes separability
+since otherwise one is already acknowledging a failure of
+some sort of locality). The motivation for this investigation is clear since, as Bell famously emphasized, an assumption of measurement noncontextuality is most compelling if it can be justified by an assumption of locality
+[31]. Many authors have shown how certain no-go theorems for measurement noncontextuality can be turned
+into no-go theorems for locality by virtue of the fact that
+sometimes every assumption of measurement noncontextuality in a Bell-Kochen-Specker theorem can be justified
+by an assumption of locality [21, 32]. It turns out that the
+same trick can be achieved in no-go theorems for preparation noncontextuality. Although the particular proof
+of the no-go theorem presented in section IV does not
+admit such a justification, a proof can be found which
+does. This will be presented in a separate article [33].
+The version of Bell’s theorem that results is particularly
+enlightening, as it constitutes a more direct response to
+the EPR argument [34] compared to standard versions of
+the theorem.
+It should be noted that there are contexts that do not
+have any representation in the formalism of operational
+quantum theory. Whether one uses a piece of polaroid or
+a birefringent crystal in a measurement of photon polar-
+
+16
+ization is an example of such a context. No dependence
+on this sort of context is implied by any of the no-go
+theorems we have presented14 . Nonetheless, some hidden variable theories still exhibit such dependence. For
+instance, it has been shown that the deBroglie-Bohm
+interpretation has this sort of context-dependence for
+certain position measurements [35, 36] and for certain
+spin measurements [37]. Thus, the deBroglie-Bohm interpretation involves more contextuality than has been
+shown to be required of an ontological model. Note that
+Refs. [35, 36, 37] explicitly identify this feature of the
+deBroglie-Bohm interpretation as a kind of contextuality despite the fact that it does not fit into the standard
+definition of contextuality presented in the introduction.
+The possibility of this type of phenomenon was in fact
+considered in the framework of a general hidden variable
+theory much earlier by Shimony [38], who also described
+it as a kind of contextuality. This highlights another
+virtue of our generalized definition of contextuality: it
+accords with the intuition that a measurement context is
+any feature of the measurement that is not specified by
+specifying its equivalence class.
+An operational definition of noncontextuality is also
+likely to be useful because it allows one to investigate
+the possibility of finding ways of experimentally differentiating the set of noncontextual theories from the set
+of contextual theories, much as the Bell inequalities differentiate all local realistic theories from their alternatives. If these investigations are successful, they could
+shed light on the question of how to perform experimental tests of contextuality, a subject of much recent interest [39, 40, 41]. The question of whether an experimental
+test of contextuality is even possible has been the subject
+of some controversy, due to the finite precision of real
+experimental procedures [42, 43, 44, 45]. The problem,
+from the perspective of this article, is that finite precision
+might imply that in practice no two experimental procedures are found to be operationally equivalent, in which
+case the assumption of noncontextuality is never applicable. A possible resolution of this finite precision loophole
+
+is to further generalize the definition of noncontextuality
+proposed in the introduction as follows:
+
+[1] J. S. Bell, “On the problem of hidden variables in
+quantum mechanics”, Rev. Mod. Phys. 38, 447 (1966);
+Reprinted in [3],chap. 1.
+[2] S. Kochen and E. P. Specker, “The Problem of hidden
+variables in quantum mechanics’, J. Math. Mech. 17, 59
+(1967).
+[3] J. S. Bell, Speakable and unspeakable in quantum mechanics (Cambridge University Press, New York, 1987).
+[4] A. Cabello, “Kochen-Specker Theorem for a Single Qubit
+using Positive Operator-Valued Measures”, Phys. Rev.
+Lett. 90, 190401 (2003).
+[5] P. Busch, “Quantum states and generalized observables:
+a simple proof of Gleason’s theorem”, Phys. Rev. Lett.
+91, 120403 (2003).
+[6] C. M. Caves, C. A. Fuchs, K. Manne, and J. M. Renes,
+“Gleason-Type Derivations of the Quantum Probability
+
+Rule for Generalized Measurements,” Found. Phys. 34,
+193 (2004).
+[7] A. M. Gleason, “Measures on the closed subspaces of a
+Hilbert space”, J. Math. Mech. 6, 885 (1957).
+[8] E. G. Beltrametti and S. Bugajski, “A classical extension
+of quantum mechanics”, J. Phys. A: Math. Gen. 28, 3329
+(1995).
+[9] D. Bohm, “A Suggested Interpretation of the Quantum
+Theory in Terms of Hidden Variables, I and II”, Phys.
+Rev. 85, 166 (1952).
+[10] A. Peres, Quantum Theory: Concepts and Methods
+(Kluwer Academic, Boston, 1995).
+[11] L. Hardy, “Quantum Theory from Five Reasonable Axioms,” quant-ph/0101012.
+[12] K. Kraus, States, Effects and Operations: Fundamental
+Notions of Quantum Theory, Lecture Notes in Physics,
+
+A noncontextual ontological model of an operational theory is one wherein if two experimental procedures are operationally similar,
+then they have similar representations in the
+ontological model.
+To be substantive, this proposal must be supplemented
+by a quantitative measure of similarity in the space of
+operational procedures, and a corresponding measure in
+the space of ontological representations of these procedures. Whether this strategy can lead to an experimentally robust notion of contextuality is a subject for future
+research.
+Finally, given the fact that some quantum information
+processing protocols, namely, protocols for communication complexity problems [46], have been proven to require violations of Bell inequalities in order to outperform
+their classical counterparts, it is interesting to investigate
+whether the power of any quantum information processing protocols might be attributed to the contextuality of
+quantum theory. There is already some evidence to this
+effect in the case of random access codes [47]. We speculate that this might also be the case for the exponential
+speed-up of a quantum computer relative to a classical
+computer, if such a speed-up exists.
+
+Acknowledgments
+
+I would like to thank John Sipe, who was instrumental
+in developing the operational definition of noncontextuality, Terry Rudolph for his many improvements to the contents of this paper, Chris Fuchs, Lucien Hardy and Ben
+Toner for helpful discussions, and Guido Bacciagaluppi,
+Joseph Emerson, Jerry Finkelstein and Ernesto Galvão
+for insightful comments on previous drafts of the article.
+
+17
+Vol. 190 (Springer-Verlag, Berlin, 1983).
+[13] P. Busch, M. Grabowski and P. Lahti, Operational Quantum Physics, (Springer, Berlin, 1995).
+[14] B. Schumacher, “Sending entanglement through noisy
+quantum channels”, Phys. Rev. A 54, 2614 (1996)
+[15] A. Peres, Found. Phys. 20, 1441 (1990).
+[16] J. S. Bell, “The theory of local beables”, Ref. [3], chap. 7.
+[17] G. Bacciagaluppi, “Classical Kochen-Specker Theorems”, unpublished manuscript.
+[18] R. W. Spekkens and T. Rudolph, “Optimization of Coherent Attacks in Generalizations of the BB84 Quantum
+Bit Commitment Protocol,” Quantum Information and
+Computation 2, 66-96 (2002).
+[19] B. F. Toner, D. Bacon and M. Ben-Or, “Kochen-Specker
+theorem for Generalized Measurements”, unpublished
+manuscript (2005).
+[20] A. Jamiolkowski, “Linear transformations which preserve
+trace and positive semidefiniteness of operators,” Rev.
+Mod. Phys. 3, 275 (1972).
+[21] N. D. Mermin, “Hidden variables and the two theorems
+of John Bell”, Rev. Mod. Phys. 65, 803 (1993).
+[22] L. E. Ballentine, “Statistical Interpretation of Quantum
+Mechanics,” Rev. Mod. Phys. 42, 358 (1970); L. E. Ballentine, Y. Yang, and J. P. Zibin, ”Inadequacy of Ehrenfest’s theorem to characterize the classical regime,” Phys.
+Rev. A 50, 2854 (1994).
+[23] C. A. Fuchs, “Quantum Mechanics as Quantum Information (and only a little more),” quant-ph/0205039. ; C. A.
+Fuchs, “Quantum Mechanics as Quantum Information,
+Mostly,” J. Mod. Opt. 50, 987 (2003).
+[24] J. V. Emerson, “Quantum Chaos and QuantumClassical Correspondence”, Ph.D. thesis (2001), quantph/0211035.
+[25] R. W. Spekkens, “In defense of the epistemic view of
+quantum states”, quant-ph/0401052.
+[26] L. Hardy, “Disentangling nonlocality and teleportation,”
+quant-ph/9906123.
+[27] K. A. Kirkpatrick, “‘Quantal’ behavior in classical probability”, Found. Phys. Lett. 16, 199-224 (2003).
+[28] T. Rudolph, “Quassical mechanics,” unpublished
+manuscript (2004).
+[29] S. J. van Enk, “Quantum and Classical Game Strategies,” Phys. Rev. Lett. 84, 789 (2000).
+[30] D. Howard, “Einstein on Locality and Separability”,
+Stud. Hist. Phil. Sci. 16, 171 (1985).
+[31] J. S. Bell, “On the Einstein-Podolsky-Rosen Paradox”,
+Physics 1, 195 (1964). Reprinted in Ref. [3], chap. 2.
+[32] J. Zimba and R. Penrose, “On Bell Non-locality without
+probabilities: more curious geometry”, Stud. Hist. Phil.
+Sci. 24, 697-720 (1993).
+[33] T. Rudolph and R. W. Spekkens, in preparation.
+[34] A. Einstein, B. Podolsky, N. Rosen, “Can QuantumMechanical Description of Reality Be Considered Complete?” Phys. Rev. 47, 777 (1935).
+[35] A. Valentini, “On the pilot-wave theory of classical quantum and subquantum physics”, Ph.D. thesis (1991).
+[36] L. Hardy, in Fundamental problems in Quantum Theory,” eds. D. M. Greenberger and A. Zeilinger (New York
+Academy of Sciences, New York, 1995).
+[37] D. Z. Albert, Quantum Mechanics and Experience (Harvard University Press, Cambridge, 1992), pp. 153-155.
+[38] A. Shimony, “Contextual Hidden Variables Theories and
+Bell’s Inequalities”, Brit. J. Phil. Sci. 35, 25-45 (1984).
+[39] C. Simon, C. Brukner and A. Zeilinger, “Hidden Variable
+
+Theorems for Real Experiments”, Phys. Rev. Lett. 86,
+4427-4430 (2001).
+[40] J.-A. Larsson, “A Kochen-Specker Inequality”, Europhys. Lett. 58, 799-805 (2002).
+[41] A. Cabello and G. Garcia-Alcaine, “Proposed experimental tests of the Bell-Kochen-Specker theorem”, Phys.
+Rev. Lett. 80, 1797 (1998).
+[42] D. Meyer, “Finite Precision Measurement Nullifies the
+Kochen-Specker Theorem”, Phys. Rev. Lett. 83, 37513754 (1999).
+[43] R. Clifton and A. Kent, “Simulating Quantum Mechanics
+by Non-Contextual Hidden Variables”, Proc. Roy. Soc.
+Lond. A 456, 2101-2114 (2000).
+[44] D. Appleby, “Existential Contextuality and the Models
+of Meyer, Kent and Clifton”, Phys. Rev. A 65, 022105
+(2002).
+[45] J. Barrett and A. Kent, “Noncontextuality, Finite Precision Measurement and the Kochen-Specker Theorem”,
+quant-ph/0309017.
+[46] C. Brukner, M. Zukowski, J.-W. Pan, A. Zeilinger, “Violation of Bell’s inequality: criterion for quantum communication complexity advantage”, quant-ph/0210114.
+[47] E. F. Galvão, “Foundations of quantum theory and
+quantum information applications”, Ph.D. thesis, quantph/0212124.
+[48] M. A. Nielsen and I. L. Chuang, Quantum Computation
+and Quantum Information, (Cambridge University Press,
+Cambridge, 2000), p. 372.
+
+APPENDIX A: PROOF OF EQS. (56)-(60)
+
+To demonstrate Eqs. (56)-(60), we make use of the
+fact that there is unitary freedom in the operator-sum
+representation of a CP map [48]. Suppose that {Wµ } are
+a set of operators (called Kraus operators) appearing in
+an operator-sum representation of T , that is,
+T (ρ) =
+
+X
+
+Wµ ρWµ† .
+
+(A1)
+
+µ
+
+Then, for any unitary matrix uνµ , the set of operators
+{Xν } defined by
+Xν =
+
+X
+
+uνµ Wµ
+
+(A2)
+
+µ
+
+also forms an operator-sum representation of T . Note
+that we allow Kraus operators to be zero, so that different operator-sum representations may have different
+cardinality.
+Eq. (56) implies that T has an operator-sum representation in terms of the set of Kraus operators {W1 , W2 } =
+{ √12 U0 , √12 Uπ }, since
+T (ρ) =
+
+1
+1
+U0 ρU0† + Uπ ρUπ† .
+2
+2
+
+(A3)
+
+The set of operators {X1 , X2 } = { √12 Uθ , √12 Uθ+π } also
+yield an operator-sum representation of T since they
+
+18
+can be obtained by a unitary remixing of {W1 , W2 }, via
+Eq. (A2), using the 2 × 2 unitary matrix
+
+
+sin 2θ
+cos θ2
+(A4)
+u=
+− sin θ2 cos 2θ
+It follows, in particular, that the sets of Kraus operators { √12 Uπ/3 , √12 U4π/3 } and { √12 U2π/3 , √12 U5π/3 } form
+operator-sum representations of T , and consequently
+that Eqs. (57) and (58) hold.
+Next, we show that the set of operators {X1 , X2 , X3 } =
+{ √13 Uθ , √13 Uθ+2π/3 , √13 Uθ+4π/3 } also yield an operatorsum representation of T . First note that the set
+{W1 , W2 , W3 } = { √12 U0 , √12 Uπ , 0} yields the operator-
+
+sum representation of T associated with Eq. (56). The
+operators {X1 , X2 , X3 } can be obtained by a unitary
+remixing of {W1 , W2 , W3 } using the 3×3 unitary matrix
+q
+q 
+q
+2
+2
+1
+θ
+θ
+cos
+sin
+2
+2
+ q3
+q3
+q3 
+
+2
+1  . (A5)
+θ
+2π
+u =  23 cos( 2θ + 2π
+
+3 ) q 3 sin( 2 + 3 ) q 3 
+q
+θ
+4π
+θ
+4π
+2
+2
+1
+3 cos( 2 + 3 )
+3 sin( 2 + 3 )
+3
+It follows, in particular, that { √13 U0 , √13 U2π/3 , √13 U4π/3 }
+and { √13 Uπ/3 , √13 Uπ , √13 U5π/3 } form operator-sum representations of T and consequently that Eqs. (59) and (60)
+hold.
+
+

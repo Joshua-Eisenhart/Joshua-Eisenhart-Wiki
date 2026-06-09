@@ -1,0 +1,1188 @@
+CERN-TH-2019-120
+
+What attracts to attractors?
+Aleksi Kurkela,1, 2, ∗ Wilke van der Schee,1, † Urs Achim Wiedemann,1, ‡ and Bin Wu1, §
+
+arXiv:1907.08101v2 [hep-ph] 20 Nov 2019
+
+2
+
+1
+Theoretical Physics Department, CERN, CH-1211 Genève 23, Switzerland
+Faculty of Science and Technology, University of Stavanger, 4036 Stavanger, Norway
+
+Whether, how, and to what extent solutions of Bjorken-expanding systems become insensitive to
+aspects of their initial conditions is of importance for heavy-ion collisions. Here we study 1+1D and
+phenomenologically relevant boost-invariant 3+1D systems in which initial conditions approach a
+universal attractor solution. In Israel-Stewart theory (IS) and kinetic theory where the universal attractor extends to arbitrarily early times, we show that all initial conditions approach the attractor
+at early times by a power-law while their approach is exponential at late times. In these theories,
+the physical mechanisms of hydrodynamization operational at late times do not drive the approach
+to the attractor at early times, and the early-time attractor is reached prior to hydrodynamization.
+In marked contrast, the attractor in strongly coupled systems is realized concurrent with hydrodynamization. This qualitative difference may offer a basis for discriminating weakly and strongly
+coupled scenarios of heavy-ion collisions.
+
+In a dynamical system, an attractor is the particular
+solution to which arbitrary initial conditions within the
+basin of attraction relax at sufficiently late times. In general, the attractor is characterized by the competition between the expansion rate that drives the system towards
+local anisotropy, and the isotropizing interaction rate [1].
+Attractors are easily found empirically by evolving a set
+of different initial conditions (see Fig. 1 for an example).
+Recently, such attractor solutions have received attention
+in the context of ultra-relativistic heavy-ion collisions.
+Their form is of interest for understanding the onset of
+fluid-dynamic behavior [2–22] and the origin of the nonthermal fixed-point behavior in far-from-equilibrium dynamics [1, 20, 23–26]. For the phenomenology of heavyion collisions, these studies are needed to clarify to what
+extent different observables inform us either about the
+details of the initial conditions or about the material
+properties of the system.
+Whether an attractor solution exists at arbitrarily
+early times depends on the dynamics that drives the initial conditions to the attractor. Here we point out that
+some models undergoing Bjorken expansion do exhibit
+attractor behavior at arbitrarily early times while others don’t. The existence of the early-time attractor is a
+consequence of the longitudinal expansion at early times
+which would render heavy-ion phenomenology insensitive
+to the unknown details of the longitudinal structure of
+the initial state.
+Israel-Stewart theory: In Bjorken-expanding IsraelStewart (IS) theory [27] with transverse translational
+symmetry, an attractor solution exists for the ratio of
+longitudinal pressure pL over energy density ε,
+∂τ ε +
+
+1
+[ε + pL ] = 0 ,
+τ
+
+
+4φ
+1
+4η
+∂τ φ +
+= −
+φ−
+.
+3τ
+τR
+3τ
+
+(1)
+
+η
+tions is τR = a5 (ε+P
+) , where a is a free parameter, conventionally fixed to a = 1. This is the timescale on which
+linearized non-hydrodynamic excitations decay.
+We work for a conformal equation of state ε = 3P and
+constant specific viscosity η/s ∝ η/ε3/4 . The equation of
+motion for the ratio x ≡ pL /ε (written for convenience
+in the rescaled time t = τ /τR ) reads
+
+dx
+45x2 − 30x + 5 + (15t(1 − 3x) − 16a)
+=
+.
+dt
+45t
+(3)
+The limit a → 0 at finite τR is equivalent to an ideal
+IS theory with η = 0. In this simplest case, the attractor is the equilibrium xA = 1/3, and how the attractor
+is approached is given by rewriting (3) in terms of the
+deviation δ = x − xA
+
+
+3 1 + 3δ dδ
+δ2
+−
+=
+−δ.
+(4)
+4
+12
+dt
+t
+
+
+3 x
+−
+4 4
+
+
+
+Depending on whether t > δ or t < δ, the approach to
+the attractor is governed by the expansion rate (t−1 ) or
+by the interaction rate (independent of t), respectively.
+At all times, sufficiently small deviations from the attractor decay exponentially δ ∼ e−3t/2 , which is characteristic for linearized non-hydrodynamic perturbations
+around thermal equilibrium [6]. The factor 3/2 arises
+from the non-trivial time-evolution of the background.
+For finite a, eq. (3) corresponds to the first-order IS
+theory, which has two solutions that remain regular
+√  for
+1
+5 ± 4 5a , ret0 → 0 with limits limt0 →0 x± (t0 ) = 15
+spectively. The solution x− (t) is the attractor solution
+xA (t), while x+ (t) limits the basin of attraction from
+above1 . While we do not have an analytic solution x− (t),
+
+(2)
+
+Here τ is the proper time and φ ≡ 13 ε−pL . The time governing the relaxation to fluid-dynamic constitutive equa-
+
+1
+
+We note that within IS theory, a is a free parameter. The choice
+a = 1 amounts to equating τR to the second order hydrodynamic
+coefficient τπ of RTA kinetic theory. The choice a = 5/16 would
+
+2
+the attractor can be expanded at late and early times,
+see Supplemential Material for details. The main finding, see Fig. 2, is that the early-time expansion is a
+convergent series that can be analytically continued to
+arbitrarily late times using standard techniques, while
+the late-time expansion is a non-convergent, asymptotic
+Borel-resummable series. We next discuss the transient
+dynamics that evolves generic initial conditions from time
+t0 towards the attractor. At late initializations, t0  1,
+this is the well-known exponential decay of linearized
+non-hydrodynamic modes governed by (4) that, as discussed above, is determined by the interaction rate, see
+Fig. 1. Exponential decays with this timescale have been
+revealed in Borel-resummations of the late time expansion [6]. In marked contrast, at early times, (3) becomes
+
+
+3 xA (t = 0) + δ
+−
+4
+4
+
+
+
+dδ
+δ
+=
+dt
+t
+
+"
+
+√ #
+15 δ − 8 5a
+,
+15
+
+(5)
+
+√
+
+δ∼t
+
+.
+
+(6)
+
+We emphasize that the timescale of this decay becomes
+increasingly rapid and ultimately instantaneous with decreasing t0 (see Fig. 1). This is the hallmark of a decay governed by the expansion rate. It is qualitatively
+different from what one expects from the decay of nonhydrodynamic modes, and it forces the decay to the attractor prior to hydrodynamization.
+Higher-order fluid-dynamic models like rBRSSS [28]
+amount to replacing in (2) the relaxation to the first order
+constitutive relation (the term 43 ηs ) by relaxation to the
+second order one. In general, all additional terms thus
+introduced are ∝ τ1 . As a consequence, the value of the
+early-time attractor changes, but the early-time powerlaw approach of arbitrary initial conditions towards the
+attractor is unaffected.
+Kinetic theory: Features similar to the above can also
+be seen in Bjorken-expanding massless kinetic theory in
+the relaxation time approximation (RTA)
+∂τ f + ~v⊥ · ∂~x⊥ f −
+
+Israel-Stewart attractor
+τ0 -dominated
+
+0.2
+
+t=τ/τR
+
+0.0
+
+10-4
+
+0.01
+
+1
+
+pz
+(−vµ uµ )
+∂pz f = −
+[f − feq ] . (7)
+τ
+τR
+
+Here, the distribution function f (τ, ~x⊥ ; p~⊥ , pz ) relaxes
+µ
+to
+p equilibrium feq . It depends on p = (p, p~⊥ , pz ) , p =
+p~2⊥ + p2z , and on the proper time τ ; uµ denotes the rest
+frame of the energy density and ~v⊥ = p~⊥ /p, vz = pz /p
+are transverse and longitudinal velocities, respectively.
+We work with a conformal relaxation time τR−1 = γε1/4 .
+
+instead ensure that the early-time attractor of IS theory coincides
+with that of kinetic theory, x− (t0 ) = 0.
+
+100
+
+-0.2
+0.4
+
+τR -dominated
+
+pL
+ϵ
+
+0.3
+
+RTA attractor
+τ0 -dominated
+
+0.2
+0.1
+
+and the attractor is approached by a power law
+5a
+− √85a+10
+
+pL
+0.4 ϵ
+
+τR -dominated
+
+t=τ/τR
+
+0.0
+
+0.01
+
+0.5 pL/ϵ
+
+100
+
+AdS/CFT late-time attractor
+
+0.05 0.10
+
+-0.5
+
+1
+
+0.50
+
+1
+
+5
+
+t=τT
+10
+
+τQNM -dominated
+
+-1.0
+FIG. 1: Approach to the attractor in different theories. Different lines correspond to out-of-attractor initializations at
+different times t0 . Upper and middle panel: For t < 1, the
+slope of the approach remains constant on a log-linear scale,
+indicating that the time-dependence is set by the initialization time t0 and thus governed by the expansion rate. In
+contrast, for t > 1, the approach to the attractor appears
+on a log-linear scale steeper and steeper with increasing t,
+indicating its dependence on the interaction rate τR which
+does not depend on t0 . Lower panel: Qualitatively different
+behavior is seen for N = 4 SYM theory, where information
+characteristic of specific initial condition is lost only at times
+t ≥ 1, irrespective of how early the system is initialized.
+
+For systems with transverse translational symmetry,
+this Boltzmann equation can be reduced to a tower of
+moment equations [8, 18] describing the time evolution
+of various integral moments of the distribution function
+R
+R1
+3
+2l
+pl ≡ −1 dv2z 4πdpp
+(2π)3 f vz . Energy density and longitudinal pressure correspond to the first two moments, ε = p0 ,
+
+3
+0.4 pL
+0.3
+
+0.35 pL
+
+1
+5
+
+ϵ
+
+0.2
+
+-0.2
+-0.3
+
+20
+
+2
+
+3
+
+4
+2
+
+IS hydro
+
+12
+
+AdS/CFT
+
+30
+
+10
+
+t=τT
+
+5
+10
+
+0.2
+
+0.20
+
+20
+
+3
+
+1
+
+ϵ
+
+0.5 pL/ϵ
+
+10
+
+3
+
+0.25
+
+1
+
+0.1
+
+-0.1
+
+0.30
+
+1
+
+6
+
+t=τ/τR
+
+0.15
+
+7
+
+0.10
+
+0.4
+
+2
+
+0.6
+
+0.8
+
+1.0
+
+1.2
+
+1.4
+
+1
+
+1
+
+RTA
+
+5
+
+-0.5
+
+5
+
+0.05
+
+2
+
+1
+
+2
+
+3
+
+7
+
+t=τ/τR
+
+4
+
+5
+
+6
+
+7
+
+-1.0
+
+FIG. 2: Early-time (red-dashed) and late-time (blue-dashed) expansions of the attractor solutions (black). Orders of the
+expansions are given by numbers in the plots. The Padé approximant (green-dashed) extends the early-time expansion to any
+finite t in systems where the early-time attractor exists. For N = 4 SYM, grey curves are the specific solutions shown in Fig. 1.
+
+pL = p1 . The first two equations in the hierarchy result
+in
+
+
+3x2 − 6x + 3y + t(1 − 3x)
+3 x dx
+−
+=
+, (8)
+4 4 dt
+3t
+where y ≡ p2 /ε; see Supplemental Material for further
+details. The attractor is found amongst the regular solutions. Solutions that remain
+regular for t0 → 0 satp
+isfy limt0 →0 x± (t0 ) = 1 ± 1 − y(0). All physical values
+x ≤ 1 lie within the basin of attraction since x+ > 1.
+Since 0 < y < x, the attractor solution at early times is
+xA (0) = 0, and therefore also all higher moments pl (0)
+vanish. At late times, it follows trivially from (8) that
+the attractor approaches equilibrium, limt→∞ xA (t) = 13 .
+The late-time fluid-dynamic expansion of this transport theory has been computed to high orders [21]. Similar to IS theory, it is a non-convergent, asymptotic Borelresummable series. Also, similarily, the early-time expansion has a finite radius of convergence and can be
+extended to arbitrary late times by standard techniques
+(see Supplemental Material).
+The transient dynamics according to which generic initial conditions approach this attractor shares the main
+qualitative features of the IS theory discussed above,
+see Fig. 1. At late initializations, t0  1, eqs.(8) and
+(4) govern identical exponential decays of linearized nonhydrodynamic modes. For early times, t0  1, the decay
+of δ = x − xA to the attractor depends on y, and through
+y on the initial conditions of all higher moments. Because
+6x > 3y for any system, an approximate solution of the
+approach to the attractor can be obtained for a generic
+initial condition by neglecting y in (8) which leads to the
+power law decay δ ∼ t−8/3 . Similar reasoning suggests
+that y would approach its attractor ∼ t−16/3 thus justifying the above approximation; in fact, the same reasoning
+gives for all higher orders pl (t)/ε(t) ∝ x(t)l . These power
+laws are easily seen in numerical solutions of eq. (7) (see
+Supplemental Material).
+Strongly coupled N = 4 SYM: The third class of qualitatively different models of collectivity invoked in heavyion physics is given by strongly coupled quantum field
+theories with known gravity duals. Here, we contrast
+
+and compare the early-time dynamics in strongly coupled
+N = 4 Super Yang-Mills (SYM) theory with the attractor behavior observed above. The time evolution of pL /
+can be solved for boost invariant initial conditions using
+standard methods of holography, i.e., by solving the 5dimensional Einstein equations with the ansatz for the
+line-element
+ds2 = −2ρ−2 dρdτ − Adτ 2 + S 2 eB dx2⊥ + S 2 e−2B dξ 2 , (9)
+with ξ the space-time rapidity and ρ the internal fifth
+dimension. The initial conditions are specified by the
+ρ-dependent function B(τ0 , ρ) = BAdS (τ0 , ρ) + B0 (ρ),
+with BAdS (τ0 , ρ) = − 32 log(τ0 + ρ) the vacuum AdS solution; B(τ, ρ), A(τ, ρ) and S(τ, ρ) then follow from the
+Einstein equations [29]. Unlike in the models above2
+changing the initial Cauchy data B0 (ρ) amounts to a
+L (t0 )
+choice not only for pε(t
+, but also for all its deriva0)
+tives at t0 [3, 30]. We therefore study two different fam(U V )
+ilies of initial conditions, B0
+(ρ) = e−40ρT 32ρ5 T 5 and
+(IR)
+5 5
+B0 (ρ) = 32ρ T , where T is the effective temperature
+determined from the energy density. While their functional form is somewhat arbitrary, they are chosen such
+L (t0 )
+that their initial anisotropy pε(t
+and its first derivative
+0)
+are equal. They differ qualitatively in that their support
+is either localized close to the boundary (UV) or spread
+out in the fifth dimension (IR).
+Fig. 1 shows solutions in which both initial conditions
+are evolved from a set of different initialization times t0 .
+In marked contrast to IS theory and kinetic theory, different initial conditions do not reach a unique curve on
+time scale t0 . Rather, information about the initial condition is lost only at times t ∼ 1, and only on that time
+scale solutions converge to a common attractor. By closer
+
+2 We recall that also kinetic theory can be initialized with different
+
+classes of initial conditions by varying the values of higher moments at t0 , but all initial conditions approach the same attractor
+on a timescale t0 , see Supplemental Material. In IS theory, there
+pL (t0 )
+are no further degrees of freedom beyond ε(t
+that can be
+0)
+specified.
+
+4
+inspection of these results (data not shown) we observe
+that both for early initializations t0 < 1 and for late initializations t0 > 1, differences between solutions show
+the oscillatory behavior characteristic for the decay of
+quasi-normal modes (QNM) [16] that are exponentially
+damped with time scale τQNM . These solutions reach a
+unique attractor only at late times t > 1. In this sense,
+only the late time attractor is universal in N = 4 SYM;
+this is consistent with Fig.2 of Ref. [9].
+It is curious to note that curves initialized with
+(U V )
+B0
+(ρ) approach the high-order hydrodynamic latetime expansion [5] significantly earlier than curves initial(IR)
+ized with B0 (ρ), see Fig. 2. The latter initial condition
+is expected to give rise to a larger connected two-point
+function hT αβ T µν i than the former [31]. We believe that
+this observation, together with vanishing n-point functions in the above kinetic theory and in IS theory, should
+motivate further research into the relation of higher connected n-point functions and attractor behavior. This
+question could be asked not only in N = 4 SYM, but
+also in BBGKY-extensions of the Boltzmann equation.
+Attractors in boost-invariant 3+1D kinetic theory:
+Would an early-time attractor, if it exists, leave observable imprints? If so, this could provide a tool for
+disentangling qualitatively different microscopic candidate theories of weakly or strongly coupled quark gluon
+plasma. With this motivation, we now ask which aspects
+of the attractor behavior are accessible in collisions with
+a finite transverse extent and realistic transverse gradients. We focus on the kinetic theory (7) as it possesses
+an early-time attractor. We have solved (7) for realistic
+initial transverse profiles [32]. Because the early-time
+approach to the attractor is governed by the longitudinal
+expansion rate, breaking the translational symmetry in
+the transverse directions can change the 1+1D picture
+only to the extent to which transverse gradients are not
+negligible compared to the longitudinal one. Therefore,
+at sufficiently early initialization, independent of the
+transverse geometry and for all transverse positions r,
+arbitrary initial conditions in 3+1D evolve towards the
+1+1D attractor. In contrast, the late-time evolution of
+the attractor does depend on the transverse profile of
+energy and transverse momentum.
+These features are realized in boost-invariant 3+1D
+solutions of eq. (7), initialized with a Gaussian transverse
+energy profile with central energy density ε0 and r.m.s.
+radius R, see Fig. 3. For early initialization time τ0 ,
+keeping ε0 τ0 fixed, eq. (7) can be rescaled such that the
+evolution depends on only one dimensionless combination
+1/4
+of model parameters, the opacity γ̂ = γR3/4 (ε0 τ0 )
+=
+
+1/4
+3 3/4 3
+γ ε0 R t0
+, see [32, 33]. The opacity of a system
+increases with coupling strength (γ), transverse system
+size (R) and initial central energy density (ε0 ); physical
+collision systems were estimated to correspond to a range
+of opacities, γ̂ . 2 for proton-nucleus collision, 2 . γ̂ . 4
+
+for semi-peripheral PbPb collisions and somewhat higher
+values in central PbPb collisions [32].
+0.4 pL
+
+x
+
+x
+
+=8.0
+γ
+
+x
+x
+
+x
+
+
+0.3 γ=1.0 x
+0.2
+
+=4.0
+γ
+
+=2.0
+γ
+
+ϵ
+
+xx
+
+x
+
+1 x
+
+x
+
+r=2R
+r=R
+
+5
+
+x
+
+0.1
+
+r=0
+
+1
+
+t=τ/τR
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+FIG. 3: RTA attractor solutions of Bjorken-expanding 3+1D
+kinetic theory for collision systems of different opacity γ̂ and
+three different transverse positions r = 0, R, and 2R. The
+1+1D attractor (black line) corresponds to the limit of infinite opacity; the thin lines correspond to early- and late-time
+approximations, as in Fig. 2. The black crosses denote the
+point on the attractor where the physical time reaches τ = 2R
+after which the system has decoupled [32].
+
+The physical time in Fig. 3 is rescaled by a
+position- and time-dependent relaxation time τR−1 (τ, r) =
+γε(τ, r)1/4 . Therefore, for a system in which energy density decreases faster than ∝ τ −4 due to transverse expansion, the relation between physical and rescaled time
+is not monotonic; this is the reason t decreases for sufficiently late τ in the finite-γ̂ curves of Fig. 3. Moreover, because of this rescaling, the deviation of the r = 0
+attractor solution from the 1+1D one, and the deviation of the attractor solutions at finite r from the one at
+r = 0 arise solely from the radial expansion. For fixed γ̂,
+the r-dependence is remarkably mild. Low orders in the
+early-time expansion are seen to be sufficient to describe
+systems characterized by values of γ̂ that are within experimental reach. What Fig. 3 makes abundantly clear
+is that what remains universal across collision geometries
+is not the late-time attractor but the early-time attractor. That is, what remains universal is what follows from
+early-time dynamics and not what follows from hydrodynamization.
+In summary, we have studied the early-time behavior
+of qualitatively different models of collectivity applied to
+heavy-ion collisions. In some cases (N = 4 SYM), the attractor exists only at late times, and hydrodynamization
+and the loss of information about specific initial conditions are concurrent. The approach to the late-time attractor is then governed by the exponential decay of linearized non-hydrodynamic modes [2, 16]. In other cases
+(IS and kinetic theory) a unique attractor extends to arbitrarily early times and thus specific information about
+the initial condition is lost well before hydrodynamization. We find that in this latter case, a qualitatively dif-
+
+5
+ferent power-law approach to the attractor is operational
+far-from-equilibrium. It is expansion-driven rather than
+interaction-driven. It is also noteworthy that in this respect, IS theory at any value of η/s resembles RTA—the
+prototype of a weakly coupled system—rather than the
+prototypical strongly coupled system of N = 4 SYM.
+One of the main challenges in heavy ion phenomenology is to elucidate the inner workings of the quark
+gluon plasma, and in particular, to discriminate between
+weakly and strongly coupled plasma models in which a
+quasi-particle picture exists or does not exist, respectively. The qualitative difference stated here between the
+early-time dynamics of strongly coupled (N = 4 SYM),
+compared to both, kinetic theory and IS theory, deserves
+attention since it may help to make this distinction.
+
+∗
+
+Electronic address: a.k@cern.ch
+Electronic address: wilke.van.der.schee@cern.ch
+‡
+Electronic address: urs.wiedemann@cern.ch
+§
+Electronic address: b.wu@cern.ch
+[1] A. Kurkela and G. D. Moore, JHEP 1111 (2011) 120
+doi:10.1007/JHEP11(2011)120 [arXiv:1108.4684 [hepph]].
+[2] R. A. Janik and R. B. Peschanski, Phys. Rev. D
+74 (2006) 046007 doi:10.1103/PhysRevD.74.046007 [hepth/0606149].
+[3] G. Beuf, M. P. Heller, R. A. Janik and R. Peschanski, JHEP 0910 (2009) 043 doi:10.1088/11266708/2009/10/043 [arXiv:0906.4423 [hep-th]].
+[4] M. P. Heller, R. A. Janik and P. Witaszczyk,
+Phys.
+Rev.
+Lett.
+108
+(2012)
+201602
+doi:10.1103/PhysRevLett.108.201602 [arXiv:1103.3452
+[hep-th]].
+[5] M. P. Heller, R. A. Janik and P. Witaszczyk,
+Phys. Rev. Lett. 110 (2013) no.21,
+211602
+doi:10.1103/PhysRevLett.110.211602 [arXiv:1302.0697
+[hep-th]].
+[6] M.
+P.
+Heller
+and
+M.
+Spalinski,
+Phys.
+Rev.
+Lett.
+115
+(2015)
+no.7,
+072501
+doi:10.1103/PhysRevLett.115.072501 [arXiv:1503.07514
+[hep-th]].
+[7] L. Keegan, A. Kurkela, P. Romatschke, W. van
+der Schee and Y. Zhu, JHEP 1604 (2016) 031
+doi:10.1007/JHEP04(2016)031 [arXiv:1512.05347 [hepth]].
+[8] G. S. Denicol and J. Noronha, arXiv:1608.07869 [nuclth].
+[9] P. Romatschke, Phys. Rev. Lett. 120 (2018) no.1, 012301
+doi:10.1103/PhysRevLett.120.012301 [arXiv:1704.08699
+[hep-th]].
+[10] M. Spaliński, Phys. Lett. B 776 (2018) 468
+doi:10.1016/j.physletb.2017.11.059
+[arXiv:1708.01921
+[hep-th]].
+[11] M. Strickland, J. Noronha and G. Denicol, Phys. Rev. D
+97 (2018) no.3, 036020 doi:10.1103/PhysRevD.97.036020
+[arXiv:1709.06644 [nucl-th]].
+[12] A. Behtash, C. N. Cruz-Camacho and M. Martinez, Phys. Rev. D 97 (2018) no.4, 044041
+†
+
+doi:10.1103/PhysRevD.97.044041
+[arXiv:1711.01745
+[hep-th]].
+[13] J. P. Blaizot and L. Yan, Phys. Lett. B 780 (2018) 283
+doi:10.1016/j.physletb.2018.02.058
+[arXiv:1712.03856
+[nucl-th]].
+[14] M. P. Heller and V. Svensson, Phys. Rev. D 98
+(2018) no.5, 054016 doi:10.1103/PhysRevD.98.054016
+[arXiv:1802.08225 [nucl-th]].
+[15] G. S. Denicol and J. Noronha, Phys. Rev. D 99
+(2019) no.11, 116004 doi:10.1103/PhysRevD.99.116004
+[arXiv:1804.04771 [nucl-th]].
+[16] M. Spaliński, Phys. Lett. B 784 (2018) 21
+doi:10.1016/j.physletb.2018.07.003
+[arXiv:1805.11689
+[hep-th]].
+[17] A. Behtash,
+S. Kamata,
+M. Martinez and
+H. Shi, Phys. Rev. D 99 (2019) no.11, 116012
+doi:10.1103/PhysRevD.99.116012
+[arXiv:1901.08632
+[hep-th]].
+[18] M. Strickland and U. Tantary, arXiv:1903.03145 [hepph].
+[19] M.
+Strickland,
+doi:10.5506/APhysPolB.50.1243
+arXiv:1904.00413 [hep-ph].
+[20] A. Kurkela and Y. Zhu, Phys. Rev. Lett. 115 (2015)
+no.18,
+182301 doi:10.1103/PhysRevLett.115.182301
+[arXiv:1506.06647 [hep-ph]].
+[21] M. P. Heller, A. Kurkela, M. Spaliński and
+V. Svensson, Phys. Rev. D 97 (2018) no.9, 091503
+doi:10.1103/PhysRevD.97.091503
+[arXiv:1609.04803
+[nucl-th]].
+[22] P.
+Romatschke,
+JHEP
+1712
+(2017)
+079
+doi:10.1007/JHEP12(2017)079 [arXiv:1710.03234 [hepth]].
+[23] J. Berges, K. Boguslavski, S. Schlichting and R. Venugopalan, Phys. Rev. D 89 (2014) no.11, 114007
+doi:10.1103/PhysRevD.89.114007 [arXiv:1311.3005 [hepph]].
+[24] J. Berges, K. Boguslavski, S. Schlichting and R. Venugopalan, Phys. Rev. Lett. 114 (2015) no.6, 061601
+doi:10.1103/PhysRevLett.114.061601 [arXiv:1408.1670
+[hep-ph]].
+[25] A.
+Mazeliauskas
+and
+J.
+Berges,
+Phys.
+Rev.
+Lett.
+122
+(2019)
+no.12,
+122301
+doi:10.1103/PhysRevLett.122.122301 [arXiv:1810.10554
+[hep-ph]].
+[26] K. Boguslavski, A. Kurkela, T. Lappi and J. Peuron,
+arXiv:1907.05892 [hep-ph].
+[27] W. Israel and J. M. Stewart, Annals Phys. 118 (1979)
+341. doi:10.1016/0003-4916(79)90130-1
+[28] R. Baier, P. Romatschke, D. T. Son, A. O. Starinets
+and M. A. Stephanov, JHEP 0804 (2008) 100
+doi:10.1088/1126-6708/2008/04/100
+[arXiv:0712.2451
+[hep-th]].
+[29] P. M. Chesler and L. G. Yaffe, Phys. Rev. D
+82 (2010) 026006 doi:10.1103/PhysRevD.82.026006
+[arXiv:0906.4426 [hep-th]].
+[30] M. P. Heller, R. A. Janik and P. Witaszczyk, Phys. Rev.
+D 85 (2012) 126002 doi:10.1103/PhysRevD.85.126002
+[arXiv:1203.0755 [hep-th]].
+[31] C. Ecker, D. Grumiller and S. A. Stricker, JHEP
+1507
+(2015)
+146
+doi:10.1007/JHEP07(2015)146
+[arXiv:1506.02658 [hep-th]].
+[32] A. Kurkela, U. A. Wiedemann and B. Wu,
+arXiv:1905.05139 [hep-ph].
+[33] A. Kurkela, U. A. Wiedemann and B. Wu, Phys. Lett.
+
+6
+B 783 (2018) 274 doi:10.1016/j.physletb.2018.06.064
+[arXiv:1803.02072 [hep-ph]].
+
+0.30
+
+Coefficients of single hit expansion of IS: (sn )1/n
+
+0.25
+0.20
+
+SUPPLEMENTAL MATERIAL
+
+0.15
+
+Series expansions of the IS attractor
+
+0.10
+0.05
+
+For Israel-Stewart theory, it is well-known that the late
+time (fluid-dynamic) expansion in powers of 1/t,
+∞
+1 X hi
+,
+x− (t) = +
+3 i=1 ti
+
+1
+176a
+h1 = − (16a) , h2 = −
+,...
+3
+27
+
+∞
+X
+
+si ti ,
+
+20
+
+(10)
+
+(12)
+
+i=1
+
+√ 
+√
+60 2a + 5a
+4 5a
+, s2 = − √
+s1 = √
+ √
+2 , . . .
+9 5a + 10
+5a + 2 9 5a + 10
+We have calculated these coefficients to high order. The
+coefficients of the series of eq. (12) are shown in the upper panel of Fig. 4. The high-order coefficients determine
+the convergence properties of the series. That the highorder coefficients seem to saturate to ∼ 0.24n suggests
+that P
+the radius of convergence is that of a geometric series
+(0.24t)n , that is |t| . 4. Consistent with that,
+the solution continued to complex t shows non-analytic
+structures away from the real axis at |t| ∼ 4.Therefore,
+unlike the late-time expansion, this early-time series is
+convergent, and inclusion of higher orders leads to a better agreement within the radius of convergence ≈ 4, see
+Fig. 2. Standard Padé analysis shows that the convergence radius is set by a pair of poles at position ≈ ±4i in
+the complex t-plane, see Fig. 4. The early-time expansion
+can be analytically continued to any finite t beyond its
+radius of convergence; the green-dashed line in Fig. 2 corresponds to a [10/10]-order Padé approximant that—in
+the displayed t-range—is indistinguishable within linewidth from the full result.
+
+Early-time power law decay to the RTA attractor
+
+For systems with transverse translational symmetry,
+the Boltzmann equation (7) can be reduced to a tower of
+
+40
+60
+6 Im(t)
+
+80
+
+4
+2
+
+(11)
+
+is an asymptotic, non-convergent but Borel-resummable
+series [6]. We contrast this hydrodynamic expansion with
+the corresponding early-time expansion of x− (t). Expansion in powers of t is possible since x− (t) is regular for
+t → 0 [3, 17]
+x− (t) = x− (0) +
+
+0
+
+index n
+
+Re(t)
+-0.4
+
+0.2
+
+-0.2
+
+0.4
+
+-2
+-4
+-6
+
+FIG. 4: Upper panel: The n’th root of the n’th order coefficient of the convergent single-hit expansion in the IS theory,
+eq. (12). Lower panel: The approximate analytic structure
+of the attractor solution. The dots correspond to the zeros
+of the denominator of the [50/50]-order Padé-approximant of
+the series in eq. (12).
+
+moment equations (see e.g. [8, 18])
+
+
+1
+−1
+1
+∂τ pl + [(2l + 1)pl − (2l − 1)pl+1 ] =
+ε ,
+pl −
+τ
+τR
+2l + 1
+(13)
+R 1 dvz R 4πdpp3 2l
+where pl ≡ −1 2
+(2π)3 f vz ; this definition implies
+0 ≤ · · · ≤ p2 ≤ p1 ≤ p0 . According to (13), evolution of
+x = pL /ε is coupled to higher moments. To characterize the early-time power law decay to the attractor, we
+rewrite the hierarchy of RTA moment equations (13) for
+xl ≡ pl /ε,
+
+
+3 x dxl
+(2l − x)xl − (2l − 1)xl+1
+−
+= −
+4 4 dt
+t
+
+
+1
++
+− xl .
+(14)
+(2l + 1)
+Here, x = x1 ; eq. (8) is the first (l = 1) of these moment
+equations.
+Fig. 5 shows that the early-time power law decay of
+x(t) towards the attractor becomes δ ∼ t−8/3 . This latetime evolution is insensitive to details of the initial vz distribution (see [32]) and it thus does not depend on
+the initialization values of higher moments. We understand this numerical finding from the observation that
+irrespective of initial conditions, higher moments decay
+
+7
+early to their attractor solution. For instance, the earlytime decay of y(t) is consistent with ∼ t−16/3 , see also
+Fig. 5
+0.500
+
+The approximation is obtained by inserting into (3)
+the Taylor series
+x− (t) =
+
+x(t)
+
+lX
+max
+
+l
+
+cl (t∗ ) (t − t∗ ) .
+
+(17)
+
+l=0
+0.100
+0.050
+
+1
+
+8
+
+∼t- 3
+
+6
+
+t(1-3x)
+
+Here, expansion is around an arbitrary time t∗ . Collecting powers of t in (3), one can express all coefficients cl ,
+l ≥ 1, as rational functions of c0 and t∗ . Since the derivative dx/dt of the attractor solution must not diverge in
+the limit t → 0, one requires
+
+0.010
+0.005
+0.001
+5. × 10-4
+
+16
+
+∼t- 3
+
+0.001
+
+y(t)
+0.010
+
+t=τ/τR
+0.100
+
+1
+
+10
+
+x− (t = 0) =
+
+max
+√  lX
+1 
+l
+cl (t∗ ) (−t∗ ) ,
+5−4 5 =
+15
+
+(18)
+
+l=0
+
+FIG. 5: The early-time decay of x(t) to the RTA attractor
+(thick blue line same as in Fig. 1) follows a power-law almost
+independent of the initial condition for the higher moment
+y(t) (dashed and straight red line). This power law decay
+seizes when the interaction rate becomes comparable to the
+expansion rate (see grey line and discussion in text).
+
+According to the right hand side of (8), we expect the
+interaction rate (terms independent of ∝ t) to balance the
+expansion rate (∝ t−1 ) as soon as x(t) ≈ 16 t (1 − 3x(t)).
+As seen from Fig. 5, it is at this time that the power law
+decay to the attractor seizes to persist. This further illustrates that expansion forces the decay to the attractor
+prior to any contribution from the interaction rate.
+In complete analogy to IS theory, also the late-time
+expansion of RTA kinetic theory is a non-convergent
+asymptotic and Borel-resummable series. The early-time
+expansion results is a convergent series
+
+
+3h−5
+x(t) = 1 −
+t
+(15)
+8
+(15h−5 − 8)(h−5 − 2h−2 ) 2
++
+t + O(t3 ),
+64
+
+4 3 F2 21 , 12 , 1; 23 , n8 + 2; 1
+4
+hn =
++
+,
+(16)
+n+8
+n + 12
+that we have evaluated to high order. In complete analogy to IS theory, it can be analytically continued to any t
+beyond its radius of convergence. Results of this expansion are displayed in Fig. 2.
+
+A rapidly converging approximation to the IS
+attractor solution
+
+In the course of the present study, we stumbled upon
+a rapidly converging, analytic approximation. While this
+solution is not needed for any step of the present paper,
+we document it in this supplemental material.
+
+where the right-hand side is now an explicitly known rational function of c0 (t∗ ) and t∗ . Thus, (18) defines c0 (t∗ )
+implicitly in terms of t∗ . By construction, see eq. (17),
+c0 (t) = x(t) is the attractor solution, and (18) therefore provides an implicit expression for this solution. As
+seen in Fig. 6, even for a truncation at the lowest order
+lmax = 1, the accuracy of this procedure is comparable to
+that of the slow-roll approximation [6], and it improves
+rapidly upon including higher orders in the truncated
+ansatz (17).
+
+0.3
+
+pL
+ϵ
+
+0.2
+0.1
+
+attractor solution
+slow roll
+lmax =1 approximation
+lmax =2 approximation
+lmax =3 approximation
+-10
+
+0
+
+-5
+
+5 t=τ/τR
+
+-0.1
+-0.2
+
+0.04 Δ
+
+pL
+ϵ
+
+0.02
+
+-0.02
+
+10-4
+slow roll
+
+-0.04
+
+lmax =1 approx
+
+-0.06
+
+lmax =2 approx
+
+-0.08
+
+lmax =3 approx
+
+0.1
+
+100 t=τ/τR
+
+FIG. 6: Upper panel: The IS attractor solution, compared to
+its slow roll expansion, and compared to the approximation
+x(t) = c0 (t) where c0 is determined from expanding (17) to
+first, second and third order respectively. Lower panel: the
+difference between the full IS attractor solution and the result
+obtained in the various approximations.
+
+

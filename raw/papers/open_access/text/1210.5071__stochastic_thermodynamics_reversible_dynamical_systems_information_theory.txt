@@ -1,0 +1,2476 @@
+arXiv:1210.5071v1 [cond-mat.stat-mech] 18 Oct 2012
+
+PREPRINT
+
+Stochastic Thermodynamics, Reversible Dynamical
+Systems and Information Theory
+Bernhard Altaner
+Max Planck Institute for Dynamics and Self-Organization, Göttingen, Germany
+E-mail: bernhard.altaner@ds.mpg.de
+Abstract. Dated: September 4, 2018
+Stochastic Thermodynamics (ST) extends the notions of classical thermodynamics
+to trajectories taken from a nonequilibrium ensemble. This extension yields a
+simple approach to ﬂuctuation relations in small systems. Multiple time- and
+length scales play an important role for measurements but also for the foundations
+of nonequilibrium statistical mechanics. Here, under the assumptions of local
+equilibrium we derive the trajectory functionals of ST in the context of reversible
+deterministic thermostats. Further, the connection to previous work is made.
+Keywords: Stochastic thermodynamics, entropy, information theory, reversible
+thermostats, entropy production.
+
+PACS numbers:
+05.70.-a: Entropy thermodynamics; 89.70.Cf: Entropy in
+information theory; 05.70.Ln: Nonequilibrium and irreversible thermodynamics;
+05.40.-a: Fluctuation phenomena, random processes, noise, and Brownian motion.
+
+CONTENTS
+Contents
+1 Introduction
+
+3
+
+2 Microscopic Basics
+2.1 Hamiltonian dynamics . . . . . . . . . . . . . . . . . . . . . . . . . . .
+2.2 Ergodicity and time-sampling of phase space . . . . . . . . . . . . . .
+2.3 Equilibrium and nonequilibrium ensembles . . . . . . . . . . . . . . . .
+
+4
+4
+6
+6
+
+3 Stochastic Thermodynamics
+3.1 Langevin equation . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3.2 Smoluchowski equation . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3.3 Stochastic dynamics of mesoscopic observables . . . . . . . . . . . . .
+3.4 Local equilibrium and intrinsic entropy of observable mesoscopic states
+3.5 Mesoscopic trajectories and trajectory averages . . . . . . . . . . . . .
+3.6 Thermodynamic balance . . . . . . . . . . . . . . . . . . . . . . . . . .
+3.7 Averaging over trajectories . . . . . . . . . . . . . . . . . . . . . . . . .
+3.8 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+7
+7
+8
+9
+10
+11
+12
+14
+15
+
+4 Deterministic Thermostatted Dynamics
+4.1 General scheme . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4.2 Nosé–Hoover thermostats . . . . . . . . . . . . . . . . . . . . . . . . .
+4.3 Conﬁgurational thermostats . . . . . . . . . . . . . . . . . . . . . . . .
+4.4 Dynamic reversibility . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+15
+15
+15
+16
+17
+
+5 Dynamical Notions of Entropy and Information
+17
+5.1 Mathematical set-up . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+5.1.1 Observables and partitioning . . . . . . . . . . . . . . . . . . . 18
+5.1.2 Images and pre-images under reversible evolution . . . . . . . . 19
+5.2 Information theory and entropy . . . . . . . . . . . . . . . . . . . . . . 20
+5.2.1 Coarse-grained density . . . . . . . . . . . . . . . . . . . . . . . 20
+5.2.2 Fine- and coarse-grained entropy . . . . . . . . . . . . . . . . . 20
+5.2.3 Relative information and observable entropy . . . . . . . . . .
+21
+5.3 Entropy production and variation . . . . . . . . . . . . . . . . . . . . .
+21
+5.3.1 Discrete trajectories, co-moving microstates and equilibrated cells 22
+5.3.2 Evolution of the densities . . . . . . . . . . . . . . . . . . . . . 23
+5.3.3 Recovering the trajectory functionals of ST . . . . . . . . . . . 24
+5.4 Connection to the continuous time description . . . . . . . . . . . . . . 26
+5.5 Connection to previous works . . . . . . . . . . . . . . . . . . . . . . . 27
+5.6 Application: Isolated systems . . . . . . . . . . . . . . . . . . . . . . . 28
+6 Conclusion
+
+29
+
+2
+
+1. Introduction
+Arguably the most important open issue in statistical mechanics is the quest to
+understand the role of entropy and entropy production in systems far from equilibrium.
+In equilibrium situations, diﬀusion usually smoothens out gradients such that one
+would not expect interesting structure. Out of equilibrium, the situation is diﬀerent
+and it is usually crucial to consider (dynamics on) multiple scales. This goes beyond
+the classical understanding of entropy as a thermodynamic state variable.
+Since computer simulations have become feasible, scientists have been trying
+to model and understand the microscopic dynamics of systems in contact with
+thermodynamic environments. In such simulations the environment is usually
+modelled by modiﬁed equations of motion, so-called thermostats [20]. Thermostats
+can usually be divided into deterministic and stochastic thermostats.
+Soon after their introduction, dynamical systems theory got interested in
+deterministic thermostats. Phase space contraction in such systems was understood
+to be related to physical entropy production. Also, the ﬁrst ﬂuctuation relations for
+nonequilibrium systems arose in that context [10, 14].
+Stochastic thermostats have a longer history and date back to the works of
+Einstein, Smoluchowski and Langevin in the early 20th century. Hill [17] and later
+Schnakenberg [31] connected stochastic dynamics with dissipation in small systems.
+Since the late 90s, ﬂuctuation relations have also been found for stochastic dynamics
+[21, 22, 23, 33].
+Fluctuation relations are concerned with the probability of rare events that seem
+to act contrary the 2nd law of thermodynamics. Whereas this is a phenomenon that
+cannot be observed in the macroscopic world, such ﬂuctuations are quite common
+in the microscopic world of macromolecules in solution. The latter have become the
+paradigm of what today is called stochastic thermodynamics. Because of the advent
+of modern measurement and simulation techniques, much research is done on this
+interface between physics, chemistry and biology.
+For instance, the work relations by Jarzynski and Crooks, which allowed an
+experimental measurement of the free energy landscape of macromolecules, have been
+of huge impact [18, 6]. While the former was originally derived in the context of
+dynamical systems, the latter was found for stochastic dynamics. Today, they are
+both understood as consequences of the above mentioned ﬂuctuation theorems.
+Besides others [37], this emergence is just one hint of a deeper connection of
+the entropy concepts in dynamical systems theory and stochastic dynamics. The
+reason for this is the intimate connection of entropy with Shannon’s information theory
+[36, 19, 28, 25]. However, this is not generally acknowledged and entropy, but even
+more so, entropy production often seem to be an almost emotional topic with many
+diﬀerent points of view. Such views range from restricting entropy to the realm of
+classical thermodynamics to promoting variation principles for entropy production as
+the general mechanism for nonequilibrium steady states. Some people only allow the
+phase space contraction in thermostatted dynamics to be connected with dissipation,
+other critize the phenomenological equations of motion as having no connection to the
+true microscopic dynamics.
+In this paper, we follow earlier works [5, 38, 24, 23, 16] and try to highlight
+the connections of dynamical systems, statistical mechanics and information theory.
+In order to connect the ﬁelds beyond pure mathematical considerations, we have to
+discuss some subtle questions:
+3
+
+• How do the crucial assumptions of (stochastic) thermodynamics rely on a notion
+of separation of time- and length-scales?
+• How is the information which is contained in a measurement aﬀected by these
+scales?
+• How does thermodynamic entropy arise in the context of information theory?
+
+Finally, this will enable us to derive the modern notion of stochastic thermodynamics
+[35], which is based on entropic trajectory functionals that can be obtained
+from deterministic equations of motion. Throughout the paper we will motivate
+interpretations directly at the level of deﬁnitions, to avoid possibly misleading aposteriori interpretations that could lead to inconsistencies.
+The work is organized as follows: Section 2 reviews basic notions of dynamical
+systems theory with a focus on Hamiltonian systems. In section 3 we introduce
+stochastic equations of motion and brieﬂy review Seifert’s approach to stochastic
+thermodynamics [35]. Section 4 motivated variants of thermostatted equations of
+motion to provide a framework for further discussions [30]. The main part of
+the work is section 5. There, we formulate the crucial assumptions of stochastic
+thermodynamics in the context of determinisic dynamics. Under these assumptions,
+we are able to construct exact correspondences of the stochastic entropy functionals.
+This is achieved by applying Shannon’s notion of information to two diﬀerent densities,
+reﬂecting the (unobservable) microscopic probability densities and the (observable)
+measured densities, respectively.
+2. Microscopic Basics
+2.1. Hamiltonian dynamics
+We will start with deterministic Hamiltonian dynamics on a phase space Γ. A point
+x = (q, p) ∈ Γ represents the state of a N -particle system in d-dimensional physical
+space consisting of the coordinates q and p of all particles.‡ For brevity, here and in
+N
+N
+the following we use the short notation q = {q k }k=1 , p = {pk }k=1 when no ambiguity
+can arise. The equations of motion
+q̇ =
+
+p
+∂H
+= ,
+∂p
+m
+
+∂H
+= −∂q V (q),
+∂q
+
+(1)
+
+X p2
+
+(2)
+
+ṗ = −
+
+are governed by the Hamiltonian
+H(x) = V (q) +
+
+2m
+
+.
+
+P 2
+P
+p2k
+In our notation the term
+p /2m in Eq. (2) is short for N
+k=1 2mk including the
+(possibly diﬀerent) masses mk .
+
+For macroscopic physical systems the number of particles, N ∼ O 1023 , is very
+large. Even for much smaller, mesoscopic§ systems this number is still large, mostly
+because the system of interest is not placed in vacuum but in an environment consisting
+of many particles.
+‡ To denote vectors in physical space, we will use bold symbols like q. Elements of more general
+multi-dimensional sets will not receive any special decoration.
+§ By mesoscopic we mean the range of scales between typical molecular scales (1Å = 10−10 m) to
+typical macroscopic scales (10−3 – 100 m)
+
+4
+
+2.1 Hamiltonian dynamics
+This renders the microscopic equations of motion (1) unfeasible for simulating
+meso- or macroscopic systems in thermodynamic environments. Even with state-ofthe-art supercomputers, simulations of no more than a few (104 –106 ) particles on
+small time scales (102 –104 ns) are possible. Hence, ﬁnding eﬀective dynamical models
+for fewer degrees of freedom is one of the main interests of modern (statistical) physics.
+Another problem with using the equations (1) is that they need to be augmented
+with microscopic initial conditions. Such detailed information is never accurately
+available for real complex systems. Together with numerical inaccuracies, this puts a
+perspective on the value of a single microscopic trajectory.
+To overcome these problems, statistical mechanics introduces the notion of
+ensembles. Mathematically, an ensemble is a probability measure on phase space
+Γ . Throughout this work we assume that an ensemble can be speciﬁed by a (possibly
+time-dependent) phase space density ̺(t) (x).k Ensembles are usually taken to reﬂect
+the probability of ﬁnding a certain microstate when only a macro- or mesoscopic state
+can be speciﬁed due to the ﬁnite measurement resolution.
+Because of the lack of experimental accessibility, one is not interested in the
+microscopic state x but rather in the current value of some measurable observable
+A . In classical thermodynamics, these observables where usually macroscopic (bulk)
+properties of largely homogeneous systems. Nowadays, due to a vast improvement in
+measurement techniques, the measurements are taken on mesoscopic scales that lie in
+between the molecular (microscopic) and the bulk (macroscopic) scale. The qualitative
+diﬀerence between meso- and macroscopic scales is that on the former ﬂuctuations
+can be observed and may play an important role, whereas for the latter they can be
+neglected. In what follows, we will always think of an observable being deﬁned on
+mesoscopic scales though the discussion remains valid for macroscopic observables.
+Mathematically, an observable is a mapping
+A : Γ → R,
+x 7→ A(x).
+
+(3)
+
+M : Γ → Ω,
+x 7→ ω(x).
+
+(4)
+
+A measurement M consists of measuring an number of observables Ai . We summarize
+the outcome of that measurement in an abstract (possibly multi-dimensional)
+mesoscopic observable ω . The measurement M is a surjective mapping from phase
+space Γ to an abstract space of observations, Ω:
+
+The ensemble average of an observable A is
+Z
+(t)
+̺(t) (x)A(x) dx .
+hAi =
+
+(5)
+
+Γ
+
+An empirical sampling of the distribution of the values of A is done by measuring
+this observable for many experiments or simulations.
+For real experiments, already the single measurement of an observable implicitly
+features a time average over some ﬁnite observation time τobs : :
+Z t+τobs
+1
+A (x (t)) dt .
+(6)
+Aτobs (t) =
+τobs t
+k This excludes, for instance, the so-called SRB-measures [26] that appear asymptotically in the
+context of non-Hamiltonian dynamics, as described below.
+
+5
+
+2.2 Ergodicity and time-sampling of phase space
+One usually assumes that there is a separation of time scales τA ∼ τobs ≫ τmic between
+the time-scales τA of the evolution of the observable and an unobservable microscopic
+time scale τmic associated with the dynamics in phase space.
+Given that, one can choose τobs such that A(t) is eﬀectively independent of this
+scale.
+2.2. Ergodicity and time-sampling of phase space
+Equilibrium thermodynamics relies on ergodicity, which is a crucial assumption relating
+time- and ensemble averages. The ergodic hypothesis assumes that there exists a
+stationary measure ̺∞ for physical many-particle systems such that
+Z
+Z t+τobs
+1
+lim
+̺∞ (x)A(x) dx
+(7)
+A (x (t)) dt =:
+τobs →∞ τobs t
+Γ
+exists for any observable A and is independent of the time t when one starts the timeaverage (no aging). In other words, the ergodic hypothesis states that there exists an
+ensemble that samples phase space in the same way as an inﬁnitely long trajectory
+would do asymptotically. Proving the ergodic hypothesis for actual systems is usually
+very diﬃcult. However, it constitutes the dynamical microscopical approach to
+equilibrium thermodynamics combining statistical mechanics with dynamical systems
+theory.
+2.3. Equilibrium and nonequilibrium ensembles
+In contrast to the situation above, modern statistical mechanics seeks to understand
+the foundations of nonequilibrium systems. Physical nonequilibrium systems are
+always in a time-dependent transient state which may or may not relax towards an
+equilibrium on accessible time scales. Therefore for nonequlibrium situations it is not
+enough to consider an asymptotic density ̺∞ .
+The dynamical behaviour of the density ̺(t) is governed by the ﬂow
+Φ(τ ) : Γ × R → Γ,
+
+x(t) 7→ x(t + τ )
+
+(8)
+
+generated by Eq. (1) .
+!
+
+If the ﬂow of a Hamiltonian system on the hypersurface deﬁned by H(x) =
+E0 = H(x(0)) is ergodic, it always yields the so-called microcanonical distribution for
+constant energy E0 ,
+(9)
+̺∞ (x) ∝ χH(x)=E0 ,
+where χ denotes the characteristic function.
+However, in experiments one speciﬁes the temperature T of the environment
+(heat bath) rather than the total energy. Also, physical observables should depend
+only on the state of the system and not on the state of its environment. From classical
+statistical physics we would expect a (Maxwell-)Boltzmann distribution for the degrees
+of freedom of the system. One is inclined to ask for the “right” reduced equations of
+motion in a reduced phase space Γsys consisting of the degrees of freedom of the
+system only. Because we ignore the details of the interaction with the environment, a
+trajectory produced by such reduced dynamics does certainly not describe the actual
+6
+
+microscopic motion. However, as we argued above, single trajectories or instantaneous
+conﬁguration do not really matter. The important thing is that the new dynamics
+generates trajectories that sample the phase space in accordance with macroscopic
+constraints. In other words, ̺∞ must be the (equilibrium) distribution expected
+from the ensemble belonging to the macroscopic parameters of the environment (like
+temperature, pressure etc.).¶
+But since Hamiltonian dynamics will only generate microcanonical distributions,
+the reduced dynamics on Γsys will be in general non-Hamiltonian. In the following
+two sections we review two diﬀerent approaches to such reduced dynamics.
+3. Stochastic Thermodynamics
+Stochastic thermodynamics is a modern paradigm for the treatment of (small)
+systems in a thermodynamic environment. It is based on the notion of stochastic
+diﬀerential equations (Langevin equations) or the corresponding Fokker-Planck or
+path integral descriptions [15, 32]. Physically, the stochastic term that appears in
+the equations of motion models the interaction of the heat bath with the system. In
+the following paragraphs we review the basic concepts of stochastic thermodynamics.
+The presentations closely follows Seifert’s work [33, 34] (for an extensive review see
+Ref. [35]) though notation may vary.
+3.1. Langevin equation
+The stochastic evolution of the system on the reduced phase space Γsys can be
+described by a Langevin equation:
+q̇ =
+
+p
+,
+m
+
+(10a)
+
+p
+γ
+ṗ = −∂q V (q) − p + 2Dp ξ.
+m
+
+(10b)
+
+Eqs. (10) resemble the Hamiltonian equations of motion (1) with two additional
+(force) terms for the change of momenta. The ﬁrst additional term phenomenologically
+models the solvent friction with drag coeﬃcient γ. The second term is the stochastic
+force ξ with strength characterized by Dp . The statistics of the force ξ are those of
+white noise,
+hξ(t)i = 0,
+hξi (t)ξj (t′ )i = δij δ(t − t′ ),
+(11)
+where ξi denotes the ith component of ξ, δij is the Kronecker-symbol and δ(t − t′ ) is
+the Dirac δ-distribution. The δ-distribution for the correlations is an approximation
+to the real collision statistics that requires that the time scale of observations τobs is
+much larger than the typical time of a microscopic collision, τmic . For the momenta
+to follow a Maxwell-Boltzmann distribution in the steady-state, Dp has to obey the
+fluctuation-dissipation relation
+γ
+(12)
+Dp = 2 kB T,
+m
+where T is the temperature of the bath and kB is Boltzmann’s constant.
+¶ That this trajectory also samples the transient regime equally well is usually tacitly assumed, but
+has no deeper justiﬁcation.
+
+7
+
+3.2 Smoluchowski equation
+The evolution of the probability density ̺(t) (x) of ﬁnding the system at time t
+at phase space point x ∈ Γsys is governed by the Fokker-Planck (or in this case, the
+so-called Kramers-Klein) equation
+X
+
+∂q j q + ∂p j p
+∂t ̺(t) (x) = −
+(13)
+
+with current densities
+
+jq =
+
+p (t)
+̺ ,
+m
+
+h
+i
+p
+j p = (∂q V ) − γ + γkB T ∂p ̺(t) .
+m
+
+(14)
+
+Note that we use the notation introduced in Eq. (1) in section 2.
+3.2. Smoluchowski equation
+
+Often it is not feasible or necessary to explicitly consider the momenta p. On average,
+m
+m
+the momenta reach the value hpi = − m
+γ ∂q V = γ F on a time scale τp := γ . If the
+system’s particles are atoms or small molecules, τp ∼ τmic . If the system’s particles
+are already mesoscopic objects and a (hydrodynamic) radius R can be deﬁned, Stokes
+friction yields τp ∝ µ−1 R2 with the dynamic viscosity of the environment µ. For
+instance, for colloidal silica of a couple of hundreds of nanometers in diameter one has
+τp ≈ 10−11 s which is well below usual observable time scale τobs .
+In general, if τobs ≫ τp the momenta are always relaxed to their equilibrium
+values and one can consider an overdamped dynamics using the Smoluchowski equation
+generating dynamics on the space of conﬁgurations Γconf :
+√
+q̇ = µ∂q V + 2Dξ.
+(15)
+Here, µ = γ1 is the mobility and D is the diﬀusion constant. Using either the FDR
+(12) or demanding the steady-state distribution to be of Boltzmann form yields the
+so-called Einstein-Smoluchowski relation:
+D=
+
+kB T
+µ
+= 2 kB T.
+2
+γm
+m
+
+(16)
+
+To ﬁnd a typical time-scale τq for the overdamped dynamics (15) suppose that the
+system is close to its equilibrium condition and therefore a harmonic approximation
+for the potential energy holds, i.e. V (q) ≈ k2 q 2 with some spring constant k which is of
+the order of the typical interaction energy (for biological system a few kB T ≈ 10−20 J)
+divided by the square of the typical length-scale of the interaction (typically on the
+order of nanometers). Then the force is linear in q yielding a time scale τq = γk . Again,
+τ
+
+2
+
+using Stokes friction one ﬁnds for typical values τpq ∼ µ kR ≫ 1. This justiﬁes that we
+neglect the dynamics of the momenta in favour of the dynamics of the coordinates.
+However, in typical single-molecule experiments on proteins or DNA τobs ≫ τq . In
+addition, spatial resolution is usually not good enough to resolve the dynamics of single
+coordinate degrees of freedom. This is why one might be interested in much slower,
+collective dynamics happening on larger time- and length-scales which are accessible
+to experimental observation. One example for this further separation of scales are
+conﬁgurational changes or folding in proteins occurring on time scales τconf ≈ 10−4 –
+100 s.
+8
+
+3.3 Stochastic dynamics of mesoscopic observables
+3.3. Stochastic dynamics of mesoscopic observables
+If the detail of observation on a system is restricted to certain meso- or macroscopic
+observables M(x) = M(q), it is natural to ask for a (stochastic) description only
+involving the possible values ω ∈ Ω that these observables can take. As every
+conﬁguration q corresponds to exactly one observable state ω = M(x) ∈ Ω, the
+allowed values ω then partition Γsys into disjoint classes (cells)
+Cω := {x ∈ Γsys |M(x) = ω}.
+
+(17)
+
+We will distinguish two diﬀerent situations.
+Continuous observable Firstly, let M be some continuous function of x. The
+classes Cω are then hypersurfaces in Γsys . Often, in that case we can write down
+a phenomenological coupled Langevin equation for the stochastic variable ω:
+ω̇ = µ [−(∇F (ω)) + f ] + ζ.
+
+(18)
+
+If ω is multi-dimensional, the mobility tensor µ couples the diﬀerent components of ω
+and ζ is generalized white noise with correlation matrix hζ(t)ζ(t′ )i = 2kB T µδ(t − t′ ).
+F (ω) is a phenomenological potential (which should be interpreted as a free energy,
+see below) and f is a non-conservative force.
+The non-conservative force can arise through the projection of Γsys onto Ω if M(x)
+is a non-monotonous function yielding classes Cω which are not simply connected. For
+instance, consider a description where M(x) = M(q) is periodic in q, i.e. where the
+eﬀective dynamics is done using periodic boundary conditions to model an inﬁnite
+system with an external force Fpot = −∇V . In this case, the force governing the
+dynamics of ω turns into a non-conservative force f acting on a torus.
+The Fokker-Planck equation for Eq. (18) is
+
+
+(t)
+(t)
+.
+(19)
+∂t ρ = −∇j ≡ −∇ µ [−(∇F (ω)) + f − kB T ∇] ρ
+Discrete observable Another possibility is that we already start with a disjoint
+M
+discrete partition {Ci }i=1 and assign values ωi to each of its elements, i.e.
+M(x) =
+
+M
+X
+
+[ωi χCi (x)] .
+
+(20)
+
+i=1
+
+The classes Cωi ≡ Ci are identical with the elements of the partition.
+In this case the discrete dynamical trajectories ω(t) are created by a Markov jump
+(t)
+process rather than by a Langevin equation. The probabilities pi of being in state i
+at time t evolves according to the Master equation, which is a discrete version of the
+Fokker-Planck equation:
+(t)
+
+∂t pi =
+
+M h
+X
+j=1
+
+(t)
+
+(t)
+
+wij pj − wji pi
+
+9
+
+i
+
+(21)
+
+3.4 Local equilibrium and intrinsic entropy of observable mesoscopic states
+P
+We assume that the jump rates wji ≥ 0 for i 6= j and wii = − j wji are time
+independent. As the original physical dynamics is time-reversible, each trajectory
+that leads the system from Ci to Cj must also have an allowed reverse trajectory. This
+condition of dynamical reversibility can only be fulﬁlled if jumps can always happen
+in both directions, i.e. wji > 0 ⇔ wij > 0.
+One can also consider the jump dynamics as a random walk on a graph with M
+nodes with edges (i, j) if and only if wji > 0. This graph can have arbitrary topology
+including cycles, which are the analogue of the non-Euclidean (e.g. toroidal) geometries
+for the continuous case.
+3.4. Local equilibrium and intrinsic entropy of observable mesoscopic states
+We just saw how a further separation of time-scales between τq and the typical
+time-scales of observable collective motion τconf ≥ τobs lead to eﬀective mesoscopic
+descriptions of Eq. (18) and Eq. (21) . Physically, to justify the Markovian stochastic
+dynamics on the level of the mesoscopic cells, one has to assume equilibrated cells. This
+means that the dynamics happening within a cell reach a constrained equilibrium,
+which is, by deﬁnition, memoryless. Local equilibrium is the key concept for the
+consistency of coarse-grained descriptions [7, 12, 8]. Following Seifert [34] we introduce
+the notions necessary in the present context:
+Let M describe some measurable observable that is to be treated within the
+framework of stochastic thermodynamics. We assume that all (coordinate) microstates
+q in any cell Cω deﬁned by this observable equilibrate on time-scales τq that are much
+shorter than the time-scales τconf of transitions between mesoscopic states. With
+β = (kB T )−1 , the conditioned microscopic distribution ̺(q|ω) of ﬁnding microstate q
+given mesoscopic state ω reads
+̺(q|ω) = exp (−β(V (q) − F (ω)) ,
+where V (q) is the microscopic potential on Γconf and
+
+
+X
+F (ω) := − kB T log 
+[exp (−βV (q))]
+
+(22)
+
+(23)
+
+q∈Cω
+
+is the free energy of state ω. F = e − T sint can be split into the constrained internal
+energy
+X
+e(ω) = hV iω =
+[̺(q|ω)V (q)]
+(24)
+q∈Cω
+
+and the intrinsic entropy of state ω,
+sint (ω) = −kB
+
+X
+
+[̺(q|ω) log ̺(q|ω)] .
+
+(25)
+
+q∈Cω
+
+Here, we formulated everything only with coordinates q. In underdamped cases,
+usually a Maxwell-distribution for the momenta p is assumed, which corresponds to
+a fast equilibration of the momenta. The diﬀerence that would occur both in the
+intrinsic entropy and free energy is then only an (unobservable) constant. For more
+mathematically rigorous statements on the general issue of considering entropies of
+reduced descriptions see Ref. [24].
+10
+
+3.5 Mesoscopic trajectories and trajectory averages
+3.5. Mesoscopic trajectories and trajectory averages
+The goal of stochastic thermodynamics is to formulate sensible thermodynamic
+balance equations on the level of stochastic trajectories ω. In this context we will
+consider mesoscopic trajectories that are discrete in the space of observations but
+continuous in time. A similar treatment for the case where ω is a continuous variable
+can be found in Refs. [33, 34, 35].
+A trajectory ω is a generated by a Markov jump process, i.e. it is a random
+variable. Almost all trajectories can be described by two countably inﬁnite sequence:
+!
+ω0 ω1 . . .
+.
+(26)
+ω=
+τ1 τ2 . . .
+In the ﬁrst row the diﬀerent states visited by the trajectory are listed. The second
+row contains the jump times τj of the jth jump occurring between states ωj−1 and ωj .
+A ﬁnite trajectory ω(τ ) runs only for times t ∈ [0, τ ]. The number of jumps n = n(τ )
+is a random variable. The ﬁnite trajectory ω(τ ) can be described by two vectors of
+length n + 1:
+!
+ω0 ω1 . . . ωn(τ )−1 ωn(τ )
+ω=
+.
+(27)
+τ1 τ2 . . .
+τn(τ )
+τ
+The last entry in the second row is the temporal length of the trajectory, τ . In both
+cases, we denote the mesoscopic state at time t ∈ [0, τ ] along a trajectory by ω(t).
+The weight of a trajectory of length τ on the appropriate trajectory space is
+denoted by P[ω]. Henceforth, to stress a functional dependence we will use square
+brackets [·]. For instance for the formulation of ﬂuctuation theorems, it is useful to
+split the trajectory weight into an initial and a conditional part:
+P [ω] = p(0)
+ω0 · p [ω | ω0 ] .
+
+(28)
+
+Let A[ω; τ ] ≡ A [ω(τ ); τ ] be a functional of trajectories running for time τ which
+can also explicitly depend on τ . The time-dependent trajectory average is deﬁned as
+X
+hhAii :=
+[P[ω(τ )]A[ω(τ ); τ ]] .
+(29)
+ω(τ )
+
+If A [ω; τ ] = A(ω(τ ); τ ) only depends on the ﬁnal state ω(τ ) of the trajectory, we say
+it has a local form. Local forms obey
+i
+X h (τ )
+(30)
+pi A(ω(τ ); τ ) = hAi(τ ) ,
+hhAii =
+i
+
+i.e. they can be expressed as trajectory averages. A special case of local forms
+are state-variables, where A(ω) denotes a state function in the sense of classical
+thermodynamics.
+Examples of non-local physical observables are current variables
+P
+A[ω; τ ] = k [A(ωk−1 , ωk ; τ )δ(τ − τk )] which only depend on single jumps ωk−1 → ωk
+that occur at time τk . For such observables, the trajectory averages reduce to current
+averages which involve summing over two states (hence the subscript 2 ):
+i
+X h (τ )
+)
+(31)
+pi wji A(i, j; τ ) = hAi(τ
+hhAii =
+2 .
+i,j
+
+11
+
+3.6 Thermodynamic balance
+3.6. Thermodynamic balance
+Single jumps As we will see below, the entropic trajectory functionals of stochastic
+thermodynamics are all linear combinations of three fundamental functionals, which
+are either state variables, local forms or current variables. Here, implicit timedependence enters through an explicit dependence on the solution of the equation for
+the evolution of the ensemble probabilities. The same ideas also apply if the transition
+rates explicitly depend on time. We start by considering the changes associated with a
+single jump from ωi to ωj happening in an inﬁnitesimal time interval. We will denote
+the changes encountered at a jump by the symbol d for state variables, ∆ for local
+observables and δ for current variables.
+The change in internal energy is given by de = e(ωj ) − e(ωi ). If additionally a
+non-conservative (generalized) force f is acting an additional amount of (mechanical)
+work δw is dissipated. The change of heat δq = de + δw in the medium consists of the
+(negative) change of internal energy plus the dissipated energy. Therefore, the change
+of entropy in the medium is given as
+δsmed =
+
+de
+δw
+δq
+=
++
+.
+T
+T
+T
+
+(32)
+
+To formulate the second law we need to identify all terms corresponding to the
+change of the total entropy, δstot , in system and environment. However, it is not
+enough to identify the sum of δsmed and ∆sint = sint (ωj ) − sint (ωi ) with δstot . If
+it were so, one can easily construct a violation of the second law where δstot is not
+positive on average [34].+
+Therefore another term is needed to account for the current state of the ensemble.
+This term will be of local form but not a state variable, hence we denote it by ∆svis .
+The subscript indicates that this is the visible entropy, which an experimenter could
+measure by sampling the ensemble.
+Putting everything together, we ﬁnd for a jump from ωi to ωj
+δstot (i → j) = δsmed (i → j) + dsint (i → j) + ∆svis (i → j).
+
+(33)
+
+The instantaneous average rate of change of the total entropy, Σtot , is obtained
+by summing over all jumps with the corresponding joint probability rates and yields
+a dynamical formulation of the second law:
+i !
+X h (t)
+pi wji δstot (i → j) ≥ 0
+(34)
+Σtot (t) :=
+i,j
+
+(t)
+
+pi is the solution of the Master equation (21) at time t for some given initial condition.
+The only thermodynamically consistent choice for Σtot that fulﬁls the second law
+is a form resembling a Kullback-Leibler divergence [35]. It has frequently been used
+in previous literature (cf. Refs. [31, 16]):
+#
+"
+(t) i
+X (t)
+w
+p
+j
+i
+(35)
+pi wji log (t) j ≥ 0.
+Σtot (t) := kB
+pj wi
+i,j
++ The argument of Ref. [34] goes as follows: Consider a system without external forces and two states
+
+with the same internal energy but diﬀerent intrinsic entropies. An ensemble that initially consists
+only of systems in the state with the higher intrinsic entropy would be smeared out over both states
+while decreasing its entropy in the process.
+
+12
+
+3.6 Thermodynamic balance
+The stochastic entropy can now be identiﬁed with the ensemble-dependent part in the
+above equation:
+
+
+(t)
+(t)
+(36)
+∆svis := −kB log pj − −kB log pi .
+
+The remaining part summarizes the other two contributions:
+δsmot = δsmed + dsint = kB log
+
+wji
+wij
+
+=: Bji .
+
+(37)
+
+To simplify notation, we introduce the quantity
+Bji := kB log
+
+wji
+
+(38)
+
+wij
+
+also previously deﬁned in the early works of Hill [17], in the context of ﬂuctuation
+relations for stochastic dynamics [21, 22, 33, 3, 11] and related works [1, 2]. We
+suggest to call Bji (local) motance, hence also the name of the corresponding entropy,
+smot . It is the ability of the physical system (independent of the ensemble) to
+facilitate thermodynamic motion. It usually corresponds to changes in the natural
+thermodynamic potentials of certain physical situations [34].
+Balance along trajectories We want to extend the balance for a single jump to a
+balance involving trajectory-dependent functionals, which are an easy approach to
+the ﬂuctuation relations for stochastic dynamics. Instead of starting with the physical
+functionals for the entropy production in system and medium, we identify three
+fundamental functionals with distinct properties, which constitute the building blocks
+of all other functionals. The ﬁrst functional is related to the intrinsic entropy, which
+is a state variable. Consequently, this functional is independent of the ensemble and
+does only depend on the end-point ω(τ ) of a trajectory ω(τ ):
+X
+[̺(q|ω(τ )) log ̺(q|ω(τ ))] .
+(39)
+sint [ω; τ ] = sint (ω (τ )) = −kB
+q∈Cω(τ )
+
+Unfortunately, one never has direct access to sint because the intrinsic entropy is
+not visible in the coarse-grained description. However, we can measure the ensembledependent visible entropy, which is also a local functional:
+(τ )
+
+svis [ω; τ ] = svis (ω(τ )) = −kB log pω(τ ) ,
+
+(40)
+
+The entropy associated with the motance δsmot cannot be written in diﬀerence
+form. It depends on the jumps along the trajectory, so the corresponding functional
+is a current variable an will depend on the whole trajectory ω(τ ). We introduce the
+motance of a trajectory smot , which needs to integrate all jumps from state ωk−1 to
+state ωk that have occurred at times τk < t:
+X
+
+smot [ω; τ ] = kB
+Θ(τ − τk )Bωωkk−1 .
+(41)
+k
+
+Mathematically, the motance is the time-antisymmetric part of the action Lagrangian
+in the sense of an action functional for trajectories [23, 35]. It consists of a part
+13
+
+3.7 Averaging over trajectories
+corresponding to a heat released to the medium and a change in intrinsic entropy.
+From those quantities one can construct the functionals that quantify the entropy
+change in the system and medium, ssys [ω] and smed [ω],
+ssys [ω] = svis [ω] + sint [ω],
+
+(42)
+
+smed [ω] = smot [ω] − sint [ω],
+stot [ω] = smed[ω] + ssys [ω] = smot [ω] + svis [ω].
+
+(43)
+(44)
+
+The instantaneous rates of change of the entropies have previously been identiﬁed
+[33].∗
+!
+#
+"
+(τ )
+∂τ pω (t)|t=τ,ω=ω(τ ) X
+p ωk
+δ(τ − τk ) ,
+(45)
+σvis [ω] = −
+−
+log
+(τ )
+(τ )
+pω(τ )
+pωk−1
+k
+X
+σint [ω] =
+[(sint (ωk ) − sint (ωk−1 )) δ(τ − τk )] ,
+(46)
+k
+
+σmot [ω] = kB
+
+X
+k
+
+
+Bωωkk−1 δ(τ − τk ) .
+
+(47)
+
+3.7. Averaging over trajectories
+Strictly speaking, of the above deﬁned entropic quantities only the intrinsic entropy is a
+state variable and therefore has a counter-part in classical thermodynamics. However,
+upon averaging over trajectories, we recover the thermodynamic interpretations of
+Markov processes originally used by Hill and later Schnakenberg [17, 31]. We start
+with the visible entropy. As a local quantity, it reduces to an ensemble average which
+is the usual Shannon entropy of the (discrete) ensemble:
+i
+X h (τ )
+(τ )
+(48)
+pi log pi
+Svis (τ ) := hhsvis ii = hsvis iτ = −kB
+i
+
+Let us look at the time derivative of this entropy:
+#
+"
+(τ )
+X (τ )
+pi
+dSvis (21)
+i
+Σvis (τ ) := dτ = kB
+pi wj log (τ ) = hhσvis ii .
+pj
+i,j
+
+(49)
+
+Because the average is linear, we can also write it as the diﬀerence of the trajectory
+averages of the terms σtot and σmot , which can also be explicitly calculated.
+Σvis (τ ) = hhσtot ii − hhσmed ii
+"
+"
+#
+#
+(τ )
+X (τ )
+X (τ )
+pi wji
+wji
+i
+i
+pi wj log (τ ) j − kB
+pi wj log j
+= kB
+wi
+pj wi
+i,j
+i,j
+=: Σtot (τ ) − Σmot (τ ).
+
+(50)
+(51)
+(52)
+
+Often, Σvis and Σmot are identiﬁed with the entropy production rate in the system and
+environment, respectively, which is only true if we agree to forget about the change in
+intrinsic entropy. However, in a steady state the average intrinsic entropy is constant
+and such an identiﬁcation is correct again (though trivial, because Σvis = 0).
+∗ Here, to avoid dealing with time derivatives of random variables, we do not denote them by ṡ but
+rather by the symbol σ.
+
+14
+
+3.8 Summary
+3.8. Summary
+In this section we have reviewed the basic concepts of stochastic thermodynamics. The
+main result was the identiﬁcation of the three fundamental entropy functionals sint
+, svis and smot together with the functionals for the variations, σint , σvis and σmot .
+The crucial, yet somewhat uncommon observation is that the trajectory functionals
+can depend on the current ensemble, i.e. the solution of the ensemble evolution
+equation. Further, the functionals were shown to be consistent with older results
+on the thermodynamic interpretation of Markov processes. We deliberately skipped
+the application of the approach, like the derivation of ﬂuctuation theorems, which can
+be found in the literature [23, 33, 35].
+4. Deterministic Thermostatted Dynamics
+In the last section we have outlined the steps of how to arrive from a Hamiltonian
+dynamics at trajectory-dependent functionals for entropic terms of stochastic
+thermodynamics. Stochasticity was introduced from the beginning to deal with the
+ignorance of certain aspects of the system which lie beyond the scope or resolution of
+our observations. The rest of this paper is dedicated to accomplishing the same using
+deterministic dynamics.
+In this section we will outline the same conceptual steps as in the previous section
+only in the deterministic framework: We will review thermodynamic consistency,
+reduction to overdamped dynamics and ﬁnally the coarse-graining to a mesoscopic
+description.
+4.1. General scheme
+Throughout this section, we will follow the systematic approach to deterministic
+thermostats presented in Ref. [30]. This general scheme resembles the formulation
+of a Langevin equation: One starts with an equation of motion for the degrees of
+freedom of the system under consideration. After that, a phenomenological drag term
+is added to model the inﬂuence of the environment. Instead of adding a stochastic
+noise term, one either promotes the drag coeﬃcient to a dynamical variable or adds
+a deterministic “noise” term mimicking the ﬂuctuations caused by the environment.
+As in the stochastic case, the choice of these terms has to be consistent with the
+thermodynamic properties of the bath. This is achieved by demanding that the
+stationary distribution ̺∞ of the physical degrees of freedom obtains a canonical
+form.
+4.2. Nosé–Hoover thermostats
+We will exemplify the above method using the Nosé–Hoover scheme, which is the
+deterministic analogue to the full Langevin equation Eq. (10) . The equations of
+motion are
+q̇ =
+
+p
+,
+m
+
+(53a)
+
+ṗ = −∂q V (q) −
+γ
+ė = g(q, p).
+15
+
+γ
+e
+p,
+m
+
+(53b)
+(53c)
+
+4.3 Conﬁgurational thermostats
+
+Demanding that
+̺
+
+∞
+
+
+
+
+X  p2 
++ Φ(e
+γ)
+∝ exp −β V (q) +
+2m
+
+(54)
+
+with a quadratic term Φ(e
+γ ) (i.e. Gaussian distribution of the values of γ
+e) one arrives
+at
+Q 2
+γ
+ė ,
+2
+2m
+ 
+
+m X p2
+− dN kB T .
+g(q, p) =
+Q
+m
+Φ(e
+γ) =
+
+(55)
+
+(56)
+
+Here, d is the dimension of physical space and Q = dN kB T τp2 is a constant related
+to the time scale τp of the relaxation of the momenta. The discussion in the previous
+2
+section motivates Q = dN kB T m
+γ 2 , where γ is the phenomenological drag constant. If
+such a drag constant is not known, Q is a free parameter of the dynamics.
+Time averaging of equation Eq. (56) in the sense of Eq. (7) leads to the relation
+X 2 
+p
+m
+
+= dN kB T.
+
+(57)
+
+It describes equipartition of the momenta coordinates at temperature T . Therefore,
+the dynamics of γ
+e ensures that the momenta relax to their equilibrium values.♯
+
+4.3. Configurational thermostats
+
+Conﬁgurational thermostat are the deterministic analogue to the overdamped
+Smoluchowski equation (15). It is assumed that the momenta have relaxed to their
+equilibrium values and the dynamics can be described by the equations
+q̇ = µ
+e ∂q V,
+i
+1 Xh
+µ
+ė =
+(∂q V )2 − kB T ∂q2 V .
+Qµ
+
+(58a)
+(58b)
+
+Again, the form of the dynamics of µ
+e is found from demanding the canonical form
+for the stationary distribution of the coordinates. Observe also how here we ﬁnd the
+deﬁnition of Rugh’s conﬁgurational temperature [27] appearing naturally in Eq. (58b) .
+As above, the constant Qµ can be used to set a time-scale for relaxation of coordinates.
+The problem with this approach is that the dynamics is not ergodic. Mechanical
+equilibria ∂q V = 0 act as attracting ﬁxed points where the system comes to rest. To
+restore ergodicity, further modiﬁcations of the equations of motion are required. In
+the so-called SDC scheme this is done by introducing another dynamical variable, ζ,
+that is used to shake the dynamics around mechanical equilibria, similar to what the
+stochastic noise term would do in the Langevin equation [30]. The equations of motion
+are
+q̇ = µ∂q V + ζ
+(59)
+♯ As in the stochastic case, it is an assumption that the trajectories generated by the thermostatted
+equations of motion can describe the transient relaxation towards equilibrium, too.
+
+16
+
+4.4 Dynamic reversibility
+with the dynamics of µ as in Eq. (58b) and
+ζ̇ = h(ζ, q)
+
+(60)
+
+with h leading to a dynamics that satisﬁes ζ · ∂q V = 0. There are essentially
+three diﬀerent possibilities to satisfy this condition which correspond to diﬀerently
+constrained ﬂuctuations around mechanical equilibria.
+Actually, the full SDC scheme goes further and introduces a dynamical drag term
+for the coordinates, too. If this is done, the connection to statistical physics here is
+obtained
+P similarly to the Nosé-Hoover case, only that one uses equipartition for the
+virial
+q · ∂q V (q) rather than for the mean kinetic energy.
+It has not been proven if or under which conditions the dynamics created by
+the SDC thermostatting scheme are ergodic. However, numerical simulations using
+deterministic SDC schemes as well as a variant [29], the Braga-Travis (BT) scheme
+[4], indicate ergodicity.
+4.4. Dynamic reversibility
+A very important aspect of the SDC dynamics is their dynamic reversibility. Dynamic
+reversibility means that we can basically let the dynamics run backward in time if
+we apply a time-reversal operator I : Γ → Γ to its microstates. For later reference
+we now formulate the general deﬁnition of reversibility for a dynamical system on
+phase space Γ governed by the ﬂow Φt , Eq. (8) [24, 23, 20]. Here, Γ is the extended
+conﬁgurational phase space with elements x = (q, α) consisting of the coordinates as
+well as the additional dynamical variables α = (µ, ζ, . . .). Now let (Γ, B, λ) be the
+measure space of the thermostatted system with Lebesgue measure λ on the Borel
+sets B.
+We call the dynamics reversible if and only if there is a mapping I such that
+
+Φ
+
+(−t)
+
+
+
+λ(I
+
+x= I ◦Φ
+
+(t)
+
+−1
+
+I ◦ I = id(involution),
+
+A) = λ(A), ∀A ∈ B(measure-preserving),
+
+◦ I x, ∀t ∈ R, x ∈ Γ.(time reversal)
+
+(61)
+(62)
+(63)
+
+In the case of the SDC scheme the time-reversal operator that fulﬁlls the above
+properties is I(q, α) = (q, −α). For Hamiltonian dynamics, it is I(q, p) = (q, −p).
+But there are also other kind of abstract dynamics, like multi-baker maps, where such
+a condition of reversibility holds (for a review cf. Ref. [38]).
+5. Dynamical Notions of Entropy and Information
+In this section we will use reversible deterministic (thermostatted) dynamics to derive
+analogues of the trajectory-dependent entropic expressions (40-47) using the concepts
+of information theory. Unlike the previous sections, which mostly reviewed existing
+results, the work in this section is original though the basic notions were inspired by
+works of Vollmer and co-workers and others [5, 39, 38, 24]
+The outline is as follows: First we will partition the phase space of the system
+into disjoint mesoscopic cells Cω . As in the stochastic case of section 3, these cells
+correspond to the possible observations (measurements) ω ∈ Ω. Our information
+of the system on the mesoscopic level is quantiﬁed by an evolving coarse-grained
+17
+
+5.1 Mathematical set-up
+density ρ. In parallel, the evolution of a microscopic density ̺ is considered, which
+contains the full information about both state and history of the system. The
+(experimental) uncertainty of the state of the system can be expressed as the relative
+information or Kullback-Leibler divergence of the two densities. In order to understand
+the interpretation and evolution of the information-like quantities in the context of
+statistical physics, we need the evolution of the densities. Therefore, an analogue to
+the crucial assumption of equilibrated cells or local equilibrium needs to be formulated.
+Additionally, the fact that certain fast or auxiliary variables cannot be observed
+imposes a time-reversal-symmetry condition on the mesoscopic states.
+5.1. Mathematical set-up
+Starting point for our discussion is a reversible, deterministic dynamics on some space
+Γ. As a paradigm we can think of the ﬂow Φ(t) generated by the thermostatted
+equations of motion (59).
+In order to account for the ﬁnite time resolution of real experiments, we take a
+stroboscopic point of view on the dynamics. Mathematically, this means that from the
+continuous dynamics we obtain a deterministic, discrete map Φ ≡ Φτ
+Φ : Γ → Γ,
+
+x(ν) 7→ x(ν+1)
+
+(64)
+
+by ﬁxing a small time-step τ = τobs and only look at the microscopic state of the system
+at intervals of τ . After that, we could let τobs tend to zero to arrive at a continuous
+description. In terms of Markov processes we obtain a Markov jump process described
+by a Master equation (21) from a discrete time Markov chain. However, the physical
+assumption of separation of time-scales still applies, so one must not assume validity
+of the continuous description for too small time scales τ ∼ τmic . Henceforth, the index
+for the discrete time is denoted ν ∈ Z corresponding to t = τ ν.
+5.1.1. Observables and partitioning In order to connect to the statistical mechanics
+of mesoscopic systems we partition phase space into discrete cells Ci ⊂ Γ through
+observables of the form of Eq. (20) . A crucial condition on the measurable observables
+M is that they are invariant under time-reversal, i.e. a single measurement cannot
+distinguish the direction of time:
+M(Ix) = M(x).
+
+(65)
+
+Physically, this excludes unobservable phenomena from the deﬁnition of our
+mesoscopic states. Thinking of the SDC-thermostats this is the condition that the
+observables should only depend on the physical coordinates q and not on the auxiliary
+variables α. In the underdamped situation this means that observables shouldn’t
+depend on the fast momenta. However, this condition also applies for the mesoscopic
+cells that constitute the multi-baker maps used by Vollmer [5, 38].
+To continue, we will need the phase space volume Πi of phase space cell Ci , which
+will be its Lebesgue measure. If the (extended) phase space Γ has a ﬁnite measure, so
+will the cells. The real space with coordinates q is always considered to be conﬁned
+to a ﬁnite volume, hence it has a ﬁnite measure. However, this does not need to
+be the case for the momenta or auxiliary variables. But because these variables are
+18
+
+5.1 Mathematical set-up
+unobservable, cells will always be direct products of a ﬁnite observable conﬁgurational
+part, Cobs,ω and possible inﬁnite parts Cunobs which do not depend on the value of ω.
+Therefore, when we write Πi = λ(Ci ) we mean the measure projected onto the
+observable, conﬁgurational phase space. Formally, let (Γconf , B, λ) be the measure
+space of the (extended) thermostatted system with Lebesgue measure projected on
+the Borel sets B of the ﬁnite, observable part Γconf .
+Having ensured ﬁniteness of the measures, we can establish some further
+deﬁnitions:
+Let Cnm ⊂ Cm be the set of all points that are mapped from cell m to cell n.
+˜m
+Denote sm
+n its relative volume in cell m. Similarly, let Cn ⊂ Cn be the set of all points
+m
+in cell n with pre-images in cell m and s̃n its relative volume:
+Cnm := {x ∈ Cm : Φx ∈ Cn }
+m
+Πm
+n := λ(Cn )
+Πm
+n
+sm
+n :=
+Πm
+
+(66a)
+(66b)
+
+C˜nm := {y ∈ Cn : Φ−1 y ∈ Cm }
+
+(66d)
+
+m
+Π̃m
+n := λ(Cn )
+Π̃m
+n
+s̃m
+n :=
+Πn
+
+Because the cells form a disjoint partition one has
+X
+X
+sm
+s̃nm = 1, ∀m.
+n =
+n
+
+(66c)
+
+(66e)
+(66f)
+
+(67)
+
+n
+
+5.1.2. Images and pre-images under reversible evolution We assume that the discrete
+dynamics is reversible with an Involution I in the sense of equations (61–63). Because
+of the constraint Eq. (65) the involution is necessarily local on cells, meaning that
+mesoscopic cells are invariant sets under the involution:
+ICn = Cn , ∀n.
+
+(68)
+
+With this relation and the notion of dynamical reversibility (61–63) it follows that
+n
+s̃m
+n = sm .
+
+(69)
+
+n
+m
+n
+n
+˜m
+s̃m
+n = sm ⇔ Π̃n ≡ λ(Cn ) = λ(Cm ) ≡ Πm
+
+(70)
+
+This reason for this is that
+
+by deﬁnition and further one has
+C˜nm = {y : (y ∈ Cn ) ∧ (φ−1 y ∈ Cm )}
+⇒ I C˜m = {z : (z = Iy) ∧ (y ∈ Cn ) ∧ (φ−1 y ∈ Cm )}
+n
+
+(63)
+
+= {z : (Iz ∈ Cn ) ∧ (φ−1 Iz ∈ Cm )}
+(61)
+= {z : (z ∈ ICn ) ∧ (Iφ−1 Iz ∈ ICm )}
+(63,68)
+= {z : (z ∈ Cn ) ∧ (φz ∈ Cm )}
+n
+≡ Cm
+,
+19
+
+5.2 Information theory and entropy
+which means that the role of images and pre-images is exchanged under the reversed
+dynamics. Because the involution is measure preserving (62) we ﬁnd
+n
+Πnm = λ(Cm
+) = λ(I C˜nm ) = λ(C˜nm ) = Π̃m
+n
+
+(71)
+
+which proofs Eq. (69) .
+5.2. Information theory and entropy
+To connect the deterministic dynamics on the cells to thermodynamics we deﬁne
+entropic quantities motivated in the context of Shannon’s information theory [36].
+We equip the space (Γ, B) with a family of measures µ(ν) that are parametrized by
+discrete time ν. We assume that any member of the family µ(ν) has a density ̺(ν) (x)
+with respect to the Lebesgue measure λ. We will denote ̺(ν) the fine-grained (or
+microscopic) density.
+The central quantity of information theory is the information functional of a
+density ̺ over an area of phase space C ⊂ Γ:
+Z
+S [̺ | C] := −kB ̺(x) log ̺(x) dx
+(72)
+C
+
+The standard Shannon entropy is the information functional evaluated over the total
+phase space, S [̺] = S [̺ | Γ]. Another quantity that will appear frequently is the
+relative information of density ̺′ with respect to density ̺, which can be formulated
+as a Kullback-Leibler divergence:
+Z
+̺(x)
+dx > 0.
+(73)
+DKL [̺ k ̺′ ] = kB ̺(x) log ′
+̺ (x)
+C
+5.2.1. Coarse-grained density Additionally to the microscopic density, we deﬁne a
+(ν)
+coarse-grained (or mesoscopic) density ρm to be the averaged microscopic density of
+a cell Cm :
+Z
+1
+(ν)
+̺(ν) (x)dx.
+(74)
+ρm
+=
+Πm Cm
+It resembles the fact that we can only measure up to a certain resolution that is deﬁned
+by the mesoscopic observables M(x). That is, we can see a system in a mesostate ω
+but never infer the actual microstate x from that information.
+5.2.2. Fine- and coarse-grained entropy For simplicity, in this paragraph we will
+suppress the superscript (ν) because we are not dealing with any evolution of the
+densities. We will refer to the constrained Shannon entropy of ̺ on cell Cm ,
+Z
+̺(x) log ̺(x) dx
+(75)
+S [̺ | Cm ] = −kB
+Cm
+Z
+Z
+̺(x) log Πm dx
+(76)
+̺(x) log (Πm ̺(x)) dx + kB
+= −kB
+Cm
+Cm
+Z
+̺(x) log (Πm ̺(x)) dx + Πm ρm sint (m),
+(77)
+= −kB
+Cm
+
+20
+
+5.3 Entropy production and variation
+as the fine-grained entropy.In the last line we introduced the quantity
+sint (m) := kB log Πm ,
+
+(78)
+
+which—in analogy to section 3—we also call the intrinsic entropy of state m. However,
+here it is deﬁned in the sense of Boltzmann as the logarithm of a phase space volume
+rather than in the sense of Gibbs or Shannon. This identiﬁcation will be justiﬁed also
+by the ﬁnal results.
+We also introduce
+the coarse-grained entropy of cell m using the coarse-grained
+P
+density ρ(x) = m ρm χCm (x):
+S [ρ | Cm ] = −kB Πm ρm log ρm
+
+= −kB Πm ρm log (Πm ρm ) + kB Πm ρm log Πm
+= −kB Πm ρm log (Πm ρm ) + Πm ρm sint (m)
+= Πm ρm (svis (m) + sint (m))
+= Πm ρm (scg (m))
+
+(79)
+
+(80)
+(81)
+(82)
+(83)
+
+The last line splits the microscopic density into two local contributions that are
+weighted by the factor Πm ρm . The ﬁrst part is the intrinsic entropy from above,
+which is a thermodynamic state variable but not directly observable. The second part
+is a local quantity, too, but it additionally depends on the ensemble density ρ. We
+call this part the apparent or visible entropy,
+svis (m) = −kB log (Πm ρm ) ,
+
+(84)
+
+because this quantity can be inferred from experimentally obtained ensemble statistics.
+5.2.3. Relative information and observable entropy Another important quantity is
+the diﬀerence between the coarse- and ﬁne-grained entropy S [ρ | Cm ]−S [̺ | Cm ], which
+was introduced in Ref. [5] in the context of multi-baker maps. It can be written as a
+Kullback-Leibler divergence and is therefore always positive
+Z
+̺(x)
+dx ≥ 0.
+(85)
+̺(x) log
+S [ρ | Cm ] − S [̺ | Cm ] = DKL [̺ k ρ | Cm ] =
+ρm
+Cm
+From information theory we know that this quantity is the relative information of the
+two descriptions, i.e. it quantiﬁes the uncertainty of the microstate of the system if we
+know the mesostate. As the system equilibrates from its initially prepared state, this
+uncertainty becomes larger and therefore this quantity should never decrease. Later,
+we will prove this and identify its rate of change with the irreversible, total entropy
+production rate Σtot .
+5.3. Entropy production and variation
+Under the assumptions of stochastic thermodynamics it is possible to obtain the
+full-time evolution of the microscopic density, if it was initialized uniformly on the
+mesoscopic cells. The idea is to follow the contraction and squeezing of subsets of
+phase space that move along the same mesoscopic trajectory.
+
+21
+
+5.3 Entropy production and variation
+5.3.1. Discrete trajectories, co-moving microstates and equilibrated cells In the
+stroboscopic picture the evolution operator is a discrete map that generates discrete
+mesoscopic trajectories. Therefore the mathematical treatment becomes more lucid
+and averages and probabilities can be explicitly calculated. Analogously to the timecontinuous phase, we denote a semi-inﬁnite mesoscopic trajectory by ω. If the
+trajectory is constrained to run until time t = ντobs it is denoted by ω(ν). It can
+be represented by a (ν + 1)-tuple:
+ω(ν) = (ω0 , ω1 , . . . , ων ) .
+Where no ambiguity can arise we will write simply ω instead of ω(ν).
+Further, we deﬁne the mesoscopic history of a point x ∈ Cων ,
+
+ω(x) := M(Φ−ν x), M(Φ−ν+1 x), . . . , M(Φ−1 x), M(x)
+
+(86)
+
+(87)
+
+and the set of microstates that share the same mesoscopic history ω
+C˜ [ω] := {x : ω(x) = ω}.
+
+(88)
+
+This set can also be recursively deﬁned:
+
+C˜ [ω(k)] ≡ Φ C˜ [ω(k − 1)] ∩ Cωωkk−1 .
+
+(89)
+
+
+The quantity we are interested in is the volume Π [ω] := λ C˜ [ω] . To calculate it, we
+must formulate the assumption of equilibrated cells for deterministic dynamics. First
+recall its meaning in the context of time scales: It is the assumption (or better said,
+approximation) that any set of trajectories entering a cell Cm at time t is smeared
+
+out over the whole cell after a time-scale τ < τobs . Consequently, the set C˜ ω (k) of
+ (k) 
+microstates that arrived in cell Cωk ⊂ C˜ ω
+at time k must cover Cωk densely. But
+
+
+this is equivalent to saying that the measure of the subset of C˜ ω(k) that will be
+ (k) 
+k
+mapped to Cωk+1 relative to Π ω
+must be the overall fraction sω
+ωk+1 :
+
+
+
+k
+λ C˜ ω(k) ∩ Cωωk=1
+!
+k
+
+
+= sω
+ωk+1 .
+(k)
+˜
+λ C ω
+
+(90)
+
+
+
+k
+Note that this is just the Markov assumption, if we interpret Π ω (k) and sω
+ωk+1
+(k)
+as the probabilities of observing the trajectory ω
+and a jump from Cωk to Cωk+1 ,
+respectively:
+i
+h
+i
+h
+(91)
+Prob ω (k+1) = Prob ω (k+1) × Prob [ωk+1 | ωk ]
+Further, deﬁne the contraction factor
+
+ω
+
+k
+ηωωk+1
+:=
+
+ω
+Πωk+1 s̃ωkk+1
+Π̃ωkk+1
+.
+ωk+1 ≡
+ω
+Πωk
+Πωk sωkk+1
+
+(92)
+
+Because the sets of co-moving trajectories are smeared out over the whole cell, we
+assume uniform contraction, i.e.
+  h
+ h
+i
+
+i
+
+λ Φ C˜ ω (k−1) ∩ Cωωkk−1
+= ηωωjk−1 λ C˜ ω (k−1) ∩ Cωωkk−1 .
+(93)
+22
+
+5.3 Entropy production and variation
+Using equations (89), (93), (90) and the deﬁnition (92) we ﬁnd a recursive relation
+for Π [ω]:
+i
+h
+Πωk ωk−1 h (k−1) i
+.
+(94)
+s̃
+Π ω
+Π ω(k) =
+Πωk−1 ωk
+
+After iteration we arrive at
+h
+
+Π ω
+
+(ν)
+
+i
+
+=
+
+ν 
+Y
+Πω
+
+k=1
+
+=
+
+k
+
+Πωk−1
+
+ωk−1
+s̃ω
+k
+
+
+
+i
+h
+Π ω (k−1)
+
+ν
+Πων Y  ωk−1 
+s̃ωk
+Πω0
+Πω0
+
+= Πων
+= Πων
+
+k=1
+ν
+Y
+
+k=1
+ν
+Y
+
+(95)
+(96)
+
+ωk−1
+s̃ω
+k
+
+(97)
+
+k
+sω
+ωk−1 ,
+
+(98)
+
+k=1
+
+where in the last line we used reversibility.
+Here we stress again, that for any real dynamics, the above assumptions have to
+be understood as an approximation in the same spirit as the Markovian approximation
+of the stochastic approach. However, dynamics that exactly fulﬁll Eq. (98) can be
+constructed. The most well-known thereof are the reversible, “properly thermostatted”
+Multi-Baker maps used by Vollmer and co-workers [5, 39, 38]. In that particular case,
+there is no separation of time-scales or any notion of “equilibrated cells”. The subtle
+(geometrical) reason why one can use Eq. (98) is that the images and pre-images
+of the map intersect in angles of 90◦ . Therefore, Multi-Baker type maps might be
+useful as models to study this connection. However, they do not represent (small)
+thermodynamic systems.
+5.3.2. Evolution of the densities On its way to cell ων along trajectory ω the volume
+element C [ω] has been repeatedly stretched and squeezed. Denote by ρ(k) [ω] the
+density of the measure µ(k) in C [ω]. Because we start with uniform densities on the
+cells at time ν = 0, this is a constant. Probability conservation implies that
+(k+1)
+ωk+1
+k
+ρ(k) [ω] Πωk sω
+[ω] Πωk+1 sω
+.
+ωk+1 = ρ
+k
+
+This leads to
+ρ(k+1) [ω] = ρ(k) [ω]
+
+k
+Πωk sω
+ωk+1
+
+ω
+
+Πωk+1 sωkk+1
+
+.
+
+After iteration we ﬁnd the density at a point x ∈ Πων with a trajectory ω(x):
+ν  ωk−1 
+Y
+Πω0
+sω k
+.
+̺(ν) (x) = ρ(ν) [ω(x)] = ρω0
+k
+sω
+ωk−1 Πων
+
+(99)
+
+(100)
+
+(101)
+
+k=1
+
+The evolution of the coarse-grained, mesoscopic density ρ(ν) is obtained by integration
+over cell Πων :
+#
+"
+ν
+Y
+X ων
+ωk−1
+(ν)
+sω
+(102)
+ρω0 Πω0
+=
+Πων ρω
+ν
+k
+ω
+
+k=1
+
+23
+
+5.3 Entropy production and variation
+P
+Here, m
+ω means that we sum over all trajectories that end in cell Cm . The weight
+pm of cell Cm with respect to the measure µ(k) is
+(k)
+pm
+:= µ(k) (Cm ) = Πm ρ(k)
+m .
+
+(103)
+
+It is easy to see that Eq. (102) is the solution of the discrete-time Master equation
+X h j (k) i
+(k+1)
+(104)
+si p j .
+=
+pi
+j
+
+under the assumptions that we found an initially uniform density on each cell,
+(0)
+i.e. pm = Πm ρm . In Eq. (104) the sij take the role of transition probabilities.
+Now we deﬁne the weight of a mesoscopic trajectory ω
+P[ω] = p(0)
+ω0
+
+ν
+Y
+
+ωk−1
+sω
+.
+k
+
+(105)
+
+k=1
+
+It obeys
+X
+
+ω
+X ων
+
+P [ω] = 1,
+
+(106)
+
+(ν)
+P [ω] = pω
+.
+ν
+
+(107)
+
+ω
+
+Inserting Eq. (101) into the deﬁnition of the ﬁne-grained entropy Eq. (75) we ﬁnd
+!#
+"
+ν
+ν 
+ωk−1 
+i
+h
+Y
+X ων
+ ω  X
+s
+ω
+k
+(ν)
++ log (Πω0 ρω0 )
+Πω0 ρω0
+sωkk−1
+S ̺ | Cων = −kB
+log ωk
+sωk−1
+ω
+k=1
+
+k=1
+
+(108)
+
+(ν)
+s (ων ).
++ Πων ρω
+ν int
+
+(109)
+
+si
+
+Also here we deﬁne Bji := kB log sjj using the volume fractions sij . In this context it
+i
+
+can be interpreted as the rate of phase space contraction [38]. A more suitable form
+is:
+"
+#
+ν
+i
+h
+X ων
+X
+(ν)
+ωk−1
+S ̺ | C ων = −
+P[ω]
+Bωk
+(110)
+ω
+
+k=1
+
+i
+Xh
+(ν)
+(0)
+p(0)
+− kB
+ω0 log pω0 + pων sint (ων ).
+
+(111)
+
+ω0
+
+The ﬁrst term is the entropy originating from the jumps of the trajectories that end
+in Πων at time ν. The second term is the visible entropy speciﬁed by the initial
+conditions. The third term is the part of the intrinsic entropy associated with cell ων .
+5.3.3. Recovering the trajectory functionals of ST At this time it is worthwhile to stop
+and reﬂect whether it makes sense to attempt an interpretation of Eq. (111) as the
+“ﬁne-grained entropy of cell ων at time ν”. The problem is that such an interpretation
+24
+
+5.3 Entropy production and variation
+is local in space and time. However, even though we could eliminate the microscopic
+density, the ﬁrst term now depends on the history of many (non-local) mesoscopic
+trajectories. Therefore it is impossible to describe this term without referring to the
+other cells or the memory of the process.
+Let us recall the functionals (39–41) from section 3. With the modiﬁed deﬁnitions
+of the intrinsic entropy, the weight of a cell pm and the contraction rate Bji , the discrete
+analogues look formally the same:
+sint [ω, ν] = sint (ων ) = kB log Πων ,
+
+(112)
+
+(ν)
+svis [ω, ν] = svis (ων ) = −kB log pω
+,
+ν
+ν
+X
+Bωωjj−1
+smot [ω, ν] =
+j=1
+
+(113)
+(114)
+
+With this we can express the sum of the ﬁne-grained entropy of all cells with the help
+of trajectory averages
+i
+X h
+(ν)
+(115)
+S ̺(ν) | Cων
+Sfg :=
+ων
+
+=−
+
+X
+ω
+
+− kB
+
+"
+
+P[ω]
+
+ν
+X
+
+Bωωkk−1
+
+k=1
+
+#
+
+(116)
+
+i Xh
+i
+Xh
+(0)
+(ν)
+p(0)
+s
+(ω
+)
+pω
+int
+ν
+ω0 log pω0 +
+ν
+ω0
+
+(117)
+
+ων
+
+= − hhsmot ii + hsvis i(0) + hhsint ii
+
+(118)
+
+The ﬁrst and the last term of the last line are trajectory averages of the form of Eq. (29)
+though the latter could also be expressed by a trajectory average of a local quantity
+using Eq. (30) . The second term is the visible entropy of the initial ensemble.
+The coarse-grained density of all cells reads:
+i
+X h
+(ν)
+(119)
+S ρ(ν) | Cων
+Scg
+:=
+ων
+
+= −kB
+
+i
+i Xh
+Xh
+(ν)
+(ν)
+(ν)
+s (ων )
+pω
++
+log pω
+pω
+ν int
+ν
+ν
+(ν)
+
+= hsvis i
+
+(120)
+
+ων
+
+ων
+
+(ν)
+
++ hsint i
+
+(121)
+
+= hhsvis ii + hhsint ii
+
+(122)
+
+For the diﬀerence entropy Srel we ﬁnd
+(ν)
+
+(ν)
+
+(0)
+
+Srel = hsvis i(ν) − hsvis i(0) + hhsmot ii = Svis − Svis + hhsmot ii .
+
+(123)
+
+The main result is that these identiﬁcations allow us to relate the physical
+entropies to the (Shannon-)entropies in the context of deterministic dynamics:
+(ν)
+(ν)
+Ssys
+= hhssys ii ≡ Scg
+,
+
+(124)
+
+(ν)
+(ν)
+(0)
+Smed = hhsmed ii ≡ −Sfg + Svis ,
+
+(125)
+
+Stot = hhstot ii ≡ Srel − Svis .
+
+(126)
+
+(ν)
+
+(ν)
+
+25
+
+(0)
+
+5.4 Connection to the continuous time description
+Because of the one-to-one correspondence, the relation to the three fundamental
+functionals (42-44) hold as well.
+It remains to ﬁnd the analogues of the entropy variations σ. In the discrete-time
+case, this is easy, as σ[ω, ν] can be obtained as s[ω, ν] − s[ω, ν − 1] for any discrete
+entropy functional s:
+(ν)
+
+p ων
+
+,
+(ν−1)
+pων−1
+σint [ω, ν] = sint (ων ) − sint (ων−1 ),
+
+σvis [ω, ν] = kB log
+
+(127)
+(128)
+
+σmot [ω, ν] = Bωωνν−1 .
+
+(129)
+
+Again, from these quantities one can construct the functionals of the physical
+entropy variations per unit time as well as their trajectory averages. A surprise in the
+discrete case may be the result for the average total entropy production per unit time
+Σtot = hhσvis + σmot ii:
+X
+X
+
+[p′i log p′i − pi log pi ]
+(130)
+pi sij Bji − kB
+Σtot =
+i,j
+
+=kB
+
+X
+i,j
+
+=kB
+
+X
+i,j
+
+"
+
+"
+
+i
+
+pi sij log
+pi sij log
+
+pi sij
+
+p′j sji
+pi sij
+pj sji
+
+#
+#
+
+(131)
+
++ kB
+
+X
+i
+
+p′i log
+
+
+pi
+> 0.
+p′i
+
+(132)
+
+The average total entropy production is, as expected, always positive. This can be
+seen from the second line where we write it as a Kullback-Leibler divergence. However,
+looking at the third line we see that it diﬀers from the direct correspondence to the
+continuous case by a boundary term. Also these two terms have the form of KullbackLeibler divergences. The negative second term becomes increasingly smaller as a
+steady state is reached. It has often been ignored by previous works because it does
+not appear neither in the continuous case nor in the steady state.
+In summary, we constructed the discrete versions of the fundamental functionals
+used in stochastic thermodynamics from deterministic dynamics.
+5.4. Connection to the continuous time description
+To arrive at the discrete-time analogues of the trajectory functionals one basically just
+has to substitute wji by sij in the continuous-time expressions (40–47). The variations
+σ were obtained as diﬀerences of the entropies. However, they can also be obtained
+from the continuous variations σ c , which we will denote by the superscript c, if we
+consider a given continuous trajectory ω:
+Let us consider the time interval [ντobs , (ν + 1)τobs ]. We assume that τobs is small
+enough that at most one jump occurs at τj from states ω− := ω ((ν − 1)τobs ) ≡ ων−1
+to ω+ := ω (ντobs ) ≡ ων . An entropy functional s can be written as the integral over
+
+26
+
+5.5 Connection to previous works
+the continuous-time derivative functional:
+σ =s[ω; (ν + 1)τobs ] − s[ω, ντobs ]
+Z (ν+1)τobs
+σ c [ω(t)] dt
+=
+ντobs
+
+=
+
+Z τj
+
+σ c [ω(t)] dt +
+
+Z (ν+1)τobs
+
+(133)
+σ c [ω(t)] dt
+
+τj
+
+ντobs
+
+In the last line we split the integral into two contributions. This is important in order
+to evaluate the ensemble probability for the correct states. The ﬁrst line implies that
+in the discrete case Σ is the average variation per unit time of the corresponding
+average value of S.
+For completeness, we mention that the continuous time description is usually
+obtained in a more formal way. This is done by converting the expressions in the
+discrete-time Master equation (104) into its continuous-time analogue, Eq. (21) , in a
+limit procedure τobs → 0. The jump probabilities sij for time spans τobs are interpreted
+as generated by the inﬁnitesimal generator (W )ij = (wji ) [13]:
+
+sij = exp wji τobs ,
+X
+wji .
+wii = −
+
+(i 6= j),
+
+(134)
+
+j
+
+5.5. Connection to previous works
+For consistency, we partly introduced new notation for diﬀerent entropic quantities.
+Random variables are always denoted by minuscules, with their (trajectory) averages
+represented by the corresponding upper case letters. Further Σ denotes the time
+derivative or variation per unit time of its entropy S, in the continuous or discrete
+case, respectively.
+As a summary, we discuss the main entropic terms identiﬁed in this work again in
+detail and give an (incomplete) overview of the notation and interpretation in previous
+work.
+Visible entropy The visible entropy Svis was deﬁned in Eq. (48) as the Shannon
+entropy of the (discrete) ensemble. In the same spirit it is the observable part of the
+coarse-grained entropy, cf. Eq. (120) . It can also be expressed as the average over
+the entropy functional svis .
+It has been often simply called entropy S (in the context of Markov chains)
+[31, 16, 3, 9]. However, Lebowitz and Spohn have called it also Gibbs entropy SG
+because of its functional form and to distinguish it from Boltzmann entropy.
+Intrinsic entropy The intrinsic entropy sint (ω) is the unobservable (local) equilibrium
+entropy of a mesoscopic state ω. It can be calculated canonically from the constrained
+microscopic density as in Eq. (25) . On the phase space of the thermostatted,
+deterministic system it is calculated in the sense of Boltzmann as the logarithm of
+the volume of a cell (78) [34, 35]. In this spirit, is has also been called Boltzmann
+entropy SB (M ) of (mesoscopic) state M [24].
+27
+
+5.6 Application: Isolated systems
+Fine-grained entropy The coarse-grained entropy Sfg is the Shannon entropy (115)
+of the microscopic (Liouville) density ̺. For equilibrium systems, it is equivalent to
+Gibbs’ entropy. Maes and Netočný denote it S(µ) and make a strong point for not
+calling it Gibbs entropy [24], which is the expression used by Vollmer and co-workers,
+who denoted it S (G) [5, 38].
+Coarse-grained entropy The coarse-grained entropy Scg is the Shannon entropy of
+the coarse-grained density ρ from Eq. (119) . It consists of the visible entropy Svis
+and the intrinsic entropy of the current ensemble Sint = hsint i. Vollmer and co-workers
+call it simply the entropy S [5, 38], whereas Maes and Netočný denote it the Shannon
+entropy of the (projected, i.e. coarse-grained) measure, Ŝ(µ̂) [24].
+Total entropy production The total positive entropy production Σtot is the quantity
+to be identiﬁed with the total dissipation [33, 35]. It is always positive due to its form
+of a Kullback-Leibler divergence. In the context of information theory it is the rate
+of increase of the uncertainty of the microscopic conﬁguration over time, if one keeps
+track of the mesoscopic densities.
+It has previously also been called the internal non-negative entropy production
+[31, 16, 3, 9]. Notation has varied a lot including the symbols P [31], R [22], τ1 ∆τi
+iS
+[16], ddt
+[3], Ṡi [9] and Ṡ tot [33]. Usually, it has been considered for continuous-time
+Markov chains where it has the form of the ﬁrst term in Eq. (52) . However, as we
+saw above, for the discrete situation an additional boundary term from the ﬁnite time
+interval appears with respect to the continuous-time formulation. This was already
+noted by Gaspard [16], though his identiﬁcation and interpretation is diﬀerent than
+in the present context.
+Motance entropy variation The variation of the motance entropy Σmot is facilitated
+by the local motance Bji . As we see from the deterministic discussion (118, the
+motance Smot is the main part of the ﬁne-grained entropy and directly related to
+phase space contraction. Thermodynamically, it is the heat released to the medium
+less the variation of the intrinsic entropy [34, 35].
+The latter contribution has often been neglected when Σmot has meed identiﬁed
+with the entropy change in the reservoirs describing the medium of the environment
+[31, 9]. In the same sense it is often called the entropy ﬂux to the medium or external
+entropy variation [16, 3]. As for the case of the total entropy production, symbols
+eS
+[3], −Ṡe ≡ −Ṡr [9] and Ṡ tot [33].
+used include P2 [31], A [22], − τ1 ∆τe [16], − ddt
+5.6. Application: Isolated systems
+As Seifert stresses [34], it is crucial that the motance consists of the variation of
+intrinsic entropy as well as the entropy ﬂux to the medium. Here, we show this
+explicitly using an isolated system evolving under Hamiltonian dynamics. We know
+that the invariant measure ̺∞ will be uniform on the constrained phase space (energy
+shell), corresponding to an equilibrium situation. Further, detailed balance should
+hold between mesoscopic cells λ(Ci ) = Πi .PWithout loss of generality we set the total
+phase space volume to unity, i.e. λ(Γ) = i Πi = 1. Then, because ̺∞ = 1, we ﬁnd
+that the equilibrium probabilities obey p∞
+i = Πi . From the detailed balance condition
+∞ j
+i
+p∞
+i sj = p j si
+
+28
+
+(135)
+
+P
+we then infer that sij = cij Πj with some constant cij = cji . But because j sij = 1
+for all i, one has to demand cji = 1, ∀i, j.
+By deﬁnition, an isolated system cannot allow any “entropy ﬂux to the medium”
+at any time, i.e.
+!
+hhσmed ii = hhσmot ii − hhσint ii = 0.
+(136)
+But this can be seen from
+hhσmed ii =
+=
+
+X
+i,j
+
+X
+i,j
+
++
+=
+
+"
+
+pi sij log
+
+sji
+
+−
+
+X
+
+i
+
+[(p′i − pi ) log Πi ]
+
+[pi log Πi ]
+
+i
+
+[−pi Πj log Πi ] +
+
+X
+
+[pi log Πi ]
+
+i
+
+i,j
+
+=
+
+X
+
+[pi Πj log Πj − pi Πj log Πi − pj Πi log Πi ]
+
+X
+
+X
+
+#
+
+sij
+
+[(−pi + pi ) log Πi )] = 0.
+
+i
+
+6. Conclusion
+In this work we presented a new approach to the entropy functionals of stochastic
+thermodynamics using deterministic evolution equations.
+We used reversible
+deterministic thermostatted equations of motion as a paradigm. The ﬁnite resolution
+of any real measurement motivated the introduction of time-reversal invariant
+mesoscopic observables and the use of a stroboscopic picture. Under the assumptions
+of equilibrated cells we could follow the evolution of an observable coarse-grained
+and an unobservable ﬁne-grained density. This lead to the notion of coarse- and
+ﬁne-grained entropy, whose dynamics is intimately related to the notion of entropy
+and entropy production in the system and its environment. Finally, we were able to
+construct the trajectory-dependent functionals of stochastic thermodynamics from a
+purely deterministic dynamics. We also made the connection of the discrete-time case
+to the more common continuous-time description.
+This work also hopes to disentangle some of the confusion in the context of
+nonequilibrium entropies. Maybe it can contribute to reconcile diﬀerent views on
+entropy and entropy production through the one-to-one correspondence of phase space
+contraction and thermodynamic interpretation of (ratios) of transition probabilities.
+Further, the special role of Multi-Baker-Maps in the context of nonequilibrium
+thermodynamics was analysed: Rather than as simpliﬁed models for chaotic, manyparticle dynamical systems they have to be understood as mathematical models that
+show a similar evolution, due to a geometric peculiarity. However, they might elucidate
+the connection between dynamical systems and stochastic thermodynamics further
+and future work in this direction is in progress.
+Acknowledgments
+The author wants to thank Lamberto Rondoni, Jürgen Vollmer, Thomas Frerix and
+Artur Wachtel for many fruitful discussions. Further, I am indebted to Artur Wachtel
+29
+
+and Lukas Geyrhofer for comments on the manuscript.
+
+30
+
+References
+[1] B. Altaner, S. Grosskinsky, S. Herminghaus, L. Katthän, M. Timme, and J. Vollmer. Network
+representations of nonequilibrium steady states: Cycle decompositions, symmetries, and
+dominant paths. Phys. Rev. E., 85(4):041133, 2012.
+[2] Bernhard Altaner and Jürgen Vollmer. Fluctuation-preserving coarse graining for biochemical
+systems. Phys. Rev. Lett., 108:228101, 2012.
+[3] D. Andrieux and P. Gaspard. Fluctuation theorem for currents and Schnakenberg network
+theory. J. Stat. Phys., 127(1):107–131, 2007.
+[4] C. Braga and K.P. Travis. A conﬁgurational temperature nosé-hoover thermostat. J. Chem.
+Phys., 123:134101, 2005.
+[5] W. Breymann, T. Tél, and J. Vollmer. Entropy balance, time reversibility, and mass transport
+in dynamical systems. Chaos, 8(2):396–408, 1998.
+[6] G.E. Crooks. Entropy production ﬂuctuation theorem and the nonequilibrium work relation for
+free energy diﬀerences. Phys. Rev. E., 60(3):2721, 1999.
+[7] S.R. de Groot and P. Mazur. Non-equilibrium thermodynamics. Dover, 1984.
+[8] M. Esposito. Stochastic thermodynamics under coarse graining. Phys. Rev. E., 85(4):041125,
+2012.
+[9] M. Esposito and C. Van den Broeck. Three faces of the second law. I. Master equation
+formulation. Phys. Rev. E, 82(1):011143, Jul 2010.
+[10] D. J. Evans, E. G. D. Cohen, and G. P. Morriss. Probability of second law violations in shearing
+steady states. Phys. Rev. Lett., 71:2401–2404, Oct 1993.
+[11] A. Faggionato and D. Di Pietro.
+Gallavotti–Cohen-type symmetry related to cycle
+decompositions for Markov chains and biochemical applications. J. Stat. Phys., 143:11–32,
+2011.
+[12] M. Falcioni, L. Palatella, S. Pigolotti, L. Rondoni, and A. Vulpiani. Initial growth of boltzmann
+entropy and chaos in a large assembly of weakly interacting systems. Physica A, 385(1):170–
+184, 2007.
+[13] W. Feller. An Introduction to Probability Theory and Its Applications, volume 1. Wiley, 3
+edition, 1968.
+[14] G. Gallavotti and E. Cohen. Dynamical ensembles in stationary states. J. Stat. Phys., 80:931–
+970, 1995.
+[15] C.W. Gardiner. Stochastic methods. Springer Berlin, 4th edition, 2004.
+[16] P. Gaspard. Time-reversed dynamical entropy and irreversibility in markovian random processes.
+J. Stat. Phys., 117:599–615, 2004.
+[17] T.L. Hill. Free energy transduction in biology. Academic Press New York, 1977.
+[18] C. Jarzynski. Nonequilibrium equality for free energy diﬀerences. Phys. Rev. Lett., 78(14):2690,
+1997.
+[19] E. T. Jaynes. Information theory and statistical mechanics. Phys. Rev., 106:620–630, May
+1957.
+[20] O.G. Jepps and L. Rondoni. Deterministic thermostats, theories of nonequilibrium systems and
+parallels with the ergodic condition. J. Phys. A, 43:133001, 2010.
+[21] J. Kurchan. Fluctuation theorem for stochastic dynamics. J. Phys. A, 31:3719, 1998.
+[22] J.L. Lebowitz and H. Spohn. A Gallavotti–Cohen type symmetry in the large deviation
+functional for stochastic dynamics. J. Stat. Phys., 95:333, 1999.
+[23] C. Maes. On the origin and the use of ﬂuctuation relations for the entropy. In Poincaré Seminar
+2003: Bose-Einstein condensation-entropy, page 145. Birkhäuser, Basel, 2004.
+[24] C. Maes and K. Netočný. Time-reversal and entropy. J. Stat. Phys., 110(1):269–310, 2003.
+[25] D. Mandal and C. Jarzynski. Work and information processing in a solvable model of maxwell’s
+demon. P.N.A.S., 109(29):11641–11645, 2012.
+[26] D. Ruelle. Smooth dynamics and new theoretical ideas in nonequilibrium statistical mechanics.
+J. Stat. Phys., 95(1):393–468, 1999.
+[27] H.H. Rugh. Dynamical approach to temperature. Phys. Rev. Lett., 78(5):772, 1997.
+[28] T. Sagawa and M. Ueda. Generalized jarzynski equality under nonequilibrium feedback control.
+Phys. Rev. Lett., 104(9):90602, 2010.
+[29] AA Samoletov, CP Dettmann, and MA Chaplain. Notes on conﬁgurational thermostat schemes.
+J. Chem. Phys., 132(24):246101, 2010.
+[30] A.A. Samoletov, C.P. Dettmann, and M.A.J. Chaplain. Thermostats for “slow” conﬁgurational
+modes. J. Stat. Phys., 128(6):1321–1336, 2007.
+[31] J. Schnakenberg. Network theory of microscopic and macroscopic behavior of master equation
+systems. Rev. Mod. Phys., 48(4):571–585, 1976.
+
+31
+
+[32] L.S. Schulman. Techniques and applications of path integration. Dover Publications, 2005.
+[33] U. Seifert. Entropy production along a stochastic trajectory and an integral ﬂuctuation theorem.
+Phys. Rev. Lett., 95(4):40602, 2005.
+[34] U. Seifert. Stochastic thermodynamics of single enzymes and molecular motors. Eur. Phys. J.
+E, 34(3):1–11, 2011.
+[35] U. Seifert.
+Stochastic thermodynamics, ﬂuctuation theorems, and molecular machines.
+arXiv:1205.4176, 2012.
+[36] C. E. Shannon. A mathematical theory of communication. Bell System Technical Journal,
+27:379––423, 623–656, 1948. many reprints available.
+[37] E. Verlinde. On the origin of gravity and the laws of newton. Journal of High Energy Physics,
+2011(4):1–27, 2011.
+[38] J. Vollmer. Chaos, spatial extension, transport, and non-equilibrium thermodynamics. Phys.
+Rep., 372(2):131–267, 2002.
+[39] J. Vollmer, T. Tél, and W. Breymann. Entropy balance in the presence of drift and diﬀusion
+currents: an elementary chaotic map approach. Phys. Rev. E., 58(2):1672, 1998.
+
+32
+
+

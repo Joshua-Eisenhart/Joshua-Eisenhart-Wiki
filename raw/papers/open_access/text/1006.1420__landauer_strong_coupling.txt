@@ -1,0 +1,440 @@
+Landauer’s principle in the quantum domain
+Janet Anders
+
+Saroosh Shabbir
+
+Stefanie Hilt
+
+Eric Lutz
+
+Dept of Physics & Astronomy
+
+Department of Physics
+
+University College London
+London WC1E 6BT, UK
+j.anders@ucl.ac.uk
+
+University of Augsburg
+86135 Augsburg, Germany
+
+Recent papers discussing thermodynamic processes in strongly coupled quantum systems claim a
+violation of Landauer’s principle and imply a violation of the second law of thermodynamics [1, 2,
+3, 4]. If true, this would have powerful consequences. Perpetuum mobiles could be build as long
+as the operating temperature is brought close to zero. It would also have serious consequences on
+thermodynamic derivations of information theoretic results, such as the Holevo bound [5]. Here
+we argue why these claims are erroneous. Correlations occurring in the strongly coupled, quantum
+domain require a rethink of how entropy, heat and work are calculated. It is shown that a consistent
+treatment solves the paradox [6].
+
+1
+
+Landauer’s principle
+
+Computers are heat engines that take energy, E, and “work out”, W , the solution to a problem. Real
+computers however also dissipate heat, Q. This wasted energy is exactly the difference between what
+the computer is fed and it’s productive output work, E − W = Q. This fundamental balance equation is
+known as the first law of thermodynamics. In information theory, in the 60ties, workers started to wonder
+if the computer’s efficiency could be improved by dumping an arbitrarily small amount of heat, i.e. could
+a computer run without dissipating any heat? The answer is no! While many computational operations
+can be run (reversibly) without generating heat, there is a fundamental limit to the heat released when one
+bit of information is erased. Landauer’s principle [7, 8] sets the lower bound to this heat as kB T ln 2 when
+the erasure takes place at temperature T , and with kB the Boltzmann constant. The erasure principle was
+orginally formulated for classical bits. Lubkin [9] generalised the erasure to general quantum states ρ 1
+erasing which will generate a heat of at least
+Qerasure ≥ kB T S(ρ ),
+
+(1)
+
+where S(ρ ) = −tr[ρ ln ρ ] is the von Neumann entropy of ρ .
+Landauer’s principle plays an important role in the resolution of a 19th century thought experiment,
+involving a box filled with gas and a demon [10, 11]. The demon, known as Maxwell’s demon, can
+follow the motion of the gas particles and separate faster particles from slower ones, thus effecting two
+reservoirs with different temperatures. He can then extract work from the gas by placing a piston in the
+way of fast gas particles. The fast particles would push the piston (= work) which in turn slows them
+down (= reduce heat), with no change of total energy, i.e. W = −Q. This process would run contrary
+to the second law of thermodynamics which states that no cyclic process can convert heat completely
+into work. The paradox can be resolved by realising that for the thermodynamic cycle to be closed, any
+information on the gas particles stored by the demon has to be erased! By Landauer’s principle this
+1 ρ are hermitian, positive operators with tr[ρ ] = 1.
+
+S. B. Cooper, E. Kashefi, P. Panangaden (Eds.): Developments in
+Computational Models (DCM 2010)
+EPTCS 26, 2010, pp. 13–18, doi:10.4204/EPTCS.26.2
+
+c J. Anders, S. Shabbir, S. Hilt & E. Lutz
+This work is licensed under the
+Creative Commons Attribution License.
+
+Landauer’s principle in the quantum domain
+
+14
+
+generates heat, and a careful analysis shows that it is just the right amount to tame the demon’s paradox
+[7, 10, 12].
+
+2
+
+Information theoretic bounds from Landauer’s principle
+
+Landauer’s principle can be used to prove important theorems in quantum information theory, for instance, the Holevo bound on the accessible information and the no cloning theorem [5, 13, 14]. For the
+derivation of the Holevo bound consider a sender, Martin, that sends a sequence of quantum states ρi ,
+randomly chosen with probability pi . The receiver, Amy, is told what Martin’s states are and their likelyhood of appearing, however, she does not know which of these states she is receiving. Her ignorance
+about the actual choice of each copy sent means that the state she writes down on her side is ρ = ∑i pi ρi .
+Now Amy wants to find out what sequence of states ρi Martin sent. She can make any measurement
+she likes on her state ρ to find as much information as she can about Martin’s choices. The number of
+bits that Amy can decode by a measurement M on ρ is the mutual information,
+pim
+,
+(2)
+IM = ∑ pim ln
+pi qm
+i,m
+where pim are the joint probabilities of Martin sending ρi and Amy finding the m-th measurement outcome, while qm = ∑i pim and pi = ∑m pim are the marginal probabilities of Amy finding outcome m and
+Martin sending ρi . Amy’s choice of measurements will clearly depend on the given preparation procedure, ρi with pi . By optimising her measurements accordingly the maximum information she can gain
+is
+Iacc = max IM .
+(3)
+M
+
+This number of bits is the accessible information and quantifies how much classical information Martin
+and Amy share.
+To find an upper bound on the accessible information we will use Landauer’s principle [5, 13, 14].
+According to Landauer’s principle, erasing the information on Martin’s side generates heat. Martin had
+initially the set of states ρi , each containing S(ρi ) bits of classical information, erasure of which would
+generate at least kB T S(ρi ) per state. Erasing Martin’s ensemble will thus release the minimal heat of
+QMartin
+erase = ∑ pi kB T S(ρi ),
+
+(4)
+
+i
+
+per copy sent. On the other side, Amy receives a state with information content S(ρ ) erasing which
+would require a heat generation of at least
+QAmy
+erase = kB T S(ρ ).
+
+(5)
+
+Now Amy’s minimal erasure heat is higher than Martin’s because she is more ignorant about what state
+she has, S(ρ ) ≥ ∑i pi S(ρi ). Energy conservation requires that the difference in erasure must be somewhere! Indeed it can only be associated with the shared information, at best Iacc , between Martin and
+Amy. This can be stated as
+Martin
+shared
+QAmy
+(6)
+erase − Qerase = Qerase ,
+where Qshared
+erase ≥ kB T Iacc is the heat that would be released if the shared information was erased. Rearranging leads to
+Qshared
+(7)
+Iacc ≤ erase = S(ρ ) − ∑ pi S(ρi ),
+kB T
+i
+
+J. Anders, S. Shabbir, S. Hilt & E. Lutz
+
+15
+
+which is the Holevo bound on the accessible information2 .
+
+3
+
+Second law of thermodynamics, Clausius inequality and Landauer’s
+principle
+
+Imagine a ship that powers its engines solely from converting heat contained in the water of the sea
+it is moving in. To balance the energy bill the sea would get a bit colder but this would be almost
+compensated again by the friction between the ship’s moving body and the water. What a fabulous way
+to travel! This marvellous engine would solve all our energy problems simply by being able to convert
+heat to “productive energy”. Unfortunately this machine, known as perpetuum mobile of the second kind,
+is forbidden by a fundamental law of the physics, the second law of thermodynamics.
+The laws of thermodynamics describe the transport of heat and work in thermodynamic processes.
+The first law states that energy can neither be created nor destroyed, it can only change forms. Therefore
+in an isolated system, the total energy remains the same in any process. Whereas the first law of thermodynamics describes simply the conservation of energy for a thermodynamic system, the second law
+makes a prediction about how the different forms of energy can be transformed into each other. There
+are many formulations of the second law of thermodynamics, but all are equivalent in the sense that each
+form of the second law logically implies every other form. A descriptive one was already given above.
+It is called the heat engine formulation by Lord Kelvin: It is impossible to convert heat completely into
+work in a cyclic process. With the introduction of the entropy by Clausius a mathematical description of
+the second law, the so-called Clausius inequality, was possible. It asserts that, for a system initially in a
+thermal state, the heat Q received by the system at temperature T cannot exceed the system’s change of
+entropy, ∆S, multiplied by the temperature,
+Q ≤ kB T ∆S,
+
+(8)
+
+where the equality sign holds for quasistatic, reversible processes.
+From Clausius’ inequality it is easy to derive Landauer’s principle [6]. Consider an isolated system
+with two stable states that are used to encode one bit of information (for instance a symmetric doublewell potential with high energy barrier). The system is initially in equilibrium at temperature T and the
+two states are occupied with equal probability. We reset the memory by first coupling it to the reservoir
+and then modulating the potential in order to bring the system with probability one into one of its states
+[7]. The von Neumann entropy of the system is hence ln 2 before the coupling to the reservoir and zero
+after complete erasure. From the Clausius inequality, we then find that the dissipated heat obeys
+Qdissipated = −Q ≥ −kB T ∆S = kB T ln 2.
+
+(9)
+
+This is Landauer’s erasure principle.
+
+4
+
+Violation of Clausius’ inequality
+
+Recently, there has been a revived interest in Landauer’s principle when applied to quantum systems. A
+number of publications [1, 2, 4, 3] have argued, using a model of a quantum Brownian oscillator inter2 Note, that if Martin generated heat in excess of the minimal heat of QMartin this would only reduce the shared information.
+erase
+However, the contrary is not true - Amy cannot increase the shared information by deliberately dumping more than the minimum
+Amy
+heat of Qerase !
+
+Landauer’s principle in the quantum domain
+
+16
+
+acting with a bath, that the second law of thermodynamics can be violated. For a thermodynamic process
+in which the oscillator’s mass is increased it was shown that the Clausius inequality is not fulfilled, i.e.
+Q 6≤ kB T ∆S, implying also that it would be possible to violate Landauer’s principle.
+Here is a short summary of the arguments leading to the violation. The starting point of investigation
+is the Hamiltonian of the oscillator with mass M and oscillation frequency ω ,
+Ho =
+
+p2
+M ω 2 q2
++
+.
+2M
+2
+
+(10)
+
+p and q are the momentum and position operators of the oscillator and they fulfil the commutation
+relations [q, p] = ih̄. When the oscillator is coupled to a bath the Hamiltonian will adopt the form
+H = Ho + Hb + Hob
+
+(11)
+
+where the Hb is the bath Hamiltonian and Hob (η ) describes the coupling parameterised by η between
+oscillator and bath3 . The equilibrium state of oscillator and bath at temperature T is given by
+
+ρob =
+
+− H
+
+e kB T
+− H
+
+,
+
+(12)
+
+tr[e kB T ]
+
+the quantum mechanical analogue of the Boltzmann distribution. Expectation values of the oscillator
+operators, Oo , are evaluated as hOo i = tr[Oo ρob ] = tro [Oo ρo ] where ρo = trb [ρob ] is the reduced state of
+the oscillator. The characteristics of the oscillator are its mean position and momentum
+hqi = 0 and
+
+hpi = 0,
+
+(13)
+
+hp2 i − hpi2 =: f2 (T, ω , M, η ),
+
+(14)
+
+and their variations,
+hq2 i − hqi2 =: f1 (T, ω , M, η ) and
+
+which are known functions of the temperature, the frequency and mass of the oscillator and the coupling
+strength between oscillator and bath (for details see [6]).
+The entropy of the oscillator can readily be expressed as a function of these moments,
+
+ 
+ 
+ 
+
+1
+1
+1
+1
+S(T, ω , M, η ) = v +
+ln v +
+− v−
+ln v −
+,
+(15)
+2
+2
+2
+2
+p
+where v = v(T, ω , M, η ) = f1 (T, ω , M, η ) f2 (T, ω , M, η )/h̄. Changing a thermodynamic parameter α
+from α0 to α1 implies the entropy change
+∆S
+
+(α )
+
+=
+
+Z α1
+α0
+
+dα
+
+dS
+.
+dα
+
+The heat that results from a change of the functions f1 and f2 with the parameter α is given by
+
+
+Z α1
+1 d f2 M ω 2 d f1
+(α )
+Q =
++
+dα
+.
+2M dα
+2 dα
+α0
+
+(16)
+
+(17)
+
+3 Details of the Hamiltonian and further calculation can be found in standard text books [15] as well as in the paper discussing
+the violation [1] and the paper resolving the paradox [6].
+
+J. Anders, S. Shabbir, S. Hilt & E. Lutz
+
+17
+
+Finally, when the thermodynamical process is considered in which the oscillator acquires mass, M0 →
+M1 > M0 , the entropy change and heat can be calculated straightforwardly [2, 6] with Eqs. (16) and (17).
+For low temperatures and strong coupling one finds, for this particular process,
+∆S(M) < 0
+
+Q(M) > 0,
+
+and
+
+(18)
+
+implying
+Q(M) 6≤ kB T ∆S(M) ,
+
+(19)
+
+clearly contradicting Clausius’ inequality [1, 2].
+
+5
+
+Resolution of the paradox
+
+This result is, given the connection between Clausius’ inequality, the second law of thermodynamics and
+Landauer’s principle, most discomforting! It would have dramatic, science-fiction like consequences
+for both, thermodynamics and quantum information theory, as it opens the possibility for the existence
+of heat engines that run just by converting heat into work and information sharing beyond the Holevo,
+no-cloning and no-signalling. The only requirement to harvest this unbelievable power would be to
+bring a quantum system into a strong coupling regime and to cool it to low temperatures. Then all
+these paradoxical processes could be run! So, something must be wrong [16]! How can we resolve this
+conundrum?
+Rechecking the mathematical steps leading to Eqs. (18) one can verify their correctness. However,
+the reasoning leading to the claim of the Clausius violation is flawed. The culprit in this argument is that
+the coupling between the oscillator and the equilibrating bath is not negligible, as commonly assumed.
+Indeed, the Clausius inequality assumes that the starting state of the parameter changing process under
+consideration is a thermal state. When the coupling between oscillator and bath is negligible, i.e. η → 0
+the reduced state of the oscillator, ρo is indeed thermal, i.e. it can be approximated as
+− Ho
+
+ρo (T ) ≈
+
+e kB T
+− Ho
+
+.
+
+(20)
+
+tr[e kB T ]
+These thermal states are characterised by state functions f1 and f2 that fulfil (approximately) the relations
+
+
+f2
+h̄
+h̄ω 2
+and
+coth
+≈ (M ω )2 .
+f1 f2 ≈
+(21)
+2
+2kB T
+f1
+However, when the coupling is strong, the reduced state, ρo , deviates from the thermal Gibbs form 20.
+The state is “squeezed” in the sense that the variance in position may be much smaller than usual at the
+expense of the momentum distribution.
+A consistent treatment of this situation must include the coupling between the oscillator and the bath
+[6]. The process of increasing the oscillator mass, considered above, is then evidently a two step process.
+To compute the entropy change and heat, we first consider the oscillator alone, in a thermal state, ρo (T ),
+at temperature T . Then it is coupled to the bath quantified by the coupling parameter η where now the
+entire system, oscillator and bath, is again in a thermal Gibbs state, ρob , at the same temperature T , while
+the reduced state of the oscillator is a non-thermal, squeezed state. Only then is the mass increased as
+the finally step. The entropy change and heat for this thermodynamically complete process are then
+∆S = ∆S(η ) + ∆S(M) ≥ 0 and
+
+Q = Q(η ) + Q(M) ≤ 0.
+
+(22)
+
+Landauer’s principle in the quantum domain
+
+18
+It can further be shown that for all parameter ranges it is
+Q ≤ kB T ∆S,
+
+(23)
+
+which resolves the paradox and re-establishes the validity of the Clausius inequality, and hence Landauer’s principle, in the quantum domain [6].
+
+6
+
+Discussion
+
+The lesson to be learnt from the paradoxical situation is that when correlations are strong (both classical
+and quantum), arguments and proofs that are based on thermodynamical calculations have to be carefully
+revised. Standard thermodynamics assumes that the correlations, between the system to be described
+and the equilibrating bath, scale with the surface area of the system and that this contribution is negliable
+compared to the volume of the system. This is not true in many situations! Small systems, such as
+a single oscillator, do clearly not obey this logic. Moreover, quantum correlations in realistic models
+will indeed show entanglement that scales with the surface area (known as area laws). However, the
+extraordinary strength of these particular correlations may still imply that their overall contribution scales
+with the volume of the system. In all these cases the correlations have to be treated explicitly and their
+thermodynamical value needs to be taken into account! Neglecting this will invariably result in erroneous
+conclusions and paradoxes.
+Acknowledgements: JA thanks the Royal Society (London) for support in form of a Dorothy
+Hodgkin Fellowship. This work was further supported by the Emmy Noether Program of the DFG
+(Contract LU1382/1-1) and the cluster of excellence Nanosystems Initiative Munich (NIM).
+
+References
+[1] A.E. Allahverdyan and T.M. Nieuwenhuizen (2000): Phys. Rev. Lett. 85, 1799.
+[2] A.E. Allahverdyan and T.M. Nieuwenhuizen (2001): Phys. Rev. E 64, 056117.
+[3] H.S. Leff and A.F. Rex (2003): Maxwell’s Demon 2, (IOP Publishing, Bristol).
+[4] C.H. Hörhammer and H. Büttner (2005): J. Phys. A 38, 7325.
+[5] M. B. Plenio (1999): Phys. Lett. A 263, 281.
+[6] S. Hilt, J. Anders, E. Lutz, S. Shabbir (2010): arXiv:1004.1599, available at http://arxiv.org/.
+[7] R. Landauer (1961): IBM J. Res. Dev. 5, 183, reprinted in [10].
+[8] R. Landauer (1988): Nature 355, 779.
+[9] E. Lubkin (1987): Int. J. Theo. Phys. 26, 523.
+[10] H.S. Leff and A.F. Rex (1990): Maxwell’s Demon: Entropy, Information, Computing (Adam Hilger, London).
+[11] http://en.wikipedia.org/wiki/Maxwell_demon
+[12] C.H. Bennett (1982): Int. J. Theor. Phys. 21, 905, reprinted in [10].
+[13] M. B. Plenio and V. Vitelli (2001): Contemp. Phys. 42, 25.
+[14] K. Maruyama, F. Nori, V. Vedral (2009): Rev. Mod. Phys. 81 , 23.
+[15] U. Weiss (1999): Quantum Dissipative Systems (World Scientific, Singapore).
+[16] G.W. Ford and R.F. O’Connell (2006): Phys. Rev. Lett. 96, 020402.
+
+

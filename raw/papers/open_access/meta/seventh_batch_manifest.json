@@ -1,0 +1,39 @@
+{
+  "batch_id": "wiki_processing_intake_2026_04_12_v7",
+  "created_on": "2026-04-12",
+  "purpose": "Seventh open-access download batch from the wiki-driven arXiv queue, focused on the process / relational / topos lane.",
+  "entries": [
+    {
+      "id": "1004.3561",
+      "title": "Topos Quantum Logic and Mixed States",
+      "source_url": "https://arxiv.org/pdf/1004.3561.pdf",
+      "pdf_path": "/Users/joshuaeisenhart/wiki/raw/papers/open_access/pdfs/1004.3561__topos_quantum_logic_mixed_states.pdf",
+      "text_path": "/Users/joshuaeisenhart/wiki/raw/papers/open_access/text/1004.3561__topos_quantum_logic_mixed_states.txt",
+      "domain": "process_relational_topos",
+      "owner_pages": [
+        "/Users/joshuaeisenhart/wiki/concepts/topos-quantum-mechanics-reference.md",
+        "/Users/joshuaeisenhart/wiki/concepts/process-philosophy-and-relational-physics.md",
+        "/Users/joshuaeisenhart/wiki/concepts/current-research-overlays.md"
+      ],
+      "admission_class": "support_tradition_only",
+      "current_repo_relation": "supports context-relative truth and mixed-state topos logic as a bounded support tradition, not a direct lower-loop theorem source.",
+      "status": "downloaded_and_text_extracted"
+    },
+    {
+      "id": "0712.4003",
+      "title": "Topos theory and neo-realist quantum theory",
+      "source_url": "https://arxiv.org/pdf/0712.4003.pdf",
+      "pdf_path": "/Users/joshuaeisenhart/wiki/raw/papers/open_access/pdfs/0712.4003__topos_theory_neo_realist_quantum_theory.pdf",
+      "text_path": "/Users/joshuaeisenhart/wiki/raw/papers/open_access/text/0712.4003__topos_theory_neo_realist_quantum_theory.txt",
+      "domain": "process_relational_topos",
+      "owner_pages": [
+        "/Users/joshuaeisenhart/wiki/concepts/process-philosophy-and-relational-physics.md",
+        "/Users/joshuaeisenhart/wiki/concepts/topos-quantum-mechanics-reference.md",
+        "/Users/joshuaeisenhart/wiki/concepts/current-research-overlays.md"
+      ],
+      "admission_class": "support_tradition_only",
+      "current_repo_relation": "supports the formal logic/context side of the relation-first lane without upgrading any ontology claim by itself.",
+      "status": "downloaded_and_text_extracted"
+    }
+  ]
+}

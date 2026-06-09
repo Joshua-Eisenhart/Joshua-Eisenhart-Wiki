@@ -1,0 +1,536 @@
+Distinct Quantum States Can Be Compatible with a Single State of Reality∗
+Peter G. Lewis,1, † David Jennings,1 Jonathan Barrett,2 and Terry Rudolph1
+
+arXiv:1201.6554v2 [quant-ph] 19 Nov 2012
+
+1
+
+Controlled Quantum Dynamics Theory Group, Imperial College London, London SW7 2AZ, United Kingdom
+2
+Department of Mathematics, Royal Holloway, University of London,
+Egham Hill, Egham TW20 0EX, United Kingdom
+(Dated: October 31, 2018)
+Perhaps the quantum state represents information about reality, and not reality directly. Wave
+function collapse is then possibly no more mysterious than a Bayesian update of a probability
+distribution given new data. We consider models for quantum systems with measurement outcomes
+determined by an underlying physical state of the system but where several quantum states are
+consistent with a single underlying state—i.e., probability distributions for distinct quantum states
+overlap. Significantly, we demonstrate by example that additional assumptions are always necessary
+to rule out such a model.
+
+Broadly speaking, physicists today view the quantum
+state in one of two ways: in correspondence with the
+real physical state of affairs or as representing only an
+agent’s knowledge or information about some aspect of
+the physical situation. The latter ‘epistemic’ viewpoint
+is primarily motivated by the obvious parallel between
+the quantum process of instantaneous wavefunction collapse, and the classical procedure of instantaneous updating of a probability distribution, both of which occur
+upon the acquisition of information regarding the outcome of a measurement process. The epistemic view has
+a long history of illustrious advocates [1–8]. In recent
+times a research programme has arisen aimed at not only
+philosophically justifying the epistemic view, but potentially deriving quantum theory from more primitive considerations about information and/or Bayesian reasoning
+[8–16].
+At least two versions of the epistemic view can be distinguished. One is operational: the quantum state represents information about which outcome will occur if a
+measurement is performed on the system. Measurement
+itself is treated as a primitive. The other is that the quantum state represents information about some underlying
+physical state of the system, where this underlying state
+need not be described by quantum theory.
+In his 1935 letter to Schrödinger, in an attempt to
+explain what he really meant in the EPR paper, Einstein
+writes [17, 18, p. 26]:
+But then for the same [real] state of [the
+system] there are two (in general arbitrarily
+many) equally justified Ψ, which contradicts
+the hypothesis of a one-to-one or complete
+
+∗ This article was published by the American Physical Society un-
+
+der the terms of the Creative Commons Attribution 3.0 License.
+Further distribution of this work must maintain attribution to the
+authors and the published article’s title, journal citation (PRL 109,
+150404 (2012)), and DOI (10.1103/PhysRevLett.109.150404).
+† Electronic address: 1@physics.org
+
+description of the real states.
+Einstein came to this conclusion, which he termed ‘incompleteness’ of the quantum state, using an argument
+based on what we now call (following Schrödinger [19])
+steering [20]. Note that the question he raises here is not
+whether there are multiple states of reality associated
+with a single wavefunction (one possible type of incompleteness), but rather whether there are multiple wavefunctions associated with a single real state. A natural
+way to understand this is as an expression of the second kind of epistemic view above—that a quantum state
+represents an agent’s information about an underlying
+reality, but is not part of that reality itself.
+Unfortunately, as shown later by Bell [37] Einstein’s
+specific argument for incompleteness was based on a false
+premise (locality). However, a question that stands on
+its own and is the topic of this article remains: is it even
+mathematically possible to find an embedding of quantum theory in some deeper theory where the quantum
+states are not always uniquely determined given the underlying physical state? Following [20], we refer to such
+a possibility as a ψ-epistemic interpretation of the quantum state.
+Recently, a no-go theorem was proven [21] showing
+that a ψ-epistemic interpretation is impossible. It is important to note that a key assumption of the argument
+is preparation independence—situations where quantum
+theory assigns independent product states are presumed
+to be completely describable by independently combining the two purportedly deeper descriptions for each system. Here, we will show via explicit constructions that
+without this assumption, ψ-epistemic models can be constructed with all quantum predictions retained. Hence,
+we show that not only is the ‘preparation independence’
+assumption of that particular no-go theorem necessary,
+but also any similar no-go theorem will require non-trivial
+assumptions beyond those required for a well-formed ontological model.
+One of the most compelling motivations for exploring
+the ψ-epistemic view is the amazing range of phenom-
+
+2
+
+ena, normally considered uniquely quantum, that can be
+derived by imposing only a simple principle restricting
+an agent’s knowledge about a presumed underlying reality [8, 22, 23]. It is clear that the primary reason these
+theories do manage to reproduce so many quantum-like
+phenomena is that the states of knowledge (probability
+distributions) overlap on a non-trivial subset of the underlying space of ‘hidden’ states, even when the agent’s
+knowledge is maximal (the equivalent of a quantum pure
+state).
+These toy theories do not, however, reproduce all
+quantum states and measurement statistics. About such
+theories which do reproduce all of quantum theory much
+less is known—the main examples and constraints are
+outlined in [24]. In [25] Hardy showed that the underlying mathematical space of real states on which such
+theories are defined—the ‘ontic state’ space—must have
+cardinality at least that of the integers. Spekkens [26]
+showed the models must be preparation contextual in addition to measurement contextual [27]. The manifold dimension of the ontic state space was shown by Montina
+[28] to be necessarily exponential assuming that the dynamics of the ontic states is Markovian; he then went
+on to show the intriguing result that it is possible to reduce the manifold dimension by one [29, 30]. This latter
+construction results in probability distributions that intersect in the ontic state space, however they do so only
+on a set of measure 0. The question of economic representation of finite data in such models [15, 31–33] has
+also received some attention.
+In another pair of recent works [34, 35], Colbeck and
+Renner have argued that, given additional assumptions
+of experimenters’ free choice in choosing measurement
+settings and no superluminal signaling of the choice at
+the ontic level, the ontic states must be in one-to-one
+correspondence with the quantum states. The models
+of the present Letter are explicitly constructed for single
+systems only and, if applied to systems composed of multiple separated subsystems, would involve superluminal
+influences of measurement choices upon ontic variables.
+Hence, our results are consistent with those of [34, 35].
+Formal statement of the problem.–Following [20], an
+ontological model for a quantum system defines a measure
+space Λ, the elements λ of which are termed ontic states.
+These should be thought of as the underlying physical
+states that a system can be in at a given time. A pure
+quantum state |ψi corresponds to an equivalence class
+of experimental preparations, and is represented within
+an ontological model as a probability distribution µψ (λ)
+over Λ. The distribution µψ is called an epistemic state.
+It represents the information that an agent has about
+the ontic state of a system, given that it was prepared
+in a particular way. Dynamics correspond to trajectories of ontic states through Λ, and these map to dynamical changes in the probability distributions over Λ.
+This setting includes the standard Hilbert space description through the trivial assignment of Λ as the complex
+
+Λ
+
+Λ
+Supp (µφ )
+
+E
+
+@
+R
+@
+
+@
+R
+@
+Supp (µψ )
+
+FIG. 1: Schematic of two ontic state spaces in different ontological models. The supports of epistemic states associated
+with four quantum states are shown. In (a) each ontic state
+is in the support of the epistemic state for at most one ψ: the
+model is ψ-ontic. In (b) those ontic states in the highlighted
+‘epistemic region’ E on the right do not uniquely identify a
+quantum state, and could result from either of the associated
+preparation procedures: the model is ψ-epistemic.
+
+projective space CP d−1 (the boundary of the quantum
+state space), and µψ (λ) being a delta-function distribution centred at λ = |ψihψ| [36]. It is for this reason the
+term ‘ontic’ is used—as opposed to ‘hidden’, for example.
+Throughout, we shall consider only projective measurements on a finite d-dimensional quantum system, described as a string of rank-1
+P projectors Φ =
+{|φ0 ihφ0 |, · · · , |φd−1 ihφd−1 |}, where k |φk ihφk | = 1. If
+a measurement is performed, the probabilities for different outcomes are defined by the ontic state λ of the system. Hence each measurement is associated with a set of
+d response functions {ξφk : Λ → [0, 1]}, where ξφk (λ) is
+the probability of obtaining the outcome |φk ihφk | when
+the ontic state of the system is λ. The response functions
+are positive semi-definite and normalized so that
+P
+k ξφk (λ) = 1, ∀λ. If the ξφk (λ) take values only in {0, 1}
+the model is deterministic. By the Kochen-Specker theorem [27], a deterministic ontological model for a quantum
+system must be measurement contextual [24] if the system has dimension d ≥ 3. This means that the response
+function ξφk depends on the complete set of co-measured
+projectors in Φ. We do not indicate this dependence for
+notational simplicity.
+An ontological model is successful in explaining quantum measurement statistics for measurement Φ and
+preparation |ψi if and only if it is the case that ∀k:
+Z
+Z
+ξφk (λ)dµψ =
+µψ (λ)ξφk (λ)dλ = |hφk |ψi|2 .
+(1)
+Λ
+
+Λ
+
+With these basic ingredients in place, an ontological
+model is ψ-epistemic if at least two distinct quantum
+states |ψ1 i and |ψ2 i are described by distributions µψ1
+and µψ2 such that the intersection of their supports has
+non-zero measure, shown schematically in Fig. 1. An
+ontological model is ψ-ontic otherwise [20, 26]. The idea
+
+3
+
+here is that in a ψ-ontic model, the quantum state is
+uniquely determined by the ontic state λ, since for any
+λ, there is only one |ψi such that λ is contained in the
+support of µψ . In this case, although the quantum state
+|ψi plays an epistemic role in defining a distribution µψ ,
+the quantum state is also a function of the ontic state,
+hence can justifiably be thought of as a physical property
+of the system. Informally, the whole of the quantum state
+|ψi is ‘written into’ the real state of affairs.
+In a ψ-epistemic model, on the other hand, there are
+at least some circumstances in which two different quantum states describe systems in the same ontic state λ. In
+this case, it is defensible to claim that the quantum state
+‘merely’ represents an agent’s information. A stronger
+definition of the term ψ-epistemic would require that for
+any non-orthogonal states, |ψ1 i and |ψ2 i, the distributions µψ1 and µψ2 overlap. In this Letter, we stick with
+the weaker definition above.
+The original Bell model.–As a counterexample to ‘vonNeumann’s silly assumption’ Bell [37] described a simple
+ontological model capable of describing a quantum system of dimension d. The ontic state space consists of
+pairs (|λi, x), where |λi is an element of CP d−1 and x
+is an element of the interval [0, 1]. For the moment consider d = 2. The ontic state space is then isomorphic to
+Λ = S 2 × [0, 1], where S 2 is the two-dimensional Bloch
+sphere. The quantum state |ψi corresponds to a distribution µψ (λ̂, x) = δ(λ̂ − ψ̂), where the convention here,
+and in what follows, is to denote the unit Bloch vector
+associated to |ψi as ψ̂. This choice of distribution is uniform over the subset {(ψ̂, x) : 0 ≤ x ≤ 1}. The model is
+deterministic, with response functions given by
+
+
+ξφk (λ̂, x) = Θ (|hλ|φ0 i|2 − x)(−1)k ,
+(2)
+where Θ is the Heaviside step function. For a projective
+measurement outcome |φihφ| and a quantum state |ψi,
+the Born rule is satisfied since
+Z
+dλ̂dx µψ (λ̂, x)ξφ (λ̂, x) = |hψ|φi|2 .
+(3)
+Note—as Bell did—that there are many possible
+choices for the response functions that would work
+equally well. The only requirement is that the support
+over the subset {(λ̂, x) : 0 ≤ x ≤ 1} has measure equal
+to the probability occurring in the Born rule; how this
+support is distributed is entirely arbitrary.
+A ψ-epistemic modification of the Bell model for a
+qubit.–The Bell model is ψ-ontic, since no two epistemic
+states, corresponding to distinct quantum states, overlap.
+A different ontological model for qubit systems was described by Kochen and Specker [27], which is ψ-epistemic.
+To date, however, no one has extended Kochen and
+Specker’s model to systems of higher dimension than two
+[38]. This section shows how the Bell model can be modified in order to obtain a ψ-epistemic model for qubits.
+Later, this model is extended to obtain a ψ-epistemic
+model for quantum systems of arbitrary finite dimension.
+
+Supp (ξφ0 )
+ψ̂
+
+φ̂0
+
+E0
+
+R0
+
+ψ̂
+
+φ̂1
+Supp (ξφ1 )
+(a)
+
+E1
+
+R1
+
+(b)
+
+FIG. 2: (a) Unmodified Bell model ontic state space along
+with supports of a response function for outcome φˆ0 (green),
+φˆ1 (blue) and epistemic state µψ (red line). The inner circle
+is the surface of the Bloch sphere, the dashed line indicates it
+also corresponds to x = 0. The outer solid circle corresponds
+to x = 1. (b) Modified Bell model, showing the subsets E0
+and E1 . Any probability weight that µψ gives to ontic states
+within E0 can be redistributed over E0 .
+
+A simple visualization of the ontic state space Λ as an
+annulus with λ̂ specifying the direction, and x the radial
+distance is depicted in Fig. 2(a). Let ẑ correspond to the
+north pole of the Bloch sphere, and let λ̂ · ẑ = cos(θλ ),
+where θλ is the polar angle of the Bloch vector λ̂. Label
+the upper (θλ < π/2) hemisphere R0 and the lower (θλ >
+π/2) hemisphere R1 . Given a projective measurement
+Φ = {|φ0 ihφ0 |, |φ1 ihφ1 |}, assume that the outcomes are
+labelled such that |hφ0 |zi|2 ≥ |hφ1 |zi|2 .
+With response functions defined as in Eq. (2), the ontic
+states in the set
+n
+o
+E0 = (λ̂, x) : λ̂ ∈ R0 and 0 ≤ x < (1 − sin θλ )/2 (4)
+all result in the φ̂0 outcome for any measurement Φ. Similarly, those in the set
+n
+o
+E1 = (λ̂, x) : λ̂ ∈ R1 and (1 + sin θλ )/2 < x ≤ 1 (5)
+all result in the φ̂1 outcome. These sets are illustrated in
+Fig. 2(b).
+In order to construct a ψ-epistemic model, note that if
+an epistemic state µψ assigns non-zero probability to the
+subset E0 , then this much probability weight can be redistributed over E0 without changing the Born rule statistics. This is because ontic states in E0 behave identically to one another, as far as predictions for quantum
+measurement outcomes go. Similarly E1 . Hence define a
+modified Bell model such that for ψ̂ ∈ R0 ,
+
+
+1
+µψ (λ̂, x) = δ(λ̂ − ψ̂)Θ x − (1 − sin θψ )
+2
+1
++ (1 − sin θψ )µE0 (λ̂, x)
+2
+
+4
+
+where θψ is the polar angle of ψ̂, and µE0 is essentially
+arbitrary but can be taken to be the uniform distribution
+over E0 . A similar expression defines µψ for states with
+ψ̂ ∈ R1 .
+The modified Bell model still reproduces the Born rule,
+but now the model is ψ-epistemic. Any two quantum
+states in the same hemisphere are described by distributions that overlap, either in E0 or in E1 . The preparation
+of an ontic state from either of these regions does not
+reveal a unique quantum state, but only reveals in which
+hemisphere the quantum state resides.
+ψ-epistemic modification in higher dimensions.–Here,
+we modify the Bell model to produce a ψ-epistemic model
+for arbitrary finite dimension. The ontic state space for
+the d-dimensional Bell model is Λ = CP d−1 × [0, 1].
+The distribution corresponding to a quantum state |ψi
+is given by µψ (|λi, x) = δ(|λi − |ψi). Response functions
+for a measurement Φ are defined such that ξφk has support of length |hφk |λi|2 on the line segment {(|λi, x) : 0 ≤
+x ≤ 1}. Up to this constraint the response functions are
+arbitrary. This model is ψ-ontic since the delta functions
+do not overlap for distinct |ψi.
+In order to construct a ψ-epistemic model, fix an arbitrary preferred state |0i. For each measurement Φ, assume that the outcomes are ordered such that |hφ0 |0i|2 ≥
+|hφ1 |0i|2 ≥ · · · ≥ |hφd−1 |0i|2 . Fix the response functions
+so that
+ξφk (|λi, x) = 1
+
+if
+
+k−1
+X
+
+2
+
+|hλ|φi i| ≤ x <
+
+i=0
+
+k
+X
+
+|hλ|φi i|2
+
+i=0
+
+(6)
+and
+ξφk (|λi, x) = 0
+
+otherwise.
+
+(7)
+
+Pk−1
+2
+In Equation (6),
+i=1 |hλ|φi i| is taken to be 0 when
+k = 0. For completeness, let us specify that for x = 1,
+ξφk (|λi, x) = 1 iff k = d − 1.
+Now the aim is to define a subset E0 of Λ, such that
+ontic states in E0 predict the same outcomes for all measurements. To this end, note that |hφ0 |0i|2 ≥ 1/d. Given
+this, it is easy to show that if |hλ|0i|2 > d−1
+d , then
+|hφ0 |λi|2 > 0. For arbitrary |χi, let
+z(|χi) =
+
+inf
+
+|φi:|hφ|0i|2 ≥1/d
+
+|hφ|χi|2 ,
+
+(8)
+
+where an explicit expression is easily found but not
+needed. Define
+
+
+d−1
+2
+E0 = (|λi, x) : |hλ|0i| >
+and 0 ≤ x < z(|λi) .
+d
+(9)
+Any ontic state λ ∈ E0 has the property that whatever
+measurement is performed, the outcome is |φ0 ihφ0 |. The
+epistemic states can therefore be modified as above to
+produce a ψ-epistemic model. Informally, the idea is the
+
+same: any probability that µψ assigns to ontic states
+within the set E0 can be redistributed over the whole of E0
+without changing Born rule statistics. More specifically,
+when |hψ|0i|2 ≤ (d − 1)/d, let
+µψ (|λi, x) = δ(|λi − |ψi),
+
+(10)
+
+and when |hψ|0i|2 > (d − 1)/d, let
+µψ (|λi, x) = δ(|λi − |ψi)Θ(x − z(|ψi)) + z(|ψi)µE0 (|λi, x),
+(11)
+where, as above, µE0 is arbitrary but could be taken to
+be the uniform distribution over E0 .
+This model is clearly very contrived. A degree of symmetry could be restored by postulating a preferred basis
+|0i, . . . , |d − 1i, instead of a preferred state. If |hλ|ji|2 >
+(d − 1)/d for some j, then relabel measurement outcomes
+such that |hφ0 |ji|2 ≥ |hφ1 |ji|2 ≥ · · · ≥ |hφd−1 |ji|2 . In this
+case |hφ0 |λi|2 > 0, and sets Ej can be defined in analogy
+with E0 above. For any state |ψi with |hψ|ji|2 > (d−1)/d,
+any probability assigned to ontic states within Ej can be
+redistributed over Ej . This results in a model that is
+‘more epistemic’ than the one above. It is an open question whether more natural models can be found.
+Discussion.–Our results are particularly pertinent
+given the recent no-go theorem of [21]. The theorem
+shows that it is not possible to construct ψ-epistemic
+models of quantum theory, given an assumption that
+independent preparations produce uncorrelated ontic
+states. The present Letter shows that ψ-epistemic models
+are possible if that assumption is given up. None of these
+models is intuitive or motivated by physical principles
+or considerations. The primary motivation for exploring
+the possibility of ψ-epistemic models is to understand the
+formal limitations of reproducing quantum theory from
+a deeper theory.
+Such models may also play a useful role in other areas
+of quantum information. The remarkable protocols of
+Toner and Bacon [39] for recovering the bipartite measurement statistics of a singlet state and classical simulation of teleportation—using only one and two bits
+(respectively) of classical communication—make use of
+shared randomness in a way that lets the problem be recast in terms of correlated single qubit ontological models
+that are ψ-epistemic. A related result has been obtained
+by Montina [40], who has also put bounds on the classical
+simulation cost for an arbitrary number of qubits.
+There remain many open questions. In the models
+presented, it is not the case that µψ has non-zero overlap
+with µφ for any pair of non-orthogonal quantum states
+|ψi and |φi. Hence the models do not satisfy the stronger
+definition of ψ-epistemic suggested above. It would be
+interesting to establish whether such models exist. (Scott
+Aaronson has recently combined some of the ideas that
+were presented in a preprint version of this article with
+those of George Lowther to answer this question in the
+affirmative; see [42].)
+The authors gratefully acknowledge support from the
+Engineering and Physical Sciences Research Council
+
+5
+
+(P.G.L., J.B., and T.R.), the Leverhulme Foundation
+
+[1] A. Einstein, B. Podolsky, and N. Rosen, Physical Review
+47, 777 (1935).
+[2] K. R. Popper, in Quantum Theory and Reality, edited by
+M. Bunge (Springer, 1967), chap. 1.
+[3] L. E. Ballentine, Rev. Mod. Phys. 42, 358 (1970).
+[4] R. E. Peierls, Surprises in Theoretical Physics (Princeton
+Universtiy Press, 1979), p. 32.
+[5] E. T. Jaynes, Foundations of Radiation Theory and
+Quantum Electrodynamics (Plenum, 1980).
+[6] A. Zeilinger, Physics Today 52, 2 (1999).
+[7] C. M. Caves, C. A. Fuchs, and R. Schack, Phys. Rev. A
+65, 022305 (2002).
+[8] R. W. Spekkens, Phys. Rev. A, 75, 032110 (2007).
+[9] Č. Brukner and A. Zeilinger, Phys. Rev. A, 63, 022113
+(2001).
+[10] C. A. Fuchs, “QBism, the Perimeter of Quantum
+Bayesianism,” (2010), arXiv:1003.5209 [quant-ph].
+[11] M. S. Leifer, Phys. Rev. A, 74, 042310 (2006),
+arXiv:quant-ph/0606022.
+[12] M. S. Leifer and R. W. Spekkens, “Formulating quantum theory as a causally neutral theory of Bayesian inference,” (2011), arXiv:1107.5849 [quant-ph].
+[13] M. S. Leifer and R. W. Spekkens, “A Bayesian approach
+to compatibility, improvement, and pooling of quantum
+states,” (2011), arXiv:1110.1085 [quant-ph].
+[14] H. Barnum and A. Wilce, “Information processing in
+convex operational theories,” (2009), arXiv:0908.2352
+[quant-ph] .
+[15] L. Hardy, “Quantum theory from five reasonable axioms,” (2001), arXiv:quant-ph/0101012.
+[16] J. Barrett, Phys. Rev. A, 75, 032304 (2007).
+[17] A. Einstein, Unpublished letter to E. Schrödinger, 19th
+June 1935, EA 22-047.
+[18] D. Howard, “Revising the Einstein-Bohr dialogue,” online <http://www.nd.edu/∼dhoward1/Revisiting the
+Einstein-Bohr Dialogue.pdf> (2006).
+[19] E. Schrödinger, Proc. Cambridge Phil. Soc., 31 (1935).
+[20] N. Harrigan and R. Spekkens, Foundations of Physics,
+40, 125 (2010), ISSN 0015-9018, dOI: 10.1007/s10701009-9347-0.
+[21] M. F. Pusey, J. Barrett, and T. Rudolph, Nat Phys advance online publication (2012), 10.1038/nphys2309.
+[22] L. Hardy, “Disentangling nonlocality and teleportation,”
+
+(T.R.) and the Royal Comission for the Exhibition of
+1851 (D.J.).
+
+(1999), arXiv:quant-ph/9906123.
+[23] S. D. Bartlett, T. Rudolph, and R. W. Spekkens, “Reconstruction of Gaussian quantum mechanics from Liouville mechanics with an epistemic restriction,” (2011),
+arXiv:1111.5057 [quant-ph].
+[24] N. Harrigan and T. Rudolph,
+“Ontological models and the interpretation of contextuality,” (2007),
+arXiv:0709.4266 [quant-ph].
+[25] L. Hardy, Studies In History and Philosophy of Science
+Part B: Studies In History and Philosophy of Modern
+Physics, 35, 267 (2004), ISSN 1355-2198.
+[26] R. W. Spekkens, Phys. Rev. A, 71, 052108 (2005).
+[27] S. Kochen and E. P. Specker, Journal of Mathematics
+and Mechanics, 17, 59 (1967).
+[28] A. Montina, Phys. Rev. A, 77, 022104 (2008).
+[29] A. Montina, Physics Letters A, 375, 1385 (2011), ISSN
+0375-9601.
+[30] A. Montina, Phys. Rev. A, 83, 032107 (2011).
+[31] E. F. Galvão, Phys. Rev. A, 80, 022106 (2009).
+[32] B. Dakić, M. Šuvakov, T. Paterek, and Č. Brukner,
+Phys. Rev. Lett., 101, 190402 (2008).
+[33] S. Wehner, M. Christandl, and A. C. Doherty, Phys.
+Rev. A, 78, 062112 (2008).
+[34] R. Colbeck and R. Renner, Nat. Commun. 2, 411 (2011).
+[35] R. Colbeck and R. Renner, “Is a system’s wave function
+in one-to-one correspondence with its elements of reality?” (2011), arXiv:1111.6597 [quant-ph] .
+[36] E. G. Beltrametti and S. Bugajski, Journal of Physics A:
+Mathematical and General, 28, 3329 (1995).
+[37] J. S. Bell, Rev. Mod. Phys., 38, 447 (1966).
+[38] T. Rudolph, “Ontological Models for Quantum Mechanics and the Kochen-Specker theorem,” (2006),
+arXiv:quant-ph/0608120v1.
+[39] B. F. Toner and D. Bacon, Phys. Rev. Lett., 91, 187904
+(2003).
+[40] A. Montina, Phys. Rev. A, 84, 042307 (2011).
+[41] R. F. Werner, Phys. Rev. A, 40, 4277 (1989).
+[42] S.
+Aaronson
+and
+G.
+Lowther,
+http://mathoverflow.net/questions/95537/psiepistemic-theories-in-3-or-more-dimensions (2012).
+
+

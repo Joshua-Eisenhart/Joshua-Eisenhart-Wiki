@@ -1,0 +1,139 @@
+{
+  "batch_id": "wiki_processing_intake_2026_04_10_v1",
+  "created_on": "2026-04-10",
+  "purpose": "Downloaded open-access research sources for wiki processing. These are intake artifacts, not canonical truth.",
+  "entries": [
+    {
+      "id": "1006.1420",
+      "title": "Landauer's principle in the quantum domain",
+      "source_url": "https://arxiv.org/pdf/1006.1420.pdf",
+      "pdf_path": "/Users/joshuaeisenhart/wiki/raw/papers/open_access/pdfs/1006.1420__landauer_strong_coupling.pdf",
+      "text_path": "/Users/joshuaeisenhart/wiki/raw/papers/open_access/text/1006.1420__landauer_strong_coupling.txt",
+      "domain": "stochastic_thermodynamics",
+      "owner_pages": [
+        "/Users/joshuaeisenhart/wiki/concepts/stochastic-thermodynamics-reference.md",
+        "/Users/joshuaeisenhart/wiki/concepts/probe-doc-result-map.md"
+      ],
+      "admission_class": "research_support",
+      "current_repo_relation": "supports the strong-coupling Landauer bookkeeping row already present in sim_qit_strong_coupling_landauer.py",
+      "status": "downloaded_and_text_extracted"
+    },
+    {
+      "id": "2207.05221",
+      "title": "Language Models (Mostly) Know What They Know",
+      "source_url": "https://arxiv.org/pdf/2207.05221.pdf",
+      "pdf_path": "/Users/joshuaeisenhart/wiki/raw/papers/open_access/pdfs/2207.05221__models_know_what_they_know.pdf",
+      "text_path": "/Users/joshuaeisenhart/wiki/raw/papers/open_access/text/2207.05221__models_know_what_they_know.txt",
+      "domain": "llm_failure_modes",
+      "owner_pages": [
+        "/Users/joshuaeisenhart/wiki/concepts/llm-bias-and-failure-modes-reference.md",
+        "/Users/joshuaeisenhart/wiki/concepts/llm-bias-inversion-rules.md"
+      ],
+      "admission_class": "research_support",
+      "current_repo_relation": "supports calibration and self-knowledge notes in the LLM harness stack",
+      "status": "downloaded_and_text_extracted"
+    },
+    {
+      "id": "2212.03551",
+      "title": "Talking About Large Language Models",
+      "source_url": "https://arxiv.org/pdf/2212.03551.pdf",
+      "pdf_path": "/Users/joshuaeisenhart/wiki/raw/papers/open_access/pdfs/2212.03551__talking_about_llms.pdf",
+      "text_path": "/Users/joshuaeisenhart/wiki/raw/papers/open_access/text/2212.03551__talking_about_llms.txt",
+      "domain": "llm_failure_modes",
+      "owner_pages": [
+        "/Users/joshuaeisenhart/wiki/concepts/llm-bias-and-failure-modes-reference.md",
+        "/Users/joshuaeisenhart/wiki/concepts/llm-constraint-harness-wiki.md"
+      ],
+      "admission_class": "research_support",
+      "current_repo_relation": "supports language-model framing cautions and anti-anthropomorphic harness wording",
+      "status": "downloaded_and_text_extracted"
+    },
+    {
+      "id": "2212.09251",
+      "title": "Discovering Language Model Behaviors with Model-Written Evaluations",
+      "source_url": "https://arxiv.org/pdf/2212.09251.pdf",
+      "pdf_path": "/Users/joshuaeisenhart/wiki/raw/papers/open_access/pdfs/2212.09251__model_written_evals.pdf",
+      "text_path": "/Users/joshuaeisenhart/wiki/raw/papers/open_access/text/2212.09251__model_written_evals.txt",
+      "domain": "llm_failure_modes",
+      "owner_pages": [
+        "/Users/joshuaeisenhart/wiki/concepts/llm-bias-and-failure-modes-reference.md",
+        "/Users/joshuaeisenhart/wiki/concepts/codex-audit-controller-contract.md"
+      ],
+      "admission_class": "research_support",
+      "current_repo_relation": "supports model-written-eval style behavioral discovery and controller-grade audit loops",
+      "status": "downloaded_and_text_extracted"
+    },
+    {
+      "id": "2305.04388",
+      "title": "Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting",
+      "source_url": "https://arxiv.org/pdf/2305.04388.pdf",
+      "pdf_path": "/Users/joshuaeisenhart/wiki/raw/papers/open_access/pdfs/2305.04388__unfaithful_cot.pdf",
+      "text_path": "/Users/joshuaeisenhart/wiki/raw/papers/open_access/text/2305.04388__unfaithful_cot.txt",
+      "domain": "llm_failure_modes",
+      "owner_pages": [
+        "/Users/joshuaeisenhart/wiki/concepts/llm-bias-and-failure-modes-reference.md",
+        "/Users/joshuaeisenhart/wiki/concepts/llm-bias-inversion-rules.md"
+      ],
+      "admission_class": "research_support",
+      "current_repo_relation": "supports narrative-smoothing and chain-of-thought-faithfulness cautions in the harness",
+      "status": "downloaded_and_text_extracted"
+    },
+    {
+      "id": "quant-ph/0406166",
+      "title": "Contextuality for preparations, transformations and unsharp measurements",
+      "source_url": "https://arxiv.org/pdf/quant-ph/0406166.pdf",
+      "pdf_path": "/Users/joshuaeisenhart/wiki/raw/papers/open_access/pdfs/quant-ph_0406166__spekkens_contextuality.pdf",
+      "text_path": "/Users/joshuaeisenhart/wiki/raw/papers/open_access/text/quant-ph_0406166__spekkens_contextuality.txt",
+      "domain": "distinguishability_and_operational_equivalence",
+      "owner_pages": [
+        "/Users/joshuaeisenhart/wiki/concepts/distinguishability-formal-reference.md",
+        "/Users/joshuaeisenhart/wiki/concepts/constraint-on-distinguishability-formal-reference.md",
+        "/Users/joshuaeisenhart/wiki/concepts/operationalism-and-measurement-reference.md"
+      ],
+      "admission_class": "research_support",
+      "current_repo_relation": "supports operational equivalence, preparation contextuality, and probe-relative identity routing",
+      "status": "downloaded_and_text_extracted"
+    },
+    {
+      "id": "1201.6554",
+      "title": "Distinct Quantum States Can Be Compatible with a Single State of Reality",
+      "source_url": "https://arxiv.org/pdf/1201.6554.pdf",
+      "pdf_path": "/Users/joshuaeisenhart/wiki/raw/papers/open_access/pdfs/1201.6554__pbr_quantum_state_reality.pdf",
+      "text_path": "/Users/joshuaeisenhart/wiki/raw/papers/open_access/text/1201.6554__pbr_quantum_state_reality.txt",
+      "domain": "distinguishability_and_state_reality",
+      "owner_pages": [
+        "/Users/joshuaeisenhart/wiki/concepts/distinguishability-formal-reference.md",
+        "/Users/joshuaeisenhart/wiki/concepts/constraint-on-distinguishability-formal-reference.md"
+      ],
+      "admission_class": "research_support",
+      "current_repo_relation": "supports the wiki's handling of operational equivalence and the limits of psi-epistemic overlap claims",
+      "status": "downloaded_and_text_extracted"
+    },
+    {
+      "id": "1906.10184",
+      "title": "A Free Energy Principle for a Particular Physics",
+      "source_url": "https://arxiv.org/pdf/1906.10184.pdf",
+      "pdf_path": "/Users/joshuaeisenhart/wiki/raw/papers/open_access/pdfs/1906.10184__friston_particular_physics.pdf",
+      "text_path": "/Users/joshuaeisenhart/wiki/raw/papers/open_access/text/1906.10184__friston_particular_physics.txt",
+      "domain": "fep_and_active_inference",
+      "owner_pages": [
+        "/Users/joshuaeisenhart/wiki/concepts/fep-and-active-inference-reference.md",
+        "/Users/joshuaeisenhart/wiki/concepts/current-research-overlays.md"
+      ],
+      "admission_class": "support_tradition_only",
+      "current_repo_relation": "supports the FEP bridge as a comparison tradition only; it does not upgrade live repo truth beyond bounded predictive-world-model evidence",
+      "status": "downloaded_and_text_extracted"
+    }
+  ],
+  "not_included_yet": {
+    "reason": "Books and likely paywalled sources need citation-only stubs or a separate sourcing pass.",
+    "examples": [
+      "Aubin 1991 Viability Theory",
+      "Amari and Nagaoka 2000 Methods of Information Geometry",
+      "Wilde 2017 Quantum Information Theory",
+      "Watrous 2018 The Theory of Quantum Information",
+      "Milnor 1985 On the Concept of Attractor",
+      "Baier, Hermanns, Katoen 2008 Principles of Model Checking"
+    ]
+  }
+}

@@ -1,3 +1,10 @@
+## 2026-06-08 - Wiki raw source bucket local git commit
+
+- Added `raw/` to local git as its own source-material bucket.
+- Pre-scan receipt: `/tmp/wiki_git_bucket_raw_20260609.json`. Observed `373` files / `43.41 MB`; largest sub-buckets are `raw/papers/open_access`, `raw/articles/system-v5-reference-docs`, `raw/articles/legacy-books`, and `raw/articles/new-docs`.
+- Conservative token/private-key scan over text-like files found `0` high-confidence secret-pattern hits and `0` suspicious secret filenames. `53` binary files such as PDFs/PNGs/ZIPs were file-name/size-classified but not content-scanned.
+- Scope still excludes the corrupt root backup and ignored cache/workspace files. No remote is configured; no push was attempted.
+
 ## 2026-06-08 - Wiki Wizard harness local git commit
 
 - Added `wizard/` to local git as its own large harness bucket.

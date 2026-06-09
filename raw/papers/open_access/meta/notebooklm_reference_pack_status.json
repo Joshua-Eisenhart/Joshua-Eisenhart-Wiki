@@ -1,0 +1,739 @@
+{
+  "pack_id": "notebooklm_reference_pack_2026_04_10_v1",
+  "created_on": "2026-04-10",
+  "purpose": "Full NotebookLM bibliography routed into the wiki-processing intake lane. Open-access items are downloaded where available; books and unsourced/paywalled items remain citation-only.",
+  "status_legend": {
+    "downloaded_and_text_extracted": "PDF downloaded into intake/pdfs and extracted into intake/text",
+    "citation_only_unsourced": "Tracked for wiki routing but not downloaded in this intake pass"
+  },
+  "domains": [
+    {
+      "domain": "distinguishability_resource_theory",
+      "owner_pages": [
+        "/Users/joshuaeisenhart/wiki/concepts/distinguishability-formal-reference.md",
+        "/Users/joshuaeisenhart/wiki/concepts/constraint-on-distinguishability-formal-reference.md",
+        "/Users/joshuaeisenhart/wiki/concepts/resource-theories-quantum-reference.md"
+      ],
+      "references": [
+        {
+          "citation": "Helstrom, C.W. (1976). Quantum Detection and Estimation Theory.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Holevo, A.S. (1973). Bounds for the quantity of information transmitted by a quantum communication channel.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Spekkens, R.W. (2005). Contextuality for preparations, transformations, and unsharp measurements.",
+          "status": "downloaded_and_text_extracted"
+        },
+        {
+          "citation": "Pusey, M.F., Barrett, J., & Rudolph, T. (2012). On the reality of the quantum state.",
+          "status": "downloaded_and_text_extracted"
+        },
+        {
+          "citation": "Blackwell, D. (1951, 1953). Comparison of Experiments.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Neyman, J., & Pearson, E.S. (1933). On the Problem of the Most Efficient Tests of Statistical Hypotheses.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Fisher, R.A. (1925). Theory of Statistical Estimation.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "\u010cencov, N.N. (1982). Statistical Decision Rules and Optimal Inference.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Wang, X., & Wilde, M.M. (2019). Resource Theory of Asymmetric Distinguishability.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Salzmann, R., et al. (2021). Symmetric distinguishability as a quantum resource.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Takagi, R., & Regula, B. (2019). General Resource Theories in Quantum Mechanics and Beyond: Operational Characterization via Discrimination Tasks.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Chitambar, E., & Gour, G. (2019). Quantum Resource Theories.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Brand\u00e3o, F.G.S.L., & Gour, G. (2015). Reversible Framework for Quantum Resource Theories.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Streltsov, A., Adesso, G., & Plenio, M.B. (2017). Quantum Coherence as a Resource.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Wang, X., & Wilde, M.M. (2019). Resource Theory of Asymmetric Distinguishability for Quantum Channels.",
+          "status": "downloaded_and_text_extracted"
+        },
+        {
+          "citation": "Renes, J.M. (2015). Relative submajorization and its use in quantum resource theories.",
+          "status": "downloaded_and_text_extracted"
+        }
+      ]
+    },
+    {
+      "domain": "information_geometry",
+      "owner_pages": [
+        "/Users/joshuaeisenhart/wiki/concepts/information-geometry-reference.md",
+        "/Users/joshuaeisenhart/wiki/concepts/distance-metrics-state-space.md"
+      ],
+      "references": [
+        {
+          "citation": "Amari, S., & Nagaoka, H. (2000/2007). Methods of Information Geometry.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Amari, S. (2016). Information Geometry and Its Applications.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Petz, D. (1996). Monotone metrics on matrix spaces.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Sivak, D.A., & Crooks, G.E. (2012). Thermodynamic Metrics and Optimal Paths.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Amari, S. (1998). Natural gradient works efficiently in learning.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Scandi, M., & Perarnau-Llobet, M. (2018). Thermodynamic length in open quantum systems.",
+          "status": "downloaded_and_text_extracted"
+        },
+        {
+          "citation": "Polettini, M. (2012). Stochastic Thermodynamics, Reversible Dynamical Systems and Information Theory.",
+          "status": "downloaded_and_text_extracted"
+        }
+      ]
+    },
+    {
+      "domain": "fiber_topology_spin_geometry",
+      "owner_pages": [
+        "/Users/joshuaeisenhart/wiki/concepts/fiber-bundles-and-spin-geometry-reference.md",
+        "/Users/joshuaeisenhart/wiki/concepts/formal-constraints-and-geometry.md"
+      ],
+      "references": [
+        {
+          "citation": "Steenrod, N. (1951). Topology of Fibre Bundles.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Milnor, J.W., & Stasheff, J.D. (1974). Characteristic Classes.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Berry, M.V. (1984). Quantal phase factors accompanying adiabatic changes.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Simon, B. (1983). Holonomy, the Quantum Adiabatic Theorem, and Berry's Phase.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Wilczek, F., & Zee, A. (1984). Appearance of Gauge Structure in Simple Dynamical Systems.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Hopf, H. (1931). \u00dcber die Abbildungen der dreidimensionalen Sph\u00e4re auf die Kugelfl\u00e4che.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Lawson, H.B., & Michelsohn, M.-L. (1989). Spin Geometry.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Nakahara, M. (2003). Geometry, Topology and Physics.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Frankel, T. (2011). The Geometry of Physics.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Geiges, H. (2008). An Introduction to Contact Topology.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Arnold, V.I. (1989). Mathematical Methods of Classical Mechanics.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Montgomery, R. (2002). A Tour of Subriemannian Geometries.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Mosseri, R., & Dandoloff, R. (2001). Geometry of entangled states, Bloch spheres and Hopf fibrations.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Bernevig, B.A., & Chen, H.-D. (2003). Two and Three Qubits Geometry and Hopf Fibrations.",
+          "status": "downloaded_and_text_extracted"
+        },
+        {
+          "citation": "Bliokh, K.Y., Bliokh, Y.P., Savel'ev, S., & Nori, F. (2005). Spin Hall effect and Berry phase of spinning particles.",
+          "status": "downloaded_and_text_extracted"
+        }
+      ]
+    },
+    {
+      "domain": "process_relational_topos",
+      "owner_pages": [
+        "/Users/joshuaeisenhart/wiki/concepts/process-philosophy-and-relational-physics.md",
+        "/Users/joshuaeisenhart/wiki/concepts/topos-quantum-mechanics-reference.md",
+        "/Users/joshuaeisenhart/wiki/concepts/current-research-overlays.md"
+      ],
+      "references": [
+        {
+          "citation": "Rovelli, C. (1996). Relational Quantum Mechanics.",
+          "status": "downloaded_and_text_extracted"
+        },
+        {
+          "citation": "Wheeler, J.A. (1989). Information, physics, quantum: The search for links (It from Bit).",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Zurek, W.H. (2003). Quantum Darwinism.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Abramsky, S., & Coecke, B. (2004). A categorical semantics of quantum protocols.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Tononi, G. (2004). An information integration theory of consciousness.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Chalmers, D.J. (1996). The Conscious Mind.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Whitehead, A.N. (1929). Process and Reality.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Ladyman, J., & Ross, D. (2007). Every Thing Must Go.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Isham, C.J., & Butterfield, J. (1998). A Topos Perspective on the Kochen-Specker Theorem.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "D\u00f6ring, A., & Isham, C.J. (2008). A Topos Foundation for Theories of Physics.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Heunen, C., Landsman, N.P., & Spitters, B. (2009). A Topos for Algebraic Quantum Theory.",
+          "status": "downloaded_and_text_extracted"
+        },
+        {
+          "citation": "D\u00f6ring, A., & Isham, C.J. (2010). Topos Quantum Logic and Mixed States.",
+          "status": "downloaded_and_text_extracted"
+        },
+        {
+          "citation": "Isham, C.J. (2007). Topos theory and neo-realist quantum theory.",
+          "status": "downloaded_and_text_extracted"
+        }
+      ]
+    },
+    {
+      "domain": "autopoiesis_fep",
+      "owner_pages": [
+        "/Users/joshuaeisenhart/wiki/concepts/autopoiesis-and-enactivism-reference.md",
+        "/Users/joshuaeisenhart/wiki/concepts/fep-and-active-inference-reference.md"
+      ],
+      "references": [
+        {
+          "citation": "Maturana, H.R., & Varela, F.J. (1980). Autopoiesis and Cognition.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Varela, F.J., Thompson, E., & Rosch, E. (1991). The Embodied Mind.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Di Paolo, E.A. (2005). Phenomenology and the Cognitive Sciences.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Moreno, A., & Mossio, M. (2015). Biological Autonomy.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Thompson, E. (2007). Mind in Life.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Mingers, J. (2002). Can Social Systems Be Autopoietic?",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Friston, K.J. (2010). The free-energy principle: a unified brain theory?",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Friston, K.J. (2019). A free energy principle for a particular physics.",
+          "status": "downloaded_and_text_extracted"
+        },
+        {
+          "citation": "Parr, T., Pezzulo, G., & Friston, K.J. (2022). Active Inference.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Ramstead, M.J.D., Kirchhoff, M.D., & Friston, K.J. (2020). Adaptive Behavior.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Kirchhoff, M.D., et al. (2018). Markov blankets of life.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Biehl, M., Pollock, F., & Kanai, R. (2021). The generalized free energy and active inference: can the math do the talking?",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Bruineberg, J., et al. The Emperor's New Markov Blankets.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Andrews, M. (2020). The math is not the territory: Navigating the Free Energy Principle.",
+          "status": "citation_only_unsourced"
+        }
+      ]
+    },
+    {
+      "domain": "attractors_viability",
+      "owner_pages": [
+        "/Users/joshuaeisenhart/wiki/concepts/attractor-basins-formal-reference.md",
+        "/Users/joshuaeisenhart/wiki/concepts/viability-theory-reference.md"
+      ],
+      "references": [
+        {
+          "citation": "Aubin, J.-P. (1991). Viability Theory.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Aubin, J.-P., & Cellina, A. (1984). Differential Inclusions.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Aubin, J.-P., Bayen, A., & Saint-Pierre, P. (2011). Viability Theory: New Directions.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Saint-Pierre, P. (1994). Approximation of the viability kernel.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "De Lara, M., & Doyen, L. (2010). Sustainable management of renewable resources.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Bene, C., Doyen, L., & Gabay, D. (2001). A viability analysis for a bio-economic model.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Nagumo, M. (1942). \u00dcber die Lage der Integralkurven gew\u00f6hnlicher Differentialgleichungen.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Milnor, J. (1985). On the Concept of Attractor.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Kauffman, S.A. (1993). The Origins of Order.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Freidlin, M.I., & Wentzell, A.D. (1984). Random Perturbations of Dynamical Systems.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Arnold, L. (1998). Random Dynamical Systems.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Strogatz, S.H. (2015). Nonlinear Dynamics and Chaos.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Bonneuil, N. (2021). Collective management of environmental commons with multiple usages: a guaranteed viability approach.",
+          "status": "downloaded_and_text_extracted"
+        },
+        {
+          "citation": "Young, L.-S. (2019). What attracts to attractors?.",
+          "status": "downloaded_and_text_extracted"
+        },
+        {
+          "citation": "Attractor Basins in Concurrent Systems (2024).",
+          "status": "downloaded_and_text_extracted"
+        }
+      ]
+    },
+    {
+      "domain": "evolutionary_darwinism",
+      "owner_pages": [
+        "/Users/joshuaeisenhart/wiki/concepts/evolutionary-epistemology-reference.md",
+        "/Users/joshuaeisenhart/wiki/concepts/current-research-overlays.md"
+      ],
+      "references": [
+        {
+          "citation": "Kimura, M. (1983). The Neutral Theory of Molecular Evolution.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Wagner, A. (2005). Robustness and Evolvability in Living Systems.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Kirschner, M., & Gerhart, J. (2007). The plausibility of life: Resolving Darwin's dilemma.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Maynard Smith, J., & Szathm\u00e1ry, E. (1995). The Major Transitions in Evolution.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Odling-Smee, F.J., Laland, K.N., & Feldman, M.W. (2003). Niche Construction.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Pigliucci, M., & M\u00fcller, G.B. (2010). Evolution, the Extended Synthesis.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Deutsch, D. (2013). Constructor Theory.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Marletto, C. (2015). Constructor Theory of Life.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Ewens, W.J. (2004). Mathematical Population Genetics.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Frank, S.A. (1995). George Price's contributions to evolutionary genetics.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Frank, S.A. (2012). Natural Selection. V. How to read the fundamental equations.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Kingman, J.F.C. (1982). The coalescent.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Nowak, M.A. (2006). Evolutionary Dynamics.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Page, K.M., & Nowak, M.A. (2002). Unifying Evolutionary Dynamics.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Price, G.R. (1970). Selection and Covariance.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Saakian, D.B., & Hu, C.-K. (2006). Exact solution of the Eigen model with general fitness functions.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Sella, G., & Hirsh, A.E. (2005). The application of statistical physics to evolutionary biology.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Wright, S. (1931). Evolution in Mendelian populations.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Harper, M. (2009). Information Geometry and Evolutionary Game Theory.",
+          "status": "downloaded_and_text_extracted"
+        },
+        {
+          "citation": "Deutsch, D., & Marletto, C. (2014). Constructor Theory of Information.",
+          "status": "downloaded_and_text_extracted"
+        }
+      ]
+    },
+    {
+      "domain": "stochastic_thermodynamics",
+      "owner_pages": [
+        "/Users/joshuaeisenhart/wiki/concepts/stochastic-thermodynamics-reference.md",
+        "/Users/joshuaeisenhart/wiki/concepts/qit-engine-proto-ratchet-and-sim-plan.md"
+      ],
+      "references": [
+        {
+          "citation": "Landauer's principle in the quantum domain",
+          "status": "downloaded_and_text_extracted"
+        },
+        {
+          "citation": "Seifert, U. (2012). Stochastic thermodynamics, fluctuation theorems and molecular machines.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Jarzynski, C. (2011). Equalities and Inequalities: Irreversibility and the Second Law of Thermodynamics at the Nanoscale.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Crooks, G.E. (1999). Entropy production fluctuation theorem.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Esposito, M., & Van den Broeck, C. (2010). Three Detailed Fluctuation Theorems.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Barato, A.C., & Seifert, U. (2015). Thermodynamic Uncertainty Relation for Biomolecular Processes.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Sagawa, T., & Ueda, M. (2010). Generalized Jarzynski Equality under Nonequilibrium Feedback Control.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "B\u00e9rut, A., et al. (2012). Experimental verification of Landauer's principle.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Liphardt, J., et al. (2002). Equilibrium information from nonequilibrium measurements in an experimental test of Jarzynski's equality.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Scandi, M., & Perarnau-Llobet, M. (2018). Thermodynamic length in open quantum systems.",
+          "status": "downloaded_and_text_extracted"
+        },
+        {
+          "citation": "Polettini, M. (2012). Stochastic Thermodynamics, Reversible Dynamical Systems and Information Theory.",
+          "status": "downloaded_and_text_extracted"
+        }
+      ]
+    },
+    {
+      "domain": "quantum_shannon_compression",
+      "owner_pages": [
+        "/Users/joshuaeisenhart/wiki/concepts/quantum-shannon-theory-reference.md",
+        "/Users/joshuaeisenhart/wiki/concepts/quantum-information-measures.md"
+      ],
+      "references": [
+        {
+          "citation": "Wilde, M.M. (2017). Quantum Information Theory, 2nd ed.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Watrous, J. (2018). The Theory of Quantum Information.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Preskill, J. Quantum Information and Computation (Caltech lecture notes).",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Hayden, P., & Winter, A. (2008). Counterexamples to the Maximal p-Norm Multiplicativity Conjecture.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Devetak, I., & Berger, T. (2005). Quantum Rate-Distortion Theory.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Datta, N., Renes, J.M., Renner, R., & Wilde, M.M. (2013). One-shot lossy quantum data compression.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Schumacher, B. (1995). Quantum coding.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Baik, J., Ben Arous, G., & Peche, S. (2005). Phase transition of the largest eigenvalue for non-null complex sample covariance matrices.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Candes, E.J., & Recht, B. (2009). Exact Matrix Completion via Convex Optimization.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Gilyen, A., Su, Y., Low, G.H., & Wiebe, N. (2019). Quantum singular value transformation and beyond.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Gross, D., Liu, Y.-K., Flammia, S.T., Becker, S., & Eisert, J. (2010). Quantum State Tomography via Compressed Sensing.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Johnstone, I.M. (2001). On the distribution of the largest eigenvalue in principal components analysis.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Lloyd, S., Mohseni, M., & Rebentrost, P. (2014). Quantum principal component analysis.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Marchenko, V.A., & Pastur, L.A. (1967). Distribution of eigenvalues for some sets of random matrices.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Recht, B., Fazel, M., & Parrilo, P.A. (2010). Guaranteed minimum-rank solutions of linear matrix equations.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Vidal, G. (2007). Entanglement Renormalization.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Voiculescu, D.V. (1997). Free Probability Theory.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "White, S.R. (1992). Density matrix formulation for quantum renormalization groups.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Jozsa, R., Horodecki, M., Horodecki, P., & Horodecki, R. (2002). Universal quantum information compression and variable-length coding.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Hayashi, M., & Matsumoto, K. (2002). Simple construction of quantum universal variable-length source coding.",
+          "status": "downloaded_and_text_extracted"
+        },
+        {
+          "citation": "Berta, M., Christandl, M., Renes, J.M., & Renner, R. (2015). Channel Simulation and Coded Source Compression.",
+          "status": "downloaded_and_text_extracted"
+        }
+      ]
+    },
+    {
+      "domain": "concurrency_trace_formal_methods",
+      "owner_pages": [
+        "/Users/joshuaeisenhart/wiki/concepts/concurrency-and-trace-theory-reference.md",
+        "/Users/joshuaeisenhart/wiki/concepts/formal-methods-and-witness-discipline-reference.md"
+      ],
+      "references": [
+        {
+          "citation": "Mazurkiewicz, A. (1986). Trace Theory.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Baier, C., Hermanns, H., & Katoen, J.-P. (2008). Principles of Model Checking.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "van Glabbeek, R.J. (2001). The Linear Time \u2014 Branching Time Spectrum.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Attractor Basins in Concurrent Systems (2024).",
+          "status": "downloaded_and_text_extracted"
+        }
+      ]
+    },
+    {
+      "domain": "llm_failure_modes",
+      "owner_pages": [
+        "/Users/joshuaeisenhart/wiki/concepts/llm-bias-and-failure-modes-reference.md",
+        "/Users/joshuaeisenhart/wiki/concepts/llm-ontology-smuggling-reference.md",
+        "/Users/joshuaeisenhart/wiki/concepts/llm-bias-inversion-rules.md"
+      ],
+      "references": [
+        {
+          "citation": "Bender, E.M., & Koller, A. (2020). Climbing Towards NLU: On Meaning, Form, and Understanding in the Age of Data.",
+          "status": "downloaded_and_text_extracted"
+        },
+        {
+          "citation": "Shanahan, M. (2022). Talking About Large Language Models.",
+          "status": "downloaded_and_text_extracted"
+        },
+        {
+          "citation": "Mitchell, M., & Krakauer, D.C. (2023). The Debate Over Understanding in AI's Large Language Models.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Milli\u00e8re, R. (2023). Language Models as Models of Language.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Perez, E., et al. (2022). Discovering Language Model Behaviors with Model-Written Evaluations.",
+          "status": "downloaded_and_text_extracted"
+        },
+        {
+          "citation": "Turpin, M., et al. (2023). Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting.",
+          "status": "downloaded_and_text_extracted"
+        },
+        {
+          "citation": "Sun, J., et al. (2024). Lost in the Middle: How Language Models Use Long Contexts.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Kadavath, S., et al. (2022). Language Models (Mostly) Know What They Know.",
+          "status": "downloaded_and_text_extracted"
+        }
+      ]
+    },
+    {
+      "domain": "chinese_philosophy",
+      "owner_pages": [
+        "/Users/joshuaeisenhart/wiki/concepts/chinese-philosophy-reference.md",
+        "/Users/joshuaeisenhart/wiki/concepts/nominalism-philosophical-foundation.md",
+        "/Users/joshuaeisenhart/wiki/concepts/qit-vocabulary-discipline-reference.md"
+      ],
+      "references": [
+        {
+          "citation": "Analects (13.3 on zh\u00e8ngm\u00edng / rectification of names).",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "The Great Learning (Ta Hsueh).",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Zhuangzi (Q\u00ed w\u00f9 l\u00f9n / Equalizing Things).",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Laozi / Daodejing (Chapters 1, 14, 40, etc.).",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "I-Ching (Book of Changes) and appendices.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Cheng, Chung-ying (1991). New Dimensions of Confucian and Neo-Confucian Philosophy.",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Wang Fu-chih (commentaries on Qi-monism and immanent Li).",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Zhang Zai (commentaries on Qi process).",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Wang Yangming (Instructions for Practical Living / Ch'uan-hsi lu).",
+          "status": "citation_only_unsourced"
+        },
+        {
+          "citation": "Sellmann, J.D. (1988). Yin-Yang and the Nature of Correlative Thinking.",
+          "status": "citation_only_unsourced"
+        }
+      ]
+    }
+  ]
+}
