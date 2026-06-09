@@ -1,0 +1,26 @@
+# macOS / filesystem noise
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python/tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# Obsidian volatile local UI state
+.obsidian/workspace*.json
+.obsidian/cache/
+
+# Editor swap/temp files
+*.swp
+*.swo
+*~
+
+# Local-only scratch folders
+.trash/
+.tmp/
+tmp/
