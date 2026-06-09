@@ -1,3 +1,8 @@
+## 2026-06-08 - Wiki core spine local git commit
+
+- Added the first content bucket to local git after the bootstrap commit: root front-door files, `config/`, `hermes-current/`, and `tools/wiki_probe.py`.
+- Scope deliberately excludes bulk `wizard/`, `raw/`, `projects/`, `concepts/`, `_archive/`, and memory/source buckets until separate staging decisions. No remote is configured; no push was attempted.
+
 ## 2026-06-08 - Wiki local git bootstrap
 
 - Initialized a local git repository at `/Users/joshuaeisenhart/wiki` on branch `main`; no remote is configured and no push was attempted.
