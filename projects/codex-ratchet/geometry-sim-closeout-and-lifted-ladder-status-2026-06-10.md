@@ -29,7 +29,7 @@ This does **not** mean geometry is complete, `M(C)` is admitted, QIT-engine is a
 | `236b33b5d` | `geo_s1_vector_vs_spinor_v0` | `GENUINE DISCRIMINATION, NOT VECTOR EXCLUSION`; SO(3) vector route closes at `2π`, SU(2) spinor route needs `4π`; `U/-U` collapse under density quotient; named `n01_closure_order_gap=1` added. |
 | `30d21022e` | `stage_lifted_spinor_shell_n4_v0` | Lifted rung `n=4`; `GENUINE-WITH-CAVEATS`; strict validator ok; G6 stored max-clique receipt closed and G8 function-level tool calls closed; G4/G5/G7 remain open by name. |
 | `cf558ccf7` | cross-model blind-anchor recomputation | Advisory receipt: Gemini exact on 8/8, Grok 7/8 with PG(3,3) degree miss adjudicated by hand derivation; committed anchors stand. |
-| `6744ec2b8` | capability triage receipt | Hygiene receipt: 319 broad-sweep issues classified as legacy v4 stale receipts; contextual v6 `probe-missing` surface remains pending reconciliation. No mass fixes. |
+| `6744ec2b8` / `1b3663551` | capability triage + reconciliation receipts | Hygiene receipts: 319 broad-sweep issues classified as legacy v4 stale receipts; the 220 contextual v6 `probe-missing` metric was later adjudicated mixed: 177 scanner-surface artifact, 43 real gaps requiring bounded disposition. No mass fixes. |
 | `19b709c15` | `geo_bracketing_smt_lifted_v0` | G5 raw-object bracketing SMT closed for committed `n=3` only: z3+cvc5 UNSAT from finite path-count values, erased quotient flips SAT, Julia Z3 mirrors; `GENUINE-WITH-CAVEATS`; not n4/n5 closure. |
 | `474d5925a` | `qubit_ladder_engine_loop_pressure_20260610.md` | Read-only Claude Code / Fable pressure receipt: preserves capacity vs seat-register vs address readings, bus vs schedule vs seat-register 720-loop readings, and falsifiers; design pressure only, not sim evidence. |
 
@@ -39,7 +39,7 @@ Do **not** cite these as committed results until their own receipts, validators,
 
 ```text
 geo_network_shell_coordinate_v0:
-  live/untracked G4 packet; result JSONs observed with all_pass=false; no audit; not committed.
+  live/untracked G4 packet; builder results changed during closeout and later envelope was observed all_pass=true; no committed audit here, so not closed.
 
 geo_s1_coord_state_families_v0:
   live/untracked G7 packet; envelope observed all_pass=true and audit worker observed active; no committed audit at this sync.
