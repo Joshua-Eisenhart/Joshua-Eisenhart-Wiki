@@ -1,3 +1,9 @@
+## 2026-06-10 - Codex Ratchet geometry/lifted-ladder repo sync
+
+- Added [[projects/codex-ratchet/geometry-sim-closeout-and-lifted-ladder-status-2026-06-10]] after repo verification through commit `b489b5c22`. The page groups the committed scratch-diagnostic tranche: toolset expansion (`7bdd92f31`), S10 G2-family mine (`b184e7357`), first lifted `n=3` shell rung (`3a53d16af`), S1/S2 tool-route upgrades (`529f1a918`), q=3 finite-incidence follow-up (`53bff741b`), vector-vs-spinor discriminator (`236b33b5d`), and lifted `n=4` shell rung (`b489b5c22`).
+- Patched [[projects/codex-ratchet/read-first]], [[projects/codex-ratchet/geometry-sim-program-canonical-2026-06-10]], [[projects/codex-ratchet/s1-qubit-ladder-f01-n01-t01-2026-06-10]], and [[index]] so old in-flight wording does not override current repo receipts. All named packets remain `scratch_diagnostic`, `promotion_allowed=false`, and `formal_admission_allowed=false`.
+- Preserved the n4 caveat split: `stage_lifted_spinor_shell_n4_v0` is committed `GENUINE-WITH-CAVEATS`; G1-G3 held, G4/G5 remain open, and G6-G8 must carry forward. It is not ladder-trend evidence, stage closure, canonical geometry, bridge/axis admission, physics, or formal admission.
+
 ## 2026-06-09 - Autobiographical method / consciousness provenance intake
 
 - Added [[projects/codex-ratchet/autobiographical-method-consciousness-provenance-2026-06-09]] after the owner explicitly asked that the autobiographical material be processed because a Claude/Fable safeguard interrupted that lane. The page preserves the owner statements about the 1992 root plan, lived consciousness/unconscious mapping, empathy/memory as source-gathering method, Hume/Jung constraints, Jung-Pauli as a historical/contextual pressure lane without authority status, manifold-as-compression, ring-checkerboard as Axis0 surface visualization, and the anti-jargon/math-first guardrail.

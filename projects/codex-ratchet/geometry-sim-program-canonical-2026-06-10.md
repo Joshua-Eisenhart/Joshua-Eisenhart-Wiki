@@ -50,11 +50,14 @@ S1 positive spinor-Hopf free-mode sim: hardened, re-audited, committed scratch d
 S1 quaternion model: hardened, re-audited, committed scratch diagnostic
 S1 negative models: hardened, re-audited, committed scratch diagnostic
 S1 finite-phase lens tower: hardened, re-audited, committed scratch diagnostic
-S1 1Q exact closure: committed scratch diagnostic at 6489a6929
+S1 1Q exact closure: committed scratch diagnostic at 6489a6929; later tool-route upgrade at 529f1a918 adds ott Wasserstein Haar statistic
 S1 3Q minimum floor: committed scratch diagnostic at 6ed5e961e
-S1 2Q boundary/control: live/untracked at this wiki patch, not closed here
-S1 4Q-8Q ladder: not built here
-S2 connection/flux/foliation spec prep: committed at 555ab9c2c, runtime gated behind S1 ladder closure
+S1 q=3 finite-incidence follow-up: committed scratch diagnostic at 53bff741b; PG(3,3) 40/130, quotient 80->40 load-bearing, two-engine Julia+JAX diagnostic mode
+S1 vector-vs-spinor discriminator: committed scratch diagnostic at 236b33b5d; SO(3) vector route closes at 2pi, SU(2) spinor route needs 4pi, named n01_closure_order_gap=1; vectors remain admissible-but-coarser after quotient
+S1 lifted shell ladder n=3: committed scratch diagnostic at 3a53d16af; GENUINE-WITH-CAVEATS, hardened/re-audited, not trend closure
+S1 lifted shell ladder n=4: committed scratch diagnostic at b489b5c22; GENUINE-WITH-CAVEATS, validator ok with --require-pytorch --strict-source-backed; G4/G5 remain open and G6-G8 caveats carried
+S10 G2-family mine: committed routing receipt at b184e7357; family map only, no variant promoted
+S2 connection/flux/foliation: committed scratch diagnostic; later tool-route upgrade at 529f1a918 adds Grassmann.jl exterior-calculus F=dA mirror
 current ceiling for all of the above: promotion_allowed=false, formal_admission_allowed=false
 ```
 
