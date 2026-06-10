@@ -89,6 +89,7 @@ Current math folds that should load this provenance when using the Rosetta lane:
 - [[projects/codex-ratchet/qit-axes-terrain-operator-fold-2026-06-09]]
 - [[projects/codex-ratchet/dual-carnot-szilard-qit-engine-witness-2026-06-09]]
 - [[projects/codex-ratchet/two-engine-winlose-carnot-szilard-pattern-2026-06-09]]
+- [[projects/codex-ratchet/ring-checkerboard-three-presentations-sim-engine-runbook-2026-06-09]]
 - [[cross-field-toe-genealogy]]
 
 ## Complete corpus map, 2026-06-09
