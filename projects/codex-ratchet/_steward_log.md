@@ -543,3 +543,16 @@
 2026-04-17T21:37:59.986048-07:00 wiki-steward cycle_end status=working
 2026-04-17T21:37:59.986048-07:00 wiki-steward note=required audit buckets repaired to zero; harness packets compacted; STATUS rebuilt; morning briefing preserved; Telegram summary sent
 2026-04-17T21:39:47.664754-07:00 wiki-steward note=final post-log/state verification rerun clean; latest_repo_commit=a675b50f10e54bb879c1678206a5fbd7a686eb7b
+
+## Manual Hermes update 2026-06-09T22:43:20-0700
+- Added [[projects/codex-ratchet/geometry-sim-program-canonical-2026-06-10]] from repo receipt `system_v6/receipts/geometry_sim_program_canonical_20260610.md` at commit `3e3611879` plus owner/Hermes/Claude convergence in-session.
+- Patched [[projects/codex-ratchet/read-first]] to load this geometry program before geometry sim planning/acceptance, bridge work, or downstream route interpretation.
+- Patched [[index]], [[hermes-current/active-intentions]], and [[hermes-current/environment-and-rules]] so future agents see the no-jargon, literal-geometry-first anti-collapse rule.
+- Status preserved: roadmap committed; no free-mode geometry stage sim accepted here; older packets remain useful scratch diagnostics, not substitutes for simming the known geometry in order.
+- Follow-up patch: synced repo commit `0194deb03` mode-4 `RATCHETED` into the wiki copy and front-door summaries. Added the Fable audit corrections: nontrivial anticommutation caveat (`AB+BA=0` plus `AB!=0`), alternativity / totally antisymmetric associator as the octonion-path ternary sharpening, anti-associativity demoted to exotic/kill-control branch, order/bracket pressure marked cross-cutting rather than a sim mode, and added refinement/limit plus group-action/orbit nesting types.
+
+## Manual Hermes update 2026-06-10T00:51-0700
+- Added [[projects/codex-ratchet/s1-qubit-ladder-f01-n01-t01-2026-06-10]] after owner correction that S1 must deepen as a qubit ladder before S2 runtime.
+- Patched [[projects/codex-ratchet/read-first]], [[projects/codex-ratchet/geometry-sim-program-canonical-2026-06-10]], [[index]], [[hermes-current/active-intentions]], and [[hermes-current/environment-and-rules]] to route through the S1 ladder gate.
+- Checked repo state before writing: `geo_s1_exact_closure_v0` committed at `6489a6929`; `geo_s1_three_qubit_floor_exact_v0` committed at `6ed5e961e`; S2 spec prep committed at `555ab9c2c`; `geo_s1_two_qubit_boundary_exact_v0` live/untracked at write time.
+- Correction preserved: every rung needs F01 finitude receipt, N01 noncommutation receipt that does not collapse into anticommutation, and T01 bracketing/nonassociativity boundary receipt. S2 runtime remains gated behind selected S1 ladder target.

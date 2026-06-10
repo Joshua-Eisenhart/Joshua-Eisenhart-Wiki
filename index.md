@@ -10,6 +10,8 @@ Total published pages: 439. Governance/read-first surfaces are listed separately
 - [[hermes-current/current-vs-legacy]] — authority/provenance ranking
 - [[hermes-current/skills-and-agent-rules]] — how skills and agents should use the wiki
 - [[projects/codex-ratchet/read-first]] — Codex Ratchet project front door after Hermes spine
+- [[projects/codex-ratchet/geometry-sim-program-canonical-2026-06-10]] — geometry-first anti-collapse roadmap: exact nested math stack, Bloch-as-quotient correction, Hopf torus double-cover, free/restricted/quotiented/ratcheted sim modes, anticommutation caveat, alternativity correction, refinement/orbit nesting, and no-jargon sim guard
+- [[projects/codex-ratchet/s1-qubit-ladder-f01-n01-t01-2026-06-10]] — corrected S1 qubit-ladder gate through 8Q: explicit F01 finitude, N01 noncommutation before anticommutation, T01 bracketing/nonassociativity boundary, and S2 runtime block until the selected ladder target closes
 - [[projects/codex-ratchet/current-decisive-frame-loader-2026-06-06]] — first-screen frame loader: `M(C)` missing, finite spinor-network carrier pressure, density/probe readout boundary, QIT-engine full stack, physics/SM/GR as downstream targets only
 - [[projects/codex-ratchet/geometric-constraint-manifold-frontier-2026-06-06]] — current decisive frontier: make `M(C)` before axes/IGT/QIT/bridge claims
 - [[projects/codex-ratchet/actual-physics-docs-processing-map-2026-06-06]] — actual physics-doc corpus processing map; source-order correction before bridge/theory/scout work

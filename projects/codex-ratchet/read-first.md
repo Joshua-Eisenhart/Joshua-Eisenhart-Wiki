@@ -1,29 +1,40 @@
 # Codex Ratchet — Project Front Door
 
-> **CURRENT PLAN (2026-06-08): [[projects/codex-ratchet/current-canonical-plan-and-anti-drift-2026-06-08]] is the current routing aid, subordinate to repo authority docs, validators, and result receipts.** Read it early. If older docs/registries/memory disagree with current receipts and gates, the receipts and gates win. Current frontier = harden/adjudicate already-built scratch foundation envelopes; full/admitted `M(C)` remains open; next bounded choices are a Stage-4 same-carrier geometry micro-lego or cross-model readout hardening. Everything below is context.
+> **S1 QUBIT LADDER GATE (2026-06-10): [[projects/codex-ratchet/s1-qubit-ladder-f01-n01-t01-2026-06-10]] is now the S1 deepening gate before S2 runtime.** Current checked state: 1Q exact closure is committed at repo commit `6489a6929`; 3Q minimum floor is committed at `6ed5e961e`; 2Q boundary/control is live/untracked at write time; 4Q-8Q are not built. Every rung must receipt F01 finitude, N01 noncommutation before anticommutation, and T01 bracketing/nonassociativity boundaries. S2 build spec prep exists at `555ab9c2c`, but S2 runtime is gated behind the selected S1 ladder target.
+>
+> **GEOMETRY SIM PROGRAM (2026-06-10): [[projects/codex-ratchet/geometry-sim-program-canonical-2026-06-10]] is now the geometry-first anti-collapse roadmap for simming the actual nested geometry in order.** It records that Bloch sphere/ball are density/channel quotient layers, not the full foundation carrier; every geometry layer must be simmed in free / restricted-stacked / quotiented / ratcheted mode; and no systems labels belong inside the math. It is subordinate to repo authority docs, validators, and result receipts. The broad S1 foundation family is committed scratch-diagnostic evidence; the stricter S1 qubit ladder is still in progress and must not be collapsed into formal carrier admission, final `M(C)`, physics, QIT-engine, or geometry-complete doctrine.
+>
+> **CURRENT PLAN (2026-06-08): [[projects/codex-ratchet/current-canonical-plan-and-anti-drift-2026-06-08]] remains a routing aid, subordinate to repo authority docs, validators, and result receipts.** If older docs/registries/memory disagree with current receipts and gates, the receipts and gates win. Everything below is context.
 
 ## First Screen Load
 
-Before any bridge, scout, physics, QIT, Axis0, Rosetta, FEP, external-theory, or legacy-doc route, load:
+Before any bridge, scout, physics, QIT, Axis0, Rosetta, FEP, external-theory, legacy-doc route, or geometry sim route, load:
 
-1. [[projects/codex-ratchet/current-decisive-frame-loader-2026-06-06]]
-2. [[constraint-manifold-architecture]]
-3. [[model-convergence-qit-engine-full-stack]]
+1. [[projects/codex-ratchet/geometry-sim-program-canonical-2026-06-10]]
+2. [[projects/codex-ratchet/s1-qubit-ladder-f01-n01-t01-2026-06-10]]
+3. [[projects/codex-ratchet/current-decisive-frame-loader-2026-06-06]]
+4. [[constraint-manifold-architecture]]
+5. [[model-convergence-qit-engine-full-stack]]
 
 If a worker cannot restate this chain, it has not loaded the project:
 
 ```text
-probe-relative identity / a=a iff a~b + entropic monism
--> F01/N01 as bounded constraint expressions
--> M(C) missing
--> finite spinor-network carrier pressure
--> density/probe readout quotient
--> Hopf/Weyl/chirality/non-associativity geometry
--> QIT-engine full stack / axes / IGT / physics readouts
--> Standard Model plus GR as future blind-extraction target
+literal geometry first:
+C^2 -> S^3 -> Hopf S^3/S^1=S^2 -> density quotient S^2 subset B^3
+-> S1 qubit ladder 1Q..8Q with F01/N01/T01 receipts before S2 runtime
+-> connection A and curvature/flux F
+-> Hopf tori T_eta and nested {T_eta_k}
+-> channel/generator/flow geometry on D(C^2)
+-> stacked preservation/leakage and quotient-erasure tests
+-> two/three-spinor, Clifford, division-algebra, octonion/G2/J3(O)/Spin tower
+-> M(C,t) as constrained subset/quotient over the earned stack
 ```
 
 Fresh receipt/model-discriminator tranches under this load, not above it:
+
+- [[projects/codex-ratchet/geometry-sim-program-canonical-2026-06-10]] — geometry-first anti-collapse wiki copy of the committed repo receipt `geometry_sim_program_canonical_20260610.md` (`3e3611879`) plus later repo receipts through the S1 closeout and exact deepening. It preserves the exact math stack, Bloch-as-quotient correction, Hopf torus double-cover tripwire, holonomy/Berry convention pin, full normed-division Hopf ladder, `J3(O)`/`F4`/`OP2`, free/restricted/quotiented/ratcheted sim modes, the S1 foundation family's committed scratch-diagnostic status, and the no-promotion ceiling.
+- [[projects/codex-ratchet/s1-qubit-ladder-f01-n01-t01-2026-06-10]] — corrected S1 qubit-ladder gate: 1Q exact closure committed (`6489a6929`), 3Q minimum floor committed (`6ed5e961e`), 2Q boundary live/untracked at write time, 4Q-8Q pending. Requires explicit F01 finitude receipts, N01 noncommutation receipts that do not collapse into anticommutation, and T01 bracketing/nonassociativity boundary receipts on every rung. Blocks S2 runtime until the selected ladder target closes.
+- [[projects/codex-ratchet/nesting-law-audited-2026-06-10]] — audited companion router for `nesting_law_audited_20260610.md` (`6499eb470`): corrected order/bracket ladder, anticommutation nonzero caveat, alternativity as the octonion sharpened ternary path, thirteen nesting/arrow types, order-bracket pressure as a cross-cutting test family, and the ratchet measure-zero correction requiring induced/disintegrated measure on lower-dimensional leaves.
 
 - [[projects/codex-ratchet/mass-parallel-eight-rung-scratch-diagnostic-receipt-intake-2026-06-06]] — eight mass-parallel scratch-diagnostic receipts for SU(3), SM-gauge representation, electroweak, sedenion generations, cross-model convergence, gravity-facing readout, universal clock, and sequential-universe inheritance. Treat these as pressure on the missing `M(C)` / QIT-engine carrier build only; every listed result remains `classification=scratch_diagnostic`, `promotion_allowed=false`, and `formal_admission_allowed=false`.
 - [[projects/codex-ratchet/carrier-readout-discriminator-matrix-intake-2026-06-06]] — Codex/Claude cleanup and Hermes model synthesis converted into a carrier-readout discriminator matrix. Use it to route the associator/nonassociativity row, fine-structure graveyard row, and finite owner-carrier -> many-readouts program; it is model-routing and discriminator work only, not `M(C)`, physics, QIT-engine, or canonical admission.

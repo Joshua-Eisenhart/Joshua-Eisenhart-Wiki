@@ -25,7 +25,7 @@ Current truth:
 - Overnight/controller-style runs should use a continuous queue, not idle audit/sleep loops, and human-facing updates should be periodic rather than spammy.
 
 Simulation/process shorthand:
-- final sims should run on pure mathematical paths rather than internal jargon; simulate the math rather than encode internal jargon into the sims
+- final sims should run on pure mathematical paths rather than internal jargon; simulate the math rather than encode internal jargon into the sims. For Codex Ratchet geometry work, use [[projects/codex-ratchet/geometry-sim-program-canonical-2026-06-10]] and [[projects/codex-ratchet/s1-qubit-ladder-f01-n01-t01-2026-06-10]] as anti-collapse roadmaps before accepting a geometry sim or S2 runtime: F01 finitude, N01 noncommutation, and T01 bracketing boundaries must be explicit.
 - tool-first before nonclassical
 - classical baselines are broadly useful
 - bounded micro-lego → pairwise → small assembly progression is preferred
