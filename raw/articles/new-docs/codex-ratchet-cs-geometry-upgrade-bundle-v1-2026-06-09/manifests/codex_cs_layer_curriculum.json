@@ -1,0 +1,37 @@
+{
+  "schema": "codex.cs_layer_curriculum.v1",
+  "status": "candidate_curriculum",
+  "classes": [
+    "graph_theory",
+    "algebraic_spectral_graph_theory",
+    "hypergraphs_higher_order_networks",
+    "graph_rewriting_rewriting_logic",
+    "category_theory_for_cs",
+    "automata_formal_languages_computability",
+    "e_graphs_equality_saturation",
+    "combinatorial_topology",
+    "discrete_differential_geometry_dec",
+    "causal_sets_event_structures",
+    "probabilistic_graphical_models_causal_ai",
+    "geometric_deep_learning_gnns"
+  ],
+  "build_order": [
+    "finite_carrier",
+    "graph_hypergraph_rewrite_representation",
+    "multiway_or_causal_event_graph",
+    "topology_quotient_basin_readouts",
+    "gnn_ai_after_explicit_graph_object"
+  ],
+  "immediate_probe_queue": [
+    "rustworkx_dag_order",
+    "xgi_hyperedge_loss",
+    "toponetx_boundary_hodge",
+    "gudhi_tiny_filtration",
+    "catlab_acset_mc_schema",
+    "algebraicrewriting_dpo_ind_ctx",
+    "egglog_quotient_readout",
+    "pgmax_ind_ctx_factor_graph",
+    "pyg_message_passing_ablation",
+    "cvc5_graph_rewrite_invariant"
+  ]
+}

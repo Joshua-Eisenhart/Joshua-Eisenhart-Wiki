@@ -24,6 +24,10 @@ Total published pages: 439. Governance/read-first surfaces are listed separately
 - [[projects/codex-ratchet/overall-aligned-execution-plan-2026-06-07]] — current aligned execution plan: wide exploration, strong gates, recent math/model insights, and cross-model readout matrix without leap-ahead promotion
 - [[projects/codex-ratchet/legacy-core-docs-source-root-inventory-2026-06-06]] — inventory for Older Legacy, A1 refined fuel, A2 high-entropy, and ultra-high-entropy source roots; spinor-first source pressure before treating physics corpus as processed
 - [[projects/codex-ratchet/physics-model-unique-claim-atlas-2026-06-06]] — source-backed atlas of unique physics-model mechanisms beyond the recent spine: six-bit/Szilard, Axis 1/2 legality, Axis 3 Weyl chirality, S3/Hopf, ijk shell, 64-state engine lattice, and sequential-universe dark-sector memory
+- [[projects/codex-ratchet/qit-axes-terrain-operator-fold-2026-06-09]] — working fold for Hopf/Weyl carrier math, terrain laws, taijitu Axis 0-6 mapping, signed operators, broader operator backlog, and 64-state engine lattice; source-routing only, no admission
+- [[projects/codex-ratchet/pre-ai-rosetta-ring-checkerboard-provenance-2026-06-09]] — owner-provenance fold for the pre-AI Rosetta spreadsheet, two-Möbius-strip engine intuition, finite nested ring-checkerboard / hypersphere-hypertoroid intuition, and Type1/Type2 mapping cautions
+- [[projects/codex-ratchet/autobiographical-method-consciousness-provenance-2026-06-09]] — owner-provenance fold for the lived consciousness/unconscious mapping method, Hume/Jung constraints, empathy/memory observation route, manifold-as-compression statement, and math-first anti-jargon guardrail
+- [[projects/codex-ratchet/dual-carnot-szilard-qit-engine-witness-2026-06-09]] — bounded sim-target design for dual-stacking Carnot thermodynamic legality and Szilard measurement-memory legality on one finite QIT carrier; no QIT-engine admission
 - [[projects/codex-ratchet/old-physics-model-source-excavation-2026-06-06]] — oldest-doc excavation router for the physics model, direct `my-physics-model.txt`, and legacy source roots
 - [[projects/codex-ratchet/owner-physics-claims-source-extract-2026-06-06]] — Tranche A owner-physics claim extraction before sim or bridge use
 - [[projects/codex-ratchet/geometric-constraint-manifold-spinor-carrier-source-extract-2026-06-06]] — Tranche B F01/N01 to spinor-carrier/density/probe/Hopf/Weyl extraction
@@ -102,6 +106,10 @@ Total published pages: 439. Governance/read-first surfaces are listed separately
 - [[deflation-map-2026-06-04]] — current Codex Ratchet deflation split, carrier correction, and verdict-audit spine
 - [[claude-code-sim-inventory-2026-06-04]] — read-only inventory of Claude Code's work-out-layers.js pipeline sims (60+ carrier, 157+ layers, 7 Hopfield)
 - [[igt-axes-terrain-source-extraction-2026-06-04]] — structured extraction of all 10 IGT/axes/terrain source docs: axis-by-axis mapping table, engine type patterns, trigram→math, testability assessment, open questions
+- [[projects/codex-ratchet/qit-axes-terrain-operator-fold-2026-06-09]] — project-level 2026-06-09 fold that saves the live axes/terrain/operator math and alternatives for sim-tool work
+- [[projects/codex-ratchet/pre-ai-rosetta-ring-checkerboard-provenance-2026-06-09]] — project-level 2026-06-09 provenance fold for the pre-AI Rosetta spreadsheet, Möbius-like two-engine intuition, and finite ring-checkerboard source geometry
+- [[projects/codex-ratchet/autobiographical-method-consciousness-provenance-2026-06-09]] — project-level 2026-06-09 provenance fold for the autobiographical/phenomenological method layer and math-first guardrails
+- [[projects/codex-ratchet/dual-carnot-szilard-qit-engine-witness-2026-06-09]] — project-level 2026-06-09 dual-stack sim witness target for Carnot + Szilard over one QIT carrier
 - [[igt-pattern-explicit-math-reference]] — working IGT pattern/constraint-ratchet math reference; source-grounded, not proof or admission
 - [[igt-four-strategy-perception-decomposition]] — candidate perception-policy decomposition for IGT/Jung/FEP/Hoffman/Hume readouts; separates locked terrain spine from interpretive biological/emotional mappings
 - [[tool-function-receipt-matrix-router]] — router for exact tool/function receipt rows and tool-role fences

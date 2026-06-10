@@ -19,6 +19,9 @@ This spreadsheet maps personality dimensions across MBTI, Jung functions, Big Fi
 Use this page as a comparison surface, not as a primary doctrine page. Its value is that it shows the raw correlation grammar explicitly; its risk is that readers can mistake the table for a current runtime taxonomy.
 
 ## Core comparison
+
+2026-06-09 provenance update: the current project router for the pre-AI workbook, its faithful transcription, the two-Möbius-strip owner intuition, and the finite ring-checkerboard / Hopf-torus correspondence is [[projects/codex-ratchet/pre-ai-rosetta-ring-checkerboard-provenance-2026-06-09]]. The autobiographical/phenomenological source-method layer is [[projects/codex-ratchet/autobiographical-method-consciousness-provenance-2026-06-09]]. Use those routers before mapping this legacy comparison page onto current Type1/Type2, Weyl, terrain, QIT-engine, or consciousness-language claims.
+
 This comparison surface is most legible if the raw spreadsheet is read as an engine-state map rather than as a flat MBTI roster.
 
 ### Family split preserved by the sheet

@@ -175,6 +175,10 @@ Survival would support a finite correspondence. Failure would still be useful: i
 
 ## Related Pages
 
+- [[projects/codex-ratchet/autobiographical-method-consciousness-provenance-2026-06-09]] — owner-provenance route for the lived consciousness/unconscious mapping method, Hume/Jung constraints, and math-first anti-jargon guardrail.
+- [[projects/codex-ratchet/pre-ai-rosetta-ring-checkerboard-provenance-2026-06-09]] — owner-provenance route for the pre-AI Rosetta spreadsheet, two-Möbius-strip intuition, and finite ring-checkerboard source geometry.
+- [[projects/codex-ratchet/qit-axes-terrain-operator-fold-2026-06-09]] — current working fold for axes/terrain/operator math, taijitu mapping, signed operators, and sim-tool alternatives.
+- [[projects/codex-ratchet/dual-carnot-szilard-qit-engine-witness-2026-06-09]] — bounded dual-stack Carnot/Szilard QIT-carrier sim target.
 - [[physics-model-as-system-mirror]]
 - [[entropic-spacetime-monism-readout-map]]
 - [[qit-engine-geometry-entropy-bridge]]

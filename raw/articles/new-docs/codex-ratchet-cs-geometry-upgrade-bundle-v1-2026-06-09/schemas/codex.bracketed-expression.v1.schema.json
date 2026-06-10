@@ -1,0 +1,178 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "lev.bracketed-blueprint.v1",
+  "title": "Lev bracketed blueprint expression v1",
+  "description": "Bracket-preserving composition tree. Atom and compose shapes are disjoint; compose does not flatten without proof/law profile.",
+  "type": "object",
+  "required": [
+    "kind"
+  ],
+  "properties": {
+    "kind": {
+      "enum": [
+        "atom",
+        "compose"
+      ]
+    },
+    "ref": {
+      "type": "string",
+      "minLength": 1
+    },
+    "op": {
+      "type": "string",
+      "minLength": 1
+    },
+    "lhs": {
+      "$ref": "lev.bracketed-blueprint.v1"
+    },
+    "rhs": {
+      "$ref": "lev.bracketed-blueprint.v1"
+    },
+    "lawProfile": {
+      "type": "object",
+      "required": [
+        "associative",
+        "commutative",
+        "source"
+      ],
+      "properties": {
+        "associative": {
+          "type": "boolean"
+        },
+        "commutative": {
+          "type": "boolean"
+        },
+        "alternative": {
+          "type": "boolean"
+        },
+        "powerAssociative": {
+          "type": "boolean"
+        },
+        "source": {
+          "enum": [
+            "declared",
+            "proved",
+            "inferred",
+            "unknown"
+          ]
+        },
+        "proofRefs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "source": {
+                "const": "proved"
+              }
+            },
+            "required": [
+              "source"
+            ]
+          },
+          "then": {
+            "properties": {
+              "proofRefs": {
+                "minItems": 1
+              }
+            },
+            "required": [
+              "proofRefs"
+            ]
+          }
+        }
+      ],
+      "additionalProperties": false
+    },
+    "associatorWitnessRef": {
+      "type": "string",
+      "minLength": 1
+    },
+    "evidenceRefs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "default": []
+    },
+    "bracketHash": {
+      "type": "string",
+      "minLength": 16
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "const": "atom"
+          }
+        },
+        "required": [
+          "kind"
+        ]
+      },
+      "then": {
+        "required": [
+          "ref"
+        ],
+        "not": {
+          "anyOf": [
+            {
+              "required": [
+                "lhs"
+              ]
+            },
+            {
+              "required": [
+                "rhs"
+              ]
+            },
+            {
+              "required": [
+                "op"
+              ]
+            },
+            {
+              "required": [
+                "lawProfile"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "const": "compose"
+          }
+        },
+        "required": [
+          "kind"
+        ]
+      },
+      "then": {
+        "required": [
+          "op",
+          "lhs",
+          "rhs",
+          "lawProfile"
+        ],
+        "not": {
+          "required": [
+            "ref"
+          ]
+        }
+      }
+    }
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,152 @@
+{
+  "schema": "codex.geometry_stack_manifest.v1",
+  "status": "scratch_alignment_manifest",
+  "promotion_allowed": false,
+  "public_claim_ceiling": "repo-grounded design input only; no admission claim",
+  "build_order": [
+    {
+      "stage": 0,
+      "id": "root_constraints",
+      "status": "required",
+      "codex_role": "root constraint seed"
+    },
+    {
+      "stage": 1,
+      "id": "M_C_finite_admissibility_object",
+      "status": "open_gap",
+      "codex_role": "admissibility object for admissibility/evidence evaluation"
+    },
+    {
+      "stage": 2,
+      "id": "carrier_readout_base",
+      "status": "scratch",
+      "codex_role": "readout/evaluator surfaces over finite support"
+    },
+    {
+      "stage": 3,
+      "id": "spinor_clifford_carrier",
+      "status": "scratch_no_promotion",
+      "codex_role": "same-carrier evaluator lane; not Graph canon"
+    },
+    {
+      "stage": 4,
+      "id": "same_carrier_geometry",
+      "status": "next_work",
+      "codex_role": "bounded geometry micro-legos"
+    },
+    {
+      "stage": 5,
+      "id": "path_holonomy_order",
+      "status": "planned",
+      "codex_role": "Event/blueprint order-sensitivity evaluator"
+    },
+    {
+      "stage": 6,
+      "id": "bracket_nonassoc_carrier_pressure",
+      "status": "fenced_scratch",
+      "codex_role": "bracketed-blueprint evaluator with associator witnesses"
+    },
+    {
+      "stage": 7,
+      "id": "multi_spinor_network_cut_state",
+      "status": "planned",
+      "codex_role": "PyTorch/PyG only when ablation changes observable"
+    },
+    {
+      "stage": 8,
+      "id": "metric_information_geometry",
+      "status": "planned",
+      "codex_role": "readout metrics only, not primitive equality"
+    },
+    {
+      "stage": 9,
+      "id": "topology_graph_cell_complex",
+      "status": "refresh_queue",
+      "codex_role": "Tier-A micro tool/function receipts"
+    },
+    {
+      "stage": 10,
+      "id": "terrain_operator_engine_grammar",
+      "status": "later",
+      "codex_role": "FlowMind blueprint vocabulary after M(C)"
+    },
+    {
+      "stage": 11,
+      "id": "attractor_basin",
+      "status": "preflight_later",
+      "codex_role": "north-star convergence/eval surface after finite contract"
+    },
+    {
+      "stage": 12,
+      "id": "cross_model_readout_matrix",
+      "status": "scratch",
+      "codex_role": "readout overlays only"
+    },
+    {
+      "stage": 13,
+      "id": "entropy_memory_viability",
+      "status": "fenced",
+      "codex_role": "later runtime entropy proxy surfaces"
+    },
+    {
+      "stage": 14,
+      "id": "physics_facing_metrics",
+      "status": "fenced_no_bridge",
+      "codex_role": "math-only controls until lower object admitted"
+    }
+  ],
+  "carrier_geometry_tower": [
+    {
+      "order": 0,
+      "id": "M_C_gate",
+      "status": "must_precede_tower"
+    },
+    {
+      "order": 1,
+      "id": "division_algebra_ladder_R_C_H_O_S",
+      "status": "scratch_carrier_geometry"
+    },
+    {
+      "order": 2,
+      "id": "octonion_carrier_associator",
+      "status": "scratch_carrier_geometry"
+    },
+    {
+      "order": 3,
+      "id": "Cl6_7_unit_carrier_constraint",
+      "status": "scratch_carrier_geometry"
+    },
+    {
+      "order": 4,
+      "id": "G2_Aut_O",
+      "status": "scratch_carrier_geometry"
+    },
+    {
+      "order": 5,
+      "id": "Fano_PG_2_2_incidence",
+      "status": "scratch_carrier_geometry"
+    },
+    {
+      "order": 6,
+      "id": "Spin7_G2_S7_calibration",
+      "status": "scratch_carrier_geometry"
+    },
+    {
+      "order": 7,
+      "id": "G2_to_SU3_reduction_readout_pressure",
+      "status": "fenced_readout_pressure"
+    },
+    {
+      "order": 8,
+      "id": "sedenion_PG_3_2_zero_divisor_graveyard",
+      "status": "graveyard_control"
+    }
+  ],
+  "hard_rules": [
+    "Do not promote scratch carrier-geometry evidence as admitted M(C).",
+    "Do not attach physics-facing labels to this tower.",
+    "Same-carrier controls and finite map must be explicit before geometry micro-lego admission.",
+    "PyTorch/PyG is load-bearing only when ablation changes the observable.",
+    "Gemini/Grok/Claude pressure is advisory; Lev accepts only receipts/GateProof/lineage."
+  ]
+}

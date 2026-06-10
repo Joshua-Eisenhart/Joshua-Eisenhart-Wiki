@@ -69,11 +69,14 @@ Load in this order after the Hermes front door:
 1. [[constraint-manifold-architecture]]
 2. [[projects/codex-ratchet/geometric-constraint-manifold-frontier-2026-06-06]]
 3. [[model-convergence-qit-engine-full-stack]]
-4. [[projects/codex-ratchet/overall-aligned-execution-plan-2026-06-07]]
-5. [[physics-model-as-system-mirror]]
-6. [[entropic-spacetime-monism-readout-map]]
-7. [[sequential-universe-spinor-network-physics-model]]
-8. [[projects/codex-ratchet/actual-physics-docs-processing-map-2026-06-06]]
+4. [[projects/codex-ratchet/qit-axes-terrain-operator-fold-2026-06-09]]
+5. [[projects/codex-ratchet/pre-ai-rosetta-ring-checkerboard-provenance-2026-06-09]]
+6. [[projects/codex-ratchet/dual-carnot-szilard-qit-engine-witness-2026-06-09]]
+7. [[projects/codex-ratchet/overall-aligned-execution-plan-2026-06-07]]
+8. [[physics-model-as-system-mirror]]
+9. [[entropic-spacetime-monism-readout-map]]
+10. [[sequential-universe-spinor-network-physics-model]]
+11. [[projects/codex-ratchet/actual-physics-docs-processing-map-2026-06-06]]
 
 ## New Source Routers From The 2026-06-06 Codex Bundle
 

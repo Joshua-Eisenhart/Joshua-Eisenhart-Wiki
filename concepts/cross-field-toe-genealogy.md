@@ -40,6 +40,10 @@ The owner explicitly corrected a physics-only reading:
 
 ## Genealogy route
 
+The 2026-06-09 pre-AI Rosetta provenance router is [[projects/codex-ratchet/pre-ai-rosetta-ring-checkerboard-provenance-2026-06-09]]. Load it when a worker handles the original `Personality theory` spreadsheet, the political-compass/personality source route, the two-engine Möbius-like intuition, or the finite ring-checkerboard / Hopf-torus correspondence.
+
+The 2026-06-09 autobiographical-method router is [[projects/codex-ratchet/autobiographical-method-consciousness-provenance-2026-06-09]]. Load it when a worker handles the owner’s lived consciousness/unconscious mapping, the 1992 root-plan claim, empathy/memory as observation method, Hume/Jung constraints, or the scientific-method/personality/evolution/physics convergence claim. Treat it as source provenance only, not proof or admission.
+
 The route to the physics model should be read as convergence across fields, not as a physics metaphor applied outward after the fact.
 
 ```text

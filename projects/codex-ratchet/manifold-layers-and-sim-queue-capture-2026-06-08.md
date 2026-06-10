@@ -97,6 +97,26 @@ Active authority root:
 
 There is no `/Users/joshuaeisenhart/Desktop/Codex-Ratchet` checkout on this host at the 2026-06-08 check.
 
+## Nonassociative / G2 tower correction — 2026-06-08
+
+The layer table below is still useful, but the owner correction is that the octonion / `Cl(6)` / `G2` / Fano / `Spin(7)` / sedenion material must not be compressed into a one-line late `L8 bracketing` footnote.
+
+Current checked reading:
+
+```text
+M(C) gate
+-> R/C/H/O/S division-algebra ladder
+-> octonion carrier + associator
+-> Cl(6) / >=7-imaginary-unit carrier constraint
+-> G2 variant family
+-> Fano PG(2,2)
+-> Spin(7) / G2 / S^7 calibration
+-> G2 -> SU(3) fenced readout pressure
+-> sedenion / PG(3,2) zero-divisor graveyard control
+```
+
+`G2` is likely, but the variants stay open. The relevant current audit page is [[projects/codex-ratchet/octonion-g2-sedenion-carrier-geometry-audit-2026-06-08]]. Checked envelopes are validator/source-backed `scratch_diagnostic` only: no admitted manifold, no full `M(C)`, no physics/SM/GR bridge, and no canonical promotion.
+
 ## Core dependency chain
 
 The current safe chain is:

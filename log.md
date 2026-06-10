@@ -1,3 +1,41 @@
+## 2026-06-09 - Autobiographical method / consciousness provenance intake
+
+- Added [[projects/codex-ratchet/autobiographical-method-consciousness-provenance-2026-06-09]] after the owner explicitly asked that the autobiographical material be processed because a Claude/Fable safeguard interrupted that lane. The page preserves the owner statements about the 1992 root plan, lived consciousness/unconscious mapping, empathy/memory as source-gathering method, Hume/Jung constraints, Jung-Pauli as a historical/contextual pressure lane without authority status, manifold-as-compression, ring-checkerboard as Axis0 surface visualization, and the anti-jargon/math-first guardrail.
+- Routed the page through [[projects/codex-ratchet/read-first]], [[cross-field-toe-genealogy]], [[personality-theory-mapping]], [[model-convergence-qit-engine-full-stack]], [[projects/codex-ratchet/pre-ai-rosetta-ring-checkerboard-provenance-2026-06-09]], and [[index]]. Claim ceiling: autobiographical method/source-routing only; no psychology, neuroscience, biology, consciousness, physics, `M(C)`, Axis0, or QIT-engine admission.
+
+## 2026-06-09 - Ring-checkerboard corpus map reconciliation
+
+- Patched [[projects/codex-ratchet/pre-ai-rosetta-ring-checkerboard-provenance-2026-06-09]] with the seven-anchor corpus map from the Claude-side receipt: primary Apple-note construction, owner Hopf/Bloch bridge, curated `Ring Checkerboard Gradient.md`, cosmological substrate extraction, qit-igt guide no-promotion fence, Hermes/wiki provenance router, and repo-side `working_math_scaffold_20260609.md` sections 16.1-16.3.
+- Preserved the live split between two readings: ring-checkerboard as finite engine-stage/microstate support versus checkerboard as cosmological/random-fuzz substrate from which spherical/Hopf/ring geometry emerges. Both remain source-routed candidates; no `M(C)`, QIT-engine, Axis0, physics, or substrate admission.
+
+## 2026-06-09 - Pre-AI Rosetta / ring-checkerboard provenance intake
+
+- Added [[projects/codex-ratchet/pre-ai-rosetta-ring-checkerboard-provenance-2026-06-09]] after the owner supplied the original `Personality theory` Rosetta spreadsheet route and corrected the source genealogy: the two-engine pattern was felt pre-AI as two Möbius-like strips, not originally as left/right Weyl spinors; the ring-checkerboard model was a finite nested hypersphere/hypertoroid intuition that later mapped closely to Hopf/toroidal geometry.
+- Preserved the key source distinction: pre-AI owner material includes the Rosetta cross-field pattern, faces/readout doctrine, ring-checkerboard nesting, Möbius pair intuition, `a=a iff a~b`, and finitude; AI-era vocabulary helped operationalize this into Hopf/Weyl/QIT math and supplied the correction that noncommutation is weaker than anticommutation.
+- Routed the new provenance page through [[projects/codex-ratchet/read-first]], [[projects/codex-ratchet/current-decisive-frame-loader-2026-06-06]], [[projects/codex-ratchet/qit-axes-terrain-operator-fold-2026-06-09]], [[cross-field-toe-genealogy]], [[personality-theory-mapping]], [[model-convergence-qit-engine-full-stack]], and [[index]]. Claim ceiling: provenance/source-routing only; no Type1/Type2 identity closure, no QIT-engine admission, no `M(C)` admission, and no physics claim.
+
+## 2026-06-09 - QIT axes/terrain/operator fold and dual Carnot-Szilard witness
+
+- Added [[projects/codex-ratchet/qit-axes-terrain-operator-fold-2026-06-09]] to preserve the 2026-06-09 Hermes/Fable working fold: Hopf/Weyl carrier math, loop geometry, terrain laws, taijitu Axis 0-6 symbolic mapping, signed operators, broader screenshot/operator backlog, Type1/Type2 stage tables, and live alternatives. Claim ceiling: source-routing and sim-target design only; no `M(C)`, QIT-engine, Axis0, bridge, physics, or canonical admission.
+- Added [[projects/codex-ratchet/dual-carnot-szilard-qit-engine-witness-2026-06-09]] as the bounded base-ladder sim target: Carnot thermodynamic legality plus Szilard measurement-memory-feedback legality dual-stacked on one finite QIT carrier, with deductive/inductive order-gap controls. It is a tool-testing witness design, not QIT-engine admission.
+- Routed both pages through [[projects/codex-ratchet/read-first]], [[projects/codex-ratchet/current-decisive-frame-loader-2026-06-06]], [[model-convergence-qit-engine-full-stack]], and [[index]]. Verified source anchors include the taijitu raw doc, Packet F extraction, `screenshots_math_report_20260609.md`, and the Julia Carnot/Szilard result JSONs; the checked Carnot Julia result reports `all_pass=true` under `promotion_allowed=false`, so do not summarize it as simply failed without a specific contrary receipt.
+
+## 2026-06-09 - CS geometry upgrade bundle intake
+
+- Processed Desktop zip `codex_ratchet_cs_geometry_upgrade_bundle_v1_2026-06-09.zip` after the chat layer could not read binary attachments. Archive check: `55` entries, `71,603` uncompressed bytes, SHA-256 `922deb11ebdb9b5a6fa01509d899660d6ebf9d6c3c906e7f8e64c209041ee97d`, `0` path-traversal entries.
+- Preserved extracted source under `raw/articles/new-docs/codex-ratchet-cs-geometry-upgrade-bundle-v1-2026-06-09/` with `_hermes_source_inventory.json`, and added [[projects/codex-ratchet/cs-geometry-upgrade-bundle-intake-2026-06-09]].
+- Bundle smokes passed with Codex sim-stack Python; checksum manifest matched; default NumPy contamination scan passed and targeted bad/clean fixtures behaved as expected.
+- Safe reading: source/design scaffold for a missing discrete-math / CS layer, `M(C)` gap table, current-edge library candidate menu, and one-function tool-probe discipline. Not a repo patch or admission receipt.
+- Blockers before repo adoption: leftover Lev identifiers in schemas/scripts/provider names, broken `scripts/support_probe_julia.jl`, and candidate library menus require support/recency/micro-probe receipts before load-bearing use.
+
+## 2026-06-08 - Octonion/G2/sedenion carrier-geometry audit
+
+- Added [[projects/codex-ratchet/octonion-g2-sedenion-carrier-geometry-audit-2026-06-08]] after the owner corrected a flattened nonassociative/G2 summary. The page preserves the early carrier-geometry threading: `M(C)` gate -> R/C/H/O/S ladder -> octonion associator -> `Cl(6)` / >=7-unit carrier constraint -> `G2` variant family -> Fano -> `Spin(7)/G2/S^7` -> `G2->SU(3)` fenced pressure -> sedenion/`PG(3,2)` graveyard control.
+- Patched [[projects/codex-ratchet/read-first]], [[projects/codex-ratchet/current-canonical-plan-and-anti-drift-2026-06-08]], and [[projects/codex-ratchet/manifold-layers-and-sim-queue-capture-2026-06-08]] so future workers treat the octonion/G2/sedenion tower as early carrier-geometry scratch evidence, not a late bracketing footnote. `G2` remains likely but variants stay open.
+- Repo audit receipts: checked 11 relevant three-engine envelopes with `scripts/validate_three_engine_sim_result.py --require-pytorch`; 9 targeted tower envelopes also passed `--strict-source-backed`. Whole source audit covered 42 envelopes: 38 source-backed all lanes, 4 review-needed.
+- Sim-engine runtime/agent audit: `codex_runtime_env_doctor.py` ok/stable, `codex_engine_stack_shakedown.py` ok (`31` pass, `1` skip), role-card aliases were added for legacy JAX/PyTorch ids and synced to `.codex` plus `.codex-second`; narrow tests passed (`8 passed`).
+- Remaining fences: checked envelopes are `scratch_diagnostic`, `promotion_allowed=false`, `formal_admission_allowed=false`; most checked envelopes still lack newer `canon_runtime` / `foreign_runtime_manifest` fields, so they are not full Canon-runtime receipts.
+
 ## 2026-06-08 - Wiki final local git hygiene
 
 - Added `.gitignore` coverage for `*.corrupt-backup-*`. The small `index.md.corrupt-backup-2026-04-16` file is preserved on disk but ignored rather than committed or deleted.
