@@ -26,6 +26,7 @@ Current receiving structure:
 - [[skills-and-agent-rules]]
 - [[memory-maintenance-2026-06-05]]
 - [[memory-maintenance-2026-06-06-wizard-maintenance-correction]]
+- [[memory-maintenance-2026-06-09-compression]]
 - [[wizard-maintenance-correction-receipt-2026-06-06]]
 - [[../wizard/hermes-version-current/16_HERMES_WIZARD_MAINTENANCE_GOVERNOR|Hermes Wizard Maintenance Governor]]
 - [[../concepts/entropic-spacetime-monism-readout-map|Entropic Spacetime Monism Readout Map]]
@@ -77,6 +78,14 @@ Corrective actions recorded now:
 - project routing patched in `projects/codex-ratchet/read-first.md` and `concepts/physics-model-as-system-mirror.md`.
 
 Rule reaffirmed: when the user says Hermes is missing Wizard/memory/maintenance discipline, run a bounded maintenance-governor tranche: inventory -> classify -> patch one cluster -> verify -> log/queue. Do not claim a full Wizard council unless subagent, multimodel, and MMM preload receipts actually exist.
+
+### 2026-06-09 compression receipt
+
+The live built-in `MEMORY.md` and `USER.md` snapshots were preserved in [[memory-maintenance-2026-06-09-compression]] before shrinking injected memory back toward compact pointer form.
+
+Compression target:
+- injected memory keeps only wiki spine/offload pointers, core Codex Ratchet routing constraints, the JK fuzz/entropic-monism correction, and codex2 routing;
+- detailed environment, Wizard/MMM, IGT acronym, LEV separation, carrier-frontier, and theory-search details live in the wiki/project pages or this receipt instead of being injected every turn.
 
 ### Python / environment
 - In this repo's python3 environment, PyG, clifford, TopoNetX, z3, hypothesis, networkx, and torch load cleanly; sim_edge_state_writeback.py now reports real failures instead of false-greening.
