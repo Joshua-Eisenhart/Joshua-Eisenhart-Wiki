@@ -55,7 +55,10 @@ S1 3Q minimum floor: committed scratch diagnostic at 6ed5e961e
 S1 q=3 finite-incidence follow-up: committed scratch diagnostic at 53bff741b; PG(3,3) 40/130, quotient 80->40 load-bearing, two-engine Julia+JAX diagnostic mode
 S1 vector-vs-spinor discriminator: committed scratch diagnostic at 236b33b5d; SO(3) vector route closes at 2pi, SU(2) spinor route needs 4pi, named n01_closure_order_gap=1; vectors remain admissible-but-coarser after quotient
 S1 lifted shell ladder n=3: committed scratch diagnostic at 3a53d16af; GENUINE-WITH-CAVEATS, hardened/re-audited, not trend closure
-S1 lifted shell ladder n=4: committed scratch diagnostic at b489b5c22; GENUINE-WITH-CAVEATS, validator ok with --require-pytorch --strict-source-backed; G4/G5 remain open and G6-G8 caveats carried
+S1 lifted shell ladder n=4: committed scratch diagnostic at 30d21022e; GENUINE-WITH-CAVEATS, validator ok with --require-pytorch --strict-source-backed; G6 stored max-clique receipt and G8 function-level tool calls closed; G4/G5/G7 remain open by name
+S1 n=3 raw-object bracketing SMT: committed scratch diagnostic at 19b709c15; G5 closed for committed n=3 only, not n=4/n=5 or stage closure
+S1 lifted shell ladder n=5: live/untracked at wiki sync; partial builder output only, stale n4 build card observed, no audit/commit here
+Fable pressure receipt: committed at 474d5925a; preserves register-width and 720-loop live readings/falsifiers as design pressure, not sim evidence
 S10 G2-family mine: committed routing receipt at b184e7357; family map only, no variant promoted
 S2 connection/flux/foliation: committed scratch diagnostic; later tool-route upgrade at 529f1a918 adds Grassmann.jl exterior-calculus F=dA mirror
 current ceiling for all of the above: promotion_allowed=false, formal_admission_allowed=false

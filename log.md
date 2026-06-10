@@ -1,3 +1,9 @@
+## 2026-06-10 - Codex Ratchet latest geometry/lifted-ladder sync through Fable pressure
+
+- Updated [[projects/codex-ratchet/geometry-sim-closeout-and-lifted-ladder-status-2026-06-10]] after repo verification through commit `474d5925a`. The page now includes hardened n4 (`30d21022e`), n=3 raw-object bracketing SMT G5 closure (`19b709c15`), capability/blind-anchor receipts (`cf558ccf7`, `6744ec2b8`), and the Claude Code / Fable pressure receipt (`474d5925a`).
+- Patched [[projects/codex-ratchet/read-first]], [[projects/codex-ratchet/geometry-sim-program-canonical-2026-06-10]], [[projects/codex-ratchet/s1-qubit-ladder-f01-n01-t01-2026-06-10]], and [[index]] so future workers do not load the earlier b489/n4-in-flight status as current.
+- Preserved live blockers explicitly: `geo_network_shell_coordinate_v0` was untracked with `all_pass=false`; `geo_s1_coord_state_families_v0` was untracked with builder envelope `all_pass=true` but audit still live; `geo_s1_q4_finite_incidence_v0` was source/build-card only; `stage_lifted_spinor_shell_n5_v0` was partial and still had a stale n4 build card; capability-triage reconciliation was active and uncommitted. None of these are admitted or committed by this wiki tranche.
+
 ## 2026-06-10 - Codex Ratchet geometry/lifted-ladder repo sync
 
 - Added [[projects/codex-ratchet/geometry-sim-closeout-and-lifted-ladder-status-2026-06-10]] after repo verification through commit `b489b5c22`. The page groups the committed scratch-diagnostic tranche: toolset expansion (`7bdd92f31`), S10 G2-family mine (`b184e7357`), first lifted `n=3` shell rung (`3a53d16af`), S1/S2 tool-route upgrades (`529f1a918`), q=3 finite-incidence follow-up (`53bff741b`), vector-vs-spinor discriminator (`236b33b5d`), and lifted `n=4` shell rung (`b489b5c22`).
