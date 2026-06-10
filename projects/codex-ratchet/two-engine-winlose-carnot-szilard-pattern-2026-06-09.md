@@ -164,6 +164,27 @@ These orders must be preserved separately from the unordered four-word alphabet.
 
 ## Loop-readout map
 
+The loop order determines the active readout rhythm:
+
+```text
+Deductive order Se -> Ne -> Ni -> Si gives alternating:
+LOSE -> WIN -> LOSE -> WIN
+or lowercase lose -> win -> lose -> win.
+
+Inductive order Se -> Si -> Ni -> Ne gives paired blocks:
+WIN -> WIN -> LOSE -> LOSE
+or lowercase win -> win -> lose -> lose.
+```
+
+So the invariant is:
+
+```text
+deductive cycle = alternating readout
+inductive cycle = paired/block readout
+```
+
+Engine type determines which rhythm is outer vs inner and which casing appears. Avoid the loose phrase "engine type only sets phase" unless `phase` is explicitly defined as loop/sheet placement.
+
 Type 1 placement:
 
 ```text
