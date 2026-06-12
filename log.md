@@ -1,8 +1,8 @@
 ## 2026-06-12 - Codex Ratchet Axis0 static-depth re-scope and dynamic chart v0 wiki sync
 
-- Added [[projects/codex-ratchet/axis0-static-shallowness-and-dynamic-chart-v0-2026-06-12]] after repo verification at `d6031772a`. The page routes the binding owner correction, 60-row static-shallowness audit, dynamic manifold upgrade design, and `manifold_dynamic_chart_v0` audit verdict into one conservative wiki surface.
+- Added [[projects/codex-ratchet/axis0-static-shallowness-and-dynamic-chart-v0-2026-06-12]] after repo verification at `eb51339c0`. The page routes the binding owner correction, 60-row static-shallowness audit, dynamic manifold upgrade design, and `manifold_dynamic_chart_v0` audit verdict into one conservative wiki surface.
 - Patched [[projects/codex-ratchet/read-first]], [[axis0-current-doctrine-state-card]], [[projects/codex-ratchet/current-decisive-frame-loader-2026-06-06]], and [[index]] so older Axis0-positive/proxy wording does not override the current receipt state.
-- Preserved the ceiling: old Axis0 estate = static formula taxonomy on the 33-cell carrier; `manifold_dynamic_chart_v0` = committed validator-green `scratch_diagnostic` first dynamic chart attempt; no Axis0 admission, no `M(C)` admission, no bridge, no physics, and no final substrate choice.
+- Preserved the ceiling: old Axis0 estate = static formula taxonomy on the 33-cell carrier; `manifold_dynamic_chart_v0` = committed validator-green `GENUINE-WITH-CAVEATS` protocol machinery but `NO-STABLE-DISTINCTION-YET` readout; no Axis0 admission, no `M(C)` admission, no bridge, no physics, and no final substrate choice.
 
 ## 2026-06-10 - Codex Ratchet latest geometry/lifted-ladder sync through Fable pressure
 

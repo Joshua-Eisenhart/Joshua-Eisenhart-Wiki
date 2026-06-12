@@ -558,6 +558,6 @@
 - Correction preserved: every rung needs F01 finitude receipt, N01 noncommutation receipt that does not collapse into anticommutation, and T01 bracketing/nonassociativity boundary receipt. S2 runtime remains gated behind selected S1 ladder target.
 
 ## Manual Hermes update 2026-06-12Trepo-wiki-repair
-- Added [[projects/codex-ratchet/axis0-static-shallowness-and-dynamic-chart-v0-2026-06-12]] after checking Codex-Ratchet repo HEAD `d6031772a`, clean repo status, `wizard_loop_state.py` open lanes empty, and dynamic chart validator/tests/generic validator green.
-- Patched [[projects/codex-ratchet/read-first]], [[axis0-current-doctrine-state-card]], [[projects/codex-ratchet/current-decisive-frame-loader-2026-06-06]], [[index]], and [[log]] to preserve the 2026-06-12 Axis0 re-scope: old estate is static formula taxonomy; dynamic chart v0 is scratch diagnostic only.
+- Added [[projects/codex-ratchet/axis0-static-shallowness-and-dynamic-chart-v0-2026-06-12]] after checking Codex-Ratchet repo HEAD `eb51339c0`, clean repo status, `wizard_loop_state.py` open lanes empty, and dynamic chart validator/tests/generic validator green.
+- Patched [[projects/codex-ratchet/read-first]], [[axis0-current-doctrine-state-card]], [[projects/codex-ratchet/current-decisive-frame-loader-2026-06-06]], [[index]], and [[log]] to preserve the 2026-06-12 Axis0 re-scope: old estate is static formula taxonomy; dynamic chart v0 is `GENUINE-WITH-CAVEATS` protocol machinery but `NO-STABLE-DISTINCTION-YET` readout.
 - Left unrelated wiki untracked surfaces untouched: `codex-ratchet-research/` and `hermes-current/recovered-swe-friend-explanation-2026-06-12.md`.

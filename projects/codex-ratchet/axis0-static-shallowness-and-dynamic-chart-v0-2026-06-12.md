@@ -12,7 +12,7 @@ claim_ceiling: wiki routing and repo receipt synthesis only; no Axis0 admission
 
 Checked from `/Users/joshuaeisenhart/Codex-Ratchet` on 2026-06-12:
 
-- Repo HEAD: `d6031772a` — `dynamic chart v0 audited scratch diagnostic`.
+- Repo HEAD: `eb51339c0` — `dynamic chart v0 AUDITED GENUINE-WITH-CAVEATS machinery / NO-STABLE-DISTINCTION-YET readout`.
 - Repo worktree: clean at check time.
 - `scripts/wizard_loop_state.py --repo . --commits 12 --json-indent 2`: `open_lanes=[]`, `modified_tracked_files=[]`.
 - `system_v6/sims/manifold_dynamic_chart_v0/validate_manifold_dynamic_chart_v0.py`: `ok=true`, `errors=[]`.
@@ -29,12 +29,12 @@ The 2026-06-12 correction changes the Axis0 reading:
 - It measured a static synthetic coordinate polynomial and formula relatives on the 33-cell carrier.
 - Those packets remain computationally useful as formula taxonomy and proxy/readout history, but they are not allostasis/homeostasis measurements.
 - The static-shallowness audit found the problem is real but not universal: some packets are static by nature and should stay static; some are one-step witnesses; some are genuinely dynamic finite trajectories.
-- `manifold_dynamic_chart_v0` is the first committed dynamic rebuild attempt at chart scale, but it is still only `scratch_diagnostic`.
+- `manifold_dynamic_chart_v0` is the first committed dynamic rebuild attempt at chart scale. It earns `GENUINE-WITH-CAVEATS` protocol machinery, but the readout itself is `NO-STABLE-DISTINCTION-YET`: the bridge class is near-constant (`32/33` `SPREAD`, `1/33` `DAMP`) and the region classifier returns `DAMP` for all three entropy regions.
 
 Safe current wording:
 
 ```text
-Axis0 remains unadmitted. The old Axis0 packets are static formula taxonomy on the 33-cell carrier. Dynamic chart v0 is a real first state-derived perturb-watch-classify chart diagnostic, not Axis0 closure.
+Axis0 remains unadmitted. The old Axis0 packets are static formula taxonomy on the 33-cell carrier. Dynamic chart v0 is real protocol machinery on evolving states, but it has not yet produced a stable Axis0 distinction.
 ```
 
 ## Repo authority anchors
@@ -50,8 +50,8 @@ Axis0 remains unadmitted. The old Axis0 packets are static formula taxonomy on t
 - `system_v6/receipts/dynamic_manifold_upgrade_design_20260612.md`
   - Design receipt: minimal honest upgrade = dynamic state object, state-derived entropy field, dynamic shells, j/k future multiplicity, perturb-watch-classify response protocol.
 - `system_v6/sims/manifold_dynamic_chart_v0/audit_verdict.md`
-  - Verdict: pass as `scratch_diagnostic`, with caveats.
-  - Accepted only as first dynamic measurement attempt over the Family A 33-cell chart.
+  - Verdict: `GENUINE-WITH-CAVEATS` as protocol machinery, but `NO-STABLE-DISTINCTION-YET` as a dynamic per-cell/Axis0 readout.
+  - Accepted only as first dynamic measurement protocol over the Family A 33-cell chart.
   - No Axis0 admission, no manifold admission, no bridge evidence, no physics evidence, and no final substrate choice.
 
 ## Dynamic chart v0: what is real
@@ -74,7 +74,9 @@ Important negative/ceiling:
 - `classification = scratch_diagnostic`.
 - `promotion_allowed = false`.
 - `formal_admission_allowed = false`.
+- v0 did not produce a stable per-cell Axis0 distinction: bridge classes are near-constant (`32/33` `SPREAD`, `1/33` `DAMP`) and region classes are all `DAMP`.
 - Old static `phi` is not rescued: local bridge accuracy was `0.454545454545` against majority baseline `0.969696969697`, with `predicts_above_chance=false`.
+- That old-`phi` negative is local and weak because the target class is near-constant; it is not strong evidence against a meaningful nondegenerate dynamic classifier.
 
 ## Static vs one-step vs dynamic routing
 
