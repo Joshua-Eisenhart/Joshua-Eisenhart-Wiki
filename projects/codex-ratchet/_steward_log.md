@@ -556,3 +556,8 @@
 - Patched [[projects/codex-ratchet/read-first]], [[projects/codex-ratchet/geometry-sim-program-canonical-2026-06-10]], [[index]], [[hermes-current/active-intentions]], and [[hermes-current/environment-and-rules]] to route through the S1 ladder gate.
 - Checked repo state before writing: `geo_s1_exact_closure_v0` committed at `6489a6929`; `geo_s1_three_qubit_floor_exact_v0` committed at `6ed5e961e`; S2 spec prep committed at `555ab9c2c`; `geo_s1_two_qubit_boundary_exact_v0` live/untracked at write time.
 - Correction preserved: every rung needs F01 finitude receipt, N01 noncommutation receipt that does not collapse into anticommutation, and T01 bracketing/nonassociativity boundary receipt. S2 runtime remains gated behind selected S1 ladder target.
+
+## Manual Hermes update 2026-06-12Trepo-wiki-repair
+- Added [[projects/codex-ratchet/axis0-static-shallowness-and-dynamic-chart-v0-2026-06-12]] after checking Codex-Ratchet repo HEAD `d6031772a`, clean repo status, `wizard_loop_state.py` open lanes empty, and dynamic chart validator/tests/generic validator green.
+- Patched [[projects/codex-ratchet/read-first]], [[axis0-current-doctrine-state-card]], [[projects/codex-ratchet/current-decisive-frame-loader-2026-06-06]], [[index]], and [[log]] to preserve the 2026-06-12 Axis0 re-scope: old estate is static formula taxonomy; dynamic chart v0 is scratch diagnostic only.
+- Left unrelated wiki untracked surfaces untouched: `codex-ratchet-research/` and `hermes-current/recovered-swe-friend-explanation-2026-06-12.md`.

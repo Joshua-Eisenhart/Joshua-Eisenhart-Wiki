@@ -13,6 +13,8 @@ claim_ceiling: wiki salience and source-routing only; no admission
 
 The current missing object is the finite geometric constraint manifold `M(C)`.
 
+2026-06-12 Axis0 correction: the old Axis0 packet estate did not build Axis0 proper. It measured a static synthetic coordinate polynomial and formula relatives on a fixed 33-cell carrier. `manifold_dynamic_chart_v0` is the first committed state-derived dynamic chart attempt, but it is still `scratch_diagnostic` only: no Axis0 admission, no `M(C)` admission, no bridge, no physics, and no final substrate choice. Route through [[projects/codex-ratchet/axis0-static-shallowness-and-dynamic-chart-v0-2026-06-12]] before using older Axis0 pages.
+
 `M(C)` remains **not admitted** and unbuilt as a finite construction. Nothing downstream gets promoted until the finite object exists with support, constraints, probes, quotient, admissibility, composition/bracketing, local readouts, controls, and receipts.
 
 The owner thesis is one proposed finite constraint / carrier / geometry object with many readout languages.

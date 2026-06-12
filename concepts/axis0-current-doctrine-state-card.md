@@ -20,9 +20,14 @@ earned/open/killed language as historical support without pretending the open
 bridge and cut problems are already solved.
 
 ## Current v5/v6 pointer
+
+2026-06-12 binding repo correction: Axis0 remains **unbuilt**. The old Axis0 anchor and contender/amendment/cosurvivor estate are now citable only as `static_proxy_readout_candidate_only` / static formula taxonomy on the 33-cell carrier. They did not measure allostasis/homeostasis because no entropy field was computed from evolving states, shells were static labels, and no j/k future multiplicity or perturb-evolve-classify response loop existed.
+
+Current positive-but-fenced update: `manifold_dynamic_chart_v0` is committed at repo HEAD `d6031772a` as a `scratch_diagnostic` first dynamic measurement attempt. It uses state-derived local von Neumann entropy, moving shells, j/k future rows, and perturb-watch-classify rows on the Family A 33-cell chart. It is not Axis0 admission, `M(C)` admission, bridge evidence, physics evidence, or final substrate choice. See [[projects/codex-ratchet/axis0-static-shallowness-and-dynamic-chart-v0-2026-06-12]].
+
 For older v5 evidence and validator state, use [[specs/codex-ratchet/sim-estate-integration-status]] and [[specs/codex-ratchet/formal-scout-readiness-status]].
 
-2026-06-09 v6 terrain hardening update:
+2026-06-09 v6 terrain hardening update, now historical/proxy-only under the 2026-06-12 correction:
 
 ```text
 /Users/joshuaeisenhart/Codex-Ratchet/system_v6/sims/terrain_generator_sheet_packet/results/terrain_generator_sheet_packet_envelope_results.json
@@ -44,7 +49,7 @@ Se: -
 Si: -
 ```
 
-Do not overstate this as all entropy/norm measures. The same result reports that `trace_norm` and `observable_spread_entropy` do not realize the doctrine pattern. Current safe statement: Axis0 polarity is supported as a diversity/participation readout in this terrain packet, not as final Axis0 closure.
+Do not overstate this as all entropy/norm measures. The same result reports that `trace_norm` and `observable_spread_entropy` do not realize the doctrine pattern. Under the 2026-06-12 correction, the safe reading is narrower: this is historical/proxy terrain evidence, not Axis0 closure or an allostasis/homeostasis measurement.
 
 The latest mirrored v5 sim-estate status keeps Axis0 `open_partial`, not solved.
 
