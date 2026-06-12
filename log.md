@@ -1,3 +1,9 @@
+## 2026-06-12 - Codex Ratchet sim validity and QIT-engine overlay
+
+- Added [[projects/codex-ratchet/current-sim-validity-and-qit-engine-state-2026-06-12]] after live repo verification at `3ea65f7b3`. The page routes Lane A/B/C/D validity audits, the correction overlay, Panel 10, governance alternatives, campaign completeness critique, and the untracked `manifold_dynamic_chart_v1/` state into one conservative current-state surface.
+- Patched [[projects/codex-ratchet/read-first]], [[axis0-current-doctrine-state-card]], and [[index]] so broad sim/QIT-engine status loads the correction overlay before older Axis0-positive, b6, one-step witness, or foundation-scaffold citations.
+- Preserved the ceiling: many sims are real bounded `scratch_diagnostic` computations; no QIT-engine, Axis0, bridge, physics, or full/admitted `M(C)` claim is admitted. ECD.01 order programmability is the only clean positive QIT-like capability witness checked here. Lane E was launched for missed sim dirs, so the estate is not yet fully audited.
+
 ## 2026-06-12 - Codex Ratchet Axis0 static-depth re-scope and dynamic chart v0 wiki sync
 
 - Added [[projects/codex-ratchet/axis0-static-shallowness-and-dynamic-chart-v0-2026-06-12]] after repo verification at `eb51339c0`. The page routes the binding owner correction, 60-row static-shallowness audit, dynamic manifold upgrade design, and `manifold_dynamic_chart_v0` audit verdict into one conservative wiki surface.
@@ -115,7 +121,7 @@
 
 - Ran bounded Wizard maintenance-governor pass on `/Users/joshuaeisenhart/wiki` after user requested wiki/repo/git cleanup. `/Users/joshuaeisenhart/wiki` and `/Users/joshuaeisenhart/Wiki` are the same directory inode. At that point neither contained a `.git` repo and neither parent was a git worktree, so no git staging/commit/clean operation was possible or attempted in that tranche.
 - Wiki probe clean before and after the cleanup cluster and final log write: `page_count=439`, `index_header_count=439`, and `0` missing pages, orphans, broken links, stubs, malformed wikilinks, or stale namespace wikilinks. Receipts: `/tmp/wiki_probe_20260609_maintenance.json`, `/tmp/wiki_probe_20260609_maintenance_post_ds_store.json`, and `/tmp/wiki_probe_20260609_maintenance_final.json`.
-- Removed 72 Finder `.DS_Store` cache files from the wiki tree. No markdown/source/result pages were deleted. Targeted stale-route scans found no `C=>Basin proven` / `C⇒Basin proven`, no unguarded `Axis0 is solved`, and no stale Wizard-current phrases checked in this tranche.
+- Removed 72 Finder `.DS_Store` cache files from the wiki tree. No markdown/source/result pages were deleted. Targeted stale-route scans found no `C=>Basin proven` / `C⇒Basin proven`, no unguarded solved-Axis0 phrase, and no stale Wizard-current phrases checked in this tranche.
 - Superseded by the git-bootstrap tranche above: the wiki now has a local git repo; remote attachment and bulk corpus staging remain explicit staged decisions.
 
 ## 2026-06-08 - Repo/Codex skill parity maintenance
