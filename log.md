@@ -1,3 +1,9 @@
+## 2026-06-12 - Runtime flux floor correction and live 3Q handoff capture
+
+- Verified the Claude handoff against `/Users/joshuaeisenhart/Codex-Ratchet` after commit `6a093b2a5`. Stable committed anchors now include the nesting-law spec (`afe7aa57b`), 3Q floor repair (`5544ad21c` + ledger `e0485feec`), <=2Q tower computation (`28052037d` + ledger `241d36267`), fresh-context checks-on-checks (`10bf57a1f`), and the flux-row rescope (`6a093b2a5`).
+- Patched [[projects/codex-ratchet/nested-ratcheted-manifold-hypothesis-research-workbench-2026-06-12]] and [[projects/codex-ratchet/read-first]] with the durable correction: Hopf curvature is early geometric flux, but real QIT/runtime/cut/chirality flux is a 3Q-floor target gated on 3Q freeze/cuts; do not use 2Q flux as the runtime-flux target.
+- Preserved live-state labels: `gcm_3q_freeze_and_cuts_v0` and `gcm_nesting_tower_le3q_v0` were running with no committed closeout at verification time; `gcm_g2_licensing_attach_v0` had validator-clean artifacts on disk but its builder was still live and no `audit_verdict.md`, so it is `artifact-present / validator-clean / live`, not closed.
+
 ## 2026-06-12 - Nested ratcheted manifold hypothesis research workbench
 
 - Added [[projects/codex-ratchet/nested-ratcheted-manifold-hypothesis-research-workbench-2026-06-12]] after the owner corrected the flat/implicit sim-plan framing. The page preserves a non-canonical proposed final object: a finite compatible survivor tower over all nonempty subsystems through 8Q(+), with partial-trace/probe-quotient compatibility and induced geometry recomputed after every ratchet constraint.

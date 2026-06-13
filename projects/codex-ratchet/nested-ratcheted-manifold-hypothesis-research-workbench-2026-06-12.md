@@ -47,6 +47,34 @@ Research anchors seeded by web search, not yet fully ingested:
 
 These research anchors are **to be verified and quoted in a later research tranche**. They are not enough by themselves to promote the model.
 
+## Repo sync — 2026-06-12 live handoff verification
+
+Verified from `/Users/joshuaeisenhart/Codex-Ratchet` after a Claude handoff, not accepted from prose alone.
+
+Stable committed anchors now include:
+
+- `afe7aa57b` — `nesting_law_final_object_spec_20260612.md` registered the final-object nesting law as a hypothesis/spec.
+- `5544ad21c` + `e0485feec` — `gcm_constraint_carve_3q_v1` repaired the 3Q floor as a state-artifacted count fixture; GHZ/W matrix corrected; CKW monogamy earned on stored states; v0 headline demoted.
+- `28052037d` + `241d36267` — `gcm_nesting_tower_le2q_v0` committed the first tower computation: exact compatibility gives the product sub-tower; probe quotient admits the entangled rows; root axiom is load-bearing at this scope.
+- `10bf57a1f` — fresh-context checks-on-checks verified the deep results and recorded the chirality swap-control caveat.
+- `6a093b2a5` — climb ledger re-scoped the flux row after owner correction: **real QIT/runtime flux is a 3Q-floor target**, gated on 3Q freeze/cuts; the 2Q geometric-flux cell is deprioritized and the failed flux@2Q lane was not respawned.
+
+Active/live at verification time:
+
+- `gcm_3q_freeze_and_cuts_v0` process running; no committed closeout yet.
+- `gcm_nesting_tower_le3q_v0` process running; no committed closeout yet.
+- `gcm_g2_licensing_attach_v0` artifact present and validator-clean on disk, but builder still live and no `audit_verdict.md`; classify as `artifact-present / validator-clean / live`, not closed.
+
+Flux correction to preserve:
+
+```text
+Hopf curvature flux = early geometric flux on the Hopf/projective connection.
+Runtime/QIT/cut/chirality flux = at least 3Q, requiring the 3Q freeze/cuts, Cl(6)/C^8 floor, and runner/cut structure.
+Do not use a 2Q flux packet as the target for real runtime flux.
+```
+
+This patch updates the workbench routing only. It does not promote the hypothesis to canon.
+
 ---
 
 # 1. The proposed final nested object
