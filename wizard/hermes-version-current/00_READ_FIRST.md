@@ -10,6 +10,10 @@ updated: 2026-05-04
 
 This folder adapts the Wizard idea to Hermes.
 
+## Current version boundary
+
+Current Hermes Wizard binding is **v4.3-gated v4.2**. v4.3 is the required current-task object-preservation gate for object-bearing work; v4.2 remains the council/runtime/output machinery. Do not say “current Wizard is v4.2” without the v4.3 gate, and do not call a v4.3 validator example/selftest a real task run.
+
 ## Authority boundary
 
 For live Hermes behavior:
@@ -47,6 +51,8 @@ Use it as a source to mine mechanisms.
 
 Do not load Codex Ratchet's AGENTS/process docs as Hermes authority by default.
 Use them to import proven mechanisms with boundaries.
+
+For explicit Wizard/current-Wizard/object-bearing work, load `15_HERMES_WIZARD_V4_3_OBJECT_PRESERVATION.md` before the v4.2 bridge and packet surfaces so the task object is preserved before councils consume it.
 
 ## Working rule
 

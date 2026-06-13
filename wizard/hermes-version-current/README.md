@@ -61,8 +61,9 @@ For Hermes, that means:
 - Hermes Wizard is a composable controller over standalone skill, agent, model, and tool routes. Each component should remain usable on its own; Wizard composes them only when composition changes the answer, verification, or next move.
 - Hermes Wizard may also act as a maintenance governor for Hermes, its durable memory, skills, subagent ledger, and wiki spine. That role coordinates existing Hermes surfaces; it does not replace `HERMES.md`, `SOUL.md`, memory tooling, skills, or `hermes-current/` authority.
 - `full` and `auto` are breadth selectors, not truth labels. `full` attempts all admitted relevant councils/lanes/skills for the declared scope. `auto` selects only routes likely to change the answer. A decision-relevant skipped route must stay visible as `not_run` or `deferred` with a reason.
-- Wizard v4.2/current topology is three distinct LLM councils in sequence: Decision -> Failure -> Follow-Up;
-- Wizard v4.2 supplies the current loop topology and visible output contract; Hermes needs the v4.2 native bridge to map that topology onto Hermes tools, cron, workers, premortem, and route truth;
+- Current Wizard binding is **v4.3-gated v4.2**: v4.3 validates the current-task object card before object-bearing work, while v4.2 supplies the council/runtime/output machinery;
+- Wizard v4.2 topology is three distinct LLM councils in sequence: Decision -> Failure -> Follow-Up;
+- Hermes needs the v4.2 native bridge to map that topology onto Hermes tools, cron, workers, premortem, and route truth after the v4.3 object-preservation gate has passed;
 - wide parallel parent/member and child/subchild work belongs inside each council when the runtime supports it;
 - premortem is an essential Failure Council member for substantive Wizard runs, and Follow-Up must not render options until open premortem findings are mapped to stop conditions, required hardening, out-of-scope, or dismissed-by-artifact;
 - RLM-FORGE/Ouroboros are source models for evidence-gated recursion and replayable child evidence handles, not default Hermes authority;

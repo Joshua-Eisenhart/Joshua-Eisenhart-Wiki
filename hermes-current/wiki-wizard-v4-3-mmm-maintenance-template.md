@@ -75,7 +75,7 @@ Before task-specific rules, preload MMM salience:
 
 Run preflight checks:
 1. Run wiki_probe.py and save a /tmp preflight receipt.
-2. Run the repo v4.3 validator from /Users/joshuaeisenhart/Desktop/Codex Ratchet:
+2. Run the repo v4.3 validator from `/Users/joshuaeisenhart/Codex-Ratchet`:
    python3 scripts/wizard_v4_3_object_preservation.py validate --input /Users/joshuaeisenhart/wiki/wizard/hermes-version-current/packets/hermes_v4_3_retrocausal_object_card.json
 3. Run the positive-field drift scan on the v4.3 object card: PEPS3D must not appear in plain_language_definition, allowed_operations, or adapter_policy.
 

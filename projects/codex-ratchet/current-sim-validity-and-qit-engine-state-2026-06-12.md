@@ -1,7 +1,7 @@
 ---
 title: Current Sim Validity and QIT Engine State
 created: 2026-06-12
-updated: 2026-06-12
+updated: 2026-06-13
 type: project
 tags: [simulation, qit, audit, status, engines, geometry, validation]
 framing: current
@@ -15,17 +15,22 @@ sources:
   - /Users/joshuaeisenhart/Codex-Ratchet/system_v6/receipts/campaign_completeness_critique_20260612.md
   - /Users/joshuaeisenhart/Codex-Ratchet/system_v6/receipts/panel10_blind_separation_methods_20260612.md
   - /Users/joshuaeisenhart/Codex-Ratchet/system_v6/receipts/governance_unification_altviews_20260612.md
+  - /Users/joshuaeisenhart/Codex-Ratchet/system_v6/receipts/fresh_validator_red_list_20260613.md
+  - /Users/joshuaeisenhart/Codex-Ratchet/system_v6/receipts/rpf_claim_ceiling_reframe_20260613.md
+  - /Users/joshuaeisenhart/Codex-Ratchet/system_v6/receipts/engine_consensus_relabel_20260613.md
 ---
 
 # Current Sim Validity and QIT Engine State
 
 ## Checked state
 
-Checked from `/Users/joshuaeisenhart/Codex-Ratchet` on 2026-06-12:
+Checked from `/Users/joshuaeisenhart/Codex-Ratchet` on 2026-06-13 after repo sync:
 
-- Repo HEAD at check time: `3ea65f7b3` — `THE CORRECTION OVERLAY v1 committed`.
-- Repo worktree at check time: untracked `system_v6/sims/manifold_dynamic_chart_v1/` only.
-- Wiki probe before this page: `page_count=439`, `index_header_count=439`, `broken_links=0`, `orphans=0`, `stubs=0`.
+- Repo HEAD after closeout: `52b1fe9b9` — `closeout: add 8q carve and 16-stage mismatch receipts`.
+- Prior closeout commit `c5e63eb2c` landed the RPF closeout, validator fixes, fresh red-list receipt, and engine-independence framing repair.
+- Controller reran the untracked green packet validators before commit: `engine_16_stage_definition_correspondence_v0` returned `ok:true`; `gcm_constraint_carve_8q_v0` returned `ok:true`; `scripts/build_three_engine_envelope.py` passed `py_compile`.
+- Stored validator JSONs now show 4 red rows (`basin_two_engine_joint_v0`, `gcm_5q_freeze_and_cuts_v0`, `gcm_nested_geometry_delta_4q_v0`, `ring_checkerboard_automaton_v0`). The broader fresh-red-list receipt remains the closure-debt source because some validators rewrite byproducts or print irregular output.
+- Remaining untracked repo roots at this sync were not staged: `docs/`, `gcm_3q_freeze_carve_sha_drift_diagnosis_20260613.md`, `gcm_5q_freeze_and_cuts_v0/`, `gcm_nested_geometry_delta_4q_v0/`, `manifold_dynamic_chart_v2/`, `retrocausal_possibility_field_v2_contraction/`, `retrocausal_possibility_field_v2_info_gradient/`, and `rpf_dual_chiral_engines_v0/`.
 - This page is a router/synthesis over repo receipts. It does not promote any result.
 
 Read this with [[projects/codex-ratchet/read-first]], [[projects/codex-ratchet/axis0-static-shallowness-and-dynamic-chart-v0-2026-06-12]], [[constraint-manifold-architecture]], and [[model-convergence-qit-engine-full-stack]].
@@ -33,6 +38,8 @@ Read this with [[projects/codex-ratchet/read-first]], [[projects/codex-ratchet/a
 ## Bottom line
 
 The sims are much more real than “toy notes,” but much less real than admitted theory. The best packets are real bounded computations with validators, source hashes, controls, and scratch ceilings. The current project is still at `lego` stage: axis, bridge, engine, `M(C)`, physics, and QIT-engine claims are blocked unless they are explicitly ceiling-labeled as diagnostics or witnesses.
+
+The 2026-06-13 closeout sharpened one important claim: RPF packets earn a bounded global co-admissibility / lookahead separation, but the stronger retrocausal, chiral, future-conditioned, or backward-influence reading is not earned at the current scratch ceiling. The new 8Q packet is a lean count fixture, not an 8Q freeze or geometry admission. The new 16-stage packet is a mismatch/proposal receipt, not Matrix64 or QIT-engine admission.
 
 The binding read-through layer is `system_v6/receipts/correction_overlay_v1_20260612.md`. It does not rewrite old artifacts. It changes how they must be cited:
 
@@ -51,6 +58,7 @@ What exists:
 2. QIT object/channel scouts exist and validate at scratch ceilings, including pinned density entropy and CPTP dephasing rows.
 3. Carnot/Szilard material is useful as legality/ledger/witness design and bounded basin-cycle accounting, not heat/work thermodynamics and not a QIT engine.
 4. `engine_64_stage_full_run_v0` is real finite 64-schedule trajectory evidence, but still thin for strict rich-tool/source-backed engine claims and must not be cited as engine-stage admission.
+5. `engine_16_stage_definition_correspondence_v0` is a validator-green mismatch/proposal receipt: useful for naming the 16-stage definition problem, not for engine admission.
 
 So the safe sentence is:
 
@@ -67,6 +75,7 @@ These are the most real rows: they computed a bounded object, kept the ceiling h
 - Geometry/topology/manifold lane: Lane A audited `73` packet directories; `66` were `VALID` at scratch ceilings. Strongest examples include S1 exact closure, S1/S2 geometry rows, S7 discrete refinement, S10 G2 family, lifted spinor-shell `n=3..8`, `geo_bracketing_smt_lifted_v0`, `manifold_ab_weld_relation_v0`, `manifold_super_sim_v2_weld`, and current spinor-network surface v1-v3 diagnostics.
 - SMT/proof teeth sampled by Lane A are load-bearing where they bind measured values and flip under erased/perturbed controls.
 - `ecd01_order_programmable_computer_v1` is the cleanest positive QIT-capability witness.
+- `gcm_constraint_carve_8q_v0` is validator-green as a lean state-fingerprinted 8Q count fixture under scratch ceiling; it is not 8Q freeze, geometry, bridge, or `M(C)` admission.
 - `basin_grid_refinement_control_v0`, `basin_two_engine_joint_v4_within_sector_v0`, `carnot_szilard_basin_cycle_v0`, and `entropy_type_ratchet_v2` are valid within their named ceilings.
 - `manifold_dynamic_chart_v0` is real protocol machinery: evolving density states, state-derived entropy, moving shells, j/k future rows, and perturb-watch-classify rows. Its readout did not separate Axis0.
 
@@ -80,6 +89,7 @@ These rows did work but need renaming, rerun, stronger controls, or narrower cit
 - Axis4/5/6, QCA v2/v3, render v1, and similar rows are one-step witnesses unless a trajectory packet is cited.
 - `engine_64_stage_full_run_v0` has real finite schedule/trajectory rows, but strict rich-tool/source-backed evidence is thin.
 - Backend-independence claims are often weaker than envelope wording because several packets share builders or pinned parent objects.
+- RPF v0-v5 packets are real bounded computations. The earned floor is lookahead/global co-admissibility separation; robust irreducible retrocausal/future-conditioned upgrade is killed or left family-dependent at this ceiling.
 
 ### C. Misaligned / shallow / citation-danger
 
@@ -90,6 +100,7 @@ These are useful only after the correction overlay is applied.
 - `working_math_scaffold_20260609.md`: valuable mixed scaffold, but provenance-inflated; owner quotes, standard math, assistant operationalization, and disowned rows must be separated.
 - `receipts_index_20260612.md` older rows: use them through `correction_overlay_v1_20260612.md` first.
 - Axis-named and engine-named v6 receipts are labels/diagnostics unless the stage gate and claim ceiling explicitly admit stronger use.
+- RPF terms such as `retrocausal`, `chiral`, `future-conditioned`, and `backward influence` are owner-model interpretation unless the citation also states the sim-earned floor and current negative irreducibility result.
 
 ### D. Broken / red / must not be cited green
 
@@ -105,6 +116,7 @@ These are useful only after the correction overlay is applied.
 - `system_v6/optional/` and `system_v6/probes/` were not fully covered by Lanes A-D.
 - Script internals, bridge bots/security, dependency integrity, and checks-on-checks were registered as future/follow-on lanes.
 - Governance remains owner-choice among three designs: Semantic Ceiling, Nominal Conformity, and Authority Bit.
+- Untracked/deferred repo roots remain quarantine material until their validators/audit headers/claim ceilings are repaired or the owner explicitly asks to commit negative feedstock.
 
 ## Throughput / unlock ranking
 
@@ -119,7 +131,7 @@ These are useful only after the correction overlay is applied.
 ## Safe public wording
 
 ```text
-Current repo state: many sim packets are real bounded scratch computations, especially the geometry/topology/manifold estate and a few engine/QIT witnesses. Nothing admits QIT engines, Axis0, bridge, physics, or full M(C). The strongest positive QIT-like result is bounded ECD.01 order programmability. The biggest correction is that older Axis0 rows are static proxy/formula taxonomy and must be cited through the correction overlay. The next real unlocks are source-freshness gates, claim-ceiling/stage unification, rich-tool proof, and Lane E coverage.
+Current repo state: many sim packets are real bounded scratch computations, especially the geometry/topology/manifold estate and a few engine/QIT witnesses. Nothing admits QIT engines, Axis0, bridge, physics, or full M(C). RPF earns lookahead/global co-admissibility separation but not the retrocausal/chiral/future-conditioned upgrade. The strongest positive QIT-like result is bounded ECD.01 order programmability. The new 8Q carve is a lean count fixture; the new 16-stage correspondence packet is mismatch/proposal. The biggest correction is that older Axis0 rows are static proxy/formula taxonomy and must be cited through the correction overlay. The next real unlocks are source-freshness gates, claim-ceiling/stage unification, rich-tool proof, and Lane E/closure-debt coverage.
 ```
 
 ## Avoid these overclaims

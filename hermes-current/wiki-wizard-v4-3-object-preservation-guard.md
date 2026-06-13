@@ -11,7 +11,7 @@ Use this when:
 
 ## What v4.3 is
 
-Wizard v4.3 is an **additive object-preservation guard that runs before v4.2 councils**. It is not a replacement runtime and not a renamed v4.2 packet. v4.2 Max Assembly stays the council runtime; v4.3 only preserves the primary object so councils cannot drop it or promote a proxy/analogy/metric into canon mid-run.
+Wizard v4.3 is the **current-task object-preservation gate in front of v4.2 councils**. The current binding is **v4.3-gated v4.2**: v4.3 preserves the primary object so councils cannot drop it or promote a proxy/analogy/metric into canon mid-run; v4.2 supplies the council/runtime/output machinery.
 
 Core shape:
 - a primary object card with a stable object statement + `object_statement_sha256` hash;
@@ -24,7 +24,7 @@ For the Codex Ratchet shell model, the preserved object is the finite **retrocau
 
 ## Where authority actually lives (repo, not wiki)
 
-The live v4.3 authority surfaces are repo-held under `~/Desktop/Codex Ratchet`, gated by that repo's `AGENTS.md`:
+The live v4.3 authority surfaces are repo-held under `/Users/joshuaeisenhart/Codex-Ratchet`, gated by that repo's `AGENTS.md`:
 - spec: `system_v5/docs/WIZARD_V4_3_PRIMARY_OBJECT_PRESERVATION_SPEC_20260526.md`
 - validator: `scripts/wizard_v4_3_object_preservation.py`
 - tests: `system_v5/tests/test_wizard_v4_3_object_preservation.py`

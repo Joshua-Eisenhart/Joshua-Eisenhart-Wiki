@@ -41,11 +41,11 @@ updated: 2026-05-16
 
 ## Codex process sources
 
-- `/Users/joshuaeisenhart/Desktop/Codex Ratchet/AGENTS.md`
-- `/Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/ops/SIM_FULL_WIZARD_PARALLEL_RUNBOOK.md`
-- `/Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/docs/ENFORCEMENT_AND_PROCESS_RULES.md`
-- `/Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/docs/LLM_CONTROLLER_CONTRACT.md`
-- `/Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/wizard/bootstrap_cards/schemas/BOOTSTRAP_CARD_SCHEMA_v4_1.yaml`
+- `/Users/joshuaeisenhart/Codex-Ratchet/AGENTS.md`
+- `/Users/joshuaeisenhart/Codex-Ratchet/system_v5/ops/SIM_FULL_WIZARD_PARALLEL_RUNBOOK.md`
+- `/Users/joshuaeisenhart/Codex-Ratchet/system_v5/docs/ENFORCEMENT_AND_PROCESS_RULES.md`
+- `/Users/joshuaeisenhart/Codex-Ratchet/system_v5/docs/LLM_CONTROLLER_CONTRACT.md`
+- `/Users/joshuaeisenhart/Codex-Ratchet/system_v5/wizard/bootstrap_cards/schemas/BOOTSTRAP_CARD_SCHEMA_v4_1.yaml`
 
 ## Skill source family
 

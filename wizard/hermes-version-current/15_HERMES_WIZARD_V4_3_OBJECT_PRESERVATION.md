@@ -6,7 +6,7 @@
 - **Validator**: repo `scripts/wizard_v4_3_object_preservation.py` (sole authority — not forked)
 - **Spec**: repo `system_v5/docs/WIZARD_V4_3_PRIMARY_OBJECT_PRESERVATION_SPEC_20260526.md`
 - **Proven**: selftest ✅ · example ✅ · validate ✅ · loop ✅ — all from a Hermes session
-- **Runtime**: Wizard v4.2 Max-Assembly councils remain the execution runtime; v4.3 is a preflight guard that runs *before* councils to lock the primary object card
+- **Current binding**: v4.3-gated v4.2. v4.3 validates the current-task object card before councils; v4.2 remains the execution/runtime/output machinery.
 
 ## What v4.3 does
 
@@ -30,7 +30,7 @@ The Hermes packet differs from the Codex example packet in:
 ## How to run
 
 ```bash
-cd ~/Desktop/Codex\ Ratchet
+cd /Users/joshuaeisenhart/Codex-Ratchet
 
 # selftest (negative controls)
 python3 scripts/wizard_v4_3_object_preservation.py selftest --out /tmp/v43_selftest.json

@@ -10,7 +10,7 @@ Total published pages: 440. Governance/read-first surfaces are listed separately
 - [[hermes-current/current-vs-legacy]] — authority/provenance ranking
 - [[hermes-current/skills-and-agent-rules]] — how skills and agents should use the wiki
 - [[projects/codex-ratchet/read-first]] — Codex Ratchet project front door after Hermes spine
-- [[projects/codex-ratchet/current-sim-validity-and-qit-engine-state-2026-06-12]] — current sim/QIT-engine validity overlay after repo HEAD `3ea65f7b3`: many real bounded scratch computations, no admitted QIT-engine/Axis0/bridge/physics/full `M(C)`, ECD.01 as the only clean positive QIT-like capability witness, correction overlay binding for stale Axis0/b6/one-step/foundation citations, Lane E still open for missed dirs
+- [[projects/codex-ratchet/current-sim-validity-and-qit-engine-state-2026-06-12]] — current sim/QIT-engine validity overlay, synced after repo HEAD `52b1fe9b9`: many real bounded scratch computations, no admitted QIT-engine/Axis0/bridge/physics/full `M(C)`; RPF earns lookahead/global co-admissibility separation but not retrocausal/chiral/future-conditioned upgrade; 8Q carve is a lean count fixture, 16-stage correspondence is mismatch/proposal, ECD.01 remains the strongest clean positive QIT-like capability witness; correction overlay remains binding for stale Axis0/b6/one-step/foundation citations; broader closure debt remains open
 - [[projects/codex-ratchet/axis0-static-shallowness-and-dynamic-chart-v0-2026-06-12]] — 2026-06-12 Axis0 re-scope and dynamic chart v0 router: old Axis0 estate is static formula taxonomy; `manifold_dynamic_chart_v0` is committed validator-green `GENUINE-WITH-CAVEATS` protocol machinery but `NO-STABLE-DISTINCTION-YET`, not Axis0 or `M(C)` admission
 - [[projects/codex-ratchet/geometry-sim-program-canonical-2026-06-10]] — geometry-first anti-collapse roadmap: exact nested math stack, Bloch-as-quotient correction, Hopf torus double-cover, free/restricted/quotiented/ratcheted sim modes, anticommutation caveat, alternativity correction, refinement/orbit nesting, and no-jargon sim guard
 - [[projects/codex-ratchet/geometry-sim-closeout-and-lifted-ladder-status-2026-06-10]] — 2026-06-10 repo/wiki sync for committed geometry/lifted-ladder scratch diagnostics and live blockers: toolset expansion, S10 G2-family mine, lifted n=3/n=4 shell rungs, q=3 finite incidence, vector-vs-spinor, n=3 G5 bracketing SMT closure, Fable pressure receipt; n5/G4/G7/q4 remain live/uncommitted
@@ -82,7 +82,7 @@ Total published pages: 440. Governance/read-first surfaces are listed separately
 
 ## Concepts — by framing
 
-### Current (186)
+### Current (187)
 - [[constraint-manifold-architecture]] — actual geometric constraint manifold `M(C)` frame-loader and minimum construction contract; axes/IGT/QIT/bridge claims stay downstream
 - [[entropic-monism-axis0-field-compression-spine]] — central owner-kernel spine for entropic monism, Axis0, JK fuzz, cross-field ToE genealogy, and field-wide compression claim ceilings
 - [[physics-model-as-system-mirror]] — structural map preserving the owner thesis that the physics/creation model mirrors the same F01/N01 -> `M(C)` -> carrier/readout -> geometry/axis -> entropy/memory/viability stack
@@ -109,6 +109,7 @@ Total published pages: 440. Governance/read-first surfaces are listed separately
 - [[formal-scout-readiness-index-router]] — router for formal-scout readiness, validator gaps, and promotion blockers
 - [[manifold-wizard-operation-router]] — router for manifold-rooted Wizard operation loops and MMM-loaded provider lanes
 - [[sim-estate-integration-index-router]] — router for the geometric constraint manifold sim estate and axis overlays
+- [[nested-qubit-ladder-entropy-surface-sim-contract]] — consolidated operating rule for nested/qubit-ladder/entropy/surface sims: climb each layer/nesting/full integration rung-by-rung, sweep layer-specific entropy families, and preserve ring-checkerboard/CA-QCA runners as candidate finite surfaces under claim ceiling
 - [[deflation-map-2026-06-04]] — current Codex Ratchet deflation split, carrier correction, and verdict-audit spine
 - [[claude-code-sim-inventory-2026-06-04]] — read-only inventory of Claude Code's work-out-layers.js pipeline sims (60+ carrier, 157+ layers, 7 Hopfield)
 - [[igt-axes-terrain-source-extraction-2026-06-04]] — structured extraction of all 10 IGT/axes/terrain source docs: axis-by-axis mapping table, engine type patterns, trigram→math, testability assessment, open questions
