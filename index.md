@@ -1,6 +1,6 @@
 # Codex Ratchet Wiki — Index
 
-Total published pages: 439. Governance/read-first surfaces are listed separately. Restructured 2026-04-17 (stabilization pass).
+Total published pages: 440. Governance/read-first surfaces are listed separately. Restructured 2026-04-17 (stabilization pass).
 
 ## Hermes / LLM Alignment Front Door
 - [[hermes-current/read-first]] — Hermes front door; load this before substantive work
@@ -15,6 +15,7 @@ Total published pages: 439. Governance/read-first surfaces are listed separately
 - [[projects/codex-ratchet/geometry-sim-program-canonical-2026-06-10]] — geometry-first anti-collapse roadmap: exact nested math stack, Bloch-as-quotient correction, Hopf torus double-cover, free/restricted/quotiented/ratcheted sim modes, anticommutation caveat, alternativity correction, refinement/orbit nesting, and no-jargon sim guard
 - [[projects/codex-ratchet/geometry-sim-closeout-and-lifted-ladder-status-2026-06-10]] — 2026-06-10 repo/wiki sync for committed geometry/lifted-ladder scratch diagnostics and live blockers: toolset expansion, S10 G2-family mine, lifted n=3/n=4 shell rungs, q=3 finite incidence, vector-vs-spinor, n=3 G5 bracketing SMT closure, Fable pressure receipt; n5/G4/G7/q4 remain live/uncommitted
 - [[projects/codex-ratchet/s1-qubit-ladder-f01-n01-t01-2026-06-10]] — corrected S1 qubit-ladder gate through 8Q: explicit F01 finitude, N01 noncommutation before anticommutation, T01 bracketing/nonassociativity boundary, and S2 runtime block until the selected ladder target closes
+- [[projects/codex-ratchet/nested-ratcheted-manifold-hypothesis-research-workbench-2026-06-12]] — non-canonical research workbench for the proposed fully nested survivor tower through 8Q(+): explicit Weyl/Hopf/tori/density/probe/metric/flux/cut/entropy/channel/flow/stage/runner/Clifford/G2/Spin/F4 layers, how nesting changes each layer, and the research-backing backlog; not admitted `M(C)`, final manifold, QIT engine, runtime flux, Axis0, bridge, physics, or canon
 - [[projects/codex-ratchet/current-decisive-frame-loader-2026-06-06]] — first-screen frame loader: `M(C)` missing, finite spinor-network carrier pressure, density/probe readout boundary, QIT-engine full stack, physics/SM/GR as downstream targets only
 - [[projects/codex-ratchet/geometric-constraint-manifold-frontier-2026-06-06]] — current decisive frontier: make `M(C)` before axes/IGT/QIT/bridge claims
 - [[projects/codex-ratchet/actual-physics-docs-processing-map-2026-06-06]] — actual physics-doc corpus processing map; source-order correction before bridge/theory/scout work

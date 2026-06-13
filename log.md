@@ -1,3 +1,9 @@
+## 2026-06-12 - Nested ratcheted manifold hypothesis research workbench
+
+- Added [[projects/codex-ratchet/nested-ratcheted-manifold-hypothesis-research-workbench-2026-06-12]] after the owner corrected the flat/implicit sim-plan framing. The page preserves a non-canonical proposed final object: a finite compatible survivor tower over all nonempty subsystems through 8Q(+), with partial-trace/probe-quotient compatibility and induced geometry recomputed after every ratchet constraint.
+- The workbench explicitly keeps Weyl spinors, local Hopf fibrations, nested Hopf tori, entanglement/Schmidt strata, density/probe quotients, metrics, Hopf/projective flux, cuts, entropies, channels, Lindblad flows, 16 ordered maps, flux-fate rows, finite runners/QCA candidates, Clifford/chirality, G2/SU(3)/Spin(7)/Spin(8)/F4, split-G2, and sedenion controls visible.
+- Patched [[projects/codex-ratchet/read-first]] and [[index]] with an explicit claim ceiling: hypothesis/research workbench only; not admitted `M(C)`, final manifold, QIT engine, runtime flux, Axis0, bridge, physics, or canon. Added a research-backing backlog for Hopf/density/cut/Clifford/G2/QCA/nesting/order rows.
+
 ## 2026-06-12 - Codex Ratchet sim validity and QIT-engine overlay
 
 - Added [[projects/codex-ratchet/current-sim-validity-and-qit-engine-state-2026-06-12]] after live repo verification at `3ea65f7b3`. The page routes Lane A/B/C/D validity audits, the correction overlay, Panel 10, governance alternatives, campaign completeness critique, and the untracked `manifold_dynamic_chart_v1/` state into one conservative current-state surface.
