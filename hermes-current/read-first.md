@@ -20,6 +20,8 @@ This wiki serves two parallel projects that share one nominalist/constraint/ratc
 For substantive Hermes work, read the `hermes-current/` spine first. Then read the relevant project front door. Then load `wizard/`, `wizard/harness-consolidated/`, or deeper concept-level doctrine as the task requires. Non-Hermes agents should treat this spine as reference unless their own protocol points here.
 
 Current truth:
+- Hermes Wizard v4.3 is always-on: every prompt has Wizard/Hermes formatting plus adaptive context management. Every prompt checks memory/offload, skill drift, wiki/context spine, route truth, and MMM/saliency reinjection needs; full/council/worker breadth is escalation inside that always-on surface. Wizard output is headered and non-log-shaped: a compact header plus short human synthesis sections that reduce cognitive load.
+- Wizard is an MMM loader: the main Hermes agent should load the active main MMM (`COMPACT_MMM_v4_3.md` by default, with index/L0; `FULL_MMM_v4_3.md` or all-minis-then-compact when warranted) before answering. Worker MMM preload is additional, not a substitute.
 - This wiki is both a personal harness and a shared long-form working space.
 - It is meant to hold more of Josh's durable frame, intentions, plans, and project context than injected agent memory can hold.
 - Injected memory should be treated as a small steering/index layer. The wiki is the main long-form surface.

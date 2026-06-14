@@ -1,6 +1,16 @@
 """
 z3 encoding of the sim-claim tool-manifest completeness predicate.
 
+CEILING: boolean structural check only — NOT semantic truth.
+This probe checks whether a sim's tool-manifest fields satisfy the admissibility
+predicate (classification set, manifest present, reasons non-empty, load-bearing
+tool used for canonical sims). All inputs are boolean flags — the probe cannot
+verify that those flags accurately reflect the actual sim source. A sim where the
+operator sets `every_tool_has_nonempty_reason=True` will be admitted regardless
+of what the reasons actually say. SAT means the declared field combination is
+structurally admissible; it does not mean the sim's tools were genuinely used or
+that the load-bearing designation is honest.
+
 Harness surface encoded: 31_admission_surface.md Class II.2 —
 "tool-manifest completeness. Trivially boolean-encodable; not wired in
 because current encodings target harness-edit claims, not sim claims."

@@ -30,15 +30,15 @@ The wiki is structurally clean as of the latest local v4.3 maintenance preflight
 
 Current scheduler truth:
 - Historical v4.2 origin job `796b4560f2f5` remains historical and must not be assumed live.
-- A new finite v4.3 MMM maintenance steward exists: job `497a2eaaa178`, schedule `every 45m`, repeat `8`, deliver `origin`, workdir `/Users/joshuaeisenhart/wiki`.
-- This note is the v4.2 bridge/control surface; new maintenance ticks should start from [[wiki-wizard-v4-3-mmm-maintenance-template]].
+- Historical v4.3 MMM maintenance steward job `497a2eaaa178` must not be assumed live. A 2026-06-13 Hermes `cronjob list` returned `count: 0`.
+- This note is the v4.2 bridge/control surface under the current **v4.3** binding; new maintenance ticks should start from [[wiki-wizard-v4-3-mmm-maintenance-template]] and require an explicit new scheduler creation receipt before any job is called live.
 
 Current v4.3 preflight truth:
 - The Hermes v4.3 object card validated with the repo guard after the carrier-drift patch: `/tmp/v43_validate_after_carrier_patch_20260606.json`, `ok=true`, `errors=0`; packet sha256 `fe8c20c7124930a1c95e14287d8540d18437345d63a5dfd92558a30177992d39`.
 - v4.3 selftest passed before the carrier patch: `/tmp/v43_selftest_20260606.json`, `ok=true`, sha256 `affafb63b2732b34c41c61c4674e07c50f7627adb542aa0dc8255676be42daa2`.
 - v4.3 loop smoke passed before the carrier patch in one loop: `/tmp/v43_loop_20260606.json`, `ok=true`, `loops=1`, sha256 `67ed37c28e5b4f21cea82bf87ab081a16b9ff384fa0f3ad50fa1064e0affb2`.
 - Positive primary-card PEPS3D drift was removed: `plain_contains_PEPS3D=False`, `allowed_contains_PEPS3D=False`, `adapter_contains_PEPS3D=False`; remaining PEPS3D mentions are forbidden-substitution / kill-control only.
-- Claim ceiling: object-preservation preflight only. v4.2 remains the council runtime and still needs its own route-truth receipts.
+- Claim ceiling: object-preservation preflight only. v4.2 is legacy/provenance only and must not be treated as a current run target.
 - Local receipt: [[wizard-v4-3-maintenance-preflight-receipt-2026-06-06]].
 
 Current path-routing truth for this continuation:
@@ -61,7 +61,7 @@ The Codex Ratchet repo is not runner-clean:
 
 Each tick must:
 1. reread `hermes-current/` spine notes and relevant project front doors;
-2. read Wizard v4.2 runtime and skills manifest enough to apply the topology;
+2. read Wizard legacy v4.2 provenance and skills manifest enough to apply the topology;
 3. run `wiki_probe.py` before edits;
 4. choose exactly one bounded tranche;
 5. run premortem + loophole audit before edits;

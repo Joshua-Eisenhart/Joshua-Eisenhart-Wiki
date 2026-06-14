@@ -1,7 +1,7 @@
 ---
 title: Hermes Wizard Manifest
 created: 2026-05-04
-updated: 2026-05-16
+updated: 2026-06-13
 type: manifest
 runtime: hermes
 ---
@@ -31,8 +31,8 @@ runtime: hermes
 - `11_HERMES_WIZARD_LOOP_SANDBOX_RESULTS.md` — sandbox evidence summary for loop-smoke 0003-0012, profile-driven runner status, blocked recursive runtime, and next batch-profile loop direction.
 - `12_HERMES_3X3_MMM_PILOT_RESULTS.md` — sandbox evidence summary for the first 9-subcouncil MMM-backed pilot; 9/9 receipt-backed workers, no overclaims, no collapse pairs, and next fresh-session calibration boundary.
 - `13_HERMES_WIZARD_V4_1_LOOP_HARNESS.md` — Hermes-native v4.1 loop harness design for bounded docs/skills/wiki/tools/goals work; self-generated next steps, option pre-runs, premortem, autoresearch, subagent/subsubagent receipt boundaries, convergence gate, and apply-gate rules.
-- `14_HERMES_WIZARD_V4_2_NATIVE_LOOP_BRIDGE.md` — Hermes-native bridge for current Wizard v4.2 loop work; maps v4.2 topology to Hermes action classes, external model pressure, premortem dispositions, wiki alignment receipts, and stop conditions.
-- `15_HERMES_WIZARD_V4_3_OBJECT_PRESERVATION.md` — Hermes-native v4.3 object-preservation guard; runs the repo validator as a preflight over v4.2 councils. Hermes-authored packet lives in `packets/hermes_v4_3_retrocausal_object_card.json`.
+- `14_HERMES_WIZARD_V4_2_NATIVE_LOOP_BRIDGE.md` — Hermes-native bridge for current Wizard v4.3 loop work; maps current v4.3 topology to Hermes action classes, external model pressure, premortem dispositions, wiki alignment receipts, and stop conditions. Legacy v4.2 material is provenance only.
+- `15_HERMES_WIZARD_V4_3_OBJECT_PRESERVATION.md` — Hermes-native v4.3 object-preservation guard; runs the repo validator as a current v4.3 object-boundary preflight. Hermes-authored packet lives in `packets/hermes_v4_3_retrocausal_object_card.json`.
 - `packets/hermes_v4_3_retrocausal_object_card.json` — Hermes-owned v4.3 primary object card, validated by the repo guard (not a fork).
 - `sources/SOURCE_MAP.md` — source files consulted and their role.
 
@@ -44,7 +44,7 @@ runtime: hermes
 - `adopted`: the matching skill or HERMES/SOUL pointer was intentionally promoted.
 - `deprecated`: kept for provenance, not current steering.
 
-Current folder status: `drafted`.
+Current folder status: `current-adopted-partial`. Live Hermes profile and the `hermes-wizard` skill adopt the always-on output/MMM/route-truth contract; selected run fixtures and validators pass; full cross-runtime adoption remains partial and receipt-gated.
 
 ## Non-goals
 

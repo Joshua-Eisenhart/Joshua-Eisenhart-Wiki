@@ -1,6 +1,14 @@
 """
 z3 encoding of closeout-document SHAPE conformance.
 
+CEILING: shape/structure check only — NOT semantic truth.
+This probe verifies that a closeout document's markdown heading structure matches
+the required field set for a given role. It does NOT verify that the content under
+each heading is accurate, complete, or honest. A document with placeholder bodies
+(e.g. "placeholder body") under every required heading will pass this probe. SAT
+means the shape is admissible; it does not mean the closeout work was genuine.
+This is a necessary gate, not a sufficient one.
+
 Harness surface encoded: 24_closeout_templates.md (exact-N-fields rule per role)
 + Round D-prime audit finding (P2: extra `##` headings beyond Block K spec).
 

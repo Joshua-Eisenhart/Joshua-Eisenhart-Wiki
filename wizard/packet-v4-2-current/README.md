@@ -13,13 +13,16 @@ The main correction from v4.1 is topology:
 
 ## Runtime Boot
 
+When this packet is used as the current Wizard runtime from Hermes, Codex, or Claude, it begins after any required v4.3 object-preservation / maintenance preflight. v4.3 is not a replacement runtime; it records object-preservation and maintenance gate truth before v4.2 councils consume the task.
+
 Main thread:
 
-1. Load `mmm/FULL_MMM_v4_2.md` when context allows.
-2. If context is tight, load `mmm/COMPACT_MMM_v4_2.md` plus `mmm/mini/MEMBER_MINI_MMM_REGISTRY_v4_2.md`.
-3. Load `WIZARD_v4_2.md`.
-4. Load `skills/SKILLS_MANIFEST_v4_2.md`.
-5. Load the task/source context.
+1. Load `PACKET_MANIFEST_v4_2.md`.
+2. Load `mmm/FULL_MMM_v4_2.md` when context allows.
+3. If context is tight, load `mmm/COMPACT_MMM_v4_2.md` plus `mmm/mini/MEMBER_MINI_MMM_REGISTRY_v4_2.md`.
+4. Load `WIZARD_v4_2.md`.
+5. Load `skills/SKILLS_MANIFEST_v4_2.md`.
+6. Load the task/source context.
 
 Parent agents:
 

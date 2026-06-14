@@ -19,8 +19,8 @@ Do not use this to:
 
 - **v4.3** is the visible maintenance/object-preservation surface for this template.
 - v4.3 runs the repo-held object-preservation guard and keeps the primary object alive.
-- v4.2 council topology may still be used as a topology source where no v4.3 replacement topology exists.
-- Say that boundary plainly. Do not call v4.3 a full replacement runtime unless a future validated v4.3 runtime surface exists.
+- legacy v4.2 packet references are provenance; do not run v4.2 as current; v4.3 adds object-preservation / maintenance guardrails and does not replace topology.
+- Say that boundary plainly. Do not call v4.3 a full replacement runtime.
 
 ## MMM preload block — must appear before task rules
 
@@ -108,9 +108,10 @@ repeat: 8
 workdir: /Users/joshuaeisenhart/wiki
 toolsets: file, terminal, delegation, skills, cronjob
 claim_ceiling: v4.3 object-preservation/MMM maintenance only
-live_job_id: 497a2eaaa178
-created: 2026-06-06
-next_run_at: 2026-06-06T17:06:23.811265-07:00
+historical_job_id: 497a2eaaa178
+historical_created: 2026-06-06
+current_scheduler_status: not_live_as_of_2026-06-13_cronjob_list_count_0
+new_job_requires: explicit scheduler creation receipt
 deliver: origin
 ```
 

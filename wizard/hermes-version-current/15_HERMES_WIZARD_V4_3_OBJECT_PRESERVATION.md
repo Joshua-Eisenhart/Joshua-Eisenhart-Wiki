@@ -5,8 +5,8 @@
 - **Hermes-authored packet**: `packets/hermes_v4_3_retrocausal_object_card.json`
 - **Validator**: repo `scripts/wizard_v4_3_object_preservation.py` (sole authority — not forked)
 - **Spec**: repo `system_v5/docs/WIZARD_V4_3_PRIMARY_OBJECT_PRESERVATION_SPEC_20260526.md`
-- **Proven**: selftest ✅ · example ✅ · validate ✅ · loop ✅ — all from a Hermes session
-- **Current binding**: v4.3-gated v4.2. v4.3 validates the current-task object card before councils; v4.2 remains the execution/runtime/output machinery.
+- **Tool checks observed**: selftest ✅ · example ✅ · validate ✅ · loop ✅ — all from a Hermes session. These are validator/tool checks, not proof of a real task run or downstream council progress.
+- **Current binding**: v4.3. v4.3 validates the current-task object card before councils and owns current Wizard route truth. v4.2 is legacy/provenance only, not a current run target.
 
 ## What v4.3 does
 

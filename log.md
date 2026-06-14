@@ -1,3 +1,77 @@
+
+## 2026-06-13 - Wizard v4.3 agent/taskcard repair
+
+- Added v4.3-owned `wizard/packet-v4-3-current/agents/` and `taskcards/` surfaces after the agent-file gap was confirmed.
+- Seeded `agents/wizard-loop/` from global Claude Wizard agents under `~/.claude/agents/wizard/`.
+- Seeded `agents/voices/` and `agents/auditors/` from current Codex-Ratchet Claude agent specs, with project-specific engine policy scrubbed from shared v4.3 voice copies and MMM paths retargeted to `packet-v4-3-current`.
+- Generated parent-route and manager specs from `WIZARD_v4_3.md` route lists.
+- Added taskcard boot rules/schemas/templates from older Wizard boot rules plus Hermes task-card schema.
+- Patched packet manifest, README, runtime file, and conformance validator so a v4.3 packet without agent/taskcard files fails validation.
+- Claim ceiling: structural repair and conformance coverage; not a live full Wizard run.
+
+## 2026-06-13 - Wizard v4.3 runnable packet repair
+
+- Replaced the skeletal `wizard/packet-v4-3-current/WIZARD_v4_3.md` with a full runnable v4.3-owned runtime file copied/retooled from the actual v4.2 packet. The runtime file is now ~995 lines and includes council topology, route truth, task-card/output rules, adapter rules, and audit loop material.
+- Added packet-local `skills/` and `conformance/validate_v4_3_packet.py`, including Claude bridge scripts and council member skills.
+- Retuned copied mini-MMM headers and candidate overlay references so v4.3-owned files do not look like active v4.2 boot surfaces. Historical `v4_1` mini filenames remain provenance.
+- Verification: `python3 wizard/packet-v4-3-current/conformance/validate_v4_3_packet.py --json` returned `ok=true`; wiki probe clean at `/tmp/wiki_probe_wizard_v43_runnable_packet_20260613.json`.
+- Claim ceiling: runnable packet structure and conformance only; not a full Wizard run and not behavior-retuned promotion of every inherited mini-MMM slice.
+
+## 2026-06-13 - Wizard v4.3 MMM reservoir added
+
+- Added `wizard/packet-v4-3-current/mmm/` with v4.3-owned `FULL_MMM_v4_3.md`, `COMPACT_MMM_v4_3.md`, and `mini/MEMBER_MINI_MMM_REGISTRY_v4_3.md`, seeded from the v4.2 reservoir so current Wizard no longer has to boot MMMs through v4.2.
+- Copied mini-MMM source files and reference-only saliency tranches into the v4.3 packet; historical v4.1/v4.2 slice filenames inside mini files remain provenance until behavior-retuned.
+- Patched v4.3 packet/root/Hermes read-order surfaces to load the v4.3 MMMs.
+- Claim ceiling: MMM ownership/routing repair only; not a behavior-calibrated retune of every mini-MMM slice and not a full Wizard run.
+
+## 2026-06-13 - Wizard v4.3 shared wiki core created
+
+- Added `wizard/packet-v4-3-current/` as the proper shared v4.3 Wizard core inside the wiki Wizard folder.
+- Reframed `wizard/` as the home for all Wizard versions and per-LLM adaptations: shared core in `packet-v4-3-current/`, native adapters such as `hermes-version-current/` and `claude-version-current/`, and older packets as legacy/provenance/source material.
+- Patched root Wizard routing files and `hermes-current/current-vs-legacy.md` so they no longer say there is no `packet-v4-3-current/` or that v4.3 authority must live outside the wiki.
+- Patched `wizard/harness-consolidated/00_READ_FIRST.md` and marked the older 2026-06-03 audit recommendation superseded so the support harness no longer blocks the shared v4.3 core.
+- Claim ceiling: routing/core-doc repair only. This does not claim a full Wizard run, a Claude/Codex adoption, or validation of copied adapter schemas.
+
+## 2026-06-13 - Hermes Wizard headered non-log output correction
+
+- Corrected output-surface drift: Wizard outputs are headered human syntheses, not logs or worker ledgers.
+- Patched active Hermes/Wizard docs so every prompt starts with a compact Wizard header and uses short sections to reduce human cognitive load.
+- Preserved route truth as compressed Results/proof, not first-screen log shape.
+
+## 2026-06-13 - Hermes Wizard main-agent MMM loader correction
+
+- Corrected the third drift: Wizard is an MMM loader, not only a formatter/context manager.
+- Loaded the main compact MMM into the main session context: `packet-v4-2-current/mmm/COMPACT_MMM_v4_2.md`, plus `MMM_PREPROMPT_INDEX.md`, `MEMBER_MINI_MMM_REGISTRY_v4_2.md`, `00_L0_PREAMBLE.md`, and sim-management MMM surfaces.
+- Patched active Hermes/Wizard docs and the `hermes-wizard` skill: a valid Wizard pass must load a main-agent MMM or compacted mini-MMM set before synthesis; worker MMM preload is additional, not a substitute.
+- Claim ceiling: `FULL_MMM_v4_2.md` was not fully read in this correction; the fully read main MMM was the compact main reservoir.
+
+## 2026-06-13 - Hermes Wizard formatting every prompt correction
+
+- Corrected the second drift: always-on Wizard means every prompt has Wizard/Hermes formatting, not just an invisible management pass.
+- Preserved adaptive depth: ambient-minimal formatting/management every prompt; full councils, workers, voices, and expanded route counts only when warranted and receipt-backed.
+- Patched active control, Wizard docs, Hermes current front door, and the `hermes-wizard` skill.
+
+## 2026-06-13 - Hermes Wizard always-on context management correction
+
+- Corrected active Hermes/Wizard docs: Wizard v4.3 runs every prompt as adaptive management, not as full visible ceremony.
+- Added explicit context-spine rule: maintain/reinject current context packs across threads, agents, parent/child workers, and compactions.
+- Added MMM/saliency preload rule: workers receive relevant saliency slices before task cards; long/multi-wave work refreshes at TTL/checkpoints.
+- Claim ceiling: docs/control-surface correction only; this does not claim a full Wizard/council run.
+
+## 2026-06-13 - Wizard v4.3-only correction
+
+- Corrected active Wizard/Hermes/Codex/Claude routing surfaces after owner correction: current Wizard is **v4.3**. There is no v4.2-to-run for current work.
+- Patched active front doors, Hermes skills, Codex/Claude skill surfaces, and Codex memories so old v4.2 packet/skill material is legacy/provenance only unless explicitly requested for historical audit.
+- Claim ceiling: route-surface correction only. This does not claim a FULL Wizard run, a sim/proof/admission result, or canonical promotion of any MMM candidate.
+
+## 2026-06-13 - Wizard v4.3-gated v4.2 alignment closeout
+
+- Patched Wizard front doors, Hermes/Codex/Claude skill surfaces, current maintenance templates, and MMM candidate notes so the current binding is **v4.3-gated v4.2**: v4.3 is object-preservation / maintenance preflight where scoped, and v4.2 remains council/runtime/output machinery.
+- Synchronized Codex installed v4.2 skills in `~/.codex` and `~/.codex-second`, added repo-held `system_v5/codex_skills/three-council-wizard-v4-2/`, and retained both newer v4.3-boundary boot order and collapse/fabrication gates.
+- Strengthened v4.2 worker receipt schema/validator/tests so topology-counted worker receipts require MMM preload proof (`saliency_preload_before_rules`, `slices_loaded`, and mini-MMM path/set evidence).
+- Refreshed scheduler truth: historical cron IDs are not live proof; `cronjob list` returned `count=0` during this closeout.
+- Claim ceiling: documentation/process/receipt-gate alignment only. No v4.2 FULL run claim, no v4.3 replacement-runtime claim, and no sim/proof/physics/canon promotion.
+
 ## 2026-06-13 - Codex Ratchet repo/wiki closeout sync after RPF audit
 
 - Verified `/Users/joshuaeisenhart/Codex-Ratchet` through commits `c5e63eb2c` and `52b1fe9b9`. `c5e63eb2c` landed the RPF closeout, fresh validator red-list, engine-independence framing repair, and validator fixes. `52b1fe9b9` added validator-green `gcm_constraint_carve_8q_v0` and `engine_16_stage_definition_correspondence_v0` plus the missing engine-consensus relabel receipt.

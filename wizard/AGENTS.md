@@ -1,29 +1,30 @@
-# Codex Wizard Agent Contract
+# Wizard Agent Contract
 
-This wiki-local `AGENTS.md` is a Codex-facing pointer into the current Wizard wiki harness. It is subordinate to the current user request and to any repo-local `AGENTS.md` in the working repository.
+This wiki-local `AGENTS.md` points agents into the current Wizard wiki harness. It is subordinate to the current user request and to any repo-local `AGENTS.md` / `CLAUDE.md` in the working repository.
 
 ## Boot order
 
-For Codex against this wiki:
+For agents reading this wiki:
 
 1. Read `README.md`.
 2. Read `00-read-first.md`.
 3. Read this `AGENTS.md`.
-4. Read `packet-v4-2-current/README.md`.
-5. Read `packet-v4-2-current/WIZARD_v4_2.md`.
-6. Load `packet-v4-2-current/mmm/FULL_MMM_v4_2.md`.
-7. Read `packet-v4-2-current/skills/SKILLS_MANIFEST_v4_2.md` and `packet-v4-2-current/mmm/` route-local mini-MMMs as needed.
-8. Load the task and the runtime adapter needed for that task.
+4. Read `packet-v4-3-current/README.md`.
+5. Read `packet-v4-3-current/00_READ_FIRST.md`.
+6. Load the v4.3 MMM: `packet-v4-3-current/mmm/FULL_MMM_v4_3.md`, or `packet-v4-3-current/mmm/COMPACT_MMM_v4_3.md` plus `packet-v4-3-current/mmm/mini/MEMBER_MINI_MMM_REGISTRY_v4_3.md` when context is tight.
+7. Read `packet-v4-3-current/WIZARD_v4_3.md`.
+8. Load the active runtime adapter, e.g. `hermes-version-current/` or `claude-version-current/`.
+9. Load the task.
 
-Wizard v4.2 is current. Do not silently downgrade current Wizard work to v4.1. Use v4.1 only when the user explicitly asks for legacy v4.1 comparison or provenance.
+## Current binding
 
-Wizard v4.3 is an additive object-preservation guard that runs *before* the v4.2 councils — not a new runtime and not a replacement for this boot order. Its authority is repo-held (Codex Ratchet: `system_v5/docs/WIZARD_V4_3_PRIMARY_OBJECT_PRESERVATION_SPEC_20260526.md`, `scripts/wizard_v4_3_object_preservation.py`, `.codex/skills/three-council-wizard-v4-3/`), not wiki-held. Run it as a preflight when the task has a novel object or shows salience/proxy drift, then run v4.2 here. Do not create a `packet-v4-3-current` directory. Wiki routing context: `hermes-current/wiki-wizard-v4-3-object-preservation-guard.md`.
+Current Wizard binding is **v4.3**. The shared core lives in `packet-v4-3-current/`. Per-LLM adapters live as sibling folders under `~/wiki/wizard/` and must be retuned to each system's native tools.
 
-## Codex-side notes
+Do not treat Hermes, Claude, Codex, or any other adapter as universal authority. Copying files across adapters is allowed; adoption requires retuning and receipt-backed verification.
 
-- Repo-root `AGENTS.md` remains Codex's binding authority for repo behavior. This wiki file does not override a repository contract.
-- Claude / Opus / Gemini / other model routes are advisory until Codex checks them against local state and current Wizard/Codex project rules.
-- Subagent, child, receipt, route, and status claims require current receipts. Parent-reported child summaries are not raw nested proof unless the artifacts are visible.
+## Legacy boundary
+
+`packet-v4-2-current/` and earlier packet folders are legacy/provenance. Mine them only when the task calls for genealogy, migration source material, or comparison. Do not boot from them as current runtime law.
 
 ## Status labels
 

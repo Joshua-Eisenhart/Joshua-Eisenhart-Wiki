@@ -7,11 +7,11 @@ Status: active Hermes routing note. Pointer only — not the authority surface a
 Use this when:
 - a task mentions Wizard v4.3, object-preservation, primary object cards, or salience/proxy drift
 - Claude or Codex says v4.3 is "wired in" and the wiki/harness needs to know what that means
-- deciding where v4.3 authority lives vs. where v4.2 runtime authority lives
+- deciding where v4.3 authority lives vs. where legacy v4.2 provenance authority lives
 
 ## What v4.3 is
 
-Wizard v4.3 is the **current-task object-preservation gate in front of v4.2 councils**. The current binding is **v4.3-gated v4.2**: v4.3 preserves the primary object so councils cannot drop it or promote a proxy/analogy/metric into canon mid-run; v4.2 supplies the council/runtime/output machinery.
+Wizard v4.3 is the **current-task object-preservation gate in front of v4.2 councils**. The current binding is **v4.3**: v4.3 preserves the primary object so councils cannot drop it or promote a proxy/analogy/metric into canon mid-run; v4.2 supplies only legacy/provenance context.
 
 Core shape:
 - a primary object card with a stable object statement + `object_statement_sha256` hash;

@@ -176,7 +176,7 @@ Where it should go:
 
 - Add a pointer in `00_READ_FIRST.md`, `README.md`, and `READ_POLICY.md`.
 - Add a role block to `23_role_boot_templates.md` for object-preservation preflight.
-- Add a short new harness file that points to the repo-held authority without inventing `packet-v4-3-current`.
+- Superseded 2026-06-13: the wiki now has `wizard/packet-v4-3-current/`; use the shared v4.3 core plus per-LLM adaptations, with repo validators as concrete check surfaces when needed.
 - Add a probe that validates the presence of a v4.3 object card for applicable tasks, or points to `scripts/wizard_v4_3_object_preservation.py`.
 
 ### Gap 7: Negative controls and graveyard honesty are present but not central
@@ -242,7 +242,7 @@ System `python3` was `/usr/local/bin/python3` version `3.13.2`. The repo interpr
 
 ## 5. RECOMMENDED ACTIONS
 
-1. Add a v4.3 object-preservation pointer to the harness front doors: `00_READ_FIRST.md`, `README.md`, `READ_POLICY.md`, and `23_role_boot_templates.md`. Keep it pointer-only to the repo-held spec/validator; do not invent a `packet-v4-3-current`.
+1. Superseded 2026-06-13: the wiki now has a proper shared `wizard/packet-v4-3-current/` core plus per-LLM adaptations. Historical recommendation was only to add a pointer to the repo-held guard; current routing should load the shared v4.3 core, then the active LLM adaptation, and use repo validators as concrete check surfaces when needed.
 
 2. Replace the stale PyTorch-as-ratchet steering with current engine boundaries: JAX and Julia primary, PyTorch only legacy/comparison/helper with ablation. Start with `11_pytorch_as_ratchet.md`, `05_four_sim_kinds.md`, `22_project_dictionary.md`, and the sim-worker block in `23_role_boot_templates.md`.
 

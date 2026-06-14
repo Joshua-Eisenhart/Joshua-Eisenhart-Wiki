@@ -74,22 +74,22 @@ Most important import families:
 - `/tmp/hermes-loop-integration-20260505-135517/loop-runs/loop-smoke-0012/receipt.json` — latest profile-driven admitted receipt.
 - `/tmp/hermes-loop-integration-20260505-135517/profiles/dr_refinement_micro_01.json` — first bounded target profile.
 - `/tmp/hermes-loop-integration-20260505-135517/loop-runs/loop-smoke-0008/receipt.json` — Ouroboros/RLM pinned runtime hold/block receipt.
-- `/tmp/hermes-3x3-mmm-pilot-20260506/receipt.json` — first 9-subcouncil MMM pilot aggregate receipt.
-- `/tmp/hermes-3x3-mmm-pilot-20260506/audit/audit_report.json` — deterministic receipt/collapse/overclaim/salience audit for the 3x3 MMM pilot.
-- `/tmp/hermes-3x3-mmm-pilot-20260506/receipts/` — per-subcouncil worker receipts for Decision, Failure, and Follow-Up.
+- `/tmp/hermes-3x3-mmm-pilot-20260506/receipt.json` — historical temp path for the first 9-subcouncil MMM pilot aggregate receipt; not current proof unless the temp artifact is restored or copied to durable storage.
+- `/tmp/hermes-3x3-mmm-pilot-20260506/audit/audit_report.json` — historical temp path for deterministic receipt/collapse/overclaim/salience audit; not current proof unless visible now.
+- `/tmp/hermes-3x3-mmm-pilot-20260506/receipts/` — historical temp path for per-subcouncil worker receipts for Decision, Failure, and Follow-Up.
 - `/tmp/hermes-wizard-autoresearch-cleanup-scout-20260506.md` — quarantined autoresearch scout artifact after a worker wrote to the live Codex Ratchet work directory; used as a failure-boundary lesson for loop harness design.
-- `/Users/joshuaeisenhart/wiki/wizard/hermes-version-current/13_HERMES_WIZARD_V4_1_LOOP_HARNESS.md` — current proposed loop-harness design artifact; records self-generated next steps, option pre-runs, premortem/autoresearch, parent/child receipt boundaries, route truth, and apply-gate rules.
+- `/Users/joshuaeisenhart/wiki/wizard/hermes-version-current/13_HERMES_WIZARD_V4_1_LOOP_HARNESS.md` — legacy/provenance loop-harness design artifact; superseded for current binding by v4.3 surfaces.
 - `/tmp/hermes-v41-autoloop-rounds/round-0001/runner/receipt.json` — first enforcement-gated read-only autoloop runner receipt; status `admitted_plan`, candidate-only boundary preserved, no live config/git/Codex sim mutation.
 - `/tmp/hermes-v41-autoloop-rounds/round-0002/audit/calibration_audit.json` — read-only MMM calibration candidate audit; 2 parent routes with 4 child receipts, 4/4 calibration condition receipts, no overclaims, no collapse pairs, MMM salience improved over no-MMM in same-session bounded audit.
 
 These sources prove sandbox/pre-adoption behavior only. They do not install, enable, or register live Hermes runtime changes.
 
-## Wizard v4.2 sources
+## Wizard v4.3 sources
 
-- `/Users/joshuaeisenhart/wiki/wizard/packet-v4-2-current/WIZARD_v4_2.md` — canonical v4.2 runtime topology, output contract, parent/child/management route definitions, and FULL truth rules.
+- `/Users/joshuaeisenhart/wiki/wizard/packet-v4-2-current/WIZARD_v4_2.md` — canonical legacy v4.2 provenance topology, output contract, parent/child/management route definitions, and FULL truth rules.
 - `/Users/joshuaeisenhart/wiki/wizard/packet-v4-2-current/skills/SKILLS_MANIFEST_v4_2.md` — packet-local skill manifest for premortem, Claude bridge, loophole auditor, factory handoff, follow-up selector, strategy loop, and systems strategy.
 - `/Users/joshuaeisenhart/wiki/hermes-current/wiki-wizard-v4-2-autoloop-control.md` — active finite wiki-autoloop control surface and tick contract.
-- `/Users/joshuaeisenhart/.hermes/skills/autonomous-ai-agents/hermes-wizard/SKILL.md` — Hermes procedure skill that treats Wizard v4.2 as current and distinguishes legacy v4.1/provenance work from ordinary/current Wizard replies.
+- `/Users/joshuaeisenhart/.hermes/skills/autonomous-ai-agents/hermes-wizard/SKILL.md` — Hermes procedure skill that treats current Wizard as v4.3: v4.3 preflight where scoped, legacy v4.2 provenance thereafter, and legacy v4.1/provenance kept separate.
 - Gemini direct CLI and attempted Grok/OpenRouter route from the 2026-05-16 alignment campaign — advisory premortem pressure only; Grok route blocked by model/credit availability during this pass.
 
 ## Source status

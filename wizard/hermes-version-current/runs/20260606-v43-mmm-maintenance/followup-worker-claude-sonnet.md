@@ -75,7 +75,7 @@ on_demand_template_fields:
     object_preservation_surface: true
     runtime_scope_note: >
       v4.3 is object-preservation/maintenance surface — NOT a replacement runtime.
-      v4.2 topology retained only where no v4.3 replacement topology exists.
+      v4.2 remains the council/runtime/output machinery; v4.3 guardrails do not replace topology.
   template_ref_required_by_cron: true
 
 cron_prompt_fields:

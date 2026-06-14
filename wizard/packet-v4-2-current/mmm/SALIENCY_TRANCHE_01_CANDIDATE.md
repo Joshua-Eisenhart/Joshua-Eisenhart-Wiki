@@ -4,13 +4,15 @@ authority_status: reference-only
 packet_version: v4.2
 created: 2026-05-18
 source_reservoir: ../../../concepts/mmm-source-language-reservoir.md
-source_receipt: /tmp/opus_mmm_source_language_out.json
+source_receipt_historical_missing: /tmp/opus_mmm_source_language_out.json
 
 ## Boundary
 
 This file repairs the wiki/packet mismatch: the MMMs do live under `wizard/packet-v4-2-current/mmm/`, and this candidate places the new source-language work next to those MMMs.
 
 It is not active boot material yet. `PACKET_MANIFEST_v4_2.md` still marks only `FULL_MMM_v4_2.md`, `COMPACT_MMM_v4_2.md`, and `mini/MEMBER_MINI_MMM_REGISTRY_v4_2.md` as canonical runtime salience. This candidate must be reviewed, compressed, and either merged into those files or admitted as a new boot surface before any runtime claim is made.
+
+Current receipt boundary: the original `/tmp/opus_mmm_source_language_out.json` path was absent in a 2026-06-13 audit. Treat it as historical provenance, not current proof for MMM-backed route claims.
 
 ## Admission Checklist
 
@@ -176,7 +178,7 @@ Child MMM selection should use job-fit bundles, not simple voice-random assignme
 ## Scheduled dedupe status — 2026-06-06 19:01 local
 
 - Tick scope: v4.3 object-preservation/MMM maintenance steward; preflight was clean, so the selected tranche was reference-only MMM dedupe for this older source-language candidate.
-- Dedupe receipt: `/tmp/v43_mmm_candidate01_dedup_20260606-190123.json`.
+- Dedupe receipt: historical ephemeral path `/tmp/v43_mmm_candidate01_dedup_20260606-190123.json` (absent in a 2026-06-13 current-state audit).
 - Method: exact normalized substring scan over 116 extracted candidate-bearing bullets/table rows from `Kernel Salience Lock`, `Aligned Terms`, `Current Sim-Delta Terms`, `Source Sentences To Preserve`, and `Drift Rewrites` against `FULL_MMM_v4_2.md`, `COMPACT_MMM_v4_2.md`, and `mini/MEMBER_MINI_MMM_REGISTRY_v4_2.md`.
 - Exact duplicate result: `2/116` extracted items matched the active targets exactly after normalization: `CPTP channel` and `Bloch sphere` were already present in both `FULL_MMM_v4_2.md` and `COMPACT_MMM_v4_2.md`.
 - Semantic overlap boundary: broad `constraint`, `probe`, `artifact`, `graveyard`, `Hopf`, `Weyl`, `density`, `Kraus`, `entropy`, `admissible`, and `reference-only` salience already overlaps with canonical v4.2 surfaces. That overlap is useful context, not a promotion signal and not proof that this candidate is canonical.
@@ -186,7 +188,7 @@ Child MMM selection should use job-fit bundles, not simple voice-random assignme
 ## Applied candidate-bearing dedupe — 2026-06-06 19:53 local
 
 - Tick scope: v4.3 object-preservation/MMM maintenance steward; preflight was clean, so the selected tranche was a controller-serial candidate-bearing dedupe on this reference-only source-language candidate.
-- Pre-dedupe receipt: `/tmp/v43_mmm_candidate01_dedup_recheck_before_20260606-195301.json`.
+- Pre-dedupe receipt: historical ephemeral path `/tmp/v43_mmm_candidate01_dedup_recheck_before_20260606-195301.json` (absent in a 2026-06-13 current-state audit).
 - Change: removed the two exact canonical-overlap entries from `Aligned Terms`: `CPTP channel` and `Bloch sphere`.
 - Boundary: source/audit status bullets may still name those terms as historical duplicate evidence; candidate-bearing salience no longer carries them as active aligned-term entries.
 - Promotion decision: keep `authority_status: reference-only`; no canonical MMM, mini registry, manifest, runtime, sim, proof, physics, Axis0, gravity, or formal-admission promotion is made by this patch.

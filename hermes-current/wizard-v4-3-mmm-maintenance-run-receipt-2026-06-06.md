@@ -24,7 +24,7 @@ This run does the three requested moves under a v4.3 maintenance/object-preserva
 ```text
 mode: v4.3 MMM maintenance / REAL_ATTEMPT_PARTIAL
 v4.3_status: object-preservation guard and maintenance surface used
-v4.2_topology_status: bridge only where no v4.3 replacement topology exists
+v4.2_topology_status: retained council/runtime/output machinery; not replaced by v4.3
 native_delegate_task: attempted, blocked before task work by invalid xAI key
 external_worker: Claude Code Sonnet/high used for Decision, Failure, Follow-Up receipts
 multimodel_pressure: not full; Claude Sonnet/high only plus native route block

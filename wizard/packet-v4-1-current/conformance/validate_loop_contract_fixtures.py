@@ -313,6 +313,10 @@ def stale_skill_mirror_detected(root: Path) -> bool:
 
 
 def fixture_cases_are_bound(fixtures: list[dict], case_names: set[str]) -> bool:
+    # An empty fixture list is a vacuous truth — reject it explicitly.
+    # all([]) is True, which would silently pass a missing fixture index.
+    if not fixtures:
+        return False
     return all(fixture.get("validator_case") in case_names for fixture in fixtures)
 
 
@@ -607,6 +611,10 @@ def main() -> int:
 
     ids = [fixture["id"] for fixture in fixtures]
     errors: list[str] = []
+    # An empty fixture set is a hard failure — all([]) is vacuously True and
+    # would let a missing or empty fixture index pass every per-fixture check.
+    if not fixtures:
+        errors.append("empty fixture set: loop_contract_fixtures_v4_1.json has no fixtures")
     if len(ids) != len(set(ids)):
         errors.append("duplicate fixture id")
     if not validator_exists:

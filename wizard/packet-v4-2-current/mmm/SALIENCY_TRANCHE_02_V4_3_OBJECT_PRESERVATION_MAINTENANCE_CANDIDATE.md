@@ -15,7 +15,7 @@ source_receipts:
 
 This is a v4.3 MMM candidate, not active canonical boot salience.
 
-It exists because the user corrected the route: the continuing maintenance surface is **v4.3**, and MMMs must be used and improved. The active v4.2 MMM packet remains the only canonical runtime MMM surface unless conformance explicitly admits more. This file is a candidate overlay that future v4.3 maintenance ticks may preload before task rules, then test and deduplicate.
+It exists because the user corrected the route: the continuing maintenance surface is **v4.3**, and MMMs must be used and improved. The active v4.2 MMM packet remains the only canonical runtime MMM surface unless conformance explicitly admits more. This file is a candidate overlay that future v4.3 maintenance ticks may load as a **reference-only overlay** before task rules only when the worker receipt records the preload fields; it is not canonical boot salience.
 
 Do not use this file to claim:
 - v4.3 replacement runtime;
@@ -43,7 +43,7 @@ Do not use this file to claim:
 ## v4.3 maintenance salience lock
 
 - v4.3 maintenance means object-preservation + maintenance governance + MMM preload receipts;
-- v4.2 topology may be used only as a topology bridge when no v4.3 replacement topology exists;
+- v4.2 topology remains the runtime/council machinery; v4.3 adds object-preservation / maintenance guardrails and does not replace topology;
 - say the version boundary instead of smoothing it;
 - historical cron ids are not live jobs;
 - a cron tick must not recursively schedule cron jobs;
@@ -161,7 +161,7 @@ This file improves salience by giving future v4.3 maintenance workers exact obje
 ## Scheduled dedupe status — 2026-06-06 18:09 local
 
 - Tick scope: v4.3 object-preservation/MMM maintenance steward; preflight was clean, so the selected tranche was reference-only MMM dedupe rather than repair.
-- Dedupe receipt: `/tmp/v43_mmm_candidate02_dedup_20260606-180917.json`.
+- Dedupe receipt: historical ephemeral path `/tmp/v43_mmm_candidate02_dedup_20260606-180917.json` (absent in a 2026-06-13 current-state audit).
 - Method: exact normalized substring scan over 46 extracted v4.3 slice ids, salience bullets, and drift-rewrite phrases against `FULL_MMM_v4_2.md`, `COMPACT_MMM_v4_2.md`, `SALIENCY_TRANCHE_01_CANDIDATE.md`, and `mini/MEMBER_MINI_MMM_REGISTRY_v4_2.md`.
 - Exact duplicate result: `0/46` extracted items matched those targets exactly after normalization.
 - Surviving v4.3-specific slice ids: `v43.object_card_guard`, `v43.proxy_drift_scanner`, `v43.maintenance_route_truth`, `v43.mmm_admission_gate`, and `v43.wiki_processing_router`.

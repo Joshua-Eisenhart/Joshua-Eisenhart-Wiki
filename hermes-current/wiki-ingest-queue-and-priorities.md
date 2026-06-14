@@ -18,7 +18,7 @@ Current truth:
 - External LEV runtime material is separate-but-connected: ingest it only as runtime/control-plane bridge language, not as a replacement for the constraint/geometry spine.
 
 ## Priority order
-0. Current-route correction when front doors are wrong (example: Wizard v4.2 is current; v4.1 is legacy/provenance only).
+0. Current-route correction when front doors are wrong (example: current Wizard binding is v4.3; v4.3 is object-preservation / maintenance preflight, v4.2 remains runtime, and v4.1 is legacy/provenance only).
 1. Repo-current doctrine/bridge docs that look highly connected but under-routed in the public wiki.
 2. Result/sim artifact families that already exist on disk and need clean public landing/routing.
 3. Tool-gap and capability-ledger surfaces that describe still-open capability holes.
@@ -306,8 +306,9 @@ Next safe source tranche: proceed in packet order without widening into a giant 
 - `LEGACY_CONTEXT_AND_GENEALOGY.md` → [[legacy-context-and-genealogy]] ✅
 - basis: log entries from 2026-04-16 and 2026-04-17 plus live page/index presence checked 2026-04-24
 
-**Current correction tranche completed 2026-05-18: Wizard v4.2 baseline repair**
-- repaired root Wizard front doors, `wizard/AGENTS.md`, root `index.md`, the Hermes Wizard skill, and progress/audit routing so v4.2 is current and v4.1 is legacy/provenance.
+**Current correction tranche completed 2026-05-18: Wizard v4.2 baseline repair; amended 2026-06-13 for v4.3**
+- repaired root Wizard front doors, `wizard/AGENTS.md`, root `index.md`, the Hermes Wizard skill, and progress/audit routing so v4.2 is current runtime and v4.1 is legacy/provenance.
+- 2026-06-13 amendment: front doors now name the current binding as **v4.3**: v4.3 object-preservation / maintenance preflight where scoped, legacy v4.2 provenance thereafter.
 - this does not complete the wiki; it only fixes the immediate front-door routing error.
 
 **Next tranche: Queue E local rerun — blocked/deferred by Codex Ratchet status snapshot**

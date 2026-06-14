@@ -33,6 +33,8 @@ Audit report:
 
 `/tmp/hermes-3x3-mmm-pilot-20260506/audit/audit_report.json`
 
+Current receipt boundary: these `/tmp` paths are historical sandbox paths. A 2026-06-13 audit found them absent from the live filesystem; do not use them as current preload receipts unless the artifacts are restored or copied to durable storage.
+
 ## Pilot shape
 
 The pilot created:
@@ -50,7 +52,7 @@ The pilot created:
 
 Proof strip:
 
-`Hermes Wizard MMM Pilot | councils:3/3 | subcouncils:9/9 receipt-backed | mass_workers:9 completed/0 blocked | MMM:preload-receipted | audit:distinct/no-overclaim | boundary:sandbox pilot, not full runtime adoption`
+`Hermes Wizard MMM Pilot | councils:3/3 | subcouncils:9/9 receipt-backed during sandbox run | mass_workers:9 completed/0 blocked in sandbox | MMM:preload-receipted during sandbox run | audit:distinct/no-overclaim | boundary:historical sandbox pilot, not current runtime proof`
 
 ## Audit result
 
@@ -84,7 +86,7 @@ Follow-Up:
 
 This pilot supports a narrower claim:
 
-- Hermes can run a 9-subcouncil MMM-backed sandbox pilot with current receipt files and visibly distinct subcouncil outputs.
+- Hermes ran a 9-subcouncil MMM-backed sandbox pilot with receipt files present during the sandbox run and visibly distinct subcouncil outputs.
 
 It does not yet prove:
 

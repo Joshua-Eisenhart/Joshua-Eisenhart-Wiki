@@ -12,7 +12,15 @@ This folder adapts the Wizard idea to Hermes.
 
 ## Current version boundary
 
-Current Hermes Wizard binding is **v4.3-gated v4.2**. v4.3 is the required current-task object-preservation gate for object-bearing work; v4.2 remains the council/runtime/output machinery. Do not say “current Wizard is v4.2” without the v4.3 gate, and do not call a v4.3 validator example/selftest a real task run.
+Current Hermes Wizard binding is **v4.3**. v4.3 is the required current-task object-preservation gate for object-bearing work; legacy v4.2 packet references are provenance; do not run v4.2 as current. Do not say “current Wizard is v4.2” without the v4.3 gate, and do not call a v4.3 validator example/selftest a real task run.
+
+## Always-on adaptive rule
+
+Hermes Wizard runs every prompt and every prompt uses Wizard/Hermes formatting with a compact header. The depth is adaptive: ambient mode checks context continuity, memory/offload, skill maintenance, route truth, stale-context risk, and next-action/failure/follow-up shape; full councils, visible voices, and worker waves are escalations only when requested or warranted. Wizard output is human synthesis, not logs; headers exist to reduce cognitive load.
+
+Context must be reinjected, not loaded once: parent/child/subagent routes receive the current context pack plus relevant MMM/saliency slices before task rules, and long or multi-wave work refreshes at TTL/checkpoints.
+
+Main-agent MMM load comes first: before ordinary Wizard synthesis, load the active main MMM saliency body (`COMPACT_MMM_v4_3.md` by default with MMM index/L0). For high-context runs, load `FULL_MMM_v4_3.md` or the relevant/all mini-MMM set and compact it into the main agent. Worker preload never replaces this main-agent load.
 
 ## Authority boundary
 
@@ -52,7 +60,7 @@ Use it as a source to mine mechanisms.
 Do not load Codex Ratchet's AGENTS/process docs as Hermes authority by default.
 Use them to import proven mechanisms with boundaries.
 
-For explicit Wizard/current-Wizard/object-bearing work, load `15_HERMES_WIZARD_V4_3_OBJECT_PRESERVATION.md` before the v4.2 bridge and packet surfaces so the task object is preserved before councils consume it.
+For explicit Wizard/current-Wizard/object-bearing work, load `15_HERMES_WIZARD_V4_3_OBJECT_PRESERVATION.md` and keep current routing under v4.3. Legacy v4.2 packet surfaces are provenance only unless the user explicitly asks for historical audit.
 
 ## Working rule
 
@@ -72,7 +80,7 @@ The smallest Hermes Wizard is:
 2. pressure-test it;
 3. compile a next action with success and stop checks;
 4. use Hermes tools/workers only where they change the answer;
-5. render through Hermes's normal scaffold.
+5. render through the Wizard/Hermes headered scaffold, not a log dump.
 
 ## Maintenance extension
 

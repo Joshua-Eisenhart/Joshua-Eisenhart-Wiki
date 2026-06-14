@@ -42,8 +42,9 @@ A Hermes Wizard run passes only if these checks pass.
 
 ## Output check
 
+- [ ] Output starts with a compact Wizard header.
 - [ ] Main answer says the point first.
-- [ ] Results are compact receipts, not raw logs.
+- [ ] Results are compact human receipts, not raw logs or a worker ledger.
 - [ ] Surviving splits are preserved when evidence did not kill them.
 - [ ] Hygiene/security names side effects, scope, and shared-state risks.
 - [ ] Footer does not invent route proof.

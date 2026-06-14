@@ -4,7 +4,7 @@ type: runtime_contract
 runtime: hermes
 created: 2026-06-05
 updated: 2026-06-05
-status: current-proposed
+status: current-adopted-partial
 ---
 
 # Hermes Wizard Maintenance Governor
@@ -23,6 +23,9 @@ Hermes Wizard may supervise maintenance of:
 
 This is a maintenance governor role, not a new authority layer.
 
+It is also an every-prompt formatted role. On each prompt, Wizard/Hermes formatting is present with a compact header, and Wizard checks whether context, memory/offload, skills, wiki spine, subagent ledgers, or MMM/saliency packs need refresh. Most prompts should not become expanded maintenance runs; the maintenance action can remain compact when no durable action is due. Maintenance output is not a log dump; it is a headered human synthesis with compressed receipts.
+
+
 ## Authority boundary
 
 For live Hermes behavior, authority remains:
@@ -35,6 +38,14 @@ For live Hermes behavior, authority remains:
 6. Wizard docs — controller design, run receipts, and proof/maintenance contracts
 
 Wizard coordinates these surfaces. It does not replace them.
+
+## Context reinjection / MMM preload loop
+
+For thread, agent, parent, child, and compaction continuity, Wizard maintains a small current context pack and routes relevant MMM/saliency slices into workers before task rules. Returned receipts update the wiki/memory/skill spine when the update will matter later.
+
+For the main agent, Wizard also loads the active main MMM before answering. Default: `COMPACT_MMM_v4_3.md` with MMM index/L0. Escalation: `FULL_MMM_v4_3.md` or all relevant mini-MMMs compacted into the main context. If this step is skipped, the run is not a complete Wizard run; it is only controller-local formatting/maintenance.
+
+Long or multi-wave work must refresh context at TTL/checkpoints. A worker that has not reloaded the current context pack should be treated as stale for project-context claims.
 
 ## Maintenance loop
 
@@ -94,13 +105,14 @@ Parallel subagents can read, scout, audit, and propose; they should not race-wri
 
 A maintenance Wizard answer should say, compactly:
 
+- a compact Wizard header
 - what changed
 - what was verified
 - what remains open
 - which subagents/routes ran, blocked, or were deliberately not run
 - where the durable receipt lives, if any
 
-Do not dump raw subagent logs unless asked.
+Do not dump raw subagent logs unless asked. Headers are for cognitive load reduction, not for displaying a ledger.
 
 ## Stop conditions
 
@@ -118,5 +130,5 @@ Stop the maintenance loop when:
 
 - Do not paste this note into `HERMES.md`.
 - Do not make Wizard a replacement memory provider.
-- Do not make every ordinary Hermes answer a maintenance run.
+- Do not make every ordinary Hermes answer an expanded maintenance run; Wizard/Hermes formatting and the ambient management check still run every prompt.
 - Do not split the main Hermes profile/wiki surfaces into per-agent surfaces until independent profiles or explicit agent boundaries exist.

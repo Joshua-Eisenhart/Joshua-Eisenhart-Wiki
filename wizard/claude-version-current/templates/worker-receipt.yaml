@@ -1,0 +1,50 @@
+# Claude Code Wizard worker receipt template
+# schema: claude_wizard_worker_receipt_v0
+# runtime: claude_code
+# packet_version: v4.3
+# source: schemas/CLAUDE_WIZARD_RECEIPT_SCHEMA.md
+#
+# "Worker" here means any route that produced a receipt — controller-local,
+# tool run, or spawned subagent (Agent). The term is generic; the action_class
+# field distinguishes what actually ran.
+#
+# DO NOT use Hermes vocabulary: no spawn_worker, no delegate_task, no hermes_tool,
+# no hermes_controller, no terminal_process, no cronjob, no session_search.
+
+schema: claude_wizard_worker_receipt_v0
+receipt_id: <stable id, e.g. cw-20260613-decision-001>
+surface_id: <surface id matching the task card>
+surface_kind: lane | voice | followup | council | audit | management
+surface_name: <human-readable name>
+action_class: controller_local | tool_run | spawn_subagent | enqueue_runner | blocked | deferred | not_run | superseded
+route_status: completed | partial | blocked | deferred | not_run | superseded
+runtime_target: Agent | Skill | Bash | Read | Edit | Write | CronCreate | Monitor | controller_synthesis
+what_checked:
+  - <file/tool/query/source checked>
+conclusion: <what changed or was learned; bottom line first>
+remains_open:
+  - <unresolved issue, blocker, or surviving split — or explicit none>
+artifacts:
+  - <absolute path / Agent output handle / explicit none>
+evidence_boundary: <what this receipt proves and does not prove>
+next_bounded_move: <next step or explicit stop>
+
+# Required when action_class is spawn_subagent
+agent_id: <Agent call id or short handle>
+parent_receipt_id: <receipt_id of the parent that issued this receipt>
+task_card_path: <absolute path to the task card>
+execution_claim_state: generated_only | scout_ran_not_full_execution | audit_ran_not_full_execution | future_choice_not_executed | full_execution_ran | blocked_no_execution
+proof_depth: parent_reported | controller_visible | artifact_verified | test_passed
+
+# Required when surface_kind is followup
+input_decision_receipt_id: <receipt_id of Decision receipt consumed>
+input_failure_receipt_id: <receipt_id of Failure receipt consumed>
+
+# Optional
+source_slice: <file/query/tool surface that was the input>
+model_or_provider: <if a specific model was routed to>
+blocked_reason: auth_missing | permission_denied | read_restricted | unsupported_model | timeout | tool_error | stale_notice | missing_input | safety_scope | budget_exceeded
+followup_id: <if this is a follow-up route receipt>
+render_constraint: <one line the final output must preserve>
+managed_surface: memory | wiki | skill | agent | config | cron | repo_code   # management receipts
+patch_verified_by: readback | probe | test | result_json | explicit_skip_reason   # management receipts

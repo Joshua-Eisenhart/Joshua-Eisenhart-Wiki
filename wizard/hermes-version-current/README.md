@@ -1,10 +1,10 @@
 ---
 title: Hermes Wizard Version
 created: 2026-05-04
-updated: 2026-05-16
+updated: 2026-06-13
 type: runtime_design
 runtime: hermes
-framing: current-proposed
+framing: current-adopted-partial
 ---
 
 # Hermes Wizard Version
@@ -26,9 +26,11 @@ It is a low-coupling design/proof folder for making Wizard behavior work through
 
 ## Current status
 
-`drafted`: this folder exists as a Hermes-owned design and audit surface.
+`adopted-always-on`: Hermes Wizard v4.3 is active every prompt through profile `HERMES.md` and the `hermes-wizard` skill.
 
-Not yet `adopted`: no global HERMES/SOUL/control-file changes were made by creating this folder.
+Every prompt uses Wizard/Hermes formatting with a compact Wizard header. The amount of Wizard work is adaptive: compact ambient management is always present, while full/council/workerized breadth remains receipt-gated escalation inside the always-on Wizard surface. The output is not a log: headers and short synthesis blocks reduce human cognitive load while receipts stay compressed.
+
+Every prompt also performs a main-agent MMM load. Default load is `packet-v4-3-current/mmm/COMPACT_MMM_v4_3.md` plus `MMM_PREPROMPT_INDEX.md` and the L0 preamble when available. When the task warrants it and context budget allows, load `FULL_MMM_v4_3.md` or load all relevant mini-MMM slices and compact them into the main agent. Loading MMMs only into workers is not a complete Wizard run.
 
 ## Read order
 
@@ -59,11 +61,11 @@ A general Wizard packet cannot run a system by itself. A system has to make a na
 For Hermes, that means:
 
 - Hermes Wizard is a composable controller over standalone skill, agent, model, and tool routes. Each component should remain usable on its own; Wizard composes them only when composition changes the answer, verification, or next move.
-- Hermes Wizard may also act as a maintenance governor for Hermes, its durable memory, skills, subagent ledger, and wiki spine. That role coordinates existing Hermes surfaces; it does not replace `HERMES.md`, `SOUL.md`, memory tooling, skills, or `hermes-current/` authority.
-- `full` and `auto` are breadth selectors, not truth labels. `full` attempts all admitted relevant councils/lanes/skills for the declared scope. `auto` selects only routes likely to change the answer. A decision-relevant skipped route must stay visible as `not_run` or `deferred` with a reason.
-- Current Wizard binding is **v4.3-gated v4.2**: v4.3 validates the current-task object card before object-bearing work, while v4.2 supplies the council/runtime/output machinery;
-- Wizard v4.2 topology is three distinct LLM councils in sequence: Decision -> Failure -> Follow-Up;
-- Hermes needs the v4.2 native bridge to map that topology onto Hermes tools, cron, workers, premortem, and route truth after the v4.3 object-preservation gate has passed;
+- Hermes Wizard also acts as an always-on formatting, maintenance, and context governor for Hermes, its durable memory, skills, subagent ledger, and wiki spine. That role coordinates existing Hermes surfaces; it does not replace `HERMES.md`, `SOUL.md`, memory tooling, skills, or `hermes-current/` authority.
+- `full` and `auto` are breadth selectors, not truth labels. Wizard formatting runs every prompt; `auto` selects only routes likely to change the answer; `full` attempts all admitted relevant councils/lanes/skills for the declared scope. A decision-relevant skipped route must stay visible as `not_run` or `deferred` with a reason.
+- Current Wizard binding is **v4.3**: v4.3 owns current Wizard route truth; v4.2 supplies only legacy/provenance context.
+- Wizard v4.3 uses Decision -> Failure -> Follow-Up as management barriers at the smallest honest intensity; only receipt-backed workerized routes count as councils.
+- Hermes needs constant context reinjection: current context packs and relevant MMM/saliency slices must be fed into parent/child workers before task cards, with refresh at TTL/checkpoints for long work.
 - wide parallel parent/member and child/subchild work belongs inside each council when the runtime supports it;
 - premortem is an essential Failure Council member for substantive Wizard runs, and Follow-Up must not render options until open premortem findings are mapped to stop conditions, required hardening, out-of-scope, or dismissed-by-artifact;
 - RLM-FORGE/Ouroboros are source models for evidence-gated recursion and replayable child evidence handles, not default Hermes authority;

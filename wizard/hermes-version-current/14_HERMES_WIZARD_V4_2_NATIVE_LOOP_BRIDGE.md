@@ -1,22 +1,23 @@
 ---
-title: Hermes Wizard v4.2 Native Loop Bridge
+title: Hermes Wizard v4.3 Native Loop Bridge
 created: 2026-05-16
-updated: 2026-06-05
+updated: 2026-06-13
 type: runtime_design
 runtime: hermes
-status: current-proposed
+status: current-adopted-partial
 ---
 
-# Hermes Wizard v4.2 Native Loop Bridge
+# Hermes Wizard v4.3 Native Loop Bridge
 
 ## Purpose
 
-This note binds Wizard v4.2 to Hermes without pretending that Codex Ratchet's v4.2 runner is Hermes itself.
+This note binds current Wizard v4.3 to Hermes without pretending that any legacy v4.2 runner is Hermes itself.
 
 The goal is a working LLM-alignment tool:
 - the wiki carries Josh's goal, language, thinking moves, research state, and evidence rules;
 - Hermes loads that frame before acting;
-- Wizard v4.2 supplies loop topology, premortem pressure, route truth, and output discipline;
+- v4.3 object-preservation / maintenance is the current Wizard path for object-bearing or maintenance scope;
+- legacy v4.2 loop/council mechanics are provenance only and must not be named as the current run target;
 - external models such as Gemini and Grok are read-only pressure lanes unless they return durable receipts;
 - no provider agreement, model confidence, or structural-green wiki probe promotes a claim by itself.
 
@@ -26,9 +27,9 @@ The goal is a working LLM-alignment tool:
 2. `~/.hermes/HERMES.md` owns live Hermes control and scaffold rules.
 3. `~/.hermes/SOUL.md` owns body voice and anti-collapse method.
 4. `hermes-current/` is Hermes's low-entropy wiki front door.
-5. This bridge maps Wizard v4.2 concepts onto Hermes tools and receipts.
-6. `wizard/packet-v4-2-current/` supplies topology and salience, not direct Hermes law by itself.
-7. Codex Ratchet v4.2 scripts are Codex-lane evidence unless a Hermes run directly executed and verified them.
+5. This bridge maps current Wizard v4.3 concepts onto Hermes tools and receipts.
+6. `wizard/packet-v4-2-current/` is legacy/provenance; it does not supply current Hermes law or a current run target.
+7. Legacy Codex Ratchet v4.2 scripts are historical evidence only unless a task explicitly asks for legacy migration/audit.
 
 ## Native loop meaning
 
@@ -57,9 +58,9 @@ Stop when:
 - a wiki probe or schema/route check fails;
 - the next task drifts away from the user's actual goal.
 
-## v4.2 route mapping in Hermes
+## v4.3 route mapping in Hermes
 
-Every v4.2 parent, child, model, tool, cron, or follow-up route resolves to one Hermes action class:
+Every v4.3 parent, child, model, tool, cron, or follow-up route resolves to one Hermes action class:
 
 - `controller_local` — useful synthesis only; not worker proof.
 - `tool_run` — Hermes tool returned current output.
@@ -99,7 +100,7 @@ Provider agreement does not promote wiki truth, repo truth, sim readiness, or Wi
 
 ## Premortem join gate
 
-Every substantive Hermes v4.2 loop/tick needs premortem findings mapped before Follow-Up renders options.
+Every substantive Hermes v4.3 loop/tick needs premortem findings mapped before Follow-Up renders options.
 
 Allowed dispositions:
 - `out_of_scope`;
@@ -189,4 +190,4 @@ Patch the highest-salience front doors so models enter correctly:
 - root `index.md` should name Hermes/wiki as the LLM alignment front door;
 - `hermes-current/active-plans.md` should point at this bridge;
 - `wiki-wizard-v4-2-autoloop-control.md` should carry Grok/Gemini route truth and premortem disposition requirements;
-- the `hermes-wizard` skill should load this bridge for current Wizard v4.2 loop work.
+- the `hermes-wizard` skill should load this bridge for current **v4.3** loop work: v4.3 preflight first when scoped, then legacy v4.2 provenance.

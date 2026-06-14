@@ -13,6 +13,8 @@ Load in this order:
 3. `skills/SKILLS_MANIFEST_v4_2.md`.
 4. One adapter, only when needed.
 
+This manifest describes v4.2 runtime boot only. Current v4.3-gated deployments must record the v4.3 object-preservation / maintenance preflight separately before this boot when object-bearing or maintenance scope applies.
+
 `WIZARD_v4_2.md` is self-contained. Topology, schemas, task cards, output rules, management-parent rules, external audit protocol, and Codex adapter rules are embedded there.
 
 ## Authority Tags

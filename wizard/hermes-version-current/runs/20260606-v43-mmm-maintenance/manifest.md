@@ -2,7 +2,7 @@
 
 run_id: `20260606-v43-mmm-maintenance`
 mode: `REAL_ATTEMPT_PARTIAL`
-version_boundary: `v4.3 object-preservation / maintenance control; v4.2 council topology used only where no v4.3 replacement topology exists`
+version_boundary: `v4.3 object-preservation / maintenance control; v4.2 remains council/runtime/output machinery and is not replaced by v4.3`
 
 ## User request
 

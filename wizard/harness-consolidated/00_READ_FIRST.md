@@ -47,15 +47,17 @@ For tier selection by task type (hygiene / analysis / canonical), see **`READ_PO
 33. `33_mmm_language_fingerprint.md` — measured first-pass distribution of current wiki/harness language
 34. `34_mmm_research_reservoir_map.md` — source/research lanes for enriching language without imitation
 
-## v4.3 object-preservation preflight (new — 2026-06-03)
+## v4.3 current Wizard core (updated — 2026-06-13)
 
-When the task involves novel objects, salience drift, proxy drift, or shell-model work, the primary object card must pass the repo-held Wizard v4.3 guard **before** v4.2 councils run. The v4.3 authority surfaces are repo-held (not in this harness):
-- spec: `system_v5/docs/WIZARD_V4_3_PRIMARY_OBJECT_PRESERVATION_SPEC_20260526.md`
-- validator: `scripts/wizard_v4_3_object_preservation.py`
-- Hermes packet: `~/wiki/wizard/hermes-version-current/packets/hermes_v4_3_retrocausal_object_card.json`
-- Hermes harness doc: `~/wiki/wizard/hermes-version-current/15_HERMES_WIZARD_V4_3_OBJECT_PRESERVATION.md`
+The proper shared Wizard v4.3 packet now lives in the wiki at `~/wiki/wizard/packet-v4-3-current/`. This harness-consolidated folder remains nominalist-CS doctrine/priming support, not the runtime packet itself.
 
-Do not create `packet-v4-3-current` in this directory. The repo is the sole authority for v4.3.
+For object-preservation work, use the shared v4.3 core plus the active LLM adaptation. Repo validators remain concrete implementation/check surfaces when a task invokes that guard:
+- shared core: `~/wiki/wizard/packet-v4-3-current/`
+- Hermes adaptation: `~/wiki/wizard/hermes-version-current/`
+- Claude adaptation: `~/wiki/wizard/claude-version-current/`
+- validator implementation surface when needed: `scripts/wizard_v4_3_object_preservation.py`
+
+Do not boot directly from v4.2 as current law; older packets are source/provenance to be lifted through v4.3 and the active LLM adaptation.
 
 ## Injection layer (not read — pasted)
 

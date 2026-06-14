@@ -1,0 +1,51 @@
+# Claude Code Wizard task card template
+# schema: claude_wizard_task_card_v0
+# runtime: claude_code
+# packet_version: v4.3
+# source: schemas/CLAUDE_WIZARD_RECEIPT_SCHEMA.md
+#
+# Use for: parent route task cards AND child/subagent task cards.
+# Parent route: fill wave + child_routes. Child: fill parent_receipt_id + agent_id.
+#
+# DO NOT use Hermes vocabulary: no spawn_worker, no delegate_task, no hermes_tool,
+# no hermes_controller, no terminal_process, no cronjob, no session_search.
+
+schema: claude_wizard_task_card_v0
+surface_id: <direct|alternative|systems|factory|strategy|voice-hume|followup-1|decision.context_strategy|failure.falsifier|...>
+surface_kind: lane | voice | followup | council | audit | management
+surface_name: <human-readable name>
+wave: Decision Council | Failure Council | Follow-Up Council | management   # parent route only
+goal: <one sentence>
+scope: <bounded unit worked this turn>
+out_of_scope:
+  - <what must not widen>
+read_first:
+  - <absolute file path or wiki path>
+key_paths:
+  - <absolute path>
+action_class: controller_local | tool_run | spawn_subagent | enqueue_runner | blocked | deferred | not_run | superseded
+runtime_target: Agent | Skill | Bash | Read | Edit | Write | CronCreate | Monitor | controller_synthesis
+acceptance: <what counts as done>
+success_check: <observable check — name the operation, observable, and pass/fail criterion>
+stop_condition: <when to stop / block / retreat>
+deliverable: <artifact path or concise conclusion>
+evidence_boundary: <what this task card will not prove>
+render_constraint: <one line synthesis must preserve, if any>
+
+# Child / subagent fields (required when action_class is spawn_subagent)
+parent_receipt_id: <receipt_id of the parent that issued this card>
+agent_id: <Agent call id or short handle, e.g. decision-ctx-agent-001>
+execution_claim_state: generated_only | scout_ran_not_full_execution | audit_ran_not_full_execution | future_choice_not_executed | full_execution_ran | blocked_no_execution
+proof_depth: parent_reported | controller_visible | artifact_verified | test_passed
+
+# Parent route fields (required when surface_kind is council and this is a parent)
+child_routes:
+  - <child surface_id>
+
+# Management fields (required when surface_kind is management)
+managed_surface: memory | wiki | skill | agent | config | cron | repo_code
+patch_verified_by: readback | probe | test | result_json | explicit_skip_reason
+
+# Follow-Up fields (required when wave is Follow-Up Council)
+input_decision_receipt_id: <receipt_id>
+input_failure_receipt_id: <receipt_id>

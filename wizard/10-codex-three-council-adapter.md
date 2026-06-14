@@ -5,7 +5,7 @@ updated: 2026-05-02
 packet: v3.5
 type: concept
 tags: [wizard, codex, adapter, subagents, rerouter]
-framing: current
+framing: archive-provenance
 ---
 
 # Codex Adapter For The Three-Council Wizard
