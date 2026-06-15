@@ -1,6 +1,6 @@
 # Codex Ratchet Wiki — Index
 
-Total published pages: 440. Governance/read-first surfaces are listed separately. Restructured 2026-04-17 (stabilization pass).
+Total published pages: 443. Governance/read-first surfaces are listed separately. Restructured 2026-04-17 (stabilization pass).
 
 ## Hermes / LLM Alignment Front Door
 - [[hermes-current/read-first]] — Hermes front door; load this before substantive work
@@ -79,6 +79,11 @@ Total published pages: 440. Governance/read-first surfaces are listed separately
 - [[claude-code]]
 - [[hermes]]
 - [[leviathan-system]]
+
+## LevOS / Leviathan developer handoff
+- [[projects/levos/levos-gpt-webui-idea-ledger-2026-06-15]] — processed idea ledger from the GPT WebUI LevOS/Leviathan/Ratchet/Wizard chat: geometry-entropy co-ratchet, ring/QCA/Hopfield, entropy-collapse AI alignment, OpenHR/OpenFinance, nested dictionaries, spinor-not-vector freedom, Wizard-on-LevOS, and SME/community product thesis
+- [[projects/levos/levos-gpt-webui-representation-audit-2026-06-15]] — coverage audit showing which GPT WebUI key ideas were already represented, weak/fragmented, or newly represented in the wiki
+- [[projects/levos/levos-dev-handoff-product-and-runtime-2026-06-15]] — sendable developer-facing product/runtime framing: LevOS as governed AI OS/world engine, company brain not panopticon, OpenHR/OpenFinance/P2P audit, frontier intelligence under local control
 
 ## Concepts — by framing
 
