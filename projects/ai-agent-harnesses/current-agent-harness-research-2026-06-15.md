@@ -6,7 +6,16 @@ created: 2026-06-15
 scope: current harness / agent-runtime / memory / benchmark research
 claim_ceiling: source-grounded synthesis, not exhaustive literature review
 source_seed: user screenshot IMG_6209.png + web extraction + local search
+local_corpus_synthesis: projects/ai-agent-harnesses/wiki-harness-corpus-processed-2026-06-15.md
 ```
+
+## Processed local wiki corpus
+
+The local wiki harness corpus has now been processed into:
+
+`projects/ai-agent-harnesses/wiki-harness-corpus-processed-2026-06-15.md`
+
+That companion file covers conceptual harness docs, Wizard runtime/conformance docs, Claude/Hermes restart-memory docs, and Codex-Ratchet steward/archive harness docs. Use this file for the current external-paper front door; use the companion for local wiki doctrine.
 
 ## Bottom line
 
