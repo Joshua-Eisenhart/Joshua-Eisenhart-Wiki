@@ -50,7 +50,7 @@
 ## 1. Canonical artifacts (read these; do not trust this summary)
 
 **REPO `~/Codex-Ratchet`**
-- Doctrine/foundations: `system_v6/foundations/{root_axioms_v0_1_DRAFT.md, v7_gate_grounding_law_DRAFT_20260614.md, manifold_layer_order_and_completeness_contract_20260614.md (14-box contract + canonical layer order), manifold_layer_ledger_20260614.md}`
+- Doctrine/foundations: `system_v6/foundations/fresh_llm_simulation_target_spec_20260615.md` (give-this-to-a-fresh-LLM sim target spec: axioms, constraints, variants, A/B gate/explorer, first sim queue); `root_axioms_v0_1_DRAFT.md`; `v7_gate_grounding_law_DRAFT_20260614.md`; `manifold_layer_order_and_completeness_contract_20260614.md` (14-box contract + canonical layer order); `manifold_layer_ledger_20260614.md`.
 - Admission kernel (the law in code): `system_v4/skills/b_kernel.py` (7-stage UNDEFINED_TERM_FENCE) + `system_v4/skills/a1_brain.py` (`L0_LEXEME_SET`[19] / `DERIVED_ONLY_TERMS` / `OVERLAY_TERMS` / `JARGON_TERMS`)
 - Gate stack: `scripts/validate_{v7_admission, math_only_packet, name_math_correlation, qubit_ladder_depth, smt_not_tautology, two_tier_authority, result_integrity, three_engine_sim_result, canon_firewall}.py`
 - v7 sims: `system_v7/sims/{distinguishability_quotient_floor_v0` (GOLD 1q, passes-local-rerun), `finite_probe_quotient_inverse_limit_tower_1q_through_4q` (first nesting tower, passes-local-rerun), `axis0_terrain_engine_leap_v0` (BAD-twin negative fixture), `mixed_radix_endofunction_scc_terminal_quotient_under_z2_involution_v0` (REJECTED caught-hack fixture)}`
