@@ -8,6 +8,8 @@ owned_by: background-packet-2
 
 # Event Bus / Causality Plane
 
+> Supersession note, 2026-06-18: this page was written against the now-deleted damaged local checkout at `a661ecbf...`. Its source-map material remains useful, but its "current conflict marker" blocker is superseded for upstream truth by [[projects/leviathan-current/deep-audit-current-snapshot-2026-06-18]]. In the clean snapshot `c90ec8499c83db3d17f6132ec734698a8de2dbce`, `rg -n "^(<<<<<<<|>>>>>>>)"` found no matches and `core/event-bus/src/index.ts` reads as normal exports. Runtime health is now mixed rather than simply unrun: Packet 7/8 established a split proof state with named SDK/Poly green while default daemon Pentagon, `@lev-os/testing`, and event-dispatch proof-spine remain red or blocked.
+
 ## Evidence and status labels
 
 Major claims below are tagged with **[observed file]**, **[inferred from package/code]**, **[inferred from docs]**, **[roadmap/design intent]**, **[open]**, or **[not checked]**.
@@ -28,7 +30,7 @@ Primary sources read for this page:
 
 Related starter page incorporated by reference: `/Users/joshuaeisenhart/wiki/projects/leviathan-current/event-graph-orchestration-start.md`.
 
-## Critical blocker: unresolved conflict markers
+## Historical blocker: unresolved conflict markers in deleted checkout
 
 Unresolved conflict markers were observed in active runtime source, including:
 
@@ -38,7 +40,7 @@ Unresolved conflict markers were observed in active runtime source, including:
 - `/Users/joshuaeisenhart/GitHub/leviathan/core/event-bus/src/context/pr.ts`
 - Additional conflict markers in `core/build/**` and Rust TUI crates were also returned by the scan. **[observed file]**
 
-Therefore this page maps intended/current ownership and observed files, but **does not claim Event Bus build/runtime health**. **[observed file]** Any claim that depends on successful compilation or clean import of `@lev-os/event-bus` is **[open]** until conflict markers are resolved and typecheck/smoke passes.
+Therefore this page maps ownership and observed files from a historical local checkout, but **does not claim current Event Bus build/runtime health**. **[observed file]** For current upstream truth, use the clean snapshot and Packet 7/8 proof pages; event-dispatch proof-spine remains blocked until its current import/build boundaries are resolved and targeted tests reach assertions.
 
 ## Boundary summary
 

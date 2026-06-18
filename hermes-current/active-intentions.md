@@ -11,6 +11,7 @@ Use this when:
 
 Current truth:
 - The wiki is being upgraded from a large note store into a simple but richer LLM-readable personal harness and shared working space.
+- The wiki now has a CocoIndex-backed semantic retrieval layer for MCP-capable agents; this should improve discovery without replacing exact reads, provenance checks, or claim ceilings.
 - A major near-term goal is to offload more durable agent memory into the wiki without losing retrievability or personal frame.
 - Hermes plus the wiki is functioning as an entropy-refinery stack for Josh's docs, notes, repo surfaces, and other high-entropy material.
 - Hermes should do the outer high-entropy processing first; the wiki should hold the resulting more stable and better-routed surfaces.

@@ -10,6 +10,8 @@ owner: runtime-map-worker
 
 # FlowMind Control Plane Start
 
+> Supersession note, 2026-06-18: this is an earlier starter map. For current upstream truth, begin with [[projects/leviathan-current/deep-audit-current-snapshot-2026-06-18]]. Use this page only as packet context where it differs from the current clean snapshot.
+
 ## Scope
 
 This page maps FlowMind as a starter control-plane module. It only uses package metadata and the public barrel entrypoint, not full implementation files. Treat it as a first-pass contract map.

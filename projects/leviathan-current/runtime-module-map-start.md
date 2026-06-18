@@ -10,6 +10,8 @@ owner: runtime-map-worker
 
 # Runtime Module Map Start
 
+> Supersession note, 2026-06-18: this is an earlier starter map. For current upstream truth, begin with [[projects/leviathan-current/deep-audit-current-snapshot-2026-06-18]] and use this page only as historical packet context.
+
 ## Scope and support labels
 
 This page is a starter runtime/module map for the current Leviathan repo. It is based only on package manifests, root workspace files, root READMEs where present, and selected entrypoint files listed below. It is **not** a full implementation proof.

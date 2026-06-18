@@ -1,0 +1,15 @@
+{
+  "bad_error_codes": [
+    "missing_council",
+    "missing_council",
+    "completed_without_visible_artifact",
+    "completed_receipt_missing",
+    "skipped_route_marked_completed",
+    "bad_status_label"
+  ],
+  "bad_verdict": "fail",
+  "created_at": "2026-06-18T07:31:38.068051Z",
+  "good_verdict": "pass",
+  "harness": "hermes_controller_harness_v0_selftest",
+  "ok": true
+}

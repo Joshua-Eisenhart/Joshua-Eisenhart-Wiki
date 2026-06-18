@@ -13,6 +13,7 @@ Current truth:
 - In this Hermes terminal environment, `python` is not on PATH; use `python3`.
 - Detailed environment/process context was offloaded from injected memory and should be recovered from `hermes-memory-offload.md` when needed.
 - The wiki is the active long-form harness/workspace.
+- The wiki has an active CocoIndex/MCP semantic retrieval layer. Use [[cocoindex-wiki-mcp-memory-layer]] for wrapper paths, MCP server names, refresh/search commands, and cross-agent usage boundaries.
 - The research papers directory is `/Users/joshuaeisenhart/wiki/raw/papers`.
 - Hermes, Claude Code, and Codex bot/config surfaces are separate. Do not mix credentials or transports across them.
 - For Hermes-controlled run reporting, use the Hermes bot/transport.

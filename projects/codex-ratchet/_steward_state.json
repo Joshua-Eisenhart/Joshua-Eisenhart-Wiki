@@ -1,7 +1,0 @@
-{
-  "last_tick": "2026-04-17T21:39:47.664754-07:00",
-  "last_digest_date": "2026-04-17",
-  "last_morning_briefing_date": "2026-04-17",
-  "last_repo_commit": "a675b50f10e54bb879c1678206a5fbd7a686eb7b",
-  "notes": "tick: harness compaction + meta_audit sanitization; STATUS rewritten; morning briefing preserved; required_audit_clean=True; telegram_summary_sent=yes; authority_fallback=system_v5/ops"
-}

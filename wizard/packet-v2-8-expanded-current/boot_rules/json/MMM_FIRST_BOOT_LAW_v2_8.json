@@ -1,4 +1,0 @@
-{
-  "name": "MMM_FIRST_BOOT_LAW_v2_8",
-  "text": "# README Boot Order v2.8\n\n## Main agent\n\n1. `current/NEW_THREAD_POSITIVE_MMM_BOOT_PROMPT_v2_8.md`\n2. `main_mmm/full/md/MMM_MAIN_FULL_v2_8.md`\n3. task\n\nProject, repo, wiki, and rule files may be read after boot when the task needs\nthem. They are not part of the positive boot salience preload.\n\n## Subagent\n\n1. shared positive L0 MMM\n2. exact positive mini-MMM from `mini_mmms/{size}/`\n3. `current/SUBAGENT_POSITIVE_MINI_MMM_BOOT_PROMPT_v2_8.md`\n4. task card\n5. source files/tools\n\n## Boot scope\n\nMain boot uses the full positive main MMM, then the task. Subagent boot uses the\nassigned positive mini-MMM, then the task card. Other packet material is loaded\nonly by a later explicit review or repair route, never by the boot prompt.\n"
-}

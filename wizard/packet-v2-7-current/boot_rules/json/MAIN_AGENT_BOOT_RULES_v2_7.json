@@ -1,4 +1,0 @@
-{
-  "name": "MAIN_AGENT_BOOT_RULES_v2_7",
-  "text": "# New Thread Positive MMM Boot Prompt v2.7\n\nRead before task instructions:\n\n1. Positive main MMM:\n   - `main_mmm/compact/md/MMM_MAIN_COMPACT_v2_7.md`\n   - or `main_mmm/standard/md/MMM_MAIN_STANDARD_v2_7.md`\n\n2. Wizard rules:\n   - `current/WIZARD_GENERAL_STANDARD_v2_7.md`\n\n3. Project front door\n\n4. Task\n\nPositive boot scope:\n- Load only the paths listed above plus task-provided project files.\n- Only listed paths are in scope.\n\nBoot receipt:\n- positive_mmm_loaded: yes/no/path\n- rules_loaded: yes/no/path\n- task_loaded_after_positive_mmm: yes/no\n- unlisted_material_loaded_in_boot: no\n"
-}

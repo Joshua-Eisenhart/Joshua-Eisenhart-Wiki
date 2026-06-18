@@ -41,9 +41,9 @@ New source-intake note: [[projects/codex-ratchet/cs-geometry-upgrade-bundle-inta
 
 ## How each step gets done (the execution loop)
 1. Claude writes a BOUNDED build card (one object / one claim / one set of controls / the tool->role map / the ceiling). NOT a giant fullstack build.
-2. **codex2** (gpt-5.5, ~/.codex-second) BUILDS via STDIN-redirect — run MASS-PARALLEL across effort levels. Claude never builds science. **codex1 (~/.codex) is OFF-LIMITS (owner, 2026-06-08) — never invoke it.**
+2. **codex1** (gpt-5.5 xhigh, ~/.codex) BUILDS via STDIN-redirect — run MASS-PARALLEL across effort levels; Claude never builds science. **codex2 (~/.codex-second) is HISTORICAL / memory-only (auth revoked 2026-06-17) — do NOT dispatch builds to it; treat it as a memory-ingest source.** [2026-06-17: this UN-INVERTS the prior off-limits rule; the codex1-vs-codex2 split was quota-era routing, not doctrine.]
 3. Claude VERIFIES on disk (validator --require-pytorch, values, tool_calls real, no-numpy-path, controls flip) — builder's verdict is NOT evidence.
-4. **Fresh-context audit** on any LOAD-BEARING receipt — a SEPARATE fresh read-only codex2 invocation (CODEX_HOME=~/.codex-second, did NOT build that artifact) + Claude fresh-audit-runner + grok/gemini alt-views. NOT codex1.
+4. **Fresh-context audit** on any LOAD-BEARING receipt — a SEPARATE fresh read-only codex1 invocation (CODEX_HOME=~/.codex, did NOT build that artifact) + Claude fresh-audit-runner + multi-model fleet alt-views (grok/gemini/deepseek/qwen/kimi via OpenRouter). [2026-06-17: codex2 is no longer a live audit worker.]
 5. Gate. If it passes -> next stage. If not -> re-harden THAT piece (not a rebuild of everything).
 6. Save the receipt to the wiki. Update memory.
 
@@ -59,3 +59,26 @@ Drift happened from: no repo-gated routing aid, two checkout memories, old docs 
 8. **Don't relaunch the same thing.** If a receipt has a named gap, harden THAT; finish + verify one before starting the next.
 
 Source tags: `reference_gpt_pro_canonical_tristack_architecture`, `reference_verified_tool_stack_and_poorly_supported_alts`, `feedback_new_stack_is_plan_old_docs_are_mine`, `reference_tri_engine_parallel_share_julia_canon_numpy_corruption`.
+
+---
+
+## 2026-06-17 UPDATE (tooling + method + state — supersedes any conflicting line above)
+
+**Tooling / routing (the "how"):**
+- **codex1 (`~/.codex`, gpt-5.5 xhigh) is the LIVE build worker.** codex2 (`~/.codex-second`) is HISTORICAL / memory-only (token revoked). This un-inverts the old "codex1 off-limits / codex2 builds" rule — that split was quota-era routing, not doctrine.
+- **cocoindex** is the semantic retrieval layer (a map, NOT authority): wiki via MCP `mcp__cocoindex_wiki__search` with `refresh_index=false` (the default `true` collides with the background indexer and drops the connection); repo via `ccc search` run from `~/Codex-Ratchet`.
+- **Full multi-model fleet** live via OpenRouter (`$OPENROUTER_API_KEY` in-shell; direct `XAI`/`GROK`/`GEMINI` keys in `~/.zshrc`): deepseek, qwen, kimi, grok, gemini. Use it for **divergence** (raise the chance something useful survives), not only adversarial close.
+- Repo authority is **Wizard v4.3**.
+
+**Method (the deeper "how"):**
+- The gate splits in two: (a) a **narrow deterministic SEAT-CERTIFIER** — did the artifact actually run / real evidence vs. stub (python/validator/binary; strict); (b) a **soft multi-model JUDGMENT** — what to explore / rescue ordering / interpretation choice (NOT strict, NOT perfect; many models, statistical). Do NOT make the soft part a strict policy.
+- Dominant failure mode (owner): LLMs lock onto ONE often-unstated interpretation, harden it into rules, and burn huge effort. Counter = keep readings **plural**; fleet for divergence.
+- The **engine-run-authenticity re-executor** (re-run the `.jl`/`.py`, recompute the claimed values, sign a run receipt) is the missing seat-certifier slice — designed (`project_deterministic_harness_design`), NOT built. Current validators check declared shape + source tokens, not execution.
+
+**State (where we are, 2026-06-17):**
+- `entropy_geometry_coratchet_floor_v0` fleet-gated (Claude+DeepSeek+Grok) → defects fixed → re-gated clean: **geometry/distinguishability is the spine; entropy is a TYPED downstream readout recomputed per carve — NOT a co-equal dual ratchet.** Still scratch_diagnostic.
+- **system_v3** (the original deterministic system + rescue/graveyard/lawyer machinery) is RECOVERABLE from commit `ecee5ea8a` (untracked+gitignored 2026-06-09, not lost). Do NOT wholesale-restore; extract + ledger first.
+- Agent memory → wiki is **SCAFFOLDED, not done**: router + research tranche exist, the provenance ledger does not; `wiki/codex-memory/` is empty; codex1/codex2/.claude memory largely unprocessed (coverage audit 2026-06-17).
+- "Purgatory" rename is NOT propagated into code (still `graveyard` + `graveyard-lawyer` + `op_graveyard_rescue` in `system_v4`).
+
+Claude-memory cross-refs: `feedback_codex2_is_the_build_workhorse` (codex1-live correction), `feedback_gate_narrow_seatcertifier_judgment_soft_multimodel`, `project_geometry_entropy_coratchet_not_dual`, `project_deterministic_harness_design`, `reference_cocoindex_wiki_semantic_search`.

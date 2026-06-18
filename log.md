@@ -1,4 +1,54 @@
 
+## 2026-06-17 - Prompt-memory provenance ledger tranche 003 for intent and clarifications
+
+- Added [[projects/codex-ratchet/prompt-memory-provenance-ledger-tranche-003-2026-06-17]] as a bounded cross-cache intent/clarification ledger after scanning a transient inventory of Hermes profile memory, Claude CR/Desktop CR memory rows, Codex memory SQLite summaries, raw Codex log candidates, Claude project session candidates, and app-support coverage signals.
+- The ledger records safe redacted routing rows for memory-cache processing intent, route truth, owner style/execution, Wizard output cognitive-load purpose, MMM vocabulary density, owner-table anti-promotion, old-source/source-label separation, primary-object/proxy guards, foundation-first build order, builder/auditor split, claim-label discipline, repo-root/path checks, active-session pacing, raw-log/JSONL coverage-only status, and app-support extractor deferral.
+- Patched [[projects/codex-ratchet/read-first]], [[hermes-current/read-first]], and [[index]] so future workers find tranche 003 alongside the router, research tranche, coverage matrix, and tranches 001-002.
+- Verification: `tools/wiki_probe.py --wiki-root /Users/joshuaeisenhart/wiki --output /tmp/wiki_probe_prompt_memory_ledger_003_20260617.json` returned `page_count=440`, `missing_pages=0`, `orphans=0`, `broken_links=0`, `stubs=0`, `malformed_wikilinks=0`, and `stale_namespace_wikilinks=0`. Authored wiki surface JSON/JSONL count outside raw/archive/hidden folders remained `0`. New/changed pages had no API-key/private-key/openai/aws hits; the new log entry had no long-hex hits. CocoIndex semantic search with `refresh_index=true` retrieved `log.md`, `index.md`, and `hermes-current/read-first.md`; a row-ID query then retrieved tranche 003 itself, including `PMPL-003-001` and the app-support coverage-only row. Exact files were read after retrieval.
+- Claim ceiling: source-processing, provenance-ledger, and intent-routing only; no `M(C)`, QIT-engine, Axis0, bridge, physics, consciousness, Wizard-full-run success, or canon admission.
+
+## 2026-06-17 - Prompt-memory provenance ledger tranche 002 for Claude CR/Desktop CR
+
+- Added [[projects/codex-ratchet/prompt-memory-provenance-ledger-tranche-002-2026-06-17]] as a bounded Claude CR + Claude Desktop CR provenance ledger tranche. It processes safe method-memory rows for Wizard v4.3 route truth, Wizard output cognitive load, validator-vs-full-run status, original physics source routing, IGT mapping correction, primary-object/proxy separation, owner-table anti-promotion, active-session scheduling, finite follow-up loops, MMM vocabulary, harness/MMM boot, pasted-prompt authorization, purgatory-as-working-space, and CocoIndex caveats.
+- Deferred unsafe-private candidates such as memory indexes, provider/model roster details, full-council verdict memories, deterministic harness rows, and high-compression overclaim ledgers until an exact-source redaction/source-split pass can process them safely.
+- Patched [[projects/codex-ratchet/read-first]], [[hermes-current/read-first]], and [[index]] so future workers find tranche 002 alongside the coverage matrix, router, research tranche, and tranche 001.
+- Verification: `tools/wiki_probe.py --wiki-root /Users/joshuaeisenhart/wiki --output /tmp/wiki_probe_prompt_memory_ledger_002_20260617.json` returned `page_count=440`, `missing_pages=0`, `orphans=0`, `broken_links=0`, `stubs=0`, `malformed_wikilinks=0`, and `stale_namespace_wikilinks=0`. Authored wiki surface JSON/JSONL count outside raw/archive/hidden folders remained `0`. New/changed pages had no API-key/private-key/openai/aws hits; the new log entry had no long-hex hits. CocoIndex semantic search with `refresh_index=true` retrieved the new ledger, `log.md`, `index.md`, and the patched Codex Ratchet front door; exact files were read after retrieval.
+- Claim ceiling: source-processing and method-memory routing only; no `M(C)`, QIT-engine, Axis0, bridge, physics, consciousness, Wizard-full-run success, or canon admission.
+
+## 2026-06-17 - Prompt-memory provenance ledger tranche 001 and source coverage matrix
+
+- Added [[projects/codex-ratchet/memory-source-coverage-matrix-2026-06-17]] as the source-vs-wiki coverage matrix for Hermes, Claude project/Desktop memories, codex1/codex2 memories and sessions, and Codex/OpenAI app-support stores. It is inventory/routing only, not a memory dump or doctrine.
+- Added [[projects/codex-ratchet/prompt-memory-provenance-ledger-tranche-001-2026-06-17]] as the first bounded ledger tranche after an 8-parent source-class audit plus cross-model pressure pass. Rows use opaque source IDs, redacted paraphrases, owner/assistant/source split, privacy status, research comparator lanes, falsifiers, and no-promotion claim ceilings.
+- Patched [[projects/codex-ratchet/read-first]], [[hermes-current/read-first]], and [[index]] so future Hermes/wiki workers find the coverage matrix and ledger before mining agent memories.
+- Verification: `tools/wiki_probe.py --wiki-root /Users/joshuaeisenhart/wiki --output /tmp/wiki_probe_prompt_memory_ledger_001_20260617.json` returned `page_count=440`, `missing_pages=0`, `orphans=0`, `broken_links=0`, `stubs=0`, `malformed_wikilinks=0`, and `stale_namespace_wikilinks=0`. Authored wiki surface JSON/JSONL count outside raw/archive/hidden folders remained `0`.
+- CocoIndex verification with `refresh_index=true` retrieved the new ledger, the coverage matrix, and the patched Codex Ratchet front door for prompt-memory provenance, source coverage, and retrieval-hygiene queries; exact files were then read before this log entry.
+- Claim ceiling: source-processing, provenance ledger, app-support coverage routing, and research-comparator routing only; no `M(C)`, QIT-engine, Axis0, bridge, physics, consciousness, or canon admission.
+
+## 2026-06-17 - Prompt-memory intention formalization router and first research tranche
+
+- Added [[projects/codex-ratchet/prompt-memory-intention-formalization-router-2026-06-17]] to route Claude/Codex/Hermes prompt-like memory into formal wiki processing without treating generated agent text as owner doctrine.
+- Added [[projects/codex-ratchet/prompt-memory-first-research-tranche-2026-06-17]] with first comparator lanes for probe-relative identity, finitude/noncommutation rebuild order, graveyard/purgatory future-option pressure, and cross-field mirror/genealogy under no-promotion ceilings.
+- Patched [[projects/codex-ratchet/read-first]], [[hermes-current/read-first]], and [[index]] so future workers can find the router/tranche from the front doors.
+- Verification: no prompt-memory JSON artifacts were added to the wiki; the only JSON outputs were transient wiki-probe receipts under `/tmp`. `tools/wiki_probe.py --wiki-root /Users/joshuaeisenhart/wiki --output /tmp/wiki_probe_prompt_memory_20260617.json` returned `page_count=440`, `missing_pages=0`, `orphans=0`, `broken_links=0`, `stubs=0`, `malformed_wikilinks=0`, and `stale_namespace_wikilinks=0`; after stopping a stale wrong-venv CocoIndex daemon, CLI and MCP semantic search retrieved the new router/tranche.
+- Provenance caveat for later readers: the router/tranche were created before a bounded prompt-memory ledger existed. Treat their kernels as candidate routing syntheses until ledger rows establish owner/assistant/source split.
+- Claim ceiling: source-processing and research-comparator routing only; no `M(C)`, QIT-engine, Axis0, bridge, physics, consciousness, or canon admission.
+
+## 2026-06-17 - Codex-Ratchet repo current-surface ingest router
+
+- Added [[projects/codex-ratchet/repo-current-surface-ingest-2026-06-17]] as a bounded repo-to-wiki intake page after reading current Codex-Ratchet repo foundation drafts and v7 verdict/build surfaces.
+- The page consumes useful ideas without raw JSON and without promotion: weak finite quotient first, MSS/rung discipline, forced-vs-installed as open test family, fixed-cover contextuality as nonclassical but not rho-specific, low-rank transfer as a carrier overclaim kill, ring-checkerboard/fiber fixtures with finite-table caveats, and QCA/Hopfield entropy surfaces at scratch ceiling.
+- Patched [[projects/codex-ratchet/read-first]] and [[index]] so future agents find this tranche from the active project front door and root index.
+- Claim ceiling: wiki routing/synthesis only; no sim admission, no layer completion, no `M(C)`, QIT-engine, Axis0, bridge, or physics claim.
+
+## 2026-06-16 - CocoIndex wiki MCP memory layer documented
+
+- Added [[hermes-current/cocoindex-wiki-mcp-memory-layer]] after setting up and verifying the CocoIndex Code index for `~/wiki` and the Hermes MCP server `cocoindex_wiki`.
+- Patched [[hermes-current/read-first]], [[hermes-current/environment-and-rules]], [[hermes-current/skills-and-agent-rules]], [[hermes-current/active-intentions]], and [[index]] so future Hermes/Claude/Codex work treats CocoIndex as a semantic map over the wiki, not as injected memory or authority.
+- Added the Codex app/CLI global MCP entry with `codex mcp add cocoindex_wiki -- /Users/joshuaeisenhart/.local/bin/cocoindex-wiki-mcp`; verified it with `codex mcp get cocoindex_wiki` and `codex mcp list`.
+- Preserved the cross-agent boundary: Hermes may read Claude-owned wiki memory surfaces but should not edit them; Claude may read Hermes-owned surfaces but should not edit them unless explicitly authorized.
+- During verification, repaired two unrelated LevOS root-note wikilinks to plain path references and aligned the root index published-page count with the probe's observed `page_count=440`.
+- Verification target: wiki probe plus CocoIndex refresh/search for this new page. Claim ceiling: retrieval/routing setup only; no wiki content authority or project-claim promotion.
+
 ## 2026-06-13 - Wizard v4.3 agent/taskcard repair
 
 - Added v4.3-owned `wizard/packet-v4-3-current/agents/` and `taskcards/` surfaces after the agent-file gap was confirmed.

@@ -326,7 +326,7 @@ Event Bus      -> causality / audit spine
 Semantic Control -> admit/rework/reject through GateProof, Receipt, Trace
 ```
 
-**Wiki routing:** Strongly represented in [[lev_reorientation_guide_v2]] and LevOS v10 zip, but needs customer-facing consolidation.
+**Wiki routing:** Strongly represented in `lev_reorientation_guide_v2.md` and LevOS v10 zip, but needs customer-facing consolidation.
 
 **Status:** Represented; product handoff page turns it into a pitch.
 

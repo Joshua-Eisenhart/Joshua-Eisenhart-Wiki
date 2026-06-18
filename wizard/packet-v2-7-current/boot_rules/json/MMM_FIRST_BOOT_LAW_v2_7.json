@@ -1,4 +1,0 @@
-{
-  "name": "MMM_FIRST_BOOT_LAW_v2_7",
-  "text": "# README Boot Order v2.7\n\n## Main agent\n\n1. `current/NEW_THREAD_POSITIVE_MMM_BOOT_PROMPT_v2_7.md`\n2. `main_mmm/compact/md/MMM_MAIN_COMPACT_v2_7.md` or `main_mmm/standard/md/MMM_MAIN_STANDARD_v2_7.md`\n3. `current/WIZARD_GENERAL_STANDARD_v2_7.md`\n4. project / repo / wiki front door\n5. task\n\n## Subagent\n\n1. shared positive L0 MMM\n2. exact positive mini-MMM from the assigned taxonomy folder\n3. `current/SUBAGENT_POSITIVE_MINI_MMM_BOOT_PROMPT_v2_7.md`\n4. task card\n5. input files/tools named by the task\n\n## Boot scope\n\nLoad only listed positive paths and task-provided files. Only listed paths are in scope.\n"
-}

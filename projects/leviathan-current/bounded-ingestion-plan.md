@@ -1,7 +1,7 @@
 ---
 title: Leviathan Current Bounded Ingestion Plan
 created: 2026-06-17
-updated: 2026-06-17
+updated: 2026-06-18
 type: ingestion-plan
 status: active plan
 claim_ceiling: work plan; not completed ingestion
@@ -25,6 +25,14 @@ Turn the current `lev-os/leviathan` repo plus relevant Josh/JP chat material int
 
 This is wiki work, not repo mutation. Do not edit the Leviathan repo during ingestion unless Josh explicitly assigns a repo patch task.
 
+The local checkout `/Users/joshuaeisenhart/GitHub/leviathan` was deleted on 2026-06-18 after the wiki lane mutated it. New ingestion must read from the live GitHub website/remote:
+
+- `https://github.com/lev-os/leviathan`
+- `https://raw.githubusercontent.com/lev-os/leviathan/main/<path>`
+- `https://api.github.com/repos/lev-os/leviathan/contents/<path>?ref=main`
+
+For stable evidence, record the remote commit SHA and cite raw URLs with that SHA. If website/raw/API access is insufficient, Josh has authorized downloading Leviathan again as a clean fresh clone from `https://github.com/lev-os/leviathan.git`. Prefer a disposable clone under `/tmp`, keep it read-only for the wiki pass, record the remote URL, SHA, and clean status, and delete it after the pass. If a persistent checkout is needed, clone fresh rather than recovering the deleted damaged checkout.
+
 ## Packet sequence
 
 ### Packet 0 — Scaffold and inventory
@@ -41,22 +49,23 @@ Artifacts:
 Success check:
 
 - Project folder exists.
-- Current repo path, remote, HEAD, dirty-state caveat, and file counts are recorded.
+- Historical local repo path, remote, HEAD, dirty-state caveat, and file counts are recorded.
+- New packets record GitHub website/raw/API source URLs plus the remote commit SHA used.
 - Authority order is explicit.
 
 ### Packet 1 — Current authority docs
 
 Status: **completed 2026-06-17**.
 
-Read and synthesize only current authority docs:
+Read and synthesize only current authority docs through GitHub website/raw/API source mode:
 
-- root `README.md`
-- `docs/README.md`
-- `docs/NORTH_STAR.md`
-- `docs/ROADMAP.md`
-- `docs/ARCHITECTURE.md`
-- `docs/specs/README.md`
-- high-signal `docs/specs/*.md` contracts
+- root `README.md` via `https://github.com/lev-os/leviathan` or raw URL
+- `docs/README.md` via raw URL
+- `docs/NORTH_STAR.md` via raw URL
+- `docs/ROADMAP.md` via raw URL
+- `docs/ARCHITECTURE.md` via raw URL
+- `docs/specs/README.md` via raw URL
+- high-signal `docs/specs/*.md` contracts via raw/API listing
 
 Output pages:
 
@@ -79,7 +88,7 @@ Stop condition:
 
 ### Packet 2 — Runtime/module map
 
-Status: **source-map completed 2026-06-17; runtime verification still open**.
+Status: **source-map completed 2026-06-17; full runtime/build-test map completed 2026-06-18; runtime verification still open**.
 
 Read code and package contracts by ownership boundary, not whole repo at once:
 
@@ -92,6 +101,8 @@ Read code and package contracts by ownership boundary, not whole repo at once:
 - `core/daemon/`
 - `plugins/core-*` plus broader plugin manifests/configs
 - `core/domain/`
+
+Use raw URLs, GitHub website file views, the Contents API, or a clean fresh clone for this packet. Do not rely on `/Users/joshuaeisenhart/GitHub/leviathan` unless it has been freshly recloned and its SHA/clean status are recorded.
 
 Starter pages landed:
 
@@ -109,6 +120,12 @@ Full source-map pages landed:
 - `plugin-ownership-map.md`
 - `packet-2-runtime-map-receipt-2026-06-17.md`
 
+Full runtime/build-test pass landed:
+
+- `runtime-module-map-full-2026-06-18.md`
+- `runtime-build-test-surface-map-2026-06-18.md`
+- `packet-2-full-runtime-map-receipt-2026-06-18.md`
+
 Success check:
 
 - Every page cites exact files read.
@@ -118,6 +135,8 @@ Success check:
 
 ### Packet 3 — Product surfaces and human-loop layer
 
+Status: **partial product-surface map completed 2026-06-18; GenUI/voice/product-positioning pages still open**.
+
 Read:
 
 - AgentPing and surface docs/code in repo and submodules.
@@ -125,18 +144,25 @@ Read:
 - UI/voice/GenUI surfaces.
 - related existing `projects/levos` product notes.
 
-Output pages:
+Landed pages:
 
 - `agentping-human-loop-surfaces.md`
 - `agentlease-scoped-authority.md`
+- `packet-3-product-surfaces-receipt-2026-06-18.md`
+
+Still-open planned pages:
+
 - `genui-voice-and-surface-strategy.md`
 - `product-positioning-and-open-source-flywheel.md`
 
 Claim ceiling:
 
 - Distinguish implemented surfaces from positioning, roadmap, and idea-ledger material.
+- AgentPing and AgentLease are source-supported product/runtime concepts; runtime health and full product integration remain unverified until bounded tests/builds run.
 
 ### Packet 4 — Josh constraint contribution map
+
+Status: **constraint-boundary tranche completed 2026-06-18; runtime-translation map still open**.
 
 Read:
 
@@ -146,12 +172,16 @@ Read:
 - previous `projects/levos` pages
 - selected Josh/JP chat candidates after provenance split
 
-Output pages:
+Landed pages:
 
 - `josh-root-constraints-in-leviathan.md`
 - `lev-five-constraints-vs-f01-n01.md`
-- `constraint-runtime-translation-map.md`
 - `codex-ratchet-vs-leviathan-boundary.md`
+- `packet-4-constraint-boundary-receipt-2026-06-18.md`
+
+Still-open planned page:
+
+- `constraint-runtime-translation-map.md`
 
 Success check:
 
@@ -160,6 +190,8 @@ Success check:
 - No Codex Ratchet sim claim is imported as a Lev implementation claim.
 
 ### Packet 5 — Chat/transcript provenance processing
+
+Status: **promotion protocol plus first bounded tranche completed 2026-06-18; broad ledger work still open**.
 
 Use `source-inventory-2026-06-17.json` chat candidates as the queue.
 
@@ -173,7 +205,13 @@ For each source, classify passages as:
 - design intent.
 - implementation status.
 
-Output pages:
+Landed pages:
+
+- `chat-evidence-promotion-protocol.md`
+- `chat-tranche-1-processing-2026-06-18.md`
+- `packet-5-chat-tranche-receipt-2026-06-18.md`
+
+Still-open broader pages:
 
 - `chat-provenance-ledger.md`
 - `josh-jp-shared-ideas-ledger.md`

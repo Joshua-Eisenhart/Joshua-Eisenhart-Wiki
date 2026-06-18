@@ -1,4 +1,0 @@
-{
-  "name": "SUBSUBAGENT_BOOT_RULES_v2_8",
-  "text": "# Subsubagent Positive Mini-MMM Boot Prompt v2.8\n\nUse only for narrow child checks.\n\nRead before child task card:\n\n1. inherited positive parent MMM summary\n2. exact positive child mini-MMM\n3. child task card\n4. one source/check\n\nReceipt:\n- status: spawned | blocked | deferred\n- parent_unit_id\n- child_unit_id\n- positive_mini_mmm_loaded_before_task\n- boot_scope: inherited_positive_summary_then_child_task\n- checked\n- concluded\n- open\n- evidence\n- parent_effect\n"
-}

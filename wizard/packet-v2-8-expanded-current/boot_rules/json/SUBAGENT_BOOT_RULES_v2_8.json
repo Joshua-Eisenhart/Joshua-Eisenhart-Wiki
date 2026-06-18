@@ -1,4 +1,0 @@
-{
-  "name": "SUBAGENT_BOOT_RULES_v2_8",
-  "text": "# Subagent Positive Mini-MMM Boot Prompt v2.8\n\nRead before task card:\n\n1. shared positive L0 MMM\n2. exact positive mini-MMM for assigned voice/lane\n3. this boot prompt\n4. task card\n5. source files/tools\n\nReceipt:\n- status: spawned | blocked | deferred\n- positive_mini_mmm_loaded_before_task: yes/no/path\n- boot_scope: positive_mini_mmm_then_task\n- checked\n- concluded\n- open\n- evidence\n- artifact_or_output\n"
-}

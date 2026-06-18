@@ -1,6 +1,6 @@
 # Codex Ratchet Wiki — Index
 
-Total published pages: 443. Governance/read-first surfaces are listed separately. Restructured 2026-04-17 (stabilization pass).
+Total published pages: 440. Governance/read-first surfaces are listed separately. Restructured 2026-04-17 (stabilization pass).
 
 ## Hermes / LLM Alignment Front Door
 - [[hermes-current/read-first]] — Hermes front door; load this before substantive work
@@ -9,7 +9,16 @@ Total published pages: 443. Governance/read-first surfaces are listed separately
 - [[hermes-current/active-plans]] — compact active plan stack and next bounded work lanes
 - [[hermes-current/current-vs-legacy]] — authority/provenance ranking
 - [[hermes-current/skills-and-agent-rules]] — how skills and agents should use the wiki
+- [[hermes-current/cocoindex-wiki-mcp-memory-layer]] — CocoIndex/MCP semantic retrieval layer for Hermes, Claude Code, Codex, and other MCP-capable agents
+- [[projects/codex-ratchet/cocoindex-and-bloat-cleanup-policy-2026-06-17]] — current CocoIndex + bloat cleanup policy for wiki/repo LLM findability: local indexes are semantic maps, generated JSON stays exact-read evidence, and large result artifacts require manifest/checksum/restore before archive or compression
 - [[projects/codex-ratchet/read-first]] — Codex Ratchet project front door after Hermes spine
+- [[projects/codex-ratchet/repo-current-surface-ingest-2026-06-17]] — bounded repo-to-wiki intake/router for current v7/base-floor/carrier/contextuality/ring-checkerboard/QCA/Hopfield surfaces; preserves weak quotient first, open forced-vs-installed, nonclassical-not-rho-specific, low-rank-not-carrier, and scratch/no-promotion ceilings
+- [[projects/codex-ratchet/prompt-memory-intention-formalization-router-2026-06-17]] — router for processing Claude/Codex/Hermes prompt-like memories into candidate wiki surfaces; raw memory remains private intake and generated agent prose is not owner doctrine
+- [[projects/codex-ratchet/prompt-memory-first-research-tranche-2026-06-17]] — first research-backed comparator tranche for prompt-memory formalization; candidate owner-kernel routing only until a provenance ledger supplies bounded quotes/owner confirmation; keeps `M(C)`, QIT-engine, Axis0, bridge, physics, consciousness, and canon unpromoted
+- [[projects/codex-ratchet/memory-source-coverage-matrix-2026-06-17]] — source-vs-wiki coverage matrix for Hermes, Claude, Codex app, codex1, and codex2 memory estates; separates processed, thin/partial, mostly-missing, and app-storage-only sources before any semantic import
+- [[projects/codex-ratchet/prompt-memory-provenance-ledger-tranche-001-2026-06-17]] — first bounded prompt-memory provenance ledger: redacted source-class rows, owner/assistant split, privacy status, research comparator lanes, falsifiers, and strict no-promotion claim ceilings
+- [[projects/codex-ratchet/prompt-memory-provenance-ledger-tranche-002-2026-06-17]] — Claude CR + Claude Desktop CR provenance ledger tranche: safe method-memory rows for Wizard v4.3 route truth, output cognitive load, primary-object/proxy separation, owner-table anti-promotion, MMM/harness boot, purgatory workspace, CocoIndex caveats, and unsafe-private deferrals under no-promotion ceilings
+- [[projects/codex-ratchet/prompt-memory-provenance-ledger-tranche-003-2026-06-17]] — cross-cache intent/clarification provenance ledger: Hermes/Claude/Codex/app-support candidates for owner style/execution, route truth, source/proxy separation, foundation-first order, builder/auditor split, claim-label discipline, raw-log coverage-only status, and app-support extractor deferral; no raw memory import and no promotion
 - [[projects/codex-ratchet/current-sim-validity-and-qit-engine-state-2026-06-12]] — current sim/QIT-engine validity overlay, synced after repo HEAD `52b1fe9b9`: many real bounded scratch computations, no admitted QIT-engine/Axis0/bridge/physics/full `M(C)`; RPF earns lookahead/global co-admissibility separation but not retrocausal/chiral/future-conditioned upgrade; 8Q carve is a lean count fixture, 16-stage correspondence is mismatch/proposal, ECD.01 remains the strongest clean positive QIT-like capability witness; correction overlay remains binding for stale Axis0/b6/one-step/foundation citations; broader closure debt remains open
 - [[projects/codex-ratchet/axis0-static-shallowness-and-dynamic-chart-v0-2026-06-12]] — 2026-06-12 Axis0 re-scope and dynamic chart v0 router: old Axis0 estate is static formula taxonomy; `manifold_dynamic_chart_v0` is committed validator-green `GENUINE-WITH-CAVEATS` protocol machinery but `NO-STABLE-DISTINCTION-YET`, not Axis0 or `M(C)` admission
 - [[projects/codex-ratchet/geometry-sim-program-canonical-2026-06-10]] — geometry-first anti-collapse roadmap: exact nested math stack, Bloch-as-quotient correction, Hopf torus double-cover, free/restricted/quotiented/ratcheted sim modes, anticommutation caveat, alternativity correction, refinement/orbit nesting, and no-jargon sim guard
@@ -81,6 +90,26 @@ Total published pages: 443. Governance/read-first surfaces are listed separately
 - [[leviathan-system]]
 
 ## LevOS / Leviathan developer handoff
+- [[projects/leviathan-current/index]] — human-facing table of contents for the actual Leviathan wiki pages
+- [[projects/leviathan-current/read-first]] — current Leviathan project front door for repo-current wiki ingestion, Josh/JP provenance split, and authority order
+- [[projects/leviathan-current/README]] — current Leviathan wiki project scaffold and page router
+- [[projects/leviathan-current/source-inventory-2026-06-17]] — first current repo inventory for `lev-os/leviathan`: file counts, authority surfaces, package/workspace files, and chat/transcript candidates
+- [[projects/leviathan-current/bounded-ingestion-plan]] — packet plan for processing the current repo, runtime modules, product surfaces, constraints, chats, and research without one-pass collapse
+- [[projects/leviathan-current/concept-map-start]] — starter concept map from current README/NORTH_STAR/ROADMAP/ARCHITECTURE plus constraint bridge; not full synthesis
+- [[projects/leviathan-current/what-is-leviathan]] — Packet 1 plain-English current-authority explanation of Lev / Leviathan
+- [[projects/leviathan-current/current-state-and-roadmap]] — Packet 1 status and roadmap synthesis with gaps preserved
+- [[projects/leviathan-current/architecture-planes-and-ownership]] — Packet 1 four-plane/runtime ownership map
+- [[projects/leviathan-current/contract-surface-map]] — Packet 1 specs and contract-surface map
+- [[projects/leviathan-current/runtime-module-map-start]] — Packet 2 starter module/package map
+- [[projects/leviathan-current/flowmind-control-plane-start]] — Packet 2 starter FlowMind control-plane map
+- [[projects/leviathan-current/event-graph-orchestration-start]] — Packet 2 starter Event Bus / Graph / Orchestration map
+- [[projects/leviathan-current/josh-contribution-signal-radar]] — grounded starter radar for Josh's constraint contributions in Leviathan docs/code
+- [[projects/leviathan-current/josh-contribution-signal-index-2026-06-17]] — broad contribution signal index from repo keyword/provenance scan; not final attribution proof
+- [[projects/leviathan-current/chat-provenance-queue-2026-06-17]] — first classified queue for 250 chat/transcript/handoff candidates
+- [[projects/leviathan-current/research-connection-map-start]] — starter map of research-connected Leviathan surfaces
+- [[projects/leviathan-current/doing-well-failing-promising-start]] — first assessment of strengths, failures, promise, and falsifiers
+- [[projects/leviathan-current/worker-swarm-plan-2026-06-17]] — first bounded worker swarm plan and ownership map
+- [[projects/leviathan-current/packet-1-processing-receipt-2026-06-17]] — receipt for Packet 1 / first worker wave
 - [[projects/levos/levos-gpt-webui-idea-ledger-2026-06-15]] — processed idea ledger from the GPT WebUI LevOS/Leviathan/Ratchet/Wizard chat: geometry-entropy co-ratchet, ring/QCA/Hopfield, entropy-collapse AI alignment, OpenHR/OpenFinance, nested dictionaries, spinor-not-vector freedom, Wizard-on-LevOS, and SME/community product thesis
 - [[projects/levos/levos-gpt-webui-representation-audit-2026-06-15]] — coverage audit showing which GPT WebUI key ideas were already represented, weak/fragmented, or newly represented in the wiki
 - [[projects/levos/levos-dev-handoff-product-and-runtime-2026-06-15]] — sendable developer-facing product/runtime framing: LevOS as governed AI OS/world engine, company brain not panopticon, OpenHR/OpenFinance/P2P audit, frontier intelligence under local control

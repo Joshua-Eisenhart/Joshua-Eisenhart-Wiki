@@ -15,7 +15,7 @@ This wiki serves two parallel projects that share one nominalist/constraint/ratc
 
 1. **Codex Ratchet** — mathematical foundation. Builds sim evidence for the constraint-admissibility geometry. Home: `projects/codex-ratchet/`. Nominalist-CS harness primers currently live in `wizard/harness-consolidated/`. LLM workers reading about sims, probes, axes, or boundary UNSAT work land here.
 
-2. **Leviathan OS** — parallel OS/CS project implementing the same doctrine as a runtime. Home: `~/GitHub/leviathan/`. Reference: `lev_mega_book_curated.pdf`. Five hard kernel constraints (Finitude, Non-commutation, Nominalized reality, Ratchet, Locality) map directly to Codex Ratchet's F01/N01/nominalist/ratchet/locality doctrine. See `wizard/harness-consolidated/14_leviathan_os_constraint_map.md`.
+2. **Leviathan OS** — parallel OS/CS project implementing the same doctrine as a runtime. Current repo source for wiki work: `https://github.com/lev-os/leviathan` plus raw/API URLs; if that route is insufficient, Josh has authorized a clean fresh clone from GitHub, with commit SHA and clean status recorded before use. The former persistent local checkout `~/GitHub/leviathan/` was deleted on 2026-06-18 and should be treated as historical/damaged, not recovered. Reference: `lev_mega_book_curated.pdf`. Five hard kernel constraints (Finitude, Non-commutation, Nominalized reality, Ratchet, Locality) map directly to Codex Ratchet's F01/N01/nominalist/ratchet/locality doctrine. See `wizard/harness-consolidated/14_leviathan_os_constraint_map.md`.
 
 For substantive Hermes work, read the `hermes-current/` spine first. Then read the relevant project front door. Then load `wizard/`, `wizard/harness-consolidated/`, or deeper concept-level doctrine as the task requires. Non-Hermes agents should treat this spine as reference unless their own protocol points here.
 
@@ -25,8 +25,11 @@ Current truth:
 - This wiki is both a personal harness and a shared long-form working space.
 - It is meant to hold more of Josh's durable frame, intentions, plans, and project context than injected agent memory can hold.
 - Injected memory should be treated as a small steering/index layer. The wiki is the main long-form surface.
+- CocoIndex is now the semantic retrieval layer for the wiki: use [[cocoindex-wiki-mcp-memory-layer]] to find relevant files/chunks, then read exact files before making load-bearing claims.
+- When a task asks Hermes to mine Claude/Codex/Hermes memories for durable owner intentions, use [[projects/codex-ratchet/prompt-memory-intention-formalization-router-2026-06-17]], [[projects/codex-ratchet/prompt-memory-first-research-tranche-2026-06-17]], [[projects/codex-ratchet/memory-source-coverage-matrix-2026-06-17]], [[projects/codex-ratchet/prompt-memory-provenance-ledger-tranche-001-2026-06-17]], [[projects/codex-ratchet/prompt-memory-provenance-ledger-tranche-002-2026-06-17]], and [[projects/codex-ratchet/prompt-memory-provenance-ledger-tranche-003-2026-06-17]] before writing wiki prose. Treat memory as an index/provenance map, not authority; split owner kernel, owner uncertainty/correction, assistant elaboration, current evidence, research comparator, privacy status, falsifier, and claim ceiling. Tranche 002 is the Claude CR/Desktop CR method-memory routing page for Wizard v4.3, output cognitive load, proxy-promotion guards, MMM/harness boot, and CocoIndex caveats. Tranche 003 is the cross-cache intent/clarification ledger for owner style/execution, route truth, source/proxy separation, foundation-first build order, builder/auditor split, claim-label discipline, raw-log coverage-only status, and app-support extraction deferral. App-support stores stay coverage-only until a schema-aware extractor exists.
 - Simplicity matters. Most notes are just markdown with information in them. Only a small number of notes in `hermes-current/` are Hermes's living control surface.
 - `hermes-current/` is Hermes's front door and lowest-entropy routing layer, not a proof that every claim inside it is closed doctrine.
+- `hermes-current/controller-system/README.md` is the first runnable Hermes-native controller-system v0 surface: it currently proves `passes local rerun` for a local harness selftest and `pass_with_blockers` for one scenario, while explicitly blocking canonical/default-runtime claims.
 - `wizard/` is the current Wizard harness surface; `wizard/harness-consolidated/` is the nominalist-CS doctrine and priming support copy; `hermes-current/` is the Hermes-side working/context layer that routes into them.
 - Treat wiki claims by evidence status where possible: some are stronger/proven, some are still candidate interpretations, and some remain explicitly open.
 - The harness should bias readers toward a distinguishability-first and constraint-first frame: differences matter only when the active probes, support layers, and constraints let them resolve, persist, and become load-bearing.
@@ -71,6 +74,9 @@ Related notes:
 - [[current-vs-legacy]]
 - [[skills-and-agent-rules]]
 - [[hermes-memory-offload]]
+- [[cocoindex-wiki-mcp-memory-layer]]
+- [[projects/codex-ratchet/prompt-memory-intention-formalization-router-2026-06-17]]
+- [[projects/codex-ratchet/prompt-memory-first-research-tranche-2026-06-17]]
 - [[capture-2026-06-09-two-engine-axis0-flux-wiki-sync]]
 
 Write mode: human-owned / controller-maintained with care.

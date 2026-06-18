@@ -1,0 +1,81 @@
+{
+  "scenario_id": "hermes_native_controller_v0_build_test_2026_06_18",
+  "objective": "Prove a minimal Hermes-owned controller harness exists, runs a selftest, preserves Claude/Codex lessons as constraints, and keeps blocked runtime claims explicit.",
+  "source_paths": [
+    "/Users/joshuaeisenhart/wiki/hermes-current/controller-system/hermes_controller_harness.py",
+    "/Users/joshuaeisenhart/wiki/hermes-current/controller-system/README.md",
+    "/Users/joshuaeisenhart/wiki/hermes-current/controller-system/receipts/selftest-2026-06-18.json",
+    "/Users/joshuaeisenhart/wiki/hermes-current/archive/hermes-carry-forward-from-codex-control-surface-audit-2026-04-22.md",
+    "/Users/joshuaeisenhart/wiki/hermes-current/archive/hermes-carry-forward-from-claude-codex-render-and-measurement-audit-2026-04-23.md",
+    "/Users/joshuaeisenhart/wiki/specs/codex-ratchet/llm-controller-contract-current.md"
+  ],
+  "routes": [
+    {
+      "route_id": "decision.hermes_native_boundary",
+      "council": "decision",
+      "action_class": "controller_local",
+      "execution_claim_state": "completed",
+      "proof_depth": "artifact_verified",
+      "receipt": "/Users/joshuaeisenhart/wiki/hermes-current/controller-system/README.md",
+      "evidence_boundary": "Proves the boundary/design surface exists on disk; does not prove default Hermes runtime admission."
+    },
+    {
+      "route_id": "failure.selftest_overclaim_guard",
+      "council": "failure",
+      "action_class": "tool_run",
+      "execution_claim_state": "completed",
+      "proof_depth": "test_passed",
+      "receipt": "/Users/joshuaeisenhart/wiki/hermes-current/controller-system/receipts/selftest-2026-06-18.json",
+      "evidence_boundary": "Proves harness selftest ran and rejected an intentionally bad overclaim scenario; does not prove all future scenarios are meaningful."
+    },
+    {
+      "route_id": "failure.default_runtime_admission",
+      "council": "failure",
+      "action_class": "blocked",
+      "execution_claim_state": "blocked",
+      "proof_depth": "controller_visible",
+      "receipt": "blocked: no fresh Hermes CLI/gateway integration smoke has been run for this v0 harness",
+      "evidence_boundary": "Blocks any claim that this harness is canonical/default runtime."
+    },
+    {
+      "route_id": "follow_up.next_admissible_tests",
+      "council": "follow_up",
+      "action_class": "controller_local",
+      "execution_claim_state": "completed",
+      "proof_depth": "artifact_verified",
+      "receipt": "/Users/joshuaeisenhart/wiki/hermes-current/controller-system/README.md",
+      "evidence_boundary": "Lists next bounded tests only; does not execute them."
+    }
+  ],
+  "claim_table": [
+    {
+      "claim": "Hermes controller harness file exists",
+      "source": "/Users/joshuaeisenhart/wiki/hermes-current/controller-system/hermes_controller_harness.py",
+      "result_path": "",
+      "criteria": ["path exists on disk", "Python syntax lint from write_file passed"],
+      "status_label": "exists"
+    },
+    {
+      "claim": "Hermes controller harness selftest runs",
+      "source": "/Users/joshuaeisenhart/wiki/hermes-current/controller-system/hermes_controller_harness.py",
+      "result_path": "/Users/joshuaeisenhart/wiki/hermes-current/controller-system/receipts/selftest-2026-06-18.json",
+      "criteria": ["command exit code 0", "receipt ok true", "good scenario pass", "bad scenario fail"],
+      "status_label": "passes local rerun"
+    },
+    {
+      "claim": "Hermes controller system is Hermes-owned rather than Claude/Codex clone",
+      "source": "/Users/joshuaeisenhart/wiki/hermes-current/controller-system/README.md",
+      "result_path": "",
+      "criteria": ["README states imported lessons are constraints", "README names Hermes-native route fields and surfaces"],
+      "status_label": "exists"
+    },
+    {
+      "claim": "Hermes controller system is canonical/default runtime",
+      "source": "/Users/joshuaeisenhart/wiki/hermes-current/controller-system/README.md",
+      "result_path": "",
+      "criteria": ["explicitly blocked until fresh runtime integration smoke and audit"],
+      "status_label": "exists"
+    }
+  ],
+  "evidence_boundary": "This scenario proves the v0 harness exists, selftests, and produces route-truth receipts with explicit blockers. It does not prove Hermes default runtime adoption, model-worker quality, or autonomous long-run behavior."
+}

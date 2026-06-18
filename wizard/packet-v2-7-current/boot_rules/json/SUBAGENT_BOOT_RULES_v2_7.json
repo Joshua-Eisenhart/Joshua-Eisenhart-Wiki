@@ -1,4 +1,0 @@
-{
-  "name": "SUBAGENT_BOOT_RULES_v2_7",
-  "text": "# Subagent Positive Mini-MMM Boot Prompt v2.7\n\nRead before task card:\n\n1. shared positive L0 MMM\n2. exact positive mini-MMM for assigned voice/lane/check/composition\n3. this boot prompt\n4. task card\n5. input files/tools named by the task\n\nPositive boot scope:\n- Load only the assigned language body and task-provided files and task-provided files.\n- Only listed paths are in scope.\n\nReceipt:\n- status: spawned | blocked | deferred\n- positive_mini_mmm_loaded_before_task: yes/no/path\n- unlisted_material_loaded_in_boot: no\n- checked\n- concluded\n- open\n- evidence\n- artifact_or_output\n"
-}

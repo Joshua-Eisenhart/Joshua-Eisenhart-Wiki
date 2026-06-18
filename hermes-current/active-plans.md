@@ -34,6 +34,7 @@ Wizard/system maintenance queue:
 - Prompt-size guard: keep global `HERMES.md` and `SOUL.md` lean; procedures and long rationale live in skills and wiki notes.
 - Operational note: check Hermes CLI through the login shell path, e.g. `zsh -lc 'hermes --version'`; docs extraction may be blocked without Firecrawl config and should be recorded as a blocked route, not central doctrine.
 - Closed controller-side after the codex2 tranche: the global `~/.hermes/HERMES.md` high-salience rail now carries the compact full/auto breadth rule. codex2 could not write outside `/Users/joshuaeisenhart/wiki`, so Hermes applied and verified the profile-side patch directly.
+- Hermes-native controller system v0 now exists at `hermes-current/controller-system/README.md` with runnable harness `hermes_controller_harness.py`; current checked status is `passes local rerun` for built-in selftest and `pass_with_blockers` for the first scenario receipt, not canonical/default runtime. Receipts: `hermes-current/controller-system/receipts/selftest-2026-06-18.json` and `hermes-current/controller-system/receipts/hermes-native-controller-v0-build-test-2026-06-18.json`.
 
 Near-term concrete targets:
 - keep `hermes-current/read-first.md` as the Hermes front door

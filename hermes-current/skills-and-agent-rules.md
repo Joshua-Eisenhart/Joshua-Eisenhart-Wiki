@@ -15,6 +15,7 @@ Current truth:
 - For substantive Hermes work, read the `hermes-current/` spine before acting, even if it consumes context.
 - Concept-level harness pages such as `harness-boot-pack.md`, `llm-ingest-policy.md`, and `current-canonical-spine.md` are second-layer doctrine surfaces: load them after the `hermes-current/` spine when the task needs controller/repo-doctrine depth.
 - Skills should help agents read the right notes in the right order and keep updates disciplined.
+- For broad wiki questions, use CocoIndex as the first semantic map when available, then use exact file reads before claiming authority. Retrieval snippets are leads, not proof. See [[cocoindex-wiki-mcp-memory-layer]].
 - Good skills reduce drift and confusion; they should not duplicate large amounts of wiki doctrine unnecessarily.
 - Memory-offload discipline is mandatory under memory pressure: write/preserve detailed durable facts in the wiki spine or `hermes-memory-offload.md` first, normalize to the right spine note when clear, then compress injected memory to short pointers. Do not directly overwrite crowded memory with a new preference unless the displaced detail is already preserved.
 - For Hermes memory maintenance, preserve the live memory/profile snapshot in a dated `hermes-current/memory-maintenance-YYYY-MM-DD.md` receipt before compression. Then update `hermes-memory-offload.md`, patch the relevant skill if the process failed, and only then use the memory tool or memory files to shrink injected entries.
@@ -55,7 +56,7 @@ Meta-skill directions:
 
 ## Project routing
 
-Agent governance rules apply per-project. For Codex Ratchet work: read `projects/codex-ratchet/read-first.md` + `wizard/harness-consolidated/00_READ_FIRST.md`. Preserve the corrected loop model there: tool capability/integration before nonclassical use; then iterate between strong shell-local parents and bounded pairwise couplings, feeding failures back into locals. Keep coexistence, topology-variant promotion, emergence, bridge, axis, and engine claims behind late-stage evidence blocks. For Leviathan OS work: read `~/GitHub/leviathan/docs/NORTH_STAR.md` + `wizard/harness-consolidated/14_leviathan_os_constraint_map.md`. Cross-project work reads both.
+Agent governance rules apply per-project. For Codex Ratchet work: read `projects/codex-ratchet/read-first.md` + `wizard/harness-consolidated/00_READ_FIRST.md`. Preserve the corrected loop model there: tool capability/integration before nonclassical use; then iterate between strong shell-local parents and bounded pairwise couplings, feeding failures back into locals. Keep coexistence, topology-variant promotion, emergence, bridge, axis, and engine claims behind late-stage evidence blocks. For Leviathan OS work: read `projects/leviathan-current/read-first.md`, the GitHub website/raw current source at `https://github.com/lev-os/leviathan` and `https://raw.githubusercontent.com/lev-os/leviathan/main/docs/NORTH_STAR.md`, plus `wizard/harness-consolidated/14_leviathan_os_constraint_map.md`. If website/raw access is insufficient, use a clean fresh GitHub clone with SHA/clean-status evidence; the old `~/GitHub/leviathan` checkout was deleted on 2026-06-18 and is historical, not a recovery target. Cross-project work reads both.
 
 Do not:
 - let skills replace the wiki as the main frame surface
@@ -67,5 +68,6 @@ Related notes:
 - [[active-intentions]]
 - [[active-plans]]
 - [[current-vs-legacy]]
+- [[cocoindex-wiki-mcp-memory-layer]]
 
 Write mode: controller-maintained.

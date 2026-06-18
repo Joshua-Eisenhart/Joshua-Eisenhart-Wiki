@@ -29,7 +29,7 @@ Authority rule:
 - Use project-specific current notes next when relevant.
 - Use concept notes for deeper reference and mappings.
 - Use legacy material comparatively and explicitly, especially when preserving provenance or unresolved differences.
-- For Codex Ratchet questions, prefer `projects/codex-ratchet/*.md` over scattered `concepts/` notes. For Leviathan OS questions, prefer `~/GitHub/leviathan/docs/*.md`.
+- For Codex Ratchet questions, prefer `projects/codex-ratchet/*.md` over scattered `concepts/` notes. For Leviathan OS questions, prefer `projects/leviathan-current/read-first.md` and the live GitHub website/raw sources at `https://github.com/lev-os/leviathan`; if that route is insufficient, use a clean fresh clone with SHA/clean-status evidence. The old `~/GitHub/leviathan` checkout was deleted on 2026-06-18 and should be treated as historical only.
 
 When conflict appears:
 1. Do not smooth the conflict away casually.

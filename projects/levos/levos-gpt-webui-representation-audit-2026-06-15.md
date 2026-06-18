@@ -60,7 +60,7 @@ Primary archive/raw folders were not treated as current coverage unless noted.
 - [[projects/codex-ratchet/geometry-sim-program-canonical-2026-06-10]] — geometry program, Bloch quotient, spinor carrier, sim modes, ratcheted mode.
 - [[projects/codex-ratchet/ring-checkerboard-three-presentations-sim-engine-runbook-2026-06-09]] — ring-checkerboard finite support and three presentations.
 - [[concepts/leviathan-framework]] — Leviathan v3.2 source surface, OpenHR/OpenFinance, delegated governance, Anti-Internet, P2P audit, onboarding.
-- [[lev_reorientation_guide_v2]] — LevOS runtime orientation, FlowMind/Graph/Event Bus/AgentPing/Exec, C1/C2 reduction, nominalist translation.
+- `lev_reorientation_guide_v2.md` — LevOS runtime orientation, FlowMind/Graph/Event Bus/AgentPing/Exec, C1/C2 reduction, nominalist translation.
 - [[codex-ratchet-research/standard-math/gnvw-index-1d-qca]] — QCA/GNVW caveats.
 - [[codex-ratchet-research/standard-math/hopfield-capacity-spurious-attractors]] — Hopfield memory standard-math support.
 

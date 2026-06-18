@@ -1,16 +1,17 @@
 ---
 title: Leviathan Current Wiki Project
 created: 2026-06-17
-updated: 2026-06-17
+updated: 2026-06-18
 type: project-front-door
 status: active scaffold / early intake
 claim_ceiling: wiki routing and current-repo orientation; not full synthesis, not implementation proof, not maintainer acceptance
 sources:
-  - /Users/joshuaeisenhart/GitHub/leviathan/README.md
-  - /Users/joshuaeisenhart/GitHub/leviathan/docs/README.md
-  - /Users/joshuaeisenhart/GitHub/leviathan/docs/NORTH_STAR.md
-  - /Users/joshuaeisenhart/GitHub/leviathan/docs/ROADMAP.md
-  - /Users/joshuaeisenhart/GitHub/leviathan/docs/ARCHITECTURE.md
+  - https://github.com/lev-os/leviathan
+  - https://raw.githubusercontent.com/lev-os/leviathan/main/README.md
+  - https://raw.githubusercontent.com/lev-os/leviathan/main/docs/README.md
+  - https://raw.githubusercontent.com/lev-os/leviathan/main/docs/NORTH_STAR.md
+  - https://raw.githubusercontent.com/lev-os/leviathan/main/docs/ROADMAP.md
+  - https://raw.githubusercontent.com/lev-os/leviathan/main/docs/ARCHITECTURE.md
   - /Users/joshuaeisenhart/wiki/wizard/harness-consolidated/14_leviathan_os_constraint_map.md
   - /Users/joshuaeisenhart/wiki/projects/levos/levos-dev-handoff-product-and-runtime-2026-06-15.md
   - /Users/joshuaeisenhart/wiki/projects/leviathan-current/source-inventory-2026-06-17.md
@@ -26,7 +27,9 @@ tags:
 
 ## Purpose
 
-This folder is the current wiki project for understanding `lev-os/leviathan` as it exists on disk now.
+This folder is the current wiki project for understanding `lev-os/leviathan` as it is published on GitHub now.
+
+For the actual content table of contents, start at [[projects/leviathan-current/index]].
 
 It should answer four questions without forcing Josh to re-explain the project:
 
@@ -41,27 +44,57 @@ Observed from current repo docs: Lev is an open runtime for agent-human systems:
 
 The active repo docs describe the foundation as real but still being hardened. They explicitly say the universal context graph is not fully landed, the system is not enterprise-ready, and architecture is ahead of some implementation areas.
 
+Current clean-snapshot reset: [[projects/leviathan-current/deep-audit-current-snapshot-2026-06-18]] is now the highest-priority current source-baseline page. It uses a fresh clean clone at `c90ec8499c83db3d17f6132ec734698a8de2dbce` and corrects older damaged-checkout conflict-marker claims. [[projects/leviathan-current/concept-atlas-current-2026-06-18]] is the current concept map above the older packet pages, [[projects/leviathan-current/evidence-frontier-and-blockers-dashboard-2026-06-18]] names current source contradictions, and [[projects/leviathan-current/proof-audit-roadmap-vs-mvp-2026-06-18]] now command-tests the largest `docs/ROADMAP.md` vs `mvp.md` conflict.
+
+## Source mode
+
+The damaged local checkout at `/Users/joshuaeisenhart/GitHub/leviathan` was deleted on 2026-06-18 by direct user request. New wiki work reads the live GitHub website/remote, not a persistent local checkout.
+
+Use:
+
+- `https://github.com/lev-os/leviathan`
+- `https://raw.githubusercontent.com/lev-os/leviathan/main/<path>` for current files
+- `https://raw.githubusercontent.com/lev-os/leviathan/<commit>/<path>` for stable cited snapshots
+- `https://api.github.com/repos/lev-os/leviathan/contents/<path>?ref=main` for machine-readable directory listings
+
+Remote `main` observed on 2026-06-18: `c90ec8499c83db3d17f6132ec734698a8de2dbce`.
+
+Old local-path citations in this folder remain historical evidence from the June 17-18 local inventory and damaged-checkout containment pass. They are not current source instructions and do not prove the local path still exists.
+
+If website/raw/API access is too limited for a packet, a clean fresh clone from `https://github.com/lev-os/leviathan.git` is allowed as a fallback. Prefer `/tmp` for disposable read-only scans. If a persistent checkout is needed, create it fresh, record the remote URL, commit SHA, and clean status, and do not edit it during wiki work unless Josh explicitly assigns a repo patch.
+
 ## Current repo authority order
 
 For this project, read current repo sources before chat-derived or legacy material:
 
-1. `/Users/joshuaeisenhart/GitHub/leviathan/docs/specs/` — normative contracts.
-2. `/Users/joshuaeisenhart/GitHub/leviathan/docs/ARCHITECTURE.md` — canonical topology and ownership boundaries.
-3. `/Users/joshuaeisenhart/GitHub/leviathan/docs/ROADMAP.md` — current execution state.
-4. `/Users/joshuaeisenhart/GitHub/leviathan/docs/NORTH_STAR.md` and root `README.md` — vision and product frame.
-5. `/Users/joshuaeisenhart/GitHub/leviathan/docs/design/` — rationale and deeper design reference.
-6. `/Users/joshuaeisenhart/GitHub/leviathan/docs/_inbox/`, `_archive/`, chats, transcripts, and older LevOS wiki notes — source material / provenance, not current implementation truth by default.
+1. `https://github.com/lev-os/leviathan/tree/main/docs/specs/` or raw/API equivalents — normative contracts.
+2. `https://raw.githubusercontent.com/lev-os/leviathan/main/docs/ARCHITECTURE.md` — canonical topology and ownership boundaries.
+3. `https://raw.githubusercontent.com/lev-os/leviathan/main/docs/VISION.md` — stable strategic destinations.
+4. `https://raw.githubusercontent.com/lev-os/leviathan/main/mvp.md` and `https://raw.githubusercontent.com/lev-os/leviathan/main/docs/ROADMAP.md` together — contested execution state until proof reruns settle the conflict.
+5. `https://raw.githubusercontent.com/lev-os/leviathan/main/docs/NORTH_STAR.md` and `https://raw.githubusercontent.com/lev-os/leviathan/main/README.md` — vision and product frame.
+6. `https://raw.githubusercontent.com/lev-os/leviathan/main/AGENTS.md` — agent/contributor operating contract, not product truth.
+7. `https://github.com/lev-os/leviathan/tree/main/docs/design/` or raw/API equivalents — rationale and deeper design reference.
+8. `docs/_inbox/`, `_archive/`, chats, transcripts, and older LevOS wiki notes — source material / provenance, not current implementation truth by default.
 
 ## Key current source artifacts
 
 ### Front door / control
 
 - `read-first.md` — project boot note for future agents.
+- `deep-audit-current-snapshot-2026-06-18.md` — current clean snapshot audit and replacement baseline for upstream source truth.
+- `repo-current-vs-wiki-drift-audit-2026-06-18.md` — drift map explaining which older local-checkout pages are now historical.
+- `concept-atlas-current-2026-06-18.md` — concept map with aliases, evidence levels, currentness, wiki targets, and claim ceilings.
+- `evidence-frontier-and-blockers-dashboard-2026-06-18.md` — current contradictions/blockers that require reruns or source reconciliation.
+- `proof-audit-roadmap-vs-mvp-2026-06-18.md` — clean-clone command proof audit for the `ROADMAP.md` vs `mvp.md` split.
+- `read-order-by-intent-2026-06-18.md` — read order by task/persona for a huge mixed repo.
 - `source-inventory-2026-06-17.md` — first repo inventory; 12,699 files excluding common build/cache dirs; 4,848 Markdown/MDX files; 250 chat/transcript/Josh-JP routing candidates captured in the JSON sidecar.
 - `source-inventory-2026-06-17.json` — full machine-readable inventory sidecar.
 - `bounded-ingestion-plan.md` — finite packet plan for turning the repo into wiki pages.
 - `worker-swarm-plan-2026-06-17.md` — first bounded worker-wave plan.
 - `concept-map-start.md` — first current concept map with strict claim ceilings.
+- `ratchet-working-receipt-2026-06-18.md` — scope-corrected ratchet assessment receipt: multi-model pressure found a contract-vs-implementation gap; repo code edits from the detour were reverted, so cite this as wiki/process guidance only.
+- `model-pressure/fusion-glm-wiki-direction-2026-06-18.md` — OpenRouter Fusion + GLM 5.2 wiki-direction pressure memo; advisory only until source-verified.
+- `wiki-swarm-launch-receipt-2026-06-18.md` — scope correction, model-pressure receipt, and background Packet 2/4/5 worker launch ledger.
 
 ### Packet 1 — current authority docs
 
@@ -78,17 +111,69 @@ For this project, read current repo sources before chat-derived or legacy materi
 - `event-graph-orchestration-start.md` — Event Bus / Graph / Orchestration starter map.
 - `flowmind-control-plane.md` — FlowMind source/package control-plane map.
 - `graph-state-knowledge-plane.md` — Graph state/knowledge ownership map.
-- `event-bus-causality-plane.md` — Event Bus causality spine map; runtime health blocked by conflict markers.
+- `event-bus-causality-plane.md` — Event Bus causality spine map from the damaged local checkout; use it for source mapping, then use the clean snapshot audit and Packet 7/8 proof audit pages for current runtime status.
 - `orchestration-execution-plane.md` — Orchestration DAG/loop/queue execution-plane map.
 - `exec-poly-daemon-boundary.md` — Exec / Poly / Daemon ownership split.
 - `plugin-ownership-map.md` — plugin inventory, registration, and ownership map.
-- `packet-2-runtime-map-receipt-2026-06-17.md` — bounded receipt and verification notes for this tranche.
+- `packet-2-runtime-map-receipt-2026-06-17.md` — bounded receipt and verification notes for the first Packet 2 tranche.
+- `runtime-module-map-full-2026-06-18.md` — Packet 2 full runtime/module map across FlowMind, Orchestration, Graph, Event Bus, Exec, Poly, Daemon, plugins, and Rust crates; current snapshot with blockers.
+- `runtime-build-test-surface-map-2026-06-18.md` — build/test/CI/tooling surface map; command/manifests/config/workflow map only, no package health claim.
+- `packet-2-full-runtime-map-receipt-2026-06-18.md` — receipt for the full Packet 2 runtime map pass, including exact paths read and validation caveats.
+
+Packet 2 note: these pages remain valuable as source maps, but their local-checkout conflict-marker blockers are superseded for current upstream truth by the clean snapshot audit. Current runtime status is mixed after Packet 7/8, with named SDK/Poly proof green while default daemon Pentagon, `@lev-os/testing`, and event-dispatch proof-spine remain red or blocked.
+
+### Packet 3 — product surfaces and human-loop layer
+
+- `agentping-human-loop-surfaces.md` — current-source map of AgentPing as Lev's default human-loop/reference host direction; runtime health remains open.
+- `agentlease-scoped-authority.md` — scoped-authority map for AgentLease concept plus observed lease primitives; full product/runtime integration remains open.
+- `packet-3-product-surfaces-receipt-2026-06-18.md` — controller-written receipt after the Packet 3 subagent failed before writeback.
+
+### Packet 4 — Josh constraint contribution / boundary layer
+
+- `josh-root-constraints-in-leviathan.md` — source-labeled map of Josh/root-constraint contribution inside current Lev surfaces.
+- `lev-five-constraints-vs-f01-n01.md` — C1-C5 vs F01/N01 bridge, with C3-C5 held as derived/aligned unless source support is stronger.
+- `codex-ratchet-vs-leviathan-boundary.md` — explicit boundary page: Leviathan contains many Josh ideas but is NOT Codex Ratchet.
+- `packet-4-constraint-boundary-receipt-2026-06-18.md` — receipt for the boundary tranche.
+
+### Packet 5 — chat/transcript provenance protocol
+
+- `chat-evidence-promotion-protocol.md` — rulebook for promoting chat/transcript claims only after repo/code/doc/test match.
+- `chat-tranche-1-processing-2026-06-18.md` — first bounded queue slice; rows 50-55 classified conservatively.
+- `packet-5-chat-tranche-receipt-2026-06-18.md` — receipt for first chat/provenance tranche.
+
+### Packet 6 — concept atlas and evidence frontier
+
+- `concept-atlas-current-2026-06-18.md` — source-backed concept atlas across runtime, state/memory, product surfaces, and docs/provenance boundaries.
+- `evidence-frontier-and-blockers-dashboard-2026-06-18.md` — unresolved contradiction and blocker dashboard, including `mvp.md` vs `docs/ROADMAP.md`.
+- `read-order-by-intent-2026-06-18.md` — safer read-order guide for humans, agents, runtime auditors, wiki workers, and provenance work.
+- `packet-6-concept-atlas-receipt-2026-06-18.md` — worker/source/wiki receipt for this packet.
+
+### Packet 7 — clean-clone proof audit
+
+- `proof-audit-roadmap-vs-mvp-2026-06-18.md` — command-backed split verdict for the `docs/ROADMAP.md` vs `mvp.md` contradiction.
+- `packet-7-clean-clone-proof-audit-receipt-2026-06-18.md` — route, worker, command, and wiki receipt for the proof audit.
+
+Packet 7 note: the named `pentagon-sdk-poly-binding` run/gate passes after package builds, but default `lev pentagon run/gate --project .` fails with 42 daemon mini-app missing-artifact diagnostics, and `@lev-os/testing test` fails before assertions. High audit exits 0 while low/moderate vulnerabilities remain.
+
+### Packet 8 — Wizard mass swarm cleanup
+
+- `packet-8-wizard-mass-swarm-receipt-2026-06-18.md` — Wizard v4.3 object card, Codex-native multi-model worker receipts, external-route blockers, and wiki cleanup receipt.
+
+Packet 8 note: the daemon Pentagon blocker is narrower than "artifacts absent"; a representative report stores absolute artifact paths from another checkout while clone-local mini-app artifacts exist. The `@lev-os/testing` blocker is narrowed to Vitest/Bun-condition source-entry resolution around `@lev-os/utils`. Event-dispatch proof is blocked on `@lev-os/daemon` and `@lev-os/config/xdg-paths` package/build resolution, not on CLI help surface absence.
+
+### Packet 9 — stale external upgrade report intake
+
+- `packet-9-external-upgrade-report-intake-2026-06-18.md` — intake and quarantine page for an external "Leviathan OS Wiki Upgrade Research and Packaging Report" attachment.
+
+Packet 9 note: the report is useful as advisory packaging pressure but stale for current wiki truth. Its three-plane architecture framing, failed-public-wiki-retrieval premise, non-portable `turn...` citations, and lack of Packet 7/8 proof state block direct merge.
 
 ### Contribution / provenance / research / assessment starters
 
 - `josh-contribution-signal-radar.md` — grounded starter radar for Josh's constraint contributions in docs/code.
 - `josh-contribution-signal-index-2026-06-17.md` — broader controller-generated signal index after contribution-worker route failure.
 - `chat-provenance-queue-2026-06-17.md` — classified queue for 250 chat/transcript/handoff candidates.
+- `provenance-ledger-josh-jp-pass-1-2026-06-18.md` — first provenance ledger matching Josh/JP signals to current repo surfaces.
+- `packet-4-provenance-receipt-2026-06-18.md` — receipt for the first provenance-ledger pass.
 - `research-connection-map-start.md` — starter map of research-connected repo surfaces.
 - `doing-well-failing-promising-start.md` — first assessment of strengths, failures, promise, and falsifiers.
 
@@ -101,7 +186,7 @@ For this project, read current repo sources before chat-derived or legacy materi
 
 ## Claim discipline
 
-Do not say the wiki fully understands Leviathan yet. Current status is: scaffold exists, first inventory exists, Packet 1 current-authority synthesis pages exist, and Packet 2 source-map pages exist. Runtime verification remains open because Event Bus has unresolved conflict markers and Packet 2 did not run package tests/typechecks.
+Do not say the wiki fully understands Leviathan yet. Current status is: scaffold exists, current-authority synthesis pages exist, the old local-checkout runtime maps exist, the 2026-06-18 clean snapshot audit now supersedes old conflict-marker blockers for current upstream truth, the Packet 6 concept atlas names the major concept families and contradictions, Packet 7 adds clean-clone command evidence for the biggest `ROADMAP.md` vs `mvp.md` split, Packet 8 tightens the remaining blocker descriptions through a Wizard v4.3 multi-worker audit, and Packet 9 quarantines a stale external packaging report as advisory-only. Runtime verification is no longer completely unrun, but it is still mixed: named SDK/Poly proof is green, while default daemon Pentagon gate, `@lev-os/testing`, and event-dispatch proof-spine remain red or blocked.
 
 The live synthesis must keep three layers separate:
 

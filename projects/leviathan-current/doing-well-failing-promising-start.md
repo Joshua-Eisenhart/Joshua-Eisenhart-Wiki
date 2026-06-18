@@ -8,6 +8,8 @@ claim_ceiling: first-pass assessment from current docs, inventory, and starter s
 
 # Leviathan — Doing Well, Failing, Promising — Start
 
+> Supersession note, 2026-06-18: the row saying the current repo has unresolved conflict markers is now historical damaged-checkout evidence. The clean snapshot `c90ec8499c83db3d17f6132ec734698a8de2dbce` had no `<<<<<<<`/`>>>>>>>` scan hits. Keep the broader assessment, but route current-health claims through [[projects/leviathan-current/deep-audit-current-snapshot-2026-06-18]].
+
 ## Claim ceiling
 
 This is a first-pass assessment for wiki routing. It is grounded in current repo docs already read, package/module starter scans, source inventory, and conflict-marker scans. It is not a final model review and it has not run the full test/build suite.

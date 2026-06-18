@@ -1,4 +1,0 @@
-{
-  "name": "MAIN_AGENT_BOOT_RULES_v2_8",
-  "text": "# New Thread Positive MMM Boot Prompt v2.8\n\nRead before task instructions:\n\n1. Positive full main MMM:\n   - `main_mmm/full/md/MMM_MAIN_FULL_v2_8.md`\n\n2. Task\n\nDo not preload any other salience file in this boot prompt. Project and rule\nfiles may be read later only when the task requires them.\n\nBoot receipt:\n- positive_mmm_loaded: yes/no/path\n- task_loaded_after_positive_mmm: yes/no\n- boot_scope: positive_full_mmm_then_task\n"
-}

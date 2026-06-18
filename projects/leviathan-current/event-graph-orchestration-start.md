@@ -10,6 +10,8 @@ owner: runtime-map-worker
 
 # Event Graph Orchestration Start
 
+> Supersession note, 2026-06-18: this is an earlier starter map. For current upstream truth, begin with [[projects/leviathan-current/deep-audit-current-snapshot-2026-06-18]] and the split full pages, especially [[projects/leviathan-current/repo-current-vs-wiki-drift-audit-2026-06-18]].
+
 ## Scope
 
 This page maps the first-pass relationship among Event Bus, Graph, and Orchestration in current Leviathan. It uses only package manifests, selected public entrypoints, and root READMEs where present. It is not a full implementation audit.

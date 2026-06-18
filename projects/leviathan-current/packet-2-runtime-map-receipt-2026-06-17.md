@@ -8,6 +8,8 @@ owned_by: background-packet-2
 
 # Packet 2 Runtime Map Receipt — 2026-06-17
 
+> Supersession note, 2026-06-18: this receipt preserves the original Packet 2 local-checkout pass. Its conflict-marker and dirty-checkout blockers are historical after the clean snapshot audit at `c90ec8499c83db3d17f6132ec734698a8de2dbce`; see [[projects/leviathan-current/deep-audit-current-snapshot-2026-06-18]].
+
 ## Work completed
 
 Created the six Packet 2 runtime/module map pages for the Leviathan current wiki:
