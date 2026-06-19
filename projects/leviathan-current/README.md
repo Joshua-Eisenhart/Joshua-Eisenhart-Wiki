@@ -1,10 +1,10 @@
 ---
 title: Leviathan Current Wiki Project
 created: 2026-06-17
-updated: 2026-06-18
+updated: 2026-06-19
 type: project-front-door
-status: active scaffold / early intake
-claim_ceiling: wiki routing and current-repo orientation; not full synthesis, not implementation proof, not maintainer acceptance
+status: active current-source router
+claim_ceiling: wiki routing and current-repo orientation; not fresh command proof; not maintainer acceptance; not release certification
 sources:
   - https://github.com/lev-os/leviathan
   - https://raw.githubusercontent.com/lev-os/leviathan/main/README.md
@@ -44,7 +44,7 @@ Observed from current repo docs: Lev is an open runtime for agent-human systems:
 
 The active repo docs describe the foundation as real but still being hardened. They explicitly say the universal context graph is not fully landed, the system is not enterprise-ready, and architecture is ahead of some implementation areas.
 
-Current clean-snapshot reset: [[projects/leviathan-current/deep-audit-current-snapshot-2026-06-18]] is now the highest-priority current source-baseline page. It uses a fresh clean clone at `c90ec8499c83db3d17f6132ec734698a8de2dbce` and corrects older damaged-checkout conflict-marker claims. [[projects/leviathan-current/concept-atlas-current-2026-06-18]] is the current concept map above the older packet pages, [[projects/leviathan-current/evidence-frontier-and-blockers-dashboard-2026-06-18]] names current source contradictions, and [[projects/leviathan-current/proof-audit-roadmap-vs-mvp-2026-06-18]] now command-tests the largest `docs/ROADMAP.md` vs `mvp.md` conflict.
+Current source reset: [[specs/leviathan-current/README]] and [[projects/leviathan-current/proof-backed-status-dashboard]] are now the highest-priority current source-routing pages. They use a fresh 2026-06-19 remote/clone check at `b7bca2cdbed5862743395f7c0330e7d640132764`. The older clean-clone audit at [[projects/leviathan-current/deep-audit-current-snapshot-2026-06-18]] remains valid for its `c90ec...` snapshot and for demoting damaged-checkout conflict-marker claims.
 
 ## Source mode
 
@@ -57,7 +57,7 @@ Use:
 - `https://raw.githubusercontent.com/lev-os/leviathan/<commit>/<path>` for stable cited snapshots
 - `https://api.github.com/repos/lev-os/leviathan/contents/<path>?ref=main` for machine-readable directory listings
 
-Remote `main` observed on 2026-06-18: `c90ec8499c83db3d17f6132ec734698a8de2dbce`.
+Remote `main` observed on 2026-06-19: `b7bca2cdbed5862743395f7c0330e7d640132764`.
 
 Old local-path citations in this folder remain historical evidence from the June 17-18 local inventory and damaged-checkout containment pass. They are not current source instructions and do not prove the local path still exists.
 
@@ -86,6 +86,9 @@ For this project, read current repo sources before chat-derived or legacy materi
 - `concept-atlas-current-2026-06-18.md` — concept map with aliases, evidence levels, currentness, wiki targets, and claim ceilings.
 - `evidence-frontier-and-blockers-dashboard-2026-06-18.md` — current contradictions/blockers that require reruns or source reconciliation.
 - `proof-audit-roadmap-vs-mvp-2026-06-18.md` — clean-clone command proof audit for the `ROADMAP.md` vs `mvp.md` split.
+- `proof-backed-status-dashboard.md` — current `b7bca2cd` source-doc split and proof-routing dashboard.
+- `packet-10-deep-research-upgrade-pack-intake-2026-06-19.md` — intake receipt for the 2026-06-19 deep-research report and ZIP upgrade pack.
+- `specs/leviathan-current/README.md` — repo-facing mirror/source-authority router.
 - `read-order-by-intent-2026-06-18.md` — read order by task/persona for a huge mixed repo.
 - `source-inventory-2026-06-17.md` — first repo inventory; 12,699 files excluding common build/cache dirs; 4,848 Markdown/MDX files; 250 chat/transcript/Josh-JP routing candidates captured in the JSON sidecar.
 - `source-inventory-2026-06-17.json` — full machine-readable inventory sidecar.
@@ -167,6 +170,14 @@ Packet 8 note: the daemon Pentagon blocker is narrower than "artifacts absent"; 
 
 Packet 9 note: the report is useful as advisory packaging pressure but stale for current wiki truth. Its three-plane architecture framing, failed-public-wiki-retrieval premise, non-portable `turn...` citations, and lack of Packet 7/8 proof state block direct merge.
 
+### Packet 10 — deep-research upgrade pack intake
+
+- `packet-10-deep-research-upgrade-pack-intake-2026-06-19.md` — intake page for `/Users/joshuaeisenhart/Desktop/deep-research-report.md` and `/Users/joshuaeisenhart/Desktop/leviathan_wiki_upgrade_pack_2026-06-19.zip`.
+- `proof-backed-status-dashboard.md` — current proof/source split dashboard created from the pack plus fresh source check.
+- `specs/leviathan-current/README.md` — new repo-facing mirror policy page.
+
+Packet 10 note: the ZIP is useful as an upgrade plan, but it carried `c90ec...` while current remote `main` was `b7bca2cd`. Accepted changes were routed through current source checks, not blindly imported.
+
 ### Contribution / provenance / research / assessment starters
 
 - `josh-contribution-signal-radar.md` — grounded starter radar for Josh's constraint contributions in docs/code.
@@ -186,7 +197,7 @@ Packet 9 note: the report is useful as advisory packaging pressure but stale for
 
 ## Claim discipline
 
-Do not say the wiki fully understands Leviathan yet. Current status is: scaffold exists, current-authority synthesis pages exist, the old local-checkout runtime maps exist, the 2026-06-18 clean snapshot audit now supersedes old conflict-marker blockers for current upstream truth, the Packet 6 concept atlas names the major concept families and contradictions, Packet 7 adds clean-clone command evidence for the biggest `ROADMAP.md` vs `mvp.md` split, Packet 8 tightens the remaining blocker descriptions through a Wizard v4.3 multi-worker audit, and Packet 9 quarantines a stale external packaging report as advisory-only. Runtime verification is no longer completely unrun, but it is still mixed: named SDK/Poly proof is green, while default daemon Pentagon gate, `@lev-os/testing`, and event-dispatch proof-spine remain red or blocked.
+Do not say the wiki fully understands Leviathan yet. Current status is: scaffold exists, current-authority synthesis pages exist, the old local-checkout runtime maps are demoted, the 2026-06-18 clean snapshot audit supersedes damaged-checkout conflict-marker blockers for its snapshot, and Packet 10 adds a 2026-06-19 source check at `b7bca2cd`. Runtime verification is still not settled by prose: `docs/ROADMAP.md` and `mvp.md` currently disagree about Pentagon/default daemon, `@lev-os/testing`, and scoped security status, so the wiki must call that a source-doc split until a fresh proof packet reruns the commands.
 
 The live synthesis must keep three layers separate:
 

@@ -3,6 +3,7 @@ title: Exec / Poly / Daemon Boundary
 date: 2026-06-17
 packet: 2
 status: current-runtime-map
+claim_ceiling: historical Packet 2 source map with current-source caveats; not current build proof; not runtime health proof
 owned_by: background-packet-2
 ---
 
@@ -151,7 +152,7 @@ This path is **[inferred from docs]** and supported by observed package boundari
 
 ## Current blockers and cautions
 
-- Event Bus source has unresolved conflict markers; therefore Exec/Daemon event emissions cannot be claimed end-to-end healthy. **[observed file]**
+- Exec/Daemon event emissions cannot be claimed end-to-end healthy from this old Packet 2 source map alone; use a current proof packet for runtime health. **[open]**
 - No tests/typechecks were run for Exec, Poly, or Daemon in Packet 2. **[not checked]**
 - Poly has a large source tree (122 TypeScript files found under `core/poly/src`); Packet 2 read boundary files and docs, not every command/codegen/surface implementation. **[observed file]** / **[not checked]**
 - Daemon has 50 TypeScript files found under `core/daemon/src`; Packet 2 read core boundary files, not every adapter/health/queue implementation. **[observed file]** / **[not checked]**

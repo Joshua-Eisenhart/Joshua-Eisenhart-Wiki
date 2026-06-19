@@ -5,6 +5,7 @@ updated: 2026-06-18
 type: receipt
 packet: 2-full-pass
 status: complete
+claim_ceiling: historical receipt for damaged local-checkout runtime map; not current upstream source truth; not runtime proof
 repo_snapshot:
   path: /Users/joshuaeisenhart/GitHub/leviathan
   head: a661ecbf410469becd7b89c3bfc5ee215721ae34

@@ -3,6 +3,7 @@ title: Packet 2 Runtime Map Receipt
 date: 2026-06-17
 packet: 2
 status: receipt
+claim_ceiling: historical Packet 2 receipt for local-checkout runtime map; not current upstream source truth; not runtime proof
 owned_by: background-packet-2
 ---
 

@@ -8,6 +8,7 @@ head: a661ecbf410469becd7b89c3bfc5ee215721ae34
 candidate_count: 250
 owned_output: chat-provenance-queue-2026-06-17.md
 status: wave-1-first-pass
+claim_ceiling: historical provenance queue from first local inventory; not current source proof; not implementation truth
 ---
 
 # Leviathan Current Wiki — Chat / Transcript Provenance Queue

@@ -1,7 +1,7 @@
 ---
 title: Leviathan Current Content Index
 created: 2026-06-18
-updated: 2026-06-18
+updated: 2026-06-19
 type: project-index
 status: active
 claim_ceiling: content map and reading order; not implementation proof
@@ -15,15 +15,15 @@ The content exists under `projects/leviathan-current/`. The strongest pages are 
 
 ## Current reset point
 
-Start with the clean-current audit before reading older Packet 2 runtime pages:
+Start with the current source split before reading older Packet 2 runtime pages:
 
-1. [[projects/leviathan-current/deep-audit-current-snapshot-2026-06-18]] — current clean snapshot audit at `c90ec8499c83db3d17f6132ec734698a8de2dbce`.
-2. [[projects/leviathan-current/repo-current-vs-wiki-drift-audit-2026-06-18]] — what older wiki pages still say that is now historical damaged-checkout evidence, not current upstream truth.
-3. [[projects/leviathan-current/concept-atlas-current-2026-06-18]] — current concept atlas with aliases, evidence levels, wiki targets, and claim ceilings.
-4. [[projects/leviathan-current/evidence-frontier-and-blockers-dashboard-2026-06-18]] — contradictions/blockers that should not be smoothed into a single verdict.
-5. [[projects/leviathan-current/proof-audit-roadmap-vs-mvp-2026-06-18]] — clean-clone command proof audit that splits the `ROADMAP.md` vs `mvp.md` conflict.
-6. [[projects/leviathan-current/read-order-by-intent-2026-06-18]] — safer read order by task/persona for a massive mixed repo.
-7. [[projects/leviathan-current/wizard-swarm-current-wiki-receipt-2026-06-18]] — route/worker/verification receipt for the first current rebuild pass.
+1. [[specs/leviathan-current/README]] — repo-facing mirror policy and current source authority at `b7bca2cdbed5862743395f7c0330e7d640132764`.
+2. [[projects/leviathan-current/proof-backed-status-dashboard]] — current `ROADMAP.md` / `mvp.md` source split and proof-routing dashboard.
+3. [[projects/leviathan-current/current-state-and-roadmap]] — current status synthesis that preserves the split instead of flattening it.
+4. [[projects/leviathan-current/deep-audit-current-snapshot-2026-06-18]] — older clean snapshot audit at `c90ec8499c83db3d17f6132ec734698a8de2dbce`.
+5. [[projects/leviathan-current/repo-current-vs-wiki-drift-audit-2026-06-18]] — what older wiki pages still say that is now historical damaged-checkout evidence, not current upstream truth.
+6. [[projects/leviathan-current/concept-atlas-current-2026-06-18]] — concept atlas with aliases, evidence levels, wiki targets, and claim ceilings.
+7. [[projects/leviathan-current/read-order-by-intent-2026-06-18]] — safer read order by task/persona for a massive mixed repo.
 
 ## Start here
 
@@ -31,7 +31,8 @@ Start with the clean-current audit before reading older Packet 2 runtime pages:
 2. [[projects/leviathan-current/current-state-and-roadmap]] — current status, strengths, gaps, and roadmap.
 3. [[projects/leviathan-current/architecture-planes-and-ownership]] — FlowMind, Orchestration, Graph, Event Bus, Exec, Poly, Daemon, AgentPing ownership map.
 4. [[projects/leviathan-current/contract-surface-map]] — specs and contract surfaces, with drift preserved.
-5. [[projects/leviathan-current/runtime-module-map-full-2026-06-18]] — older full runtime/module map. Read through the drift audit above because its conflict-marker language is now historical.
+5. [[projects/leviathan-current/proof-backed-status-dashboard]] — proof status, source split, and next rerun commands.
+6. [[projects/leviathan-current/runtime-module-map-full-2026-06-18]] — older full runtime/module map. Read through the drift audit above because its conflict-marker language is now historical.
 
 ## Runtime maps
 
@@ -77,6 +78,7 @@ Starter/earlier maps:
 - [[projects/leviathan-current/concept-atlas-current-2026-06-18]]
 - [[projects/leviathan-current/evidence-frontier-and-blockers-dashboard-2026-06-18]]
 - [[projects/leviathan-current/proof-audit-roadmap-vs-mvp-2026-06-18]]
+- [[projects/leviathan-current/proof-backed-status-dashboard]]
 - [[projects/leviathan-current/read-order-by-intent-2026-06-18]]
 
 ## Control, plans, and receipts
@@ -99,9 +101,11 @@ Starter/earlier maps:
 - [[projects/leviathan-current/packet-7-clean-clone-proof-audit-receipt-2026-06-18]]
 - [[projects/leviathan-current/packet-8-wizard-mass-swarm-receipt-2026-06-18]]
 - [[projects/leviathan-current/packet-9-external-upgrade-report-intake-2026-06-18]]
+- [[projects/leviathan-current/packet-10-deep-research-upgrade-pack-intake-2026-06-19]]
+- [[specs/leviathan-current/README]]
 
 ## Source mode
 
 New wiki work reads `https://github.com/lev-os/leviathan` plus raw/API URLs first. If that is too limited, use a clean fresh clone from `https://github.com/lev-os/leviathan.git`, record the remote URL, commit SHA, and clean status, and keep it read-only unless Josh explicitly assigns a repo patch.
 
-Current clean-clone baseline for this index: `/tmp/leviathan-wiki-src-20260618` at `c90ec8499c83db3d17f6132ec734698a8de2dbce`, clean status. The damaged `/Users/joshuaeisenhart/GitHub/leviathan` checkout is historical only.
+Current source baseline for this index: fresh clone `/tmp/leviathan-current-20260619-3WQpXq` at `b7bca2cdbed5862743395f7c0330e7d640132764`, clean after clone. The damaged `/Users/joshuaeisenhart/GitHub/leviathan` checkout is historical only.

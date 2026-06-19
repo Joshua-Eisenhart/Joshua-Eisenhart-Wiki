@@ -1,3 +1,12 @@
+---
+title: Leviathan Wiki Swarm Launch Receipt
+created: 2026-06-18
+updated: 2026-06-19
+type: receipt
+status: historical-wiki-only-scope-correction
+claim_ceiling: historical route and worker ledger; not current source truth; not runtime proof
+---
+
 # Leviathan wiki swarm launch receipt — 2026-06-18
 
 ## Status

@@ -3,6 +3,7 @@ title: FlowMind Control Plane
 date: 2026-06-17
 packet: 2
 status: current-runtime-map
+claim_ceiling: historical Packet 2 source map with current-source caveats; not current build proof; not runtime health proof
 owned_by: background-packet-2
 ---
 
@@ -104,7 +105,7 @@ Important boundary: session progression chooses **which step** to run; orchestra
 1. FlowMind is declaration/control/policy-first, not a process supervisor. **[inferred from docs]**
 2. FlowMind sessions are the canonical progressive-disclosure session engine; prompt-stack is backward-compatible legacy/plugin surface for older stacks. **[inferred from docs]**
 3. Runtime state should use XDG paths, including FlowMind session persistence. **[inferred from docs]**
-4. FlowMind may interact with the event bus, but runtime health cannot be asserted while unresolved conflict markers exist in event-bus source. **[observed file]**
+4. FlowMind may interact with the event bus, but runtime health still requires current event/daemon proof rather than old Packet 2 source-map evidence. **[open]**
 5. FlowMind's package exports should remain aligned with package metadata and with the hard-cut module map. **[observed file]**
 
 ## Not checked in this packet

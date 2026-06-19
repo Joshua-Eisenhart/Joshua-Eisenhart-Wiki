@@ -1,113 +1,69 @@
 ---
 title: What Is Leviathan
 created: 2026-06-17
-updated: 2026-06-17
+updated: 2026-06-19
 type: explanatory-wiki-page
-status: packet-1 current-authority synthesis
-claim_ceiling: current repo docs plus cheap code/package checks; not maintainer acceptance, not full implementation proof
+status: current-source-reader
+source_repo: lev-os/leviathan
+source_snapshot: b7bca2cdbed5862743395f7c0330e7d640132764
+claim_ceiling: current source-doc and package-surface orientation; not build proof; not maintainer acceptance; not release certification
 sources:
-  - /Users/joshuaeisenhart/GitHub/leviathan/README.md
-  - /Users/joshuaeisenhart/GitHub/leviathan/docs/README.md
-  - /Users/joshuaeisenhart/GitHub/leviathan/docs/NORTH_STAR.md
-  - /Users/joshuaeisenhart/GitHub/leviathan/docs/ROADMAP.md
-  - /Users/joshuaeisenhart/GitHub/leviathan/docs/ARCHITECTURE.md
+  - https://github.com/lev-os/leviathan
+  - https://raw.githubusercontent.com/lev-os/leviathan/b7bca2cdbed5862743395f7c0330e7d640132764/README.md
+  - https://raw.githubusercontent.com/lev-os/leviathan/b7bca2cdbed5862743395f7c0330e7d640132764/docs/README.md
+  - https://raw.githubusercontent.com/lev-os/leviathan/b7bca2cdbed5862743395f7c0330e7d640132764/docs/ARCHITECTURE.md
+  - https://raw.githubusercontent.com/lev-os/leviathan/b7bca2cdbed5862743395f7c0330e7d640132764/docs/ROADMAP.md
+  - https://raw.githubusercontent.com/lev-os/leviathan/b7bca2cdbed5862743395f7c0330e7d640132764/mvp.md
 ---
 
 # What Is Leviathan?
 
-## Plain answer
-
 Leviathan / Lev is an open runtime for agent-human systems.
 
-It is not just a prompt wrapper and not just a chat UI. The current docs frame it as a runtime where agents can act through real surfaces, under explicit policy, with graph/memory context, event receipts, execution boundaries, and human approval loops.
+It is not only a chat UI, not only a prompt wrapper, and not only a docs stack. The current repo frames Lev as a runtime where agents act through explicit surfaces, under policy, with context/state, event receipts, execution boundaries, and human-loop product surfaces.
 
-Short version:
+Plain version:
 
 ```text
-Leviathan tries to move agents from "talking in chat" to "acting through governed runtime surfaces".
+Lev tries to move agents from "talking in chat" to "acting through governed runtime surfaces."
 ```
 
-## What the runtime is trying to hold together
+## Canonical Runtime Shape
 
-The current authority docs describe these pieces as one runtime:
+Use the four-plane technical model for wiki pages:
 
-| Piece | Plain role | Support |
+| Plane | Role | Current source basis |
 |---|---|---|
-| **FlowMind** | Control and policy declarations; the place where constraints and intent are expressed. | `README.md`, `NORTH_STAR.md`, `ARCHITECTURE.md` |
-| **Orchestration** | Scheduling, worker coordination, execution strategy, queues, loops. | `ARCHITECTURE.md`, specs/code-package scout |
-| **Graph** | State, knowledge, memory, lineage, context projection. | `README.md`, `ARCHITECTURE.md`, specs/code-package scout |
-| **Event Bus** | Canonical event spine, replay, audit, cross-plane lifecycle events. | `README.md`, `ARCHITECTURE.md`, specs/code-package scout |
-| **Exec / Poly / Daemon** | Execution SDK, protocol/CLI bindings, process/runtime supervision. | `ARCHITECTURE.md`, package/code scout |
-| **AgentPing** | Default human-loop surface and interaction layer. | `docs/README.md`, `NORTH_STAR.md`, AgentPing specs |
-| **AgentLease** | Scoped trust / permission / accountability concept. | `NORTH_STAR.md`; implementation status still needs a deeper packet |
+| FlowMind | Control and policy plane: declarations, constraints, compilation, runtime policy. | `docs/ARCHITECTURE.md`, `core/flowmind/package.json` |
+| Orchestration | Execution strategy plane: DAG scheduling, worker coordination, loops, queues. | `docs/ARCHITECTURE.md`, `core/orchestration/package.json` |
+| Graph / Context Graph | State and knowledge plane: entity memory, traversal, lineage, projections. | `docs/ARCHITECTURE.md`, `core/context-graph/package.json` |
+| Event Bus | Causality spine: canonical `LevEvent` transport, replay, recovery, receipt trail. | `docs/ARCHITECTURE.md`, `core/event-bus/package.json` |
 
-The cleanest current mental model is:
+The root README still introduces a simplified three-plane view: FlowMind, Graph, Event Bus. Treat that as public shorthand. For technical ownership, use the four-plane boundary in [[projects/leviathan-current/architecture-planes-and-ownership]].
 
-```text
-Human intent enters through a surface.
-FlowMind constrains and routes it.
-Orchestration schedules the work.
-Exec/Poly/Daemon run or expose it.
-Graph stores state and context.
-Event Bus records lifecycle-significant changes.
-AgentPing/AgentLease keep humans and permissions in the loop.
-```
+## Adjacent Runtime Owners
 
-## What makes it different from ordinary agent frameworks
+- Exec owns the execution SDK and provider dispatch boundary.
+- Poly owns registry/binder/control-surface projection such as CLI, MCP, HTTP, gRPC, and SDK surfaces.
+- Daemon owns long-running process supervision and worker/process lifecycle.
+- AgentPing is the default human-loop surface direction, not the runtime kernel itself.
+- AgentLease is a scoped-authority and accountability concept whose product/runtime proof still needs exact source and test separation.
 
-The docs position Lev as a runtime substrate rather than a model wrapper. Its distinctive bet is that durable value moves from prompts into runtime structure:
+## Current Status In One Sentence
 
-- context assembly instead of chat-history stuffing;
-- graph state instead of stateless conversation;
-- explicit policy instead of implicit assistant behavior;
-- scoped leases instead of ambient permission;
+Lev is a pre-release, source-visible agent-human runtime with real architecture and many implemented surfaces, but its proof state must be treated as split until current commands reconcile `docs/ROADMAP.md`, `mvp.md`, and fresh test results.
+
+## What Makes It Different
+
+Lev's distinctive bet is that durable agent work belongs in runtime structure, not only in prompts:
+
+- context graph instead of chat-history stuffing;
+- policy and leases instead of ambient permission;
 - event receipts instead of vibes;
-- surfaces instead of chat-only interaction;
+- explicit execution surfaces instead of chat-only interaction;
+- human-loop surfaces instead of invisible automation;
 - provider/runtime breadth instead of one-vendor lock-in.
 
-## What exists now, at this support level
+## What This Page Does Not Prove
 
-Observed from current docs and cheap package/code checks:
-
-- Root package exposes `lev` at `core/poly/bin/lev`.
-- Packages exist for `core/flowmind`, `core/orchestration`, `core/graph`, `core/event-bus`, `core/exec`, `core/poly`, `core/daemon`, `core/domain`, `core/memory`, `core/ui`, and related modules.
-- `core/flowmind/system/constraint-manifold.flow.yaml` exists and names the kernel constraint manifold.
-- `core/flowmind/src/kernel/constraint-manifold.ts` exists and names C1/C2 root validators.
-- `crates/lev-kernel/` exists with Rust surfaces for the constraint manifold / ratchet admission kernel.
-- Specs index claims 61 specs total.
-- Roadmap claims 1,031 test files, 60+ CLI commands, 4 CI workflows, and a real foundation still needing hardening.
-
-This page did not run install/build/test. Treat package/code existence as `observed file/path/package`, not as proof that the full runtime works end-to-end.
-
-## What Leviathan is not, yet
-
-The current docs themselves block overclaiming:
-
-- universal context graph is not fully landed;
-- enterprise readiness is not complete;
-- architecture is ahead of some implementation areas;
-- MCP server story is not complete;
-- security hardening remains open;
-- AgentLease and enterprise governance need implementation-status separation;
-- docs-to-code ratio and DX are named risks.
-
-So the honest status is:
-
-```text
-The architecture is serious and partly implemented. The full product/runtime promise is not yet closed.
-```
-
-## Relationship to Josh / Codex Ratchet
-
-Leviathan is not Codex Ratchet. It is also not separate from Josh's root frame.
-
-The current repo explicitly says Josh identified the unification of two constraint systems: ontological constraints such as ratchet, finitude, and non-commutation, and operational constraints such as ABAC, leases, and containment. Current code/docs also contain a constraint manifold with C1 Finitude and C2 Non-Commutation as root kernel constraints.
-
-Safe bridge:
-
-```text
-Codex Ratchet works on the mathematical/proof/admissibility kernel.
-Leviathan applies related constraint structure as an agent-human runtime.
-```
-
-The exact contribution map still needs Packet 4 provenance work. This page only says the current docs/code contain strong contribution signals.
+This page did not run `pnpm install`, build, typecheck, package tests, Pentagon gates, or security scans. It reports a current source read at `b7bca2cdbed5862743395f7c0330e7d640132764` plus earlier wiki proof packets. Use [[projects/leviathan-current/proof-backed-status-dashboard]] for current proof routing.

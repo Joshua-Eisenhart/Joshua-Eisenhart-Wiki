@@ -1,3 +1,12 @@
+---
+title: Ratchet Assessment Receipt
+created: 2026-06-18
+updated: 2026-06-19
+type: receipt
+status: historical-wiki-only-assessment
+claim_ceiling: model-pressure and process receipt; not accepted Leviathan implementation work; not runtime proof
+---
+
 # Ratchet assessment receipt — 2026-06-18
 
 ## Status

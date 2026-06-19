@@ -1,10 +1,10 @@
 ---
 title: Leviathan Current Read First
 created: 2026-06-17
-updated: 2026-06-18
+updated: 2026-06-19
 type: read-first
-status: active scaffold
-claim_ceiling: routing note; not full conceptual synthesis
+status: current-source-router
+claim_ceiling: routing note and source authority map; not build proof; not release certification
 ---
 
 # Read First — Leviathan Current
@@ -74,7 +74,7 @@ If the website/raw/API route is too limited for the wiki task, Josh has authoriz
 
 Old pages in this folder may cite `/Users/joshuaeisenhart/GitHub/leviathan/...`; treat those as historical snapshot citations from the June 17-18 local inventory, not as instructions that the path still exists.
 
-Remote `main` observed on 2026-06-18: `c90ec8499c83db3d17f6132ec734698a8de2dbce`.
+Remote `main` observed on 2026-06-19: `b7bca2cdbed5862743395f7c0330e7d640132764`.
 
 ## Read order for future agents
 
@@ -89,16 +89,19 @@ Remote `main` observed on 2026-06-18: `c90ec8499c83db3d17f6132ec734698a8de2dbce`
 9. `https://raw.githubusercontent.com/lev-os/leviathan/main/docs/ROADMAP.md`.
 10. `https://raw.githubusercontent.com/lev-os/leviathan/main/docs/NORTH_STAR.md`.
 11. `https://raw.githubusercontent.com/lev-os/leviathan/main/AGENTS.md` for agent/contributor operating rules, not product truth.
-12. [[projects/leviathan-current/deep-audit-current-snapshot-2026-06-18]].
-13. [[projects/leviathan-current/repo-current-vs-wiki-drift-audit-2026-06-18]].
-14. [[projects/leviathan-current/concept-atlas-current-2026-06-18]].
-15. [[projects/leviathan-current/evidence-frontier-and-blockers-dashboard-2026-06-18]].
-16. [[projects/leviathan-current/proof-audit-roadmap-vs-mvp-2026-06-18]].
-17. [[projects/leviathan-current/read-order-by-intent-2026-06-18]].
-18. `source-inventory-2026-06-17.md` here as a historical local snapshot.
-19. `bounded-ingestion-plan.md` here.
-20. Existing `projects/levos/*.md` pages for prior idea intake.
-21. Chat/transcript candidates only after provenance classification.
+12. [[specs/leviathan-current/README]].
+13. [[projects/leviathan-current/proof-backed-status-dashboard]].
+14. [[projects/leviathan-current/current-state-and-roadmap]].
+15. [[projects/leviathan-current/architecture-planes-and-ownership]].
+16. [[projects/leviathan-current/contract-surface-map]].
+17. [[projects/leviathan-current/deep-audit-current-snapshot-2026-06-18]] as the older clean-clone audit at `c90ec...`.
+18. [[projects/leviathan-current/repo-current-vs-wiki-drift-audit-2026-06-18]].
+19. [[projects/leviathan-current/concept-atlas-current-2026-06-18]].
+20. [[projects/leviathan-current/evidence-frontier-and-blockers-dashboard-2026-06-18]].
+21. [[projects/leviathan-current/proof-audit-roadmap-vs-mvp-2026-06-18]].
+22. [[projects/leviathan-current/read-order-by-intent-2026-06-18]].
+23. `source-inventory-2026-06-17.md` here as a historical local snapshot.
+24. Chat/transcript candidates only after provenance classification.
 
 ## Current status
 
@@ -106,6 +109,7 @@ Remote `main` observed on 2026-06-18: `c90ec8499c83db3d17f6132ec734698a8de2dbce`
 - Current source for new wiki work: `https://github.com/lev-os/leviathan` plus raw/API URLs.
 - HEAD checked during initial local inventory: `a661ecbf410469becd7b89c3bfc5ee215721ae34`.
 - Remote `main` checked on 2026-06-18 after local deletion: `c90ec8499c83db3d17f6132ec734698a8de2dbce`.
+- Remote `main` checked on 2026-06-19 during Packet 10 intake: `b7bca2cdbed5862743395f7c0330e7d640132764`.
 - Dirty local worktree observed before deletion: submodule changes and deleted `docs/vernacular.md`. Treat that as a historical damaged-checkout observation, not current upstream truth.
 - First inventory written: `source-inventory-2026-06-17.md` plus JSON sidecar.
 - Scope correction on 2026-06-18: this Hermes lane is wiki-only. Read the repo; do not edit it. Use `wiki-swarm-launch-receipt-2026-06-18.md` for the Packet 2/4/5 worker ledger.
@@ -119,9 +123,12 @@ Remote `main` observed on 2026-06-18: `c90ec8499c83db3d17f6132ec734698a8de2dbce`
 - Current proof-audit receipt: [[projects/leviathan-current/packet-7-clean-clone-proof-audit-receipt-2026-06-18]].
 - Current Wizard mass-swarm receipt: [[projects/leviathan-current/packet-8-wizard-mass-swarm-receipt-2026-06-18]].
 - Current stale external report intake: [[projects/leviathan-current/packet-9-external-upgrade-report-intake-2026-06-18]].
+- Current deep-research/ZIP upgrade-pack intake: [[projects/leviathan-current/packet-10-deep-research-upgrade-pack-intake-2026-06-19]].
+- Current proof status dashboard: [[projects/leviathan-current/proof-backed-status-dashboard]].
+- Current specs mirror/router: [[specs/leviathan-current/README]].
 - Current read-order guide: [[projects/leviathan-current/read-order-by-intent-2026-06-18]].
 - Important correction: old Packet 2 pages that say current Event Bus/build/TUI conflict markers block runtime health are now historical damaged-checkout findings. The clean snapshot at `c90ec8499c83db3d17f6132ec734698a8de2dbce` has no `<<<<<<<`/`>>>>>>>` scan hits. Runtime health is now mixed rather than untested: Packet 7 ran bounded install/build/test/gate commands in a disposable proof clone.
-- Important correction: `docs/ROADMAP.md` and `mvp.md` disagree about S5/Pentagon/security/default-daemon gate status. Packet 7 reran the minimal clean-clone proof checks and found a split verdict: high audit and named SDK/Poly Pentagon pass, but default daemon Pentagon gate and `@lev-os/testing` are not green in that run.
+- Important correction: `docs/ROADMAP.md` and `mvp.md` still disagree at `b7bca2cdbed5862743395f7c0330e7d640132764`. `ROADMAP.md` says Pentagon/default daemon, `@lev-os/testing`, and security remain red/open; `mvp.md` says those scoped gates are green while launch readiness remains blocked. Treat this as a source-doc split until fresh commands settle it.
 
 ## Do not
 

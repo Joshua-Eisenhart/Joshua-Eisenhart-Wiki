@@ -1,3 +1,12 @@
+---
+title: Fusion GLM Wiki Direction Pressure
+created: 2026-06-18
+updated: 2026-06-19
+type: model-pressure-memo
+status: advisory
+claim_ceiling: external model pressure only; controller must verify source paths before promotion; not current source truth
+---
+
 # Fusion / GLM wiki-direction pressure — 2026-06-18
 
 Support level: external model pressure only; controller must verify source paths before wiki promotion.

@@ -1,98 +1,54 @@
 ---
-title: Leviathan Current State and Roadmap
+title: Leviathan Current State And Roadmap
 created: 2026-06-17
-updated: 2026-06-17
+updated: 2026-06-19
 type: status-wiki-page
-status: packet-1 current-authority synthesis
-claim_ceiling: roadmap/docs/code-scout synthesis; not build/test verification
+status: current-source-split
+source_repo: lev-os/leviathan
+source_snapshot: b7bca2cdbed5862743395f7c0330e7d640132764
+claim_ceiling: source-doc status reconciliation; not fresh command proof; not release readiness certification
 sources:
-  - /Users/joshuaeisenhart/GitHub/leviathan/docs/ROADMAP.md
-  - /Users/joshuaeisenhart/GitHub/leviathan/docs/NORTH_STAR.md
-  - /Users/joshuaeisenhart/GitHub/leviathan/README.md
-  - /Users/joshuaeisenhart/GitHub/leviathan/package.json
-  - /Users/joshuaeisenhart/GitHub/leviathan/pnpm-workspace.yaml
+  - https://raw.githubusercontent.com/lev-os/leviathan/b7bca2cdbed5862743395f7c0330e7d640132764/docs/ROADMAP.md
+  - https://raw.githubusercontent.com/lev-os/leviathan/b7bca2cdbed5862743395f7c0330e7d640132764/mvp.md
+  - https://raw.githubusercontent.com/lev-os/leviathan/b7bca2cdbed5862743395f7c0330e7d640132764/README.md
+  - https://raw.githubusercontent.com/lev-os/leviathan/b7bca2cdbed5862743395f7c0330e7d640132764/docs/ARCHITECTURE.md
 ---
 
-# Current State and Roadmap
+# Current State And Roadmap
 
-## Bottom line
+## Bottom Line
 
-The repo-current docs say Leviathan has a real foundation, but is not yet a finished universal agent runtime.
+Current source at `b7bca2cdbed5862743395f7c0330e7d640132764` contains a real status split:
 
-The strong part is the architecture: FlowMind, Graph, Event Bus, Exec/Poly/Daemon, AgentPing, specs, packages, CLI shape, event discipline, and constraint-manifold language are all visible. The weak part is product hardening: enterprise pillars, security, DX, MCP/A2A completeness, budget/resource enforcement, and some docs/code drift remain open.
+- `docs/ROADMAP.md` says Pentagon/Run Fabric provider proof is red, `@lev-os/testing` fails, daemon state is unknown, and security P0 remains open.
+- `mvp.md` says named and default Pentagon proof, `@lev-os/testing`, and scoped security P0 are green, while launch readiness remains blocked by always-on daemon/event automation and downstream MVP surfaces.
 
-## Current-state claims from `ROADMAP.md`
+This page did not rerun those commands. Treat the disagreement as a source-doc contradiction until a fresh proof packet on the current SHA settles it.
 
-| Area | Roadmap claim | Status label |
-|---|---|---|
-| Framework decoupling | 70% framework-decoupled; 10 modules fully decoupled, 5 soft-coupled, 2 hard-coupled. | roadmap claim |
-| Providers | 11 provider harnesses. | roadmap claim; count drift exists in docs |
-| MCP | 5 MCP client adapters, 0 MCP servers implemented; 7 needed. | roadmap claim; code has a stub-like MCP surface |
-| Enterprise | 0/9 pillars enterprise-ready; 2 partial, 5 minimal, 2 missing. | roadmap claim |
-| Security | `process.env` passed wholesale to spawned agents. | roadmap risk |
-| DX | 6.2/10; quick wins include links/install/examples/`lev init`. | roadmap risk |
-| Release readiness | 837 files security-hardened; 118 dependency vulnerabilities remaining. | roadmap claim |
-| Execution reality | 1.46:1 docs-to-code ratio; 1,031 test files; 60+ CLI commands; 4 CI workflows. | roadmap claim |
+## Safe Current Verdict
 
-## Active workstreams named by roadmap
+Lev is a pre-release runtime with serious architecture, real package surfaces, and some proof-bearing paths. It is not safe to call it fully launch-ready, enterprise-ready, or fully green from docs alone.
 
-- Voice-first orchestration.
-- `lev-forge` self-hosted CI/CD and VCS stacking.
-- 5-tier memory.
-- Framework intake.
-- Architecture convergence / S10.
-- OSS release.
+## Source Split Dashboard
 
-## 2026 execution phases named by roadmap
+| Area | `docs/ROADMAP.md` at `b7bca2cd` | `mvp.md` at `b7bca2cd` | Wiki status |
+|---|---|---|---|
+| Manual events / trigger projection | Says manual events mode works against proof-spine fixture with no daemon side effects. | Says manual dispatch/projection is working. | Source-aligned as working at source-doc level. |
+| S4 real `lev exec` | Says S4 real exec is certified by `rcpt-8a4f95daa123b2a2`. | Says S4 is certified / not full MVP. | Source-aligned as certified by named receipt, but not rerun here. |
+| Pentagon / Run Fabric | Says provider proof regression is red and S5/Pentagon must be repaired. | Says named SDK/Poly provider proof and default daemon gate are green. | Split verdict; needs fresh rerun. |
+| `@lev-os/testing` | Says package fails. | Says package passes. | Split verdict; needs fresh rerun. |
+| Security P0 | Says `new Function`, legacy `execSync(command)`, ambient env leakage, and high audit vulns remain open. | Says scoped gate green, high audit exits 0, and unsafe env spreads are removed. | Split verdict; needs fresh security rerun. |
+| Launch readiness | Blocks OSS until security, install/doctor, proof-spine, and real user quickstart are green. | Says MVP is still not launch-ready due to always-on daemon/event automation and downstream surfaces. | Source-aligned: not launch-ready. |
 
-1. **Foundation** — framework-agnostic core, enterprise POCs, agent identity.
-2. **Protocol** — MCP-native everything.
-3. **Enterprise pillars** — ABAC, audit trails, kill switches, cost tracking, resource governor, approvals, compliance.
-4. **Open Source Launch** — OSS/enterprise split, examples, `lev init`, contributor guide, community launch.
+## Next Useful Proof Work
 
-## What is doing well
+The next high-value packet is a clean-clone proof rerun on `b7bca2cdbed5862743395f7c0330e7d640132764`:
 
-Observed from docs/package/code scout:
+1. Install dependencies.
+2. Rerun named and default Pentagon gates.
+3. Rerun `@lev-os/testing`.
+4. Rerun event-dispatch proof path.
+5. Rerun scoped security grep/audit gates.
+6. Write a dated proof packet that reconciles or preserves the `ROADMAP.md` / `mvp.md` split.
 
-- The project has a coherent ownership map: modules have named package surfaces and specs.
-- `core/poly/bin/lev` is the root CLI entry path in package metadata.
-- The runtime has explicit separations: FlowMind does not dispatch workers; Orchestration does not mutate policy; Graph does not schedule; Event Bus carries lifecycle events.
-- The repo has a serious spec corpus: `docs/specs/README.md` says 61 specs.
-- The project is unusually explicit about its own gaps. That is a strength because it gives the wiki a real status map rather than only marketing language.
-
-## Where it is failing or under-built
-
-Observed from current docs and cheap checks:
-
-- **Security**: roadmap explicitly flags wholesale `process.env` passing to spawned agents.
-- **Enterprise**: roadmap says 0/9 pillars are enterprise-ready.
-- **Protocol**: roadmap says 0 MCP servers implemented, even though code has a `core/poly/src/surfaces/mcp/index.ts` surface; this needs status clarification.
-- **DX**: roadmap calls out broken links/install/examples and missing `lev init` as quick wins.
-- **Architecture vs implementation**: root README says architecture is ahead of some implementation.
-- **Status drift**: some spec statuses and paths conflict; see `contract-surface-map.md`.
-- **Planning debt**: North Star names docs-to-code ratio and bus factor as high/critical risks.
-
-## Where it is promising
-
-- The constraint manifold is not just prose: it appears in FlowMind system declarations and kernel code surfaces.
-- The package topology is broad enough to be a real runtime rather than a single wrapper library.
-- The event bus / graph / orchestration / policy split gives the system a way to avoid one giant black-box agent loop.
-- The OSS/enterprise split has a recognizable business structure: useful core runtime for free; governance and enterprise hardening for paid deployments.
-- AgentPing and LevUI IR give the runtime a non-chat surface strategy.
-
-## Tensions to preserve
-
-Do not smooth these away:
-
-1. **Vision vs current hardening** — the docs say “operating system for agent-human symbiosis,” but also say the universal graph and enterprise readiness are not complete.
-2. **MCP-native positioning vs roadmap gap** — docs market MCP-native direction, but roadmap says 0 MCP servers.
-3. **Provider count drift** — docs mention 10 and 11 provider harnesses in different places.
-4. **AgentLease pillar vs implementation evidence** — AgentLease is central in vision, but identity/permissions/enterprise controls are not complete.
-5. **Quick-start vs DX warnings** — README has a normal quick start; North Star/Roadmap say install/examples/DX need repair.
-6. **Roadmap date drift** — roadmap frontmatter says 2026-02-20 while footer says 2026-03-14.
-
-## Next verification packets
-
-- Packet 2 should run module-by-module code/spec checks and, where safe, targeted tests.
-- Packet 3 should separate AgentPing / AgentLease product surfaces from implementation status.
-- Packet 4 should map Josh's contributions using exact repo, design, PM, and chat provenance.
+Until then, say "source-doc split" rather than "green" or "red" for the disputed areas.
