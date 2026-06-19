@@ -54,7 +54,7 @@ These local pages already carry most of the report's actionable pressure:
 Do not create a new Leviathan doctrine page from this report alone. Use it as a reinforcement receipt for the current front-door posture:
 
 ```text
-Leviathan is real enough to document as a serious pre-release runtime, but not complete enough to describe as an enterprise-ready operating system. Codex Ratchet remains Josh's separate mathematical/proof/admissibility program. JP Smith owns the Lev runtime lane and is credited for the original Wizard idea per Josh.
+Leviathan is real enough to document as a source-backed pre-release runtime project, but not complete enough to describe as an enterprise-ready operating system. Codex Ratchet remains Josh's separate mathematical/proof/admissibility program. JP Smith owns the Lev runtime lane, and the original Wizard idea credit is user-provided per Josh unless separately verified.
 ```
 
 Next stronger move: run a fresh clean-clone or raw/API proof packet against current `lev-os/leviathan` and update the proof dashboard only from observed files, commands, and receipts.

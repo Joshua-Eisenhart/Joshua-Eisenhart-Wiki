@@ -24,8 +24,18 @@ Start with the current source split before reading older Packet 2 runtime pages:
 5. [[projects/leviathan-current/packet-12-pasted-deep-research-truth-provenance-intake-2026-06-19]] — pasted truth/provenance report intake; advisory only.
 6. [[projects/leviathan-current/packet-13-pasted-fep-runtime-boundary-audit-intake-2026-06-19]] — pasted FEP/runtime-boundary audit intake; advisory only.
 7. [[projects/leviathan-current/packet-14-pasted-fep-atlas-and-leviathan-boundary-intake-2026-06-19]] — pasted FEP atlas correction and Leviathan boundary split intake; advisory only.
-8. [[projects/leviathan-current/codex-imports/v3-deep-repo-nuance-bundle-2026-06-19]] — branch-imported V3 deep-repo nuance bundle and split plan; source synthesis only.
-9. [[projects/leviathan-current/codex-imports/v4-cross-issues-deep-dive-2026-06-19]] — branch-imported V4 cross-issues deep dive; source synthesis only.
+8. [[projects/leviathan-current/packet-15-wizard-multi-model-council-audit-2026-06-19]] — multi-model council audit and correction receipt for Packet 14/FEP split pages; route receipt only.
+9. [[projects/leviathan-current/packet-8-wizard-mass-swarm-receipt-2026-06-18]] — earlier Wizard mass-swarm cleanup receipt; route/object boundary only.
+10. [[projects/leviathan-current/read-order-by-intent-2026-06-18]] — task/persona read order for humans, wiki workers, runtime auditors, and provenance work.
+11. [[projects/leviathan-current/codex-imports/v3-deep-repo-nuance-bundle-2026-06-19]] — branch-imported V3 deep-repo nuance bundle and split plan; source synthesis only.
+12. [[projects/leviathan-current/codex-imports/v4-cross-issues-deep-dive-2026-06-19]] — branch-imported V4 cross-issues deep dive; source synthesis only.
+
+## Latest Receipts
+
+- [[projects/leviathan-current/packet-15-wizard-multi-model-council-audit-2026-06-19]]
+- [[projects/leviathan-current/packet-14-pasted-fep-atlas-and-leviathan-boundary-intake-2026-06-19]]
+- [[projects/leviathan-current/packet-13-pasted-fep-runtime-boundary-audit-intake-2026-06-19]]
+- [[projects/leviathan-current/packet-8-wizard-mass-swarm-receipt-2026-06-18]]
 
 Leviathan/FEP split pages:
 
@@ -57,11 +67,13 @@ V4 split pages:
 - [[projects/leviathan-current/moat-vs-adoption-proof-v4-2026-06-19]]
 - [[projects/leviathan-current/release-readiness-ladder-v4-2026-06-19]]
 
-10. [[projects/leviathan-current/current-state-and-roadmap]] — current status synthesis that preserves the split instead of flattening it.
-11. [[projects/leviathan-current/deep-audit-current-snapshot-2026-06-18]] — older clean snapshot audit at `c90ec8499c83db3d17f6132ec734698a8de2dbce`.
-12. [[projects/leviathan-current/repo-current-vs-wiki-drift-audit-2026-06-18]] — what older wiki pages still say that is now historical damaged-checkout evidence, not current upstream truth.
-13. [[projects/leviathan-current/concept-atlas-current-2026-06-18]] — concept atlas with aliases, evidence levels, wiki targets, and claim ceilings.
-14. [[projects/leviathan-current/read-order-by-intent-2026-06-18]] — safer read order by task/persona for a massive mixed repo.
+Additional current maps:
+
+1. [[projects/leviathan-current/current-state-and-roadmap]] — current status synthesis that preserves the split instead of flattening it.
+2. [[projects/leviathan-current/deep-audit-current-snapshot-2026-06-18]] — older clean snapshot audit at `c90ec8499c83db3d17f6132ec734698a8de2dbce`.
+3. [[projects/leviathan-current/repo-current-vs-wiki-drift-audit-2026-06-18]] — what older wiki pages still say that is now historical damaged-checkout evidence, not current upstream truth.
+4. [[projects/leviathan-current/concept-atlas-current-2026-06-18]] — concept atlas with aliases, evidence levels, wiki targets, and claim ceilings.
+5. [[projects/leviathan-current/read-order-by-intent-2026-06-18]] — safer read order by task/persona for a massive mixed repo.
 
 ## Start here
 
@@ -183,6 +195,7 @@ Starter/earlier maps:
 - [[projects/leviathan-current/packet-10-deep-research-upgrade-pack-intake-2026-06-19]]
 - [[projects/leviathan-current/packet-11-deeper-nuance-attribution-pack-intake-2026-06-19]]
 - [[projects/leviathan-current/packet-14-pasted-fep-atlas-and-leviathan-boundary-intake-2026-06-19]]
+- [[projects/leviathan-current/packet-15-wizard-multi-model-council-audit-2026-06-19]]
 - [[specs/leviathan-current/README]]
 
 ## Source mode

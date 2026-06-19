@@ -25,7 +25,7 @@ sophisticated inference:
   what will I believe after I act, observe, update, and plan again?
 ```
 
-That is a strong external neighbor for Leviathan's world-model, reconciler, graph/context, and policy/control directions.
+That is a useful external comparison lane for Leviathan's world-model, reconciler, graph/context, and policy/control directions.
 
 ## Crosswalk
 
@@ -60,5 +60,8 @@ Do not use sophisticated inference to claim:
 
 - [[projects/leviathan-current/world-model-reconciler-fep-support-2026-06-19]]
 - [[projects/leviathan-current/leviathan-validation-experiments-backlog-2026-06-19]]
+- [[projects/leviathan-current/packet-14-pasted-fep-atlas-and-leviathan-boundary-intake-2026-06-19]]
+- [[projects/leviathan-current/leviathan-claim-ceilings-2026-06-19]]
+- [[projects/leviathan-current/provenance-status-guardrails-2026-06-19]]
 - [[sophisticated-inference-active-inference]]
 - [[belief-state-tree-search-and-finite-horizons]]

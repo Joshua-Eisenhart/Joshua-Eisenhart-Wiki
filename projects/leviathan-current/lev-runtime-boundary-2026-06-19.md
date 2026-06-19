@@ -51,6 +51,9 @@ Leviathan is strongest as a runtime-boundary discipline: explicit policy, explic
 ## Read Next
 
 - [[projects/leviathan-current/leviathan-fep-runtime-boundary-2026-06-19]]
+- [[projects/leviathan-current/packet-14-pasted-fep-atlas-and-leviathan-boundary-intake-2026-06-19]]
 - [[projects/leviathan-current/proof-backed-status-dashboard]]
+- [[projects/leviathan-current/leviathan-claim-ceilings-2026-06-19]]
+- [[projects/leviathan-current/provenance-status-guardrails-2026-06-19]]
 - [[projects/leviathan-current/exec-poly-daemon-package-posture-v4-2026-06-19]]
 - [[projects/leviathan-current/release-readiness-ladder-v4-2026-06-19]]

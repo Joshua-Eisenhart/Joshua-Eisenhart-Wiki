@@ -59,9 +59,9 @@ This pass creates the missing Leviathan-facing split pages:
 
 ## Accepted Claims
 
-- Leviathan is best documented as a serious pre-release agent-human runtime with explicit policy/control, state/context, event/audit, execution, package/plugin, and surface boundaries.
+- Leviathan is best documented as a source-backed, pre-release agent-human runtime project with explicit policy/control, state/context, event/audit, execution, package/plugin, and surface boundaries. This is a wiki/source characterization, not release or runtime-health proof.
 - FEP and active inference are useful formal neighbors for policy, belief-state planning, world-model/reconciler, prediction-first, and uncertainty-reduction language.
-- Codex Ratchet and Leviathan must stay adjacent but separate: Ratchet is Joshua's constraint-admissibility research system; Leviathan is JP Smith's runtime implementation lane hosting related constraint doctrine and surfaces.
+- Codex Ratchet and Leviathan must stay adjacent but separate: Ratchet is Joshua's constraint-admissibility research system; Leviathan is JP Smith's Leviathan repository/runtime lane hosting related constraint doctrine and surfaces. That wording is provenance-bounded, not a full implementation-authorship proof.
 
 ## Rejected Collapses
 
@@ -76,3 +76,7 @@ This pass creates the missing Leviathan-facing split pages:
 ## Safe Next Use
 
 Use this packet as a router for page discovery and claim ceilings. Any stronger Leviathan current-state claim still requires current raw/API reads or a clean-clone proof packet with commit SHA, clean status, command outputs, and an updated proof dashboard.
+
+## Council Follow-Up
+
+The follow-up multi-model council audit for this packet is [[projects/leviathan-current/packet-15-wizard-multi-model-council-audit-2026-06-19]]. Use that receipt for the 2026-06-19 wording cooldown and WebUI discoverability corrections.

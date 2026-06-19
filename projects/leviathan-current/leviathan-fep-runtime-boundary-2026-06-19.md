@@ -32,9 +32,9 @@ The defensible connection lives around:
 | Leviathan surface | Nearest FEP / active-inference neighbor | Fit | Safe wording |
 |---|---|---|---|
 | FlowMind | policy/prior/control boundary | partial | FEP-adjacent as policy/control language, not formal active-inference proof |
-| Graph/context/memory | belief state, latent context, sufficient state | stronger | closest public bridge to belief-state language |
+| Graph/context/memory | belief state, latent context, sufficient state | conceptual fit | closest public bridge to belief-state language, not proof of implemented inference |
 | Event Bus | observation/action trace and replay substrate | partial | compatible with inference workflows, not FEP evidence by itself |
-| World-model/reconciler | predictive model, belief-state planning, uncertainty reduction | partial to strong | best future proof target, implementation status explicit |
+| World-model/reconciler | predictive model, belief-state planning, uncertainty reduction | future validation target | most plausible wiki lane for future proof work, with implementation status explicit |
 | AgentPing / human loop | sensing/action and escalation surface | weak to partial | observation/action surface, not active-inference proof |
 | QIT / Holodeck / Axis0 | no direct FEP proof | weak | adjacent Ratchet/concept research unless Lev sources prove runtime use |
 | Wizard / receipts | epistemic bookkeeping | weak | Ratchet/wiki process discipline, not Lev runtime primitive unless sourced |
@@ -59,5 +59,8 @@ FEP, active inference, and sophisticated inference are useful formal neighbors f
 
 - [[projects/leviathan-current/sophisticated-inference-and-leviathan-2026-06-19]]
 - [[projects/leviathan-current/world-model-reconciler-fep-support-2026-06-19]]
+- [[projects/leviathan-current/packet-14-pasted-fep-atlas-and-leviathan-boundary-intake-2026-06-19]]
+- [[projects/leviathan-current/leviathan-claim-ceilings-2026-06-19]]
+- [[projects/leviathan-current/provenance-status-guardrails-2026-06-19]]
 - [[fep-research-atlas-and-crosswalk]]
 - [[fep-critique-and-assumption-ledger]]

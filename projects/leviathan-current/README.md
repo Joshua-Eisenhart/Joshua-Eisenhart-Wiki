@@ -44,7 +44,32 @@ Observed from current repo docs: Lev is an open runtime for agent-human systems:
 
 The active repo docs describe the foundation as real but still being hardened. They explicitly say the universal context graph is not fully landed, the system is not enterprise-ready, and architecture is ahead of some implementation areas.
 
-Current source reset: [[specs/leviathan-current/README]], [[projects/leviathan-current/proof-backed-status-dashboard]], [[projects/leviathan-current/nuanced-assessment-and-josh-provenance-2026-06-19]], [[projects/leviathan-current/packet-11-deeper-nuance-attribution-pack-intake-2026-06-19]], [[projects/leviathan-current/packet-12-pasted-deep-research-truth-provenance-intake-2026-06-19]], [[projects/leviathan-current/packet-13-pasted-fep-runtime-boundary-audit-intake-2026-06-19]], [[projects/leviathan-current/packet-14-pasted-fep-atlas-and-leviathan-boundary-intake-2026-06-19]], [[projects/leviathan-current/codex-imports/v3-deep-repo-nuance-bundle-2026-06-19]], and [[projects/leviathan-current/codex-imports/v4-cross-issues-deep-dive-2026-06-19]] are now the highest-priority current source-routing pages. The latest fresh 2026-06-19 remote/clone check is `5dd98ac4ce7afeb9e4351787179c60208de6d23f`. The older clean-clone audit at [[projects/leviathan-current/deep-audit-current-snapshot-2026-06-18]] remains valid for its `c90ec...` snapshot and for demoting damaged-checkout conflict-marker claims.
+Current source/proof routers:
+
+- [[specs/leviathan-current/README]]
+- [[projects/leviathan-current/proof-backed-status-dashboard]]
+- [[projects/leviathan-current/nuanced-assessment-and-josh-provenance-2026-06-19]]
+
+Advisory intake and source-synthesis routers:
+
+- [[projects/leviathan-current/packet-11-deeper-nuance-attribution-pack-intake-2026-06-19]]
+- [[projects/leviathan-current/packet-12-pasted-deep-research-truth-provenance-intake-2026-06-19]]
+- [[projects/leviathan-current/packet-13-pasted-fep-runtime-boundary-audit-intake-2026-06-19]]
+- [[projects/leviathan-current/packet-14-pasted-fep-atlas-and-leviathan-boundary-intake-2026-06-19]]
+- [[projects/leviathan-current/packet-15-wizard-multi-model-council-audit-2026-06-19]]
+- [[projects/leviathan-current/codex-imports/v3-deep-repo-nuance-bundle-2026-06-19]]
+- [[projects/leviathan-current/codex-imports/v4-cross-issues-deep-dive-2026-06-19]]
+
+The latest fresh 2026-06-19 remote/clone check is `5dd98ac4ce7afeb9e4351787179c60208de6d23f`. The older clean-clone audit at [[projects/leviathan-current/deep-audit-current-snapshot-2026-06-18]] remains valid for its `c90ec...` snapshot and for demoting damaged-checkout conflict-marker claims.
+
+## Best First Clicks
+
+- [[projects/leviathan-current/read-first]]
+- [[projects/leviathan-current/current-state-and-roadmap]]
+- [[projects/leviathan-current/proof-backed-status-dashboard]]
+- [[projects/leviathan-current/read-order-by-intent-2026-06-18]]
+- [[projects/leviathan-current/packet-8-wizard-mass-swarm-receipt-2026-06-18]]
+- [[projects/leviathan-current/packet-15-wizard-multi-model-council-audit-2026-06-19]]
 
 ## Source mode
 
@@ -93,6 +118,7 @@ For this project, read current repo sources before chat-derived or legacy materi
 - `packet-12-pasted-deep-research-truth-provenance-intake-2026-06-19.md` — pass-with-cautions intake for the pasted deep-research truth/provenance report; reinforces the current boundary and incompleteness posture without adding runtime proof.
 - `packet-13-pasted-fep-runtime-boundary-audit-intake-2026-06-19.md` — pass-with-cautions intake for the pasted Leviathan/FEP runtime-boundary audit; routes active-inference and world-model support without adding implementation proof.
 - `packet-14-pasted-fep-atlas-and-leviathan-boundary-intake-2026-06-19.md` — pass-with-cautions intake for the pasted FEP atlas correction and Leviathan boundary audit; routes FEP through the existing concept atlas and adds Leviathan-specific boundary split pages without adding runtime proof.
+- `packet-15-wizard-multi-model-council-audit-2026-06-19.md` — multi-model council receipt and correction patch for Packet 14/FEP split pages; route/correction evidence only.
 - `codex-imports/v3-deep-repo-nuance-bundle-2026-06-19.md` — branch-imported V3 deep-repo nuance bundle and page-split plan; source synthesis only, not runtime proof or maintainer acceptance.
 - `codex-imports/v4-cross-issues-deep-dive-2026-06-19.md` — branch-imported V4 cross-issues bundle and page-split plan; source synthesis only, not runtime proof, product readiness, or maintainer acceptance.
 - `josh-jp-attribution-boundary-v2-2026-06-19.md` — owner-corrected attribution boundary: Ratchet does not come from Leviathan; original Wizard idea credited to JP Smith per Josh.
@@ -195,7 +221,7 @@ Packet 10 note: the ZIP is useful as an upgrade plan, but it carried `c90ec...` 
 - `packet-11-deeper-nuance-attribution-pack-intake-2026-06-19.md` — intake page for `/Users/joshuaeisenhart/Desktop/deep-research-report (1).md` and `/Users/joshuaeisenhart/Desktop/leviathan_os_deeper_nuance_attribution_pack_2026-06-19.zip`.
 - `owner-correction-receipt-2026-06-19.md` — owner correction for Josh/Joshua/Codex Ratchet identity and no-Ratchet-from-Lev boundary.
 - `josh-jp-attribution-boundary-v2-2026-06-19.md` — attribution boundary table.
-- `leviathan-strengths-weaknesses-delusion-audit-2026-06-19.md` — serious pre-release runtime assessment with overclaim risks.
+- `leviathan-strengths-weaknesses-delusion-audit-2026-06-19.md` — source-backed pre-release runtime-project assessment with overclaim risks.
 - `unmergeable-claims-register-2026-06-19.md` and `source-audit-queue-v2-2026-06-19.md` — claims that must stay split or be source-audited before stronger use.
 
 Packet 11 note: this addendum is owner-correction and wiki attribution routing. It is not runtime proof and not implementation-authorship proof.
@@ -224,6 +250,12 @@ Packet 13 note: the audit is useful for FEP/active-inference and world-model bou
 - `provenance-status-guardrails-2026-06-19.md` — provenance status labels for verified, user-provided, source-signal, unspecified, disputed, and rejected claims.
 
 Packet 14 note: the FEP concept atlas already existed. This packet only adds the Leviathan-facing split and keeps all pages below runtime proof.
+
+### Packet 15 — multi-model council audit and correction
+
+- `packet-15-wizard-multi-model-council-audit-2026-06-19.md` — receipt for a bounded Wizard-style council over Packet 14, the FEP split pages, root/project discoverability, and Codex Ratchet provenance boundaries.
+
+Packet 15 note: four Codex-native model lanes completed. Claude Sonnet, Gemini, and Ollama lanes were attempted but blocked by authentication/runtime availability. The packet records corrections to wording and navigation only; it is not a full Wizard Max Assembly proof, Leviathan runtime proof, FEP implementation proof, release certification, or Codex Ratchet proof.
 
 ### V3 branch import bundle
 

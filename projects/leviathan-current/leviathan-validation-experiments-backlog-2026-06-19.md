@@ -52,6 +52,8 @@ No experiment becomes a wiki proof claim until it records:
 ## Read Next
 
 - [[projects/leviathan-current/proof-backed-status-dashboard]]
+- [[projects/leviathan-current/packet-14-pasted-fep-atlas-and-leviathan-boundary-intake-2026-06-19]]
+- [[projects/leviathan-current/leviathan-claim-ceilings-2026-06-19]]
 - [[projects/leviathan-current/world-model-reconciler-fep-support-2026-06-19]]
 - [[projects/leviathan-current/security-gate-stack-v4-2026-06-19]]
 - [[active-inference-benchmark-fixtures]]

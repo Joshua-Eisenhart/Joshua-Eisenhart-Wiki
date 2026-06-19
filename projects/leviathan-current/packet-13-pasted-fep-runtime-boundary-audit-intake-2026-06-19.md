@@ -110,4 +110,4 @@ The pasted audit's experiment list is useful as a proof backlog:
 
 ## Safe Summary
 
-Leviathan is best described as a serious, pre-release agent-human runtime whose strongest supported shape is explicit policy, context/state, event/audit, execution, and surface discipline. FEP, active inference, sophisticated inference, and world-model literature are useful formal neighbors for some of that architecture. They are not proof that Leviathan implements active inference, proof that Codex Ratchet is a Leviathan layer, or proof that QIT/world-engine language is runtime fact.
+Leviathan is best described as a source-backed, pre-release agent-human runtime project whose strongest supported shape is explicit policy, context/state, event/audit, execution, and surface discipline. FEP, active inference, sophisticated inference, and world-model literature are useful formal neighbors for some of that architecture. They are not proof that Leviathan implements active inference, proof that Codex Ratchet is a Leviathan layer, or proof that QIT/world-engine language is runtime fact.

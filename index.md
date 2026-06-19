@@ -101,12 +101,21 @@ Total published pages: 456. Governance/read-first surfaces are listed separately
 - [[projects/leviathan-current/index]] — human-facing table of contents for the actual Leviathan wiki pages
 - [[projects/leviathan-current/read-first]] — current Leviathan project front door for repo-current wiki ingestion, Josh/JP provenance split, and authority order
 - [[projects/leviathan-current/README]] — current Leviathan wiki project scaffold and page router
+- [[projects/leviathan-current/proof-backed-status-dashboard]] — current source-doc split and proof-routing dashboard; not release proof
+- [[projects/leviathan-current/read-order-by-intent-2026-06-18]] — task/persona read order for the huge mixed Leviathan repo/wiki surface
+- [[projects/leviathan-current/packet-8-wizard-mass-swarm-receipt-2026-06-18]] — earlier Wizard mass-swarm cleanup receipt; route/object boundary only
 - [[projects/leviathan-current/packet-11-deeper-nuance-attribution-pack-intake-2026-06-19]] — pass-with-cautions intake for the deeper nuance/attribution addendum; sharpens no-Ratchet-from-Lev and Wizard-origin provenance boundaries
 - [[projects/leviathan-current/packet-12-pasted-deep-research-truth-provenance-intake-2026-06-19]] — pass-with-cautions intake for the pasted Leviathan truth/provenance report; reinforces runtime-first incompleteness and Josh/JP boundary discipline without fresh runtime proof
 - [[projects/leviathan-current/packet-13-pasted-fep-runtime-boundary-audit-intake-2026-06-19]] — pass-with-cautions intake for the pasted Leviathan/FEP runtime-boundary audit; routes active-inference and world-model pressure without making Leviathan an implemented FEP runtime
 - [[projects/leviathan-current/packet-14-pasted-fep-atlas-and-leviathan-boundary-intake-2026-06-19]] — pass-with-cautions intake for the latest pasted FEP atlas correction and Leviathan boundary audit; routes FEP through the concept atlas and adds Leviathan-specific split pages
+- [[projects/leviathan-current/packet-15-wizard-multi-model-council-audit-2026-06-19]] — actual multi-model council audit receipt for Packet 14/FEP split pages; four Codex model lanes completed, Claude/Gemini/Ollama lanes blocked by runtime/auth
+- [[projects/leviathan-current/lev-runtime-boundary-2026-06-19]] — Leviathan runtime-boundary page: policy/control, orchestration/execution, graph/context, event/audit, package/surface, and human-loop boundaries
 - [[projects/leviathan-current/leviathan-fep-runtime-boundary-2026-06-19]] — Leviathan/FEP runtime boundary page: FEP and active inference are formal neighbors, not implementation proof
+- [[projects/leviathan-current/sophisticated-inference-and-leviathan-2026-06-19]] — sophisticated-inference comparison lane for belief-state planning and reconciler questions
 - [[projects/leviathan-current/world-model-reconciler-fep-support-2026-06-19]] — world-model/reconciler support map and future proof backlog; no production FEP runtime claim
+- [[projects/leviathan-current/leviathan-claim-ceilings-2026-06-19]] — wording ladder for narrative, provenance, contract, package, source, test, proof, product, and release claims
+- [[projects/leviathan-current/leviathan-validation-experiments-backlog-2026-06-19]] — validation experiment backlog; proposal-only, no experiments run
+- [[projects/leviathan-current/provenance-status-guardrails-2026-06-19]] — provenance labels and guardrails for Josh/JP/Ratchet/Wizard claims
 - [[projects/leviathan-current/codex-imports/v3-deep-repo-nuance-bundle-2026-06-19]] — branch-imported V3 deep-repo nuance bundle for Leviathan subsystem, weakness/strength, FlowMind, F01/N01, plugin, world-model, and Josh/JP attribution split planning; source synthesis only, not runtime proof
 - [[projects/leviathan-current/codex-imports/v4-cross-issues-deep-dive-2026-06-19]] — branch-imported V4 cross-issues deep dive for docs/status drift, AGENTS operating-contract risk, package/app/DX/security/plugin posture, surfaces, enterprise readiness, and moat/adoption proof; source synthesis only, not runtime proof
 - [[projects/leviathan-current/release-readiness-ladder-v4-2026-06-19]] — V4 split-page router for claim rungs, docs/status drift, package/app/DX/security/plugin posture, surfaces, enterprise readiness, moat/adoption proof, and release readiness; source synthesis only

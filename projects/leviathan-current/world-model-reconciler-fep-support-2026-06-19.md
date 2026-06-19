@@ -15,7 +15,7 @@ sources:
 
 # World Model Reconciler FEP Support
 
-The world-model/reconciler lane is the best place to connect Leviathan to FEP, active inference, and sophisticated inference. It is also one of the easiest places to overclaim.
+The world-model/reconciler lane is the most plausible current wiki lane for connecting Leviathan to FEP, active inference, and sophisticated inference. It is also one of the easiest places to overclaim.
 
 ## Current Wiki Boundary
 
@@ -54,5 +54,8 @@ World-model and reconciler surfaces are the most plausible Leviathan location fo
 
 - [[projects/leviathan-current/sophisticated-inference-and-leviathan-2026-06-19]]
 - [[projects/leviathan-current/leviathan-validation-experiments-backlog-2026-06-19]]
+- [[projects/leviathan-current/packet-14-pasted-fep-atlas-and-leviathan-boundary-intake-2026-06-19]]
+- [[projects/leviathan-current/leviathan-claim-ceilings-2026-06-19]]
+- [[projects/leviathan-current/provenance-status-guardrails-2026-06-19]]
 - [[prediction-first-processing-and-holodeck-memory]]
 - [[active-inference-benchmark-fixtures]]

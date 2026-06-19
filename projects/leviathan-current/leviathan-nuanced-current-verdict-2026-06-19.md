@@ -9,7 +9,7 @@ claim_ceiling: wiki synthesis; not build/test proof
 
 ## The useful frame
 
-Leviathan is not fake. Leviathan is not finished. Leviathan is a serious pre-release runtime whose architecture is ahead of its proof surface.
+Leviathan is not fake. Leviathan is not finished. Leviathan is a source-backed pre-release runtime project whose architecture is ahead of its proof surface.
 
 ## What it really is
 
@@ -35,5 +35,5 @@ A runtime project trying to move agents from chat into governed execution surfac
 ## Best one-paragraph wiki language
 
 ```text
-Lev / Leviathan is a pre-release open runtime for agent-human systems. Its strong claim is architectural: agents should act through governed surfaces, explicit policy, graph/context state, auditable events, execution boundaries, and human-loop authority surfaces. The repository and wiki show many real source-backed surfaces, but current proof remains split: named SDK/Poly surfaces are stronger than default daemon/testing/event-dispatch proof, and enterprise/product readiness remains open. Leviathan can express Josh/Ratchet-aligned constraint ideas, but Codex Ratchet does not derive from Leviathan.
+Lev / Leviathan is a pre-release open runtime project for agent-human systems. Its strongest safe claim is architectural/source-backed: agents should act through governed surfaces, explicit policy, graph/context state, auditable events, execution boundaries, and human-loop authority surfaces. The repository and wiki show many real source-backed surfaces, but current proof remains split: named SDK/Poly surfaces have stronger receipts than default daemon/testing/event-dispatch proof, and enterprise/product readiness remains open. Leviathan can express Josh/Ratchet-aligned constraint ideas, but Codex Ratchet does not derive from Leviathan.
 ```

@@ -32,7 +32,7 @@ When provenance is unclear, say "unspecified." Do not launder a likely story int
 
 - Codex Ratchet does not come from Leviathan.
 - Convergent Ratchet-side material should be treated as Joshua-origin unless direct contrary evidence exists.
-- JP Smith is credited with the original Wizard idea per Josh.
+- JP Smith is credited with the original Wizard idea per Josh; this is `user-provided` unless a separate source artifact is attached.
 - Current Wizard packet lineage is separate from the original idea provenance.
 - Leviathan can host Joshua constraint/QIT material without becoming Codex Ratchet.
 - Josh-associated artifacts inside Leviathan are not proof of total architecture authorship.
@@ -61,3 +61,4 @@ unsafe_promotions:
 - [[projects/leviathan-current/no-ratchet-from-leviathan-policy]]
 - [[projects/leviathan-current/wizard-origin-provenance-note-2026-06-19]]
 - [[projects/leviathan-current/leviathan-claim-ceilings-2026-06-19]]
+- [[projects/leviathan-current/packet-14-pasted-fep-atlas-and-leviathan-boundary-intake-2026-06-19]]
