@@ -1,3 +1,10 @@
+## 2026-06-19 - Pasted Leviathan and Codex Ratchet research intake receipts
+
+- Added [[projects/leviathan-current/packet-12-pasted-deep-research-truth-provenance-intake-2026-06-19]] for the pasted Leviathan truth/provenance report. Accepted it as advisory pressure for runtime-first wording, incompleteness, delusion-risk fencing, and Josh/JP attribution boundaries; rejected non-portable citations and public-only assumptions as direct wiki authority.
+- Added [[projects/codex-ratchet/repo-to-wiki-research-assessment-intake-2026-06-19]] for the pasted Codex Ratchet repo-to-wiki report. Accepted authority/version-map and backlog pressure; rejected report prose as sim evidence, repo authority, or canon promotion.
+- Patched [[projects/leviathan-current/read-first]], [[projects/leviathan-current/README]], [[projects/codex-ratchet/read-first]], [[projects/codex-ratchet/wiki-upgrade-bundle-index-2026-06-19]], [[projects/codex-ratchet/wiki-intake-backlog-2026-06-19]], and [[index]] so the receipts are findable without raw JSON/blob import.
+- Claim ceiling: external-research intake and wiki routing only; no Leviathan runtime proof, no Codex Ratchet sim admission, no `M(C)`, QIT-engine, Axis0, bridge, physics, layer completion, full Wizard success, or authorship proof.
+
 
 ## 2026-06-17 - Prompt-memory provenance ledger tranche 003 for intent and clarifications
 

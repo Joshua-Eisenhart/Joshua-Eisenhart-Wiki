@@ -13,6 +13,7 @@ Total published pages: 440. Governance/read-first surfaces are listed separately
 - [[projects/codex-ratchet/cocoindex-and-bloat-cleanup-policy-2026-06-17]] — current CocoIndex + bloat cleanup policy for wiki/repo LLM findability: local indexes are semantic maps, generated JSON stays exact-read evidence, and large result artifacts require manifest/checksum/restore before archive or compression
 - [[projects/codex-ratchet/read-first]] — Codex Ratchet project front door after Hermes spine
 - [[projects/codex-ratchet/wiki-upgrade-pack-intake-2026-06-19]] — pass-with-cautions intake for the Codex Ratchet deep-research report and wiki-upgrade ZIP; adds compact routers/spec mirrors/templates without promoting repo evidence
+- [[projects/codex-ratchet/repo-to-wiki-research-assessment-intake-2026-06-19]] — pass-with-cautions intake for the pasted Codex Ratchet repo-to-wiki research assessment; routes useful backlog/front-door pressure without promoting repo evidence
 - [[projects/codex-ratchet/front-door-slim-load-order-2026-06-19]] — compact Codex Ratchet load-order card for repo authority, spec mirrors, claim ceilings, and task-specific routers
 - [[specs/codex-ratchet/process-contract-refresh-mirror-2026-06-19]] — 2026-06-19 repo-authority/spec refresh card for `AGENTS.md`, process docs, sim Full Wizard runbook shape, and no-promotion mirror boundaries
 - [[projects/codex-ratchet/repo-current-surface-ingest-2026-06-17]] — bounded repo-to-wiki intake/router for current v7/base-floor/carrier/contextuality/ring-checkerboard/QCA/Hopfield surfaces; preserves weak quotient first, open forced-vs-installed, nonclassical-not-rho-specific, low-rank-not-carrier, and scratch/no-promotion ceilings
@@ -98,6 +99,7 @@ Total published pages: 440. Governance/read-first surfaces are listed separately
 - [[projects/leviathan-current/read-first]] — current Leviathan project front door for repo-current wiki ingestion, Josh/JP provenance split, and authority order
 - [[projects/leviathan-current/README]] — current Leviathan wiki project scaffold and page router
 - [[projects/leviathan-current/packet-11-deeper-nuance-attribution-pack-intake-2026-06-19]] — pass-with-cautions intake for the deeper nuance/attribution addendum; sharpens no-Ratchet-from-Lev and Wizard-origin provenance boundaries
+- [[projects/leviathan-current/packet-12-pasted-deep-research-truth-provenance-intake-2026-06-19]] — pass-with-cautions intake for the pasted Leviathan truth/provenance report; reinforces runtime-first incompleteness and Josh/JP boundary discipline without fresh runtime proof
 - [[projects/leviathan-current/josh-jp-attribution-boundary-v2-2026-06-19]] — owner-corrected Josh/JP attribution boundary and unsafe-claim table
 - [[projects/leviathan-current/no-ratchet-from-leviathan-policy]] — policy note preventing Codex Ratchet from being framed as derived from Leviathan
 - [[projects/leviathan-current/source-inventory-2026-06-17]] — first current repo inventory for `lev-os/leviathan`: file counts, authority surfaces, package/workspace files, and chat/transcript candidates

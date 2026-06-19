@@ -96,18 +96,19 @@ Remote `main` observed on 2026-06-19 after the next processing pass: `5dd98ac4ce
 15. [[projects/leviathan-current/packet-11-deeper-nuance-attribution-pack-intake-2026-06-19]].
 16. [[projects/leviathan-current/josh-jp-attribution-boundary-v2-2026-06-19]].
 17. [[projects/leviathan-current/no-ratchet-from-leviathan-policy]].
-18. [[projects/leviathan-current/codex-ratchet-vs-leviathan-boundary]].
-19. [[projects/leviathan-current/current-state-and-roadmap]].
-20. [[projects/leviathan-current/architecture-planes-and-ownership]].
-21. [[projects/leviathan-current/contract-surface-map]].
-22. [[projects/leviathan-current/deep-audit-current-snapshot-2026-06-18]] as the older clean-clone audit at `c90ec...`.
-23. [[projects/leviathan-current/repo-current-vs-wiki-drift-audit-2026-06-18]].
-24. [[projects/leviathan-current/concept-atlas-current-2026-06-18]].
-25. [[projects/leviathan-current/evidence-frontier-and-blockers-dashboard-2026-06-18]].
-26. [[projects/leviathan-current/proof-audit-roadmap-vs-mvp-2026-06-18]].
-27. [[projects/leviathan-current/read-order-by-intent-2026-06-18]].
-28. `source-inventory-2026-06-17.md` here as a historical local snapshot.
-29. Chat/transcript candidates only after provenance classification.
+18. [[projects/leviathan-current/packet-12-pasted-deep-research-truth-provenance-intake-2026-06-19]].
+19. [[projects/leviathan-current/codex-ratchet-vs-leviathan-boundary]].
+20. [[projects/leviathan-current/current-state-and-roadmap]].
+21. [[projects/leviathan-current/architecture-planes-and-ownership]].
+22. [[projects/leviathan-current/contract-surface-map]].
+23. [[projects/leviathan-current/deep-audit-current-snapshot-2026-06-18]] as the older clean-clone audit at `c90ec...`.
+24. [[projects/leviathan-current/repo-current-vs-wiki-drift-audit-2026-06-18]].
+25. [[projects/leviathan-current/concept-atlas-current-2026-06-18]].
+26. [[projects/leviathan-current/evidence-frontier-and-blockers-dashboard-2026-06-18]].
+27. [[projects/leviathan-current/proof-audit-roadmap-vs-mvp-2026-06-18]].
+28. [[projects/leviathan-current/read-order-by-intent-2026-06-18]].
+29. `source-inventory-2026-06-17.md` here as a historical local snapshot.
+30. Chat/transcript candidates only after provenance classification.
 
 ## Current status
 
@@ -132,6 +133,7 @@ Remote `main` observed on 2026-06-19 after the next processing pass: `5dd98ac4ce
 - Current stale external report intake: [[projects/leviathan-current/packet-9-external-upgrade-report-intake-2026-06-18]].
 - Current deep-research/ZIP upgrade-pack intake: [[projects/leviathan-current/packet-10-deep-research-upgrade-pack-intake-2026-06-19]].
 - Current deeper nuance/attribution addendum intake: [[projects/leviathan-current/packet-11-deeper-nuance-attribution-pack-intake-2026-06-19]].
+- Current pasted deep-research truth/provenance intake: [[projects/leviathan-current/packet-12-pasted-deep-research-truth-provenance-intake-2026-06-19]]. Advisory/pass-with-cautions only; reinforces runtime-first wording, incompleteness, and Josh/JP boundaries, while non-portable citations and public-only assumptions block direct promotion.
 - Current proof status dashboard: [[projects/leviathan-current/proof-backed-status-dashboard]].
 - Current nuanced assessment / Josh provenance boundary: [[projects/leviathan-current/nuanced-assessment-and-josh-provenance-2026-06-19]].
 - Current owner correction / attribution boundary: [[projects/leviathan-current/josh-jp-attribution-boundary-v2-2026-06-19]], [[projects/leviathan-current/no-ratchet-from-leviathan-policy]], and [[projects/leviathan-current/wizard-origin-provenance-note-2026-06-19]].

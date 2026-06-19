@@ -34,6 +34,7 @@ sources:
 - `reports/WIKI_ASSESSMENT_AND_GAP_REPORT_2026-06-19.md`
 - `reports/SOURCE_EVIDENCE_NOTES_2026-06-19.md`
 - `reports/DROP_IN_INSTRUCTIONS_2026-06-19.md`
+- `projects/codex-ratchet/repo-to-wiki-research-assessment-intake-2026-06-19.md`
 
 ## Core project drop-ins
 

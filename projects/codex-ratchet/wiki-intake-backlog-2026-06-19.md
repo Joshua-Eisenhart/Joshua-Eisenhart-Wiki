@@ -37,6 +37,16 @@ These were explicitly licensed by the 2026-06-17 repo-current-surface ingest pat
 
 Draft versions are included in this ZIP.
 
+## Accepted-later lanes from pasted repo-to-wiki assessment
+
+These are backlog lanes only. Create them as small source-backed pages after current repo reads; do not promote report prose into repo status.
+
+- Bot/interface surfaces: Telegram, Discord, CLI, or other operational interfaces, with actual path and status evidence.
+- Safe-sim runbook: minimal sim commands, no broad queue relaunch, no stale-result promotion.
+- Portability/local-state page: machine-specific paths, reproducible setup, secrets boundaries, and generated estates.
+- Docs-drift guard: stale front-door counts, old status labels, and old validator wording.
+- Runtime/security hygiene page: local daemons, credentials, evidence snapshots, and what must stay private.
+
 ## Stale-page triage
 
 Use `wiki_drops/backlog/stale-page-checklist.md` before editing older pages. Main stale signals:
