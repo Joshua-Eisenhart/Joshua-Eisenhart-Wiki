@@ -1,7 +1,7 @@
 ---
 title: Wizard Universal Harness
 created: 2026-04-28
-updated: 2026-06-13
+updated: 2026-06-19
 packet: v4.3
 type: concept
 framing: current
@@ -44,6 +44,10 @@ Copying files is allowed. Adoption requires retuning.
 5. `packet-v4-3-current/WIZARD_v4_3.md`
 6. the active LLM's native adaptation folder
 7. older packets only when needed as source/provenance
+
+## Provenance Notes
+
+- [[wizard/wizard-origin-and-jp-smith-provenance]] — owner-confirmed starter note crediting JP Smith with the original Wizard idea. It is not a full lineage ledger for v4.1/v4.2/v4.3, MMM, taskcards, conformance files, or LLM adapters.
 
 ## Runtime-native adaptations
 

@@ -1,7 +1,7 @@
 ---
 title: Codex Ratchet Specs
 created: 2026-05-21
-updated: 2026-06-05
+updated: 2026-06-19
 type: index
 framing: current
 tags: [specs, codex-ratchet, repo-status, process]
@@ -62,6 +62,19 @@ This folder may mirror or summarize those surfaces, but it does not promote, adm
 
 - [[specs/codex-ratchet/concepts-migration-index|concepts-migration-index]] - migration map for pages currently sitting in `/concepts` that should become spec mirrors, snapshots, or historical pages.
 - [[specs/codex-ratchet/process-contract-mirror-index|process-contract-mirror-index]] - router for current repo process-contract mirrors and historical concept mirrors.
+- [[projects/codex-ratchet/wiki-upgrade-pack-intake-2026-06-19|wiki-upgrade-pack-intake-2026-06-19]] - pass-with-cautions receipt for the 2026-06-19 Codex Ratchet wiki-upgrade report and ZIP.
+
+## 2026-06-19 Refresh Cards
+
+- [[specs/codex-ratchet/repo-layout-current-mirror-2026-06-19|repo-layout-current-mirror-2026-06-19]]
+- [[specs/codex-ratchet/current-docs-map-mirror-2026-06-19|current-docs-map-mirror-2026-06-19]]
+- [[specs/codex-ratchet/process-contract-refresh-mirror-2026-06-19|process-contract-refresh-mirror-2026-06-19]]
+- [[specs/codex-ratchet/status-labels-crosswalk-2026-06-19|status-labels-crosswalk-2026-06-19]]
+- [[specs/codex-ratchet/sim-template-result-schema-mirror-2026-06-19|sim-template-result-schema-mirror-2026-06-19]]
+- [[specs/codex-ratchet/sim-full-wizard-parallel-runbook-mirror-2026-06-19|sim-full-wizard-parallel-runbook-mirror-2026-06-19]]
+- [[specs/codex-ratchet/formal-scout-and-sim-estate-snapshot-readme-2026-06-19|formal-scout-and-sim-estate-snapshot-readme-2026-06-19]]
+- [[specs/codex-ratchet/repo-indexing-and-bloat-policy-mirror-2026-06-19|repo-indexing-and-bloat-policy-mirror-2026-06-19]]
+- [[specs/codex-ratchet/tool-function-fanout-bank-2026-06-19|tool-function-fanout-bank-2026-06-19]]
 
 ## Status Mirrors
 

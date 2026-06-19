@@ -44,7 +44,7 @@ Observed from current repo docs: Lev is an open runtime for agent-human systems:
 
 The active repo docs describe the foundation as real but still being hardened. They explicitly say the universal context graph is not fully landed, the system is not enterprise-ready, and architecture is ahead of some implementation areas.
 
-Current source reset: [[specs/leviathan-current/README]], [[projects/leviathan-current/proof-backed-status-dashboard]], and [[projects/leviathan-current/nuanced-assessment-and-josh-provenance-2026-06-19]] are now the highest-priority current source-routing pages. The latest fresh 2026-06-19 remote/clone check is `5dd98ac4ce7afeb9e4351787179c60208de6d23f`. The older clean-clone audit at [[projects/leviathan-current/deep-audit-current-snapshot-2026-06-18]] remains valid for its `c90ec...` snapshot and for demoting damaged-checkout conflict-marker claims.
+Current source reset: [[specs/leviathan-current/README]], [[projects/leviathan-current/proof-backed-status-dashboard]], [[projects/leviathan-current/nuanced-assessment-and-josh-provenance-2026-06-19]], and [[projects/leviathan-current/packet-11-deeper-nuance-attribution-pack-intake-2026-06-19]] are now the highest-priority current source-routing pages. The latest fresh 2026-06-19 remote/clone check is `5dd98ac4ce7afeb9e4351787179c60208de6d23f`. The older clean-clone audit at [[projects/leviathan-current/deep-audit-current-snapshot-2026-06-18]] remains valid for its `c90ec...` snapshot and for demoting damaged-checkout conflict-marker claims.
 
 ## Source mode
 
@@ -89,6 +89,10 @@ For this project, read current repo sources before chat-derived or legacy materi
 - `proof-audit-roadmap-vs-mvp-2026-06-18.md` — clean-clone command proof audit for the `ROADMAP.md` vs `mvp.md` split.
 - `proof-backed-status-dashboard.md` — current `b7bca2cd` source-doc split and proof-routing dashboard.
 - `nuanced-assessment-and-josh-provenance-2026-06-19.md` — current `5dd98ac4` assessment of strengths, weaknesses, delusion/overclaim risk, and Joshua/JP provenance boundaries.
+- `packet-11-deeper-nuance-attribution-pack-intake-2026-06-19.md` — pass-with-cautions intake for the deeper nuance/attribution pack.
+- `josh-jp-attribution-boundary-v2-2026-06-19.md` — owner-corrected attribution boundary: Ratchet does not come from Leviathan; original Wizard idea credited to JP Smith per Josh.
+- `no-ratchet-from-leviathan-policy.md` — short policy page preventing Ratchet-from-Lev inversion.
+- `wizard-origin-provenance-note-2026-06-19.md` — project-local Wizard origin note.
 - `packet-10-deep-research-upgrade-pack-intake-2026-06-19.md` — intake receipt for the 2026-06-19 deep-research report and ZIP upgrade pack.
 - `specs/leviathan-current/README.md` — repo-facing mirror/source-authority router.
 - `read-order-by-intent-2026-06-18.md` — read order by task/persona for a huge mixed repo.
@@ -180,6 +184,16 @@ Packet 9 note: the report is useful as advisory packaging pressure but stale for
 - `specs/leviathan-current/README.md` — new repo-facing mirror policy page.
 
 Packet 10 note: the ZIP is useful as an upgrade plan, but it carried `c90ec...` while current remote `main` was `b7bca2cd`. Accepted changes were routed through current source checks, not blindly imported.
+
+### Packet 11 — deeper nuance and attribution addendum
+
+- `packet-11-deeper-nuance-attribution-pack-intake-2026-06-19.md` — intake page for `/Users/joshuaeisenhart/Desktop/deep-research-report (1).md` and `/Users/joshuaeisenhart/Desktop/leviathan_os_deeper_nuance_attribution_pack_2026-06-19.zip`.
+- `owner-correction-receipt-2026-06-19.md` — owner correction for Josh/Joshua/Codex Ratchet identity and no-Ratchet-from-Lev boundary.
+- `josh-jp-attribution-boundary-v2-2026-06-19.md` — attribution boundary table.
+- `leviathan-strengths-weaknesses-delusion-audit-2026-06-19.md` — serious pre-release runtime assessment with overclaim risks.
+- `unmergeable-claims-register-2026-06-19.md` and `source-audit-queue-v2-2026-06-19.md` — claims that must stay split or be source-audited before stronger use.
+
+Packet 11 note: this addendum is owner-correction and wiki attribution routing. It is not runtime proof and not implementation-authorship proof.
 
 ### Contribution / provenance / research / assessment starters
 

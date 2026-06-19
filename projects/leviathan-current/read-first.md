@@ -40,6 +40,7 @@ Current repo docs keep these planes separate:
 - Josh / Joshua Eisenhart: Codex Ratchet dev; supplied or shaped root constraints and the broader constraint-admissibility frame.
 - JP Smith: Lev / LevOS developer; owns the Leviathan repo and runtime implementation lane.
 - Leviathan contains many Josh ideas, but repo-current Lev is not the same object as Codex Ratchet.
+- Owner-correction addendum, 2026-06-19: [[projects/leviathan-current/packet-11-deeper-nuance-attribution-pack-intake-2026-06-19]], [[projects/leviathan-current/josh-jp-attribution-boundary-v2-2026-06-19]], and [[projects/leviathan-current/no-ratchet-from-leviathan-policy]] make the boundary sharper: Codex Ratchet is not derived from Leviathan; convergent Ratchet-side material should be treated as Josh-origin unless direct contrary evidence exists; the original Wizard idea is credited to JP Smith per Josh.
 
 Safe bridge statement:
 
@@ -92,18 +93,21 @@ Remote `main` observed on 2026-06-19 after the next processing pass: `5dd98ac4ce
 12. [[specs/leviathan-current/README]].
 13. [[projects/leviathan-current/proof-backed-status-dashboard]].
 14. [[projects/leviathan-current/nuanced-assessment-and-josh-provenance-2026-06-19]].
-15. [[projects/leviathan-current/codex-ratchet-vs-leviathan-boundary]].
-16. [[projects/leviathan-current/current-state-and-roadmap]].
-17. [[projects/leviathan-current/architecture-planes-and-ownership]].
-18. [[projects/leviathan-current/contract-surface-map]].
-19. [[projects/leviathan-current/deep-audit-current-snapshot-2026-06-18]] as the older clean-clone audit at `c90ec...`.
-20. [[projects/leviathan-current/repo-current-vs-wiki-drift-audit-2026-06-18]].
-21. [[projects/leviathan-current/concept-atlas-current-2026-06-18]].
-22. [[projects/leviathan-current/evidence-frontier-and-blockers-dashboard-2026-06-18]].
-23. [[projects/leviathan-current/proof-audit-roadmap-vs-mvp-2026-06-18]].
-24. [[projects/leviathan-current/read-order-by-intent-2026-06-18]].
-25. `source-inventory-2026-06-17.md` here as a historical local snapshot.
-26. Chat/transcript candidates only after provenance classification.
+15. [[projects/leviathan-current/packet-11-deeper-nuance-attribution-pack-intake-2026-06-19]].
+16. [[projects/leviathan-current/josh-jp-attribution-boundary-v2-2026-06-19]].
+17. [[projects/leviathan-current/no-ratchet-from-leviathan-policy]].
+18. [[projects/leviathan-current/codex-ratchet-vs-leviathan-boundary]].
+19. [[projects/leviathan-current/current-state-and-roadmap]].
+20. [[projects/leviathan-current/architecture-planes-and-ownership]].
+21. [[projects/leviathan-current/contract-surface-map]].
+22. [[projects/leviathan-current/deep-audit-current-snapshot-2026-06-18]] as the older clean-clone audit at `c90ec...`.
+23. [[projects/leviathan-current/repo-current-vs-wiki-drift-audit-2026-06-18]].
+24. [[projects/leviathan-current/concept-atlas-current-2026-06-18]].
+25. [[projects/leviathan-current/evidence-frontier-and-blockers-dashboard-2026-06-18]].
+26. [[projects/leviathan-current/proof-audit-roadmap-vs-mvp-2026-06-18]].
+27. [[projects/leviathan-current/read-order-by-intent-2026-06-18]].
+28. `source-inventory-2026-06-17.md` here as a historical local snapshot.
+29. Chat/transcript candidates only after provenance classification.
 
 ## Current status
 
@@ -127,8 +131,10 @@ Remote `main` observed on 2026-06-19 after the next processing pass: `5dd98ac4ce
 - Current Wizard mass-swarm receipt: [[projects/leviathan-current/packet-8-wizard-mass-swarm-receipt-2026-06-18]].
 - Current stale external report intake: [[projects/leviathan-current/packet-9-external-upgrade-report-intake-2026-06-18]].
 - Current deep-research/ZIP upgrade-pack intake: [[projects/leviathan-current/packet-10-deep-research-upgrade-pack-intake-2026-06-19]].
+- Current deeper nuance/attribution addendum intake: [[projects/leviathan-current/packet-11-deeper-nuance-attribution-pack-intake-2026-06-19]].
 - Current proof status dashboard: [[projects/leviathan-current/proof-backed-status-dashboard]].
 - Current nuanced assessment / Josh provenance boundary: [[projects/leviathan-current/nuanced-assessment-and-josh-provenance-2026-06-19]].
+- Current owner correction / attribution boundary: [[projects/leviathan-current/josh-jp-attribution-boundary-v2-2026-06-19]], [[projects/leviathan-current/no-ratchet-from-leviathan-policy]], and [[projects/leviathan-current/wizard-origin-provenance-note-2026-06-19]].
 - Current specs mirror/router: [[specs/leviathan-current/README]].
 - Current read-order guide: [[projects/leviathan-current/read-order-by-intent-2026-06-18]].
 - Important correction: old Packet 2 pages that say current Event Bus/build/TUI conflict markers block runtime health are now historical damaged-checkout findings. The clean snapshot at `c90ec8499c83db3d17f6132ec734698a8de2dbce` has no `<<<<<<<`/`>>>>>>>` scan hits. Runtime health is now mixed rather than untested: Packet 7 ran bounded install/build/test/gate commands in a disposable proof clone.
