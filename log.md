@@ -1,3 +1,10 @@
+## 2026-06-19 - Branch bundle intake for Codex Ratchet and Leviathan
+
+- Added branch-imported Markdown bundles from `origin/import/codex-ratchet-wiki-packs-2026-06-19` and `origin/leviathan-v3-info-import-2026-06-19` into `projects/codex-ratchet/deep-repo-extraction-pack-intake-2026-06-19.md` and `projects/leviathan-current/codex-imports/v3-deep-repo-nuance-bundle-2026-06-19.md`.
+- Patched root/project indexes and read-first/front-door pages so both bundles are browsable from the wiki without requiring the ZIP files. Added a Codex Ratchet split-backlog note rather than promoting the branch prose into proof.
+- Claim ceiling: source-processing, wiki routing, and split planning only; no Leviathan runtime proof, no Codex Ratchet sim admission, no `M(C)`, QIT-engine, Axis0, bridge, physics, layer completion, release certification, or maintainer acceptance.
+- Verification: `tools/wiki_probe.py --wiki-root /Users/joshuaeisenhart/wiki --output /tmp/wiki_probe_after_branch_intake_clean_20260619.json` returned `page_count=441`, `index_header_count=441`, `indexed_link_count=542`, and zero missing pages, orphans, broken links, stubs, malformed wikilinks, or stale namespace wikilinks. `git diff --check` passed. Secret scan over the two imported pages had no hits; overclaim scan hits were confined to the bundle's blocked/bad-claim examples and claim-ceiling text.
+
 ## 2026-06-19 - Sophisticated Inference external support page
 
 - Added [[sophisticated-inference-active-inference]] for arXiv:2006.04120, "Sophisticated Inference" by Friston, Da Costa, Hafner, Hesp, and Parr.

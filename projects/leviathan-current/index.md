@@ -21,11 +21,12 @@ Start with the current source split before reading older Packet 2 runtime pages:
 2. [[projects/leviathan-current/proof-backed-status-dashboard]] — current `ROADMAP.md` / `mvp.md` source split and proof-routing dashboard.
 3. [[projects/leviathan-current/nuanced-assessment-and-josh-provenance-2026-06-19]] — strengths, weaknesses, overclaim boundaries, and Joshua/JP provenance split.
 4. [[projects/leviathan-current/packet-11-deeper-nuance-attribution-pack-intake-2026-06-19]] — owner-correction and attribution addendum intake; not runtime proof.
-5. [[projects/leviathan-current/current-state-and-roadmap]] — current status synthesis that preserves the split instead of flattening it.
-6. [[projects/leviathan-current/deep-audit-current-snapshot-2026-06-18]] — older clean snapshot audit at `c90ec8499c83db3d17f6132ec734698a8de2dbce`.
-7. [[projects/leviathan-current/repo-current-vs-wiki-drift-audit-2026-06-18]] — what older wiki pages still say that is now historical damaged-checkout evidence, not current upstream truth.
-8. [[projects/leviathan-current/concept-atlas-current-2026-06-18]] — concept atlas with aliases, evidence levels, wiki targets, and claim ceilings.
-9. [[projects/leviathan-current/read-order-by-intent-2026-06-18]] — safer read order by task/persona for a massive mixed repo.
+5. [[projects/leviathan-current/codex-imports/v3-deep-repo-nuance-bundle-2026-06-19]] — branch-imported V3 deep-repo nuance bundle and split plan; source synthesis only.
+6. [[projects/leviathan-current/current-state-and-roadmap]] — current status synthesis that preserves the split instead of flattening it.
+7. [[projects/leviathan-current/deep-audit-current-snapshot-2026-06-18]] — older clean snapshot audit at `c90ec8499c83db3d17f6132ec734698a8de2dbce`.
+8. [[projects/leviathan-current/repo-current-vs-wiki-drift-audit-2026-06-18]] — what older wiki pages still say that is now historical damaged-checkout evidence, not current upstream truth.
+9. [[projects/leviathan-current/concept-atlas-current-2026-06-18]] — concept atlas with aliases, evidence levels, wiki targets, and claim ceilings.
+10. [[projects/leviathan-current/read-order-by-intent-2026-06-18]] — safer read order by task/persona for a massive mixed repo.
 
 ## Start here
 
@@ -64,6 +65,7 @@ Starter/earlier maps:
 - [[projects/leviathan-current/codex-ratchet-vs-leviathan-boundary]]
 - [[projects/leviathan-current/nuanced-assessment-and-josh-provenance-2026-06-19]]
 - [[projects/leviathan-current/packet-11-deeper-nuance-attribution-pack-intake-2026-06-19]]
+- [[projects/leviathan-current/codex-imports/v3-deep-repo-nuance-bundle-2026-06-19]]
 - [[projects/leviathan-current/owner-correction-receipt-2026-06-19]]
 - [[projects/leviathan-current/josh-jp-attribution-boundary-v2-2026-06-19]]
 - [[projects/leviathan-current/no-ratchet-from-leviathan-policy]]

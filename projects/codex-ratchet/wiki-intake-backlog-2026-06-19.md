@@ -47,6 +47,19 @@ These are backlog lanes only. Create them as small source-backed pages after cur
 - Docs-drift guard: stale front-door counts, old status labels, and old validator wording.
 - Runtime/security hygiene page: local daemons, credentials, evidence snapshots, and what must stay private.
 
+
+## Follow-up pages suggested by branch-imported deep repo extraction
+
+[[projects/codex-ratchet/deep-repo-extraction-pack-intake-2026-06-19]] preserves the import bundle in one readable page. Split it only after current repo reads, keeping every page at the same source-processing/no-promotion ceiling unless exact receipts earn more.
+
+Priority split lanes:
+
+- MSS / weakest-survivor rung discipline and open forks.
+- Quotient floor, forced-vs-installed carrier tests, and failed-predecessor redo requirements.
+- Fixed-cover contextuality, low-rank deflator/graveyard evidence, and carrier-type matrix boundaries.
+- Ring-checkerboard, QCA GNVW, Hopfield/QCA entropy, spinor quotient freedom, and survivor-running noncommutation fixtures.
+- v7 gate grounding, per-layer completeness boxes, and typed projection/entropy/co-ratchet fences.
+
 ## Stale-page triage
 
 Use `wiki_drops/backlog/stale-page-checklist.md` before editing older pages. Main stale signals:
