@@ -1,7 +1,7 @@
 ---
 title: Leviathan World Engine Memo
 created: 2026-04-12
-updated: 2026-05-21
+updated: 2026-06-19
 type: concept
 framing: conceptual_architecture_snapshot
 tags: [leviathan, world-engine, qit, holodeck, fep, architecture, developer]
@@ -30,6 +30,8 @@ The Leviathan World Engine is a CS-facing name for a candidate combined architec
 - QIT engines as nonclassical engine layer
 - the holodeck as internal world-model layer
 - an FEP-compatible adaptive loop as self-maintenance discipline
+
+External support note: [[sophisticated-inference-active-inference]] sharpens the belief-state planning side of this loop, but only as an analogy/reference; it is not Leviathan implementation proof.
 
 The goal is not to present a mystical or universal theory. The goal is to explain an architecture for bounded intelligence where lawful state, internal world construction, and strict process discipline live in one stack.
 

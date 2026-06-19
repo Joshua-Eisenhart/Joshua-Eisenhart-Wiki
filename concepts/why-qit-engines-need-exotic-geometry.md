@@ -1,7 +1,7 @@
 ---
 title: Why QIT Engines Need Exotic Geometry
 created: 2026-04-13
-updated: 2026-04-13
+updated: 2026-06-19
 type: concept
 framing: design_rationale
 tags: [reference, research, geometry, qit, architecture]
@@ -19,7 +19,7 @@ This page is a routing note for the idea that the engine cannot be adequately ex
 ## Core point
 The QIT-engine lane depends on nonclassical carrier/state geometry because admissibility, probe-relative identity, and lawful transforms are geometry-bearing rather than decorative add-ons.
 
-Boundary: this is design rationale, not current repo admission. Exact carrier, engine, and nonclassical bridge claims still require named receipts and the current spec-status surfaces.
+Boundary: this is design rationale, not current repo admission. Exact carrier, engine, and nonclassical bridge claims still require named receipts and the current spec-status surfaces. [[sophisticated-inference-active-inference]] is useful external support for belief-state search, but it does not prove the geometry requirement.
 
 ## Why it matters here
 This page exists so dev-facing and integration pages can point to one compact explanation rather than flattening the geometry requirement into a slogan.
@@ -30,3 +30,4 @@ This page exists so dev-facing and integration pages can point to one compact ex
 - [[quantum-geometry-fubini-study]]
 - [[holodeck-qit-fep-leviathan-integration]]
 - [[leviathan-world-engine-memo]]
+- [[sophisticated-inference-active-inference]]

@@ -1,7 +1,7 @@
 ---
 title: Prediction-First Memory vs LLM Memory
 created: 2026-04-13
-updated: 2026-04-13
+updated: 2026-06-19
 type: concept
 framing: current
 tags: [reference, research, memory, ai, architecture]
@@ -9,6 +9,7 @@ sources:
   - concepts/projective-holodeck-memory-model.md
   - concepts/holodeck-docs.md
   - concepts/fep-and-active-inference-reference.md
+  - concepts/sophisticated-inference-active-inference.md
 ---
 
 # Prediction-First Memory vs LLM Memory
@@ -89,6 +90,7 @@ Its answer is that transcript/RAG memory is too weak as the primary model. A pre
 ## Support-layer bridge
 Use [[research-support-bibliography]] when this comparison needs outside support rather than more holodeck-source repetition. The most relevant support route is:
 - [[fep-and-active-inference-reference]] for prediction-first update loops
+- [[sophisticated-inference-active-inference]] for recursive belief-state planning, epistemic affordance, and horizon-depth caveats
 - [[autopoiesis-and-enactivism-reference]] for persistent world-coupling language
 - [[operationalism-and-measurement-reference]] for why context and probe conditions belong inside the memory semantics
 - [[holodeck-as-recall-space]] for the world-structured recall subclaim that this page compares against transcript-first memory
@@ -115,6 +117,7 @@ This page is a current comparison/translation layer derived from [[projective-ho
 - [[leviathan-world-engine-memo]]
 - [[qit-engine-dev-technical-brief]]
 - [[fep-and-active-inference-reference]]
+- [[sophisticated-inference-active-inference]]
 - [[nominalist-cs-cluster]]
 
 ## Related pages

@@ -1,3 +1,10 @@
+## 2026-06-19 - Sophisticated Inference external support page
+
+- Added [[sophisticated-inference-active-inference]] for arXiv:2006.04120, "Sophisticated Inference" by Friston, Da Costa, Hafner, Hesp, and Parr.
+- Routed it as external support / analogy for active inference, expected free energy, belief-state tree search, epistemic affordance, planning-to-learn, and horizon-depth caveats.
+- Patched [[fep-and-active-inference-reference]], [[prediction-first-memory-vs-llm-memory]], [[holodeck-qit-fep-leviathan-integration]], [[leviathan-world-engine-memo]], and [[index]].
+- Claim ceiling: not Codex Ratchet proof, not Leviathan implementation proof, not QIT-engine, Axis0, bridge, physics, or manifold admission.
+
 ## 2026-06-19 - Pasted Leviathan and Codex Ratchet research intake receipts
 
 - Added [[projects/leviathan-current/packet-12-pasted-deep-research-truth-provenance-intake-2026-06-19]] for the pasted Leviathan truth/provenance report. Accepted it as advisory pressure for runtime-first wording, incompleteness, delusion-risk fencing, and Josh/JP attribution boundaries; rejected non-portable citations and public-only assumptions as direct wiki authority.

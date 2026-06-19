@@ -1,12 +1,13 @@
 ---
 title: Fep And Active Inference Reference
 created: 2026-04-07
-updated: 2026-04-11
+updated: 2026-06-19
 type: summary
 tags: [reference, research, system]
 sources:
   - raw/articles/new-docs/references/FEP_AND_ACTIVE_INFERENCE_REFERENCE.md
   - raw/articles/legacy-books/the-grandmaster-of-the-universe-copy.md
+  - https://arxiv.org/abs/2006.04120
 framing: mixed
 ---
 
@@ -81,12 +82,22 @@ So the safe bridge is: predictive error minimization and bounded state adaptatio
 - Useful as a direct source for the FEP / active-inference support lane and the relation between self-organization and information geometry.
 - Best fit pages: [[fep-and-active-inference-reference]], [[autopoiesis-and-enactivism-reference]], [[current-research-overlays]].
 
+## 2026-06-19 arXiv source addition
+
+### 2006.04120 — Sophisticated Inference
+
+- Adds a focused support source for recursive expected-free-energy planning over future belief states.
+- Best fit page: [[sophisticated-inference-active-inference]].
+- Safe use: belief-state planning, epistemic affordance, planning-to-learn, and horizon-depth caveats.
+- Boundary: external reference / analogy only; not proof of Codex Ratchet, Leviathan runtime, QIT-engine, Axis0, bridge, physics, or manifold claims.
+
 ## Cross-links to related support layers
 - [[autopoiesis-and-enactivism-reference]] for the enactive side of the debate
 - [[viability-theory-reference]] for the constraint-survival framing
 - [[distinguishability-formal-reference]] for the information-theoretic support layer
 - [[holodeck-as-recall-space]] for the recall-space interpretation of prediction-first perception and memory
 - [[prediction-first-memory-vs-llm-memory]] for the model-first memory translation
+- [[sophisticated-inference-active-inference]] for recursive belief-state planning and epistemic affordance support
 - [[current-research-overlays]] for routing into the broader support graph
 
 ## Legacy Foundational Overlay (Grandmaster)

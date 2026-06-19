@@ -1,6 +1,6 @@
 # Codex Ratchet Wiki — Index
 
-Total published pages: 440. Governance/read-first surfaces are listed separately. Restructured 2026-04-17 (stabilization pass).
+Total published pages: 441. Governance/read-first surfaces are listed separately. Restructured 2026-04-17 (stabilization pass).
 
 ## Hermes / LLM Alignment Front Door
 - [[hermes-current/read-first]] — Hermes front door; load this before substantive work
@@ -125,7 +125,7 @@ Total published pages: 440. Governance/read-first surfaces are listed separately
 
 ## Concepts — by framing
 
-### Current (187)
+### Current (188)
 - [[constraint-manifold-architecture]] — actual geometric constraint manifold `M(C)` frame-loader and minimum construction contract; axes/IGT/QIT/bridge claims stay downstream
 - [[entropic-monism-axis0-field-compression-spine]] — central owner-kernel spine for entropic monism, Axis0, JK fuzz, cross-field ToE genealogy, and field-wide compression claim ceilings
 - [[physics-model-as-system-mirror]] — structural map preserving the owner thesis that the physics/creation model mirrors the same F01/N01 -> `M(C)` -> carrier/readout -> geometry/axis -> entropy/memory/viability stack
@@ -148,6 +148,7 @@ Total published pages: 440. Governance/read-first surfaces are listed separately
 - [[mmm-source-language-reservoir]] — READ ONLY source-corpus language reservoir for MMM saliency
 - [[mmm-language-sea-quotes-couplings-triples]] — MMM language sea: quotes, couplings, triples, keywords, and thinker/research pressure lenses
 - [[cross-field-research-intersection-map]] — external research field intersections for wiki/MMM enrichment
+- [[sophisticated-inference-active-inference]] — external support page for active inference, recursive belief-state planning, epistemic affordance, planning-to-learn, and horizon-depth caveats; analogy only, no Codex Ratchet or Leviathan proof promotion
 - [[sim-run-catalogue-and-result-family-router]] — catalogue router for already-run/artifacted sim result families
 - [[formal-scout-readiness-index-router]] — router for formal-scout readiness, validator gaps, and promotion blockers
 - [[manifold-wizard-operation-router]] — router for manifold-rooted Wizard operation loops and MMM-loaded provider lanes
@@ -469,6 +470,7 @@ Total published pages: 440. Governance/read-first surfaces are listed separately
 - [[evolutionary-models-qit-alignment]]
 - [[falsification-sim-designs]]
 - [[fep-and-active-inference-reference]]
+- [[sophisticated-inference-active-inference]]
 - [[fiber-bundles-and-spin-geometry]]
 - [[foliations-distributions-and-constrained-order]]
 - [[formal-constraints-and-geometry]]

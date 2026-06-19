@@ -1,7 +1,7 @@
 ---
 title: Holodeck, QIT Engines, FEP, and Leviathan Integration
 created: 2026-04-12
-updated: 2026-04-17
+updated: 2026-06-19
 type: concept
 framing: nominalist
 tags: [holodeck, qit, fep, leviathan, integration, perception, world-model]
@@ -10,6 +10,7 @@ sources:
   - /Users/joshuaeisenhart/wiki/concepts/holodeck-doctrine.md
   - /Users/joshuaeisenhart/wiki/concepts/qit-engine-doctrine.md
   - /Users/joshuaeisenhart/wiki/concepts/fep-and-active-inference-reference.md
+  - /Users/joshuaeisenhart/wiki/concepts/sophisticated-inference-active-inference.md
   - /Users/joshuaeisenhart/wiki/concepts/leviathan-framework.md
 ---
 
@@ -72,6 +73,7 @@ The result is not a better chatbot or a retrieval-based memory system. It is an 
 - The holodeck model is useful for simulation/game-world development
 - QIT engine doctrine is intended to constrain arbitrary world-model updates; current proof is local and receipt-bound
 - FEP provides the cleanest prediction-first explanation
+- [[sophisticated-inference-active-inference]] provides external support for recursive belief-state planning, but only as analogy/support and not as QIT, Leviathan, or manifold proof
 
 ## What is Not Yet Claimed
 
@@ -84,4 +86,5 @@ The result is not a better chatbot or a retrieval-based memory system. It is an 
 - [[holodeck-as-recall-space]] — memory mechanism detail
 - [[why-qit-engines-need-exotic-geometry]] — why classical constraints are insufficient
 - [[leviathan-world-engine-memo]] — shorter architecture sketch
+- [[sophisticated-inference-active-inference]] — external active-inference source for belief-state planning and epistemic affordance
 - [[self-similar-frameworks-and-teleological-doctrine]] — five self-similar frameworks across domains

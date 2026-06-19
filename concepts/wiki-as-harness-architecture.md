@@ -1,7 +1,7 @@
 ---
 title: Wiki As Harness Architecture
 created: 2026-04-09
-updated: 2026-04-12
+updated: 2026-06-19
 type: concept
 tags: [harness, system, canonical, architecture, language]
 sources:
@@ -86,6 +86,8 @@ Controls: what evidence backs each claim, and what would disprove it.
 - [[controller-state-transition-model]] — bounded move and closure model for live controller work
 
 **Rule:** Every claim must cite a probe file and result JSON. Claims without evidence are flagged as speculative. Claims with falsification routes are stronger than claims without.
+
+External support sources such as [[sophisticated-inference-active-inference]] can clarify planning-under-uncertainty and belief-state recursion, but they do not substitute for finite witness paths, repo receipts, or sim contracts.
 
 ## The Two Root Constraints As LLM Behavior
 

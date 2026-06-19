@@ -1,7 +1,7 @@
 ---
 title: QIT Engine Dev Framing
 created: 2026-04-11
-updated: 2026-04-14
+updated: 2026-06-19
 type: concept
 framing: current
 tags: [reference, research, qit, engines, computer-science, implementation]
@@ -9,6 +9,7 @@ sources:
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/docs/EXPLICIT_CONTROLLER_MODEL.md
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/docs/ANOMALOUS_COMPUTER_SCIENCE_TRANSLATION.md
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/docs/CONSTRAINT_ON_DISTINGUISHABILITY_FULL_MATH.md
+  - /Users/joshuaeisenhart/wiki/concepts/sophisticated-inference-active-inference.md
 ---
 
 # QIT Engine Dev Framing
@@ -69,6 +70,7 @@ It is closer to:
 - simulations are validation instruments, not the product by themselves
 - engine cycles are downstream of the geometry/admissibility spine, not a replacement for it
 - dev-facing compression must still inherit the controller status discipline
+- active-inference sources such as [[sophisticated-inference-active-inference]] support belief-state planning analogies, not QIT-engine admission
 
 ## Recommended reading order
 - [[nominalist-cs-framing]] — compact constraint/probe/status-first rendering
@@ -97,3 +99,4 @@ Read by need:
 - [[codex-ratchet-cs-bounded-system-framing]]
 - [[constraint-on-distinguishability-full-math]]
 - [[engine-math-reference]]
+- [[sophisticated-inference-active-inference]]
