@@ -1,3 +1,7 @@
+## 2026-06-19 - Codex Ratchet cross-issue deepening intake
+
+Added [[projects/codex-ratchet/cross-issue-deepening-intake-2026-06-19]] and [[projects/codex-ratchet/cross-issue-finite-test-backlog-2026-06-19]] from the `origin/import/codex-ratchet-cross-issue-deepening-2026-06-19` branch without merging the stale branch wholesale. They preserve underprocessed older-source mechanics and turn them into finite-test/source-extraction queues. Claim ceiling: source-processing/planning only; no sim admission, no M(C), no QIT-engine, no Axis0, no bridge, no physics promotion.
+
 ## 2026-06-19 - Leviathan Packet 13 and V4 branch intake
 
 - Added [[projects/leviathan-current/packet-13-pasted-fep-runtime-boundary-audit-intake-2026-06-19]] for the pasted Leviathan/FEP runtime-boundary audit. Accepted it as advisory pressure for active-inference, sophisticated-inference, world-model, validation-experiment, and provenance-status guardrails; rejected non-portable `turn...` citations and FEP-as-proof wording.
