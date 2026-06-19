@@ -98,6 +98,9 @@ Remote `main` observed on 2026-06-19 after the next processing pass: `5dd98ac4ce
 17. [[projects/leviathan-current/no-ratchet-from-leviathan-policy]].
 18. [[projects/leviathan-current/packet-12-pasted-deep-research-truth-provenance-intake-2026-06-19]].
 19. [[projects/leviathan-current/packet-13-pasted-fep-runtime-boundary-audit-intake-2026-06-19]] as pasted FEP/runtime-boundary audit intake; advisory only, not FEP implementation proof.
+
+Leviathan/FEP split pages from the Packet 14 intake: [[projects/leviathan-current/packet-14-pasted-fep-atlas-and-leviathan-boundary-intake-2026-06-19]], [[projects/leviathan-current/lev-runtime-boundary-2026-06-19]], [[projects/leviathan-current/leviathan-fep-runtime-boundary-2026-06-19]], [[projects/leviathan-current/sophisticated-inference-and-leviathan-2026-06-19]], [[projects/leviathan-current/world-model-reconciler-fep-support-2026-06-19]], [[projects/leviathan-current/leviathan-claim-ceilings-2026-06-19]], [[projects/leviathan-current/leviathan-validation-experiments-backlog-2026-06-19]], and [[projects/leviathan-current/provenance-status-guardrails-2026-06-19]]. These are source synthesis and external-theory support only, not runtime proof.
+
 20. [[projects/leviathan-current/codex-imports/v3-deep-repo-nuance-bundle-2026-06-19]] as branch-imported V3 bundle intake; source synthesis only, not runtime proof.
 21. [[projects/leviathan-current/codex-imports/v4-cross-issues-deep-dive-2026-06-19]] as branch-imported V4 cross-issues intake; source synthesis only, not runtime proof.
 
@@ -141,6 +144,7 @@ V4 split pages start at [[projects/leviathan-current/operating-contract-vs-produ
 - Current deeper nuance/attribution addendum intake: [[projects/leviathan-current/packet-11-deeper-nuance-attribution-pack-intake-2026-06-19]].
 - Current pasted deep-research truth/provenance intake: [[projects/leviathan-current/packet-12-pasted-deep-research-truth-provenance-intake-2026-06-19]]. Advisory/pass-with-cautions only; reinforces runtime-first wording, incompleteness, and Josh/JP boundaries, while non-portable citations and public-only assumptions block direct promotion.
 - Current pasted FEP/runtime-boundary audit intake: [[projects/leviathan-current/packet-13-pasted-fep-runtime-boundary-audit-intake-2026-06-19]]. Advisory/pass-with-cautions only; reinforces FEP as formal neighbor, not implementation proof.
+- Current FEP atlas / Leviathan boundary split intake: [[projects/leviathan-current/packet-14-pasted-fep-atlas-and-leviathan-boundary-intake-2026-06-19]]. Advisory/pass-with-cautions only; routes FEP through the concept atlas and creates Leviathan-specific boundary pages without adding runtime proof.
 - Current branch-imported V3 deep repo nuance bundle: [[projects/leviathan-current/codex-imports/v3-deep-repo-nuance-bundle-2026-06-19]]. It is source synthesis and split-planning material only; it does not add runtime proof or maintainer acceptance.
 - Current branch-imported V4 cross-issues bundle: [[projects/leviathan-current/codex-imports/v4-cross-issues-deep-dive-2026-06-19]]. It is source synthesis and split-planning material only; it does not add runtime proof, product readiness, or maintainer acceptance.
 - Current proof status dashboard: [[projects/leviathan-current/proof-backed-status-dashboard]].

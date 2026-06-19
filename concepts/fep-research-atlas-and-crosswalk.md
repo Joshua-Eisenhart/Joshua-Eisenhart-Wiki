@@ -9,6 +9,7 @@ claim_ceiling: routes FEP and adjacent research into Codex Ratchet and Leviathan
 tags: [fep, active-inference, viability, holodeck, qit, axis0, distinguishability, critique, external-reference]
 sources:
   - /Users/joshuaeisenhart/.codex/attachments/f86e4a29-48ca-4984-bcea-7943521c2303/pasted-text.txt
+  - /Users/joshuaeisenhart/.codex/attachments/bd9c4688-e356-4945-bf43-775915982d72/pasted-text.txt
   - https://arxiv.org/abs/1906.10184
   - https://arxiv.org/abs/2006.04120
   - https://arxiv.org/abs/2009.08111

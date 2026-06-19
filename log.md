@@ -1,3 +1,7 @@
+## 2026-06-19 - Leviathan FEP atlas boundary split
+
+Processed the latest pasted Leviathan/FEP audit and FEP atlas correction into [[projects/leviathan-current/packet-14-pasted-fep-atlas-and-leviathan-boundary-intake-2026-06-19]]. Added Leviathan-facing split pages for runtime boundary, FEP runtime boundary, sophisticated inference, world-model/reconciler support, claim ceilings, validation experiment backlog, and provenance status guardrails. Claim ceiling: source synthesis and external-theory support only; no FEP implementation proof, no Codex Ratchet proof, no QIT/Axis0/Holodeck/physics promotion, and no release certification.
+
 ## 2026-06-19 - Leviathan V4 cross-issues split pages
 
 Split [[projects/leviathan-current/codex-imports/v4-cross-issues-deep-dive-2026-06-19]] into 17 navigable Leviathan pages covering operating-contract vs product proof, docs/status drift, AGENTS.md risk, Exec/Poly/Daemon posture, app/DX/security/plugin surfaces, Vision/North Star boundaries, memory/config/surface strategy, AgentPing/AgentGuard separation, enterprise readiness, moat/adoption proof, and release readiness. Claim ceiling: source/wiki synthesis only; no fresh runtime proof, no maintainer acceptance, no product readiness, no release certification.
