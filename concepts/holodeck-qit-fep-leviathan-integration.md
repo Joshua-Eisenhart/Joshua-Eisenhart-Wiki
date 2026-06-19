@@ -16,6 +16,9 @@ sources:
 
 # Holodeck, QIT Engines, FEP, and Leviathan Integration
 
+Routing note: use [[fep-research-atlas-and-crosswalk]] for the FEP atlas. This integration page can cite FEP for prediction-first support, but FEP does not prove Leviathan implementation, QIT engines, Axis0, consciousness, or physics closure.
+
+
 ## One-sentence summary
 
 An intelligence architecture that maintains an internal predictive world ([[holodeck-doctrine]]), constrains it by lawful cycles ([[qit-engine-doctrine]]), updates it by prediction-first error correction ([[fep-and-active-inference-reference]]), and governs the whole system through explicit process boundaries ([[leviathan-framework]]).
@@ -74,6 +77,7 @@ The result is not a better chatbot or a retrieval-based memory system. It is an 
 - QIT engine doctrine is intended to constrain arbitrary world-model updates; current proof is local and receipt-bound
 - FEP provides the cleanest prediction-first explanation
 - [[sophisticated-inference-active-inference]] provides external support for recursive belief-state planning, but only as analogy/support and not as QIT, Leviathan, or manifold proof
+- [[fep-research-atlas-and-crosswalk]] routes the broader FEP support spine and keeps Markov blanket, viability, distinguishability, and Axis0 claims behind separate ceilings
 
 ## What is Not Yet Claimed
 

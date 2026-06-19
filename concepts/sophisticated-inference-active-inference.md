@@ -23,6 +23,8 @@ External reference / analogy. This page adds Friston, Da Costa, Hafner, Hesp, an
 
 It must not be used as proof of Codex Ratchet ontology, QIT engines, Axis0, bridge/physics claims, manifold admission, or Leviathan runtime correctness.
 
+Atlas route: [[fep-research-atlas-and-crosswalk]] is now the hub for FEP/active-inference routing; use [[belief-state-tree-search-and-finite-horizons]], [[expected-free-energy-policy-selection]], and [[active-inference-benchmark-fixtures]] for the finite-horizon planning leaves.
+
 ## Source card
 
 - Paper: "Sophisticated Inference"

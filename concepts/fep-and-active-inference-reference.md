@@ -16,6 +16,11 @@ framing: mixed
 ## Overview
 Reference doc covering the actual Friston framework: variational free energy, active inference, Markov blankets, expected free energy, the prediction-first inversion, and key critiques. Not the system's application.
 
+## Atlas routing note
+
+FEP is now routed through [[fep-research-atlas-and-crosswalk]]. Keep this page as the compact Friston/FEP reference, then use the atlas leaves for formal quantities, expected free energy, belief-state search, blanket/cut language, viability, critique, Axis0 ceilings, benchmarks, and glossary.
+
+
 ## Variational Free Energy
 
 F = E_q[-ln P(y,x)] - H[q(x)]. Two decompositions: (1) KL + Surprise: F = D_KL[q(x) || P(x|y)] + (-ln P(y)). Since KL >= 0, free energy is an upper bound on surprise. Minimizing F drives q toward true posterior P(x|y) — approximate Bayesian inference. (2) Complexity - Accuracy: F = D_KL[q||P(x)] - E_q[ln P(y|x)]. System balances model complexity against prediction accuracy. Surprise = -ln P(y) = self-information in information theory, NOT colloquial surprise.
@@ -92,6 +97,12 @@ So the safe bridge is: predictive error minimization and bounded state adaptatio
 - Boundary: external reference / analogy only; not proof of Codex Ratchet, Leviathan runtime, QIT-engine, Axis0, bridge, physics, or manifold claims.
 
 ## Cross-links to related support layers
+- [[fep-research-atlas-and-crosswalk]] for the routed FEP atlas and crosswalk
+- [[variational-free-energy-core]] for the formal FEP quantities
+- [[expected-free-energy-policy-selection]] for policy-selection and expected free energy
+- [[markov-blankets-boundaries-and-ratchet-cuts]] for boundary/cut language
+- [[fep-critique-and-assumption-ledger]] for critique and assumption gates
+- [[fep-to-axis0-bridge-claim-ceilings]] for Axis0 overclaim ceilings
 - [[autopoiesis-and-enactivism-reference]] for the enactive side of the debate
 - [[viability-theory-reference]] for the constraint-survival framing
 - [[distinguishability-formal-reference]] for the information-theoretic support layer

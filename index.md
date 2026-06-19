@@ -1,6 +1,6 @@
 # Codex Ratchet Wiki — Index
 
-Total published pages: 441. Governance/read-first surfaces are listed separately. Restructured 2026-04-17 (stabilization pass).
+Total published pages: 456. Governance/read-first surfaces are listed separately. Restructured 2026-04-17 (stabilization pass).
 
 ## Hermes / LLM Alignment Front Door
 - [[hermes-current/read-first]] — Hermes front door; load this before substantive work
@@ -153,6 +153,21 @@ Total published pages: 441. Governance/read-first surfaces are listed separately
 - [[mmm-language-sea-quotes-couplings-triples]] — MMM language sea: quotes, couplings, triples, keywords, and thinker/research pressure lenses
 - [[cross-field-research-intersection-map]] — external research field intersections for wiki/MMM enrichment
 - [[sophisticated-inference-active-inference]] — external support page for active inference, recursive belief-state planning, epistemic affordance, planning-to-learn, and horizon-depth caveats; analogy only, no Codex Ratchet or Leviathan proof promotion
+- [[fep-research-atlas-and-crosswalk]] - FEP as a routed external-support atlas across prediction, active inference, boundaries, viability, Holodeck memory, QIT distinguishability, Axis0 ceilings, critique, and fixtures
+- [[variational-free-energy-core]] - formal variational free-energy quantities and decompositions, fenced as external support only
+- [[expected-free-energy-policy-selection]] - active-inference policy-selection support page separating current inference F from expected free energy G
+- [[belief-state-tree-search-and-finite-horizons]] - sophisticated-inference and finite belief-state search router with horizon and artifact guardrails
+- [[markov-blankets-boundaries-and-ratchet-cuts]] - Markov-blanket and ratchet-cut crosswalk with Axis0-collapse blockers
+- [[fep-particular-physics-and-ness]] - particular-physics, NESS, and thingness support page with physics-closure ceiling
+- [[prediction-first-processing-and-holodeck-memory]] - prediction-first processing routed into Holodeck memory/world-model support without consciousness proof
+- [[fep-viability-and-ratchet-survival]] - viability and survival-under-constraints support spine kept separate from broad FEP metaphysics
+- [[fep-autopoiesis-enactivism-and-sense-making]] - autopoiesis, enactivism, adaptivity, and sense-making as conceptual neighbors with claim ceilings
+- [[fep-information-geometry-and-gradient-flow]] - Fisher, natural-gradient, and information-length support page fenced from QIT admission
+- [[fep-distinguishability-and-operational-identity]] - distinguishability-to-operational-identity crosswalk for FEP, QIT, and finite probes
+- [[fep-critique-and-assumption-ledger]] - critique and assumption ledger for FEP overclaim prevention
+- [[fep-to-axis0-bridge-claim-ceilings]] - Axis0 bridge claim ceilings for FEP, blanket, and particular-physics language
+- [[active-inference-benchmark-fixtures]] - proposal-only active-inference toy fixtures and negative controls
+- [[fep-glossary]] - shared FEP and active-inference glossary for the atlas
 - [[sim-run-catalogue-and-result-family-router]] — catalogue router for already-run/artifacted sim result families
 - [[formal-scout-readiness-index-router]] — router for formal-scout readiness, validator gaps, and promotion blockers
 - [[manifold-wizard-operation-router]] — router for manifold-rooted Wizard operation loops and MMM-loaded provider lanes
@@ -475,6 +490,21 @@ Total published pages: 441. Governance/read-first surfaces are listed separately
 - [[falsification-sim-designs]]
 - [[fep-and-active-inference-reference]]
 - [[sophisticated-inference-active-inference]]
+- [[fep-research-atlas-and-crosswalk]]
+- [[variational-free-energy-core]]
+- [[expected-free-energy-policy-selection]]
+- [[belief-state-tree-search-and-finite-horizons]]
+- [[markov-blankets-boundaries-and-ratchet-cuts]]
+- [[fep-particular-physics-and-ness]]
+- [[prediction-first-processing-and-holodeck-memory]]
+- [[fep-viability-and-ratchet-survival]]
+- [[fep-autopoiesis-enactivism-and-sense-making]]
+- [[fep-information-geometry-and-gradient-flow]]
+- [[fep-distinguishability-and-operational-identity]]
+- [[fep-critique-and-assumption-ledger]]
+- [[fep-to-axis0-bridge-claim-ceilings]]
+- [[active-inference-benchmark-fixtures]]
+- [[fep-glossary]]
 - [[fiber-bundles-and-spin-geometry]]
 - [[foliations-distributions-and-constrained-order]]
 - [[formal-constraints-and-geometry]]

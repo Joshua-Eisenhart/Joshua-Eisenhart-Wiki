@@ -31,6 +31,8 @@ The clean bridge is finite predictive-state estimation. Internal state updates c
 ### Active inference and free-energy language
 The useful overlap is narrow: prediction error minimization, belief update, and bounded adaptation. The repo does not yet earn a full active-inference action-policy theorem, Markov-blanket theorem, or a claim that the whole stack is literally FEP.
 
+For the routed support version, read [[fep-research-atlas-and-crosswalk]], especially [[fep-information-geometry-and-gradient-flow]], [[fep-distinguishability-and-operational-identity]], and [[fep-critique-and-assumption-ledger]].
+
 ### Information bottleneck and representation compression
 Density-matrix language is already a good fit for kernel structure, spectral truncation, and certain bottleneck-style descriptions. This bridge is strongest in representation geometry and weakest when people try to turn every neural computation into a literal CPTP channel.
 
@@ -66,6 +68,9 @@ That distinction should remain explicit.
 Use this page when the question is: which AI/foundational claims are actually supported by the live QIT rows, and which are still only research overlays.
 
 ## Related pages
+- [[fep-research-atlas-and-crosswalk]]
+- [[fep-information-geometry-and-gradient-flow]]
+- [[fep-distinguishability-and-operational-identity]]
 - [[current-research-overlays]]
 - [[current-docs-vs-legacy-framing]]
 - [[qit-engine-dev-framing]]
