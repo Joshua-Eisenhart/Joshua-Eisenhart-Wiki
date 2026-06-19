@@ -44,7 +44,7 @@ Observed from current repo docs: Lev is an open runtime for agent-human systems:
 
 The active repo docs describe the foundation as real but still being hardened. They explicitly say the universal context graph is not fully landed, the system is not enterprise-ready, and architecture is ahead of some implementation areas.
 
-Current source reset: [[specs/leviathan-current/README]], [[projects/leviathan-current/proof-backed-status-dashboard]], [[projects/leviathan-current/nuanced-assessment-and-josh-provenance-2026-06-19]], [[projects/leviathan-current/packet-11-deeper-nuance-attribution-pack-intake-2026-06-19]], [[projects/leviathan-current/packet-12-pasted-deep-research-truth-provenance-intake-2026-06-19]], and [[projects/leviathan-current/codex-imports/v3-deep-repo-nuance-bundle-2026-06-19]] are now the highest-priority current source-routing pages. The latest fresh 2026-06-19 remote/clone check is `5dd98ac4ce7afeb9e4351787179c60208de6d23f`. The older clean-clone audit at [[projects/leviathan-current/deep-audit-current-snapshot-2026-06-18]] remains valid for its `c90ec...` snapshot and for demoting damaged-checkout conflict-marker claims.
+Current source reset: [[specs/leviathan-current/README]], [[projects/leviathan-current/proof-backed-status-dashboard]], [[projects/leviathan-current/nuanced-assessment-and-josh-provenance-2026-06-19]], [[projects/leviathan-current/packet-11-deeper-nuance-attribution-pack-intake-2026-06-19]], [[projects/leviathan-current/packet-12-pasted-deep-research-truth-provenance-intake-2026-06-19]], [[projects/leviathan-current/packet-13-pasted-fep-runtime-boundary-audit-intake-2026-06-19]], [[projects/leviathan-current/codex-imports/v3-deep-repo-nuance-bundle-2026-06-19]], and [[projects/leviathan-current/codex-imports/v4-cross-issues-deep-dive-2026-06-19]] are now the highest-priority current source-routing pages. The latest fresh 2026-06-19 remote/clone check is `5dd98ac4ce7afeb9e4351787179c60208de6d23f`. The older clean-clone audit at [[projects/leviathan-current/deep-audit-current-snapshot-2026-06-18]] remains valid for its `c90ec...` snapshot and for demoting damaged-checkout conflict-marker claims.
 
 ## Source mode
 
@@ -91,7 +91,9 @@ For this project, read current repo sources before chat-derived or legacy materi
 - `nuanced-assessment-and-josh-provenance-2026-06-19.md` — current `5dd98ac4` assessment of strengths, weaknesses, delusion/overclaim risk, and Joshua/JP provenance boundaries.
 - `packet-11-deeper-nuance-attribution-pack-intake-2026-06-19.md` — pass-with-cautions intake for the deeper nuance/attribution pack.
 - `packet-12-pasted-deep-research-truth-provenance-intake-2026-06-19.md` — pass-with-cautions intake for the pasted deep-research truth/provenance report; reinforces the current boundary and incompleteness posture without adding runtime proof.
+- `packet-13-pasted-fep-runtime-boundary-audit-intake-2026-06-19.md` — pass-with-cautions intake for the pasted Leviathan/FEP runtime-boundary audit; routes active-inference and world-model support without adding implementation proof.
 - `codex-imports/v3-deep-repo-nuance-bundle-2026-06-19.md` — branch-imported V3 deep-repo nuance bundle and page-split plan; source synthesis only, not runtime proof or maintainer acceptance.
+- `codex-imports/v4-cross-issues-deep-dive-2026-06-19.md` — branch-imported V4 cross-issues bundle and page-split plan; source synthesis only, not runtime proof, product readiness, or maintainer acceptance.
 - `josh-jp-attribution-boundary-v2-2026-06-19.md` — owner-corrected attribution boundary: Ratchet does not come from Leviathan; original Wizard idea credited to JP Smith per Josh.
 - `no-ratchet-from-leviathan-policy.md` — short policy page preventing Ratchet-from-Lev inversion.
 - `wizard-origin-provenance-note-2026-06-19.md` — project-local Wizard origin note.
@@ -203,9 +205,19 @@ Packet 11 note: this addendum is owner-correction and wiki attribution routing. 
 
 Packet 12 note: the report is useful as advisory pressure and mostly reinforces Packet 10/11. It does not carry portable citations or fresh repo proof.
 
+### Packet 13 — pasted FEP/runtime-boundary audit intake
+
+- `packet-13-pasted-fep-runtime-boundary-audit-intake-2026-06-19.md` — intake page for `/Users/joshuaeisenhart/.codex/attachments/0b62aa68-2c2c-46e1-b573-b1a9c1554537/pasted-text.txt`.
+
+Packet 13 note: the audit is useful for FEP/active-inference and world-model boundary discipline. It does not make Leviathan an implemented FEP runtime, and its non-portable citations require source re-checks before stronger use.
+
 ### V3 branch import bundle
 
 - `codex-imports/v3-deep-repo-nuance-bundle-2026-06-19.md` — branch-imported Markdown bundle from `origin/leviathan-v3-info-import-2026-06-19`. It should be split into subsystem pages only after current source reads and evidence labeling; it is not runtime proof, release certification, or maintainer acceptance.
+
+### V4 branch import bundle
+
+- `codex-imports/v4-cross-issues-deep-dive-2026-06-19.md` — branch-imported Markdown bundle from `origin/leviathan-v4-cross-issues-import-2026-06-19`. It should be split into cross-issue pages only after current source reads and evidence labeling; it is not runtime proof, product readiness, release certification, or maintainer acceptance.
 
 ### Contribution / provenance / research / assessment starters
 

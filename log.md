@@ -1,3 +1,11 @@
+## 2026-06-19 - Leviathan Packet 13 and V4 branch intake
+
+- Added [[projects/leviathan-current/packet-13-pasted-fep-runtime-boundary-audit-intake-2026-06-19]] for the pasted Leviathan/FEP runtime-boundary audit. Accepted it as advisory pressure for active-inference, sophisticated-inference, world-model, validation-experiment, and provenance-status guardrails; rejected non-portable `turn...` citations and FEP-as-proof wording.
+- Imported [[projects/leviathan-current/codex-imports/v4-cross-issues-deep-dive-2026-06-19]] from `origin/leviathan-v4-cross-issues-import-2026-06-19` as a branch bundle, source synthesis only.
+- Patched [[projects/leviathan-current/read-first]], [[projects/leviathan-current/README]], [[projects/leviathan-current/index]], and [[index]] so Packet 13 and V4 are discoverable without ZIPs or branch checkout.
+- Claim ceiling: wiki routing, external-theory pressure, and split planning only; no Leviathan runtime proof, no FEP implementation proof, no product readiness, no release certification, no Codex Ratchet proof, and no implementation authorship proof.
+- Verification: `tools/wiki_probe.py --wiki-root /Users/joshuaeisenhart/wiki --output /tmp/wiki_probe_after_packet13_v4_prelog_20260619.json` returned `page_count=441`, `index_header_count=441`, `indexed_link_count=544`, and zero missing pages, orphans, broken links, stubs, malformed wikilinks, or stale namespace wikilinks. `git diff --check` passed before this log patch.
+
 ## 2026-06-19 - Branch bundle intake for Codex Ratchet and Leviathan
 
 - Added branch-imported Markdown bundles from `origin/import/codex-ratchet-wiki-packs-2026-06-19` and `origin/leviathan-v3-info-import-2026-06-19` into `projects/codex-ratchet/deep-repo-extraction-pack-intake-2026-06-19.md` and `projects/leviathan-current/codex-imports/v3-deep-repo-nuance-bundle-2026-06-19.md`.
