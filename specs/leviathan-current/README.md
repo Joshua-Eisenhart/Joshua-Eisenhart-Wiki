@@ -5,7 +5,7 @@ updated: 2026-06-19
 type: specs-mirror-index
 status: current-source-router
 source_repo: lev-os/leviathan
-source_snapshot: b7bca2cdbed5862743395f7c0330e7d640132764
+source_snapshot: 5dd98ac4ce7afeb9e4351787179c60208de6d23f
 claim_ceiling: repo-facing mirror policy and routing; not the canonical repo; not implementation proof
 tags:
   - leviathan
@@ -40,8 +40,8 @@ Fresh source read:
 ```text
 repo: https://github.com/lev-os/leviathan
 branch: main
-commit: b7bca2cdbed5862743395f7c0330e7d640132764
-clone: /tmp/leviathan-current-20260619-3WQpXq
+commit: 5dd98ac4ce7afeb9e4351787179c60208de6d23f
+clone: /tmp/leviathan-current-more-20260619-fzH1bV
 clone status: clean after clone
 ```
 
@@ -62,6 +62,8 @@ clone status: clean after clone
 - Graph is still the architecture-plane noun, but current package path is `core/context-graph/**` / `@lev-os/context-graph`.
 - `docs/ROADMAP.md` and `mvp.md` disagree about Pentagon/default daemon, `@lev-os/testing`, and security P0 status.
 - Old damaged-checkout conflict-marker claims are historical unless a current clone/source scan reproduces them.
+- `@lev-os/eval` currently contains a narrow F01/N01 root-constraint validator, and FlowMind loads it through the `constraint-manifold` native binding.
+- System FlowMind YAML declarations are not all runtime-enforced: the current executor treats YAML pipeline stages as boot declarations for MVP, with runtime rule interpretation deferred.
 
 ## Project Pages
 
@@ -70,3 +72,4 @@ clone status: clean after clone
 - [[projects/leviathan-current/contract-surface-map]]
 - [[projects/leviathan-current/current-state-and-roadmap]]
 - [[projects/leviathan-current/proof-backed-status-dashboard]]
+- [[projects/leviathan-current/nuanced-assessment-and-josh-provenance-2026-06-19]]

@@ -17,13 +17,14 @@ The content exists under `projects/leviathan-current/`. The strongest pages are 
 
 Start with the current source split before reading older Packet 2 runtime pages:
 
-1. [[specs/leviathan-current/README]] — repo-facing mirror policy and current source authority at `b7bca2cdbed5862743395f7c0330e7d640132764`.
+1. [[specs/leviathan-current/README]] — repo-facing mirror policy and current source authority at `5dd98ac4ce7afeb9e4351787179c60208de6d23f`.
 2. [[projects/leviathan-current/proof-backed-status-dashboard]] — current `ROADMAP.md` / `mvp.md` source split and proof-routing dashboard.
-3. [[projects/leviathan-current/current-state-and-roadmap]] — current status synthesis that preserves the split instead of flattening it.
-4. [[projects/leviathan-current/deep-audit-current-snapshot-2026-06-18]] — older clean snapshot audit at `c90ec8499c83db3d17f6132ec734698a8de2dbce`.
-5. [[projects/leviathan-current/repo-current-vs-wiki-drift-audit-2026-06-18]] — what older wiki pages still say that is now historical damaged-checkout evidence, not current upstream truth.
-6. [[projects/leviathan-current/concept-atlas-current-2026-06-18]] — concept atlas with aliases, evidence levels, wiki targets, and claim ceilings.
-7. [[projects/leviathan-current/read-order-by-intent-2026-06-18]] — safer read order by task/persona for a massive mixed repo.
+3. [[projects/leviathan-current/nuanced-assessment-and-josh-provenance-2026-06-19]] — strengths, weaknesses, overclaim boundaries, and Joshua/JP provenance split.
+4. [[projects/leviathan-current/current-state-and-roadmap]] — current status synthesis that preserves the split instead of flattening it.
+5. [[projects/leviathan-current/deep-audit-current-snapshot-2026-06-18]] — older clean snapshot audit at `c90ec8499c83db3d17f6132ec734698a8de2dbce`.
+6. [[projects/leviathan-current/repo-current-vs-wiki-drift-audit-2026-06-18]] — what older wiki pages still say that is now historical damaged-checkout evidence, not current upstream truth.
+7. [[projects/leviathan-current/concept-atlas-current-2026-06-18]] — concept atlas with aliases, evidence levels, wiki targets, and claim ceilings.
+8. [[projects/leviathan-current/read-order-by-intent-2026-06-18]] — safer read order by task/persona for a massive mixed repo.
 
 ## Start here
 
@@ -60,6 +61,7 @@ Starter/earlier maps:
 - [[projects/leviathan-current/josh-root-constraints-in-leviathan]]
 - [[projects/leviathan-current/lev-five-constraints-vs-f01-n01]]
 - [[projects/leviathan-current/codex-ratchet-vs-leviathan-boundary]]
+- [[projects/leviathan-current/nuanced-assessment-and-josh-provenance-2026-06-19]]
 - [[projects/leviathan-current/provenance-ledger-josh-jp-pass-1-2026-06-18]]
 - [[projects/leviathan-current/josh-contribution-signal-radar]]
 - [[projects/leviathan-current/josh-contribution-signal-index-2026-06-17]]
@@ -108,4 +110,6 @@ Starter/earlier maps:
 
 New wiki work reads `https://github.com/lev-os/leviathan` plus raw/API URLs first. If that is too limited, use a clean fresh clone from `https://github.com/lev-os/leviathan.git`, record the remote URL, commit SHA, and clean status, and keep it read-only unless Josh explicitly assigns a repo patch.
 
-Current source baseline for this index: fresh clone `/tmp/leviathan-current-20260619-3WQpXq` at `b7bca2cdbed5862743395f7c0330e7d640132764`, clean after clone. The damaged `/Users/joshuaeisenhart/GitHub/leviathan` checkout is historical only.
+Packet 10 source baseline for this index: fresh clone `/tmp/leviathan-current-20260619-3WQpXq` at `b7bca2cdbed5862743395f7c0330e7d640132764`, clean after clone. The damaged `/Users/joshuaeisenhart/GitHub/leviathan` checkout is historical only.
+
+Latest nuance/provenance pass baseline: fresh clone `/tmp/leviathan-current-more-20260619-fzH1bV` at `5dd98ac4ce7afeb9e4351787179c60208de6d23f`, clean after clone.

@@ -44,7 +44,7 @@ Observed from current repo docs: Lev is an open runtime for agent-human systems:
 
 The active repo docs describe the foundation as real but still being hardened. They explicitly say the universal context graph is not fully landed, the system is not enterprise-ready, and architecture is ahead of some implementation areas.
 
-Current source reset: [[specs/leviathan-current/README]] and [[projects/leviathan-current/proof-backed-status-dashboard]] are now the highest-priority current source-routing pages. They use a fresh 2026-06-19 remote/clone check at `b7bca2cdbed5862743395f7c0330e7d640132764`. The older clean-clone audit at [[projects/leviathan-current/deep-audit-current-snapshot-2026-06-18]] remains valid for its `c90ec...` snapshot and for demoting damaged-checkout conflict-marker claims.
+Current source reset: [[specs/leviathan-current/README]], [[projects/leviathan-current/proof-backed-status-dashboard]], and [[projects/leviathan-current/nuanced-assessment-and-josh-provenance-2026-06-19]] are now the highest-priority current source-routing pages. The latest fresh 2026-06-19 remote/clone check is `5dd98ac4ce7afeb9e4351787179c60208de6d23f`. The older clean-clone audit at [[projects/leviathan-current/deep-audit-current-snapshot-2026-06-18]] remains valid for its `c90ec...` snapshot and for demoting damaged-checkout conflict-marker claims.
 
 ## Source mode
 
@@ -57,7 +57,8 @@ Use:
 - `https://raw.githubusercontent.com/lev-os/leviathan/<commit>/<path>` for stable cited snapshots
 - `https://api.github.com/repos/lev-os/leviathan/contents/<path>?ref=main` for machine-readable directory listings
 
-Remote `main` observed on 2026-06-19: `b7bca2cdbed5862743395f7c0330e7d640132764`.
+Remote `main` observed on 2026-06-19 during Packet 10: `b7bca2cdbed5862743395f7c0330e7d640132764`.
+Remote `main` observed on 2026-06-19 during the nuance/provenance pass: `5dd98ac4ce7afeb9e4351787179c60208de6d23f`.
 
 Old local-path citations in this folder remain historical evidence from the June 17-18 local inventory and damaged-checkout containment pass. They are not current source instructions and do not prove the local path still exists.
 
@@ -87,6 +88,7 @@ For this project, read current repo sources before chat-derived or legacy materi
 - `evidence-frontier-and-blockers-dashboard-2026-06-18.md` — current contradictions/blockers that require reruns or source reconciliation.
 - `proof-audit-roadmap-vs-mvp-2026-06-18.md` — clean-clone command proof audit for the `ROADMAP.md` vs `mvp.md` split.
 - `proof-backed-status-dashboard.md` — current `b7bca2cd` source-doc split and proof-routing dashboard.
+- `nuanced-assessment-and-josh-provenance-2026-06-19.md` — current `5dd98ac4` assessment of strengths, weaknesses, delusion/overclaim risk, and Joshua/JP provenance boundaries.
 - `packet-10-deep-research-upgrade-pack-intake-2026-06-19.md` — intake receipt for the 2026-06-19 deep-research report and ZIP upgrade pack.
 - `specs/leviathan-current/README.md` — repo-facing mirror/source-authority router.
 - `read-order-by-intent-2026-06-18.md` — read order by task/persona for a huge mixed repo.
@@ -136,6 +138,7 @@ Packet 2 note: these pages remain valuable as source maps, but their local-check
 - `josh-root-constraints-in-leviathan.md` — source-labeled map of Josh/root-constraint contribution inside current Lev surfaces.
 - `lev-five-constraints-vs-f01-n01.md` — C1-C5 vs F01/N01 bridge, with C3-C5 held as derived/aligned unless source support is stronger.
 - `codex-ratchet-vs-leviathan-boundary.md` — explicit boundary page: Leviathan contains many Josh ideas but is NOT Codex Ratchet.
+- `nuanced-assessment-and-josh-provenance-2026-06-19.md` — sharper boundary: Codex Ratchet does not come from Leviathan; JP's original Wizard idea influenced Joshua's Wizard lineage; Joshua-origin constraint/QIT material appears inside Leviathan as design/provenance/plugin/runtime-validator surfaces.
 - `packet-4-constraint-boundary-receipt-2026-06-18.md` — receipt for the boundary tranche.
 
 ### Packet 5 — chat/transcript provenance protocol
