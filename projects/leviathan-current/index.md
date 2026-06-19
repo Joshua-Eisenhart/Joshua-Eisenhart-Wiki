@@ -25,6 +25,27 @@ Start with the current source split before reading older Packet 2 runtime pages:
 6. [[projects/leviathan-current/packet-13-pasted-fep-runtime-boundary-audit-intake-2026-06-19]] — pasted FEP/runtime-boundary audit intake; advisory only.
 7. [[projects/leviathan-current/codex-imports/v3-deep-repo-nuance-bundle-2026-06-19]] — branch-imported V3 deep-repo nuance bundle and split plan; source synthesis only.
 8. [[projects/leviathan-current/codex-imports/v4-cross-issues-deep-dive-2026-06-19]] — branch-imported V4 cross-issues deep dive; source synthesis only.
+
+V4 split pages:
+
+- [[projects/leviathan-current/operating-contract-vs-product-proof-2026-06-19]]
+- [[projects/leviathan-current/docs-authority-vs-status-drift-v4-2026-06-19]]
+- [[projects/leviathan-current/agents-md-operating-contract-risk-2026-06-19]]
+- [[projects/leviathan-current/exec-poly-daemon-package-posture-v4-2026-06-19]]
+- [[projects/leviathan-current/app-layer-readiness-map-2026-06-19]]
+- [[projects/leviathan-current/onboarding-dx-proof-ladder-v4-2026-06-19]]
+- [[projects/leviathan-current/security-gate-stack-v4-2026-06-19]]
+- [[projects/leviathan-current/plugin-manifest-inflation-risk-v4-2026-06-19]]
+- [[projects/leviathan-current/vision-strategic-truth-vs-magnus-opus-overhang-2026-06-19]]
+- [[projects/leviathan-current/north-star-narrative-vs-proof-map-2026-06-19]]
+- [[projects/leviathan-current/memory-backend-readiness-ladder-2026-06-19]]
+- [[projects/leviathan-current/config-xdg-fractal-root-gap-2026-06-19]]
+- [[projects/leviathan-current/surface-family-matrix-v4-2026-06-19]]
+- [[projects/leviathan-current/lev-agentping-agentguard-three-system-map-2026-06-19]]
+- [[projects/leviathan-current/enterprise-readiness-gap-v4-2026-06-19]]
+- [[projects/leviathan-current/moat-vs-adoption-proof-v4-2026-06-19]]
+- [[projects/leviathan-current/release-readiness-ladder-v4-2026-06-19]]
+
 9. [[projects/leviathan-current/current-state-and-roadmap]] — current status synthesis that preserves the split instead of flattening it.
 10. [[projects/leviathan-current/deep-audit-current-snapshot-2026-06-18]] — older clean snapshot audit at `c90ec8499c83db3d17f6132ec734698a8de2dbce`.
 11. [[projects/leviathan-current/repo-current-vs-wiki-drift-audit-2026-06-18]] — what older wiki pages still say that is now historical damaged-checkout evidence, not current upstream truth.
@@ -101,6 +122,23 @@ Starter/earlier maps:
 - [[projects/leviathan-current/leviathan-nuanced-current-verdict-2026-06-19]]
 - [[projects/leviathan-current/packet-13-pasted-fep-runtime-boundary-audit-intake-2026-06-19]]
 - [[projects/leviathan-current/codex-imports/v4-cross-issues-deep-dive-2026-06-19]]
+- [[projects/leviathan-current/operating-contract-vs-product-proof-2026-06-19]]
+- [[projects/leviathan-current/docs-authority-vs-status-drift-v4-2026-06-19]]
+- [[projects/leviathan-current/agents-md-operating-contract-risk-2026-06-19]]
+- [[projects/leviathan-current/exec-poly-daemon-package-posture-v4-2026-06-19]]
+- [[projects/leviathan-current/app-layer-readiness-map-2026-06-19]]
+- [[projects/leviathan-current/onboarding-dx-proof-ladder-v4-2026-06-19]]
+- [[projects/leviathan-current/security-gate-stack-v4-2026-06-19]]
+- [[projects/leviathan-current/plugin-manifest-inflation-risk-v4-2026-06-19]]
+- [[projects/leviathan-current/vision-strategic-truth-vs-magnus-opus-overhang-2026-06-19]]
+- [[projects/leviathan-current/north-star-narrative-vs-proof-map-2026-06-19]]
+- [[projects/leviathan-current/memory-backend-readiness-ladder-2026-06-19]]
+- [[projects/leviathan-current/config-xdg-fractal-root-gap-2026-06-19]]
+- [[projects/leviathan-current/surface-family-matrix-v4-2026-06-19]]
+- [[projects/leviathan-current/lev-agentping-agentguard-three-system-map-2026-06-19]]
+- [[projects/leviathan-current/enterprise-readiness-gap-v4-2026-06-19]]
+- [[projects/leviathan-current/moat-vs-adoption-proof-v4-2026-06-19]]
+- [[projects/leviathan-current/release-readiness-ladder-v4-2026-06-19]]
 - [[projects/leviathan-current/read-order-by-intent-2026-06-18]]
 
 ## Control, plans, and receipts

@@ -1,3 +1,7 @@
+## 2026-06-19 - Leviathan V4 cross-issues split pages
+
+Split [[projects/leviathan-current/codex-imports/v4-cross-issues-deep-dive-2026-06-19]] into 17 navigable Leviathan pages covering operating-contract vs product proof, docs/status drift, AGENTS.md risk, Exec/Poly/Daemon posture, app/DX/security/plugin surfaces, Vision/North Star boundaries, memory/config/surface strategy, AgentPing/AgentGuard separation, enterprise readiness, moat/adoption proof, and release readiness. Claim ceiling: source/wiki synthesis only; no fresh runtime proof, no maintainer acceptance, no product readiness, no release certification.
+
 ## 2026-06-19 - Codex Ratchet cross-issue deepening intake
 
 Added [[projects/codex-ratchet/cross-issue-deepening-intake-2026-06-19]] and [[projects/codex-ratchet/cross-issue-finite-test-backlog-2026-06-19]] from the `origin/import/codex-ratchet-cross-issue-deepening-2026-06-19` branch without merging the stale branch wholesale. They preserve underprocessed older-source mechanics and turn them into finite-test/source-extraction queues. Claim ceiling: source-processing/planning only; no sim admission, no M(C), no QIT-engine, no Axis0, no bridge, no physics promotion.

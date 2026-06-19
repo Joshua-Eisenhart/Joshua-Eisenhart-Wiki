@@ -100,6 +100,9 @@ Remote `main` observed on 2026-06-19 after the next processing pass: `5dd98ac4ce
 19. [[projects/leviathan-current/packet-13-pasted-fep-runtime-boundary-audit-intake-2026-06-19]] as pasted FEP/runtime-boundary audit intake; advisory only, not FEP implementation proof.
 20. [[projects/leviathan-current/codex-imports/v3-deep-repo-nuance-bundle-2026-06-19]] as branch-imported V3 bundle intake; source synthesis only, not runtime proof.
 21. [[projects/leviathan-current/codex-imports/v4-cross-issues-deep-dive-2026-06-19]] as branch-imported V4 cross-issues intake; source synthesis only, not runtime proof.
+
+V4 split pages start at [[projects/leviathan-current/operating-contract-vs-product-proof-2026-06-19]], [[projects/leviathan-current/docs-authority-vs-status-drift-v4-2026-06-19]], [[projects/leviathan-current/security-gate-stack-v4-2026-06-19]], [[projects/leviathan-current/surface-family-matrix-v4-2026-06-19]], and [[projects/leviathan-current/release-readiness-ladder-v4-2026-06-19]]; all are source synthesis only, not runtime proof.
+
 22. [[projects/leviathan-current/codex-ratchet-vs-leviathan-boundary]].
 23. [[projects/leviathan-current/current-state-and-roadmap]].
 24. [[projects/leviathan-current/architecture-planes-and-ownership]].

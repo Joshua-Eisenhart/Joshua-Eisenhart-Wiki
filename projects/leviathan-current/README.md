@@ -219,6 +219,26 @@ Packet 13 note: the audit is useful for FEP/active-inference and world-model bou
 
 - `codex-imports/v4-cross-issues-deep-dive-2026-06-19.md` — branch-imported Markdown bundle from `origin/leviathan-v4-cross-issues-import-2026-06-19`. It should be split into cross-issue pages only after current source reads and evidence labeling; it is not runtime proof, product readiness, release certification, or maintainer acceptance.
 
+Split pages now derived from this bundle:
+
+- [[projects/leviathan-current/operating-contract-vs-product-proof-2026-06-19]]
+- [[projects/leviathan-current/docs-authority-vs-status-drift-v4-2026-06-19]]
+- [[projects/leviathan-current/agents-md-operating-contract-risk-2026-06-19]]
+- [[projects/leviathan-current/exec-poly-daemon-package-posture-v4-2026-06-19]]
+- [[projects/leviathan-current/app-layer-readiness-map-2026-06-19]]
+- [[projects/leviathan-current/onboarding-dx-proof-ladder-v4-2026-06-19]]
+- [[projects/leviathan-current/security-gate-stack-v4-2026-06-19]]
+- [[projects/leviathan-current/plugin-manifest-inflation-risk-v4-2026-06-19]]
+- [[projects/leviathan-current/vision-strategic-truth-vs-magnus-opus-overhang-2026-06-19]]
+- [[projects/leviathan-current/north-star-narrative-vs-proof-map-2026-06-19]]
+- [[projects/leviathan-current/memory-backend-readiness-ladder-2026-06-19]]
+- [[projects/leviathan-current/config-xdg-fractal-root-gap-2026-06-19]]
+- [[projects/leviathan-current/surface-family-matrix-v4-2026-06-19]]
+- [[projects/leviathan-current/lev-agentping-agentguard-three-system-map-2026-06-19]]
+- [[projects/leviathan-current/enterprise-readiness-gap-v4-2026-06-19]]
+- [[projects/leviathan-current/moat-vs-adoption-proof-v4-2026-06-19]]
+- [[projects/leviathan-current/release-readiness-ladder-v4-2026-06-19]]
+
 ### Contribution / provenance / research / assessment starters
 
 - `josh-contribution-signal-radar.md` — grounded starter radar for Josh's constraint contributions in docs/code.
