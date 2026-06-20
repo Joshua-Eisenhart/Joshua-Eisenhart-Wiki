@@ -27,17 +27,19 @@ dependencies; live model pools are required but provider identities are
 per-run capabilities; and deterministic hard-wall gates remain the only
 promotion path.
 
-Current June 20 checkpoint: `2462378` adds the unified live-swarm product run
-on top of the Marketing Harness planner, Core Lev OS evidence-manifest cut,
-GitHub Action required-check runner, Marketing Scientist plugin/demo, and
-verified flexible model-pool receipts. The clean-extracted v21 zip passed
-`npm run product:verify`; the full product run attempted the 27-seat 3x3x3
-TeamHarness topology, accepted 11 typed live seats across 3 providers and 5
-models, recorded 16 failed/blocked/malformed seats literally, and still kept
-the hard ClaimGate gate as the only promotion path. The live model pool
-completed 9 lanes, with Gemini CLI still recorded as `exit_1`. The marketing
-lane is now explicit: campaign brief -> variants -> metrics envelope ->
-hard-wall verdict.
+Current June 20 checkpoint: `a57a142` adds the source-integration truth gate on
+top of the unified live-swarm product run, Marketing Harness planner, Core Lev
+OS evidence-manifest cut, GitHub Action required-check runner, Marketing
+Scientist plugin/demo, and verified flexible model-pool receipts. The
+clean-extracted v22 zip passed `npm run product:verify`; the full product run
+attempted the 27-seat 3x3x3 TeamHarness topology, accepted 17 typed live seats
+across 3 providers and 7 models, recorded 10 failed/blocked/malformed seats
+literally, and still kept the hard ClaimGate gate as the only promotion path.
+The new source ledger reports `properly_integrated_count: 0`: Wizard v4.3 is
+`adapter_partial`, oh-my-openagent v4.12.0 is `pattern_extracted`, the 0xRicker
+X post is `unresolved_source`, and the YouTube marketing video is
+`not_processed`. The marketing lane is explicit but not video-grounded yet:
+campaign brief -> variants -> metrics envelope -> hard-wall verdict.
 
 ## Bottom line
 

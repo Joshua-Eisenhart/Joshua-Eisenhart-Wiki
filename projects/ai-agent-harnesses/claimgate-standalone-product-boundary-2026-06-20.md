@@ -6,8 +6,8 @@ created: 2026-06-20
 scope: ClaimGate standalone packaging, model-pool semantics, Core Lev OS plugin direction, and external multi-agent harness research
 claim_ceiling: source-grounded product boundary note, not full market survey
 local_product_repo: /Users/joshuaeisenhart/claimgate-suite
-local_product_commit: 2462378 Add unified live swarm product run
-verified_zip: /Users/joshuaeisenhart/Downloads/ClaimGate_CoreLevOS_COMPLETE_SINGLE_ZIP_v21_full_unified_product_live_swarm_20260620161336.zip
+local_product_commit: a57a142 Add source integration truth gate
+verified_zip: /Users/joshuaeisenhart/Downloads/ClaimGate_CoreLevOS_COMPLETE_SINGLE_ZIP_v22_source_integration_truth.zip
 ```
 
 ## Decision
@@ -36,7 +36,7 @@ The standalone product repo now exists at:
 Current local git checkpoint:
 
 ```text
-2462378 Add unified live swarm product run
+a57a142 Add source integration truth gate
 ```
 
 The repo tracks the product source, compact live-model receipts, and the
@@ -588,4 +588,91 @@ volatile. It is a claim that the full 27-seat topology was attempted, malformed
 lanes were recorded literally, and the run only passed because enough distinct
 providers/models returned parseable non-promoting observations while the hard
 gate remained the only admission path.
+```
+
+## 2026-06-20 Source-integration truth correction
+
+Local product repo checkpoint:
+
+```text
+a57a142 Add source integration truth gate
+```
+
+Fresh archive:
+
+```text
+/Users/joshuaeisenhart/Downloads/ClaimGate_CoreLevOS_COMPLETE_SINGLE_ZIP_v22_source_integration_truth.zip
+entries=402
+size=414K
+PACKAGE_MANIFEST.txt entries=315
+```
+
+Reason for this checkpoint:
+
+```text
+The prior "unified" wording was too strong. It blurred pattern extraction and
+adapter shape into proper integration. v22 makes that claim boundary executable.
+```
+
+Added product gate:
+
+```text
+config/source-integration-ledger.json
+tools/source-integration-audit.js
+npm run source:integration:audit
+```
+
+Current source truth:
+
+```text
+Wizard v4.3: adapter_partial
+oh-my-openagent v4.12.0: pattern_extracted
+0xRicker X post 2067584599509651652: unresolved_source
+YouTube nEOjyNF-fbQ: not_processed
+properly_integrated_count: 0
+```
+
+Allowed and blocked interpretation:
+
+```text
+Allowed:
+- ClaimGate has a standalone Wizard v4.3 object-card adapter.
+- ClaimGate stripped durable-team filesystem patterns from oh-my-openagent-like
+  team-mode systems.
+- ClaimGate has an independently implemented hard-wall live swarm runner.
+- Marketing Scientist was built from user-provided direction/screenshots.
+
+Blocked:
+- full Wizard v4.3 council runtime ran;
+- oh-my-openagent Codex-thread teammode was ported;
+- the 0xRicker X post was source-backed processed or reproduced;
+- the YouTube video was processed or transcript-grounded.
+```
+
+Verification:
+
+```text
+npm test passed
+npm run product:verify passed
+npm run product:run passed
+npm run self:run passed
+npm run source:integration:audit passed
+npm run product:zip passed
+clean-extract npm run product:verify passed
+standalone boundary passed with missing runtime deps=0
+zip entries=402/500
+```
+
+Fresh live run status:
+
+```text
+product:run live model pool completed: 9
+product:run live model pool failed: gemini-cli-default exit_1
+product:run live swarm topology attempted: 27/27
+product:run live swarm completed typed seats: 17
+product:run live swarm failed/blocked/malformed seats: 10
+product:run live swarm accepted providers: openai-codex, openrouter, xai
+product:run live swarm accepted models: codex-native, deepseek/deepseek-v3.2, deepseek/deepseek-v4-pro, grok-4.3, moonshotai/kimi-k2.7-code, qwen/qwen3.7-max, z-ai/glm-5.2
+self:run live swarm completed typed seats: 12
+self:run admitted_on_synthesized_evidence: 0
 ```
