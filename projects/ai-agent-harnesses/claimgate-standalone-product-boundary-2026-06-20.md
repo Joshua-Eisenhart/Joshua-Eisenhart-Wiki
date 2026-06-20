@@ -292,3 +292,80 @@ Remaining load-bearing fix:
 ```text
 out_of_band_evidence_manifest_gate
 ```
+
+## 2026-06-20 Fusion / Chinese model fleet correction
+
+Local product repo checkpoint:
+
+```text
+1e3e9b5 Add Fusion Chinese model fleet
+```
+
+Fresh archive:
+
+```text
+/Users/joshuaeisenhart/Downloads/claimgate_complete_system_v16_fusion_chinese_fleet_max500_20260620150550.zip
+entries=239
+```
+
+Why this correction mattered:
+
+```text
+The prior live pool treated OpenRouter as one generic lane and used
+openrouter/auto. That was wrong for the product goal. It did not deliberately
+exercise OpenRouter Fusion or the current Chinese model families.
+```
+
+Current default live pool:
+
+```text
+openrouter-fusion            -> openrouter/fusion
+openrouter-deepseek-v4-pro   -> deepseek/deepseek-v4-pro
+openrouter-qwen-max          -> qwen/qwen3.7-max
+openrouter-kimi-k2           -> moonshotai/kimi-k2.6
+openrouter-glm               -> z-ai/glm-5.2
+openrouter-minimax           -> minimax/minimax-m3
+xai                          -> grok-4.3
+gemini-api                   -> gemini-2.5-flash
+gemini-cli                   -> gemini-cli-default
+codex-native                 -> codex-native
+```
+
+Fresh self-run status:
+
+```text
+completed: openrouter/openrouter/fusion
+completed: openrouter/deepseek/deepseek-v4-pro
+completed: openrouter/qwen/qwen3.7-max
+completed: openrouter/moonshotai/kimi-k2.6
+completed: openrouter/z-ai/glm-5.2
+completed: openrouter/minimax/minimax-m3
+completed: xai/grok-4.3
+completed: google/gemini-2.5-flash
+completed: openai-codex/codex-native
+failed: google/gemini-cli-default exit_1
+overall build: passed with accepted=9 providers=4 distinct_models=9
+honesty audit: blocked; admitted_on_synthesized_evidence=4
+```
+
+Clean extracted zip verification:
+
+```text
+npm run product:verify passed
+standalone boundary passed
+missing runtime deps=0
+```
+
+Product rule updated:
+
+```text
+Valid overall runs require provider diversity and model diversity.
+Multiple OpenRouter models are useful advisory breadth, but they do not by
+themselves satisfy provider diversity.
+```
+
+Claim ceiling:
+
+```text
+fusion_and_chinese_model_fleet_receipt_repair
+```
