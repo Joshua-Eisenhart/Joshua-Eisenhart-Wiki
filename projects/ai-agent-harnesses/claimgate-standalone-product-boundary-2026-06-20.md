@@ -3,11 +3,11 @@
 ```yaml
 status: product_research_checkpoint
 created: 2026-06-20
-scope: ClaimGate v12 standalone packaging, model-pool semantics, and external multi-agent harness research
+scope: ClaimGate standalone packaging, model-pool semantics, Core Lev OS plugin direction, and external multi-agent harness research
 claim_ceiling: source-grounded product boundary note, not full market survey
 local_product_repo: /Users/joshuaeisenhart/claimgate-suite
-local_product_commit: 5542514 initial standalone claimgate suite
-verified_zip: /Users/joshuaeisenhart/Downloads/claimgate_complete_system_v12_standalone_product_live_pool_max500_20260620121258.zip
+local_product_commit: 84dda6a Add marketing harness planner
+verified_zip: /Users/joshuaeisenhart/Downloads/ClaimGate_CoreLevOS_COMPLETE_SINGLE_ZIP_v20_marketing_harness_verified_fleet_20260620154520.zip
 ```
 
 ## Decision
@@ -36,7 +36,7 @@ The standalone product repo now exists at:
 Current local git checkpoint:
 
 ```text
-5542514 initial standalone claimgate suite
+84dda6a Add marketing harness planner
 ```
 
 The repo tracks the product source, compact live-model receipts, and the
@@ -368,4 +368,151 @@ Claim ceiling:
 
 ```text
 fusion_and_chinese_model_fleet_receipt_repair
+```
+
+## 2026-06-20 Core Lev OS / evidence-manifest / marketing cut
+
+Local product repo checkpoint:
+
+```text
+fe6a8d4 Add Core Lev OS evidence manifest cut
+```
+
+Fresh archive:
+
+```text
+/Users/joshuaeisenhart/Downloads/ClaimGate_CoreLevOS_COMPLETE_SINGLE_ZIP_v19_verified_fleet_20260620152956.zip
+entries=343
+size=317K
+```
+
+What changed:
+
+- wired `evidence_manifest` into the ClaimGate hard-wall verification path;
+- added evidence manifests to bundled SDLC demos and full-loop fixtures;
+- changed controller/honesty tests so self-synthesized harness evidence cannot self-close;
+- added a local composite GitHub Action runner that derives advisory PR claim/effect inputs from PR metadata, changed files, and check runs;
+- added the Core Lev OS plugin-first product docs;
+- added the Marketing Scientist plugin, marketing policy pack, and a working marketing experiment-readiness demo;
+- refreshed the verified flexible live pool receipts.
+
+Verification:
+
+```text
+repo npm run product:verify passed
+repo npm run self:run passed
+clean-extract npm run product:verify passed
+clean-extract npm run self:run passed
+standalone boundary passed
+missing runtime deps=0
+zip entries=343/500
+```
+
+Fresh live self-run status:
+
+```text
+completed: openrouter/openrouter/fusion
+completed: openrouter/deepseek/deepseek-v4-pro
+completed: openrouter/qwen/qwen3.7-max
+completed: openrouter/moonshotai/kimi-k2.7-code
+completed: openrouter/z-ai/glm-5.2
+completed: openrouter/minimax/minimax-m3
+completed: xai/grok-4.3
+completed: google/gemini-2.5-flash
+completed: openai-codex/codex-native
+failed: google/gemini-cli-default exit_1
+overall build: passed with accepted=9 providers=4 distinct_models=9
+honesty audit: passed; admitted_on_synthesized_evidence=0
+```
+
+Core product interpretation:
+
+```text
+Core Lev OS = capture -> classify -> owner -> next action -> execute -> evidence -> gate -> receipt -> memory
+ClaimGate = hard wall / deterministic promotion layer
+SDLC = first proof-friendly manifestation domain
+Marketing Scientist = first creative/business plugin
+```
+
+Marketing-specific rule:
+
+```text
+Marketing output may be experiment-ready before it is performance-proven.
+Performance claims require delayed source-bound telemetry gates.
+```
+
+This implements the screenshot direction without turning ClaimGate into a vague
+OS claim: the package still launches through SDLC/ClaimGate, but now includes
+the first plugin bridge to creative/business operations.
+
+## 2026-06-20 Marketing Harness checkpoint
+
+Local product repo checkpoint:
+
+```text
+84dda6a Add marketing harness planner
+```
+
+Fresh archive:
+
+```text
+/Users/joshuaeisenhart/Downloads/ClaimGate_CoreLevOS_COMPLETE_SINGLE_ZIP_v20_marketing_harness_verified_fleet_20260620154520.zip
+entries=354
+size=329K
+```
+
+What changed beyond v19:
+
+- processed `claimgate_complete_system_v18_marketing_harness_max500.zip` as an
+  intake delta rather than replacing the verified product tree;
+- added `packages/claimgate-marketing`, a dependency-free campaign brief
+  planner and metrics-envelope verifier;
+- added `claimgate marketing plan` and `claimgate marketing verify`;
+- split `npm run marketing:demo` into the existing ClaimGate Marketing
+  Scientist readiness gate plus the new Marketing Harness metric verdict;
+- added `examples/marketing/CAMPAIGN_BRIEF.md` and
+  `examples/marketing/metrics-envelope.json`;
+- added `tests/marketing-tests.js`;
+- added a Marketing Lab UI route backed by `/api/marketing`;
+- kept the live flexible model-pool receipts and deterministic hard-wall
+  promotion rule from v19.
+
+Verification:
+
+```text
+repo npm run marketing:harness-demo passed
+repo npm run marketing:demo passed
+repo npm test passed
+repo npm run product:verify passed
+repo npm run self:run passed
+clean-extract npm run product:verify passed
+standalone boundary passed
+missing runtime deps=0
+zip entries=354/500
+```
+
+Fresh live self-run status:
+
+```text
+completed: openrouter/openrouter/fusion
+completed: openrouter/deepseek/deepseek-v4-pro
+completed: openrouter/qwen/qwen3.7-max
+completed: openrouter/moonshotai/kimi-k2.7-code
+completed: openrouter/z-ai/glm-5.2
+completed: openrouter/minimax/minimax-m3
+completed: xai/grok-4.3
+completed: google/gemini-2.5-flash
+completed: openai-codex/codex-native
+failed: google/gemini-cli-default exit_1
+overall build: passed with accepted=9 providers=4 distinct_models=9
+honesty audit: passed; admitted_on_synthesized_evidence=0
+```
+
+Marketing Harness rule:
+
+```text
+Creative variants are soft proposals.
+Metric envelope verification is the hard wall for campaign-performance claims.
+Manual owner uploads are allowed as a temporary oracle, but live GA4/Meta/CRM
+connectors remain future work.
 ```

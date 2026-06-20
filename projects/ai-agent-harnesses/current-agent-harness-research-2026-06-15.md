@@ -27,6 +27,16 @@ dependencies; live model pools are required but provider identities are
 per-run capabilities; and deterministic hard-wall gates remain the only
 promotion path.
 
+Current June 20 checkpoint: `84dda6a` adds the Marketing Harness planner and
+metrics-envelope verifier on top of the Core Lev OS evidence-manifest cut,
+GitHub Action required-check runner, Marketing Scientist plugin/demo, and
+verified flexible model-pool receipts. The clean-extracted v20 zip passed
+`npm run product:verify`; live self-run completed Fusion, DeepSeek v4 Pro,
+Qwen 3.7 Max, Kimi K2.7 Code, GLM 5.2, MiniMax M3, Grok 4.3, Gemini API, and
+Codex native, with Gemini CLI still recorded as `exit_1`. The marketing lane
+is now explicit: campaign brief -> variants -> metrics envelope -> hard-wall
+verdict.
+
 ## Bottom line
 
 The current research trend is clear:
