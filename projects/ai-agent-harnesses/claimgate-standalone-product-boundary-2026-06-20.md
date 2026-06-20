@@ -6,7 +6,7 @@ created: 2026-06-20
 scope: ClaimGate standalone packaging, model-pool semantics, Core Lev OS plugin direction, and external multi-agent harness research
 claim_ceiling: source-grounded product boundary note, not full market survey
 local_product_repo: /Users/joshuaeisenhart/claimgate-suite
-local_product_commit: a57a142 Add source integration truth gate
+local_product_commit: 38a8c91 Expose source truth and live swarm in UI
 verified_zip: /Users/joshuaeisenhart/Downloads/ClaimGate_CoreLevOS_COMPLETE_SINGLE_ZIP_v22_source_integration_truth.zip
 ```
 
@@ -36,7 +36,7 @@ The standalone product repo now exists at:
 Current local git checkpoint:
 
 ```text
-a57a142 Add source integration truth gate
+38a8c91 Expose source truth and live swarm in UI
 ```
 
 The repo tracks the product source, compact live-model receipts, and the
@@ -675,4 +675,50 @@ product:run live swarm accepted providers: openai-codex, openrouter, xai
 product:run live swarm accepted models: codex-native, deepseek/deepseek-v3.2, deepseek/deepseek-v4-pro, grok-4.3, moonshotai/kimi-k2.7-code, qwen/qwen3.7-max, z-ai/glm-5.2
 self:run live swarm completed typed seats: 12
 self:run admitted_on_synthesized_evidence: 0
+```
+
+## 2026-06-20 OG Web UI context correction
+
+Local product repo checkpoint:
+
+```text
+38a8c91 Expose source truth and live swarm in UI
+```
+
+The original web UI direction was not an abstract cognition dashboard. It was a
+GitHub-native trust product:
+
+```text
+primary user question: Can this work count?
+surface language: Change Claim, Open Risk, Next Best Check, Decision Preview,
+Audit Receipt, Trust Policy, Bounded Rework
+visual posture: calm required-check style, five answers in under ten seconds
+```
+
+This checkpoint keeps that front door and adds the missing current-truth tabs:
+
+```text
+TeamHarness / Live Swarm:
+- exposes the 3x3x3 advisory live swarm receipt;
+- shows completed typed seats, failed/malformed seats, providers, and models;
+- states that live model lanes are advisory only and never promote.
+
+Source Truth:
+- exposes the source-integration audit and ledger;
+- shows properly_integrated_count: 0;
+- keeps Wizard v4.3, oh-my-openagent, X, and YouTube claims at their earned
+  source ceilings.
+```
+
+Fresh verification:
+
+```text
+npm run ui:smoke passed
+node tests/ui-smoke.js passed
+npm test passed
+npm run product:verify passed
+npm run product:zip passed
+clean-extract npm run product:verify passed
+zip entries=402/500
+verified zip: /Users/joshuaeisenhart/Downloads/ClaimGate_CoreLevOS_COMPLETE_SINGLE_ZIP_v22_source_integration_truth.zip
 ```
