@@ -17,6 +17,16 @@ The local wiki harness corpus has now been processed into:
 
 That companion file covers conceptual harness docs, Wizard runtime/conformance docs, Claude/Hermes restart-memory docs, and Codex-Ratchet steward/archive harness docs. Use this file for the current external-paper front door; use the companion for local wiki doctrine.
 
+## ClaimGate product boundary checkpoint
+
+`projects/ai-agent-harnesses/claimgate-standalone-product-boundary-2026-06-20.md`
+
+This companion note captures the June 20 ClaimGate standalone packaging
+decision: Wizard/Ratchet/Hermes/Leviathan are source mines, not product
+dependencies; live model pools are required but provider identities are
+per-run capabilities; and deterministic hard-wall gates remain the only
+promotion path.
+
 ## Bottom line
 
 The current research trend is clear:
