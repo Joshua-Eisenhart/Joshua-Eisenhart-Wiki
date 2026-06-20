@@ -177,3 +177,60 @@ all source repos bundled
 consensus-based admission
 fixed-provider deterministic live model calls
 ```
+
+## 2026-06-20 TeamHarness / model-agnostic checkpoint
+
+Local product repo checkpoint:
+
+```text
+512a97b Add model-agnostic TeamHarness
+```
+
+Fresh archive:
+
+```text
+/Users/joshuaeisenhart/Downloads/claimgate_complete_system_v14_model_agnostic_teamharness_max500_20260620132609.zip
+entries=291
+size=265K
+```
+
+What changed:
+
+- added `packages/claimgate-team-harness`;
+- added `claimgate team create|validate|run|summarize`;
+- added `npm run team:demo`;
+- added `tools/live-model-pool.js` / `npm run model-pool:refresh`;
+- added model-pool composition guard to `overall build`;
+- added tests that reject same-provider fake swarms and accept arbitrary
+  provider names when returned receipts are diverse.
+
+Fresh live pool status:
+
+```text
+completed: openrouter/openrouter/auto, xai/grok-4.3, openai-codex/codex-native
+failed: google-gemini-cli/gemini-cli-default exit_1
+overall build: passed with accepted=3 providers=3
+```
+
+Verification:
+
+```bash
+npm run model-pool:refresh
+npm run product:verify
+npm run team:demo
+```
+
+Claim ceiling:
+
+```text
+model_agnostic_team_harness_and_composition_guard
+```
+
+Not yet claimed:
+
+```text
+production multi-agent orchestration
+stable provider availability
+full Wizard runtime proof
+model consensus as admission
+```
