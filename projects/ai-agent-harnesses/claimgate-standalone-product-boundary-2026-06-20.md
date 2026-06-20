@@ -234,3 +234,61 @@ stable provider availability
 full Wizard runtime proof
 model consensus as admission
 ```
+
+## 2026-06-20 Honesty self-run checkpoint
+
+Local product repo checkpoint:
+
+```text
+1eb0bf5 Add honesty self-run audit
+```
+
+Fresh archive:
+
+```text
+/Users/joshuaeisenhart/Downloads/claimgate_complete_system_v15_honesty_selfrun_max500_20260620133753.zip
+entries=297
+size=266K
+```
+
+Clean extract verification:
+
+```text
+npm run product:verify passed
+npm run self:run reproduced the same self-audit result
+```
+
+What changed:
+
+- controller-synthesized evidence is now stamped in structured
+  `evidence_provenance[]` entries;
+- `tools/honesty-check.js` flags admitted candidates that used
+  harness-synthesized placeholder evidence;
+- `tools/self-run.js` refreshes the live model pool, runs TeamHarness,
+  overall build, controller demo, and honesty audit;
+- `tests/honesty-check-tests.js` makes the known smuggle machine-visible;
+- Gemini API was added to the live pool, while Gemini CLI failure remains
+  recorded literally.
+
+Fresh self-run status:
+
+```text
+requested: openrouter, xai, gemini-api, gemini-cli, codex-native
+completed: openrouter/openrouter/auto, xai/grok-4.3, google/gemini-2.5-flash, openai-codex/codex-native
+failed: google/gemini-cli-default exit_1
+overall build: passed with accepted=4 providers=4
+honesty audit: blocked; admitted_on_synthesized_evidence=4
+```
+
+Important interpretation:
+
+```text
+The system can now run itself and report that the demo loop is not fully honest.
+This is a stronger product state than a green demo: the hard-wall gap is visible.
+```
+
+Remaining load-bearing fix:
+
+```text
+out_of_band_evidence_manifest_gate
+```
