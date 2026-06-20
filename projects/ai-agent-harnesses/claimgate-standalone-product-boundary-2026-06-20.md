@@ -6,8 +6,8 @@ created: 2026-06-20
 scope: ClaimGate standalone packaging, model-pool semantics, Core Lev OS plugin direction, and external multi-agent harness research
 claim_ceiling: source-grounded product boundary note, not full market survey
 local_product_repo: /Users/joshuaeisenhart/claimgate-suite
-local_product_commit: 84dda6a Add marketing harness planner
-verified_zip: /Users/joshuaeisenhart/Downloads/ClaimGate_CoreLevOS_COMPLETE_SINGLE_ZIP_v20_marketing_harness_verified_fleet_20260620154520.zip
+local_product_commit: 2462378 Add unified live swarm product run
+verified_zip: /Users/joshuaeisenhart/Downloads/ClaimGate_CoreLevOS_COMPLETE_SINGLE_ZIP_v21_full_unified_product_live_swarm_20260620161336.zip
 ```
 
 ## Decision
@@ -36,7 +36,7 @@ The standalone product repo now exists at:
 Current local git checkpoint:
 
 ```text
-84dda6a Add marketing harness planner
+2462378 Add unified live swarm product run
 ```
 
 The repo tracks the product source, compact live-model receipts, and the
@@ -515,4 +515,77 @@ Creative variants are soft proposals.
 Metric envelope verification is the hard wall for campaign-performance claims.
 Manual owner uploads are allowed as a temporary oracle, but live GA4/Meta/CRM
 connectors remain future work.
+```
+
+## 2026-06-20 Full unified live-swarm product checkpoint
+
+Local product repo checkpoint:
+
+```text
+2462378 Add unified live swarm product run
+```
+
+Fresh archive:
+
+```text
+/Users/joshuaeisenhart/Downloads/ClaimGate_CoreLevOS_COMPLETE_SINGLE_ZIP_v21_full_unified_product_live_swarm_20260620161336.zip
+entries=395
+size=419K
+PACKAGE_MANIFEST.txt entries=310
+```
+
+What changed beyond v20:
+
+- added `tools/live-swarm-run.js`, which attempts the full 3x3x3 TeamHarness
+  topology through the live provider adapters;
+- completed seats must return parseable typed JSON with provider/model/runtime
+  metadata and `promotion_allowed:false`;
+- blocked, malformed, empty, or provider-failed seats are recorded literally and
+  do not count toward plurality;
+- added `tools/product-run.js`, the unified product run:
+  `live model pool -> live 3x3x3 swarm -> product:verify -> product-run receipt`;
+- added `tools/package-zip.js`, a manifest-driven zip builder that updates
+  `PACKAGE_MANIFEST.txt` and `ZIP_ENTRY_COUNT.txt`;
+- added compact proof receipt allowlists for `.cdo/live-swarm`,
+  `.cdo/product-run`, and `.cdo/overall-build/overall-build-receipt.json`;
+- kept the hard-wall rule: live swarms propose/tighten only; deterministic
+  ClaimGate gates remain the only promoter.
+
+Verification:
+
+```text
+repo npm test passed
+repo npm run product:run passed
+repo npm run self:run passed
+repo npm run standalone:check passed
+repo npm run product:zip passed
+clean-extract npm run product:verify passed
+standalone boundary passed
+missing runtime deps=0
+zip entries=395/500
+```
+
+Live product-run status:
+
+```text
+live model pool completed: 9
+live model pool failed: gemini-cli-default exit_1
+live swarm topology attempted: 27/27
+live swarm completed typed seats: 11
+live swarm failed/blocked/malformed seats: 16
+live swarm accepted providers: openai-codex, openrouter, xai
+live swarm accepted models: codex-native, deepseek/deepseek-v3.2, grok-4.3, qwen/qwen3.7-max, z-ai/glm-5.2
+overall build: passed, hard gate admitted only on gate_clean
+marketing harness: passed, continue_or_scale
+```
+
+Interpretation:
+
+```text
+This is now a unified standalone product run with a real live model swarm.
+It is not a claim that every seat completed, because model/provider behavior is
+volatile. It is a claim that the full 27-seat topology was attempted, malformed
+lanes were recorded literally, and the run only passed because enough distinct
+providers/models returned parseable non-promoting observations while the hard
+gate remained the only admission path.
 ```
