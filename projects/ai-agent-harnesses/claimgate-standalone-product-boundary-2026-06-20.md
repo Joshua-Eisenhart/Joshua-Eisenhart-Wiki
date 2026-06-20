@@ -298,13 +298,13 @@ out_of_band_evidence_manifest_gate
 Local product repo checkpoint:
 
 ```text
-1e3e9b5 Add Fusion Chinese model fleet
+ee91008 Use verified Kimi K2.7 model
 ```
 
 Fresh archive:
 
 ```text
-/Users/joshuaeisenhart/Downloads/claimgate_complete_system_v16_fusion_chinese_fleet_max500_20260620150550.zip
+/Users/joshuaeisenhart/Downloads/claimgate_complete_system_v17_verified_fusion_chinese_fleet_max500_20260620151339.zip
 entries=239
 ```
 
@@ -322,7 +322,7 @@ Current default live pool:
 openrouter-fusion            -> openrouter/fusion
 openrouter-deepseek-v4-pro   -> deepseek/deepseek-v4-pro
 openrouter-qwen-max          -> qwen/qwen3.7-max
-openrouter-kimi-k2           -> moonshotai/kimi-k2.6
+openrouter-kimi-k2           -> moonshotai/kimi-k2.7-code
 openrouter-glm               -> z-ai/glm-5.2
 openrouter-minimax           -> minimax/minimax-m3
 xai                          -> grok-4.3
@@ -337,7 +337,7 @@ Fresh self-run status:
 completed: openrouter/openrouter/fusion
 completed: openrouter/deepseek/deepseek-v4-pro
 completed: openrouter/qwen/qwen3.7-max
-completed: openrouter/moonshotai/kimi-k2.6
+completed: openrouter/moonshotai/kimi-k2.7-code
 completed: openrouter/z-ai/glm-5.2
 completed: openrouter/minimax/minimax-m3
 completed: xai/grok-4.3
