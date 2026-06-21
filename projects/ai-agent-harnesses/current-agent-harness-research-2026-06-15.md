@@ -27,25 +27,33 @@ dependencies; live model pools are required but provider identities are
 per-run capabilities; and deterministic hard-wall gates remain the only
 promotion path.
 
-Current June 20 checkpoint: `52aa1d9` adds the v19 prior-thread Lev-native
-Harness Author intake on top of the `38a8c91` source-truth/live-swarm UI and
-the `a57a142` source-integration truth gate. The v23 zip
+Current June 20 checkpoint: `10c611f` repairs the Harness Author Lev FlowMind
+export after mass testing showed the previous `slots:` sketch parsed as
+`format: unknown` with `nodeCount: 0`. The v23 zip
 `ClaimGate_CoreLevOS_COMPLETE_SINGLE_ZIP_v23_lev_native_harness_author.zip`
 clean-extracted and passed `npm run product:verify` with 410 entries under the
 500-entry cap. The v19 solution contributed a useful product primitive:
 Axiom Digger -> Constraint Digger -> Gate Digger -> proposal-only Lev-shaped
 Project Harness export. This is now runnable as `claimgate harness-author ...`,
 `npm run harness:demo`, `npm run harness:compile-demo`, tested by
-`tests/harness-author-tests.js`, and exposed in the web UI. Its ceiling remains
-explicit: it emits proposals and scaffolds, but does not prove that a live Lev
-core/eval runtime consumed the generated pack or that generated gates can
-promote themselves.
+`tests/harness-author-tests.js`, and exposed in the web UI. When local
+Leviathan is installed, the generated FlowMind graph now passes
+`lev exec --flow ... --dry-run` with `format: graph`, `entry: ingest`, and
+`nodeCount: 8`. Its ceiling remains explicit: it emits proposals and
+runner-parseable scaffolds, but does not prove that a live Lev core/eval
+runtime consumed the generated eval pack or that generated gates can promote
+themselves.
 
 The full product still keeps the hard ClaimGate gate as the only promotion
-path. The full product run attempted the 27-seat 3x3x3 TeamHarness topology,
-accepted 17 typed live seats across 3 providers and 7 models, recorded 10
-failed/blocked/malformed seats literally, and still kept live model lanes
-advisory. The web UI keeps the original GitHub-native trust-product direction:
+path. The post-fix `product:run` attempted the 27-seat 3x3x3 TeamHarness
+topology, accepted 13 typed live seats across 3 providers and 7 models, and
+recorded 14 failed/blocked/malformed seats literally. The post-fix `self:run`
+attempted the same topology, accepted 14 typed live seats across 3 providers
+and 7 models, and passed the honesty audit with
+`admitted_on_synthesized_evidence: 0`. The live provider pool accepted 9 lanes
+across OpenRouter, xAI, Google API, and Codex-native, while `gemini-cli-default`
+failed with `exit_1`. The web UI keeps the original GitHub-native
+trust-product direction:
 "Can this work count?", with TeamHarness/Live Swarm, Source Truth, and Harness
 Author tabs that surface current receipts without upgrading advisory or source
 mining work into promotion evidence. The source ledger still reports

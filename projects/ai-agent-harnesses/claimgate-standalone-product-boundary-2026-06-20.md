@@ -6,7 +6,7 @@ created: 2026-06-20
 scope: ClaimGate standalone packaging, model-pool semantics, Core Lev OS plugin direction, and external multi-agent harness research
 claim_ceiling: source-grounded product boundary note, not full market survey
 local_product_repo: /Users/joshuaeisenhart/claimgate-suite
-local_product_commit: 52aa1d9 Add Lev-native harness author intake
+local_product_commit: 10c611f feat(claimgate): repair Lev harness flow graph
 verified_zip: /Users/joshuaeisenhart/Downloads/ClaimGate_CoreLevOS_COMPLETE_SINGLE_ZIP_v23_lev_native_harness_author.zip
 ```
 
@@ -36,7 +36,7 @@ The standalone product repo now exists at:
 Current local git checkpoint:
 
 ```text
-52aa1d9 Add Lev-native harness author intake
+10c611f feat(claimgate): repair Lev harness flow graph
 ```
 
 The repo tracks the product source, compact live-model receipts, and the
@@ -54,13 +54,92 @@ npm run product:verify
 The standalone zip verified from clean extraction with:
 
 ```text
-entries_after=297
+entries_after=410
 max_entries=500
 product_verify=passed
-model pool=partial accepted=4 providers=3
+model pool=partial accepted=9 providers=4
 standalone boundary=passed
 missing runtime deps=0
 errors=0
+```
+
+## 2026-06-20 mass-test / Leviathan repair checkpoint
+
+Leviathan/Lev was repaired locally because `lev` was not on the PATH and the
+checkout lacked installed workspace dependencies. Repair action:
+
+```text
+lev checkout: /Users/joshuaeisenhart/GitHub/lev
+install: pnpm install --frozen-lockfile
+PATH shim: /Users/joshuaeisenhart/.local/bin/lev -> /Users/joshuaeisenhart/GitHub/lev/core/poly/bin/lev
+```
+
+The Lev checkout still has pre-existing unrelated dirty state and should not
+be treated as part of the ClaimGate product commit. The repaired command
+surface verifies:
+
+```text
+lev --help = works
+lev exec --help = works
+lev inspect = works
+lev harness inspect = UNKNOWN_COMMAND
+lev exec-receipt = discoverable but not runnable from root router
+```
+
+ClaimGate Harness Author was tightened after a live integration miss. The old
+generated `flow.flow.yaml` used a non-runnable `slots:` sketch; Lev parsed it
+as `format: unknown` with `nodeCount: 0`. The product now emits a real
+FlowMind proposal-verification graph with deterministic `lev.validate` action
+nodes. Fresh local and clean-extract probes both showed:
+
+```text
+lev exec --flow .lev/eval/suites/demo-project-harness/flow.flow.yaml --dry-run
+format=graph
+entry=ingest
+nodeCount=8
+```
+
+This is a runner-shape receipt only. It proves that Lev can parse the generated
+FlowMind graph. It does not prove that Lev `core/eval` consumed or admitted
+the generated eval suite.
+
+Mass-test receipts after the graph repair:
+
+```text
+npm run product:verify = passed
+npm run product:run = passed
+npm run self:run = passed
+clean-extract npm run product:verify = passed
+clean-extract harness:compile-demo + lev exec --flow --dry-run = passed
+```
+
+Live provider pool in the post-fix run:
+
+```text
+accepted: 9
+failed: 1
+accepted providers: openrouter, xai, google, openai-codex
+accepted models: openrouter/fusion, deepseek/deepseek-v4-pro, qwen/qwen3.7-max,
+  moonshotai/kimi-k2.7-code, z-ai/glm-5.2, minimax/minimax-m3, grok-4.3,
+  gemini-2.5-flash, codex-native
+failed: gemini-cli-default exit_1
+```
+
+The live 3x3x3 swarm remains model-agnostic and advisory:
+
+```text
+product:run swarm attempted=27 completed=13 failed=14 providers=3 models=7
+self:run swarm attempted=27 completed=14 failed=13 providers=3 models=7
+hard wall: external model lanes cannot promote
+honesty audit: admitted_on_synthesized_evidence=0
+```
+
+Zip after this checkpoint:
+
+```text
+/Users/joshuaeisenhart/Downloads/ClaimGate_CoreLevOS_COMPLETE_SINGLE_ZIP_v23_lev_native_harness_author.zip
+zip_entry_count=410
+size=429K
 ```
 
 ## Zip size lesson
