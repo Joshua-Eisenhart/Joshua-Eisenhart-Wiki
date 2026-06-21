@@ -27,7 +27,7 @@ dependencies; live model pools are required but provider identities are
 per-run capabilities; and deterministic hard-wall gates remain the only
 promotion path.
 
-Current June 20 checkpoint: `10c611f` repairs the Harness Author Lev FlowMind
+Current June 20 checkpoint: `fdaf147` repairs the Harness Author Lev FlowMind
 export after mass testing showed the previous `slots:` sketch parsed as
 `format: unknown` with `nodeCount: 0`. The v23 zip
 `ClaimGate_CoreLevOS_COMPLETE_SINGLE_ZIP_v23_lev_native_harness_author.zip`

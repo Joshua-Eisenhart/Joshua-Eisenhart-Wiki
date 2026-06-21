@@ -6,7 +6,7 @@ created: 2026-06-20
 scope: ClaimGate standalone packaging, model-pool semantics, Core Lev OS plugin direction, and external multi-agent harness research
 claim_ceiling: source-grounded product boundary note, not full market survey
 local_product_repo: /Users/joshuaeisenhart/claimgate-suite
-local_product_commit: 10c611f feat(claimgate): repair Lev harness flow graph
+local_product_commit: fdaf147 feat(claimgate): repair Lev harness flow graph
 verified_zip: /Users/joshuaeisenhart/Downloads/ClaimGate_CoreLevOS_COMPLETE_SINGLE_ZIP_v23_lev_native_harness_author.zip
 ```
 
@@ -36,7 +36,7 @@ The standalone product repo now exists at:
 Current local git checkpoint:
 
 ```text
-10c611f feat(claimgate): repair Lev harness flow graph
+fdaf147 feat(claimgate): repair Lev harness flow graph
 ```
 
 The repo tracks the product source, compact live-model receipts, and the
