@@ -964,3 +964,78 @@ Current Lev top-level help advertises harness commands, but `lev harness ...`
 returns UNKNOWN_COMMAND in this install. Treat the direct `lev exec ... --flow=...`
 path as the verified integration surface for this checkpoint.
 ```
+
+## 2026-06-20 v26 current-Lev-surface + top-cheap correction
+
+Processed input:
+
+```text
+/Users/joshuaeisenhart/Downloads/claimgate_complete_system_v25_alt_views_corelevos_max500.zip
+/Users/joshuaeisenhart/.codex/attachments/756e2723-ad1d-4f17-b2d2-331fa2235117/pasted-text.txt
+```
+
+Adopted outcome:
+
+```text
+/Users/joshuaeisenhart/Downloads/ClaimGate_CoreLevOS_COMPLETE_SINGLE_ZIP_v26_current_lev_surface_topcheap_pool.zip
+entries=387
+max=500
+clean-extract npm run product:verify passed
+```
+
+Current Lev surface correction:
+
+```text
+The useful JP/Claude direction is accepted:
+ontology + scoring policy -> validator node -> structured eval facts -> deterministic gate.
+
+The old "real @lev-os/eval / core/eval/src/constraint-manifold.ts" claim is not accepted as current local truth.
+The audited host Lev checkout's built root is:
+core/flowmind/src/kernel/constraint-manifold.ts
+core/flowmind/system/constraint-manifold.flow.yaml
+core/orchestration/src/eval/*
+
+ClaimGate may emit Lev-shaped Project Harness source, FlowMind verify-slot proposals,
+typed observations, code companions, and proof.yaml projections.
+It may not claim live Lev admission unless a live Lev validator consumes the pack.
+```
+
+Current model-pool defaults:
+
+```text
+openrouter-fusion              -> openrouter/fusion
+openrouter-deepseek-v4-flash   -> deepseek/deepseek-v4-flash
+openrouter-qwen-plus           -> qwen/qwen3.7-plus
+openrouter-kimi-k2             -> moonshotai/kimi-k2.7-code
+openrouter-glm                 -> z-ai/glm-5.2
+openrouter-minimax             -> minimax/minimax-m3
+xai                            -> grok-4.3
+gemini-api / gemini-cli default -> gemini-3.5-flash
+codex-native                   -> codex-native
+```
+
+Live integrated run result:
+
+```text
+product:run status: passed
+live model pool: 9 completed, 1 failed
+completed models: openrouter/fusion, deepseek/deepseek-v4-flash,
+qwen/qwen3.7-plus, moonshotai/kimi-k2.7-code, z-ai/glm-5.2,
+minimax/minimax-m3, grok-4.3, gemini-3.5-flash, codex-native
+failed lane recorded literally: gemini-cli gemini-3.5-flash exit_1
+
+live 3x3x3 swarm: 27/27 attempted, 15 completed, 12 failed,
+3 providers, 9 distinct models, advisory only.
+overall build: passed, hard gate admitted on gate_clean, 9 accepted model observations,
+4 providers, 9 models.
+```
+
+Product hardening added:
+
+```text
+docs/104_CURRENT_LEV_SURFACE_AUDIT.md
+tests/lev-surface-boundary-tests.js
+tools/package-zip.js source .lev island allowlist
+tools/package-zip.js compact .cdo receipt packaging and missing-file filter
+Gemini 2.5 Flash removed from live defaults and default tests
+```
