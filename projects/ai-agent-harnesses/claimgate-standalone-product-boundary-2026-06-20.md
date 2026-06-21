@@ -1127,3 +1127,150 @@ npm run product:verify passed
 npm run product:zip passed
 clean extract npm run product:verify passed
 ```
+
+## 2026-06-20 host-Lev steering consumer patch and pressure run
+
+Lev repo patch:
+
+```text
+/Users/joshuaeisenhart/GitHub/lev
+e828a4dd0 feat(orchestration): consume claimgate steering runs
+push status: blocked by remote 403 write access
+```
+
+This is the first host-side patch that consumes the ClaimGate v27
+`.lev/steering/runs/<run-id>` projection through current Lev code instead of
+only producing Lev-shaped files from the product repo.
+
+Added Lev surfaces:
+
+```text
+core/orchestration/src/proof/claim-gate-steering-run.ts
+core/orchestration/src/handlers/claimgate-steering.ts
+scripts/pressure-claimgate-steering.mjs
+```
+
+Command surface:
+
+```text
+lev orchestration claimgate-steering consume <run-dir> [--json] [--no-write]
+lev orchestration claimgate-steering batch <root-dir> [--concurrency=N] [--json] [--no-write]
+```
+
+Hard-wall behavior:
+
+```text
+required files:
+- run.json
+- proof-spec.json
+- eval-job.json
+- eval-job-output.json
+- boundary.json
+
+host Lev recomputes the EvalJobOutput verdict from ProofResult evidence.
+A valid ClaimGate fail verdict is consumed as host_consumed.
+Malformed or inconsistent projections become host_blocked.
+Host receipts are written separately:
+- lev-consumption-receipt.json
+- lev-consumption-boundary.json
+- lev-consumption-events.jsonl
+```
+
+Receipt repair:
+
+```text
+core/orchestration/src/receipt/factory.ts now preserves proofSpecId and
+verifierResultIds. Before this patch, createReceipt accepted those fields in
+the type surface but dropped them from the sealed receipt.
+```
+
+Focused verification:
+
+```text
+pnpm --dir core/orchestration exec vitest run src/proof/claim-gate-steering-run.test.ts src/receipt/receipt.test.ts
+2 files passed, 15 tests passed
+
+pnpm --dir core/orchestration exec tsc --noEmit --module NodeNext --moduleResolution NodeNext --target ES2022 --types node --skipLibCheck --strict src/proof/claim-gate-steering-run.ts src/handlers/claimgate-steering.ts src/receipt/factory.ts src/receipt/receipt.test.ts src/proof/claim-gate-steering-run.test.ts
+passed
+
+git diff --cached --check
+passed before commit
+```
+
+Real ClaimGate-to-Lev smoke:
+
+```text
+ClaimGate verify -> ClaimGate Lev projection -> host Lev consume
+/tmp/claimlev-smoke/steering
+
+./core/poly/bin/lev orchestration claimgate-steering consume /tmp/claimlev-smoke/steering --json
+status=host_consumed
+projectedVerdict=pass
+recomputedVerdict=pass
+liveLevConsumed=true
+proofSpecId=ps-claimgate-demo-cache-encryption-cg_receipt_c918724e2865
+```
+
+Pressure run, clean:
+
+```text
+node scripts/pressure-claimgate-steering.mjs --claimgate-root /Users/joshuaeisenhart/claimgate-suite --runs 256 --concurrency 32 --out /tmp/lev-claimgate-pressure-clean-256
+
+summary=/tmp/lev-claimgate-pressure-clean-256/pressure-summary.json
+generatedRuns=256
+generationFailures=0
+tamperedCount=0
+levExitStatus=0
+runCount=256
+okCount=256
+blockedCount=0
+verdictCounts pass=128 fail=128 conditional=0 deferred=0
+host receipt files=256
+host boundary files=256
+```
+
+Pressure run, adversarial:
+
+```text
+node scripts/pressure-claimgate-steering.mjs --claimgate-root /Users/joshuaeisenhart/claimgate-suite --runs 96 --concurrency 16 --inject-mismatch-every 12 --out /tmp/lev-claimgate-pressure-adversarial-96
+
+summary=/tmp/lev-claimgate-pressure-adversarial-96/pressure-summary.json
+generatedRuns=96
+generationFailures=0
+tamperedCount=8
+levExitStatus=1
+runCount=96
+okCount=88
+blockedCount=8
+blockedCode=eval_output.verdict_mismatch
+verdictCounts pass=40 fail=56 conditional=0 deferred=0
+host receipt files=96
+host boundary files=96
+```
+
+Broader Lev verification boundary:
+
+```text
+pnpm --dir core/orchestration exec vitest run
+33 files passed, 5 files failed, 509 tests passed, 2 tests failed
+
+Known red surfaces observed during this run:
+- @lev-os/config / @lev-os/config/xdg-paths resolution failures
+- @lev-os/flowmind resolution failures
+- src/__tests__/parallel-fulfillment.test.ts did not execute task_a
+- tmux default socket missing during one suite
+
+pnpm --dir core/orchestration run typecheck
+failed on the same pre-existing package/module resolution and old
+LoopAdapterResult.error issues.
+```
+
+Current claim ceiling:
+
+```text
+The v27 product artifact still ships a standalone ClaimGate projection writer,
+not the host Lev patch. The local Lev repo now has a committed host consumer
+that can consume and reject those projections at scale. This upgrades the local
+state from adapter_partial to local host-consumer integration evidence, but it
+is not remote-pushed and not released in the standalone ClaimGate zip.
+```
