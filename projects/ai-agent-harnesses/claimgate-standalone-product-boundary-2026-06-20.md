@@ -6,8 +6,8 @@ created: 2026-06-20
 scope: ClaimGate standalone packaging, model-pool semantics, Core Lev OS plugin direction, and external multi-agent harness research
 claim_ceiling: source-grounded product boundary note, not full market survey
 local_product_repo: /Users/joshuaeisenhart/claimgate-suite
-local_product_commit: 38a8c91 Expose source truth and live swarm in UI
-verified_zip: /Users/joshuaeisenhart/Downloads/ClaimGate_CoreLevOS_COMPLETE_SINGLE_ZIP_v22_source_integration_truth.zip
+local_product_commit: 52aa1d9 Add Lev-native harness author intake
+verified_zip: /Users/joshuaeisenhart/Downloads/ClaimGate_CoreLevOS_COMPLETE_SINGLE_ZIP_v23_lev_native_harness_author.zip
 ```
 
 ## Decision
@@ -36,7 +36,7 @@ The standalone product repo now exists at:
 Current local git checkpoint:
 
 ```text
-38a8c91 Expose source truth and live swarm in UI
+52aa1d9 Add Lev-native harness author intake
 ```
 
 The repo tracks the product source, compact live-model receipts, and the
@@ -721,4 +721,76 @@ npm run product:zip passed
 clean-extract npm run product:verify passed
 zip entries=402/500
 verified zip: /Users/joshuaeisenhart/Downloads/ClaimGate_CoreLevOS_COMPLETE_SINGLE_ZIP_v22_source_integration_truth.zip
+```
+
+## 2026-06-20 v19 prior-thread solution intake
+
+Source:
+
+```text
+/Users/joshuaeisenhart/Downloads/claimgate_complete_system_v19_lev_native_harness_max500.zip
+```
+
+Local product repo checkpoint:
+
+```text
+52aa1d9 Add Lev-native harness author intake
+```
+
+Fresh archive:
+
+```text
+/Users/joshuaeisenhart/Downloads/ClaimGate_CoreLevOS_COMPLETE_SINGLE_ZIP_v23_lev_native_harness_author.zip
+entries=410
+size=430K
+```
+
+What was useful from the other thread:
+
+```text
+Axiom Digger -> Constraint Digger -> Gate Digger -> Lev-shaped Project Harness export
+```
+
+This became:
+
+```text
+packages/claimgate-harness-author/
+claimgate harness-author analyze
+claimgate harness-author compile
+claimgate harness-author demo
+npm run harness:demo
+npm run harness:compile-demo
+tests/harness-author-tests.js
+web UI tab: Harness Author
+```
+
+Honest ceiling:
+
+```text
+The Harness Author emits proposal-only Lev-shaped Project Harness packs.
+It does not prove that a live Lev core/eval runtime consumed the generated
+pack, and it cannot approve or promote its own gates.
+```
+
+Source truth status now includes the v19 zip:
+
+```text
+entry_count: 5
+properly_integrated_count: 0
+adapter_partial: 2
+pattern_extracted: 1
+unresolved_source: 1
+not_processed: 1
+```
+
+Verification:
+
+```text
+v19 extracted package local tests passed through harness-author-tests;
+v19 product:verify was blocked by empty live model pool, not by Harness Author.
+
+v23 npm run product:verify passed
+v23 npm run product:zip passed
+v23 clean-extract npm run product:verify passed
+standalone boundary passed with missing runtime deps=0
 ```

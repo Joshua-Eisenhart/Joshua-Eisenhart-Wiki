@@ -27,24 +27,34 @@ dependencies; live model pools are required but provider identities are
 per-run capabilities; and deterministic hard-wall gates remain the only
 promotion path.
 
-Current June 20 checkpoint: `38a8c91` exposes source truth and live swarm
-state in the web UI, on top of the `a57a142` source-integration truth gate,
-unified live-swarm product run, Marketing Harness planner, Core Lev OS
-evidence-manifest cut, GitHub Action required-check runner, Marketing
-Scientist plugin/demo, and verified flexible model-pool receipts. The
-clean-extracted v22 zip passed `npm run product:verify`; the full product run
-attempted the 27-seat 3x3x3 TeamHarness topology, accepted 17 typed live seats
-across 3 providers and 7 models, recorded 10 failed/blocked/malformed seats
-literally, and still kept the hard ClaimGate gate as the only promotion path.
-The web UI correction restores the original GitHub-native trust-product
-direction: "Can this work count?", with TeamHarness/Live Swarm and Source
-Truth tabs that surface current receipts without turning advisory model lanes
-or source-mining work into promotion evidence. The source ledger still reports
-`properly_integrated_count: 0`: Wizard v4.3 is `adapter_partial`,
-oh-my-openagent v4.12.0 is `pattern_extracted`, the 0xRicker X post is
-`unresolved_source`, and the YouTube marketing video is `not_processed`. The
-marketing lane is explicit but not video-grounded yet: campaign brief ->
-variants -> metrics envelope -> hard-wall verdict.
+Current June 20 checkpoint: `52aa1d9` adds the v19 prior-thread Lev-native
+Harness Author intake on top of the `38a8c91` source-truth/live-swarm UI and
+the `a57a142` source-integration truth gate. The v23 zip
+`ClaimGate_CoreLevOS_COMPLETE_SINGLE_ZIP_v23_lev_native_harness_author.zip`
+clean-extracted and passed `npm run product:verify` with 410 entries under the
+500-entry cap. The v19 solution contributed a useful product primitive:
+Axiom Digger -> Constraint Digger -> Gate Digger -> proposal-only Lev-shaped
+Project Harness export. This is now runnable as `claimgate harness-author ...`,
+`npm run harness:demo`, `npm run harness:compile-demo`, tested by
+`tests/harness-author-tests.js`, and exposed in the web UI. Its ceiling remains
+explicit: it emits proposals and scaffolds, but does not prove that a live Lev
+core/eval runtime consumed the generated pack or that generated gates can
+promote themselves.
+
+The full product still keeps the hard ClaimGate gate as the only promotion
+path. The full product run attempted the 27-seat 3x3x3 TeamHarness topology,
+accepted 17 typed live seats across 3 providers and 7 models, recorded 10
+failed/blocked/malformed seats literally, and still kept live model lanes
+advisory. The web UI keeps the original GitHub-native trust-product direction:
+"Can this work count?", with TeamHarness/Live Swarm, Source Truth, and Harness
+Author tabs that surface current receipts without upgrading advisory or source
+mining work into promotion evidence. The source ledger still reports
+`properly_integrated_count: 0`: Wizard v4.3 is `adapter_partial`, the v19
+Harness Author intake is `adapter_partial`, oh-my-openagent v4.12.0 is
+`pattern_extracted`, the 0xRicker X post is `unresolved_source`, and the
+YouTube marketing video is `not_processed`. The marketing lane is explicit but
+not video-grounded yet: campaign brief -> variants -> metrics envelope ->
+hard-wall verdict.
 
 ## Bottom line
 
