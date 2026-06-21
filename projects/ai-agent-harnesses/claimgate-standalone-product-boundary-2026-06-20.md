@@ -873,3 +873,94 @@ v23 npm run product:zip passed
 v23 clean-extract npm run product:verify passed
 standalone boundary passed with missing runtime deps=0
 ```
+
+## 2026-06-21 top-cheap model-pool correction
+
+Local product repo checkpoint:
+
+```text
+0dbe54b feat(claimgate): refresh top-cheap model pool
+```
+
+Fresh archive:
+
+```text
+/Users/joshuaeisenhart/Downloads/ClaimGate_CoreLevOS_COMPLETE_SINGLE_ZIP_v23_lev_native_harness_author.zip
+entries=412
+max=500
+```
+
+Correction:
+
+```text
+Gemini 2.5 Flash is no longer a default validity lane.
+Gemini CLI is no longer a default validity lane.
+Google Pro and Google Flash are separate direct-API lanes.
+```
+
+Current default live pool:
+
+```text
+openrouter-fusion          -> openrouter/fusion
+openrouter-deepseek-v4-pro -> deepseek/deepseek-v4-pro
+openrouter-qwen-max        -> qwen/qwen3.7-max
+openrouter-qwen-plus       -> qwen/qwen3.7-plus
+openrouter-kimi-k2         -> moonshotai/kimi-k2.7-code
+openrouter-glm             -> z-ai/glm-5.2
+openrouter-minimax         -> minimax/minimax-m3
+xai                        -> grok-4.3
+google-gemini-pro          -> gemini-3.1-pro-preview
+google-gemini-flash        -> gemini-3.5-flash
+codex-native               -> codex-native
+```
+
+Live product run result:
+
+```text
+product:run status: passed
+live model pool: 10 accepted, 1 failed
+failed lane recorded literally: openrouter z-ai/glm-5.2 empty_model_response
+overall build model pool: 10 accepted, 4 providers, 10 models
+live 3x3x3 swarm: 27/27 attempted, 20 parseable advisory seats, 4 providers, 9 models
+completed swarm providers: google, openai-codex, openrouter, xai
+completed swarm models included: gemini-3.1-pro-preview and gemini-3.5-flash
+```
+
+Implementation details that matter:
+
+```text
+tools/live-model-pool.js now has separate DEFAULT_GEMINI_API_MODEL_ROUTE and
+DEFAULT_GEMINI_FLASH_MODEL_ROUTE.
+
+Gemini strict swarm prompts use JSON mode and a member-observation schema, with
+a larger output token budget and low Gemini 3 thinking level. This converted
+Google lanes from attempted/malformed seats into counted completed advisory
+seats in the live swarm.
+
+tools/package-zip.js filters missing tracked files before packaging, so stale
+deleted receipt paths cannot stay in PACKAGE_MANIFEST.txt.
+```
+
+Verification:
+
+```text
+npm run model-pool:refresh passed
+npm run live-swarm:run passed
+npm run product:run passed
+npm run overall:build passed
+npm run product:zip passed
+clean-extract npm run product:verify passed
+clean-extract npm run harness:compile-demo passed
+clean-extract lev exec flow-dry-run --flow=.lev/eval/suites/demo-project-harness/flow.flow.yaml --dry-run passed
+```
+
+Leviathan boundary:
+
+```text
+lev is installed on the host and can dry-run the generated ClaimGate flow graph
+with format=graph, entry=ingest, nodeCount=8.
+
+Current Lev top-level help advertises harness commands, but `lev harness ...`
+returns UNKNOWN_COMMAND in this install. Treat the direct `lev exec ... --flow=...`
+path as the verified integration surface for this checkpoint.
+```
