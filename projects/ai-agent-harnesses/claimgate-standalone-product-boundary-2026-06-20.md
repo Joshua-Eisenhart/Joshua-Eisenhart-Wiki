@@ -1135,7 +1135,8 @@ Lev repo patch:
 ```text
 /Users/joshuaeisenhart/GitHub/lev
 e828a4dd0 feat(orchestration): consume claimgate steering runs
-push status: blocked by remote 403 write access
+028ad27d8 fix(orchestration): harden claimgate steering gate
+remote status: not pushed; push attempt returned 403 write-access failure
 ```
 
 This is the first host-side patch that consumes the ClaimGate v27
@@ -1273,4 +1274,70 @@ not the host Lev patch. The local Lev repo now has a committed host consumer
 that can consume and reject those projections at scale. This upgrades the local
 state from adapter_partial to local host-consumer integration evidence, but it
 is not remote-pushed and not released in the standalone ClaimGate zip.
+```
+
+Audit follow-up:
+
+```text
+The first local host-consumer patch was pressure-tested but still had three
+hard-wall issues:
+- incomplete cross-file object binding;
+- malformed JSON could crash instead of becoming a host_blocked receipt;
+- the pressure script could exit 0 when Lev blocked unexpectedly.
+
+Follow-up local commit 028ad27d8 fixed those by:
+- validating evalJob.proofSpecId against proofSpec.specId;
+- validating targetRef, constraintPackId, run target_ref, suite_id, receiptId,
+  and run_id bindings;
+- turning invalid JSON into file.invalid_json_* findings and host_blocked
+  receipts;
+- adding object-binding, malformed-JSON, and batch-continuation regression
+  tests;
+- making pressure-claimgate-steering fail closed unless blockedCount, okCount,
+  runCount, and Lev exit status match expectations.
+```
+
+Post-fix verification:
+
+```text
+pnpm --dir core/orchestration exec vitest run src/proof/claim-gate-steering-run.test.ts src/receipt/receipt.test.ts
+2 files passed, 19 tests passed
+
+pnpm --dir core/orchestration exec tsc --noEmit --module NodeNext --moduleResolution NodeNext --target ES2022 --types node --skipLibCheck --strict src/proof/claim-gate-steering-run.ts src/handlers/claimgate-steering.ts src/receipt/factory.ts src/receipt/receipt.test.ts src/proof/claim-gate-steering-run.test.ts
+passed
+
+node scripts/pressure-claimgate-steering.mjs --claimgate-root /Users/joshuaeisenhart/claimgate-suite --runs 128 --concurrency 16 --out /tmp/lev-claimgate-pressure-clean-128-bindingfix
+pressureGateOk=true
+generatedRuns=128
+generationFailures=0
+runCount=128
+okCount=128
+blockedCount=0
+verdictCounts pass=64 fail=64 conditional=0 deferred=0
+
+node scripts/pressure-claimgate-steering.mjs --claimgate-root /Users/joshuaeisenhart/claimgate-suite --runs 48 --concurrency 8 --inject-mismatch-every 12 --out /tmp/lev-claimgate-pressure-adversarial-48-bindingfix
+pressureGateOk=true
+generatedRuns=48
+generationFailures=0
+tamperedCount=4
+expectedBlockedCount=4
+runCount=48
+okCount=44
+blockedCount=4
+
+Deliberate bad expectation check:
+/tmp/lev-claimgate-pressure-expected-fail/pressure-summary.json
+pressureGateOk=false
+observed shell EXIT:1 for the pressure command before the follow-up summary read
+```
+
+Updated claim ceiling:
+
+```text
+local_host_lev_steering_consumer_pressure_tested
+
+This is stronger than adapter_partial because local host Lev code consumes and
+rejects ClaimGate steering projections with object-binding checks and pressure
+receipts. It is still below remote/release integration, below standalone zip
+inclusion, and below native EvalFlow / executeProofSpec admission.
 ```
