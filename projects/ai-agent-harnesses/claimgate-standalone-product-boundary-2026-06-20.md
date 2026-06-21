@@ -1039,3 +1039,91 @@ tools/package-zip.js source .lev island allowlist
 tools/package-zip.js compact .cdo receipt packaging and missing-file filter
 Gemini 2.5 Flash removed from live defaults and default tests
 ```
+
+## 2026-06-20 v27 current-Lev-runtime patch target
+
+Processed input:
+
+```text
+/Users/joshuaeisenhart/.codex/attachments/81e57d29-ee50-4acf-b06f-241b686672f9/pasted-text.txt
+```
+
+Product commit:
+
+```text
+/Users/joshuaeisenhart/claimgate-suite
+f4d98de feat(claimgate): add current lev steering projection
+```
+
+Adopted artifact:
+
+```text
+/Users/joshuaeisenhart/Downloads/ClaimGate_CoreLevOS_COMPLETE_SINGLE_ZIP_v27_current_lev_runtime_patch_target.zip
+entries=392
+max=500
+clean-extract npm run product:verify passed
+```
+
+Current Lev runtime target correction:
+
+```text
+The older .lev/runs/eval/<run-id>/proof.yaml output is compatibility/demo
+projection.
+
+The current host-Lev patch target is:
+.lev/steering/runs/<run-id>/run.json
+.lev/steering/runs/<run-id>/proof-spec.json
+.lev/steering/runs/<run-id>/eval-job.json
+.lev/steering/runs/<run-id>/eval-job-output.json
+.lev/steering/runs/<run-id>/boundary.json
+```
+
+Verified local Lev target surfaces:
+
+```text
+core/flowmind/src/kernel/constraint-manifold.ts
+core/flowmind/src/gate-evaluator.ts
+core/orchestration/src/eval/index.ts
+core/orchestration/src/eval/types.ts
+core/orchestration/src/proof/eval-job-types.ts
+core/orchestration/src/proof/flows/eval-flow.ts
+core/orchestration/src/proof/proof-spec-generator.ts
+core/harness/src/substrates/tmux-substrate.ts
+dna/gates.yaml
+```
+
+Implemented product delta:
+
+```text
+packages/claimgate-lev-adapter.projectRun now writes both:
+- legacy compatibility eval projection
+- .lev/steering/runs EvalJobOutput / ProofSpec projection
+
+packages/claimgate-cli exposes:
+claimgate lev-adapter project-run --run <run-dir> --out <eval-dir> --steering-out <dir>
+claimgate lev-adapter steering-run --run <run-dir> --out <steering-run-dir>
+```
+
+Boundary remains:
+
+```text
+Every steering-run projection is live_lev_consumed:false.
+
+This is adapter_partial, not proper live-Lev integration. Proper integration
+requires host Lev EvalFlow / executeProofSpec consumption and a real
+execution-ledger receipt before any claim of Lev admission.
+```
+
+Verification:
+
+```text
+node tests/lev-adapter-tests.js passed
+node tests/lev-surface-boundary-tests.js passed
+node tests/source-integration-audit-tests.js passed
+npm test passed
+npm run source:integration:audit passed
+npm run standalone:check passed
+npm run product:verify passed
+npm run product:zip passed
+clean extract npm run product:verify passed
+```
