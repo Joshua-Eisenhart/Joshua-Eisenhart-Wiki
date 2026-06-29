@@ -1,7 +1,7 @@
 ---
 title: Leviathan Current Wiki Project
 created: 2026-06-17
-updated: 2026-06-19
+updated: 2026-06-21
 type: project-front-door
 status: active current-source router
 claim_ceiling: wiki routing and current-repo orientation; not fresh command proof; not maintainer acceptance; not release certification
@@ -47,6 +47,8 @@ The active repo docs describe the foundation as real but still being hardened. T
 Current source/proof routers:
 
 - [[specs/leviathan-current/README]]
+- [[projects/leviathan-current/lev-claimgate-digging-status-2026-06-28]]
+- [[projects/leviathan-current/research-ratchet-deep-patch-plan-2026-06-21]]
 - [[projects/leviathan-current/proof-backed-status-dashboard]]
 - [[projects/leviathan-current/nuanced-assessment-and-josh-provenance-2026-06-19]]
 
@@ -60,7 +62,15 @@ Advisory intake and source-synthesis routers:
 - [[projects/leviathan-current/codex-imports/v3-deep-repo-nuance-bundle-2026-06-19]]
 - [[projects/leviathan-current/codex-imports/v4-cross-issues-deep-dive-2026-06-19]]
 
-The latest fresh 2026-06-19 remote/clone check is `5dd98ac4ce7afeb9e4351787179c60208de6d23f`. The older clean-clone audit at [[projects/leviathan-current/deep-audit-current-snapshot-2026-06-18]] remains valid for its `c90ec...` snapshot and for demoting damaged-checkout conflict-marker claims.
+The latest targeted path check was a fresh `/tmp` clone on 2026-06-21 at
+`cc0e6fe537a6549df6c0172c4963f3dcfa36fa5f`, used only to repair Research
+Ratchet patch target paths. The latest broader 2026-06-19 remote/clone
+assessment remains `5dd98ac4ce7afeb9e4351787179c60208de6d23f`. The older
+clean-clone audit at [[projects/leviathan-current/deep-audit-current-snapshot-2026-06-18]]
+remains valid for its `c90ec...` snapshot and for demoting damaged-checkout
+conflict-marker claims.
+
+The latest 2026-06-28 thread capture is [[projects/leviathan-current/lev-claimgate-digging-status-2026-06-28]]. It records current implementation blockers and build order for the local Lev ClaimGate/Ratchet tranche. Its ceiling is status capture and next-action routing, not fresh repo proof.
 
 ## Best First Clicks
 
@@ -84,6 +94,7 @@ Use:
 
 Remote `main` observed on 2026-06-19 during Packet 10: `b7bca2cdbed5862743395f7c0330e7d640132764`.
 Remote `main` observed on 2026-06-19 during the nuance/provenance pass: `5dd98ac4ce7afeb9e4351787179c60208de6d23f`.
+Remote `main` observed on 2026-06-21 during Research Ratchet path repair: `cc0e6fe537a6549df6c0172c4963f3dcfa36fa5f`.
 
 Old local-path citations in this folder remain historical evidence from the June 17-18 local inventory and damaged-checkout containment pass. They are not current source instructions and do not prove the local path still exists.
 

@@ -48,6 +48,7 @@ Copying files is allowed. Adoption requires retuning.
 ## Provenance Notes
 
 - [[wizard/wizard-origin-and-jp-smith-provenance]] — owner-confirmed starter note crediting JP Smith with the original Wizard idea. It is not a full lineage ledger for v4.1/v4.2/v4.3, MMM, taskcards, conformance files, or LLM adapters.
+- [[wizard/SKILLS_AND_REPOS_INDEX]] — reference index from the 2026-06-28 Lev wizard-ratchet patch audit; useful as a skills/repo map only, not canonical runtime proof.
 
 ## Runtime-native adaptations
 

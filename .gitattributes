@@ -1,0 +1,3 @@
+# Preserve imported patch/send-packet artifacts byte-for-byte.
+# They may intentionally contain trailing whitespace from the source patch.
+*.patch binary

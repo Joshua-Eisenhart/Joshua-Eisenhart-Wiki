@@ -1,0 +1,23 @@
+ .lev/flows/cdo-openrouter-sparse.flow.yaml         |  151 +
+ .lev/flows/cdo.openrouter.sparse.profile.yaml      |   20 +
+ core/harness/package.json                          |    2 +-
+ core/harness/src/execution/cdo-triple50.test.ts    |  287 +-
+ core/harness/src/execution/cdo-triple50.ts         |  571 +++-
+ .../execution/claim-gate-repair-dispatch.test.ts   |  343 ++
+ .../src/execution/claim-gate-repair-dispatch.ts    |  525 +++
+ core/harness/src/execution/index.ts                |   11 +
+ core/harness/vitest.config.ts                      |    9 +-
+ core/orchestration/config.yaml                     |    7 +
+ core/orchestration/package.json                    |    6 +
+ .../src/handlers/claim-gate-loop.test.ts           |  756 +++++
+ core/orchestration/src/handlers/claim-gate-loop.ts |  621 ++++
+ .../src/handlers/claimgate-steering.test.ts        |   42 +
+ .../src/handlers/claimgate-steering.ts             |   23 +-
+ core/orchestration/src/index.ts                    |   58 +
+ .../src/proof/claim-gate-loop.test.ts              | 1888 +++++++++++
+ core/orchestration/src/proof/claim-gate-loop.ts    | 3348 ++++++++++++++++++++
+ .../src/proof/claim-gate-steering-run.test.ts      |  110 +
+ .../src/proof/claim-gate-steering-run.ts           |  237 +-
+ core/orchestration/src/proof/index.ts              |   59 +
+ core/orchestration/vitest.config.ts                |    8 +
+ 22 files changed, 9019 insertions(+), 63 deletions(-)

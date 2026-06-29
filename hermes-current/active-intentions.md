@@ -11,6 +11,7 @@ Use this when:
 
 Current truth:
 - The wiki is being upgraded from a large note store into a simple but richer LLM-readable personal harness and shared working space.
+- Research Ratchet is now a named wiki bridge for the long-horizon project harness: see [[projects/research-ratchet/README]], [[projects/research-ratchet/wiki-update-intake-2026-06-21]], and [[projects/research-ratchet/missing-primitives-and-open-questions-2026-06-21]]. Its current ceiling is proposal/source/wiring frame, not runtime proof.
 - The wiki now has a CocoIndex-backed semantic retrieval layer for MCP-capable agents; this should improve discovery without replacing exact reads, provenance checks, or claim ceilings.
 - A major near-term goal is to offload more durable agent memory into the wiki without losing retrievability or personal frame.
 - Hermes plus the wiki is functioning as an entropy-refinery stack for Josh's docs, notes, repo surfaces, and other high-entropy material.

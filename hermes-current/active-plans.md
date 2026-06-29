@@ -18,6 +18,8 @@ Current plan stack:
 6. Keep concept-level harness/controller doctrine as a second-layer load after `hermes-current/`, not as a competing front door.
 7. Later, inspect external skill/evolution repos for patterns that help improve the wiki+skill system.
 8. Stress-test the Hermes subagent/output surface so routing stays adaptive across Claude, Codex, and Gemini without collapsing plurality or looping on broken launchers.
+9. Preserve the 2026-06-28 Lev/ClaimGate handoff through [[fresh-thread-continuity-2026-06-28]] and [[projects/leviathan-current/lev-claimgate-digging-status-2026-06-28]]; current verified fork: notary receipt should use the GKSL PSD flip, while legacy guard needs the owner decision on whether `@lev-os/daemon` / `@lev-os/sdlc` are deprecated. Latest Codex-pasted build moved ClaimGate source-bound evidence context into host/run options and the focused orchestration rerun passed, but Hermes reruns still find the harness session-runner slice red (`20 passed / 2 failed`) on SDLC schema path resolution despite Codex reporting `22 pass`. Do not promote the harness slice without fixing the visible worktree or preserving Codex's exact passing command/environment. Do not resume broad/mass OpenRouter calls or any `gpt-3.5-turbo` route without explicit owner authorization.
+10. Keep ongoing wiki maintenance alive through [[wiki-continuous-maintenance-control-2026-06-28]] and cron job `a2e9088a081e`: every tick must be one bounded probe → patch/deepen → log → final-probe tranche, with no broad model swarm and no unverified promotion.
 
 Open planning rules:
 - Prefer one authoritative note per concern over repeated summaries.
@@ -40,6 +42,7 @@ Near-term concrete targets:
 - keep `hermes-current/read-first.md` as the Hermes front door
 - keep `hermes-current/about-me-and-how-to-work-with-me.md` as the identity surface
 - keep `hermes-current/active-intentions.md` and this note as the cross-thread continuity surface
+- use `hermes-current/fresh-thread-continuity-2026-06-28.md` as the restart/capture note for the overwhelmed Hermes thread `20260628_004303_aa3f2b`: Lev blockers are preserved there as recovered context, while wiki maintenance continues under bounded probe -> patch -> probe tranches
 - keep `hermes-current/hermes-memory-offload.md` as a migration ledger rather than a permanent dump note; use `[[memory-maintenance-2026-06-06-wizard-maintenance-correction]]` as the latest live memory snapshot/compression receipt and `[[memory-maintenance-2026-06-05]]` as the prior baseline receipt
 - use `hermes-current/wiki-ingest-queue-and-priorities.md` as the bounded ingest router so repo/wiki deepening stays organized and non-blob-like
 - use `hermes-current/wiki-wizard-v4-3-mmm-maintenance-template.md` as the active v4.3 MMM maintenance/on-demand/cron template; it must preload MMM salience before task rules and keep v4.3 object-preservation/maintenance wording while naming the legacy v4.2 provenance bridge explicitly. Historical finite steward job `497a2eaaa178` was created on 2026-06-06, but a 2026-06-13 Hermes `cronjob list` returned `count=0`; do not call it live without a new scheduler creation receipt.

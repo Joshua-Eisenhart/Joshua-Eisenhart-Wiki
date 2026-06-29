@@ -1,3 +1,59 @@
+## 2026-06-28 - Wiki dirty-state cleanup tranche
+
+- Scope: cleaned the wiki repository state after the broken-session recovery and bounded cron setup, without deleting project source material or editing the Lev repo.
+- Classified the dirty state into Research Ratchet concept/project pages, Leviathan ClaimGate/patch packet pages, Hermes continuity/cron control pages, and Wizard skill/repo index material.
+- Added [[wizard/SKILLS_AND_REPOS_INDEX]] to [[wizard/README]] so the untracked Wizard skills/repo index is discoverable rather than a loose orphan artifact.
+- Removed only ignored filesystem noise (`codex-memory/.DS_Store`) and preserved patch/send-packet artifacts with their manifests and SHA256 receipts.
+- Added `.gitattributes` so imported `*.patch` artifacts are preserved byte-for-byte as binary patch/send-packet evidence; this avoids falsely “fixing” trailing whitespace inside source patch artifacts and invalidating recorded hashes.
+- Verification before close: `wiki_probe.py` clean, staged `git diff --check` clean, high-confidence secret regex scan returned `0` findings, and patch SHA256 values matched their recorded manifests.
+- Claim ceiling: repository hygiene and wiki routing cleanup only; no Lev repo edit, no patch application, no runtime proof, no release certification.
+
+## 2026-06-28 - Broken-session resume and wiki cron review
+
+- Resumed from broken Hermes session `20260628_022538_84ac8a` without rehydrating the full transcript into the prompt.
+- Read the continuity/control surfaces: [[hermes-current/fresh-thread-continuity-2026-06-28]], [[hermes-current/wiki-continuous-maintenance-control-2026-06-28]], the `hermes-current/` spine, and [[projects/leviathan-current/lev-claimgate-digging-status-2026-06-28]].
+- Checked current cron state: `wiki-general-bounded-deepening` / `a2e9088a081e` is enabled, last scheduled run `2026-06-28T15:01:15.160031-07:00` ended `ok`, next run `2026-06-29T03:01:15.160031-07:00`; the older Leviathan bounded-deepening job `33efc1f65a72` remains paused/disabled.
+- Resume preflight `wiki_probe.py` at `/tmp/wiki_probe_resume_pre_20260629.json` returned `page_count=460`, `index_header_count=460`, `indexed_link_count=581`, and zero missing pages, orphans, broken links, stubs, malformed wikilinks, or stale namespace wikilinks. `git diff --check` passed.
+- Patched [[hermes-current/wiki-continuous-maintenance-control-2026-06-28]] with the first scheduled tick review and next-review condition.
+- Claim ceiling: wiki continuity/control review only; no Lev repo edit, no repo test rerun, no full Wizard council, no external model proof, and no semantic certification of future cron ticks.
+
+## 2026-06-28 - Leviathan ClaimGate routing coherence tick
+
+- Scope: one bounded routing/project-tracker tranche after preflight `wiki_probe.py` was clean; no repo edit and no test promotion.
+- Changed files: [[index]], [[projects/leviathan-current/read-first]], and [[log]].
+- Claim ceiling: wiki routing/status-capture repair only. The checked local fact is that `/Users/joshuaeisenhart/GitHub/lev` existed and `git status --short | wc -l` returned `207`; older ClaimGate/test details remain status-capture or prior-check material unless freshly rerun in their own tranche.
+- Verification: post-edit/pre-log `wiki_probe.py` at `/tmp/wiki_probe_cron_mid.json` returned `page_count=460`, `index_header_count=460`, `indexed_link_count=581`, and zero missing pages, orphans, broken links, stubs, malformed wikilinks, or stale namespace wikilinks. Final post-log probe is `/tmp/wiki_probe_cron_post.json` from this cron tick.
+
+## 2026-06-28 - Cron tick structural page-count repair
+
+- Scope: one bounded structural-integrity tranche after preflight `wiki_probe.py` reported `page_count=460` and `index_header_count=461` with no missing pages, orphans, broken links, stubs, malformed wikilinks, or stale namespace wikilinks.
+- Changed files: [[index]] and [[log]].
+- Claim ceiling: structural/routing repair only; no repo rerun, project-status promotion, external-source ingest, or proof/canon claim.
+- Verification: final post-log `wiki_probe.py` run at `/tmp/wiki_probe_cron_post.json` returned `page_count=460`, `index_header_count=460`, `indexed_link_count=580`, and zero missing pages, orphans, broken links, stubs, malformed wikilinks, or stale namespace wikilinks.
+
+## 2026-06-28 - Continuous wiki maintenance cron and control surface
+
+- Added [[hermes-current/wiki-continuous-maintenance-control-2026-06-28]] as the active control surface for ongoing bounded wiki upkeep, research digestion, project tracking, and Hermes memory-offload hygiene.
+- Created local cron job `wiki-general-bounded-deepening` / `a2e9088a081e`, scheduled every 12 hours, with skills `overnight-wiki-deepening-runs`, `wiki-maintenance-and-harness`, `memory-offload-to-wiki-harness`, and `capture`.
+- Started the Hermes gateway via `hermes gateway start`; follow-up status showed the gateway supervised by launchd and cron able to fire automatically.
+- Guardrails: one bounded tranche per tick, pre/post `wiki_probe.py`, no recursive cron scheduling, no mass OpenRouter/model swarm, no `gpt-3.5-turbo`, no unverified repo-claim promotion, and secret redaction as `[REDACTED]`.
+- Claim ceiling: setup/control and scheduler readiness only; no autonomous tick completion is claimed until job `a2e9088a081e` has its own output receipt and final probe result.
+
+## 2026-06-28 - Lev ClaimGate digging status and Hermes continuity capture
+
+- Added [[projects/leviathan-current/lev-claimgate-digging-status-2026-06-28]] to preserve the latest Hermes/Claude handoff on Lev ClaimGate/Ratchet blockers: graph `dist` test pollution, over-broad legacy-path guard, missing `SourcePackReadReceipt` chain, notary/falsifier trusted-receipt gap, persistence/hydration path claim, dirty-worktree slicing, duplicate package script keys, and blocked worker routes.
+- Patched [[projects/leviathan-current/README]], [[projects/leviathan-current/index]], [[hermes-current/fresh-thread-continuity-2026-06-28]], and [[hermes-current/active-plans]] so the work is findable from both the project and Hermes continuity front doors.
+- Model/cost guard: user explicitly warned against mass OpenRouter calls and `gpt-3.5-turbo`; no new mass model/delegation workflow was launched in this capture tranche.
+- Claim ceiling: continuity/status capture and wiki routing only; no Lev repo edit, no fresh independent test rerun, no release certification.
+
+## 2026-06-28 - Fresh Hermes thread continuity capture
+
+- Added [[hermes-current/fresh-thread-continuity-2026-06-28]] after recovering Hermes session `20260628_004303_aa3f2b`, the thread the user identified as overwhelmed.
+- Preserved the Lev blocker order and the wiki/Hermes continuity request without promoting blocked/failed worker attempts into audit conclusions.
+- Patched [[hermes-current/active-plans]] and [[index]] so the fresh-thread recovery note is discoverable from the Hermes front door.
+- Checked current scheduler state: `leviathan-current-wiki-bounded-deepening` job `33efc1f65a72` exists but is paused/disabled; no TUI-origin cron notification was promised.
+- Claim ceiling: recovery/routing and wiki continuity only; no Lev repo edit, no fresh repo test rerun, no full Wizard council, no live multimodel proof, and no project-status promotion.
+
 ## 2026-06-19 - Leviathan Packet 15 multi-model council audit
 
 Added [[projects/leviathan-current/packet-15-wizard-multi-model-council-audit-2026-06-19]] after a bounded Wizard-style council over Packet 14, the Leviathan/FEP split pages, root/project discoverability, and Codex Ratchet provenance boundaries. Four Codex-native model lanes completed (`gpt-5.5`, `gpt-5.4`, `gpt-5.4-mini`, `gpt-5.3-codex-spark`). Claude Sonnet, Gemini, and Ollama routes were attempted but blocked by authentication/runtime availability and were not counted as completed lanes. Applied the accepted fixes: cooled overclaim-prone wording, marked Wizard-origin credit as user-provided unless separately verified, separated proof/source routers from advisory routers, added Packet 15 and Packet 14 child pages to front doors, and added reciprocal Packet 14 / claim-ceiling / provenance guardrail links. Claim ceiling: route/correction receipt only; no full Wizard Max Assembly proof, no Leviathan runtime proof, no FEP implementation proof, no Codex Ratchet proof, no release certification.

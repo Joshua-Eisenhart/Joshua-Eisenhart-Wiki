@@ -1,17 +1,20 @@
 # Codex Ratchet Wiki — Index
 
-Total published pages: 456. Governance/read-first surfaces are listed separately. Restructured 2026-04-17 (stabilization pass).
+Total published pages: 460. Governance/read-first surfaces are listed separately. Restructured 2026-04-17 (stabilization pass).
 
 ## Hermes / LLM Alignment Front Door
 - [[hermes-current/read-first]] — Hermes front door; load this before substantive work
 - [[hermes-current/about-me-and-how-to-work-with-me]] — stable working preferences and constraints
 - [[hermes-current/active-intentions]] — current goal: wiki + Hermes as an entropy-refinery and LLM alignment surface
 - [[hermes-current/active-plans]] — compact active plan stack and next bounded work lanes
+- [[hermes-current/wiki-continuous-maintenance-control-2026-06-28]] — live bounded cron control surface for ongoing wiki upkeep, project tracking, research digestion, and Hermes memory-offload hygiene
+- [[hermes-current/fresh-thread-continuity-2026-06-28]] — recovery/routing note for the overwhelmed 2026-06-28 Hermes thread: Lev blockers, wiki continuity, paused cron status, and no-promotion next move
 - [[hermes-current/current-vs-legacy]] — authority/provenance ranking
 - [[hermes-current/skills-and-agent-rules]] — how skills and agents should use the wiki
 - [[hermes-current/cocoindex-wiki-mcp-memory-layer]] — CocoIndex/MCP semantic retrieval layer for Hermes, Claude Code, Codex, and other MCP-capable agents
 - [[projects/codex-ratchet/cocoindex-and-bloat-cleanup-policy-2026-06-17]] — current CocoIndex + bloat cleanup policy for wiki/repo LLM findability: local indexes are semantic maps, generated JSON stays exact-read evidence, and large result artifacts require manifest/checksum/restore before archive or compression
 - [[projects/codex-ratchet/read-first]] — Codex Ratchet project front door after Hermes spine
+- [[projects/research-ratchet/README]] — Research Ratchet front door for the long-horizon project harness: event-sourced admissibility geometry, WorldModelGraph / GraphPatch, Spinor Memory, Attractor Basin Digger, ClaimGate authority, and Lev Effect/Eval/Ledger bridge; proposal/source frame only, not runtime proof
 - [[projects/codex-ratchet/wiki-upgrade-pack-intake-2026-06-19]] — pass-with-cautions intake for the Codex Ratchet deep-research report and wiki-upgrade ZIP; adds compact routers/spec mirrors/templates without promoting repo evidence
 - [[projects/codex-ratchet/repo-to-wiki-research-assessment-intake-2026-06-19]] — pass-with-cautions intake for the pasted Codex Ratchet repo-to-wiki research assessment; routes useful backlog/front-door pressure without promoting repo evidence
 - [[projects/codex-ratchet/deep-repo-extraction-pack-intake-2026-06-19]] — branch-imported deep repo extraction intake for v6/v7 MSS, quotient floor, forced-vs-installed carrier tests, contextuality, deflator rows, ring-checkerboard/QCA/Hopfield fixtures, typed projection monism, v7 gate grounding, and manifold-layer completeness; routing only, no promotion
@@ -101,6 +104,7 @@ Total published pages: 456. Governance/read-first surfaces are listed separately
 - [[projects/leviathan-current/index]] — human-facing table of contents for the actual Leviathan wiki pages
 - [[projects/leviathan-current/read-first]] — current Leviathan project front door for repo-current wiki ingestion, Josh/JP provenance split, and authority order
 - [[projects/leviathan-current/README]] — current Leviathan wiki project scaffold and page router
+- [[projects/leviathan-current/lev-claimgate-digging-status-2026-06-28]] — current local Lev/ClaimGate implementation blocker capture; status/router only, not release proof or upstream truth
 - [[projects/leviathan-current/proof-backed-status-dashboard]] — current source-doc split and proof-routing dashboard; not release proof
 - [[projects/leviathan-current/read-order-by-intent-2026-06-18]] — task/persona read order for the huge mixed Leviathan repo/wiki surface
 - [[projects/leviathan-current/packet-8-wizard-mass-swarm-receipt-2026-06-18]] — earlier Wizard mass-swarm cleanup receipt; route/object boundary only
@@ -144,8 +148,12 @@ Total published pages: 456. Governance/read-first surfaces are listed separately
 
 ## Concepts — by framing
 
-### Current (188)
+### Current (192)
 - [[constraint-manifold-architecture]] — actual geometric constraint manifold `M(C)` frame-loader and minimum construction contract; axes/IGT/QIT/bridge claims stay downstream
+- [[world-engine-graph-patch-algebra]] — Research Ratchet concept for WorldModelGraph, GraphPatch, GateOperator, and event-sourced admissibility over accepted project state; proposal concept only
+- [[spinor-memory]] — JSON-first oriented project memory under ordered operators; read/control model only, not proof authority or quantum-memory claim
+- [[attractor-basin-digger]] — classifier/control layer for basin deepening, leakage, split, kill, and insufficient-evidence moves around a bounded project object
+- [[admissibility-geometry-and-gates]] — gate/operator geometry frame connecting source, scope, owner, host, effect, proof, basin, frontier, and collapse gates under strict authority boundaries
 - [[entropic-monism-axis0-field-compression-spine]] — central owner-kernel spine for entropic monism, Axis0, JK fuzz, cross-field ToE genealogy, and field-wide compression claim ceilings
 - [[physics-model-as-system-mirror]] — structural map preserving the owner thesis that the physics/creation model mirrors the same F01/N01 -> `M(C)` -> carrier/readout -> geometry/axis -> entropy/memory/viability stack
 - [[entropic-spacetime-monism-readout-map]] — owner-model/source-processing route for one entropic-spacetime substrate with many probe-relative readouts; sector/physics admission remains open

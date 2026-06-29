@@ -1,7 +1,7 @@
 ---
 title: Leviathan Current Content Index
 created: 2026-06-18
-updated: 2026-06-19
+updated: 2026-06-25
 type: project-index
 status: active
 claim_ceiling: content map and reading order; not implementation proof
@@ -17,21 +17,33 @@ The content exists under `projects/leviathan-current/`. The strongest pages are 
 
 Start with the current source split before reading older Packet 2 runtime pages:
 
+Current integrated patch router: [[projects/leviathan-current/lev-claimgate-ratchet-memory-harness-plan-2026-06-25]] — ClaimGate/Ratchet/memory/sim-engine/Spinor/Holodeck/Wizard plan in Lev graph, FlowMind, PROBE, memory, and receipt terms; proposal/router only, not runtime proof.
+
+Current implementation blocker capture: [[projects/leviathan-current/lev-claimgate-digging-status-2026-06-28]] — latest Hermes/Claude handoff on graph `dist` test pollution, legacy guard scope, source-read receipts, notary/falsifier trust, persistence/hydration, dirty-worktree slicing, duplicate package scripts, and blocked model-worker routes. Status capture only; re-check the live repo before editing.
+
 1. [[specs/leviathan-current/README]] — repo-facing mirror policy and current source authority at `5dd98ac4ce7afeb9e4351787179c60208de6d23f`.
-2. [[projects/leviathan-current/proof-backed-status-dashboard]] — current `ROADMAP.md` / `mvp.md` source split and proof-routing dashboard.
-3. [[projects/leviathan-current/nuanced-assessment-and-josh-provenance-2026-06-19]] — strengths, weaknesses, overclaim boundaries, and Joshua/JP provenance split.
-4. [[projects/leviathan-current/packet-11-deeper-nuance-attribution-pack-intake-2026-06-19]] — owner-correction and attribution addendum intake; not runtime proof.
-5. [[projects/leviathan-current/packet-12-pasted-deep-research-truth-provenance-intake-2026-06-19]] — pasted truth/provenance report intake; advisory only.
-6. [[projects/leviathan-current/packet-13-pasted-fep-runtime-boundary-audit-intake-2026-06-19]] — pasted FEP/runtime-boundary audit intake; advisory only.
-7. [[projects/leviathan-current/packet-14-pasted-fep-atlas-and-leviathan-boundary-intake-2026-06-19]] — pasted FEP atlas correction and Leviathan boundary split intake; advisory only.
-8. [[projects/leviathan-current/packet-15-wizard-multi-model-council-audit-2026-06-19]] — multi-model council audit and correction receipt for Packet 14/FEP split pages; route receipt only.
-9. [[projects/leviathan-current/packet-8-wizard-mass-swarm-receipt-2026-06-18]] — earlier Wizard mass-swarm cleanup receipt; route/object boundary only.
-10. [[projects/leviathan-current/read-order-by-intent-2026-06-18]] — task/persona read order for humans, wiki workers, runtime auditors, and provenance work.
-11. [[projects/leviathan-current/codex-imports/v3-deep-repo-nuance-bundle-2026-06-19]] — branch-imported V3 deep-repo nuance bundle and split plan; source synthesis only.
-12. [[projects/leviathan-current/codex-imports/v4-cross-issues-deep-dive-2026-06-19]] — branch-imported V4 cross-issues deep dive; source synthesis only.
+2. [[projects/leviathan-current/research-ratchet-deep-patch-plan-2026-06-21]] — Research Ratchet / GraphPatch / SpinorMemory patch plan; proposal only, not merged/runtime canon.
+3. [[projects/leviathan-current/proof-backed-status-dashboard]] — current `ROADMAP.md` / `mvp.md` source split and proof-routing dashboard.
+4. [[projects/leviathan-current/nuanced-assessment-and-josh-provenance-2026-06-19]] — strengths, weaknesses, overclaim boundaries, and Joshua/JP provenance split.
+5. [[projects/leviathan-current/packet-11-deeper-nuance-attribution-pack-intake-2026-06-19]] — owner-correction and attribution addendum intake; not runtime proof.
+6. [[projects/leviathan-current/packet-12-pasted-deep-research-truth-provenance-intake-2026-06-19]] — pasted truth/provenance report intake; advisory only.
+7. [[projects/leviathan-current/packet-13-pasted-fep-runtime-boundary-audit-intake-2026-06-19]] — pasted FEP/runtime-boundary audit intake; advisory only.
+8. [[projects/leviathan-current/packet-14-pasted-fep-atlas-and-leviathan-boundary-intake-2026-06-19]] — pasted FEP atlas correction and Leviathan boundary split intake; advisory only.
+9. [[projects/leviathan-current/packet-15-wizard-multi-model-council-audit-2026-06-19]] — multi-model council audit and correction receipt for Packet 14/FEP split pages; route receipt only.
+10. [[projects/leviathan-current/packet-8-wizard-mass-swarm-receipt-2026-06-18]] — earlier Wizard mass-swarm cleanup receipt; route/object boundary only.
+11. [[projects/leviathan-current/read-order-by-intent-2026-06-18]] — task/persona read order for humans, wiki workers, runtime auditors, and provenance work.
+12. [[projects/leviathan-current/codex-imports/v3-deep-repo-nuance-bundle-2026-06-19]] — branch-imported V3 deep-repo nuance bundle and split plan; source synthesis only.
+13. [[projects/leviathan-current/codex-imports/v4-cross-issues-deep-dive-2026-06-19]] — branch-imported V4 cross-issues deep dive; source synthesis only.
+
+Targeted freshness note: Research Ratchet patch-path repair used a fresh
+2026-06-21 `/tmp` clone of `lev-os/leviathan` at
+`cc0e6fe537a6549df6c0172c4963f3dcfa36fa5f`. This is a path-shape check, not a
+new full runtime audit.
 
 ## Latest Receipts
 
+- [[projects/leviathan-current/lev-claimgate-digging-status-2026-06-28]]
+- [[projects/research-ratchet/wiki-update-intake-2026-06-21]]
 - [[projects/leviathan-current/packet-15-wizard-multi-model-council-audit-2026-06-19]]
 - [[projects/leviathan-current/packet-14-pasted-fep-atlas-and-leviathan-boundary-intake-2026-06-19]]
 - [[projects/leviathan-current/packet-13-pasted-fep-runtime-boundary-audit-intake-2026-06-19]]
@@ -176,6 +188,7 @@ Starter/earlier maps:
 
 - [[projects/leviathan-current/read-first]]
 - [[projects/leviathan-current/README]]
+- [[projects/leviathan-current/lev-claimgate-ratchet-memory-harness-plan-2026-06-25]]
 - [[projects/leviathan-current/bounded-ingestion-plan]]
 - [[projects/leviathan-current/source-inventory-2026-06-17]]
 - [[projects/leviathan-current/worker-swarm-plan-2026-06-17]]

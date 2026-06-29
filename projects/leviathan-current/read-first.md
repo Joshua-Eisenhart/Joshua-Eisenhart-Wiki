@@ -1,7 +1,7 @@
 ---
 title: Leviathan Current Read First
 created: 2026-06-17
-updated: 2026-06-19
+updated: 2026-06-28
 type: read-first
 status: current-source-router
 claim_ceiling: routing note and source authority map; not build proof; not release certification
@@ -77,6 +77,8 @@ Old pages in this folder may cite `/Users/joshuaeisenhart/GitHub/leviathan/...`;
 
 Remote `main` observed on 2026-06-19 after the next processing pass: `5dd98ac4ce7afeb9e4351787179c60208de6d23f`.
 
+2026-06-28 local implementation-capture route: [[projects/leviathan-current/lev-claimgate-digging-status-2026-06-28]] preserves the current Lev/ClaimGate blocker map from pasted Codex/Hermes handoffs plus limited Hermes checks. During the 2026-06-28 cron routing pass, `/Users/joshuaeisenhart/GitHub/lev` existed and `git status --short | wc -l` returned `207`; treat that checkout as dirty local implementation context only. It does not replace the GitHub/current-source authority route above, and it does not prove the ClaimGate or harness slices are land-ready.
+
 ## Read order for future agents
 
 1. This file.
@@ -91,34 +93,35 @@ Remote `main` observed on 2026-06-19 after the next processing pass: `5dd98ac4ce
 10. `https://raw.githubusercontent.com/lev-os/leviathan/main/docs/NORTH_STAR.md`.
 11. `https://raw.githubusercontent.com/lev-os/leviathan/main/AGENTS.md` for agent/contributor operating rules, not product truth.
 12. [[specs/leviathan-current/README]].
-13. [[projects/leviathan-current/proof-backed-status-dashboard]].
-14. [[projects/leviathan-current/nuanced-assessment-and-josh-provenance-2026-06-19]].
-15. [[projects/leviathan-current/packet-11-deeper-nuance-attribution-pack-intake-2026-06-19]].
-16. [[projects/leviathan-current/josh-jp-attribution-boundary-v2-2026-06-19]].
-17. [[projects/leviathan-current/no-ratchet-from-leviathan-policy]].
-18. [[projects/leviathan-current/packet-12-pasted-deep-research-truth-provenance-intake-2026-06-19]].
-19. [[projects/leviathan-current/packet-13-pasted-fep-runtime-boundary-audit-intake-2026-06-19]] as pasted FEP/runtime-boundary audit intake; advisory only, not FEP implementation proof.
+13. [[projects/leviathan-current/lev-claimgate-digging-status-2026-06-28]] when the task is the current ClaimGate/local implementation blocker lane; status capture only, so re-check the live repo before editing or promoting tests.
+14. [[projects/leviathan-current/proof-backed-status-dashboard]].
+15. [[projects/leviathan-current/nuanced-assessment-and-josh-provenance-2026-06-19]].
+16. [[projects/leviathan-current/packet-11-deeper-nuance-attribution-pack-intake-2026-06-19]].
+17. [[projects/leviathan-current/josh-jp-attribution-boundary-v2-2026-06-19]].
+18. [[projects/leviathan-current/no-ratchet-from-leviathan-policy]].
+19. [[projects/leviathan-current/packet-12-pasted-deep-research-truth-provenance-intake-2026-06-19]].
+20. [[projects/leviathan-current/packet-13-pasted-fep-runtime-boundary-audit-intake-2026-06-19]] as pasted FEP/runtime-boundary audit intake; advisory only, not FEP implementation proof.
 
 Leviathan/FEP split pages from the Packet 14 intake: [[projects/leviathan-current/packet-14-pasted-fep-atlas-and-leviathan-boundary-intake-2026-06-19]], [[projects/leviathan-current/lev-runtime-boundary-2026-06-19]], [[projects/leviathan-current/leviathan-fep-runtime-boundary-2026-06-19]], [[projects/leviathan-current/sophisticated-inference-and-leviathan-2026-06-19]], [[projects/leviathan-current/world-model-reconciler-fep-support-2026-06-19]], [[projects/leviathan-current/leviathan-claim-ceilings-2026-06-19]], [[projects/leviathan-current/leviathan-validation-experiments-backlog-2026-06-19]], and [[projects/leviathan-current/provenance-status-guardrails-2026-06-19]]. These are source synthesis and external-theory support only, not runtime proof.
 
-20. [[projects/leviathan-current/packet-15-wizard-multi-model-council-audit-2026-06-19]] as the follow-up multi-model council receipt for Packet 14. It records four completed Codex model lanes and blocked Claude/Gemini/Ollama lanes; it is route/correction evidence only, not a full Wizard Max Assembly proof.
-21. [[projects/leviathan-current/codex-imports/v3-deep-repo-nuance-bundle-2026-06-19]] as branch-imported V3 bundle intake; source synthesis only, not runtime proof.
-22. [[projects/leviathan-current/codex-imports/v4-cross-issues-deep-dive-2026-06-19]] as branch-imported V4 cross-issues intake; source synthesis only, not runtime proof.
+21. [[projects/leviathan-current/packet-15-wizard-multi-model-council-audit-2026-06-19]] as the follow-up multi-model council receipt for Packet 14. It records four completed Codex model lanes and blocked Claude/Gemini/Ollama lanes; it is route/correction evidence only, not a full Wizard Max Assembly proof.
+22. [[projects/leviathan-current/codex-imports/v3-deep-repo-nuance-bundle-2026-06-19]] as branch-imported V3 bundle intake; source synthesis only, not runtime proof.
+23. [[projects/leviathan-current/codex-imports/v4-cross-issues-deep-dive-2026-06-19]] as branch-imported V4 cross-issues intake; source synthesis only, not runtime proof.
 
 V4 split pages start at [[projects/leviathan-current/operating-contract-vs-product-proof-2026-06-19]], [[projects/leviathan-current/docs-authority-vs-status-drift-v4-2026-06-19]], [[projects/leviathan-current/security-gate-stack-v4-2026-06-19]], [[projects/leviathan-current/surface-family-matrix-v4-2026-06-19]], and [[projects/leviathan-current/release-readiness-ladder-v4-2026-06-19]]; all are source synthesis only, not runtime proof.
 
-22. [[projects/leviathan-current/codex-ratchet-vs-leviathan-boundary]].
-23. [[projects/leviathan-current/current-state-and-roadmap]].
-24. [[projects/leviathan-current/architecture-planes-and-ownership]].
-25. [[projects/leviathan-current/contract-surface-map]].
-26. [[projects/leviathan-current/deep-audit-current-snapshot-2026-06-18]] as the older clean-clone audit at `c90ec...`.
-27. [[projects/leviathan-current/repo-current-vs-wiki-drift-audit-2026-06-18]].
-28. [[projects/leviathan-current/concept-atlas-current-2026-06-18]].
-29. [[projects/leviathan-current/evidence-frontier-and-blockers-dashboard-2026-06-18]].
-30. [[projects/leviathan-current/proof-audit-roadmap-vs-mvp-2026-06-18]].
-31. [[projects/leviathan-current/read-order-by-intent-2026-06-18]].
-32. `source-inventory-2026-06-17.md` here as a historical local snapshot.
-33. Chat/transcript candidates only after provenance classification.
+24. [[projects/leviathan-current/codex-ratchet-vs-leviathan-boundary]].
+25. [[projects/leviathan-current/current-state-and-roadmap]].
+26. [[projects/leviathan-current/architecture-planes-and-ownership]].
+27. [[projects/leviathan-current/contract-surface-map]].
+28. [[projects/leviathan-current/deep-audit-current-snapshot-2026-06-18]] as the older clean-clone audit at `c90ec...`.
+29. [[projects/leviathan-current/repo-current-vs-wiki-drift-audit-2026-06-18]].
+30. [[projects/leviathan-current/concept-atlas-current-2026-06-18]].
+31. [[projects/leviathan-current/evidence-frontier-and-blockers-dashboard-2026-06-18]].
+32. [[projects/leviathan-current/proof-audit-roadmap-vs-mvp-2026-06-18]].
+33. [[projects/leviathan-current/read-order-by-intent-2026-06-18]].
+34. `source-inventory-2026-06-17.md` here as a historical local snapshot.
+35. Chat/transcript candidates only after provenance classification.
 
 ## Current status
 
