@@ -1,3 +1,11 @@
+## 2026-06-28 - Lev red-team and host-witness patch capture
+
+- Processed the pasted Lev red-team swarm and follow-up Codex patch report into [[projects/leviathan-current/lev-claimgate-digging-status-2026-06-28]].
+- Preserved the three-root hole map: boundary trust-token forgery, carrier provenance laundering, and replay/freshness. Recorded A22/A23 host-trust laundering as the highest-consequence reported break.
+- Ran a bounded Hermes spot-check in `/Users/joshuaeisenhart/GitHub/lev`: read `.lev/validation-gates.yaml` and `dna/graph.yaml`, checked git status count (`212`), inspected the named witness/trusted-ref/consume-boundary surfaces, ran graph tests (`356 pass / 0 fail`), ran focused ClaimGate/Wizard tests (`41 pass / 0 fail`), and ran the real-engine demo (`exit 0`).
+- Kept the ceiling explicit: this is stronger local evidence, not a landed/canonical ratchet. Many load-bearing files are still untracked in the Lev worktree, `graphMutationApplied` remains `false`, and non-CLI trusted-ref paths still need adversarial verification.
+- No Lev repo edit was made by Hermes in this tranche; this was wiki capture plus bounded verification.
+
 ## 2026-06-28 - Wiki dirty-state cleanup tranche
 
 - Scope: cleaned the wiki repository state after the broken-session recovery and bounded cron setup, without deleting project source material or editing the Lev repo.

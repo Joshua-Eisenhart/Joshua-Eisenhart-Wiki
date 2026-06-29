@@ -29,6 +29,48 @@ The live work has shifted from broad audit to bounded implementation and verific
 
 Later 2026-06-28 Codex build update: ClaimGate source-bound evidence context has reportedly moved from producer-authored input into host-owned run options, Wizard now supplies that host context, and FlowMind harness output was tightened toward semantic `data.output` only. Hermes spot-check supports the orchestration slice, but **does not support the pasted claim that harness session-runner tests are green**: rerunning the focused harness session-runner test from `core/harness` produced `20 passed / 2 failed`, blocked by SDLC schema path resolution.
 
+Late 2026-06-28 red-team/update: the red-team swarm reportedly broke 16/24 attacks, which collapse to three root causes: caller-minted trust/execution tokens at boundaries, path-string-only carrier provenance, and missing freshness/anti-replay. The highest-consequence reported hole was host-trust laundering via `--host-trusted-evidence-ref` into graph mutation. A later Codex build then reportedly added host execution witnesses, rejected external consume-supplied engine digests unless `--real-engines` host-rebuilds them, blocked raw trusted refs at the CLI boundary, hardened graph runtime root resolution, and fixed source-pack freshness. Hermes spot-check supports several of these improvements, but the Lev worktree remains dirty (`212` status lines) and many key ClaimGate/ratchet files are still untracked, so this is **stronger local evidence, not landed/canonical state**.
+
+## 2026-06-28 red-team roots and patch state
+
+Reported red-team roots:
+
+1. **Boundary trust-token forgery** — producer/caller could mint proof, trusted refs, ok-flags, object bindings, or projections that gates accepted without a host-issued/execution anchor.
+2. **Carrier provenance laundering** — path-string checks blocked narrow Codex-Ratchet path spellings but not content copied to a neutral path, case/slash variants, or `file:` refs into reference material.
+3. **Replay/freshness gap** — captured digest/witness or seed families could replay without nonce/session/seen-digest enforcement.
+
+Highest-consequence reported hole:
+
+- A22/A23: caller-supplied host-trust laundering. The pasted collapse says a producer could pass its own receipt ref through `--host-trusted-evidence-ref`, satisfy source-bound gates, and reach `recordClaimGateGraphPatchExecution` with `graphMutationApplied: true`.
+
+Pasted Codex patch report says:
+
+- `LevEngineSubstrateDigest` now requires a host execution witness.
+- `real-three-engine-envelope.ts` builds that witness.
+- External `lev-wizard-ratchet consume` rejects caller-supplied engine digests unless `--real-engines` is used so the host rebuilds evidence.
+- `claim-gate-loop` raw trusted evidence refs are disabled at the CLI boundary.
+- Graph runtime root resolution fails closed unless `LEV_PROJECT_ROOT` / `LEV_ROOT` points at a real Lev root.
+- The Julia R0 probe writes results to a host temp output path rather than into the source carrier.
+- The source-pack freshness check uses a monotonic `verifiedAtMs` against observed source mtime.
+
+Hermes spot-check after paste:
+
+- Read required Lev planning/validation surfaces: `.lev/validation-gates.yaml` and `dna/graph.yaml`.
+- `/Users/joshuaeisenhart/GitHub/lev` exists; `git status --short | wc -l` returned `212`.
+- Key files named in the patch are visible on disk, but many are still untracked from git's point of view: `core/graph/src/contracts/projection-binding.ts`, `core/graph/src/probes/lev-native-r0-probe.ts`, `core/graph/src/probes/skill-source-pack-runner.ts`, `core/orchestration/src/handlers/claim-gate-loop.ts`, `core/orchestration/src/handlers/lev-wizard-ratchet.ts`, `core/orchestration/src/proof/claim-gate-loop.ts`, `core/orchestration/src/proof/lev-wizard-ratchet.ts`, and `core/orchestration/src/proof/real-three-engine-envelope.ts`.
+- `core/graph/src/__tests__/projection-binding.test.ts` now has regression tests rejecting a self-consistent engine digest without a host execution witness and rejecting a stale witness.
+- `core/orchestration/src/handlers/lev-wizard-ratchet.ts` rejects external consume inputs that supply `levEngineSubstrateDigest` without `--real-engines`, then host-builds `threeEngineEnvelope`, `levEngineSubstrateDigest`, and `levEngineSubstrateExecutionWitness` when `--real-engines` is present.
+- `core/orchestration/src/handlers/claim-gate-loop.ts` has a raw trusted evidence ref disabled response at the CLI boundary. The underlying proof helper still recognizes trusted refs by regex plus set membership, so future review should verify all non-CLI/programmatic paths can only receive host-issued refs.
+- `pnpm --filter @lev-os/graph test` returned `356 pass / 0 fail` after retrying without unsupported `--runInBand`; note this includes stale `dist/__tests__` discovery, but it was green in this run.
+- Focused orchestration rerun `pnpm --dir core/orchestration exec vitest run src/handlers/claim-gate-loop.test.ts src/handlers/lev-wizard-ratchet.test.ts src/proof/lev-wizard-ratchet.test.ts` returned `3 files passed`, `41 tests passed`, exit `0`.
+- Real-engine demo command `pnpm --dir core/orchestration exec lev orchestration lev-wizard-ratchet demo --real-engines --real-source-evidence --real-skills --json` returned exit `0`; the output included `threeEngineOk: true`, `formalSkillRuntimeDebt: 0`, `failurePackets: []`, `graphAdmission.graphMutationApplied: false`, and `steeringAdmission.status: "host_consumed"`.
+
+Current support level:
+
+- **Locally stronger / observed:** graph tests pass, focused ClaimGate/Wizard tests pass, the real-engine demo exits `0`, and source shows host witness and external-digest rejection logic.
+- **Still not landed/canonical:** dirty worktree with many untracked load-bearing files; graph mutation remains proposal-only (`graphMutationApplied: false`); the self-audit/runtime-autonomy ceiling from the pasted report remains open; non-CLI trusted-ref paths still need a fresh adversarial check.
+- **Do not promote:** not final ratchet, not release proof, not durable graph mutation/autonomous self-improvement.
+
 ## Checked or reported green in the thread
 
 Reported from the latest Hermes digging pass, not freshly rerun by this page:
