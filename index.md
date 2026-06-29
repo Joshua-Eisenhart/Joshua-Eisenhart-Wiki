@@ -105,6 +105,7 @@ Total published pages: 460. Governance/read-first surfaces are listed separately
 - [[projects/leviathan-current/read-first]] — current Leviathan project front door for repo-current wiki ingestion, Josh/JP provenance split, and authority order
 - [[projects/leviathan-current/README]] — current Leviathan wiki project scaffold and page router
 - [[projects/leviathan-current/lev-claimgate-digging-status-2026-06-28]] — current local Lev/ClaimGate implementation blocker capture; status/router only, not release proof or upstream truth
+- [[projects/leviathan-current/codex-redteam-targets-2026-06-28]] — Codex build target packet from the Lev red-team swarm: 16 broke-through attacks grouped under boundary trust, carrier provenance, and replay/freshness roots; target packet only, not implementation proof
 - [[projects/leviathan-current/proof-backed-status-dashboard]] — current source-doc split and proof-routing dashboard; not release proof
 - [[projects/leviathan-current/read-order-by-intent-2026-06-18]] — task/persona read order for the huge mixed Leviathan repo/wiki surface
 - [[projects/leviathan-current/packet-8-wizard-mass-swarm-receipt-2026-06-18]] — earlier Wizard mass-swarm cleanup receipt; route/object boundary only

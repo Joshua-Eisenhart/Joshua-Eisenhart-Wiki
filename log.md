@@ -1,3 +1,10 @@
+## 2026-06-28 - Codex red-team target packet preserved
+
+- Read the Claude project memory note `project_lev_spine_forgery_redteam_3roots.md` and volatile scratch packet `codex_redteam_targets.md` from disk, recording line counts and SHA256 hashes.
+- Added [[projects/leviathan-current/codex-redteam-targets-2026-06-28]] as the durable Codex build packet for the three-root red-team fix: boundary host-issued anchors, content-and-realpath carrier verification, and session-bound anti-replay.
+- Patched [[projects/leviathan-current/lev-claimgate-digging-status-2026-06-28]], [[projects/leviathan-current/read-first]], [[projects/leviathan-current/index]], and [[index]] so future workers find the target packet without relying on `/private/tmp`.
+- Claim ceiling: copied/verified handoff packet only; no Codex implementation, no Lev patch application, and no post-fix 24-attack regression rerun.
+
 ## 2026-06-28 - Lev red-team and host-witness patch capture
 
 - Processed the pasted Lev red-team swarm and follow-up Codex patch report into [[projects/leviathan-current/lev-claimgate-digging-status-2026-06-28]].

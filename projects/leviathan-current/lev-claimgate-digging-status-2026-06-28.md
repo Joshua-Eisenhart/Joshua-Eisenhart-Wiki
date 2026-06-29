@@ -8,6 +8,7 @@ claim_ceiling: thread/user-pasted audit capture plus limited Hermes disk checks;
 source_repo: /Users/joshuaeisenhart/GitHub/lev
 related:
   - projects/leviathan-current/lev-claimgate-ratchet-memory-harness-plan-2026-06-25
+  - projects/leviathan-current/codex-redteam-targets-2026-06-28
   - hermes-current/fresh-thread-continuity-2026-06-28
 ---
 
@@ -30,6 +31,8 @@ The live work has shifted from broad audit to bounded implementation and verific
 Later 2026-06-28 Codex build update: ClaimGate source-bound evidence context has reportedly moved from producer-authored input into host-owned run options, Wizard now supplies that host context, and FlowMind harness output was tightened toward semantic `data.output` only. Hermes spot-check supports the orchestration slice, but **does not support the pasted claim that harness session-runner tests are green**: rerunning the focused harness session-runner test from `core/harness` produced `20 passed / 2 failed`, blocked by SDLC schema path resolution.
 
 Late 2026-06-28 red-team/update: the red-team swarm reportedly broke 16/24 attacks, which collapse to three root causes: caller-minted trust/execution tokens at boundaries, path-string-only carrier provenance, and missing freshness/anti-replay. The highest-consequence reported hole was host-trust laundering via `--host-trusted-evidence-ref` into graph mutation. A later Codex build then reportedly added host execution witnesses, rejected external consume-supplied engine digests unless `--real-engines` host-rebuilds them, blocked raw trusted refs at the CLI boundary, hardened graph runtime root resolution, and fixed source-pack freshness. Hermes spot-check supports several of these improvements, but the Lev worktree remains dirty (`212` status lines) and many key ClaimGate/ratchet files are still untracked, so this is **stronger local evidence, not landed/canonical state**.
+
+Codex target packet: [[projects/leviathan-current/codex-redteam-targets-2026-06-28]] preserves the volatile Claude scratchpad `codex_redteam_targets.md` as a durable build packet: 16 broke-through attacks grouped under the three roots, plus the held internal guards that must not regress. Use it as Codex's actionable target set after reading this status page.
 
 ## 2026-06-28 red-team roots and patch state
 

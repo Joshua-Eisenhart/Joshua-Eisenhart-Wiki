@@ -77,7 +77,7 @@ Old pages in this folder may cite `/Users/joshuaeisenhart/GitHub/leviathan/...`;
 
 Remote `main` observed on 2026-06-19 after the next processing pass: `5dd98ac4ce7afeb9e4351787179c60208de6d23f`.
 
-2026-06-28 local implementation-capture route: [[projects/leviathan-current/lev-claimgate-digging-status-2026-06-28]] preserves the current Lev/ClaimGate blocker map from pasted Codex/Hermes handoffs plus limited Hermes checks. During the 2026-06-28 cron routing pass, `/Users/joshuaeisenhart/GitHub/lev` existed and `git status --short | wc -l` returned `207`; treat that checkout as dirty local implementation context only. It does not replace the GitHub/current-source authority route above, and it does not prove the ClaimGate or harness slices are land-ready.
+2026-06-28 local implementation-capture route: [[projects/leviathan-current/lev-claimgate-digging-status-2026-06-28]] preserves the current Lev/ClaimGate blocker map from pasted Codex/Hermes handoffs plus limited Hermes checks. [[projects/leviathan-current/codex-redteam-targets-2026-06-28]] is the durable Codex build packet extracted from the red-team swarm: 16 broke-through attacks grouped under three roots, with regression targets and held guards. During the 2026-06-28 cron routing pass, `/Users/joshuaeisenhart/GitHub/lev` existed and `git status --short | wc -l` returned `207`; later Hermes spot-check saw `212`. Treat that checkout as dirty local implementation context only. It does not replace the GitHub/current-source authority route above, and it does not prove the ClaimGate or harness slices are land-ready.
 
 ## Read order for future agents
 
@@ -94,19 +94,20 @@ Remote `main` observed on 2026-06-19 after the next processing pass: `5dd98ac4ce
 11. `https://raw.githubusercontent.com/lev-os/leviathan/main/AGENTS.md` for agent/contributor operating rules, not product truth.
 12. [[specs/leviathan-current/README]].
 13. [[projects/leviathan-current/lev-claimgate-digging-status-2026-06-28]] when the task is the current ClaimGate/local implementation blocker lane; status capture only, so re-check the live repo before editing or promoting tests.
-14. [[projects/leviathan-current/proof-backed-status-dashboard]].
-15. [[projects/leviathan-current/nuanced-assessment-and-josh-provenance-2026-06-19]].
-16. [[projects/leviathan-current/packet-11-deeper-nuance-attribution-pack-intake-2026-06-19]].
-17. [[projects/leviathan-current/josh-jp-attribution-boundary-v2-2026-06-19]].
-18. [[projects/leviathan-current/no-ratchet-from-leviathan-policy]].
-19. [[projects/leviathan-current/packet-12-pasted-deep-research-truth-provenance-intake-2026-06-19]].
-20. [[projects/leviathan-current/packet-13-pasted-fep-runtime-boundary-audit-intake-2026-06-19]] as pasted FEP/runtime-boundary audit intake; advisory only, not FEP implementation proof.
+14. [[projects/leviathan-current/codex-redteam-targets-2026-06-28]] when Codex needs the concrete three-root red-team regression target packet.
+15. [[projects/leviathan-current/proof-backed-status-dashboard]].
+16. [[projects/leviathan-current/nuanced-assessment-and-josh-provenance-2026-06-19]].
+17. [[projects/leviathan-current/packet-11-deeper-nuance-attribution-pack-intake-2026-06-19]].
+18. [[projects/leviathan-current/josh-jp-attribution-boundary-v2-2026-06-19]].
+19. [[projects/leviathan-current/no-ratchet-from-leviathan-policy]].
+20. [[projects/leviathan-current/packet-12-pasted-deep-research-truth-provenance-intake-2026-06-19]].
+21. [[projects/leviathan-current/packet-13-pasted-fep-runtime-boundary-audit-intake-2026-06-19]] as pasted FEP/runtime-boundary audit intake; advisory only, not FEP implementation proof.
 
 Leviathan/FEP split pages from the Packet 14 intake: [[projects/leviathan-current/packet-14-pasted-fep-atlas-and-leviathan-boundary-intake-2026-06-19]], [[projects/leviathan-current/lev-runtime-boundary-2026-06-19]], [[projects/leviathan-current/leviathan-fep-runtime-boundary-2026-06-19]], [[projects/leviathan-current/sophisticated-inference-and-leviathan-2026-06-19]], [[projects/leviathan-current/world-model-reconciler-fep-support-2026-06-19]], [[projects/leviathan-current/leviathan-claim-ceilings-2026-06-19]], [[projects/leviathan-current/leviathan-validation-experiments-backlog-2026-06-19]], and [[projects/leviathan-current/provenance-status-guardrails-2026-06-19]]. These are source synthesis and external-theory support only, not runtime proof.
 
-21. [[projects/leviathan-current/packet-15-wizard-multi-model-council-audit-2026-06-19]] as the follow-up multi-model council receipt for Packet 14. It records four completed Codex model lanes and blocked Claude/Gemini/Ollama lanes; it is route/correction evidence only, not a full Wizard Max Assembly proof.
-22. [[projects/leviathan-current/codex-imports/v3-deep-repo-nuance-bundle-2026-06-19]] as branch-imported V3 bundle intake; source synthesis only, not runtime proof.
-23. [[projects/leviathan-current/codex-imports/v4-cross-issues-deep-dive-2026-06-19]] as branch-imported V4 cross-issues intake; source synthesis only, not runtime proof.
+22. [[projects/leviathan-current/packet-15-wizard-multi-model-council-audit-2026-06-19]] as the follow-up multi-model council receipt for Packet 14. It records four completed Codex model lanes and blocked Claude/Gemini/Ollama lanes; it is route/correction evidence only, not a full Wizard Max Assembly proof.
+23. [[projects/leviathan-current/codex-imports/v3-deep-repo-nuance-bundle-2026-06-19]] as branch-imported V3 bundle intake; source synthesis only, not runtime proof.
+24. [[projects/leviathan-current/codex-imports/v4-cross-issues-deep-dive-2026-06-19]] as branch-imported V4 cross-issues intake; source synthesis only, not runtime proof.
 
 V4 split pages start at [[projects/leviathan-current/operating-contract-vs-product-proof-2026-06-19]], [[projects/leviathan-current/docs-authority-vs-status-drift-v4-2026-06-19]], [[projects/leviathan-current/security-gate-stack-v4-2026-06-19]], [[projects/leviathan-current/surface-family-matrix-v4-2026-06-19]], and [[projects/leviathan-current/release-readiness-ladder-v4-2026-06-19]]; all are source synthesis only, not runtime proof.
 

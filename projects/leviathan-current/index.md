@@ -21,6 +21,8 @@ Current integrated patch router: [[projects/leviathan-current/lev-claimgate-ratc
 
 Current implementation blocker capture: [[projects/leviathan-current/lev-claimgate-digging-status-2026-06-28]] — latest Hermes/Claude handoff on graph `dist` test pollution, legacy guard scope, source-read receipts, notary/falsifier trust, persistence/hydration, dirty-worktree slicing, duplicate package scripts, and blocked model-worker routes. Status capture only; re-check the live repo before editing.
 
+Current Codex red-team target packet: [[projects/leviathan-current/codex-redteam-targets-2026-06-28]] — 16 broke-through attacks grouped under the three root fixes, with regression targets and do-not-regress held guards. Build packet only; not proof fixes landed.
+
 1. [[specs/leviathan-current/README]] — repo-facing mirror policy and current source authority at `5dd98ac4ce7afeb9e4351787179c60208de6d23f`.
 2. [[projects/leviathan-current/research-ratchet-deep-patch-plan-2026-06-21]] — Research Ratchet / GraphPatch / SpinorMemory patch plan; proposal only, not merged/runtime canon.
 3. [[projects/leviathan-current/proof-backed-status-dashboard]] — current `ROADMAP.md` / `mvp.md` source split and proof-routing dashboard.
@@ -43,6 +45,7 @@ new full runtime audit.
 ## Latest Receipts
 
 - [[projects/leviathan-current/lev-claimgate-digging-status-2026-06-28]]
+- [[projects/leviathan-current/codex-redteam-targets-2026-06-28]]
 - [[projects/research-ratchet/wiki-update-intake-2026-06-21]]
 - [[projects/leviathan-current/packet-15-wizard-multi-model-council-audit-2026-06-19]]
 - [[projects/leviathan-current/packet-14-pasted-fep-atlas-and-leviathan-boundary-intake-2026-06-19]]
