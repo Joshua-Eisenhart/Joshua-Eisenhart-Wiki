@@ -91,6 +91,12 @@
    "map": "16 stages = 8 terrains x 2 native operators, signed Axis-6. Rosetta names per terrain from terrain_differentiation overlay; each stage = TerrainName+Operator (e.g. t0:Ti=Funnel+Ti=TiSe/SeTi by order).",
    "result": "all 16 distinct (mean 4.6), all order-sensitive (N01 unique processing 16/16), fusion split 8 fused / 8 source-surplus. Source-surplus = dissipative half = parity-readable half (7o).",
    "engines": "each of the 2 engine types (eps=+/-) accesses 8 of these 16 stages (eight-of-sixteen access law)."
+  },
+  "engine_type_access": {
+   "earned_status": "earned",
+   "map": "eps=+1 -> Left Weyl / Type-1 engine (accesses Funnel,Vortex,Pit,Hill x 2 ops); eps=-1 -> Right Weyl / Type-2 (Cannon,Spiral,Source,Citadel x 2 ops). Each person is ONE engine.",
+   "result": "engine type = global sign of loop geometric phase (Left +, Right -). 8/8 stages flip handedness on the wrong sheet -> genuinely non-transferable. The two 8-sets are pole-mirror pairs.",
+   "law_name": "eight-of-sixteen access law"
   }
  },
  "provenance": "Grounded in: igt-pattern-explicit-math-reference (operator table, Carnot/Szilard rows, 4-ring), taijitu-probe-reconciliation-card (witness fencing), empirical-math-rosetta (math-first discipline), terrain-rosetta-strong-math (terrain placements). Claude Science session 2026-07-01. scratch/witness; promotion_allowed=false."
