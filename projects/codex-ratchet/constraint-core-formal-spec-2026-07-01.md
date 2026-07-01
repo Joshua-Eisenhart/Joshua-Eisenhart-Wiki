@@ -810,9 +810,12 @@ with a judging operator `J` in one of two orders (Axis 6 precedence):
 ### The unique-processing result (the point of running the engine)
 
 Does each of the 64 microsteps do **genuinely unique** information processing?
-The answer depends entirely on the **observable**, and this reproduces the repo's
-documented `eng_64` degeneracy (`64 stages, only 16 distinct fingerprints`) from
-first principles:
+The answer depends entirely on the **observable**, and this exhibits the same
+**collapse phenomenon** the repo documents for `eng_64` (`64 stages, only 16
+distinct fingerprints`). The exact collapse *count* is observable-dependent — my
+coarse order-blind readout yields **11** distinct, not the repo's 16 (a different
+coarse observable) — so this is an independent demonstration of the degeneracy,
+not a reproduction of that specific count:
 
 | Readout | Distinct microsteps / 64 |
 |---------|--------------------------|
