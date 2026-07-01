@@ -104,7 +104,8 @@
    "earned_status": "earned",
    "map": "direct operators {Ti,Fi} map to conjugated {Te,Fe} EXACTLY under the Hadamard involution W=(\u03c3x+\u03c3z)/\u221a2 (Ti->Te 3e-33, Fi->Fe 4e-17). The operator table's 'conjugated = x<->z image of direct' IS W-covariance.",
    "result": "native-operator law promoted from labelling (\u00a77q) to earned theorem (\u00a77t). Fork settled: spec's V=exp(-iH0 u) does NOT implement the swap (sends Fi->Y-rot); only W swaps z<->x for both pairs. Axis-2 frame element flagged for repair.",
-   "provenance": "external bundle audit 2026-07-01, verified independently"
+   "provenance": "external bundle audit 2026-07-01, verified independently",
+   "FORK_RESOLVED_2026-07-01": "\u00a77t fork settled by consistency check (\u00a77u): Axis-2 is a TWO-LAYER object, neither V nor W is wrong. V=exp(-iH0 u) = continuous co-rotating frame (connection K=H0, \u00a77n role); W=(\u03c3x+\u03c3z)/\u221a2 = discrete Z2 direct<->conjugated involution (K=0, carries the exact operator map Ti<->Te Fi<->Fe, \u00a77t role). They compose: W conjugates the continuous connection, K->WKW=H0-2\u03c3y/\u221a3. NO spec repair \u2014 Axis-2 refined, the native-operator law earned as covariance under the discrete layer."
   }
  },
  "provenance": "Grounded in: igt-pattern-explicit-math-reference (operator table, Carnot/Szilard rows, 4-ring), taijitu-probe-reconciliation-card (witness fencing), empirical-math-rosetta (math-first discipline), terrain-rosetta-strong-math (terrain placements). Claude Science session 2026-07-01. scratch/witness; promotion_allowed=false.",
