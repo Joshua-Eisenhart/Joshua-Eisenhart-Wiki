@@ -1696,7 +1696,7 @@ satisfy settles it — and the answer is **neither is wrong: Axis-2 has two laye
 | property Axis-2 must satisfy | `V = exp(−iH₀u)` | `W = (σx+σz)/√2` |
 |------------------------------|:----------------:|:---------------:|
 | gauge-invariant (preserves all state invariants, §7n) | ✓ `9×10⁻¹⁶` | ✓ `8×10⁻¹⁶` |
-| implements direct↔conjugated operator map (§7t) | ✗ `0.67` | ✓ `3×10⁻³³` |
+| implements direct↔conjugated operator map (§7t) | ✗ `Ti→Te 0.67, Fi→Fe 2.15` | ✓ `Ti→Te 3×10⁻³³, Fi→Fe 4×10⁻¹⁷` |
 | phase-sector element (moves eigenvectors, not spectrum, §7n) | ✓ | ✓ `Δλ 9×10⁻¹⁶` |
 | carries a connection `K = iV†V̇` (changes effective dynamics, §7n) | ✓ `K = H₀` | ✗ `K = 0` |
 
