@@ -18,7 +18,8 @@
     "p->Axis0": "p = a1 XOR a2 = Axis-0 discrete N/S projection: p=1 -> N {Ne,Ni}, p=0 -> S {Se,Si}"
    },
    "evidence": "Verified exactly against repo operator table (igt-pattern lines 475-478); parity identity in axis0_xor_sim.py; sector theorem in axis0_sector_sim.py.",
-   "late_object_law": "EARNED: the parity p=Axis-0 is readable only once the entropy sector is active; its readability is proportional (linear, k~0.0787) to the symmetry-breaking dissipation. This makes 'Axis-0 is a late object' a quantitative statement and ties it to the co-ratchet (S7c): entropy must be earned before the parity can be read."
+   "late_object_law": "EARNED: the parity p=Axis-0 is readable only once the entropy sector is active; its readability is proportional (linear, k~0.0787) to the symmetry-breaking dissipation. This makes 'Axis-0 is a late object' a quantitative statement and ties it to the co-ratchet (S7c): entropy must be earned before the parity can be read.",
+   "CORRECTION_2026-07-01": "Withdrew the 'linear law a2=k\u00b7delta, R\u00b2=1.0' \u2014 it was affine-by-construction (single Kraus step). Survives: exact gauge degeneracy at delta=0 + monotone (saturating) co-ratchet link under genuine GKSL."
   },
   "terrain_names": {
    "earned_status": "earned",
@@ -97,7 +98,19 @@
    "map": "eps=+1 -> Left Weyl / Type-1 engine (accesses Funnel,Vortex,Pit,Hill x 2 ops); eps=-1 -> Right Weyl / Type-2 (Cannon,Spiral,Source,Citadel x 2 ops). Each person is ONE engine.",
    "result": "engine type = global sign of loop geometric phase (Left +, Right -). 8/8 stages flip handedness on the wrong sheet -> genuinely non-transferable. The two 8-sets are pole-mirror pairs.",
    "law_name": "eight-of-sixteen access law"
+  },
+  "native_operator_W_covariance": {
+   "earned_status": "earned",
+   "map": "direct operators {Ti,Fi} map to conjugated {Te,Fe} EXACTLY under the Hadamard involution W=(\u03c3x+\u03c3z)/\u221a2 (Ti->Te 3e-33, Fi->Fe 4e-17). The operator table's 'conjugated = x<->z image of direct' IS W-covariance.",
+   "result": "native-operator law promoted from labelling (\u00a77q) to earned theorem (\u00a77t). Fork settled: spec's V=exp(-iH0 u) does NOT implement the swap (sends Fi->Y-rot); only W swaps z<->x for both pairs. Axis-2 frame element flagged for repair.",
+   "provenance": "external bundle audit 2026-07-01, verified independently"
   }
  },
- "provenance": "Grounded in: igt-pattern-explicit-math-reference (operator table, Carnot/Szilard rows, 4-ring), taijitu-probe-reconciliation-card (witness fencing), empirical-math-rosetta (math-first discipline), terrain-rosetta-strong-math (terrain placements). Claude Science session 2026-07-01. scratch/witness; promotion_allowed=false."
+ "provenance": "Grounded in: igt-pattern-explicit-math-reference (operator table, Carnot/Szilard rows, 4-ring), taijitu-probe-reconciliation-card (witness fencing), empirical-math-rosetta (math-first discipline), terrain-rosetta-strong-math (terrain placements). Claude Science session 2026-07-01. scratch/witness; promotion_allowed=false.",
+ "_audit_log_2026-07-01": {
+  "source": "external thread audit of constraint_core_selfcontained.zip",
+  "downgraded": "\u00a77o gauge-breaking 'linear law R\u00b2=1.0' -> withdrawn (parametrization artifact); \u03b4=0 degeneracy + monotone link survive",
+  "corrected": "\u00a77q 'null failure is the point' -> honest null (cannot confirm fusion); \u00a77r/\u00a77s '8/8 threefold coincidence' -> one Axis-1 bit read three ways (consistency not convergence)",
+  "new_positive": "\u00a77t exact W-covariance derivation of the native-operator law + Axis-2 frame-element repair flag"
+ }
 }
