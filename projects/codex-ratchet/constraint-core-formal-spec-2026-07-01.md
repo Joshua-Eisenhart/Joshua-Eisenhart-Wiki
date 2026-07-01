@@ -912,6 +912,69 @@ genuinely `N01`-driven, not an artifact of the readout: a **noncommuting** pair
 
 ---
 
+## 7i. Source-locking the terrains, and why Axis-0 is not terrain-local
+
+The standing blocker across §7b.3, §7h, and every prior model was that only Ni's
+dissipator (`σ∓`) was source-locked; the Se/Ne/Si dissipators were symbolic
+families (`D[L_k]`, `D[M_k]`, `P_j`), so an agent had to *choose* them — which
+manufactures canon. This section closes that, using the repo's own **scratch Bloch
+maps** (`igt-pattern-explicit-math-reference.md` §12) as the source of truth.
+
+**Source-locking (achieved).** Each terrain's scratch Bloch map pins a **fixed
+point**, which determines its GKSL content without invention:
+- **Se (Funnel/Cannon)** — the scratch map `(√.78 x, √.78 y, .78 z + .22·.86)` is a
+  **generalized amplitude damping** toward `z* ≈ +.86` (Funnel) / `−.86` (Cannon),
+  *not* the pure `D[σ_z]` dephasing used earlier. Realized as
+  `γ₊ D[σ₊] + γ₋ D[σ₋]` with `z* = (γ₊−γ₋)/(γ₊+γ₋)`.
+- **Ni (Pit/Source)** — already source-locked: `D[σ₋]` → `z*=−1` (Pit),
+  `D[σ₊]` → `z*=+1` (Source).
+- **Ne (Vortex/Spiral)** — Hamiltonian-dominant + weak isotropic depolarizing
+  (scratch `.94·R_N` → center), fixed point at the maximally mixed state.
+- **Si (Hill/Citadel)** — projective invariant-subspace preservation.
+
+Integrated as GKSL generators (CPTP by construction), the settled fixed points
+track the scratch targets: Funnel `+0.78` (target `+.86`), Pit `−0.90` (`−.92`),
+Cannon `−0.77` (`−.86`), Source `+0.91` (`+.92`) — the small offsets are the
+competing `−iε[H,ρ]` term tilting the pole, which is physical
+(`axis0_sourcelock_diagnosis.json`).
+
+**Axis-0 is orthogonal to every single-trajectory functional (the real reason it
+stalls).** With source-locked terrains, five principled Axis-0 readouts were
+tested against the target split `Ne/Ni` (active/+) vs `Se/Si` (conservative/−):
+
+| Functional | Result grouping | Which axis it tracks |
+|---|---|---|
+| entropy production `ΔS` | `{Se,Ni}−`, `{Ne,Si}+` | **Axis-1** (dissipative/unitary) |
+| response derivative `dD/dλ` | `{Se,Ni}` high, `{Ne,Si}` low | **Axis-1** |
+| trajectory activity (arc length) | `Ne,Ni,Se +`, `Si −` (3/4) | mixed |
+| future-option multiplicity | `{Se,Ni}` many, `{Ne,Si}` few | **Axis-1** |
+| participation ratio (§7b.3) | all `+` | none |
+
+**None realizes `Ne/Ni | Se/Si`.** The diagnosis is structural, not a tuning
+failure: the three DOF partitions of the four topologies are **mutually
+orthogonal** —
+
+- **Axis-0 (perceiving):** active `{Ne,Ni}` | conservative `{Se,Si}`
+- **Axis-1 (dynamics):** dissipative `{Se,Ni}` | unitary `{Ne,Si}`
+- **Axis-2 (frame):** direct `{Se,Ne}` | conjugated `{Ni,Si}`
+
+Any single-trajectory *scalar* (entropy, response, activity, branch count) tracks
+the **dynamical** contrast (Axis-1), which cuts *across* Axis-0 — so it necessarily
+collapses `Ne/Ni` vs `Se/Si`. This is exactly why models "get stuck validating
+Axis-0." The teeth map (`axis0-physics-source-teeth-map.md`) already says so: Axis-0
+is a **late object** on the full spine `Ω_r/JK → branch-kill → C_G → Ξ → ρ_AB →
+Φ0`, *not* a terrain-local readout. Realizing it requires building that spine (the
+ring-checkerboard / many-futures layer), not a better one-shot functional.
+
+> **Claim ceiling.** `scratch_diagnostic`, `promotion_allowed=false`. Earned:
+> source-locked GKSL content for all 8 terrains (fixed points matched to scratch
+> maps); a first-principles proof that Axis-0's grouping is orthogonal to the
+> dynamical functionals (5 tested), corroborating the doctrine that Axis-0 is a
+> late spine object. **Not** earned: a working Axis-0 readout (still open, now for
+> a *principled* reason — it needs the Ω_r/JK spine, not terrain-local dynamics).
+
+---
+
 ## 8. Audit — with claim-grade discipline
 
 **Claim-grade rule (from the current wiki per-rung standard).** Claim-bearing
@@ -946,6 +1009,8 @@ here admits final `M(C)`, the QIT engine, physics, or geometry-complete claims.
 | ratchet-prec | L4 holonomy `−4.442882938` vs `−2π cos2η`, residual ≈3e-10 | `closed_form` | **holds** (deepest layer locked) |
 | basins | 8 terrain basins distinct (rich fingerprint); kill test splits Ne/Ni=attractor, Se/Si=viability | `limit_set` + `kill_test` | **holds** (coincides w/ Axis-0 polarity) |
 | subbasins | operators refine basins (Pit sep 0.445, Hill 0.005); commuting control kills order gap (2e-17) | `sep` + `commuting_kill` | **holds** (N01-driven, not artifact) |
+| src-lock | 8 terrains GKSL from scratch fixed points (Funnel +.78/tgt+.86, Pit −.90/−.92, Source +.91/+.92) | `fixed_point_match` | **holds** (Se/Ne/Si no longer agent-chosen) |
+| axis0-orth | 5 Axis-0 functionals all track {Se,Ni}\|{Ne,Si} (Axis-1), none realizes {Ne,Ni}\|{Se,Si} | `partition_orthogonality` | **holds** (Axis-0 is a late spine object, not terrain-local) |
 
 **Diagnostic-float rows** (`numpy`/`scipy`; `constraint_core_audit.py`) —
 `diagnostic_float_nonclaim`, i.e. supporting evidence only, **not** promotable as
