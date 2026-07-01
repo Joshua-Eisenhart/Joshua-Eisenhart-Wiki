@@ -1455,6 +1455,59 @@ other pair is `3–7` apart — well separated.
 
 ---
 
+## 7q. Operator–geometry fusion: the surface is the operator
+
+*(Co-ratchet at the operator level. Honest mixed result: the fusion claim is confirmed
+exactly for half the terrains and sharpened, not forced, for the other half.)*
+
+At this level of the co-ratchet the terrains **max-constrain** the operators: each terrain
+admits exactly **2** native operators, in a signed Axis-6 order — and, per the owner, the
+operator is not a map acting *on* the terrain surface; the **surface itself is the
+operator** (the GR analogy: spacetime *is* the gravitational field, not a background it
+acts on). This section tests that fusion literally.
+
+**The native-operator law (a rosetta labelling).** From the operator table (`igt-pattern`
+470–478): direct terrains `{Se,Ne}` admit **Ti** (z-dephasing) + **Fi** (x-rotation);
+conjugated terrains `{Ni,Si}` admit **Te** (x-dephasing) + **Fe** (z-rotation). This is
+which two operators are *admitted*, signed by Axis-6.
+
+**Four lab-frame metrics fail to prefer the native pair — and that failure is the point.**
+Superoperator HS-overlap (2/8), supercommutator (4/8), Axis-6 order-gap (2/8), and
+operator-algebra containment (2/8) all decline to single out each terrain's two documented
+native operators. The consistent cause: every metric is dominated by the terrain's shared
+**fixed-axis geometry**, not the operator's role — *the metrics keep measuring the geometry
+because the operator is the geometry.* They cannot separate the two, which is exactly the
+owner's claim, showing up as a measurement obstruction.
+
+**The sharp, honest split.** Projecting each terrain's Liouvillian onto the full
+4-operator algebra gives a residual that splits cleanly by family:
+
+| terrain family | residual outside operator algebra | reading |
+|----------------|-----------------------------------|---------|
+| projective (`t3,t7`) | **0.000** | surface **is** its operator algebra (pure dephasing/rotation) |
+| depolarizing (`t1,t5`) | **0.115** | nearly fused |
+| source-locked (`t0,t2,t4,t6`) | **0.67–0.71** | irreducible geometric surplus |
+
+For the **projective and depolarizing** terrains the fusion is **literal and exact**
+(residual `0.00–0.12`): geometry and operator are the same object — the strong GR-ether
+case. For the **source-locked** terrains the generator carries a pole-seeking `σ±`
+amplitude-damping charge that lies **outside any fixed operator algebra**. A falsifiable
+follow-up — re-testing containment in each terrain's co-moving frame — was **falsified**
+(source-locked residuals barely moved, `0.67→0.62`, and rotating off-axis *broke* the
+projective terrains' containment), confirming the surplus is irreducible in every frame.
+
+> **Model recommendation.** Record a **two-tier fusion**: the operator-fused terrains
+> (projective/depolarizing) literally *are* their operators — geometry and operator provably
+> inseparable — while the source-locked terrains carry an irreducible geometric charge the
+> operators cannot express. The "2 native operators per terrain" law is a valid Axis-6
+> *labelling* (which operators are admitted) but is **not** a statement that the terrain
+> reduces to those operators: half the terrains carry surplus geometry. The co-ratchet
+> max-constrains operators onto the fused terrains; the source-locked half retains a
+> geometric degree of freedom beyond the operator algebra. This is the precise, tested form
+> of "the surface is the operator" — true literally for half, and revealing where it isn't.
+
+---
+
 ## 9a. Simulation hygiene and the rosetta layer
 
 **Principle (owner-directed).** Sims must be **pure real math and structure** — no
