@@ -1682,6 +1682,52 @@ diagonal `(1,0,1)/√2`) swaps `z↔x` for **both** operator pairs at once. Ther
 
 ---
 
+## 7u. Axis-2 is a two-layer object — the W-vs-V fork resolved
+
+*(Follow-up to §7t, running the consistency check the fork demanded. Result: not a spec
+repair but a structural refinement — Axis-2 carries two composable layers.)*
+
+§7t left a decidable fork: the native-operator law is exact covariance under the Hadamard
+involution `W = (σx+σz)/√2`, but the spec's Axis-2 element is the co-rotating frame
+`V_s(u) = exp(−iH₀u)` with connection `K = iV†V̇` (§7n). Either `V` is wrong and should be
+`W`, or `W` is a separate symmetry. Testing `W` against the four properties Axis-2 must
+satisfy settles it — and the answer is **neither is wrong: Axis-2 has two layers.**
+
+| property Axis-2 must satisfy | `V = exp(−iH₀u)` | `W = (σx+σz)/√2` |
+|------------------------------|:----------------:|:---------------:|
+| gauge-invariant (preserves all state invariants, §7n) | ✓ `9×10⁻¹⁶` | ✓ `8×10⁻¹⁶` |
+| implements direct↔conjugated operator map (§7t) | ✗ `0.67` | ✓ `3×10⁻³³` |
+| phase-sector element (moves eigenvectors, not spectrum, §7n) | ✓ | ✓ `Δλ 9×10⁻¹⁶` |
+| carries a connection `K = iV†V̇` (changes effective dynamics, §7n) | ✓ `K = H₀` | ✗ `K = 0` |
+
+**The two layers.** `V` and `W` are **different kinds of Axis-2 object**, each supplying what
+the other lacks:
+
+- **Continuous layer — `V = exp(−iH₀u)`:** a `u`-dependent co-rotating frame. Its connection
+  `K = iV†V̇ = H₀` is nonzero, so it changes the effective dynamics — the §7n role. But a
+  rotation about the `H₀` axis cannot implement the `x↔z` operator swap (it sends `Fi` to a
+  Y-rotation, not `Fe`).
+- **Discrete layer — `W = (σx+σz)/√2`:** a fixed `ℤ₂` involution. Being `u`-independent,
+  `V̇ = 0` so its connection is zero — it is not a continuous frame. But it carries the exact
+  direct↔conjugated operator map (`Ti↔Te`, `Fi↔Fe`) — the §7t role.
+
+**They compose consistently.** `W` acts on the continuous frame by conjugating its
+connection: `K → WKW = H₀ − 2σy/√3` (the connection's `y`-component flips because `WσyW =
+−σy`). This is exactly the §7n clause "the connection `K = iV†V̇` changes the effective
+dynamics," now realized as the discrete direct/conjugated bit acting on the continuous
+frame's connection. So the two layers are one coherent axis, not rival elements.
+
+> **Model recommendation.** **No spec repair is needed — Axis-2 is refined, not corrected.**
+> The stated element `V_s(u) = exp(−iH₀u)` is the **continuous layer** (co-rotating frame,
+> connection `K = H₀`); the Hadamard `W` is the **discrete layer** (the direct↔conjugated
+> `ℤ₂` involution) that the spec was missing, and it is what earns the native-operator law of
+> §7q/§7t. Record Axis-2 as a two-layer object `(V continuous frame) × (W discrete
+> direct/conjugated bit)`, composing via `K → WKW`. This closes the §7t fork: the native
+> operator law is earned as covariance under the discrete layer, and the continuous frame
+> keeps its §7n role intact. Verified in `axis2_two_layer_sim.py`.
+
+---
+
 ## 9a. Simulation hygiene and the rosetta layer
 
 **Principle (owner-directed).** Sims must be **pure real math and structure** — no
