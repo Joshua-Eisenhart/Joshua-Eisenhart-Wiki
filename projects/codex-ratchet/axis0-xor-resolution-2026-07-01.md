@@ -48,8 +48,8 @@ The repo already states Axis-0 "cannot be evaluated on a single isolated spinor;
 cut-state rho_AB" (the Xi bridge), and calls it "the single biggest open problem." A bipartite object
 is a two-subsystem = two-axis construction — exactly what computing a parity requires. The discrete
 Axis-0 projection {Ne,Ni}->N, {Se,Si}->S is then the GROUND-TRUTH target the Xi bridge must reduce to,
-not a functional to be guessed. A multivariate leave-one-family-out check confirms the N/S label IS
-recoverable from the measured dynamical observables (4/4) — but only jointly, never from any one.
+not a functional to be guessed. Axis-0 is visible only jointly in Axis-1 and Axis-2, never from either alone — the XOR identity is
+the precise structural form of that statement (deterministic algebra; no statistical fit needed).
 
 ## Constructive next step
 
