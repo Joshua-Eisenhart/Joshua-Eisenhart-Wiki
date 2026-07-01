@@ -85,7 +85,8 @@
    "earned_status": "earned",
    "native_operator_law": "direct {Se,Ne} admit Ti(z-dephasing)+Fi(x-rotation); conjugated {Ni,Si} admit Te(x-dephasing)+Fe(z-rotation); each terrain exactly 2 operators in signed Axis-6 order (igt-pattern 470-478). This is a LABELLING (which operators admitted), NOT a reduction.",
    "two_tier_fusion": "Containment residual splits: projective terrains (t3=Hill,t7=Citadel) 0.000 + depolarizing (t1=Vortex,t5=Spiral) 0.115 = FUSED (surface IS operator, GR-ether literal); source-locked (t0=Funnel,t2=Pit,t4=Cannon,t6=Source) 0.67-0.71 = irreducible geometric surplus (sigma_pm) beyond any operator, frame-independent.",
-   "gr_ether_reading": "For fused terrains geometry and operator are the same object (spacetime IS the field). For source-locked terrains the operator is woven into the fabric but does not exhaust it."
+   "gr_ether_reading": "For fused terrains geometry and operator are the same object (spacetime IS the field). For source-locked terrains the operator is woven into the fabric but does not exhaust it.",
+   "UPGRADED_2026-07-01": "\u00a77q surplus upgraded from numerical containment split to a THEOREM: the 8/8 fusion bit = \ud835\udfd9[\u2016L(I)\u2016\u22600] (non-unitality). All 4 operators unital (L(I)=0), so any span is unital; source-locked terrains carry D[\u03c3\u00b1] with \u2016L(I)\u2016=\u221a2\u22600 (t0,t2,t4,t6), fused terrains \u2016L(I)\u2016=0 (t1,t3,t5,t7). No frame moves a non-unital map into a unital algebra (basis-independent) \u2014 replaces the falsified co-moving-frame test with a one-line identity."
   },
   "sixteen_stage_engine": {
    "earned_status": "earned",
@@ -120,5 +121,11 @@
   "verified": "decoupling terrain-vs-meter 14/16 vs 2/16; exact Ti/Te conjugation symmetry (0 machine precision); chirality-neutral 14/16 with t3/t7:Fe failures",
   "outcome": "\u00a77s SHARPENED not demoted: exact symbolic theorem on 8 pinching stages, dynamical 14/16 on 8 rotation stages; 16/16 requires explicit loop-carries-H0 convention",
   "stale_flag_noted": "the audit's housekeeping flag (v2 hadn't incorporated first audit) is superseded: \u00a77o linear law already withdrawn, \u00a77q reframed, \u00a77t W-fork added in spec v24"
+ },
+ "_audit_log_2026-07-01_third": {
+  "source": "two external threads converging (files 23-00-00 + 23-15-15); the second independently reached the \u00a77u two-layer de-conflation ('two exact theorems carried by two provably distinct group elements')",
+  "cross_instance_confirmation": "second thread confirms \u00a77u: V carries the \u03b4=0 degeneracy+connection, W carries the pair swap, no single element carries both \u2014 matches this session's \u00a77u exactly; parametrization discrepancy (12/16 vs 14/16 on \u00a77s) traced not papered over",
+  "upgrades_applied": "\u00a77q -> non-unitality theorem (\ud835\udfd9[L(I)\u22600]); \u00a77n -> symbolic_identity grade (unitary similarity preserves spectrum, entropy invariance is algebraic not 2e-15 numeric); \u00a77t/\u00a77u residuals tagged Frobenius-norm; \u00a77o GKSL convention pinned (L=\u03c3z\u2297I, T=1, t=0.7)",
+  "remaining_open_ledger": "\u03c7\u2082 (open-path eigenvector-sector readout) only; PLUS the sharper Axis-2 gap surfaced by both threads: neither W nor V realizes the TERRAIN-level direct/conjugated bit (generator-map residuals 0.6-1.4) \u2014 the a2 assignment on terrains rests on the source table alone"
  }
 }
