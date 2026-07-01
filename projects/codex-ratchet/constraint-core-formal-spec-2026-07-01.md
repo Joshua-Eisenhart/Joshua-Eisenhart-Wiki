@@ -1369,10 +1369,11 @@ the system as premises.
 
 ---
 
-## 7o. The gauge-breaking law: why the parity is a late object, and its link to the co-ratchet
+## 7o. The gauge degeneracy: why the parity is a late object, and its link to the co-ratchet
 
-*(Continuation of §7n, building the open piece. The relational readout and the scaling
-law are solid; stated in pure structural indices per §9a.)*
+*(Continuation of §7n, building the open piece. Stated in pure structural indices per §9a.
+**Corrected 2026-07-01** after an external audit — see the correction note at the end of
+this section. The exact δ=0 gauge degeneracy survives; the "linear law" claim was withdrawn.)*
 
 §7n isolated the open piece as a **relational, open-path phase observable** for `χ₂` — a
 system `A` entangled with a reference `B` the gauge does not rotate. Building it produced
@@ -1389,14 +1390,20 @@ But **for unitary objects** (`a1=1`) it is invisible, for an exact reason:
 > `p = a1 ⊕ a2` therefore **cannot be a single-channel observable** among the unitary
 > objects — two physically identical channels carry different `p`.
 
-**The gauge-breaking law.** Real terrain generators are not purely unitary — they carry
-subdominant dissipation. Adding a dissipation of strength `δ` to a unitary-dominant
-object breaks the gauge degeneracy, and the frame bit becomes physical **in exact linear
-proportion**:
+**Symmetry-breaking dissipation makes the frame bit physical (no linear law).** Real terrain
+generators are not purely unitary — they carry subdominant dissipation. Adding a dissipation
+of strength `δ` to a unitary-dominant object breaks the gauge degeneracy and the frame bit
+becomes physical, growing monotonically from exactly zero at `δ = 0`:
 
-> **`a2`-physicality `= k·δ`, with `k ≈ 0.0787`, `R² = 0.999997`** (fit through the
-> origin). At `δ = 0` the split is `6×10⁻¹⁷` (pure gauge, parity unreadable); it grows
-> linearly as the symmetry-breaking dissipation switches on.
+> **The frame bit's physicality is zero at `δ = 0` (split `6×10⁻¹⁷`, pure gauge) and
+> increases monotonically with `δ`.** The dependence is an ordinary saturating first-order
+> response — under a genuine GKSL dephasing semigroup the ratio `split/δ` falls from `0.15`
+> (at `δ=0.05`) to `0.039` (at `δ=2.0`), *not* a constant. There is **no linear law**: a
+> previous version of this section reported `a2-physicality = k·δ` with `R² = 0.999997`, but
+> that came from modelling the dissipation as a single Kraus step `K₀=√(1−δ/2)I,
+> K₁=√(δ/2)Z`, which is affine in `δ` **by construction** (`split/δ` constant to `5×10⁻¹⁷`
+> all the way to `δ=2`). The `R²=1` was an algebraic identity of the parametrization, not a
+> discovered law — withdrawn.
 
 **Why this matters — the co-ratchet link.** This explains, structurally, *why Axis-0 is a
 late object*: the parity is unreadable until the **entropy sector is switched on**. The
@@ -1407,10 +1414,21 @@ axis is not merely downstream of the dynamics and frame axes (§7m); it is downs
 the entropy sector *becoming active*. Axis-0's readability is proportional to how much the
 co-ratchet has advanced.
 
-> **Model recommendation.** Record the gauge-breaking law `a2-physicality = k·δ`. It gives
-> the parity's readability a **quantitative gate** tied to dissipation strength, and makes
-> "Axis-0 is a late object" a measurable statement rather than a slogan: Axis-0 becomes
-> readable in linear proportion to the earned entropy in the co-ratchet.
+> **Model recommendation.** Record the two claims that survive: (i) the **exact gauge
+> degeneracy at `δ=0`** — the two unitary objects are provably the identical channel, so the
+> parity is not a single-channel observable there; and (ii) the **qualitative co-ratchet
+> link** — the frame bit becomes readable only once dissipation (the entropy sector) is
+> switched on, monotone in `δ`. This still makes "Axis-0 is a late object" a structural
+> statement: the parity's readability is gated by the earned entropy. Do **not** record any
+> linear/`R²=1` law — that was a parametrization artifact.
+
+> **Correction note (2026-07-01).** An external audit of the bundle flagged this section. The
+> single-Kraus dissipation model made `split/δ` constant by construction (`R²=1` an algebraic
+> identity). Rebuilt with a genuine GKSL semigroup, the linear law vanishes (`split/δ` falls
+> `0.15→0.039`) while the δ=0 degeneracy and the qualitative co-ratchet link are unchanged.
+> This is the impressive-label-before-earning pattern the §9a discipline warns against,
+> caught inside the bundle — logged as a ratchet kill-test rather than hidden. Verified in
+> `axis0_gauge_breaking_sim.py` (v3) and the audit-response figure.
 
 ---
 
@@ -1471,13 +1489,17 @@ acts on). This section tests that fusion literally.
 conjugated terrains `{Ni,Si}` admit **Te** (x-dephasing) + **Fe** (z-rotation). This is
 which two operators are *admitted*, signed by Axis-6.
 
-**Four lab-frame metrics fail to prefer the native pair — and that failure is the point.**
-Superoperator HS-overlap (2/8), supercommutator (4/8), Axis-6 order-gap (2/8), and
-operator-algebra containment (2/8) all decline to single out each terrain's two documented
-native operators. The consistent cause: every metric is dominated by the terrain's shared
-**fixed-axis geometry**, not the operator's role — *the metrics keep measuring the geometry
-because the operator is the geometry.* They cannot separate the two, which is exactly the
-owner's claim, showing up as a measurement obstruction.
+**Four lab-frame metrics fail to prefer the native pair — an honest null.** Superoperator
+HS-overlap (2/8), supercommutator (4/8), Axis-6 order-gap (2/8), and operator-algebra
+containment (2/8) all decline to single out each terrain's two documented native operators.
+Every metric is dominated by the terrain's shared **fixed-axis geometry** rather than the
+operator's role. **This null is genuinely ambiguous** and must not be read as evidence *for*
+fusion: it is equally consistent with "the operator is the geometry, so no lab-frame metric
+can separate them" (the owner's claim) and with "the native-operator pairing is arbitrary at
+the terrain level" (the deflationary reading). A null result cannot adjudicate between those
+two — reporting it as confirmation of fusion (as an earlier version of this section did)
+inverts a null into evidence. The fusion claim is instead settled by the *containment
+residual split* below, and — decisively — by the exact W-covariance derivation of §7t.
 
 **The sharp, honest split.** Projecting each terrain's Liouvillian onto the full
 4-operator algebra gives a residual that splits cleanly by family:
@@ -1530,15 +1552,23 @@ layer inherits the two-tier structure and adds the Axis-6 order dimension.
    `0.00–0.12`) and **8 are source-surplus** (the amplitude-damping and source-locked
    terrains, residual `0.67–0.71`).
 
-**The cross-section link.** The 8 source-surplus stages are exactly the **dissipative
-half** — which is the same half that makes the perceiving parity readable under the
-gauge-breaking law (§7o). The stage layer therefore threads three earlier results into one
-structure: the terrain differentiation (§7p), the operator–geometry fusion tiers (§7q), and
-the entropy-gated parity readability (§7o) all agree on the same 8/8 split of the terrains.
+**The cross-section link (one bit, read three ways — not threefold convergence).** The 8
+source-surplus stages are exactly the **dissipative half** — the same half that makes the
+perceiving parity readable under §7o. It is tempting to call the agreement across §7o, §7p,
+and §7q a threefold convergence, but that would overstate it: all three partitions are
+functions of the **same underlying bit — the dissipative/unitary contrast (Axis-1)**.
+§7o's readability, §7q's containment residual, and the dissipative half of §7p are three
+*readings of one bit*, so their agreement is **internal consistency, not independent
+corroboration**. The genuinely non-trivial fact is narrower and worth stating plainly: the
+operator-algebra containment (§7q) lines up with the entropy-gated readability (§7o) because
+both are downstream of dissipation — which is the co-ratchet claim, not three separate
+confirmations of it.
 
 > **Model recommendation.** The 16 stages are a fully differentiated, order-sensitive set on
-> the fused-operator foundation, with a clean 8-fused / 8-source-surplus partition that
-> coincides across §7o, §7p, §7q. Each of the two engine types (`eps = ±`) accesses 8 of the
+> the fused-operator foundation, with a clean 8-fused / 8-source-surplus partition. (This
+> partition is a reading of the Axis-1 dissipative/unitary bit, so its agreement with §7o/§7q
+> is consistency, not independent convergence — see the cross-section note above.) Each of
+> the two engine types (`eps = ±`) accesses 8 of the
 > 16 stages (the eight-of-sixteen access law). When the real Julia/JAX/PyTorch engines run,
 > the per-stage fingerprint (`sixteen_stage_engine.json`) and the fused/source-surplus tag
 > are the concrete validation targets: each engine stage must reproduce its fingerprint row
@@ -1587,6 +1617,51 @@ remain fully distinct (min pairwise `0.15`/`0.20`, mean `2.7`).
 > structure with the split earned dynamically. When the real engines run, the per-engine
 > geometric-phase sign is the concrete validation target: a Left-engine run must give all
 > positive loop areas, a Right-engine run all negative.
+
+---
+
+## 7t. The native-operator law earned: exact W-covariance (from the audit)
+
+*(New positive result, 2026-07-01, produced by an external audit of the bundle and verified
+here independently. This is the exact derivation the §7q null could not supply.)*
+
+§7q established that no lab-frame metric prefers each terrain's two native operators, and was
+careful to call that an honest null. The audit supplied what was missing: an **exact symmetry
+that derives the native-operator law**.
+
+**The theorem.** Let `W = (σx + σz)/√2` be the Hadamard involution (`W = W† = W⁻¹`). Then `W`
+conjugation maps the **direct** operator pair to the **conjugated** pair, exactly as channels:
+
+> `W · Ti · W = Te` (residual `3.4×10⁻³³`) and `W · Fi · W = Fe` (residual `4.5×10⁻¹⁷`),
+> where `Ti` = z-dephasing, `Te` = x-dephasing, `Fi` = x-rotation, `Fe` = z-rotation.
+
+This is because `W σz W = σx` and `W σx W = σz` exactly — `W` swaps the `z` and `x` axes
+simultaneously. So the operator table's own definition (§7q, `igt-pattern` 473–478) —
+"conjugated = the `x↔z` image of direct" — **is** frame covariance under `W`. The
+native-operator law is no longer a labelling; it is a **theorem**: the conjugated terrains
+take the conjugate operator pair because their frame is the `W`-image of the direct frame.
+
+**The decidable fork, settled.** The spec's stated Axis-2 element is `V_s(u) = exp(−iH₀u)`
+(§ Axis-2, the co-rotating frame). Does `V` implement the `x↔z` swap? **No — and this is a
+correction to the spec.** A rotation about the `H₀` axis `(1,1,1)/√3` can send `σz→σx` (the
+120° cyclic permutation `x→y→z→x`), but that same rotation then sends `σx→σy`, so it maps
+`Fi` to a *Y*-rotation, **not** `Fe`. Only the involution `W` (rotation by π about the `x–z`
+diagonal `(1,0,1)/√2`) swaps `z↔x` for **both** operator pairs at once. Therefore:
+
+> **The native-operator law is earned as covariance under the Hadamard involution `W`, and
+> the spec's `V = exp(−iH₀u)` is a stand-in that does not implement the direct↔conjugated
+> map.** Either the repo's canonical Axis-2 conjugation should be corrected to `W` (the
+> `x↔z` involution), or `V = exp(−iH₀u)` is a genuinely different Axis-2 element and `W` is a
+> separate exact symmetry of the operator algebra that the model has not yet named. The
+> operator table as written encodes `W`.
+
+> **Model recommendation.** Promote the native-operator pairing from a rosetta labelling
+> (§7q) to an **earned structural law**: it is exact `W`-covariance, `Ti↔Te` and `Fi↔Fe`
+> under `W = (σx+σz)/√2`, verified to machine precision. Flag the Axis-2 definition for
+> repair: the frame element that realizes direct↔conjugated is the `x↔z` Hadamard involution,
+> not the `H₀`-axis rotation currently written as `V_s(u)`. This is the shortest path to
+> earning the law, and it is a concrete, decidable correction to the spec rather than another
+> exploration. Verified in `audit_response_w_covariance_sim.py`.
 
 ---
 
