@@ -1595,28 +1595,45 @@ pole-mirror fixed points: `t0` at `z*=+1` mirrors `t4` at `z*=−1`, and `t2` at
 mirrors `t6` at `z*=+1` (each pair sums to zero). The out-terrains are the **pole-flipped
 images** of the in-terrains — exactly what opposite Weyl handedness (`ṙ = ±2 n×r`) requires.
 
-**2. The engine type is the global sign of the loop geometric phase.** Driving each stage
-as a closed loop (terrain flow + operator, modulated around the sheet's `H₀` rotation) and
-measuring the signed swept Bloch area (the eps-odd geometric-phase proxy of §7p): **all 8
-Left-engine stages have positive geometric phase, all 8 Right-engine stages negative.** The
-engine type is not a label on the stages — it is a single global sign carried by the Weyl
-chirality, the same handedness that appears in the 720° spinor sign (§7l) and the
-gauge-breaking readout (§7o).
+**2. The engine type is the global sign of the loop geometric phase — and it is the
+terrain's, not the meter's.** Driving each stage as a closed loop (terrain flow + operator,
+modulated around the sheet's `H₀` rotation) and measuring the signed swept Bloch area (the
+eps-odd geometric-phase proxy of §7p): all 8 Left-engine stages give positive geometric
+phase, all 8 Right-engine stages negative. **A circularity had to be ruled out first:** `eps`
+appears in *both* the terrain Hamiltonian and the measurement drive, so the "global sign"
+could have been the meter's chirality, not the stage's. Decoupling the two `eps` values
+across all 16 stages, **the sign follows the terrain 14/16 and the drive only 2/16** — the
+chirality genuinely lives in the stage, the law earning itself against its own hostile probe.
 
-**3. Access violation flips all 8/8 — the stages are non-transferable.** Forcing any
-Left-engine stage onto the Right sheet reverses its geometric-phase sign (8 of 8). A stage
-run on the wrong chirality is not the same stage; it is the mirror stage. So a person locked
-to one Weyl chirality **genuinely cannot run** the other engine's 8 stages — they are the
-sign-reversed reflections, not merely inaccessible labels. Within each engine the 8 stages
-remain fully distinct (min pairwise `0.15`/`0.20`, mean `2.7`).
+**3. Access violation flips the stages — the two-tier structure (corrected 2026-07-01).**
+Forcing a stage onto the wrong sheet reverses its geometric-phase sign. Under a fully
+chirality-neutral meter the flip holds **14/16**, and the two failures are exactly `t3:Fe`
+and `t7:Fe` — the same sheet-symmetric projective Si pair that was the bottleneck in §7p and
+§7r. The manifold's weakest chirality fails first, precisely where the fingerprint predicted.
+The published `16/16` is real **only because the loop carries the sheet's own `H₀`**; that is
+defensible (the engine's Hamiltonian arguably *is* part of the stage) but must be adopted as
+the loop's definition explicitly, or the theorem is `14/16`. The failures are all `Fe`
+stages — `Fe` is a fixed-sign z-rotation that competes with the terrain's signed one.
 
-> **Model recommendation.** The eight-of-sixteen access law is now a structural theorem, not
-> a stipulation: the engine type is a global geometric-phase sign (Weyl chirality), the two
-> 8-sets are pole-mirror pairs, and cross-engine access flips handedness 8/8. This closes the
-> stage/engine layer — the manifold now carries the full `16 = 2 engines × 8 stages`
-> structure with the split earned dynamically. When the real engines run, the per-engine
-> geometric-phase sign is the concrete validation target: a Left-engine run must give all
-> positive loop areas, a Right-engine run all negative.
+**The two-tier structure (mirrors §7q's fusion split).** The probe revealed an exact
+symmetry on half the stages: the **dephasing stages (`Ti`, `Te`) negate identically under
+`eps`-flip** — `|a(+) + a(−)| = 0` to machine precision for all 8 — because dissipators are
+conjugation-invariant while the coherent term flips (`y → −y` negates the swept area). This
+is an exact *symbolic-identity theorem* on the 8 pinching stages. The **rotation stages
+(`Fi`, `Fe`) are dynamical and approximate** (deviation up to `0.18`). So the access law is
+two-tier, exactly paralleling §7q: exact on the pinching half, dynamical on the rotation
+half. Within each engine the 8 stages remain fully distinct (min pairwise `0.15`/`0.20`).
+
+> **Model recommendation.** The eight-of-sixteen access law is a **structural theorem in the
+> strongest sense for half of it**: on the 8 dephasing stages the engine sign is an exact
+> conjugation-symmetry identity; on the 8 rotation stages it is dynamical, holding `14/16`
+> under a chirality-neutral meter with the two failures pinned to the known `t3/t7` projective
+> bottleneck. The chirality provably lives in the terrain (`14/16` vs `2/16` decoupled), not
+> the meter — the circularity is ruled out. To claim the full `16/16`, **adopt explicitly
+> that the engine loop carries the sheet's own `H₀`** (the Hamiltonian is part of the stage);
+> otherwise state the theorem as `14/16` + the exact 8-stage identity. Either way the split is
+> earned dynamically, not stipulated. Validation target for the real engines: a Left-engine
+> run gives positive loop areas, a Right-engine run negative, with the dephasing stages exact.
 
 ---
 
