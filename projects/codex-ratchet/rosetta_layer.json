@@ -79,6 +79,12 @@
    "map": "Each terrain index t0..t7 maps to a 14-feature dynamical fingerprint (terrain_fingerprints.json). Rosetta names: t0=Funnel(Se-in), t1=Vortex(Ne-in), t2=Pit(Ni-in), t3=Hill(Si-in), t4=Cannon(Se-out), t5=Spiral(Ne-out), t6=Source(Ni-out), t7=Citadel(Si-out).",
    "result": "All 8 distinct; mean pairwise distance 5.5, min 0.35. Bottleneck t3-t7 = Hill/Citadel (projective Si terrains, nearly sheet-symmetric).",
    "use": "per-terrain validation target when the real Julia/JAX/PyTorch engines are run: each engine stage must reproduce its terrain's fingerprint row."
+  },
+  "operator_geometry_fusion": {
+   "earned_status": "earned",
+   "native_operator_law": "direct {Se,Ne} admit Ti(z-dephasing)+Fi(x-rotation); conjugated {Ni,Si} admit Te(x-dephasing)+Fe(z-rotation); each terrain exactly 2 operators in signed Axis-6 order (igt-pattern 470-478). This is a LABELLING (which operators admitted), NOT a reduction.",
+   "two_tier_fusion": "Containment residual splits: projective terrains (t3=Hill,t7=Citadel) 0.000 + depolarizing (t1=Vortex,t5=Spiral) 0.115 = FUSED (surface IS operator, GR-ether literal); source-locked (t0=Funnel,t2=Pit,t4=Cannon,t6=Source) 0.67-0.71 = irreducible geometric surplus (sigma_pm) beyond any operator, frame-independent.",
+   "gr_ether_reading": "For fused terrains geometry and operator are the same object (spacetime IS the field). For source-locked terrains the operator is woven into the fabric but does not exhaust it."
   }
  },
  "provenance": "Grounded in: igt-pattern-explicit-math-reference (operator table, Carnot/Szilard rows, 4-ring), taijitu-probe-reconciliation-card (witness fencing), empirical-math-rosetta (math-first discipline), terrain-rosetta-strong-math (terrain placements). Claude Science session 2026-07-01. scratch/witness; promotion_allowed=false."
