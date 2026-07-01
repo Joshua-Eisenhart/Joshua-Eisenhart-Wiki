@@ -1546,6 +1546,50 @@ the entropy-gated parity readability (§7o) all agree on the same 8/8 split of t
 
 ---
 
+## 7s. The eight-of-sixteen access law (engine type as Weyl chirality)
+
+*(The engine-type layer, built on §7r. Indices structural per §9a. Grounded in
+`engine-math-reference.md` line 55: Type-1/Left-Weyl = the four "in" terrains
+{Funnel, Vortex, Pit, Hill}; Type-2/Right-Weyl = the four "out" terrains
+{Cannon, Spiral, Source, Citadel}.)*
+
+The owner's law: there are 16 stages, but **each person is one engine type and accesses
+only 8 of them.** The two engine types are the two Weyl chiralities (`eps = ±1`, sheet
+Hamiltonians `H_L = +H₀` and `H_R = −H₀`). The question is whether the 8/8 split is a
+genuine dynamical constraint or merely a relabeling. Three tests, all structural.
+
+**1. The partition is exact and pole-mirrored.** The Left engine (`eps=+1`) accesses the
+four in-terrains `t0–t3`; the Right (`eps=−1`) accesses the four out-terrains `t4–t7`;
+overlap zero, union all eight. Run on their native sheets, the dissipative terrains reach
+pole-mirror fixed points: `t0` at `z*=+1` mirrors `t4` at `z*=−1`, and `t2` at `z*=−1`
+mirrors `t6` at `z*=+1` (each pair sums to zero). The out-terrains are the **pole-flipped
+images** of the in-terrains — exactly what opposite Weyl handedness (`ṙ = ±2 n×r`) requires.
+
+**2. The engine type is the global sign of the loop geometric phase.** Driving each stage
+as a closed loop (terrain flow + operator, modulated around the sheet's `H₀` rotation) and
+measuring the signed swept Bloch area (the eps-odd geometric-phase proxy of §7p): **all 8
+Left-engine stages have positive geometric phase, all 8 Right-engine stages negative.** The
+engine type is not a label on the stages — it is a single global sign carried by the Weyl
+chirality, the same handedness that appears in the 720° spinor sign (§7l) and the
+gauge-breaking readout (§7o).
+
+**3. Access violation flips all 8/8 — the stages are non-transferable.** Forcing any
+Left-engine stage onto the Right sheet reverses its geometric-phase sign (8 of 8). A stage
+run on the wrong chirality is not the same stage; it is the mirror stage. So a person locked
+to one Weyl chirality **genuinely cannot run** the other engine's 8 stages — they are the
+sign-reversed reflections, not merely inaccessible labels. Within each engine the 8 stages
+remain fully distinct (min pairwise `0.15`/`0.20`, mean `2.7`).
+
+> **Model recommendation.** The eight-of-sixteen access law is now a structural theorem, not
+> a stipulation: the engine type is a global geometric-phase sign (Weyl chirality), the two
+> 8-sets are pole-mirror pairs, and cross-engine access flips handedness 8/8. This closes the
+> stage/engine layer — the manifold now carries the full `16 = 2 engines × 8 stages`
+> structure with the split earned dynamically. When the real engines run, the per-engine
+> geometric-phase sign is the concrete validation target: a Left-engine run must give all
+> positive loop areas, a Right-engine run all negative.
+
+---
+
 ## 9a. Simulation hygiene and the rosetta layer
 
 **Principle (owner-directed).** Sims must be **pure real math and structure** — no
