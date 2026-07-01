@@ -1083,6 +1083,50 @@ not keep re-deriving Axis-1 while aiming at Axis-0.
 
 ---
 
+## 7l. Exploration — the 720° loop at spinor level (why density-level readouts were doomed)
+
+*(Exploratory continuation — candidate-grade. This one changes the strategy.)*
+
+The engine-loop result (§7k) said Axis-0 is a loop property. Reading the loop docs
+surfaced the **tribunal's sharpest constraint** (`igt-pattern-explicit-math-reference.md`,
+the Codex2 challenge):
+
+> "720° behavior disappears under `ρ = |ψ⟩⟨ψ|` unless the engine keeps lifted
+> phase/path/interference data. The engine MUST work at the **spinor level**, not
+> just the density level, or the 720° structure is invisible."
+
+This is decisive for the whole Axis-0 investigation: **all 11 readouts in §7b.3, §7i,
+§7j, §7k were computed at the density (`ρ`) level** — where the 720°/tense structure
+is *provably invisible*. That is very likely **why every one of them collapsed to
+Axis-1**: they were measuring a projection that had already discarded the degree of
+freedom Axis-0 lives in.
+
+**Verified at spinor level.** Working with amplitudes `|ψ⟩ ∈ ℂ²` (not `ρ`):
+- The SU(2) double cover is exact: a 360° loop gives `⟨ψ₀|U|ψ₀⟩ = −1.0000`, a 720°
+  loop gives `+1.0000` — the sign structure `ρ` erases.
+- **Measurement in the loop destroys the lifted phase** — the tense signature. The
+  720° phase-return magnitude decays with measurement strength: `1.000 → 0.996 →
+  0.975 → 0.860` at strengths `0.0, 0.3, 0.6, 0.9`. Strong measurement (sensing)
+  collapses the interference; weak/none (intuition) preserves it.
+
+**What this establishes and what it doesn't.** Established: Axis-0 tense is a
+**spinor-level, loop-level, measurement-sensitive** property — not density-level, not
+terrain-local. This matches the tribunal constraint *and* the teeth-map "late object"
+doctrine exactly. **Not** yet closed: a clean per-terrain `Ne/Ni+ | Se/Si−`
+realization — the crude spinor-level `E`-operators used here (measurement models per
+terrain) muddy the split (`Ne` unitary is clean at 1.000; `Si` renormalization
+overshoots). The honest next rung is **principled spinor-level `E`-operators** — a
+proper weak-measurement model matched to each terrain's native judging operator — run
+around the full 720° = 2×360° double loop with the outer/inner deductive-inductive
+swap, `Ni` treated as the source-locked pure-attractor special case.
+
+> **Strategic takeaway.** The Axis-0 sims should be **re-based at the spinor level**.
+> The density-level tooling (all of §7b–§7k) is correct for Axes 1–6 but structurally
+> blind to Axis-0. This is the single most useful redirection this investigation
+> produced, and it was the tribunal's own prescription all along.
+
+---
+
 ## 8. Audit — with claim-grade discipline
 
 **Claim-grade rule (from the current wiki per-rung standard).** Claim-bearing
