@@ -25,7 +25,7 @@ Either V is wrong, or W is a separate symmetry.
 | property Axis-2 must satisfy | V=exp(-iH0 u) | W=(sx+sz)/sqrt2 |
 |---|:---:|:---:|
 | gauge-invariant (preserves state invariants) | yes 9e-16 | yes 8e-16 |
-| implements direct<->conjugated operator map | NO 0.67 | yes 3e-33 |
+| implements direct<->conjugated operator map | NO (Ti->Te 0.67, Fi->Fe 2.15) | yes (Ti->Te 3e-33, Fi->Fe 4e-17) |
 | phase-sector (moves eigenvectors not spectrum) | yes | yes 9e-16 |
 | carries connection K=iV†V̇ (changes dynamics) | yes K=H0 | NO K=0 |
 
