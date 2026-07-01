@@ -23,19 +23,7 @@ if __name__=="__main__":
         xor=A1[f]^A2[f]; ok=(xor==A0[f]); allok&=ok
         print(f"  {f:3s}  |   {A1[f]}   |   {A2[f]}   |  {xor}  |      {A0[f]}       | {'OK' if ok else 'NO'}")
     print(f"\nAxis-0 = Axis-1 XOR Axis-2 : {allok}")
-    # multivariate leave-one-out recoverability check (needs numpy)
-    try:
-        import numpy as np
-        feats={"entropy_prod":{"Se":-0.257,"Ne":0.144,"Ni":-0.441,"Si":0.097},
-               "response":{"Se":1.797,"Ne":0.011,"Ni":2.097,"Si":0.080},
-               "fuzz_tree":{"Se":1.363,"Ne":2.279,"Ni":1.123,"Si":1.820},
-               "coh_info":{"Se":-0.4585,"Ne":-0.9989,"Ni":-0.1578,"Si":-0.4563}}
-        fams=["Se","Ne","Ni","Si"]
-        X=np.array([[feats[k][f] for k in feats] for f in fams]); X=(X-X.mean(0))/(X.std(0)+1e-9)
-        y=np.array([1 if A0[f] else -1 for f in fams],float); c=0
-        for i in range(4):
-            tr=[j for j in range(4) if j!=i]; w,*_=np.linalg.lstsq(X[tr],y[tr],rcond=None)
-            c+=(np.sign(X[i]@w)==y[i])
-        print(f"multivariate leave-one-out N/S recovery: {c}/4 (recoverable jointly, never singly)")
-    except ImportError:
-        pass
+    # NOTE: a multivariate leave-one-family-out lstsq fit was considered as a corroborator but is
+    # STATISTICALLY VACUOUS (3 training points vs 4 features is underdetermined -> perfect score
+    # guaranteed, zero evidential weight). It is deliberately omitted. The XOR identity above is
+    # deterministic algebra on the axis labels and needs no statistical support.
