@@ -1046,10 +1046,14 @@ continuations are its **Kraus branches**; `F_jk` is the distribution over them;
 ring-checkerboard walk) gives `{Ne,Si}` high vs `{Se,Ni}` low — **Axis-1 again**.
 The reason is structural and worth stating as a model fact:
 
-> The **Kraus branch count equals the dissipator rank** (`Ne=4, Se=3, Ni=2, Si=2`,
-> counting `K₀`). Dissipator rank is a **dynamics (Axis-1)** property. So *any* fuzz
-> measure built from Kraus branches **inherits Axis-1**. This is why all
-> future-multiplicity readouts collapse.
+> The fuzz tree-entropy tracks the **dissipative/unitary balance** (Axis-1):
+> unitary-dominant terrains (`Ne, Si`) preserve distinguishable leaves, while
+> dissipative terrains (`Se, Ni`) collapse them. The **Kraus branch count** (=
+> dissipator rank + `K₀`: `Ne=4, Se=3, Ni=2, Si=2`) feeds the branching but does
+> *not* strictly order the entropy — `Si` (rank 2) exceeds `Se` (rank 3) because
+> `Si` barely dissipates. Both drivers — branching *and* collapse — are **dynamics
+> (Axis-1)** properties. So *any* fuzz measure built from Kraus branches **inherits
+> Axis-1**. This is why all future-multiplicity readouts collapse.
 
 **Refined hypothesis (the real lesson).** Axis-0 "tense" — orientation toward
 future-possibility (intuition) vs present-actuality (sensing) — is **not** about how
