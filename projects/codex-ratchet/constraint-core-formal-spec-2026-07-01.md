@@ -1369,6 +1369,51 @@ the system as premises.
 
 ---
 
+## 7o. The gauge-breaking law: why the parity is a late object, and its link to the co-ratchet
+
+*(Continuation of §7n, building the open piece. The relational readout and the scaling
+law are solid; stated in pure structural indices per §9a.)*
+
+§7n isolated the open piece as a **relational, open-path phase observable** for `χ₂` — a
+system `A` entangled with a reference `B` the gauge does not rotate. Building it produced
+a sharp structural fact and a clean scaling law.
+
+**The relational readout works — and exposes a gauge degeneracy.** With `A` maximally
+entangled with a fixed reference `B`, the frame bit `a2` shifts the `A`–`B` relational
+coherence `⟨00|ρ_AB|11⟩` — *for dephasing objects* (`a1=0`): coherence `0.075` vs `0.28`.
+But **for unitary objects** (`a1=1`) it is invisible, for an exact reason:
+
+> The frame conjugation `V = exp(−iH₀s)` **commutes** with unitary dynamics about the
+> same axis: `‖[V, e^{−iH₀t}]‖ = 2.6×10⁻¹⁶`. So the two unitary objects `(a1=1,a2=0)` and
+> `(a1=1,a2=1)` are the **identical channel** (difference `3×10⁻¹⁶`). The parity
+> `p = a1 ⊕ a2` therefore **cannot be a single-channel observable** among the unitary
+> objects — two physically identical channels carry different `p`.
+
+**The gauge-breaking law.** Real terrain generators are not purely unitary — they carry
+subdominant dissipation. Adding a dissipation of strength `δ` to a unitary-dominant
+object breaks the gauge degeneracy, and the frame bit becomes physical **in exact linear
+proportion**:
+
+> **`a2`-physicality `= k·δ`, with `k ≈ 0.0787`, `R² = 0.999997`** (fit through the
+> origin). At `δ = 0` the split is `6×10⁻¹⁷` (pure gauge, parity unreadable); it grows
+> linearly as the symmetry-breaking dissipation switches on.
+
+**Why this matters — the co-ratchet link.** This explains, structurally, *why Axis-0 is a
+late object*: the parity is unreadable until the **entropy sector is switched on**. The
+gauge charge only becomes a physical observable once symmetry-breaking dissipation lifts
+the unitary degeneracy — which is precisely the **co-ratchet** claim of §7c that entropy
+and operators must be *earned* before the higher structure can be read. The perceiving
+axis is not merely downstream of the dynamics and frame axes (§7m); it is downstream of
+the entropy sector *becoming active*. Axis-0's readability is proportional to how much the
+co-ratchet has advanced.
+
+> **Model recommendation.** Record the gauge-breaking law `a2-physicality = k·δ`. It gives
+> the parity's readability a **quantitative gate** tied to dissipation strength, and makes
+> "Axis-0 is a late object" a measurable statement rather than a slogan: Axis-0 becomes
+> readable in linear proportion to the earned entropy in the co-ratchet.
+
+---
+
 ## 9a. Simulation hygiene and the rosetta layer
 
 **Principle (owner-directed).** Sims must be **pure real math and structure** — no
