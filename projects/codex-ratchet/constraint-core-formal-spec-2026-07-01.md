@@ -1508,6 +1508,44 @@ projective terrains' containment), confirming the surplus is irreducible in ever
 
 ---
 
+## 7r. The 16 engine stages on the fused-operator foundation
+
+*(The stage layer, built directly on §7p–§7q. All indices structural per §9a.)*
+
+The 16 engine stages are **8 terrains × 2 native operators each**, each in a signed Axis-6
+order (operator-first vs terrain-first). Built on the fusion foundation of §7q, the stage
+layer inherits the two-tier structure and adds the Axis-6 order dimension.
+
+**Three properties, all verified.**
+
+1. **All 16 stages are distinct** under a dynamical fingerprint (both Axis-6 orders on a
+   fixed probe): mean pairwise distance `4.6`, minimum `0.25`. The bottleneck is the pair
+   `t3:Te–t7:Te` — the two projective Si stages — the same near-degeneracy identified in
+   §7p and §7q, now confirmed to propagate to the stage layer.
+2. **All 16 stages are order-sensitive (N01, 16/16).** Operator-first and terrain-first give
+   different outputs for every stage, so each stage does **unique information processing** —
+   the N01 non-commutation is load-bearing at the stage level, not just the operator level.
+3. **The fusion split is exactly 8/8.** From the §7q containment residuals, **8 of the 16
+   stages are operator-fused** (the projective and depolarizing terrains, residual
+   `0.00–0.12`) and **8 are source-surplus** (the amplitude-damping and source-locked
+   terrains, residual `0.67–0.71`).
+
+**The cross-section link.** The 8 source-surplus stages are exactly the **dissipative
+half** — which is the same half that makes the perceiving parity readable under the
+gauge-breaking law (§7o). The stage layer therefore threads three earlier results into one
+structure: the terrain differentiation (§7p), the operator–geometry fusion tiers (§7q), and
+the entropy-gated parity readability (§7o) all agree on the same 8/8 split of the terrains.
+
+> **Model recommendation.** The 16 stages are a fully differentiated, order-sensitive set on
+> the fused-operator foundation, with a clean 8-fused / 8-source-surplus partition that
+> coincides across §7o, §7p, §7q. Each of the two engine types (`eps = ±`) accesses 8 of the
+> 16 stages (the eight-of-sixteen access law). When the real Julia/JAX/PyTorch engines run,
+> the per-stage fingerprint (`sixteen_stage_engine.json`) and the fused/source-surplus tag
+> are the concrete validation targets: each engine stage must reproduce its fingerprint row
+> and land in its predicted fusion tier.
+
+---
+
 ## 9a. Simulation hygiene and the rosetta layer
 
 **Principle (owner-directed).** Sims must be **pure real math and structure** — no
