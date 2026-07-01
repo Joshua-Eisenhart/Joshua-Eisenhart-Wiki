@@ -846,6 +846,72 @@ inherits this precision floor.
 
 ---
 
+## 7h. The manifold as a nested attractor-basin hierarchy
+
+The 2 engines, 4 topologies, flux, and 8 terrains are all **structure of the one
+geometric constraint manifold**; the co-ratchet (operators + entropy, §7c) couples
+to that structure as **sub-basins**. The whole model is then one attractor basin
+with sub-basins and sub-sub-basins. This section earns that architecture against
+the repo's **basin-manifold claim contract** (`basin-manifold-claim-contract.md`),
+using the repo's own three-way attractor typing
+(`attractor-basins-formal-reference.md`).
+
+**Claim shape (contract-compliant).**
+- *State space:* density matrices on `ℂ²` (Bloch ball), extensible to the 3-qubit
+  carrier of §7d.
+- *Update rule:* ordered CPTP cycle `E = Φ_n ∘ … ∘ Φ_1` (terrain GKSL flow, then
+  judging operators).
+- *Admissibility:* a state is in basin `B` if repeated `E` compresses it toward a
+  persistent regime `A` and bounded perturbations stay recoverable.
+- *Three attractor types (kept distinct, per repo):* **state** (→ one matrix),
+  **process** (→ the channel-cycle structure), **equivalence** (→ a probe-class
+  `[ρ]_P` — the strongest earned type, and exactly the identity logic
+  `a=a ⟺ a∼b`).
+
+**Top level — 8 terrain basins.** Iterating each terrain generator from 40 random
+initial states to its limit set (`nested_basin_results.json`) gives **8 distinct
+basins** (min pairwise distance of the rich fingerprint — center + dispersion +
+purity + entropy + z-bias — is `> 0`; DOF-no-collapse holds under the full
+fingerprint, though **6 of 8 centroids sit near the origin** — a coarse
+centroid-only readout collapses them, the same lesson as §7g).
+
+**Kill test — viability vs attractor (contract req; `falsification-sim-designs.md`).**
+Running each terrain from many ICs and asking whether *all* trajectories converge
+to a single point cleanly **splits the 8**:
+
+| Terrain type | Terrains | Endpoint spread | Verdict |
+|---|---|---|---|
+| `Ne`, `Ni` | Vortex, Spiral, Pit, Source | `≈ 0.000–0.001` | **attractor** (converges to point/class) |
+| `Se`, `Si` | Funnel, Cannon, Hill, Citadel | `≈ 0.03–0.09` | **viability** (bounded, non-converging) |
+
+This attractor/viability split — arrived at from an **independent** dynamical test
+— coincides with the **Axis-0 polarity** (`Ne/Ni` allostatic/+ vs `Se/Si`
+homeostatic/−, §7b.3). Two unrelated probes landing on the same `Ne/Ni | Se/Si`
+partition is meaningful corroboration of that DOF (it is *not* a closure of
+Axis-0's owner-defined `dD/dλ` readout, which remains open, §7b.3).
+
+**Sub-basins — the operator/entropy co-ratchet.** Within a terrain basin, the four
+judging operators refine the limit set into **distinct sub-basins**:
+- **Pit** (attractor terrain): 4 sub-basins, min separation **0.445** — a pinned
+  fixed point gives the operators a definite state to separate.
+- **Hill** (viability terrain): 4 sub-basins, min separation **0.005** — a bounded
+  class offers less to split. (Honest asymmetry, not a defect.)
+
+**Killed non-basin explanation (contract req #8).** The sub-basin structure is
+genuinely `N01`-driven, not an artifact of the readout: a **noncommuting** pair
+`(Te,Fe)` has order gap `0.268`; a **commuting control** `(Tz,Tz)` has order gap
+`2×10⁻¹⁷` — the structure vanishes exactly when noncommutation is removed.
+
+> **Claim ceiling.** `scratch_diagnostic`, `promotion_allowed=false`. Earned:
+> 8 distinct terrain basins (rich fingerprint), a clean attractor/viability kill
+> split coinciding with Axis-0 polarity, operator sub-basins with a passing
+> commuting-control kill test. **Not** earned: full basin-boundary topology,
+> sub-sub-basin depth beyond one level, or promotion of any basin to
+> state-attractor closure (most terrains are equivalence/viability class, per the
+> repo's narrower-claim guidance).
+
+---
+
 ## 8. Audit — with claim-grade discipline
 
 **Claim-grade rule (from the current wiki per-rung standard).** Claim-bearing
@@ -878,6 +944,8 @@ here admits final `M(C)`, the QIT engine, physics, or geometry-complete claims.
 | ops | Ti/Te CPTP+unital dephasing; Fi/Fe unitary purity-preserving | `Choi_PSD` / `exact` | **holds** (4 operators match spec) |
 | sched | 64-microstep schedule: order-blind → 11/64 (collapse); N01 order-sensitive → 64/64 | `finite_enum` + order-observable | **holds** (unique processing needs N01) |
 | ratchet-prec | L4 holonomy `−4.442882938` vs `−2π cos2η`, residual ≈3e-10 | `closed_form` | **holds** (deepest layer locked) |
+| basins | 8 terrain basins distinct (rich fingerprint); kill test splits Ne/Ni=attractor, Se/Si=viability | `limit_set` + `kill_test` | **holds** (coincides w/ Axis-0 polarity) |
+| subbasins | operators refine basins (Pit sep 0.445, Hill 0.005); commuting control kills order gap (2e-17) | `sep` + `commuting_kill` | **holds** (N01-driven, not artifact) |
 
 **Diagnostic-float rows** (`numpy`/`scipy`; `constraint_core_audit.py`) —
 `diagnostic_float_nonclaim`, i.e. supporting evidence only, **not** promotable as
