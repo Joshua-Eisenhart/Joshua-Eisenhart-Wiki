@@ -70,10 +70,14 @@ Key discipline that paid off:
 - **Terrain source-locking**: all 8 terrains now GKSL generators pinned to their
   scratch fixed points (Se was generalized amplitude damping, not dephasing). The
   "agent-chose the dissipators" blocker is closed.
-- **Axis-0 diagnosis** (the big one): **8 principled readouts tested, 7 collapse to
-  Axis-1** (dissipative/unitary {Se,Ni}|{Ne,Si}), which is ORTHOGONAL to Axis-0
-  (intuition/sensing {Ne,Ni}|{Se,Si}). Only distinguishability-flow (a fuzz proxy)
-  orders the family means correctly (intuition 0.731 > sensing 0.706).
+- **Axis-0 diagnosis** (the big one): **8 principled readouts tested, none realizes
+  Axis-0** (intuition/sensing {Ne,Ni}|{Se,Si}). Of the eight, **four track Axis-1
+  directly** (dissipative/unitary {Se,Ni}|{Ne,Si} — entropy production, response
+  dD/dλ, future multiplicity, JK-fuzz bipartite MI); the rest are blind or partial
+  (participation ratio: none; von Neumann: Ni only; trajectory activity: 3/4).
+  Axis-1 is ORTHOGONAL to Axis-0, which is why the dissipative-tracking functionals
+  cannot realize it. Only distinguishability-flow (a fuzz proxy) orders the family
+  means correctly (intuition 0.731 > sensing 0.706).
 
 ## 4. The key finding: a contradiction and a candidate fix
 
