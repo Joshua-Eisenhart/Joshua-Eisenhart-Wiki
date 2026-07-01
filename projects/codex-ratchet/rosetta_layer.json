@@ -85,6 +85,12 @@
    "native_operator_law": "direct {Se,Ne} admit Ti(z-dephasing)+Fi(x-rotation); conjugated {Ni,Si} admit Te(x-dephasing)+Fe(z-rotation); each terrain exactly 2 operators in signed Axis-6 order (igt-pattern 470-478). This is a LABELLING (which operators admitted), NOT a reduction.",
    "two_tier_fusion": "Containment residual splits: projective terrains (t3=Hill,t7=Citadel) 0.000 + depolarizing (t1=Vortex,t5=Spiral) 0.115 = FUSED (surface IS operator, GR-ether literal); source-locked (t0=Funnel,t2=Pit,t4=Cannon,t6=Source) 0.67-0.71 = irreducible geometric surplus (sigma_pm) beyond any operator, frame-independent.",
    "gr_ether_reading": "For fused terrains geometry and operator are the same object (spacetime IS the field). For source-locked terrains the operator is woven into the fabric but does not exhaust it."
+  },
+  "sixteen_stage_engine": {
+   "earned_status": "earned",
+   "map": "16 stages = 8 terrains x 2 native operators, signed Axis-6. Rosetta names per terrain from terrain_differentiation overlay; each stage = TerrainName+Operator (e.g. t0:Ti=Funnel+Ti=TiSe/SeTi by order).",
+   "result": "all 16 distinct (mean 4.6), all order-sensitive (N01 unique processing 16/16), fusion split 8 fused / 8 source-surplus. Source-surplus = dissipative half = parity-readable half (7o).",
+   "engines": "each of the 2 engine types (eps=+/-) accesses 8 of these 16 stages (eight-of-sixteen access law)."
   }
  },
  "provenance": "Grounded in: igt-pattern-explicit-math-reference (operator table, Carnot/Szilard rows, 4-ring), taijitu-probe-reconciliation-card (witness fencing), empirical-math-rosetta (math-first discipline), terrain-rosetta-strong-math (terrain placements). Claude Science session 2026-07-01. scratch/witness; promotion_allowed=false."
