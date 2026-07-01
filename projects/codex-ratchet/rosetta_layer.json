@@ -73,6 +73,12 @@
    },
    "caution": "Owner's explicit stance: do NOT force I-Ching patterns on. The system, as it develops, may naturally reflect them. Recorded as a candidate correspondence to CHECK as structure is earned, never as a design input. Current status: 64-count matches; per-hexagram semantic map is unverified and fenced.",
    "honest_status": "Only the 64 count is structurally grounded so far (2^6). Any line-by-line I-Ching semantics remain unearned and must not steer the sims."
+  },
+  "terrain_differentiation": {
+   "earned_status": "earned",
+   "map": "Each terrain index t0..t7 maps to a 14-feature dynamical fingerprint (terrain_fingerprints.json). Rosetta names: t0=Funnel(Se-in), t1=Vortex(Ne-in), t2=Pit(Ni-in), t3=Hill(Si-in), t4=Cannon(Se-out), t5=Spiral(Ne-out), t6=Source(Ni-out), t7=Citadel(Si-out).",
+   "result": "All 8 distinct; mean pairwise distance 5.5, min 0.35. Bottleneck t3-t7 = Hill/Citadel (projective Si terrains, nearly sheet-symmetric).",
+   "use": "per-terrain validation target when the real Julia/JAX/PyTorch engines are run: each engine stage must reproduce its terrain's fingerprint row."
   }
  },
  "provenance": "Grounded in: igt-pattern-explicit-math-reference (operator table, Carnot/Szilard rows, 4-ring), taijitu-probe-reconciliation-card (witness fencing), empirical-math-rosetta (math-first discipline), terrain-rosetta-strong-math (terrain placements). Claude Science session 2026-07-01. scratch/witness; promotion_allowed=false."
