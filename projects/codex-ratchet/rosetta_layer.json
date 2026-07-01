@@ -126,6 +126,6 @@
   "source": "two external threads converging (files 23-00-00 + 23-15-15); the second independently reached the \u00a77u two-layer de-conflation ('two exact theorems carried by two provably distinct group elements')",
   "cross_instance_confirmation": "second thread confirms \u00a77u: V carries the \u03b4=0 degeneracy+connection, W carries the pair swap, no single element carries both \u2014 matches this session's \u00a77u exactly; parametrization discrepancy (12/16 vs 14/16 on \u00a77s) traced not papered over",
   "upgrades_applied": "\u00a77q -> non-unitality theorem (\ud835\udfd9[L(I)\u22600]); \u00a77n -> symbolic_identity grade (unitary similarity preserves spectrum, entropy invariance is algebraic not 2e-15 numeric); \u00a77t/\u00a77u residuals tagged Frobenius-norm; \u00a77o GKSL convention pinned (L=\u03c3z\u2297I, T=1, t=0.7)",
-  "remaining_open_ledger": "\u03c7\u2082 (open-path eigenvector-sector readout) only; PLUS the sharper Axis-2 gap surfaced by both threads: neither W nor V realizes the TERRAIN-level direct/conjugated bit (generator-map residuals 0.6-1.4) \u2014 the a2 assignment on terrains rests on the source table alone"
+  "remaining_open_ledger": "\u03c7\u2082 (open-path eigenvector-sector readout) only; PLUS the sharper Axis-2 gap surfaced by both threads: neither W nor V realizes the TERRAIN-level direct/conjugated bit (generator-map residuals 1.4-2.0 (measured 1.46-1.95)) \u2014 the a2 assignment on terrains rests on the source table alone"
  }
 }
