@@ -1,0 +1,77 @@
+{
+ "_purpose": "Rosetta layer: maps EARNED pure-math structure to interpretive labels. The sims contain NO labels; all naming lives here. Each overlay carries an earned_status so nothing is forced onto the structure.",
+ "_discipline": "Structure first (indices only), labels second (earned). An overlay is admitted only where the pure structure independently supports it. 'witness' = usable symbolic crosswalk, must not replace the math anchor. 'earned' = the structure realizes it exactly. 'candidate' = suggested, not yet closed.",
+ "structural_primitives": {
+  "eps": "sheet sign in {+1,-1}: Hamiltonian H = eps*H0. Left/right Weyl sheet.",
+  "a1": "dynamics bit in {0,1}: 1 = spectrum-preserving (unitary) channel; 0 = spectrum-contracting (rank-1 dephasing) channel. Lives in the EIGENVALUE sector.",
+  "a2": "frame bit in {0,1}: 1 = conjugated frame rho->V^dag rho V; 0 = identity frame. GAUGE d.o.f.; lives in the EIGENVECTOR sector.",
+  "p": "parity bit = a1 XOR a2. The third observed 2|2 split; not linearly separable in (a1,a2).",
+  "note": "The four objects (a1,a2) in {0,1}^2, each with a sheet sign eps, are the pure objects. 8 = 2(eps) x 4(a1,a2). With operator choice x4 and flux this extends to the 64 schedule."
+ },
+ "overlays": {
+  "axis_math_anchor": {
+   "earned_status": "earned",
+   "map": {
+    "(a1,a2)->Axis1": "a1 = Axis-1 split: 1=unitary {Ne,Si}, 0=dissipative {Se,Ni}",
+    "(a1,a2)->Axis2": "a2 = Axis-2 split: 1=conjugated {Ni,Si}, 0=direct {Se,Ne}",
+    "p->Axis0": "p = a1 XOR a2 = Axis-0 discrete N/S projection: p=1 -> N {Ne,Ni}, p=0 -> S {Se,Si}"
+   },
+   "evidence": "Verified exactly against repo operator table (igt-pattern lines 475-478); parity identity in axis0_xor_sim.py; sector theorem in axis0_sector_sim.py."
+  },
+  "terrain_names": {
+   "earned_status": "earned",
+   "map": {
+    "(a1=0,a2=0,eps=+)": "Funnel (Se, left)",
+    "(a1=0,a2=0,eps=-)": "Cannon (Se, right)",
+    "(a1=1,a2=0,eps=+)": "Vortex (Ne, left)",
+    "(a1=1,a2=0,eps=-)": "Spiral (Ne, right)",
+    "(a1=0,a2=1,eps=+)": "Pit (Ni, left)",
+    "(a1=0,a2=1,eps=-)": "Source (Ni, right)",
+    "(a1=1,a2=1,eps=+)": "Hill (Si, left)",
+    "(a1=1,a2=1,eps=-)": "Citadel (Si, right)"
+   },
+   "evidence": "Matches terrain-rosetta-strong-math and terrain-laws-and-loop-geometry generator placements."
+  },
+  "jungian_functions": {
+   "earned_status": "witness",
+   "map": {
+    "p=1 (N)": "intuition (Ne, Ni) \u2014 perceiving abstract/possibility",
+    "p=0 (S)": "sensing (Se, Si) \u2014 perceiving concrete/actual",
+    "a1,a2 fix the specific function": "Se/Ne/Ni/Si assignment via the (a1,a2) tuple; the 8-of-16 access law is a separate engine-role overlay"
+   },
+   "caution": "Jungian naming is a witness crosswalk. The math anchor is (a1,a2,eps); do not let 'intuition/sensing' drive the structure. Axis-0=intuition/sensing is the DISCRETE projection only; the continuous Phi_0(rho_AB) bridge is open."
+  },
+  "carnot_szilard": {
+   "earned_status": "candidate",
+   "structural_correspondence": {
+    "Carnot 4-stage": "isothermal<->adiabatic alternation = dissipative(a1=0)<->unitary(a1=1) alternation in the E/U loop composition. The 4-stage cycle = the UEUE/EUEU loop word.",
+    "Szilard 1-bit": "measure->extract->reset = dephasing channel (a1=0) + entropy bookkeeping. Landauer erasure cost = the entropy-sector charge.",
+    "dual-stacked": "2 engines (eps=+ deductive, eps=- inductive) = owner's 'both stacked' target."
+   },
+   "caution": "Structural analogy only. Per owner + igt-pattern: the actual engine must be PURE QIT \u2014 no classical thermodynamics/probability smuggled in. The correspondence is a teaching pattern for the 4-stage and inner/outer loop, not an admission of classical thermo.",
+   "what_is_genuinely_shared": "4-stage cycle structure; inner/outer loop nesting; work<->information conversion; two independent binary axes (win/lose x WIN/LOSE = the 4-ring, matching (a1,a2))."
+  },
+  "taijitu_yinyang": {
+   "earned_status": "witness",
+   "map": {
+    "Axis-0 white/yang vs black/yin": "= p (N/S), still open at the Phi_0(rho_AB) bridge; symbolic split usable, must not close the bridge",
+    "Axis-1 dot-and-teardrop": "witness for a1 split {Se,Ni}|{Ne,Si}",
+    "Axis-2 dots-vs-teardrops": "witness for a2 split direct|conjugated",
+    "the two seed-dots (yin holds yang seed, yang holds yin seed)": "candidate witness for the XOR/parity: each class carries a seed of the other = the two charges disagreeing"
+   },
+   "caution": "Per taijitu-probe-reconciliation-card: symbolic witness only, must not replace lower-stack math. The 'surprisingly coordinated' fit is real as a crosswalk; it is NOT evidence and NOT forced onto the structure.",
+   "note_on_seed_dots": "The taijitu seed-dot (each half contains a dot of the other) is a genuinely apt witness for a1 XOR a2: the N class is exactly where the two charges DISAGREE (each 'contains' the other). Recorded as candidate, not forced."
+  },
+  "iching": {
+   "earned_status": "candidate",
+   "map": {
+    "6 binary axes -> hexagram": "the 2^6=64 schedule (2 eps x 8 terrain-slots x 4 operators, or 6 binary axes) matches the 64 hexagrams as a COUNT",
+    "yin/yang lines": "binary axis bits (a1,a2,eps,operator bits)",
+    "line order matters": "N01 order-sensitivity = the hexagram is an ordered stack of lines"
+   },
+   "caution": "Owner's explicit stance: do NOT force I-Ching patterns on. The system, as it develops, may naturally reflect them. Recorded as a candidate correspondence to CHECK as structure is earned, never as a design input. Current status: 64-count matches; per-hexagram semantic map is unverified and fenced.",
+   "honest_status": "Only the 64 count is structurally grounded so far (2^6). Any line-by-line I-Ching semantics remain unearned and must not steer the sims."
+  }
+ },
+ "provenance": "Grounded in: igt-pattern-explicit-math-reference (operator table, Carnot/Szilard rows, 4-ring), taijitu-probe-reconciliation-card (witness fencing), empirical-math-rosetta (math-first discipline), terrain-rosetta-strong-math (terrain placements). Claude Science session 2026-07-01. scratch/witness; promotion_allowed=false."
+}
