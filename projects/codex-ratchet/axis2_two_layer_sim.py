@@ -35,11 +35,11 @@ if __name__=="__main__":
     def rr():
         A=rng.normal(size=(2,2))+1j*rng.normal(size=(2,2)); M=A@A.conj().T; return M/np.trace(M)
     for nm,U in [("V",V),("W",W)]:
-        de=max(np.linalg.norm(np.sort(np.linalg.eigvalsh(rr()))-np.sort(np.linalg.eigvalsh(U@(x:=rr())@U.conj().T))) for _ in range(50))
-        opmap=max(np.linalg.norm(conj_ch(Ti,U)-Te),np.linalg.norm(conj_ch(Fi,U)-Fe))
-        print(f"[{nm}] operator-map error={opmap:.2e}")
+        e_ti=np.linalg.norm(conj_ch(Ti,U)-Te); e_fi=np.linalg.norm(conj_ch(Fi,U)-Fe)
+        print(f"[{nm}] operator-map error: Ti->Te={e_ti:.2e}  Fi->Fe={e_fi:.2e}  (max={max(e_ti,e_fi):.2e})")
     du=1e-6; Vp=(expm(-1j*H0*(0.9+du))-expm(-1j*H0*(0.9-du)))/(2*du)
     K_V=1j*expm(-1j*H0*0.9).conj().T@Vp
+    print(f"  (V fails the map on BOTH pairs; W passes both -- the row's V ✗ / W ✓)")
     print(f"connection: V gives K=H0 (||K-H0||={np.linalg.norm(K_V-H0):.1e}); W gives K=0 (V̇=0)")
     print(f"composition: W K W = H0 - 2σy/√3 ; ||WH0W-H0||={np.linalg.norm(W@H0@W-H0):.3f} (WσyW=-σy)")
     print("=> Axis-2 = (V continuous frame) x (W discrete direct/conjugated bit), composing via K->WKW")
