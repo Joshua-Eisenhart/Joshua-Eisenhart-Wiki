@@ -975,6 +975,58 @@ ring-checkerboard / many-futures layer), not a better one-shot functional.
 
 ---
 
+## 7j. Exploration — the JK-fuzz field and a candidate Axis-0 resolution
+
+*(This section is deliberately exploratory — candidate-grade, feeding the ratchet
+rather than gated by it. The owner's process earns canon; this is raw material.)*
+
+The Axis-0 seat, per doctrine (`jk-fuzz-field.md`, `axis0-physics-source-teeth-map.md`),
+is the **JK fuzz field** — a finite field of admissible future continuations:
+
+```
+probe-state → nested layer → fuzz field F_jk(l,x) → Ξ_fuzz cut ρ_AB → Φ_0 readout
+```
+
+**Finite-path-integral substrate (reproduced).** The finite Feynman path packet
+(`finite-feynman-path-integral-foundation-packet`) was reproduced: 8 admissible
+length-4 words over `{A,B}` forbidding `BB`; `‖AB−BA‖ = √2`; unconstrained
+`(A+B)⁴` amplitude matches the doc to 14 digits; the constraint is load-bearing
+(dropping it changes the path sum). This is a working finite, ordered,
+noncommuting, constraint-gated substrate for `F_jk`.
+
+**A candidate Axis-0 resolution (falsifiable).** Eight principled Axis-0 readouts
+have now been tested (§7b.3, §7i, plus JK-fuzz bipartite mutual information and
+distinguishability-flow here); **seven collapse to Axis-1** (dissipative/unitary
+`{Se,Ni}|{Ne,Si}`). This forced a sharper look, which surfaced a **contradiction**
+in the current definition:
+
+> The owner calls **Ni "positive entropy,"** but Ni (Pit/Source) converges to a
+> **pure** state — the **lowest** *state* entropy (`S* ≈ 0.12`). So the "entropy" in
+> the Axis-0 polarity **cannot be state entropy**.
+
+The candidate fix: Axis-0 is the Jungian **intuition vs sensing** axis — `Ne,Ni`
+(intuition) perceive **many admissible futures**; `Se,Si` (sensing) perceive **one
+actual present**. "Positive entropy" then means **fuzz-field entropy** — entropy
+over the admissible-future distribution `F_jk`, *not* `S(ρ)`:
+
+$$ \text{Axis-0 polarity} = \operatorname{sign}\frac{d}{d\lambda}\,H_{\text{fuzz}}(\text{future dist})
+   \quad\text{not}\quad \operatorname{sign}\frac{d}{d\lambda}\,S(\rho). $$
+
+Supporting signal: **distinguishability-flow** (a fuzz proxy — how a cloud of
+nearby states' pairwise distinguishability evolves) is the **only** readout whose
+family means order correctly: intuition `0.731` > sensing `0.706` (though `Se`
+overlaps `Ni` per-terrain, so it is a lead, not a closure). This is consistent with
+the doctrine that Axis-0 is a **late spine object** requiring the `Ω_r/JK`
+many-futures layer — the ring-checkerboard support — not a terrain-local scalar.
+
+**Suggested next rung.** Build `F_jk` as a first-class finite distribution over
+admissible continuations on a ring-checkerboard support, assemble `Ξ_fuzz → ρ_AB`,
+and test `Φ_0 = sign(d H_fuzz/dλ)`. And, project-wide: **name STATE entropy and
+FUZZ entropy as distinct quantities everywhere** — that single rename resolves the
+Ni contradiction and should de-drift the Axis-0 doc cluster.
+
+---
+
 ## 8. Audit — with claim-grade discipline
 
 **Claim-grade rule (from the current wiki per-rung standard).** Claim-bearing
