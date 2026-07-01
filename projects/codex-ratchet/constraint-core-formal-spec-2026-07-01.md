@@ -1369,6 +1369,57 @@ the system as premises.
 
 ---
 
+## 9a. Simulation hygiene and the rosetta layer
+
+**Principle (owner-directed).** Sims must be **pure real math and structure** — no
+interpretive jargon in the computation — so that no conflation can enter through naming.
+Labels are applied only afterward, in a **separate rosetta layer**, and only where the
+earned structure independently supports them.
+
+**What the sims contain now.** The Axis-0 sims (`axis0_xor_sim.py`,
+`axis0_sector_sim.py`) were refactored to carry only structural primitives:
+
+| symbol | pure meaning (no label) |
+|--------|-------------------------|
+| `eps ∈ {+1,−1}` | sheet sign; `H = eps·H₀` |
+| `a1 ∈ {0,1}` | dynamics bit: 1 = spectrum-preserving (unitary), 0 = spectrum-contracting (dephasing) — **eigenvalue sector** |
+| `a2 ∈ {0,1}` | frame bit: 1 = conjugated `V†ρV`, 0 = identity — **gauge / eigenvector sector** |
+| `p = a1 ⊕ a2` | parity bit — the third observed 2\|2 split |
+
+No terrain names, no `Se/Ne/Ni/Si`, no "intuition/sensing" appear in the math. The
+identity `p = a1 ⊕ a2` and the two-sector theorem are stated over these indices alone.
+
+**The rosetta layer** (`rosetta_layer.json`) maps the earned structure to every label
+system, each tagged with an **earned status**:
+
+- **earned** — the structure realizes it exactly: `a1`→Axis-1, `a2`→Axis-2, `p`→Axis-0
+  (N/S); the 8 `(a1,a2,eps)` tuples → the 8 terrain names.
+- **witness** — usable symbolic crosswalk that must **not** replace the math anchor:
+  the Jungian intuition/sensing reading of `p`; the taijitu yin/yang split (its two
+  **seed-dots** — each half carrying a dot of the other — are an apt witness for the
+  XOR: the N class is exactly where the two charges *disagree*, i.e. each "contains" the
+  other).
+- **candidate** — suggested by the structure, not yet closed, never a design input: the
+  **Carnot/Szilard** correspondence (the 4-stage isothermal↔adiabatic cycle = the
+  dissipative↔unitary `E/U` loop word; Szilard measure→work→reset = dephasing + Landauer
+  entropy cost; the actual engine remains **pure QIT**, no classical thermo smuggled in);
+  and the **I-Ching** correspondence (only the `2⁶ = 64` count is grounded so far;
+  per-hexagram semantics are fenced — recorded to *check as structure is earned*, per the
+  owner's stance that the system may naturally reflect I-Ching patterns but must never
+  have them forced on).
+
+**Connected but fenced lanes.** The constraint core couples to three further owner
+models through its **dynamic geometry** (the nesting shells of §7a that expand and
+contract, not a static background): the **holodeck/FEP** model (a root predictive model
+of memory and perception — the pure-QIT FEP of §7e is its constraint-core kernel); and
+**entropic-monism cosmology** with **dynamic shells** (the dark-energy/dark-matter
+sector). These are recorded as connected lanes, deliberately **not** expanded into this
+spec — their claim ceilings (`legacy-physics-cosmology`, `fep-to-axis0-bridge-claim-ceilings`)
+fence them, and the constraint core earns only the finite QIT structure, leaving the
+cosmological reading as a downstream overlay.
+
+---
+
 ## 10. Foundation lock
 
 > All mathematics, geometry, and dynamics are emergent from constraint.
