@@ -6,7 +6,8 @@
   "a1": "dynamics bit in {0,1}: 1 = spectrum-preserving (unitary) channel; 0 = spectrum-contracting (rank-1 dephasing) channel. Lives in the EIGENVALUE sector.",
   "a2": "frame bit in {0,1}: 1 = conjugated frame rho->V^dag rho V; 0 = identity frame. GAUGE d.o.f.; lives in the EIGENVECTOR sector.",
   "p": "parity bit = a1 XOR a2. The third observed 2|2 split; not linearly separable in (a1,a2).",
-  "note": "The four objects (a1,a2) in {0,1}^2, each with a sheet sign eps, are the pure objects. 8 = 2(eps) x 4(a1,a2). With operator choice x4 and flux this extends to the 64 schedule."
+  "note": "The four objects (a1,a2) in {0,1}^2, each with a sheet sign eps, are the pure objects. 8 = 2(eps) x 4(a1,a2). With operator choice x4 and flux this extends to the 64 schedule.",
+  "gauge_breaking_law": "a2-physicality = k*delta, k~0.0787, R^2=0.99999+ (through origin). The gauge charge a2 becomes a physical single-channel observable in LINEAR proportion to subdominant dissipation delta that breaks the unitary gauge degeneracy [V,exp(-iH0 t)]=0. At delta=0 the two unitary objects (1,0),(1,1) are the identical channel and parity p is unreadable."
  },
  "overlays": {
   "axis_math_anchor": {
@@ -16,7 +17,8 @@
     "(a1,a2)->Axis2": "a2 = Axis-2 split: 1=conjugated {Ni,Si}, 0=direct {Se,Ne}",
     "p->Axis0": "p = a1 XOR a2 = Axis-0 discrete N/S projection: p=1 -> N {Ne,Ni}, p=0 -> S {Se,Si}"
    },
-   "evidence": "Verified exactly against repo operator table (igt-pattern lines 475-478); parity identity in axis0_xor_sim.py; sector theorem in axis0_sector_sim.py."
+   "evidence": "Verified exactly against repo operator table (igt-pattern lines 475-478); parity identity in axis0_xor_sim.py; sector theorem in axis0_sector_sim.py.",
+   "late_object_law": "EARNED: the parity p=Axis-0 is readable only once the entropy sector is active; its readability is proportional (linear, k~0.0787) to the symmetry-breaking dissipation. This makes 'Axis-0 is a late object' a quantitative statement and ties it to the co-ratchet (S7c): entropy must be earned before the parity can be read."
   },
   "terrain_names": {
    "earned_status": "earned",
