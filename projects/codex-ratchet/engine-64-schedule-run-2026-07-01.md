@@ -36,7 +36,7 @@ The four judging operators are exact quantum channels on `M_2(C)`, verified CPTP
 
 | Readout | Distinct microsteps / 64 |
 |---|---|
-| order-blind, coarse (single seed, symmetrized up/down) | **11 / 64** — reproduces documented eng_64 collapse |
+| order-blind, coarse (single seed, symmetrized up/down) | **11 / 64** — same collapse *phenomenon* as documented eng_64 (repo shows 16; count is observable-dependent) |
 | N01 order-sensitive (terrain-first, multi-seed) | **64 / 64** — full uniqueness |
 
 All 64 microsteps carry a real up != down order gap (mean 0.544). Uniqueness comes
