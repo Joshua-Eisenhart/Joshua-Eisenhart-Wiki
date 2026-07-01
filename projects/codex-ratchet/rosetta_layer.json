@@ -97,7 +97,8 @@
    "earned_status": "earned",
    "map": "eps=+1 -> Left Weyl / Type-1 engine (accesses Funnel,Vortex,Pit,Hill x 2 ops); eps=-1 -> Right Weyl / Type-2 (Cannon,Spiral,Source,Citadel x 2 ops). Each person is ONE engine.",
    "result": "engine type = global sign of loop geometric phase (Left +, Right -). 8/8 stages flip handedness on the wrong sheet -> genuinely non-transferable. The two 8-sets are pole-mirror pairs.",
-   "law_name": "eight-of-sixteen access law"
+   "law_name": "eight-of-sixteen access law",
+   "SHARPENED_2026-07-01": "Second audit (hostile probe): decoupled eps in terrain vs meter -> sign follows terrain 14/16, drive 2/16 (chirality lives in the stage, circularity ruled out). Two-tier, mirrors \u00a77q: dephasing stages (Ti,Te) negate EXACTLY under eps-flip (symbolic-identity theorem, |a(+)+a(-)|=0); rotation stages (Fi,Fe) dynamical. Chirality-neutral meter -> 14/16 with failures t3:Fe,t7:Fe (projective Si bottleneck). Full 16/16 holds IFF the loop carries the sheet's own H0 (must be adopted as the loop definition explicitly)."
   },
   "native_operator_W_covariance": {
    "earned_status": "earned",
@@ -112,5 +113,11 @@
   "downgraded": "\u00a77o gauge-breaking 'linear law R\u00b2=1.0' -> withdrawn (parametrization artifact); \u03b4=0 degeneracy + monotone link survive",
   "corrected": "\u00a77q 'null failure is the point' -> honest null (cannot confirm fusion); \u00a77r/\u00a77s '8/8 threefold coincidence' -> one Axis-1 bit read three ways (consistency not convergence)",
   "new_positive": "\u00a77t exact W-covariance derivation of the native-operator law + Axis-2 frame-element repair flag"
+ },
+ "_audit_log_2026-07-01_second": {
+  "source": "second external thread audit, probing \u00a77s access law",
+  "verified": "decoupling terrain-vs-meter 14/16 vs 2/16; exact Ti/Te conjugation symmetry (0 machine precision); chirality-neutral 14/16 with t3/t7:Fe failures",
+  "outcome": "\u00a77s SHARPENED not demoted: exact symbolic theorem on 8 pinching stages, dynamical 14/16 on 8 rotation stages; 16/16 requires explicit loop-carries-H0 convention",
+  "stale_flag_noted": "the audit's housekeeping flag (v2 hadn't incorporated first audit) is superseded: \u00a77o linear law already withdrawn, \u00a77q reframed, \u00a77t W-fork added in spec v24"
  }
 }
