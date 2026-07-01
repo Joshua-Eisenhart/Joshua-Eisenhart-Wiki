@@ -1193,11 +1193,15 @@ section asks the constructive question — can a genuine bipartite `ρ_AB` objec
 that parity — and in failing to force it, proves exactly why the whole investigation
 stalled.
 
-**1. Axis-2 (frame) is a gauge choice.** The direct/conjugated frame is `ρ ↦ V†ρV`. Over
-200 random two-qubit states, every state invariant — von Neumann entropy, purity,
-coherent information, mutual information — is preserved under frame conjugation to
-**2×10⁻¹⁵** (machine precision). The frame carries *no* information any state functional
-can read. Half of Axis-0's content is provably **not in the state**.
+**1. Axis-2 (frame) is a gauge choice — a symbolic identity (grade: `symbolic_identity`).**
+The direct/conjugated frame is `ρ ↦ V†ρV`, a **unitary similarity**. Every state invariant
+— von Neumann entropy, purity, coherent information, mutual information — is a function of
+the **eigenvalues** of `ρ` alone, and unitary similarity preserves the spectrum **exactly**:
+`spec(V†ρV) = spec(ρ)` for *any* unitary `V`, by definition of similarity. So the invariance
+is an algebraic identity, not a numerical result — the empirical `2×10⁻¹⁵` over 200 random
+states (below) is a *confirmation* of the identity, not its basis. The frame carries *no*
+information any state functional can read: half of Axis-0's content is provably **not in the
+state**, as a theorem.
 
 **2. The two axes are different kinds of charge, in orthogonal sectors.** Decompose a
 density matrix into its **eigenvalues** (the entropy sector) and its **eigenvectors**
@@ -1397,8 +1401,13 @@ becomes physical, growing monotonically from exactly zero at `δ = 0`:
 
 > **The frame bit's physicality is zero at `δ = 0` (split `6×10⁻¹⁷`, pure gauge) and
 > increases monotonically with `δ`.** The dependence is an ordinary saturating first-order
-> response — under a genuine GKSL dephasing semigroup the ratio `split/δ` falls from `0.15`
-> (at `δ=0.05`) to `0.039` (at `δ=2.0`), *not* a constant. There is **no linear law**: a
+> response — under a genuine GKSL dephasing semigroup (dephasing generator `L=σz⊗I` on
+> subsystem A, integrated over fixed evolution time `T=1` with the unitary phase at `t=0.7`;
+> these conventions are pinned in `axis0_gauge_breaking_sim.py` v3) the ratio `split/δ` falls
+> from `0.15` (at `δ=0.05`) to `0.039` (at `δ=2.0`), *not* a constant. (A different `T`/rate
+> convention gives different constants — an independent run reported `0.30→0.06` — but the
+> same qualitative saturating decay; the point is the ratio is *not* constant, unlike the
+> withdrawn single-Kraus model.) There is **no linear law**: a
 > previous version of this section reported `a2-physicality = k·δ` with `R² = 0.999997`, but
 > that came from modelling the dissipation as a single Kraus step `K₀=√(1−δ/2)I,
 > K₁=√(δ/2)Z`, which is affine in `δ` **by construction** (`split/δ` constant to `5×10⁻¹⁷`
@@ -1513,20 +1522,31 @@ residual split* below, and — decisively — by the exact W-covariance derivati
 For the **projective and depolarizing** terrains the fusion is **literal and exact**
 (residual `0.00–0.12`): geometry and operator are the same object — the strong GR-ether
 case. For the **source-locked** terrains the generator carries a pole-seeking `σ±`
-amplitude-damping charge that lies **outside any fixed operator algebra**. A falsifiable
-follow-up — re-testing containment in each terrain's co-moving frame — was **falsified**
-(source-locked residuals barely moved, `0.67→0.62`, and rotating off-axis *broke* the
-projective terrains' containment), confirming the surplus is irreducible in every frame.
+amplitude-damping charge that lies **outside any fixed operator algebra**.
 
-> **Model recommendation.** Record a **two-tier fusion**: the operator-fused terrains
-> (projective/depolarizing) literally *are* their operators — geometry and operator provably
-> inseparable — while the source-locked terrains carry an irreducible geometric charge the
-> operators cannot express. The "2 native operators per terrain" law is a valid Axis-6
-> *labelling* (which operators are admitted) but is **not** a statement that the terrain
-> reduces to those operators: half the terrains carry surplus geometry. The co-ratchet
-> max-constrains operators onto the fused terrains; the source-locked half retains a
-> geometric degree of freedom beyond the operator algebra. This is the precise, tested form
-> of "the surface is the operator" — true literally for half, and revealing where it isn't.
+**The surplus is exactly non-unitality — a one-line theorem (grade: `symbolic_identity`).**
+The numerical containment split is now upgraded to an exact algebraic statement. All four
+operator generators are **unital**: `Ti(I) = Te(I) = Fi(I) = Fe(I) = 0` (dephasing
+`½(σρσ−ρ)` and coherent `−i[H,ρ]` both annihilate `I`). Any linear span of unital maps is
+unital, so **every element of the operator algebra is unital.** The source-locked terrains
+carry amplitude damping `D[σ±]`, which is **non-unital**: `‖L(I)‖ = √2 ≠ 0` exactly for all
+four (`t0,t2,t4,t6`), while the fused terrains have `‖L(I)‖ = 0` exactly (`t1,t3,t5,t7`).
+Therefore the source-locked generators **provably cannot lie in the operator algebra** — the
+surplus is non-unitality, and the celebrated 8/8 fusion bit is exactly the indicator
+`𝟙[‖L(I)‖ ≠ 0]`. This replaces the falsified co-moving-frame test (which was only suggestive)
+with a theorem: no frame can move a non-unital generator into a unital algebra, because
+unitality is basis-independent (`L(I)=0 ⟺ UL U†(I)=0`).
+
+> **Model recommendation.** Record a **two-tier fusion**, now with the split as a theorem:
+> the fused terrains (projective/depolarizing) literally *are* their operators — both are
+> unital, geometry and operator provably inseparable — while the source-locked terrains carry
+> a **non-unital** amplitude-damping charge (`‖L(I)‖ = √2`) that no unital operator algebra
+> can contain, in any frame. The 8/8 fusion bit is exactly `𝟙[‖L(I)‖ ≠ 0]`. The "2 native
+> operators per terrain" law is a valid Axis-6 *labelling* (which operators are admitted) but
+> is **not** a claim that the terrain reduces to those operators: half the terrains carry
+> surplus non-unitality. This is the precise, proven form of "the surface is the operator" —
+> true literally for the unital half, and provably false (with the exact obstruction named)
+> for the non-unital half.
 
 ---
 
@@ -1649,7 +1669,10 @@ that derives the native-operator law**.
 **The theorem.** Let `W = (σx + σz)/√2` be the Hadamard involution (`W = W† = W⁻¹`). Then `W`
 conjugation maps the **direct** operator pair to the **conjugated** pair, exactly as channels:
 
-> `W · Ti · W = Te` (residual `3.4×10⁻³³`) and `W · Fi · W = Fe` (residual `4.5×10⁻¹⁷`),
+> `W · Ti · W = Te` (residual `3.4×10⁻³³`) and `W · Fi · W = Fe` (residual `4.5×10⁻¹⁷`) —
+> all residuals here and in §7u are **Frobenius norms** `‖·‖_F` of the superoperator
+> difference, not squared norms; `Ti→Te` is an exact Pauli-basis permutation, hence the
+> `10⁻³³` floor,
 > where `Ti` = z-dephasing, `Te` = x-dephasing, `Fi` = x-rotation, `Fe` = z-rotation.
 
 This is because `W σz W = σx` and `W σx W = σz` exactly — `W` swaps the `z` and `x` axes
@@ -1725,6 +1748,15 @@ frame's connection. So the two layers are one coherent axis, not rival elements.
 > direct/conjugated bit)`, composing via `K → WKW`. This closes the §7t fork: the native
 > operator law is earned as covariance under the discrete layer, and the continuous frame
 > keeps its §7n role intact. Verified in `axis2_two_layer_sim.py`.
+
+**The sharper open item this surfaces (better-posed than the fork).** The `W`-covariance is
+exact at the **operator** level (`Ti↔Te`, `Fi↔Fe`). It does **not** extend to the **terrain**
+level: neither `W` nor `V` conjugates the direct terrain generators into their conjugated
+partners — `‖ U L_direct U† − L_conj ‖ = 1.4–2.0` (Frobenius) for both elements, on all four
+candidate pairings. So the direct/conjugated assignment *on terrains* (the `a2` bit) still
+rests on the repo's source table alone; it is not yet derived from a frame symmetry. This is
+the actual remaining gap in Axis-2 — a sharper, more tractable question than "which element
+is the frame," which the two-layer resolution retired.
 
 ---
 
