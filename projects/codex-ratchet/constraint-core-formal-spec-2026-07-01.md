@@ -1183,6 +1183,60 @@ form of "Axis-0 is visible only jointly in Axis-1 and Axis-2, never from either 
 
 ---
 
+## 7n. Why the parity is unreachable by entropy: the two-sector theorem
+
+*(Deepening §7m. The gauge proof and sector theorem are solid; the bridge's phase
+readout is isolated as the open piece.)*
+
+§7m established `Axis-0 = Axis-1 ⊕ Axis-2` as an identity on the axis labels. This
+section asks the constructive question — can a genuine bipartite `ρ_AB` object *compute*
+that parity — and in failing to force it, proves exactly why the whole investigation
+stalled.
+
+**1. Axis-2 (frame) is a gauge choice.** The direct/conjugated frame is `ρ ↦ V†ρV`. Over
+200 random two-qubit states, every state invariant — von Neumann entropy, purity,
+coherent information, mutual information — is preserved under frame conjugation to
+**2×10⁻¹⁵** (machine precision). The frame carries *no* information any state functional
+can read. Half of Axis-0's content is provably **not in the state**.
+
+**2. The two axes are different kinds of charge, in orthogonal sectors.** Decompose a
+density matrix into its **eigenvalues** (the entropy sector) and its **eigenvectors**
+(the phase sector). Under frame conjugation the eigenvalues move by `1.8×10⁻¹⁶` while the
+state itself moves by `0.67`: the frame lives **entirely in the eigenvector sector**.
+
+> **Two-sector theorem.** Axis-1 is an **entropy charge** (eigenvalue sector — read by
+> `S`, `I_c`, `MI`, purity). Axis-2 is a **phase/gauge charge** (eigenvector sector —
+> invisible to every entropy functional). `Axis-0 = Axis-1 ⊕ Axis-2` therefore requires
+> **one entropy readout and one phase readout, multiplied**. No single scalar functional
+> spans both sectors — which is the precise, sector-level reason **all 14** tested
+> readouts (every one an entropy-type functional) could never see Axis-0.
+
+**3. Why the frame needs a second system.** The frame becomes physical only through the
+dissipation basis: frame-sensitivity is `0.22` for the dissipative terrains `{Se,Ni}` and
+**exactly 0** for the unitary terrains `{Ne,Si}` (whose dynamics commute with `H₀`).
+Reading a *basis* requires a reference to read it against — which is precisely **why the
+repo insists Axis-0 needs a bipartite cut-state `ρ_AB`**: register B supplies the
+reference frame for register A's basis.
+
+**4. Bridge status — one sector solved, one open.** The Ξ bridge is now characterized as
+a **two-output, two-sector map**: `χ₁` = entropy charge (eigenvalue sector, purity sign —
+**works**), `χ₂` = phase charge (eigenvector sector — **open**), `Axis-0 = χ₁·χ₂`. A
+closed-loop geometric phase (Berry/Pancharatnam) does **not** serve as `χ₂`: a closed
+loop is itself gauge-invariant (`H₀` and `V†H₀V` have identical spectra), so it is blind
+to the frame. *(A prototype that scored 4/4 by assigning `χ₂` from the known frame bit was
+circular and is discarded — recording it as a caution: any readout that reproduces the
+label without measuring it is not a bridge.)* The specific unearned piece is a
+**relational, open-path phase observable** — `A` entangled with a reference `B` the gauge
+does not rotate, evolved on a non-closed segment, read as the `A`–`B` relative phase.
+
+> **Model recommendation.** Axis-0's bridge is not a functional to be discovered but a
+> **two-sector instrument to be built**: an entropy meter (have it) and a relational phase
+> meter (open). Both closed-loop holonomy and all entropy functionals are provably
+> insufficient for the second. This is the sharpest statement yet of what the Ξ bridge
+> must be.
+
+---
+
 ## 8. Audit — with claim-grade discipline
 
 **Claim-grade rule (from the current wiki per-rung standard).** Claim-bearing
