@@ -1158,7 +1158,11 @@ function. Any single scalar functional measures one (approximately linear) direc
 the terrain space, so it can realize Axis-1 or Axis-2 — never their parity. Every one
 of the 14 readouts therefore *had* to collapse onto Axis-1 (or occasionally Axis-2);
 the target was provably unreachable by construction. This is not a tooling failure — it
-is a theorem about what a single readout can see.
+is a theorem about what a single readout can see. (The identity is deterministic algebra
+on the axis labels; it needs no statistical corroboration. A multivariate
+leave-one-family-out fit was run but is **statistically vacuous** — 3 training points
+against 4 features is underdetermined, so a perfect score is guaranteed and carries no
+evidential weight; it is not cited as support.)
 
 **Why this matches the doctrine.** The repo already says Axis-0 "cannot be evaluated on
 a single isolated spinor; it needs a **bipartite cut-state `ρ_AB`**" via the Ξ bridge,
@@ -1170,10 +1174,8 @@ the Ξ bridge must reduce to**, not a functional to be guessed.
 **Falsifiable, constructive next step.** Build Ξ as a genuine 2-subsystem readout whose
 sign equals `sign(Axis-1) ⊕ sign(Axis-2)` — e.g. a history-window pullback (time-averaged
 `I_c` over a full 720° trajectory) that couples the dynamical and frame characters
-multiplicatively rather than additively. A multivariate leave-one-family-out check
-already confirms the N/S label **is** recoverable from the measured dynamical
-observables (4/4) — but only jointly, never from any one. The XOR statement is the
-precise form of that "only jointly."
+multiplicatively rather than additively. The XOR statement is the precise structural
+form of "Axis-0 is visible only jointly in Axis-1 and Axis-2, never from either alone."
 
 > **Model recommendation.** Record `Axis-0 = Axis-1 ⊕ Axis-2` in the axis doctrine, and
 > stop searching for Axis-0 in single-cut dynamics. The bridge should be *engineered to
