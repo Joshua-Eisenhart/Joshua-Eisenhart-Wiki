@@ -1127,6 +1127,60 @@ swap, `Ni` treated as the source-locked pure-attractor special case.
 
 ---
 
+## 7m. The Axis-0 stall resolved: Axis-0 = Axis-1 XOR Axis-2
+
+*(This is the strongest result of the Axis-0 investigation. Candidate-grade, but exact
+and doc-grounded.)*
+
+The spinor-level rung (§7l) said Axis-0 is not density-local. Pursuing it further —
+principled spinor weak-measurement operators, the full 720° double loop, and the
+repo's own strongest bridge kernel (coherent information `I_c(A⟩B)` on a nested
+shell-cut) — **none realized the `{Ne,Ni}|{Se,Si}` split**. That makes **14** distinct
+Axis-0 readouts tested, all failed. The reason is now exact.
+
+**The structural fact.** Read against the repo's operator table
+(`igt-pattern-explicit-math-reference.md` lines 475–478) the three axis partitions are:
+
+| Axis | split | `Se` | `Ne` | `Ni` | `Si` |
+|------|-------|------|------|------|------|
+| **Axis-1** (dynamics) | dissipative `{Se,Ni}` \| unitary `{Ne,Si}` | 0 | 1 | 0 | 1 |
+| **Axis-2** (frame)    | direct `{Se,Ne}` \| conjugated `{Ni,Si}`   | 0 | 0 | 1 | 1 |
+| **Axis-0** (perceiving) | N/intuition `{Ne,Ni}` \| S/sensing `{Se,Si}` | 0 | 1 | 1 | 0 |
+
+Reading the last row as the XOR of the first two is **exact for all four families**:
+
+> **Axis-0 = Axis-1 ⊕ Axis-2.** `{Ne,Ni}` (intuition/N) are exactly the terrains where
+> the dynamical axis and the frame axis **disagree** (Ne = unitary+direct, Ni =
+> dissipative+conjugated); `{Se,Si}` (sensing/S) are where they **agree**.
+
+**Why this resolves the stall.** XOR is the textbook **not-linearly-separable**
+function. Any single scalar functional measures one (approximately linear) direction in
+the terrain space, so it can realize Axis-1 or Axis-2 — never their parity. Every one
+of the 14 readouts therefore *had* to collapse onto Axis-1 (or occasionally Axis-2);
+the target was provably unreachable by construction. This is not a tooling failure — it
+is a theorem about what a single readout can see.
+
+**Why this matches the doctrine.** The repo already says Axis-0 "cannot be evaluated on
+a single isolated spinor; it needs a **bipartite cut-state `ρ_AB`**" via the Ξ bridge,
+and calls it "the single biggest open problem." A bipartite construction is precisely a
+**two-subsystem** (hence two-axis) object — exactly what computing a parity requires.
+The discrete Axis-0 projection `{Ne,Ni}→N, {Se,Si}→S` is then the **ground-truth target
+the Ξ bridge must reduce to**, not a functional to be guessed.
+
+**Falsifiable, constructive next step.** Build Ξ as a genuine 2-subsystem readout whose
+sign equals `sign(Axis-1) ⊕ sign(Axis-2)` — e.g. a history-window pullback (time-averaged
+`I_c` over a full 720° trajectory) that couples the dynamical and frame characters
+multiplicatively rather than additively. A multivariate leave-one-family-out check
+already confirms the N/S label **is** recoverable from the measured dynamical
+observables (4/4) — but only jointly, never from any one. The XOR statement is the
+precise form of that "only jointly."
+
+> **Model recommendation.** Record `Axis-0 = Axis-1 ⊕ Axis-2` in the axis doctrine, and
+> stop searching for Axis-0 in single-cut dynamics. The bridge should be *engineered to
+> compute the parity*, with the discrete N/S lattice as its correctness target.
+
+---
+
 ## 8. Audit — with claim-grade discipline
 
 **Claim-grade rule (from the current wiki per-rung standard).** Claim-bearing
