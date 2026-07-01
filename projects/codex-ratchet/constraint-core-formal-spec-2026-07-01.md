@@ -1414,6 +1414,47 @@ co-ratchet has advanced.
 
 ---
 
+## 7p. Maximal differentiation of the eight terrains
+
+*(Strong per-terrain sim on the manifold. Structural indices only per §9a; the fingerprint
+and the near-degeneracy finding are solid.)*
+
+Each of the eight terrains is realized as its **exact source-locked GKSL generator**
+(from the scratch Bloch maps, `igt-pattern` lines 486–497), indexed `t0…t7` with no
+labels in the math. The goal is **maximal differentiation** — every terrain provably doing
+distinct information processing, separated as far as possible.
+
+**A single fixed point is not enough.** From a maximally-mixed start, the four dissipative
+terrains pin to their exact `z*` poles (`t0→+0.78`, `t2→−0.91`, `t4→−0.78`, `t6→+0.91`,
+tracking the `±.86/±.92` targets), but the four unitary-dominant terrains all collapse to
+the centre `r=0` — degenerate. Differentiation requires a **rich dynamical fingerprint**,
+not the endpoint.
+
+**The 14-feature fingerprint.** Per terrain: fixed-point Bloch vector (3) + radius +
+fixed-point entropy + Liouvillian decay rates (2) + oscillation magnitude + total
+dissipativity + signed drift + trajectory arc length + **signed chirality** + **trajectory
+handedness** + **signed swept area** (an `eps`-odd geometric-phase proxy). The last three are
+the load-bearing additions: scalar invariants alone cannot see the sheet sign `eps`, which
+for the unitary terrains is a pure chirality (mirror trajectories with identical spectra).
+
+**Result — all eight distinct, with one honest near-degeneracy.** Under the standardized
+fingerprint, pairwise distances have **mean 5.5, max 6.9, min 0.35**. The degeneracies fall
+in a clear order: fixed point separates 6; the Liouvillian spectrum splits decay vs
+oscillation; signed chirality breaks `t1≠t5`; handedness and swept area break `t3↔t7` (from
+0.28 to 0.35). The bottleneck pair `t3–t7` (the two **projective** terrains) is a **genuine
+structural fact, not a sim artifact**: their generator is nearly **sheet-symmetric** (weak
+Hamiltonian content), so only `eps`-odd geometric features distinguish them at all. Every
+other pair is `3–7` apart — well separated.
+
+> **Model recommendation.** The eight terrains are maximally differentiated by a 14-feature
+> dynamical fingerprint, and the *residual* structure is itself informative: the projective
+> terrains are the least chirally-distinct, marking them as the manifold's most
+> sheet-symmetric point. When the full engines (Julia/JAX/PyTorch) are run, this fingerprint
+> is the natural per-terrain validation target — each engine stage should reproduce its
+> terrain's fingerprint row.
+
+---
+
 ## 9a. Simulation hygiene and the rosetta layer
 
 **Principle (owner-directed).** Sims must be **pure real math and structure** — no
