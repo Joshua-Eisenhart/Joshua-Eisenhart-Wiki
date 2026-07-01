@@ -996,8 +996,12 @@ noncommuting, constraint-gated substrate for `F_jk`.
 
 **A candidate Axis-0 resolution (falsifiable).** Eight principled Axis-0 readouts
 have now been tested (§7b.3, §7i, plus JK-fuzz bipartite mutual information and
-distinguishability-flow here); **seven collapse to Axis-1** (dissipative/unitary
-`{Se,Ni}|{Ne,Si}`). This forced a sharper look, which surfaced a **contradiction**
+distinguishability-flow here); **none realizes the Axis-0 split**, and of those,
+**four track Axis-1 directly** (dissipative/unitary `{Se,Ni}|{Ne,Si}` — entropy
+production, response `dD/dλ`, future multiplicity, JK-fuzz bipartite MI) while the
+rest are simply blind or partial (participation ratio: no split; von Neumann:
+isolates `Ni`; trajectory activity: 3/4). This forced a sharper look, which surfaced
+a **contradiction**
 in the current definition:
 
 > The owner calls **Ni "positive entropy,"** but Ni (Pit/Source) converges to a
@@ -1024,6 +1028,54 @@ admissible continuations on a ring-checkerboard support, assemble `Ξ_fuzz → �
 and test `Φ_0 = sign(d H_fuzz/dλ)`. And, project-wide: **name STATE entropy and
 FUZZ entropy as distinct quantities everywhere** — that single rename resolves the
 Ni contradiction and should de-drift the Axis-0 doc cluster.
+
+---
+
+## 7k. Exploration — why fuzz collapses to channel rank, and Axis-0 as a loop property
+
+*(Exploratory continuation of §7j — candidate-grade, feeding the ratchet.)*
+
+I built the JK-fuzz field as a first-class object on the **ring-checkerboard
+support** (`ring-checkerboard-...-runbook`, spherical-checkerboard presentation:
+nested shells with inside/outside inversion and a radial gradient — the presentation
+the runbook names as most visible for Axis-0). A terrain's admissible future
+continuations are its **Kraus branches**; `F_jk` is the distribution over them;
+`H_fuzz` is the entropy of that future distribution (§7j's candidate).
+
+**Result — and the obstruction it exposed.** The fuzz tree-entropy (depth-3
+ring-checkerboard walk) gives `{Ne,Si}` high vs `{Se,Ni}` low — **Axis-1 again**.
+The reason is structural and worth stating as a model fact:
+
+> The **Kraus branch count equals the dissipator rank** (`Ne=4, Se=3, Ni=2, Si=2`,
+> counting `K₀`). Dissipator rank is a **dynamics (Axis-1)** property. So *any* fuzz
+> measure built from Kraus branches **inherits Axis-1**. This is why all
+> future-multiplicity readouts collapse.
+
+**Refined hypothesis (the real lesson).** Axis-0 "tense" — orientation toward
+future-possibility (intuition) vs present-actuality (sensing) — is **not** about how
+many futures a channel spawns. It is a property of the **composed engine loop**
+(deductive `UEUE` vs inductive `EUEU`, Axis-4), not of a single terrain. *A terrain
+in isolation has no tense.* Testing at the loop level (full deductive/inductive loop,
+distinguishability-preservation readout) gives the **best result across all 11
+readouts tested**: `Ne+, Se−, Si−` correct (3/4); only `Ni` sits on the wrong side,
+and it does so for a understood reason — `Ni` is the source-locked **pure attractor**
+(Pit/Source → pole), which closes distinguishability regardless of tense.
+
+**Full readout ladder (11 tested, none terrain-local realizes `{Ne,Ni}|{Se,Si}`):**
+entropy production, response `dD/dλ`, trajectory activity, future multiplicity,
+participation ratio, von Neumann, JK-fuzz bipartite MI, distinguishability flow,
+`dH_fuzz/dλ`, fuzz tree entropy → all Axis-1 or blind; **engine-loop tense → 3/4,
+best.**
+
+This is strong first-principles support for the owner's doctrine that **Axis-0 is a
+late object, downstream of loop/engine structure** — not a terrain-local readout.
+
+**Concrete next rung.** Test Axis-0 at the full **720° = 2×360° double-loop** level
+(outer/inner deductive-inductive swap), handling `Ni` as the pure-attractor special
+case; or build `Φ_0` as a genuinely **downstream** `ρ_AB → Φ_0` readout taken
+*after* the loop, not from terrain-local channels. And project-wide: the finding that
+**fuzz multiplicity = channel rank = Axis-1** should be recorded so future work does
+not keep re-deriving Axis-1 while aiming at Axis-0.
 
 ---
 
