@@ -113,6 +113,10 @@ SUITE = [
    ("contains", "the 2 survivors are Axis-2 (W) conjugates: True"),
    ("contains", "EXACTLY 2 native operators per terrain, signed. O1 closed."),
    ("contains", "PASS admissibility_two_operator_sim")]),
+ ("info_processing_sim.py", 180, False, [
+   ("contains", "all 16 open-system processors (I_coh<0 for all): True"),
+   ("contains", "all 16 distinct channels: True"),
+   ("contains", "PASS info_processing_sim")]),
  ("flux_nesting_ablation_jax.py", 600, True, [
    ("approx", r'"total_chern_forward":\s*([0-9.]+)', 7.295389, 1e-3)]),
  ("manifold_build_ladder.py", 600, True, [
