@@ -245,3 +245,12 @@ UP-19 NEW SIM  physics_bridge_sim.py -- the engine reproduces two pieces of conf
                selects {|0>,|1>}, Te selects {|+>,|->}; pointer states ARE the purity-1 channel
                fixed points -- "an attractor basin that selects for itself" as decoherence
                physics. figures/physics_bridge.png. Self-skips if qutip absent. Layer 16.
+
+
+# Fluctuation theorems — 2026-07-02 (nonequilibrium generalization of the Szilard bound)
+UP-20 NEW SIM  fluctuation_theorem_sim.py -- the engine's unitary drive obeys Jarzynski
+               (<e^-bW>=e^-bdF, 3e-14 at every drive speed) AND Crooks (P_F/P_R=e^{b(W-dF)}
+               across all work bins). 2nd law <W>>=dF holds; dissipated work drops as drive
+               slows. Genuine dF=-0.793 (nontrivial). FINDING: first Crooks pass failed at the
+               tails -- a reverse-protocol bug, not physics; fixed time-reversed drive recovered
+               the exact law. numpy-only. Layer 16.3; harness 33 pass (constraintcore).
