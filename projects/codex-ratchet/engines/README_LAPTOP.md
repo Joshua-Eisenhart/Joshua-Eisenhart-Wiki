@@ -82,3 +82,23 @@ space (min pairwise 0.174). The readout is the 63-vector over non-identity 3-qub
 Pauli strings; the 8/8 non-unitality fusion split and 16/16 order gaps are preserved.
 Verified in this sandbox: numpy RK4 oracle vs JAX exact-expm agree to ~1e-12 on all
 16 stages in the full 63-dim space -- a two-method cross-check on C^8.
+
+
+## Substrate status (verified in this sandbox)
+
+Three independent numerical routes now confirmed at BOTH scales (1q and 3q):
+  numpy RK4 oracle  vs  JAX exact-expm  vs  PyTorch matrix_exp
+- 1-qubit: all three agree on the 16-stage Bloch contract.
+- 3-qubit (C^8): all three agree to ~1e-12 across all 16 stages in the 63-dim
+  Pauli-expectation space.
+PyTorch runs clean here (torch 2.12.1, CPU, complex128) -- no Bus error.
+Julia (julia_engine.jl / a 3q analogue) is the remaining 4th route; run it on
+the laptop. If it disagrees, report the numbers, do not adjust tolerances.
+
+## Does the engine process information?
+
+`sims_and_scripts/info_processing_sim.py` answers yes, concretely: each stage is
+applied as a quantum channel to a message qubit maximally entangled with a
+reference, and the information metrics (output entropy, coherent information,
+mutual information, and the full Choi process matrix) show all 16 stages doing
+DISTINCT information work. See figures/info_processing.png.
