@@ -136,6 +136,8 @@ SUITE = [
    ("contains", "PASS physics_bridge_sim")]),           # skips if qutip absent
  ("fluctuation_theorem_sim.py", 120, False, [
    ("contains", "PASS fluctuation_theorem_sim")]),      # numpy-only; Jarzynski+Crooks
+ ("quantum_speed_limit_sim.py", 120, False, [
+   ("contains", "PASS quantum_speed_limit_sim")]),      # numpy-only; QSL = finitude+noncommut
  ("flux_nesting_ablation_jax.py", 600, True, [
    ("approx", r'"total_chern_forward":\s*([0-9.]+)', 7.295389, 1e-3)]),
  ("manifold_build_ladder.py", 600, True, [
