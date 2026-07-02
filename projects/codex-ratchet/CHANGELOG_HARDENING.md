@@ -263,3 +263,13 @@ UP-21 NEW SIM  quantum_speed_limit_sim.py -- the engine's drive obeys the QSL, t
                <=> dE>0 <=> evolution (three equivalent); commuting H never moves; full
                orthogonality needs the state balanced across eigenstates (tilted H precesses
                part-way). numpy-only. Layer 16.4; harness 34 pass (constraintcore).
+
+
+# Holographic bound + decoherence scaling — 2026-07-02 (finitude & the classical boundary)
+UP-22 NEW SIM  holographic_bound_sim.py -- FINITUDE as the holographic/Bekenstein bound:
+               S(rho)<=log2(dim) (maximally-mixed saturates); Page-curve area law S(A)<=
+               min(|A|,|B|) on n=6 qubits (smaller boundary caps shared info). numpy-only. L16.5.
+UP-23 NEW SIM  decoherence_scaling_sim.py -- HOW FAST einselection wins: GHZ decoherence rate
+               ~2n (independent baths, linear) / ~2n^2 (collective, superdecoherence, exact).
+               The quantum->classical boundary is a scaling law. numpy+scipy. L16.6.
+               Harness 36 pass (constraintcore).
