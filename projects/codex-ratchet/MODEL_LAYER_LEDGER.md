@@ -380,6 +380,23 @@
                               gives full distinguishability. quantum_speed_limit_sim.py;
                               figures/quantum_speed_limit.png. numpy-only.
 
+16.5 Holographic / Bekenstein  EARNED. FINITUDE as the quantum kernel of the holographic
+     bound (finitude)          bound: a bounded region holds BOUNDED information. (1) capacity:
+                              S(rho) <= log2(dim) bits for ANY state; maximally-mixed saturates
+                              (S(I/2^n)=n). (2) area law / Page curve: random pure state on n=6
+                              qubits, subsystem entropy bounded by min(|A|,|B|) -- the smaller
+                              boundary caps shared information, peaking at the symmetric split;
+                              generic states near-maximally entangled. Finitude at whole-system
+                              AND subsystem level. holographic_bound_sim.py. numpy-only.
+16.6 Decoherence scaling       EARNED. HOW FAST einselection wins as the system grows -- the
+     (quantum->classical)      quantum->classical boundary as a SCALING LAW, not a threshold.
+                              n-qubit GHZ superposition: independent baths decohere at rate
+                              ~2n (LINEAR); collective bath at ~2n^2 (QUADRATIC super-
+                              decoherence, exact rate/n^2=2.000). Macroscopic n => decoheres
+                              essentially instantly => classical world. Extends bridge 16.2
+                              from WHICH states survive to HOW FAST. decoherence_scaling_sim.py;
+                              figures/holographic_decoherence.png. numpy+scipy.
+
 ################################################################################
 # THE OPEN ITEMS, CONSOLIDATED (what actually needs work, by priority)
 ################################################################################
