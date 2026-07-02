@@ -235,3 +235,13 @@ UP-18 NEW SIM  manifold_laws_smt_proof.py -- (1) 8-of-16 access law FORCED by th
                as a SYMBOLIC IDENTITY (sympy): eigs(rho(theta,phi))={p,1-p} for all angles,
                dS/dtheta=0 exactly -> entropy identically blind to Axis-2. Self-skips if
                z3/sympy absent. Layer 15.7-15.9; harness 31 pass (constraintcore).
+
+
+# Physics bridges — 2026-07-02 (established physics on the info<->physics seam)
+UP-19 NEW SIM  physics_bridge_sim.py -- the engine reproduces two pieces of confirmed physics
+               (NOT a ToE validation). (1) Landauer: dissipative terrains erase a bit; pure
+               limit saturates the bound (S:1->0, purity->1, bath >= kT ln2 = 2.87e-21 J@300K);
+               coherent drive only makes erasure partial. (2) Einselection: Ti z-dephasing
+               selects {|0>,|1>}, Te selects {|+>,|->}; pointer states ARE the purity-1 channel
+               fixed points -- "an attractor basin that selects for itself" as decoherence
+               physics. figures/physics_bridge.png. Self-skips if qutip absent. Layer 16.
