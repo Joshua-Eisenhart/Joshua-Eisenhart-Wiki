@@ -8,14 +8,23 @@ gauge-invariant under per-ket rephasing -- exactly what was needed.
 
   chi2(rho) = -arg( <r0|e><e|r1><r1|r0> ),  e = top eigenvector of rho, r0,r1 fixed references.
 
+*** GRADE CORRECTION (fourth audit, 2026-07-01; see chi2_decisive_test_sim.py and spec 7w). ***
+This sim earns chi2 as an EIGENVECTOR-SECTOR meter (properties A-C hold exactly). Property D
+below is DEMONSTRATED ON THE K-MIRROR PAIR (V vs V*, complex conjugation), NOT the a2
+direct/conjugated pair. chi2 responds to all three frame operations (a2: V-vs-I; eps:
+V-vs-Vdag; K: V-vs-V*) and is NOT a2-specific. The a2 bit is earned at the OPERATOR layer
+(spec 7t, W-covariance) and provably does not descend to a terrain-generator functional
+(spec 7w). Read "the frame bit" in property D as "the K-mirror bit". The math is unchanged.
+
 Verified properties:
   A. open-path (3 distinct states nonzero; closed/degenerate = 0) -- unlike holonomy.
   B. gauge-invariant under |psi> -> e^{i phi}|psi> (the phase gauge).
   C. two-sector orthogonality: chi2 tracks EIGENVECTORS, is constant under spectral change;
      entropy tracks the SPECTRUM, is blind to eigenvectors.
-  D. the Xi parity: chi2 reads the direct<->conjugated FRAME bit (V vs V*) that entropy cannot
-     see. Over 2000 random probes: entropy |direct-conj| < 1e-15 (blind); chi2 reads it on
-     99.7% (misses only the measure-zero set where the eigenvector hits a reference pole).
+  D. chi2 reads the V-vs-V* (K-MIRROR) frame operation that entropy cannot see. Over 2000
+     random probes: entropy |V-vs-V*| < 1e-15 (blind); chi2 reads it on 99.7% (misses only
+     the measure-zero set where the eigenvector hits a reference pole). NOTE: this is the
+     K-pair, not the a2 pair -- chi2 is a sector meter, not a2-specific (see header).
 
 scratch_diagnostic; promotion_allowed=false. Requires: numpy, scipy.
 """
