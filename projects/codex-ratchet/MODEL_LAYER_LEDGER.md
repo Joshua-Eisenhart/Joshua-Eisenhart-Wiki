@@ -234,6 +234,25 @@
                               full trajectory space; this is its memory-bearing use.
 
 ################################################################################
+# LAYER 13 — LEARNING (holodeck prediction-first / active inference, pure QIT)
+################################################################################
+13.1 Free-energy prediction    EARNED. Belief meets observation; free energy F=S(obs||belief)
+     loop                       (Umegaki quantum relative entropy, bits -- NO classical math)
+                              is minimized by moving the belief toward the observation. F drops
+                              monotonically 2.62 -> ~0. This is the perception half of FEP.
+13.2 Learning (stationary)     EARNED. Belief stored between observations in the Hill projective
+                              memory cell (Layer 12); repeated exposure to one environment cuts
+                              surprise ~99% (0.426 -> 0.004 bits). Genuine learning, not filtering.
+13.3 Memory-capacity boundary  EARNED. A SINGLE cell learns a stationary (k=1) environment to
+                              near-zero surprise but CANNOT learn a k>=2 cycling sequence
+                              (residual ~0.4 bits). Quantified limitation, not a failure.
+13.4 3-qubit register learns   EARNED. Using the extra qubits as a context/address register
+     sequences                 (4 memory slots), the engine learns k=2,3,4 sequences to <0.05
+                              bits. => an INDEPENDENT, DERIVED reason for the model's 3-qubit
+                              floor: it upgrades the holodeck from single memory to SEQUENCE
+                              memory. holodeck_sim.py; figures/holodeck.png.
+
+################################################################################
 # THE OPEN ITEMS, CONSOLIDATED (what actually needs work, by priority)
 ################################################################################
 O1  [CLOSED 2026-07-01] 5.6 — why exactly 2 native operators per terrain.
@@ -249,7 +268,8 @@ O3  [DONE 2026-07-01] 10.5 — 16-stage contract lifted to 3 qubits (C^8). Genui
 O4  [DECISION]   6.6 — the two-64s tension. Owner-only.
 O5  [INTERP]     9.6/9.7 — Axis-0 parity is instrumented at the operator layer; a terrain-local
                  a2 meter is a proven no-go, so the terrain-level interpretation stays candidate.
-O6  [PARTIAL]    holodeck/FEP memory: the PRECURSOR is now built (Layer 12 -- projective
-                 memory cells, spinor phase memory, memory/compute tradeoff, trajectories).
-                 Full holodeck (prediction-first perception loop) + FEP active-inference
-                 integration + Lev wiring remain ahead. Entropic-monism cosmology still fenced.
+O6  [MOSTLY DONE] holodeck/FEP memory: memory substrate (Layer 12) AND the prediction-first
+                 active-inference learning loop (Layer 13) are now built in pure QIT --
+                 free-energy minimization, stationary learning (99%), and the 3-qubit
+                 register learning sequences. STILL AHEAD: Lev wiring (feed the engine's
+                 belief/surprise into the Leviathan graph) and entropic-monism cosmology (fenced).
