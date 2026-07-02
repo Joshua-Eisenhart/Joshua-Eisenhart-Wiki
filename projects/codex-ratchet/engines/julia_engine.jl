@@ -1,22 +1,58 @@
 # julia_engine.jl -- the 16-stage engine in Julia (fourth independent route).
+# DEPENDENCY-FREE: uses only stdlib LinearAlgebra + a tiny hand-rolled JSON reader/
+# writer, so it runs on ANY Julia install with no package registry, no ] add.
 #
 # Contract: reads engines/targets.json for model constants, emits
 # engines/julia_results.json in the shared schema; validate with
 # python3 validate_engines.py.
 #
-# Run:  julia --project=. julia_engine.jl        (needs JSON: ] add JSON)
-# Written against Julia 1.10; uses only LinearAlgebra (exp of dense matrix)
-# and JSON. Pure functions, exact rationals unnecessary here (float64 contract).
-# STATUS: authored in a sandbox without Julia; the FIRST laptop run of
-# validate_engines.py after this emits julia_results.json is its test. If it
-# disagrees with the oracle, that disagreement is a finding (CLAUDE.md rule 1).
-# scratch_diagnostic; promotion_allowed=false.
+# Run:  julia julia_engine.jl      (no packages needed)
+# Written against Julia 1.10; column-stacking vec convention matches the numpy/
+# jax/torch engines exactly. scratch_diagnostic; promotion_allowed=false.
 
 using LinearAlgebra
-using JSON
 
 const HERE = @__DIR__
-const C = JSON.parsefile(joinpath(HERE, "targets.json"))["model_constants"]
+
+# --- tiny JSON: pull the flat numeric model_constants block (no deps) ---
+function read_constants(path)
+    txt = read(path, String)
+    # grab the model_constants { ... } object
+    m = match(r"\"model_constants\"\s*:\s*\{([^}]*)\}", txt)
+    body = m.captures[1]
+    C = Dict{String,Any}()
+    for kv in eachmatch(r"\"(\w+)\"\s*:\s*(\[[^\]]*\]|-?[\d.eE+-]+)", body)
+        k = kv.captures[1]; v = kv.captures[2]
+        if startswith(v, "[")
+            C[k] = [parse(Float64, s) for s in split(strip(v, ['[',']']), ",")]
+        else
+            C[k] = parse(Float64, v)
+        end
+    end
+    return C
+end
+
+# --- tiny JSON writer for our specific output shape ---
+jnum(x) = (isinteger(x) && abs(x) < 1e15) ? string(Int(round(x))) : string(x)
+jarr(v) = "[" * join([jnum(x) for x in v], ",") * "]"
+function write_results(path, stages, terrains)
+    io = IOBuffer()
+    print(io, "{\"substrate\":\"julia\",\"stages\":[")
+    for (i,s) in enumerate(stages)
+        print(io, "{\"t\":", s[:t], ",\"op\":\"", s[:op], "\",\"bloch_down\":", jarr(s[:bd]),
+              ",\"bloch_up\":", jarr(s[:bu]), ",\"order_gap\":", s[:og], "}")
+        i < length(stages) && print(io, ",")
+    end
+    print(io, "],\"terrains\":[")
+    for (i,tr) in enumerate(terrains)
+        print(io, "{\"t\":", tr[:t], ",\"nonunital\":", tr[:nu], ",\"fixed_z\":", tr[:fz], "}")
+        i < length(terrains) && print(io, ",")
+    end
+    print(io, "]}")
+    open(path, "w") do f; write(f, String(take!(io))); end
+end
+
+const C = read_constants(joinpath(HERE, "targets.json"))
 const G, KAP, Q, TH, T_FLOW = C["G"], C["KAP"], C["Q"], C["TH"], C["T_FLOW"]
 const PROBE = C["PROBE"]
 
@@ -28,8 +64,8 @@ const sp = 0.5 * (sx + im * sy)
 const sm = 0.5 * (sx - im * sy)
 const H0 = (sx + sy + sz) / sqrt(3.0)
 
-sL(A) = kron(Matrix{ComplexF64}(I, 2, 2), A)          # rho -> A*rho on vec(rho) (column-stacking)
-sR(A) = kron(transpose(A), Matrix{ComplexF64}(I, 2, 2)) # rho -> rho*A
+sL(A) = kron(Matrix{ComplexF64}(I, 2, 2), A)
+sR(A) = kron(transpose(A), Matrix{ComplexF64}(I, 2, 2))
 sD(L) = sL(L) * sR(L') - 0.5 * (sL(L' * L) + sR(L' * L))
 sC(H) = -im * (sL(H) - sR(H))
 
@@ -62,8 +98,8 @@ function op_super(name)
     return sL(U) * sR(U')
 end
 
-vecr(rho) = reshape(transpose(rho), 4)      # match python column-stacking vec(rho)=rho.T.reshape(4)
-unvec(v) = transpose(reshape(v, 2, 2))
+vecr(rho) = reshape(rho, 4)        # Julia column-major = numpy column-stacking vec (rho.T.reshape)
+unvec(v) = reshape(v, 2, 2)
 bloch(rho) = [real(tr(rho * s)) for s in (sx, sy, sz)]
 
 function main()
@@ -71,25 +107,21 @@ function main()
     pv = vecr(probe)
     stages = []
     for t in 0:7, o in NATIVE[t]
-        Ts = terrain_super(t); Os = op_super(o)
-        flow = exp(T_FLOW * Ts)
+        flow = exp(T_FLOW * terrain_super(t)); Os = op_super(o)
         down = bloch(unvec(Os * (flow * pv)))
         up = bloch(unvec(flow * (Os * pv)))
-        push!(stages, Dict("t" => t, "op" => o, "bloch_down" => down, "bloch_up" => up,
-                           "order_gap" => norm(down - up)))
+        push!(stages, Dict(:t => t, :op => o, :bd => down, :bu => up,
+                           :og => norm(down - up)))
     end
     terrains = []
     for t in 0:7
         Ls = terrain_super(t)
         LI = unvec(Ls * vecr(I2))
         fp = unvec(exp(8.0 * Ls) * pv); fp /= real(tr(fp))
-        push!(terrains, Dict("t" => t, "nonunital" => Int(norm(LI) > 1e-9),
-                             "fixed_z" => real(tr(fp * sz))))
+        push!(terrains, Dict(:t => t, :nu => Int(norm(LI) > 1e-9),
+                             :fz => real(tr(fp * sz))))
     end
-    open(joinpath(HERE, "julia_results.json"), "w") do f
-        JSON.print(f, Dict("substrate" => "julia", "stages" => stages,
-                           "terrains" => terrains), 1)
-    end
+    write_results(joinpath(HERE, "julia_results.json"), stages, terrains)
     println("julia_results.json written (16 stages)")
 end
 
