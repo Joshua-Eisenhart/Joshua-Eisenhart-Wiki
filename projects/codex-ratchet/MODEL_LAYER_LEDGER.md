@@ -366,6 +366,20 @@
                               physics failure; fixing the time-reversed drive recovered the
                               law to Trotter tolerance (Crooks 3e-5; Jarzynski 3e-14). fluctuation_theorem_sim.py; fluctuation_theorem.png.
 
+16.4 Quantum speed limit       EARNED. The engine's unitary drive obeys the QSL -- the
+     (finitude + noncommutation) physical bound that ties the model's TWO CORE AXIOMS to
+                              dynamics. Minimum time to an orthogonal state (hbar=1):
+                              Levitin-Toffoli t_min=(pi/2)/max(dE,E-E0). (1) FINITUDE: the
+                              drive SATURATES the bound (ratio 0.999, grid-limited) at every
+                              energy; larger dE = faster (linearly). (2) NONCOMMUTATION:
+                              [H,rho]!=0 <=> dE>0 <=> the state EVOLVES (three equivalent
+                              conditions); a commuting H never moves (QSL=infinity). Full
+                              orthogonality ADDITIONALLY needs |psi0> balanced across H's
+                              eigenstates -- a tilted H evolves but only precesses part-way.
+                              So noncommutation gates MOTION, finitude bounds SPEED, balance
+                              gives full distinguishability. quantum_speed_limit_sim.py;
+                              figures/quantum_speed_limit.png. numpy-only.
+
 ################################################################################
 # THE OPEN ITEMS, CONSOLIDATED (what actually needs work, by priority)
 ################################################################################
