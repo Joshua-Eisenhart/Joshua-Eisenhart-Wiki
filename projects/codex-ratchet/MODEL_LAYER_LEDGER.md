@@ -177,7 +177,9 @@
                               with the RK4 oracle to 1e-6 on all 16 stages -> a genuine
                               two-METHOD cross-check (integration vs matrix-exp). This is
                               "engines running on the aligned substrate", verified this pass.
-10.3 PyTorch engine            EARNED (passes); re-verify on your hardware (complex128 path).
+10.3 PyTorch engine            EARNED, verified in-house 2026-07-01 (torch 2.12.1, CPU, complex128):
+                              1q AND 3q torch engines run here and agree with the oracle (no
+                              Bus error -- D2 was fable's environment, not the code).
 10.4 Julia engine              OPEN. Authored, never run (no Julia runtime here). The 3rd
                               independent route; run `julia julia_engine.jl` on your laptop.
 10.5 3-qubit / Cl(0,6) scale-up EARNED (O3, 2026-07-01). Contract RUN at 3 qubits (C^8 =
@@ -186,6 +188,24 @@
                               stages distinct (min 0.174); 8/8 fusion + 16/16 gaps preserved.
                               numpy RK4 oracle vs JAX exact-expm agree ~1e-12 across all 16
                               stages. STILL AHEAD: torch/Julia 3q engines (schema mirrors 1q).
+
+################################################################################
+# LAYER 11 — INFORMATION PROCESSING (does the engine actually RUN information?)
+################################################################################
+11.1 Each stage is a channel   EARNED. Every stage applied as a CPTP channel to a message
+                              qubit maximally entangled with a reference. All 16 have
+                              coherent information I_coh < 0 -> genuine open-system processors
+                              (they exchange information with the environment, not toy unitaries).
+11.2 Distinct information work  EARNED. Entropy injected S(channel|0>) spans 0.006 -> 0.991 bits
+                              across the 16 stages -- a wide, structured range, not the same op
+                              relabeled. (info_processing_sim.py; figures/info_processing.png)
+11.3 Full-channel identity     EARNED. The Choi/process matrix separates ALL 16 stages
+                              (min pairwise 0.277). Each stage is a distinct information processor.
+11.4 Two-sector signature      EARNED (and consistent with Layer 7/9). Scalar entropy metrics
+     shows up in information    COLLAPSE 5 Weyl-mirror pairs (e.g. t1:Ti==t5:Ti): entropy is
+                              blind to the chirality/phase sector; only the full channel (Choi)
+                              sees it. Same two-sector structure as Axis-0/Axis-2, now visible
+                              at the information-processing layer.
 
 ################################################################################
 # THE OPEN ITEMS, CONSOLIDATED (what actually needs work, by priority)
