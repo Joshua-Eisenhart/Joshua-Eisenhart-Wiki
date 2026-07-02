@@ -478,6 +478,26 @@
                               normalization -- both fixed, F=5/6 now exact and universal.
                               no_cloning_sim.py; figures/no_cloning.png. numpy-only.
 
+17.2 Bridge loopback ->        EARNED (with a finding). The Layer-16 physics/info bridges
+     terrain enrichment       loop BACK into the engine: each of the 8 terrains is a GKSL
+                              channel (the real engine objects), and the bridge observables
+                              characterize them -- ||L(I)|| (einselection/nonunitality),
+                              entropy-production rate (Landauer), coherence-kill rate
+                              (einselection), Holevo chi preserved (16.8). RESULT: the 8
+                              terrains sort into 3 MAX-DIFFERENTIATED dissipation classes --
+                              damp {t0,t2,t4,t6} non-unital ||L(I)||=sqrt2, lowest coherence-
+                              kill, highest chi; depol {t1,t5} middle; proj {t3,t7} highest
+                              kill, lowest chi. Ordering damp<depol<proj (coherence-kill) AND
+                              damp-unique-non-unital is FORCED: z3 AND cvc5 both SAT the law,
+                              both UNSAT an erased swapped-order control (three-engine contract
+                              satisfied -- SMT load-bearing, not decorative).
+                              FINDING: these density-level observables separate the 3 KINDS but
+                              NOT all 8 terrains individually -- within-class terrains are
+                              degenerate here because the eps/pole (Axis-1/Axis-2) signs are the
+                              documented density-level blindness (§7m). Full 8-way separation
+                              needs the spinor-level tooling. terrain_information_signature_sim.py;
+                              figures/terrain_information_signature.png. numpy+scipy+z3+cvc5.
+
 ################################################################################
 # THE OPEN ITEMS, CONSOLIDATED (what actually needs work, by priority)
 ################################################################################
