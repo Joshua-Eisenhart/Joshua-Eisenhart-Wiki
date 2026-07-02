@@ -314,3 +314,14 @@ UP-28 NEW SIM  no_cloning_sim.py -- no unitary copies an unknown state. Unitarit
                Buzek-Hillery UQCM constructed+measured F=5/6 constant (std 1e-16). Caught two
                bugs via construct-and-measure (malformed partial trace F>1; non-orthogonal
                branches). numpy-only. Layer 16.10. Harness 44 pass (constraintcore, full).
+
+
+# Bridge loopback -> terrain enrichment — 2026-07-02 (Layer 17.2, engine-deepening)
+UP-29 NEW SIM  terrain_information_signature_sim.py -- the Layer-16 bridges loop back onto the
+               real 8 terrain GKSL channels. Bridge observables (||L(I)||, entropy-prod rate,
+               coherence-kill rate, Holevo chi) sort terrains into 3 max-differentiated classes
+               damp<depol<proj; classification FORCED by z3 AND cvc5 (both SAT law, both UNSAT
+               erased control -- three-engine contract). FINDING: density-level observables
+               separate the 3 KINDS not all 8 terrains (eps/pole signs = documented density
+               blindness; 8-way needs spinor level). numpy+scipy+z3+cvc5. Layer 17.2.
+               Harness 45 pass (constraintcore, full).
