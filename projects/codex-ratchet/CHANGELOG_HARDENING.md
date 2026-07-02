@@ -155,3 +155,13 @@ UP-9 NEW SIM   info_processing_sim.py -- DOES the engine process information? Ea
                (distinct info work); the Choi matrix separates all 16 (min 0.277); scalar
                entropy metrics collapse 5 Weyl-mirror pairs (two-sector signature at the info
                layer). figures/info_processing.png. Added to harness (now 25 pass).
+
+
+# Memory layer — 2026-07-01 (spinor + holodeck precursor)
+UP-10 NEW SIM  memory_sim.py -- does the engine STORE/RECALL? Three mechanisms:
+               (1) memory cells: only projective-Si terrains t3/t7 retain a written z-bit
+               (margin 0.71/0.53 after 8 holds); dissipative/depolarizing erase to ~0.
+               (2) spinor phase memory: 360deg->sign -1, 720deg->+1, invisible at rho level.
+               (3) memory<->computation tradeoff: bit margin 0.00 (tau=1) -> 0.43 (tau=0.02);
+               compute hard=forget, compute gently=remember. figures/memory.png. Added to
+               harness (26 pass). Model ledger Layer 12; O6 holodeck now PARTIAL (precursor built).
