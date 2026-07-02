@@ -152,6 +152,8 @@ SUITE = [
    ("contains", "PASS data_processing_sim")]),          # numpy-only; DPI monotone (co-ratchet arrow)
  ("no_cloning_sim.py", 120, False, [
    ("contains", "PASS no_cloning_sim")]),               # numpy-only; no-cloning (store not copy)
+ ("terrain_information_signature_sim.py", 180, False, [
+   ("contains", "PASS terrain_information_signature_sim")]),  # z3+cvc5; bridges enrich the terrains
  ("flux_nesting_ablation_jax.py", 600, True, [
    ("approx", r'"total_chern_forward":\s*([0-9.]+)', 7.295389, 1e-3)]),
  ("manifold_build_ladder.py", 600, True, [
