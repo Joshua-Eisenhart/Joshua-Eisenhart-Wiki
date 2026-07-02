@@ -68,3 +68,22 @@ MP-5 EDITED    PURE_MATH_CORE P10 -> earned-as-sector-meter + a2 layer no-go;
 MP-6 ADDED     run_all.py guards for the instrument sim and the eps-even no-go.
 MP-7 ADDED     rosetta _audit_log_2026-07-01_fourth (fourth audit + §7w).
 Honest-failure and withdrawn-claim guards from H-4/H-11 all still hold.
+
+
+# Unified bundle — 2026-07-01 (reference docs added)
+UB-1 ADDED  reference_docs/ — key source material from the repos, so the bundle
+            is self-contained for a fresh thread with no repo access:
+            - engine_math/ (engine-math-reference, igt-pattern-explicit-math,
+              TERRAIN_LAW_LEDGER, QIT four-operator signed math, 64-schedule atlas)
+            - science_method/ (recursive-science-methodology, leviathan-science-
+              method-qit-engine-crosswalk, leviathan-v3.2 raw source) — the
+              bidirectional engine<->science-process mapping; deductive=inductive
+              reversed = the spec's UEUE/EUEU loop (§7l) / N01 order-sensitivity.
+            - holodeck/ (doctrine, projective memory model, QIT-FEP-Leviathan
+              integration, prediction-first processing) — the perception/memory lane.
+            reference_docs/README.md maps each file to the spec sections it sources.
+            These are SOURCE/SUPPORT tier (candidate/witness per their own front-
+            matter), not audited spec claims.
+UB-2 EDITED ORIENTATION.md LAYOUT section: added reference_docs/ + the hardening
+            infra files (CLAUDE.md, run_all.py, requirements.txt, CHANGELOG).
+Harness unchanged: 21 pass / 0 fail / 2 skip (jax) -> GREEN.
