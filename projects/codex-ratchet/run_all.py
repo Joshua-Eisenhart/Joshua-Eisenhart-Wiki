@@ -146,6 +146,8 @@ SUITE = [
    ("contains", "PASS chemistry_bridge_sim")]),         # numpy-only; Hubbard dimer covalent bond
  ("noncommutation_bounds_sim.py", 120, False, [
    ("contains", "PASS noncommutation_bounds_sim")]),    # numpy-only; entropic uncertainty + CHSH
+ ("holevo_bound_sim.py", 120, False, [
+   ("contains", "PASS holevo_bound_sim")]),             # numpy-only; accessible-info capacity
  ("flux_nesting_ablation_jax.py", 600, True, [
    ("approx", r'"total_chern_forward":\s*([0-9.]+)', 7.295389, 1e-3)]),
  ("manifold_build_ladder.py", 600, True, [
