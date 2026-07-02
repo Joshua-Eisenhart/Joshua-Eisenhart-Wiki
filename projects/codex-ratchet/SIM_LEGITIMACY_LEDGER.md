@@ -19,7 +19,7 @@ LEGIT — TIER A (exact, verified)
                                         All PASS at 1e-16. [one CONVENTION flag: r_y sign]
 2.  constraint_core_symbolic.py         T01 (1Q/2Q), N01 spine ranks, Hopf flux integral,
                                         b6 law symbolic. Exact.
-3.  nonunitality_theorem.py             8/8 fusion bit = 1[||L(I)||!=0]. Operators unital
+3.  nonunitality_theorem_sim.py         8/8 fusion bit = 1[||L(I)||!=0]. Operators unital
                                         (=0); source-locked terrains ||L(I)||=sqrt2 exact;
                                         basis-independent. Replaces a falsified metric test.
 4.  axis0_xor_sim.py                    Axis-0 = Axis-1 XOR Axis-2, exact vs repo operator
@@ -92,6 +92,15 @@ LEGIT BUT SCOPED — TIER C (correct within limits; watch the claim)
                                         Hamiltonian; DPI monotone). Correct; [SKIP in harness:
                                         long-running. Also the axis-0 GATE row is honest: Axis-0
                                         is a late object, terrain-local functionals don't split it.]
+27. axis0_gauge_breaking_sim.py         SCOPED. The headline "a2-physicality = k*delta, k~0.0787,
+                                        R^2=1" is WITHDRAWN — the delta-dissipation is a single
+                                        Kraus step, affine in delta by construction, so R^2=1 is an
+                                        algebraic identity, not a law. What SURVIVES and passes: the
+                                        delta=0 gauge degeneracy (the two unitary objects are the
+                                        IDENTICAL channel, 2.6e-16) and the qualitative co-ratchet
+                                        link (parity readable only once the entropy sector is on).
+                                        Runs GREEN in harness against the survived claims, not the
+                                        withdrawn one. Do not cite the linear law.
 
 ================================================================================
 NEEDS WORK — TIER D
@@ -134,8 +143,10 @@ D8. Fenced lanes (recorded, not built)  holodeck/FEP memory model and entropic-m
 ================================================================================
 BOTTOM LINE
 ================================================================================
-- 22/24 sims run GREEN in the harness (2 skip only for want of jax/long-run;
-  both verified out-of-harness). Every A/B sim is a real, reproduced result.
+- All 24 sims_and_scripts/ files are line-itemed above (Tier A: items 1-8 + engines
+  items 9-11 are the engines/ lane; Tier B: 12-22; Tier C: 23-27). 22/24 run GREEN in
+  the harness; the 2 skips (flux_nesting_ablation_jax, manifold_build_ladder) are jax/
+  long-run and were verified out-of-harness. Every A/B sim is a real, reproduced result.
 - The engines/ lane is the real advance: the 16-stage contract now runs on a
   pure-functional JAX kernel that AGREES with the numpy oracle by an independent
   method (exact expm vs RK4). That is "engines running, unique computation per
