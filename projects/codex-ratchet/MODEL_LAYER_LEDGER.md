@@ -291,6 +291,33 @@
                               engine side is ready, the world/action model lives in Lev).
 
 ################################################################################
+# LAYER 15 — FORMAL PROOF LANE (the laws are FORCED, not fitted; Z3 ∧ cvc5 ∧ QuTiP)
+################################################################################
+15.1 Dual-solver axis laws     EARNED. Prior sims VERIFIED laws by enumeration ("all 8
+                              terrains satisfy b6=-b0*b3"). This proves the stronger claim:
+                              given the independently-earned physical bits, the laws are the
+                              UNIQUE satisfying model -- their negation is UNSAT. Proven the
+                              SAME way in Z3 AND cvc5, both agree (contract rule: z3 & cvc5
+                              must agree). axis_laws_dual_proof.py.
+15.2 XOR is the unique law     EARNED. Axis-0 = Axis-1 XOR Axis-2 is not just consistent -- it
+                              is the UNIQUE 2-input boolean function g with a0=g(a1,a2) across
+                              all 4 families, and it IS xor exactly. No other g fits.
+15.3 Erased control flips      EARNED (the contract's "controls that flip it"). Erasing the Ni
+                              constraint makes the XOR law NON-unique in both solvers -- proving
+                              the constraint is load-bearing, not decorative. A claim whose
+                              control does NOT flip would be vacuous.
+15.4 b6 genuinely bilinear     EARNED. b6=-b0*b3: the coefficient is uniquely forced to -1, and
+                              NO linear law b6=a*b0+b*b3+g fits any assignment. Same non-linear-
+                              separability signature as the XOR result (a product, not a sum).
+15.5 QuTiP operator cross-check EARNED. QuTiP's standard Lindblad liouvillian reproduces the
+                              hand-rolled terrain superoperators to 2.2e-16 across all 8; all 8
+                              flows are CPTP (QuTiP Choi PSD); nonunitality bits [1,0,1,0,1,0,1,0]
+                              confirmed independently. terrain_qutip_crosscheck.py. A 5th
+                              independent route (QIT library) at the operator level.
+15.6 Portability               Both sims self-SKIP if z3/cvc5/qutip absent (import guard ->
+                              SKIP_OPTIONAL, exit 0); harness counts as skip. GREEN on any machine.
+
+################################################################################
 # THE OPEN ITEMS, CONSOLIDATED (what actually needs work, by priority)
 ################################################################################
 O1  [CLOSED 2026-07-01] 5.6 — why exactly 2 native operators per terrain.
