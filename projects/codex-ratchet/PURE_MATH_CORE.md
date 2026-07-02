@@ -111,20 +111,19 @@ either the model's conjugation element is (or contains) W — then the pair
 assignment is a covariance theorem — or the assignment remains an external
 labelling. This is a lookup in the source operator table, not a new sim.
 
-**P10 — the open-path readout. [earned at frame level; spec §7v]**
-Build a functional χ₂ of a state, evaluated on a non-closed path segment, whose
-value equals the eigenvector-sector bit of P3, against references not acted on
-by the conjugation. Closed loops are excluded (their invariants are
-conjugation-blind by P2/P3). CONSTRUCTED: χ₂ = −arg(⟨r₀|e⟩⟨e|r₁⟩⟨r₁|r₀⟩), the
-Bargmann/Pancharatnam open-path phase of the top eigenvector e against two fixed
-references r₀,r₁. Verified exact: open-path (nonzero) vs closed (0);
-gauge-invariant under per-ket rephasing; two-sector orthogonal (tracks
-eigenvectors, constant under spectral change, entropy the reverse). Verified
-empirical: reads the direct↔conjugated frame bit (V vs V*) on 99.7% of 2000
-random probes while entropy is blind (9×10⁻¹⁶); the frame bit is a genuine
-operation, not the discarded label read-off. Combined with the spectral bit per
-P4, this completes the parity readout AT THE FRAME LEVEL. Residual open item: the
-terrain-level a2 bit (P9's fork), distinct from this.
+**P10 — the phase-sector meter and the layer of a2. [earned as sector meter; a2 resolved as a layer statement; spec §7v–§7w]**
+An open-path functional χ₂ (Bargmann/Pancharatnam phase of the top eigenvector
+against fixed references, on a non-closed segment) is an earned eigenvector-sector
+meter: nonzero open / zero closed, gauge-invariant under rephasing, tracks
+eigenvectors at fixed spectrum while entropy tracks the spectrum. It is NOT
+a2-specific — it responds to all three binary frame operations (a2: V-vs-I; ε:
+V-vs-V†; K: V-vs-V*); the §7v demonstration read the K-mirror pair. The
+terrain-level a2 readout does not exist and cannot: the ε-even quotient of χ₂ reads
+the a1 dynamics bit, not a2 (finite check over the 8 generators), and W conjugates
+the four operators into their a2-partners exactly (9×10⁻¹⁶) but does NOT conjugate
+the terrain generators (residual ≈2.05). a2 is therefore an OPERATOR-layer label
+(P9/§7t), one level above the terrain generators; the parity P4 reads end-to-end at
+the operator layer and is carried, not measured, at the terrain layer.
 
 # C. The rosetta layer (labels; NONE load-bearing; several overlays per object)
 
@@ -133,7 +132,7 @@ terrain-level a2 bit (P9's fork), distinct from this.
 | ε ∈ {±1} | eps | Left/Right engine | I/E chirality, Type-1/2 | Weyl sheet, chirality | earned (P7) |
 | 𝟙[L(I) ≠ 0] | a1 | dissipative/unitary terrain split | {Se,Ni} vs {Ne,Si} | entropy charge, Axis-1 | earned (P6) |
 | conjugation by V_s | a2 | direct/conjugated frame | {Se,Ne} vs {Ni,Si} | gauge charge, Axis-2 | earned (P2,P3) |
-| a1 ⊕ a2 | p | perceiving split | N vs S | Axis-0 parity | earned as identity (P4); frame-level readout earned (P10, §7v); terrain-level open (P9) |
+| a1 ⊕ a2 | p | perceiving split | N vs S | Axis-0 parity | earned as identity (P4); operator-layer readout earned (P10/§7t); terrain-layer readout a no-go (§7w) |
 | generator instances t0–t7 | t0..t7 | Funnel, Vortex, Pit, Hill, Cannon, Spiral, Source, Citadel | Se/Ne/Ni/Si ×2 | terrains, basins | earned (fingerprints) |
 | Pz, Px, Rx, Rz | Ti, Te, Fi, Fe | judging operators | Ti/Te/Fi/Fe | pinchings, rotations | earned (A3) |
 | pair map W | — | native-operator law mechanism | I/E judging alternation | "Hadamard" | candidate (P9) |
@@ -158,6 +157,6 @@ document is the correction.
    claim strengthens: irreducibility is now proved, not measured.
 4. §7s: replace "structural theorem 16/16" with the two-tier P7.
 5. §7q/§7r native-operator law: resolve P9's fork against the source table.
-6. Open queue: P10 is now earned at the frame level (§7v). The remaining open
-   item is the terrain-level a2 bit — P9's admissibility/conjugation fork
-   (neither V nor W conjugates the terrain generators; residuals 1.4–2.0).
+6. Open queue: P10 is resolved (χ₂ earned as sector meter; a2 realized at the
+   operator layer, a no-go at the terrain layer — §7w). Remaining: the P9
+   admissibility derivation (why exactly 2 operators per terrain, from C1–C3).
