@@ -10,3 +10,8 @@ jax>=0.4
 z3-solver
 cvc5
 qutip
+
+# Optional: unlocks 5 dependency-conditional sims (SMT proofs, qutip crosscheck, physics bridges)
+z3-solver>=4.13
+cvc5>=1.2
+qutip>=5.0
