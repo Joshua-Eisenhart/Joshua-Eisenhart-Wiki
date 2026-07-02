@@ -37,6 +37,15 @@ skipped automatically if jax is absent; that is still GREEN.
    - the flat "16/16 access theorem" of §7s (the earned form is two-tier:
      exact on the 8 dephasing stages, 14/16 under a chirality-neutral probe,
      16/16 only with the sheet Hamiltonian adopted into the loop definition);
+   - "χ₂ is closed / Axis-0 reads end-to-end" (§7v — overclaim; χ₂ is earned
+     only as a general eigenvector-sector meter. The "V vs V*" demonstration
+     read the K-mirror pair, not the a2 pair; the terrain-level decisive test
+     fails 2/8–6/8 with ε-contaminated phases. See the §7v audit flag.);
+   - "Axis-0 = Axis-1 ⊕ Axis-2, exactly (earned)" (§7m — status is
+     ADMISSIBLE CANDIDATE, not identity: the proven direction is parity ⇒
+     single readouts fail; the converse has never been tested because the
+     parity has never been read. Do not upgrade §7m's status until a
+     charge-specific χ₂ passes the terrain-level test.);
    - "the §7q null supports fusion" (a null cannot; fusion is settled by the
      containment split + W-covariance §7t, not by the metric null).
 4. **Sims are pure math. No labels in code.** Structural indices only
@@ -54,14 +63,19 @@ skipped automatically if jax is absent; that is still GREEN.
      §7r's `16 = 8×2` native stages (which makes 64 = 16 stages × 4
      sub-stages, with 48 combos inadmissible). Incompatible counts; flagged
      in the spec; the owner decides.
-   - the terrain-level direct/conjugated bit (a2 on terrains): realized by
-     NEITHER V nor W at generator level (§7u); currently rests on the source
-     table. Finding its generator-level invariant is open work, not a lookup.
-   - χ₂ (the open-path eigenvector-sector readout): CLOSED at the frame level
-     (§7v, chi2_openpath_readout_sim.py) — the Bargmann open-path phase reads
-     the direct↔conjugated frame bit on 99.7% of probes; entropy blind. Closed
-     loops provably fail (that part stands). The remaining open item is now the
-     terrain-level a2 bit above, not χ₂.
+   - the terrain-level direct/conjugated bit (a2 on terrains): RESOLVED as a
+     layer statement (§7w). a2 is realized exactly at the OPERATOR layer (§7t,
+     W-covariance) and provably does NOT descend to a terrain-generator
+     observable: the ε-even quotient of χ₂ reads the a1 dynamics bit (finite
+     check over the 8 generators), and W conjugates the operators but not the
+     generators (residual ≈2.05). Do not re-open this as "find the terrain
+     meter" — the no-go is the result. What remains genuinely open below.
+   - the charge-specific χ₂ at the TERRAIN layer: a no-go (§7w). χ₂ stays an
+     earned eigenvector-sector meter, not a2-specific — do not relabel it
+     "closed as an a2 meter". §7m therefore reads end-to-end only at the
+     operator layer; keep its terrain-layer status ADMISSIBLE CANDIDATE.
+   - the P9 admissibility derivation: why exactly 2 operators per terrain
+     (from C1–C3). Still open — a derivation, not a lookup.
 7. **Comparisons are tolerance-based, never `==`** on floats. Claim grades per
    spec §8: promotable rows need `symbolic_identity` / `closed_form` /
    `finite_exhaustive` routes; float tolerance is `diagnostic_float_nonclaim`.
