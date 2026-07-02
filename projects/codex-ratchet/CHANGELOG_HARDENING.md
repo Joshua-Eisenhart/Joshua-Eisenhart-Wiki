@@ -139,3 +139,19 @@ UP-5 SCALED   O3 (was open): the 16-stage engine contract lifted to 3 qubits (C^
 UP-6 NORMALIZED  wiki layout: all 25 sims consolidated under sims_and_scripts/, engines/
               lane pushed (was absent on wiki), 20 flat root duplicates removed. Public
               repo now mirrors the zip layout.
+
+
+# Full-usage pass — 2026-07-01 (3 substrates verified in-house + info-processing)
+UP-7 VERIFIED  PyTorch run IN-HOUSE for the first time (torch 2.12.1, CPU, complex128):
+               both 1q and 3q torch engines execute here and validate against the numpy
+               oracle. No "Bus error" -> D2 was fable's environment, not the code. Three
+               independent routes now confirmed at BOTH scales: numpy RK4 oracle, JAX exact
+               expm, PyTorch matrix_exp. 3q agreement ~1e-12 across all 16 stages (63-dim
+               Pauli). Julia remains the 4th route (laptop-only; no runtime in sandbox).
+UP-8 ADDED     torch_engine_3q.py (3q PyTorch route). validate_engines_3q now GREEN on jax+torch.
+UP-9 NEW SIM   info_processing_sim.py -- DOES the engine process information? Each stage as a
+               CPTP channel on a message qubit entangled with a reference. Result: all 16 are
+               open-system processors (I_coh<0); entropy injection spans 0.006..0.991 bits
+               (distinct info work); the Choi matrix separates all 16 (min 0.277); scalar
+               entropy metrics collapse 5 Weyl-mirror pairs (two-sector signature at the info
+               layer). figures/info_processing.png. Added to harness (now 25 pass).
