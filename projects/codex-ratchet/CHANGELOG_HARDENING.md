@@ -325,3 +325,11 @@ UP-29 NEW SIM  terrain_information_signature_sim.py -- the Layer-16 bridges loop
                separate the 3 KINDS not all 8 terrains (eps/pole signs = documented density
                blindness; 8-way needs spinor level). numpy+scipy+z3+cvc5. Layer 17.2.
                Harness 45 pass (constraintcore, full).
+
+
+# Terrain-signature SMT correction — 2026-07-02 (audit fix)
+FIX  terrain_information_signature_sim.py -- replaced the pinned-constant SMT (bind measured
+     rates to z3.RealVal, compare inequalities = dressed-up float compare) with a GENUINE
+     combinatorial forcing check: solver searches c:8->{0,1,2} (3^8), full law UNSAT to any
+     second partition (partition unique/forced), erased control SAT to an alternative. z3+cvc5
+     agree. Verdict now depends on a real search, not a pre-computed comparison. Harness 45 pass.
