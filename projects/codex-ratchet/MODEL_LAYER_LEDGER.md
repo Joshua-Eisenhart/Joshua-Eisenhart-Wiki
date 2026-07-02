@@ -398,6 +398,36 @@
                               figures/holographic_decoherence.png. numpy+scipy.
 
 ################################################################################
+# LAYER 17 -- THE BRIDGE LADDER (constraint core -> the natural sciences)
+################################################################################
+# Owner's directive: build bridges from the constraint core outward, most-reasonable first:
+#   math foundations -> physics -> chemistry -> biochemistry -> evolution -> consciousness.
+# Each bridge REPRODUCES established, quantitative, confirmed science from the engine's own
+# axioms (noncommutation, finitude, distinguishability). NOT ToE validation -- external
+# grounding: the model must agree with nature wherever nature already has an answer.
+#
+#   MATH FOUNDATIONS  DONE  -- proof lane (Layer 15) + repo v7 root-axiom sims (a=a iff a~b,
+#                             distinguishability quotient 1q-4q, noncommutation/GNVW floors).
+#   PHYSICS           DONE  -- Layer 16, six bridges (Landauer, einselection, Jarzynski/Crooks,
+#                             QSL, holographic, decoherence scaling).
+#   CHEMISTRY         17.1 (this rung).
+#   BIOCHEMISTRY      proposed next.
+#   EVOLUTION         proposed.
+#   CONSCIOUSNESS     proposed (the model's holodeck/FEP layer already gestures at this).
+#
+17.1 Chemistry: the chemical  EARNED. The HUBBARD DIMER -- minimal exactly-solvable covalent
+     bond (Hubbard dimer)     bond, the "H2 molecule" of quantum chemistry -- derived from the
+                              engine's axioms. (0) NONCOMMUTATION -> fermionic {c_i,c_j^dag}=
+                              delta_ij (Jordan-Wigner, signs exact to 0) = PAULI EXCLUSION.
+                              (1) ground state is a SPIN SINGLET (S^2=0) at every U/t, forced
+                              by antisymmetry; E_gs matches the exact analytic singlet
+                              (U-sqrt(U^2+16t^2))/2 to 1e-6. (2) the BOND IS ENTANGLEMENT:
+                              S(site1)>0 for all U -- 2 bits at U=0 (charge+spin) -> 1 bit at
+                              U>>t (pure spin, Heitler-London). (3) COVALENT->IONIC crossover:
+                              double occupancy 0.25->0 as U/t grows (Mott limit).
+                              chemistry_bridge_sim.py; figures/chemistry_bridge.png. numpy-only.
+
+################################################################################
 # THE OPEN ITEMS, CONSOLIDATED (what actually needs work, by priority)
 ################################################################################
 O1  [CLOSED 2026-07-01] 5.6 — why exactly 2 native operators per terrain.
