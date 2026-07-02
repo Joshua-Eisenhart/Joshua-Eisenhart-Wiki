@@ -108,8 +108,17 @@ The full formal spec is spec_and_reports/CONSTRAINT_CORE_FORMAL_SPEC.md (v28).
 7. LAYOUT
 ================================================================================
   ORIENTATION.md            - this file
-  spec_and_reports/         - the full spec (v28), consolidated guide, methods report
+  CLAUDE.md                 - agent contract (hard rules, withdrawn-claims list, open-decision fence)
+  CHANGELOG_HARDENING.md    - hardening + merge history
+  run_all.py                - deterministic verification harness (python run_all.py [--fast])
+  requirements.txt          - numpy/scipy/sympy required; jax optional; matplotlib excluded
+  spec_and_reports/         - the full spec + PURE_MATH_CORE ledger, consolidated guide, methods report
   figures/                  - all result figures (PNG)
   sims_and_scripts/         - standalone pure-math sims
   data_json/                - per-result data + rosetta_layer.json
   inputs/                   - the Personality spreadsheet (drift-prone; left unexpanded)
+  reference_docs/           - KEY SOURCE MATERIAL from the repos (see reference_docs/README.md):
+                              engine_math/ (the 4 operators, 16 placements, terrain law, 64-schedule),
+                              science_method/ (bidirectional engine<->science; deductive=inductive reversed;
+                              Leviathan v3.2 source + crosswalk), holodeck/ (prediction-first perception/memory).
+                              These are the substrate the spec formalizes — source/support tier, not audited.
