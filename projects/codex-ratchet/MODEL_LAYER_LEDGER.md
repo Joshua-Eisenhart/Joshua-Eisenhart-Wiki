@@ -464,6 +464,20 @@
                               under the dissipative flow. data_processing_sim.py;
                               figures/data_processing.png. numpy-only.
 
+16.10 No-cloning theorem      EARNED. Linearity + finitude forbid copying an unknown state --
+      (store, not copy)        the reason memory STORES but cannot DUPLICATE, and why the DPI
+                              (16.9) is un-cheatable (you cannot copy-then-process to beat it).
+                              (1) unitarity needs <a|b>=<a|b>^2, so |<a|b>| in {0,1}: only
+                              ORTHOGONAL or IDENTICAL states clonable (copyable iff classically
+                              distinct, a=a iff a~b). (2) CNOT basis-cloner: F=1 on |0>,|1> but
+                              F=0.5 (entangled mess) on |+> -- no universal cloner. (3) the
+                              Buzek-Hillery UQCM CONSTRUCTED and MEASURED: F=5/6 for EVERY input
+                              (std 1e-16), finitude caps duplication below 1. Two bugs caught
+                              by construct-and-measure (not hardcoding 5/6): a malformed partial
+                              trace gave F>1, and non-orthogonal cloner branches broke
+                              normalization -- both fixed, F=5/6 now exact and universal.
+                              no_cloning_sim.py; figures/no_cloning.png. numpy-only.
+
 ################################################################################
 # THE OPEN ITEMS, CONSOLIDATED (what actually needs work, by priority)
 ################################################################################
