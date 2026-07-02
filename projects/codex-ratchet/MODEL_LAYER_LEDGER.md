@@ -316,6 +316,22 @@
                               independent route (QIT library) at the operator level.
 15.6 Portability               Both sims self-SKIP if z3/cvc5/qutip absent (import guard ->
                               SKIP_OPTIONAL, exit 0); harness counts as skip. GREEN on any machine.
+15.7 8-of-16 access law        EARNED (Z3). Given the sheet law (t <-> t+4 opposite Weyl
+                              chirality eps=+-1), the accessible-stage split is FORCED to 8/8 --
+                              any non-4/4 terrain chirality is UNSAT. Left {t0-t3}/Right {t4-t7}
+                              disjoint, union 16. manifold_laws_smt_proof.py.
+15.8 pole-mirror pairing       EARNED with a logged FINDING. The dissipative pairs' fixed_z
+                              sum to ~0, BUT zero-sum ALONE is degenerate -- (0,2)(4,6) and
+                              (0,4)(2,6) both zero-sum (near-equal |fixed_z|). The pole-mirror
+                              pairing (0,4)(2,6) is forced ONLY by zero-sum AND cross-sheet
+                              (in<->out) together. Documented, not overclaimed -- exactly the
+                              kind of near-degeneracy the proof lane exists to catch.
+15.9 two-sector theorem        EARNED as a SYMBOLIC IDENTITY (sympy, exact -- not 2e-15).
+                              Entropy is a function of eigenvalues only: eigs of rho(theta,phi)
+                              = {p,1-p} for ALL eigenvector angles, and dS/dtheta = 0 exactly.
+                              Entropy is IDENTICALLY blind to Axis-2 (the eigenvector/frame
+                              sector) -- the exact reason every entropy readout collapsed to
+                              Axis-1. The strongest possible form of the two-sector claim.
 
 ################################################################################
 # THE OPEN ITEMS, CONSOLIDATED (what actually needs work, by priority)
