@@ -117,6 +117,9 @@ SUITE = [
    ("contains", "all 16 open-system processors (I_coh<0 for all): True"),
    ("contains", "all 16 distinct channels: True"),
    ("contains", "PASS info_processing_sim")]),
+ ("memory_sim.py", 180, False, [
+   ("contains", "720  deg: spinor overlap +1.0000"),
+   ("contains", "PASS memory_sim")]),
  ("flux_nesting_ablation_jax.py", 600, True, [
    ("approx", r'"total_chern_forward":\s*([0-9.]+)', 7.295389, 1e-3)]),
  ("manifold_build_ladder.py", 600, True, [
