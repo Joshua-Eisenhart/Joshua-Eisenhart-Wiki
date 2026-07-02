@@ -130,6 +130,8 @@ SUITE = [
    ("contains", "PASS axis_laws_dual_proof")]),        # skips if z3/cvc5 absent
  ("terrain_qutip_crosscheck.py", 120, False, [
    ("contains", "PASS terrain_qutip_crosscheck")]),     # skips if qutip absent
+ ("manifold_laws_smt_proof.py", 120, False, [
+   ("contains", "PASS manifold_laws_smt_proof")]),      # skips if z3/sympy absent
  ("flux_nesting_ablation_jax.py", 600, True, [
    ("approx", r'"total_chern_forward":\s*([0-9.]+)', 7.295389, 1e-3)]),
  ("manifold_build_ladder.py", 600, True, [
