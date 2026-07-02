@@ -254,6 +254,23 @@
                               memory. holodeck_sim.py; figures/holodeck.png.
 
 ################################################################################
+# LAYER 14 — LEVIATHAN BRIDGE (world-engine output interface; stub, foundations-up)
+################################################################################
+14.1 Signal-stream contract    EARNED (stub). The engine exposes ONE thing to a Lev graph:
+                              a per-tick record {belief_bloch, surprise_bits, fe_gradient}.
+                              The graph never sees the density matrix -- only the stream.
+14.2 Surprise as control       EARNED. surprise_bits is near-zero on a predictable world
+     signal                    (0.006), spikes on a regime shift (1.50), decays as the engine
+                              relearns (0.03). Usable for Lev attention/novelty/when-to-act.
+                              (lev_bridge_sim.py; engines/lev_bridge_stream.json)
+14.3 Adapter surface           EARNED. LevBridge: .tick(obs)->record + .subscribe(cb). Minimal
+                              edge a graph node wraps. reference_docs/QIT_LEV_BRIDGE_SPEC.md.
+14.4 DEFERRED (needs live repo) mapping belief onto concrete Lev node types; routing surprise
+                              into Lev's priority mechanism; the reverse action edge (minimize
+                              EXPECTED free energy -- the action half of active inference; the
+                              engine side is ready, the world/action model lives in Lev).
+
+################################################################################
 # THE OPEN ITEMS, CONSOLIDATED (what actually needs work, by priority)
 ################################################################################
 O1  [CLOSED 2026-07-01] 5.6 — why exactly 2 native operators per terrain.
@@ -269,8 +286,9 @@ O3  [DONE 2026-07-01] 10.5 — 16-stage contract lifted to 3 qubits (C^8). Genui
 O4  [DECISION]   6.6 — the two-64s tension. Owner-only.
 O5  [INTERP]     9.6/9.7 — Axis-0 parity is instrumented at the operator layer; a terrain-local
                  a2 meter is a proven no-go, so the terrain-level interpretation stays candidate.
-O6  [MOSTLY DONE] holodeck/FEP memory: memory substrate (Layer 12) AND the prediction-first
-                 active-inference learning loop (Layer 13) are now built in pure QIT --
-                 free-energy minimization, stationary learning (99%), and the 3-qubit
-                 register learning sequences. STILL AHEAD: Lev wiring (feed the engine's
-                 belief/surprise into the Leviathan graph) and entropic-monism cosmology (fenced).
+O6  [MOSTLY DONE] holodeck/FEP memory + Lev bridge: memory (Layer 12), active-inference
+                 learning (Layer 13), and the QIT->Lev signal-stream bridge STUB (Layer 14)
+                 are built in pure QIT. STILL AHEAD: wire the bridge to the LIVE leviathan
+                 repo (concrete node mapping + reverse action edge) and entropic-monism
+                 cosmology (fenced). The engine side of active inference is ready; the
+                 world/action model lives in Lev.
