@@ -206,3 +206,22 @@ UP-14 VERIFIED Installed the Julia 1.10.5 runtime IN THE SANDBOX and ran julia_e
                Made the Julia engines DEPENDENCY-FREE (hand-rolled JSON, no registry / no ] add).
                Wired both into run_all engines lane (reports "...+julia GREEN" when julia is on
                PATH). Julia runtime archived as an artifact so it survives workspace sweeps.
+
+
+# Formal proof lane — 2026-07-02 (laws FORCED, not fitted; aligned tools installed)
+UP-15 TOOLS    Read the 3-engine dependency contract and installed the aligned Python-lane
+               tools it names: z3-solver + cvc5 (SMT proof pair), qutip (QIT library), plus
+               quimb/cotengra/diffrax/optax/sympy/mpmath. Julia package registry remains
+               blocked by sandbox TLS interception (pkg.julialang.org connects but the
+               re-signed cert is unparseable by Julia's downloader) -> Julia engine stays
+               dependency-free (LinearAlgebra); the strict-carrier Julia packages are a
+               laptop-side TODO.
+UP-16 NEW SIM  axis_laws_dual_proof.py -- the axis laws are FORCED (SMT), proven in Z3 AND
+               cvc5 with agreement, WITH an erased control that flips the verdict (drop the Ni
+               constraint -> XOR uniqueness breaks). Proves: (1) Axis-0=Axis-1 XOR Axis-2 is the
+               UNIQUE boolean law and IS xor; (2) b6=-b0*b3 uniquely bilinear, no linear law
+               fits. Satisfies the contract's "z3 & cvc5 agree with erased controls that flip".
+UP-17 NEW SIM  terrain_qutip_crosscheck.py -- QuTiP (standard Lindblad) reproduces the hand-
+               rolled terrain superoperators to 2.2e-16 across all 8 terrains, confirms all 8
+               CPTP (Choi PSD) and the nonunitality bits. 5th independent route at operator level.
+               Both sims self-skip if tools absent (portable). Layer 15; harness 30 pass (constraintcore).
