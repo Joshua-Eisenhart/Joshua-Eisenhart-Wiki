@@ -793,10 +793,7 @@ $$ 64 = \underbrace{2}_{\text{engines (L/R)}} \times
 > native-operator law (§7q/§7t) licenses only 2 operators per terrain, i.e.
 > `16 = 8×2` legal stages, under which `64 = 16 stages × 4 sub-stages` and the
 > other 48 pairings are *inadmissible addresses*, not unused ones. The two
-> readings of 64 are incompatible as stated. The schedule sim runs all
-> pairings (and its 11/64 collapse result is about that full set); the stage
-> layer (§7r) uses the 16 legal stages. Which reading is canonical is an
-> owner decision recorded here so it is not resolved by pattern-matching.
+> readings of 64 are incompatible as stated; the owner decides which is canonical.
 
 **The four judging operators are exact quantum channels on `M₂(ℂ)`** (verified
 CPTP + correct fixed algebra, `engine_64_schedule_sim.py`):
@@ -1232,18 +1229,20 @@ Reading a *basis* requires a reference to read it against — which is precisely
 repo insists Axis-0 needs a bipartite cut-state `ρ_AB`**: register B supplies the
 reference frame for register A's basis.
 
-**4. Bridge status — both sectors now instrumented (χ₂ closed in §7v).** The Ξ bridge is
-characterized as a **two-output, two-sector map**: `χ₁` = entropy charge (eigenvalue sector,
-purity sign — **works**), `χ₂` = phase charge (eigenvector sector — **now closed at the frame
-level, §7v**), `Axis-0 = χ₁·χ₂`. A *closed-loop* geometric phase (Berry/Pancharatnam) does
-**not** serve as `χ₂`: a closed loop is itself gauge-invariant (`H₀` and `V†H₀V` have identical
-spectra), so it is blind to the frame. *(A prototype that scored 4/4 by assigning `χ₂` from the
-known frame bit was circular and is discarded — recording it as a caution: any readout that
-reproduces the label without measuring it is not a bridge.)* The piece that was unearned — a
-**relational, open-path phase observable** (`A` read against a reference `B` the gauge does not
-rotate, on a non-closed segment) — is **built and validated in §7v**: the Bargmann/Pancharatnam
-open-path phase reads the direct↔conjugated frame bit on 99.7% of random probes while entropy is
-blind (`9×10⁻¹⁶`). The residual open item is now specifically the *terrain-level* a2 bit (§7u).
+**4. Bridge status — entropy sector solved; phase sector instrumented but a2 lives at the
+operator layer.** The Ξ bridge is a **two-output, two-sector map**: `χ₁` = entropy charge
+(eigenvalue sector, purity sign — **works**), `χ₂` = phase charge (eigenvector sector), with
+`Axis-0 = χ₁·χ₂`. The `χ₂` story resolved in two steps. First (§7v) an **open-path**
+Bargmann/Pancharatnam phase was built and shown to be a genuine **eigenvector-sector meter**:
+nonzero on an open segment while a *closed* loop is gauge-invariant (`H₀` and `V†H₀V` share a
+spectrum) and therefore blind. *(An earlier prototype that scored 4/4 by assigning `χ₂` from
+the known frame bit was circular and is discarded.)* Then (§7v fourth-audit flag, §7w) it was
+shown that `χ₂` is **not a2-specific** — it responds to all three binary operations on the
+frame element (a2: V-vs-I; ε: V-vs-V†; K: V-vs-V\*), and its terrain-generator readout tracks
+the a1 dynamics bit, not a2. The direct/conjugated (a2) bit is earned **exactly, but at the
+operator layer** (§7t, W-covariance); it provably does not descend to a terrain-generator
+observable (§7w). So the parity `Axis-0 = a1 ⊕ a2` reads end-to-end at the **operator layer**;
+at the terrain layer it is carried, not measured.
 
 > **Model recommendation.** Axis-0's bridge is not a functional to be discovered but a
 > **two-sector instrument to be built**: an entropy meter (have it) and a relational phase
@@ -1772,7 +1771,7 @@ is the frame," which the two-layer resolution retired.
 
 ---
 
-## 7v. χ₂ closed — the open-path phase readout for the eigenvector sector
+## 7v. χ₂ — the open-path phase readout for the eigenvector sector (earned as a sector meter; see the grade-correction flag below and §7w)
 
 *(The last genuinely open item at this layer. §7n proved Axis-0's parity needs both charges
 read; χ₁ (entropy) read cleanly, but χ₂ (the eigenvector-sector phase charge) had no working
@@ -1809,14 +1808,83 @@ from a **genuine operation** (`V` vs `V*`, complex conjugation of the frame elem
 a label: this is *not* the circular "read χ₂ off the assignment" that an earlier audit
 correctly flagged.
 
-> **Model recommendation.** **χ₂ is closed at the current layer.** The two-sector theorem of
-> §7n now has both meters: χ₁ = entropy charge (eigenvalue sector, already earned), χ₂ =
-> Bargmann open-path phase (eigenvector sector). Together they instrument the full `Axis-0 =
-> Axis-1 ⊕ Axis-2` parity of §7m at the **frame** level. This retires the last open item at
-> this layer; the residual gap is now specifically the **terrain-level** a2 bit (§7u:
-> generator-map residuals `1.4–2.0`), which is a distinct, sharper question. Grade: the
+> **Model recommendation.** *(Superseded in scope by the grade-correction flag immediately
+> below and by §7w — read those first.)* **χ₂ is an earned eigenvector-sector meter.** The
+> two-sector theorem of §7n now has both meters: χ₁ = entropy charge (eigenvalue sector,
+> already earned), χ₂ = Bargmann open-path phase (eigenvector sector). But χ₂ is **not
+> a2-specific** — the fourth audit showed the demonstration read the K-mirror pair, and §7w
+> shows the a2 (direct/conjugated) bit is realized at the **operator layer** (§7t), not at the
+> terrain-generator layer. So the `Axis-0 = Axis-1 ⊕ Axis-2` parity of §7m reads end-to-end at
+> the **operator layer**; the terrain-level a2 bit (§7u generator-map residuals `1.4–2.0`) is
+> resolved in §7w as a no-go, not an open meter. Grade: the
 > open-path/gauge-invariance/two-sector properties are exact identities; the 99.7% frame-read
 > is an empirical robustness result over random probes.
+
+> **[AUDIT FLAG 2026-07-01 — grade correction from the fourth audit; χ₂ is NOT closed as an
+> a2 meter.]** Two findings, machine-verified (`chi2_decisive_test_sim.py`):
+> (i) **The `V` vs `V*` pair is the K-mirror pair, not the model's a2 pair.** `V* = K(V)`
+> (complex conjugation; `H₀* = (σx−σy+σz)/√3`, the y-flipped axis). Three distinct binary
+> operations exist on the frame element — a2 (`V` vs `I`), ε (`V` vs `V†`), and K (`V` vs
+> `V*`) — and χ₂ responds to **all three** (mean discriminations 0.94 / 1.13 / 1.51) while
+> entropy is blind to all three. χ₂ is therefore an earned **eigenvector-sector meter**, but
+> it is not **charge-specific**: the §7v demonstration read the K-pair while labelling it the
+> a2 bit — a third conflation of the kind §7u just resolved for V/W.
+> (ii) **The decisive terrain-level test fails with this instrument.** Applying the
+> non-circular pair (χ₁ = 𝟙[‖L(I)‖=0] per §7q's non-unitality theorem; χ₂ = trajectory
+> Bargmann phase sign) across the 8 terrain generators: `sign(χ₁)⊕sign(χ₂)` matches the
+> `{Ne,Ni}|{Se,Si}` target on only **2/8** (6/8 under the opposite sign convention; neither is
+> a readout). The failure is structural, not statistical: the Bargmann phase is
+> **ε-contaminated** (sheet-sensitive — e.g. `t1 = +0.510` vs its mirror `t5 = −0.000`),
+> while the N/S target is ε-even. Per §7m's own falsification fork this outcome is the third
+> branch: **the test is not yet decisive because the instrument lacks charge-specificity.**
+> Consequences: §7m remains **admissible candidate** (not "exact/earned" — the parity has
+> still never been read); the sharpened open item replacing "build χ₂" is: **construct an
+> ε-even (K-invariant), a2-specific eigenvector functional** — a meter covariant under
+> `V`-vs-`I` while invariant under the K-mirror and the sheet sign. The rosetta's
+> "χ₂ earned" tier should read "earned as sector meter; a2-specificity open".
+
+---
+
+## 7w. The terrain-level a2 bit — resolved as a layer statement, not a missing meter
+
+The fourth audit (§7v flag) sharpened the open item to: *construct an ε-even,
+a2-specific eigenvector functional* that reads the direct/conjugated bit off the eight
+terrain generators. This section reports that attempt and its resolution
+(`eps_even_a2_specificity_sim.py`).
+
+**The ε-contamination is removable.** Symmetrizing the open-path phase over each terrain's
+ε-mirror, `φ̄(t) = ½[φ(t) + φ(mirror(t))]`, produces an exactly ε-even functional — the
+mirror pairs `t0/t4, t1/t5, t2/t6, t3/t7` collapse onto identical values to machine
+precision (`|diff| = 0`). So the sheet-sensitivity the audit flagged is not an obstruction
+in itself; it can be quotiented out.
+
+**But the ε-even functional still does not separate a2.** After ε-symmetrization the
+*direct* terrains (`a2=0`: t0,t1,t4,t5) occupy the range `[0.107, 0.255]` and the
+*conjugated* terrains (`a2=1`: t2,t3,t6,t7) occupy `[0.106, 0.418]` — the ranges **overlap**
+(t3,t7 at 0.106 fall *below* t0,t4 at 0.107). Removing the ε-charge exposes what the phase
+magnitude actually tracks: the **dynamics type** (damping / depolarizing / projective =
+the a1 non-unitality bit of §7q), not the direct/conjugated frame bit.
+
+**Why — and where a2 does live.** The reason is structural, and it closes the item rather
+than leaving it open. The direct↔conjugated bit **is** realized exactly — by the Hadamard
+`W` of §7t — but at the **operator layer**: `‖W·Ti·W − Te‖ = 9×10⁻¹⁶` (W conjugates the four
+judging operators into their a2-partners). It does **not** descend to the terrain generators:
+`‖W·L(tᵢ)·W − L(a2-partner)‖ ≈ 2.05` (mean over the four a2-pairs), matching the §7u
+generator-map residuals `1.46–1.95`. So a2 is an **operator-layer label**, one level above the
+terrain-generator flows. No terrain-generator functional can read it — not because we have
+not found the right meter, but because a2 is not a terrain-generator property.
+
+> **Model recommendation.** The terrain-level a2 open item is **resolved as a layer
+> statement**: a2 is earned at the operator layer (§7t, W-covariance, exact) and is provably
+> *not* a terrain-generator observable (any ε-even generator functional reads a1, and W
+> conjugates operators but not generators). This upholds the fourth audit's grade — χ₂ stays
+> an **earned eigenvector-sector meter, not a2-specific** — and converts "build an ε-even
+> a2-specific terrain functional" from an open construction into a **no-go with a located
+> home**. §7m's parity `Axis-0 = a1 ⊕ a2` therefore reads end-to-end only when a2 is taken at
+> its native operator layer; at the terrain layer the parity is carried, not measured. Grade:
+> the ε-evenness and the operator-vs-terrain split are exact identities; the non-separation is
+> a finite-exhaustive check over the eight generators. `§7m` remains **admissible candidate**
+> at the terrain layer and **instrumented** at the operator layer.
 
 ---
 
