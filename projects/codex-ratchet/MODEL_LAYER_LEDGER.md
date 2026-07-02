@@ -525,6 +525,26 @@
                                 comparison. terrain_8way_separation_sim.py;
                                 figures/terrain_8way_separation.png. numpy+scipy+z3+cvc5.
 
+17.4 Co-ratchet + 7-axis     EARNED. DRIVES THE RATCHET DEEPER (owner directive: entropy
+     orthogonality lattice       constrained to the terrains; 2 signed operators on axes 5,6;
+                                orthogonal relations across all axes; loop the bridges back).
+                                THREE results, all grounded in AXIS_3_4_5_6_QIT_MATH.md + spec 7m:
+                                (A) CO-RATCHET -- entropy is constrained to the terrain surface.
+                                Each terrain's native entropy = coherence in ITS pointer basis
+                                (z direct / x conjugated). Under its OWN Axis-5 T-operator this
+                                falls monotonically to 0 (einselection 16.2, DPI 16.9); a FOREIGN
+                                T-op only plateaus (0.28, fails to einselect); a FOREIGN F-op PUMPS
+                                it back up (+0.39). Entropy is not a global functional -- it runs
+                                on each terrain's own surface. (B) TWO SIGNED OPERATORS on axes 5,6:
+                                Ax5 T-kernel dS=+0.16 (entropy-producing) vs F-kernel dS=0 exact
+                                (unitary, entropy-neutral); Ax6 sign b6=-(b0*b3) op-first/terrain-
+                                first. (C) 7-AXIS ORTHOGONALITY LATTICE: 5 primitive DOF
+                                (b1,b2,b3,b4,b5) jointly free (all 2^5=32 realizable = mutually
+                                orthogonal); 2 derived (b0=b1*b2, b6=-(b0*b3)) FORCED -- z3 AND
+                                cvc5 both UNSAT the derived-law negation, both SAT after erasing a
+                                law (axis freed). coratchet_axis_orthogonality_sim.py;
+                                figures/coratchet_axis_orthogonality.png. numpy+scipy+z3+cvc5.
+
 ################################################################################
 # THE OPEN ITEMS, CONSOLIDATED (what actually needs work, by priority)
 ################################################################################
