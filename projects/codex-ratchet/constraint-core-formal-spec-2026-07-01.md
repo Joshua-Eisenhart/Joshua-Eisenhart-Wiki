@@ -788,6 +788,16 @@ $$ 64 = \underbrace{2}_{\text{engines (L/R)}} \times
         \underbrace{8}_{\text{terrains } (4\text{ topo}\times 2\text{ flux})} \times
         \underbrace{4}_{\text{judging operators}}. $$
 
+> **[AUDIT FLAG 2026-07-01 — PENDING OWNER DECISION, do not silently resolve.]**
+> This `64 = 2×8×4` treats every terrain×operator pairing as runnable. The
+> native-operator law (§7q/§7t) licenses only 2 operators per terrain, i.e.
+> `16 = 8×2` legal stages, under which `64 = 16 stages × 4 sub-stages` and the
+> other 48 pairings are *inadmissible addresses*, not unused ones. The two
+> readings of 64 are incompatible as stated. The schedule sim runs all
+> pairings (and its 11/64 collapse result is about that full set); the stage
+> layer (§7r) uses the 16 legal stages. Which reading is canonical is an
+> owner decision recorded here so it is not resolved by pattern-matching.
+
 **The four judging operators are exact quantum channels on `M₂(ℂ)`** (verified
 CPTP + correct fixed algebra, `engine_64_schedule_sim.py`):
 
@@ -1222,16 +1232,18 @@ Reading a *basis* requires a reference to read it against — which is precisely
 repo insists Axis-0 needs a bipartite cut-state `ρ_AB`**: register B supplies the
 reference frame for register A's basis.
 
-**4. Bridge status — one sector solved, one open.** The Ξ bridge is now characterized as
-a **two-output, two-sector map**: `χ₁` = entropy charge (eigenvalue sector, purity sign —
-**works**), `χ₂` = phase charge (eigenvector sector — **open**), `Axis-0 = χ₁·χ₂`. A
-closed-loop geometric phase (Berry/Pancharatnam) does **not** serve as `χ₂`: a closed
-loop is itself gauge-invariant (`H₀` and `V†H₀V` have identical spectra), so it is blind
-to the frame. *(A prototype that scored 4/4 by assigning `χ₂` from the known frame bit was
-circular and is discarded — recording it as a caution: any readout that reproduces the
-label without measuring it is not a bridge.)* The specific unearned piece is a
-**relational, open-path phase observable** — `A` entangled with a reference `B` the gauge
-does not rotate, evolved on a non-closed segment, read as the `A`–`B` relative phase.
+**4. Bridge status — both sectors now instrumented (χ₂ closed in §7v).** The Ξ bridge is
+characterized as a **two-output, two-sector map**: `χ₁` = entropy charge (eigenvalue sector,
+purity sign — **works**), `χ₂` = phase charge (eigenvector sector — **now closed at the frame
+level, §7v**), `Axis-0 = χ₁·χ₂`. A *closed-loop* geometric phase (Berry/Pancharatnam) does
+**not** serve as `χ₂`: a closed loop is itself gauge-invariant (`H₀` and `V†H₀V` have identical
+spectra), so it is blind to the frame. *(A prototype that scored 4/4 by assigning `χ₂` from the
+known frame bit was circular and is discarded — recording it as a caution: any readout that
+reproduces the label without measuring it is not a bridge.)* The piece that was unearned — a
+**relational, open-path phase observable** (`A` read against a reference `B` the gauge does not
+rotate, on a non-closed segment) — is **built and validated in §7v**: the Bargmann/Pancharatnam
+open-path phase reads the direct↔conjugated frame bit on 99.7% of random probes while entropy is
+blind (`9×10⁻¹⁶`). The residual open item is now specifically the *terrain-level* a2 bit (§7u).
 
 > **Model recommendation.** Axis-0's bridge is not a functional to be discovered but a
 > **two-sector instrument to be built**: an entropy meter (have it) and a relational phase
