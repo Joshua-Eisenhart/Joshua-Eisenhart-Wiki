@@ -352,6 +352,19 @@
                               "an attractor basin that selects for itself" in decoherence
                               language -- selection built into the constraint, not added.
                               physics_bridge_sim.py; figures/physics_bridge.png. (QuTiP.)
+16.3 Jarzynski + Crooks        EARNED. The engine's UNITARY drive obeys the nonequilibrium
+     fluctuation theorems      fluctuation theorems -- the exact generalization of the
+                              Szilard/Landauer bound to ARBITRARY driving speed. Two-point
+                              measurement on a driven qubit (thermal -> measure -> drive Hi->Hf
+                              -> measure): <e^{-bW}> = e^{-b dF} to 3e-14 at EVERY tau
+                              (fast=far-from-eq, slow=near); Crooks P_F(W)/P_R(-W)=e^{b(W-dF)}
+                              across all work bins (Trotter-limited 3e-5); <W> >= dF always
+                              (dissipated work W_diss drops 0.183->0.110 as the drive slows).
+                              Chosen with a GENUINE dF=-0.793 so the equality is nontrivial.
+                              FINDING (logged): the first Crooks pass FAILED at the tails --
+                              a reverse-protocol bug (measured Hf but drove from Hi), NOT a
+                              physics failure; fixing the time-reversed drive recovered the
+                              exact law. fluctuation_theorem_sim.py; fluctuation_theorem.png.
 
 ################################################################################
 # THE OPEN ITEMS, CONSOLIDATED (what actually needs work, by priority)
