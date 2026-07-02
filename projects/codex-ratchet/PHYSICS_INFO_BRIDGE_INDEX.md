@@ -5,6 +5,20 @@ Ten confirmed physics/information results reproduced from the constraint core's 
 grounding: the model agrees with nature wherever nature already has an answer. Every sim is
 numpy/scipy-only and runs in the harness (constraintcore full: 44 pass).
 
+
+## [AUDIT FLAG 2026-07-02 — attribution correction (sixth audit)]
+These ten results are theorems of the INSTALLED CARRIER (the C^2/C^8 Hilbert-space
+QIT realization, admitted as a candidate under U-1), not derivations from
+F01/N01/T01 alone. The axioms did not produce Tsirelson 2sqrt2 or F=5/6; standard
+finite-dimensional QM did, and the realization layer IS standard QM by
+construction. What Layer 16/17 EARNS is therefore realization faithfulness: the
+encoded carrier is bug-free standard QIT (two real encoding bugs were caught by
+exactly this discipline) and hence inherits QIT's empirical record. What it does
+NOT earn: external grounding for the constraint framework itself — that would
+require the axioms to select this carrier uniquely (U-1, open) or a prediction
+that differs from standard QM. The line "reproduced from the constraint core's
+own axioms" should be read with this flag attached.
+
 ## The architecture (not a flat list)
 
 These ten are NOT independent. The DATA-PROCESSING INEQUALITY (16.9) is the spine:
