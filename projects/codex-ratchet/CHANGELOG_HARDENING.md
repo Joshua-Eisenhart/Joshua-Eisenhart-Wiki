@@ -273,3 +273,12 @@ UP-23 NEW SIM  decoherence_scaling_sim.py -- HOW FAST einselection wins: GHZ dec
                ~2n (independent baths, linear) / ~2n^2 (collective, superdecoherence, exact).
                The quantum->classical boundary is a scaling law. numpy+scipy. L16.6.
                Harness 36 pass (constraintcore).
+
+
+# Chemistry bridge — 2026-07-02 (Layer 17.1, the bridge ladder begins)
+UP-24 NEW SIM  chemistry_bridge_sim.py -- the chemical bond from the axioms via the Hubbard
+               dimer. Fermionic {c,c^dag}=delta (Pauli exclusion) exact; ground state a spin
+               singlet (S^2=0) with E=(U-sqrt(U^2+16t^2))/2; bond IS entanglement (S(site1)
+               2b->1b); covalent->ionic crossover (docc 0.25->0). numpy-only. Layer 17.1.
+               Opens Layer 17 (bridge ladder: math->physics->chemistry->biochem->evolution->
+               consciousness). Harness 40 pass (constraintcore, full).
