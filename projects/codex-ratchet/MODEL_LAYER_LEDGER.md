@@ -169,7 +169,8 @@
                               consistent with 9.4 (Axis-0 is late, not terrain-local).
 
 ################################################################################
-# LAYER 10 — SUBSTRATE ENGINES (aligned compute: JAX / Julia / PyTorch)
+# LAYER 10 — SUBSTRATE ENGINES (aligned compute: numpy oracle + JAX + PyTorch + Julia,
+#            all four verified in-house at 1q and 3q)
 ################################################################################
 10.1 numpy RK4 oracle          EARNED. The 16-stage contract (targets.json): min pairwise
                               0.0276, 16/16 order gaps > 0, nonunital bits [1,0,1,0,1,0,1,0].
@@ -180,14 +181,23 @@
 10.3 PyTorch engine            EARNED, verified in-house 2026-07-01 (torch 2.12.1, CPU, complex128):
                               1q AND 3q torch engines run here and agree with the oracle (no
                               Bus error -- D2 was fable's environment, not the code).
-10.4 Julia engine              OPEN. Authored, never run (no Julia runtime here). The 3rd
-                              independent route; run `julia julia_engine.jl` on your laptop.
+10.4 Julia engine              EARNED, verified in-house 2026-07-02 (Julia 1.10.5). Installed
+                              the Julia runtime in the sandbox and RAN julia_engine.jl +
+                              julia_engine_3q.jl. Both agree with the numpy oracle: 1q min-dist
+                              0.0276 (matches jax/torch); 3q worst pvec dev 9.89e-13 on C^8.
+                              FINDING (CLAUDE.md rule 1): the first run DISAGREED (min-dist
+                              0.096) -- Julia is column-major, so the original
+                              reshape(transpose(rho),4) did NOT match numpy's column-stacking
+                              vec. Fixed to reshape(rho,4)/reshape(v,2,2); disagreement resolved.
+                              A real convention bug the 4th route caught before the laptop did.
+                              Made DEPENDENCY-FREE (hand-rolled JSON) so it needs no registry.
 10.5 3-qubit / Cl(0,6) scale-up EARNED (O3, 2026-07-01). Contract RUN at 3 qubits (C^8 =
                               Cl(0,6) spinor dim). Genuinely multi-qubit (ZZ coupling -> max
                               negativity 0.038>0, non-factorizing); 63-dim Pauli readout; 16
                               stages distinct (min 0.174); 8/8 fusion + 16/16 gaps preserved.
                               numpy RK4 oracle vs JAX exact-expm agree ~1e-12 across all 16
-                              stages. STILL AHEAD: torch/Julia 3q engines (schema mirrors 1q).
+                              stages. All four substrates (numpy/JAX/PyTorch/Julia) now
+                              verified in-house at BOTH 1q and 3q.
 
 ################################################################################
 # LAYER 11 — INFORMATION PROCESSING (does the engine actually RUN information?)
@@ -287,7 +297,8 @@ O1  [CLOSED 2026-07-01] 5.6 — why exactly 2 native operators per terrain.
                  DERIVED from C2 (same-basis pairs commute exactly -> forbidden;
                  2 cross-basis survivors are W-conjugates, terrain frame picks one).
                  admissibility_two_operator_sim.py. No longer open.
-O2  [RUN]        10.4 — run the Julia engine (3rd substrate); report numbers if it disagrees.
+O2  [DONE 2026-07-02] 10.4 — Julia engine RUN in-house (4th substrate); caught + fixed a
+                 column-major vec-convention bug, now agrees with the oracle at 1q and 3q.
 O3  [DONE 2026-07-01] 10.5 — 16-stage contract lifted to 3 qubits (C^8). Genuinely
                  multi-qubit (ZZ coupling, max negativity 0.038>0, not factorizing); readout
                  = 63-dim Pauli-expectation vector; 16 stages distinct (min pairwise 0.174);
