@@ -161,8 +161,14 @@ def run_engines_lane():
         r = _run([sys.executable, eng])
         if r.returncode == 0:
             ran.append(eng.split("_")[0])
+    # Julia (4th route) if a julia binary is on PATH -- dependency-free engine
+    import shutil as _sh
+    if _sh.which("julia") and os.path.exists(os.path.join(ENG, "julia_engine.jl")):
+        rj = _run(["julia", "julia_engine.jl"])
+        if rj.returncode == 0:
+            ran.append("julia")
     if not ran:
-        return "SKIP", "oracle ok; no substrate engine importable (jax/torch) on this machine"
+        return "SKIP", "oracle ok; no substrate engine importable (jax/torch/julia) on this machine"
     v = _run([sys.executable, "validate_engines.py"])
     if v.returncode != 0:
         return "FAIL", "validate_engines.py non-zero: " + (v.stdout + v.stderr)[-300:]
@@ -179,6 +185,10 @@ def run_engines_lane():
             r3 = _run([sys.executable, eng])
             if r3.returncode == 0:
                 ran3.append(eng.split("_")[0])
+    if _sh.which("julia") and os.path.exists(os.path.join(ENG, "julia_engine_3q.jl")):
+        rj3 = _run(["julia", "julia_engine_3q.jl"])
+        if rj3.returncode == 0:
+            ran3.append("julia")
     if not ran3:
         return "PASS", detail_1q + "; 3q oracle ok, no 3q substrate importable"
     v3 = _run([sys.executable, "validate_engines_3q.py"])
