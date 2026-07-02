@@ -134,6 +134,8 @@ SUITE = [
    ("contains", "PASS manifold_laws_smt_proof")]),      # skips if z3/sympy absent
  ("physics_bridge_sim.py", 120, False, [
    ("contains", "PASS physics_bridge_sim")]),           # skips if qutip absent
+ ("fluctuation_theorem_sim.py", 120, False, [
+   ("contains", "PASS fluctuation_theorem_sim")]),      # numpy-only; Jarzynski+Crooks
  ("flux_nesting_ablation_jax.py", 600, True, [
    ("approx", r'"total_chern_forward":\s*([0-9.]+)', 7.295389, 1e-3)]),
  ("manifold_build_ladder.py", 600, True, [
