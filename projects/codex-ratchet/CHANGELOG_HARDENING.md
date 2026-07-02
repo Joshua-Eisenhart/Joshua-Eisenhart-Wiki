@@ -185,3 +185,12 @@ UP-12 NEW SIM  lev_bridge_sim.py + QIT_LEV_BRIDGE_SPEC.md -- the engine as a sig
                the engine relearns -- a usable control signal for Lev attention/action. Pure QIT.
                Deliberately NOT coupled to live Lev internals yet (foundations-up). Added to
                harness (28 pass). Layer 14; O6 bridge stub done, live wiring + action edge ahead.
+
+
+# Action half / closed loop — 2026-07-01 (running world-engine)
+UP-13 NEW SIM  agent_loop_sim.py -- the CLOSED active-inference loop. Adds the ACTION half:
+               pick the action minimizing EXPECTED free energy G = risk - epistemic_value
+               (pure QIT). Perception+action closed: from a world opposite the goal (goal_dist
+               1.37) the agent drives it to preference (goal_dist <0.01, world_z +0.85) and holds
+               it -- it ACTS to make the world match its model. figures/agent_loop.png. Added to
+               harness (29 pass). Layer 13.5. Reverse edge Layer 14 deferred, done engine-side.
