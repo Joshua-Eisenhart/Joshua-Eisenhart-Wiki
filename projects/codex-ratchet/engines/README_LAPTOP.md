@@ -102,3 +102,20 @@ applied as a quantum channel to a message qubit maximally entangled with a
 reference, and the information metrics (output entropy, coherent information,
 mutual information, and the full Choi process matrix) show all 16 stages doing
 DISTINCT information work. See figures/info_processing.png.
+
+
+## Julia — 4th substrate, now verified in-house (2026-07-02)
+
+Julia 1.10.5 was installed in the sandbox and julia_engine.jl / julia_engine_3q.jl RAN
+and validated against the numpy oracle: 1q min-dist 0.0276 (matches jax/torch), 3q worst
+pvec dev 9.89e-13 on C^8. So ALL FOUR routes (numpy RK4 oracle, JAX exact-expm, PyTorch
+matrix_exp, Julia stdlib exp) now agree at both scales.
+
+FINDING (CLAUDE.md rule 1, worth keeping): the FIRST Julia run DISAGREED (1q min-dist
+0.096). Cause: Julia is column-major, so the original `reshape(transpose(rho),4)` did not
+reproduce numpy's column-stacking `vec(rho)=rho.T.reshape(4)`. Fixed to `reshape(rho,4)` /
+`reshape(v,2,2)`. This is exactly the kind of cross-substrate convention bug the 4th route
+exists to catch -- and it caught it before the laptop did.
+
+The Julia engines are DEPENDENCY-FREE (hand-rolled JSON reader/writer, stdlib LinearAlgebra
+only) -- they run on any Julia with no `] add`, no registry. Just `julia julia_engine.jl`.
