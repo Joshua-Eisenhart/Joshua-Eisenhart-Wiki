@@ -306,3 +306,11 @@ UP-27 NEW SIM  data_processing_sim.py -- information only decreases under any ch
                chain DPI I(A:C)<=I(A:B); ZERO violations across 400 random CPTP channels each.
                The directional monotone einselection/Landauer/Holevo descend from. numpy-only.
                Layer 16.9. Harness 43 pass (constraintcore, full).
+
+
+# No-cloning theorem — 2026-07-02 (Layer 16.10, store not copy)
+UP-28 NEW SIM  no_cloning_sim.py -- no unitary copies an unknown state. Unitarity needs
+               <a|b>=<a|b>^2 (orthogonal/identical only); CNOT cloner F=1 on basis, 0.5 on |+>;
+               Buzek-Hillery UQCM constructed+measured F=5/6 constant (std 1e-16). Caught two
+               bugs via construct-and-measure (malformed partial trace F>1; non-orthogonal
+               branches). numpy-only. Layer 16.10. Harness 44 pass (constraintcore, full).
