@@ -225,3 +225,13 @@ UP-17 NEW SIM  terrain_qutip_crosscheck.py -- QuTiP (standard Lindblad) reproduc
                rolled terrain superoperators to 2.2e-16 across all 8 terrains, confirms all 8
                CPTP (Choi PSD) and the nonunitality bits. 5th independent route at operator level.
                Both sims self-skip if tools absent (portable). Layer 15; harness 30 pass (constraintcore).
+
+
+# Proof lane extended — 2026-07-02 (three more manifold laws forced)
+UP-18 NEW SIM  manifold_laws_smt_proof.py -- (1) 8-of-16 access law FORCED by the sheet law
+               (Z3: any non-8/8 split UNSAT); (2) pole-mirror pairing (0,4)(2,6) forced by
+               zero-sum AND cross-sheet -- with the logged FINDING that zero-sum ALONE is
+               degenerate (2 matchings zero-sum; near-equal |fixed_z|); (3) two-sector theorem
+               as a SYMBOLIC IDENTITY (sympy): eigs(rho(theta,phi))={p,1-p} for all angles,
+               dS/dtheta=0 exactly -> entropy identically blind to Axis-2. Self-skips if
+               z3/sympy absent. Layer 15.7-15.9; harness 31 pass (constraintcore).
