@@ -194,3 +194,15 @@ UP-13 NEW SIM  agent_loop_sim.py -- the CLOSED active-inference loop. Adds the A
                1.37) the agent drives it to preference (goal_dist <0.01, world_z +0.85) and holds
                it -- it ACTS to make the world match its model. figures/agent_loop.png. Added to
                harness (29 pass). Layer 13.5. Reverse edge Layer 14 deferred, done engine-side.
+
+
+# Julia substrate live in-house — 2026-07-02 (4th route; a real finding)
+UP-14 VERIFIED Installed the Julia 1.10.5 runtime IN THE SANDBOX and ran julia_engine.jl +
+               julia_engine_3q.jl (the 4th independent route, the user's aligned choice).
+               FINDING (CLAUDE.md rule 1): first run DISAGREED with the oracle (1q min-dist
+               0.096) -- Julia is column-major, so reshape(transpose(rho),4) mismatched numpy's
+               column-stacking vec. Fixed to reshape(rho,4)/reshape(v,2,2). After the fix all
+               four substrates agree: 1q min-dist 0.0276, 3q worst pvec dev 9.89e-13 on C^8.
+               Made the Julia engines DEPENDENCY-FREE (hand-rolled JSON, no registry / no ] add).
+               Wired both into run_all engines lane (reports "...+julia GREEN" when julia is on
+               PATH). Julia runtime archived as an artifact so it survives workspace sweeps.
