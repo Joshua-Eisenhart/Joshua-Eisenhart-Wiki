@@ -144,6 +144,8 @@ SUITE = [
    ("contains", "PASS decoherence_scaling_sim")]),      # numpy+scipy; quantum->classical scaling
  ("chemistry_bridge_sim.py", 120, False, [
    ("contains", "PASS chemistry_bridge_sim")]),         # numpy-only; Hubbard dimer covalent bond
+ ("noncommutation_bounds_sim.py", 120, False, [
+   ("contains", "PASS noncommutation_bounds_sim")]),    # numpy-only; entropic uncertainty + CHSH
  ("flux_nesting_ablation_jax.py", 600, True, [
    ("approx", r'"total_chern_forward":\s*([0-9.]+)', 7.295389, 1e-3)]),
  ("manifold_build_ladder.py", 600, True, [
