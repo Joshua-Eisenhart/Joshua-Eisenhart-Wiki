@@ -68,23 +68,35 @@ skipped automatically if jax is absent; that is still GREEN.
      W-covariance) and provably does NOT descend to a terrain-generator
      observable: the ε-even quotient of χ₂ reads the a1 dynamics bit (finite
      check over the 8 generators), and W conjugates the operators but not the
-     generators (residual ≈2.05). Do not re-open this as "find the terrain
+     generators (per-pair residuals 2.112 and 1.990). Do not re-open this as "find the terrain
      meter" — the no-go is the result. What remains genuinely open below.
    - the charge-specific χ₂ at the TERRAIN layer: a no-go (§7w). χ₂ stays an
      earned eigenvector-sector meter, not a2-specific — do not relabel it
      "closed as an a2 meter". §7m therefore reads end-to-end only at the
      operator layer; keep its terrain-layer status ADMISSIBLE CANDIDATE.
-   - the P9 admissibility derivation: why exactly 2 operators per terrain
-     (from C1–C3). Still open — a derivation, not a lookup.
+   - the P9 admissibility derivation: why exactly 2 operators per terrain.
+     CLOSED (2026-07-01, `admissibility_two_operator_sim.py`). Derived from C2:
+     a stage needs one dissipative + one unitary generator (Axis-5); of the 4
+     candidate pairs the two SAME-basis pairs commute EXACTLY (order-gap 0, so
+     the stage collapses — C2 forbids it); the 2 surviving cross-basis pairs
+     are Axis-2 (W) conjugates, and each terrain's frame sign selects one =>
+     exactly 2, signed. Do not re-open. (The two eliminated pairs are
+     {D_z,H_z} and {D_x,H_x}; survivors {D_z,H_x}={Ti,Fi}, {D_x,H_z}={Te,Fe}.)
 7. **Comparisons are tolerance-based, never `==`** on floats. Claim grades per
    spec §8: promotable rows need `symbolic_identity` / `closed_form` /
    `finite_exhaustive` routes; float tolerance is `diagnostic_float_nonclaim`.
 8. **Do not regenerate figures** unless explicitly asked; `figures/` is
    pre-rendered and matplotlib is deliberately not a requirement.
-9. **Determinism:** all stochastic sims are seeded. If you add a sim, seed it
+9. **The coherent axis (1,1,1)/√3 is load-bearing** (P12,
+   `axis_loadbearing_n01_sim.py`): with the axis on σz the four Fe stages
+   commute exactly with their terrains and 16/16 order sensitivity collapses
+   to 12/16. Never change H₀'s axis "for simplicity"; the bundle's two axis
+   conventions (σz in engine_type_access_sim, canonical elsewhere) are NOT
+   interchangeable for N01 claims.
+10. **Determinism:** all stochastic sims are seeded. If you add a sim, seed it
    (`np.random.default_rng(0)`), make it standalone, CWD-independent, print
    its headline invariants to stdout, and add a `run_all.py` entry.
-10. **When editing the spec**, corrections are logged visibly (see §7o's
+11. **When editing the spec**, corrections are logged visibly (see §7o's
     correction note for the required style) — never silently rewritten. New
     claims get an explicit claim ceiling.
 
@@ -103,6 +115,14 @@ sims_and_scripts/               20 standalone sims (pure math, no labels)
   out/                          scratch output of manifold_build_ladder.py
 data_json/                      per-sim result data + rosetta_layer.json
 figures/                        pre-rendered PNGs (do not regenerate)
+engines/                        REAL-SUBSTRATE LANE: numpy oracle contract
+                                (targets.json), JAX/torch/Julia engines,
+                                validate_engines.py (own exit code; see
+                                engines/README_LAPTOP.md). Julia is authored
+                                but not yet run anywhere — its first laptop
+                                run is its test.
+reference_docs/                 source docs the spec formalizes (provenance
+                                tier: source/support, NOT audited claims)
 inputs/                         owner's original source spreadsheet
 ```
 
