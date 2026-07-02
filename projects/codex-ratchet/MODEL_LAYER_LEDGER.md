@@ -109,9 +109,14 @@
                               convention: put H0 on sz and the 4 Fe stages COMMUTE with their
                               terrains (order gap 2e-16), collapsing 16/16 -> 12/16. Verified.
 6.5  64 = 2 x 8 x 4            EARNED as one reading; but see OPEN:
-6.6  Two-64s tension          *** OWNER DECISION (unresolved). *** 64 = 2 engines x 8 terrains
-                              x 4 operators (all combos) VS 16 native stages x 4 sub-stages
-                              (48 combos inadmissible). Incompatible counts. Only you decide.
+6.6  Two-64s tension          RESOLVED BY SOURCE (2026-07-01 repo audit; see
+                              REPO_AUDIT_AND_RESOLUTIONS.md 1a). ENGINE_64_SCHEDULE_ATLAS.md
+                              9-10 declares a THREE-LAYER split: live-runtime 64 = 2x8x4
+                              slot space; chart-atlas 64 = 8x8 index surface with exactly
+                              16 STARRED chart-locked macro-stages; hexagram 64 = fenced
+                              tag family. 48 unstarred cells = legal addresses, not stages.
+                              Spec 7g conflated two layers the source separates. Pending:
+                              transcription into the spec (mechanical, not a decision).
 
 ################################################################################
 # LAYER 7 — THE 7 AXES (the DOFs of the manifold; must NOT collapse)
@@ -504,6 +509,22 @@
                               needs the spinor-level tooling. terrain_information_signature_sim.py;
                               figures/terrain_information_signature.png. numpy+scipy+z3+cvc5.
 
+17.3 8-way terrain          EARNED. RESOLVES the 17.2 finding (density observables separate
+     separation                 the 3 dissipation KINDS but not all 8 terrains). Per the a2
+                                source-resolution (REPO_AUDIT_AND_RESOLUTIONS.md 1b: a2 is an
+                                installed frame flag readable operationally through dissipation),
+                                add two dynamical readers to the coherence-kill KIND coordinate:
+                                (i) sign of steady-state <sz> = einselection POINTER (reads pole
+                                for damp; kind splits proj/depol); (ii) sign of coherence
+                                phase-velocity = rotation direction = -sign(eps) (Axis-1 charge).
+                                RESULT: all 8 measured terrain signatures DISTINCT. Genuine
+                                combinatorial proof -- z3 AND cvc5 SEARCH the 28 terrain-pairs for
+                                a collision: full feature set UNSAT (all 8 separated), dropping
+                                EITHER dynamical reader -> SAT (collision) => each reader NECESSARY.
+                                Pair-search whose answer changes with the feature set, not a pinned
+                                comparison. terrain_8way_separation_sim.py;
+                                figures/terrain_8way_separation.png. numpy+scipy+z3+cvc5.
+
 ################################################################################
 # THE OPEN ITEMS, CONSOLIDATED (what actually needs work, by priority)
 ################################################################################
@@ -527,3 +548,22 @@ O6  [MOSTLY DONE] holodeck/FEP memory + Lev bridge: memory (Layer 12), active-in
                  repo (concrete node mapping + reverse action edge) and entropic-monism
                  cosmology (fenced). The engine side of active inference is ready; the
                  world/action model lives in Lev.
+
+
+################################################################################
+# ADDENDUM (2026-07-02, sixth audit) — terrain-level a2 RESOLVED BY SOURCE
+################################################################################
+The terrain-level direct/conjugated bit is DEFINED in TERRAIN_LAW_LEDGER.md
+lines 17-18 as an INSTALLED FRAME FLAG: Direct = "lab frame, V_s(u) = I";
+Conjugated = "co-rotating Weyl frame, V_s(u) != I". It is which frame a
+terrain RUNS in, not a generator property — which is why no functional reads
+it (P2/P3) and no element maps the generators (P11 r4). Consequences:
+  - "find the generator-level a2 invariant" CLOSES as ill-posed;
+  - 7m's XOR is over one MEASURED bit (a1 = non-unitality, earned) and one
+    INSTALLED bit (a2 = frame flag) -> candidate status cemented;
+  - the chi2 program's job reframes: read the INSTALLED frame operationally
+    through dissipation (frame-sensitivity 0.22 dissipative vs 0 unitary is
+    the foothold), not derive the flag.
+Ledger lines 21-22/64-77 also tie the native operator pairs to the frames
+("conjugated-frame ops"), substantiating 7u's two-layer V/W split from source.
+See REPO_AUDIT_AND_RESOLUTIONS.md 1b.
