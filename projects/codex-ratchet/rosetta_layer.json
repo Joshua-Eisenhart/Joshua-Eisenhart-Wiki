@@ -107,6 +107,15 @@
    "result": "native-operator law promoted from labelling (\u00a77q) to earned theorem (\u00a77t). Fork settled: spec's V=exp(-iH0 u) does NOT implement the swap (sends Fi->Y-rot); only W swaps z<->x for both pairs. Axis-2 frame element flagged for repair.",
    "provenance": "external bundle audit 2026-07-01, verified independently",
    "FORK_RESOLVED_2026-07-01": "\u00a77t fork settled by consistency check (\u00a77u): Axis-2 is a TWO-LAYER object, neither V nor W is wrong. V=exp(-iH0 u) = continuous co-rotating frame (connection K=H0, \u00a77n role); W=(\u03c3x+\u03c3z)/\u221a2 = discrete Z2 direct<->conjugated involution (K=0, carries the exact operator map Ti<->Te Fi<->Fe, \u00a77t role). They compose: W conjugates the continuous connection, K->WKW=H0-2\u03c3y/\u221a3. NO spec repair \u2014 Axis-2 refined, the native-operator law earned as covariance under the discrete layer."
+  },
+  "chi2_openpath_readout": {
+   "tier": "earned",
+   "what": "\u03c7\u2082 = Bargmann/Pancharatnam OPEN-PATH geometric phase of a state's top eigenvector vs two fixed references; the working instrument for the eigenvector-sector (phase) charge",
+   "why_holonomy_failed": "closed-loop holonomy is gauge-invariant and returns to identity \u2192 phase 0; the open-path (3 distinct states) phase is nonzero yet still gauge-invariant under per-ket rephasing",
+   "verified": "open-path (nonzero) vs closed (0); gauge-invariant exactly; two-sector orthogonal (moves with eigenvectors, constant under spectral change while entropy is the reverse); reads direct\u2194conjugated FRAME bit V vs V* by 1.22 while entropy blind 9e-16; robust on 99.7% of 2000 random probes (misses only measure-zero reference-pole set)",
+   "non_circular": "the frame bit is read from a genuine operation (V vs V*, complex conjugation), NOT off the assignment label \u2014 unlike the earlier flagged circular e.conj()",
+   "closes": "the last open item at the current layer; \u03c7\u2081(entropy)+\u03c7\u2082(phase) now instrument the full Axis-0=Axis-1\u2295Axis-2 parity at the FRAME level",
+   "still_open": "terrain-level a2 bit (\u00a77u, generator-map residuals 1.4-2.0) \u2014 distinct, sharper question"
   }
  },
  "provenance": "Grounded in: igt-pattern-explicit-math-reference (operator table, Carnot/Szilard rows, 4-ring), taijitu-probe-reconciliation-card (witness fencing), empirical-math-rosetta (math-first discipline), terrain-rosetta-strong-math (terrain placements). Claude Science session 2026-07-01. scratch/witness; promotion_allowed=false.",
@@ -127,5 +136,9 @@
   "cross_instance_confirmation": "second thread confirms \u00a77u: V carries the \u03b4=0 degeneracy+connection, W carries the pair swap, no single element carries both \u2014 matches this session's \u00a77u exactly; parametrization discrepancy (12/16 vs 14/16 on \u00a77s) traced not papered over",
   "upgrades_applied": "\u00a77q -> non-unitality theorem (\ud835\udfd9[L(I)\u22600]); \u00a77n -> symbolic_identity grade (unitary similarity preserves spectrum, entropy invariance is algebraic not 2e-15 numeric); \u00a77t/\u00a77u residuals tagged Frobenius-norm; \u00a77o GKSL convention pinned (L=\u03c3z\u2297I, T=1, t=0.7)",
   "remaining_open_ledger": "\u03c7\u2082 (open-path eigenvector-sector readout) only; PLUS the sharper Axis-2 gap surfaced by both threads: neither W nor V realizes the TERRAIN-level direct/conjugated bit (generator-map residuals 1.4-2.0 (measured 1.46-1.95)) \u2014 the a2 assignment on terrains rests on the source table alone"
+ },
+ "_open_ledger": {
+  "chi2_status": "CLOSED at frame level (\u00a77v, chi2_openpath_readout_sim.py) \u2014 Bargmann open-path phase reads eigenvector-sector charge on 99.7% of probes; entropy blind",
+  "remaining_at_layer": "terrain-level a2 bit only (operator-level W-covariance exact, terrain-level residuals 1.4-2.0)"
  }
 }
