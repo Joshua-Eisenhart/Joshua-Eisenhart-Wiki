@@ -364,3 +364,12 @@ UP-30 NEW SIM  terrain_8way_separation_sim.py -- resolves the 17.2 finding. Two 
                28 pairs for a collision: full set UNSAT (separated), drop either reader -> SAT
                (each necessary). Uses the a2 source-resolution (REPO_AUDIT 1b: a2 = installed
                frame flag, read through dissipation). numpy+scipy+z3+cvc5. Layer 17.3. 46 pass.
+
+
+# Co-ratchet + 7-axis orthogonality lattice — 2026-07-02 (Layer 17.4, deepen the ratchet)
+UP-31 NEW SIM  coratchet_axis_orthogonality_sim.py -- (A) entropy CONSTRAINED to each terrain:
+               native pointer-coherence monotone->0 under own Axis-5 T-op (einselection), foreign
+               T plateaus, foreign F pumps up. (B) 2 signed ops on axes 5,6: T dS=+0.16, F dS=0
+               exact; b6=-(b0*b3). (C) 7-axis lattice: 5 primitive DOF free (2^5=32), 2 derived
+               (b0=b1*b2, b6=-(b0*b3)) forced -- z3 AND cvc5 UNSAT negation / SAT after erase.
+               Loops einselection(16.2)+DPI(16.9) back in. numpy+scipy+z3+cvc5. Layer 17.4. 47 pass.
