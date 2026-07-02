@@ -156,7 +156,8 @@
 9.6  chi2 phase-sector meter   CANDIDATE (scoped). An open-path Bargmann phase reads the
                               eigenvector sector (earned) but is NOT a2-specific (reads a2/eps/K
                               alike). The a2 bit is earned at the OPERATOR layer (5.5, exact) and
-                              provably does NOT descend to terrain generators (residual 2.05).
+                              provably does NOT descend to terrain generators (per-pair residuals
+                              2.112 for t0->t2, t4->t6 and 1.990 for t1->t3, t5->t7; all ~2, >>0).
                               => Axis-0 parity reads end-to-end at the OPERATOR layer; carried,
                               not measured, at the terrain layer.
 9.7  Per-terrain Ne/Ni+ vs      CANDIDATE. The intuition>sensing ordering holds at loop level
