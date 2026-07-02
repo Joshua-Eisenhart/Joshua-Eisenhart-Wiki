@@ -439,6 +439,20 @@
                               measurement-relative (a=a iff a~b). noncommutation_bounds_sim.py;
                               figures/noncommutation_bounds.png. numpy-only.
 
+16.8 Holevo bound             EARNED. FINITUDE of readout: the accessible CLASSICAL
+     (accessible info)        information in a quantum state is capped, any encoding or
+                              measurement. I(X:Y) <= chi = S(sum p_x rho_x) - sum p_x S(rho_x)
+                              <= log2(dim). (1) 1-bit code in 2 pure states: chi rises 0
+                              (identical) -> 1 bit (orthogonal); NON-ORTHOGONAL (noncommuting)
+                              signals lose accessible info. (2) chi is a TRUE upper bound -- the
+                              best measurement over all angles never beats it. (3) DIMENSION
+                              cap: 4 tetrahedral pure states (4 symbols) still give chi=1 bit,
+                              not 2 -- a qubit carries <= log2(d) accessible bits. Ties a=a iff
+                              a~b (probe-relative identity) to a capacity theorem. Purity
+                              assertion guards the pure-state construction (a normalization slip
+                              was caught: un-normalized Bloch vectors gave an unphysical chi>1).
+                              holevo_bound_sim.py; figures/holevo_bound.png. numpy-only.
+
 ################################################################################
 # THE OPEN ITEMS, CONSOLIDATED (what actually needs work, by priority)
 ################################################################################
