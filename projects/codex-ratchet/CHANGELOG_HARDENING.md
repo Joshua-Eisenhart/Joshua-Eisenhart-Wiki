@@ -298,3 +298,11 @@ UP-26 NEW SIM  holevo_bound_sim.py -- accessible classical info capped: I(X:Y)<=
                measurement never beats chi); 4 tetrahedral symbols in a qubit still cap at 1
                bit. Caught+fixed a Bloch-normalization slip (unphysical chi>1) with a purity
                assertion. numpy-only. Layer 16.8. Harness 42 pass (constraintcore, full).
+
+
+# Data-processing inequality — 2026-07-02 (Layer 16.9, the co-ratchet arrow)
+UP-27 NEW SIM  data_processing_sim.py -- information only decreases under any channel. Rel-entropy
+               monotonicity S(N(rho)||N(sigma))<=S(rho||sigma) (1.18->0.09 under dephasing) and
+               chain DPI I(A:C)<=I(A:B); ZERO violations across 400 random CPTP channels each.
+               The directional monotone einselection/Landauer/Holevo descend from. numpy-only.
+               Layer 16.9. Harness 43 pass (constraintcore, full).
