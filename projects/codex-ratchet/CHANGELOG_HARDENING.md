@@ -124,3 +124,18 @@ UP-3 ADDED    LAPTOP_RUN.sh -- one-command setup+verify for a local laptop: make
 UP-4 EDITED   CLAUDE.md: P9/O1 marked CLOSED; fixed a stale "≈2.05" residual to the
               real per-pair values 2.112 / 1.990. MODEL_LAYER_LEDGER 5.6 -> EARNED.
 Harness now: 23 pass / 0 fail / N skip -> GREEN (engines lane PASS when jax/torch present).
+
+
+# O3 done — 3-qubit contract (2026-07-01)
+UP-5 SCALED   O3 (was open): the 16-stage engine contract lifted to 3 qubits (C^8).
+              engines/oracle_targets_3q.py (numpy RK4), jax_engine_3q.py (exact 64x64
+              superoperator expm), validate_engines_3q.py. Readout = 63-dim Pauli-
+              expectation vector. GENUINELY 3q: ZZ chain coupling makes evolution
+              non-factorizing (max negativity 0.038>0); 16 stages distinct (min pairwise
+              0.174); 8/8 fusion + 16/16 order gaps preserved. Oracle vs JAX agree ~1e-12
+              on all 16 stages in 63-dim space. Wired into run_all engines lane
+              (reports "1q GREEN; 3q GREEN"). Julia/torch 3q engines: next (schema mirrors
+              the 1q ones).
+UP-6 NORMALIZED  wiki layout: all 25 sims consolidated under sims_and_scripts/, engines/
+              lane pushed (was absent on wiki), 20 flat root duplicates removed. Public
+              repo now mirrors the zip layout.
