@@ -87,12 +87,18 @@ The full formal spec is spec_and_reports/CONSTRAINT_CORE_FORMAL_SPEC.md (v28).
 ================================================================================
 6. WHAT IS STILL OPEN (short, honest ledger)
 ================================================================================
-  1. chi_2: the open-path eigenvector-sector (phase-charge) readout for the Xi bridge.
-     The one genuinely open item at the current layer. Closed-loop holonomy proven
-     insufficient (gauge-invariant); needs a relational open-path instrument.
-  2. Terrain-level a2 bit: W-covariance is exact at the OPERATOR level but NOT at the
-     terrain level (generator-map residuals 1.4-2.0). The direct/conjugated assignment on
-     terrains still rests on the source table alone.
+  1. chi_2 (phase-charge readout): RESOLVED to its correct scope (7v, 7w). The open-path
+     Bargmann phase is an EARNED eigenvector-sector meter (open-path nonzero, closed=0,
+     gauge-invariant, tracks eigenvectors while entropy tracks spectrum) but is NOT
+     a2-specific — it responds to all three frame ops (a2/eps/K); the 7v demo read the
+     K-mirror pair. The a2 (direct/conjugated) bit is earned exactly at the OPERATOR layer
+     (7t, W-covariance) and provably does NOT descend to a terrain-generator observable
+     (7w: eps-even quotient reads a1; W conjugates operators not generators, residual ~2.05).
+     So Axis-0 = a1 XOR a2 reads end-to-end at the operator layer; at the terrain layer it
+     is carried, not measured. 7m stays ADMISSIBLE CANDIDATE at the terrain layer.
+  2. P9 admissibility derivation: WHY exactly 2 operators per terrain, from C1-C3. Open —
+     a derivation, not a lookup. (This replaces the old "find the terrain-level a2 meter",
+     which 7w resolved as a no-go.)
   3. Run the owner's real Julia/JAX/PyTorch engines; the per-stage fingerprints
      (sixteen_stage_engine.json, terrain_fingerprints.json) are the validation targets.
   4. Connected-but-fenced lanes: holodeck/FEP memory, entropic-monism cosmology (dark
