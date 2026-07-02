@@ -5,3 +5,8 @@ sympy>=1.12
 # Optional (flux_nesting_ablation_jax.py, manifold_build_ladder.py only; harness skips gracefully if absent)
 jax>=0.4
 # NOT required for verification: matplotlib (figures are pre-rendered in figures/)
+
+# --- optional: SMT proof lane + QIT cross-check (sims self-skip if absent) ---
+z3-solver
+cvc5
+qutip
