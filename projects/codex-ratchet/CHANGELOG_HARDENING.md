@@ -165,3 +165,13 @@ UP-10 NEW SIM  memory_sim.py -- does the engine STORE/RECALL? Three mechanisms:
                (3) memory<->computation tradeoff: bit margin 0.00 (tau=1) -> 0.43 (tau=0.02);
                compute hard=forget, compute gently=remember. figures/memory.png. Added to
                harness (26 pass). Model ledger Layer 12; O6 holodeck now PARTIAL (precursor built).
+
+
+# Learning layer — 2026-07-01 (holodeck prediction-first / active inference)
+UP-11 NEW SIM  holodeck_sim.py -- prediction-first active-inference loop in PURE QIT (free
+               energy = Umegaki relative entropy, no classical math). (1) prediction loop
+               minimizes F 2.62->0 monotone; (2) stationary learning cuts surprise 99%
+               (belief stored in Hill projective cell); (3) single-cell capacity boundary:
+               learns k=1, fails k>=2 (~0.4 bits residual); (4) 3-qubit register learns
+               k=2,3,4 to <0.05 bits -> independent derived reason for the 3-qubit floor.
+               figures/holodeck.png. Added to harness (27 pass). Layer 13; O6 now MOSTLY DONE.
