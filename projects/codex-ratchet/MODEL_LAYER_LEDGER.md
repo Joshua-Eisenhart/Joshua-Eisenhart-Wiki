@@ -453,6 +453,17 @@
                               was caught: un-normalized Bloch vectors gave an unphysical chi>1).
                               holevo_bound_sim.py; figures/holevo_bound.png. numpy-only.
 
+16.9 Data-processing         EARNED. The monotone that makes the co-ratchet DIRECTIONAL:
+     inequality (DPI)         information can only DECREASE under any physical channel. (1)
+                              relative-entropy monotonicity S(N(rho)||N(sigma))<=S(rho||sigma)
+                              -- distinguishability falls under dephasing (1.18->0.09). (2)
+                              chain DPI I(A:C)<=I(A:B). Stress test: ZERO violations across 400
+                              random CPTP channels for BOTH forms (min DPI margin >=0). This is
+                              the arrow einselection/Landauer/Holevo all descend from -- ties
+                              a=a iff a~b to a monotone: distinguishability is non-increasing
+                              under the dissipative flow. data_processing_sim.py;
+                              figures/data_processing.png. numpy-only.
+
 ################################################################################
 # THE OPEN ITEMS, CONSOLIDATED (what actually needs work, by priority)
 ################################################################################
