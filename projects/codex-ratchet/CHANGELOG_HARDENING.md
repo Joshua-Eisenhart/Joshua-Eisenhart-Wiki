@@ -175,3 +175,13 @@ UP-11 NEW SIM  holodeck_sim.py -- prediction-first active-inference loop in PURE
                learns k=1, fails k>=2 (~0.4 bits residual); (4) 3-qubit register learns
                k=2,3,4 to <0.05 bits -> independent derived reason for the 3-qubit floor.
                figures/holodeck.png. Added to harness (27 pass). Layer 13; O6 now MOSTLY DONE.
+
+
+# Leviathan bridge — 2026-07-01 (world-engine output interface, stub)
+UP-12 NEW SIM  lev_bridge_sim.py + QIT_LEV_BRIDGE_SPEC.md -- the engine as a signal source a
+               Leviathan graph consumes. Defines the per-tick stream contract {belief_bloch,
+               surprise_bits, fe_gradient} and the LevBridge adapter (.tick/.subscribe). Proven:
+               surprise is near-zero on a stable world, spikes 1.50 on a regime shift, decays as
+               the engine relearns -- a usable control signal for Lev attention/action. Pure QIT.
+               Deliberately NOT coupled to live Lev internals yet (foundations-up). Added to
+               harness (28 pass). Layer 14; O6 bridge stub done, live wiring + action edge ahead.
