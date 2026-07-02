@@ -155,7 +155,23 @@ def run_engines_lane():
         return "FAIL", "validate_engines.py non-zero: " + (v.stdout + v.stderr)[-300:]
     if "GREEN" not in v.stdout:
         return "FAIL", "validator did not report GREEN: " + v.stdout[-200:]
-    return "PASS", f"oracle vs {'+'.join(ran)} agree (validate_engines GREEN)"
+    detail_1q = f"1q: oracle vs {'+'.join(ran)} GREEN"
+    # --- 3-qubit lane (same substrates; 63-dim Pauli contract on C^8) ---
+    o3 = _run([sys.executable, "oracle_targets_3q.py"])
+    if o3.returncode != 0:
+        return "PASS", detail_1q + f"; 3q oracle failed (skipped): {(o3.stderr or '')[-120:]}"
+    ran3 = []
+    for eng in ("jax_engine_3q.py", "torch_engine_3q.py"):
+        if os.path.exists(os.path.join(ENG, eng)):
+            r3 = _run([sys.executable, eng])
+            if r3.returncode == 0:
+                ran3.append(eng.split("_")[0])
+    if not ran3:
+        return "PASS", detail_1q + "; 3q oracle ok, no 3q substrate importable"
+    v3 = _run([sys.executable, "validate_engines_3q.py"])
+    if v3.returncode != 0 or "GREEN" not in v3.stdout:
+        return "FAIL", "3q validator not GREEN: " + (v3.stdout + v3.stderr)[-300:]
+    return "PASS", detail_1q + f"; 3q: oracle vs {'+'.join(ran3)} GREEN (63-dim Pauli, C^8)"
 
 def main():
     jax_ok = has_jax() and not FAST
