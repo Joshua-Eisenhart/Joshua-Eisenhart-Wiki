@@ -64,3 +64,21 @@ report the numbers rather than adjusting anything.
   dims go 4→64, `expm` cost grows, JAX/torch batching becomes the point. The
   contract schema is dimension-agnostic except the Bloch readout, which should
   become a Pauli-basis expectation vector.
+
+
+## 3-qubit lane (the owner's "at least 3 qubits" floor)
+
+```
+oracle_targets_3q.py     numpy RK4 oracle on C^8  -> targets_3q.json (63-dim Pauli contract)
+jax_engine_3q.py         JAX exact 64x64 superoperator expm -> jax_results_3q.json
+validate_engines_3q.py   compares *_results_3q.json to targets_3q.json; exit 0 = GREEN
+```
+
+The 3-qubit lift is GENUINELY multi-qubit, not the 1-qubit channel tensored with
+identity: the coherent Hamiltonian carries a ZZ chain coupling (J_COUP), so the
+evolution does not factorize. Verified: max negativity across q0|q1q2 is 0.038 > 0
+(real entanglement), and all 16 stages stay distinct in the 63-dim Pauli-expectation
+space (min pairwise 0.174). The readout is the 63-vector over non-identity 3-qubit
+Pauli strings; the 8/8 non-unitality fusion split and 16/16 order gaps are preserved.
+Verified in this sandbox: numpy RK4 oracle vs JAX exact-expm agree to ~1e-12 on all
+16 stages in the full 63-dim space -- a two-method cross-check on C^8.
