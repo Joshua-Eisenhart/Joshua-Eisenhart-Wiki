@@ -252,6 +252,16 @@
                               bits. => an INDEPENDENT, DERIVED reason for the model's 3-qubit
                               floor: it upgrades the holodeck from single memory to SEQUENCE
                               memory. holodeck_sim.py; figures/holodeck.png.
+13.5 Action (expected FE)      EARNED. The ACTION half of active inference: the engine picks
+                              the action minimizing EXPECTED free energy G = risk - epistemic
+                              value (risk = F(predicted_obs||preference); epistemic = expected
+                              belief-entropy drop). CLOSED LOOP (perception+action): from a world
+                              OPPOSITE the goal (goal_dist 1.37) the agent drives the world to its
+                              preference (goal_dist <0.01, world_z +0.85) and holds it. The engine
+                              ACTS to make the world match its model -- a running world-engine.
+                              agent_loop_sim.py; figures/agent_loop.png. This is the reverse edge
+                              the Layer-14 bridge deferred, done on the ENGINE side (pure QIT);
+                              the live Lev wiring maps it onto a concrete world/action model.
 
 ################################################################################
 # LAYER 14 — LEVIATHAN BRIDGE (world-engine output interface; stub, foundations-up)
