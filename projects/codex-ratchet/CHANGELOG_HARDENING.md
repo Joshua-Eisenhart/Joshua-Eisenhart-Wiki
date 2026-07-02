@@ -87,3 +87,40 @@ UB-1 ADDED  reference_docs/ — key source material from the repos, so the bundl
 UB-2 EDITED ORIENTATION.md LAYOUT section: added reference_docs/ + the hardening
             infra files (CLAUDE.md, run_all.py, requirements.txt, CHANGELOG).
 Harness unchanged: 21 pass / 0 fail / 2 skip (jax) -> GREEN.
+
+H-13 FIXED    run_all.py signed-zero brittleness: chi2_openpath check expected
+              "closed=+0.0000" but numpy builds differ on signed zero of
+              -arg(); check is now value-based (|closed| <= 1e-9).
+H-14 ADDED    engines/ lane: oracle_targets.py (numpy contract ->
+              targets.json), jax_engine.py, torch_engine.py, julia_engine.jl,
+              validate_engines.py, README_LAPTOP.md. Verified here: oracle +
+              JAX + torch agree to 1e-6 on all 16 stages (three independent
+              numerical routes). Julia authored, first run pending on laptop.
+H-15 FINDING  (P12) 16/16 N01 order sensitivity is load-bearing on the
+              coherent axis: with H0 on the z-axis the four Fe stages commute
+              EXACTLY with their terrains (phase covariance) -> 12/16. The
+              bundle contained two axis conventions across sims; they are not
+              interchangeable. Guarded by axis_loadbearing_n01_sim.py (H-16).
+H-16 ADDED    sims_and_scripts/axis_loadbearing_n01_sim.py + run_all entry.
+H-17 EDITED   CLAUDE.md: engines lane in the map; P12 axis rule added.
+H-18 NOTE     torch installs with a transient "Bus error" message in this
+              sandbox but imports and runs correctly (2.12.1); harmless.
+
+
+# Upgrade pass — 2026-07-01 (O1 derived + laptop package + engines in harness)
+UP-1 DERIVED  O1 (was the top open item): "exactly 2 native operators per terrain"
+              is now DERIVED from C2, not labelled. admissibility_two_operator_sim.py.
+              Same-basis (D,H) pairs commute exactly (order-gap 0) -> C2 forbids;
+              2 cross-basis survivors are Axis-2 (W) conjugates; terrain frame sign
+              selects one. Added to run_all.py SUITE (23rd sim). PASS.
+UP-2 WIRED    engines/ cross-substrate lane into run_all.py: run_engines_lane() runs
+              the numpy RK4 oracle, any importable substrate engine (jax/torch), then
+              validate_engines.py; asserts GREEN. Verified PASS with jax present
+              (oracle vs jax agree), SKIP when no substrate engine importable.
+UP-3 ADDED    LAPTOP_RUN.sh -- one-command setup+verify for a local laptop: makes a
+              .venv, installs numpy/scipy/sympy (+ jax/torch unless --fast), runs the
+              full harness incl. engines lane, and runs the Julia route if julia is on
+              PATH. Exit 0 = GREEN. Added LAPTOP_README.md.
+UP-4 EDITED   CLAUDE.md: P9/O1 marked CLOSED; fixed a stale "≈2.05" residual to the
+              real per-pair values 2.112 / 1.990. MODEL_LAYER_LEDGER 5.6 -> EARNED.
+Harness now: 23 pass / 0 fail / N skip -> GREEN (engines lane PASS when jax/torch present).
