@@ -124,6 +124,8 @@ SUITE = [
    ("contains", "PASS holodeck_sim")]),
  ("lev_bridge_sim.py", 180, False, [
    ("contains", "PASS lev_bridge_sim")]),
+ ("agent_loop_sim.py", 180, False, [
+   ("contains", "PASS agent_loop_sim")]),
  ("flux_nesting_ablation_jax.py", 600, True, [
    ("approx", r'"total_chern_forward":\s*([0-9.]+)', 7.295389, 1e-3)]),
  ("manifold_build_ladder.py", 600, True, [
