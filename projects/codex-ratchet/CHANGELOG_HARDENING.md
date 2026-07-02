@@ -282,3 +282,11 @@ UP-24 NEW SIM  chemistry_bridge_sim.py -- the chemical bond from the axioms via 
                2b->1b); covalent->ionic crossover (docc 0.25->0). numpy-only. Layer 17.1.
                Opens Layer 17 (bridge ladder: math->physics->chemistry->biochem->evolution->
                consciousness). Harness 40 pass (constraintcore, full).
+
+
+# Noncommutation bounds — 2026-07-02 (Layer 16.7, math foundations = physics)
+UP-25 NEW SIM  noncommutation_bounds_sim.py -- noncommutation as a sharp bound on information
+               and correlation. (1) Maassen-Uffink entropic uncertainty H(A)+H(B)>=log2(1/c),
+               tight at the MUB limit (1 bit for Z vs X). (2) CHSH quantum |S|=2sqrt2
+               (Tsirelson) > classical 2; commuting control 1.41 cannot violate. numpy-only.
+               Layer 16.7. Harness 41 pass (constraintcore, full).
