@@ -208,6 +208,32 @@
                               at the information-processing layer.
 
 ################################################################################
+# LAYER 12 — MEMORY & TRAJECTORIES (spinor + holodeck memory precursor)
+################################################################################
+12.1 Memory cells = projective-Si  EARNED. Write a classical z-bit, hold under a stage
+                              channel, read back. ONLY the projective terrains t3/t7 (Hill,
+                              Citadel = the "Si" cells) retain the bit (margin 0.71/0.53 after
+                              8 holds); dissipative (damp) and depolarizing cells erase it to
+                              ~0. The model's memory substrate is the projective sheet --
+                              matches the projective-holodeck-memory model. memory_sim.py.
+12.2 Spinor phase memory      EARNED (exact). 360deg loop -> spinor sign -1, 720deg -> +1;
+                              the loop-parity bit lives in the spinor sign and is INVISIBLE at
+                              the density level (rho identical at every point). A topologically
+                              protected bit -- the spinor-memory mechanism, distinct from 12.1.
+12.3 Memory<->computation      EARNED. Push two messages through a compute schedule then a
+     tradeoff                  projective store, vary per-stage flow time tau. At full strength
+                              (tau=1) the compute path thermalizes the message before the store
+                              (bit margin ~0); as tau shrinks the state carries the bit through
+                              and the store recovers it (margin 0.00 -> 0.43, monotone). DESIGN
+                              LAW: an engine that computes hard forgets; one that remembers must
+                              compute gently. figures/memory.png.
+12.4 Trajectory = running engine EARNED (mechanism). A schedule of stages run as a state-carrying
+                              computation (not per-stage-in-isolation) is the world-engine
+                              precursor: state written in, transformed by compute stages,
+                              stabilized by a store stage, read back. The 64-schedule is the
+                              full trajectory space; this is its memory-bearing use.
+
+################################################################################
 # THE OPEN ITEMS, CONSOLIDATED (what actually needs work, by priority)
 ################################################################################
 O1  [CLOSED 2026-07-01] 5.6 — why exactly 2 native operators per terrain.
@@ -223,4 +249,7 @@ O3  [DONE 2026-07-01] 10.5 — 16-stage contract lifted to 3 qubits (C^8). Genui
 O4  [DECISION]   6.6 — the two-64s tension. Owner-only.
 O5  [INTERP]     9.6/9.7 — Axis-0 parity is instrumented at the operator layer; a terrain-local
                  a2 meter is a proven no-go, so the terrain-level interpretation stays candidate.
-O6  [FENCED]     holodeck/FEP memory + entropic-monism cosmology: reference docs shipped, no sims.
+O6  [PARTIAL]    holodeck/FEP memory: the PRECURSOR is now built (Layer 12 -- projective
+                 memory cells, spinor phase memory, memory/compute tradeoff, trajectories).
+                 Full holodeck (prediction-first perception loop) + FEP active-inference
+                 integration + Lev wiring remain ahead. Entropic-monism cosmology still fenced.
