@@ -254,3 +254,12 @@ UP-20 NEW SIM  fluctuation_theorem_sim.py -- the engine's unitary drive obeys Ja
                slows. Genuine dF=-0.793 (nontrivial). FINDING: first Crooks pass failed at the
                tails -- a reverse-protocol bug, not physics; fixed time-reversed drive recovered
                the exact law. numpy-only. Layer 16.3; harness 33 pass (constraintcore).
+
+
+# Quantum speed limit — 2026-07-02 (the model's two axioms as a physical bound)
+UP-21 NEW SIM  quantum_speed_limit_sim.py -- the engine's drive obeys the QSL, tying FINITUDE
+               and NONCOMMUTATION to dynamics. (1) t_orth=(pi/2)/dE saturates the Levitin-
+               Toffoli bound (ratio 0.999) at every energy; larger dE = faster. (2) [H,rho]!=0
+               <=> dE>0 <=> evolution (three equivalent); commuting H never moves; full
+               orthogonality needs the state balanced across eigenstates (tilted H precesses
+               part-way). numpy-only. Layer 16.4; harness 34 pass (constraintcore).
