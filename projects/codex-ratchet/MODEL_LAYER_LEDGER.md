@@ -427,6 +427,18 @@
                               double occupancy 0.25->0 as U/t grows (Mott limit).
                               chemistry_bridge_sim.py; figures/chemistry_bridge.png. numpy-only.
 
+16.7 Entropic uncertainty +    EARNED. Two theorems where NONCOMMUTATION becomes a sharp
+     CHSH/Tsirelson           bound on information and correlation (math foundations = physics).
+                              (1) Maassen-Uffink: H(A)+H(B) >= log2(1/c), c=max|<a|b>|^2; bound
+                              = 0 for commuting bases (c=1), = log2(d)=1 bit for mutually
+                              unbiased (Z vs X, c=1/2), TIGHT at the MUB limit. Noncommutation
+                              IS uncertainty in bits. (2) CHSH: quantum |S|=2sqrt2 (Tsirelson,
+                              exact) on an entangled state with noncommuting settings > classical
+                              LHV bound 2; commuting-settings control |S|=1.41 cannot violate.
+                              The excess above 2 is the sharpest signature that identity is
+                              measurement-relative (a=a iff a~b). noncommutation_bounds_sim.py;
+                              figures/noncommutation_bounds.png. numpy-only.
+
 ################################################################################
 # THE OPEN ITEMS, CONSOLIDATED (what actually needs work, by priority)
 ################################################################################
