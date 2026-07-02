@@ -126,6 +126,10 @@ SUITE = [
    ("contains", "PASS lev_bridge_sim")]),
  ("agent_loop_sim.py", 180, False, [
    ("contains", "PASS agent_loop_sim")]),
+ ("axis_laws_dual_proof.py", 120, False, [
+   ("contains", "PASS axis_laws_dual_proof")]),        # skips if z3/cvc5 absent
+ ("terrain_qutip_crosscheck.py", 120, False, [
+   ("contains", "PASS terrain_qutip_crosscheck")]),     # skips if qutip absent
  ("flux_nesting_ablation_jax.py", 600, True, [
    ("approx", r'"total_chern_forward":\s*([0-9.]+)', 7.295389, 1e-3)]),
  ("manifold_build_ladder.py", 600, True, [
@@ -206,6 +210,11 @@ def main():
             print(f"SKIP {script}")
             continue
         rc, out, dt = run_one(script, timeout)
+        if rc == 0 and "SKIP_OPTIONAL" in out:
+            results.append({"sim": script, "status": "SKIP (optional tool absent)"})
+            n_skip += 1
+            print(f"SKIP {script} (optional tool absent)")
+            continue
         fails = []
         if rc != 0:
             fails.append(f"exit code {rc}")
