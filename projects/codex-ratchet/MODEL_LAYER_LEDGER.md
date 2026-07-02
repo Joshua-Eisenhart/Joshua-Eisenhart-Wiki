@@ -364,7 +364,7 @@
                               FINDING (logged): the first Crooks pass FAILED at the tails --
                               a reverse-protocol bug (measured Hf but drove from Hi), NOT a
                               physics failure; fixing the time-reversed drive recovered the
-                              exact law. fluctuation_theorem_sim.py; fluctuation_theorem.png.
+                              law to Trotter tolerance (Crooks 3e-5; Jarzynski 3e-14). fluctuation_theorem_sim.py; fluctuation_theorem.png.
 
 ################################################################################
 # THE OPEN ITEMS, CONSOLIDATED (what actually needs work, by priority)
