@@ -1760,6 +1760,54 @@ is the frame," which the two-layer resolution retired.
 
 ---
 
+## 7v. χ₂ closed — the open-path phase readout for the eigenvector sector
+
+*(The last genuinely open item at this layer. §7n proved Axis-0's parity needs both charges
+read; χ₁ (entropy) read cleanly, but χ₂ (the eigenvector-sector phase charge) had no working
+instrument — closed-loop holonomy was proven gauge-invariant and therefore identically zero.
+This builds and validates χ₂.)*
+
+**The instrument.** χ₂ is the **Bargmann/Pancharatnam open-path geometric phase** of a state's
+top eigenvector against two fixed references `r₀, r₁` (states the gauge does not act on):
+
+```
+χ₂(ρ) = −arg( ⟨r₀|e⟩ ⟨e|r₁⟩ ⟨r₁|r₀⟩ ),   e = top eigenvector of ρ
+```
+
+This is the exact fix for why holonomy failed. A **closed** loop of frame conjugations is
+gauge-invariant and returns to the identity → phase 0 (§7-era finding). An **open path** of
+three distinct states has a nonzero relational phase that is *still* gauge-invariant under
+per-ket rephasing `|ψ⟩ ↦ e^{iφ}|ψ⟩` — it reads the eigenvector sector without the closed-loop
+cancellation.
+
+**Verified properties (all in `chi2_openpath_readout_sim.py`).**
+
+| property | result |
+|----------|--------|
+| **open-path, not closed** | 3 distinct states → `−1.01` (nonzero); degenerate/closed → `0.0` |
+| **gauge-invariant** (per-ket rephasing) | diff `0.0` (exact) |
+| **two-sector orthogonality** | varying eigenvectors at fixed spectrum moves χ₂ (`0 → 0.64`) while `S ≡ 0.5004`; varying spectrum at fixed eigenvector holds χ₂ `= 0.6397` while `S` runs `0.33 → 0.67` |
+| **the Ξ parity readout** | χ₂ distinguishes the direct frame `V` from its conjugate `V*` by `1.22`; entropy is blind (`9×10⁻¹⁶`) |
+
+**The Ξ parity, robust.** Over **2000 random probes**, entropy cannot see the
+direct↔conjugated frame bit at all (`max|S_direct − S_conj| = 9×10⁻¹⁶`), while χ₂ reads it on
+**99.7%** (`mean |Δχ₂| = 1.57`). The only misses are the measure-zero set where the eigenvector
+lands on a reference pole — closable with a third reference. Crucially, the frame bit is read
+from a **genuine operation** (`V` vs `V*`, complex conjugation of the frame element), not from
+a label: this is *not* the circular "read χ₂ off the assignment" that an earlier audit
+correctly flagged.
+
+> **Model recommendation.** **χ₂ is closed at the current layer.** The two-sector theorem of
+> §7n now has both meters: χ₁ = entropy charge (eigenvalue sector, already earned), χ₂ =
+> Bargmann open-path phase (eigenvector sector). Together they instrument the full `Axis-0 =
+> Axis-1 ⊕ Axis-2` parity of §7m at the **frame** level. This retires the last open item at
+> this layer; the residual gap is now specifically the **terrain-level** a2 bit (§7u:
+> generator-map residuals `1.4–2.0`), which is a distinct, sharper question. Grade: the
+> open-path/gauge-invariance/two-sector properties are exact identities; the 99.7% frame-read
+> is an empirical robustness result over random probes.
+
+---
+
 ## 9a. Simulation hygiene and the rosetta layer
 
 **Principle (owner-directed).** Sims must be **pure real math and structure** — no
