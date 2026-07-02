@@ -224,7 +224,8 @@
      tradeoff                  projective store, vary per-stage flow time tau. At full strength
                               (tau=1) the compute path thermalizes the message before the store
                               (bit margin ~0); as tau shrinks the state carries the bit through
-                              and the store recovers it (margin 0.00 -> 0.43, monotone). DESIGN
+                              and the store recovers it (margin 0.00 -> 0.43; monotone over tau<=0.25, a
+                              negligible ~0.004 dip at tau=0.5). DESIGN
                               LAW: an engine that computes hard forgets; one that remembers must
                               compute gently. figures/memory.png.
 12.4 Trajectory = running engine EARNED (mechanism). A schedule of stages run as a state-carrying
