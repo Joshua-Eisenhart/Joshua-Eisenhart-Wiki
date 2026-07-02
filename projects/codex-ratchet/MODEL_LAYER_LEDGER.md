@@ -487,10 +487,16 @@
                               terrains sort into 3 MAX-DIFFERENTIATED dissipation classes --
                               damp {t0,t2,t4,t6} non-unital ||L(I)||=sqrt2, lowest coherence-
                               kill, highest chi; depol {t1,t5} middle; proj {t3,t7} highest
-                              kill, lowest chi. Ordering damp<depol<proj (coherence-kill) AND
-                              damp-unique-non-unital is FORCED: z3 AND cvc5 both SAT the law,
-                              both UNSAT an erased swapped-order control (three-engine contract
-                              satisfied -- SMT load-bearing, not decorative).
+                              kill, lowest chi. The 3 kinds are pairwise-distinguished by the
+                              measured rates; GIVEN that, the induced 3-class PARTITION of the 8
+                              terrains is UNIQUE -- a genuine combinatorial claim z3 AND cvc5
+                              verify by searching the labeling space c:8->{0,1,2} (3^8, nothing
+                              pinned): full law UNSAT to any second partition, erased control
+                              (drop distinct-kinds-distinct-classes) SAT to an alternative. SMT
+                              load-bearing as forcing, not an arithmetic float comparison.
+                              [Corrected after audit: the first pass pinned the measured rates to
+                              constants and compared them, which was a dressed-up if-check; the
+                              combinatorial partition-uniqueness search is the real structural test.]
                               FINDING: these density-level observables separate the 3 KINDS but
                               NOT all 8 terrains individually -- within-class terrains are
                               degenerate here because the eps/pole (Axis-1/Axis-2) signs are the
