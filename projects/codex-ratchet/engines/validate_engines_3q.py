@@ -25,7 +25,7 @@ def check(fn):
     ok=(worst<=max(tol,1e-6)) and dmin>1e-3
     return ok,f"worst pvec dev {worst:.2e}, min pairwise {dmin:.4f}"
 res={}
-for fn in ("jax_results_3q.json","torch_results_3q.json"):
+for fn in ("jax_results_3q.json","torch_results_3q.json","julia_results_3q.json"):
     ok,detail=check(fn); res[fn]=(ok,detail)
     tag={True:"PASS",False:"FAIL",None:"skip"}[ok]
     print(f"{tag} {fn.split('_results')[0]}: {detail}")
