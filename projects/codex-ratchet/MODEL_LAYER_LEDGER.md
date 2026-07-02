@@ -334,6 +334,26 @@
                               Axis-1. The strongest possible form of the two-sector claim.
 
 ################################################################################
+# LAYER 16 — PHYSICS BRIDGES (the engine reproduces established, confirmed physics)
+#            NOT a ToE validation -- checks that the engine's channels obey known law,
+#            chosen on the information<->physics seam the model lives on.
+################################################################################
+16.1 Landauer's principle      EARNED. The dissipative terrains RESET the qubit = logical
+                              erasure. In the pure-dissipation limit S:1->0 bit (purity->1),
+                              so the bath absorbs >= 1 bit = kT ln2 (2.87e-21 J @300K). The
+                              coherent drive makes erasure PARTIAL, never cheaper than the
+                              bound. Szilard's engine = the exact reverse. THE info<->physics
+                              bridge, reproduced by the engine's own channels.
+16.2 Einselection / pointer    EARNED. Zurek's predictability sieve: Ti (z-dephasing)
+     states                    einselects {|0>,|1>} (they stay pure; superpositions -> 0.5);
+                              Te einselects {|+>,|->}. Made EXACT: pointer states ARE the
+                              purity-1 fixed points of the channel (Liouvillian null space),
+                              coherences decay at rate 2. Einselection as an eigen-problem =
+                              "an attractor basin that selects for itself" in decoherence
+                              language -- selection built into the constraint, not added.
+                              physics_bridge_sim.py; figures/physics_bridge.png. (QuTiP.)
+
+################################################################################
 # THE OPEN ITEMS, CONSOLIDATED (what actually needs work, by priority)
 ################################################################################
 O1  [CLOSED 2026-07-01] 5.6 — why exactly 2 native operators per terrain.
