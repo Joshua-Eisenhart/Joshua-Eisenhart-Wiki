@@ -333,3 +333,34 @@ FIX  terrain_information_signature_sim.py -- replaced the pinned-constant SMT (b
      combinatorial forcing check: solver searches c:8->{0,1,2} (3^8), full law UNSAT to any
      second partition (partition unique/forced), erased control SAT to an alternative. z3+cvc5
      agree. Verdict now depends on a real search, not a pre-computed comparison. Harness 45 pass.
+
+H-19 VERIFIED full harness GREEN in a second clean sandbox: 40 pass / 0 fail /
+              5 dep-conditional skips; then z3-solver+cvc5+qutip installed and
+              all 5 conditional sims PASS (45/45 total). 1q AND 3q engines
+              cross-substrate GREEN (numpy oracle vs jax+torch).
+H-20 ADDED    REPO_AUDIT_AND_RESOLUTIONS.md into the bundle (source-level
+              resolutions from the public Codex-Ratchet audit).
+H-21 EDITED   MODEL_LAYER_LEDGER 6.6: two-64s tension RESOLVED BY SOURCE
+              (atlas 9-10 three-layer split, 16 starred macro-stages); pending
+              transcription only. Addendum: terrain-level a2 RESOLVED BY
+              SOURCE as an installed frame flag (TERRAIN_LAW_LEDGER 17-22);
+              the "find the invariant" open item closes as ill-posed.
+H-22 EDITED   PHYSICS_INFO_BRIDGE_INDEX.md: attribution AUDIT FLAG — the ten
+              bridges are theorems of the installed U-1 carrier; they earn
+              realization faithfulness, not axiom grounding. CLAUDE.md guard
+              added.
+H-23 FIXED    engines/trajectory_result.json had no producer in the bundle;
+              quarantined to engines/quarantine/ with note (results must ship
+              with their generators). lev_bridge_stream.json producer exists
+              (lev_bridge_sim.py) — false alarm on that one.
+H-24 EDITED   requirements.txt: z3-solver, cvc5, qutip declared as the
+              optional set that unlocks the 5 dependency-conditional sims.
+
+
+# 8-way terrain separation — 2026-07-02 (Layer 17.3, resolves 17.2 finding)
+UP-30 NEW SIM  terrain_8way_separation_sim.py -- resolves the 17.2 finding. Two dynamical readers
+               (steady-<sz> einselection pointer + coherence phase-velocity = -sign(eps)) added to
+               the coherence-kill KIND coordinate SEPARATE all 8 terrains. z3 AND cvc5 search the
+               28 pairs for a collision: full set UNSAT (separated), drop either reader -> SAT
+               (each necessary). Uses the a2 source-resolution (REPO_AUDIT 1b: a2 = installed
+               frame flag, read through dissipation). numpy+scipy+z3+cvc5. Layer 17.3. 46 pass.
