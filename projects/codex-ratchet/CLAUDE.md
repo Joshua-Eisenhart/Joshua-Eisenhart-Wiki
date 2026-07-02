@@ -46,6 +46,10 @@ skipped automatically if jax is absent; that is still GREEN.
      single readouts fail; the converse has never been tested because the
      parity has never been read. Do not upgrade §7m's status until a
      charge-specific χ₂ passes the terrain-level test.);
+   - "Layer 16/17 grounds the axioms externally" (the ten physics bridges are
+     theorems of the installed U-1 carrier — they earn realization
+     faithfulness, not axiom validation; see the flag in
+     PHYSICS_INFO_BRIDGE_INDEX.md);
    - "the §7q null supports fusion" (a null cannot; fusion is settled by the
      containment split + W-covariance §7t, not by the metric null).
 4. **Sims are pure math. No labels in code.** Structural indices only
