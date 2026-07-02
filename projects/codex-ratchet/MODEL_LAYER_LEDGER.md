@@ -180,9 +180,12 @@
 10.3 PyTorch engine            EARNED (passes); re-verify on your hardware (complex128 path).
 10.4 Julia engine              OPEN. Authored, never run (no Julia runtime here). The 3rd
                               independent route; run `julia julia_engine.jl` on your laptop.
-10.5 3-qubit / Cl(0,6) scale-up OPEN. Design generalizes 4->64 dims, but the contract has only
-                              been RUN at 1 qubit. 3-qubit rung (octonion carrier, Cl(0,6)->C^8)
-                              exists as a carrier argument; no cross-substrate contract yet.
+10.5 3-qubit / Cl(0,6) scale-up EARNED (O3, 2026-07-01). Contract RUN at 3 qubits (C^8 =
+                              Cl(0,6) spinor dim). Genuinely multi-qubit (ZZ coupling -> max
+                              negativity 0.038>0, non-factorizing); 63-dim Pauli readout; 16
+                              stages distinct (min 0.174); 8/8 fusion + 16/16 gaps preserved.
+                              numpy RK4 oracle vs JAX exact-expm agree ~1e-12 across all 16
+                              stages. STILL AHEAD: torch/Julia 3q engines (schema mirrors 1q).
 
 ################################################################################
 # THE OPEN ITEMS, CONSOLIDATED (what actually needs work, by priority)
@@ -192,7 +195,11 @@ O1  [CLOSED 2026-07-01] 5.6 — why exactly 2 native operators per terrain.
                  2 cross-basis survivors are W-conjugates, terrain frame picks one).
                  admissibility_two_operator_sim.py. No longer open.
 O2  [RUN]        10.4 — run the Julia engine (3rd substrate); report numbers if it disagrees.
-O3  [SCALE]      10.5 — lift the 16-stage contract to 3 qubits (Pauli-expectation readout).
+O3  [DONE 2026-07-01] 10.5 — 16-stage contract lifted to 3 qubits (C^8). Genuinely
+                 multi-qubit (ZZ coupling, max negativity 0.038>0, not factorizing); readout
+                 = 63-dim Pauli-expectation vector; 16 stages distinct (min pairwise 0.174);
+                 8/8 fusion + 16/16 gaps preserved. numpy oracle vs JAX exact-expm agree
+                 ~1e-12. oracle_targets_3q.py / jax_engine_3q.py / validate_engines_3q.py.
 O4  [DECISION]   6.6 — the two-64s tension. Owner-only.
 O5  [INTERP]     9.6/9.7 — Axis-0 parity is instrumented at the operator layer; a terrain-local
                  a2 meter is a proven no-go, so the terrain-level interpretation stays candidate.
