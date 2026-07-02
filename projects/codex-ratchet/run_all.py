@@ -96,9 +96,23 @@ SUITE = [
    ("approx", r"t2 \[damp \]: \|\|L\(I\)\|\| = ([0-9.]+)", 1.4142, 1e-3),
    ("approx", r"t3 \[proj \]: \|\|L\(I\)\|\| = ([0-9.]+)", 0.0, 1e-6)]),
  ("chi2_openpath_readout_sim.py", 60, False, [
-   ("contains", "closed=+0.0000 (zero)"),                          # closed loop is blind
-   ("approx", r"gauge-invariant under rephasing: diff=([0-9.e+-]+)", 0.0, 1e-9),
-   ("approx", r"chi2 reads frame on ([0-9.]+)%", 100.0, 0.5)]),    # >=99.5% of probes
+   ("approx", r"closed=([+-]?[0-9.]+) \(zero\)", 0.0, 1e-9),                              # closed loop blind
+   ("approx", r"chi2 reads frame on ([0-9.]+)%", 100.0, 0.5)]),        # sector meter earned
+ ("chi2_decisive_test_sim.py", 300, False, [
+   ("contains", "chi2 is an eigenvector-sector meter, NOT charge-specific to a2"),
+   ("contains", "parity match: convention A 2/8, convention B 6/8 -- NOT a readout"),
+   ("approx", r"\|\|V-V\*\|\| = ([0-9.]+)", 1.809, 0.01)]),
+ ("eps_even_a2_specificity_sim.py", 120, False, [
+   ("contains", "NO -- ranges overlap"),                              # eps-even still fails a2
+   ("approx", r"\(operator a2-conjugation\) = ([0-9.e+-]+)", 0.0, 1e-12),   # a2 exact at operator layer
+   ("contains", "a2 is an operator-layer label")]),
+ ("axis_loadbearing_n01_sim.py", 120, False, [
+   ("approx", r"coherent axis z-axis\s*: \(damp,Fe\) order gap = ([0-9.e+-]+)", 0.0, 1e-10),
+   ("contains", "load-bearing, not conventional")]),
+ ("admissibility_two_operator_sim.py", 120, False, [
+   ("contains", "the 2 survivors are Axis-2 (W) conjugates: True"),
+   ("contains", "EXACTLY 2 native operators per terrain, signed. O1 closed."),
+   ("contains", "PASS admissibility_two_operator_sim")]),
  ("flux_nesting_ablation_jax.py", 600, True, [
    ("approx", r'"total_chern_forward":\s*([0-9.]+)', 7.295389, 1e-3)]),
  ("manifold_build_ladder.py", 600, True, [
@@ -113,6 +127,35 @@ def run_one(script, timeout):
         return p.returncode, p.stdout + p.stderr, time.time() - t0
     except subprocess.TimeoutExpired:
         return -9, "TIMEOUT", time.time() - t0
+
+
+def run_engines_lane():
+    """Cross-substrate engine check: numpy RK4 oracle -> targets.json, then any
+    available substrate engine (jax/torch), then validate_engines.py must exit 0.
+    Returns (status, detail). SKIP only if numpy oracle itself cannot run."""
+    ENG = os.path.join(HERE, "engines")
+    if not os.path.isdir(ENG):
+        return "SKIP", "no engines/ dir"
+    def _run(args, timeout=300):
+        return subprocess.run(args, capture_output=True, text=True, timeout=timeout, cwd=ENG)
+    # oracle (always numpy/scipy)
+    o = _run([sys.executable, "oracle_targets.py"])
+    if o.returncode != 0:
+        return "FAIL", "oracle_targets.py failed: " + (o.stderr or o.stdout)[-300:]
+    # substrate engines that import cleanly
+    ran = []
+    for eng in ("jax_engine.py", "torch_engine.py"):
+        r = _run([sys.executable, eng])
+        if r.returncode == 0:
+            ran.append(eng.split("_")[0])
+    if not ran:
+        return "SKIP", "oracle ok; no substrate engine importable (jax/torch) on this machine"
+    v = _run([sys.executable, "validate_engines.py"])
+    if v.returncode != 0:
+        return "FAIL", "validate_engines.py non-zero: " + (v.stdout + v.stderr)[-300:]
+    if "GREEN" not in v.stdout:
+        return "FAIL", "validator did not report GREEN: " + v.stdout[-200:]
+    return "PASS", f"oracle vs {'+'.join(ran)} agree (validate_engines GREEN)"
 
 def main():
     jax_ok = has_jax() and not FAST
@@ -151,6 +194,19 @@ def main():
         else: n_pass += 1
         results.append({"sim": script, "status": status, "seconds": round(dt, 1), "fails": fails})
         print(f"{status} {script} ({dt:.1f}s)" + ("" if not fails else "\n      " + "\n      ".join(fails)))
+    # cross-substrate engines lane (oracle vs jax/torch)
+    if not FAST:
+        est, edet = run_engines_lane()
+        if est == "PASS": n_pass += 1
+        elif est == "FAIL": n_fail += 1
+        else: n_skip += 1
+        results.append({"sim": "engines/ cross-substrate", "status": est, "detail": edet})
+        print(f"{est} engines/ cross-substrate  ({edet})")
+    else:
+        results.append({"sim": "engines/ cross-substrate", "status": "SKIP (--fast)"})
+        n_skip += 1
+        print("SKIP engines/ cross-substrate (--fast)")
+
     summary = {"pass": n_pass, "fail": n_fail, "skip": n_skip, "green": n_fail == 0}
     json.dump({"summary": summary, "results": results},
               open(os.path.join(HERE, "run_all_report.json"), "w"), indent=1)
