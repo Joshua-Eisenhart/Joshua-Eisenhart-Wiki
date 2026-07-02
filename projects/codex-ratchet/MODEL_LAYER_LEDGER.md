@@ -243,7 +243,7 @@
                               monotonically 2.62 -> ~0. This is the perception half of FEP.
 13.2 Learning (stationary)     EARNED. Belief stored between observations in the Hill projective
                               memory cell (Layer 12); repeated exposure to one environment cuts
-                              surprise ~99% (0.426 -> 0.004 bits). Genuine learning, not filtering.
+                              surprise ~99% (0.426 -> 0.0035 bits). Genuine learning, not filtering.
 13.3 Memory-capacity boundary  EARNED. A SINGLE cell learns a stationary (k=1) environment to
                               near-zero surprise but CANNOT learn a k>=2 cycling sequence
                               (residual ~0.4 bits). Quantified limitation, not a failure.
