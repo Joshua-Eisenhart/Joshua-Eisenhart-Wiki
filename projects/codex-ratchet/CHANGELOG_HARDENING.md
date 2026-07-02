@@ -290,3 +290,11 @@ UP-25 NEW SIM  noncommutation_bounds_sim.py -- noncommutation as a sharp bound o
                tight at the MUB limit (1 bit for Z vs X). (2) CHSH quantum |S|=2sqrt2
                (Tsirelson) > classical 2; commuting control 1.41 cannot violate. numpy-only.
                Layer 16.7. Harness 41 pass (constraintcore, full).
+
+
+# Holevo bound — 2026-07-02 (Layer 16.8, finitude of readout)
+UP-26 NEW SIM  holevo_bound_sim.py -- accessible classical info capped: I(X:Y)<=chi<=log2(d).
+               chi 0->1 bit as signals go identical->orthogonal; true upper bound (best
+               measurement never beats chi); 4 tetrahedral symbols in a qubit still cap at 1
+               bit. Caught+fixed a Bloch-normalization slip (unphysical chi>1) with a purity
+               assertion. numpy-only. Layer 16.8. Harness 42 pass (constraintcore, full).
