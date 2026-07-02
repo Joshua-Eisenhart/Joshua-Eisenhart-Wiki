@@ -84,11 +84,15 @@
 5.5  W-covariance (signed law) EARNED (exact). The Hadamard W=(sx+sz)/sqrt2 maps Ti<->Te and
                               Fi<->Fe EXACTLY (3.4e-33 / 4.5e-17). This is the "signed Axis-6"
                               relation between the operator pairs, as a theorem.
-5.6  "Exactly 2 operators per   *** OPEN — THE ONE UNDERIVED LAW. ***
-     terrain, in a signed       We can STATE which 2 (direct {Se,Ne}->Ti,Fi; conjugated
-     Axis-6 way"                {Ni,Si}->Te,Fe) and verify W swaps the pairs, but WHY each
-                              terrain admits exactly 2 (not 1, not 4) is NOT yet derived from
-                              C1-C3. Currently a rosetta LABELLING. This is the top open item.
+5.6  "Exactly 2 operators per   EARNED (derived from C2). *** O1 CLOSED 2026-07-01. ***
+     terrain, in a signed       A stage needs one dissipative + one unitary generator (Axis-5)
+     Axis-6/Axis-2 way"         => 4 candidate pairs. Of these, the two SAME-basis pairs
+                              ({D_z,H_z},{D_x,H_x}) COMMUTE EXACTLY (generator-commutator 0,
+                              operational order-gap 0.00000) -> the stage collapses -> C2
+                              (non-commutation must not collapse) FORBIDS them. The 2 survivors
+                              ({D_z,H_x}={Ti,Fi}, {D_x,H_z}={Te,Fe}) are Axis-2 (W) conjugates
+                              (3e-16); each terrain's Axis-2 sign selects ONE. => exactly 2,
+                              signed -- forced, not labelled. admissibility_two_operator_sim.py.
 
 ################################################################################
 # LAYER 6 — THE 16 STAGES and the 64 SCHEDULE (engines running, unique per stage)
@@ -183,8 +187,10 @@
 ################################################################################
 # THE OPEN ITEMS, CONSOLIDATED (what actually needs work, by priority)
 ################################################################################
-O1  [DERIVATION] 5.6 — why exactly 2 native operators per terrain, from C1-C3.
-                 The single genuinely underived law at the current layer.
+O1  [CLOSED 2026-07-01] 5.6 — why exactly 2 native operators per terrain.
+                 DERIVED from C2 (same-basis pairs commute exactly -> forbidden;
+                 2 cross-basis survivors are W-conjugates, terrain frame picks one).
+                 admissibility_two_operator_sim.py. No longer open.
 O2  [RUN]        10.4 — run the Julia engine (3rd substrate); report numbers if it disagrees.
 O3  [SCALE]      10.5 — lift the 16-stage contract to 3 qubits (Pauli-expectation readout).
 O4  [DECISION]   6.6 — the two-64s tension. Owner-only.
