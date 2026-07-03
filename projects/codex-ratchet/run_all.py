@@ -176,6 +176,12 @@ SUITE = [
    ("contains", "PASS signed_axis0_primitive_sim")]),          # z3+cvc5; Layer 0.3 signed Axis-0 primitive I_c=-S(A|B); earns 0.2 two-regime sign structure
  ("entropic_newton_limit_sim.py", 120, False, [
    ("contains", "PASS entropic_newton_limit_sim")]),           # Layer 0.4: entropic force reproduces Newton exactly (earned); dark-sector fenced
+ ("weak_force_chirality_bridge_sim.py", 120, False, [
+   ("contains", "PASS weak_force_chirality_bridge_sim")]),      # z3+cvc5; Layer 20.1 SM bridge: weak force left-handed coupling forced by F01+N01
+ ("division_algebra_ratchet_sim.py", 120, False, [
+   ("contains", "PASS division_algebra_ratchet_sim")]),         # z3+cvc5; Layer 0.5: R->C->H->O ratchet, nonassoc=grouping N01, S kill-control, G2=Aut(O)
+ ("cosmogenesis_persistence_sim.py", 120, False, [
+   ("contains", "PASS cosmogenesis_persistence_sim")]),         # Layer 0.6: least persisting carrier between fuzz frames = norm-preserving spinor; entangled expanding field
  ("flux_nesting_ablation_jax.py", 600, True, [
    ("approx", r'"total_chern_forward":\s*([0-9.]+)', 7.295389, 1e-3)]),
  ("manifold_build_ladder.py", 600, True, [
