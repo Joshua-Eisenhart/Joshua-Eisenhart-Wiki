@@ -84,7 +84,7 @@ acc1,acc2,acc3=accuracy(1,4),accuracy(2,4),accuracy(3,4)
 print(f"(2) three-qubit floor (K=4): n=1 {acc1:.2f}, n=2 {acc2:.2f}, n=3 {acc3:.2f}")
 
 # (3) capacity curve at n=3
-cap={K:accuracy(3,K) for K in (3,5,8,12)}
+cap={K:accuracy(3,K) for K in (3,5,8,12,16)}
 print(f"(3) capacity at n=3 (dim 8): " + ", ".join(f"K={K}:{v:.2f}" for K,v in cap.items()))
 
 # (4) numpy oracle cross-check: winner-take-all relaxation (no autograd), same pattern recalled?
