@@ -449,3 +449,20 @@ UP-38 FIX  distinguishability_engine_core_sim.py + entropic_gravity_axis0_sim.py
            source_flat), the structural law is tested for FIT against the measured data, and a
            counterfactual control flips UNSAT(with law)->SAT(law dropped) so the law -- not
            arithmetic -- carries the verdict. Ledger v34/v35 (D)/(3) wording corrected. 53 pass.
+
+
+# CITATION CLOSURE (STATE_OF_THE_MODEL open-ledger V.1) — 2026-07-02
+UP-39 CONFIRM  Open item V.1 ("igt-pattern lines 470-478 verbatim (wiki) — the one uncited sentence
+               behind §7t's 'conjugated = x↔z image' source reading") is resolvable and now confirmed.
+               VERIFIED: the wiki doc concepts/igt-pattern-explicit-math-reference.md contains the
+               four-operator table verbatim at lines 475-478 (Ti z-dephasing / Te x-dephasing / Fi
+               x-rotation / Fe z-rotation; native terrains Se,Ne direct vs Ni,Si conjugated) and the
+               §7k tribunal sentence at line 166. The spec (CONSTRAINT_CORE_FORMAL_SPEC §7q/§7t) already
+               cites these lines and upgrades the "conjugated = x↔z image of direct" reading to the exact
+               W-covariance theorem (W·Ti·W=Te residual 3.4e-33). So the source is not merely cited but
+               earned; the STATE doc's ledger simply lagged the spec. No new sim needed. 53 pass.
+               NOTE ON PLAN: STATE_OF_THE_MODEL §VI orders Consolidate->Contact->Extend and warns
+               "extension before contact is the failure mode the whole harness exists to prevent."
+               A new coherent-information / i-scalar sim is a Phase-E action and is therefore HELD until
+               the Phase-X contact items (V.1-V.4) are addressed. This turn does the cheapest Phase-X
+               action (V.1 verbatim confirmation), per that ordering.
