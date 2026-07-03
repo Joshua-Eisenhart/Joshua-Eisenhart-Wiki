@@ -738,3 +738,12 @@ UP-57 NEW LAYER 0.15  type1_engine_igt_sim.py -- the FULL Type 1 engine (LEFT We
                same-axis [Ti,Fe] commutes; (4) two traversals differ (deductive vs inductive, gap 0.017);
                (5) z3 AND cvc5 gate native op->sheet forced (1 vs 2^4). IGT labels are rosetta-layer only.
                Removed two_weyl_engines_sim.py (wrong operator model). FULL HARNESS VERIFIED: 68 pass / 0 fail / 0 skip GREEN.
+
+UP-58 EXTEND 0.15  type1_engine_igt_sim.py -- folded convergence packet from local node (independent
+               type1_engine_v0 build reproduced the chart element-for-element). Added the FULL SIGNED GRAMMAR
+               (SIGNED doc 1160-1176): 8 signed operators (Axis-6 up=T-o-Op / down=Op-o-T) x 2 native
+               terrains = 16 stage maps -> 12 distinct at scratch depth. MEASURED Axis-6 precedence law:
+               collapses iff op shares terrain z-drive axis (z-family Ti,Fe gap 0; x-family Fi,Te load-bearing
+               0.08-0.48), confirmed under scratch maps AND GKSL flows. Second dual-solver gate (z3 AND cvc5)
+               on the collapse law, flipped control UNSAT. MBTI xlsx layer = non-load-bearing annotation.
+               FULL HARNESS VERIFIED: 68 pass / 0 fail / 0 skip GREEN.
