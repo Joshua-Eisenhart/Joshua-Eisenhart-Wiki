@@ -825,3 +825,14 @@ UP-64 NEW SPINE L4  manifold_L4_local_weyl_factors_sim.py -- local Weyl factors 
                (per-rung 3q GHZ) fire. Dual-solver gate: Weyl factorization needs product (UNSAT for
                entangled, SAT erased). Fourth rung; first real spine referent for "Weyl factor" (chirality is
                a later object). FULL HARNESS VERIFIED: 73 pass / 0 fail / 0 skip GREEN.
+
+UP-65 AXIS AUTHORITY  Adopted axes-full-layout-relations-anti-conflation-2026-07-03.md (owner-supplied,
+               sources f53880681/34d817e34/95df90d4d) into reference_docs as the authoritative axis layout.
+               CORRECTIONS: (1) Axis-3 = fiber(inner)/lifted-base(outer) loop class, NOT flux; flux is geometry
+               banned as axis content. (2) Type1/Type2 is a NON-REDUCTION -- NOT flux alone AND NOT A3xA4
+               alone (loop-placement law: A3xA4xA5xA6 = 8 paired sigs not 16; same (A3,A4) in both types);
+               type = combined chart vector (sheet/chirality/H-sign + IN/OUT + A3 loop-class + A4 order). My
+               earlier "Type1/2 = A3 AND A4" over-reduction superseded. (3) axes are readout maps A_i:M(C)->V_i,
+               never primitive coords; verified L1-L4 spine sims claim geometry only, no axis content (matches
+               global lock). Recorded a4-b3 coupling prediction + a1-a5 conflation trap as engine-layer
+               acceptance tests. Doc travels in every future bundle. Harness unaffected (docs only).
