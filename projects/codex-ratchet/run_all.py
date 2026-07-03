@@ -158,6 +158,8 @@ SUITE = [
    ("contains", "PASS terrain_8way_separation_sim")]),        # z3+cvc5; all 8 terrains separated
  ("coratchet_axis_orthogonality_sim.py", 180, False, [
    ("contains", "PASS coratchet_axis_orthogonality_sim")]),   # z3+cvc5; co-ratchet + 7-axis lattice
+ ("coupled_coratchet_dualloop_sim.py", 180, False, [
+   ("contains", "PASS coupled_coratchet_dualloop_sim")]),     # z3+cvc5; coupled dual-loop co-ratchet
  ("flux_nesting_ablation_jax.py", 600, True, [
    ("approx", r'"total_chern_forward":\s*([0-9.]+)', 7.295389, 1e-3)]),
  ("manifold_build_ladder.py", 600, True, [
