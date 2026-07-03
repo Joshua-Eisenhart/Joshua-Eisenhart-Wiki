@@ -567,6 +567,54 @@
                                 in. coupled_coratchet_dualloop_sim.py;
                                 figures/coupled_coratchet_dualloop.png. numpy+scipy+z3+cvc5.
 
+18.1 Biochemistry bridge      EARNED. Bridge-ladder rung 4 (math->physics->chemistry->BIOCHEM).
+     (tunneling switch)         A two-state biomolecular switch (conformational bistability:
+                                folded/unfolded, cis/trans, open/closed channel) IS a qubit;
+                                the double-well barrier is H = -(eps/2)sz -(Delta/2)sx; coherent
+                                tunneling L<->R is purely NONCOMMUTATIVE ([H_bias,H_tunnel]!=0).
+                                This is the pure-QIT biochem the owner's own classical Kramers
+                                baseline explicitly CANNOT encode (its divergence_log: classical
+                                rate ->0 as T->0, no tunneling/coherent splittings). Grounded in
+                                owner's catalysis framing (A2: "catalysis = the engine's dual loop,
+                                a catalyst gives an alternative CPTP path with lower cost").
+                                RESULTS: (A) T=0 coherent tunneling max transfer Delta^2/(Delta^2+
+                                eps^2) exact vs analytic (classical=0). (B) finite-T crossover:
+                                quantum rate plateaus at a tunneling FLOOR as T->0 (classical ->0);
+                                high-T Arrhenius slope = -Eb recovered. (C) catalysis = dual-loop
+                                path: enzyme opens a stronger coherent channel (raises Delta),
+                                >2x speedup, endpoints |L>,|R> UNCHANGED. (D) STRUCTURAL GATE:
+                                L<->R switching REQUIRES the noncommuting tunneling term -- z3 AND
+                                cvc5 SEARCH H=a*sz+b*sx: transfer-possible SAT with tunneling,
+                                UNSAT once erased (both solvers, both halves). Ties to the
+                                noncommutation axiom. biochem_bridge_sim.py;
+                                figures/biochem_bridge.png. numpy+scipy+z3+cvc5.
+
+19.1 Evolution/chirality      EARNED (with honest scope). Bridge-ladder rung 5 (...->biochem->
+     bridge                     EVOLUTION->consciousness). Builds the owner's TWO CHIRAL OPERATING
+                                SPACES (left/right Weyl engine families) as runnable math per
+                                LEFT_RIGHT_CHIRAL_OPERATING_SPACE_BUILD_NOTE.md, and tests -- NOT
+                                presuming the conclusion -- whether chirality emerges from the two
+                                core axioms F01 (finitude) + N01 (noncommutation). Grounded in
+                                A2_CHIRALITY_SPACETIME_BIOLOGY (symmetry-breaking: F01 forbids exact
+                                spectral symmetry, N01 non-commuting fluctuations don't cancel ->
+                                must split chirally). Left: H_L=+H0, sigma_- SINK; Right: H_R=-H0,
+                                sigma_+ SOURCE; mirror M(.)=X.X. Terrain laws Ne/Se/Ni/Si = the 4
+                                selection modes (Rosetta): Ne natural(fittest), Se kin, Ni drift/
+                                founder, Si sexual. RESULTS: (A) both spaces run the SAME 8-stage
+                                finite loop and drive to OPPOSITE poles (left <sz>=-0.60 sink,
+                                right +0.65 source) -- asymmetry EMERGES, not imposed. (B) mirror
+                                non-equivalence: M.X_L.M=X_R exactly but X_L!=X_R -- genuine mirror
+                                images, NOT a sign-flag collapse. (C) F01+N01 FORCING GATE: z3 AND
+                                cvc5 -- self-mirror AND noncommuting = UNSAT (chirality forced);
+                                drop N01 -> SAT only for the null generator (achiral=no dynamics);
+                                both solvers both halves. (D) Frank(1953) autocatalysis: tiny bias
+                                b=0.001 amplifies to homochirality (ee~1), b=0 racemic.
+                                HONEST SCOPE: the model forces THAT chirality splits and that the
+                                sides can't collapse; it does NOT derive WHICH side (left) is
+                                physical -- matching weak-force parity violation is empirical INPUT,
+                                not a derivation. evolution_chirality_bridge_sim.py;
+                                figures/evolution_chirality_bridge.png. numpy+scipy+z3+cvc5.
+
 ################################################################################
 # THE OPEN ITEMS, CONSOLIDATED (what actually needs work, by priority)
 ################################################################################
