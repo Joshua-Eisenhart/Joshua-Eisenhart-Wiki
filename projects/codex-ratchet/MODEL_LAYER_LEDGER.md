@@ -640,6 +640,35 @@
                                 genuine non-vacuous constraint; not a metaphysics proof.
                                 root_axiom_sim.py; figures/root_axiom.png. numpy+z3+cvc5.
 
+ 0.0 THE MODEL CORE:            EARNED. Engages the owner's INTEGRATED model as ONE object (per
+     distinguishability-        OWNER_THESIS_AND_COSMOLOGY.md + CONSTRAINT_ON_DISTINGUISHABILITY_
+     creation engine            FULL_MATH.md secs 2-3, "verified against sim results"), replacing the
+                                earlier fragmented keyword-demos. THE PRIMITIVE IS CONSTRAINT ON
+                                DISTINGUISHABILITY; entropy is a LATER measure, NOT the substance
+                                (this corrected an ontology error in the root_axiom sim, which had
+                                wrongly made entropy primitive). The core is a=a iff a~b made
+                                DYNAMICAL on the Hopf carrier: the SAME carrier has two loop
+                                placements -- FIBER loop (vary global phase) is DENSITY-STATIONARY
+                                (trace-distance drift 3e-16; creates NO distinguishability; it IS the
+                                ~_M equivalence class, a~a) and BASE loop (vary chi) is DENSITY-
+                                TRAVERSING (trace-distance travel 0.932; CREATES distinguishability;
+                                crosses classes, a!~b). RESULTS: (A) fiber stationary vs base
+                                traversing -> identity is created only on the base loop. (B) BERRY
+                                HOLONOMY = distinguishability created per base loop: numeric solid-
+                                angle matches the doc closed form gamma=-pi(1-|cos2eta|) EXACTLY
+                                (inner eta=pi/8 -> -0.920; Clifford great circle -> -pi, the max).
+                                (C) ONTOLOGY: along the base loop distinguishability grows to 0.932
+                                while von Neumann S stays 3e-16 -> DISTINGUISHABILITY WITHOUT
+                                ENTROPY, proving entropy is downstream, not primitive. (D) STRUCTURAL
+                                GATE (load-bearing): z3 AND cvc5 -- "create distinguishability on the
+                                FIBER" = UNSAT (it is the ~ class), "on the BASE" = SAT; both
+                                solvers both halves, control flips. This is the object that grounds
+                                a=a iff a~b, the ratchet engagement, and the chirality seed together
+                                -- not another fragment. distinguishability_engine_core_sim.py;
+                                figures/distinguishability_engine_core.png. numpy+z3+cvc5.
+                                ALSO: root_axiom_sim.py corrected (entropy = a later MEASURE of
+                                distinguishability, not "the one substance").
+
 ################################################################################
 # THE OPEN ITEMS, CONSOLIDATED (what actually needs work, by priority)
 ################################################################################
