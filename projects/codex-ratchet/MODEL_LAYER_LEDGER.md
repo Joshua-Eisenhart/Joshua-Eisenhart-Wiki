@@ -1086,6 +1086,17 @@ are STRUCTURALLY COUPLED within Type-1 (only 4/8 combos reachable; chart ties ou
 unitary-vs-CPTP overlaps A5 T-vs-F); v0.1 fix = extract a1 from terrain-branch chi1 signs. These are the
 acceptance tests for the engine layer.
 
+UPDATE (JP packet 20260703, newer axes doc + referee round): a1-a5 is now RESOLVED (v0.1): with the
+terrain-branch kernel (chi1 signs) a1_branch-a5 NMI = 0.000000 exactly, 4/4 reachable -> INDEPENDENT; the v0
+proxy a1_opchar-a5 NMI = 1.000000 was the A5 bit renamed (trap confirmed live, both proxies kept as the
+teaching receipt). 5-free-DOF algebra upheld. TWO FURTHER REFEREE-LANDED SHARPENINGS: (1) Axis-0 parity is
+THREE objects never to conflate -- a0_discrete (terrain-sign XOR, where the XOR law is proven), b0_chart
+(sign cos 2eta), A0_bridge (Phi0 o Xi, still missing); no eta-space flip-location theorem exists yet (open
+falsifier: perturb eta near pi/4, test if discrete XOR predicts flip loci). (2) BOTH the XOR law and b6=-b0*b3
+are CHART-LOCAL: the SMT proofs + measurement consume chart/probe b0 (sign r_z), NOT bridge-A0 -- provisional
+until the Xi bridge exists. This means the "Axis-6 bilinear b6=-b0*b3 FORCED" result in the ledger is chart-b0
+scoped, not bridge-scoped.
+
 IMPACT ON PRIOR WORK: earlier sims that used flux-sign (eps=+/-1, H=+/-H0) as the Type1/Type2 discriminator
 were reading a GEOMETRIC property as if it were the engine-type axis. Not wrong as geometry, but mislabeled as
 "the axis". When the spine reaches the engine layer, Type1/Type2 must be rebuilt from Axis-3 (loop) AND Axis-4
