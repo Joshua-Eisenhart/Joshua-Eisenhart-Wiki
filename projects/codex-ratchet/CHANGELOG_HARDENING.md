@@ -616,3 +616,23 @@ UP-49 NEW LAYER 0.9  qit_fep_ratchet_sim.py -- a pure-QIT FEP DERIVED FROM the c
                (5) active selection = min-surprise (z->Ti, x->Te). (6) z3 AND cvc5: law fits, foreign-forced
                control UNSAT->SAT. LOOP-BACK: FEP is a different VIEW of the ratchet, not a new mechanism.
                Hypothetical lane; no Friston hierarchical continuous-state claim. FULL HARNESS VERIFIED: 62 pass / 0 fail / 0 skip GREEN (incl JAX + Julia lanes).
+
+
+# LAYER 0.10 — ACTIVE HALF OF QIT-FEP: POLICY SELECTION ON THE MANIFOLD — 2026-07-03
+UP-50 NEW LAYER 0.10  qit_active_inference_planning_sim.py -- the ACTIVE half of the QIT Free Energy
+               Principle (0.9 built perceptual), run as a PLANNING loop over operator PATHS. A policy is a
+               sequence of native operators (Ti/Te dephasings + F rotations); cost = PATH INTEGRAL of
+               surprise G(pi)=sum_t S(rho_t||goal); active inference = select min-cost policy. All CPTP +
+               relative entropy; NO reward, NO temperature, NO classical probability (goal = density-op
+               prior, cost = distinguishability). RESULTS: (1) PRAGMATIC: min-path-integral policy reaches
+               a tilted-pointer goal (rotate-then-commit), final surprise 0.06 from 0.16. (2) N01 INHERITED:
+               100/125 3-step policies cost != reverse (mean gap 0.21, max 0.87); selected fwd 0.31 vs rev
+               0.84 -- policy space carries the manifold's noncommutation, the SAME path-dependence as the
+               0.8 octonion-network bracketing gap. (3) EPISTEMIC (resolve which-concept, soft posterior
+               q(c)~exp(-S(rho||prior_c))): committing/dephasing policy resolves concept-identity (+0.013
+               bits), rotating does not (0.000) -- directional sign structure, magnitude honestly small
+               (nearby anchors). (4) GATE z3 AND cvc5: law "valid policy <=> reaches AND order-consistent"
+               fits, control "non-reaching forced valid" UNSAT-with-law->SAT-without. LOOP-BACK: closes the
+               FEP loop -- perception (0.9) relaxes surprise, action (0.10) selects the path that will; both
+               the SAME relative-entropy descent over trajectories; 0.8's N01 makes planning nontrivial.
+               Hypothetical lane; finite 3-step enumeration, not continuous optimal control. FULL HARNESS VERIFIED: 63 pass / 0 fail / 0 skip GREEN (incl JAX + Julia lanes).
