@@ -541,8 +541,9 @@
                                 first. (C) 7-AXIS ORTHOGONALITY LATTICE: 5 primitive DOF
                                 (b1,b2,b3,b4,b5) jointly free (all 2^5=32 realizable = mutually
                                 orthogonal); 2 derived (b0=b1*b2, b6=-(b0*b3)) FORCED -- z3 AND
-                                cvc5 both UNSAT the derived-law negation, both SAT after erasing a
-                                law (axis freed). coratchet_axis_orthogonality_sim.py;
+                                cvc5 both UNSAT the derived-law negation AND both SAT after erasing a
+                                law (axis freed) -- both halves dual-solver, the flipping control
+                                per the three-engine contract. coratchet_axis_orthogonality_sim.py;
                                 figures/coratchet_axis_orthogonality.png. numpy+scipy+z3+cvc5.
 
 ################################################################################
