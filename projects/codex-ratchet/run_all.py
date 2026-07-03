@@ -166,6 +166,8 @@ SUITE = [
    ("contains", "PASS evolution_chirality_bridge_sim")]),     # z3+cvc5; evolution/chirality bridge (F01+N01 forcing)
  ("root_axiom_sim.py", 180, False, [
    ("contains", "PASS root_axiom_sim")]),                     # z3+cvc5; root axiom a=a iff a~b + entropic monism + S-knot
+ ("distinguishability_engine_core_sim.py", 180, False, [
+   ("contains", "PASS distinguishability_engine_core_sim")]), # z3+cvc5; MODEL CORE: fiber/base distinguishability-creation engine + Berry holonomy
  ("flux_nesting_ablation_jax.py", 600, True, [
    ("approx", r'"total_chern_forward":\s*([0-9.]+)', 7.295389, 1e-3)]),
  ("manifold_build_ladder.py", 600, True, [
