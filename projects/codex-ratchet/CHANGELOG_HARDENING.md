@@ -707,3 +707,20 @@ UP-55 NEW LAYER 0.13  quantum_hopfield_memory_sim.py -- a quantum associative me
                portable interpreter discovery (current -> $CR_TORCH_PYTHON -> sibling conda env importing
                torch) so learning-claim sims run wherever torch lives; harness stays GREEN on any machine
                (SKIP if no torch). FULL HARNESS PENDING.
+
+
+# LAYER 0.14 — spinor memory — 2026-07-03
+UP-56 NEW LAYER 0.14  spinor_memory_sim.py -- the two 1-bit memory registers that live in the spinor psi and
+               are INVISIBLE to the density rho (scaffold 104/153: "the density quotient kills global spinor
+               phase, lifted path, 720deg return, holonomy"). (A) 720-DEGREE LOOP-PARITY bit: U(t)=exp(-i t/2
+               n.sigma) gives spinor sign +1/-1/+1 at t=0/2pi/4pi (the Carnot-deductive + Szilard-inductive
+               dual stack as one 720 cycle), carried in psi, density distance identically 0 at every stage.
+               (B) SHEET-GATED RETENTION bit: a z-encoded bit under the direct sheet's z-dephasing survives
+               (fidelity 1.0 for 300 ticks); under the conjugated sheet's x-dephasing it decays to 0.0 (>100x
+               ratio) -- independently reproduces the owner's local dual-engine measurement (direct 1.0,
+               conjugated 0.146). (C) z3 AND cvc5 gate: the parity bit is spinor-only (spinor_reads XOR
+               density_reads), forced-density-readable control flips. Loop-back: this is why the Axis-0 sims
+               had to re-base at spinor level; the spinor memory is the psi-only register (loop-parity +
+               sheet-history) that the associative memory (0.13, density pointer = which pattern) runs
+               alongside -- two registers, one carrier. FULL HARNESS VERIFIED: 67 pass / 0 fail / 0 skip
+               GREEN (incl torch + JAX + Julia lanes).
