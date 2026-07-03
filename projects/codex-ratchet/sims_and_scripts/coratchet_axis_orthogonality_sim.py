@@ -110,16 +110,32 @@ def cvc5_derived_forced(law):
     s.assertFormula(eq(b6v,neg(mul(b0v,b3))))
     s.assertFormula(ne(b0v,mul(b1,b2)) if law=='b0' else ne(b6v,neg(mul(b0v,b3))))
     return str(s.checkSat())
+def cvc5_erased_frees(law):  # drop the queried law -> axis free (SAT with a differing value)
+    s=cvc5.Solver(); s.setLogic("QF_NIA"); I=s.getIntegerSort()
+    b1,b2,b3,b0v,b6v=[s.mkConst(I,n) for n in ('b1','b2','b3','b0','b6')]
+    one=s.mkInteger(1); m1=s.mkInteger(-1)
+    for v in (b1,b2,b3,b0v,b6v):
+        s.assertFormula(s.mkTerm(Kind.OR,s.mkTerm(Kind.EQUAL,v,one),s.mkTerm(Kind.EQUAL,v,m1)))
+    eq=lambda a,b: s.mkTerm(Kind.EQUAL,a,b); ne=lambda a,b: s.mkTerm(Kind.NOT,eq(a,b))
+    mul=lambda a,b: s.mkTerm(Kind.MULT,a,b); neg=lambda a: s.mkTerm(Kind.NEG,a)
+    b0law=s.mkTerm(Kind.OR,s.mkTerm(Kind.AND,eq(b1,b2),eq(b0v,one)),s.mkTerm(Kind.AND,ne(b1,b2),eq(b0v,m1)))
+    b6law=eq(b6v,neg(mul(b0v,b3)))
+    if law=='b0':  # keep b6 law, drop b0 law, demand b0 differs from the product
+        s.assertFormula(b6law); s.assertFormula(ne(b0v,mul(b1,b2)))
+    else:          # keep b0 law, drop b6 law, demand b6 differs
+        s.assertFormula(b0law); s.assertFormula(ne(b6v,neg(mul(b0v,b3))))
+    return str(s.checkSat())
 
 z0f,z6f=z3_derived_forced('b0'),z3_derived_forced('b6')
 z0e,z6e=z3_erased_frees('b0'),z3_erased_frees('b6')
 c0f,c6f=cvc5_derived_forced('b0'),cvc5_derived_forced('b6')
-print(f"    z3: b0 forced={z0f} b6 forced={z6f} (unsat=derived, no freedom) | erase-frees b0={z0e} b6={z6e} (sat)")
-print(f"    cvc5: b0 forced={c0f} b6 forced={c6f}")
+c0e,c6e=cvc5_erased_frees('b0'),cvc5_erased_frees('b6')
+print(f"    z3:   b0 forced={z0f} b6 forced={z6f} | erase-frees b0={z0e} b6={z6e}")
+print(f"    cvc5: b0 forced={c0f} b6 forced={c6f} | erase-frees b0={c0e} b6={c6e}")
 
 assert mono_own and plateau>0.05 and pump>0.05, "co-ratchet: monotone own, plateau foreign-T, pump foreign-F"
 assert dS_T>0.05 and abs(dS_F)<1e-9, "Ax5: T entropy-producing, F entropy-neutral"
 assert free5 and len(set(derived_pairs.values()))==4, "5 primitive DOF free, derived determined"
-assert z0f=="unsat" and z6f=="unsat" and c0f=="unsat" and c6f=="unsat", "derived axes forced (z3+cvc5)"
-assert z0e=="sat" and z6e=="sat", "erasing a derived law frees the axis"
+assert z0f=="unsat" and z6f=="unsat" and c0f=="unsat" and c6f=="unsat", "derived axes forced (z3+cvc5 both UNSAT)"
+assert z0e=="sat" and z6e=="sat" and c0e=="sat" and c6e=="sat", "erasing a derived law frees the axis (z3+cvc5 both SAT — the flipping control, per the three-engine contract)"
 print("\nPASS coratchet_axis_orthogonality_sim")
