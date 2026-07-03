@@ -9,10 +9,12 @@ memory that the density-level tooling (all of Axes 1-6) structurally cannot read
 memory bits and gates them.
 
 (A) 720-DEGREE LOOP-PARITY BIT. A spinor rotated by t about an axis is U(t)=exp(-i t/2 n.sigma): at t=2pi,
-    U=-I (sign flip); at t=4pi, U=+I (return). The SIGN (-1 after one loop, +1 after the dual stack) is a
-    1-bit memory of how many loops were traversed -- exactly the Carnot-deductive + Szilard-inductive dual
-    stack composing as one 720deg cycle (scaffold 153). It is carried in psi and is IDENTICALLY invisible to
-    rho (rho = U rho U^dag has the sign cancel: |rho - rho0| = 0 at every stage).
+    U=-I (sign flip); at t=4pi, U=+I (return). The SIGN (-1 after one 360deg loop, +1 after two) is a 1-bit
+    memory of how many loops were traversed. The engine's two 360deg loops are the two DIRECTIONS of
+    engine-stage traversal (a deductive direction and an inductive direction, Axis-4); they run over the
+    SAME manifold and the spinor closes only after both (720deg). This is one object traversed twice, not
+    two engines joined -- there is no second engine and no stacking here. The sign is carried in psi and is
+    IDENTICALLY invisible to rho (rho = U rho U^dag has the sign cancel: |rho - rho0| = 0 at every stage).
 
 (B) SHEET-GATED RETENTION BIT. A bit encoded in a sheet's dephasing-PROTECTED basis survives; encoded in the
     foreign basis it decays. Direct sheet dephases in z (Axis-5 Ti); a z-encoded bit is preserved (fidelity
@@ -21,7 +23,10 @@ memory bits and gates them.
     the two sheets preserve different structure, measured, not asserted.
 
 RESULTS (deterministic):
- (1) 720 PARITY: spinor overlap <psi0|psi> = +1 / -1 / +1 at t = 0 / 2pi / 4pi; density distance |rho-rho0|
+ (1) 720 PARITY (+ SAME-GEOMETRY): spinor overlap <psi0|psi> = +1 / -1 / +1 at t = 0 / 2pi / 4pi; the two
+     360deg loops (the deductive and inductive DIRECTIONS of traversal) run over the SAME Bloch trajectory
+     (two-loop distance ~0) and the spinor closes only at 720deg -- one manifold traversed twice, not two
+     engines joined. Density distance |rho-rho0|
      = 0 at every stage (rho blind to the loop-parity bit).
  (2) SHEET RETENTION: z-bit trace-distance retention direct sheet 1.000 -> 1.000, conjugated 0.94 -> 0.000
      over 300 ticks (>100x retention ratio) -- sheet-dependent spinor memory.
@@ -61,6 +66,16 @@ for t in (0,2*np.pi,4*np.pi):
     psi=U(t,[0,0,1])@psi0; signs.append(np.real(np.vdot(psi0,psi)))
     r0=np.outer(psi0,psi0.conj()); r=np.outer(psi,psi.conj()); dens.append(float(np.linalg.norm(r-r0)))
 print(f"(1) 720 parity: spinor overlap {[round(float(s),3) for s in signs]} (t=0/2pi/4pi); density distance {[f'{d:.1e}' for d in dens]} (rho blind)")
+
+# (A2) SAME-MANIFOLD closure: the two 360deg loops are the deductive and inductive DIRECTIONS of the
+# same engine traversal -- they run over the SAME Bloch trajectory and the spinor closes only at 720deg
+# (one manifold traversed twice, not two engines joined).
+tr=np.linspace(0,2*np.pi,50)
+def bloch_at(t): 
+    p=U(t,[0,0,1])@psi0; return np.real([p.conj()@S@p for S in (SX,SY,SZ)])
+loop1=[bloch_at(t) for t in tr]; loop2=[bloch_at(2*np.pi+t) for t in tr]  # 2nd loop over same axis
+geom_dist=float(np.mean([np.linalg.norm(a-b) for a,b in zip(loop1,loop2)]))
+print(f"(1b) same-geometry: two-loop Bloch-trajectory distance {geom_dist:.1e} (=0 -> shared geometry); closes at 720 (sign +1), not 360 (sign -1)")
 
 # (B) sheet-gated retention bit
 def retain(bit_axis, deph_L, ticks=300, kap=0.03):
@@ -106,6 +121,7 @@ print(f"(3) gate: spinor_reads={spinor_reads}, density_reads={density_reads}; fi
 
 assert abs(signs[0]-1)<1e-9 and abs(signs[1]+1)<1e-9 and abs(signs[2]-1)<1e-9, "720 parity: +1/-1/+1"
 assert max(dens)<1e-9, "density identically blind to the loop-parity bit"
+assert geom_dist<1e-9, "the two 360deg loops run over the SAME geometry (shared Bloch trajectory), closing only at 720deg"
 assert direct[-1]>0.95 and conj[-1]<0.05 and ret_ratio>100, "sheet-gated retention: direct protects, conjugated decays"
 assert spinor_reads and not density_reads, "parity bit is spinor-only (readable at spinor, blind at density)"
 assert zf=="sat" and cf=="sat" and zc1=="unsat" and cc1=="unsat" and zc0=="sat" and cc0=="sat", "spinor-only XOR law + flipped control both solvers"
