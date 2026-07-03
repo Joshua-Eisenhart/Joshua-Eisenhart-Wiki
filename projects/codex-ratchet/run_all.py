@@ -164,6 +164,8 @@ SUITE = [
    ("contains", "PASS biochem_bridge_sim")]),                 # z3+cvc5; biochem bridge (tunneling switch)
  ("evolution_chirality_bridge_sim.py", 180, False, [
    ("contains", "PASS evolution_chirality_bridge_sim")]),     # z3+cvc5; evolution/chirality bridge (F01+N01 forcing)
+ ("root_axiom_sim.py", 180, False, [
+   ("contains", "PASS root_axiom_sim")]),                     # z3+cvc5; root axiom a=a iff a~b + entropic monism + S-knot
  ("flux_nesting_ablation_jax.py", 600, True, [
    ("approx", r'"total_chern_forward":\s*([0-9.]+)', 7.295389, 1e-3)]),
  ("manifold_build_ladder.py", 600, True, [
