@@ -137,11 +137,11 @@ c. Above 95% permutation null: a1-a5 and a4-b3 (both dual-SMT gated).
      PREDICTION (falsifiable at type2 build): pooling Type-2 rows (opposite
      pairing) restores independence, 8/8 reachable. If not, coupling is
      deeper than type.
-   - a1-a5: most likely the DOCUMENTED CONFLATION TRAP CAUGHT LIVE — the v0
-     probe extracted a1 from the operator factor's unitary-vs-CPTP character,
-     which overlaps A5's T-vs-F split. v0.1 fix specified: extract a1 from the
-     terrain-branch kernel (chi1 signs). If dependence survives corrected
-     extraction, it is a genuine undocumented relation -> discriminator sim.
+   - a1-a5: RESOLVED (v0.1, 2026-07-03): with the terrain-branch kernel
+     (chi1 signs), a1_branch-a5 NMI = 0.000000 exactly, 4/4 combinations
+     reachable — INDEPENDENT; the v0 proxy a1_opchar-a5 NMI = 1.000000 (it
+     was the A5 bit renamed). Trap confirmed live; 5-free-DOF algebra upheld.
+     Both proxies kept in the results as the anti-conflation teaching receipt.
    - a6: separable (confirmed own DOF).
 d. Entropy-gradient sorting NULL at engine-leg level (entropy_gradient_axis
    probe, commit 89c58a893): no axis (nor operator class, 84th pct < 95% bar)
