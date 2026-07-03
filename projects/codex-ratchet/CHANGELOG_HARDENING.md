@@ -770,3 +770,22 @@ UP-59b ATTRIB 0.16  surface_identity_sim.py -- added prior-art attribution: the 
                Swanson/Chua critique noted. The ownable claim is narrowed to the TERRAIN-LEVEL rendering as an
                application inside the constraint-first stack, not a rediscovery. Also fixed a harness syntax
                break (missing newline jammed the surface_identity entry into the next tuple). FULL HARNESS VERIFIED: 69 pass GREEN.
+
+
+# LOOP-BACK PACKET #3 CORRECTIONS — 2026-07-03
+UP-60 REPAIR  Applied WEB_THREAD_LOOPBACK_3 corrections (referee panel + stamp-inflation sweep):
+   Hopfield (1a-1d): dropped the "~0.14N Hopfield limit" analogy -- the quartic |<p|psi>|^4 is DENSE
+     associative memory (Krotov-Hopfield/Demircigil), capacity~dim, NOT classical Hebbian 0.14N; labeled the
+     patterns Haar-random/best-case with correlated/adversarial untested; reframed the n=1,2 floor as a
+     measured CONSEQUENCE of the dimension law (not a discovery); labeled E(psi) explicitly as ATTRACTOR
+     ENERGY (Lyapunov landscape), NOT a Hamiltonian (preempts physical-dynamics misread).
+   qit_active_inference_planning (3): "planning INHERITS noncommutation" -> order-sensitivity from generic
+     noncommuting stage maps (the property N01 names), a shared property not a derived inheritance.
+   qit_fep_ratchet (3): "forced (stage 1)"/"one earned stage" -> distinguishing-test-with-flip-control
+     wording; "quantum Markov chain" -> CLASSICAL-CMI scope (diagonal states), consistent with the 0.9 note.
+   Ledger stamp sweep (2,3): 0.11 "Scope: earns" -> "Scope: measures ... each with a flip/erase control,
+     hypothetical lane"; 0.10 "N01 INHERITED" -> "ORDER-SENSITIVE (from generic noncommuting maps)";
+     signed_axis0 0.3 -- added Gaussian core/halo DEMONSTRATION-only status (was in code, missing from
+     ledger); weak_force 20.1 -- "earned parity structure"/"FORCED" -> "admits ... hypothetical lane" /
+     "STRUCTURE-FORCED within the chiral-algebra construction". All sims docstring/prose-only; still PASS.
+   FULL HARNESS VERIFIED: 69 pass / 0 fail / 0 skip GREEN.
