@@ -184,6 +184,8 @@ SUITE = [
    ("contains", "PASS cosmogenesis_persistence_sim")]),         # Layer 0.6: least persisting carrier between fuzz frames = norm-preserving spinor; entangled expanding field
  ("perspective_convergence_sim.py", 120, False, [
    ("contains", "PASS perspective_convergence_sim")]),          # z3+cvc5; Layer 0.7 loop-back: gravity/chirality/cosmogenesis are ONE state's projections; signed I_c is master
+ ("octonion_spinor_network_sim.py", 120, False, [
+   ("contains", "PASS octonion_spinor_network_sim")]),          # Layer 0.8: nonassoc as path-bracketing network observable; G2=Aut(O) ACTION exhibited (loop-back item 3)
  ("flux_nesting_ablation_jax.py", 600, True, [
    ("approx", r'"total_chern_forward":\s*([0-9.]+)', 7.295389, 1e-3)]),
  ("manifold_build_ladder.py", 600, True, [
