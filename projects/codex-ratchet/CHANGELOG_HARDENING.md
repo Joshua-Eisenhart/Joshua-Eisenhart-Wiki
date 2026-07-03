@@ -836,3 +836,15 @@ UP-65 AXIS AUTHORITY  Adopted axes-full-layout-relations-anti-conflation-2026-07
                never primitive coords; verified all four spine sims (L1/L2/L3/L4) grepped for axis content -- each carries only
                "No terrain/axis/engine claim rides on this", geometry-only, matches global lock. Recorded a4-b3 coupling prediction + a1-a5 conflation trap as engine-layer
                acceptance tests. Doc travels in every future bundle. Harness unaffected (docs only).
+
+UP-66 JP PACKET     Processed jp_complete_packet_20260703 (JP mesh node). (1) Two-builder Type-1 convergence
+               CONFIRMED: my independent type1_engine_igt chart matches JP's node 8/8 on (terrain,operator,
+               casing); numeric fixed points differ (terrain L-ops candidate on both) -- convergence is on
+               STRUCTURE not numbers, both nodes must fence this. (2) Adopted JP's NEWER axes doc (resolves
+               a1-a5: a1_branch-a5 NMI=0 exactly INDEPENDENT; adds 3-object Axis-0 split a0_discrete/b0_chart/
+               A0_bridge + chart-locality fence on XOR law AND b6=-b0*b3). Corrected my ledger's "b6 FORCED"
+               to chart-b0-scoped-not-bridge. (3) Return doc CR_RETURN_TO_JP_PACKET: patches=review-only (lev
+               repo not writable here); cr_cross_engine_parity -> recommend declared lane-pair not hardcode;
+               ceiling audit incl my own L1-L4 overstatement caught+fixed; MeshSignedBundleV0 = owner GO-rec
+               scoped to signed-bundles-first; joint next object = Xi bridge at spine L8-L9 with JP's
+               quotient-lift acceptance gate. Harness unaffected (docs only), 73 GREEN.
