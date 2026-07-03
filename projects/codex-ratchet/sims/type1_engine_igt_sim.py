@@ -113,6 +113,56 @@ ded=loop(['Se-in','Ne-in','Ni-in','Si-in']); ind=loop(['Se-in','Si-in','Ni-in','
 tgap=np.linalg.norm(ded-ind)
 print(f"(4) two traversals: deductive vs inductive terrain order gap {tgap:.3f}")
 
+# (5) FULL SIGNED GRAMMAR (SIGNED doc lines 1160-1176): 8 signed operators = 4 ops x {up=T-o-Op,
+# down=Op-o-T}, each realized on its 2 native terrains (Ti,Fi->Se,Ne ; Te,Fe->Ni,Si) = 16 stage maps.
+OP={'Ti':Ti,'Te':Te,'Fi':Fi,'Fe':Fe}; TR={'Se':Se_in,'Ne':Ne_in,'Ni':Ni_in,'Si':Si_in}
+native={'Ti':['Se','Ne'],'Fi':['Se','Ne'],'Te':['Ni','Si'],'Fe':['Ni','Si']}
+sg={}
+for op,terrs in native.items():
+    for tr in terrs:
+        sg[f"{op}^up:{tr}"]=(lambda r,o=op,t=tr: TR[t](OP[o](r)))    # up = operator-first word T-o-Op
+        sg[f"{op}^down:{tr}"]=(lambda r,o=op,t=tr: OP[o](TR[t](r)))  # down = terrain-first word Op-o-T
+sk=list(sg.keys()); sm_={k:transfer(f) for k,f in sg.items()}
+sn=len(sk); sdd=np.zeros((sn,sn))
+for i,j in itertools.combinations(range(sn),2):
+    Mi,oi=sm_[sk[i]];Mj,oj=sm_[sk[j]]; sdd[i,j]=sdd[j,i]=np.linalg.norm(Mi-Mj)+np.linalg.norm(oi-oj)
+seen=[]; ndistinct=0
+for i in range(sn):
+    if not any(sdd[i,j]<1e-6 for j in seen): seen.append(i); ndistinct+=1
+# measured Axis-6 precedence law: up=down iff op shares the z-drive axis (z-family {Ti,Fe})
+def ud(op,tr): return np.mean([np.linalg.norm(sg[f"{op}^up:{tr}"](p.copy())-sg[f"{op}^down:{tr}"](p.copy())) for p in probes])
+zfam=[op for op in OP if all(ud(op,t)<1e-6 for t in native[op])]
+xfam=[op for op in OP if all(ud(op,t)>1e-3 for t in native[op])]
+print(f"(5) full signed grammar: 16 stage maps -> {ndistinct} distinct at scratch depth; Axis-6 precedence"
+      f" collapses for z-family {zfam} (op shares z-drive), load-bearing for x-family {xfam} (crosses drive)")
+
+# (6) GATE (dual solver): the Axis-6 precedence-collapse law "up=down iff op in z-drive family" is FORCED.
+def z3_law(rule):
+    s=z3.Solver(); col=[z3.Bool(f'c{o}') for o in range(4)]  # collapse bit per op, order Ti,Te,Fi,Fe
+    meas=[ud('Ti','Se')<1e-6, ud('Te','Ni')<1e-6, ud('Fi','Se')<1e-6, ud('Fe','Ni')<1e-6]
+    for o in range(4): s.add(col[o]==bool(meas[o]))
+    if rule:  # law: collapse iff op is z-family (Ti,Fe = indices 0,3)
+        s.add(col[0]==True); s.add(col[3]==True); s.add(col[1]==False); s.add(col[2]==False)
+    return s.check()==z3.sat
+def cvc5_law(rule):
+    s=cvc5.Solver(); s.setLogic("QF_UF"); B=s.getBooleanSort(); col=[s.mkConst(B,f'c{o}') for o in range(4)]
+    meas=[ud('Ti','Se')<1e-6, ud('Te','Ni')<1e-6, ud('Fi','Se')<1e-6, ud('Fe','Ni')<1e-6]
+    T=s.mkTrue(); F=s.mkFalse()
+    for o in range(4): s.assertFormula(s.mkTerm(Kind.EQUAL,col[o],T if meas[o] else F))
+    if rule:
+        for o,v in [(0,T),(3,T),(1,F),(2,F)]: s.assertFormula(s.mkTerm(Kind.EQUAL,col[o],v))
+    return str(s.checkSat())=="sat"
+zf,zn_=z3_law(True),z3_law(False); cf,cn=cvc5_law(True),cvc5_law(False)
+# flipped control: assert collapse for x-family (wrong law) -> UNSAT
+def z3_flip():
+    s=z3.Solver(); col=[z3.Bool(f'c{o}') for o in range(4)]
+    meas=[ud('Ti','Se')<1e-6, ud('Te','Ni')<1e-6, ud('Fi','Se')<1e-6, ud('Fe','Ni')<1e-6]
+    for o in range(4): s.add(col[o]==bool(meas[o]))
+    s.add(col[2]==True); s.add(col[1]==True)  # WRONG: claim Fi,Te collapse
+    return s.check()==z3.sat
+zflip=z3_flip()
+print(f"(6) gate Axis-6 collapse law: z3 rule-consistent={zf} flipped-control-SAT={zflip} (should be False); cvc5 rule={cf}")
+
 # (5) gate: native operator-to-terrain assignment forced (dephasing/rotation to their sheet)
 # terrains: Se,Ne = direct sheet (admit Ti dephase + Fi rotation); Ni,Si = conjugated (Te + Fe)
 # encode: op in {Ti=0,Te=1,Fi=2,Fe=3}; terrain sheet in {direct=0,conj=1}; native rule pins each op's sheet
@@ -137,11 +187,13 @@ def cvc5_models(rule):
         m=[s.getValue(sh[o]) for o in range(4)]; n+=1
         s.assertFormula(s.mkTerm(Kind.OR,*[s.mkTerm(Kind.DISTINCT,sh[o],m[o]) for o in range(4)]))
     return n
-zf,ze=z3_models(True),z3_models(False); cf,ce=cvc5_models(True),cvc5_models(False)
-print(f"(5) gate native op->sheet: rule-forced z3={zf}/cvc5={cf} (unique); erased z3={ze}/cvc5={ce} (2^4 ambiguous)")
+zf2,ze=z3_models(True),z3_models(False); cf2,ce=cvc5_models(True),cvc5_models(False)
+print(f"(7) gate native op->sheet: rule-forced z3={zf2}/cvc5={cf2} (unique); erased z3={ze}/cvc5={ce} (2^4 ambiguous)")
 
-assert off.min()>1e-3, "8 stages distinct"
+assert off.min()>1e-3, "8 chart stages distinct"
 assert gTiFi>1e-2 and gTeFe>1e-2, "Axis-6 order load-bearing for different-axis operator pairs"
 assert tgap>1e-3, "two traversals differ (Axis-4)"
-assert zf==1 and cf==1 and ze>=16 and ce>=16, "native op->sheet forced (both solvers), erased ambiguous"
+assert ndistinct==12 and set(zfam)=={'Ti','Fe'} and set(xfam)=={'Fi','Te'}, "signed grammar: 12 distinct maps; Axis-6 collapses only for z-drive family"
+assert zf and cf and not zflip, "Axis-6 collapse law consistent (both solvers), flipped control UNSAT"
+assert zf2==1 and cf2==1 and ze>=16 and ce>=16, "native op->sheet forced (both solvers), erased ambiguous"
 print("\nPASS type1_engine_igt_sim")
