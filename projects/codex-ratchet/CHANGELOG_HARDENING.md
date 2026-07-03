@@ -389,3 +389,22 @@ UP-32 NEW SIM  coupled_coratchet_dualloop_sim.py -- entropy ratchet + operator r
                fixed points. (B) chirality asymmetry: LEFT-RIGHT flux sign-consistent across 200
                probes (mean +0.31). (C) orderings noncommute (0.22); z3 AND cvc5 model-count the
                chirality words: alternating->2, else 16 (count flips). numpy+scipy+z3+cvc5. 48 pass.
+
+
+# Biochemistry bridge — 2026-07-02 (Layer 18.1, bridge ladder rung 4)
+UP-33 NEW SIM  biochem_bridge_sim.py -- two-state biomolecular switch as a qubit; coherent
+               tunneling L<->R = noncommutative (no classical shadow). (A) T=0 tunneling exact vs
+               analytic. (B) quantum rate floor vs classical Kramers ->0; Arrhenius recovered.
+               (C) catalysis = dual-loop coherent channel (>2x, endpoints fixed). (D) z3+cvc5:
+               transfer requires the noncommuting tunneling term (SAT with, UNSAT without, both
+               solvers both halves). Improves on the owner's classical Kramers baseline. 49 pass.
+
+
+# Evolution / chirality bridge — 2026-07-02 (Layer 19.1, bridge ladder rung 5)
+UP-34 NEW SIM  evolution_chirality_bridge_sim.py -- two chiral operating spaces (left/right Weyl
+               engine families) as runnable math per the owner's build note. (A) both run the same
+               8-stage finite loop, drive to opposite poles (emergent). (B) mirror non-equivalence
+               (M.X_L.M=X_R but X_L!=X_R, no sign-flag collapse). (C) F01+N01 forcing gate: z3+cvc5
+               self-mirror AND noncommuting UNSAT (chirality forced), drop N01 SAT only for null.
+               (D) Frank autocatalysis: tiny bias -> homochirality. HONEST: does NOT derive WHICH
+               chirality is physical (weak-force parity is empirical input). 50 pass.
