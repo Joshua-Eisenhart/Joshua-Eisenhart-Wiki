@@ -380,3 +380,12 @@ FIX  coratchet_axis_orthogonality_sim.py -- added cvc5_erased_frees(): the erase
      control was z3-only; now BOTH z3 and cvc5 verify BOTH halves (forced=UNSAT, erased=SAT),
      satisfying the three-engine contract's requirement that both solvers agree on the flipping
      control. Harness still 47 pass.
+
+
+# Coupled co-ratchet (dual-loop 720) — 2026-07-02 (Layer 17.5, deepen the ratchet)
+UP-32 NEW SIM  coupled_coratchet_dualloop_sim.py -- entropy ratchet + operator ratchet as ONE
+               720deg double-loop (DUAL_LOOP_SPINOR_GRAMMAR, a documented runtime gap). COOL=amp
+               damping->pure pointer (non-unital, S->0), HEAT=rotate+dephase (S->1). (A) opposite
+               fixed points. (B) chirality asymmetry: LEFT-RIGHT flux sign-consistent across 200
+               probes (mean +0.31). (C) orderings noncommute (0.22); z3 AND cvc5 model-count the
+               chirality words: alternating->2, else 16 (count flips). numpy+scipy+z3+cvc5. 48 pass.
