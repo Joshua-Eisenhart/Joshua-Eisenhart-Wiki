@@ -478,3 +478,18 @@ UP-40 NEW SIM (negative result)  eps_even_a2_dissipation_foothold_sim.py builds 
                terrain-generator charge. STATE open-ledger V.2 -> RESOLVED NEGATIVE. Failure is signal:
                the decisive 7m test is not decidable by this instrument; a real a2-specific meter stays
                open. Held to Phase-X ordering (no Extend). 54 pass.
+
+
+# LAYER 0.3 — 2026-07-02 (signed Axis-0 primitive; loops back into gravity 0.2)
+UP-41 NEW LAYER  signed_axis0_primitive_sim.py builds the SIGNED Axis-0 primitive as its own
+               foundational object: coherent information I_c(A>B)=S(rho_B)-S(rho_AB)=-S(A|B), sourced
+               from ENTROPIC_MONISM sec 8 ("-S(A|B) kernel | Conditional entropy IS the entanglement
+               measure") + the entropy-tables doc (signed primitive; mutual info the unsigned
+               companion). FOUR results: (1) sign of I_c separates binding(+)/dispersing(-) where the
+               unsigned I(A:B)>=0 cannot; (2) STRUCTURAL THEOREM -- 4000 separable states max I_c=-6e-6
+               (positive I_c is a genuine, and STRICTER, entanglement witness: Werner entangled from
+               p=1/3 but binds only from p*=0.7476); (3) LOOP-BACK -- the 0.2 gravity two-regime split
+               is now the two MEASURED signs of I_c along a spatial chain (binding core attractive /
+               dispersing halo), replacing the hand-placed +/-S_anom stand-in; (4) z3+cvc5 gate,
+               derived inputs, law fits + flipped control. This EARNS the sign structure 0.2 asserted.
+               Honest scope unchanged: entropic-gravity MECHANISM under test, not a GR derivation. 55 pass.
