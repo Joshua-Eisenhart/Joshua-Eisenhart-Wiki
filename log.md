@@ -2510,3 +2510,8 @@ healthy.
 |- Changed files: `concepts/axes-full-layout-relations-anti-conflation-2026-07-03.md`, `log.md`.
 |- Evidence: repo commits f53880681 (per-axis extraction), 34d817e34 (relation algebra), 95df90d4d (measured matrix), 89c58a893 (entropy-gradient null); numpy+julia parity 0 diffs on the probe.
 |- Boundary: source-faithful extraction + scratch_diagnostic measurements; no canon promotion; Axis-0 bridge remains open; Axis-3 contested with discriminator specced not run; extends (does not replace) concepts/igt-axes-terrain-source-extraction-2026-06-04.md.
+
+## 2026-07-03 — Lev integration doctrine hardened by JP dialogue
+|- Tranche: distilled the live JP pushback into standing doctrine: the claim-type split (computable vs semantic; recompute vs witness-statistics; never gate semantic truth), engines-stay-domain-side (lev depends on contracts not engines; jax/julia no seat in pure lev; torch's perception seat unearned pending baseline win), the airbag concession (parity = reproducibility not proof; proof ladder parity < dual-SMT < Lean; one-spec-two-translations), sim definition (executable claim + failable controls + result JSON), ratchet organs-vs-properties (the four properties lev lacks = next kernel upgrades), MMM v1 de-mystified (data + four carriers, cost-ordered), constraint-engineering product frame, one-week shippables, and the JP communication method (material walkthroughs, concede-first).
+|- Changed files: `projects/leviathan-current/LEV_INTEGRATION_DOCTRINE_FROM_JP_DIALOGUE_2026-07-03.md`, `log.md`.
+|- Boundary: doctrine distillation only; no lev code changes; claim ceilings preserved (torch seat unearned, kernel conditional, engines not running as doctrine objects).
