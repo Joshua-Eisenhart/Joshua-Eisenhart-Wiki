@@ -1,3 +1,74 @@
+## 2026-07-03 - Cron tick Queue A repo-current route/status repair
+
+- Scope: one bounded routing/project-tracker tranche after preflight `wiki_probe.py` was clean; no repo edit, no sim/test rerun, no external model swarm, no new public page, and no proof/status promotion.
+- Changed files: [[hermes-current/wiki-ingest-queue-and-priorities]] and [[log]].
+- Patch: corrected Queue A from stale `system_v5/new docs/` paths to live `system_v5/docs/` routes, mapped already-landed repo-current doctrine/bridge docs to their existing wiki slugs, and marked `sim_process_gap_log.md` plus `CLASSICAL_DOC_ILLUMINATION_INDEX.md` as the remaining open Queue A wiki-landing gaps.
+- Claim ceiling: routing/project-tracker snapshot only. This tick checked file presence and wiki landing routes and reread selected authority docs; it did not rerun validators, result artifacts, repo tests, or promote any Codex Ratchet claim.
+- Verification: preflight `/tmp/wiki_probe_cron_pre.json` and post-patch/pre-log `/tmp/wiki_probe_cron_mid.json` were clean (`page_count=460`, `index_header_count=460`, `indexed_link_count=589`, all structural buckets empty); `git diff --check` passed. Final post-log probe for this tick is `/tmp/wiki_probe_cron_post.json`.
+
+## 2026-07-02 - Cron tick IGT Axis4 discriminator design
+
+- Scope: one bounded proposal/test-design tranche after preflight `wiki_probe.py` was clean; no repo edit, no sim run, no broad source reinterpretation, no external model swarm, and no proof/status promotion.
+- Changed files: [[igt-axes-terrain-source-extraction-2026-06-04]], [[hermes-current/wiki-ingest-queue-and-priorities]], and [[log]].
+- Patch: added a source-locked Axis4 symbol-direction discriminator design that keeps the runtime anchor at `UEUE`/`EUEU` or `Phi_D`/`Phi_I`, treats clockwise/counterclockwise and older `TiFe`/`FeTi` wording as testable overlays only, and records the prior `ax4_julia_results.json` as snapshot evidence rather than a fresh rerun.
+- Claim ceiling: proposal/test design only. This tick did not rerun Julia/JAX/PyTorch, admit Axis4 symbol direction, settle trigram canon, prove runtime schedule closure, or promote IGT/QIT-engine/Axis0/bridge/physics claims.
+- Verification: final post-log probe `/tmp/wiki_probe_cron_post.json` clean (`page_count=460`, `index_header_count=460`, `indexed_link_count=582`, all structural buckets empty); `git diff --check` passed.
+
+## 2026-07-02 - Cron tick IGT 64-slot scaffold fencing
+
+- Scope: one bounded routing/claim-ceiling tranche after preflight `wiki_probe.py` was clean; no repo edit, no sim rerun, no external model swarm, no new public page, and no proof/status promotion.
+- Changed files: [[igt-axes-terrain-source-extraction-2026-06-04]], [[hermes-current/wiki-ingest-queue-and-priorities]], and [[log]].
+- Patch: reread `64_HEXAGRAM_STATE_SPACE.md` from the live repo and Desktop mirror plus the prior `eng_64_hexagram_julia_results.json` artifact; routed stale Ax3/Ax4/Ax5 line meanings into the existing IGT/hexagram router as fences while preserving the useful 2^6 address scaffold.
+- Claim ceiling: source/routing guard only. The `eng_64` artifact remains snapshot evidence (`tool_lego_fit_probe`, `promotion_allowed=false`, `n_distinct=16`); this tick did not rerun Julia/JAX/PyTorch, admit trigram canon, prove runtime schedule closure, or promote QIT-engine/Axis0/bridge/physics claims.
+- Verification: final post-log probe `/tmp/wiki_probe_cron_post.json`; `git diff --check` run in this tick.
+
+## 2026-07-01 - Cron tick PEPS3D/CTMRG carrier-routing correction
+
+- Scope: one bounded routing-coherence tranche after preflight `wiki_probe.py` was clean; no repo edit, no sim run, no external model swarm, and no carrier/proof/status promotion.
+- Changed files: `hermes-current/wiki-ingest-queue-and-priorities.md`, `projects/codex-ratchet/read-first.md`, `projects/codex-ratchet/STATUS.md`, `projects/codex-ratchet/qit-igt-engine-valid-results-and-running-guide-2026-06-05.md`, `concepts/axis0-current-doctrine-state-card.md`, `concepts/deflation-map-2026-06-04.md`, `concepts/manifold-wizard-operation-router.md`, `concepts/qit-engine-geometry-entropy-bridge.md`, `concepts/repo-tool-use-router.md`, `concepts/sim-estate-integration-index-router.md`, `specs/codex-ratchet/formal-scout-readiness-status.md`, `wizard/harness-consolidated/harness-steering-audit-2026-06-03.md`, and `log.md`.
+- Patch: separated the retired single-fused PEPS3D contraction from still-valid per-2D-layer CTMRG/PEPSKit routing, added nested PEPS2D/Hopfield + contraction-certificate wording, and kept PyTorch/JAX/Julia roles receipt/spec-bound instead of demoting or promoting from older PEPS3D notes.
+- Claim ceiling: routing hygiene and dated status wording only. This tick did not freshly rerun carrier sims, verdict audits, formal scouts, or QIT/Axis0 bridge tests; older verdict references remain prior-audit/snapshot-based.
+- Verification: final post-log probe `/tmp/wiki_probe_cron_post.json` clean (`page_count=460`, `index_header_count=460`, all structural buckets empty); `git diff --check` passed.
+
+## 2026-07-01 - Cron tick IGT Axis5 discriminator design
+
+- Scope: one bounded proposal/test-design tranche after preflight `wiki_probe.py` was clean; no repo edit, no sim run, no broad source reinterpretation, no external model swarm, and no proof/status promotion.
+- Changed files: [[igt-axes-terrain-source-extraction-2026-06-04]], [[hermes-current/wiki-ingest-queue-and-priorities]], and [[log]].
+- Patch: added a source-locked Axis5 symbolic-overlay discriminator design that keeps the runtime anchor at dephasing/gradient/semigroup versus rotation/spectral/group while testing S-curve/lobe/visual-weighting and older `FeFi`/`TiTe`/`TeTi` language only as overlays against finite observables.
+- Claim ceiling: proposal/test design only. This tick did not rerun `wb_axis5_spectral_gradient_julia`, execute Julia/JAX/PyTorch sims, reinterpret the whole source corpus, or admit Axis5, IGT, trigram, QIT-engine, Axis0 bridge/cut, or runtime schedule closure.
+- Verification: final post-log probe `/tmp/wiki_probe_cron_post.json` was clean (`page_count=460`, `index_header_count=460`, all structural buckets empty); `git diff --check` passed.
+
+## 2026-06-30 - Cron tick IGT Axis3 discriminator design
+
+- Scope: one bounded proposal/test-design tranche after preflight `wiki_probe.py` was clean; no repo edit, no sim run, no source extraction rewrite, no external model swarm, and no proof/status promotion.
+- Changed files: [[igt-axes-terrain-source-extraction-2026-06-04]], [[hermes-current/wiki-ingest-queue-and-priorities]], and [[log]].
+- Patch: added a source-locked Axis3 discriminator design that compares inner/fiber vs outer/lifted-base against live chirality/sheet and Type1/Type2 alternatives using 16 chart-locked tokens, density-motion/path-law observables, and explicit controls. Updated the queue so the next safe move is Axis5 overlay design or 64-slot scaffold fencing.
+- Claim ceiling: proposal/test design only. This tick did not rerun `wb_axis3_terrains_julia`, recompute source hashes, execute Julia/JAX/PyTorch sims, or admit Axis3, IGT, trigram, QIT-engine, Axis0 bridge/cut, or runtime schedule closure.
+- Verification: final post-log probe `/tmp/wiki_probe_cron_post.json` was clean (`page_count=460`, `index_header_count=460`, all structural buckets empty); `git diff --check` passed.
+
+## 2026-06-30 - Cron tick IGT source freshness hash guard
+
+- Scope: one bounded source-freshness/routing tranche after preflight `wiki_probe.py` was clean; no repo edit, no sim run, no extraction rewrite, no external model swarm, and no proof/status promotion.
+- Changed files: [[igt-axes-terrain-source-extraction-2026-06-04]], [[hermes-current/wiki-ingest-queue-and-priorities]], and [[log]].
+- Patch: checked the ten IGT/axes/terrain source docs at `/Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/READ ONLY Reference Docs/` and the wiki-local raw mirror under `raw/articles/system-v5-reference-docs/`; all ten were present in both places, all SHA256 values matched the source table, and the off-vault/wiki-local copies matched byte-for-byte. Receipt: `/tmp/igt_source_freshness_20260630.json`.
+- Claim ceiling: source freshness/hash routing only. This tick did not rerun the 2026-06-04 extraction, reinterpret the source docs, recompute sim/result status, or admit QIT-engine, Axis0 bridge/cut, trigram canon, or runtime schedule closure.
+- Verification: final post-log probe `/tmp/wiki_probe_cron_post.json` was clean (`page_count=460`, `index_header_count=460`, `indexed_link_count=582`, all structural buckets empty); `git diff --check` passed.
+
+## 2026-06-29 - Cron tick IGT extraction routing coherence
+
+- Scope: one bounded routing/role-clarification tranche after preflight `wiki_probe.py` was clean; no repo edit, no sim run, no external model swarm, and no proof/status promotion.
+- Changed files: [[igt-axes-terrain-source-extraction-2026-06-04]], [[current-research-overlays]], [[topic-map]], [[hermes-current/wiki-ingest-queue-and-priorities]], and [[log]].
+- Patch: recognized the existing public IGT/axes/terrain source-extraction page instead of creating a duplicate; added frontmatter and role/reading-order fences; routed the lane through the research overlay and topic map; updated the ingest queue to make the next move a bounded source-freshness recheck or one discriminator design.
+- Claim ceiling: dated source-processing and routing coherence only. This tick did not rerun the 2026-06-04 extraction, recompute source hashes, rerun Julia/JAX/PyTorch sims, or admit QIT-engine, Axis0 bridge/cut, trigram canon, or runtime schedule closure.
+- Verification before this log entry: `/tmp/wiki_probe_cron_mid.json` clean (`page_count=460`, `index_header_count=460`, `indexed_link_count=582`, all structural buckets empty); `git diff --check` passed; touched-page frontmatter/tags/source paths checked clean. Final post-log probe for this tick is `/tmp/wiki_probe_cron_post.json`.
+
+## 2026-06-29 - Cron tick Queue E IGT stale-worker routing guard
+
+- Scope: one bounded routing/project-tracker tranche after preflight `wiki_probe.py` was clean; no repo edit, no sim run, no external model swarm, and no source-pattern promotion.
+- Patched [[hermes-current/wiki-ingest-queue-and-priorities]] to fence the stale `Active: codex2 ... /tmp/igt_source_extraction.md` claim. Live check found `/tmp/igt_source_extraction.md` absent; the 10 listed IGT/axes/terrain source docs were present on disk.
+- Claim ceiling: routing guard and freshness hygiene only. The 2026-06-04 verdict audit remains a dated snapshot unless freshly rerun; this tick did not rerun codex2 verdicts, process the IGT source docs, or create pattern pages.
+- Verification: preflight and post-patch/pre-log `wiki_probe.py` were clean (`page_count=460`, `index_header_count=460`, `indexed_link_count=582`, all structural buckets empty). Final post-log probe for this tick is `/tmp/wiki_probe_cron_post.json`.
+
 ## 2026-06-28 - Codex red-team target packet preserved
 
 - Read the Claude project memory note `project_lev_spine_forgery_redteam_3roots.md` and volatile scratch packet `codex_redteam_targets.md` from disk, recording line counts and SHA256 hashes.
@@ -2427,3 +2498,15 @@ healthy.
 |- Evidence: `system_v4/probes/a2_state/sim_results/sim_rustworkx_dag_reachability_micro_results.json`.
 |- Boundary: row-level wiki routing only; no sim run, no result promotion, no graph-cell lego promotion, hypergraph incidence, cell-complex boundary, bridge, axis, GStack, QIT engine, or nonclassical claim.
 |- Verification: final `wiki_probe.py` rerun required after this log entry.
+## [2026-07-03] update | Leviathan v3.2 lineage archive and cross-links
+|- Tranche: archived the local Leviathan v3.2 source copy under the Leviathan project, recorded provenance and the v1-v3.1 lineage gap, and cross-linked the July 2026 Leviathan / CR / constraint-core merge docs to the commune model, MMM grammar/phrasebook surfaces, and Lev repo feeder refs.
+|- Changed files: `projects/leviathan-current/source/README.md`, `projects/leviathan-current/source/leviathan-v3.2.txt`, `projects/leviathan-current/RELEVANT_DOCS_INDEX_2026-07-02.md`, `projects/leviathan-current/MESH_NODE_PROTOCOL_V0_2026-07-02.md`, `projects/leviathan-current/ONE_SYSTEM_THREE_PERSPECTIVES_2026-07-02.md`, `projects/leviathan-current/KERNEL_UPGRADES_LEVIATHAN_2026-07-02.md`, `projects/leviathan-current/LEVIATHAN_CONSTRUCT_TO_MESH_MAP_2026-07-02.md`, `projects/leviathan-current/index.md`, `index.md`, `log.md`.
+|- Evidence: copied source size 281,022 bytes, sha256 `a6fb6e87c03102dcb447acf5300ce9917bf3be9a76f868ac4a8c774980b6f4b8`; wiki probe was clean before edits at `/tmp/wiki_probe.json`.
+|- Boundary: lineage/provenance and routing only; no promotion of v3.2 social constructs, no generalized mesh launch claim, and Lev repo paths are cited as repo refs rather than wiki pages.
+|- Verification: final `wiki_probe.py` rerun required after this log entry.
+
+## 2026-07-03 — Axes full layout + relation algebra + measured matrix
+|- Tranche: created the consolidated axes concept doc (per-axis explicit math 0-6 + 7-12 informal tier, the b-bit relation algebra with all laws (a0=a1 XOR a2 forced-unique; b6=-b0*b3 coefficient-forced and MEASURED on the Type-1 GKSL engine, 48/48 rows), the 21-pair relation table (5 free DOF, 2 derived), 13 anti-conflation rules with one-measurement discriminators, the Type-1/Type-2 non-reduction, and the measured-matrix findings (a4-b3 structural coupling within Type-1 with the Type-2 independence-restoration prediction; a1-a5 = the documented conflation trap caught live; entropy-gradient leg-sorting NULL).
+|- Changed files: `concepts/axes-full-layout-relations-anti-conflation-2026-07-03.md`, `log.md`.
+|- Evidence: repo commits f53880681 (per-axis extraction), 34d817e34 (relation algebra), 95df90d4d (measured matrix), 89c58a893 (entropy-gradient null); numpy+julia parity 0 diffs on the probe.
+|- Boundary: source-faithful extraction + scratch_diagnostic measurements; no canon promotion; Axis-0 bridge remains open; Axis-3 contested with discriminator specced not run; extends (does not replace) concepts/igt-axes-terrain-source-extraction-2026-06-04.md.
