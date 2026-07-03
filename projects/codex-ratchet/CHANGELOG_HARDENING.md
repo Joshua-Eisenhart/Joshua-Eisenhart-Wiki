@@ -508,3 +508,44 @@ UP-42 NEW LAYER  entropic_newton_limit_sim.py answers the owner framing ("new fo
                dark matter, BUT a0 is phenomenological NOT derived from RC-1+RC-2. Honest scope:
                (1)+(2) reproduce established entropic-gravity (Verlinde) on the substrate -- not novel
                physics; (3) owner doctrine under test (sec-7 fence). No claim to replace GR/SM. 56 pass.
+
+
+# LAYER 20.1 — 2026-07-02 (Standard-Model bridge: weak force left-handedness from F01+N01)
+UP-43 NEW LAYER  weak_force_chirality_bridge_sim.py earns one concrete SM fact -- the weak interaction
+               couples ONLY to left-handed fields (maximal parity violation) -- from the SAME F01+N01
+               move Layer 19.1 used for biological chirality, on the left-Weyl substrate. Source:
+               A2_CHIRALITY ("Universe is Type 1 LEFT_WEYL_CONVERGENT"; "Weak force parity violation:
+               only left-handed particles h=-1/2"; "Type 2 (Right) = antimatter") + axes-math sec 9
+               (Axis-3 selects Weyl rep; SU(2)/Hopf orbits). Chiral projectors P_L=1/2(1-g5). RESULTS:
+               (1) P_L vertex asymmetry A=1 (maximal, V-A) vs vector I control A=0 (parity conserved,
+               EM-like); (2) F01+N01 forces chirality -- P_L is finite + parity-noncommuting
+               (g0 P_L g0 = P_R), and the ONLY parity-symmetric combination 1/2(P_L+P_R)=I/2 is exactly
+               the parity-blind vector coupling; so any finite parity-noncommuting coupling must be
+               chiral (side=LEFT is empirical, as in 19.1); (3) z3+cvc5 gate, derived inputs, law
+               "finite AND parity-noncommuting => chiral" fits + flipped control. HONEST SCOPE:
+               reproduces the weak PARITY structure and its shared F01+N01 origin with 19.1/A2; does
+               NOT derive SU(2)xU(1), the Weinberg angle, or couplings. Owner doctrine under test;
+               no claim to replace the SM. 57 pass.
+
+
+# LAYERS 0.5 + 0.6 — 2026-07-02 (deep foundations: division-algebra ratchet + cosmogenesis persistence)
+UP-44 NEW LAYER 0.5  division_algebra_ratchet_sim.py -- the ratchet from WEAKEST structures / SHORTEST
+               leaps with nonassociativity ratcheted, as the Cayley-Dickson ladder R->C->H->O->(S kill).
+               Source: working_math_scaffold 10.3 (H assoc=0, O assoc!=0, sedenion zero-divisor kill-
+               control; G2=Aut(O)) + root_axioms:51 (nonassociativity = GROUPING-level face of N01).
+               Verified: commutativity dies at H, associativity at O (order/grouping faces of N01);
+               Hurwitz |xy|=|x||y| holds R..O, fails S; explicit sedenion zero-divisor (e1+e10)(e5+e14)=0
+               (persistence lost); G2=Aut(O) derivation-algebra dim = 14 (computed). z3+cvc5 gate:
+               "admit rung IFF it divides" fits R..O, control admit-S UNSAT-with-law -> SAT-without.
+UP-45 NEW LAYER 0.6  cosmogenesis_persistence_sim.py -- the owner's origin story (x_grok_chat_TOE lines
+               30,38: static fuzz field, no info between frames, time = sequence; "first pattern was an
+               entangled expanding field, dark energy came first"). The LEAST thing that persists between
+               information-less frames = a NORM-PRESERVING carrier (the division property of 0.5) = a
+               spinor. Verified: static fuzz frame-correlation ~0.01 (no carried time); norm-preserving
+               map persists (||psi||=1) vs lossy annihilates (~1e-9, sedenion-type death); product |00>
+               seed entangles I_c 0 -> +0.999, size 0 -> Bell (entangled expanding field); chirality ties
+               +entropy=dark energy(right)/-entropy=dark matter(left) to the two Weyl sheets (0.3+A2).
+HONEST SCOPE: 0.5 earns the ladder+kill-control+G2; does NOT build the octonion spinor network or derive
+               SM gauge from G2 (downstream, scaffold 10.4). 0.6 is a mechanism illustration of the owner
+               cosmogenesis, NOT a cosmological-constant derivation. Owner doctrine under test. FULL HARNESS VERIFIED: 59 pass / 0 fail / 0 skip GREEN
+               (in /tmp/final_base incl JAX + Julia cross-substrate lanes).
