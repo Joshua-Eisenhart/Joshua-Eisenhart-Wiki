@@ -1008,3 +1008,37 @@ Scope: earns L4 (local-factor EXISTENCE criterion) on top of L3. Does NOT build 
 strata) or above -- next rung. Weyl CHIRALITY and the engine-type split are much later objects (need flux/cut
 structure); this earns only factor existence, not handedness. No terrain/axis/engine claim rides on this.
 Artifacts: manifold_L4_local_weyl_factors_sim.py.
+
+################################################################################
+## AXIS ONTOLOGY CORRECTION (2026-07-03) — what an axis IS [foundational; constrains L11-L12 build]
+################################################################################
+CATEGORY ERROR CORRECTED: an axis is NOT a scalar observable read off a density matrix (dS/dt, purity, a
+Bloch component). An axis is a DUALITY IN THE STRUCTURE OF THE PROCESS -- a way the dynamics can be RUN --
+and BOTH POLES ADMIT THE FULL OPERATOR SET (T and F, Axis-5/6). Reading an axis as a state-functional collapses
+orthogonal DOF onto one scalar (the exact DOF-collapse the model forbids). Source:
+AXIS_FOUNDATION_COMPANION_v1.4 (Topology4 = inequivalent mathematical regimes, not stage names; Ne/Se/Ni/Si
+are ALIASES ONLY, not canon).
+
+The process-character DOF partitions (each ORTHOGONAL to the others; each admits T and F operators):
+  - open <-> closed         : environment coupling (CPTP/Lindblad) vs isolated unitary. Channel class.
+  - eulerian <-> lagrangian : lab-fixed generator vs co-moving/interaction-picture/trajectory-fixed. Frame.
+  - adiabatic <-> isothermal: hold the entropy trajectory fixed while doing work vs let entropy exchange.
+                              NOT hot/cold. NOT the F/T axis. BOTH poles run T AND F operators. (Prior sim
+                              claim "F=adiabatic, T=isothermal" was WRONG -- that conflated this axis with
+                              Axis-5. Withdrawn.)
+  - expansion <-> compression: bounded-expanding vs isotropically-contracting volume on the manifold.
+  - flux +/- (Axis-3)       : chirality / Berry-flux sign; same base surface, opposite winding.
+  - inductive <-> deductive (Axis-4): ORDER of noncommuting operations; loop order is a symptom of the class.
+
+AXIS-0 CONSEQUENCE: Axis-0 has been mis-graded as a terrain-local SCALAR; it is a process-character DOF like
+the others -- the LAST one, determinate only once the full dual-ratchet is running (consistent with 9.4
+"Axis-0 is a late object"). "Axis-0 doesn't work" reflects a failed scalar-hunt, NOT a failed axis. The owner's
+proposed Ne/Ni+ vs Se/Si- entropy split is a CANDIDATE coordinate in a search for a deep attractor basin, NOT
+a fixed canon target to score against. The honest job at L11-L12 is to dual-ratchet the axes as orthogonal
+process DOF and see which Axis-0 EMERGES, not to validate a proposed split.
+
+Impact on the earlier "adiabatic/isothermal = Axis-1/Axis-2" reframe (this session, unsaved): PARTLY WITHDRAWN.
+Axis-2 (eigenvector-frame rotation) IS identically entropy-blind (dS=0 exact) -- that stands as a property.
+But naming adiabatic/isothermal as Axis-1/Axis-2 was another scalar-collapse: adiabatic/isothermal is its OWN
+orthogonal process axis whose both poles admit T and F ops, not a relabel of the eigenvalue/eigenvector
+sectors. Not promoted.
