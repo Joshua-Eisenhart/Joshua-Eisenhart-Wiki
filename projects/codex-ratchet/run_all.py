@@ -182,6 +182,8 @@ SUITE = [
    ("contains", "PASS division_algebra_ratchet_sim")]),         # z3+cvc5; Layer 0.5: R->C->H->O ratchet, nonassoc=grouping N01, S kill-control, G2=Aut(O)
  ("cosmogenesis_persistence_sim.py", 120, False, [
    ("contains", "PASS cosmogenesis_persistence_sim")]),         # Layer 0.6: least persisting carrier between fuzz frames = norm-preserving spinor; entangled expanding field
+ ("perspective_convergence_sim.py", 120, False, [
+   ("contains", "PASS perspective_convergence_sim")]),          # z3+cvc5; Layer 0.7 loop-back: gravity/chirality/cosmogenesis are ONE state's projections; signed I_c is master
  ("flux_nesting_ablation_jax.py", 600, True, [
    ("approx", r'"total_chern_forward":\s*([0-9.]+)', 7.295389, 1e-3)]),
  ("manifold_build_ladder.py", 600, True, [
