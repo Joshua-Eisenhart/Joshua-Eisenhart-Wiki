@@ -188,6 +188,8 @@ SUITE = [
    ("contains", "PASS octonion_spinor_network_sim")]),          # Layer 0.8: nonassoc as path-bracketing network observable; G2=Aut(O) ACTION exhibited (loop-back item 3)
  ("qit_fep_ratchet_sim.py", 120, False, [
    ("contains", "PASS qit_fep_ratchet_sim")]),          # Layer 0.9: QIT FEP earned through the ratchet stage by stage (F01->functional forced, Axis-0 geometry split, Axis-5 operators=inference, 3q Markov blanket, active selection, z3+cvc5); NO thermal/classical primitive
+ ("qit_active_inference_planning_sim.py", 120, False, [
+   ("contains", "PASS qit_active_inference_planning_sim")]),          # Layer 0.10: ACTIVE half of QIT-FEP -- policy selection by path-integral free energy; N01 order-sensitivity inherited from manifold; epistemic sign structure; z3+cvc5
  ("flux_nesting_ablation_jax.py", 600, True, [
    ("approx", r'"total_chern_forward":\s*([0-9.]+)', 7.295389, 1e-3)]),
  ("manifold_build_ladder.py", 600, True, [
