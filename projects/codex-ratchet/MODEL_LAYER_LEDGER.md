@@ -860,6 +860,20 @@ composition order is load-bearing (N01): different-axis operator pairs do not co
 10, "proven only 2 exist") give different final states: deductive Se->Ne->Ni->Si vs inductive Se->Si->Ni->Ne,
 gap 0.017 (Axis-4). (5) GATE z3 AND cvc5: the native operator->sheet assignment (dephasing/rotation to their
 sheet) is FORCED (1 unique model), erased -> 2^4 ambiguous.
+Loop-back addendum (convergence packet from local node, 2026-07-03): an independent build (type1_engine_v0,
+numpy+julia) laid out the SAME Type 1 chart element-for-element (4 terrains, 4 operators, 8 stages, casings,
+two traversals), citing the same source docs. Two additions folded in from the SIGNED doc
+(QIT_ENGINE_FOUR_OPERATOR_SIGNED_MATH_20260522.md lines 1160-1176):
+ (5) THE FULL SIGNED GRAMMAR: the 8 signed operators (Axis-6 up=T-o-Op operator-first / down=Op-o-T
+     terrain-first) each realized on their 2 native terrains = 16 stage maps. At the scratch-Bloch-map depth
+     these collapse to 12 DISTINCT maps.
+ (6) MEASURED AXIS-6 PRECEDENCE LAW: up=down (precedence collapses) EXACTLY when the operator shares the
+     terrain's z-drive axis -- z-family {Ti,Fe} collapse (gap 0), x-family {Fi,Te} are load-bearing (gaps
+     0.08-0.48). Confirmed under BOTH scratch maps AND full GKSL flows (Fi/Se 0.284, Te/Ni 0.291 under GKSL;
+     Ti/Se and Fe/Ni exactly 0). This is real N01 geometry: composition order matters iff the operator
+     crosses the terrain's drive axis -- not a scratch-map artifact. GATE: z3 AND cvc5 both confirm the
+     collapse law consistent with the measured pattern; the flipped control (claim x-family collapses) is
+     UNSAT. The MBTI layer from the xlsx is attached as non-load-bearing annotation only.
 Loop-back: replaces the earlier reconstruction (two_weyl_engines_sim, removed) which had the wrong
 operator-per-engine model. Scope: Type 1 built faithfully at the doc's scratch-Bloch-map depth with IGT
 labels and the exact chart + dual-SMT gate on the native-operator rule; the full GKSL-generator version and
