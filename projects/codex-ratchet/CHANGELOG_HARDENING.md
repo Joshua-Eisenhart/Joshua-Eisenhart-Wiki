@@ -373,3 +373,10 @@ UP-31 NEW SIM  coratchet_axis_orthogonality_sim.py -- (A) entropy CONSTRAINED to
                exact; b6=-(b0*b3). (C) 7-axis lattice: 5 primitive DOF free (2^5=32), 2 derived
                (b0=b1*b2, b6=-(b0*b3)) forced -- z3 AND cvc5 UNSAT negation / SAT after erase.
                Loops einselection(16.2)+DPI(16.9) back in. numpy+scipy+z3+cvc5. Layer 17.4. 47 pass.
+
+
+# Co-ratchet lattice SMT completion — 2026-07-02 (audit fix)
+FIX  coratchet_axis_orthogonality_sim.py -- added cvc5_erased_frees(): the erase-frees (SAT)
+     control was z3-only; now BOTH z3 and cvc5 verify BOTH halves (forced=UNSAT, erased=SAT),
+     satisfying the three-engine contract's requirement that both solvers agree on the flipping
+     control. Harness still 47 pass.
