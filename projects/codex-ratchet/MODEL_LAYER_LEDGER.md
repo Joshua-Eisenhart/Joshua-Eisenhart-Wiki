@@ -829,7 +829,39 @@ Substrate: this is the first TORCH-lane sim (learning is the claim); run_all.py 
 
 ## Layer 0.14 — spinor memory: the 720deg loop-parity bit and the sheet-gated retention bit [hypothetical lane]
 Directive: owner -- "spinor memory?". The working scaffold (lines 104/153/190) is explicit: "if sign/phase/720deg holonomy matters, keep psi; if only probe-visible density matters, use rho"; "the density quotient kills global spinor phase, lifted path, 720deg return, holonomy conventions, chirality/lift". So the spinor carrier holds memory the density-level tooling (all of Axes 1-6) structurally cannot read.
-(A) 720-DEGREE LOOP-PARITY BIT: U(t)=exp(-i t/2 n.sigma) has U(2pi)=-I (sign flip), U(4pi)=+I (return). The sign (-1 after one 360deg loop, +1 after two) is a 1-bit memory of loop count. The engine's two 360deg loops -- a deductive loop + an inductive loop (Axis-4 = the two directions of engine-stage traversal) -- run over the SAME geometry (measured: two-loop Bloch-trajectory distance ~0) and close only at 720deg on the spinor carrier; that shared-geometry closure is the distinguishing property (a pair of separate cyclic engines stacked together does NOT share geometry and does not close this way). Any classical heat-engine correspondence is a rosetta label, not the mechanism. Carried in psi; identically invisible to rho (|rho-rho0|=0 at every stage, the sign cancels in rho=U rho U^dag).
+(A) 720-DEGREE LOOP-PARITY BIT: U(t)=exp(-i t/2 n.sigma) has U(2pi)=-I (sign flip), U(4pi)=+I (return). The sign (-1 after one 360deg loop, +1 after two) is a 1-bit memory of loop count. The engine's two 360deg loops are the two DIRECTIONS of engine-stage traversal (a deductive direction and an inductive direction, Axis-4); they run over the SAME manifold (measured: two-loop Bloch-trajectory distance ~0) and the spinor closes only after both (720deg). This is one object traversed twice, not two engines joined -- there is no second engine and no stacking. Any classical heat-engine correspondence is a rosetta label, not the mechanism. Carried in psi; identically invisible to rho (|rho-rho0|=0 at every stage, the sign cancels in rho=U rho U^dag).
 (B) SHEET-GATED RETENTION BIT: a bit encoded in a sheet's dephasing-protected basis survives; in the foreign basis it decays. Direct sheet (z-dephasing, Ti): z-bit fidelity 1.0 -> 1.0 over 300 ticks. Conjugated sheet (x-dephasing, Te): same z-bit 0.94 -> 0.0 (>100x retention ratio). Independently reproduces the owner's local dual eps-sheet engine measurement (direct sheet fidelity 1.0, conjugated 0.146) -- the two sheets preserve different structure, measured, not asserted.
 Results: (1) 720 parity spinor overlap +1/-1/+1, density distance ~0 (rho blind); (1b) the two 360deg loops (deductive+inductive) run over the SAME Bloch geometry (two-loop distance ~0) and close only at 720deg. (2) sheet retention direct 1.000->1.000, conjugated 0.94->0.000. (3) GATE z3 AND cvc5: law "readable-at-spinor XOR readable-at-density" (parity bit is spinor-only) fits, forced-density-readable control UNSAT-with-law -> SAT-without.
 Loop-back: this is why the Axis-0 sims had to be re-based at spinor level (density tooling is blind to 720/tense). The spinor memory is the psi-only register (loop-parity + sheet-history) that the associative memory (0.13, density pointer = which pattern) runs alongside -- two memory registers, one carrier; together the substrate the holodeck runs on. Scope: earns the two spinor-only memory bits and their density-blindness with a dual-SMT gate; single-qubit, does NOT build a multi-bit spinor register or the full 720deg dual-engine loop (Layer 0.11 reserved). Hypothetical lane; owner doctrine under test. Artifacts: spinor_memory_sim.py, spinor_memory.png.
+
+
+## Layer 0.15 — the full Type 1 engine (LEFT Weyl), built exactly from the IGT source doc [hypothetical lane]
+Directive: owner -- "lay out an actual type 1 engine for me completely, with the math and jargon, with igt
+labels. and run all this too in the actual sim manifolds ... doesn't seem you have actually even modeled even
+the basic axes yet." CORRECTION ADOPTED: an earlier reconstruction wrongly assumed each engine uses only 2 of
+the 4 operators; the source doc (reference_docs/engine_math/igt-pattern-explicit-math-reference.md, Part IV
+sections 11-15) is explicit that the engine split is by FLUX direction / Hamiltonian sign (Type 1 = flux IN,
++H0; Type 2 = flux OUT, -H0), and each engine traverses ALL FOUR Jungian-function terrains, each with its
+native operators (Se,Ne -> Ti,Fi ; Ni,Si -> Te,Fe). Rebuilt Type 1 from the doc's exact math.
+Operators (doc section 11 scratch Bloch maps): Ti z-dephase diag(.69,.69,1); Te x-dephase diag(1,.73,.73);
+Fi x-rotation Rx(.41); Fe z-rotation Rz(-.37). Terrains (doc section 12, flux IN): Se-in Funnel, Ne-in Vortex,
+Ni-in Pit, Si-in Hill (exact scratch Bloch maps: drive rotation about z + contraction + z-attractor).
+The Type-1 chart (doc section 14): 4 steps, each an OUTER stage Op(Terrain(r)) and an INNER stage
+Terrain(Op(r)) in exact composition order, each with an IGT win/lose label --
+  1 Se-in: OUTER TiSe [LOSE]  INNER SeFi [win];  2 Ne-in: OUTER NeTi [WIN]  INNER FiNe [lose];
+  3 Ni-in: OUTER NiFe [LOSE]  INNER TeNi [lose]; 4 Si-in: OUTER FeSi [WIN]  INNER SiTe [win].
+Casing rule (section 15): WIN/LOSE = outer loop, win/lose = inner loop; 1st token = dephasing placement,
+2nd = rotation placement. The IGT labels are the doc's rosetta labels on the earned structure -- kept in the
+docstring/figure, never used as math.
+Results: (1) 8 stages all distinct as affine Bloch maps (min pairwise 0.388, max 1.338) -- each does
+different information work. (2) per-stage work table (dPurity/dS/|dr| over a 6-probe battery). (3) Axis-6
+composition order is load-bearing (N01): different-axis operator pairs do not commute ([Ti,Fi] gap 0.089,
+[Te,Fe] 0.051); same-axis [Ti,Fe] commutes (gap 0, correctly -- both z). (4) the two traversals (doc section
+10, "proven only 2 exist") give different final states: deductive Se->Ne->Ni->Si vs inductive Se->Si->Ni->Ne,
+gap 0.017 (Axis-4). (5) GATE z3 AND cvc5: the native operator->sheet assignment (dephasing/rotation to their
+sheet) is FORCED (1 unique model), erased -> 2^4 ambiguous.
+Loop-back: replaces the earlier reconstruction (two_weyl_engines_sim, removed) which had the wrong
+operator-per-engine model. Scope: Type 1 built faithfully at the doc's scratch-Bloch-map depth with IGT
+labels and the exact chart + dual-SMT gate on the native-operator rule; the full GKSL-generator version and
+the Type 2 (flux OUT) mirror are the next rungs. Hypothetical lane; owner doctrine under test.
+Artifacts: type1_engine_igt_sim.py, type1_engine_igt.png.
