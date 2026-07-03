@@ -17,7 +17,9 @@ Left space:  H_L=+H0, sigma_- SINK law (negentropy accumulator).
 Right space: H_R=-H0, sigma_+ SOURCE law (entropy radiator). Mirror M(.)=X.X.
 Terrain laws Ne/Se/Ni/Si per space = the 4 modes of evolutionary selection (Rosetta overlay):
   Ne=natural selection (survival of fittest), Se=kin selection, Ni=genetic drift/founder effect,
-  Si=sexual selection. (Owner's selection<->stage map, A2_CHIRALITY + EVOLUTIONARY_EPISTEMOLOGY.)
+  Si=sexual selection. (Owner's selection<->stage map, sourced from A2_CHIRALITY_SPACETIME_BIOLOGY
+  __v1.md line 45; EVOLUTIONARY_EPISTEMOLOGY_REFERENCE.md is general background on evolutionary
+  epistemology and does NOT contain this four-operator Ne/Se/Ni/Si taxonomy.)
 
 FOUR results:
  (A) Both chiral spaces run the SAME 8-stage finite loop from the same start, and drive to
