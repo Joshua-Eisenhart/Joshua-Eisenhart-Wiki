@@ -466,3 +466,15 @@ UP-39 CONFIRM  Open item V.1 ("igt-pattern lines 470-478 verbatim (wiki) — the
                A new coherent-information / i-scalar sim is a Phase-E action and is therefore HELD until
                the Phase-X contact items (V.1-V.4) are addressed. This turn does the cheapest Phase-X
                action (V.1 verbatim confirmation), per that ordering.
+
+
+# PHASE-X V.2 — 2026-07-02 (charge-specific chi2 via dissipation foothold: NEGATIVE)
+UP-40 NEW SIM (negative result)  eps_even_a2_dissipation_foothold_sim.py builds the instrument V.2
+               proposed -- read the installed frame through dissipation -- and resolves it NEGATIVELY.
+               Three honest findings: (1) the eps-even readout separates a2 but CIRCULARLY (a2 is the
+               installed frame, fed in); (2) the 0.22-vs-0 dissipation gate FAILS (unitary dynamics
+               also moves the eigenvector under the frame); (3) NOT a2-specific (any nontrivial frame
+               fires). So a2 is an installed-frame flag / operator-layer W-covariance label, not a
+               terrain-generator charge. STATE open-ledger V.2 -> RESOLVED NEGATIVE. Failure is signal:
+               the decisive 7m test is not decidable by this instrument; a real a2-specific meter stays
+               open. Held to Phase-X ordering (no Extend). 54 pass.
