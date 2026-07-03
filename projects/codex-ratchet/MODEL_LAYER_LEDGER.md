@@ -879,3 +879,48 @@ operator-per-engine model. Scope: Type 1 built faithfully at the doc's scratch-B
 labels and the exact chart + dual-SMT gate on the native-operator rule; the full GKSL-generator version and
 the Type 2 (flux OUT) mirror are the next rungs. Hypothetical lane; owner doctrine under test.
 Artifacts: type1_engine_igt_sim.py, type1_engine_igt.png.
+
+
+## Layer 0.16 — the surface identity (Einstein-aether): operator/entropy ARE the surface [hypothetical lane]
+Directive (owner, verbatim): "the operator/entropy ARE the surface. this is like how einstein made spacetime
+itself the aether, rather than 19th century thinking of the aether flowing across space." The 19th-century
+picture is entropy/operators FLOWING ACROSS a pre-existing geometric stage (two separable things); the
+Einstein picture is that the geometric surface IS the entropy/operator structure -- one object, no stage
+apart from what happens on it. The owner explicitly retracted the freeze-ablation falsifier (holding geometry
+fixed while flow runs) as a CATEGORY ERROR: you cannot freeze one side of an identity. Correct test shape
+(owner): (1) IDENTITY BY DUAL COMPUTATION -- compute the surface metric two independent ways and require the
+SAME tensor, not correlation; (2) SEPARATION IS UNSAT -- any geometry-face != entropy-face construction must
+be structurally impossible.
+Math: the terrain surface has two faces. ENTROPY FACE = the Hessian of the quantum relative entropy
+S(rho||rho*) at the fixed point rho* in Bloch coordinates (the local curvature of the model's PRIMARY SCALAR
+READOUT -- entropic-monism draft: entropy is the primary readout over X_t/~_P, not the substance). GEOMETRY
+FACE = the Bogoliubov-Kubo-Mori (BKM) information metric g_ij = integral_0^inf tr[(d_i rho)(rho*+t)^{-1}
+(d_j rho)(rho*+t)^{-1}] dt, coordinate basis d_i rho = 1/2 sigma_i -- a purely GEOMETRIC Riemannian metric
+built with NO entropy functional. THEOREM (Bogoliubov/Kubo/Mori; here measured): Hess S|_{rho*} = g_BKM(rho*).
+Results: (1) IDENTITY at four terrain fixed points: max|Hess S - g_BKM| ~ 1e-8 each (finite-difference
+precision) -- the same tensor by two independent routes. (2) SEPARATION CONTROL: deforming the geometry face
+(scale one direction by 1.5) makes the faces differ by 0.667 -- the identity is a real constraint, not a
+tautology. (3) GATE dual solver: "can the surface be separated?" is UNSAT under the identity (z3 AND cvc5),
+SAT for the deformed control. Separation is structurally impossible exactly when the identity holds.
+PRIOR ART (established program; wiki compass A15 verdict KNOWN/ESTABLISHED -- align, do NOT claim as new):
+the "state generates its own geometry and dynamics" identity is TOMITA-TAKESAKI modular theory (from algebra
++ state alone: GNS space, modular Hamiltonian K_rho, AND the modular flow -- dynamics with no separately
+postulated Hamiltonian). BKM here is the fixed-point/second-order face; S(rho)=<K_rho> (row 8.1) is the
+pointwise identity, modular flow the same identity extended to dynamics. CONNES-ROVELLI (1994) thermal-time
+hypothesis makes modular flow physical time (t=hbar beta s); KMS + BISOGNANO-WICHMANN (modular flow = wedge
+Lorentz boost) are the backbone; active critique on record (Swanson, Chua). What THIS layer owns is narrower:
+the TERRAIN-LEVEL rendering (each terrain's fixed-point surface as modular/BKM structure, admissibility-gated
+with separation-UNSAT) as an APPLICATION of the established program inside the constraint-first stack, not a
+rediscovery. The owner's Einstein-aether phrasing is the geometric rendering of this known identity.
+Loop-back: this is the surface-identity HALF of the dual-ratchet doctrine, earned at the qubit fixed-point
+level. It does NOT yet build the two-sided RATCHET dynamics (geometry admits flow, flow re-carves geometry,
+one-directional progress from the interlock); per owner that must be tested as the self-succession of ONE
+surface (field-equation style), never as two frozen substances. Any classical-aether reading is a rosetta
+label, not the mechanism. Also folds the local node's manifold layer-stack extraction (L1-L15 + G1-G6
+inventory) as CONTEXT, with the owner's correction held explicitly: the manifold_layer_ledger order is an
+INVENTORY (a campaign tracking table, "NOT a result"), NOT the ratchet order; the same math recurs at many
+depths (entropy = per-cut readout AND terrain-surface coherence AND live observable); ratchet order is
+empirical, discovered by which admissibility tests bind, never prescribed from the doc ladder. The two
+authority surfaces (bundle ledger stamps EARNED; manifold draft ledger admits nothing) are kept separate as
+the docs demand. Hypothetical lane; owner doctrine under test.
+Artifacts: surface_identity_sim.py, surface_identity.png.
