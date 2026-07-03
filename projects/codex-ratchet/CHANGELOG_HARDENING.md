@@ -429,3 +429,23 @@ UP-36 NEW SIM  distinguishability_engine_core_sim.py -- engages the owner's INTE
                z3+cvc5 fiber-UNSAT/base-SAT gate. CORRECTION: root_axiom_sim.py de-primitivized
                entropy (was "entropy IS the one substance" -> "entropy is a later measure OF
                distinguishability"), per OWNER_THESIS_AND_COSMOLOGY.md. 52 pass.
+
+
+# AXIS-0 GRAVITY MODEL — 2026-07-02 (Layer 0.2, gravity = entanglement-entropy gradient)
+UP-37 NEW SIM  entropic_gravity_axis0_sim.py -- renders the owner's axis-0 gravity model (ENTROPIC_
+               MONISM_ORIGIN_AND_COSMOLOGY sec 5-8 + seeding Grok chat) as checkable math. Einstein-
+               form field eq sourced by grad of entanglement entropy: (1) negentropy well sources
+               (grad S)^2=518.6, flat field 1.6e-29 (gravity needs a gradient); (2) two-regime sign
+               structure (attractive well / repulsive hill, equal mag = one force); (3) z3+cvc5
+               flat-UNSAT/gradient-SAT gate. Fenced as OWNER DOCTRINE under test per doc sec 7 (does
+               not derive the field eq, not >1D GR, does not replace GR/QM). Built after reading the
+               owner-supplied gravity docs, not presumed. 53 pass.
+
+
+# GATE SOUNDNESS FIX — 2026-07-02 (audit response)
+UP-38 FIX  distinguishability_engine_core_sim.py + entropic_gravity_axis0_sim.py: the z3/cvc5 gates
+           previously hardcoded the branch boolean (pinned-constant if-check). Rewritten so solver
+           inputs are DERIVED from the sims' own measured numbers (fib_drift/base_travel; source/
+           source_flat), the structural law is tested for FIT against the measured data, and a
+           counterfactual control flips UNSAT(with law)->SAT(law dropped) so the law -- not
+           arithmetic -- carries the verdict. Ledger v34/v35 (D)/(3) wording corrected. 53 pass.
