@@ -1042,3 +1042,41 @@ Axis-2 (eigenvector-frame rotation) IS identically entropy-blind (dS=0 exact) --
 But naming adiabatic/isothermal as Axis-1/Axis-2 was another scalar-collapse: adiabatic/isothermal is its OWN
 orthogonal process axis whose both poles admit T and F ops, not a relabel of the eigenvalue/eigenvector
 sectors. Not promoted.
+
+################################################################################
+## AXIS-3 CORRECTION (2026-07-03) — Axis-3 is INNER/OUTER LOOP, not flux [supersedes flux-as-Axis-3]
+################################################################################
+SOURCE (canonical, not legacy): Joshua-Eisenhart-Wiki/projects/codex-ratchet/
+qit-axes-terrain-operator-fold-2026-06-09.md, "Loop geometry" + "Axis3 alternatives". The prior
+flux-as-Axis-3 note in this session came from a LEGACY doc (AXIS_FOUNDATION_COMPANION_v1.4, "READ ONLY
+Legacy" tree) that is superseded. That was a presume-from-one-old-doc error. Withdrawn.
+
+AXIS-3 = INNER (fiber) loop vs OUTER (lifted-base) loop -- "strongest current taijitu read". Real loop geometry
+on the nested Hopf tori:
+  - inner / fiber loop:  gamma_f(u)=psi(phi0+u, chi0; eta0)          -> DENSITY-STATIONARY rho_f(u)=rho_f(0);
+                         the phase/lift, 720-degree holonomy carrier, invisible to rho.
+  - outer / base loop:   gamma_b(u)=psi(phi0-cos(2 eta0)u, chi0+u; eta0) -> DENSITY-VISIBLE Bloch traversal.
+So outer-vs-inner IS real geometry: outer moves the Bloch point, inner winds the fiber. This is exactly the
+L3 fiber/base distinction already built (Hopf S^1 density-stationary phase vs density-visible base) -- Axis-3
+READS that geometry; it becomes an axis only once the nested-tori shells (L5) carry outer-vs-inner.
+
+FLUX IS NOT AN AXIS. Flux is a PROPERTY OF THE GEOMETRY (it lives in the geometric constraint manifold).
+Putting geometry into the axes was a mistake; IN/OUT flux is demoted in the canon doc to "Packet F / screenshot
+candidate" (bottom of the Axis-3 alternatives list). Axis-3 alternatives ranking (from doc):
+  inner/outer fiber-base loop  <- strongest ; L/R Weyl chirality (geometry layer) ; Type1/Type2 topology
+  inversion (older) ; IN/OUT flux (demoted candidate).
+
+AXIS-4 = clockwise vs counterclockwise / U o E o U o E  vs  E o U o E o U / Carnot forward-vs-reverse
+(loop traversal DIRECTION).
+
+TYPE1/TYPE2 CONSEQUENCE (owner's point): if Axis-3 WERE flux, flux sign alone would give Type1/Type2 (old
+one-axis reading). But since flux is geometry (not an axis), the Type1/Type2 engine split must come from
+AXIS-3 (inner/outer loop) COMBINED WITH AXIS-4 (CW/CCW direction) together -- two axes, because the distinction
+formerly carried by "flux" is now correctly located in the geometry and the engine-type split is reconstructed
+from loop structure x direction.
+
+IMPACT ON PRIOR WORK: earlier sims that used flux-sign (eps=+/-1, H=+/-H0) as the Type1/Type2 discriminator
+were reading a GEOMETRIC property as if it were the engine-type axis. Not wrong as geometry, but mislabeled as
+"the axis". When the spine reaches the engine layer, Type1/Type2 must be rebuilt from Axis-3 (loop) AND Axis-4
+(direction), with flux as a geometric property of the manifold, not an axis. Flagged for the L11-L12 engine
+build. Hypothetical lane; owner doctrine under test.
