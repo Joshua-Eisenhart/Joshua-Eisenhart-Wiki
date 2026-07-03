@@ -227,6 +227,8 @@ SUITE = [
    ("contains", "PASS sixteen_stage_engine_schedule_sim")]),          # Layer 0.11: 16-stage engine schedule (8 terrains x 2 admissible ops, Axis-2 sheet rule) as active-inference policy space; 16/16 distinct, unique sheet partition (z3+cvc5), planner reaches goal + N01 on real schedule
  ("instrument_class_split_sim.py", 120, False, [
    ("contains", "PASS instrument_class_split_sim")]),          # Layer 0.12: instrument-class split as MEASURED object (loop-back #2 item 4) -- relaxation (magnitude-separable) vs conditioning (sequential-only, CUSUM), one free-energy core, not collapsed; z3+cvc5
+ ("spinor_memory_sim.py", 120, False, [
+   ("contains", "PASS spinor_memory_sim")]),          # Layer 0.14: spinor memory -- 720deg loop-parity bit + sheet-gated retention bit, both in psi and invisible to rho (density quotient kills spinor phase/holonomy); reproduces dual-engine 1.0-vs-0.146; z3+cvc5 spinor-only XOR
  ("flux_nesting_ablation_jax.py", 600, True, [
    ("approx", r'"total_chern_forward":\s*([0-9.]+)', 7.295389, 1e-3)]),
  ("manifold_build_ladder.py", 600, True, [
