@@ -1,6 +1,7 @@
 """
 root_axiom_sim.py -- Layer 0.1. THE ROOT AXIOM: a=a iff a~b (identity iff distinguishability),
-and ENTROPIC MONISM (all is entropy = distinguishability). This is the FOUNDATION beneath the whole
+and ENTROPIC MONISM (the one primitive is constraint on distinguishability; entropy is a LATER
+measure of it, not the substance). This is the FOUNDATION beneath the whole
 bridge ladder (physics/chemistry/biochem/evolution/consciousness all sit on top of this). Grounded
 in the owner's canon-candidate doctrine ROOT_CONSTRAINT_EXTENDED_FOUNDATIONS.md (EC-1/EC-2/EC-3) and
 ENTROPIC_MONISM_ORIGIN_AND_COSMOLOGY.md. NOT a metaphysics proof -- it renders the owner's stated
@@ -15,8 +16,10 @@ The chain (owner doctrine, entailed by the two root constraints RC-1 finitude + 
  EC-3 THE IDENTITY PRINCIPLE: a=a IFF a~b. Self-identity is meaningful iff there exists an OTHER b
       from which a is distinguishable. Without a contrast class, identity collapses to vacuity.
       Implies: identity requires a bipartite cut A|B; determinism iff probability; Turing iff oracle.
- ENTROPIC MONISM: the one substance is constraint-on-distinguishability; von Neumann S(rho) IS the
-      fundamental entropy; "space = entropy = number of distinguishable states".
+ ENTROPIC MONISM (per OWNER_THESIS_AND_COSMOLOGY.md): the one primitive substance is CONSTRAINT ON
+      DISTINGUISHABILITY. Entropy is NOT the primitive -- it is a LATER admissible quantitative
+      measure of distinguishability. Here von Neumann S is shown to be a MONOTONE of the number of
+      distinguishable branches (a measure OF distinguishability), never the substance itself.
 
 FOUR results:
  (A) EC-1/EC-2 -- identity is PROBE-RELATIVE: a coarse probe (z only) merges a~b; a finer probe (x)
@@ -27,7 +30,7 @@ FOUR results:
      SAT (a contrast class exists, identity meaningful); erase all distinction (undifferentiated
      entropic-monist substrate, all signatures forced equal) -> UNSAT (identity vacuous). Both
      solvers, both halves, the control flips: a=a truly REQUIRES a~b.
- (C) ENTROPIC MONISM -- entropy IS distinguishability: von Neumann S of n equally-distinguishable
+ (C) ENTROPIC MONISM -- entropy is a MEASURE OF distinguishability (not the primitive): von Neumann S of n equally-distinguishable
      branches = log2(n) exactly (n=1 -> 0 bits, "no contrast, identity vacuous"; up to log2 dim).
  (D) EC-3 point 1 -- identity requires a bipartite cut A|B: a subsystem's relational identity
      content = its distinguishability from its complement = mutual information I(A:B). Product state
@@ -80,7 +83,7 @@ print(f"(B) EC-3 gate a=a iff a~b: distinction-allowed z3={zf}/cvc5={cf} (sat); 
 def SvN(rho):
     w=np.linalg.eigvalsh((rho+rho.conj().T)/2); w=w[w>1e-12]; return float(-np.sum(w*np.log2(w)))
 ent=[(n,SvN(np.eye(n,dtype=complex)/n)) for n in [1,2,4,8]]
-print("(C) entropic monism S=distinguishability: "+" ".join(f"n{n}->{s:.2f}=log2({n})" for n,s in ent))
+print("(C) entropy = a later MEASURE of distinguishability (not the substance): "+" ".join(f"n{n}->{s:.2f}=log2({n})" for n,s in ent))
 
 def mutual_info(psi):
     rho=np.outer(psi,psi.conj()); r=rho.reshape(2,2,2,2)
