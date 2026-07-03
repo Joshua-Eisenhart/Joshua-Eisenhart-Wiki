@@ -747,3 +747,26 @@ UP-58 EXTEND 0.15  type1_engine_igt_sim.py -- folded convergence packet from loc
                0.08-0.48), confirmed under scratch maps AND GKSL flows. Second dual-solver gate (z3 AND cvc5)
                on the collapse law, flipped control UNSAT. MBTI xlsx layer = non-load-bearing annotation.
                FULL HARNESS VERIFIED: 68 pass / 0 fail / 0 skip GREEN.
+
+
+# LAYER 0.16 — surface identity (Einstein-aether) — 2026-07-03
+UP-59 NEW LAYER 0.16  surface_identity_sim.py -- the owner's "operator/entropy ARE the surface" made a
+               theorem (Einstein-aether move, not 19th-century aether-flowing-across-space). The terrain
+               surface has an ENTROPY face (Hessian of relative entropy S(rho||rho*) at the fixed point) and
+               a GEOMETRY face (Bogoliubov-Kubo-Mori information metric, independent integral, no entropy
+               functional); BKM theorem: they are the SAME tensor. MEASURED: max|Hess S - g_BKM| ~ 1e-8 at
+               four terrain fixed points (identical by two routes); separation control (deform geometry face)
+               differs by 0.667; dual-solver gate (z3 AND cvc5) -- separation UNSAT under identity, SAT for
+               deformed control. Correct test shape per owner: identity-by-dual-computation + separation-UNSAT
+               (freeze-ablation retracted as a category error -- can't freeze one side of an identity). Also
+               folds the local-node manifold layer-stack extraction as inventory context, with owner's
+               correction: doc layer order = inventory NOT ratchet order; math recurs at many depths; two
+               authority ledgers kept separate. FULL HARNESS: PENDING VERIFICATION.
+
+UP-59b ATTRIB 0.16  surface_identity_sim.py -- added prior-art attribution: the surface identity is the
+               ESTABLISHED Tomita-Takesaki modular theory / Connes-Rovelli thermal-time program (wiki compass
+               A15, KNOWN/ESTABLISHED), NOT a new result. BKM = the fixed-point face; row 8.1 S(rho)=<K_rho>
+               the pointwise identity; modular flow the dynamical extension. KMS + Bisognano-Wichmann backbone;
+               Swanson/Chua critique noted. The ownable claim is narrowed to the TERRAIN-LEVEL rendering as an
+               application inside the constraint-first stack, not a rediscovery. Also fixed a harness syntax
+               break (missing newline jammed the surface_identity entry into the next tuple). FULL HARNESS VERIFIED: 69 pass GREEN.
