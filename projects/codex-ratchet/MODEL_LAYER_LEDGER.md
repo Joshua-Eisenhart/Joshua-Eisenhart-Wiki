@@ -1102,3 +1102,196 @@ were reading a GEOMETRIC property as if it were the engine-type axis. Not wrong 
 "the axis". When the spine reaches the engine layer, Type1/Type2 must be rebuilt from Axis-3 (loop) AND Axis-4
 (direction), with flux as a geometric property of the manifold, not an axis. Flagged for the L11-L12 engine
 build. Hypothetical lane; owner doctrine under test.
+
+################################################################################
+## SPINE ORDER DISCIPLINE CORRECTION (2026-07-03) [supersedes "canonical order" framing]
+################################################################################
+OWNER CORRECTION: "build rung by rung. and not all the proposed orders of that rung are correct as canon. i
+can get orders wrong, and slightly off in the math."
+
+I overclaimed. Earlier spine entries said "the completeness contract's CANONICAL order" and "next rung, IN
+ORDER" -- that treated the doc's layer INVENTORY as the ratchet ORDER. It is not (owner ruling
+doc_order_is_inventory_not_ratchet: the ratchet order is EMPIRICAL, discovered by which admissibility test
+BINDS on the survivors of the previous rung, never prescribed from the doc ladder). Correction:
+
+1. L1-L4 are CANDIDATE rungs in a CANDIDATE (proposed) order, NOT canon foundations. A green dual-solver gate
+   proves each rung's INTERNAL claim GIVEN its place; it does NOT prove the rung sits in the right place, nor
+   that its parameters/numbers are exactly right.
+2. RUNG PLACEMENT IS EARNED EMPIRICALLY, not asserted: before building rung k+1, TEST which constraint
+   actually binds next on the survivors/structure of rung k -- the next rung is "the admissibility test that
+   binds", discovered, not read off the doc order. If the doc's next-listed layer does NOT bind next, the doc
+   order was wrong at that point and the ratchet order wins.
+3. MATH IS REVISABLE: any rung's operators/parameters/definitions may be slightly off; a built+gated rung is a
+   candidate that can be re-placed or corrected by a later binding test, never frozen.
+4. STATUS LABELS unchanged (hypothetical lane; scratch_diagnostic; promotion_allowed=false) but the "in order"
+   language in L1-L4 docstrings/ledger is to be read as "proposed order, candidate placement", not canon.
+
+This does not retract L1-L4's internal results (each gate still holds). It retracts the CLAIM that their
+ORDER is canonical. Going forward: each next rung opens with a BINDING TEST (what constraint binds on the
+prior survivors) before any build.
+
+## SPINE — NEXT RUNG DISCOVERED BY BINDING TEST (not asserted) [first use of the corrected discipline]
+Applied the binding-test discipline to L4's survivors (general bipartite states past the product locus).
+RESULT: the constraint that BINDS next is the SCHMIDT DECOMPOSITION / rank strata, NOT the nested-tori shells
+I had proposed as "L5". Reasoning (measured):
+  - Schmidt rank partitions the survivors nontrivially (product rank 1, partial/Bell rank 2; coeffs
+    (1,0)/(0.894,0.447)/(0.707,0.707)) and is DEFINABLE from L2 marginals alone -> it binds NOW.
+  - the induced METRIC is a metric ON a fixed-rank stratum -> presupposes the strata -> binds AFTER.
+  - the nested-tori SHELLS have the Schmidt spectrum AS their radial coordinate -> also presuppose Schmidt.
+So my proposed order was WRONG at this point: the nested-tori shells were placed too early; the Schmidt
+strata bind first and the shells are built ON the Schmidt radius. NEXT RUNG = Schmidt strata (call it L5),
+shells demoted to a later rung built on top. This is the doc-order-is-inventory ruling in action: the ratchet
+order (Schmidt binds first) overrides the proposed order (shells next).
+
+## CONSTRAINTS DETERMINE CANON — ordering principle correction (2026-07-03) [governs all rung placement]
+OWNER: "the constraints determine canon. and things ratchet from weakest structures under finitude and
+noncommutation, and likely non-associativity emerges."
+
+This REPLACES my "what's definable next" binding test with the correct metric: the ratchet admits the WEAKEST
+structure that F01 (finitude) + N01 (noncommutation) permit next, smallest leap; T01 (nonassociativity) is NOT
+assumed -- it EMERGES when forced. The constraints, not a doc list and not the agent, determine canon.
+
+TWO MEASURED CONSEQUENCES:
+
+1. L2 and L3 are PARALLEL branches off L1, NOT a linear chain. GRADE = SYMBOLIC IDENTITY (not a measurement):
+   the L3 phase DOF acts by LOCAL UNITARIES, and local unitaries provably preserve the marginal SPECTRUM (the
+   L2 invariant) by unitary-similarity invariance of eigenvalues. So the group generating the L3 DOF fixes the
+   invariant defining the L2 DOF -> the two are orthogonal by theorem. Illustrated numerically (local
+   e^(i phi Z)_A on a general random 2q pure state: marginal spectrum max-deviation 5.6e-16 over a full phase
+   sweep) -- the sweep ILLUSTRATES the theorem, it is not contingent evidence. TWO PRIOR FRAMINGS WITHDRAWN as
+   assertion-dressed-as-measurement: (a) the "exception-guard" version (hopf() had no validation so its
+   try/except could never raise; marginal_rank()'s raise was an inserted check); (b) the "vary-one-hold-other
+   MEASURED / could have failed" version (both held-constant halves were identities by construction --
+   pure-state purity==1 always, angle of non-negative reals==0 always -- so nothing could have failed). The
+   correct claim is the theorem, graded symbolic_identity. The L4 join rests on the genuine L4 marginal-purity
+   computation (eigh). L3 (single-qubit
+   Hopf/phase) is definable directly on L1's carrier without L2's marginals; L2 (rank strata/marginals =
+   mixedness/correlation) is the parallel branch. They co-branch from L1 and REJOIN at L4 (local Weyl factors
+   need BOTH marginal-purity AND the spinor factor). My "L3 built on L2" linear numbering was slightly wrong;
+   gates all still valid, only the order claim was mis-stated. Corrected picture:
+        L1 (probe-quotient floor)
+        |-- L2 correlation/mixedness branch (rank strata, marginals, Schmidt)
+        |-- L3 phase branch (Hopf fiber, spinor 720)
+        \-- L4 = join of both on the product locus
+   Rung numbering is a partial order (DAG), not a line.
+
+2. T01 (nonassociativity) EMERGES LATE, cannot be inserted early. N01 is binary ([A,B]!=0); T01 is ternary
+   ((AB)C != A(BC)) -> needs THREE composed objects. MEASURED ON THE CAYLEY-DICKSON LADDER (assoc defect
+   ||(xy)z-x(yz)||, mean 20 seeds): R=0, C=0, H=0, O=22.20, S=72.91 -> associative through the quaternions,
+   NONASSOCIATIVE from the octonions onward. So T01 emerges at a SPECIFIC rung (O), not anywhere. (The earlier
+   2x2-Pauli associativity check was a TAUTOLOGY -- matrix mult is always associative; it only showed the
+   qubit-OPERATOR algebra is associative, and does NOT confirm the emergence claim. Withdrawn as evidence; the
+   ladder computation is the real confirmation.) The spine must NOT presume T01 before the octonion rung -- it
+   must be shown to EMERGE there. (Consistent with nonassoc_is_grouping_N01 + octonions_g2_ratcheted.)
+
+CONSEQUENCE FOR NEXT RUNG: the weakest structure F01+N01 admit next on the L2 branch is the SCHMIDT
+decomposition (correlation-rank across a cut) -- confirmed weakest by the earlier binding test (metric and
+shells both presuppose it). It stays a CANDIDATE placement; the constraints, tested, determine whether it is
+canon, and the math/params remain revisable.
+
+## MSS (Minimal Survivable Structure) + NONASSOCIATIVITY POLARITY — loop-back correction (2026-07-03)
+Local repo-indexed node loop-back (pasted-text-2026-07-03T23-19-47) + my magma discriminator. Two corrections:
+
+A. MY CAYLEY-DICKSON "T01 EMERGES/FORCED AT OCTONIONS" CLAIM WAS STILL AN OVERCLAIM. The CD ladder (assoc
+   through H, nonassoc from O) only shows a known property of the CD CONSTRUCTION -- building past H via
+   Cayley-Dickson INSTALLS nonassociativity; it does NOT show the bare root constraints FORCE it. An existing
+   repo scout (system_v5/ops/formal_scouts/foundation_r4_nonassoc_root_vs_carrier_discriminator...) already
+   found: bare root is satisfied by quaternions (associative, noncommuting); nonassociativity is INSTALLED by a
+   downstream Cl(6)/>=7-imaginary-unit carrier constraint, NOT forced by the bare root. So "T01 forced at O" is
+   withdrawn; the CD result is the INSTALLED-upward reading, not a forcing.
+
+B. UNDER THE MSS LENS THE POLARITY FLIPS, and this IS a contingent measurement (magma discriminator, ran):
+   MSS = "presume the LEAST; admit only the weakest structure that survives and still evolves" (recorded
+   2026-06-15 as a META-GATE above the roots F01/N01/T01/identity, not a 4th root beside them). Associativity
+   is a COHERENCE LAW not in the bare root, so MSS asks: may the weakest seed PRESUME associativity? MEASURED
+   on random finite magmas (finite set + arbitrary binary op, no laws): fully-associative fraction = 0.512
+   (n=2), 0.0085 (n=3), 0.000 (n=4), 0.000 (n=5) -- associativity is a RARE special coherence that vanishes
+   with size. The weakest seed does NOT presume associativity. (This test COULD have failed -- if most small
+   magmas were associative -- and did not.) => FLOOR IS NONASSOCIATIVE (below-category / magmoid); ASSOCIATIVITY
+   is INSTALLED UPWARD as an earned coherence. This is the OPPOSITE polarity from my CD-ladder story:
+     - CD-ladder reading (mine, withdrawn as "forcing"): start associative-ish, install NONassoc upward.
+     - MSS reading (correct under least-presumption): start nonassoc floor, install ASSOC upward.
+
+C. THE META-FINDING (node's) -- VERIFICATION-GRADED (I had recorded it "accepted"; corrected after checking
+   the cloned repo directly):
+   * VERIFIED PRESENT: the MSS sims exist -- system_v4/probes/sim_minimal_surviving_set.py and
+     system_v7/sims/finite_distinguishability_quotient_forced_or_installed_carrier_v0/ (pytorch+jax+julia legs
+     + results JSONs). The r4 scout exists (system_v5/julia_carrier/ + ops/formal_scouts/, under
+     foundation[_foundation]_r4_nonassoc_root_vs_carrier_discriminator_*). Its result JSON CONFIRMS the
+     structure: bare_root_admissible=false for the plain carrier, nonassociativity gated by an "optional
+     Cl6/7 mutually-anticommuting imaginary units" rung_specific_constraint -> installed via a downstream
+     carrier constraint, consistent with "installed not root-forced".
+   * REFUTED: the node's "system_v5/Desktop returned ZERO MSS hits" is FALSE -- grep of system_v5 for
+     minimal-surviving/MSS returns 11 hits. So the "working estate never carried it" mechanism is overstated;
+     MSS is present in system_v5, just scattered. The drift-because-ungated argument may still hold, but the
+     zero-hits evidence for it does not.
+   * UNVERIFIED (third-party claim, not checked / not checkable here): the June-14 "v7 methodology overhaul +
+     restart" doc was NOT found by name in the clone; the "consolidation commit f6d7192d5" could not be
+     resolved (no git object). These remain the node's assertions, not confirmed findings.
+   NET: MSS-as-existing-recorded-concept is VERIFIED (sims + scout + 11 system_v5 hits); MSS-as-gate is a
+   sound proposal; the "dropped because zero-gated/zero-hits" narrative is PARTLY REFUTED and should not be
+   recorded as fact. The forced-vs-installed gate proposal stands on its own merits regardless.
+
+CONSEQUENCE FOR THE SPINE: (1) MSS sits ABOVE F01/N01/T01 as the meta-gate; my "constraints determine canon"
+correction two turns ago IS MSS, un-named. (2) Every rung must now record forced-vs-installed. (3) The
+nonassociativity floor is a real open foundations rung: the magma result says the floor is nonassociative, so
+T01 (grouping-level N01) may be PRESENT AT THE FLOOR and associativity is what gets earned -- to be built as
+the polarity discriminator (magmoid seed vs sedenion death as the two controls), NOT presumed either way.
+
+## MSS vs RATCHET — DIRECTION CORRECTION (2026-07-03) [supersedes "the dig IS the ratchet" framing]
+Node loop-back (pasted-text-2026-07-03T23-26-49). I had the arrow pointing DOWN; it points UP. Two SEPARATE
+objects, opposite directions:
+
+  - MSS = FLOOR-PICKER. Selects the WEAKEST surviving-and-evolving seed at the BOTTOM. A downward selection to
+    where the climb STARTS. (Meta-gate on what may be admitted as the seed.)
+  - RATCHET = the UPWARD CLIMB off that floor. Installs STRONGER structure level by level where each level
+    FORCES it, toward attractor basins. Constructive/evolutionary/upward -- like evolution climbing FROM the
+    simplest replicator, not searching for it. This is the object that matters; MSS only sets where it starts.
+
+MY ERROR (withdrawn): "constraints determine canon = the dig-down IS the ratchet" collapsed the two directions
+and pointed the ratchet DOWN. The dig-to-roots only RESEMBLES a ratchet (one-directional, no slip-back); the
+real ratchet runs UP. The constraints still determine canon -- but by governing what each UPWARD step is
+FORCED to install, not by the downward dig.
+
+NONASSOCIATIVITY POLARITY DISSOLVED (not a two-reading argument): floor = weakest = NONASSOCIATIVE/magmoid/
+below-category (measured: assoc fraction vanishes with magma size). Ratchet then INSTALLS ASSOCIATIVITY going
+UP where forced. The r4 scout's "nonassociativity is installed not root-forced" was reading DOWN the ratchet
+and calling the floor "installed" -- but the floor is where you START; associativity is what gets installed as
+you climb OFF it. Same picture, opposite reading directions. So "start nonassoc, install assoc upward" is not a
+competing reading -- it IS the ratchet direction.
+
+CONSEQUENCE FOR THE SPINE: the spine IS the ratchet = the upward climb. Its bottom rung must be the MSS-picked
+weakest seed (nonassociative magmoid floor), and each rung up records what that level FORCES it to install
+(the forced-vs-installed field). The open build is no longer "which polarity" -- it is the upward-install
+discriminator: does structure get ADDED going up from the magmoid floor, and is each addition FORCED or merely
+installed. MSS-as-gate + upward-install discriminator are the two follow-through builds, awaiting owner word.
+
+## THE RATCHET, DEFINED AS RUNNING MATH (2026-07-03) [answers "make something with teeth that can actually run"]
+OWNER: "we have a ratchet named. but it seems not an actual ratchet process that has the real ratcheting thing.
+the mss building up in structure towards an attractor basin smallest step by smallest step." Then: "dont just
+spit out my words. make something with teeth and real math, that can actually run!"
+
+Built ratchet_climb_engine_v0.py (harness-registered, full harness 74 pass/0 fail/0 skip GREEN, verified before
+this write per harness_count_verify_before_durable). This is the CLIMB (the wheel), not the lock (the pawl,
+already in ratchet_formal_gates). Decidable definition, all data finite:
+  - Level strength IS expressible distinction: D_L(items) = partition induced by level-L readouts; L<=L' iff
+    D_L coarsens D_L' (refinement on finite partitions -- the weakness order is MEASURED not chosen; this
+    closes the MSS doc's open caveat "the weakness ordering is itself installed").
+  - Demand = witness pair that MUST separate + admissibility flag. Lift trigger = Lost(L) by EXHAUSTIVE
+    enumeration (Minimalist failure is a proof, not prose).
+  - SMALLEST STEP: admit the WEAKEST ladder level above current that strictly refines AND resolves >=1 lost
+    demand; stronger sufficient levels logged REJECTED_UNFORCED (the MSS teeth). Lock append-only.
+RESULT (the ratchet actually ratcheting): climbs L0_trivial -> L1_Z -> L2_Pauli -> L3_Spinor as THREE SEPARATE
+TEETH, each forced by a distinct measured lost distinction:
+  - L0->L1: <Z> forced by |0> vs |1> (L2/L3 rejected-unforced as batch jumps)
+  - L1->L2: <X> forced by |+> vs |-> (invisible to Z; L3 rejected-unforced)
+  - L2->L3: spinor lift forced by R(2pi)|0> vs |0> -- IDENTICAL rho, separable only by the lifted vector
+    (proven by enumeration no rho-level separates it)
+  - then NO_LIFT (Minimalist wins: no admissible lost distinction remains) -> frontier = L3.
+THEOREMS pass: T1 termination, T2 monotone expressivity (each tooth strictly refines), T3 no unforced lift
+(every lift carries a nonempty forced_by + enumerated Minimalist-failure), T4 pawl (level index strictly
+rises, nothing dropped). T5 BASIN: 4 demand-order-permuted runs (N01 varies the path) ALL converge to the
+identical ladder L0->L1->L2->L3, terminal 6 classes -- attractor basin as data, order-independent.
+This corrects an independent node's first build (jumped L0->L3 in ONE step = batch jump not smallest-step; its
+smallest-step fix was broken Python with unbalanced brackets, never ran). The teeth here are one-at-a-time and
+the run is green. Ceiling scratch_diagnostic, promotion_allowed=False. artifact 72273354-f3a3-4ae5-9c5f-780f009520de.
