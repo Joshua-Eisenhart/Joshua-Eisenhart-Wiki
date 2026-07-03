@@ -660,14 +660,43 @@
                                 (C) ONTOLOGY: along the base loop distinguishability grows to 0.932
                                 while von Neumann S stays 3e-16 -> DISTINGUISHABILITY WITHOUT
                                 ENTROPY, proving entropy is downstream, not primitive. (D) STRUCTURAL
-                                GATE (load-bearing): z3 AND cvc5 -- "create distinguishability on the
-                                FIBER" = UNSAT (it is the ~ class), "on the BASE" = SAT; both
-                                solvers both halves, control flips. This is the object that grounds
+                                GATE (load-bearing): z3 AND cvc5 -- solver inputs DERIVED from measured fib_drift/base_travel; law
+                                "stationary=>not created" FITS both loops (SAT); control UNSAT w/law
+                                -> SAT w/o law (z3+cvc5 fit + flipped control). This is the object that grounds
                                 a=a iff a~b, the ratchet engagement, and the chirality seed together
                                 -- not another fragment. distinguishability_engine_core_sim.py;
                                 figures/distinguishability_engine_core.png. numpy+z3+cvc5.
                                 ALSO: root_axiom_sim.py corrected (entropy = a later MEASURE of
                                 distinguishability, not "the one substance").
+
+ 0.2 AXIS-0 GRAVITY MODEL:      EARNED (as checkable rendering of owner doctrine, fenced). Renders
+     gravity = gradient of        the owner's stated gravity model from ENTROPIC_MONISM_ORIGIN_AND_
+     entanglement entropy         COSMOLOGY.md sec 5-8 and the seeding Grok chat ("Gravity = entropy
+                                  gradient"). Central claim: an Einstein-FORM field equation sourced
+                                  by the gradient of ENTANGLEMENT entropy, not mass:
+                                  G_munu = kappa(grad_mu S grad_nu S - 1/2 g_munu (grad S)^2), with
+                                  S = entanglement entropy across a bipartite cut (the -S(A|B)/
+                                  coherent-info carrier; the Xi bridge geometry->rho_AB->S). Pure
+                                  math; cosmological labels are Rosetta only. RESULTS: (1) SOURCE: a
+                                  localized negentropy well (bound correlations = a "mass") gives
+                                  (grad S)^2 source total 518.6; a FLAT entanglement field gives
+                                  1.6e-29 -> gravity requires an entropy GRADIENT. (2) SIGN
+                                  STRUCTURE: same operator grad S gives an ATTRACTIVE well for a
+                                  negentropy anomaly (dark-matter regime) and a REPULSIVE hill for a
+                                  positive-entropy anomaly (dark-energy regime), EQUAL magnitude
+                                  opposite sign -> "expansion and gravity are one force, two regimes"
+                                  (doc sec 5.4). (3) STRUCTURAL GATE (load-bearing): z3 AND cvc5 --
+                                  solver inputs DERIVED from the computed
+                                  source/source_flat arrays (not hardcoded); law "source<=>gradient"
+                                  FITS both measured configs (SAT), control "flat field forced to have
+                                  gravity" UNSAT w/law -> SAT w/o law (z3+cvc5 fit + flipped control). HONEST SCOPE (matches doc
+                                  sec-7 fence, OWNER DOCTRINE under test): shows the mechanism is
+                                  self-consistent and non-vacuous; does NOT derive the field eq from
+                                  RC-1+RC-2, not GR's >1D tensor structure, does NOT replace GR/QM.
+                                  entropic_gravity_axis0_sim.py; figures/entropic_gravity_axis0.png.
+                                  numpy+z3+cvc5. NOTE: this is the first grand-physics-adjacent rung;
+                                  built only after reading the owner's actual gravity docs (grok
+                                  chats + cosmology doc the user supplied), not presumed.
 
 ################################################################################
 # THE OPEN ITEMS, CONSOLIDATED (what actually needs work, by priority)
