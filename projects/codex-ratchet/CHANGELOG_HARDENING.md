@@ -568,3 +568,29 @@ UP-46 NEW LAYER 0.7  perspective_convergence_sim.py -- tests the owner reframe t
                HONEST SCOPE: demonstrates the one-basin claim as computed convergence on a one-parameter
                family + extracts the invariant-ranking lesson; does NOT prove global basin uniqueness.
                FULL HARNESS VERIFIED: 60 pass / 0 fail / 0 skip GREEN (incl JAX + Julia lanes).
+
+
+# LAYER 0.8 + LOOP-BACK PACKET REPAIRS — 2026-07-03 (octonion spinor network; WEB_THREAD_LOOPBACK_20260703)
+UP-47 NEW LAYER 0.8  octonion_spinor_network_sim.py -- the practical sim carrier of scaffold 10.4/11: a
+               finite spinor network, nodes=octonionic spinors, edges=noncommutative+nonassociative
+               couplings, built ON Layer 0.5. Closes loop-back packet item 3 ("exhibit a G2 action, not
+               just dim 14"). RESULTS: (1) path-bracketing gap ~1.6 across a 3-edge path = grouping-level
+               N01 as a NETWORK-level observable; (2) single-edge control gap = 0 (nonassoc invisible on a
+               point -> network necessary); (3) G2 ACTION exhibited: concrete phi=exp(0.3 D) with
+               phi(xy)=phi(x)phi(y) to ~1e-16 (real Aut(O) element), bracketing gap INVARIANT under it ->
+               G2 is the symmetry group of the network coupling schedule; (4) L/R chirality gap ~0.05 on
+               the network (ties to 19.1/20.1). Hypothetical lane; does NOT yet run terrain/operator
+               schedules on the network or derive SM gauge from G2.
+UP-48 LOOP-BACK REPAIRS (WEB_THREAD_LOOPBACK_20260703, local-harness adversarial review):
+   STATE_OF_THE_MODEL.md 6 wording-tier repairs (a-f): "validated across four substrates" -> "reproduced
+     ... (reproducibility engineering, not formal verification)"; Axis-6 b6 law -> "0/8 violations
+     OBSERVED ... construct-then-verify, known defect"; P12 (1,1,1)/sqrt3 -> "candidate/conditional per
+     lineage"; "EARN REALIZATION FAITHFULNESS" -> "earned realization checks ... no encoding bugs FOUND";
+     "P12 axis load-bearing" -> "axis-conditioned result"; added cross-family adversarial-review line.
+   FENCE BREACH (item 4): removed EARNS/EARNED self-stamps from sim docstrings (signed_axis0,
+     division_algebra, weak_force -> "renders/admits, hypothetical lane") and ledger rows; banned verb
+     "creates NO distinguishability" -> "registers NO". CLAIM SPLITS (item 3): entropic_newton "CONSEQUENCE
+     not assumed" -> "follows GIVEN assumed area law = Verlinde reproduced, not derived from F01+N01";
+     weak_force "earns one SM fact" -> "admits chirality STRUCTURE forced; vertex+side empirical".
+HONEST NEGATIVE recorded (item 5): eps_even_a2 dissipation-foothold route stays a diagnostic, not cited
+     as positive. FULL HARNESS VERIFIED: 61 pass / 0 fail / 0 skip GREEN (incl JAX + Julia lanes).
