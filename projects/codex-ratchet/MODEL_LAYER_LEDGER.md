@@ -1069,11 +1069,22 @@ candidate" (bottom of the Axis-3 alternatives list). Axis-3 alternatives ranking
 AXIS-4 = clockwise vs counterclockwise / U o E o U o E  vs  E o U o E o U / Carnot forward-vs-reverse
 (loop traversal DIRECTION).
 
-TYPE1/TYPE2 CONSEQUENCE (owner's point): if Axis-3 WERE flux, flux sign alone would give Type1/Type2 (old
-one-axis reading). But since flux is geometry (not an axis), the Type1/Type2 engine split must come from
-AXIS-3 (inner/outer loop) COMBINED WITH AXIS-4 (CW/CCW direction) together -- two axes, because the distinction
-formerly carried by "flux" is now correctly located in the geometry and the engine-type split is reconstructed
-from loop structure x direction.
+TYPE1/TYPE2 IS A NON-REDUCTION (corrected 2026-07-03 against axes-full-layout-relations-anti-conflation doc,
+sources f53880681/34d817e34/95df90d4d): the docs refuse BOTH reductions -- NOT flux alone, and NOT A3xA4
+alone. LOOP-PLACEMENT LAW: A3 x A4 x A5 x A6 = 8 paired signatures, NOT 16; the SAME (A3,A4) pair occurs in
+both types (Type-1 outer=deductive, Type-2 outer=inductive), so engine type is NOT recoverable from A3xA4
+alone. TYPE = COMBINED CHART VECTOR: sheet/chirality/H-sign + IN/OUT orientation + A3 loop-class placement +
+A4 order class. Flux may later COMPRESS part of the distinction but is not admitted as its definition. (My
+earlier "Type1/2 = Axis-3 AND Axis-4" note was an over-reduction -- superseded by this non-reduction. Owner
+fork held: Reading B -- flux in the geometric constraint manifold, A3 = outer/inner on nested Weyl/Hopf -- is
+the closer reading, PLUS the sheet/H-sign ingredient.)
+
+MEASURED FACT the doc adds (axis_relation_matrix_probe_v0, Type-1 GKSL, 56 rows, numpy+julia 0 diffs): a4-b3
+are STRUCTURALLY COUPLED within Type-1 (only 4/8 combos reachable; chart ties outer=deductive/inner=inductive)
+-- FALSIFIABLE PREDICTION for the Type-2 build: pooling Type-2 rows (opposite pairing) restores independence,
+8/8 reachable. Also a1-a5 flagged as a live CONFLATION TRAP caught in the probe (a1 extracted from operator
+unitary-vs-CPTP overlaps A5 T-vs-F); v0.1 fix = extract a1 from terrain-branch chi1 signs. These are the
+acceptance tests for the engine layer.
 
 IMPACT ON PRIOR WORK: earlier sims that used flux-sign (eps=+/-1, H=+/-H0) as the Type1/Type2 discriminator
 were reading a GEOMETRIC property as if it were the engine-type axis. Not wrong as geometry, but mislabeled as
