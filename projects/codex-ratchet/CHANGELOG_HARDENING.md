@@ -493,3 +493,18 @@ UP-41 NEW LAYER  signed_axis0_primitive_sim.py builds the SIGNED Axis-0 primitiv
                dispersing halo), replacing the hand-placed +/-S_anom stand-in; (4) z3+cvc5 gate,
                derived inputs, law fits + flipped control. This EARNS the sign structure 0.2 asserted.
                Honest scope unchanged: entropic-gravity MECHANISM under test, not a GR derivation. 55 pass.
+
+
+# LAYER 0.4 — 2026-07-02 (entropic foundation reproduces Newtonian gravity; dark-sector fenced)
+UP-42 NEW LAYER  entropic_newton_limit_sim.py answers the owner framing ("new foundations to GR that
+               lead to the SAME observations and account for what GR+visible-matter can't"). On the
+               0.2/0.3 gravity=entropy-gradient substrate, in Verlinde entropic-force form: (1) EXACT
+               Newtonian limit -- a=2pi c kT/hbar with holographic N=A c^3/(G hbar), kT=2Mc^2/N
+               reproduces a=GM/r^2 to ratio 1.000000 across Earth/Sun/galaxy (Earth g=9.7275 falls
+               out); (2) STRUCTURAL -- N∝r^p gives a∝r^(p-3): AREA p=2 -> slope -2 (Newton), VOLUME
+               p=3 -> slope -3 (wrong); holographic area-scaling FORCES inverse-square; (3) FENCED
+               dark-sector -- entropy-gradient 1/r term (log potential, the kind 0.3's signed I_c
+               source gives for an isothermal profile) flattens rotation curves without particulate
+               dark matter, BUT a0 is phenomenological NOT derived from RC-1+RC-2. Honest scope:
+               (1)+(2) reproduce established entropic-gravity (Verlinde) on the substrate -- not novel
+               physics; (3) owner doctrine under test (sec-7 fence). No claim to replace GR/SM. 56 pass.
