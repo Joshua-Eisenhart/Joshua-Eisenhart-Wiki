@@ -97,9 +97,17 @@ entropic_gravity did — that convention is now the norm, keep it.
    table at lines 475–478 and the §7k tribunal sentence at line 166; the spec
    already cites them and upgrades the reading to the W-covariance theorem
    (W·Ti·W=Te, 3.4e-33). Source earned, not merely cited.
-2. Charge-specific χ₂: an ε-even functional reading the INSTALLED frame
-   through dissipation (0.22-vs-0 sensitivity is the foothold), then rerun
-   the §7m decisive test.
+2. [RESOLVED NEGATIVE 2026-07-02] Charge-specific χ₂ via the dissipation
+   foothold: BUILT and tested (eps_even_a2_dissipation_foothold_sim). The
+   0.22-vs-0 gate does NOT survive — the installed frame moves the eigenvector
+   under UNITARY dynamics too (t2 unitary 0.89 > dissipative 0.79), and any
+   nontrivial frame fires (V=W on a direct terrain 0.26, arbitrary Vrand 0.03),
+   so the readout is not a2-specific. The apparent a2 separation is circular
+   (a2 IS the installed-frame flag, fed in). CONCLUSION: a2 is an installed-
+   frame flag / operator-layer W-covariance label, NOT a channel-intrinsic
+   charge readable off terrain generators. The decisive §7m test stays
+   not-decisive-by-this-instrument; a genuinely a2-specific meter remains open
+   (would need a frame operation not reducible to "is V nontrivial").
 3. Leviathan end-to-end: one real claim → `lev` → signed receipt → verified
    consume path. Still the program's only external-authority step.
 4. Human expert review (hand over PURE_MATH_CORE.md — one afternoon).
