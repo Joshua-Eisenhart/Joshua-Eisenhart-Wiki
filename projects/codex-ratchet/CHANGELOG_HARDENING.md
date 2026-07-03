@@ -417,3 +417,15 @@ UP-35 NEW SIM  root_axiom_sim.py -- renders the owner's root derivation chain as
                entropic monism: S = log2(distinguishable branches). (D) identity needs the A|B cut
                (I(A:B): product 0, Bell 2). (E) S-knot: Hopf fiber Gauss linking invariant 1 vs 0.
                Also fixed Layer 19.1 selection-map source citation (A2_CHIRALITY only). 51 pass.
+
+
+# THE MODEL CORE — 2026-07-02 (Layer 0.0, distinguishability-creation engine)
+UP-36 NEW SIM  distinguishability_engine_core_sim.py -- engages the owner's INTEGRATED model as ONE
+               object (not isolated keyword-demos). Primitive = constraint on distinguishability;
+               entropy is a LATER measure. a=a iff a~b made dynamical on the Hopf carrier: (A) fiber
+               density-stationary (3e-16) vs base density-traversing (0.932); (B) Berry holonomy =
+               -pi(1-|cos2eta|) matches doc exactly (inner -0.920, Clifford -pi); (C) distinguish-
+               ability 0.932 with entropy 3e-16 -> entropy is downstream, not the substance; (D)
+               z3+cvc5 fiber-UNSAT/base-SAT gate. CORRECTION: root_axiom_sim.py de-primitivized
+               entropy (was "entropy IS the one substance" -> "entropy is a later measure OF
+               distinguishability"), per OWNER_THESIS_AND_COSMOLOGY.md. 52 pass.
