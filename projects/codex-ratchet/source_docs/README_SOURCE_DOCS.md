@@ -17,9 +17,14 @@
 - P2: 27/30 present (3 laptop-only 20260526 system_v5 docs missing: ALIGNED_MODEL_MINING_SHELL_TIME_AXIS0,
       GRAVITY_SHELL_POSSIBILITY_MODEL_CORE, RETROCAUSAL_POSSIBILITY_FIELD_SIM_AND_WIZARD_METHOD)
 
+## Addendum
+A2_CHIRALITY_SPACETIME_BIOLOGY__v1.md is included in P1_must_read/ as the Layer 19.1 source even
+though it is not on SCIENCE_DOC_SEND_LIST.txt — the evolution/chirality sim renders it directly, so
+it is bundled for traceability.
+
 ## How the sims relate to these docs
 Each MODEL_LAYER_LEDGER.md entry names the source doc it renders. Key anchors:
 - Layer 0.0 distinguishability_engine_core_sim  <- constraint-on-distinguishability-full-math.md, OWNER_THESIS_AND_COSMOLOGY.md
 - Layer 0.1 root_axiom_sim                       <- root_axioms_v0_1_DRAFT.md, entropic_monism_one_distinguishability_process
 - Layer 0.2 entropic_gravity_axis0_sim          <- ENTROPIC_MONISM_ORIGIN_AND_COSMOLOGY.md sec 5-8, grok chats
-- Layer 19.1 evolution_chirality_bridge          <- A2_CHIRALITY_SPACETIME_BIOLOGY (selection map, line 45 only)
+- Layer 19.1 evolution_chirality_bridge          <- P1_must_read/A2_CHIRALITY_SPACETIME_BIOLOGY__v1.md (selection map, line 45 only)
