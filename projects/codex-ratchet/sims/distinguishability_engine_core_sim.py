@@ -20,7 +20,11 @@ FOUR results:
  (A) FIBER vs BASE: fiber loop trace-distance drift ~1e-16 (density-stationary, a~a); base loop
      trace-distance travel 0.93 (density-traversing, a!~b). a=a iff a~b, geometrized.
  (B) BERRY HOLONOMY = distinguishability created: numeric solid-angle holonomy matches the doc's
-     closed form -pi(1-|cos2eta|) -- inner torus eta=pi/8 gives -0.920, Clifford gives -pi. Zero on
+     closed form -pi(1-|cos2eta|) FOR THE INNER TORI eta<=pi/4 (north-cap reference in the solid-
+     angle sum). For outer tori eta>pi/4 the same sum returns the COMPLEMENTARY cap and diverges from
+     the closed form -- a reference-convention artifact of solid_angle(), not a physics discrepancy;
+     the analytic form is symmetric about the Clifford torus. Checked at eta=pi/8 (-0.920) and the
+     Clifford great circle eta=pi/4 (-pi, the max). Zero on
      the fiber, maximal at the Clifford great circle.
  (C) ONTOLOGY (the correction): along the base loop the state stays PURE (von Neumann S=0) while
      trace-distance (distinguishability) grows to 0.93. DISTINGUISHABILITY WITHOUT ENTROPY -> entropy
