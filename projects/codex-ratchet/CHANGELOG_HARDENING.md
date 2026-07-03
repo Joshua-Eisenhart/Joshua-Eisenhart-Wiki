@@ -408,3 +408,12 @@ UP-34 NEW SIM  evolution_chirality_bridge_sim.py -- two chiral operating spaces 
                self-mirror AND noncommuting UNSAT (chirality forced), drop N01 SAT only for null.
                (D) Frank autocatalysis: tiny bias -> homochirality. HONEST: does NOT derive WHICH
                chirality is physical (weak-force parity is empirical input). 50 pass.
+
+
+# Root axiom + entropic monism + S-knots — 2026-07-02 (Layer 0.1, the foundation)
+UP-35 NEW SIM  root_axiom_sim.py -- renders the owner's root derivation chain as runnable math.
+               (A) EC-1/EC-2 probe-relative identity (~ classes change with P). (B) EC-3 root gate
+               a=a iff a~b: z3+cvc5 SAT with distinction / UNSAT when erased (both halves). (C)
+               entropic monism: S = log2(distinguishable branches). (D) identity needs the A|B cut
+               (I(A:B): product 0, Bell 2). (E) S-knot: Hopf fiber Gauss linking invariant 1 vs 0.
+               Also fixed Layer 19.1 selection-map source citation (A2_CHIRALITY only). 51 pass.
