@@ -615,6 +615,31 @@
                                 not a derivation. evolution_chirality_bridge_sim.py;
                                 figures/evolution_chirality_bridge.png. numpy+scipy+z3+cvc5.
 
+ 0.1 Root axiom + entropic     EARNED (as runnable rendering of owner doctrine). THE FOUNDATION
+     monism + S-knots           beneath the whole bridge ladder. Grounded in ROOT_CONSTRAINT_
+                                EXTENDED_FOUNDATIONS.md (EC-1/EC-2/EC-3), ENTROPIC_MONISM_ORIGIN_
+                                AND_COSMOLOGY.md, A2_HOPF_FIBRATION_ENTROPY. The chain (entailed by
+                                RC-1 finitude + RC-2 noncommutation): EC-1 no primitive identity
+                                (a=a needs a finite probe family); EC-2 no primitive equality (a~b
+                                = indistinguishable under P); EC-3 THE ROOT: a=a IFF a~b (identity
+                                is meaningful iff a distinguishable other exists). RESULTS: (A) EC-1
+                                /EC-2: ~ equivalence classes CHANGE with the finite probe family
+                                (z-probe merges a~b, x-probe separates) -> no primitive identity.
+                                (B) EC-3 ROOT GATE: z3 AND cvc5 -- a=a possible with distinction
+                                allowed = SAT, with all distinction erased (undifferentiated field)
+                                = UNSAT; both solvers both halves, control flips -> a=a REQUIRES
+                                a~b. (C) entropic monism: von Neumann S of n distinguishable
+                                branches = log2(n) exactly (S IS distinguishability; n=1 -> 0 bits).
+                                (D) EC-3 needs the A|B cut: relational identity = I(A:B); product
+                                state 0, Bell 2 bits (ties root to entanglement-central physics).
+                                (E) S-KNOT: two distinct Hopf fibers link with Gauss number 1
+                                (invariant), unlinked control 0 -- a conserved integer identity
+                                charge compressed from the entropic substrate ("low-S structured
+                                knot: matter/memory/logic"). HONEST SCOPE: renders the owner's
+                                stated derivation as checkable math and shows the root gate is a
+                                genuine non-vacuous constraint; not a metaphysics proof.
+                                root_axiom_sim.py; figures/root_axiom.png. numpy+z3+cvc5.
+
 ################################################################################
 # THE OPEN ITEMS, CONSOLIDATED (what actually needs work, by priority)
 ################################################################################
