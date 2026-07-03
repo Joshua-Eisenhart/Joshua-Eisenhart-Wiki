@@ -833,6 +833,6 @@ UP-65 AXIS AUTHORITY  Adopted axes-full-layout-relations-anti-conflation-2026-07
                alone (loop-placement law: A3xA4xA5xA6 = 8 paired sigs not 16; same (A3,A4) in both types);
                type = combined chart vector (sheet/chirality/H-sign + IN/OUT + A3 loop-class + A4 order). My
                earlier "Type1/2 = A3 AND A4" over-reduction superseded. (3) axes are readout maps A_i:M(C)->V_i,
-               never primitive coords; verified L1-L4 spine sims claim geometry only, no axis content (matches
-               global lock). Recorded a4-b3 coupling prediction + a1-a5 conflation trap as engine-layer
+               never primitive coords; verified all four spine sims (L1/L2/L3/L4) grepped for axis content -- each carries only
+               "No terrain/axis/engine claim rides on this", geometry-only, matches global lock. Recorded a4-b3 coupling prediction + a1-a5 conflation trap as engine-layer
                acceptance tests. Doc travels in every future bundle. Harness unaffected (docs only).
