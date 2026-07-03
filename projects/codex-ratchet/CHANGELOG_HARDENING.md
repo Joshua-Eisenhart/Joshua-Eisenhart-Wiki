@@ -714,7 +714,7 @@ UP-56 NEW LAYER 0.14  spinor_memory_sim.py -- the two 1-bit memory registers tha
                are INVISIBLE to the density rho (scaffold 104/153: "the density quotient kills global spinor
                phase, lifted path, 720deg return, holonomy"). (A) 720-DEGREE LOOP-PARITY bit: U(t)=exp(-i t/2
                n.sigma) gives spinor sign +1/-1/+1 at t=0/2pi/4pi (two 360deg loops, deductive + inductive, over the SAME geometry closing at 720deg; the deductive-loop + inductive-loop
-               dual stack as one 720 cycle), carried in psi, density distance identically 0 at every stage.
+               the two directions of one manifold traversal closing at 720deg), carried in psi, density distance identically 0 at every stage.
                (B) SHEET-GATED RETENTION bit: a z-encoded bit under the direct sheet's z-dephasing survives
                (fidelity 1.0 for 300 ticks); under the conjugated sheet's x-dephasing it decays to 0.0 (>100x
                ratio) -- independently reproduces the owner's local dual-engine measurement (direct 1.0,
@@ -724,3 +724,17 @@ UP-56 NEW LAYER 0.14  spinor_memory_sim.py -- the two 1-bit memory registers tha
                sheet-history) that the associative memory (0.13, density pointer = which pattern) runs
                alongside -- two registers, one carrier. FULL HARNESS VERIFIED: 67 pass / 0 fail / 0 skip
                GREEN (incl torch + JAX + Julia lanes).
+
+
+# LAYER 0.15 — full Type 1 engine from IGT source doc — 2026-07-03
+UP-57 NEW LAYER 0.15  type1_engine_igt_sim.py -- the FULL Type 1 engine (LEFT Weyl, flux IN, +H0) built
+               EXACTLY from igt-pattern-explicit-math-reference.md sections 11-15, replacing an earlier
+               reconstruction (two_weyl_engines_sim, removed) that wrongly assumed each engine uses only 2
+               operators. CORRECT structure: engine split is by FLUX/Hamiltonian sign; each engine uses all
+               4 operators across its 4 terrains. 4 operators (Ti/Te/Fi/Fe scratch Bloch maps), 4 terrains
+               (Se/Ne/Ni/Si-in), 8 stages (outer Op(Terr) + inner Terr(Op)) in exact composition order with
+               IGT win/lose labels. Results: (1) 8 stages distinct (min 0.388); (2) per-stage work table;
+               (3) Axis-6 order N01 -- different-axis ops don't commute ([Ti,Fi] 0.089, [Te,Fe] 0.051),
+               same-axis [Ti,Fe] commutes; (4) two traversals differ (deductive vs inductive, gap 0.017);
+               (5) z3 AND cvc5 gate native op->sheet forced (1 vs 2^4). IGT labels are rosetta-layer only.
+               Removed two_weyl_engines_sim.py (wrong operator model). FULL HARNESS VERIFIED: 68 pass / 0 fail / 0 skip GREEN.
