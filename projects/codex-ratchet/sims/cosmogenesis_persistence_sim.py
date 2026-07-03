@@ -65,7 +65,7 @@ def SvN(rho):
 def ptA(rho): r=rho.reshape(2,2,2,2); return np.einsum('kikj->ij',r)
 def Ic(rho): return SvN(ptA(rho))-SvN(rho)
 sx=np.array([[0,1],[1,0]],complex); Hent=np.kron(sx,sx)
-p0=np.array([1,0,0,0],complex); ts=np.linspace(0,np.pi/2,40); Ictraj=[]; size=[]
+p0=np.array([1,0,0,0],complex); ts=np.linspace(0,np.pi/4,40); Ictraj=[]; size=[]  # [0,pi/4]: monotonic expansion to the Bell state (t=pi/2 would return to product |11>)
 for t in ts:
     p=expm(-1j*t*Hent)@p0; rho=np.outer(p,p.conj()); Ictraj.append(Ic(rho)); size.append(SvN(ptA(rho)))
 Ictraj=np.array(Ictraj); size=np.array(size)
