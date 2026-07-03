@@ -848,3 +848,12 @@ UP-66 JP PACKET     Processed jp_complete_packet_20260703 (JP mesh node). (1) Tw
                ceiling audit incl my own L1-L4 overstatement caught+fixed; MeshSignedBundleV0 = owner GO-rec
                scoped to signed-bundles-first; joint next object = Xi bridge at spine L8-L9 with JP's
                quotient-lift acceptance gate. Harness unaffected (docs only), 73 GREEN.
+
+UP-67 RATCHET RUNS  ratchet_climb_engine_v0.py: the ratchet as an ACTUAL climbing process (the wheel, not just
+               the pawl). Decidable: level strength = expressible distinction (partition refinement, weakness
+               order MEASURED); lift trigger = Lost() by exhaustive enumeration (Minimalist failure = proof);
+               smallest-step = weakest level resolving >=1 lost demand, stronger logged REJECTED_UNFORCED.
+               Climbs L0->L1_Z->L2_Pauli->L3_Spinor as THREE forced teeth (each a distinct measured lost
+               distinction: <Z>, <X>, spinor-lift for rho-identical R(2pi)); T1-T4 pass; T5 basin = 4 permuted
+               orders converge identical. Corrects a node build that batch-jumped L0->L3 and whose fix was
+               broken Python. Full harness 74 pass/0 fail/0 skip GREEN (verified). scratch_diagnostic.
