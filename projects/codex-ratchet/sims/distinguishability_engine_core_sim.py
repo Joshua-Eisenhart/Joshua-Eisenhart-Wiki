@@ -29,9 +29,12 @@ FOUR results:
  (C) ONTOLOGY (the correction): along the base loop the state stays PURE (von Neumann S=0) while
      trace-distance (distinguishability) grows to 0.93. DISTINGUISHABILITY WITHOUT ENTROPY -> entropy
      is a downstream measure, not the primitive substance.
- (D) STRUCTURAL GATE (load-bearing): a density-stationary loop cannot create distinguishability.
-     z3 AND cvc5 -- "create distinguishability on the FIBER" is UNSAT (it is the ~_M class); on the
-     BASE it is SAT. Both solvers, both halves, control flips.
+ (D) STRUCTURAL GATE (load-bearing): the solver inputs are DERIVED FROM THE MEASURED DYNAMICS
+     (fib_drift, base_travel) -- NOT hardcoded. Measured booleans: fiber (stationary=1, created=0),
+     base (stationary=0, created=1). The single structural law "stationary => not created" FITS the
+     measured data on both loops (SAT). CONTROL: assert the MEASURED-stationary fiber ALSO created
+     distinguishability -- UNSAT with the law present, SAT once the law is dropped, so the law (not
+     arithmetic) is what bites. z3 AND cvc5, both the fit and the flipped control.
 
 Tools: numpy (Hopf geometry, trace distance, von Neumann entropy, Berry solid angle -- control lane)
 + z3 + cvc5 (fiber/base structural gate, load-bearing). scratch_diagnostic; promotion_allowed=false.
@@ -72,22 +75,43 @@ print(f"(B) Berry holonomy: inner(pi/8) numeric={berry_pi8:+.3f} analytic={an_pi
 S_along=[SvN(rho(p)) for p in base_ps]; dist_along=[tdist(base[0],hopf(p)) for p in base_ps]
 print(f"(C) ontology: base-loop max distinguishability={max(dist_along):.3f}, max entropy S={max(S_along):.2e} (distinguishability WITHOUT entropy)")
 
-def z3_gate(on_fiber):
-    s=z3.Solver(); cr,st=z3.Int('cr'),z3.Int('st')
-    s.add(z3.Or(cr==0,cr==1),z3.Or(st==0,st==1),z3.Implies(st==1,cr==0))
-    s.add(st==1 if on_fiber else st==0); s.add(cr==1); return str(s.check())
-def cvc5_gate(on_fiber):
+# (D) STRUCTURAL GATE (load-bearing): the solver inputs are DERIVED FROM THE MEASURED DYNAMICS above
+# (fib_drift, base_travel), not hardcoded. Measured booleans per loop: st = "density-stationary"
+# (measured trace-distance drift < tol); cr = "created distinguishability" (measured drift > 0.5).
+tol=1e-9
+st_fib,cr_fib=int(fib_drift<tol),int(fib_drift>0.5)     # from the FIBER-loop measurement
+st_bas,cr_bas=int(base_travel<tol),int(base_travel>0.5) # from the BASE-loop measurement
+LAW="stationary => not created"
+def z3_fit():   # does the single structural law fit BOTH measured loops? (UNSAT if a stationary loop had created)
+    s=z3.Solver(); s1,c1,s2,c2=z3.Ints('s1 c1 s2 c2')
+    s.add(s1==st_fib,c1==cr_fib,s2==st_bas,c2==cr_bas)
+    s.add(z3.Implies(s1==1,c1==0),z3.Implies(s2==1,c2==0)); return str(s.check())
+def z3_ctrl(with_law):  # counterfactual: the MEASURED-stationary fiber ALSO creates distinguishability
+    s=z3.Solver(); st,cr=z3.Ints('st cr'); s.add(st==st_fib)   # st from fib_drift measurement
+    if with_law: s.add(z3.Implies(st==1,cr==0))
+    s.add(cr==1); return str(s.check())
+def cvc5_fit():
     s=cvc5.Solver(); s.setLogic("QF_LIA"); I=s.getIntegerSort(); mk=s.mkInteger
-    cr,st=[s.mkConst(I,n) for n in('cr','st')]; eq=lambda x,y:s.mkTerm(Kind.EQUAL,x,y)
-    for v in (cr,st): s.assertFormula(s.mkTerm(Kind.OR,eq(v,mk(0)),eq(v,mk(1))))
-    s.assertFormula(s.mkTerm(Kind.IMPLIES,eq(st,mk(1)),eq(cr,mk(0))))
-    s.assertFormula(eq(st,mk(1)) if on_fiber else eq(st,mk(0))); s.assertFormula(eq(cr,mk(1)))
+    s1,c1,s2,c2=[s.mkConst(I,n) for n in('s1','c1','s2','c2')]; eq=lambda a,b:s.mkTerm(Kind.EQUAL,a,b)
+    imp=lambda a,b:s.mkTerm(Kind.IMPLIES,a,b)
+    for v,val in ((s1,st_fib),(c1,cr_fib),(s2,st_bas),(c2,cr_bas)): s.assertFormula(eq(v,mk(val)))
+    s.assertFormula(imp(eq(s1,mk(1)),eq(c1,mk(0)))); s.assertFormula(imp(eq(s2,mk(1)),eq(c2,mk(0))))
     return str(s.checkSat())
-zf,zb,cf,cb=z3_gate(True),z3_gate(False),cvc5_gate(True),cvc5_gate(False)
-print(f"(D) fiber/base gate: fiber z3={zf}/cvc5={cf} (unsat); base z3={zb}/cvc5={cb} (sat)")
+def cvc5_ctrl(with_law):
+    s=cvc5.Solver(); s.setLogic("QF_LIA"); I=s.getIntegerSort(); mk=s.mkInteger
+    st,cr=[s.mkConst(I,n) for n in('st','cr')]; eq=lambda a,b:s.mkTerm(Kind.EQUAL,a,b)
+    s.assertFormula(eq(st,mk(st_fib)))
+    if with_law: s.assertFormula(s.mkTerm(Kind.IMPLIES,eq(st,mk(1)),eq(cr,mk(0))))
+    s.assertFormula(eq(cr,mk(1))); return str(s.checkSat())
+zfit,cfit=z3_fit(),cvc5_fit()
+zc1,cc1=z3_ctrl(True),cvc5_ctrl(True)      # law present: forbidden -> UNSAT (because fiber measured stationary)
+zc0,cc0=z3_ctrl(False),cvc5_ctrl(False)    # law dropped: allowed  -> SAT (law is what bites, not arithmetic)
+print(f"(D) gate: data fits law z3={zfit}/cvc5={cfit} (sat); stationary-fiber-creates z3={zc1}/cvc5={cc1} (unsat w/law) -> {zc0}/{cc0} (sat w/o law)")
 
 assert fib_drift<1e-9 and base_travel>0.5, "fiber density-stationary, base density-traversing (a=a iff a~b geometrized)"
 assert abs(berry_pi8-an_pi8)<0.01 and abs(berry_cliff-an_cliff)<0.01, "Berry holonomy matches doc closed form"
 assert max(dist_along)>0.5 and max(S_along)<1e-9, "distinguishability created with zero entropy (entropy is a later measure)"
-assert zf=="unsat" and cf=="unsat" and zb=="sat" and cb=="sat", "fiber cannot create distinguishability, base can (z3+cvc5 both halves)"
+assert st_fib==1 and cr_fib==0 and st_bas==0 and cr_bas==1, "measured booleans derived from dynamics (fiber stationary/no-create, base moving/create)"
+assert zfit=="sat" and cfit=="sat", "the single structural law FITS the measured data on both loops (z3+cvc5)"
+assert zc1=="unsat" and cc1=="unsat" and zc0=="sat" and cc0=="sat", "control flips: measured-stationary fiber cannot have created (UNSAT w/law), SAT once law dropped (z3+cvc5 both halves)"
 print("\nPASS distinguishability_engine_core_sim")
