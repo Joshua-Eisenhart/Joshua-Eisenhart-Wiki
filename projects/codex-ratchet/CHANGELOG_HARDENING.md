@@ -701,7 +701,7 @@ UP-55 NEW LAYER 0.13  quantum_hopfield_memory_sim.py -- a quantum associative me
                gradient descent of E on the spinor carrier (torch autograd -- the trainable substrate).
                Results: (1) content-addressable recall probe fidelity 0.58 -> 1.0, energy -0.37 -> -1.01;
                (2) 3-QUBIT FLOOR measured (owner's "need at least 3 qubits"): 4-pattern recall 0.25/0.25/1.00
-               at n=1/2/3; (3) capacity ~ Hilbert dim (1.0 to K~5, 0.38 at 8, 0.17 at 12 on dim-8); (4)
+               at n=1/2/3; (3) capacity ~ Hilbert dim (1.0 to K~5, 0.38 at 8, 0.17 at 12, 0.06 at 16 on dim-8); (4)
                numpy-oracle cross-check agrees on the recalled attractor; (5) z3 AND cvc5 gate on the recall
                law + flipped control. HARNESS: new TORCH LANE added -- run_all.py gains torch_python()
                portable interpreter discovery (current -> $CR_TORCH_PYTHON -> sibling conda env importing
@@ -713,7 +713,7 @@ UP-55 NEW LAYER 0.13  quantum_hopfield_memory_sim.py -- a quantum associative me
 UP-56 NEW LAYER 0.14  spinor_memory_sim.py -- the two 1-bit memory registers that live in the spinor psi and
                are INVISIBLE to the density rho (scaffold 104/153: "the density quotient kills global spinor
                phase, lifted path, 720deg return, holonomy"). (A) 720-DEGREE LOOP-PARITY bit: U(t)=exp(-i t/2
-               n.sigma) gives spinor sign +1/-1/+1 at t=0/2pi/4pi (the Carnot-deductive + Szilard-inductive
+               n.sigma) gives spinor sign +1/-1/+1 at t=0/2pi/4pi (two 360deg loops, deductive + inductive, over the SAME geometry closing at 720deg; the deductive-loop + inductive-loop
                dual stack as one 720 cycle), carried in psi, density distance identically 0 at every stage.
                (B) SHEET-GATED RETENTION bit: a z-encoded bit under the direct sheet's z-dephasing survives
                (fidelity 1.0 for 300 ticks); under the conjugated sheet's x-dephasing it decays to 0.0 (>100x
