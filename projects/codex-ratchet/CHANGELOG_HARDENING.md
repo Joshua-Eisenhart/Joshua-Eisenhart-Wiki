@@ -594,3 +594,25 @@ UP-48 LOOP-BACK REPAIRS (WEB_THREAD_LOOPBACK_20260703, local-harness adversarial
      weak_force "earns one SM fact" -> "admits chirality STRUCTURE forced; vertex+side empirical".
 HONEST NEGATIVE recorded (item 5): eps_even_a2 dissipation-foothold route stays a diagnostic, not cited
      as positive. FULL HARNESS VERIFIED: 61 pass / 0 fail / 0 skip GREEN (incl JAX + Julia lanes).
+
+
+# LAYER 0.9 — QIT FREE ENERGY PRINCIPLE EARNED THROUGH THE RATCHET — 2026-07-03
+UP-49 NEW LAYER 0.9  qit_fep_ratchet_sim.py -- a pure-QIT FEP DERIVED FROM the constraint surface stage by
+               stage, NO shortcuts, with EVERY classical/thermal primitive of standard FEP replaced by its
+               constraint-surface origin (owner directive: "the real math must always come before the
+               jargon"; "thermo sounds like a dangerous term"). Rejected the doc's own thermal prior
+               exp(-E/T)/Z (Boltzmann) and the amplitude-damping "ground state"; replaced by GKSL fixed
+               points of the native Axis-5 T-operators (Ti z-dephasing, Te x-dephasing), full-rank by
+               construction so relative entropy is finite with ZERO regularization -- no temperature, no
+               energy, no -log p, no classical probability anywhere in the math.
+               REPLACEMENTS: p(z)->density spectrum (F01); exp(-E/T)->GKSL fixed point; -log p(x)->S(rho||sigma);
+               Bayesian update->CPTP relaxation; Markov-blanket graph->vanishing I(A:C|B).
+               SIX EARNED STAGES: (1) F01 distinguishability FORCES the functional -- S(rho||sigma) unique as
+               BOTH CPTP-monotone AND additive (relent additive 3.6e-14; trace distance NOT, off 0.287).
+               (2) Axis-0 geometry splits surprise EXACTLY (Pythagorean |d|=0) into classical spectral
+               (entropy DOF) + quantum basis-mismatch (coherence DOF). (3) Axis-5 operators ARE inference:
+               each native T-op drives surprise vs OWN pointer monotone to 0 (self-evidencing); foreign
+               >0.1. (4) 3-qubit Markov blanket = vanishing I(A:C|B) (chain 0.0000; direct A-C 0.278).
+               (5) active selection = min-surprise (z->Ti, x->Te). (6) z3 AND cvc5: law fits, foreign-forced
+               control UNSAT->SAT. LOOP-BACK: FEP is a different VIEW of the ratchet, not a new mechanism.
+               Hypothetical lane; no Friston hierarchical continuous-state claim. FULL HARNESS VERIFIED: 62 pass / 0 fail / 0 skip GREEN (incl JAX + Julia lanes).
