@@ -113,10 +113,10 @@ geometry in the axes" — the scaffold already carried this rule.)
 
 | Law | Form | Status |
 |---|---|---|
-| Axis-0 parity | `a0 = a1 XOR a2`; sign `chi0 = chi1*chi2` | dual-solver FORCED unique (z3+cvc5); erasing Ni constraint breaks uniqueness; not linearly separable (why single-readout Axis-0 attempts fail) |
-| Axis-6 bilinear | `b6 = -b0*b3`, coefficient -1 uniquely forced, no linear law | dual-solver forced; MEASURED on the Type-1 GKSL engine: holds on all 48 defined rows |
+| Axis-0 parity | `a0 = a1 XOR a2`; sign `chi0 = chi1*chi2` | dual-solver FORCED unique (z3+cvc5); erasing Ni constraint breaks uniqueness; not linearly separable (why single-readout Axis-0 attempts fail). THREE OBJECTS, never conflate: a0_discrete (terrain-sign XOR), b0_chart (sign cos 2eta), A0_bridge (Phi0 o Xi) — the XOR law is proven on a0_discrete; no eta-space flip-location theorem exists yet (open falsifier: perturb eta near pi/4, test whether discrete XOR predicts flip loci) |
+| Axis-6 bilinear | `b6 = -b0*b3`, coefficient -1 uniquely forced, no linear law | dual-solver forced; MEASURED on the Type-1 GKSL engine: holds on all 48 defined rows. CHART-LOCAL: the SMT proof and the measurement consume chart/probe b0 (sign r_z), NOT bridge-A0 — the law is provisional until the Xi bridge exists (referee-adjudicated 2026-07-03) |
 | Derived 3-axis | `b6 = -(b1*b2)*b3` via `b0 = b1*b2` | composition of the two laws; Axis-6 is downstream of three axes |
-| Topology join | `A1 x A2 -> terrain`: CPTP/direct=Se, CPTP/conj=Ni, unitary/direct=Ne, unitary/conj=Si | source-locked; the 4 functions are a PRODUCT of two axes, not primitive |
+| Topology join | `A1 x A2 -> terrain`: CPTP/direct=Se, CPTP/conj=Ni, unitary/direct=Ne, unitary/conj=Si | source-locked; terrain is a function/readout table from the A1 x A2 readout values — the 4 functions are indexed by the product, not primitive |
 | Token identity | `A1 x A2 x A5 x A6 = 16 ordered tokens` | counting law |
 | Loop-placement | `A3 x A4 x A5 x A6 = 8 paired signatures, NOT 16` | same signature pairs two topology rows -> engine type NOT recoverable from A3xA4 alone |
 | Terrain placements | terrain x sheet x path = 16 placements | generator/path objects, joined to tokens only by the engine chart |
@@ -191,3 +191,18 @@ is the closer reading, plus the sheet/H-sign ingredient.)
 - A0-A4 and A0-A5: no law, no independence statement — unmeasured pairs.
 - Taijitu spin (A4 symbolic sign) — owner-reserved.
 - 64-schedule dynamic distinctness/visitation — not established.
+
+## 7. Referee round (2026-07-03, post-publication)
+
+Three external referees (2x kimi, 1x qwen, verified) attacked this doc and the
+ratchet formalization; codex adjudicated against sources. LANDED and repaired
+above: chart-locality of both laws (a0_discrete/b0_chart/A0_bridge split),
+XOR discrete-vs-continuous hole (flip-location falsifier queued), product
+wording. LANDED on the ratchet spec (obligations added to its open list, repo
+extraction doc): R5 fresh-token identity criterion missing; R6 mu needs
+codomain/order/objective non-step predicate; observable-quotient criterion
+underdefined; Xi_ref lacks quotient-lifting (demote to discriminator-only or
+add the lift). MISREAD (held for the record): R3 counterexample fails
+(intersections commute, as the spec says); R2/R5 compatibility needs the
+new-branch identity caveat. Full adjudication in repo:
+system_v7/sims/ (referee JSONs in session scratchpad; adjudication receipt).
