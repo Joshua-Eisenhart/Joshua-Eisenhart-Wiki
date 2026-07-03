@@ -546,6 +546,27 @@
                                 per the three-engine contract. coratchet_axis_orthogonality_sim.py;
                                 figures/coratchet_axis_orthogonality.png. numpy+scipy+z3+cvc5.
 
+17.5 Coupled co-ratchet      EARNED. The entropy ratchet and operator ratchet run as ONE loop
+     (dual-loop 720)            around the 720deg double cover (inner+outer 4-beat loops) --
+                                the two ratchets constrain each other, not tested separately.
+                                Implements DUAL_LOOP_SPINOR_GRAMMAR (a documented runtime GAP:
+                                grammar "not yet modeled as first-class objects"). Also the
+                                owner's Carnot/Szilard structural analogy (engine pumping entropy
+                                around an info cycle). COOL = amplitude damping to a pure pointer
+                                (non-unital source-locked sigma-, S->0, Landauer limit); HEAT =
+                                rotate-into-coherence + dephase (S->1). RESULTS: (A) opposite fixed
+                                points S=0 (cool) vs S=1 (heat). (B) CHIRALITY ASYMMETRY -- LEFT
+                                (cool-outer) vs RIGHT (heat-outer) pump different net S around the
+                                same loop; LEFT-minus-RIGHT flux SIGN-CONSISTENT across 200 probes
+                                (mean +0.31, all>0) -- robust, not probe-dependent. (C) the two
+                                orderings NONCOMMUTE (||CH-HC||~0.22): dual-loop grammar is not a
+                                relabeling. z3 AND cvc5 ENUMERATE all 2^4 length-4 {cool,heat}
+                                words: alternating constraint -> exactly 2 models (chiralities
+                                CHCH,HCHC), else 16 (model-counting, count flips with constraint).
+                                Loops Landauer(16.1)+einselection(16.2)+noncommutation(16.7) back
+                                in. coupled_coratchet_dualloop_sim.py;
+                                figures/coupled_coratchet_dualloop.png. numpy+scipy+z3+cvc5.
+
 ################################################################################
 # THE OPEN ITEMS, CONSOLIDATED (what actually needs work, by priority)
 ################################################################################
