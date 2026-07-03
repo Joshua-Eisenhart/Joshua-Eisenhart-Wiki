@@ -172,6 +172,8 @@ SUITE = [
    ("contains", "PASS distinguishability_engine_core_sim")]), # z3+cvc5; MODEL CORE: fiber/base distinguishability-creation engine + Berry holonomy
  ("entropic_gravity_axis0_sim.py", 180, False, [
    ("contains", "PASS entropic_gravity_axis0_sim")]),         # z3+cvc5; axis-0 gravity model: gravity = gradient of entanglement entropy
+ ("signed_axis0_primitive_sim.py", 180, False, [
+   ("contains", "PASS signed_axis0_primitive_sim")]),          # z3+cvc5; Layer 0.3 signed Axis-0 primitive I_c=-S(A|B); earns 0.2 two-regime sign structure
  ("flux_nesting_ablation_jax.py", 600, True, [
    ("approx", r'"total_chern_forward":\s*([0-9.]+)', 7.295389, 1e-3)]),
  ("manifold_build_ladder.py", 600, True, [
