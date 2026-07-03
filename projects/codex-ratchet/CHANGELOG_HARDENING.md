@@ -549,3 +549,22 @@ HONEST SCOPE: 0.5 earns the ladder+kill-control+G2; does NOT build the octonion 
                SM gauge from G2 (downstream, scaffold 10.4). 0.6 is a mechanism illustration of the owner
                cosmogenesis, NOT a cosmological-constant derivation. Owner doctrine under test. FULL HARNESS VERIFIED: 59 pass / 0 fail / 0 skip GREEN
                (in /tmp/final_base incl JAX + Julia cross-substrate lanes).
+
+
+# LAYER 0.7 — 2026-07-02 (loop-back / convergence: one basin, many perspectives)
+UP-46 NEW LAYER 0.7  perspective_convergence_sim.py -- tests the owner reframe that the ratchet, QIT
+               engines, and physics model are ONE attractor basin seen from different perspectives, not a
+               divergent set. Takes ONE Werner state family and computes each already-built physics
+               bridge by its OWN native recipe: gravity (0.4) = sign of signed I_c; chirality (19.1/20.1)
+               = forced iff entangled (negativity>0); cosmogenesis (0.6) = expansion size S(rho_A).
+               RESULTS: (1) all three are projections of the single parameter p -- one object, many
+               views. (2) NESTED onset order: entanglement onsets at p=1/3, binding-sign at p*=0.7476 --
+               entanglement is necessary but NOT sufficient for the gravitational binding sign (a strict
+               entangled-but-nonbinding regime exists between). (3) LOOP-BACK LESSON: the master invariant
+               governing the physical sign is the SIGNED I_c (Layer 0.3), strictly stronger than raw
+               entanglement -- the convergence RANKS the invariants and tightens which quantity is
+               foundational. (4) z3+cvc5 gate: law chain bind<=>I_c, I_c=>ent, forced<=>ent fits all three
+               regimes; control "entangled-but-nonbinding forced to bind" UNSAT-with-law -> SAT-without.
+               HONEST SCOPE: demonstrates the one-basin claim as computed convergence on a one-parameter
+               family + extracts the invariant-ranking lesson; does NOT prove global basin uniqueness.
+               FULL HARNESS VERIFIED: 60 pass / 0 fail / 0 skip GREEN (incl JAX + Julia lanes).
