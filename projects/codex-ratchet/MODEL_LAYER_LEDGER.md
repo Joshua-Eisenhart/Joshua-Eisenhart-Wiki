@@ -740,3 +740,10 @@ it (P2/P3) and no element maps the generators (P11 r4). Consequences:
 Ledger lines 21-22/64-77 also tie the native operator pairs to the frames
 ("conjugated-frame ops"), substantiating 7u's two-layer V/W split from source.
 See REPO_AUDIT_AND_RESOLUTIONS.md 1b.
+
+
+## Layer 0.3 — Signed Axis-0 primitive (coherent information I_c = -S(A|B))  [EARNED as mechanism component; owner doctrine under test]
+Source: ENTROPIC_MONISM_ORIGIN_AND_COSMOLOGY.md sec 8 (-S(A|B) kernel = entanglement measure); entropy-tables doc (signed primitive vs unsigned companion I(A:B)); sec 5.4/4.1 two-regime cosmology.
+Object: I_c(A>B) = S(rho_B) - S(rho_AB) = -S(A|B). Sign carries physical content: I_c>0 binds (gravity/dark-matter regime), I_c<0 disperses (dark-energy regime).
+Results: (1) signed vs unsigned on Bell/product-mixed/classical-corr (+1/-0.88/0 vs +2/0/+1). (2) THEOREM: 4000 separable states max I_c=-6e-6 -> positive I_c is a genuine entanglement witness, stricter than entanglement (Werner binds only for p>p*=0.7476, entangled from 1/3). (3) LOOP-BACK to 0.2: gravitational two regimes = two measured signs of I_c(x) along a chain of Werner cuts, potential Phi=-I_c; attractive accel toward the I_c>0 core emerges, replacing the 0.2 hand-signed +/-S_anom. (4) GATE (load-bearing): z3 AND cvc5, booleans DERIVED from measured core/halo signs; law "attractive-binding <=> I_c>0" SAT; control "measured-dispersing halo binds" UNSAT-with-law -> SAT-without.
+Deepening: the 0.2 gravity sign structure was asserted; 0.3 grounds it in the owner's -S(A|B) kernel. Artifacts: signed_axis0_primitive_sim.py, signed_axis0_primitive.png.
