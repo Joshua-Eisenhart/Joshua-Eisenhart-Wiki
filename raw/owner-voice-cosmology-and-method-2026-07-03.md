@@ -37,3 +37,5 @@ now i just look at "nothingness" and real;ize it can be randomness, and that can
 ## Related
 - [[iff-chain-identity-duality-2026-07-03]]
 - Detailed earlier versions: Codex-Ratchet system_v5/docs/session_20260606_physics_excavation/ (01 owner model, 03 universal clock, 04 gravity, 12 quote receipt atlas), system_v7/constraint_core/reference_docs_from_josh/toe_cosmology/
+
+- Excavation hubs for the detailed model: Codex-Ratchet system_v5/docs/session_20260606_physics_excavation/ (esp. 01, 03, 04, 09, 12) · wiki [[sequential-universe-spinor-network-physics-model]] · wiki projects/codex-ratchet/physics-model-unique-claim-atlas-2026-06-06 and physics-model-codex2-13-cluster-extraction-receipt-2026-06-06 · raw grok threads under raw/articles/system-v5-reference-docs/Older Legacy/.
