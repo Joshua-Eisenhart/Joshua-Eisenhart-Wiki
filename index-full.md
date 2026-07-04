@@ -1,0 +1,668 @@
+# Codex Ratchet Wiki — Index
+
+Total published pages: 461. Governance/read-first surfaces are listed separately. Restructured 2026-04-17 (stabilization pass).
+
+## Hermes / LLM Alignment Front Door
+- [[hermes-current/read-first]] — Hermes front door; load this before substantive work
+- [[hermes-current/about-me-and-how-to-work-with-me]] — stable working preferences and constraints
+- [[hermes-current/active-intentions]] — current goal: wiki + Hermes as an entropy-refinery and LLM alignment surface
+- [[hermes-current/active-plans]] — compact active plan stack and next bounded work lanes
+- [[hermes-current/wiki-continuous-maintenance-control-2026-06-28]] — live bounded cron control surface for ongoing wiki upkeep, project tracking, research digestion, and Hermes memory-offload hygiene
+- [[hermes-current/fresh-thread-continuity-2026-06-28]] — recovery/routing note for the overwhelmed 2026-06-28 Hermes thread: Lev blockers, wiki continuity, paused cron status, and no-promotion next move
+- [[hermes-current/current-vs-legacy]] — authority/provenance ranking
+- [[hermes-current/skills-and-agent-rules]] — how skills and agents should use the wiki
+- [[hermes-current/cocoindex-wiki-mcp-memory-layer]] — CocoIndex/MCP semantic retrieval layer for Hermes, Claude Code, Codex, and other MCP-capable agents
+- [[projects/codex-ratchet/cocoindex-and-bloat-cleanup-policy-2026-06-17]] — current CocoIndex + bloat cleanup policy for wiki/repo LLM findability: local indexes are semantic maps, generated JSON stays exact-read evidence, and large result artifacts require manifest/checksum/restore before archive or compression
+- [[projects/codex-ratchet/read-first]] — Codex Ratchet project front door after Hermes spine
+- [[projects/research-ratchet/README]] — Research Ratchet front door for the long-horizon project harness: event-sourced admissibility geometry, WorldModelGraph / GraphPatch, Spinor Memory, Attractor Basin Digger, ClaimGate authority, and Lev Effect/Eval/Ledger bridge; proposal/source frame only, not runtime proof
+- [[projects/codex-ratchet/wiki-upgrade-pack-intake-2026-06-19]] — pass-with-cautions intake for the Codex Ratchet deep-research report and wiki-upgrade ZIP; adds compact routers/spec mirrors/templates without promoting repo evidence
+- [[projects/codex-ratchet/repo-to-wiki-research-assessment-intake-2026-06-19]] — pass-with-cautions intake for the pasted Codex Ratchet repo-to-wiki research assessment; routes useful backlog/front-door pressure without promoting repo evidence
+- [[projects/codex-ratchet/deep-repo-extraction-pack-intake-2026-06-19]] — branch-imported deep repo extraction intake for v6/v7 MSS, quotient floor, forced-vs-installed carrier tests, contextuality, deflator rows, ring-checkerboard/QCA/Hopfield fixtures, typed projection monism, v7 gate grounding, and manifold-layer completeness; routing only, no promotion
+- [[projects/codex-ratchet/cross-issue-deepening-intake-2026-06-19]] — third-pass cross-issue extraction over older physics/source roots and unique mechanics: spinor-network priority, six-bit/two-trigram engine, Axis 1/2 Szilard legality, S3/Hopf global chirality, 64-state terrain/operator lattice, sequential-universe dark-sector memory, holodeck projection/error-correction, and finite-test conversion queues; source-processing only, no promotion
+- [[projects/codex-ratchet/cross-issue-finite-test-backlog-2026-06-19]] — finite-test backlog extracted from the cross-issue deepening pass: six-bit/two-trigram engine, Axis 1/2 Szilard legality, Type 1/2 factor split, S3/Hopf global chirality, sequential-universe inherited memory, dark-sector flow/memory split, gravity shell gradient, `ijk` probability-time shell, holodeck loop, 64-state terrain/operator lattice, and many-futures convergence; planning only, no promotion
+- [[projects/codex-ratchet/front-door-slim-load-order-2026-06-19]] — compact Codex Ratchet load-order card for repo authority, spec mirrors, claim ceilings, and task-specific routers
+- [[specs/codex-ratchet/process-contract-refresh-mirror-2026-06-19]] — 2026-06-19 repo-authority/spec refresh card for `AGENTS.md`, process docs, sim Full Wizard runbook shape, and no-promotion mirror boundaries
+- [[projects/codex-ratchet/repo-current-surface-ingest-2026-06-17]] — bounded repo-to-wiki intake/router for current v7/base-floor/carrier/contextuality/ring-checkerboard/QCA/Hopfield surfaces; preserves weak quotient first, open forced-vs-installed, nonclassical-not-rho-specific, low-rank-not-carrier, and scratch/no-promotion ceilings
+- [[projects/codex-ratchet/prompt-memory-intention-formalization-router-2026-06-17]] — router for processing Claude/Codex/Hermes prompt-like memories into candidate wiki surfaces; raw memory remains private intake and generated agent prose is not owner doctrine
+- [[projects/codex-ratchet/prompt-memory-first-research-tranche-2026-06-17]] — first research-backed comparator tranche for prompt-memory formalization; candidate owner-kernel routing only until a provenance ledger supplies bounded quotes/owner confirmation; keeps `M(C)`, QIT-engine, Axis0, bridge, physics, consciousness, and canon unpromoted
+- [[projects/codex-ratchet/memory-source-coverage-matrix-2026-06-17]] — source-vs-wiki coverage matrix for Hermes, Claude, Codex app, codex1, and codex2 memory estates; separates processed, thin/partial, mostly-missing, and app-storage-only sources before any semantic import
+- [[projects/codex-ratchet/prompt-memory-provenance-ledger-tranche-001-2026-06-17]] — first bounded prompt-memory provenance ledger: redacted source-class rows, owner/assistant split, privacy status, research comparator lanes, falsifiers, and strict no-promotion claim ceilings
+- [[projects/codex-ratchet/prompt-memory-provenance-ledger-tranche-002-2026-06-17]] — Claude CR + Claude Desktop CR provenance ledger tranche: safe method-memory rows for Wizard v4.3 route truth, output cognitive load, primary-object/proxy separation, owner-table anti-promotion, MMM/harness boot, purgatory workspace, CocoIndex caveats, and unsafe-private deferrals under no-promotion ceilings
+- [[projects/codex-ratchet/prompt-memory-provenance-ledger-tranche-003-2026-06-17]] — cross-cache intent/clarification provenance ledger: Hermes/Claude/Codex/app-support candidates for owner style/execution, route truth, source/proxy separation, foundation-first order, builder/auditor split, claim-label discipline, raw-log coverage-only status, and app-support extractor deferral; no raw memory import and no promotion
+- [[projects/codex-ratchet/current-sim-validity-and-qit-engine-state-2026-06-12]] — current sim/QIT-engine validity overlay, synced after repo HEAD `52b1fe9b9`: many real bounded scratch computations, no admitted QIT-engine/Axis0/bridge/physics/full `M(C)`; RPF earns lookahead/global co-admissibility separation but not retrocausal/chiral/future-conditioned upgrade; 8Q carve is a lean count fixture, 16-stage correspondence is mismatch/proposal, ECD.01 remains the strongest clean positive QIT-like capability witness; correction overlay remains binding for stale Axis0/b6/one-step/foundation citations; broader closure debt remains open
+- [[projects/codex-ratchet/axis0-static-shallowness-and-dynamic-chart-v0-2026-06-12]] — 2026-06-12 Axis0 re-scope and dynamic chart v0 router: old Axis0 estate is static formula taxonomy; `manifold_dynamic_chart_v0` is committed validator-green `GENUINE-WITH-CAVEATS` protocol machinery but `NO-STABLE-DISTINCTION-YET`, not Axis0 or `M(C)` admission
+- [[projects/codex-ratchet/geometry-sim-program-canonical-2026-06-10]] — geometry-first anti-collapse roadmap: exact nested math stack, Bloch-as-quotient correction, Hopf torus double-cover, free/restricted/quotiented/ratcheted sim modes, anticommutation caveat, alternativity correction, refinement/orbit nesting, and no-jargon sim guard
+- [[projects/codex-ratchet/geometry-sim-closeout-and-lifted-ladder-status-2026-06-10]] — 2026-06-10 repo/wiki sync for committed geometry/lifted-ladder scratch diagnostics and live blockers: toolset expansion, S10 G2-family mine, lifted n=3/n=4 shell rungs, q=3 finite incidence, vector-vs-spinor, n=3 G5 bracketing SMT closure, Fable pressure receipt; n5/G4/G7/q4 remain live/uncommitted
+- [[projects/codex-ratchet/s1-qubit-ladder-f01-n01-t01-2026-06-10]] — corrected S1 qubit-ladder gate through 8Q: explicit F01 finitude, N01 noncommutation before anticommutation, T01 bracketing/nonassociativity boundary, and S2 runtime block until the selected ladder target closes
+- [[projects/codex-ratchet/nested-ratcheted-manifold-hypothesis-research-workbench-2026-06-12]] — non-canonical research workbench for the proposed fully nested survivor tower through 8Q(+): explicit Weyl/Hopf/tori/density/probe/metric/flux/cut/entropy/channel/flow/stage/runner/Clifford/G2/Spin/F4 layers, how nesting changes each layer, and the research-backing backlog; not admitted `M(C)`, final manifold, QIT engine, runtime flux, Axis0, bridge, physics, or canon
+- [[projects/codex-ratchet/current-decisive-frame-loader-2026-06-06]] — first-screen frame loader: `M(C)` missing, finite spinor-network carrier pressure, density/probe readout boundary, QIT-engine full stack, physics/SM/GR as downstream targets only
+- [[projects/codex-ratchet/geometric-constraint-manifold-frontier-2026-06-06]] — current decisive frontier: make `M(C)` before axes/IGT/QIT/bridge claims
+- [[projects/codex-ratchet/actual-physics-docs-processing-map-2026-06-06]] — actual physics-doc corpus processing map; source-order correction before bridge/theory/scout work
+- [[projects/codex-ratchet/deep-cross-reference-audit-matrix-2026-06-06]] — cross-reference matrix across owner model, QIT/manifold sources, scratch receipts, external pressure, and next falsifiers; no admission
+- [[projects/codex-ratchet/legacy-physics-quote-receipt-atlas-2026-06-06]] — 247-file legacy source-window atlas; quote receipts only, not cleaned doctrine
+- [[projects/codex-ratchet/mass-parallel-eight-rung-scratch-diagnostic-receipt-intake-2026-06-06]] — eight-rung mass-parallel scratch-diagnostic receipt intake; all rows remain `promotion_allowed=false` and `formal_admission_allowed=false`
+- [[projects/codex-ratchet/carrier-readout-discriminator-matrix-intake-2026-06-06]] — post-cleanup Codex/Claude carrier-readout discriminator matrix; associator/nonassociativity hardening first, fine-structure as graveyard/identifiability row; no promotion
+- [[projects/codex-ratchet/current-toe-contender-graveyard-workspace-2026-06-07]] — current TOE contender mining plus live graveyard workspace/resurrection router; batches 005-007 preserve 44 scratch diagnostics under no-promotion ceilings
+- [[projects/codex-ratchet/finite-feynman-path-integral-foundation-packet-2026-06-07]] — finite Josh-aligned path-integral foundation packet; finite paths `S_C`, constraints `C`, noncommuting path products, probe quotients, path-sum amplitude, and active controls; no continuum physics or canonical `M(C)` admission
+- [[projects/codex-ratchet/tri-engine-rich-tool-sim-contract-failure-and-rebuild-2026-06-07]] — major rich-tool sim-contract correction and rebuild router; bare JAX/Julia parity remains scratch only until package-native Julia/JAX tools are load-bearing
+- [[projects/codex-ratchet/foundation-root-distinguishability-and-associator-rebuild-2026-06-07]] — R0 v2 root distinguishability closeout plus R3 associator/non-associativity validator-clean scratch receipts; keeps `a=a iff a~b` as root frame and no-promotion ceiling intact
+- [[projects/codex-ratchet/overall-aligned-execution-plan-2026-06-07]] — current aligned execution plan: wide exploration, strong gates, recent math/model insights, and cross-model readout matrix without leap-ahead promotion
+- [[projects/codex-ratchet/legacy-core-docs-source-root-inventory-2026-06-06]] — inventory for Older Legacy, A1 refined fuel, A2 high-entropy, and ultra-high-entropy source roots; spinor-first source pressure before treating physics corpus as processed
+- [[projects/codex-ratchet/physics-model-unique-claim-atlas-2026-06-06]] — source-backed atlas of unique physics-model mechanisms beyond the recent spine: six-bit/Szilard, Axis 1/2 legality, Axis 3 Weyl chirality, S3/Hopf, ijk shell, 64-state engine lattice, and sequential-universe dark-sector memory
+- [[projects/codex-ratchet/qit-axes-terrain-operator-fold-2026-06-09]] — working fold for Hopf/Weyl carrier math, terrain laws, taijitu Axis 0-6 mapping, signed operators, broader operator backlog, and 64-state engine lattice; source-routing only, no admission
+- [[projects/codex-ratchet/pre-ai-rosetta-ring-checkerboard-provenance-2026-06-09]] — owner-provenance fold for the pre-AI Rosetta spreadsheet, two-Möbius-strip engine intuition, finite nested ring-checkerboard / hypersphere-hypertoroid intuition, and Type1/Type2 mapping cautions
+- [[projects/codex-ratchet/autobiographical-method-consciousness-provenance-2026-06-09]] — owner-provenance fold for the lived consciousness/unconscious mapping method, Hume/Jung constraints, empathy/memory observation route, manifold-as-compression statement, and math-first anti-jargon guardrail
+- [[projects/codex-ratchet/dual-carnot-szilard-qit-engine-witness-2026-06-09]] — bounded sim-target design for dual-stacking Carnot thermodynamic legality and Szilard measurement-memory legality on one finite QIT carrier; no QIT-engine admission
+- [[projects/codex-ratchet/old-physics-model-source-excavation-2026-06-06]] — oldest-doc excavation router for the physics model, direct `my-physics-model.txt`, and legacy source roots
+- [[projects/codex-ratchet/owner-physics-claims-source-extract-2026-06-06]] — Tranche A owner-physics claim extraction before sim or bridge use
+- [[projects/codex-ratchet/geometric-constraint-manifold-spinor-carrier-source-extract-2026-06-06]] — Tranche B F01/N01 to spinor-carrier/density/probe/Hopf/Weyl extraction
+- [[projects/codex-ratchet/deep-research-external-source-cluster-2026-06-08]] — sanitized external source-list router: 151 anchors queued, signed queries redacted, phase-1 paper probe/extraction receipt preserved; source-processing only, no promotion
+- [[projects/codex-ratchet/current-running-gate-state-2026-06-08]] — current gate/run snapshot: `gate_check.py` passed `16/16` durable audit receipts at snapshot, R6 result families remain all-pass scratch diagnostics with `promotion_allowed=false`, and live Gödel/CTC lanes require fresh closeout checks
+- [[physics-model-as-system-mirror]] — owner thesis that the physics/creation model mirrors the system stack from axioms and `M(C)` through layer emergence; source-processing only
+- [[model-convergence-qit-engine-full-stack]] — owner route that physics, IGT/personality, perception/consciousness, QIT engines, and geometry/math are perspective readouts over one proposed finite constraint/carrier/geometry stack; no admission
+- [[constraint-manifold-architecture]] — minimum construction contract for the actual geometric constraint manifold
+- [[CLAIM_CEILING_POLICY]] — governance policy for source-processing/admission fences and overclaim blocking
+- [[wizard/hermes-version-current/14_HERMES_WIZARD_V4_2_NATIVE_LOOP_BRIDGE]] — Hermes-native Wizard v4.2 loop bridge
+- [[current-canonical-spine]], [[topic-map]], [[current-research-overlays]] — second-layer routers after the front door
+
+## Consolidated harness doctrine (load after Hermes/project front door)
+- [[wizard/harness-consolidated/SALIENCE_LOADER]] — priming layer, read top-to-bottom before any work
+- [[wizard/harness-consolidated/00_READ_FIRST]] — full boot order
+- [[wizard/harness-consolidated/READ_POLICY]] — tier selection by task type
+- [[wizard/harness-consolidated/03_language_discipline]] — prohibited-construction set
+- [[wizard/harness-consolidated/16_dictionary]] — harness terms
+- [[wizard/harness-consolidated/19_grammar]] — sentence patterns
+- [[wizard/harness-consolidated/20_phrasebook]] — rewrite clauses
+- [[wizard/harness-consolidated/32_mmm_word_ratchet]] — word/phraselet admission protocol for mini-MMM language reservoirs
+- [[wizard/harness-consolidated/33_mmm_language_fingerprint]] — first-pass actual wiki/harness word and phraselet distribution
+- [[wizard/harness-consolidated/34_mmm_research_reservoir_map]] — research/source lanes for language reservoir enrichment without imitation
+- [[wizard/harness-consolidated/DOCTRINE_INDEX]] — pull-conditioned router into concept-layer doctrine
+- [[wizard/harness-consolidated/agent-spawn-template]] — subagent-spawning wrapper
+- [[wizard/harness-consolidated/probe-test-log]] — dated probe runs
+
+## Wizard (wave-execution governance)
+- [[wizard/README]] — universal Wizard/MMM reference front door
+- [[wizard/packet-v4-2-current/README]] — current Wizard v4.2 packet entry
+- [[wizard/packet-v4-1-current/README]] — legacy/provenance v4.1 packet entry
+- [[wizard/00-read-first]] — reading order and status rule
+- [[wizard/01-wizard-general]] — boot law, route truth, wave law, and output shape
+- [[wizard/02-mmm-reference]] — universal MMM and mini-MMM reference
+- [[wizard/03-followups-and-compositions]] — follow-up bank and All-A/B/C/D composition roles
+- [[wizard/04-agent-adapters]] — derivation model for Claude, Codex, Hermes, and later agents
+- [[wizard/05-validation-gates]] — receipts, contamination checks, leakage gates, and wiki promotion gates
+- [[wizard/06-qit-build-read-pack]] — QIT/sim build-mode reading stack
+- [[wizard/07-sim-admission-router]] — sim admission, promotion, downgrade, and repair routing
+- [[wizard/08-proof-graph-gates]] — proof/graph gates and claim ceilings for Wizard evidence
+- [[wizard/wizard-origin-and-jp-smith-provenance]] — provenance note crediting JP Smith with the original Wizard idea per Josh; not a full lineage ledger for current Wizard v4.3
+
+## Entities
+- [[claude-code]]
+- [[hermes]]
+- [[leviathan-system]]
+
+## LevOS / Leviathan developer handoff
+- [[projects/leviathan-current/index]] — human-facing table of contents for the actual Leviathan wiki pages
+- [[projects/leviathan-current/read-first]] — current Leviathan project front door for repo-current wiki ingestion, Josh/JP provenance split, and authority order
+- [[projects/leviathan-current/README]] — current Leviathan wiki project scaffold and page router
+- [[projects/leviathan-current/RELEVANT_DOCS_INDEX_2026-07-02]] — current July 2026 relevance router for the Leviathan / CR / constraint-core merge program, feeder docs, stale surfaces, and cross-linked finds
+- [[projects/leviathan-current/ONE_SYSTEM_THREE_PERSPECTIVES_2026-07-02]] — merger charter tying Lev runtime, mesh protocol, and CR evidence estate into one receipt-bound loop shape
+- [[projects/leviathan-current/MESH_NODE_PROTOCOL_V0_2026-07-02]] — current two-node mesh protocol for content-addressed exchange, receiving-node verification, and peer-witness boundaries
+- [[projects/leviathan-current/KERNEL_UPGRADES_LEVIATHAN_2026-07-02]] — three-horizon constraint-core kernel upgrade map and privacy-membrane sim spec under scratch ceilings
+- [[projects/leviathan-current/LEVIATHAN_CONSTRUCT_TO_MESH_MAP_2026-07-02]] — Leviathan v3.2 construct map to current mesh/agent-network evidence and buildable backlog
+- [[projects/leviathan-current/source/README]] — archived Leviathan v3.2 source provenance note, including the unrecovered v1-v3.1 lineage gap
+- [[projects/constraint-core/LINEAGE_AND_VERDICTS_2026-07-02]] — constraint-core lineage/verdict snapshot preserving canon vs hypothetical ceilings
+- [[projects/constraint-core/RATCHET_STATE_BY_TIER_2026-07-02]] — constraint-core tier map preserving canon lane, scratch lane, and owner-reserved decisions
+- [[projects/leviathan-current/lev-claimgate-digging-status-2026-06-28]] — current local Lev/ClaimGate implementation blocker capture; status/router only, not release proof or upstream truth
+- [[projects/leviathan-current/codex-redteam-targets-2026-06-28]] — Codex build target packet from the Lev red-team swarm: 16 broke-through attacks grouped under boundary trust, carrier provenance, and replay/freshness roots; target packet only, not implementation proof
+- [[projects/leviathan-current/proof-backed-status-dashboard]] — current source-doc split and proof-routing dashboard; not release proof
+- [[projects/leviathan-current/read-order-by-intent-2026-06-18]] — task/persona read order for the huge mixed Leviathan repo/wiki surface
+- [[projects/leviathan-current/packet-8-wizard-mass-swarm-receipt-2026-06-18]] — earlier Wizard mass-swarm cleanup receipt; route/object boundary only
+- [[projects/leviathan-current/packet-11-deeper-nuance-attribution-pack-intake-2026-06-19]] — pass-with-cautions intake for the deeper nuance/attribution addendum; sharpens no-Ratchet-from-Lev and Wizard-origin provenance boundaries
+- [[projects/leviathan-current/packet-12-pasted-deep-research-truth-provenance-intake-2026-06-19]] — pass-with-cautions intake for the pasted Leviathan truth/provenance report; reinforces runtime-first incompleteness and Josh/JP boundary discipline without fresh runtime proof
+- [[projects/leviathan-current/packet-13-pasted-fep-runtime-boundary-audit-intake-2026-06-19]] — pass-with-cautions intake for the pasted Leviathan/FEP runtime-boundary audit; routes active-inference and world-model pressure without making Leviathan an implemented FEP runtime
+- [[projects/leviathan-current/packet-14-pasted-fep-atlas-and-leviathan-boundary-intake-2026-06-19]] — pass-with-cautions intake for the latest pasted FEP atlas correction and Leviathan boundary audit; routes FEP through the concept atlas and adds Leviathan-specific split pages
+- [[projects/leviathan-current/packet-15-wizard-multi-model-council-audit-2026-06-19]] — actual multi-model council audit receipt for Packet 14/FEP split pages; four Codex model lanes completed, Claude/Gemini/Ollama lanes blocked by runtime/auth
+- [[projects/leviathan-current/lev-runtime-boundary-2026-06-19]] — Leviathan runtime-boundary page: policy/control, orchestration/execution, graph/context, event/audit, package/surface, and human-loop boundaries
+- [[projects/leviathan-current/leviathan-fep-runtime-boundary-2026-06-19]] — Leviathan/FEP runtime boundary page: FEP and active inference are formal neighbors, not implementation proof
+- [[projects/leviathan-current/sophisticated-inference-and-leviathan-2026-06-19]] — sophisticated-inference comparison lane for belief-state planning and reconciler questions
+- [[projects/leviathan-current/world-model-reconciler-fep-support-2026-06-19]] — world-model/reconciler support map and future proof backlog; no production FEP runtime claim
+- [[projects/leviathan-current/leviathan-claim-ceilings-2026-06-19]] — wording ladder for narrative, provenance, contract, package, source, test, proof, product, and release claims
+- [[projects/leviathan-current/leviathan-validation-experiments-backlog-2026-06-19]] — validation experiment backlog; proposal-only, no experiments run
+- [[projects/leviathan-current/provenance-status-guardrails-2026-06-19]] — provenance labels and guardrails for Josh/JP/Ratchet/Wizard claims
+- [[projects/leviathan-current/codex-imports/v3-deep-repo-nuance-bundle-2026-06-19]] — branch-imported V3 deep-repo nuance bundle for Leviathan subsystem, weakness/strength, FlowMind, F01/N01, plugin, world-model, and Josh/JP attribution split planning; source synthesis only, not runtime proof
+- [[projects/leviathan-current/codex-imports/v4-cross-issues-deep-dive-2026-06-19]] — branch-imported V4 cross-issues deep dive for docs/status drift, AGENTS operating-contract risk, package/app/DX/security/plugin posture, surfaces, enterprise readiness, and moat/adoption proof; source synthesis only, not runtime proof
+- [[projects/leviathan-current/release-readiness-ladder-v4-2026-06-19]] — V4 split-page router for claim rungs, docs/status drift, package/app/DX/security/plugin posture, surfaces, enterprise readiness, moat/adoption proof, and release readiness; source synthesis only
+- [[projects/leviathan-current/josh-jp-attribution-boundary-v2-2026-06-19]] — owner-corrected Josh/JP attribution boundary and unsafe-claim table
+- [[projects/leviathan-current/no-ratchet-from-leviathan-policy]] — policy note preventing Codex Ratchet from being framed as derived from Leviathan
+- [[projects/leviathan-current/source-inventory-2026-06-17]] — first current repo inventory for `lev-os/leviathan`: file counts, authority surfaces, package/workspace files, and chat/transcript candidates
+- [[projects/leviathan-current/bounded-ingestion-plan]] — packet plan for processing the current repo, runtime modules, product surfaces, constraints, chats, and research without one-pass collapse
+- [[projects/leviathan-current/concept-map-start]] — starter concept map from current README/NORTH_STAR/ROADMAP/ARCHITECTURE plus constraint bridge; not full synthesis
+- [[projects/leviathan-current/what-is-leviathan]] — Packet 1 plain-English current-authority explanation of Lev / Leviathan
+- [[projects/leviathan-current/current-state-and-roadmap]] — Packet 1 status and roadmap synthesis with gaps preserved
+- [[projects/leviathan-current/architecture-planes-and-ownership]] — Packet 1 four-plane/runtime ownership map
+- [[projects/leviathan-current/contract-surface-map]] — Packet 1 specs and contract-surface map
+- [[projects/leviathan-current/runtime-module-map-start]] — Packet 2 starter module/package map
+- [[projects/leviathan-current/flowmind-control-plane-start]] — Packet 2 starter FlowMind control-plane map
+- [[projects/leviathan-current/event-graph-orchestration-start]] — Packet 2 starter Event Bus / Graph / Orchestration map
+- [[projects/leviathan-current/josh-contribution-signal-radar]] — grounded starter radar for Josh's constraint contributions in Leviathan docs/code
+- [[projects/leviathan-current/josh-contribution-signal-index-2026-06-17]] — broad contribution signal index from repo keyword/provenance scan; not final attribution proof
+- [[projects/leviathan-current/chat-provenance-queue-2026-06-17]] — first classified queue for 250 chat/transcript/handoff candidates
+- [[projects/leviathan-current/research-connection-map-start]] — starter map of research-connected Leviathan surfaces
+- [[projects/leviathan-current/doing-well-failing-promising-start]] — first assessment of strengths, failures, promise, and falsifiers
+- [[projects/leviathan-current/worker-swarm-plan-2026-06-17]] — first bounded worker swarm plan and ownership map
+- [[projects/leviathan-current/packet-1-processing-receipt-2026-06-17]] — receipt for Packet 1 / first worker wave
+- [[projects/levos/levos-gpt-webui-idea-ledger-2026-06-15]] — processed idea ledger from the GPT WebUI LevOS/Leviathan/Ratchet/Wizard chat: geometry-entropy co-ratchet, ring/QCA/Hopfield, entropy-collapse AI alignment, OpenHR/OpenFinance, nested dictionaries, spinor-not-vector freedom, Wizard-on-LevOS, and SME/community product thesis
+- [[projects/levos/levos-gpt-webui-representation-audit-2026-06-15]] — coverage audit showing which GPT WebUI key ideas were already represented, weak/fragmented, or newly represented in the wiki
+- [[projects/levos/levos-dev-handoff-product-and-runtime-2026-06-15]] — sendable developer-facing product/runtime framing: LevOS as governed AI OS/world engine, company brain not panopticon, OpenHR/OpenFinance/P2P audit, frontier intelligence under local control
+
+## Concepts — by framing
+
+### Current (193)
+- [[constraint-manifold-architecture]] — actual geometric constraint manifold `M(C)` frame-loader and minimum construction contract; axes/IGT/QIT/bridge claims stay downstream
+- [[world-engine-graph-patch-algebra]] — Research Ratchet concept for WorldModelGraph, GraphPatch, GateOperator, and event-sourced admissibility over accepted project state; proposal concept only
+- [[spinor-memory]] — JSON-first oriented project memory under ordered operators; read/control model only, not proof authority or quantum-memory claim
+- [[attractor-basin-digger]] — classifier/control layer for basin deepening, leakage, split, kill, and insufficient-evidence moves around a bounded project object
+- [[admissibility-geometry-and-gates]] — gate/operator geometry frame connecting source, scope, owner, host, effect, proof, basin, frontier, and collapse gates under strict authority boundaries
+- [[entropic-monism-axis0-field-compression-spine]] — central owner-kernel spine for entropic monism, Axis0, JK fuzz, cross-field ToE genealogy, and field-wide compression claim ceilings
+- [[physics-model-as-system-mirror]] — structural map preserving the owner thesis that the physics/creation model mirrors the same F01/N01 -> `M(C)` -> carrier/readout -> geometry/axis -> entropy/memory/viability stack
+- [[entropic-spacetime-monism-readout-map]] — owner-model/source-processing route for one entropic-spacetime substrate with many probe-relative readouts; sector/physics admission remains open
+- [[model-convergence-qit-engine-full-stack]] — cross-model convergence route: QIT engines as the whole proposed constraint/carrier/geometry/engine stack, with physics, IGT, perception, and consciousness as perspective readouts under strict no-admission ceilings
+- [[sequential-universe-spinor-network-physics-model]] — owner physics-model route for finite/noncommutative sequential universes, entanglement/spinor-network carrier pressure, dark-sector memory, and no-promotion cosmology fencing
+- [[cross-field-toe-genealogy]] — politics/personality/evolution/consciousness to physics convergence route, preserving variants without physics-first flattening
+- [[field-wide-compression-geometry]] — finite proposal model for Axis0 field-wide compression that can expand as it runs
+- [[axis0-physics-source-teeth-map]] — source-teeth map for old/current physics deep-read deltas, eleven candidate perspective identities, standing kills, decisive finite tests, and live route splits
+- [[axis0-old-sim-rerun-audit-2026-06-05]] — verified no-source-edit rerun/status ledger for old Axis0-adjacent sims, Xi/Phi0 killed candidates, qubit-scaling caveat, and result-estate blockers
+- [[field-wide-compression-probe-contract]] — formal/probe/falsifier contract for finite witnesses, whole-field dependencies, compression-vs-expansion, readout gates, variants, invariants, anti-invariants, and kill conditions
+- [[field-wide-compression-packet-template]] — fillable non-executing formalization-prep template for future field-wide compression packets, with source-read slots, finite witness fields, controls, readout rows, falsifiers, blockers, and no-sim/no-proof guards
+- [[g-structure-variant-sim-ledger]] — routing ledger for G-structure variant sims/formal scouts and claim ceilings
+- [[f01-n01-root-constraint-basin-pressure]] — root F01+N01 basin pressure: finitude plus noncommutation as explicit attractor/manifold gate
+- [[basin-manifold-claim-contract]] — checklist for basin/manifold claims: predicate, state space, update, boundary, invariant, failures, receipts
+- [[wizard-v4-2-mini-mmm-redesign-spec]] — redesign mini-MMMs around behavior-changing saliency functions, with main/compact MMM as primary
+- [[wizard-child-mmm-functional-loader]] — role-fit MMM loading policy for Wizard children beyond simple voice categories
+- [[mmm-saliency-test-harness]] — behavioral test harness for MMM saliency and function-fit child loading
+- [[mmm-saliency-abcd-behavior-test-2026-05-19]] — A/B/C/D behavior test for baseline vs language sea vs mini-MMM registry vs combined loading
+- [[mmm-source-language-reservoir]] — READ ONLY source-corpus language reservoir for MMM saliency
+- [[mmm-language-sea-quotes-couplings-triples]] — MMM language sea: quotes, couplings, triples, keywords, and thinker/research pressure lenses
+- [[cross-field-research-intersection-map]] — external research field intersections for wiki/MMM enrichment
+- [[sophisticated-inference-active-inference]] — external support page for active inference, recursive belief-state planning, epistemic affordance, planning-to-learn, and horizon-depth caveats; analogy only, no Codex Ratchet or Leviathan proof promotion
+- [[fep-research-atlas-and-crosswalk]] - FEP as a routed external-support atlas across prediction, active inference, boundaries, viability, Holodeck memory, QIT distinguishability, Axis0 ceilings, critique, and fixtures
+- [[variational-free-energy-core]] - formal variational free-energy quantities and decompositions, fenced as external support only
+- [[expected-free-energy-policy-selection]] - active-inference policy-selection support page separating current inference F from expected free energy G
+- [[belief-state-tree-search-and-finite-horizons]] - sophisticated-inference and finite belief-state search router with horizon and artifact guardrails
+- [[markov-blankets-boundaries-and-ratchet-cuts]] - Markov-blanket and ratchet-cut crosswalk with Axis0-collapse blockers
+- [[fep-particular-physics-and-ness]] - particular-physics, NESS, and thingness support page with physics-closure ceiling
+- [[prediction-first-processing-and-holodeck-memory]] - prediction-first processing routed into Holodeck memory/world-model support without consciousness proof
+- [[fep-viability-and-ratchet-survival]] - viability and survival-under-constraints support spine kept separate from broad FEP metaphysics
+- [[fep-autopoiesis-enactivism-and-sense-making]] - autopoiesis, enactivism, adaptivity, and sense-making as conceptual neighbors with claim ceilings
+- [[fep-information-geometry-and-gradient-flow]] - Fisher, natural-gradient, and information-length support page fenced from QIT admission
+- [[fep-distinguishability-and-operational-identity]] - distinguishability-to-operational-identity crosswalk for FEP, QIT, and finite probes
+- [[fep-critique-and-assumption-ledger]] - critique and assumption ledger for FEP overclaim prevention
+- [[fep-to-axis0-bridge-claim-ceilings]] - Axis0 bridge claim ceilings for FEP, blanket, and particular-physics language
+- [[active-inference-benchmark-fixtures]] - proposal-only active-inference toy fixtures and negative controls
+- [[fep-glossary]] - shared FEP and active-inference glossary for the atlas
+- [[sim-run-catalogue-and-result-family-router]] — catalogue router for already-run/artifacted sim result families
+- [[formal-scout-readiness-index-router]] — router for formal-scout readiness, validator gaps, and promotion blockers
+- [[manifold-wizard-operation-router]] — router for manifold-rooted Wizard operation loops and MMM-loaded provider lanes
+- [[sim-estate-integration-index-router]] — router for the geometric constraint manifold sim estate and axis overlays
+- [[nested-qubit-ladder-entropy-surface-sim-contract]] — consolidated operating rule for nested/qubit-ladder/entropy/surface sims: climb each layer/nesting/full integration rung-by-rung, sweep layer-specific entropy families, and preserve ring-checkerboard/CA-QCA runners as candidate finite surfaces under claim ceiling
+- [[deflation-map-2026-06-04]] — current Codex Ratchet deflation split, carrier correction, and verdict-audit spine
+- [[claude-code-sim-inventory-2026-06-04]] — read-only inventory of Claude Code's work-out-layers.js pipeline sims (60+ carrier, 157+ layers, 7 Hopfield)
+- [[igt-axes-terrain-source-extraction-2026-06-04]] — structured extraction of all 10 IGT/axes/terrain source docs: axis-by-axis mapping table, engine type patterns, trigram→math, testability assessment, open questions
+- [[axes-full-layout-relations-anti-conflation-2026-07-03]] — consolidated Axes 0-6 layout, relation algebra, anti-conflation rules, and scratch-diagnostic measured matrix; extends the IGT source-extraction lane without canon promotion
+- [[projects/codex-ratchet/qit-axes-terrain-operator-fold-2026-06-09]] — project-level 2026-06-09 fold that saves the live axes/terrain/operator math and alternatives for sim-tool work
+- [[projects/codex-ratchet/pre-ai-rosetta-ring-checkerboard-provenance-2026-06-09]] — project-level 2026-06-09 provenance fold for the pre-AI Rosetta spreadsheet, Möbius-like two-engine intuition, and finite ring-checkerboard source geometry
+- [[projects/codex-ratchet/autobiographical-method-consciousness-provenance-2026-06-09]] — project-level 2026-06-09 provenance fold for the autobiographical/phenomenological method layer and math-first guardrails
+- [[projects/codex-ratchet/dual-carnot-szilard-qit-engine-witness-2026-06-09]] — project-level 2026-06-09 dual-stack sim witness target for Carnot + Szilard over one QIT carrier
+- [[igt-pattern-explicit-math-reference]] — working IGT pattern/constraint-ratchet math reference; source-grounded, not proof or admission
+- [[igt-four-strategy-perception-decomposition]] — candidate perception-policy decomposition for IGT/Jung/FEP/Hoffman/Hume readouts; separates locked terrain spine from interpretive biological/emotional mappings
+- [[tool-function-receipt-matrix-router]] — router for exact tool/function receipt rows and tool-role fences
+- [[e3nn-pyg-equivariance-message-passing-row]] — row-level ingestion for e3nn/PyG equivariant message passing receipt
+- [[xgi-toponetx-higher-order-incidence-row]] — row-level ingestion for XGI/TopoNetX higher-order incidence receipt
+- [[gudhi-rips-point-cloud-persistence-row]] — row-level ingestion for GUDHI Rips point-cloud persistence receipt
+- [[rustworkx-dag-reachability-row]] — row-level ingestion for rustworkx DAG reachability receipt
+- [[max-stack-probe-variants-status-router]] — status router for related max-stack probe variants
+- [[multi-tool-constraint-manifold-packet-router]] — router for the max-stack multi-tool constraint manifold packet
+- [[hypothesis-z3-property-guard-router]] — router for Hypothesis-generated search plus Z3 formal exclusion
+- [[property-fuzz-metamorphic-testing-support]] — support for property-based, fuzz, and metamorphic testing as wide exploration
+- [[mass-sim-generator-wide-exploration-support]] — support page for mass sim generation as wide bounded exploration
+- [[negative-sims-and-kill-tests-support]] — support page for negative sims and KILL tests as boundary evidence
+- [[basin-stability-and-viability-support]] — research support for basin stability, viability, and anti-teleology
+- [[perturbation-depth-basin-edge-table]] — grouped perturbation-depth table for basin-edge evidence
+- [[attractor-basin-classifier-case-table]] — compact 33-case table for attractor-basin classifier rows
+- [[attractor-basin-row-level-evidence-ledger]] — row-level extraction for attractor/basin formal-scout receipts
+- [[attractor-basin-result-surface-ledger]] — ledger for attractor/basin formal-scout result surfaces
+- [[sim-math-geometry-result-surface-router]] — router for high-signal sim math/geometry result surfaces
+- [[empirical-math-rosetta]] — nominalist constraint-first translation of math into empirical geometry
+- [[generated-source-safety-for-external-model-review]] — safety pattern for external review of generated source artifacts
+- [[anti-teleology-future-option-selection]] — future-option pressure without final-cause privilege
+- [[attractor-holodeck-future-option-source-router]] — source router for attractor, Holodeck, and future-option selection cluster
+- [[qit-graph-geometry-promotion-router]] — processed router for QIT graph geometry and promotion-gate source cluster
+- [[topology-carrier-tool-lane]] — XGI / TopoNetX / GUDHI topology carrier tool lane
+- [[systems-philosophy-attractor-basin-inversion]] — systems philosophy and attractor-basin inversion for MMM/harness work
+- [[smt-formal-falsifier-lane]] — Z3/CVC5 formal falsifier and witness lane
+- [[repo-tool-use-router]] — router from repo tool surfaces to admissible wiki/tool roles
+- [[mmm-formal-noun-and-great-sentence-reservoir]] — MMM formal noun and great sentence reservoir
+- [[mmm-language-sea-quotes-couplings-triples]] — MMM language sea: quotes, couplings, triples, and thinker/research pressure lenses
+- [[00-manifest]]
+- [[actual-lego-registry]]
+- [[agent-workflow-and-boot-architecture]]
+- [[ai-ml-density-matrix-connections]]
+- [[aligned-sim-backlog-and-build-order]]
+- [[aligned-sim-backlog-source-digest]]
+- [[anomalous-computer-science-translation]]
+- [[anti-reification-and-nominalism-reference]]
+- [[attractor-basins-formal-reference]]
+- [[audit-platonic-residue-and-gaps]]
+- [[autopoiesis-and-enactivism-reference]]
+- [[axis-0-1-2-qit-packet]]
+- [[axis0-current-doctrine-state-card]]
+- [[battery-index]]
+- [[berry-phase-and-holonomy]]
+- [[cl3-cl6-micro-sims]]
+- [[cl3-cl6-result-family]]
+- [[classical-baseline-vs-canonical-tool-boundary]]
+- [[clifford-algebra-qit]]
+- [[clifford-chirality-admissible-generators]]
+- [[clifford-geometric-algebra-reference]]
+- [[codex-audit-controller-contract]]
+- [[codex-ratchet-cs-bounded-system-framing]]
+- [[compression-math-density-matrix]]
+- [[concurrency-and-trace-theory-reference]]
+- [[constraint-geometry-axis0-separation]]
+- [[constraint-on-distinguishability-full-math]]
+- [[constraint-surface-translated]]
+- [[contact-structure-s3]]
+- [[controller-prompt-rules]]
+- [[controller-state-transition-model]]
+- [[cross-domain-equivalence-map]]
+- [[current-architecture-core]]
+- [[current-authoritative-stack-index]]
+- [[current-canonical-spine]]
+- [[current-docs-map]]
+- [[current-formal-methods-core]]
+- [[current-geometry-spine-status]]
+- [[current-pre-axis-sim-status-keep-open-diagnostic-broken]]
+- [[current-pre-axis-sim-status-wave1-refresh]]
+- [[current-pre-axis-wave2-validation-note]]
+- [[current-preaxis-status-and-ordering-note]]
+- [[current-research-overlays]]
+- [[current-vs-legacy-genealogy]]
+- [[cvc5-smt-and-sygus-reference]]
+- [[distance-metrics-state-space]]
+- [[docs-framing-map]]
+- [[docs-vs-sims-gap-audit]]
+- [[doubly-quantum-mechanics]]
+- [[e3nn-equivariant-geometry-reference]]
+- [[enforcement-and-process-rules]]
+- [[engine-math-reference]]
+- [[exceptional-lie-group-series]]
+- [[executable-root-axiom-micro-sims]]
+- [[g-tower-hopf-weyl-integration]]
+- [[general-n-product-zero-theorem]]
+- [[geodesic-structure-state-space]]
+- [[geometry-ingredient-map]]
+- [[geometry-manifold-parity-audit]]
+- [[geometry-stack-ratchet-doctrine]]
+- [[geomstats-manifold-geometry-reference]]
+- [[gerbe-g-tower-and-motives-packets]]
+- [[graph-driven-intent-runtime]]
+- [[gudhi-persistent-topology-reference]]
+- [[harness-bias-inversions]]
+- [[harness-boot-pack]]
+- [[harness-translated-companion]]
+- [[hermes-memory-and-wiki-roles]]
+- [[holodeck-as-recall-space]]
+- [[holodeck-doctrine]]
+- [[holodeck-qit-fep-leviathan-integration]]
+- [[hopf-fibration-mathematics]]
+- [[hypothesis-property-based-testing-reference]]
+- [[igt-atom-result-audit]]
+- [[igt-to-qit-engine-genealogy]]
+- [[jsonschema-artifact-validation-reference]]
+- [[ladders-fences-admission-reference]]
+- [[lean4-proof-assistant-reference]]
+- [[lego-build-catalog]]
+- [[lego-sim-contract]]
+- [[leviathan-science-method-qit-engine-crosswalk]]
+- [[leviathan-to-qit-engine-glossary]]
+- [[leviathan-world-engine-memo]]
+- [[llm-bias-inversion-rules]]
+- [[llm-controller-contract]]
+- [[llm-ingest-policy]]
+- [[llm-ontology-smuggling-reference]]
+- [[llm-research-enforcement-validator]]
+- [[llm-research-gap-matrix]]
+- [[log2-z2-structural-constant]]
+- [[migration-registry]]
+- [[mimetic-meme-manifold-canonical-synthesis]]
+- [[model-math-geometry-sim-plan]]
+- [[moloch-trap-reference]]
+- [[networkx-graph-structure-reference]]
+- [[new-content-readme]]
+- [[new-docs-manifest]]
+- [[nominalist-cs-cluster]]
+- [[nominalist-cs-framing]]
+- [[nominalist-cs-jp-systems-bridge]]
+- [[nominalist-translation-rules]]
+- [[notebooklm-reference-pack-intake]]
+- [[operationalism-and-measurement-reference]]
+- [[operator-math-explicit]]
+- [[pauli-on-weyl-loop-interaction]]
+- [[pca-qpca-alignment]]
+- [[pca-qpca-source-digest]]
+- [[platonic-nominalism]]
+- [[prediction-first-memory-vs-llm-memory]]
+- [[preprocessed-readme]]
+- [[probe-doc-result-map]]
+- [[process-and-systems-thinking-reference]]
+- [[pydantic-typed-schema-reference]]
+- [[pytest-tiered-gate-reference]]
+- [[pytorch-distributed-training-reference]]
+- [[pytorch-geometric-reference]]
+- [[qfi-killpoint-behavior]]
+- [[qit-ai-foundations-bridge]]
+- [[qit-basin-engine-synthesis]]
+- [[qit-engine-constraint-engineering-bridge]]
+- [[qit-engine-dev-framing]]
+- [[qit-engine-dev-technical-brief]]
+- [[qit-engine-doctrine]]
+- [[qit-geometry-thermodynamics-harness-synthesis]]
+- [[qit-vocabulary-discipline-reference]]
+- [[quantum-shannon-theory-reference]]
+- [[recursive-science-methodology-reference]]
+- [[research-index-compression-terms]]
+- [[research-source-coverage-index]]
+- [[resource-theories-quantum-reference]]
+- [[riemannian-curvature]]
+- [[rustworkx-graph-algorithms-reference]]
+- [[session-deep-corrections-2026-04-04-05]]
+- [[session-deep-corrections-2026-04-05]]
+- [[session-handoff-2026-04-07]]
+- [[shell-local-to-coupled-program]]
+- [[sim-build-spine-and-wiki-maintenance]]
+- [[sim-corrections-and-classifications]]
+- [[sim-session-index]]
+- [[sim-tranche-2026-04-14-axioms-tools-gerbes-motives]]
+- [[sympy-symbolic-math-reference]]
+- [[tensor-network-axis0]]
+- [[terrain-laws-and-loop-geometry]]
+- [[thread-b-stack-audit]]
+- [[tier-status]]
+- [[tlaps-temporal-proof-reference]]
+- [[todo]]
+- [[tool-capability-and-integration-ledger]]
+- [[tool-capability-sim-program]]
+- [[tool-lego-integration-matrix]]
+- [[tool-manifest-audit]]
+- [[tooling-status]]
+- [[toponetx-topological-complex-reference]]
+- [[topos-quantum-mechanics-reference]]
+- [[tradition-system-mapping-detailed]]
+- [[translation-methodology-reference]]
+- [[universal-q-product-form]]
+- [[v5-content-gap-analysis]]
+- [[venv-migration-status]]
+- [[weyl-flux]]
+- [[why-qit-engines-need-exotic-geometry]]
+- [[wiki-as-harness-architecture]]
+- [[wiki-automation-contract]]
+- [[wiki-automation-tick-template]]
+- [[witness-recorder-and-trace-reference]]
+- [[xgi-hypergraph-reference]]
+- [[z3-smt-solver-reference]]
+
+### Legacy (82)
+- [[a2-intent-summary]]
+- [[apple-axes-terrain-operator-math]]
+- [[axes-0-6-and-constraint-manifold-explicit-atlas]]
+- [[axis-0-1-2-qit-math]]
+- [[axis-0-correlation-polarity]]
+- [[boot-prompts-and-read-order]]
+- [[bootpack-thread-a-v2-60]]
+- [[bootpack-thread-b-v3-9-13]]
+- [[bootpack-thread-s-v1-64]]
+- [[bounded-hermes-ingestion-protocol]]
+- [[claude-batch-handoff-process]]
+- [[claude-code-dangerous-mode-policy]]
+- [[constraint-on-distinguishability-formal-reference]]
+- [[cs-version-of-system-first-draft]]
+- [[current-proper-install-and-location-rule-note]]
+- [[current-tool-status-installed-vs-missing-vs-not-wired]]
+- [[current-tool-status-operational-classification]]
+- [[differential-geometry-and-bundles-reference]]
+- [[doc-deepening-and-platonic-residue-notes]]
+- [[eisenhart-unified-physics-module]]
+- [[emotional-evolution-personality-system]]
+- [[entropic-monism-origin-and-cosmology]]
+- [[fiber-bundles-and-spin-geometry-reference]]
+- [[formal-methods-and-witness-discipline-reference]]
+- [[formal-methods-witness-discipline-reference]]
+- [[full-machine-python-repo-skills-inventory]]
+- [[grandmaster-of-the-universe]]
+- [[graph-repos-listed]]
+- [[hermes-repos-and-ecosystem-classification]]
+- [[hermes-stack-and-addons-plan]]
+- [[holodeck-docs]]
+- [[i-ching-axes-rosetta]]
+- [[legacy-context-and-genealogy]]
+- [[legacy-governance-bootpacks]]
+- [[legacy-physics-cosmology]]
+- [[legacy-psychology-personality]]
+- [[legacy-source-history]]
+- [[legacy-speculative-frameworks]]
+- [[legacy-speculative-theory]]
+- [[leviathan-framework]]
+- [[llm-bias-and-multi-thread-harness-reference]]
+- [[math-free-axes]]
+- [[mimetic-meme-manifold]]
+- [[mimetic-meme-manifold-boot-dictionary-digest]]
+- [[mimetic-meme-manifold-harness]]
+- [[mimetic-meme-manifold-macro-corpus-digest]]
+- [[mimetic-meme-manifold-source-map]]
+- [[multi-agent-doc-overlap-audit]]
+- [[my-inputs-on-retrocausality]]
+- [[nonclassical-system-tool-plan]]
+- [[note-what-nominalist-reframing-actually-requires]]
+- [[owner-thesis-and-cosmology]]
+- [[pre-axies-math-and-geometry-work-out]]
+- [[pre-entropy-tables]]
+- [[preaxis-sim-run]]
+- [[primitive-axes-without-math]]
+- [[projective-holodeck-memory-model]]
+- [[python-repo-skills-inventory-and-cleanup-plan]]
+- [[repo-mediated-multi-agent-workflow]]
+- [[ring-checkerboard-gradient]]
+- [[rosetta-terrain-mapping]]
+- [[skills-plan-keep-build-patch-retire]]
+- [[source-notes]]
+- [[source-notes-index-0-b]]
+- [[source-notes-index-c]]
+- [[source-notes-index-d-g]]
+- [[source-notes-index-h-m]]
+- [[source-notes-index-n-w]]
+- [[system-context-handoff-current]]
+- [[system-meta-plan-repos-python-skills-hermes]]
+- [[terrain-math]]
+- [[terrain-rosetta-strong-math]]
+- [[terrains]]
+- [[the-dark-empress]]
+- [[todo-additional-reference-docs]]
+- [[todo-philosophical-harness-docs]]
+- [[tradition-system-mapping]]
+- [[venv-spec-graph-post-migration-validation]]
+- [[venv-spec-graph-reference-priority-audit]]
+- [[venv-spec-graph-shrink-delete-readiness-ledger]]
+- [[venv-spec-graph-tier2-skill-batch-readiness]]
+- [[wave2-axes-next-sims-audit]]
+
+### Mixed (81)
+- [[arxiv-2603-21852-eml-operator]]
+- [[axis-0-spec-options]]
+- [[axis-and-entropy-reference]]
+- [[boot-prompt-templates]]
+- [[bootpack-harness-stack]]
+- [[bundle-towers-and-layered-supports]]
+- [[cartan-decomposition-2qubit]]
+- [[chinese-philosophy-reference]]
+- [[compression-mathematics-and-density-matrix]]
+- [[compression-to-density-matrix-map]]
+- [[constraint-on-distinguishability]]
+- [[constraint-surface-and-process]]
+- [[cptp-maps-and-channels]]
+- [[cross-domain-equivalence-source-digest]]
+- [[density-matrices-across-fields]]
+- [[density-matrix-mathematics]]
+- [[distinguishability-formal-reference]]
+- [[docs-alignment-catalog]]
+- [[engine-64-schedule-atlas]]
+- [[entanglement-theory]]
+- [[entropy-layer-source-digest]]
+- [[entropy-sweep-protocol]]
+- [[evolutionary-epistemology-reference]]
+- [[evolutionary-models-qit-alignment]]
+- [[falsification-sim-designs]]
+- [[fep-and-active-inference-reference]]
+- [[sophisticated-inference-active-inference]]
+- [[fep-research-atlas-and-crosswalk]]
+- [[variational-free-energy-core]]
+- [[expected-free-energy-policy-selection]]
+- [[belief-state-tree-search-and-finite-horizons]]
+- [[markov-blankets-boundaries-and-ratchet-cuts]]
+- [[fep-particular-physics-and-ness]]
+- [[prediction-first-processing-and-holodeck-memory]]
+- [[fep-viability-and-ratchet-survival]]
+- [[fep-autopoiesis-enactivism-and-sense-making]]
+- [[fep-information-geometry-and-gradient-flow]]
+- [[fep-distinguishability-and-operational-identity]]
+- [[fep-critique-and-assumption-ledger]]
+- [[fep-to-axis0-bridge-claim-ceilings]]
+- [[active-inference-benchmark-fixtures]]
+- [[fep-glossary]]
+- [[fiber-bundles-and-spin-geometry]]
+- [[foliations-distributions-and-constrained-order]]
+- [[formal-constraints-and-geometry]]
+- [[formal-methods-and-witness-discipline]]
+- [[foundation-research-digest]]
+- [[g-structure-tower]]
+- [[hopf-foliation-structure]]
+- [[i-scalar-and-axis-0-genealogy]]
+- [[information-geometry-reference]]
+- [[jk-fuzz-field]]
+- [[jungian-functions-and-igt-explicit-math-geometry-map]]
+- [[lev-nonclassical-runtime-design-audited]]
+- [[llm-bias-and-failure-modes-reference]]
+- [[llm-constraint-harness-wiki]]
+- [[mass-equivalence-engine]]
+- [[mass-equivalence-engine-digest]]
+- [[model-context-overlay]]
+- [[model-math-geometry-source-digest]]
+- [[nominalism-in-this-system]]
+- [[nominalism-philosophical-foundation]]
+- [[nominalist-framing]]
+- [[nonclassical-topological-runtime-design]]
+- [[operator-algebras-and-representation]]
+- [[pca-qpca-density-matrix-view]]
+- [[process-philosophy-and-relational-physics]]
+- [[pytorch-ratchet-build-plan]]
+- [[qit-engine-geometry-entropy-bridge]]
+- [[qit-engine-proto-ratchet-and-sim-plan]]
+- [[quantum-computing-applications]]
+- [[quantum-fisher-information-geometry]]
+- [[quantum-geometry-fubini-study]]
+- [[quantum-information-measures]]
+- [[quaternion-and-spinor-carrier-foundations]]
+- [[ratcheting-as-obstruction-and-refinement]]
+- [[research-index]]
+- [[research-inventory-and-foundations]]
+- [[research-support-bibliography]]
+- [[retooled-external-methods-runtime-design]]
+- [[sasakian-s3-prequantum-bundle]]
+- [[schmidt-decomposition-bipartite]]
+- [[session-handoff-2026-04-13-automated-run-and-tool-sims]]
+- [[skill-source-corpus]]
+- [[spectral-decomposition-theory]]
+- [[stack-authority-and-capability-index]]
+- [[stochastic-thermodynamics-reference]]
+- [[support-first-constraint-manifold-dependency-chain]]
+- [[support-spaces-and-process-classification]]
+- [[svd-and-low-rank-approximation]]
+- [[system-architecture-reference]]
+- [[system-math-alignment]]
+- [[system-tools-and-plan]]
+- [[taijitu-probe-reconciliation-card]]
+- [[topic-map]]
+- [[venv-spec-graph-migration-status]]
+- [[viability-theory-reference]]
+
+### Legacy-rationalist-leak flagged (4)
+- [[autopoiesis-and-enactivism]]
+- [[constraint-on-admissibility-entropy-tables-entropic-monism]]
+- [[research-inventory-and-foundational-findings]]
+- [[self-similar-frameworks-and-teleological-doctrine]]
+
+### Framing missing (flag for review) (5)
+- [[a2-brain-slice]]
+- [[a2-system-understanding-update]]
+- [[a2-term-conflict-map]]
+- [[a2-to-a1-distillation]]
+- [[lev-formalization-and-continuity]]
+
+## Comparisons (9)
+- [[classical-vs-quantum-compression]]
+- [[current-docs-vs-legacy-framing]]
+- [[dark-empress-vs-grandmaster]]
+- [[entropy-and-information-families]]
+- [[geometry-families-on-same-carrier]]
+- [[nominalism-vs-process-philosophy]]
+- [[personality-theory-mapping]]
+- [[state-representation-views]]
+- [[viability-vs-attractor]]
+
+## Queries (2)
+- [[whole-wiki-mmm-source-research-campaign-2026-05-18]] — control page for whole-wiki MMM/source/research processing
+- [[five-framework-cluster]]
+- [[wiki-driven-arxiv-search-queue]]
+
+## Projects, Current, Audits, Archive
+- `projects/` — tracked research programs
+- [[projects/codex-ratchet/owner-physics-claims-source-extract-2026-06-06]] — owner-voice physics claims extracted into finite-test shapes without promotion
+- [[projects/codex-ratchet/geometric-constraint-manifold-spinor-carrier-source-extract-2026-06-06]] — constraint-manifold and spinor-carrier build order extraction
+- [[projects/codex-ratchet/holodeck-fep-igt-axis0-deep-content-correlation-2026-06-06.codex2-draft]] — second-pass content-level Holodeck/FEP/IGT/Axis0 correlation artifact with line-referenced source extracts, theory anchors, coverage gaps, and falsifier ladder
+- `wizard/` — Wizard/MMM universal reference and current expanded packet mirror
+- `hermes-current/` — Hermes working/context spine
+- `audits/` — audit runs
+- `_archive/` — historical snapshots (including `stabilization-2026-04-17/`)
+- `tools/` — tool notes
+- `raw/articles/` — ingested source articles
+- `claude-memory/` — rolling agent memory
+- `config/` — config files
+- `log.md` — wiki operations log
+
+
+## Queries
+- [[packet-k-leviathan-v3-2-governance-and-community-extraction-2026-05-19]] — Packet K Leviathan v3.2 multi-layered delegated proxy voting, 60% base veto power, Anti-Internet trust-based social layer, pre-established trolley car guidelines (inaction over active harm, rule-followers over rule-breakers), cooperative community layer, demographic sustainability (children as economic assets), and Open HR/Finance selective exposure
+- [[packet-j-leviathan-v3-2-development-mirrors-extraction-2026-05-19]] — Packet J Leviathan v3.2 3-tier recursive mirrors, social credit score metrics (Physical/Mental/Status), SBC/CRC/ECC currencies, and OpenHR/OpenFinance
+- [[multi-model-tribunal-high-audit-2026-05-19]] — Multi-Model Tribunal High Audit: independent evaluations, comparative matrix, and 3-tranche future action roadmap by GPT, Grok, and Sonnet High
+- [[packet-i-literal-holodeck-hardware-calibration-extraction-2026-05-19]] — Packet I literal projector-camera calibration active feedback loop, materials list, Conv2D predictive PyTorch code, and OpenCV tracking pipelines
+- [[packet-h-dark-empress-cosmology-extraction-2026-05-19]] — Packet H book-scale cosmological framework, space-time evolution axioms, event-horizon coordinate changes, and Entropy is Quantum Gravity thesis
+- [[packet-g-trigram-declarative-bootpack-specification-extraction-2026-05-19]] — Packet G compiler-level declarative grammar syntax, copy/paste safeguards, user communication rituals, Derived-Only Term list, and Term Admission pipeline
+- [[packet-f-axes-math-apple-notes-dump-extraction-2026-05-19]] — Packet F Axis 5 (FGA/FSA) and Axis 6 (Action Orientation) mathematical workouts, Weyl current/flux, Carnot cycle analog of deductive loop, and formal legality in the ratchet
+- [[packet-e-gemini-hexagram-spinor-engine-extraction-2026-05-19]] — Packet E deep 12-Bit Stack architecture, 6 control bits, 4 flow cylinders, signed operator kernels, and game theory quaternion overlay
+- [[packet-d-gemini-toe-summary-extraction-2026-05-19]] — Packet D holographic AdS/CFT extension, 4F thermodynamic FEP strategies, and experimental kill switches
+- [[source-corpus-manifest-and-packet-blueprint-v4-2]] — Source Corpus Manifest and Packet Blueprint v4.2: 361-file inventory, 6 primary clusters, and 8-packet roadmap
+- [[all-hermes-wiki-skills-run-receipt-2026-05-19]] — All Hermes Wiki Skills Run Receipt: structural, schema, and routing alignment
+- [[packet-c-grok-eisenhart-model-extraction-2026-05-19]] — Packet C mathematical formulation, 16-axiom list, and Tensor Mismatch correction for `grok eisenhart model .txt`
+- [[holodeck-source-packet-extraction-2026-05-19]] — Holodeck owner-kernel vs generated-elaboration source extraction and routing ledger
+- [[packet-b-grok-unified-physics-extraction-2026-05-19]] — Packet B owner/generation/contradiction extraction for `grok unified phuysics nov 29th.txt`
+- [[model-family-reality-cluster-audit-2026-05-19]] — read-only all-model family audit for Josh's reality/ToE, Holodeck, Leviathan, Dark Empress, Grandmaster, IGT/personality, and QIT carrier cluster
+- [[physics-toe-cluster-readonly-audit-2026-05-19]] — read-only role/source audit for Josh's ToE / physics model cluster
+- [[geometry-gstructure-manifold-consolidation-decision-packet-2026-05-19]] — proposed consolidation roles/actions for geometry/G-structure/manifold cluster
+- [[geometry-gstructure-manifold-cluster-readonly-audit-2026-05-19]] — read-only role/overlap audit for geometry/G-structure/manifold concept cluster
+- [[concepts-cluster-audit-2026-05-19]] — read-only cluster audit for whole concepts folder consolidation
+- [[hermes-context-stress-wiki-processing-2026-05-18]]
+- [[wizard-premortem-audit-loop-control-2026-05-18]] — Wizard/premortem/audit loop-control note for source-result continuation
+- [[deep-research-source-cluster-status-2026-05-18]] — status table for READ ONLY deep research source docs
+- [[read-only-source-doc-processing-ledger-2026-05-18]] — processing ledger for READ ONLY legacy/reference source docs
+- [[math-geometry-anti-teleology-source-alignment-audit-2026-05-18]] — source and research audit for sim math/geometry and anti-teleology
+- [[systems-attractor-basin-research-queue-2026-05-18]] — research queue for systems philosophy, attractor basins, and topology carriers
+- [[whole-wiki-research-mmm-tool-gap-audit-2026-05-18]] — whole-wiki research/MMM/tool gap audit
