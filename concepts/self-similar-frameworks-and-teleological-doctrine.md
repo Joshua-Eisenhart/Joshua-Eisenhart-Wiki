@@ -57,6 +57,29 @@ The present age is trapped in rationalism where only math-fluent actors define s
 6. Proper-noun bindings (JP, angels, heaven, God) are metaphorical handles. Do not load-bear on them. Do not strip them either — they do the communicative work.
 7. Keep the chain intact: F01+N01 → self-similar process → engines as DoF on constraint manifold → five frameworks.
 
+## 2026-07 layer: root replicator (salvaged from wrong-repo sessions)
+
+Worked out 2026-07-01..04 in Desktop-clone sessions; salvaged from Claude memory 2026-07-04. Source: `user_teleological_selection_cosmology.md`.
+
+**Ceiling, restated:** this section is owner doctrine, proposal-facing, not proven, and the central term ("replicator") is explicitly gated below rather than asserted.
+
+### Root replicator = dark energy / chiral expanding spacetime
+
+Owner (2026-07-03), described as the unifying key: he applied the Dawkins selfish-gene principle to reality itself and searched for the root replicator. His candidate: the root replicator is the MSS floor — the weakest evolving persistent structure — and it is chiral expanding spacetime / dark energy, the base material and the base replicator at once.
+
+The empirical anchor, from standard cosmology: dark energy holds constant density while volume grows, so its total quantity increases with time, while matter, radiation, and curvature dilute. At a nominalist level — only what measurably grows counts — dark energy is the one component that literally reproduces. On the selfish-gene reading, expansion is the replicator making more of itself, and matter, structure, life, and engines are vehicles ratcheted on top; the ratchet climbs up off this floor toward attractor basins (see [[user_least_presumption_weakest_structure]] for the direction correction this ties to). The Axis 0 model is offered as close to how this works: allostatic drive, with the +entropy expansion right sheet as dark energy and the -entropy binding left sheet as dark matter.
+
+### The honest gate: growth alone is not replication
+
+Held explicitly, as pushback rather than acceptance: growth alone does not equal replication. Dawkins' criterion needs three things — heredity, variation, and differential selection. "Only dark energy grows" supplies growth/copying alone; it does not by itself supply variation or selection.
+
+To earn the word "replicator," the base level must independently name what varies and what selects:
+
+- **Candidate variation: chirality** — the left/right asymmetry of expanding spacetime.
+- **Candidate selection: frame persistence** — the pattern that copies forward to the next frame survives; a static-frame reading in which persistence between random frames does the selecting.
+
+If chirality is confirmed as the variation axis and frame-persistence as the selection axis, chiral spacetime is a genuine replicator, not merely a growing substance. This identification is named as the claim still to be earned — not asserted, not run — and is framed as the deepest form of the Axis 0 question, i.e. why Axis 0 sits at the base of the whole model. It ties to [[entropic-monism-origin-and-cosmology]] (the Axis 0 / spacetime-as-entropy identifications) and to the teleological-selection cosmology already on this page above.
+
 ## Cross-References
 
 - Repo: `system_v5/docs/OWNER_DOCTRINE_SELF_SIMILAR_FRAMEWORKS.md`

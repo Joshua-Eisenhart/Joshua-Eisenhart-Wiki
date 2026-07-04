@@ -221,6 +221,52 @@ Fencing for honesty:
 | Entanglement as carrier | -S(A\|B) kernel | Conditional entropy is proposed as the candidate entanglement measure |
 | Expansion + gravity as one force | Dynamic shell proposal | The shell field is proposed as the candidate expansion / contraction field |
 
+## 2026-07 layer (salvaged from wrong-repo sessions)
+
+Worked out 2026-07-01..04 in Desktop-clone sessions; salvaged from Claude memory 2026-07-04. Source: `user_entropic_monism_doctrine.md`.
+
+**Ceiling, restated:** this whole section is proposal-facing, owner doctrine, not canon-promoted. It extends the origin/cosmology material above; it does not close any of it.
+
+### Matter-from-dark-matter knotting mechanism
+
+The owner's dark-sector cycle, stated in full: parent-universe matter falls into black holes ("empty flat dark-energy bubbles"), which break matter down to pure spacetime and re-emit it as micro-gravitational-waves. The daughter universe inherits these as dark matter — record, raw material, and anchor together, not just a record role. On a white-hole burst, some of that inherited thread knots, folds, or warps into stable topologies: that knotting IS matter. Dark matter is therefore premattter — the raw thread matter is knotted from — and it accumulates generation over generation. Consequence claims held in-model: galaxy clumping via 2D-loop stickiness/interference (halos); CMB smoothness inherited from the entangled parent vacuum, with no inflation needed; from gravity's perspective "everything is flat" — matter, dark matter, and vacuum are all just correlations.
+
+### E=mc² extension: Chern-Simons / linking split
+
+Two registers exist. (1) A grok-overlay equation, flagged not owner-canon: `E = S_knot·c² + β·ħ·∫_V(dS/dt)dV` — mass as topological winding (Chern-Simons) plus Hopf linking number `Lk`; `β` a retrocausal modulator; the flux term read as dark energy literally creating spacetime. (2) The owner-canon safer form: a three-way substrate equivalence, mass ↔ energy ↔ spacetime configuration — mass as stability/boundedness readout, energy as transition/change readout, matter as a persistent localised spacetime knot.
+
+A Claude-only (unearned) split, offered as a candidate not a claim: `S_knot` splits into winding and linking parameters, giving dark matter = linked-but-unknotted (`Lk > 0`, winding ≈ 0: gravitates, sticky via linking, no charge) versus matter = wound/knotted (charge tied to winding, compare Skyrme baryon number as winding number).
+
+### The supervoid research program
+
+The owner's stated program, not yet run except as first-probe planning: treat supervoids as real objects, not statistical noise. Owner: "i have access to the data. and i just approach it openly with my model... it might actually be easier than i thought." Three first probes were sketched:
+
+1. **Void spin/chirality cross-match** — public void catalogs (VIDE/SDSS, DESI DR1) crossed with galaxy spin/handedness catalogs (Galaxy Zoo S/Z, MaNGA kinematics), testing for coherent shell spin structure on void surfaces versus random. The model predicts coherent shell spin (needed for chirality inheritance); LambdaCDM predicts only weak tidal-torque alignment with no net handedness.
+2. **ISW stack reproduction and extension** — reproduce the Granett et al. supervoid cold-imprint anomaly on Planck maps, extend with DESI voids, quantify the amplitude against LambdaCDM.
+3. **KBC void → H0 accounting** — use published void depth profiles to compute the expected local H0 shift, stating numerically how much of the 67-vs-73 tension the void absorbs.
+
+Systematics fences held: void catalogs are algorithm-dependent (watershed vs spherical, so multi-catalog controls are mandatory); spiral handedness classification carries known S/Z perceptual bias, requiring mirrored-image reclassification as a control. The owner frames this as the first field demonstration of the bidirectional method (see [[bidirectional-scientific-method-2026-07-04]]) on frozen-institution territory: the model supplies the deductive direction, sky data supplies the inductive, and every claim is gated.
+
+### Graded kill-board
+
+Owner: "the crazy thing is just how falsifiable my model is. and how it is surviving still." Three survival classes, held separately, non-placating:
+
+- **Class I — survived severe tests, run by the mainstream at their own expense:** WIMP direct-detection nulls (decades, billions spent); no primordial B-modes (BICEP2 retracted); no graviton found (plus Dyson's in-principle-undetectability argument); gravity composition-blindness to 1e-15 (MICROSCOPE); neurology confirming Hume-style claims (split-brain bundle, Damasio reason-as-slave, predictive processing); the Schwarzschild-vacuum fact that a black hole solution contains zero matter (its mass is spacetime structure).
+- **Class II — kills declared but unrun:** the Standard Model gauge ↔ engine-geometry mapping (named as the maximally severe test and the program's actual purpose); the dark-matter-geometry prediction (linked-vs-knotted candidate above); the 4F/feeling-gradient mapping. Surviving an unrun test is not corroboration — the ratchet exists to convert Class II into Class I.
+- **Class III — predicted then checked, with informal provenance:** supervoids (roughly 70 percent of volume, predicted as empty-space bubbles before looking); CMB temperature as universal clock (mainstream practice already); the NANOGrav stochastic gravitational-wave background as an observable window for micro-GW relics that exists, but is not yet confirmation.
+
+Structural irony named by the owner: the model's falsifiers are mostly other people's experiments — the mainstream funds and runs the kill-tests and keeps returning nulls, making the establishment the model's own falsification lab.
+
+### BS-detector doctrine
+
+Owner: encountering new science, he can call legit-vs-BS "amazingly well." His live example: dark matter particle science reads as near-certain BS — "they don't have anything empirical. and just go searching for models having an empirical result." Sharpened form (Claude, owner-aligned, not owner-verbatim): all direct dark-matter evidence is gravitational (rotation curves, lensing, Bullet Cluster, CMB peaks) — that is, spacetime-behaviour observation; the particle interpretation is matter-supremacy smuggled in as inference, not read off the data. This is named as the Chapter 9 failure mode in the wild: deduction-first (WIMPs from SUSY elegance) without the burn step — LHC found no SUSY, detectors keep returning null, and the parameter space slides rather than the theory dying (a Lakatos-style degenerating research program).
+
+Fence held explicitly: the observations themselves (rotation curves, lensing, Bullet Cluster) are excellent empiricism, real and replicated. The BS layer is the interpretive monoculture layered on top, not the anomalies. The owner's model keeps the anomalies and reinterprets them as real structured spacetime rather than particles or modified gravity — a third position, distinct from both existing camps. On Bullet Cluster specifically: it kills pure modified-gravity readings (lensing mass separates from gas) but not the owner's model, since structured spacetime/loops can displace from gas independently.
+
+### Related pages (addition)
+
+- [[bidirectional-scientific-method-2026-07-04]] — the method this program applies (supervoid probes as the first field demonstration).
+
 ## Related pages
 
 - [[entropic-monism-axis0-field-compression-spine]]

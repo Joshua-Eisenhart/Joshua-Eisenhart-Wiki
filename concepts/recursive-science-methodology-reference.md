@@ -144,3 +144,4 @@ Leviathan's recursive scientific methodology is a cross-scale generate -> confro
 - [[wiki-as-harness-architecture]]
 
 - [[self-similar-frameworks-and-teleological-doctrine]] — owner doctrine: five self-similar frameworks (holodeck/QIT/science/IGT/Leviathan), teleological admissibility
+- [[bidirectional-scientific-method-2026-07-04]] — reverse-direction doctrine (build theories as stories, then verify), Axis 0 tie, observer-in-the-box, Popper expanded to semantic+numeric failure

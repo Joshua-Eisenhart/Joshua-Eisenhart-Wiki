@@ -105,6 +105,30 @@ Use this page as a doctrine router when a task asks how deduction/induction, Jun
 
 Before promoting any claim from this page, name which fence it belongs to and which receipt changes its status. The default status is `(d)` owner doctrine or `(s)` unearthed synthesis, not `(t)`.
 
+## Meta-lesson 2026-07-04: the chain is a mechanism, not a catalog
+
+Worked out 2026-07-01..04 in Desktop-clone sessions; salvaged from Claude memory 2026-07-04. Source: `feedback_iff_chain_is_mechanism_go_deeper.md`.
+
+Claude asked the owner whether the iff-chain should become "a measured object or stay doctrine." Owner's correction: "i was trying to get you to understand deeper thinking. you have to go deeper." That correction is the lesson this section preserves.
+
+### Going deeper means refining the mechanism, not adding instances
+
+The chain above is not material to file away. The `iff` itself is the primitive; the poles on either side of each entry are probe-artifacts. Any probe run from inside the one relation sees two poles — what it holds fixed (the equal-sign side) and what varies (the statistics side) — which is why every domain in the chain shows the same pair, and why the Jungian functions necessarily tie in as probe families of the psyche.
+
+The entries in the Discovery Order and Logical Order lists above are not instances of a schema to be collected. Each wording is a strictly-refining re-expression of one relation. The chain is itself a ratchet, and "go deeper" means cutting the next tooth in that ratchet — finding a wording that expresses a distinction the previous wording could not — never collecting another domain example to add to the list.
+
+### The ratchet feed and one-tooth-one-turn
+
+Locked decisions from the same exchange: the ratchet's feed is estate disagreements — real witness pairs already on disk (parity gaps, registry-vs-result mismatches, doc-vs-code drift, wiki contradictions, name-vs-claim audits) — not invented test cases. Acceptance is a standing process: a persistent, append-only ledger, one tooth per tick. Architecture: one tooth equals one iff-turn — an intake half-cycle that breaks equalities, and a lift half-cycle that locks new ones. This makes "should we sim the chain" the wrong question; the right move is to make the ratchet actually run, since its ledger measures the chain on every tooth.
+
+### The apparatus-abandonment diagnosis
+
+A related, later finding (2026-07-04, three-lane cross-audit: Claude, a fresh codex1 lane, and an external nvidia-model lane, unanimous 3/3): the drift root, once found, is apparatus abandonment. Once the mandated reading/sourcing apparatus is dropped, solo synthesis reintroduces every drift channel that the apparatus exists to block — residue-answering after context compaction, apparatus abandonment under short-prompt cadence, and premature canonisation from fluency alone. The three lanes disagreed on ranking (which failure mode dominates) but converged on the mechanism. Recovery rule in force: apply the apparatus every prompt, read indexed sources before synthesising, preserve OPEN markers verbatim, and do not ship a reply with zero citation and zero receipt.
+
+### Understanding-thread is not build authorization
+
+Separately locked (2026-07-03, same exchange): when the owner says "work this deeper" inside a thread framed as understanding and planning, that means think deeper and sharpen the plan — it is not authorization to spawn build lanes or commit to the wiki. The owner's correction, verbatim: "i was making the second brain in another thread. i was working out the understanding of the system. i don't think i asked you to start building again. we were building the plan and getting to understand." Building resumes only on an explicit "build it."
+
 ## Related Pages
 
 - [[axes-full-layout-relations-anti-conflation-2026-07-03]] — Axis-4 inductive/deductive split and Type-1 traversal anti-conflation.

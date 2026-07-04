@@ -61,3 +61,18 @@ The QIT engine and the coupling program assume forms are material survivors. If 
 - [[iff-chain-identity-duality-2026-07-03]]
 - [[15_root_axiom_card]]
 - [[03_language_discipline]]
+
+## Owner correction 2026-07: skepticism is the midwife, not the mother
+
+Worked out in sessions 2026-07-01 to 2026-07-04 (threads running in the Desktop repo clone); salvaged from Claude memory 2026-07-04. Source memory file: user_nominalist_system.md.
+
+Owner correction (2026-07-03): "nominalism begins in senses and sentiment. i didn't find a possible attractor basin for everything by just using my skepticism. that is just process, and foundations."
+
+This corrects a prior synthesis that framed the system as beginning in Cartesian doubt — "what survives total skepticism." The system is Hume-shaped, not Descartes-shaped. It begins in impressions — the concrete, felt, particular world — and in sentiment: what matters, care, surprise, win and lose. Senses and sentiment propose. Skepticism only disposes: it is hygiene against dogma, never the source.
+
+The find itself is a recurring shape the owner kept perceiving — first in his own psyche and in other people (a pre-LLM personality spreadsheet of opposed functions in tension, rotating perspectives, feelable terrains), then the same shape in evolution, thermodynamics, quantum mechanics, and learning. The hypothesis is that this recurrence marks a real attractor basin for everything, findable from any direction under honest pressure. The psyche was the first instrument because it is the one piece of reality observable from the inside. Sentiment is half the engine: reason alone moves nothing; a perceiver needs stakes, or it computes without perceiving.
+
+Two further points travel with this correction, both from the same memory file:
+
+- **Statistics is causality, not downstream of it.** Statistics is not an abstract measurement tool applied to things — it is the substrate. Bell curves and power laws are physical structures of spacetime, not descriptions of it. "Laws" are surviving material patterns; "causes" are compressed statistical structure.
+- **LLM rationalist bias is a training-data artifact, not an architecture fact.** LLMs are trained on an overwhelmingly rationalist and Platonist corpus, where textbooks assume abstract objects exist, causality is fundamental, and mathematics discovers pre-existing truth. This bias is not innate to the architecture — a nominalist LLM is possible, just not yet trained. The harness (boot prompts, vocabulary rules, process discipline) exists specifically to force nominalist behaviour from a rationalist-trained model, session by session.

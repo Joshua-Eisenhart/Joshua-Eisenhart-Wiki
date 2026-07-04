@@ -42,6 +42,20 @@ Use this as the low-friction entry point. The old full listing lives at [index-f
 - [[iff-chain-identity-duality-2026-07-03]] — Owner iff-chain doctrine capture; promotion_allowed=false.
 - [[igt-discovery-and-two-engines-2026-07-04]] — IGT discovery provenance, two-engine chart, GT-inversion program; promotion_allowed=false.
 - [[science-as-correlations-proved-in-technology-2026-07-04]] — correlations/technology epistemology + graded kill-board; promotion_allowed=false.
+- [[finite-ordered-foundations-2026-07-04]] — F01+N01 as root axioms, 11 consequences, receipts-as-primary; salvaged 2026-07-04.
+- [[least-presumption-mss-third-root-2026-07-04]] — least presumption / MSS third root, dropped-then-regated; salvaged.
+- [[causality-fep-hume-neurology-2026-07-04]] — causality as compression narrative, FEP literal, Hume-by-neurology; salvaged.
+- [[empathy-origin-and-triple-identity-2026-07-04]] — model provenance: empathic pattern recognition, triple identity; salvaged.
+- [[bidirectional-scientific-method-2026-07-04]] — run the method in reverse; observer-in-the-box; salvaged.
+- [[one-thing-many-perspectives-doc-rule-2026-07-04]] — perspective-rotation method + documentation rule; salvaged.
+- [[leviathan-semantic-sovereignty-2026-07-04]] — Hobbes word-sovereignty, MMM as rigorous memetics; salvaged.
+- [[purgatory-working-space-2026-07-04]] — purgatory = the working space; hell/heaven edges provisional; salvaged.
+- [[constraint-manifold-simultaneous-2026-07-04]] — geometry layers co-active, doc order ≠ ratchet order; salvaged.
+- [[geometry-entropy-dual-ratchet-verdict-2026-07-04]] — geometry prior, entropy typed readout; mechanical-dual reopened narrow; salvaged.
+- [[projects/codex-ratchet/toe-goal-and-artifact-grounding-audit-2026-07-04]] — TOE north star vs thin-floor artifact audit; salvaged.
+- [[raw/owner-voice-cosmology-and-method-2026-07-03]] — owner-voice verbatim capture (cosmology + method).
+- [[projects/codex-ratchet/wrong-repo-memory-digest-2026-07-04]] — digest of the 31 salvaged wrong-repo memories + conflict list.
+- [[projects/codex-ratchet/wrong-repo-estate-salvage-2026-07-04]] — wrong-repo commit map and salvage record.
 - [[nominalist-cs-framing]] — Nominalist computer-science translation frame.
 - [[CLAIM_CEILING_POLICY]] — Claim ceiling and promotion fences.
 
