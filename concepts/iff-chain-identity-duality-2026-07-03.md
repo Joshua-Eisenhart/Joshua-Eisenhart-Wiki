@@ -112,3 +112,5 @@ Before promoting any claim from this page, name which fence it belongs to and wh
 - [[entropic-spacetime-monism-readout-map]] — physics-name readout map for spacetime, baryons, hadrons, forces, and possibility-field language.
 - [[owner-thesis-and-cosmology]] — canonical owner thesis router and claim ceiling.
 - [[anti-reification-and-nominalism-reference]] — nominalist anti-reification discipline.
+
+- Owner-voice verbatim source (2026-07-03): [[../raw/owner-voice-cosmology-and-method-2026-07-03]] — the discovery process and full cosmology in the owner's words; treat as source, never edit.
