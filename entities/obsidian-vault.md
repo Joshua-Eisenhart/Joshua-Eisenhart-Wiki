@@ -17,5 +17,6 @@ The Obsidian vault is `/Users/joshuaeisenhart/wiki`: the long-form working memor
 - Full listing: [[index-full]]
 - Authority ranking: [[hermes-current/current-vs-legacy]]
 - CocoIndex layer: [[hermes-current/cocoindex-wiki-mcp-memory-layer]]
+- Research memory queue: [[queries/research-intake-2026-07-03]]
 
 Use current/front-door pages before treating older notes as active doctrine.

@@ -80,3 +80,4 @@ Together, they are intended to constrain the system away from arbitrary or incoh
 - [[holodeck-qit-fep-leviathan-integration]] — integration with holodeck, FEP, and Leviathan
 - [[qit-ai-foundations-bridge]] — QIT as oracle to Turing-side mathematics
 - [[constraint-manifold-architecture]] — detailed constraint geometry
+- [[queries/research-intake-2026-07-03]] — skeptic-vetted queue for EFE, relative entropy, and tensor-network support candidates; queue only, no source promotion.

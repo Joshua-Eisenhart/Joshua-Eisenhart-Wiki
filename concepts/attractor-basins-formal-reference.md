@@ -95,6 +95,10 @@ The limit is just as important: live repo evidence does not justify a universal 
 ## How it connects
 See [[qit-vocabulary-discipline-reference]] for term discipline, [[distinguishability-formal-reference]] for the equivalence-class backbone, [[distance-metrics-state-space]] for the recovery metrics, [[cptp-maps-and-channels]] for the channel dynamics, [[viability-theory-reference]] for the complementary "can it stay?" framing, and [[evolutionary-epistemology-reference]] for neutral networks and basin-hopping.
 
+## 2026-07-03 research queue
+
+For a skeptic-vetted queue of candidate basin-stability, viability, and high-dimensional attractor papers, see [[queries/research-intake-2026-07-03]]. Treat that page as a queue only: it does not confirm sources, admit claims, or promote basin language beyond the ceilings on this page.
+
 
 - Strogatz (2015) *Nonlinear Dynamics and Chaos*, Westview Press.
 ## Related pages

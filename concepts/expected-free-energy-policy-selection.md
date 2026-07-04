@@ -78,3 +78,4 @@ The discrete active-inference reward source is useful because it states conditio
 - [[active-inference-benchmark-fixtures]]
 - [[fep-critique-and-assumption-ledger]]
 - [[fep-research-atlas-and-crosswalk]]
+- [[queries/research-intake-2026-07-03]] -- queue-only candidate intake for active-inference/EFE papers; no source is confirmed from that page.

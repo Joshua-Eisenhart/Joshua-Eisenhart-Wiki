@@ -24,6 +24,10 @@ Use this as the low-friction entry point. The old full listing lives at [index-f
 - [[projects/leviathan-current/LEV_CR_INTEGRATION_STATE_2026-07-02]] — Collaboration and integration state snapshot.
 - [[projects/research-ratchet/README]] — Research Ratchet harness front door.
 
+## Queries
+
+- [[queries/research-intake-2026-07-03]] — Skeptic-vetted research queue; no promotion or citation before source resolution.
+
 ## Concepts
 
 - [[constraint-manifold-architecture]] — Minimum construction contract for `M(C)`.

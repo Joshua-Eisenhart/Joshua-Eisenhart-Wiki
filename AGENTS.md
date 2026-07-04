@@ -21,6 +21,14 @@ This vault is the owner's second brain (Obsidian, git-versioned). Codex maintena
 5. Status labels carry dates. Do not upgrade a status label without evidence.
 6. Commit locally after each maintenance pass. Never push.
 
+## Research intake (from Hermes skills)
+
+- Keep `raw/papers` as source intake and processed wiki pages under `concepts/`, `queries/`, project pages, indexes, and logs.
+- Split arXiv lanes from non-arXiv foundation or bibliography lanes; do not force books, reports, products, or historical foundations into arXiv/raw-paper intake.
+- Query pages are queues, not canon. Mark unresolved candidates clearly and do not cite or promote them until exact sources are resolved and read.
+- Avoid thin reference pages: new or promoted reference pages need at least 40 nonblank body lines, plus concrete relevance and related links.
+- Fix orphans before closing: add index/hub links and at least two meaningful backlinks when creating a new queue or reference page.
+
 ## Recall layer
 
 Semantic recall over this vault uses codebase-memory-mcp. After any pass that adds or edits pages, refresh the index:
