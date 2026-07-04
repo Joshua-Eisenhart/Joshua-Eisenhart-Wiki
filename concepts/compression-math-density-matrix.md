@@ -42,9 +42,14 @@ Schumacher (1995): n copies of rho compress to n S(rho) qubits via projection on
 For entangled encoder-decoder pairs, quantum rate-distortion improves beyond classical. The coherent information I_c = S(B)-S(AB) replaces mutual information. Superadditivity: Q(E tensor E') > 2Q(E) possible. This has no classical analog. The lossy compression = entropy-constrained quantization: assign codewords based on spectral structure of rho, codebook = rank-1 projectors (pure states), encoding = CPTP map from rho to low-rank approximation. (from compression_math_density_matrix.md)
 
 ## Related pages
+- Merged from [[compression-mathematics-and-density-matrix]] on 2026-07-03; unique coverage retained: PCA/kernel PCA, spectral decomposition, quantum computing applications, and classical-vs-quantum compression routing.
 - [[pca-qpca-alignment]]
 - [[cross-domain-equivalence-map]]
 - [[research-index-compression-terms]]
 - [[density-matrix-mathematics]]
 - [[quantum-information-measures]]
 - [[svd-and-low-rank-approximation]]
+- [[pca-qpca-density-matrix-view]]
+- [[spectral-decomposition-theory]]
+- [[quantum-computing-applications]]
+- [[classical-vs-quantum-compression]]
