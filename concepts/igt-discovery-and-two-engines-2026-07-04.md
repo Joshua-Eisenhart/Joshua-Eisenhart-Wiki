@@ -71,32 +71,64 @@ theory fuse. LLM drift on this content is precisely the re-installation of the
 folk correlations; check the table's cell counts before asserting any
 association between coordinates.
 
-## 4. The two engines (mechanism surface, source-cited)
+## 4. The two engines — extraction tables carried verbatim, not paraphrased
 
-From [[igt-pattern-explicit-math-reference]] and TYPE1_ENGINE_EXTRACTION:
+Source: TYPE1_ENGINE_EXTRACTION_20260703.md (which itself cites IGT = the
+mechanism reference, ATLAS, SIGNED, LEDGER by line). Paraphrase is where
+conflation hides; this section carries the extraction's own statements.
 
-- Type 1 = left, flux IN, H = +H0. Terrains: Funnel, Vortex, Pit, Hill (in-flux
-  quartet). Type 2 = right, flux OUT, H = -H0. Terrains: Cannon, Spiral, Source,
-  Citadel. The differences are channel-level, not relabelings: Hamiltonian sign,
-  rotation axis, z-attractor, jump operator (sigma- to sigma+), projector frame.
-- Four shared operators: two dephasing/pinch (z-pinch, x-pinch) and two
-  rotation/unitary (x-rotation, z-rotation) — Axis 5's family split. Nativity
-  follows Axis 2 (direct-frame terrains take the introverted-judgment pair,
-  conjugated-frame terrains the extraverted pair, per the terrain-law ledger).
-- Eight signed stages per engine: stage = one operator composed with one terrain
-  in one order (Axis 6: operator-first vs terrain-first), with WIN/LOSE casing
-  per the chart. Type-1 outer loop is deductive with big casing on one judging
-  axis; inner loop inductive with small casing on the other. Type 2 swaps which
-  loop carries which — the two traversals of the same structure.
-- Traversals: inductive = CW = Funnel->Hill->Pit->Vortex order with
-  Large->small->Large->small flips; deductive = CCW = Funnel->Vortex->Pit->Hill
-  with small->Large->small->Large (chart-locked in the atlas).
-- Loop-placement law (axes doc): A3 x A4 x A5 x A6 = 8 paired signatures, NOT
-  16 — engine type is NOT recoverable from A3 x A4 alone.
+Type-1 boundary: "Type 1 is 'left, flux IN, H = +H0'" — terrains `Se-in` Funnel,
+`Ne-in` Vortex, `Ni-in` Pit, `Si-in` Hill, each with its quoted candidate
+generator (IGT:482-489; ATLAS:103-110; "one candidate QIT realization",
+"not settled math", ATLAS:82-85).
 
-Open gaps carried verbatim from the extraction: terrain generators are candidate
-math, not settled; Axis-3 has competing readings; Axis-4 spin assignment is
-owner-reserved; Axis-0 bridge (Xi) remains the largest gap; 64-closure unproven.
+Type-2 boundary: "Type 2 is the mirror/right/out side: 'right, flux OUT,
+H = -H0'" — terrains `Se-out` Cannon, `Ne-out` Spiral, `Ni-out` Source,
+`Si-out` Citadel. "What changes between types is 'Hamiltonian sign flips,
+rotation axis flips, z-attractor flips, jump operator flips (sigma_- ->
+sigma_+), projector frame rotates'" and these are "Different channels, not
+relabelings" (IGT:491-500). "Type-2 outer is inductive and inner deductive"
+(IGT:517-525; ATLAS:235-249).
+
+Type-1 stage chart (extraction section D, verbatim):
+
+| Terrain | Outer stage | Outer order | Outer result | Inner stage | Inner order | Inner result |
+|---|---|---|---|---|---|---|
+| `Se-in` | `TiSe` | `Se-in(Ti(rho))` | `LOSE` | `SeFi` | `Fi(Se-in(rho))` | `win` |
+| `Ne-in` | `NeTi` | `Ti(Ne-in(rho))` | `WIN` | `FiNe` | `Ne-in(Fi(rho))` | `lose` |
+| `Ni-in` | `NiFe` | `Fe(Ni-in(rho))` | `LOSE` | `TeNi` | `Ni-in(Te(rho))` | `lose` |
+| `Si-in` | `FeSi` | `Si-in(Fe(rho))` | `WIN` | `SiTe` | `Te(Si-in(rho))` | `win` |
+
+"Type-1 outer loop is deductive `FeTi`; inner loop is inductive `TeFi`"
+(IGT:517-525; ATLAS:226-231).
+
+Traversals (extraction section E, verbatim): Inductive = CW =
+`Se -> Si -> Ni -> Ne`, axis flips `Large -> small -> Large -> small`;
+Deductive = CCW = `Se -> Ne -> Ni -> Si`, flips
+`small -> Large -> small -> Large` (IGT:464-469; ATLAS:156-179).
+
+Operators (extraction section B): Ti z-dephasing and Te x-dephasing (pinch
+class); Fi x-rotation and Fe z-rotation (unitary class); native assignment "is
+explicitly the i/e split: Ti, Fi native to direct-frame Se, Ne; Te, Fe native
+to conjugated-frame Ni, Si" (LEDGER:157-173).
+
+Signed stages (extraction section C): "up = operator-first ordered word, down =
+terrain-first ordered word"; Axis-6 action side `UP = L_A(rho) = A rho`,
+`DOWN = R_A(rho) = rho A` (SIGNED:20-27, 897-922).
+
+Loop-placement law (axes doc, verbatim): "A3 x A4 x A5 x A6 = 8 paired
+signatures, NOT 16 — same signature pairs two topology rows -> engine type NOT
+recoverable from A3 x A4 alone."
+
+OPEN — carried as the extraction states them, and NOT to be fused: "Axis-3 has
+competing readings; inner/fiber vs outer/base is current strongest, while
+chirality, Type1/Type2 inversion, and flux in/out remain alternatives requiring
+discriminator tests" (IGT:273-292; ATLAS:293-304). A prior draft of this page
+(and of the session conversation) fused Axis 3 with engine type; that fusion is
+a conflation — the relationship between Axis 3 and the type distinction is an
+open discriminator question, not an identity. Other open gaps verbatim: terrain
+generators candidate not closed; Axis-4 taijitu spin owner-reserved; Axis-0
+bridge Xi = largest gap; 64-closure a schedule/index surface, not ontology.
 
 ## 5. Discovery provenance (owner voice, 2026-07-03/04)
 
