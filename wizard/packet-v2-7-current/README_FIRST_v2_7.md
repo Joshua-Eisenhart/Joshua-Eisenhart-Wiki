@@ -6,6 +6,9 @@ type: concept
 tags: [wizard, mmm, packet, receipt]
 framing: current
 source_path: README_FIRST_v2_7.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # README First v2.7

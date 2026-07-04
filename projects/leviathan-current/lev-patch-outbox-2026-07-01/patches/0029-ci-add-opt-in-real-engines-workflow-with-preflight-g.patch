@@ -1,0 +1,217 @@
+From c8b8984a179b0430710ff392f20444767821766c Mon Sep 17 00:00:00 2001
+From: Joshua-Eisenhart <40147598+Joshua-Eisenhart@users.noreply.github.com>
+Date: Wed, 1 Jul 2026 13:51:14 -0700
+Subject: [PATCH 29/35] ci: add opt-in real-engines workflow with preflight
+ gate
+
+workflow_dispatch + weekly cron; preflight-gated graceful skip; no
+LLM/API keys; env overrides LEV_JULIA_BIN + LEV_PY; runs the
+unstubbed real-evidence loop tests. Locally dry-run verified.
+
+Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
+---
+ .github/workflows/real-engines.yml        | 126 ++++++++++++++++++++++
+ tooling/scripts/real-engines-preflight.sh |  58 ++++++++++
+ 2 files changed, 184 insertions(+)
+ create mode 100644 .github/workflows/real-engines.yml
+ create mode 100755 tooling/scripts/real-engines-preflight.sh
+
+diff --git a/.github/workflows/real-engines.yml b/.github/workflows/real-engines.yml
+new file mode 100644
+index 000000000..f8a5ffcd6
+--- /dev/null
++++ b/.github/workflows/real-engines.yml
+@@ -0,0 +1,126 @@
++name: Real Engine Backstop
++
++# Opt-in, not on every push: the real-evidence loop tests spawn actual
++# Julia (QuantumOptics), JAX (quimb), and PyTorch (torch+geomstats)
++# subprocesses through the Lev mechanical-probe-runner, so this job is
++# slow (full Julia environment instantiation + two mechanical probe
++# lanes per wave) and is not run on pull_request/push.
++on:
++  workflow_dispatch: {}
++  schedule:
++    # Weekly, Monday 05:00 UTC (ahead of the existing Monday 06:00 UTC
++    # dependency-audit cron in .github/workflows/audit.yml).
++    - cron: '0 5 * * 1'
++
++jobs:
++  preflight:
++    name: Preflight real-engine toolchain
++    runs-on: ubuntu-latest
++    outputs:
++      ready: ${{ steps.preflight.outputs.real_engines_ready }}
++    steps:
++      - uses: actions/checkout@v6
++
++      - uses: julia-actions/setup-julia@v2
++        id: setup-julia
++        with:
++          version: '1.12.6'
++        continue-on-error: true
++
++      - uses: actions/setup-python@v5
++        with:
++          python-version: '3.13'
++        continue-on-error: true
++
++      - name: Instantiate Julia r0-quotient environment
++        if: always()
++        continue-on-error: true
++        working-directory: core/orchestration/src/probes/lev-sim-engine-carrier/r0-quotient
++        run: julia --project=. -e 'using Pkg; Pkg.instantiate()'
++
++      - name: Create CI sim-stack python venv
++        if: always()
++        continue-on-error: true
++        run: |
++          python3 -m venv /tmp/lev-sim-stack
++          /tmp/lev-sim-stack/bin/pip install --upgrade pip
++          # Pinned to the versions the local Lev-owned sim-stack venv resolves
++          # today (core/orchestration/src/proof/real-three-engine-envelope.ts:110-111
++          # LEV_PY default; versions confirmed via `python3 -c "import jax; ..."`
++          # against /Users/joshuaeisenhart/.local/share/lev/sim-stack/bin/python3
++          # on 2026-06-30). Bump deliberately, not silently, if that venv moves.
++          /tmp/lev-sim-stack/bin/pip install \
++            "numpy==2.3.5" \
++            "jax==0.10.2" \
++            "jaxlib==0.10.2" \
++            "torch==2.12.1" \
++            "quimb==1.14.0" \
++            "geomstats==2.8.0" \
++            "numba==0.65.1"
++
++      - name: Preflight toolchain check
++        id: preflight
++        env:
++          LEV_JULIA_BIN: ${{ steps.setup-julia.outputs.julia-bindir && format('{0}/julia', steps.setup-julia.outputs.julia-bindir) || '' }}
++          LEV_PY: /tmp/lev-sim-stack/bin/python3
++        run: bash tooling/scripts/real-engines-preflight.sh
++
++  real-engine-tests:
++    name: Run real-evidence loop tests
++    needs: preflight
++    if: needs.preflight.outputs.ready == 'true'
++    runs-on: ubuntu-latest
++    timeout-minutes: 30
++    steps:
++      - uses: actions/checkout@v6
++
++      - uses: julia-actions/setup-julia@v2
++        id: setup-julia
++        with:
++          version: '1.12.6'
++
++      - uses: actions/setup-python@v5
++        with:
++          python-version: '3.13'
++
++      - name: Instantiate Julia r0-quotient environment
++        working-directory: core/orchestration/src/probes/lev-sim-engine-carrier/r0-quotient
++        run: julia --project=. -e 'using Pkg; Pkg.instantiate()'
++
++      - name: Create CI sim-stack python venv
++        run: |
++          python3 -m venv /tmp/lev-sim-stack
++          /tmp/lev-sim-stack/bin/pip install --upgrade pip
++          /tmp/lev-sim-stack/bin/pip install \
++            "numpy==2.3.5" \
++            "jax==0.10.2" \
++            "jaxlib==0.10.2" \
++            "torch==2.12.1" \
++            "quimb==1.14.0" \
++            "geomstats==2.8.0" \
++            "numba==0.65.1"
++
++      - uses: pnpm/action-setup@v5
++
++      - uses: actions/setup-node@v6
++        with:
++          node-version: 22
++          cache: pnpm
++
++      - name: Install dependencies
++        run: pnpm install --frozen-lockfile
++
++      - name: Run real-evidence loop tests (actual Julia/JAX/PyTorch subprocesses)
++        working-directory: core/orchestration
++        env:
++          # No LLM/API keys anywhere in this job: the real-evidence loop tests
++          # only exercise the deterministic mechanical-probe-runner path
++          # (Julia/JAX/PyTorch subprocesses), never a model call.
++          # Absolute path: the engine spawns julia with an empty child env (no PATH),
++          # so a bare `julia` command name fails ENOENT. Use setup-julia's bindir.
++          LEV_JULIA_BIN: ${{ steps.setup-julia.outputs.julia-bindir }}/julia
++          LEV_PY: /tmp/lev-sim-stack/bin/python3
++        run: >-
++          npx vitest run
++          src/handlers/lev-wizard-ratchet.test.ts
++          -t "real-evidence loop"
+diff --git a/tooling/scripts/real-engines-preflight.sh b/tooling/scripts/real-engines-preflight.sh
+new file mode 100755
+index 000000000..b47887599
+--- /dev/null
++++ b/tooling/scripts/real-engines-preflight.sh
+@@ -0,0 +1,58 @@
++#!/usr/bin/env bash
++# Preflight for the opt-in real-engine CI backstop (.github/workflows/real-engines.yml).
++#
++# Checks that the toolchain the real-evidence loop tests need is actually present
++# and importable: julia + the pinned sim-stack python + jax/torch/quimb/geomstats.
++# This job is opt-in coverage (workflow_dispatch + weekly cron), so a missing
++# toolchain must SKIP the run cleanly, not fail it red.
++#
++# Emits `real_engines_ready=true|false` to $GITHUB_OUTPUT when GITHUB_OUTPUT is
++# set (CI); otherwise just prints findings and exits non-zero on failure so it
++# is still usable standalone.
++set -uo pipefail
++
++JULIA_BIN="${LEV_JULIA_BIN:-/opt/homebrew/bin/julia}"
++if ! command -v julia >/dev/null 2>&1 && [ ! -x "$JULIA_BIN" ]; then
++  # Fall back to whatever `julia` resolves to on PATH (e.g. CI's apt/asdf install).
++  JULIA_BIN="$(command -v julia || true)"
++fi
++
++PY_BIN="${LEV_PY:-/Users/joshuaeisenhart/.local/share/lev/sim-stack/bin/python3}"
++
++missing=()
++
++if [ -z "$JULIA_BIN" ] || [ ! -x "$JULIA_BIN" ]; then
++  missing+=("julia (checked LEV_JULIA_BIN / PATH)")
++else
++  echo "found julia: $("$JULIA_BIN" --version 2>&1)"
++fi
++
++if [ ! -x "$PY_BIN" ]; then
++  missing+=("sim-stack python3 at $PY_BIN (set LEV_PY to override)")
++else
++  echo "found sim-stack python: $("$PY_BIN" --version 2>&1)"
++  if ! "$PY_BIN" -c "import jax, torch, quimb, geomstats" >/dev/null 2>&1; then
++    missing+=("jax/torch/quimb/geomstats import failed under $PY_BIN")
++  else
++    "$PY_BIN" -c "
++import jax, torch, quimb, geomstats
++print(f'jax {jax.__version__}, torch {torch.__version__}, quimb {quimb.__version__}, geomstats {geomstats.__version__}')
++"
++  fi
++fi
++
++if [ "${#missing[@]}" -gt 0 ]; then
++  echo "REAL ENGINE PREFLIGHT: toolchain not available, this run will SKIP:"
++  for item in "${missing[@]}"; do
++    echo "  - $item"
++  done
++  if [ -n "${GITHUB_OUTPUT:-}" ]; then
++    echo "real_engines_ready=false" >> "$GITHUB_OUTPUT"
++  fi
++  exit 0
++fi
++
++echo "REAL ENGINE PREFLIGHT: julia + sim-stack python + jax/torch/quimb/geomstats all present."
++if [ -n "${GITHUB_OUTPUT:-}" ]; then
++  echo "real_engines_ready=true" >> "$GITHUB_OUTPUT"
++fi
+-- 
+2.50.1 (Apple Git-155)
+

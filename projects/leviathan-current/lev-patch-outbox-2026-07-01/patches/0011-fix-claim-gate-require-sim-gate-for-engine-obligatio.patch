@@ -1,0 +1,127 @@
+From 767bcba076aefc549eceb68fccf7a09d118481e0 Mon Sep 17 00:00:00 2001
+From: Joshua-Eisenhart <40147598+Joshua-Eisenhart@users.noreply.github.com>
+Date: Tue, 30 Jun 2026 16:56:27 -0700
+Subject: [PATCH 11/35] fix(claim-gate): require sim gate for engine
+ obligations
+
+---
+ .../src/proof/claim-gate-wave-runner.test.ts  | 42 +++++++++++++++++++
+ .../src/proof/claim-gate-wave-runner.ts       | 21 +++++++++-
+ 2 files changed, 61 insertions(+), 2 deletions(-)
+
+diff --git a/core/orchestration/src/proof/claim-gate-wave-runner.test.ts b/core/orchestration/src/proof/claim-gate-wave-runner.test.ts
+index 83a130b3c..2bfd54094 100644
+--- a/core/orchestration/src/proof/claim-gate-wave-runner.test.ts
++++ b/core/orchestration/src/proof/claim-gate-wave-runner.test.ts
+@@ -403,6 +403,48 @@ describe('ClaimGate WaveRun V0', () => {
+     }
+   });
+ 
++  it('requires sim_engine_probe automatically when an engine obligation is present', () => {
++    const root = mkdtempSync(join(tmpdir(), 'claim-gate-wave-runner-'));
++    try {
++      const sessionId = 'claim-gate-wave-runner-session';
++      const result = runClaimGateWaveRun({
++        ...waveRunInput(root, {
++          kind: 'ClaimGateCouncilWaveInput',
++          sessionId,
++          maxWaves: 1,
++          waves: [
++            {
++              wave: 1,
++              contract: testWaveContract(),
++              claims: [
++                {
++                  claimId: 'SIM_SCOPED',
++                  payload: 'needs engine proof even when caller omits the sim gate from policy',
++                  gateChecks: passingGateChecks(root, sessionId),
++                },
++              ],
++            },
++          ],
++        }),
++        deterministicGatePolicy: {
++          sourceBoundEvidenceContext: sourceBoundEvidenceContext(),
++        },
++        engineObligations: [
++          engineObligation(),
++        ],
++      });
++
++      expect(result.status).toBe('blocked');
++      expect(result.acceptedClaimIds).toEqual([]);
++      expect(result.waveResults[0].passConditionContract.requiredGateIds).toContain('sim_engine_probe');
++      expect(result.failurePackets.flatMap((packet) => packet.violatedGates ?? [packet.violatedGate])).toContain('sim_engine_probe');
++      expect(result.engineGraphOperationProposal).toBeNull();
++      expect(result.nextRunSeed).toBeNull();
++    } finally {
++      rmSync(root, { recursive: true, force: true });
++    }
++  });
++
+   it('attaches host-supplied three-engine digest evidence before a scoped sim_engine_probe can pass', () => {
+     const root = mkdtempSync(join(tmpdir(), 'claim-gate-wave-runner-'));
+     try {
+diff --git a/core/orchestration/src/proof/claim-gate-wave-runner.ts b/core/orchestration/src/proof/claim-gate-wave-runner.ts
+index f4af78399..f93497041 100644
+--- a/core/orchestration/src/proof/claim-gate-wave-runner.ts
++++ b/core/orchestration/src/proof/claim-gate-wave-runner.ts
+@@ -178,6 +178,9 @@ export interface ClaimGateWaveRunResult {
+   receipt: Receipt;
+ }
+ 
++const DEFAULT_WAVE_RUN_REQUIRED_GATE_IDS = ['object_binding', 'evidence_manifest', 'falsifier'];
++const SIM_ENGINE_PROBE_GATE_ID = 'sim_engine_probe';
++
+ function stableStringify(value: unknown): string {
+   if (value === null || typeof value !== 'object') return JSON.stringify(value) ?? 'null';
+   if (Array.isArray(value)) return `[${value.map(stableStringify).join(',')}]`;
+@@ -582,6 +585,18 @@ function makeNextRunSeed(
+   };
+ }
+ 
++function requiredGateIdsForWaveRun(
++  gatePolicy: ClaimGateWaveRunDeterministicGatePolicy,
++  engineObligations: ClaimGateWaveRunEngineObligation[],
++): string[] | undefined {
++  if (engineObligations.length === 0) return gatePolicy.requiredGateIds;
++
++  const base = gatePolicy.requiredGateIds?.length
++    ? gatePolicy.requiredGateIds
++    : DEFAULT_WAVE_RUN_REQUIRED_GATE_IDS;
++  return Array.from(new Set([...base, SIM_ENGINE_PROBE_GATE_ID]));
++}
++
+ export function compileWaveRunEngineObligationGraphOperationProposal(input: {
+   sessionId: string;
+   workstreamId?: string;
+@@ -737,6 +752,8 @@ export function runClaimGateWaveRun(input: ClaimGateWaveRunInput): ClaimGateWave
+   const sessionId = input.sessionId;
+   const workstreamId = input.workstreamId;
+   const gatePolicy = input.deterministicGatePolicy ?? {};
++  const engineObligations = input.engineObligations ?? [];
++  const requiredGateIds = requiredGateIdsForWaveRun(gatePolicy, engineObligations);
+   const maxWaves = Math.max(1, Math.floor(input.maxWaves ?? input.initial.maxWaves ?? 1));
+ 
+   const waveResults: ClaimGateLoopResult[] = [];
+@@ -757,7 +774,7 @@ export function runClaimGateWaveRun(input: ClaimGateWaveRunInput): ClaimGateWave
+   for (let attempt = 0; attempt < maxWaves; attempt += 1) {
+     const augmented = runEngineObligations(
+       currentInput,
+-      input.engineObligations ?? [],
++      engineObligations,
+       input.threeEngineRunner,
+       currentInput.sessionId ?? sessionId,
+       currentInput.workstreamId ?? workstreamId,
+@@ -769,7 +786,7 @@ export function runClaimGateWaveRun(input: ClaimGateWaveRunInput): ClaimGateWave
+       sessionId: augmented.input.sessionId ?? sessionId,
+       workstreamId: augmented.input.workstreamId ?? workstreamId,
+       maxWaves: augmented.input.maxWaves ?? 1,
+-      requiredGateIds: gatePolicy.requiredGateIds,
++      requiredGateIds,
+       trustedEvidenceRefs: gatePolicy.trustedEvidenceRefs,
+       sourceBoundEvidenceContext: gatePolicy.sourceBoundEvidenceContext,
+       ...(parentResult ? { parentResult } : {}),
+-- 
+2.50.1 (Apple Git-155)
+

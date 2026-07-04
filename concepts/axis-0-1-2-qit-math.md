@@ -9,6 +9,9 @@ priming: false
 tags: [reference, research, validation, system]
 sources:
   - raw/articles/system-v5-reference-docs/AXIS_0_1_2_QIT_MATH.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Axis 0 1 2 QIT Math

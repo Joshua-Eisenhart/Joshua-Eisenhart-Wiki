@@ -15,6 +15,9 @@ sources:
   - raw/articles/legacy-books/the-dark-empress-a-practical-guide-to-universal-dominion-v6-1-2.md
   - raw/articles/legacy-books/the-dark-empress-a-practical-guide-to-universal-dominion-v6-1-2.txt
   - raw/articles/legacy-books/leviathan-v3-2-word.txt
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Legacy Governance and Bootpacks

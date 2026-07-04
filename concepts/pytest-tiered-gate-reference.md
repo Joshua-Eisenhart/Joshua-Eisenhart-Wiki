@@ -8,6 +8,9 @@ sources:
   - raw/articles/new-docs/SYSTEM_ARCHITECTURE_REFERENCE.md
   - raw/articles/new-docs/archive_old/NONCLASSICAL_SYSTEM_TOOL_PLAN.md
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Pytest Tiered Gate Reference

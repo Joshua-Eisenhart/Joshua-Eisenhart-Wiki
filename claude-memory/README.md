@@ -2,6 +2,9 @@
 last_updated: 2026-04-17
 type: memory_namespace
 owner: claude_threads
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Claude Memory — wiki-resident working memory for Claude threads

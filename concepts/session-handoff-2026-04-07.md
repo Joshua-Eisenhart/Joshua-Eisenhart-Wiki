@@ -11,6 +11,9 @@ spec_mirrors:
   - /Users/joshuaeisenhart/wiki/specs/codex-ratchet/sim-estate-integration-status.md
   - /Users/joshuaeisenhart/wiki/specs/codex-ratchet/formal-scout-readiness-status.md
 framing: historical_session_artifact
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Session Handoff — 2026-04-07

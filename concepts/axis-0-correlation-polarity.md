@@ -8,6 +8,9 @@ priming: false
 tags: [reference, research, system]
 sources:
   - raw/articles/system-v5-reference-docs/Older Legacy/AXIS0_SPEC_OPTIONS_v0.3 copy.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Axis 0 Correlation Polarity

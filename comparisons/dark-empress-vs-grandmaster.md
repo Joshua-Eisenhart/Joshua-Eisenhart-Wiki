@@ -9,6 +9,9 @@ sources:
   - raw/articles/legacy-books/the-grandmaster-of-the-universe-copy.md
   - raw/articles/legacy-books/leviathan-v3-2-word.txt
 framing: legacy
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Dark Empress vs Grandmaster

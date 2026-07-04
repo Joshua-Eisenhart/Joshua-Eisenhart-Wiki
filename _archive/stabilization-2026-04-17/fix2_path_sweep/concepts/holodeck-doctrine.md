@@ -10,6 +10,9 @@ sources:
   - /Users/joshuaeisenhart/wiki/concepts/projective-holodeck-memory-model.md
   - /Users/joshuaeisenhart/wiki/concepts/holodeck-as-recall-space.md
   - /Users/joshuaeisenhart/GitHub/leviathan/README.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Holodeck Doctrine

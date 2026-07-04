@@ -9,6 +9,9 @@ sources:
   - raw/articles/new-docs/AGENT_WORKFLOW_AND_BOOT_ARCHITECTURE.md
   - raw/articles/new-docs/SYSTEM_ARCHITECTURE_REFERENCE.md
 framing: mixed
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Formal Methods and Witness Discipline

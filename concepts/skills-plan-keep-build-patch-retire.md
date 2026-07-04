@@ -8,6 +8,9 @@ sources:
   - raw/articles/new-docs/archive_old/SKILLS_PLAN__KEEP_BUILD_PATCH_RETIRE.md
 framing: legacy
 priming: false
+status: superseded
+superseded_by: "current wave/canon receipts"
+reason: "references patch/waverun artifact"
 ---
 
 # Skills Plan -- Keep / Build / Patch / Retire

@@ -7,6 +7,9 @@ tags: [reference, quantum, mathematics, formal]
 sources:
   - https://arxiv.org/abs/2412.05997v3
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Doubly Quantum Mechanics

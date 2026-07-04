@@ -9,6 +9,9 @@ sources:
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/ops/formal_scouts/results/clifford_sympy_geomstats_nested_g_structure_live_state_probe_results.json
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/ops/wizard_admission_receipts/sim_spinor_s3_hypersphere_angle_pi_over_479_geomstats_hidden_coordinate_gap_survivor_classes_admission_artifact.json
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Geomstats Manifold Geometry Reference

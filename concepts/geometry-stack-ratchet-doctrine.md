@@ -6,6 +6,9 @@ type: concept
 framing: dated_doctrine_snapshot
 tags: [geometry, ratchet, constraints, non-commutative, doctrine]
 sources: ["/Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/docs/plans/geometry_stack_ratchet_doctrine.md"]
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Geometry Stack and Constraint Ratchet Doctrine

@@ -8,6 +8,9 @@ tags: [reference, research, validation, system]
 sources:
   - raw/articles/system-v5-reference-docs/CS version of system first draft.md
 framing: legacy
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # CS Version of System First Draft Copy

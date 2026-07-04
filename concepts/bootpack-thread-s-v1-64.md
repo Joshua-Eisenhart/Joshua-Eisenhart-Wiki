@@ -9,6 +9,9 @@ sources:
   - raw/articles/system-v5-reference-docs/BOOTPACK_THREAD_S_v1.64.md
 framing: legacy
 priming: false
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Bootpack Thread S V1.64

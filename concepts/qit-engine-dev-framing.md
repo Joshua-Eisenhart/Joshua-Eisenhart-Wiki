@@ -10,6 +10,9 @@ sources:
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/docs/ANOMALOUS_COMPUTER_SCIENCE_TRANSLATION.md
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/docs/CONSTRAINT_ON_DISTINGUISHABILITY_FULL_MATH.md
   - /Users/joshuaeisenhart/wiki/concepts/sophisticated-inference-active-inference.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # QIT Engine Dev Framing

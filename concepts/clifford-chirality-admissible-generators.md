@@ -13,6 +13,9 @@ prior_commit_refs:
   - sim_mera_clifford_pairwise_coupling commit 22b9f7abe
   - sim_mera_clifford_weyl_triple_coexistence commit 946742575
 framing: source_present_result_unverified_snapshot
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Chirality-Admissible Cl(3) Generators

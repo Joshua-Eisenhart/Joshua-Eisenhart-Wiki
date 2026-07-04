@@ -12,6 +12,9 @@ sources:
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v4/probes/sim_qit_szilard_landauer_cycle.py
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v4/probes/sim_phase_damping_fixed_point_geometry.py
 framing: dated_system_v4_basin_support_snapshot
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # QIT Basin Engine Synthesis

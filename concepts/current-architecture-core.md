@@ -7,6 +7,9 @@ tags: [reference, research, system, architecture]
 sources:
   - raw/articles/new-docs/SYSTEM_ARCHITECTURE_REFERENCE.md
 framing: dated_architecture_snapshot
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Current Architecture Core

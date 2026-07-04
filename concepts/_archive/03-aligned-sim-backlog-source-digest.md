@@ -7,6 +7,9 @@ tags: [reference, research, simulation, planning, digest]
 sources:
   - raw/articles/new-docs/new content/preprocessed/03_aligned_sim_backlog_source_digest.md
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Aligned Sim Backlog Source Digest

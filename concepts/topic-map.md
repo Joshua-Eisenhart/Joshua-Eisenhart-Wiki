@@ -1,13 +1,16 @@
 ---
 title: Topic Map
 created: 2026-04-07
-updated: 2026-06-05
+updated: 2026-06-29
 type: summary
 framing: mixed
 tags: [reference, research, system]
 sources:
   - raw/articles/new-docs/00_manifest.md
   - raw/articles/new-docs/03_source_notes.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Topic Map
@@ -118,6 +121,16 @@ Read this lane in order when the question is the legacy personality package or w
 - current synthesis / dev-facing bridge -> [[leviathan-science-method-qit-engine-crosswalk]]
 
 For JP/dev handoff, do not start with the MBTI-heavy tables if the real question is runtime or engine grammar. Read the legacy lane once for provenance, then hand forward into the crosswalk and adjacent current pages.
+
+## IGT / axes / terrain symbolic-correlation lane
+Read this lane when the question is IGT, taijitu/I-Ching symbolism, terrain/operator charts, or source-derived discriminator design:
+- source extraction and open discriminators -> [[igt-axes-terrain-source-extraction-2026-06-04]]
+- full axis layout, relation algebra, and anti-conflation matrix -> [[axes-full-layout-relations-anti-conflation-2026-07-03]]
+- explicit IGT math reference -> [[igt-pattern-explicit-math-reference]]
+- project-level axes/terrain/operator fold -> [[projects/codex-ratchet/qit-axes-terrain-operator-fold-2026-06-09]]
+- pre-AI Rosetta / ring-checkerboard provenance -> [[projects/codex-ratchet/pre-ai-rosetta-ring-checkerboard-provenance-2026-06-09]]
+
+Do not route this lane as QIT-engine proof or final Axis0/trigram closure. It is a source-processing and test-design lane until finite discriminators admit narrower claims.
 
 ## Geometry and physics frontier
 - [[current-toe-contender-graveyard-workspace-2026-06-07]] — current TOE contender mining and live graveyard/resurrection workspace; scratch diagnostics only, no external-theory admission

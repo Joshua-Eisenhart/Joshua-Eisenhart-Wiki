@@ -10,6 +10,9 @@ sources:
   - https://arxiv.org/abs/1907.06306v2
   - https://arxiv.org/abs/1510.03695v2
 framing: mixed
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Distinguishability: Formal Reference

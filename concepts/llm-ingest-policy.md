@@ -10,6 +10,9 @@ sources:
   - /Users/joshuaeisenhart/wiki/hermes-current/wiki-harness-progress-and-audit.md
   - /Users/joshuaeisenhart/wiki/concepts/current-canonical-spine.md
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # LLM Ingest Policy

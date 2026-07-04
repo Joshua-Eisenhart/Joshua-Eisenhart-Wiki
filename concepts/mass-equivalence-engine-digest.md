@@ -9,6 +9,9 @@ sources:
   - raw/articles/new-docs/11_mass_equivalence_engine.md
   - raw/articles/new-docs/10_cross_domain_equivalence_map.md
 framing: mixed
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Mass Equivalence Engine Digest

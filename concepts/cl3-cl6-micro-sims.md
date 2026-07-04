@@ -26,6 +26,9 @@ sources:
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v4/probes/results/sim_cl6_spin_group_embedding.json
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v4/probes/sim_cl6_chirality.py
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v4/probes/results/sim_cl6_chirality.json
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Cl3 and Cl6 Micro-Sims

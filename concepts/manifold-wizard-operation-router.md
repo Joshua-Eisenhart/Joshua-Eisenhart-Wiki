@@ -1,7 +1,7 @@
 ---
 title: Manifold Wizard Operation Router
 created: 2026-05-18
-updated: 2026-05-21
+updated: 2026-07-01
 type: concept
 tags: [simulation, tooling, proof, harness, research]
 sources:
@@ -26,7 +26,7 @@ It is also not a Wizard run receipt. For sim, proof, tool-stage, lego, queue, or
 ## Repo Operation Target
 The repo operation note frames the working target as the geometric constraint manifold: nested simultaneous constraint shells with order-sensitive geometry, not axis labels and not only the Weyl/chirality layer.
 
-2026-06-04 carrier correction: PEPS/PEPS3D language in older operation notes is stale. CTMRG/PEPS3D is retired as a load-bearing carrier per the 2026-06-03 handoff. Current carrier routing is ITensors-MPS, exact dense/TensorKit, QuantumClifford, and spinor-native trajectories, with JAX and Julia primary in parallel. Axis0, attractor-basin receipts, graph/proof tools, auto_LiRPA, and le-wm remain evidence surfaces over that target in the repo operation note. Treat this as process routing, not independent wiki canon; future wiki/repo work should not collapse the manifold program into axis labels or a Weyl/chirality-only story.
+2026-07-01 carrier correction: PEPS/PEPS3D language in older operation notes is stale. The retired path is the single-fused PEPS3D contraction; CTMRG remains usable inside nested 2D PEPSKit layers when contraction-error certificates bound the readout. Current carrier routing is nested PEPS2D/Hopfield connection geometry, ITensors-MPS, exact dense/TensorKit, QuantumClifford, and spinor-native trajectories, with JAX and Julia primary in parallel. Axis0, attractor-basin receipts, graph/proof tools, auto_LiRPA, and le-wm remain evidence surfaces over that target in the repo operation note. Treat this as process routing, not independent wiki canon; future wiki/repo work should not collapse the manifold program into axis labels or a Weyl/chirality-only story.
 
 ## MMM loading rule
 Current manifold-provider lanes use Wizard v4.2. A provider receipt only counts as MMM-loaded when it records `wizard_mmm.mmm_loaded=true`, source paths, digests, route card, council role, mini-MMM ids, and prompt hash.

@@ -7,6 +7,9 @@ tags: [reference, research, planning]
 sources:
   - raw/articles/new-docs/BOOT_PROMPT_TEMPLATES.md
 framing: mixed
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Boot Prompt Templates

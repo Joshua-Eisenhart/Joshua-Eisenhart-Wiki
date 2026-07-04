@@ -8,6 +8,9 @@ sources:
   - raw/articles/new-docs/archive_hermes_overlaps/LLM_BIAS_AND_MULTI_THREAD_HARNESS_REFERENCE.md
 framing: legacy
 priming: false
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # LLM Bias and Multi-Thread Harness: Formal Reference

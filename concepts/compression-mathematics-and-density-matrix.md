@@ -9,6 +9,9 @@ sources:
   - raw/articles/new-docs/02_compression_to_density_matrix_map.md
   - raw/articles/new-docs/01_pca_qpca_alignment.md
 framing: mixed
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Compression Mathematics and Density Matrix

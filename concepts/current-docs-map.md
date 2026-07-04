@@ -10,6 +10,9 @@ sources:
   - raw/articles/new-docs/03_source_notes.md
   - raw/articles/new-docs/SYSTEM_ARCHITECTURE_REFERENCE.md
   - raw/articles/new-docs/CONSTRAINT_SURFACE_AND_PROCESS.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Current Docs Map

@@ -11,6 +11,9 @@ spec_mirrors:
   - /Users/joshuaeisenhart/wiki/specs/codex-ratchet/formal-scout-readiness-status.md
   - /Users/joshuaeisenhart/wiki/specs/codex-ratchet/lego-sim-contract-current.md
 framing: historical_preaxis_snapshot
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Current Pre-Axis Sim Status

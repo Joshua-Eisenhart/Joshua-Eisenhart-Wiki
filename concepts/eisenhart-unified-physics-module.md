@@ -11,6 +11,9 @@ sources:
   - READ ONLY Legacy core_docs/ultra high entropy docs/txt/gemini toe summary volume 1-23.txt
 framing: legacy
 priming: false
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Eisenhart Unified Physics Module

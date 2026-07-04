@@ -9,6 +9,9 @@ sources:
   - raw/articles/legacy-books/personality-theory-copy-xlsx.md
   - raw/articles/legacy-books/Personality theory._ copy.xlsx
   - raw/articles/legacy-books/Joshua Personality Model v1.1.txt
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Personality Theory Mapping

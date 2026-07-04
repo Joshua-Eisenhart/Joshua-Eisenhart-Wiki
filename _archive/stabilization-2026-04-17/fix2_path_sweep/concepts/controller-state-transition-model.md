@@ -12,6 +12,9 @@ sources:
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/new docs/plans/tool_integration_maintenance_matrix.md
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/new docs/plans/controller_maintenance_checklist.md
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/new docs/plans/on-demand-telegram-runner.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Controller State Transition Model

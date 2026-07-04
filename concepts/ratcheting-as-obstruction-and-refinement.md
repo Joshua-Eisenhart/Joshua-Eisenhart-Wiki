@@ -8,6 +8,9 @@ sources:
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/03_topological_foundations.md
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/08_synthesis.md
 framing: mixed
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Ratcheting as Obstruction and Refinement

@@ -12,6 +12,9 @@ priming: false
 spec_mirrors:
   - specs/codex-ratchet/tool-function-receipt-status
   - specs/codex-ratchet/sim-estate-integration-status
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Current Tool Status: Installed vs Missing vs Not Wired

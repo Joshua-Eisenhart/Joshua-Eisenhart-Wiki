@@ -8,6 +8,9 @@ sources:
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v4/probes/sim_pure_lego_qfi_killpoint_divergence.py
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v4/probes/sim_pure_lego_qfi_wy_qgt.py
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # QFI Kill-Point Behavior

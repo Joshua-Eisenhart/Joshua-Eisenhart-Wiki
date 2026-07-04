@@ -9,6 +9,9 @@ sources:
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/ops/never_run_cohorts.json
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/ops/c1_classification_proposals.json
 framing: geometry_integration_candidate_snapshot
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # G-Tower / Hopf / Weyl Integration

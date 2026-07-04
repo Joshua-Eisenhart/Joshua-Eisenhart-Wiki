@@ -10,6 +10,9 @@ sources:
   - raw/articles/new-docs/new content/clifford_algebra_qit.md
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v4/docs/THREAD_B_AXIS_MATH_EXPORT_BLOCK_REVIEW.md
 framing: mixed
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Quaternion and Spinor Carrier Foundations

@@ -10,6 +10,9 @@ sources:
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/docs/SIM_ESTATE_INTEGRATION_INDEX.md
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/docs/FORMAL_SCOUT_READINESS_INDEX.md
 framing: historical_system_v4_router_with_v5_overlay
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Current Authoritative Stack Index

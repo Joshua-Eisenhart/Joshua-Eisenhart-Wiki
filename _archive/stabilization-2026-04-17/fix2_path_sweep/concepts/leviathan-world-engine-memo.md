@@ -12,6 +12,9 @@ sources:
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/new docs/plans/sim_backlog_matrix.md
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/new docs/plans/controller_maintenance_checklist.md
 framing_note: Current-dev-facing synthesis. Explains the architecture for CS/dev readers without assuming the author's full private metaphysical context.
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Leviathan World Engine Memo

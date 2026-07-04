@@ -14,6 +14,9 @@ sources:
   - sim_gtower_e8_root_system_240
   - sim_e8_weyl_rotor_length_preservation
 framing: historical_candidate_geometry
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Exceptional Lie Group Series (G2, F4, E6, E7, E8)

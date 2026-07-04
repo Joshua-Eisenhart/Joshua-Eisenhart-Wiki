@@ -8,6 +8,9 @@ sources:
   - raw/articles/new-docs/archive_old/WAVE2_AXES_NEXT_SIMS_AUDIT.md
 framing: legacy
 priming: false
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Wave-2 Axes Next Sims Audit

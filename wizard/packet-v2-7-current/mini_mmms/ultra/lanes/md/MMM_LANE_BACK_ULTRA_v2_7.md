@@ -6,6 +6,9 @@ type: concept
 tags: [wizard, mmm, packet, receipt]
 framing: current
 source_path: mini_mmms/ultra/lanes/md/MMM_LANE_BACK_ULTRA_v2_7.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # MMM_LANE_BACK_ULTRA_v2_7

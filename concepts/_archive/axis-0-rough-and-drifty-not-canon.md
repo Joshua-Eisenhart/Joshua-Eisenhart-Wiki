@@ -8,6 +8,9 @@ framing: legacy
 tags: [reference, research, validation]
 sources:
   - raw/articles/system-v5-reference-docs/axis-0-rough-and-drifty-not-canon.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Axis 0 Rough and Drifty Not Canon

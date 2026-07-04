@@ -9,6 +9,9 @@ sources:
   - raw/articles/new-docs/ENGINE_MATH_REFERENCE.md
   - raw/articles/new-docs/CONSTRAINT_SURFACE_AND_PROCESS.md
 framing: mixed
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Fiber Bundles and Spin Geometry

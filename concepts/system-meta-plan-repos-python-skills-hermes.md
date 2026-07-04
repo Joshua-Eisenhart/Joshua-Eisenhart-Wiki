@@ -8,6 +8,9 @@ sources:
   - raw/articles/new-docs/archive_old/SYSTEM_META_PLAN__REPOS_PYTHON_SKILLS_HERMES.md
 framing: legacy
 priming: false
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # System Meta Plan -- Repos, Python, Skills, Hermes

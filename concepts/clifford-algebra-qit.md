@@ -8,6 +8,9 @@ sources:
   - raw/articles/new-docs/new content/clifford_algebra_qit.md
   - raw/articles/legacy-books/the-dark-empress-a-practical-guide-to-universal-dominion-v6-1-2.md
 framing: reference_support_snapshot
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Clifford Algebra in Quantum Information Theory

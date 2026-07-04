@@ -7,6 +7,9 @@ tags: [coupling, emergence, invariant, rosetta, simulation, mutual-information, 
 sources:
   - 13 coupling programs (see shell-local-to-coupled-program.md)
 framing: historical_candidate_invariant
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Universal Q-Product Form

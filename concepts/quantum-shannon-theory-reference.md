@@ -9,6 +9,9 @@ sources:
   - https://arxiv.org/abs/1511.06071v2
   - https://arxiv.org/abs/1308.4283v3
 framing: late_stage_reference_snapshot
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Quantum Shannon Theory

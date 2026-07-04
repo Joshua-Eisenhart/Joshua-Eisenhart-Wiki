@@ -7,6 +7,9 @@ framing: current
 tags: [audit, reference, research]
 sources:
   - raw/articles/new-docs/AUDIT_PLATONIC_RESIDUE_AND_GAPS.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Audit Platonic Residue And Gaps

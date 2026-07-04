@@ -7,6 +7,9 @@ tags: [reference, research, formal, constraints]
 sources:
   - raw/articles/new-docs/LADDERS_FENCES_ADMISSION_REFERENCE.md
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Ladders, Fences, and Admission: Reference

@@ -4,6 +4,9 @@ voice_tier: T4
 supersedes: 03_language_discipline.md, 16_dictionary.md, 19_grammar.md, 20_phrasebook.md
 sources_consolidated: concepts/nominalist-translation-rules.md, concepts/llm-bias-inversion-rules.md, concepts/nominalist-cs-framing.md, lev_reorientation_guide_v2.md Part V, Part V-A
 self_application: probes L1, L2, L3, L5, L7, L8 have run at write time; residual leaks flagged inline
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # TRANSLATION

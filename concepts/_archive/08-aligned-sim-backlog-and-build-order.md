@@ -7,6 +7,9 @@ framing: current
 tags: [reference, research, planning]
 sources:
   - raw/articles/new-docs/08_aligned_sim_backlog_and_build_order.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Aligned Sim Backlog and Build Order

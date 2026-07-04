@@ -9,6 +9,9 @@ sources:
   - raw/articles/new-docs/00_manifest.md
   - raw/articles/new-docs/03_source_notes.md
   - raw/articles/system-v5-reference-docs/Older Legacy/INTENT_SUMMARY copy.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # LLM Constraint Harness Wiki

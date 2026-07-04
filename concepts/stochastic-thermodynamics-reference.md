@@ -10,6 +10,9 @@ sources:
   - raw/articles/new-docs/references/INFORMATION_GEOMETRY_REFERENCE.md
   - /Users/joshuaeisenhart/wiki/raw/papers/open_access/meta/webui_deepresearch_candidate_sources_2026_04_10.json
 framing: mixed
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Stochastic Thermodynamics Reference

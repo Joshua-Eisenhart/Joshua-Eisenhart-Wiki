@@ -5,6 +5,9 @@ updated: 2026-04-28
 type: concept
 tags: [wizard, simulation, validation, qit, queue, receipt, status]
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Wizard Sim Admission Router

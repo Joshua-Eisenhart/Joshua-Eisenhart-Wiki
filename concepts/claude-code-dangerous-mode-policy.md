@@ -8,6 +8,9 @@ sources:
   - raw/articles/new-docs/archive_old/CLAUDE_CODE_DANGEROUS_MODE_POLICY.md
 framing: legacy
 priming: false
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Claude Code Dangerous Mode Policy

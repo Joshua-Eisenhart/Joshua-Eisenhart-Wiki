@@ -1,0 +1,359 @@
+From 6bc71f037fc57298a663b95ac7532356d078696a Mon Sep 17 00:00:00 2001
+From: Joshua-Eisenhart <40147598+Joshua-Eisenhart@users.noreply.github.com>
+Date: Wed, 1 Jul 2026 21:21:01 -0700
+Subject: [PATCH 2/3] fix(eval): harden cr_cross_engine_parity sensor to verify
+ real sim-eval content_address
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Audit found the sensor only checked the content_address PREFIX, while a
+real @lev-os/sim-eval provider computes an FNV-1a-32 hash and rejects
+mismatches — so the sensor was more permissive than the real validator
+on exactly the field a provider computes (a false-green hole). The
+sensor now recomputes the FNV-1a-32 content_address from the record and
+blocks on mismatch (content_address_mismatch), matching the real
+producer; verified it reproduces the real value sim-eval:fnv1a32:1840d25c.
+
+Fixtures regenerated with real content addresses (were hand-authored
+placeholders). New bad-address case: a record well-formed in every field
+except a wrong content_address must block. Load-bearing by mutation test
+(independent audit): neutralizing the hash check flips bad-address from
+block to pass, so the gate is what blocks it, not an incidental check.
+
+Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
+---
+ .../bad-address.eval.js                       |  27 +++++
+ .../companions/sensor.mjs                     |  64 ++++++++++-
+ ...obe-quotient-parity-adversarial.trace.json |   4 +-
+ ...obe-quotient-parity-bad-address.trace.json | 102 ++++++++++++++++++
+ ...be-quotient-parity-missing-lane.trace.json |   2 +-
+ .../probe-quotient-parity-pass.trace.json     |   4 +-
+ core/eval/src/cr-cross-engine-parity.test.ts  |   8 ++
+ 7 files changed, 204 insertions(+), 7 deletions(-)
+ create mode 100644 core/eval/evaluators/cr_cross_engine_parity/bad-address.eval.js
+ create mode 100644 core/eval/evaluators/cr_cross_engine_parity/fixtures/probe-quotient-parity-bad-address.trace.json
+
+diff --git a/core/eval/evaluators/cr_cross_engine_parity/bad-address.eval.js b/core/eval/evaluators/cr_cross_engine_parity/bad-address.eval.js
+new file mode 100644
+index 000000000..7d85ee646
+--- /dev/null
++++ b/core/eval/evaluators/cr_cross_engine_parity/bad-address.eval.js
+@@ -0,0 +1,27 @@
++export default {
++  id: 'cr-cross-engine-parity-bad-address-trace-eval',
++  target: './companions/sensor.mjs',
++  flowmind: './flows/measure.flow.yaml',
++  fixtures: {
++    trace: './fixtures/probe-quotient-parity-bad-address.trace.json',
++  },
++  greenChecks: [
++    'fixture keeps valid provider evidence shape and required engine lanes present',
++    'deterministic sensor recomputes provider evidence content_address before scoring parity',
++  ],
++  redChecks: [
++    'valid sim-eval content address prefix alone cannot create a false green',
++    'provider evidence with a mismatched content_address must block before numeric agreement is trusted',
++  ],
++  traceCases: [{
++    id: 'bad-content-address-provider-evidence-fixture',
++    claim: 'A provider record with a valid-looking but mismatched content_address remains provider evidence only and must block when scored.',
++    subjectFixture: 'trace',
++    expectations: {
++      schema: 'lev.cr_cross_engine_parity.trace.v1',
++      subject_ref: 'codex-ratchet:system_v7/sims/probe_quotient_fingerprint_floor_v1',
++      observable_name: 'quotient_class_count_full',
++      tolerance: 0,
++    },
++  }],
++};
+diff --git a/core/eval/evaluators/cr_cross_engine_parity/companions/sensor.mjs b/core/eval/evaluators/cr_cross_engine_parity/companions/sensor.mjs
+index e2d27f3c5..c1553eb1c 100644
+--- a/core/eval/evaluators/cr_cross_engine_parity/companions/sensor.mjs
++++ b/core/eval/evaluators/cr_cross_engine_parity/companions/sensor.mjs
+@@ -1,6 +1,10 @@
+ const PROVIDER_SCHEMA = 'lev.sim_eval.provider_evidence.v1';
+ const EVALUATOR_ID = 'cr_cross_engine_parity';
++const CONTENT_ADDRESS_PREFIX = 'sim-eval:fnv1a32:';
++const FNV_OFFSET = 0x811c9dc5;
++const FNV_PRIME = 0x01000193;
+ const REQUIRED_ENGINE_LANES = Object.freeze(['sim.julia', 'sim.jax']);
++const DEFAULT_OBSERVABLE_NAMES = Object.freeze([]);
+ const PROVIDER_LANE_IDS = Object.freeze([
+   'guard.compiled',
+   'sim.jax',
+@@ -63,6 +67,9 @@ export function score(input) {
+     if (!isProviderRecord(record)) {
+       return blocked('provider evidence is malformed');
+     }
++    if (!contentAddressMatches(record)) {
++      return blocked('provider evidence content_address_mismatch: content_address does not match recomputed FNV-1a-32');
++    }
+     if (!REQUIRED_ENGINE_LANES.includes(record.lane_id)) continue;
+     if (lanes.has(record.lane_id)) {
+       return blocked(`provider evidence has duplicate required lane ${record.lane_id}`);
+@@ -173,7 +180,7 @@ function observableNamesFrom(input) {
+     : typeof input.shared_observable_name === 'string'
+       ? input.shared_observable_name
+       : undefined;
+-  return typeof name === 'string' && name.trim() !== '' ? [name.trim()] : [];
++  return typeof name === 'string' && name.trim() !== '' ? [name.trim()] : [...DEFAULT_OBSERVABLE_NAMES];
+ }
+ 
+ function toleranceFrom(input) {
+@@ -201,7 +208,7 @@ function isProviderRecord(value) {
+     && hasText(value.requested_at)
+     && Number.isFinite(Date.parse(value.requested_at))
+     && hasText(value.content_address)
+-    && value.content_address.startsWith('sim-eval:fnv1a32:')
++    && value.content_address.startsWith(CONTENT_ADDRESS_PREFIX)
+     && Array.isArray(value.refs)
+     && value.refs.every(isEvidenceRef)
+     && Array.isArray(value.facts)
+@@ -214,6 +221,59 @@ function isProviderRecord(value) {
+     && providerStatusShapeIsValid(value);
+ }
+ 
++function contentAddressMatches(record) {
++  return record.content_address === contentAddressForEvidence(record);
++}
++
++function contentAddressForEvidence(evidence) {
++  const errorFields = errorFieldsForAddress(evidence);
++  const serialized = [
++    evidence.schema,
++    evidence.lane_id,
++    evidence.status,
++    evidence.subject_ref,
++    String(evidence.generation),
++    evidence.requested_at,
++    evidence.refs.map(formatEvidenceRef).join('\n'),
++    evidence.facts.map(formatFact).join('\n'),
++    evidence.provenance.source_package,
++    evidence.provenance.provider_id,
++    'command:null',
++    'bounded:true',
++    ...errorFields,
++  ].join('\u001f');
++
++  return `${CONTENT_ADDRESS_PREFIX}${fnv1a32(serialized)}`;
++}
++
++function errorFieldsForAddress(evidence) {
++  if (evidence.status === 'non_authoritative_input') {
++    return ['error:null'];
++  }
++  return [
++    evidence.error.reason_code,
++    evidence.error.detail,
++    'retryable:false',
++  ];
++}
++
++function fnv1a32(value) {
++  let hash = FNV_OFFSET;
++  for (let index = 0; index < value.length; index += 1) {
++    hash ^= value.charCodeAt(index);
++    hash = Math.imul(hash, FNV_PRIME);
++  }
++  return (hash >>> 0).toString(16).padStart(8, '0');
++}
++
++function formatEvidenceRef(ref) {
++  return `${ref.kind}:${ref.ref}`;
++}
++
++function formatFact(fact) {
++  return `${fact.name}:${String(fact.value)}`;
++}
++
+ function providerStatusShapeIsValid(value) {
+   if (value.status === 'non_authoritative_input') {
+     return !Object.hasOwn(value, 'error');
+diff --git a/core/eval/evaluators/cr_cross_engine_parity/fixtures/probe-quotient-parity-adversarial.trace.json b/core/eval/evaluators/cr_cross_engine_parity/fixtures/probe-quotient-parity-adversarial.trace.json
+index b8c00f768..f9edb2e77 100644
+--- a/core/eval/evaluators/cr_cross_engine_parity/fixtures/probe-quotient-parity-adversarial.trace.json
++++ b/core/eval/evaluators/cr_cross_engine_parity/fixtures/probe-quotient-parity-adversarial.trace.json
+@@ -11,7 +11,7 @@
+       "subject_ref": "codex-ratchet:system_v7/sims/probe_quotient_fingerprint_floor_v1",
+       "generation": 1,
+       "requested_at": "2026-07-01T20:46:03.000Z",
+-      "content_address": "sim-eval:fnv1a32:a11a0002",
++      "content_address": "sim-eval:fnv1a32:1840d25c",
+       "refs": [
+         {
+           "kind": "codex_ratchet_result_json",
+@@ -58,7 +58,7 @@
+       "subject_ref": "codex-ratchet:system_v7/sims/probe_quotient_fingerprint_floor_v1",
+       "generation": 1,
+       "requested_at": "2026-07-01T20:46:03.000Z",
+-      "content_address": "sim-eval:fnv1a32:b22b0002",
++      "content_address": "sim-eval:fnv1a32:379eb4ed",
+       "refs": [
+         {
+           "kind": "codex_ratchet_result_json",
+diff --git a/core/eval/evaluators/cr_cross_engine_parity/fixtures/probe-quotient-parity-bad-address.trace.json b/core/eval/evaluators/cr_cross_engine_parity/fixtures/probe-quotient-parity-bad-address.trace.json
+new file mode 100644
+index 000000000..346812159
+--- /dev/null
++++ b/core/eval/evaluators/cr_cross_engine_parity/fixtures/probe-quotient-parity-bad-address.trace.json
+@@ -0,0 +1,102 @@
++{
++  "schema": "lev.cr_cross_engine_parity.trace.v1",
++  "subject_ref": "codex-ratchet:system_v7/sims/probe_quotient_fingerprint_floor_v1",
++  "observable_name": "quotient_class_count_full",
++  "tolerance": 0,
++  "provider_evidence": [
++    {
++      "schema": "lev.sim_eval.provider_evidence.v1",
++      "lane_id": "sim.julia",
++      "status": "non_authoritative_input",
++      "subject_ref": "codex-ratchet:system_v7/sims/probe_quotient_fingerprint_floor_v1",
++      "generation": 1,
++      "requested_at": "2026-07-01T20:46:03.000Z",
++      "content_address": "sim-eval:fnv1a32:1840d25d",
++      "refs": [
++        {
++          "kind": "codex_ratchet_result_json",
++          "ref": "/Users/joshuaeisenhart/Codex-Ratchet/system_v7/sims/probe_quotient_fingerprint_floor_v1/results/probe_quotient_fingerprint_floor_v1_julia_results.json"
++        }
++      ],
++      "facts": [
++        {
++          "name": "sim_id",
++          "value": "probe_quotient_fingerprint_floor_v1"
++        },
++        {
++          "name": "quotient_class_count_full",
++          "value": 5
++        },
++        {
++          "name": "quotient_class_count_erased",
++          "value": 4
++        },
++        {
++          "name": "real_vs_erased_flip_confirmed",
++          "value": true
++        },
++        {
++          "name": "tautology_guard_tripped",
++          "value": false
++        },
++        {
++          "name": "negative_control_present",
++          "value": true
++        }
++      ],
++      "provenance": {
++        "source_package": "@lev-os/sim-eval",
++        "provider_id": "sim.julia",
++        "command": null,
++        "bounded": true
++      }
++    },
++    {
++      "schema": "lev.sim_eval.provider_evidence.v1",
++      "lane_id": "sim.jax",
++      "status": "non_authoritative_input",
++      "subject_ref": "codex-ratchet:system_v7/sims/probe_quotient_fingerprint_floor_v1",
++      "generation": 1,
++      "requested_at": "2026-07-01T20:46:03.000Z",
++      "content_address": "sim-eval:fnv1a32:901218ee",
++      "refs": [
++        {
++          "kind": "codex_ratchet_result_json",
++          "ref": "/Users/joshuaeisenhart/Codex-Ratchet/system_v7/sims/probe_quotient_fingerprint_floor_v1/results/probe_quotient_fingerprint_floor_v1_jax_results.json"
++        }
++      ],
++      "facts": [
++        {
++          "name": "sim_id",
++          "value": "probe_quotient_fingerprint_floor_v1"
++        },
++        {
++          "name": "quotient_class_count_full",
++          "value": 5
++        },
++        {
++          "name": "quotient_class_count_erased",
++          "value": 4
++        },
++        {
++          "name": "real_vs_erased_flip_confirmed",
++          "value": true
++        },
++        {
++          "name": "tautology_guard_tripped",
++          "value": false
++        },
++        {
++          "name": "negative_control_present",
++          "value": true
++        }
++      ],
++      "provenance": {
++        "source_package": "@lev-os/sim-eval",
++        "provider_id": "sim.jax",
++        "command": null,
++        "bounded": true
++      }
++    }
++  ]
++}
+diff --git a/core/eval/evaluators/cr_cross_engine_parity/fixtures/probe-quotient-parity-missing-lane.trace.json b/core/eval/evaluators/cr_cross_engine_parity/fixtures/probe-quotient-parity-missing-lane.trace.json
+index 3492bc4b5..6e25aaf26 100644
+--- a/core/eval/evaluators/cr_cross_engine_parity/fixtures/probe-quotient-parity-missing-lane.trace.json
++++ b/core/eval/evaluators/cr_cross_engine_parity/fixtures/probe-quotient-parity-missing-lane.trace.json
+@@ -11,7 +11,7 @@
+       "subject_ref": "codex-ratchet:system_v7/sims/probe_quotient_fingerprint_floor_v1",
+       "generation": 1,
+       "requested_at": "2026-07-01T20:46:03.000Z",
+-      "content_address": "sim-eval:fnv1a32:a11a0003",
++      "content_address": "sim-eval:fnv1a32:1840d25c",
+       "refs": [
+         {
+           "kind": "codex_ratchet_result_json",
+diff --git a/core/eval/evaluators/cr_cross_engine_parity/fixtures/probe-quotient-parity-pass.trace.json b/core/eval/evaluators/cr_cross_engine_parity/fixtures/probe-quotient-parity-pass.trace.json
+index 0222671b4..321cf05ba 100644
+--- a/core/eval/evaluators/cr_cross_engine_parity/fixtures/probe-quotient-parity-pass.trace.json
++++ b/core/eval/evaluators/cr_cross_engine_parity/fixtures/probe-quotient-parity-pass.trace.json
+@@ -11,7 +11,7 @@
+       "subject_ref": "codex-ratchet:system_v7/sims/probe_quotient_fingerprint_floor_v1",
+       "generation": 1,
+       "requested_at": "2026-07-01T20:46:03.000Z",
+-      "content_address": "sim-eval:fnv1a32:a11a0001",
++      "content_address": "sim-eval:fnv1a32:1840d25c",
+       "refs": [
+         {
+           "kind": "codex_ratchet_result_json",
+@@ -58,7 +58,7 @@
+       "subject_ref": "codex-ratchet:system_v7/sims/probe_quotient_fingerprint_floor_v1",
+       "generation": 1,
+       "requested_at": "2026-07-01T20:46:03.000Z",
+-      "content_address": "sim-eval:fnv1a32:b22b0001",
++      "content_address": "sim-eval:fnv1a32:901218ee",
+       "refs": [
+         {
+           "kind": "codex_ratchet_result_json",
+diff --git a/core/eval/src/cr-cross-engine-parity.test.ts b/core/eval/src/cr-cross-engine-parity.test.ts
+index 5442badd6..ca3c9bb50 100644
+--- a/core/eval/src/cr-cross-engine-parity.test.ts
++++ b/core/eval/src/cr-cross-engine-parity.test.ts
+@@ -86,6 +86,14 @@ describe('cr_cross_engine_parity evaluator pack', () => {
+     expect(result.measurements.variables.engines_present.value).toBe(false);
+     expect(result.reason).toContain('required provider lanes');
+   });
++
++  it('blocks provider evidence whose content address does not match its fields', async () => {
++    const result = await scoreFixture('probe-quotient-parity-bad-address.trace.json');
++
++    expect(result.passed).toBe(false);
++    expect(result.decision).toBe('block');
++    expect(result.reason).toContain('content_address_mismatch');
++  });
+ });
+ 
+ async function scoreFixture(name: string): Promise<ScoreResult> {
+-- 
+2.50.1 (Apple Git-155)
+

@@ -9,6 +9,9 @@ sources:
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v4/probes/sim_bures_geometry.py
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v4/probes/engine_graph_driven.py
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Geodesic Structure on State Space

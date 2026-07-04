@@ -17,6 +17,9 @@ blocked_or_never_run_status_inputs:
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/ops/blocked_reason_breakdown.json
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/ops/c4_divergence_log_proposals.json
 framing: source_present_status_conflicted_snapshot
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Tensor Network Substrate for Axis 0

@@ -8,6 +8,9 @@ framing: legacy
 tags: [reference, research, validation, system]
 sources:
   - raw/articles/system-v5-reference-docs/axes-0-6-and-constraint-manifold-explicit-atlas copy.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Axes 0 6 and Constraint Manifold Explicit Atlas Copy

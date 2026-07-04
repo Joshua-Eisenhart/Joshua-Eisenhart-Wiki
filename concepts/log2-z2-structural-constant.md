@@ -12,6 +12,9 @@ sources:
   - sim_gtower_sp6_symplectic_entropy (commit ba53d0f2)
   - sim_tn_gtower_bond_dimension (commit 0181d1e9)
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # log(2) as Z₂ Structural Constant

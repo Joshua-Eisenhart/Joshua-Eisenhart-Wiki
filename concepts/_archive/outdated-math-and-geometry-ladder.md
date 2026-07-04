@@ -8,6 +8,9 @@ tags: [reference, research, planning]
 sources:
   - raw/articles/system-v5-reference-docs/outdated-math-and-geometry-ladder.md
 framing: legacy
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Outdated Math and Geometry Ladder

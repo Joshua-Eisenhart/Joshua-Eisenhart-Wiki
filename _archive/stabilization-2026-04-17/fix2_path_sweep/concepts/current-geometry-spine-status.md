@@ -12,6 +12,9 @@ sources:
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/new docs/08_aligned_sim_backlog_and_build_order.md
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/new docs/plans/sim_backlog_matrix.md
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/new docs/plans/sim_truth_audit.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Current Geometry Spine Status

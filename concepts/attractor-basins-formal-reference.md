@@ -7,6 +7,9 @@ framing: dated_reference_snapshot
 tags: [reference, research, validation]
 sources:
   - raw/articles/new-docs/references/ATTRACTOR_BASINS_FORMAL_REFERENCE.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Attractor Basins Formal Reference

@@ -6,6 +6,9 @@ packet: v4.3
 type: concept
 tags: [wizard, boot-law, harness]
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Wizard Read First

@@ -11,6 +11,9 @@ sources:
   - raw/articles/system-v5-reference-docs/Older Legacy/INTENT_SUMMARY copy.md
   - raw/articles/system-v5-reference-docs/Older Legacy/MODEL_CONTEXT copy.md
   - raw/articles/legacy-books/leviathan-v3-2-word.txt
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Current Docs vs Legacy Framing

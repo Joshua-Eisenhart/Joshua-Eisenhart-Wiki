@@ -8,6 +8,9 @@ sources:
   - raw/articles/new-docs/new content/distance_metrics_state_space.md
   - https://arxiv.org/abs/1810.05583v5
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Distance Metrics on Quantum State Space

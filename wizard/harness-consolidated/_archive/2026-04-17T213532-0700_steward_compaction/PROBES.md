@@ -4,6 +4,9 @@ voice_tier: T4
 supersedes: 18_red_team_probes.md
 source: 18_red_team_probes.md expanded with lev_reorientation_guide_v2.md Part VI probe battery L1–L16
 self_application: this file has survived its own L1–L8 at write time; receipts inline
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # PROBES

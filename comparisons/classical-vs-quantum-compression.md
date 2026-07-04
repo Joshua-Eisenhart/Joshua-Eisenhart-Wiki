@@ -9,6 +9,9 @@ sources:
   - raw/articles/new-docs/new content/compression_math_density_matrix.md
   - raw/articles/new-docs/02_compression_to_density_matrix_map.md
   - raw/articles/new-docs/new content/quantum_computing_applications.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Classical vs Quantum Compression

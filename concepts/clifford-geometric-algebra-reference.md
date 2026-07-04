@@ -11,6 +11,9 @@ sources:
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/ops/formal_scouts/results/clifford_full_cl_1_3_gamma5_chirality_replacement_probe_results.json
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/ops/formal_scouts/results/finite_density_hopf_spinor_clifford_channel_structure_reduction_order_probe_results.json
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Clifford Geometric Algebra Reference

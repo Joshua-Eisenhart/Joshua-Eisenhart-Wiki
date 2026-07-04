@@ -7,6 +7,9 @@ tags: [reference, research, compression]
 sources:
   - raw/articles/new-docs/05_research_index.md
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Research Index: Compression Terms

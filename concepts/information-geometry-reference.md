@@ -12,6 +12,9 @@ sources:
   - https://arxiv.org/abs/1810.05583v5
   - https://arxiv.org/abs/1210.5071v1
 framing: mixed
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Information Geometry Reference

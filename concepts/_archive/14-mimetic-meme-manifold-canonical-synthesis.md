@@ -7,6 +7,9 @@ framing: archived_source_snapshot
 tags: [reference, research, system]
 sources:
   - raw/articles/new-docs/14_mimetic_meme_manifold_canonical_synthesis.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 Archived source-bundle snapshot. Any current/canonical/proven language here is

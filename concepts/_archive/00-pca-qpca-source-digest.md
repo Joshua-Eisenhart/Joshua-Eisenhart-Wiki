@@ -7,6 +7,9 @@ framing: current
 tags: [reference, research, system]
 sources:
   - raw/articles/new-docs/new content/preprocessed/00_pca_qpca_source_digest.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # 00 Pca Qpca Source Digest

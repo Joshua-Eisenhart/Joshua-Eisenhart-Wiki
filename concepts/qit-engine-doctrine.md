@@ -10,6 +10,9 @@ sources:
   - /Users/joshuaeisenhart/wiki/concepts/qit-engine-dev-technical-brief.md
   - /Users/joshuaeisenhart/wiki/concepts/why-qit-engines-need-exotic-geometry.md
   - /Users/joshuaeisenhart/wiki/concepts/qit-ai-foundations-bridge.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # QIT Engine Doctrine

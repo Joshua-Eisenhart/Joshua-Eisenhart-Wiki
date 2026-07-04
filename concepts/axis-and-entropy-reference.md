@@ -8,6 +8,9 @@ sources:
   - raw/articles/new-docs/AXIS_AND_ENTROPY_REFERENCE.md
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/docs/SIM_ESTATE_INTEGRATION_INDEX.md
 framing: mixed
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Axis And Entropy Reference

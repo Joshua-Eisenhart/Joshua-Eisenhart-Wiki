@@ -16,6 +16,9 @@ sources:
   - https://www.kongziyjy.org/en/nd.jsp?id=2929
   - https://summit.sfu.ca/_flysystem/fedora/sfu_migrate/8533/b31144524.pdf
 framing: mixed
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Process Philosophy and Relational Physics

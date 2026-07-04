@@ -6,6 +6,9 @@ type: concept
 tags: [wizard, mmm, packet, receipt]
 framing: current
 source_path: boot_rules/md/MAIN_AGENT_BOOT_RULES_v2_7.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # New Thread Positive MMM Boot Prompt v2.7

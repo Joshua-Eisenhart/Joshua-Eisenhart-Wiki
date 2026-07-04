@@ -10,6 +10,9 @@ sources:
   - https://arxiv.org/abs/hep-th/0404165v5
 framing: legacy
 priming: false
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Fiber Bundles And Spin Geometry Reference

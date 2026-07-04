@@ -7,6 +7,9 @@ tags: [reference, research, planning]
 sources:
   - raw/articles/new-docs/FALSIFICATION_SIM_DESIGNS.md
 framing: mixed
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Falsification Sim Designs

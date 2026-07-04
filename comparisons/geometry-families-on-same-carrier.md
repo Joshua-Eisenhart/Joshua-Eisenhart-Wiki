@@ -10,6 +10,9 @@ sources:
   - raw/articles/new-docs/07_model_math_geometry_sim_plan.md
   - raw/articles/new-docs/10_cross_domain_equivalence_map.md
   - raw/articles/new-docs/CONSTRAINT_ON_DISTINGUISHABILITY_FULL_MATH.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Geometry Families on the Same Carrier

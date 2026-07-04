@@ -8,6 +8,9 @@ sources:
   - raw/articles/new-docs/archive_hermes_overlaps/BOOT_PROMPTS_AND_READ_ORDER.md
 framing: legacy
 priming: false
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Boot Prompts And Read Order

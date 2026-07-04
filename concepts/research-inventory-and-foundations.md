@@ -9,6 +9,9 @@ sources:
   - raw/articles/new-docs/05_research_index.md
   - raw/articles/new-docs/08_aligned_sim_backlog_and_build_order.md
 framing: mixed
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Research Inventory and Foundational Findings

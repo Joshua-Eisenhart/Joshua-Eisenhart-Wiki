@@ -5,6 +5,9 @@ updated: 2026-04-29
 type: audit
 tags: [wizard, audit, voices, followup, output-contract]
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Wizard Voice Preservation Audit v3.3

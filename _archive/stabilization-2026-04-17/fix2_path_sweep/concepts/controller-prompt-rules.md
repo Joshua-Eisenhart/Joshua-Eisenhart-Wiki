@@ -10,6 +10,9 @@ sources:
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/new docs/LLM_CONTROLLER_CONTRACT.md
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v4/skills/llm_research_enforcement_validator.py
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Controller Prompt Rules

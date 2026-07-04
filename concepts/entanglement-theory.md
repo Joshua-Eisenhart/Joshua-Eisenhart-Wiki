@@ -10,6 +10,9 @@ sources:
   - raw/articles/new-docs/new content/quantum_information_measures.md
   - raw/articles/system-v5-reference-docs/Older Legacy/The Dark Empress-A Practical Guide to Universal Dominion V6.1 copy.md
 framing: mixed
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Entanglement Theory

@@ -9,6 +9,9 @@ sources:
   - raw/articles/new-docs/references/VIABILITY_THEORY_REFERENCE.md
   - raw/articles/new-docs/TIER_STATUS.md
   - raw/articles/new-docs/SIM_SESSION_INDEX.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Viability vs Attractor

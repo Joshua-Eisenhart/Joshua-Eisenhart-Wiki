@@ -8,6 +8,9 @@ tags: [reference, research, validation, system]
 sources:
   - raw/articles/system-v5-reference-docs/ENTROPIC_MONISM_ORIGIN_AND_COSMOLOGY copy.md
 framing: legacy
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Entropic Monism Origin and Cosmology Copy

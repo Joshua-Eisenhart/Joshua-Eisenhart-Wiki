@@ -11,6 +11,9 @@ spec_mirrors:
   - specs/codex-ratchet/formal-scout-readiness-status
   - specs/codex-ratchet/sim-estate-integration-status
   - specs/codex-ratchet/tool-function-receipt-status
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Tool Manifest Audit

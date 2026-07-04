@@ -9,6 +9,9 @@ sources:
   - raw/articles/system-v5-reference-docs/AXIS_0_1_2_QIT_MATH.md
   - raw/articles/new-docs/CONSTRAINT_ON_DISTINGUISHABILITY_FULL_MATH.md
   - raw/articles/new-docs/AXIS_AND_ENTROPY_REFERENCE.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Axis 0 1 2 QIT Packet

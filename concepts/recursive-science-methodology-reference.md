@@ -14,6 +14,9 @@ sources:
   - /Users/joshuaeisenhart/GitHub/leviathan/docs/ARCHITECTURE.md
   - /Users/joshuaeisenhart/GitHub/leviathan/docs/ROADMAP.md
 framing_note: Current support page extracting Leviathan's recursive scientific methodology in usable operational terms.
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Recursive Scientific Methodology Reference

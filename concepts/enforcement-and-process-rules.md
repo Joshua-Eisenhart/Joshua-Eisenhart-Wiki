@@ -6,6 +6,9 @@ framing: historical_contract_mirror
 updated: 2026-05-21
 spec_mirror: specs/codex-ratchet/enforcement-process-rules-current
 sources: ["/Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/docs/ENFORCEMENT_AND_PROCESS_RULES.md"]
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Enforcement and Process Rules

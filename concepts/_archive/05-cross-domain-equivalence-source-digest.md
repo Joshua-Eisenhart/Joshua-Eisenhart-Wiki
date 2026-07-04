@@ -7,6 +7,9 @@ tags: [reference, research, equivalence, digest]
 sources:
   - raw/articles/new-docs/new content/preprocessed/05_cross_domain_equivalence_source_digest.md
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Cross-Domain Equivalence Source Digest

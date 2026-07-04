@@ -8,6 +8,9 @@ sources:
   - raw/articles/new-docs/CONSTRAINT_ON_DISTINGUISHABILITY_FULL_MATH.md
   - raw/articles/new-docs/LADDERS_FENCES_ADMISSION_REFERENCE.md
 framing: mixed
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Constraint on Distinguishability

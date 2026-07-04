@@ -13,6 +13,9 @@ sources:
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/new docs/plans/sim_backlog_matrix.md
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/new docs/plans/sim_truth_audit.md
 framing_notes: "Parity here means wiki summaries are checked against current repo ledgers/queue/truth surfaces. It does not itself promote any result to canonical by process."
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Geometry Manifold Parity Audit

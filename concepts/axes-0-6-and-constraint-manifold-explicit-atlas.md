@@ -9,6 +9,9 @@ tags: [reference, research, validation, geometry]
 sources:
   - raw/articles/system-v5-reference-docs/AXES_0_6_AND_CONSTRAINT_MANIFOLD_EXPLICIT_ATLAS copy.md
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/docs/SIM_ESTATE_INTEGRATION_INDEX.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Axes 0 Through 6 And Constraint Manifold Explicit Atlas

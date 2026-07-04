@@ -4,7 +4,7 @@ Purpose: honest map of what survives vs deflates under the single-base deflation
 
 Status: active current evidence surface.
 
-Updated: 2026-06-04. This page already existed; the 2026-06-04 update keeps it as the non-duplicated deflation-map page.
+Updated: 2026-07-01 for carrier-routing wording. This page already existed; the 2026-06-04 update kept it as the non-duplicated deflation-map page.
 
 ## The deflation question
 
@@ -42,16 +42,16 @@ The cocycle is now the genuine topological result: a 3-construction global charg
 
 ## Current carrier stack (not PEPS3D)
 
-CTMRG/PEPSKit is **retired** — unreliable on structured tensors.
+Single-fused PEPS3D contraction is **retired** — CTMRG/PEPSKit is not globally retired, but must be kept inside nested 2D layers with contraction-error certificates.
 
 Current admissible carriers:
-- **Nested PEPS2D / Hopfield connection geometry** (PEPSKit + Hopfield, Julia) — L/R Weyl spinors live on nested Hopf-torus sheets, and the Hopfield/PEPS2D bonds form the connection surface itself. Geometry is read from plaquette holonomy, Laplacian spectrum, heat trace, curvature, and terrain/operator signatures. This replaced the old single-fused PEPS3D approach. **Claim ceiling: diagnostic scratch carrier, not formal repo admission yet** (repo authority still has stale PEPS3D admission language; see the explicit mismatch note in `.claude/workflows/work-out-layers.js`).
+- **Nested PEPS2D / Hopfield connection geometry** (PEPSKit + Hopfield, Julia) — L/R Weyl spinors live on nested Hopf-torus sheets, and the Hopfield/PEPS2D bonds form the connection surface itself. Geometry is read from plaquette holonomy, Laplacian spectrum, heat trace, curvature, and terrain/operator signatures. This replaced the old single-fused PEPS3D approach. **Claim ceiling: diagnostic scratch carrier, not formal repo admission yet** (older repo/wiki surfaces may still carry stale PEPS3D wording; read them through this carrier fence unless a newer authority surface says otherwise).
 - **ITensors-MPS** (Julia) — primary finite MPS for scale ladder work
 - **Exact dense + symmetry** (TensorKit, Julia) — primary exact for small systems
 - **QuantumClifford** — Clifford/anti-commuting/stabilizer levels
 - **Spinor-native quantum trajectories** (MCWF) — dissipative levels
 
-CTMRG works within each 2D layer. What's retired is CTMRG on a single fused 3D structured tensor — that gave inconsistent results.
+CTMRG works within each 2D layer. What is retired is using CTMRG as a single fused 3D structured-tensor contraction — that gave inconsistent results.
 
 All carriers require contraction-error certificates (Δ < effect, with a number, equal truncation for genuine and control).
 - **Julia + JAX** run in parallel as primary nonclassical engines.

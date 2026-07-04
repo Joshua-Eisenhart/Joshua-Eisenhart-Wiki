@@ -16,6 +16,9 @@ sources:
   - /Users/joshuaeisenhart/wiki/raw/papers/open_access/meta/eighth_batch_manifest.json
   - /Users/joshuaeisenhart/wiki/raw/papers/open_access/meta/citation_stub_queue.json
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # NotebookLM Reference Pack Intake

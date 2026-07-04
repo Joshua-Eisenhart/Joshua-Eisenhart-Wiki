@@ -10,6 +10,9 @@ sources:
   - /Users/joshuaeisenhart/wiki/concepts/constraint-on-distinguishability.md
   - /Users/joshuaeisenhart/wiki/concepts/llm-controller-contract.md
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # LLM Bias Inversion Rules

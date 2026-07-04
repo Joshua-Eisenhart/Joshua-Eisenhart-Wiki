@@ -11,6 +11,9 @@ sources:
   - concepts/docs-framing-map.md
   - concepts/tool-capability-sim-program.md
 framing_note: Concrete template for repeated Hermes wiki automation ticks. Use this to build cron prompts or manual bounded automation runs.
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Wiki Automation Tick Template

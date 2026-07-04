@@ -8,6 +8,9 @@ sources:
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v4/docs/THREAD_B_STACK_AUDIT.md
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v4/docs/CURRENT_AUTHORITATIVE_STACK_INDEX.md
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Thread B Stack Audit

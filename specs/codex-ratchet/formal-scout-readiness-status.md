@@ -1,7 +1,7 @@
 ---
 title: Formal Scout Readiness Status
 created: 2026-05-21
-updated: 2026-06-05
+updated: 2026-07-01
 type: status-mirror
 framing: dated_generated_index_snapshot
 generated_at: 2026-05-23T11:56:37.212338+00:00
@@ -124,7 +124,7 @@ These blockers are why readiness does not equal promotion.
 
 ## Validator-Failed Rows
 
-2026-06-04 carrier caveat: PEPS3D-named rows in this list are retained historical failed/quarantine receipt paths. They do not authorize PEPS3D/CTMRG as a current carrier; CTMRG/PEPS3D is retired as load-bearing per the 2026-06-03 handoff.
+2026-07-01 carrier caveat: PEPS3D-named rows in this list are retained historical failed/quarantine receipt paths. They do not authorize the retired single-fused PEPS3D contraction as a current carrier. CTMRG is not globally retired; it remains admissible inside nested 2D PEPSKit layers only when a current receipt carries contraction-error certificates.
 
 - `system_v5/ops/formal_scouts/results/chiral_trajectory_persistent_homology_readout_feature_probe_results.json`
 - `system_v5/ops/formal_scouts/results/engine_core_finite_boundary_axis0_fep_gradient_receipt_probe_results.json`

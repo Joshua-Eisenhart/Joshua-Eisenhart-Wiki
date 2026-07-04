@@ -11,6 +11,9 @@ sources:
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v4/probes/a2_state/sim_results/sim_rustworkx_cycle_basis_micro_results.json
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v4/probes/a2_state/sim_results/sim_fiber_base_loop_orientation_nodes_503_rustworkx_isolated_control_gap_survivor_classes_results.json
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Rustworkx Graph Algorithms Reference

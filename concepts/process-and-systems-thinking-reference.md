@@ -11,6 +11,9 @@ sources:
   - Saunders Mac Lane, Categories for the Working Mathematician (1998)
   - James Ladyman and Don Ross, Every Thing Must Go (2007)
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Process and Systems Thinking Reference

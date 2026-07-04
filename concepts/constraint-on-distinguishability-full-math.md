@@ -7,6 +7,9 @@ tags: [reference, research, formal, mathematics]
 sources:
   - raw/articles/new-docs/CONSTRAINT_ON_DISTINGUISHABILITY_FULL_MATH.md
 framing: source_bundle_math_reference
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Constraint On Distinguishability: Full Mathematical Treatment

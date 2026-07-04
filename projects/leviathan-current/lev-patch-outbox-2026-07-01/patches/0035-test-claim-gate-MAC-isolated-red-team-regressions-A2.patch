@@ -1,0 +1,437 @@
+From 61a429532ca7720ebe0a39aaed63fd7041433c39 Mon Sep 17 00:00:00 2001
+From: Joshua-Eisenhart <40147598+Joshua-Eisenhart@users.noreply.github.com>
+Date: Wed, 1 Jul 2026 16:24:42 -0700
+Subject: [PATCH 35/35] test(claim-gate): MAC-isolated red-team regressions
+ (A22d/A23c/A6c)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+A load-bearing audit + real mutation test found three MAC red-team
+tests were DECORATIVE: their forged ledger entries died at an earlier
+structural check (wrong claimCeiling / missing nonce) and never reached
+the MAC comparison — neutralizing the MAC left A22c/A23b/A6 still green.
+Added MAC-isolated companions that plant an entry well-formed in EVERY
+field (correct kind/claimCeiling/authority/nonce + payloadHash that
+genuinely equals sha256(payload)) with ONLY the mac bytes wrong, so the
+final timingSafeHexEqual is the only thing that can reject it.
+
+Verified load-bearing by mutation (independent of the author): with the
+MAC neutralized, A22d flips to failing (guard claim-gate-loop.ts:325)
+and A23c flips (proof/claim-gate-loop.ts:3109), while the old decorative
+A22c/A23b still pass. Guards restored; redteam suite 21/21.
+
+Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
+---
+ .../proof/claim-gate-redteam-targets.test.ts  | 346 +++++++++++++++++-
+ 1 file changed, 343 insertions(+), 3 deletions(-)
+
+diff --git a/core/orchestration/src/proof/claim-gate-redteam-targets.test.ts b/core/orchestration/src/proof/claim-gate-redteam-targets.test.ts
+index bc60e6053..93ee7314f 100644
+--- a/core/orchestration/src/proof/claim-gate-redteam-targets.test.ts
++++ b/core/orchestration/src/proof/claim-gate-redteam-targets.test.ts
+@@ -34,7 +34,7 @@ function makeTempRoot(name: string): string {
+ }
+ 
+ function stableStringify(value: unknown): string {
+-  if (value === null || typeof value !== 'object') return JSON.stringify(value);
++  if (value === null || typeof value !== 'object') return JSON.stringify(value) ?? 'null';
+   if (Array.isArray(value)) return `[${value.map(stableStringify).join(',')}]`;
+   const record = value as Record<string, unknown>;
+   return `{${Object.keys(record).sort().map((key) => `${JSON.stringify(key)}:${stableStringify(record[key])}`).join(',')}}`;
+@@ -48,6 +48,103 @@ function sha256Ref(value: unknown): string {
+   return `sha256:${sha256(value)}`;
+ }
+ 
++function steeringStableStringify(value: unknown): string {
++  if (value === undefined) return '"__undefined__"';
++  if (value === null || typeof value !== 'object') return JSON.stringify(value) ?? '"__undefined__"';
++  if (Array.isArray(value)) return `[${value.map(steeringStableStringify).join(',')}]`;
++  const record = value as Record<string, unknown>;
++  return `{${Object.keys(record).sort().map((key) => `${JSON.stringify(key)}:${steeringStableStringify(record[key])}`).join(',')}}`;
++}
++
++function steeringSha256(value: unknown): string {
++  return createHash('sha256').update(steeringStableStringify(value)).digest('hex');
++}
++
++function wrongHmacSha256(): string {
++  return `hmac-sha256:${'0'.repeat(64)}`;
++}
++
++function flipHmacSha256(mac: string): string {
++  expect(mac).toMatch(/^hmac-sha256:[0-9a-f]{64}$/i);
++  const hex = mac.slice('hmac-sha256:'.length).toLowerCase();
++  return `hmac-sha256:${hex[0] === '0' ? '1' : '0'}${hex.slice(1)}`;
++}
++
++function hostTrustedEvidenceRefPayload(entry: Record<string, unknown>) {
++  return {
++    kind: entry.kind,
++    claimCeiling: entry.claimCeiling,
++    authority: entry.authority,
++    ref: entry.ref,
++    nonce: entry.nonce,
++    issuedAt: entry.issuedAt,
++  };
++}
++
++function graphPatchExecutionData(result: Record<string, unknown>): Record<string, unknown> {
++  return result.data && typeof result.data === 'object' && !Array.isArray(result.data)
++    ? result.data as Record<string, unknown>
++    : result;
++}
++
++function graphPatchExecutionTrustPayload(result: Record<string, unknown>) {
++  const data = graphPatchExecutionData(result);
++  const errors = [
++    ...(Array.isArray(result.errors) ? result.errors : []),
++    ...(Array.isArray(data.errors) ? data.errors : []),
++  ];
++  return {
++    success: data.success ?? result.success,
++    status: data.status ?? result.status,
++    applied: data.applied ?? result.applied,
++    applyPlanReceiptId: data.apply_plan_receipt_id
++      ?? data.applyPlanReceiptId
++      ?? result.apply_plan_receipt_id
++      ?? result.applyPlanReceiptId,
++    graphEventId: data.graph_event_id ?? data.graphEventId ?? result.graph_event_id ?? result.graphEventId,
++    ...(errors.length > 0 ? { errors } : {}),
++  };
++}
++
++function graphPatchExecutionTrustHash(result: Record<string, unknown>): string {
++  return sha256Ref(graphPatchExecutionTrustPayload(result));
++}
++
++function hostGraphEventTrustPayload(entry: Record<string, unknown>) {
++  return {
++    kind: entry.kind,
++    claimCeiling: entry.claimCeiling,
++    authority: entry.authority,
++    graphEventId: entry.graphEventId,
++    applyPlanReceiptId: entry.applyPlanReceiptId,
++    graphResultHash: entry.graphResultHash,
++    operationCount: entry.operationCount,
++    sessionId: entry.sessionId,
++    ...(entry.workstreamId ? { workstreamId: entry.workstreamId } : {}),
++    nonce: entry.nonce,
++    issuedAt: entry.issuedAt,
++  };
++}
++
++function hostWitnessSignedPayload(witness: Record<string, unknown>) {
++  return {
++    kind: witness.kind,
++    claimCeiling: witness.claimCeiling,
++    authority: witness.authority,
++    runId: witness.runId,
++    sourceRunDir: witness.sourceRunDir,
++    proofSpecId: witness.proofSpecId,
++    evalJobId: witness.evalJobId,
++    outputReceiptId: witness.outputReceiptId,
++    projectedVerdict: witness.projectedVerdict,
++    recomputedVerdict: witness.recomputedVerdict,
++    sourceFileHashes: witness.sourceFileHashes,
++    hostProofExecution: witness.hostProofExecution ?? null,
++    nonce: witness.nonce,
++    issuedAt: witness.issuedAt,
++  };
++}
++
+ function writeSourceBoundGateEvidence(
+   root: string,
+   gateId: 'object_binding' | 'evidence_manifest' | 'falsifier',
+@@ -117,6 +214,85 @@ function writeSteeringRun(root: string, runId: string, verdict: 'pass' | 'fail'
+   return runDir;
+ }
+ 
++const INTERNAL_CLAIMGATE_GATES = [
++  'claim_card_validity',
++  'effect_envelope_validity',
++  'object_binding',
++  'self_attestation_policy',
++  'scope',
++  'evidence',
++  'evidence_manifest',
++  'signed_manifest_gate',
++  'required_checks',
++  'falsifier',
++  'overclaim',
++  'risk_policy',
++  'rerun_commands',
++  'hashes',
++] as const;
++
++function writeInternalGateSteeringRun(root: string, runId: string, targetFiles: string[]): string {
++  const runDir = join(root, runId);
++  mkdirSync(runDir, { recursive: true });
++  const generatedAt = new Date().toISOString();
++  const receiptId = `claim-receipt-${runId}`;
++  const suiteId = `claimgate.${runId}`;
++  const targetRef = `claimgate.${runId}`;
++  const proofObligations = INTERNAL_CLAIMGATE_GATES.map((gateId) => ({
++    obligationId: `obl-claimgate-${gateId}`,
++    constraintId: `claimgate.${gateId}`,
++    shellCheck: `claimgate internal gate ${gateId}`,
++    expectedResult: 'exit_zero',
++    actualResult: {
++      status: 'passed',
++      elapsedMs: 1,
++      verifierVersion: 'redteam/1.0',
++    },
++  }));
++  const output = {
++    verdict: 'pass',
++    evidence: proofObligations.map((obligation) => obligation.actualResult),
++    receiptId,
++  };
++  const proofSpec = {
++    specId: `ps-claimgate-${runId}`,
++    targetRef,
++    constraintPackId: suiteId,
++    proofObligations,
++    proofStrategy: 'compiled_guard',
++    generatedAt,
++  };
++  const evalJob = {
++    jobId: `ej-claimgate-${runId}`,
++    jobClass: 'eval',
++    targetRef,
++    proofSpecId: proofSpec.specId,
++    constraintPackId: suiteId,
++    inputReceiptIds: [receiptId],
++    output,
++  };
++
++  writeFileSync(join(runDir, 'run.json'), `${JSON.stringify({
++    run_id: runId,
++    suite_id: suiteId,
++    target_ref: targetRef,
++    claim_ceiling: 'adapter_partial',
++    release_admission_allowed: false,
++  }, null, 2)}\n`);
++  writeFileSync(join(runDir, 'proof-spec.json'), `${JSON.stringify(proofSpec, null, 2)}\n`);
++  writeFileSync(join(runDir, 'eval-job.json'), `${JSON.stringify(evalJob, null, 2)}\n`);
++  writeFileSync(join(runDir, 'eval-job-output.json'), `${JSON.stringify(output, null, 2)}\n`);
++  writeFileSync(join(runDir, 'boundary.json'), `${JSON.stringify({
++    status: 'adapter_projection_only',
++    live_lev_consumed: false,
++    claim_ceiling: 'adapter_partial',
++    release_admission_allowed: false,
++    required_host_receipt_fields: ['contentHash', 'sourceFileHashes'],
++    target_files: targetFiles,
++  }, null, 2)}\n`);
++  return runDir;
++}
++
+ function testWaveContract() {
+   return {
+     owner: 'claim-gate-redteam-targets',
+@@ -399,6 +575,48 @@ describe('ClaimGate red-team target regressions', () => {
+     }
+   }, 20_000);
+ 
++  it('A6c: a well-formed host witness with only forged MAC bytes cannot cross the host boundary', () => {
++    const root = makeTempRoot('a6-mac-isolated-witness');
++    try {
++      const runDir = writeInternalGateSteeringRun(root, 'a6-mac-isolated-witness-run', [
++        'core/orchestration/src/proof/claim-gate-steering-run.ts',
++      ]);
++      const hostWitnessLedgerPath = join(root, 'host-witnesses.jsonl');
++      const issued = consumeClaimGateSteeringRunWithHostWitness({
++        runDir,
++        writeReceipt: false,
++        hostWitnessLedgerPath,
++      });
++      expect(issued.status, JSON.stringify(issued.findings, null, 2)).toBe('host_consumed');
++
++      const validWitness = JSON.parse(readFileSync(hostWitnessLedgerPath, 'utf8').trim()) as Record<string, unknown>;
++      const signedPayload = hostWitnessSignedPayload(validWitness);
++      expect(validWitness.witnessPayloadHash).toBe(steeringSha256(signedPayload));
++
++      const forgedWitness = {
++        ...validWitness,
++        mac: flipHmacSha256(String(validWitness.mac)),
++      };
++      expect(forgedWitness.mac).toMatch(/^hmac-sha256:[0-9a-f]{64}$/);
++      writeFileSync(hostWitnessLedgerPath, `${JSON.stringify(forgedWitness)}\n`);
++
++      // Isolates claim-gate-steering-run.ts:1192 hostWitnessMac + macEqual/timingSafeEqual.
++      const result = consumeClaimGateSteeringRun({
++        runDir,
++        writeReceipt: false,
++        hostWitnessLedgerPath,
++      });
++
++      expect(result.status).toBe('host_blocked');
++      expect(result.ok).toBe(false);
++      expect(result.findings.filter((finding) => finding.severity === 'error').map((finding) => finding.code)).toEqual([
++        'host_witness.invalid_mac',
++      ]);
++    } finally {
++      rmSync(root, { recursive: true, force: true });
++    }
++  });
++
+   it('A6b: a host witness is stale after source projection bytes change', () => {
+     const root = makeTempRoot('a6-stale-source');
+     try {
+@@ -578,6 +796,77 @@ describe('ClaimGate red-team target regressions', () => {
+     }
+   });
+ 
++  it('A22d: well-formed host trust ledger refs with only forged MAC bytes cannot mint trust', async () => {
++    const root = makeTempRoot('a22d-cli-ledger-mac-isolated');
++    const previous = process.env.LEV_PROJECT_ROOT;
++    process.env.LEV_PROJECT_ROOT = root;
++    try {
++      const contextDir = join(root, '.lev', 'context');
++      mkdirSync(contextDir, { recursive: true });
++      const forgedEntry = {
++        kind: 'ClaimGateHostTrustedEvidenceRef',
++        claimCeiling: 'host_trusted_evidence_ref_not_transferable_authority',
++        authority: 'lev_host_claim_gate_trust_issuer',
++        ref: 'receipt:rcpt-object-bound',
++        nonce: '0123456789abcdef0123456789abcdef',
++        issuedAt: '2026-07-01T00:00:00.000Z',
++        payloadHash: '',
++        mac: wrongHmacSha256(),
++      };
++      const payload = hostTrustedEvidenceRefPayload(forgedEntry);
++      forgedEntry.payloadHash = sha256(payload);
++      expect(forgedEntry.payloadHash).toBe(sha256(payload));
++      expect(forgedEntry.mac).toMatch(/^hmac-sha256:[0-9a-f]{64}$/);
++      writeFileSync(join(contextDir, 'claim-gate-host-trust.jsonl'), `${JSON.stringify(forgedEntry)}\n`);
++
++      const input = join(root, 'council-wave.json');
++      writeFileSync(
++        input,
++        `${JSON.stringify({
++          kind: 'ClaimGateCouncilWaveInput',
++          sessionId: 'claim-gate-redteam-a22d',
++          waves: [
++            {
++              wave: 1,
++              contract: testWaveContract(),
++              claims: [
++                {
++                  claimId: 'CLI_FORGED_LEDGER_TRUST_MAC_ISOLATED',
++                  payload: 'caller plants a structurally valid host trust ledger line with bad MAC bytes',
++                  gateChecks: [
++                    { gateId: 'object_binding', status: 'pass', evidenceRefs: ['receipt:rcpt-object-bound'] },
++                    { gateId: 'evidence_manifest', status: 'pass', evidenceRefs: ['receipt:rcpt-manifest-bound'] },
++                    { gateId: 'falsifier', status: 'pass', evidenceRefs: ['receipt:rcpt-falsifier-bound'] },
++                  ],
++                },
++              ],
++            },
++          ],
++        }, null, 2)}\n`,
++      );
++
++      // Isolates handlers/claim-gate-loop.ts:325 timingSafeHexEqual(entry.mac, hostTrustMac(payload)).
++      const response = await claimGateLoopHandler([
++        'consume',
++        input,
++        '--host-trusted-evidence-ref',
++        'receipt:rcpt-object-bound',
++      ]);
++
++      expect(response.success).toBe(false);
++      expect(response.error_code).toBe('CALLER_SUPPLIED_HOST_TRUST_DISABLED');
++      expect(response.formatted_response).toContain('host trust ref not issued');
++      expect(response.formatted_response).toContain('receipt:rcpt-object-bound');
++    } finally {
++      if (previous === undefined) {
++        delete process.env.LEV_PROJECT_ROOT;
++      } else {
++        process.env.LEV_PROJECT_ROOT = previous;
++      }
++      rmSync(root, { recursive: true, force: true });
++    }
++  });
++
+   it('A15: producer-authored falsifier closure is withheld when the host still has open falsifiers', () => {
+     const root = makeTempRoot('a15-falsifier-forgery');
+     try {
+@@ -706,6 +995,57 @@ describe('ClaimGate red-team target regressions', () => {
+     }
+   });
+ 
++  it('A23c: well-formed graph-event trust ledger entries with only forged MAC bytes cannot mint graphMutationApplied', () => {
++    const root = makeTempRoot('a23c-graph-event-mac-isolated');
++    try {
++      const result = acceptedFixtureLoopResult();
++      const admission = consumeClaimGateGraphPatchProposal(result);
++      const applyPlan = buildClaimGateGraphPatchApplyPlan(result, admission);
++      const graphResult = {
++        success: true,
++        status: 'applied',
++        applied: applyPlan.operationCount,
++        apply_plan_receipt_id: applyPlan.receipt.id,
++        graph_event_id: 'ge-redteam-a23c-forged-mac-only',
++      };
++      const forgedEntry = {
++        kind: 'ClaimGateHostGraphEventTrust',
++        claimCeiling: 'host_graph_event_trust_not_transferable_authority',
++        authority: 'lev_host_graph_patch_executor',
++        graphEventId: graphResult.graph_event_id,
++        applyPlanReceiptId: applyPlan.receipt.id,
++        graphResultHash: graphPatchExecutionTrustHash(graphResult),
++        operationCount: applyPlan.operationCount,
++        sessionId: `${applyPlan.sessionId}-graph-execution`,
++        nonce: 'fedcba9876543210fedcba9876543210',
++        issuedAt: '2026-07-01T00:00:00.000Z',
++        payloadHash: '',
++        mac: wrongHmacSha256(),
++      };
++      const payload = hostGraphEventTrustPayload(forgedEntry);
++      forgedEntry.payloadHash = sha256Ref(payload);
++      expect(forgedEntry.graphResultHash).toBe(graphPatchExecutionTrustHash(graphResult));
++      expect(forgedEntry.payloadHash).toBe(sha256Ref(payload));
++      expect(forgedEntry.mac).toMatch(/^hmac-sha256:[0-9a-f]{64}$/);
++      const ledgerPath = join(root, 'claim-gate-graph-event-trust.jsonl');
++      writeFileSync(ledgerPath, `${JSON.stringify(forgedEntry)}\n`);
++
++      // Isolates proof/claim-gate-loop.ts:3109 timingSafeHexEqual(entry.mac, expectedMac).
++      const execution = recordClaimGateGraphPatchExecution(
++        applyPlan,
++        graphResult,
++        { hostGraphEventTrustLedgerPath: ledgerPath },
++      );
++
++      expect(execution.status).toBe('graph_patch_blocked');
++      expect(execution.ok).toBe(false);
++      expect(execution.graphMutationApplied).toBe(false);
++      expect(execution.findings.map((finding) => finding.code)).toContain('graph_execution.graph_event_untrusted');
++    } finally {
++      rmSync(root, { recursive: true, force: true });
++    }
++  });
++
+   it('A19: neutral-path stale carrier override is rejected outside the Lev-owned carrier root', () => {
+     const root = makeTempRoot('a19-stale-carrier');
+     const staleCarrier = join(root, 'looks-neutral-carrier');
+@@ -801,7 +1141,7 @@ describe('ClaimGate red-team target regressions', () => {
+ 
+   it('records current target-id coverage without claiming literal A1-A24 closure', () => {
+     const locallyExecutableInThisSuite = ['A3', 'A6', 'A7', 'A10', 'A12', 'A14', 'A15', 'A19', 'A20', 'A22', 'A23'];
+-    const locallyExecutableVariants = ['A22c', 'A23b'];
++    const locallyExecutableVariants = ['A6c', 'A22c', 'A22d', 'A23b', 'A23c'];
+     const explicitGraphSuiteCoverage = ['A1', 'A2', 'A4', 'A5', 'A8', 'A9', 'A11'];
+     const companionWizardSuiteCoverage = ['A16', 'A18', 'A24'];
+     const stillNeedsDedicatedAttackImplementation: string[] = [];
+@@ -813,7 +1153,7 @@ describe('ClaimGate red-team target regressions', () => {
+       ...companionWizardSuiteCoverage,
+       ...stillNeedsDedicatedAttackImplementation,
+     ]).size).toBe(21);
+-    expect(locallyExecutableVariants).toEqual(['A22c', 'A23b']);
++    expect(locallyExecutableVariants).toEqual(['A6c', 'A22c', 'A22d', 'A23b', 'A23c']);
+     expect(explicitGraphSuiteCoverage).toEqual(['A1', 'A2', 'A4', 'A5', 'A8', 'A9', 'A11']);
+     expect(companionWizardSuiteCoverage).toEqual(['A16', 'A18', 'A24']);
+     expect(stillNeedsDedicatedAttackImplementation).toEqual([]);
+-- 
+2.50.1 (Apple Git-155)
+

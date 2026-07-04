@@ -11,6 +11,9 @@ sources:
   - raw/articles/system-v5-reference-docs/Older Legacy/Leviathan v3.2 word.txt
 framing: legacy
 priming: false
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Emotional Evolution Personality System

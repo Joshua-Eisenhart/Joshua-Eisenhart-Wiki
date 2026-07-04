@@ -3,6 +3,9 @@ title: v3.4 → v3.3 Rollback Runbook
 created: 2026-04-29
 type: cutover-record
 tags: [wizard, cutover, rollback, v3.4, v3.3]
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # v3.4 → v3.3 Rollback Runbook

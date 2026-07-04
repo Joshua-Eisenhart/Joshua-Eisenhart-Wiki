@@ -5,6 +5,9 @@ updated: 2026-04-29
 type: validation
 tags: [wizard, validation, voices, followup, collapse-test]
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Wizard Voice and Follow-up Collapse Test v3.3

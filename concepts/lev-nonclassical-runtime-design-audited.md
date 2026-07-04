@@ -8,6 +8,9 @@ tags: [reference, research, validation, system]
 sources:
   - raw/articles/system-v5-reference-docs/lev_nonclassical_runtime_design_audited.md
 framing: mixed
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Lev Nonclassical Runtime Design Audited

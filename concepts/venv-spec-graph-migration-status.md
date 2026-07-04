@@ -14,6 +14,9 @@ spec_mirrors:
   - /Users/joshuaeisenhart/wiki/specs/codex-ratchet/process-contract-mirror-index.md
   - /Users/joshuaeisenhart/wiki/specs/codex-ratchet/tool-function-receipt-status.md
 framing: duplicate_historical_stub
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Venv Spec Graph Migration Status

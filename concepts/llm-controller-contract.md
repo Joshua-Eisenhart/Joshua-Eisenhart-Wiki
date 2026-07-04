@@ -6,6 +6,9 @@ framing: historical_contract_mirror
 updated: 2026-05-21
 spec_mirror: specs/codex-ratchet/llm-controller-contract-current
 sources: ["/Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/docs/LLM_CONTROLLER_CONTRACT.md"]
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # LLM Controller Contract

@@ -4,6 +4,9 @@ voice_tier: T4
 supersedes: 13_mandatory_pushback.md
 source: 13_mandatory_pushback.md (prior version slipped on own causal-verb rule; corrected here)
 self_application: L1–L8 run at write time; zero assertion-context banned-verb hits
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # PUSHBACK

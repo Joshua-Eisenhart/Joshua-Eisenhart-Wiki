@@ -9,6 +9,9 @@ sources:
   - raw/articles/new-docs/new content/entanglement_theory.md
   - raw/articles/new-docs/new content/density_matrix_mathematics.md
 framing: mixed
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Schmidt Decomposition Bipartite

@@ -10,6 +10,9 @@ sources:
   - Goodman, Ways of Worldmaking (1978)
   - Putnam, The Many Faces of Realism (1987)
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Translation Methodology Reference

@@ -10,6 +10,9 @@ sources:
   - Mitchell and Krakauer, The Debate Over Understanding in AI's Large Language Models (2023)
   - Milliere, Language Models as Models of Language (2023)
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # LLM Ontology Smuggling Reference

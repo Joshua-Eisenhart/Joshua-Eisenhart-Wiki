@@ -17,6 +17,9 @@ sources:
   - /Users/joshuaeisenhart/wiki/raw/papers/open_access/meta/citation_stub_queue.json
   - /Users/joshuaeisenhart/wiki/raw/papers/open_access/meta/webui_deepresearch_candidate_sources_2026_04_10.json
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Research Source Coverage Index

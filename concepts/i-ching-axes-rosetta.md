@@ -14,6 +14,9 @@ sources:
   - https://summit.sfu.ca/_flysystem/fedora/sfu_migrate/8533/b31144524.pdf
 framing: legacy
 priming: false
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # I Ching Axes Rosetta

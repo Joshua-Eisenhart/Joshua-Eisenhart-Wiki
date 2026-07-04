@@ -9,6 +9,9 @@ sources:
   - raw/articles/new-docs/new content/density_matrix_mathematics.md
   - raw/articles/new-docs/references/DISTINGUISHABILITY_FORMAL_REFERENCE.md
 framing: mixed
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # CPTP Maps and Quantum Channels

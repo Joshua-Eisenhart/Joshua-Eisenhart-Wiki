@@ -13,6 +13,9 @@ sources:
   - /Users/joshuaeisenhart/GitHub/leviathan/docs/ROADMAP.md
 framing: current
 framing_note: Current dev-facing bridge page. Restates the legacy graph/intent lane in cleaner runtime terms for JP/CS handoff without promoting the legacy prompt itself to repo contract status.
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Graph-Driven Intent Runtime

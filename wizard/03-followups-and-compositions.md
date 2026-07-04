@@ -5,6 +5,9 @@ updated: 2026-05-06
 type: reference
 packet: v4.1
 framing: reference
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Wizard Follow-Ups and Compositions

@@ -1,0 +1,510 @@
+From 50b55734087898724058e1d349f8df93b7ec7441 Mon Sep 17 00:00:00 2001
+From: Joshua-Eisenhart <40147598+Joshua-Eisenhart@users.noreply.github.com>
+Date: Tue, 30 Jun 2026 16:47:16 -0700
+Subject: [PATCH 09/35] feat(claim-gate): continue WaveRun from repair runtime
+
+---
+ .../src/handlers/claim-gate-loop.test.ts      | 185 ++++++++++++++
+ .../src/handlers/claim-gate-loop.ts           | 229 ++++++++++++++++++
+ 2 files changed, 414 insertions(+)
+
+diff --git a/core/orchestration/src/handlers/claim-gate-loop.test.ts b/core/orchestration/src/handlers/claim-gate-loop.test.ts
+index 3cef38e7b..b42583edc 100644
+--- a/core/orchestration/src/handlers/claim-gate-loop.test.ts
++++ b/core/orchestration/src/handlers/claim-gate-loop.test.ts
+@@ -241,6 +241,191 @@ describe('claim-gate-loop handler', () => {
+     }
+   });
+ 
++  it('continues a blocked WaveRun from a sealed repair-dispatch runtime output', async () => {
++    const root = makeTempDir('wave-run-continue');
++    try {
++      writeHostTrustLedger(root);
++      const input = join(root, 'wave-run.json');
++      const firstOut = join(root, 'wave-run-result-first.json');
++      const runtimeOut = join(root, 'repair-runtime.json');
++      const continuedOut = join(root, 'wave-run-result-continued.json');
++      writeFileSync(
++        input,
++        `${JSON.stringify({
++          kind: 'ClaimGateWaveRunInput',
++          sessionId: 'claim-gate-loop-handler-wave-run-continue-test',
++          initial: {
++            kind: 'ClaimGateCouncilWaveInput',
++            sessionId: 'claim-gate-loop-handler-wave-run-continue-test',
++            maxWaves: 1,
++            waves: [
++              {
++                wave: 1,
++                contract: testWaveContract(),
++                members: [
++                  {
++                    memberId: 'failure.premortem',
++                    kind: 'premortem',
++                    role: 'failure premortem lane',
++                    skillRefs: ['skill:premortem'],
++                    cognitiveBinding: testCognitiveBinding(['skill:premortem'], ['source:handler-wave-run-continue']),
++                  },
++                ],
++                claims: [
++                  {
++                    claimId: 'REPAIR_ME',
++                    payload: 'candidate missing evidence manifest',
++                    memberId: 'failure.premortem',
++                    gateChecks: [
++                      { gateId: 'object_binding', status: 'pass', evidenceRefs: ['receipt:rcpt-object-bound'] },
++                      { gateId: 'evidence_manifest', status: 'fail', evidenceRefs: ['artifact:missing'] },
++                      { gateId: 'falsifier', status: 'pass', evidenceRefs: ['receipt:rcpt-falsifier-a'] },
++                    ],
++                  },
++                ],
++              },
++            ],
++          },
++        }, null, 2)}\n`,
++      );
++
++      const first = await handler(['wave-run', input, '--out', firstOut]);
++      expect(first.success).toBe(false);
++      const previous = JSON.parse(readFileSync(firstOut, 'utf8'));
++      const dispatchPlan = previous.dispatchPlans[0];
++      const dispatchRequest = dispatchPlan.dispatchRequests[0];
++      const repairPlan = previous.repairPlans[0];
++      writeFileSync(
++        runtimeOut,
++        `${JSON.stringify({
++          kind: 'ClaimGateRepairDispatchRuntimeRun',
++          sourceRepairDispatchPlanReceiptId: dispatchPlan.receipt.id,
++          status: 'dispatch_executed',
++          ok: true,
++          repairWaveInput: {
++            kind: 'ClaimGateCouncilWaveInput',
++            sessionId: 'claim-gate-loop-handler-wave-run-continue-repair',
++            waves: [
++              {
++                wave: 2,
++                contract: {
++                  ...testWaveContract(),
++                  owner: 'claim-gate-loop-handler-test-repair-runtime',
++                  producerKind: 'repair_dispatch_runtime',
++                  nextAdmissibleState: 'claim_gate_loop_consume_parent_result',
++                },
++                members: [dispatchRequest.sourceMember],
++                claims: [
++                  {
++                    claimId: 'REPAIR_ME',
++                    payload: 'repair emitted bounded evidence refs',
++                    memberId: dispatchRequest.sourceMemberId,
++                    repairOf: {
++                      failurePacketId: dispatchRequest.failurePacketId,
++                      sourceClaimId: 'REPAIR_ME',
++                      parentReceiptId: repairPlan.parentReceiptId,
++                    },
++                    gateChecks: [
++                      { gateId: 'object_binding', status: 'pass', evidenceRefs: ['receipt:rcpt-object-bound'] },
++                      { gateId: 'evidence_manifest', status: 'pass', evidenceRefs: ['receipt:rcpt-manifest-a'] },
++                      { gateId: 'falsifier', status: 'pass', evidenceRefs: ['receipt:rcpt-falsifier-a'] },
++                    ],
++                  },
++                ],
++              },
++            ],
++          },
++          repairDispatchExecution: {
++            kind: 'ClaimGateRepairDispatchExecutionReceipt',
++            repairDispatchPlanReceiptId: dispatchPlan.receipt.id,
++            status: 'repair_dispatch_executed',
++            ok: true,
++            receipt: { id: 'rcpt-handler-repair-runtime' },
++          },
++        }, null, 2)}\n`,
++      );
++
++      const continued = await handler([
++        'wave-run-continue',
++        firstOut,
++        runtimeOut,
++        '--out',
++        continuedOut,
++        ...TRUSTED_HANDLER_EVIDENCE_ARGS,
++      ]);
++
++      expect(continued.success).toBe(true);
++      const result = JSON.parse(readFileSync(continuedOut, 'utf8'));
++      expect(result.kind).toBe('ClaimGateWaveRunContinuationResult');
++      expect(result.status).toBe('continued_passed');
++      expect(result.acceptedClaimIds).toEqual(['REPAIR_ME']);
++      expect(result.sourceRepairDispatchPlanReceiptId).toBe(dispatchPlan.receipt.id);
++      expect(result.repairRuntimeReceiptId).toBe('rcpt-handler-repair-runtime');
++      expect(result.receipt.evalResults[0].passed).toBe(true);
++    } finally {
++      rmSync(root, { recursive: true, force: true });
++    }
++  });
++
++  it('blocks WaveRun continuation from a planned but unexecuted repair runtime', async () => {
++    const root = makeTempDir('wave-run-continue-planned');
++    try {
++      writeHostTrustLedger(root);
++      const input = join(root, 'wave-run.json');
++      const firstOut = join(root, 'wave-run-result-first.json');
++      const runtimeOut = join(root, 'repair-runtime-planned.json');
++      writeFileSync(
++        input,
++        `${JSON.stringify({
++          kind: 'ClaimGateWaveRunInput',
++          sessionId: 'claim-gate-loop-handler-wave-run-continue-planned-test',
++          initial: {
++            kind: 'ClaimGateCouncilWaveInput',
++            sessionId: 'claim-gate-loop-handler-wave-run-continue-planned-test',
++            waves: [
++              {
++                wave: 1,
++                contract: testWaveContract(),
++                claims: [
++                  {
++                    claimId: 'REPAIR_ME',
++                    payload: 'candidate missing evidence manifest',
++                    gateChecks: [
++                      { gateId: 'object_binding', status: 'pass', evidenceRefs: ['receipt:rcpt-object-bound'] },
++                      { gateId: 'evidence_manifest', status: 'fail', evidenceRefs: ['artifact:missing'] },
++                      { gateId: 'falsifier', status: 'pass', evidenceRefs: ['receipt:rcpt-falsifier-a'] },
++                    ],
++                  },
++                ],
++              },
++            ],
++          },
++        }, null, 2)}\n`,
++      );
++
++      const first = await handler(['wave-run', input, '--out', firstOut]);
++      expect(first.success).toBe(false);
++      const previous = JSON.parse(readFileSync(firstOut, 'utf8'));
++      writeFileSync(
++        runtimeOut,
++        `${JSON.stringify({
++          kind: 'ClaimGateRepairDispatchRuntimeRun',
++          sourceRepairDispatchPlanReceiptId: previous.dispatchPlans[0].receipt.id,
++          status: 'dispatch_planned',
++          ok: true,
++        }, null, 2)}\n`,
++      );
++
++      const continued = await handler(['wave-run-continue', firstOut, runtimeOut, ...TRUSTED_HANDLER_EVIDENCE_ARGS]);
++
++      expect(continued.success).toBe(false);
++      expect(continued.error_code).toBe('INVALID_REPAIR_RUNTIME');
++      expect(continued.formatted_response).toContain('dispatch_executed');
++    } finally {
++      rmSync(root, { recursive: true, force: true });
++    }
++  });
++
+   it('blocks a wave-run hostConsume.receiptRef the host never issued, even when deterministic gates pass', async () => {
+     const root = makeTempDir('wave-run-host-consume-forged');
+     try {
+diff --git a/core/orchestration/src/handlers/claim-gate-loop.ts b/core/orchestration/src/handlers/claim-gate-loop.ts
+index c885c3de4..82363d6b7 100644
+--- a/core/orchestration/src/handlers/claim-gate-loop.ts
++++ b/core/orchestration/src/handlers/claim-gate-loop.ts
+@@ -34,6 +34,7 @@ import {
+   runClaimGateWaveRun,
+   type ClaimGateWaveRunInput,
+ } from '../proof/claim-gate-wave-runner.js';
++import { createReceipt } from '../receipt/factory.js';
+ import { deriveHostTrustDomainKey } from '../proof/host-trust-secret.js';
+ 
+ interface ClaimGateGraphPatchBridgeResult {
+@@ -58,11 +59,43 @@ interface ParsedArgs {
+   out?: string;
+   parentResult?: string;
+   maxWaves?: number;
++  repairRuntime?: string;
+   realEngines: boolean;
+   trustedEvidenceRefs: string[];
+   rawTrustedEvidenceRefs: string[];
+ }
+ 
++interface ClaimGateRepairDispatchRuntimeReplay {
++  kind: 'ClaimGateRepairDispatchRuntimeRun';
++  sourceRepairDispatchPlanReceiptId: string;
++  status: 'dispatch_executed' | string;
++  ok: boolean;
++  repairWaveInput?: unknown;
++  repairDispatchExecution?: {
++    kind?: string;
++    repairDispatchPlanReceiptId?: string;
++    status?: string;
++    ok?: boolean;
++    receipt?: { id?: string };
++  };
++}
++
++interface ClaimGateWaveRunContinuationResult {
++  kind: 'ClaimGateWaveRunContinuationResult';
++  status: 'continued_passed' | 'continued_blocked';
++  ok: boolean;
++  sourceWaveRunReceiptId: string;
++  sourceRepairPlanReceiptId: string;
++  sourceRepairDispatchPlanReceiptId: string;
++  repairRuntimeReceiptId: string | null;
++  waveResult: ClaimGateLoopResult;
++  acceptedClaimIds: string[];
++  withheldClaimIds: string[];
++  failurePackets: ClaimGateLoopResult['failurePackets'];
++  claimCeiling: 'repair_runtime_continuation_requires_claim_gate_consumption';
++  receipt: ReturnType<typeof createReceipt>;
++}
++
+ interface ClaimGateHostTrustedEvidenceRefEntry {
+   kind: 'ClaimGateHostTrustedEvidenceRef';
+   claimCeiling: 'host_trusted_evidence_ref_not_transferable_authority';
+@@ -124,6 +157,13 @@ function parseArgs(args: string[]): ParsedArgs {
+       : undefined;
+   const maxWavesFlag = args.find((arg) => arg.startsWith('--max-waves='));
+   const parsedMaxWaves = maxWavesFlag ? Number(maxWavesFlag.slice('--max-waves='.length)) : undefined;
++  const repairRuntimeFlag = args.find((arg) => arg.startsWith('--repair-runtime='));
++  const repairRuntimeIndex = args.indexOf('--repair-runtime');
++  const repairRuntime = repairRuntimeFlag
++    ? repairRuntimeFlag.slice('--repair-runtime='.length)
++    : repairRuntimeIndex >= 0
++      ? args[repairRuntimeIndex + 1]
++      : undefined;
+   const trustedEvidenceRefs: string[] = [];
+   const rawTrustedEvidenceRefs: string[] = [];
+   args.forEach((arg, index) => {
+@@ -146,6 +186,7 @@ function parseArgs(args: string[]): ParsedArgs {
+     const previous = rest[index - 1];
+     return previous !== '--out'
+       && previous !== '--parent-result'
++      && previous !== '--repair-runtime'
+       && previous !== '--trusted-evidence-ref'
+       && previous !== '--host-trusted-evidence-ref';
+   });
+@@ -157,6 +198,7 @@ function parseArgs(args: string[]): ParsedArgs {
+     out: out && !out.startsWith('--') ? out : undefined,
+     parentResult: parentResult && !parentResult.startsWith('--') ? parentResult : undefined,
+     maxWaves: Number.isFinite(parsedMaxWaves) && parsedMaxWaves! > 0 ? Math.floor(parsedMaxWaves!) : undefined,
++    repairRuntime: repairRuntime && !repairRuntime.startsWith('--') ? repairRuntime : undefined,
+     realEngines: args.includes('--real-engines'),
+     trustedEvidenceRefs,
+     rawTrustedEvidenceRefs,
+@@ -169,6 +211,7 @@ function usage(): string {
+     '  lev orchestration claim-gate-loop demo [--json] [--out <file>] [--max-waves=N]',
+     '  lev orchestration claim-gate-loop consume <council-wave.json> [--json] [--out <file>] [--parent-result <claim-gate-result.json>] [--host-trusted-evidence-ref <ref>...]',
+     '  lev orchestration claim-gate-loop wave-run <wave-run.json> [--json] [--out <file>] [--real-engines]',
++    '  lev orchestration claim-gate-loop wave-run-continue <wave-run-result.json> <repair-runtime-run.json> [--json] [--out <file>] [--host-trusted-evidence-ref <ref>...]',
+     '  lev orchestration claim-gate-loop repair-plan <council-wave.json> <claim-gate-result.json> [--json] [--out <file>]',
+     '  lev orchestration claim-gate-loop repair-dispatch-plan <repair-plan.json> [--json] [--out <file>]',
+     '  lev orchestration claim-gate-loop record-repair-dispatch-execution <dispatch-plan.json> <repair-council-wave.json> [--json] [--out <file>]',
+@@ -567,6 +610,62 @@ function readJson<T>(file: string): T {
+   return JSON.parse(readFileSync(resolve(file), 'utf8')) as T;
+ }
+ 
++function isRecord(value: unknown): value is Record<string, unknown> {
++  return value !== null && typeof value === 'object' && !Array.isArray(value);
++}
++
++function invalidRepairRuntimeResponse(message: string, json: boolean) {
++  const payload = {
++    error_code: 'INVALID_REPAIR_RUNTIME',
++    message,
++  };
++  return {
++    success: false,
++    formatted_response: json
++      ? JSON.stringify(payload, null, 2)
++      : `ClaimGate wave-run continuation blocked: ${message}`,
++    data: payload,
++    error_code: payload.error_code,
++  };
++}
++
++function validateRepairRuntimeReplay(
++  value: unknown,
++  dispatchPlan: ClaimGateRepairDispatchPlan,
++): { ok: true; runtime: ClaimGateRepairDispatchRuntimeReplay } | { ok: false; message: string } {
++  if (!isRecord(value)) {
++    return { ok: false, message: 'Repair runtime run must be a JSON object.' };
++  }
++  if (value.kind !== 'ClaimGateRepairDispatchRuntimeRun') {
++    return { ok: false, message: 'Repair runtime run kind must be ClaimGateRepairDispatchRuntimeRun.' };
++  }
++  if (value.status !== 'dispatch_executed' || value.ok !== true) {
++    return { ok: false, message: 'Repair runtime run must be ok:true with status dispatch_executed.' };
++  }
++  if (value.sourceRepairDispatchPlanReceiptId !== dispatchPlan.receipt.id) {
++    return {
++      ok: false,
++      message: `Repair runtime source dispatch receipt ${String(value.sourceRepairDispatchPlanReceiptId)} does not match current dispatch plan ${dispatchPlan.receipt.id}.`,
++    };
++  }
++  if (!isRecord(value.repairWaveInput)) {
++    return { ok: false, message: 'Repair runtime run must carry repairWaveInput.' };
++  }
++  const execution = isRecord(value.repairDispatchExecution)
++    ? value.repairDispatchExecution
++    : undefined;
++  if (!execution || execution.status !== 'repair_dispatch_executed' || execution.ok !== true) {
++    return { ok: false, message: 'Repair runtime run must carry a successful repairDispatchExecution receipt.' };
++  }
++  if (execution.repairDispatchPlanReceiptId !== dispatchPlan.receipt.id) {
++    return {
++      ok: false,
++      message: `Repair dispatch execution receipt ${String(execution.repairDispatchPlanReceiptId)} does not match current dispatch plan ${dispatchPlan.receipt.id}.`,
++    };
++  }
++  return { ok: true, runtime: value as unknown as ClaimGateRepairDispatchRuntimeReplay };
++}
++
+ function formatDemo(result: ReturnType<typeof runClaimGateLoopFixture>, out?: string): string {
+   return [
+     'ClaimGate gate loop: completed',
+@@ -595,6 +694,19 @@ function formatWaveRun(result: ReturnType<typeof runClaimGateWaveRun>, out?: str
+   ].join('\n');
+ }
+ 
++function formatWaveRunContinuation(result: ClaimGateWaveRunContinuationResult, out?: string): string {
++  return [
++    `ClaimGate WaveRun continuation: ${result.status}`,
++    `Accepted: ${result.acceptedClaimIds.join(', ') || 'none'}`,
++    `Withheld: ${result.withheldClaimIds.join(', ') || 'none'}`,
++    `Failure packets: ${result.failurePackets.length}`,
++    `Repair dispatch plan receipt: ${result.sourceRepairDispatchPlanReceiptId}`,
++    `Repair runtime receipt: ${result.repairRuntimeReceiptId ?? '(missing)'}`,
++    `Receipt: ${result.receipt.id}`,
++    `Output: ${out ? resolve(out) : '(not written)'}`,
++  ].join('\n');
++}
++
+ function formatRepairPlan(result: ReturnType<typeof buildClaimGateRepairWavePlan>, out?: string): string {
+   return [
+     'ClaimGate repair wave plan: completed',
+@@ -841,6 +953,123 @@ export async function handler(args: string[]) {
+       };
+     }
+ 
++    if (parsed.subcommand === 'wave-run-continue') {
++      if (!parsed.input || !parsed.result) {
++        return {
++          success: false,
++          formatted_response: usage(),
++          error_code: 'MISSING_INPUT',
++        };
++      }
++
++      let previous: ReturnType<typeof runClaimGateWaveRun>;
++      let runtimeValue: unknown;
++      try {
++        previous = readJson<ReturnType<typeof runClaimGateWaveRun>>(parsed.input);
++        runtimeValue = readJson<unknown>(parsed.result);
++      } catch (error) {
++        return invalidInputResponse(error, parsed.json);
++      }
++
++      const repairPlan = previous.repairPlans[previous.repairPlans.length - 1];
++      const dispatchPlan = previous.dispatchPlans[previous.dispatchPlans.length - 1];
++      const parentResult = previous.waveResults[previous.waveResults.length - 1];
++      if (!repairPlan || !dispatchPlan || !parentResult) {
++        return invalidRepairRuntimeResponse(
++          'Previous WaveRun result must contain a repair plan, dispatch plan, and parent wave result.',
++          parsed.json,
++        );
++      }
++
++      const replay = validateRepairRuntimeReplay(runtimeValue, dispatchPlan);
++      if (!replay.ok) {
++        return invalidRepairRuntimeResponse(replay.message, parsed.json);
++      }
++
++      let repairInput: ClaimGateCouncilWaveInput;
++      try {
++        repairInput = validateClaimGateCouncilWaveInput(replay.runtime.repairWaveInput, {
++          allowExternalRepairLineage: true,
++        });
++      } catch (error) {
++        return invalidInputResponse(error, parsed.json);
++      }
++
++      const waveResult = runClaimGateCouncilWaveLoopWithHostTrustedEvidence(repairInput, {
++        parentResult,
++        trustedEvidenceRefs: parsed.trustedEvidenceRefs,
++        maxWaves: repairInput.maxWaves
++          ?? repairInput.waves.reduce((max, wave) => Math.max(max, wave.wave), 1),
++      });
++      const acceptedClaimIds = waveResult.graphPatchProposal.acceptedClaimIds;
++      const withheldClaimIds = waveResult.graphPatchProposal.withheldClaimIds;
++      const ok = (
++        waveResult.receipt.evalResults.every((evalResult) => evalResult.passed)
++        && withheldClaimIds.length === 0
++        && waveResult.failurePackets.length === 0
++      );
++      const payload = {
++        kind: 'ClaimGateWaveRunContinuationReceiptPayload',
++        sourceWaveRunReceiptId: previous.receipt.id,
++        sourceRepairPlanReceiptId: repairPlan.receipt.id,
++        sourceRepairDispatchPlanReceiptId: dispatchPlan.receipt.id,
++        repairRuntimeReceiptId: replay.runtime.repairDispatchExecution?.receipt?.id ?? null,
++        waveResult,
++      };
++      const continuation: ClaimGateWaveRunContinuationResult = {
++        kind: 'ClaimGateWaveRunContinuationResult',
++        status: ok ? 'continued_passed' : 'continued_blocked',
++        ok,
++        sourceWaveRunReceiptId: previous.receipt.id,
++        sourceRepairPlanReceiptId: repairPlan.receipt.id,
++        sourceRepairDispatchPlanReceiptId: dispatchPlan.receipt.id,
++        repairRuntimeReceiptId: replay.runtime.repairDispatchExecution?.receipt?.id ?? null,
++        waveResult,
++        acceptedClaimIds,
++        withheldClaimIds,
++        failurePackets: waveResult.failurePackets,
++        claimCeiling: 'repair_runtime_continuation_requires_claim_gate_consumption',
++        receipt: createReceipt({
++          scope: 'session',
++          sessionId: `${previous.sessionId}-continuation`,
++          workUnitId: 'claim-gate-wave-run-continuation',
++          contentHash: `sha256:${sha256(payload)}`,
++          evalResults: [
++            {
++              id: 'eval-claim-gate-wave-run-continuation',
++              strategy: 'gate-based',
++              timestamp: new Date().toISOString(),
++              passed: ok,
++              reasoning: ok
++                ? 'Repair runtime output returned to deterministic ClaimGate consumption and passed.'
++                : 'Repair runtime output returned to deterministic ClaimGate consumption but remained blocked.',
++              metadata: {
++                acceptedClaimIds,
++                withheldClaimIds,
++                failurePacketCount: waveResult.failurePackets.length,
++                claimCeiling: 'repair_runtime_continuation_requires_claim_gate_consumption',
++              },
++            },
++          ],
++          provenance: {
++            surface: 'handler',
++            host: 'lev',
++            profile: 'claim-gate-wave-run-continuation',
++          },
++        }),
++      };
++
++      if (parsed.out) {
++        writeJson(resolve(parsed.out), continuation);
++      }
++      return {
++        success: ok,
++        formatted_response: parsed.json ? JSON.stringify(continuation, null, 2) : formatWaveRunContinuation(continuation, parsed.out),
++        data: continuation,
++        error_code: ok ? undefined : 'CLAIMGATE_WAVE_RUN_CONTINUATION_BLOCKED',
++      };
++    }
++
+     if (parsed.subcommand === 'repair-plan') {
+       if (!parsed.input || !parsed.result) {
+         return {
+-- 
+2.50.1 (Apple Git-155)
+

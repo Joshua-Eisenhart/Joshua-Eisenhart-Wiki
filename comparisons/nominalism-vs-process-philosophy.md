@@ -9,6 +9,9 @@ sources:
   - raw/articles/new-docs/references/NOMINALISM_PHILOSOPHICAL_FOUNDATION.md
   - raw/articles/new-docs/references/PROCESS_PHILOSOPHY_AND_RELATIONAL_PHYSICS_REFERENCE.md
   - raw/articles/new-docs/TRADITION_SYSTEM_MAPPING_DETAILED.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Nominalism vs Process Philosophy

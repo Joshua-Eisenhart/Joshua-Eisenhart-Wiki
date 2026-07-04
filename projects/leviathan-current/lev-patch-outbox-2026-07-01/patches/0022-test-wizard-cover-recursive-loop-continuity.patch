@@ -1,0 +1,203 @@
+From 37bab70d3d059ef677945be6cc0f9571c9c54e82 Mon Sep 17 00:00:00 2001
+From: Joshua-Eisenhart <40147598+Joshua-Eisenhart@users.noreply.github.com>
+Date: Tue, 30 Jun 2026 19:44:26 -0700
+Subject: [PATCH 22/35] test(wizard): cover recursive loop continuity
+
+---
+ .../src/handlers/lev-wizard-ratchet.test.ts   | 167 +++++++++++++++++-
+ 1 file changed, 166 insertions(+), 1 deletion(-)
+
+diff --git a/core/orchestration/src/handlers/lev-wizard-ratchet.test.ts b/core/orchestration/src/handlers/lev-wizard-ratchet.test.ts
+index a2067b14d..62f83d4f8 100644
+--- a/core/orchestration/src/handlers/lev-wizard-ratchet.test.ts
++++ b/core/orchestration/src/handlers/lev-wizard-ratchet.test.ts
+@@ -1,6 +1,6 @@
+ import { describe, expect, it } from 'vitest';
+ import { createHash } from 'node:crypto';
+-import { mkdirSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
++import { existsSync, mkdirSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
+ import { tmpdir } from 'node:os';
+ import { join } from 'node:path';
+ 
+@@ -40,6 +40,58 @@ function writeLevProjectMarkers(root: string): void {
+   writeFileSync(join(root, '.lev', 'validation-gates.yaml'), 'test validation gates\n');
+ }
+ 
++function readJsonLines<T>(file: string): T[] {
++  if (!existsSync(file)) return [];
++  return readFileSync(file, 'utf8')
++    .split('\n')
++    .map((line) => line.trim())
++    .filter((line) => line.length > 0)
++    .map((line) => JSON.parse(line) as T);
++}
++
++function seedConsumptionLedgerPath(root: string): string {
++  return join(root, '.lev', 'context', 'lev-wizard-seed-consumptions.jsonl');
++}
++
++function seedConsumptionEntries(root: string): Array<Record<string, unknown>> {
++  return readJsonLines<Record<string, unknown>>(seedConsumptionLedgerPath(root));
++}
++
++function graphOperationsAppliedEvents(root: string): Array<{ id?: string; type?: string }> {
++  return readJsonLines<{ id?: string; type?: string }>(join(root, '.lev', 'context', 'events.jsonl'))
++    .filter((event) => event.type === 'graph.operations_applied');
++}
++
++async function withIsolatedLevRuntime<T>(
++  prefix: string,
++  run: (projectRoot: string) => Promise<T>,
++): Promise<T> {
++  const projectRoot = mkdtempSync(join(tmpdir(), prefix));
++  const oldProjectRoot = process.env.LEV_PROJECT_ROOT;
++  const oldHostTrustSecretPath = process.env.LEV_HOST_TRUST_SECRET_PATH;
++  writeLevProjectMarkers(projectRoot);
++  process.env.LEV_PROJECT_ROOT = projectRoot;
++  process.env.LEV_HOST_TRUST_SECRET_PATH = join(projectRoot, 'host-trust-root-secret');
++  const graphRuntime = await import('@lev-os/graph');
++  graphRuntime.resetGraphInstance();
++  try {
++    return await run(projectRoot);
++  } finally {
++    graphRuntime.resetGraphInstance();
++    if (oldProjectRoot === undefined) {
++      delete process.env.LEV_PROJECT_ROOT;
++    } else {
++      process.env.LEV_PROJECT_ROOT = oldProjectRoot;
++    }
++    if (oldHostTrustSecretPath === undefined) {
++      delete process.env.LEV_HOST_TRUST_SECRET_PATH;
++    } else {
++      process.env.LEV_HOST_TRUST_SECRET_PATH = oldHostTrustSecretPath;
++    }
++    rmSync(projectRoot, { recursive: true, force: true });
++  }
++}
++
+ function minimalEarnedSeedArtifact() {
+   const previousSessionId = `lev-wizard-seed-replay-source-${Date.now()}`;
+   const seedSessionId = `${previousSessionId}:ratchet:1`;
+@@ -345,6 +397,119 @@ describe('lev-wizard-ratchet handler', () => {
+     expect(response.formatted_response).toContain('1 to 10');
+   });
+ 
++  it('runs a two-wave real-evidence loop and blocks replay without graph side effects', async () => {
++    await withIsolatedLevRuntime('lev-wizard-loop-positive-', async (projectRoot) => {
++      const response = await handler([
++        'loop',
++        '--waves',
++        '2',
++        '--real-engines',
++        '--real-skills',
++        '--real-source-evidence',
++      ]);
++
++      expect(response.success).toBe(true);
++      const result = response.data as {
++        kind: string;
++        status: string;
++        completedWaves: number;
++        waveReceipts: Array<{
++          status: string;
++          graphExecutionStatus: string;
++          graphMutationApplied: boolean;
++          graphEventId?: string;
++        }>;
++        bridges: Array<Record<string, unknown>>;
++      };
++      expect(result.kind).toBe('LevWizardRatchetLoopResult');
++      expect(result.status).toBe('completed');
++      expect(result.completedWaves).toBe(2);
++      expect(result.waveReceipts).toHaveLength(2);
++      expect(result.waveReceipts.every((receipt) => receipt.status === 'passed')).toBe(true);
++      expect(result.waveReceipts.every((receipt) => receipt.graphExecutionStatus === 'graph_patch_executed')).toBe(true);
++      expect(result.waveReceipts.every((receipt) => receipt.graphMutationApplied === true)).toBe(true);
++      expect(result.waveReceipts.every((receipt) => typeof receipt.graphEventId === 'string')).toBe(true);
++
++      const eventCountBeforeReplay = graphOperationsAppliedEvents(projectRoot).length;
++      const seedRecordCountBeforeReplay = seedConsumptionEntries(projectRoot).length;
++      expect(eventCountBeforeReplay).toBe(2);
++      expect(seedRecordCountBeforeReplay).toBe(1);
++
++      const replaySeedFile = join(projectRoot, 'wave-1-bridge-replay.json');
++      writeFileSync(replaySeedFile, `${JSON.stringify(result.bridges[0], null, 2)}\n`);
++      const replay = await handler([
++        'seed',
++        replaySeedFile,
++        '--real-engines',
++        '--real-skills',
++        '--real-source-evidence',
++        '--apply-graph-patch',
++      ]);
++
++      expect(replay.success).toBe(false);
++      expect(replay.error_code).toBe('LEV_WIZARD_RATCHET_SEED_REPLAY_BLOCKED');
++      expect(graphOperationsAppliedEvents(projectRoot)).toHaveLength(eventCountBeforeReplay);
++      expect(seedConsumptionEntries(projectRoot)).toHaveLength(seedRecordCountBeforeReplay);
++    });
++  }, 240_000);
++
++  it('records exact seed-consumption edges across a three-wave real-evidence loop', async () => {
++    await withIsolatedLevRuntime('lev-wizard-loop-seed-ledger-', async (projectRoot) => {
++      const response = await handler([
++        'loop',
++        '--waves',
++        '3',
++        '--real-engines',
++        '--real-skills',
++        '--real-source-evidence',
++      ]);
++
++      expect(response.success).toBe(true);
++      const result = response.data as {
++        kind: string;
++        status: string;
++        completedWaves: number;
++        waveReceipts: Array<{ status: string; graphEventId?: string }>;
++        bridges: Array<{
++          wizardResult: {
++            sessionId: string;
++            receipt: { id: string };
++          };
++          graphAppliedNextRunSeed?: {
++            inputPatch: { sessionId: string };
++          };
++        }>;
++      };
++      expect(result.kind).toBe('LevWizardRatchetLoopResult');
++      expect(result.status).toBe('completed');
++      expect(result.completedWaves).toBe(3);
++      expect(result.waveReceipts.every((receipt) => receipt.status === 'passed')).toBe(true);
++
++      const seedRecords = seedConsumptionEntries(projectRoot);
++      expect(seedRecords).toHaveLength(2);
++      expect(seedRecords.map((record) => record.previousSessionId)).toEqual([
++        result.bridges[0].wizardResult.sessionId,
++        result.bridges[1].wizardResult.sessionId,
++      ]);
++      expect(seedRecords.map((record) => record.seedSessionId)).toEqual([
++        result.bridges[0].graphAppliedNextRunSeed?.inputPatch.sessionId,
++        result.bridges[1].graphAppliedNextRunSeed?.inputPatch.sessionId,
++      ]);
++      expect(seedRecords.map((record) => record.sourceRunReceiptId)).toEqual([
++        result.bridges[0].wizardResult.receipt.id,
++        result.bridges[1].wizardResult.receipt.id,
++      ]);
++      expect(result.bridges[1].wizardResult.sessionId).toBe(seedRecords[0].seedSessionId);
++      expect(result.bridges[2].wizardResult.sessionId).toBe(seedRecords[1].seedSessionId);
++
++      const graphEvents = graphOperationsAppliedEvents(projectRoot);
++      expect(graphEvents).toHaveLength(3);
++      expect(result.waveReceipts.map((receipt) => receipt.graphEventId)).toEqual(
++        graphEvents.map((event) => event.id),
++      );
++    });
++  }, 360_000);
++
+   it('does not apply a graph patch when the Wizard run is blocked', async () => {
+     const response = await handler(['demo', '--apply-graph-patch']);
+ 
+-- 
+2.50.1 (Apple Git-155)
+

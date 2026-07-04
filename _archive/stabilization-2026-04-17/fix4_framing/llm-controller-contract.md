@@ -3,6 +3,9 @@ title: Llm Controller Contract
 type: concept
 updated: 2026-04-17
 sources: ["/Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/docs/LLM_CONTROLLER_CONTRACT.md"]
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # LLM Controller Contract

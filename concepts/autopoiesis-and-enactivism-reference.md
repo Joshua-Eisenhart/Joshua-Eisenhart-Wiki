@@ -7,6 +7,9 @@ framing: current
 tags: [reference, research, system]
 sources:
   - raw/articles/new-docs/references/AUTOPOIESIS_AND_ENACTIVISM_REFERENCE.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Autopoiesis And Enactivism Reference

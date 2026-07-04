@@ -8,6 +8,9 @@ sources:
   - raw/articles/new-docs/archive_old/FULL_MACHINE_PYTHON_REPO_SKILLS_INVENTORY.md
 framing: legacy
 priming: false
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Full Machine Python / Repo / Skills Inventory

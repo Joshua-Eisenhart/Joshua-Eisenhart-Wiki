@@ -10,6 +10,9 @@ sources:
   - concepts/holodeck-docs.md
   - concepts/fep-and-active-inference-reference.md
   - concepts/sophisticated-inference-active-inference.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Prediction-First Memory vs LLM Memory

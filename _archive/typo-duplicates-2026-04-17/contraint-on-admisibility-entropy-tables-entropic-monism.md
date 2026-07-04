@@ -8,6 +8,9 @@ tags: [reference, research, validation, system]
 sources:
   - raw/articles/system-v5-reference-docs/Contraint on Admisibility, ENTROPY tables, Entropic Monism.md
 framing: legacy
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Contraint on Admisibility Entropy Tables Entropic Monism

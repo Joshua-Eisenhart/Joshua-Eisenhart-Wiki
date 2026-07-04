@@ -9,6 +9,9 @@ sources:
   - raw/articles/new-docs/new content/preprocessed/03_aligned_sim_backlog_source_digest.md
   - raw/articles/new-docs/08_aligned_sim_backlog_and_build_order.md
   - raw/articles/new-docs/09_research_inventory_and_foundations.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Aligned Sim Backlog Source Digest

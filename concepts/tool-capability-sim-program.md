@@ -8,6 +8,9 @@ sources:
   - raw/articles/new-docs/archive_old/NONCLASSICAL_SYSTEM_TOOL_PLAN.md
   - raw/articles/new-docs/TOOLING_STATUS.md
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Tool Capability Sim Program

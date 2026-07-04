@@ -12,6 +12,9 @@ sources:
   - https://doi.org/10.1103/RevModPhys.91.025001
   - https://doi.org/10.1103/PhysRevLett.115.070503
 framing: reference_support_snapshot
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Resource Theories in Quantum Information

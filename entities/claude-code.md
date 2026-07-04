@@ -9,6 +9,9 @@ sources:
   - raw/articles/new-docs/archive_old/CLAUDE_BATCH_HANDOFF_PROCESS.md
   - raw/articles/new-docs/archive_old/CLAUDE_CODE_DANGEROUS_MODE_POLICY.md
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Claude Code

@@ -9,6 +9,9 @@ sources:
   - raw/articles/new-docs/AGENT_WORKFLOW_AND_BOOT_ARCHITECTURE.md
   - raw/articles/new-docs/00_manifest.md
 framing: mixed
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Stack Authority and Capability Index

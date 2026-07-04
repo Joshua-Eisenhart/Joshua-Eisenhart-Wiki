@@ -9,6 +9,9 @@ sources:
   - raw/articles/new-docs/15_stack_authority_and_capability_index.md
   - raw/articles/new-docs/07_model_math_geometry_sim_plan.md
 framing: mixed
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Engine 64 Schedule Atlas

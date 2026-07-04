@@ -8,6 +8,9 @@ sources:
   - raw/articles/new-docs/archive_old/HERMES_REPOS_AND_ECOSYSTEM_CLASSIFICATION.md
 framing: legacy
 priming: false
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Hermes Repos and Ecosystem Classification

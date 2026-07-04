@@ -8,6 +8,9 @@ tags: [reference, research, validation, system]
 sources:
   - raw/articles/system-v5-reference-docs/MEGABOOT_RATCHET_SUITE_v7.4.7-PROJECTS_PATCHED_CONSTRAINT_MANIFOLD copy.md
 framing: legacy
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Megaboot Ratchet Suite V7.4.7 Projects Patched Constraint Manifold Copy

@@ -1,0 +1,153 @@
+From 533ce1e00779bc6c2d6854072f49bbfc35730892 Mon Sep 17 00:00:00 2001
+From: Joshua-Eisenhart <40147598+Joshua-Eisenhart@users.noreply.github.com>
+Date: Wed, 1 Jul 2026 13:51:13 -0700
+Subject: [PATCH 28/35] fix(graph): honor declared execution_profile
+ frontmatter in skill source pack runner
+
+An explicit, valid frontmatter execution_profile wins over the fuzzy
+full-text heuristic; an unrecognised declaration stays undefined
+instead of being silently fuzzy-matched into an undeclared family.
+core/graph suite 83/83.
+
+Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
+---
+ .../probes/skill-source-pack-runner.test.ts   | 68 +++++++++++++++++++
+ .../src/probes/skill-source-pack-runner.ts    | 26 ++++++-
+ 2 files changed, 93 insertions(+), 1 deletion(-)
+ create mode 100644 core/graph/src/probes/skill-source-pack-runner.test.ts
+
+diff --git a/core/graph/src/probes/skill-source-pack-runner.test.ts b/core/graph/src/probes/skill-source-pack-runner.test.ts
+new file mode 100644
+index 000000000..d942e6d9f
+--- /dev/null
++++ b/core/graph/src/probes/skill-source-pack-runner.test.ts
+@@ -0,0 +1,68 @@
++import { mkdirSync, mkdtempSync, writeFileSync } from 'node:fs';
++import { tmpdir } from 'node:os';
++import { join } from 'node:path';
++
++import { describe, expect, it } from 'vitest';
++
++import { runExecutionProfileFormalSkillSetIntake } from './skill-source-pack-runner.js';
++
++function writeSkill(root: string, dir: string, frontmatter: string, body: string): void {
++  mkdirSync(join(root, dir), { recursive: true });
++  writeFileSync(join(root, dir, 'SKILL.md'), `---\n${frontmatter}\n---\n${body}\n`);
++}
++
++describe('skill-source-pack execution-profile derivation', () => {
++  it('admits a formal skill from an explicit frontmatter execution_profile, even with no trigger substring; excludes invalid declarations and generic skills; keeps the heuristic', () => {
++    const root = mkdtempSync(join(tmpdir(), 'skill-source-pack-'));
++
++    // A: declares a VALID family in frontmatter, with NO heuristic trigger words in the
++    // body -> must become formal purely from the declaration (the false-negative fix).
++    writeSkill(
++      root,
++      'convergence-panel',
++      'name: Convergence Panel\ndescription: Weigh options and keep the dissent visible.\nexecution_profile: hermes.tribunal.independent_comparison',
++      'Lay out the choices and score them side by side.',
++    );
++
++    // B: declares an UNRECOGNISED family -> must NOT be coerced into any profile.
++    writeSkill(
++      root,
++      'typo-profile',
++      'name: Typo Profile\ndescription: A skill whose author mistyped the family.\nexecution_profile: hermes.bogus.not_a_real_family',
++      'Some neutral content with no trigger words.',
++    );
++
++    // C: no declaration, but the body carries a heuristic trigger -> heuristic preserved.
++    writeSkill(
++      root,
++      'task-delegator',
++      'name: Task Delegator\ndescription: Breaks work into bounded units.',
++      'This worker uses delegate_task to plan, execute, and review.',
++    );
++
++    // D: generic skill, no declaration, no trigger -> must stay OUT (no laundering).
++    writeSkill(
++      root,
++      'pdf-tools',
++      'name: PDF Tools\ndescription: Extract text and tables from documents.',
++      'Read a document and return its extracted text.',
++    );
++
++    const result = runExecutionProfileFormalSkillSetIntake({ rootDir: root, packId: 'test-pack' });
++
++    expect(result.formalSkillSet).toBeDefined();
++    const profiles = (result.formalSkillSet?.skills ?? [])
++      .map((skill) => skill.executionProfile)
++      .filter((p): p is NonNullable<typeof p> => Boolean(p))
++      .sort();
++
++    // Exactly A (declared tribunal) and C (heuristic subagent) — not B, not D.
++    expect(profiles).toEqual([
++      'hermes.subagent_development.plan_execute_review',
++      'hermes.tribunal.independent_comparison',
++    ]);
++
++    const names = (result.formalSkillSet?.skills ?? []).map((s) => s.sourceRecordId).sort();
++    expect(names).toEqual(['convergence-panel', 'task-delegator']);
++  });
++});
+diff --git a/core/graph/src/probes/skill-source-pack-runner.ts b/core/graph/src/probes/skill-source-pack-runner.ts
+index 781ffd775..5b18f8271 100644
+--- a/core/graph/src/probes/skill-source-pack-runner.ts
++++ b/core/graph/src/probes/skill-source-pack-runner.ts
+@@ -42,6 +42,7 @@ export type FormalExecutionSkillSetRunReceipt = SkillSourcePackRunReceipt & {
+ type Frontmatter = {
+   name?: string;
+   description?: string;
++  executionProfile?: string;
+   tags: string[];
+ };
+ 
+@@ -77,6 +78,9 @@ function parseFrontmatter(text: string): Frontmatter {
+     const rawValue = line.slice(idx + 1).trim().replace(/^['"]|['"]$/g, '');
+     if (key === 'name') result.name = rawValue;
+     if (key === 'description') result.description = rawValue;
++    if (key === 'execution_profile' || key === 'execution-profile' || key === 'executionProfile') {
++      result.executionProfile = rawValue;
++    }
+     if (key === 'tags' || key.endsWith('.tags')) {
+       result.tags.push(...rawValue
+         .replace(/^\[/, '')
+@@ -119,6 +123,20 @@ function targetDomainFor(haystack: string): LevSourcePackTarget {
+   return 'skill';
+ }
+ 
++const EXECUTION_PROFILE_FAMILIES: ExecutionProfileFamily[] = [
++  'hermes.moa.reference_synthesis',
++  'hermes.tribunal.independent_comparison',
++  'hermes.subagent_development.plan_execute_review',
++  'external.cli_coding_agent_worker',
++];
++
++// A skill may DECLARE its execution-profile family in frontmatter (the reliable path).
++// Validate it against the closed family union; an unrecognised value is not coerced.
++function asExecutionProfileFamily(value: string | undefined): ExecutionProfileFamily | undefined {
++  if (!value) return undefined;
++  return EXECUTION_PROFILE_FAMILIES.find((family) => family === value);
++}
++
+ function executionProfileFor(id: string, haystack: string): ExecutionProfileFamily | undefined {
+   if (id === 'tribunal' || haystack.includes('independent comparison')) {
+     return 'hermes.tribunal.independent_comparison';
+@@ -151,7 +169,13 @@ function recordFromSkillFile(rootDir: string, path: string): SkillSourceRecord {
+   const title = frontmatter.name?.trim() || basename(join(path, '..'));
+   const haystack = lowerHaystack(id, text, frontmatter);
+   const targetDomain = targetDomainFor(haystack);
+-  const executionProfile = executionProfileFor(id, haystack);
++  // An explicit, valid frontmatter declaration wins over the fuzzy full-text heuristic.
++  // An explicit but UNRECOGNISED declaration is left undefined rather than silently
++  // fuzzy-matched into a family the author did not declare (avoids mis-classification).
++  const declaredProfile = frontmatter.executionProfile;
++  const executionProfile = declaredProfile
++    ? asExecutionProfileFamily(declaredProfile)
++    : executionProfileFor(id, haystack);
+   const stat = statSync(path);
+ 
+   return {
+-- 
+2.50.1 (Apple Git-155)
+

@@ -7,6 +7,9 @@ framing: legacy_workflow_reference
 tags: [reference, research, system]
 sources:
   - raw/articles/new-docs/AGENT_WORKFLOW_AND_BOOT_ARCHITECTURE.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Agent Workflow And Boot Architecture

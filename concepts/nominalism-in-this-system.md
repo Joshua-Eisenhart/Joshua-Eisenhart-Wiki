@@ -8,6 +8,9 @@ sources:
   - raw/articles/new-docs/NOMINALISM_IN_THIS_SYSTEM.md
   - raw/articles/legacy-books/the-grandmaster-of-the-universe-copy.md
 framing: mixed
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Nominalism In This System

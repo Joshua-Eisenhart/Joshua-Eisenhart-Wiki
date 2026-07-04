@@ -6,6 +6,9 @@ type: concept
 framing: current
 tags: [genealogy, provenance, legacy, current, framing]
 sources: ["/Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/docs/LEGACY_CONTEXT_AND_GENEALOGY.md"]
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Current vs Legacy Genealogy

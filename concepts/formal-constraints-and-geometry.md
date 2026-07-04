@@ -9,6 +9,9 @@ sources:
   - raw/articles/new-docs/CONSTRAINT_SURFACE_AND_PROCESS.md
   - raw/articles/new-docs/CONSTRAINT_ON_DISTINGUISHABILITY_FULL_MATH.md
 framing: mixed
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Formal Constraints and Geometry

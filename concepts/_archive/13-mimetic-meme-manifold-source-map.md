@@ -7,6 +7,9 @@ framing: current
 tags: [reference, research, system]
 sources:
   - raw/articles/new-docs/13_mimetic_meme_manifold_source_map.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Mimetic Meme Manifold — Source Map

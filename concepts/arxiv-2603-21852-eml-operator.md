@@ -6,6 +6,9 @@ type: concept
 framing: mixed
 tags: [external-math, eml, binary-operator, symbolic-regression, arxiv]
 sources: ["https://arxiv.org/abs/2603.21852"]
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # arXiv:2603.21852 — EML: All Elementary Functions from a Single Binary Operator

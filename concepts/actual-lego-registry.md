@@ -7,6 +7,9 @@ tags: [reference, research, system, simulation, planning]
 sources:
   - raw/articles/new-docs/17_actual_lego_registry.md
 framing: dated_ledger_snapshot
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Actual Lego Registry

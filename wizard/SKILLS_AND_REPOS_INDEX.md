@@ -10,9 +10,9 @@ The loop this index serves: a turn becomes structured work — classify, pre-run
 
 ## 1. Bottom line
 
-- The lev patch already has a real skill-loading contract. `core/graph/src/contracts/formal-skill-set.ts` defines `FormalSkill`; `core/graph/src/probes/skill-source-pack-runner.ts` walks SKILL.md trees, parses frontmatter, classifies by domain, and emits receipts. Integrating new skills means pointing pack requests at more skill roots, not building a loader.
-- The seed chain is real and receipt-validated. No hardcoded survivors in the seed path. The fixture ceiling sits at the ClaimGate steering boundary (`live_lev_consumed:false`, `adapter_partial`).
-- The missing piece is skill evolution, and it already exists upstream. `hermes-agent-self-evolution` carries session importers, a DSPy + GEPA optimiser, constraint gates, and an LLM-judge — the generate-validate-retain machinery the loop needs.
+- CORRECTED 2026-06-29 by the stress test (see section 9): the lev loader loads real skills but emits ZERO formal skills from them — `executionProfileFor` (skill-source-pack-runner.ts:122) gates emission on four hard-coded tokens that no real SKILL.md carries. "Point pack requests at more roots" produces inert candidates, not loaded skills. The fix is a code change, not a config change.
+- The seed chain is real and receipt-validated, and reaches `host_consumed` with a real `nextRunSeed` from the CLI under `--real-engines --real-skills --real-source-evidence` (cross-model confirmed). The fixture ceiling applies only to the bare demo.
+- CORRECTED 2026-06-29: the hermes evolution machinery has a hole. Session importers, secret redaction, and the constraint gate are real and hold under adversarial input, but the `LLMJudge` is dead code (zero call sites) — GEPA optimises bag-of-words keyword overlap (`fitness.py:130`), not LLM judgment. Do not adopt it as a quality engine assuming the judge runs.
 - Skills are abundant but unindexed. About 700 SKILL.md files sit across roughly ten roots, most of them PM/business and mental-model patterns. The loop-relevant core is small and named below.
 - Two integration rules hold. Adopt patterns and harvest skills; do not import authority. Every harvested or evolved skill stays proposal-only until a deterministic gate receipt admits it.
 
@@ -134,3 +134,52 @@ Unverified, read before trusting: oh-my-openagent star count; marketplace skill 
 6. Map DGM's three phases onto the wizard-ratchet stages in a wiki note; the one behaviour change worth proposing is novelty-retention (keep valid-but-novel survivors, not only the best).
 
 Edits to `~/GitHub/lev` halt for owner greenlight. This index records direction; it does not authorise the edits.
+
+---
+
+## 9. Stress-test verdict (2026-06-29) — what really works
+
+Method: ~140 agents across five model tiers — Claude Opus/Sonnet-high, OpenRouter Chinese fleet (deepseek-v3.2/r1, qwen3-235b-thinking, kimi-k2-thinking, minimax-m2, glm-4.6), codex 5.5 low, gemini-via-OpenRouter. All read-only, no lev edits, no `--run-model-lanes`. Eleven distinct models returned usable verdicts. Top status reached: `passes local rerun`; none canonical.
+
+### The single highest-leverage fix
+Stop gating formal-skill emission on hard-coded trigger tokens in `executionProfileFor` (skill-source-pack-runner.ts:122). Derive the execution profile from the skill's declared frontmatter, parsed with a real YAML library (the current `parseFrontmatter` at :65 is a line splitter that silently admits malformed YAML with corrupted fields, `ok=true`). One change clears three findings: zero-formal-skills (F2), malformed-admit (F3), and makes every real library integrable. Skills still stay candidate-only (`formal_skill_set_candidate_not_runtime_loaded`).
+
+### Works (passes local rerun, no API)
+lev core: orchestration 720/720, graph 357, event-bus 353, build 279, index 101, exec 90, telemetry 147, workstream 135; plugins: autoresearch-unit 156, context 69, scheduling 45, dna 40. claimgate-suite 37 files + ratchet ~80 ECDSA (mutation-tested). hermes constraints 16. Seed/ratchet chain end-to-end under `--real-engines` (cost $0).
+
+### Works with a ceiling
+hermes redaction + constraint gate (real, but GEPA judge is keyword overlap, not LLM). lev `--real-engines` demo (local Julia/JAX/PyTorch flip true; verdict stays `scratch_diagnostic`). daemon (in-process; cross-process e2e hardcoded off). memory (mock backends only).
+
+### Broken / fail-closed (not API-gated)
+lev flowmind 6/966 (missing fixtures), platforms 12/336, sdlc, browser, slate, harness 9/677 — missing fixtures and stale model strings. Codex-Ratchet `make tools`/`make sim` fail-closed on a hygiene gate (missing supervisor JSON; run `make maintenance-report` first).
+
+### Sim corpus census (2026-06-29, 137 agents, corrects an earlier overstatement)
+Ran + linted all 4,998 sims. v5 run-rate 72.5% (543/749 exit 0); lint-pass v5 62.2%, v4 70.8%, combined 69.5%. The dominant blocker is MISSING metadata, not bad values: `C1_classification_missing` 1,077 + `C2_manifest_missing` 589 + `C3_depth_missing` 533 = 94% of violations. The `CLASSIFICATION="lego"` issue I earlier called dominant is only 13 sims (`C1_classification_invalid`), and the linter's default scope is `system_v4/probes` — it does not even scan `system_v5/legos`. Three external models ruled the "lego is the systemic blocker" claim NOT_REAL (3/3). The fix is mechanical honest-per-sim metadata backfill + probe refresh — not auto-stamping classifications to pass lint. Census JSON in the session scratchpad.
+
+### By-construction green to distrust
+claimgate `doctor()` returns hardcoded `ok:true` without calling `gateObjectBinding`. lev voice plugin certifies a substring-match stub router. autoresearch `experiment.ts --help` exit 0 = import succeeded, not a CLI.
+
+### Self-corrections the cross-model fleet caught
+F1: the suite passes (~103 tests, exit 0) but the earlier "89/89" count was wrong (a whole handler test file was uncounted). F4: the seed chain is reachable from the CLI after all (only the bare demo fails). The external Chinese-model lane caught the count error the Claude agents made — the cross-model lane earning its place.
+
+---
+
+## 10. Cross-runtime skill registry (2026-06-29)
+
+Full typed registry of 367 runtime skills persisted at `skill_registry.json` (this directory). Counts by runtime: hermes 202, agents 73, codex-second 48, codex 41, claude 3. By category: orchestration 69, gate-quality 67, code-build 54, other 48, content 40, research 25, handoff-capture 20, skill-lifecycle 18, memory 16, mcp-index 10. Two malformed placeholders (`test-skill` in agents and claude) — exclude from any index.
+
+### First integration tranche (18 skills, all blocked behind the loader fix above)
+One runnable council, one Claude controller, two sim/tier orchestrators, the four-skill lifecycle cluster, five gate-quality auditors, the full handoff loop:
+`three-council-wizard-v4-3` (codex), `claude-wizard-loop-engineering` (claude), `tier-gate-watch-and-launch` (hermes), `hermes-sim-controller-orchestration` (hermes), `skill-builder`/`skill-creator`/`skill-discovery`/`skill-installer` (agents), `nominalist-harness-steering` (hermes), `codex-ratchet-sim-audit-spine` (codex), `codex-ratchet-tool-status-auditor` (codex-second), `lego-sim-classifier` (codex), `claude-to-codex-intake` (agents), `close`/`propose` (agents), `closeout-result-ingest` + `external-research-return-ingest` (codex), `a2-a1-memory-admission-guard` (codex).
+
+### Dedup: codex and codex-second are near-mirrors
+15 overlap groups, almost all codex↔codex-second duplicates (the wizard family, ingest paths, sim contracts, memory-admission-guard). Verdict pattern: where both copies are reference-only, keep one reference; where one is runnable, the runnable copy is canonical; where the skill carries per-runtime state (`a2-brain-refresh`, `codex-automation-controller`), leave it runtime-local. Codex is canonical home for the wizard/ingest rows; `.agents` is canonical for the lifecycle cluster.
+
+### Anti-laundering index scheme (Hermes's good idea, kept)
+One index per corpus, never merged: `idx_wiki_reference`, `idx_lev_runtime`, `idx_codexratchet_canon`, `idx_hermes_skills`, `idx_codex_skills`, `idx_codexsecond_skills`, `idx_claude_skills`, `idx_agents_skills`. Every row carries immutable `source_corpus`, `authority_level`, `runnable_vs_reference` — indexing never promotes them. A cross-corpus `view_skill_union` may exist for search only; it grants no authority and surfaces `source_corpus` on every row. Owner canon (Codex-Ratchet) beats a stale Hermes script regardless of mtime.
+
+### Do not integrate yet
+Anything that runs on a timer or calls models without a human in the loop: `codex-automation-controller`, `hermes-autoresearch`, the overnight/cron runners, the telegram gateway, the broad `hermes-wizard`. Tranche-three at the earliest.
+
+### Verify-then-trust
+Hermes-named skills are mostly real, but `find-skills`, `autodev-loop`, `sidequest` do not exist. The lifecycle cluster lives in `~/.agents/skills` as `skill-builder` / `skill-creator` / `skill-discovery` / `skill-installer`. Treat any name not found by direct registry search as absent, not a synonym.

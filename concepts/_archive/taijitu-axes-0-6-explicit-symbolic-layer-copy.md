@@ -8,6 +8,9 @@ tags: [reference, research, validation, system]
 sources:
   - raw/articles/system-v5-reference-docs/TAIJITU_AXES_0_6_EXPLICIT_SYMBOLIC_LAYER copy.md
 framing: legacy
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Taijitu Axes 0 6 Explicit Symbolic Layer Copy

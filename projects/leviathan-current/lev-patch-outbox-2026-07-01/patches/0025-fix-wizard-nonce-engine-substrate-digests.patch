@@ -1,0 +1,288 @@
+From e839741753b45facd09952289b7e6c7154c57c82 Mon Sep 17 00:00:00 2001
+From: Joshua-Eisenhart <40147598+Joshua-Eisenhart@users.noreply.github.com>
+Date: Tue, 30 Jun 2026 21:59:33 -0700
+Subject: [PATCH 25/35] fix(wizard): nonce engine substrate digests
+
+---
+ .../claim-gate-redteam-targets.test.ts        |  5 ++++
+ .../src/__tests__/projection-binding.test.ts  | 20 ++++++++++++++
+ .../graph/src/contracts/projection-binding.ts | 23 ++++++++++++++++
+ .../src/proof/claim-gate-wave-runner.test.ts  |  5 ++++
+ .../src/proof/lev-wizard-ratchet.test.ts      |  9 ++++++-
+ .../src/proof/lev-wizard-ratchet.ts           |  6 ++---
+ .../src/proof/real-three-engine-envelope.ts   | 27 ++++++++++++++++---
+ 7 files changed, 88 insertions(+), 7 deletions(-)
+
+diff --git a/core/graph/src/__tests__/claim-gate-redteam-targets.test.ts b/core/graph/src/__tests__/claim-gate-redteam-targets.test.ts
+index 484389abb..99b19d443 100644
+--- a/core/graph/src/__tests__/claim-gate-redteam-targets.test.ts
++++ b/core/graph/src/__tests__/claim-gate-redteam-targets.test.ts
+@@ -315,6 +315,11 @@ describe('ClaimGate red-team graph targets', () => {
+         wiki: 'reference_only',
+         hermes: 'skill_procedure_only',
+       },
++      execution: {
++        runId: 'lev-engine-substrate-run:redteam-fixture',
++        nonce: sha256Text('claim-gate-redteam-engine-substrate-nonce'),
++        issuedAt: '2026-06-30T00:00:00.000Z',
++      },
+       runtimeCarrier: envelope.runtimeCarrier!,
+       receipts: {
+         julia: envelope.mechanicalProbeReceipts!.julia!,
+diff --git a/core/graph/src/__tests__/projection-binding.test.ts b/core/graph/src/__tests__/projection-binding.test.ts
+index 9f7834385..f19ea729b 100644
+--- a/core/graph/src/__tests__/projection-binding.test.ts
++++ b/core/graph/src/__tests__/projection-binding.test.ts
+@@ -374,6 +374,11 @@ function validLevEngineSubstrateDigest(): LevEngineSubstrateDigest {
+       wiki: 'reference_only',
+       hermes: 'skill_procedure_only',
+     },
++    execution: {
++      runId: 'lev-engine-substrate-run:test-fixture',
++      nonce: sha256Text('projection-binding-engine-substrate-nonce'),
++      issuedAt: '2026-06-30T00:00:00.000Z',
++    },
+     runtimeCarrier: {
+       claimCeiling: 'carrier_path_receipted_not_current_corpus_proof',
+       carrierPath: '/Users/joshuaeisenhart/GitHub/lev/core/orchestration/src/probes/lev-sim-engine-carrier/graph-substrate',
+@@ -408,6 +413,8 @@ function hostExecutionWitnessForDigest(digest: LevEngineSubstrateDigest): LevEng
+     claimCeiling: 'host_execution_witness_not_transferable_authority',
+     authority: 'lev_host_mechanical_probe_runner',
+     digestHash: sha256Json(digest),
++    executionRunId: digest.execution.runId,
++    executionNonce: digest.execution.nonce,
+     runtimeCarrierPath: digest.runtimeCarrier.carrierPath,
+     receiptHashes: { ...digest.receiptHashes },
+     outputHashes: {
+@@ -936,6 +943,19 @@ describe('projection binding contracts', () => {
+     });
+   });
+ 
++  it('rejects an engine substrate digest when the witness nonce does not match the run', () => {
++    const digest = validLevEngineSubstrateDigest();
++    const witness: LevEngineSubstrateExecutionWitness = {
++      ...hostExecutionWitnessForDigest(digest),
++      executionNonce: sha256Text('stale-engine-substrate-nonce'),
++    };
++
++    expect(validateLevEngineSubstrateDigest(digest, { hostExecutionWitness: witness })).toEqual({
++      ok: false,
++      findings: ['hostExecutionWitness.executionNonce must match digest.execution.nonce'],
++    });
++  });
++
+   it('rejects reference repositories as Lev engine substrate runtime carriers', () => {
+     const digest: LevEngineSubstrateDigest = {
+       ...validLevEngineSubstrateDigest(),
+diff --git a/core/graph/src/contracts/projection-binding.ts b/core/graph/src/contracts/projection-binding.ts
+index 2411ea12e..ee5ae221d 100644
+--- a/core/graph/src/contracts/projection-binding.ts
++++ b/core/graph/src/contracts/projection-binding.ts
+@@ -220,6 +220,11 @@ export type LevEngineSubstrateDigest = {
+     wiki: 'reference_only';
+     hermes: 'skill_procedure_only';
+   };
++  execution: {
++    runId: string;
++    nonce: string;
++    issuedAt: string;
++  };
+   runtimeCarrier: EngineSubstrateRuntimeCarrier;
+   receipts: {
+     julia: MechanicalProbeReceiptEvidence;
+@@ -250,6 +255,8 @@ export type LevEngineSubstrateExecutionWitness = {
+   claimCeiling: 'host_execution_witness_not_transferable_authority';
+   authority: 'lev_host_mechanical_probe_runner';
+   digestHash: string;
++  executionRunId: string;
++  executionNonce: string;
+   runtimeCarrierPath: string;
+   receiptHashes: {
+     julia: string;
+@@ -738,6 +745,12 @@ function validateLevEngineSubstrateExecutionWitness(
+   if (witness.digestHash !== hashEvidence(digest)) {
+     findings.push('hostExecutionWitness.digestHash must match the validated digest');
+   }
++  if (witness.executionRunId !== digest.execution?.runId) {
++    findings.push('hostExecutionWitness.executionRunId must match digest.execution.runId');
++  }
++  if (witness.executionNonce !== digest.execution?.nonce) {
++    findings.push('hostExecutionWitness.executionNonce must match digest.execution.nonce');
++  }
+   if (witness.runtimeCarrierPath !== digest.runtimeCarrier?.carrierPath) {
+     findings.push('hostExecutionWitness.runtimeCarrierPath must match digest.runtimeCarrier.carrierPath');
+   }
+@@ -818,6 +831,7 @@ export function validateLevEngineSubstrateDigest(
+   const findings: string[] = [];
+   const candidate = recordOrEmpty(digest) as Partial<LevEngineSubstrateDigest>;
+   const sourcePolicy = recordOrEmpty(candidate.sourcePolicy);
++  const execution = recordOrEmpty(candidate.execution);
+   const graphInvariants = recordOrEmpty(candidate.graphInvariants);
+   const computeDomains = Array.isArray(candidate.computeDomains) ? candidate.computeDomains : [];
+   const intendedConsumers = Array.isArray(candidate.intendedConsumers) ? candidate.intendedConsumers : [];
+@@ -842,6 +856,15 @@ export function validateLevEngineSubstrateDigest(
+   if (sourcePolicy.hermes !== 'skill_procedure_only') {
+     findings.push('sourcePolicy.hermes must be skill_procedure_only');
+   }
++  if (typeof execution.runId !== 'string' || !execution.runId.startsWith('lev-engine-substrate-run:')) {
++    findings.push('execution.runId must be a lev-engine-substrate-run id');
++  }
++  if (!validSha256Ref(execution.nonce)) {
++    findings.push('execution.nonce must be a sha256 ref');
++  }
++  if (typeof execution.issuedAt !== 'string' || Number.isNaN(Date.parse(execution.issuedAt))) {
++    findings.push('execution.issuedAt must be an ISO timestamp');
++  }
+ 
+   if (!candidate.runtimeCarrier) findings.push('runtimeCarrier is required');
+   findings.push(...validateRuntimeCarrier(candidate.runtimeCarrier, 'all_three_full_sims'));
+diff --git a/core/orchestration/src/proof/claim-gate-wave-runner.test.ts b/core/orchestration/src/proof/claim-gate-wave-runner.test.ts
+index c554ffdc0..6ea322d54 100644
+--- a/core/orchestration/src/proof/claim-gate-wave-runner.test.ts
++++ b/core/orchestration/src/proof/claim-gate-wave-runner.test.ts
+@@ -139,6 +139,11 @@ function graphSubstrateDigestFixture(
+       wiki: 'reference_only',
+       hermes: 'skill_procedure_only',
+     },
++    execution: {
++      runId: 'lev-engine-substrate-run:test-fixture',
++      nonce: sha256Text('claim-gate-wave-runner-engine-substrate-nonce'),
++      issuedAt: '2026-06-30T00:00:00.000Z',
++    },
+     runtimeCarrier: {
+       claimCeiling: 'carrier_path_receipted_not_current_corpus_proof',
+       carrierPath: '/Users/joshuaeisenhart/GitHub/lev/core/orchestration/src/probes/lev-sim-engine-carrier/graph-substrate',
+diff --git a/core/orchestration/src/proof/lev-wizard-ratchet.test.ts b/core/orchestration/src/proof/lev-wizard-ratchet.test.ts
+index 8e6789bcb..d0141b486 100644
+--- a/core/orchestration/src/proof/lev-wizard-ratchet.test.ts
++++ b/core/orchestration/src/proof/lev-wizard-ratchet.test.ts
+@@ -367,6 +367,11 @@ function validLevEngineSubstrateDigest(): LevEngineSubstrateDigest {
+       wiki: 'reference_only',
+       hermes: 'skill_procedure_only',
+     },
++    execution: {
++      runId: 'lev-engine-substrate-run:test-fixture',
++      nonce: sha256Text('lev-wizard-ratchet-engine-substrate-nonce'),
++      issuedAt: '2026-06-30T00:00:00.000Z',
++    },
+     runtimeCarrier: {
+       claimCeiling: 'carrier_path_receipted_not_current_corpus_proof',
+       carrierPath: '/Users/joshuaeisenhart/GitHub/lev/core/orchestration/src/probes/lev-sim-engine-carrier/graph-substrate',
+@@ -403,6 +408,8 @@ function validLevEngineSubstrateExecutionWitness(
+     claimCeiling: 'host_execution_witness_not_transferable_authority',
+     authority: 'lev_host_mechanical_probe_runner',
+     digestHash: sha256Json(digest),
++    executionRunId: digest.execution.runId,
++    executionNonce: digest.execution.nonce,
+     runtimeCarrierPath: digest.runtimeCarrier.carrierPath,
+     receiptHashes: { ...digest.receiptHashes },
+     outputHashes: {
+@@ -610,7 +617,7 @@ describe('Lev Wizard Ratchet council run', () => {
+     expect(result.threeEngineReceiptManifest.engineSubstrateValidation).toEqual({
+       ok: false,
+       findings: expect.arrayContaining([
+-        'engine substrate digest: digest must be host-built by the Lev real-engine runner; caller-provided digest is projection-only',
++        'engine substrate digest: digest must be freshly host-built by the Lev real-engine runner; caller-provided or replayed digest is projection-only',
+       ]),
+     });
+     expect(result.gateLoopResult.failurePackets.length).toBeGreaterThan(0);
+diff --git a/core/orchestration/src/proof/lev-wizard-ratchet.ts b/core/orchestration/src/proof/lev-wizard-ratchet.ts
+index 5a3306ec4..e51091f9f 100644
+--- a/core/orchestration/src/proof/lev-wizard-ratchet.ts
++++ b/core/orchestration/src/proof/lev-wizard-ratchet.ts
+@@ -75,7 +75,7 @@ import {
+   type ClaimGateWaveRunResult,
+   type ClaimGateWaveRunThreeEngineRunner,
+ } from './claim-gate-wave-runner.js';
+-import { isHostBuiltLevEngineSubstrateDigest } from './real-three-engine-envelope.js';
++import { consumeHostBuiltLevEngineSubstrateDigest } from './real-three-engine-envelope.js';
+ 
+ export type LevWizardWavePhase =
+   | 'orientation'
+@@ -1321,13 +1321,13 @@ function validateEngineSubstrateDigestEvidence(
+     hostExecutionWitness: options.hostExecutionWitness,
+   });
+   const findings = validation.findings.map((finding) => `engine substrate digest: ${finding}`);
+-  if (!isHostBuiltLevEngineSubstrateDigest(digest)) {
++  if (!consumeHostBuiltLevEngineSubstrateDigest(digest)) {
+     if (options.testFixtureEngineAuthority === true && process.env.NODE_ENV === 'test') {
+       // Unit fixtures exercise non-engine gates without spawning Julia/JAX/PyTorch.
+       // Runtime callers cannot request this with a string option; tests must hold
+       // the explicit symbol-keyed capability.
+     } else {
+-      findings.push('engine substrate digest: digest must be host-built by the Lev real-engine runner; caller-provided digest is projection-only');
++      findings.push('engine substrate digest: digest must be freshly host-built by the Lev real-engine runner; caller-provided or replayed digest is projection-only');
+     }
+   }
+   return {
+diff --git a/core/orchestration/src/proof/real-three-engine-envelope.ts b/core/orchestration/src/proof/real-three-engine-envelope.ts
+index 1bdf58264..1627ac150 100644
+--- a/core/orchestration/src/proof/real-three-engine-envelope.ts
++++ b/core/orchestration/src/proof/real-three-engine-envelope.ts
+@@ -6,7 +6,7 @@
+ // Ceiling: a real engine-run envelope, not proof authority. The default carrier
+ // is stored in this Lev repo; override with LEV_SIM_ENGINE_CARRIER only when the
+ // alternate carrier is itself Lev-owned/approved.
+-import { createHash } from 'node:crypto';
++import { createHash, randomUUID } from 'node:crypto';
+ import { existsSync, mkdtempSync, readFileSync, realpathSync } from 'node:fs';
+ import { tmpdir } from 'node:os';
+ import { dirname, join, resolve } from 'node:path';
+@@ -130,10 +130,18 @@ function valueHash(value: unknown): string {
+   return `sha256:${createHash('sha256').update(JSON.stringify(value)).digest('hex')}`;
+ }
+ 
++function textHash(value: string): string {
++  return `sha256:${createHash('sha256').update(value).digest('hex')}`;
++}
++
+ const HOST_BUILT_ENGINE_SUBSTRATE_DIGEST_HASHES = new Set<string>();
+ 
+-export function isHostBuiltLevEngineSubstrateDigest(digest: LevEngineSubstrateDigest | undefined): boolean {
+-  return !!digest && HOST_BUILT_ENGINE_SUBSTRATE_DIGEST_HASHES.has(valueHash(digest));
++export function consumeHostBuiltLevEngineSubstrateDigest(digest: LevEngineSubstrateDigest | undefined): boolean {
++  if (!digest) return false;
++  const digestHash = valueHash(digest);
++  if (!HOST_BUILT_ENGINE_SUBSTRATE_DIGEST_HASHES.has(digestHash)) return false;
++  HOST_BUILT_ENGINE_SUBSTRATE_DIGEST_HASHES.delete(digestHash);
++  return true;
+ }
+ 
+ function markHostBuiltLevEngineSubstrateDigest(digest: LevEngineSubstrateDigest): LevEngineSubstrateDigest {
+@@ -141,6 +149,16 @@ function markHostBuiltLevEngineSubstrateDigest(digest: LevEngineSubstrateDigest)
+   return digest;
+ }
+ 
++function engineSubstrateExecution(): LevEngineSubstrateDigest['execution'] {
++  const runId = `lev-engine-substrate-run:${randomUUID()}`;
++  const issuedAt = new Date().toISOString();
++  return {
++    runId,
++    nonce: textHash(`${runId}:${issuedAt}:${randomUUID()}`),
++    issuedAt,
++  };
++}
++
+ export function buildRealThreeEngineEnvelope(): ThreeEngineProbeEnvelope {
+   const juliaScript = `${CARRIER}/foundation_r0_probe_quotient_refinement_julia.jl`;
+   const juliaResultsDir = mkdtempSync(join(tmpdir(), 'lev-r0-julia-results-'));
+@@ -316,6 +334,8 @@ export function buildLevEngineSubstrateExecutionWitness(
+     claimCeiling: 'host_execution_witness_not_transferable_authority',
+     authority: 'lev_host_mechanical_probe_runner',
+     digestHash: valueHash(digest),
++    executionRunId: digest.execution.runId,
++    executionNonce: digest.execution.nonce,
+     runtimeCarrierPath: digest.runtimeCarrier.carrierPath,
+     receiptHashes: { ...digest.receiptHashes },
+     outputHashes: {
+@@ -454,6 +474,7 @@ export function buildRealLevEngineSubstrateDigest(): LevEngineSubstrateDigest {
+       wiki: 'reference_only',
+       hermes: 'skill_procedure_only',
+     },
++    execution: engineSubstrateExecution(),
+     runtimeCarrier: {
+       claimCeiling: 'carrier_path_receipted_not_current_corpus_proof',
+       carrierPath: GRAPH_CARRIER,
+-- 
+2.50.1 (Apple Git-155)
+

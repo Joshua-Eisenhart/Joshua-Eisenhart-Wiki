@@ -1,0 +1,140 @@
+From 1c899f776c27ce24f168d69d4580ef047e927a14 Mon Sep 17 00:00:00 2001
+From: Joshua-Eisenhart <40147598+Joshua-Eisenhart@users.noreply.github.com>
+Date: Tue, 30 Jun 2026 17:37:09 -0700
+Subject: [PATCH 16/35] test(claim-gate): normalize engine projection
+ regressions
+
+---
+ .../src/proof/claim-gate-wave-runner.test.ts  | 104 +++++++++---------
+ 1 file changed, 52 insertions(+), 52 deletions(-)
+
+diff --git a/core/orchestration/src/proof/claim-gate-wave-runner.test.ts b/core/orchestration/src/proof/claim-gate-wave-runner.test.ts
+index f72ee895c..81b50aed9 100644
+--- a/core/orchestration/src/proof/claim-gate-wave-runner.test.ts
++++ b/core/orchestration/src/proof/claim-gate-wave-runner.test.ts
+@@ -702,9 +702,9 @@ describe('ClaimGate WaveRun V0', () => {
+     }
+   });
+ 
+-    it('blocks forged derived projections even when the runner echoes a fresh obligationHash', () => {
+-      const root = mkdtempSync(join(tmpdir(), 'claim-gate-wave-runner-'));
+-      try {
++  it('blocks forged derived projections even when the runner echoes a fresh obligationHash', () => {
++    const root = mkdtempSync(join(tmpdir(), 'claim-gate-wave-runner-'));
++    try {
+       const sessionId = 'claim-gate-wave-runner-session';
+       const result = runClaimGateWaveRun({
+         ...waveRunInput(root, {
+@@ -781,60 +781,60 @@ describe('ClaimGate WaveRun V0', () => {
+       expect(result.engineGraphOperationProposal).toBeNull();
+     } finally {
+       rmSync(root, { recursive: true, force: true });
+-      }
+-    });
++    }
++  });
+ 
+-    it('blocks graph-substrate obligations when a runner omits the derived projection', () => {
+-      const root = mkdtempSync(join(tmpdir(), 'claim-gate-wave-runner-'));
+-      try {
+-        const sessionId = 'claim-gate-wave-runner-session';
+-        const digestHash = sha256Text('host-built-engine-substrate-digest');
+-        const result = runClaimGateWaveRun({
+-          ...waveRunInput(root, {
+-            kind: 'ClaimGateCouncilWaveInput',
+-            sessionId,
+-            maxWaves: 1,
+-            waves: [
+-              {
+-                wave: 1,
+-                contract: testWaveContract(),
+-                claims: [
+-                  {
+-                    claimId: 'SIM_SCOPED',
+-                    payload: 'missing derived projection',
+-                    gateChecks: passingGateChecks(root, sessionId),
+-                  },
+-                ],
+-              },
+-            ],
+-          }),
+-          engineObligations: [
+-            engineObligation({
+-              obligationId: 'spinor-memory-projection',
+-              kind: 'spinor_memory_projection_probe',
+-              expectedOutputSchema: 'claim-gate-wave-run-engine-derived-projection-v0',
+-            }),
++  it('blocks graph-substrate obligations when a runner omits the derived projection', () => {
++    const root = mkdtempSync(join(tmpdir(), 'claim-gate-wave-runner-'));
++    try {
++      const sessionId = 'claim-gate-wave-runner-session';
++      const digestHash = sha256Text('host-built-engine-substrate-digest');
++      const result = runClaimGateWaveRun({
++        ...waveRunInput(root, {
++          kind: 'ClaimGateCouncilWaveInput',
++          sessionId,
++          maxWaves: 1,
++          waves: [
++            {
++              wave: 1,
++              contract: testWaveContract(),
++              claims: [
++                {
++                  claimId: 'SIM_SCOPED',
++                  payload: 'missing derived projection',
++                  gateChecks: passingGateChecks(root, sessionId),
++                },
++              ],
++            },
+           ],
+-          threeEngineRunner: ({ obligationHash }) => ({
+-            ok: true,
+-            obligationHash,
+-            evidenceRefs: [
+-              obligationHash,
+-              digestHash,
+-            ],
+-            engineSubstrateDigestHash: digestHash,
++        }),
++        engineObligations: [
++          engineObligation({
++            obligationId: 'spinor-memory-projection',
++            kind: 'spinor_memory_projection_probe',
++            expectedOutputSchema: 'claim-gate-wave-run-engine-derived-projection-v0',
+           }),
+-        });
++        ],
++        threeEngineRunner: ({ obligationHash }) => ({
++          ok: true,
++          obligationHash,
++          evidenceRefs: [
++            obligationHash,
++            digestHash,
++          ],
++          engineSubstrateDigestHash: digestHash,
++        }),
++      });
+ 
+-        expect(result.status).toBe('blocked');
+-        expect(result.engineObligationResults[0].findings).toContain('Host graph-substrate engine obligations must return a derived projection.');
+-        expect(result.engineGraphOperationProposal).toBeNull();
+-      } finally {
+-        rmSync(root, { recursive: true, force: true });
+-      }
+-    });
++      expect(result.status).toBe('blocked');
++      expect(result.engineObligationResults[0].findings).toContain('Host graph-substrate engine obligations must return a derived projection.');
++      expect(result.engineGraphOperationProposal).toBeNull();
++    } finally {
++      rmSync(root, { recursive: true, force: true });
++    }
++  });
+ 
+-    it('computes a stable obligationHash and changes it when claim, source, graph, or controls change', () => {
++  it('computes a stable obligationHash and changes it when claim, source, graph, or controls change', () => {
+     const root = mkdtempSync(join(tmpdir(), 'claim-gate-wave-runner-'));
+     try {
+       const sessionId = 'claim-gate-wave-runner-session';
+-- 
+2.50.1 (Apple Git-155)
+

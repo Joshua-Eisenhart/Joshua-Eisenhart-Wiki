@@ -9,6 +9,9 @@ sources:
   - raw/articles/legacy-books/the-grandmaster-of-the-universe-copy.md
   - https://arxiv.org/abs/2006.04120
 framing: mixed
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Free Energy Principle and Active Inference: Formal Reference

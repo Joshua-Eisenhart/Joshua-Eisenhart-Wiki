@@ -8,6 +8,9 @@ sources:
   - raw/articles/legacy-books/the-grandmaster-of-the-universe-copy.txt
   - raw/articles/legacy-books/the-dark-empress-a-practical-guide-to-universal-dominion-v6-1-2.txt
 framing: operational_reference_snapshot
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Anti-Reification and Nominalism Reference

@@ -1,3 +1,8 @@
+---
+status: superseded
+superseded_by: "inventory: classified STALE in wf8_wiki_inventory.md (2026-07-02)"
+---
+
 # Wiki Schema
 
 ## Domain

@@ -7,6 +7,9 @@ tags: [concept, research, tooling, formal, proof]
 sources:
   - raw/articles/new-docs/TOOLING_STATUS.md
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # TLAPS Temporal Proof Reference

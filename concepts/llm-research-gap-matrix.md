@@ -7,6 +7,9 @@ tags: [reference, research, system, planning]
 sources:
   - raw/articles/new-docs/LLM_RESEARCH_GAP_MATRIX.json
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # LLM Research Gap Matrix

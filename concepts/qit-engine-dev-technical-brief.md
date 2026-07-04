@@ -11,6 +11,9 @@ sources:
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/docs/CONSTRAINT_ON_DISTINGUISHABILITY_FULL_MATH.md
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/docs/07_model_math_geometry_sim_plan.md
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/docs/plans/sim_backlog_matrix.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # QIT Engine Dev Technical Brief

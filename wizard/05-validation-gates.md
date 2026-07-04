@@ -5,6 +5,9 @@ updated: 2026-04-28
 type: concept
 tags: [wizard, validation, receipt, route-truth, mmm, audit]
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Wizard Validation Gates

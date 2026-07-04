@@ -6,6 +6,9 @@ type: concept
 tags: [wizard, mmm, packet, receipt]
 framing: current
 source_path: runs/opus_20_wave_advisory_20260428/codex_decision.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Opus 20-Task Advisory Decision Record

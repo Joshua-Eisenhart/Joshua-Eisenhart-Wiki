@@ -24,34 +24,24 @@ Current truth:
 3. Tool-gap and capability-ledger surfaces that describe still-open capability holes.
 4. External-source ingest such as `lev_mega_book_curated.pdf`, but only with explicit bridge fencing.
 
-## Queue A — ingest first: repo-current doctrine / bridge docs
+## Queue A — repo-current doctrine / bridge docs status map
 
-These look like the highest-value next public routing/deepening candidates from `system_v5/new docs/` and `system_v5/new docs/plans/`:
+2026-07-03 path/status audit: the live Codex Ratchet repo stores these surfaces under `system_v5/docs/`, not the older `system_v5/new docs/` path. This table is a routing/project-tracker snapshot only: this tick checked file presence and wiki landing routes, and reread `AGENTS.md`, `LLM_CONTROLLER_CONTRACT.md`, `NOMINALIST_CS_AND_JP_SYSTEMS_TERMS.md`, and `OWNER_DOCTRINE_SELF_SIMILAR_FRAMEWORKS.md` for authority shape. It did not rerun repo tests, validators, or result artifacts.
 
-- `plans/geometry_stack_ratchet_doctrine.md`
-  - why: likely a strong geometry-order/stack doctrine surface that should connect to current geometry/support pages
-- `LLM_CONTROLLER_CONTRACT.md`
-  - why: truth-label discipline and hard-stop language should stay tightly routed under the front door as the wiki deepens
-- `ENFORCEMENT_AND_PROCESS_RULES.md`
-  - why: build-order and process-standard framing belong close to the anti-drift controller contract and should remain visibly distinct from finished proof
-- `ANOMALOUS_COMPUTER_SCIENCE_TRANSLATION.md`
-  - why: looks like a direct bridge page between system-native framing and CS/runtime language
-- `NOMINALIST_CS_AND_JP_SYSTEMS_TERMS.md`
-  - why: likely strong bridge/crosswalk material for nominalist-CS / JP-facing vocabulary
-- `OWNER_DOCTRINE_SELF_SIMILAR_FRAMEWORKS.md`
-  - why: likely live owner-side doctrine support for existing framework/teleology/self-similar surfaces
-- `LEGACY_CONTEXT_AND_GENEALOGY.md`
-  - why: likely the cleanest repo-current source for preserving the system's older idea genealogy without flattening it into present authority
-- `plans/TOOL_CAPABILITY_AND_INTEGRATION_LEDGER.md`
-  - why: likely live capability-gap ledger that should tighten wiki tooling-status / tool-capability routing
-- `TOOL_LEGO_INTEGRATION_MATRIX.md`
-  - why: likely live matrix surface that may deserve a cleaner wiki router / support note
-- `plans/sim_process_gap_log.md`
-  - why: likely direct support for current process-gap and controller-maintenance pages
-- `V5_CONTENT_GAP_ANALYSIS.md`
-  - why: explicit gap surface; useful for planning what repo doctrine still lacks clean wiki landing
-- `CLASSICAL_DOC_ILLUMINATION_INDEX.md`
-  - why: likely useful as a bounded support router for classical doctrine mirrors
+| Repo-current source | Wiki landing / status | Next action |
+|---|---|---|
+| `system_v5/docs/plans/plans/geometry_stack_ratchet_doctrine.md` | [[geometry-stack-ratchet-doctrine]] exists | landed; keep as support/router, not proof |
+| `system_v5/docs/LLM_CONTROLLER_CONTRACT.md` | [[llm-controller-contract]] exists | landed; keep status-label discipline close to front doors |
+| `system_v5/docs/ENFORCEMENT_AND_PROCESS_RULES.md` | [[enforcement-and-process-rules]] exists | landed; use for build-order/process guardrails |
+| `system_v5/docs/ANOMALOUS_COMPUTER_SCIENCE_TRANSLATION.md` | [[anomalous-computer-science-translation]] exists | landed; keep as CS translation layer |
+| `system_v5/docs/NOMINALIST_CS_AND_JP_SYSTEMS_TERMS.md` | [[nominalist-cs-jp-systems-bridge]] exists under the repo-declared mirror slug | landed as bridge/crosswalk; do not create duplicate slug |
+| `system_v5/docs/OWNER_DOCTRINE_SELF_SIMILAR_FRAMEWORKS.md` | [[self-similar-frameworks-and-teleological-doctrine]] exists under the repo-declared mirror slug | landed as doctrine/support mirror; do not create duplicate slug |
+| `system_v5/docs/LEGACY_CONTEXT_AND_GENEALOGY.md` | [[legacy-context-and-genealogy]] exists | landed; preserves genealogy without present-tense promotion |
+| `system_v5/docs/plans/plans/TOOL_CAPABILITY_AND_INTEGRATION_LEDGER.md` | [[tool-capability-and-integration-ledger]] exists | landed; use for capability-gap/tool-routing questions |
+| `system_v5/docs/TOOL_LEGO_INTEGRATION_MATRIX.md` | [[tool-lego-integration-matrix]] exists | landed; use as matrix/router support |
+| `system_v5/docs/plans/plans/sim_process_gap_log.md` | no public wiki landing found in this tick | open Queue A gap; next bounded candidate after routing work |
+| `system_v5/docs/V5_CONTENT_GAP_ANALYSIS.md` | [[v5-content-gap-analysis]] exists | landed; use as gap-planning surface |
+| `system_v5/docs/CLASSICAL_DOC_ILLUMINATION_INDEX.md` | no public wiki landing found in this tick | open Queue A gap; candidate support-router tranche after `sim_process_gap_log` |
 
 ## Queue B — ingest soon: result / sim artifact families
 
@@ -194,13 +184,13 @@ Large body of source material in `system_v5/READ ONLY Reference Docs/` that is o
 
 ### E4. Recommended ingest approach (one tranche at a time)
 
-2026-06-04 routing correction: PEPS3D references in older wiki/repo routing are stale; CTMRG/PEPS3D is retired as load-bearing per the 2026-06-03 session handoff. The current honest Codex Ratchet spine is the deflation map, and the verdict audit receipt provides fresh evidence for wiki routing. See [[deflation-map-2026-06-04]] and [[verdict_audit_receipt_2026-06-04|verdict audit receipt 2026-06-04]].
+2026-07-01 routing correction: PEPS3D references in older wiki/repo routing are stale, but do not say CTMRG is globally retired. The retired carrier is the single-fused PEPS3D contraction; CTMRG remains admissible inside nested 2D PEPSKit layers when a receipt carries contraction-error certificates. The current honest Codex Ratchet spine is the deflation map and nested PEPS2D/Hopfield-plus-certified-carrier routing, and the verdict audit receipt remains prior-audit evidence for wiki routing. See [[deflation-map-2026-06-04]] and [[verdict_audit_receipt_2026-06-04|verdict audit receipt 2026-06-04]].
 
 1. Completed: `TAIJITU_PROBE_RECONCILIATION_CARD` → [[taijitu-probe-reconciliation-card]]. Keep it as a symbolic-reconciliation digest, not a front-door doctrine page.
 2. Completed: `JUNGIAN_FUNCTIONS_AND_IGT_EXPLICIT_MATH_GEOMETRY_MAP` → [[jungian-functions-and-igt-explicit-math-geometry-map]]. Keep geometry, operator math, ordered tokens, and stage grammar explicitly separate.
 3. Completed: artifact audit of the atom chain and nearest follow-ons → [[igt-atom-result-audit]]. Keep the audit honest: `exists` only unless rerun in-session.
 4. Blocked: local rerun of the seven-atom chain with the repo interpreter. Do not treat this as the next active wiki spine until the blocker is cleared and rerun evidence exists.
-5. Next: route Codex Ratchet pages through the deflation map and verdict audit evidence; patch stale carrier references without promoting PEPS3D/CTMRG.
+5. Next: route Codex Ratchet pages through the deflation map and verdict audit evidence; patch stale carrier references by separating retired single-fused PEPS3D from still-valid per-2D-layer CTMRG, without promoting any carrier to formal admission.
 6. Then: I-Ching hexagram structure sim (`sim_iching_trigram_adjacency`, `sim_iching_hexagram_structure`) — pure combinatorial, no QIT framing.
 7. Do NOT ingest as: convergence claims, doctrine updates, or QIT engine evidence.
 
@@ -311,10 +301,17 @@ Next safe source tranche: proceed in packet order without widening into a giant 
 - 2026-06-13 amendment: front doors now name the current binding as **v4.3**: v4.3 object-preservation / maintenance preflight where scoped, legacy v4.2 provenance thereafter.
 - this does not complete the wiki; it only fixes the immediate front-door routing error.
 
-**Next tranche: Queue E local rerun — blocked/deferred by Codex Ratchet status snapshot**
-- Gate status: `UNBLOCKED` (2026-06-04). The 9 pending codex2 verdicts have been independently audited and rerun — see [[deflation-map-2026-06-04]] and `wizard/hermes-version-current/verdict_audit_receipt_2026-06-04.md`. 8/9 audit-confirmed, 1 fabricated.
-- The seven-atom local rerun is no longer the gating item. The gate is now the IGT source extraction: processing the 10 source docs in `system_v5/READ ONLY Reference Docs/` into structured axis→math mappings, engine patterns, and testable predictions.
-- Active: codex2 (GPT-5.5 xhigh) is extracting from all 10 IGT/axes/terrain source docs (~3,400 lines) into `/tmp/igt_source_extraction.md`. When it lands, the next wiki move is creating pages that carry the actual patterns in testable form.
+**Current Queue E status: IGT source extraction is already public-routed and source-hash checked (verified 2026-06-30)**
+- Gate status: `UNBLOCKED` snapshot (2026-06-04). The 9 pending codex2 verdicts were independently audited and rerun at that time — see [[deflation-map-2026-06-04]] and `wizard/hermes-version-current/verdict_audit_receipt_2026-06-04.md`. 8/9 were audit-confirmed and 1 was fabricated. Do not treat this line as a fresh rerun unless a later tick reruns it.
+- The seven-atom local rerun is no longer the named gating item in this queue. The already-landed extraction page is [[igt-axes-terrain-source-extraction-2026-06-04]], which processes the 10 listed source docs into structured axis→math mappings, engine patterns, testable predictions, and open discriminators.
+- 2026-06-29 cron guard: `/tmp/igt_source_extraction.md` was absent when checked, so the earlier `Active: codex2 ... is extracting` line is now stale prior-plan language, not a live worker fact. The 10 listed source docs were present on disk, but no extraction artifact was promoted from `/tmp` in that tick.
+- 2026-06-29 routing repair: this cron tick directly read [[igt-axes-terrain-source-extraction-2026-06-04]], confirmed it is already indexed, added frontmatter/role fences, and routed it through [[current-research-overlays]] and [[topic-map]]. Claim ceiling: dated source-processing page plus routing coherence only; no fresh extraction rerun, no source-hash recomputation, no sim rerun, and no QIT/Axis/trigram promotion.
+- 2026-06-30 source-freshness recheck: the ten listed docs were present at both the off-vault READ ONLY source root and the wiki-local raw mirror; all SHA256 values matched the existing [[igt-axes-terrain-source-extraction-2026-06-04]] source table, and desktop/wiki raw copies matched byte-for-byte. This was freshness/routing evidence only, not a new extraction or sim rerun.
+- 2026-06-30 Axis3 discriminator-design tranche: the bounded Axis3 inner/outer-vs-chirality/type test design was added to [[igt-axes-terrain-source-extraction-2026-06-04]]. Claim ceiling: proposal/test design only; no sim was run, and Axis3 remains strongest-as-inner/outer but still open against live chirality/type/flux alternatives until a finite observable test excludes them.
+- 2026-07-01 Axis5 discriminator-design tranche: the bounded Axis5 symbolic-overlay test design was added to [[igt-axes-terrain-source-extraction-2026-06-04]]. Claim ceiling: proposal/test design only; no sim was run, and Axis5 remains strong as an operator/generator-family split while S-curve, lobe-weighting, `FeFi`/`TiTe`/`TeTi`, and unequal-win/loss language remain live overlays until finite observables exclude or admit them.
+- 2026-07-02 64-slot scaffold-fencing tranche: the stale Ax3/Ax4/Ax5 line meanings from `64_HEXAGRAM_STATE_SPACE.md` were routed into [[igt-axes-terrain-source-extraction-2026-06-04]] as a fence, not a duplicate concept page. Claim ceiling: source/routing guard only; no sim was rerun, and the prior `eng_64_hexagram_julia_results.json` remains snapshot evidence (`tool_lego_fit_probe`, `promotion_allowed=false`, `n_distinct=16`).
+- 2026-07-02 Axis4 discriminator-design tranche: the bounded Axis4 symbol-direction test design was added to [[igt-axes-terrain-source-extraction-2026-06-04]]. Claim ceiling: proposal/test design only; no sim was run, and Axis4 remains strong as a noncommuting order split while clockwise/counterclockwise and older `TiFe`/`FeTi` visual-direction language stay live overlays until finite observables exclude or admit them.
+- Next safe wiki move: step back to the broader project tracker/repo-current queue before adding more IGT prose, unless a future owner/controller request explicitly asks for another IGT symbolic-overlay tranche.
 
 Best external tranche, but later:
 - LEV book title/introduction/TOC ingest as a fenced bridge-only lane

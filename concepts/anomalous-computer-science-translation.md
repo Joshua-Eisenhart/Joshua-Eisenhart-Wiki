@@ -6,6 +6,9 @@ type: concept
 tags: [translation, computer-science, state-machine, compiler, harness, validation]
 sources:
   - system_v5/docs/ANOMALOUS_COMPUTER_SCIENCE_TRANSLATION.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Anomalous Computer Science Translation

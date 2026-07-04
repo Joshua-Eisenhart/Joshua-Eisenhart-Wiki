@@ -1,7 +1,7 @@
 ---
 title: Leviathan Current Content Index
 created: 2026-06-18
-updated: 2026-06-25
+updated: 2026-07-03
 type: project-index
 status: active
 claim_ceiling: content map and reading order; not implementation proof
@@ -14,6 +14,19 @@ This is the human-facing entrypoint for the current `lev-os/leviathan` wiki work
 The content exists under `projects/leviathan-current/`. The strongest pages are source-grounded maps and explanations; the receipt pages are there to show what was read, what was blocked, and what was not proven.
 
 ## Current reset point
+
+CURRENT MASTER STATUS + PLAN (start here): [[projects/leviathan-current/lev-waverun-work-plan-and-status-2026-07-01]] — audit-corrected work plan for the WaveRun/ClaimGate patch on branch `patch/waverun-engine-gates-20260630`. Trust-spine status (Blocker A-prime CLOSED at 408267f51), corrected sequencing (close trust -> real-engine CI -> fixed-point loop law -> councils -> memory -> CR packet), the do-not-do audit corrections (graph-apply authority is in-process by design; 1c899f776 is vacuous), the 11 uncommitted plugin fixes, model routing, and evidence receipts under `lev-waverun-session-receipts-2026-07-01/`.
+
+Current Leviathan / CR / constraint-core merge cluster:
+
+- [[projects/leviathan-current/RELEVANT_DOCS_INDEX_2026-07-02]] — July 2026 relevance router over the merge program, feeder docs, stale surfaces, and cross-linked finds.
+- [[projects/leviathan-current/ONE_SYSTEM_THREE_PERSPECTIVES_2026-07-02]] — charter for Lev runtime, mesh protocol, and CR evidence estate as one receipt-bound loop shape with separate authorities.
+- [[projects/leviathan-current/MESH_NODE_PROTOCOL_V0_2026-07-02]] — current Josh/JP two-node mesh protocol for artifact exchange, peer witness, and receiving-node verification.
+- [[projects/leviathan-current/KERNEL_UPGRADES_LEVIATHAN_2026-07-02]] — kernel integration horizon map and privacy-membrane sim spec under scratch ceilings.
+- [[projects/leviathan-current/LEVIATHAN_CONSTRUCT_TO_MESH_MAP_2026-07-02]] — Leviathan v3.2 construct map to current mesh/agent-network evidence, fenced social claims, and buildable backlog.
+- [[projects/leviathan-current/source/README]] — archived v3.2 source provenance note and unrecovered v1-v3.1 lineage gap.
+- [[projects/constraint-core/LINEAGE_AND_VERDICTS_2026-07-02]] — constraint-core lineage/verdict snapshot; hypothetical paths stay non-canon.
+- [[projects/constraint-core/RATCHET_STATE_BY_TIER_2026-07-02]] — constraint-core tier map preserving canon lane, scratch lane, and owner-reserved decisions.
 
 Start with the current source split before reading older Packet 2 runtime pages:
 

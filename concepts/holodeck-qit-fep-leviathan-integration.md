@@ -12,6 +12,9 @@ sources:
   - /Users/joshuaeisenhart/wiki/concepts/fep-and-active-inference-reference.md
   - /Users/joshuaeisenhart/wiki/concepts/sophisticated-inference-active-inference.md
   - /Users/joshuaeisenhart/wiki/concepts/leviathan-framework.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Holodeck, QIT Engines, FEP, and Leviathan Integration

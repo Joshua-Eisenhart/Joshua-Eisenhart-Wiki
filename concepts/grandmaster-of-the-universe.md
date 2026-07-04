@@ -10,6 +10,9 @@ sources:
   - raw/articles/legacy-books/the-grandmaster-of-the-universe-copy.txt
 framing: legacy
 priming: false
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # The Grandmaster of the Universe

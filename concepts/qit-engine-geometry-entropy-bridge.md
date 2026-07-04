@@ -1,7 +1,7 @@
 ---
 title: QIT Engine Geometry Entropy Bridge
 created: 2026-04-07
-updated: 2026-06-06
+updated: 2026-07-01
 type: concept
 tags: [architecture, simulation, validation, system, quantum, geometry, entropy, constraints]
 sources:
@@ -11,6 +11,9 @@ sources:
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/docs/SIM_ESTATE_INTEGRATION_INDEX.md
   - concepts/model-convergence-qit-engine-full-stack.md
 framing: mixed
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # QIT Engine Geometry Entropy Bridge
@@ -25,7 +28,7 @@ The bridge is not "entropy in general"; it is the narrow map from geometry/histo
 ## Current v5 status note
 Current v5 evidence keeps the bridge and Axis0 status open. The current sim-estate index admits several Axis0 candidates as formal-scout pressure, blocks `path_entropy` and holographic boundary/interior reconstruction as downstream candidates, and preserves the scalar projection blocker as `admitted=false`.
 
-2026-06-04 carrier correction: PEPS/PEPS3D fixture language is stale for current carrier routing. CTMRG/PEPS3D is retired as load-bearing; current carrier surfaces are ITensors-MPS, exact dense/TensorKit, QuantumClifford, and spinor-native trajectories, with JAX and Julia primary in parallel. PyTorch/autograd, auto_LiRPA, le-wm, and graph/proof tools remain evidence surfaces only when a current receipt gives them a non-tautological role. None of these closes the bridge theorem.
+2026-07-01 carrier correction: PEPS/PEPS3D fixture language is stale for current carrier routing. The retired path is the single-fused PEPS3D contraction; CTMRG remains usable inside nested 2D PEPSKit layers when contraction-error certificates bound the readout. Current carrier surfaces are nested PEPS2D/Hopfield connection geometry, ITensors-MPS, exact dense/TensorKit, QuantumClifford, and spinor-native trajectories, with JAX and Julia primary in parallel. PyTorch/autograd, auto_LiRPA, le-wm, and graph/proof tools remain evidence surfaces only when a current receipt gives them a non-tautological role. None of these closes the bridge theorem.
 
 ## What the master table is doing
 The master table partitions the stack into four different roles:

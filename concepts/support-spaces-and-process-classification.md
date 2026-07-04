@@ -8,6 +8,9 @@ sources:
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/03_topological_foundations.md
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/14_continuous_geometry.md
 framing: mixed
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Support Spaces and Process Classification

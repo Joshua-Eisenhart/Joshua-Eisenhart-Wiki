@@ -1711,7 +1711,7 @@ lifted-base path:
 Current carrier correction:
 
 ```text
-CTMRG/PEPS3D is retired as the load-bearing carrier for this lane.
+Single-fused PEPS3D contraction is retired as the load-bearing carrier for this lane; CTMRG remains valid inside nested 2D PEPSKit layers when contraction-error certificates bind the readout.
 
 Current scratch carrier story:
   nested PEPS2D / Hopfield connection geometry

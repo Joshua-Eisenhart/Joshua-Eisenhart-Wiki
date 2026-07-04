@@ -7,6 +7,9 @@ tags: [reference, research, system]
 sources:
   - raw/articles/new-docs/SYSTEM_ARCHITECTUREREFERENCE.md
 framing: mixed
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # System Architecture Reference

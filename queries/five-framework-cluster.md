@@ -5,6 +5,9 @@ updated: 2026-04-24
 type: query
 tags: [query, reference, navigation, constraints]
 framing: mixed
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Five Self-Similar Frameworks — Query/Recall

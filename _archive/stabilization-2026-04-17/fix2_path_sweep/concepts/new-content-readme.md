@@ -7,6 +7,9 @@ tags: [reference, research, system, metadata]
 sources:
   - raw/articles/new-docs/new content/README.md
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # New Content Drop Zone

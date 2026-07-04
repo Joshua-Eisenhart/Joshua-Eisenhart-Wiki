@@ -11,6 +11,9 @@ spec_mirrors:
   - /Users/joshuaeisenhart/wiki/specs/codex-ratchet/sim-estate-integration-status.md
 framing: legacy_handoff_snapshot
 priming: false
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # System Context Handoff -- Legacy

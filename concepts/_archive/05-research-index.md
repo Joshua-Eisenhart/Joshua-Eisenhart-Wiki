@@ -7,6 +7,9 @@ framing: current
 tags: [reference, research, system]
 sources:
   - raw/articles/new-docs/05_research_index.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Research Index — Compression and Systems Math

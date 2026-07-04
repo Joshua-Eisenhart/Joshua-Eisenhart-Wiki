@@ -10,6 +10,9 @@ sources:
   - /Users/joshuaeisenhart/wiki/concepts/enforcement-and-process-rules.md
   - /Users/joshuaeisenhart/wiki/concepts/llm-bias-inversion-rules.md
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Nominalist Translation Rules

@@ -13,6 +13,9 @@ sources:
   - /Users/joshuaeisenhart/wiki/concepts/stochastic-thermodynamics-reference.md
   - /Users/joshuaeisenhart/wiki/concepts/attractor-basins-formal-reference.md
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # QIT Vocabulary Discipline Reference

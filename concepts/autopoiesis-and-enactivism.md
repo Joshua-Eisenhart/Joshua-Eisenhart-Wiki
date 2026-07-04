@@ -13,6 +13,9 @@ sources:
   - raw/articles/new-docs/references/VIABILITY_THEORY_REFERENCE.md
   - raw/articles/new-docs/references/FEP_AND_ACTIVE_INFERENCE_REFERENCE.md
   - raw/articles/system-v5-reference-docs/Older Legacy/The Grandmaster of the Universe.txt
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Autopoiesis and Enactivism

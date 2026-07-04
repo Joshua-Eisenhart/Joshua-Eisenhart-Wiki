@@ -1,7 +1,7 @@
 ---
 title: Axis0 Current Doctrine State Card
 created: 2026-04-10
-updated: 2026-06-04
+updated: 2026-07-01
 type: summary
 tags: [reference, system, status, constraints, research]
 sources:
@@ -9,6 +9,9 @@ sources:
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/docs/SIM_ESTATE_INTEGRATION_INDEX.md
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/ops/formal_scouts/results/axis0_plural_candidate_multicarrier_drive_controls_probe_results.json
 framing: historical_status_router
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Axis0 Current Doctrine State Card
@@ -59,7 +62,7 @@ The latest mirrored v5 sim-estate status keeps Axis0 `open_partial`, not solved.
 - Admitted current candidates: `fep_gradient_polarity`, `correlation_diversity_derivative`, `retrocausal_many_futures_policy_scoring`.
 - Blocked downstream candidates: `path_entropy`, `holographic_boundary_interior_reconstruction`.
 - Scalar projection blocker: `admitted=false`; per-candidate controls still project through scalar-weighted carrier actuation.
-- 2026-06-04 carrier correction: historical fixture names such as `axis0_vector_bundle_thirteen_shell_pytorch_peps3d_lirpa_noncollapse_probe` are formal-scout pressure only. PEPS3D/CTMRG is not current carrier authorization; current carrier routing is ITensors-MPS, exact dense/TensorKit, QuantumClifford, and spinor-native trajectories, with JAX and Julia primary in parallel. PyTorch is legacy/comparison/helper unless a current receipt bounds it.
+- 2026-07-01 carrier correction: historical fixture names such as `axis0_vector_bundle_thirteen_shell_pytorch_peps3d_lirpa_noncollapse_probe` are formal-scout pressure only. They do not authorize the retired single-fused PEPS3D contraction as a current carrier. CTMRG remains usable inside nested 2D PEPSKit layers only when contraction-error certificates bound the readout. Current carrier routing is nested PEPS2D/Hopfield connection geometry, ITensors-MPS, exact dense/TensorKit, QuantumClifford, and spinor-native trajectories, with JAX and Julia primary in parallel. PyTorch role follows current receipt/spec-mirror boundaries, not this historical fixture name alone.
 
 This v5 pointer controls the status reading. Older earned items below remain useful genealogy and support, but their volume must not be read as final Axis0 promotion.
 

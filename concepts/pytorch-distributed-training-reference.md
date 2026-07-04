@@ -11,6 +11,9 @@ sources:
   - /Users/joshuaeisenhart/wiki/concepts/probe-doc-result-map.md
   - /Users/joshuaeisenhart/wiki/raw/articles/new-docs/TODO.md
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # PyTorch Distributed Training Reference

@@ -10,6 +10,9 @@ sources:
   - concepts/anti-reification-and-nominalism-reference.md
   - concepts/entropic-monism-origin-and-cosmology.md
 framing: nominalist
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Platonic Nominalism

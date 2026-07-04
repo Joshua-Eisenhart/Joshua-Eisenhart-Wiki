@@ -9,6 +9,9 @@ sources:
   - raw/articles/new-docs/AXIS_AND_ENTROPY_REFERENCE.md
   - raw/articles/new-docs/CONSTRAINT_ON_DISTINGUISHABILITY_FULL_MATH.md
 framing: mixed
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Axis 0 Spec Options

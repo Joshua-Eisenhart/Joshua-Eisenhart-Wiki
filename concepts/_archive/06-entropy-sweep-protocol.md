@@ -7,6 +7,9 @@ framing: current
 tags: [reference, research, validation]
 sources:
   - raw/articles/new-docs/06_entropy_sweep_protocol.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Entropy Sweep Protocol — Base Constraints Upward

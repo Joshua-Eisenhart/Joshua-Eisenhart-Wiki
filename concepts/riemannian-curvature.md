@@ -8,6 +8,9 @@ sources:
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v4/probes/sim_pure_lego_riemannian_curvature.py
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v4/probes/sim_cvc5_riemannian_curvature_constraint.py
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Riemannian Curvature on State Space

@@ -7,6 +7,9 @@ framing: archived_source_snapshot
 tags: [reference, research, system]
 sources:
   - raw/articles/new-docs/09_research_inventory_and_foundations.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 Archived source-bundle snapshot. Any current/canonical/proven language here is

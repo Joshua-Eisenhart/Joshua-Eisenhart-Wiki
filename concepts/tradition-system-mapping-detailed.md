@@ -7,6 +7,9 @@ tags: [reference, research, mapping]
 sources:
   - raw/articles/new-docs/TRADITION_SYSTEM_MAPPING_DETAILED.md
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Tradition-System Mapping (Detailed)

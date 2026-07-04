@@ -7,6 +7,9 @@ tags: [reference, research, symbolic, digest, igt]
 sources:
   - raw/articles/system-v5-reference-docs/TAIJITU_PROBE_RECONCILIATION_CARD copy.md
 framing: mixed
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Taijitu Probe Reconciliation Card

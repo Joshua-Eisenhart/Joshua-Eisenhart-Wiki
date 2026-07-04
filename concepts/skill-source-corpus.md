@@ -7,6 +7,9 @@ tags: [reference, research, system]
 sources:
   - raw/articles/system-v5-reference-docs/Older Legacy/SKILL_SOURCE_CORPUS.md
 framing: mixed
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Skill Source Corpus

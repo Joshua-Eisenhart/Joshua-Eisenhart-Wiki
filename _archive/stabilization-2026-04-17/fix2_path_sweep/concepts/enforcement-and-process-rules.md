@@ -3,6 +3,9 @@ title: Enforcement And Process Rules
 type: concept
 updated: 2026-04-17
 sources: ["/Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/new docs/ENFORCEMENT_AND_PROCESS_RULES.md"]
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Enforcement and Process Rules

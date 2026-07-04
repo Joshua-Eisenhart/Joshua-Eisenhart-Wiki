@@ -13,6 +13,9 @@ sources:
   - /Users/joshuaeisenhart/wiki/concepts/llm-ontology-smuggling-reference.md
   - /Users/joshuaeisenhart/wiki/concepts/probe-doc-result-map.md
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Constraint Surface — Translated Companion

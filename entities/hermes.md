@@ -9,6 +9,9 @@ sources:
   - raw/articles/new-docs/archive_old/HERMES_STACK_AND_ADDONS_PLAN.md
   - raw/articles/new-docs/archive_old/BOUNDED_HERMES_INGESTION_PROTOCOL.md
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Hermes

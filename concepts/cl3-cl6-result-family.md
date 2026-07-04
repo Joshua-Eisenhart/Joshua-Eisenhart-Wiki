@@ -10,6 +10,9 @@ sources:
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v4/probes/sim_cl6_even_subalgebra_closure.py
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v4/probes/sim_clifford_deep_cl3_rotor_double_cover.py
 framing: script_grounded_family_digest
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Cl(3) / Cl(6) Result Family

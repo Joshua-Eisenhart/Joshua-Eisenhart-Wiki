@@ -11,6 +11,9 @@ sources:
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v4/probes/a2_state/sim_results/gstructure_compatibility_coupling_results.json
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v4/docs/AXIS_0_1_2_QIT_MATH.md
 framing: mixed
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # G-Structure Tower

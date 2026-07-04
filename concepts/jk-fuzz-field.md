@@ -11,6 +11,9 @@ sources:
   - raw/articles/new-docs/OWNER_THESIS_AND_COSMOLOGY.md
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v4/docs/AXIS0_ENTROPIC_MONISM_DOCTRINE_BRIDGE.md
 framing: mixed
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # JK Fuzz Field

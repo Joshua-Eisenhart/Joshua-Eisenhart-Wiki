@@ -7,6 +7,9 @@ tags: [reference, research, mathematics, system]
 sources:
   - raw/articles/new-docs/ENGINE_MATH_REFERENCE.md
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Engine Math Reference

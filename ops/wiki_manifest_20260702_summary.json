@@ -1,0 +1,8 @@
+{
+  "manifest": "ops/wiki_manifest_20260702.jsonl",
+  "missing_frontmatter": "ops/missing_frontmatter_20260702.txt",
+  "no_frontmatter": 1416,
+  "stale_marked": 748,
+  "stale_signal": 986,
+  "total": 2648
+}

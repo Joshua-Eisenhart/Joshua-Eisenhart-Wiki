@@ -8,6 +8,9 @@ sources:
   - raw/articles/new-docs/TOOLING_STATUS.md
   - raw/articles/new-docs/references/FORMAL_METHODS_AND_WITNESS_DISCIPLINE_REFERENCE.md
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Z3 SMT Solver Reference

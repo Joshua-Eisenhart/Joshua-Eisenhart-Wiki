@@ -10,6 +10,9 @@ sources:
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/new docs/ENGINE_MATH_REFERENCE.md
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/new docs/17_actual_lego_registry.md
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/new docs/plans/sim_backlog_matrix.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Pauli On Weyl Loop Interaction

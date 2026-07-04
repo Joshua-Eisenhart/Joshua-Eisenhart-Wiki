@@ -10,6 +10,9 @@ sources:
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/new docs/CONSTRAINT_ON_DISTINGUISHABILITY_FULL_MATH.md
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/new docs/17_actual_lego_registry.md
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Operator Math Explicit

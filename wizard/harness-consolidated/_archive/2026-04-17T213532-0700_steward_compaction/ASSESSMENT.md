@@ -3,6 +3,9 @@ last_updated: 2026-04-17
 voice_tier: T4
 source: new — no prior harness file has specified measurement of saliency shift
 self_application: L1–L8 run at write time
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # ASSESSMENT

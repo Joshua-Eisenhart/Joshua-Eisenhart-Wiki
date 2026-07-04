@@ -7,6 +7,9 @@ tags: [reference, system, constraints, geometry, research]
 sources:
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v4/docs/CONSTRAINT_GEOMETRY_AXIS0_SEPARATION.md
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Constraint Geometry Axis0 Separation

@@ -9,6 +9,9 @@ sources:
   - raw/articles/new-docs/LEGACY_CONTEXT_AND_GENEALOGY.md
   - raw/articles/new-docs/TRADITION_SYSTEM_MAPPING_DETAILED.md
 framing: mixed
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Nominalism Philosophical Foundation

@@ -7,6 +7,9 @@ tags: [reference, research, compression, quantum, mathematics]
 sources:
   - raw/articles/new-docs/new content/compression_math_density_matrix.md
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Compression Mathematics and the Density Matrix

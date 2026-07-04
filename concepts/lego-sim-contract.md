@@ -13,6 +13,9 @@ historical_archive_sources:
   - raw/articles/new-docs/archive_old/LEGO_SIM_CONTRACT.md
   - raw/articles/new-docs/LEGO_SIM_CONTRACT.md
 spec_mirror: specs/codex-ratchet/lego-sim-contract-current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # LEGO Sim Contract

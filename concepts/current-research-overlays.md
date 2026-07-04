@@ -1,7 +1,7 @@
 ---
 title: Current Research Overlays
 created: 2026-04-07
-updated: 2026-06-05
+updated: 2026-06-29
 type: summary
 tags: [reference, research]
 sources:
@@ -9,6 +9,9 @@ sources:
   - raw/articles/new-docs/05_research_index.md
   - raw/articles/new-docs/09_research_inventory_and_foundations.md
 framing: dated_research_router
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Current Research Overlays
@@ -240,6 +243,15 @@ When the question is support-layer translation rather than provenance, use this 
 This lane is genealogy/translation support, not earned runtime proof.
 
 For JP-facing runtime handoff, use [[graph-driven-intent-runtime]] alongside that lane and keep [[model-context-overlay]] in a genealogy/translation role rather than treating it as a runtime authority page.
+
+### IGT / axes / terrain symbolic-correlation lane
+Use this lane when the question involves Irrational Game Theory, taijitu/I-Ching symbolism, terrain/operator mappings, or whether a symbolic chart has a testable math readout:
+- [[igt-axes-terrain-source-extraction-2026-06-04]] — dated source extraction for the 10 IGT/axes/terrain docs; source-processing and discriminator-routing only.
+- [[igt-pattern-explicit-math-reference]] — working explicit-math reference for IGT pattern/constraint-ratchet terms.
+- [[projects/codex-ratchet/qit-axes-terrain-operator-fold-2026-06-09]] — project-level fold for axes/terrain/operator alternatives and sim-tool routing.
+- [[projects/codex-ratchet/pre-ai-rosetta-ring-checkerboard-provenance-2026-06-09]] — provenance route for pre-AI Rosetta/ring-checkerboard source geometry.
+
+Keep the split visible: symbolic witnesses and chart grammar can suggest discriminators, but they do not admit QIT-engine convergence, Axis0 bridge/cut, final trigram canon, or runtime schedule closure.
 
 ### Legacy routing and comparison control
 Use these pages when a current research question depends on legacy provenance or branch separation, not when a legacy source should silently define present-tense truth:

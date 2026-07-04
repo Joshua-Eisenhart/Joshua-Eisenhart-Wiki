@@ -12,6 +12,9 @@ sources:
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v4/docs/AXIS0_ENTROPIC_MONISM_DOCTRINE_BRIDGE.md
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v4/docs/AXIS0_ENTROPIC_MONISM_AXIS_MAP.md
 framing: mixed
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # I-Scalar and Axis 0 Genealogy

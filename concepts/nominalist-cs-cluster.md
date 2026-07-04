@@ -12,6 +12,9 @@ sources:
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/docs/LLM_CONTROLLER_CONTRACT.md
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/docs/NOMINALIST_CS_AND_JP_SYSTEMS_TERMS.md
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/docs/plans/sim_backlog_matrix.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Nominalist CS Cluster

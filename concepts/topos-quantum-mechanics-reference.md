@@ -8,6 +8,9 @@ sources:
   - https://arxiv.org/abs/1004.3561v1
   - https://arxiv.org/abs/0712.4003v1
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Topos Quantum Mechanics

@@ -14,6 +14,9 @@ sources:
   - raw/articles/legacy-books/Personality theory._ copy.xlsx
   - raw/articles/legacy-books/Joshua Personality Model v1.1.txt
 framing_note: Candidate synthesis/crosswalk snapshot mapping a possible shared pattern across Leviathan's recursive science method, the holodeck model, FEP-style prediction-first loops, QIT engines, and the personality engine-grammar lane.
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Leviathan Science Method and QIT Engine Crosswalk

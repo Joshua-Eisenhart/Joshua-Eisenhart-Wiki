@@ -6,6 +6,9 @@ type: concept
 tags: [wizard, mmm, packet, receipt]
 framing: current
 source_path: runs/wizard_general_bakeoff_latest/bakeoff_report.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Wizard General Bakeoff

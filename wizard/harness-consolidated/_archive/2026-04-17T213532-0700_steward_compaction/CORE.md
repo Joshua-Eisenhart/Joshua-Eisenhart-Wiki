@@ -3,6 +3,9 @@ last_updated: 2026-04-17
 voice_tier: T4
 supersedes: 00_READ_FIRST.md, SALIENCE_LOADER.md, SALIENCE_PREAMBLE.md, 15_root_axiom_card.md
 self_application: probes L1–L8 have run against this file at write time; leaks surviving the run have been flagged inline below
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # CORE

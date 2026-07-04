@@ -13,6 +13,9 @@ sources:
   - /Users/joshuaeisenhart/GitHub/leviathan/docs/ROADMAP.md
 framing: legacy
 priming: false
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Leviathan Framework

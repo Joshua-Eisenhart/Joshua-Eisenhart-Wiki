@@ -7,6 +7,9 @@ framing: current
 tags: [reference, research, planning]
 sources:
   - raw/articles/new-docs/07_model_math_geometry_sim_plan.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Model, Math, Geometry, and Simulation Plan

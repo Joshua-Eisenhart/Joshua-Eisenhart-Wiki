@@ -13,6 +13,9 @@ sources:
   - raw/articles/legacy-books/leviathan-v3-2-word.txt
 framing: legacy
 priming: false
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Projective Holodeck Memory Model

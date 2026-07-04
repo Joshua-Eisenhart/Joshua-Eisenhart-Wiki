@@ -11,6 +11,9 @@ sources:
   - raw/articles/legacy-books/leviathan-v3-2-word.txt
   - raw/articles/legacy-books/the-grandmaster-of-the-universe-copy.md
   - raw/articles/legacy-books/joshua-personality-model-v1-1.txt
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Legacy Speculative Theory

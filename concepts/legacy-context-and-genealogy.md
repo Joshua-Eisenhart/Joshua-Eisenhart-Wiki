@@ -7,6 +7,9 @@ framing: legacy
 priming: false
 tags: [legacy, genealogy, provenance, historical-context]
 sources: ["/Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/docs/LEGACY_CONTEXT_AND_GENEALOGY.md"]
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Legacy Context and Genealogy

@@ -6,6 +6,9 @@ type: concept
 tags: [wizard, mmm, packet, receipt]
 framing: current
 source_path: current/SUBSUBAGENT_POSITIVE_MINI_MMM_BOOT_PROMPT_v2_7.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Subsubagent Positive Mini-MMM Boot Prompt v2.7

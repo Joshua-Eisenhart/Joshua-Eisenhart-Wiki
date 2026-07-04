@@ -1,7 +1,7 @@
 ---
 type: concept
 created: 2026-05-18
-updated: 2026-06-04
+updated: 2026-07-01
 tags: [tooling, simulation, proof, harness, research]
 sources:
   - /tmp/wiki_tool_use_inventory_20260518.json
@@ -42,7 +42,7 @@ Do not promote:
 ## Historical Prior Tool-Role Snapshot
 For live admissibility, use the current `system_v5` indexes, not the mention-count snapshot below.
 
-2026-06-04 carrier correction: PEPS3D/CTMRG is retired as a load-bearing current carrier per the 2026-06-03 session handoff. Current carrier routing is ITensors-MPS, exact dense/TensorKit, QuantumClifford, and spinor-native trajectories, with JAX and Julia primary in parallel. PyTorch/autograd is legacy/comparison/helper unless a current receipt gives it a bounded role.
+2026-07-01 carrier correction: retired PEPS3D means the single-fused 3D contraction path, not CTMRG globally. CTMRG remains usable inside nested 2D PEPSKit layers when contraction-error certificates bound the readout. Current carrier routing is nested PEPS2D/Hopfield connection geometry, ITensors-MPS, exact dense/TensorKit, QuantumClifford, and spinor-native trajectories, with JAX and Julia primary in parallel. PyTorch/autograd follows current receipt/spec-mirror role boundaries; do not demote or promote it from this historical scan alone.
 
 - Historical tool-role gate from the prior snapshot: `84` candidate surfaces and `102` blocked/noncandidate surfaces from `186` scanned nonclassical/source-native result surfaces.
 - Historical NumPy quarantine from the prior snapshot: `0` hard source quarantines, `0` review-required surfaces, and `0` result-level NumPy-load-bearing quarantines. The current spec mirror further distinguishes `15` reviewed NumPy-bearing boundary files that remain blocked from nonclassical-claim promotion.

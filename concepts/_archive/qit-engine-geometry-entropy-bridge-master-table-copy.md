@@ -8,6 +8,9 @@ tags: [reference, research, validation, system]
 sources:
   - raw/articles/system-v5-reference-docs/QIT_ENGINE_GEOMETRY_ENTROPY_BRIDGE_MASTER_TABLE copy.md
 framing: legacy
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # QIT Engine Geometry Entropy Bridge Master Table Copy

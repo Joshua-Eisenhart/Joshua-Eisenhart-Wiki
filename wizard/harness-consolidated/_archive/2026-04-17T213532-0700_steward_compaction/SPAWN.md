@@ -4,6 +4,9 @@ voice_tier: T4
 supersedes: agent-spawn-template.md
 source: agent-spawn-template.md (probe-test-log confirms load-bearing; tightened here)
 self_application: L1, L2, L3 run at write time
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # SPAWN

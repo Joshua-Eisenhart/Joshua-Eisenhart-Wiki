@@ -9,6 +9,9 @@ sources:
   - raw/articles/legacy-books/leviathan-v3-2-word.txt
 framing: mixed
 framing_note: Legacy interpretive overlay. Useful for genealogy, academic placement, and translation cues, but not an authority surface for active runtime truth or dev-facing contract claims.
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Model Context Overlay

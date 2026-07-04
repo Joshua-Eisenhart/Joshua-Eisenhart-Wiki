@@ -7,6 +7,9 @@ tags: [simulation, planning, system, architecture, constraints, topology]
 sources:
   - raw/articles/new-docs/CODEX_AUDIT_2026_04_08.md
 framing: historical_worker_result_snapshot
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Shell-Local to Shell-Coupled Research Program

@@ -1,6 +1,6 @@
 # Codex Ratchet Wiki — Index
 
-Total published pages: 460. Governance/read-first surfaces are listed separately. Restructured 2026-04-17 (stabilization pass).
+Total published pages: 461. Governance/read-first surfaces are listed separately. Restructured 2026-04-17 (stabilization pass).
 
 ## Hermes / LLM Alignment Front Door
 - [[hermes-current/read-first]] — Hermes front door; load this before substantive work
@@ -104,6 +104,14 @@ Total published pages: 460. Governance/read-first surfaces are listed separately
 - [[projects/leviathan-current/index]] — human-facing table of contents for the actual Leviathan wiki pages
 - [[projects/leviathan-current/read-first]] — current Leviathan project front door for repo-current wiki ingestion, Josh/JP provenance split, and authority order
 - [[projects/leviathan-current/README]] — current Leviathan wiki project scaffold and page router
+- [[projects/leviathan-current/RELEVANT_DOCS_INDEX_2026-07-02]] — current July 2026 relevance router for the Leviathan / CR / constraint-core merge program, feeder docs, stale surfaces, and cross-linked finds
+- [[projects/leviathan-current/ONE_SYSTEM_THREE_PERSPECTIVES_2026-07-02]] — merger charter tying Lev runtime, mesh protocol, and CR evidence estate into one receipt-bound loop shape
+- [[projects/leviathan-current/MESH_NODE_PROTOCOL_V0_2026-07-02]] — current two-node mesh protocol for content-addressed exchange, receiving-node verification, and peer-witness boundaries
+- [[projects/leviathan-current/KERNEL_UPGRADES_LEVIATHAN_2026-07-02]] — three-horizon constraint-core kernel upgrade map and privacy-membrane sim spec under scratch ceilings
+- [[projects/leviathan-current/LEVIATHAN_CONSTRUCT_TO_MESH_MAP_2026-07-02]] — Leviathan v3.2 construct map to current mesh/agent-network evidence and buildable backlog
+- [[projects/leviathan-current/source/README]] — archived Leviathan v3.2 source provenance note, including the unrecovered v1-v3.1 lineage gap
+- [[projects/constraint-core/LINEAGE_AND_VERDICTS_2026-07-02]] — constraint-core lineage/verdict snapshot preserving canon vs hypothetical ceilings
+- [[projects/constraint-core/RATCHET_STATE_BY_TIER_2026-07-02]] — constraint-core tier map preserving canon lane, scratch lane, and owner-reserved decisions
 - [[projects/leviathan-current/lev-claimgate-digging-status-2026-06-28]] — current local Lev/ClaimGate implementation blocker capture; status/router only, not release proof or upstream truth
 - [[projects/leviathan-current/codex-redteam-targets-2026-06-28]] — Codex build target packet from the Lev red-team swarm: 16 broke-through attacks grouped under boundary trust, carrier provenance, and replay/freshness roots; target packet only, not implementation proof
 - [[projects/leviathan-current/proof-backed-status-dashboard]] — current source-doc split and proof-routing dashboard; not release proof
@@ -149,7 +157,7 @@ Total published pages: 460. Governance/read-first surfaces are listed separately
 
 ## Concepts — by framing
 
-### Current (192)
+### Current (193)
 - [[constraint-manifold-architecture]] — actual geometric constraint manifold `M(C)` frame-loader and minimum construction contract; axes/IGT/QIT/bridge claims stay downstream
 - [[world-engine-graph-patch-algebra]] — Research Ratchet concept for WorldModelGraph, GraphPatch, GateOperator, and event-sourced admissibility over accepted project state; proposal concept only
 - [[spinor-memory]] — JSON-first oriented project memory under ordered operators; read/control model only, not proof authority or quantum-memory claim
@@ -200,6 +208,7 @@ Total published pages: 460. Governance/read-first surfaces are listed separately
 - [[deflation-map-2026-06-04]] — current Codex Ratchet deflation split, carrier correction, and verdict-audit spine
 - [[claude-code-sim-inventory-2026-06-04]] — read-only inventory of Claude Code's work-out-layers.js pipeline sims (60+ carrier, 157+ layers, 7 Hopfield)
 - [[igt-axes-terrain-source-extraction-2026-06-04]] — structured extraction of all 10 IGT/axes/terrain source docs: axis-by-axis mapping table, engine type patterns, trigram→math, testability assessment, open questions
+- [[axes-full-layout-relations-anti-conflation-2026-07-03]] — consolidated Axes 0-6 layout, relation algebra, anti-conflation rules, and scratch-diagnostic measured matrix; extends the IGT source-extraction lane without canon promotion
 - [[projects/codex-ratchet/qit-axes-terrain-operator-fold-2026-06-09]] — project-level 2026-06-09 fold that saves the live axes/terrain/operator math and alternatives for sim-tool work
 - [[projects/codex-ratchet/pre-ai-rosetta-ring-checkerboard-provenance-2026-06-09]] — project-level 2026-06-09 provenance fold for the pre-AI Rosetta spreadsheet, Möbius-like two-engine intuition, and finite ring-checkerboard source geometry
 - [[projects/codex-ratchet/autobiographical-method-consciousness-provenance-2026-06-09]] — project-level 2026-06-09 provenance fold for the autobiographical/phenomenological method layer and math-first guardrails

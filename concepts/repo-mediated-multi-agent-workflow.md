@@ -8,6 +8,9 @@ sources:
   - raw/articles/new-docs/archive_old/REPO_MEDIATED_MULTI_AGENT_WORKFLOW.md
 framing: legacy
 priming: false
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Repo-Mediated Multi-Agent Workflow

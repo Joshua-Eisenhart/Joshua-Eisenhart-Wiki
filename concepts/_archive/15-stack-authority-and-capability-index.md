@@ -7,6 +7,9 @@ framing: archived_source_bundle_snapshot
 tags: [reference, research, system]
 sources:
   - raw/articles/new-docs/15_stack_authority_and_capability_index.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Stack Authority and Capability Index

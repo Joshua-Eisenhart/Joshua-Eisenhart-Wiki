@@ -7,6 +7,9 @@ tags: [reference, research, compression, quantum]
 sources:
   - raw/articles/new-docs/01_pca_qpca_alignment.md
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # PCA, Quantum PCA, and the Density-Matrix View

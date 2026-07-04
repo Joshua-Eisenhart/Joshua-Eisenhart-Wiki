@@ -1,0 +1,1776 @@
+From f9185635334f6e1232504306169a3af1da6eedd4 Mon Sep 17 00:00:00 2001
+From: Joshua-Eisenhart <40147598+Joshua-Eisenhart@users.noreply.github.com>
+Date: Tue, 23 Jun 2026 00:21:49 -0700
+Subject: [PATCH 04/35] fix(orchestration): harden claimgate steering gates
+
+---
+ .lev/validation-gates.yaml                    | 139 +++++----
+ core/orchestration/src/loop/types.ts          |   1 +
+ .../proof/claim-gate-adapter-bridge.test.ts   | 268 ++++++++++++++++++
+ .../src/proof/claim-gate-steering-run.test.ts |  68 +++++
+ .../src/proof/claim-gate-steering-run.ts      |  83 +++++-
+ .../claimgate-steering/.gitignore             |   1 +
+ .../claimgate-steering/bad/boundary.json      |  23 ++
+ .../bad/eval-job-output.json                  |  76 +++++
+ .../claimgate-steering/bad/eval-job.json      |  88 ++++++
+ .../claimgate-steering/bad/proof-spec.json    | 163 +++++++++++
+ .../claimgate-steering/bad/run.json           |  13 +
+ .../claimgate-steering/good/boundary.json     |  23 ++
+ .../good/eval-job-output.json                 |  76 +++++
+ .../claimgate-steering/good/eval-job.json     |  88 ++++++
+ .../claimgate-steering/good/proof-spec.json   | 163 +++++++++++
+ .../claimgate-steering/good/run.json          |  12 +
+ dna/gates.yaml                                |  26 ++
+ docs/design/README.md                         |   2 +
+ .../design-codex-ratchet-claim-gate-bridge.md | 126 ++++++++
+ 19 files changed, 1372 insertions(+), 67 deletions(-)
+ create mode 100644 core/orchestration/src/proof/claim-gate-adapter-bridge.test.ts
+ create mode 100644 core/orchestration/test-fixtures/claimgate-steering/.gitignore
+ create mode 100644 core/orchestration/test-fixtures/claimgate-steering/bad/boundary.json
+ create mode 100644 core/orchestration/test-fixtures/claimgate-steering/bad/eval-job-output.json
+ create mode 100644 core/orchestration/test-fixtures/claimgate-steering/bad/eval-job.json
+ create mode 100644 core/orchestration/test-fixtures/claimgate-steering/bad/proof-spec.json
+ create mode 100644 core/orchestration/test-fixtures/claimgate-steering/bad/run.json
+ create mode 100644 core/orchestration/test-fixtures/claimgate-steering/good/boundary.json
+ create mode 100644 core/orchestration/test-fixtures/claimgate-steering/good/eval-job-output.json
+ create mode 100644 core/orchestration/test-fixtures/claimgate-steering/good/eval-job.json
+ create mode 100644 core/orchestration/test-fixtures/claimgate-steering/good/proof-spec.json
+ create mode 100644 core/orchestration/test-fixtures/claimgate-steering/good/run.json
+ create mode 100644 docs/design/design-codex-ratchet-claim-gate-bridge.md
+
+diff --git a/.lev/validation-gates.yaml b/.lev/validation-gates.yaml
+index 10a19e2d4..e6531e0f9 100644
+--- a/.lev/validation-gates.yaml
++++ b/.lev/validation-gates.yaml
+@@ -56,6 +56,23 @@ checks:
+       - Agents seeing commands/ create CLI-specific code
+       - Agents seeing handlers/ create surface-agnostic code
+ 
++  claimgate_steering_admitted:
++    status: enforced
++    description: "A ClaimGate steering run with real, hash-bound evidence must be host_consumed by lev (recomputed verdict pass)."
++    check: "defer:dna/gates.yaml#provenance.claimgate_steering_admitted"
++    validation:
++      - Leviathan recomputes the verdict itself; a source projection cannot self-promote
++      - "lev orchestration claimgate-steering consume <good-fixture> returns host_consumed"
++      - executed deterministically by run-dna-ratchet (not the EvalFlow spike)
++
++  claimgate_blocks_overclaim:
++    status: enforced
++    description: "A ClaimGate steering run that overclaims host authority must be host_blocked by lev."
++    check: "defer:dna/gates.yaml#provenance.claimgate_blocks_overclaim"
++    validation:
++      - any unexpected self-asserted authority flag must not appear in a source projection
++      - "lev orchestration claimgate-steering consume <overclaiming-fixture> returns host_blocked"
++
+   no_export_star:
+     status: aspirational
+     description: No export * re-exporting other packages
+@@ -2122,199 +2139,199 @@ module_gates:
+   # Core modules (18)
+   build:
+     spec: docs/specs/spec-build.md
+-    gates: [gate:build-static, gate:build-contract, gate:build-smoke, gate:build-boundary, gate:sdk-first]
++    gates: ["gate:build-static", "gate:build-contract", "gate:build-smoke", "gate:build-boundary", "gate:sdk-first"]
+   config:
+     spec: docs/specs/spec-config.md
+-    gates: [gate:config-schema-validity, gate:config-xdg-ownership]
++    gates: ["gate:config-schema-validity", "gate:config-xdg-ownership"]
+   daemon:
+     spec: docs/specs/spec-daemon.md
+-    gates: [gate:daemon-static, gate:daemon-contract, gate:daemon-smoke]
++    gates: ["gate:daemon-static", "gate:daemon-contract", "gate:daemon-smoke"]
+   domain:
+     spec: docs/specs/spec-domain.md
+-    gates: [gate:domain-static, gate:domain-contract, gate:domain-smoke]
++    gates: ["gate:domain-static", "gate:domain-contract", "gate:domain-smoke"]
+   event-bus:
+     spec: docs/specs/spec-event-bus.md
+-    gates: [gate:event-bus-static, gate:event-bus-contract, gate:event-bus-smoke]
++    gates: ["gate:event-bus-static", "gate:event-bus-contract", "gate:event-bus-smoke"]
+   event-machines:
+     spec: docs/specs/spec-event-machines.md
+-    gates: [gate:event-machines-static, gate:event-machines-contract, gate:event-machines-smoke]
++    gates: ["gate:event-machines-static", "gate:event-machines-contract", "gate:event-machines-smoke"]
+   event-providers:
+     spec: docs/specs/spec-event-providers.md
+-    gates: [gate:event-providers-static, gate:event-providers-contract, gate:event-providers-smoke]
++    gates: ["gate:event-providers-static", "gate:event-providers-contract", "gate:event-providers-smoke"]
+   exec:
+     spec: docs/specs/spec-exec.md
+-    gates: [gate:exec-static, gate:exec-contract, gate:exec-smoke]
++    gates: ["gate:exec-static", "gate:exec-contract", "gate:exec-smoke"]
+   flowmind:
+     spec: docs/specs/spec-flowmind.md
+-    gates: [gate:flowmind-kernel-invariants, gate:parser-accuracy]
++    gates: ["gate:flowmind-kernel-invariants", "gate:parser-accuracy"]
+   graph:
+     spec: docs/specs/spec-graph.md
+-    gates: [gate:graph-consistency, gate:graph-contract, gate:graph-smoke]
++    gates: ["gate:graph-consistency", "gate:graph-contract", "gate:graph-smoke"]
+   harness:
+     spec: docs/specs/spec-harness.md
+-    gates: [gate:harness-static, gate:harness-contract, gate:harness-smoke]
++    gates: ["gate:harness-static", "gate:harness-contract", "gate:harness-smoke"]
+   index:
+     spec: docs/specs/spec-index.md
+-    gates: [gate:leann-index-latency]
++    gates: ["gate:leann-index-latency"]
+   logger:
+     spec: docs/specs/spec-logger.md
+-    gates: [gate:logger-static, gate:logger-contract, gate:logger-smoke]
++    gates: ["gate:logger-static", "gate:logger-contract", "gate:logger-smoke"]
+   memory:
+     spec: docs/specs/spec-memory.md
+-    gates: [gate:memory-contract, gate:memory-smoke]
++    gates: ["gate:memory-contract", "gate:memory-smoke"]
+   orchestration:
+     spec: docs/specs/spec-orchestration.md
+-    gates: [gate:orchestration-static, gate:orchestration-contract, gate:orchestration-smoke, gate:orchestration-entities]
++    gates: ["gate:orchestration-static", "gate:orchestration-contract", "gate:orchestration-smoke", "gate:orchestration-entities"]
+   poly:
+     spec: docs/specs/spec-poly.md
+-    gates: [gate:poly-static, gate:poly-contract, gate:poly-smoke]
++    gates: ["gate:poly-static", "gate:poly-contract", "gate:poly-smoke"]
+   telemetry:
+     spec: docs/specs/spec-telemetry.md
+-    gates: [gate:telemetry-static, gate:telemetry-contract, gate:telemetry-smoke]
++    gates: ["gate:telemetry-static", "gate:telemetry-contract", "gate:telemetry-smoke"]
+   ui:
+     spec: docs/specs/spec-ui.md
+-    gates: [gate:ui-static, gate:ui-contract, gate:ui-smoke]
++    gates: ["gate:ui-static", "gate:ui-contract", "gate:ui-smoke"]
+ 
+   # Plugins
+   platforms:
+     spec: docs/specs/spec-platform.md
+-    gates: [gate:platform-bridge-compat]
++    gates: ["gate:platform-bridge-compat"]
+   core-sdlc:
+     spec: docs/specs/spec-sdlc.md
+-    gates: [gate:core-sdlc-static, gate:core-sdlc-contract, gate:core-sdlc-smoke]
++    gates: ["gate:core-sdlc-static", "gate:core-sdlc-contract", "gate:core-sdlc-smoke"]
+   core-timetravel:
+     spec: docs/specs/spec-timetravel.md
+-    gates: [gate:timetravel-static, gate:timetravel-contract, gate:timetravel-mcp-static, gate:timetravel-mcp-contract, gate:timetravel-mcp-smoke]
++    gates: ["gate:timetravel-static", "gate:timetravel-contract", "gate:timetravel-mcp-static", "gate:timetravel-mcp-contract", "gate:timetravel-mcp-smoke"]
+ 
+   # Supplementary specs
+   harness-middleware:
+     spec: docs/specs/spec-harness-middleware.md
+-    gates: [gate:harness-middleware-static, gate:harness-middleware-contract, gate:harness-middleware-smoke]
++    gates: ["gate:harness-middleware-static", "gate:harness-middleware-contract", "gate:harness-middleware-smoke"]
+   orchestration-loop:
+     spec: docs/specs/spec-orchestration-loop.md
+-    gates: [gate:orchestration-loop-contract, gate:orchestration-loop-smoke, gate:orchestration-loop-transform]
++    gates: ["gate:orchestration-loop-contract", "gate:orchestration-loop-smoke", "gate:orchestration-loop-transform"]
+   graph-adapters:
+     spec: docs/specs/spec-graph-adapters.md
+-    gates: [gate:graph-adapters-static, gate:graph-adapters-contract, gate:graph-adapters-smoke]
++    gates: ["gate:graph-adapters-static", "gate:graph-adapters-contract", "gate:graph-adapters-smoke"]
+   graph-views:
+     spec: docs/specs/spec-graph-views.md
+-    gates: [gate:graph-views-static, gate:graph-views-contract, gate:graph-views-smoke]
++    gates: ["gate:graph-views-static", "gate:graph-views-contract", "gate:graph-views-smoke"]
+   graph-features:
+     spec: docs/specs/spec-graph-features.md
+-    gates: [gate:graph-features-static, gate:graph-features-contract, gate:graph-features-smoke]
++    gates: ["gate:graph-features-static", "gate:graph-features-contract", "gate:graph-features-smoke"]
+   graph-conversation-lineage:
+     spec: docs/specs/spec-graph-conversation-lineage.md
+-    gates: [gate:graph-lineage-static, gate:graph-lineage-contract, gate:graph-lineage-smoke]
++    gates: ["gate:graph-lineage-static", "gate:graph-lineage-contract", "gate:graph-lineage-smoke"]
+ 
+   # Architecture / cross-cutting specs
+   kernel:
+     spec: docs/specs/spec-kernel.md
+-    gates: [gate:kernel-static, gate:kernel-contract, gate:kernel-smoke]
++    gates: ["gate:kernel-static", "gate:kernel-contract", "gate:kernel-smoke"]
+   event-architecture:
+     spec: docs/specs/spec-event-architecture.md
+-    gates: [gate:event-hard-cut-static, gate:event-hard-cut-contract, gate:event-hard-cut-smoke]
++    gates: ["gate:event-hard-cut-static", "gate:event-hard-cut-contract", "gate:event-hard-cut-smoke"]
+   router-coordination:
+     spec: docs/specs/spec-router-coordination.md
+-    gates: [gate:coordination-static, gate:coordination-contract, gate:coordination-smoke]
++    gates: ["gate:coordination-static", "gate:coordination-contract", "gate:coordination-smoke"]
+   critical-path-validation:
+     spec: docs/specs/spec-critical-path-validation.md
+-    gates: [gate:cpv-static, gate:cpv-contract, gate:cpv-smoke]
++    gates: ["gate:cpv-static", "gate:cpv-contract", "gate:cpv-smoke"]
+   durable-execution:
+     spec: docs/specs/spec-durable-execution.md
+-    gates: [gate:durable-queue-contract, gate:durable-queue-smoke]
++    gates: ["gate:durable-queue-contract", "gate:durable-queue-smoke"]
+   eventbridge:
+     spec: docs/specs/spec-eventbridge.md
+-    gates: [gate:eventbridge-unit, gate:eventbridge-integration, gate:eventbridge-e2e]
++    gates: ["gate:eventbridge-unit", "gate:eventbridge-integration", "gate:eventbridge-e2e"]
+   intent-cascade:
+     spec: docs/specs/spec-intent-cascade.md
+-    gates: [gate:intent-cascade-static, gate:intent-cascade-contract, gate:intent-cascade-smoke]
++    gates: ["gate:intent-cascade-static", "gate:intent-cascade-contract", "gate:intent-cascade-smoke"]
+   enterprise-telemetry:
+     spec: docs/specs/spec-enterprise-telemetry.md
+-    gates: [gate:enterprise-telemetry-contract, gate:enterprise-telemetry-smoke]
++    gates: ["gate:enterprise-telemetry-contract", "gate:enterprise-telemetry-smoke"]
+   core-memory-backends:
+     spec: docs/specs/spec-core-memory-backends.md
+-    gates: [gate:memory-backends-static, gate:memory-backends-contract, gate:memory-backends-smoke]
++    gates: ["gate:memory-backends-static", "gate:memory-backends-contract", "gate:memory-backends-smoke"]
+ 
+   # Surface / host specs
+   agentfs:
+     spec: docs/specs/spec-agentfs.md
+-    gates: [gate:agentfs-static, gate:agentfs-contract, gate:agentfs-smoke, gate:agentfs-posix-compliance]
++    gates: ["gate:agentfs-static", "gate:agentfs-contract", "gate:agentfs-smoke", "gate:agentfs-posix-compliance"]
+   agentping:
+     spec: docs/specs/spec-agentping.md
+-    gates: [gate:agentping-static, gate:agentping-contract, gate:agentping-smoke]
++    gates: ["gate:agentping-static", "gate:agentping-contract", "gate:agentping-smoke"]
+   agentping-remote:
+     spec: docs/specs/spec-agentping-remote.md
+-    gates: [gate:agentping-remote-static, gate:agentping-remote-contract, gate:agentping-remote-smoke]
++    gates: ["gate:agentping-remote-static", "gate:agentping-remote-contract", "gate:agentping-remote-smoke"]
+   agentping-surfaces:
+     spec: docs/specs/spec-agentping-surfaces.md
+-    gates: [gate:agentping-surfaces-static, gate:agentping-surfaces-contract, gate:agentping-surfaces-smoke]
++    gates: ["gate:agentping-surfaces-static", "gate:agentping-surfaces-contract", "gate:agentping-surfaces-smoke"]
+   agentping-host:
+     spec: docs/specs/spec-agentping-host-relationship.md
+-    gates: [gate:agentping-host-static, gate:agentping-host-contract, gate:agentping-host-smoke]
++    gates: ["gate:agentping-host-static", "gate:agentping-host-contract", "gate:agentping-host-smoke"]
+   pi-agentping:
+     spec: docs/specs/spec-pi-agentping-surface.md
+-    gates: [gate:pi-agentping-static, gate:pi-agentping-contract, gate:pi-agentping-smoke]
++    gates: ["gate:pi-agentping-static", "gate:pi-agentping-contract", "gate:pi-agentping-smoke"]
+   pi-host-adapter:
+     spec: docs/specs/spec-pi-host-adapter.md
+-    gates: [gate:pi-host-manifest-contract, gate:pi-host-validation-triad, gate:pi-host-generic-surface]
++    gates: ["gate:pi-host-manifest-contract", "gate:pi-host-validation-triad", "gate:pi-host-generic-surface"]
+   levui-ir:
+     spec: docs/specs/spec-levui-ir.md
+-    gates: [gate:levui-ir-static, gate:levui-ir-contract, gate:levui-ir-runtime-smoke]
++    gates: ["gate:levui-ir-static", "gate:levui-ir-contract", "gate:levui-ir-runtime-smoke"]
+   genui-provider:
+     spec: docs/specs/spec-genui-provider-model.md
+-    gates: [gate:genui-provider-static, gate:genui-provider-contract, gate:genui-provider-runtime-smoke]
++    gates: ["gate:genui-provider-static", "gate:genui-provider-contract", "gate:genui-provider-runtime-smoke"]
+   host-surface:
+     spec: docs/specs/spec-host-surface-model.md
+-    gates: [gate:host-surface-static, gate:host-surface-contract, gate:host-surface-runtime-smoke]
++    gates: ["gate:host-surface-static", "gate:host-surface-contract", "gate:host-surface-runtime-smoke"]
+   voice:
+     spec: docs/specs/spec-voice.md
+-    gates: [gate:voice-static, gate:voice-contract, gate:voice-smoke]
++    gates: ["gate:voice-static", "gate:voice-contract", "gate:voice-smoke"]
+   voice-surface:
+     spec: docs/specs/spec-voice-first-surface-model.md
+-    gates: [gate:voice-surface-static, gate:voice-surface-contract, gate:voice-surface-runtime-smoke]
++    gates: ["gate:voice-surface-static", "gate:voice-surface-contract", "gate:voice-surface-runtime-smoke"]
+   voice-api:
+     spec: docs/specs/spec-voice-api.md
+-    gates: [gate:voice-api-static, gate:voice-api-contract, gate:voice-api-smoke]
++    gates: ["gate:voice-api-static", "gate:voice-api-contract", "gate:voice-api-smoke"]
+ 
+   # Forge specs
+   forge-core:
+     spec: docs/specs/spec-forge-core.md
+-    gates: [gate:forge-core-static, gate:forge-core-contract, gate:forge-core-integration]
++    gates: ["gate:forge-core-static", "gate:forge-core-contract", "gate:forge-core-integration"]
+   forge-jj:
+     spec: docs/specs/spec-forge-jj.md
+-    gates: [gate:forge-jj-static, gate:forge-jj-contract]
++    gates: ["gate:forge-jj-static", "gate:forge-jj-contract"]
+   forge-cli:
+     spec: docs/specs/spec-forge-cli.md
+-    gates: [gate:forge-cli-static, gate:forge-cli-contract]
++    gates: ["gate:forge-cli-static", "gate:forge-cli-contract"]
+   forge-ci:
+     spec: docs/specs/spec-forge-ci.md
+-    gates: [gate:forge-ci-static, gate:forge-ci-contract]
++    gates: ["gate:forge-ci-static", "gate:forge-ci-contract"]
+   forge-bridge:
+     spec: docs/specs/spec-forge-bridge.md
+-    gates: [gate:forge-bridge-event-schema, gate:forge-bridge-loc-budget, gate:forge-bridge-namespace-isolation, gate:forge-bridge-zero-business-logic]
++    gates: ["gate:forge-bridge-event-schema", "gate:forge-bridge-loc-budget", "gate:forge-bridge-namespace-isolation", "gate:forge-bridge-zero-business-logic"]
+   forge-fleet:
+     spec: docs/specs/spec-forge-fleet.md
+-    gates: [gate:forge-fleet-runner-lifecycle, gate:forge-fleet-namespace-isolation]
++    gates: ["gate:forge-fleet-runner-lifecycle", "gate:forge-fleet-namespace-isolation"]
+ 
+   # Remaining specs with newly added gates
+   cascading-context:
+     spec: docs/specs/spec-cascading-context.md
+-    gates: [gate:cascading-context-static, gate:cascading-context-contract]
++    gates: ["gate:cascading-context-static", "gate:cascading-context-contract"]
+   cms-control:
+     spec: docs/specs/spec-cms-control-plane.md
+-    gates: [gate:cms-control-contract, gate:cms-control-smoke]
++    gates: ["gate:cms-control-contract", "gate:cms-control-smoke"]
+   lifecycle-hooks:
+     spec: docs/specs/spec-lifecycle-hooks.md
+-    gates: [gate:lifecycle-hooks-static, gate:lifecycle-hooks-contract]
++    gates: ["gate:lifecycle-hooks-static", "gate:lifecycle-hooks-contract"]
+   onboarding:
+     spec: docs/specs/spec-onboarding.md
+-    gates: [gate:sdk-first, gate:onboarding-idempotent]
++    gates: ["gate:sdk-first", "gate:onboarding-idempotent"]
+   publish-targets:
+     spec: docs/specs/spec-publish-targets.md
+-    gates: [gate:publish-targets-contract, gate:publish-targets-smoke]
++    gates: ["gate:publish-targets-contract", "gate:publish-targets-smoke"]
+   storage-adapters:
+     spec: docs/specs/spec-storage-adapters.md
+-    gates: [gate:storage-adapters-contract, gate:storage-adapters-smoke]
++    gates: ["gate:storage-adapters-contract", "gate:storage-adapters-smoke"]
+ 
+ # ============================================================================
+ # POC PROMOTION GATES
+diff --git a/core/orchestration/src/loop/types.ts b/core/orchestration/src/loop/types.ts
+index 25dc58f63..ef04c523f 100644
+--- a/core/orchestration/src/loop/types.ts
++++ b/core/orchestration/src/loop/types.ts
+@@ -149,6 +149,7 @@ export interface LoopAdapterTask {
+ export interface LoopAdapterResult {
+   success: boolean;
+   output?: string;
++  error?: string;
+   tokenUsage?: TokenUsage;
+ }
+ 
+diff --git a/core/orchestration/src/proof/claim-gate-adapter-bridge.test.ts b/core/orchestration/src/proof/claim-gate-adapter-bridge.test.ts
+new file mode 100644
+index 000000000..b082320cd
+--- /dev/null
++++ b/core/orchestration/src/proof/claim-gate-adapter-bridge.test.ts
+@@ -0,0 +1,268 @@
++/**
++ * ClaimGate adapter → host consumer bridge contract.
++ *
++ * The existing claim-gate-steering-run.test.ts proves the consumer's internal
++ * logic with idealised fixtures. This file proves the harder thing: that a
++ * projection shaped exactly as the external ClaimGate `claimgate-lev-adapter`
++ * actually emits (`makeEvalJobProjection` / `writeSteeringRunProjection`) is
++ * accepted by the host consumer, with the verdict recomputed from evidence.
++ *
++ * `buildAdapterProjection` mirrors that adapter's field mapping. It is the
++ * host-side pin of the adapter output contract: if the adapter changes its
++ * projection shape, this contract test must move in lockstep.
++ */
++
++import { mkdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
++import { join } from 'node:path';
++import { tmpdir } from 'node:os';
++
++import { describe, expect, it } from 'vitest';
++
++import { consumeClaimGateSteeringRun } from './claim-gate-steering-run.js';
++import type { EvalJob, EvalJobOutput, EvalVerdict, RepairCandidate } from './eval-job-types.js';
++import type { ProofObligation, ProofResult, ProofSpec } from './proof-spec-generator.js';
++
++// Mirrors claimgate-lev-adapter ADAPTER_VERSION; not load-bearing for consumption.
++const ADAPTER_VERSION = '0.7.0-core-eval-adapter';
++
++type GateSeverity = 'blocker' | 'fatal' | 'warning';
++interface GateDetail {
++  id: string;
++  pass: boolean;
++  reason?: string;
++  severity: GateSeverity;
++  details?: Record<string, unknown>;
++}
++type ClaimGateStatus = 'passed' | 'passed_with_caveats' | 'rework_required' | 'blocked';
++
++// claimgate-lev-adapter safeId
++function safeId(value: string): string {
++  return String(value || 'item')
++    .toLowerCase()
++    .replace(/[^a-z0-9._-]+/g, '-')
++    .replace(/^-|-$/g, '')
++    .slice(0, 96) || 'item';
++}
++
++// claimgate-lev-adapter proofResultForGate
++function proofResultForGate(gate: GateDetail): ProofResult {
++  if (gate.pass) {
++    return { status: 'passed', elapsedMs: 0, verifierVersion: `claimgate/${ADAPTER_VERSION}` };
++  }
++  if (gate.severity === 'warning') {
++    return {
++      status: 'skipped',
++      elapsedMs: 0,
++      verifierVersion: `claimgate/${ADAPTER_VERSION}`,
++      counterexample: gate.reason || 'Advisory gate remained open.',
++    };
++  }
++  return {
++    status: 'failed',
++    elapsedMs: 0,
++    verifierVersion: `claimgate/${ADAPTER_VERSION}`,
++    counterexample: gate.reason || 'ClaimGate deterministic gate failed.',
++  };
++}
++
++// claimgate-lev-adapter proofObligationForGate
++function proofObligationForGate(gate: GateDetail): ProofObligation {
++  return {
++    obligationId: `obl-claimgate-${safeId(gate.id)}`,
++    constraintId: `claimgate.${safeId(gate.id)}`,
++    shellCheck: `claimgate internal gate ${safeId(gate.id)}`,
++    expectedResult: 'exit_zero',
++    actualResult: proofResultForGate(gate),
++  };
++}
++
++// claimgate-lev-adapter repairCandidateForGate
++function repairCandidateForGate(gate: GateDetail): RepairCandidate {
++  return {
++    candidateId: `rc-claimgate-${safeId(gate.id)}`,
++    source: 'counterexample',
++    conflictingConstraints: [`claimgate.${safeId(gate.id)}`],
++    proposedPatch: { gate_id: gate.id, reason: gate.reason || '', next_check: null },
++    estimatedImpact: 'moderate',
++    verified: false,
++  };
++}
++
++// claimgate-lev-adapter evalVerdictFromGateResult
++function evalVerdictFromStatus(status: ClaimGateStatus): EvalVerdict {
++  if (status === 'passed') return 'pass';
++  if (status === 'passed_with_caveats') return 'conditional';
++  if (status === 'rework_required') return 'fail';
++  if (status === 'blocked') return 'deferred';
++  return 'conditional';
++}
++
++interface AdapterCaseSpec {
++  status: ClaimGateStatus;
++  gates: GateDetail[];
++  claimId?: string;
++  receiptId?: string;
++  suiteId?: string;
++  targetRef?: string;
++  runOverride?: Record<string, unknown>;
++  boundaryOverride?: Record<string, unknown>;
++}
++
++function makeTempRoot(name: string): string {
++  const root = join(tmpdir(), `lev-cg-bridge-${name}-${Date.now()}-${Math.random().toString(16).slice(2)}`);
++  mkdirSync(root, { recursive: true });
++  return root;
++}
++
++/** Write a `.lev/steering/runs/<id>` projection shaped like the ClaimGate adapter. */
++function buildAdapterProjection(root: string, spec: AdapterCaseSpec): string {
++  const claimId = spec.claimId ?? 'demo-claim';
++  const receiptId = spec.receiptId ?? 'cg_receipt_demo_001';
++  const suiteId = spec.suiteId ?? 'claimgate.pr-trust';
++  const targetRef = spec.targetRef ?? 'claimgate.pr-trust';
++  const runId = safeId(`${claimId}-${receiptId}`);
++  const generatedAt = new Date().toISOString();
++
++  const obligations = spec.gates.map(proofObligationForGate);
++  const evidence = obligations.map((obligation) => obligation.actualResult!);
++  const failedHardGates = spec.gates.filter((gate) => !gate.pass && gate.severity !== 'warning');
++  const output: EvalJobOutput = {
++    verdict: evalVerdictFromStatus(spec.status),
++    evidence,
++    ...(failedHardGates.length ? { repairCandidates: failedHardGates.map(repairCandidateForGate) } : {}),
++    receiptId,
++  };
++  const proofSpec: ProofSpec = {
++    specId: `ps-claimgate-${runId}`,
++    targetRef,
++    constraintPackId: suiteId,
++    proofObligations: obligations,
++    proofStrategy: 'compiled_guard',
++    generatedAt,
++  };
++  const evalJob: EvalJob = {
++    jobId: `ej-claimgate-${runId}`,
++    jobClass: 'eval',
++    targetRef,
++    proofSpecId: proofSpec.specId,
++    constraintPackId: suiteId,
++    inputReceiptIds: [receiptId],
++    startedAt: generatedAt,
++    completedAt: generatedAt,
++    output,
++  };
++
++  const runDir = join(root, runId);
++  mkdirSync(runDir, { recursive: true });
++  const write = (name: string, value: unknown) =>
++    writeFileSync(join(runDir, name), `${JSON.stringify(value, null, 2)}\n`);
++
++  write('run.json', {
++    version: ADAPTER_VERSION,
++    run_id: runId,
++    suite_id: suiteId,
++    target_ref: targetRef,
++    layout: '.lev/steering/runs/<run-id>',
++    compatibility_only: true,
++    live_lev_consumed: false,
++    claim_ceiling: 'adapter_partial',
++    release_admission_allowed: false,
++    generated_at: generatedAt,
++    ...spec.runOverride,
++  });
++  write('proof-spec.json', proofSpec);
++  write('eval-job.json', evalJob);
++  write('eval-job-output.json', output);
++  write('boundary.json', {
++    version: ADAPTER_VERSION,
++    status: 'adapter_projection_only',
++    live_lev_consumed: false,
++    claim_ceiling: 'adapter_partial',
++    release_admission_allowed: false,
++    generated_at: generatedAt,
++    ...spec.boundaryOverride,
++  });
++  return runDir;
++}
++
++const CASES: Array<{ name: string; spec: AdapterCaseSpec; verdict: EvalVerdict }> = [
++  {
++    name: 'pass',
++    verdict: 'pass',
++    spec: {
++      status: 'passed',
++      gates: [
++        { id: 'object_binding', pass: true, reason: 'bound to authoritative diff', severity: 'blocker' },
++        { id: 'evidence_manifest', pass: true, reason: 'out-of-band evidence', severity: 'blocker' },
++        { id: 'falsifier', pass: true, reason: 'closed with refs', severity: 'blocker' },
++      ],
++    },
++  },
++  {
++    name: 'caveat',
++    verdict: 'conditional',
++    spec: {
++      status: 'passed_with_caveats',
++      gates: [
++        { id: 'object_binding', pass: true, reason: 'bound', severity: 'blocker' },
++        { id: 'overclaim', pass: false, reason: 'possible overclaim term', severity: 'warning' },
++      ],
++    },
++  },
++  {
++    name: 'fail',
++    verdict: 'fail',
++    spec: {
++      status: 'rework_required',
++      gates: [
++        { id: 'object_binding', pass: false, reason: 'self-attested diff', severity: 'blocker' },
++        { id: 'evidence_manifest', pass: true, reason: 'ok', severity: 'blocker' },
++      ],
++    },
++  },
++];
++
++describe('ClaimGate adapter → host consumer bridge', () => {
++  for (const { name, spec, verdict } of CASES) {
++    it(`host-consumes a real adapter ${name} projection and recomputes its verdict`, () => {
++      const root = makeTempRoot(name);
++      try {
++        const runDir = buildAdapterProjection(root, { ...spec, claimId: `demo-claim-${name}`, receiptId: `cg_receipt_${name}_001` });
++        const result = consumeClaimGateSteeringRun({ runDir, writeReceipt: false });
++
++        expect(result.ok, JSON.stringify(result.findings)).toBe(true);
++        expect(result.status).toBe('host_consumed');
++        expect(result.projectedVerdict).toBe(verdict);
++        expect(result.recomputedVerdict).toBe(verdict);
++        expect(result.findings.filter((finding) => finding.severity === 'error')).toEqual([]);
++      } finally {
++        rmSync(root, { recursive: true, force: true });
++      }
++    });
++  }
++
++  it('blocks an adapter projection that self-claims host authority', () => {
++    const root = makeTempRoot('authority');
++    try {
++      const runDir = buildAdapterProjection(root, {
++        ...CASES[0].spec,
++        claimId: 'demo-claim-authority',
++        receiptId: 'cg_receipt_authority_001',
++        runOverride: { live_lev_consumed: true, release_admission_allowed: true },
++        boundaryOverride: { live_lev_consumed: true, properly_integrated: true },
++      });
++      const result = consumeClaimGateSteeringRun({ runDir, writeReceipt: false });
++
++      expect(result.ok).toBe(false);
++      expect(result.status).toBe('host_blocked');
++      expect(result.liveLevConsumed).toBe(false);
++      const codes = result.findings.map((finding) => finding.code);
++      expect(codes).toContain('run_metadata.live_lev_consumed_forbidden');
++      expect(codes).toContain('run_metadata.release_admission_allowed_forbidden');
++      expect(codes).toContain('boundary.live_lev_consumed_forbidden');
++      expect(codes).toContain('boundary.properly_integrated_forbidden');
++    } finally {
++      rmSync(root, { recursive: true, force: true });
++    }
++  });
++});
+diff --git a/core/orchestration/src/proof/claim-gate-steering-run.test.ts b/core/orchestration/src/proof/claim-gate-steering-run.test.ts
+index 679619425..465e3a66f 100644
+--- a/core/orchestration/src/proof/claim-gate-steering-run.test.ts
++++ b/core/orchestration/src/proof/claim-gate-steering-run.test.ts
+@@ -190,6 +190,74 @@ describe('ClaimGate steering-run consumer', () => {
+     }
+   });
+ 
++  it('blocks source projections that claim host authority before Lev consumption', () => {
++    const root = makeTempRoot('authority-overclaim');
++    try {
++      const runDir = writeRun(root, 'authority-run', ['passed']);
++      writeFileSync(
++        join(runDir, 'run.json'),
++        `${JSON.stringify({
++          run_id: 'authority-run',
++          live_lev_consumed: true,
++          release_admission_allowed: true,
++        }, null, 2)}\n`,
++      );
++      writeFileSync(
++        join(runDir, 'boundary.json'),
++        `${JSON.stringify({
++          live_lev_consumed: true,
++          properly_integrated: true,
++          public_lev_merged: true,
++        }, null, 2)}\n`,
++      );
++
++      const result = consumeClaimGateSteeringRun({ runDir });
++
++      expect(result.ok).toBe(false);
++      expect(result.status).toBe('host_blocked');
++      expect(result.liveLevConsumed).toBe(false);
++      expect(result.findings.some((finding) => finding.code === 'run_metadata.live_lev_consumed_forbidden')).toBe(true);
++      expect(result.findings.some((finding) => finding.code === 'run_metadata.release_admission_allowed_forbidden')).toBe(true);
++      expect(result.findings.some((finding) => finding.code === 'boundary.live_lev_consumed_forbidden')).toBe(true);
++      expect(result.findings.some((finding) => finding.code === 'boundary.properly_integrated_forbidden')).toBe(true);
++      expect(result.findings.some((finding) => finding.code === 'boundary.public_lev_merged_forbidden')).toBe(true);
++    } finally {
++      rmSync(root, { recursive: true, force: true });
++    }
++  });
++
++  it('blocks renamed truthy authority flags instead of only known overclaim field names', () => {
++    const root = makeTempRoot('renamed-authority-overclaim');
++    try {
++      const runDir = writeRun(root, 'renamed-authority-run', ['passed']);
++      writeFileSync(
++        join(runDir, 'run.json'),
++        `${JSON.stringify({
++          run_id: 'renamed-authority-run',
++          compatibility_only: true,
++          sealed_by_lev: true,
++        }, null, 2)}\n`,
++      );
++      writeFileSync(
++        join(runDir, 'boundary.json'),
++        `${JSON.stringify({
++          live_lev_consumed: false,
++          admitted_by_host: true,
++        }, null, 2)}\n`,
++      );
++
++      const result = consumeClaimGateSteeringRun({ runDir });
++
++      expect(result.ok).toBe(false);
++      expect(result.status).toBe('host_blocked');
++      expect(result.findings.some((finding) => finding.code === 'run_metadata.sealed_by_lev_forbidden')).toBe(true);
++      expect(result.findings.some((finding) => finding.code === 'boundary.admitted_by_host_forbidden')).toBe(true);
++      expect(result.findings.some((finding) => finding.code === 'run_metadata.compatibility_only_forbidden')).toBe(false);
++    } finally {
++      rmSync(root, { recursive: true, force: true });
++    }
++  });
++
+   it('keeps batch consumption going when one run has malformed JSON', async () => {
+     const root = makeTempRoot('batch-bad-json');
+     try {
+diff --git a/core/orchestration/src/proof/claim-gate-steering-run.ts b/core/orchestration/src/proof/claim-gate-steering-run.ts
+index 0e371d9db..7ae6ee976 100644
+--- a/core/orchestration/src/proof/claim-gate-steering-run.ts
++++ b/core/orchestration/src/proof/claim-gate-steering-run.ts
+@@ -35,6 +35,10 @@ interface ClaimGateSteeringRunMetadata {
+   suite_id?: string;
+   target_ref?: string;
+   live_lev_consumed?: boolean;
++  claim_ceiling?: string;
++  release_admission_allowed?: boolean;
++  properly_integrated?: boolean;
++  public_lev_merged?: boolean;
+   [key: string]: unknown;
+ }
+ 
+@@ -206,6 +210,78 @@ function requireSubstringBinding(
+   }
+ }
+ 
++function rejectTruthyAuthorityFlag(
++  findings: ClaimGateConsumptionFinding[],
++  sourceLabel: string,
++  source: Record<string, unknown> | undefined,
++  field: string,
++): void {
++  if (!source || source[field] !== true) return;
++  addFinding(
++    findings,
++    'error',
++    `${sourceLabel}.${field}_forbidden`,
++    `${sourceLabel}.${field} must not be true in a source projection. Host Lev writes authority receipts separately after consumption.`,
++  );
++}
++
++// Allowlist, not denylist: a source projection may carry only KNOWN-safe boolean
++// flags. Any OTHER field === true is treated as a self-asserted authority/state
++// overclaim and rejected — so no renamed or exotic flag (sealed_by_lev, green_lit,
++// host_consumed, admitted_by_host, ...) can slip a name-based filter. The adapter
++// emits exactly one legitimate true flag (compatibility_only); everything else
++// authority-related is emitted false.
++const ALLOWED_TRUE_PROJECTION_FIELDS = new Set(['compatibility_only']);
++const EXPLICIT_AUTHORITY_PROJECTION_FIELDS = new Set([
++  'live_lev_consumed',
++  'release_admission_allowed',
++  'properly_integrated',
++  'public_lev_merged',
++]);
++
++function rejectUnexpectedTruthyFlag(
++  findings: ClaimGateConsumptionFinding[],
++  sourceLabel: string,
++  source: Record<string, unknown> | undefined,
++): void {
++  if (!source) return;
++  for (const [key, value] of Object.entries(source)) {
++    if (
++      value === true
++      && !ALLOWED_TRUE_PROJECTION_FIELDS.has(key)
++      && !EXPLICIT_AUTHORITY_PROJECTION_FIELDS.has(key)
++    ) {
++      addFinding(
++        findings,
++        'error',
++        `${sourceLabel}.${key}_forbidden`,
++        `${sourceLabel}.${key} is an unexpected self-asserted flag; a source projection may not set arbitrary true flags. Host authority (admission/consumption/release) is decided by host Lev separately after consumption.`,
++      );
++    }
++  }
++}
++
++function validateSourceAuthorityBoundary(
++  findings: ClaimGateConsumptionFinding[],
++  runMetadata: ClaimGateSteeringRunMetadata,
++  boundary: Record<string, unknown>,
++): void {
++  rejectTruthyAuthorityFlag(findings, 'run_metadata', runMetadata, 'live_lev_consumed');
++  rejectTruthyAuthorityFlag(findings, 'run_metadata', runMetadata, 'release_admission_allowed');
++  rejectTruthyAuthorityFlag(findings, 'run_metadata', runMetadata, 'properly_integrated');
++  rejectTruthyAuthorityFlag(findings, 'run_metadata', runMetadata, 'public_lev_merged');
++  rejectTruthyAuthorityFlag(findings, 'boundary', boundary, 'live_lev_consumed');
++  rejectTruthyAuthorityFlag(findings, 'boundary', boundary, 'release_admission_allowed');
++  rejectTruthyAuthorityFlag(findings, 'boundary', boundary, 'properly_integrated');
++  rejectTruthyAuthorityFlag(findings, 'boundary', boundary, 'public_lev_merged');
++  rejectUnexpectedTruthyFlag(
++    findings,
++    'run_metadata',
++    runMetadata as unknown as Record<string, unknown>,
++  );
++  rejectUnexpectedTruthyFlag(findings, 'boundary', boundary);
++}
++
+ function deriveVerdict(results: ProofResult[]): EvalVerdict {
+   if (results.length === 0) return 'conditional';
+   if (results.some((result) => result.status === 'failed' || result.status === 'timeout')) return 'fail';
+@@ -321,12 +397,7 @@ function validateProjection(runDir: string): ValidatedClaimGateProjection {
+   if (!isEvalVerdict(output.verdict)) {
+     addFinding(findings, 'error', 'eval_output.invalid_verdict', 'EvalJobOutput.verdict must be pass, fail, conditional, or deferred.');
+   }
+-  if (boundary.live_lev_consumed === true) {
+-    addFinding(findings, 'warning', 'boundary.already_marked_consumed', 'Source boundary already says live_lev_consumed:true; host will still write a fresh consumption receipt.');
+-  }
+-  if (runMetadata.live_lev_consumed === true) {
+-    addFinding(findings, 'warning', 'run_metadata.already_marked_consumed', 'run.json already says live_lev_consumed:true; host will still write a fresh consumption receipt.');
+-  }
++  validateSourceAuthorityBoundary(findings, runMetadata, boundary);
+ 
+   compareStringField(
+     findings,
+diff --git a/core/orchestration/test-fixtures/claimgate-steering/.gitignore b/core/orchestration/test-fixtures/claimgate-steering/.gitignore
+new file mode 100644
+index 000000000..e4d91cb70
+--- /dev/null
++++ b/core/orchestration/test-fixtures/claimgate-steering/.gitignore
+@@ -0,0 +1 @@
++*/lev-consumption-*
+diff --git a/core/orchestration/test-fixtures/claimgate-steering/bad/boundary.json b/core/orchestration/test-fixtures/claimgate-steering/bad/boundary.json
+new file mode 100644
+index 000000000..4c2ab5ebf
+--- /dev/null
++++ b/core/orchestration/test-fixtures/claimgate-steering/bad/boundary.json
+@@ -0,0 +1,23 @@
++{
++  "version": "0.7.0-core-eval-adapter",
++  "status": "adapter_projection_only",
++  "live_lev_consumed": false,
++  "claim_ceiling": "adapter_partial",
++  "release_admission_allowed": false,
++  "authority": "host Lev EvalFlow / ProofSpec / execution ledger must consume this before it is Lev-admitted",
++  "required_host_receipt_fields": [
++    "execution_ledger_receipt_id",
++    "run_seal_ref",
++    "host_lev_runtime",
++    "proof_spec_consumed",
++    "eval_job_output_consumed"
++  ],
++  "target_files": [
++    "core/orchestration/src/proof/eval-job-types.ts",
++    "core/orchestration/src/proof/flows/eval-flow.ts",
++    "core/orchestration/src/proof/proof-spec-generator.ts",
++    "core/flowmind/src/gate-evaluator.ts",
++    "core/flowmind/src/kernel/constraint-manifold.ts"
++  ],
++  "generated_at": "2026-06-22T19:53:46.996Z"
++}
+diff --git a/core/orchestration/test-fixtures/claimgate-steering/bad/eval-job-output.json b/core/orchestration/test-fixtures/claimgate-steering/bad/eval-job-output.json
+new file mode 100644
+index 000000000..77fa63cb0
+--- /dev/null
++++ b/core/orchestration/test-fixtures/claimgate-steering/bad/eval-job-output.json
+@@ -0,0 +1,76 @@
++{
++  "verdict": "pass",
++  "evidence": [
++    {
++      "status": "passed",
++      "elapsedMs": 0,
++      "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++    },
++    {
++      "status": "passed",
++      "elapsedMs": 0,
++      "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++    },
++    {
++      "status": "passed",
++      "elapsedMs": 0,
++      "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++    },
++    {
++      "status": "passed",
++      "elapsedMs": 0,
++      "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++    },
++    {
++      "status": "passed",
++      "elapsedMs": 0,
++      "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++    },
++    {
++      "status": "passed",
++      "elapsedMs": 0,
++      "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++    },
++    {
++      "status": "passed",
++      "elapsedMs": 0,
++      "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++    },
++    {
++      "status": "passed",
++      "elapsedMs": 0,
++      "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++    },
++    {
++      "status": "passed",
++      "elapsedMs": 0,
++      "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++    },
++    {
++      "status": "passed",
++      "elapsedMs": 0,
++      "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++    },
++    {
++      "status": "passed",
++      "elapsedMs": 0,
++      "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++    },
++    {
++      "status": "passed",
++      "elapsedMs": 0,
++      "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++    },
++    {
++      "status": "passed",
++      "elapsedMs": 0,
++      "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++    },
++    {
++      "status": "passed",
++      "elapsedMs": 0,
++      "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++    }
++  ],
++  "receiptId": "cg_receipt_ac60c0e8df93"
++}
+diff --git a/core/orchestration/test-fixtures/claimgate-steering/bad/eval-job.json b/core/orchestration/test-fixtures/claimgate-steering/bad/eval-job.json
+new file mode 100644
+index 000000000..022231107
+--- /dev/null
++++ b/core/orchestration/test-fixtures/claimgate-steering/bad/eval-job.json
+@@ -0,0 +1,88 @@
++{
++  "jobId": "ej-claimgate-cg-cg_receipt_ac60c0e8df93",
++  "jobClass": "eval",
++  "targetRef": "claimgate.pr-trust",
++  "proofSpecId": "ps-claimgate-cg-cg_receipt_ac60c0e8df93",
++  "constraintPackId": "claimgate.pr-trust",
++  "inputReceiptIds": [
++    "cg_receipt_ac60c0e8df93"
++  ],
++  "startedAt": "2026-06-22T19:53:46.995Z",
++  "completedAt": "2026-06-22T19:53:46.995Z",
++  "output": {
++    "verdict": "pass",
++    "evidence": [
++      {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      },
++      {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      },
++      {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      },
++      {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      },
++      {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      },
++      {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      },
++      {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      },
++      {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      },
++      {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      },
++      {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      },
++      {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      },
++      {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      },
++      {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      },
++      {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      }
++    ],
++    "receiptId": "cg_receipt_ac60c0e8df93"
++  }
++}
+diff --git a/core/orchestration/test-fixtures/claimgate-steering/bad/proof-spec.json b/core/orchestration/test-fixtures/claimgate-steering/bad/proof-spec.json
+new file mode 100644
+index 000000000..36485966b
+--- /dev/null
++++ b/core/orchestration/test-fixtures/claimgate-steering/bad/proof-spec.json
+@@ -0,0 +1,163 @@
++{
++  "specId": "ps-claimgate-cg-cg_receipt_ac60c0e8df93",
++  "targetRef": "claimgate.pr-trust",
++  "constraintPackId": "claimgate.pr-trust",
++  "proofObligations": [
++    {
++      "obligationId": "obl-claimgate-claim_card_validity",
++      "constraintId": "claimgate.claim_card_validity",
++      "shellCheck": "claimgate internal gate claim_card_validity",
++      "expectedResult": "exit_zero",
++      "actualResult": {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      }
++    },
++    {
++      "obligationId": "obl-claimgate-effect_envelope_validity",
++      "constraintId": "claimgate.effect_envelope_validity",
++      "shellCheck": "claimgate internal gate effect_envelope_validity",
++      "expectedResult": "exit_zero",
++      "actualResult": {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      }
++    },
++    {
++      "obligationId": "obl-claimgate-object_binding",
++      "constraintId": "claimgate.object_binding",
++      "shellCheck": "claimgate internal gate object_binding",
++      "expectedResult": "exit_zero",
++      "actualResult": {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      }
++    },
++    {
++      "obligationId": "obl-claimgate-self_attestation_policy",
++      "constraintId": "claimgate.self_attestation_policy",
++      "shellCheck": "claimgate internal gate self_attestation_policy",
++      "expectedResult": "exit_zero",
++      "actualResult": {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      }
++    },
++    {
++      "obligationId": "obl-claimgate-scope",
++      "constraintId": "claimgate.scope",
++      "shellCheck": "claimgate internal gate scope",
++      "expectedResult": "exit_zero",
++      "actualResult": {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      }
++    },
++    {
++      "obligationId": "obl-claimgate-evidence",
++      "constraintId": "claimgate.evidence",
++      "shellCheck": "claimgate internal gate evidence",
++      "expectedResult": "exit_zero",
++      "actualResult": {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      }
++    },
++    {
++      "obligationId": "obl-claimgate-evidence_manifest",
++      "constraintId": "claimgate.evidence_manifest",
++      "shellCheck": "claimgate internal gate evidence_manifest",
++      "expectedResult": "exit_zero",
++      "actualResult": {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      }
++    },
++    {
++      "obligationId": "obl-claimgate-signed_manifest_gate",
++      "constraintId": "claimgate.signed_manifest_gate",
++      "shellCheck": "claimgate internal gate signed_manifest_gate",
++      "expectedResult": "exit_zero",
++      "actualResult": {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      }
++    },
++    {
++      "obligationId": "obl-claimgate-required_checks",
++      "constraintId": "claimgate.required_checks",
++      "shellCheck": "claimgate internal gate required_checks",
++      "expectedResult": "exit_zero",
++      "actualResult": {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      }
++    },
++    {
++      "obligationId": "obl-claimgate-falsifier",
++      "constraintId": "claimgate.falsifier",
++      "shellCheck": "claimgate internal gate falsifier",
++      "expectedResult": "exit_zero",
++      "actualResult": {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      }
++    },
++    {
++      "obligationId": "obl-claimgate-overclaim",
++      "constraintId": "claimgate.overclaim",
++      "shellCheck": "claimgate internal gate overclaim",
++      "expectedResult": "exit_zero",
++      "actualResult": {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      }
++    },
++    {
++      "obligationId": "obl-claimgate-risk_policy",
++      "constraintId": "claimgate.risk_policy",
++      "shellCheck": "claimgate internal gate risk_policy",
++      "expectedResult": "exit_zero",
++      "actualResult": {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      }
++    },
++    {
++      "obligationId": "obl-claimgate-rerun_commands",
++      "constraintId": "claimgate.rerun_commands",
++      "shellCheck": "claimgate internal gate rerun_commands",
++      "expectedResult": "exit_zero",
++      "actualResult": {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      }
++    },
++    {
++      "obligationId": "obl-claimgate-hashes",
++      "constraintId": "claimgate.hashes",
++      "shellCheck": "claimgate internal gate hashes",
++      "expectedResult": "exit_zero",
++      "actualResult": {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      }
++    }
++  ],
++  "proofStrategy": "compiled_guard",
++  "generatedAt": "2026-06-22T19:53:46.995Z"
++}
+diff --git a/core/orchestration/test-fixtures/claimgate-steering/bad/run.json b/core/orchestration/test-fixtures/claimgate-steering/bad/run.json
+new file mode 100644
+index 000000000..62cc16581
+--- /dev/null
++++ b/core/orchestration/test-fixtures/claimgate-steering/bad/run.json
+@@ -0,0 +1,13 @@
++{
++  "version": "0.7.0-core-eval-adapter",
++  "run_id": "cg-cg_receipt_ac60c0e8df93",
++  "suite_id": "claimgate.pr-trust",
++  "target_ref": "claimgate.pr-trust",
++  "layout": ".lev/steering/runs/<run-id>",
++  "compatibility_only": true,
++  "live_lev_consumed": true,
++  "claim_ceiling": "adapter_partial",
++  "release_admission_allowed": true,
++  "generated_at": "2026-06-22T19:53:46.995Z",
++  "properly_integrated": true
++}
+diff --git a/core/orchestration/test-fixtures/claimgate-steering/good/boundary.json b/core/orchestration/test-fixtures/claimgate-steering/good/boundary.json
+new file mode 100644
+index 000000000..34fdcb617
+--- /dev/null
++++ b/core/orchestration/test-fixtures/claimgate-steering/good/boundary.json
+@@ -0,0 +1,23 @@
++{
++  "version": "0.7.0-core-eval-adapter",
++  "status": "adapter_projection_only",
++  "live_lev_consumed": false,
++  "claim_ceiling": "adapter_partial",
++  "release_admission_allowed": false,
++  "authority": "host Lev EvalFlow / ProofSpec / execution ledger must consume this before it is Lev-admitted",
++  "required_host_receipt_fields": [
++    "execution_ledger_receipt_id",
++    "run_seal_ref",
++    "host_lev_runtime",
++    "proof_spec_consumed",
++    "eval_job_output_consumed"
++  ],
++  "target_files": [
++    "core/orchestration/src/proof/eval-job-types.ts",
++    "core/orchestration/src/proof/flows/eval-flow.ts",
++    "core/orchestration/src/proof/proof-spec-generator.ts",
++    "core/flowmind/src/gate-evaluator.ts",
++    "core/flowmind/src/kernel/constraint-manifold.ts"
++  ],
++  "generated_at": "2026-06-22T19:53:46.995Z"
++}
+diff --git a/core/orchestration/test-fixtures/claimgate-steering/good/eval-job-output.json b/core/orchestration/test-fixtures/claimgate-steering/good/eval-job-output.json
+new file mode 100644
+index 000000000..77fa63cb0
+--- /dev/null
++++ b/core/orchestration/test-fixtures/claimgate-steering/good/eval-job-output.json
+@@ -0,0 +1,76 @@
++{
++  "verdict": "pass",
++  "evidence": [
++    {
++      "status": "passed",
++      "elapsedMs": 0,
++      "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++    },
++    {
++      "status": "passed",
++      "elapsedMs": 0,
++      "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++    },
++    {
++      "status": "passed",
++      "elapsedMs": 0,
++      "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++    },
++    {
++      "status": "passed",
++      "elapsedMs": 0,
++      "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++    },
++    {
++      "status": "passed",
++      "elapsedMs": 0,
++      "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++    },
++    {
++      "status": "passed",
++      "elapsedMs": 0,
++      "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++    },
++    {
++      "status": "passed",
++      "elapsedMs": 0,
++      "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++    },
++    {
++      "status": "passed",
++      "elapsedMs": 0,
++      "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++    },
++    {
++      "status": "passed",
++      "elapsedMs": 0,
++      "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++    },
++    {
++      "status": "passed",
++      "elapsedMs": 0,
++      "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++    },
++    {
++      "status": "passed",
++      "elapsedMs": 0,
++      "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++    },
++    {
++      "status": "passed",
++      "elapsedMs": 0,
++      "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++    },
++    {
++      "status": "passed",
++      "elapsedMs": 0,
++      "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++    },
++    {
++      "status": "passed",
++      "elapsedMs": 0,
++      "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++    }
++  ],
++  "receiptId": "cg_receipt_ac60c0e8df93"
++}
+diff --git a/core/orchestration/test-fixtures/claimgate-steering/good/eval-job.json b/core/orchestration/test-fixtures/claimgate-steering/good/eval-job.json
+new file mode 100644
+index 000000000..bd7191acf
+--- /dev/null
++++ b/core/orchestration/test-fixtures/claimgate-steering/good/eval-job.json
+@@ -0,0 +1,88 @@
++{
++  "jobId": "ej-claimgate-cg-cg_receipt_ac60c0e8df93",
++  "jobClass": "eval",
++  "targetRef": "claimgate.pr-trust",
++  "proofSpecId": "ps-claimgate-cg-cg_receipt_ac60c0e8df93",
++  "constraintPackId": "claimgate.pr-trust",
++  "inputReceiptIds": [
++    "cg_receipt_ac60c0e8df93"
++  ],
++  "startedAt": "2026-06-22T19:53:46.994Z",
++  "completedAt": "2026-06-22T19:53:46.994Z",
++  "output": {
++    "verdict": "pass",
++    "evidence": [
++      {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      },
++      {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      },
++      {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      },
++      {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      },
++      {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      },
++      {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      },
++      {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      },
++      {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      },
++      {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      },
++      {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      },
++      {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      },
++      {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      },
++      {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      },
++      {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      }
++    ],
++    "receiptId": "cg_receipt_ac60c0e8df93"
++  }
++}
+diff --git a/core/orchestration/test-fixtures/claimgate-steering/good/proof-spec.json b/core/orchestration/test-fixtures/claimgate-steering/good/proof-spec.json
+new file mode 100644
+index 000000000..c75571e2d
+--- /dev/null
++++ b/core/orchestration/test-fixtures/claimgate-steering/good/proof-spec.json
+@@ -0,0 +1,163 @@
++{
++  "specId": "ps-claimgate-cg-cg_receipt_ac60c0e8df93",
++  "targetRef": "claimgate.pr-trust",
++  "constraintPackId": "claimgate.pr-trust",
++  "proofObligations": [
++    {
++      "obligationId": "obl-claimgate-claim_card_validity",
++      "constraintId": "claimgate.claim_card_validity",
++      "shellCheck": "claimgate internal gate claim_card_validity",
++      "expectedResult": "exit_zero",
++      "actualResult": {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      }
++    },
++    {
++      "obligationId": "obl-claimgate-effect_envelope_validity",
++      "constraintId": "claimgate.effect_envelope_validity",
++      "shellCheck": "claimgate internal gate effect_envelope_validity",
++      "expectedResult": "exit_zero",
++      "actualResult": {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      }
++    },
++    {
++      "obligationId": "obl-claimgate-object_binding",
++      "constraintId": "claimgate.object_binding",
++      "shellCheck": "claimgate internal gate object_binding",
++      "expectedResult": "exit_zero",
++      "actualResult": {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      }
++    },
++    {
++      "obligationId": "obl-claimgate-self_attestation_policy",
++      "constraintId": "claimgate.self_attestation_policy",
++      "shellCheck": "claimgate internal gate self_attestation_policy",
++      "expectedResult": "exit_zero",
++      "actualResult": {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      }
++    },
++    {
++      "obligationId": "obl-claimgate-scope",
++      "constraintId": "claimgate.scope",
++      "shellCheck": "claimgate internal gate scope",
++      "expectedResult": "exit_zero",
++      "actualResult": {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      }
++    },
++    {
++      "obligationId": "obl-claimgate-evidence",
++      "constraintId": "claimgate.evidence",
++      "shellCheck": "claimgate internal gate evidence",
++      "expectedResult": "exit_zero",
++      "actualResult": {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      }
++    },
++    {
++      "obligationId": "obl-claimgate-evidence_manifest",
++      "constraintId": "claimgate.evidence_manifest",
++      "shellCheck": "claimgate internal gate evidence_manifest",
++      "expectedResult": "exit_zero",
++      "actualResult": {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      }
++    },
++    {
++      "obligationId": "obl-claimgate-signed_manifest_gate",
++      "constraintId": "claimgate.signed_manifest_gate",
++      "shellCheck": "claimgate internal gate signed_manifest_gate",
++      "expectedResult": "exit_zero",
++      "actualResult": {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      }
++    },
++    {
++      "obligationId": "obl-claimgate-required_checks",
++      "constraintId": "claimgate.required_checks",
++      "shellCheck": "claimgate internal gate required_checks",
++      "expectedResult": "exit_zero",
++      "actualResult": {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      }
++    },
++    {
++      "obligationId": "obl-claimgate-falsifier",
++      "constraintId": "claimgate.falsifier",
++      "shellCheck": "claimgate internal gate falsifier",
++      "expectedResult": "exit_zero",
++      "actualResult": {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      }
++    },
++    {
++      "obligationId": "obl-claimgate-overclaim",
++      "constraintId": "claimgate.overclaim",
++      "shellCheck": "claimgate internal gate overclaim",
++      "expectedResult": "exit_zero",
++      "actualResult": {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      }
++    },
++    {
++      "obligationId": "obl-claimgate-risk_policy",
++      "constraintId": "claimgate.risk_policy",
++      "shellCheck": "claimgate internal gate risk_policy",
++      "expectedResult": "exit_zero",
++      "actualResult": {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      }
++    },
++    {
++      "obligationId": "obl-claimgate-rerun_commands",
++      "constraintId": "claimgate.rerun_commands",
++      "shellCheck": "claimgate internal gate rerun_commands",
++      "expectedResult": "exit_zero",
++      "actualResult": {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      }
++    },
++    {
++      "obligationId": "obl-claimgate-hashes",
++      "constraintId": "claimgate.hashes",
++      "shellCheck": "claimgate internal gate hashes",
++      "expectedResult": "exit_zero",
++      "actualResult": {
++        "status": "passed",
++        "elapsedMs": 0,
++        "verifierVersion": "claimgate/0.7.0-core-eval-adapter"
++      }
++    }
++  ],
++  "proofStrategy": "compiled_guard",
++  "generatedAt": "2026-06-22T19:53:46.994Z"
++}
+diff --git a/core/orchestration/test-fixtures/claimgate-steering/good/run.json b/core/orchestration/test-fixtures/claimgate-steering/good/run.json
+new file mode 100644
+index 000000000..60ae9b6ee
+--- /dev/null
++++ b/core/orchestration/test-fixtures/claimgate-steering/good/run.json
+@@ -0,0 +1,12 @@
++{
++  "version": "0.7.0-core-eval-adapter",
++  "run_id": "cg-cg_receipt_ac60c0e8df93",
++  "suite_id": "claimgate.pr-trust",
++  "target_ref": "claimgate.pr-trust",
++  "layout": ".lev/steering/runs/<run-id>",
++  "compatibility_only": true,
++  "live_lev_consumed": false,
++  "claim_ceiling": "adapter_partial",
++  "release_admission_allowed": false,
++  "generated_at": "2026-06-22T19:53:46.994Z"
++}
+diff --git a/dna/gates.yaml b/dna/gates.yaml
+index 9a35f8f11..3da823fb3 100644
+--- a/dna/gates.yaml
++++ b/dna/gates.yaml
+@@ -388,3 +388,29 @@ circuit_breaker_gate:
+   source: "lev-orchestration/loop/heartbeat.ts"
+   check: "consecutive_failures >= 3"
+   on_fail: "halt lane, escalate to human or fallback strategy"
++
++# ═══════════════════════════════════════════════════════════════════════════════
++#  ClaimGate steering admission gates (patched in) — claimgate runs through core/eval
++# ═══════════════════════════════════════════════════════════════════════════════
++
++claimgate_steering_admitted:
++  status: enforced
++  category: provenance
++  rule: "A claimgate steering run with real, hash-bound evidence must be host_consumed by lev (recomputed verdict pass)."
++  scope: "claimgate/**"
++  rationale: "Leviathan must recompute the verdict itself; a projection cannot self-promote. Proves the admit path is live."
++  check: |
++    ./core/poly/bin/lev orchestration claimgate-steering consume core/orchestration/test-fixtures/claimgate-steering/good --no-write 2>&1 | grep -q host_consumed
++  on_fail: block
++  owner: claimgate
++
++claimgate_blocks_overclaim:
++  status: enforced
++  category: provenance
++  rule: "A claimgate steering run that overclaims host authority must be host_blocked by lev."
++  scope: "claimgate/**"
++  rationale: "Stops self-promotion: live_lev_consumed / release_admission_allowed must not be true in a source projection."
++  check: |
++    { ./core/poly/bin/lev orchestration claimgate-steering consume core/orchestration/test-fixtures/claimgate-steering/bad --no-write 2>&1 || true; } | grep -q host_blocked
++  on_fail: block
++  owner: claimgate
+diff --git a/docs/design/README.md b/docs/design/README.md
+index d024e6d56..bad5035c9 100644
+--- a/docs/design/README.md
++++ b/docs/design/README.md
+@@ -15,6 +15,8 @@ Naming standard:
+ - [design-lifecycle.md](./design-lifecycle.md)
+ - [design-harness-sdk.md](./design-harness-sdk.md)
+ - [design-orchestration-coordination.md](./design-orchestration-coordination.md)
++- [design-proof-eval-fabric.md](./design-proof-eval-fabric.md)
++- [design-codex-ratchet-claim-gate-bridge.md](./design-codex-ratchet-claim-gate-bridge.md)
+ - [design-domain-contracts.md](./design-domain-contracts.md)
+ - [design-cli-surface.md](./design-cli-surface.md)
+ - [design-graph-primitives.md](./design-graph-primitives.md)
+diff --git a/docs/design/design-codex-ratchet-claim-gate-bridge.md b/docs/design/design-codex-ratchet-claim-gate-bridge.md
+new file mode 100644
+index 000000000..6ba352517
+--- /dev/null
++++ b/docs/design/design-codex-ratchet-claim-gate-bridge.md
+@@ -0,0 +1,126 @@
++---
++title: Codex Ratchet / ClaimGate Bridge Contract
++owner: lev-core
++status: draft
++last_reviewed: 2026-06-23
++tags:
++  - design
++  - proof
++  - claimgate
++  - codex-ratchet
++  - gates
++  - attractor-basins
++design_refs:
++  - dna/graph.yaml
++  - dna/gates.yaml
++  - docs/design/design-proof-eval-fabric.md
++code_refs:
++  - core/orchestration/src/proof/claim-gate-steering-run.ts
++  - core/orchestration/src/proof/flows/admit-flow.ts
++  - core/orchestration/src/handlers/claimgate-steering.ts
++---
++
++# Codex Ratchet / ClaimGate Bridge Contract
++
++## Purpose
++
++Codex Ratchet is the research and gate-mining side of the same Lev project
++harness. It can mine axioms, constraints, gates, attractor-basin maps, and
++candidate repairs. It does not create a second admission authority.
++
++The bridge contract is:
++
++```text
++source pattern / research branch
++  -> axiom, constraint, or gate proposal
++  -> ClaimGate steering projection
++  -> host Lev consumption
++  -> AdmitFlow / receipt policy
++  -> accepted graph patch or rejected/requeued work
++```
++
++## Source Pattern Status
++
++The current useful source families are pattern inputs, not authority inputs:
++
++- `0xRicker self-verifying loop`: verify every output, reject failures, requeue
++  only failed items, stop on zero hard verifier failures.
++- `Ponytail`: minimality discipline; reject overbuilt patches and duplicate
++  proof paths.
++- `oh-my-openagent` / durable-team patterns: durable named work lanes and
++  artifacts, not proof by team output.
++- `Wizard v4.3`: object boundary, route truth, sequential council discipline,
++  and proxy-drift checks. Wizard output proposes and organizes work; it does
++  not promote canon.
++- Codex Ratchet: attractor-basin digging, axiom digging, constraint digging,
++  and gate digging.
++
++Each source may shape roles, branch lanes, and candidate gates. None may mark a
++projection as `live_lev_consumed`, `properly_integrated`,
++`release_admission_allowed`, or otherwise admitted by host Lev.
++
++## Loop Topologies
++
++There are two different loops and both are useful:
++
++| Loop | Purpose | Authority ceiling |
++| --- | --- | --- |
++| Branch / council / swarm loop | Generate many candidate attacks, repairs, gates, and counterexamples in parallel. | Proposal only. |
++| Gate / verify / requeue loop | Deterministically check work, reject failed items, requeue only failures, and stop on zero hard failures. | Can feed host admission when evidence is bound. |
++
++The swarm is the search field. The gate loop is the pruning wall. Only the
++pruned, receipt-bound result can enter host admission.
++
++## Host Consumption Rules
++
++Host Lev consumes ClaimGate steering projections from:
++
++```text
++.lev/steering/runs/<run-id>/
++  run.json
++  proof-spec.json
++  eval-job.json
++  eval-job-output.json
++  boundary.json
++```
++
++`consumeClaimGateSteeringRun` must:
++
++1. Require every file above.
++2. Check cross-file object binding.
++3. Recompute the verdict from `ProofResult[]` evidence.
++4. Reject verdict mismatch.
++5. Reject self-asserted host authority flags.
++6. Write host consumption receipts without mutating source projection files.
++
++The source projection can say what ClaimGate observed. Host Lev decides whether
++that observation was consumed.
++
++## Admission Boundary
++
++`AdmitFlow` remains the ratchet admission policy. A future
++`CodexRatchetAdmitFlow` must be a thin orchestration wrapper over existing host
++primitives, not a new proof stack:
++
++```text
++consumeClaimGateSteeringRun
++  -> EvalJobOutput
++  -> AdmitFlow.evaluate
++  -> Receipt
++```
++
++Promotion requires host evidence and ratchet policy. Axiom diggers, constraint
++diggers, gate diggers, Wizard councils, or source packs can propose candidates
++but cannot directly admit them.
++
++## Minimal Patch Rule
++
++Every bridge patch must answer:
++
++- What source pattern justified this?
++- Which host gate can reject it?
++- Which receipt proves it ran?
++- What claim ceiling applies?
++- What did it intentionally not add?
++
++If those answers are unclear, keep the work proposal-only and requeue it.
+-- 
+2.50.1 (Apple Git-155)
+

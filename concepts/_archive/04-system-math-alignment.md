@@ -7,6 +7,9 @@ framing: current
 tags: [reference, research, system]
 sources:
   - raw/articles/new-docs/04_system_math_alignment.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # System Math Alignment

@@ -7,6 +7,9 @@ tags: [reference, research, harness, language, digest]
 sources:
   - raw/articles/new-docs/new content/preprocessed/07_mimetic_meme_manifold_boot_dictionary_digest.md
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Mimetic Meme Manifold Boot Dictionary Digest

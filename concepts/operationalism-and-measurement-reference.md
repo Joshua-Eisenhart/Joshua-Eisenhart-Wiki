@@ -10,6 +10,9 @@ sources:
   - Niels Bohr, Atomic Theory and the Description of Nature (1934)
   - Alisa Bokulich, Reexamining the Quantum-Classical Relation (2008)
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Operationalism and Measurement Reference

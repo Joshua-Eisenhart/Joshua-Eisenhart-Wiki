@@ -8,6 +8,9 @@ sources:
   - raw/articles/new-docs/archive_old/MULTI_AGENT_DOC_OVERLAP_AUDIT.md
 framing: legacy
 priming: false
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Multi-Agent Doc Overlap Audit

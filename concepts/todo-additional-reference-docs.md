@@ -9,6 +9,9 @@ sources:
   - raw/articles/new-docs/archive_old/TODO_ADDITIONAL_REFERENCE_DOCS.md
 framing: legacy
 priming: false
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Todo Additional Reference Docs

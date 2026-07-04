@@ -9,6 +9,9 @@ sources:
   - raw/articles/new-docs/new content/ai_ml_density_matrix_connections.md
   - raw/articles/new-docs/new content/density_matrices_across_fields.md
   - raw/articles/new-docs/01_pca_qpca_alignment.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # AI ML Density Matrix Connections

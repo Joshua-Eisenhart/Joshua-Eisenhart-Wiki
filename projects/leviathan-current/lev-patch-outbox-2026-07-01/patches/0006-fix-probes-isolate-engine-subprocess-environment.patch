@@ -1,0 +1,483 @@
+From 4244bac033c9b94b149659a94f3e64ce74f7a748 Mon Sep 17 00:00:00 2001
+From: Joshua-Eisenhart <40147598+Joshua-Eisenhart@users.noreply.github.com>
+Date: Tue, 30 Jun 2026 16:25:23 -0700
+Subject: [PATCH 06/35] fix(probes): isolate engine subprocess environment
+
+---
+ .../claim-gate-redteam-targets.test.ts        |  2 +
+ .../__tests__/codex-ratchet-r0-probe.test.ts  |  2 +
+ .../src/__tests__/lev-native-r0-probe.test.ts |  2 +
+ .../__tests__/mechanical-probe-runner.test.ts | 48 +++++++++++++++++++
+ .../src/__tests__/projection-binding.test.ts  |  4 ++
+ .../src/probes/mechanical-probe-runner.ts     | 14 +++++-
+ .../proof/claim-gate-redteam-targets.test.ts  |  4 +-
+ .../src/proof/claim-gate-steering-run.test.ts |  4 +-
+ .../src/proof/claim-gate-steering-run.ts      |  6 +++
+ .../src/proof/lev-wizard-ratchet.test.ts      |  4 ++
+ .../src/proof/real-three-engine-envelope.ts   | 12 +++++
+ 11 files changed, 97 insertions(+), 5 deletions(-)
+
+diff --git a/core/graph/src/__tests__/claim-gate-redteam-targets.test.ts b/core/graph/src/__tests__/claim-gate-redteam-targets.test.ts
+index 1b941f4d8..484389abb 100644
+--- a/core/graph/src/__tests__/claim-gate-redteam-targets.test.ts
++++ b/core/graph/src/__tests__/claim-gate-redteam-targets.test.ts
+@@ -94,6 +94,7 @@ function receiptFor(
+     inputHash: lane.inputHash,
+     outputHash: lane.outputHash,
+     stderrHash: sha256Text(stderr),
++    inheritEnv: false,
+     exitCode: 0,
+     signal: null,
+     timedOut: false,
+@@ -114,6 +115,7 @@ function receiptFor(
+       inputHash: sha256Text(`${engine}:control-input`),
+       outputHash: sha256Text(controlStdout),
+       stderrHash: sha256Text(stderr),
++      inheritEnv: false,
+       exitCode: 0,
+       signal: null,
+       timedOut: false,
+diff --git a/core/graph/src/__tests__/codex-ratchet-r0-probe.test.ts b/core/graph/src/__tests__/codex-ratchet-r0-probe.test.ts
+index 9344bf8c6..c05181023 100644
+--- a/core/graph/src/__tests__/codex-ratchet-r0-probe.test.ts
++++ b/core/graph/src/__tests__/codex-ratchet-r0-probe.test.ts
+@@ -35,6 +35,7 @@ function receiptWithResult(result: Record<string, unknown>): MechanicalProbeRunR
+     inputHash: 'sha256:input',
+     outputHash: sha256Text(stdout),
+     stderrHash: sha256Text(stderr),
++    inheritEnv: false,
+     exitCode: 0,
+     signal: null,
+     timedOut: false,
+@@ -65,6 +66,7 @@ function receiptWithResult(result: Record<string, unknown>): MechanicalProbeRunR
+       inputHash: 'sha256:control-input',
+       outputHash: sha256Text(controlStdout),
+       stderrHash: sha256Text(stderr),
++      inheritEnv: false,
+       exitCode: 0,
+       signal: null,
+       timedOut: false,
+diff --git a/core/graph/src/__tests__/lev-native-r0-probe.test.ts b/core/graph/src/__tests__/lev-native-r0-probe.test.ts
+index 741ddbf40..133946856 100644
+--- a/core/graph/src/__tests__/lev-native-r0-probe.test.ts
++++ b/core/graph/src/__tests__/lev-native-r0-probe.test.ts
+@@ -36,6 +36,7 @@ function receiptWithResult(result: Record<string, unknown>): MechanicalProbeRunR
+     inputHash: 'sha256:input',
+     outputHash: sha256Text(stdout),
+     stderrHash: sha256Text(stderr),
++    inheritEnv: false,
+     exitCode: 0,
+     signal: null,
+     timedOut: false,
+@@ -66,6 +67,7 @@ function receiptWithResult(result: Record<string, unknown>): MechanicalProbeRunR
+       inputHash: 'sha256:control-input',
+       outputHash: sha256Text(controlStdout),
+       stderrHash: sha256Text(stderr),
++      inheritEnv: false,
+       exitCode: 0,
+       signal: null,
+       timedOut: false,
+diff --git a/core/graph/src/__tests__/mechanical-probe-runner.test.ts b/core/graph/src/__tests__/mechanical-probe-runner.test.ts
+index 845e150f1..5fbc896d4 100644
+--- a/core/graph/src/__tests__/mechanical-probe-runner.test.ts
++++ b/core/graph/src/__tests__/mechanical-probe-runner.test.ts
+@@ -236,6 +236,54 @@ describe('mechanical probe runner', () => {
+     });
+   });
+ 
++  it('does not inherit host environment unless explicitly requested', () => {
++    const dir = mkdtempSync(join(tmpdir(), 'lev-probe-env-isolation-'));
++    const scriptPath = join(dir, 'env_probe.js');
++    const sourceText = 'console.log(process.env.LEV_MECHANICAL_PROBE_SECRET_LEAK ?? "absent")';
++    writeFileSync(scriptPath, sourceText);
++    process.env.LEV_MECHANICAL_PROBE_SECRET_LEAK = 'host-secret';
++    try {
++      const isolated = runMechanicalProbeLane({
++        engine: 'jax',
++        role: 'batched_geometry_workhorse',
++        command: process.execPath,
++        args: [scriptPath],
++        sourceRef: `file:${scriptPath}`,
++        sourceText,
++        expectedSourceHash: sha256Text(sourceText),
++        input: { fixture: 'env-isolation' },
++        timeoutMs: 10_000,
++        alignedPackagesLoadBearing: ['node'],
++        negativeControl: 'host_env_must_not_leak',
++        gateEffect: 'can_resolve_uncertain',
++      });
++
++      const inherited = runMechanicalProbeLane({
++        engine: 'jax',
++        role: 'batched_geometry_workhorse',
++        command: process.execPath,
++        args: [scriptPath],
++        inheritEnv: true,
++        sourceRef: `file:${scriptPath}`,
++        sourceText,
++        expectedSourceHash: sha256Text(sourceText),
++        input: { fixture: 'env-inheritance' },
++        timeoutMs: 10_000,
++        alignedPackagesLoadBearing: ['node'],
++        negativeControl: 'host_env_inheritance_is_explicit',
++        gateEffect: 'can_resolve_uncertain',
++      });
++
++      expect(isolated.inheritEnv).toBe(false);
++      expect(isolated.stdout.trim()).toBe('absent');
++      expect(inherited.inheritEnv).toBe(true);
++      expect(inherited.stdout.trim()).toBe('host-secret');
++      expect(validateMechanicalProbeRunReceipt(inherited).findings).toContain('process must not inherit host environment');
++    } finally {
++      delete process.env.LEV_MECHANICAL_PROBE_SECRET_LEAK;
++    }
++  });
++
+   juliaIt('captures hash-bound output artifacts written by the probe', () => {
+     const dir = mkdtempSync(join(tmpdir(), 'lev-julia-probe-artifact-'));
+     const artifactPath = join(dir, 'probe_result.json');
+diff --git a/core/graph/src/__tests__/projection-binding.test.ts b/core/graph/src/__tests__/projection-binding.test.ts
+index 8b0ffba7a..9f7834385 100644
+--- a/core/graph/src/__tests__/projection-binding.test.ts
++++ b/core/graph/src/__tests__/projection-binding.test.ts
+@@ -152,6 +152,7 @@ function probeReceipt(
+     inputHash: lane.inputHash,
+     outputHash: sha256Text(stdout),
+     stderrHash: sha256Text(stderr),
++    inheritEnv: false,
+     exitCode: 0,
+     signal: null,
+     timedOut: false,
+@@ -175,6 +176,7 @@ function probeReceipt(
+       inputHash: sha256Text(`${engine}:negative-input`),
+       outputHash: sha256Text(controlStdout),
+       stderrHash: sha256Text(stderr),
++      inheritEnv: false,
+       exitCode: 0,
+       signal: null,
+       timedOut: false,
+@@ -276,6 +278,7 @@ function graphSubstrateReceipt(
+     inputHash: lane.inputHash,
+     outputHash: sha256Text(stdout),
+     stderrHash: sha256Text(stderr),
++    inheritEnv: false,
+     exitCode: 0,
+     signal: null,
+     timedOut: false,
+@@ -299,6 +302,7 @@ function graphSubstrateReceipt(
+       inputHash: sha256Text(`${engine}:graph-control-input`),
+       outputHash: sha256Text(controlStdout),
+       stderrHash: sha256Text(stderr),
++      inheritEnv: false,
+       exitCode: 0,
+       signal: null,
+       timedOut: false,
+diff --git a/core/graph/src/probes/mechanical-probe-runner.ts b/core/graph/src/probes/mechanical-probe-runner.ts
+index 641b1d1d4..e134b9f58 100644
+--- a/core/graph/src/probes/mechanical-probe-runner.ts
++++ b/core/graph/src/probes/mechanical-probe-runner.ts
+@@ -35,6 +35,7 @@ export type MechanicalProbeExecutedNegativeControlRequest = {
+   args?: string[];
+   cwd?: string;
+   env?: Record<string, string>;
++  inheritEnv?: boolean;
+   sourceRef: string;
+   sourceText?: string;
+   expectedSourceHash?: string;
+@@ -59,6 +60,7 @@ export type MechanicalProbeExecutedNegativeControlReceipt = {
+   inputHash: string;
+   outputHash: string;
+   stderrHash: string;
++  inheritEnv: boolean;
+   exitCode: number | null;
+   signal: string | null;
+   timedOut: boolean;
+@@ -78,6 +80,7 @@ export type MechanicalProbeRunRequest = {
+   args?: string[];
+   cwd?: string;
+   env?: Record<string, string>;
++  inheritEnv?: boolean;
+   sourceRef: string;
+   sourceText?: string;
+   expectedSourceHash?: string;
+@@ -107,6 +110,7 @@ export type MechanicalProbeRunReceipt = {
+   inputHash: string;
+   outputHash: string;
+   stderrHash: string;
++  inheritEnv: boolean;
+   exitCode: number | null;
+   signal: string | null;
+   timedOut: boolean;
+@@ -156,6 +160,7 @@ type ProcessRun = {
+   inputHash: string;
+   outputHash: string;
+   stderrHash: string;
++  inheritEnv: boolean;
+   exitCode: number | null;
+   signal: string | null;
+   timedOut: boolean;
+@@ -169,6 +174,7 @@ function runProcess(request: {
+   args?: string[];
+   cwd?: string;
+   env?: Record<string, string>;
++  inheritEnv?: boolean;
+   input: unknown;
+   timeoutMs: number;
+ }): ProcessRun {
+@@ -177,7 +183,7 @@ function runProcess(request: {
+   const inputText = stableJson(request.input);
+   const result = spawnSync(request.command, args, {
+     cwd: request.cwd,
+-    env: request.env ? { ...process.env, ...request.env } : process.env,
++    env: request.inheritEnv ? { ...process.env, ...request.env } : { ...(request.env ?? {}) },
+     input: inputText,
+     encoding: 'utf8',
+     timeout: request.timeoutMs,
+@@ -200,6 +206,7 @@ function runProcess(request: {
+     inputHash,
+     outputHash,
+     stderrHash: hashText(stderr),
++    inheritEnv: request.inheritEnv === true,
+     exitCode,
+     signal: result.signal ?? null,
+     timedOut,
+@@ -327,6 +334,7 @@ function runExecutedNegativeControl(
+     args: control.args,
+     cwd: control.cwd,
+     env: control.env,
++    inheritEnv: control.inheritEnv,
+     input: control.input,
+     timeoutMs: control.timeoutMs ?? defaultTimeoutMs,
+   });
+@@ -366,6 +374,7 @@ function runExecutedNegativeControl(
+     inputHash: controlRun.inputHash,
+     outputHash: controlRun.outputHash,
+     stderrHash: controlRun.stderrHash,
++    inheritEnv: controlRun.inheritEnv,
+     exitCode: controlRun.exitCode,
+     signal: controlRun.signal,
+     timedOut: controlRun.timedOut,
+@@ -421,6 +430,7 @@ export function runMechanicalProbeLane(request: MechanicalProbeRunRequest): Mech
+     inputHash: run.inputHash,
+     outputHash: run.outputHash,
+     stderrHash: run.stderrHash,
++    inheritEnv: run.inheritEnv,
+     exitCode: run.exitCode,
+     signal: run.signal,
+     timedOut: run.timedOut,
+@@ -469,6 +479,7 @@ export function validateMechanicalProbeRunReceipt(
+   }
+   if (receipt.exitCode !== 0) findings.push('process exitCode must be 0');
+   if (receipt.timedOut) findings.push('process must not time out');
++  if (receipt.inheritEnv !== false) findings.push('process must not inherit host environment');
+   if (receipt.outputHash !== hashText(receipt.stdout)) findings.push('outputHash must match stdout');
+   if (receipt.stderrHash !== hashText(receipt.stderr)) findings.push('stderrHash must match stderr');
+   if (receipt.lane.ran !== true) findings.push('lane.ran must be true');
+@@ -519,6 +530,7 @@ export function validateMechanicalProbeRunReceipt(
+     }
+     if (control.exitCode !== 0) findings.push('executedNegativeControl exitCode must be 0');
+     if (control.timedOut) findings.push('executedNegativeControl must not time out');
++    if (control.inheritEnv !== false) findings.push('executedNegativeControl must not inherit host environment');
+     if (control.outputHash !== hashText(control.stdout)) findings.push('executedNegativeControl.outputHash must match stdout');
+     if (control.stderrHash !== hashText(control.stderr)) findings.push('executedNegativeControl.stderrHash must match stderr');
+     if (control.outputDiffersFromPrimary !== outputDiffersFromPrimary) {
+diff --git a/core/orchestration/src/proof/claim-gate-redteam-targets.test.ts b/core/orchestration/src/proof/claim-gate-redteam-targets.test.ts
+index 80aaa69cd..5159ffd25 100644
+--- a/core/orchestration/src/proof/claim-gate-redteam-targets.test.ts
++++ b/core/orchestration/src/proof/claim-gate-redteam-targets.test.ts
+@@ -355,7 +355,7 @@ describe('ClaimGate red-team target regressions', () => {
+     }
+   });
+ 
+-  it('A6: a host witness issued by another process is not replayable into this process', () => {
++  it('A6: a host witness for non-host-executed proof obligations stays blocked across processes', () => {
+     const root = makeTempRoot('a6-cross-process-replay');
+     try {
+       const runDir = writeSteeringRun(root, 'a6-cross-process-replay-run');
+@@ -387,7 +387,7 @@ describe('ClaimGate red-team target regressions', () => {
+ 
+       expect(replay.status).toBe('host_blocked');
+       expect(replay.ok).toBe(false);
+-      expect(replay.findings.map((finding) => finding.code)).toContain('host_witness.invalid_mac');
++      expect(replay.findings.map((finding) => finding.code)).toContain('host_witness.host_proof_execution_not_passed');
+     } finally {
+       rmSync(root, { recursive: true, force: true });
+     }
+diff --git a/core/orchestration/src/proof/claim-gate-steering-run.test.ts b/core/orchestration/src/proof/claim-gate-steering-run.test.ts
+index 39aea4cc9..da9c32ccc 100644
+--- a/core/orchestration/src/proof/claim-gate-steering-run.test.ts
++++ b/core/orchestration/src/proof/claim-gate-steering-run.test.ts
+@@ -301,7 +301,7 @@ describe('ClaimGate steering-run consumer', () => {
+     }
+   });
+ 
+-  it('blocks replaying a host-issued witness ledger from another process', () => {
++  it('blocks replaying a host-issued witness ledger for non-host-executed proof obligations', () => {
+     const root = makeTempRoot('cross-process-host-witness');
+     try {
+       const runDir = writeRun(root, 'cross-process-host-witness-run', ['passed']);
+@@ -338,7 +338,7 @@ describe('ClaimGate steering-run consumer', () => {
+ 
+       expect(replay.ok).toBe(false);
+       expect(replay.status).toBe('host_blocked');
+-      expect(replay.findings.map((finding) => finding.code)).toContain('host_witness.invalid_mac');
++      expect(replay.findings.map((finding) => finding.code)).toContain('host_witness.host_proof_execution_not_passed');
+     } finally {
+       rmSync(root, { recursive: true, force: true });
+     }
+diff --git a/core/orchestration/src/proof/claim-gate-steering-run.ts b/core/orchestration/src/proof/claim-gate-steering-run.ts
+index e6ad4db25..fd24c1509 100644
+--- a/core/orchestration/src/proof/claim-gate-steering-run.ts
++++ b/core/orchestration/src/proof/claim-gate-steering-run.ts
+@@ -29,6 +29,12 @@ import type { ProofResult, ProofSpec } from './proof-spec-generator.js';
+ const CONSUMER_VERSION = '0.1.0-claimgate-steering-consumer';
+ const VALID_VERDICTS = new Set<EvalVerdict>(['pass', 'fail', 'conditional', 'deferred']);
+ const VALID_PROOF_STATUSES = new Set<ProofResult['status']>(['passed', 'failed', 'timeout', 'skipped']);
++// Host-witness stays a per-process ephemeral secret BY DESIGN: the witness attests
++// in-process proof execution, and a witness minted by another process is treated as a
++// replay attack (see claim-gate-steering-run.test.ts "blocks replaying a host-issued
++// witness ledger from another process"). Unlike host-consume / graph-event-trust — the
++// chain-crossing tokens the recursive loop needs to survive a process boundary — the
++// witness must NOT cross processes without a dedicated single-use/freshness guard.
+ const HOST_WITNESS_PROCESS_SECRET = randomBytes(32);
+ const HOST_WITNESS_ISSUER_TOKEN = Symbol('claim-gate-host-witness-issuer');
+ const HOST_PROOF_EXECUTOR_VERSION = 'lev-host-proof-obligation-runner/1.1:claimgate-internal-gates';
+diff --git a/core/orchestration/src/proof/lev-wizard-ratchet.test.ts b/core/orchestration/src/proof/lev-wizard-ratchet.test.ts
+index 1f2e91b4c..3aae7ba45 100644
+--- a/core/orchestration/src/proof/lev-wizard-ratchet.test.ts
++++ b/core/orchestration/src/proof/lev-wizard-ratchet.test.ts
+@@ -148,6 +148,7 @@ function testProbeReceipt(
+     inputHash: lane.inputHash,
+     outputHash,
+     stderrHash: sha256Text(stderr),
++    inheritEnv: false,
+     exitCode: 0,
+     signal: null,
+     timedOut: false,
+@@ -172,6 +173,7 @@ function testProbeReceipt(
+       inputHash: sha256Text(`${engine}:negative-control-input`),
+       outputHash: sha256Text(controlStdout),
+       stderrHash: sha256Text(stderr),
++      inheritEnv: false,
+       exitCode: 0,
+       signal: null,
+       timedOut: false,
+@@ -267,6 +269,7 @@ function graphSubstrateReceipt(
+     inputHash: lane.inputHash,
+     outputHash,
+     stderrHash: sha256Text(stderr),
++    inheritEnv: false,
+     exitCode: 0,
+     signal: null,
+     timedOut: false,
+@@ -290,6 +293,7 @@ function graphSubstrateReceipt(
+       inputHash: sha256Text(`${engine}:graph-control-input`),
+       outputHash: sha256Text(controlStdout),
+       stderrHash: sha256Text(stderr),
++      inheritEnv: false,
+       exitCode: 0,
+       signal: null,
+       timedOut: false,
+diff --git a/core/orchestration/src/proof/real-three-engine-envelope.ts b/core/orchestration/src/proof/real-three-engine-envelope.ts
+index c8064ccc1..3fac37b8b 100644
+--- a/core/orchestration/src/proof/real-three-engine-envelope.ts
++++ b/core/orchestration/src/proof/real-three-engine-envelope.ts
+@@ -144,6 +144,7 @@ export function buildRealThreeEngineEnvelope(): ThreeEngineProbeEnvelope {
+     args: [`--project=${CARRIER}`, juliaScript],
+     cwd: CARRIER,
+     env: { LEV_R0_JULIA_RESULT_PATH: juliaResults },
++    inheritEnv: false,
+     sourceRef: `file:${juliaScript}`,
+     sourceText: readFileSync(juliaScript, 'utf8'),
+     expectedSourceHash: LEV_NATIVE_R0_QUOTIENT_SOURCE_SHA256,
+@@ -158,6 +159,7 @@ export function buildRealThreeEngineEnvelope(): ThreeEngineProbeEnvelope {
+       args: [`--project=${CARRIER}`, juliaScript],
+       cwd: CARRIER,
+       env: { LEV_R0_NEGATIVE_CONTROL: 'duplicate_Z_does_not_refine' },
++      inheritEnv: false,
+       sourceRef: `file:${juliaScript}`,
+       sourceText: readFileSync(juliaScript, 'utf8'),
+       expectedSourceHash: LEV_NATIVE_R0_QUOTIENT_SOURCE_SHA256,
+@@ -178,6 +180,7 @@ export function buildRealThreeEngineEnvelope(): ThreeEngineProbeEnvelope {
+     args: [jaxScript],
+     cwd: CARRIER,
+     env: PY_ENV,
++    inheritEnv: false,
+     sourceRef: `file:${jaxScript}`,
+     sourceText: readFileSync(jaxScript, 'utf8'),
+     expectedSourceHash: LEV_NATIVE_R0_JAX_QUOTIENT_SOURCE_SHA256,
+@@ -192,6 +195,7 @@ export function buildRealThreeEngineEnvelope(): ThreeEngineProbeEnvelope {
+       args: [jaxScript],
+       cwd: CARRIER,
+       env: { ...PY_ENV, LEV_R0_NEGATIVE_CONTROL: 'duplicate_Z_does_not_refine' },
++      inheritEnv: false,
+       sourceRef: `file:${jaxScript}`,
+       sourceText: readFileSync(jaxScript, 'utf8'),
+       expectedSourceHash: LEV_NATIVE_R0_JAX_QUOTIENT_SOURCE_SHA256,
+@@ -211,6 +215,7 @@ export function buildRealThreeEngineEnvelope(): ThreeEngineProbeEnvelope {
+     args: [pytorchScript],
+     cwd: CARRIER,
+     env: PYTORCH_ENV,
++    inheritEnv: false,
+     sourceRef: `file:${pytorchScript}`,
+     sourceText: readFileSync(pytorchScript, 'utf8'),
+     expectedSourceHash: LEV_NATIVE_R0_PYTORCH_QUOTIENT_SOURCE_SHA256,
+@@ -225,6 +230,7 @@ export function buildRealThreeEngineEnvelope(): ThreeEngineProbeEnvelope {
+       args: [pytorchScript],
+       cwd: CARRIER,
+       env: { ...PYTORCH_ENV, LEV_R0_NEGATIVE_CONTROL: 'duplicate_Z_does_not_refine' },
++      inheritEnv: false,
+       sourceRef: `file:${pytorchScript}`,
+       sourceText: readFileSync(pytorchScript, 'utf8'),
+       expectedSourceHash: LEV_NATIVE_R0_PYTORCH_QUOTIENT_SOURCE_SHA256,
+@@ -330,6 +336,7 @@ export function buildRealLevEngineSubstrateDigest(): LevEngineSubstrateDigest {
+     command: JULIA_BIN,
+     args: [juliaScript],
+     cwd: GRAPH_CARRIER,
++    inheritEnv: false,
+     sourceRef: `file:${juliaScript}`,
+     sourceText: readFileSync(juliaScript, 'utf8'),
+     input: { compute: 'graph-substrate-digest', graph: 'cycle4' },
+@@ -343,6 +350,7 @@ export function buildRealLevEngineSubstrateDigest(): LevEngineSubstrateDigest {
+       args: [juliaScript],
+       cwd: GRAPH_CARRIER,
+       env: { LEV_GRAPH_NEGATIVE_CONTROL: 'zero_edges_changes_spectrum' },
++      inheritEnv: false,
+       sourceRef: `file:${juliaScript}`,
+       sourceText: readFileSync(juliaScript, 'utf8'),
+       input: { compute: 'graph-substrate-digest', negativeControl: 'zero_edges_changes_spectrum' },
+@@ -361,6 +369,7 @@ export function buildRealLevEngineSubstrateDigest(): LevEngineSubstrateDigest {
+     args: [jaxScript],
+     cwd: GRAPH_CARRIER,
+     env: PY_ENV,
++    inheritEnv: false,
+     sourceRef: `file:${jaxScript}`,
+     sourceText: readFileSync(jaxScript, 'utf8'),
+     input: { compute: 'graph-substrate-digest', graph: 'cycle4' },
+@@ -374,6 +383,7 @@ export function buildRealLevEngineSubstrateDigest(): LevEngineSubstrateDigest {
+       args: [jaxScript],
+       cwd: GRAPH_CARRIER,
+       env: { ...PY_ENV, LEV_GRAPH_NEGATIVE_CONTROL: 'zero_edges_changes_message' },
++      inheritEnv: false,
+       sourceRef: `file:${jaxScript}`,
+       sourceText: readFileSync(jaxScript, 'utf8'),
+       input: { compute: 'graph-substrate-digest', negativeControl: 'zero_edges_changes_message' },
+@@ -392,6 +402,7 @@ export function buildRealLevEngineSubstrateDigest(): LevEngineSubstrateDigest {
+     args: [pytorchScript],
+     cwd: GRAPH_CARRIER,
+     env: PY_ENV,
++    inheritEnv: false,
+     sourceRef: `file:${pytorchScript}`,
+     sourceText: readFileSync(pytorchScript, 'utf8'),
+     input: { compute: 'graph-substrate-digest', graph: 'cycle4' },
+@@ -405,6 +416,7 @@ export function buildRealLevEngineSubstrateDigest(): LevEngineSubstrateDigest {
+       args: [pytorchScript],
+       cwd: GRAPH_CARRIER,
+       env: { ...PY_ENV, LEV_GRAPH_NEGATIVE_CONTROL: 'zero_edges_changes_gradient' },
++      inheritEnv: false,
+       sourceRef: `file:${pytorchScript}`,
+       sourceText: readFileSync(pytorchScript, 'utf8'),
+       input: { compute: 'graph-substrate-digest', negativeControl: 'zero_edges_changes_gradient' },
+-- 
+2.50.1 (Apple Git-155)
+

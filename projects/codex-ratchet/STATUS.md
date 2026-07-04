@@ -1,4 +1,4 @@
-last_updated: 2026-06-08
+last_updated: 2026-07-01
 
 # Codex Ratchet Status - scalarization kill scout and runtime mirror refresh 2026-05-23
 
@@ -10,7 +10,7 @@ The `404` tuple remains useful as a dated generated index snapshot. It is not di
 
 ## 2026-06-04 Carrier / Deflation Override
 
-Historical 2026-06-04 carrier / deflation note, superseded on engine roles by the 2026-06-08 canon: CTMRG/PEPS3D is retired as a load-bearing carrier. Current carriers are ITensors-MPS, exact dense with TensorKit where relevant, QuantumClifford for Clifford/stabilizer levels, and spinor-native trajectories. In the current canon stack, Julia remains the arbitration canon, JAX is the differentiable dynamics workhorse, and PyTorch/PyG is first-class graph/network compute when the bounded receipt makes it load-bearing. Do not demote PyTorch to legacy/helper from this older status page.
+Historical 2026-06-04 carrier / deflation note, superseded on engine roles by the 2026-06-08 canon and carrier wording by the 2026-07-01 routing correction: the retired path is the single-fused PEPS3D contraction, not CTMRG globally. CTMRG remains valid inside nested 2D PEPSKit layers when contraction-error certificates bind the readout. Current carriers route through nested PEPS2D/Hopfield connection geometry, ITensors-MPS, exact dense with TensorKit where relevant, QuantumClifford for Clifford/stabilizer levels, and spinor-native trajectories. In the current canon stack, Julia remains the arbitration canon, JAX is the differentiable dynamics workhorse, and PyTorch/PyG is first-class graph/network compute when the bounded receipt makes it load-bearing. Do not demote PyTorch to legacy/helper from older PEPS3D status language.
 
 Wizard v4.3 exists as an object-preservation preflight guard before v4.2 councils. It is not a replacement Wizard runtime and does not promote sim, physics, Axis0, flux, or manifold claims by itself.
 

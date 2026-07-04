@@ -11,6 +11,9 @@ framing: derived_historical_tool_ledger
 spec_mirrors:
   - specs/codex-ratchet/tool-function-receipt-status
   - specs/codex-ratchet/sim-estate-integration-status
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Tool Capability and Integration Ledger

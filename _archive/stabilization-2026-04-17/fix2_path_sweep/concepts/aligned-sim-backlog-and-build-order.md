@@ -11,6 +11,9 @@ sources:
   - raw/articles/new-docs/05_research_index.md
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/new docs/plans/2026-04-11-sim-build-plan.md
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/new docs/plans/sim_backlog_matrix.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Aligned Sim Backlog and Build Order

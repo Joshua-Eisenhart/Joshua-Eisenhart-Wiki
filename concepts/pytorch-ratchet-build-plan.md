@@ -7,6 +7,9 @@ tags: [planning, simulation, system, architecture, implementation]
 sources:
   - raw/articles/new-docs/PYTORCH_RATCHET_BUILD_PLAN.md
 framing: mixed
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # PyTorch Ratchet Build Plan

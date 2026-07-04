@@ -21,6 +21,9 @@ missing_result_receipts:
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v4/probes/a2_state/sim_results/sim_igt_atom_6_chirality_results.json
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v4/probes/a2_state/sim_results/sim_igt_atom_7_coupling_results.json
 framing: source_present_result_missing_snapshot
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # IGT Atom Result Audit

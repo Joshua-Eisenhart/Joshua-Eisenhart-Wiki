@@ -7,6 +7,9 @@ tags: [reference, research, system, simulation, planning]
 sources:
   - raw/articles/new-docs/16_lego_build_catalog.md
 framing: dated_ledger_snapshot
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Lego Build Catalog

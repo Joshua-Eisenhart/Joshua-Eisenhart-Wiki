@@ -7,6 +7,9 @@ tags: [reference, research, simulation, status]
 sources:
   - raw/articles/new-docs/TIER_STATUS.md
 framing: historical_preaxis_snapshot
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Tier Status (2026-04-05 Snapshot)

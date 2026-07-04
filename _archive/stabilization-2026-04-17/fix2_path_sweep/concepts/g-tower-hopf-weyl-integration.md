@@ -7,6 +7,9 @@ tags: [geometry, g-tower, hopf, weyl, spinors, simulation, ratchet, rosetta]
 sources:
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/new docs/plans/G_TOWER_HOPF_WEYL_INTEGRATION_SPEC.md
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # G-Tower / Hopf / Weyl Integration

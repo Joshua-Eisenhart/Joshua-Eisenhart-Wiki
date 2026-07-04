@@ -12,6 +12,9 @@ spec_mirrors:
   - /Users/joshuaeisenhart/wiki/specs/codex-ratchet/sim-estate-integration-status.md
   - /Users/joshuaeisenhart/wiki/specs/codex-ratchet/tool-function-receipt-status.md
 framing: historical_migration_snapshot
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Migration Registry

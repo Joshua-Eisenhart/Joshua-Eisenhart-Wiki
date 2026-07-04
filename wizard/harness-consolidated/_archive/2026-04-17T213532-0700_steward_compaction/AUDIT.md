@@ -4,6 +4,9 @@ voice_tier: T4
 supersedes: 17_pre_emit_audit.md
 source: 17_pre_emit_audit.md expanded into worked loop per lev_reorientation_guide_v2.md Part V-A
 self_application: the audit loop has run on this file's own text at write time; result logged inline
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # AUDIT

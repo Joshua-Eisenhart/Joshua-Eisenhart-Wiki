@@ -1,0 +1,960 @@
+From b87119eed3dfbd694041d07cd984659804dac616 Mon Sep 17 00:00:00 2001
+From: Joshua-Eisenhart <40147598+Joshua-Eisenhart@users.noreply.github.com>
+Date: Wed, 1 Jul 2026 17:31:10 -0700
+Subject: [PATCH 1/3] feat(eval): cr_cross_engine_parity evaluator pack
+
+First Codex-Ratchet sim evaluator pack over the core/eval substrate.
+A CR sim runs externally (via the sim runner) and emits Julia + JAX
+result JSONs; this pack consumes them as lev.sim_eval.provider_evidence
+.v1 records on the sim.julia / sim.jax lanes (non_authoritative_input),
+computes max_abs_diff over a declared shared observable, and a
+deterministic gate-policy decides pass/block on tolerance. Sims measure;
+the policy decides; no LLM in the gate path.
+
+Load-bearing, not decorative: the sensor recursively rejects any
+provider evidence carrying a verdict/gate_proof/effect_receipt field
+(sims cannot mint truth), requires both engine lanes present as
+non_authoritative_input, and blocks on missing lane / missing observable
+/ malformed record / disagreement beyond tolerance. Three cases cover
+pass (real fingerprint-floor julia+jax agree on quotient_class_count_
+full=5, tol 0), adversarial false-green (one engine perturbed -> block),
+and missing-lane (-> block).
+
+Pack test 4/4; typecheck clean; full core/eval suite 144/145 (the 1
+failure is the pre-existing s2 truth-vocabulary cutover test, unrelated
+to this additive pack). Loader auto-discovers via *.eval.yaml. Manifest
+mirrors intent_conservation conventions exactly.
+
+Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
+---
+ .../adversarial-false-green.eval.js           |  27 ++
+ .../companions/sensor.mjs                     | 304 ++++++++++++++++++
+ .../cr_cross_engine_parity.eval.yaml          |  31 ++
+ ...obe-quotient-parity-adversarial.trace.json | 102 ++++++
+ ...be-quotient-parity-missing-lane.trace.json |  55 ++++
+ .../probe-quotient-parity-pass.trace.json     | 102 ++++++
+ .../flows/measure.flow.yaml                   |  32 ++
+ .../missing-lane.eval.js                      |  27 ++
+ .../cr_cross_engine_parity/pass.eval.js       |  27 ++
+ .../policies/gate-policy.yaml                 |  10 +
+ .../policies/routing-policy.yaml              |   8 +
+ core/eval/src/cr-cross-engine-parity.test.ts  | 105 ++++++
+ 12 files changed, 830 insertions(+)
+ create mode 100644 core/eval/evaluators/cr_cross_engine_parity/adversarial-false-green.eval.js
+ create mode 100644 core/eval/evaluators/cr_cross_engine_parity/companions/sensor.mjs
+ create mode 100644 core/eval/evaluators/cr_cross_engine_parity/cr_cross_engine_parity.eval.yaml
+ create mode 100644 core/eval/evaluators/cr_cross_engine_parity/fixtures/probe-quotient-parity-adversarial.trace.json
+ create mode 100644 core/eval/evaluators/cr_cross_engine_parity/fixtures/probe-quotient-parity-missing-lane.trace.json
+ create mode 100644 core/eval/evaluators/cr_cross_engine_parity/fixtures/probe-quotient-parity-pass.trace.json
+ create mode 100644 core/eval/evaluators/cr_cross_engine_parity/flows/measure.flow.yaml
+ create mode 100644 core/eval/evaluators/cr_cross_engine_parity/missing-lane.eval.js
+ create mode 100644 core/eval/evaluators/cr_cross_engine_parity/pass.eval.js
+ create mode 100644 core/eval/evaluators/cr_cross_engine_parity/policies/gate-policy.yaml
+ create mode 100644 core/eval/evaluators/cr_cross_engine_parity/policies/routing-policy.yaml
+ create mode 100644 core/eval/src/cr-cross-engine-parity.test.ts
+
+diff --git a/core/eval/evaluators/cr_cross_engine_parity/adversarial-false-green.eval.js b/core/eval/evaluators/cr_cross_engine_parity/adversarial-false-green.eval.js
+new file mode 100644
+index 000000000..91b6684af
+--- /dev/null
++++ b/core/eval/evaluators/cr_cross_engine_parity/adversarial-false-green.eval.js
+@@ -0,0 +1,27 @@
++export default {
++  id: 'cr-cross-engine-parity-adversarial-trace-eval',
++  target: './companions/sensor.mjs',
++  flowmind: './flows/measure.flow.yaml',
++  fixtures: {
++    trace: './fixtures/probe-quotient-parity-adversarial.trace.json',
++  },
++  greenChecks: [
++    'adversarial fixture keeps both provider lanes present',
++    'deterministic sensor blocks a perturbed engine value beyond tolerance',
++  ],
++  redChecks: [
++    'matching provider schema cannot create a false green',
++    'one perturbed engine value cannot pass through the gate',
++  ],
++  traceCases: [{
++    id: 'perturbed-provider-evidence-fixture',
++    claim: 'A single JAX observable perturbation beyond tolerance remains provider evidence only and must block when scored.',
++    subjectFixture: 'trace',
++    expectations: {
++      schema: 'lev.cr_cross_engine_parity.trace.v1',
++      subject_ref: 'codex-ratchet:system_v7/sims/probe_quotient_fingerprint_floor_v1',
++      observable_name: 'quotient_class_count_full',
++      tolerance: 0,
++    },
++  }],
++};
+diff --git a/core/eval/evaluators/cr_cross_engine_parity/companions/sensor.mjs b/core/eval/evaluators/cr_cross_engine_parity/companions/sensor.mjs
+new file mode 100644
+index 000000000..e2d27f3c5
+--- /dev/null
++++ b/core/eval/evaluators/cr_cross_engine_parity/companions/sensor.mjs
+@@ -0,0 +1,304 @@
++const PROVIDER_SCHEMA = 'lev.sim_eval.provider_evidence.v1';
++const EVALUATOR_ID = 'cr_cross_engine_parity';
++const REQUIRED_ENGINE_LANES = Object.freeze(['sim.julia', 'sim.jax']);
++const PROVIDER_LANE_IDS = Object.freeze([
++  'guard.compiled',
++  'sim.jax',
++  'sim.torch',
++  'sim.julia',
++  'proof.smt',
++]);
++const DEFAULT_THRESHOLDS = Object.freeze({
++  max_abs_diff_max: 0,
++  min_engine_lanes: 2,
++});
++const FORBIDDEN_PROVIDER_STATUSES = Object.freeze([
++  'evaluated',
++  'pass',
++  'fail',
++  'not_evaluated',
++]);
++const FORBIDDEN_PROVIDER_FIELDS = Object.freeze([
++  'verdict',
++  'EvalVerdict',
++  'gate_proof',
++  'GateProof',
++  'proof_bundle',
++  'ProofBundle',
++  'effect_receipt',
++  'EffectReceipt',
++  'run_seal',
++  'RunSeal',
++]);
++
++export function score(input) {
++  const providerEvidence = providerEvidenceFrom(input);
++  const observableNames = observableNamesFrom(input);
++  const toleranceResult = toleranceFrom(input);
++  const evidenceRefs = providerEvidence.flatMap(evidenceRefsFromRecord);
++  const blocked = (reason, partial = {}) => result('block', reason, {
++    maxAbsDiff: partial.maxAbsDiff ?? null,
++    enginesAgree: partial.enginesAgree ?? false,
++    enginesPresent: partial.enginesPresent ?? false,
++    negativeControlPresent: partial.negativeControlPresent ?? false,
++    engineEvidenceCount: partial.engineEvidenceCount ?? providerEvidence.length,
++    evidenceRefs,
++  });
++
++  if (providerEvidence.length === 0) {
++    return blocked('required provider lanes sim.julia and sim.jax are missing');
++  }
++  if (observableNames.length === 0) {
++    return blocked('declared shared observable_name is missing');
++  }
++  if (!toleranceResult.ok) {
++    return blocked('declared tolerance is missing or malformed');
++  }
++
++  const lanes = new Map();
++  for (const record of providerEvidence) {
++    if (hasTruthMintingShape(record)) {
++      return blocked('provider evidence contains forbidden verdict or proof-shaped fields');
++    }
++    if (!isProviderRecord(record)) {
++      return blocked('provider evidence is malformed');
++    }
++    if (!REQUIRED_ENGINE_LANES.includes(record.lane_id)) continue;
++    if (lanes.has(record.lane_id)) {
++      return blocked(`provider evidence has duplicate required lane ${record.lane_id}`);
++    }
++    if (record.status !== 'non_authoritative_input') {
++      return blocked(`provider lane ${record.lane_id} did not emit non_authoritative_input`);
++    }
++    lanes.set(record.lane_id, record);
++  }
++
++  const enginesPresent = REQUIRED_ENGINE_LANES.every((laneId) => lanes.has(laneId))
++    && lanes.size >= DEFAULT_THRESHOLDS.min_engine_lanes;
++  if (!enginesPresent) {
++    return blocked('required provider lanes sim.julia and sim.jax are missing', {
++      enginesPresent,
++      engineEvidenceCount: lanes.size,
++    });
++  }
++
++  const numericPairs = [];
++  for (const observableName of observableNames) {
++    const juliaValue = numericFact(lanes.get('sim.julia'), observableName);
++    const jaxValue = numericFact(lanes.get('sim.jax'), observableName);
++    if (!juliaValue.ok || !jaxValue.ok) {
++      return blocked(`required numeric observable "${observableName}" is missing or malformed`, {
++        enginesPresent,
++        engineEvidenceCount: lanes.size,
++      });
++    }
++    numericPairs.push([juliaValue.value, jaxValue.value]);
++  }
++
++  const maxAbsDiff = round(Math.max(...numericPairs.map(([juliaValue, jaxValue]) => Math.abs(juliaValue - jaxValue))));
++  const negativeControlPresent = REQUIRED_ENGINE_LANES.every((laneId) => factValue(lanes.get(laneId), 'negative_control_present') === true);
++  const enginesAgree = maxAbsDiff <= toleranceResult.value;
++  const passed = enginesAgree && enginesPresent && negativeControlPresent;
++
++  if (!negativeControlPresent) {
++    return blocked('required negative control evidence is missing', {
++      maxAbsDiff,
++      enginesAgree,
++      enginesPresent,
++      negativeControlPresent,
++      engineEvidenceCount: lanes.size,
++    });
++  }
++  if (!enginesAgree) {
++    return blocked('engine observable difference exceeds tolerance', {
++      maxAbsDiff,
++      enginesAgree,
++      enginesPresent,
++      negativeControlPresent,
++      engineEvidenceCount: lanes.size,
++    });
++  }
++
++  return result(passed ? 'pass' : 'block', 'Julia and JAX provider lanes agree within deterministic tolerance', {
++    maxAbsDiff,
++    enginesAgree,
++    enginesPresent,
++    negativeControlPresent,
++    engineEvidenceCount: lanes.size,
++    evidenceRefs,
++  });
++}
++
++function result(decision, reason, measurements) {
++  const passed = decision === 'pass';
++  return {
++    schema: 'lev.evaluator.result.v1',
++    evaluator_id: EVALUATOR_ID,
++    passed,
++    decision,
++    action: routeAction(decision),
++    reason,
++    measurements: {
++      schema: 'lev.measurement.v1',
++      variables: {
++        max_abs_diff: triple(measurements.maxAbsDiff, measurements.maxAbsDiff === null ? 0 : 1, measurements.engineEvidenceCount),
++        engines_agree: triple(measurements.enginesAgree, 1, measurements.engineEvidenceCount),
++        engines_present: triple(measurements.enginesPresent, 1, measurements.engineEvidenceCount),
++        negative_control_present: triple(measurements.negativeControlPresent, 1, measurements.engineEvidenceCount),
++      },
++    },
++    evidence_refs: measurements.evidenceRefs,
++    required_repairs: passed ? [] : ['repair provider evidence or rerun required sim.julia and sim.jax lanes before gate admission'],
++  };
++}
++
++function providerEvidenceFrom(input) {
++  if (Array.isArray(input)) return input;
++  if (!isRecord(input)) return [];
++  if (Array.isArray(input.provider_evidence)) return input.provider_evidence;
++  if (Array.isArray(input.provider_evidence_refs)) return input.provider_evidence_refs;
++  return [];
++}
++
++function observableNamesFrom(input) {
++  if (!isRecord(input)) return [];
++  if (Array.isArray(input.observable_names)) {
++    return input.observable_names
++      .filter((name) => typeof name === 'string')
++      .map((name) => name.trim())
++      .filter(Boolean);
++  }
++  const name = typeof input.observable_name === 'string'
++    ? input.observable_name
++    : typeof input.shared_observable_name === 'string'
++      ? input.shared_observable_name
++      : undefined;
++  return typeof name === 'string' && name.trim() !== '' ? [name.trim()] : [];
++}
++
++function toleranceFrom(input) {
++  if (!isRecord(input)) return { ok: true, value: DEFAULT_THRESHOLDS.max_abs_diff_max };
++  if (Object.hasOwn(input, 'tolerance')) {
++    return finiteNonNegative(input.tolerance)
++      ? { ok: true, value: input.tolerance }
++      : { ok: false };
++  }
++  if (isRecord(input.thresholds) && Object.hasOwn(input.thresholds, 'max_abs_diff_max')) {
++    return finiteNonNegative(input.thresholds.max_abs_diff_max)
++      ? { ok: true, value: input.thresholds.max_abs_diff_max }
++      : { ok: false };
++  }
++  return { ok: true, value: DEFAULT_THRESHOLDS.max_abs_diff_max };
++}
++
++function isProviderRecord(value) {
++  return isRecord(value)
++    && value.schema === PROVIDER_SCHEMA
++    && PROVIDER_LANE_IDS.includes(value.lane_id)
++    && (value.status === 'evaluation_error' || value.status === 'non_authoritative_input')
++    && hasText(value.subject_ref)
++    && Number.isInteger(value.generation)
++    && hasText(value.requested_at)
++    && Number.isFinite(Date.parse(value.requested_at))
++    && hasText(value.content_address)
++    && value.content_address.startsWith('sim-eval:fnv1a32:')
++    && Array.isArray(value.refs)
++    && value.refs.every(isEvidenceRef)
++    && Array.isArray(value.facts)
++    && value.facts.every(isFact)
++    && isRecord(value.provenance)
++    && value.provenance.source_package === '@lev-os/sim-eval'
++    && value.provenance.provider_id === value.lane_id
++    && value.provenance.command === null
++    && value.provenance.bounded === true
++    && providerStatusShapeIsValid(value);
++}
++
++function providerStatusShapeIsValid(value) {
++  if (value.status === 'non_authoritative_input') {
++    return !Object.hasOwn(value, 'error');
++  }
++  return isRecord(value.error)
++    && value.error.reason_code === 'provider_unavailable'
++    && hasText(value.error.detail)
++    && value.error.retryable === false;
++}
++
++function evidenceRefsFromRecord(record) {
++  if (!isRecord(record) || typeof record.content_address !== 'string') return [];
++  return [{
++    kind: 'sim_eval_provider_evidence',
++    ref: record.content_address,
++    exists: true,
++  }];
++}
++
++function numericFact(record, name) {
++  const value = factValue(record, name);
++  return typeof value === 'number' && Number.isFinite(value)
++    ? { ok: true, value }
++    : { ok: false };
++}
++
++function factValue(record, name) {
++  if (!isRecord(record) || !Array.isArray(record.facts)) return undefined;
++  return record.facts.find((fact) => isRecord(fact) && fact.name === name)?.value;
++}
++
++function isEvidenceRef(value) {
++  return isRecord(value) && hasText(value.kind) && hasText(value.ref);
++}
++
++function isFact(value) {
++  return isRecord(value)
++    && hasText(value.name)
++    && (
++      value.value === null
++      || typeof value.value === 'string'
++      || typeof value.value === 'boolean'
++      || (typeof value.value === 'number' && Number.isFinite(value.value))
++    );
++}
++
++function hasTruthMintingShape(value) {
++  if (Array.isArray(value)) return value.some(hasTruthMintingShape);
++  if (!isRecord(value)) return false;
++  if (FORBIDDEN_PROVIDER_STATUSES.includes(value.status)) return true;
++  for (const field of FORBIDDEN_PROVIDER_FIELDS) {
++    if (Object.hasOwn(value, field)) return true;
++  }
++  return Object.values(value).some(hasTruthMintingShape);
++}
++
++function triple(value, confidence, evidenceCount) {
++  return {
++    value,
++    confidence,
++    evidence_count: evidenceCount,
++  };
++}
++
++function routeAction(decision) {
++  return {
++    pass: 'keep',
++    warn: 'hold',
++    repair: 'repair',
++    block: 'block',
++  }[decision] ?? 'hold';
++}
++
++function finiteNonNegative(value) {
++  return typeof value === 'number' && Number.isFinite(value) && value >= 0;
++}
++
++function round(value) {
++  return Math.round(value * 1000000000000) / 1000000000000;
++}
++
++function hasText(value) {
++  return typeof value === 'string' && value.trim().length > 0;
++}
++
++function isRecord(value) {
++  return typeof value === 'object' && value !== null && !Array.isArray(value);
++}
+diff --git a/core/eval/evaluators/cr_cross_engine_parity/cr_cross_engine_parity.eval.yaml b/core/eval/evaluators/cr_cross_engine_parity/cr_cross_engine_parity.eval.yaml
+new file mode 100644
+index 000000000..3d8a235bb
+--- /dev/null
++++ b/core/eval/evaluators/cr_cross_engine_parity/cr_cross_engine_parity.eval.yaml
+@@ -0,0 +1,31 @@
++schema: lev.evaluator_pack.v1
++evaluator_id: cr_cross_engine_parity
++owner: core/eval
++kind: shipped_evaluator_pack
++entrypoints:
++  flow: flows/measure.flow.yaml
++  sensor: companions/sensor.mjs
++policies:
++  gate: policies/gate-policy.yaml
++  routing: policies/routing-policy.yaml
++inputs:
++  provider_evidence:
++    required: true
++    description: Array of lev.sim_eval.provider_evidence.v1 records for sim.julia and sim.jax; each record refs its Codex-Ratchet result artifact.
++  observable_name:
++    required: true
++    description: Shared numeric provider fact name to compare across engine lanes.
++  tolerance:
++    required: true
++    description: Maximum allowed absolute difference between engine facts.
++outputs:
++  result_schema: lev.evaluator.result.v1
++  measurement_schema: lev.measurement.v1
++variables:
++  - max_abs_diff
++  - engines_agree
++  - engines_present
++  - negative_control_present
++collision_policy:
++  evaluator_pack: select
++  proof_gate: reject
+diff --git a/core/eval/evaluators/cr_cross_engine_parity/fixtures/probe-quotient-parity-adversarial.trace.json b/core/eval/evaluators/cr_cross_engine_parity/fixtures/probe-quotient-parity-adversarial.trace.json
+new file mode 100644
+index 000000000..b8c00f768
+--- /dev/null
++++ b/core/eval/evaluators/cr_cross_engine_parity/fixtures/probe-quotient-parity-adversarial.trace.json
+@@ -0,0 +1,102 @@
++{
++  "schema": "lev.cr_cross_engine_parity.trace.v1",
++  "subject_ref": "codex-ratchet:system_v7/sims/probe_quotient_fingerprint_floor_v1",
++  "observable_name": "quotient_class_count_full",
++  "tolerance": 0,
++  "provider_evidence": [
++    {
++      "schema": "lev.sim_eval.provider_evidence.v1",
++      "lane_id": "sim.julia",
++      "status": "non_authoritative_input",
++      "subject_ref": "codex-ratchet:system_v7/sims/probe_quotient_fingerprint_floor_v1",
++      "generation": 1,
++      "requested_at": "2026-07-01T20:46:03.000Z",
++      "content_address": "sim-eval:fnv1a32:a11a0002",
++      "refs": [
++        {
++          "kind": "codex_ratchet_result_json",
++          "ref": "/Users/joshuaeisenhart/Codex-Ratchet/system_v7/sims/probe_quotient_fingerprint_floor_v1/results/probe_quotient_fingerprint_floor_v1_julia_results.json"
++        }
++      ],
++      "facts": [
++        {
++          "name": "sim_id",
++          "value": "probe_quotient_fingerprint_floor_v1"
++        },
++        {
++          "name": "quotient_class_count_full",
++          "value": 5
++        },
++        {
++          "name": "quotient_class_count_erased",
++          "value": 4
++        },
++        {
++          "name": "real_vs_erased_flip_confirmed",
++          "value": true
++        },
++        {
++          "name": "tautology_guard_tripped",
++          "value": false
++        },
++        {
++          "name": "negative_control_present",
++          "value": true
++        }
++      ],
++      "provenance": {
++        "source_package": "@lev-os/sim-eval",
++        "provider_id": "sim.julia",
++        "command": null,
++        "bounded": true
++      }
++    },
++    {
++      "schema": "lev.sim_eval.provider_evidence.v1",
++      "lane_id": "sim.jax",
++      "status": "non_authoritative_input",
++      "subject_ref": "codex-ratchet:system_v7/sims/probe_quotient_fingerprint_floor_v1",
++      "generation": 1,
++      "requested_at": "2026-07-01T20:46:03.000Z",
++      "content_address": "sim-eval:fnv1a32:b22b0002",
++      "refs": [
++        {
++          "kind": "codex_ratchet_result_json",
++          "ref": "/Users/joshuaeisenhart/Codex-Ratchet/system_v7/sims/probe_quotient_fingerprint_floor_v1/results/probe_quotient_fingerprint_floor_v1_jax_results.json"
++        }
++      ],
++      "facts": [
++        {
++          "name": "sim_id",
++          "value": "probe_quotient_fingerprint_floor_v1"
++        },
++        {
++          "name": "quotient_class_count_full",
++          "value": 6
++        },
++        {
++          "name": "quotient_class_count_erased",
++          "value": 4
++        },
++        {
++          "name": "real_vs_erased_flip_confirmed",
++          "value": true
++        },
++        {
++          "name": "tautology_guard_tripped",
++          "value": false
++        },
++        {
++          "name": "negative_control_present",
++          "value": true
++        }
++      ],
++      "provenance": {
++        "source_package": "@lev-os/sim-eval",
++        "provider_id": "sim.jax",
++        "command": null,
++        "bounded": true
++      }
++    }
++  ]
++}
+diff --git a/core/eval/evaluators/cr_cross_engine_parity/fixtures/probe-quotient-parity-missing-lane.trace.json b/core/eval/evaluators/cr_cross_engine_parity/fixtures/probe-quotient-parity-missing-lane.trace.json
+new file mode 100644
+index 000000000..3492bc4b5
+--- /dev/null
++++ b/core/eval/evaluators/cr_cross_engine_parity/fixtures/probe-quotient-parity-missing-lane.trace.json
+@@ -0,0 +1,55 @@
++{
++  "schema": "lev.cr_cross_engine_parity.trace.v1",
++  "subject_ref": "codex-ratchet:system_v7/sims/probe_quotient_fingerprint_floor_v1",
++  "observable_name": "quotient_class_count_full",
++  "tolerance": 0,
++  "provider_evidence": [
++    {
++      "schema": "lev.sim_eval.provider_evidence.v1",
++      "lane_id": "sim.julia",
++      "status": "non_authoritative_input",
++      "subject_ref": "codex-ratchet:system_v7/sims/probe_quotient_fingerprint_floor_v1",
++      "generation": 1,
++      "requested_at": "2026-07-01T20:46:03.000Z",
++      "content_address": "sim-eval:fnv1a32:a11a0003",
++      "refs": [
++        {
++          "kind": "codex_ratchet_result_json",
++          "ref": "/Users/joshuaeisenhart/Codex-Ratchet/system_v7/sims/probe_quotient_fingerprint_floor_v1/results/probe_quotient_fingerprint_floor_v1_julia_results.json"
++        }
++      ],
++      "facts": [
++        {
++          "name": "sim_id",
++          "value": "probe_quotient_fingerprint_floor_v1"
++        },
++        {
++          "name": "quotient_class_count_full",
++          "value": 5
++        },
++        {
++          "name": "quotient_class_count_erased",
++          "value": 4
++        },
++        {
++          "name": "real_vs_erased_flip_confirmed",
++          "value": true
++        },
++        {
++          "name": "tautology_guard_tripped",
++          "value": false
++        },
++        {
++          "name": "negative_control_present",
++          "value": true
++        }
++      ],
++      "provenance": {
++        "source_package": "@lev-os/sim-eval",
++        "provider_id": "sim.julia",
++        "command": null,
++        "bounded": true
++      }
++    }
++  ]
++}
+diff --git a/core/eval/evaluators/cr_cross_engine_parity/fixtures/probe-quotient-parity-pass.trace.json b/core/eval/evaluators/cr_cross_engine_parity/fixtures/probe-quotient-parity-pass.trace.json
+new file mode 100644
+index 000000000..0222671b4
+--- /dev/null
++++ b/core/eval/evaluators/cr_cross_engine_parity/fixtures/probe-quotient-parity-pass.trace.json
+@@ -0,0 +1,102 @@
++{
++  "schema": "lev.cr_cross_engine_parity.trace.v1",
++  "subject_ref": "codex-ratchet:system_v7/sims/probe_quotient_fingerprint_floor_v1",
++  "observable_name": "quotient_class_count_full",
++  "tolerance": 0,
++  "provider_evidence": [
++    {
++      "schema": "lev.sim_eval.provider_evidence.v1",
++      "lane_id": "sim.julia",
++      "status": "non_authoritative_input",
++      "subject_ref": "codex-ratchet:system_v7/sims/probe_quotient_fingerprint_floor_v1",
++      "generation": 1,
++      "requested_at": "2026-07-01T20:46:03.000Z",
++      "content_address": "sim-eval:fnv1a32:a11a0001",
++      "refs": [
++        {
++          "kind": "codex_ratchet_result_json",
++          "ref": "/Users/joshuaeisenhart/Codex-Ratchet/system_v7/sims/probe_quotient_fingerprint_floor_v1/results/probe_quotient_fingerprint_floor_v1_julia_results.json"
++        }
++      ],
++      "facts": [
++        {
++          "name": "sim_id",
++          "value": "probe_quotient_fingerprint_floor_v1"
++        },
++        {
++          "name": "quotient_class_count_full",
++          "value": 5
++        },
++        {
++          "name": "quotient_class_count_erased",
++          "value": 4
++        },
++        {
++          "name": "real_vs_erased_flip_confirmed",
++          "value": true
++        },
++        {
++          "name": "tautology_guard_tripped",
++          "value": false
++        },
++        {
++          "name": "negative_control_present",
++          "value": true
++        }
++      ],
++      "provenance": {
++        "source_package": "@lev-os/sim-eval",
++        "provider_id": "sim.julia",
++        "command": null,
++        "bounded": true
++      }
++    },
++    {
++      "schema": "lev.sim_eval.provider_evidence.v1",
++      "lane_id": "sim.jax",
++      "status": "non_authoritative_input",
++      "subject_ref": "codex-ratchet:system_v7/sims/probe_quotient_fingerprint_floor_v1",
++      "generation": 1,
++      "requested_at": "2026-07-01T20:46:03.000Z",
++      "content_address": "sim-eval:fnv1a32:b22b0001",
++      "refs": [
++        {
++          "kind": "codex_ratchet_result_json",
++          "ref": "/Users/joshuaeisenhart/Codex-Ratchet/system_v7/sims/probe_quotient_fingerprint_floor_v1/results/probe_quotient_fingerprint_floor_v1_jax_results.json"
++        }
++      ],
++      "facts": [
++        {
++          "name": "sim_id",
++          "value": "probe_quotient_fingerprint_floor_v1"
++        },
++        {
++          "name": "quotient_class_count_full",
++          "value": 5
++        },
++        {
++          "name": "quotient_class_count_erased",
++          "value": 4
++        },
++        {
++          "name": "real_vs_erased_flip_confirmed",
++          "value": true
++        },
++        {
++          "name": "tautology_guard_tripped",
++          "value": false
++        },
++        {
++          "name": "negative_control_present",
++          "value": true
++        }
++      ],
++      "provenance": {
++        "source_package": "@lev-os/sim-eval",
++        "provider_id": "sim.jax",
++        "command": null,
++        "bounded": true
++      }
++    }
++  ]
++}
+diff --git a/core/eval/evaluators/cr_cross_engine_parity/flows/measure.flow.yaml b/core/eval/evaluators/cr_cross_engine_parity/flows/measure.flow.yaml
+new file mode 100644
+index 000000000..73886e3f6
+--- /dev/null
++++ b/core/eval/evaluators/cr_cross_engine_parity/flows/measure.flow.yaml
+@@ -0,0 +1,32 @@
++schema: lev.flowmind.flow.v1
++id: cr_cross_engine_parity.measure
++description: Measure cross-engine parity over non-authoritative Codex-Ratchet sim provider evidence.
++inputs:
++  provider_evidence:
++    type: array
++    required: true
++  observable_name:
++    type: string
++    required: true
++  tolerance:
++    type: number
++    required: true
++outputs:
++  observations:
++    type: object
++  measurements:
++    type: object
++nodes:
++  - id: score_measurements
++    kind: companion.score
++    inputs:
++      companion: ../companions/sensor.mjs
++      provider_evidence: ${inputs.provider_evidence}
++      observable_name: ${inputs.observable_name}
++      tolerance: ${inputs.tolerance}
++    outputs:
++      variables:
++        - max_abs_diff
++        - engines_agree
++        - engines_present
++        - negative_control_present
+diff --git a/core/eval/evaluators/cr_cross_engine_parity/missing-lane.eval.js b/core/eval/evaluators/cr_cross_engine_parity/missing-lane.eval.js
+new file mode 100644
+index 000000000..9e12338fb
+--- /dev/null
++++ b/core/eval/evaluators/cr_cross_engine_parity/missing-lane.eval.js
+@@ -0,0 +1,27 @@
++export default {
++  id: 'cr-cross-engine-parity-missing-lane-trace-eval',
++  target: './companions/sensor.mjs',
++  flowmind: './flows/measure.flow.yaml',
++  fixtures: {
++    trace: './fixtures/probe-quotient-parity-missing-lane.trace.json',
++  },
++  greenChecks: [
++    'fixture preserves a valid sim.julia provider evidence record',
++    'deterministic sensor blocks when sim.jax is absent',
++  ],
++  redChecks: [
++    'one engine lane cannot prove cross-engine parity',
++    'missing lane cannot silently pass as agreement',
++  ],
++  traceCases: [{
++    id: 'missing-provider-lane-fixture',
++    claim: 'A single engine lane is incomplete provider evidence and must block when scored.',
++    subjectFixture: 'trace',
++    expectations: {
++      schema: 'lev.cr_cross_engine_parity.trace.v1',
++      subject_ref: 'codex-ratchet:system_v7/sims/probe_quotient_fingerprint_floor_v1',
++      observable_name: 'quotient_class_count_full',
++      tolerance: 0,
++    },
++  }],
++};
+diff --git a/core/eval/evaluators/cr_cross_engine_parity/pass.eval.js b/core/eval/evaluators/cr_cross_engine_parity/pass.eval.js
+new file mode 100644
+index 000000000..11b9365ab
+--- /dev/null
++++ b/core/eval/evaluators/cr_cross_engine_parity/pass.eval.js
+@@ -0,0 +1,27 @@
++export default {
++  id: 'cr-cross-engine-parity-pass-trace-eval',
++  target: './companions/sensor.mjs',
++  flowmind: './flows/measure.flow.yaml',
++  fixtures: {
++    trace: './fixtures/probe-quotient-parity-pass.trace.json',
++  },
++  greenChecks: [
++    'real Codex-Ratchet Julia and JAX provider evidence is present',
++    'real engine observable can be scored by deterministic companion sensor',
++  ],
++  redChecks: [
++    'provider evidence cannot carry its own verdict',
++    'engine agreement is not accepted without companion scoring',
++  ],
++  traceCases: [{
++    id: 'real-provider-evidence-fixture',
++    claim: 'Real probe_quotient_fingerprint_floor_v1 Julia and JAX result facts provide the input for a pass decision.',
++    subjectFixture: 'trace',
++    expectations: {
++      schema: 'lev.cr_cross_engine_parity.trace.v1',
++      subject_ref: 'codex-ratchet:system_v7/sims/probe_quotient_fingerprint_floor_v1',
++      observable_name: 'quotient_class_count_full',
++      tolerance: 0,
++    },
++  }],
++};
+diff --git a/core/eval/evaluators/cr_cross_engine_parity/policies/gate-policy.yaml b/core/eval/evaluators/cr_cross_engine_parity/policies/gate-policy.yaml
+new file mode 100644
+index 000000000..06e430340
+--- /dev/null
++++ b/core/eval/evaluators/cr_cross_engine_parity/policies/gate-policy.yaml
+@@ -0,0 +1,10 @@
++schema: lev.evaluator.gate_policy.v1
++evaluator_id: cr_cross_engine_parity
++thresholds:
++  max_abs_diff_max: 0
++  min_engine_lanes: 2
++decisions:
++  pass: pass
++  warn: warn
++  repair: repair
++  block: block
+diff --git a/core/eval/evaluators/cr_cross_engine_parity/policies/routing-policy.yaml b/core/eval/evaluators/cr_cross_engine_parity/policies/routing-policy.yaml
+new file mode 100644
+index 000000000..ea4b8d3ba
+--- /dev/null
++++ b/core/eval/evaluators/cr_cross_engine_parity/policies/routing-policy.yaml
+@@ -0,0 +1,8 @@
++schema: lev.routing_policy.evaluator_actions.v1
++evaluator_id: cr_cross_engine_parity
++routes:
++  pass: keep
++  warn: hold
++  repair: repair
++  block: block
++default_action: hold
+diff --git a/core/eval/src/cr-cross-engine-parity.test.ts b/core/eval/src/cr-cross-engine-parity.test.ts
+new file mode 100644
+index 000000000..5442badd6
+--- /dev/null
++++ b/core/eval/src/cr-cross-engine-parity.test.ts
+@@ -0,0 +1,105 @@
++import { readFile } from 'node:fs/promises';
++import { dirname, join, resolve } from 'node:path';
++import { pathToFileURL, fileURLToPath } from 'node:url';
++import { describe, expect, it } from 'vitest';
++import { loadProjectEvaluatorPacks } from './index.ts';
++
++const repoRoot = resolve(dirname(fileURLToPath(import.meta.url)), '../../..');
++const packDir = join(repoRoot, 'core/eval/evaluators/cr_cross_engine_parity');
++const fixturesDir = join(packDir, 'fixtures');
++
++interface ScoreResult {
++  schema: string;
++  evaluator_id: string;
++  passed: boolean;
++  decision: string;
++  reason: string;
++  measurements: {
++    schema: string;
++    variables: Record<string, { value: unknown; confidence: number; evidence_count: number }>;
++  };
++}
++
++describe('cr_cross_engine_parity evaluator pack', () => {
++  it('is discovered as a shipped evaluator pack', async () => {
++    const packs = await loadProjectEvaluatorPacks({
++      projectRoot: repoRoot,
++      evaluatorId: 'cr_cross_engine_parity',
++    });
++
++    expect(packs).toHaveLength(1);
++    expect(packs[0]?.manifest).toMatchObject({
++      schema: 'lev.evaluator_pack.v1',
++      evaluator_id: 'cr_cross_engine_parity',
++      owner: 'core/eval',
++      kind: 'shipped_evaluator_pack',
++    });
++    expect(packs[0]?.diagnostics).toEqual([]);
++    expect(packs[0]?.evidence_refs).toEqual(expect.arrayContaining([
++      expect.objectContaining({
++        kind: 'manifest',
++        path: 'core/eval/evaluators/cr_cross_engine_parity/cr_cross_engine_parity.eval.yaml',
++        exists: true,
++      }),
++      expect.objectContaining({
++        kind: 'entrypoint',
++        label: 'sensor',
++        path: 'core/eval/evaluators/cr_cross_engine_parity/companions/sensor.mjs',
++        exists: true,
++      }),
++      expect.objectContaining({
++        kind: 'policy',
++        label: 'gate',
++        path: 'core/eval/evaluators/cr_cross_engine_parity/policies/gate-policy.yaml',
++        exists: true,
++      }),
++    ]));
++  });
++
++  it('passes real Codex-Ratchet Julia and JAX quotient class-count evidence', async () => {
++    const result = await scoreFixture('probe-quotient-parity-pass.trace.json');
++
++    expect(result.schema).toBe('lev.evaluator.result.v1');
++    expect(result.evaluator_id).toBe('cr_cross_engine_parity');
++    expect(result.passed).toBe(true);
++    expect(result.decision).toBe('pass');
++    expect(result.measurements.variables.max_abs_diff.value).toBe(0);
++    expect(result.measurements.variables.engines_agree.value).toBe(true);
++    expect(result.measurements.variables.engines_present.value).toBe(true);
++    expect(result.measurements.variables.negative_control_present.value).toBe(true);
++  });
++
++  it('blocks an adversarial false green when one engine drifts beyond tolerance', async () => {
++    const result = await scoreFixture('probe-quotient-parity-adversarial.trace.json');
++
++    expect(result.passed).toBe(false);
++    expect(result.decision).toBe('block');
++    expect(result.measurements.variables.max_abs_diff.value).toBe(1);
++    expect(result.measurements.variables.engines_agree.value).toBe(false);
++  });
++
++  it('blocks when a required engine lane is missing', async () => {
++    const result = await scoreFixture('probe-quotient-parity-missing-lane.trace.json');
++
++    expect(result.passed).toBe(false);
++    expect(result.decision).toBe('block');
++    expect(result.measurements.variables.engines_present.value).toBe(false);
++    expect(result.reason).toContain('required provider lanes');
++  });
++});
++
++async function scoreFixture(name: string): Promise<ScoreResult> {
++  const [{ score }, fixture] = await Promise.all([
++    loadSensor(),
++    readFixture(name),
++  ]);
++  return score(fixture) as ScoreResult;
++}
++
++async function loadSensor(): Promise<{ score(input: unknown): unknown }> {
++  return import(pathToFileURL(join(packDir, 'companions/sensor.mjs')).href) as Promise<{ score(input: unknown): unknown }>;
++}
++
++async function readFixture(name: string): Promise<unknown> {
++  return JSON.parse(await readFile(join(fixturesDir, name), 'utf8')) as unknown;
++}
+-- 
+2.50.1 (Apple Git-155)
+

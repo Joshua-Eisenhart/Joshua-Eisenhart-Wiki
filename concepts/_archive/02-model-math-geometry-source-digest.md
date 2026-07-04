@@ -7,6 +7,9 @@ tags: [reference, research, simulation, digest]
 sources:
   - raw/articles/new-docs/new content/preprocessed/02_model_math_geometry_source_digest.md
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Model / Math / Geometry Source Digest

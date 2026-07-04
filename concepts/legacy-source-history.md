@@ -13,6 +13,9 @@ sources:
   - raw/articles/system-v5-reference-docs/Older Legacy/BOOTPACKS/BOOTPACK_THREAD_A_v2.60.md
   - raw/articles/system-v5-reference-docs/Older Legacy/BOOTPACKS/BOOTPACK_THREAD_B_v3.9.13.md
   - raw/articles/system-v5-reference-docs/Older Legacy/BOOTPACKS/BOOTPACK_THREAD_S_v1.64.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Legacy Source History

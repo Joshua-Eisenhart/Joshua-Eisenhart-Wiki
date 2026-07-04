@@ -5,6 +5,9 @@ updated: 2026-04-30
 type: concept
 tags: [wizard, adapter, multi-agent, controller, bridge, provenance]
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Wizard Agent Adapters

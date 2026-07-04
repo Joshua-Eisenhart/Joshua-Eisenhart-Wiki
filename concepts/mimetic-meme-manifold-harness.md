@@ -9,6 +9,9 @@ sources:
   - raw/articles/new-docs/14_mimetic_meme_manifold_canonical_synthesis.md
 framing: legacy
 priming: false
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Mimetic Meme Manifold Harness

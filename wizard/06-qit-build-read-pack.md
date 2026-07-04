@@ -5,6 +5,9 @@ updated: 2026-04-29
 type: concept
 tags: [wizard, qit, engines, simulation, planning, proof, graph]
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Wizard QIT Build Read Pack

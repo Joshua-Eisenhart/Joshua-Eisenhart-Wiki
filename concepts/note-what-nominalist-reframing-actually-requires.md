@@ -8,6 +8,9 @@ sources:
   - raw/articles/new-docs/archive_old/NOTE_WHAT_NOMINALIST_REFRAMING_ACTUALLY_REQUIRES.md
 framing: legacy
 priming: false
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # What the Nominalist Reframing Actually Requires

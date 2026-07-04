@@ -12,6 +12,9 @@ sources:
   - concepts/system-tools-and-plan.md
   - concepts/session-handoff-2026-04-13-automated-run-and-tool-sims.md
 framing_note: Current controller contract for bounded wiki automation. Encodes ordered execution, full-tool usage discipline, and anti-salience drift for autonomous wiki work.
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Wiki Automation Contract

@@ -9,6 +9,9 @@ sources:
   - raw/articles/new-docs/new content/cartan_decomposition_2qubit.md
   - raw/articles/new-docs/references/FIBER_BUNDLES_AND_SPIN_GEOMETRY_REFERENCE.md
 framing: mixed
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Operator Algebras and Representation

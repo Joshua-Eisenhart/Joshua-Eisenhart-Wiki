@@ -6,6 +6,9 @@ type: concept
 tags: [wizard, mmm, packet, receipt]
 framing: current
 source_path: runs/wizard_general_bakeoff_latest/standard/final_answer.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 🧙 Wizard v2.7 `standard` | 🌊 12 waves represented / 22 local receipts / 0 blocked | 📌 local harness passed

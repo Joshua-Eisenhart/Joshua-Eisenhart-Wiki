@@ -9,6 +9,9 @@ sources:
   - raw/articles/new-docs/references/EVOLUTIONARY_EPISTEMOLOGY_REFERENCE.md
   - raw/articles/new-docs/references/FEP_AND_ACTIVE_INFERENCE_REFERENCE.md
 framing: mixed
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Evolutionary Models QIT Alignment

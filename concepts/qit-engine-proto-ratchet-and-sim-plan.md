@@ -7,6 +7,9 @@ tags: [reference, research, system]
 sources:
   - raw/articles/new-docs/archive_old/QIT_ENGINE_PROTO_RATCHET_AND_SIM_PLAN.md
 framing: mixed
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Qit Engine Proto Ratchet And Sim Plan

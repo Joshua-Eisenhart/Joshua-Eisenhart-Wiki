@@ -3,6 +3,9 @@ title: v3.3→v3.4 Cutover — Per-Hit R6 Classification
 created: 2026-04-29
 type: cutover-record
 tags: [wizard, cutover, v3.4, r6, classification]
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # v3.3→v3.4 Cutover — Per-Hit R6 Classification

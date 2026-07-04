@@ -11,6 +11,9 @@ sources:
   - raw/articles/system-v5-reference-docs/Older Legacy/BOOTPACKS/MEGABOOT_RATCHET_SUITE_v7.4.2-PROJECTS copy.md
   - raw/articles/system-v5-reference-docs/Older Legacy/BOOTPACKS/MEGABOOT_RATCHET_SUITE_v7.4.7-PROJECTS_PATCHED_CONSTRAINT_MANIFOLD copy.md
 framing: mixed
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Bootpack Harness Stack

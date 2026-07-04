@@ -7,6 +7,9 @@ tags: [audit, planning, system, simulation, validation, constraints]
 sources:
   - raw/articles/new-docs/CODEX_AUDIT_2026_04_08.md
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Codex Audit — Controller Contract

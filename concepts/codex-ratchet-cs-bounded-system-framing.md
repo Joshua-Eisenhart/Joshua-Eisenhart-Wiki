@@ -17,6 +17,9 @@ spec_mirrors:
   - /Users/joshuaeisenhart/wiki/specs/codex-ratchet/enforcement-process-rules-current.md
   - /Users/joshuaeisenhart/wiki/specs/codex-ratchet/formal-scout-readiness-status.md
   - /Users/joshuaeisenhart/wiki/specs/codex-ratchet/sim-estate-integration-status.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Codex Ratchet CS Bounded System Framing

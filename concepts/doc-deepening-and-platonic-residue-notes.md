@@ -8,6 +8,9 @@ sources:
   - raw/articles/new-docs/archive_hermes_overlaps/DOC_DEEPENING_AND_PLATONIC_RESIDUE_NOTES.md
 framing: legacy
 priming: false
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Doc Deepening And Platonic Residue Notes

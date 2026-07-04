@@ -9,6 +9,9 @@ sources:
   - raw/articles/system-v5-reference-docs/Older Legacy/The Dark Empress-A Practical Guide to Universal Dominion V6.1 copy.md
   - https://arxiv.org/abs/quant-ph/0310053v1
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Hopf Fibration Mathematics and Quantum Information

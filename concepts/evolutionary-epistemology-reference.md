@@ -8,6 +8,9 @@ sources:
   - raw/articles/new-docs/references/EVOLUTIONARY_EPISTEMOLOGY_REFERENCE.md
   - raw/articles/legacy-books/the-dark-empress-a-practical-guide-to-universal-dominion-v6-1-2.md
 framing: mixed
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Evolutionary Epistemology and Universal Darwinism: Formal Reference

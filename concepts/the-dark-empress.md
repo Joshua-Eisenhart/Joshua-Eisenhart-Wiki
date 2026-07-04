@@ -10,6 +10,9 @@ sources:
   - raw/articles/legacy-books/The Dark Empress-A Practical Guide to Universal Dominion V6.1 2 copy.pdf
 framing: legacy
 priming: false
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # The Dark Empress

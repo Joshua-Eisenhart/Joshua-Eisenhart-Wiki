@@ -8,6 +8,9 @@ sources:
   - raw/articles/new-docs/archive_old/PYTHON_REPO_SKILLS_INVENTORY_AND_CLEANUP_PLAN.md
 framing: legacy
 priming: false
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Python / Repo / Skills Inventory and Cleanup Plan

@@ -1,3 +1,11 @@
+## 2026-07-03 - Cron tick axes page routing repair
+
+- Scope: one bounded structural/routing repair after preflight `wiki_probe.py` found the new [[axes-full-layout-relations-anti-conflation-2026-07-03]] page orphaned and the root index header one page low; no repo edit, no sim/test rerun, no external model swarm, and no proof/status promotion.
+- Changed files: [[index]], [[topic-map]], and [[log]].
+- Patch: added the axes full-layout page to the root Concepts/Current listing, bumped the published-page/header count from 460 to 461, and routed the page through the IGT / axes / terrain symbolic-correlation lane in [[topic-map]].
+- Claim ceiling: routing/structural repair only. The axes page remains a source-faithful extraction plus scratch-diagnostic measured matrix under its existing no-canon-promotion ceiling; this tick did not freshly verify the repo commits, rerun the measured matrix, or admit Axis0/Axis3/IGT/QIT-engine claims.
+- Verification: final post-log probe `/tmp/wiki_probe_cron_post.json`.
+
 ## 2026-07-03 - Cron tick Queue A repo-current route/status repair
 
 - Scope: one bounded routing/project-tracker tranche after preflight `wiki_probe.py` was clean; no repo edit, no sim/test rerun, no external model swarm, no new public page, and no proof/status promotion.

@@ -11,6 +11,9 @@ spec_mirrors:
   - /Users/joshuaeisenhart/wiki/specs/codex-ratchet/formal-scout-readiness-status.md
   - /Users/joshuaeisenhart/wiki/specs/codex-ratchet/lego-sim-contract-current.md
 framing: historical_correction_ledger
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Sim Corrections and Classifications

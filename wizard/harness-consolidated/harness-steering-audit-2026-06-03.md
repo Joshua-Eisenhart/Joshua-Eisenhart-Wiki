@@ -12,7 +12,7 @@ The harness is not empty or merely decorative. It has strong, repeated steering 
 
 It is also stale in important ways. The consolidated harness does not appear to know about the v4.3 object-preservation preflight guard. Several sim/tool files still encode the old PyTorch-as-ratchet framing, while the current repo authority says JAX and Julia are primary nonclassical engines and PyTorch is sidelined except as legacy/comparison/helper evidence. The harness is also much stronger against primitive identity and causal wording than against primitive geometry, time, probability, and support/carrier/coexistence smuggling.
 
-2026-06-04 carrier caveat: PEPS3D/CTMRG references below are stale relative to the 2026-06-03 session handoff. CTMRG/PEPS3D is retired as a load-bearing carrier. Current carrier routing is ITensors-MPS, exact dense/TensorKit, QuantumClifford, and spinor-native trajectories, with JAX and Julia primary in parallel. This dated note fences the stale harness-doctrine references without rewriting the whole audit.
+2026-07-01 carrier caveat: PEPS3D/CTMRG references below are stale relative to later carrier-routing corrections. The retired path is the single-fused PEPS3D contraction, not CTMRG globally; CTMRG remains valid inside nested 2D PEPSKit layers when contraction-error certificates bind the readout. Current carrier routing is nested PEPS2D/Hopfield connection geometry, ITensors-MPS, exact dense/TensorKit, QuantumClifford, and spinor-native trajectories, with JAX and Julia primary in parallel. This dated note fences the stale harness-doctrine references without rewriting the whole audit.
 
 ## 1. LOAD-BEARING STEERING RULES
 

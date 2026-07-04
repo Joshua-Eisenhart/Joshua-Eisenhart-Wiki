@@ -9,6 +9,9 @@ sources:
   - raw/articles/new-docs/references/INFORMATION_GEOMETRY_REFERENCE.md
   - raw/articles/new-docs/new content/quantum_geometry_fubini_study.md
 framing: mixed
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Quantum Fisher Information Geometry

@@ -4,6 +4,9 @@ created: 2026-04-17
 updated: 2026-04-24
 type: concept
 tags: [stub, recovery]
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # A2 Term Conflict Map

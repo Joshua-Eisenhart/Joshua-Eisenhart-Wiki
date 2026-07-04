@@ -12,6 +12,9 @@ sources:
   - https://arxiv.org/abs/2402.11651v2
   - https://arxiv.org/abs/2506.22486v1
 framing: mixed
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # LLM Bias and Failure Modes Reference

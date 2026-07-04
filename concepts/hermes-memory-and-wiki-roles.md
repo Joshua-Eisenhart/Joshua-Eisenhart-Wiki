@@ -10,6 +10,9 @@ sources:
   - /Users/joshuaeisenhart/wiki/concepts/llm-ingest-policy.md
   - /Users/joshuaeisenhart/wiki/concepts/harness-boot-pack.md
   - /Users/joshuaeisenhart/wiki/concepts/prediction-first-memory-vs-llm-memory.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Hermes Memory and Wiki Roles

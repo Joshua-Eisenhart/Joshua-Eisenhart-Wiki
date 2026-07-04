@@ -1,6 +1,9 @@
 ---
 framing: legacy_rationalist_leak
 warning: This file contains construction/causation language ("creates", "produces", "drives"). Read every such phrase through the nominalist lens: substitute "is admitted under" / "co-varies with" / "survives under". See harness/03_language_discipline.md and harness/01_nominalism_primer.md.
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Self-Similar Frameworks and Teleological Doctrine

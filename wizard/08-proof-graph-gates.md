@@ -5,6 +5,9 @@ updated: 2026-04-29
 type: concept
 tags: [wizard, proof, graph, z3, validation, qit, formal]
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Wizard Proof And Graph Gates

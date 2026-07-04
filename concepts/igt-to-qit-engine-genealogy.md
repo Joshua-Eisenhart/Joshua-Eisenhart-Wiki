@@ -5,6 +5,9 @@ updated: 2026-06-06
 type: concept
 tags: [igt, iching, pattern, topology, degrees-of-freedom, candidate]
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # IGT Pattern Structure (independent of QIT engines)

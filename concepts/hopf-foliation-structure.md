@@ -9,6 +9,9 @@ sources:
   - /Users/joshuaeisenhart/Codex-Ratchet/system_v4/probes/a2_state/sim_results/hopf_foliation_structure_results.json
   - raw/articles/new-docs/AXIS_AND_ENTROPY_REFERENCE.md
 framing: mixed
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Hopf Foliation Structure

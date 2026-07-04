@@ -9,6 +9,9 @@ sources:
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/docs/archive_old/VENV_SPEC_GRAPH_POST_MIGRATION_VALIDATION.md
 framing: legacy_cleanup_snapshot
 priming: false
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # .venv_spec_graph Post-Migration Validation

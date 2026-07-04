@@ -9,6 +9,9 @@ sources:
   - raw/articles/system-v5-reference-docs/cs-version-of-system-first-draft.md
 framing: legacy
 priming: false
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # CS Version of System First Draft

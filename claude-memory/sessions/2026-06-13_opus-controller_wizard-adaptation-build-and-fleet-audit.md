@@ -18,6 +18,9 @@ blockers_raised:
 doctrine_candidates:
   - Use this claude-memory loop (write-on-exit / read-on-entry) alongside ~/.claude durable memory — it had been dead since 2026-04-17.
   - codex2's effort header is on stderr not stdout; capture stderr to verify model_reasoning_effort applied.
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 ## What I was asked

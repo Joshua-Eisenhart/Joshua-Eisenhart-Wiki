@@ -9,6 +9,9 @@ tags: [reference, research, system]
 sources:
   - raw/articles/new-docs/03_source_notes.md
   - raw/articles/new-docs/00_manifest.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Source Notes

@@ -11,6 +11,9 @@ sources:
   - raw/articles/legacy-books/holodeck-docs-md.txt
 framing: legacy
 priming: false
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Holodeck Docs

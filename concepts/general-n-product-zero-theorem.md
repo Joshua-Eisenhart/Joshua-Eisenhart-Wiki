@@ -8,6 +8,9 @@ sources:
   - universal-q-product-form.md
   - sim_general_n_product_zero_theorem.py
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # General-N Q-Product Zero Theorem

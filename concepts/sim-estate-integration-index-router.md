@@ -1,7 +1,7 @@
 ---
 title: Sim Estate Integration Index Router
 created: 2026-05-18
-updated: 2026-06-04
+updated: 2026-07-01
 type: concept
 tags: [simulation, tooling, proof, harness, research]
 sources:
@@ -26,7 +26,7 @@ The latest mirrored repo index frames the geometric constraint manifold as its o
 
 Treat this as repo-index wording for the dated snapshot, not as independent wiki canon.
 
-2026-06-04 carrier correction: the PEPS/PEPS3D wording above is stale snapshot language, not current carrier routing. CTMRG/PEPS3D is retired as load-bearing. Current carrier routing is ITensors-MPS, exact dense/TensorKit, QuantumClifford, and spinor-native trajectories, with JAX and Julia primary in parallel and PyTorch legacy/comparison/helper only unless bounded by a fresh receipt.
+2026-07-01 carrier correction: the PEPS/PEPS3D wording above is stale snapshot language, not current carrier routing. The retired path is the single-fused PEPS3D contraction; CTMRG remains usable inside nested 2D PEPSKit layers when contraction-error certificates bound the readout. Current carrier routing is nested PEPS2D/Hopfield connection geometry, ITensors-MPS, exact dense/TensorKit, QuantumClifford, and spinor-native trajectories, with JAX and Julia primary in parallel. PyTorch role should be read through current receipts/spec mirrors, not this historical snapshot alone.
 
 ## Axis overlay map
 This is a snapshot overlay copied for orientation. Use the spec mirror for live status, and do not read these labels as axis promotion.

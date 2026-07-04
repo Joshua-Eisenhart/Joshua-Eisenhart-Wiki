@@ -9,6 +9,9 @@ sources:
   - Baier, Katoen. Principles of Model Checking. MIT Press, 2008.
   - van Glabbeek. "The Linear Time — Branching Time Spectrum." Handbook of Process Algebra, 2001.
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Concurrency and Trace Theory

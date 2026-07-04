@@ -10,6 +10,9 @@ sources:
   - /Users/joshuaeisenhart/wiki/concepts/migration-registry.md
   - /Users/joshuaeisenhart/wiki/concepts/tool-manifest-audit.md
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Documentation vs Simulation Gap Audit

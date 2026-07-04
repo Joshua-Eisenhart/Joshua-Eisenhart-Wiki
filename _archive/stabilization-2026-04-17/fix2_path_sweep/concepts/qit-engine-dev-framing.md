@@ -9,6 +9,9 @@ sources:
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/new docs/EXPLICIT_CONTROLLER_MODEL.md
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/new docs/ANOMALOUS_COMPUTER_SCIENCE_TRANSLATION.md
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/new docs/CONSTRAINT_ON_DISTINGUISHABILITY_FULL_MATH.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # QIT Engine Dev Framing

@@ -11,6 +11,9 @@ spec_mirrors:
   - /Users/joshuaeisenhart/wiki/specs/codex-ratchet/formal-scout-readiness-status.md
   - /Users/joshuaeisenhart/wiki/specs/codex-ratchet/tool-function-receipt-status.md
 framing: historical_session_catalogue
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Sim Session Index -- 2026-04-05

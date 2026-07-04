@@ -1,0 +1,1217 @@
+From 2392eaeff6ea7658bc9987e0cc70b8b913f5c5f2 Mon Sep 17 00:00:00 2001
+From: Joshua-Eisenhart <40147598+Joshua-Eisenhart@users.noreply.github.com>
+Date: Wed, 1 Jul 2026 21:21:02 -0700
+Subject: [PATCH 3/3] feat(eval): cr_scc_quotient_parity evaluator pack
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Second Codex-Ratchet sim eval pack — a different object class from the
+fingerprint float parity: integer combinatorial invariants (scc_count,
+quotient_class_count) from mixed_radix_endofunction_scc_terminal_quotient
+_under_z2_involution_v0, agreeing exactly (=41, both maps) across the
+sim's independent Julia and JAX graph algorithms. Reuses the hardened
+parity sensor; tolerance 0 (integers). Fixtures built from the real
+on-disk julia+jax result JSONs (values verified against source).
+
+Two parity packs over different invariant classes (float fingerprint +
+integer combinatorial) demonstrate the pattern, not one example.
+Cases: pass / adversarial-block / missing-lane-block / bad-address-block.
+core/eval suite 150/1 (the 1 is the pre-existing s2 test, unrelated);
+typecheck clean.
+
+Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>
+---
+ .../adversarial-false-green.eval.js           |  26 ++
+ .../bad-address.eval.js                       |  26 ++
+ .../companions/sensor.mjs                     | 369 ++++++++++++++++++
+ .../cr_scc_quotient_parity.eval.yaml          |  31 ++
+ ...scc-quotient-parity-adversarial.trace.json | 115 ++++++
+ ...scc-quotient-parity-bad-address.trace.json | 115 ++++++
+ ...cc-quotient-parity-missing-lane.trace.json |  64 +++
+ .../scc-quotient-parity-pass.trace.json       | 115 ++++++
+ .../flows/measure.flow.yaml                   |  32 ++
+ .../missing-lane.eval.js                      |  26 ++
+ .../cr_scc_quotient_parity/pass.eval.js       |  26 ++
+ .../policies/gate-policy.yaml                 |  10 +
+ .../policies/routing-policy.yaml              |   8 +
+ core/eval/src/cr-scc-quotient-parity.test.ts  | 113 ++++++
+ 14 files changed, 1076 insertions(+)
+ create mode 100644 core/eval/evaluators/cr_scc_quotient_parity/adversarial-false-green.eval.js
+ create mode 100644 core/eval/evaluators/cr_scc_quotient_parity/bad-address.eval.js
+ create mode 100644 core/eval/evaluators/cr_scc_quotient_parity/companions/sensor.mjs
+ create mode 100644 core/eval/evaluators/cr_scc_quotient_parity/cr_scc_quotient_parity.eval.yaml
+ create mode 100644 core/eval/evaluators/cr_scc_quotient_parity/fixtures/scc-quotient-parity-adversarial.trace.json
+ create mode 100644 core/eval/evaluators/cr_scc_quotient_parity/fixtures/scc-quotient-parity-bad-address.trace.json
+ create mode 100644 core/eval/evaluators/cr_scc_quotient_parity/fixtures/scc-quotient-parity-missing-lane.trace.json
+ create mode 100644 core/eval/evaluators/cr_scc_quotient_parity/fixtures/scc-quotient-parity-pass.trace.json
+ create mode 100644 core/eval/evaluators/cr_scc_quotient_parity/flows/measure.flow.yaml
+ create mode 100644 core/eval/evaluators/cr_scc_quotient_parity/missing-lane.eval.js
+ create mode 100644 core/eval/evaluators/cr_scc_quotient_parity/pass.eval.js
+ create mode 100644 core/eval/evaluators/cr_scc_quotient_parity/policies/gate-policy.yaml
+ create mode 100644 core/eval/evaluators/cr_scc_quotient_parity/policies/routing-policy.yaml
+ create mode 100644 core/eval/src/cr-scc-quotient-parity.test.ts
+
+diff --git a/core/eval/evaluators/cr_scc_quotient_parity/adversarial-false-green.eval.js b/core/eval/evaluators/cr_scc_quotient_parity/adversarial-false-green.eval.js
+new file mode 100644
+index 000000000..f96a505f1
+--- /dev/null
++++ b/core/eval/evaluators/cr_scc_quotient_parity/adversarial-false-green.eval.js
+@@ -0,0 +1,26 @@
++export default {
++  id: 'cr-scc-quotient-parity-adversarial-trace-eval',
++  target: './companions/sensor.mjs',
++  flowmind: './flows/measure.flow.yaml',
++  fixtures: {
++    trace: './fixtures/scc-quotient-parity-adversarial.trace.json',
++  },
++  greenChecks: [
++    'adversarial fixture keeps both provider lanes present',
++    'deterministic sensor blocks a perturbed SCC quotient value beyond tolerance',
++  ],
++  redChecks: [
++    'matching provider schema cannot create a false green',
++    'one perturbed engine value cannot pass through the gate',
++  ],
++  traceCases: [{
++    id: 'perturbed-scc-provider-evidence-fixture',
++    claim: 'A single JAX SCC quotient observable perturbation beyond tolerance remains provider evidence only and must block when scored.',
++    subjectFixture: 'trace',
++    expectations: {
++      schema: 'lev.cr_scc_quotient_parity.trace.v1',
++      subject_ref: 'codex-ratchet:system_v7/sims/mixed_radix_endofunction_scc_terminal_quotient_under_z2_involution_v0',
++      tolerance: 0,
++    },
++  }],
++};
+diff --git a/core/eval/evaluators/cr_scc_quotient_parity/bad-address.eval.js b/core/eval/evaluators/cr_scc_quotient_parity/bad-address.eval.js
+new file mode 100644
+index 000000000..947f415a9
+--- /dev/null
++++ b/core/eval/evaluators/cr_scc_quotient_parity/bad-address.eval.js
+@@ -0,0 +1,26 @@
++export default {
++  id: 'cr-scc-quotient-parity-bad-address-trace-eval',
++  target: './companions/sensor.mjs',
++  flowmind: './flows/measure.flow.yaml',
++  fixtures: {
++    trace: './fixtures/scc-quotient-parity-bad-address.trace.json',
++  },
++  greenChecks: [
++    'fixture keeps valid provider evidence shape and required engine lanes present',
++    'deterministic sensor recomputes provider evidence content_address before scoring parity',
++  ],
++  redChecks: [
++    'valid sim-eval content address prefix alone cannot create a false green',
++    'provider evidence with a mismatched content_address must block before numeric agreement is trusted',
++  ],
++  traceCases: [{
++    id: 'bad-scc-content-address-provider-evidence-fixture',
++    claim: 'A provider record with a valid-looking but mismatched content_address remains provider evidence only and must block when scored.',
++    subjectFixture: 'trace',
++    expectations: {
++      schema: 'lev.cr_scc_quotient_parity.trace.v1',
++      subject_ref: 'codex-ratchet:system_v7/sims/mixed_radix_endofunction_scc_terminal_quotient_under_z2_involution_v0',
++      tolerance: 0,
++    },
++  }],
++};
+diff --git a/core/eval/evaluators/cr_scc_quotient_parity/companions/sensor.mjs b/core/eval/evaluators/cr_scc_quotient_parity/companions/sensor.mjs
+new file mode 100644
+index 000000000..1e1eee396
+--- /dev/null
++++ b/core/eval/evaluators/cr_scc_quotient_parity/companions/sensor.mjs
+@@ -0,0 +1,369 @@
++const PROVIDER_SCHEMA = 'lev.sim_eval.provider_evidence.v1';
++const EVALUATOR_ID = 'cr_scc_quotient_parity';
++const CONTENT_ADDRESS_PREFIX = 'sim-eval:fnv1a32:';
++const FNV_OFFSET = 0x811c9dc5;
++const FNV_PRIME = 0x01000193;
++const REQUIRED_ENGINE_LANES = Object.freeze(['sim.julia', 'sim.jax']);
++const DEFAULT_OBSERVABLE_NAMES = Object.freeze([
++  'scc_count.map_plus',
++  'scc_count.map_minus',
++  'quotient_class_count.map_plus',
++  'quotient_class_count.map_minus',
++]);
++const PROVIDER_LANE_IDS = Object.freeze([
++  'guard.compiled',
++  'sim.jax',
++  'sim.torch',
++  'sim.julia',
++  'proof.smt',
++]);
++const DEFAULT_THRESHOLDS = Object.freeze({
++  max_abs_diff_max: 0,
++  min_engine_lanes: 2,
++});
++const FORBIDDEN_PROVIDER_STATUSES = Object.freeze([
++  'evaluated',
++  'pass',
++  'fail',
++  'not_evaluated',
++]);
++const FORBIDDEN_PROVIDER_FIELDS = Object.freeze([
++  'verdict',
++  'EvalVerdict',
++  'gate_proof',
++  'GateProof',
++  'proof_bundle',
++  'ProofBundle',
++  'effect_receipt',
++  'EffectReceipt',
++  'run_seal',
++  'RunSeal',
++]);
++
++export function score(input) {
++  const providerEvidence = providerEvidenceFrom(input);
++  const observableNames = observableNamesFrom(input);
++  const toleranceResult = toleranceFrom(input);
++  const evidenceRefs = providerEvidence.flatMap(evidenceRefsFromRecord);
++  const blocked = (reason, partial = {}) => result('block', reason, {
++    maxAbsDiff: partial.maxAbsDiff ?? null,
++    enginesAgree: partial.enginesAgree ?? false,
++    enginesPresent: partial.enginesPresent ?? false,
++    negativeControlPresent: partial.negativeControlPresent ?? false,
++    engineEvidenceCount: partial.engineEvidenceCount ?? providerEvidence.length,
++    evidenceRefs,
++  });
++
++  if (providerEvidence.length === 0) {
++    return blocked('required provider lanes sim.julia and sim.jax are missing');
++  }
++  if (observableNames.length === 0) {
++    return blocked('declared shared observable_name is missing');
++  }
++  if (!toleranceResult.ok) {
++    return blocked('declared tolerance is missing or malformed');
++  }
++
++  const lanes = new Map();
++  for (const record of providerEvidence) {
++    if (hasTruthMintingShape(record)) {
++      return blocked('provider evidence contains forbidden verdict or proof-shaped fields');
++    }
++    if (!isProviderRecord(record)) {
++      return blocked('provider evidence is malformed');
++    }
++    if (!contentAddressMatches(record)) {
++      return blocked('provider evidence content_address_mismatch: content_address does not match recomputed FNV-1a-32');
++    }
++    if (!REQUIRED_ENGINE_LANES.includes(record.lane_id)) continue;
++    if (lanes.has(record.lane_id)) {
++      return blocked(`provider evidence has duplicate required lane ${record.lane_id}`);
++    }
++    if (record.status !== 'non_authoritative_input') {
++      return blocked(`provider lane ${record.lane_id} did not emit non_authoritative_input`);
++    }
++    lanes.set(record.lane_id, record);
++  }
++
++  const enginesPresent = REQUIRED_ENGINE_LANES.every((laneId) => lanes.has(laneId))
++    && lanes.size >= DEFAULT_THRESHOLDS.min_engine_lanes;
++  if (!enginesPresent) {
++    return blocked('required provider lanes sim.julia and sim.jax are missing', {
++      enginesPresent,
++      engineEvidenceCount: lanes.size,
++    });
++  }
++
++  const numericPairs = [];
++  for (const observableName of observableNames) {
++    const juliaValue = numericFact(lanes.get('sim.julia'), observableName);
++    const jaxValue = numericFact(lanes.get('sim.jax'), observableName);
++    if (!juliaValue.ok || !jaxValue.ok) {
++      return blocked(`required numeric observable "${observableName}" is missing or malformed`, {
++        enginesPresent,
++        engineEvidenceCount: lanes.size,
++      });
++    }
++    numericPairs.push([juliaValue.value, jaxValue.value]);
++  }
++
++  const maxAbsDiff = round(Math.max(...numericPairs.map(([juliaValue, jaxValue]) => Math.abs(juliaValue - jaxValue))));
++  const negativeControlPresent = REQUIRED_ENGINE_LANES.every((laneId) => factValue(lanes.get(laneId), 'negative_control_present') === true);
++  const enginesAgree = maxAbsDiff <= toleranceResult.value;
++  const passed = enginesAgree && enginesPresent && negativeControlPresent;
++
++  if (!negativeControlPresent) {
++    return blocked('required negative control evidence is missing', {
++      maxAbsDiff,
++      enginesAgree,
++      enginesPresent,
++      negativeControlPresent,
++      engineEvidenceCount: lanes.size,
++    });
++  }
++  if (!enginesAgree) {
++    return blocked('engine observable difference exceeds tolerance', {
++      maxAbsDiff,
++      enginesAgree,
++      enginesPresent,
++      negativeControlPresent,
++      engineEvidenceCount: lanes.size,
++    });
++  }
++
++  return result(passed ? 'pass' : 'block', 'Julia and JAX provider lanes agree within deterministic tolerance', {
++    maxAbsDiff,
++    enginesAgree,
++    enginesPresent,
++    negativeControlPresent,
++    engineEvidenceCount: lanes.size,
++    evidenceRefs,
++  });
++}
++
++function result(decision, reason, measurements) {
++  const passed = decision === 'pass';
++  return {
++    schema: 'lev.evaluator.result.v1',
++    evaluator_id: EVALUATOR_ID,
++    passed,
++    decision,
++    action: routeAction(decision),
++    reason,
++    measurements: {
++      schema: 'lev.measurement.v1',
++      variables: {
++        max_abs_diff: triple(measurements.maxAbsDiff, measurements.maxAbsDiff === null ? 0 : 1, measurements.engineEvidenceCount),
++        engines_agree: triple(measurements.enginesAgree, 1, measurements.engineEvidenceCount),
++        engines_present: triple(measurements.enginesPresent, 1, measurements.engineEvidenceCount),
++        negative_control_present: triple(measurements.negativeControlPresent, 1, measurements.engineEvidenceCount),
++      },
++    },
++    evidence_refs: measurements.evidenceRefs,
++    required_repairs: passed ? [] : ['repair provider evidence or rerun required sim.julia and sim.jax lanes before gate admission'],
++  };
++}
++
++function providerEvidenceFrom(input) {
++  if (Array.isArray(input)) return input;
++  if (!isRecord(input)) return [];
++  if (Array.isArray(input.provider_evidence)) return input.provider_evidence;
++  if (Array.isArray(input.provider_evidence_refs)) return input.provider_evidence_refs;
++  return [];
++}
++
++function observableNamesFrom(input) {
++  if (!isRecord(input)) return [];
++  if (Array.isArray(input.observable_names)) {
++    return input.observable_names
++      .filter((name) => typeof name === 'string')
++      .map((name) => name.trim())
++      .filter(Boolean);
++  }
++  const name = typeof input.observable_name === 'string'
++    ? input.observable_name
++    : typeof input.shared_observable_name === 'string'
++      ? input.shared_observable_name
++      : undefined;
++  return typeof name === 'string' && name.trim() !== '' ? [name.trim()] : [...DEFAULT_OBSERVABLE_NAMES];
++}
++
++function toleranceFrom(input) {
++  if (!isRecord(input)) return { ok: true, value: DEFAULT_THRESHOLDS.max_abs_diff_max };
++  if (Object.hasOwn(input, 'tolerance')) {
++    return finiteNonNegative(input.tolerance)
++      ? { ok: true, value: input.tolerance }
++      : { ok: false };
++  }
++  if (isRecord(input.thresholds) && Object.hasOwn(input.thresholds, 'max_abs_diff_max')) {
++    return finiteNonNegative(input.thresholds.max_abs_diff_max)
++      ? { ok: true, value: input.thresholds.max_abs_diff_max }
++      : { ok: false };
++  }
++  return { ok: true, value: DEFAULT_THRESHOLDS.max_abs_diff_max };
++}
++
++function isProviderRecord(value) {
++  return isRecord(value)
++    && value.schema === PROVIDER_SCHEMA
++    && PROVIDER_LANE_IDS.includes(value.lane_id)
++    && (value.status === 'evaluation_error' || value.status === 'non_authoritative_input')
++    && hasText(value.subject_ref)
++    && Number.isInteger(value.generation)
++    && hasText(value.requested_at)
++    && Number.isFinite(Date.parse(value.requested_at))
++    && hasText(value.content_address)
++    && value.content_address.startsWith(CONTENT_ADDRESS_PREFIX)
++    && Array.isArray(value.refs)
++    && value.refs.every(isEvidenceRef)
++    && Array.isArray(value.facts)
++    && value.facts.every(isFact)
++    && isRecord(value.provenance)
++    && value.provenance.source_package === '@lev-os/sim-eval'
++    && value.provenance.provider_id === value.lane_id
++    && value.provenance.command === null
++    && value.provenance.bounded === true
++    && providerStatusShapeIsValid(value);
++}
++
++function contentAddressMatches(record) {
++  return record.content_address === contentAddressForEvidence(record);
++}
++
++function contentAddressForEvidence(evidence) {
++  const errorFields = errorFieldsForAddress(evidence);
++  const serialized = [
++    evidence.schema,
++    evidence.lane_id,
++    evidence.status,
++    evidence.subject_ref,
++    String(evidence.generation),
++    evidence.requested_at,
++    evidence.refs.map(formatEvidenceRef).join('\n'),
++    evidence.facts.map(formatFact).join('\n'),
++    evidence.provenance.source_package,
++    evidence.provenance.provider_id,
++    'command:null',
++    'bounded:true',
++    ...errorFields,
++  ].join('\u001f');
++
++  return `${CONTENT_ADDRESS_PREFIX}${fnv1a32(serialized)}`;
++}
++
++function errorFieldsForAddress(evidence) {
++  if (evidence.status === 'non_authoritative_input') {
++    return ['error:null'];
++  }
++  return [
++    evidence.error.reason_code,
++    evidence.error.detail,
++    'retryable:false',
++  ];
++}
++
++function fnv1a32(value) {
++  let hash = FNV_OFFSET;
++  for (let index = 0; index < value.length; index += 1) {
++    hash ^= value.charCodeAt(index);
++    hash = Math.imul(hash, FNV_PRIME);
++  }
++  return (hash >>> 0).toString(16).padStart(8, '0');
++}
++
++function formatEvidenceRef(ref) {
++  return `${ref.kind}:${ref.ref}`;
++}
++
++function formatFact(fact) {
++  return `${fact.name}:${String(fact.value)}`;
++}
++
++function providerStatusShapeIsValid(value) {
++  if (value.status === 'non_authoritative_input') {
++    return !Object.hasOwn(value, 'error');
++  }
++  return isRecord(value.error)
++    && value.error.reason_code === 'provider_unavailable'
++    && hasText(value.error.detail)
++    && value.error.retryable === false;
++}
++
++function evidenceRefsFromRecord(record) {
++  if (!isRecord(record) || typeof record.content_address !== 'string') return [];
++  return [{
++    kind: 'sim_eval_provider_evidence',
++    ref: record.content_address,
++    exists: true,
++  }];
++}
++
++function numericFact(record, name) {
++  const value = factValue(record, name);
++  return typeof value === 'number' && Number.isFinite(value)
++    ? { ok: true, value }
++    : { ok: false };
++}
++
++function factValue(record, name) {
++  if (!isRecord(record) || !Array.isArray(record.facts)) return undefined;
++  return record.facts.find((fact) => isRecord(fact) && fact.name === name)?.value;
++}
++
++function isEvidenceRef(value) {
++  return isRecord(value) && hasText(value.kind) && hasText(value.ref);
++}
++
++function isFact(value) {
++  return isRecord(value)
++    && hasText(value.name)
++    && (
++      value.value === null
++      || typeof value.value === 'string'
++      || typeof value.value === 'boolean'
++      || (typeof value.value === 'number' && Number.isFinite(value.value))
++    );
++}
++
++function hasTruthMintingShape(value) {
++  if (Array.isArray(value)) return value.some(hasTruthMintingShape);
++  if (!isRecord(value)) return false;
++  if (FORBIDDEN_PROVIDER_STATUSES.includes(value.status)) return true;
++  for (const field of FORBIDDEN_PROVIDER_FIELDS) {
++    if (Object.hasOwn(value, field)) return true;
++  }
++  return Object.values(value).some(hasTruthMintingShape);
++}
++
++function triple(value, confidence, evidenceCount) {
++  return {
++    value,
++    confidence,
++    evidence_count: evidenceCount,
++  };
++}
++
++function routeAction(decision) {
++  return {
++    pass: 'keep',
++    warn: 'hold',
++    repair: 'repair',
++    block: 'block',
++  }[decision] ?? 'hold';
++}
++
++function finiteNonNegative(value) {
++  return typeof value === 'number' && Number.isFinite(value) && value >= 0;
++}
++
++function round(value) {
++  return Math.round(value * 1000000000000) / 1000000000000;
++}
++
++function hasText(value) {
++  return typeof value === 'string' && value.trim().length > 0;
++}
++
++function isRecord(value) {
++  return typeof value === 'object' && value !== null && !Array.isArray(value);
++}
+diff --git a/core/eval/evaluators/cr_scc_quotient_parity/cr_scc_quotient_parity.eval.yaml b/core/eval/evaluators/cr_scc_quotient_parity/cr_scc_quotient_parity.eval.yaml
+new file mode 100644
+index 000000000..e6fc7d51e
+--- /dev/null
++++ b/core/eval/evaluators/cr_scc_quotient_parity/cr_scc_quotient_parity.eval.yaml
+@@ -0,0 +1,31 @@
++schema: lev.evaluator_pack.v1
++evaluator_id: cr_scc_quotient_parity
++owner: core/eval
++kind: shipped_evaluator_pack
++entrypoints:
++  flow: flows/measure.flow.yaml
++  sensor: companions/sensor.mjs
++policies:
++  gate: policies/gate-policy.yaml
++  routing: policies/routing-policy.yaml
++inputs:
++  provider_evidence:
++    required: true
++    description: Array of lev.sim_eval.provider_evidence.v1 records for sim.julia and sim.jax; each record refs its Codex-Ratchet result artifact.
++  observable_names:
++    required: true
++    description: Shared numeric provider fact names to compare across engine lanes.
++  tolerance:
++    required: true
++    description: Maximum allowed absolute difference between engine facts.
++outputs:
++  result_schema: lev.evaluator.result.v1
++  measurement_schema: lev.measurement.v1
++variables:
++  - max_abs_diff
++  - engines_agree
++  - engines_present
++  - negative_control_present
++collision_policy:
++  evaluator_pack: select
++  proof_gate: reject
+diff --git a/core/eval/evaluators/cr_scc_quotient_parity/fixtures/scc-quotient-parity-adversarial.trace.json b/core/eval/evaluators/cr_scc_quotient_parity/fixtures/scc-quotient-parity-adversarial.trace.json
+new file mode 100644
+index 000000000..f3af07d23
+--- /dev/null
++++ b/core/eval/evaluators/cr_scc_quotient_parity/fixtures/scc-quotient-parity-adversarial.trace.json
+@@ -0,0 +1,115 @@
++{
++  "schema": "lev.cr_scc_quotient_parity.trace.v1",
++  "subject_ref": "codex-ratchet:system_v7/sims/mixed_radix_endofunction_scc_terminal_quotient_under_z2_involution_v0",
++  "observable_names": [
++    "scc_count.map_plus",
++    "scc_count.map_minus",
++    "quotient_class_count.map_plus",
++    "quotient_class_count.map_minus"
++  ],
++  "tolerance": 0,
++  "provider_evidence": [
++    {
++      "schema": "lev.sim_eval.provider_evidence.v1",
++      "lane_id": "sim.julia",
++      "status": "non_authoritative_input",
++      "subject_ref": "codex-ratchet:system_v7/sims/mixed_radix_endofunction_scc_terminal_quotient_under_z2_involution_v0",
++      "generation": 1,
++      "requested_at": "2026-06-14T08:12:54.000Z",
++      "content_address": "sim-eval:fnv1a32:bd27520c",
++      "refs": [
++        {
++          "kind": "codex_ratchet_result_json",
++          "ref": "/Users/joshuaeisenhart/Codex-Ratchet/system_v7/sims/mixed_radix_endofunction_scc_terminal_quotient_under_z2_involution_v0/results/mixed_radix_endofunction_scc_terminal_quotient_under_z2_involution_v0_julia_results.json"
++        }
++      ],
++      "facts": [
++        {
++          "name": "sim_id",
++          "value": "mixed_radix_endofunction_scc_terminal_quotient_under_z2_involution_v0"
++        },
++        {
++          "name": "scc_count.map_plus",
++          "value": 41
++        },
++        {
++          "name": "scc_count.map_minus",
++          "value": 41
++        },
++        {
++          "name": "quotient_class_count.map_plus",
++          "value": 41
++        },
++        {
++          "name": "quotient_class_count.map_minus",
++          "value": 41
++        },
++        {
++          "name": "does_not_self_upgrade",
++          "value": true
++        },
++        {
++          "name": "negative_control_present",
++          "value": true
++        }
++      ],
++      "provenance": {
++        "source_package": "@lev-os/sim-eval",
++        "provider_id": "sim.julia",
++        "command": null,
++        "bounded": true
++      }
++    },
++    {
++      "schema": "lev.sim_eval.provider_evidence.v1",
++      "lane_id": "sim.jax",
++      "status": "non_authoritative_input",
++      "subject_ref": "codex-ratchet:system_v7/sims/mixed_radix_endofunction_scc_terminal_quotient_under_z2_involution_v0",
++      "generation": 1,
++      "requested_at": "2026-06-14T08:12:06.000Z",
++      "content_address": "sim-eval:fnv1a32:5a5f09f2",
++      "refs": [
++        {
++          "kind": "codex_ratchet_result_json",
++          "ref": "/Users/joshuaeisenhart/Codex-Ratchet/system_v7/sims/mixed_radix_endofunction_scc_terminal_quotient_under_z2_involution_v0/results/mixed_radix_endofunction_scc_terminal_quotient_under_z2_involution_v0_jax_results.json"
++        }
++      ],
++      "facts": [
++        {
++          "name": "sim_id",
++          "value": "mixed_radix_endofunction_scc_terminal_quotient_under_z2_involution_v0"
++        },
++        {
++          "name": "scc_count.map_plus",
++          "value": 41
++        },
++        {
++          "name": "scc_count.map_minus",
++          "value": 41
++        },
++        {
++          "name": "quotient_class_count.map_plus",
++          "value": 41
++        },
++        {
++          "name": "quotient_class_count.map_minus",
++          "value": 42
++        },
++        {
++          "name": "does_not_self_upgrade",
++          "value": true
++        },
++        {
++          "name": "negative_control_present",
++          "value": true
++        }
++      ],
++      "provenance": {
++        "source_package": "@lev-os/sim-eval",
++        "provider_id": "sim.jax",
++        "command": null,
++        "bounded": true
++      }
++    }
++  ]
++}
+diff --git a/core/eval/evaluators/cr_scc_quotient_parity/fixtures/scc-quotient-parity-bad-address.trace.json b/core/eval/evaluators/cr_scc_quotient_parity/fixtures/scc-quotient-parity-bad-address.trace.json
+new file mode 100644
+index 000000000..927ba53e6
+--- /dev/null
++++ b/core/eval/evaluators/cr_scc_quotient_parity/fixtures/scc-quotient-parity-bad-address.trace.json
+@@ -0,0 +1,115 @@
++{
++  "schema": "lev.cr_scc_quotient_parity.trace.v1",
++  "subject_ref": "codex-ratchet:system_v7/sims/mixed_radix_endofunction_scc_terminal_quotient_under_z2_involution_v0",
++  "observable_names": [
++    "scc_count.map_plus",
++    "scc_count.map_minus",
++    "quotient_class_count.map_plus",
++    "quotient_class_count.map_minus"
++  ],
++  "tolerance": 0,
++  "provider_evidence": [
++    {
++      "schema": "lev.sim_eval.provider_evidence.v1",
++      "lane_id": "sim.julia",
++      "status": "non_authoritative_input",
++      "subject_ref": "codex-ratchet:system_v7/sims/mixed_radix_endofunction_scc_terminal_quotient_under_z2_involution_v0",
++      "generation": 1,
++      "requested_at": "2026-06-14T08:12:54.000Z",
++      "content_address": "sim-eval:fnv1a32:bd27520d",
++      "refs": [
++        {
++          "kind": "codex_ratchet_result_json",
++          "ref": "/Users/joshuaeisenhart/Codex-Ratchet/system_v7/sims/mixed_radix_endofunction_scc_terminal_quotient_under_z2_involution_v0/results/mixed_radix_endofunction_scc_terminal_quotient_under_z2_involution_v0_julia_results.json"
++        }
++      ],
++      "facts": [
++        {
++          "name": "sim_id",
++          "value": "mixed_radix_endofunction_scc_terminal_quotient_under_z2_involution_v0"
++        },
++        {
++          "name": "scc_count.map_plus",
++          "value": 41
++        },
++        {
++          "name": "scc_count.map_minus",
++          "value": 41
++        },
++        {
++          "name": "quotient_class_count.map_plus",
++          "value": 41
++        },
++        {
++          "name": "quotient_class_count.map_minus",
++          "value": 41
++        },
++        {
++          "name": "does_not_self_upgrade",
++          "value": true
++        },
++        {
++          "name": "negative_control_present",
++          "value": true
++        }
++      ],
++      "provenance": {
++        "source_package": "@lev-os/sim-eval",
++        "provider_id": "sim.julia",
++        "command": null,
++        "bounded": true
++      }
++    },
++    {
++      "schema": "lev.sim_eval.provider_evidence.v1",
++      "lane_id": "sim.jax",
++      "status": "non_authoritative_input",
++      "subject_ref": "codex-ratchet:system_v7/sims/mixed_radix_endofunction_scc_terminal_quotient_under_z2_involution_v0",
++      "generation": 1,
++      "requested_at": "2026-06-14T08:12:06.000Z",
++      "content_address": "sim-eval:fnv1a32:becde2f9",
++      "refs": [
++        {
++          "kind": "codex_ratchet_result_json",
++          "ref": "/Users/joshuaeisenhart/Codex-Ratchet/system_v7/sims/mixed_radix_endofunction_scc_terminal_quotient_under_z2_involution_v0/results/mixed_radix_endofunction_scc_terminal_quotient_under_z2_involution_v0_jax_results.json"
++        }
++      ],
++      "facts": [
++        {
++          "name": "sim_id",
++          "value": "mixed_radix_endofunction_scc_terminal_quotient_under_z2_involution_v0"
++        },
++        {
++          "name": "scc_count.map_plus",
++          "value": 41
++        },
++        {
++          "name": "scc_count.map_minus",
++          "value": 41
++        },
++        {
++          "name": "quotient_class_count.map_plus",
++          "value": 41
++        },
++        {
++          "name": "quotient_class_count.map_minus",
++          "value": 41
++        },
++        {
++          "name": "does_not_self_upgrade",
++          "value": true
++        },
++        {
++          "name": "negative_control_present",
++          "value": true
++        }
++      ],
++      "provenance": {
++        "source_package": "@lev-os/sim-eval",
++        "provider_id": "sim.jax",
++        "command": null,
++        "bounded": true
++      }
++    }
++  ]
++}
+diff --git a/core/eval/evaluators/cr_scc_quotient_parity/fixtures/scc-quotient-parity-missing-lane.trace.json b/core/eval/evaluators/cr_scc_quotient_parity/fixtures/scc-quotient-parity-missing-lane.trace.json
+new file mode 100644
+index 000000000..90b896d0a
+--- /dev/null
++++ b/core/eval/evaluators/cr_scc_quotient_parity/fixtures/scc-quotient-parity-missing-lane.trace.json
+@@ -0,0 +1,64 @@
++{
++  "schema": "lev.cr_scc_quotient_parity.trace.v1",
++  "subject_ref": "codex-ratchet:system_v7/sims/mixed_radix_endofunction_scc_terminal_quotient_under_z2_involution_v0",
++  "observable_names": [
++    "scc_count.map_plus",
++    "scc_count.map_minus",
++    "quotient_class_count.map_plus",
++    "quotient_class_count.map_minus"
++  ],
++  "tolerance": 0,
++  "provider_evidence": [
++    {
++      "schema": "lev.sim_eval.provider_evidence.v1",
++      "lane_id": "sim.julia",
++      "status": "non_authoritative_input",
++      "subject_ref": "codex-ratchet:system_v7/sims/mixed_radix_endofunction_scc_terminal_quotient_under_z2_involution_v0",
++      "generation": 1,
++      "requested_at": "2026-06-14T08:12:54.000Z",
++      "content_address": "sim-eval:fnv1a32:bd27520c",
++      "refs": [
++        {
++          "kind": "codex_ratchet_result_json",
++          "ref": "/Users/joshuaeisenhart/Codex-Ratchet/system_v7/sims/mixed_radix_endofunction_scc_terminal_quotient_under_z2_involution_v0/results/mixed_radix_endofunction_scc_terminal_quotient_under_z2_involution_v0_julia_results.json"
++        }
++      ],
++      "facts": [
++        {
++          "name": "sim_id",
++          "value": "mixed_radix_endofunction_scc_terminal_quotient_under_z2_involution_v0"
++        },
++        {
++          "name": "scc_count.map_plus",
++          "value": 41
++        },
++        {
++          "name": "scc_count.map_minus",
++          "value": 41
++        },
++        {
++          "name": "quotient_class_count.map_plus",
++          "value": 41
++        },
++        {
++          "name": "quotient_class_count.map_minus",
++          "value": 41
++        },
++        {
++          "name": "does_not_self_upgrade",
++          "value": true
++        },
++        {
++          "name": "negative_control_present",
++          "value": true
++        }
++      ],
++      "provenance": {
++        "source_package": "@lev-os/sim-eval",
++        "provider_id": "sim.julia",
++        "command": null,
++        "bounded": true
++      }
++    }
++  ]
++}
+diff --git a/core/eval/evaluators/cr_scc_quotient_parity/fixtures/scc-quotient-parity-pass.trace.json b/core/eval/evaluators/cr_scc_quotient_parity/fixtures/scc-quotient-parity-pass.trace.json
+new file mode 100644
+index 000000000..668f9bf9c
+--- /dev/null
++++ b/core/eval/evaluators/cr_scc_quotient_parity/fixtures/scc-quotient-parity-pass.trace.json
+@@ -0,0 +1,115 @@
++{
++  "schema": "lev.cr_scc_quotient_parity.trace.v1",
++  "subject_ref": "codex-ratchet:system_v7/sims/mixed_radix_endofunction_scc_terminal_quotient_under_z2_involution_v0",
++  "observable_names": [
++    "scc_count.map_plus",
++    "scc_count.map_minus",
++    "quotient_class_count.map_plus",
++    "quotient_class_count.map_minus"
++  ],
++  "tolerance": 0,
++  "provider_evidence": [
++    {
++      "schema": "lev.sim_eval.provider_evidence.v1",
++      "lane_id": "sim.julia",
++      "status": "non_authoritative_input",
++      "subject_ref": "codex-ratchet:system_v7/sims/mixed_radix_endofunction_scc_terminal_quotient_under_z2_involution_v0",
++      "generation": 1,
++      "requested_at": "2026-06-14T08:12:54.000Z",
++      "content_address": "sim-eval:fnv1a32:bd27520c",
++      "refs": [
++        {
++          "kind": "codex_ratchet_result_json",
++          "ref": "/Users/joshuaeisenhart/Codex-Ratchet/system_v7/sims/mixed_radix_endofunction_scc_terminal_quotient_under_z2_involution_v0/results/mixed_radix_endofunction_scc_terminal_quotient_under_z2_involution_v0_julia_results.json"
++        }
++      ],
++      "facts": [
++        {
++          "name": "sim_id",
++          "value": "mixed_radix_endofunction_scc_terminal_quotient_under_z2_involution_v0"
++        },
++        {
++          "name": "scc_count.map_plus",
++          "value": 41
++        },
++        {
++          "name": "scc_count.map_minus",
++          "value": 41
++        },
++        {
++          "name": "quotient_class_count.map_plus",
++          "value": 41
++        },
++        {
++          "name": "quotient_class_count.map_minus",
++          "value": 41
++        },
++        {
++          "name": "does_not_self_upgrade",
++          "value": true
++        },
++        {
++          "name": "negative_control_present",
++          "value": true
++        }
++      ],
++      "provenance": {
++        "source_package": "@lev-os/sim-eval",
++        "provider_id": "sim.julia",
++        "command": null,
++        "bounded": true
++      }
++    },
++    {
++      "schema": "lev.sim_eval.provider_evidence.v1",
++      "lane_id": "sim.jax",
++      "status": "non_authoritative_input",
++      "subject_ref": "codex-ratchet:system_v7/sims/mixed_radix_endofunction_scc_terminal_quotient_under_z2_involution_v0",
++      "generation": 1,
++      "requested_at": "2026-06-14T08:12:06.000Z",
++      "content_address": "sim-eval:fnv1a32:becde2f9",
++      "refs": [
++        {
++          "kind": "codex_ratchet_result_json",
++          "ref": "/Users/joshuaeisenhart/Codex-Ratchet/system_v7/sims/mixed_radix_endofunction_scc_terminal_quotient_under_z2_involution_v0/results/mixed_radix_endofunction_scc_terminal_quotient_under_z2_involution_v0_jax_results.json"
++        }
++      ],
++      "facts": [
++        {
++          "name": "sim_id",
++          "value": "mixed_radix_endofunction_scc_terminal_quotient_under_z2_involution_v0"
++        },
++        {
++          "name": "scc_count.map_plus",
++          "value": 41
++        },
++        {
++          "name": "scc_count.map_minus",
++          "value": 41
++        },
++        {
++          "name": "quotient_class_count.map_plus",
++          "value": 41
++        },
++        {
++          "name": "quotient_class_count.map_minus",
++          "value": 41
++        },
++        {
++          "name": "does_not_self_upgrade",
++          "value": true
++        },
++        {
++          "name": "negative_control_present",
++          "value": true
++        }
++      ],
++      "provenance": {
++        "source_package": "@lev-os/sim-eval",
++        "provider_id": "sim.jax",
++        "command": null,
++        "bounded": true
++      }
++    }
++  ]
++}
+diff --git a/core/eval/evaluators/cr_scc_quotient_parity/flows/measure.flow.yaml b/core/eval/evaluators/cr_scc_quotient_parity/flows/measure.flow.yaml
+new file mode 100644
+index 000000000..594b71ca8
+--- /dev/null
++++ b/core/eval/evaluators/cr_scc_quotient_parity/flows/measure.flow.yaml
+@@ -0,0 +1,32 @@
++schema: lev.flowmind.flow.v1
++id: cr_scc_quotient_parity.measure
++description: Measure SCC and terminal quotient parity over non-authoritative Codex-Ratchet sim provider evidence.
++inputs:
++  provider_evidence:
++    type: array
++    required: true
++  observable_names:
++    type: array
++    required: true
++  tolerance:
++    type: number
++    required: true
++outputs:
++  observations:
++    type: object
++  measurements:
++    type: object
++nodes:
++  - id: score_measurements
++    kind: companion.score
++    inputs:
++      companion: ../companions/sensor.mjs
++      provider_evidence: ${inputs.provider_evidence}
++      observable_names: ${inputs.observable_names}
++      tolerance: ${inputs.tolerance}
++    outputs:
++      variables:
++        - max_abs_diff
++        - engines_agree
++        - engines_present
++        - negative_control_present
+diff --git a/core/eval/evaluators/cr_scc_quotient_parity/missing-lane.eval.js b/core/eval/evaluators/cr_scc_quotient_parity/missing-lane.eval.js
+new file mode 100644
+index 000000000..c940bfce9
+--- /dev/null
++++ b/core/eval/evaluators/cr_scc_quotient_parity/missing-lane.eval.js
+@@ -0,0 +1,26 @@
++export default {
++  id: 'cr-scc-quotient-parity-missing-lane-trace-eval',
++  target: './companions/sensor.mjs',
++  flowmind: './flows/measure.flow.yaml',
++  fixtures: {
++    trace: './fixtures/scc-quotient-parity-missing-lane.trace.json',
++  },
++  greenChecks: [
++    'fixture preserves a valid sim.julia provider evidence record',
++    'deterministic sensor blocks when sim.jax is absent',
++  ],
++  redChecks: [
++    'one engine lane cannot prove SCC quotient parity',
++    'missing lane cannot silently pass as agreement',
++  ],
++  traceCases: [{
++    id: 'missing-scc-provider-lane-fixture',
++    claim: 'A single engine lane is incomplete provider evidence and must block when scored.',
++    subjectFixture: 'trace',
++    expectations: {
++      schema: 'lev.cr_scc_quotient_parity.trace.v1',
++      subject_ref: 'codex-ratchet:system_v7/sims/mixed_radix_endofunction_scc_terminal_quotient_under_z2_involution_v0',
++      tolerance: 0,
++    },
++  }],
++};
+diff --git a/core/eval/evaluators/cr_scc_quotient_parity/pass.eval.js b/core/eval/evaluators/cr_scc_quotient_parity/pass.eval.js
+new file mode 100644
+index 000000000..ec0b85961
+--- /dev/null
++++ b/core/eval/evaluators/cr_scc_quotient_parity/pass.eval.js
+@@ -0,0 +1,26 @@
++export default {
++  id: 'cr-scc-quotient-parity-pass-trace-eval',
++  target: './companions/sensor.mjs',
++  flowmind: './flows/measure.flow.yaml',
++  fixtures: {
++    trace: './fixtures/scc-quotient-parity-pass.trace.json',
++  },
++  greenChecks: [
++    'real Codex-Ratchet Julia and JAX provider evidence is present',
++    'real SCC quotient observables can be scored by deterministic companion sensor',
++  ],
++  redChecks: [
++    'provider evidence cannot carry its own verdict',
++    'engine agreement is not accepted without companion scoring',
++  ],
++  traceCases: [{
++    id: 'real-scc-provider-evidence-fixture',
++    claim: 'Real mixed_radix SCC Julia and JAX result facts provide the input for a pass decision.',
++    subjectFixture: 'trace',
++    expectations: {
++      schema: 'lev.cr_scc_quotient_parity.trace.v1',
++      subject_ref: 'codex-ratchet:system_v7/sims/mixed_radix_endofunction_scc_terminal_quotient_under_z2_involution_v0',
++      tolerance: 0,
++    },
++  }],
++};
+diff --git a/core/eval/evaluators/cr_scc_quotient_parity/policies/gate-policy.yaml b/core/eval/evaluators/cr_scc_quotient_parity/policies/gate-policy.yaml
+new file mode 100644
+index 000000000..f9ded98a3
+--- /dev/null
++++ b/core/eval/evaluators/cr_scc_quotient_parity/policies/gate-policy.yaml
+@@ -0,0 +1,10 @@
++schema: lev.evaluator.gate_policy.v1
++evaluator_id: cr_scc_quotient_parity
++thresholds:
++  max_abs_diff_max: 0
++  min_engine_lanes: 2
++decisions:
++  pass: pass
++  warn: warn
++  repair: repair
++  block: block
+diff --git a/core/eval/evaluators/cr_scc_quotient_parity/policies/routing-policy.yaml b/core/eval/evaluators/cr_scc_quotient_parity/policies/routing-policy.yaml
+new file mode 100644
+index 000000000..c9e35f230
+--- /dev/null
++++ b/core/eval/evaluators/cr_scc_quotient_parity/policies/routing-policy.yaml
+@@ -0,0 +1,8 @@
++schema: lev.routing_policy.evaluator_actions.v1
++evaluator_id: cr_scc_quotient_parity
++routes:
++  pass: keep
++  warn: hold
++  repair: repair
++  block: block
++default_action: hold
+diff --git a/core/eval/src/cr-scc-quotient-parity.test.ts b/core/eval/src/cr-scc-quotient-parity.test.ts
+new file mode 100644
+index 000000000..6ac509dd7
+--- /dev/null
++++ b/core/eval/src/cr-scc-quotient-parity.test.ts
+@@ -0,0 +1,113 @@
++import { readFile } from 'node:fs/promises';
++import { dirname, join, resolve } from 'node:path';
++import { pathToFileURL, fileURLToPath } from 'node:url';
++import { describe, expect, it } from 'vitest';
++import { loadProjectEvaluatorPacks } from './index.ts';
++
++const repoRoot = resolve(dirname(fileURLToPath(import.meta.url)), '../../..');
++const packDir = join(repoRoot, 'core/eval/evaluators/cr_scc_quotient_parity');
++const fixturesDir = join(packDir, 'fixtures');
++
++interface ScoreResult {
++  schema: string;
++  evaluator_id: string;
++  passed: boolean;
++  decision: string;
++  reason: string;
++  measurements: {
++    schema: string;
++    variables: Record<string, { value: unknown; confidence: number; evidence_count: number }>;
++  };
++}
++
++describe('cr_scc_quotient_parity evaluator pack', () => {
++  it('is discovered as a shipped evaluator pack', async () => {
++    const packs = await loadProjectEvaluatorPacks({
++      projectRoot: repoRoot,
++      evaluatorId: 'cr_scc_quotient_parity',
++    });
++
++    expect(packs).toHaveLength(1);
++    expect(packs[0]?.manifest).toMatchObject({
++      schema: 'lev.evaluator_pack.v1',
++      evaluator_id: 'cr_scc_quotient_parity',
++      owner: 'core/eval',
++      kind: 'shipped_evaluator_pack',
++    });
++    expect(packs[0]?.diagnostics).toEqual([]);
++    expect(packs[0]?.evidence_refs).toEqual(expect.arrayContaining([
++      expect.objectContaining({
++        kind: 'manifest',
++        path: 'core/eval/evaluators/cr_scc_quotient_parity/cr_scc_quotient_parity.eval.yaml',
++        exists: true,
++      }),
++      expect.objectContaining({
++        kind: 'entrypoint',
++        label: 'sensor',
++        path: 'core/eval/evaluators/cr_scc_quotient_parity/companions/sensor.mjs',
++        exists: true,
++      }),
++      expect.objectContaining({
++        kind: 'policy',
++        label: 'gate',
++        path: 'core/eval/evaluators/cr_scc_quotient_parity/policies/gate-policy.yaml',
++        exists: true,
++      }),
++    ]));
++  });
++
++  it('passes real Codex-Ratchet Julia and JAX SCC quotient evidence', async () => {
++    const result = await scoreFixture('scc-quotient-parity-pass.trace.json');
++
++    expect(result.schema).toBe('lev.evaluator.result.v1');
++    expect(result.evaluator_id).toBe('cr_scc_quotient_parity');
++    expect(result.passed).toBe(true);
++    expect(result.decision).toBe('pass');
++    expect(result.measurements.variables.max_abs_diff.value).toBe(0);
++    expect(result.measurements.variables.engines_agree.value).toBe(true);
++    expect(result.measurements.variables.engines_present.value).toBe(true);
++    expect(result.measurements.variables.negative_control_present.value).toBe(true);
++  });
++
++  it('blocks when one SCC quotient observable drifts beyond tolerance', async () => {
++    const result = await scoreFixture('scc-quotient-parity-adversarial.trace.json');
++
++    expect(result.passed).toBe(false);
++    expect(result.decision).toBe('block');
++    expect(result.measurements.variables.max_abs_diff.value).toBe(1);
++    expect(result.measurements.variables.engines_agree.value).toBe(false);
++  });
++
++  it('blocks when a required engine lane is missing', async () => {
++    const result = await scoreFixture('scc-quotient-parity-missing-lane.trace.json');
++
++    expect(result.passed).toBe(false);
++    expect(result.decision).toBe('block');
++    expect(result.measurements.variables.engines_present.value).toBe(false);
++    expect(result.reason).toContain('required provider lanes');
++  });
++
++  it('blocks provider evidence whose content address does not match its fields', async () => {
++    const result = await scoreFixture('scc-quotient-parity-bad-address.trace.json');
++
++    expect(result.passed).toBe(false);
++    expect(result.decision).toBe('block');
++    expect(result.reason).toContain('content_address_mismatch');
++  });
++});
++
++async function scoreFixture(name: string): Promise<ScoreResult> {
++  const [{ score }, fixture] = await Promise.all([
++    loadSensor(),
++    readFixture(name),
++  ]);
++  return score(fixture) as ScoreResult;
++}
++
++async function loadSensor(): Promise<{ score(input: unknown): unknown }> {
++  return import(pathToFileURL(join(packDir, 'companions/sensor.mjs')).href) as Promise<{ score(input: unknown): unknown }>;
++}
++
++async function readFixture(name: string): Promise<unknown> {
++  return JSON.parse(await readFile(join(fixturesDir, name), 'utf8')) as unknown;
++}
+-- 
+2.50.1 (Apple Git-155)
+

@@ -8,6 +8,9 @@ sources:
   - raw/articles/new-docs/TOOLING_STATUS.md
   - raw/articles/new-docs/SIM_SESSION_INDEX.md
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Lean 4 Proof Assistant Reference

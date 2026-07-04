@@ -3,6 +3,9 @@ last_updated: 2026-04-17
 voice_tier: T4
 supersedes: READ_POLICY.md
 self_application: probes L1, L2, L3, L5 have run at write time; zero flagged hits outside meta-mention
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # BOOT

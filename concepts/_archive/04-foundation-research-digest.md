@@ -7,6 +7,9 @@ tags: [reference, research, foundation, digest]
 sources:
   - raw/articles/new-docs/new content/preprocessed/04_foundation_research_digest.md
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Foundation Research Digest

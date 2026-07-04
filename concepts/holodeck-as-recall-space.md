@@ -12,6 +12,9 @@ sources:
   - /Users/joshuaeisenhart/wiki/concepts/prediction-first-memory-vs-llm-memory.md
 framing_note: >-
   Current support page extracting one distinctive holodeck idea: the world/sim itself can function as a recall space rather than just a rendered environment.
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Holodeck as Recall Space

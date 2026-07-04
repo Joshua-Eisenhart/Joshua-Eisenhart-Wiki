@@ -1,10 +1,53 @@
+---
+title: IGT / Axes / Terrain Source Extraction
+created: 2026-06-04
+updated: 2026-07-02
+type: concept
+tags: [concept, source, igt, iching, symbolic, mapping, qit, routing]
+framing: mixed
+sources:
+  - "raw/articles/system-v5-reference-docs/JUNGIAN_FUNCTIONS_AND_IGT_EXPLICIT_MATH_GEOMETRY_MAP copy.md"
+  - "raw/articles/system-v5-reference-docs/TAIJITU_AXES_0_6_EXPLICIT_SYMBOLIC_LAYER copy.md"
+  - "raw/articles/system-v5-reference-docs/TAIJITU_PROBE_RECONCILIATION_CARD copy.md"
+  - "raw/articles/system-v5-reference-docs/apple axes terrain operator math.md"
+  - "raw/articles/system-v5-reference-docs/terrain rosetta strong math.md"
+  - "raw/articles/system-v5-reference-docs/terrain math.md"
+  - "raw/articles/system-v5-reference-docs/terrains.md"
+  - "raw/articles/system-v5-reference-docs/iching axes rosetta.md"
+  - "raw/articles/system-v5-reference-docs/math free axes.md"
+  - "raw/articles/system-v5-reference-docs/primitive axes with no math.md"
+---
+
 # IGT / Axes / Terrain Source Extraction
 
 Generated: 2026-06-04
 
 Status: read-only extraction and source-lock aid. This is not a doctrine rewrite, sim admission, layer completion claim, manifold admission, or QIT-engine convergence claim.
 
+2026-06-29 maintenance note: this tick verified the page exists and is routed, then added frontmatter and route fences. It did not rerun the extraction, recompute the source hashes, rerun Julia/JAX/PyTorch sims, or promote any IGT/QIT/Axis claim.
+
+2026-06-30 source-freshness note: this tick checked the ten listed source docs at both the off-vault source root (`/Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/READ ONLY Reference Docs/`) and the wiki-local raw mirror (`raw/articles/system-v5-reference-docs/`). All ten were present in both locations, and every SHA256 matched the table below. Desktop and wiki-local raw copies also matched each other byte-for-byte by SHA256. Claim ceiling: source freshness/hash routing only; no extraction rewrite, no source-content interpretation change, no sim rerun, and no IGT/QIT/Axis promotion.
+
+2026-07-01 Axis5 design note: this tick added a bounded test-design section for the Axis5 S-curve/lobe symbolic overlay. It did not rerun `wb_axis5_spectral_gradient_julia`, reinterpret the source corpus wholesale, or promote Axis5, IGT, trigram, QIT-engine, or runtime schedule closure.
+
+2026-07-02 64-slot scaffold-fencing note: this tick reread `system_v4/docs/64_HEXAGRAM_STATE_SPACE.md` from both the live repo and Desktop mirror (matching SHA256 `9a37236a53587521414f05e82420af1a09ecf5b012f1869b795d144b344dcfab`) plus the prior `eng_64_hexagram_julia_results.json` artifact (SHA256 `afa7cfba071b7a625a616fea178939c3bf1c9b70b961961b4505307bc0c1c653`). It added the fencing section below. It did not rerun Julia/JAX/PyTorch, recompute the 2026-06-04 extraction, or promote the 64 slots to runtime schedule closure.
+
+2026-07-02 Axis4 design note: this tick added a bounded symbol-direction discriminator design for the clockwise/counterclockwise overlay. It reread the Axis4 source passages and the prior `ax4_julia_results.json` artifact as snapshot evidence only; it did not rerun Julia/JAX/PyTorch or promote Axis4, taijitu spin direction, trigram canon, QIT-engine convergence, or runtime schedule closure.
+
 Wizard v4.2 route note: a local v4.2 dry run produced a PARTIAL route receipt under `/tmp/igt_source_extraction_wizard_v42/...`; it was used only as a route guard. No Codex-native subagent receipts were claimed.
+
+## Role in the live wiki cluster
+
+- Strongest use: dated source-locked map for the IGT / axes / terrain / taijitu / I-Ching correlation layer, including axis→math mappings, engine patterns, open symbolic overlays, and candidate discriminators.
+- Weak use: proof of QIT-engine convergence, Axis0 bridge/cut admission, final trigram canon, or runtime schedule closure.
+- Authority boundary: source-processing and discriminator-routing surface. It can tell a future worker what was extracted and what remains testable; it cannot upgrade older symbolic witnesses or candidate finite-map probes into admitted doctrine.
+
+## Recommended reading order
+
+1. [[projects/codex-ratchet/read-first]] for current project claim ceilings.
+2. [[constraint-manifold-architecture]] and [[projects/codex-ratchet/geometry-sim-program-canonical-2026-06-10]] for the `M(C)` / literal-geometry gate.
+3. This page for the dated IGT/axes/terrain extraction.
+4. [[igt-pattern-explicit-math-reference]] and [[projects/codex-ratchet/qit-axes-terrain-operator-fold-2026-06-09]] for follow-on math/operator/source-routing support.
 
 ## Hard Boundary
 
@@ -368,9 +411,167 @@ Pattern-level test table:
 | 720-degree spinor loop | Not explicitly present in the requested source docs. | New spinor double-cover sim over Hopf/Weyl carrier; positive requires 360/720 contrast. |
 | QIT engine convergence | Source docs and local probes are candidate/fit evidence, not convergence. | Independent sims must agree on invariants under controls before QIT-engine claims are admitted. |
 
+## 2026-06-30 Axis3 bounded discriminator design (not run)
+
+This section lands the next queued wiki move as a test design only. It does not rerun `wb_axis3_terrains_julia`, does not claim the 16 tokens are dynamically distinct, and does not promote Axis3, IGT, trigram, QIT-engine, or runtime schedule closure.
+
+### Target claim
+
+Current best reading: `Axis 3` should be inner/fiber versus outer/lifted-base loop class, not older left/right chirality, Type1/Type2, or generic flux language.
+
+### Source-locked candidate partitions
+
+| Candidate partition | Source support checked in this tick | What it predicts |
+|---|---|---|
+| Inner/outer loop class | `TAIJITU_PROBE_RECONCILIATION_CARD` lines 55-60 give the exact inner/outer token sets; `JUNGIAN_FUNCTIONS...` lines 78-98 separate fiber loop from lifted-base loop; `TAIJITU_AXES...` lines 253-287 names inner tail-chasing versus outer fat-tip-chasing. | Token labels should align with loop geometry: fiber/path-density-stationary rows versus lifted-base/density-traversing rows. |
+| L/R chirality / Weyl sheet | Existing page section above keeps L/R as carrier/type orientation; the apple source search surfaced left-Weyl/Type1 and right-Weyl/Type2 rows, but not as the active Axis3 definition. | Chirality may explain sheet orientation, but should not beat loop geometry for Axis3 unless a finite carrier observable separates L/R better than inner/outer on the same locked tokens. |
+| Engine-family / Type1-Type2 | `JUNGIAN_FUNCTIONS...` lines 304-330 gives Type1 and Type2 charts; the extraction page keeps Type1/Type2 as engine orientation, not Axis3 itself. | Type may predict placement/orientation, but should not collapse inner/outer casing or path law into Type alone. |
+
+### Concrete operation for a future sim/rerun
+
+1. Build a 16-row table from the locked token set: token, perceiving function, signed operator, source row, inner/outer label, Type1/Type2 label, and chirality/sheet label where the source supplies one.
+2. Attach one geometry observable per row: `density_motion = ||rho(u)-rho(0)||` for the path law, plus any available order/witness observable from the existing Axis3 terrain finite-map probe.
+3. Score three partitions against the observable table: inner/outer, chirality/sheet, and Type1/Type2. Use a simple purity/accuracy or adjusted-rand score against the finite observable bins, not a prose judgment.
+4. Run controls: shuffle token labels, hold loop law fixed while flipping chirality, hold Type fixed while swapping fiber/base path, and test a degenerate `eta` where fiber/base distinction should weaken.
+
+### Pass / fail conditions
+
+| Result | Meaning |
+|---|---|
+| `inner_outer_survives` | The 16 source-locked tokens match the inner/outer sets, and the loop-geometry observable separates fiber versus lifted-base better than chirality or Type-only partitions; controls collapse or weaken the separation. |
+| `open_tie` | Chirality or Type partitions score equally well; keep Axis3 as unresolved between live readings rather than forcing inner/outer. |
+| `inner_outer_killed` | Token membership, path-density behavior, or controls fail the inner/outer read while a competing partition survives on the same observable. |
+
+### Claim ceiling
+
+Until such a rerun exists, this page should keep the current wording: inner/outer is the strongest source-backed reading, but the older chirality/type/flux readings remain live alternatives under a bounded discriminator. Shared chart shape is not identity proof.
+
+## 2026-07-01 Axis5 bounded symbolic-overlay discriminator design (not run)
+
+This section lands the next queued wiki move as a test design only. It does not rerun `wb_axis5_spectral_gradient_julia`, does not claim the 16 tokens are dynamically distinct, and does not promote the taijitu S-curve/lobe overlay into the Axis5 runtime anchor.
+
+### Target claim
+
+Current best reading: `Axis 5` is operator/generator-family selection — dephasing/gradient/semigroup versus rotation/spectral/group. The taijitu S-curve, lobe weighting, and white/black visual-weighting readings remain symbolic overlays until they predict that operator split on source-locked tokens better than chance.
+
+### Source-locked candidate partitions
+
+| Candidate partition | Source support checked in this tick | What it predicts |
+|---|---|---|
+| Operator/generator family | `TAIJITU_AXES_0_6_EXPLICIT_SYMBOLIC_LAYER` lines 353-367 gives exact rotation-class versus dephasing-class token sets and anchors them to `{Fi,Fe}` versus `{Ti,Te}`; `JUNGIAN_FUNCTIONS...` lines 204-220 gives the dephasing/projection versus unitary-rotation math; `apple axes terrain operator math` lines 935-990 gives gradient/GKSL/semigroup versus spectral/Hamiltonian/group properties. | The 16 ordered tokens should split into dephasing/gradient rows and rotation/spectral rows with observable differences in entropy, purity, contractivity, and orbit preservation. |
+| S-curve / lobe-weighting symbolic overlay | `TAIJITU_AXES...` lines 336-342 lists flatter/curvier S-curve, lobe contrast, and visual weighting as open symbolic candidates; `TAIJITU_PROBE_RECONCILIATION_CARD` lines 75-86 says Axis5 needs a discriminator only if that overlay is tested. | A symbolic overlay should be accepted only if a predeclared S-curve/lobe coding predicts the operator-family labels above chance on the same locked rows. |
+| Older owner-label strategy split | `math free axes` lines 45-53 preserves `Fe Fi` versus `Te Ti` / unequal win-loss strategy language; this is useful owner-source vocabulary, but it conflicts slightly with the `TiTe` wording in the taijitu packet and should not outrank the math anchor. | Strategy-label language may guide hypotheses, but it should not collapse dephasing/rotation, gradient/spectral, or first/second win-loss roles into one bare label pair. |
+
+### Concrete operation for a future sim/rerun
+
+1. Build a 16-row source-locked table from the existing ordered-token law: token, perceiving terrain, judging operator, operator family (`dephasing` or `rotation`), gradient/spectral class, order precedence, and any predeclared S-curve/lobe code.
+2. Attach one observable vector per row from a finite carrier run or fresh rerun: entropy change `Delta S`, purity change `Delta Tr(rho^2)`, trace-distance contraction, orbit-preservation score, and generator-spectrum class where available.
+3. Score two partitions against the observable table: operator-family/gradient-spectral versus S-curve/lobe overlay. Use a predeclared classifier or adjusted-rand / mutual-information score, not a prose fit.
+4. Run controls: shuffle S-curve/lobe labels, hold operator family fixed while swapping lobe labels, replace dephasing with identity/noise-only controls, replace Hamiltonian rotation with a commuting/zero Hamiltonian control, and check whether the predicted entropy/purity/contractivity/orbit split collapses.
+
+### Pass / fail conditions
+
+| Result | Meaning |
+|---|---|
+| `operator_family_survives_overlay_open` | The dephasing/gradient versus rotation/spectral split separates the finite observables; S-curve/lobe labels do not add predictive power. Keep Axis5 runtime math strong and symbolic overlay open. |
+| `symbolic_overlay_survives` | A predeclared S-curve/lobe coding predicts the operator-family split and finite observables above chance, and controls weaken or erase the effect. The overlay can be promoted only to support-level symbolic alignment, not QIT-engine proof. |
+| `open_tie` | Operator-family observables survive, but more than one symbolic coding fits equally well; preserve multiple live readings instead of choosing a visual story. |
+| `axis5_partition_killed` | Dephasing/rotation or gradient/spectral labels fail to alter the observable while controls move similarly; Axis5 must be reopened at the operator-family level before symbolic overlay work continues. |
+
+### Claim ceiling
+
+Until such a rerun exists, this page should keep the current wording: Axis5 is strong as a generator/operator-family split, while S-curve, lobe weighting, `FeFi`/`TiTe`/`TeTi`, and unequal-win/loss language remain live but unpromoted overlays. Shared visual resemblance is not an admitted operator split.
+
+## 2026-07-02 64-slot scaffold fencing (not a rerun)
+
+This section lands the queued 64-slot scaffold guard. It routes the old `64_HEXAGRAM_STATE_SPACE.md` table into this existing IGT/hexagram router without creating a duplicate concept page. It is a claim-ceiling repair, not a source rewrite or sim result.
+
+### Source state checked this tick
+
+| Surface | Checked state | Support level |
+|---|---|---|
+| `system_v4/docs/64_HEXAGRAM_STATE_SPACE.md` | The repo copy and Desktop mirror were present, same byte size (`6526`), and same SHA256 `9a37236a53587521414f05e82420af1a09ecf5b012f1869b795d144b344dcfab`. The file already warns that Ax3/Ax4/Ax5 meanings are provisional and I-Ching labels are historical correlation tags. | observed this tick |
+| `system_v5/julia_carrier/eng_64_hexagram_julia_results.json` | Prior artifact says `all_checks_passed=true`, `classification=tool_lego_fit_probe`, `promotion_allowed=false`, `n_distinct=16`, and blocked consumers include layer completion, manifold admission, coupling, bridge, `Phi0`, `Xi`, `Axis0`, flux, and physics. | read this tick as snapshot artifact; not rerun |
+
+### What survives as useful
+
+The useful part is the addressing shape:
+
+```text
+six binary lines -> 2^6 = 64 addresses
+lower/inner trigram candidate = Ax6 / Ax5 / Ax3
+upper/outer trigram candidate = Ax4 / Ax1 / Ax2
+Ax0 = external drive/readout through the six-line space, not a stage bit
+```
+
+This scaffold can help future workers keep line order, binary-address order, and historical I-Ching correlation tags separate while designing finite discriminators.
+
+### What must stay fenced
+
+| Old scaffold field | Current fence |
+|---|---|
+| Ax3 as `Chirality`, `Left / -Phase` vs `Right / +Phase` | Stale as an Axis3 definition. Current strongest reading remains inner/fiber versus outer/lifted-base loop class; chirality/Weyl sheet remains a live alternative or carrier orientation until a finite discriminator beats inner/outer. |
+| Ax4 as `CCW (Inductive)` vs `CW (Deductive)` | Usable only as symbolic spin-direction proposal. Runtime anchor is noncommuting order class (`UEUE` vs `EUEU`, or `Phi_D` vs `Phi_I`) until a symbol-direction test is run. |
+| Ax5 as `FGA / Flat` vs `FSA / Hysteresis` | Stale/partial as a line meaning. Current stronger anchor is operator/generator family: dephasing/gradient/semigroup versus rotation/spectral/group; S-curve, lobe, flat/hysteresis, `FeFi`/`TiTe`/`TeTi` remain overlays. |
+| Legacy I-Ching names | Historical correlation labels only. They do not name mathematical ontology, prove trigram canon, or imply all 64 states are dynamically distinct. |
+| “64 distinct structural configurations” | Address count only unless a fresh finite observable separates them. The prior `eng_64` artifact reports 64 stages but only 16 distinct fingerprints, so dynamic distinctness is explicitly not earned. |
+
+### Practical use rule
+
+Use the 64-slot scaffold as a router for address bookkeeping and future test design. Do not use it to overwrite the Axis3/Axis4/Axis5 sections above, and do not cite it as QIT-engine convergence, Axis0 bridge/cut closure, trigram canon, runtime schedule closure, or physics evidence.
+
+### Next admissible discriminator
+
+The previously queued bounded symbolic-overlay design is now represented in the Axis4 section below: test whether clockwise/counterclockwise coding predicts the runtime order split (`UEUE`/`EUEU` or `Phi_D`/`Phi_I`) better than chance under erasure/inversion controls. Until a future finite rerun exists, Axis4 symbol direction remains open while the noncommuting order anchor stays stronger.
+
+## 2026-07-02 Axis4 bounded symbol-direction discriminator design (not run)
+
+This section lands the queued Axis4 symbolic-overlay design. It keeps the runtime anchor at noncommuting order class and treats clockwise/counterclockwise as a testable but unadmitted taijitu overlay.
+
+### Target claim
+
+Current best reading: `Axis 4` is a noncommuting order class — `UEUE` versus `EUEU`, or `Phi_D` versus `Phi_I`. The taijitu clockwise/counterclockwise direction is still open unless a predeclared symbol-direction coding predicts that runtime split and survives controls.
+
+### Source state checked this tick
+
+| Surface | Checked state | Support level |
+|---|---|---|
+| `TAIJITU_AXES_0_6_EXPLICIT_SYMBOLIC_LAYER copy.md` | Lines 290-328 say clockwise/counterclockwise is open, the current label layer is proposed `TiFe`/`FeTi` versus implemented `FeTi`/`TeFi`, and the lower-stack anchor is `Phi_deductive = U o E o U o E` versus `Phi_inductive = E o U o E o U`. | observed this tick |
+| `TAIJITU_PROBE_RECONCILIATION_CARD copy.md` | Lines 51 and 73-75 fence clockwise/counterclockwise as symbolic only and keep `UEUE` versus `EUEU` as the runtime anchor unless a discriminator goes beyond fencing. | observed this tick |
+| `apple axes terrain operator math.md` | The axis-kernel table names Axis4 as composite order class (`Phi_UEUE`, `Phi_EUEU`); the later Axis4 section gives `Phi_D=e^(tau_R L_R)e^(tau_C L_C)` and `Phi_I=e^(tau_C L_C)e^(tau_R L_R)` as the noncommuting order form. | observed this tick |
+| `system_v5/julia_carrier/ax4_julia_results.json` | Prior artifact says `promotion_allowed=false`, root gates include `F01` and `N01`, `axis4_split_real=true`, `commuting_control_near_zero=true`, and `two_directions_earned=true` at `summary_n64`. | read this tick as snapshot artifact; not rerun |
+
+### Source-locked candidate partitions
+
+| Candidate partition | What it predicts | What must not be inferred |
+|---|---|---|
+| Runtime order class | `UEUE` and `EUEU` / `Phi_D` and `Phi_I` should separate on an order-sensitive observable, while commuting or wrong-structure controls collapse the gap. | This does not by itself assign clockwise to one side or counterclockwise to the other. |
+| Clockwise/counterclockwise overlay | A predeclared spin-direction coding should predict the runtime order split above chance and invert/erase under controls. | Visual direction cannot be chosen after seeing the result, and source resemblance is not evidence. |
+| Older label layer (`TiFe`/`FeTi` versus `FeTi`/`TeFi`) | The label drift can seed candidate codings, but only if mapped to the runtime-order table before scoring. | Label similarity cannot override `UEUE`/`EUEU`, `Phi_D`/`Phi_I`, or the prior finite-map ceiling. |
+
+### Concrete operation for a future sim/rerun
+
+1. Build a locked Axis4 table with each row carrying: token, loop family, proposed symbol direction, runtime order (`UEUE`/`EUEU` or `Phi_D`/`Phi_I`), and whether the source assigns deductive/inductive.
+2. Attach observables from a fresh finite carrier rerun or a clearly dated replay: trajectory distance, variance/entropy delta where declared, order-gap norm, and commuting-control gap.
+3. Score two partitions: runtime order class versus the predeclared clockwise/counterclockwise coding. Use accuracy, mutual information, or adjusted-rand-style agreement on locked rows, not prose fit.
+4. Run controls: shuffle symbol directions, invert the coding, replace one operator with a commuting control, test a wrong-structure control, and require the runtime order gap to collapse when noncommutation is removed.
+
+### Pass / fail conditions
+
+| Result | Meaning |
+|---|---|
+| `runtime_order_survives_symbol_open` | `UEUE`/`EUEU` or `Phi_D`/`Phi_I` separates finite observables, controls collapse the split, but symbol direction adds no predictive power. Keep Axis4 math strong and clockwise/counterclockwise open. |
+| `symbol_direction_survives` | A predeclared clockwise/counterclockwise coding predicts the runtime order split above chance, survives inversion/shuffle controls, and collapses under commuting controls. Promote only to support-level symbolic alignment, not proof. |
+| `open_tie` | Multiple codings fit equally well or the symbol direction is inverted depending on convention. Preserve the split instead of choosing a visual story. |
+| `axis4_order_killed` | Runtime order fails to alter observables or controls move similarly. Reopen Axis4 at the order-class level before continuing symbolic overlay work. |
+
+### Claim ceiling
+
+Until such a rerun exists, this page should keep the current wording: Axis4 is strong as a noncommuting runtime-order split, while clockwise/counterclockwise, `TiFe`/`FeTi`, and deductive/inductive visual direction remain unpromoted symbolic overlays. Prior `ax4_julia_results.json` is useful snapshot evidence, not a fresh cron rerun.
+
 ## Candidate Next Sim Discriminators
 
-These are not run here; they are extracted from the source needs.
+These are not run here; they are extracted from the source needs. The Axis3, Axis4, and Axis5 rows below now have concrete bounded design sections above; the 64-slot/trigram row now has a fencing section above. No sim was executed in any of those maintenance ticks.
 
 | Priority | Discriminator | Minimal positive | Minimal negative |
 |---:|---|---|---|

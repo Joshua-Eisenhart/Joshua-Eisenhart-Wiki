@@ -7,6 +7,9 @@ tags: [reference, research, system, metadata]
 sources:
   - raw/articles/new-docs/new content/preprocessed/README.md
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Preprocessed Content

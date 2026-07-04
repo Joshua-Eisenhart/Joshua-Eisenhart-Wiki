@@ -9,6 +9,9 @@ sources:
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v4/probes/sim_pure_lego_contact_structure_s3.py
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/new docs/SIM_SESSION_INDEX.md
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Contact Structure on S³

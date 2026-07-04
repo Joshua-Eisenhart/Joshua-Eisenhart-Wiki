@@ -11,6 +11,9 @@ sources:
   - raw/articles/new-docs/16_lego_build_catalog.md
   - raw/articles/new-docs/17_actual_lego_registry.md
   - raw/articles/system-v5-reference-docs/Weyl Flux.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Sim Build Spine and Wiki Maintenance

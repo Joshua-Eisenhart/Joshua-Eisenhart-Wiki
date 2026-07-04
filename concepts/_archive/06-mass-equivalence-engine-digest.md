@@ -7,6 +7,9 @@ tags: [reference, research, equivalence, digest]
 sources:
   - raw/articles/new-docs/new content/preprocessed/06_mass_equivalence_engine_digest.md
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Mass Equivalence Engine Digest

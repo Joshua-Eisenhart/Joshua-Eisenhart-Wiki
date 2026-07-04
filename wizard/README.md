@@ -5,6 +5,9 @@ updated: 2026-06-19
 packet: v4.3
 type: concept
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Wizard Universal Harness

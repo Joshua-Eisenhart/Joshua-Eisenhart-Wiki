@@ -7,6 +7,9 @@ tags: [reference, research, compression, quantum, digest]
 sources:
   - raw/articles/new-docs/new content/preprocessed/00_pca_qpca_source_digest.md
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # PCA / QPCA Source Digest

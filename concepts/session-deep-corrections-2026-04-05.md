@@ -7,6 +7,9 @@ tags: [reference, research, session, corrections]
 sources:
   - raw/articles/new-docs/SESSION_DEEP_CORRECTIONS_2026_04_05.md
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Session Deep Corrections -- 2026-04-05

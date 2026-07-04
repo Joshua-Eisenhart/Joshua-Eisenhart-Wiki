@@ -8,6 +8,9 @@ sources:
   - raw/articles/system-v5-reference-docs/JUNGIAN_FUNCTIONS_AND_IGT_EXPLICIT_MATH_GEOMETRY_MAP copy.md
   - concepts/_archive/jungian-functions-and-igt-explicit-math-geometry-map-copy.md
 framing: mixed
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Jungian Functions And IGT Explicit Math Geometry Map

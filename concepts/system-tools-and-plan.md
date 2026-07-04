@@ -9,6 +9,9 @@ sources:
   - raw/articles/new-docs/TOOLING_STATUS.md
   - raw/articles/new-docs/TODO.md
 framing: mixed
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # System Tools and Plan

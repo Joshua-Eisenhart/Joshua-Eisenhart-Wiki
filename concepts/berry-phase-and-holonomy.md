@@ -8,6 +8,9 @@ sources:
   - raw/articles/new-docs/new content/berry_phase_and_holonomy.md
   - https://arxiv.org/abs/hep-th/0404165v5
 framing: current
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Berry Phase, Holonomy, and Topological Invariants

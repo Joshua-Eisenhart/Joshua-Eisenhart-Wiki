@@ -140,13 +140,14 @@ mirrors under [[specs/codex-ratchet/README|Codex Ratchet Specs]]. Tier/Hermes
 language below is historical operating context unless a fresh repo preflight
 and current user request reauthorize that exact lane.
 
-2026-06-04 routing note, superseded on PyTorch role by the 2026-06-08 canon:
-CTMRG/PEPS3D is retired as a load-bearing carrier per the 2026-06-03 handoff.
-Route current nonclassical carrier work through ITensors-MPS, exact
-dense/TensorKit, QuantumClifford, and spinor-native trajectories. In the
-current canon stack, PyTorch is first-class graph/network compute while Julia
-remains the arbitration canon; do not demote PyTorch to legacy/helper merely
-from this older note.
+2026-07-01 carrier-routing correction, preserving the 2026-06-08 PyTorch role:
+The retired path is the single-fused PEPS3D contraction, not CTMRG globally.
+CTMRG remains valid inside each nested 2D PEPSKit layer when a receipt carries
+contraction-error certificates. Route current nonclassical carrier work through
+nested PEPS2D/Hopfield connection geometry, ITensors-MPS, exact dense/TensorKit,
+QuantumClifford, and spinor-native trajectories. In the current canon stack,
+PyTorch is first-class graph/network compute while Julia remains the arbitration
+canon; do not demote PyTorch to legacy/helper merely from older PEPS3D notes.
 For the current honest spine, start with [[deflation-map-2026-06-04]] and the
 audit receipt [[verdict_audit_receipt_2026-06-04|verdict audit receipt 2026-06-04]].
 Wizard v4.3 is an object-preservation preflight guard before v4.2 councils, not a

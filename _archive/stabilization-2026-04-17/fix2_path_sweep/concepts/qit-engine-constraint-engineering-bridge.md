@@ -11,6 +11,9 @@ sources:
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/new docs/CONSTRAINT_ON_DISTINGUISHABILITY_FULL_MATH.md
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/new docs/LADDERS_FENCES_ADMISSION_REFERENCE.md
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v5/new docs/plans/sim_backlog_matrix.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # QIT Engine Constraint Engineering Bridge

@@ -1,6 +1,9 @@
 ---
 type: audit
 updated: 2026-04-16
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Wiki Ingest Audit-Tick: Geometry Stacking and Legacy Genealogy

@@ -9,6 +9,9 @@ sources:
   - concepts/qit-engine-proto-ratchet-and-sim-plan.md
   - concepts/geometry-ingredient-map.md
   - concepts/quantum-geometry-fubini-study.md
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Why QIT Engines Need Exotic Geometry

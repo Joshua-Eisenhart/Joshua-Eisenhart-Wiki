@@ -9,6 +9,9 @@ sources:
   - /Users/joshuaeisenhart/Desktop/Codex Ratchet/system_v4/probes/sim_g_structure_tower.py
   - raw/articles/new-docs/references/FIBER_BUNDLES_AND_SPIN_GEOMETRY_REFERENCE.md
 framing: mixed
+status: superseded
+superseded_by: "post-2026-05 current wiki canon"
+reason: "dated before 2026-05"
 ---
 
 # Sasakian S3 as Prequantum Bundle
