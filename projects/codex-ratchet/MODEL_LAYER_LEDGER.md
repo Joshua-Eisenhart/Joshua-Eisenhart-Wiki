@@ -1295,3 +1295,15 @@ identical ladder L0->L1->L2->L3, terminal 6 classes -- attractor basin as data, 
 This corrects an independent node's first build (jumped L0->L3 in ONE step = batch jump not smallest-step; its
 smallest-step fix was broken Python with unbalanced brackets, never ran). The teeth here are one-at-a-time and
 the run is green. Ceiling scratch_diagnostic, promotion_allowed=False. artifact 72273354-f3a3-4ae5-9c5f-780f009520de.
+
+## RATCHET CLIMB ENGINE -- non-definitional flip CORRECTED (2026-07-03, auditor-driven)
+The L2->L3 spinor-lift dual-solver control was first written as a TAUTOLOGY: FORCED = "exists o in [-1,1] with
+o<1" (trivially SAT for any interval), ERASED = "o=1 AND o<1" (trivial arithmetic contradiction). The
+rho-equality premise was never a solver constraint -- it tested real-arithmetic, not the physics. WITHDRAWN.
+CORRECTED encoding (both z3 AND cvc5): psi_A, psi_B as complex 2-vectors (8 reals); rho_A==rho_B encoded as
+ACTUAL constraints (normalization; |a0|^2=|b0|^2; |a1|^2=|b1|^2; Re & Im of off-diagonal a0*conj(a1)=b0*conj(b1));
+distinguishability = Re<psi_A|psi_B> < 1. FORCED = these -> SAT with a REAL witness (solver DISCOVERS a
+rho-identical pair at overlap 0.0, phase surviving rho-equality); ERASED = ADD the density-quotient's
+identification law psi_A==psi_B -> UNSAT. The distinction dies ONLY when the quotient law is added, so the
+forcing is a genuine feasibility solve over the state geometry, non-definitional. z3+cvc5 agree. Harness 74
+GREEN. This matches the control standard the JP node's runbook engine met (Peres-Mermin contextuality flip).
