@@ -60,6 +60,8 @@ Use this as the low-friction entry point. The old full listing lives at [index-f
 - [[concepts/tool-capability-and-integration-ledger]] — Tool capability and integration ledger.
 - [[concepts/agent-workflow-and-boot-architecture]] — Agent workflow and boot architecture.
 - [[concepts/repo-mediated-multi-agent-workflow]] — Repo-mediated multi-agent workflow.
+- [[ops/maintenance-log]] — Maintenance pass ledger.
+- [[ops/unknown_triage_20260702]] — Unknown-file triage snapshot.
 - [[wizard/harness-consolidated/DOCTRINE_INDEX]] — Pull-conditioned doctrine router.
 - [[wizard/harness-consolidated/00_READ_FIRST]] — Harness boot order.
 
