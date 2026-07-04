@@ -21,6 +21,8 @@ reason: "dated before 2026-05"
 
 "Platonic nominalism" names the owner's stance. Forms survive probes, so they are real. Forms are not separate from matter, so they are not Platonic in the classical sense. The term holds both commitments at once without collapsing one into the other.
 
+2026-07-03 extension: [[iff-chain-identity-duality-2026-07-03]] records the sharper owner formula `Plato iff nominalism`, with the nominalist refinement that variants are equivalent under M-structure but distinct under M-domain. That extension must not be read as a promotion of the iff-schema into a form above its instances.
+
 This page exists because the label was present only as a frontmatter tag before 2026-04-17. Worker agents could read about nominalism and about forms without ever encountering the composite name, and the tension the label carries was being lost.
 
 ## What the label fixes
@@ -56,5 +58,6 @@ The QIT engine and the coupling program assume forms are material survivors. If 
 - [[nominalism-philosophical-foundation]]
 - [[anti-reification-and-nominalism-reference]]
 - [[entropic-monism-origin-and-cosmology]]
+- [[iff-chain-identity-duality-2026-07-03]]
 - [[15_root_axiom_card]]
 - [[03_language_discipline]]

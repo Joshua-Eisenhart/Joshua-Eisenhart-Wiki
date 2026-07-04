@@ -152,6 +152,8 @@ Do not promote any specific equation for this unless it is separately source-anc
 
 The current owner correction widens the readout map to include baryons, hadrons, and all forces as faces of the same entropic-spacetime substrate.
 
+2026-07-03 doctrine router: [[iff-chain-identity-duality-2026-07-03]] preserves the owner formula `baryons / hadrons iff spacetime` as a cosmic-scale KE iff PE instance. The page labels this owner doctrine, while keeping the Sakharov-as-ratchet and conservation-laws-as-pawls readings as UNEARNED synthesis.
+
 Safe interpretation:
 
 ```text

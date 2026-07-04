@@ -39,6 +39,7 @@ Use this as the low-friction entry point. The old full listing lives at [index-f
 - [[engine-64-schedule-atlas]] — 64-state engine schedule reference.
 - [[operator-math-explicit]] — Explicit operator math routing.
 - [[terrain-laws-and-loop-geometry]] — Terrain and loop-geometry doctrine.
+- [[iff-chain-identity-duality-2026-07-03]] — Owner iff-chain doctrine capture; promotion_allowed=false.
 - [[nominalist-cs-framing]] — Nominalist computer-science translation frame.
 - [[CLAIM_CEILING_POLICY]] — Claim ceiling and promotion fences.
 

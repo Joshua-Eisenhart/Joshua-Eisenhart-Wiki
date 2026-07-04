@@ -88,6 +88,10 @@ geometry in the axes" — the scaffold already carried this rule.)
   Witness: `||Phi_D(rho) - Phi_I(rho)||_1`; collapses under commuting controls.
 - STATUS: strong runtime anchor (ax4 julia receipt). Taijitu spin-direction
   symbolic assignment OPEN (owner-reserved). No canonical +/- sign for b4.
+- 2026-07-03 doctrine router: [[iff-chain-identity-duality-2026-07-03]]
+  preserves the owner reading of deduction iff induction / reason iff
+  perception, including Type-1 deductive-CCW-outer vs inductive-CW-inner
+  traversal language, without promoting the symbolic spin assignment.
 
 ### Axis 5 — operator family
 - {Ti,Te} pinching/dephasing semigroups vs {Fi,Fe} rotation/unitary groups.
