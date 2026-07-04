@@ -1,6 +1,6 @@
 # Codex Ratchet Wiki — Index
 
-Total published pages: 474. Governance/read-first surfaces are listed separately. Restructured 2026-04-17 (stabilization pass).
+Total published pages: 485. Governance/read-first surfaces are listed separately. Restructured 2026-04-17 (stabilization pass).
 
 ## Hermes / LLM Alignment Front Door
 - [[hermes-current/read-first]] — Hermes front door; load this before substantive work
@@ -167,9 +167,20 @@ Total published pages: 474. Governance/read-first surfaces are listed separately
 
 ## Concepts — by framing
 
-### Current (195)
+### Current (206)
 - [[iff-chain-identity-duality-2026-07-03]] — Owner iff-chain doctrine capture; promotion_allowed=false.
 - [[igt-discovery-and-two-engines-2026-07-04]] — IGT discovery provenance, two-engine chart, GT-inversion program; promotion_allowed=false.
+- [[science-as-correlations-proved-in-technology-2026-07-04]] — correlations/technology epistemology plus graded kill-board; promotion_allowed=false.
+- [[finite-ordered-foundations-2026-07-04]] — F01+N01 as root axioms, 11 consequences, receipts-as-primary; salvaged 2026-07-04.
+- [[least-presumption-mss-third-root-2026-07-04]] — least presumption / MSS third root, dropped-then-regated; salvaged.
+- [[causality-fep-hume-neurology-2026-07-04]] — causality as compression narrative, FEP literal, Hume-by-neurology; salvaged.
+- [[empathy-origin-and-triple-identity-2026-07-04]] — model provenance: empathic pattern recognition, triple identity; salvaged.
+- [[bidirectional-scientific-method-2026-07-04]] — run the method in reverse; observer-in-the-box; salvaged.
+- [[one-thing-many-perspectives-doc-rule-2026-07-04]] — perspective-rotation method plus documentation rule; salvaged.
+- [[leviathan-semantic-sovereignty-2026-07-04]] — Hobbes word-sovereignty and MMM as rigorous memetics; salvaged.
+- [[purgatory-working-space-2026-07-04]] — purgatory as the working space; hell/heaven edges provisional; salvaged.
+- [[constraint-manifold-simultaneous-2026-07-04]] — geometry layers co-active; doc order is not ratchet order; salvaged.
+- [[geometry-entropy-dual-ratchet-verdict-2026-07-04]] — geometry prior, entropy typed readout, mechanical-dual reopened narrow; salvaged.
 - [[constraint-manifold-architecture]] — actual geometric constraint manifold `M(C)` frame-loader and minimum construction contract; axes/IGT/QIT/bridge claims stay downstream
 - [[world-engine-graph-patch-algebra]] — Research Ratchet concept for WorldModelGraph, GraphPatch, GateOperator, and event-sourced admissibility over accepted project state; proposal concept only
 - [[spinor-memory]] — JSON-first oriented project memory under ordered operators; read/control model only, not proof authority or quantum-memory claim

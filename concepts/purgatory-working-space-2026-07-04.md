@@ -56,6 +56,6 @@ Design implication for any ratchet sim: monotone exclusion applies only to hell.
 
 ## Related pages
 
-- [[project_axis_program_near_complete]]
+- `project_axis_program_near_complete.md` (Claude memory source; see [[projects/codex-ratchet/wrong-repo-memory-digest-2026-07-04|wrong-repo memory digest]])
 - feedback_no_math_canon_mine_old_recent_manifold_is_direction (Claude memory)
 - feedback_julia_canon_numpy_banned_v7sims_offcanon (Claude memory)

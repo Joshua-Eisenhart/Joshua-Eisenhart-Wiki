@@ -1,3 +1,11 @@
+## 2026-07-04 - Cron tick index-full/current-page structural repair
+
+- Scope: one bounded structural/routing repair after preflight `wiki_probe.py` reported `page_count=485`, stale `index_header_count=474`, and three broken links from newly salvaged/current pages. No repo edit, no sim/test rerun, no external model swarm, no new public page, and no proof/status promotion.
+- Changed files: [[index-full]], [[one-thing-many-perspectives-doc-rule-2026-07-04]], [[purgatory-working-space-2026-07-04]], [[self-similar-frameworks-and-teleological-doctrine]], and [[log]].
+- Patch: synced the full index header/current-section count to the live published file count, added the eleven 2026-07-04 salvaged current concept pages that were only routed through the slim front door, converted the missing `project_axis_program_near_complete.md` source-memory pointer to a plain source reference plus the wrong-repo digest route, and redirected the least-presumption source-memory wikilink to the existing public concept page.
+- Claim ceiling: structural/routing hygiene only. This tick did not reread or promote the salvaged source memories, rerun repository validators, or change the provisional/no-promotion status of the 2026-07-04 concept pages.
+- Verification: preflight `/tmp/wiki_probe_cron_pre.json` exposed the mismatch; final post-log probe for this tick is `/tmp/wiki_probe_cron_post.json`.
+
 ## 2026-07-04 - Cron tick structural probe/front-door index repair
 
 - Scope: one bounded structural/tooling repair after preflight `wiki_probe.py` reported `index_header_count=0`, `indexed_link_count=51`, 445 orphans, 7 broken links, and 1 stub because the vault now has a slim `index.md` plus full `index-full.md` listing. No repo edit, no sim/test rerun, no external model swarm, no new public page, and no proof/status promotion.

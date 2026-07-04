@@ -51,5 +51,5 @@ This method has a direct consequence for how documents in this wiki should be wr
 
 ## Related pages
 
-- [[project_axis_program_near_complete]]
+- `project_axis_program_near_complete.md` (Claude memory source; see [[projects/codex-ratchet/wrong-repo-memory-digest-2026-07-04|wrong-repo memory digest]])
 - [[purgatory-working-space-2026-07-04]]
