@@ -20,6 +20,7 @@ MALFORMED_PATTERNS = {
 STALE_NAMESPACE_TARGET_RE = re.compile(r"^(?:\.\./)*current/", re.IGNORECASE)
 INLINE_CODE_RE = re.compile(r"`[^`\n]*`")
 INLINE_HTML_COMMENT_RE = re.compile(r"<!--.*?-->")
+RESOLUTION_SKIP_DIRS = {".obsidian", ".git"}
 
 def extract_wikilinks(text: str) -> list[str]:
     links: list[str] = []
@@ -49,13 +50,56 @@ def iter_active_markdown_files(wiki_root: Path) -> Iterable[Path]:
     all_roots = [d for d in os.listdir(wiki_root) if os.path.isdir(wiki_root / d) and d not in SKIP_DIRS]
     yield from iter_markdown_files(wiki_root, all_roots)
 
+
+def iter_resolution_markdown_files(wiki_root: Path) -> Iterable[Path]:
+    """Yield markdown files that may validly be wikilink targets.
+
+    The active broken-link scan intentionally skips raw/archive/meta material,
+    but ordinary pages may still point to raw provenance files, root navigation
+    notes such as SCHEMA.md and index-full.md, or archived/meta receipts. Those
+    targets should resolve without making those support trees part of the
+    published page count or active broken-link scan.
+    """
+    for filename in sorted(os.listdir(wiki_root)):
+        path = wiki_root / filename
+        if path.is_file() and filename.endswith(".md") and not filename.startswith("."):
+            yield path
+
+    for root, dirs, files in os.walk(wiki_root):
+        dirs[:] = sorted(
+            d for d in dirs
+            if d not in RESOLUTION_SKIP_DIRS and not d.startswith(".")
+        )
+        for filename in sorted(files):
+            if filename.startswith(".") or not filename.endswith(".md"):
+                continue
+            yield Path(root) / filename
+
+
 def get_pages(wiki_root: Path) -> dict[str, str]:
-    # Index EVERYTHING (including current, projects) for link resolution
+    # Index every markdown target surface for link resolution. Published counts
+    # and active broken-link scans are narrower; this map only answers whether a
+    # wikilink target exists somewhere intentional in the vault.
     pages: dict[str, str] = {}
-    for path in iter_active_markdown_files(wiki_root):
+    for path in iter_resolution_markdown_files(wiki_root):
         rel = path.relative_to(wiki_root).as_posix()
         pages[path.stem] = rel
     return pages
+
+
+def get_index_text(wiki_root: Path) -> str:
+    """Return the text used for published-page coverage checks.
+
+    index.md is now a slim front door; index-full.md carries the full listing.
+    Use both when available so the probe follows the current vault architecture
+    without forcing the root front door back into a giant generated index.
+    """
+    index_path = wiki_root / "index.md"
+    index_text = index_path.read_text(encoding="utf-8")
+    full_index_path = wiki_root / "index-full.md"
+    if full_index_path.exists():
+        return full_index_path.read_text(encoding="utf-8") + "\n" + index_text
+    return index_text
 
 def find_malformed_wikilinks(text: str) -> list[dict[str, str]]:
     findings: list[dict[str, str]] = []
@@ -117,6 +161,10 @@ def find_stale_namespace_wikilinks(text: str) -> list[dict[str, str | int]]:
 def probe_wiki(wiki_root: Path | str, output_path: Path | str | None = None) -> dict:
     wiki_root = Path(wiki_root)
     all_pages = get_pages(wiki_root)
+    active_pages = {
+        path.stem: path.relative_to(wiki_root).as_posix()
+        for path in iter_active_markdown_files(wiki_root)
+    }
 
     # Count only public page roots. Raw notes and maintenance dirs may still
     # resolve links, but they are not published page count.
@@ -127,7 +175,7 @@ def probe_wiki(wiki_root: Path | str, output_path: Path | str | None = None) -> 
         published_pages_stems.add(path.stem)
 
     index_path = wiki_root / "index.md"
-    index_text = index_path.read_text(encoding="utf-8")
+    index_text = get_index_text(wiki_root)
     index_links = extract_wikilinks(index_text)
     indexed_targets = set(index_links)
 
@@ -135,7 +183,7 @@ def probe_wiki(wiki_root: Path | str, output_path: Path | str | None = None) -> 
     malformed = []
     stale_namespace_wikilinks = []
 
-    for stem, rel_path in all_pages.items():
+    for stem, rel_path in active_pages.items():
         text = (wiki_root / rel_path).read_text(encoding="utf-8")
         for finding in find_malformed_wikilinks(text):
             malformed.append({"source": rel_path, **finding})
@@ -151,7 +199,7 @@ def probe_wiki(wiki_root: Path | str, output_path: Path | str | None = None) -> 
 
     stubs = [
         rel
-        for stem, rel in all_pages.items()
+        for stem, rel in active_pages.items()
         if stem in published_pages_stems and (wiki_root / rel).read_text(encoding="utf-8").count("\n") < 10
     ]
 

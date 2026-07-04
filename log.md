@@ -1,3 +1,11 @@
+## 2026-07-04 - Cron tick structural probe/front-door index repair
+
+- Scope: one bounded structural/tooling repair after preflight `wiki_probe.py` reported `index_header_count=0`, `indexed_link_count=51`, 445 orphans, 7 broken links, and 1 stub because the vault now has a slim `index.md` plus full `index-full.md` listing. No repo edit, no sim/test rerun, no external model swarm, no new public page, and no proof/status promotion.
+- Changed files: [[index-full]], [[compression-mathematics-and-density-matrix]], `tools/wiki_probe.py`, and [[log]].
+- Patch: taught `wiki_probe.py` to use `index-full.md` plus the slim front door for coverage, resolve root/raw/archive/meta markdown targets without counting them as published pages, and keep the active broken-link scan limited to active non-raw/non-archive surfaces. Synced `index-full.md` to `Total published pages: 474`, added the missing new entity/query/concept routes, and expanded the compression redirect so it is no longer a one-line stub.
+- Claim ceiling: structural/tooling hygiene only. This tick did not rerun repository validators, refresh result artifacts, promote owner-source pages, or change project truth labels.
+- Verification: preflight `/tmp/wiki_probe_cron_pre.json` exposed the structural mismatch; mid-run `/tmp/wiki_probe_cron_mid.json` was clean (`page_count=474`, `index_header_count=474`, `indexed_link_count=608`, all structural buckets empty). `python3 -m py_compile tools/wiki_probe.py` and `git diff --check` passed. Final post-log probe for this tick is `/tmp/wiki_probe_cron_post.json`.
+
 ## 2026-07-03 - Cron tick axes page routing repair
 
 - Scope: one bounded structural/routing repair after preflight `wiki_probe.py` found the new [[axes-full-layout-relations-anti-conflation-2026-07-03]] page orphaned and the root index header one page low; no repo edit, no sim/test rerun, no external model swarm, and no proof/status promotion.

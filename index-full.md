@@ -1,6 +1,6 @@
 # Codex Ratchet Wiki — Index
 
-Total published pages: 461. Governance/read-first surfaces are listed separately. Restructured 2026-04-17 (stabilization pass).
+Total published pages: 474. Governance/read-first surfaces are listed separately. Restructured 2026-04-17 (stabilization pass).
 
 ## Hermes / LLM Alignment Front Door
 - [[hermes-current/read-first]] — Hermes front door; load this before substantive work
@@ -99,6 +99,16 @@ Total published pages: 461. Governance/read-first surfaces are listed separately
 - [[claude-code]]
 - [[hermes]]
 - [[leviathan-system]]
+- [[lev]] — Lev runtime / Leviathan execution surface.
+- [[codex-ratchet-repo-home]] — Current home Codex-Ratchet checkout.
+- [[codex-ratchet-repo-desktop]] — Older Desktop Codex Ratchet checkout surface.
+- [[wizard]] — Wizard harness and MMM routing surface.
+- [[codebase-memory-mcp]] — Local code graph MCP surface.
+- [[cocoindex]] — Wiki semantic retrieval layer.
+- [[obsidian-vault]] — This `~/wiki` vault as working memory.
+- [[jp-collaborator]] — JP collaborator / Lev-side owner node.
+- [[qit-engine]] — QIT engine as candidate processor stack.
+- [[mesh-protocol]] — Two-node content-addressed verification protocol.
 
 ## LevOS / Leviathan developer handoff
 - [[projects/leviathan-current/index]] — human-facing table of contents for the actual Leviathan wiki pages
@@ -157,7 +167,9 @@ Total published pages: 461. Governance/read-first surfaces are listed separately
 
 ## Concepts — by framing
 
-### Current (193)
+### Current (195)
+- [[iff-chain-identity-duality-2026-07-03]] — Owner iff-chain doctrine capture; promotion_allowed=false.
+- [[igt-discovery-and-two-engines-2026-07-04]] — IGT discovery provenance, two-engine chart, GT-inversion program; promotion_allowed=false.
 - [[constraint-manifold-architecture]] — actual geometric constraint manifold `M(C)` frame-loader and minimum construction contract; axes/IGT/QIT/bridge claims stay downstream
 - [[world-engine-graph-patch-algebra]] — Research Ratchet concept for WorldModelGraph, GraphPatch, GateOperator, and event-sourced admissibility over accepted project state; proposal concept only
 - [[spinor-memory]] — JSON-first oriented project memory under ordered operators; read/control model only, not proof authority or quantum-memory claim
@@ -618,7 +630,8 @@ Total published pages: 461. Governance/read-first surfaces are listed separately
 - [[state-representation-views]]
 - [[viability-vs-attractor]]
 
-## Queries (2)
+## Queries (4)
+- [[queries/research-intake-2026-07-03]] — Skeptic-vetted research queue; no promotion or citation before source resolution.
 - [[whole-wiki-mmm-source-research-campaign-2026-05-18]] — control page for whole-wiki MMM/source/research processing
 - [[five-framework-cluster]]
 - [[wiki-driven-arxiv-search-queue]]
