@@ -87,6 +87,61 @@ def refines(pA, pB):  # pA finer-or-equal to pB
     look = {i: k for k, c in enumerate(pB) for i in c}
     return all(len({look[i] for i in c}) == 1 for c in pA)
 
+def spinor_lift_nondefinitional_flip():
+    """NON-DEFINITIONAL dual-solver control for the L2->L3 lift (runbook 13.4: the flip must NOT be
+    definitional). The claim the lift rests on: there EXIST two 1-qubit pure states that are RHO-IDENTICAL yet
+    STATE-DISTINGUISHABLE. This is encoded as a real feasibility solve over the state amplitudes (psi = complex
+    2-vector via 8 reals), with rho-equality as ACTUAL CONSTRAINTS (not asserted in prose):
+      normalization; |a0|^2=|b0|^2; |a1|^2=|b1|^2; Re/Im of the off-diagonal a0*conj(a1)=b0*conj(b1)  [rho_A=rho_B]
+      Re<psi_A|psi_B> < 1                                                                            [distinguishable]
+      FORCED model : the above -> SAT; the solver must DISCOVER that global/relative phase survives rho-equality
+                     (a witness pair exists, e.g. psi_B = -psi_A giving overlap -1, or any phase giving <1).
+      ERASED model : ADD the density-quotient's identification law psi_A==psi_B (rho-equal => state-equal) ->
+                     forces overlap=1, contradicts <1 -> UNSAT. The lift dissolves ONLY when the quotient law
+                     is added, so the forcing is a real solve over the geometry, not baked into the L3 label.
+    z3 AND cvc5 must agree (FORCED=SAT, ERASED=UNSAT). Returns the per-solver verdicts + a witness overlap."""
+    import z3
+    def z3_build(erased):
+        a0r,a0i,a1r,a1i,b0r,b0i,b1r,b1i = z3.Reals('a0r a0i a1r a1i b0r b0i b1r b1i')
+        s=z3.Solver()
+        s.add(a0r*a0r+a0i*a0i+a1r*a1r+a1i*a1i==1, b0r*b0r+b0i*b0i+b1r*b1r+b1i*b1i==1)
+        s.add(a0r*a0r+a0i*a0i == b0r*b0r+b0i*b0i, a1r*a1r+a1i*a1i == b1r*b1r+b1i*b1i)
+        s.add(a0r*a1r+a0i*a1i == b0r*b1r+b0i*b1i, a0i*a1r-a0r*a1i == b0i*b1r-b0r*b1i)
+        reov = a0r*b0r+a0i*b0i+a1r*b1r+a1i*b1i
+        s.add(reov < 1)
+        if erased: s.add(a0r==b0r,a0i==b0i,a1r==b1r,a1i==b1i)
+        return s, reov
+    sF,reov=z3_build(False); rF=sF.check(); wit=None
+    if rF==z3.sat:
+        try: wit=float(sF.model().eval(reov).as_fraction())
+        except Exception: wit=None
+    sE,_=z3_build(True); z3_ok=(rF==z3.sat and sE.check()==z3.unsat)
+    try:
+        import cvc5; from cvc5 import Kind
+        def c_build(erased):
+            tm=cvc5.TermManager(); s=cvc5.Solver(tm); s.setLogic("QF_NRA")
+            R=tm.getRealSort(); V={n:tm.mkConst(R,n) for n in ['a0r','a0i','a1r','a1i','b0r','b0i','b1r','b1i']}
+            M=lambda *xs: __import__('functools').reduce(lambda p,q: tm.mkTerm(Kind.MULT,p,q), xs)
+            A=lambda *xs: __import__('functools').reduce(lambda p,q: tm.mkTerm(Kind.ADD,p,q), xs)
+            SB=lambda a,b: tm.mkTerm(Kind.SUB,a,b); EQ=lambda a,b: s.assertFormula(tm.mkTerm(Kind.EQUAL,a,b))
+            one=tm.mkReal(1)
+            EQ(A(M(V['a0r'],V['a0r']),M(V['a0i'],V['a0i']),M(V['a1r'],V['a1r']),M(V['a1i'],V['a1i'])),one)
+            EQ(A(M(V['b0r'],V['b0r']),M(V['b0i'],V['b0i']),M(V['b1r'],V['b1r']),M(V['b1i'],V['b1i'])),one)
+            EQ(A(M(V['a0r'],V['a0r']),M(V['a0i'],V['a0i'])), A(M(V['b0r'],V['b0r']),M(V['b0i'],V['b0i'])))
+            EQ(A(M(V['a1r'],V['a1r']),M(V['a1i'],V['a1i'])), A(M(V['b1r'],V['b1r']),M(V['b1i'],V['b1i'])))
+            EQ(A(M(V['a0r'],V['a1r']),M(V['a0i'],V['a1i'])), A(M(V['b0r'],V['b1r']),M(V['b0i'],V['b1i'])))
+            EQ(SB(M(V['a0i'],V['a1r']),M(V['a0r'],V['a1i'])), SB(M(V['b0i'],V['b1r']),M(V['b0r'],V['b1i'])))
+            reov=A(M(V['a0r'],V['b0r']),M(V['a0i'],V['b0i']),M(V['a1r'],V['b1r']),M(V['a1i'],V['b1i']))
+            s.assertFormula(tm.mkTerm(Kind.LT,reov,one))
+            if erased:
+                for x,y in [('a0r','b0r'),('a0i','b0i'),('a1r','b1r'),('a1i','b1i')]: EQ(V[x],V[y])
+            return str(s.checkSat())
+        cvc5_ok=(c_build(False)=="sat" and c_build(True)=="unsat")
+    except Exception:
+        cvc5_ok=None
+    return {"z3_forced_sat_erased_unsat": z3_ok, "cvc5_forced_sat_erased_unsat": cvc5_ok,
+            "witness_overlap": wit, "both_agree": bool(z3_ok) and (cvc5_ok is True)}
+
 def run(order_seed):
     items = make_carrier()
     ix = {it["name"]: k for k, it in enumerate(items)}
@@ -148,10 +203,11 @@ def run(order_seed):
             "terminal_classes": len(partition(level, items)), "ledger": ledger, "theorems": T}
 
 def main():
+    flip = spinor_lift_nondefinitional_flip()
     runs = {s: run(s) for s in (11, 23, 47, 101)}
     t5 = len({(r["terminal_level"], r["terminal_classes"], tuple(r["admitted_ladder"])) for r in runs.values()}) == 1
     out = {"classification": "scratch_diagnostic", "promotion_allowed": False,
-           "runs": runs, "T5_basin_convergence": t5}
+           "runs": runs, "T5_basin_convergence": t5, "spinor_lift_nondefinitional_flip": flip}
     path = __file__.replace(".py", "_results.json")
     json.dump(out, open(path, "w"), indent=1, default=str)
     r = runs[11]
@@ -160,8 +216,10 @@ def main():
         if e["event"] in ("LIFT_LOCKED", "NO_LIFT", "DEMAND_VOID", "REJECTED_UNFORCED", "FRONTIER"):
             print("  ", e)
     print("theorems:", r["theorems"], " T5_basin(4 orders):", t5)
-    ok = all(r["theorems"].values()) and t5 and r["admitted_ladder"] == LADDER
     print("SINGLE-TOOTH CLIMB L0->L1->L2->L3:", r["admitted_ladder"] == LADDER)
+    print("L2->L3 non-definitional flip (z3+cvc5 forced-SAT/erased-UNSAT):", flip)
+    ok = (all(r["theorems"].values()) and t5 and r["admitted_ladder"] == LADDER
+          and flip["both_agree"])
     if ok:
         print("PASS ratchet_climb_engine_v0")
     print("ALL_GATES:", "PASS" if ok else "FAIL", "->", path)
