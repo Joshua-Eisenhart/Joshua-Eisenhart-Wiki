@@ -158,3 +158,10 @@ to canonical. The forced-vs-installed distinction, and the plural
 - Correction recorded the same day: MSS is the floor-picker/meta-gate; the ratchet is the separate upward climb. A proposed "bidirectional / MSS-iff-ratchet" framing was withdrawn as Claude-imposed causality and direction the nominalist system bans. The recurring failure mode is additive (adding structure the owner did not put there); the correction discipline is subtractive.
 
 Demotion note (2026-07-04, same day): the v1_drive toy-scale support cited above was demoted to BY-CONSTRUCTION by the fresh-context capstone audit (pre-labeled rung targets; controls are policy controls). The claim that the drive-with-memory genuinely climbs past the stall awaits the blinded v2 rebuild.
+
+## 2026-07-04 late additions (owner, verbatim source: [[raw/owner-voice-nested-ratchet-and-recursion-2026-07-04]])
+
+- The synonym chain: MSS, ratchet, tower, nesting, nested ratchet, replicators are all the same thing stated different ways. The MSS is Minimal Evolving Persistent Structure: it ratchets, it nests, it replicates. Constraints + time + exploration/randomness/"heat" lead to attractor basins.
+- The nesting correction: the ratchet is NESTED — each thing sits on the thing before and all later math is CONSTRAINED by the previous rungs because it operates in and on that domain. Density matrices come early and constrain everything downstream; everything runs on probes and on density matrices if they are the MSS — though there might be deeper MSS under them, going both directions. Concretely: the Weyl spinor is on nested Hopf tori, that on S2, that on S3, possibly with intermediary steps and more depth both ways. Classical Shannon entering the entropy ladder early was flagged as an ordering error.
+- The physical instance: the expanding universe (spacetime/entropy/dark energy) is the same pattern as the MSS ratchet — a physical representation of the mathematical one.
+- The working target: where entropy and geometry can be one; where the Hilbert space and the Hamiltonian are one.
