@@ -887,3 +887,11 @@ UP-71 DISTINGUISHABILITY-FOUNDED RATCHET  foundational_ratchet_entropy_gradient_
                resolved (acquired-bases, binding/negative) = Axis-0 gap. Grows->climbs (gap open, 6 teeth);
                Feynman freeze->halts (gap flat); residual gap = real quantum limit not a counting artifact. Fixed
                a duplicate stale polarity harness entry. Full harness 78 pass/0/0 GREEN. scratch.
+
+UP-72 RATCHET FOLLOWS ITS OWN RULES  foundational_ratchet_entropy_gradient_sim.py rebuilt so the PROCESS runs, not
+               its vocabulary (owner: "actually follow my ratchets rules... understand mss as part of the
+               constraints. jumping to bits and vectors shows the process not being done"). DEMAND = distinguishable-
+               but-unresolved pair (trace distance). MSS = admissibility CONSTRAINT (admit only forced structure);
+               PAWL proven (every non-climb = candidates rejected-unforced). Co-ratchet one-for-one. Gate tests the
+               RULES not a climb count. Honest remainder: dim-2 carrier saturates after 2 teeth (gap widens but no
+               new demand) -> the F01 3-qubit-floor. Full harness 78 pass/0/0 GREEN. scratch.
