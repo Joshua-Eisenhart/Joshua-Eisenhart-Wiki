@@ -291,3 +291,14 @@ Status map, kept exact:
 - Chain closure as stated: MSS-the-structure = rolling entangled dice; with memory it ratchets; the ratcheting is the geometry/entropy spiral; the spiral at cosmic scale = entropic-geometry = spacetime. Same shape at engine, math, and cosmos scales; two of the three have receipts, the cosmos keeps its kill-board.
 
 Demotion note (2026-07-04, same day): the v1_drive "both arms ran" line above was demoted by the fresh-context capstone audit to BY-CONSTRUCTION (pre-labeled rung targets in demand minting; see the geometry-entropy dual-ratchet page). The engine-scale receipt is withdrawn until the blinded v2 rebuild earns it; the fixed-point surface-identity half is unaffected.
+
+## 2026-07-04 evening: owner corrections consolidated
+
+Errors the owner found in how the ratchet was being run, stated close to verbatim:
+- The name: quantum-entropic-geometry.
+- The seed: entangled spinning dice.
+- MSS = Minimal Evolving Persistent Structure (evolving and persistent both load-bearing).
+- Axis 0 = rolling dice, at the beginning, not the end. The readout (Phi_0, rolled dice) stays late.
+- The trap, named: the rolled dice can seem the same as the rolling dice — they are at two different ends. Never conflate.
+
+Direction: build and get the QIT engines running; Axis 0 now in place as the drive; IGT, the axes, and the ratchet layers more defined (previous thread). Source pattern: IGT plus the physics model; FEP-with-mods aligns well; the system is deeply Hume- and Jung-based. Lineage the owner names as central to explaining the model: Faraday, Mach, Hamilton, Boltzmann, Einstein, Dirac, von Neumann, Feynman — with the caveat that it might be not so dependent on Einstein and Dirac.
