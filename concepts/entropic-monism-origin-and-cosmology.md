@@ -278,3 +278,14 @@ Fence held explicitly: the observations themselves (rotation curves, lensing, Bu
 - [[axis-and-entropy-reference]]
 - [[self-similar-frameworks-and-teleological-doctrine]]
 - [[nominalism-in-this-system]]
+
+## 2026-07-04 addition: entropic-geometry (owner statement + status map)
+
+Owner, 2026-07-04: "they seem separate and are one thing. the geometry and the entropy seem separate, but are one thing. entropy as time, geometry as space. entropic-geometry. and it grows. a geometry that follows the laws of entropy. it can have local negative entropy and has innate global positive entropy."
+
+Status map, kept exact:
+- "Seem separate, are one" is the measured content of the surface-identity sim (Hessian of relative entropy = BKM metric at qubit fixed points, separation UNSAT dual-solver) — earned at the fixed-point half only.
+- Engine mapping: locked structure = space/the room; minted facts = time/the ticking. Both arms ran 2026-07-04 in `ratchet_climb_engine_v1_drive` (rung 6 vs kill controls at 4, scratch_diagnostic).
+- "It grows" = the spiral (never returns; every turn locks something). Dark energy as growth of the room stays doctrine on the kill-board, not measurement.
+- Local negentropy inside global positive entropy = the ratchet's defining trick, Feynman ratchet-and-pawl lineage: each lock is a local negentropy event (record/bound order — dark matter's role in the model), funded by the rolling's global mixing (dark energy's role).
+- Chain closure as stated: MSS-the-structure = rolling entangled dice; with memory it ratchets; the ratcheting is the geometry/entropy spiral; the spiral at cosmic scale = entropic-geometry = spacetime. Same shape at engine, math, and cosmos scales; two of the three have receipts, the cosmos keeps its kill-board.

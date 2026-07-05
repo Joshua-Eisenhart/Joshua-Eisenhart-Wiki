@@ -71,3 +71,15 @@ The entropic-monism draft's open question about E-versus-G recompute order is th
 - Committing the T5 fix (currently uncommitted working-tree changes).
 - Then, owner's call: either advance the typed-readout layer, or move toward the geometry-to-ρ_AB bridge — which is gated behind lego and coupling steps in the project's hard stage gate, and is not yet reached.
 - The two-sided update test for the narrower mechanical dual-ratchet claim has not yet been built or run.
+
+## 2026-07-04 update: one turn of the spiral measured live (v1_drive)
+
+Worked out 2026-07-04 in a parallel session; build landed in the live repo (`~/Codex-Ratchet`, commits `4fb9a370d` build + `f8b3cf1fb` lock-ledger repair). Ceiling: `scratch_diagnostic`, `promotion_allowed:false`, capstone DRAFT_UNAUDITED.
+
+`system_v7/sims/ratchet_climb_engine_v1_drive/` rewired the real climb engine from a hand-fed demand list to demands minted by a drive — a noncommutative, entangled, memory-carrying update stream running from tick one (Axis 0 as the drive, not the late readout). Results, verified against the result JSONs and a fresh codex verification lane:
+
+- Drive variant climbed to rung 6; all three kill controls (commuting drive, static demand list, memoryless drive) died at rung 4 (v0's stall); label-shuffle robust at 6. Three-engine parity 0.0, lint 0.
+- The two new rungs were forced by drive-minted demands: rung 5 by an entanglement-mixedness fact (an entropy-side fact forcing a geometry-side lift — the mechanical dual-ratchet coupling caught in the act), rung 6 by a noncommuting order fact.
+- One defect found and repaired: rejected frontier attempts had been filed in the append-only lock ledger; now locks are admitted-receipts-only with refusals in their own list.
+
+This is one measured entropy-to-geometry turn. The reverse arm (geometry re-carving what entropy can be read) remains structurally present but unearned; the two-sided update test named above is still not built.
