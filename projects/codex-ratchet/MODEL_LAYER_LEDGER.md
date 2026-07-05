@@ -1334,3 +1334,33 @@ load-bearing, corrections/CORRECTED_LINES_PACKET_V2 6.4). My toy uses a single a
 STRUCTURE (rolling>dead under N01), the node's engine-scale run confirms the axis-conditioning.
 Ceiling scratch_diagnostic, promotion_allowed=False. artifact 80e31493-dd8b-42c3-83fb-c2a5f9a414ad.
 Also adopted node corrections/ (RATCHET_STATE_BY_TIER, CORRECTED_LINES_PACKET_V2, AUTHORING_THREAD_ADDENDUM).
+
+## AXIS-0 BUILT FROM THE OWNER'S SPEC (2026-07-04) [first Axis-0 result built FROM the doc, not AT it]
+After a night of toy builds the owner named the failure: "actual axis0 docs werent being read." The real spec
+is JOSHUA_EISENHART_AXIS0_PHYSICS_MODEL_CORE_20260526.md sections 24 (A0_raw), 37 (build card), 38 (controls).
+KEY CORRECTIONS to what I had been doing:
+  - Axis-0 is NOT one scalar. It is the 7-VECTOR A0_raw = (Delta_r H_Omega, Delta_r S_B, Delta_r K, log Z_path,
+    order_gap, chirality_sheet, no_message_capacity); Phi0 = projection(A0_raw), projection DISCOVERED not assumed.
+  - Shell update is a WEIGHTED COMPOSITOR over admissible futures Omega_r, NEVER argmax:
+    rho_{r-dr} = sum_h w_h K_h rho_r K_h^dagger ; H_Omega is entropy over FUTURES, not S(rho).
+  - Two flows (future inward / past outward); measure I_c(I->B), I(I:B), order gap, chirality, negativity.
+BUILT axis0_shell_polarity_docfaithful_sim.py (harness-registered, full harness 76 pass/0 fail/0 skip GREEN).
+HONEST TEST (the node's "one process, one knob" framing -- no "opening"/"binding" labels in the code): a single
+NEUTRAL dial c (interior-boundary coupling density) swept; if the owner's polarity is real the A0_raw vector
+must split into TWO PHASES unsupervised (k=2) and PREDICT held-out runs the clusterer never saw, recovering the
+knob ordering without being told c.
+RESULT -- AXIS-0 EARNED in the two senses that matter:
+  - base held-out phase accuracy 0.917 (two faces self-emerge from one label-free knob and predict unseen runs)
+  - scalar_entropy_only (S_B features only) collapses to 0.615 -> Axis-0 is LOAD-BEARING, not a rename of S(rho)
+  - one_future_control (collapse fuzz to argmax) drops to 0.719 -> the many-futures structure does real work
+  - scrambled_Omega kills hardest 0.479
+  Component separation (Cohen's d, high-c vs low-c face): meanH_Omega 3.13, dS_B 1.63, I_c 1.15, MI 0.53
+  dominate; the opening face = possibilities multiply faster than reconciled (H_Omega up, S_B up, binding weak,
+  I_c deeply negative); the binding face = possibilities contract, S_B falls, binding rises, I_c toward 0.
+HONEST REMAINDER (kept visible, not smoothed, exactly as node flagged): TWO section-38 controls did NOT flip
+the classifier -- commuting_path_family 0.938 and no_inward_outward_orientation 0.875. And logZ (d 0.00) +
+order_gap (d 0.36) do NOT separate the faces at this baseline. So the polarity is real and driven by
+fuzz-multiplicity + boundary entropy + coherent information, but the N01-order and shell-orientation components
+of A0_raw are NOT engaged by this baseline -- either the dynamics are too tame or they belong to a different cut
+of the polarity. A real finding about what the shell picture needs, not a pass to paper over.
+Ceiling scratch_diagnostic, promotion_allowed=False. artifact 67ce4620-4f5d-4a27-8b8f-aa76f29f2b53.
