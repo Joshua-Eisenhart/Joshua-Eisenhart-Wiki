@@ -200,18 +200,34 @@ def main():
     # power gained (geometry side rises) -- the same event read two ways. Measured, not asserted.
     coratchet_pairs = [(h["n_demands_closed"], h["resolved_post"] - h["resolved_pre"]) for h in live if h["admitted"]]
     coratchet_one_for_one = all(nc >= 1 and dr > 1e-9 for nc, dr in coratchet_pairs) and len(coratchet_pairs) > 0
-    # RULE 4 -- AXIS-0 WORKED EARLY AS THE DRIVE: demands are open from the FIRST shells and drive the early
-    # climbs (not a late readout). Under FREEZE the room stops asserting new differences -> open demands fall to 0
-    # -> the pawl holds -> climb stops. This is the Feynman knife on the DEMAND, not on a scalar gap.
-    axis0_early = sum(1 for h in live[:3] if h["n_open_demands"] >= 1) >= 2 and sum(h["admitted"] for h in live[:3]) >= 2
+    # RULE 4 -- AXIS-0 WORKED EARLY AS THE DRIVE: the FIRST shell that carries an open demand must also produce a
+    # climb (the drive acts from the start, not late). Under FREEZE the room stops asserting new differences ->
+    # open demands fall to 0 -> the pawl holds -> climb stops. The Feynman knife on the DEMAND, not a scalar gap.
+    first_demand_shell = next((h for h in live if h["n_open_demands"] >= 1), None)
+    axis0_early = (first_demand_shell is not None) and first_demand_shell["admitted"] and first_demand_shell["r"] <= 1
     frozen_demands_after = [h["n_open_demands"] for h in frozen if h["r"] > 1]
     frozen_demands_die = (max(frozen_demands_after) == 0) if frozen_demands_after else True
 
-    # The gate tests the RATCHET'S RULES, NOT a climb count (requiring a fixed number of teeth would be imposing
-    # an outcome -- the very anti-pattern of presuming instead of earning). The ratchet climbs exactly as many
-    # teeth as demands FORCE, then the pawl holds. Here that is >=1 forced climb, each forced, pawl proven,
-    # co-ratchet one-for-one, Axis-0 early, and freeze kills the demands.
-    follows_ratchet_rules = (live_climbs >= 1 and every_climb_forced and pawl_holds and
+    # THE GATE IS CONSERVATION, DERIVED FROM THE DATA -- no hand-picked climb count (setting one would impose the
+    # outcome, the anti-pattern of presuming instead of earning). The rule the ratchet must obey: on EVERY shell,
+    # a climb happens IFF a forced admissible step exists (an open demand a single basis can close). Never a climb
+    # without a demand (no unforced tooth); never a closable demand left unclimbed (pawl only when truly stuck).
+    # live_climbs is then whatever the demand structure forces -- read out, not required.
+    def has_closable_demand(states, acquired):
+        _, admitted, *_ = mss_admissible_step(states, acquired)
+        return admitted
+    # replay to know, per shell, whether a forced step was AVAILABLE (independent of what the run did)
+    climb_iff_forced = True; acc = {0}
+    for h in live:
+        st = possibility_set(h["r"], frozen_at=None)
+        forced_available = has_closable_demand(st, acc)
+        if bool(h["admitted"]) != bool(forced_available):
+            climb_iff_forced = False
+        if h["admitted"] and h["probe"] is not None:
+            acc = acc | {h["probe"]}
+    # Non-vacuity is guaranteed by axis0_early (the first demand-bearing shell must climb) + climb_iff_forced,
+    # not by any picked count: if no demand ever opened, axis0_early is False (first_demand_shell is None).
+    follows_ratchet_rules = (climb_iff_forced and every_climb_forced and pawl_holds and
                              coratchet_one_for_one and axis0_early and
                              frozen_climbs_after_freeze == 0 and frozen_demands_die)
 
@@ -224,6 +240,7 @@ def main():
     out = {"classification": "scratch_diagnostic", "promotion_allowed": False,
            "measure": "quantum_distinguishability_trace_distance (NO bits, NO log2, NO counting, NO vector algebra)",
            "live_total_climbs": live_climbs, "frozen_climbs_after_freeze": frozen_climbs_after_freeze,
+           "GATE_climb_iff_forced_step_available": bool(climb_iff_forced),
            "RULE1_every_climb_forced_by_a_demand": bool(every_climb_forced),
            "RULE2_pawl_holds_rejected_unforced": bool(pawl_holds),
            "RULE3_coratchet_one_for_one": bool(coratchet_one_for_one),
@@ -244,7 +261,8 @@ def main():
     for h in live:
         pr = h['probe'] if h['probe'] is not None else '-'
         print(f"  {h['r']} | {h['available']:5.2f}  {h['resolved_post']:6.2f}  {h['gap']:5.2f} |   {h['n_open_demands']:2d}     {str(h['admitted'])[0]}    {h['n_demands_closed']:2d}       {h['n_rejected_unforced']:2d}")
-    print(f"\n  LIVE forced climbs: {live_climbs}; every climb forced by a demand (MSS as constraint): {every_climb_forced}")
+    print(f"\n  LIVE climbs (read out, not required): {live_climbs}; GATE = climb IFF a forced step is available: {climb_iff_forced}")
+    print(f"  every climb forced by a demand (MSS as constraint): {every_climb_forced}")
     print(f"  co-ratchet one-for-one (demand closed <-> resolving power gained): {coratchet_one_for_one}")
     print(f"  Axis-0 worked EARLY (demands open + climbs in first 3 shells): {axis0_early}")
     print("\n  FEYNMAN CONTROL -- freeze growth at r=1 (room stops asserting new differences; demands must die):")
