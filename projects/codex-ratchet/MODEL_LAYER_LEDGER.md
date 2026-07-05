@@ -1364,3 +1364,38 @@ fuzz-multiplicity + boundary entropy + coherent information, but the N01-order a
 of A0_raw are NOT engaged by this baseline -- either the dynamics are too tame or they belong to a different cut
 of the polarity. A real finding about what the shell picture needs, not a pass to paper over.
 Ceiling scratch_diagnostic, promotion_allowed=False. artifact 67ce4620-4f5d-4a27-8b8f-aa76f29f2b53.
+
+## THE RATCHET MECHANISM AT THE FOUNDATIONS -- Axis-0 as the entropy-gradient DRIVE (2026-07-05) [owner correction]
+OWNER CORRECTION: "why axis0 wasn't working was because it needed actually be done at the very foundations. it
+is an entropy gradient." Every prior Axis-0 attempt built it as a LATE density-level readout (after engines) and
+every one collapsed onto Axis-1 (entropy). The collapse was the CLUE: Axis-0 literally IS the entropy gradient,
+and an entropy gradient is a FOUNDATIONAL DRIVE, not a late observable. It belongs at the floor.
+BUILT foundational_ratchet_entropy_gradient_sim.py -- the ratchet mechanism itself, from the foundations:
+  ROOT CONSTRAINTS F01 (finitely many distinguishable things; finite noncommuting probe ladder) + N01 (order).
+  MINIMAL PERSISTENT EVOLVING STRUCTURE: a norm-preserving carrier (only the unit-norm carrier survives frame to
+    frame; non-norm-preserving vanishes or blows up) -- earned prior persistence_is_norm_preserving.
+  ENTROPY GRADIENT = AXIS-0 AT THE FLOOR: the possibility space GROWS (the room grows; ceiling of distinguishable
+    futures rises); the permanent GAP between the carrier's current distinguishing capacity and that rising
+    ceiling IS the entropy gradient. NOT injected -- constitutive of a growing possibility space. This gap is the
+    ratchet DRIVE.
+  CO-RATCHET (geometry == entropy, ONE thing): the carrier's structural climb (geometry = acquired distinguishing
+    capacity) and the entropy gradient (the gap) are the SAME object read two ways -- they move one-for-one
+    (MEASURED here: every forced climb has geometry-gain>0 AND gradient>0, verified True).
+  MSS: one SMALLEST step per shell (refine resolution one notch, OR admit one more probe -- whichever adds the
+    FEWEST new distinctions), never a batch shatter.
+RESULT: LIVE (room grows) -> gradient STAYS OPEN (permanent drive, final gap 3, never closes) -> carrier keeps
+  climbing (>=3 forced teeth). FEYNMAN CONTROL (freeze growth at r=1) -> gradient goes FLAT (no new drive) and the
+  climb HALTS (0 climbs after freeze). Residual constant gap after freeze is a QUANTIZATION FLOOR (a distinction
+  the finite carrier cannot resolve at any resolution), NOT a live drive -- what matters is it stops growing and
+  halts the climb. So the entropy gradient at the foundation IS the drive: grows->climbs, freeze->stops. Axis-0
+  earned AT THE FLOOR, not as a late readout. Full harness 78 pass/0 fail/0 skip GREEN.
+  Ceiling scratch_diagnostic, promotion_allowed=False. artifact 36ef6a55-5c84-4d14-aebb-68c28a773007.
+CORRECTIONS BANKED SAME DAY (auditor-driven, both on prior Axis-0 sims):
+  - axis0_shell_polarity_docfaithful: classifier rebuilt PER-COMPONENT (A0_raw is an UNFUSED LIST per doc sec 24,
+    NOT a vector -- no k-means, no distance, no linear mixing; sign/threshold on ONE component only). Under the
+    no-algebra rule scalar_entropy_only=0.812 does NOT drop from base=0.938 -> Axis-0 NOT load-bearing beyond
+    entropy at this baseline. The earlier k-means "load-bearing 0.917" verdict was partly a vector-algebra
+    artifact. Reported as an HONEST FINDING, not forced to pass.
+  - axis0_ratchet_climb: REMOVED a fake "dual-solver gate" (auditor caught it pinned every solver variable to a
+    constant, making the erased-control flip a tautology, not a theorem). No SMT theorem exists over these
+    readouts; verdict is honestly a numpy partition measurement on CPTP-constructed data, labeled as such.
