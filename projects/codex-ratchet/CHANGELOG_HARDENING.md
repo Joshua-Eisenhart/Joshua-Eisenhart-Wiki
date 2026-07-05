@@ -880,3 +880,10 @@ UP-70 RATCHET AT FOUNDATIONS  foundational_ratchet_entropy_gradient_sim.py: Axis
                FEYNMAN freeze -> gradient flat, climb halts. Also banked: polarity classifier rebuilt per-component
                (no-algebra; honest finding Axis-0 NOT load-bearing beyond entropy at baseline); removed a fake
                dual-solver tautology gate from the ratchet sim. Full harness 78 pass/0/0 GREEN. scratch.
+
+UP-71 DISTINGUISHABILITY-FOUNDED RATCHET  foundational_ratchet_entropy_gradient_sim.py rebuilt: the drive measure
+               is now QUANTUM DISTINGUISHABILITY (trace distance / Helstrom), NOT bits/log2/microstate-counting
+               (owner: "bits are classical"). Two faces: available (perfect-instrument, opening/positive) minus
+               resolved (acquired-bases, binding/negative) = Axis-0 gap. Grows->climbs (gap open, 6 teeth);
+               Feynman freeze->halts (gap flat); residual gap = real quantum limit not a counting artifact. Fixed
+               a duplicate stale polarity harness entry. Full harness 78 pass/0/0 GREEN. scratch.
