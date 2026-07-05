@@ -246,6 +246,9 @@ SUITE = [
 
  ("manifold_L4_local_weyl_factors_sim.py", 120, False, [
    ("contains", "PASS manifold_L4_local_weyl_factors_sim")]),  # SPINE L4: local Weyl factors exist iff product state (entangled keeps mixed marginals, no local pure spinor); dual ratchet (Weyl factor + marginal purity co-move product->Bell), negatives #1/#9/#10 fire, dual-solver factorization-needs-product gate
+ ("axis0_shell_polarity_docfaithful_sim.py", 180, False, [
+   ("contains", "PASS axis0_shell_polarity_docfaithful"),
+   ("contains", "AXIS0 EARNED FROM SPEC: True")]),  # DOC-FAITHFUL AXIS-0 (JOSHUA_EISENHART_AXIS0_PHYSICS_MODEL_CORE sec 24/37/38): A0_raw 7-vector not scalar; shell weighted-compositor never argmax; Phi0 projection DISCOVERED unsupervised. One neutral knob (coupling density) -> two faces self-emerge, predict held-out at 0.917; scalar_entropy_only kills to 0.615 (Axis-0 load-bearing); one_future_control kills to 0.719 (many-futures real); scrambled_Omega 0.479. HONEST REMAINDER: commuting_path_family 0.938 + no_inward_outward 0.875 did NOT flip; logZ & order_gap do not separate
  ("axis0_drive_fair_n01_test_sim.py", 120, False, [
    ("contains", "PASS axis0_drive_fair_n01_test"),
    ("contains", "rolling dice beat dead ONLY once N01 is measured: True")]),  # THE FAIR N01 DRIVE TEST: does live (order-sensitive) Axis-0 power the climb better than dead? A move-matched dead twin (brentq-tuned to identical order-INVARIANT signature) is indistinguishable from rolling under every order-invariant readout (reproduces the node fifth-test "no drive" finding) and separated ONLY by the order-sensitive N01 commutator readout (rolling 0.0399 vs dead* 0.0, dead zero = measured generator commutation not imposed). Rolling wins for real, but N01-conditionally -- no free-standing scalar advantage.
