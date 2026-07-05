@@ -1307,3 +1307,30 @@ rho-identical pair at overlap 0.0, phase surviving rho-equality); ERASED = ADD t
 identification law psi_A==psi_B -> UNSAT. The distinction dies ONLY when the quotient law is added, so the
 forcing is a genuine feasibility solve over the state geometry, non-definitional. z3+cvc5 agree. Harness 74
 GREEN. This matches the control standard the JP node's runbook engine met (Peres-Mermin contextuality flip).
+
+## THE FAIR N01 DRIVE TEST -- does live Axis-0 power the climb? (2026-07-04, answering the node's fifth-test loop-back)
+The node's honest finding (reproduced): four earlier "does Axis-0 drive the climb" tests each smuggled the
+answer into the setup; independent checkers caught all four. The FIFTH was fair -- the climb spiral (structure
+-> new readout -> next structure) is REAL, one genuine turn -- BUT rolling dice (live Axis-0) did NO better than
+dead dice, because every readout the fair test was allowed was ORDER-BLIND, and order is N01 (the thing the dice
+mint first). The fair test had not yet been allowed to measure order.
+BUILT axis0_drive_fair_n01_test_sim.py (harness-registered, full harness 75 pass/0 fail/0 skip GREEN, verified).
+Non-definitional design: PROCESS = ordered move pair. ROLLING = noncommuting pair (z-dephase, x-rotate); DEAD =
+commuting pair (two z-dephasings, order-irrelevance a MEASURED generator commutation not an imposed
+symmetrization). A move-matched dead twin is brentq-tuned to an IDENTICAL order-INVARIANT signature (blind
+purity both 0.52846). RESULT:
+  - Under EVERY order-invariant readout, rolling and dead* are INDISTINGUISHABLE (0.52846 == 0.52846) --
+    reproduces the node's "no drive" finding exactly. Rolling has NO free-standing scalar advantage.
+  - Under the ORDER-SENSITIVE (N01) commutator readout, rolling separates (0.0399) while dead* is 0.0 (measured
+    commutation, gen commutator = 0.0 not imposed). Rolling wins for real -- but ONLY once N01 is measured.
+ANSWER in plain words: the rolling dice DO power a distinction the dead dice cannot, but the drive is
+N01-CONDITIONAL -- it exists only when the climb is allowed an order-sensitive readout, and vanishes under any
+order-invariant one. This is NOT a defect in the drive idea; it is the precise scope: Axis-0's drive lives in
+N01, exactly where the model says it should.
+CONNECTS to node tier map L6 (RATCHET_STATE_BY_TIER 2026-07-02): "6.2 Unique processing = N01 EARNED
+(axis-conditioned) -- canonical coherent axis H0=(1,1,1)/sqrt3 gives 64/64 distinct / 16/16 positive stage gaps;
+H0=sz collapses 4 Fe stages to 12/16." So the drive's STRENGTH is further axis-conditioned (the coherent axis is
+load-bearing, corrections/CORRECTED_LINES_PACKET_V2 6.4). My toy uses a single axis pair -- confirms the
+STRUCTURE (rolling>dead under N01), the node's engine-scale run confirms the axis-conditioning.
+Ceiling scratch_diagnostic, promotion_allowed=False. artifact 80e31493-dd8b-42c3-83fb-c2a5f9a414ad.
+Also adopted node corrections/ (RATCHET_STATE_BY_TIER, CORRECTED_LINES_PACKET_V2, AUTHORING_THREAD_ADDENDUM).
