@@ -83,3 +83,7 @@ Worked out 2026-07-04 in a parallel session; build landed in the live repo (`~/C
 - One defect found and repaired: rejected frontier attempts had been filed in the append-only lock ledger; now locks are admitted-receipts-only with refusals in their own list.
 
 This is one measured entropy-to-geometry turn. The reverse arm (geometry re-carving what entropy can be read) remains structurally present but unearned; the two-sided update test named above is still not built.
+
+### Demotion (same day): capstone audit verdict BY-CONSTRUCTION
+
+The fresh-context capstone audit (commit `8c15c4c8a`, receipt `CAPSTONE_AUDIT_20260704.md` in the sim dir) demoted the section above. The drive facts are computed (Python reduced-state mixedness is real), but demands carried pre-labeled target rungs and the lift was selected by rung lookup, not by an independent admissibility search; jax/numpy share one core and the julia leg hardcodes drive values. Honest ceiling: a designed drive policy produces frontier 6 while designed controls stop at 4 — Axis-0 forcing rungs 5/6 is NOT proven, so no measured spiral turn stands yet. Repair build (fact-only events, blinded lift selector, three independent legs) launched as `ratchet_climb_engine_v2_blind`; a stall there would be a finding, not a failure.

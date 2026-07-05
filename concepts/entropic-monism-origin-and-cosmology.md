@@ -289,3 +289,5 @@ Status map, kept exact:
 - "It grows" = the spiral (never returns; every turn locks something). Dark energy as growth of the room stays doctrine on the kill-board, not measurement.
 - Local negentropy inside global positive entropy = the ratchet's defining trick, Feynman ratchet-and-pawl lineage: each lock is a local negentropy event (record/bound order — dark matter's role in the model), funded by the rolling's global mixing (dark energy's role).
 - Chain closure as stated: MSS-the-structure = rolling entangled dice; with memory it ratchets; the ratcheting is the geometry/entropy spiral; the spiral at cosmic scale = entropic-geometry = spacetime. Same shape at engine, math, and cosmos scales; two of the three have receipts, the cosmos keeps its kill-board.
+
+Demotion note (2026-07-04, same day): the v1_drive "both arms ran" line above was demoted by the fresh-context capstone audit to BY-CONSTRUCTION (pre-labeled rung targets in demand minting; see the geometry-entropy dual-ratchet page). The engine-scale receipt is withdrawn until the blinded v2 rebuild earns it; the fixed-point surface-identity half is unaffected.
