@@ -246,6 +246,9 @@ SUITE = [
 
  ("manifold_L4_local_weyl_factors_sim.py", 120, False, [
    ("contains", "PASS manifold_L4_local_weyl_factors_sim")]),  # SPINE L4: local Weyl factors exist iff product state (entangled keeps mixed marginals, no local pure spinor); dual ratchet (Weyl factor + marginal purity co-move product->Bell), negatives #1/#9/#10 fire, dual-solver factorization-needs-product gate
+ ("axis0_drive_fair_n01_test_sim.py", 120, False, [
+   ("contains", "PASS axis0_drive_fair_n01_test"),
+   ("contains", "rolling dice beat dead ONLY once N01 is measured: True")]),  # THE FAIR N01 DRIVE TEST: does live (order-sensitive) Axis-0 power the climb better than dead? A move-matched dead twin (brentq-tuned to identical order-INVARIANT signature) is indistinguishable from rolling under every order-invariant readout (reproduces the node fifth-test "no drive" finding) and separated ONLY by the order-sensitive N01 commutator readout (rolling 0.0399 vs dead* 0.0, dead zero = measured generator commutation not imposed). Rolling wins for real, but N01-conditionally -- no free-standing scalar advantage.
  ("ratchet_climb_engine_v0.py", 120, False, [
    ("contains", "PASS ratchet_climb_engine_v0"),
    ("contains", "SINGLE-TOOTH CLIMB L0->L1->L2->L3: True")]),  # THE RATCHET RATCHETING: climbs weakest-structure ladder one MINIMAL tooth (L0->L1_Z->L2_Pauli->L3_Spinor), each rung forced by a distinct measured lost distinction (<Z> for |0>/|1>; <X> for |+>/|-> invisible to Z; spinor lift for R(2pi) rho-identical process); batch-jump refused (stronger levels logged REJECTED_UNFORCED = MSS teeth); 4 permuted demand-orders converge to identical ladder (T5 basin); theorems T1-T4 pass
