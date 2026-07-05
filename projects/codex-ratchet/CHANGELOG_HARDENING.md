@@ -872,3 +872,11 @@ UP-69 AXIS0 FROM SPEC  axis0_shell_polarity_docfaithful_sim.py: Axis-0 built FRO
                scalar_entropy_only kills to 0.615 (load-bearing); one_future_control to 0.719 (many-futures real);
                scrambled_Omega 0.479. HONEST REMAINDER: commuting_path_family 0.938 + no_inward_outward 0.875 did
                NOT flip; logZ & order_gap do not separate at this baseline. Full harness 76 pass/0/0 GREEN. scratch.
+
+UP-70 RATCHET AT FOUNDATIONS  foundational_ratchet_entropy_gradient_sim.py: Axis-0 rebuilt as the entropy-gradient
+               DRIVE at the very foundations (owner correction: it kept failing because built as a late readout;
+               it IS an entropy gradient). F01+N01 -> norm-preserving carrier -> growing possibility space opens a
+               permanent distinguishability gap = the drive -> MSS climb. CO-RATCHET geometry==entropy one-for-one.
+               FEYNMAN freeze -> gradient flat, climb halts. Also banked: polarity classifier rebuilt per-component
+               (no-algebra; honest finding Axis-0 NOT load-bearing beyond entropy at baseline); removed a fake
+               dual-solver tautology gate from the ratchet sim. Full harness 78 pass/0/0 GREEN. scratch.
