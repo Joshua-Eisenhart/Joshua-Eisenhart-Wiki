@@ -857,3 +857,11 @@ UP-67 RATCHET RUNS  ratchet_climb_engine_v0.py: the ratchet as an ACTUAL climbin
                distinction: <Z>, <X>, spinor-lift for rho-identical R(2pi)); T1-T4 pass; T5 basin = 4 permuted
                orders converge identical. Corrects a node build that batch-jumped L0->L3 and whose fix was
                broken Python. Full harness 74 pass/0 fail/0 skip GREEN (verified). scratch_diagnostic.
+
+UP-68 FAIR N01 DRIVE  axis0_drive_fair_n01_test_sim.py: answers the node's fifth-test loop-back (does live
+               Axis-0 power the climb?). Move-matched dead twin tuned (brentq) to identical order-INVARIANT
+               signature -> indistinguishable from rolling under every order-invariant readout (reproduces the
+               "no drive" finding), separated ONLY by the order-sensitive N01 commutator readout (rolling 0.0399
+               vs dead* 0.0, dead zero = measured commutation). ANSWER: rolling wins for real but N01-CONDITIONALLY
+               -- the drive lives in N01, no free-standing scalar advantage. Connects to node tier L6 6.2 (N01
+               axis-conditioned). Adopted node corrections/. Full harness 75 pass/0 fail/0 skip GREEN. scratch.
