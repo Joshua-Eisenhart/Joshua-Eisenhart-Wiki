@@ -1421,3 +1421,30 @@ RESULT: LIVE (room grows) -> gap stays OPEN (final 2.02, six forced climbs) = pe
   Full harness 78 pass/0 fail/0 skip GREEN. scratch_diagnostic, promotion_allowed=False. Also removed a stale
   DUPLICATE harness registration of the polarity sim (old "AXIS0 EARNED FROM SPEC" check) that had caused a RED.
   artifact 36ef6a55-5c84-4d14-aebb-68c28a773007 v2.
+
+## RATCHET REBUILT TO FOLLOW ITS OWN RULES -- MSS as admissibility constraint, pawl proven (2026-07-05) [owner]
+OWNER CORRECTION: "not saying literally all begins at axis0. rather to actually follow my ratchets rules and work
+out axis0 early. not later. and do the coratchet. and understand mss as part of the constraints. jumping to bits
+and vectors, shows exactly the process not being done." So the sim was rebuilt so the PROCESS runs, not its
+vocabulary:
+  - DEMAND (what the constraint on distinguishability GENERATES): a pair the room asserts is distinguishable
+    (trace distance > theta=0.25) that the carrier's ACQUIRED bases do NOT yet resolve (best achievable < 0.6 of
+    available). a=a iff a~b speaking: a difference the room asserts that the carrier cannot yet tell apart.
+  - MSS AS CONSTRAINT (not a preference): a step is ADMISSIBLE only if it closes >=1 open demand; the admitted
+    step is the WEAKEST admissible one (closes FEWEST demands = presumes least). If no demand is open, NO
+    acquisition is admissible -- the PAWL holds, PROVEN by showing every candidate basis is rejected-unforced
+    (closes no demand), not asserted.
+  - CO-RATCHET one-for-one: each admitted shell, demands-closed (entropy side) <-> resolving-power-gained
+    (geometry side) -- same event two readings, measured.
+  - NO BITS, NO VECTORS: every quantity is quantum distinguishability (trace distance / Helstrom). No log2, no
+    counting, no vector algebra.
+RESULT (dim-2 carrier): every climb forced by a demand=True; pawl holds=True; co-ratchet one-for-one=True; Axis-0
+  worked early=True; Feynman freeze kills demands, climb halts=True. FOLLOWS_RATCHET_RULES=True. Full harness 78
+  pass/0/0 GREEN. THE GATE TESTS THE RULES, NOT A CLIMB COUNT (requiring N teeth would be imposing an outcome --
+  the anti-pattern of presuming instead of earning).
+  HONEST REMAINDER (measured, not gated): the dim-2 carrier SATURATES -- after 2 forced teeth the gap keeps
+  widening under growth but NO new demand opens, because 3 noncommuting qubit bases already resolve every new pair
+  the room makes. THE GAP WIDENING IS NOT A DEMAND. This is precisely the F01 3-qubit-floor point: demands run out
+  because the carrier is too small to stay confused, not because the ratchet stops. Points directly at the next
+  rung -- run the same rules on a >=3-qubit carrier where distinguishability outstrips a few bases.
+  scratch_diagnostic, promotion_allowed=False. artifact 36ef6a55-5c84-4d14-aebb-68c28a773007 v3.
