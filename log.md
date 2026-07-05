@@ -1,3 +1,11 @@
+## 2026-07-05 - Cron tick Queue A classical doc illumination digest
+
+- Scope: one bounded repo-to-wiki/project-tracker digest after preflight `wiki_probe.py` was clean; no repo edit, no sim/test/validator rerun, no external model swarm, and no proof/status promotion.
+- Changed files: [[classical-doc-illumination-index]], [[index]], [[index-full]], [[topic-map]], [[current-research-overlays]], [[hermes-current/wiki-ingest-queue-and-priorities]], and [[log]].
+- Patch: created [[classical-doc-illumination-index]] from repo-current `system_v5/docs/CLASSICAL_DOC_ILLUMINATION_INDEX.md`, routed it through the slim/full indexes plus the graph/proof/tool and build-plan routers, and marked Queue A's classical-doc illumination gap as landed.
+- Claim ceiling: repo-current source digest and classical-baseline/doc-coverage router only. This tick checked source presence, hashes, and table counts (`101` listed classical sims, `1` direct doc illuminator, `60` paired nonclassical leads), but did not rerun repository sims, validators, result artifacts, or status ledgers.
+- Verification: final post-log probe for this tick is `/tmp/wiki_probe_cron_post.json`; preflight `/tmp/wiki_probe_cron_pre.json` was clean (`page_count=486`, `index_header_count=486`, `indexed_link_count=625`, all structural buckets empty before this new page).
+
 ## 2026-07-05 - Cron tick Queue A sim process gap digest
 
 - Scope: one bounded repo-to-wiki/project-tracker digest after preflight `wiki_probe.py` was clean; no repo edit, no sim/test/validator rerun, no external model swarm, and no proof/status promotion.

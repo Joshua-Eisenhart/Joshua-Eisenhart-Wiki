@@ -1,6 +1,6 @@
 # Codex Ratchet Wiki — Index
 
-Total published pages: 486. Governance/read-first surfaces are listed separately. Restructured 2026-04-17 (stabilization pass).
+Total published pages: 487. Governance/read-first surfaces are listed separately. Restructured 2026-04-17 (stabilization pass).
 
 ## Hermes / LLM Alignment Front Door
 - [[hermes-current/read-first]] — Hermes front door; load this before substantive work
@@ -167,7 +167,7 @@ Total published pages: 486. Governance/read-first surfaces are listed separately
 
 ## Concepts — by framing
 
-### Current (206)
+### Current (207)
 - [[iff-chain-identity-duality-2026-07-03]] — Owner iff-chain doctrine capture; promotion_allowed=false.
 - [[igt-discovery-and-two-engines-2026-07-04]] — IGT discovery provenance, two-engine chart, GT-inversion program; promotion_allowed=false.
 - [[science-as-correlations-proved-in-technology-2026-07-04]] — correlations/technology epistemology plus graded kill-board; promotion_allowed=false.
@@ -228,6 +228,7 @@ Total published pages: 486. Governance/read-first surfaces are listed separately
 - [[manifold-wizard-operation-router]] — router for manifold-rooted Wizard operation loops and MMM-loaded provider lanes
 - [[sim-estate-integration-index-router]] — router for the geometric constraint manifold sim estate and axis overlays
 - [[sim-process-gap-log]] — repo-current derived process-gap digest for promotion pressure, conformance debt, tool-lane gaps, and higher-stage inflation fences
+- [[classical-doc-illumination-index]] — repo-current derived classical-baseline/doc-coverage router; 101 source-listed baseline rows and 60 paired nonclassical leads under no-rerun/no-promotion ceiling
 - [[nested-qubit-ladder-entropy-surface-sim-contract]] — consolidated operating rule for nested/qubit-ladder/entropy/surface sims: climb each layer/nesting/full integration rung-by-rung, sweep layer-specific entropy families, and preserve ring-checkerboard/CA-QCA runners as candidate finite surfaces under claim ceiling
 - [[deflation-map-2026-06-04]] — current Codex Ratchet deflation split, carrier correction, and verdict-audit spine
 - [[claude-code-sim-inventory-2026-06-04]] — read-only inventory of Claude Code's work-out-layers.js pipeline sims (60+ carrier, 157+ layers, 7 Hopfield)

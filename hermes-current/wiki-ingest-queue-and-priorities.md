@@ -41,7 +41,7 @@ Current truth:
 | `system_v5/docs/TOOL_LEGO_INTEGRATION_MATRIX.md` | [[tool-lego-integration-matrix]] exists | landed; use as matrix/router support |
 | `system_v5/docs/plans/plans/sim_process_gap_log.md` | [[sim-process-gap-log]] exists | landed 2026-07-05 as repo-current process-gap digest; prior-audit/source snapshot only, no rerun/promotion |
 | `system_v5/docs/V5_CONTENT_GAP_ANALYSIS.md` | [[v5-content-gap-analysis]] exists | landed; use as gap-planning surface |
-| `system_v5/docs/CLASSICAL_DOC_ILLUMINATION_INDEX.md` | no public wiki landing found in this tick | open Queue A gap; candidate support-router tranche after `sim_process_gap_log` |
+| `system_v5/docs/CLASSICAL_DOC_ILLUMINATION_INDEX.md` | [[classical-doc-illumination-index]] exists | landed 2026-07-05 as repo-current classical-baseline/doc-coverage router; source snapshot only, no rerun/promotion |
 
 ## Queue B — ingest soon: result / sim artifact families
 

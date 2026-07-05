@@ -151,6 +151,7 @@ Do not route this lane as QIT-engine proof or final Axis0/trigram closure. It is
 - [[pytorch-ratchet-build-plan]]
 - [[enforcement-and-process-rules]]
 - [[sim-process-gap-log]] — process-gap router for promotion pressure, conformance debt, tool-lane sparsity, and higher-stage inflation fences.
+- [[classical-doc-illumination-index]] — classical-baseline/doc-coverage router; baseline breadth and paired rows stay control/comparison leads until rerun-backed.
 - [[llm-controller-contract]]
 - [[executable-root-axiom-micro-sims]]
 - [[sim-tranche-2026-04-14-axioms-tools-gerbes-motives]]

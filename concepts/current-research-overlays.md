@@ -140,6 +140,7 @@ Read this route with the current fence: `future possibilities on shells`, `prese
 Use these pages when the question is which graph, proof, symbolic, or geometry-side tool is supposed to do what in the active working stack:
 - [[tooling-status]]
 - [[sim-process-gap-log]] — repo-current derived process-gap digest; use for promotion/conformance/tool-lane gaps without treating prior-audit numbers as fresh reruns.
+- [[classical-doc-illumination-index]] — repo-current derived classical-baseline/doc-coverage router; use paired rows as comparison leads, not nonclassical admissions.
 - [[executable-root-axiom-micro-sims]]
 - [[sim-tranche-2026-04-14-axioms-tools-gerbes-motives]]
 - [[nonclassical-system-tool-plan]]

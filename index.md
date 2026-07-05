@@ -40,6 +40,7 @@ Use this as the low-friction entry point. The old full listing lives at [index-f
 - [[operator-math-explicit]] — Explicit operator math routing.
 - [[terrain-laws-and-loop-geometry]] — Terrain and loop-geometry doctrine.
 - [[sim-process-gap-log]] — Repo-current derived process-gap digest; promotion pressure and tooling/conformance gaps without proof promotion.
+- [[classical-doc-illumination-index]] — Repo-current derived classical-baseline/doc-coverage router; paired nonclassical rows are leads, not admissions.
 - [[iff-chain-identity-duality-2026-07-03]] — Owner iff-chain doctrine capture; promotion_allowed=false.
 - [[igt-discovery-and-two-engines-2026-07-04]] — IGT discovery provenance, two-engine chart, GT-inversion program; promotion_allowed=false.
 - [[science-as-correlations-proved-in-technology-2026-07-04]] — correlations/technology epistemology + graded kill-board; promotion_allowed=false.
