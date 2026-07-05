@@ -895,3 +895,9 @@ UP-72 RATCHET FOLLOWS ITS OWN RULES  foundational_ratchet_entropy_gradient_sim.p
                PAWL proven (every non-climb = candidates rejected-unforced). Co-ratchet one-for-one. Gate tests the
                RULES not a climb count. Honest remainder: dim-2 carrier saturates after 2 teeth (gap widens but no
                new demand) -> the F01 3-qubit-floor. Full harness 78 pass/0/0 GREEN. scratch.
+
+UP-72b GATE CORRECTION (auditor)  foundational_ratchet: removed the hand-picked live_climbs>=N threshold entirely
+               (first tightened 3, then loosened 1 -- both were picked counts). Verdict is now CONSERVATION only:
+               climb IFF a forced admissible step is available (derived by replaying the demand structure), plus
+               the structural rules; non-vacuity guaranteed by axis0_early (False if no demand ever opens), not by
+               any count. live_climbs is read out (2), never required. Full harness 78 pass/0/0 GREEN.
