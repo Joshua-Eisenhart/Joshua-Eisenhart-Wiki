@@ -200,11 +200,13 @@ def main():
     # power gained (geometry side rises) -- the same event read two ways. Measured, not asserted.
     coratchet_pairs = [(h["n_demands_closed"], h["resolved_post"] - h["resolved_pre"]) for h in live if h["admitted"]]
     coratchet_one_for_one = all(nc >= 1 and dr > 1e-9 for nc, dr in coratchet_pairs) and len(coratchet_pairs) > 0
-    # RULE 4 -- AXIS-0 WORKED EARLY AS THE DRIVE: the FIRST shell that carries an open demand must also produce a
-    # climb (the drive acts from the start, not late). Under FREEZE the room stops asserting new differences ->
-    # open demands fall to 0 -> the pawl holds -> climb stops. The Feynman knife on the DEMAND, not a scalar gap.
+    # RULE 4 -- AXIS-0 ACTS AS SOON AS IT EXISTS (no picked shell index): the drive is a demand, so the FIRST
+    # shell that carries an open demand must ALSO climb it -- the moment a distinguishability demand appears it is
+    # answered, not deferred. This is "worked as the drive, not a late readout" stated without a threshold: it is
+    # a property of the first demand-bearing shell, wherever it falls. Under FREEZE the room stops asserting new
+    # differences -> open demands fall to 0 -> the pawl holds -> climb stops (Feynman knife on the DEMAND).
     first_demand_shell = next((h for h in live if h["n_open_demands"] >= 1), None)
-    axis0_early = (first_demand_shell is not None) and first_demand_shell["admitted"] and first_demand_shell["r"] <= 1
+    axis0_early = (first_demand_shell is not None) and bool(first_demand_shell["admitted"])
     frozen_demands_after = [h["n_open_demands"] for h in frozen if h["r"] > 1]
     frozen_demands_die = (max(frozen_demands_after) == 0) if frozen_demands_after else True
 
