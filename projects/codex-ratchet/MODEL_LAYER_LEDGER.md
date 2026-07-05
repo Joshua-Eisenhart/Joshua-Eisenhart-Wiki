@@ -1399,3 +1399,25 @@ CORRECTIONS BANKED SAME DAY (auditor-driven, both on prior Axis-0 sims):
   - axis0_ratchet_climb: REMOVED a fake "dual-solver gate" (auditor caught it pinned every solver variable to a
     constant, making the erased-control flip a tautology, not a theorem). No SMT theorem exists over these
     readouts; verdict is honestly a numpy partition measurement on CPTP-constructed data, labeled as such.
+
+## FOUNDATIONAL RATCHET REBUILT ON PURE DISTINGUISHABILITY -- no bits, no counting (2026-07-05) [owner correction]
+OWNER CORRECTION (from lost 2026-07-04 thread, re-surfaced): "bits are classical" / "bits presume too much" /
+the beginning is a positive-vs-negative entropy GRADIENT. The first foundational_ratchet build measured the drive
+with von-Neumann entropy in BITS (log2) and by COUNTING partition classes (Boltzmann microstate counting) -- both
+are exactly the classical measure the owner rejects. REBUILT the load-bearing measure as QUANTUM DISTINGUISHABILITY:
+  - available_distinguishability = sum over pairs of TRACE DISTANCE (Helstrom optimum) -- the POSITIVE-entropy face
+    (what a perfect instrument could resolve; the opening the growing room offers). No log2, no counting.
+  - resolved_distinguishability = sum over pairs of the BEST achievable basis-distinguishability among the carrier's
+    ACQUIRED measurement bases -- the NEGATIVE-entropy face (what the carrier can actually access; binding). <=
+    available always (Helstrom).
+  - AXIS-0 = the GAP available - resolved. Continuous, in distinguishability units, never bits.
+  - MSS = admit the WEAKEST probe that recovers SOME resolved distinguishability (least sufficient tooth), scored
+    by trace-distance recovered.
+RESULT: LIVE (room grows) -> gap stays OPEN (final 2.02, six forced climbs) = permanent drive. FEYNMAN freeze ->
+  available stops rising, carrier closes what it can, climb HALTS (gap flat 0.079). The residual 0.079 is now
+  honestly interpretable: distinguishability that exists but NO acquired basis in the finite probe ladder can reach
+  (a real quantum limit), not a classical quantization artifact. CO-RATCHET holds (available tracks resolved).
+  This also delivers the owner's positive/negative-entropy split (USER 23 of the lost thread) as the two faces.
+  Full harness 78 pass/0 fail/0 skip GREEN. scratch_diagnostic, promotion_allowed=False. Also removed a stale
+  DUPLICATE harness registration of the polarity sim (old "AXIS0 EARNED FROM SPEC" check) that had caused a RED.
+  artifact 36ef6a55-5c84-4d14-aebb-68c28a773007 v2.
