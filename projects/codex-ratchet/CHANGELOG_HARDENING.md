@@ -865,3 +865,45 @@ UP-68 FAIR N01 DRIVE  axis0_drive_fair_n01_test_sim.py: answers the node's fifth
                vs dead* 0.0, dead zero = measured commutation). ANSWER: rolling wins for real but N01-CONDITIONALLY
                -- the drive lives in N01, no free-standing scalar advantage. Connects to node tier L6 6.2 (N01
                axis-conditioned). Adopted node corrections/. Full harness 75 pass/0 fail/0 skip GREEN. scratch.
+
+UP-69 AXIS0 FROM SPEC  axis0_shell_polarity_docfaithful_sim.py: Axis-0 built FROM the owner's doc (AXIS0_PHYSICS
+               _MODEL_CORE sec 24/37/38) not at it. A0_raw as a 7-vector; shell weighted-compositor never argmax;
+               Phi0 projection DISCOVERED. One neutral knob -> two faces self-emerge, predict held-out at 0.917;
+               scalar_entropy_only kills to 0.615 (load-bearing); one_future_control to 0.719 (many-futures real);
+               scrambled_Omega 0.479. HONEST REMAINDER: commuting_path_family 0.938 + no_inward_outward 0.875 did
+               NOT flip; logZ & order_gap do not separate at this baseline. Full harness 76 pass/0/0 GREEN. scratch.
+
+UP-70 RATCHET AT FOUNDATIONS  foundational_ratchet_entropy_gradient_sim.py: Axis-0 rebuilt as the entropy-gradient
+               DRIVE at the very foundations (owner correction: it kept failing because built as a late readout;
+               it IS an entropy gradient). F01+N01 -> norm-preserving carrier -> growing possibility space opens a
+               permanent distinguishability gap = the drive -> MSS climb. CO-RATCHET geometry==entropy one-for-one.
+               FEYNMAN freeze -> gradient flat, climb halts. Also banked: polarity classifier rebuilt per-component
+               (no-algebra; honest finding Axis-0 NOT load-bearing beyond entropy at baseline); removed a fake
+               dual-solver tautology gate from the ratchet sim. Full harness 78 pass/0/0 GREEN. scratch.
+
+UP-71 DISTINGUISHABILITY-FOUNDED RATCHET  foundational_ratchet_entropy_gradient_sim.py rebuilt: the drive measure
+               is now QUANTUM DISTINGUISHABILITY (trace distance / Helstrom), NOT bits/log2/microstate-counting
+               (owner: "bits are classical"). Two faces: available (perfect-instrument, opening/positive) minus
+               resolved (acquired-bases, binding/negative) = Axis-0 gap. Grows->climbs (gap open, 6 teeth);
+               Feynman freeze->halts (gap flat); residual gap = real quantum limit not a counting artifact. Fixed
+               a duplicate stale polarity harness entry. Full harness 78 pass/0/0 GREEN. scratch.
+
+UP-72 RATCHET FOLLOWS ITS OWN RULES  foundational_ratchet_entropy_gradient_sim.py rebuilt so the PROCESS runs, not
+               its vocabulary (owner: "actually follow my ratchets rules... understand mss as part of the
+               constraints. jumping to bits and vectors shows the process not being done"). DEMAND = distinguishable-
+               but-unresolved pair (trace distance). MSS = admissibility CONSTRAINT (admit only forced structure);
+               PAWL proven (every non-climb = candidates rejected-unforced). Co-ratchet one-for-one. Gate tests the
+               RULES not a climb count. Honest remainder: dim-2 carrier saturates after 2 teeth (gap widens but no
+               new demand) -> the F01 3-qubit-floor. Full harness 78 pass/0/0 GREEN. scratch.
+
+UP-72b GATE CORRECTION (auditor)  foundational_ratchet: removed the hand-picked live_climbs>=N threshold entirely
+               (first tightened 3, then loosened 1 -- both were picked counts). Verdict is now CONSERVATION only:
+               climb IFF a forced admissible step is available (derived by replaying the demand structure), plus
+               the structural rules; non-vacuity guaranteed by axis0_early (False if no demand ever opens), not by
+               any count. live_climbs is read out (2), never required. Full harness 78 pass/0/0 GREEN.
+
+UP-72c GATE CORRECTION 2 (auditor)  foundational_ratchet: removed the last picked threshold -- axis0_early no
+               longer requires the first demand at shell r<=1. "Axis-0 acts as soon as it exists" is now stated
+               without an index: the FIRST demand-bearing shell (wherever it falls) must climb it. Every remaining
+               comparison in the gate is structural (>=1 some / ==0 none / >1e-9 nonzero), none a picked pass-count.
+               THETA/RESOLVE_FRAC define what a DEMAND is (physics), not the verdict. Full harness 78 pass/0/0 GREEN.
