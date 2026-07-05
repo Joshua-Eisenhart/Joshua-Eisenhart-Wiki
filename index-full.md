@@ -1,6 +1,6 @@
 # Codex Ratchet Wiki — Index
 
-Total published pages: 485. Governance/read-first surfaces are listed separately. Restructured 2026-04-17 (stabilization pass).
+Total published pages: 486. Governance/read-first surfaces are listed separately. Restructured 2026-04-17 (stabilization pass).
 
 ## Hermes / LLM Alignment Front Door
 - [[hermes-current/read-first]] — Hermes front door; load this before substantive work
@@ -227,6 +227,7 @@ Total published pages: 485. Governance/read-first surfaces are listed separately
 - [[formal-scout-readiness-index-router]] — router for formal-scout readiness, validator gaps, and promotion blockers
 - [[manifold-wizard-operation-router]] — router for manifold-rooted Wizard operation loops and MMM-loaded provider lanes
 - [[sim-estate-integration-index-router]] — router for the geometric constraint manifold sim estate and axis overlays
+- [[sim-process-gap-log]] — repo-current derived process-gap digest for promotion pressure, conformance debt, tool-lane gaps, and higher-stage inflation fences
 - [[nested-qubit-ladder-entropy-surface-sim-contract]] — consolidated operating rule for nested/qubit-ladder/entropy/surface sims: climb each layer/nesting/full integration rung-by-rung, sweep layer-specific entropy families, and preserve ring-checkerboard/CA-QCA runners as candidate finite surfaces under claim ceiling
 - [[deflation-map-2026-06-04]] — current Codex Ratchet deflation split, carrier correction, and verdict-audit spine
 - [[claude-code-sim-inventory-2026-06-04]] — read-only inventory of Claude Code's work-out-layers.js pipeline sims (60+ carrier, 157+ layers, 7 Hopfield)
@@ -405,6 +406,7 @@ Total published pages: 485. Governance/read-first surfaces are listed separately
 - [[sim-build-spine-and-wiki-maintenance]]
 - [[sim-corrections-and-classifications]]
 - [[sim-session-index]]
+- [[sim-process-gap-log]]
 - [[sim-tranche-2026-04-14-axioms-tools-gerbes-motives]]
 - [[sympy-symbolic-math-reference]]
 - [[tensor-network-axis0]]

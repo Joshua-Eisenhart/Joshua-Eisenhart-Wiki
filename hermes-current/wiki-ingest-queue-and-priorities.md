@@ -39,7 +39,7 @@ Current truth:
 | `system_v5/docs/LEGACY_CONTEXT_AND_GENEALOGY.md` | [[legacy-context-and-genealogy]] exists | landed; preserves genealogy without present-tense promotion |
 | `system_v5/docs/plans/plans/TOOL_CAPABILITY_AND_INTEGRATION_LEDGER.md` | [[tool-capability-and-integration-ledger]] exists | landed; use for capability-gap/tool-routing questions |
 | `system_v5/docs/TOOL_LEGO_INTEGRATION_MATRIX.md` | [[tool-lego-integration-matrix]] exists | landed; use as matrix/router support |
-| `system_v5/docs/plans/plans/sim_process_gap_log.md` | no public wiki landing found in this tick | open Queue A gap; next bounded candidate after routing work |
+| `system_v5/docs/plans/plans/sim_process_gap_log.md` | [[sim-process-gap-log]] exists | landed 2026-07-05 as repo-current process-gap digest; prior-audit/source snapshot only, no rerun/promotion |
 | `system_v5/docs/V5_CONTENT_GAP_ANALYSIS.md` | [[v5-content-gap-analysis]] exists | landed; use as gap-planning surface |
 | `system_v5/docs/CLASSICAL_DOC_ILLUMINATION_INDEX.md` | no public wiki landing found in this tick | open Queue A gap; candidate support-router tranche after `sim_process_gap_log` |
 

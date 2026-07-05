@@ -1,3 +1,11 @@
+## 2026-07-05 - Cron tick Queue A sim process gap digest
+
+- Scope: one bounded repo-to-wiki/project-tracker digest after preflight `wiki_probe.py` was clean; no repo edit, no sim/test/validator rerun, no external model swarm, and no proof/status promotion.
+- Changed files: [[sim-process-gap-log]], [[index]], [[index-full]], [[topic-map]], [[current-research-overlays]], [[hermes-current/wiki-ingest-queue-and-priorities]], and [[log]].
+- Patch: created [[sim-process-gap-log]] from repo-current `system_v5/docs/plans/plans/sim_process_gap_log.md`, routed it through the slim and full indexes plus the graph/proof/tool stack routers, and marked Queue A's `sim_process_gap_log.md` gap as landed.
+- Claim ceiling: repo-current source digest and process-gap router only. Prior-audit numbers in the source remain source-reported snapshots; this tick only read source docs and checked file hashes, and did not rerun repository validators, result artifacts, or status ledgers.
+- Verification: final post-log probe for this tick is `/tmp/wiki_probe_cron_post.json`; mid-run probe `/tmp/wiki_probe_cron_mid.json` was clean (`page_count=486`, `index_header_count=486`, `indexed_link_count=625`, all structural buckets empty), and `git diff --check` passed.
+
 ## 2026-07-04 - Cron tick index-full/current-page structural repair
 
 - Scope: one bounded structural/routing repair after preflight `wiki_probe.py` reported `page_count=485`, stale `index_header_count=474`, and three broken links from newly salvaged/current pages. No repo edit, no sim/test rerun, no external model swarm, no new public page, and no proof/status promotion.

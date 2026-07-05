@@ -150,6 +150,7 @@ Do not route this lane as QIT-engine proof or final Axis0/trigram closure. It is
 ## Build plan and enforcement
 - [[pytorch-ratchet-build-plan]]
 - [[enforcement-and-process-rules]]
+- [[sim-process-gap-log]] — process-gap router for promotion pressure, conformance debt, tool-lane sparsity, and higher-stage inflation fences.
 - [[llm-controller-contract]]
 - [[executable-root-axiom-micro-sims]]
 - [[sim-tranche-2026-04-14-axioms-tools-gerbes-motives]]
