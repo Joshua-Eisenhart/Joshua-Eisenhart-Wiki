@@ -901,3 +901,9 @@ UP-72b GATE CORRECTION (auditor)  foundational_ratchet: removed the hand-picked 
                climb IFF a forced admissible step is available (derived by replaying the demand structure), plus
                the structural rules; non-vacuity guaranteed by axis0_early (False if no demand ever opens), not by
                any count. live_climbs is read out (2), never required. Full harness 78 pass/0/0 GREEN.
+
+UP-72c GATE CORRECTION 2 (auditor)  foundational_ratchet: removed the last picked threshold -- axis0_early no
+               longer requires the first demand at shell r<=1. "Axis-0 acts as soon as it exists" is now stated
+               without an index: the FIRST demand-bearing shell (wherever it falls) must climb it. Every remaining
+               comparison in the gate is structural (>=1 some / ==0 none / >1e-9 nonzero), none a picked pass-count.
+               THETA/RESOLVE_FRAC define what a DEMAND is (physics), not the verdict. Full harness 78 pass/0/0 GREEN.
