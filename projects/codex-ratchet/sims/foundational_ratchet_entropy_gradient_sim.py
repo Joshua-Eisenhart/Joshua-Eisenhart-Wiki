@@ -18,11 +18,14 @@ THE FOUNDATIONS, PRESUMING THE LEAST (order aligned with the constraints, not pr
                     F01+N01 is a NORM-PRESERVING carrier (a unit state in a finite complex space -- a spinor).
                     A non-norm-preserving thing either vanishes or blows up across frames; only the unit-norm
                     carrier persists. (earned prior: persistence_is_norm_preserving.)
-  THE ENTROPY GRADIENT = AXIS-0, AT THE FLOOR: the possibility space GROWS -- each step admits more
-                    distinguishable refinements (the room grows; the ceiling of distinguishable possibilities
-                    rises). The permanent GAP between what the carrier currently distinguishes and that rising
-                    ceiling IS the entropy gradient. It is NOT injected; it is constitutive of a growing
-                    possibility space. This gap is the ratchet DRIVE.
+  THE ENTROPY GRADIENT = AXIS-0, AT THE FLOOR, AS A DISTINGUISHABILITY (owner: "bits are classical"; "bits
+                    presume too much"). The measure is QUANTUM DISTINGUISHABILITY -- trace distance / Helstrom --
+                    NEVER bits, log2, or counting of microstates (entropy is the LATER measure the doc names, not
+                    the substance). Two faces, per the owner's positive/negative-entropy split: AVAILABLE
+                    distinguishability the growing possibility space offers (positive-entropy face, opening) vs
+                    RESOLVED distinguishability the carrier's acquired measurement bases can access (negative-
+                    entropy face, binding). AXIS-0 = the GAP available - resolved. It is not injected; it is
+                    constitutive of a growing possibility space. This gap is the ratchet DRIVE.
   CO-RATCHET (geometry == entropy, ONE thing): the carrier's structural climb (geometry: how much distinguishing
                     capacity it has acquired) and the entropy gradient (the distinguishability gap) are the SAME
                     object read two ways -- they must move one-for-one. Measured here, not asserted.
@@ -42,89 +45,97 @@ SX = np.array([[0, 1], [1, 0]], dtype=complex)
 SZ = np.array([[1, 0], [0, -1]], dtype=complex)
 SY = np.array([[0, -1j], [1j, 0]], dtype=complex)
 
-def vn_entropy(rho):
-    w = np.linalg.eigvalsh((rho + rho.conj().T) / 2); w = w[w > 1e-12]
-    return float(-(w * np.log2(w)).sum())
+# ---- THE MEASURE IS DISTINGUISHABILITY, NOT BITS OR COUNTING (owner: "bits are classical"; "bits presume too
+# much"). The primitive is constraint on distinguishability (a=a iff a~b). So every quantity below is built from
+# QUANTUM DISTINGUISHABILITY -- the trace distance / Helstrom bound -- with NO log2, NO Shannon/von-Neumann bits,
+# and NO counting of microstates. Entropy here is the LATER measure the doc names, never the substance.
 
-# ---- minimal persistent evolving structure: a norm-preserving carrier that can GROW its distinguishing basis
-# The carrier lives on a finite set of "probe directions" (readouts). Its distinguishing CAPACITY at climb-level
-# k is the number of probe directions it can resolve. F01: finite. N01: probes noncommute (order matters).
+def trace_distance(ra, rb):
+    """Quantum distinguishability of two carrier states = 1/2 ||ra - rb||_1 (Helstrom). This is the OPTIMAL
+    single-shot distinguishability over ALL measurements; basis-independent; in [0,1]; purely nonclassical
+    (no bits, no counting). This is the 'available' distinguishability the possibility space offers on a pair."""
+    ev = np.linalg.eigvalsh((ra - rb + (ra - rb).conj().T) / 2)
+    return 0.5 * float(np.abs(ev).sum())
+
+def basis_distinguishability(ra, rb, probe):
+    """Distinguishability ACHIEVABLE by measuring in the probe's eigenbasis = total variation of the two outcome
+    distributions = 1/2 sum_k |<k|(ra-rb)|k>|. By Helstrom this is <= trace_distance, with equality iff the
+    probe's basis IS the eigenbasis of (ra-rb). The GAP is distinguishability that exists but this instrument
+    cannot access. Still no bits, no counting -- an achievable-distinguishability number in [0,1]."""
+    w, V = np.linalg.eigh((probe + probe.conj().T) / 2)
+    d = V.conj().T @ (ra - rb) @ V
+    return 0.5 * float(np.abs(np.real(np.diag(d))).sum())
+
+# minimal persistent evolving structure: a norm-preserving carrier whose GEOMETRY is a growing set of acquired
+# measurement bases (probes). F01: finitely many probes. N01: the probes noncommute (order/basis matters).
 PROBES = [SZ, SX, SY,
           (SX + SZ) / np.sqrt(2), (SX - SZ) / np.sqrt(2),
-          (SY + SZ) / np.sqrt(2), (SY + SX) / np.sqrt(2)]  # a finite ladder of noncommuting probes (F01+N01)
+          (SY + SZ) / np.sqrt(2), (SY + SX) / np.sqrt(2)]
 
 def possibility_set(r, frozen_at=None, n0=2):
-    """Omega_r: admissible distinguishable futures on the shell at radius r. GROWS with r (the room grows) unless
-    frozen. Each future is a distinct carrier state the fuzz admits; the CEILING of distinguishable possibilities
-    is |Omega_r|. Frozen: size pinned at frozen_at (no growth -> no gradient)."""
+    """Omega_r: admissible futures on the shell at radius r. GROWS with r (the room grows) unless frozen. Each
+    future is a carrier state the fuzz admits. Growth adds new states -> new pairwise distinguishability becomes
+    AVAILABLE. Frozen: state count pinned (no new distinguishability -> gradient can close)."""
     n = n0 + r if frozen_at is None else n0 + min(r, frozen_at)
     rng = np.random.default_rng(1000 + n)  # deterministic in the CURRENT size -> frozen truly stops growth
-    states = []
-    for _ in range(n):
-        v = rng.normal(size=2) + 1j * rng.normal(size=2); v = v / np.linalg.norm(v)
-        states.append(np.outer(v, v.conj()))
-    return states
+    return [np.outer(v / np.linalg.norm(v), (v / np.linalg.norm(v)).conj())
+            for v in (rng.normal(size=2) + 1j * rng.normal(size=2) for _ in range(n))]
 
-def distinguishing_capacity(states, level, resolution):
-    """How many admissible futures the carrier tells apart with the first `level` probes AT a finite acquired
-    RESOLUTION. Resolution is the carrier's acquired distinguishing GEOMETRY: coarse resolution merges nearby
-    probe values (few classes), fine resolution splits them (more classes). Climbing = refining resolution
-    and/or admitting a probe, the SMALLEST step at a time (MSS) -- so capacity rises incrementally, never
-    shattering the whole set in one jump. Decidable, finite."""
-    bin_w = 2.0 / max(resolution, 1)          # coarse when resolution small; fine when large
-    q = lambda x: int(np.floor(x / bin_w))
-    classes = {}
-    for i, rho in enumerate(states):
-        key = tuple(q(np.real(np.trace(P @ rho))) for P in PROBES[:level])
-        classes.setdefault(key, []).append(i)
-    return len(classes)
+def available_distinguishability(states):
+    """ENTROPY SIDE (available): total quantum distinguishability the possibility set offers = sum over pairs of
+    trace distance. This is what a PERFECT instrument could resolve. Rises as the room grows (more pairs)."""
+    return sum(trace_distance(states[i], states[j])
+               for i in range(len(states)) for j in range(i + 1, len(states)))
 
-def ceiling(states):
-    """The rising ceiling: total distinguishable futures the fuzz admits at FULL probe count and FULL resolution
-    -- the distinguishability the growing possibility space makes available (the entropy side of the co-ratchet).
-    Capped by |states| (cannot distinguish more futures than exist)."""
-    return min(distinguishing_capacity(states, len(PROBES), resolution=64), len(states))
+def resolved_distinguishability(states, acquired):
+    """GEOMETRY SIDE (resolved): distinguishability the carrier's ACQUIRED measurement bases can actually access
+    = sum over pairs of the BEST achievable basis-distinguishability among acquired probes. <= available always
+    (Helstrom). Rises as the carrier acquires probes whose bases align with real (ra-rb) directions."""
+    if not acquired:
+        return 0.0
+    tot = 0.0
+    for i in range(len(states)):
+        for j in range(i + 1, len(states)):
+            tot += max(basis_distinguishability(states[i], states[j], PROBES[p]) for p in acquired)
+    return tot
 
-def mss_step(states, level, resolution):
-    """The SMALLEST move that resolves >=1 more distinction. Candidate weakest steps, in order of increasing
-    added structure: (a) refine resolution by one notch at the current probe level; (b) admit one more probe at
-    the current resolution. Take the first candidate that strictly raises capacity (a forced tooth), preferring
-    the one that adds the FEWEST new distinctions (the weakest sufficient step -- MSS)."""
-    D0 = distinguishing_capacity(states, level, resolution)
-    cands = []
-    # (a) refine resolution one notch
-    if distinguishing_capacity(states, level, resolution + 1) > D0:
-        cands.append(("resolution", level, resolution + 1,
-                      distinguishing_capacity(states, level, resolution + 1) - D0))
-    # (b) admit one more probe
-    if level < len(PROBES) and distinguishing_capacity(states, level + 1, resolution) > D0:
-        cands.append(("probe", level + 1, resolution,
-                      distinguishing_capacity(states, level + 1, resolution) - D0))
-    if not cands:
-        return level, resolution, False, None
-    cands.sort(key=lambda c: c[3])              # fewest new distinctions first = weakest step
-    kind, nl, nr, _ = cands[0]
-    return nl, nr, True, kind
+def mss_step(states, acquired):
+    """The SMALLEST move that closes >0 of the distinguishability gap: admit ONE more probe -- the WEAKEST one,
+    i.e. the probe that recovers the LEAST additional resolved distinguishability while still recovering some.
+    (MSS: not the greedy best probe, the least sufficient one -- the smallest tooth that still turns the wheel.)
+    No counting, no bits: the selection score is achievable trace-distance recovered, a distinguishability."""
+    D0 = resolved_distinguishability(states, acquired)
+    gains = []
+    for p in range(len(PROBES)):
+        if p in acquired:
+            continue
+        g = resolved_distinguishability(states, acquired | {p}) - D0
+        if g > 1e-9:
+            gains.append((g, p))
+    if not gains:
+        return acquired, False
+    gains.sort()                       # smallest positive gain first = weakest sufficient probe (MSS)
+    _, p = gains[0]
+    return acquired | {p}, True
 
 def run_ratchet(R=8, frozen_at=None):
-    """Climb the MSS ladder driven by the entropy gradient. At each shell r the possibility space (maybe) grows;
-    while a gap remains the carrier takes the SMALLEST step (refine resolution or admit a probe) that resolves
-    >=1 newly-forced distinction. Record geometry (acquired capacity) and entropy gradient (ceiling - capacity)
-    -> test co-ratchet and the Feynman freeze."""
-    level = 1; resolution = 1; hist = []
+    """Climb driven by the DISTINGUISHABILITY gradient (Axis-0 at the floor). At each shell the room may grow ->
+    more available distinguishability. While a gap remains between AVAILABLE (perfect instrument) and RESOLVED
+    (acquired bases), the carrier admits the WEAKEST probe that recovers some. Record the two faces and the gap.
+    All quantities are distinguishabilities (trace distance), never bits or counts."""
+    acquired = {0}; hist = []           # start with one acquired basis
     for r in range(R):
         states = possibility_set(r, frozen_at=frozen_at)
-        C = ceiling(states)                                       # rising ceiling (entropy side)
-        D = distinguishing_capacity(states, level, resolution)    # carrier geometry (geometry side)
-        grad = C - D                                              # ENTROPY GRADIENT = Axis-0 drive
-        climbed = False; kind = None
-        # MSS: one smallest step per shell while the gradient is open (incremental, never a batch shatter)
-        if grad > 0:
-            level, resolution, climbed, kind = mss_step(states, level, resolution)
-        Dpost = distinguishing_capacity(states, level, resolution)
-        hist.append({"r": r, "ceiling": C, "geometry_pre": D, "geometry_post": Dpost,
-                     "entropy_gradient": grad, "climbed": climbed, "step_kind": kind,
-                     "level": level, "resolution": resolution})
+        avail = available_distinguishability(states)        # POSITIVE-entropy face: growing available (opening)
+        resolved = resolved_distinguishability(states, acquired)  # NEGATIVE-entropy face: resolved/bound (binding)
+        grad = avail - resolved                              # AXIS-0 = the distinguishability gap (the drive)
+        climbed = False
+        if grad > 1e-6:
+            acquired, climbed = mss_step(states, acquired)
+        resolved_post = resolved_distinguishability(states, acquired)
+        hist.append({"r": r, "available": round(avail, 4), "resolved_pre": round(resolved, 4),
+                     "resolved_post": round(resolved_post, 4), "gap": round(grad, 4),
+                     "climbed": climbed, "n_acquired": len(acquired)})
     return hist
 
 def main():
@@ -133,54 +144,53 @@ def main():
 
     live_climbs = sum(h["climbed"] for h in live)
     frozen_climbs_after_freeze = sum(h["climbed"] for h in frozen if h["r"] > 1)
-    # co-ratchet: does geometry climb track the entropy gradient one-for-one? (geometry gain == gradient closed)
-    coratchet_pairs = [(h["geometry_post"] - h["geometry_pre"], h["entropy_gradient"]) for h in live if h["climbed"]]
-    coratchet_ok = all(g > 0 and grad > 0 for g, grad in coratchet_pairs) and len(coratchet_pairs) > 0
-    # The Feynman signature is about the DRIVE, not the gap hitting exactly zero. Under growth the gradient must
-    # keep re-opening (fresh distinctions keep appearing -> permanent drive, climbs continue). Under freeze the
-    # gradient must STOP GROWING (no new distinctions injected) and the climb must HALT. A residual constant gap
-    # after freeze is a quantization floor (a distinction the finite carrier cannot resolve at any resolution),
-    # NOT a live drive -- what matters is that it is FLAT (not growing) and produces no further climb.
-    live_grad_final = live[-1]["entropy_gradient"]
-    frozen_grad_final = frozen[-1]["entropy_gradient"]
-    frozen_grads_after = [h["entropy_gradient"] for h in frozen if h["r"] > 1]
-    frozen_gradient_flat = (len(set(frozen_grads_after)) <= 1)     # no new drive appears after freeze
-    live_gradient_reopens = sum(1 for h in live if h["entropy_gradient"] > 0) >= 4  # drive persists under growth
+    # CO-RATCHET (one object, two readings): every forced climb must RAISE resolved distinguishability (geometry
+    # side) AND face a positive gap (entropy side) -- they move together, measured not asserted.
+    coratchet_pairs = [(h["resolved_post"] - h["resolved_pre"], h["gap"]) for h in live if h["climbed"]]
+    coratchet_ok = all(dg > 1e-9 and gp > 1e-9 for dg, gp in coratchet_pairs) and len(coratchet_pairs) > 0
+    # Feynman: under growth the gap keeps re-opening (available rises faster than one probe closes it -> permanent
+    # drive, climbs continue). Under freeze available stops rising; the carrier closes the gap it can and the
+    # climb HALTS. A residual gap after freeze is distinguishability NO acquired basis can reach (a real quantum
+    # limit, not a live drive) -- what matters is it stops GROWING and produces no further climb.
+    live_gap_final = live[-1]["gap"]
+    frozen_gaps_after = [h["gap"] for h in frozen if h["r"] > 1]
+    frozen_gap_flat = (max(frozen_gaps_after) - min(frozen_gaps_after) < 1e-6) if frozen_gaps_after else True
+    live_gap_reopens = sum(1 for h in live if h["gap"] > 1e-6) >= 4    # drive persists under growth
 
-    drive_is_gradient = (live_climbs >= 3) and live_gradient_reopens and \
-                        (frozen_climbs_after_freeze == 0) and frozen_gradient_flat
+    drive_is_gradient = (live_climbs >= 3) and live_gap_reopens and \
+                        (frozen_climbs_after_freeze == 0) and frozen_gap_flat
 
     out = {"classification": "scratch_diagnostic", "promotion_allowed": False,
+           "measure": "quantum_distinguishability_trace_distance (NO bits, NO log2, NO microstate counting)",
            "live_total_climbs": live_climbs,
            "frozen_climbs_after_freeze": frozen_climbs_after_freeze,
-           "live_entropy_gradient_final": live_grad_final,
-           "frozen_entropy_gradient_final": frozen_grad_final,
-           "frozen_gradient_flat_after_freeze": bool(frozen_gradient_flat),
-           "live_gradient_reopens_under_growth": bool(live_gradient_reopens),
-           "coratchet_geometry_tracks_entropy": bool(coratchet_ok),
+           "live_gap_final": live_gap_final,
+           "frozen_gap_flat_after_freeze": bool(frozen_gap_flat),
+           "live_gap_reopens_under_growth": bool(live_gap_reopens),
+           "coratchet_available_tracks_resolved": bool(coratchet_ok),
            "AXIS0_IS_FOUNDATIONAL_DRIVE": bool(drive_is_gradient),
            "live_history": live, "frozen_history": frozen}
     path = __file__.replace(".py", "_results.json"); json.dump(out, open(path, "w"), indent=1)
 
-    print("THE RATCHET MECHANISM AT THE FOUNDATIONS -- entropy gradient (Axis-0) as the drive:")
-    print("  root constraints F01 (finite probes) + N01 (noncommuting probes); minimal persistent carrier;")
-    print("  possibility space GROWS -> entropy gradient (ceiling - carrier capacity) is the DRIVE.\n")
-    print("  r | ceiling  geometry  entropy_grad  climbed   [LIVE: room grows]")
+    print("THE RATCHET AT THE FOUNDATIONS -- Axis-0 = the DISTINGUISHABILITY gradient (no bits, no counting):")
+    print("  primitive = constraint on distinguishability (a=a iff a~b). F01 finite noncommuting probes + N01.")
+    print("  AVAILABLE (positive-entropy face, opening) = distinguishability a perfect instrument could resolve;")
+    print("  RESOLVED (negative-entropy face, binding)  = what the carrier's acquired bases actually access;")
+    print("  AXIS-0 GAP = available - resolved = the drive. All quantities are trace distances, not bits.\n")
+    print("  r | available  resolved     GAP    climbed   [LIVE: room grows]")
     for h in live:
-        print(f"  {h['r']} |   {h['ceiling']:2d}       {h['geometry_post']:2d}         {h['entropy_gradient']:2d}        {h['climbed']}")
-    print(f"\n  LIVE   total forced climbs: {live_climbs}; final entropy gradient (stays open = permanent drive): {live_grad_final}")
-    print("\n  FEYNMAN CONTROL -- freeze growth at r=1 (gradient must close, climb must stop):")
-    print("  r | ceiling  geometry  entropy_grad  climbed   [FROZEN after r=1]")
+        print(f"  {h['r']} |  {h['available']:6.3f}    {h['resolved_post']:6.3f}   {h['gap']:6.3f}    {h['climbed']}")
+    print(f"\n  LIVE forced climbs: {live_climbs}; final gap (stays open under growth = permanent drive): {live_gap_final}")
+    print("\n  FEYNMAN CONTROL -- freeze growth at r=1 (available stops rising; drive must die, climb must stop):")
+    print("  r | available  resolved     GAP    climbed   [FROZEN after r=1]")
     for h in frozen:
-        print(f"  {h['r']} |   {h['ceiling']:2d}       {h['geometry_post']:2d}         {h['entropy_gradient']:2d}        {h['climbed']}")
-    print(f"\n  FROZEN climbs after freeze: {frozen_climbs_after_freeze}; gradient FLAT after freeze (no new drive): {frozen_gradient_flat}")
-    print(f"  (residual gap {frozen_grad_final} is a quantization floor -- a distinction the finite carrier cannot")
-    print(f"   resolve at any resolution -- NOT a live drive; what matters is it stops growing and halts the climb)")
-    print(f"\n  CO-RATCHET (geometry climb tracks entropy gradient, one object two readings): {coratchet_ok}")
+        print(f"  {h['r']} |  {h['available']:6.3f}    {h['resolved_post']:6.3f}   {h['gap']:6.3f}    {h['climbed']}")
+    print(f"\n  FROZEN climbs after freeze: {frozen_climbs_after_freeze}; gap FLAT after freeze (no new drive): {frozen_gap_flat}")
+    print(f"\n  CO-RATCHET (available tracks resolved, one object two readings): {coratchet_ok}")
     print(f"  AXIS-0 IS THE FOUNDATIONAL DRIVE (grows->climbs, freeze->stops): {drive_is_gradient}")
-    if drive_is_gradient and coratchet_ok:
-        print("PASS foundational_ratchet_entropy_gradient")
     ok = drive_is_gradient and coratchet_ok
+    if ok:
+        print("PASS foundational_ratchet_entropy_gradient")
     print("ALL_GATES:", "PASS" if ok else "FAIL", "->", path)
     sys.exit(0 if ok else 1)
 
