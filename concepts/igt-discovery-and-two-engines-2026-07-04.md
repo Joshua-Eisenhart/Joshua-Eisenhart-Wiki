@@ -190,3 +190,13 @@ dual to the minimax stable-point theorem.
 - [[iff-chain-identity-duality-2026-07-03]] — deduction iff induction (origin pair)
 - [[constraint-manifold-architecture]] — IGT correction and manifold order
 - [[../raw/owner-voice-cosmology-and-method-2026-07-03]] — owner method verbatim
+
+## 2026-07-04 owner nuances (from the restated prompts — see raw capture)
+
+Source: [[raw/owner-voice-physics-method-igt-2026-07-04]].
+
+- Irrational = perception. Perception is emotions; we perceive through emotional projection. Perception is a form of intelligence — NOT passive data; different from reason but it "computes".
+- Two strategies inside each of the four quadrants: a competitive first and a cooperative second — 8 total. Win-lose can CHOOSE lose.
+- Equal numbers of F strategies that lose and that win; same for T. There is cooperative winning and competitive losing — explicit in the model, routinely lost by readers.
+- Big/small maps to the inner/outer loops, and within each type all the bigs (or all the smalls) are uniformly TiFe or FeTi.
+- Minimin (lose-lose) is the king of strategy; classical game theory has no use for it. The program: convert ALL of classical game theory's math through the nonclassical inversion — nominalist/Jungian for now, expected to connect to QIT math later; "quantum game theory" branding rejected.

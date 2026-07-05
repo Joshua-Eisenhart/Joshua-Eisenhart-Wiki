@@ -54,6 +54,7 @@ Use this as the low-friction entry point. The old full listing lives at [index-f
 - [[geometry-entropy-dual-ratchet-verdict-2026-07-04]] — geometry prior, entropy typed readout; mechanical-dual reopened narrow; salvaged.
 - [[projects/codex-ratchet/toe-goal-and-artifact-grounding-audit-2026-07-04]] — TOE north star vs thin-floor artifact audit; salvaged.
 - [[raw/owner-voice-cosmology-and-method-2026-07-03]] — owner-voice verbatim capture (cosmology + method).
+- [[raw/owner-voice-physics-method-igt-2026-07-04]] — owner-voice verbatim: method, one-thing chain, dark matter/gravity, bidirectional method, IGT nuances.
 - [[projects/codex-ratchet/wrong-repo-memory-digest-2026-07-04]] — digest of the 31 salvaged wrong-repo memories + conflict list.
 - [[projects/codex-ratchet/wrong-repo-estate-salvage-2026-07-04]] — wrong-repo commit map and salvage record.
 - [[nominalist-cs-framing]] — Nominalist computer-science translation frame.
