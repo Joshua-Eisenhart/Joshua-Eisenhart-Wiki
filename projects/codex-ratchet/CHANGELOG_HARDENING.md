@@ -865,3 +865,10 @@ UP-68 FAIR N01 DRIVE  axis0_drive_fair_n01_test_sim.py: answers the node's fifth
                vs dead* 0.0, dead zero = measured commutation). ANSWER: rolling wins for real but N01-CONDITIONALLY
                -- the drive lives in N01, no free-standing scalar advantage. Connects to node tier L6 6.2 (N01
                axis-conditioned). Adopted node corrections/. Full harness 75 pass/0 fail/0 skip GREEN. scratch.
+
+UP-69 AXIS0 FROM SPEC  axis0_shell_polarity_docfaithful_sim.py: Axis-0 built FROM the owner's doc (AXIS0_PHYSICS
+               _MODEL_CORE sec 24/37/38) not at it. A0_raw as a 7-vector; shell weighted-compositor never argmax;
+               Phi0 projection DISCOVERED. One neutral knob -> two faces self-emerge, predict held-out at 0.917;
+               scalar_entropy_only kills to 0.615 (load-bearing); one_future_control to 0.719 (many-futures real);
+               scrambled_Omega 0.479. HONEST REMAINDER: commuting_path_family 0.938 + no_inward_outward 0.875 did
+               NOT flip; logZ & order_gap do not separate at this baseline. Full harness 76 pass/0/0 GREEN. scratch.
