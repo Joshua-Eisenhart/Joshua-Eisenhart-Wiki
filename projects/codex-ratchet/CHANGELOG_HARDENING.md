@@ -984,3 +984,11 @@ UP-82 FOUNDATIONS RE-AUDIT (forced/robust/load-bearing)  foundations_reaudit_for
                it (263 open). Lane 3: MSS load-bearing at dim-8 (7 admitted 0 unforced vs presumption 9 admitted 4
                unforced); invisible at dim-2 (floor logic). Two first-run failures were findings, fixed in the
                measurement not the gate. Full harness 88 GREEN. scratch.
+
+UP-83 SECOND ROOT AUDIT (drive + MSS tie-break)  foundations_reaudit_drive_and_mss_tiebreak_sim.py -- Lane A: the
+               entropy-gradient DRIVE is forced (only the gradient is intrinsic + vanishes at demand-closure 0.00 +
+               tracks the room via forward-growth delta 0.082; injected drive =1.0 non-vanishing and forward delta
+               0.00 blind; scalar entropy =1.206 non-vanishing). Lane B: MSS fewest-closing tie-break load-bearing
+               at dim-8 (over-resolution 173.0 vs greedy 179.7, same closure). Two auditor catches fixed in the
+               measurement (gradient defined at the demand bar; freeze property gated on real room-tracking, not
+               self-subtraction). Full harness 89 GREEN. scratch.
