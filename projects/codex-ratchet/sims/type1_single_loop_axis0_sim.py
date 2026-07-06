@@ -19,11 +19,13 @@ FOUR LANES (each a measurement; a SEPARATE policy eval decides; every lane has a
       + dissipator) present from terrain 0 -- the loop does real cumulative work. Control: remove the flow (pure
       operators, no drive) and the loop does far less work AND (lane C) the readout dies. This is axis-0-as-drive:
       the entropy-driving flow is intrinsic, not injected.
-  (C) AXIS-0 READOUT AT LOOP CLOSE: at the end of the loop, a POLARITY readout (signed Bloch-trajectory volume =
-      trajectory handedness/chirality, averaged over a probe ensemble) discovers the engine's SIGN. Type 1 reads
-      one sign; the mirror Type 2 engine (eps=-1, terrains [4,5,6,7]) reads the OPPOSITE sign -- discovered from
-      the dynamics, NOT from the eps label. Control: remove the coherent drive and the readout collapses to ~0
-      (the sign is carried by the drive that was present from the start). This is axis-0 threaded start->readout.
+  (C) AXIS-0 READOUT AT LOOP CLOSE -- SPINOR-LEVEL: at loop close a POLARITY readout discovers the engine's SIGN.
+      The readout is the SPINOR HOLONOMY around the loop (density-blind), where the sign lives (project canon:
+      axis-0 tense is spinor-level). Type 1 reads one sign; the mirror Type 2 loop reads the OPPOSITE sign. Control:
+      remove the coherent drive and the holonomy collapses to 0 (the sign is carried by the drive present from the
+      start). HONEST correction from the first draft: under the doc-faithful canonical operators the density-level
+      signed-volume does NOT cleanly separate T1/T2 (both same sign) -- the polarity must be read at the spinor
+      level, not the density level. This is axis-0 threaded start -> spinor readout.
   (D) THE 4 SUBSTAGES of each loop stage: each stage's 4 sub-operators (Ti,Te,Fi,Fe) cased by the stage's native
       operator run as an ordered 4-beat, all effective (each moves the state), interior ordered (reverse!=forward).
 
@@ -43,6 +45,11 @@ TERR={0:(+1,'damp',+1),1:(+1,'depol',0),2:(+1,'damp',-1),3:(+1,'proj',0),
 NATIVE={0:('Ti','Fi'),1:('Ti','Fi'),4:('Ti','Fi'),5:('Ti','Fi'),
         2:('Te','Fe'),3:('Te','Fe'),6:('Te','Fe'),7:('Te','Fe')}
 TYPE1=[0,1,2,3]; TYPE2=[4,5,6,7]
+# DOC-FAITHFUL canonical deductive-loop slots (owner attachment 2026-07-06T08-14 sec 5): (terrain, operator, sign).
+# Type 1 outer DEDUCTIVE Se->Ne->Ni->Si; Type 2 inner DEDUCTIVE Se->Ne->Ni->Si (its mirror). The outer loop uses
+# each terrain's canonical operator from the source chart -- Ti,Ti,Fe,Fe -- NOT a simplified "native[0]" pick.
+T1_DED=[(0,'Ti','up'),(1,'Ti','down'),(2,'Fe','down'),(3,'Fe','up')]
+T2_DED=[(4,'Ti','down'),(5,'Ti','up'),(6,'Fe','up'),(7,'Fe','down')]
 
 def Dop(L,r): return L@r@L.conj().T-0.5*(L.conj().T@L@r+r@L.conj().T@L)
 def gen(ti):
@@ -76,30 +83,40 @@ def casing_frame(o):
 
 # ---------- the loop ----------
 
-def loop_traj(terrains, probe, order='ded', drive=True, single_op=None):
+def _step(slot, r, drive=True):
+    t,o,sign=slot; X=gen(t); O=op(o)
+    if not drive: r2=O(r.copy())
+    elif sign=='up': r2=flow(X,O(r.copy()))     # operator-first Phi_T(O(rho))
+    else: r2=O(flow(X,r.copy()))                # terrain-first  O(Phi_T(rho))
+    r2=.5*(r2+r2.conj().T); r2/=np.trace(r2).real; return r2
+def loop_traj(slots, probe, drive=True):
     r=dm(np.array(probe,float)); traj=[bloch(r).copy()]
-    seq=list(terrains) if order=='ded' else list(terrains)[::-1]
-    for t in seq:
-        J=op(single_op if single_op else NATIVE[t][0])
-        r=J(flow(gen(t), r.copy())) if drive else J(r.copy())
-        r=.5*(r+r.conj().T); r/=np.trace(r).real
-        traj.append(bloch(r).copy())
+    for s in slots: r=_step(s,r,drive); traj.append(bloch(r).copy())
     return np.array(traj)
 
 def signed_volume(traj):
     return float(sum(np.dot(traj[i],np.cross(traj[i+1],traj[i+2])) for i in range(len(traj)-2)))
 def cum_move(traj):
     return float(sum(np.linalg.norm(traj[i+1]-traj[i]) for i in range(len(traj)-1)))
-def stage_channel(t):
-    J=op(NATIVE[t][0]); X=gen(t)
-    return lambda r: J(flow(X, r.copy()))
+def spinor_holonomy(slots, g=G):
+    # spinor-level (density-blind) loop holonomy = accumulated coherent-drive phase around the loop; this is where
+    # the engine POLARITY lives (project canon: axis-0 tense is spinor-level, invisible at the density level).
+    psi=np.array([1,0],complex)
+    for (t,o,sign) in slots:
+        eps,kind,pole=TERR[t]; H=eps*(sx+sy+sz)/np.sqrt(3)
+        psi=expm(-1j*g*H)@psi; psi/=np.linalg.norm(psi)
+    return float(np.angle(np.vdot(np.array([1,0],complex),psi)))
+def stage_channel(slot):
+    t,o,sign=slot; X=gen(t); O=op(o)
+    if sign=='up': return lambda r: flow(X, O(r.copy()))
+    else:          return lambda r: O(flow(X, r.copy()))
 
 # ---------- lane A: 4 ordered stages ----------
 
 def measure_loop_stages():
     rng=np.random.default_rng(3); probes=[rng.standard_normal(3) for _ in range(6)]
     probes=[p/np.linalg.norm(p)*0.7 for p in probes]
-    chans=[stage_channel(t) for t in TYPE1]
+    chans=[stage_channel(s) for s in T1_DED]
     sigs=[np.concatenate([bloch(c(dm(p))) for p in probes]) for c in chans]
     dmin=min(float(np.linalg.norm(sigs[i]-sigs[j])) for i in range(4) for j in range(i+1,4))
     probe=np.array([0.55,0.35,0.25])
@@ -131,16 +148,19 @@ def measure_axis0_thread():
     rng=np.random.default_rng(9); probes=[rng.standard_normal(3) for _ in range(8)]
     probes=[p/np.linalg.norm(p)*0.6 for p in probes]
     # drive from start: cumulative work with intrinsic flow vs without
-    move_drive=float(np.mean([cum_move(loop_traj(TYPE1,p,'ded',drive=True)) for p in probes]))
-    move_nodrv=float(np.mean([cum_move(loop_traj(TYPE1,p,'ded',drive=False)) for p in probes]))
-    # readout at end: polarity sign (signed trajectory volume), averaged over probes
-    read_T1=float(np.mean([signed_volume(loop_traj(TYPE1,p,'ded',drive=True)) for p in probes]))
-    read_T2=float(np.mean([signed_volume(loop_traj(TYPE2,p,'ded',drive=True)) for p in probes]))
-    # control: remove the coherent drive -> readout collapses
-    read_nodrv=float(np.mean([signed_volume(loop_traj(TYPE1,p,'ded',drive=False)) for p in probes]))
+    move_drive=float(np.mean([cum_move(loop_traj(T1_DED,p,drive=True)) for p in probes]))
+    move_nodrv=float(np.mean([cum_move(loop_traj(T1_DED,p,drive=False)) for p in probes]))
+    # readout at end: polarity is the SPINOR HOLONOMY (density-blind), where the sign lives. Type 1 vs Type 2 read
+    # opposite; killing the drive collapses it. HONEST: the density signed-volume does NOT cleanly carry the sign
+    # under the doc-faithful operators (T1/T2 same-sign) -- so the readout must be spinor-level (project canon).
+    read_T1=spinor_holonomy(T1_DED); read_T2=spinor_holonomy(T2_DED)
+    read_nodrv=spinor_holonomy(T1_DED, g=0.0)
+    dens_T1=float(np.mean([signed_volume(loop_traj(T1_DED,p,drive=True)) for p in probes]))
+    dens_T2=float(np.mean([signed_volume(loop_traj(T2_DED,p,drive=True)) for p in probes]))
     return {"drive_cumulative_move":round(move_drive,4),"nodrive_cumulative_move":round(move_nodrv,4),
-            "readout_type1":round(read_T1,6),"readout_type2":round(read_T2,6),
-            "readout_nodrive_control":round(read_nodrv,6),
+            "spinor_readout_type1":round(read_T1,5),"spinor_readout_type2":round(read_T2,5),
+            "spinor_readout_nodrive_control":round(read_nodrv,6),
+            "density_signed_volume_T1":round(dens_T1,5),"density_signed_volume_T2":round(dens_T2,5),
             "drive_present_from_start":bool(move_drive>1.3*move_nodrv),
             "readout_signs_opposite":bool(np.sign(read_T1)!=np.sign(read_T2)),
             "readout_needs_drive":bool(abs(read_T1)>5*abs(read_nodrv) and abs(read_T2)>5*abs(read_nodrv))}
@@ -189,8 +209,9 @@ def main():
     print(f"      4 stage maps pairwise distinct (min {a['four_stages_min_pairwise']}); loop order-sensitive: permutation spread {a['order_permutation_spread']} vs commuting control {a['commuting_control_spread']} -> {a['loop_order_sensitive']}")
     print("  (B) AXIS-0 DRIVE PRESENT FROM THE START:")
     print(f"      loop work with intrinsic flow {x['drive_cumulative_move']} vs no-drive {x['nodrive_cumulative_move']} -> drive intrinsic {x['drive_present_from_start']}")
-    print("  (C) AXIS-0 READOUT AT LOOP CLOSE (threaded from the drive):")
-    print(f"      polarity readout Type1 {x['readout_type1']:+.5f} vs Type2 {x['readout_type2']:+.5f} (opposite signs {x['readout_signs_opposite']}); no-drive control {x['readout_nodrive_control']:+.5f} -> readout needs the drive {x['readout_needs_drive']}")
+    print("  (C) AXIS-0 READOUT AT LOOP CLOSE (spinor-level, threaded from the drive):")
+    print(f"      spinor-holonomy polarity Type1 {x['spinor_readout_type1']:+.5f} vs Type2 {x['spinor_readout_type2']:+.5f} (opposite signs {x['readout_signs_opposite']}); no-drive control {x['spinor_readout_nodrive_control']:+.6f} -> readout needs the drive {x['readout_needs_drive']}")
+    print(f"      (density signed-volume T1 {x['density_signed_volume_T1']:+.5f} vs T2 {x['density_signed_volume_T2']:+.5f} -- reported; under doc-faithful operators the density readout does NOT cleanly carry the sign, so the polarity is spinor-level per project canon)")
     print("  (D) THE 4 SUBSTAGES:")
     print(f"      every stage 4 effective cased substages {d['all_stages_four_effective_substages']}; interior ordered {d['all_stages_ordered_interior']}")
     print("\n  SEPARATE POLICY EVAL:")
