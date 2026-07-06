@@ -46,6 +46,7 @@ Use this as the low-friction entry point. The old full listing lives at [index-f
 - [[science-as-correlations-proved-in-technology-2026-07-04]] — correlations/technology epistemology + graded kill-board; promotion_allowed=false.
 - [[mimetic-holodeck-perception-and-engine-teeth-2026-07-05]] — perception as mimetic projection; ENGINE_TEETH objective function; doctrine + pre-registered measurement.
 - [[object-formation-mesh-perception-2026-07-05]] — objects as earned mesh survivors, not primitives; codex1+NVIDIA reviewed; Lev/JP integration.
+- [[entangled-dice-universe-creation-2026-07-06]] — unified cosmogenesis: dice=metaphor / entropy-gradient=mechanism / entanglement=load-bearing; 3-stage creation + sequential universes; codex1+NVIDIA reviewed; proposal-facing.
 - [[finite-ordered-foundations-2026-07-04]] — F01+N01 as root axioms, 11 consequences, receipts-as-primary; salvaged 2026-07-04.
 - [[least-presumption-mss-third-root-2026-07-04]] — least presumption / MSS third root, dropped-then-regated; salvaged.
 - [[causality-fep-hume-neurology-2026-07-04]] — causality as compression narrative, FEP literal, Hume-by-neurology; salvaged.
