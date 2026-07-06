@@ -943,3 +943,14 @@ UP-76 COSMOGENESIS AS THE RATCHET'S FIRST TOOTH  cosmogenesis_ratchet_first_toot
                verdict discipline; all five controls flip. Three bugs fixed in the MATH not the gate (XX entangler,
                signed holonomy, product-state off-by-one). Grounded x_grok_chat_TOE.txt 30/38/47; already in
                toe_cosmology docs. Full harness 82 pass/0/0 GREEN. scratch.
+
+UP-77 PAWL HARDENING (witness identity + append-only memory)  pawl_witness_identity_memory_sim.py -- the
+               2026-07-04 sec.8/sec.10 correction as measurement. Minimality alone does not lock: MSS-alone pawl
+               accepts 12 lateral swaps among equal-cost witnesses; witness-identity + append-only-memory pawl
+               accepts 0. Memoryless-drive kill: memory drive climbs (9 teeth, gap 0.316), memory-erased drive
+               random-walks and stalls (5 teeth, 0.059). Both controls flip. Full harness 84 GREEN. scratch.
+UP-78 THE 3-QUBIT FLOOR  ratchet_three_qubit_floor_sim.py -- carries the conservation-gated ratchet past dim-2
+               saturation. Acquired stock = 3n single-qubit Pauli-axis bases (tomographically complete only at 1
+               qubit; full tomography needs 4^n-1 axes). 1 qubit saturates (0 teeth-before-sat, 0 open demands); 2
+               and 3 qubits keep forcing (12 teeth, 69/161 open demands). Floor real for the mechanism reason, not
+               a fit -- WHY >=3 qubits are needed. Full harness 84 GREEN. scratch.
