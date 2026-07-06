@@ -954,3 +954,10 @@ UP-78 THE 3-QUBIT FLOOR  ratchet_three_qubit_floor_sim.py -- carries the conserv
                qubit; full tomography needs 4^n-1 axes). 1 qubit saturates (0 teeth-before-sat, 0 open demands); 2
                and 3 qubits keep forcing (12 teeth, 69/161 open demands). Floor real for the mechanism reason, not
                a fit -- WHY >=3 qubits are needed. Full harness 84 GREEN. scratch.
+
+UP-79 THE UNIFIED RATCHET  unified_ratchet_witness_memory_3q_sim.py -- composes the foundational demand/MSS/
+               gradient mechanism + the witness-identity/append-only-memory pawl (UP-77) + the 3-qubit carrier
+               (UP-78) into ONE climb. LIVE (3q): retained ladder 3, 7 acquired bases, 0 lateral swaps. Three
+               controls flip: ladder-vs-flat (memory 3 vs memoryless 0), pawl-lock (witness 0 vs minimality-only
+               39 lateral swaps), Feynman freeze (0 teeth after freeze). Locks by remembered witness, intrinsic-
+               gradient driven, climbs past dim-2. Full harness 85 GREEN. scratch.
