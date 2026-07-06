@@ -1046,3 +1046,10 @@ UP-90 STAGED ENGINE RUNG 2+3 + DOC-FAITHFUL CORRECTION  type1_full_engine_both_l
                (0.582). (D) axis-0 SPINOR readout T1 -2.939 vs T2 +2.939 opposite (density signed-vol same-sign at
                full scale -> polarity is spinor-level). type1_single_loop_axis0_sim.py v2 -- looped back to
                doc-faithful operators + spinor readout (T1 -1.281 vs T2 +1.281). Full harness 98 GREEN. scratch.
+
+UP-90b CONTROL HARDENING (auditor)  the axis-0 spinor-readout no-drive control was g=0 (identically 0 by
+               expm(0)=I -> gate could not fail). Replaced with a REAL falsifiable control in both rung-1 and
+               rung-2+3 sims: ERASE the terrain chirality (eps->+1) while KEEPING the drive at full magnitude --
+               Type1/Type2 then read the SAME sign (separation collapses: rung1 both -1.281, full-engine both
+               -2.939). Also corrected a false ledger claim ("full-engine density both same sign" -> the density
+               signed-volume is not a stable polarity carrier, sign operator/probe-dependent). Harness 98 GREEN.
