@@ -1877,3 +1877,24 @@ commuting 0.0); 4 cased substages. Density signed-volume honestly reported as NO
 Both scratch_diagnostic, promotion_allowed=False. Attachment assessed correct on: operator-order defs (sec 1),
 16-slot chart internal consistency (sec 5), A0/A1/A2 partitions reproduce the verified XOR canon (sec 4), entropy
 correction = project canon (sec 8), octonion/G2 as pressure-not-canon (sec 9). Full harness 98 pass/0/0 GREEN.
+
+## STAGED ENGINE BUILD RUNG 4: Type-2 (RIGHT Weyl, mirror) FULL ENGINE + non-circular polarity readout (2026-07-06)
+type2_full_engine_both_loops_sim.py (artifact 3497d918): RUNG 4. The Type-2 (RIGHT Weyl, eps=-1, terrains [4,5,6,7])
+full engine, built doc-faithfully like rung 2+3. Canonical slots (attachment 2026-07-06T08-14 sec 5, Type-2 chart):
+outer INDUCTIVE Se->Si->Ni->Ne = [(4,Fi,up),(7,Te,up),(6,Te,down),(5,Fi,down)]; inner DEDUCTIVE Se->Ne->Ni->Si =
+[(4,Ti,down),(5,Ti,up),(6,Fe,up),(7,Fe,down)]. Note the outer/inner loop-tense is MIRRORED vs Type 1 (Type-1 outer
+is deductive, Type-2 outer is inductive) -- part of what makes them mirror engines, not relabelings. (A) both loops
+4 ordered stages (outer min 0.523 spread 0.351, inner min 0.632 spread 0.525, commuting ctrl 0.0). (B) two loops
+distinct (gap 0.502, complementary ops outer {Fi,Fi,Te,Te} inner {Fe,Fe,Ti,Ti}). (C) full engine loop-order
+sensitive (0.501). (D) axis-0 polarity OPPOSITE to Type 1.
+
+CIRCULAR-READOUT CORRECTION (auditor, all three engine sims): the earlier spinor_holonomy readout used ONLY the
+terrain eps label (never the operators), so it read the chirality label back and its "erase" control (eps->+1) was a
+no-op making T1==T2 by construction -- a gate that could not fail. Replaced in rungs 1, 2+3, and 4 with the density-
+trajectory SIGNED VOLUME through the full flow+operators (operator-dependent), plus HONEST controls that genuinely
+fail: full-engine sims use (1) flip the Hamiltonian chirality IN THE FLOW (eps->+1, genuinely changes the trajectory)
+-> Type 2 reads Type 1's sign, separation collapses; single-loop sim uses (1) remove the GKSL flow entirely (drop
+Hamiltonian+dissipator, operators still act) -> polarity collapses to ~0; and both use (2) a Bloch-axis relabeling
+test -> no sign-flip maps T2's endpoint signature onto T1's (min distance ~1.5 full-engine / 0.15 single-loop), so
+they are genuinely different channels. Polarity values: single-loop T1 -0.0019 vs T2 +0.0038; full-engine T1 -0.019
+vs T2 +0.011 (both robust across seeds, 40 probes). All scratch_diagnostic, promotion_allowed=False. Harness 99 GREEN.
