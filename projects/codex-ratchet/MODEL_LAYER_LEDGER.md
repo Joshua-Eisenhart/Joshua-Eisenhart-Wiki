@@ -1789,3 +1789,31 @@ So the objective success teeth (convergence_loss = 5*(1-reid_rate), handling_los
 into a formation-loss surface, verdict = both independent controls flip) are now joined by the perception task they
 imply: object binding across never-seen perspectives, perfect except on genuine degeneracies. scratch_diagnostic,
 promotion_allowed=False. Full harness 93 pass/0/0 GREEN.
+
+## ANTI-HALLUCINATION GUARD + STAGE NECESSITY (2026-07-06)
+Loop-back on the owner's recurring worry: "sims seemed real, then found much was hallucinated and empty, all made
+up with gates cheated." Two teeth built to make that failure mode DETECTABLE, plus the next ladder item.
+
+objective_gate_integrity_sweep_sim.py (artifact 3cf32960): a STANDING anti-hallucination guard. Interrogates the
+ACTUAL evaluate()/eval functions of the three objective sims (re-identification, object-formation scorecard,
+perception object-binding): each verdict must PASS on true measured inputs AND FAIL on cheated inputs. Perception:
+cheats = chance-level binding, zero interior spread, hallucinated (un-merged) degeneracies -- all flip to False.
+Scorecard: cheats = convergence control not flipping, handling control not flipping -- both flip to False. Re-id:
+cheat = shuffled control at real rate (memorized) -- separation verdict flips. Plus results-JSON non-emptiness and
+a recompute check (perception's number is a real recompute, not a cached constant). ALL THREE GATES REAL. A gate
+that cannot be made to fail is a rubber stamp; this catches that automatically on every future harness run.
+
+stage_necessity_ablation_sim.py (artifact ea142c9b): the STAGE-NECESSITY tooth (owner perception-scorecard ladder
+#3/#7 -- "all 16 stages must be necessary; each does unique work"). The mechanism-level answer to "empty content":
+if a stage were dead weight, removing it would not hurt perception. SCRAMBLE each non-degenerate stage (replace
+with its nearest distinct neighbor's channel) -> induces new binding error 10/10 (1.000). DUPLICATE onto nearest
+distinct neighbor -> new confusion 10/10 (consistent +3 each: the stage's 3 novel views collide). HONEST scope: the
+6 known-degenerate stages (depol eps-pairs + Fe proj-commuting) are expected-null -- duplicating onto their twin
+adds mean|1| vs non-degenerate mean|3|, a magnitude separation (not a sign threshold), because they already share
+identity. Runs in signature space (precompute the flows ONCE) -- 15s, down from ~8min in the first naive draft.
+Two honest corrections during the build: (a) first draft used a single random ablation target with net error
+cancellation -> switched to nearest-distinct-neighbor (worst case); (b) lane C was an all(n<=0) sign gate that
+failed on noisy small deltas -> replaced with the mean|new error| magnitude comparison.
+Both are pure interrogation/distinguishability (no new physics). scratch_diagnostic, promotion_allowed=False. Full
+harness 95 pass/0/0 GREEN. Source seed: owner attachment pasted-text-2026-07-06T07-11-54 (perception scorecard
+ladder + independent validation that the objective criterion is real: re-id 0.6875, formation_loss 1.706).
