@@ -999,3 +999,11 @@ UP-84 THE NEXT TOOTH (stages -> 360 loop)  next_tooth_engine_stages_to_360_loop_
                distance 1.138). Parity spinor-level (psi 360=-1/720=+1, rho both +1 -- density blind to tense).
                Handedness (tense) orthogonal to chirality (invariant under eps flip). Honest correction: dropped a
                forced opposite-sign chirality claim for the true orthogonality result. Full harness 90 GREEN. scratch.
+
+UP-85 THE 720 DOUBLE LOOP + SPINOR-LIFT AUDIT  next_tooth_720_double_loop_and_lift_audit_sim.py -- PART 1: the 720
+               double loop closes what the 360 cannot (single 360 -> -psi overlap -1 does not close; 720 double =
+               360-comp-360 -> +psi overlap +1 genuine return; tense halves distinct 1.138). PART 2 (loop-back root
+               audit): the spinor lift is FORCED not installed (NO density observable separates R(2pi)|0> from |0>,
+               max gap 2.2e-15 over 200 Hermitian obs, but psi gap 2.0; erased quotient kills the distinction
+               2.0->0.0; lift minimal 2-to-1 cover). Same claim separately z3+cvc5 verified at L2->L3. Full harness
+               91 GREEN. scratch.
