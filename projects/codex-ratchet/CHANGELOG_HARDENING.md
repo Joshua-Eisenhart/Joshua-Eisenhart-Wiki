@@ -992,3 +992,10 @@ UP-83 SECOND ROOT AUDIT (drive + MSS tie-break)  foundations_reaudit_drive_and_m
                at dim-8 (over-resolution 173.0 vs greedy 179.7, same closure). Two auditor catches fixed in the
                measurement (gradient defined at the demand bar; freeze property gated on real room-tracking, not
                self-subtraction). Full harness 89 GREEN. scratch.
+
+UP-84 THE NEXT TOOTH (stages -> 360 loop)  next_tooth_engine_stages_to_360_loop_sim.py -- single engine stages ->
+               the composed 360-degree loop, read at the spinor level. A stage has no cyclic handedness (single-op
+               loop UEUE==EUEU 0.00); MSS next tooth = a closed 4-beat 360 loop (deductive vs inductive psi
+               distance 1.138). Parity spinor-level (psi 360=-1/720=+1, rho both +1 -- density blind to tense).
+               Handedness (tense) orthogonal to chirality (invariant under eps flip). Honest correction: dropped a
+               forced opposite-sign chirality claim for the true orthogonality result. Full harness 90 GREEN. scratch.
