@@ -933,3 +933,13 @@ UP-75 OBJECT-FORMATION SCORECARD  engine_object_formation_scorecard_sim.py compo
                NOT policy requiredControls). Loss reported not gated -- the structural fix for the UP-72b/72c
                gate-tuning cascade. Result: conv_loss 1.562, handling_loss 0.143, both controls flip. Full harness
                81 pass/0/0 GREEN. scratch.
+
+UP-76 COSMOGENESIS AS THE RATCHET'S FIRST TOOTH  cosmogenesis_ratchet_first_tooth_sim.py -- the universe's
+               beginning as an INSTANCE of the root ratchet running (MSS in a static field), incorporating the
+               2026-07-06 entropy-gradient-intrinsic shift. SAME demand/MSS rules at the origin: static field
+               carries no difference (no time); MSS forces the weakest persistent carrier = norm-preserving spinor;
+               its expansion is entangled (dark-energy-first, concurrence 0->1) and chiral (mirror = opposite sign,
+               F01+N01 forced); the entropy gradient opens WITH the carrier and freeze halts it. Lev measurement/
+               verdict discipline; all five controls flip. Three bugs fixed in the MATH not the gate (XX entangler,
+               signed holonomy, product-state off-by-one). Grounded x_grok_chat_TOE.txt 30/38/47; already in
+               toe_cosmology docs. Full harness 82 pass/0/0 GREEN. scratch.
