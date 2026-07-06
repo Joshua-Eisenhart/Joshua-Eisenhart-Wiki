@@ -961,3 +961,11 @@ UP-79 THE UNIFIED RATCHET  unified_ratchet_witness_memory_3q_sim.py -- composes 
                controls flip: ladder-vs-flat (memory 3 vs memoryless 0), pawl-lock (witness 0 vs minimality-only
                39 lateral swaps), Feynman freeze (0 teeth after freeze). Locks by remembered witness, intrinsic-
                gradient driven, climbs past dim-2. Full harness 85 GREEN. scratch.
+
+UP-80 THE BRIDGE TOOTH (carrier -> terrains)  bridge_tooth_carrier_to_terrains_sim.py -- the ratchet's next tooth
+               after cosmogenesis, making the climb continuous from the bare chiral spinor carrier up to the 8
+               terrain dissipators. Bare unitary carrier cannot close the attractor demand (td preserved 0.261); a
+               terrain dissipator closes it (td 0.002). MSS next tooth = a GKSL dissipator with a fixed point = a
+               terrain. 8 terrains pairwise-distinct CHANNELS (min 0.195; fixed points coincide, channels do not).
+               Chirality carries forward (eps sheets opposite, product -1). Real terrain generators. Full harness
+               86 GREEN. scratch.
