@@ -1031,3 +1031,10 @@ UP-88 ANTI-HALLUCINATION GUARD + STAGE NECESSITY  objective_gate_integrity_sweep
                checks; ALL GATES REAL. stage_necessity_ablation_sim.py -- every non-degenerate stage does
                irreplaceable work: scramble 10/10 and duplicate 10/10 induce new binding error; degenerate stages
                honestly expected-null (mean|1| vs |3|). Signature-space (15s). Full harness 95 GREEN. scratch.
+
+UP-89 STAGED ENGINE RUNG 1 + 64-SCHEDULE DEFINED  type1_single_loop_axis0_sim.py -- Type 1 single deductive loop
+               (4 stages + substages) with axis-0 threaded start->readout: 4 ordered stages (perm spread 0.349 vs
+               commuting control 0.0), drive from start (1.775 vs 0.693), readout Type1 +0.00065 vs Type2 -0.00231
+               opposite signs collapsing to -0.00008 without drive. engine_64_schedule_definition_sim.py -- 16
+               stages (terrain x axis-6 sign) x 4 operators = 64; sign load-bearing 32/32 under full flow (no-drive
+               control 0/32), 64/64 distinct (single-op control -> 16). Full harness 97 GREEN. scratch.
