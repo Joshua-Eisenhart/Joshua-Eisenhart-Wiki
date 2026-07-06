@@ -44,6 +44,8 @@ Use this as the low-friction entry point. The old full listing lives at [index-f
 - [[iff-chain-identity-duality-2026-07-03]] — Owner iff-chain doctrine capture; promotion_allowed=false.
 - [[igt-discovery-and-two-engines-2026-07-04]] — IGT discovery provenance, two-engine chart, GT-inversion program; promotion_allowed=false.
 - [[science-as-correlations-proved-in-technology-2026-07-04]] — correlations/technology epistemology + graded kill-board; promotion_allowed=false.
+- [[mimetic-holodeck-perception-and-engine-teeth-2026-07-05]] — perception as mimetic projection; ENGINE_TEETH objective function; doctrine + pre-registered measurement.
+- [[object-formation-mesh-perception-2026-07-05]] — objects as earned mesh survivors, not primitives; codex1+NVIDIA reviewed; Lev/JP integration.
 - [[finite-ordered-foundations-2026-07-04]] — F01+N01 as root axioms, 11 consequences, receipts-as-primary; salvaged 2026-07-04.
 - [[least-presumption-mss-third-root-2026-07-04]] — least presumption / MSS third root, dropped-then-regated; salvaged.
 - [[causality-fep-hume-neurology-2026-07-04]] — causality as compression narrative, FEP literal, Hume-by-neurology; salvaged.
