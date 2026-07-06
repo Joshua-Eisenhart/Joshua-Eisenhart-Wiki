@@ -1038,3 +1038,11 @@ UP-89 STAGED ENGINE RUNG 1 + 64-SCHEDULE DEFINED  type1_single_loop_axis0_sim.py
                opposite signs collapsing to -0.00008 without drive. engine_64_schedule_definition_sim.py -- 16
                stages (terrain x axis-6 sign) x 4 operators = 64; sign load-bearing 32/32 under full flow (no-drive
                control 0/32), 64/64 distinct (single-op control -> 16). Full harness 97 GREEN. scratch.
+
+UP-90 STAGED ENGINE RUNG 2+3 + DOC-FAITHFUL CORRECTION  type1_full_engine_both_loops_sim.py -- Type-1 inductive
+               loop + both loops composed into full engine; doc-faithful canonical slots (outer {Ti,Ti,Fe,Fe},
+               inner {Fi,Te,Te,Fi} from owner attachment sec5). (A) inductive loop 4 ordered stages (min 0.591,
+               spread 0.535). (B) two loops distinct (gap 0.586, complementary ops). (C) loop-order sensitive
+               (0.582). (D) axis-0 SPINOR readout T1 -2.939 vs T2 +2.939 opposite (density signed-vol same-sign at
+               full scale -> polarity is spinor-level). type1_single_loop_axis0_sim.py v2 -- looped back to
+               doc-faithful operators + spinor readout (T1 -1.281 vs T2 +1.281). Full harness 98 GREEN. scratch.
