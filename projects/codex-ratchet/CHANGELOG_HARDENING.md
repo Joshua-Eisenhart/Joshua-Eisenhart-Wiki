@@ -976,3 +976,11 @@ UP-81 THE NEXT TOOTH (terrains -> engine stages)  next_tooth_terrains_to_engine_
                orders = an engine stage (mean order gap 0.185). 16 signatures pairwise-distinct (min 0.028).
                Chirality splits into Type1/Type2 (disjoint, each internally distinct). Real oracle generators.
                Dynamical 16/16 vs symbolic 12/16 stated honestly. Full harness 87 GREEN. scratch.
+
+UP-82 FOUNDATIONS RE-AUDIT (forced/robust/load-bearing)  foundations_reaudit_forcing_robustness_sim.py -- loop-back
+               audit of whether the root is EARNED not merely sufficient. Lane 1: complex spinor FORCED (real dim-2
+               SO(2) abelian N01 fails commutator 0; complex dim-2 SU(2) nonabelian commutator 2.828; real needs
+               dim>=3). Lane 2: dim-2 saturates + dim-8 forces on 100% of admissible grid (rf<=0.6); rf=1.0 breaks
+               it (263 open). Lane 3: MSS load-bearing at dim-8 (7 admitted 0 unforced vs presumption 9 admitted 4
+               unforced); invisible at dim-2 (floor logic). Two first-run failures were findings, fixed in the
+               measurement not the gate. Full harness 88 GREEN. scratch.
