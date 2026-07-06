@@ -21,9 +21,11 @@ FOUR LANES (each a measurement; a SEPARATE policy eval decides; every lane has a
       the entropy-driving flow is intrinsic, not injected.
   (C) AXIS-0 READOUT AT LOOP CLOSE -- SPINOR-LEVEL: at loop close a POLARITY readout discovers the engine's SIGN.
       The readout is the SPINOR HOLONOMY around the loop (density-blind), where the sign lives (project canon:
-      axis-0 tense is spinor-level). Type 1 reads one sign; the mirror Type 2 loop reads the OPPOSITE sign. Control:
-      remove the coherent drive and the holonomy collapses to 0 (the sign is carried by the drive present from the
-      start). HONEST correction from the first draft: under the doc-faithful canonical operators the density-level
+      axis-0 tense is spinor-level). Type 1 reads one sign; the mirror Type 2 loop reads the OPPOSITE sign. REAL
+      CONTROL: erase the terrain chirality (eps->+1 every terrain) while KEEPING the drive at full magnitude -- Type
+      1 and Type 2 then read the SAME sign (the polarity separation collapses). This is a genuine falsifiable
+      control, NOT the trivial g=0 kill (identically 0 by expm(0)=I). HONEST correction from the first draft: under
+      the doc-faithful canonical operators the density-level
       signed-volume does NOT cleanly separate T1/T2 (both same sign) -- the polarity must be read at the spinor
       level, not the density level. This is axis-0 threaded start -> spinor readout.
   (D) THE 4 SUBSTAGES of each loop stage: each stage's 4 sub-operators (Ti,Te,Fi,Fe) cased by the stage's native
@@ -98,12 +100,16 @@ def signed_volume(traj):
     return float(sum(np.dot(traj[i],np.cross(traj[i+1],traj[i+2])) for i in range(len(traj)-2)))
 def cum_move(traj):
     return float(sum(np.linalg.norm(traj[i+1]-traj[i]) for i in range(len(traj)-1)))
-def spinor_holonomy(slots, g=G):
-    # spinor-level (density-blind) loop holonomy = accumulated coherent-drive phase around the loop; this is where
-    # the engine POLARITY lives (project canon: axis-0 tense is spinor-level, invisible at the density level).
+def spinor_holonomy(slots, g=G, chirality=True):
+    # spinor-level loop holonomy = accumulated coherent-drive phase around the loop; where the engine POLARITY lives
+    # (project canon: axis-0 tense is spinor-level). The SIGN is carried by the terrain chirality eps in H.
+    # chirality=False ERASES the handedness (eps->+1 every terrain) while KEEPING the drive -- a real, falsifiable
+    # control: Type 1 and Type 2 then read the SAME sign (the polarity separation must collapse).
     psi=np.array([1,0],complex)
     for (t,o,sign) in slots:
-        eps,kind,pole=TERR[t]; H=eps*(sx+sy+sz)/np.sqrt(3)
+        eps,kind,pole=TERR[t]
+        if not chirality: eps=1.0
+        H=eps*(sx+sy+sz)/np.sqrt(3)
         psi=expm(-1j*g*H)@psi; psi/=np.linalg.norm(psi)
     return float(np.angle(np.vdot(np.array([1,0],complex),psi)))
 def stage_channel(slot):
@@ -154,16 +160,18 @@ def measure_axis0_thread():
     # opposite; killing the drive collapses it. HONEST: the density signed-volume does NOT cleanly carry the sign
     # under the doc-faithful operators (T1/T2 same-sign) -- so the readout must be spinor-level (project canon).
     read_T1=spinor_holonomy(T1_DED); read_T2=spinor_holonomy(T2_DED)
-    read_nodrv=spinor_holonomy(T1_DED, g=0.0)
+    # REAL CONTROL: erase the terrain chirality (eps->+1) while KEEPING the drive -- not the trivial g=0 kill (which
+    # is identically 0 by expm(0)=I). With chirality erased Type 1 and Type 2 read the SAME sign; separation collapses.
+    erased_T1=spinor_holonomy(T1_DED, chirality=False); erased_T2=spinor_holonomy(T2_DED, chirality=False)
     dens_T1=float(np.mean([signed_volume(loop_traj(T1_DED,p,drive=True)) for p in probes]))
     dens_T2=float(np.mean([signed_volume(loop_traj(T2_DED,p,drive=True)) for p in probes]))
     return {"drive_cumulative_move":round(move_drive,4),"nodrive_cumulative_move":round(move_nodrv,4),
             "spinor_readout_type1":round(read_T1,5),"spinor_readout_type2":round(read_T2,5),
-            "spinor_readout_nodrive_control":round(read_nodrv,6),
+            "chirality_erased_type1":round(erased_T1,5),"chirality_erased_type2":round(erased_T2,5),
             "density_signed_volume_T1":round(dens_T1,5),"density_signed_volume_T2":round(dens_T2,5),
             "drive_present_from_start":bool(move_drive>1.3*move_nodrv),
             "readout_signs_opposite":bool(np.sign(read_T1)!=np.sign(read_T2)),
-            "readout_needs_drive":bool(abs(read_T1)>5*abs(read_nodrv) and abs(read_T2)>5*abs(read_nodrv))}
+            "chirality_erase_collapses_separation":bool(np.sign(erased_T1)==np.sign(erased_T2))}
 
 # ---------- lane D: 4 substages ----------
 
@@ -188,7 +196,7 @@ def measure_substages():
 def evaluate(a,x,d):
     laneA=a["stages_distinct"] and a["loop_order_sensitive"]
     laneB=x["drive_present_from_start"]
-    laneC=x["readout_signs_opposite"] and x["readout_needs_drive"]
+    laneC=x["readout_signs_opposite"] and x["chirality_erase_collapses_separation"]
     laneD=d["all_stages_four_effective_substages"] and d["all_stages_ordered_interior"]
     allpass=bool(laneA and laneB and laneC and laneD)
     return {"loop_is_four_ordered_stages":bool(laneA),
@@ -210,7 +218,8 @@ def main():
     print("  (B) AXIS-0 DRIVE PRESENT FROM THE START:")
     print(f"      loop work with intrinsic flow {x['drive_cumulative_move']} vs no-drive {x['nodrive_cumulative_move']} -> drive intrinsic {x['drive_present_from_start']}")
     print("  (C) AXIS-0 READOUT AT LOOP CLOSE (spinor-level, threaded from the drive):")
-    print(f"      spinor-holonomy polarity Type1 {x['spinor_readout_type1']:+.5f} vs Type2 {x['spinor_readout_type2']:+.5f} (opposite signs {x['readout_signs_opposite']}); no-drive control {x['spinor_readout_nodrive_control']:+.6f} -> readout needs the drive {x['readout_needs_drive']}")
+    print(f"      spinor-holonomy polarity Type1 {x['spinor_readout_type1']:+.5f} vs Type2 {x['spinor_readout_type2']:+.5f} (opposite signs {x['readout_signs_opposite']})")
+    print(f"      CHIRALITY-ERASE control (eps->+1, drive kept): T1 {x['chirality_erased_type1']:+.5f} vs T2 {x['chirality_erased_type2']:+.5f} -> same sign, separation collapses {x['chirality_erase_collapses_separation']}")
     print(f"      (density signed-volume T1 {x['density_signed_volume_T1']:+.5f} vs T2 {x['density_signed_volume_T2']:+.5f} -- reported; under doc-faithful operators the density readout does NOT cleanly carry the sign, so the polarity is spinor-level per project canon)")
     print("  (D) THE 4 SUBSTAGES:")
     print(f"      every stage 4 effective cased substages {d['all_stages_four_effective_substages']}; interior ordered {d['all_stages_ordered_interior']}")
