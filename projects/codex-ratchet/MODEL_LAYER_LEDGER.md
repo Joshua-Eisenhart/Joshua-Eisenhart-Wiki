@@ -1632,3 +1632,25 @@ pole, G=0.35 KAP=1.0, H=eps(sx+sy+sz)/sqrt3).
 Three controls flip (measurement/verdict separated). This closes the continuity gap: cosmogenesis carrier ->
 (attractor demand) -> terrain dissipators -> geometric constraint manifold, as ONE ratchet climb. scratch_
 diagnostic, promotion_allowed=False. Full harness 86 pass/0/0 GREEN.
+
+## THE NEXT TOOTH -- the 8 terrains -> the engine STAGES (2026-07-06)
+next_tooth_terrains_to_engine_stages_sim.py (artifact 91546621): the ratchet's next tooth after the terrains,
+making the climb continuous from the 8 terrain dissipators up to the composed engine STAGES (the 16). Uses the
+REAL oracle generators (engines/oracle_targets.py gen/flow/op; G=0.35 KAP=1.0 Q=1-e^-1 TH=pi/4; stage down=
+J(flow(X,probe)) terrain-first, up=flow(X,J(probe)) operator-first, order_gap=||down-up|| = N01).
+  - DEMAND a terrain alone cannot close: order must matter (N01). A bare terrain composed with itself is order-
+    invariant (order gap 0.00e+00 -- one channel has no order). The room asserts A-then-B differs from B-then-A;
+    a single terrain resolves no such distinguishability.
+  - MSS NEXT TOOTH = the weakest structure that makes order matter = ONE native operator (not commuting with the
+    terrain) composed in the two orders = an engine STAGE. Native = the terrain's own axis family (NATIVE table;
+    operator_geometry_fusion -- the terrain's surface IS the operator).
+  - WHY SIXTEEN: 8 terrains x 2 native operators = 16 stages; the 16 (down,up) signatures pairwise-distinct (min
+    signature distance 0.028).
+  - CHIRALITY -> TWO ENGINES: the eps sign inherited from cosmogenesis (via the terrains) splits the 16 into
+    Type 1 (eps=+1: terrains 0-3) and Type 2 (eps=-1: terrains 4-7), 8 stages each; disjoint stage-sets each
+    internally distinct (cross-engine min 0.028, t1 internal 0.083, t2 internal 0.143).
+Two order-sensitivity levels stated honestly: DYNAMICAL probe-specific gap 16/16 nonzero (mean 0.185); SYMBOLIC-
+IDENTITY (exact commutation) 12/16 -- with the coherent axis (1,1,1)/sqrt3 the four Fe stages commute exactly
+with their terrains (phase covariance). This sim reports the dynamical count; the 12/16 symbolic degeneracy is the
+established prior result and is NOT contradicted. Three controls flip. Continues the ladder: cosmogenesis carrier
+-> terrains -> engine stages, one forced climb. scratch_diagnostic, promotion_allowed=False. Full harness 87 GREEN.
