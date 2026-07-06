@@ -1718,3 +1718,24 @@ Three controls flip. Continues the ladder: cosmogenesis -> terrains -> engine st
 adds the TENSE axis (deductive/inductive), orthogonal to chirality. scratch_diagnostic, promotion_allowed=False.
 Full harness 90 pass/0/0 GREEN. OWED NEXT: the 720-degree DOUBLE loop (inner+outer, +psi return) as the tooth
 above the single 360 loop.
+
+## THE 720 DOUBLE LOOP + THE SPINOR-LIFT ROOT AUDIT (climb + loop-back in one motion) (2026-07-06)
+next_tooth_720_double_loop_and_lift_audit_sim.py (artifact 2e3a8afa): both the next rung and the root audit it
+exposes, in the standing loop-back-while-climbing method.
+  PART 1 -- the 720-degree DOUBLE LOOP, tooth above the single 360 loop: the single 360 loop returns -psi (overlap
+    -1 -- a sign defect, does NOT genuinely close, demand OPEN); the 720 double loop (an ACTUAL 360-comp-360
+    composition) returns +psi (overlap +1 -- genuine return, demand CLOSED). The two tense traversals (deductive
+    UEUE, inductive EUEU) are distinct (1.138), so the double loop has two nameable halves.
+  PART 2 (ROOT AUDIT, loop-back) -- is the SPINOR LIFT (psi over rho) FORCED or merely installed? R(2pi) sends
+    psi->-psi but leaves rho IDENTICAL. (A) NO density-level observable separates R(2pi)|0> from |0> (max gap
+    2.2e-15 over 200 random Hermitian observables) but the psi-level lifted overlap does (gap 2.0) -> rho is
+    INSUFFICIENT to carry the 360-vs-720 distinction the engine rests on, so the lift is FORCED by an unmet
+    distinguishability. (B) ERASED-quotient control: impose rho=|psi><psi| (identify psi~-psi) and the distinction
+    DIES (2.0 -> 0.0) -- it lives ONLY in refusing the quotient (the lift), non-definitional. (C) the lift is
+    MINIMAL: a 2-to-1 cover (each rho has exactly two psi lifts +/-psi), the smallest nontrivial cover.
+The same lift-forcing was separately z3+cvc5 dual-solver verified at L2->L3 (ledger 'RATCHET CLIMB ENGINE --
+non-definitional flip CORRECTED'); this is the spinor-loop face of that forcing, not a re-proof. HONEST fix during
+the build: the double-loop-return number initially measured a pure transport, not the actual 360-comp-360
+composition the claim named -- corrected so the number matches the claim. Both parts pass. scratch_diagnostic,
+promotion_allowed=False. Full harness 91 pass/0/0 GREEN. Ladder now: static field -> chiral carrier -> 8 terrains
+-> 16 stages -> 360 loop (tense) -> 720 double loop (genuine return), with the spinor lift under it FORCED.
