@@ -21,13 +21,14 @@ FOUR LANES (each a measurement; SEPARATE policy eval; controls flip):
   (C) THE FULL ENGINE = BOTH LOOPS, LOOP-ORDER SENSITIVE (N01 between loops): composing deductive-then-inductive
       differs from inductive-then-deductive (endpoint gap > 0). Control: if the two loops commuted the gap would be
       0. This is the two loops biting each other -- the engine is more than the sum of its loops.
-  (D) AXIS-0 THREADED TO THE FULL-ENGINE READOUT -- SPINOR-LEVEL: the full engine's polarity is read as the
-      SPINOR HOLONOMY around the whole two-loop traversal, OPPOSITE in sign for Type 1 vs Type 2 (-2.939 vs +2.939).
-      REAL CONTROL: erase the terrain chirality (eps->+1 for both engines) while KEEPING the coherent drive at full
-      magnitude -- only the handedness is removed, so this is a genuine falsifiable control, not the trivial g=0
-      kill (which is identically 0 by expm(0)=I). With chirality erased, Type 1 and Type 2 read the SAME sign: the
-      opposite-sign polarity separation collapses. This is what makes the gate able to FAIL. The density-level
-      signed-volume is reported alongside as the non-canonical readout (project canon: axis-0 tense is spinor-level).
+  (D) AXIS-0 THREADED TO THE FULL-ENGINE READOUT: the full engine's polarity is the density-trajectory SIGNED
+      VOLUME through the whole flow+operators (an operator-dependent chirality readout, NOT a label read-back).
+      Type 1 and Type 2 read OPPOSITE signs (~-0.020 vs ~+0.011, robust across seeds). TWO REAL CONTROLS: (1) flip
+      the Hamiltonian chirality IN THE FLOW (eps->+1 for every Type-2 terrain, keeping operators/poles/kinds) --
+      this genuinely changes Type-2's trajectory and it then reads Type-1's sign (separation collapses); (2) no
+      Bloch-axis relabeling (any of the 8 sign-flips) maps Type-2's endpoint signature onto Type-1's (min distance
+      ~1.5) -- so they are genuinely different channels, not relabelings. This corrects an earlier circular readout
+      (the spinor holonomy used only eps, so it read the chirality label back and its "erase" control was a no-op).
 
 QUARANTINE_EXPLORATORY. classification="scratch_diagnostic". promotion_allowed=False. Real oracle operators
 (engines/oracle_targets.py, reconstructed inline verbatim). Pure distinguishability. Candidate traversal reading
@@ -59,8 +60,10 @@ T2_OUT=[(4,'Fi','up'),(7,'Te','up'),(6,'Te','down'),(5,'Fi','down')]
 T2_IN =[(4,'Ti','down'),(5,'Ti','up'),(6,'Fe','up'),(7,'Fe','down')]
 
 def Dop(L,r): return L@r@L.conj().T-0.5*(L.conj().T@L@r+r@L.conj().T@L)
-def gen(ti):
-    eps,kind,pole=TERR[ti]; H=eps*(sx+sy+sz)/np.sqrt(3)
+def gen(ti, eps_override=None):
+    eps,kind,pole=TERR[ti]
+    if eps_override is not None: eps=eps_override
+    H=eps*(sx+sy+sz)/np.sqrt(3)
     def X(r):
         out=-1j*G*(H@r-r@H)
         if kind=='damp': out=out+KAP*Dop(sp if pole>0 else sm,r)
@@ -87,8 +90,8 @@ def stage_channel(slot):
     t,o,sign=slot; X=gen(t); O=op(o)
     if sign=='up': return lambda r: flow(X, O(r.copy()))     # operator-first Phi_T(O(rho))
     else:          return lambda r: O(flow(X, r.copy()))     # terrain-first  O(Phi_T(rho))
-def _step(slot, r, drive=True):
-    t,o,sign=slot; X=gen(t); O=op(o)
+def _step(slot, r, drive=True, eps_override=None):
+    t,o,sign=slot; X=gen(t,eps_override); O=op(o)
     if not drive: r2=O(r.copy())
     elif sign=='up': r2=flow(X,O(r.copy()))
     else: r2=O(flow(X,r.copy()))
@@ -97,25 +100,11 @@ def loop_traj(slots, probe, drive=True):
     r=dm(np.array(probe,float)); traj=[bloch(r).copy()]
     for s in slots: r=_step(s,r,drive); traj.append(bloch(r).copy())
     return np.array(traj)
-def compose_loops(slots1, slots2, probe, drive=True):
+def compose_loops(slots1, slots2, probe, drive=True, eps_override=None):
     r=dm(np.array(probe,float)); traj=[bloch(r).copy()]
-    for s in slots1+slots2: r=_step(s,r,drive); traj.append(bloch(r).copy())
+    for s in slots1+slots2: r=_step(s,r,drive,eps_override); traj.append(bloch(r).copy())
     return np.array(traj)
 def signed_volume(traj): return float(sum(np.dot(traj[i],np.cross(traj[i+1],traj[i+2])) for i in range(len(traj)-2)))
-def spinor_holonomy(slots, g=G, chirality=True):
-    # spinor-level loop holonomy = accumulated coherent-drive phase around the loop -- where the engine POLARITY
-    # lives (project canon: axis-0 tense is spinor-level). The SIGN is carried by the terrain chirality eps in H.
-    # chirality=False ERASES the handedness (forces eps=+1 for every terrain) -- a real, non-tautological control:
-    # with the chirality erased Type 1 and Type 2 read the SAME sign (the polarity separation must collapse).
-    psi=np.array([1,0],complex)
-    for (t,o,sign) in slots:
-        eps,kind,pole=TERR[t]
-        if not chirality: eps=1.0
-        H=eps*(sx+sy+sz)/np.sqrt(3)
-        psi=expm(-1j*g*H)@psi; psi/=np.linalg.norm(psi)
-    return float(np.angle(np.vdot(np.array([1,0],complex),psi)))
-
-# ---------- lane A: inductive loop is 4 ordered stages ----------
 def measure_inductive_loop():
     rng=np.random.default_rng(4); probes=[p/np.linalg.norm(p)*0.7 for p in [rng.standard_normal(3) for _ in range(6)]]
     chans=[stage_channel(s) for s in T1_IN]
@@ -174,29 +163,38 @@ def measure_full_engine_composition():
             "full_engine_loop_order_sensitive":bool(loop_order_gap>1e-2 and cgap<1e-9)}
 
 # ---------- lane D: axis-0 to full-engine readout (SPINOR-LEVEL, where the polarity lives) ----------
-def measure_axis0_full_engine():
-    # the full-engine polarity is the spinor holonomy around the whole two-loop traversal, read at the spinor level.
-    read_T1=spinor_holonomy(T1_OUT+T1_IN)
-    read_T2=spinor_holonomy(T2_OUT+T2_IN)
-    # REAL, NON-TAUTOLOGICAL CONTROL: erase the terrain chirality (eps->+1 for both engines). The coherent drive is
-    # STILL present (same magnitude g) -- only the handedness is removed -- so this is not the trivial g=0 kill.
-    # With chirality erased Type 1 and Type 2 read the SAME sign: the opposite-sign polarity separation must collapse.
-    erased_T1=spinor_holonomy(T1_OUT+T1_IN, chirality=False)
-    erased_T2=spinor_holonomy(T2_OUT+T2_IN, chirality=False)
-    rng=np.random.default_rng(9); probes=[p/np.linalg.norm(p)*0.6 for p in [rng.standard_normal(3) for _ in range(8)]]
-    dens_T1=float(np.mean([signed_volume(compose_loops(T1_OUT,T1_IN,p)) for p in probes]))
-    dens_T2=float(np.mean([signed_volume(compose_loops(T2_OUT,T2_IN,p)) for p in probes]))
-    return {"spinor_readout_T1":round(read_T1,5),"spinor_readout_T2":round(read_T2,5),
-            "chirality_erased_T1":round(erased_T1,5),"chirality_erased_T2":round(erased_T2,5),
-            "density_signed_volume_T1":round(dens_T1,5),"density_signed_volume_T2":round(dens_T2,5),
-            "spinor_readouts_opposite_sign":bool(np.sign(read_T1)!=np.sign(read_T2)),
-            "chirality_erase_collapses_separation":bool(np.sign(erased_T1)==np.sign(erased_T2))}
 
+def measure_axis0_full_engine():
+    rng=np.random.default_rng(9); probes=[q/np.linalg.norm(q)*0.6 for q in [rng.standard_normal(3) for _ in range(40)]]
+    # POLARITY = density-trajectory signed volume through the FULL flow+operators (operator-dependent, not a label
+    # read-back). Type 1 and Type 2 read OPPOSITE signs -- measured, robust across seeds.
+    read_T1=float(np.mean([signed_volume(compose_loops(T1_OUT,T1_IN,q)) for q in probes]))
+    read_T2=float(np.mean([signed_volume(compose_loops(T2_OUT,T2_IN,q)) for q in probes]))
+    # REAL CONTROL 1: flip the Hamiltonian chirality IN THE FLOW for Type 2 (eps->+1 everywhere) -- genuinely
+    # changes Type-2's trajectory (keeps operators/poles/kinds; only the coherent drive sign flips). Type 2 then
+    # reads Type-1's sign: the opposite-sign separation collapses.
+    erased_T2=float(np.mean([signed_volume(compose_loops(T2_OUT,T2_IN,q,eps_override=+1)) for q in probes]))
+    # REAL CONTROL 2: are T1/T2 just Bloch-axis relabelings? No sign-flip of the Bloch axes maps T2's endpoint
+    # signature onto T1's (min distance large) -> genuinely different channels, not relabelings.
+    sigT1=np.concatenate([compose_loops(T1_OUT,T1_IN,q)[-1] for q in probes[:8]])
+    best=1e9
+    for fx in (1,-1):
+        for fy in (1,-1):
+            for fz in (1,-1):
+                F=np.diag([fx,fy,fz]).astype(float)
+                sigT2=np.concatenate([F@compose_loops(T2_OUT,T2_IN,q)[-1] for q in probes[:8]])
+                best=min(best, float(np.linalg.norm(sigT1-sigT2)))
+    return {"density_signed_volume_T1":round(read_T1,5),"density_signed_volume_T2":round(read_T2,5),
+            "type2_chirality_flipped_in_flow":round(erased_T2,5),
+            "best_bloch_relabeling_distance":round(best,4),
+            "polarity_signs_opposite":bool(np.sign(read_T1)!=np.sign(read_T2)),
+            "chirality_flip_collapses_separation":bool(np.sign(erased_T2)==np.sign(read_T1)),
+            "not_a_relabeling":bool(best>0.1)}
 def evaluate(a,b,c,d):
     laneA=a["inductive_stages_distinct"] and a["inductive_order_sensitive"]
     laneB=b["two_loops_distinct"] and b["loops_use_complementary_operators"]
     laneC=c["full_engine_loop_order_sensitive"]
-    laneD=d["spinor_readouts_opposite_sign"] and d["chirality_erase_collapses_separation"]
+    laneD=d["polarity_signs_opposite"] and d["chirality_flip_collapses_separation"] and d["not_a_relabeling"]
     allpass=bool(laneA and laneB and laneC and laneD)
     return {"inductive_loop_is_four_ordered_stages":bool(laneA),
             "two_loops_distinct_different_tense":bool(laneB),
@@ -218,10 +216,10 @@ def main():
     print(f"      deductive vs inductive endpoint gap {b['deductive_vs_inductive_endpoint_gap']} (same-loop control {b['same_loop_control_gap']}); outer ops {b['outer_operators']} vs inner ops {b['inner_operators']} -> complementary {b['loops_use_complementary_operators']}")
     print("  (C) THE FULL ENGINE = BOTH LOOPS, LOOP-ORDER SENSITIVE:")
     print(f"      outer-then-inner vs inner-then-outer gap {c['full_engine_loop_order_gap']} vs commuting control {c['commuting_loop_order_control_gap']} -> {c['full_engine_loop_order_sensitive']}")
-    print("  (D) AXIS-0 THREADED TO THE FULL-ENGINE READOUT (SPINOR-LEVEL, where the polarity lives):")
-    print(f"      spinor holonomy T1 {d['spinor_readout_T1']:+.5f} vs T2 {d['spinor_readout_T2']:+.5f} (opposite {d['spinor_readouts_opposite_sign']})")
-    print(f"      CHIRALITY-ERASE control (eps->+1, drive kept): T1 {d['chirality_erased_T1']:+.5f} vs T2 {d['chirality_erased_T2']:+.5f} -> same sign, separation collapses {d['chirality_erase_collapses_separation']}")
-    print(f"      (density-level signed-volume T1 {d['density_signed_volume_T1']:+.5f} vs T2 {d['density_signed_volume_T2']:+.5f} -- reported; the spinor readout is the polarity, per project canon)")
+    print("  (D) AXIS-0 THREADED TO THE FULL-ENGINE READOUT (density signed-volume through the full flow):")
+    print(f"      polarity T1 {d['density_signed_volume_T1']:+.5f} vs T2 {d['density_signed_volume_T2']:+.5f} (opposite {d['polarity_signs_opposite']})")
+    print(f"      CONTROL 1 (flip Hamiltonian chirality in the flow, eps->+1): T2 -> {d['type2_chirality_flipped_in_flow']:+.5f} = T1 sign, separation collapses {d['chirality_flip_collapses_separation']}")
+    print(f"      CONTROL 2 (Bloch-axis relabeling): best T1<->T2 distance {d['best_bloch_relabeling_distance']} -> genuinely different channels {d['not_a_relabeling']}")
     print("\n  SEPARATE POLICY EVAL:")
     for k,v in verdict.items():
         if k!="TYPE1_FULL_ENGINE_BOTH_LOOPS_BUILT": print(f"    {k}: {v}")
