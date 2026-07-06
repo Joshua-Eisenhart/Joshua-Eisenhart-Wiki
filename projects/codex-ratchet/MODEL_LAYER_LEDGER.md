@@ -1677,3 +1677,23 @@ basis-resolution boundary for tuning -- corrected to test the admissible regime 
 was invisible at dim-2 -- moved to dim-8 where "admit only forced" can differ from "admit everything." All three
 lanes now earned. Verdict: FOUNDATIONS EARNED (forced, robust, load-bearing) = True. scratch_diagnostic,
 promotion_allowed=False. Full harness 88 pass/0/0 GREEN.
+
+## SECOND ROOT AUDIT -- is the DRIVE forced, and is MSS's tie-break load-bearing? (2026-07-06)
+foundations_reaudit_drive_and_mss_tiebreak_sim.py (artifact ae24af74): second loop-back audit on the root
+(standing process: each ratchet-up reveals a base assumption to audit up from). Continues the first re-audit
+(complex spinor forced / conclusions robust / MSS load-bearing) with its two flagged un-audited assumptions.
+  LANE A -- ENTROPY-GRADIENT DRIVE FORCED, not one option among several: only the gradient satisfies all three root
+    properties: (i) INTRINSIC (computed from carrier+room, nothing injected); (ii) VANISHES at demand-closure
+    (0.00e+00; gradient defined consistently with the demand bar = unmet demand rel rf*td); (iii) TRACKS THE ROOM
+    (forward-growth delta 0.082 re-opens the gradient; a genuinely frozen room adds no demand). The two alternatives
+    FAIL: injected drive does not vanish (=1.0) and is IDENTICAL under room growth (forward delta 0.00, blind to the
+    room -- the classical-FEP failure mode the owner flagged); scalar von-Neumann entropy does not vanish at full
+    resolution (=1.206, blind to the distinguishability structure).
+  LANE B -- MSS fewest-closing tie-break LOAD-BEARING at dim-8: fewest-closing over-resolution 173.0 vs greedy
+    179.7 (same demand closure) -- it admits strictly less unforced structure, realizing 'presume least'. At dim-2
+    the two tie-breaks also differ here (reported as measured; only the dim-8 result gates).
+TWO auditor catches fixed, both in the MEASUREMENT not the gate: (1) the gradient must be defined consistently with
+the demand bar to vanish at closure; (2) the 'halts under freeze' property cannot be tested by self-subtraction
+(grad_frozen_delta on a content-identical pool copy is 0 by function determinism, not by halting) -- replaced with a
+real room-tracking contrast (gradient re-opens on growth vs injected identical on growth). Verdict: ROOT DRIVE AND
+TIE-BREAK AUDITED = True. scratch_diagnostic, promotion_allowed=False. Full harness 89 pass/0/0 GREEN.
