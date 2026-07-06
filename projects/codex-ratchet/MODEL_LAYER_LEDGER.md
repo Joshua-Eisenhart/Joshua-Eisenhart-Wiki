@@ -1499,3 +1499,28 @@ signal to identify. So the external arbiter independently flags t3 as the terrai
 polynomial-identifiable on this window -- reported, not hidden. scratch_diagnostic, promotion_allowed=False.
 artifact 26ce1c99. (PyKoopman deferred: its sdist pulls an old scikit-learn with no py3.13 wheel; PySINDy alone,
 installed --no-build-isolation --no-deps against the env's sklearn 1.9.0, is the working external arbiter.)
+
+## OBJECT-FORMATION SCORECARD -- two external targets composed under the Lev measurement discipline (2026-07-06)
+OWNER attached leviathan_object_formation_mesh_package_20260706.zip (version_id 92aa9309-d8f4-493f-b690-ce4c78d8623f,
+72 files: code/ measures, policies/, lfd-instruments/, docs/). The transferable substance (NOT "make it about Lev")
+is the MEASUREMENT DISCIPLINE, which is the structural fix for the UP-72b/72c gate-tuning cascade:
+  1. MEASUREMENT/VERDICT SEPARATION (docs/09_dynamics_provider_lane.md): an instrument may NOT emit
+     pass/true/formed/admitted; "SINDy/Koopman propose evidence; deterministic adapters convert to measurements;
+     Eval decides." A gate the instrument does not contain cannot be relaxed after a fail.
+  2. OBJECTHOOD IS A FORMATION LOSS, NOT A BOOLEAN (docs/04_loss_functions): formation_loss = handling_loss +
+     convergence_loss + (recall/anti-key/attention, N/A for a closed engine).
+engine_object_formation_scorecard_sim.py composes the two objective targets already built:
+  - convergence_loss = 5*(1 - reidentification_rate)  [Lev form exactly; from engine_reidentification_objective]
+  - handling_loss (ENGINE-DOMAIN PROXY) = mean max(0, 1 - heldout_R^2)  [from engine_dynamics_id_arbiter]
+Split into PURE INSTRUMENTS (emit numbers only) + a SEPARATE eval_formation policy (decides). Loss surface is
+REPORTED not gated; the ONLY verdict is that BOTH independent negative controls flip.
+ATTRIBUTION (corrected per auditor, stated honestly): Lev supplies the loss STRUCTURE (additive components,
+convergence 5*(1-rate) verbatim); the handling term is an engine-domain PROXY (Lev's TS handling term is tiered on
+a before/after handlingLossDelta trend a closed engine lacks), labelled as a proxy not the literal formula. The
+eval criterion is the dynamics-lane "Controls" section (shuffled-time/shuffled-probe break), NOT the
+object-formation.policy.yaml requiredControls list (single-pipeline/hash/anti-key/attention), which concern a
+multi-source mesh with memory and do not apply here.
+RESULT: convergence_loss 1.562 (rate 0.688), handling_loss_mean 0.143, defined-components sum 1.706; both controls
+flip -> PASS. Full harness 81 pass/0/0 GREEN. scratch_diagnostic, promotion_allowed=False. artifact 42698a1a.
+This gives the two external targets (re-id UP-73 + PySINDy UP-74) a single formation-loss readout under an explicit
+measurement/verdict split -- the discipline that would have prevented the four gate-tuning audits.
