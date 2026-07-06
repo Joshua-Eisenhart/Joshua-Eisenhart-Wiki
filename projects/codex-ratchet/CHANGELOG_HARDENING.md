@@ -1024,3 +1024,10 @@ UP-87 THE AI OF PERCEPTION (object binding)  perception_object_binding_sim.py --
                degeneracies (depol eps-pairs 1<->5 + Fe proj-commuting 3<->7); shuffled control -> chance. Criterion
                REAL: degenerate pairs at distance 0.0 (merged not hallucinated, median 0.659). Binding needs the
                interior: real spread 0.668 vs same-kind control 0.0. Full harness 93 GREEN. scratch.
+
+UP-88 ANTI-HALLUCINATION GUARD + STAGE NECESSITY  objective_gate_integrity_sweep_sim.py -- standing guard proving
+               the three objective gates PASS real inputs AND FAIL cheats (chance-binding, zero-interior,
+               hallucinated degeneracies, non-flipping controls, memorized shuffled) + JSON non-emptiness/recompute
+               checks; ALL GATES REAL. stage_necessity_ablation_sim.py -- every non-degenerate stage does
+               irreplaceable work: scramble 10/10 and duplicate 10/10 induce new binding error; degenerate stages
+               honestly expected-null (mean|1| vs |3|). Signature-space (15s). Full harness 95 GREEN. scratch.
