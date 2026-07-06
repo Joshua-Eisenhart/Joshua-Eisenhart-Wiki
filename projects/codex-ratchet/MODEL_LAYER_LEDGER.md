@@ -1739,3 +1739,28 @@ the build: the double-loop-return number initially measured a pure transport, no
 composition the claim named -- corrected so the number matches the claim. Both parts pass. scratch_diagnostic,
 promotion_allowed=False. Full harness 91 pass/0/0 GREEN. Ladder now: static field -> chiral carrier -> 8 terrains
 -> 16 stages -> 360 loop (tense) -> 720 double loop (genuine return), with the spinor lift under it FORCED.
+
+## THE ENGINE INTERIOR -- 16 kinds of intelligence, 4 sub-stages each, 8 terrains with 2 signed types (2026-07-06)
+sixteen_intelligences_substages_terrain_ratchet_sim.py (artifact 4deb521e): the concrete engine-interior build on
+the REAL oracle operators (engines/oracle_targets.py, reconstructed inline verbatim). Owner directive: "make sure
+each of the 16 engine stages is its own kind of intelligence, and has the 4 subengine stages; the 8 terrains need
+to actually be ratcheted with their unique 2 types of entropy/operators."
+  (1) 16 STAGES AS DISTINCT KINDS OF INTELLIGENCE: each stage's processing FINGERPRINT (over a 6-state spanning
+      probe set: which Bloch component contracts + entropy sign per probe) is pairwise distinct -- min pairwise
+      0.360; a shuffled-operator control collapses to 0.000. A "kind" = a distinct information-processing operation
+      (what invariant it preserves/destroys), not one number.
+  (2) EACH STAGE HAS 4 SUB-STAGES: the four main operators (Ti,Te,Fi,Fe) run inside a stage CASED by the stage's
+      native operator (U_o . op(sub) . U_o^dagger). Data-derived gates: all 4 beats effective (each moves the
+      state); the interior is ordered (reverse != forward endpoint); the 4 sub-stages are distinct; and CASING IS
+      REAL -- the two stages sharing a terrain differ by casing (interior distances 0.17-0.99, measured nonzero).
+  (3) 8 TERRAINS RATCHETED WITH 2 SIGNED OPERATOR/ENTROPY TYPES: the 2 signed types are a symbolic-grade split --
+      F-type (Fi,Fe) ROTATIONS preserve von Neumann entropy EXACTLY (max|dS| 0.0 over 200 states), T-type (Ti,Te)
+      PINCHES change it (0.451/0.484). Each terrain's native pair is measured to be exactly one pinch + one
+      rotation (NOT a len==2 tautology). Each terrain's native pinch is a MONOTONE ratchet: repeated application
+      drives its pinch-basis coherence monotonically toward 0 (e.g. t0 Ti: 0.227->0.083->...->0.0006). HONEST
+      SCOPE: WHICH T and F a terrain uses is the oracle NATIVE assignment (given); what is earned is the pinch/
+      rotation pairing and the monotone ratchet.
+TWO auditor catches fixed (both the non-data-derived-gate pattern the project rejects): (a) substages_of ignored
+its casing parameter -> casing now genuinely gates the interior (the two stages on a terrain differ); (b) the
+len(subs)==4 gate was guaranteed True -> replaced with a measured effective-beat count. All three lanes built.
+scratch_diagnostic, promotion_allowed=False. Full harness 92 pass/0/0 GREEN.
