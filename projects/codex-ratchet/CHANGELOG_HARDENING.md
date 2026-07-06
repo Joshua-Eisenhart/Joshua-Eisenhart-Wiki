@@ -1053,3 +1053,12 @@ UP-90b CONTROL HARDENING (auditor)  the axis-0 spinor-readout no-drive control w
                Type1/Type2 then read the SAME sign (separation collapses: rung1 both -1.281, full-engine both
                -2.939). Also corrected a false ledger claim ("full-engine density both same sign" -> the density
                signed-volume is not a stable polarity carrier, sign operator/probe-dependent). Harness 98 GREEN.
+
+UP-91 STAGED ENGINE RUNG 4 (Type-2) + NON-CIRCULAR POLARITY READOUT  type2_full_engine_both_loops_sim.py -- the
+               Type-2 RIGHT-Weyl mirror full engine, doc-faithful slots (outer inductive {Fi,Fi,Te,Te}, inner
+               deductive {Fe,Fe,Ti,Ti}). (A) both loops 4 ordered stages. (B) distinct (gap 0.502). (C) loop-order
+               sensitive (0.501). (D) polarity OPPOSITE to Type 1. AUDITOR FIX across all 3 engine sims: the spinor-
+               holonomy readout was circular (used only eps -> erase control a no-op, gate couldn't fail); replaced
+               with density signed-volume through the full flow+operators + honest controls (full-engine: flip
+               Hamiltonian chirality in the flow collapses separation; single-loop: remove GKSL flow collapses
+               polarity to ~0; both: Bloch-axis relabeling shows genuinely different channels). Harness 99 GREEN.
