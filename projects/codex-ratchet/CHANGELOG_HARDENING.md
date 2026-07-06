@@ -1007,3 +1007,12 @@ UP-85 THE 720 DOUBLE LOOP + SPINOR-LIFT AUDIT  next_tooth_720_double_loop_and_li
                max gap 2.2e-15 over 200 Hermitian obs, but psi gap 2.0; erased quotient kills the distinction
                2.0->0.0; lift minimal 2-to-1 cover). Same claim separately z3+cvc5 verified at L2->L3. Full harness
                91 GREEN. scratch.
+
+UP-86 THE ENGINE INTERIOR (16 kinds / 4 sub-stages / terrain 2-type ratchet)  sixteen_intelligences_substages_
+               terrain_ratchet_sim.py -- (1) 16 stages as distinct KINDS of intelligence (processing fingerprint
+               min pairwise 0.360; shuffled-operator control 0.000). (2) each stage 4 sub-stages cased by its
+               native operator (all beats effective, ordered, distinct; casing makes the two stages on a terrain
+               differ, distances 0.17-0.99). (3) 8 terrains 2 signed types: F-type preserves entropy EXACTLY (0.0),
+               T-type pinches change it (0.45/0.48); each native pair one pinch + one rotation (measured); each
+               native pinch a monotone ratchet (coherence -> 0). Two auditor catches fixed (casing param now used;
+               len==4 tautology replaced with measured effective-beat count). Full harness 92 GREEN. scratch.
