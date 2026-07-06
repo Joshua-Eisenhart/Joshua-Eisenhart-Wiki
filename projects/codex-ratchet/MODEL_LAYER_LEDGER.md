@@ -1697,3 +1697,24 @@ the demand bar to vanish at closure; (2) the 'halts under freeze' property canno
 (grad_frozen_delta on a content-identical pool copy is 0 by function determinism, not by halting) -- replaced with a
 real room-tracking contrast (gradient re-opens on growth vs injected identical on growth). Verdict: ROOT DRIVE AND
 TIE-BREAK AUDITED = True. scratch_diagnostic, promotion_allowed=False. Full harness 89 pass/0/0 GREEN.
+
+## THE NEXT TOOTH -- engine stages -> the composed 360-degree LOOP (spinor-level) (2026-07-06)
+next_tooth_engine_stages_to_360_loop_sim.py (artifact 7872ec37): the ratchet's next tooth after the engine stages,
+continuing the climb from single stages to the composed 360-degree engine LOOP, read at the SPINOR (psi) level
+where the loop parity/tense lives.
+  - DEMAND a single stage cannot close: a CLOSED traversal must differ from its TIME-REVERSE (deductive UEUE vs
+    inductive EUEU). A single stage (one operator, two orders) makes PAIRWISE order matter but has no CYCLE -- a
+    loop built from a single repeated operator has UEUE==EUEU (handedness 0.00).
+  - MSS NEXT TOOTH = a closed 4-beat 360-degree loop, read at psi. Deductive vs inductive spinor distance 1.138.
+  - PARITY IS SPINOR-LEVEL (rho-invisible): the 360 loop returns -psi and the 720 loop +psi at the spinor level
+    (overlap -1, +1); at the density level BOTH are identity (rho overlap +1, +1). This is WHY all prior density-
+    level Axis tooling (Axes 1-6) could not see tense -- the tooth structurally lives at psi.
+  - HANDEDNESS (tense) IS ORTHOGONAL TO CHIRALITY (engine type): the loop handedness is real (1.138) and INVARIANT
+    under an engine-chirality (eps) flip -> tense is a DIFFERENT DOF from chirality, not a re-derivation. HONEST
+    CORRECTION: the first draft forced a false 'Type1/Type2 opposite handedness' claim; the data showed both
+    chiralities give identical handedness observables (the E-beats carry no eps; flipping eps only conjugates the
+    loop), so Lane C was corrected to measure the orthogonality (dof_no_collapse) -- the true, stronger result.
+Three controls flip. Continues the ladder: cosmogenesis -> terrains -> engine stages -> 360 loop. The loop tooth
+adds the TENSE axis (deductive/inductive), orthogonal to chirality. scratch_diagnostic, promotion_allowed=False.
+Full harness 90 pass/0/0 GREEN. OWED NEXT: the 720-degree DOUBLE loop (inner+outer, +psi return) as the tooth
+above the single 360 loop.
