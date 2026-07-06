@@ -924,3 +924,12 @@ UP-74 EXTERNAL DYNAMICS-ID ARBITER  installed PySINDy 2.1.0 (+ derivative) into 
                unfittable by degree-2 poly (fast projective collapse -> no held-out derivative signal), an honest
                external finding. Scope: 8 continuous terrains only (16 operator stages -> UP-73). Full harness
                80 pass/0/0 GREEN. scratch.
+
+UP-75 OBJECT-FORMATION SCORECARD  engine_object_formation_scorecard_sim.py composes the two external validity
+               targets (re-identification convergence + PySINDy handling) into an adapted Lev formation-loss
+               surface. Applies the Lev mesh-package discipline: PURE INSTRUMENTS emit measurements only
+               (convergence_loss 5*(1-rate) verbatim; handling_loss an engine-domain proxy max(0,1-R^2)), a
+               SEPARATE policy eval decides on both negative controls flipping (dynamics-lane Controls section,
+               NOT policy requiredControls). Loss reported not gated -- the structural fix for the UP-72b/72c
+               gate-tuning cascade. Result: conv_loss 1.562, handling_loss 0.143, both controls flip. Full harness
+               81 pass/0/0 GREEN. scratch.
