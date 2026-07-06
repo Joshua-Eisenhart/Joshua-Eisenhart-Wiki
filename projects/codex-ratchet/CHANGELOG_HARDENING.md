@@ -1016,3 +1016,11 @@ UP-86 THE ENGINE INTERIOR (16 kinds / 4 sub-stages / terrain 2-type ratchet)  si
                T-type pinches change it (0.45/0.48); each native pair one pinch + one rotation (measured); each
                native pinch a monotone ratchet (coherence -> 0). Two auditor catches fixed (casing param now used;
                len==4 tautology replaced with measured effective-beat count). Full harness 92 GREEN. scratch.
+
+UP-87 THE AI OF PERCEPTION (object binding)  perception_object_binding_sim.py -- loop-back connecting the engine
+               interior to the object-formation success criteria. Binds a stream of never-seen views into objects
+               (unsupervised nearest-prototype on the re-id channel signature): real accuracy 0.792 over 48 views/
+               16 objects (chance 0.062); accuracy on NON-degenerate objects 1.000, ALL 10 misses genuine
+               degeneracies (depol eps-pairs 1<->5 + Fe proj-commuting 3<->7); shuffled control -> chance. Criterion
+               REAL: degenerate pairs at distance 0.0 (merged not hallucinated, median 0.659). Binding needs the
+               interior: real spread 0.668 vs same-kind control 0.0. Full harness 93 GREEN. scratch.
