@@ -1588,3 +1588,27 @@ antipodal) + teeth as retained monotone high-water marks (not per-step upticks);
 Both scratch_diagnostic, promotion_allowed=False. Full harness 84 pass/0/0 GREEN.
 OWED NEXT (still open from 2026-07-04): wire the witness-memory pawl INTO the foundational ratchet + the 3-qubit
 carrier so the hardened pawl and the floor run as ONE ratchet, not three separate sims.
+
+## THE UNIFIED RATCHET -- witness-memory pawl + 3-qubit carrier as ONE climb (2026-07-06)
+unified_ratchet_witness_memory_3q_sim.py (artifact 3a8e2446): composes the three hardened pieces the session
+built into a SINGLE climbing process, so the pawl and the floor stop being separate sims:
+  (1) foundational demand/MSS/entropy-gradient mechanism (demand = trace-dist>THETA=0.25 unresolved by acquired
+      bases; MSS admits the WEAKEST forcing basis; gradient = available - resolved distinguishability);
+  (2) witness-identity + append-only-memory pawl (2026-07-04 sec.8): each closed demand records the EXACT witness
+      provenance tag; re-encounters must reuse it (no lateral swap). Drive is memory-bearing (sec.10): acquired
+      resolving power ACCUMULATES so the climb ratchets not random-walks;
+  (3) the 3-qubit carrier (dim-8): 3n single-qubit Pauli-axis bases never tomographically saturate, so demands
+      keep forcing past dim-2.
+LIVE (memory + witness-lock, 3 qubits): retained ladder height 3 (banked resolved capacity), 7 acquired bases,
+0 lateral swaps, final gradient 154.4. THREE controls flip (measurement/verdict separated):
+  (A) ladder-vs-flat: memory banks a retained ladder of 3 teeth; memoryless twin banks 0 (cannot retain acquired
+      geometry -> random walk).
+  (B) pawl-lock: witness-memory admits 0 lateral swaps across recurring equal-cost demands; minimality-only twin
+      admits 39.
+  (C) Feynman freeze at shell 5: 0 retained teeth after growth frozen -> the drive IS the gradient.
+Three bugs fixed in the MATH not the gate: ladder had to track BANKED resolved-capacity (not raw available, which
+rises with pool size for both twins); pawl-lock needed a FIXED recurring-demand set with equal-cost witnesses (not
+fresh random states that never re-encounter); memoryless twin clears acquired each shell.
+This is the single ratchet the session converged on: locks by remembered witness, driven by the intrinsic entropy
+gradient, keeps forcing teeth past the dim-2 saturation. scratch_diagnostic, promotion_allowed=False. Full harness
+85 pass/0/0 GREEN.
