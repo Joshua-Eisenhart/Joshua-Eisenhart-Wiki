@@ -1846,3 +1846,32 @@ surface, NOT ontology (per doc: "64-closure is a schedule/index surface, not ont
 Both scratch_diagnostic, promotion_allowed=False. Full harness 97 pass/0/0 GREEN. Source seed: owner attachments
 pasted-text-2026-07-06T07-54-24 (doc-faithful axes/operators/engine charts) + CR_IGT_QIT_ENGINE_TEETH_PACKAGE
 (perception scorecard ladder, independent re-id/formation/binding corroboration).
+
+## STAGED ENGINE BUILD RUNG 2+3: Type-1 FULL ENGINE (both loops) + doc-faithful correction (2026-07-06)
+Owner attachment 2026-07-06T08-14 supplied the doc-faithful canonical 16-slot chart and the 64-row expansion. Two
+corrections banked from it: (1) the loops must use the SOURCE canonical operators per slot (Type-1 outer deductive
+{Ti,Ti,Fe,Fe} with signs up,down,down,up; inner inductive {Fi,Te,Te,Fi}), NOT a simplified "native[0]" pick;
+(2) the full-engine polarity readout must be SPINOR-LEVEL. Under the doc-faithful operators the density signed-volume
+does NOT cleanly separate Type 1 from Type 2 (both same sign) -- exactly the project's axis0_readouts_density_blind
+canon; the polarity lives in the spinor holonomy.
+
+type1_full_engine_both_loops_sim.py (artifact f593beed): RUNG 2+3. (A) the Type-1 INDUCTIVE loop as its own
+4-stage object -- pairwise distinct (min 0.591), order-sensitive (perm spread 0.535 vs commuting control 0.0).
+(B) the two loops distinct: endpoint gap 0.586 (same-loop control 0.0), complementary operator families outer
+{Ti,Ti,Fe,Fe} vs inner {Fi,Fi,Te,Te}. (C) the FULL engine = both loops, loop-order sensitive (outer-then-inner vs
+inner-then-outer gap 0.582 vs commuting control 0.0 -- N01 between the loops). (D) axis-0 threaded to the
+full-engine readout at the SPINOR level: spinor holonomy Type1 -2.939 vs Type2 +2.939 (opposite), collapsing to 0
+without the coherent drive; density signed-volume reported alongside (T1 -0.019 vs T2 +0.010) as the non-canonical
+readout. Honest correction in-build: an initial per-loop "spinor holonomy tense" claim was dropped (the two loops
+share the 4 terrains so their coherent-only holonomy coincides -- that is NOT what separates them; the operators and
+order are).
+
+type1_single_loop_axis0_sim.py v2 (artifact 4534b6a7): LOOPED BACK to doc-faithful. Rung 1's simplified deductive
+loop (Ti,Ti,Te,Te) replaced with the canonical Ti,Ti,Fe,Fe; the polarity readout moved from density signed-volume
+(an artifact separation under the simplified operators) to the spinor holonomy (T1 -1.281 vs T2 +1.281 opposite,
+collapses to 0 without drive). Drive-from-start 2.085 vs 0.478; 4 ordered stages (min 0.701, perm spread 0.522 vs
+commuting 0.0); 4 cased substages. Density signed-volume honestly reported as NOT cleanly carrying the sign.
+
+Both scratch_diagnostic, promotion_allowed=False. Attachment assessed correct on: operator-order defs (sec 1),
+16-slot chart internal consistency (sec 5), A0/A1/A2 partitions reproduce the verified XOR canon (sec 4), entropy
+correction = project canon (sec 8), octonion/G2 as pressure-not-canon (sec 9). Full harness 98 pass/0/0 GREEN.
