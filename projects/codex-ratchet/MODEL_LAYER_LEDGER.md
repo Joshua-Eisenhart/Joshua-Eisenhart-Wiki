@@ -1764,3 +1764,28 @@ TWO auditor catches fixed (both the non-data-derived-gate pattern the project re
 its casing parameter -> casing now genuinely gates the interior (the two stages on a terrain differ); (b) the
 len(subs)==4 gate was guaranteed True -> replaced with a measured effective-beat count. All three lanes built.
 scratch_diagnostic, promotion_allowed=False. Full harness 92 pass/0/0 GREEN.
+
+## THE AI OF PERCEPTION -- object binding across never-seen perspectives (2026-07-06)
+perception_object_binding_sim.py (artifact 0327105d): loop-back on the OVERALL SUCCESS CRITERIA (object formation),
+connecting the newly-built engine interior (16 distinct-kind intelligences) to them. The re-identification sim
+scored identity-survives-probe-rotation per stage; THIS sim runs the actual PERCEPTION task the criterion implies:
+BINDING a stream of never-seen views into objects. Directive: the owner asked to loop back to the objective teeth
+("we can form objects, the ai of perception") not just the interior structure they had been stressing.
+  THE TASK: K objects = K real engine stages; each observed through several NEVER-SEEN probe families (disjoint
+  seeds); the perceiver computes each observation's channel signature (established re-id signature: nonunitality
+  vector + Bloch-contraction singular values) and must sort the unlabeled stream into objects (bind same, separate
+  different) unsupervised, from perspectives it never trained on.
+  (A) REAL binding accuracy 0.792 over 48 never-seen views / 16 objects (chance 0.062); shuffled-label control
+      collapses to chance 0.062. HEADLINE (honest): accuracy on NON-degenerate objects is 1.000, and ALL 10 misses
+      are genuine degeneracies -- the depol eps-degenerate pairs (1,Ti)<->(5,Ti), (1,Fi)<->(5,Fi) and the Fe proj-
+      commuting pair (3,Fe)<->(7,Fe), exactly the 5 the re-id sim flagged. The perceiver binds every distinguishable
+      object perfectly and merges the truly-identical ones.
+  (B) THE CRITERION IS REAL, NOT A RUBBER STAMP: the degenerate pairs land at signature distance 0.0 (median inter-
+      object 0.659) -- correctly MERGED, not invented as separate objects. A honest perceiver refuses to form an
+      object where the mechanism says there is a real degeneracy.
+  (C) BINDING NEEDS THE 16 DISTINCT KINDS: real inter-object signature spread 0.668 vs a same-kind control (every
+      object = the same stage) spread 0.0 (unbindable). The interior built in UP-86 is what makes perception possible.
+So the objective success teeth (convergence_loss = 5*(1-reid_rate), handling_loss = mean max(0,1-R^2), composed
+into a formation-loss surface, verdict = both independent controls flip) are now joined by the perception task they
+imply: object binding across never-seen perspectives, perfect except on genuine degeneracies. scratch_diagnostic,
+promotion_allowed=False. Full harness 93 pass/0/0 GREEN.
