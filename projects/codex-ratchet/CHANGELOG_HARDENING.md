@@ -907,3 +907,11 @@ UP-72c GATE CORRECTION 2 (auditor)  foundational_ratchet: removed the last picke
                without an index: the FIRST demand-bearing shell (wherever it falls) must climb it. Every remaining
                comparison in the gate is structural (>=1 some / ==0 none / >1e-9 nonzero), none a picked pass-count.
                THETA/RESOLVE_FRAC define what a DEMAND is (physics), not the verdict. Full harness 78 pass/0/0 GREEN.
+
+UP-73 OBJECTIVE VALIDITY TARGET  engine_reidentification_objective_sim.py -- external, model-blind judge for the
+               16 engine stages, from the owner's criterion "identity is the survivor of probe rotation" (a=a iff
+               a~b operational). Fingerprint each stage on a SEEN probe family, re-identify from a NEVER-SEEN one
+               via a probe-set-independent channel signature. Gate = the CONTROL FLIP only (shuffled -> chance);
+               re-id rate reported as-is, NOT gated to a ceiling. Result: 11/16 re-identify, separation 0.620 over
+               chance; the 5 misses are the depol eps-degenerate pairs (t1/t5) + the Fe proj-commuting pair
+               (t3/t7) the oracle predicts. Full harness 79 pass/0/0 GREEN. scratch.
