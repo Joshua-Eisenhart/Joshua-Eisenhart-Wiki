@@ -1852,8 +1852,10 @@ Owner attachment 2026-07-06T08-14 supplied the doc-faithful canonical 16-slot ch
 corrections banked from it: (1) the loops must use the SOURCE canonical operators per slot (Type-1 outer deductive
 {Ti,Ti,Fe,Fe} with signs up,down,down,up; inner inductive {Fi,Te,Te,Fi}), NOT a simplified "native[0]" pick;
 (2) the full-engine polarity readout must be SPINOR-LEVEL. Under the doc-faithful operators the density signed-volume
-does NOT cleanly separate Type 1 from Type 2 (both same sign) -- exactly the project's axis0_readouts_density_blind
-canon; the polarity lives in the spinor holonomy.
+is NOT a stable polarity carrier: its sign is operator/probe-dependent (at single-loop scale under these operators
+T1/T2 come out same-sign; at full-engine scale they happen to land opposite, T1 -0.019 vs T2 +0.010) and does not
+survive as a robust invariant -- exactly the project's axis0_readouts_density_blind canon; the polarity lives in
+the spinor holonomy, which separates T1/T2 exactly and collapses under the chirality-erase control.
 
 type1_full_engine_both_loops_sim.py (artifact f593beed): RUNG 2+3. (A) the Type-1 INDUCTIVE loop as its own
 4-stage object -- pairwise distinct (min 0.591), order-sensitive (perm spread 0.535 vs commuting control 0.0).
