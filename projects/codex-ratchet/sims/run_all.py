@@ -258,6 +258,9 @@ SUITE = [
  ("engine_dynamics_id_arbiter_sim.py", 300, False, [
    ("contains", "PASS engine_dynamics_id_arbiter"),
    ("contains", "EXTERNAL ARBITER CONTROL FLIPS (shuffled-time breaks the fit real data supports): True")]),
+ ("type2_full_engine_both_loops_sim.py", 120, False, [
+   ("contains", "PASS type2_full_engine_both_loops"),
+   ("contains", "TYPE 2 FULL ENGINE (BOTH LOOPS) BUILT: True")]),  # RUNG 4: Type-2 (RIGHT Weyl, eps=-1, mirror) full engine, doc-faithful canonical slots (attachment sec5): outer inductive {Fi,Fi,Te,Te}, inner deductive {Fe,Fe,Ti,Ti} -- note outer/inner tense MIRRORED vs Type 1. (A) both loops 4 ordered stages (outer min 0.523 spread 0.351, inner min 0.632 spread 0.525, commuting ctrl 0.0). (B) loops distinct (gap 0.502, complementary ops). (C) loop-order sensitive (0.501). (D) axis-0 polarity OPPOSITE to Type 1: spinor holonomy +2.939 vs Type1 -2.939; chirality-erase control (eps->+1, drive kept) flips Type2 to -2.939 = Type1 sign, opposition collapses. scratch_diagnostic.
  ("type1_full_engine_both_loops_sim.py", 120, False, [
    ("contains", "PASS type1_full_engine_both_loops"),
    ("contains", "TYPE 1 FULL ENGINE (BOTH LOOPS) BUILT: True")]),  # RUNG 2+3 of the staged engine build: the Type-1 INDUCTIVE loop as its own 4-stage object + both loops composed into the FULL single engine. Doc-faithful canonical slots (owner attachment 2026-07-06T08-14 sec 5): outer deductive {Ti,Ti,Fe,Fe}, inner inductive {Fi,Te,Te,Fi}. (A) inductive loop 4 ordered stages (min 0.591, perm spread 0.535 vs commuting 0.0). (B) two loops distinct (endpoint gap 0.586, complementary operator families). (C) full engine loop-order sensitive (0.582). (D) axis-0 SPINOR-LEVEL readout: spinor holonomy T1 -2.939 vs T2 +2.939 opposite, collapses to 0 without drive -- corrects rung-1 density readout which is SAME-sign at full-engine scale (polarity is spinor-level per project canon). scratch_diagnostic.
