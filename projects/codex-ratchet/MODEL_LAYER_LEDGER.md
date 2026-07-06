@@ -1817,3 +1817,32 @@ failed on noisy small deltas -> replaced with the mean|new error| magnitude comp
 Both are pure interrogation/distinguishability (no new physics). scratch_diagnostic, promotion_allowed=False. Full
 harness 95 pass/0/0 GREEN. Source seed: owner attachment pasted-text-2026-07-06T07-11-54 (perception scorecard
 ladder + independent validation that the objective criterion is real: re-id 0.6875, formation_loss 1.706).
+
+## STAGED ENGINE BUILD RUNG 1 + THE 64-SCHEDULE DEFINED (2026-07-06)
+Owner directive: build the engine one type / one loop at a time (4 stages + their substages = 16 of 64), threading
+axis-0 from foundations to readout; and the correction "there is the 16 engine stages, each runs all 4 operators
+with the same up/down axis-6 sign (shared terrain-first / operator-first order), but this doesn't have the 64
+engine schedule for each of the 16 stages defined."
+
+type1_single_loop_axis0_sim.py (artifact 4534b6a7): FIRST RUNG. Type 1 (LEFT, eps=+1) single DEDUCTIVE loop over
+terrains [0,1,2,3]. (A) the loop is 4 ORDERED stages: pairwise distinct (min 0.221), order-sensitive by permutation
+spread 0.349 vs a genuinely-COMMUTING z-dephase control at 0.0 (non-tautological -- the first control draft, a
+single-operator-over-different-terrains loop, was WRONG because the terrain generators still differ under reversal;
+replaced). (B) axis-0 DRIVE present from the start: intrinsic-flow loop work 1.775 vs no-drive 0.693. (C) axis-0
+READOUT at loop close, threaded from the drive: polarity (signed Bloch-trajectory volume) Type1 +0.00065 vs Type2
+-0.00231 (OPPOSITE signs, discovered from the dynamics not the eps label); no-drive control collapses the readout
+to -0.00008 -- the sign at the END exists only because the entropy-driving flow was present from the START. Axis-0
+threaded foundations->readout in ONE object. (D) 4 cased ordered substages per stage.
+
+engine_64_schedule_definition_sim.py (artifact 46af625b): DEFINES THE 64-SCHEDULE. A stage = (terrain, axis-6
+sign); 8 terrains x 2 signs = 16 stages; each stage runs ALL 4 operators (Ti,Te,Fi,Fe) at its ONE shared sign
+(up = operator-first Phi_T(O(rho)), down = terrain-first O(Phi_T(rho))). 16x4 = 64. (A) well-formed: 16 stages,
+each exactly 4 operators at one shared sign, sign a real composition-order choice. (B) axis-6 sign LOAD-BEARING
+32/32 (terrain,operator) pairs under the full integrated GKSL flow; no-drive control collapses to 0/32 -- the sign
+RIDES on the terrain drive. HONEST correction: the earlier scratch-single-step-map result (z-family Ti,Fe up=down
+precedence collapse) does NOT survive the full flow; under integration the composition sign matters universally.
+(C) 64/64 dynamically distinct (min pairwise 0.109); single-operator control collapses to 16. Candidate index
+surface, NOT ontology (per doc: "64-closure is a schedule/index surface, not ontology"); rung ORDERS non-canon.
+Both scratch_diagnostic, promotion_allowed=False. Full harness 97 pass/0/0 GREEN. Source seed: owner attachments
+pasted-text-2026-07-06T07-54-24 (doc-faithful axes/operators/engine charts) + CR_IGT_QIT_ENGINE_TEETH_PACKAGE
+(perception scorecard ladder, independent re-id/formation/binding corroboration).
