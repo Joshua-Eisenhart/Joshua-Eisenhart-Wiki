@@ -1448,3 +1448,28 @@ RESULT (dim-2 carrier): every climb forced by a demand=True; pawl holds=True; co
   because the carrier is too small to stay confused, not because the ratchet stops. Points directly at the next
   rung -- run the same rules on a >=3-qubit carrier where distinguishability outstrips a few bases.
   scratch_diagnostic, promotion_allowed=False. artifact 36ef6a55-5c84-4d14-aebb-68c28a773007 v3.
+
+## OBJECTIVE VALIDITY TARGET -- engine re-identification under probe rotation (2026-07-06) [owner-driven, external judge]
+OWNER: "how to give codex ratchet also more objective goals to measure against. so we an ai can actually assess if
+the qit engines are actually valid and working." The ratchet's own gates are self-written (and were repeatedly
+tuned -- see UP-72b/72c). This target moves the judge OUTSIDE the model, using the owner's own operational
+criterion from the 2026-07-06 object-formation thread:
+  "an object is earned when the system can re-identify it across perspective changes it has never seen.
+   identity is the survivor of probe rotation. that's a=a iff a~b made operational."
+TEST (engine_reidentification_objective_sim.py): the 16 REAL engine stages (imported generators, terrain-first
+composition) are each fingerprinted on a SEEN probe family (seed 11), then RE-IDENTIFIED from a DISJOINT NEVER-SEEN
+family (seed 999) using a probe-set-INDEPENDENT channel signature (action on I/2 + Bloch-contraction singular
+values recovered by lstsq affine map). CONTROL that must flip: shuffled-stage permutation must drop to chance.
+VERDICT = the CONTROL FLIP only (shuffled -> chance; real beats every scramble); the re-id RATE is reported AS-IS,
+NOT gated to a 1.000 ceiling (that would impose an outcome -- the very anti-pattern UP-72b/72c corrected).
+RESULT: real re-id 0.688 (11/16 stages), shuffled control mean 0.067 / max 0.250 (chance 0.062), separation 0.620,
+CONTROL_FLIPS=True. Full harness 79 pass/0/0 GREEN.
+OBJECTIVE FINDING (external, non-tunable): the 5 stages that do NOT re-identify are exactly the degeneracies the
+engine math predicts -- t1:Ti<->t5:Ti and t1:Fi<->t5:Fi (terrains 1 & 5 are both DEPOLARIZING; the eps=+/-1 sign
+washes out under a rotation-invariant signature), and t3:Fe->t7:Fe (the proj+Fe stages the oracle flags as
+commuting with their terrain, the 16->12 collapse). So 11/16 engine stages carry genuine probe-rotation-invariant
+identity; the 5 that don't are the known-degenerate pairs, not failures of the test. This is an OBJECTIVE measure
+an AI can compute without buying the theory. scratch_diagnostic, promotion_allowed=False. artifact 461708a8.
+NEXT (deferred, larger build): install PySINDy/PyKoopman (named in the Lev docs) + export per-stage engine
+time-traces for a fully MODEL-BLIND dynamics-ID arbiter -- an external tool with no knowledge of the QIT theory
+that predicts each stage's dynamics, with a shuffled-time control that must break it.
