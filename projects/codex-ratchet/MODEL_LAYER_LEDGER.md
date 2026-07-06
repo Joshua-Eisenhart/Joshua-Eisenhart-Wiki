@@ -1473,3 +1473,29 @@ an AI can compute without buying the theory. scratch_diagnostic, promotion_allow
 NEXT (deferred, larger build): install PySINDy/PyKoopman (named in the Lev docs) + export per-stage engine
 time-traces for a fully MODEL-BLIND dynamics-ID arbiter -- an external tool with no knowledge of the QIT theory
 that predicts each stage's dynamics, with a shuffled-time control that must break it.
+
+## FULLY EXTERNAL DYNAMICS-ID ARBITER -- PySINDy on the terrain flows (2026-07-06) [owner-driven, off-the-shelf judge]
+OWNER: "install what is needed." -> installed PySINDy 2.1.0 (+ derivative) into constraintcore (the Lev
+object-formation docs name PySINDy/PyKoopman as independent arbiters). engine_dynamics_id_arbiter_sim.py hands the
+per-tick Bloch TRAJECTORY of each of the 8 terrain GKSL flows to PySINDy -- an off-the-shelf sparse-regression
+system-ID library with ZERO knowledge of the QIT theory -- and asks it to discover a governing ODE. This is a
+STRONGER external judge than the re-identification test (UP-73): re-id uses our own channel signature; here the
+arbiter is a third-party library.
+SCOPE (precise): fits the 8 CONTINUOUS terrain generators (the object SINDy is built for). The 16 discrete
+operator-level stages are judged by the companion re-identification sim (UP-73), NOT here.
+METHOD: train SINDy (degree-2 poly library, STLSQ threshold 0.02) on the first half of each terrain trajectory,
+score held-out R^2 on the second half via model.score (R^2 of identified dS/dt=f(S) vs held-out derivative -- NO
+forward-integration, so no stiff-solver hang; an earlier .simulate() version hung 13 min and was replaced).
+TEETH: SHUFFLED-TIME control -- scramble the training samples' time order, refit. A real ODE has a consistent
+dS/dt=f(S); time-scrambled data does not. GATE = the control flip only (real beats shuffled-time on EVERY terrain);
+held-out R^2 reported AS-IS, NOT gated to a ceiling (UP-72b/72c discipline).
+RESULT: 7/8 terrains reconstruct at held-out R^2 0.93-1.00 (t0 0.950, t1 0.999, t2 0.998, t4 0.997, t5 1.000,
+t6 0.999, t7 0.926); shuffled-time control DETONATES to R^2 ~ -1e8..-1e9 on every terrain (the fit on scrambled
+data is catastrophically wrong). CONTROL FLIPS on all 8. Full harness 80 pass/0/0 GREEN.
+HONEST EXTERNAL FINDING: terrain t3 (proj + eps=+1, projective Hill/Citadel) is the ONE terrain PySINDy CANNOT fit
+with degree-2 polynomial dynamics (real held-out R^2 -0.017). Physically sensible: a projective/dephasing flow
+collapses fast to its fixed point, so the held-out second half is near-stationary and carries almost no derivative
+signal to identify. So the external arbiter independently flags t3 as the terrain whose dynamics are not
+polynomial-identifiable on this window -- reported, not hidden. scratch_diagnostic, promotion_allowed=False.
+artifact 26ce1c99. (PyKoopman deferred: its sdist pulls an old scikit-learn with no py3.13 wheel; PySINDy alone,
+installed --no-build-isolation --no-deps against the env's sklearn 1.9.0, is the working external arbiter.)
