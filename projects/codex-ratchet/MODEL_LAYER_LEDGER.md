@@ -1555,3 +1555,36 @@ loop-phase -> signed holonomy (mirror flips); product-state off-by-one (start co
 doctrine UNDER TEST (ENTROPIC_MONISM fence): a MECHANISM illustration that cosmogenesis obeys the ratchet's own
 rules -- NOT a derivation of the cosmological constant or actual early-universe dynamics. scratch_diagnostic,
 promotion_allowed=False. artifact dca330c1.
+
+## PAWL HARDENING (witness identity + memory) & THE 3-QUBIT FLOOR (2026-07-06) [both from the 2026-07-04 correction]
+Two next-steps from the foundational ratchet, both from the 2026-07-04 session summary and owner rulings. Ideas
+also cross-referenced from the Lev world-engine package (losses.py causality_story_loss = counterfactual+held-out
+= witness-memory in disguise) but the mechanism is the owner's, not Lev's.
+
+STEP 1 -- pawl_witness_identity_memory_sim.py (artifact 5e22cd8b): the 2026-07-04 summary sec.8 correction --
+"minimality alone does NOT lock; plural minima allow LATERAL SWAPS. The lock comes from WITNESS IDENTITY
+(remembering the exact admitted witness/provenance) + APPEND-ONLY memory." And sec.10: the drive must be
+memory-bearing to ratchet not random-walk; owner's real engine's MEMORYLESS-DRIVE kill control dies at rung 4.
+Two controls, both flip: (A) LATERAL SWAP -- on demands with equal-cost alternative witnesses, the MSS-alone
+(memoryless) pawl accepts 12 lateral swaps (lock fails), the witness-identity + append-only-memory pawl accepts 0
+(a re-encounter must be closed by the SAME remembered witness). (B) MEMORYLESS-DRIVE KILL -- memory-bearing drive
+climbs 9 retained teeth to gap 0.316; memory-erased drive random-walks to 5 teeth and stalls at 0.059. Witness
+"identity" = admitted basis provenance tag (operational a=a iff a~b: same iff provenance-identical, not merely
+equal-cost). Measurement/verdict separation.
+
+STEP 2 -- ratchet_three_qubit_floor_sim.py (artifact e9f9c716): carries the conservation-gated ratchet past the
+dim-2 saturation the foundational sim measured. SAME rules (demand = trace-dist > THETA=0.25 unresolved by
+acquired bases; MSS admissibility; conservation gate). Acquired stock = 3n single-qubit Pauli-axis bases,
+tomographically complete ONLY at 1 qubit (full tomography needs dim^2-1 = 4^n-1 axes: 3/15/63 for 1/2/3 qubits).
+RESULT: 1 qubit SATURATES (0 teeth-before-saturation, 0 open demands at last shell -- 3 Pauli bases span the
+qubit); 2 qubits and 3 qubits KEEP FORCING (12 teeth; 69 and 161 open demands still open at the last shell). The
+floor is real for the MECHANISM reason -- a handful of single-qubit bases resolves a vanishing fraction of the
+exponentially many distinguishable pairs (misses all entangled/correlated directions) -- not a fit. This is WHY
+the owner needs >=3 qubits for many things to run (owner ruling three_qubit_floor). Monotone nondecreasing in
+qubit count; 3q strictly exceeds 1q; 3q still forcing at the last shell.
+Three bugs fixed in the MATH not the gate: step-1 equal-cost ties needed diagonal-axis demand pairs (not
+antipodal) + teeth as retained monotone high-water marks (not per-step upticks); step-2 needed Pauli-axis bases
+(tomographically complete at dim-2) not Haar-random bases (which never saturate at any dim).
+Both scratch_diagnostic, promotion_allowed=False. Full harness 84 pass/0/0 GREEN.
+OWED NEXT (still open from 2026-07-04): wire the witness-memory pawl INTO the foundational ratchet + the 3-qubit
+carrier so the hardened pawl and the floor run as ONE ratchet, not three separate sims.
