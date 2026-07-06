@@ -969,3 +969,10 @@ UP-80 THE BRIDGE TOOTH (carrier -> terrains)  bridge_tooth_carrier_to_terrains_s
                terrain. 8 terrains pairwise-distinct CHANNELS (min 0.195; fixed points coincide, channels do not).
                Chirality carries forward (eps sheets opposite, product -1). Real terrain generators. Full harness
                86 GREEN. scratch.
+
+UP-81 THE NEXT TOOTH (terrains -> engine stages)  next_tooth_terrains_to_engine_stages_sim.py -- the ratchet's next
+               tooth after the terrains, continuing the climb up to the composed engine stages. A bare terrain
+               cannot process order (terrain-alone order gap 0.00e+00); MSS next tooth = one native operator in two
+               orders = an engine stage (mean order gap 0.185). 16 signatures pairwise-distinct (min 0.028).
+               Chirality splits into Type1/Type2 (disjoint, each internally distinct). Real oracle generators.
+               Dynamical 16/16 vs symbolic 12/16 stated honestly. Full harness 87 GREEN. scratch.
