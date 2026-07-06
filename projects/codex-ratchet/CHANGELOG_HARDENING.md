@@ -915,3 +915,12 @@ UP-73 OBJECTIVE VALIDITY TARGET  engine_reidentification_objective_sim.py -- ext
                re-id rate reported as-is, NOT gated to a ceiling. Result: 11/16 re-identify, separation 0.620 over
                chance; the 5 misses are the depol eps-degenerate pairs (t1/t5) + the Fe proj-commuting pair
                (t3/t7) the oracle predicts. Full harness 79 pass/0/0 GREEN. scratch.
+
+UP-74 EXTERNAL DYNAMICS-ID ARBITER  installed PySINDy 2.1.0 (+ derivative) into constraintcore; engine_dynamics_id
+               _arbiter_sim.py hands per-tick Bloch trajectories of the 8 terrain GKSL flows to PySINDy (off-the-
+               shelf, zero QIT-theory input) to discover governing ODEs. Held-out R^2 via model.score (no forward-
+               integration). TEETH: shuffled-time control detonates (R^2 ~ -1e9) on every terrain. Gate = control
+               flip only, R^2 reported as-is. Result: 7/8 terrains fit at R^2 0.93-1.00; t3 (proj+eps=+1) is
+               unfittable by degree-2 poly (fast projective collapse -> no held-out derivative signal), an honest
+               external finding. Scope: 8 continuous terrains only (16 operator stages -> UP-73). Full harness
+               80 pass/0/0 GREEN. scratch.
