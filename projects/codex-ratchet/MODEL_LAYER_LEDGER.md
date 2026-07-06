@@ -1524,3 +1524,34 @@ RESULT: convergence_loss 1.562 (rate 0.688), handling_loss_mean 0.143, defined-c
 flip -> PASS. Full harness 81 pass/0/0 GREEN. scratch_diagnostic, promotion_allowed=False. artifact 42698a1a.
 This gives the two external targets (re-id UP-73 + PySINDy UP-74) a single formation-loss readout under an explicit
 measurement/verdict split -- the discipline that would have prevented the four gate-tuning audits.
+
+## COSMOGENESIS AS THE ROOT RATCHET'S FIRST TOOTH -- MSS in a static field (2026-07-06) [owner framing, under test]
+OWNER: "my explanation of how the universe was created as an example of the very ratchet working ... mss in a
+static field. It is like before time, there is a static field of classical newtonian cartesian space ... but in
+that is the possibility of a finite space with entanglement and chirality. spacetime begins in those rolling
+entangled dice. that expanding chiral fuzz ball." Grounded in x_grok_chat_TOE.txt lines 30/38/47 (static
+checkerboard, no info between frames; the simplest pattern that could GROW flashes in; no completed infinity --
+finite compressible numbers, Bekenstein-bounded). ALREADY IN DOCS: toe_cosmology/eisenhart-unified-physics-module
+.md (static fuzz beginning; time = frame-to-frame correlation) + DR_entropic_monism_hopf.md (chirality selection);
+prior sim cosmogenesis_persistence_sim.py (Layer 0.6). The NEW thing: this is not a separate persistence criterion
+-- it is the SAME ratchet (demand/MSS/entropy-gradient) run at the origin, incorporating the 2026-07-06
+entropy-gradient-intrinsic shift.
+cosmogenesis_ratchet_first_tooth_sim.py -- the ratchet's rules at the beginning:
+  - DEMAND: a difference between static frames that nothing carries (time = a carried difference). Static field
+    carries 0.011 (no time); a persistent carrier carries 0.939.
+  - MSS AS CONSTRAINT: admit the WEAKEST structure that closes the demand = a norm-preserving (division) carrier =
+    a finite spinor. Lossy (non-division) map annihilates the difference to 1e-9 (back to static); norm-preserving
+    persists at 1.0.
+  - CARRIER expansion is ENTANGLED (dark-energy-first: concurrence 0 -> 1.0 from product |00>) and CHIRAL (mirror
+    carrier = opposite-sign holonomy +0.500/-0.500, product -1; F01+N01 forced) = the "rolling entangled dice /
+    expanding chiral fuzz ball."
+  - ENTROPY GRADIENT INTRINSIC (the 2026-07-06 shift): the gap between the carrier's rising distinguishing-capacity
+    and the featureless static backdrop opens WITH the carrier (0 -> 0.495) and stops opening when growth is frozen
+    (Feynman knife holds it at 0.309). The drive is not injected; it IS the expansion.
+DISCIPLINE (Lev mesh package): instruments emit numbers only; a SEPARATE policy eval decides on the CONTROLS
+FLIPPING (no picked numeric thresholds). All five controls flip -> PASS. Full harness 82 pass/0/0 GREEN.
+Three bugs were fixed in the MATH, not the gate: swap-like entangler -> XX (genuine entanglement); sign-blind
+loop-phase -> signed holonomy (mirror flips); product-state off-by-one (start concurrence exactly 0). Owner
+doctrine UNDER TEST (ENTROPIC_MONISM fence): a MECHANISM illustration that cosmogenesis obeys the ratchet's own
+rules -- NOT a derivation of the cosmological constant or actual early-universe dynamics. scratch_diagnostic,
+promotion_allowed=False. artifact dca330c1.
