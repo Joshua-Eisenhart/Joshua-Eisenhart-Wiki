@@ -1612,3 +1612,23 @@ fresh random states that never re-encounter); memoryless twin clears acquired ea
 This is the single ratchet the session converged on: locks by remembered witness, driven by the intrinsic entropy
 gradient, keeps forcing teeth past the dim-2 saturation. scratch_diagnostic, promotion_allowed=False. Full harness
 85 pass/0/0 GREEN.
+
+## THE BRIDGE TOOTH -- cosmogenesis carrier -> the 8 terrains, continuous climb (2026-07-06)
+bridge_tooth_carrier_to_terrains_sim.py (artifact 9bbc0651): the ratchet's NEXT tooth after cosmogenesis, making
+the climb CONTINUOUS from the origin (bare chiral spinor carrier) up to the geometric constraint manifold (8
+terrains), so they stop being a jump. Uses the REAL terrain generators (engines/oracle_targets.py TERR: eps/kind/
+pole, G=0.35 KAP=1.0, H=eps(sx+sy+sz)/sqrt3).
+  - DEMAND the bare carrier cannot close: a state and a PERTURBED copy must converge (an attractor/pointer demand).
+    Bare unitary carrier preserves trace distance (td 0.224 -> 0.261, demand OPEN); a terrain dissipator closes it
+    (td -> 0.002, converged to fixed point).
+  - MSS NEXT TOOTH = the weakest structure that supplies persistence-under-perturbation = a single GKSL dissipator
+    with a fixed point = a terrain generator. Not a bigger algebra, not a full engine.
+  - WHY EIGHT: the 8 terrains are pairwise-distinct CHANNELS (min channel-fingerprint distance 0.195), each a
+    separately forced tooth. Fixed points CAN coincide (depol -> I/2) -- which is exactly why the project
+    fingerprints terrains as channels, not fixed points; the control was corrected from fixed-point to channel
+    distance (the honest observable).
+  - CHIRALITY carries forward from cosmogenesis: eps=+1 sheet (terrains 0-3) vs eps=-1 sheet (4-7) opposite
+    chirality sign (product -1), inherited handedness (F01+N01), not injected.
+Three controls flip (measurement/verdict separated). This closes the continuity gap: cosmogenesis carrier ->
+(attractor demand) -> terrain dissipators -> geometric constraint manifold, as ONE ratchet climb. scratch_
+diagnostic, promotion_allowed=False. Full harness 86 pass/0/0 GREEN.
