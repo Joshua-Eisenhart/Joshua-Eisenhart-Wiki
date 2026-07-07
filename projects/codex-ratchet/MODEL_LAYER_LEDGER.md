@@ -1979,24 +1979,24 @@ dissipation dominates the no-flow control (1.986 ~ 1.993); replaced with the pol
 collapses under no-flow). A6's first control (Ti on wrong terrain) did NOT collapse (0.149 > load 0.145); replaced
 with the same-terrain Fi-vs-Ti contrast (0.145 vs 0.020). Both fixed in the MEASUREMENT, never the gate. Harness 102 GREEN.
 
-## ENGINE-PAIR MATRIX: the two engines together as another layer (2026-07-07)
+## ENGINE-PAIR MATRIX: the two engines together as another layer (2026-07-07; CORRECTED post-audit)
 Next rung after the unified 7-axis basin: "the 2 kinds of engines working together is another layer." Deep-audit
-Packet 4 / staged-ladder rung 5 -- the a4-b3 independence-restoration prediction, tested dynamically.
+Packet 4 / staged-ladder rung 5 -- the a4-b3 independence-restoration prediction. CORRECTION (auditor catch): the
+clean -1/+1/0 cancellation is a COMBINATORIAL fact about the two schedules' labels, TRUE BY CONSTRUCTION -- it is NOT
+a dynamical measurement. An earlier draft mislabeled it "reproduced dynamically"; that was wrong and is fixed here.
 
-WHAT IT SHOWS. v7's SYMBOLIC axis_relation_matrix found (a4 traversal-order, b3 loop-role) DEPENDENT (corr -1.0)
-within the built Type-1 chart -- outer=deductive, inner=inductive, so a4 and b3 are locked. That coupling is a
-property of ONE engine's chart. Prediction: running BOTH engines together RESTORES their independence, because
-Type-2 carries the OPPOSITE tense/role pairing (its outer loop is inductive).
+WHAT IT SHOWS, at two honestly-separated levels:
+  (1) COMBINATORIAL (the gated claim): correlation of the hardcoded schedule labels tense x role. v7's SYMBOLIC
+      matrix found (a4,b3) DEPENDENT (corr -1.0) within one engine (outer=deductive, inner=inductive). Pooling both
+      engines cancels it: Type-1 -1.00, Type-2 +1.00 (opposite pairing), pooled 0.000. This is a fact about the two
+      mirror schedules, not about any trajectory. CONTROL (can fail): a same-pairing twin (Type-2 forced to
+      outer=deductive) pools to -1.00, does NOT cancel -- the cancellation is not automatic.
+  (2) DYNAMICAL (reported, NOT gated): correlation of the trajectory-measured a4_dyn (order-sensitivity gap) and
+      b3_dyn (density traversal): Type-1 +0.55, Type-2 -0.13, pooled +0.23. These do NOT reproduce the clean
+      combinatorial -1/+1/0; at the dynamical level the pooled coupling is only PARTIALLY decoupled, not perfectly
+      independent. Recording this gap honestly is the point.
 
-engine_pair_matrix_sim.py (artifact 54e94ca0) reads a4 (order-sensitivity gap ||Phi_T(O rho)-O(Phi_T rho)||) and b3
-(density-traversal ||bloch(stage(rho))-bloch(rho)||) DYNAMICALLY per stage, then measures the chart-level tense x
-role coupling per engine and pooled:
-  Type-1 alone: -1.00   Type-2 alone: +1.00   (opposite pairings)
-  pooled over BOTH engines: 0.000  -> independence RESTORED.
-FALSIFIABLE CONTROL (gate can fail): a same-pairing twin (Type-2 forced to Type-1's outer=deductive) pools to -1.00
--- does NOT restore independence. The restoration is real, not automatic.
-
-This makes operational "the 2 engines working together is another layer": the engine PAIR holds a degree of freedom
-(independent a4, b3) that neither engine alone has. Assessed by distinguishability -- a4 and b3 are distinguishable
-(independent) DOF over the pooled pair, not over either engine. scratch_diagnostic, promotion_allowed=false.
-Reproduces (does not replace) the v7 symbolic matrix and adds the pooling layer with its control. Harness 103 GREEN.
+engine_pair_matrix_sim.py (artifact 54e94ca0). So the owner's "2 engines working together is another layer" is
+demonstrated at the SCHEDULE level (mirror pairing restores label-independence, with a control that can fail); the
+dynamical trajectory shows partial, not perfect, decoupling. scratch_diagnostic, promotion_allowed=false. Extends
+(does not replace) the v7 symbolic matrix. Harness 103 GREEN.
