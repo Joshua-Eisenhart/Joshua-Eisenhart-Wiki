@@ -1898,3 +1898,28 @@ Hamiltonian+dissipator, operators still act) -> polarity collapses to ~0; and bo
 test -> no sign-flip maps T2's endpoint signature onto T1's (min distance ~1.5 full-engine / 0.15 single-loop), so
 they are genuinely different channels. Polarity values: single-loop T1 -0.0019 vs T2 +0.0038; full-engine T1 -0.019
 vs T2 +0.011 (both robust across seeds, 40 probes). All scratch_diagnostic, promotion_allowed=False. Harness 99 GREEN.
+
+## AUDIT INTEGRATION: source-faithful schedule tables + fidelity linter (Packet 1) (2026-07-06)
+Four external zips arrived (codex app runs + a deep audit of bundle v55). Assessed all four:
+- DEEP_AUDIT_55 (a55fca43): a deep audit of my v55. Verdict: "not empty, not obvious theater -- real executable
+  engines, validators, cross-substrate artifacts, scratch diagnostics with controls; needs claim-language cleanup,
+  source-faithful schedule discipline, staged IGT coupling." Corroborates my work: re-id 12/16 shuffled at chance,
+  scorecard controls flip, Type-1 AND Type-2 stored results show loop distinctness + order-sensitivity +
+  not-a-relabeling, perception binding non-degenerate 1.0. Ships SOURCE-FAITHFUL schedule tables.
+- 55_FIXED_GREEN (193abb33): codex app's green build -- its engine sims are BYTE-IDENTICAL to my v55 (codex built
+  green from my work); value-add is a reorganized source_docs/P1_must_read/ layout + requirements lock, not sim
+  changes. Nothing to adopt on the sim side.
+- QIT_FEP_BATTERY (bf589036) + LEV_PHASE3_LADDER (c81fa053): large codex packages (design docs + Lev evidence).
+
+ADOPTED: the source-faithful schedule tables (reference_docs/engine_math/source_schedule_tables/):
+engine_16_source_stage_slots.json (16 slots), engine_64_source_schedule.json/csv (64 = 16 slots x 4 operators, 16
+is_source_canonical rows). INDEPENDENT CORROBORATION: all four of my running engine loops (T1_OUT/T1_IN/T2_OUT/T2_IN)
+match the source table per slot EXACTLY (terrain, canonical operator, axis-6 sign) -- the doc-faithful reconstruction
+was source-correct. The T2 "-out" naming is the only difference (Type-2 outward flux), semantics identical.
+
+BUILT: schedule_source_fidelity_linter.py (artifact 2358be4e) -- Packet 1. Certifies (1) 16-slot chart well-formed,
+(2) 64 = exact 16x4 expansion with 16 canonical rows reconstructing the chart, (3) the running engine sims consume
+source-faithful slots. Falsifiable control: corrupting one canonical operator triggers 2 problems (caught). NO dynamic
+claim -- makes the "64 schedule" language honest: the table is a source-faithful CANDIDATE; dynamic distinctness stays
+a separate scratch diagnostic (engine_64_schedule_definition_sim.py, ceiling "64 distinguishable channel signatures
+under this finite probe battery"). Harness 100 GREEN. promotion_status: table=candidate, linter=mechanical.
