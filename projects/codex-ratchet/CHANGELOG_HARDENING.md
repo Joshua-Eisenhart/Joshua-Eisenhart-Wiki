@@ -1086,3 +1086,10 @@ UP-94 UNIFIED ATTRACTOR BASIN -- 7 AXES AS LOAD-BEARING MECHANICS ON ONE ENGINE 
                layers L0 stage -> L1 loop -> L2 two-loops -> L3 two-engines, each a distinguishable object.
                Self-fixed A0 (polarity not cumulative-move) and A6 (same-terrain collapse control) in measurement.
                Harness 102 GREEN.
+
+UP-95 ENGINE-PAIR MATRIX -- THE TWO ENGINES TOGETHER AS ANOTHER LAYER  engine_pair_matrix_sim.py
+               -- a4-b3 independence-restoration prediction (deep-audit Packet 4 / rung 5). Each engine alone locks
+               traversal-order to loop-role (Type-1 corr -1.0, Type-2 +1.0, opposite pairings); pooled over both
+               engines the coupling cancels to 0.0 -- independence restored. Reproduces v7's symbolic a4<->b3
+               coupling dynamically, adds the two-engine pooling layer. Falsifiable control: same-pairing twin pools
+               to -1.0, does NOT restore. The engine pair holds a DOF neither engine alone has. Harness 103 GREEN.
