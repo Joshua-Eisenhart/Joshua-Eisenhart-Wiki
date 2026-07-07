@@ -1923,3 +1923,24 @@ source-faithful slots. Falsifiable control: corrupting one canonical operator tr
 claim -- makes the "64 schedule" language honest: the table is a source-faithful CANDIDATE; dynamic distinctness stays
 a separate scratch diagnostic (engine_64_schedule_definition_sim.py, ceiling "64 distinguishable channel signatures
 under this finite probe battery"). Harness 100 GREEN. promotion_status: table=candidate, linter=mechanical.
+
+## CR->LEV EVIDENCE LOOP: conformant evidence-envelope emitter from THIS lane (2026-07-07)
+Lev implemented a host evidence boundary (qit-evidence-consumer.ts, 2026-07-07): it consumes CR QIT envelopes as
+host-owned EVIDENCE-ONLY receipts and blocks any envelope that overclaims promotion/graph/runtime authority or omits
+`blocked_consumers` + an explicit `lev_host_consumer_contract`. Codex's Phase-3 lev_qit_engine_perception_evidence_v1
+was built from bundle v55.
+
+BUILT: lev_qit_evidence_envelope_emitter.py (artifact dce36066) -- emits a Lev-conformant
+lev.qit_engine_perception_evidence.v1 envelope from the CURRENT bundle's engine results (corrected non-circular
+polarity readouts + source-fidelity linter), refreshing the numbers Lev sees. The envelope carries the full Lev
+host-consumer contract (truth_state=proposed, evidence_kind=measurement, decision_ceiling=accepted_as_evidence_only,
+graph/compositor/mesh/source-boundary/entity-id all false), blocked_consumers (graph admission, mesh projection,
+ontology writer, MMM driver, verifier quorum, Axis0/FEP, runtime object factory), and the deep-audit-55 four
+claim-language status fields (mechanical_run/source_fidelity/dynamic_claim/promotion_status=scratch_diagnostic).
+
+REAL TOOTH: the emitter self-validates the envelope conforms to the host boundary (no promotion/graph/runtime
+overclaim), and a FALSIFIABLE CONTROL builds a PROMOTING twin (truth_state=canon, graph_mutation_allowed=true,
+promotion=earned) which the SAME validator rejects (4 problems) -- so the validator is not a rubber stamp. Emitted
+envelope lev_qit_engine_perception_evidence_v56.json (artifact 80cffc69). Payload: reid 0.6875, binding 0.7917, T1
+polarity -0.019 vs T2 +0.011 (opposite, not a relabeling), source-fidelity linter PASS. NO dynamic/truth claim --
+packages already-measured scratch-diagnostic numbers with an evidence ceiling. Harness 101 GREEN.
