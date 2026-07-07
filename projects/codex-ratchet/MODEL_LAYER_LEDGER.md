@@ -2000,3 +2000,28 @@ engine_pair_matrix_sim.py (artifact 54e94ca0). So the owner's "2 engines working
 demonstrated at the SCHEDULE level (mirror pairing restores label-independence, with a control that can fail); the
 dynamical trajectory shows partial, not perfect, decoupling. scratch_diagnostic, promotion_allowed=false. Extends
 (does not replace) the v7 symbolic matrix. Harness 103 GREEN.
+
+## V7 CODEX-RATCHET CROSS-CHECK: looping this bundle back against the v7 qit engine build (2026-07-07)
+Directive: keep this work synced with the v7 codex-ratchet repo sims (granted read-only at /Users/joshuaeisenhart/
+Codex-Ratchet), looping the two together. NOTE: the v7 repo sims are NOT desktop runs -- do not describe them as such.
+
+v7_codex_ratchet_crosscheck_sim.py (artifact 7dfa87f2) reads the v7 build qit_full_type1_type2_64_live_v1's result
+JSON and checks agreement with this bundle on four fronts:
+  1. AGGREGATE COUNTS (7 summary counts): slot_count 64 = 16 macro x 4 substage, 16 chart-locked + 48 runtime,
+     32 Type-1 + 32 Type-2. Plus unique-coordinate cardinality 64 (bundle derives 64 unique canonical coords from its
+     table; v7 reports unique_coordinate_count 64). HONEST SCOPE: this is aggregate-count + cardinality agreement,
+     NOT a per-slot field-by-field identity -- the v7 result exposes only a schedule hash (schedule_sha256), not the
+     per-slot list, so a full content diff is not possible from the result alone.
+  2. engine mirror pairing: T1_outer=deductive/T1_inner=inductive, T2 mirrored -- matches this bundle's engine loops.
+  3. v7 object formation clean: ordered_accuracy 1.0, 4 objects, entropy monotone 2.0->0 bits.
+  4. two-resolution consistency (GENUINE cross-comparison, reads the bundle re-id LIVE from its result file, not a
+     hardcoded literal): v7 sees 4 distinct objects at LOOP granularity; the bundle sees 0.6875 (11/16) at the finer
+     16-STAGE granularity with 3 oracle-predicted degenerate pairs. Consistent -- coarser granularity cleaner, finer
+     exposes degeneracies -- same distinguishability criterion at two resolutions. Fails if the bundle re-id file is
+     absent OR shows perfect/zero distinguishability.
+
+v7 source_sha256 55c3ca4d089c2c21, generated 2026-07-07T21:42:39Z. SKIP-clean if the v7 repo is absent (sync probe,
+not a hard dependency). Both builds are scratch_diagnostic/promotion_allowed=false; agreement does not promote either.
+CORRECTION (auditor): an earlier draft said "byte-for-byte" (only 7 counts were compared -> overstated) and had a
+tautological two_resolutions check (tested hardcoded literals, reduced to formation_clean); both fixed -- scope
+relabeled to aggregate-count, and the re-id is now read live so the cross-comparison is real. Harness 104 GREEN.
