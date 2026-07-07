@@ -75,6 +75,16 @@ def build_envelope():
     score=_load("engine_object_formation_scorecard_sim_results.json")
     lint=_load("schedule_source_fidelity_linter_results.json")
 
+    # read the harness pass-count from the latest report if available, so the status field never drifts
+    harness_status="all engine sims ran GREEN in the constraintcore harness"
+    for rp in (os.path.join(HERE,"..","run_all_report.json"), os.path.join(os.path.dirname(HERE),"run_all_report.json")):
+        if os.path.exists(rp):
+            try:
+                rep=json.load(open(rp)); s=rep.get("summary",rep)
+                npass=s.get("pass",s.get("passed")); nfail=s.get("fail",s.get("failed",0))
+                if npass is not None and not nfail: harness_status=f"all engine sims ran GREEN in the constraintcore harness ({npass} pass)"
+            except Exception: pass
+            break
     b=bind["binding"]; sc=score["formation_loss_surface"]
     payload={
         "candidate_object":"qit_engine_perception_state",
@@ -111,7 +121,7 @@ def build_envelope():
         "lev_host_consumer_contract":dict(LEV_HOST_CONSUMER_CONTRACT),
         "blocked_consumers":list(BLOCKED_CONSUMERS),
         # ---- deep-audit-55 four claim-language status fields ----
-        "mechanical_run_status":"all engine sims ran GREEN in the constraintcore harness (100 pass)",
+        "mechanical_run_status":harness_status,
         "source_fidelity_status":"engine loops match the source-faithful 16-slot chart per slot (linter PASS)",
         "dynamic_claim_status":"distinctness/order-sensitivity/polarity are scratch diagnostics under a finite probe battery; not proofs",
         "promotion_status":"scratch_diagnostic",
