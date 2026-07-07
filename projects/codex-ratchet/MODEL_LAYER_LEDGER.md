@@ -1978,3 +1978,25 @@ promotion_allowed=false. AUDITOR-STYLE self-fix during build: A0's first witness
 dissipation dominates the no-flow control (1.986 ~ 1.993); replaced with the polarity signed-volume witness (correct,
 collapses under no-flow). A6's first control (Ti on wrong terrain) did NOT collapse (0.149 > load 0.145); replaced
 with the same-terrain Fi-vs-Ti contrast (0.145 vs 0.020). Both fixed in the MEASUREMENT, never the gate. Harness 102 GREEN.
+
+## ENGINE-PAIR MATRIX: the two engines together as another layer (2026-07-07)
+Next rung after the unified 7-axis basin: "the 2 kinds of engines working together is another layer." Deep-audit
+Packet 4 / staged-ladder rung 5 -- the a4-b3 independence-restoration prediction, tested dynamically.
+
+WHAT IT SHOWS. v7's SYMBOLIC axis_relation_matrix found (a4 traversal-order, b3 loop-role) DEPENDENT (corr -1.0)
+within the built Type-1 chart -- outer=deductive, inner=inductive, so a4 and b3 are locked. That coupling is a
+property of ONE engine's chart. Prediction: running BOTH engines together RESTORES their independence, because
+Type-2 carries the OPPOSITE tense/role pairing (its outer loop is inductive).
+
+engine_pair_matrix_sim.py (artifact 54e94ca0) reads a4 (order-sensitivity gap ||Phi_T(O rho)-O(Phi_T rho)||) and b3
+(density-traversal ||bloch(stage(rho))-bloch(rho)||) DYNAMICALLY per stage, then measures the chart-level tense x
+role coupling per engine and pooled:
+  Type-1 alone: -1.00   Type-2 alone: +1.00   (opposite pairings)
+  pooled over BOTH engines: 0.000  -> independence RESTORED.
+FALSIFIABLE CONTROL (gate can fail): a same-pairing twin (Type-2 forced to Type-1's outer=deductive) pools to -1.00
+-- does NOT restore independence. The restoration is real, not automatic.
+
+This makes operational "the 2 engines working together is another layer": the engine PAIR holds a degree of freedom
+(independent a4, b3) that neither engine alone has. Assessed by distinguishability -- a4 and b3 are distinguishable
+(independent) DOF over the pooled pair, not over either engine. scratch_diagnostic, promotion_allowed=false.
+Reproduces (does not replace) the v7 symbolic matrix and adds the pooling layer with its control. Harness 103 GREEN.
