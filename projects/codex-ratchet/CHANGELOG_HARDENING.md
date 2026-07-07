@@ -1070,3 +1070,10 @@ UP-92 SOURCE-FAITHFUL SCHEDULE TABLES + FIDELITY LINTER (Packet 1)  adopted the 
                well-formedness + 16x4 expansion + running-sim fidelity; falsifiable control catches a corrupted
                table. No dynamic claim (makes "64 schedule" language honest: table=candidate source-faithful,
                dynamic distinctness separate). Harness 100 GREEN.
+
+UP-93 CR->LEV EVIDENCE ENVELOPE EMITTER  lev_qit_evidence_envelope_emitter.py -- emits a Lev-conformant
+               lev.qit_engine_perception_evidence.v1 envelope from THIS bundle's current engine results, carrying the
+               Lev host-consumer contract (evidence-only ceiling) + blocked_consumers + the deep-audit four
+               claim-language status fields. Self-validates conformance; falsifiable control: a promoting twin
+               (truth_state=canon, graph_mutation_allowed=true, promotion=earned) is rejected by the same validator.
+               Closes the CR->Lev evidence loop from my lane. Harness 101 GREEN.
