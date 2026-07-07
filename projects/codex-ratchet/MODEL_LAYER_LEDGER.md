@@ -1944,3 +1944,37 @@ promotion=earned) which the SAME validator rejects (4 problems) -- so the valida
 envelope lev_qit_engine_perception_evidence_v56.json (artifact 80cffc69). Payload: reid 0.6875, binding 0.7917, T1
 polarity -0.019 vs T2 +0.011 (opposite, not a relabeling), source-fidelity linter PASS. NO dynamic/truth claim --
 packages already-measured scratch-diagnostic numbers with an evidence ceiling. Harness 101 GREEN.
+
+## UNIFIED ATTRACTOR BASIN: all 7 axes as load-bearing mechanics on ONE engine (2026-07-07)
+Directive: "get each axis working -- it is the real mechanics. loop back on foundations each time. understand the
+whole thing as a single unified attractor basin, then its two engines, their stages, the 4 substages, all working
+together; each stage its own intelligence, each loop its own, the 2 loops together a new kind, the 2 engines another
+layer; all assessed by object perception with constraints on distinguishability."
+
+FOUNDATION LOOP-BACK: read v7 AXES_FULL_EXTRACTION_20260703.md -- the source-grounded math for all 7 axes WITH a
+per-axis geometry-contamination guard, and the global lock (axes are READOUT MAPS A_i:M(C)->V_i, never primitive
+coords; may READ geometry, must not ABSORB flux/holonomy/nesting). Also read v7 axis_relation_matrix_probe_v0 (reads
+axis bits SYMBOLICALLY from the chart, checks pairwise independence + b6=-b0*b3 + a4/b3 conflation; EXCLUDES a0 as
+"skipped_undefinable" without the Xi bridge).
+
+BUILT: unified_attractor_basin_seven_axes_sim.py (artifact 7e7441bf). Extends the v7 matrix by reading each axis as a
+LOAD-BEARING DYNAMICAL witness from the SAME running-engine trajectory (not 7 separate sims, not symbolic bits), each
+with a falsifiable ERASURE control that collapses ONLY that axis:
+  A0 drive/polarity  : loop-close signed-volume T1 -0.019 vs T2 +0.011 opposite; ERASE remove GKSL flow -> ~1e-4 collapse.
+  A1 branch          : unitary Phi=UrU^dag dS=0 EXACT vs CPTP dS=0.262; ERASE drop dissipator -> dS 0.
+  A2 frame           : direct vs conjugated Bloch dist 0.131; ERASE V=I -> 0 exactly.
+  A3 loop class      : fiber density-motion 0.150 vs base 0.204 (gap 0.054); ERASE degenerate eta=pi/4 -> gap 0.
+  A4 loop order      : ||Phi_D-Phi_I||_1 0.711; ERASE commuting generators -> 0.
+  A5 operator family : F-rotation dS=0 EXACT vs T-pinch dS 0.168; ERASE F-as-pinch -> dS breaks.
+  A6 precedence      : Fi gap 0.145 load-bearing vs Ti gap 0.020 collapse on the SAME depol terrain (ratio 14%).
+All 7 load-bearing on one engine. This CLOSES the gap flagged in the prior status answer (axes 1-4 were only
+established individually; now exercised as live mechanics in one engine). a0 is INCLUDED here (via the engine
+polarity readout, same as rungs 1-4), where the v7 symbolic matrix had to skip it.
+
+NESTED-INTELLIGENCE LAYERS (assessed by distinguishability, a=a iff a~b): L0 stage distinct (min pairwise 0.709) ->
+L1 loop order-sensitive (gap 0.442) -> L2 two-loops more-than-sum (gap 1.646) -> L3 two-engines opposite polarity
+(-0.021 vs +0.014), not a Bloch relabeling. Each layer a distinguishable object. scratch_diagnostic,
+promotion_allowed=false. AUDITOR-STYLE self-fix during build: A0's first witness (cumulative move) was blind because
+dissipation dominates the no-flow control (1.986 ~ 1.993); replaced with the polarity signed-volume witness (correct,
+collapses under no-flow). A6's first control (Ti on wrong terrain) did NOT collapse (0.149 > load 0.145); replaced
+with the same-terrain Fi-vs-Ti contrast (0.145 vs 0.020). Both fixed in the MEASUREMENT, never the gate. Harness 102 GREEN.
