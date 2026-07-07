@@ -1077,3 +1077,12 @@ UP-93 CR->LEV EVIDENCE ENVELOPE EMITTER  lev_qit_evidence_envelope_emitter.py --
                claim-language status fields. Self-validates conformance; falsifiable control: a promoting twin
                (truth_state=canon, graph_mutation_allowed=true, promotion=earned) is rejected by the same validator.
                Closes the CR->Lev evidence loop from my lane. Harness 101 GREEN.
+
+UP-94 UNIFIED ATTRACTOR BASIN -- 7 AXES AS LOAD-BEARING MECHANICS ON ONE ENGINE  unified_attractor_basin_seven_axes_sim.py
+               -- all 7 axes (0-6) read as dynamical witnesses from the SAME running engine, each with a falsifiable
+               erasure control collapsing ONLY that axis; source-grounded in v7 AXES_FULL_EXTRACTION with per-axis
+               geometry-contamination guards. Closes the gap where axes 1-4 were only established individually.
+               Includes a0 (via engine polarity) where the v7 symbolic matrix skips it. Plus nested-intelligence
+               layers L0 stage -> L1 loop -> L2 two-loops -> L3 two-engines, each a distinguishable object.
+               Self-fixed A0 (polarity not cumulative-move) and A6 (same-terrain collapse control) in measurement.
+               Harness 102 GREEN.
