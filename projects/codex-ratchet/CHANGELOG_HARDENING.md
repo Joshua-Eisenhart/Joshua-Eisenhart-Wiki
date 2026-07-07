@@ -1088,8 +1088,10 @@ UP-94 UNIFIED ATTRACTOR BASIN -- 7 AXES AS LOAD-BEARING MECHANICS ON ONE ENGINE 
                Harness 102 GREEN.
 
 UP-95 ENGINE-PAIR MATRIX -- THE TWO ENGINES TOGETHER AS ANOTHER LAYER  engine_pair_matrix_sim.py
-               -- a4-b3 independence-restoration prediction (deep-audit Packet 4 / rung 5). Each engine alone locks
-               traversal-order to loop-role (Type-1 corr -1.0, Type-2 +1.0, opposite pairings); pooled over both
-               engines the coupling cancels to 0.0 -- independence restored. Reproduces v7's symbolic a4<->b3
-               coupling dynamically, adds the two-engine pooling layer. Falsifiable control: same-pairing twin pools
-               to -1.0, does NOT restore. The engine pair holds a DOF neither engine alone has. Harness 103 GREEN.
+               -- a4-b3 independence-restoration (deep-audit Packet 4 / rung 5), tested at the COMBINATORIAL/schedule
+               level (NOT dynamical -- auditor correction). Each engine's schedule locks the traversal-order LABEL to
+               the loop-role LABEL (Type-1 -1.0, Type-2 +1.0, opposite pairings); pooled over both engines the LABEL
+               coupling cancels to 0.0 -- true by construction of the mirror schedules. Falsifiable control:
+               same-pairing twin pools to -1.0, does NOT cancel. HONEST LIMIT recorded in-sim: the genuinely
+               dynamical a4/b3 trajectory correlations (+0.55/-0.13/+0.23) do NOT reproduce the clean pattern -- only
+               partial decoupling. Harness 103 GREEN.
