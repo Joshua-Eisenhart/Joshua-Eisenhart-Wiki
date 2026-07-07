@@ -1062,3 +1062,11 @@ UP-91 STAGED ENGINE RUNG 4 (Type-2) + NON-CIRCULAR POLARITY READOUT  type2_full_
                with density signed-volume through the full flow+operators + honest controls (full-engine: flip
                Hamiltonian chirality in the flow collapses separation; single-loop: remove GKSL flow collapses
                polarity to ~0; both: Bloch-axis relabeling shows genuinely different channels). Harness 99 GREEN.
+
+UP-92 SOURCE-FAITHFUL SCHEDULE TABLES + FIDELITY LINTER (Packet 1)  adopted the deep-audit-55 source-faithful
+               schedule tables (16-slot chart + 64 schedule) into reference_docs/engine_math/source_schedule_tables/;
+               all four running engine loops match the source table per slot EXACTLY (independent corroboration the
+               doc-faithful reconstruction is source-correct). Built schedule_source_fidelity_linter.py: checks table
+               well-formedness + 16x4 expansion + running-sim fidelity; falsifiable control catches a corrupted
+               table. No dynamic claim (makes "64 schedule" language honest: table=candidate source-faithful,
+               dynamic distinctness separate). Harness 100 GREEN.
