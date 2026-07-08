@@ -1194,3 +1194,9 @@ UP-110 upper manifold (axes 7-12) -- engines as OBJECTS in a field, read on Choi
                Axis-7 Spearman rho~0.77 not 1.0; mirror is a coarser channel-kind partition (damp/depol/proj), genuine-
                but-distinct upper level. IGT field non-trivial (Choi-distance meta-graph, depol most central);
                exceptional algebras = field symmetry (consistent with UP-109 engines-at-H). SEED. 116 GREEN.
+
+UP-111 field symmetry classical not exceptional (honest negative) -- does the exceptional tower emerge at the qubit-
+               engine field level? NO. discrete 8-terrain metric symmetry order 4 (finite); continuous single-engine
+               Choi symmetry so(4)=su(2)+su(2) dim 6 (classical). Exceptional structure lives on the CARRIER axis
+               (H->O), NOT the MIRROR/field axis -- the two orthogonal, field does not bypass carrier. Locates the
+               tower correctly; disciplines the "exceptional at field level" intuition. 117 GREEN.
