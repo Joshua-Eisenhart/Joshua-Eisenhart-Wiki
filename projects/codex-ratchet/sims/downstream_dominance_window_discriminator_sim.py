@@ -23,7 +23,8 @@ subordinates (C-in-window)? This sim answers it on the real instruments, sweepin
 
   MEASURED RESULT (the discriminator): re-id does NOT separate the readings (16/16 for all alpha in window -- the
   full-affine signature is robust to in-window subordinates). Stage identity degrades monotonically with alpha
-  (0.149 canonical -> 0.051 at equality, ~3x). OBJECT FORMATION is the separating instrument, and it reveals a
+  (min-pairwise 0.1385 canonical -> 0.0453 at equality alpha=1.0, a ~3.1x degradation). OBJECT FORMATION is the
+  separating instrument, and it reveals a
   TWO-SIDED window: it matches canonical (14 objects) only for alpha in [0.10, 0.30]; at alpha=0.05 subordinates are
   too weak and OVER-resolve (15 objects), at alpha>=0.40 too strong and UNDER-resolve (12 objects, pairs blur). So the
   downstream-safe window (alpha in [0.10,0.30]) is STRICTER than the stage-identity window (alpha<=0.5) -- object
@@ -111,7 +112,7 @@ def main():
            "n_objects":n_objects(lambda t,o: canon_only(t,o))}
     base_obj=canon["n_objects"]
     rows=[]
-    for a in [0.05,0.10,0.15,0.20,0.25,0.30,0.40,0.50]:
+    for a in [0.05,0.10,0.15,0.20,0.25,0.30,0.40,0.50,0.75,1.00]:
         mp=min_pairwise(lambda t,o,a=a: dominant(t,o,a)); ri=reid(lambda t,o,a=a: dominant(t,o,a),seen,novel); no=n_objects(lambda t,o,a=a: dominant(t,o,a))
         rows.append({"alpha":a,"min_pairwise":round(mp,4),"reid":ri,"n_objects":no,"matches_canonical_objects":bool(no==base_obj)})
     # object formation is a genuine discriminator iff it matches canonical on an INTERIOR interval and DIVERGES on both sides
