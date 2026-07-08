@@ -1187,3 +1187,10 @@ UP-109 engine division-algebra rung -- closes the UP-107 forcing link. Single-qu
                H (dim 4). Octonions (dim 8)/H_3(O) (dim 27)/F4/E6 are STRICTLY HIGHER = the next forced climb, not the
                engines' current floor. "engines run on H_3(O)" = FALSE (4 != 27); ladder R->C(earned)->H(engines)->O(next).
                Counting matches are correspondences not homomorphisms (O has identity, terrains do not). 115 GREEN.
+
+UP-110 upper manifold (axes 7-12) -- engines as OBJECTS in a field, read on Choi matrices (dim 16) not density states
+               (dim 4=H); home of IGT. All 8 terrain Choi valid CPTP (TP defect 5.6e-16), pairwise-distinct (min 0.52).
+               DOC CORRECTED: AXES_0_12_MASTER "strictly isomorphic A_i->A_i+6" too strong -- base Axis-1 vs mirror
+               Axis-7 Spearman rho~0.77 not 1.0; mirror is a coarser channel-kind partition (damp/depol/proj), genuine-
+               but-distinct upper level. IGT field non-trivial (Choi-distance meta-graph, depol most central);
+               exceptional algebras = field symmetry (consistent with UP-109 engines-at-H). SEED. 116 GREEN.
