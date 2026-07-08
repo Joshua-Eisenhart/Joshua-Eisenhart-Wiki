@@ -2269,3 +2269,21 @@ octonionic carrier admits a consistent (Jordan) observable algebra only up to 3x
 entangled states (Bell -1.0, product 0) -- the honest upgrade over the U-to-fixed-point pawl (>=0, correct for
 single-terrain relaxation): the ENTANGLEMENT entropy that lives on the octonionic/3-qubit rung carries a sign.
 Controls flip (n=4 Jordan-fails; conditional entropy negative only on entangled). scratch_diagnostic. Harness 113 GREEN.
+
+## UP-108 -- the exceptional Lie algebras as a ratchet over the octonionic carrier (2026-07-08)
+
+Owner: "so g2 ratchets to f4? the exceptional lie algebras all have to be processed in the ratchet. not sure order."
+
+ANSWER (derived, not asserted): the order is G2 -> F4 -> E6 -> E7 -> E8, each the symmetry of ONE additional layer of
+structure built on the SAME octonions (shortest-leaps-up). This is the symmetry-group SHADOW of the UP-107 carrier ->
+observable ladder (O -> H_3(O)); G2 -> F4 is literally that step seen through automorphisms.
+  G2 = Aut(O) = Der(octonions),        dim 14  -- symmetry of the CARRIER            [DERIVED in-sim]
+  F4 = Aut(H_3(O)) = Der(Albert alg),  dim 52  -- symmetry of the OBSERVABLE algebra [DERIVED in-sim]
+  E6 = str(H_3(O)) = Der + L_traceless,dim 78  -- symmetry of the CUBIC form         [DERIVED in-sim, 26 traceless L]
+  E7 = conformal / Freudenthal triple, dim 133 -- CONFORMAL level                    [CITED, magic square]
+  E8 = full magic-square corner,       dim 248 -- FULL structure                     [CITED, magic square]
+G2 c F4 confirmed constructively: a G2 derivation of O, applied entrywise to the octonionic off-diagonals of a
+Hermitian 3x3 matrix, is an F4 derivation of H_3(O) (Jordan-derivation defect 9.1e-15). So the O->H_3(O) ratchet and
+the G2->F4 ratchet are the SAME step. Derivation boundary marked: g2/f4/e6 derived from the octonion/Albert structure;
+e7/e8 cited from Freudenthal-Tits. Controls: wrong octonion table -> wrong Der-dims; non-derivation entrywise map ->
+nonzero Jordan defect. Harness 114 GREEN. (exceptional_lie_ratchet_sim.py)
