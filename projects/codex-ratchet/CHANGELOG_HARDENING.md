@@ -1200,3 +1200,10 @@ UP-111 field symmetry classical not exceptional (honest negative) -- does the ex
                Choi symmetry so(4)=su(2)+su(2) dim 6 (classical). Exceptional structure lives on the CARRIER axis
                (H->O), NOT the MIRROR/field axis -- the two orthogonal, field does not bypass carrier. Locates the
                tower correctly; disciplines the "exceptional at field level" intuition. 117 GREEN.
+
+UP-112 octonion fork not forced (honest closure) -- H->O is an unforced observable-side FORK, not a forced rung.
+               3-qubit M_8(C) associative (no force); H noncommutative AND associative (N01 no force); fork basins
+               {H} (assoc required) vs {H,O} (not required), both consistent with {F01,N01}. Reproduces the owner's
+               3-model-panel-cleared doc finding "nonassociativity is INSTALLED not forced"; corroborated 3rd time by
+               codex albert_stress + Grok 4.5. Range map: H forced (engines); O/Albert/F4/E6 live-not-forced;
+               Clifford associative/{H}. To earn O: need a grouping(T01)-load-bearing demand; none present. 118 GREEN.
