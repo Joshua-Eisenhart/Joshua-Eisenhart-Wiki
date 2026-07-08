@@ -1175,3 +1175,9 @@ UP-107 dual-ratchet DEPTH: L3 floor + forced Jordan/octonion rung -- L2 (per-ter
                nonassociativity) -> Hermitian octonionic matrices form a Jordan algebra ONLY n<=3 (Albert algebra
                H_3(O); fails n=4) = INDEPENDENT forcing of the 3-qubit floor -> signed conditional entropy S(A|B)<0 on
                entangled states (Bell -1.0). Controls flip. 113 GREEN.
+
+UP-108 exceptional Lie ratchet -- G2->F4->E6->E7->E8 as symmetry of nested structure over the octonions. DERIVED from
+               scratch: dim g2=14 (Der O), f4=52 (Der Albert), e6=78 (str = Der + 26 traceless L). G2 c F4 constructive
+               (entrywise-extended derivation, Jordan defect 9e-15) = the symmetry image of the UP-107 O->H_3(O) step.
+               E7=133/E8=248 CITED (magic square), boundary marked. Order forced by shortest-leaps-up nesting: carrier
+               -> Jordan product -> cubic form -> triple -> full. 114 GREEN.
