@@ -2336,3 +2336,20 @@ distance adjacency has non-trivial centrality (depol terrains 1,5 most central, 
 field of engines (many Choi, dim >> one channel's 16), consistent with UP-109 (single engine at H; the field/upper-
 manifold is where higher structure -- O, H_3(O), F4/E6 -- becomes native). SEED: field geometry + symmetry group OPEN
 for further ratcheting. Harness 116 GREEN. (upper_manifold_mirror_axes_field_sim.py)
+
+## UP-111 -- field symmetry is CLASSICAL, not exceptional (honest negative; constrains where the tower lives) (2026-07-08)
+
+Owner instinct under test: "the exceptional lie algebras may have more value at that [field] level."
+
+Direct answer: NO -- the exceptional tower does not emerge for free at the field/upper-manifold level of QUBIT engines.
+(1) discrete 8-terrain field: Choi-distance metric automorphism group order 4 (finite; equivalence classes {0,2,4,6}
+damp / {1,5} depol / {3,7} proj). A finite point set cannot carry a continuous Lie symmetry -> NOT G2/F4. (2) continuous
+single-engine Choi symmetry: J -> (U(x)V)J(U(x)V)^dag, U,V in SU(2) => su(2)+su(2)=so(4), dim 6 (verified by generator
+rank). so(4) is classical/quaternionic (H(x)H~so(4)), NOT exceptional (g2=14/f4=52/e6=78).
+
+CONCLUSION: the mirror lift (density->Choi, UP-110) is a CLASSICAL so(4) step on the MIRROR axis; the exceptional
+structure lives on the CARRIER axis (H->O, UP-107/108). The two are ORTHOGONAL -- the field/upper-manifold does NOT
+bypass the carrier rung. Reaching the exceptional tower requires lifting the engine CARRIER H->O (the open UP-109
+forcing step), not the field lift alone. This is a useful negative: it locates the exceptional tower on the carrier
+axis, not the field axis, and disciplines the "exceptional at the field level" intuition. Consistent with UP-109
+(single qubit engine sits at H). Harness 117 GREEN. (field_symmetry_is_classical_not_exceptional_sim.py)
