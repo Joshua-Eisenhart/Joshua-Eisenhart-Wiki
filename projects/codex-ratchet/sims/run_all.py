@@ -76,10 +76,12 @@ SUITE = [
    ("contains", "1Q: True  2Q: True"),
    ("contains", "∫F = -4*pi"),
    ("contains", "b6=-b0*b3 [finite_exhaustive]: True (0 violations / 8)")]),
+ ("substage_architecture_discriminator_sim.py", 60, False, [
+   ("contains", "ALL_GATES: HONEST_SCORECARD")]),  # SUBSTAGE ARCHITECTURE DISCRIMINATOR -- 3 candidates scored on one engine battery, no canon assumed. A=4 operators at fixed casing, B=2x2 piston x lever lattice (Carnot/Szilard control reading), C=substages ARE the 4 loop terrains. Battery: S1 closes on limit cycle (all 3 pass, per-cycle move->0), S2 encloses ORIENTED net work (area flips sign under reversal = Carnot signature; robust 6/6 seeds common plane), S3 all substages effective (all pass, weak test). RESULT: engine-like (S1+S2) = {A, C}; B FAILS S2 (area does not flip, 0/6 seeds) so the piston/lever control architecture is NOT the engine cycle. 64-slot position-uniqueness stays OPEN (v7 instrument gap). scratch_diagnostic.
  ("engine_64_schedule_sim.py", 240, False, [
-   ("approx", r'"n_orderblind":\s*(\d+)', 11, 0),      # honest collapse -- must stay 11
-   ("approx", r'"n_ordersensitive":\s*(\d+)', 64, 0),
-   ("approx", r'"mean_order_gap":\s*([0-9.]+)', 0.5436866002450209, 1e-9)]),
+   ("approx", r'"n_orderblind":\s*(\d+)', 11, 0),      # honest order-blind collapse -- kept
+   ("approx", r'"n_order_carried":\s*(\d+)', 16, 0),   # matched-content order-carriedness (well-posed N01 test)
+   ("contains", "ALL_GATES: PASS")]),  # n_ordersensitive==64 WITHDRAWN (distinctness by construction); 64-slot position-uniqueness stays OPEN with named instrument gap
  ("nested_basin_sim.py", 240, False, [
    ("approx", r'"verdict": "attractor"()', None, None)]),  # special-cased below: count == 4
  ("terrain_sourcelock_axis0_sim.py", 240, False, [
