@@ -2077,3 +2077,26 @@ header-lift adapter. fe_gradient = tick-over-tick change in surprise (the free-e
 at the first post-switch tick (t=15) surprise spikes to 2.506 bits, then descends (t=16 fe_gradient -1.498).
 
 scratch_diagnostic, promotion_allowed=false throughout. Harness 106 GREEN.
+
+## WIN/LOSE AS KNOWN/UNKNOWN (FEP): one frame among others (2026-07-08)
+Owner reframe: win/lose is just one frame; known/unknown is another, and it works well for FEP (surprise = the measure
+of the unknown). win_lose_as_known_unknown_fep_sim.py (artifact 36b8f997) tests WHERE the reframe holds and records
+honestly where it does not:
+
+(A) PER-STAGE hypothesis (win-labeled Type-1 stages reduce surprise toward their terrain pointer more than lose-labeled):
+FALSIFIED, reported not gated. Measured surprise-reduction dS = S(rho_in||goal)-S(rho_out||goal) (Umegaki bits, goal =
+terrain GKSL pointer) per stage, partitioned by doc win/lose label: win-group 0.615 < lose-group 1.009, sep -0.393,
+does not beat shuffled-label control |sep| 0.319 or wrong-goal control -0.405. WHY: per-stage surprise-reduction is
+dominated by OPERATOR FAMILY (T-pinch reduces surprise more than F-rotation = Axis-5), not the win/lose label. So
+win/lose does NOT reduce to a per-stage FEP readout. Honest negative.
+
+(B) METHOD-LEVEL / DIRECTIONAL reframe: HOLDS, gated against v7 qit_bidirectional_science_type1_type2_v0 measured
+teeth. The real known/unknown structure is directional, not per-stage: Type-1 = candidate-first = TEST THE KNOWN
+(accuracy 1.0, wrong-candidate rejected); Type-2 = measurement-first = EXPLORE THE UNKNOWN (accuracy 0.9, erased
+controls collapse to chance 0.25). The unique-win table (2 Type-1-only, 0 Type-2-only, 18 shared) IS the win/lose
+frame; read epistemically it is confirm-vs-explore. That is why win/lose works well for FEP: at the METHOD level the
+two frames are one structure. CONTROL that can fail: Type-2's erased controls must be at chance (else it is not truly
+exploring the unknown, and the duality would be a relabeling). SKIP-clean if v7 absent.
+
+scratch_diagnostic, promotion_allowed=false. Records a real negative (per-stage) and a real positive (method-level).
+Harness 107 GREEN.
