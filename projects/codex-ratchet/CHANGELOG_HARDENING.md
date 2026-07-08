@@ -1110,3 +1110,11 @@ UP-97 QIT-FEP SURPRISE STREAM -- the FEP lens on the running engine  qit_fep_sur
                ~0.002, regime-shift spike 2.51, relearn decay ~0. Controls: (1) belief frozen at switch -> tail 5.35
                (learning beats frozen ~25000x); (2) no switch -> no spike. Control-bug fixed in control math not gate.
                Harness 105 GREEN.
+
+UP-98 PERCEPTION SCORECARD four eval-admission fields + FEP stream Lev-parseable  perception_scorecard_eval_admission_sim.py
+               -- recall_ratio 0.6875 (sep 0.625), anti_key_penalty 0.0 (0/16 decoys, real self-bind 0.875),
+               attention_leak 0.3993 (shuffled 1.01), cross_node_mesh_convergence 0.75 (sep 0.6875); all on real
+               engine channels, pure instruments + CONTROL-RELATIVE eval (no picked constants -- auditor fix of the
+               0.3/0.8/0.7 thresholds). Emitter v3 populates them live, missing_for_eval_admission -> []. FEP stream
+               v2: emit full per-tick {tick,belief_bloch,surprise_bits,fe_gradient} under lev_bridge_stream.v1 header
+               (auditor fix -- was dropping them). Harness 106 GREEN.
