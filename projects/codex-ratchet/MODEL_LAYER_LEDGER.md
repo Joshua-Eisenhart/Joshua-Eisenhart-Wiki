@@ -2353,3 +2353,25 @@ bypass the carrier rung. Reaching the exceptional tower requires lifting the eng
 forcing step), not the field lift alone. This is a useful negative: it locates the exceptional tower on the carrier
 axis, not the field axis, and disciplines the "exceptional at the field level" intuition. Consistent with UP-109
 (single qubit engine sits at H). Harness 117 GREEN. (field_symmetry_is_classical_not_exceptional_sim.py)
+
+## UP-112 -- octonion FORK: H->O is NOT forced (honest closure of the exceptional arc) (2026-07-08)
+
+Owner: "clifford, jordan, albert, are just some [math] that have been [useful]" -- map the RANGE, forced vs available.
+Also processed codex desktop's bundle-77 return: their choi_field_multiaxis_null_albert_stress_sim + Grok 4.5 matched
+UP-110/111 exactly (TP defect 5.555e-16, Choi min-dist 0.521087, mixedness<->Choi-entropy rho +0.771) and BLOCK the
+"natural/canonical Choi-to-octonion/Albert map" claim. Third independent corroboration.
+
+FINDING: the carrier lift H->O is an UNFORCED observable-side FORK, not a forced rung. (1) the 3-qubit operator algebra
+M_8(C) is ASSOCIATIVE (defect ~4e-14) -> the 3-qubit floor does NOT force octonions. (2) the quaternions H are
+noncommutative (2.83) AND associative (0) -> N01 does NOT force octonions; N01 is satisfied at H. (3) THE FORK
+(root_axioms:51; 05_NONASSOCIATIVITY_BRANCHES.md:104-126; whole-physics ledger:561-572): associativity-required basin
+= {H}; not-required basin = {H,O}; both consistent with {F01,N01}; sedenions excluded by zero-divisors either way. This
+independently reproduces the owner's DECISIVE, 3-model-panel-cleared root-axiom finding: "non-associativity is INSTALLED
+not forced." Nonassociativity is an observable/probe-side fork, NOT a new root constraint.
+
+RANGE MAP (forced vs fork): quaternion H = FORCED (engines run here, UP-109). Octonion O / Albert H_3(O) / exceptional
+F4,E6 (UP-107/108) = genuine math but LIVE on the {H,O} branch, NOT forced. Clifford Cl_n = associative -> {H} branch,
+always available. TO EARN the octonion rung: exhibit a mechanism where GROUPING (nonassociativity/T01) is load-bearing
+-- a demand a single associative carrier cannot close. No current engine mechanism requires it. So the exceptional
+tower is genuine mathematics on a LIVE-but-unforced branch; the precise missing piece is a T01-load-bearing demand.
+Harness 118 GREEN. (octonion_fork_not_forced_sim.py)
