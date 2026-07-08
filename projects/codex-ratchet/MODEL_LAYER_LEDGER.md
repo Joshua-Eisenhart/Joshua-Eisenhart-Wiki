@@ -2375,3 +2375,26 @@ always available. TO EARN the octonion rung: exhibit a mechanism where GROUPING 
 -- a demand a single associative carrier cannot close. No current engine mechanism requires it. So the exceptional
 tower is genuine mathematics on a LIVE-but-unforced branch; the precise missing piece is a T01-load-bearing demand.
 Harness 118 GREEN. (octonion_fork_not_forced_sim.py)
+
+## UP-113 -- T01 grouping-demand search: H is the CEILING for the present engines (closes the octonion arc) (2026-07-08)
+
+Follows UP-112 (H->O is an unforced fork; to EARN O need a mechanism where grouping/T01 is load-bearing with OCTONIONIC
+nonassociativity). This sim exhaustively searches the engine's stage-combining operations for such a mechanism.
+
+THREE candidates, each classified: (1) CHANNEL COMPOSITION -- the engine's ACTUAL stage-combining operation -- is
+ASSOCIATIVE by construction (((S3.S2).S1)==(S3.(S2.S1)), defect 1.3e-16); function composition always is, so it cannot
+be a T01 demand. (2) JORDAN PRODUCT 1/2(AB+BA) of stage superoperators is nonassociative (defect 0.07) but the engine
+does NOT compose via it -> not load-bearing. (3) FIELD/LIE BRACKET [A,B]=AB-BA (3-engine interaction) is nonassociative
+(defect 0.28) but OBEYS the JACOBI identity (defect 2.2e-16) -> a LIE algebra (so(4)-type, matching UP-111's classical
+field symmetry), NOT octonionic.
+
+THE JACOBI DISCRIMINATOR (decisive): octonions are NON-Lie -- they FAIL Jacobi and satisfy Moufang instead. Every
+natural qubit-superoperator combination is built from the matrix commutator, which ALWAYS obeys Jacobi -> stays
+Lie/classical. So NO operation available to the engine mechanics yields octonionic (non-Jacobi) nonassociativity.
+
+CONCLUSION: H is the CEILING for the present engine mechanics. Earning the octonion rung requires a genuinely NON-LIE,
+NON-JACOBI (Moufang) combination of engines -- a NEW mechanism absent from the engines as built (channel composition is
+associative; every bracket is Lie). The octonion/exceptional tower (UP-107/108) is genuine mathematics on the {H,O}
+branch but stays LIVE-but-unforced (UP-112). This is the precise, constructive close of the octonion arc: not "octonions
+are wrong," but "the current engines close all demands at H; a specifically non-Jacobi grouping mechanism is the exact
+missing piece that would lift them to O." Harness 119 GREEN. (t01_grouping_demand_search_sim.py)
