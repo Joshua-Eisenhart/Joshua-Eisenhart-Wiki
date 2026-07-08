@@ -120,7 +120,16 @@ def main():
         w=[vals[i] for i in range(len(vals)) if lab[i]]; l=[vals[i] for i in range(len(vals)) if not lab[i]]
         if w and l: sep_sh.append(np.mean(w)-np.mean(l))
     shuffled_mean_sep=float(np.mean(np.abs(sep_sh)))
-    per_stage_reframe_holds = abs(real_sep)>2*shuffled_mean_sep  # it does NOT -- recorded honestly
+    # second control: WRONG GOAL -- score every stage's surprise-reduction against a FOREIGN terrain pointer
+    # (terrain 2's) instead of its own. If the per-stage reframe were real, using the wrong "known" would destroy
+    # the win/lose separation; here it does not change the (already-null) picture -- recorded as evidence the
+    # per-stage split is not carried by the pointer either.
+    wrong_goal=pointer(2)
+    wg=[surprise_reduction(ti,chan,wrong_goal,probes) for name,ti,chan,label in STAGES]
+    win_wg=[wg[i] for i in range(len(STAGES)) if STAGES[i][3].lower()=="win"]
+    lose_wg=[wg[i] for i in range(len(STAGES)) if STAGES[i][3].lower()!="win"]
+    wrong_goal_sep=float(np.mean(win_wg)-np.mean(lose_wg))
+    per_stage_reframe_holds = abs(real_sep)>2*shuffled_mean_sep and abs(real_sep)>abs(wrong_goal_sep)  # it does NOT -- recorded honestly
 
     # ---- (B) METHOD-LEVEL / DIRECTIONAL reframe: the one that holds, gated against v7 measured teeth ----
     method_level=None; method_holds=None
@@ -151,6 +160,7 @@ def main():
              "lose_group_mean_surprise_reduction":round(float(np.mean(lose)),4),
              "real_separation_win_minus_lose":round(real_sep,4),
              "control_shuffled_label_mean_sep":round(shuffled_mean_sep,4),
+             "control_wrong_goal_sep":round(wrong_goal_sep,4),
              "per_stage_reframe_holds":bool(per_stage_reframe_holds),
              "why_it_fails":"per-stage surprise-reduction is dominated by operator family (T-pinch > F-rotation = Axis-5), not the win/lose label"},
          "method_level_reframe":{
@@ -162,7 +172,7 @@ def main():
     print("WIN/LOSE AS KNOWN/UNKNOWN -- where the reframe holds (method level) and where it does not (per stage).\n")
     print("(A) PER-STAGE (hypothesis: win reduces surprise more than lose) -- FALSIFIED, reported not gated:")
     for r in rows: print(f"    {r['stage']:5} terrain {r['terrain']} doc={r['doc_label']:4} surprise_reduction={r['surprise_reduction_bits']:+.4f} bits")
-    print(f"    win-group {np.mean(win):+.4f}  lose-group {np.mean(lose):+.4f}  sep {real_sep:+.4f}  (shuffled |sep| {shuffled_mean_sep:.4f}) -> holds: {per_stage_reframe_holds}")
+    print(f"    win-group {np.mean(win):+.4f}  lose-group {np.mean(lose):+.4f}  sep {real_sep:+.4f}  (shuffled |sep| {shuffled_mean_sep:.4f}, wrong-goal sep {wrong_goal_sep:+.4f}) -> holds: {per_stage_reframe_holds}")
     print(f"    why: per-stage surprise-reduction tracks OPERATOR FAMILY (Axis-5 T-pinch>F-rotation), not win/lose.\n")
     print("(B) METHOD-LEVEL (Type-1 tests-the-known | Type-2 explores-the-unknown) -- the reframe that holds:")
     if method_level is None:
