@@ -1207,3 +1207,11 @@ UP-112 octonion fork not forced (honest closure) -- H->O is an unforced observab
                3-model-panel-cleared doc finding "nonassociativity is INSTALLED not forced"; corroborated 3rd time by
                codex albert_stress + Grok 4.5. Range map: H forced (engines); O/Albert/F4/E6 live-not-forced;
                Clifford associative/{H}. To earn O: need a grouping(T01)-load-bearing demand; none present. 118 GREEN.
+
+UP-113 T01 grouping-demand search (closes octonion arc) -- H is the CEILING for present engines. Exhaustive over stage-
+               combining ops: (1) channel composition ASSOCIATIVE (1.3e-16, the engine's real op); (2) Jordan product
+               nonassoc (0.07) but not used to compose; (3) Lie/field bracket nonassoc (0.28) but OBEYS Jacobi (2.2e-16)
+               -> Lie (so(4), UP-111), not octonionic. Jacobi discriminator: octonions fail Jacobi (Moufang); matrix
+               commutators always obey it -> stay classical. No octonionic (non-Jacobi) T01 in the mechanics -> earning
+               O needs a NEW non-Lie non-Jacobi combination, absent as built. Octonion tower stays live-but-unforced.
+               119 GREEN.
