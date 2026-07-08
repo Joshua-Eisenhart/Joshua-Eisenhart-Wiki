@@ -1181,3 +1181,9 @@ UP-108 exceptional Lie ratchet -- G2->F4->E6->E7->E8 as symmetry of nested struc
                (entrywise-extended derivation, Jordan defect 9e-15) = the symmetry image of the UP-107 O->H_3(O) step.
                E7=133/E8=248 CITED (magic square), boundary marked. Order forced by shortest-leaps-up nesting: carrier
                -> Jordan product -> cubic form -> triple -> full. 114 GREEN.
+
+UP-109 engine division-algebra rung -- closes the UP-107 forcing link. Single-qubit su(2) IS the quaternions Im(H)
+               (Hamilton relations, defect <1e-9), so the single-qubit-per-terrain engines run on the QUATERNION rung
+               H (dim 4). Octonions (dim 8)/H_3(O) (dim 27)/F4/E6 are STRICTLY HIGHER = the next forced climb, not the
+               engines' current floor. "engines run on H_3(O)" = FALSE (4 != 27); ladder R->C(earned)->H(engines)->O(next).
+               Counting matches are correspondences not homomorphisms (O has identity, terrains do not). 115 GREEN.
