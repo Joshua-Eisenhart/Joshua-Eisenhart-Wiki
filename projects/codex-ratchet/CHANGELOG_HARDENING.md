@@ -1118,3 +1118,11 @@ UP-98 PERCEPTION SCORECARD four eval-admission fields + FEP stream Lev-parseable
                0.3/0.8/0.7 thresholds). Emitter v3 populates them live, missing_for_eval_admission -> []. FEP stream
                v2: emit full per-tick {tick,belief_bloch,surprise_bits,fe_gradient} under lev_bridge_stream.v1 header
                (auditor fix -- was dropping them). Harness 106 GREEN.
+
+UP-99 WIN/LOSE AS KNOWN/UNKNOWN (FEP) -- one frame among others  win_lose_as_known_unknown_fep_sim.py
+               -- owner reframe: win/lose is one frame, known/unknown another (works well for FEP). (A) per-stage
+               hypothesis FALSIFIED, reported not gated (win-group 0.615 < lose-group 1.009 surprise-reduction bits;
+               tracks operator family/Axis-5, not the label). (B) method-level reframe HOLDS, gated on v7
+               bidirectional-science teeth: Type-1 tests-the-known (acc 1.0), Type-2 explores-the-unknown (acc 0.9,
+               erased->chance 0.25); win table read epistemically = confirm-vs-explore. Control: Type-2 erased must
+               be at chance. Harness 107 GREEN.
