@@ -2251,14 +2251,14 @@ ratcheting entropy is U = Umegaki relative entropy to the terrain's OWN fixed po
 8 terrains (CPTP data-processing); von Neumann S is a pawl only on depol/proj terrains (they mix), NOT on damp (they
 purify). Grounded + shuffled-generator controlled. I did NOT re-derive L2; v7 owns it.
 
-L3 FLOOR (per_terrain_entropy_forcing_sim, artifact TBD): is anything forced BELOW terrain x operator? T1 the native
+L3 FLOOR (per_terrain_entropy_forcing_sim, version 254ca5de-6305-4523-a546-369425f34eb2): is anything forced BELOW terrain x operator? T1 the native
 qubit operator has 31 valid (q1,q2) sub-splits composing to the same channel (not unique => not forced); T2 the total
 U-decrement is fixed (0.2804->0.0355) but the intermediate-U split across sub-steps slides freely (span 0.1321,
 arbitrary). BOTH => the ratchet FLOOR is the terrain x (operator, U-entropy) rung; below it is engine DYNAMICS (the DOFs
 playing out), not more ratchet. The floor test explicitly predicted: a deeper forced rung would need a richer carrier
 (3-qubit/octonion), a DIFFERENT ladder, not a finer qubit split.
 
-THE DEEPER RUNG (jordan_octonion_observable_rung_sim, artifact TBD) -- exactly the ladder the floor test predicted, and
+THE DEEPER RUNG (jordan_octonion_observable_rung_sim, version ecf02924-90cc-45ed-b8aa-6ad9ce829cc7) -- exactly the ladder the floor test predicted, and
 the owner named it. Valid octonions from scratch (Fano-plane table, norm-composition-exact 0.0, alternative 1.8e-14,
 nonassoc 36.3, noncomm 17.9). THREE forced facts: (1) octonion nonassociativity breaks associative-matrix observables;
 the Jordan product a o b=1/2(ab+ba) is the surviving observable algebra. (2) Hermitian octonionic n x n matrices satisfy
