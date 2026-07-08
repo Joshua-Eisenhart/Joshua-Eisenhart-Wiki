@@ -1142,3 +1142,10 @@ UP-101/102 WIN/LOSE WITHDRAWN; known/unknown as testable FEP model + loop-level 
                rev min 0.654). UP-102 known_unknown_fep_field: field U(rho)=S(rho||attractor) bits; (1) attractor is
                the known (corr 0.98-1.00), (2) flow is surprise-descent (U->0 all 8, FEP free-energy min), (3) known
                is specific (wrong-belief residual ~100% of gap, coincident pairs excluded). Pure QIT. 108 GREEN.
+
+UP-103 EPISTEMIC active inference (explore half) -- engine selects probe-actions by expected information gain
+               I(hidden terrain;readout)=H(b)-E[H(b|y)], resolving the unknown (pure QIT + finite belief, no reward).
+               Complements the existing pragmatic goal-planner. Prediction-first loop (v7 holodeck doctrine); uses the
+               UP-102 known/unknown field as drive. Gated: (1) resolves all 8 hidden terrains (mean 8.88 ticks, correct
+               MAP); (2) beats random actions (8.88 vs 10.83, margin grows uncensored); (3) CONTROL uninformative probe
+               leaves 1.33 bits unresolved. Precompute-once refactor: 60s timeout -> 2.8s. 109 GREEN.
