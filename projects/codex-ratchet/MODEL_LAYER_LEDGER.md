@@ -2048,3 +2048,32 @@ distinct non-mixed fixed point and freeze belief AT the switch after learning A 
 
 scratch_diagnostic, promotion_allowed=false. The FEP lens on the ONE engine, not a new mechanism -- a different way
 to read the same density/entropy mechanics, exactly as the owner framed the QIT-FEP. Harness 105 GREEN.
+
+## PERCEPTION SCORECARD: the four missing_for_eval_admission fields + FEP stream now Lev-parseable (2026-07-07)
+Directive: complete the perception scorecard so the emitted Lev evidence carries a full formation-loss surface, and
+make the FEP stream directly consumable by Lev. Two builds + two auditor fixes.
+
+(1) perception_scorecard_eval_admission_sim.py (artifact 7631ded9) -- measures the four fields the codex Phase-3
+evidence lists as missing_for_eval_admission, all on the SAME real engine stage channels the re-id sim uses
+(imported, not re-derived), as pure instruments (numbers only) + a SEPARATE eval:
+  1. recall_ratio 0.6875 -- degraded/noisy-cue associative recall (shuffled-label control 0.0625 = chance, sep 0.625)
+  2. anti_key_penalty 0.0 -- 0/16 random-CPTP decoys false-bind inside the real self-match radius; real stages
+     self-bind at 0.875 (a real object binds to itself, a decoy is rejected)
+  3. attention_leak 0.3993 -- mean off-diagonal / mean diagonal of the stage-similarity matrix (shuffled-identity
+     control 1.01 has no diagonal advantage; the real matrix is well below it)
+  4. cross_node_mesh_convergence 0.75 -- two INDEPENDENT probe-family nodes agree on stage identity (shuffled-node
+     control 0.0625 = chance, sep 0.6875); the mesh/agent-network lens: independent observers converge (a=a iff a~b)
+  AUDITOR FIX: the eval policy originally used hand-picked constants (0.3/0.8/0.7) -- banned by
+  gate_must_derive_from_data_not_picked_count. Rewritten CONTROL-RELATIVE: each field admits iff the REAL
+  measurement beats its OWN negative control (recall>shuffled AND >chance; real-self-bind>decoy-false-bind;
+  leak<shuffled-leak; mesh>shuffled AND >chance). No literal pass-marks remain.
+  The emitter (lev_qit_evidence_envelope_emitter v3) now reads these live and shrinks missing_for_eval_admission to [].
+
+(2) qit_fep_surprise_stream_sim v2 (artifact 5845a80b) -- AUDITOR FIX: UP-97 computed belief per tick but emitted
+only the bare surprise list; the docstring's "emits the trace Lev consumes" outran the record. Now emits the FULL
+per-tick records {tick, belief_bloch, surprise_bits, fe_gradient} under the constraint_core.lev_bridge_stream.v1
+header -- the exact shape the Lev cr_qit_bridge_stream_v0 evidence port parses, so the trace is consumed with NO
+header-lift adapter. fe_gradient = tick-over-tick change in surprise (the free-energy gradient the belief descends);
+at the first post-switch tick (t=15) surprise spikes to 2.506 bits, then descends (t=16 fe_gradient -1.498).
+
+scratch_diagnostic, promotion_allowed=false throughout. Harness 106 GREEN.
