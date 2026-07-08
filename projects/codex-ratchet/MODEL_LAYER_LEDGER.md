@@ -2220,7 +2220,7 @@ The substage tournament (UP-105 this side; the parallel v7 run independently) le
 (select-1 canonical), D (parallel-branch, observationally = B at loop output), C-in-window (all four operators run,
 canonical dominant, subordinates at attenuation alpha). The parallel run measured a DOMINANCE WINDOW on stage identity
 (subordinates tolerated to ~half strength alpha<=0.5, equality=pathology) -- INDEPENDENTLY REPRODUCED here on our own
-instruments (min-pairwise stage distinctness 0.149 canonical -> 0.051 at alpha=1.0, ~3x degradation; monotone). It
+instruments (min-pairwise stage distinctness 0.1385 canonical -> 0.0453 at alpha=1.0, ~3.1x degradation; monotone). It
 handed back one question: does anything DOWNSTREAM distinguish canonical-only (B/D) from dominant-with-subordinates (C)?
 
 ANSWER (downstream_dominance_window_discriminator_sim, artifact 49625942): sweep alpha, score on 3 real instruments.
