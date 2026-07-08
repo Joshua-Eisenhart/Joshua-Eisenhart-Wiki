@@ -2287,3 +2287,24 @@ Hermitian 3x3 matrix, is an F4 derivation of H_3(O) (Jordan-derivation defect 9.
 the G2->F4 ratchet are the SAME step. Derivation boundary marked: g2/f4/e6 derived from the octonion/Albert structure;
 e7/e8 cited from Freudenthal-Tits. Controls: wrong octonion table -> wrong Der-dims; non-derivation entrywise map ->
 nonzero Jordan defect. Harness 114 GREEN. (exceptional_lie_ratchet_sim.py)
+
+## UP-109 -- where the engines sit on the division-algebra ladder; the exceptional tower is the NEXT climb (2026-07-08)
+
+Closes the forcing-link left open by UP-107 (jordan_octonion_observable_rung flagged: H_3(O) dim 27 != 3-qubit 64 !=
+single-qubit engine-op 4; "do engines run on H_3(O)?" OPEN).
+
+RESOLUTION (derived): a SINGLE qubit's rotation algebra su(2) IS the quaternions Im(H), exactly -- with i=-i*sx,
+j=-i*sy, k=-i*sz the Hamilton relations hold (i^2=j^2=k^2=-1, ij=k, jk=i, ki=j; defect <1e-9). The engines are
+single-qubit-per-terrain, so they run on the QUATERNION rung H (associative, dim 4). Octonions (dim 8, nonassoc, defect
+14.2), H_3(O) (dim 27), and the F4/E6 tower are STRICTLY HIGHER -- the next forced division-algebra step, NOT the
+engines' current floor.
+
+DIVISION-ALGEBRA LADDER (Hurwitz) and where the model sits:
+  R dim 1 pre-quantum | C dim 2 complex qubit EARNED (F01+N01) | H dim 4 quaternion = ENGINES RUN HERE (su(2)=Im H) |
+  O dim 8 octonion nonassoc = NEXT FORCED CLIMB (carrier floor, H_3(O) Jordan rung, F4/E6 exceptional tower per UP-107/108)
+
+So "engines run on H_3(O)" is FALSE (dim 4 != 27); the honest statement is the engines are at H, one division-algebra
+step below O, and the octonion/exceptional tower is a genuine target the ratchet points at. Counting coincidences
+(8 terrains ~ dim O=8; 2 engine types ~ 2 chiralities) are correspondences, NOT algebra homomorphisms: O has an
+identity unit, the terrain set has no distinguished identity terrain. Controls: octonion nonassociativity (14.2>0)
+confirms no associative qubit algebra can carry it. Harness 115 GREEN. (engine_division_algebra_rung_sim.py)
