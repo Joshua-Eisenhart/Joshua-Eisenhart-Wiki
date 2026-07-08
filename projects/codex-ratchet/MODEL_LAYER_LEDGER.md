@@ -2308,3 +2308,31 @@ step below O, and the octonion/exceptional tower is a genuine target the ratchet
 (8 terrains ~ dim O=8; 2 engine types ~ 2 chiralities) are correspondences, NOT algebra homomorphisms: O has an
 identity unit, the terrain set has no distinguished identity terrain. Controls: octonion nonassociativity (14.2>0)
 confirms no associative qubit algebra can carry it. Harness 115 GREEN. (engine_division_algebra_rung_sim.py)
+
+## UP-110 -- the UPPER MANIFOLD (axes 7-12): field of engines, Choi/superoperator level, home of IGT (2026-07-08)
+
+Owner: "axis 7-12, which is a field of engines running in relation to each other, and the natural home of igt. so there
+may need more ratcheting for a field of engines, and the geometry those engines themselves are embedded into, rather
+than just a flat finite checkerboard. so the exceptional lie algebras may have more value at that level."
+
+DOC-GROUNDED in AXES_0_12_MASTER.md sec 2 (Upper Manifold / Mirror Axes): axes 7-12 map the constraint slices onto the
+Operator/Choi manifold, "strictly isomorphic A_i -> A_{i+6} operating over superoperators (Choi matrices) rather than
+density matrices"; base<->mirror conflation = KILL.
+
+(1) MIRROR = GENUINE HIGHER OBJECT. base engine = single qubit, 2x2 density, dim 4 (= H quaternion, UP-109). mirror =
+the channel's Choi matrix, 4x4, dim 16 -- one tier up. Built by direct Lindblad integration of each terrain channel on
+the 4 basis matrices (linear, TP; the naive trace-normalized flow divides-by-zero on traceless basis inputs -- fixed).
+All 8 terrain Choi valid CPTP (Tr_out J=I, defect 5.6e-16), pairwise-distinct at full-Choi (min 0.5211).
+
+(2) DOC CORRECTION -- "strictly isomorphic A_i->A_{i+6}" is TOO STRONG. base Axis-1 (state mixedness) vs mirror Axis-7
+(Choi entropy = deviation from unitary): Spearman rho ~+0.77, NOT +1.0. The mirror is a COARSER, channel-KIND partition
+(damp terrains 0/2/4/6 one Choi-entropy value, depol 1/5 another, proj 3/7 another) because the Choi carries channel
+structure a single state lacks. So the mirror is a genuine DISTINCT upper level, not an order-identical copy. Corrected
+to "structurally related, rank-correlated (~0.77), not isomorphic." (Auditor-style catch of a doc overclaim.)
+
+(3) IGT FIELD RELATION (the tier's point). engines-as-objects compared pairwise = a meta-graph (Axis-8 seed). Choi-
+distance adjacency has non-trivial centrality (depol terrains 1,5 most central, row-sum 5.99 vs 7.99). IGT lives HERE
+(engines as players in a field), not inside one engine. Where exceptional algebras gain value: the SYMMETRY of the
+field of engines (many Choi, dim >> one channel's 16), consistent with UP-109 (single engine at H; the field/upper-
+manifold is where higher structure -- O, H_3(O), F4/E6 -- becomes native). SEED: field geometry + symmetry group OPEN
+for further ratcheting. Harness 116 GREEN. (upper_manifold_mirror_axes_field_sim.py)
