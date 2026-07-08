@@ -1149,3 +1149,13 @@ UP-103 EPISTEMIC active inference (explore half) -- engine selects probe-actions
                UP-102 known/unknown field as drive. Gated: (1) resolves all 8 hidden terrains (mean 8.88 ticks, correct
                MAP); (2) beats random actions (8.88 vs 10.83, margin grows uncensored); (3) CONTROL uninformative probe
                leaves 1.33 bits unresolved. Precompute-once refactor: 60s timeout -> 2.8s. 109 GREEN.
+
+UP-104/105 64/64 WITHDRAWN + substage architecture discriminated -- (104) engine_64_schedule_sim: the "N01 lifts
+               to 64/64" claim was distinctness by construction (1984 excluded_trivial cells); withdrawn in code+gate;
+               now reports 11 order-blind collapse + 16/16 matched-content order-carried; 64-slot position-uniqueness
+               OPEN (v7 gap). Running a stage shows F-rotation substages do NO entropy work. (105)
+               substage_architecture_discriminator: Carnot/Szilard have 4 strokes x 2 control DOF (piston/lever), NOT
+               16 -- the 16x4 is the QIT engine's OWN structure. 3 candidates on one engine battery (close on limit
+               cycle + enclose ORIENTED net work + effective substages): engine-like={A 4-ops-at-casing, C
+               4-loop-terrains}; B piston/lever lattice FAILS oriented-work (0/6 seeds). Discriminated, not picked.
+               110 GREEN.
