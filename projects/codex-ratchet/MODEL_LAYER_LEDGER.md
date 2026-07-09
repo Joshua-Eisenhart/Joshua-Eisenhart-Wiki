@@ -29,11 +29,19 @@
 ################################################################################
 # LAYER 2 — GEOMETRY (nested Hopf tori + flux)  [flux REQUIRES nesting]
 ################################################################################
-2.1  Nested Hopf tori T_eta         EARNED. Each shell carries Berry holonomy -2pi cos2eta.
+2.1  Nested Hopf tori T_eta         EARNED. Each shell carries Berry holonomy -2pi cos^2(eta).
+                                    [NORMALIZATION CORRECTED 2026-07-09, UP-128, after codex/loop-back audit +
+                                    independent reproduction: the per-shell holonomy is -2pi cos^2(eta), NOT the
+                                    previously-written "-2pi cos2eta". Verified against the Berry connection on the
+                                    Hopf chart (UP-125/L7): eta=pi/4 -> -pi exactly.]
 2.2  Flux needs nesting             EARNED (this is a real structural fact, your claim confirmed).
                                     A SINGLE shell gives only holonomy; FLUX appears only ACROSS
-                                    nested shells: Phi(eta_i,eta_j) = 2pi(cos2eta_i - cos2eta_j).
-                                    Measured Phi(0,1)=3.46; total Chern 7.30, order-indifferent.
+                                    nested shells: Phi(eta_i,eta_j) = -pi(cos2eta_i - cos2eta_j).
+                                    [NORMALIZATION CORRECTED 2026-07-09, UP-128: the flux is -pi(cos2eta_i-cos2eta_j),
+                                    NOT the previously-written "2pi(cos2eta_i-cos2eta_j)" -- the old value was too large
+                                    by a factor of -2 (ratio observed/old = -1/2), independently confirmed by codex
+                                    sol-5.6 and reproduced here. Flux = holonomy DIFFERENCE = -2pi(cos^2 eta_i -
+                                    cos^2 eta_j) = -pi(cos2eta_i - cos2eta_j). Cross-shell nesting property unaffected.]
 2.3  A=0 ablation                   EARNED. Flat carrier -> curvature vanishes -> holonomy 0.
                                     Confirms the geometry (not the code) carries the flux.
 
@@ -2782,3 +2790,31 @@ the integer IS the accumulated curvature; continuous L7 holonomy and discrete L8
 connection. SCOPE: earns L8. Does NOT assign which physical chirality is left vs right (empirical,
 chirality_forced_by_F01_N01). Top of the earned geometric spine; does not build L9. Harness 133 GREEN.
 (manifold_L8_global_bundle_chern_quantization_sim.py)
+
+## UP-128 -- Loop-back audit correction: codex sol-5.6 cross-check of the L5/L6/L7 spine geometry (2026-07-09)
+
+The parallel codex sol-5.6-ultra runner independently rebuilt the Schmidt/BKM/Berry shell geometry (its
+schmidt_bkm_berry_dual_ratchet_repair_sim) and its machine audit (EXTERNAL_PACKET_86_V84_92_AUDIT_20260709) flagged
+three real defects in my shipped UP-123/124/125. I REPRODUCED all three independently and CORRECTED them (fixes in the
+math/framing, harness stays 133 GREEN -- no gate was relaxed). This is the "loop back and audit each ratchet up"
+discipline working across two independent builders.
+  DEFECT 1 (L6, corrected) -- "curved not flat" was WRONG. The shell family is 1-DIMENSIONAL and the BKM metric is
+  EXACTLY CONSTANT in the Schmidt-angle coordinate (g_eta_eta=4 for all eta, spread 5e-8). A 1-manifold has identically
+  zero intrinsic curvature. My earlier "boundary 1.9x center" was a COORDINATE ARTIFACT of the Bloch-radius coordinate
+  r=2cos^2eta-1 (reparametrization Jacobian dr/deta=-2 sin2eta). Fixed: L6 fact 2 now gates g_eta_eta constant + the
+  r-variation = Jacobian (not curvature) + BKM differs from the naive Euclidean-r metric (the real, metric-CHOICE fact).
+  DEFECT 2 (L7, corrected) -- "single-shell holonomy is pure gauge (removable)" was WRONG. The closed-loop Berry phase
+  is gauge-INVARIANT (mod 2pi); verified it is unchanged under single-valued gauges. Fixed: L7 fact 3 docstring/JSON
+  now state gauge-invariance, and the cross-shell claim rests correctly on the holonomy DIFFERENCE (self=0, erase->0).
+  DEFECT 3 (ledger L2.1 normalization, corrected) -- the per-shell holonomy is -2pi cos^2(eta) (NOT "-2pi cos2eta") and
+  the flux is -pi(cos2eta_i-cos2eta_j) (NOT "2pi(cos2eta_i-cos2eta_j)"): the old flux value was too large by a factor
+  of -2 (ratio observed/old = -1/2, matching codex exactly). L7's COMPUTATION already used -pi correctly; the error was
+  in the ledger L2.1 canon line and is now fixed. L5's Phi=2pi(r_i-r_j) is its own bookkeeping scale for the nesting
+  demonstration (normalization-independent), clarified as distinct from the L7 Berry flux.
+WHAT SURVIVED (codex + here agree): the L7 rectangle holonomy -pi(cos2eta_i-cos2eta_j) is a confirmed finite survivor;
+the UP-120 Umegaki finite-modular identity survives; the BKM=Hessian identity survives on full-rank marginals; CPTP
+contraction survives. OPEN (codex critiques I accept as fair, not yet closed): UP-121's "Petz/DPI FORCES the pawl" and
+UP-122's Alfsen-Shultz "nonexistence of single-observable correspondence" are semantic OVERCLAIMS on the forcing/
+uniqueness side -- the finite residuals are real but the decisive negative that would upgrade "consistent-with" to
+"forced" is not yet in the gate. Flagged for a future forcing-vs-consistency tightening pass. Harness 133 GREEN.
+(manifold_L5/L6/L7 corrected; ledger L2.1 normalization fixed)
