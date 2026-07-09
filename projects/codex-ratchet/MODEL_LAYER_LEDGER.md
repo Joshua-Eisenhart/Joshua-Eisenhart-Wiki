@@ -2643,3 +2643,50 @@ data-processing inequality, and the equality/recovery boundary is the Petz condi
 newly force the {H,O} branch. Together UP-107/120/121 make the forced entropy pawl fully grounded: terrain-native
 (107), = finite modular theory (120), and forced by DPI with Petz-recovery equality (121). Harness 127 GREEN.
 (petz_dpi_forces_the_pawl_sim.py)
+
+## UP-122 -- Alfsen-Shultz dynamical correspondence: the DYNAMICAL face of special vs exceptional (2026-07-09)
+
+Closes the Jordan cluster, processing the codex-ratchet alfsen_shultz_correspondence_probe independently. Sharpens the
+special/exceptional split (UP-116/117) into a DYNAMICAL statement and ties it to the modular-theory work (UP-120).
+
+A formally-real Jordan algebra is SPECIAL iff it carries a "dynamical correspondence": each traceless observable a maps
+to a Jordan DERIVATION D_a=(i/2)[a,.] via the associative commutator (the finite Jordan form of "the state/observable
+generates its own dynamics" -- the same principle UP-120 identified as Tomita-Takesaki modular flow). COMPUTED:
+  - SPECIAL Herm3(C): a|->D_a=(i/2)[a,.] IS a Jordan derivation (residual 0 on all basis pairs). Correspondence holds.
+    Corrupted wrong-sign control (i/2){a,.} is NOT a derivation (residual 1.41) -> specific to the commutator.
+  - EXCEPTIONAL H3(O): the naive single-observable octonionic commutator is NOT a Jordan derivation (residual 143.6).
+    No single-observable dynamical correspondence -- the DEFICIT, the dynamical shadow of "H3(O) has no associative
+    envelope" (Jordan-vNW, UP-116).
+  - THE DEFICIT IS SINGLE-OBSERVABLE-SPECIFIC (honest companion): PAIR commutators [L_a,L_b] of Jordan multiplication
+    operators ARE genuine derivations (residual 1.9e-13) and span the full 52-dim Der(H3(O))=f4 (UP-119). H3(O) has
+    abundant dynamics (the f4 inner derivations); what it lacks is the correspondence indexing ONE generator per
+    observable. Absence de-indexes dynamics from observables, it does not remove them.
+
+PLACEMENT: forced-side structural clarification (no new forcing). Special vs exceptional is DYNAMICALLY the presence/
+absence of a single-observable dynamical correspondence; its presence in the special case is the finite form of the
+modular "state generates its own dynamics" (UP-120); its absence in H3(O) leaves the f4 derivations of UP-119 intact.
+Established prior art (Alfsen & Shultz, State Spaces of Operator Algebras). Harness 129 GREEN.
+(alfsen_shultz_dynamical_correspondence_deficit_sim.py)
+
+## UP-123 -- Manifold spine L5: nested-shell Schmidt strata; flux gets its first spine home (2026-07-09)
+
+Loops the FOUNDATIONS forward (owner: "build the foundations and loop back to improve them"). The manifold spine had
+L1-L4 as forcing sims; L5+ sat only in the ledger. This builds L5. Nests on L4 (local Weyl factors: exist IFF product)
+and L2 (marginals). L4 gave only a BINARY product/entangled bit; L5 adds the continuous SCHMIDT STRATA realized as
+NESTED MARGINAL-RADIUS SHELLS: a bipartite pure state's reduced marginal has Bloch radius r=2 s0^2-1 (top Schmidt
+weight), a continuous shell coordinate. Product = outermost shell r=1; maximally entangled = center r=0; partial
+entanglement = nested shells between. COMPUTED:
+  - DUAL RATCHET: product->Bell sweep, shell radius contracts 1->0 as marginal entropy rises 0->1 bit -- geometry
+    (which nested torus) and readout (Schmidt spectrum) co-ratchet continuously.
+  - REFINES L4: two states L4 calls equally "non-product" (negativity 0.42, 0.49) land on DIFFERENT L5 shells
+    (r 0.54 vs 0.23) -- L5 strictly refines the L4 binary criterion.
+  - NESTED-SHELL FLUX Phi=2pi(r_i-r_j): 0 for a shell with itself, 1.97 for nested distinct shells -> flux is a
+    NESTING property, not a single-shell one (ledger L2.1, project canon flux_needs_nesting / flux_is_geometry_not_
+    axis). This is where the model's "flux" first has a spine referent.
+  - ERASE-NESTING control: collapse all states to one shell radius -> flux identically 0 and the interior-resolution
+    over L4 vanishes (structural erase, not a count change).
+
+SCOPE: earns L5 (Schmidt strata as nested shells + flux as cross-shell nesting quantity) on top of L4. Does NOT build
+L6 (metric/connection on the shell family) or above; next rung. Weyl chirality + engine-type split remain later
+objects. Hypothetical lane; owner doctrine under test. scratch_diagnostic. Harness 129 GREEN.
+(manifold_L5_nested_shells_schmidt_strata_sim.py)
