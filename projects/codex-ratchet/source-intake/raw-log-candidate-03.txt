@@ -1,1 +1,0 @@
-2026-06-07 20:55:15,460 INFO [20260607_193523_228c20] plugins.web.firecrawl.provider: Firecrawl scraping: https://en.wikiversity.org/wiki/Motivation_and_emotion/Book/2015/L%C3%B6vheim_cube_of_emotion

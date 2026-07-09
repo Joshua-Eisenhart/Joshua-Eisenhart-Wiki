@@ -1,0 +1,198 @@
+# QIT Engine 16 x 4 / Axis-6 Current State - 2026-07-09
+
+## Verdict
+
+The requested architecture is mathematically coherent, and important pieces
+really run. It is not yet implemented and validated as one complete engine.
+
+The exact current statement is:
+
+- **16 source chart positions:** real as a parsed schedule.
+- **Two engine types with two loops each:** real as four finite, ordered loop
+  schedules; their claim of stable, complementary scientific intelligence is
+  not yet earned.
+- **Four exact operator channels per signed terrain:** real as a hard-coded
+  candidate expansion and as independently executed finite channels.
+- **Four sequential substages per source position:** not yet derived. They must
+  emerge from independent geometry and entropy ratchets; the shared Axis-6
+  sign is inherited only after the survivor classes are earned.
+- **All 16 stages and all four substages are necessary:** not established.
+- **Unique thinking, personality, perception, and object creation:** not
+  established by channel distinguishability.
+
+This page controls broader readings of the July 6-9 engine packets. It is an
+audit/router, not a proof or admission surface.
+
+Primary repo audit:
+`/Users/joshuaeisenhart/Codex-Ratchet/system_v5/ops/CLAUDE_SCIENCE_94_95_ENGINE_STATE_AUDIT_20260709.md`.
+
+## Why Earlier Results Appeared To Agree
+
+The estate uses `16 stages` for three different objects:
+
+| Namespace | Exact object | Valid evidence |
+|---|---|---|
+| Source chart | two engines x two loops x four ordered rows | source parsing and schedule fidelity |
+| Re-identification proxy | eight terrains x two selected/native operators | fresh `16/16` affine classification |
+| Candidate 16 x 4 expansion | eight terrains x two precedence signs, each provisionally expanded to Ti/Te/Fi/Fe | 64 one-step finite channel signatures |
+
+The `16/16` stranger-seed affine result is therefore useful proxy evidence. It
+is not re-identification of the 16 signed source-chart positions. Likewise, 64
+distinguishable one-step channels do not prove 16 sequential four-beat macro
+engines.
+
+## What Freshly Passes
+
+### Schedule fidelity
+
+The current source linter reconstructs 16 source positions, expands each to
+four operators at one shared sign, obtains exactly 64 rows, recovers the 16
+older source-canonical rows, and rejects a corrupted table. Its ceiling is
+table/source fidelity.
+
+### Finite 64-channel dynamics
+
+`engine_64_schedule_definition_sim.py` reports:
+
+- 64/64 finite channel signatures distinguished under its six probes;
+- minimum pairwise distance `0.1086`;
+- up/down differences for 32/32 terrain/operator pairs;
+- no-drive control 0/32;
+- single-operator control collapsed to 16.
+
+This is real order sensitivity under one bounded flow and probe battery. Every
+channel is run independently from a hard-coded candidate pool, so it does not
+prove a four-beat interior or dual-ratchet emergence.
+
+The separate `engine_64_schedule_sim.py` result must not be conflated with this
+one. Its older 64-position interpretation was withdrawn; its current useful
+result is an order-blind collapse to 11 buckets plus 16/16 matched-content
+order carrying. Full 64-position uniqueness remains open.
+
+### Sequential four-beat candidate
+
+`sixteen_intelligences_substages_terrain_ratchet_sim.py` has four ordered,
+state-changing beats and 16 separated, hand-selected fingerprints. Its
+substage function has no Axis-6 sign and no terrain-first/operator-first
+composition. It uses an installed unitary casing after one terrain flow.
+
+Therefore this sim supports a sequential substage candidate but does not run
+the requested fixed-sign architecture and does not derive its four beats from
+dual ratcheting. Its `16 intelligences` language is above its evidence:
+`n_distinct_kinds: 16` is not a learned task-family count.
+
+### Two types and four loops
+
+Fresh Type-1 and Type-2 runs each execute two ordered four-row loops. Their
+loop-order gaps are about `0.5819` and `0.5012`; the commuting controls are
+zero. This establishes four noncollapsed finite schedules.
+
+It does not yet establish four distinct useful loop intelligences:
+
+- opposite sheet labels are installed by construction;
+- measured dynamical correlations show only partial separation;
+- the stronger Type-2 stranger-seed content-equivalence criterion failed;
+- current task-family batteries do not find a load-bearing engine task family.
+
+## Necessity And Process Failures
+
+- Stage necessity has 10 nondegenerate rows and six expected-null or
+  degenerate rows. `All 16 stages are necessary` is invalid.
+- The substage architecture discriminator leaves both the four-operator and
+  four-loop-terrain candidates alive; its candidate lengths are not matched
+  and 64-position uniqueness is open.
+- Slot-level operator sensitivity is asymmetric across signs: current controls
+  find sensitivity in 7/8 down-sign and 3/8 up-sign contexts.
+- Contract lint finds 18 violations over the six current engine sims: all six
+  omit classification, manifest, and depth fields. They pass local numerical
+  reruns but are not canonical by process.
+- One dynamics-identification family is environment-sensitive: packet
+  `R^2=0.856551` becomes current local `R^2=-42.546185`. PySINDy and the full
+  environment need pinning before this result can support object formation.
+
+## Axis-6 Math
+
+Let `T_tau` be a CPTP terrain flow and `O_k` one of the four exact channels
+`Ti`, `Te`, `Fi`, `Fe`. A shared precedence sign can be defined as:
+
+```text
+Phi_up(tau,k)   = T_tau compose O_k
+Phi_down(tau,k) = O_k compose T_tau
+```
+
+Each composition is CPTP. For a declared operator order `pi`, one coherent
+four-beat macro stage is:
+
+```text
+M(tau,s,pi)
+  = Phi_s(tau,pi_4) compose Phi_s(tau,pi_3)
+    compose Phi_s(tau,pi_2) compose Phi_s(tau,pi_1).
+```
+
+So the owner's proposal has legitimate channel mathematics. The math does not
+by itself force exactly four operators, one canonical order, or the 48 rows
+that extend the older one-operator-per-source-position chart.
+
+Axis-6 token precedence, left/right action side, and closure orientation must
+also stay separate until an explicit equivalence test joins them.
+
+## Claude Science 94 And 95
+
+- `94.zip` SHA-256:
+  `476cb9181e3a32c71e4d2d1538832c80c6a065033fe68778a519b32e53a05783`.
+- `95.zip` SHA-256:
+  `1bf786835b659e132930e0673178a9d8756308ff4bfbe7d8e6f9940f9507ad98`.
+- Both have 453 integrity-valid files.
+- Neither originally contains `run_all_report.json`; `133 GREEN` was packaged
+  prose rather than a retained execution receipt.
+- Packet 95 supersedes 94. The inspected engine sources are byte-identical to
+  the live repo versions, so the packets add no new engine implementation.
+- A fresh isolated run of 95 then produced `133 pass / 0 fail / 0 skip`,
+  including NumPy-oracle agreement with JAX, PyTorch, and Julia at 1q and 3q.
+  The retained report hash is
+  `40f5f2068be42cfd5fb0d519589dabbf69c652975c11283535e4283869df98a6`.
+  This earns `passes local rerun`, not canonical admission.
+- The packet runner has one masked dependency-order defect: it runs the v7
+  crosscheck before regenerating the re-identification result that check reads.
+  With no pre-existing result the check fails absent; after fresh
+  re-identification it passes at `16/16`, separation `0.9271875`. This is a
+  runner-order defect, not an engine regression, and blocks a stronger
+  clean-checkout-self-contained claim.
+- Their new Penrose/E8, L7, and L8 probes are constructible finite research;
+  they do not force aperiodic order, manifold closure, or engine chirality.
+
+## Exact Next Experiment: Dual-Ratchet Emergence
+
+Build `engine_dual_ratchet_substage_emergence_v0`:
+
+1. Parse the 16 source positions without a duplicate schedule or injected
+   four-count.
+2. Generate a candidate superset of admissible terrain/operator/order/side
+   maps.
+3. Run the geometry ratchet and entropy ratchet independently.
+4. Intersect their survivor ledgers and require the same four minimal
+   equivalence classes under both `E_then_G` and `G_then_E`, across seeds and
+   candidate enumeration order. Four must be an output, not an input.
+5. Only then compose the survivors sequentially under one inherited Axis-6
+   sign per macro stage.
+6. Record exact superoperator or Choi fingerprints and run reverse,
+   one-survivor removal, duplicate-survivor, sign-flip, terrain-identity,
+   native-only, non-native, and order-erasure controls.
+7. Compare Type-1 and Type-2 under equal information and compute budgets, then
+   require a held-out task or object metric to fall when each claimed substage
+   is removed. Distinction without work is not teeth.
+8. Pin dependencies and pass classification, authority-manifest, depth,
+   provenance, and result-contract lint.
+
+If that passes, the earned claim is narrow but meaningful: **proper dual
+ratcheting emits four load-bearing sequential substage classes for each of 16
+source-bound macro channels, with one inherited precedence sign, arranged as
+four finite loops across two engine charts.** Personality, perception, Axis0,
+MMM authority, and ontology writing remain separate gates.
+
+## Routes
+
+- [[projects/codex-ratchet/current-research-frontier-2026-07-09]]
+- [[projects/codex-ratchet/qit-lev-operationalization-plan-2026-07-09]]
+- [[projects/codex-ratchet/external-86-v84-92-foundations-engine-audit-receipt-2026-07-09]]
+- [[projects/codex-ratchet/qit-dual-ratchet-engine-teeth-audit-2026-07-07]]

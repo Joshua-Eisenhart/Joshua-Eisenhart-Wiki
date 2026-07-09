@@ -1,7 +1,0 @@
-[historical] This log is a dated 2026-04-17 poller transcript only. It is not
-[historical] current Tier D launch permission; use current system_v5 repo receipts.
-[2026-04-17T00:12:21-07:00] poller started
-[2026-04-17T00:19:29-07:00] poller started
-[2026-04-17T02:35:10-07:00] poller started
-[2026-04-17T02:35:10-07:00] Tier B gate green and 5 layer files present; launching Tier D session
-[2026-04-17T02:36:42-07:00] Tier D launch session returned code=0

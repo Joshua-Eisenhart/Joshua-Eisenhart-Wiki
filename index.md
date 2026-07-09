@@ -17,6 +17,11 @@ Use this as the low-friction entry point. The old full listing lives at [index-f
 
 - [[projects/codex-ratchet/read-first]] — Codex Ratchet mathematical build front door.
 - [[projects/codex-ratchet/current-research-frontier-2026-07-09]] — Current July engine/object/math/Lev research digest and corrections.
+- [[projects/codex-ratchet/engine-16x4-axis6-current-state-2026-07-09]] — Exact current state of the 16 source slots, four substages, two engine types, four loops, and Axis-6 math.
+- [[concepts/dual-ratchet-geometry-entropy-jordan-research-2026-07-09]] — Article-backed synthesis of the geometry/entropy dual ratchet and Jordan/octonion carrier question.
+- [[projects/codex-ratchet/source-intake/dual-ratchet-math-article-register-2026-07-09]] — Primary-source register for Jordan, Petz, BKM, octonion, and nonassociative-QM research.
+- [[projects/wiki-cleanup-and-authority-boundary-2026-07-09]] — Wiki-only-document boundary and Codex-Ratchet/Leviathan authority split.
+- [[projects/codex-ratchet/lev-executed-dual-ratchet-receipt-2026-07-09]] — Fresh dual-ratchet foundation run executed through Lev against Codex-Ratchet.
 - [[projects/codex-ratchet/qit-lev-operationalization-plan-2026-07-09]] — Falsifiable path to one real SME object-evidence workflow.
 - [[projects/leviathan-current/qit-evidence-boundary-refresh-2026-07-09]] — Current CR-to-Lev ProofBundle, idempotency, quorum, and no-mutation gap.
 - [[projects/constraint-core/LINEAGE_AND_VERDICTS_2026-07-02]] — Constraint-core local verdict snapshot.

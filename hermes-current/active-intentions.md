@@ -36,6 +36,10 @@ Current truth:
 - The wiki should be self-describing and upgradeable: a brief scan should tell an LLM what the wiki is, what outranks what, where to start, and how skills fit into the system.
 - Upgrade complexity should stay low-coupling: only a few notes should act as integrators, while most notes remain local markdown files with information in them.
 - The system should remain Hermes-aligned for now, with ordinary Hermes sessions sharing one main memory/workspace and broader cross-agent readability possible later.
+- The wiki, Codex-Ratchet, Leviathan, and Desktop staging surfaces each have
+  maintained retrieval indexes. Refresh and consult those indexes at the start
+  of every substantive prompt; index results are discovery maps, while exact
+  source files and receipts remain the evidence surface.
 - Write safety matters: the wiki should become a shared working space without turning into agent sludge.
 - If future independent Hermes agents appear, separation should be added deliberately at the profile/operational-surface level rather than by prematurely forking the canonical wiki.
 

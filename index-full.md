@@ -1,6 +1,6 @@
 # Codex Ratchet Wiki — Index
 
-Total published pages: 492. Governance/read-first surfaces are listed separately. Restructured 2026-04-17 (stabilization pass).
+Total published pages: 497. Governance/read-first surfaces are listed separately. Restructured 2026-04-17 (stabilization pass).
 
 ## Hermes / LLM Alignment Front Door
 - [[hermes-current/read-first]] — Hermes front door; load this before substantive work
@@ -15,6 +15,11 @@ Total published pages: 492. Governance/read-first surfaces are listed separately
 - [[projects/codex-ratchet/cocoindex-and-bloat-cleanup-policy-2026-06-17]] — current CocoIndex + bloat cleanup policy for wiki/repo LLM findability: local indexes are semantic maps, generated JSON stays exact-read evidence, and large result artifacts require manifest/checksum/restore before archive or compression
 - [[projects/codex-ratchet/read-first]] — Codex Ratchet project front door after Hermes spine
 - [[projects/codex-ratchet/current-research-frontier-2026-07-09]] — current July engine/object/math/Lev research digest, falsifiers, and claim ceilings
+- [[projects/codex-ratchet/engine-16x4-axis6-current-state-2026-07-09]] — exact current state and missing conjunction for the 16 source slots, fixed-sign four-substage interior, two engine types, and four loops
+- [[concepts/dual-ratchet-geometry-entropy-jordan-research-2026-07-09]] — article-backed geometry/entropy dual-ratchet and Jordan/octonion research synthesis
+- [[projects/codex-ratchet/source-intake/dual-ratchet-math-article-register-2026-07-09]] — primary-source article register and project translation boundaries
+- [[projects/wiki-cleanup-and-authority-boundary-2026-07-09]] — wiki-only-document boundary and source/runtime authority split
+- [[projects/codex-ratchet/lev-executed-dual-ratchet-receipt-2026-07-09]] — fresh Lev-executed Codex-Ratchet dual-ratchet foundation receipt
 - [[projects/codex-ratchet/qit-lev-operationalization-plan-2026-07-09]] — staged and kill-gated path to one real SME object-evidence workflow
 - [[projects/leviathan-current/qit-evidence-boundary-refresh-2026-07-09]] — current split-worktree and ProofBundle/idempotency/no-mutation boundary
 - [[projects/research-ratchet/README]] — Research Ratchet front door for the long-horizon project harness: event-sourced admissibility geometry, WorldModelGraph / GraphPatch, Spinor Memory, Attractor Basin Digger, ClaimGate authority, and Lev Effect/Eval/Ledger bridge; proposal/source frame only, not runtime proof

@@ -12,6 +12,9 @@ Source authority:
 - branch at intake: `session/r0-three-engine-probes`;
 - pre-sync head: `a703e0febdc1fdc5f9f49732bc723d4670823ee0`;
 - current packet audit: [[projects/codex-ratchet/external-86-v84-92-foundations-engine-audit-receipt-2026-07-09]];
+- exact 16 x 4 / Axis-6 state: [[projects/codex-ratchet/engine-16x4-axis6-current-state-2026-07-09]];
+- external math synthesis: [[concepts/dual-ratchet-geometry-entropy-jordan-research-2026-07-09]];
+- source register: [[projects/codex-ratchet/source-intake/dual-ratchet-math-article-register-2026-07-09]];
 - current implementation plan: [[projects/codex-ratchet/qit-lev-operationalization-plan-2026-07-09]].
 
 ## Bottom Line
@@ -22,7 +25,10 @@ Real bounded machinery exists:
 
 - independent numerical runtimes execute the same finite engine contracts;
 - a live dual-engine loop runs for 300 ticks;
-- the 16 full-affine stage channels re-identify on a fresh stranger seed;
+- 16 proxy affine channels (`8 terrains x 2 selected/native operators`)
+  re-identify on a fresh stranger seed;
+- 64 terrain/sign/operator channels are independently distinguishable under
+  one bounded flow and probe battery;
 - ordered schedules form four finite object cards and collapse under erasure controls;
 - five partial projection families can reconstruct those objects above chance;
 - bounded Type-1 and Type-2 science-method orders behave differently;
@@ -32,6 +38,9 @@ Real bounded machinery exists:
 The stronger system is not earned:
 
 - the stranger-seed Type-2 content-equivalence criterion failed;
+- no current sim combines the sequential four-operator interior with one fixed
+  source-slot Axis-6 sign;
+- only 10 of the 16 necessity rows are nondegenerate;
 - 64 ordered microsteps are not 64 independent personalities;
 - current learning is a bounded readout, not self-improving engine dynamics;
 - object scouts use authored finite fixtures, not real-world perception;
@@ -42,10 +51,11 @@ The stronger system is not earned:
 
 | Surface | What ran | Current reading | Ceiling |
 |---|---|---|---|
-| Package process | `92.zip` full harness, `130/0/0` | real broad execution, including cross-runtime validators | green process is not scientific admission |
+| Package process | fresh isolated `95.zip` harness, `133/0/0`; 1q/3q NumPy oracle vs JAX/PyTorch/Julia green | real broad local execution with retained report hash `40f5f206...`; one v7 check consumed a pre-existing result because its producer is ordered later, then passed when rerun after the producer | passes local rerun, not clean-checkout dependency closure; green process is not scientific admission |
 | Dual-engine loop | 300-tick NumPy/JAX/PyTorch/Julia replay | real loop, sheet divergence, different memory traces | scratch diagnostic; not cognition |
 | Runtime closure | actions update the next belief prediction while world outcomes remain fixture-driven; declared shifts at ticks 100 and 200 were not jointly detected within 8 ticks | useful replay harness, not a closed agent/world loop | adaptive-perception and causal-action claims blocked |
-| Stage identity | fresh stranger-seed full-affine re-identification `16/16`; SVD proxy `7/16` | stage channels carry noncollapsed affine information | one finite seed plus packet contract; multi-seed census still needed |
+| Stage identity | fresh stranger-seed full-affine re-identification `16/16`; SVD proxy `7/16` | the proxy set `8 terrains x 2 selected/native operators` carries noncollapsed affine information | not re-identification of the 16 signed source slots; multi-seed census still needed |
+| 16 x 4 / Axis-6 | source linter passes; one-step channel scout gives 64/64 finite signatures; separate four-beat scout moves at all beats | table shape, finite precedence sensitivity, and a sequential candidate are real | no single source-faithful fixed-sign sequential sim; necessity and useful task families open |
 | Type-2 order | ordered distance `0.89447`; unordered `0.0004859` above null `0.0003245` | order is load-bearing; stronger same-content-after-permutation claim failed | preserve FAIL; do not claim two loops differ only by order |
 | 64 object scout | four ordered loop objects, ordered accuracy `1.0`; erasure controls collapse | finite order-dependent object formation exists | authored finite atlas, not production objecthood |
 | Projection battery | held-out mean `0.9`; bag/view erased `0.25` | one root object can survive several partial views | finite four-object carrier, not MMM or ontology authority |
@@ -70,8 +80,22 @@ Read these in order:
 5. [[projects/codex-ratchet/qit-projection-battery-v0-receipt-2026-07-07]]
 6. [[projects/codex-ratchet/qit-bidirectional-science-type1-type2-v0-receipt-2026-07-07]]
 7. [[projects/codex-ratchet/external-86-v84-92-foundations-engine-audit-receipt-2026-07-09]]
+8. [[projects/codex-ratchet/engine-16x4-axis6-current-state-2026-07-09]]
 
 The controlling correction is the last receipt. Earlier pages show real construction and local reruns, but the stranger-seed Type-2 failure prevents the clean story that the two methods have identical contents in a different order.
+
+The focused 16 x 4 page adds a second controlling distinction: source-chart
+positions, proxy fingerprints, and the proposed signed 64-row expansion are
+three different finite objects. Results from one namespace may not silently
+promote another.
+
+The external math tranche now has its own source register and synthesis. The
+literature supports Jordan observables, associative relative-entropy DPI and
+recovery, monotone/BKM geometry, and a possible nonassociative-QM formalism. It
+does not support treating the current four-substage count as already derived.
+The correct bridge is a dual-ratchet emergence test: geometry and entropy must
+independently emit the same minimal survivor classes before the engine schedule
+can claim them.
 
 Two additional boundaries control the engine reading:
 
@@ -139,6 +163,22 @@ Therefore the older nested-shell flux normalization is rejected. A Berry connect
 
 Primary receipt: [[projects/codex-ratchet/external-86-v84-92-foundations-engine-audit-receipt-2026-07-09]].
 
+The merged UP-123 through UP-128 tranche adds bounded geometry, with its later
+corrections controlling its earlier prose:
+
+- L5 installs continuous Schmidt strata but does not recover the rejected old
+  flux normalization;
+- L6 gives exactly constant `g_eta_eta=4` in Schmidt-angle coordinates; the
+  one-dimensional family has no intrinsic curvature;
+- L7 gives a gauge-invariant closed-loop Berry holonomy and meaningful
+  cross-shell differences;
+- L8 constructs a near-unit Chern number for an installed spinor family, but
+  its trivial control is assigned and no engine computation forces the Chern
+  sign or Type-1/Type-2 chirality link.
+
+These extend a finite geometric research spine. They do not close the manifold,
+Axis0, engine identity, or physics.
+
 ## Exceptional And Jordan Research
 
 Read:
@@ -155,6 +195,20 @@ New after the original exceptional-round digest:
 
 This is important positive pressure: octonionic structure is load-bearing in this finite dynamics test. The result remains `scratch_diagnostic`, `promotion_allowed=false`, one-map finite-grid evidence, and independently audit-pending. It does not settle a Jordan DPI theorem or force exceptional mathematics into the engine runtime.
 
+The merged UP-118 through UP-122 tranche adds four useful but bounded results:
+
+- the Malcev detector names a T01 ceiling while the tested engine brackets are
+  all Lie (`0` Malcev-not-Lie engine hits);
+- the Albert-product construction recovers finite `F4=52`, `Spin(9)=36`, and
+  `OP2=16` dimensions on an exceptional branch;
+- finite Araki/Umegaki and Petz/DPI checks support Umegaki relative entropy as a
+  structurally natural pawl in the tested associative setting;
+- the Alfsen-Shultz scout exposes a special-versus-exceptional dynamical
+  deficit without forcing the exceptional branch into the engine.
+
+The UP-126 Penrose/E8 scout likewise makes aperiodic order constructible but
+unforced. Its bracket stand-in is not an implemented E8 bracket.
+
 ## Lev And Mesh Research
 
 Read:
@@ -162,6 +216,7 @@ Read:
 - [[projects/codex-ratchet/qit-cr-lev-evidence-envelope-v57-receipt-2026-07-07]]
 - [[projects/leviathan-current/qit-evidence-consumer-receipt-2026-07-07]]
 - [[projects/leviathan-current/qit-evidence-boundary-refresh-2026-07-09]]
+- [[projects/codex-ratchet/lev-executed-dual-ratchet-receipt-2026-07-09]]
 
 The useful architectural rule survives every audit:
 
@@ -196,6 +251,14 @@ These corrections control older broad summaries:
 7. Lev evidence consumption does not imply mesh mutation or ontology authority.
 8. The 64 object scout's four narrative phases are not yet a source-derived proof of four unique operator substages.
 9. Most Weyl/terrain formal scouts are partial or downstream proxies, not source-native operating-space implementations.
+10. `16/16` affine re-identification currently names a proxy terrain/operator
+    set, not the 16 signed source-chart positions.
+11. The four-beat scout omits Axis-6 precedence, while the fixed-sign 64-channel
+    scout runs one step at a time. Their conjunction is still an experiment to
+    build, not a result to narrate.
+12. Packets 94 and 95 originally contained no `run_all_report.json`. Packet 95
+    now has a retained isolated local receipt at `133/0/0`; this raises process
+    evidence to `passes local rerun` but does not promote any scientific claim.
 
 ## Is The System Possible?
 

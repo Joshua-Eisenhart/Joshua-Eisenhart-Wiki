@@ -14,6 +14,10 @@ Research digest:
 
 [[projects/codex-ratchet/current-research-frontier-2026-07-09]]
 
+Exact engine-state audit:
+
+[[projects/codex-ratchet/engine-16x4-axis6-current-state-2026-07-09]]
+
 ## Product Hypothesis
 
 A blue-collar SME has many local vocabularies for the same thing: technician language, work orders, asset records, parts catalogs, sensor streams, safety rules, contracts, and customer language.
@@ -73,9 +77,23 @@ The learned layer proposes. It never grants authority to itself.
 ### 0. Freeze Current Teeth
 
 - Pin one authority manifest: repo branch, checkout, sources, fixtures, commands, runtimes, seeds, and hashes.
-- Parse one declared source into exactly 16 macro-stages and 64 actual operator transitions.
+- Name three different objects explicitly: the 16 signed source slots, the
+  proxy `8 terrains x 2 selected/native operators` fingerprint set, and the
+  proposed 16 x 4 expansion.
+- Parse one declared source into exactly 16 macro-stages and 64 proposed
+  operator transitions.
+- Build `engine_16x4_fixed_axis6_sequential_v0`: run all four exact operators
+  sequentially inside every source slot while holding that slot's precedence
+  sign fixed.
 - Keep the current `candidate -> measurement -> gate -> receipt` science phases separate from operator substages until the parser proves they coincide.
 - Run the 16-stage re-identification and Type-2 order tests over preregistered multi-seed distributions.
+- Add Choi/superoperator fingerprints; reverse, one-beat-removal, duplicate,
+  sign-flip, terrain-identity, native-only, and non-native controls; and a
+  held-out task where each claimed substage is load-bearing.
+- Pin PySINDy and the numerical environment before citing the current
+  dynamics-identification family.
+- Pass classification, authority-manifest, depth, provenance, and result-shape
+  contract lint before promotion.
 - Preserve the successful stage-identity result and the current Type-2 failure separately.
 - Stop using any engine claim that does not survive the multi-seed null.
 
@@ -163,6 +181,8 @@ Stop or demote the associated claim when:
 - full engine features do not beat an SVD/static proxy across seeds;
 - Type-1/Type-2 differences disappear under matched budgets;
 - the 64 count depends on repeated narrative phases instead of source-derived operator transitions;
+- the four independently probed channels do not survive as four sequential,
+  same-sign, load-bearing beats;
 - actions only update beliefs over a fixed fixture, or declared shifts remain undetected;
 - object binding is matched by a bag-of-fields baseline;
 - learning depends on alias or split leakage;
