@@ -19,6 +19,10 @@ WHAT L5 ADDS OVER L4 (the forcing content -- L4 CANNOT see it):
      L5 shells -- L5 distinguishes them, L4 cannot.
  (2) NESTED-SHELL FLUX: define the shell radius r(psi)=2 s_0^2 - 1 (top marginal eigenvalue -> Bloch radius). Berry-
      like flux between two shells eta_i, eta_j is Phi = 2pi(r_i - r_j) (project ledger L2.1: a single shell carries
+     [NOTE 2026-07-09: this 2pi(r_i-r_j) is L5's own BOOKKEEPING scale for demonstrating the NESTING property (self=0,
+     nested nonzero), which holds for any nonzero scale. It is NOT the Berry-holonomy flux normalization -- that object
+     is derived at L7 (UP-125) as Phi = -pi(cos2eta_i-cos2eta_j); the ledger L2.1 Berry-flux normalization was corrected
+     from "2pi" to "-pi" in UP-128 after a codex/loop-back audit. L5's nesting claim is normalization-independent.]
      holonomy but FLUX appears only ACROSS nested shells). A single shell gives Phi=0 with itself; nested distinct
      shells give nonzero flux. This is computed, and the DUAL RATCHET is: sweeping entanglement moves the shell radius
      (geometry) exactly as the marginal purity (readout) changes -- geometry and readout co-ratchet (as at L4, now
