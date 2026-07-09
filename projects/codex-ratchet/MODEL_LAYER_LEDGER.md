@@ -2818,3 +2818,30 @@ UP-122's Alfsen-Shultz "nonexistence of single-observable correspondence" are se
 uniqueness side -- the finite residuals are real but the decisive negative that would upgrade "consistent-with" to
 "forced" is not yet in the gate. Flagged for a future forcing-vs-consistency tightening pass. Harness 133 GREEN.
 (manifold_L5/L6/L7 corrected; ledger L2.1 normalization fixed)
+
+## UP-129 -- Loop-order instrument repair: why the v7 t2_order_carried packet was seed-fragile (2026-07-09)
+
+Following the honest-state audit that flagged codex's t2_order_carried_v1 replication as 2/5-seed PASS, I diagnosed and
+repaired the instrument (new sim t2_order_carried_sindy_library_repair_sim; harness 134 GREEN). The user's question --
+"are the 4 loops / 2 engine types real, and is the order-carry within a stage real" -- is answered YES for the loop-
+order layer once the instrument is correct. TWO instrument defects, NEITHER in the model physics:
+  DEFECT A (mis-specified null). The v7 gate is `unordered_distance <= self_null_band`, where the self-null is the same
+  loop re-signed from resampled probes. Reproduced: this gate passes deg1 0/8 and deg2 1/8 seeds -- ILL-POSED. The two
+  Type-2 loops share the same terrain SET {Se,Ne,Ni,Si} but use DIFFERENT operators (inner Ti,Ti,Fe,Fe; outer
+  Fi,Te,Te,Fi) in reversed order, so the best-permutation "unordered" distance is genuinely nonzero (~2e-4) while the
+  self-null (identical loop) is ~1e-5. Demanding unordered <= self-null tests "byte-identical up to permutation," which
+  is FALSE by construction. The correct order-carry test is a RATIO: ordered >> unordered.
+  DEFECT B (over-parametrized library). The GKSL terrain generator is AFFINE in Bloch coords (d r/dt = A r + b); the v7
+  SINDy fit used a degree-2 PolynomialLibrary whose 9 quadratic features fit only seed-dependent numerical noise
+  (deg-2 quadratic-coeff mean 0 in the mean, phantom per-fit). Degree-1 (affine) is the principled library; deg-1
+  held-out R^2 = 1.000000.
+  REPAIRED GATE (seed-robust): ordered/unordered RATIO under a degree-1 library. Over 8 seeds: clean 8/8, ratio_min
+  5.2e4, and the SAME recovered permutation (1,4,3,2) on every seed -- exactly the inner->outer terrain reorder. So the
+  two Type-2 loops ARE the same four terrains traversed in reversed order; order-carry is real. Independently
+  corroborated by my own loop_uniqueness_trajectory_probe_sim (forward-vs-reverse full-affine distance 0.654, self-null
+  0.0) which used a different (composed-channel) method and already passed.
+STATE NOTE for the record: 16 stage-kinds VALID; 2 signed operators/terrain (1 pinch+1 rotation) VALID; 2 engine types
+VALID; axis-6 sign = real composition order, 32/32 load-bearing under flow, VALID; 4 loops + order-carry now VALID and
+seed-robust. STILL OPEN: the "exactly 4 substages" count is not yet FORCED (the discriminator accepts 4, 5, and 8);
+per owner directive this should EMERGE from proper dual ratcheting (2-variable geometry/entropy ratchet closing in 4) --
+next rung. Harness 134 GREEN.
