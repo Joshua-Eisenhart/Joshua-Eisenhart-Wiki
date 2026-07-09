@@ -1311,3 +1311,10 @@ UP-124 Manifold spine L6: the metric on the shell family -- loops the foundation
                flat 1.0x. (3) MONOTONE: contracts under CPTP (4.49->2.07 depol) = infinitesimal DPI (UP-121); non-CPTP
                amplify increases (7.34). Controls: wrong-direction metric differs (direction-specific bilinear form);
                non-CPTP amplify fires. Geometry and entropy are ONE tensor on the shells. 130 GREEN.
+
+UP-125 Manifold spine L7: the shell connection -- loops the foundations forward (L1-L6 built). Nests on L6+L5+L3.
+               L5 posited flux Phi=2pi(cos2eta_i-cos2eta_j) as a bare number; L7 adds the CONNECTION deriving it.
+               (1) Flux IS a Berry holonomy: A=i<psi|dpsi> on the L3 Hopf chart, loop holonomy -2pi cos^2(eta)
+               (analytic 1e-6); shell-difference = ledger L2.1 flux, derived not posited. (2) NON-INTEGRABLE: closed
+               (phi,eta)-loop transport returns net -pi != 0 -> real curvature, gauge-invariant. (3) Cross-shell:
+               self-flux 0; erase-nesting -> holonomy 0. Weyl chirality = SIGN of this holonomy (later object). 131 GREEN.
