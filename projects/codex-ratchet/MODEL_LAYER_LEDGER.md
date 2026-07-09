@@ -2546,3 +2546,32 @@ absence. Earning the octonion rung requires a FORCED Malcev (non-Jacobi) bracket
 associative matrix algebra -- can only ever produce Lie brackets. This is the sharpest statement of the octonion-fork
 arc, converging with UP-111 (field symmetry is so(4), a Lie algebra) and UP-115 (Clifford operator algebra is
 associative) from a third independent direction. Harness 124 GREEN. (malcev_bracket_names_the_t01_ceiling_sim.py)
+
+## UP-119 -- Spin(9)/OP2 coset DERIVED from the Albert product: the positive construction (2026-07-09)
+
+The octonion-fork arc (UP-112..118) is a string of NEGATIVES: the exceptional tower is real established mathematics on
+a live-but-UNFORCED branch, and every attempt to force it (holism, Clifford, Malcev demand) confirms the forced qubit
+engine cannot generate it. This rung is the POSITIVE counterpart -- the concrete piece of exceptional structure BUILT
+from scratch rather than placed, processing the codex-ratchet spin9_stabilizer_op2_coset_sim independently.
+
+DERIVED (all COMPUTED from the constructed Albert product J3(O), nothing cited):
+  - dim F4 = 52. F4 = Der(J3(O)): a derivation D obeys the Jordan-Leibniz rule D(AoB)=D(A)oB+AoD(B). Stacking the
+    Leibniz conditions over all basis pairs gives a (10206, 729) constraint matrix on the 27x27=729 entries of D; its
+    nullspace has dim 729-677 = 52. On the nose.
+  - Spin(9) stabilizer = 36. Fixing a primitive idempotent e=diag(1,0,0), the D in f4 with D(e)=0 form the stabilizer
+    subalgebra; the map f4->R^27, D|->D(e), has rank 16, so dim(stab) = 52-16 = 36 = dim Spin(9).
+  - OP2 coset = 16. dim(F4)-dim(Spin(9)) = 52-36 = 16 = dim of the Cayley projective plane OP2 (F4/Spin(9) is the
+    homogeneous space realizing OP2). Computed as the action rank of f4 on e.
+
+CONTROLS (falsifiable): (1) a single upstream Fano sign flip (e1*e2 coefficient of e3 negated) collapses dim F4 from
+52 to 3 -- the 52 is a genuine consequence of the EXACT octonion structure, not a linear-algebra artifact; (2) a
+generic non-idempotent diagonal diag(3,2,1) gives a DIFFERENT split (stab 28, coset 24) -- the 36/16 is specific to
+primitive idempotents (the points of OP2), not any diagonal element.
+
+HONEST PLACEMENT (the negatives still hold): this is a real, load-bearing POSITIVE build -- F4, its maximal Spin(9)
+subgroup, and the Cayley plane all fall out of the Albert product with the correct dimensions. But per UP-112/115/118,
+J3(O)/F4/OP2 live on the LIVE-BUT-UNFORCED {H,O} branch; the forced qubit engine runs on associative H (Clifford,
+Lie/Malcev), and nothing in {F01,N01} forces a primitive octonionic idempotent or the Albert product into existence.
+This sim BUILDS a concrete piece of the exceptional tower; it does not EARN it as forced. The tower is real and
+constructible, the demand for it is still absent from the forced ratchet. Harness 125 GREEN.
+(spin9_op2_coset_derived_from_albert_sim.py)
