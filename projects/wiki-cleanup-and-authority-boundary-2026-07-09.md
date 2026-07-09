@@ -30,6 +30,14 @@ research content. Raw source material remains under the raw intake boundary.
 
 Generated run reports and Python cache files are not retained in the wiki.
 
+Post-cleanup audit: two concurrently written packet sims (`UP-129` and
+`UP-130`) survived the first cleanup pass under `projects/codex-ratchet/sims/`.
+They were removed from the active tree after the packet 97 audit. Their source
+history remains in Git and the immutable Desktop packet; the live falsifier
+and replacement scout are held in Codex-Ratchet. Outside Git/Obsidian
+configuration and the raw intake boundary, the tracked wiki surface is now
+Markdown-only.
+
 ## Sync Direction
 
 The wiki is not a source-to-repo sync origin. New Leviathan versions are pulled
