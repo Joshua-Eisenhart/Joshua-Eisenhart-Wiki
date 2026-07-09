@@ -2453,3 +2453,34 @@ coherent mathematics (Connes noncommutative geometry + exceptional Jordan algebr
 Boyle-Farnsworth) on a LIVE-but-UNFORCED branch. It is NOT earned by {F01,N01}; earning it needs the T01-load-bearing
 mechanism UP-113 showed is absent. Honest status: aspirational target, not forced result -- and that IS the informative
 negative the owner asked for. Harness 121 GREEN. (clifford_hopf_weyl_ratchet_placement_sim.py)
+
+## UP-116 -- Holism does NOT force octonions (testing the grand-synthesis physics attachments) (2026-07-09)
+
+The owner attached three physics extensions of the octonionic grand synthesis: (1) time's arrow = the topological
+unfolding E6->F4 (spectral flow of the Dirac operator crossing zero); (2) dark energy = positive entropy (index
+increase, Verlinde/Ng entropic gravity, infinite statistics) and dark matter = negative entropy (non-associative
+holism resisting the unfolding); (3) non-associativity resolving the core-cusp problem (holistic binding prevents
+density cusps, giving flat cores). All three rest on ONE load-bearing claim: "non-associativity prevents independent
+subsystems (no tensor product), so the entropy of the whole is not the sum of parts -> HOLISM," and holism forces the
+octonionic algebra. This is exactly the T01-load-bearing candidate flagged at the end of UP-115. Tested honestly.
+
+RESULT (a clean, informative NEGATIVE): holism does NOT force octonions.
+  TEST 1: non-factorizable entropy ("whole != sum of parts") is ALREADY present in ASSOCIATIVE multipartite QM.
+    GHZ 3-qubit: S(whole ABC)=0 (pure) but S(single party)=1 (maximally mixed), S(pair)=1 -- genuine holism, not
+    reducible to pairs. W state: S(whole)=0, S(party)=0.918 (also holistic). The 3-qubit operator algebra M_8(C) is
+    ASSOCIATIVE (defect 3.2e-14). So holism lives entirely in associative QM; it does not require the non-associative
+    algebra. The attachments CONFLATE (a) non-factorizable ENTROPY = holism (real, associative, does NOT force O) with
+    (b) non-associative ALGEBRA = octonions (strictly stronger, a different property).
+
+  TEST 2 (being fair -- the CORRECT forcing demand, more precise than the attachments' argument): H_3(O) is the UNIQUE
+    finite simple formally-real Jordan algebra with NO associative matrix representation (Jordan-von Neumann-Wigner
+    1934); H_3(R/C/H) and H_n(O) for n<3 are all "special" (embed in an associative M_k), ONLY H_3(O) is exceptional.
+    So the demand that WOULD force H_3(O) is a forced OBSERVABLE requiring a 3-level system whose measurement algebra
+    is NON-special -- an "octonionic qutrit." The engines are qubits (2-level; 2x2 octonionic Jordan is special), and
+    every engine operation is associative composition or a Jacobi bracket (UP-113). So the correct forcing demand is
+    ABSENT, not the math. Holism is the WRONG demand; this is the right one, and it is not present.
+
+CONSEQUENCE for the physics: the dark-energy/dark-matter-as-(+/-)entropy and core-cusp arguments all rest on
+"non-associativity -> holism," but the holism they invoke is the ASSOCIATIVE kind standard entanglement already
+provides. The physics intuitions may be independently valuable, but they are NOT forced by (nor do they force)
+octonions. The octonion fork stays unforced (UP-112/113 hold). Harness 122 GREEN. (holism_does_not_force_octonions_sim.py)
