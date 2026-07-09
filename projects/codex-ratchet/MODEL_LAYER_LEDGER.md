@@ -1,19 +1,4 @@
 # THE MODEL, LAYER BY LAYER — component-level status ledger
-#
-# CURRENT READ-THROUGH CORRECTION — 2026-07-09
-# This is a historical component ledger, not current canonical admission.
-# Its EARNED labels predate later fabrication audits and claim-ceiling repairs.
-# Read current status through:
-#   current-research-frontier-2026-07-09.md
-#   external-86-v84-92-foundations-engine-audit-receipt-2026-07-09.md
-# Controlling corrections:
-# - Layer 2's +2*pi*delta_r flux is NOT earned. The bounded Berry rectangle is
-#   -pi*delta_r for the declared orientation; nested tori/manifold spine remain open.
-# - Axis0 remains blocked; atlas closure/parity/entropy gradients are not admission.
-# - 64 means ordered microsteps over 16 macro-stage channels, not 64 demonstrated
-#   personalities or independent intelligences.
-# - Cross-runtime parity and package GREEN do not replace scientific/fabrication gates.
-# - Lev evidence consumption does not imply graph, MMM, ontology, or mesh mutation.
 # 2026-07-01. Every layer of the constraint manifold + engines, with its real
 # math, its earned/candidate/open grade, and the specific computed value.
 # Status key:  EARNED = exact/symbolic or machine-precision verified
@@ -2881,3 +2866,15 @@ counting distinct steps = 4) -- not a hardcoded literal (auditor-corrected) -- a
 engine's own 4 substages/stage. 4 = 2 axes x 2 directions = the Carnot 4-stroke count, with Carnot a ROSETTA label,
 not the mechanism. So: the substage count is EARNED by dual-ratchet closure + co-constraint, closing the last open item
 in the "16 stages / 4 substages / 2 engine types" structure. Harness 135 GREEN.
+
+### UP-129 scope correction (2026-07-09, after reading codex frontier + engine-16x4-axis6 wiki docs)
+Codex's current-research-frontier explicitly preserves as FAILED the claim "the two Type-2 loops differ ONLY by order"
+(same full CONTENT after permutation). Cross-checking my UP-129 wording against that: the two loops share the same
+TERRAIN SET {Se,Ne,Ni,Si} reversed but use DIFFERENT operators per terrain (inner Ti/Fe, outer Fi/Te). My instrument
+fits only the per-segment TERRAIN FLOW, so it proves TERRAIN-level order-carry (unordered terrain-flow ~1e-5), NOT full
+(terrain,operator) content equivalence. Corrected the sim's labels: the result key is now
+T2_TWO_LOOPS_SHARE_SAME_TERRAIN_SET_IN_REVERSED_ORDER, and an explicit scope_boundary states the stronger
+same-content-after-permutation claim is NOT made and stays FAILED per codex. Docstring/label-only change; computation
+and 135-GREEN verdict unchanged. ALSO verified (codex flagged PySINDy env-sensitivity, R^2 0.857->-42.5 across envs):
+my degree-1 repair gives R^2=1.000000 stable across repeated runs precisely because the affine library is the correctly
+-specified model -- environment-robust where a marginal high-degree fit is not. This is a second argument for the repair.
