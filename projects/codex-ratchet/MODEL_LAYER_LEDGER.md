@@ -2606,3 +2606,40 @@ Tomita-Takesaki modular operator. So the forced Umegaki pawl already IS a piece 
 anchor and its thermal-time surface identity are internally one structure. Both are established prior art; this rung
 tightens the model's own internal consistency rather than asserting new ground. Harness 126 GREEN.
 (umegaki_pawl_is_finite_modular_theory_sim.py)
+
+## UP-121 -- Petz/DPI FORCES the pawl: why the terrain entropy is not hand-picked (2026-07-09)
+
+Structural justification of UP-107 (the terrain-native monotone pawl) and UP-120 (Umegaki = finite modular theory),
+processing the codex-ratchet petz_recovery_reversibility_census + petz_quasi_entropy_pawl_census independently. Answers
+WHY the Umegaki relative entropy is a FORCED pawl rather than a chosen Lyapunov function. Three computed claims, all
+forced-side:
+
+  1. DATA-PROCESSING INEQUALITY (monotonicity). For any CPTP channel N, S(N(rho)||N(sigma)) <= S(rho||sigma). This is
+     the structural reason the pawl exists at all: relative entropy CANNOT increase under the dissipative (CPTP)
+     terrain flow, so it is automatically a Lyapunov/pawl quantity. Reproduced numerically: 0 violations over 200
+     random density pairs under a lossy Kraus channel (amplitude-damping + depolarizing), max drop 3.47. Theorem
+     (Lindblad 1975, Uhlmann), not an assumption.
+
+  2. EQUALITY <=> PETZ RECOVERY. The DPI is TIGHT (DeltaS=0) exactly when the channel is reversible on the pair by the
+     Petz recovery map R_{sigma,N}(X)=sigma^{1/2} N*(N(sigma)^{-1/2} X N(sigma)^{-1/2}) sigma^{1/2}. The indicator
+     correlation pearson(DeltaS==0, recovery-exact) = 1.0000: a unitary channel is reversible (DeltaS 0.0000, recovery
+     err 0.0000), a dissipative channel is not (DeltaS 0.89, recovery err 0.65). This is the Petz equality condition --
+     the sharp boundary between information preserved and information lost, the same boundary the engine's
+     reversibility census (UP earlier) reads on the 8 terrains.
+
+  3. UMEGAKI IS ONE MEMBER OF A FORCED FAMILY. The Petz quasi-entropy S_f(rho||sigma)=sum_{ij} mu_j f(lambda_i/mu_j)
+     |<rho_i|sigma_j>|^2 is monotone under CPTP for EVERY operator-convex f with f(1)=0. Umegaki is f(x)=x log x; the
+     whole family -- reverse (-log x), chi^2 ((x-1)^2), Hellinger (2(1-sqrt x)) -- pawls UNIFORMLY, each monotone-
+     decreasing to 0 at the terrain fixed point. So Umegaki is not a special hand-picked choice; it is INSTALLED
+     within a forced operator-convex family, all sharing the pawl (matching the codex verdict).
+
+CONTROL (falsifiable): measuring the quasi-entropy against a WRONG (foreign) fixed point does NOT pawl -- it fails to
+reach 0 (0.13 -> 0.36, non-monotone). The pawl is specific to the terrain's own fixed point (project canon
+coratchet_entropy_is_terrain_native), not any reference state.
+
+PLACEMENT: FORCED-side foundations. The pawl is FORCED because monotonicity under the dissipative terrain flow IS the
+data-processing inequality, and the equality/recovery boundary is the Petz condition. Established prior art
+(Lindblad/Uhlmann/Petz); this rung shows the model's forced entropy structure already IS that structure -- it does not
+newly force the {H,O} branch. Together UP-107/120/121 make the forced entropy pawl fully grounded: terrain-native
+(107), = finite modular theory (120), and forced by DPI with Petz-recovery equality (121). Harness 127 GREEN.
+(petz_dpi_forces_the_pawl_sim.py)
