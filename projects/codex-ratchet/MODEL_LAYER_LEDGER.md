@@ -2714,3 +2714,28 @@ scalar; non-CPTP amplify does not contract. DUAL RATCHET: the shell metric (geom
 shells. SCOPE: earns L6 on top of L5. Does NOT build L7 (connection/parallel-transport + Berry holonomy across shells)
 or above; next rung. Hypothetical lane; owner doctrine under test. Harness 130 GREEN.
 (manifold_L6_shell_metric_bkm_connection_sim.py)
+
+## UP-125 -- Manifold spine L7: the shell connection; flux DERIVED as a Berry holonomy (2026-07-09)
+
+Loops the foundations forward: spine L1-L6 built, this adds L7. Nests on L6 (the monotone BKM metric), L5 (nested-shell
+Schmidt strata) and L3 (spinor/phase surface). L5 POSITED a flux Phi=2pi(cos2eta_i-cos2eta_j) between nested shells as
+a bare number (ledger L2.1); L7 adds the CONNECTION whose parallel-transport holonomy DERIVES that flux, turning it
+from a formula into the curvature of a connection. COMPUTED:
+  (1) FLUX IS A BERRY HOLONOMY (derived, not posited). Berry connection A=i<psi|dpsi> on the L3 Hopf chart
+      |psi(phi,eta)>=(cos eta e^{i phi}, sin eta), transported around the phi-loop at fixed eta, gives holonomy
+      -2pi cos^2(eta) (analytic match to 1e-6). The flux between two nested shells is the DIFFERENCE of holonomies =
+      -pi(cos2eta_i-cos2eta_j), reproducing the ledger L2.1 flux (via cos2eta=2cos^2eta-1) as a transport holonomy.
+  (2) NON-INTEGRABLE CURVATURE. Parallel transport around a CLOSED (phi,eta) rectangle returns net phase -pi != 0.
+      Nonzero closed-loop holonomy = genuine curvature: the connection cannot be gauged away, the flux is a geometric
+      invariant of the nested-shell family, not a coordinate.
+  (3) FLUX IS INTRINSICALLY CROSS-SHELL (nesting). Self-flux (a shell with itself) is exactly 0; erase-nesting
+      (collapse both shells to one eta) sends the closed-loop holonomy to 0. A single shell's loop holonomy is pure
+      gauge; only the RELATIVE holonomy between nested shells is gauge-invariant (flux_needs_nesting, at the
+      connection level).
+CONTROLS: analytic-match (transport = real Berry connection, not discretization artifact); self-flux-zero; erase-
+nesting kills the holonomy. DUAL RATCHET: the connection (geometry -- how phase transports across nested tori) and the
+L3 spinor phase (readout) co-ratchet; the holonomy IS the accumulated transported phase. SCOPE: earns L7 on top of L6.
+Does NOT build L8 (global bundle / Chern quantization of the flux) or above; next rung. Weyl chirality = the SIGN of
+this holonomy, a later object needing the cut/orientation structure. Hypothetical lane; owner doctrine under test.
+Harness 131 GREEN.
+(manifold_L7_shell_connection_holonomy_sim.py)
