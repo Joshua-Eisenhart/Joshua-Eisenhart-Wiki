@@ -1231,3 +1231,12 @@ UP-115 Clifford/Hopf/Weyl processed one by one + grand-synthesis placement -- WE
                (entropy=topology, Albert algebra, E6->F4 arrow): only forced anchor is the Umegaki monotone pawl
                (0.111->0.021); entropy=Atiyah-Singer is an ANSATZ, F4/E6/27/3-gen on the UNFORCED {H,O} branch -> real
                established math (Connes NCG + exceptional Jordan) but NOT earned by {F01,N01}. 121 GREEN.
+
+UP-116 Holism does NOT force octonions -- tested the grand-synthesis physics attachments' load-bearing claim
+               (time-arrow=E6->F4, dark energy/matter=+/-entropy, core-cusp from non-associativity, all resting on
+               "non-associativity -> holism forces O"). NEGATIVE: non-factorizable entropy (holism) is ALREADY in
+               ASSOCIATIVE multipartite QM (GHZ S_whole=0/S_party=1, W state; M_8(C) associative defect 3e-14). The
+               attachments conflate non-factorizable ENTROPY (associative holism) with non-associative ALGEBRA
+               (octonions). FAIR/CONSTRUCTIVE: the correct forcing demand is a non-special 3-level observable
+               (octonionic qutrit; H_3(O) unique exceptional per Jordan-vNW 1934) -- absent from qubit engines.
+               DE/DM/core-cusp physics rest on associative holism; fork stays unforced. 122 GREEN.
