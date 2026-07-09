@@ -2398,3 +2398,25 @@ associative; every bracket is Lie). The octonion/exceptional tower (UP-107/108) 
 branch but stays LIVE-but-unforced (UP-112). This is the precise, constructive close of the octonion arc: not "octonions
 are wrong," but "the current engines close all demands at H; a specifically non-Jacobi grouping mechanism is the exact
 missing piece that would lift them to O." Harness 119 GREEN. (t01_grouping_demand_search_sim.py)
+
+## UP-114 -- Axis-0 entropy gradient run END-TO-END on the engine pair (closes the biggest engine seam) (2026-07-08)
+
+Owner: "axis0 ... it is an entropy gradient" / "do we have running qit engines. axis0 at start and end?" The entropy-
+gradient FACE of Axis-0 was earned at the cosmogenesis carrier (foundational_ratchet_entropy_gradient_sim) but never
+run on the RUNNING engine pair. This closes that seam using the EARNED definition: Axis-0 = available distinguishability
+(sum of pairwise trace distances the possibility set offers) MINUS resolved distinguishability (best-basis access of the
+carrier's acquired probes). Pure quantum distinguishability, no bits/vectors.
+
+Run on the full Type-1+Type-2 closed 720 double loop (slot order T1_OUT,T1_IN,T2_OUT,T2_IN), measured at START (pair
+opens, 8 terrains live) and END (after closure, 8 seeds):
+  - ABSOLUTE gap relaxes 0.4579 -> 0.0159. HONEST CORRECTION: this is mostly CONTRACTION -- the dissipative flow
+    collapses available distinguishability (9.10 -> 0.23), and a pure depolarizing collapse closes the gap just as well.
+    So "the Axis-0 gradient vanishes at closure" is NOT a clean engine claim; it inherits the flow's contraction.
+  - CONTRACTION-FREE Axis-0 = scale-invariant unresolved fraction (avail-resolved)/avail = 0.0503 START, 0.0694 END:
+    small and near-stable. The engine's acquired bases resolve ~93-95% of the distinguishability the room offers,
+    THROUGHOUT. That is the honest engine-pair Axis-0 reading -- near-complete resolution, not a vanishing gradient.
+
+CONTROLS: 1-probe (impoverished bases) unresolved frac 0.5312 (bases genuinely matter, not tautology); N01 loop-order
+shuffle 0.0685 ~ canonical 0.0694 (resolution fraction order-insensitive at the density level, consistent with
+axis0_readouts_density_blind -- Axis-0 order-structure is spinor/loop-level); chirality-erase (eps->+1) 0.0828 vs 0.0694
+(terrain chirality load-bearing for resolution). Harness 120 GREEN. (axis0_entropy_gradient_engine_pair_endtoend_sim.py)
