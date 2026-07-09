@@ -2514,3 +2514,35 @@ the current forced ratchet. The gap between the Clifford/associative forced engi
 precise, runnable object. Gate: all four legs COMPUTED (Jordan ladder + engine factorization + CA divergence +
 associative control), auditor-hardened from an earlier draft that hardcoded two legs as True. Harness 123 GREEN.
 (nonassociative_ca_t01_constructible_not_forced_sim.py)
+
+## UP-118 -- The Malcev bracket NAMES the T01 ceiling (processing the codex-ratchet parallel work) (2026-07-09)
+
+Reconnaissance of the codex-ratchet v7 sim directories found a substantial parallel cluster built 2026-07-08 evening
+(21:00-22:51) directly on the octonion/exceptional-Jordan branch: j3o_bloch_body_entropy_pawl (Albert-algebra Bloch
+body + epsilon-shadow relative-entropy pawl), spin9_stabilizer_op2_coset (OP2=F4/Spin(9), derives dim f4=52 and the
+16-dim coset from the constructed Albert product, z3-checked), araki_modular_umegaki_crosscheck (finite relative modular
+operator Delta=L_sigma R_rho^-1 reproduces the Umegaki formula), petz_recovery_reversibility_census (all 8 terrains
+Petz-reversible at their own fixed point; wrong-foreign-fixed-point recovery fails as it should), jordan_dpi_probe_v3/v4,
+petz_quasi_entropy_pawl_census, alfsen_shultz_correspondence_probe, symmetric_cone_menu_census, and -- the decisive one
+-- malcev_signature_search. Codex harness independently at 123 GREEN, its UP-113..117 changelog matching this side
+exactly (wiki-synced). The engines/ cross-substrate lane (Julia/JAX/PyTorch) was restored from the codex tree.
+
+THE MALCEV FINDING (reproduced independently here). UP-113/117 established that every engine stage-combining operation
+is either associative composition or a Jacobi-obeying (Lie) bracket, so no octonionic (non-Jacobi/Moufang) grouping
+demand is present -- but left OPEN what EXACTLY the missing non-Lie structure is. The codex Malcev search named it, and
+this side reproduces it from scratch: the imaginary-octonion commutator [x,y]=xy-yx is anticommutative and NON-Lie
+(Jacobiator ~3e2) but satisfies the MALCEV identity J(x,y,[x,z])=[J(x,y,z),x] (defect ~3e-13). Malcev algebras are
+EXACTLY the tangent algebras of Moufang loops (the unit octonions) -- the g2/octonion nonassociative structure. su(2)=
+Im(H) is the degenerate Lie case (Jacobiator ~5e-15). Reference detector VALID: Im(O)->malcev_not_lie, Im(H)->lie,
+random-antisymmetric-R7->neither, corrupted-Malcev-sign->neither (the identity is sign-specific, not vacuous).
+
+ENGINE-NATIVE CENSUS: every bracket the engine forms (GKSL terrain superoperator commutators, segment channel-map
+commutators, stage composition-log-difference commutators) is a MATRIX commutator, and matrix commutators ALWAYS obey
+Jacobi (max defect ~5e-14) -> Lie. Engine-native Malcev-not-Lie hit count = 0. The forced engine NEVER realizes the
+Malcev bracket.
+
+CONSEQUENCE: the T01 ceiling now has a NAME (Malcev / Moufang / octonion tangent algebra) and a DETECTOR, not just an
+absence. Earning the octonion rung requires a FORCED Malcev (non-Jacobi) bracket, and the qubit engine -- built from
+associative matrix algebra -- can only ever produce Lie brackets. This is the sharpest statement of the octonion-fork
+arc, converging with UP-111 (field symmetry is so(4), a Lie algebra) and UP-115 (Clifford operator algebra is
+associative) from a third independent direction. Harness 124 GREEN. (malcev_bracket_names_the_t01_ceiling_sim.py)
