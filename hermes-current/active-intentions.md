@@ -10,6 +10,7 @@ Use this when:
 - determining what should not drift while doing detailed work
 
 Current truth:
+- The immediate Codex Ratchet / Leviathan integration priority is now a falsifiable SME object-evidence pilot, routed by [[projects/codex-ratchet/current-research-frontier-2026-07-09]] and [[projects/codex-ratchet/qit-lev-operationalization-plan-2026-07-09]]. Build one real multi-view maintenance object workflow, keep learning proposal-only until deterministic gates pass, and keep Lev evidence-only until ProofBundle, idempotency, quorum, and no-mutation tests close. Axis0/physics work remains parallel research, not a product prerequisite.
 - The wiki is being upgraded from a large note store into a simple but richer LLM-readable personal harness and shared working space.
 - Research Ratchet is now a named wiki bridge for the long-horizon project harness: see [[projects/research-ratchet/README]], [[projects/research-ratchet/wiki-update-intake-2026-06-21]], and [[projects/research-ratchet/missing-primitives-and-open-questions-2026-06-21]]. Its current ceiling is proposal/source/wiring frame, not runtime proof.
 - The wiki now has a CocoIndex-backed semantic retrieval layer for MCP-capable agents; this should improve discovery without replacing exact reads, provenance checks, or claim ceilings.

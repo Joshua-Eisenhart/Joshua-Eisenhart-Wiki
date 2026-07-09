@@ -1,10 +1,10 @@
 ---
 title: Current Sim Validity and QIT Engine State
 created: 2026-06-12
-updated: 2026-06-13
+updated: 2026-07-09
 type: project
 tags: [simulation, qit, audit, status, engines, geometry, validation]
-framing: current
+framing: historical_snapshot
 claim_ceiling: wiki routing and repo audit synthesis only; no sim promotion
 sources:
   - /Users/joshuaeisenhart/Codex-Ratchet/system_v6/receipts/correction_overlay_v1_20260612.md
@@ -21,6 +21,8 @@ sources:
 ---
 
 # Current Sim Validity and QIT Engine State
+
+> **Superseded status snapshot:** this page is authoritative only for the June 13 checked state. Use [[projects/codex-ratchet/current-research-frontier-2026-07-09]] for the current engine, object, learning, source-alignment, exceptional-math, and Lev-boundary reading. In particular, the sentence below that ECD.01 was the only clean positive capability was true for this snapshot, not for the full July working tree.
 
 ## Checked state
 

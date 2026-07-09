@@ -9,6 +9,8 @@ claim_ceiling: routing note and source authority map; not build proof; not relea
 
 # Read First — Leviathan Current
 
+> **QIT EVIDENCE BOUNDARY REFRESH (2026-07-09): [[projects/leviathan-current/qit-evidence-boundary-refresh-2026-07-09]] separates the July 7 evidence-only consumer shape from the current split local worktrees and the still-missing ProofBundle-bound, idempotent mesh-projection path.** Use it with [[projects/codex-ratchet/qit-lev-operationalization-plan-2026-07-09]]. No July 9 packet earns graph, ontology, MMM, or mesh mutation.
+
 ## Why this project exists
 
 Josh needs a wiki that can understand current Leviathan: what it is, what it can do, what it intends to do, what it could do, and how much of Josh's constraint doctrine is inside it.

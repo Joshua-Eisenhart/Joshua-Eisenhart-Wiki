@@ -213,6 +213,19 @@ Operational gates:
 
 ## Open Question
 
+### 2026-07-09 V4 Instrument Addendum
+
+The repo now contains `jordan_dpi_probe_v4`, the instrument specified by the v3 audit:
+
+- the J3(O) transfer matrix does not commute with diagonal pinching (`2`-norm about `0.1248`);
+- Peirce-block transfer is non-scalar;
+- the associative Herm3(C) surrogate fails to reproduce the trajectories (max spectrum difference about `0.1243`, max divergence difference about `0.0644`);
+- associator content stays above the trajectory-minimum gate;
+- the map is linear, positive on the tested grid, trace-preserving, and has a computed fixed point;
+- the finite grid has zero DPI violations, with maximum delta about `-6.1e-6`.
+
+This repairs the specific v3 reducibility defect and makes octonionic structure load-bearing in one finite dynamics test. It does not settle nonassociative DPI. The result remains `scratch_diagnostic`, `promotion_allowed=false`, one-map finite-grid evidence, with theorem and formal admission blocked.
+
 Nonassociative DPI remains open. The Grok-4.5 advisory reported no literature theorem for DPI on the Albert algebra under non-automorphism positive semigroups. Treat that as advisory search pressure, not proof.
 
 Current round ceiling:

@@ -1,6 +1,6 @@
 # Codex Ratchet Wiki — Index
 
-Total published pages: 487. Governance/read-first surfaces are listed separately. Restructured 2026-04-17 (stabilization pass).
+Total published pages: 492. Governance/read-first surfaces are listed separately. Restructured 2026-04-17 (stabilization pass).
 
 ## Hermes / LLM Alignment Front Door
 - [[hermes-current/read-first]] — Hermes front door; load this before substantive work
@@ -14,6 +14,9 @@ Total published pages: 487. Governance/read-first surfaces are listed separately
 - [[hermes-current/cocoindex-wiki-mcp-memory-layer]] — CocoIndex/MCP semantic retrieval layer for Hermes, Claude Code, Codex, and other MCP-capable agents
 - [[projects/codex-ratchet/cocoindex-and-bloat-cleanup-policy-2026-06-17]] — current CocoIndex + bloat cleanup policy for wiki/repo LLM findability: local indexes are semantic maps, generated JSON stays exact-read evidence, and large result artifacts require manifest/checksum/restore before archive or compression
 - [[projects/codex-ratchet/read-first]] — Codex Ratchet project front door after Hermes spine
+- [[projects/codex-ratchet/current-research-frontier-2026-07-09]] — current July engine/object/math/Lev research digest, falsifiers, and claim ceilings
+- [[projects/codex-ratchet/qit-lev-operationalization-plan-2026-07-09]] — staged and kill-gated path to one real SME object-evidence workflow
+- [[projects/leviathan-current/qit-evidence-boundary-refresh-2026-07-09]] — current split-worktree and ProofBundle/idempotency/no-mutation boundary
 - [[projects/research-ratchet/README]] — Research Ratchet front door for the long-horizon project harness: event-sourced admissibility geometry, WorldModelGraph / GraphPatch, Spinor Memory, Attractor Basin Digger, ClaimGate authority, and Lev Effect/Eval/Ledger bridge; proposal/source frame only, not runtime proof
 - [[projects/codex-ratchet/wiki-upgrade-pack-intake-2026-06-19]] — pass-with-cautions intake for the Codex Ratchet deep-research report and wiki-upgrade ZIP; adds compact routers/spec mirrors/templates without promoting repo evidence
 - [[projects/codex-ratchet/repo-to-wiki-research-assessment-intake-2026-06-19]] — pass-with-cautions intake for the pasted Codex Ratchet repo-to-wiki research assessment; routes useful backlog/front-door pressure without promoting repo evidence
@@ -62,7 +65,7 @@ Total published pages: 487. Governance/read-first surfaces are listed separately
 - [[model-convergence-qit-engine-full-stack]] — owner route that physics, IGT/personality, perception/consciousness, QIT engines, and geometry/math are perspective readouts over one proposed finite constraint/carrier/geometry stack; no admission
 - [[constraint-manifold-architecture]] — minimum construction contract for the actual geometric constraint manifold
 - [[CLAIM_CEILING_POLICY]] — governance policy for source-processing/admission fences and overclaim blocking
-- [[wizard/hermes-version-current/14_HERMES_WIZARD_V4_2_NATIVE_LOOP_BRIDGE]] — Hermes-native Wizard v4.2 loop bridge
+- [[wizard/hermes-version-current/14_HERMES_WIZARD_V4_2_NATIVE_LOOP_BRIDGE]] — historical Hermes-native v4.2 loop bridge; current behavior routes through v4.3
 - [[current-canonical-spine]], [[topic-map]], [[current-research-overlays]] — second-layer routers after the front door
 
 ## Consolidated harness doctrine (load after Hermes/project front door)
@@ -82,7 +85,8 @@ Total published pages: 487. Governance/read-first surfaces are listed separately
 
 ## Wizard (wave-execution governance)
 - [[wizard/README]] — universal Wizard/MMM reference front door
-- [[wizard/packet-v4-2-current/README]] — current Wizard v4.2 packet entry
+- [[wizard/packet-v4-3-current/README]] — current Wizard v4.3 packet entry
+- [[wizard/packet-v4-2-current/README]] — legacy/provenance v4.2 packet entry
 - [[wizard/packet-v4-1-current/README]] — legacy/provenance v4.1 packet entry
 - [[wizard/00-read-first]] — reading order and status rule
 - [[wizard/01-wizard-general]] — boot law, route truth, wave law, and output shape
@@ -168,6 +172,8 @@ Total published pages: 487. Governance/read-first surfaces are listed separately
 ## Concepts — by framing
 
 ### Current (207)
+- [[root-ratchet-ladder-continuous-climb-2026-07-06]] — continuous root-ratchet ladder candidate; no engine or Axis0 admission.
+- [[root-ratchet-mechanics-and-rolling-entangled-dice-2026-07-06]] — root-ratchet mechanics and dice-metaphor boundary; no cosmology or sim admission.
 - [[iff-chain-identity-duality-2026-07-03]] — Owner iff-chain doctrine capture; promotion_allowed=false.
 - [[igt-discovery-and-two-engines-2026-07-04]] — IGT discovery provenance, two-engine chart, GT-inversion program; promotion_allowed=false.
 - [[science-as-correlations-proved-in-technology-2026-07-04]] — correlations/technology epistemology plus graded kill-board; promotion_allowed=false.

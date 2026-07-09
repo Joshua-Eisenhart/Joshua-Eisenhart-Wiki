@@ -1,4 +1,19 @@
 # THE MODEL, LAYER BY LAYER — component-level status ledger
+#
+# CURRENT READ-THROUGH CORRECTION — 2026-07-09
+# This is a historical component ledger, not current canonical admission.
+# Its EARNED labels predate later fabrication audits and claim-ceiling repairs.
+# Read current status through:
+#   current-research-frontier-2026-07-09.md
+#   external-86-v84-92-foundations-engine-audit-receipt-2026-07-09.md
+# Controlling corrections:
+# - Layer 2's +2*pi*delta_r flux is NOT earned. The bounded Berry rectangle is
+#   -pi*delta_r for the declared orientation; nested tori/manifold spine remain open.
+# - Axis0 remains blocked; atlas closure/parity/entropy gradients are not admission.
+# - 64 means ordered microsteps over 16 macro-stage channels, not 64 demonstrated
+#   personalities or independent intelligences.
+# - Cross-runtime parity and package GREEN do not replace scientific/fabrication gates.
+# - Lev evidence consumption does not imply graph, MMM, ontology, or mesh mutation.
 # 2026-07-01. Every layer of the constraint manifold + engines, with its real
 # math, its earned/candidate/open grade, and the specific computed value.
 # Status key:  EARNED = exact/symbolic or machine-precision verified

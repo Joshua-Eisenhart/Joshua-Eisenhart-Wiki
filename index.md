@@ -16,6 +16,9 @@ Use this as the low-friction entry point. The old full listing lives at [index-f
 ## Active projects
 
 - [[projects/codex-ratchet/read-first]] — Codex Ratchet mathematical build front door.
+- [[projects/codex-ratchet/current-research-frontier-2026-07-09]] — Current July engine/object/math/Lev research digest and corrections.
+- [[projects/codex-ratchet/qit-lev-operationalization-plan-2026-07-09]] — Falsifiable path to one real SME object-evidence workflow.
+- [[projects/leviathan-current/qit-evidence-boundary-refresh-2026-07-09]] — Current CR-to-Lev ProofBundle, idempotency, quorum, and no-mutation gap.
 - [[projects/constraint-core/LINEAGE_AND_VERDICTS_2026-07-02]] — Constraint-core local verdict snapshot.
 - [[projects/constraint-core/RATCHET_STATE_BY_TIER_2026-07-02]] — Canon, scratch, and owner-reserved tier map.
 - [[projects/leviathan-current/index]] — Leviathan wiki table of contents.
@@ -47,6 +50,8 @@ Use this as the low-friction entry point. The old full listing lives at [index-f
 - [[mimetic-holodeck-perception-and-engine-teeth-2026-07-05]] — perception as mimetic projection; ENGINE_TEETH objective function; doctrine + pre-registered measurement.
 - [[object-formation-mesh-perception-2026-07-05]] — objects as earned mesh survivors, not primitives; codex1+NVIDIA reviewed; Lev/JP integration.
 - [[entangled-dice-universe-creation-2026-07-06]] — unified cosmogenesis: dice=metaphor / entropy-gradient=mechanism / entanglement=load-bearing; 3-stage creation + sequential universes; codex1+NVIDIA reviewed; proposal-facing.
+- [[root-ratchet-ladder-continuous-climb-2026-07-06]] — continuous root-ratchet ladder candidate; current research routing only.
+- [[root-ratchet-mechanics-and-rolling-entangled-dice-2026-07-06]] — root-ratchet mechanics and dice-metaphor boundary; current research routing only.
 - [[finite-ordered-foundations-2026-07-04]] — F01+N01 as root axioms, 11 consequences, receipts-as-primary; salvaged 2026-07-04.
 - [[least-presumption-mss-third-root-2026-07-04]] — least presumption / MSS third root, dropped-then-regated; salvaged.
 - [[causality-fep-hume-neurology-2026-07-04]] — causality as compression narrative, FEP literal, Hume-by-neurology; salvaged.
