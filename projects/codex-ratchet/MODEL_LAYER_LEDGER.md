@@ -2420,3 +2420,36 @@ CONTROLS: 1-probe (impoverished bases) unresolved frac 0.5312 (bases genuinely m
 shuffle 0.0685 ~ canonical 0.0694 (resolution fraction order-insensitive at the density level, consistent with
 axis0_readouts_density_blind -- Axis-0 order-structure is spinor/loop-level); chirality-erase (eps->+1) 0.0828 vs 0.0694
 (terrain chirality load-bearing for resolution). Harness 120 GREEN. (axis0_entropy_gradient_engine_pair_endtoend_sim.py)
+
+## UP-115 -- Clifford / Hopf / Weyl processed one by one + grand-synthesis placement (negatives first-class) (2026-07-09)
+
+Owner: "you haven't mentioned clifford, hopf or weyl in a long time. these all need formal processing one by one through
+the whole system. and the things like them. the negatives are as important as the positives." Also attached a 5-part
+grand synthesis (entropy=topology via Atiyah-Singer on the Albert algebra H_3(O); F_4 gravity, E_6 gauge, 27 = three
+generations from chi/2; E_6->F_4 as the arrow of time). This sim processes each structure and PLACES the synthesis on
+the forced-vs-unforced map from UP-107..114.
+
+WEYL (spinor carrier + chirality): the complex Hopf quotient S^3->S^2 is the spinor->Bloch density map, verified phase-
+fiber (S^1) invariant to 1.6e-16. FORCED (persistence_is_norm_preserving + spinor_lift_is_forced +
+chirality_forced_by_F01_N01). The exceptional Weyl POLYTOPES (24-cell W(F_4) order 1152; 2_21 W(E_6) order 51840, 27
+vertices = dim H_3(O)) are real but on the UNFORCED branch; the FORCED Weyl structure is only S_2 (chirality reflection)
+and so(4)/W(D_2) order 4 at the field level (matches UP-111).
+
+CLIFFORD (the decisive NEGATIVE): the engine's Pauli operators satisfy {s_i,s_j}=2 delta_ij I exactly (defect 0) -- they
+ARE a Cl_3 representation, so Clifford is FORCED at the operator level. BUT the Clifford product is ASSOCIATIVE (defect
+0). So the forced operator algebra lives on the {H} (associative) branch and STRUCTURALLY CANNOT carry the octonionic
+nonassociativity the grand synthesis requires. The forced operator algebra is Clifford/associative, not octonionic.
+
+HOPF (four-fold ladder): real S^0->S^1; complex S^3->S^2 FORCED (the single-qubit engine's state geometry);
+quaternionic S^7->S^4 AVAILABLE at the H carrier but NOT the engine's state map (calling the engine quaternionic-Hopf is
+an overclaim); octonionic S^15->S^8 on the UNFORCED {H,O} fork (UP-112). Adams' theorem: normed-division Hopf
+fibrations exist ONLY at K-dim {1,2,4,8} -> the ladder STOPS at O (matches division_algebra_ratchet).
+
+GRAND SYNTHESIS placement: the ONE piece it shares with the FORCED ratchet is the Umegaki relative-entropy monotone
+pawl (UP-107, established data-processing; verified monotone 0.111->0.021 under a dephasing channel). Everything else --
+"entropy = Atiyah-Singer index" (an ANSATZ, not a derived theorem), F_4 gravity, E_6 gauge, dim-27, three generations
+from chi/2 -- sits on the UNFORCED {H,O} branch (UP-112/113). So the synthesis is genuine, established, internally-
+coherent mathematics (Connes noncommutative geometry + exceptional Jordan algebra program: Dubois-Violette, Todorov,
+Boyle-Farnsworth) on a LIVE-but-UNFORCED branch. It is NOT earned by {F01,N01}; earning it needs the T01-load-bearing
+mechanism UP-113 showed is absent. Honest status: aspirational target, not forced result -- and that IS the informative
+negative the owner asked for. Harness 121 GREEN. (clifford_hopf_weyl_ratchet_placement_sim.py)
