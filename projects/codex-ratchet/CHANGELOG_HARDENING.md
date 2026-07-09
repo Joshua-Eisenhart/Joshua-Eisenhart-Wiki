@@ -1215,3 +1215,11 @@ UP-113 T01 grouping-demand search (closes octonion arc) -- H is the CEILING for 
                commutators always obey it -> stay classical. No octonionic (non-Jacobi) T01 in the mechanics -> earning
                O needs a NEW non-Lie non-Jacobi combination, absent as built. Octonion tower stays live-but-unforced.
                119 GREEN.
+
+UP-114 Axis-0 entropy gradient end-to-end on the engine pair -- closes the biggest unbuilt engine seam. Earned gradient
+               (available - resolved distinguishability) run on the full Type-1+Type-2 720 loop, start AND end. Absolute
+               gap relaxes 0.458->0.016 BUT mostly CONTRACTION (honest correction: pure depol closes it too, not a clean
+               vanishing-gradient claim). Contraction-free signal = scale-invariant unresolved fraction 0.05->0.07:
+               engine resolves ~93-95% of the room throughout (near-complete resolution). Controls: 1-probe 0.53 (bases
+               matter), N01 shuffle 0.068 (order-insensitive at density), chirality-erase 0.083 (chirality load-bearing).
+               120 GREEN.
