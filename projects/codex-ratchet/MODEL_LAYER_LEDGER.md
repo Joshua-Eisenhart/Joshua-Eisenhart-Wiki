@@ -2575,3 +2575,34 @@ Lie/Malcev), and nothing in {F01,N01} forces a primitive octonionic idempotent o
 This sim BUILDS a concrete piece of the exceptional tower; it does not EARN it as forced. The tower is real and
 constructible, the demand for it is still absent from the forced ratchet. Harness 125 GREEN.
 (spin9_op2_coset_derived_from_albert_sim.py)
+
+## UP-120 -- The Umegaki pawl IS finite modular theory: forced-side consistency (2026-07-09)
+
+Where UP-119 built UNFORCED exceptional structure (F4/Spin9/OP2), this rung ties the FORCED side together, processing
+the codex-ratchet araki_modular_umegaki_crosscheck independently. The Umegaki relative entropy S(rho||sigma) -- the ONE
+genuinely forced anchor of the octonion-fork arc (the terrain-native monotone pawl of UP-107, the anchor UP-115
+identified as earned by {F01,N01} rather than living on the {H,O} branch) -- is shown to BE the finite case of the
+relative modular operator (Tomita-Takesaki):
+    S(rho||sigma) = -<xi_rho, log(Delta_{sigma|rho}) xi_rho>,   Delta_{sigma|rho}=L_sigma R_rho^{-1},  xi_rho=vec(rho^{1/2}).
+
+COMPUTED (vectorized M_2(C), 4-dim):
+  - CLASSICAL gate: for diagonal rho=diag(.7,.3), sigma=diag(.4,.6), the modular formula equals the KL divergence to
+    8e-17, with Delta eigenvalues {4/7, 6/7, 4/3, 2} (the ratios sigma_i/rho_j).
+  - NON-COMMUTING QUANTUM gate (the real content, stronger than codex's diagonal check): for random NON-commuting
+    density pairs, the modular formula equals the direct Umegaki Tr[rho(log rho - log sigma)] to 1.6e-14. For commuting
+    pairs it would reduce trivially to KL; the non-commuting agreement is the genuine Tomita-Takesaki identity.
+  - BLOCH-BALL COVERAGE gate: over a representative set of density matrices spanning the Bloch ball (an inline coverage
+    set, NOT the engine's terrain fixed points -- a coverage check, not a terrain-provenance claim), modular == Umegaki
+    to 1e-15.
+
+CONTROLS (falsifiable): swapped-delta (wrong convention L_rho R_sigma^{-1}) mismatches KL by 0.37; singular sigma
+(diag(1,0)) makes Delta non-invertible -> correctly flagged ill-defined without regularization (matching
+S(rho||sigma)=+inf when supp(rho) not subset supp(sigma)).
+
+PLACEMENT: FORCED-side consistency, NOT a new forcing claim. The forced pawl and the surface-identity thermal-time
+structure are the SAME modular object: the terrain entropy/geometry face is the BKM information metric = Connes-Rovelli
+thermal time (project canon surface_identity_is_BKM / surface_identity_prior_art), and Delta is exactly the finite
+Tomita-Takesaki modular operator. So the forced Umegaki pawl already IS a piece of modular theory -- the model's forced
+anchor and its thermal-time surface identity are internally one structure. Both are established prior art; this rung
+tightens the model's own internal consistency rather than asserting new ground. Harness 126 GREEN.
+(umegaki_pawl_is_finite_modular_theory_sim.py)
