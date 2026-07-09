@@ -1347,3 +1347,10 @@ UP-129 Loop-order instrument repair (v7 t2_order_carried seed-fragility). New si
                poly library over-fits the affine GKSL flow (phantom quadratics). Repaired gate = ordered/unordered
                RATIO under deg-1 library: seed-robust 8/8, ratio_min 5.2e4, same perm (1,4,3,2) every seed = inner->
                outer terrain reorder. The two Type-2 loops ARE the same terrains reversed; order-carry real. 134 GREEN.
+
+UP-130 "4 substages" DERIVED from dual-ratchet closure (owner directive). New sim four_substages_emerge_from_
+               dual_ratchet. Two co-constraining axes A(geom/Z) B(entropy-sector/X); minimal cycle satisfying C1
+               closure + C2 alternation(MSS) + C3 both-directions = L4, uniquely {ABAB,BABA}. Isolating controls each
+               flip one gate (AB fails close; AAAA closes but non-alternating -> closure alone insufficient; half-leg
+               fails). Gate(3) PARSES engine_16_source_stage_slots.json (substages/loop=4), not hardcoded. 4 = 2 axes
+               x 2 directions = Carnot 4-stroke (rosetta). Closes the substage-count open item. 135 GREEN.
