@@ -1331,3 +1331,12 @@ UP-127 Manifold spine L8: the global bundle -- loops foundations forward (L1-L7 
                line bundle, flux is topological. (2) Chern SIGN = chirality winding: orientation reversal flips 1 -> -1;
                the L7 holonomy sign deferred as "Weyl chirality" IS this +/-1 winding -> two engine chiralities = two
                signs of one invariant. Control: trivial section Chern 0. Top of the earned geometric spine. 133 GREEN.
+
+UP-128 Loop-back audit correction (codex sol-5.6 cross-check of L5/L6/L7). Reproduced + corrected 3 real defects,
+               harness stays 133 GREEN (no gate relaxed): (1) L6 "curved not flat" was a coordinate artifact -- BKM
+               metric is EXACTLY CONSTANT (g_eta_eta=4) in the Schmidt-angle coord; 1D family has no intrinsic
+               curvature; real fact is BKM != Euclidean-r (metric-choice). (2) L7 "single-shell holonomy pure gauge"
+               wrong -- closed-loop Berry phase is gauge-INVARIANT; cross-shell claim rests on holonomy DIFFERENCE.
+               (3) ledger L2.1 normalization: holonomy -2pi cos^2(eta), flux -pi(cos2eta_i-cos2eta_j) (was too large by
+               -2, ratio -1/2, matches codex). Survivors: L7 -pi rectangle holonomy, Umegaki modular identity, BKM=
+               Hessian, CPTP contraction. Open (accepted): UP-121/UP-122 forcing/uniqueness are semantic overclaims.
