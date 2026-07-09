@@ -2690,3 +2690,27 @@ SCOPE: earns L5 (Schmidt strata as nested shells + flux as cross-shell nesting q
 L6 (metric/connection on the shell family) or above; next rung. Weyl chirality + engine-type split remain later
 objects. Hypothetical lane; owner doctrine under test. scratch_diagnostic. Harness 129 GREEN.
 (manifold_L5_nested_shells_schmidt_strata_sim.py)
+
+## UP-124 -- Manifold spine L6: the metric on the shell family (BKM = entropy Hessian; monotone; curved) (2026-07-09)
+
+Loops the foundations forward: spine L1-L5 built, this adds L6. Nests on L5 (nested-shell Schmidt strata) and L3
+(spinor/phase surface). L5 gave the shell FAMILY as bare radii with no distance; L6 adds the METRIC that makes shell-
+to-shell distance real, curved, and monotone -- and it is exactly the forced modular geometry of UP-120 attaching to
+the spine, with the DPI of UP-121 becoming its infinitesimal monotonicity. COMPUTED:
+  (1) THE METRIC IS THE BKM (Bogoliubov-Kubo-Mori) METRIC = HESSIAN OF RELATIVE ENTROPY. Kubo-Mori integral
+      coefficient (log a-log b)/(a-b) in the eigenbasis vs the second derivative of S(rho||rho0) along a direction
+      agree to 5e-8. The shell-family metric is not arbitrary; it IS the curvature of the forced relative-entropy pawl
+      (UP-107/120/121) -- the surface identity (surface_identity_is_BKM) realized on the L5 shells.
+  (2) CURVED, NOT FLAT. BKM arc length along the radial Schmidt direction = 2 arcsin(r): mid->pure-boundary segment
+      1.91x the mid->center segment, while a flat Bloch metric gives uniform 1.0x. The shells are unevenly spaced;
+      the pure-state boundary is metrically far, the maximally-mixed center near. Real curvature, not a coordinate.
+  (3) MONOTONE (CONTRACTS UNDER CPTP) = INFINITESIMAL DPI. Depolarizing (p=0.3) shrinks g_BKM 4.49 -> 2.07. This is
+      the differential form of UP-121's DPI: the dissipative terrain flow moves inward along shells and the metric
+      contracts. A non-CPTP amplify (unphysical Bloch upscale) INCREASES the metric (7.34) -> contraction is CPTP-
+      specific, the DPI direction.
+CONTROLS: wrong-direction (SX vs SZ) metric differs -> g_BKM is a genuine direction-dependent bilinear form, not a
+scalar; non-CPTP amplify does not contract. DUAL RATCHET: the shell metric (geometry) and the relative-entropy pawl
+(readout) are the SAME tensor; metric contraction IS pawl decrease -- geometry and entropy are one object on the
+shells. SCOPE: earns L6 on top of L5. Does NOT build L7 (connection/parallel-transport + Berry holonomy across shells)
+or above; next rung. Hypothetical lane; owner doctrine under test. Harness 130 GREEN.
+(manifold_L6_shell_metric_bkm_connection_sim.py)
