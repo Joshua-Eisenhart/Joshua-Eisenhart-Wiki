@@ -934,16 +934,6 @@ UP-75 OBJECT-FORMATION SCORECARD  engine_object_formation_scorecard_sim.py compo
                gate-tuning cascade. Result: conv_loss 1.562, handling_loss 0.143, both controls flip. Full harness
                81 pass/0/0 GREEN. scratch.
 
-# EXCEPTIONAL MATH ROUND WIKI DIGEST - 2026-07-08
-
-WIKI-2026-07-08  Added [[projects/codex-ratchet/exceptional-math-round-2026-07-08]] and
-                 [[projects/codex-ratchet/fabrication-modes-catalog]]. The digest records the audited ceiling:
-                 exceptional statics, cone-menu pawl uniformity, Alfsen-Shultz 26/26 dynamical deficit,
-                 Spin9/Spin7/G2/SU3xSU3 rank chains, Malcev-named H-ceiling, and Petz recovery structure
-                 survive at scratch/local-rerun level; Jordan v2 is refuted; Jordan v3 is block-scalar and
-                 associatively reducible; the octonion dynamics leg remains unearned after three attempts.
-                 Also patched the J2(O) receipt to carry the `9eafe5a63` retroactive demotion. No Axis0,
-                 bridge, manifold, physics, runtime, or nonassociative DPI theorem admission.
 UP-76 COSMOGENESIS AS THE RATCHET'S FIRST TOOTH  cosmogenesis_ratchet_first_tooth_sim.py -- the universe's
                beginning as an INSTANCE of the root ratchet running (MSS in a static field), incorporating the
                2026-07-06 entropy-gradient-intrinsic shift. SAME demand/MSS rules at the origin: static field
@@ -1259,3 +1249,14 @@ UP-117 Non-associative CA as a CONSTRUCTIBLE (not forced) T01 mechanism + tensor
                associative quaternion control collapses to 5.6e-15) -> constructible+running T01 mechanism, INSTALLED
                not forced. Grand synthesis CONDITIONAL on a forced non-associative demand: buildable, absent in forced
                ratchet. Gate all four legs COMPUTED (auditor-hardened; earlier draft hardcoded two legs True). 123 GREEN.
+
+UP-118 The Malcev bracket NAMES the T01 ceiling -- processed the codex-ratchet parallel cluster (j3o Bloch body,
+               Spin(9)/OP2 coset, Araki-modular/Umegaki crosscheck, Petz recovery census, Jordan-DPI, Alfsen-Shultz,
+               symmetric-cone census, and the decisive Malcev search; codex at 123 GREEN, UP-113..117 matching). NAMED
+               the missing T01 structure: the octonion imaginary commutator is MALCEV-not-Lie (Jacobiator ~3e2, Malcev
+               defect ~3e-13) = the tangent algebra of the octonion Moufang loop (g2); su(2)=Im(H) is the degenerate
+               Lie case. Reference detector valid (Im(O)->malcev_not_lie, Im(H)->lie, random->neither, corrupted->
+               neither). Engine-native census: every engine bracket is a matrix commutator -> Jacobi-obeying -> Lie
+               (max defect 5e-14); Malcev-not-Lie hits = 0. The T01 ceiling now has a NAME + DETECTOR: earning O needs
+               a forced Malcev bracket the associative carrier cannot generate. Converges with UP-111 (so(4)) + UP-115
+               (Clifford). Reproduces codex malcev_signature_search independently. 124 GREEN.
