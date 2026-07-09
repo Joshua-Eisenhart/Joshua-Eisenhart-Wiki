@@ -2739,3 +2739,46 @@ Does NOT build L8 (global bundle / Chern quantization of the flux) or above; nex
 this holonomy, a later object needing the cut/orientation structure. Hypothetical lane; owner doctrine under test.
 Harness 131 GREEN.
 (manifold_L7_shell_connection_holonomy_sim.py)
+
+## UP-126 -- Aperiodic order (Penrose + E8): REAL and constructible, but NOT forced (2026-07-09)
+
+Processes the Penrose-tiling / E8-quasicrystal half of the "discrete computational spacetime" attachment (UP-117 built
+the von Neumann-CA half and left Penrose/E8 CITED only). Makes both structures real (computed) and places them with the
+same fork discipline as the octonion arc (UP-112/116/117/118): genuine mathematics, live but UNFORCED by {F01,N01}.
+  PART 1 -- E8 ROOT SYSTEM. 240 roots constructed (112 integer D8 +-e_i+-e_j, 128 half-integer (1/2)(+-1)^8 with an
+  even number of minus signs); all norm^2=2; count 240 = Coxeter h=30 x rank 8. DISCRIMINATING test (not the
+  tautological "matrices satisfy Jacobi"): the SAME Jacobiator detector reads the E8/matrix commutator ~0 (Lie) but the
+  octonion Im(O) commutator >>0 (335, Malcev-not-Lie, exactly as UP-118). So E8 sits on the associative/Jacobi side,
+  OPPOSITE the octonion demand; it does NOT supply the forced non-Jacobi (T01) structure the octonion rung needs.
+  PART 2 -- PENROSE QUASICRYSTAL. Cut-and-project Z^5->2D (star directions 2 pi k/5, acceptance window in the 2D
+  internal space). The decisive signature: 2D diffraction |S(q)|^2 has 10-FOLD rotational symmetry (rotation-
+  correlation 0.99) -- an order FORBIDDEN for any periodic lattice (crystallographic restriction theorem). Golden ratio
+  tau=(1+sqrt5)/2 is the inflation factor. CONTROLS: periodic square lattice 4-fold 1.00 but 10-fold 0.14; hex 6-fold
+  0.87 but 10-fold 0.12 -- so the 10-fold is genuine aperiodic order, not an estimator artifact.
+PLACEMENT: both REAL and constructible, both genuinely connected to the octonion/exceptional program in the literature
+(E8 contains E6/F4 over O; Penrose/E8 quasicrystals cited in discrete-spacetime proposals), but NEITHER FORCED -- E8 is
+Lie/Jacobi (not the Malcev demand of UP-118); the Penrose set is an installed 5-fold projection (constructible like the
+UP-117 CA, but nothing in {F01,N01} forces a 5-fold window). Same LIVE-BUT-UNFORCED status as F4/E6/dim-27
+(UP-115/119). CLOSES the CA/Penrose attachment. Harness 132 (with L8: 133) GREEN.
+(aperiodic_order_penrose_e8_not_forced_sim.py)
+
+## UP-127 -- Manifold spine L8: the global bundle; flux QUANTIZED (Chern); Chern sign = chirality winding (2026-07-09)
+
+Loops the foundations forward: spine L1-L7 built, this adds L8 (top of the currently-earned geometric spine). Nests on
+L7 (the shell connection, holonomy -2pi cos^2 eta) and L3 (spinor/phase). L7 gave the connection LOCALLY; L8 adds the
+GLOBAL object. COMPUTED:
+  (1) TOTAL FLUX IS QUANTIZED (Chern = 1). Integrating the Berry curvature over the whole closed shell family
+      (eta in [0,pi/2] x phi-loop = the Bloch 2-sphere the shells foliate) via Fukui-Hatsugai-Suzuki lattice
+      plaquettes gives total flux/2pi = 1.0000 (integer to 2e-6). The per-shell holonomies of L7 integrate to an
+      INTEGER: the shell connection is the connection of a nontrivial Chern-1 line bundle. Flux is now a TOPOLOGICAL
+      invariant, not a coordinate quantity.
+  (2) THE CHERN SIGN IS THE CHIRALITY WINDING (+1/-1). Reversing the ORIENTATION of the shell family flips the Chern
+      number 1 -> -1. The sign of the L7 holonomy that L7 deferred as "Weyl chirality" IS this orientation-dependent
+      +/-1 winding: the two engine chiralities (left/right Weyl) are the two signs of ONE quantized invariant. Connects
+      the spine geometry to the engine-type split (engine type = global sign of loop geometric phase).
+CONTROL: a trivial/flat section has Chern 0 -- quantization to 1 is a property of the winding section, not the
+integrator. DUAL RATCHET: the global bundle (geometry) and the discrete winding (Chern/chirality sign) are one object;
+the integer IS the accumulated curvature; continuous L7 holonomy and discrete L8 winding are local/global faces of one
+connection. SCOPE: earns L8. Does NOT assign which physical chirality is left vs right (empirical,
+chirality_forced_by_F01_N01). Top of the earned geometric spine; does not build L9. Harness 133 GREEN.
+(manifold_L8_global_bundle_chern_quantization_sim.py)
