@@ -23,8 +23,13 @@ WHAT L7 ADDS OVER L5/L6 (the forcing content):
      the flux is a geometric invariant of the nested-shell family, not a coordinate choice.
  (3) FLUX IS INTRINSICALLY A NESTING (CROSS-SHELL) QUANTITY -- L7 form of L5's fact. Holonomy difference for a shell
      with ITSELF is exactly 0; only distinct nested shells carry flux. The connection makes precise WHY (ledger L2.1,
-     project canon flux_needs_nesting): a single shell's loop holonomy is a pure gauge (removable), but the RELATIVE
-     holonomy between nested shells is gauge-invariant.
+     project canon flux_needs_nesting). [CORRECTED 2026-07-09 after a codex/loop-back audit.] The precise statement:
+     a single shell's CLOSED-loop Berry holonomy is gauge-INVARIANT (mod 2 pi) -- it is NOT "pure gauge / removable"
+     (an earlier draft wrongly said removable; single-valued gauges leave it unchanged, verified). What IS gauge/
+     convention-dependent is the connection 1-form and any OPEN-path phase. The load-bearing cross-shell fact stands
+     on the FLUX = holonomy DIFFERENCE: self-difference is exactly 0 and erasing the nesting sends the transported
+     phase to 0, so flux is intrinsically a relation BETWEEN nested shells (flux_needs_nesting), independent of the
+     removability question.
 
 DUAL RATCHET at L7: the connection (geometry -- how phase transports across nested tori) and the phase readout (the
 L3 spinor phase) co-ratchet: the holonomy IS the accumulated transported phase. Sweeping the shell radius changes the
@@ -98,7 +103,7 @@ def main():
              "note":"parallel transport around a closed (phi,eta) rectangle returns net phase -pi != 0 -> genuine curvature, flux is a gauge-invariant of the nested-shell family"},
          "fact3_flux_is_cross_shell":{"flux_self":flux_self,"self_flux_zero":g_selfzero,
              "erased_nesting_holonomy":hol_erased,"erase_kills_flux":g_erase,
-             "note":"single-shell loop holonomy is pure gauge; only the RELATIVE holonomy between nested shells is gauge-invariant (flux_needs_nesting)"},
+             "note":"CORRECTED (codex/loop-back audit): single-shell CLOSED-loop holonomy is gauge-INVARIANT (mod 2pi), not 'pure gauge/removable'. The cross-shell fact rests on the holonomy DIFFERENCE: self-difference exactly 0 and erase-nesting -> 0, so flux is a relation BETWEEN nested shells (flux_needs_nesting)."},
          "scope":"earns L7 (shell connection + transport holonomy deriving the L5 flux + non-integrable curvature) on top of L6. Does NOT build L8 (global bundle / Chern quantization) or above. Weyl chirality = SIGN of this holonomy, a later object. Hypothetical lane; owner doctrine under test.",
          "verdict":"PASS" if verdict else "FAIL"}
     path=__file__.replace(".py","_results.json"); json.dump(out,open(path,"w"),indent=1)
