@@ -1303,3 +1303,11 @@ UP-123 Manifold spine L5: nested-shell Schmidt strata -- loops the foundations f
                REFINES L4: two states L4 calls equally non-product on different shells (r 0.54 vs 0.23). NESTED-SHELL
                FLUX Phi=2pi(r_i-r_j): 0 self, 1.97 nested -> flux is a nesting property (flux_needs_nesting), its
                first spine home. Erase-nesting control fires. 129 GREEN.
+
+UP-124 Manifold spine L6: the metric on the shell family -- loops the foundations forward (L1-L5 built). Nests on
+               L5+L3. L5 gave bare shell radii with no distance; L6 adds the METRIC. (1) It IS the BKM metric = Hessian
+               of relative entropy (two computations agree 5e-8) -- surface identity (UP-120) on the shells, not
+               arbitrary. (2) CURVED not flat: BKM arc length 2 arcsin(r), pure boundary 1.91x farther than center vs
+               flat 1.0x. (3) MONOTONE: contracts under CPTP (4.49->2.07 depol) = infinitesimal DPI (UP-121); non-CPTP
+               amplify increases (7.34). Controls: wrong-direction metric differs (direction-specific bilinear form);
+               non-CPTP amplify fires. Geometry and entropy are ONE tensor on the shells. 130 GREEN.
