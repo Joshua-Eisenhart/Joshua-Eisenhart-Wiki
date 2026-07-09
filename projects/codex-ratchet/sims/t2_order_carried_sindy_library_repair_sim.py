@@ -2,8 +2,12 @@
 """t2_order_carried_sindy_library_repair -- diagnoses and repairs the seed-fragility of the v7 SINDy loop-order
 instrument (codex replication packet t2_order_carried_v1).
 
-CONTEXT. The v7 packet tests: the two Type-2 loops (inner-deductive, outer-inductive) are built from the SAME four
-(terrain, operator) tuples traversed in a DIFFERENT ORDER, so they must be (a) DISTINGUISHABLE when order is kept
+CONTEXT. The v7 packet frames the two Type-2 loops (inner-deductive, outer-inductive) as built from four
+(terrain, operator) slots in a DIFFERENT ORDER. IMPORTANT SCOPE: the two loops actually share the same TERRAIN SET
+{Se,Ne,Ni,Si} but use DIFFERENT operators per terrain (inner Ti/Fe, outer Fi/Te) -- they are NOT the same
+(terrain,operator) tuples. This sim fits only the per-segment TERRAIN FLOW, so it demonstrates TERRAIN-level order-
+carry, NOT full-content equivalence; the stronger same-content-after-permutation claim stays FAILED (codex frontier).
+The packet's structural test is that the loops are (a) DISTINGUISHABLE when order is kept
 (ordered distance large) and (b) IDENTICAL when order is blinded (best-permutation "unordered" distance ~0). The packet
 fits a per-segment SINDy model to the terrain flow of each of the 4 positions, then compares loops position-by-position
 (ordered) and under the best position permutation (unordered), against a probe-resampling self-null band. Re-running it
@@ -168,9 +172,11 @@ def main():
          "claim3_library_matches_generator":{"deg1_heldout_r2":r2_deg1,"deg2_quadratic_coeff_mean":quad_mean,
              "deg2_linear_coeff_mean":lin_mean,"quadratic_negligible_vs_linear":bool(quad_mean<0.1*lin_mean),"pass":g_library,
              "note":"GKSL flow is affine in Bloch coords; degree-1 fits it exactly (R^2>=%.3f); degree-2 quadratic terms are phantom noise"%R2_GATE},
-         "policy_eval":{"loop_order_carry_is_real_when_measured_with_correct_library":g_repair,
-             "v7_seed_fragility_root_cause_is_library_degree":g_defect and g_library,
-             "T2_TWO_LOOPS_ARE_SAME_TUPLES_REVERSED_ORDER":verdict}}
+         "scope_boundary_do_not_overclaim":"This sim fits the per-segment TERRAIN FLOW only (operators set context but are not fit). It shows the two loops share the same TERRAIN SET in reversed order (unordered terrain-flow distance ~1e-5). It does NOT show full (terrain,operator) CONTENT equivalence -- the loops use DIFFERENT operators per terrain (inner Ti/Fe, outer Fi/Te), so the stronger 'two loops differ only by order' / same-content-after-permutation claim is NOT made here and remains FAILED per codex frontier (preserve that FAIL).",
+         "policy_eval":{"loop_terrain_order_carry_is_real_when_measured_with_correct_library":g_repair,
+             "v7_selfnull_gate_is_ill_posed_not_a_library_bug":g_defect and g_library,
+             "T2_TWO_LOOPS_SHARE_SAME_TERRAIN_SET_IN_REVERSED_ORDER":verdict,
+             "T2_same_full_content_after_permutation_claim":"NOT MADE (different operators per terrain); stays FAILED per codex frontier"}}
     json.dump(out,open(path,"w"),indent=2)
     print(f"(1) AFFINE-LIBRARY RATIO REPAIR: clean {d1['clean_seeds']}/{N_SEEDS} seeds, same perm {d1['same_perm']} {d1['perm_recovered']}, ratio_min {d1['ratio_min']:.2e} -> seed-robust: {g_repair}")
     print(f"(2) v7 SELF-NULL GATE ILL-POSED: unordered<=self_null passes deg1 {d1['v7_selfnull_gate_pass_count']}/{N_SEEDS}, deg2 {d2['v7_selfnull_gate_pass_count']}/{N_SEEDS} (BOTH <half) -> mis-specified null, not a library bug: {g_defect}")
