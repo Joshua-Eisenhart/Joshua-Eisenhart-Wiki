@@ -1270,3 +1270,13 @@ UP-119 Spin(9)/OP2 coset DERIVED from the Albert product -- the POSITIVE counter
                specific to primitive idempotents = OP2 points). HONEST PLACEMENT: real+constructible exceptional
                structure but on the UNFORCED {H,O} branch (UP-112/115/118) -- BUILDS a piece of the tower, does not
                EARN it as forced. 125 GREEN.
+
+UP-120 The Umegaki pawl IS finite modular theory -- FORCED-side consistency, processing codex araki_modular_umegaki_
+               crosscheck independently. The forced Umegaki relative-entropy pawl (UP-107/115) IS the finite relative
+               modular operator: S(rho||sigma) = -<vec(sqrt rho), log(L_sigma R_rho^-1) vec(sqrt rho)> (Tomita-Takesaki).
+               Classical gate matches KL to 8e-17 (Delta eigs {4/7,6/7,4/3,2}); NON-COMMUTING quantum gate matches
+               direct Umegaki to 1.6e-14 (the real content, stronger than a diagonal/KL check); Bloch-ball coverage
+               1e-15. Controls: swapped-delta mismatches KL by 0.37; singular sigma flagged ill-defined. Connects the
+               forced pawl to the surface-identity (BKM / Connes-Rovelli thermal-time) work -- forced anchor and
+               thermal-time surface identity are one modular object. No new forcing; internal consistency tightened.
+               126 GREEN.
