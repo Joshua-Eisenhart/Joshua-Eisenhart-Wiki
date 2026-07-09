@@ -1290,3 +1290,16 @@ UP-121 Petz/DPI FORCES the pawl -- structural justification of UP-107/120, proce
                operator-convex f with f(1)=0 gives a monotone quasi-entropy; all 4 members pawl uniformly to 0 --
                Umegaki is ONE member, not hand-picked. Control: wrong foreign fixed point does not pawl. FORCED-side
                foundations; the pawl is forced by DPI, not chosen. 127 GREEN.
+
+UP-122 Alfsen-Shultz dynamical correspondence -- the DYNAMICAL face of special vs exceptional (UP-116/117), tying
+               it to UP-120 (state generates own dynamics) + UP-119 (f4). SPECIAL Herm3(C): single-observable D_a=
+               (i/2)[a,.] is a Jordan derivation (residual 0); corrupted sign breaks (1.41). EXCEPTIONAL H3(O): naive
+               single-observable commutator residual 143.6 -> DEFICIT (no associative envelope). Deficit is single-
+               observable-specific: pair [L_a,L_b] ARE derivations (1.9e-13) spanning the 52-dim f4 -- H3(O) has
+               dynamics, just not observable-indexed. Reproduces codex alfsen_shultz_correspondence_probe. 129 GREEN.
+UP-123 Manifold spine L5: nested-shell Schmidt strata -- loops the foundations forward (L1-L4 were sims, L5+ only
+               in ledger). Nests on L4+L2. L4 gave a binary product/entangled bit; L5 adds continuous Schmidt strata
+               as nested marginal-radius shells (r=2 s0^2-1). DUAL RATCHET: radius 1->0 as marginal entropy 0->1.
+               REFINES L4: two states L4 calls equally non-product on different shells (r 0.54 vs 0.23). NESTED-SHELL
+               FLUX Phi=2pi(r_i-r_j): 0 self, 1.97 nested -> flux is a nesting property (flux_needs_nesting), its
+               first spine home. Erase-nesting control fires. 129 GREEN.
