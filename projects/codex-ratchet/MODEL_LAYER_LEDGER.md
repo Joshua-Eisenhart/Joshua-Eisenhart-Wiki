@@ -2484,3 +2484,33 @@ CONSEQUENCE for the physics: the dark-energy/dark-matter-as-(+/-)entropy and cor
 "non-associativity -> holism," but the holism they invoke is the ASSOCIATIVE kind standard entanglement already
 provides. The physics intuitions may be independently valuable, but they are NOT forced by (nor do they force)
 octonions. The octonion fork stays unforced (UP-112/113 hold). Harness 122 GREEN. (holism_does_not_force_octonions_sim.py)
+
+## UP-117 -- Non-associative CA as a CONSTRUCTIBLE (not forced) T01 mechanism + tensor-product-failure sharpening (2026-07-09)
+
+Two owner attachments sharpened the octonion-fork picture. Both credited; verdict unchanged (constructible, not forced).
+
+ATTACHMENT 1 (the correct non-factorizability): named the RIGHT property behind the failed UP-116 holism argument.
+H_3(O) is EXCEPTIONAL -- it admits NO tensor product in the Jordan category (Jordan-von Neumann-Wigner 1934;
+Hanche-Olsen), so there is no composite H_3(O)(x)H_3(O) and subsystems genuinely cannot be defined. This is distinct
+from associative entanglement (UP-116) and is exactly the "non-special" distinction, now named. COMPUTED here (not
+asserted, per gate_must_derive_from_data): the Jordan-identity ladder on random Hermitian octonionic matrices holds at
+n=2 (9.2e-15) and n=3 (1.7e-13) and FAILS at n=4 (8.8e2); and the forced engine's product operator has multilinear rank
+(1,1,1) across the three qubit cuts -> M_8(C)=M_2(C)^(x)3 FACTORIZES. So the engine never demands a non-tensor-
+decomposable observable algebra; the demand is still ABSENT (UP-116 holds). The special/exceptional/no-tensor-product
+theorem is CITED in the notes, not a gate leg.
+
+ATTACHMENT 2 (the constructible T01 mechanism): a von Neumann / Penrose-E8 / Fano-plane cellular automaton whose cell
+states are unit octonions and whose update multiplies the (left,self,right) neighbourhood makes the BRACKETING load-
+bearing. On a ring of N=12 cells over 8 steps: LEFT-bracket (a o b) o c vs RIGHT-bracket a o (b o c) evolutions DIVERGE
+(mean cell divergence grows to 1.447) -- grouping is genuinely load-bearing OVER TIME, a real running realization of a
+T01 demand. ASSOCIATIVE control (restrict every cell to the quaternion subalgebra): LEFT/RIGHT stay IDENTICAL (5.6e-15).
+Grouping matters ONLY when the carrier is non-associative. So the T01 mechanism is CONSTRUCTIBLE and simulatable -- but
+the octonion update rule is CHOSEN (installed); nothing in {F01,N01}+the qubit engines forces it (UP-113: every forced
+engine operation is associative composition or a Jacobi bracket).
+
+CONSEQUENCE: the grand synthesis (entropy=topology, E6->F4 arrow) is CONDITIONAL -- valid iff nature exhibits a FORCED
+non-associative (non-tensor-factorizable) demand. This sim shows such a demand is BUILDABLE (running CA) but ABSENT from
+the current forced ratchet. The gap between the Clifford/associative forced engine and the octonionic synthesis is now a
+precise, runnable object. Gate: all four legs COMPUTED (Jordan ladder + engine factorization + CA divergence +
+associative control), auditor-hardened from an earlier draft that hardcoded two legs as True. Harness 123 GREEN.
+(nonassociative_ca_t01_constructible_not_forced_sim.py)
