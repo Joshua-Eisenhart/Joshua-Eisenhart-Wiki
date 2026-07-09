@@ -9,7 +9,8 @@ modular geometry of UP-120 (the BKM information metric = the entropy/geometry su
 attaches to the spine as the Riemannian structure of the shell family, and where the DPI contraction of UP-121 becomes
 the INFINITESIMAL monotonicity of that metric.
 
-Owner: "build the foundations and loop back to improve them ... you should be looping on all of it."
+Motivation (paraphrase, not a verbatim quote): continue looping on the foundations, building spine rungs forward while
+looping back to strengthen the earlier ones.
 
 WHAT L6 ADDS OVER L5 (the forcing content):
  (1) THE METRIC IS THE BKM (Bogoliubov-Kubo-Mori) METRIC = HESSIAN OF RELATIVE ENTROPY. Computed two independent ways:
