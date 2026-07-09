@@ -1260,3 +1260,13 @@ UP-118 The Malcev bracket NAMES the T01 ceiling -- processed the codex-ratchet p
                (max defect 5e-14); Malcev-not-Lie hits = 0. The T01 ceiling now has a NAME + DETECTOR: earning O needs
                a forced Malcev bracket the associative carrier cannot generate. Converges with UP-111 (so(4)) + UP-115
                (Clifford). Reproduces codex malcev_signature_search independently. 124 GREEN.
+
+UP-119 Spin(9)/OP2 coset DERIVED from the Albert product -- the POSITIVE counterpart to the octonion-fork negatives,
+               processing codex spin9_stabilizer_op2_coset independently. Derives dim F4=52 (=Der(J3(O)), nullspace of
+               a (10206,729) Jordan-Leibniz constraint matrix, rank 677), the Spin(9) stabilizer of a primitive
+               idempotent e=diag(1,0,0) (dim 36), and the Cayley-plane coset OP2=F4/Spin(9) (dim 16=52-36) ALL from the
+               constructed Albert product, nothing cited. Controls: corrupted-Fano sign-flip collapses F4 52->3 (52 is
+               genuine octonion structure); generic non-idempotent diag(3,2,1) gives a different 28/24 split (36/16
+               specific to primitive idempotents = OP2 points). HONEST PLACEMENT: real+constructible exceptional
+               structure but on the UNFORCED {H,O} branch (UP-112/115/118) -- BUILDS a piece of the tower, does not
+               EARN it as forced. 125 GREEN.
