@@ -944,3 +944,318 @@ WIKI-2026-07-08  Added [[projects/codex-ratchet/exceptional-math-round-2026-07-0
                  associatively reducible; the octonion dynamics leg remains unearned after three attempts.
                  Also patched the J2(O) receipt to carry the `9eafe5a63` retroactive demotion. No Axis0,
                  bridge, manifold, physics, runtime, or nonassociative DPI theorem admission.
+UP-76 COSMOGENESIS AS THE RATCHET'S FIRST TOOTH  cosmogenesis_ratchet_first_tooth_sim.py -- the universe's
+               beginning as an INSTANCE of the root ratchet running (MSS in a static field), incorporating the
+               2026-07-06 entropy-gradient-intrinsic shift. SAME demand/MSS rules at the origin: static field
+               carries no difference (no time); MSS forces the weakest persistent carrier = norm-preserving spinor;
+               its expansion is entangled (dark-energy-first, concurrence 0->1) and chiral (mirror = opposite sign,
+               F01+N01 forced); the entropy gradient opens WITH the carrier and freeze halts it. Lev measurement/
+               verdict discipline; all five controls flip. Three bugs fixed in the MATH not the gate (XX entangler,
+               signed holonomy, product-state off-by-one). Grounded x_grok_chat_TOE.txt 30/38/47; already in
+               toe_cosmology docs. Full harness 82 pass/0/0 GREEN. scratch.
+
+UP-77 PAWL HARDENING (witness identity + append-only memory)  pawl_witness_identity_memory_sim.py -- the
+               2026-07-04 sec.8/sec.10 correction as measurement. Minimality alone does not lock: MSS-alone pawl
+               accepts 12 lateral swaps among equal-cost witnesses; witness-identity + append-only-memory pawl
+               accepts 0. Memoryless-drive kill: memory drive climbs (9 teeth, gap 0.316), memory-erased drive
+               random-walks and stalls (5 teeth, 0.059). Both controls flip. Full harness 84 GREEN. scratch.
+UP-78 THE 3-QUBIT FLOOR  ratchet_three_qubit_floor_sim.py -- carries the conservation-gated ratchet past dim-2
+               saturation. Acquired stock = 3n single-qubit Pauli-axis bases (tomographically complete only at 1
+               qubit; full tomography needs 4^n-1 axes). 1 qubit saturates (0 teeth-before-sat, 0 open demands); 2
+               and 3 qubits keep forcing (12 teeth, 69/161 open demands). Floor real for the mechanism reason, not
+               a fit -- WHY >=3 qubits are needed. Full harness 84 GREEN. scratch.
+
+UP-79 THE UNIFIED RATCHET  unified_ratchet_witness_memory_3q_sim.py -- composes the foundational demand/MSS/
+               gradient mechanism + the witness-identity/append-only-memory pawl (UP-77) + the 3-qubit carrier
+               (UP-78) into ONE climb. LIVE (3q): retained ladder 3, 7 acquired bases, 0 lateral swaps. Three
+               controls flip: ladder-vs-flat (memory 3 vs memoryless 0), pawl-lock (witness 0 vs minimality-only
+               39 lateral swaps), Feynman freeze (0 teeth after freeze). Locks by remembered witness, intrinsic-
+               gradient driven, climbs past dim-2. Full harness 85 GREEN. scratch.
+
+UP-80 THE BRIDGE TOOTH (carrier -> terrains)  bridge_tooth_carrier_to_terrains_sim.py -- the ratchet's next tooth
+               after cosmogenesis, making the climb continuous from the bare chiral spinor carrier up to the 8
+               terrain dissipators. Bare unitary carrier cannot close the attractor demand (td preserved 0.261); a
+               terrain dissipator closes it (td 0.002). MSS next tooth = a GKSL dissipator with a fixed point = a
+               terrain. 8 terrains pairwise-distinct CHANNELS (min 0.195; fixed points coincide, channels do not).
+               Chirality carries forward (eps sheets opposite, product -1). Real terrain generators. Full harness
+               86 GREEN. scratch.
+
+UP-81 THE NEXT TOOTH (terrains -> engine stages)  next_tooth_terrains_to_engine_stages_sim.py -- the ratchet's next
+               tooth after the terrains, continuing the climb up to the composed engine stages. A bare terrain
+               cannot process order (terrain-alone order gap 0.00e+00); MSS next tooth = one native operator in two
+               orders = an engine stage (mean order gap 0.185). 16 signatures pairwise-distinct (min 0.028).
+               Chirality splits into Type1/Type2 (disjoint, each internally distinct). Real oracle generators.
+               Dynamical 16/16 vs symbolic 12/16 stated honestly. Full harness 87 GREEN. scratch.
+
+UP-82 FOUNDATIONS RE-AUDIT (forced/robust/load-bearing)  foundations_reaudit_forcing_robustness_sim.py -- loop-back
+               audit of whether the root is EARNED not merely sufficient. Lane 1: complex spinor FORCED (real dim-2
+               SO(2) abelian N01 fails commutator 0; complex dim-2 SU(2) nonabelian commutator 2.828; real needs
+               dim>=3). Lane 2: dim-2 saturates + dim-8 forces on 100% of admissible grid (rf<=0.6); rf=1.0 breaks
+               it (263 open). Lane 3: MSS load-bearing at dim-8 (7 admitted 0 unforced vs presumption 9 admitted 4
+               unforced); invisible at dim-2 (floor logic). Two first-run failures were findings, fixed in the
+               measurement not the gate. Full harness 88 GREEN. scratch.
+
+UP-83 SECOND ROOT AUDIT (drive + MSS tie-break)  foundations_reaudit_drive_and_mss_tiebreak_sim.py -- Lane A: the
+               entropy-gradient DRIVE is forced (only the gradient is intrinsic + vanishes at demand-closure 0.00 +
+               tracks the room via forward-growth delta 0.082; injected drive =1.0 non-vanishing and forward delta
+               0.00 blind; scalar entropy =1.206 non-vanishing). Lane B: MSS fewest-closing tie-break load-bearing
+               at dim-8 (over-resolution 173.0 vs greedy 179.7, same closure). Two auditor catches fixed in the
+               measurement (gradient defined at the demand bar; freeze property gated on real room-tracking, not
+               self-subtraction). Full harness 89 GREEN. scratch.
+
+UP-84 THE NEXT TOOTH (stages -> 360 loop)  next_tooth_engine_stages_to_360_loop_sim.py -- single engine stages ->
+               the composed 360-degree loop, read at the spinor level. A stage has no cyclic handedness (single-op
+               loop UEUE==EUEU 0.00); MSS next tooth = a closed 4-beat 360 loop (deductive vs inductive psi
+               distance 1.138). Parity spinor-level (psi 360=-1/720=+1, rho both +1 -- density blind to tense).
+               Handedness (tense) orthogonal to chirality (invariant under eps flip). Honest correction: dropped a
+               forced opposite-sign chirality claim for the true orthogonality result. Full harness 90 GREEN. scratch.
+
+UP-85 THE 720 DOUBLE LOOP + SPINOR-LIFT AUDIT  next_tooth_720_double_loop_and_lift_audit_sim.py -- PART 1: the 720
+               double loop closes what the 360 cannot (single 360 -> -psi overlap -1 does not close; 720 double =
+               360-comp-360 -> +psi overlap +1 genuine return; tense halves distinct 1.138). PART 2 (loop-back root
+               audit): the spinor lift is FORCED not installed (NO density observable separates R(2pi)|0> from |0>,
+               max gap 2.2e-15 over 200 Hermitian obs, but psi gap 2.0; erased quotient kills the distinction
+               2.0->0.0; lift minimal 2-to-1 cover). Same claim separately z3+cvc5 verified at L2->L3. Full harness
+               91 GREEN. scratch.
+
+UP-86 THE ENGINE INTERIOR (16 kinds / 4 sub-stages / terrain 2-type ratchet)  sixteen_intelligences_substages_
+               terrain_ratchet_sim.py -- (1) 16 stages as distinct KINDS of intelligence (processing fingerprint
+               min pairwise 0.360; shuffled-operator control 0.000). (2) each stage 4 sub-stages cased by its
+               native operator (all beats effective, ordered, distinct; casing makes the two stages on a terrain
+               differ, distances 0.17-0.99). (3) 8 terrains 2 signed types: F-type preserves entropy EXACTLY (0.0),
+               T-type pinches change it (0.45/0.48); each native pair one pinch + one rotation (measured); each
+               native pinch a monotone ratchet (coherence -> 0). Two auditor catches fixed (casing param now used;
+               len==4 tautology replaced with measured effective-beat count). Full harness 92 GREEN. scratch.
+
+UP-87 THE AI OF PERCEPTION (object binding)  perception_object_binding_sim.py -- loop-back connecting the engine
+               interior to the object-formation success criteria. Binds a stream of never-seen views into objects
+               (unsupervised nearest-prototype on the re-id channel signature): real accuracy 0.792 over 48 views/
+               16 objects (chance 0.062); accuracy on NON-degenerate objects 1.000, ALL 10 misses genuine
+               degeneracies (depol eps-pairs 1<->5 + Fe proj-commuting 3<->7); shuffled control -> chance. Criterion
+               REAL: degenerate pairs at distance 0.0 (merged not hallucinated, median 0.659). Binding needs the
+               interior: real spread 0.668 vs same-kind control 0.0. Full harness 93 GREEN. scratch.
+
+UP-88 ANTI-HALLUCINATION GUARD + STAGE NECESSITY  objective_gate_integrity_sweep_sim.py -- standing guard proving
+               the three objective gates PASS real inputs AND FAIL cheats (chance-binding, zero-interior,
+               hallucinated degeneracies, non-flipping controls, memorized shuffled) + JSON non-emptiness/recompute
+               checks; ALL GATES REAL. stage_necessity_ablation_sim.py -- every non-degenerate stage does
+               irreplaceable work: scramble 10/10 and duplicate 10/10 induce new binding error; degenerate stages
+               honestly expected-null (mean|1| vs |3|). Signature-space (15s). Full harness 95 GREEN. scratch.
+
+UP-89 STAGED ENGINE RUNG 1 + 64-SCHEDULE DEFINED  type1_single_loop_axis0_sim.py -- Type 1 single deductive loop
+               (4 stages + substages) with axis-0 threaded start->readout: 4 ordered stages (perm spread 0.349 vs
+               commuting control 0.0), drive from start (1.775 vs 0.693), readout Type1 +0.00065 vs Type2 -0.00231
+               opposite signs collapsing to -0.00008 without drive. engine_64_schedule_definition_sim.py -- 16
+               stages (terrain x axis-6 sign) x 4 operators = 64; sign load-bearing 32/32 under full flow (no-drive
+               control 0/32), 64/64 distinct (single-op control -> 16). Full harness 97 GREEN. scratch.
+
+UP-90 STAGED ENGINE RUNG 2+3 + DOC-FAITHFUL CORRECTION  type1_full_engine_both_loops_sim.py -- Type-1 inductive
+               loop + both loops composed into full engine; doc-faithful canonical slots (outer {Ti,Ti,Fe,Fe},
+               inner {Fi,Te,Te,Fi} from owner attachment sec5). (A) inductive loop 4 ordered stages (min 0.591,
+               spread 0.535). (B) two loops distinct (gap 0.586, complementary ops). (C) loop-order sensitive
+               (0.582). (D) axis-0 SPINOR readout T1 -2.939 vs T2 +2.939 opposite (density signed-vol same-sign at
+               full scale -> polarity is spinor-level). type1_single_loop_axis0_sim.py v2 -- looped back to
+               doc-faithful operators + spinor readout (T1 -1.281 vs T2 +1.281). Full harness 98 GREEN. scratch.
+
+UP-90b CONTROL HARDENING (auditor)  the axis-0 spinor-readout no-drive control was g=0 (identically 0 by
+               expm(0)=I -> gate could not fail). Replaced with a REAL falsifiable control in both rung-1 and
+               rung-2+3 sims: ERASE the terrain chirality (eps->+1) while KEEPING the drive at full magnitude --
+               Type1/Type2 then read the SAME sign (separation collapses: rung1 both -1.281, full-engine both
+               -2.939). Also corrected a false ledger claim ("full-engine density both same sign" -> the density
+               signed-volume is not a stable polarity carrier, sign operator/probe-dependent). Harness 98 GREEN.
+
+UP-91 STAGED ENGINE RUNG 4 (Type-2) + NON-CIRCULAR POLARITY READOUT  type2_full_engine_both_loops_sim.py -- the
+               Type-2 RIGHT-Weyl mirror full engine, doc-faithful slots (outer inductive {Fi,Fi,Te,Te}, inner
+               deductive {Fe,Fe,Ti,Ti}). (A) both loops 4 ordered stages. (B) distinct (gap 0.502). (C) loop-order
+               sensitive (0.501). (D) polarity OPPOSITE to Type 1. AUDITOR FIX across all 3 engine sims: the spinor-
+               holonomy readout was circular (used only eps -> erase control a no-op, gate couldn't fail); replaced
+               with density signed-volume through the full flow+operators + honest controls (full-engine: flip
+               Hamiltonian chirality in the flow collapses separation; single-loop: remove GKSL flow collapses
+               polarity to ~0; both: Bloch-axis relabeling shows genuinely different channels). Harness 99 GREEN.
+
+UP-92 SOURCE-FAITHFUL SCHEDULE TABLES + FIDELITY LINTER (Packet 1)  adopted the deep-audit-55 source-faithful
+               schedule tables (16-slot chart + 64 schedule) into reference_docs/engine_math/source_schedule_tables/;
+               all four running engine loops match the source table per slot EXACTLY (independent corroboration the
+               doc-faithful reconstruction is source-correct). Built schedule_source_fidelity_linter.py: checks table
+               well-formedness + 16x4 expansion + running-sim fidelity; falsifiable control catches a corrupted
+               table. No dynamic claim (makes "64 schedule" language honest: table=candidate source-faithful,
+               dynamic distinctness separate). Harness 100 GREEN.
+
+UP-93 CR->LEV EVIDENCE ENVELOPE EMITTER  lev_qit_evidence_envelope_emitter.py -- emits a Lev-conformant
+               lev.qit_engine_perception_evidence.v1 envelope from THIS bundle's current engine results, carrying the
+               Lev host-consumer contract (evidence-only ceiling) + blocked_consumers + the deep-audit four
+               claim-language status fields. Self-validates conformance; falsifiable control: a promoting twin
+               (truth_state=canon, graph_mutation_allowed=true, promotion=earned) is rejected by the same validator.
+               Closes the CR->Lev evidence loop from my lane. Harness 101 GREEN.
+
+UP-94 UNIFIED ATTRACTOR BASIN -- 7 AXES AS LOAD-BEARING MECHANICS ON ONE ENGINE  unified_attractor_basin_seven_axes_sim.py
+               -- all 7 axes (0-6) read as dynamical witnesses from the SAME running engine, each with a falsifiable
+               erasure control collapsing ONLY that axis; source-grounded in v7 AXES_FULL_EXTRACTION with per-axis
+               geometry-contamination guards. Closes the gap where axes 1-4 were only established individually.
+               Includes a0 (via engine polarity) where the v7 symbolic matrix skips it. Plus nested-intelligence
+               layers L0 stage -> L1 loop -> L2 two-loops -> L3 two-engines, each a distinguishable object.
+               Self-fixed A0 (polarity not cumulative-move) and A6 (same-terrain collapse control) in measurement.
+               Harness 102 GREEN.
+
+UP-95 ENGINE-PAIR MATRIX -- THE TWO ENGINES TOGETHER AS ANOTHER LAYER  engine_pair_matrix_sim.py
+               -- a4-b3 independence-restoration (deep-audit Packet 4 / rung 5), tested at the COMBINATORIAL/schedule
+               level (NOT dynamical -- auditor correction). Each engine's schedule locks the traversal-order LABEL to
+               the loop-role LABEL (Type-1 -1.0, Type-2 +1.0, opposite pairings); pooled over both engines the LABEL
+               coupling cancels to 0.0 -- true by construction of the mirror schedules. Falsifiable control:
+               same-pairing twin pools to -1.0, does NOT cancel. HONEST LIMIT recorded in-sim: the genuinely
+               dynamical a4/b3 trajectory correlations (+0.55/-0.13/+0.23) do NOT reproduce the clean pattern -- only
+               partial decoupling. Harness 103 GREEN.
+
+UP-96 V7 CODEX-RATCHET CROSS-CHECK -- loop this bundle back against the v7 qit engine build  v7_codex_ratchet_crosscheck_sim.py
+               -- reads v7 qit_full_type1_type2_64_live_v1 result; checks aggregate-count agreement (64=16x4, 16+48,
+               32+32, unique-coord 64), engine mirror pairing, v7 formation cleanliness (4/4, entropy 2->0 bits), and
+               a GENUINE two-resolution consistency reading the bundle re-id LIVE (0.6875/16 w/ 3 degenerate pairs)
+               against v7's clean 4-loop result. Honest scope: aggregate-count + cardinality, NOT per-slot byte diff
+               (v7 exposes only a hash). SKIP-clean if v7 repo absent. Harness 104 GREEN.
+
+UP-97 QIT-FEP SURPRISE STREAM -- the FEP lens on the running engine  qit_fep_surprise_stream_sim.py
+               -- per-tick surprise_bits = S(observation||belief), Umegaki quantum relative entropy (bits), pure QIT
+               no classical/thermal. Time-series companion to the static FEP sims; emits the {tick, belief_bloch,
+               surprise_bits} trace Lev's cr_qit_bridge_stream_v0 evidence port consumes. Signature: predictable
+               ~0.002, regime-shift spike 2.51, relearn decay ~0. Controls: (1) belief frozen at switch -> tail 5.35
+               (learning beats frozen ~25000x); (2) no switch -> no spike. Control-bug fixed in control math not gate.
+               Harness 105 GREEN.
+
+UP-98 PERCEPTION SCORECARD four eval-admission fields + FEP stream Lev-parseable  perception_scorecard_eval_admission_sim.py
+               -- recall_ratio 0.6875 (sep 0.625), anti_key_penalty 0.0 (0/16 decoys, real self-bind 0.875),
+               attention_leak 0.3993 (shuffled 1.01), cross_node_mesh_convergence 0.75 (sep 0.6875); all on real
+               engine channels, pure instruments + CONTROL-RELATIVE eval (no picked constants -- auditor fix of the
+               0.3/0.8/0.7 thresholds). Emitter v3 populates them live, missing_for_eval_admission -> []. FEP stream
+               v2: emit full per-tick {tick,belief_bloch,surprise_bits,fe_gradient} under lev_bridge_stream.v1 header
+               (auditor fix -- was dropping them). Harness 106 GREEN.
+
+UP-99 WIN/LOSE AS KNOWN/UNKNOWN (FEP) -- one frame among others  win_lose_as_known_unknown_fep_sim.py
+               -- owner reframe: win/lose is one frame, known/unknown another (works well for FEP). (A) per-stage
+               hypothesis FALSIFIED, reported not gated (win-group 0.615 < lose-group 1.009 surprise-reduction bits;
+               tracks operator family/Axis-5, not the label). (B) method-level reframe HOLDS, gated on v7
+               bidirectional-science teeth: Type-1 tests-the-known (acc 1.0), Type-2 explores-the-unknown (acc 0.9,
+               erased->chance 0.25); win table read epistemically = confirm-vs-explore. Control: Type-2 erased must
+               be at chance. Harness 107 GREEN.
+
+UP-100 STAGE-PROBE REPAIR trajectory-sensitive re-id 16/16  engine_reidentification_objective_sim.py + v7 cross-check
+               -- root cause (measured): channel signature used SVD(A), which discards the affine map's ORIENTATION =
+               where terrain chirality (Hamiltonian eps sign) lives; the 3 degenerate pairs (t1/t5, t3/t7 chirality
+               mirrors) had SVD-dist 0.0000 but full-A dist 0.30-0.67. Fix: signature = FULL affine map A (probe-set-
+               independent to 1e-15, not endpoint-overfit). Re-id 0.6875(11/16) -> 1.000(16/16), sep 0.073->0.927, gate
+               unchanged (control-flip). v7 cross-check two-resolution check rewritten: require strong distinguishability
+               at both resolutions (not the old "fine must be degenerate"); still fails on at-chance re-id. 107 GREEN.
+
+UP-101/102 WIN/LOSE WITHDRAWN; known/unknown as testable FEP model + loop-level attractor structure
+               -- CORRECTION: no testable win/lose def exists (it is only a naming on the attractor basin); UP-99
+               withdrawn + removed from harness. UP-101 loop_uniqueness_trajectory_probe: UP-100 signature one level
+               up -- 4 loops re-identify under novel probes (real 1.000 vs shuffled 0.217) AND order carried (fwd vs
+               rev min 0.654). UP-102 known_unknown_fep_field: field U(rho)=S(rho||attractor) bits; (1) attractor is
+               the known (corr 0.98-1.00), (2) flow is surprise-descent (U->0 all 8, FEP free-energy min), (3) known
+               is specific (wrong-belief residual ~100% of gap, coincident pairs excluded). Pure QIT. 108 GREEN.
+
+UP-103 EPISTEMIC active inference (explore half) -- engine selects probe-actions by expected information gain
+               I(hidden terrain;readout)=H(b)-E[H(b|y)], resolving the unknown (pure QIT + finite belief, no reward).
+               Complements the existing pragmatic goal-planner. Prediction-first loop (v7 holodeck doctrine); uses the
+               UP-102 known/unknown field as drive. Gated: (1) resolves all 8 hidden terrains (mean 8.88 ticks, correct
+               MAP); (2) beats random actions (8.88 vs 10.83, margin grows uncensored); (3) CONTROL uninformative probe
+               leaves 1.33 bits unresolved. Precompute-once refactor: 60s timeout -> 2.8s. 109 GREEN.
+
+UP-104/105 64/64 WITHDRAWN + substage architecture discriminated -- (104) engine_64_schedule_sim: the "N01 lifts
+               to 64/64" claim was distinctness by construction (1984 excluded_trivial cells); withdrawn in code+gate;
+               now reports 11 order-blind collapse + 16/16 matched-content order-carried; 64-slot position-uniqueness
+               OPEN (v7 gap). Running a stage shows F-rotation substages do NO entropy work. (105)
+               substage_architecture_discriminator: Carnot/Szilard have 4 strokes x 2 control DOF (piston/lever), NOT
+               16 -- the 16x4 is the QIT engine's OWN structure. 3 candidates on one engine battery (close on limit
+               cycle + enclose ORIENTED net work + effective substages): engine-like={A 4-ops-at-casing, C
+               4-loop-terrains}; B piston/lever lattice FAILS oriented-work (0/6 seeds). Discriminated, not picked.
+               110 GREEN.
+
+UP-106 downstream dominance-window discriminator -- answers the tournament's handed-back question. Re-id does NOT
+               separate canonical-only (B/D) from dominant-with-subordinates (C): 16/16 all alpha. OBJECT FORMATION is
+               the separator, with a TWO-SIDED window: matches canonical (14 objects) only for alpha in [0.10,0.30],
+               over-resolves (15) at 0.05, under-resolves (12) at >=0.40. Downstream-safe window is STRICTER than
+               stage-identity window. Independently reproduced the parallel run's dominance window on our instruments.
+               111 GREEN.
+
+UP-107 dual-ratchet DEPTH: L3 floor + forced Jordan/octonion rung -- L2 (per-terrain entropy forcing) done by the v7
+               runner (U=Umegaki-to-fixed-point universal monotone pawl on all 8 terrains) and reproduced here, not
+               re-derived. L3 floor: NO forced structure below terrain x operator (native op has 31 sub-splits, U
+               micro-budget arbitrary) => that rung is the ratchet floor; engine DOFs play out on it. The predicted
+               deeper rung, built and gated: octonions (valid, Fano table) -> Jordan product (survives
+               nonassociativity) -> Hermitian octonionic matrices form a Jordan algebra ONLY n<=3 (Albert algebra
+               H_3(O); fails n=4) = INDEPENDENT forcing of the 3-qubit floor -> signed conditional entropy S(A|B)<0 on
+               entangled states (Bell -1.0). Controls flip. 113 GREEN.
+
+UP-108 exceptional Lie ratchet -- G2->F4->E6->E7->E8 as symmetry of nested structure over the octonions. DERIVED from
+               scratch: dim g2=14 (Der O), f4=52 (Der Albert), e6=78 (str = Der + 26 traceless L). G2 c F4 constructive
+               (entrywise-extended derivation, Jordan defect 9e-15) = the symmetry image of the UP-107 O->H_3(O) step.
+               E7=133/E8=248 CITED (magic square), boundary marked. Order forced by shortest-leaps-up nesting: carrier
+               -> Jordan product -> cubic form -> triple -> full. 114 GREEN.
+
+UP-109 engine division-algebra rung -- closes the UP-107 forcing link. Single-qubit su(2) IS the quaternions Im(H)
+               (Hamilton relations, defect <1e-9), so the single-qubit-per-terrain engines run on the QUATERNION rung
+               H (dim 4). Octonions (dim 8)/H_3(O) (dim 27)/F4/E6 are STRICTLY HIGHER = the next forced climb, not the
+               engines' current floor. "engines run on H_3(O)" = FALSE (4 != 27); ladder R->C(earned)->H(engines)->O(next).
+               Counting matches are correspondences not homomorphisms (O has identity, terrains do not). 115 GREEN.
+
+UP-110 upper manifold (axes 7-12) -- engines as OBJECTS in a field, read on Choi matrices (dim 16) not density states
+               (dim 4=H); home of IGT. All 8 terrain Choi valid CPTP (TP defect 5.6e-16), pairwise-distinct (min 0.52).
+               DOC CORRECTED: AXES_0_12_MASTER "strictly isomorphic A_i->A_i+6" too strong -- base Axis-1 vs mirror
+               Axis-7 Spearman rho~0.77 not 1.0; mirror is a coarser channel-kind partition (damp/depol/proj), genuine-
+               but-distinct upper level. IGT field non-trivial (Choi-distance meta-graph, depol most central);
+               exceptional algebras = field symmetry (consistent with UP-109 engines-at-H). SEED. 116 GREEN.
+
+UP-111 field symmetry classical not exceptional (honest negative) -- does the exceptional tower emerge at the qubit-
+               engine field level? NO. discrete 8-terrain metric symmetry order 4 (finite); continuous single-engine
+               Choi symmetry so(4)=su(2)+su(2) dim 6 (classical). Exceptional structure lives on the CARRIER axis
+               (H->O), NOT the MIRROR/field axis -- the two orthogonal, field does not bypass carrier. Locates the
+               tower correctly; disciplines the "exceptional at field level" intuition. 117 GREEN.
+
+UP-112 octonion fork not forced (honest closure) -- H->O is an unforced observable-side FORK, not a forced rung.
+               3-qubit M_8(C) associative (no force); H noncommutative AND associative (N01 no force); fork basins
+               {H} (assoc required) vs {H,O} (not required), both consistent with {F01,N01}. Reproduces the owner's
+               3-model-panel-cleared doc finding "nonassociativity is INSTALLED not forced"; corroborated 3rd time by
+               codex albert_stress + Grok 4.5. Range map: H forced (engines); O/Albert/F4/E6 live-not-forced;
+               Clifford associative/{H}. To earn O: need a grouping(T01)-load-bearing demand; none present. 118 GREEN.
+
+UP-113 T01 grouping-demand search (closes octonion arc) -- H is the CEILING for present engines. Exhaustive over stage-
+               combining ops: (1) channel composition ASSOCIATIVE (1.3e-16, the engine's real op); (2) Jordan product
+               nonassoc (0.07) but not used to compose; (3) Lie/field bracket nonassoc (0.28) but OBEYS Jacobi (2.2e-16)
+               -> Lie (so(4), UP-111), not octonionic. Jacobi discriminator: octonions fail Jacobi (Moufang); matrix
+               commutators always obey it -> stay classical. No octonionic (non-Jacobi) T01 in the mechanics -> earning
+               O needs a NEW non-Lie non-Jacobi combination, absent as built. Octonion tower stays live-but-unforced.
+               119 GREEN.
+
+UP-114 Axis-0 entropy gradient end-to-end on the engine pair -- closes the biggest unbuilt engine seam. Earned gradient
+               (available - resolved distinguishability) run on the full Type-1+Type-2 720 loop, start AND end. Absolute
+               gap relaxes 0.458->0.016 BUT mostly CONTRACTION (honest correction: pure depol closes it too, not a clean
+               vanishing-gradient claim). Contraction-free signal = scale-invariant unresolved fraction 0.05->0.07:
+               engine resolves ~93-95% of the room throughout (near-complete resolution). Controls: 1-probe 0.53 (bases
+               matter), N01 shuffle 0.068 (order-insensitive at density), chirality-erase 0.083 (chirality load-bearing).
+               120 GREEN.
+
+UP-115 Clifford/Hopf/Weyl processed one by one + grand-synthesis placement -- WEYL (spinor+chirality+complex Hopf
+               S^3->S^2) FORCED; exceptional Weyl polytopes UNFORCED-branch. CLIFFORD (key negative): Pauli=Cl_3 FORCED
+               at operator level BUT ASSOCIATIVE -> {H} branch, cannot carry octonionic nonassoc. HOPF: complex FORCED,
+               quaternionic available-not-engine, octonionic UNFORCED fork; Adams -> stops at O. GRAND SYNTHESIS
+               (entropy=topology, Albert algebra, E6->F4 arrow): only forced anchor is the Umegaki monotone pawl
+               (0.111->0.021); entropy=Atiyah-Singer is an ANSATZ, F4/E6/27/3-gen on the UNFORCED {H,O} branch -> real
+               established math (Connes NCG + exceptional Jordan) but NOT earned by {F01,N01}. 121 GREEN.
+
+UP-116 Holism does NOT force octonions -- tested the grand-synthesis physics attachments' load-bearing claim
+               (time-arrow=E6->F4, dark energy/matter=+/-entropy, core-cusp from non-associativity, all resting on
+               "non-associativity -> holism forces O"). NEGATIVE: non-factorizable entropy (holism) is ALREADY in
+               ASSOCIATIVE multipartite QM (GHZ S_whole=0/S_party=1, W state; M_8(C) associative defect 3e-14). The
+               attachments conflate non-factorizable ENTROPY (associative holism) with non-associative ALGEBRA
+               (octonions). FAIR/CONSTRUCTIVE: the correct forcing demand is a non-special 3-level observable
+               (octonionic qutrit; H_3(O) unique exceptional per Jordan-vNW 1934) -- absent from qubit engines.
+               DE/DM/core-cusp physics rest on associative holism; fork stays unforced. 122 GREEN.
+
+UP-117 Non-associative CA as a CONSTRUCTIBLE (not forced) T01 mechanism + tensor-product-failure sharpening -- credits
+               two attachments. (1) exceptional-Jordan tensor-product FAILURE (Hanche-Olsen) is the correct non-
+               factorizability (distinct from UP-116 associative holism); COMPUTED Jordan-identity ladder (n<=3 hold
+               9e-15/2e-13, n=4 fails 8.8e2) + engine factorization (rank (1,1,1)) -> demand still ABSENT. (2) octonion
+               CA update makes neighbor-GROUPING load-bearing over time (LEFT vs RIGHT bracket diverge to 1.447;
+               associative quaternion control collapses to 5.6e-15) -> constructible+running T01 mechanism, INSTALLED
+               not forced. Grand synthesis CONDITIONAL on a forced non-associative demand: buildable, absent in forced
+               ratchet. Gate all four legs COMPUTED (auditor-hardened; earlier draft hardcoded two legs True). 123 GREEN.
