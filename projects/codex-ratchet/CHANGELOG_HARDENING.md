@@ -1340,3 +1340,10 @@ UP-128 Loop-back audit correction (codex sol-5.6 cross-check of L5/L6/L7). Repro
                (3) ledger L2.1 normalization: holonomy -2pi cos^2(eta), flux -pi(cos2eta_i-cos2eta_j) (was too large by
                -2, ratio -1/2, matches codex). Survivors: L7 -pi rectangle holonomy, Umegaki modular identity, BKM=
                Hessian, CPTP contraction. Open (accepted): UP-121/UP-122 forcing/uniqueness are semantic overclaims.
+
+UP-129 Loop-order instrument repair (v7 t2_order_carried seed-fragility). New sim t2_order_carried_sindy_library_
+               repair. Two instrument defects, neither in model physics: (A) v7 gate unordered<=self_null is ill-posed
+               (loops use different operators, so not byte-identical up to perm; passes deg1 0/8 deg2 1/8), (B) deg-2
+               poly library over-fits the affine GKSL flow (phantom quadratics). Repaired gate = ordered/unordered
+               RATIO under deg-1 library: seed-robust 8/8, ratio_min 5.2e4, same perm (1,4,3,2) every seed = inner->
+               outer terrain reorder. The two Type-2 loops ARE the same terrains reversed; order-carry real. 134 GREEN.
