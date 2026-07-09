@@ -1318,3 +1318,16 @@ UP-125 Manifold spine L7: the shell connection -- loops the foundations forward 
                (analytic 1e-6); shell-difference = ledger L2.1 flux, derived not posited. (2) NON-INTEGRABLE: closed
                (phi,eta)-loop transport returns net -pi != 0 -> real curvature, gauge-invariant. (3) Cross-shell:
                self-flux 0; erase-nesting -> holonomy 0. Weyl chirality = SIGN of this holonomy (later object). 131 GREEN.
+
+UP-126 Aperiodic order (Penrose + E8): REAL, constructible, NOT forced -- processes the Penrose/E8 half of the
+               discrete-spacetime attachment (UP-117 built the CA half). E8: 240 roots (=h*rank=30*8), all norm^2=2;
+               DISCRIMINATING leg -- same Jacobi detector reads E8 bracket ~0 (Lie) vs octonion Im(O) >>0 (Malcev,
+               UP-118), so E8 is on the associative side, not the forced non-Jacobi demand. Penrose: cut-and-project
+               Z^5->2D, 10-fold diffraction 0.99 (FORBIDDEN for periodic); controls square 4-fold 1.00/10-fold 0.14,
+               hex 6-fold 0.87/10-fold 0.12. Both LIVE-BUT-UNFORCED (E8 Lie; Penrose installed 5-fold). Closes attachment.
+UP-127 Manifold spine L8: the global bundle -- loops foundations forward (L1-L7 built). Nests on L7+L3. L7 gave the
+               connection locally; L8 adds the GLOBAL object. (1) Total flux over the closed shell family (Bloch
+               2-sphere) is QUANTIZED: Chern = 1.0000 (int err 2e-6) via Fukui-Hatsugai-Suzuki -> nontrivial Chern-1
+               line bundle, flux is topological. (2) Chern SIGN = chirality winding: orientation reversal flips 1 -> -1;
+               the L7 holonomy sign deferred as "Weyl chirality" IS this +/-1 winding -> two engine chiralities = two
+               signs of one invariant. Control: trivial section Chern 0. Top of the earned geometric spine. 133 GREEN.
