@@ -78,21 +78,21 @@ def main():
     for t in cover:
         ar,_,stt=araki(t,ref)
         if stt=="finite": tmax=max(tmax,abs(ar-umegaki(t,ref)))
-    g_terrain=bool(tmax<1e-10)
+    g_coverage=bool(tmax<1e-10)
     # controls
     Dsw=Lm(rho)@np.linalg.inv(Rm(sig)); xi=vec(sqrtm(rho))
     asw=-float(np.real(np.vdot(xi,logm(Dsw)@xi)))
     g_swap=bool(abs(asw-kl)>1e-3)
     _,_,st_sing=araki(np.diag([0.6,0.4]).astype(complex), np.diag([1.0,0.0]).astype(complex))
     g_singular=bool(st_sing=="ill_defined_singular_sigma")
-    verdict=bool(g_classical and g_quantum and g_terrain and g_swap and g_singular)
+    verdict=bool(g_classical and g_quantum and g_coverage and g_swap and g_singular)
     out={"classification":"scratch_diagnostic","promotion_allowed":False,"branch":"forced_side_consistency",
          "reproduces":"system_v7/constraint_core/sims_and_scripts/araki_modular_umegaki_crosscheck_sim.py (codex-ratchet)",
          "identity":"S(rho||sigma) = -<vec(sqrt(rho)), log(L_sigma R_rho^{-1}) vec(sqrt(rho))> = Umegaki relative entropy = finite Tomita-Takesaki",
          "classical_gate":{"araki":a,"kl":kl,"abs_diff":abs(a-kl),"delta_eigenvalues":list(eig),"pass":g_classical},
          "quantum_noncommuting_gate":{"max_abs_araki_minus_umegaki":qmax,"n_pairs":12,"pass":g_quantum,
              "note":"the real content -- the modular identity holds for NON-commuting rho,sigma, not just the classical/diagonal (KL) case"},
-         "bloch_ball_coverage_gate":{"max_abs_modular_minus_umegaki":tmax,"n_density_matrices":len(cover),"pass":g_terrain,
+         "bloch_ball_coverage_gate":{"max_abs_modular_minus_umegaki":tmax,"n_density_matrices":len(cover),"pass":g_coverage,
              "note":"coverage check over representative density matrices spanning the Bloch ball (an inline set, NOT the engine's actual terrain fixed points); confirms the identity across the state space, not a terrain-provenance claim"},
          "controls":{"swapped_delta_mismatch":abs(asw-kl),"swapped_nonmatching":g_swap,
              "singular_sigma_status":st_sing,"singular_flagged_ill_defined":g_singular},
@@ -103,12 +103,12 @@ def main():
     print(f"  identity: S(rho||sigma) = -<vec(sqrt rho), log(L_sigma R_rho^-1) vec(sqrt rho)>  (finite Tomita-Takesaki)")
     print(f"  CLASSICAL gate: araki {a:.15f} == KL {kl:.15f} (abs diff {abs(a-kl):.1e}); Delta eigs {list(np.round(eig,4))} -> {g_classical}")
     print(f"  QUANTUM (non-commuting) gate: max |araki - Umegaki| over 12 random pairs = {qmax:.1e} -> {g_quantum} (the real content)")
-    print(f"  BLOCH-ball coverage gate: max |modular - Umegaki| over {len(cover)} density matrices = {tmax:.1e} -> {g_terrain}")
+    print(f"  BLOCH-ball coverage gate: max |modular - Umegaki| over {len(cover)} density matrices = {tmax:.1e} -> {g_coverage}")
     print(f"  CONTROL swapped-delta: mismatch from KL {abs(asw-kl):.4f} (nonmatching {g_swap})")
     print(f"  CONTROL singular sigma: {st_sing} (flagged ill-defined {g_singular})")
     print(f"\n  PLACEMENT: FORCED-side consistency -- the forced Umegaki pawl IS finite modular theory, connecting to the")
     print(f"  surface-identity (BKM / Connes-Rovelli thermal-time) work. No new forcing; internal consistency tightened.")
-    print(f"\n  VERDICT: {'PASS' if verdict else 'FAIL'} (classical + non-commuting quantum + terrain agreement + both controls)")
+    print(f"\n  VERDICT: {'PASS' if verdict else 'FAIL'} (classical + non-commuting quantum + Bloch-ball coverage + both controls)")
     if verdict: print("PASS umegaki_pawl_is_finite_modular_theory")
     print("ALL_GATES:","PASS" if verdict else "FAIL","->",path)
     sys.exit(0 if verdict else 1)
