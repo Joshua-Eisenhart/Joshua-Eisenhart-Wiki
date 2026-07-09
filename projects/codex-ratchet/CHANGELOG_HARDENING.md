@@ -1223,3 +1223,11 @@ UP-114 Axis-0 entropy gradient end-to-end on the engine pair -- closes the bigge
                engine resolves ~93-95% of the room throughout (near-complete resolution). Controls: 1-probe 0.53 (bases
                matter), N01 shuffle 0.068 (order-insensitive at density), chirality-erase 0.083 (chirality load-bearing).
                120 GREEN.
+
+UP-115 Clifford/Hopf/Weyl processed one by one + grand-synthesis placement -- WEYL (spinor+chirality+complex Hopf
+               S^3->S^2) FORCED; exceptional Weyl polytopes UNFORCED-branch. CLIFFORD (key negative): Pauli=Cl_3 FORCED
+               at operator level BUT ASSOCIATIVE -> {H} branch, cannot carry octonionic nonassoc. HOPF: complex FORCED,
+               quaternionic available-not-engine, octonionic UNFORCED fork; Adams -> stops at O. GRAND SYNTHESIS
+               (entropy=topology, Albert algebra, E6->F4 arrow): only forced anchor is the Umegaki monotone pawl
+               (0.111->0.021); entropy=Atiyah-Singer is an ANSATZ, F4/E6/27/3-gen on the UNFORCED {H,O} branch -> real
+               established math (Connes NCG + exceptional Jordan) but NOT earned by {F01,N01}. 121 GREEN.
