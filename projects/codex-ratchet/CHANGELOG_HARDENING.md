@@ -1240,3 +1240,12 @@ UP-116 Holism does NOT force octonions -- tested the grand-synthesis physics att
                (octonions). FAIR/CONSTRUCTIVE: the correct forcing demand is a non-special 3-level observable
                (octonionic qutrit; H_3(O) unique exceptional per Jordan-vNW 1934) -- absent from qubit engines.
                DE/DM/core-cusp physics rest on associative holism; fork stays unforced. 122 GREEN.
+
+UP-117 Non-associative CA as a CONSTRUCTIBLE (not forced) T01 mechanism + tensor-product-failure sharpening -- credits
+               two attachments. (1) exceptional-Jordan tensor-product FAILURE (Hanche-Olsen) is the correct non-
+               factorizability (distinct from UP-116 associative holism); COMPUTED Jordan-identity ladder (n<=3 hold
+               9e-15/2e-13, n=4 fails 8.8e2) + engine factorization (rank (1,1,1)) -> demand still ABSENT. (2) octonion
+               CA update makes neighbor-GROUPING load-bearing over time (LEFT vs RIGHT bracket diverge to 1.447;
+               associative quaternion control collapses to 5.6e-15) -> constructible+running T01 mechanism, INSTALLED
+               not forced. Grand synthesis CONDITIONAL on a forced non-associative demand: buildable, absent in forced
+               ratchet. Gate all four legs COMPUTED (auditor-hardened; earlier draft hardcoded two legs True). 123 GREEN.
