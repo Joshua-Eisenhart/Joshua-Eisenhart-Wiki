@@ -1280,3 +1280,13 @@ UP-120 The Umegaki pawl IS finite modular theory -- FORCED-side consistency, pro
                forced pawl to the surface-identity (BKM / Connes-Rovelli thermal-time) work -- forced anchor and
                thermal-time surface identity are one modular object. No new forcing; internal consistency tightened.
                126 GREEN.
+
+UP-121 Petz/DPI FORCES the pawl -- structural justification of UP-107/120, processing codex petz_recovery_
+               reversibility_census + petz_quasi_entropy_pawl_census independently. (1) DATA-PROCESSING INEQUALITY:
+               S(N rho||N sig)<=S(rho||sig) under any CPTP channel (0 violations/200 pairs) -> relative entropy cannot
+               rise under the dissipative terrain flow, so it is automatically a pawl (Lindblad/Uhlmann). (2) EQUALITY
+               <=>PETZ RECOVERY: DPI tight (DeltaS=0) exactly when the Petz map reverses the channel -- pearson(DeltaS
+               ==0, recovery-exact)=1.0 (unitary reversible, dissipative not). (3) UMEGAKI IN A FORCED FAMILY: every
+               operator-convex f with f(1)=0 gives a monotone quasi-entropy; all 4 members pawl uniformly to 0 --
+               Umegaki is ONE member, not hand-picked. Control: wrong foreign fixed point does not pawl. FORCED-side
+               foundations; the pawl is forced by DPI, not chosen. 127 GREEN.
