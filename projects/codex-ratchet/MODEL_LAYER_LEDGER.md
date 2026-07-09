@@ -2878,3 +2878,27 @@ same-content-after-permutation claim is NOT made and stays FAILED per codex. Doc
 and 135-GREEN verdict unchanged. ALSO verified (codex flagged PySINDy env-sensitivity, R^2 0.857->-42.5 across envs):
 my degree-1 repair gives R^2=1.000000 stable across repeated runs precisely because the affine library is the correctly
 -specified model -- environment-robust where a marginal high-degree fit is not. This is a second argument for the repair.
+
+## Post-UP-130 controlling audit -- packet 97 correction (2026-07-09)
+
+The preceding UP-129 and UP-130 entries are preserved as packet provenance,
+but their promotion language is superseded by a source-locked Codex-Ratchet
+audit. A fresh isolated packet run really is `135/0/0`; that execution fact
+survives. The scientific conclusions do not.
+
+- UP-129 still passes when all operators are replaced by identity. It recovers
+  a toy four-terrain position order, not operator-carried Type-2 equivalence.
+- UP-130's `both_directions` predicate requires two `A` and two `B` symbols and
+  therefore fixes length four before scanning. Its advertised quarter-turns
+  are Bloch half-turns; the adjoint maps commute and preserve entropy; its
+  controls are confounded; `ABAB/BABA` are one cyclic orbit.
+- A replacement Julia/JAX scout independently recovers four operator cells as
+  the conditional product `2 Pauli/Bloch axes x 2 channel families`, whose MSS
+  graph is one square cycle modulo reversal. This is `scratch_diagnostic`, not
+  four sequential substages per source stage.
+
+Controlling route:
+[[projects/codex-ratchet/packet-97-up129-up130-audit-2026-07-09]].
+
+Current state: the four-cell structural prerequisite passes; the bridge to a
+fixed-sign sequential `16 x 4` engine remains open.

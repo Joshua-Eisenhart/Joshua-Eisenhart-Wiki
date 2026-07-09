@@ -82,6 +82,12 @@ The learned layer proposes. It never grants authority to itself.
   proposed 16 x 4 expansion.
 - Parse one declared source into exactly 16 macro-stages and 64 proposed
   operator transitions.
+- Preserve `four_substages_dual_product_v0` as a passing conditional
+  prerequisite: it recovers four source operator cells and one MSS square
+  cycle, but it does not establish sequential stage dynamics.
+- Reject packet UP-130 as a derivation and keep UP-129 at the terrain-position
+  ceiling recorded in
+  [[projects/codex-ratchet/packet-97-up129-up130-audit-2026-07-09]].
 - Build `engine_16x4_fixed_axis6_sequential_v0`: run all four exact operators
   sequentially inside every source slot while holding that slot's precedence
   sign fixed.

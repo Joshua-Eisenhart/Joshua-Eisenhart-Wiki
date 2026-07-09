@@ -13,6 +13,9 @@ The exact current statement is:
   not yet earned.
 - **Four exact operator channels per signed terrain:** real as a hard-coded
   candidate expansion and as independently executed finite channels.
+- **Four operator cells as a conditional product:** real as an independently
+  reproduced `2 operator axes x 2 channel families` square. This is a
+  structural quotient, not yet a sequential engine interior.
 - **Four sequential substages per source position:** not yet derived. They must
   emerge from independent geometry and entropy ratchets; the shared Axis-6
   sign is inherited only after the survivor classes are earned.
@@ -25,6 +28,9 @@ audit/router, not a proof or admission surface.
 
 Primary repo audit:
 `/Users/joshuaeisenhart/Codex-Ratchet/system_v5/ops/CLAUDE_SCIENCE_94_95_ENGINE_STATE_AUDIT_20260709.md`.
+
+Packet 97 correction:
+[[projects/codex-ratchet/packet-97-up129-up130-audit-2026-07-09]].
 
 ## Why Earlier Results Appeared To Agree
 
@@ -161,27 +167,48 @@ also stay separate until an explicit equivalence test joins them.
 - Their new Penrose/E8, L7, and L8 probes are constructible finite research;
   they do not force aperiodic order, manifold closure, or engine chirality.
 
+## Claude Science 97: Green Runner, Failed Claims
+
+Packet `97.zip` passes a fresh isolated runner at `135/0/0`. That execution
+fact survives. Its two new scientific promotions do not.
+
+- UP-129 recovers a four-position toy terrain ordering, but the Type-2 loops
+  do not contain the same operator tuples, and erasing all operators still
+  passes more strongly. It is not operator-carried order.
+- UP-130 fixes length four in its own count predicate, uses commuting
+  entropy-preserving maps, and calls one cyclic orbit two chiralities. A
+  source-locked Ratchet falsifier rejects its derivation.
+- Both packet sources also fail the current sim-contract lint.
+
+A replacement Julia/JAX scout earns a smaller result: conditional on the
+source's two Pauli/Bloch operator axes, two channel families, complete cell
+coverage, and one-coordinate MSS movement, the four operator cells form one
+square cycle modulo reversal. It does not bind that square to the 16 stage
+slots or establish sequential dynamics.
+
 ## Exact Next Experiment: Dual-Ratchet Emergence
 
 Build `engine_dual_ratchet_substage_emergence_v0`:
 
-1. Parse the 16 source positions without a duplicate schedule or injected
+1. Treat the passing four-cell product square as a conditional prerequisite,
+   not the target result.
+2. Parse the 16 source positions without a duplicate schedule or injected
    four-count.
-2. Generate a candidate superset of admissible terrain/operator/order/side
+3. Generate a candidate superset of admissible terrain/operator/order/side
    maps.
-3. Run the geometry ratchet and entropy ratchet independently.
-4. Intersect their survivor ledgers and require the same four minimal
+4. Run the geometry ratchet and entropy ratchet independently.
+5. Intersect their survivor ledgers and require the same four minimal
    equivalence classes under both `E_then_G` and `G_then_E`, across seeds and
    candidate enumeration order. Four must be an output, not an input.
-5. Only then compose the survivors sequentially under one inherited Axis-6
+6. Only then compose the survivors sequentially under one inherited Axis-6
    sign per macro stage.
-6. Record exact superoperator or Choi fingerprints and run reverse,
+7. Record exact superoperator or Choi fingerprints and run reverse,
    one-survivor removal, duplicate-survivor, sign-flip, terrain-identity,
    native-only, non-native, and order-erasure controls.
-7. Compare Type-1 and Type-2 under equal information and compute budgets, then
+8. Compare Type-1 and Type-2 under equal information and compute budgets, then
    require a held-out task or object metric to fall when each claimed substage
    is removed. Distinction without work is not teeth.
-8. Pin dependencies and pass classification, authority-manifest, depth,
+9. Pin dependencies and pass classification, authority-manifest, depth,
    provenance, and result-contract lint.
 
 If that passes, the earned claim is narrow but meaningful: **proper dual
@@ -193,6 +220,7 @@ MMM authority, and ontology writing remain separate gates.
 ## Routes
 
 - [[projects/codex-ratchet/current-research-frontier-2026-07-09]]
+- [[projects/codex-ratchet/packet-97-up129-up130-audit-2026-07-09]]
 - [[projects/codex-ratchet/qit-lev-operationalization-plan-2026-07-09]]
 - [[projects/codex-ratchet/external-86-v84-92-foundations-engine-audit-receipt-2026-07-09]]
 - [[projects/codex-ratchet/qit-dual-ratchet-engine-teeth-audit-2026-07-07]]

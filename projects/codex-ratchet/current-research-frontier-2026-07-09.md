@@ -12,6 +12,7 @@ Source authority:
 - branch at intake: `session/r0-three-engine-probes`;
 - pre-sync head: `a703e0febdc1fdc5f9f49732bc723d4670823ee0`;
 - current packet audit: [[projects/codex-ratchet/external-86-v84-92-foundations-engine-audit-receipt-2026-07-09]];
+- packet 97 claim audit: [[projects/codex-ratchet/packet-97-up129-up130-audit-2026-07-09]];
 - exact 16 x 4 / Axis-6 state: [[projects/codex-ratchet/engine-16x4-axis6-current-state-2026-07-09]];
 - external math synthesis: [[concepts/dual-ratchet-geometry-entropy-jordan-research-2026-07-09]];
 - source register: [[projects/codex-ratchet/source-intake/dual-ratchet-math-article-register-2026-07-09]];
@@ -29,6 +30,8 @@ Real bounded machinery exists:
   re-identify on a fresh stranger seed;
 - 64 terrain/sign/operator channels are independently distinguishable under
   one bounded flow and probe battery;
+- the source operator table conditionally forms a four-cell product square,
+  independently reproduced in Julia and JAX;
 - ordered schedules form four finite object cards and collapse under erasure controls;
 - five partial projection families can reconstruct those objects above chance;
 - bounded Type-1 and Type-2 science-method orders behave differently;
@@ -40,6 +43,8 @@ The stronger system is not earned:
 - the stranger-seed Type-2 content-equivalence criterion failed;
 - no current sim combines the sequential four-operator interior with one fixed
   source-slot Axis-6 sign;
+- packet UP-130 does not derive four: it fixes the count in its predicate and
+  runs no entropy gradient;
 - only 10 of the 16 necessity rows are nondegenerate;
 - 64 ordered microsteps are not 64 independent personalities;
 - current learning is a bounded readout, not self-improving engine dynamics;
@@ -52,11 +57,12 @@ The stronger system is not earned:
 | Surface | What ran | Current reading | Ceiling |
 |---|---|---|---|
 | Package process | fresh isolated `95.zip` harness, `133/0/0`; 1q/3q NumPy oracle vs JAX/PyTorch/Julia green | real broad local execution with retained report hash `40f5f206...`; one v7 check consumed a pre-existing result because its producer is ordered later, then passed when rerun after the producer | passes local rerun, not clean-checkout dependency closure; green process is not scientific admission |
+| Packet 97 process | fresh isolated `97.zip` harness, `135/0/0` | the packet runner genuinely passes; both new sources fail active contract lint and both promoted meanings fail controls | passes local rerun only; runner green does not admit UP-129 or UP-130 |
 | Dual-engine loop | 300-tick NumPy/JAX/PyTorch/Julia replay | real loop, sheet divergence, different memory traces | scratch diagnostic; not cognition |
 | Runtime closure | actions update the next belief prediction while world outcomes remain fixture-driven; declared shifts at ticks 100 and 200 were not jointly detected within 8 ticks | useful replay harness, not a closed agent/world loop | adaptive-perception and causal-action claims blocked |
 | Stage identity | fresh stranger-seed full-affine re-identification `16/16`; SVD proxy `7/16` | the proxy set `8 terrains x 2 selected/native operators` carries noncollapsed affine information | not re-identification of the 16 signed source slots; multi-seed census still needed |
-| 16 x 4 / Axis-6 | source linter passes; one-step channel scout gives 64/64 finite signatures; separate four-beat scout moves at all beats | table shape, finite precedence sensitivity, and a sequential candidate are real | no single source-faithful fixed-sign sequential sim; necessity and useful task families open |
-| Type-2 order | ordered distance `0.89447`; unordered `0.0004859` above null `0.0003245` | order is load-bearing; stronger same-content-after-permutation claim failed | preserve FAIL; do not claim two loops differ only by order |
+| 16 x 4 / Axis-6 | source linter passes; one-step channel scout gives 64/64 finite signatures; separate four-beat scout moves at all beats; Julia/JAX recover a conditional four-cell product square | table shape, finite precedence sensitivity, a sequential candidate, and a structural operator quotient are real | no single source-faithful fixed-sign sequential sim; product-square result does not bind four beats to 16 stages |
+| Type-2 order | ordered distance `0.89447`; unordered `0.0004859` above null `0.0003245`; packet 97 terrain-position ratio passes even with every operator erased | some finite schedules are order-sensitive; UP-129 adds a toy terrain-position diagnostic only | preserve same-content failure; do not claim operator-carried equivalence or two loops differing only by order |
 | 64 object scout | four ordered loop objects, ordered accuracy `1.0`; erasure controls collapse | finite order-dependent object formation exists | authored finite atlas, not production objecthood |
 | Projection battery | held-out mean `0.9`; bag/view erased `0.25` | one root object can survive several partial views | finite four-object carrier, not MMM or ontology authority |
 | Bidirectional science | Type-1 `1.0`; Type-2 `0.9`; 18 shared wins, 2 Type-1-only | two bounded method orders differ on the same object cards | no autonomous discovery or universal method claim |
@@ -81,8 +87,12 @@ Read these in order:
 6. [[projects/codex-ratchet/qit-bidirectional-science-type1-type2-v0-receipt-2026-07-07]]
 7. [[projects/codex-ratchet/external-86-v84-92-foundations-engine-audit-receipt-2026-07-09]]
 8. [[projects/codex-ratchet/engine-16x4-axis6-current-state-2026-07-09]]
+9. [[projects/codex-ratchet/packet-97-up129-up130-audit-2026-07-09]]
 
-The controlling correction is the last receipt. Earlier pages show real construction and local reruns, but the stranger-seed Type-2 failure prevents the clean story that the two methods have identical contents in a different order.
+The controlling corrections are the last two receipts. Earlier pages show real
+construction and local reruns, but the stranger-seed Type-2 failure and the
+packet 97 operator-erasure control prevent the clean story that the two methods
+have identical operator contents in a different order.
 
 The focused 16 x 4 page adds a second controlling distinction: source-chart
 positions, proxy fingerprints, and the proposed signed 64-row expansion are
@@ -96,6 +106,12 @@ does not support treating the current four-substage count as already derived.
 The correct bridge is a dual-ratchet emergence test: geometry and entropy must
 independently emit the same minimal survivor classes before the engine schedule
 can claim them.
+
+Packet 97 does not close that bridge. UP-130's four-count is circular and its
+maps commute without entropy change. The replacement product-square scout
+shows why four operator classes are structurally plausible under explicit
+premises; it does not show that four sequential substages emerge inside every
+source stage.
 
 Two additional boundaries control the engine reading:
 
@@ -259,6 +275,12 @@ These corrections control older broad summaries:
 12. Packets 94 and 95 originally contained no `run_all_report.json`. Packet 95
     now has a retained isolated local receipt at `133/0/0`; this raises process
     evidence to `passes local rerun` but does not promote any scientific claim.
+13. Packet 97 passes a fresh isolated runner at `135/0/0`, but UP-129 remains a
+    terrain-position diagnostic because operator erasure still passes.
+14. UP-130 is rejected: its predicate preselects length four, its maps commute
+    and preserve entropy, and `ABAB/BABA` are one cyclic orbit.
+15. The replacement `K2 box K2 = C4` result is a conditional operator-product
+    theorem, not a proof of four sequential substages in each of 16 stages.
 
 ## Is The System Possible?
 

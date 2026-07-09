@@ -1354,3 +1354,13 @@ UP-130 "4 substages" DERIVED from dual-ratchet closure (owner directive). New si
                flip one gate (AB fails close; AAAA closes but non-alternating -> closure alone insufficient; half-leg
                fails). Gate(3) PARSES engine_16_source_stage_slots.json (substages/loop=4), not hardcoded. 4 = 2 axes
                x 2 directions = Carnot 4-stroke (rosetta). Closes the substage-count open item. 135 GREEN.
+
+POST-UP-130 AUDIT Packet 97 correction (2026-07-09). Fresh isolated execution preserves `135 pass / 0 fail / 0 skip`,
+               but source-locked controls reject both promoted meanings. UP-129 passes more strongly after all
+               operators are erased, so it is a four-terrain position diagnostic, not operator-carried Type-2
+               equivalence. UP-130 fixes length four through `count(A)==2 && count(B)==2`; its Pauli adjoint maps
+               commute and preserve entropy, its controls are confounded, and ABAB/BABA are one cyclic orbit. The
+               replacement Julia/JAX scout earns only a conditional four-cell product square (`2 operator axes x 2
+               channel families`, one cycle modulo reversal). It does not derive four sequential substages in each
+               of 16 source stages. Controlling wiki receipt:
+               [[projects/codex-ratchet/packet-97-up129-up130-audit-2026-07-09]].

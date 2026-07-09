@@ -1,6 +1,6 @@
 # Codex Ratchet Wiki — Index
 
-Total published pages: 497. Governance/read-first surfaces are listed separately. Restructured 2026-04-17 (stabilization pass).
+Total published pages: 498. Governance/read-first surfaces are listed separately. Restructured 2026-04-17 (stabilization pass).
 
 ## Hermes / LLM Alignment Front Door
 - [[hermes-current/read-first]] — Hermes front door; load this before substantive work
@@ -16,6 +16,7 @@ Total published pages: 497. Governance/read-first surfaces are listed separately
 - [[projects/codex-ratchet/read-first]] — Codex Ratchet project front door after Hermes spine
 - [[projects/codex-ratchet/current-research-frontier-2026-07-09]] — current July engine/object/math/Lev research digest, falsifiers, and claim ceilings
 - [[projects/codex-ratchet/engine-16x4-axis6-current-state-2026-07-09]] — exact current state and missing conjunction for the 16 source slots, fixed-sign four-substage interior, two engine types, and four loops
+- [[projects/codex-ratchet/packet-97-up129-up130-audit-2026-07-09]] — fresh `135/0/0` packet receipt, UP-129/UP-130 claim correction, and conditional four-cell product-square ceiling
 - [[concepts/dual-ratchet-geometry-entropy-jordan-research-2026-07-09]] — article-backed geometry/entropy dual-ratchet and Jordan/octonion research synthesis
 - [[projects/codex-ratchet/source-intake/dual-ratchet-math-article-register-2026-07-09]] — primary-source article register and project translation boundaries
 - [[projects/wiki-cleanup-and-authority-boundary-2026-07-09]] — wiki-only-document boundary and source/runtime authority split
