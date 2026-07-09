@@ -933,3 +933,14 @@ UP-75 OBJECT-FORMATION SCORECARD  engine_object_formation_scorecard_sim.py compo
                NOT policy requiredControls). Loss reported not gated -- the structural fix for the UP-72b/72c
                gate-tuning cascade. Result: conv_loss 1.562, handling_loss 0.143, both controls flip. Full harness
                81 pass/0/0 GREEN. scratch.
+
+# EXCEPTIONAL MATH ROUND WIKI DIGEST - 2026-07-08
+
+WIKI-2026-07-08  Added [[projects/codex-ratchet/exceptional-math-round-2026-07-08]] and
+                 [[projects/codex-ratchet/fabrication-modes-catalog]]. The digest records the audited ceiling:
+                 exceptional statics, cone-menu pawl uniformity, Alfsen-Shultz 26/26 dynamical deficit,
+                 Spin9/Spin7/G2/SU3xSU3 rank chains, Malcev-named H-ceiling, and Petz recovery structure
+                 survive at scratch/local-rerun level; Jordan v2 is refuted; Jordan v3 is block-scalar and
+                 associatively reducible; the octonion dynamics leg remains unearned after three attempts.
+                 Also patched the J2(O) receipt to carry the `9eafe5a63` retroactive demotion. No Axis0,
+                 bridge, manifold, physics, runtime, or nonassociative DPI theorem admission.
