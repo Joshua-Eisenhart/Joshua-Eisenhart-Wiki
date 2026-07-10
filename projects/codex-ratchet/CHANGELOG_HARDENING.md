@@ -1394,3 +1394,9 @@ UP-136 physics loops back into the core. New sim physics_loops_back_into_core_ax
                Exposes open fork b1 frozen-today (0.90, matches, phenomenological) vs b2 de Sitter (0.76, explains
                constancy, low), related by exact b2=b1*sqrt(OL); recorded not resolved, falsifiable in OL. Also:
                octonion table oracle-verified basis-independently (Hurwitz/alternative/nonassoc). 141 GREEN.
+
+UP-137 field of engines weakest rung. New sim field_pair_of_engines_weakest_rung. MSS: two forced Weyl engines
+               become ONE distinguishable object via a single forced relational (entangling) DOF; product pair carries
+               no DOF beyond its marginals (not a new object). R=0.46 coupled, 0 product (failable); survives probe
+               rotation (same matches 0.46/0.46, different g'=0.25 told apart 0.23); one DOF sufficient AND necessary.
+               Earns only the weakest field rung; field metric + exceptional-algebra question is the next rung. 142 GREEN.
