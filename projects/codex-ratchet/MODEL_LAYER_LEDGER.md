@@ -3117,15 +3117,18 @@ metric for the spectral triple." The model already uses a metric: the BKM metric
 the forced Umegaki relative-entropy pawl, pawl_forced_by_DPI). These are DIFFERENT monotone metrics -- a genuine fork.
 Harness 143 GREEN. Rebuilt after a cross-family LLM panel audit (Gemini-3.1-pro, Grok-4.5, Qwen-3.5, GLM-5.2).
 
-VERDICT GATES ON ONE FAILABLE STRUCTURAL RESULT: SLD/QFI is a DIFFERENT monotone metric from BKM. On a NONCOMMUTING
-mixed direction g_SLD=1.000 != g_BKM=1.076 (differ 0.076); on the COMMUTING/classical submanifold they coincide EXACTLY
-(both = classical Fisher 1.190476). Control flips: the metrics are distinguishable ONLY in the noncommuting (quantum)
-sector, so the BKM-vs-QFI distinction is genuinely quantum, not a normalization.
+VERDICT GATES ON TWO FAILABLE RESULTS TOGETHER: (g2) SLD/QFI != BKM on a NONCOMMUTING mixed direction (g_SLD=1.000 !=
+g_BKM=1.076, differ 0.076; would be ~0 if they were the same metric), AND (g3, COMPUTED) SLD/QFI = curvature of the
+Bures/fidelity distance^2 (0.5 = g_SLD/2 to 2e-7) while != the rel-entropy Hessian -- i.e. two divergences (fidelity vs
+relative entropy) give two metrics (QFI vs BKM). CORRECTION (round-2 panel, Qwen-3.5 [warn], ADOPTED): the coincidence
+on the commuting/classical submanifold (both = classical Fisher 1.190476) is GUARANTEED by the Morozova-Chentsov
+theorem (every monotone metric reduces to classical Fisher on commuting states) -- so agree_commuting is a CONSISTENCY
+CHECK, NOT a flipping control, and the verdict does NOT gate on it. (An earlier report of this sim overstated round-2
+as "all three responding models agree claim2 is well-posed"; corrected here -- Grok+GLM [ok], Qwen [warn]/adopted,
+Gemini 503'd.)
 
-COMPUTED SUPPORTING IDENTITIES (reported, NON-gating -- panel caught that a non-failable identity must not rubber-stamp
-a verdict): (a) BKM = Hessian of the Umegaki relative entropy to 4e-8 (BKM's definition, a self-consistency check);
-(b) SLD/QFI = curvature of the Bures/fidelity distance^2 (Bures dist^2 Hessian 0.5 = g_SLD/2 to 2e-7) -- so QFI is the
-FIDELITY curvature while BKM is the RELATIVE-ENTROPY curvature.
+COMPUTED SUPPORTING IDENTITY (reported, NON-gating -- a non-failable identity must not rubber-stamp a verdict):
+BKM = Hessian of the Umegaki relative entropy to 4e-8 (BKM's definition, a self-consistency check).
 
 PLACEMENT (conditional, honestly scoped): Fubini-Study/QFI = the fidelity/Bures-family metric (useful: state estimation,
 quantum speed limit). The model's metric follows BKM CONDITIONAL on the prior-forced relative-entropy pawl (NOT
@@ -3136,3 +3139,22 @@ alternative / classical face of the already-used BKM surface, not a new foundati
 HONEST SCOPE: earns the metric-family distinction (QFI=fidelity curvature, BKM=rel-entropy curvature, coinciding only
 on the classical face); the model-metric link is conditional on the prior-forced pawl. Does NOT re-derive the pawl,
 does NOT claim pure-state coincidence, does NOT claim QFI useless, does NOT build a QIG layer. scratch_diagnostic.
+
+## UP-140 -- WITHDRAWN (retained as scaffold): HoTT/braid-group trajectory topology -- placement real, but no failable gate (2026-07-10)
+
+The attachments proposed Homotopy Type Theory / braid-group topology for trajectories (trajectory=braid, deadlock=knot,
+resolution=homotopy jump). I built hott_braid_topology_placed_vs_forced_spinor_sim.py to place it against the forced Z2
+spinor double cover. It ran PASS standalone, but the cross-family panel (Gemini-3.1-pro, Grok-4.5, GLM-5.2; Qwen
+parse-errored) UNANIMOUSLY flagged the gate as a RUBBER STAMP: the "control" `abs(a1*a2-a2*a1)<1e-12` merely checks that
+two hardcoded complex SCALARS commute -- true by the definition of C, computing nothing about the carrier -- and the
+nonabelian B_3->SL(2,Z) generators are hand-picked textbook matrices, not forced from {F01,N01}.
+
+They were right. Stripped of the tautology, the placement is: the forced carrier path-topology is Z2 (already shipped:
+spinor_lift_is_forced / double_720_loop_closes_360), and nonabelian braid groups are a richer structure requiring a
+>=2-dim anyonic fusion space the single carrier lacks -- so braid/HoTT topology is CONSTRUCTIBLE-NOT-FORCED, the same
+live-but-unforced status already recorded for octonions/T01 (t01_constructible_not_forced), E8, and Penrose
+(aperiodic_order_not_forced). That verdict is TRUE and worth recording, but it does NOT earn a NEW failable running gate
+(a gate that cannot fail must not ship green -- cf. the UP-137 withdrawal). DECISION: sim RETAINED AS A SCAFFOLD
+documenting the finding; NOT registered in run_all.py; harness stays 143 GREEN. The braid/anyon layer, if it ever
+becomes load-bearing, belongs in the field-of-engines / many-carrier regime (axes 7-12), not at the single-carrier
+foundation.
