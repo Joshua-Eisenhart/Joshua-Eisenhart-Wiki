@@ -365,3 +365,5 @@ MMM authority, and ontology writing remain separate gates.
 - [[projects/codex-ratchet/external-86-v84-92-foundations-engine-audit-receipt-2026-07-09]]
 - [[projects/codex-ratchet/qit-dual-ratchet-engine-teeth-audit-2026-07-07]]
 - [[concepts/sindy-koopman-system-identification-for-qit-engines-2026-07-09]]
+- [[concepts/quantum-channel-attractor-basin-perspectives-2026-07-10]]
+- [[projects/codex-ratchet/packet-112-canonical-rerun-and-basin-audit-2026-07-10]]

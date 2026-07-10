@@ -1,6 +1,6 @@
 # Codex Ratchet Wiki — Index
 
-Total published pages: 507. Governance/read-first surfaces are listed separately. Restructured 2026-04-17 (stabilization pass).
+Total published pages: 510. Governance/read-first surfaces are listed separately. Restructured 2026-04-17 (stabilization pass).
 
 ## Hermes / LLM Alignment Front Door
 - [[hermes-current/read-first]] — Hermes front door; load this before substantive work
@@ -20,6 +20,9 @@ Total published pages: 507. Governance/read-first surfaces are listed separately
 - [[projects/codex-ratchet/packet-102-canonical-rerun-audit-2026-07-09]] — canonical `139/0/0` packet rerun with UP-130 rejected and UP-133/UP-134 bounded
 - [[projects/codex-ratchet/packet-107-physics-loopback-audit-2026-07-09]] — canonical `141/0/0` packet rerun with both new physics promotions rejected by current data and gauge-invariant phase controls
 - [[projects/codex-ratchet/packet-110-rerun-and-claim-audit-2026-07-10]] — canonical `142/0/0` packet rerun with stale field evidence, panel provenance, max-plus, and object portability audited
+- [[projects/codex-ratchet/packet-112-canonical-rerun-and-basin-audit-2026-07-10]] — packets 112/115: canonical `143/0/0`, finite QFI/BKM evidence, and withdrawn invariant scaffold
+- [[concepts/quantum-channel-attractor-basin-perspectives-2026-07-10]] — installed global channel contractions, fabrication boundary, schedule-genericity failure, and next finite basin design
+- [[concepts/cross-view-attractor-nominalism-ledger-2026-07-10]] — nominalist cross-view attractor target, evidence ladder, primary-source math instruments, and fail-closed bridge queue
 - [[projects/codex-ratchet/cross-domain-test-target-registry-audit-2026-07-10]] — external target-registry correction preserving test ambition without self-assigned completion
 - [[projects/codex-ratchet/source-intake/packet-107-physics-source-register-2026-07-09]] — primary-source register for `a0(z)` observations and geometric-phase math
 - [[projects/codex-ratchet/repository-research-and-tool-validation-2026-07-09]] — pinned source, upstream-test, and bounded-use ledger for new math/simulation repositories

@@ -23,6 +23,9 @@ Use this as the low-friction entry point. The old full listing lives at [index-f
 - [[projects/codex-ratchet/packet-102-canonical-rerun-audit-2026-07-09]] — Packet 102 canonical `139/0/0` rerun with UP-130 rejection and bounded UP-133/UP-134 ceilings.
 - [[projects/codex-ratchet/packet-107-physics-loopback-audit-2026-07-09]] — Packet 107 canonical `141/0/0` rerun; current redshift data and gauge-invariant phase controls reject both new scientific promotions.
 - [[projects/codex-ratchet/packet-110-rerun-and-claim-audit-2026-07-10]] — Packet 110 canonical `142/0/0` rerun; stale field result rejected, max-plus bounded, and object runtime sensitivity measured.
+- [[projects/codex-ratchet/packet-112-canonical-rerun-and-basin-audit-2026-07-10]] — Packets 112/115 audit: canonical `143/0/0`, robust finite QFI/BKM diagnostic, withdrawn invariant scaffold, and claim boundaries.
+- [[concepts/quantum-channel-attractor-basin-perspectives-2026-07-10]] — Real installed global channel contractions, semantic fabrication audit, genericity failure, perspective views, and the next finite basin experiment.
+- [[concepts/cross-view-attractor-nominalism-ledger-2026-07-10]] — Strong-nominalist cross-view attractor target, fail-closed evidence ladder, transport/Doob/coalgebra/sheaf instruments, and executable bridge queue.
 - [[projects/codex-ratchet/cross-domain-test-target-registry-audit-2026-07-10]] — Corrected status map for the external cross-domain registry; target map is not a result ledger.
 - [[projects/codex-ratchet/source-intake/packet-107-physics-source-register-2026-07-09]] — Primary-source register for high-redshift `a0` evidence and Berry/Pancharatnam geometric phase.
 - [[projects/codex-ratchet/repository-research-and-tool-validation-2026-07-09]] — Pinned/tested external repo ledger for PySINDy, PyKoopman, PyDMD, deeptime, ALCO, QICS, and Physlib.

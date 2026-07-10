@@ -109,13 +109,14 @@ forces. Two separate things:
   bottom.
 - The ratchet is the upward climb off that floor.
 
-MSS sets where the climb starts; the ratchet is the climb itself. This
-reconciles the nonassociativity question: the floor is weakest, so it is
-nonassociative/magmoid; the ratchet installs stronger structure (commutativity,
-associativity, geometry, operators) going up, where forced. The earlier
-reading that called nonassociativity "installed not root-forced" was reading
-down the ratchet and mislabelling the start point as installed — the floor is
-where you start, and associativity gets installed as you climb off it.
+MSS sets where the climb starts; the ratchet is the climb itself. The floor is
+association-unspecified: partial bracketings may be recorded, but neither
+associativity nor nonassociativity is asserted before a discriminator. A
+nonzero associator earns nonassociativity; repeated zero associators over an
+adequate generating set can support an associative rung. The ratchet may then
+install stronger structure (commutativity, associativity, geometry, operators)
+where forced. This is weaker and cleaner than using "nonassociative magmoid" to
+mean merely "associativity was not assumed."
 
 ## Owner statement: density matrices are closer to MSS than spinors
 

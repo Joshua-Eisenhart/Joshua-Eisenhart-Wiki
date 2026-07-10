@@ -173,18 +173,22 @@ compatibility, ratcheting, or simulation.
 
 ## 3. The first forced construction
 
-**Claim.** Given C0–C3, the weakest mathematical object that must exist is a
-*finite non-associative, non-commutative, non-unital refinement structure* on
-equivalence classes under probes — a **magmoid** (a precategory with a partial
-binary composition, no associativity and no identity morphisms assumed). If it
-did not exist, C0–C3 would be inconsistent.
+**Claim.** Given C0–C3, the weakest candidate mathematical object is a
+*finite, association-unspecified, non-unital refinement structure* on
+equivalence classes under probes: a partial bracketed-composition structure
+with no associativity or identity law assumed. Noncommutation is earned only
+where order probes separate `p∘q` from `q∘p`; genuine nonassociativity is earned
+only where a defined triple gives `(ab)c != a(bc)`. If the required partial
+composition did not exist, C0–C3 would be inconsistent.
 
 > **Correction from v1.0.** An earlier draft called this a *category*. That is
 > too strong: a category **assumes** associativity of composition
 > `(f∘g)∘h = f∘(g∘h)` as an axiom, and (usually) identity morphisms. C0
 > (weakest-structure) and C3 (no primitive identity) forbid assuming either. The
-> correct seed is one rung *below* a category — a magmoid — with associativity
-> and unitality left to be *earned* on the A∞ ladder (§3a). "Category" is a
+> correct seed is one rung *below* a category — a partial bracketed-composition
+> structure — with associativity and unitality left to be *earned* on the A∞
+> ladder (§3a). "Nonassociative" here previously meant only "associativity not
+> assumed"; it did not supply a nonzero associator witness. "Category" is a
 > *target* the ratchet can climb to, not the seed.
 
 ### 3.1 Primitive ingredients

@@ -13,6 +13,25 @@ stale/withdrawn; its max-plus lane is a narrow scratch diagnostic; and its
 object score changes by about 303 times across runtimes with byte-identical
 source. See [[projects/codex-ratchet/packet-110-rerun-and-claim-audit-2026-07-10]].
 
+Packet 112 reruns `143/0/0`. Its QFI/BKM result survives an independent
+multi-state metric sweep, but only as a finite metric-family diagnostic. Its
+generated registry republishes claims already rejected by the Ratchet and is
+not a current evidence index.
+
+A new preregistered Julia/JAX basin lane establishes a narrower positive:
+the two explicitly installed sixteen-slot CPTP cycles are strict global
+trace-distance contractions on the Bloch ball, with coefficients about
+`0.39888` and `0.34061`. Their affine maps agree across runtimes to roughly
+machine precision. The native order is not jointly exceptional under
+same-channel permutations, and matched generic dissipative controls also
+contract. The result is a real installed attracting fixed point, not a
+Ratchet-selected co-ratchet basin. See
+[[concepts/quantum-channel-attractor-basin-perspectives-2026-07-10]].
+The broader same-object/many-views program is now typed in
+[[concepts/cross-view-attractor-nominalism-ledger-2026-07-10]]; every row remains
+at analogy or structural match pending executable semiconjugacy, transported
+prediction, and paired ablation receipts.
+
 ## Status
 
 Current repo-derived research digest and routing page.
@@ -373,9 +392,9 @@ The next build should target usefulness and falsifiability, not total closure. S
 
 ## Related Foundation Pages
 
-- [[root-ratchet-ladder-continuous-climb-2026-07-06]]
-- [[root-ratchet-mechanics-and-rolling-entangled-dice-2026-07-06]]
-- [[entangled-dice-universe-creation-2026-07-06]]
+- [[concepts/root-ratchet-ladder-continuous-climb-2026-07-06]]
+- [[concepts/root-ratchet-mechanics-and-rolling-entangled-dice-2026-07-06]]
+- [[concepts/entangled-dice-universe-creation-2026-07-06]]
 - [[concepts/self-similar-frameworks-and-teleological-doctrine]]
 
 These preserve the broader owner theory and genealogy. They do not raise the engine or product claim ceiling.
