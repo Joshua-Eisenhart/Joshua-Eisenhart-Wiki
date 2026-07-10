@@ -3082,3 +3082,30 @@ failed. The genuine field-of-engines rung remains OPEN: it needs a pair observab
 load-bearing on this model's chirality/Weyl structure, and (c) robust -- none held together here. This is the
 climb-and-audit discipline: an overclaimed rung caught and withdrawn rather than banked. The adversarial panel is now
 a standing review tool (advisory only; never gates a verdict).
+
+## UP-138 -- PLACING new math: max-plus / tropical / idempotent algebra is a CLASSICAL LIMIT, not the foundation (2026-07-10)
+
+New math arrived (attachments: Max-Plus/tropical geometry, Tropical Attention NeurIPS-2025, idempotent analysis / HJB,
+framed as "the arithmetic of the Bellman equation / credit assignment"). Per discipline it is PLACED by the
+constraints, not admitted by assertion. Harness 142 GREEN. This sim was rebuilt after a cross-family LLM panel audit.
+
+THE ONE EARNED, FAILABLE RESULT (interference vs monotonicity). Max-plus tropical-add is MONOTONE (max(a,b) >= a,b).
+Coherent quantum interference is NOT: destructive interference drives the combined outcome BELOW the strongest single
+contribution (|a1+a2|^2 min 0.0002 < strongest 1.0) with visibility 0.9999 across a phase sweep. A max-plus arithmetic
+structurally cannot reproduce this -> max-plus is excluded from the nonclassical foundation. CONTROL (flips): a
+DECOHERED (incoherent-sum) process restores monotonicity (violation -1.0) and has zero visibility -> the exclusion is
+specifically coherent interference, not a generic two-number fact.
+
+CONTEXT (stated, NOT gated -- a cross-family panel [Gemini-3.1-pro, Grok-4.5, Qwen-3.5, GLM-5.2] caught the prior
+versions of these as a tautological gate and textbook calculus, so they are demoted to context):
+  - max-plus tropical-add is commutative; N01 (noncommutation) independently disfavours any commutative foundation.
+  - max-plus = the T->0 limit of the classical log-sum-exp (idempotent-analysis fact) -> it is the arithmetic of the
+    DEDUCTIVE / Bellman / single-optimal-path limit, reached from the coherent core by decohere-then-T->0. This is the
+    deductive/oracle face of the model's oracle duality; genuinely useful downstream (RL credit assignment), a LIMIT
+    not a root.
+
+HONEST SCOPE: one clean NEGATIVE placement (interference excludes max-plus from the foundation, decohered control
+flips). Does NOT prove the N01/T->0 exclusions as forced steps (context), does NOT claim max-plus is wrong/useless
+(correct arithmetic of the deductive limit), does NOT build a tropical engine layer. The E6/E8/Albert-algebra/27-cell/
+3-generations material in the same attachment batch is already placed as live-but-UNFORCED {H,O}-branch math (prior
+ledger); not re-derived as forced here. scratch_diagnostic.
