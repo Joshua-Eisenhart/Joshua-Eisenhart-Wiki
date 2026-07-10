@@ -23,6 +23,7 @@ Use this as the low-friction entry point. The old full listing lives at [index-f
 - [[projects/codex-ratchet/packet-107-physics-loopback-audit-2026-07-09]] — Packet 107 canonical `141/0/0` rerun; current redshift data and gauge-invariant phase controls reject both new scientific promotions.
 - [[projects/codex-ratchet/packet-110-rerun-and-claim-audit-2026-07-10]] — Packet 110 canonical `142/0/0` rerun; stale field result rejected, max-plus bounded, and object runtime sensitivity measured.
 - [[projects/codex-ratchet/packet-112-canonical-rerun-and-basin-audit-2026-07-10]] — Packets 112/115 audit: canonical `143/0/0`, robust finite QFI/BKM diagnostic, withdrawn invariant scaffold, and claim boundaries.
+- [[projects/codex-ratchet/packet-116-external-audit-2026-07-10]] — Packet 116 source/result inventory, missing authoritative whole-run receipt, foundation corrections, and canonical-rerun contract.
 - [[concepts/quantum-channel-attractor-basin-perspectives-2026-07-10]] — Real installed global channel contractions, semantic fabrication audit, genericity failure, perspective views, and the next finite basin experiment.
 - [[concepts/cross-view-attractor-nominalism-ledger-2026-07-10]] — Strong-nominalist cross-view attractor target, fail-closed evidence ladder, transport/Doob/coalgebra/sheaf instruments, and executable bridge queue.
 - [[projects/codex-ratchet/claude-science-tool-truth-audit-2026-07-10]] — Exact packet-112 NumPy/JAX/Torch/Julia inventory, missing function receipts, console-harness boundary, and real-engine repair contract.
