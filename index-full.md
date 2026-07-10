@@ -15,7 +15,7 @@ Total published pages: 513. Governance/read-first surfaces are listed separately
 - [[projects/codex-ratchet/cocoindex-and-bloat-cleanup-policy-2026-06-17]] — current CocoIndex + bloat cleanup policy for wiki/repo LLM findability: local indexes are semantic maps, generated JSON stays exact-read evidence, and large result artifacts require manifest/checksum/restore before archive or compression
 - [[projects/codex-ratchet/read-first]] — Codex Ratchet project front door after Hermes spine
 - [[projects/codex-ratchet/current-research-frontier-2026-07-09]] — current July engine/object/math/Lev research digest, falsifiers, and claim ceilings
-- [[projects/codex-ratchet/engine-16x4-axis6-current-state-2026-07-09]] — exact current state and missing conjunction for the 16 source slots, fixed-sign four-substage interior, two engine types, and four loops
+- [[projects/codex-ratchet/engine-16x4-axis6-current-state-2026-07-09]] — exact 16x4x2/Axis-6 state and durable local T1/T4 battery: 0/4 raw, 0/4 prompt harness, 3/4 Fable, budget-blocked with no engine or perception promotion
 - [[projects/codex-ratchet/packet-97-up129-up130-audit-2026-07-09]] — fresh `135/0/0` packet receipt, UP-129/UP-130 claim correction, and conditional four-cell product-square ceiling
 - [[projects/codex-ratchet/packet-102-canonical-rerun-audit-2026-07-09]] — canonical `139/0/0` packet rerun with UP-130 rejected and UP-133/UP-134 bounded
 - [[projects/codex-ratchet/packet-107-physics-loopback-audit-2026-07-09]] — canonical `141/0/0` packet rerun with both new physics promotions rejected by current data and gauge-invariant phase controls

@@ -320,6 +320,47 @@ commuting-involution scout with no entropy movement, and UP-134 is a known
 MOND/Hubble numerical coincidence without an executable Ratchet bridge. See
 [[projects/codex-ratchet/packet-102-canonical-rerun-audit-2026-07-09]].
 
+## Local T1/T4 Harness Battery: No Measured Teeth
+
+On 2026-07-10, Lev ran a frozen four-trial, three-arm local battery over two
+cross-perspective industrial-object tasks and two claim-ceiling tasks. The arms
+were the same Haiku model raw, Haiku with a four-pass forward/reverse/reconcile
+prompt harness, and Claude-bridge Fable/Sonnet-medium raw. All twelve calls bind
+model identity, prompt and harness state, command/source hashes, raw provider
+bytes, tokens, tools, cost, candidate bytes, and deterministic gates.
+
+The durable aggregate receipt is:
+
+```text
+/Users/joshuaeisenhart/.local/share/lev/execution-ledger/receipts/
+qit-engine-harness/qit-local-20260710-02/
+qit-battery-ed50b49620b09aabb4a3713c.json
+```
+
+Battery SHA-256:
+`ed50b49620b09aabb4a3713c17c83c944b9f1713f629722d8bd72543078ef9e4`.
+
+Descriptive gate counts are:
+
+| Arm | Passed | Result |
+|---|---:|---|
+| Haiku raw | 0/4 | four strict-JSON parse-failure artifacts |
+| Haiku four-pass harness | 0/4 | four strict-JSON parse-failure artifacts |
+| Fable/Sonnet-medium raw | 3/4 | both object tasks and one claim task passed |
+
+Independent Eval returns `block`, because Haiku raw exceeded the frozen output
+budget on `T4-claim-002`. The preregistered envelope was not loosened after the
+failure. Local receipts are explicitly unattested, so
+`preliminary_lift_observed=false` and `implementation_claim_earned=false`.
+
+This is useful negative evidence. The four-pass prompt harness closed none of
+the measured gap and did not rescue even output-format compliance. It is not an
+execution of the 16-by-4-by-2 QIT schedule, not perception, not object learning,
+and not evidence that the proposed engines have distinct intelligence. The
+next engine test must execute source-bound state transformations or removal
+ablations whose absence measurably degrades object formation; more process
+wording is not enough.
+
 ## Exact Next Experiment: Dual-Ratchet Emergence
 
 Build `engine_dual_ratchet_substage_emergence_v0`:

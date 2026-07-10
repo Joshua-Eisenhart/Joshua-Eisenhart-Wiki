@@ -17,7 +17,7 @@ Use this as the low-friction entry point. The old full listing lives at [index-f
 
 - [[projects/codex-ratchet/read-first]] — Codex Ratchet mathematical build front door.
 - [[projects/codex-ratchet/current-research-frontier-2026-07-09]] — Current July engine/object/math/Lev research digest and corrections.
-- [[projects/codex-ratchet/engine-16x4-axis6-current-state-2026-07-09]] — Exact current state of the 16 source slots, four substages, two engine types, four loops, and Axis-6 math.
+- [[projects/codex-ratchet/engine-16x4-axis6-current-state-2026-07-09]] — Exact 16x4x2/Axis-6 state plus the durable local T1/T4 result: Haiku raw 0/4, prompt harness 0/4, Fable raw 3/4, budget-blocked and non-certifying.
 - [[concepts/sindy-koopman-system-identification-for-qit-engines-2026-07-09]] — Research math, package truth, and the new conditional 16 x 4 execution receipt linking continuous generators to finite-time stage maps.
 - [[projects/codex-ratchet/packet-102-canonical-rerun-audit-2026-07-09]] — Packet 102 canonical `139/0/0` rerun with UP-130 rejection and bounded UP-133/UP-134 ceilings.
 - [[projects/codex-ratchet/packet-107-physics-loopback-audit-2026-07-09]] — Packet 107 canonical `141/0/0` rerun; current redshift data and gauge-invariant phase controls reject both new scientific promotions.
