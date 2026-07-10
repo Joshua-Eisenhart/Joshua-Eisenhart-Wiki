@@ -2947,3 +2947,26 @@ CONCLUSION: the co-ratchet ratchets as deep as R4 (the substage 2x2 dual-ratchet
 floor. This is the earned foundation the engine mechanics (UP-130 count, UP-132 running) sit on. Timeout note: the
 t2_order_carried SINDy sim runs ~124s so its harness timeout was raised 120->240s (it is genuinely slow, not a hang;
 a spurious RED from a 120s trip under memory/CPU contention confirmed this). scratch_diagnostic.
+
+## UP-134 -- FIRST falsifiable quantitative physics prediction: dark-sector acceleration scale from the expansion rate (2026-07-09)
+
+Every prior physics bridge REPRODUCED established physics (Layer 0.4 entropic-Newton via Verlinde premises) or ADMITTED
+a forced structure with empirical inputs (20.1 weak-force chirality). NONE made a falsifiable quantitative PREDICTION.
+Layer 0.4 explicitly fenced its dark-sector strength a0 as "phenomenological, NOT derived" (hand-set a0=0.20). UP-134
+removes that free parameter and makes the prediction. Harness 139 GREEN.
+
+PREDICTION (no free parameter): the model's cosmogenesis (Layer 0.6 / Axis-0, now shown UP-131 to close as the intrinsic
+gradient to a RISING ceiling) ties the entropy-gradient acceleration scale to the cosmic expansion rate H0; the entropic-
+gravity substrate (Layer 0.4) already carries Unruh kT=hbar*a/(2*pi*c), whose 2*pi is the only numerical factor. Hence
+      a0_pred = c * H0 / (2*pi).
+RESULTS (external data): (1) a0_pred matches the observed MOND scale a0_obs=1.2e-10 m/s^2 to ratio 0.86/0.90/0.94 for
+H0=67/70/73 km/s/Mpc; a wrong-scale control (Planck acceleration) misses by 4.6e61 -> the prediction genuinely selects the
+EXPANSION scale. (2) ZERO-PARAMETER baryonic Tully-Fisher v=(G*Mb*a0)^(1/4) with a0=c*H0/2pi matches 4 canonical galaxies
+spanning ~200x in baryonic mass (DDO154 dwarf 0.97, NGC3198 0.96, NGC2403 0.82, Milky Way 0.78); wrong-a0(x1e4) control
+breaks all by >5x. (3) BTFR slope M~v^3.5 (~4, the deep-MOND law), not a free exponent.
+HONEST SCOPE: a0~c*H0/2pi is Milgrom's established empirical coincidence; the model's contribution is to DERIVE the scale
+(dark-energy-first cosmogenesis forces the acceleration scale = expansion rate; 2pi from the model's own Unruh substrate),
+removing Layer 0.4's hand-set a0, and to show the resulting zero-parameter BTFR matches real galaxies. It does NOT derive
+the MOND interpolating function, G, or claim to replace GR/LambdaCDM; galaxy values are canonical BTFR anchors, not a full
+SPARC fit. Owner doctrine under test. This is the step that earns "physics prediction" language for the model.
+scratch_diagnostic.
