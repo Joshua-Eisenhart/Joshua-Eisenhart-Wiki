@@ -1434,3 +1434,16 @@ UP-141 WITHDRAWN (retained as scaffold): "each stage protects a distinct invaria
                Real finding kept: the composed stage channel has NO genuine density-level protected invariant (terrain
                flow contracts everything). Prior processing-fingerprint rung remains the honest "16 distinct kinds".
                NOT registered; harness stays 143 GREEN.
+
+## UP-142 (harness 143->144 GREEN): four-substrate port-fidelity certification
+- Substrate doctrine acted on (review found ~136/145 sims numpy-only). Installed Julia 1.10.5 arm64 (stdlib
+  LinearAlgebra; registry TLS-blocked) + torch 2.13.0.
+- NEW substrate_kernels/{kernels_np.py, julia_kernels.jl} + four_substrate_agreement_harness_sim.py: numpy/JAX(x64)/
+  Torch(f64)/Julia agree <1e-9 on 8-terrain fixed points, vN entropy, Liouville spectra (JAX 3e-15, Torch 1e-15,
+  Julia 4e-11); float32 control 2.2e-6 caught. 3q floor also certified (9.89e-13, validate_engines_3q).
+- Honest ceiling: PORT-FIDELITY / reproducibility engineering, not forced physics (unanimous panel; adopted). Fixed a
+  numpy-constant leak in the torch port.
+- Also this session: external-review distillation saved to reference_docs_external_reviews/; UNIFIED_LENS_MAP.md
+  (one-basin probe map); UP-141 unanimity-scope + all-16 Liouville corrections (auditor); FEP-IGT Carlen-Maas
+  instrument-verification built (DB terrains = exact rel-entropy gradient flow, asym 0; engine H splits it) but a
+  first confounded version withdrawn and the Carlen-Maas version left as a documented instrument-check, not a rung.
