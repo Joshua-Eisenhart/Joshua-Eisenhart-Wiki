@@ -88,6 +88,16 @@ size has a 20.98% worst fixture, and size four identifies 38 hidden systems.
 The reused test block remains unopened. The fixed-global-subset hypothesis is
 rejected; adaptive relation-directed experiment policies are the next route.
 
+The subsequent cross-view workbench recommendation is dispositioned at
+[[projects/codex-ratchet/cross-view-math-workbench-wiring-intake-2026-07-10]].
+It correctly identifies wiring as the bottleneck, but several proposed first
+cards already exist in bounded form and its packet inventory was stale. The
+live route reuses the exact finite quotient and proposal-only cross-view ledger.
+Attractors `1.37.0` is now freshly API-smoked in an isolated Julia profile;
+Reachability, Maude, Apalache, and Catalyst remain absent or unwired. No central
+cross-view package is justified until one source-native basin result and one
+independently sourced semiconjugacy row survive controls.
+
 ## Status
 
 Current repo-derived research digest and routing page.

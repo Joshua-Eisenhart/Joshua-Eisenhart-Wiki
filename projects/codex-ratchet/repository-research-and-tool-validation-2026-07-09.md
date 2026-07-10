@@ -23,6 +23,7 @@ Desktop into a project repository.
 | ResClasses | `v4.7.4`, `89986878...` | loads as ALCO dependency | required exact GAP residue-class support | dependency, not a Ratchet result |
 | QICS | `v1.1.3`, `be18e5ef...` | upstream `22 passed`; local oracle 11/11, two byte-identical runs | independent fixed-input Umegaki and CPTP-contraction numerical oracle | associative finite-dimensional numerics; no exceptional Jordan lift |
 | Physlib | `a1962508...`, Lean `v4.31.0` | exact `QuantumInfo.Entropy.DPI` build succeeds across 8,617 jobs; zero `sorry`/`admit` hits in the module | machine-checked associative finite-dimensional sandwiched-Renyi and relative-entropy DPI | not J3(O), no exceptional tensor product, no engine result |
+| Attractors.jl | `1.37.0` isolated Julia profile | fresh `AttractorsViaProximity` / `basins_of_attraction` two-basin API smoke passes with `DynamicalSystemsBase 3.18.1` and `IntervalArithmetic 1.0.9` | candidate basin fractions, boundaries, entropy, continuation, and tipping instrument | API smoke only; no source-native Ratchet basin claim |
 
 ## Ratchet Integrations
 
@@ -81,6 +82,13 @@ Jordan-positive-map DPI. That remains the actual carrier-floor frontier.
   explicit; no current Ratchet gate requires it.
 - `toqito`: broad QIT utilities overlap the current QuTiP/Dynamiqs/local
   channel stack; no nonredundant exceptional-Jordan function was found.
+- `ReachabilityAnalysis.jl`: relevant for certified reachable-set and viability
+  gates, but no isolated project or bounded receipt exists yet.
+- `Catalyst.jl`: relevant for a controlled reaction-network view, but no
+  semiconjugacy or viability-basin card has justified installation.
+- `Maude` and `Apalache`: relevant formal executors, currently absent. Maude
+  needs a frozen bracket/history rewrite card; Apalache belongs first in the Lev
+  protocol owner repo.
 
 The rule is not "install every relevant package." A repository is retained
 when it contributes a distinct judge, exact oracle, formal theorem surface, or
@@ -96,6 +104,10 @@ killable control that the current stack lacks.
 - [QICS](https://github.com/kerry-he/qics)
 - [Physlib](https://github.com/leanprover-community/physlib)
 - [Physlib DPI module](https://github.com/leanprover-community/physlib/blob/master/QuantumInfo/Entropy/DPI.lean)
+- [Attractors.jl API](https://juliadynamics.github.io/DynamicalSystemsDocs.jl/attractors/stable/api/)
+- [ReachabilityAnalysis.jl](https://juliareach.github.io/ReachabilityAnalysis.jl/stable/)
+- [Maude manual](https://maude.cs.illinois.edu/manual.pdf)
+- [Apalache](https://apalache-mc.org/docs/apalache/index.html)
 
 ## Routes
 

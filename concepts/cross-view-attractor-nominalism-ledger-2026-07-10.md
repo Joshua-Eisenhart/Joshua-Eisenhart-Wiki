@@ -173,8 +173,18 @@ one exact finite behavioral quotient and exact order-sensitive attractor graphs,
 but remains below cross-domain semiconjugacy because all views use the same
 classical fixture and engine-removal nonredundancy is red.
 
+The broader workbench recommendation has now been audited against the live
+estate at
+[[projects/codex-ratchet/cross-view-math-workbench-wiring-intake-2026-07-10]].
+The current decision is to reuse this ledger and the finite behavioral quotient,
+not create a central `cross_view/` package yet. Attractors is API-ready in an
+isolated Julia profile; Reachability, Maude, Apalache, and Catalyst remain
+uninstalled or unwired. One source-native basin receipt and one independently
+sourced semiconjugacy row must precede framework extraction.
+
 ## Routes
 
+- [[projects/codex-ratchet/cross-view-math-workbench-wiring-intake-2026-07-10]]
 - [[concepts/quantum-channel-attractor-basin-perspectives-2026-07-10]]
 - [[concepts/dual-ratchet-geometry-entropy-jordan-research-2026-07-09]]
 - [[projects/codex-ratchet/overall-aligned-execution-plan-2026-06-07]]
