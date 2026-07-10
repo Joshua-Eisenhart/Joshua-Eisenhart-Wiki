@@ -1,5 +1,5 @@
 # TOOLS, SOLVERS, LIBRARIES & REPOS
-_Regenerated 2026-07-10 09:04 UTC. Versions read from the live environment._
+_Regenerated 2026-07-10 13:29 UTC. Versions read from the live environment._
 
 ## Solver & library versions (this environment)
 - **numpy**: 2.4.6
@@ -27,6 +27,6 @@ a rosetta layer maps earned structure to labels afterward.
 
 ## How the pieces run
 - `run_all.py` -- the full harness (each sim is a subprocess; a row PASSES on a 'contains' string match). No jargon in sims.
-- `sims_and_scripts/` -- 145 python sim files (some are withdrawn scaffolds, not registered).
+- `sims_and_scripts/` -- 146 python sim files (some are withdrawn scaffolds, not registered).
 - `panel_adversarial_review.py` -- cross-family LLM panel (Gemini/Grok/Qwen/GLM) as an ADVISORY adversarial reviewer; never gates.
 - `MODEL_LAYER_LEDGER.md` / `CHANGELOG_HARDENING.md` -- append-only rung record + hardening log.
