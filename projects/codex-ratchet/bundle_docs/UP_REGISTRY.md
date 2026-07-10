@@ -1,5 +1,5 @@
 # UP REGISTRY -- every rung
-_Regenerated 2026-07-10 19:43 UTC. Parsed from MODEL_LAYER_LEDGER.md (40 entries)._
+_Regenerated 2026-07-10 20:36 UTC. Parsed from MODEL_LAYER_LEDGER.md (41 entries)._
 
 - **UP-103** -- EPISTEMIC active inference: selecting actions that reduce the unknown (2026-07-08)
 - **UP-104/105** ~~WITHDRAWN~~ -- 64/64 overclaim WITHDRAWN + substage architecture DISCRIMINATED (2026-07-08)
@@ -41,3 +41,4 @@ _Regenerated 2026-07-10 19:43 UTC. Parsed from MODEL_LAYER_LEDGER.md (40 entries
 - **UP-141** ~~WITHDRAWN~~ -- WITHDRAWN (retained as scaffold): "each stage protects a distinct invariant" -- composite-key not a forced invariant (2026-07-10)
 - **UP-142** -- Four-substrate port-fidelity certification (harness 144 GREEN)
 - **UP-143** ~~WITHDRAWN~~ -- "Process all the proposed math" (brave-thread disposition) + two withdrawn discriminators (harness stays 144)
+- **UP-144** -- Basis-invariant QIT<->reaction-network semiconjugacy + the THREE-LEVEL floor (harness 144->145 GREEN)
