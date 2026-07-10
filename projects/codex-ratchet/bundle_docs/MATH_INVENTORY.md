@@ -1,5 +1,5 @@
 # MATH INVENTORY -- classes in play, and their status under the constraints
-_Regenerated 2026-07-10 13:29 UTC. Classes inferred from registered sim names; status from the ledger._
+_Regenerated 2026-07-10 20:36 UTC. Classes inferred from registered sim names; status from the ledger._
 
 Every math class is PLACED by the constraints: **forced** (F01/N01 compel it), **installed/constructible-not-forced**
 (realizable but not compelled -- a live upper branch), or **excluded** (a constraint forbids it as foundation).
@@ -10,7 +10,7 @@ Every math class is PLACED by the constraints: **forced** (F01/N01 compel it), *
 5 sim(s): known_unknown_fep_field_sim.py, qit_active_inference_planning_sim.py, qit_epistemic_active_inference_sim.py, qit_fep_ratchet_sim.py, qit_fep_surprise_stream_sim.py
 
 ### QIT engine mechanics / axes
-43 sim(s): axis0_drive_fair_n01_test_sim.py, axis0_entropy_gradient_engine_pair_endtoend_sim.py, axis0_gauge_breaking_sim.py, axis0_gradient_closes_as_bookend_invariant_sim.py, axis0_ratchet_climb_sim.py, axis0_sector_sim.py, axis0_shell_polarity_docfaithful_sim.py, axis0_spinor_720_sim.py, axis0_xor_sim.py, axis2_two_layer_sim.py, axis_loadbearing_n01_sim.py, bridge_tooth_carrier_to_terrains_sim.py ...
+44 sim(s): axis0_drive_fair_n01_test_sim.py, axis0_entropy_gradient_engine_pair_endtoend_sim.py, axis0_gauge_breaking_sim.py, axis0_gradient_closes_as_bookend_invariant_sim.py, axis0_ratchet_climb_sim.py, axis0_sector_sim.py, axis0_shell_polarity_docfaithful_sim.py, axis0_spinor_720_sim.py, axis0_xor_sim.py, axis2_two_layer_sim.py, axis_loadbearing_n01_sim.py, bridge_tooth_carrier_to_terrains_sim.py ...
 
 ### QIT entropy / modular theory
 3 sim(s): petz_dpi_forces_the_pawl_sim.py, qfi_fubini_study_placed_vs_forced_bkm_sim.py, umegaki_pawl_is_finite_modular_theory_sim.py
