@@ -52,6 +52,14 @@ by equal partitions. The PyG ensemble is perfect, but seed robustness and the
 shuffled-label null fail. The accepted ceiling is exact cross-runtime object
 construction with learning gates red, not learned perception.
 
+The follow-on exact census is recorded at
+[[projects/codex-ratchet/eca-behavioral-refinement-depth-census-2026-07-10]].
+Julia and JAX compare equal on all 97,920 full-state ECA rule-pair ledgers.
+Maximum strict refinement depth grows from 3 to 4 to 6 on rings 6, 7, and 8.
+This earns a finite depth map and establishes that multiround fixtures exist;
+it does not earn a learner, a hidden V2 split, four substages, or the engine
+schedule.
+
 ## Status
 
 Current repo-derived research digest and routing page.

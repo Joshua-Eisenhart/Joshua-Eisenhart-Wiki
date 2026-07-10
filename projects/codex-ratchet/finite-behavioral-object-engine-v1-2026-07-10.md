@@ -101,9 +101,16 @@ Use partition-novel fixtures requiring several strict refinement rounds.
 Require every seed to beat seed-matched optimizer-erased, depth-short, and
 shuffled-label controls under one frozen threshold protocol.
 
+The exact foundation census is now complete at
+[[projects/codex-ratchet/eca-behavioral-refinement-depth-census-2026-07-10]].
+It finds maximum strict depths 3, 4, and 6 on rings 6, 7, and 8, but also exposes
+the deepest fixtures and shows that a fresh learned benchmark needs a stronger
+sealed split than simply reusing those four witnesses.
+
 ## Routes
 
 - [[projects/codex-ratchet/finite-behavioral-object-engine-2026-07-10]]
+- [[projects/codex-ratchet/eca-behavioral-refinement-depth-census-2026-07-10]]
 - [[projects/codex-ratchet/claude-science-tool-truth-audit-2026-07-10]]
 - [[concepts/cross-view-attractor-nominalism-ledger-2026-07-10]]
 - [[projects/codex-ratchet/engine-16x4-axis6-current-state-2026-07-09]]

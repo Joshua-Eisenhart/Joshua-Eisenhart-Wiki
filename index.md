@@ -29,6 +29,7 @@ Use this as the low-friction entry point. The old full listing lives at [index-f
 - [[projects/codex-ratchet/claude-science-tool-truth-audit-2026-07-10]] — Exact packet-112 NumPy/JAX/Torch/Julia inventory, missing function receipts, console-harness boundary, and real-engine repair contract.
 - [[projects/codex-ratchet/finite-behavioral-object-engine-2026-07-10]] — Real Julia/JAX finite behavioral objects and attractors, bounded PyG topology fit, fabrication audit, and red engine-nonredundancy gate.
 - [[projects/codex-ratchet/finite-behavioral-object-engine-v1-2026-07-10]] — Held-out-rule object benchmark: exact cross-runtime core, perfect but architecture-installed PyG ensemble, failed learning controls, and corrected T9 semantics.
+- [[projects/codex-ratchet/eca-behavioral-refinement-depth-census-2026-07-10]] — Exact Julia/JAX census of 97,920 ECA rule-pair ledgers; real multiround depth tail, no learned-perception or engine-schedule promotion.
 - [[projects/codex-ratchet/cross-domain-test-target-registry-audit-2026-07-10]] — Corrected status map for the external cross-domain registry; target map is not a result ledger.
 - [[projects/codex-ratchet/source-intake/packet-107-physics-source-register-2026-07-09]] — Primary-source register for high-redshift `a0` evidence and Berry/Pancharatnam geometric phase.
 - [[projects/codex-ratchet/repository-research-and-tool-validation-2026-07-09]] — Pinned/tested external repo ledger for PySINDy, PyKoopman, PyDMD, deeptime, ALCO, QICS, and Physlib.
@@ -72,14 +73,6 @@ Use this as the low-friction entry point. The old full listing lives at [index-f
 - [[mimetic-holodeck-perception-and-engine-teeth-2026-07-05]] — perception as mimetic projection; ENGINE_TEETH objective function; doctrine + pre-registered measurement.
 - [[object-formation-mesh-perception-2026-07-05]] — objects as earned mesh survivors, not primitives; codex1+NVIDIA reviewed; Lev/JP integration.
 - [[entangled-dice-universe-creation-2026-07-06]] — unified cosmogenesis: dice=metaphor / entropy-gradient=mechanism / entanglement=load-bearing; 3-stage creation + sequential universes; codex1+NVIDIA reviewed; proposal-facing.
-- [[root-ratchet-ladder-continuous-climb-2026-07-06]] — continuous root-ratchet ladder candidate; current research routing only.
-- [[root-ratchet-mechanics-and-rolling-entangled-dice-2026-07-06]] — root-ratchet mechanics and dice-metaphor boundary; current research routing only.
-- [[finite-ordered-foundations-2026-07-04]] — F01+N01 as root axioms, 11 consequences, receipts-as-primary; salvaged 2026-07-04.
-- [[least-presumption-mss-third-root-2026-07-04]] — least presumption / MSS third root, dropped-then-regated; salvaged.
-- [[causality-fep-hume-neurology-2026-07-04]] — causality as compression narrative, FEP literal, Hume-by-neurology; salvaged.
-- [[empathy-origin-and-triple-identity-2026-07-04]] — model provenance: empathic pattern recognition, triple identity; salvaged.
-- [[bidirectional-scientific-method-2026-07-04]] — run the method in reverse; observer-in-the-box; salvaged.
-- [[one-thing-many-perspectives-doc-rule-2026-07-04]] — perspective-rotation method + documentation rule; salvaged.
 - [[leviathan-semantic-sovereignty-2026-07-04]] — Hobbes word-sovereignty, MMM as rigorous memetics; salvaged.
 - [[purgatory-working-space-2026-07-04]] — purgatory = the working space; hell/heaven edges provisional; salvaged.
 - [[constraint-manifold-simultaneous-2026-07-04]] — geometry layers co-active, doc order ≠ ratchet order; salvaged.
