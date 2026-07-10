@@ -149,6 +149,27 @@ temperature factors by assertion.
 6. Compare exact source/result hashes with the live Codex-Ratchet before any
    selective port.
 
+## Canonical Local Rerun
+
+The exact packet source was staged under `/tmp`, not Desktop or a repo, and run
+with the canonical sim-stack Python interpreter. It completed in 772.18 seconds
+with peak RSS 1,952,694,272 bytes and zero swaps. Stdout reproduced:
+
+```text
+144 pass / 0 fail / 0 skip -> GREEN
+```
+
+The cross-substrate row reported both one-qubit and three-qubit NumPy-oracle
+agreement with JAX, PyTorch, and Julia. The generated report SHA-256 is
+`af6693ffe3aff011ef50775d8272570aca4636554bab7822f84cca5245fcb8dd`.
+
+This upgrades `144/0/0` from a packaged assertion to a locally reproduced
+harness result. It does not promote the scientific claims. The generated JSON
+contains only `summary` and 144 result rows; it still lacks schema, command,
+runner identity, source/manifest hashes, timestamps, and top-level `all_pass`.
+Many rows remain stdout substring gates. The correct ceiling is therefore
+`LOCAL_HARNESS_GREEN_WITH_METADATA_AND_SCIENTIFIC_GATE_CAVEATS`.
+
 ## Related
 
 - [[concepts/brave-exceptional-math-thread-research-audit-2026-07-10]]
