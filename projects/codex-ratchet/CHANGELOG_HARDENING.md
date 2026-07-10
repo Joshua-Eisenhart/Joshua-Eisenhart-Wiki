@@ -1457,3 +1457,16 @@ UP-141 WITHDRAWN (retained as scaffold): "each stage protects a distinct invaria
   defined FROM the same core P, so intertwining is definitional not discovered). Both retained as documented scaffolds.
 - Saved the two source threads to reference_docs_external_reviews/. Honest frontier recorded: forced Malcev bracket to
   earn an octonionic rung; non-circular semiconjugacy (independent domain dynamics) to earn "one basin" at level 4.
+
+## UP-144 (harness 144->145 GREEN): basis-invariant semiconjugacy + three-level floor
+- engine_reaction_semiconjugacy_qutrit_floor_sim.py REGISTERED (145 GREEN). Non-circular level-4 "one basin, many
+  probes" test: search ALL bases for closure of population dynamics into a classical master equation; Q domain-forced,
+  K discovered+validated never installed. Result: vacuous at d=2 (auto-closes, ~linear-algebra fact, reported-not-gated),
+  non-generic at d=3 (random Lindbladians close in no found basis, ~1.0 vs classical ~1e-13 same budget) -> the
+  QIT<->reaction unification only becomes falsifiable at a >=3-LEVEL carrier. Independent three-LEVEL floor (distinct
+  from multi-qubit tomography floor). Gemini panel: "brilliantly derived and earned via parameter counting."
+- Two withdrawn scaffolds retained: three_view_semiconjugacy_gate (circular -- installed core matrix in every view);
+  engine_reaction_semiconjugacy_closure (qubit, basis artifact -- superseded by the basis-invariant version).
+- Panel-driven iteration (all fixed in math/measurement, never by relaxing a gate): circular->non-circular,
+  basis-artifact->basis-invariant, fitted-search->symmetric optimizer budget, absolute-threshold->control-relative
+  ratio, binary-obstruction->monotone amplitude sweep, "three-qubit"->"three-level", global-proof->stated cert limit.
