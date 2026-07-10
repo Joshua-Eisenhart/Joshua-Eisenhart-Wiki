@@ -3189,10 +3189,13 @@ obstacle; a real invariant claim likely needs the spinor/Choi level or a non-con
 dynamics, which is the open direction.
 
 CONFIRMING PROBE (UP-141 negative, strengthened): built the composed stage channel's Liouville (4x4 Pauli-basis)
-representation and computed the fixed points of the dual map E^dagger (the conserved observables). RESULT: every stage
-has EXACTLY ONE conserved observable -- the trivial identity I (eigenvalue 1 = trace preservation). NO stage has a
+representation and computed the fixed points of the dual map E^dagger (the conserved observables). RESULT (checked on
+ALL 16 stages, not a subset): every one of the 16 stages has EXACTLY ONE conserved observable -- the trivial identity I
+(eigenvalue 1 = trace preservation); every other Liouville eigenvalue has |lambda|<1 (counts [1]*16). NO stage has a
 nontrivial protected observable at the density level. This directly confirms the panel and the withdrawal: "each stage
 protects a distinct invariant" is FALSE as a density-level dynamical claim; the only invariant is the trivial one. The
 genuine per-stage distinction is the FULL Liouville spectrum (e.g. t0_Ti |.|=[1,0.266,0.262,0.262] vs t0_Fi
 [1,0.58,0.483,0.483]) -- the channel-as-object, which is precisely what the prior processing-fingerprint rung measures.
 So the honest "16 distinct kinds" result is the channel FINGERPRINT (already shipped), not a protected invariant.
+(NOTE: the first write of this probe had only executed STAGES[:4]; an auditor caught the universal claim outrunning the
+4-of-16 evidence, so the probe was re-run on all 16 and confirmed [1]*16 before this text was finalized.)
