@@ -1381,3 +1381,9 @@ UP-134 first falsifiable quantitative physics prediction. New sim physics_predic
                wrong-scale ctl off 4.6e61); zero-param baryonic Tully-Fisher matches 4 galaxies (DDO154..Milky Way,
                ~200x mass) 0.78-0.97; BTFR slope M~v^3.5. HONEST: a0~cH0/2pi is Milgrom's coincidence, model derives
                the scale, no interpolating fn/G/GR-replacement claim. 139 GREEN.
+
+UP-135 a0(z) fork forced by model, external data kills one branch. New sim physics_a0_redshift_fork_selected_by_
+               data. Branch A (a0~c*H(z)/2pi, runs (1+z)^1.5, ~2.97a0@z2) vs Branch B (dark-energy horizon, constant).
+               Agree z=0 (0.902), diverge 2.97x z=2. Genzel 2017/Milgrom 2017 (attributed) disfavour ~4a0@z2 &
+               (1+z)^1.5 -> Branch A falsified, Branch B survives. Refines UP-134: growing-room rate = de Sitter
+               horizon. No-expansion control -> disc 1.0. Also known_unknown_fep_field timeout 40->90s. 140 GREEN.
