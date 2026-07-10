@@ -76,3 +76,36 @@ velocities are canonical baryonic-Tully-Fisher anchors).
 3. **Predict the running of a0 with redshift.** If a0 = c*H0/2pi and H0 evolves, the model predicts a0(z) — a distinctive,
    falsifiable signature that plain MOND (constant a0) does not make. This would be a genuinely *new* prediction, not a
    re-derivation of a known coincidence.
+
+
+---
+
+# UP-135 addendum: the a0(z) prediction, and how external data refined it
+
+UP-134 flagged a0(z) running as the one genuinely NEW, distinguishing prediction (plain MOND has constant a0). Working
+it out forced a fork on what "the growing room rate" is, and external high-z data adjudicated it:
+
+- **Branch A** — the growing-room rate is the *total* expansion H(z) = H0*sqrt(Om(1+z)^3 + OL). Then a0(z) = c*H(z)/2pi
+  RUNS, scaling as (1+z)^(3/2) at high z: a0(z=2) ~ 2.97 * a0(0).
+- **Branch B** — the growing-room rate is the *dark-energy / de Sitter horizon* rate (the literal "dark energy came
+  first" reading of the cosmogenesis). Then a0 is ~CONSTANT in cosmic time.
+
+Both give the same z=0 anchor (ratio 0.90 to the observed a0), so the local match cannot distinguish them — but they
+diverge by a factor ~3 at z=2, a real, testable discriminator.
+
+**External data selects Branch B.** Genzel et al. 2017 (Nature; arXiv:1703.04310) measured falling, strongly
+baryon-dominated rotation curves for six massive discs at z~0.9-2.4. Milgrom 2017 (arXiv:1703.06110), as reported
+(attribution — the papers' titles/URLs are confirmed, but the exact page wording was not available to re-verify in this
+environment), analyzed these in MOND and constrains variation of a0 with cosmic time, disfavouring a ~4a0 rise by z~2 and
+specifically a0 ~ (1+z)^(3/2), with the data consistent with a constant a0. Taking that at face value, **Branch A is
+falsified** (its ~2.97*a0 at z=2 and (1+z)^1.5 scaling land squarely in the disfavoured region) and **Branch B survives**.
+
+This is the constraint doing real work: the model made a distinguishing prediction, and observation adjudicated the
+model's own internal fork — pushing it to the dark-energy-horizon reading of its cosmogenesis (which is also Milgrom's
+preferred constant-a0). It is honest in both directions: had the high-z data shown a0 rising as (1+z)^1.5, Branch B would
+have been the one killed.
+
+**Caveats.** This does not confirm the model. The gate tests only the model-side numbers (that Branch A lands in the
+disfavoured region and Branch B does not); the external exclusion is cited, not re-derived. The strongest follow-up
+remains a full SPARC + high-z joint fit that measures the a0(z) slope directly against the data rather than against a
+quoted bound.
