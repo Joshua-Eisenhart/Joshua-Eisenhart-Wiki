@@ -2,7 +2,8 @@
 """=== WITHDRAWN SCAFFOLD -- NOT REGISTERED IN THE HARNESS (UP-141, 2026-07-10) ===
 Built to sharpen "each stage is its own kind of intelligence" from the prior processing-fingerprint rung to "each
 stage PROTECTS A DISTINCT INVARIANT." Ran PASS standalone, then the cross-family panel (Gemini-3.1-pro, Grok-4.5,
-GLM-5.2; Qwen timed out) UNANIMOUSLY killed the invariant framing, and they were right:
+GLM-5.2; Qwen timed out) killed the INVARIANT FRAMING -- unanimous on points 1-3 below (the composite-key fingerprint,
+the tautological spinor gate, the installed 12+4 split); they were right:
   1. The "invariant" is a HAND-CONCATENATED FEATURE VECTOR [op_axis, terrain_contraction_spectrum, terrain_fixed_point,
      det] -- NOT the protected eigenspace of the composed stage channel. It glues together SEPARATE properties of the
      operator and the terrain; distinctness is a composite key, installed by the source TERR/NATIVE tables, not a
@@ -11,7 +12,10 @@ GLM-5.2; Qwen timed out) UNANIMOUSLY killed the invariant framing, and they were
      flips with eps BY CONSTRUCTION; it cannot fail whenever the collapses are eps-mirror pairs.
   3. g_density is largely BY CONSTRUCTION: TERR hand-picks which terrains are center-fixed and NATIVE assigns their
      operators, so the 12-distinct + 4-chirality-mirror split is pre-installed by the tables, not discovered.
-  4. genuine_preservation (|lambda|=1) is true by the op() definitions (Ti/Te pinches, Fi/Fe unitaries), not a failable test.
+  4. genuine_preservation (|lambda|=1): PANEL SPLIT (not unanimous) -- Grok [warn] "rubber-stamp, true by op() defs";
+     GLM [ok] "genuinely sound and failable, numerically verifies pinch contracts two axes / rotation preserves all
+     three"; Gemini silent. It is a real computation but it cannot fail given the operator definitions, so it does not
+     rescue the withdrawn invariant claim (it only re-states the known pinch/rotation split from the prior rung).
 THE REAL FINDING (a genuine negative, worth keeping): the composed stage channel has NO genuine protected invariant at
 the DENSITY level -- the terrain GKSL flow contracts every axis to its fixed point. That is WHY the sim retreated to
 concatenating operator-level + terrain-level pieces, which is exactly the composite-key move the panel caught. So
