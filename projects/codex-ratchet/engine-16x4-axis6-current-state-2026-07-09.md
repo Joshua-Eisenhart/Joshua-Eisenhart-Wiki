@@ -1,5 +1,44 @@
 # QIT Engine 16 x 4 / Axis-6 Current State - 2026-07-09
 
+## Architecture Correction - 2026-07-10
+
+The intelligence-bearing architecture has **16 stages total**, not 64
+intelligences. Each stage is intended to perform a distinct kind of intelligent
+work. A stage may internally process through four co-ratchet substages. Thus
+`16 x 4 = 64` is only the provisional stage-by-substage execution grid.
+
+The QIT engine core is the recursive entropy/geometry co-ratchet, not the grid:
+
+```text
+constraint on distinguishability + MSS + finite noncommutation
+-> minimal survivor geometry
+-> state/probe object on that geometry
+-> state-generated operator and entropy structure
+-> entropy/distinguishability pawl tests what is preserved or unresolved
+-> unresolved demand forces the weakest next geometric lift
+-> the enriched survivor loops back through the same foundations
+```
+
+The two engine types are mirrored deductive/inductive organizations of this
+same process. They are not defined by arbitrary Ti/Te/Fi/Fe permutation labels.
+The 16 stages are the differentiated intelligence modes; any four substages are
+their internal bidirectional processing, all inheriting the stage's one Axis-6
+precedence sign.
+
+Current mathematical support for the core includes GNS state-dependent
+operator geometry, modular Hamiltonians `K_rho=-log(rho)`, entropy as
+`<K_rho>`, relative entropy as modular free-energy difference, DPI monotonicity,
+and the BKM metric as the local Hessian geometry of relative entropy. Current
+sims also implement finite survivor/demand steps, terrain channels, ordered
+geometry, and entropy readouts.
+
+What remains unclosed is the full recursive engine: current receipts do not yet
+show all 16 stages performing distinct useful intelligence through one common
+history-dependent co-ratchet, do not emit four internal substages per stage
+without assuming four, and do not complete the return from entropy demand to a
+new minimal geometry and back through the next pass. Those are the primary
+engine gates; operator-permutation rankings are subordinate diagnostics only.
+
 ## Verdict
 
 The requested architecture is mathematically coherent, and a concrete

@@ -171,7 +171,7 @@ Before live consumption, the lane still needs:
 
 The engines are not all fake: the 130-case process really executes, the three numerical runtimes are exercised, and the fresh 16-stage affine re-identification has measurable teeth.
 
-The system is not yet the whole claimed machine. This intake does not establish 64 unique intelligences, complete Type-1/Type-2 bidirectional science, learning, QIT perception, object formation, MMM/ontology driving, Axis0 closure, a full geometry/entropy ratchet, or live Lev mesh utility.
+The system is not yet the whole claimed machine. The intended architecture has 16 intelligence-bearing stages; the 64-row surface is only their provisional four-substage expansion. This intake does not establish four internal substages per stage, complete Type-1/Type-2 bidirectional science, learning, QIT perception, object formation, MMM/ontology driving, Axis0 closure, a full geometry/entropy co-ratchet, or live Lev mesh utility.
 
 The deepest earned result from this intake is narrower and useful: a finite modular/Umegaki identity, an exact local BKM metric on the Schmidt marginal, a separate real Berry connection on the global phase family, and a fresh stage-noncollapse result with a preserved Type-2 failure.
 

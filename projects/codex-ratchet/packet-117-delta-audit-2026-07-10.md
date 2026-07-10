@@ -121,7 +121,8 @@ Agreement:
 - packet 116's local green is real execution but metadata/string-gate weak;
 - UFPO v1 produced no learned test result;
 - temporal-shuffle parity is a serious validation warning;
-- installed 64 rows do not establish 64 intelligences;
+- installed 64 rows are only a provisional `16 stages x 4 internal substages`
+  grid and do not establish additional intelligence-bearing stages;
 - the next experiment must use independently specified dynamics, frozen
   projections/training, held-out interventions, explicit provenance, and hard
   shuffle/circularity kills.

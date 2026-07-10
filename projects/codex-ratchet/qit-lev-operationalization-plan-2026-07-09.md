@@ -4,7 +4,7 @@
 
 Build the useful system first. Keep the deepest math as a parallel research program.
 
-The current repo is sufficient to attempt a real SME object/evidence runtime. It is not sufficient to claim full QIT perception, 64 intelligences, Axis0, a completed manifold, or physics closure.
+The current repo is sufficient to attempt a real SME object/evidence runtime. The intended intelligence-bearing architecture has 16 stages; `16 x 4 = 64` is only a provisional internal stage-by-substage execution grid, not 64 intelligences. The repo is not sufficient to claim full QIT perception, four earned internal substages per stage, Axis0, a completed manifold, or physics closure.
 
 Tracked implementation authority:
 
