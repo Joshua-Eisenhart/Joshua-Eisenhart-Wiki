@@ -1,5 +1,5 @@
 # WITHDRAWN & FAILED -- the NEGATIVES (as informative as the positives)
-_Regenerated 2026-07-10 09:09 UTC. Withdrawn rungs parsed from the ledger; retained scaffolds live in sims_and_scripts/ but are NOT registered._
+_Regenerated 2026-07-10 19:43 UTC. Withdrawn rungs parsed from the ledger; retained scaffolds live in sims_and_scripts/ but are NOT registered._
 
 Proposed math that FAILS to be forced, and sims whose gates did not hold up, are first-class information: they tell you
 what the constraints EXCLUDE or leave merely constructible. Nothing is deleted; withdrawals are recorded.
@@ -9,6 +9,7 @@ what the constraints EXCLUDE or leave merely constructible. Nothing is deleted; 
 - **UP-137** -- WITHDRAWN -- "field of engines weakest rung" does NOT earn a rung (2026-07-09)
 - **UP-140** -- WITHDRAWN (retained as scaffold): HoTT/braid-group trajectory topology -- placement real, but no failable gate (2026-07-10)
 - **UP-141** -- WITHDRAWN (retained as scaffold): "each stage protects a distinct invariant" -- composite-key not a forced invariant (2026-07-10)
+- **UP-143** -- "Process all the proposed math" (brave-thread disposition) + two withdrawn discriminators (harness stays 144)
 
 ## Standing negatives (excluded / constructible-not-forced) -- see MATH_INVENTORY for the deciding constraint
 - max-plus/tropical: EXCLUDED as foundation (interference breaks monotonicity). [UP-138]
