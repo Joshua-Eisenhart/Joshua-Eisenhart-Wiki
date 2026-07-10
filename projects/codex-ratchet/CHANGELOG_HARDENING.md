@@ -1405,3 +1405,9 @@ UP-137 WITHDRAWN. field_pair_of_engines_weakest_rung de-registered from harness 
                LLM panel (Gemini-3.1-pro/Grok-4.5/Qwen-3.5/GLM-5.2) caught the rung's core gate as tautological (3 of
                4); rebuild showed opposite vs same Weyl chirality give identical negativity -> generic 2-qubit QM, not
                a theory-specific field rung. Overclaimed rung withdrawn, not banked. Field-of-engines rung stays OPEN.
+
+UP-138 PLACE max-plus/tropical/idempotent algebra (new math from attachments). ONE failable gate: coherent
+               interference violates max-plus monotonicity (combined 0.0002 < strongest 1.0, visibility 0.9999);
+               decohered control restores monotonicity (-1.0) and kills visibility. -> max-plus is NOT the nonclassical
+               foundation; it is the T->0 deductive/Bellman-limit arithmetic (context, not gated). Cross-family panel
+               stripped two tautological/textbook gates + smuggled oracle prose before shipping. 142 GREEN.
