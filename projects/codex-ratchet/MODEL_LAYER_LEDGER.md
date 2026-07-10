@@ -3032,3 +3032,33 @@ unification -- the physics acceleration scale's 2pi and the engine's own geometr
 = the KMS/modular circle, thermal-time UP-124 cited). b1/b2 are now RECORDED measurements (not gate legs); the
 horizon/thermal reasoning TILTS toward b2 (a horizon temperature is set by the Lambda rate) but this is reasoning, not
 a gated resolution. Still 141 GREEN.
+
+## UP-137 -- FIELD OF ENGINES, weakest rung: a pair of engines is one object (MSS) (2026-07-09)
+
+First rung above the single engine, into the owner's axes-7-12 "field of engines" level (each node of a space is
+itself an engine). Built strictly under MSS -- admit ONLY the structure the constraints FORCE. Harness 142 GREEN.
+
+MSS DERIVATION. The two engines are already forced (the two Weyl chiralities, Type-1 eps=+1 / Type-2 eps=-1). "Two
+engines together are a new kind of intelligence" (owner) is non-trivial ONLY if the PAIR carries a DOF neither engine
+has alone. A pure PRODUCT of two engines has none -- every observable is fixed by its two marginals, so a product pair
+is not a new object, just two engines side by side. The WEAKEST structure making the pair an object is therefore ONE
+relational (entangling) generator (entanglement is core-forced) -- the smallest admissible leap, MSS: one Z(x)Z, no
+interaction Hamiltonian beyond it, no shared internal structure.
+
+RESULTS (failable, controls flip):
+  (1) PAIR IS A NEW OBJECT: relational content R = max_probes trace_dist(joint channel, product of its own marginals)
+      = 0.46 with the relational generator on; product control (g=0) gives R = 0 EXACTLY -> the pair reduces to its
+      parts iff there is no relation.
+  (2) SURVIVES PROBE ROTATION (identity a=a iff a~b): R recovered from a DISJOINT novel probe family matches the seen
+      family (0.46 vs 0.46) -> R is a channel property not a probe artifact; and a DIFFERENT object (coupling g'=0.25)
+      is told apart on those same probes (R'=0.23) -> re-identification is non-vacuous. (Earlier shuffle control was
+      ill-posed for a max-over-probes statistic; replaced with same-matches/different-separates, auditor-discipline.)
+  (3) MSS MINIMAL & NECESSARY: one relational DOF is SUFFICIENT (R>0) and NECESSARY (g=0 -> 0); irreducible to the
+      marginals by construction. The minimal forced pair-structure is exactly one relational DOF -- the operational
+      meaning of "a new kind of intelligence at the two-engine layer": a DOF that lives in the pair, invisible to
+      either engine alone.
+
+HONEST SCOPE: earns ONLY the weakest field rung. Does NOT build the field metric (flat vs curved -- next rung, where
+the owner conjectures the exceptional algebras may finally become load-bearing), does NOT claim the exceptional
+algebras appear here, does NOT presume the axes-7-12 layout -- the pair-object emerges from the distinguishability
+constraint. scratch_diagnostic, owner doctrine under test.
