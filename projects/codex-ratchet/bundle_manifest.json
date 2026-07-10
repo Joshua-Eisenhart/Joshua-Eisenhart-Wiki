@@ -1,11 +1,11 @@
 {
-  "generated_utc": "2026-07-10 09:09 UTC",
+  "generated_utc": "2026-07-10 13:29 UTC",
   "harness": {
-    "pass": 143,
+    "pass": 144,
     "fail": 0,
     "skip": 0,
     "green": true,
-    "registered_sims": 123
+    "registered_sims": 124
   },
   "versions": {
     "numpy": "2.4.6",
@@ -287,6 +287,7 @@
     "foundations_reaudit_forcing_robustness_sim.py",
     "four_substages_emerge_from_dual_ratchet_sim.py",
     "four_substages_run_dual_ratchet_stage_sim.py",
+    "four_substrate_agreement_harness_sim.py",
     "holevo_bound_sim.py",
     "holism_does_not_force_octonions_sim.py",
     "holodeck_sim.py",
