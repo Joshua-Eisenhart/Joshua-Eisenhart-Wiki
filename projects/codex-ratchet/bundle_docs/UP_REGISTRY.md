@@ -1,5 +1,5 @@
 # UP REGISTRY -- every rung
-_Regenerated 2026-07-10 08:45 UTC. Parsed from MODEL_LAYER_LEDGER.md (37 entries)._
+_Regenerated 2026-07-10 09:04 UTC. Parsed from MODEL_LAYER_LEDGER.md (38 entries)._
 
 - **UP-103** -- EPISTEMIC active inference: selecting actions that reduce the unknown (2026-07-08)
 - **UP-104/105** ~~WITHDRAWN~~ -- 64/64 overclaim WITHDRAWN + substage architecture DISCRIMINATED (2026-07-08)
@@ -38,3 +38,4 @@ _Regenerated 2026-07-10 08:45 UTC. Parsed from MODEL_LAYER_LEDGER.md (37 entries
 - **UP-138** -- PLACING new math: max-plus / tropical / idempotent algebra is a CLASSICAL LIMIT, not the foundation (2026-07-10)
 - **UP-139** -- PLACING new math: Quantum Information Geometry (Fubini-Study / QFI) vs the model's BKM metric (2026-07-10)
 - **UP-140** ~~WITHDRAWN~~ -- WITHDRAWN (retained as scaffold): HoTT/braid-group trajectory topology -- placement real, but no failable gate (2026-07-10)
+- **UP-141** ~~WITHDRAWN~~ -- WITHDRAWN (retained as scaffold): "each stage protects a distinct invariant" -- composite-key not a forced invariant (2026-07-10)
