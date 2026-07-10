@@ -2990,3 +2990,33 @@ disfavoured region, Branch B does not); the external exclusion itself is cited, 
 doing real work: the model made a distinguishing prediction and observation adjudicated its internal fork. Owner
 doctrine under test. Also raised known_unknown_fep_field harness timeout 40->90s (genuinely ~30s, spurious RED under
 contention). scratch_diagnostic.
+
+## UP-136 -- the physics result LOOPS BACK and deepens the core (2026-07-09)
+
+Answering the owner's question ("are the physics sims looping back to make the model better?"): until now, NO -- the
+physics bridges (UP-134/135) grounded the model in real data but had not fed back into the foundation (verified: the
+core cosmogenesis sims did not carry the UP-135 refinement). UP-136 closes that loop. Harness 141 GREEN.
+
+WHAT LOOPS BACK. UP-135 (data-selected) established a0 is CONSTANT in cosmic time; that pins the previously-unpinned
+"growing-room rate" invoked by three loosely-coupled layers -- physics a0=c*H_room/2pi (134/5), the Axis-0 rising-ceiling
+asymptote (131), and the cosmogenesis dark-energy-first term (0.6) -- as ONE constant de Sitter/Lambda rate. Cross-layer
+consistency verified: H_dS=H0*sqrt(OL) is the far-future asymptote of H(z) (H(z)/H_dS -> 1 as z -> -1), while the matter
+term Om(1+z)^3 -> 0, so only Lambda can be the shared constant (exactly why UP-135's data killed the matter-driven
+Branch A).
+
+THE DEEPENING (a NEW open fork, not a clean win). The loop-back exposes a sharp falsifiable question the core did not
+have: TWO readings of the constant rate, related by the exact algebraic identity b2 = b1*sqrt(OL) (gap = b1*(1-sqrt(OL))):
+  b1 FROZEN-AT-TODAY  a0=c*H0/(2pi)            = 0.90*observed (matches, but phenomenological -- does not explain WHY constant)
+  b2 FUNDAMENTAL de SITTER a0=c*H0*sqrt(OL)/(2pi)= 0.76*observed (explains WHY constant -- Lambda is the time-independent
+     rate -- but sits ~15-25% low; sensitive to H0 67-73 and a0_obs 1.0-1.2e-10).
+The reading that PHYSICALLY explains constancy (b2) is the one in mild tension with data; the matching reading (b1) is
+phenomenological. RECORDED, not resolved. The b2<b1 tension is the ALGEBRAIC factor sqrt(OL)<1 (structural, not a
+hand-picked bound -- gate checks the exact identity), and the fork is falsifiable in the dark-energy fraction OL (OL=1
+-> b1, OL=0 -> 0), decidable by better joint a0/H0/OL measurement. This is the deepening: the core now owns a sharp
+falsifiable question instead of an unpinned "growing room."
+
+Also this window: cross-checked the sims' hand-rolled octonion table (used across UP-116/117/118/122) against three
+BASIS-INDEPENDENT oracles -- Hurwitz |ab|=|a||b| (3.6e-15), alternativity x(xy)=(xx)y (3.1e-14), genuine
+nonassociativity (47) -- all PASS -> the octonion arithmetic is a valid octonion algebra, oracle-verified in-house (the
+scientific role codex's ALCO/GAP install would play, done here without the heavyweight CAS). scratch_diagnostic, owner
+doctrine under test.
