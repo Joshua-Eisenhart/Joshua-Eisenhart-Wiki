@@ -155,8 +155,8 @@ def main():
     qubit_all_close=bool(all(x<1e-6 for x in q2))
 
     # (2) qutrit non-vacuity: random qutrit Lindbladians close in NO basis (genuine polished minimization).
-    #     3 samples x 6 optimizer starts; the gap (all >~0.8 vs classical ~1e-12) is large so this is decisive.
-    q3=[min_defect_qutrit(rand_lindblad(3,rng),starts=6) for _ in range(3)]
+    #     SAME 8-start budget as the qubit search (symmetric -- no search intensity fitted to the desired outcome).
+    q3=[min_defect_qutrit(rand_lindblad(3,rng),starts=8) for _ in range(3)]
     qutrit_generic_noclose=bool(all(x>0.1 for x in q3))
 
     # (3) classical recovery at 3 levels -- POSITIVE CONTROL that the search finds closure when it exists (non-trivial
