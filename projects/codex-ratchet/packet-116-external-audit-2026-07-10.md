@@ -32,6 +32,11 @@ and hashes binding the report to the source/manifest. Per-sim claims must still
 be audited for whether their gates are failable, independent, and stronger than
 definitions or port agreement.
 
+A relative-path comparison against live `system_v7/constraint_core` found 442
+of 491 packet files byte-identical, 19 overlapping but changed, and only 30
+without a same-relative-path live counterpart. The packet is therefore mostly
+a snapshot plus a small delta, not 491 new artifacts.
+
 ## What Is Genuinely Useful
 
 - The generated `MATH_INVENTORY.md` and `WITHDRAWN_AND_FAILED.md` make negative
@@ -46,6 +51,13 @@ definitions or port agreement.
   transport, quantum Doob transforms, finite-cut Jacobson tests, AQUAL/QUMOND
   benchmarks, QCA continuum limits, process matrices, Chu spaces, coalgebra,
   sheaf contextuality, and reaction-network tools.
+
+The strongest new code is the four-substrate port-fidelity harness. Its stored
+result reports maximum deviations near `3.11e-15` for JAX x64, `1.11e-15` for
+PyTorch float64, `4.48e-11` for Julia, and `2.20e-6` for a float32 kill control.
+That is credible packaged numerical-port evidence, subject to rerun. It covers
+one shared kernel and cannot establish that the whole core has independent
+multi-engine derivations.
 
 PyTorch must not be reduced to a training-only lane. In this program it can be
 load-bearing for tensor computation, autograd, `torch.func`, graph and network
@@ -74,6 +86,17 @@ definition of PyTorch.
   from lossy unseen views.
 - The `a0 = c H0 / 2 pi` bridge and scalar entropy-gradient gravity language
   remain hypotheses with unresolved derivation and field-equation gaps.
+- `field_pair_of_engines_weakest_rung_sim.py` and its stored result describe
+  different experiments: the source is a rebuilt conditional negativity test,
+  while the result retains an older trace-distance formulation and a stronger
+  forced claim. Reject that stale source/result pair.
+- The runner accepts many tests by searching stdout for literal `PASS` strings.
+  Its aggregate `green` condition is `fail == 0`, so optional-tool skips can
+  coexist with green. This is below canonical admission even when the count is
+  reproduced.
+- `panel_adversarial_review.py` is executable API-client code, but no durable
+  panel response, prompt hash, model metadata, or panel result JSON is packaged.
+  Panel-consensus prose is therefore unverified advisory provenance.
 
 ## Sharp Foundation Corrections
 

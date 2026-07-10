@@ -4,6 +4,20 @@ Status: noncanonical research and implementation routing. This page audits an
 external recommendation against the live Codex-Ratchet estate. It does not
 admit a cross-view kernel, shared attractor, or new tool.
 
+## Source Binding
+
+The larger 1,698-line proposal thread was read in full and deduplicated into
+this intake:
+
+- source: Codex attachment `dab5b08e-aa58-45d5-a929-6a9689046afc/pasted-text.txt`
+- SHA-256: `a53135709c57ed7665d00ac9dcb2836ef948b93d7c84875b3b386e2ac8b13b41`
+- size: 1,698 lines, 41,995 bytes
+
+Its central assertion, that all domains are quotient views of one finite
+survivor process, remains an unsupported synthesis. Its strongest content is
+the executable test program: independent projections, measured semiconjugacy,
+transported prediction, paired intervention, and root-constraint ablation.
+
 ## Correction First
 
 The recommendation is directionally right that wiring matters more than adding
@@ -167,6 +181,27 @@ grouping, commuting, and one-axis controls.
 This order prefers one falsifiable bridge over a broad new framework. It also
 keeps the already-earned observation-design negative result on the critical
 path.
+
+## Current Instrument Priority Matrix
+
+| Instrument | Owner/placement | First admissible test | Current state |
+|---|---|---|---|
+| Carlen-Maas transport | Ratchet QIT | detailed-balance terrain gradient flow with non-DB and Hamiltonian kills | bounded diagnostic exists; no universal engine identity |
+| quantum Doob transform | Ratchet Axis-0/history | tilted generator, CPTP transformed process, erased-tilt and no-signalling controls | queued |
+| Jacobson finite-cut equilibrium | Ratchet physics | finite cut-state stationarity approaching a local tensor relation | research only |
+| AQUAL/QUMOND and SPARC | Ratchet physics | derive rather than install `mu(x)`; preregister RAR, lensing, and nuisance controls | absent |
+| Mannheim global kernel | Ratchet physics control | compare `L Phi=rho` and `L^2 Phi=rho` on one finite shell graph | absent |
+| quantum cellular automata | Ratchet carrier bridge | long-wavelength Weyl dispersion with locality/isotropy and wrong-automaton kills | background only |
+| process matrices | Ratchet order control | test definite versus indefinite operational order without primitive-causality claims | absent |
+| finite Chu tables | Ratchet instrument | state/probe quotient recovery with row/column mutation controls | design only |
+| coalgebra/bisimulation | Ratchet CS view | independently sourced behavioral quotient and semiconjugacy residual | partial conceptual support |
+| sheaf contextuality | Ratchet local-view instrument | dynamical gluing obstruction with wrapper-tautology and carrier-smuggling kills | partial fixed-cover support |
+| Maude | isolated formal profile | bounded bracket/order macro-confluence and rule mutation | not installed |
+| TLA+/Apalache | Leviathan | idempotency, quorum, replay, stale projection, and append-only graph invariants | not installed |
+| Catalyst | isolated Julia profile | frozen autocatalytic network under reversed/grouped/commuting schedules | not installed |
+
+This table is priority, not admission. New package installation follows a
+frozen test card, never the reverse.
 
 The broader basin-engineering and application vision is bounded separately at
 [[concepts/basin-engineering-science-operations-2026-07-10]]. Its five verbs
