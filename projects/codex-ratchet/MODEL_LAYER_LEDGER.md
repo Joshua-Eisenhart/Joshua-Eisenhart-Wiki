@@ -3199,3 +3199,24 @@ genuine per-stage distinction is the FULL Liouville spectrum (e.g. t0_Ti |.|=[1,
 So the honest "16 distinct kinds" result is the channel FINGERPRINT (already shipped), not a protected invariant.
 (NOTE: the first write of this probe had only executed STAGES[:4]; an auditor caught the universal claim outrunning the
 4-of-16 evidence, so the probe was re-run on all 16 and confirmed [1]*16 before this text was finalized.)
+
+## UP-142 -- Four-substrate port-fidelity certification (harness 144 GREEN)
+DOCTRINE TRIGGER: external review found ~136/145 sims numpy-ONLY, violating the substrate doctrine (julia arbiter;
+jax+julia standing pair; torch when learning; all four when a result is stamped; numpy alone carries classical
+presumption). RESPONSE (not a cosmetic file-by-file rewrite -- the KERNELS are the load-bearing content):
+- Installed Julia 1.10.5 arm64 (binary reachable; package registry still TLS-blocked -> LinearAlgebra stdlib only, the
+  dependency-free arbiter; tarball saved as artifact so it survives the workspace sweep) + torch 2.13.0.
+- substrate_kernels/{kernels_np.py, julia_kernels.jl}: the load-bearing QIT primitives (8-terrain GKSL flow fixed
+  points, von Neumann entropy, Liouville spectra) as numpy + Julia implementations.
+- four_substrate_agreement_harness_sim.py: numpy == JAX(x64) == Torch(f64) == Julia to <1e-9 on all 8 terrains.
+  RESULT: JAX 3.11e-15, Torch 1.11e-15, Julia 4.48e-11. CONTROL: JAX float32 (complex64) 2.20e-6 >> x64 -> the float32
+  truncation the doctrine warns about is caught, and the tolerance is a real (non-vacuous) gate.
+- 3-qubit floor also cross-substrate certified via existing engines/validate_engines_3q.py: jax/torch/julia vs the
+  numpy oracle, worst pvec deviation 9.89e-13 across 16 stages (63-dim Pauli), min pairwise 0.1742.
+HONEST CEILING (unanimous adversarial panel catch, ADOPTED): this is PORT-FIDELITY / reproducibility engineering, NOT a
+forced-physics rung -- agreement of correctly-ported float64 linear algebra is near-automatic; it certifies no core
+result rests on ONE library's numerics and catches the float32 artifact, but it does not independently re-derive the
+model per substrate. classification=port_fidelity_certification, promotion_allowed=false. Registered because the gate is
+genuinely failable (mis-port, missing Julia, or float32 fails it) and the doctrine requires standing substrate
+certification. Panel also caught + FIXED a numpy-constant leak in the torch port (np.sqrt->math.sqrt).
+JAX GOTCHA recorded: JAX defaults to complex64 and silently truncates complex128 unless JAX_ENABLE_X64=1.
