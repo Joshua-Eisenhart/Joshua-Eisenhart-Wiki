@@ -3062,3 +3062,23 @@ HONEST SCOPE: earns ONLY the weakest field rung. Does NOT build the field metric
 the owner conjectures the exceptional algebras may finally become load-bearing), does NOT claim the exceptional
 algebras appear here, does NOT presume the axes-7-12 layout -- the pair-object emerges from the distinguishability
 constraint. scratch_diagnostic, owner doctrine under test.
+
+## UP-137 WITHDRAWN -- "field of engines weakest rung" does NOT earn a rung (2026-07-09)
+
+UP-137 was shipped (bundle v108, harness 142) claiming the first field-of-engines rung: two Weyl engines become one
+object via one relational DOF. A cross-family LLM adversarial panel (Gemini-3.1-pro, Grok-4.5, Qwen-3.5, GLM-5.2 --
+the newly-added inference keys) then reviewed it and 3 of 4 (Qwen rated it sound) caught the central control as a
+TAUTOLOGY: relational content R was DEFINED as deviation-from-product, so the g=0 control gave R=0 by linear algebra,
+not physics -- a gate that cannot fail.
+
+Rebuilt around entanglement negativity + a classical-correlation control (a real failable test). But the panel's
+deeper objection held, and a direct test confirmed it: opposite-Weyl-chirality and same-chirality pairs give IDENTICAL
+negativity (0.4660) -- the model's own structure is NOT load-bearing; the result is generic 2-qubit QM. A
+chirality-sensitive relational phase looked promising but a parameter sweep showed its sign-flip is an angle artifact
+(holds only at th=1.2), not a robust invariant.
+
+DECISION: de-registered from the harness (back to 141 GREEN). The sim file is retained as a scaffold documenting what
+failed. The genuine field-of-engines rung remains OPEN: it needs a pair observable that is (a) relational, (b)
+load-bearing on this model's chirality/Weyl structure, and (c) robust -- none held together here. This is the
+climb-and-audit discipline: an overclaimed rung caught and withdrawn rather than banked. The adversarial panel is now
+a standing review tool (advisory only; never gates a verdict).
