@@ -1361,3 +1361,9 @@ UP-131 Axis-0 closes end-to-end on the engine pair as the GRADIENT invariant. Ne
                positive at BOTH bookends (front/late mean 0.158). Controls: gap-vs-S corr +0.016 (not renamed entropy);
                open-room ceiling > frozen(no-room) ceiling by min 0.1435 (room genuinely opens, computed). Axis-0 =
                dark-energy-as-growth rosetta. Closes the biggest engine seam. 136 GREEN.
+
+UP-132 4 substages RUN inside a stage as the dual ratchet. New sim four_substages_run_dual_ratchet_stage. The 4
+               stage operators {Fi,Ti,Fe,Te}={T,F kind}x{i,e dir}=2 axes x 2 dirs: F(Fi,Fe)=geometry rotations
+               (dS~0.003), T(Ti,Te)=entropy pinches (dS~0.105). Distinct work (min pairwise 0.622, single-op ctrl->0);
+               T/F=entropy/geometry dual; alternating cycle advances geom & entropy on alternating legs (4/4 vs
+               scramble 2/4). HONEST: single-stage endpoint order-insensitive (operators commute enough). 137 GREEN.
