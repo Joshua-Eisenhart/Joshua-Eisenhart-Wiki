@@ -91,6 +91,10 @@ kernel:
 That would be a real perception/object instrument. It would still not prove
 that the source 16-by-4 schedule or a cross-domain attractor is forced.
 
+This card has now run. The exact finite core and topology-dependence control
+survive, while unseen-object perception and engine nonredundancy remain red:
+[[projects/codex-ratchet/finite-behavioral-object-engine-2026-07-10]].
+
 ## Routes
 
 - [[concepts/cross-view-attractor-nominalism-ledger-2026-07-10]]

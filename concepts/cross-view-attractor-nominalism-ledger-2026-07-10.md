@@ -167,6 +167,12 @@ work are independently measured.
 5. **FEP/open-reaction bridge:** define a finite viability kernel and boundary
    probe family before using consciousness or life language.
 
+The first semiconjugacy instrument fixture has now run:
+[[projects/codex-ratchet/finite-behavioral-object-engine-2026-07-10]]. It earns
+one exact finite behavioral quotient and exact order-sensitive attractor graphs,
+but remains below cross-domain semiconjugacy because all views use the same
+classical fixture and engine-removal nonredundancy is red.
+
 ## Routes
 
 - [[concepts/quantum-channel-attractor-basin-perspectives-2026-07-10]]

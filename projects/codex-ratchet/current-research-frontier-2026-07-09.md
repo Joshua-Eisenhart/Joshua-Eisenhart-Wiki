@@ -38,6 +38,13 @@ The external Claude Science packet estate is separately bounded by
 JAX, one imports Torch, none is Julia, and no source/result carries the required
 function-level engine receipt contract.
 
+The first replacement instrument is recorded at
+[[projects/codex-ratchet/finite-behavioral-object-engine-2026-07-10]]: Julia and
+JAX agree on an exact 14-object finite behavioral quotient and two
+order-sensitive five-attractor graphs; PyG measures topology-dependent orbit
+fitting. Packet-wide T9 remains red because engine removal/nonredundancy was not
+executed.
+
 ## Status
 
 Current repo-derived research digest and routing page.
