@@ -2,8 +2,11 @@
 
 ## Verdict
 
-The requested architecture is mathematically coherent, and important pieces
-really run. It is not yet implemented and validated as one complete engine.
+The requested architecture is mathematically coherent, and a concrete
+conditional 16 x 4 schedule now really runs end to end as an identifiable
+transition system. The complete engine claim is still not earned because the
+four substages are supplied rather than emitted by dual ratcheting, and no
+business/object task establishes useful work.
 
 The exact current statement is:
 
@@ -16,10 +19,13 @@ The exact current statement is:
 - **Four operator cells as a conditional product:** real as an independently
   reproduced `2 operator axes x 2 channel families` square. This is a
   structural quotient, not yet a sequential engine interior.
-- **Four sequential substages per source position:** not yet derived. They must
-  emerge from independent geometry and entropy ratchets; the shared Axis-6
-  sign is inherited only after the survivor classes are earned.
-- **All 16 stages and all four substages are necessary:** not established.
+- **Four sequential substages per source position:** executed and locally
+  load-bearing under both conditional cycle orientations and one finite
+  house-map parameterization; not yet derived. They must still emerge from
+  independent geometry and entropy ratchets.
+- **All 16 stages and all four substages are necessary:** all 16 macro maps are
+  identifiable and every beat is necessary for reproducing the authored
+  held-out transition. Necessity for useful object/task work is not established.
 - **Unique thinking, personality, perception, and object creation:** not
   established by channel distinguishability.
 
@@ -87,6 +93,42 @@ the requested fixed-sign architecture and does not derive its four beats from
 dual ratcheting. Its `16 intelligences` language is above its evidence:
 `n_distinct_kinds: 16` is not a learned task-family count.
 
+### Fixed-sign 16 x 4 system-identification instrument
+
+The follow-on packet
+`stage16x4_system_id_instrument_v0` now runs the requested fixed-sign candidate
+architecture:
+
+- parses the 16 source slots as 16 unique terrain/sign contexts;
+- evaluates both product-square orientations separately;
+- rotates each orientation to the slot's canonical operator;
+- runs four operator/terrain beats under the slot's one source sign;
+- uses PySINDy for the continuous terrain generator and PyKoopman EDMD for the
+  discrete beat maps;
+- compares every learned rollout with exact held-out house-map transitions.
+
+Both candidate orientations pass locally. Each contains 64 beat maps; 128
+models appear only because two candidates were compared. Both re-identify all
+16 macro maps. All beat removals and duplications change the endpoint, as do
+reversal, wrong-sign, terrain-erasure, operator-erasure, and all alternate
+permutations. The identity boundary remains order insensitive.
+
+A post-run confound audit gives the same class-count ladder in both
+orientations: full `16`, operator-erased `8`, terrain-erased `4`, both-erased
+`1`. This argues that full identity is joint rather than terrain/sign leakage,
+but the audit was added after the first green run and needs preregistered
+replication.
+
+The active repo's broader harness is green at `123/0/0`, distinct from packet
+97's isolated `135/0/0`. Its regenerated evidence envelope has formation loss
+`43.546185436758485`, so the exact-transition success and the real
+trajectory-observation failure must remain separate.
+
+This is the first real evidence that a sequential 16 x 4 candidate can execute
+with a shared Axis-6 sign and that every beat has transition-level teeth. It is
+not dual-ratchet emergence: four cells, cycle orientations, canonical-first
+rotation, exact derivative access, and the house maps are inputs.
+
 ### Two types and four loops
 
 Fresh Type-1 and Type-2 runs each execute two ordered four-row loops. Their
@@ -102,8 +144,10 @@ It does not yet establish four distinct useful loop intelligences:
 
 ## Necessity And Process Failures
 
-- Stage necessity has 10 nondegenerate rows and six expected-null or
-  degenerate rows. `All 16 stages are necessary` is invalid.
+- The older stage-necessity probe has 10 nondegenerate rows and six
+  expected-null or degenerate rows; it cannot support `all 16`. The new
+  fixed-sign system-ID packet separately identifies all 16 conditional macro
+  maps and all beat removals, but only against the exact transition target.
 - The substage architecture discriminator leaves both the four-operator and
   four-loop-terrain candidates alive; its candidate lengths are not matched
   and 64-position uniqueness is open.
@@ -111,7 +155,9 @@ It does not yet establish four distinct useful loop intelligences:
   find sensitivity in 7/8 down-sign and 3/8 up-sign contexts.
 - Contract lint finds 18 violations over the six current engine sims: all six
   omit classification, manifest, and depth fields. They pass local numerical
-  reruns but are not canonical by process.
+  reruns but are not canonical by process. The new system-ID packet and both
+  package capability receipts are contract-clean; they do not retroactively
+  promote the older files.
 - One dynamics-identification family is environment-sensitive: packet
   `R^2=0.856551` becomes current local `R^2=-42.546185`. PySINDy and the full
   environment need pinning before this result can support object formation.
@@ -183,8 +229,9 @@ fact survives. Its two new scientific promotions do not.
 A replacement Julia/JAX scout earns a smaller result: conditional on the
 source's two Pauli/Bloch operator axes, two channel families, complete cell
 coverage, and one-coordinate MSS movement, the four operator cells form one
-square cycle modulo reversal. It does not bind that square to the 16 stage
-slots or establish sequential dynamics.
+square cycle modulo reversal. The new system-ID packet binds both orientations
+to the 16 stage slots and establishes conditional sequential dynamics. It does
+not derive the product premises or a four-count from dual ratcheting.
 
 ## Exact Next Experiment: Dual-Ratchet Emergence
 
@@ -224,3 +271,4 @@ MMM authority, and ontology writing remain separate gates.
 - [[projects/codex-ratchet/qit-lev-operationalization-plan-2026-07-09]]
 - [[projects/codex-ratchet/external-86-v84-92-foundations-engine-audit-receipt-2026-07-09]]
 - [[projects/codex-ratchet/qit-dual-ratchet-engine-teeth-audit-2026-07-07]]
+- [[concepts/sindy-koopman-system-identification-for-qit-engines-2026-07-09]]

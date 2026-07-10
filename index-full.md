@@ -18,6 +18,8 @@ Total published pages: 498. Governance/read-first surfaces are listed separately
 - [[projects/codex-ratchet/engine-16x4-axis6-current-state-2026-07-09]] — exact current state and missing conjunction for the 16 source slots, fixed-sign four-substage interior, two engine types, and four loops
 - [[projects/codex-ratchet/packet-97-up129-up130-audit-2026-07-09]] — fresh `135/0/0` packet receipt, UP-129/UP-130 claim correction, and conditional four-cell product-square ceiling
 - [[concepts/dual-ratchet-geometry-entropy-jordan-research-2026-07-09]] — article-backed geometry/entropy dual-ratchet and Jordan/octonion research synthesis
+- [[concepts/sindy-koopman-system-identification-for-qit-engines-2026-07-09]] — SINDy generator and EDMD finite-map research, live package boundaries, and the conditional 16 x 4 execution result
+- [[projects/codex-ratchet/source-intake/sindy-koopman-article-register-2026-07-09]] — primary paper and official software-source register for the system-identification lane
 - [[projects/codex-ratchet/source-intake/dual-ratchet-math-article-register-2026-07-09]] — primary-source article register and project translation boundaries
 - [[projects/wiki-cleanup-and-authority-boundary-2026-07-09]] — wiki-only-document boundary and source/runtime authority split
 - [[projects/codex-ratchet/lev-executed-dual-ratchet-receipt-2026-07-09]] — fresh Lev-executed Codex-Ratchet dual-ratchet foundation receipt

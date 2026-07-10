@@ -18,6 +18,16 @@ Exact engine-state audit:
 
 [[projects/codex-ratchet/engine-16x4-axis6-current-state-2026-07-09]]
 
+July 9 execution update: the fixed-sign sequential system-ID instrument now
+passes locally for both conditional cycle orientations. This closes a bounded
+execution rung, not the dual-ratchet emergence or SME usefulness gates. See
+[[concepts/sindy-koopman-system-identification-for-qit-engines-2026-07-09]].
+
+Fresh broad harness state is `123/0/0` green, while the regenerated formation
+loss is `43.546185436758485`. Treat that as a split result: engine/sim plumbing
+runs, but current trajectory-based handling is not good enough for the SME
+object rung.
+
 ## Product Hypothesis
 
 A blue-collar SME has many local vocabularies for the same thing: technician language, work orders, asset records, parts catalogs, sensor streams, safety rules, contracts, and customer language.
@@ -88,16 +98,20 @@ The learned layer proposes. It never grants authority to itself.
 - Reject packet UP-130 as a derivation and keep UP-129 at the terrain-position
   ceiling recorded in
   [[projects/codex-ratchet/packet-97-up129-up130-audit-2026-07-09]].
-- Build `engine_16x4_fixed_axis6_sequential_v0`: run all four exact operators
-  sequentially inside every source slot while holding that slot's precedence
-  sign fixed.
+- Preserve the now-green `stage16x4_system_id_instrument_v0`: both candidate
+  orientations run all four exact operators sequentially inside every source
+  slot while holding that slot's precedence sign fixed; all local destructive
+  controls move the exact held-out transition.
+- Build the still-missing emergence packet: start from a larger candidate set
+  and let independent geometry-first and entropy-first survivor ratchets emit
+  the stage interior without receiving a desired count.
 - Keep the current `candidate -> measurement -> gate -> receipt` science phases separate from operator substages until the parser proves they coincide.
 - Run the 16-stage re-identification and Type-2 order tests over preregistered multi-seed distributions.
 - Add Choi/superoperator fingerprints; reverse, one-beat-removal, duplicate,
   sign-flip, terrain-identity, native-only, and non-native controls; and a
   held-out task where each claimed substage is load-bearing.
-- Pin PySINDy and the numerical environment before citing the current
-  dynamics-identification family.
+- Preserve the pinned PySINDy capability receipt and the narrow PyKoopman
+  `Identity + EDMD` receipt. Keep the full PyKoopman distribution quarantined.
 - Pass classification, authority-manifest, depth, provenance, and result-shape
   contract lint before promotion.
 - Preserve the successful stage-identity result and the current Type-2 failure separately.

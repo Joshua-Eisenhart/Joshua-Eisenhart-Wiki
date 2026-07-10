@@ -18,6 +18,7 @@ Use this as the low-friction entry point. The old full listing lives at [index-f
 - [[projects/codex-ratchet/read-first]] — Codex Ratchet mathematical build front door.
 - [[projects/codex-ratchet/current-research-frontier-2026-07-09]] — Current July engine/object/math/Lev research digest and corrections.
 - [[projects/codex-ratchet/engine-16x4-axis6-current-state-2026-07-09]] — Exact current state of the 16 source slots, four substages, two engine types, four loops, and Axis-6 math.
+- [[concepts/sindy-koopman-system-identification-for-qit-engines-2026-07-09]] — Research math, package truth, and the new conditional 16 x 4 execution receipt linking continuous generators to finite-time stage maps.
 - [[projects/codex-ratchet/packet-97-up129-up130-audit-2026-07-09]] — Packet 97 execution receipt, UP-129/UP-130 falsification, and the narrower four-cell product-square result.
 - [[concepts/dual-ratchet-geometry-entropy-jordan-research-2026-07-09]] — Article-backed synthesis of the geometry/entropy dual ratchet and Jordan/octonion carrier question.
 - [[projects/codex-ratchet/source-intake/dual-ratchet-math-article-register-2026-07-09]] — Primary-source register for Jordan, Petz, BKM, octonion, and nonassociative-QM research.

@@ -95,13 +95,16 @@ precedence law. It is not evidence that all four classes were necessary.
 
 The source-fidelity linter validates 16 slots and a 64-row candidate expansion.
 The finite one-step scout distinguishes 64 hard-coded candidate channels under
-one probe battery. The sequential scout runs four ordered beats but uses an
-installed casing and does not implement the Axis-6 composition or dual-ratchet
-emergence. The stage-necessity ablation has only 10 nondegenerate stages.
+one probe battery. A new fixed-sign system-ID instrument now executes both
+conditional product-cycle orientations over all 16 slots, uses PySINDy and
+PyKoopman as external identifiers, re-identifies all 16 macro maps, and finds
+every beat removal and duplication changes held-out exact transitions.
 
-Thus the current local evidence supports a candidate architecture and a useful
-next experiment. It does not support the claim that four substages are real in
-the stronger, emergent sense.
+This upgrades the evidence from a one-step atlas to a real sequential
+candidate with local transition-level teeth. It still does not support the
+stronger emergent claim: the four cells, cycle, canonical-first rotation,
+source slots, exact derivative access, and house maps are premises rather than
+survivors emitted by the two ratchets.
 
 ## Research Consequences
 
@@ -123,3 +126,4 @@ cannot retroactively validate an installed four-stage schedule.
 - [[projects/codex-ratchet/engine-16x4-axis6-current-state-2026-07-09]]
 - [[projects/codex-ratchet/jordan-octonion-entropy-pawl-floor-receipt-2026-07-08]]
 - [[projects/codex-ratchet/external-86-v84-92-foundations-engine-audit-receipt-2026-07-09]]
+- [[concepts/sindy-koopman-system-identification-for-qit-engines-2026-07-09]]
