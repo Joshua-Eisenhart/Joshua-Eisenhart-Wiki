@@ -98,6 +98,14 @@ Reachability, Maude, Apalache, and Catalyst remain absent or unwired. No central
 cross-view package is justified until one source-native basin result and one
 independently sourced semiconjugacy row survive controls.
 
+The accompanying application vision is separated at
+[[concepts/basin-engineering-science-operations-2026-07-10]]. It contributes a
+useful five-operation taxonomy and strengthens the cross-view ladder with a
+sixth `constraint necessity` rung. The weak-model versus harness versus Fable
+benchmark is already fully specified in the Lev wiki but has no implementation
+in the current Lev checkout. These are research and product routes, not evidence
+that one basin, perception, or the QIT schedule has been earned.
+
 ## Status
 
 Current repo-derived research digest and routing page.

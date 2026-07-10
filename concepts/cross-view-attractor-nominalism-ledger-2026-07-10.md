@@ -48,9 +48,12 @@ analogy
 < shared invariant
 < semiconjugate dynamics
 < cross-domain prediction
+< constraint necessity
 ```
 
-Only the final two justify "the same underlying attractor."
+The final rung requires a root-constraint ablation that breaks the independently
+gated result in both views. Only levels 4-6 support increasingly strong forms
+of a shared-attractor claim.
 
 ## Current Ratchet Ledger
 
@@ -184,6 +187,7 @@ sourced semiconjugacy row must precede framework extraction.
 
 ## Routes
 
+- [[concepts/basin-engineering-science-operations-2026-07-10]]
 - [[projects/codex-ratchet/cross-view-math-workbench-wiring-intake-2026-07-10]]
 - [[concepts/quantum-channel-attractor-basin-perspectives-2026-07-10]]
 - [[concepts/dual-ratchet-geometry-entropy-jordan-research-2026-07-09]]

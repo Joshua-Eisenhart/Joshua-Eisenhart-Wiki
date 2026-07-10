@@ -168,6 +168,12 @@ This order prefers one falsifiable bridge over a broad new framework. It also
 keeps the already-earned observation-design negative result on the critical
 path.
 
+The broader basin-engineering and application vision is bounded separately at
+[[concepts/basin-engineering-science-operations-2026-07-10]]. Its five verbs
+are workbench operations, not engine stages. Its added `constraint necessity`
+rung is now represented in the proposal ledger with a fail-closed mutation
+control.
+
 ## Claim Ceiling
 
 Earned now: corrected tool inventory, live Attractors/IntervalArithmetic API
