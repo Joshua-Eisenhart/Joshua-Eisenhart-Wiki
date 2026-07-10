@@ -3220,3 +3220,28 @@ model per substrate. classification=port_fidelity_certification, promotion_allow
 genuinely failable (mis-port, missing Julia, or float32 fails it) and the doctrine requires standing substrate
 certification. Panel also caught + FIXED a numpy-constant leak in the torch port (np.sqrt->math.sqrt).
 JAX GOTCHA recorded: JAX defaults to complex64 and silently truncates complex128 unless JAX_ENABLE_X64=1.
+
+## UP-143 -- "Process all the proposed math" (brave-thread disposition) + two withdrawn discriminators (harness stays 144)
+USER: "go on and process all the proposed math" + attachment of the full brave-thread of math objects (1883-line
+research thread) + a ChatGPT/Mannheim review thread. WHAT WAS DONE:
+- BRAVE_THREAD_MATH_DISPOSITION.md: every one of the 19 distinct math objects in the thread mapped to the REGISTERED
+  sim that processes it + that sim's verdict, grounded by grepping the actual estate (NOT memory). Result: 17/19 already
+  processed across UP-115..UP-141 as either the ONE shipped classical-limit (max-plus, UP-138) or the recurring
+  live-but-UNFORCED {H,O}-branch verdict (octonions, Jordan, Albert, Malcev, Fano, exceptional-Lie G2->F4->E6->E7->E8,
+  27-cell, E8/Penrose, and the whole Atiyah-Singer/3-generations/spectral-geometry cluster via UP-115 grand-synthesis =
+  "entropy=index is an ANSATZ, not forced"). TWO not cleanly closed: flag-manifolds->generations (line 652, no dedicated
+  sim -- honest low-priority gap) and non-associativity->halos (line 1045, disposed by structural argument only).
+- TWO discriminator sims BUILT then WITHDRAWN after unanimous adversarial panels (negatives first-class):
+  (a) nonassociativity_not_needed_for_halo_profiles_sim -- its "associator" was a hand-installed mass fudge with NO
+      actual non-associative algebra, and its leave-one-out gate was statistically broken on N=4 (dropping the MW
+      leverage point forces collapse regardless of physics). Structural disposition stands: the model has no forced
+      non-assoc gravity sector and the halos it reproduces use the associative a0=c*H0/2pi scale, so non-associativity
+      is unforced for halos -- but that is an argument, not a passing rung.
+  (b) three_view_semiconjugacy_gate_sim -- attempted the reviews' highest-value "one basin, many probes" level-4 test
+      (Q_d(Tx)=T^(d)(Q_d x) across QIT/reaction/agent views). CIRCULAR by construction: each T^(d) was defined FROM the
+      same core P, so the intertwining is a definitional identity, not a discovery. A real test needs each domain step
+      defined from its OWN rules and only the projection fit -- e.g. the actual 16-stage engine Liouvillian vs a
+      Catalyst reaction network matched only at the fixed point then tested off it. Documented as the honest frontier.
+HONEST NET: the proposed-math estate is essentially complete on the live-but-unforced verdict; the genuinely open work
+is not more object-placement but (i) a forced Malcev bracket (the named T01 ceiling) to EARN any octonionic rung, and
+(ii) a non-circular semiconjugacy build to earn "one basin" at level 4. Both are research programs, flagged not faked.
