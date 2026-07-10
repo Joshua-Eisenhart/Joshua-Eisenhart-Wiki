@@ -1,0 +1,465 @@
+{
+  "generated_utc": "2026-07-10 08:45 UTC",
+  "harness": {
+    "pass": 143,
+    "fail": 0,
+    "skip": 0,
+    "green": true,
+    "registered_sims": 123
+  },
+  "versions": {
+    "numpy": "2.4.6",
+    "scipy": "1.18.0",
+    "sympy": "1.14.0",
+    "sklearn": "1.9.0",
+    "pysindy": "2.1.0",
+    "z3": "4.16.0",
+    "cvc5": "1.3.4",
+    "mpmath": "1.3.0"
+  },
+  "python": "3.13.14",
+  "ups": [
+    {
+      "up": "UP-103",
+      "title": "EPISTEMIC active inference: selecting actions that reduce the unknown (2026-07-08)",
+      "status": "shipped"
+    },
+    {
+      "up": "UP-104/105",
+      "title": "64/64 overclaim WITHDRAWN + substage architecture DISCRIMINATED (2026-07-08)",
+      "status": "withdrawn"
+    },
+    {
+      "up": "UP-106",
+      "title": "DOWNSTREAM discriminator: dominance window is TWO-SIDED at object formation (2026-07-08)",
+      "status": "shipped"
+    },
+    {
+      "up": "UP-107",
+      "title": "dual-ratchet DEPTH: L3 floor + the forced Jordan/octonion observable rung (2026-07-08)",
+      "status": "shipped"
+    },
+    {
+      "up": "UP-108",
+      "title": "the exceptional Lie algebras as a ratchet over the octonionic carrier (2026-07-08)",
+      "status": "shipped"
+    },
+    {
+      "up": "UP-109",
+      "title": "where the engines sit on the division-algebra ladder; the exceptional tower is the NEXT climb (2026-07-08)",
+      "status": "shipped"
+    },
+    {
+      "up": "UP-110",
+      "title": "the UPPER MANIFOLD (axes 7-12): field of engines, Choi/superoperator level, home of IGT (2026-07-08)",
+      "status": "shipped"
+    },
+    {
+      "up": "UP-111",
+      "title": "field symmetry is CLASSICAL, not exceptional (honest negative; constrains where the tower lives) (2026-07-08)",
+      "status": "shipped"
+    },
+    {
+      "up": "UP-112",
+      "title": "octonion FORK: H->O is NOT forced (honest closure of the exceptional arc) (2026-07-08)",
+      "status": "shipped"
+    },
+    {
+      "up": "UP-113",
+      "title": "T01 grouping-demand search: H is the CEILING for the present engines (closes the octonion arc) (2026-07-08)",
+      "status": "shipped"
+    },
+    {
+      "up": "UP-114",
+      "title": "Axis-0 entropy gradient run END-TO-END on the engine pair (closes the biggest engine seam) (2026-07-08)",
+      "status": "shipped"
+    },
+    {
+      "up": "UP-115",
+      "title": "Clifford / Hopf / Weyl processed one by one + grand-synthesis placement (negatives first-class) (2026-07-09)",
+      "status": "shipped"
+    },
+    {
+      "up": "UP-116",
+      "title": "Holism does NOT force octonions (testing the grand-synthesis physics attachments) (2026-07-09)",
+      "status": "shipped"
+    },
+    {
+      "up": "UP-117",
+      "title": "Non-associative CA as a CONSTRUCTIBLE (not forced) T01 mechanism + tensor-product-failure sharpening (2026-07-09)",
+      "status": "shipped"
+    },
+    {
+      "up": "UP-118",
+      "title": "The Malcev bracket NAMES the T01 ceiling (processing the codex-ratchet parallel work) (2026-07-09)",
+      "status": "shipped"
+    },
+    {
+      "up": "UP-119",
+      "title": "Spin(9)/OP2 coset DERIVED from the Albert product: the positive construction (2026-07-09)",
+      "status": "shipped"
+    },
+    {
+      "up": "UP-120",
+      "title": "The Umegaki pawl IS finite modular theory: forced-side consistency (2026-07-09)",
+      "status": "shipped"
+    },
+    {
+      "up": "UP-121",
+      "title": "Petz/DPI FORCES the pawl: why the terrain entropy is not hand-picked (2026-07-09)",
+      "status": "shipped"
+    },
+    {
+      "up": "UP-122",
+      "title": "Alfsen-Shultz dynamical correspondence: the DYNAMICAL face of special vs exceptional (2026-07-09)",
+      "status": "shipped"
+    },
+    {
+      "up": "UP-123",
+      "title": "Manifold spine L5: nested-shell Schmidt strata; flux gets its first spine home (2026-07-09)",
+      "status": "shipped"
+    },
+    {
+      "up": "UP-124",
+      "title": "Manifold spine L6: the metric on the shell family (BKM = entropy Hessian; monotone; curved) (2026-07-09)",
+      "status": "shipped"
+    },
+    {
+      "up": "UP-125",
+      "title": "Manifold spine L7: the shell connection; flux DERIVED as a Berry holonomy (2026-07-09)",
+      "status": "shipped"
+    },
+    {
+      "up": "UP-126",
+      "title": "Aperiodic order (Penrose + E8): REAL and constructible, but NOT forced (2026-07-09)",
+      "status": "shipped"
+    },
+    {
+      "up": "UP-127",
+      "title": "Manifold spine L8: the global bundle; flux QUANTIZED (Chern); Chern sign = chirality winding (2026-07-09)",
+      "status": "shipped"
+    },
+    {
+      "up": "UP-128",
+      "title": "Loop-back audit correction: codex sol-5.6 cross-check of the L5/L6/L7 spine geometry (2026-07-09)",
+      "status": "shipped"
+    },
+    {
+      "up": "UP-129",
+      "title": "Loop-order instrument repair: why the v7 t2_order_carried packet was seed-fragile (2026-07-09)",
+      "status": "shipped"
+    },
+    {
+      "up": "UP-130",
+      "title": "The \"4 substages\" are DERIVED from dual-ratchet closure, not chosen (owner directive) (2026-07-09)",
+      "status": "shipped"
+    },
+    {
+      "up": "UP-131",
+      "title": "Axis-0 closes END-TO-END on the engine pair as the GRADIENT invariant, not a carried state (2026-07-09)",
+      "status": "shipped"
+    },
+    {
+      "up": "UP-132",
+      "title": "the 4 substages RUN inside an engine stage as the dual ratchet (2026-07-09)",
+      "status": "shipped"
+    },
+    {
+      "up": "UP-133",
+      "title": "the co-ratchet run from FOUNDATIONS, ratcheted as deep as it can, all earned (2026-07-09)",
+      "status": "shipped"
+    },
+    {
+      "up": "UP-134",
+      "title": "FIRST falsifiable quantitative physics prediction: dark-sector acceleration scale from the expansion rate (2026-07-09)",
+      "status": "shipped"
+    },
+    {
+      "up": "UP-135",
+      "title": "a0(z) fork FORCED by the model, one branch KILLED by external data (2026-07-09)",
+      "status": "shipped"
+    },
+    {
+      "up": "UP-136",
+      "title": "the physics result LOOPS BACK and deepens the core (2026-07-09)",
+      "status": "shipped"
+    },
+    {
+      "up": "UP-137",
+      "title": "WITHDRAWN -- \"field of engines weakest rung\" does NOT earn a rung (2026-07-09)",
+      "status": "withdrawn"
+    },
+    {
+      "up": "UP-138",
+      "title": "PLACING new math: max-plus / tropical / idempotent algebra is a CLASSICAL LIMIT, not the foundation (2026-07-10)",
+      "status": "shipped"
+    },
+    {
+      "up": "UP-139",
+      "title": "PLACING new math: Quantum Information Geometry (Fubini-Study / QFI) vs the model's BKM metric (2026-07-10)",
+      "status": "shipped"
+    },
+    {
+      "up": "UP-140",
+      "title": "WITHDRAWN (retained as scaffold): HoTT/braid-group trajectory topology -- placement real, but no failable gate (2026-07-10)",
+      "status": "withdrawn"
+    }
+  ],
+  "withdrawn": [
+    {
+      "up": "UP-104/105",
+      "title": "64/64 overclaim WITHDRAWN + substage architecture DISCRIMINATED (2026-07-08)",
+      "status": "withdrawn"
+    },
+    {
+      "up": "UP-137",
+      "title": "WITHDRAWN -- \"field of engines weakest rung\" does NOT earn a rung (2026-07-09)",
+      "status": "withdrawn"
+    },
+    {
+      "up": "UP-140",
+      "title": "WITHDRAWN (retained as scaffold): HoTT/braid-group trajectory topology -- placement real, but no failable gate (2026-07-10)",
+      "status": "withdrawn"
+    }
+  ],
+  "registered_sims": [
+    "access_law_decoupling_sim.py",
+    "admissibility_two_operator_sim.py",
+    "agent_loop_sim.py",
+    "alfsen_shultz_dynamical_correspondence_deficit_sim.py",
+    "aperiodic_order_penrose_e8_not_forced_sim.py",
+    "audit_response_w_covariance_sim.py",
+    "axis0_drive_fair_n01_test_sim.py",
+    "axis0_entropy_gradient_engine_pair_endtoend_sim.py",
+    "axis0_gauge_breaking_sim.py",
+    "axis0_gradient_closes_as_bookend_invariant_sim.py",
+    "axis0_ratchet_climb_sim.py",
+    "axis0_sector_sim.py",
+    "axis0_shell_polarity_docfaithful_sim.py",
+    "axis0_spinor_720_sim.py",
+    "axis0_xor_sim.py",
+    "axis2_two_layer_sim.py",
+    "axis_loadbearing_n01_sim.py",
+    "biochem_bridge_sim.py",
+    "bridge_tooth_carrier_to_terrains_sim.py",
+    "chemistry_bridge_sim.py",
+    "chi2_decisive_test_sim.py",
+    "chi2_openpath_readout_sim.py",
+    "clifford_hopf_weyl_ratchet_placement_sim.py",
+    "coratchet_axis_orthogonality_sim.py",
+    "coratchet_depth_ladder_from_foundations_sim.py",
+    "cosmogenesis_persistence_sim.py",
+    "cosmogenesis_ratchet_first_tooth_sim.py",
+    "coupled_coratchet_dualloop_sim.py",
+    "data_processing_sim.py",
+    "decoherence_scaling_sim.py",
+    "distinguishability_engine_core_sim.py",
+    "division_algebra_ratchet_sim.py",
+    "downstream_dominance_window_discriminator_sim.py",
+    "engine_64_schedule_definition_sim.py",
+    "engine_64_schedule_sim.py",
+    "engine_division_algebra_rung_sim.py",
+    "engine_dynamics_id_arbiter_sim.py",
+    "engine_object_formation_scorecard_sim.py",
+    "engine_pair_matrix_sim.py",
+    "engine_reidentification_objective_sim.py",
+    "engine_type_access_sim.py",
+    "entropic_gravity_axis0_sim.py",
+    "entropic_newton_limit_sim.py",
+    "eps_even_a2_dissipation_foothold_sim.py",
+    "eps_even_a2_specificity_sim.py",
+    "evolution_chirality_bridge_sim.py",
+    "exceptional_lie_ratchet_sim.py",
+    "field_symmetry_is_classical_not_exceptional_sim.py",
+    "fluctuation_theorem_sim.py",
+    "foundational_ratchet_entropy_gradient_sim.py",
+    "foundations_reaudit_drive_and_mss_tiebreak_sim.py",
+    "foundations_reaudit_forcing_robustness_sim.py",
+    "four_substages_emerge_from_dual_ratchet_sim.py",
+    "four_substages_run_dual_ratchet_stage_sim.py",
+    "holevo_bound_sim.py",
+    "holism_does_not_force_octonions_sim.py",
+    "holodeck_sim.py",
+    "holographic_bound_sim.py",
+    "info_processing_sim.py",
+    "instrument_class_split_sim.py",
+    "jordan_octonion_observable_rung_sim.py",
+    "known_unknown_fep_field_sim.py",
+    "lev_bridge_sim.py",
+    "loop_uniqueness_trajectory_probe_sim.py",
+    "malcev_bracket_names_the_t01_ceiling_sim.py",
+    "maxplus_tropical_is_classical_limit_not_foundation_sim.py",
+    "memory_sim.py",
+    "nested_basin_sim.py",
+    "next_tooth_720_double_loop_and_lift_audit_sim.py",
+    "next_tooth_engine_stages_to_360_loop_sim.py",
+    "next_tooth_terrains_to_engine_stages_sim.py",
+    "no_cloning_sim.py",
+    "nonassociative_ca_t01_constructible_not_forced_sim.py",
+    "noncommutation_bounds_sim.py",
+    "nonunitality_theorem_sim.py",
+    "objective_gate_integrity_sweep_sim.py",
+    "octonion_fork_not_forced_sim.py",
+    "octonion_spinor_network_sim.py",
+    "operator_geometry_fusion_sim.py",
+    "pawl_witness_identity_memory_sim.py",
+    "per_terrain_entropy_forcing_sim.py",
+    "perception_object_binding_sim.py",
+    "perception_scorecard_eval_admission_sim.py",
+    "perspective_convergence_sim.py",
+    "petz_dpi_forces_the_pawl_sim.py",
+    "physics_a0_redshift_fork_selected_by_data_sim.py",
+    "physics_bridge_sim.py",
+    "physics_loops_back_into_core_axis0_rate_sim.py",
+    "physics_prediction_mond_scale_from_expansion_sim.py",
+    "qfi_fubini_study_placed_vs_forced_bkm_sim.py",
+    "qit_active_inference_planning_sim.py",
+    "qit_epistemic_active_inference_sim.py",
+    "qit_fep_ratchet_sim.py",
+    "qit_fep_surprise_stream_sim.py",
+    "quantum_hopfield_memory_sim.py",
+    "quantum_speed_limit_sim.py",
+    "ratchet_three_qubit_floor_sim.py",
+    "root_axiom_sim.py",
+    "signed_axis0_primitive_sim.py",
+    "sixteen_intelligences_substages_terrain_ratchet_sim.py",
+    "sixteen_stage_engine_schedule_sim.py",
+    "sixteen_stage_engine_sim.py",
+    "spin9_op2_coset_derived_from_albert_sim.py",
+    "spinor_memory_sim.py",
+    "stage_necessity_ablation_sim.py",
+    "substage_architecture_discriminator_sim.py",
+    "surface_identity_sim.py",
+    "t01_grouping_demand_search_sim.py",
+    "t2_order_carried_sindy_library_repair_sim.py",
+    "terrain_8way_separation_sim.py",
+    "terrain_differentiation_sim.py",
+    "terrain_information_signature_sim.py",
+    "terrain_sourcelock_axis0_sim.py",
+    "type1_engine_igt_sim.py",
+    "type1_full_engine_both_loops_sim.py",
+    "type1_single_loop_axis0_sim.py",
+    "type2_full_engine_both_loops_sim.py",
+    "umegaki_pawl_is_finite_modular_theory_sim.py",
+    "unified_attractor_basin_seven_axes_sim.py",
+    "unified_ratchet_witness_memory_3q_sim.py",
+    "upper_manifold_mirror_axes_field_sim.py",
+    "v7_codex_ratchet_crosscheck_sim.py",
+    "weak_force_chirality_bridge_sim.py"
+  ],
+  "math_inventory": {
+    "aperiodic order / E8 (not forced)": [
+      "aperiodic_order_penrose_e8_not_forced_sim.py"
+    ],
+    "QIT engine mechanics / axes": [
+      "axis0_drive_fair_n01_test_sim.py",
+      "axis0_entropy_gradient_engine_pair_endtoend_sim.py",
+      "axis0_gauge_breaking_sim.py",
+      "axis0_gradient_closes_as_bookend_invariant_sim.py",
+      "axis0_ratchet_climb_sim.py",
+      "axis0_sector_sim.py",
+      "axis0_shell_polarity_docfaithful_sim.py",
+      "axis0_spinor_720_sim.py",
+      "axis0_xor_sim.py",
+      "axis2_two_layer_sim.py",
+      "axis_loadbearing_n01_sim.py",
+      "bridge_tooth_carrier_to_terrains_sim.py",
+      "coratchet_axis_orthogonality_sim.py",
+      "distinguishability_engine_core_sim.py",
+      "engine_64_schedule_definition_sim.py",
+      "engine_64_schedule_sim.py",
+      "engine_division_algebra_rung_sim.py",
+      "engine_dynamics_id_arbiter_sim.py",
+      "engine_object_formation_scorecard_sim.py",
+      "engine_pair_matrix_sim.py",
+      "engine_reidentification_objective_sim.py",
+      "engine_type_access_sim.py",
+      "entropic_gravity_axis0_sim.py",
+      "four_substages_emerge_from_dual_ratchet_sim.py",
+      "four_substages_run_dual_ratchet_stage_sim.py",
+      "next_tooth_engine_stages_to_360_loop_sim.py",
+      "next_tooth_terrains_to_engine_stages_sim.py",
+      "per_terrain_entropy_forcing_sim.py",
+      "physics_loops_back_into_core_axis0_rate_sim.py",
+      "signed_axis0_primitive_sim.py",
+      "sixteen_intelligences_substages_terrain_ratchet_sim.py",
+      "sixteen_stage_engine_schedule_sim.py",
+      "sixteen_stage_engine_sim.py",
+      "stage_necessity_ablation_sim.py",
+      "substage_architecture_discriminator_sim.py",
+      "terrain_8way_separation_sim.py",
+      "terrain_differentiation_sim.py",
+      "terrain_information_signature_sim.py",
+      "terrain_sourcelock_axis0_sim.py",
+      "type1_engine_igt_sim.py",
+      "type1_full_engine_both_loops_sim.py",
+      "type1_single_loop_axis0_sim.py",
+      "type2_full_engine_both_loops_sim.py"
+    ],
+    "information geometry / manifold": [
+      "axis0_shell_polarity_docfaithful_sim.py"
+    ],
+    "spinor / chirality / holonomy": [
+      "axis0_spinor_720_sim.py",
+      "clifford_hopf_weyl_ratchet_placement_sim.py",
+      "evolution_chirality_bridge_sim.py",
+      "octonion_spinor_network_sim.py",
+      "spinor_memory_sim.py",
+      "weak_force_chirality_bridge_sim.py"
+    ],
+    "chemistry / biochem bridges": [
+      "biochem_bridge_sim.py",
+      "chemistry_bridge_sim.py"
+    ],
+    "nonassociative / exceptional algebra (Jordan/octonion/Lie)": [
+      "clifford_hopf_weyl_ratchet_placement_sim.py",
+      "holism_does_not_force_octonions_sim.py",
+      "jordan_octonion_observable_rung_sim.py",
+      "malcev_bracket_names_the_t01_ceiling_sim.py",
+      "octonion_fork_not_forced_sim.py",
+      "octonion_spinor_network_sim.py",
+      "quantum_hopfield_memory_sim.py",
+      "spin9_op2_coset_derived_from_albert_sim.py"
+    ],
+    "physics bridges / TOE": [
+      "cosmogenesis_persistence_sim.py",
+      "cosmogenesis_ratchet_first_tooth_sim.py",
+      "entropic_gravity_axis0_sim.py",
+      "physics_a0_redshift_fork_selected_by_data_sim.py",
+      "physics_bridge_sim.py",
+      "physics_loops_back_into_core_axis0_rate_sim.py",
+      "physics_prediction_mond_scale_from_expansion_sim.py"
+    ],
+    "FEP / active inference": [
+      "known_unknown_fep_field_sim.py",
+      "qit_active_inference_planning_sim.py",
+      "qit_epistemic_active_inference_sim.py",
+      "qit_fep_ratchet_sim.py",
+      "qit_fep_surprise_stream_sim.py"
+    ],
+    "tropical / max-plus (idempotent)": [
+      "maxplus_tropical_is_classical_limit_not_foundation_sim.py"
+    ],
+    "QIT entropy / modular theory": [
+      "petz_dpi_forces_the_pawl_sim.py",
+      "qfi_fubini_study_placed_vs_forced_bkm_sim.py",
+      "umegaki_pawl_is_finite_modular_theory_sim.py"
+    ],
+    "quantum information geometry (QFI/Fubini-Study)": [
+      "qfi_fubini_study_placed_vs_forced_bkm_sim.py"
+    ]
+  },
+  "root_project": "The root project is to formalize CREATION, MATHEMATICS, PHYSICS, PERCEPTION, and INTELLIGENCE as ONE\nfinite admissibility ratchet. The primitive is CONSTRAINT ON DISTINGUISHABILITY (not entropy -- entropy is a later\nmeasure). Reality is built from the LEAST presumptions by a monotone generative ratchet of the WEAKEST structures\ntaking the SMALLEST admissible leaps up, under two root constraints: F01 (finitude) and N01 (noncommutation), with\nnonassociativity (T01) emerging only when a grouping-load-bearing demand appears. The ratchet EARNS canon step by step;\nnothing is canon until forced. MSS (minimal-sufficient-structure) is a hard admissibility constraint: admit only forced\nstructure; larger leaps are inadmissible; the pawl rejects the unforced.\n\nThe downstream FACES (all measure whether the root works; none is the root): the dual-ratchet entropic-geometric\nconstraint MANIFOLD; the QIT ENGINES (two Weyl-chirality engine types x 8 terrains x operators); FEP/active-inference\n(a QIT FEP, no classical thermo); IGT / known-unknown; object-perception (\"holodeck\") with distinguishability gates;\nthe physics TOE (GR+SM as new foundations, gravity as entropy gradient, chiral spacetime); cosmogenesis (MSS in a\nstatic field, dark-energy-first). Oracle duality: deduction<->induction, Turing<->oracle, reason<->perception.",
+  "plan": "CONSERVATIVE ORDER, always looping back to foundations. Each ratchet up reveals things to re-audit from the\nbase. Current standing spine (empirical binding order, discovered not prescribed): complex-spinor carrier (forced by\nF01+N01) -> Schmidt strata / nested shells (L5) -> BKM metric = rel-entropy Hessian (L6) -> Berry holonomy / flux (L7)\n-> chirality (Weyl) -> engine stages. The co-ratchet runs entropy and geometry as ONE tensor (surface_identity_is_BKM).\nPawl forced by the data-processing inequality (Umegaki relative entropy).\n\nMETHOD: (1) place every new/proposed math BY THE CONSTRAINTS -- forced, installed, or excluded -- never admit by\nassertion; (2) each sim gates on a GENUINELY FAILABLE result with a control that flips; definitional identities and\nknown theorems may be COMPUTED and reported but must NOT gate; (3) cross-family LLM panel (advisory, never gates) as an\nadversarial pre-ship reviewer; (4) verify on-disk harness count BEFORE writing ledger/changelog; (5) NEGATIVES are\nfirst-class -- withdrawn/failed math is retained and recorded.",
+  "current_focus": "Placing the genuinely-new math from the 2026-07 attachment batch (tropical/max-plus, quantum info\ngeometry, HoTT/braids, idempotent analysis) relative to the forced core -- most land as classical limits or\nconstructible-not-forced upper layers, which is itself informative. Making the bundle SELF-DESCRIBING (this generator)\nso codex and other systems can process it standalone.",
+  "future_projects": "(A) Get the QIT engines FULLY running in deep nuance: every stage/substage doing distinct\ninformation processing, all axes load-bearing on one running trajectory, Axis-0 end-to-end entropy-gradient on the\nengine pair. (B) Axes 7-12 = the FIELD OF ENGINES (each node an engine; natural home of IGT) with its own embedding\ngeometry -- where the exceptional algebras (E6/E8/Albert) may finally become load-bearing; needs a field-metric rung.\n(C) Grand-application projects, kept ONLY where they consistently help the overall system when looped back from\nfoundations: fine-structure constant, P-vs-NP, Navier-Stokes, Riemann/primes, Yang-Mills, GR+SM unification, gravity,\ncosmogenesis. All GATED behind earning the structure they need; no skipping ahead. (D) Idempotent-analysis/HJB as a\npossible forced ratchet STEP (decohere->T->0), which would upgrade the max-plus placement from context to a gate.\n(E) Run the owner's real Julia/JAX/PyTorch engines where load-bearing (Julia canon arbiter; strict-carrier laptop-side\ndue to registry TLS block).",
+  "dependency_contract": "THREE-ENGINE DEPENDENCY CONTRACT (load-bearing gates): z3 AND cvc5 must agree on the same\nstructural claim with erased controls that flip it; numpy/scipy/mpmath are CONTROL-LANE only, never load-bearing; at\nleast one tool outside the array baseline must gate a verdict. Sims carry NO jargon -- pure real math and structure;\na rosetta layer maps earned structure to labels afterward.",
+  "consumer_note": "FOR EXTERNAL CONSUMERS (codex app, other sim runners): this bundle is self-describing. Re-run\n`python generate_bundle_docs.py` to regenerate these docs from live state. The authoritative harness is\n`python run_all.py` (full, no --fast). The ledger MODEL_LAYER_LEDGER.md is the append-only record of every rung (UP).\nNegatives (WITHDRAWN_AND_FAILED.md) are as informative as positives -- proposed math that fails tells you what the\nconstraints EXCLUDE. Nothing here is canon until the ratchet earns it.",
+  "doc_files": [
+    "docs/BUNDLE_GUIDE.md",
+    "docs/TOOLS_AND_REPOS.md",
+    "docs/MATH_INVENTORY.md",
+    "docs/WITHDRAWN_AND_FAILED.md",
+    "docs/UP_REGISTRY.md"
+  ]
+}
