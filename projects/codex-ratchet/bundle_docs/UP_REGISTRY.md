@@ -1,5 +1,5 @@
 # UP REGISTRY -- every rung
-_Regenerated 2026-07-10 09:04 UTC. Parsed from MODEL_LAYER_LEDGER.md (38 entries)._
+_Regenerated 2026-07-10 09:09 UTC. Parsed from MODEL_LAYER_LEDGER.md (38 entries)._
 
 - **UP-103** -- EPISTEMIC active inference: selecting actions that reduce the unknown (2026-07-08)
 - **UP-104/105** ~~WITHDRAWN~~ -- 64/64 overclaim WITHDRAWN + substage architecture DISCRIMINATED (2026-07-08)
