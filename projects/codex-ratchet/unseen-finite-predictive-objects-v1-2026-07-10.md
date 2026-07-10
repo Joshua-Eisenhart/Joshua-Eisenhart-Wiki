@@ -37,8 +37,9 @@ controller. A first Julia run in the wrong project failed only its runtime gate
 and is retained separately.
 
 The sealed PyTorch path opened the frozen test records, then its order-2
-Laplace baseline sent an eight-view test tensor through a schema assertion
-frozen around four-view train/validation tensors. It raised
+Laplace baseline sent one unbatched record (`ndim=2`) through a schema assertion
+requiring batched tensors (`ndim=3`). The bug is independent of the number of
+views per object. It raised
 `RunnerError: visible tensors have inconsistent shapes` before producing
 `pytorch_result.json`. The independent controller therefore emitted red for a
 missing required learner result.
@@ -57,16 +58,19 @@ unique intelligences, four dual-ratchet-emergent substages, 64 running engine
 stages, MMM or ontology admission, Axis0 closure, FEP, physics, life, or
 consciousness.
 
-Validation itself was not promising: same-object retrieval was near chance and
-the temporal-shuffle arm closely followed the full arm. Those are diagnostics,
-not substitutes for the unopened test metrics that never completed.
+A pre-test `/tmp` validation run suggested weak same-object retrieval and little
+separation from temporal shuffle, but that summary was not admitted as a
+tracked packet receipt. It cannot substitute for test metrics that never
+completed.
 
 ## Required v2
 
-v1 cannot be prospectively repaired because its test objects were opened. A
-valid retry requires a new namespace, fresh unseen test objects, new manifest,
-new seal, and a test-blind synthetic preflight that exercises both four-view
-and eight-view baseline shapes.
+v1 cannot be prospectively repaired because its sealed one-shot evaluation was
+consumed. The test machine tables were always plaintext in the preregistered
+manifest; they were hidden from model input, not from repo readers. A valid
+retry requires a new namespace, fresh test objects, new manifest, new seal, and
+a synthetic pre-seal rehearsal of the exact sealed-test call graph covering
+unbatched and batched baseline inputs without using v2 test records.
 
 ## Repo Evidence
 
