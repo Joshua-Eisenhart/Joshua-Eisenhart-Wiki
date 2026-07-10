@@ -68,6 +68,15 @@ while subset-only MCC is a vacuous constant-prediction zero and the frozen scope
 is ambiguous. Lev successfully executes the JAX lane as bounded provenance, not
 science authority.
 
+The exact information-boundary follow-up is recorded at
+[[projects/codex-ratchet/eca-observation-object-identifiability-2026-07-10]].
+Across 531 symmetry representatives, five budgets, and 9,636 queries per
+fixture, Julia and JAX agree fieldwise. Budgets 1 and 2 retain diverse dynamics
+but leave too many object relations ambiguous; budget 4 is already 86.82%
+system-identified and still misses the per-fixture coverage floor; budgets 8
+and 16 identify every hidden rule pair. No perception-like
+consensus-without-identification window is admitted, so PyTorch remains blocked.
+
 ## Status
 
 Current repo-derived research digest and routing page.

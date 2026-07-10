@@ -19,7 +19,6 @@ Use this as the low-friction entry point. The old full listing lives at [index-f
 - [[projects/codex-ratchet/current-research-frontier-2026-07-09]] — Current July engine/object/math/Lev research digest and corrections.
 - [[projects/codex-ratchet/engine-16x4-axis6-current-state-2026-07-09]] — Exact current state of the 16 source slots, four substages, two engine types, four loops, and Axis-6 math.
 - [[concepts/sindy-koopman-system-identification-for-qit-engines-2026-07-09]] — Research math, package truth, and the new conditional 16 x 4 execution receipt linking continuous generators to finite-time stage maps.
-- [[projects/codex-ratchet/packet-97-up129-up130-audit-2026-07-09]] — Packet 97 execution receipt, UP-129/UP-130 falsification, and the narrower four-cell product-square result.
 - [[projects/codex-ratchet/packet-102-canonical-rerun-audit-2026-07-09]] — Packet 102 canonical `139/0/0` rerun with UP-130 rejection and bounded UP-133/UP-134 ceilings.
 - [[projects/codex-ratchet/packet-107-physics-loopback-audit-2026-07-09]] — Packet 107 canonical `141/0/0` rerun; current redshift data and gauge-invariant phase controls reject both new scientific promotions.
 - [[projects/codex-ratchet/packet-110-rerun-and-claim-audit-2026-07-10]] — Packet 110 canonical `142/0/0` rerun; stale field result rejected, max-plus bounded, and object runtime sensitivity measured.
@@ -31,6 +30,7 @@ Use this as the low-friction entry point. The old full listing lives at [index-f
 - [[projects/codex-ratchet/finite-behavioral-object-engine-v1-2026-07-10]] — Held-out-rule object benchmark: exact cross-runtime core, perfect but architecture-installed PyG ensemble, failed learning controls, and corrected T9 semantics.
 - [[projects/codex-ratchet/eca-behavioral-refinement-depth-census-2026-07-10]] — Exact Julia/JAX census of 97,920 ECA rule-pair ledgers; real multiround depth tail, no learned-perception or engine-schedule promotion.
 - [[projects/codex-ratchet/eca-n9-behavioral-depth-and-v2-admission-2026-07-10]] — Preregistered N9 census reaches strict depth ten; exact core green, learned-V2 admission blocked by shallow baseline and metric-scope ambiguity.
+- [[projects/codex-ratchet/eca-observation-object-identifiability-2026-07-10]] — Exact version-space census: early object targets are underdetermined, late targets identify the hidden rules, and no perception-like window is admitted.
 - [[projects/codex-ratchet/cross-domain-test-target-registry-audit-2026-07-10]] — Corrected status map for the external cross-domain registry; target map is not a result ledger.
 - [[projects/codex-ratchet/source-intake/packet-107-physics-source-register-2026-07-09]] — Primary-source register for high-redshift `a0` evidence and Berry/Pancharatnam geometric phase.
 - [[projects/codex-ratchet/repository-research-and-tool-validation-2026-07-09]] — Pinned/tested external repo ledger for PySINDy, PyKoopman, PyDMD, deeptime, ALCO, QICS, and Physlib.

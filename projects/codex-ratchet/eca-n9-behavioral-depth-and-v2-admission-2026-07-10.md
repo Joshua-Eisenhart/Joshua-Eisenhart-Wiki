@@ -170,6 +170,12 @@ That scout must precede neural training. Otherwise model failure could merely
 reflect missing information, while model success could merely identify the ECA
 rules and replay the exact algorithm.
 
+That scout is now complete. The frozen observation schedule moves from
+underdetermined relations at budgets 1 and 2 to near-complete or complete rule
+identification at budgets 4, 8, and 16. It exposes no admitted
+consensus-without-identification window. See
+[[projects/codex-ratchet/eca-observation-object-identifiability-2026-07-10]].
+
 ## Ceiling
 
 Earned: exact finite N9 behavioral-equivalence depth census and a fail-closed
@@ -183,5 +189,6 @@ ontologies, a universal attractor, Axis0, physics, life, or consciousness.
 
 - [[projects/codex-ratchet/eca-behavioral-refinement-depth-census-2026-07-10]]
 - [[projects/codex-ratchet/finite-behavioral-object-engine-v1-2026-07-10]]
+- [[projects/codex-ratchet/eca-observation-object-identifiability-2026-07-10]]
 - [[projects/codex-ratchet/current-research-frontier-2026-07-09]]
 - [[concepts/cross-view-attractor-nominalism-ledger-2026-07-10]]
