@@ -1374,3 +1374,10 @@ UP-133 co-ratchet run from foundations, ratcheted as deep as it can, all earned.
                cycle=4={ABAB,BABA}) / R5 below-substage FREE floor (micro-realization gauge ~1e-16, net-map forced
                0.13). Forced depth bottoms out at the substage cell = earned floor engines run on. Also raised
                t2_order_carried harness timeout 120->240s (genuinely ~124s, not a hang). 138 GREEN.
+
+UP-134 first falsifiable quantitative physics prediction. New sim physics_prediction_mond_scale_from_expansion.
+               Dark-sector acceleration scale PREDICTED a0=c*H0/(2pi) (dark-energy-first cosmogenesis + Unruh 2pi, no
+               free param), removing Layer 0.4 hand-set a0. Matches observed MOND a0=1.2e-10 to 0.86-0.94 (Planck
+               wrong-scale ctl off 4.6e61); zero-param baryonic Tully-Fisher matches 4 galaxies (DDO154..Milky Way,
+               ~200x mass) 0.78-0.97; BTFR slope M~v^3.5. HONEST: a0~cH0/2pi is Milgrom's coincidence, model derives
+               the scale, no interpolating fn/G/GR-replacement claim. 139 GREEN.
