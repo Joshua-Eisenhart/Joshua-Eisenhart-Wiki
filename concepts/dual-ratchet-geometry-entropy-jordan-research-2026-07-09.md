@@ -120,13 +120,13 @@ stronger emergent claim: the four cells, cycle, canonical-first rotation,
 source slots, exact derivative access, and house maps are premises rather than
 survivors emitted by the two ratchets.
 
-The later source-faithful learning packet now sharpens that result. It runs
-both engines, all six oriented Ti/Te/Fi/Fe cycles, three learned-weight seeds,
-and a 1,080-scenario JAX sweep while preserving one Axis-6 sign across all four
-phases of each slot. Type 1 selects `Ti > Fe > Fi > Te` on all three seeds and
-in all 540 JAX scenarios. Type 2 splits between two leading orders and fails
-the declared stability gate. The full scientific verdict is therefore still
-red.
+The later learning packet is now classified as a cut-open-loop permutation
+proxy. It fixes a written start, ranks six Ti/Te/Fi/Fe representatives, and
+runs three learned-weight seeds plus a 1,080-scenario JAX sweep. Since the
+source object is a loop with no privileged first or last element, its
+Type-1-labelled and Type-2-labelled rankings do not identify either engine.
+The useful result is only that the proxy is mechanically runnable and its
+second scoring lane is unstable. The full scientific verdict remains red.
 
 PyDMD and deeptime independently distinguish the two generated Type-2
 trajectory families, with clean accuracy `1.0` and `0.9444444444` and controls
@@ -159,10 +159,10 @@ smuggling in an unavailable tensor product.
 ## Research Consequences
 
 The next selector should be named for the unresolved question, not the desired
-cardinality. The two leading Type-2 orders need a preregistered independent
-judge whose score is neither the generating loss nor a class label. Temporal
-shuffle, block permutation, reversal, label shuffle, and a declared tie band
-must be kill conditions.
+cardinality. It must operate on closed loops modulo cyclic rotation, not choose
+between linear Type-2 orders. Its score must be neither the generating loss nor
+a class label. Orientation reversal, nesting erasure, label shuffle, and a
+declared equivalence/tie band must be kill conditions.
 
 The broader emergence sim remains
 `engine_dual_ratchet_substage_emergence_v0`: its candidate family must not put

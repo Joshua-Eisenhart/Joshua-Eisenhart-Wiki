@@ -25,6 +25,13 @@ The 16 stages are the differentiated intelligence modes; any four substages are
 their internal bidirectional processing, all inheriting the stage's one Axis-6
 precedence sign.
 
+The substages are a **loop**, not a linear order. A loop has no privileged
+first or last position. Chains such as `Ti > Te > Fi > Fe` are cut-open
+representatives introduced by proxy experiments; they are not source engine
+schedules and cannot define either engine type. Valid comparisons must be
+invariant under cyclic rotation and preserve loop orientation, nesting, and the
+mirrored deductive/inductive organization.
+
 Current mathematical support for the core includes GNS state-dependent
 operator geometry, modular Hamiltonians `K_rho=-log(rho)`, entropy as
 `<K_rho>`, relative entropy as modular free-energy difference, DPI monotonicity,
@@ -58,13 +65,15 @@ The exact current statement is:
 - **Four operator cells as a conditional product:** real as an independently
   reproduced `2 operator axes x 2 channel families` square. This is a
   structural quotient, not yet a sequential engine interior.
-- **Four sequential substages per source position:** executed and locally
+- **Four loop substages per source position:** provisionally executed and locally
   load-bearing under both conditional cycle orientations and one finite
   house-map parameterization; not yet derived. They must still emerge from
   independent geometry and entropy ratchets.
-- **Learned within-slot order:** Type 1 is stable at `Ti > Fe > Fi > Te` under
-  the current three-seed PyTorch fit and 540-scenario JAX half-sweep. Type 2 is
-  unstable across the two leading orders. The 64-stage scientific gate is red.
+- **Cut-open-loop permutation proxy:** a later experiment fixes `Ti` as the
+  written start and ranks six linearized representatives. Those rankings do
+  not describe Type 1 or Type 2 and cannot establish a source loop. Their only
+  admissible result is that the proxy failed to produce a stable common
+  representative. The engine scientific gate is red.
 - **Count-free operator discovery:** four quotient classes survive inside the
   finite Pauli registry, while generic-axis challenges produce eight. A
   universal four-operator basis is therefore false in the current test.
@@ -157,14 +166,14 @@ one. Its older 64-position interpretation was withdrawn; its current useful
 result is an order-blind collapse to 11 buckets plus 16/16 matched-content
 order carrying. Full 64-position uniqueness remains open.
 
-### Sequential four-beat candidate
+### Cut-Open Four-Position Proxy
 
 `sixteen_intelligences_substages_terrain_ratchet_sim.py` has four ordered,
 state-changing beats and 16 separated, hand-selected fingerprints. Its
 substage function has no Axis-6 sign and no terrain-first/operator-first
 composition. It uses an installed unitary casing after one terrain flow.
 
-Therefore this sim supports a sequential substage candidate but does not run
+Therefore this sim supports a bounded cut-open-loop diagnostic but does not run
 the requested fixed-sign architecture and does not derive its four beats from
 dual ratcheting. Its `16 intelligences` language is above its evidence:
 `n_distinct_kinds: 16` is not a learned task-family count.
@@ -200,22 +209,24 @@ The active repo's broader harness is green at `123/0/0`, distinct from packet
 `43.546185436758485`, so the exact-transition success and the real
 trajectory-observation failure must remain separate.
 
-This is the first real evidence that a sequential 16 x 4 candidate can execute
+This is evidence that a linearized 16 x 4 proxy can execute
 with a shared Axis-6 sign and that every beat has transition-level teeth. It is
 not dual-ratchet emergence: four cells, cycle orientations, canonical-first
 rotation, exact derivative access, and the house maps are inputs.
 
 ### Source-faithful stage-interior learning and JAX sweep
 
-`dual_ratchet_stage_interior_learning_v0` is the first packet that jointly
-holds the corrected source semantics and tries to learn the within-slot order.
+`dual_ratchet_stage_interior_learning_v0` linearizes each loop by choosing a
+written start and ranks the resulting permutation representatives. That
+operation cannot learn a Type-1 or Type-2 source loop.
 It preserves one source Axis-6 sign across all four Ti/Te/Fi/Fe phases, runs
 both engine charts, evaluates all six oriented cycles, and uses three training
 seeds: 36 PyTorch runs over explicit 64-microstep candidates.
 
-- Type 1 selects `Ti > Fe > Fi > Te` on all three seeds.
-- Type 2 selects `Ti > Te > Fi > Fe` on two seeds and
-  `Ti > Te > Fe > Fi` on one.
+- The Type-1-labelled scoring lane selects one cut-open representative on all
+  three seeds.
+- The Type-2-labelled scoring lane splits between two cut-open
+  representatives. Neither result is a source engine order.
 - Every selected phase has a measured effect and the static-gradient control
   collapses.
 - The local scientific gate fails because the Type-2 selection is unstable.
@@ -226,9 +237,9 @@ Type 2's reference wins 385/540; its main competitor wins 142/540; a third
 cycle wins 13/540; eight scenarios tie. All 18 mechanical and destructive
 controls pass, but the scientific verdict remains red.
 
-This is real learning and falsification on the source-faithful candidate. It
-does not derive the universal four-operator basis or make the Type-2 order
-unique.
+This is real optimization and falsification on a finite proxy. It does not
+derive four loop positions, identify either engine loop, or create a Type-2
+order; the source has no such linear order.
 
 ### Independent kinetic recognizers
 
@@ -432,8 +443,9 @@ Build `engine_dual_ratchet_substage_emergence_v0`:
 6. Intersect their survivor ledgers and require the same four minimal
    equivalence classes under both `E_then_G` and `G_then_E`, across seeds and
    candidate enumeration order. Four must be an output, not an input.
-7. Only then compose the survivors sequentially under one inherited Axis-6
-   sign per macro stage.
+7. Only then close the survivors into an oriented loop under one inherited
+   Axis-6 sign per macro stage, quotienting away arbitrary choices of written
+   starting point.
 8. Record exact superoperator or Choi fingerprints and run reverse,
    one-survivor removal, duplicate-survivor, sign-flip, terrain-identity,
    native-only, non-native, and order-erasure controls.
@@ -444,7 +456,7 @@ Build `engine_dual_ratchet_substage_emergence_v0`:
     provenance, and result-contract lint.
 
 If that passes, the earned claim is narrow but meaningful: **proper dual
-ratcheting emits four load-bearing sequential substage classes for each of 16
+ratcheting emits four load-bearing internal loop-position classes for each of 16
 source-bound macro channels, with one inherited precedence sign, arranged as
 four finite loops across two engine charts.** Personality, perception, Axis0,
 MMM authority, and ontology writing remain separate gates.
