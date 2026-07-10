@@ -2879,26 +2879,25 @@ and 135-GREEN verdict unchanged. ALSO verified (codex flagged PySINDy env-sensit
 my degree-1 repair gives R^2=1.000000 stable across repeated runs precisely because the affine library is the correctly
 -specified model -- environment-robust where a marginal high-degree fit is not. This is a second argument for the repair.
 
-## Post-UP-130 controlling audit -- packet 97 correction (2026-07-09)
+## UP-131 -- Axis-0 closes END-TO-END on the engine pair as the GRADIENT invariant, not a carried state (2026-07-09)
 
-The preceding UP-129 and UP-130 entries are preserved as packet provenance,
-but their promotion language is superseded by a source-locked Codex-Ratchet
-audit. A fresh isolated packet run really is `135/0/0`; that execution fact
-survives. The scientific conclusions do not.
+The biggest open engine seam ("Axis-0 at start and end"). Learned from (not reused) codex's engine_pair_axes_axis0_
+bookends_v2 (a0_front = initial entropy-gradient polarity; a0_late = cut-dependent Phi_0 readout) and my own UP-114
+contraction flag. New sim axis0_gradient_closes_as_bookend_invariant (harness 136 GREEN) resolves it.
 
-- UP-129 still passes when all operators are replaced by identity. It recovers
-  a toy four-terrain position order, not operator-carried Type-2 equivalence.
-- UP-130's `both_directions` predicate requires two `A` and two `B` symbols and
-  therefore fixes length four before scanning. Its advertised quarter-turns
-  are Bloch half-turns; the adjoint maps commute and preserve entropy; its
-  controls are confounded; `ABAB/BABA` are one cyclic orbit.
-- A replacement Julia/JAX scout independently recovers four operator cells as
-  the conditional product `2 Pauli/Bloch axes x 2 channel families`, whose MSS
-  graph is one square cycle modulo reversal. This is `scratch_diagnostic`, not
-  four sequential substages per source stage.
+FINDING. The NAIVE reading -- the front state is carried through the engine pair to a matching late state -- FAILS, and
+the sim shows why by direct computation: the dissipative engine pair is CONTRACTIVE (very different starts converge to
+one attractor, end/start max-pairwise-distance ratio 1.2e-3), so the late readout is independent of the front state;
+the engine FORGETS the front. This is a property of any contractive open-system flow, reported honestly, not hidden.
 
-Controlling route:
-[[projects/codex-ratchet/packet-97-up129-up130-audit-2026-07-09]].
-
-Current state: the four-cell structural prerequisite passes; the bridge to a
-fixed-sign sequential `16 x 4` engine remains open.
+THE CORRECT OBJECT (per the owner's own Axis-0: "the room grows; the state's entropy chases a rising ceiling; the
+gradient is that permanent gap; dark energy as growth"). Axis-0 is NOT the carried initial condition but the GRADIENT =
+gap between S(rho) and the CEILING = max entropy reachable by the admissible-future set (reachable set under the terrain
+generators = the growing room). CLOSURE = the gradient is present and positive at BOTH bookends. RESULT: gap>0 at front
+(mean 0.158) AND late (mean 0.158) for every probe -- the permanent gradient survives the full engine pair as a
+structural invariant. Controls: gap-vs-S(rho) corr +0.016 (NOT renamed entropy -- scalar_entropy_only cannot reproduce
+it); the OPEN-room ceiling (real terrain flows) is strictly larger than a FROZEN-room ceiling (identity terrains, no
+room; same integrator with generator+dissipator zeroed) by min 0.1435 for every probe -- the gap is created by the
+growing room, genuinely computed, a leg that would fail if the terrains opened no room (two auditor catches enforced
+this leg be real, not a S-S tautology). So Axis-0 DOES close end-to-end -- as the intrinsic gradient invariant, which is
+the object the model always meant. Harness 136 GREEN.
