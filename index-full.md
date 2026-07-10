@@ -35,6 +35,7 @@ Total published pages: 513. Governance/read-first surfaces are listed separately
 - [[concepts/dual-ratchet-geometry-entropy-jordan-research-2026-07-09]] — article-backed geometry/entropy dual-ratchet and Jordan/octonion research synthesis
 - [[concepts/brave-exceptional-math-thread-research-audit-2026-07-10]] — source-bound audit and claim ladder for the Brave exceptional-math thread
 - [[projects/codex-ratchet/packet-116-external-audit-2026-07-10]] — external packet audit and missing whole-run receipt boundary
+- [[projects/codex-ratchet/unseen-finite-predictive-objects-v1-2026-07-10]] — sealed unseen-object experiment and preserved process failure
 - [[concepts/tropical-max-plus-placement-research-2026-07-10]] — max-plus/tropical primary-source research and bounded engine-placement hypothesis
 - [[concepts/sindy-koopman-system-identification-for-qit-engines-2026-07-09]] — SINDy generator and EDMD finite-map research, live package boundaries, and the conditional 16 x 4 execution result
 - [[projects/codex-ratchet/source-intake/sindy-koopman-article-register-2026-07-09]] — primary paper and official software-source register for the system-identification lane
