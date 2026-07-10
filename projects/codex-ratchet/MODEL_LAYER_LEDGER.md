@@ -3109,3 +3109,30 @@ flips). Does NOT prove the N01/T->0 exclusions as forced steps (context), does N
 (correct arithmetic of the deductive limit), does NOT build a tropical engine layer. The E6/E8/Albert-algebra/27-cell/
 3-generations material in the same attachment batch is already placed as live-but-UNFORCED {H,O}-branch math (prior
 ledger); not re-derived as forced here. scratch_diagnostic.
+
+## UP-139 -- PLACING new math: Quantum Information Geometry (Fubini-Study / QFI) vs the model's BKM metric (2026-07-10)
+
+The attachments propose Quantum Information Geometry (Fubini-Study metric / Quantum Fisher Information) as "the natural
+metric for the spectral triple." The model already uses a metric: the BKM metric (surface_identity_is_BKM = Hessian of
+the forced Umegaki relative-entropy pawl, pawl_forced_by_DPI). These are DIFFERENT monotone metrics -- a genuine fork.
+Harness 143 GREEN. Rebuilt after a cross-family LLM panel audit (Gemini-3.1-pro, Grok-4.5, Qwen-3.5, GLM-5.2).
+
+VERDICT GATES ON ONE FAILABLE STRUCTURAL RESULT: SLD/QFI is a DIFFERENT monotone metric from BKM. On a NONCOMMUTING
+mixed direction g_SLD=1.000 != g_BKM=1.076 (differ 0.076); on the COMMUTING/classical submanifold they coincide EXACTLY
+(both = classical Fisher 1.190476). Control flips: the metrics are distinguishable ONLY in the noncommuting (quantum)
+sector, so the BKM-vs-QFI distinction is genuinely quantum, not a normalization.
+
+COMPUTED SUPPORTING IDENTITIES (reported, NON-gating -- panel caught that a non-failable identity must not rubber-stamp
+a verdict): (a) BKM = Hessian of the Umegaki relative entropy to 4e-8 (BKM's definition, a self-consistency check);
+(b) SLD/QFI = curvature of the Bures/fidelity distance^2 (Bures dist^2 Hessian 0.5 = g_SLD/2 to 2e-7) -- so QFI is the
+FIDELITY curvature while BKM is the RELATIVE-ENTROPY curvature.
+
+PLACEMENT (conditional, honestly scoped): Fubini-Study/QFI = the fidelity/Bures-family metric (useful: state estimation,
+quantum speed limit). The model's metric follows BKM CONDITIONAL on the prior-forced relative-entropy pawl (NOT
+re-derived here). QFI coincides with BKM only on the classical submanifold -- it does NOT coincide at pure states
+(near-pure SLD=1.0 vs BKM=4.6, a panel-corrected error from the first draft). So QIG is placed as the fidelity-family
+alternative / classical face of the already-used BKM surface, not a new foundation.
+
+HONEST SCOPE: earns the metric-family distinction (QFI=fidelity curvature, BKM=rel-entropy curvature, coinciding only
+on the classical face); the model-metric link is conditional on the prior-forced pawl. Does NOT re-derive the pawl,
+does NOT claim pure-state coincidence, does NOT claim QFI useless, does NOT build a QIG layer. scratch_diagnostic.
