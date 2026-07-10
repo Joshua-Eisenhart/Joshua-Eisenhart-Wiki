@@ -1447,3 +1447,13 @@ UP-141 WITHDRAWN (retained as scaffold): "each stage protects a distinct invaria
   (one-basin probe map); UP-141 unanimity-scope + all-16 Liouville corrections (auditor); FEP-IGT Carlen-Maas
   instrument-verification built (DB terrains = exact rel-entropy gradient flow, asym 0; engine H splits it) but a
   first confounded version withdrawn and the Carlen-Maas version left as a documented instrument-check, not a rung.
+
+## UP-143 (harness stays 144): brave-thread math disposition + 2 withdrawn discriminators
+- BRAVE_THREAD_MATH_DISPOSITION.md: all 19 math objects from the user's research thread mapped to registered sims +
+  verdicts, grounded in the actual estate. 17/19 already processed (max-plus shipped; the rest live-but-unforced {H,O}).
+  2 not cleanly closed: flag-manifolds->generations (no sim, gap); non-associativity->halos (structural argument only).
+- WITHDRAWN nonassociativity_not_needed_for_halo_profiles_sim (panel: hand-installed mass fudge = no real non-assoc
+  algebra; LOO gate broken on N=4). WITHDRAWN three_view_semiconjugacy_gate_sim (panel: circular -- each domain step
+  defined FROM the same core P, so intertwining is definitional not discovered). Both retained as documented scaffolds.
+- Saved the two source threads to reference_docs_external_reviews/. Honest frontier recorded: forced Malcev bracket to
+  earn an octonionic rung; non-circular semiconjugacy (independent domain dynamics) to earn "one basin" at level 4.
