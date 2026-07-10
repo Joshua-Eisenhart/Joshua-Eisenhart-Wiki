@@ -1367,3 +1367,10 @@ UP-132 4 substages RUN inside a stage as the dual ratchet. New sim four_substage
                (dS~0.003), T(Ti,Te)=entropy pinches (dS~0.105). Distinct work (min pairwise 0.622, single-op ctrl->0);
                T/F=entropy/geometry dual; alternating cycle advances geom & entropy on alternating legs (4/4 vs
                scramble 2/4). HONEST: single-stage endpoint order-insensitive (operators commute enough). 137 GREEN.
+
+UP-133 co-ratchet run from foundations, ratcheted as deep as it can, all earned. New sim coratchet_depth_ladder_
+               from_foundations. Depth ladder R1 terrains-distinct-channels / R2 native-entropy-monotone / R3 2-ops-
+               pinch+rotation / R4 substage-2x2-dual-ratchet (genuine minimality search, minimal alternating closing
+               cycle=4={ABAB,BABA}) / R5 below-substage FREE floor (micro-realization gauge ~1e-16, net-map forced
+               0.13). Forced depth bottoms out at the substage cell = earned floor engines run on. Also raised
+               t2_order_carried harness timeout 120->240s (genuinely ~124s, not a hang). 138 GREEN.
