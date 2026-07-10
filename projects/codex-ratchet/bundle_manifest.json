@@ -1,11 +1,11 @@
 {
-  "generated_utc": "2026-07-10 19:43 UTC",
+  "generated_utc": "2026-07-10 20:36 UTC",
   "harness": {
-    "pass": 144,
+    "pass": 145,
     "fail": 0,
     "skip": 0,
     "green": true,
-    "registered_sims": 124
+    "registered_sims": 125
   },
   "versions": {
     "numpy": "2.4.6",
@@ -218,6 +218,11 @@
       "up": "UP-143",
       "title": "\"Process all the proposed math\" (brave-thread disposition) + two withdrawn discriminators (harness stays 144)",
       "status": "withdrawn"
+    },
+    {
+      "up": "UP-144",
+      "title": "Basis-invariant QIT<->reaction-network semiconjugacy + the THREE-LEVEL floor (harness 144->145 GREEN)",
+      "status": "shipped"
     }
   ],
   "withdrawn": [
@@ -287,6 +292,7 @@
     "engine_dynamics_id_arbiter_sim.py",
     "engine_object_formation_scorecard_sim.py",
     "engine_pair_matrix_sim.py",
+    "engine_reaction_semiconjugacy_qutrit_floor_sim.py",
     "engine_reidentification_objective_sim.py",
     "engine_type_access_sim.py",
     "entropic_gravity_axis0_sim.py",
@@ -398,6 +404,7 @@
       "engine_dynamics_id_arbiter_sim.py",
       "engine_object_formation_scorecard_sim.py",
       "engine_pair_matrix_sim.py",
+      "engine_reaction_semiconjugacy_qutrit_floor_sim.py",
       "engine_reidentification_objective_sim.py",
       "engine_type_access_sim.py",
       "entropic_gravity_axis0_sim.py",
