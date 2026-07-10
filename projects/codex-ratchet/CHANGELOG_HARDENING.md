@@ -1387,3 +1387,10 @@ UP-135 a0(z) fork forced by model, external data kills one branch. New sim physi
                Agree z=0 (0.902), diverge 2.97x z=2. Genzel 2017/Milgrom 2017 (attributed) disfavour ~4a0@z2 &
                (1+z)^1.5 -> Branch A falsified, Branch B survives. Refines UP-134: growing-room rate = de Sitter
                horizon. No-expansion control -> disc 1.0. Also known_unknown_fep_field timeout 40->90s. 140 GREEN.
+
+UP-136 physics loops back into the core. New sim physics_loops_back_into_core_axis0_rate. UP-135's constant-a0
+               pins the growing-room rate as ONE de Sitter/Lambda constant across physics(a0)+Axis-0(ceiling)+
+               cosmogenesis(dark-energy-first); H_dS=H0*sqrt(OL) is the far-future asymptote of H(z) (matter ->0).
+               Exposes open fork b1 frozen-today (0.90, matches, phenomenological) vs b2 de Sitter (0.76, explains
+               constancy, low), related by exact b2=b1*sqrt(OL); recorded not resolved, falsifiable in OL. Also:
+               octonion table oracle-verified basis-independently (Hurwitz/alternative/nonassoc). 141 GREEN.
