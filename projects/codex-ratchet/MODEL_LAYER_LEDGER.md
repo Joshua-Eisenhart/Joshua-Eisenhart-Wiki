@@ -2970,3 +2970,23 @@ removing Layer 0.4's hand-set a0, and to show the resulting zero-parameter BTFR 
 the MOND interpolating function, G, or claim to replace GR/LambdaCDM; galaxy values are canonical BTFR anchors, not a full
 SPARC fit. Owner doctrine under test. This is the step that earns "physics prediction" language for the model.
 scratch_diagnostic.
+
+## UP-135 -- a0(z) fork FORCED by the model, one branch KILLED by external data (2026-07-09)
+
+UP-134's a0=c*H0/(2pi) has a distinctive NEW consequence plain constant-a0 MOND does not make: whether a0 evolves with
+redshift depends on WHICH rate the "growing room" is. The model forces a fork:
+  Branch A: growing-room rate = TOTAL expansion H(z)=H0*sqrt(Om(1+z)^3+OL) -> a0(z)=c*H(z)/2pi RUNS as (1+z)^1.5 at high z.
+  Branch B: growing-room rate = DARK-ENERGY / de Sitter horizon (the "dark energy came first" reading) -> a0 CONSTANT.
+Both agree at z=0 (ratio 0.902 to observed a0=1.2e-10), diverge by factor 2.97 at z=2. EXTERNAL DATA (Genzel et al.
+2017, Nature/arXiv:1703.04310, baryon-dominated falling high-z rotation curves; Milgrom 2017 arXiv:1703.06110 MOND
+analysis) as reported (attribution, not a re-verified verbatim quote -- titles/URLs confirmed via search, exact page
+wording not in this environment's transcript) disfavours a ~4a0 rise by z~2 and specifically a0~(1+z)^1.5, with the data
+consistent with CONSTANT a0. Taking that at face value: Branch A (a0~(1+z)^1.5, ~2.97a0 at z=2) FALSIFIED; Branch B
+(constant a0) survives + keeps the z=0 match. No-expansion control collapses the discriminator to 1.0 (the discriminator
+genuinely comes from cosmic evolution). Harness 140 GREEN.
+REFINEMENT of UP-134: external data selects the DARK-ENERGY-horizon reading -- the growing-room rate is the (asympt.
+constant) de Sitter rate, not the total expansion. The gate tests the MODEL-side numbers (Branch A lands in the
+disfavoured region, Branch B does not); the external exclusion itself is cited, not re-derived. This is the constraint
+doing real work: the model made a distinguishing prediction and observation adjudicated its internal fork. Owner
+doctrine under test. Also raised known_unknown_fep_field harness timeout 40->90s (genuinely ~30s, spurious RED under
+contention). scratch_diagnostic.
