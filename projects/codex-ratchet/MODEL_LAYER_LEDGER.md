@@ -3158,3 +3158,41 @@ live-but-unforced status already recorded for octonions/T01 (t01_constructible_n
 documenting the finding; NOT registered in run_all.py; harness stays 143 GREEN. The braid/anyon layer, if it ever
 becomes load-bearing, belongs in the field-of-engines / many-carrier regime (axes 7-12), not at the single-carrier
 foundation.
+
+## UP-141 -- WITHDRAWN (retained as scaffold): "each stage protects a distinct invariant" -- composite-key not a forced invariant (2026-07-10)
+
+Attempted to deepen the engine interior by sharpening "each of the 16 stages is its own kind of intelligence" from the
+prior rung's distinct-processing-FINGERPRINT (sixteen_intelligences_substages_terrain_ratchet) to the stronger notion
+"each stage PROTECTS A DISTINCT INVARIANT" -- a conserved structure it holds while transforming the rest. Built
+sixteen_stages_protect_distinct_invariants_sim.py; ran PASS standalone (12 density-distinct + 4 chirality-mirror pairs
+completing at the spinor level). The cross-family panel (Gemini-3.1-pro, Grok-4.5, GLM-5.2; Qwen timed out)
+UNANIMOUSLY killed the invariant framing, correctly:
+
+  - The "invariant" was a HAND-CONCATENATED FEATURE VECTOR [operator preserved axis, terrain contraction spectrum,
+    terrain fixed point, det], NOT the protected eigenspace of the composed stage channel. Distinctness was a composite
+    key installed by the source TERR/NATIVE tables, not a forced dynamical invariant.
+  - The spinor gate was a TAUTOLOGY: the holonomy reads eps out of H=eps*(sx+sy+sz)/sqrt(3), flipping by construction.
+  - The 12+4 density split was pre-installed by which terrains TERR marks center-fixed and which operators NATIVE assigns.
+  - genuine_preservation (|lambda|=1) is true by the op() definitions, not a failable test.
+
+THE REAL FINDING (a genuine negative, kept): the COMPOSED stage channel has NO genuine protected invariant at the
+DENSITY level -- the terrain GKSL flow contracts every axis to its fixed point. That is precisely why the sim retreated
+to concatenating operator-level and terrain-level pieces (the composite-key move the panel caught). So "each stage
+protects a distinct invariant" does NOT hold as a density-level dynamical claim. The honest standing result for "16
+distinct kinds" remains the PRIOR rung (distinct processing fingerprint, min pairwise 0.36, shuffle->0), which this does
+not supersede. DECISION: sim RETAINED AS A SCAFFOLD documenting the negative; NOT registered; harness stays 143 GREEN.
+
+LESSON FOR FUTURE ENGINE-DEEPENING: a genuine "each stage conserves something distinct" claim must read the protected
+structure of the COMPOSED stage channel itself (e.g. its Choi fixed points / conserved observables under the full flow),
+not concatenate separate operator and terrain features. The density-level flow being strongly contractive is the
+obstacle; a real invariant claim likely needs the spinor/Choi level or a non-contractive (measurement-conditioned)
+dynamics, which is the open direction.
+
+CONFIRMING PROBE (UP-141 negative, strengthened): built the composed stage channel's Liouville (4x4 Pauli-basis)
+representation and computed the fixed points of the dual map E^dagger (the conserved observables). RESULT: every stage
+has EXACTLY ONE conserved observable -- the trivial identity I (eigenvalue 1 = trace preservation). NO stage has a
+nontrivial protected observable at the density level. This directly confirms the panel and the withdrawal: "each stage
+protects a distinct invariant" is FALSE as a density-level dynamical claim; the only invariant is the trivial one. The
+genuine per-stage distinction is the FULL Liouville spectrum (e.g. t0_Ti |.|=[1,0.266,0.262,0.262] vs t0_Fi
+[1,0.58,0.483,0.483]) -- the channel-as-object, which is precisely what the prior processing-fingerprint rung measures.
+So the honest "16 distinct kinds" result is the channel FINGERPRINT (already shipped), not a protected invariant.
