@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-07-10 13:29 UTC",
+  "generated_utc": "2026-07-10 19:43 UTC",
   "harness": {
     "pass": 144,
     "fail": 0,
@@ -208,6 +208,16 @@
       "up": "UP-141",
       "title": "WITHDRAWN (retained as scaffold): \"each stage protects a distinct invariant\" -- composite-key not a forced invariant (2026-07-10)",
       "status": "withdrawn"
+    },
+    {
+      "up": "UP-142",
+      "title": "Four-substrate port-fidelity certification (harness 144 GREEN)",
+      "status": "shipped"
+    },
+    {
+      "up": "UP-143",
+      "title": "\"Process all the proposed math\" (brave-thread disposition) + two withdrawn discriminators (harness stays 144)",
+      "status": "withdrawn"
     }
   ],
   "withdrawn": [
@@ -229,6 +239,11 @@
     {
       "up": "UP-141",
       "title": "WITHDRAWN (retained as scaffold): \"each stage protects a distinct invariant\" -- composite-key not a forced invariant (2026-07-10)",
+      "status": "withdrawn"
+    },
+    {
+      "up": "UP-143",
+      "title": "\"Process all the proposed math\" (brave-thread disposition) + two withdrawn discriminators (harness stays 144)",
       "status": "withdrawn"
     }
   ],
