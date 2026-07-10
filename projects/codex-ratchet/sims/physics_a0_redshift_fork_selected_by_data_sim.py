@@ -29,8 +29,9 @@ GATED CLAIMS (external data; controls must FAIL):
   (1) THE FORK IS REAL AND FORCED: the two branches agree at z=0 (ratio to observed a0 both ~0.90, within the H0
       spread) but diverge by a factor > 1.5 at z=2 -- so it is a genuine, testable discriminator, not a local ambiguity.
   (2) DATA KILLS BRANCH A: Branch A's high-z scaling is a0 ~ (1+z)^(3/2) (verified: fitted log-log slope of a0(z) vs
-      (1+z) approaches 1.5 at high z), and a0(z=2)/a0(0) ~ 3, both in the range Milgrom 2017 reports the Genzel data
-      EXCLUDES. A "no expansion" control (H(z)=H0) collapses the discriminator to 1.0 (no test) -- proving the
+      (1+z) approaches 1.5 at high z), and a0(z=2)/a0(0) ~ 3, both in the range Milgrom 2017 is REPORTED to disfavour
+      for the Genzel data (attribution, not re-verified verbatim). A "no expansion" control (H(z)=H0) collapses the
+      discriminator to 1.0 (no test) -- proving the
       discriminator genuinely comes from cosmic evolution, not arithmetic.
   (3) BRANCH B SURVIVES AND IS THE REFINEMENT: Branch B is constant in z (a0(z)/a0(0)=1 to machine precision),
       consistent with the observed lack of a0 evolution; it keeps the z=0 match (ratio ~0.90). This refines UP-134:
@@ -38,12 +39,13 @@ GATED CLAIMS (external data; controls must FAIL):
 
 HONEST SCOPE: this does not confirm the model; it shows the model makes a distinguishing prediction, and external data
 adjudicates the internal fork -- killing the total-expansion reading and selecting the dark-energy-horizon reading
-(which is also Milgrom's own preferred constant-a0). The Genzel/Milgrom exclusion values are quoted from the cited
-papers; this sim reproduces the model-side numbers (a0(z) for each branch) that meet those external bounds. Owner
+(which is also Milgrom's own preferred constant-a0). The Genzel/Milgrom exclusion values are attributed to the cited
+papers (as reported, not re-verified verbatim in this environment); this sim reproduces only the model-side numbers
+(a0(z) for each branch) that meet those reported external bounds. Owner
 doctrine under test.
 
 scratch_diagnostic, promotion_allowed=false. External inputs: c (exact), H0 + (Om,OL) flat-LCDM, observed MOND a0,
-and the Genzel 2017 / Milgrom 2017 high-z exclusion (a0 !~ 4a0 at z~2; a0 !~ (1+z)^1.5).
+and the Genzel 2017 / Milgrom 2017 high-z exclusion AS REPORTED (attribution, not re-verified verbatim: a0 !~ 4a0 at z~2; a0 !~ (1+z)^1.5).
 """
 import json, os, sys
 import numpy as np
@@ -72,7 +74,7 @@ def main():
 
     verdict=bool(g_fork and g_A_killed and g_B)
     out={"classification":"scratch_diagnostic","promotion_allowed":False,
-         "framing":"the model forces a fork on a0(z) [total-H vs dark-energy-horizon]; external Genzel 2017 / Milgrom 2017 high-z rotation-curve data EXCLUDES the total-H branch (a0~(1+z)^1.5, ~3a0 at z=2) and selects the constant dark-energy-horizon branch -- refining UP-134",
+         "framing":"the model forces a fork on a0(z) [total-H vs dark-energy-horizon]; external Genzel 2017 / Milgrom 2017 high-z rotation-curve data (as reported, not re-verified verbatim) disfavours the total-H branch (a0~(1+z)^1.5, ~3a0 at z=2) and selects the constant dark-energy-horizon branch -- refining UP-134",
          "z0_anchor":{"a0_local":a0_local,"ratio_to_observed":r0_A,"note":"both branches agree at z=0 (established a0~c*H0/2pi coincidence)"},
          "claim1_fork_real_and_forced":{"ratio_branchA_z0":r0_A,"ratio_branchB_z0":r0_B,"discriminator_factor_at_z2":float(disc_z2),"pass":g_fork},
          "claim2_data_kills_branch_A":{"branchA_a0z2_over_a0z0":float(ratio_A_z2),"branchA_highz_loglog_slope":slope_hi,
@@ -80,7 +82,7 @@ def main():
              "no_expansion_control_discriminator":float(disc_noexp),"pass":g_A_killed},
          "claim3_branchB_survives_is_refinement":{"branchB_constant_in_z":const_B,"ratio_to_observed":r0_B,
              "note":"constant a0 consistent with observed lack of evolution; refines UP-134 -> growing-room rate = dark-energy/de Sitter horizon","pass":g_B},
-         "honest_scope":"does NOT confirm the model; shows the model makes a distinguishing a0(z) prediction and external data adjudicates the internal fork -- excluding the total-expansion reading, selecting the dark-energy-horizon (constant-a0) reading (also Milgrom's preferred). Exclusion values quoted from cited papers.",
+         "honest_scope":"does NOT confirm the model; shows the model makes a distinguishing a0(z) prediction and external data adjudicates the internal fork -- excluding the total-expansion reading, selecting the dark-energy-horizon (constant-a0) reading (also Milgrom's preferred). Exclusion values attributed to cited papers (as reported, not re-verified verbatim in this environment).",
          "policy_eval":{"model_forces_a0z_fork":g_fork,"external_data_excludes_total_expansion_branch":g_A_killed,
              "dark_energy_horizon_branch_survives_and_refines_UP134":g_B,
              "DATA_SELECTS_DARK_ENERGY_HORIZON_READING_OF_COSMOGENESIS":verdict}}
