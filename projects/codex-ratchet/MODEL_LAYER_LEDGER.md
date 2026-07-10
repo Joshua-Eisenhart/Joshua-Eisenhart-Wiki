@@ -2926,3 +2926,24 @@ single-stage level the ENDPOINT is order-insensitive for these operators (they c
 lands the same state); the load-bearing content is distinct-work + entropy/geometry dual + leg-by-leg alternation, NOT
 an endpoint order-dependence claim (reported as not holding). This is the "4 substages per stage" the owner asked for --
 now RUNNING, not just counted. scratch_diagnostic.
+
+## UP-133 -- the co-ratchet run from FOUNDATIONS, ratcheted as deep as it can, all earned (2026-07-09)
+
+Owner directive: "the coratchet has to be run from its foundations and ratchet as deep as it can. all earned. then get
+actually engine mechanics running in that." This runs the co-ratchet (geometry+entropy as one) from the carrier
+DOWNWARD as a depth ladder, testing at each rung whether the refinement is FORCED (a control loses a real distinction)
+or FREE (arbitrary). Harness 138 GREEN. Rungs:
+  R1 8 terrains distinct as CHANNELS -- FORCED (min channel dist 0.40; single-channel control -> 0).
+  R2 per-terrain NATIVE entropy -- FORCED: repeated own-pinch drives pointer-basis coherence monotone to 0.
+  R3 exactly 2 native operators = 1 PINCH (entropy dS 0.13) + 1 ROTATION (geometry dS 0.02, entropy-preserving) -- the
+     co-ratchet's two axes appear here.
+  R4 substage cell = the 2x2 DUAL RATCHET -- FORCED: a genuine minimality search over closure+alternation (NO 2A2B
+     prefilter, auditor-corrected) finds the minimal alternating closing cycle length = 4, words exactly {ABAB,BABA}
+     (matches UP-130).
+  R5 BELOW the substage = the FREE FLOOR: the substage net map is fixed but its micro-realization is gauge -- the same
+     net leg-map from different sub-step paths is byte-identical (~1e-16), while a different net map is a real forced
+     difference (0.13). Forced structure BOTTOMS OUT at the substage cell.
+CONCLUSION: the co-ratchet ratchets as deep as R4 (the substage 2x2 dual-ratchet cell), all earned; R5 is the free
+floor. This is the earned foundation the engine mechanics (UP-130 count, UP-132 running) sit on. Timeout note: the
+t2_order_carried SINDy sim runs ~124s so its harness timeout was raised 120->240s (it is genuinely slow, not a hang;
+a spurious RED from a 120s trip under memory/CPU contention confirmed this). scratch_diagnostic.
