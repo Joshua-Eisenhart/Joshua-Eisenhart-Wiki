@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-07-10 08:45 UTC",
+  "generated_utc": "2026-07-10 09:04 UTC",
   "harness": {
     "pass": 143,
     "fail": 0,
@@ -203,6 +203,11 @@
       "up": "UP-140",
       "title": "WITHDRAWN (retained as scaffold): HoTT/braid-group trajectory topology -- placement real, but no failable gate (2026-07-10)",
       "status": "withdrawn"
+    },
+    {
+      "up": "UP-141",
+      "title": "WITHDRAWN (retained as scaffold): \"each stage protects a distinct invariant\" -- composite-key not a forced invariant (2026-07-10)",
+      "status": "withdrawn"
     }
   ],
   "withdrawn": [
@@ -219,6 +224,11 @@
     {
       "up": "UP-140",
       "title": "WITHDRAWN (retained as scaffold): HoTT/braid-group trajectory topology -- placement real, but no failable gate (2026-07-10)",
+      "status": "withdrawn"
+    },
+    {
+      "up": "UP-141",
+      "title": "WITHDRAWN (retained as scaffold): \"each stage protects a distinct invariant\" -- composite-key not a forced invariant (2026-07-10)",
       "status": "withdrawn"
     }
   ],
