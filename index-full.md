@@ -1,6 +1,6 @@
 # Codex Ratchet Wiki — Index
 
-Total published pages: 498. Governance/read-first surfaces are listed separately. Restructured 2026-04-17 (stabilization pass).
+Total published pages: 507. Governance/read-first surfaces are listed separately. Restructured 2026-04-17 (stabilization pass).
 
 ## Hermes / LLM Alignment Front Door
 - [[hermes-current/read-first]] — Hermes front door; load this before substantive work
@@ -17,7 +17,14 @@ Total published pages: 498. Governance/read-first surfaces are listed separately
 - [[projects/codex-ratchet/current-research-frontier-2026-07-09]] — current July engine/object/math/Lev research digest, falsifiers, and claim ceilings
 - [[projects/codex-ratchet/engine-16x4-axis6-current-state-2026-07-09]] — exact current state and missing conjunction for the 16 source slots, fixed-sign four-substage interior, two engine types, and four loops
 - [[projects/codex-ratchet/packet-97-up129-up130-audit-2026-07-09]] — fresh `135/0/0` packet receipt, UP-129/UP-130 claim correction, and conditional four-cell product-square ceiling
+- [[projects/codex-ratchet/packet-102-canonical-rerun-audit-2026-07-09]] — canonical `139/0/0` packet rerun with UP-130 rejected and UP-133/UP-134 bounded
+- [[projects/codex-ratchet/packet-107-physics-loopback-audit-2026-07-09]] — canonical `141/0/0` packet rerun with both new physics promotions rejected by current data and gauge-invariant phase controls
+- [[projects/codex-ratchet/packet-110-rerun-and-claim-audit-2026-07-10]] — canonical `142/0/0` packet rerun with stale field evidence, panel provenance, max-plus, and object portability audited
+- [[projects/codex-ratchet/cross-domain-test-target-registry-audit-2026-07-10]] — external target-registry correction preserving test ambition without self-assigned completion
+- [[projects/codex-ratchet/source-intake/packet-107-physics-source-register-2026-07-09]] — primary-source register for `a0(z)` observations and geometric-phase math
+- [[projects/codex-ratchet/repository-research-and-tool-validation-2026-07-09]] — pinned source, upstream-test, and bounded-use ledger for new math/simulation repositories
 - [[concepts/dual-ratchet-geometry-entropy-jordan-research-2026-07-09]] — article-backed geometry/entropy dual-ratchet and Jordan/octonion research synthesis
+- [[concepts/tropical-max-plus-placement-research-2026-07-10]] — max-plus/tropical primary-source research and bounded engine-placement hypothesis
 - [[concepts/sindy-koopman-system-identification-for-qit-engines-2026-07-09]] — SINDy generator and EDMD finite-map research, live package boundaries, and the conditional 16 x 4 execution result
 - [[projects/codex-ratchet/source-intake/sindy-koopman-article-register-2026-07-09]] — primary paper and official software-source register for the system-identification lane
 - [[projects/codex-ratchet/source-intake/dual-ratchet-math-article-register-2026-07-09]] — primary-source article register and project translation boundaries
@@ -25,6 +32,8 @@ Total published pages: 498. Governance/read-first surfaces are listed separately
 - [[projects/codex-ratchet/lev-executed-dual-ratchet-receipt-2026-07-09]] — fresh Lev-executed Codex-Ratchet dual-ratchet foundation receipt
 - [[projects/codex-ratchet/qit-lev-operationalization-plan-2026-07-09]] — staged and kill-gated path to one real SME object-evidence workflow
 - [[projects/leviathan-current/qit-evidence-boundary-refresh-2026-07-09]] — current split-worktree and ProofBundle/idempotency/no-mutation boundary
+- [[projects/leviathan-current/wizard-model-lane-runtime-audit-2026-07-09]] — evidence-bound provider-lane receipts, completeness gates, and current Lev runtime ceiling
+- [[projects/leviathan-current/claimgate-wizard-patch-genealogy-2026-07-10]] — archive-to-current-upstream patch genealogy and fresh-port boundary
 - [[projects/research-ratchet/README]] — Research Ratchet front door for the long-horizon project harness: event-sourced admissibility geometry, WorldModelGraph / GraphPatch, Spinor Memory, Attractor Basin Digger, ClaimGate authority, and Lev Effect/Eval/Ledger bridge; proposal/source frame only, not runtime proof
 - [[projects/codex-ratchet/wiki-upgrade-pack-intake-2026-06-19]] — pass-with-cautions intake for the Codex Ratchet deep-research report and wiki-upgrade ZIP; adds compact routers/spec mirrors/templates without promoting repo evidence
 - [[projects/codex-ratchet/repo-to-wiki-research-assessment-intake-2026-06-19]] — pass-with-cautions intake for the pasted Codex Ratchet repo-to-wiki research assessment; routes useful backlog/front-door pressure without promoting repo evidence

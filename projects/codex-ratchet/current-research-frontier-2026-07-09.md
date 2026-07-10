@@ -1,5 +1,18 @@
 # Codex Ratchet Current Research Frontier - 2026-07-09
 
+## July 10 Foundation Update
+
+The four-count question is now a measured negative, not merely an open lack of
+evidence. The free-length JAX selector is scientific red with no qualifying
+primitive four-cycle, and the independent Z3/cvc5 scout admits every length
+from 2 through 8 until cardinality four is explicitly encoded. Keep the 16-by-4
+schedule as source-defined while searching for a genuinely count-free axiom.
+
+Packet 110 reruns `142/0/0` but adds no field rung. Its field-pair result is
+stale/withdrawn; its max-plus lane is a narrow scratch diagnostic; and its
+object score changes by about 303 times across runtimes with byte-identical
+source. See [[projects/codex-ratchet/packet-110-rerun-and-claim-audit-2026-07-10]].
+
 ## Status
 
 Current repo-derived research digest and routing page.
@@ -13,6 +26,10 @@ Source authority:
 - pre-sync head: `a703e0febdc1fdc5f9f49732bc723d4670823ee0`;
 - current packet audit: [[projects/codex-ratchet/external-86-v84-92-foundations-engine-audit-receipt-2026-07-09]];
 - packet 97 claim audit: [[projects/codex-ratchet/packet-97-up129-up130-audit-2026-07-09]];
+- packet 102 canonical rerun: [[projects/codex-ratchet/packet-102-canonical-rerun-audit-2026-07-09]];
+- packet 107 physics kill audit: [[projects/codex-ratchet/packet-107-physics-loopback-audit-2026-07-09]];
+- packet 107 source register: [[projects/codex-ratchet/source-intake/packet-107-physics-source-register-2026-07-09]];
+- repository/tool validation: [[projects/codex-ratchet/repository-research-and-tool-validation-2026-07-09]];
 - exact 16 x 4 / Axis-6 state: [[projects/codex-ratchet/engine-16x4-axis6-current-state-2026-07-09]];
 - external math synthesis: [[concepts/dual-ratchet-geometry-entropy-jordan-research-2026-07-09]];
 - source register: [[projects/codex-ratchet/source-intake/dual-ratchet-math-article-register-2026-07-09]];
@@ -41,16 +58,21 @@ Real bounded machinery exists:
 The stronger system is not earned:
 
 - the stranger-seed Type-2 content-equivalence criterion failed;
-- no current sim combines the sequential four-operator interior with one fixed
-  source-slot Axis-6 sign;
+- a source-faithful fixed-sign sequential learning packet now exists, but it
+  supplies the four operators and cycle candidates; Type 1 is locally stable
+  while Type 2 fails the declared stability gate;
 - packet UP-130 does not derive four: it fixes the count in its predicate and
   runs no entropy gradient;
+- anonymous survivor discovery yields four classes only inside the finite
+  Pauli registry; generic axes yield eight classes, killing universal four;
 - only 10 of the 16 necessity rows are nondegenerate;
 - 64 ordered microsteps are not 64 independent personalities;
 - current learning is a bounded readout, not self-improving engine dynamics;
 - object scouts use authored finite fixtures, not real-world perception;
 - Axis0, full manifold closure, MMM authority, ontology writing, mesh projection, and physics remain blocked;
 - nonassociative DPI has one valid finite instrument with no counterexample, not a theorem.
+- packet 107 runs `141/0/0`, but current redshift evidence reverses its
+  constant-branch selection and its `2 pi` connection integral is gauge-dependent.
 
 ## Current Evidence Matrix
 
@@ -58,10 +80,14 @@ The stronger system is not earned:
 |---|---|---|---|
 | Package process | fresh isolated `95.zip` harness, `133/0/0`; 1q/3q NumPy oracle vs JAX/PyTorch/Julia green | real broad local execution with retained report hash `40f5f206...`; one v7 check consumed a pre-existing result because its producer is ordered later, then passed when rerun after the producer | passes local rerun, not clean-checkout dependency closure; green process is not scientific admission |
 | Packet 97 process | fresh isolated `97.zip` harness, `135/0/0` | the packet runner genuinely passes; both new sources fail active contract lint and both promoted meanings fail controls | passes local rerun only; runner green does not admit UP-129 or UP-130 |
+| Packet 107 process | canonical isolated harness `141/0/0`; independent 17/17 kill audit; 19/19 malformed validator mutations rejected; key-closed result with live ZIP/extraction recomputation | both new scripts execute, but UP-135 is contradicted by current primary-source evidence and UP-136 omits the endpoint phase on a projectively constant path | packet rerun and kill audit only; no schedule, Axis0, or physics movement |
 | Dual-engine loop | 300-tick NumPy/JAX/PyTorch/Julia replay | real loop, sheet divergence, different memory traces | scratch diagnostic; not cognition |
 | Runtime closure | actions update the next belief prediction while world outcomes remain fixture-driven; declared shifts at ticks 100 and 200 were not jointly detected within 8 ticks | useful replay harness, not a closed agent/world loop | adaptive-perception and causal-action claims blocked |
 | Stage identity | fresh stranger-seed full-affine re-identification `16/16`; SVD proxy `7/16` | the proxy set `8 terrains x 2 selected/native operators` carries noncollapsed affine information | not re-identification of the 16 signed source slots; multi-seed census still needed |
-| 16 x 4 / Axis-6 | source linter passes; one-step channel scout gives 64/64 finite signatures; separate four-beat scout moves at all beats; Julia/JAX recover a conditional four-cell product square | table shape, finite precedence sensitivity, a sequential candidate, and a structural operator quotient are real | no single source-faithful fixed-sign sequential sim; product-square result does not bind four beats to 16 stages |
+| 16 x 4 / Axis-6 | source linter passes; fixed-sign system-ID runs both four-cell orientations; PyTorch learns six cycles over 36 runs; JAX sweeps 1,080 scenarios | the source-faithful 64-microstep candidate really executes; Type 1 wins 540/540, Type 2 splits 385/142/13 with eight ties | four and the candidate cycles are inputs; Type 2 and emergence remain red |
+| Independent order recognizers | PyDMD clean accuracy `1.0`; deeptime VAMP `0.9444`; shuffle/block/reversal controls collapse | the two supplied Type-2 trajectory families are distinguishable | recognizer only; cannot select which generated order is true |
+| Exact Jordan oracle | GAP/ALCO upstream `0/6` failures; local J3(O) oracle 23/23 | exact finite Albert product/minpoly/quadratic-representation parity and corrupted-Fano kill | no spectral log, entropy, positive map, DPI, engine, or Axis0 |
+| Associative entropy tools | QICS upstream 22/22 and local oracle 11/11 with nine optimal solves and byte-identical rerun; Physlib `QuantumInfo.Entropy.DPI` builds across 8,617 Lean jobs with zero source `sorry`/`admit` hits | fixed-input Umegaki/CPTP-contraction oracle plus formal associative DPI reference | neither lifts DPI to exceptional J3(O) by analogy |
 | Type-2 order | ordered distance `0.89447`; unordered `0.0004859` above null `0.0003245`; packet 97 terrain-position ratio passes even with every operator erased | some finite schedules are order-sensitive; UP-129 adds a toy terrain-position diagnostic only | preserve same-content failure; do not claim operator-carried equivalence or two loops differing only by order |
 | 64 object scout | four ordered loop objects, ordered accuracy `1.0`; erasure controls collapse | finite order-dependent object formation exists | authored finite atlas, not production objecthood |
 | Projection battery | held-out mean `0.9`; bag/view erased `0.25` | one root object can survive several partial views | finite four-object carrier, not MMM or ontology authority |
@@ -112,6 +138,13 @@ maps commute without entropy change. The replacement product-square scout
 shows why four operator classes are structurally plausible under explicit
 premises; it does not show that four sequential substages emerge inside every
 source stage.
+
+The anonymous survivor-discovery packet tightens this further. Independent
+Julia and JAX lanes recover four quotient classes from six survivors inside
+the declared Pauli registry, but generic axes produce eight classes from ten
+survivors. Its foundational-four, history-dependent-ratchet, and per-stage
+substage gates are all false. Four is therefore conditional on the source
+operator family, not emitted universally by geometry and entropy.
 
 Two additional boundaries control the engine reading:
 
@@ -195,6 +228,23 @@ corrections controlling its earlier prose:
 These extend a finite geometric research spine. They do not close the manifold,
 Axis0, engine identity, or physics.
 
+Packet 107 adds a useful geometric-phase falsifier. Its pole path is one
+constant ray; the reported `-2 pi` is a section-dependent connection integral.
+Including the Pancharatnam endpoint term makes both the full and half paths
+zero modulo `2 pi`. It cannot identify the engine phase circle with a
+thermal/KMS period.
+
+## Physics Loop-Back Audit
+
+Packet 107 is a real `141/0/0` process run but does not move physics. Milgrom's
+2017 high-redshift analysis constrains a rapid rise without selecting a
+constant branch. MUSE-DARK III 2026 reports increasing characteristic `a0`
+over 79 galaxies and evolution faster than `H(z)`. This contradicts the
+packet's constant/de-Sitter selection while leaving its total-`H` formula
+unadmitted. See
+[[projects/codex-ratchet/packet-107-physics-loopback-audit-2026-07-09]] and
+[[projects/codex-ratchet/source-intake/packet-107-physics-source-register-2026-07-09]].
+
 ## Exceptional And Jordan Research
 
 Read:
@@ -206,6 +256,26 @@ Read:
 - [[projects/codex-ratchet/fabrication-modes-catalog]]
 
 New after the original exceptional-round digest:
+
+The pinned ALCO/GAP exact-oracle lane now passes ALCO's six-file upstream suite
+with zero failures and the local J3(O) packet passes 23/23 exact gates over
+five frozen cases. This verifies product, trace, determinant, cubic minimal
+polynomial, quadratic representation, Cayley-Hamilton, homogeneity,
+determinant covariance, and the fundamental formula against an independent
+implementation. A corrupted Fano product is rejected. The ceiling is exact
+finite algebra parity only.
+
+On the associative side, QICS v1.1.3 passes its complete 22-test upstream suite
+and supplies dedicated quantum-relative-entropy/operator-perspective cones.
+The local fixed-input packet adds nine optimal solves, maximum
+QICS/direct-spectral error `8.16396894531835e-10`, six accepted CPTP
+contractions, six rejected invalid-map controls, and a byte-identical rerun.
+Physlib supplies a machine-checked finite-dimensional sandwiched-Renyi and
+ordinary relative-entropy DPI path. Those are stronger associative references;
+they do not cross the exceptional composition boundary. The open problem is
+now crisp rather than rhetorical: J3(O) spectral functional calculus,
+entropy, Jordan-positive maps, and a bounded DPI with no borrowed tensor
+product.
 
 `jordan_dpi_probe_v4` implements the auditor-specified non-block-scalar J3(O) instrument. Its transfer matrix fails to commute with diagonal pinching (`2`-norm about `0.1248`), the associative Herm3(C) surrogate fails to reproduce spectra and divergence trajectories (max differences about `0.1243` and `0.0644`), octonionic associator content remains above the gate, and the finite grid has zero DPI violations with maximum delta about `-6.1e-6`.
 
@@ -233,6 +303,7 @@ Read:
 - [[projects/leviathan-current/qit-evidence-consumer-receipt-2026-07-07]]
 - [[projects/leviathan-current/qit-evidence-boundary-refresh-2026-07-09]]
 - [[projects/codex-ratchet/lev-executed-dual-ratchet-receipt-2026-07-09]]
+- [[projects/leviathan-current/wizard-model-lane-runtime-audit-2026-07-09]]
 
 The useful architectural rule survives every audit:
 
@@ -253,6 +324,14 @@ object receipt
 ```
 
 No packet in this tranche earns the final projection step.
+
+The July 9 Lev Wizard provider lane is now genuinely live but remains
+advisory. A source-bound Grok 4.5 run preserves the exact prompt hash,
+provider-reported model, full output, elapsed time, output hash, and end marker.
+NVIDIA and Gemini failures are retained as timeout/truncation/schema receipts.
+The Wizard still withholds graph mutation and its native engine carrier remains
+below the source-faithful QIT engine. This is a real executor improvement, not
+engine admission.
 
 ## Corrections To Older Wiki Surfaces
 
@@ -297,6 +376,6 @@ The next build should target usefulness and falsifiability, not total closure. S
 - [[root-ratchet-ladder-continuous-climb-2026-07-06]]
 - [[root-ratchet-mechanics-and-rolling-entangled-dice-2026-07-06]]
 - [[entangled-dice-universe-creation-2026-07-06]]
-- [[self-similar-frameworks-and-teleological-doctrine]]
+- [[concepts/self-similar-frameworks-and-teleological-doctrine]]
 
 These preserve the broader owner theory and genealogy. They do not raise the engine or product claim ceiling.

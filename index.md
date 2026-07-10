@@ -20,12 +20,21 @@ Use this as the low-friction entry point. The old full listing lives at [index-f
 - [[projects/codex-ratchet/engine-16x4-axis6-current-state-2026-07-09]] — Exact current state of the 16 source slots, four substages, two engine types, four loops, and Axis-6 math.
 - [[concepts/sindy-koopman-system-identification-for-qit-engines-2026-07-09]] — Research math, package truth, and the new conditional 16 x 4 execution receipt linking continuous generators to finite-time stage maps.
 - [[projects/codex-ratchet/packet-97-up129-up130-audit-2026-07-09]] — Packet 97 execution receipt, UP-129/UP-130 falsification, and the narrower four-cell product-square result.
+- [[projects/codex-ratchet/packet-102-canonical-rerun-audit-2026-07-09]] — Packet 102 canonical `139/0/0` rerun with UP-130 rejection and bounded UP-133/UP-134 ceilings.
+- [[projects/codex-ratchet/packet-107-physics-loopback-audit-2026-07-09]] — Packet 107 canonical `141/0/0` rerun; current redshift data and gauge-invariant phase controls reject both new scientific promotions.
+- [[projects/codex-ratchet/packet-110-rerun-and-claim-audit-2026-07-10]] — Packet 110 canonical `142/0/0` rerun; stale field result rejected, max-plus bounded, and object runtime sensitivity measured.
+- [[projects/codex-ratchet/cross-domain-test-target-registry-audit-2026-07-10]] — Corrected status map for the external cross-domain registry; target map is not a result ledger.
+- [[projects/codex-ratchet/source-intake/packet-107-physics-source-register-2026-07-09]] — Primary-source register for high-redshift `a0` evidence and Berry/Pancharatnam geometric phase.
+- [[projects/codex-ratchet/repository-research-and-tool-validation-2026-07-09]] — Pinned/tested external repo ledger for PySINDy, PyKoopman, PyDMD, deeptime, ALCO, QICS, and Physlib.
 - [[concepts/dual-ratchet-geometry-entropy-jordan-research-2026-07-09]] — Article-backed synthesis of the geometry/entropy dual ratchet and Jordan/octonion carrier question.
+- [[concepts/tropical-max-plus-placement-research-2026-07-10]] — Primary-source tropical/max-plus research and the narrow packet-110 placement ceiling.
 - [[projects/codex-ratchet/source-intake/dual-ratchet-math-article-register-2026-07-09]] — Primary-source register for Jordan, Petz, BKM, octonion, and nonassociative-QM research.
 - [[projects/wiki-cleanup-and-authority-boundary-2026-07-09]] — Wiki-only-document boundary and Codex-Ratchet/Leviathan authority split.
 - [[projects/codex-ratchet/lev-executed-dual-ratchet-receipt-2026-07-09]] — Fresh dual-ratchet foundation run executed through Lev against Codex-Ratchet.
 - [[projects/codex-ratchet/qit-lev-operationalization-plan-2026-07-09]] — Falsifiable path to one real SME object-evidence workflow.
 - [[projects/leviathan-current/qit-evidence-boundary-refresh-2026-07-09]] — Current CR-to-Lev ProofBundle, idempotency, quorum, and no-mutation gap.
+- [[projects/leviathan-current/wizard-model-lane-runtime-audit-2026-07-09]] — Evidence-bound Grok 4.5/NVIDIA/Gemini/Fable runtime receipts and fail-closed provider audit.
+- [[projects/leviathan-current/claimgate-wizard-patch-genealogy-2026-07-10]] — Which ClaimGate/Wizard patches reached current Lev, which are obsolete, and which ideas merit a fresh port.
 - [[projects/constraint-core/LINEAGE_AND_VERDICTS_2026-07-02]] — Constraint-core local verdict snapshot.
 - [[projects/constraint-core/RATCHET_STATE_BY_TIER_2026-07-02]] — Canon, scratch, and owner-reserved tier map.
 - [[projects/leviathan-current/index]] — Leviathan wiki table of contents.

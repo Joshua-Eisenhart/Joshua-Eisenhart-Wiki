@@ -23,6 +23,18 @@ The exact current statement is:
   load-bearing under both conditional cycle orientations and one finite
   house-map parameterization; not yet derived. They must still emerge from
   independent geometry and entropy ratchets.
+- **Learned within-slot order:** Type 1 is stable at `Ti > Fe > Fi > Te` under
+  the current three-seed PyTorch fit and 540-scenario JAX half-sweep. Type 2 is
+  unstable across the two leading orders. The 64-stage scientific gate is red.
+- **Count-free operator discovery:** four quotient classes survive inside the
+  finite Pauli registry, while generic-axis challenges produce eight. A
+  universal four-operator basis is therefore false in the current test.
+- **Free-length schedule selection:** a preregistered search over 11,586
+  oriented cycles of lengths 2 through 8 selects repeated two- and three-beat
+  winners. No qualifying primitive four-cycle wins for either engine type.
+- **Count-free temporal forcing:** independent Z3 and cvc5 encodings admit all
+  lengths 2 through 8. Only premises that explicitly carry cardinality four
+  force four in the bounded scout.
 - **All 16 stages and all four substages are necessary:** all 16 macro maps are
   identifiable and every beat is necessary for reproducing the authored
   held-out transition. Necessity for useful object/task work is not established.
@@ -31,6 +43,17 @@ The exact current statement is:
 
 This page controls broader readings of the July 6-9 engine packets. It is an
 audit/router, not a proof or admission surface.
+
+The decisive July 10 update is therefore: the structural `16 x 4` source
+candidate is real, but the multiplier four remains source-defined rather than
+earned by the tested dual-ratchet mathematics.
+
+A post-hoc bias audit removes the selector's MDL penalty and separately ranks
+the retained fixed-per-beat-exposure control. Length-four repeated-operator
+cycles sometimes win after MDL erasure, but no primitive all-four-once cycle
+qualifies. Fixed-per-beat winners move to lengths five and six, also with
+repetition. The red therefore survives both obvious length-coupled terms,
+without becoming a proof beyond the frozen finite packet.
 
 Primary repo audit:
 `/Users/joshuaeisenhart/Codex-Ratchet/system_v5/ops/CLAUDE_SCIENCE_94_95_ENGINE_STATE_AUDIT_20260709.md`.
@@ -129,6 +152,57 @@ with a shared Axis-6 sign and that every beat has transition-level teeth. It is
 not dual-ratchet emergence: four cells, cycle orientations, canonical-first
 rotation, exact derivative access, and the house maps are inputs.
 
+### Source-faithful stage-interior learning and JAX sweep
+
+`dual_ratchet_stage_interior_learning_v0` is the first packet that jointly
+holds the corrected source semantics and tries to learn the within-slot order.
+It preserves one source Axis-6 sign across all four Ti/Te/Fi/Fe phases, runs
+both engine charts, evaluates all six oriented cycles, and uses three training
+seeds: 36 PyTorch runs over explicit 64-microstep candidates.
+
+- Type 1 selects `Ti > Fe > Fi > Te` on all three seeds.
+- Type 2 selects `Ti > Te > Fi > Fe` on two seeds and
+  `Ti > Te > Fe > Fi` on one.
+- Every selected phase has a measured effect and the static-gradient control
+  collapses.
+- The local scientific gate fails because the Type-2 selection is unstable.
+
+JAX then independently reproduces the PyTorch scores and sweeps 1,080
+scenarios, producing 6,480 cycle scores. Type 1 wins 540/540 without ties.
+Type 2's reference wins 385/540; its main competitor wins 142/540; a third
+cycle wins 13/540; eight scenarios tie. All 18 mechanical and destructive
+controls pass, but the scientific verdict remains red.
+
+This is real learning and falsification on the source-faithful candidate. It
+does not derive the universal four-operator basis or make the Type-2 order
+unique.
+
+### Independent kinetic recognizers
+
+PyDMD and deeptime independently consume the same hashed Type-2 trajectory
+contract. Clean held-out accuracies are `1.0` and `0.9444444444`; temporal
+shuffle, block permutation, and reversal collapse near chance. The packet
+validator passes 18/18.
+
+This establishes that the two generated trajectory families are
+distinguishable. It cannot choose truth because both candidate classes were
+supplied by the generator.
+
+### Count-free survivor discovery
+
+`dual_ratchet_substage_survivor_discovery_v0` removes Ti/Te/Fi/Fe names from
+its two independent measurement lanes. Julia and JAX agree:
+
+- finite Pauli registry: six survivors form four classes;
+- generic-axis challenge: ten survivors form eight classes;
+- foundational four-substage emergence: false;
+- history-dependent dual ratchet tested: false;
+- per-stage four substages earned: false.
+
+The four conditional classes are contraction/isometry crossed with the
+terrain symmetry's transverse/axial orbit. The generic-axis kill means this is
+not a universal derivation of four and does not choose a temporal order.
+
 ### Two types and four loops
 
 Fresh Type-1 and Type-2 runs each execute two ordered four-row loops. Their
@@ -151,6 +225,13 @@ It does not yet establish four distinct useful loop intelligences:
 - The substage architecture discriminator leaves both the four-operator and
   four-loop-terrain candidates alive; its candidate lengths are not matched
   and 64-position uniqueness is open.
+- The source-faithful learning packet still puts Ti/Te/Fi/Fe and six cycle
+  candidates into the search space. It selects Type 1 robustly but does not
+  derive four or resolve Type 2.
+- Packet 107 changes no schedule file. Its two additions are physics-side
+  arithmetic; current redshift evidence rejects the claimed constant branch,
+  and its pole `2 pi` is a gauge-dependent connection integral. It contributes
+  zero evidence to four substages or the 64 schedule.
 - Slot-level operator sensitivity is asymmetric across signs: current controls
   find sensitivity in 7/8 down-sign and 3/8 up-sign contexts.
 - Contract lint finds 18 violations over the six current engine sims: all six
@@ -233,30 +314,40 @@ square cycle modulo reversal. The new system-ID packet binds both orientations
 to the 16 stage slots and establishes conditional sequential dynamics. It does
 not derive the product premises or a four-count from dual ratcheting.
 
+Packet 102 does not change that conclusion. Its canonical isolated harness is
+green at `139/0/0`, but UP-130 remains rejected, UP-133 is a finite
+commuting-involution scout with no entropy movement, and UP-134 is a known
+MOND/Hubble numerical coincidence without an executable Ratchet bridge. See
+[[projects/codex-ratchet/packet-102-canonical-rerun-audit-2026-07-09]].
+
 ## Exact Next Experiment: Dual-Ratchet Emergence
 
 Build `engine_dual_ratchet_substage_emergence_v0`:
 
-1. Treat the passing four-cell product square as a conditional prerequisite,
+1. First resolve or explicitly retain the Type-2 underdetermination with a
+   preregistered independent judge. The judge may not use the generating loss
+   or class labels as features; shuffle, block, reversal, and label nulls must
+   kill selection.
+2. Treat the passing four-cell product square as a conditional prerequisite,
    not the target result.
-2. Parse the 16 source positions without a duplicate schedule or injected
+3. Parse the 16 source positions without a duplicate schedule or injected
    four-count.
-3. Generate a candidate superset of admissible terrain/operator/order/side
+4. Generate a candidate superset of admissible terrain/operator/order/side
    maps.
-4. Run the geometry ratchet and entropy ratchet independently.
-5. Intersect their survivor ledgers and require the same four minimal
+5. Run the geometry ratchet and entropy ratchet independently.
+6. Intersect their survivor ledgers and require the same four minimal
    equivalence classes under both `E_then_G` and `G_then_E`, across seeds and
    candidate enumeration order. Four must be an output, not an input.
-6. Only then compose the survivors sequentially under one inherited Axis-6
+7. Only then compose the survivors sequentially under one inherited Axis-6
    sign per macro stage.
-7. Record exact superoperator or Choi fingerprints and run reverse,
+8. Record exact superoperator or Choi fingerprints and run reverse,
    one-survivor removal, duplicate-survivor, sign-flip, terrain-identity,
    native-only, non-native, and order-erasure controls.
-8. Compare Type-1 and Type-2 under equal information and compute budgets, then
+9. Compare Type-1 and Type-2 under equal information and compute budgets, then
    require a held-out task or object metric to fall when each claimed substage
    is removed. Distinction without work is not teeth.
-9. Pin dependencies and pass classification, authority-manifest, depth,
-   provenance, and result-contract lint.
+10. Pin dependencies and pass classification, authority-manifest, depth,
+    provenance, and result-contract lint.
 
 If that passes, the earned claim is narrow but meaningful: **proper dual
 ratcheting emits four load-bearing sequential substage classes for each of 16
@@ -268,6 +359,8 @@ MMM authority, and ontology writing remain separate gates.
 
 - [[projects/codex-ratchet/current-research-frontier-2026-07-09]]
 - [[projects/codex-ratchet/packet-97-up129-up130-audit-2026-07-09]]
+- [[projects/codex-ratchet/packet-102-canonical-rerun-audit-2026-07-09]]
+- [[projects/codex-ratchet/repository-research-and-tool-validation-2026-07-09]]
 - [[projects/codex-ratchet/qit-lev-operationalization-plan-2026-07-09]]
 - [[projects/codex-ratchet/external-86-v84-92-foundations-engine-audit-receipt-2026-07-09]]
 - [[projects/codex-ratchet/qit-dual-ratchet-engine-teeth-audit-2026-07-07]]

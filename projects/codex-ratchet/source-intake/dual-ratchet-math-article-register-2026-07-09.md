@@ -85,6 +85,51 @@ mathematical context and explicitly warns that several later proposals remain
 speculative. Project relevance: it is a guard against laundering a historical
 possibility into a forced engine result.
 
+### ALCO 1.1.2 (2025)
+
+[ALCO: Tools for algebraic combinatorics](https://bnasmith.github.io/alco/)
+is a GAP package with explicit octonion and Jordan-algebra implementations.
+Its simple Euclidean Jordan algebra constructor includes the exceptional
+rank-3, degree-8 Albert algebra. Project relevance: it is an independent exact
+oracle for J3(O) polynomial identities. It does not implement a spectral
+logarithm, entropy, positive channel, or data-processing theorem.
+
+### QICS 1.1.3 (2025)
+
+[QICS](https://github.com/kerry-he/qics) is a specialized primal-dual conic
+solver for quantum-information optimization. Its native cone set includes
+quantum entropy, quantum relative entropy, conditional entropy, operator
+perspectives, Renyi, and sandwiched-Renyi quantities. Project relevance: it can
+serve as an independent numerical oracle for the associative entropy ratchet.
+Its cones are Hermitian-matrix/operator constructions and do not constitute an
+exceptional-Jordan entropy lift.
+
+### Physlib Quantum-Information DPI (2026)
+
+[Physlib](https://github.com/leanprover-community/physlib) now contains a
+[Lean module for the data-processing inequality](https://github.com/leanprover-community/physlib/blob/master/QuantumInfo/Entropy/DPI.lean).
+The module develops sandwiched-Renyi DPI for finite-dimensional states and CPTP
+maps, then obtains the ordinary quantum-relative-entropy case. Project
+relevance: this is a machine-checked associative reference for the entropy
+pawl and a stronger oracle than another floating-point mirror. It remains a
+complex-Hermitian, CPTP, tensor-product theory; it does not prove DPI for J3(O)
+or supply an exceptional composite.
+
+[Lean-Quantum: Toward AI-Assisted Formalization of Quantum Information](https://arxiv.org/abs/2607.05492)
+describes the current formal infrastructure and the sandwiched-Renyi DPI route.
+It is a timely formalization source, not evidence that the Ratchet engines use
+the theorem correctly.
+
+### PyDMD and deeptime
+
+[PyDMD](https://github.com/PyDMD/PyDMD) implements multiple dynamic-mode and
+Koopman-oriented methods, including Hankel DMD and BOP-DMD.
+[deeptime's VAMP implementation](https://deeptime-ml.github.io/latest/notebooks/vamp.html)
+estimates a finite-lag Koopman operator and supplies VAMP scores for ranking
+features. Project relevance: they are independent kinetic recognizers for
+candidate stage orders. Recognition of generated classes is not a derivation
+or truth selector.
+
 ## Source-to-Project Translation
 
 | External result | Permitted local use | Not permitted |
@@ -94,6 +139,10 @@ possibility into a forced engine result.
 | BKM/monotone metrics | geometry-ratchet metric family | unique project geometry without a gate |
 | octonion structure | nonassociative candidate and kill controls | engine octonion admission |
 | nonassociative QM formalism | implementation design reference | claim that current code implements it |
+| ALCO exact Jordan algebra | independent J3(O) polynomial oracle | spectral entropy or DPI |
+| QICS entropy cones | associative numerical entropy/perspective oracle | exceptional-Jordan theorem |
+| Physlib DPI | machine-checked associative CPTP reference | J3(O) or engine admission |
+| PyDMD/deeptime | independent kinetic recognizers | true-order selection from supplied classes |
 
 ## Research Gaps Left Open
 
@@ -104,3 +153,12 @@ possibility into a forced engine result.
 3. A proof that the Axis-6 sign is inherited by every surviving substage rather
    than inserted as a schedule label.
 4. A source-faithful bridge from the surviving maps to Type-1/Type-2 loops.
+5. A formal boundary theorem or explicit replacement for composition at the
+   exceptional J3(O) rung; the associative Physlib theorem cannot be imported
+   by analogy.
+
+## Local Validation Router
+
+The source register does not inherit local execution status. Current pinned
+checkouts, upstream tests, and bounded integrations are recorded at
+[[projects/codex-ratchet/repository-research-and-tool-validation-2026-07-09]].

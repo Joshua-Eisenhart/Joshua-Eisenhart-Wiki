@@ -106,10 +106,53 @@ stronger emergent claim: the four cells, cycle, canonical-first rotation,
 source slots, exact derivative access, and house maps are premises rather than
 survivors emitted by the two ratchets.
 
+The later source-faithful learning packet now sharpens that result. It runs
+both engines, all six oriented Ti/Te/Fi/Fe cycles, three learned-weight seeds,
+and a 1,080-scenario JAX sweep while preserving one Axis-6 sign across all four
+phases of each slot. Type 1 selects `Ti > Fe > Fi > Te` on all three seeds and
+in all 540 JAX scenarios. Type 2 splits between two leading orders and fails
+the declared stability gate. The full scientific verdict is therefore still
+red.
+
+PyDMD and deeptime independently distinguish the two generated Type-2
+trajectory families, with clean accuracy `1.0` and `0.9444444444` and controls
+near chance. That is a good recognizer result. It is not a selector because
+both classes were supplied by the construction.
+
+## Tool-Backed Entropy Floor
+
+Three new repositories now separate the floor problem into exact, numerical,
+and formal associative roles:
+
+- ALCO 1.1.2 gives an independent exact J3(O) algebra oracle. The local packet
+  passes 23/23 polynomial-identity gates and kills a corrupted Fano product.
+- QICS 1.1.3 gives specialized numerical quantum-relative-entropy and
+  operator-perspective cones. Its complete upstream suite passes 22/22 in an
+  isolated environment. The local fixed-input oracle adds 11/11 producer
+  checks, nine optimal solves, direct-spectral agreement within `8.17e-10`,
+  six accepted contractions, six rejected non-CPTP controls, and a
+  byte-identical rerun.
+- Physlib gives a machine-checked finite-dimensional associative DPI path for
+  sandwiched Renyi and ordinary quantum relative entropy.
+
+These do not collapse into one result. ALCO has the exceptional carrier but no
+spectral log or DPI. QICS and Physlib have the entropy/DPI machinery but live
+on associative Hermitian operators and CPTP maps. The open bridge is exactly
+what it should be: define the exceptional positive cone, spectral functional
+calculus, entropy, and Jordan-positive maps, then test a bounded DPI without
+smuggling in an unavailable tensor product.
+
 ## Research Consequences
 
-The next sim should be named for emergence, not for the desired cardinality:
-`engine_dual_ratchet_substage_emergence_v0`.
+The next selector should be named for the unresolved question, not the desired
+cardinality. The two leading Type-2 orders need a preregistered independent
+judge whose score is neither the generating loss nor a class label. Temporal
+shuffle, block permutation, reversal, label shuffle, and a declared tie band
+must be kill conditions.
+
+The broader emergence sim remains
+`engine_dual_ratchet_substage_emergence_v0`: its candidate family must not put
+four into the candidate count or clustering rule.
 
 Its positive result would be: four substage equivalence classes are emitted by
 two independent ratchets and remain load-bearing in held-out work. Its failure
@@ -127,3 +170,5 @@ cannot retroactively validate an installed four-stage schedule.
 - [[projects/codex-ratchet/jordan-octonion-entropy-pawl-floor-receipt-2026-07-08]]
 - [[projects/codex-ratchet/external-86-v84-92-foundations-engine-audit-receipt-2026-07-09]]
 - [[concepts/sindy-koopman-system-identification-for-qit-engines-2026-07-09]]
+- [[projects/codex-ratchet/repository-research-and-tool-validation-2026-07-09]]
+- [[projects/codex-ratchet/packet-102-canonical-rerun-audit-2026-07-09]]
