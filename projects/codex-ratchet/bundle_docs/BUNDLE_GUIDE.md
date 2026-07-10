@@ -1,8 +1,8 @@
 # BUNDLE GUIDE -- constraint_core_unified (self-describing)
-_Regenerated 2026-07-10 13:29 UTC from live ledger + harness. Do not hand-edit; run `python generate_bundle_docs.py`._
+_Regenerated 2026-07-10 21:03 UTC from live ledger + harness. Do not hand-edit; run `python generate_bundle_docs.py`._
 
 ## Harness state (authoritative)
-**144 pass / 0 fail / 0 skip -> GREEN**  (124 registered sims, 38 UP rungs in ledger, 4 withdrawn.)
+**145 pass / 0 fail / 0 skip -> GREEN**  (125 registered sims, 41 UP rungs in ledger, 5 withdrawn.)
 Authoritative run: `python run_all.py` (full, no --fast). Result: `run_all_report.json`.
 
 ## The root project
