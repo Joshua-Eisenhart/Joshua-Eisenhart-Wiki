@@ -2901,3 +2901,13 @@ room; same integrator with generator+dissipator zeroed) by min 0.1435 for every 
 growing room, genuinely computed, a leg that would fail if the terrains opened no room (two auditor catches enforced
 this leg be real, not a S-S tautology). So Axis-0 DOES close end-to-end -- as the intrinsic gradient invariant, which is
 the object the model always meant. Harness 136 GREEN.
+
+### UP-131 control-correctness fix (2026-07-09, after auditor catch)
+Three auditor rounds flagged the frozen-room control. The first two versions (S(p)-S(p); then an identity flow_identity
+that ignored terrain params) were algebraic tautologies (gap identically 0 by construction). FIXED to a real, failable
+control: the frozen room = the FULL Hamiltonian dynamics with dissipators removed (kap=0). The state genuinely MOVES
+(unitary rotation, measured dist 0.148 != 0) but unitary evolution preserves the spectrum, so it opens no entropy-room
+and the frozen gap stays ~0 -- the OUTPUT of running real dynamics, not S-S. The load-bearing leg (open dissipative
+ceiling minus frozen unitary ceiling, min 0.144 > 0 for every probe) now genuinely tests that DISSIPATION is what opens
+the admissible-future room; a spectrum-changing bug or no-dissipation-room would fail it. Verdict unchanged (PASS,
+136 GREEN); this tightened a control leg inside an already-passing sim.
