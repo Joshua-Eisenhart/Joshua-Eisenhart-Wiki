@@ -1400,3 +1400,8 @@ UP-137 field of engines weakest rung. New sim field_pair_of_engines_weakest_rung
                no DOF beyond its marginals (not a new object). R=0.46 coupled, 0 product (failable); survives probe
                rotation (same matches 0.46/0.46, different g'=0.25 told apart 0.23); one DOF sufficient AND necessary.
                Earns only the weakest field rung; field metric + exceptional-algebra question is the next rung. 142 GREEN.
+
+UP-137 WITHDRAWN. field_pair_of_engines_weakest_rung de-registered from harness (142->141 GREEN). Cross-family
+               LLM panel (Gemini-3.1-pro/Grok-4.5/Qwen-3.5/GLM-5.2) caught the rung's core gate as tautological (3 of
+               4); rebuild showed opposite vs same Weyl chirality give identical negativity -> generic 2-qubit QM, not
+               a theory-specific field rung. Overclaimed rung withdrawn, not banked. Field-of-engines rung stays OPEN.
