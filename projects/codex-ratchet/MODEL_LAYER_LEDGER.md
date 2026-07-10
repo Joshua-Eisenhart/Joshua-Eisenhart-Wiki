@@ -2911,3 +2911,18 @@ and the frozen gap stays ~0 -- the OUTPUT of running real dynamics, not S-S. The
 ceiling minus frozen unitary ceiling, min 0.144 > 0 for every probe) now genuinely tests that DISSIPATION is what opens
 the admissible-future room; a spectrum-changing bug or no-dissipation-room would fail it. Verdict unchanged (PASS,
 136 GREEN); this tightened a control leg inside an already-passing sim.
+
+## UP-132 -- the 4 substages RUN inside an engine stage as the dual ratchet (2026-07-09)
+
+UP-130 derived WHY the substage count is 4; this RUNS the four substages as actual dynamics inside one stage and shows
+they ARE the dual ratchet turning. The four faithful stage operators (access_law_decoupling_sim) decompose exactly into
+the two dual-ratchet axes: F axis (GEOMETRY) Fi=-i[SX/2,.], Fe=-i[SZ/2,.] -- entropy-PRESERVING Bloch rotations; T axis
+(ENTROPY) Ti=0.6 D(SZ), Te=0.6 D(SX) -- entropy-CHANGING dephasing pinches. So {Ti,Te,Fi,Fe} = {T,F kind}x{i,e dir} =
+2 axes x 2 directions = the UP-130 4. RESULTS (harness 137 GREEN): (1) all four substages do distinct work (min pairwise
+channel distance 0.622; single-operator control ->0). (2) T/F IS the entropy/geometry dual: T-axis mean |dS| 0.105
+strictly exceeds F-axis 0.003 (F rotations entropy-preserving). (3) the alternating cycle [Fi,Ti,Fe,Te] advances
+geometry and entropy on ALTERNATING legs (per-leg alternation 4/4; a [Fi,Fe,Ti,Te] scramble 2/4). HONEST SCOPE: at the
+single-stage level the ENDPOINT is order-insensitive for these operators (they commute enough that the closed 4-beat
+lands the same state); the load-bearing content is distinct-work + entropy/geometry dual + leg-by-leg alternation, NOT
+an endpoint order-dependence claim (reported as not holding). This is the "4 substages per stage" the owner asked for --
+now RUNNING, not just counted. scratch_diagnostic.
