@@ -39,6 +39,7 @@ Use this as the low-friction entry point. The old full listing lives at [index-f
 - [[projects/codex-ratchet/source-intake/packet-107-physics-source-register-2026-07-09]] — Primary-source register for high-redshift `a0` evidence and Berry/Pancharatnam geometric phase.
 - [[projects/codex-ratchet/repository-research-and-tool-validation-2026-07-09]] — Pinned/tested external repo ledger for PySINDy, PyKoopman, PyDMD, deeptime, ALCO, QICS, and Physlib.
 - [[concepts/dual-ratchet-geometry-entropy-jordan-research-2026-07-09]] — Article-backed synthesis of the geometry/entropy dual ratchet and Jordan/octonion carrier question.
+- [[concepts/brave-exceptional-math-thread-research-audit-2026-07-10]] — Provenance-bound audit of the 1,882-line Brave math thread, with established/model-specific/unsupported claim ladders and Ratchet targets.
 - [[concepts/tropical-max-plus-placement-research-2026-07-10]] — Primary-source tropical/max-plus research and the narrow packet-110 placement ceiling.
 - [[projects/codex-ratchet/source-intake/dual-ratchet-math-article-register-2026-07-09]] — Primary-source register for Jordan, Petz, BKM, octonion, and nonassociative-QM research.
 - [[projects/wiki-cleanup-and-authority-boundary-2026-07-09]] — Wiki-only-document boundary and Codex-Ratchet/Leviathan authority split.

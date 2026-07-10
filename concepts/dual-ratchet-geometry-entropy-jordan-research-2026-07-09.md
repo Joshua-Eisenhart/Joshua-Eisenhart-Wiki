@@ -38,6 +38,20 @@ through a universal enveloping construction. This is an implementation route,
 not a shortcut: positivity, composition, and entropy must still be defined and
 tested for the particular exceptional system.
 
+Barnum, Graydon, and Wilce give an important but scoped composite boundary:
+under their operational axioms for composites of Euclidean Jordan algebras, no
+composite with an exceptional factor exists. This does not license the broader
+claim that every exceptional system has no composition or no Choi-like
+representation. Any Ratchet no-go must bind the exact positivity, local
+tomography, embedding, and dynamical assumptions it uses.
+
+Ciaglia, Jost, and Schwachhofer construct information-geometric structures from
+Jordan algebras, strengthening the geometry side of the bridge. Spectral
+entropy on a Euclidean Jordan algebra is straightforward once positivity,
+trace, and eigenvalues are fixed. A relative entropy with a proved
+data-processing inequality for a declared exceptional map class remains the
+delicate, unearned step.
+
 ## Proper Dual-Ratchet Contract
 
 For each source macro-slot, define a candidate set `C` containing admissible
@@ -172,3 +186,4 @@ cannot retroactively validate an installed four-stage schedule.
 - [[concepts/sindy-koopman-system-identification-for-qit-engines-2026-07-09]]
 - [[projects/codex-ratchet/repository-research-and-tool-validation-2026-07-09]]
 - [[projects/codex-ratchet/packet-102-canonical-rerun-audit-2026-07-09]]
+- [[concepts/brave-exceptional-math-thread-research-audit-2026-07-10]]

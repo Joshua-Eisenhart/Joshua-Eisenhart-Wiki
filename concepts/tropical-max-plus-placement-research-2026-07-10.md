@@ -57,3 +57,4 @@ Related:
 
 - [[projects/codex-ratchet/packet-110-rerun-and-claim-audit-2026-07-10]]
 - [[concepts/dual-ratchet-geometry-entropy-jordan-research-2026-07-09]]
+- [[concepts/brave-exceptional-math-thread-research-audit-2026-07-10]]
