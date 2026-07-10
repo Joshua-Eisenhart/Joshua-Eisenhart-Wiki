@@ -1419,3 +1419,10 @@ UP-139 PLACE Quantum Information Geometry (Fubini-Study/QFI) vs the model's BKM 
                the fidelity-family metric; model's metric = BKM conditional on the prior-forced rel-entropy pawl. Panel
                fixed smuggled 'forced' language, an uncomputed fidelity claim, a false pure-state claim, and a
                tautological gate. 143 GREEN.
+
+UP-140 WITHDRAWN (retained as scaffold): HoTT/braid-group trajectory topology. Built + ran PASS standalone, but the
+               cross-family panel unanimously caught the gate as a rubber stamp (a hardcoded-scalar commutativity check,
+               true by definition of C; hand-picked B_3->SL(2,Z) generators not forced from {F01,N01}). Stripped of the
+               tautology the placement is the SAME live-but-unforced verdict as octonions/T01, E8, Penrose (braids
+               constructible-not-forced; forced carrier topology = Z2 spinor double cover) -- real, but no new failable
+               gate. NOT registered; harness stays 143 GREEN.
