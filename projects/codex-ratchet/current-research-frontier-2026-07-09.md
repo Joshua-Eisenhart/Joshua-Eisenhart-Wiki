@@ -60,6 +60,14 @@ This earns a finite depth map and establishes that multiround fixtures exist;
 it does not earn a learner, a hidden V2 split, four substages, or the engine
 schedule.
 
+The preregistered N9 extension is recorded at
+[[projects/codex-ratchet/eca-n9-behavioral-depth-and-v2-admission-2026-07-10]].
+All 32,640 Julia/JAX ledgers agree and maximum strict depth reaches ten. The
+learned-V2 admission remains blocked: full-fixture depth-six MCC is `0.97098`,
+while subset-only MCC is a vacuous constant-prediction zero and the frozen scope
+is ambiguous. Lev successfully executes the JAX lane as bounded provenance, not
+science authority.
+
 ## Status
 
 Current repo-derived research digest and routing page.

@@ -30,6 +30,7 @@ Use this as the low-friction entry point. The old full listing lives at [index-f
 - [[projects/codex-ratchet/finite-behavioral-object-engine-2026-07-10]] — Real Julia/JAX finite behavioral objects and attractors, bounded PyG topology fit, fabrication audit, and red engine-nonredundancy gate.
 - [[projects/codex-ratchet/finite-behavioral-object-engine-v1-2026-07-10]] — Held-out-rule object benchmark: exact cross-runtime core, perfect but architecture-installed PyG ensemble, failed learning controls, and corrected T9 semantics.
 - [[projects/codex-ratchet/eca-behavioral-refinement-depth-census-2026-07-10]] — Exact Julia/JAX census of 97,920 ECA rule-pair ledgers; real multiround depth tail, no learned-perception or engine-schedule promotion.
+- [[projects/codex-ratchet/eca-n9-behavioral-depth-and-v2-admission-2026-07-10]] — Preregistered N9 census reaches strict depth ten; exact core green, learned-V2 admission blocked by shallow baseline and metric-scope ambiguity.
 - [[projects/codex-ratchet/cross-domain-test-target-registry-audit-2026-07-10]] — Corrected status map for the external cross-domain registry; target map is not a result ledger.
 - [[projects/codex-ratchet/source-intake/packet-107-physics-source-register-2026-07-09]] — Primary-source register for high-redshift `a0` evidence and Berry/Pancharatnam geometric phase.
 - [[projects/codex-ratchet/repository-research-and-tool-validation-2026-07-09]] — Pinned/tested external repo ledger for PySINDy, PyKoopman, PyDMD, deeptime, ALCO, QICS, and Physlib.
@@ -72,7 +73,6 @@ Use this as the low-friction entry point. The old full listing lives at [index-f
 - [[science-as-correlations-proved-in-technology-2026-07-04]] — correlations/technology epistemology + graded kill-board; promotion_allowed=false.
 - [[mimetic-holodeck-perception-and-engine-teeth-2026-07-05]] — perception as mimetic projection; ENGINE_TEETH objective function; doctrine + pre-registered measurement.
 - [[object-formation-mesh-perception-2026-07-05]] — objects as earned mesh survivors, not primitives; codex1+NVIDIA reviewed; Lev/JP integration.
-- [[entangled-dice-universe-creation-2026-07-06]] — unified cosmogenesis: dice=metaphor / entropy-gradient=mechanism / entanglement=load-bearing; 3-stage creation + sequential universes; codex1+NVIDIA reviewed; proposal-facing.
 - [[leviathan-semantic-sovereignty-2026-07-04]] — Hobbes word-sovereignty, MMM as rigorous memetics; salvaged.
 - [[purgatory-working-space-2026-07-04]] — purgatory = the working space; hell/heaven edges provisional; salvaged.
 - [[constraint-manifold-simultaneous-2026-07-04]] — geometry layers co-active, doc order ≠ ratchet order; salvaged.

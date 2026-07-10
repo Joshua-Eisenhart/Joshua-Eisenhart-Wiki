@@ -131,6 +131,12 @@ exact baselines without ensemble rescue.
 The decisive subset must contain state pairs that are still equivalent at the
 largest training depth but split later.
 
+The preregistered N9 extension and its failed learned-benchmark admission are
+now recorded at
+[[projects/codex-ratchet/eca-n9-behavioral-depth-and-v2-admission-2026-07-10]].
+N9 reaches strict depth ten, but the full-fixture depth-six baseline remains too
+strong and the frozen MCC scope is ambiguous, so no learner was run.
+
 ## Current Claim Ceiling
 
 Earned:
@@ -146,6 +152,7 @@ admission, Axis0, physics, life, or consciousness.
 ## Routes
 
 - [[projects/codex-ratchet/finite-behavioral-object-engine-v1-2026-07-10]]
+- [[projects/codex-ratchet/eca-n9-behavioral-depth-and-v2-admission-2026-07-10]]
 - [[projects/codex-ratchet/current-research-frontier-2026-07-09]]
 - [[projects/codex-ratchet/engine-16x4-axis6-current-state-2026-07-09]]
 - [[concepts/cross-view-attractor-nominalism-ledger-2026-07-10]]
