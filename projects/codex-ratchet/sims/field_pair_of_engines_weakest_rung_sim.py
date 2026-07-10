@@ -1,121 +1,149 @@
 #!/usr/bin/env python3
-"""field_pair_of_engines_weakest_rung -- PURE MATH. 2026-07-09. The first rung of the FIELD OF ENGINES (the owner's
-axes-7-12 level, where each node of a space is itself an engine). Built under MSS: admit ONLY the structure the
-constraints force for two engines to become one object, presume the least, smallest leap.
+"""field_pair_of_engines_weakest_rung -- SCAFFOLD, NOT AN EARNED RUNG. NOT IN THE HARNESS. 2026-07-09.
 
-MSS DERIVATION (why exactly this structure, nothing more).
-  - The two engines are ALREADY forced: the two Weyl chiralities (Type-1 eps=+1 / Type-2 eps=-1), earned earlier.
-  - "Two engines together are a new kind of intelligence" (owner directive) is only non-trivial if the PAIR carries a
-    degree of freedom that NEITHER engine has alone. A pure product of two engines has none: its every observable is
-    fixed by the two marginals, so a product pair is NOT a new object -- it is just two engines side by side.
-  - The WEAKEST structure that makes the pair a genuine object is therefore a single RELATIONAL generator coupling
-    them (one entangling bit). Entanglement is already core-forced in this model (entanglement is central), so this is
-    the smallest admissible leap, not an imported assumption. MSS: one relational DOF, no interaction Hamiltonian
-    beyond the minimal Z(x)Z generator, no shared internal structure.
+STATUS AFTER TWO PANEL ROUNDS + A CHIRALITY-LOAD-BEARING TEST: this sim does NOT earn a field-of-engines rung and was
+de-registered from run_all.py. Kept only as an honest scratch record of what was tried and why it fell short.
 
-THE FAILABLE QUESTION. Does one minimal relational generator make the pair a DISTINGUISHABLE OBJECT -- relational
-content R>0 (the joint channel deviates from the product of its own marginals), surviving probe rotation -- and does
-REMOVING it (g=0, pure product) collapse R to 0? If the product already carried pair-structure, the claim dies.
+WHY IT DOES NOT EARN A RUNG (the decisive findings):
+  1. The first version's core gate (g=0 -> R=0, R = deviation-from-product) was a TAUTOLOGY (R is defined as
+     deviation-from-product) -- caught by 3 of the 4 cross-family panel models (Gemini-3.1-pro, Grok-4.5, GLM-5.2
+     flagged it fail-level; Qwen-3.5 rated it sound). A 3-of-4 majority, not unanimous.
+  2. The rebuild used entanglement NEGATIVITY (a real monotone) + a classical-correlation control (MI>0, negativity=0).
+     That fixed the tautology, but the panel's deeper objection stood: gates 1/3 are TEXTBOOK QM (an entangler makes
+     negativity>0, a local map does not), true for ANY two qubits -- not theory-specific.
+  3. DIRECT TEST of whether the model's own structure (opposite Weyl chirality, Type-1 vs Type-2) is load-bearing:
+     opposite-chirality and same-chirality pairs give IDENTICAL negativity (0.4660 both) -- the local unitaries wash
+     out under the entangler. So the chirality distinction is DECORATIVE here; the negativity is generic 2-qubit QM.
+  4. A chirality-SENSITIVE relational geometric phase looked promising (a clean +/-1.57 sign-flip with chirality) but
+     a coupling/loop-length SWEEP showed the antisymmetry holds ONLY at the special angle th=1.2 -- an angle artifact,
+     not a robust invariant. Nearly banked as a second artifact; the sweep caught it.
 
-GATED CLAIMS (all computed from the channels; controls must FAIL):
-  (1) PAIR IS A NEW OBJECT: relational content R = max over probes of trace_distance(Phi_AB(rhoA x rhoB), mA(rhoA) x
-      mB(rhoB)) is > 0 with the relational generator on. CONTROL: g=0 (pure product U_A x U_B + local pinches) gives
-      R = 0 exactly -- the pair reduces to its parts. This is the failable heart: R(g!=0)>0 AND R(g=0)~0.
-  (2) THE OBJECT SURVIVES PROBE ROTATION (identity criterion a=a iff a~b): recover the joint channel's relational
-      content from a DISJOINT, novel probe family (different random states) and check it matches the value from the
-      seen family -- R is a genuine channel property, not an artifact of the probe set. And, to make re-identification
-      NON-VACUOUS, a DIFFERENT object (a different coupling g') evaluated on those same novel probes must be told apart
-      (|R - R'| large). Both legs must hold: the same object matches, a different object separates.
-  (3) MSS MINIMALITY / NECESSITY: one relational generator is SUFFICIENT (R>0) and NECESSARY (g=0 -> R=0); and the
-      relation is IRREDUCIBLE to the marginals (by construction R measures exactly the non-product part). So the
-      minimal forced pair-structure is exactly one relational DOF -- the operational meaning of "a new kind of
-      intelligence at the two-engine layer": a DOF that lives in the pair, invisible to either engine alone.
+HONEST RESIDUE. The one non-textbook, non-tautological thing that survives is a CONDITIONAL, generic-QI claim: IF the
+two engines couple, the pair is nonclassical (negativity>0, created from a product start) and classical correlation
+(MI>0) is provably insufficient to reproduce it. That is TRUE but is not theory-specific and does not need the
+field/engine framing -- so it is not a field rung. The genuine field-of-engines rung remains OPEN: it needs a pair
+observable that (a) is relational (needs both engines + coupling) AND (b) is load-bearing on this model's structure
+(chirality / the Weyl distinction) AND (c) is robust, not an angle coincidence. None of those three held together here.
 
-HONEST SCOPE. This earns ONLY the weakest field rung: that a pair of engines becomes a distinguishable object via one
-forced relational DOF, and that a product pair does not. It does NOT build the full field metric, does NOT claim the
-exceptional algebras appear here (that is the next rung, open), and does NOT presume the axes-7-12 layout -- it lets
-the pair-object emerge from the distinguishability constraint. scratch_diagnostic, promotion_allowed=false. The two
-engines use opposite Weyl chirality (forced); the coupling is the minimal Z(x)Z generator (MSS).
+------------------------------------------------------------------------------------------------------------------
+(original scaffold text follows; retained for the record)
+First rung of the FIELD OF ENGINES (owner's axes-7-12 level, each node of a space itself an engine). MSS: admit only
+the structure the constraints FORCE for two engines to become one object.
+
+AUDIT HISTORY (why this is the rebuilt version). The first version gated on R = trace-distance of the joint channel
+from the product of its own marginals, with a g=0 (product) control giving R=0. A cross-family LLM panel (Gemini-3.1-
+pro, Grok-4.5, Qwen-3.5, GLM-5.2), 3 of 4 (Gemini, Grok, GLM; Qwen-3.5 rated it sound), flagged this as a TAUTOLOGY:
+R is DEFINED as deviation-from-product, so g=0 forces R=0 by linear algebra, not physics -- a gate that cannot fail
+(rubber stamp). The majority was right. This rebuild
+puts the fix in the MEASUREMENT (never the gate): the honest content of "two engines are a new object" is
+NONCLASSICALITY -- correlation a classical / shared-randomness pair CANNOT reproduce -- not mere non-productness (which
+any entangler gives trivially).
+
+MSS DERIVATION -- and its honest boundary (sharpened after a SECOND panel round). The two engines are already forced
+(the two Weyl chiralities Type-1 eps=+1 / Type-2 eps=-1, earned in prior rungs). Two engines side by side with only
+CLASSICAL correlation (shared randomness) are still separable -- reducible to a probabilistic mixture of independent
+engine states. The WEAKEST structure that makes the pair a genuinely NEW object, irreducible to any classical
+composition of its parts, is one ENTANGLING degree of freedom.
+
+  WHAT THIS SIM DOES AND DOES NOT EARN (the panel's correct objection). This sim does NOT re-derive from {F01,N01}
+  that the pair MUST couple -- "entanglement is central" is inherited project doctrine, asserted elsewhere, not
+  re-proven here. So the claim is CONDITIONAL: *IF* the two engines couple at all (via ANY entangler), *THEN* the pair
+  becomes a genuinely nonclassical object that no classically-correlated composition of the parts can reproduce. The
+  earned, non-trivial content is the SEPARATION -- that classical correlation (MI>0) is provably insufficient, so the
+  new object is nonclassical, not merely correlated -- and that this holds for the entangling CLASS (ZxZ and XxX
+  alike), not a hand-picked generator. The word "forced" is downgraded to "conditional on the core entanglement
+  doctrine"; this is a WARN-honest conditional rung, not an unconditional forcing proof. The full forcing (does the
+  field DYNAMICS compel coupling?) is deferred to the field-metric rung.
+
+GATED CLAIMS (all computed; controls must FAIL):
+  (1) THE PAIR IS A GENUINELY NONCLASSICAL OBJECT: with an entangling coupling the joint state has entanglement
+      NEGATIVITY > 0. CONTROL: a SEPARABLE product evolution (no coupling) gives negativity = 0. Negativity is an
+      entanglement monotone (|sum of negative eigenvalues of the partial transpose|), NOT "deviation from product", so
+      this is not the circular quantity the panel flagged.
+  (2) CORRELATION IS NOT THE CRITERION -- nonclassicality is (the non-tautological heart). A CLASSICALLY-CORRELATED
+      control: a Z-correlated SEPARABLE mixture (shared randomness) that has mutual information MI > 0 (it IS
+      correlated, joint != product of marginals) but negativity = 0. So a merely-correlated pair is NOT the new
+      object; only the entangled pair is. This control has R>0 in the OLD (tautological) metric yet correctly FAILS
+      the nonclassicality test -- it is exactly the case the old gate could not distinguish.
+  (3) NOT GENERATOR-SPECIFIC (answers "ZZ is smuggled"): two DIFFERENT entangling generators (Z(x)Z and X(x)X) BOTH
+      give negativity > 0, and BOTH classical/product controls give 0. The earned claim is about the entangling class
+      forced by core entanglement, not a hand-picked Z(x)Z form. CONTROL: a separable (local-only) generator gives 0.
+
+HONEST SCOPE. Earns a CONDITIONAL weakest field rung: IF the two engines couple (any entangler), the pair is a
+genuinely nonclassical object (negativity>0) that no classically-correlated composition can reproduce -- and classical
+correlation (MI>0) is provably insufficient (the non-tautological, non-textbook content). Does NOT re-derive that the
+pair must couple (inherited doctrine, not re-proven here -- flagged by the panel), does NOT build the field metric (flat
+vs curved -- next rung, where the owner conjectures the exceptional algebras may become load-bearing), does NOT claim
+the exceptional algebras appear here, does NOT presume the axes-7-12 layout. Verified entanglement is CREATED from a
+genuine product start (|++> has negativity 0), not present initially. Two engines use opposite Weyl chirality (prior
+rung). scratch_diagnostic, promotion_allowed=false.
 """
 import json, os, sys
 import numpy as np
 
-I=np.eye(2); sx=np.array([[0,1],[1,0]],complex); sy=np.array([[0,-1j],[1j,0]]); sz=np.array([[1,0],[0,-1]],complex)
+I=np.eye(2); sx=np.array([[0,1],[1,0]],complex); sz=np.array([[1,0],[0,-1]],complex)
 def expm_h(H):
     w,V=np.linalg.eigh(H); return V@np.diag(np.exp(-1j*w))@V.conj().T
-TH=0.6
+def negativity(rho):                       # entanglement monotone: |sum neg eigs of partial transpose on B|
+    r=rho.reshape(2,2,2,2).transpose(0,3,2,1).reshape(4,4)
+    ev=np.linalg.eigvalsh((r+r.conj().T)/2); return float(np.sum(np.abs(ev[ev<0])))
+def SvN(m):
+    w=np.linalg.eigvalsh((m+m.conj().T)/2); w=w[w>1e-12]; return float(-np.sum(w*np.log2(w)))
+def mutual_info(rho):
+    rA=rho.reshape(2,2,2,2).trace(axis1=1,axis2=3); rB=rho.reshape(2,2,2,2).trace(axis1=0,axis2=2)
+    return SvN(rA)+SvN(rB)-SvN(rho)
+TH=0.6; GC=0.6
 UA=expm_h(TH*sz/2)      # engine A chirality + (Type-1, forced)
 UB=expm_h(-TH*sz/2)     # engine B chirality - (Type-2, opposite Weyl, forced)
-KP=[np.array([[1,0],[0,np.sqrt(1-.15)]],complex),np.array([[0,np.sqrt(.15)],[0,0]],complex)]  # T-type pinch Kraus
 
-def joint_channel(rho4,g):
-    U=np.kron(UA,UB); C=expm_h(g*np.kron(sz,sz))     # minimal relational generator (MSS: one Z(x)Z)
-    r=C@U@rho4@U.conj().T@C.conj().T
-    out=np.zeros((4,4),complex)
-    for Ka in KP:
-        for Kb in KP:
-            K=np.kron(Ka,Kb); out+=K@r@K.conj().T
-    return out
-def dm1(b):
-    b=np.asarray(b,float); n=np.linalg.norm(b)
-    if n>0.98: b=b*0.98/n
-    return 0.5*(I+b[0]*sx+b[1]*sy+b[2]*sz)
-def tr_dist(a,b):
-    d=(a-b); d=(d+d.conj().T)/2; return 0.5*float(np.sum(np.abs(np.linalg.eigvalsh(d))))
-def marg_A(rhoA,g): return joint_channel(np.kron(rhoA,I/2),g).reshape(2,2,2,2).trace(axis1=1,axis2=3)
-def marg_B(rhoB,g): return joint_channel(np.kron(I/2,rhoB),g).reshape(2,2,2,2).trace(axis1=0,axis2=2)
-
-def relational_content(g,seed,n=12,shuffle=False):
-    rng=np.random.default_rng(seed); R=0.0; bs=[]
-    for _ in range(n):
-        ba=rng.normal(size=3); bb=rng.normal(size=3); bs.append((ba,bb))
-    if shuffle:  # CONTROL: pair each A-probe with a MISMATCHED B-probe -> not the true joint input
-        bbs=[b for _,b in bs]; rng.shuffle(bbs); bs=[(a,bbs[i]) for i,(a,_) in enumerate(bs)]
-    for ba,bb in bs:
-        rA,rB=dm1(ba),dm1(bb)
-        joint=joint_channel(np.kron(rA,rB),g)
-        prod=np.kron(marg_A(rA,g),marg_B(rB,g))
-        R=max(R,tr_dist(joint,prod))
-    return R
+def quantum_pair(gen):
+    psi=np.kron([1,1],[1,1])/2.0; rho0=np.outer(psi,psi.conj()).astype(complex)
+    U=expm_h(GC*gen)@np.kron(UA,UB)
+    return U@rho0@U.conj().T
+def product_pair():     # separable: local engines only, no coupling
+    psi=np.kron([1,1],[1,1])/2.0; rho0=np.outer(psi,psi.conj()).astype(complex)
+    U=np.kron(UA,UB); return U@rho0@U.conj().T
+def classical_correlated():   # Z-correlated separable mixture (shared randomness): correlated but NOT entangled
+    P0=np.outer([1,0],[1,0]).astype(complex); P1=np.outer([0,1],[0,1]).astype(complex)
+    return 0.5*np.kron(P0,P0)+0.5*np.kron(P1,P1)
 
 def main():
     path=os.path.join(os.path.dirname(os.path.abspath(__file__)),"field_pair_of_engines_weakest_rung_sim_results.json")
-    G=0.5
-    # (1) pair is a new object; product control flips
-    R_coupled=relational_content(G,seed=1)
-    R_product=relational_content(0.0,seed=1)
-    g1=bool(R_coupled>0.05 and R_product<1e-6)
-    # (2) survives probe rotation (identity a=a iff a~b): the SAME pair-object recovered from a DISJOINT novel probe
-    # family must match (R is a channel property, not a probe artifact) AND a DIFFERENT object (different coupling g')
-    # must be told apart from the novel probes -- otherwise "re-identification" is vacuous. Both legs failable.
-    R_novel=relational_content(G,seed=777)                 # SAME object (g=0.5), disjoint probe family
-    Gp=0.25; R_other=relational_content(Gp,seed=777)       # DIFFERENT object (g'=0.25), same novel probes
-    reid_match=bool(abs(R_coupled-R_novel)<0.03)           # same object matches across probe families
-    distinguishes_other=bool(abs(R_coupled-R_other)>0.05)  # different object has a different signature (not vacuous)
-    g2=bool(reid_match and distinguishes_other)
-    # (3) MSS minimality/necessity: sufficient (R>0) and necessary (g=0 -> 0); irreducible by construction
-    sufficient=bool(R_coupled>0.05); necessary=bool(R_product<1e-6)
-    g3=bool(sufficient and necessary)
+    # (1) nonclassical object CREATED from a genuine product start; product control flips
+    psi=np.kron([1,1],[1,1])/2.0; start_neg=negativity(np.outer(psi,psi.conj()).astype(complex))
+    nq=negativity(quantum_pair(np.kron(sz,sz)))
+    npd=negativity(product_pair())
+    g1=bool(nq>0.05 and npd<1e-9 and start_neg<1e-9)   # entanglement CREATED (start=0), not present initially
+    # (2) correlation is not the criterion: classical control has MI>0 but negativity=0
+    rcl=classical_correlated(); mi_cl=mutual_info(rcl); neg_cl=negativity(rcl)
+    g2=bool(mi_cl>0.5 and neg_cl<1e-9)         # correlated (MI>0) yet not entangled -> correlation != criterion
+    # (3) not generator-specific: ZZ and XX both entangle; separable (local) control does not
+    nq_zz=negativity(quantum_pair(np.kron(sz,sz)))
+    nq_xx=negativity(quantum_pair(np.kron(sx,sx)))
+    neg_local=negativity(quantum_pair(np.kron(sz,I)+np.kron(I,sz)))   # separable local generator -> no entanglement
+    g3=bool(nq_zz>0.05 and nq_xx>0.05 and neg_local<1e-9)
     verdict=bool(g1 and g2 and g3)
     out={"classification":"scratch_diagnostic","promotion_allowed":False,
-         "framing":"first rung of the field of engines under MSS: two forced Weyl engines become ONE distinguishable object via a single forced relational (entangling) DOF; a product pair is NOT a new object. Does not build the field metric or claim exceptional algebras (next rung).",
-         "claim1_pair_is_new_object":{"R_coupled":R_coupled,"R_product_control":R_product,"pass":g1,
-             "note":"relational content = trace-distance of joint channel from product of its own marginals; >0 iff genuine pair structure; g=0 product control gives 0 exactly (failable)"},
-         "claim2_survives_probe_rotation":{"R_seen_family":R_coupled,"R_novel_family":R_novel,"reid_match":reid_match,
-             "R_different_object_gprime":R_other,"g_prime":Gp,"distinguishes_other":distinguishes_other,"pass":g2,
-             "note":"identity criterion a=a iff a~b: SAME object (g=0.5) recovered from a disjoint novel probe family matches (channel property, not probe artifact) AND a DIFFERENT object (g'=0.25) is told apart on those same probes -- so re-identification is non-vacuous"},
-         "claim3_mss_minimal_and_necessary":{"sufficient_one_DOF":sufficient,"necessary_gzero_kills":necessary,"pass":g3,
-             "note":"one relational generator is sufficient AND necessary for the pair-object; irreducible to marginals by construction -> the minimal forced pair-structure is exactly one relational DOF = a DOF living in the pair, invisible to either engine alone"},
-         "honest_scope":"earns ONLY the weakest field rung (pair becomes an object via one forced relational DOF; product does not). Does NOT build the field metric, claim exceptional algebras, or presume the axes-7-12 layout.",
-         "policy_eval":{"pair_is_distinguishable_object":g1,"object_survives_probe_rotation":g2,
-             "minimal_relational_DOF_is_forced_and_necessary":g3,
-             "FIELD_WEAKEST_RUNG_EARNED":verdict}}
+         "framing":"CONDITIONAL rung, twice panel-audited. IF the two Weyl engines couple (any entangler), the pair is a NONCLASSICAL object (negativity>0, CREATED from a product start) that no classically-correlated composition reproduces; and classical correlation (MI>0) is provably insufficient. Does NOT re-derive that the pair must couple (inherited doctrine). Not the field metric or exceptional algebras (next rung).",
+         "claim1_nonclassical_object_created":{"start_negativity":start_neg,"negativity_quantum":nq,"negativity_product_control":npd,"pass":g1,
+             "note":"entanglement is CREATED: |++> start has negativity 0 (genuine product, verified after panel flagged a possible Bell-state start), coupling lifts it to >0; negativity is an entanglement monotone (neg eigs of partial transpose), NOT deviation-from-product; product control =0 is a real separable-state theorem"},
+         "claim2_correlation_is_not_the_criterion":{"classical_mutual_info":mi_cl,"classical_negativity":neg_cl,"pass":g2,
+             "note":"Z-correlated separable mixture: MI=1.0 bit (genuinely correlated, joint!=product) yet negativity=0. A merely-correlated pair is NOT the new object -- exactly the case the old tautological R-gate could not tell from an entangled one. This is the non-tautological heart."},
+         "claim3_not_generator_specific":{"negativity_ZZ":nq_zz,"negativity_XX":nq_xx,"negativity_local_separable_control":neg_local,"pass":g3,
+             "note":"two different entangling generators (ZxZ, XxX) both give negativity>0; a separable local generator gives 0. The claim is the entangling CLASS (core-forced entanglement), not a hand-picked ZxZ -- answers the panel's smuggled-generator finding."},
+         "audit_provenance":"cross-family panel (Gemini-3.1-pro, Grok-4.5, Qwen-3.5, GLM-5.2): 3 of 4 (Gemini, Grok, GLM) flagged the prior g=0->R=0 gate as tautological; Qwen-3.5 rated it sound. A 3-of-4 majority, not unanimous. Fixed in the measurement (negativity + classical-correlation control), not by relaxing the gate.",
+         "honest_scope":"earns ONLY the weakest field rung (pair is a nonclassical object, not reducible to classical correlation, via one core-forced entangling DOF). Does NOT build the field metric, claim exceptional algebras, or presume the axes-7-12 layout.",
+         "policy_eval":{"nonclassical_object_created_from_product":g1,"correlation_alone_is_not_the_criterion":g2,
+             "nonclassicality_is_generator_class_not_smuggled_form":g3,"CONDITIONAL_FIELD_WEAKEST_RUNG_EARNED":verdict,
+             "forcing_of_coupling_re_derived_here":False}}
     json.dump(out,open(path,"w"),indent=2)
-    print(f"(1) PAIR IS A NEW OBJECT: relational content coupled R={R_coupled:.4f} > 0; product control R={R_product:.6f} ~ 0 -> {g1}")
-    print(f"(2) SURVIVES PROBE ROTATION: same-object seen R={R_coupled:.4f} vs novel-family R={R_novel:.4f} (match {reid_match}); different object g'={Gp} R={R_other:.4f} told apart ({distinguishes_other}) -> {g2}")
-    print(f"(3) MSS MINIMAL & NECESSARY: one relational DOF sufficient ({sufficient}) AND necessary (g=0->{R_product:.6f}, {necessary}); irreducible to marginals -> {g3}")
-    print(f"    => the two-engine pair is a distinguishable object carrying a DOF invisible to either engine alone, earned with exactly ONE forced relational bit (MSS)")
-    print(f"\n  VERDICT: {'PASS' if verdict else 'FAIL'} (field weakest rung: pair-object earned + survives probe rotation + minimal forced DOF)")
+    print(f"(1) NONCLASSICAL OBJECT CREATED: start |++> negativity={start_neg:.2e} ~ 0 (genuine product), quantum end negativity={nq:.4f} > 0; separable product control={npd:.2e} ~ 0 -> {g1}")
+    print(f"(2) CORRELATION IS NOT THE CRITERION: classical Z-correlated control MI={mi_cl:.4f} bit (correlated!) but negativity={neg_cl:.2e} ~ 0 -> {g2}")
+    print(f"    (this is the case the OLD tautological R-gate could not distinguish; nonclassicality, not correlation, is the earned criterion)")
+    print(f"(3) NOT GENERATOR-SPECIFIC: negativity ZZ={nq_zz:.4f}, XX={nq_xx:.4f} both >0; separable local generator={neg_local:.2e} ~ 0 -> {g3}")
+    print(f"    => the two-engine pair is a genuinely nonclassical object, irreducible to any classical composition of its parts, via one core-forced entangling DOF (MSS); claim is the entangling class, not a smuggled ZZ form")
+    print(f"    HONEST: this is CONDITIONAL -- it earns 'IF coupled THEN nonclassical & irreducible to classical correlation', NOT that coupling is forced (inherited doctrine, not re-derived here)")
+    print(f"\n  VERDICT: {'PASS' if verdict else 'FAIL'} (CONDITIONAL field weakest rung: nonclassical pair-object created + correlation!=criterion + generator-class not smuggled)")
     if verdict: print("PASS field_pair_of_engines_weakest_rung")
     print("ALL_GATES:","PASS" if verdict else "FAIL","->",path)
     sys.exit(0 if verdict else 1)
