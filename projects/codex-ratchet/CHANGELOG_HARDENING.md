@@ -1411,3 +1411,11 @@ UP-138 PLACE max-plus/tropical/idempotent algebra (new math from attachments). O
                decohered control restores monotonicity (-1.0) and kills visibility. -> max-plus is NOT the nonclassical
                foundation; it is the T->0 deductive/Bellman-limit arithmetic (context, not gated). Cross-family panel
                stripped two tautological/textbook gates + smuggled oracle prose before shipping. 142 GREEN.
+
+UP-139 PLACE Quantum Information Geometry (Fubini-Study/QFI) vs the model's BKM metric. Verdict gates on ONE failable
+               result: SLD/QFI != BKM on a noncommuting mixed direction (1.0 vs 1.076) but = on the commuting/classical
+               submanifold (both classical Fisher 1.190476) -> a genuinely quantum distinction. Computed supporting
+               identities (non-gating): BKM=Hessian(rel-entropy) 4e-8; QFI=Bures dist^2 curvature (g_SLD/2) 2e-7. QFI is
+               the fidelity-family metric; model's metric = BKM conditional on the prior-forced rel-entropy pawl. Panel
+               fixed smuggled 'forced' language, an uncomputed fidelity claim, a false pure-state claim, and a
+               tautological gate. 143 GREEN.
