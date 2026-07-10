@@ -1,6 +1,6 @@
 # Codex Ratchet Wiki — Index
 
-Total published pages: 510. Governance/read-first surfaces are listed separately. Restructured 2026-04-17 (stabilization pass).
+Total published pages: 511. Governance/read-first surfaces are listed separately. Restructured 2026-04-17 (stabilization pass).
 
 ## Hermes / LLM Alignment Front Door
 - [[hermes-current/read-first]] — Hermes front door; load this before substantive work
@@ -23,6 +23,7 @@ Total published pages: 510. Governance/read-first surfaces are listed separately
 - [[projects/codex-ratchet/packet-112-canonical-rerun-and-basin-audit-2026-07-10]] — packets 112/115: canonical `143/0/0`, finite QFI/BKM evidence, and withdrawn invariant scaffold
 - [[concepts/quantum-channel-attractor-basin-perspectives-2026-07-10]] — installed global channel contractions, fabrication boundary, schedule-genericity failure, and next finite basin design
 - [[concepts/cross-view-attractor-nominalism-ledger-2026-07-10]] — nominalist cross-view attractor target, evidence ladder, primary-source math instruments, and fail-closed bridge queue
+- [[projects/codex-ratchet/claude-science-tool-truth-audit-2026-07-10]] — packet-112 engine-use audit: 136/144 NumPy, two JAX, one Torch, zero Julia, and no function-level result receipts
 - [[projects/codex-ratchet/cross-domain-test-target-registry-audit-2026-07-10]] — external target-registry correction preserving test ambition without self-assigned completion
 - [[projects/codex-ratchet/source-intake/packet-107-physics-source-register-2026-07-09]] — primary-source register for `a0(z)` observations and geometric-phase math
 - [[projects/codex-ratchet/repository-research-and-tool-validation-2026-07-09]] — pinned source, upstream-test, and bounded-use ledger for new math/simulation repositories

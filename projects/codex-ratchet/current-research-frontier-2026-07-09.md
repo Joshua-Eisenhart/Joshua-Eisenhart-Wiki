@@ -32,6 +32,12 @@ The broader same-object/many-views program is now typed in
 at analogy or structural match pending executable semiconjugacy, transported
 prediction, and paired ablation receipts.
 
+The external Claude Science packet estate is separately bounded by
+[[projects/codex-ratchet/claude-science-tool-truth-audit-2026-07-10]]: its
+`143/0/0` rerun is real, but 136 of 144 sources import NumPy, only two import
+JAX, one imports Torch, none is Julia, and no source/result carries the required
+function-level engine receipt contract.
+
 ## Status
 
 Current repo-derived research digest and routing page.
