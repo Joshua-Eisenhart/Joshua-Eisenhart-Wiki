@@ -131,6 +131,12 @@ than rule discrimination, and cross-view packets that preserve multiple model
 realizations. Any selected design needs a new preregistration and untouched
 families before neural learning.
 
+The first fixed-subset follow-up is now complete at
+[[projects/codex-ratchet/eca-relation-directed-observation-design-2026-07-10]].
+It exhaustively screened 2,500 candidates but rejected all three frozen winners
+on reserved validation. That result narrows the next move to adaptive or
+policy-conditioned observation rather than another fixed global subset.
+
 ## Claim Ceiling
 
 Earned: an exact cross-runtime finite census showing that this frozen
@@ -142,6 +148,7 @@ life, or consciousness.
 
 ## Routes
 
+- [[projects/codex-ratchet/eca-relation-directed-observation-design-2026-07-10]]
 - [[projects/codex-ratchet/eca-n9-behavioral-depth-and-v2-admission-2026-07-10]]
 - [[projects/codex-ratchet/finite-behavioral-object-engine-v1-2026-07-10]]
 - [[projects/codex-ratchet/current-research-frontier-2026-07-09]]

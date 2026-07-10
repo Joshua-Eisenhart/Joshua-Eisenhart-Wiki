@@ -77,6 +77,17 @@ system-identified and still misses the per-fixture coverage floor; budgets 8
 and 16 identify every hidden rule pair. No perception-like
 consensus-without-identification window is admitted, so PyTorch remains blocked.
 
+The preregistered relation-directed fixed-subset follow-up is recorded at
+[[projects/codex-ratchet/eca-relation-directed-observation-design-2026-07-10]].
+Its train-only JAX/Julia search screened all 2,500 size-two through size-four
+subsets and froze three winners before confirmation sources existed. A fresh
+audit repaired controller overclaims before confirmation. On 325 reserved
+fixtures, independent runtimes agree on all 2,925 shared records, but zero
+sizes pass: aggregate coverage reaches only 73.38%, 76.43%, and 80.73%, every
+size has a 20.98% worst fixture, and size four identifies 38 hidden systems.
+The reused test block remains unopened. The fixed-global-subset hypothesis is
+rejected; adaptive relation-directed experiment policies are the next route.
+
 ## Status
 
 Current repo-derived research digest and routing page.
