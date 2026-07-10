@@ -1,5 +1,5 @@
 # MATH INVENTORY -- classes in play, and their status under the constraints
-_Regenerated 2026-07-10 08:45 UTC. Classes inferred from registered sim names; status from the ledger._
+_Regenerated 2026-07-10 09:04 UTC. Classes inferred from registered sim names; status from the ledger._
 
 Every math class is PLACED by the constraints: **forced** (F01/N01 compel it), **installed/constructible-not-forced**
 (realizable but not compelled -- a live upper branch), or **excluded** (a constraint forbids it as foundation).
