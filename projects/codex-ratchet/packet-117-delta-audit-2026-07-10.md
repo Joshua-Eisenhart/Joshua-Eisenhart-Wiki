@@ -8,7 +8,9 @@ new canonical state.
 - packet SHA-256: `f3cef779feb214d55ab63187cb9fe922fd1015367b998cd60b1bcbebdcf593c1`
 - 116 file count: 491
 - 117 file count: 496
-- inherited unchanged files: 491
+- common files: 491
+- byte-identical common files: 483
+- changed common files: 8, all documentation/registry surfaces
 - added files: 5
 - removed files: 0
 
@@ -76,6 +78,27 @@ A valid test must freeze each domain's native dynamics independently, fit only
 the projection on train interventions, and evaluate off-fixed-point
 semiconjugacy, transported prediction, and paired ablation on held-out
 interventions.
+
+## Fable Workflow Audit
+
+A high-effort `claude-fable-5` bridge workflow launched three real Agent/Task
+workers and completed all three. The stream receipt reports 361 JSONL events,
+three task starts, three completions, models `claude-fable-5` and
+`claude-sonnet-5`, one rate-limit event, no final error, and cost
+`$6.24516585`. Authority remained advisory.
+
+It independently confirmed the 117 delta boundary and the UFPO red ceiling. It
+also corrected the UFPO failure diagnosis: unbatched `ndim=2` versus batched
+`ndim=3`, not four views versus eight.
+
+Its proposed cheapest four-count falsifier, remove the `0.006` MDL length
+penalty while preserving the already-hashed raw geometry/entropy scores, had
+already been executed in the live repo. The post-hoc reanalysis finds that
+length-four repeated-operator cycles can win, but no primitive all-four-once
+length-four cycle qualifies for either engine type. The fixed-per-beat exposure
+control also produces repeated length-five/six winners, not four. This does not
+promote the post-hoc result; it closes one obvious scoring-bias explanation for
+the current red.
 
 ## Current Ceiling
 
