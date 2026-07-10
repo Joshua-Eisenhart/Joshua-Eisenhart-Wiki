@@ -84,6 +84,46 @@ and retained as failed approaches. No new registered sim, engine stage,
 substage, perception capability, exceptional rung, halo theory, or shared basin
 was earned.
 
+## Live Advisory Cross-View
+
+The same bounded evidence brief was sent through authenticated live APIs to
+`grok-4.5`, NVIDIA `z-ai/glm-5.2`, and NVIDIA
+`qwen/qwen3.5-397b-a17b`. All three returned HTTP 200. The prompt SHA-256 was
+`3849639fa2257826f76f67499114be83f4a9a4ca85dc1bf5851938bb0b4c9824`.
+These are advisory model receipts, not Ratchet votes.
+
+Agreement:
+
+- packet 117 earns no new sim or rung;
+- packet 116's local green is real execution but metadata/string-gate weak;
+- UFPO v1 produced no learned test result;
+- temporal-shuffle parity is a serious validation warning;
+- installed 64 rows do not establish 64 intelligences;
+- the next experiment must use independently specified dynamics, frozen
+  projections/training, held-out interventions, explicit provenance, and hard
+  shuffle/circularity kills.
+
+Corrections to the advisors:
+
+- The learner failure does not invalidate the exact 2,367-object registry.
+  Exact object semantics and learned perception are separate claims.
+- The PyTorch crash is a sealed process/contract failure, not evidence that the
+  trained model itself failed on test metrics; no test metrics exist.
+- Installing octonionic ground truth would violate foundation-first order. A
+  nonassociative carrier belongs only in a dedicated candidate arm with an
+  associative control after a grouping-load-bearing demand is declared.
+- Requiring exactly four clusters is circular unless four is absent from the
+  candidate count, clustering rule, and stopping criterion.
+
+Receipt hashes:
+
+- Grok 4.5 response:
+  `fe94d83b27289aabd913811b35f7abd8eda60b472f578215bfc573746a7570e3`
+- GLM 5.2 response:
+  `c988cde5bad0bc239c6e98554b975ee08692a645a2951d2bbdf8402362cea167`
+- Qwen 3.5-397B response:
+  `92a0a126c7cf7a710bedd371b15739c8761083faa3c987d6480419261310795e`
+
 ## Related
 
 - [[projects/codex-ratchet/packet-116-external-audit-2026-07-10]]
