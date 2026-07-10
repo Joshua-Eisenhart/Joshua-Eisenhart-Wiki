@@ -48,6 +48,20 @@ The decisive July 10 update is therefore: the structural `16 x 4` source
 candidate is real, but the multiplier four remains source-defined rather than
 earned by the tested dual-ratchet mathematics.
 
+Count correction: the 16 source slots already contain both engine types
+(`2 types x 2 loop roles x 4 terrain steps`). Multiplying those slots by two
+engine types again would double-count the chart. The current source-faithful
+candidate is 16 total slots and 64 stipulated operator microsteps, not 16 slots
+per type.
+
+The follow-on finite dual-ratchet object battery also failed to earn four. Its
+exact census over 20,000 finite automata found only 16 depth-four cases and
+only three non-discrete depth-four cases. Those three selected targets passed
+Julia/JAX parity, but a fresh fabrication audit rejected object-formation
+language because the perspectives, copy lift, compression, and corruption
+controls were by construction. See
+[[projects/codex-ratchet/finite-dual-ratchet-object-formation-v0-2026-07-10]].
+
 A post-hoc bias audit removes the selector's MDL penalty and separately ranks
 the retained fixed-per-beat-exposure control. Length-four repeated-operator
 cycles sometimes win after MDL erasure, but no primitive all-four-once cycle

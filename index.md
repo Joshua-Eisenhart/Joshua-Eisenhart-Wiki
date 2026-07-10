@@ -17,7 +17,7 @@ Use this as the low-friction entry point. The old full listing lives at [index-f
 
 - [[projects/codex-ratchet/read-first]] — Codex Ratchet mathematical build front door.
 - [[projects/codex-ratchet/current-research-frontier-2026-07-09]] — Current July engine/object/math/Lev research digest and corrections.
-- [[projects/codex-ratchet/engine-16x4-axis6-current-state-2026-07-09]] — Exact 16x4x2/Axis-6 state plus the durable local T1/T4 result: Haiku raw 0/4, prompt harness 0/4, Fable raw 3/4, budget-blocked and non-certifying.
+- [[projects/codex-ratchet/engine-16x4-axis6-current-state-2026-07-09]] — Source-faithful 16 total slots across both engine types, 64 stipulated microsteps, and the durable local T1/T4 result: Haiku raw 0/4, prompt harness 0/4, Fable raw 3/4, budget-blocked and non-certifying.
 - [[concepts/sindy-koopman-system-identification-for-qit-engines-2026-07-09]] — Research math, package truth, and the new conditional 16 x 4 execution receipt linking continuous generators to finite-time stage maps.
 - [[projects/codex-ratchet/packet-102-canonical-rerun-audit-2026-07-09]] — Packet 102 canonical `139/0/0` rerun with UP-130 rejection and bounded UP-133/UP-134 ceilings.
 - [[projects/codex-ratchet/packet-107-physics-loopback-audit-2026-07-09]] — Packet 107 canonical `141/0/0` rerun; current redshift data and gauge-invariant phase controls reject both new scientific promotions.
@@ -28,6 +28,7 @@ Use this as the low-friction entry point. The old full listing lives at [index-f
 - [[projects/codex-ratchet/claude-science-tool-truth-audit-2026-07-10]] — Exact packet-112 NumPy/JAX/Torch/Julia inventory, missing function receipts, console-harness boundary, and real-engine repair contract.
 - [[projects/codex-ratchet/finite-behavioral-object-engine-2026-07-10]] — Real Julia/JAX finite behavioral objects and attractors, bounded PyG topology fit, fabrication audit, and red engine-nonredundancy gate.
 - [[projects/codex-ratchet/finite-behavioral-object-engine-v1-2026-07-10]] — Held-out-rule object benchmark: exact cross-runtime core, perfect but architecture-installed PyG ensemble, failed learning controls, and corrected T9 semantics.
+- [[projects/codex-ratchet/finite-dual-ratchet-object-formation-v0-2026-07-10]] — Exact Julia/JAX refinement parity survives; selected targets and by-construction views/lift/corruption kill the four-role object-formation claim.
 - [[projects/codex-ratchet/eca-behavioral-refinement-depth-census-2026-07-10]] — Exact Julia/JAX census of 97,920 ECA rule-pair ledgers; real multiround depth tail, no learned-perception or engine-schedule promotion.
 - [[projects/codex-ratchet/eca-n9-behavioral-depth-and-v2-admission-2026-07-10]] — Preregistered N9 census reaches strict depth ten; exact core green, learned-V2 admission blocked by shallow baseline and metric-scope ambiguity.
 - [[projects/codex-ratchet/eca-observation-object-identifiability-2026-07-10]] — Exact version-space census: early object targets are underdetermined, late targets identify the hidden rules, and no perception-like window is admitted.

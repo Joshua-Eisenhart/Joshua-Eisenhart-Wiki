@@ -15,7 +15,7 @@ Total published pages: 513. Governance/read-first surfaces are listed separately
 - [[projects/codex-ratchet/cocoindex-and-bloat-cleanup-policy-2026-06-17]] — current CocoIndex + bloat cleanup policy for wiki/repo LLM findability: local indexes are semantic maps, generated JSON stays exact-read evidence, and large result artifacts require manifest/checksum/restore before archive or compression
 - [[projects/codex-ratchet/read-first]] — Codex Ratchet project front door after Hermes spine
 - [[projects/codex-ratchet/current-research-frontier-2026-07-09]] — current July engine/object/math/Lev research digest, falsifiers, and claim ceilings
-- [[projects/codex-ratchet/engine-16x4-axis6-current-state-2026-07-09]] — exact 16x4x2/Axis-6 state and durable local T1/T4 battery: 0/4 raw, 0/4 prompt harness, 3/4 Fable, budget-blocked with no engine or perception promotion
+- [[projects/codex-ratchet/engine-16x4-axis6-current-state-2026-07-09]] — source-faithful 16 total slots across both engine types, 64 stipulated microsteps, and durable local T1/T4 battery: 0/4 raw, 0/4 prompt harness, 3/4 Fable, budget-blocked with no engine or perception promotion
 - [[projects/codex-ratchet/packet-97-up129-up130-audit-2026-07-09]] — fresh `135/0/0` packet receipt, UP-129/UP-130 claim correction, and conditional four-cell product-square ceiling
 - [[projects/codex-ratchet/packet-102-canonical-rerun-audit-2026-07-09]] — canonical `139/0/0` packet rerun with UP-130 rejected and UP-133/UP-134 bounded
 - [[projects/codex-ratchet/packet-107-physics-loopback-audit-2026-07-09]] — canonical `141/0/0` packet rerun with both new physics promotions rejected by current data and gauge-invariant phase controls
@@ -26,6 +26,7 @@ Total published pages: 513. Governance/read-first surfaces are listed separately
 - [[projects/codex-ratchet/claude-science-tool-truth-audit-2026-07-10]] — packet-112 engine-use audit: 136/144 NumPy, two JAX, one Torch, zero Julia, and no function-level result receipts
 - [[projects/codex-ratchet/finite-behavioral-object-engine-2026-07-10]] — validated exact 14-object quotient, order-sensitive five-attractor graphs, topology-dependent PyG fit, and red T9 nonredundancy
 - [[projects/codex-ratchet/finite-behavioral-object-engine-v1-2026-07-10]] — held-out-rule exact object core, architecture-installed PyG ensemble, red learning controls, and adaptive-replaceability T9 correction
+- [[projects/codex-ratchet/finite-dual-ratchet-object-formation-v0-2026-07-10]] — exact Julia/JAX partition-refinement parity on three selected automata; fresh fabrication audit kills four-role object formation
 - [[projects/codex-ratchet/eca-behavioral-refinement-depth-census-2026-07-10]] — exact Julia/JAX comparison of 97,920 finite ECA refinement ledgers, with maximum strict depths 3/4/6 and no learned-perception promotion
 - [[projects/codex-ratchet/eca-n9-behavioral-depth-and-v2-admission-2026-07-10]] — preregistered exact N9 census with strict depth ten, bounded Lev execution, and fail-closed rejection of the current learned-V2 gate
 - [[projects/codex-ratchet/cross-domain-test-target-registry-audit-2026-07-10]] — external target-registry correction preserving test ambition without self-assigned completion
