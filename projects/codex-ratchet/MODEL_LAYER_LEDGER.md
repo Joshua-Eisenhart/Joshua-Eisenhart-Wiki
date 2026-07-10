@@ -3020,3 +3020,15 @@ BASIS-INDEPENDENT oracles -- Hurwitz |ab|=|a||b| (3.6e-15), alternativity x(xy)=
 nonassociativity (47) -- all PASS -> the octonion arithmetic is a valid octonion algebra, oracle-verified in-house (the
 scientific role codex's ALCO/GAP install would play, done here without the heavyweight CAS). scratch_diagnostic, owner
 doctrine under test.
+
+### UP-136 gate correction (auditor-driven)
+The claim-(2) gate was initially the algebraic identity b2=b1*sqrt(OL) -- a TAUTOLOGY (b2 is DEFINED as
+c*H0*sqrt(OL)/2pi, so it holds for any inputs; a rubber stamp per project doctrine objective_gates_proven_real).
+REPLACED with a genuinely failable geometric test: the 2pi in a0=c*H/(2pi) is the engine's OWN phase-circle 2pi. The
+sim now COMPUTES the Berry holonomy of the spinor phase around the Hopf phi-loop (integrating A=i<psi|d_phi psi> from
+the chart, UP-125) and checks it equals a0's thermal/Unruh 2pi; a half-loop CONTROL gives ~-pi and BREAKS the gate.
+Result: engine holonomy at pole = -6.2832 = -2pi (matches a0's 2pi), half-loop -3.1416 (breaks). This is a real
+unification -- the physics acceleration scale's 2pi and the engine's own geometry are one object (the U(1) phase circle
+= the KMS/modular circle, thermal-time UP-124 cited). b1/b2 are now RECORDED measurements (not gate legs); the
+horizon/thermal reasoning TILTS toward b2 (a horizon temperature is set by the Lambda rate) but this is reasoning, not
+a gated resolution. Still 141 GREEN.
