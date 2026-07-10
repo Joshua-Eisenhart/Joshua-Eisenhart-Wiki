@@ -45,6 +45,13 @@ order-sensitive five-attractor graphs; PyG measures topology-dependent orbit
 fitting. Packet-wide T9 remains red because engine removal/nonredundancy was not
 executed.
 
+The V1 held-out-rule card is recorded at
+[[projects/codex-ratchet/finite-behavioral-object-engine-v1-2026-07-10]]. Its
+exact Julia/JAX core is real and caught a left/right ECA convention bug hidden
+by equal partitions. The PyG ensemble is perfect, but seed robustness and the
+shuffled-label null fail. The accepted ceiling is exact cross-runtime object
+construction with learning gates red, not learned perception.
+
 ## Status
 
 Current repo-derived research digest and routing page.

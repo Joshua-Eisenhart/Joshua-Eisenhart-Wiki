@@ -118,6 +118,7 @@ consciousness.
 
 ## Routes
 
+- [[projects/codex-ratchet/finite-behavioral-object-engine-v1-2026-07-10]]
 - [[projects/codex-ratchet/claude-science-tool-truth-audit-2026-07-10]]
 - [[concepts/cross-view-attractor-nominalism-ledger-2026-07-10]]
 - [[concepts/quantum-channel-attractor-basin-perspectives-2026-07-10]]

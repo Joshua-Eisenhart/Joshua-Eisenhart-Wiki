@@ -28,6 +28,7 @@ Use this as the low-friction entry point. The old full listing lives at [index-f
 - [[concepts/cross-view-attractor-nominalism-ledger-2026-07-10]] — Strong-nominalist cross-view attractor target, fail-closed evidence ladder, transport/Doob/coalgebra/sheaf instruments, and executable bridge queue.
 - [[projects/codex-ratchet/claude-science-tool-truth-audit-2026-07-10]] — Exact packet-112 NumPy/JAX/Torch/Julia inventory, missing function receipts, console-harness boundary, and real-engine repair contract.
 - [[projects/codex-ratchet/finite-behavioral-object-engine-2026-07-10]] — Real Julia/JAX finite behavioral objects and attractors, bounded PyG topology fit, fabrication audit, and red engine-nonredundancy gate.
+- [[projects/codex-ratchet/finite-behavioral-object-engine-v1-2026-07-10]] — Held-out-rule object benchmark: exact cross-runtime core, perfect but architecture-installed PyG ensemble, failed learning controls, and corrected T9 semantics.
 - [[projects/codex-ratchet/cross-domain-test-target-registry-audit-2026-07-10]] — Corrected status map for the external cross-domain registry; target map is not a result ledger.
 - [[projects/codex-ratchet/source-intake/packet-107-physics-source-register-2026-07-09]] — Primary-source register for high-redshift `a0` evidence and Berry/Pancharatnam geometric phase.
 - [[projects/codex-ratchet/repository-research-and-tool-validation-2026-07-09]] — Pinned/tested external repo ledger for PySINDy, PyKoopman, PyDMD, deeptime, ALCO, QICS, and Physlib.
