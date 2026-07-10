@@ -65,7 +65,7 @@ def main():
     # (2) data kills A: high-z slope -> 1.5 and a0(z=2)/a0(0) ~ 3 (in excluded range); no-expansion control -> disc 1.0
     zz=np.array([3,4,5,6]); slope_hi=float(np.polyfit(np.log10(1+zz),np.log10([a0_A(z)/a0_local for z in zz]),1)[0])
     ratio_A_z2=a0_A(2)/a0_A(0)
-    excluded_by_genzel=bool(ratio_A_z2>2.0 and abs(slope_hi-1.5)<0.15)  # ~3a0 at z2 + (1+z)^1.5 : Milgrom excludes both
+    excluded_by_genzel=bool(ratio_A_z2>2.0 and abs(slope_hi-1.5)<0.15)  # ~3a0 at z2 + (1+z)^1.5 : reported disfavoured by Milgrom (attribution)
     Hz_noexp=lambda z: H0; disc_noexp=(c*Hz_noexp(2)/(2*np.pi))/a0_local
     g_A_killed=bool(excluded_by_genzel and abs(disc_noexp-1.0)<1e-9)
     # (3) B survives: constant in z, keeps z0 match
@@ -83,12 +83,12 @@ def main():
          "claim3_branchB_survives_is_refinement":{"branchB_constant_in_z":const_B,"ratio_to_observed":r0_B,
              "note":"constant a0 consistent with observed lack of evolution; refines UP-134 -> growing-room rate = dark-energy/de Sitter horizon","pass":g_B},
          "honest_scope":"does NOT confirm the model; shows the model makes a distinguishing a0(z) prediction and external data adjudicates the internal fork -- excluding the total-expansion reading, selecting the dark-energy-horizon (constant-a0) reading (also Milgrom's preferred). Exclusion values attributed to cited papers (as reported, not re-verified verbatim in this environment).",
-         "policy_eval":{"model_forces_a0z_fork":g_fork,"external_data_excludes_total_expansion_branch":g_A_killed,
+         "policy_eval":{"model_forces_a0z_fork":g_fork,"external_data_disfavours_total_expansion_branch_as_reported":g_A_killed,
              "dark_energy_horizon_branch_survives_and_refines_UP134":g_B,
              "DATA_SELECTS_DARK_ENERGY_HORIZON_READING_OF_COSMOGENESIS":verdict}}
     json.dump(out,open(path,"w"),indent=2)
     print(f"(1) FORK REAL: both branches ratio-to-observed {r0_A:.3f} at z=0 (agree); diverge factor {disc_z2:.2f} at z=2 -> {g_fork}")
-    print(f"(2) DATA KILLS BRANCH A: a0(z=2)/a0(0)={ratio_A_z2:.2f}, high-z slope {slope_hi:.3f} (~1.5 => a0~(1+z)^1.5); Milgrom 2017 excludes ~4a0@z2 & (1+z)^1.5; no-expansion control disc {disc_noexp:.3f} -> {g_A_killed}")
+    print(f"(2) DATA KILLS BRANCH A: a0(z=2)/a0(0)={ratio_A_z2:.2f}, high-z slope {slope_hi:.3f} (~1.5 => a0~(1+z)^1.5); Milgrom 2017 reported to disfavour ~4a0@z2 & (1+z)^1.5 (attribution); no-expansion control disc {disc_noexp:.3f} -> {g_A_killed}")
     print(f"(3) BRANCH B SURVIVES: constant in z ({const_B}), keeps z=0 match ratio {r0_B:.3f} -> {g_B}")
     print(f"    => external data selects the DARK-ENERGY-horizon reading: a0 constant in cosmic time, the growing-room rate is the de Sitter horizon (refines UP-134)")
     print(f"\n  VERDICT: {'PASS' if verdict else 'FAIL'}")
