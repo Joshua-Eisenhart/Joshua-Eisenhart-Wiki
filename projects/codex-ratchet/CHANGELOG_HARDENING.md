@@ -1426,3 +1426,11 @@ UP-140 WITHDRAWN (retained as scaffold): HoTT/braid-group trajectory topology. B
                tautology the placement is the SAME live-but-unforced verdict as octonions/T01, E8, Penrose (braids
                constructible-not-forced; forced carrier topology = Z2 spinor double cover) -- real, but no new failable
                gate. NOT registered; harness stays 143 GREEN.
+
+UP-141 WITHDRAWN (retained as scaffold): "each stage protects a distinct invariant". Ran PASS standalone but the panel
+               unanimously caught the "invariant" as a hand-concatenated feature vector (op axis + terrain spectrum +
+               fixed point + det), not the protected eigenspace of the composed stage channel; the spinor gate a
+               tautology (holonomy reads eps out of H by construction); the 12+4 split pre-installed by TERR/NATIVE.
+               Real finding kept: the composed stage channel has NO genuine density-level protected invariant (terrain
+               flow contracts everything). Prior processing-fingerprint rung remains the honest "16 distinct kinds".
+               NOT registered; harness stays 143 GREEN.
