@@ -319,7 +319,7 @@ SUITE = [
    ("contains", "PASS qit_fep_surprise_stream")]),  # THE FEP LENS ON THE RUNNING ENGINE as a per-tick SURPRISE STREAM: surprise_bits = S(observation||belief), Umegaki quantum relative entropy (bits), pure QIT no classical/thermal terms. Time-series companion to the static FEP sims (qit_fep_ratchet functional + qit_active_inference_planning path-integral); this one emits the {tick, belief_bloch, surprise_bits} trace Lev's cr_qit_bridge_stream_v0 evidence port consumes. Signature (matches QIT_LEV_BRIDGE_SPEC): predictable ~0.002, regime-shift spike ~2.5, relearn decay ~0. Two falsifiable controls: (1) belief frozen at switch -> tail stays high 5.35 (learning beats frozen ~25000x); (2) no regime switch -> no spike. scratch_diagnostic.
  ("qit_epistemic_active_inference_sim.py", 60, False, [
    ("contains", "PASS qit_epistemic_active_inference")]),  # EPISTEMIC (explore) half of active inference -- the missing complement to qit_active_inference_planning (pragmatic/goal). Engine faces an UNKNOWN hidden terrain; selects probe-actions by EXPECTED INFORMATION GAIN I(terrain;readout)=H(b)-E[H(b|y)] (FEP epistemic value, pure QIT + finite belief, no reward/temperature). Prediction-first loop per v7 holodeck doctrine. Gated: (1) epistemic policy resolves all 8 hidden terrains (mean 8.88 ticks, correct MAP, cap 16, 3 seeds); (2) beats random actions (8.88 vs 10.83 ticks -- margin grows uncensored, not a cap artifact); (3) CONTROL uninformative low-info probe leaves belief entropy 1.33 bits (unknown NOT resolved). scratch_diagnostic.
- ("known_unknown_fep_field_sim.py", 90, False, [
+ ("known_unknown_fep_field_sim.py", 150, False, [
    ("contains", "PASS known_unknown_fep_field")]),  # KNOWN/UNKNOWN as a TESTABLE FEP model of the engine attractor basin (there is NO testable win/lose def; win/lose is only a naming on the basin -- known/unknown is the better, measurable definition because surprise = the measure of the unknown). Field U(rho)=S(rho||attractor) Umegaki bits; attractor=terrain GKSL fixed point=the KNOWN. Three gated claims on the running engine: (1) attractor is the known (U~0 there, U grows off-basin, dist-surprise corr 0.98-1.00); (2) engine flow is surprise-descent (U monotone ->0 all 8 terrains = FEP free-energy min as relative-entropy descent; 12x flow budget since projective t3/t7 boundary fixed points converge slower); (3) known is specific (wrong-belief control: residual unknown ~100% of belief gap; coincident-attractor pairs t1/t3,t5/t7 honestly excluded). Pure QIT, no thermo. scratch_diagnostic.
  ("loop_uniqueness_trajectory_probe_sim.py", 40, False, [
    ("contains", "PASS loop_uniqueness_trajectory_probe")]),
@@ -443,7 +443,7 @@ def run_one(script, timeout, interpreter=None):
 
 
 def run_ratchet_integrity_lane():
-    """Validate the v0.2 process kernel and claim-bearing bundle front doors.
+    """Run and validate the v0.4 exploration/gate process and bundle front doors.
 
     This lane checks anti-drift structure, not scientific truth or admission.
     """
@@ -461,7 +461,7 @@ def run_ratchet_integrity_lane():
         return "FAIL", output[-1000:]
     if "PASS bundle_ratchet_lint" not in output:
         return "FAIL", "Ratchet lint exited zero without its PASS marker"
-    return "PASS", "v0.2 root/MSS/frontier/co-view/self-test guards green"
+    return "PASS", "v0.4 wide-DIG/strict-GATE/gradient/MSS/open-queue guards green"
 
 
 def run_engines_lane():
