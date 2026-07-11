@@ -1,7 +1,7 @@
 # NOTE (bundle copy): canonical source is Codex-Ratchet/ESTATE_REGISTRY.yaml in the repo.
 # This copy travels with the portable bundle so a fresh reader knows THIS zip = the constraint_core_v7
 # science-packet estate (status: hypothesis_and_scoped_evidence). If this copy and the repo disagree,
-# the repo is authoritative. Included per 2026-07-11 to pre-empt wrong-estate reads.
+# the repo is authoritative. Re-added 2026-07-11 after v0.3 (built pre-registry) omitted it.
 #
 # ESTATE_REGISTRY.yaml — machine-readable root registry (created 2026-07-10 per external
 # review "the repository upgrade that matters most"; supersedes prose routing in
