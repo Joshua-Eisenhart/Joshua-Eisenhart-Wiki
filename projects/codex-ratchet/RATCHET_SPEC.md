@@ -1,488 +1,297 @@
-# THE RATCHET — EXECUTABLE ANTI-DRIFT SPECIFICATION v0.3
+# THE RATCHET — WORKING PROCESS SPECIFICATION v0.4
 
-_Enforcement surface for this bundle. Updated 2026-07-10 from the owner correction that the gradient is the drive:
-without a witnessed intrinsic entropy/distinction gradient there is no reason for a Ratchet transition. This is process
-doctrine, not a scientific result. It does not make any model object true. The Ratchet may
-provisionally earn only scoped claims with receipts._
+_Current process authority. Updated 2026-07-10 after the v0.3 failure: v0.3 built a strict receipt validator but did
+not run proposal generation, discriminator construction, or iterative digging. It therefore did not constitute a
+Ratchet run. This specification supersedes its universal HOLD and control rules._
 
 ## 0. Compact law
 
-> **Root in constrained distinguishability. Witness the intrinsic gradient. No gradient, no tooth. Search wide. Lower
-> first. Gate hard. Keep a frontier. Admit narrowly and provisionally. Preserve every informative death. Reopen whenever
-> a weaker survivor appears.**
+> **Root in constrained distinguishability. Explore freely at every strict gate. Let a witnessed gradient drive a
+> tooth. Admit only a provisional MSS frontier. Record every death. Turn every inconclusive gate into more digging.**
 
-The wiki, repositories, specs, zips, messages, simulations, and model outputs are the variation pool feeding the
-Ratchet. They are not a truth database. A simulation is an instrument. A receipt records what happened. Neither promotes
-itself.
-
-The Ratchet has two different monotonicities:
-
-1. **Evidence history is monotone:** provenance, runs, controls, kills, audits, and receipts are append-only.
-2. **The current model frontier is defeasible:** it may move upward, sideways, branch, or move downward to a weaker
-   survivor.
-
-The evidence ratchets. The ontology does not become permanently stronger merely because it was once admitted.
-
-The Ratchet also has a **drive condition**, not a third monotonicity:
-
-3. **A transition requires a gradient:** a licensed finite distinction potential must have a nonzero admissible gradient
-   that is intrinsic and coupled to the frozen obligation. If the gradient is absent, unlicensed, injected, or unrelated
-   to the obligation, the process emits a `HOLD` receipt. It may continue exploring, but it does not acquire a tooth.
-
-## 1. Hard boot and authority law
+The Ratchet has two independent settings that must never be collapsed:
 
 ```text
-DEFAULT_SCIENTIFIC_STATUS = HYPOTHESIS
-
-SOURCE_PROVENANCE      != ADMISSION
-OWNER_MESSAGE          != ADMISSION
-SPECIFICATION          != ADMISSION
-SIM_GREEN              != ADMISSION
-RESULT_JSON            != ADMISSION
-MULTI_MODEL_AGREEMENT  != ADMISSION
-CROSS_RUNTIME_MATCH    != ADMISSION
-KNOWN_THEOREM_REALIZED != THEORY_SPECIFIC_EVIDENCE
+EXPLORATION TEMPERATURE = HIGH
+ADMISSION TEMPERATURE   = LOW
 ```
 
-The promotable unit is one claim with a declared scope, dependencies, candidate grammar, weakening grammar, probes,
-controls, executable evidence, ceiling, and reopen conditions. Never promote a whole document or narrative.
+A strict gate does not license conservative proposal generation. It demands the opposite: broad candidates, alternative
+gradient/readout hypotheses, rival weakness orderings, negatives, carrier swaps, and controls designed to make both
+sides reachable. The gate is strict only when deciding what becomes a provisional tooth.
 
-`canonical by process` is retained only as a legacy controller label. Its scientific meaning in this bundle is:
+The repositories, wiki, source documents, messages, mathematical theories, simulations, and model outputs are the
+variation reservoir. None is canon merely because it is present or salient.
 
-```text
-RATCHET_EARNED_PROVISIONAL_WITHIN_SCOPE
-```
-
-It never means globally true, globally minimal, permanently closed, or automatically inherited by a downstream rung.
-
-## 2. The root: constrained distinguishability
+## 1. Root and active search pressures
 
 ```text
 ROOT = CONSTRAINED_DISTINGUISHABILITY
 ```
 
-The root is not entropy, geometry, a set of objects, an equivalence relation, a metric, a probability space, a Hilbert
-space, a cellular automaton, or a probe quotient. Those are candidate presentations or later earned structures.
+Objects, identity, equivalence, support, quotient, number, probability, entropy formula, geometry, carrier, cellular
+automaton, Hilbert space, and manifold are possible functional presentations. They are not installed at the root.
 
-For a finite run, use operational syntax such as
+The current owner-declared pressures are:
+
+- **F01 — finitude:** each executable run has finite observations, candidates, probes, histories, controls, and budget.
+  This does not prove a smallest grain or close future refinement.
+- **N01 — noncommutation:** order may change what distinctions survive, so history-sensitive candidates must be explored.
+  This does not preselect matrices, complex amplitudes, a ring, or any particular update algebra.
+- **MSS — admission meta-gate:** retain every currently minimal tested survivor. Minimality is indexed by the finite
+  candidate population, weakness relation, evidence, and budget. A weaker future candidate reopens the tooth.
+- **T01 — possible later grouping pressure:** nonassociativity is explored when grouping differences become
+  load-bearing; it is not installed earlier by destination preference.
+
+The update family, weakness ordering, probes, and readouts may themselves be installed hypotheses. A run records that
+status rather than laundering them into root axioms.
+
+## 2. What actually ratchets
+
+The process state contains four live stores:
+
+```text
+variation_pool   generated proposals, rival views, functionals, controls, countermodels
+tested_frontier  current finite minimal-survivor antichain
+evidence_ledger  append-only results, deaths, projections, residuals, provenance
+dig_queue        unanswered discriminators and new search operators
+```
+
+Evidence history accumulates. The scientific frontier remains defeasible. An admitted structure may later be weakened,
+split, rebuilt internally, demoted, or rejected without deleting its historical receipt.
+
+The Ratchet is a running update process, not a static list of allowed structures and not a checklist validator.
+
+## 3. Gradient drive without a freeze rule
+
+The owner's causal correction remains binding:
+
+> **A Ratchet tooth needs a gradient. If no distinction/entropy gradient exists, there is no reason for that tooth.**
+
+But a current instrument failing to witness a gradient is not evidence that every admissible gradient is absent. The
+gradient representation is itself explored at the gate.
+
+For a proposed readout `V`, candidate presentation `X`, and proposed repair/lift `Y`, a finite directed contrast may be
+written
 
 \[
-\Delta_C(h,p;a,b)\in\{\text{distinguished},\text{not-distinguished},
-\text{unresolved},\text{inadmissible}\}.
+g_V(X\to Y)=V(X)-V(Y).
 \]
 
-`a` and `b` are marks, traces, or slots in a test presentation. They are not presumed ontological objects. `h` is the
-finite recorded history, `p` is an attempted distinction operation, and `C` is the active constraint context.
+This is a proposal schema, not a mandatory universal scalar or entropy formula. A gate may explore counts, partial
+orders, prediction residuals, distinguishability deficits, path-dependent functionals, vector/order-valued contrasts,
+Shannon/von Neumann/BKM quantities once their prerequisites are present, or other constructions.
 
-At the root, do **not** assume that constrained non-distinguishability is:
+A drive proposal survives only its **declared** predictions and controls. Examples:
 
-- total, symmetric, transitive, or context independent;
-- independent of history or operation order;
-- representable by distance, probability, density operators, or a fixed carrier;
-- sufficient to form a quotient.
+- an order-deficit drive should disappear when the observed order dependence is erased;
+- a permanent cosmological gradient need not vanish when one local obligation closes;
+- an open system may legitimately include an external source, but that source must not be mislabeled endogenous;
+- a label-sensitive score fails when admissible relabeling changes it;
+- an entropy that stays constant across the relevant repair is not the drive for that repair.
 
-An equivalence relation `~`, quotient `X/~`, persistent object, geometry, or state space is a later candidate. It earns a
-rung only if its needed closure and persistence properties survive tests and weaker non-object presentations fail.
+v0.3 incorrectly made closure-collapse, injection rejection, and one scalar orientation universal. Those are now
+gate-specific hypotheses.
 
-### 2.1 Active root constraints
+If no drive proposal survives, the result is:
 
-The owner-declared root constraints governing the search are:
+```text
+UNRESOLVED_GATE__DIG_CONTINUES
+```
 
-- **F01 — finitude:** every realized carrier, active distinction table, probe set, history, path, test battery, candidate
-  population, and run budget is finite. No completed infinity appears in a claim-bearing run.
-- **N01 — noncommutation:** order can be load-bearing. In general,
-  \(\Delta_C(hpq,p';a,b)\neq\Delta_C(hqp,p';a,b)\), or the corresponding supplied updates satisfy
-  \(U_pU_q\neq U_qU_p\).
+The engine expands gradient hypotheses, probes, histories, carriers, resolutions, countermodels, or weakness orders
+until the finite run budget is reached. The run boundary is operational, never a claim that the basin is flat globally.
 
-F01 and N01 constrain candidates and the process. They do not by themselves select complex numbers, density matrices,
-Pauli probes, Hilbert space, a ring, a CA, entropy formula, or geometry. A concrete realization can show consistency or
-load-bearing behavior without proving uniqueness from the root.
+## 4. Gates are strict; exploration at gates is not conservative
 
-### 2.2 The derived drive: no gradient, no tooth
+Every gate separates roles:
 
-The root primitive remains constrained distinguishability. The drive is not a second substance or a pre-installed
-entropy formula. It is a measured asymmetry in the currently admissible finite distinction process.
+1. **Mapper:** states what distinctions each view preserves, erases, or exposes.
+2. **Explorer:** generates strong and weak candidates across mathematical families.
+3. **Gradient digger:** proposes alternative reasons/directions for a tooth.
+4. **Minimalist:** tries all known lower structures and explicit weakening maps first.
+5. **Lift advocate:** supplies the strongest case for each lift, including owner-favored and non-owner-favored lifts.
+6. **Control auditor:** tries to kill both acceptance and rejection; every strict rejection needs a non-definitional
+   bias-flip showing the gate can admit a lift on changed evidence.
+7. **Receipt clerk:** records survivors, kills, projections, residuals, open attacks, and the next discriminator.
 
-At a pre-entropic rung, declare a finite **distinction potential** `V_{t,O}` tied to the frozen obligation `O`.
-For an admissible update `u`,
+No role may silently perform another role's adjudication. A builder or simulation cannot promote its own result.
 
-\[
-g_{t,O}(u)=V_{t,O}(\sigma_t)-V_{t,O}(u\sigma_t).
-\]
+### 4.1 Controls are generated, not imposed as one universal roster
 
-The sign convention must be frozen before the candidate results are read: positive `g` means movement toward
-closure of the named unresolved distinction. A total physical entropy may rise while this unresolved-demand potential
-falls; the receipt must not conflate those claims.
+The reusable control library includes label erasure, lower-structure, order commutation, history erasure, quotient
+erasure, topology shuffle, carrier swap, field-versus-token, resolution change, source freeze, source injection,
+held-out contact, and anti-by-construction tests. The engine selects and generates controls from the actual claim.
 
-Once the rung has licensed an entropy type `S_\tau`, the same operational drive may be represented as the
-admissible entropy gradient
+Admission requires all **claim-relevant declared controls** to fire as predicted. It does not require irrelevant controls
+to be forced onto the packet, and `not applicable` does not become a hidden veto.
 
-\[
-g_{t,O}(u)=\epsilon_O\big(S_\tau(\sigma_t)-S_\tau(u\sigma_t)\big),
-\]
+### 4.2 A gate must be able to flip
 
-where `\epsilon_O` fixes the obligation-relative orientation. Shannon, von Neumann, Umegaki, cut entropy, or any
-other `S_\tau` is still a candidate typed functional and cannot be smuggled into the root.
+A gate that always rejects stronger structure is broken. A gate that always admits it is also broken. Each tooth requires
+at least one executable counter-surface where the lower candidate becomes adequate or the proposed drive disappears.
+This tests the decision procedure, not just the favored outcome.
 
-A Ratchet transition is authorized only when all of the following are witnessed:
+## 5. MSS is provisional even with open attacks
 
-1. the potential/entropy type is licensed at the current rung;
-2. `|g|` exceeds the preregistered finite tolerance;
-3. the gradient is intrinsic to the active distinction process rather than an injected resource or arbitrary score;
-4. changing or erasing the frozen obligation changes or erases the gradient;
-5. at least one tested candidate couples to the gradient in the predicted direction;
-6. freeze and demand-closure controls collapse the gradient and produce `HOLD`;
-7. MSS and all other admission controls still pass.
-
-If these conditions do not hold, survivor/frontier computation may remain useful exploratory evidence, but no
-`PROVISIONAL_MSS` transition and no next rung is licensed.
-
-## 3. One distinction process: gradient, entropy, and geometry
-
-Entropy does not run on a prior geometry, and geometry does not run on prior entropy. When enough structure is earned,
-both are typed views of the same constrained-distinguishability organization.
-
-The gradient is the drive **of this same process**. It is not an independent force placed beside entropy and geometry.
-Before a specific entropy type is licensed it is recorded only as an operational distinction-potential gradient. After
-licensing, the entropy gradient and the changing relation-shape are co-views of the same directed carve. Thus:
-
-- constrained distinguishability is the root;
-- its licensed nonuniformity/gradient supplies the reason and direction for a transition;
-- entropy and geometry describe the driven surface at the resolution currently earned;
-- the evidence pawl remembers the transition;
-- MSS restricts the transition to the weakest tested adequate response.
-
-A later finite presentation may be written
+For a finite packet `t`, let `Surv_t` be the tested adequate candidates and `<=_t` the currently installed witnessed
+weakness relation. The frontier is
 
 \[
-\Sigma_t=(K_t,w_t,\mathcal P_t,\mathcal U_t),
-\]
-
-where incidence/relations `K`, finite capacities or weights `w`, admissible probes `P`, and ordered transformations `U`
-are all parts of one presentation. `Sigma` is not the root; it is a candidate representation of the root process.
-
-- **Geometric view:** relation shape, adjacency, reachability, cuts, composability, and boundary organization.
-- **Entropic view:** remaining, hidden, erased, or transferable distinguishability on those same finite boundaries.
-- **Operator view:** admissible transformations of that same organized distinction surface.
-
-For an admitted finite region `A`, a typed entropy may be proposed as
-
-\[
-S_p(A)=\Phi_p(\partial_{\Sigma_t}A),
-\]
-
-but `Phi_p` is itself a candidate: class count, Shannon, von Neumann, relative entropy, cut capacity, or a weaker
-functional must be earned at the layer where its mathematical prerequisites exist.
-
-There is no independent claim-bearing `G_t` plus `E_t` state. A geometry/entropy split control must try to change one
-while freezing the full distinction surface. If it succeeds, the proposed one-object presentation is incomplete or the
-identity claim fails at that scope.
-
-## 4. MSS is an anytime frontier, not a final minimum
-
-For rung obligation `O_r` in finite run `t`, declare:
-
-- `C[r,t]`: finite candidate set actually generated;
-- `B[t]`: finite probe, test, negative, and control battery;
-- `W[t]`: finite registered weakening grammar;
-- `X <=_r Y`: `X` is no stronger than `Y` for this obligation.
-
-The weakness relation is installed and must carry a witness: erasure, quotient, restriction, compiler, factorization,
-carrier forgetting, reduced update rule, or other explicit map from the stronger presentation to the weaker one that
-preserves the current obligation. A scalar complexity score is not enough; its weights would silently install taste.
-
-Define the tested survivor set
-
-\[
-\operatorname{Surv}_{r,t}=\{X\in\mathcal C_{r,t}:X\models C_t,O_r
-\text{ and passes }B_t\},
-\]
-
-and the provisional MSS frontier
-
-\[
-\mathfrak M_{r,t}=\{X\in\operatorname{Surv}_{r,t}:\nexists Y\in\operatorname{Surv}_{r,t}
-\text{ with }Y\prec_r X\}.
+M_t=\{X\in Surv_t:\nexists Y\in Surv_t\text{ with }Y<_t X\}.
 \]
 
 Consequences:
 
-- `MSS` may contain several incomparable candidates. Do not force a winner.
-- `minimal` means no tested strictly weaker survivor in the declared search—not a global minimum.
-- a unique `argmin` is forbidden unless uniqueness is proved inside the finite declared grammar;
-- every MSS claim is indexed by candidate grammar, weakening grammar, tests, code/data hashes, and budget;
-- the global weaker-candidate search remains open forever unless a separately stated mathematical theorem closes a
-  precisely bounded class.
+- the frontier can be plural;
+- the weakness relation can be challenged;
+- open one-step weakenings do not freeze all progress—they remain active attacks and lower the claim ceiling;
+- no finite run proves that an ungenerated weaker candidate does not exist;
+- admission means `PROVISIONAL_TOOTH_WITHIN_PACKET`, never final global MSS;
+- a new weaker survivor reopens descendants.
 
-### 4.1 Local closure and open-world honesty
+v0.3 incorrectly required closing every registered weakening before a provisional tooth. That confused provisional MSS
+with global completion.
 
-Before a candidate enters the provisional frontier, exhaust every registered one-step weakening in `W[t]` or record why
-that weakening is undefined. This yields a finite **local minimality certificate**.
+## 6. The executable loop
 
-It does not prove open-world minimality. The receipt must retain `open_weaker_attacks`, including rival carrier families
-and not-yet-formalized weakenings. A newly proposed weakening or candidate grammar automatically reopens the rung.
+Every bounded run performs this order:
 
-## 5. Ratchet state
+1. Load raw distinction evidence and prior receipts without promoting either.
+2. State the current question and the weakest known presentation.
+3. Generate candidate presentations across axes: history, outcome type, carrier, topology, algebra, readout, and update.
+4. Generate alternative gradient/readout hypotheses.
+5. Generate weakenings, countermodels, negatives, and bias-flip controls.
+6. Execute every candidate and control allowed by the finite budget; park unimplemented candidates visibly.
+7. Compute adequacy, explicit weakness relations, survivors, and the complete tested frontier.
+8. Adjudicate:
+   - `PROVISIONAL_TOOTH_WITHIN_PACKET` when a weaker presentation fails a live distinction, a minimal repair survives,
+     a drive hypothesis couples to it, and the gate-specific controls flip correctly;
+   - `NO_LIFT_NEEDED__DIG_CONTINUES` when the weaker presentation still carries the evidence;
+   - `UNRESOLVED_GATE__DIG_CONTINUES` when the evidence, drive, controls, or candidates are insufficient.
+9. Emit a receipt whether the result is positive, negative, or unresolved.
+10. Convert every unresolved item and every parked candidate into the next dig queue.
+11. Continue until the declared finite budget is reached.
 
-The claim-bearing process state is
-
-\[
-\mathcal R_t=(\mathcal D_t,\mathbf C_t,O_t,V_{t,O},\nabla^{adm}V_{t,O},\Gamma_t,W_t,\preceq_t,B_t,
-\mathfrak M_t,\mathcal L_t,\mathcal K_t,\mathcal A_t).
-\]
-
-- `D_t`: finite constrained-distinguishability record; not a pre-given object ontology;
-- `C_t` (bold in the tuple): active constraints and their provenance/status;
-- `O_t`: frozen obligation or lost distinction being tested;
-- `V_{t,O}`: finite obligation-relative distinction potential, or a licensed typed entropy potential;
-- `\nabla^{adm}V_{t,O}`: measured gradient over the declared admissible updates, derived from the same distinction
-  record rather than stored as an independent substance;
-- `Gamma_t`: the finite candidate population;
-- `W_t`, `<=_t`: weakening grammar and witnessed partial preorder;
-- `B_t`: tests and controls with expected and observed effects;
-- `M_t`: computed provisional minimal-survivor frontier;
-- `L_t`: append-only evidence/provenance ledger;
-- `K_t`: graveyard of killed, demoted, circular, stale, and superseded candidates;
-- `A_t`: open attacks and explicit reopen triggers.
-
-No independent geometry or entropy state is stored. Later geometry/entropy/operator views are recomputed from the same
-surviving constrained-distinguishability presentation and are typed by what that rung licenses. The drive record must
-include its type license, orientation, finite magnitude/tolerance, intrinsicness, obligation coupling, candidate
-responses, and the controls that make it vanish or fail.
-
-## 6. The executable Ratchet loop
-
-Every claim-bearing rung executes in this order.
-
-1. **Load predecessor receipts.** Verify hashes, ceilings, unresolved attacks, and that no downstream claim is being used
-   to justify its own prerequisite.
-2. **Freeze one obligation.** Name the exact distinction that must survive and why it is demanded by active constraints or
-   observations rather than by a desired destination.
-3. **License and measure the drive.** Declare the finite distinction potential or already-earned entropy type, freeze its
-   orientation and tolerance, and measure the admissible gradient. Run freeze, closure, injection, and obligation-coupling
-   controls. If there is no licensed, nonzero, intrinsic, obligation-coupled gradient, emit the appropriate `HOLD`
-   receipt and stop the transition. Exploration may continue, but the Ratchet does not climb.
-4. **Freeze finite scope.** Declare candidate grammar, weakening grammar, probes, histories, resolution, data, code, and
-   resource budget.
-5. **Generate widely.** Include multiple mathematical families, deliberately weaker candidates, non-owner-favored
-   candidates, and negative controls.
-6. **Lower first.** For every candidate, generate all registered immediate erasures, quotients, restrictions, and carrier
-   substitutions. The Minimalist lane runs before any Lift Advocate.
-7. **Run adequacy and coupling tests.** Test F01, N01 when relevant, the rung obligation, continuation/composability under
-   a supplied update family, gradient response, killability, predecessor projection, and held-out behavior. A candidate
-   that satisfies a static obligation but does not couple to the witnessed gradient cannot become the Ratchet tooth.
-8. **Run hostile controls.** Controls must execute, have predicted effects, and genuinely discriminate. A decorative or
-   definitionally guaranteed control is a failure.
-9. **Compute survivors and the frontier.** Compute `Surv` and `M`; never select by prose or label.
-10. **Attack minimality.** Search outside the immediate weakening neighborhood and across rival carrier families. Record
-   both defeated attacks and open attacks.
-11. **Adjudicate narrowly.** `REJECT`, `PARK`, `SURVIVED_NONMINIMAL`, `PROVISIONAL_MSS`, `REOPEN`,
-    or a typed `HOLD_*`. A passing simulation cannot assign its own admission status.
-12. **Emit an append-only receipt.** Include all scope hashes, gradient license/witness, transition decision, negative
-    results, frontier, ceiling, unresolved attacks, and reopen triggers.
-13. **Only then consider a next rung.** A fresh next-rung distinction must expose a fresh licensed gradient. Never jump
-    because a later named structure is salient.
-
-## 7. What makes a next rung
-
-A next-rung demand `d` is admissible only if it names a load-bearing distinction that the current frontier cannot carry
-**and** exposes a licensed intrinsic gradient `g_d` above the frozen tolerance. For each surviving branch, search the
-minimal extensions that couple to `g_d`, restore `d`, and project back to the predecessor:
-
-\[
-\mathfrak M_{r+1,t}=\operatorname{Min}_{\preceq}
-\{Y:\exists X\in\mathfrak M_{r,t},\;\pi:Y\to X,\;Y\models d,\;g_d(Y)>\varepsilon_d\}.
-\]
-
-- If `|g_d|\leq\varepsilon_d`, the correct next-rung decision is `HOLD_NO_GRADIENT`.
-- If a current frontier member already carries `d`, that branch does not lift.
-- If only some branches fail, prune or branch; do not lift the whole model.
-- If several incomparable lifts survive, retain all of them.
-- If a weaker predecessor is later found, reopen every dependent descendant.
-
-The rung structure is therefore a provisional directed acyclic graph of receipts, not necessarily one linear ladder.
-The 0–15, 0–26, 14-layer, and compressed demonstration lists are inventories or routes through that graph. Their
-numbering is not admission evidence.
-
-## 8. Finitude, refinement, and the cellular-automaton hypothesis
-
-F01 requires finite realized information capacity. It does not require a globally smallest positive number or prove a
-fixed atomic grain. The owner's refinement intuition can be stated as
-
-\[
-\Pi_0\prec\Pi_1\prec\cdots\prec\Pi_b,\qquad |\Pi_i|<\infty,
-\]
-
-where every run ends at finite `b`. There is no realized `Pi_infinity`. Open-ended refinement is a meta-level rule:
-given any admitted finite resolution, a finer finite resolution may later be proposed. Between two distinct real numbers
-there are infinitely many reals; this concerns inexhaustible refinement, not a largest number. A fixed machine format has
-finite representable states and scale-dependent spacing; arbitrary precision describes a family of finite runs, not an
-actually completed infinite carrier.
-
-### 8.1 CA is a candidate family, not a consequence of F01 alone
-
-A cellular automaton adds sites, alphabet, neighborhood, locality, update schedule, and often homogeneity, synchrony, and
-fixed topology. Each addition must earn its place. The CA gate must compare at least:
-
-1. a generic finite transition system;
-2. a finite-state transducer or asynchronous local rewrite/event system;
-3. a partitioned ring/checkerboard automaton;
-4. a reversible block automaton;
-5. a bounded-degree time-varying graph automaton, where geometry can change;
-6. a QCA only after the necessary state/operator structure is earned.
-
-The ring checkerboard is a strong N01 candidate because two block partitions can satisfy
-
-\[
-U=U_BU_A,\qquad \widetilde U=U_AU_B,\qquad [U_A,U_B]\neq0.
-\]
-
-But fixed ring adjacency, parity coloring, local alphabet, global clock, and update homogeneity are installed until the
-Ratchet defeats weaker alternatives. “von Neumann CA is close but not good enough” remains an owner hypothesis defining a
-search lane, not an admission result. Single-token motion, full-field CA, open-chain QCA, and finite-ring QCA are different
-ceilings and must never be conflated.
-
-## 9. Required control families
-
-Every admission packet addresses these controls. `NOT_APPLICABLE` requires a mathematical reason and becomes an open
-attack when applicability is uncertain.
-
-1. **ROOT-SMUGGLING:** remove pre-given objects, identity, equivalence closure, metric, probability, or carrier. If the
-   root claim survives only because they were installed, demote it.
-2. **LOWER-STRUCTURE:** a weaker candidate performs the same obligation. If it survives, demote the stronger lift.
-3. **LABEL/METADATA ERASURE:** remove names, terrain labels, phase labels, expected class counts, and verdict metadata.
-4. **ANTI-BY-CONSTRUCTION:** the decisive outcome must be reachable on both sides; definitionally fixed periods,
-   relabeled calibrations, and solver assertions of computed counts are non-evidence.
-5. **PROBE/QUOTIENT:** delete, replace, or rotate probes; recompute rather than reusing cached classes.
-6. **ORDER/COMMUTATION:** reverse order, commute updates, merge phases, and randomize schedules where the claim predicts a
-   change.
-7. **HISTORY/MEMORY:** erase or permute the history record; test whether apparent persistence was metadata.
-8. **RESOLUTION:** coarsen and refine finite partitions; report which claims persist and which are resolution artifacts.
-9. **CARRIER-FAMILY:** test a non-isomorphic rival presentation with the same observed distinction table.
-10. **TOPOLOGY/LOCALITY:** shuffle ring adjacency, globalize a local rule, localize a global rule, and separate fixed from
-    evolving geometry.
-11. **ENTROPY–GEOMETRY SPLIT:** attempt to vary the entropy view while freezing the full geometric distinction surface and
-    vice versa.
-12. **FIELD-VS-TOKEN:** distinguish single-active-token transition graphs from full configuration-field dynamics.
-13. **LINEAGE/FRESHNESS:** remove ancestry, stale one engine, alter a source hash, or rerun from fresh context; the gate
-    must fail closed.
-14. **HELD-OUT CONTACT:** distinguish compression/prediction on new probes or data from re-encoding the construction
-    table.
-15. **GRADIENT-FREEZE:** freeze the update/source that creates the distinction asymmetry. The measured gradient must
-    collapse within the preregistered tolerance and the transition decision must become `HOLD_NO_GRADIENT`.
-16. **GRADIENT-CLOSURE:** satisfy the frozen obligation without changing irrelevant capacity. Its obligation-relative
-    gradient must vanish; a drive that persists after closure is mis-typed or externally maintained.
-17. **GRADIENT-INJECTION:** replace the intrinsic gradient with an imposed constant, reward, feedstock, or hand-authored
-    score. It must be rejected as a Ratchet drive even when it moves the candidate.
-18. **GRADIENT–OBLIGATION COUPLING:** erase, swap, or replace the frozen obligation. A claimed drive must change
-    accordingly; an unchanged gradient is unrelated and cannot authorize a tooth.
-
-## 10. Status and receipt contract
-
-Keep three status axes independent:
+The finite run ends as:
 
 ```text
-lifecycle_status : HYPOTHESIS | CANDIDATE | TESTED_SURVIVOR | SURVIVED_NONMINIMAL |
-                   PROVISIONAL_MSS | HOLD_NO_GRADIENT | HOLD_UNLICENSED_GRADIENT |
-                   HOLD_EXTRINSIC_DRIVE | HOLD_UNCOUPLED_GRADIENT |
-                   REOPENED | DEMOTED | PARKED | REJECTED | GRAVEYARD_KEEP
-evidence_grade   : none | adjudication_only | executable_diagnostic | independent_recomputation
-claim_ceiling    : source_defined | scratch_diagnostic | pass_local | ratchet_earned_provisional
+FINITE_BUDGET_REACHED__SEARCH_AND_REOPENING_REMAIN_ACTIVE
 ```
 
-Every `PROVISIONAL_MSS` receipt contains:
+It never emits “there is no weaker structure” or “there is no gradient anywhere.”
 
-```text
-schema_version
-claim_id and exact claim text
-root = constrained_distinguishability
-predecessor_receipt_ids and hashes
-constraint and obligation hashes
-candidate_grammar + hash
-weakening_grammar + hash
-probe/test/control battery + hash
-finite budget and resolution
-drive kind, license, functional, orientation, before/after potential, magnitude, and tolerance
-intrinsicness, obligation coupling, candidate responses, and transition decision
-candidate list, survivor list, computed minimal frontier
-weakness witnesses
-positive evidence and all negative results
-defeated weaker candidates
-open weaker attacks
-entropy_geometry_single_surface declaration when applicable
-claim ceiling
-demotion and reopen conditions
-independent audit identity and freshness
-```
-
-The machine-readable contract and validator live under `ratchet/`.
-
-## 11. Forced, installed, realized, and excluded
-
-- **REALIZED:** a construction runs and exhibits the stated property at its declared scope.
-- **FORCED-WITHIN-GRAMMAR:** every surviving candidate in the finite declared grammar has the property at the observable
-  quotient level.
-- **INSTALLED:** at least two non-isomorphic compatible presentations reproduce the current observations, or the property
-  was supplied by the representation/update grammar.
-- **EXCLUDED-WITHIN-SCOPE:** the candidate failed a named constraint/control under declared finite tests.
-- **GLOBALLY FORCED:** forbidden wording unless a mathematical theorem quantifies over a precisely defined full class;
-  ordinary search receipts cannot establish it.
-
-Existing qubit, density, Pauli, Hopf, Weyl, BKM, terrain, engine, CA, and QCA simulations retain their numerical receipts.
-Their existence does not place those structures at the root or make them globally MSS. They must be re-read at their
-actual carrier-, grammar-, probe-, and fixture-relative ceilings.
-
-## 12. Anti-drift invariants
-
-The bundle fails its process contract if any front-door or newly generated claim-bearing artifact does any of the
-following:
-
-- places an object, equivalence relation, finite support, density operator, entropy, geometry, or CA before constrained
-  distinguishability;
-- stores entropy and geometry as independent claim-bearing state variables;
-- claims “the weakest” without a finite candidate scope, witnessed weakening relation, and open-world caveat;
-- chooses one incomparable frontier member by narrative preference;
-- advances, admits a tooth, or opens a next rung without a licensed nonzero intrinsic obligation-coupled gradient;
-- calls an injected reward/resource/score an entropy gradient, or lets a gradient persist after the frozen demand closes;
-- installs Shannon, von Neumann, Umegaki, or any other named entropy formula at the root merely to manufacture a drive;
-- advances without a named lost distinction and predecessor projection;
-- treats a layer inventory as runtime order or canon;
-- treats a green simulation, known theorem, source quote, or model consensus as admission;
-- hides negative results or overwrites a demoted rung;
-- lets a passing builder assign its own admission;
-- calls CA, ring topology, complex QIT, or nonassociativity forced before weaker carrier families fail;
-- closes a rung while weaker attacks, stale dependencies, or non-firing controls remain unrecorded.
-
-## 13. Bundle execution
+## 7. Working v0.4 run shipped in this bundle
 
 Run:
 
 ```text
-python3 ratchet/ratchet_kernel.py --self-test
-python3 ratchet/ratchet_kernel.py --validate ratchet/examples/process_fixture.json
-python3 ratchet/ratchet_kernel.py --validate ratchet/examples/no_gradient_hold_fixture.json
-python3 ratchet/ratchet_kernel.py --validate-ledger path/to/receipt_ledger.json
+python3 ratchet/ratchet_engine.py --run \
+  ratchet/examples/root_history_packet_v0_4.json \
+  --output ratchet/runs/root_history_run_v0_4.json
+```
+
+The packet explores two actual finite gates over carrier-neutral four-status distinction records:
+
+1. whether context-free distinction is sufficient or one-step history is load-bearing;
+2. whether new ordered evidence is still carried by one-step history or requires two-step history.
+
+At each gate the engine executes 36 candidates:
+
+- memory depth `0/1/2`;
+- binary versus four-status partial outcomes;
+- partial relation, finite transducer, directed graph, asynchronous rewrite, ring-checkerboard encoding, and diagonal
+  complex-density encoding.
+
+It also executes six candidate gradients and five gate-specific controls. It does not stop at the first success.
+
+Observed finite results:
+
+```text
+G0: context-free baseline errors = 9
+    frontier = partial_relation__memory_1__partial4
+
+G1: one-step baseline errors = 54
+    frontier = partial_relation__memory_2__partial4
+
+drive survivors at both gates:
+    partition_conflict_mass
+    merged_distinction_pairs
+
+killed as drives:
+    outcome Shannon entropy (no coupling)
+    representation cell count (wrong/ornamental contrast)
+    injected constant
+    label-code score
+```
+
+The commuting counter-surface makes the weaker history presentation adequate, so the gate demonstrably flips rather
+than rejecting by construction. Probe relabeling leaves the verdict unchanged. Collapsing the observations to binary
+makes the binary presentation adequate, proving that four-status partiality is data-dependent rather than universally
+forced.
+
+This run earns exactly two **formal finite-packet teeth**: one-step and then two-step history-sensitive partial
+distinction presentations. It admits zero scientific manifold layers and zero physical entropy types. Its generated
+observation surfaces are definition/evaluator tests; replacing them with lower-level or empirical distinction records is
+first on the continuing dig queue.
+
+### 7.1 Actual L5 manifold evidence re-ratcheted
+
+`ratchet/manifold_l5_reaudit.py` then applies the same separation to the bundle's existing L5/L7/L8 result files. It
+tests eight presentations against held-out Schmidt angles and cross-shell flux:
+
+- binary product/entangled flag;
+- finite nearest lookup;
+- Schmidt radius, negativity, purity, and entropy scalars;
+- full Schmidt spectrum;
+- nested-shell geometry.
+
+The binary flag and finite lookup fail held-out prediction. The four scalar readouts are mutually translatable on this
+installed pure two-qubit branch and reproduce the held-out radius/flux to numerical tolerance. Full spectrum and nested
+shell geometry also survive, but add structure not required by the active L5 evidence.
+
+```text
+provisional frontier = one-dimensional scalar stratum equivalence class
+nested-shell geometry = SURVIVES_BUT_NONMINIMAL
+gate status = L5_GEOMETRY_DEMOTED__SCALAR_STRATUM_PROVISIONAL
+scientific manifold layer admitted = false
+```
+
+The gate is not designed to reject geometry: an orientation counter-surface taken from the actual L8 `+1/-1` Chern
+result gives the same scalar shell coordinate but opposite winding. Scalar strata merge it; an oriented
+connection/bundle readout separates it. Thus stronger path geometry becomes load-bearing when the question actually
+contains path orientation.
+
+This demotes the claim that current L5 evidence earns nested-shell geometry as MSS and reopens L6–L8 admission. It does
+not erase their locally reproduced BKM, Berry, or Chern mathematics.
+
+## 8. Anti-fake-running invariants
+
+A purported run fails if it:
+
+- validates a prewritten receipt without generating and executing candidates;
+- calls a source document, message, or simulation canon;
+- restricts proposal generation merely because admission is strict;
+- declares a terminal HOLD from one missing gradient witness;
+- uses one fixed control roster regardless of the claim;
+- rejects by construction without an executable flip surface;
+- admits a lift while a tested weaker survivor carries the same distinction;
+- chooses one incomparable frontier member by taste;
+- hides killed gradients, candidates, or controls;
+- treats a finite budget boundary as global exhaustion;
+- says the manifold was ratcheted when only its process schema was edited.
+
+## 9. Executable integrity
+
+```text
+python3 ratchet/ratchet_engine.py --self-test
+python3 ratchet/ratchet_engine.py --validate ratchet/runs/root_history_run_v0_4.json
+python3 ratchet/manifold_l5_reaudit.py
+python3 ratchet/manifold_l5_reaudit.py --validate ratchet/runs/manifold_L5_reaudit_v0_4.json
 python3 ratchet/bundle_ratchet_lint.py
 python3 run_all.py
 ```
 
-`run_all.py` includes the Ratchet v0.3 integrity check. A green numerical harness means the shipped programs reproduced their
-registered outputs and the process front doors passed lint. It does not make the model, this spec, or any narrative canon.
-
-## 14. GitHub provenance anchors used for this revision
-
-Read-only audit against `Joshua-Eisenhart/Codex-Ratchet` at commit
-`87446663072c9c102609fe5f9abe9dee09056e31`:
-
-- `system_v6/foundations/mss_and_rung_climb_foundations_DRAFT_20260615.md`: already keeps `Min(Surv(C))` plural,
-  identifies the weakness order as installed, and warns that dynamics are supplied. v0.3 makes its open-world scope,
-  drive license, and frontier certificate executable.
-- `system_v5/docs/CONSTRAINT_SURFACE_AND_PROCESS.md`: establishes finite runs/samples, N01-sensitive process order,
-  anti-teleology, and the graveyard. v0.3 separates append-only kills from revisable model frontiers and requires a
-  licensed drive for transition.
-- `system_v7/sims/distinguishability_quotient_floor_v0/audit_verdict.md`: a genuine finite density/Pauli quotient fixture
-  with a probe-erasure flip. v0.3 places it after the root because it begins with states, probes, and quotient closure.
-- `system_v6/receipts/owner_doctrine_cellular_automata_ring_checkerboard_20260611.md` and the v0/v1/v3 audits: preserve the
-  classical single-token, frozen-16, strict-local, open-chain, and finite-ring ceilings that motivate the CA bakeoff.
-
-These files supply provenance, existing tests, and negative species. They do not become scientific canon by being cited.
+The self-test also supplies a flat/context-free control packet. It must produce
+`NO_LIFT_NEEDED__DIG_CONTINUES`, retain an open dig queue, and reject any mutation claiming global exhaustion or an
+ungated tooth.
