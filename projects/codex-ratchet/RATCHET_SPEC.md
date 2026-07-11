@@ -1,12 +1,13 @@
-# THE RATCHET — EXECUTABLE ANTI-DRIFT SPECIFICATION v0.2
+# THE RATCHET — EXECUTABLE ANTI-DRIFT SPECIFICATION v0.3
 
-_Enforcement surface for this bundle. Updated 2026-07-10 from owner clarification, the supplied Claude Science state,
-and a read-only Codex-Ratchet provenance audit. This is process doctrine and a proposal to test, not a scientific result.
-It does not make any model object true. The Ratchet may provisionally earn only scoped claims with receipts._
+_Enforcement surface for this bundle. Updated 2026-07-10 from the owner correction that the gradient is the drive:
+without a witnessed intrinsic entropy/distinction gradient there is no reason for a Ratchet transition. This is process
+doctrine, not a scientific result. It does not make any model object true. The Ratchet may
+provisionally earn only scoped claims with receipts._
 
 ## 0. Compact law
 
-> **Root in constrained distinguishability. Move only on its gradient — no gradient, no ratchet. Search wide. Lower
+> **Root in constrained distinguishability. Witness the intrinsic gradient. No gradient, no tooth. Search wide. Lower
 > first. Gate hard. Keep a frontier. Admit narrowly and provisionally. Preserve every informative death. Reopen whenever
 > a weaker survivor appears.**
 
@@ -21,6 +22,12 @@ The Ratchet has two different monotonicities:
    survivor.
 
 The evidence ratchets. The ontology does not become permanently stronger merely because it was once admitted.
+
+The Ratchet also has a **drive condition**, not a third monotonicity:
+
+3. **A transition requires a gradient:** a licensed finite distinction potential must have a nonzero admissible gradient
+   that is intrinsic and coupled to the frozen obligation. If the gradient is absent, unlicensed, injected, or unrelated
+   to the obligation, the process emits a `HOLD` receipt. It may continue exploring, but it does not acquire a tooth.
 
 ## 1. Hard boot and authority law
 
@@ -91,10 +98,59 @@ F01 and N01 constrain candidates and the process. They do not by themselves sele
 Pauli probes, Hilbert space, a ring, a CA, entropy formula, or geometry. A concrete realization can show consistency or
 load-bearing behavior without proving uniqueness from the root.
 
-## 3. One distinction process: entropy and geometry are co-views
+### 2.2 The derived drive: no gradient, no tooth
+
+The root primitive remains constrained distinguishability. The drive is not a second substance or a pre-installed
+entropy formula. It is a measured asymmetry in the currently admissible finite distinction process.
+
+At a pre-entropic rung, declare a finite **distinction potential** `V_{t,O}` tied to the frozen obligation `O`.
+For an admissible update `u`,
+
+\[
+g_{t,O}(u)=V_{t,O}(\sigma_t)-V_{t,O}(u\sigma_t).
+\]
+
+The sign convention must be frozen before the candidate results are read: positive `g` means movement toward
+closure of the named unresolved distinction. A total physical entropy may rise while this unresolved-demand potential
+falls; the receipt must not conflate those claims.
+
+Once the rung has licensed an entropy type `S_\tau`, the same operational drive may be represented as the
+admissible entropy gradient
+
+\[
+g_{t,O}(u)=\epsilon_O\big(S_\tau(\sigma_t)-S_\tau(u\sigma_t)\big),
+\]
+
+where `\epsilon_O` fixes the obligation-relative orientation. Shannon, von Neumann, Umegaki, cut entropy, or any
+other `S_\tau` is still a candidate typed functional and cannot be smuggled into the root.
+
+A Ratchet transition is authorized only when all of the following are witnessed:
+
+1. the potential/entropy type is licensed at the current rung;
+2. `|g|` exceeds the preregistered finite tolerance;
+3. the gradient is intrinsic to the active distinction process rather than an injected resource or arbitrary score;
+4. changing or erasing the frozen obligation changes or erases the gradient;
+5. at least one tested candidate couples to the gradient in the predicted direction;
+6. freeze and demand-closure controls collapse the gradient and produce `HOLD`;
+7. MSS and all other admission controls still pass.
+
+If these conditions do not hold, survivor/frontier computation may remain useful exploratory evidence, but no
+`PROVISIONAL_MSS` transition and no next rung is licensed.
+
+## 3. One distinction process: gradient, entropy, and geometry
 
 Entropy does not run on a prior geometry, and geometry does not run on prior entropy. When enough structure is earned,
 both are typed views of the same constrained-distinguishability organization.
+
+The gradient is the drive **of this same process**. It is not an independent force placed beside entropy and geometry.
+Before a specific entropy type is licensed it is recorded only as an operational distinction-potential gradient. After
+licensing, the entropy gradient and the changing relation-shape are co-views of the same directed carve. Thus:
+
+- constrained distinguishability is the root;
+- its licensed nonuniformity/gradient supplies the reason and direction for a transition;
+- entropy and geometry describe the driven surface at the resolution currently earned;
+- the evidence pawl remembers the transition;
+- MSS restricts the transition to the weakest tested adequate response.
 
 A later finite presentation may be written
 
@@ -121,44 +177,6 @@ functional must be earned at the layer where its mathematical prerequisites exis
 There is no independent claim-bearing `G_t` plus `E_t` state. A geometry/entropy split control must try to change one
 while freezing the full distinction surface. If it succeeds, the proposed one-object presentation is incomplete or the
 identity claim fails at that scope.
-
-### 3.1 The drive: the ratchet moves only on a distinguishability gradient
-
-MSS (§4), the weakening grammar, controls, and receipts are the ratchet's *mechanism* — the pawl and teeth. They say
-which next structure is admissible. They do **not** say why the ratchet advances at all. The **drive** is that reason,
-and it is not optional bookkeeping: **if there is no gradient in constrained distinguishability, there is no reason for
-the ratchet to ratchet.** A flat distinction surface — nothing left to resolve, no admissible-future spread, no
-unresolved pair — supplies no next demand, and the ratchet is at rest at that scope. Motion requires a slope.
-
-Because entropy and geometry are co-views of one surface (§3), the drive has one magnitude read three ways, never three
-independent drives:
-
-- **Entropy face:** the gradient of remaining/erasable distinguishability — how much is still unresolved, and in which
-  direction resolving it is steepest. This is the face the owner names "entropy gradient."
-- **Geometry face:** the slope of the information metric (the BKM relative-entropy Hessian at earned rungs) — distance
-  still to travel on the distinction surface.
-- **Operator face:** which admissible transformation moves *down* that slope (resolves a distinction) versus merely
-  relabels it (moves along a level set, drive zero).
-
-**Drive law (required, defeasible like every rung):** a candidate step is a genuine ratchet advance only if it is driven
-by this intrinsic gradient — the drive must (a) be **intrinsic**, computed from the distinction surface itself, not
-injected by the searcher; (b) **vanish at demand-closure** — when the pair/region it targets is fully resolved, the
-drive reads ~0 and licenses no further motion there; and (c) **track the room** — larger unresolved distinguishability
-gives a larger drive. A step whose "drive" does not vanish when its demand is closed, or does not fall when the room is
-removed, is a random walk dressed as a climb, and admits nothing.
-
-This is already earned, not asserted. Measured in the bundle:
-`axis0_entropy_gradient_engine_pair_endtoend_sim.py` (the engine-pair gradient closes an Axis-0 bookend);
-`cosmogenesis_ratchet_first_tooth_sim.py` (`entropy_gradient_intrinsic_opens_with_carrier = true` — the first tooth of
-creation is the drive turning on as the norm-preserving carrier appears); `axis0_drive_fair_n01_test_sim.py` (a
-move-matched **dead twin** with the live drive erased is *indistinguishable* under order-invariant readouts — the drive
-earns nothing for free, it must be read through N01 order). The negative controls are the point: a drive that cannot
-read zero on a closed demand is not a drive.
-
-**Cosmogenesis is the drive's origin case.** The owner's creation model *is* this law at rung zero: a static field of
-undifferentiated possibility has no gradient and cannot evolve; the first persistent carrier introduces the first
-distinguishability difference, the gradient turns on, and that gradient is the first tooth. "Dark energy first" and
-"the ratchet ratchets" are the same statement — the drive is why there is something rather than a frozen fuzz.
 
 ## 4. MSS is an anytime frontier, not a final minimum
 
@@ -209,13 +227,16 @@ and not-yet-formalized weakenings. A newly proposed weakening or candidate gramm
 The claim-bearing process state is
 
 \[
-\mathcal R_t=(\mathcal D_t,\mathbf C_t,O_t,\Gamma_t,W_t,\preceq_t,B_t,
+\mathcal R_t=(\mathcal D_t,\mathbf C_t,O_t,V_{t,O},\nabla^{adm}V_{t,O},\Gamma_t,W_t,\preceq_t,B_t,
 \mathfrak M_t,\mathcal L_t,\mathcal K_t,\mathcal A_t).
 \]
 
 - `D_t`: finite constrained-distinguishability record; not a pre-given object ontology;
 - `C_t` (bold in the tuple): active constraints and their provenance/status;
 - `O_t`: frozen obligation or lost distinction being tested;
+- `V_{t,O}`: finite obligation-relative distinction potential, or a licensed typed entropy potential;
+- `\nabla^{adm}V_{t,O}`: measured gradient over the declared admissible updates, derived from the same distinction
+  record rather than stored as an independent substance;
 - `Gamma_t`: the finite candidate population;
 - `W_t`, `<=_t`: weakening grammar and witnessed partial preorder;
 - `B_t`: tests and controls with expected and observed effects;
@@ -225,7 +246,9 @@ The claim-bearing process state is
 - `A_t`: open attacks and explicit reopen triggers.
 
 No independent geometry or entropy state is stored. Later geometry/entropy/operator views are recomputed from the same
-surviving constrained-distinguishability presentation and are typed by what that rung licenses.
+surviving constrained-distinguishability presentation and are typed by what that rung licenses. The drive record must
+include its type license, orientation, finite magnitude/tolerance, intrinsicness, obligation coupling, candidate
+responses, and the controls that make it vanish or fail.
 
 ## 6. The executable Ratchet loop
 
@@ -235,35 +258,43 @@ Every claim-bearing rung executes in this order.
    to justify its own prerequisite.
 2. **Freeze one obligation.** Name the exact distinction that must survive and why it is demanded by active constraints or
    observations rather than by a desired destination.
-3. **Freeze finite scope.** Declare candidate grammar, weakening grammar, probes, histories, resolution, data, code, and
+3. **License and measure the drive.** Declare the finite distinction potential or already-earned entropy type, freeze its
+   orientation and tolerance, and measure the admissible gradient. Run freeze, closure, injection, and obligation-coupling
+   controls. If there is no licensed, nonzero, intrinsic, obligation-coupled gradient, emit the appropriate `HOLD`
+   receipt and stop the transition. Exploration may continue, but the Ratchet does not climb.
+4. **Freeze finite scope.** Declare candidate grammar, weakening grammar, probes, histories, resolution, data, code, and
    resource budget.
-4. **Generate widely.** Include multiple mathematical families, deliberately weaker candidates, non-owner-favored
+5. **Generate widely.** Include multiple mathematical families, deliberately weaker candidates, non-owner-favored
    candidates, and negative controls.
-5. **Lower first.** For every candidate, generate all registered immediate erasures, quotients, restrictions, and carrier
+6. **Lower first.** For every candidate, generate all registered immediate erasures, quotients, restrictions, and carrier
    substitutions. The Minimalist lane runs before any Lift Advocate.
-6. **Run adequacy tests.** Test F01, N01 when relevant, the rung obligation, continuation/composability under a supplied
-   update family, killability, predecessor projection, and held-out behavior.
-7. **Run hostile controls.** Controls must execute, have predicted effects, and genuinely discriminate. A decorative or
+7. **Run adequacy and coupling tests.** Test F01, N01 when relevant, the rung obligation, continuation/composability under
+   a supplied update family, gradient response, killability, predecessor projection, and held-out behavior. A candidate
+   that satisfies a static obligation but does not couple to the witnessed gradient cannot become the Ratchet tooth.
+8. **Run hostile controls.** Controls must execute, have predicted effects, and genuinely discriminate. A decorative or
    definitionally guaranteed control is a failure.
-8. **Compute survivors and the frontier.** Compute `Surv` and `M`; never select by prose or label.
-9. **Attack minimality.** Search outside the immediate weakening neighborhood and across rival carrier families. Record
+9. **Compute survivors and the frontier.** Compute `Surv` and `M`; never select by prose or label.
+10. **Attack minimality.** Search outside the immediate weakening neighborhood and across rival carrier families. Record
    both defeated attacks and open attacks.
-10. **Adjudicate narrowly.** `REJECT`, `PARK`, `SURVIVED_NONMINIMAL`, `PROVISIONAL_MSS`, or `REOPEN`. A passing simulation
-    cannot assign its own admission status.
-11. **Emit an append-only receipt.** Include all scope hashes, negative results, frontier, ceiling, unresolved attacks, and
-    reopen triggers.
-12. **Only then consider a next rung.** Never jump because a later named structure is salient.
+11. **Adjudicate narrowly.** `REJECT`, `PARK`, `SURVIVED_NONMINIMAL`, `PROVISIONAL_MSS`, `REOPEN`,
+    or a typed `HOLD_*`. A passing simulation cannot assign its own admission status.
+12. **Emit an append-only receipt.** Include all scope hashes, gradient license/witness, transition decision, negative
+    results, frontier, ceiling, unresolved attacks, and reopen triggers.
+13. **Only then consider a next rung.** A fresh next-rung distinction must expose a fresh licensed gradient. Never jump
+    because a later named structure is salient.
 
 ## 7. What makes a next rung
 
-A next-rung demand `d` is admissible only if it names a load-bearing distinction that the current frontier cannot carry.
-For each surviving branch, search the minimal extensions that restore `d` and project back to the predecessor:
+A next-rung demand `d` is admissible only if it names a load-bearing distinction that the current frontier cannot carry
+**and** exposes a licensed intrinsic gradient `g_d` above the frozen tolerance. For each surviving branch, search the
+minimal extensions that couple to `g_d`, restore `d`, and project back to the predecessor:
 
 \[
 \mathfrak M_{r+1,t}=\operatorname{Min}_{\preceq}
-\{Y:\exists X\in\mathfrak M_{r,t},\;\pi:Y\to X,\;Y\models d\}.
+\{Y:\exists X\in\mathfrak M_{r,t},\;\pi:Y\to X,\;Y\models d,\;g_d(Y)>\varepsilon_d\}.
 \]
 
+- If `|g_d|\leq\varepsilon_d`, the correct next-rung decision is `HOLD_NO_GRADIENT`.
 - If a current frontier member already carries `d`, that branch does not lift.
 - If only some branches fail, prune or branch; do not lift the whole model.
 - If several incomparable lifts survive, retain all of them.
@@ -337,6 +368,14 @@ attack when applicability is uncertain.
     must fail closed.
 14. **HELD-OUT CONTACT:** distinguish compression/prediction on new probes or data from re-encoding the construction
     table.
+15. **GRADIENT-FREEZE:** freeze the update/source that creates the distinction asymmetry. The measured gradient must
+    collapse within the preregistered tolerance and the transition decision must become `HOLD_NO_GRADIENT`.
+16. **GRADIENT-CLOSURE:** satisfy the frozen obligation without changing irrelevant capacity. Its obligation-relative
+    gradient must vanish; a drive that persists after closure is mis-typed or externally maintained.
+17. **GRADIENT-INJECTION:** replace the intrinsic gradient with an imposed constant, reward, feedstock, or hand-authored
+    score. It must be rejected as a Ratchet drive even when it moves the candidate.
+18. **GRADIENT–OBLIGATION COUPLING:** erase, swap, or replace the frozen obligation. A claimed drive must change
+    accordingly; an unchanged gradient is unrelated and cannot authorize a tooth.
 
 ## 10. Status and receipt contract
 
@@ -344,7 +383,9 @@ Keep three status axes independent:
 
 ```text
 lifecycle_status : HYPOTHESIS | CANDIDATE | TESTED_SURVIVOR | SURVIVED_NONMINIMAL |
-                   PROVISIONAL_MSS | REOPENED | DEMOTED | PARKED | REJECTED | GRAVEYARD_KEEP
+                   PROVISIONAL_MSS | HOLD_NO_GRADIENT | HOLD_UNLICENSED_GRADIENT |
+                   HOLD_EXTRINSIC_DRIVE | HOLD_UNCOUPLED_GRADIENT |
+                   REOPENED | DEMOTED | PARKED | REJECTED | GRAVEYARD_KEEP
 evidence_grade   : none | adjudication_only | executable_diagnostic | independent_recomputation
 claim_ceiling    : source_defined | scratch_diagnostic | pass_local | ratchet_earned_provisional
 ```
@@ -361,6 +402,8 @@ candidate_grammar + hash
 weakening_grammar + hash
 probe/test/control battery + hash
 finite budget and resolution
+drive kind, license, functional, orientation, before/after potential, magnitude, and tolerance
+intrinsicness, obligation coupling, candidate responses, and transition decision
 candidate list, survivor list, computed minimal frontier
 weakness witnesses
 positive evidence and all negative results
@@ -399,6 +442,9 @@ following:
 - stores entropy and geometry as independent claim-bearing state variables;
 - claims “the weakest” without a finite candidate scope, witnessed weakening relation, and open-world caveat;
 - chooses one incomparable frontier member by narrative preference;
+- advances, admits a tooth, or opens a next rung without a licensed nonzero intrinsic obligation-coupled gradient;
+- calls an injected reward/resource/score an entropy gradient, or lets a gradient persist after the frozen demand closes;
+- installs Shannon, von Neumann, Umegaki, or any other named entropy formula at the root merely to manufacture a drive;
 - advances without a named lost distinction and predecessor projection;
 - treats a layer inventory as runtime order or canon;
 - treats a green simulation, known theorem, source quote, or model consensus as admission;
@@ -414,12 +460,13 @@ Run:
 ```text
 python3 ratchet/ratchet_kernel.py --self-test
 python3 ratchet/ratchet_kernel.py --validate ratchet/examples/process_fixture.json
+python3 ratchet/ratchet_kernel.py --validate ratchet/examples/no_gradient_hold_fixture.json
 python3 ratchet/ratchet_kernel.py --validate-ledger path/to/receipt_ledger.json
 python3 ratchet/bundle_ratchet_lint.py
 python3 run_all.py
 ```
 
-`run_all.py` includes the Ratchet integrity check. A green numerical harness means the shipped programs reproduced their
+`run_all.py` includes the Ratchet v0.3 integrity check. A green numerical harness means the shipped programs reproduced their
 registered outputs and the process front doors passed lint. It does not make the model, this spec, or any narrative canon.
 
 ## 14. GitHub provenance anchors used for this revision
@@ -428,12 +475,13 @@ Read-only audit against `Joshua-Eisenhart/Codex-Ratchet` at commit
 `87446663072c9c102609fe5f9abe9dee09056e31`:
 
 - `system_v6/foundations/mss_and_rung_climb_foundations_DRAFT_20260615.md`: already keeps `Min(Surv(C))` plural,
-  identifies the weakness order as installed, and warns that dynamics are supplied. v0.2 makes its open-world scope and
-  frontier certificate executable.
+  identifies the weakness order as installed, and warns that dynamics are supplied. v0.3 makes its open-world scope,
+  drive license, and frontier certificate executable.
 - `system_v5/docs/CONSTRAINT_SURFACE_AND_PROCESS.md`: establishes finite runs/samples, N01-sensitive process order,
-  anti-teleology, and the graveyard. v0.2 separates append-only kills from revisable model frontiers.
+  anti-teleology, and the graveyard. v0.3 separates append-only kills from revisable model frontiers and requires a
+  licensed drive for transition.
 - `system_v7/sims/distinguishability_quotient_floor_v0/audit_verdict.md`: a genuine finite density/Pauli quotient fixture
-  with a probe-erasure flip. v0.2 places it after the root because it begins with states, probes, and quotient closure.
+  with a probe-erasure flip. v0.3 places it after the root because it begins with states, probes, and quotient closure.
 - `system_v6/receipts/owner_doctrine_cellular_automata_ring_checkerboard_20260611.md` and the v0/v1/v3 audits: preserve the
   classical single-token, frozen-16, strict-local, open-chain, and finite-ring ceilings that motivate the CA bakeoff.
 
