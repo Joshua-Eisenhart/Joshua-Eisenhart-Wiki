@@ -8,6 +8,11 @@ import re
 import sys
 from pathlib import Path
 
+# self-locate: ensure THIS script's dir is importable regardless of how we are invoked
+# (the harness runs `python ratchet/bundle_ratchet_lint.py` under safe-path mode, where the
+#  script's own directory is NOT auto-added to sys.path — so add it explicitly).
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
 from ratchet_kernel import run_self_test
 
 
@@ -21,7 +26,7 @@ REQUIRED_TEXT = {
         "MSS is an anytime frontier",
         "The evidence ratchets. The ontology does not become permanently stronger",
     ],
-    "RATCHET_V0_2_UPGRADE_REPORT.md": [
+    "archive/RATCHET_V0_2_UPGRADE_REPORT.md": [
         "Scientific claim ceiling: process hardening / scratch diagnostic",
         "no bundle-wide scientific frontier has yet been admitted under v0.2",
     ],
@@ -34,15 +39,15 @@ REQUIRED_TEXT = {
         "RATCHET_SPEC.md",
         SCOPE_MARKER,
     ],
-    "ORIENTATION.md": [SCOPE_MARKER],
+    "archive/ORIENTATION.md": [SCOPE_MARKER],
     "MODEL_LAYER_LEDGER.md": [SCOPE_MARKER],
     "STATE_OF_THE_MODEL.md": [SCOPE_MARKER],
-    "README_UNIFIED_BUNDLE.md": [SCOPE_MARKER],
-    "UNIFIED_LENS_MAP.md": ["RATCHET v0.2 scope correction"],
-    "FOUNDATIONS_REAUDIT.md": ["RATCHET v0.2 scope correction"],
-    "V7_FOUNDATION_SIMS_CROSSCHECK.md": ["RATCHET v0.2 scope correction"],
-    "REPO_AUDIT_AND_RESOLUTIONS.md": ["RATCHET v0.2 scope correction"],
-    "README_FOR_THREAD.md": ["Superseded process front door"],
+    "archive/README_UNIFIED_BUNDLE.md": [SCOPE_MARKER],
+    "docs/UNIFIED_LENS_MAP.md": ["RATCHET v0.2 scope correction"],
+    "archive/FOUNDATIONS_REAUDIT.md": ["RATCHET v0.2 scope correction"],
+    "archive/V7_FOUNDATION_SIMS_CROSSCHECK.md": ["RATCHET v0.2 scope correction"],
+    "archive/REPO_AUDIT_AND_RESOLUTIONS.md": ["RATCHET v0.2 scope correction"],
+    "archive/README_FOR_THREAD.md": ["Superseded process front door"],
     "LAPTOP_README.md": ["Ratchet v0.2 integrity check"],
     "spec_and_reports/CONSTRAINT_CORE_FORMAL_SPEC.md": ["RATCHET v0.2 scope correction"],
     "spec_and_reports/PURE_MATH_CORE.md": ["RATCHET v0.2 scope correction"],
@@ -70,13 +75,13 @@ REQUIRED_TEXT = {
 
 FORBIDDEN_SCAN_FILES = {
     "RATCHET_SPEC.md",
-    "RATCHET_V0_2_UPGRADE_REPORT.md",
+    "archive/RATCHET_V0_2_UPGRADE_REPORT.md",
     "00_START_HERE.md",
     "CLAUDE.md",
-    "ORIENTATION.md",
+    "archive/ORIENTATION.md",
     "STATE_OF_THE_MODEL.md",
-    "README_UNIFIED_BUNDLE.md",
-    "UNIFIED_LENS_MAP.md",
+    "archive/README_UNIFIED_BUNDLE.md",
+    "docs/UNIFIED_LENS_MAP.md",
     "generate_bundle_docs.py",
     "docs/BUNDLE_GUIDE.md",
     "docs/MATH_INVENTORY.md",
@@ -124,6 +129,19 @@ def main() -> int:
                 json.load(handle)
         except (OSError, json.JSONDecodeError) as exc:
             errors.append(f"invalid JSON {relative}: {exc}")
+
+    # anti-sprawl guard: the top level must stay small. Only these loose .md files may sit at ROOT;
+    # any other doc belongs in docs/ (indexes/maps), archive/ (superseded/reports), or a topic folder.
+    ALLOWED_TOPLEVEL_MD = {
+        "00_START_HERE.md", "RATCHET_SPEC.md", "CLAUDE.md", "LAPTOP_README.md",
+        "MODEL_LAYER_LEDGER.md", "CHANGELOG_HARDENING.md", "STATE_OF_THE_MODEL.md",
+    }
+    for entry in sorted(ROOT.glob("*.md")):
+        if entry.name not in ALLOWED_TOPLEVEL_MD:
+            errors.append(
+                f"top-level sprawl: {entry.name} must live in docs/ (index/map), archive/ (superseded/report), "
+                f"or a topic folder — the top level is a small fixed set (see 00_START_HERE §5e)"
+            )
 
     for failure in run_self_test():
         errors.append(f"Ratchet kernel self-test: {failure}")
