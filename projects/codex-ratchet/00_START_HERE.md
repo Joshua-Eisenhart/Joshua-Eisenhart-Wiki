@@ -5,21 +5,23 @@ unless a scoped Ratchet receipt says otherwise._
 
 > If you can read only one file, read this one. If you can read five, read the five in §6.
 > **Do not import project jargon as math.** Sims are pure math; a rosetta layer adds labels afterward.
-> **THE ENFORCEMENT SURFACE is `RATCHET_SPEC.md`** — the high-temperature exploration loop, strict gate,
-> provisional MSS semantics, gradient digging, receipts, and mandatory continuing dig queue. This START_HERE orients;
+> **THE ENFORCEMENT SURFACE is `RATCHET_SPEC.md`** — the high-temperature exploration loop, strict admission,
+> provisional MSS semantics, entropy–geometry coface gradients, mass candidate populations, competing gate boundaries,
+> orders and decompositions, receipts, and an unordered continuing dig pool. This START_HERE orients;
 > RATCHET_SPEC governs.
 
 ---
 
-<!--LIVE_HARNESS-->**Harness now: 146 pass / 0 fail / 0 skip -- green=True** (stamped 2026-07-11 06:39 UTC)<!--/LIVE_HARNESS-->
+<!--LIVE_HARNESS-->**Harness now: 146 pass / 0 fail / 0 skip -- green=True** (stamped 2026-07-11 07:21 UTC)<!--/LIVE_HARNESS-->
 
-> **RATCHET_V0_4_WORKING_PROCESS:** `RATCHET_SPEC.md` v0.4 supersedes every older process description in this
-> bundle. v0.3 is specifically rejected as an admission validator that did not run the Ratchet. Old numerical receipts
+> **RATCHET_V0_5_ORDER_OPEN_PROCESS:** `RATCHET_SPEC.md` v0.5 supersedes every older process description in this
+> bundle. Gate order and gate decomposition are proposal populations; a serialized list is not a ladder. Old numerical receipts
 > remain data at their stated ceilings, but older statements that place objects,
 > equivalence, finite support, density matrices, entropy, geometry, Hilbert space, or CA at the root are withdrawn.
 > Likewise, `EARNED` in a legacy component ledger means “realized under that installed fixture,” not globally forced or
-> permanently minimal. **The gradient is the drive for a tooth, but a missing current witness triggers more gradient,
-> probe, constraint, and basin digging—not a terminal HOLD. Explore freely; admit strictly.** Run
+> permanently minimal. **The entropy–geometry coface gradient is the drive for a tooth, but a missing current witness
+> triggers more gradient, probe, constraint, boundary, order, and basin digging—not a terminal HOLD. Explore freely;
+> admit strictly.** The current process result has **scientific manifold layers admitted: 0**. Run
 > `python3 ratchet/ratchet_engine.py --self-test` and `python3 ratchet/bundle_ratchet_lint.py`.
 
 ## 1. What this is (three sentences)
@@ -45,7 +47,7 @@ The process has distinct functions that must not be collapsed:
 - **MSS = weakest tested adequate response**;
 - **claim-specific controls = strict permission gate plus anti-bias flip**;
 - **append-only evidence = pawl/memory**;
-- **dig queue = mandatory next discriminator and reopening work**.
+- **dig pool = unordered reopening proposals, with authored seeds separated from run-derived questions**.
 
 If no proposed gradient survives, no tooth is admitted, but the engine must expand functionals, probes, histories,
 carriers, resolutions, negatives, and weakness orders. It reports `UNRESOLVED_GATE__DIG_CONTINUES`, not global flatness.
@@ -90,7 +92,8 @@ NOT canon.** (Owner, verbatim: "the entire wiki isnt canon. it is just hypothesi
 ratchet: a candidate becomes canon only after **wide exploration + hostile negatives that genuinely fire + conservative
 admission** (§4). Consequences a fresh reader MUST obey:
 - Do **NOT** make canon out of a vague message, a doc, or half a spec. A doc stating a structure is a *proposal to the ratchet*, not a result.
-- Do **NOT** read a doc, then leap ahead and build a sim disconnected from the climb. The sims exist to RUN THE RATCHET IN ORDER; that is how things get earned.
+- Do **NOT** read a doc, then leap ahead and build a sim disconnected from the active distinctions. Sims feed competing
+  Ratchet schedules; neither their filename order nor a proposed climb order is admitted beforehand.
 - A builder's own `all_pass`/verdict prose is an INPUT TO AUDIT, never authority. **Trust the result-JSON over any verdict text.** A run may promote NOTHING by itself.
 - A Claude-Science zip is not "read" because it is listed — you must index it, extract the sources you used into a manifest, and cite which claims came from where. If you cannot establish live repo state, say so.
 - Label every source you touch: `owner source | working reference | scratch receipt | audit | conflict`. Provenance first, then falsification — never narrate a desired final architecture as if it were built.
@@ -100,8 +103,8 @@ Two processes stay active at every gate (this is what the sims + panel implement
 - **A — Explorer/Defense:** generate many legitimate mathematical variants at the gate.
 - **B — Prosecutor/Strict-gate:** assume every candidate is hacking admission; reject jargon, premature structure, fake proof,
   missing negatives, or name/math mismatch. A candidate survives only when A is mathematically legitimate and B cannot kill it.
-Before either lane can acquire a tooth, a separate drive check must witness a licensed intrinsic gradient coupled to the
-frozen obligation. Flat, injected, and obligation-independent gradients produce `HOLD`.
+Before either lane can acquire a tooth, a drive check must witness a licensed gradient coupled to the active obligation.
+Flat, injected, and obligation-independent gradients are killed; an unresolved gate returns to the open dig pool.
 The cross-family LLM panel (Gemini/Grok/Qwen/GLM) is an ADVISORY prosecutor — it NEVER gates; z3+cvc5 and the running sims gate.
 
 ---
@@ -140,7 +143,9 @@ The Ratchet builds a provisional receipt DAG in the order constraints bind; it n
 
 ### 5c. What is built and running at fixture-local ceilings
 - **Co-ratchet runs:** `coupled_coratchet_dualloop_sim` (cooling S→0 Landauer / heating S→1; left−right entropy flux +0.31 sign-consistent over 200 probes; z3=cvc5=2 chiralities, 16 stages). `coratchet_depth_ladder_from_foundations` forces depth = 4 rungs to the substage floor (R5 micro-realizations free).
-- **Manifold spine L1–L5** (build-ladder) programmed-checks pass (pedagogical realization, not Ratchet admission — see §"reported fixture spine" caveat above). A v0.4 attempt to re-audit L5 through the working engine was itself **audit-killed as tautological** (see run-list item 4 below); nested-shell-vs-scalar-stratum at L5 is an OPEN DIG, not a settled demotion. **Surface identity** (entropy Hessian = BKM metric, same tensor, 5e-8; deformed control separable) SMT-confirmed. **Access law** (8/8 partition; non-8/8 UNSAT) z3+cvc5 proven.
+- **Manifold build-ladder L1–L5:** its programmed fixture checks run, including the BKM/Hessian and access-law checks.
+  They are source evidence and installed mathematics, not v0.5 Ratchet admission. The prior L5 scalar-stratum demotion
+  was killed as answer-key reuse; the manifold remains unratcheted scientifically.
 - **Three-level floor (UP-144):** QIT↔reaction-network unification is vacuous at d=2, non-generic at d=3 — an independent dimensional threshold.
 - **HONEST GAP:** the Axis-0 four-way sign doctrine (Ne/Ni positive, Se/Si negative) is **NOT realized** at density level — only the Ni terrains go negative (dS: Ni −0.56; Se +0.03, Ne +0.05, Si +0.04). Open rung.
 
@@ -157,17 +162,14 @@ undecided; keep both readings and submit them to the Ratchet rather than collaps
 | **What is Axis-3?** Canon spec says Type-1/Type-2 engine split; working scaffold says fiber/base loop; other docs say chirality or flux. | **RESOLVED (placement) + LIVE FORK (which readout):** Axis-3 is the **inner/outer (fiber/base) loop** — strongest current math. Type-1/Type-2, L/R chirality, and IN/OUT flux are kept as live ALTERNATIVE readouts, not overwrites. **Flux is GEOMETRY on the manifold, NOT an axis** (owner pulled geometry out of the 0–6 axes; the old "flux = Axis-3" was the mistake). |
 | **Is entropy the primitive, a downstream readout on geometry, or co-equal with geometry—and what drives the carve?** | **OWNER/PROCESS POSITION:** the ONLY primitive is **constrained distinguishability**. A surviving distinction/entropy gradient is the **DRIVE** for a tooth, but its representation is explored rather than preinstalled. No current witness means DIG, not terminal absence. Entropy and geometry are **BOTH co-equal VIEWS** of the organized driven surface, recomputed together after every carve. The "Hess S = BKM metric" identity is one late installed QIT form, not the root or a global uniqueness claim. |
 | **The "64" means different things in different docs.** | **RESOLVED (three-layer split, do not conflate):** live-runtime 64 = 2 engines × 8 terrains × 4 operators; chart-atlas 64 = 8×8 index surface (16 starred); hexagram 64 = fenced rosetta overlay. Three distinct surfaces, same number. |
-| **Two layer numberings** (0–15 weakest-structure ladder vs 0–26 GCM stack vs the 14-layer canon in §5). | **LIVE FORK (needs crosswalk):** all are readings of the SAME climb; §5 uses the reconciled 14-layer canon. Divergences are preserved as noted forks, not collapsed. |
+| **Two layer numberings** (0–15 weakest-structure ladder vs 0–26 GCM stack vs the 14-layer inventory in §5). | **LIVE FORK:** all are proposed readings. Their order, missing substeps, fusions, and splits remain schedule hypotheses; none is the reconciled canon. |
 
 ## 5e. BUNDLE MAP (where everything lives — the top level is deliberately small)
-WHICH ESTATE IS THIS? See `ESTATE_REGISTRY.yaml` (top level). This zip = the **constraint_core_v7** science-packet
-estate (status: hypothesis_and_scoped_evidence). If any doc's prose disagrees about "which version is current," the
-registry wins. Do not canonize v4/v5/v6 language — those are working-reference layers, not this estate.
 ```
 TOP LEVEL = only what you run or read first:
   00_START_HERE.md        this file (entry point)
-  ESTATE_REGISTRY.yaml    which estate/tool is current + tool-status vocabulary (mirrors the repo's canonical copy)
-  RATCHET_SPEC.md         the v0.4 working DIG→GATE→RECEIPT process authority (governs)
+  RATCHET_SPEC.md         the v0.5 order-open, gate-boundary-open process authority (governs)
+  ESTATE_REGISTRY.yaml    routes repo/wiki/runtime estates; it admits no mathematics or schedule
   run_all.py              the harness (145 registered sims; run it)
   requirements.txt        deps;  LAPTOP_RUN.sh  one-command laptop run
   generate_bundle_docs.py regenerates docs/ + manifest from live state
@@ -186,20 +188,14 @@ FOLDERS:
 
 ## 6. Read order for a fresh system (top level is small by design; follow this, do not triage folders blind)
 1. **THIS FILE** (00_START_HERE.md).
-2. `RATCHET_SPEC.md` — the v0.4 working process authority: expansive DIG, strict GATE, provisional MSS, receipts, and
-   continuing discriminators.
-3. `ratchet/runs/root_history_run_v0_4.json` — the complete executed two-gate trace; inspect this before claims that the
-   Ratchet ran.
-4. `ratchet/runs/manifold_L5_reaudit_v0_4.json` — a process-DEMO of the demotion mechanism ONLY. Its positive verdict
-   (nested-shell geometry nonminimal to a scalar stratum) was **WITHDRAWN as evidence** by a fresh audit
-   (`ratchet/runs/L5_REAUDIT_AUDIT_KILLED_NOTE.md`): the candidates, including nested_shell_geometry itself, all compute
-   the same `abs(cos(2·angle))` the ground-truth generator uses, so the "demotion" compared assumption-counts over
-   numerically identical predictions. What survived: the negative controls, the orientation counter-surface, determinism.
-   A real L5 re-audit needs candidates that are not the answer key restated — this is an OPEN DIG.
+2. `RATCHET_SPEC.md` — the v0.5 authority: gate order, gate decomposition, weakness, gradients, and candidates remain
+   proposal populations.
+3. `ratchet/runs/root_order_open_run_v0_5.json` — the executed 32,400-proposal, 75-schedule trace.
+4. `ratchet/runs/L5_REAUDIT_AUDIT_KILLED_NOTE.md` — why the v0.4 L5 demotion is not evidence.
 5. `ratchet/GRADIENT_DRIVE.md` — gradient generation, gate-specific controls, and nonterminal missing-witness semantics.
 6. `ratchet/README.md` + `ratchet/CURRENT_FRONTIER.md` + `ratchet/CA_MSS_RESEARCH_PROGRAM.md` — commands, exact earning
    boundary, and CA/ring-checkerboard expansion lane.
-7. `archive/RATCHET_V0_4_WORKING_PROCESS_UPGRADE_REPORT.md` — correction, executed results, and validation record.
+7. `archive/RATCHET_V0_5_ORDER_OPEN_UPGRADE_REPORT.md` — correction, executed results, and validation record.
 8. `docs/BUNDLE_GUIDE.md` — project, method, live harness state.
 9. `reference_docs_from_josh/physics_program/manifold_layer_order_and_completeness_contract_20260614.md` — the source-declared 14-layer inventory + per-layer checklist (Part B).
 10. `source_docs/P1_must_read/` — the owner's flagged hypothesis/source set.
