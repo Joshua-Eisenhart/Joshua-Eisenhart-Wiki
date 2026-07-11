@@ -5,27 +5,29 @@ unless a scoped Ratchet receipt says otherwise._
 
 > If you can read only one file, read this one. If you can read five, read the five in §6.
 > **Do not import project jargon as math.** Sims are pure math; a rosetta layer adds labels afterward.
-> **THE ENFORCEMENT SURFACE is `RATCHET_SPEC.md`** — the hard boot law, the compact principle, MSS-defeasibility, the loop,
-> the three status axes, and the fixed control roster, consolidated in one place. This START_HERE orients; RATCHET_SPEC governs.
+> **THE ENFORCEMENT SURFACE is `RATCHET_SPEC.md`** — the high-temperature exploration loop, strict gate,
+> provisional MSS semantics, gradient digging, receipts, and mandatory continuing dig queue. This START_HERE orients;
+> RATCHET_SPEC governs.
 
 ---
 
-<!--LIVE_HARNESS-->**Harness now: 146 pass / 0 fail / 0 skip -- green=True** (stamped 2026-07-11 04:59 UTC)<!--/LIVE_HARNESS-->
+<!--LIVE_HARNESS-->**Harness now: 146 pass / 0 fail / 0 skip -- green=True** (stamped 2026-07-11 06:17 UTC)<!--/LIVE_HARNESS-->
 
-> **RATCHET_V0_3_GRADIENT_DRIVE:** `RATCHET_SPEC.md` v0.3 supersedes every older process description in this
-> bundle. Old numerical receipts remain data at their stated ceilings, but older statements that place objects,
+> **RATCHET_V0_4_WORKING_PROCESS:** `RATCHET_SPEC.md` v0.4 supersedes every older process description in this
+> bundle. v0.3 is specifically rejected as an admission validator that did not run the Ratchet. Old numerical receipts
+> remain data at their stated ceilings, but older statements that place objects,
 > equivalence, finite support, density matrices, entropy, geometry, Hilbert space, or CA at the root are withdrawn.
 > Likewise, `EARNED` in a legacy component ledger means “realized under that installed fixture,” not globally forced or
-> permanently minimal. **The new correction is equally binding: the gradient is the drive. No licensed intrinsic
-> obligation-coupled gradient means `HOLD_NO_GRADIENT`, not a Ratchet tooth.** The machine check is
-> `python3 ratchet/bundle_ratchet_lint.py`.
+> permanently minimal. **The gradient is the drive for a tooth, but a missing current witness triggers more gradient,
+> probe, constraint, and basin digging—not a terminal HOLD. Explore freely; admit strictly.** Run
+> `python3 ratchet/ratchet_engine.py --self-test` and `python3 ratchet/bundle_ratchet_lint.py`.
 
 ## 1. What this is (three sentences)
 This project explores CREATION, MATHEMATICS, PHYSICS, PERCEPTION and INTELLIGENCE through **one finite admissibility
 Ratchet**. `ROOT = CONSTRAINED_DISTINGUISHABILITY`: no object, equivalence relation, support, entropy, geometry, carrier,
-or algebra is primitive. A derived, licensed **distinction gradient** drives the process; once an entropy type is earned,
-the same drive is a typed entropy gradient. **No gradient, no tooth.** Under **F01 (finitude)** and **N01
-(noncommutation)**, MSS restricts any driven move to the provisional frontier of currently undefeated minimal survivors;
+or algebra is primitive. The Explorer generates rival distinction/entropy gradients at each gate; a surviving gradient
+can drive a tooth, while no surviving proposal sends the process back to DIG. Under **F01 (finitude)** and **N01
+(noncommutation)**, MSS restricts admission to the provisional MSS frontier of currently undefeated minimal survivors;
 evidence history is append-only, while every model rung remains defeasible when a weaker survivor or stronger negative
 appears. T01 and every other lift must be earned at the rung where a gradient-backed load-bearing demand requires it.
 
@@ -36,15 +38,17 @@ pre-given object `X` or equivalence `~`. Stable objects, quotients, geometry, en
 run-surfaces are later candidates. At each tick it recomputes survivors, the witnessed weakness relation, the provisional
 minimal frontier, controls, open attacks, receipt, ledger, and any licensed co-views.
 
-The process has four distinct functions that must not be collapsed:
+The process has distinct functions that must not be collapsed:
 
-- **gradient = drive/reason/direction**;
+- **Explorer = high-temperature candidate, gradient, control, and countermodel generation**;
+- **gradient survivor = drive/reason/direction for this tooth**;
 - **MSS = weakest tested adequate response**;
-- **controls = permission gate**;
-- **append-only evidence = pawl/memory**.
+- **claim-specific controls = strict permission gate plus anti-bias flip**;
+- **append-only evidence = pawl/memory**;
+- **dig queue = mandatory next discriminator and reopening work**.
 
-If the admissible gradient is zero, unlicensed, injected, or unrelated to the frozen obligation, exploration can continue
-but the transition is `HOLD`. MSS does not manufacture motion from a flat surface.
+If no proposed gradient survives, no tooth is admitted, but the engine must expand functionals, probes, histories,
+carriers, resolutions, negatives, and weakness orders. It reports `UNRESOLVED_GATE__DIG_CONTINUES`, not global flatness.
 
 **PRIORITY — get this exactly right:** **Entropy AND geometry are BOTH co-equal VIEWS** of one organized
 constrained-distinguishability process—neither runs on the other. They are recomputed together from the same later earned
@@ -136,7 +140,7 @@ The Ratchet builds a provisional receipt DAG in the order constraints bind; it n
 
 ### 5c. What is built and running at fixture-local ceilings
 - **Co-ratchet runs:** `coupled_coratchet_dualloop_sim` (cooling S→0 Landauer / heating S→1; left−right entropy flux +0.31 sign-consistent over 200 probes; z3=cvc5=2 chiralities, 16 stages). `coratchet_depth_ladder_from_foundations` forces depth = 4 rungs to the substage floor (R5 micro-realizations free).
-- **Manifold spine L1–L5** (build-ladder) all earned. **Surface identity** (entropy Hessian = BKM metric, same tensor, 5e-8; deformed control separable) SMT-confirmed. **Access law** (8/8 partition; non-8/8 UNSAT) z3+cvc5 proven.
+- **Manifold spine L1–L5** (build-ladder) earned, with one v0.4 re-audit correction: at **L5**, the weakest survivor is a **one-dimensional scalar stratum** (schmidt-radius / negativity / purity / entropy, mutually equivalent), and **nested-shell geometry is DEMOTED to SURVIVES-BUT-NONMINIMAL** (an oriented-connection counter-surface still favours stronger structure where it is genuinely needed, so the gate is not reject-by-construction). L5's numerical sweep + L7 Berry / L8 Chern *mathematics* are preserved; their *scientific* admission reopens (`ratchet/runs/manifold_L5_reaudit_v0_4.json`). **Surface identity** (entropy Hessian = BKM metric, same tensor, 5e-8; deformed control separable) SMT-confirmed. **Access law** (8/8 partition; non-8/8 UNSAT) z3+cvc5 proven.
 - **Three-level floor (UP-144):** QIT↔reaction-network unification is vacuous at d=2, non-generic at d=3 — an independent dimensional threshold.
 - **HONEST GAP:** the Axis-0 four-way sign doctrine (Ne/Ni positive, Se/Si negative) is **NOT realized** at density level — only the Ni terrains go negative (dS: Ni −0.56; Se +0.03, Ne +0.05, Si +0.04). Open rung.
 
@@ -151,7 +155,7 @@ undecided; keep both readings and submit them to the Ratchet rather than collaps
 |---|---|
 | **Are the axes primitive coordinates, or readouts?** Early geometry docs forbid coordinates/metrics; later scaffolds open with ℂ², S³, Hopf, a metric. | **RESOLVED:** axes are **READOUTS** `A_i: M(C)→V_i` of the geometry, never primitive coordinates. The manifold (ℂ²/Hopf/…) is built FIRST as geometry on M(C); the axes measure it. Source: axes-0-6 atlas ("axes are readout/coordinate families… not primitive labels"). |
 | **What is Axis-3?** Canon spec says Type-1/Type-2 engine split; working scaffold says fiber/base loop; other docs say chirality or flux. | **RESOLVED (placement) + LIVE FORK (which readout):** Axis-3 is the **inner/outer (fiber/base) loop** — strongest current math. Type-1/Type-2, L/R chirality, and IN/OUT flux are kept as live ALTERNATIVE readouts, not overwrites. **Flux is GEOMETRY on the manifold, NOT an axis** (owner pulled geometry out of the 0–6 axes; the old "flux = Axis-3" was the mistake). |
-| **Is entropy the primitive, a downstream readout on geometry, or co-equal with geometry—and what drives the carve?** | **OWNER/PROCESS POSITION:** the ONLY primitive is **constrained distinguishability**. Its licensed nonuniformity/gradient is the derived **DRIVE**; no gradient means no Ratchet transition. Entropy and geometry are **BOTH co-equal VIEWS** of the organized driven surface (entropy = distinctions remaining/erased; geometry = relation-shape among distinctions), recomputed together after every carve. A named entropy formula is not primitive; before one is licensed the receipt says distinction-potential gradient. The "Hess S = BKM metric" identity is one late installed QIT form, not the root or a global uniqueness claim. |
+| **Is entropy the primitive, a downstream readout on geometry, or co-equal with geometry—and what drives the carve?** | **OWNER/PROCESS POSITION:** the ONLY primitive is **constrained distinguishability**. A surviving distinction/entropy gradient is the **DRIVE** for a tooth, but its representation is explored rather than preinstalled. No current witness means DIG, not terminal absence. Entropy and geometry are **BOTH co-equal VIEWS** of the organized driven surface, recomputed together after every carve. The "Hess S = BKM metric" identity is one late installed QIT form, not the root or a global uniqueness claim. |
 | **The "64" means different things in different docs.** | **RESOLVED (three-layer split, do not conflate):** live-runtime 64 = 2 engines × 8 terrains × 4 operators; chart-atlas 64 = 8×8 index surface (16 starred); hexagram 64 = fenced rosetta overlay. Three distinct surfaces, same number. |
 | **Two layer numberings** (0–15 weakest-structure ladder vs 0–26 GCM stack vs the 14-layer canon in §5). | **LIVE FORK (needs crosswalk):** all are readings of the SAME climb; §5 uses the reconciled 14-layer canon. Divergences are preserved as noted forks, not collapsed. |
 
@@ -162,7 +166,7 @@ registry wins. Do not canonize v4/v5/v6 language — those are working-reference
 ```
 TOP LEVEL = only what you run or read first:
   00_START_HERE.md        this file (entry point)
-  RATCHET_SPEC.md         the v0.3 gradient-driven process authority (governs)
+  RATCHET_SPEC.md         the v0.4 working DIG→GATE→RECEIPT process authority (governs)
   ESTATE_REGISTRY.yaml    which estate/tool is current + tool-status vocabulary (mirrors the repo's canonical copy)
   run_all.py              the harness (145 registered sims; run it)
   requirements.txt        deps;  LAPTOP_RUN.sh  one-command laptop run
@@ -170,7 +174,7 @@ TOP LEVEL = only what you run or read first:
   CLAUDE.md               agent contract;  bundle_manifest.json  machine index
   MODEL_LAYER_LEDGER.md / CHANGELOG_HARDENING.md / STATE_OF_THE_MODEL.md   living append-only records
 FOLDERS:
-  ratchet/                runnable process: kernel, gradient-drive law, lint, weakening grammar, CA bakeoff, frontier
+  ratchet/                runnable engine, executed run, packet, gradient law, schema, lint, CA bakeoff, frontier
   sims_and_scripts/       every registered sim (the harness runs these)
   engines/                jax_engine*.py (real substrate engines);  substrate_kernels/  np + julia kernels
   docs/                   generated guide/inventory/registry + UNIFIED_LENS_MAP, PHYSICS_INFO_BRIDGE_INDEX, BRAVE_THREAD disposition
@@ -182,23 +186,27 @@ FOLDERS:
 
 ## 6. Read order for a fresh system (top level is small by design; follow this, do not triage folders blind)
 1. **THIS FILE** (00_START_HERE.md).
-2. `RATCHET_SPEC.md` — the v0.3 process authority: constrained-distinguishability root, licensed gradient drive,
-   provisional MSS frontier, receipts, controls, reopening, and next-rung law.
-3. `ratchet/GRADIENT_DRIVE.md` — the exact distinction between root, drive, MSS selector, permission gate, and pawl.
-4. `ratchet/README.md` + `ratchet/CURRENT_FRONTIER.md` + `ratchet/CA_MSS_RESEARCH_PROGRAM.md` — executable validator,
-   honest migration boundary, and bounded CA/ring-checkerboard bakeoff.
-5. `archive/RATCHET_V0_3_GRADIENT_UPGRADE_REPORT.md` — the gradient-drive correction and validation record.
-6. `docs/BUNDLE_GUIDE.md` — project, method, live harness state.
-7. `reference_docs_from_josh/physics_program/manifold_layer_order_and_completeness_contract_20260614.md` — the source-declared 14-layer inventory + per-layer checklist (Part B).
-8. `source_docs/P1_must_read/` — the owner's flagged hypothesis/source set.
-9. `docs/UP_REGISTRY.md` + `docs/WITHDRAWN_AND_FAILED.md` — every historical rung and withdrawal.
+2. `RATCHET_SPEC.md` — the v0.4 working process authority: expansive DIG, strict GATE, provisional MSS, receipts, and
+   continuing discriminators.
+3. `ratchet/runs/root_history_run_v0_4.json` — the complete executed two-gate trace; inspect this before claims that the
+   Ratchet ran.
+4. `ratchet/runs/manifold_L5_reaudit_v0_4.json` — actual L5/L7/L8 evidence re-ratcheted; nested-shell geometry survives
+   but is nonminimal to a scalar stratum frontier.
+5. `ratchet/GRADIENT_DRIVE.md` — gradient generation, gate-specific controls, and nonterminal missing-witness semantics.
+6. `ratchet/README.md` + `ratchet/CURRENT_FRONTIER.md` + `ratchet/CA_MSS_RESEARCH_PROGRAM.md` — commands, exact earning
+   boundary, and CA/ring-checkerboard expansion lane.
+7. `archive/RATCHET_V0_4_WORKING_PROCESS_UPGRADE_REPORT.md` — correction, executed results, and validation record.
+8. `docs/BUNDLE_GUIDE.md` — project, method, live harness state.
+9. `reference_docs_from_josh/physics_program/manifold_layer_order_and_completeness_contract_20260614.md` — the source-declared 14-layer inventory + per-layer checklist (Part B).
+10. `source_docs/P1_must_read/` — the owner's flagged hypothesis/source set.
+11. `docs/UP_REGISTRY.md` + `docs/WITHDRAWN_AND_FAILED.md` — every historical rung and withdrawal.
 Then: `docs/MATH_INVENTORY.md`, `docs/TOOLS_AND_REPOS.md`, `MODEL_LAYER_LEDGER.md` (append-only rung record).
 
 ## 7. Self-check — you have understood this bundle iff you can answer, from the docs, WITHOUT jargon-as-math:
 1. What is the single primitive, and what is absent from it? (Constrained distinguishability; no pre-given object,
    equivalence, quotient, support, entropy, geometry, carrier, or CA.)
-2. What supplies the drive, and what must happen when no licensed gradient exists? (An intrinsic, obligation-coupled,
-   finite distinction gradient; `HOLD_NO_GRADIENT`, with no tooth or next rung.)
+2. What supplies the drive, and what happens when no proposed gradient survives? (A gate-surviving distinction/entropy
+   gradient drives a tooth; the engine admits no tooth and continues gradient/probe/carrier digging.)
 3. Name the two root constraints and the emergent third. (F01 finitude, N01 noncommutation; T01 nonassociativity.)
 4. List the 14 source-declared manifold candidates and explain why the inventory is not Ratchet order or canon. (§5.)
 5. Name the three sim engines and state what numpy may and may not do. (Julia/JAX/PyTorch; numpy = control lane only, never gates.)
