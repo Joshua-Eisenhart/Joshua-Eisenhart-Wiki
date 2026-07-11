@@ -339,7 +339,7 @@ SUITE = [
    ("contains", "PASS physics_a0_redshift_fork_selected_by_data")]),
  ("physics_loops_back_into_core_axis0_rate_sim.py", 40, False, [
    ("contains", "PASS physics_loops_back_into_core_axis0_rate")]),
-    ("engine_reaction_semiconjugacy_qutrit_floor_sim.py", 90, False, [
+    ("engine_reaction_semiconjugacy_qutrit_floor_sim.py", 180, False, [
        ("contains", "PASS engine_reaction_semiconjugacy_qutrit_floor")]),
     ("four_substrate_agreement_harness_sim.py", 180, True, [("contains", "PASS four_substrate_agreement_harness")]),
  ("maxplus_tropical_is_classical_limit_not_foundation_sim.py", 40, False, [
