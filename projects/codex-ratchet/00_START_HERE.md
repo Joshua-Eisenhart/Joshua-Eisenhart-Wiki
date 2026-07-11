@@ -10,7 +10,7 @@ unless a scoped Ratchet receipt says otherwise._
 
 ---
 
-<!--LIVE_HARNESS-->**Harness now: 145 pass / 0 fail / 0 skip -- green=True** (stamped 2026-07-11 01:23 UTC)<!--/LIVE_HARNESS-->
+<!--LIVE_HARNESS-->**Harness now: 146 pass / 0 fail / 0 skip -- green=True** (stamped 2026-07-11 02:12 UTC)<!--/LIVE_HARNESS-->
 
 > **RATCHET_V0_2_SCOPE_CORRECTION:** `RATCHET_SPEC.md` v0.2 supersedes every older process description in this
 > bundle. Old numerical receipts remain data at their stated ceilings, but older statements that place objects,
@@ -138,7 +138,28 @@ undecided; keep both readings and submit them to the Ratchet rather than collaps
 | **The "64" means different things in different docs.** | **RESOLVED (three-layer split, do not conflate):** live-runtime 64 = 2 engines × 8 terrains × 4 operators; chart-atlas 64 = 8×8 index surface (16 starred); hexagram 64 = fenced rosetta overlay. Three distinct surfaces, same number. |
 | **Two layer numberings** (0–15 weakest-structure ladder vs 0–26 GCM stack vs the 14-layer canon in §5). | **LIVE FORK (needs crosswalk):** all are readings of the SAME climb; §5 uses the reconciled 14-layer canon. Divergences are preserved as noted forks, not collapsed. |
 
-## 6. Read order for a fresh system (do NOT triage the 15 top-level .md files blind)
+## 5e. BUNDLE MAP (where everything lives — the top level is deliberately small)
+```
+TOP LEVEL = only what you run or read first:
+  00_START_HERE.md        this file (entry point)
+  RATCHET_SPEC.md         the v0.2 process authority (governs)
+  run_all.py              the harness (145 registered sims; run it)
+  requirements.txt        deps;  LAPTOP_RUN.sh  one-command laptop run
+  generate_bundle_docs.py regenerates docs/ + manifest from live state
+  CLAUDE.md               agent contract;  bundle_manifest.json  machine index
+  MODEL_LAYER_LEDGER.md / CHANGELOG_HARDENING.md / STATE_OF_THE_MODEL.md   living append-only records
+FOLDERS:
+  ratchet/                the runnable process: kernel (validator), lint, weakening grammar, CA bakeoff, frontier
+  sims_and_scripts/       every registered sim (the harness runs these)
+  engines/                jax_engine*.py (real substrate engines);  substrate_kernels/  np + julia kernels
+  docs/                   generated guide/inventory/registry + UNIFIED_LENS_MAP, PHYSICS_INFO_BRIDGE_INDEX, BRAVE_THREAD disposition
+  reference_docs_from_josh/  OWNER source docs (P1_must_read etc.) — hypothesis, highest provenance
+  source_docs/ reference_docs/ reference_docs_external_reviews/  supporting hypothesis corpora
+  spec_and_reports/       formal spec + pure-math core;  data_json/ figures/ inputs/ corrections/  supporting data
+  archive/                SUPERSEDED front doors + one-off reports (ORIENTATION, old READMEs, upgrade/audit reports) — provenance only
+```
+
+## 6. Read order for a fresh system (top level is small by design; follow this, do not triage folders blind)
 1. **THIS FILE** (00_START_HERE.md).
 2. `RATCHET_SPEC.md` — the v0.2 process authority: constrained-distinguishability root, provisional MSS frontier,
    receipts, controls, reopening, and next-rung law.
