@@ -1,297 +1,276 @@
-# THE RATCHET — WORKING PROCESS SPECIFICATION v0.4
+# THE RATCHET — ORDER-OPEN WORKING PROCESS SPECIFICATION v0.5
 
-_Current process authority. Updated 2026-07-10 after the v0.3 failure: v0.3 built a strict receipt validator but did
-not run proposal generation, discriminator construction, or iterative digging. It therefore did not constitute a
-Ratchet run. This specification supersedes its universal HOLD and control rules._
+_Current process authority, 2026-07-10. This specification supersedes v0.4. The v0.4 root-history loop remains a
+limited predecessor, but its fixed authored gate order, inflated carrier count, prewritten “next” queue, and L5
+answer-key re-audit do not survive the new audit boundary._
 
 ## 0. Compact law
 
-> **Root in constrained distinguishability. Explore freely at every strict gate. Let a witnessed gradient drive a
-> tooth. Admit only a provisional MSS frontier. Record every death. Turn every inconclusive gate into more digging.**
-
-The Ratchet has two independent settings that must never be collapsed:
+> **Root only in constrained distinguishability. Propose structures, gates, subgates, orders, gradients, weakness
+> relations, and controls freely. Execute finite populations. Admit only a packet-relative MSS antichain supported by
+> a witnessed entropy–geometry coface gradient. Preserve every alternative and death. Nothing about list order is
+> canon.**
 
 ```text
+ROOT = CONSTRAINED_DISTINGUISHABILITY
 EXPLORATION TEMPERATURE = HIGH
 ADMISSION TEMPERATURE   = LOW
 ```
 
-A strict gate does not license conservative proposal generation. It demands the opposite: broad candidates, alternative
-gradient/readout hypotheses, rival weakness orderings, negatives, carrier swaps, and controls designed to make both
-sides reachable. The gate is strict only when deciding what becomes a provisional tooth.
+Repositories, wiki pages, owner messages, equations, established mathematics, simulations, and model outputs are
+proposal and evidence reservoirs. Presence, age, repetition, salience, and a filename containing `canon` do not admit
+anything.
 
-The repositories, wiki, source documents, messages, mathematical theories, simulations, and model outputs are the
-variation reservoir. None is canon merely because it is present or salient.
+## 1. What is and is not installed
 
-## 1. Root and active search pressures
+At the root, an observation may constrain whether two finite presentations can remain distinguishable. Object,
+identity, equivalence, support, quotient, number, probability, entropy formula, geometry, carrier, cellular automaton,
+Hilbert space, manifold, gate, rung, and ladder are possible earned presentations. None is silently primitive.
 
-```text
-ROOT = CONSTRAINED_DISTINGUISHABILITY
-```
+The active owner pressures remain hypotheses under test:
 
-Objects, identity, equivalence, support, quotient, number, probability, entropy formula, geometry, carrier, cellular
-automaton, Hilbert space, and manifold are possible functional presentations. They are not installed at the root.
+- **F01 — finitude:** every execution has finite evidence, proposal population, histories, controls, and budget. This
+  does not prove a fundamental cell size or prevent later refinement.
+- **N01 — noncommutation:** order can be load-bearing, so order-sensitive candidates and schedule hypotheses must be
+  tested. N01 does not install a matrix algebra or make every pair noncommute.
+- **MSS — weakest current survivor:** minimality is always indexed by a finite candidate grammar, evidence surface,
+  weakness relation, and budget. A newly generated weaker survivor reopens the tooth.
+- **T01 — grouping pressure:** nonassociative candidates enter when grouping distinctions are live; their destination
+  is not preselected.
 
-The current owner-declared pressures are:
+Even this list is an active pressure set, not a completed axiomatization.
 
-- **F01 — finitude:** each executable run has finite observations, candidates, probes, histories, controls, and budget.
-  This does not prove a smallest grain or close future refinement.
-- **N01 — noncommutation:** order may change what distinctions survive, so history-sensitive candidates must be explored.
-  This does not preselect matrices, complex amplitudes, a ring, or any particular update algebra.
-- **MSS — admission meta-gate:** retain every currently minimal tested survivor. Minimality is indexed by the finite
-  candidate population, weakness relation, evidence, and budget. A weaker future candidate reopens the tooth.
-- **T01 — possible later grouping pressure:** nonassociativity is explored when grouping differences become
-  load-bearing; it is not installed earlier by destination preference.
-
-The update family, weakness ordering, probes, and readouts may themselves be installed hypotheses. A run records that
-status rather than laundering them into root axioms.
-
-## 2. What actually ratchets
-
-The process state contains four live stores:
+## 2. The state that ratchets
 
 ```text
-variation_pool   generated proposals, rival views, functionals, controls, countermodels
-tested_frontier  current finite minimal-survivor antichain
-evidence_ledger  append-only results, deaths, projections, residuals, provenance
-dig_queue        unanswered discriminators and new search operators
+variation_pool        structures, compilers, probes, gradients, controls, negatives
+demand_pool           finite distinction edges with provenance
+schedule_population   proposed gate boundaries, decompositions, and orders
+tested_frontiers      packet-relative MSS antichains indexed by active demands
+evidence_ledger       append-only executions, kills, residuals, projections, and audits
+dig_pool              unordered authored seeds plus separately derived questions
 ```
 
-Evidence history accumulates. The scientific frontier remains defeasible. An admitted structure may later be weakened,
-split, rebuilt internally, demoted, or rejected without deleting its historical receipt.
+There is no authoritative `next_dig_queue`. A serialized order is only a deterministic file encoding or an operational
+scheduling choice. It has no epistemic priority.
 
-The Ratchet is a running update process, not a static list of allowed structures and not a checklist validator.
+An admitted packet-relative presentation can later be weakened, split, internally rebuilt, demoted, or killed without
+deleting its historical receipt.
 
-## 3. Gradient drive without a freeze rule
+## 3. Entropy and geometry are one finite coface
 
-The owner's causal correction remains binding:
-
-> **A Ratchet tooth needs a gradient. If no distinction/entropy gradient exists, there is no reason for that tooth.**
-
-But a current instrument failing to witness a gradient is not evidence that every admissible gradient is absent. The
-gradient representation is itself explored at the gate.
-
-For a proposed readout `V`, candidate presentation `X`, and proposed repair/lift `Y`, a finite directed contrast may be
-written
+Let `X` be a finite observation surface, `D` a finite set of demanded distinction edges, and
+`pi: X -> Q_pi` a proposed presentation/quotient. Define
 
 \[
-g_V(X\to Y)=V(X)-V(Y).
+C_D(\pi)=\{(x,y)\in D:\pi(x)=\pi(y)\},
+\qquad
+L_D(\pi)=|C_D(\pi)|.
 \]
 
-This is a proposal schema, not a mandatory universal scalar or entropy formula. A gate may explore counts, partial
-orders, prediction residuals, distinguishability deficits, path-dependent functionals, vector/order-valued contrasts,
-Shannon/von Neumann/BKM quantities once their prerequisites are present, or other constructions.
+`C_D(pi)` is one object with two readings:
 
-A drive proposal survives only its **declared** predictions and controls. Examples:
+- geometrically, demanded edges have been collapsed inside quotient blocks;
+- informationally/entropically, demanded distinctions remain unresolved.
 
-- an order-deficit drive should disappear when the observed order dependence is erased;
-- a permanent cosmological gradient need not vanish when one local obligation closes;
-- an open system may legitimately include an external source, but that source must not be mislabeled endogenous;
-- a label-sensitive score fails when admissible relabeling changes it;
-- an entropy that stays constant across the relevant repair is not the drive for that repair.
+Entropy is therefore not a scalar payload running on a prior geometry in this process. The quotient surface and its
+unresolved distinction mass are the same finite coface. More refined entropy or geometric constructions may later be
+earned from it; Shannon, von Neumann, BKM, Fisher, or another formula is not installed here.
 
-v0.3 incorrectly made closure-collapse, injection rejection, and one scalar orientation universal. Those are now
-gate-specific hypotheses.
+For a proposed move `pi -> rho`, the shipped scalar contrast is
 
-If no drive proposal survives, the result is:
+\[
+g_D(\pi\to\rho)=L_D(\pi)-L_D(\rho).
+\]
+
+The vector of family-wise losses is retained as an order-valued rival. A tooth needs a positive live contrast and a
+control on which the contrast vanishes. Failure of current gradient proposals means `DIG_CONTINUES`, not that the
+basin is globally flat.
+
+## 4. Gates, subgates, and their order are hypotheses
+
+A **demand family** is a proposed grouping of finite distinction edges. A **gate-boundary hypothesis** is a block of
+one or more demand families. A **schedule hypothesis** is an ordered set-partition of all currently selected families.
+
+For demand families `{a,b,c,d}`, the process must be able to test:
+
+- one fused gate `{a,b,c,d}`;
+- every two-block and three-block decomposition in every order;
+- every fully split permutation;
+- later, newly proposed subfamilies, fusions, dependencies, and boundary revisions.
+
+There are 75 ordered set-partitions of four named families. The shipped run executes all 75. It does not use the order
+in which the families appear in JSON as a ladder.
+
+Only a witnessed dependency may prune schedules. An operational priority, compute cost, or researcher preference does
+not constitute such a dependency. If schedules converge, that is basin evidence for the endpoint within the packet;
+it does not canonize one path. If they diverge, the branches remain live and the divergence is itself N01 evidence.
+
+The implementation has ordinary computational dependencies—evidence must exist before it can be evaluated—but their
+software execution order is not an ontological layer order.
+
+## 5. Mass exploration without count inflation
+
+Each finite gate may receive very large proposal populations. A population may be streamed in chunks, but chunking is
+operational only. Every run records:
+
+- proposals generated, executed, unexecuted, and the continuation cursor;
+- batch boundaries and digests;
+- actual behavioural equivalence classes;
+- parameter aliases that produced the same behaviour;
+- parked and unimplemented compilers;
+- the finite grammar and the fact that the global space remains open.
+
+Two names or parameter rows that induce the same finite partition are not independent structures. A proposed graph,
+CA, QCA, transducer, density operator, or nonassociative carrier counts as an independent executed candidate only when
+its compiler produces independently testable behaviour. Otherwise it is an alias, encoding witness, or parked
+proposal.
+
+Changing batch size must not change the population digest or final behavioural frontier.
+
+## 6. Packet-relative MSS
+
+The v0.5 engine installs one explicit finite weakness hypothesis: partition refinement. For presentations `pi` and
+`rho`,
+
+\[
+\pi\preceq\rho
+\quad\text{when every block of }\rho\text{ lies inside a block of }\pi.
+\]
+
+Thus `pi` is no more discriminating than `rho`. For active demand set `D`,
+
+\[
+Surv(D)=\{\pi:L_D(\pi)=0\},
+\qquad
+M(D)=\min_{\preceq} Surv(D).
+\]
+
+`M(D)` may contain incomparable members. The engine never chooses one by taste. Partition refinement is preferable to
+v0.4's assumption-count ordering for this finite surface because it is computed directly from which observations each
+candidate merges. It is still a proposed weakness relation; rival categorical, computational, resource, predictive,
+or dynamical preorders remain live digs.
+
+## 7. Tooth adjudication
+
+For each schedule step, compare the prior frontier with the frontier after activating the proposed demand block.
 
 ```text
+PROVISIONAL_TOOTH_WITHIN_SCHEDULE_PACKET
+    the prior frontier collapses a live demanded edge;
+    a packet-minimal repair carries every active edge;
+    at least one declared gradient couples to that repair;
+    claim-relevant controls pass.
+
+NO_LIFT_NEEDED__DIG_CONTINUES
+    the prior frontier already carries the added demand block.
+
 UNRESOLVED_GATE__DIG_CONTINUES
+    no adequate candidate, gradient, discriminator, or control has yet survived.
 ```
 
-The engine expands gradient hypotheses, probes, histories, carriers, resolutions, countermodels, or weakness orders
-until the finite run budget is reached. The run boundary is operational, never a claim that the basin is flat globally.
+A tooth is provisional relative to that schedule and packet. Intermediate teeth can differ across schedule
+hypotheses. No tooth becomes scientific manifold canon from a generated process fixture.
 
-## 4. Gates are strict; exploration at gates is not conservative
+## 8. Controls and negatives
 
-Every gate separates roles:
+Controls are generated for the active claim. The v0.5 process requires, where applicable:
 
-1. **Mapper:** states what distinctions each view preserves, erases, or exposes.
-2. **Explorer:** generates strong and weak candidates across mathematical families.
-3. **Gradient digger:** proposes alternative reasons/directions for a tooth.
-4. **Minimalist:** tries all known lower structures and explicit weakening maps first.
-5. **Lift advocate:** supplies the strongest case for each lift, including owner-favored and non-owner-favored lifts.
-6. **Control auditor:** tries to kill both acceptance and rejection; every strict rejection needs a non-definitional
-   bias-flip showing the gate can admit a lift on changed evidence.
-7. **Receipt clerk:** records survivors, kills, projections, residuals, open attacks, and the next discriminator.
+- demand erasure: removing the newly activated distinction edges erases their coface loss;
+- adequacy: every admitted frontier member actually carries all active edges;
+- leakage fence: gate labels and hidden generator rules never enter candidate feature keys;
+- relisting: reversing the serialized demand-family list leaves schedule coverage and final behavioural frontier
+  unchanged;
+- rechunking: changing candidate batch size leaves the population and frontier unchanged;
+- order/decomposition coverage: fused, split, and permuted gate hypotheses all execute;
+- mutation rejection: validators reject any attempt to mark an order or decomposition canonical;
+- evidence audit fencing: killed receipts cannot be silently re-admitted.
 
-No role may silently perform another role's adjudication. A builder or simulation cannot promote its own result.
+A control that can only produce the desired answer is not a control. A self-certifying formula copied from the answer
+key is not evidence.
 
-### 4.1 Controls are generated, not imposed as one universal roster
+## 9. Digs are derived, seeds are labeled
 
-The reusable control library includes label erasure, lower-structure, order commutation, history erasure, quotient
-erasure, topology shuffle, carrier swap, field-versus-token, resolution change, source freeze, source injection,
-held-out contact, and anti-by-construction tests. The engine selects and generates controls from the actual claim.
-
-Admission requires all **claim-relevant declared controls** to fire as predicted. It does not require irrelevant controls
-to be forced onto the packet, and `not applicable` does not become a hidden veto.
-
-### 4.2 A gate must be able to flip
-
-A gate that always rejects stronger structure is broken. A gate that always admits it is also broken. Each tooth requires
-at least one executable counter-surface where the lower candidate becomes adequate or the proposed drive disappears.
-This tests the decision procedure, not just the favored outcome.
-
-## 5. MSS is provisional even with open attacks
-
-For a finite packet `t`, let `Surv_t` be the tested adequate candidates and `<=_t` the currently installed witnessed
-weakness relation. The frontier is
-
-\[
-M_t=\{X\in Surv_t:\nexists Y\in Surv_t\text{ with }Y<_t X\}.
-\]
-
-Consequences:
-
-- the frontier can be plural;
-- the weakness relation can be challenged;
-- open one-step weakenings do not freeze all progress—they remain active attacks and lower the claim ceiling;
-- no finite run proves that an ungenerated weaker candidate does not exist;
-- admission means `PROVISIONAL_TOOTH_WITHIN_PACKET`, never final global MSS;
-- a new weaker survivor reopens descendants.
-
-v0.3 incorrectly required closing every registered weakening before a provisional tooth. That confused provisional MSS
-with global completion.
-
-## 6. The executable loop
-
-Every bounded run performs this order:
-
-1. Load raw distinction evidence and prior receipts without promoting either.
-2. State the current question and the weakest known presentation.
-3. Generate candidate presentations across axes: history, outcome type, carrier, topology, algebra, readout, and update.
-4. Generate alternative gradient/readout hypotheses.
-5. Generate weakenings, countermodels, negatives, and bias-flip controls.
-6. Execute every candidate and control allowed by the finite budget; park unimplemented candidates visibly.
-7. Compute adequacy, explicit weakness relations, survivors, and the complete tested frontier.
-8. Adjudicate:
-   - `PROVISIONAL_TOOTH_WITHIN_PACKET` when a weaker presentation fails a live distinction, a minimal repair survives,
-     a drive hypothesis couples to it, and the gate-specific controls flip correctly;
-   - `NO_LIFT_NEEDED__DIG_CONTINUES` when the weaker presentation still carries the evidence;
-   - `UNRESOLVED_GATE__DIG_CONTINUES` when the evidence, drive, controls, or candidates are insufficient.
-9. Emit a receipt whether the result is positive, negative, or unresolved.
-10. Convert every unresolved item and every parked candidate into the next dig queue.
-11. Continue until the declared finite budget is reached.
-
-The finite run ends as:
+The output keeps two separate stores:
 
 ```text
-FINITE_BUDGET_REACHED__SEARCH_AND_REOPENING_REMAIN_ACTIVE
+authored_seed_proposals   questions supplied before execution
+derived_from_this_run     questions whose triggers are present in run receipts
 ```
 
-It never emits “there is no weaker structure” or “there is no gradient anywhere.”
+Neither store is a canonical order. A derived dig includes the exact trigger—plural frontier, alias census, schedule
+divergence, missing external contact, unexecuted cursor, or failed control. A prewritten seed may be valuable, but it
+may not be described as discovered by the run.
 
-## 7. Working v0.4 run shipped in this bundle
+## 10. Executed v0.5 process result
 
 Run:
 
 ```text
 python3 ratchet/ratchet_engine.py --run \
-  ratchet/examples/root_history_packet_v0_4.json \
-  --output ratchet/runs/root_history_run_v0_4.json
+  ratchet/examples/root_order_open_packet_v0_5.json \
+  --output ratchet/runs/root_order_open_run_v0_5.json
 ```
 
-The packet explores two actual finite gates over carrier-neutral four-status distinction records:
-
-1. whether context-free distinction is sufficient or one-step history is load-bearing;
-2. whether new ordered evidence is still carried by one-step history or requires two-step history.
-
-At each gate the engine executes 36 candidates:
-
-- memory depth `0/1/2`;
-- binary versus four-status partial outcomes;
-- partial relation, finite transducer, directed graph, asynchronous rewrite, ring-checkerboard encoding, and diagonal
-  complex-density encoding.
-
-It also executes six candidate gradients and five gate-specific controls. It does not stop at the first success.
-
-Observed finite results:
+Observed:
 
 ```text
-G0: context-free baseline errors = 9
-    frontier = partial_relation__memory_1__partial4
-
-G1: one-step baseline errors = 54
-    frontier = partial_relation__memory_2__partial4
-
-drive survivors at both gates:
-    partition_conflict_mass
-    merged_distinction_pairs
-
-killed as drives:
-    outcome Shannon entropy (no coupling)
-    representation cell count (wrong/ornamental contrast)
-    injected constant
-    label-code score
+finite generated rows                         81
+parameter proposals executed              32,400
+actual behavioural partition classes       3,147
+parameter aliases exposed                  29,253
+candidate batches                              64
+demand-family subsets evaluated                16
+behaviour-by-demand-subset evaluations      50,352
+ordered gate/decomposition schedules           75
+gate granularities exercised               1,2,3,4 blocks
+distinct intermediate trajectories             44
+distinct final packet frontiers                  1
+scientific manifold layers admitted               0
+physical entropy types admitted                    0
 ```
 
-The commuting counter-surface makes the weaker history presentation adequate, so the gate demonstrably flips rather
-than rejecting by construction. Probe relabeling leaves the verdict unchanged. Collapsing the observations to binary
-makes the binary presentation adequate, proving that four-status partiality is data-dependent rather than universally
-forced.
+The 75 schedules reach one final behavioural partition in this generated fixture while taking 44 intermediate
+trajectories. This earns only the statement that the endpoint converges under the tested order/decomposition
+population. It does not earn the order, the four family boundaries, the winning presentation as a physical object, or
+any manifold rung.
 
-This run earns exactly two **formal finite-packet teeth**: one-step and then two-step history-sensitive partial
-distinction presentations. It admits zero scientific manifold layers and zero physical entropy types. Its generated
-observation surfaces are definition/evaluator tests; replacing them with lower-level or empirical distinction records is
-first on the continuing dig queue.
+## 11. v0.4 audit disposition
 
-### 7.1 Actual L5 manifold evidence re-ratcheted
+- The root-history loop survives as a limited predecessor: it computed real errors and a real flip.
+- “36 independent structures” is killed. Only six depth/mode fits behaved independently; carrier names were cosmetic
+  wrappers.
+- The L5 scalar-stratum demotion is killed as scientific evidence. Six positive candidates repeated the answer-key
+  formula, and two gradient ablations were hardcoded. Its negative failures and orientation datum remain source
+  observations only.
+- The v0.4 shipped dig queue was fully pre-authored. v0.5 separates seeds from receipt-derived digs.
+- No claim that “L1–L5 are all earned” is imported by this process bundle.
 
-`ratchet/manifold_l5_reaudit.py` then applies the same separation to the bundle's existing L5/L7/L8 result files. It
-tests eight presentations against held-out Schmidt angles and cross-shell flux:
+## 12. Anti-fake-running invariants
 
-- binary product/entangled flag;
-- finite nearest lookup;
-- Schmidt radius, negativity, purity, and entropy scalars;
-- full Schmidt spectrum;
-- nested-shell geometry.
+A purported Ratchet run fails if it:
 
-The binary flag and finite lookup fail held-out prediction. The four scalar readouts are mutually translatable on this
-installed pure two-qubit branch and reproduce the held-out radius/flux to numerical tolerance. Full spectrum and nested
-shell geometry also survive, but add structure not required by the active L5 evidence.
-
-```text
-provisional frontier = one-dimensional scalar stratum equivalence class
-nested-shell geometry = SURVIVES_BUT_NONMINIMAL
-gate status = L5_GEOMETRY_DEMOTED__SCALAR_STRATUM_PROVISIONAL
-scientific manifold layer admitted = false
-```
-
-The gate is not designed to reject geometry: an orientation counter-surface taken from the actual L8 `+1/-1` Chern
-result gives the same scalar shell coordinate but opposite winding. Scalar strata merge it; an oriented
-connection/bundle readout separates it. Thus stronger path geometry becomes load-bearing when the question actually
-contains path orientation.
-
-This demotes the claim that current L5 evidence earns nested-shell geometry as MSS and reopens L6–L8 admission. It does
-not erase their locally reproduced BKM, Berry, or Chern mathematics.
-
-## 8. Anti-fake-running invariants
-
-A purported run fails if it:
-
-- validates a prewritten receipt without generating and executing candidates;
-- calls a source document, message, or simulation canon;
-- restricts proposal generation merely because admission is strict;
-- declares a terminal HOLD from one missing gradient witness;
-- uses one fixed control roster regardless of the claim;
-- rejects by construction without an executable flip surface;
-- admits a lift while a tested weaker survivor carries the same distinction;
+- iterates an authored gate list once and calls that order earned;
+- fixes gate boundaries or the number of substeps before testing alternatives;
+- converts an operational priority into epistemic rank;
+- advertises parameter aliases or carrier labels as independent executions;
+- validates prewritten receipts without executing candidate behaviours;
+- uses an answer-key formula as both candidate and ground truth;
+- describes an authored seed queue as derived work;
+- admits a tooth without a positive live coface gradient;
+- hides negative, unresolved, parked, truncated, or killed proposals;
 - chooses one incomparable frontier member by taste;
-- hides killed gradients, candidates, or controls;
-- treats a finite budget boundary as global exhaustion;
-- says the manifold was ratcheted when only its process schema was edited.
+- treats one finite grammar as global exhaustion;
+- treats endpoint convergence as proof of a canonical path;
+- says the scientific manifold was ratcheted when only a process fixture ran.
 
-## 9. Executable integrity
+## 13. Integrity commands
 
 ```text
 python3 ratchet/ratchet_engine.py --self-test
-python3 ratchet/ratchet_engine.py --validate ratchet/runs/root_history_run_v0_4.json
-python3 ratchet/manifold_l5_reaudit.py
-python3 ratchet/manifold_l5_reaudit.py --validate ratchet/runs/manifold_L5_reaudit_v0_4.json
+python3 ratchet/ratchet_engine.py --validate ratchet/runs/root_order_open_run_v0_5.json
 python3 ratchet/bundle_ratchet_lint.py
-python3 run_all.py
 ```
 
-The self-test also supplies a flat/context-free control packet. It must produce
-`NO_LIFT_NEEDED__DIG_CONTINUES`, retain an open dig queue, and reject any mutation claiming global exhaustion or an
-ungated tooth.
+The full legacy simulation harness remains a reproduction lane for its scoped receipts. A green legacy harness does not
+promote those receipts through v0.5.
