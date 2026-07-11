@@ -10,7 +10,7 @@ unless a scoped Ratchet receipt says otherwise._
 
 ---
 
-<!--LIVE_HARNESS-->**Harness now: 146 pass / 0 fail / 0 skip -- green=True** (stamped 2026-07-11 02:12 UTC)<!--/LIVE_HARNESS-->
+<!--LIVE_HARNESS-->**Harness now: 146 pass / 0 fail / 0 skip -- green=True** (stamped 2026-07-11 03:36 UTC)<!--/LIVE_HARNESS-->
 
 > **RATCHET_V0_2_SCOPE_CORRECTION:** `RATCHET_SPEC.md` v0.2 supersedes every older process description in this
 > bundle. Old numerical receipts remain data at their stated ceilings, but older statements that place objects,
@@ -139,10 +139,14 @@ undecided; keep both readings and submit them to the Ratchet rather than collaps
 | **Two layer numberings** (0–15 weakest-structure ladder vs 0–26 GCM stack vs the 14-layer canon in §5). | **LIVE FORK (needs crosswalk):** all are readings of the SAME climb; §5 uses the reconciled 14-layer canon. Divergences are preserved as noted forks, not collapsed. |
 
 ## 5e. BUNDLE MAP (where everything lives — the top level is deliberately small)
+WHICH ESTATE IS THIS? See `ESTATE_REGISTRY.yaml` (top level). This zip = the **constraint_core_v7** science-packet
+estate (status: hypothesis_and_scoped_evidence). If any doc's prose disagrees about "which version is current," the
+registry wins. Do not canonize v4/v5/v6 language — those are working-reference layers, not this estate.
 ```
 TOP LEVEL = only what you run or read first:
   00_START_HERE.md        this file (entry point)
   RATCHET_SPEC.md         the v0.2 process authority (governs)
+  ESTATE_REGISTRY.yaml    which estate/tool is current + tool-status vocabulary (mirrors the repo's canonical copy)
   run_all.py              the harness (145 registered sims; run it)
   requirements.txt        deps;  LAPTOP_RUN.sh  one-command laptop run
   generate_bundle_docs.py regenerates docs/ + manifest from live state
