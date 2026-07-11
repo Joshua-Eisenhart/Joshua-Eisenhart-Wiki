@@ -25,6 +25,7 @@ REQUIRED_TEXT = {
         "ROOT = CONSTRAINED_DISTINGUISHABILITY",
         "MSS is an anytime frontier",
         "The evidence ratchets. The ontology does not become permanently stronger",
+        "if there is no gradient in constrained distinguishability, there is no reason for",
     ],
     "archive/RATCHET_V0_2_UPGRADE_REPORT.md": [
         "Scientific claim ceiling: process hardening / scratch diagnostic",
