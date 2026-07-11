@@ -1,54 +1,45 @@
-# NOTE (bundle copy): canonical source is Codex-Ratchet/ESTATE_REGISTRY.yaml. This zip = constraint_core_v7
-# science-packet estate. Repo copy authoritative. Re-added 2026-07-11 (audited v0.4 was pre-registry).
-#
-# ESTATE_REGISTRY.yaml — machine-readable root registry (created 2026-07-10 per external
-# review "the repository upgrade that matters most"; supersedes prose routing in
-# REPO_LAYOUT.md / README.md when they disagree; commit is owner-gated).
-#
-# Purpose: one authoritative answer to "which estate is current" so agents stop
-# canonizing stale language from the wrong layer.
+# Portable bundle copy. Repository state can be newer; this file routes estates
+# and never admits mathematics or a gate order.
 
 estate:
   system_v4_v5:
     role: probes_three_engine_system_and_process_docs
     status: working_reference
-    note: REPO_LAYOUT.md "current" language is historical; mine, do not canonize
+    note: mine historical material; do not canonize it
   codex_ratchet_v6:
     role: process_and_receipts
     status: working_reference
   constraint_core_v7:
-    role: current_science_packets
+    role: current_science_packet_estate
     status: hypothesis_and_scoped_evidence
-    process_authority: system_v7/constraint_core/RATCHET_SPEC.md
-    validator: system_v7/constraint_core/ratchet/ratchet_kernel.py
+    process_authority: RATCHET_SPEC.md
+    executable_process: ratchet/ratchet_engine.py
+    process_version: "0.5-order-open"
+    gate_order_canonical: false
+    gate_decomposition_canonical: false
   wiki:
-    role: provenance_and_mirror
+    role: provenance_and_hypothesis_mirror
     canon: false
-    note: mirror copies can lag; local regenerated docs win (e.g. MATH_INVENTORY scoped language)
   claude_science_bundle:
-    role: portable_console_harness
-    three_engine_per_sim: false
-    note: green harness = reproducibility + process lint only, never admission
+    role: portable_console_and_harness
+    scientific_authority: false
+    note: green harness means scoped reproducibility, never Ratchet admission
   leviathan:
-    role: runtime_consumer
+    role: runtime_consumer_and_convergence_partner
     scientific_authority: false
 
-# Tool status vocabulary — every tool named in a claim path gets exactly one:
 tool_status_vocabulary:
-  - installed                                  # level 1: exists in an environment
-  - api_probed                                 # level 2: imports / smoke test passed
-  - called_supportively                        # level 3a: produces measurements, does not gate the result
-  - claim_load_bearing                         # level 3b: output gates/changes/certifies a bounded result
-  - ratchet_earned_provisional_within_scope    # level 4: survives the Ratchet in a declared finite scope
+  - installed
+  - api_probed
+  - called_supportively
+  - claim_load_bearing
+  - ratchet_earned_provisional_within_scope
   - quarantined
   - rejected
 
-# Standing corrections (from the 2026-07-10 external review; keep until superseded):
-corrections:
-  - most of the installed stack is level 1-2; only a subset reaches claim_load_bearing
-  - pykoopman runs in an isolated python 3.11 route, not the main sim-stack path
-  - auto_LiRPA is a source checkout with no current load-bearing Ratchet result
-  - julia ITensorNetworks/Enzyme/Flux/Lux + TensorKit/PEPSKit projects are
-    global_or_isolated_installed, not strict-carrier claim-bearing
-  - "145/146 green scripts" is not "146 three-engine results"; the per-sim
-    three-engine protocol applies per claim, not per harness run
+standing_corrections:
+  - installed packages are not automatically claim-load-bearing
+  - one green harness row is not automatically a three-engine result
+  - parameter aliases are not independent candidate structures
+  - operational scheduling order has no epistemic priority
+  - source, wiki, sim, and owner wording remain hypotheses until packet-relative admission
