@@ -18,14 +18,20 @@ from ratchet_kernel import run_self_test
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
-SCOPE_MARKER = "RATCHET_V0_2_SCOPE_CORRECTION"
+SCOPE_MARKER = "RATCHET_V0_3_GRADIENT_DRIVE"
+HISTORICAL_SCOPE_MARKER = "RATCHET_V0_2_SCOPE_CORRECTION"
 
 REQUIRED_TEXT = {
     "RATCHET_SPEC.md": [
         "ROOT = CONSTRAINED_DISTINGUISHABILITY",
+        "No gradient, no tooth",
         "MSS is an anytime frontier",
         "The evidence ratchets. The ontology does not become permanently stronger",
-        "if there is no gradient in constrained distinguishability, there is no reason for",
+    ],
+    "archive/RATCHET_V0_3_GRADIENT_UPGRADE_REPORT.md": [
+        "Scientific claim ceiling: process hardening / scratch diagnostic",
+        "No gradient, no tooth",
+        "HOLD_NO_GRADIENT",
     ],
     "archive/RATCHET_V0_2_UPGRADE_REPORT.md": [
         "Scientific claim ceiling: process hardening / scratch diagnostic",
@@ -34,39 +40,55 @@ REQUIRED_TEXT = {
     "00_START_HERE.md": [
         "ROOT = CONSTRAINED_DISTINGUISHABILITY",
         "provisional MSS frontier",
+        "No gradient, no tooth",
         SCOPE_MARKER,
     ],
     "CLAUDE.md": [
         "RATCHET_SPEC.md",
+        "No gradient, no tooth",
         SCOPE_MARKER,
     ],
-    "archive/ORIENTATION.md": [SCOPE_MARKER],
+    "archive/ORIENTATION.md": [HISTORICAL_SCOPE_MARKER],
     "MODEL_LAYER_LEDGER.md": [SCOPE_MARKER],
     "STATE_OF_THE_MODEL.md": [SCOPE_MARKER],
-    "archive/README_UNIFIED_BUNDLE.md": [SCOPE_MARKER],
-    "docs/UNIFIED_LENS_MAP.md": ["RATCHET v0.2 scope correction"],
+    "archive/README_UNIFIED_BUNDLE.md": [HISTORICAL_SCOPE_MARKER],
+    "docs/UNIFIED_LENS_MAP.md": ["RATCHET v0.3 gradient-drive correction"],
     "archive/FOUNDATIONS_REAUDIT.md": ["RATCHET v0.2 scope correction"],
     "archive/V7_FOUNDATION_SIMS_CROSSCHECK.md": ["RATCHET v0.2 scope correction"],
     "archive/REPO_AUDIT_AND_RESOLUTIONS.md": ["RATCHET v0.2 scope correction"],
     "archive/README_FOR_THREAD.md": ["Superseded process front door"],
-    "LAPTOP_README.md": ["Ratchet v0.2 integrity check"],
-    "spec_and_reports/CONSTRAINT_CORE_FORMAL_SPEC.md": ["RATCHET v0.2 scope correction"],
-    "spec_and_reports/PURE_MATH_CORE.md": ["RATCHET v0.2 scope correction"],
+    "LAPTOP_README.md": ["Ratchet v0.3 integrity check"],
+    "spec_and_reports/CONSTRAINT_CORE_FORMAL_SPEC.md": ["RATCHET v0.3 gradient-drive correction"],
+    "spec_and_reports/PURE_MATH_CORE.md": ["RATCHET v0.3 gradient-drive correction"],
     "generate_bundle_docs.py": [
         "ROOT = CONSTRAINED_DISTINGUISHABILITY",
         "provisional MSS frontier",
+        "without one the process holds",
+    ],
+    "ratchet/GRADIENT_DRIVE.md": [
+        "No gradient, no tooth",
+        "distinction potential",
+        "HOLD_NO_GRADIENT",
+        "evidence ledger",
+    ],
+    "ratchet/README.md": [
+        "v0.3",
+        "HOLD_NO_GRADIENT",
     ],
     "ratchet/CA_MSS_RESEARCH_PROGRAM.md": [
         "F01 motivates finite realizations. It does not by itself imply cells",
+        "HOLD_NO_GRADIENT",
         "The output is the set of all tested surviving candidates",
     ],
     "ratchet/CURRENT_FRONTIER.md": [
-        "no bundle-wide scientific `PROVISIONAL_MSS` frontier yet under v0.2",
+        "no bundle-wide scientific `PROVISIONAL_MSS` frontier yet under v0.3",
+        "HOLD_NO_GRADIENT",
         "does not retroactively admit the legacy manifold tower",
     ],
     "docs/BUNDLE_GUIDE.md": [
         "ROOT = CONSTRAINED_DISTINGUISHABILITY",
         "provisional MSS frontier",
+        "Ratchet v0.3 gradient-drive derivative",
     ],
     "docs/MATH_INVENTORY.md": [
         "FORCED-WITHIN-GRAMMAR",
@@ -76,6 +98,7 @@ REQUIRED_TEXT = {
 
 FORBIDDEN_SCAN_FILES = {
     "RATCHET_SPEC.md",
+    "archive/RATCHET_V0_3_GRADIENT_UPGRADE_REPORT.md",
     "archive/RATCHET_V0_2_UPGRADE_REPORT.md",
     "00_START_HERE.md",
     "CLAUDE.md",
@@ -87,6 +110,9 @@ FORBIDDEN_SCAN_FILES = {
     "docs/BUNDLE_GUIDE.md",
     "docs/MATH_INVENTORY.md",
     "ratchet/CA_MSS_RESEARCH_PROGRAM.md",
+    "ratchet/GRADIENT_DRIVE.md",
+    "ratchet/README.md",
+    "ratchet/CURRENT_FRONTIER.md",
 }
 
 FORBIDDEN_PATTERNS = {
@@ -96,6 +122,7 @@ FORBIDDEN_PATTERNS = {
     r"THE MANIFOLD — canonical layer list": "layer inventory called canon",
     r"only primitive is \*\*constraint on distinguishability\*\*: `~_P` on a FINITE support": "equivalence/support smuggled into root",
     r"POST_RUN_RESULT": "unfinished post-run validation placeholder",
+    r"entropy\s+(?:itself\s+)?never drives admission": "obsolete denial of gradient drive",
 }
 
 
@@ -123,6 +150,7 @@ def main() -> int:
         "ratchet/weakening_grammar.json",
         "ratchet/schemas/ratchet_run.schema.json",
         "ratchet/examples/process_fixture.json",
+        "ratchet/examples/no_gradient_hold_fixture.json",
     ):
         path = ROOT / relative
         try:
