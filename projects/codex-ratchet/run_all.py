@@ -110,7 +110,7 @@ SUITE = [
    ("contains", "PASS jordan_octonion_observable_rung")]),  # THE DEEPER FORCED RUNG the L3 floor test predicted. Owner: "jordan algebras? seems we need entropy that handles finite noncommutative nonassociative octonians. and that can be negative." Three claims, valid octonions (Fano table, norm-composition-exact, alternative, nonassoc 36.3): (1) nonassociativity needs the Jordan product a o b=1/2(ab+ba); (2) Hermitian octonionic matrices satisfy the Jordan identity ONLY for n<=3 (defect ~1e-13 at n=2,3; ~6e2 at n=4) = the exceptional Albert algebra H_3(O) -- INDEPENDENTLY FORCES the 3-qubit floor from a different direction than tomography; (3) the forced entropy is the signed conditional/coherent S(A|B)=S(AB)-S(B), negative exactly on entangled states (Bell -1.0, product 0). Controls flip (n=4 fails; entropy negative only on entangled). scratch_diagnostic.
  ("per_terrain_entropy_forcing_sim.py", 60, False, [
    ("contains", "PASS per_terrain_entropy_forcing")]),  # DUAL-RATCHET DEPTH L3 floor test. Level 2 (per-terrain entropy forcing) DONE by the v7 runner's terrain_entropy_kind_ratchet_sim (U=Umegaki-to-fixed-point is the universal monotone pawl on all 8 terrains) and reproduced here; NOT re-derived. This sim targets the one piece v7 left unmeasured: is anything forced BELOW terrain x operator? T1 the native operator has 31 valid sub-splits (not unique/forced); T2 total U-decrement fixed but intermediate-U split arbitrary (span 0.132). BOTH => the ratchet FLOOR is terrain x (operator, U-entropy); below it is engine dynamics, not ratchet. A deeper forced rung needs a richer carrier (3-qubit/octonion), a different ladder. scratch_diagnostic.
- ("downstream_dominance_window_discriminator_sim.py", 60, False, [
+ ("downstream_dominance_window_discriminator_sim.py", 180, False, [
    ("contains", "PASS downstream_dominance_window_discriminator")]),  # THE DOWNSTREAM DISCRIMINATOR the substage tournament handed back: does anything downstream separate canonical-only (B/D) from dominant-with-subordinates (C-in-window)? Sweeps attenuation alpha, scores on 3 real instruments. RESULT: re-id does NOT discriminate (16/16 all alpha -- full-affine signature robust to in-window subordinates); stage identity degrades monotonically (0.139->0.051); OBJECT FORMATION is the separator with a genuine TWO-SIDED window -- matches canonical 14 objects only for alpha in [0.10,0.30], OVER-resolves (15) at 0.05, UNDER-resolves (12) at >=0.40. So the downstream-safe window is STRICTER than the stage-identity window (alpha<=0.5); B/D and C observationally equivalent only inside [0.10,0.30]. Discriminated, not picked. scratch_diagnostic.
  ("substage_architecture_discriminator_sim.py", 60, False, [
    ("contains", "ALL_GATES: HONEST_SCORECARD")]),  # SUBSTAGE ARCHITECTURE DISCRIMINATOR -- 3 candidates scored on one engine battery, no canon assumed. A=4 operators at fixed casing, B=2x2 piston x lever lattice (Carnot/Szilard control reading), C=substages ARE the 4 loop terrains. Battery: S1 closes on limit cycle (all 3 pass, per-cycle move->0), S2 encloses ORIENTED net work (area flips sign under reversal = Carnot signature; robust 6/6 seeds common plane), S3 all substages effective (all pass, weak test). RESULT: engine-like (S1+S2) = {A, C}; B FAILS S2 (area does not flip, 0/6 seeds) so the piston/lever control architecture is NOT the engine cycle. 64-slot position-uniqueness stays OPEN (v7 instrument gap). scratch_diagnostic.
@@ -354,7 +354,7 @@ SUITE = [
  ("unified_attractor_basin_seven_axes_sim.py", 120, False, [
    ("contains", "PASS unified_attractor_basin_seven_axes"),
    ("contains", "all seven axes load-bearing on one engine: True")]),  # THE WHOLE MODEL AS ONE ATTRACTOR BASIN: all 7 axes (0-6) read as LOAD-BEARING dynamical witnesses from the SAME running-engine substrate, each with a falsifiable ERASURE control collapsing ONLY that axis (A0 polarity/no-flow, A1 unitary-vs-CPTP dS, A2 direct-vs-conjugated frame/V=I, A3 fiber-vs-base density-motion/degenerate-eta, A4 order gap/commuting, A5 F-preserves-entropy/F-as-pinch, A6 precedence/same-terrain-collapse). Closes the gap where axes 1-4 were only established individually. Source-grounded in v7 AXES_FULL_EXTRACTION with per-axis geometry-contamination guards. Plus nested-intelligence layers L0 stage -> L1 loop -> L2 two-loops -> L3 two-engines, each a distinguishable object. scratch_diagnostic.
- ("perception_scorecard_eval_admission_sim.py", 40, False, [
+ ("perception_scorecard_eval_admission_sim.py", 120, False, [
    ("contains", "PASS perception_scorecard_eval_admission")]),  # COMPLETES THE FOUR missing_for_eval_admission FIELDS on the perception scorecard, measured on the SAME real engine stage channels the re-id sim uses (imported). (1) recall_ratio 0.6875 degraded-cue associative recall (shuffled 0.0625, sep 0.625); (2) anti_key_penalty 0.0 -- 0/16 random-CPTP decoys false-bind, real stages self-bind 0.875; (3) attention_leak 0.3993 cross-object bleed (shuffled 1.01, no diagonal advantage); (4) cross_node_mesh_convergence 0.75 -- two independent probe-family nodes agree on stage identity (shuffled 0.0625, sep 0.6875). Pure instruments + separate eval; each control flips. The emitter now populates these live and shrinks missing_for_eval_admission to empty. scratch_diagnostic.
  ("lev_qit_evidence_envelope_emitter.py", 60, False, [
    ("contains", "PASS lev_qit_evidence_envelope_emitter"),
@@ -442,6 +442,28 @@ def run_one(script, timeout, interpreter=None):
         return -9, "TIMEOUT", time.time() - t0
 
 
+def run_ratchet_integrity_lane():
+    """Validate the v0.2 process kernel and claim-bearing bundle front doors.
+
+    This lane checks anti-drift structure, not scientific truth or admission.
+    """
+    script = os.path.join(HERE, "ratchet", "bundle_ratchet_lint.py")
+    if not os.path.exists(script):
+        return "FAIL", "ratchet/bundle_ratchet_lint.py missing"
+    try:
+        proc = subprocess.run(
+            [sys.executable, script], capture_output=True, text=True, timeout=120, cwd=HERE
+        )
+    except subprocess.TimeoutExpired:
+        return "FAIL", "Ratchet integrity lane timed out"
+    output = proc.stdout + proc.stderr
+    if proc.returncode != 0:
+        return "FAIL", output[-1000:]
+    if "PASS bundle_ratchet_lint" not in output:
+        return "FAIL", "Ratchet lint exited zero without its PASS marker"
+    return "PASS", "v0.2 root/MSS/frontier/co-view/self-test guards green"
+
+
 def run_engines_lane():
     """Cross-substrate engine check: numpy RK4 oracle -> targets.json, then any
     available substrate engine (jax/torch), then validate_engines.py must exit 0.
@@ -499,6 +521,15 @@ def run_engines_lane():
 def main():
     jax_ok = has_jax() and not FAST
     results, n_pass, n_fail, n_skip = [], 0, 0, 0
+
+    ratchet_status, ratchet_detail = run_ratchet_integrity_lane()
+    if ratchet_status == "PASS":
+        n_pass += 1
+    else:
+        n_fail += 1
+    results.append({"sim": "ratchet/process-integrity", "status": ratchet_status, "detail": ratchet_detail})
+    print(f"{ratchet_status} ratchet/process-integrity  ({ratchet_detail})")
+
     for script, timeout, needs_jax, checks in SUITE:
         if needs_jax and not jax_ok:
             results.append({"sim": script, "status": "SKIP (jax unavailable or --fast)"})
