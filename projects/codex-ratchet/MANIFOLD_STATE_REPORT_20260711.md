@@ -82,7 +82,7 @@ A3 is the cleanest single fact: moving along the **fiber** (Hopf phase φ) leave
 ## Axis-0 — the honest failure (this is the real open problem)
 
 Doctrine wants: sensing terrains {Se,Si} homeostatic (−), intuition terrains {Ne,Ni} allostatic (+).
-The ladder runs a **real perturb-evolve-classify loop** and tries four different state functionals as the
+The ladder runs a **real perturb-evolve-classify loop** and tries six different state functionals as the
 Axis-0 readout. **None realizes the doctrine split:**
 
 - participation-ratio of Bloch deviation: all 8 terrains **+** (1 sign)
