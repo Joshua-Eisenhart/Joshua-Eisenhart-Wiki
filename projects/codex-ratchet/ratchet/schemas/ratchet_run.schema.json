@@ -1,0 +1,245 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/ratchet/schemas/ratchet_run.schema.json",
+  "title": "Provisional MSS Ratchet run receipt",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "receipt",
+    "lineage",
+    "claim",
+    "root",
+    "finite_scope",
+    "candidate_grammar",
+    "weakening_grammar",
+    "candidates",
+    "weakness_edges",
+    "weakening_coverage",
+    "tests",
+    "controls",
+    "survivors",
+    "declared_frontier",
+    "open_world",
+    "entropy_geometry",
+    "status",
+    "reopen_triggers"
+  ],
+  "properties": {
+    "schema_version": {"const": "ratchet-run/0.2"},
+    "receipt": {
+      "type": "object",
+      "required": ["id", "generated_at", "append_only", "self_adjudicating"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "generated_at": {"type": "string", "minLength": 1},
+        "append_only": {"const": true},
+        "self_adjudicating": {"const": false}
+      },
+      "additionalProperties": true
+    },
+    "lineage": {
+      "type": "object",
+      "required": ["predecessor_receipts", "constraint_hash", "obligation_hash", "code_hash", "data_hash", "test_battery_hash", "independent_audit"],
+      "properties": {
+        "predecessor_receipts": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+        "constraint_hash": {"type": "string", "minLength": 1},
+        "obligation_hash": {"type": "string", "minLength": 1},
+        "code_hash": {"type": "string", "minLength": 1},
+        "data_hash": {"type": "string", "minLength": 1},
+        "test_battery_hash": {"type": "string", "minLength": 1},
+        "independent_audit": {
+          "type": "object",
+          "required": ["performed", "auditor", "freshness"],
+          "properties": {
+            "performed": {"type": "boolean"},
+            "auditor": {"type": "string"},
+            "freshness": {"type": "string", "minLength": 1}
+          },
+          "additionalProperties": true
+        }
+      },
+      "additionalProperties": true
+    },
+    "claim": {
+      "type": "object",
+      "required": ["id", "text", "obligation", "claim_ceiling"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "text": {"type": "string", "minLength": 1},
+        "obligation": {"type": "string", "minLength": 1},
+        "claim_ceiling": {
+          "enum": ["source_defined", "scratch_diagnostic", "pass_local", "ratchet_earned_provisional"]
+        }
+      },
+      "additionalProperties": true
+    },
+    "root": {
+      "type": "object",
+      "required": ["primitive", "presumes_objects", "presumes_equivalence", "relation_total"],
+      "properties": {
+        "primitive": {"const": "constrained_distinguishability"},
+        "presumes_objects": {"const": false},
+        "presumes_equivalence": {"const": false},
+        "relation_total": {"const": false}
+      },
+      "additionalProperties": true
+    },
+    "finite_scope": {
+      "type": "object",
+      "required": ["candidate_limit", "test_limit", "history_limit", "resolution_limit", "budget_label"],
+      "properties": {
+        "candidate_limit": {"type": "integer", "minimum": 1},
+        "test_limit": {"type": "integer", "minimum": 1},
+        "history_limit": {"type": "integer", "minimum": 0},
+        "resolution_limit": {"type": "integer", "minimum": 1},
+        "budget_label": {"type": "string", "minLength": 1}
+      },
+      "additionalProperties": true
+    },
+    "candidate_grammar": {
+      "type": "object",
+      "required": ["id", "hash", "families", "globally_complete"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "hash": {"type": "string", "minLength": 1},
+        "families": {"type": "array", "minItems": 1, "items": {"type": "string"}, "uniqueItems": true},
+        "globally_complete": {"const": false}
+      },
+      "additionalProperties": true
+    },
+    "weakening_grammar": {
+      "type": "object",
+      "required": ["id", "hash", "operators", "globally_complete"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "hash": {"type": "string", "minLength": 1},
+        "operators": {"type": "array", "minItems": 1, "items": {"type": "string"}, "uniqueItems": true},
+        "globally_complete": {"const": false}
+      },
+      "additionalProperties": true
+    },
+    "candidates": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "family", "survived", "assumptions"],
+        "properties": {
+          "id": {"type": "string", "minLength": 1},
+          "family": {"type": "string", "minLength": 1},
+          "survived": {"type": "boolean"},
+          "assumptions": {"type": "array", "items": {"type": "string"}, "uniqueItems": true}
+        },
+        "additionalProperties": true
+      }
+    },
+    "weakness_edges": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["weaker", "stronger", "operator", "witness", "preserves_obligation"],
+        "properties": {
+          "weaker": {"type": "string"},
+          "stronger": {"type": "string"},
+          "operator": {"type": "string", "minLength": 1},
+          "witness": {"type": "string", "minLength": 1},
+          "preserves_obligation": {"const": true}
+        },
+        "additionalProperties": true
+      }
+    },
+    "weakening_coverage": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["candidate", "operator", "status", "detail"],
+        "properties": {
+          "candidate": {"type": "string", "minLength": 1},
+          "operator": {"type": "string", "minLength": 1},
+          "status": {"enum": ["tested_survivor", "tested_killed", "undefined", "open"]},
+          "detail": {"type": "string", "minLength": 1}
+        },
+        "additionalProperties": true
+      }
+    },
+    "tests": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "kind", "result"],
+        "properties": {
+          "id": {"type": "string", "minLength": 1},
+          "kind": {"type": "string", "minLength": 1},
+          "result": {"enum": ["pass", "fail", "open"]}
+        },
+        "additionalProperties": true
+      }
+    },
+    "controls": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["family", "result", "fired", "expected_effect", "observed_effect"],
+        "properties": {
+          "family": {"type": "string", "minLength": 1},
+          "result": {"enum": ["pass", "fail", "not_applicable"]},
+          "fired": {"type": "boolean"},
+          "expected_effect": {"type": "string", "minLength": 1},
+          "observed_effect": {"type": "string", "minLength": 1},
+          "justification": {"type": "string"}
+        },
+        "additionalProperties": true
+      }
+    },
+    "survivors": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "declared_frontier": {"type": "array", "minItems": 1, "items": {"type": "string"}, "uniqueItems": true},
+    "open_world": {
+      "type": "object",
+      "required": ["global_minimum_claimed", "defeated_weaker_candidates", "open_weaker_attacks"],
+      "properties": {
+        "global_minimum_claimed": {"const": false},
+        "defeated_weaker_candidates": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+        "open_weaker_attacks": {"type": "array", "minItems": 1, "items": {"type": "string"}}
+      },
+      "additionalProperties": true
+    },
+    "entropy_geometry": {
+      "type": "object",
+      "required": ["applicable", "single_surface", "independent_entropy_state", "independent_geometry_state"],
+      "properties": {
+        "applicable": {"type": "boolean"},
+        "single_surface": {"type": "boolean"},
+        "independent_entropy_state": {"const": false},
+        "independent_geometry_state": {"const": false}
+      },
+      "additionalProperties": true
+    },
+    "status": {
+      "type": "object",
+      "required": ["lifecycle_status", "evidence_grade", "claim_ceiling", "self_promotes"],
+      "properties": {
+        "lifecycle_status": {
+          "enum": ["HYPOTHESIS", "CANDIDATE", "TESTED_SURVIVOR", "SURVIVED_NONMINIMAL", "PROVISIONAL_MSS", "REOPENED", "DEMOTED", "PARKED", "REJECTED", "GRAVEYARD_KEEP"]
+        },
+        "evidence_grade": {"enum": ["none", "adjudication_only", "executable_diagnostic", "independent_recomputation"]},
+        "claim_ceiling": {"enum": ["source_defined", "scratch_diagnostic", "pass_local", "ratchet_earned_provisional"]},
+        "self_promotes": {"const": false}
+      },
+      "additionalProperties": true
+    },
+    "next_rung": {
+      "type": ["object", "null"],
+      "properties": {
+        "demanded_distinction": {"type": "string", "minLength": 1},
+        "predecessor_projection": {"type": "string", "minLength": 1}
+      },
+      "required": ["demanded_distinction", "predecessor_projection"],
+      "additionalProperties": true
+    },
+    "reopen_triggers": {"type": "array", "minItems": 1, "items": {"type": "string"}}
+  },
+  "additionalProperties": true
+}
