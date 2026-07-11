@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
-"""Compatibility entry point for the working Ratchet v0.4 engine.
+"""Compatibility entry point for the order-open Ratchet v0.5 engine.
 
-The former v0.3 file validated prewritten admission receipts but did not
-generate or adjudicate candidates. The current process lives in
-`ratchet_engine.py`; this name remains so existing commands fail forward into
-the working DIG -> GATE -> RECEIPT loop.
+The current process lives in ``ratchet_engine.py``.  This name remains so
+existing commands fail forward into mass candidate exploration plus gate-order
+and gate-decomposition search instead of the fixed v0.4 gate list.
 """
 
 from ratchet_engine import (  # noqa: F401
