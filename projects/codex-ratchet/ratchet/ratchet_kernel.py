@@ -10,13 +10,14 @@ from __future__ import annotations
 import argparse
 import copy
 import json
+import math
 import sys
 from pathlib import Path
 from typing import Any
 
 
 ROOT_PRIMITIVE = "constrained_distinguishability"
-SCHEMA_VERSION = "ratchet-run/0.2"
+SCHEMA_VERSION = "ratchet-run/0.3"
 REQUIRED_CONTROL_FAMILIES = {
     "root_smuggling",
     "lower_structure",
@@ -32,8 +33,19 @@ REQUIRED_CONTROL_FAMILIES = {
     "field_vs_token",
     "lineage_freshness",
     "held_out_contact",
+    "gradient_freeze",
+    "gradient_closure",
+    "gradient_injection",
+    "gradient_obligation_coupling",
 }
 PROVISIONAL_STATUS = "PROVISIONAL_MSS"
+CLIMB_DECISION = "CLIMB"
+HOLD_DECISIONS = {
+    "HOLD_NO_GRADIENT",
+    "HOLD_UNLICENSED_GRADIENT",
+    "HOLD_EXTRINSIC_DRIVE",
+    "HOLD_UNCOUPLED_GRADIENT",
+}
 
 
 def _as_dict(value: Any, where: str, errors: list[str]) -> dict[str, Any]:
@@ -52,6 +64,10 @@ def _as_list(value: Any, where: str, errors: list[str]) -> list[Any]:
 
 def _nonempty_text(value: Any) -> bool:
     return isinstance(value, str) and bool(value.strip())
+
+
+def _finite_number(value: Any) -> bool:
+    return isinstance(value, (int, float)) and not isinstance(value, bool) and math.isfinite(value)
 
 
 def _cycle_exists(nodes: set[str], adjacency: dict[str, set[str]]) -> bool:
@@ -309,6 +325,51 @@ def validate_receipt(receipt: Any) -> list[str]:
     if missing_controls:
         errors.append(f"missing required control families: {sorted(missing_controls)}")
 
+    drive = _as_dict(data.get("drive"), "drive", errors)
+    if drive.get("kind") not in {"distinction_gradient", "typed_entropy_gradient"}:
+        errors.append("drive.kind must be distinction_gradient or typed_entropy_gradient")
+    for field in ("entropy_type", "functional", "orientation", "witness"):
+        if not _nonempty_text(drive.get(field)):
+            errors.append(f"drive.{field} must be non-empty text")
+    for field in ("licensed", "gradient_witnessed", "intrinsic", "obligation_coupled"):
+        if not isinstance(drive.get(field), bool):
+            errors.append(f"drive.{field} must be boolean")
+    for field in ("potential_before", "potential_after", "magnitude", "tolerance"):
+        if not _finite_number(drive.get(field)):
+            errors.append(f"drive.{field} must be a finite number")
+    magnitude = drive.get("magnitude")
+    tolerance = drive.get("tolerance")
+    before = drive.get("potential_before")
+    after = drive.get("potential_after")
+    if _finite_number(magnitude) and magnitude < 0:
+        errors.append("drive.magnitude must be non-negative")
+    if _finite_number(tolerance) and tolerance < 0:
+        errors.append("drive.tolerance must be non-negative")
+    if all(_finite_number(value) for value in (before, after, magnitude, tolerance)):
+        numerical_slack = max(float(tolerance), 1e-12)
+        if not math.isclose(float(magnitude), abs(float(before) - float(after)), abs_tol=numerical_slack):
+            errors.append("drive.magnitude must equal |potential_before - potential_after| within tolerance")
+        expected_witness = float(magnitude) > float(tolerance)
+        if drive.get("gradient_witnessed") is not expected_witness:
+            errors.append("drive.gradient_witnessed must equal (magnitude > tolerance)")
+
+    response_rows = _as_list(drive.get("candidate_responses"), "drive.candidate_responses", errors)
+    if not response_rows:
+        errors.append("drive.candidate_responses must not be empty")
+    coupled_responses: set[str] = set()
+    for index, raw in enumerate(response_rows):
+        row = _as_dict(raw, f"drive.candidate_responses[{index}]", errors)
+        candidate = row.get("candidate")
+        if candidate not in candidate_by_id:
+            errors.append(f"drive.candidate_responses[{index}] references an unknown candidate")
+        if not _finite_number(row.get("delta")):
+            errors.append(f"drive.candidate_responses[{index}].delta must be a finite number")
+        if not isinstance(row.get("coupled"), bool):
+            errors.append(f"drive.candidate_responses[{index}].coupled must be boolean")
+        if row.get("coupled") is True and _finite_number(row.get("delta")):
+            if not _finite_number(tolerance) or abs(float(row["delta"])) > float(tolerance):
+                coupled_responses.add(candidate)
+
     open_world = _as_dict(data.get("open_world"), "open_world", errors)
     if open_world.get("global_minimum_claimed") is not False:
         errors.append("open_world.global_minimum_claimed must be false")
@@ -325,6 +386,63 @@ def validate_receipt(receipt: Any) -> list[str]:
             errors.append(f"entropy_geometry.{field} must be false")
     if entropy_geometry.get("applicable") is True and entropy_geometry.get("single_surface") is not True:
         errors.append("applicable entropy/geometry claims must use a single distinction surface")
+    if drive.get("kind") == "typed_entropy_gradient":
+        if entropy_geometry.get("applicable") is not True:
+            errors.append("typed_entropy_gradient requires entropy_geometry.applicable true")
+        if drive.get("entropy_type") == "untyped_root_precursor":
+            errors.append("typed_entropy_gradient requires an earned named entropy_type")
+
+    transition = _as_dict(data.get("transition"), "transition", errors)
+    decision = transition.get("decision")
+    if decision not in {CLIMB_DECISION, *HOLD_DECISIONS, "REOPEN"}:
+        errors.append("transition.decision is not a recognized Ratchet decision")
+    if not _nonempty_text(transition.get("reason")):
+        errors.append("transition.reason must be non-empty text")
+    selected_raw = _as_list(
+        transition.get("selected_frontier_members"),
+        "transition.selected_frontier_members",
+        errors,
+    )
+    selected = {x for x in selected_raw if isinstance(x, str)}
+    if len(selected) != len(selected_raw):
+        errors.append("transition.selected_frontier_members must contain unique candidate ids")
+    if selected - declared_frontier:
+        errors.append("transition.selected_frontier_members must be a subset of declared_frontier")
+    if not isinstance(transition.get("evidence_tooth_recorded"), bool):
+        errors.append("transition.evidence_tooth_recorded must be boolean")
+
+    if decision == CLIMB_DECISION:
+        for field in ("licensed", "gradient_witnessed", "intrinsic", "obligation_coupled"):
+            if drive.get(field) is not True:
+                errors.append(f"CLIMB requires drive.{field} true")
+        if not coupled_responses:
+            errors.append("CLIMB requires a nonzero obligation-coupled candidate response")
+        if not selected:
+            errors.append("CLIMB requires at least one selected frontier member")
+        if transition.get("evidence_tooth_recorded") is not True:
+            errors.append("CLIMB requires evidence_tooth_recorded true")
+        for family in (
+            "gradient_freeze",
+            "gradient_closure",
+            "gradient_injection",
+            "gradient_obligation_coupling",
+        ):
+            control = control_by_family.get(family, {})
+            if control.get("result") != "pass" or control.get("fired") is not True:
+                errors.append(f"CLIMB requires passing, fired {family!r} control")
+    elif decision in HOLD_DECISIONS:
+        if selected:
+            errors.append(f"{decision} must not select frontier members")
+        if transition.get("evidence_tooth_recorded") is not False:
+            errors.append(f"{decision} must not record a Ratchet tooth")
+        if decision == "HOLD_NO_GRADIENT" and drive.get("gradient_witnessed") is not False:
+            errors.append("HOLD_NO_GRADIENT requires drive.gradient_witnessed false")
+        if decision == "HOLD_UNLICENSED_GRADIENT" and drive.get("licensed") is not False:
+            errors.append("HOLD_UNLICENSED_GRADIENT requires drive.licensed false")
+        if decision == "HOLD_EXTRINSIC_DRIVE" and drive.get("intrinsic") is not False:
+            errors.append("HOLD_EXTRINSIC_DRIVE requires drive.intrinsic false")
+        if decision == "HOLD_UNCOUPLED_GRADIENT" and drive.get("obligation_coupled") is not False:
+            errors.append("HOLD_UNCOUPLED_GRADIENT requires drive.obligation_coupled false")
 
     status = _as_dict(data.get("status"), "status", errors)
     if status.get("self_promotes") is not False:
@@ -334,6 +452,8 @@ def validate_receipt(receipt: Any) -> list[str]:
     if status.get("claim_ceiling") == "ratchet_earned_provisional" and independent_audit.get("performed") is not True:
         errors.append("ratchet_earned_provisional requires a performed independent audit")
     if status.get("lifecycle_status") == PROVISIONAL_STATUS:
+        if decision != CLIMB_DECISION:
+            errors.append("PROVISIONAL_MSS requires transition.decision CLIMB")
         if not declared_frontier:
             errors.append("PROVISIONAL_MSS requires a non-empty frontier")
         failed_controls = [
@@ -347,9 +467,16 @@ def validate_receipt(receipt: Any) -> list[str]:
             errors.append("PROVISIONAL_MSS requires at least two declared candidate families")
         if coverage_has_open:
             errors.append("PROVISIONAL_MSS cannot leave a registered one-step weakening open")
+    if decision in HOLD_DECISIONS:
+        if status.get("lifecycle_status") != decision:
+            errors.append(f"{decision} requires matching status.lifecycle_status")
+        if status.get("claim_ceiling") == "ratchet_earned_provisional":
+            errors.append(f"{decision} cannot have ratchet_earned_provisional claim ceiling")
 
     next_rung = data.get("next_rung")
     if next_rung is not None:
+        if decision != CLIMB_DECISION:
+            errors.append("next_rung requires transition.decision CLIMB")
         next_obj = _as_dict(next_rung, "next_rung", errors)
         if not _nonempty_text(next_obj.get("demanded_distinction")):
             errors.append("next_rung.demanded_distinction must be non-empty")
@@ -415,11 +542,15 @@ def _load(path: Path) -> Any:
 
 def run_self_test() -> list[str]:
     fixture_path = Path(__file__).resolve().parent / "examples" / "process_fixture.json"
+    hold_fixture_path = Path(__file__).resolve().parent / "examples" / "no_gradient_hold_fixture.json"
     fixture = _load(fixture_path)
+    hold_fixture = _load(hold_fixture_path)
     failures: list[str] = []
 
     if validate_receipt(fixture):
         failures.append("valid fixture was rejected")
+    if validate_receipt(hold_fixture):
+        failures.append("valid no-gradient HOLD fixture was rejected")
 
     mutations: list[tuple[str, Any]] = []
 
@@ -468,6 +599,41 @@ def run_self_test() -> list[str]:
     unaudited_admission["status"]["claim_ceiling"] = "ratchet_earned_provisional"
     mutations.append(("unaudited Ratchet admission", unaudited_admission))
 
+    zero_gradient_climb = copy.deepcopy(fixture)
+    zero_gradient_climb["drive"]["potential_after"] = zero_gradient_climb["drive"]["potential_before"]
+    zero_gradient_climb["drive"]["magnitude"] = 0.0
+    zero_gradient_climb["drive"]["gradient_witnessed"] = False
+    mutations.append(("zero-gradient climb", zero_gradient_climb))
+
+    extrinsic_climb = copy.deepcopy(fixture)
+    extrinsic_climb["drive"]["intrinsic"] = False
+    mutations.append(("extrinsic drive climb", extrinsic_climb))
+
+    uncoupled_climb = copy.deepcopy(fixture)
+    uncoupled_climb["drive"]["obligation_coupled"] = False
+    for row in uncoupled_climb["drive"]["candidate_responses"]:
+        row["coupled"] = False
+    mutations.append(("uncoupled gradient climb", uncoupled_climb))
+
+    missing_drive = copy.deepcopy(fixture)
+    missing_drive.pop("drive")
+    mutations.append(("missing drive record", missing_drive))
+
+    false_magnitude = copy.deepcopy(fixture)
+    false_magnitude["drive"]["magnitude"] = 99.0
+    mutations.append(("false gradient magnitude", false_magnitude))
+
+    hold_with_tooth = copy.deepcopy(hold_fixture)
+    hold_with_tooth["transition"]["evidence_tooth_recorded"] = True
+    mutations.append(("no-gradient hold records tooth", hold_with_tooth))
+
+    hold_with_next_rung = copy.deepcopy(hold_fixture)
+    hold_with_next_rung["next_rung"] = {
+        "demanded_distinction": "Synthetic forbidden next rung.",
+        "predecessor_projection": "Synthetic forbidden projection.",
+    }
+    mutations.append(("no-gradient hold advances rung", hold_with_next_rung))
+
     for label, mutated in mutations:
         if not validate_receipt(mutated):
             failures.append(f"invalid mutation was accepted: {label}")
@@ -509,7 +675,7 @@ def main() -> int:
                 print(f"FAIL {failure}")
             return 1
         print("PASS ratchet_process_integrity")
-        print("valid fixture/ledger accepted; eleven anti-drift receipt and dependency mutations rejected")
+        print("valid CLIMB/HOLD fixtures and ledger accepted; anti-drift receipt and dependency mutations rejected")
         return 0
 
     try:
