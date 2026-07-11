@@ -6,8 +6,9 @@ It does not make any model object true. The Ratchet may provisionally earn only 
 
 ## 0. Compact law
 
-> **Root in constrained distinguishability. Search wide. Lower first. Gate hard. Keep a frontier. Admit narrowly and
-> provisionally. Preserve every informative death. Reopen whenever a weaker survivor appears.**
+> **Root in constrained distinguishability. Move only on its gradient — no gradient, no ratchet. Search wide. Lower
+> first. Gate hard. Keep a frontier. Admit narrowly and provisionally. Preserve every informative death. Reopen whenever
+> a weaker survivor appears.**
 
 The wiki, repositories, specs, zips, messages, simulations, and model outputs are the variation pool feeding the
 Ratchet. They are not a truth database. A simulation is an instrument. A receipt records what happened. Neither promotes
@@ -120,6 +121,44 @@ functional must be earned at the layer where its mathematical prerequisites exis
 There is no independent claim-bearing `G_t` plus `E_t` state. A geometry/entropy split control must try to change one
 while freezing the full distinction surface. If it succeeds, the proposed one-object presentation is incomplete or the
 identity claim fails at that scope.
+
+### 3.1 The drive: the ratchet moves only on a distinguishability gradient
+
+MSS (§4), the weakening grammar, controls, and receipts are the ratchet's *mechanism* — the pawl and teeth. They say
+which next structure is admissible. They do **not** say why the ratchet advances at all. The **drive** is that reason,
+and it is not optional bookkeeping: **if there is no gradient in constrained distinguishability, there is no reason for
+the ratchet to ratchet.** A flat distinction surface — nothing left to resolve, no admissible-future spread, no
+unresolved pair — supplies no next demand, and the ratchet is at rest at that scope. Motion requires a slope.
+
+Because entropy and geometry are co-views of one surface (§3), the drive has one magnitude read three ways, never three
+independent drives:
+
+- **Entropy face:** the gradient of remaining/erasable distinguishability — how much is still unresolved, and in which
+  direction resolving it is steepest. This is the face the owner names "entropy gradient."
+- **Geometry face:** the slope of the information metric (the BKM relative-entropy Hessian at earned rungs) — distance
+  still to travel on the distinction surface.
+- **Operator face:** which admissible transformation moves *down* that slope (resolves a distinction) versus merely
+  relabels it (moves along a level set, drive zero).
+
+**Drive law (required, defeasible like every rung):** a candidate step is a genuine ratchet advance only if it is driven
+by this intrinsic gradient — the drive must (a) be **intrinsic**, computed from the distinction surface itself, not
+injected by the searcher; (b) **vanish at demand-closure** — when the pair/region it targets is fully resolved, the
+drive reads ~0 and licenses no further motion there; and (c) **track the room** — larger unresolved distinguishability
+gives a larger drive. A step whose "drive" does not vanish when its demand is closed, or does not fall when the room is
+removed, is a random walk dressed as a climb, and admits nothing.
+
+This is already earned, not asserted. Measured in the bundle:
+`axis0_entropy_gradient_engine_pair_endtoend_sim.py` (the engine-pair gradient closes an Axis-0 bookend);
+`cosmogenesis_ratchet_first_tooth_sim.py` (`entropy_gradient_intrinsic_opens_with_carrier = true` — the first tooth of
+creation is the drive turning on as the norm-preserving carrier appears); `axis0_drive_fair_n01_test_sim.py` (a
+move-matched **dead twin** with the live drive erased is *indistinguishable* under order-invariant readouts — the drive
+earns nothing for free, it must be read through N01 order). The negative controls are the point: a drive that cannot
+read zero on a closed demand is not a drive.
+
+**Cosmogenesis is the drive's origin case.** The owner's creation model *is* this law at rung zero: a static field of
+undifferentiated possibility has no gradient and cannot evolve; the first persistent carrier introduces the first
+distinguishability difference, the gradient turns on, and that gradient is the first tooth. "Dark energy first" and
+"the ratchet ratchets" are the same statement — the drive is why there is something rather than a frozen fuzz.
 
 ## 4. MSS is an anytime frontier, not a final minimum
 
