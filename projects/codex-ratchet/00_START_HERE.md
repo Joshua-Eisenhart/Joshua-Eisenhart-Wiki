@@ -11,7 +11,7 @@ unless a scoped Ratchet receipt says otherwise._
 
 ---
 
-<!--LIVE_HARNESS-->**Harness now: 146 pass / 0 fail / 0 skip -- green=True** (stamped 2026-07-11 06:17 UTC)<!--/LIVE_HARNESS-->
+<!--LIVE_HARNESS-->**Harness now: 146 pass / 0 fail / 0 skip -- green=True** (stamped 2026-07-11 06:39 UTC)<!--/LIVE_HARNESS-->
 
 > **RATCHET_V0_4_WORKING_PROCESS:** `RATCHET_SPEC.md` v0.4 supersedes every older process description in this
 > bundle. v0.3 is specifically rejected as an admission validator that did not run the Ratchet. Old numerical receipts
@@ -140,7 +140,7 @@ The Ratchet builds a provisional receipt DAG in the order constraints bind; it n
 
 ### 5c. What is built and running at fixture-local ceilings
 - **Co-ratchet runs:** `coupled_coratchet_dualloop_sim` (cooling S→0 Landauer / heating S→1; left−right entropy flux +0.31 sign-consistent over 200 probes; z3=cvc5=2 chiralities, 16 stages). `coratchet_depth_ladder_from_foundations` forces depth = 4 rungs to the substage floor (R5 micro-realizations free).
-- **Manifold spine L1–L5** (build-ladder) earned, with one v0.4 re-audit correction: at **L5**, the weakest survivor is a **one-dimensional scalar stratum** (schmidt-radius / negativity / purity / entropy, mutually equivalent), and **nested-shell geometry is DEMOTED to SURVIVES-BUT-NONMINIMAL** (an oriented-connection counter-surface still favours stronger structure where it is genuinely needed, so the gate is not reject-by-construction). L5's numerical sweep + L7 Berry / L8 Chern *mathematics* are preserved; their *scientific* admission reopens (`ratchet/runs/manifold_L5_reaudit_v0_4.json`). **Surface identity** (entropy Hessian = BKM metric, same tensor, 5e-8; deformed control separable) SMT-confirmed. **Access law** (8/8 partition; non-8/8 UNSAT) z3+cvc5 proven.
+- **Manifold spine L1–L5** (build-ladder) programmed-checks pass (pedagogical realization, not Ratchet admission — see §"reported fixture spine" caveat above). A v0.4 attempt to re-audit L5 through the working engine was itself **audit-killed as tautological** (see run-list item 4 below); nested-shell-vs-scalar-stratum at L5 is an OPEN DIG, not a settled demotion. **Surface identity** (entropy Hessian = BKM metric, same tensor, 5e-8; deformed control separable) SMT-confirmed. **Access law** (8/8 partition; non-8/8 UNSAT) z3+cvc5 proven.
 - **Three-level floor (UP-144):** QIT↔reaction-network unification is vacuous at d=2, non-generic at d=3 — an independent dimensional threshold.
 - **HONEST GAP:** the Axis-0 four-way sign doctrine (Ne/Ni positive, Se/Si negative) is **NOT realized** at density level — only the Ni terrains go negative (dS: Ni −0.56; Se +0.03, Ne +0.05, Si +0.04). Open rung.
 
@@ -166,8 +166,8 @@ registry wins. Do not canonize v4/v5/v6 language — those are working-reference
 ```
 TOP LEVEL = only what you run or read first:
   00_START_HERE.md        this file (entry point)
-  RATCHET_SPEC.md         the v0.4 working DIG→GATE→RECEIPT process authority (governs)
   ESTATE_REGISTRY.yaml    which estate/tool is current + tool-status vocabulary (mirrors the repo's canonical copy)
+  RATCHET_SPEC.md         the v0.4 working DIG→GATE→RECEIPT process authority (governs)
   run_all.py              the harness (145 registered sims; run it)
   requirements.txt        deps;  LAPTOP_RUN.sh  one-command laptop run
   generate_bundle_docs.py regenerates docs/ + manifest from live state
@@ -190,8 +190,12 @@ FOLDERS:
    continuing discriminators.
 3. `ratchet/runs/root_history_run_v0_4.json` — the complete executed two-gate trace; inspect this before claims that the
    Ratchet ran.
-4. `ratchet/runs/manifold_L5_reaudit_v0_4.json` — actual L5/L7/L8 evidence re-ratcheted; nested-shell geometry survives
-   but is nonminimal to a scalar stratum frontier.
+4. `ratchet/runs/manifold_L5_reaudit_v0_4.json` — a process-DEMO of the demotion mechanism ONLY. Its positive verdict
+   (nested-shell geometry nonminimal to a scalar stratum) was **WITHDRAWN as evidence** by a fresh audit
+   (`ratchet/runs/L5_REAUDIT_AUDIT_KILLED_NOTE.md`): the candidates, including nested_shell_geometry itself, all compute
+   the same `abs(cos(2·angle))` the ground-truth generator uses, so the "demotion" compared assumption-counts over
+   numerically identical predictions. What survived: the negative controls, the orientation counter-surface, determinism.
+   A real L5 re-audit needs candidates that are not the answer key restated — this is an OPEN DIG.
 5. `ratchet/GRADIENT_DRIVE.md` — gradient generation, gate-specific controls, and nonterminal missing-witness semantics.
 6. `ratchet/README.md` + `ratchet/CURRENT_FRONTIER.md` + `ratchet/CA_MSS_RESEARCH_PROGRAM.md` — commands, exact earning
    boundary, and CA/ring-checkerboard expansion lane.
