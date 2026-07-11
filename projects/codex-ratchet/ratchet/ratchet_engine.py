@@ -1,28 +1,36 @@
 #!/usr/bin/env python3
-"""Executable DIG -> GATE -> RECEIPT Ratchet.
+"""Order-open finite Ratchet v0.5.
 
-Exploration is permissive: candidate structures, gradients, controls, and
-countermodels are generated before adjudication. Admission is strict and
-packet-relative. A finite budget ends a run, never the global search.
+This is a process engine, not a manifold result.  It treats candidate
+presentations, demand/gate boundaries, gate order, gate decomposition,
+weakness, and gradients as proposal populations.  Admission is strict inside
+the finite packet; no finite packet is global canon.
+
+The shipped packet deliberately exercises a large proposal population and all
+ordered set-partitions of four demand families.  That explores fused gates,
+split gates, and every ordering without promoting the serialized list order.
 """
 
 from __future__ import annotations
 
 import argparse
 import copy
+import hashlib
 import itertools
 import json
 import math
 import sys
 from collections import Counter, defaultdict
 from pathlib import Path
-from typing import Any
+from typing import Any, Iterable, Iterator, Sequence
 
 
-SCHEMA_VERSION = "ratchet-search-run/0.4"
+SCHEMA_VERSION = "ratchet-order-open-run/0.5"
+PACKET_SCHEMA_VERSION = "ratchet-order-open-packet/0.5"
 ROOT_PRIMITIVE = "constrained_distinguishability"
+PROCESS_LAW = "ORDER_AND_GATE_BOUNDARIES_ARE_PROPOSALS__EXPLORE_MASSIVELY__ADMIT_PACKET_RELATIVE_MSS"
 CURRENT_DIR = Path(__file__).resolve().parent
-DEFAULT_PACKET = CURRENT_DIR / "examples" / "root_history_packet_v0_4.json"
+DEFAULT_PACKET = CURRENT_DIR / "examples" / "root_order_open_packet_v0_5.json"
 
 
 def _load(path: Path) -> Any:
@@ -37,15 +45,74 @@ def _dump(path: Path, data: Any) -> None:
         handle.write("\n")
 
 
-def generate_observations(probes: list[str], gate: dict[str, Any]) -> list[dict[str, Any]]:
-    """Generate a finite carrier-neutral distinction record.
+def _sha_json(data: Any) -> str:
+    raw = json.dumps(data, sort_keys=True, separators=(",", ":"), ensure_ascii=True)
+    return hashlib.sha256(raw.encode("utf-8")).hexdigest()
 
-    Marks are presentation tokens only. The rule is used to generate the
-    finite observation surface, not exposed to candidate fitters.
+
+def _normalise_partition(values: Sequence[Any]) -> tuple[int, ...]:
+    labels: dict[Any, int] = {}
+    result: list[int] = []
+    for value in values:
+        if value not in labels:
+            labels[value] = len(labels)
+        result.append(labels[value])
+    return tuple(result)
+
+
+def _restricted_growth_strings(size: int) -> list[tuple[int, ...]]:
+    """All set partitions as canonical block-label mappings."""
+    if size < 1:
+        return [()]
+    rows: list[tuple[int, ...]] = []
+
+    def visit(prefix: list[int], maximum: int) -> None:
+        if len(prefix) == size:
+            rows.append(tuple(prefix))
+            return
+        for label in range(maximum + 2):
+            prefix.append(label)
+            visit(prefix, max(maximum, label))
+            prefix.pop()
+
+    visit([0], 0)
+    return rows
+
+
+def _set_partitions(items: tuple[str, ...]) -> Iterator[tuple[tuple[str, ...], ...]]:
+    """Unordered set partitions, one canonical representation each."""
+    if not items:
+        yield ()
+        return
+    first, rest = items[0], items[1:]
+    for partition in _set_partitions(rest):
+        yield ((first,),) + partition
+        for index in range(len(partition)):
+            block = tuple(sorted((first,) + partition[index]))
+            yield partition[:index] + (block,) + partition[index + 1 :]
+
+
+def ordered_gate_hypotheses(items: Sequence[str]) -> list[tuple[tuple[str, ...], ...]]:
+    """All ordered set partitions: order and gate granularity both vary."""
+    unique: set[tuple[tuple[str, ...], ...]] = set()
+    for partition in _set_partitions(tuple(items)):
+        canonical = tuple(sorted(partition))
+        for ordered in itertools.permutations(canonical):
+            unique.add(tuple(ordered))
+    return sorted(unique, key=lambda row: (len(row), row))
+
+
+def generate_observations(packet: dict[str, Any]) -> list[dict[str, Any]]:
+    """Generate a finite distinction surface for process testing.
+
+    The hidden dependency is used only here.  Candidate compilers receive the
+    emitted rows, never this rule or ``dependency_depth``.
     """
-    history_length = int(gate["history_length"])
-    dependency_depth = int(gate["dependency_depth"])
-    outcomes = list(gate["outcomes"])
+    surface = packet["observation_surface"]
+    probes = list(surface["probe_symbols"])
+    history_length = int(surface["history_length"])
+    dependency_depth = int(surface["dependency_depth"])
+    outcomes = list(surface["outcomes"])
     probe_index = {probe: index for index, probe in enumerate(probes)}
     rows: list[dict[str, Any]] = []
     for history in itertools.product(probes, repeat=history_length):
@@ -54,518 +121,738 @@ def generate_observations(probes: list[str], gate: dict[str, Any]) -> list[dict[
             code = probe_index[current]
             for offset, token in enumerate(reversed(relevant), start=1):
                 code += (offset + 1) * probe_index[token]
-            outcome = outcomes[code % len(outcomes)]
             rows.append(
                 {
+                    "row_id": len(rows),
                     "history": list(history),
                     "probe": current,
-                    "outcome": outcome,
+                    "outcome": outcomes[code % len(outcomes)],
                 }
             )
     return rows
 
 
-def commuting_control(rows: list[dict[str, Any]], probes: list[str], outcomes: list[str]) -> list[dict[str, Any]]:
-    """Erase order-dependence while preserving row count and syntax."""
-    probe_index = {probe: index for index, probe in enumerate(probes)}
-    controlled = copy.deepcopy(rows)
-    for row in controlled:
-        row["outcome"] = outcomes[probe_index[row["probe"]] % len(outcomes)]
-    return controlled
+def _binary_outcome(value: str) -> str:
+    return "distinguished" if value == "distinguished" else "not_distinguished"
 
 
-def relabel_probes(rows: list[dict[str, Any]], probes: list[str]) -> tuple[list[dict[str, Any]], dict[str, str]]:
-    renamed = [f"mark_{index}" for index in reversed(range(len(probes)))]
-    mapping = dict(zip(probes, renamed))
-    result = copy.deepcopy(rows)
-    for row in result:
-        row["history"] = [mapping[token] for token in row["history"]]
-        row["probe"] = mapping[row["probe"]]
-    return result, mapping
+def build_demand_families(rows: list[dict[str, Any]]) -> dict[str, list[tuple[int, int]]]:
+    """Mine four rival demand families from the emitted records.
 
-
-def collapse_to_binary(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    result = copy.deepcopy(rows)
-    for row in result:
-        row["outcome"] = "distinguished" if row["outcome"] == "distinguished" else "not_distinguished"
-    return result
-
-
-def candidate_specs(packet: dict[str, Any]) -> list[dict[str, Any]]:
-    axes = packet["exploration"]["candidate_axes"]
-    implemented = set(packet["exploration"]["implemented_carriers"])
-    specs: list[dict[str, Any]] = []
-    for depth, mode, carrier in itertools.product(
-        axes["memory_depth"], axes["outcome_mode"], axes["carrier"]
-    ):
-        specs.append(
-            {
-                "id": f"{carrier}__memory_{depth}__{mode}",
-                "memory_depth": int(depth),
-                "outcome_mode": mode,
-                "carrier": carrier,
-                "implemented": carrier in implemented,
-            }
-        )
-    return specs
-
-
-def assumptions_for(spec: dict[str, Any]) -> set[str]:
-    assumptions = {"finite_event_syntax", "supplied_ordered_update"}
-    depth = int(spec["memory_depth"])
-    if depth >= 1:
-        assumptions.add("one_step_history")
-    if depth >= 2:
-        assumptions.add("two_step_history")
-    if spec["outcome_mode"] == "partial4":
-        assumptions.add("four_status_partial_outcome")
-    else:
-        assumptions.add("binary_totalization")
-
-    carrier_additions = {
-        "partial_relation": set(),
-        "finite_transducer": {"persistent_state_identity", "transition_machine"},
-        "directed_graph": {"persistent_state_identity", "graph_vertices", "labeled_edges"},
-        "asynchronous_rewrite": {"rewrite_sites", "local_rewrite_rules"},
-        "ring_checkerboard": {
-            "cell_identity",
-            "cyclic_adjacency",
-            "parity_partition",
-            "synchronous_schedule",
-        },
-        "complex_density": {
-            "complex_vector_space",
-            "normalization",
-            "operator_algebra",
-            "density_representation",
-            "measurement_rule",
-        },
+    A demand edge means that two finite observations must remain
+    distinguishable.  The families are possible gate boundaries, not rungs.
+    """
+    families: dict[str, set[tuple[int, int]]] = {
+        "probe_contrast": set(),
+        "recent_history_contrast": set(),
+        "deep_history_contrast": set(),
+        "partial_outcome_contrast": set(),
     }
-    assumptions.update(carrier_additions[spec["carrier"]])
-    return assumptions
-
-
-def key_for(row: dict[str, Any], memory_depth: int) -> tuple[str, ...]:
-    history = tuple(row["history"][-memory_depth:]) if memory_depth else ()
-    return history + (row["probe"],)
-
-
-def allowed_outputs(mode: str) -> tuple[str, ...]:
-    if mode == "partial4":
-        return ("distinguished", "not_distinguished", "unresolved", "inadmissible")
-    return ("distinguished", "not_distinguished")
-
-
-def fit_candidate(rows: list[dict[str, Any]], spec: dict[str, Any]) -> dict[str, Any]:
-    assumptions = assumptions_for(spec)
-    base = {
-        **spec,
-        "assumptions": sorted(assumptions),
-    }
-    if not spec["implemented"]:
-        return {
-            **base,
-            "status": "PARKED_UNIMPLEMENTED",
-            "fit_errors": None,
-            "merged_distinction_pairs": None,
-            "representation": None,
-            "reason": "proposal explored, but no executable compiler is present in this packet",
-        }
-
-    groups: dict[tuple[str, ...], list[str]] = defaultdict(list)
-    for row in rows:
-        groups[key_for(row, int(spec["memory_depth"]))].append(row["outcome"])
-
-    allowed = allowed_outputs(spec["outcome_mode"])
-    table: dict[tuple[str, ...], str] = {}
-    errors = 0
-    merged_pairs = 0
-    for key, observed in groups.items():
-        counts = Counter(value for value in observed if value in allowed)
-        if counts:
-            prediction = min(allowed, key=lambda value: (-counts[value], allowed.index(value)))
-        else:
-            prediction = allowed[0]
-        table[key] = prediction
-        errors += sum(value != prediction for value in observed)
-        for left, right in itertools.combinations(observed, 2):
-            merged_pairs += int(left != right)
-
-    carrier = spec["carrier"]
-    if carrier == "partial_relation":
-        representation = {"kind": carrier, "table_cells": len(table)}
-    elif carrier == "finite_transducer":
-        states = {key[:-1] for key in table}
-        representation = {
-            "kind": carrier,
-            "states": len(states),
-            "transitions": len(table),
-            "roundtrip_checked": True,
-        }
-    elif carrier == "directed_graph":
-        nodes = {key[:-1] for key in table}
-        representation = {
-            "kind": carrier,
-            "nodes": len(nodes),
-            "labeled_edges": len(table),
-            "path_readout_checked": True,
-        }
-    elif carrier == "asynchronous_rewrite":
-        states = {key[:-1] for key in table}
-        representation = {
-            "kind": carrier,
-            "finite_local_states": len(states),
-            "ordered_rewrite_rules": len(table),
-            "asynchronous_step_roundtrip_checked": True,
-            "ceiling": "finite encoding; no claim that locality is forced",
-        }
-    elif carrier == "ring_checkerboard":
-        states = {key[:-1] for key in table}
-        representation = {
-            "kind": carrier,
-            "ring_sites": max(2, 2 * len(states)),
-            "checkerboard_phases": 2,
-            "encoded_transition_rules": len(table),
-            "finite_schedule_roundtrip_checked": True,
-            "ceiling": "encoding witness only; lower-level emergence from homogeneous local rules remains open",
-        }
-    elif carrier == "complex_density":
-        # Exact diagonal embedding: one orthogonal basis state per finite key,
-        # one diagonal effect per outcome. This genuinely reconstructs the
-        # table but uses no coherence, so it cannot establish a quantum lift.
-        keys = sorted(table)
-        outcome_effect_support = {
-            outcome: sum(table[key] == outcome for key in keys)
-            for outcome in allowed
-        }
-        born_exact = sum(outcome_effect_support.values()) == len(keys)
-        representation = {
-            "kind": carrier,
-            "hilbert_dimension": len(keys),
-            "diagonal_density_embedding": True,
-            "diagonal_effect_support": outcome_effect_support,
-            "born_readout_exact_on_all_keys": born_exact,
-            "coherence_used": False,
-            "ceiling": "classical diagonal encoding; no quantum necessity or advantage",
-        }
-    else:
-        raise AssertionError(f"implemented carrier lacks compiler: {carrier}")
-
-    return {
-        **base,
-        "status": "SURVIVOR" if errors == 0 else "KILLED_INADEQUATE",
-        "fit_errors": errors,
-        "merged_distinction_pairs": merged_pairs,
-        "representation_cells": len(table),
-        "representation": representation,
-        "reason": "preserves every finite observation" if errors == 0 else "merges or mis-types observed distinctions",
-    }
-
-
-def strict_weaker(left: dict[str, Any], right: dict[str, Any]) -> bool:
-    left_assumptions = set(left["assumptions"])
-    right_assumptions = set(right["assumptions"])
-    return left_assumptions < right_assumptions
-
-
-def minimal_frontier(results: list[dict[str, Any]]) -> list[str]:
-    survivors = [row for row in results if row["status"] == "SURVIVOR"]
-    frontier = []
-    for candidate in survivors:
-        if not any(
-            rival["id"] != candidate["id"] and strict_weaker(rival, candidate)
-            for rival in survivors
+    for left, right in itertools.combinations(rows, 2):
+        if left["outcome"] == right["outcome"]:
+            continue
+        pair = (int(left["row_id"]), int(right["row_id"]))
+        if left["history"] == right["history"] and left["probe"] != right["probe"]:
+            families["probe_contrast"].add(pair)
+        if (
+            left["probe"] == right["probe"]
+            and left["history"][:-1] == right["history"][:-1]
+            and left["history"][-1] != right["history"][-1]
         ):
-            frontier.append(candidate["id"])
-    return sorted(frontier)
+            families["recent_history_contrast"].add(pair)
+        if (
+            left["probe"] == right["probe"]
+            and left["history"][-1] == right["history"][-1]
+            and left["history"][:-1] != right["history"][:-1]
+        ):
+            families["deep_history_contrast"].add(pair)
+        if _binary_outcome(left["outcome"]) == _binary_outcome(right["outcome"]):
+            families["partial_outcome_contrast"].add(pair)
+    return {name: sorted(pairs) for name, pairs in families.items()}
 
 
-def outcome_entropy(rows: list[dict[str, Any]]) -> float:
-    counts = Counter(row["outcome"] for row in rows)
-    total = len(rows)
-    return -sum((count / total) * math.log(count / total) for count in counts.values())
+def _stable_bucket(value: Any, modulus: int) -> int:
+    digest = hashlib.sha256(repr(value).encode("utf-8")).digest()
+    return int.from_bytes(digest[:8], "big") % modulus
 
 
-def label_code_score(rows: list[dict[str, Any]], result: dict[str, Any]) -> float:
-    tokens = sorted({token for row in rows for token in row["history"] + [row["probe"]]})
-    token_score = sum(ord(char) for token in tokens for char in token)
-    return float(token_score * max(1, result.get("representation_cells", 0)))
+def _summary_feature(
+    history: tuple[int, ...],
+    kind: str,
+    phase_mod: int,
+    alphabet_size: int,
+) -> Any:
+    if kind == "ordered_suffix":
+        return history
+    if kind == "unordered_bag":
+        return tuple(sorted(history))
+    if kind == "set_only":
+        return tuple(sorted(set(history)))
+    if kind == "last_only":
+        return history[-1:] if history else ()
+    if kind == "first_only":
+        return history[:1]
+    if kind == "endpoints":
+        return (history[0], history[-1]) if history else ()
+    if kind == "parity_counts":
+        return tuple(history.count(index) % phase_mod for index in range(alphabet_size))
+    if kind == "transition_counts":
+        counts = Counter(zip(history, history[1:]))
+        return tuple(
+            counts[(left, right)] % phase_mod
+            for left in range(alphabet_size)
+            for right in range(alphabet_size)
+        )
+    if kind == "rolling_hash":
+        value = 0
+        for token in history:
+            value = (value * (alphabet_size + 1) + token + 1) % phase_mod
+        return value
+    raise ValueError(f"unknown history summary {kind!r}")
 
 
-def gradient_value(kind: str, rows: list[dict[str, Any]], result: dict[str, Any]) -> float:
-    if kind == "partition_conflict_mass":
-        return float(result["fit_errors"])
-    if kind == "merged_distinction_pairs":
-        return float(result["merged_distinction_pairs"])
-    if kind == "outcome_shannon_entropy":
-        return outcome_entropy(rows)
-    if kind == "representation_cells":
-        return float(result["representation_cells"])
-    if kind == "injected_constant":
-        return 1.0
-    if kind == "label_code_score":
-        return label_code_score(rows, result)
-    raise ValueError(f"unknown gradient hypothesis {kind!r}")
+def _candidate_specs(packet: dict[str, Any]) -> Iterator[dict[str, Any]]:
+    grammar = packet["candidate_grammar"]
+    probes = packet["observation_surface"]["probe_symbols"]
+    token_partitions = _restricted_growth_strings(len(probes))
+    probe_partitions = _restricted_growth_strings(len(probes))
+    for depth, summary, token_partition, probe_partition, phase_mod, bucket_mod in itertools.product(
+        grammar["memory_depth"],
+        grammar["history_summary"],
+        token_partitions,
+        probe_partitions,
+        grammar["phase_mod"],
+        grammar["bucket_mod"],
+    ):
+        spec = {
+            "memory_depth": int(depth),
+            "history_summary": str(summary),
+            "token_partition": token_partition,
+            "probe_partition": probe_partition,
+            "phase_mod": int(phase_mod),
+            "bucket_mod": int(bucket_mod),
+        }
+        spec["id"] = (
+            f"d{depth}:{summary}:t{''.join(map(str, token_partition))}:"
+            f"p{''.join(map(str, probe_partition))}:m{phase_mod}:b{bucket_mod}"
+        )
+        yield spec
 
 
-def evaluate_gradients(
+def _proposal_count(packet: dict[str, Any]) -> int:
+    grammar = packet["candidate_grammar"]
+    probe_count = len(packet["observation_surface"]["probe_symbols"])
+    bell_count = len(_restricted_growth_strings(probe_count))
+    return (
+        len(grammar["memory_depth"])
+        * len(grammar["history_summary"])
+        * bell_count
+        * bell_count
+        * len(grammar["phase_mod"])
+        * len(grammar["bucket_mod"])
+    )
+
+
+def _candidate_assignment(
+    rows: list[dict[str, Any]],
+    probes: list[str],
+    spec: dict[str, Any],
+) -> tuple[int, ...]:
+    probe_index = {probe: index for index, probe in enumerate(probes)}
+    token_partition = spec["token_partition"]
+    probe_partition = spec["probe_partition"]
+    depth = int(spec["memory_depth"])
+    keys: list[Any] = []
+    alphabet_size = max(token_partition) + 1
+    for row in rows:
+        mapped_history = tuple(token_partition[probe_index[token]] for token in row["history"])
+        suffix = mapped_history[-depth:] if depth else ()
+        summary = _summary_feature(
+            suffix,
+            spec["history_summary"],
+            int(spec["phase_mod"]),
+            alphabet_size,
+        )
+        base = (probe_partition[probe_index[row["probe"]]], summary)
+        bucket_mod = int(spec["bucket_mod"])
+        keys.append(base if bucket_mod == 0 else ("bucket", _stable_bucket(base, bucket_mod)))
+    return _normalise_partition(keys)
+
+
+def _description_cost(spec: dict[str, Any], cell_count: int) -> tuple[Any, ...]:
+    summary_cost = {
+        "last_only": 1,
+        "first_only": 1,
+        "set_only": 2,
+        "unordered_bag": 3,
+        "endpoints": 3,
+        "parity_counts": 4,
+        "rolling_hash": 4,
+        "transition_counts": 5,
+        "ordered_suffix": 6,
+    }[spec["history_summary"]]
+    return (
+        cell_count,
+        int(spec["memory_depth"]),
+        summary_cost,
+        len(set(spec["token_partition"])),
+        len(set(spec["probe_partition"])),
+        int(spec["phase_mod"]),
+        int(spec["bucket_mod"]),
+        spec["id"],
+    )
+
+
+def explore_candidate_population(
     packet: dict[str, Any],
     rows: list[dict[str, Any]],
-    controlled_rows: list[dict[str, Any]],
-    relabeled_rows: list[dict[str, Any]],
-    baseline_spec: dict[str, Any],
-    target_spec: dict[str, Any],
-) -> list[dict[str, Any]]:
-    baseline = fit_candidate(rows, baseline_spec)
-    target = fit_candidate(rows, target_spec)
-    baseline_control = fit_candidate(controlled_rows, baseline_spec)
-    target_control = fit_candidate(controlled_rows, target_spec)
-    baseline_relabel = fit_candidate(relabeled_rows, baseline_spec)
-    target_relabel = fit_candidate(relabeled_rows, target_spec)
-    evaluated = []
-    tolerance = float(packet["exploration"]["gradient_tolerance"])
+    demands: dict[str, list[tuple[int, int]]],
+) -> tuple[list[dict[str, Any]], dict[str, Any]]:
+    """Stream parameter proposals and collapse aliases into actual behaviours."""
+    probes = list(packet["observation_surface"]["probe_symbols"])
+    budget = packet["budget"]
+    maximum = int(budget["max_candidate_proposals"])
+    batch_size = int(budget["candidate_batch_size"])
+    generated_count = _proposal_count(packet)
+    executed_limit = min(generated_count, maximum)
+    behaviours: dict[tuple[int, ...], dict[str, Any]] = {}
+    batches: list[dict[str, Any]] = []
+    population_hasher = hashlib.sha256()
+    current_hasher = hashlib.sha256()
+    batch_start = 0
+    batch_new = 0
+    batch_count = 0
 
-    for proposal in packet["exploration"]["gradient_hypotheses"]:
-        kind = proposal["kind"]
-        before = gradient_value(kind, rows, baseline)
-        after = gradient_value(kind, rows, target)
-        delta = before - after
-        control_delta = gradient_value(kind, controlled_rows, baseline_control) - gradient_value(
-            kind, controlled_rows, target_control
-        )
-        relabel_delta = gradient_value(kind, relabeled_rows, baseline_relabel) - gradient_value(
-            kind, relabeled_rows, target_relabel
-        )
-        reasons = []
-        if delta <= tolerance:
-            reasons.append("no positive coupling to the active lost distinction")
-        if not math.isclose(delta, relabel_delta, abs_tol=tolerance):
-            reasons.append("changes under admissible probe relabeling")
-        if abs(control_delta) > tolerance:
-            reasons.append("persists when the order-dependence source is erased")
-        if proposal["origin"] == "injected":
-            reasons.append("declared external score rather than an observed surface contrast")
-        evaluated.append(
-            {
-                **proposal,
-                "before": before,
-                "after": after,
-                "directed_delta": delta,
-                "commuting_control_delta": control_delta,
-                "relabel_delta": relabel_delta,
-                "status": "DRIVE_SURVIVOR" if not reasons else "KILLED_AS_DRIVE",
-                "kill_reasons": reasons,
+    for index, spec in enumerate(_candidate_specs(packet)):
+        if index >= executed_limit:
+            break
+        assignment = _candidate_assignment(rows, probes, spec)
+        cell_count = len(set(assignment))
+        behaviour_digest = _sha_json(assignment)
+        record_digest = _sha_json({"spec": spec["id"], "behaviour": behaviour_digest})
+        population_hasher.update(record_digest.encode("ascii"))
+        current_hasher.update(record_digest.encode("ascii"))
+        batch_count += 1
+        cost = _description_cost(spec, cell_count)
+        existing = behaviours.get(assignment)
+        if existing is None:
+            collapsed = {
+                family: sum(assignment[left] == assignment[right] for left, right in pairs)
+                for family, pairs in demands.items()
             }
-        )
-    return evaluated
+            behaviours[assignment] = {
+                "id": spec["id"],
+                "representative_spec": {
+                    key: (list(value) if isinstance(value, tuple) else value)
+                    for key, value in spec.items()
+                    if key != "id"
+                },
+                "description_cost": cost,
+                "assignments": assignment,
+                "partition_digest": behaviour_digest,
+                "cell_count": cell_count,
+                "variant_count": 1,
+                "collapsed_demand_edges": collapsed,
+            }
+            batch_new += 1
+        else:
+            existing["variant_count"] += 1
+            if cost < existing["description_cost"]:
+                existing["id"] = spec["id"]
+                existing["representative_spec"] = {
+                    key: (list(value) if isinstance(value, tuple) else value)
+                    for key, value in spec.items()
+                    if key != "id"
+                }
+                existing["description_cost"] = cost
 
+        if batch_count == batch_size or index + 1 == executed_limit:
+            batches.append(
+                {
+                    "batch_id": len(batches),
+                    "proposal_start": batch_start,
+                    "proposal_stop_exclusive": index + 1,
+                    "proposal_count": batch_count,
+                    "new_behaviour_classes": batch_new,
+                    "batch_digest": current_hasher.hexdigest(),
+                }
+            )
+            batch_start = index + 1
+            batch_count = 0
+            batch_new = 0
+            current_hasher = hashlib.sha256()
 
-def order_witness_matrix(rows: list[dict[str, Any]], probes: list[str]) -> dict[str, Any]:
-    by_pair: dict[tuple[str, str], Counter[str]] = defaultdict(Counter)
-    for row in rows:
-        by_pair[(row["history"][-1], row["probe"])][row["outcome"]] += 1
-    matrix = []
-    directional = 0
-    for left in probes:
-        for right in probes:
-            forward = by_pair[(left, right)].most_common(1)[0][0]
-            reverse = by_pair[(right, left)].most_common(1)[0][0]
-            differs = forward != reverse
-            directional += int(left != right and differs)
-            matrix.append({"left": left, "right": right, "forward": forward, "reverse": reverse, "differs": differs})
-    return {"rows": matrix, "directional_ordered_pairs": directional}
-
-
-def find_spec(specs: list[dict[str, Any]], depth: int, mode: str = "partial4", carrier: str = "partial_relation") -> dict[str, Any]:
-    return next(
-        spec
-        for spec in specs
-        if spec["memory_depth"] == depth and spec["outcome_mode"] == mode and spec["carrier"] == carrier
+    behaviour_rows = sorted(
+        behaviours.values(),
+        key=lambda row: (row["cell_count"], row["description_cost"], row["partition_digest"]),
     )
+    for index, row in enumerate(behaviour_rows):
+        row["behaviour_index"] = index
+        row["description_cost"] = list(row["description_cost"][:-1])
+
+    summary = {
+        "generated_parameter_proposals": generated_count,
+        "executed_parameter_proposals": executed_limit,
+        "unexecuted_parameter_proposals": generated_count - executed_limit,
+        "continuation_cursor": executed_limit if executed_limit < generated_count else None,
+        "candidate_batch_size": batch_size,
+        "candidate_batch_count": len(batches),
+        "batches": batches,
+        "behavioural_partition_classes": len(behaviour_rows),
+        "parameter_aliases": executed_limit - len(behaviour_rows),
+        "population_digest": population_hasher.hexdigest(),
+        "global_candidate_space_exhausted": False,
+        "finite_declared_grammar_exhausted": executed_limit == generated_count,
+        "counting_law": (
+            "parameter proposals and behavioural partition classes are reported separately; "
+            "aliases are never called independent structures"
+        ),
+    }
+    return behaviour_rows, summary
 
 
-def run_gate(packet: dict[str, Any], gate: dict[str, Any], specs: list[dict[str, Any]]) -> dict[str, Any]:
-    probes = list(packet["exploration"]["probe_symbols"])
-    rows = generate_observations(probes, gate)
-    control_rows = commuting_control(rows, probes, gate["outcomes"])
-    relabeled_rows, relabel_map = relabel_probes(rows, probes)
-    binary_rows = collapse_to_binary(rows)
+def _partition_coarser(left: Sequence[int], right: Sequence[int]) -> bool:
+    """Whether ``left`` is a quotient/coarsening of ``right``."""
+    mapping: dict[int, int] = {}
+    for right_label, left_label in zip(right, left, strict=True):
+        previous = mapping.setdefault(right_label, left_label)
+        if previous != left_label:
+            return False
+    return True
 
-    results = [fit_candidate(rows, spec) for spec in specs]
-    frontier = minimal_frontier(results)
-    dependency_depth = int(gate["dependency_depth"])
-    baseline_depth = max(0, dependency_depth - 1)
-    baseline_spec = find_spec(specs, baseline_depth)
-    target_spec = find_spec(specs, dependency_depth)
-    baseline = fit_candidate(rows, baseline_spec)
-    target = fit_candidate(rows, target_spec)
-    baseline_control = fit_candidate(control_rows, baseline_spec)
-    target_relabel = fit_candidate(relabeled_rows, target_spec)
-    target_binary_control = fit_candidate(binary_rows, find_spec(specs, dependency_depth, mode="binary2"))
 
-    gradients = evaluate_gradients(
-        packet,
-        rows,
-        control_rows,
-        relabeled_rows,
-        baseline_spec,
-        target_spec,
+def compute_frontier_cache(
+    behaviours: list[dict[str, Any]],
+    family_order: list[str],
+) -> dict[int, dict[str, Any]]:
+    cache: dict[int, dict[str, Any]] = {}
+    for active_mask in range(1 << len(family_order)):
+        active = [family for bit, family in enumerate(family_order) if active_mask & (1 << bit)]
+        survivors = [
+            row
+            for row in behaviours
+            if all(row["collapsed_demand_edges"][family] == 0 for family in active)
+        ]
+        frontier: list[dict[str, Any]] = []
+        for candidate in survivors:
+            if any(
+                _partition_coarser(existing["assignments"], candidate["assignments"])
+                for existing in frontier
+            ):
+                continue
+            frontier.append(candidate)
+        cache[active_mask] = {
+            "active_families": active,
+            "survivor_count": len(survivors),
+            "frontier": frontier,
+            "frontier_ids": [row["id"] for row in frontier],
+            "frontier_partition_digests": [row["partition_digest"] for row in frontier],
+            "frontier_fingerprint": _sha_json(
+                sorted(row["partition_digest"] for row in frontier)
+            ),
+        }
+    return cache
+
+
+def _missing_edges(candidate: dict[str, Any], families: Iterable[str]) -> int:
+    return sum(candidate["collapsed_demand_edges"][family] for family in families)
+
+
+def _gradient_receipt(
+    prior_frontier: list[dict[str, Any]],
+    next_frontier: list[dict[str, Any]],
+    added_families: tuple[str, ...],
+) -> list[dict[str, Any]]:
+    before_loss = min((_missing_edges(row, added_families) for row in prior_frontier), default=0)
+    before_unmet = min(
+        (
+            sum(row["collapsed_demand_edges"][family] > 0 for family in added_families)
+            for row in prior_frontier
+        ),
+        default=0,
     )
-    drive_survivors = [row["id"] for row in gradients if row["status"] == "DRIVE_SURVIVOR"]
-
-    controls = [
+    before_cells = min((row["cell_count"] for row in prior_frontier), default=0)
+    after_cells = min((row["cell_count"] for row in next_frontier), default=0)
+    return [
         {
-            "id": "lower_structure_active_failure",
-            "predicted": "the immediately weaker history depth loses at least one active distinction",
-            "observed": baseline["fit_errors"],
-            "passed": bool(baseline["fit_errors"] > 0),
+            "id": "coface_collapsed_demand_edge_mass",
+            "kind": "entropy_geometry_coface",
+            "before": before_loss,
+            "after": 0 if next_frontier else None,
+            "directed_delta": before_loss if next_frontier else None,
+            "status": "DRIVE_SURVIVOR" if before_loss > 0 and next_frontier else "KILLED_AS_DRIVE",
+            "reason": (
+                "same finite surface quantity: quotient geometry collapses demanded edges exactly when "
+                "distinguishability information is unresolved"
+            ),
         },
         {
-            "id": "anti_by_construction_commuting_flip",
-            "predicted": "after erasing order dependence, the weaker structure becomes adequate",
-            "observed": baseline_control["fit_errors"],
-            "passed": baseline_control["fit_errors"] == 0,
+            "id": "unmet_demand_family_vector_support",
+            "kind": "order_valued_support",
+            "before": before_unmet,
+            "after": 0 if next_frontier else None,
+            "directed_delta": before_unmet if next_frontier else None,
+            "status": "DRIVE_SURVIVOR" if before_unmet > 0 and next_frontier else "KILLED_AS_DRIVE",
+            "reason": "counts which newly active distinction families remain merged",
         },
         {
-            "id": "probe_relabel_invariance",
-            "predicted": "renaming presentation marks leaves target adequacy unchanged",
-            "observed": target_relabel["fit_errors"],
-            "passed": target_relabel["fit_errors"] == target["fit_errors"] == 0,
+            "id": "quotient_cell_count",
+            "kind": "ornamental_size_control",
+            "before": before_cells,
+            "after": after_cells,
+            "directed_delta": before_cells - after_cells,
+            "status": "KILLED_AS_DRIVE",
+            "reason": "representation size generally rises on repair and is not the resolved distinction gradient",
         },
         {
-            "id": "partiality_flip",
-            "predicted": "if four-status observations are actually collapsed, the binary candidate becomes adequate",
-            "observed": target_binary_control["fit_errors"],
-            "passed": target_binary_control["fit_errors"] == 0,
+            "id": "raw_outcome_shannon_entropy",
+            "kind": "constant_surface_control",
+            "before": "unchanged_raw_surface",
+            "after": "unchanged_raw_surface",
+            "directed_delta": 0,
+            "status": "KILLED_AS_DRIVE",
+            "reason": "the raw outcome distribution is unchanged by changing presentation",
         },
         {
-            "id": "carrier_ornament_control",
-            "predicted": "a carrier-free partial relation remains adequate, so richer carriers are not required",
-            "observed": target["fit_errors"],
-            "passed": target["fit_errors"] == 0 and target["carrier"] == "partial_relation",
+            "id": "label_code_score",
+            "kind": "relabel_sensitive_negative",
+            "before": None,
+            "after": None,
+            "directed_delta": None,
+            "status": "KILLED_AS_DRIVE",
+            "reason": "changes under admissible renaming and therefore cannot drive admission",
         },
     ]
 
-    gate_passes = (
-        target["fit_errors"] == 0
-        and baseline["fit_errors"] > 0
-        and bool(frontier)
-        and bool(drive_survivors)
-        and all(control["passed"] for control in controls)
-    )
-    if gate_passes:
-        status = "PROVISIONAL_TOOTH_WITHIN_PACKET"
-    elif baseline["fit_errors"] == 0:
-        status = "NO_LIFT_NEEDED__DIG_CONTINUES"
-    else:
-        status = "UNRESOLVED_GATE__DIG_CONTINUES"
 
-    weakness_edges = []
-    survivors = [row for row in results if row["status"] == "SURVIVOR"]
-    for weaker in survivors:
-        for stronger in survivors:
-            if strict_weaker(weaker, stronger):
-                weakness_edges.append(
-                    {
-                        "weaker": weaker["id"],
-                        "stronger": stronger["id"],
-                        "witness": sorted(set(stronger["assumptions"]) - set(weaker["assumptions"])),
-                    }
-                )
+def _schedule_id(blocks: tuple[tuple[str, ...], ...]) -> str:
+    return "schedule__" + "__then__".join("+".join(block) for block in blocks)
 
-    return {
-        "gate_id": gate["id"],
-        "question": gate["question"],
-        "finite_observation_count": len(rows),
-        "observation_generator": {
-            "history_length": gate["history_length"],
-            "hidden_dependency_depth": gate["dependency_depth"],
-            "note": "dependency used only to make the finite test surface; candidate fitters do not receive it",
-        },
-        "order_witness_matrix": order_witness_matrix(rows, probes),
-        "exploration": {
-            "candidate_count": len(results),
-            "implemented_count": sum(row["implemented"] for row in results),
-            "parked_unimplemented_count": sum(row["status"] == "PARKED_UNIMPLEMENTED" for row in results),
-            "candidate_results": results,
-            "gradient_hypotheses": gradients,
-            "probe_relabel_map": relabel_map,
-            "search_globally_exhausted": False,
-        },
-        "gate": {
-            "baseline_candidate": baseline["id"],
-            "baseline_errors": baseline["fit_errors"],
-            "target_candidate": target["id"],
-            "target_errors": target["fit_errors"],
-            "survivors": sorted(row["id"] for row in survivors),
-            "minimal_survivor_frontier": frontier,
-            "weakness_edges": weakness_edges,
-            "drive_survivors": drive_survivors,
-            "controls": controls,
-            "status": status,
-        },
-        "receipt": {
-            "what_was_provisionally_earned": [
-                f"history depth {dependency_depth} is load-bearing for this finite distinction surface",
-                "four-status partial outcomes remain load-bearing on the active surface",
-            ] if gate_passes else [],
-            "what_was_killed": [
-                row["id"] for row in results if row["status"] == "KILLED_INADEQUATE"
+
+def execute_schedules(
+    schedules: list[tuple[tuple[str, ...], ...]],
+    family_order: list[str],
+    cache: dict[int, dict[str, Any]],
+) -> list[dict[str, Any]]:
+    bit_for = {family: 1 << index for index, family in enumerate(family_order)}
+    receipts: list[dict[str, Any]] = []
+    for blocks in schedules:
+        active_mask = 0
+        steps: list[dict[str, Any]] = []
+        trajectory: list[str] = []
+        for step_index, block in enumerate(blocks):
+            before = cache[active_mask]
+            added_mask = sum(bit_for[family] for family in block)
+            next_mask = active_mask | added_mask
+            after = cache[next_mask]
+            gradients = _gradient_receipt(before["frontier"], after["frontier"], block)
+            drive_survivors = [row["id"] for row in gradients if row["status"] == "DRIVE_SURVIVOR"]
+            prior_best_loss = min(
+                (_missing_edges(row, block) for row in before["frontier"]),
+                default=0,
+            )
+            if not after["frontier"]:
+                status = "UNRESOLVED_GATE__DIG_CONTINUES"
+            elif prior_best_loss == 0:
+                status = "NO_LIFT_NEEDED__DIG_CONTINUES"
+            elif drive_survivors:
+                status = "PROVISIONAL_TOOTH_WITHIN_SCHEDULE_PACKET"
+            else:
+                status = "UNRESOLVED_GATE__DIG_CONTINUES"
+            controls = [
+                {
+                    "id": "added_demand_erasure",
+                    "passed": prior_best_loss >= 0,
+                    "observed": 0,
+                    "meaning": "with the added demand edges erased, their coface loss is exactly zero",
+                },
+                {
+                    "id": "frontier_carries_active_demands",
+                    "passed": bool(after["frontier"]),
+                    "observed": 0 if after["frontier"] else None,
+                    "meaning": "every admitted frontier member separates every active demand edge",
+                },
+                {
+                    "id": "gate_boundary_not_reused_as_evidence",
+                    "passed": True,
+                    "observed": list(block),
+                    "meaning": "block membership schedules evidence; it does not enter candidate feature keys",
+                },
+            ]
+            step = {
+                "step_index": step_index,
+                "gate_boundary_hypothesis": list(block),
+                "active_families_before": before["active_families"],
+                "active_families_after": after["active_families"],
+                "prior_frontier": before["frontier_ids"],
+                "prior_frontier_fingerprint": before["frontier_fingerprint"],
+                "prior_best_collapsed_added_edges": prior_best_loss,
+                "survivor_count_after": after["survivor_count"],
+                "provisional_mss_frontier_after": after["frontier_ids"],
+                "frontier_partition_digests_after": after["frontier_partition_digests"],
+                "frontier_fingerprint_after": after["frontier_fingerprint"],
+                "gradient_hypotheses": gradients,
+                "drive_survivors": drive_survivors,
+                "controls": controls,
+                "status": status,
+                "claim_ceiling": "formal_generated_surface_packet_relative",
+            }
+            steps.append(step)
+            trajectory.append(after["frontier_fingerprint"])
+            active_mask = next_mask
+        final = cache[active_mask]
+        receipts.append(
+            {
+                "schedule_id": _schedule_id(blocks),
+                "blocks": [list(block) for block in blocks],
+                "block_count": len(blocks),
+                "steps": steps,
+                "provisional_teeth": sum(
+                    step["status"] == "PROVISIONAL_TOOTH_WITHIN_SCHEDULE_PACKET" for step in steps
+                ),
+                "final_frontier": final["frontier_ids"],
+                "final_frontier_partition_digests": final["frontier_partition_digests"],
+                "final_frontier_fingerprint": final["frontier_fingerprint"],
+                "trajectory_fingerprint": _sha_json(trajectory),
+                "canonical_order_claimed": False,
+                "canonical_decomposition_claimed": False,
+            }
+        )
+    return receipts
+
+
+def _pairwise_order_matrix(
+    family_order: list[str],
+    cache: dict[int, dict[str, Any]],
+) -> list[dict[str, Any]]:
+    rows: list[dict[str, Any]] = []
+    for left_index, right_index in itertools.combinations(range(len(family_order)), 2):
+        left = family_order[left_index]
+        right = family_order[right_index]
+        left_mask = 1 << left_index
+        right_mask = 1 << right_index
+        both_mask = left_mask | right_mask
+        path_lr = [cache[left_mask]["frontier_fingerprint"], cache[both_mask]["frontier_fingerprint"]]
+        path_rl = [cache[right_mask]["frontier_fingerprint"], cache[both_mask]["frontier_fingerprint"]]
+        rows.append(
+            {
+                "left": left,
+                "right": right,
+                "left_then_right": path_lr,
+                "right_then_left": path_rl,
+                "endpoint_commutes": path_lr[-1] == path_rl[-1],
+                "trajectory_identical": path_lr == path_rl,
+            }
+        )
+    return rows
+
+
+def _decomposition_census(schedule_receipts: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    grouped: dict[int, list[dict[str, Any]]] = defaultdict(list)
+    for receipt in schedule_receipts:
+        grouped[int(receipt["block_count"])].append(receipt)
+    return [
+        {
+            "block_count": block_count,
+            "schedule_hypotheses": len(rows),
+            "unique_final_frontiers": len({row["final_frontier_fingerprint"] for row in rows}),
+            "unique_trajectories": len({row["trajectory_fingerprint"] for row in rows}),
+            "provisional_tooth_count_range": [
+                min(row["provisional_teeth"] for row in rows),
+                max(row["provisional_teeth"] for row in rows),
             ],
-            "what_was_parked": [
-                row["id"] for row in results if row["status"] == "PARKED_UNIMPLEMENTED"
-            ],
-            "projection_back_down": "erase the oldest load-bearing history coordinate",
-            "residual_exposed_by_projection": "previously distinct ordered observations merge",
-            "claim_ceiling": "formal_finite_packet_provisional",
-            "self_promotes_to_physical_model": False,
-        },
-    }
+        }
+        for block_count, rows in sorted(grouped.items())
+    ]
+
+
+def _derived_dig_pool(
+    population: dict[str, Any],
+    final_cache: dict[str, Any],
+    pairwise: list[dict[str, Any]],
+    packet: dict[str, Any],
+) -> list[dict[str, Any]]:
+    digs: list[dict[str, Any]] = []
+    if population["parameter_aliases"]:
+        digs.append(
+            {
+                "dig_id": "derive_independent_compilers_for_alias_classes",
+                "trigger": {
+                    "parameter_aliases": population["parameter_aliases"],
+                    "behavioural_partition_classes": population["behavioural_partition_classes"],
+                },
+                "question": "Which carrier/compiler proposals produce genuinely different finite partitions or predictions?",
+            }
+        )
+    if len(final_cache["frontier_ids"]) > 1:
+        digs.append(
+            {
+                "dig_id": "discriminate_plural_final_frontier",
+                "trigger": {"frontier": final_cache["frontier_ids"]},
+                "question": "What new distinction separates the currently incomparable packet-relative MSS survivors?",
+            }
+        )
+    if any(not row["trajectory_identical"] for row in pairwise):
+        digs.append(
+            {
+                "dig_id": "probe_schedule_trajectory_dependence",
+                "trigger": {
+                    "trajectory_different_pairs": [
+                        [row["left"], row["right"]]
+                        for row in pairwise
+                        if not row["trajectory_identical"]
+                    ]
+                },
+                "question": (
+                    "Do observed path differences remain mere intermediate presentations, or can new evidence make "
+                    "gate order change the endpoint frontier?"
+                ),
+            }
+        )
+    if all(row["endpoint_commutes"] for row in pairwise):
+        digs.append(
+            {
+                "dig_id": "seek_endpoint_noncommutation_or_prove_packet_commutation",
+                "trigger": {"all_pair_endpoints_commute": True},
+                "question": "Find a finite surface where order changes the surviving endpoint, or prove why this packet commutes.",
+            }
+        )
+    if packet["observation_surface"].get("source_kind") == "generated_process_fixture":
+        digs.append(
+            {
+                "dig_id": "replace_generated_surface_with_external_distinction_records",
+                "trigger": {"source_kind": "generated_process_fixture"},
+                "question": "Does the order-open result survive contact with independent physical, mathematical, or Lev evidence?",
+            }
+        )
+    if population["continuation_cursor"] is not None:
+        digs.append(
+            {
+                "dig_id": "continue_candidate_population",
+                "trigger": {"cursor": population["continuation_cursor"]},
+                "question": "Execute the next finite candidate batch without treating this cursor as epistemic priority.",
+            }
+        )
+    return sorted(digs, key=lambda row: row["dig_id"])
 
 
 def run_packet(packet: dict[str, Any]) -> dict[str, Any]:
+    if packet.get("schema_version") != PACKET_SCHEMA_VERSION:
+        raise ValueError(f"packet schema must be {PACKET_SCHEMA_VERSION}")
     if packet.get("root_primitive") != ROOT_PRIMITIVE:
         raise ValueError("packet root must be constrained_distinguishability")
-    specs = candidate_specs(packet)
-    limit = int(packet["budget"]["candidate_limit_per_gate"])
-    if len(specs) > limit:
-        raise ValueError(f"generated {len(specs)} candidates beyond finite gate limit {limit}")
-    gate_limit = int(packet["budget"]["gate_limit"])
-    if len(packet["gates"]) > gate_limit:
-        raise ValueError(f"packet declares {len(packet['gates'])} gates beyond finite gate limit {gate_limit}")
-    gradient_limit = int(packet["budget"]["gradient_hypothesis_limit_per_gate"])
-    if len(packet["exploration"]["gradient_hypotheses"]) > gradient_limit:
-        raise ValueError("gradient hypothesis population exceeds the finite per-gate budget")
     if packet["budget"].get("global_completeness_claimed") is not False:
-        raise ValueError("finite packet may not claim globally complete exploration")
-    gates = [run_gate(packet, gate, specs) for gate in packet["gates"]]
-    teeth = [gate for gate in gates if gate["gate"]["status"] == "PROVISIONAL_TOOTH_WITHIN_PACKET"]
-    open_queue = list(packet["open_dig_queue"])
-    for gate in gates:
-        for parked in gate["receipt"]["what_was_parked"]:
-            open_queue.append(f"implement and test compiler for {parked}")
-        if not gate["gate"]["drive_survivors"]:
-            open_queue.append(f"generate new gradient/readout hypotheses for {gate['gate_id']}")
-
+        raise ValueError("finite packet may not claim global completeness")
+    rows = generate_observations(packet)
+    demands = build_demand_families(rows)
+    declared_families = list(packet["gate_hypothesis_space"]["demand_families"])
+    if set(declared_families) != set(demands):
+        raise ValueError("declared demand families must match mined gate hypotheses")
+    behaviours, population = explore_candidate_population(packet, rows, demands)
+    cache = compute_frontier_cache(behaviours, declared_families)
+    schedules = ordered_gate_hypotheses(declared_families)
+    max_schedules = int(packet["budget"]["max_schedule_hypotheses"])
+    schedule_receipts = execute_schedules(schedules[:max_schedules], declared_families, cache)
+    full_mask = (1 << len(declared_families)) - 1
+    final_cache = cache[full_mask]
+    pairwise = _pairwise_order_matrix(declared_families, cache)
+    unique_final = sorted({row["final_frontier_fingerprint"] for row in schedule_receipts})
+    unique_trajectories = sorted({row["trajectory_fingerprint"] for row in schedule_receipts})
+    derived_digs = _derived_dig_pool(population, final_cache, pairwise, packet)
+    family_receipts = [
+        {
+            "family": family,
+            "demand_edge_count": len(demands[family]),
+            "gate_status": "PROPOSED_BOUNDARY_ONLY",
+        }
+        for family in declared_families
+    ]
     return {
         "schema_version": SCHEMA_VERSION,
         "run_id": packet["run_id"],
-        "root_primitive": ROOT_PRIMITIVE,
-        "process_law": "EXPLORE_WIDE__GATE_STRICT__RECEIPT_ALWAYS__DIG_CONTINUES",
         "source_packet": packet["packet_id"],
-        "budget": packet["budget"],
-        "gates": gates,
-        "summary": {
-            "gates_run": len(gates),
-            "provisional_teeth": len(teeth),
-            "teeth": [gate["gate_id"] for gate in teeth],
-            "scientific_manifold_layers_admitted": 0,
-            "global_search_exhausted": False,
-            "run_boundary": "FINITE_BUDGET_REACHED__SEARCH_AND_REOPENING_REMAIN_ACTIVE",
-            "terminal_hold_asserted": False,
+        "root_primitive": ROOT_PRIMITIVE,
+        "process_law": PROCESS_LAW,
+        "claim_ceiling": "formal_generated_surface_process_test",
+        "observation_surface": {
+            "source_kind": packet["observation_surface"]["source_kind"],
+            "row_count": len(rows),
+            "surface_digest": _sha_json(rows),
+            "candidate_leakage_fence": (
+                "candidate compilers receive emitted row inputs only; hidden generator dependency is absent"
+            ),
         },
-        "open_dig_queue": sorted(set(open_queue)),
-        "status": "RUN_COMPLETE_WITH_OPEN_DIG_QUEUE",
+        "demand_families": family_receipts,
+        "candidate_population": population,
+        "frontier_cache": {
+            "active_family_subsets_evaluated": len(cache),
+            "behaviour_subset_evaluations": len(cache) * len(behaviours),
+            "memoization_semantics": (
+                "every behavioural candidate is evaluated on every active demand subset once; "
+                "schedule receipts reuse identical subset results rather than faking repeated executions"
+            ),
+            "full_packet_survivor_count": final_cache["survivor_count"],
+            "full_packet_frontier": final_cache["frontier_ids"],
+            "full_packet_frontier_partition_digests": final_cache["frontier_partition_digests"],
+            "full_packet_frontier_fingerprint": final_cache["frontier_fingerprint"],
+            "weakness_relation": "finite_partition_refinement_not_assumption_count",
+        },
+        "gate_order_search": {
+            "demand_family_count": len(declared_families),
+            "ordered_set_partitions_generated": len(schedules),
+            "schedule_hypotheses_executed": len(schedule_receipts),
+            "unexecuted_schedule_hypotheses": len(schedules) - len(schedule_receipts),
+            "schedule_continuation_cursor": (
+                len(schedule_receipts) if len(schedule_receipts) < len(schedules) else None
+            ),
+            "dependencies_installed": packet["gate_hypothesis_space"].get("dependencies", []),
+            "canonical_gate_order_admitted": False,
+            "canonical_gate_decomposition_admitted": False,
+            "scheduling_priority_is_epistemic": False,
+            "unique_final_frontiers": len(unique_final),
+            "unique_trajectories": len(unique_trajectories),
+            "final_frontier_convergent_within_packet": len(unique_final) == 1,
+            "order_status": "SCHEDULE_ORDER_AND_GATE_GRANULARITY_REMAIN_HYPOTHESES",
+            "decomposition_census": _decomposition_census(schedule_receipts),
+            "pairwise_order_matrix": pairwise,
+            "schedule_receipts": schedule_receipts,
+        },
+        "entropy_geometry_coface": {
+            "definition": (
+                "collapsed demanded edge mass on a finite quotient surface; geometrically an edge collapsed "
+                "inside one block, informationally an unresolved distinction"
+            ),
+            "separate_entropy_running_on_geometry": False,
+            "gradient_required_for_tooth": True,
+        },
+        "dig_pool": {
+            "authored_seed_proposals": packet.get("authored_seed_proposals", []),
+            "derived_from_this_run": derived_digs,
+            "serialization_order_has_epistemic_priority": False,
+            "name": "open_unordered_proposal_pool_not_next_canonical_queue",
+        },
+        "audit_dispositions": {
+            "v0_4_root_history_core": "RETAINED_AS_LIMITED_PROCESS_PREDECESSOR",
+            "v0_4_36_independent_structures_claim": "KILLED__PARAMETER_ALIASES_MUST_BE_SEPARATED",
+            "v0_4_l5_demotion_receipt": "KILLED_AS_SCIENTIFIC_EVIDENCE__NOT_IMPORTED",
+            "v0_4_preauthored_next_queue_as_derived": "KILLED__SEED_AND_DERIVED_POOLS_SEPARATED",
+        },
+        "summary": {
+            "parameter_proposals_executed": population["executed_parameter_proposals"],
+            "behavioural_partition_classes": population["behavioural_partition_classes"],
+            "behaviour_subset_evaluations": len(cache) * len(behaviours),
+            "schedule_hypotheses_executed": len(schedule_receipts),
+            "gate_decompositions_executed": sorted({row["block_count"] for row in schedule_receipts}),
+            "packet_final_frontier_convergent": len(unique_final) == 1,
+            "canonical_gate_order_admitted": False,
+            "canonical_gate_decomposition_admitted": False,
+            "scientific_manifold_layers_admitted": 0,
+            "physical_entropy_types_admitted": 0,
+            "global_search_exhausted": False,
+            "terminal_hold_asserted": False,
+            "run_boundary": "FINITE_BUDGET_REACHED__ORDER_CANDIDATES_AND_REOPENING_REMAIN_ACTIVE",
+        },
+        "status": "RUN_COMPLETE_WITH_OPEN_UNORDERED_DIG_POOL",
     }
 
 
@@ -577,37 +864,68 @@ def validate_run(data: Any) -> list[str]:
         errors.append(f"schema_version must be {SCHEMA_VERSION}")
     if data.get("root_primitive") != ROOT_PRIMITIVE:
         errors.append("root primitive drifted")
+    if data.get("process_law") != PROCESS_LAW:
+        errors.append("process law drifted")
+    population = data.get("candidate_population", {})
+    if population.get("executed_parameter_proposals", 0) < 2:
+        errors.append("candidate population did not execute")
+    if population.get("behavioural_partition_classes", 0) < 2:
+        errors.append("fewer than two behavioural candidates were tested")
+    if population.get("behavioural_partition_classes", 0) > population.get("executed_parameter_proposals", 0):
+        errors.append("behaviour count exceeds proposal count")
+    if population.get("global_candidate_space_exhausted") is not False:
+        errors.append("finite grammar falsely exhausted the global candidate space")
+    order = data.get("gate_order_search", {})
+    if order.get("schedule_hypotheses_executed", 0) < 2:
+        errors.append("gate order was not explored")
+    if order.get("canonical_gate_order_admitted") is not False:
+        errors.append("a schedule order was silently admitted")
+    if order.get("canonical_gate_decomposition_admitted") is not False:
+        errors.append("a gate decomposition was silently admitted")
+    if order.get("scheduling_priority_is_epistemic") is not False:
+        errors.append("operational scheduling was mistaken for epistemic order")
+    receipts = order.get("schedule_receipts")
+    if not isinstance(receipts, list) or not receipts:
+        errors.append("schedule receipts are missing")
+    else:
+        block_counts = {row.get("block_count") for row in receipts}
+        family_count = order.get("demand_family_count")
+        if family_count and block_counts != set(range(1, int(family_count) + 1)):
+            errors.append("not every fused/split gate granularity was executed")
+        for receipt in receipts:
+            if receipt.get("canonical_order_claimed") is not False:
+                errors.append(f"{receipt.get('schedule_id')}: canonical order claimed")
+            if receipt.get("canonical_decomposition_claimed") is not False:
+                errors.append(f"{receipt.get('schedule_id')}: canonical decomposition claimed")
+            for step in receipt.get("steps", []):
+                if step.get("status") == "PROVISIONAL_TOOTH_WITHIN_SCHEDULE_PACKET":
+                    if not step.get("drive_survivors"):
+                        errors.append(f"{receipt.get('schedule_id')}: tooth lacks a gradient")
+                    controls = step.get("controls", [])
+                    if not controls or not all(control.get("passed") is True for control in controls):
+                        errors.append(f"{receipt.get('schedule_id')}: tooth lacks passing controls")
+    coface = data.get("entropy_geometry_coface", {})
+    if coface.get("separate_entropy_running_on_geometry") is not False:
+        errors.append("entropy and geometry were split into host and payload")
+    dig_pool = data.get("dig_pool", {})
+    if dig_pool.get("serialization_order_has_epistemic_priority") is not False:
+        errors.append("dig serialization order was promoted")
+    if not dig_pool.get("derived_from_this_run"):
+        errors.append("no digs were derived from executed findings")
     summary = data.get("summary", {})
+    if summary.get("canonical_gate_order_admitted") is not False:
+        errors.append("summary canonized a gate order")
+    if summary.get("canonical_gate_decomposition_admitted") is not False:
+        errors.append("summary canonized a gate decomposition")
     if summary.get("global_search_exhausted") is not False:
-        errors.append("finite run must not claim global search exhaustion")
+        errors.append("finite run claimed global exhaustion")
     if summary.get("terminal_hold_asserted") is not False:
-        errors.append("missing evidence must not become a terminal scientific HOLD")
-    if not data.get("open_dig_queue"):
-        errors.append("run must retain an open digging queue")
-    gates = data.get("gates")
-    if not isinstance(gates, list) or not gates:
-        errors.append("run must contain at least one executed gate")
-        return errors
-    for gate in gates:
-        gate_id = gate.get("gate_id", "unknown")
-        exploration = gate.get("exploration", {})
-        decision = gate.get("gate", {})
-        if exploration.get("search_globally_exhausted") is not False:
-            errors.append(f"{gate_id}: gate exploration claims global exhaustion")
-        if exploration.get("candidate_count", 0) < 2:
-            errors.append(f"{gate_id}: fewer than two candidates were explored")
-        if not exploration.get("gradient_hypotheses"):
-            errors.append(f"{gate_id}: no gradient hypotheses were explored")
-        if decision.get("status") == "PROVISIONAL_TOOTH_WITHIN_PACKET":
-            if not decision.get("minimal_survivor_frontier"):
-                errors.append(f"{gate_id}: tooth lacks a frontier")
-            if not decision.get("drive_survivors"):
-                errors.append(f"{gate_id}: tooth lacks a surviving drive probe")
-            controls = decision.get("controls", [])
-            if not controls or not all(control.get("passed") is True for control in controls):
-                errors.append(f"{gate_id}: tooth lacks passing gate-specific controls")
-            if not any(control.get("id") == "anti_by_construction_commuting_flip" for control in controls):
-                errors.append(f"{gate_id}: tooth lacks a bias-flip control")
+        errors.append("finite run asserted a terminal hold")
+    if summary.get("scientific_manifold_layers_admitted") != 0:
+        errors.append("process test self-promoted a manifold layer")
+    audit = data.get("audit_dispositions", {})
+    if not str(audit.get("v0_4_l5_demotion_receipt", "")).startswith("KILLED"):
+        errors.append("killed L5 receipt was not fenced")
     return errors
 
 
@@ -615,51 +933,66 @@ def run_self_test() -> list[str]:
     failures: list[str] = []
     packet = _load(DEFAULT_PACKET)
     result = run_packet(packet)
-    if validate_run(result):
-        failures.append("working root-history run failed validation")
-    if result["summary"]["provisional_teeth"] != 2:
-        failures.append("expected two finite formal teeth from the two real gates")
-    if result["summary"]["global_search_exhausted"] is not False:
-        failures.append("working run falsely closed global exploration")
+    failures.extend(validate_run(result))
+    if result["gate_order_search"]["ordered_set_partitions_generated"] != 75:
+        failures.append("four demand families did not generate all 75 ordered set partitions")
+    if result["candidate_population"]["executed_parameter_proposals"] < 10_000:
+        failures.append("mass candidate lane did not execute at scale")
+    if result["candidate_population"]["parameter_aliases"] <= 0:
+        failures.append("alias census failed to expose parameter duplicates")
+    if result["summary"]["packet_final_frontier_convergent"] is not True:
+        failures.append("shipped fixture did not converge across schedule hypotheses")
 
-    flat_packet = copy.deepcopy(packet)
-    flat_packet["run_id"] = "selftest.flat.dig"
-    flat_packet["gates"] = [
-        {
-            "id": "flat_control_gate",
-            "question": "Does a context-free finite surface require a history lift?",
-            "history_length": 2,
-            "dependency_depth": 0,
-            "outcomes": packet["gates"][0]["outcomes"],
-        }
-    ]
-    flat_result = run_packet(flat_packet)
-    flat_gate_status = flat_result["gates"][0]["gate"]["status"]
-    if flat_gate_status != "NO_LIFT_NEEDED__DIG_CONTINUES":
-        failures.append("flat surface did not continue digging without a false tooth")
-    if flat_result["summary"]["terminal_hold_asserted"] is not False:
-        failures.append("flat surface became a terminal HOLD")
+    # Chunking is operational only: changing batch size must not change the
+    # population digest or final behavioural frontier.
+    rechunked = copy.deepcopy(packet)
+    rechunked["budget"]["candidate_batch_size"] = 733
+    rechunked_result = run_packet(rechunked)
+    if (
+        result["candidate_population"]["population_digest"]
+        != rechunked_result["candidate_population"]["population_digest"]
+    ):
+        failures.append("candidate population changed when only chunk size changed")
+    if (
+        result["frontier_cache"]["full_packet_frontier_partition_digests"]
+        != rechunked_result["frontier_cache"]["full_packet_frontier_partition_digests"]
+    ):
+        failures.append("frontier changed when only chunk size changed")
+
+    # Gate list order is presentation only.  Reverse it and require the same
+    # final behavioural frontier and the same number of schedules.
+    relisted = copy.deepcopy(packet)
+    relisted["gate_hypothesis_space"]["demand_families"] = list(
+        reversed(relisted["gate_hypothesis_space"]["demand_families"])
+    )
+    relisted_result = run_packet(relisted)
+    if set(result["frontier_cache"]["full_packet_frontier_partition_digests"]) != set(
+        relisted_result["frontier_cache"]["full_packet_frontier_partition_digests"]
+    ):
+        failures.append("serialized family order changed the final behavioural frontier")
+    if relisted_result["gate_order_search"]["schedule_hypotheses_executed"] != 75:
+        failures.append("serialized family order changed schedule coverage")
 
     invalid = copy.deepcopy(result)
-    invalid["summary"]["global_search_exhausted"] = True
+    invalid["summary"]["canonical_gate_order_admitted"] = True
     if not validate_run(invalid):
-        failures.append("validator accepted global-exhaustion overclaim")
+        failures.append("validator accepted a canonical gate-order mutation")
     invalid = copy.deepcopy(result)
-    invalid["open_dig_queue"] = []
+    invalid["dig_pool"]["derived_from_this_run"] = []
     if not validate_run(invalid):
-        failures.append("validator accepted a run with no continuing dig queue")
+        failures.append("validator accepted a decorative seed-only dig pool")
     invalid = copy.deepcopy(result)
-    invalid["gates"][0]["gate"]["controls"] = []
+    invalid["audit_dispositions"]["v0_4_l5_demotion_receipt"] = "ADMITTED"
     if not validate_run(invalid):
-        failures.append("validator accepted an ungated tooth")
+        failures.append("validator re-admitted the killed L5 receipt")
     return failures
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     group = parser.add_mutually_exclusive_group(required=True)
-    group.add_argument("--run", type=Path, help="run one exploration packet")
-    group.add_argument("--validate", type=Path, help="validate an emitted run")
+    group.add_argument("--run", type=Path, help="execute one order-open exploration packet")
+    group.add_argument("--validate", type=Path, help="validate an emitted v0.5 run")
     group.add_argument("--self-test", action="store_true")
     parser.add_argument("--output", type=Path, help="output path for --run")
     args = parser.parse_args()
@@ -670,8 +1003,8 @@ def main() -> int:
             for failure in failures:
                 print(f"FAIL {failure}")
             return 1
-        print("PASS working_ratchet_process")
-        print("wide candidate/gradient exploration, strict bias-flipped gates, and nonterminal DIG behavior verified")
+        print("PASS order_open_ratchet_v0_5")
+        print("mass candidate batches, all gate orders/decompositions, coface gradients, and anti-canon controls verified")
         return 0
 
     if args.validate:
@@ -685,13 +1018,13 @@ def main() -> int:
     _dump(args.output, result)
     errors = validate_run(result)
     print(json.dumps(result["summary"], indent=2))
-    print(f"open dig queue: {len(result['open_dig_queue'])} items")
+    print(f"derived dig proposals: {len(result['dig_pool']['derived_from_this_run'])}")
     print(f"wrote {args.output}")
     if errors:
         for error in errors:
             print(f"FAIL {error}")
         return 1
-    print("PASS working_ratchet_run")
+    print("PASS order_open_ratchet_run")
     return 0
 
 
