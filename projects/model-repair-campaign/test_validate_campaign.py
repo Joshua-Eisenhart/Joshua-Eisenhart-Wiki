@@ -10,7 +10,7 @@ from pathlib import Path
 from validate_campaign import validate
 
 
-PACKET = Path(__file__).with_name("campaigns_v0_1.json")
+PACKET = Path(__file__).with_name("campaigns_v0_2.json")
 
 
 class CampaignContractTests(unittest.TestCase):
@@ -25,6 +25,16 @@ class CampaignContractTests(unittest.TestCase):
         payload = copy.deepcopy(self.payload)
         payload["canonical_gate_order"] = True
         self.assertTrue(any("gate order" in error for error in validate(payload)))
+
+    def test_closed_registry_is_rejected(self) -> None:
+        payload = copy.deepcopy(self.payload)
+        payload["registry_open"] = False
+        self.assertTrue(any("registry" in error for error in validate(payload)))
+
+    def test_seed_list_cannot_claim_completeness(self) -> None:
+        payload = copy.deepcopy(self.payload)
+        payload["completeness_claimed"] = True
+        self.assertTrue(any("complete contender field" in error for error in validate(payload)))
 
     def test_missing_source_baseline_is_rejected(self) -> None:
         payload = copy.deepcopy(self.payload)
