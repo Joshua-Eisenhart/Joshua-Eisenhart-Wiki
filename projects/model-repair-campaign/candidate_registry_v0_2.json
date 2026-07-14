@@ -542,6 +542,56 @@
       "discovery": "channel_host_program",
       "status": "source_dossier_needed",
       "next_action": "Extract a stable claim set from the dedicated theory episode and compare it like any guest program."
+    },
+    {
+      "id": "knuth_influence_theory",
+      "program": "Influence Theory",
+      "contributors": ["Kevin Knuth"],
+      "roles": ["competitor", "donor"],
+      "domains": ["discrete foundations", "spacetime", "particles"],
+      "discovery": "channel_backlog_masked_by_ufo_titles",
+      "status": "restore_to_queue",
+      "next_action": "Separate the discrete influence-poset derivation from unrelated UAP episode context."
+    },
+    {
+      "id": "fields_observer_quantum_information",
+      "program": "Observer, quantum-information and Markov-blanket foundations",
+      "contributors": ["Chris Fields"],
+      "roles": ["competitor", "donor", "critic_falsifier"],
+      "domains": ["observers", "quantum information", "free energy"],
+      "discovery": "channel_panel_swallowed_into_levin_friston",
+      "status": "restore_to_queue",
+      "next_action": "Create an independent program card rather than treating Fields as panel context."
+    },
+    {
+      "id": "mclarty_weak_foundations",
+      "program": "Weak arithmetic foundations for toposes and derived categories",
+      "contributors": ["Colin McLarty"],
+      "roles": ["mathematical_tool", "critic_falsifier", "donor"],
+      "domains": ["foundations of mathematics", "category theory"],
+      "discovery": "channel_untriaged",
+      "status": "restore_to_queue",
+      "next_action": "Use as an exact test of which mathematical commitments advanced constructions really require."
+    },
+    {
+      "id": "nekrasov_exact_qft",
+      "program": "Exact QFT and partition-function methods",
+      "contributors": ["Nikita Nekrasov"],
+      "roles": ["mathematical_tool", "donor", "critic_falsifier"],
+      "domains": ["quantum field theory", "exact methods"],
+      "discovery": "channel_untriaged",
+      "status": "restore_to_queue",
+      "next_action": "Mine exact calculational constraints and use QFT recovery as a downstream adversarial gate."
+    },
+    {
+      "id": "low_evidence_model_claimants",
+      "program": "Low-evidence comprehensive model claimants",
+      "contributors": ["Chris Langan", "Thomas Campbell", "Rupert Sheldrake"],
+      "roles": ["competitor"],
+      "domains": ["metaphysics", "consciousness", "claimed anomalous mechanisms"],
+      "discovery": "channel_claimants",
+      "status": "quarantined_source_triage",
+      "next_action": "Split into independent cards, demand stable primary formulations and empirical controls, and do not rank beside validated science until those gates pass."
     }
   ]
 }
