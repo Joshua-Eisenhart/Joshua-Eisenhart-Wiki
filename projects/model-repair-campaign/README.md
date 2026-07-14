@@ -1,14 +1,34 @@
-# External Model Repair Campaign v0.1
+# Open External Model Repair Registry and Seed Campaigns v0.2
 
 Status: working research program; no scientific admission.
 
-Claim ceiling: source-informed repair hypotheses plus executable campaign contracts. A green campaign validates the wrapper and its controls. It does not establish Joshua's framework, any repaired source model, or a unification claim as canon.
+Claim ceiling: open discovery registry, source-informed repair hypotheses and executable campaign contracts. A green campaign validates the wrapper and its controls. It does not establish Joshua's framework, any repaired source model, or a unification claim as canon.
 
 Process authority: [`projects/codex-ratchet/RATCHET_SPEC.md`](../codex-ratchet/RATCHET_SPEC.md) v0.5. The only root is constrained distinguishability. Objects, partitions, probabilities, carriers, causal arrows, assembly grammars, agents, blankets, geometries and gate orders remain candidates until earned within a finite packet.
 
+## Scope correction: four names are seeds, not the field
+
+Friston, Levin, Cronin and Wolfram were the first examples Joshua named. They are not a closed contender list, the four best models, or the boundary of the repair program.
+
+The current channel ledger already contains 354 official RSS episodes, 176 broad title candidates and 57 initial program rows. Only 143 episodes were mapped; 75 remained explicitly untriaged. A further 136 were provisionally marked `context / likely exclude`, and that filter incorrectly buried several useful programs. The GitHub graveyard is also incomplete: it durably preserves 44 scratch rows while reporting 86 cumulative diagnostics.
+
+The correct architecture is:
+
+```text
+open candidate registry
+→ source-fidelity dossiers
+→ role-specific Pareto frontiers
+→ selected source-native repair campaigns
+→ experiments, controls and receipts
+```
+
+Candidate intake remains open to channel guests, cited researchers, executable repositories, datasets, critics, mathematical tools and newly discovered programs. Familiarity, fame and episode count are not ranking evidence.
+
+The four detailed adapters below are seed campaigns because they were named first and expose different repair surfaces. New candidates can precede them when their source fidelity, claim coverage, kill power and acquisition cost place them on the active research-scheduling frontier.
+
 ## Central proposal
 
-Joshua's strongest contribution to Friston, Levin, Cronin and Wolfram is not a replacement equation. It is an outer discovery-and-admission process that forces each model to expose its installed ontology, generate rivals outside that ontology, collapse behavioral aliases, execute schedule and boundary alternatives, retain plural weakest-survivor frontiers, and face interventions that can kill the transplant.
+Joshua's strongest potential contribution to an external model is usually not a replacement equation. It is an outer discovery-and-admission process that forces the model to expose its installed ontology, generate rivals outside that ontology, collapse behavioral aliases, execute schedule and boundary alternatives, retain plural weakest-survivor frontiers, and face interventions that can kill the transplant.
 
 Each source model remains source-native:
 
@@ -24,7 +44,32 @@ Each source model remains source-native:
 
 This is a model-repair tournament, not a vocabulary merger.
 
-## Repair map
+## Registry roles and rankings
+
+Rank source-native program cards, not people. One person may contribute several separable programs, and one program may occupy several roles:
+
+- **competitor** — makes an overlapping foundational, bridge or domain claim;
+- **donor** — supplies a mechanism, theorem, representation or algorithm;
+- **empirical testbed** — supplies interventions, observations, datasets or apparatus;
+- **mathematical tool** — supplies exact inference, quotienting, search or verification machinery;
+- **critic/falsifier** — supplies a no-go theorem, counterexample or assumption audit.
+
+There is no permanent weighted `best model` score. Rank separate packet-relative frontiers for foundational depth, formal precision, empirical contact, executable maturity, donor value, critic strength, repair leverage and acquisition cost. If one program has the weaker ontology while another has stronger recovered physics, they remain incomparable until a discriminating packet resolves the relevant claim.
+
+The first major frontier missing from the four seeds concerns Joshua's own operation of seeing highly correlated components as one thing. Correlation alone cannot license objecthood because a common driver can generate false unity. Test at least four rival object compilers:
+
+1. Crutchfield/Shalizi minimal predictive causal states;
+2. Krakauer–Bertschinger–Olbrich–Ay–Flack information-theoretic individuals;
+3. Tishby–Pereira–Bialek information-bottleneck compression relative to declared relevance;
+4. Hoel intervention-relative causal emergence.
+
+Strip their primitive probability, time and causality commitments, then compare predictive sufficiency, intervention closure, persistence, relabeling stability and minimality. This family may bind earlier than any of the four seed campaigns.
+
+Other immediate restored channel cards include John Donoghue, Simon Saunders, David Wallace, Ivette Fuentes, Eric Weinstein, Urs Schreiber, Tim Maudlin, Max Tegmark, Graham Priest, Scott Aaronson and David Sloan Wilson. Curt Jaimungal's own theory also receives a program card rather than being treated as channel context.
+
+Machine-readable intake and lifecycle fields live in [`candidate_registry_v0_2.json`](candidate_registry_v0_2.json).
+
+## Seed repair map
 
 | Source program | What must be preserved | Installed structure to reopen | Joshua transplant | Decisive test |
 |---|---|---|---|---|
@@ -225,7 +270,7 @@ Lev can orchestrate these campaigns, persist lineage and replay receipts, but it
 
 After this repair, use FlowMind to declare campaign packets and controls, Orchestration to run source-native adapters, Graph to store evidence/lineage, and the Event Bus to audit execution events. Do not treat the Event Bus's “causality plane” label as a scientific causal claim.
 
-## Implementation order
+## Seed implementation order
 
 Two rankings matter:
 
@@ -236,13 +281,14 @@ Two rankings matter:
 | 3 | Friston: controlled synthetic worlds before biological claims | Wolfram: the sharpest test of dependency, order and classical residue |
 | 4 | Levin: data harmonization and experimental validation are expensive | Cronin: valuable if it gains robustness beyond a grammar-relative scalar |
 
-Recommended sequence:
+This orders only the first four implementation examples, not the open registry. Recommended seed sequence:
 
 1. implement the exact Assembly pathway packet to validate adapter mechanics;
 2. port behavioral quotient, schedule and weight hooks into a Wolfram-side experimental branch;
 3. run the blinded FEP assumption tournament;
 4. spend the resulting mature harness on a Levin intervention dataset;
-5. extract a common interface only after at least two source-native adapters work.
+5. recompute the open research-scheduling frontier after every source reproduction;
+6. extract a common interface only after at least two source-native adapters work.
 
 The last constraint matters. A broad workbench built first would freeze unearned assumptions into an API.
 
