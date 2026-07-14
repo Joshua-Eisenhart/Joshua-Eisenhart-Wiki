@@ -14,7 +14,7 @@ from pathlib import Path
 from typing import Any
 
 
-SCHEMA_VERSION = "external-model-repair-campaign/0.1"
+SCHEMA_VERSION = "external-model-repair-campaign/0.2"
 REQUIRED_CAMPAIGN_KEYS = {
     "id",
     "source_program",
@@ -28,6 +28,7 @@ REQUIRED_CAMPAIGN_KEYS = {
     "first_experiment",
 }
 REQUIRED_OUTPUTS = {
+    "selection_receipt",
     "source_native_receipt",
     "finite_behavior_surface",
     "behavioral_alias_census",
@@ -52,6 +53,14 @@ def validate(payload: dict[str, Any]) -> list[str]:
         errors.append(f"schema_version must be {SCHEMA_VERSION!r}")
     if payload.get("root_primitive") != "constrained_distinguishability":
         errors.append("root_primitive must remain constrained_distinguishability")
+    if payload.get("registry_open") is not True:
+        errors.append("candidate registry must remain open")
+    if payload.get("seed_campaigns_only") is not True:
+        errors.append("named campaigns must be labeled as seed examples only")
+    if payload.get("completeness_claimed") is not False:
+        errors.append("finite intake must not claim a complete contender field")
+    if not isinstance(payload.get("candidate_registry"), str) or not payload["candidate_registry"].strip():
+        errors.append("candidate_registry must identify the open registry packet")
     if payload.get("scientific_authority") is not False:
         errors.append("campaign packet must not claim scientific authority")
     if payload.get("canonical_gate_order") is not False:
@@ -135,7 +144,7 @@ def main() -> int:
         "packet",
         nargs="?",
         type=Path,
-        default=Path(__file__).with_name("campaigns_v0_1.json"),
+        default=Path(__file__).with_name("campaigns_v0_2.json"),
     )
     args = parser.parse_args()
     payload = json.loads(args.packet.read_text(encoding="utf-8"))
