@@ -1,0 +1,547 @@
+{
+  "schema_version": "external-model-candidate-registry/0.2",
+  "registry_open": true,
+  "completeness_claimed": false,
+  "ranking_policy": "role_specific_packet_relative_pareto_frontiers",
+  "forbidden_ranking_inputs": [
+    "fame",
+    "citation_count_alone",
+    "episode_count",
+    "institutional_status",
+    "joshua_familiarity"
+  ],
+  "roles": [
+    "competitor",
+    "donor",
+    "empirical_testbed",
+    "mathematical_tool",
+    "critic_falsifier"
+  ],
+  "source_boundaries": [
+    {
+      "id": "toe_official_rss_2026_07_13",
+      "kind": "channel_corpus",
+      "episode_count": 354,
+      "broad_title_candidates": 176,
+      "mapped_episodes": 143,
+      "initial_program_rows": 57,
+      "untriaged_episodes": 75,
+      "provisionally_excluded_episodes": 136,
+      "note": "The title filter is a discovery aid, not an exclusion gate; useful programs were found in both backlog lanes."
+    },
+    {
+      "id": "wiki_graveyard_durable_intake_2026_06_07",
+      "kind": "github_receipt_corpus",
+      "durably_listed_scratch_rows": 44,
+      "reported_cumulative_diagnostics": 86,
+      "unreconstructed_earlier_rows": 42,
+      "source": "https://github.com/Joshua-Eisenhart/Joshua-Eisenhart-Wiki/blob/main/projects/codex-ratchet/current-toe-contender-graveyard-workspace-2026-06-07.md",
+      "note": "Scratch success is neither faithful source reproduction nor theory admission."
+    }
+  ],
+  "required_card_fields": [
+    "source_native_problem",
+    "canonical_primary_sources",
+    "maintained_code_and_data",
+    "installed_assumptions",
+    "finite_behavior_surface",
+    "role_specific_value",
+    "what_they_do_better",
+    "what_joshua_may_do_better",
+    "repair_hypotheses",
+    "controls",
+    "kill_criteria",
+    "claim_ceiling",
+    "receipt_history"
+  ],
+  "priority_frontiers": [
+    {
+      "id": "object_and_individual_discovery",
+      "why_now": "Directly tests how highly correlated components may be licensed as one predictive individual without mistaking a common-driver alias for unity.",
+      "candidate_ids": [
+        "computational_mechanics",
+        "information_theory_of_individuality",
+        "information_bottleneck",
+        "causal_emergence"
+      ]
+    },
+    {
+      "id": "operational_quantum_reconstruction",
+      "why_now": "Tests whether Hilbert, complex, probabilistic and purification structure is derived or installed.",
+      "candidate_ids": [
+        "hardy_operational_reconstruction",
+        "cdp_purification_reconstruction",
+        "spekkens_epistemic_restriction",
+        "carcassi_assumptions_of_physics"
+      ]
+    },
+    {
+      "id": "order_without_primitive_causality",
+      "why_now": "Supplies formal alternatives to globally directed causal order and a harder comparator than merely relabeling Wolfram causal edges.",
+      "candidate_ids": [
+        "indefinite_causal_order",
+        "all_at_once_retrocausal_models",
+        "norton_causation_entropy_critique",
+        "manchak_global_underdetermination"
+      ]
+    },
+    {
+      "id": "finite_chiral_physics_engines",
+      "why_now": "Compares finite quantum chiral dynamics and continuum recovery against Joshua's proposed engine architecture.",
+      "candidate_ids": [
+        "qca_weyl_dirac_maxwell",
+        "bianconi_entropy_network_geometry",
+        "causal_fermion_systems",
+        "wolfram_multiway_physics"
+      ]
+    },
+    {
+      "id": "exact_behavioral_ratchet_tools",
+      "why_now": "Makes alias collapse, probe-directed refinement and schedule reduction exact rather than LLM-judged.",
+      "candidate_ids": [
+        "bisimulation_coalgebra",
+        "active_automata_learning",
+        "cegar_model_checking",
+        "partial_order_reduction"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "computational_mechanics",
+      "program": "Computational mechanics and minimal predictive causal states",
+      "contributors": ["James Crutchfield", "Cosma Shalizi"],
+      "roles": ["donor", "mathematical_tool", "competitor"],
+      "domains": ["object formation", "prediction", "emergence"],
+      "discovery": "outside_channel_gap",
+      "status": "priority_dossier",
+      "next_action": "Compile rival finite predictive-state quotients while reopening probability and time assumptions.",
+      "source": "https://arxiv.org/abs/1111.4500"
+    },
+    {
+      "id": "information_theory_of_individuality",
+      "program": "Information theory of individuality",
+      "contributors": ["David Krakauer", "Nils Bertschinger", "Eckehard Olbrich", "Nihat Ay", "Jessica Flack"],
+      "roles": ["donor", "competitor"],
+      "domains": ["individuality", "multiscale systems", "life"],
+      "discovery": "outside_channel_gap",
+      "status": "priority_dossier",
+      "next_action": "Test bounded predictive-information individuals against persistence and intervention-closure controls.",
+      "source": "https://arxiv.org/abs/1412.2447"
+    },
+    {
+      "id": "information_bottleneck",
+      "program": "Information bottleneck",
+      "contributors": ["Naftali Tishby", "Fernando Pereira", "William Bialek"],
+      "roles": ["mathematical_tool", "donor"],
+      "domains": ["compression", "relevance", "representation"],
+      "discovery": "outside_channel_gap",
+      "status": "priority_dossier",
+      "next_action": "Treat the relevance surface and probability law as rival packet assumptions.",
+      "source": "https://arxiv.org/abs/physics/0004057"
+    },
+    {
+      "id": "causal_emergence",
+      "program": "Intervention-relative causal emergence",
+      "contributors": ["Erik Hoel"],
+      "roles": ["competitor", "donor"],
+      "domains": ["macro causation", "object formation", "emergence"],
+      "discovery": "outside_channel_gap",
+      "status": "priority_dossier",
+      "next_action": "Compare intervention closure while withholding primitive causality and probability."
+    },
+    {
+      "id": "hardy_operational_reconstruction",
+      "program": "Operational reconstruction of quantum theory",
+      "contributors": ["Lucien Hardy"],
+      "roles": ["competitor", "donor"],
+      "domains": ["quantum foundations"],
+      "discovery": "wiki_reference_gap",
+      "status": "priority_dossier",
+      "next_action": "Reproduce the axiom-to-quantum derivation and make each axiom a candidate family.",
+      "source": "https://arxiv.org/abs/quant-ph/0101012"
+    },
+    {
+      "id": "cdp_purification_reconstruction",
+      "program": "Purification-based operational reconstruction",
+      "contributors": ["Giulio Chiribella", "Giacomo Mauro D'Ariano", "Paolo Perinotti"],
+      "roles": ["competitor", "donor"],
+      "domains": ["quantum foundations", "information"],
+      "discovery": "wiki_reference_gap",
+      "status": "priority_dossier",
+      "next_action": "Test purification uniqueness and causal assumptions rather than importing them.",
+      "source": "https://arxiv.org/abs/1011.6451"
+    },
+    {
+      "id": "spekkens_epistemic_restriction",
+      "program": "Epistemically restricted classical theories",
+      "contributors": ["Robert Spekkens"],
+      "roles": ["competitor", "critic_falsifier", "donor"],
+      "domains": ["quantum foundations", "operational equivalence"],
+      "discovery": "channel_guest",
+      "status": "queued_source_native",
+      "next_action": "Reproduce the toy theory before varying epistemic restrictions.",
+      "source": "https://arxiv.org/abs/quant-ph/0401052"
+    },
+    {
+      "id": "carcassi_assumptions_of_physics",
+      "program": "Assumptions of Physics and reverse derivation",
+      "contributors": ["Gabriele Carcassi", "Christine Aidala"],
+      "roles": ["competitor", "donor", "critic_falsifier"],
+      "domains": ["operational foundations", "mechanics"],
+      "discovery": "channel_guest",
+      "status": "queued_source_native",
+      "next_action": "Compare its explicit assumption ladder with Ratchet candidate populations.",
+      "source": "https://assumptionsofphysics.org/"
+    },
+    {
+      "id": "indefinite_causal_order",
+      "program": "Process matrices and indefinite causal order",
+      "contributors": ["Ognyan Oreshkov", "Fabio Costa", "Caslav Brukner", "Sally Shrapnel"],
+      "roles": ["competitor", "donor", "mathematical_tool"],
+      "domains": ["quantum foundations", "order", "causal modelling"],
+      "discovery": "outside_channel_gap",
+      "status": "priority_dossier",
+      "next_action": "Build finite process-order packets and withhold causal interpretation.",
+      "source": "https://arxiv.org/abs/1105.4464"
+    },
+    {
+      "id": "all_at_once_retrocausal_models",
+      "program": "All-at-once, retrocausal and transactional quantum models",
+      "contributors": ["Emily Adlam", "Ken Wharton", "Ruth Kastner", "Yakir Aharonov"],
+      "roles": ["competitor", "donor"],
+      "domains": ["time", "quantum foundations", "history ensembles"],
+      "discovery": "channel_guest_family",
+      "status": "queued_source_native",
+      "next_action": "Separate the formalisms into independent cards and compare history constraints."
+    },
+    {
+      "id": "norton_causation_entropy_critique",
+      "program": "Indeterminism, causation and Landauer critique",
+      "contributors": ["John Norton"],
+      "roles": ["critic_falsifier"],
+      "domains": ["causality", "thermodynamics", "information"],
+      "discovery": "channel_guest",
+      "status": "priority_dossier",
+      "next_action": "Turn counterexamples into root-level negative packets.",
+      "source": "https://sites.pitt.edu/~jdnorton/"
+    },
+    {
+      "id": "manchak_global_underdetermination",
+      "program": "Global spacetime underdetermination",
+      "contributors": ["JB Manchak"],
+      "roles": ["critic_falsifier", "competitor"],
+      "domains": ["general relativity", "global inference"],
+      "discovery": "channel_guest",
+      "status": "priority_dossier",
+      "next_action": "Use locally indistinguishable spacetimes to test plural survivor semantics."
+    },
+    {
+      "id": "qca_weyl_dirac_maxwell",
+      "program": "Quantum cellular automata deriving Weyl, Dirac and Maxwell dynamics",
+      "contributors": ["Giacomo Mauro D'Ariano", "Paolo Perinotti", "Alessandro Bisio", "Alessandro Tosini", "Pablo Arrighi"],
+      "roles": ["competitor", "donor", "mathematical_tool"],
+      "domains": ["finite physics", "chirality", "quantum dynamics"],
+      "discovery": "outside_channel_gap",
+      "status": "priority_dossier",
+      "next_action": "Reproduce the continuum limits and reopen locality, unitarity, homogeneity, isotropy and carrier assumptions.",
+      "source": "https://arxiv.org/abs/1601.04832"
+    },
+    {
+      "id": "bianconi_entropy_network_geometry",
+      "program": "Gravity from entropy and discrete quantum network geometry",
+      "contributors": ["Ginestra Bianconi"],
+      "roles": ["competitor", "donor"],
+      "domains": ["entropy", "gravity", "higher-order networks", "spinors"],
+      "discovery": "channel_seed_video",
+      "status": "deep_read_started",
+      "next_action": "Faithfully reproduce the finite action and low-energy limit before any Ratchet transplant.",
+      "source": "https://arxiv.org/abs/2408.14391"
+    },
+    {
+      "id": "causal_fermion_systems",
+      "program": "Causal Fermion Systems",
+      "contributors": ["Felix Finster"],
+      "roles": ["competitor", "donor"],
+      "domains": ["unification", "spinors", "emergent spacetime"],
+      "discovery": "channel_guest_and_wiki_scratch",
+      "status": "source_native_reproduction_pending",
+      "next_action": "Replace stripped proxies with a faithful causal-action card.",
+      "source": "https://www.causal-fermion-system.com/"
+    },
+    {
+      "id": "wolfram_multiway_physics",
+      "program": "Multiway hypergraph rewriting and observer theory",
+      "contributors": ["Stephen Wolfram", "Jonathan Gorard"],
+      "roles": ["competitor", "donor", "mathematical_tool"],
+      "domains": ["finite physics", "rewriting", "observers"],
+      "discovery": "named_seed",
+      "status": "seed_campaign_contract",
+      "next_action": "Add demand-relative quotients, dependency-versus-causality controls and rival history weights.",
+      "source": "https://github.com/WolframInstitute/HypergraphRewritingEngine"
+    },
+    {
+      "id": "bisimulation_coalgebra",
+      "program": "Bisimulation and coalgebraic behavioral equivalence",
+      "contributors": ["Robin Milner", "Jan Rutten"],
+      "roles": ["mathematical_tool", "donor"],
+      "domains": ["behavioral equivalence", "transition systems"],
+      "discovery": "outside_channel_tool_gap",
+      "status": "priority_dossier",
+      "next_action": "Compare exact bisimulation quotients with current behavioral alias logic."
+    },
+    {
+      "id": "active_automata_learning",
+      "program": "Active automata learning",
+      "contributors": ["Dana Angluin"],
+      "roles": ["mathematical_tool", "donor"],
+      "domains": ["probe selection", "model discovery"],
+      "discovery": "outside_channel_tool_gap",
+      "status": "priority_dossier",
+      "next_action": "Use counterexample-directed queries to refine finite behavioral objects."
+    },
+    {
+      "id": "cegar_model_checking",
+      "program": "Counterexample-guided abstraction refinement",
+      "contributors": ["Edmund Clarke and collaborators"],
+      "roles": ["mathematical_tool", "critic_falsifier"],
+      "domains": ["formal verification", "abstraction"],
+      "discovery": "outside_channel_tool_gap",
+      "status": "priority_dossier",
+      "next_action": "Prototype counterexample-driven candidate splitting and immutable kill receipts."
+    },
+    {
+      "id": "partial_order_reduction",
+      "program": "Partial-order reduction and schedule model checking",
+      "contributors": [],
+      "roles": ["mathematical_tool"],
+      "domains": ["schedule exploration", "concurrency"],
+      "discovery": "outside_channel_tool_gap",
+      "status": "priority_dossier",
+      "next_action": "Reduce redundant schedules only after independence is proved, preserving N01 witnesses."
+    },
+    {
+      "id": "friston_fep",
+      "program": "Free Energy Principle and active inference",
+      "contributors": ["Karl Friston"],
+      "roles": ["competitor", "donor"],
+      "domains": ["life", "inference", "control"],
+      "discovery": "named_seed",
+      "status": "seed_campaign_contract",
+      "next_action": "Run the blinded assumption-Ratchet tournament.",
+      "source": "https://arxiv.org/abs/2201.06387"
+    },
+    {
+      "id": "levin_morphogenesis",
+      "program": "Bioelectric morphogenesis and scale-free agency",
+      "contributors": ["Michael Levin"],
+      "roles": ["competitor", "donor", "empirical_testbed"],
+      "domains": ["morphogenesis", "agency", "basin repair"],
+      "discovery": "named_seed",
+      "status": "seed_campaign_contract",
+      "next_action": "Separate supplied targets from discovered repair basins using held-out interventions.",
+      "source": "https://drmichaellevin.org/"
+    },
+    {
+      "id": "assembly_theory",
+      "program": "Assembly Theory",
+      "contributors": ["Lee Cronin", "Sara Walker"],
+      "roles": ["competitor", "donor", "empirical_testbed"],
+      "domains": ["origins of life", "historical constraint"],
+      "discovery": "named_seed",
+      "status": "seed_campaign_contract",
+      "next_action": "Build the exact small-instance grammar and pathway frontier.",
+      "source": "https://assemblytheory.org/"
+    },
+    {
+      "id": "donoghue_eft_gravity",
+      "program": "Effective-field-theory quantum gravity",
+      "contributors": ["John Donoghue"],
+      "roles": ["competitor", "critic_falsifier"],
+      "domains": ["quantum gravity", "effective field theory"],
+      "discovery": "channel_misclassified_as_context",
+      "status": "restore_to_queue",
+      "next_action": "Use as the anti-unification baseline: identify what quantum-gravity predictions require no ToE."
+    },
+    {
+      "id": "everett_decoherent_histories",
+      "program": "Everett interpretation, decoherence and emergent probability",
+      "contributors": ["David Wallace", "Simon Saunders"],
+      "roles": ["competitor", "critic_falsifier"],
+      "domains": ["quantum foundations", "time", "probability"],
+      "discovery": "channel_misclassified_or_untriaged",
+      "status": "restore_to_queue",
+      "next_action": "Separate decoherence mathematics from ontological many-worlds commitments."
+    },
+    {
+      "id": "fuentes_experimental_quantum_gravity",
+      "program": "Relativistic quantum information and experimental quantum-gravity probes",
+      "contributors": ["Ivette Fuentes"],
+      "roles": ["empirical_testbed", "donor", "critic_falsifier"],
+      "domains": ["quantum gravity", "relativistic quantum information"],
+      "discovery": "channel_untriaged",
+      "status": "restore_to_queue",
+      "next_action": "Catalogue experiments capable of killing downstream gravity/quantum claims."
+    },
+    {
+      "id": "schreiber_higher_geometry",
+      "program": "Higher geometry, supergeometry and gauge structure",
+      "contributors": ["Urs Schreiber"],
+      "roles": ["mathematical_tool", "donor", "competitor"],
+      "domains": ["higher geometry", "gauge theory"],
+      "discovery": "channel_misclassified_as_context",
+      "status": "restore_to_queue",
+      "next_action": "Mine exact gluing and higher-structure tools without importing their ontology."
+    },
+    {
+      "id": "maudlin_bohmian_realism",
+      "program": "Bohmian mechanics and causal realism",
+      "contributors": ["Tim Maudlin"],
+      "roles": ["competitor", "critic_falsifier"],
+      "domains": ["quantum foundations", "causality"],
+      "discovery": "channel_untriaged",
+      "status": "restore_to_queue",
+      "next_action": "Use as a strong primitive-causality and ontology adversary."
+    },
+    {
+      "id": "geometric_unity",
+      "program": "Geometric Unity",
+      "contributors": ["Eric Weinstein"],
+      "roles": ["competitor"],
+      "domains": ["unification", "geometry"],
+      "discovery": "channel_misclassified_as_context_and_wiki_scratch",
+      "status": "source_reproduction_blocked",
+      "next_action": "Record source gaps and require a reproducible mathematical baseline before repair."
+    },
+    {
+      "id": "priest_paraconsistency",
+      "program": "Paraconsistent logic and dialetheism",
+      "contributors": ["Graham Priest"],
+      "roles": ["critic_falsifier", "mathematical_tool"],
+      "domains": ["logic", "inconsistency handling"],
+      "discovery": "channel_untriaged",
+      "status": "restore_to_queue",
+      "next_action": "Test whether contradiction-tolerant packets improve conflict preservation without trivialization."
+    },
+    {
+      "id": "aaronson_complexity_limits",
+      "program": "Computational complexity and simulation limits",
+      "contributors": ["Scott Aaronson"],
+      "roles": ["critic_falsifier", "mathematical_tool"],
+      "domains": ["complexity", "quantum computation", "simulation"],
+      "discovery": "channel_untriaged_or_context",
+      "status": "restore_to_queue",
+      "next_action": "Convert complexity limits into explicit exploration-budget and simulation controls."
+    },
+    {
+      "id": "tegmark_mathematical_universe",
+      "program": "Mathematical Universe and physics of intelligence",
+      "contributors": ["Max Tegmark"],
+      "roles": ["competitor", "critic_falsifier"],
+      "domains": ["ontology", "physics", "intelligence"],
+      "discovery": "channel_untriaged",
+      "status": "restore_to_queue",
+      "next_action": "Separate mathematical-structure ontology from useful state-space and intelligence tools."
+    },
+    {
+      "id": "sloan_wilson_multilevel_selection",
+      "program": "Multilevel selection",
+      "contributors": ["David Sloan Wilson"],
+      "roles": ["donor", "empirical_testbed", "critic_falsifier"],
+      "domains": ["evolution", "individuality", "group selection"],
+      "discovery": "channel_misclassified_as_context",
+      "status": "restore_to_queue",
+      "next_action": "Use competing units of selection as an empirical object-boundary test."
+    },
+    {
+      "id": "kauffman_open_ended_evolution",
+      "program": "Adjacent possible and unprestatable biosphere",
+      "contributors": ["Stuart Kauffman"],
+      "roles": ["competitor", "critic_falsifier", "donor"],
+      "domains": ["open-ended evolution", "state-space limits"],
+      "discovery": "channel_guest",
+      "status": "queued_source_native",
+      "next_action": "Test whether open candidate generation operationalizes rather than merely restates unprestatability."
+    },
+    {
+      "id": "deacon_teleodynamics",
+      "program": "Teleodynamics and constraints generating constraints",
+      "contributors": ["Terrence Deacon"],
+      "roles": ["competitor", "donor"],
+      "domains": ["life", "meaning", "constraint closure"],
+      "discovery": "channel_guest",
+      "status": "queued_source_native",
+      "next_action": "Compile constraint-closure mechanisms into finite intervention packets."
+    },
+    {
+      "id": "closure_autopoiesis_adaptivity",
+      "program": "Metabolism-repair closure, closure of constraints, autopoiesis and adaptivity",
+      "contributors": ["Robert Rosen", "Alvaro Moreno", "Matteo Mossio", "Humberto Maturana", "Francisco Varela", "Ezequiel Di Paolo"],
+      "roles": ["competitor", "donor"],
+      "domains": ["life", "autonomy", "persistence"],
+      "discovery": "wiki_reference_family",
+      "status": "source_native_cards_needed",
+      "next_action": "Split this family into formal closure, organizational and intervention cards."
+    },
+    {
+      "id": "nick_lane_origin_of_life",
+      "program": "Alkaline-vent bioenergetics and origin of life",
+      "contributors": ["Nick Lane"],
+      "roles": ["donor", "empirical_testbed", "competitor"],
+      "domains": ["origin of life", "bioenergetics"],
+      "discovery": "channel_guest",
+      "status": "queued_source_native",
+      "next_action": "Use concrete geochemical constraints as the chemistry-to-life bridge test."
+    },
+    {
+      "id": "dissipative_adaptation_critique_pair",
+      "program": "Dissipative adaptation and its thermodynamic counterexamples",
+      "contributors": ["Jeremy England", "Artemy Kolchinsky"],
+      "roles": ["competitor", "critic_falsifier", "donor"],
+      "domains": ["nonequilibrium physics", "life"],
+      "discovery": "outside_channel_gap",
+      "status": "paired_dossier_needed",
+      "next_action": "Keep the proposed mechanism and its counterexamples in one adversarial packet."
+    },
+    {
+      "id": "quantum_foundations_without_wavefunction",
+      "program": "Quantum theory without a fundamental wavefunction",
+      "contributors": ["Jacob Barandes"],
+      "roles": ["competitor", "donor"],
+      "domains": ["quantum foundations", "finite stochastic dynamics"],
+      "discovery": "channel_guest_family",
+      "status": "queued_source_native",
+      "next_action": "Reproduce the stochastic-quantum map and compare carrier burdens."
+    },
+    {
+      "id": "post_quantum_classical_gravity",
+      "program": "Post-quantum classical gravity",
+      "contributors": ["Jonathan Oppenheim"],
+      "roles": ["competitor", "empirical_testbed", "critic_falsifier"],
+      "domains": ["gravity", "quantum foundations"],
+      "discovery": "channel_guest",
+      "status": "queued_source_native",
+      "next_action": "Use its experimental discriminators to prevent automatic quantization of gravity."
+    },
+    {
+      "id": "constructive_gravity",
+      "program": "Constructive gravity from matter dynamics",
+      "contributors": ["Frederic Schuller"],
+      "roles": ["competitor", "donor"],
+      "domains": ["gravity", "matter", "geometry"],
+      "discovery": "channel_guest",
+      "status": "queued_source_native",
+      "next_action": "Compare matter-to-geometry consistency constraints with pre-object Ratchet search."
+    },
+    {
+      "id": "curt_jaimungal_toe",
+      "program": "Curt Jaimungal's stated Theory of Everything",
+      "contributors": ["Curt Jaimungal"],
+      "roles": ["competitor", "critic_falsifier"],
+      "domains": ["foundations", "consciousness", "physics"],
+      "discovery": "channel_host_program",
+      "status": "source_dossier_needed",
+      "next_action": "Extract a stable claim set from the dedicated theory episode and compare it like any guest program."
+    }
+  ]
+}
