@@ -1,30 +1,34 @@
-# Open External Model Repair Registry and Seed Campaigns v0.2
+# Neutral External-Model Intake and Evidence-Gated Campaign Selection v0.3
 
 Status: working research program; no scientific admission.
 
-Claim ceiling: open discovery registry, source-informed repair hypotheses and executable campaign contracts. A green campaign validates the wrapper and its controls. It does not establish Joshua's framework, any repaired source model, or a unification claim as canon.
+Claim ceiling: complete channel intake, partial program discovery, unselected adapter drafts, and an evidence-gated campaign-selection contract. No program is presently ranking-eligible or selected. A future green campaign would validate only its declared packet and controls; it would not establish Joshua's framework, any repaired source model, or a unification claim as canon.
 
 Process authority: [`projects/codex-ratchet/RATCHET_SPEC.md`](../codex-ratchet/RATCHET_SPEC.md) v0.5. The only root is constrained distinguishability. Objects, partitions, probabilities, carriers, causal arrows, assembly grammars, agents, blankets, geometries and gate orders remain candidates until earned within a finite packet.
 
-## Scope correction: four names are seeds, not the field
+## Scope correction: familiar names have no priority
 
-Friston, Levin, Cronin and Wolfram were the first examples Joshua named. They are not a closed contender list, the four best models, or the boundary of the repair program.
+Names supplied in conversation are intake provenance only. Friston, Levin, Cronin and Wolfram are examples Joshua happened to know; Fields, Knuth, Schreiber or any later shortlist are examples the research pass happened to notice. Neither route creates seed, priority, frontier or campaign status. Every distinct source program must enter through the same identity, program-splitting, dossier, reproduction, evidence and selection gates.
 
-The current channel ledger already contains 354 official RSS episodes, 176 broad title candidates and 57 initial program rows. Only 143 episodes were mapped; 75 remained explicitly untriaged. A further 136 were provisionally marked `context / likely exclude`, and that filter incorrectly buried several useful programs. The GitHub graveyard is also incomplete: it durably preserves 44 scratch rows while reporting 86 cumulative diagnostics.
+The neutral intake now preserves all 354 official RSS episodes as 264 raw title-prefix groups, including 12 episodes whose prefix extractor failed. These groups are discovery records, not people or programs: a prefix may contain a single guest, a panel, a debate, a host-only episode or a non-person entity. The earlier 47 program cards are explicitly partial. Under the common v0.3 dossier contract, zero identities have been certified complete, zero programs are ranking-eligible and zero repair campaigns are selected. The historical file titled “graveyard” remains a source receipt, but the current process is Purgatory: no permanent exclusion, and re-offer is allowed under changed constraints.
 
 The correct architecture is:
 
 ```text
-open candidate registry
-→ source-fidelity dossiers
-→ role-specific Pareto frontiers
-→ selected source-native repair campaigns
-→ experiments, controls and receipts
+complete open intake corpus
+→ resolve every guest, panel and alias
+→ split each person into distinct source programs and versions
+→ complete a common source-native dossier
+→ reproduce or document the native baseline
+→ attach evidence and eligibility receipts
+→ compute role-specific packet-relative frontiers among eligible programs
+→ select repair campaigns with explicit comparison-pool receipts
+→ run repairs, controls, ablations and held-out tests
 ```
 
-Candidate intake remains open to channel guests, cited researchers, executable repositories, datasets, critics, mathematical tools and newly discovered programs. Familiarity, fame and episode count are not ranking evidence.
+Candidate intake remains open beyond the channel to cited researchers, executable repositories, datasets, critics, mathematical tools and newly discovered programs. Familiarity, fame, episode count, discovery route, registry order and prior work investment are forbidden ranking inputs. An unfamiliar or unprocessed program is `UNRANKED`, never scored as weak.
 
-The four detailed adapters below are seed campaigns because they were named first and expose different repair surfaces. New candidates can precede them when their source fidelity, claim coverage, kill power and acquisition cost place them on the active research-scheduling frontier.
+The four detailed adapters below survive only as unselected technical drafts inherited from earlier work. Their additional detail is work-history provenance, not evidence of merit and not a reason to process them first. Repair analysis remains blocked until each source-native baseline is locked and a later selection receipt identifies the complete comparison pool.
 
 ## Central proposal
 
@@ -46,7 +50,7 @@ This is a model-repair tournament, not a vocabulary merger.
 
 ## Registry roles and rankings
 
-Rank source-native program cards, not people. One person may contribute several separable programs, and one program may occupy several roles:
+The hierarchy is `episode → person → program → program version → claim → test`. People are never ranked. One person may contribute several separable programs, several people may share one program, and one program version may occupy several packet-relative roles:
 
 - **competitor** — makes an overlapping foundational, bridge or domain claim;
 - **donor** — supplies a mechanism, theorem, representation or algorithm;
@@ -54,22 +58,24 @@ Rank source-native program cards, not people. One person may contribute several 
 - **mathematical tool** — supplies exact inference, quotienting, search or verification machinery;
 - **critic/falsifier** — supplies a no-go theorem, counterexample or assumption audit.
 
-There is no permanent weighted `best model` score. Rank separate packet-relative frontiers for foundational depth, formal precision, empirical contact, executable maturity, donor value, critic strength, repair leverage and acquisition cost. If one program has the weaker ontology while another has stronger recovered physics, they remain incomparable until a discriminating packet resolves the relevant claim.
+These roles remain proposed until a common dossier supports them. There is no permanent weighted `best model` score. Evidence readiness, declared-task performance and administrative scheduling are separate outputs. A frontier is computed only among dossier-complete, baseline-locked programs for a declared role, question and evidence packet. Unknown is not zero; missing evidence cannot create dominance.
 
-The first major frontier missing from the four seeds concerns Joshua's own operation of seeing highly correlated components as one thing. Correlation alone cannot license objecthood because a common driver can generate false unity. Test at least four rival object compilers:
+One unresolved comparison-question family concerns Joshua's operation of seeing highly correlated components as one thing. Correlation alone may not license objecthood because a common driver can generate false unity. Candidate tags currently include:
 
 1. Crutchfield/Shalizi minimal predictive causal states;
 2. Krakauer–Bertschinger–Olbrich–Ay–Flack information-theoretic individuals;
 3. Tishby–Pereira–Bialek information-bottleneck compression relative to declared relevance;
 4. Hoel intervention-relative causal emergence.
 
-Strip their primitive probability, time and causality commitments, then compare predictive sufficiency, intervention closure, persistence, relabeling stability and minimality. This family may bind earlier than any of the four seed campaigns.
+If these programs become eligible for the same packet, first reproduce them in their own terms. Only then test what changes when primitive probability, time or causality commitments are reopened, comparing predictive sufficiency, intervention closure, persistence, relabeling stability and minimality. Membership in this question family conveys no priority.
 
-Other immediate restored channel cards include John Donoghue, Simon Saunders, David Wallace, Ivette Fuentes, Eric Weinstein, Urs Schreiber, Tim Maudlin, Max Tegmark, Graham Priest, Scott Aaronson and David Sloan Wilson. Curt Jaimungal's own theory also receives a program card rather than being treated as channel context.
+Additional partial intake records currently include John Donoghue, Simon Saunders, David Wallace, Ivette Fuentes, Eric Weinstein, Urs Schreiber, Tim Maudlin, Max Tegmark, Graham Priest, Scott Aaronson and David Sloan Wilson. This list is illustrative, not exhaustive or scheduled. Curt Jaimungal's own theory receives the same neutral intake treatment as guest programs.
 
-Machine-readable intake and lifecycle fields live in [`candidate_registry_v0_2.json`](candidate_registry_v0_2.json).
+The complete episode/prefix intake lives in [`channel_intake_v0_3.json`](channel_intake_v0_3.json). Partial program cards and the zero-eligibility state live in [`candidate_registry_v0_3.json`](candidate_registry_v0_3.json). Unselected adapter drafts and the empty selected-campaign array live in [`campaigns_v0_3.json`](campaigns_v0_3.json).
 
-## Seed repair map
+## Unselected adapter drafts inherited from earlier work
+
+Every row below has `selection_status: UNSELECTED`, `selection_receipt: null`, and no scheduling priority. The technical hypotheses are preserved so prior work is not lost; they are not active campaigns.
 
 | Source program | What must be preserved | Installed structure to reopen | Joshua transplant | Decisive test |
 |---|---|---|---|---|
@@ -78,7 +84,7 @@ Machine-readable intake and lifecycle fields live in [`candidate_registry_v0_2.j
 | Cronin / Assembly Theory | historical constraint, reuse, assembly pathways, copy-number relevance and experimental mass-spectrometry program | assembly grammar, decomposition, object identity, minimum-path scalar, resource model and relation between index and actual history | grammar population, behavioral alias collapse, plural pathway antichains, order-sensitive resource/kinetic demands and exact-vs-stochastic search separation | the repaired model must outperform assembly index plus copy number on matched abiotic/biotic and representation-perturbation controls without leaking labels |
 | Wolfram / multiway hypergraph rewriting | multiway evolution, causal and branchial graphs, canonical states, observer quotients, reconstruction probes | forward event order, structural isomorphism as the privileged quotient, producer-consumer dependency as causality, nonnegative path multiplicity and causal invariance as success | demand-relative behavioral quotients, schedule populations, divergence as evidence, dependency-versus-causality intervention gates and rival signed/complex/operator history weights | a transplanted lane must improve prediction, reconstruction or compression under relabeling and intervention controls; mere reinterpretation does not count |
 
-## 1. Friston adapter: FEP inside the Ratchet
+## Draft — Friston adapter: FEP inside the Ratchet
 
 ### Preserve
 
@@ -104,7 +110,7 @@ The adapter emits finite intervention-conditioned predictions, actions, blanket 
 
 The existing Joshua QIT/FEP simulations remain donor scaffolds only. They currently install such ingredients as a GKSL fixed point, Umegaki divergence, diagonal/classical conditional mutual information, a prior/likelihood family or direct state access. Their honest `scratch_diagnostic` ceiling should be preserved while those ingredients become rival candidates.
 
-### First tournament
+### Proposed discriminating packet — not scheduled
 
 Use four blinded worlds:
 
@@ -125,7 +131,7 @@ Test every small partition, including no blanket. Hold out interventions, not on
 
 Primary starting points: [particular physics](https://arxiv.org/abs/1906.10184), [2023 FEP synthesis](https://arxiv.org/abs/2201.06387), [sophisticated inference](https://arxiv.org/abs/2006.04120), [blanket critique](https://arxiv.org/abs/2001.06408), [dynamical restrictions](https://arxiv.org/abs/2105.11203), and [particular flows response](https://arxiv.org/abs/2205.09595).
 
-## 2. Levin adapter: discover the agent and the target
+## Draft — Levin adapter: discover the agent and the target
 
 ### Preserve
 
@@ -149,7 +155,7 @@ Collapse boundaries and controllers that are indistinguishable under the active 
 
 The first code audit should pin [`LPioL/scalefreecognition`](https://github.com/LPioL/scalefreecognition) at commit `bced77dd90e6a5c67bf7a557610b19ee995db729`. Its French-flag target is supplied; cell inputs include error relative to an ideal stripe size; patch reward/stress use stored target information; and the generated random initialization is overwritten by a fixed reverse flag. Reproduce that source-native result, then run a leakage ablation that removes `cell.goal`, ideal-size error and target-dependent ontogenetic reward before making any claim of spontaneously emerging collective goals.
 
-### First tournament
+### Proposed discriminating packet — not scheduled
 
 Choose one public, source-native planarian or bioelectric morphogenesis dataset with interventions and outcomes. Train only on a subset of perturbations. Candidate models must predict:
 
@@ -170,7 +176,7 @@ The strongest empirical anchor is serial planarian regeneration after transient 
 - boundary/target results fail relabeling, timing or budget controls;
 - no new intervention or rescue prediction survives experimental testing.
 
-## 3. Cronin adapter: from one assembly number to a constrained pathway frontier
+## Draft — Cronin adapter: from one assembly number to a constrained pathway frontier
 
 ### Preserve
 
@@ -192,7 +198,7 @@ Enumerate rival grammars and decompositions. Separate high-diversity pathway gen
 
 Minimum assembly length is not automatically the historical path. The transplant must quantify when the scalar is stable across admissible representations and when path multiplicity or environmental feasibility changes the conclusion.
 
-### First tournament
+### Proposed discriminating packet — not scheduled
 
 Build an exact small-instance corpus where exhaustive dynamic programming, ILP or SMT establishes the full pathway set, then test approximate search on larger molecular graphs. Include:
 
@@ -214,7 +220,7 @@ Pin Cronin's public reference notebooks in [`croningp/assemblyphysics`](https://
 - exact small cases disagree with the approximate engine;
 - the original Assembly Theory baseline is equally predictive and strictly weaker.
 
-## 4. Wolfram adapter: dependency before causality
+## Draft — Wolfram adapter: dependency before causality
 
 ### Preserve
 
@@ -234,7 +240,7 @@ The current engine is not simply Newtonian or deterministic. Its classical resid
 5. Add rival history-weight traits: nonnegative multiplicity, signed real, complex amplitude, matrix/operator-valued and explicitly bracketed nonassociative candidates. These are compiler families, not root commitments.
 6. Earn a causal arrow only when interventions on event/rule availability create a relabeling-robust asymmetric effect that survives schedule, observer and reverse-rule controls.
 
-### First tournament
+### Proposed discriminating packet — not scheduled
 
 Run identical rules and initial states through:
 
@@ -270,27 +276,13 @@ Lev can orchestrate these campaigns, persist lineage and replay receipts, but it
 
 After this repair, use FlowMind to declare campaign packets and controls, Orchestration to run source-native adapters, Graph to store evidence/lineage, and the Event Bus to audit execution events. Do not treat the Event Bus's “causality plane” label as a scientific causal claim.
 
-## Seed implementation order
+## Scheduling is not yet assigned
 
-Two rankings matter:
+There is no scientific implementation order while the ranking-eligible count is zero. Dossier intake uses an exhaustive administrative rule rather than a merit judgment: begin with the oldest unresolved records, rotate through the least-covered domains, include unfamiliar and unclassified entries, and audit title-prefix failures and provisional exclusions. Every record ages toward a minimum source-native pass.
 
-| Rank | Engineering tractability | Scientific payoff |
-|---|---|---|
-| 1 | Cronin: exact finite pathway cases make the fastest honest adapter | Levin: real interventions can force or kill the transplant |
-| 2 | Wolfram: public finite engine and explicit canonicalization hooks | Friston: the strongest meta-model-selection comparison |
-| 3 | Friston: controlled synthetic worlds before biological claims | Wolfram: the sharpest test of dependency, order and classical residue |
-| 4 | Levin: data harmonization and experimental validation are expensive | Cronin: valuable if it gains robustness beyond a grammar-relative scalar |
+After dossiers and native baselines exist, selection occurs only inside a declared question packet. A selection receipt must identify the candidate version, full comparison pool, role, evidence-backed axes, unknown values, dominance or eligibility rule, resource budget and rationale. Existing adapter detail, familiarity or perceived compatibility with Joshua's model cannot substitute for that receipt.
 
-This orders only the first four implementation examples, not the open registry. Recommended seed sequence:
-
-1. implement the exact Assembly pathway packet to validate adapter mechanics;
-2. port behavioral quotient, schedule and weight hooks into a Wolfram-side experimental branch;
-3. run the blinded FEP assumption tournament;
-4. spend the resulting mature harness on a Levin intervention dataset;
-5. recompute the open research-scheduling frontier after every source reproduction;
-6. extract a common interface only after at least two source-native adapters work.
-
-The last constraint matters. A broad workbench built first would freeze unearned assumptions into an API.
+A broad workbench should still not be frozen first: common interfaces are extracted only after multiple independently source-native adapters demonstrate that the shared structure is real rather than an assumption installed by the API.
 
 ## Promotion ladder
 
