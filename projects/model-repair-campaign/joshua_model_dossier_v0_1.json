@@ -1,0 +1,705 @@
+{
+  "schema_version": "joshua-model-dossier/0.1",
+  "as_of": "2026-07-15",
+  "dossier_status": "SOURCE_RECONCILED_WORKING_REFERENCE_NOT_CANON",
+  "claim_ceiling": "This dossier reconstructs Joshua Eisenhart's current target pattern, research process, live hypotheses, diagnostic evidence, negative results, and downstream interpretations. It does not assert a unique root ontology, an admitted QIT carrier, a completed Ratchet, an earned two-engine derivation, an admitted scientific manifold, or a validated theory of physics.",
+  "comparison_use": {
+    "unit": "program_version_x_role_x_question_x_evidence_packet",
+    "people_are_ranked": false,
+    "joshua_is_automatic_baseline_winner": false,
+    "native_external_models_must_be_reconstructed_first": true,
+    "missing_evidence_means": "UNRANKED_OR_INCOMPARABLE",
+    "repair_claim_requires": "A source-native baseline, a Joshua-transplanted variant, a sham transplant, component ablations, held-out tests, and a packet-specific selection receipt."
+  },
+  "source_corpus": [
+    {
+      "source_id": "july15_cumulative_pack",
+      "name": "QIT_RATCHET_THREAD_CUMULATIVE_KNOWLEDGE_PACK_2026-07-15(2).zip",
+      "sha256": "20ee6472542485197a5693e39275a46db7ea5fd0fb23e8a55ce473de5480fa7f",
+      "authority_class": "CURRENT_OVERLAY_WITH_OWNER_PROMPTS",
+      "notes": "Owner prompts are highest-value evidence inside the packet; July 15 overlay supersedes the included legacy_v1 synthesis where they conflict."
+    },
+    {
+      "source_id": "july14_engine_pack",
+      "name": "QIT_RATCHET_ENGINE_DERIVATION_KNOWLEDGE_PACK_2026-07-14(2).zip",
+      "sha256": "511c53b584472a9a70e14603adee183ca1088b4cf79607e72c5bd3f17e5a0310",
+      "authority_class": "ENGINE_TARGET_AND_CANDIDATE_DERIVATION_ARCHIVE",
+      "notes": "Preserves the owner-given engine target, exact algebraic seed, executable proposal, and a claim-status ledger; mathematical bridges remain candidates. Its content is byte-for-byte identical to legacy_v1 inside the July 15 cumulative packet, so it is one lineage and not independent corroboration."
+    },
+    {
+      "source_id": "july13_evidence_pack",
+      "name": "THREAD_SAVE_key_ideas_work_and_evidence_20260713(1).zip",
+      "sha256": "00955f543b76a3a56afe8124cf171e6bbfdf28eb194686abdd03cf34c2ae52ec",
+      "authority_class": "IMPLEMENTATION_EVIDENCE_AND_AUDIT_ARCHIVE",
+      "notes": "Contains the latest user-direction boundary among the July 13 handoffs, source texts, registrations, rerun receipts, layer-state audits, negative results, and older project-state documents. It explicitly corrects the 168 and complete-handoff lineages for making cosmogenesis too central. Green diagnostics are not admissions."
+    },
+    {
+      "source_id": "july13_complete_handoff",
+      "name": "ratchet_thread_complete_handoff_20260713(2).zip",
+      "sha256": "1d2ae67fa859b5d0ae12d7182efd8a8571836b8914ed403a85a4923726cb7324",
+      "authority_class": "PROCESS_AND_EXECUTION_HANDOFF",
+      "notes": "Includes cold-verification extracts and nested archived bundles. Its Ratchet-equals-cosmogenesis language is historical and conflicts with the later THREAD_SAVE and July 15 pure-math correction."
+    },
+    {
+      "source_id": "july13_cosmogenesis_handoff",
+      "name": "168_ratchet_cosmogenesis_claude_code_concept_handoff_20260713(1).zip",
+      "sha256": "87466ba8d425bde6ac4c18bfeac71f51403aeafd8a9c001ab33d1aa22d475409",
+      "authority_class": "CONCEPT_AND_AUDIT_HANDOFF",
+      "notes": "Useful provenance for the cosmogenesis lineage and endogenous-closure correction. Its statement that the Ratchet is a cosmogenic process is superseded by the later pure-math boundary."
+    },
+    {
+      "source_id": "july13_cross_llm_export",
+      "name": "850fd655_2026-07-13T21-09-53(1).json",
+      "sha256": "f5c97ae4e2dee01b156c2e2f34e92f8b8fcadc444ae0c5e31dc82f48786263f6",
+      "authority_class": "RAW_CROSS_LLM_CONVERSATION_AND_ARTIFACT_EXPORT",
+      "notes": "Conversation export is provenance and failure-analysis evidence; assistant text is not promoted by inclusion."
+    },
+    {
+      "source_id": "personal_context_20260715",
+      "name": "ChatGPT Personal Context retrieval",
+      "authority_class": "RECENT_OWNER_CORRECTIONS_AND_LIBRARY_INDEX",
+      "notes": "Used to recover current separations, missing heart-of-model claims, authoritative-repo warnings, and open questions not fully repeated in the attached packets."
+    },
+    {
+      "source_id": "library_coratchet_null",
+      "name": "codex-ratchet-session-2026-07-04-full-thread.md",
+      "library_file_id": "libfile_33fe49ccc8608191bb039e13e107147a",
+      "authority_class": "HISTORICAL_EXECUTION_AND_AUDIT_RECORD",
+      "notes": "Records a working feedback-loop diagnostic but a null result for noncommuting-drive dominance; later audits block promotion."
+    }
+  ],
+  "authority_order": [
+    "direct_owner_prompt",
+    "later_owner_correction",
+    "current_overlay_synthesis_constrained_by_owner_prompts",
+    "machine_receipt_with_declared_scope_and_claim_ceiling",
+    "assistant_mathematical_candidate",
+    "legacy_pack",
+    "repository_or_old_bundle_prose"
+  ],
+  "status_taxonomy": [
+    {
+      "status": "OWNER_GIVEN_TARGET",
+      "meaning": "A pattern or functional demand Joshua says the mathematics must explain; not a theorem or generated result."
+    },
+    {
+      "status": "PROCESS_REQUIREMENT",
+      "meaning": "A constitutional rule for conducting the research; not an ontological fact."
+    },
+    {
+      "status": "OPERATIONAL_ASSUMPTION",
+      "meaning": "Installed to run a current packet while its uniqueness and ontological status remain open."
+    },
+    {
+      "status": "STANDARD_MATHEMATICAL_FACT",
+      "meaning": "An externally checkable mathematical identity; its relevance to the engine target remains a separate question."
+    },
+    {
+      "status": "LIVE_HYPOTHESIS",
+      "meaning": "Owner or literature-seeded proposal that must face rivals and controls."
+    },
+    {
+      "status": "CANDIDATE_FORMALIZATION",
+      "meaning": "A mathematical representation proposed for a target feature; not uniquely selected."
+    },
+    {
+      "status": "CONDITIONAL_DIAGNOSTIC",
+      "meaning": "A finite result under installed fixtures and assumptions; useful evidence but not admission."
+    },
+    {
+      "status": "NEGATIVE_OR_NULL_RESULT",
+      "meaning": "A killed bridge, failed control, tie, obstruction, or non-uniqueness result retained in Purgatory."
+    },
+    {
+      "status": "NOT_EARNED",
+      "meaning": "A claim explicitly outside the present evidence ceiling."
+    },
+    {
+      "status": "OPEN_CONFLICT",
+      "meaning": "Two source descriptions or factorizations have not been shown equivalent or adjudicated."
+    },
+    {
+      "status": "DOWNSTREAM_INTERPRETATION",
+      "meaning": "A physics, biological, cognitive, engineering, or philosophical view that may seed and later test mathematics but cannot define the root gate."
+    }
+  ],
+  "separated_objects": [
+    {
+      "object_id": "ratchet",
+      "status": "PROCESS_REQUIREMENT",
+      "definition": "A pure-mathematical discovery and admission process: expose the lowest unresolved obligation, generate broad rivals, execute gates and controls, retain packet-relative MSS antichains, preserve all contextual results in Purgatory, measure recurrence and basins, and advance only on a scoped receipt.",
+      "not_equivalent_to": [
+        "cosmogenesis",
+        "the QIT engines",
+        "an LLM conversation",
+        "a fixed ladder",
+        "one optimizer",
+        "a document workflow"
+      ]
+    },
+    {
+      "object_id": "coratchet",
+      "status": "LIVE_HYPOTHESIS",
+      "definition": "A coupled process in which an entropy or distinguishability fact forces a structural lift, the lift licenses new readouts, and those readouts can force later lifts. In the broader owner usage it is the hoped-for layer-by-layer construction of a geometry-operator-entropy manifold in which the layers constrain one another.",
+      "current_evidence_ceiling": "A historical variant-blind feedback-loop mechanism worked and died under feedback-cut/no-drive controls, but commuting and memoryless drives tied the noncommuting candidate. Later audit language blocks promotion of the co-ratchet and Axis-0 night simulations."
+    },
+    {
+      "object_id": "engine_pattern_P",
+      "status": "OWNER_GIVEN_TARGET",
+      "definition": "The specific two-engine, two-loop, four-topology, sixteen-stage target pattern and its self-reflective functional demands."
+    },
+    {
+      "object_id": "candidate_realization_M",
+      "status": "CANDIDATE_FORMALIZATION",
+      "definition": "Any pure-mathematical object proposed to realize the engine pattern P. Octonionic, Jordan, spinorial, automata, QIT, and other carriers must compete."
+    },
+    {
+      "object_id": "constraints_Gamma",
+      "status": "LIVE_HYPOTHESIS",
+      "definition": "Candidate constraints, update rules, drives, schedules, and admissibility conditions that may or may not generate a realization."
+    },
+    {
+      "object_id": "attractor_landscape_A",
+      "status": "CONDITIONAL_DIAGNOSTIC",
+      "definition": "The plural recurrent, metastable, modular, and basin structure generated by a declared pair (M, Gamma); it is measured from dynamics and is not a future cause."
+    },
+    {
+      "object_id": "applications_and_views",
+      "status": "DOWNSTREAM_INTERPRETATION",
+      "definition": "Physics, cosmogenesis, evolution, FEP, Holodeck perception, consciousness, scientific method, engineering, IGT, and related projections that can suggest candidates and later supply held-out evidence without becoming the root mathematics."
+    }
+  ],
+  "joshua_program_modules": [
+    {
+      "program_id": "joshua_ratchet_methodology",
+      "name": "Ratchet methodology, MSS antichains, receipts, and Purgatory",
+      "status": "PROCESS_SPECIFIED_IMPLEMENTATION_PARTIAL",
+      "native_claim_ceiling": "A research-process proposal with several implemented components and diagnostics, not a demonstrated universal scientific method."
+    },
+    {
+      "program_id": "joshua_root_carrier_tournament",
+      "name": "Constrained-distinguishability and rival root-carrier tournament",
+      "status": "CURRENT_LOWEST_OPEN_PACKET_NOT_EXECUTED",
+      "native_claim_ceiling": "Constrained distinguishability is an operational root; the unique carrier and root order remain open, and classical positive counts/simplex currently survive as the weakest tested presentation."
+    },
+    {
+      "program_id": "joshua_attractor_mss_mathematics",
+      "name": "Finite recurrence, plural basins, and attractor-versus-MSS mathematics",
+      "status": "LOCAL_EXACT_RESULTS_AND_DIAGNOSTICS",
+      "native_claim_ceiling": "Finite recurrence and counterexamples to attractor-equals-MSS are established only in bounded enumerations; no universal attractor architecture is earned."
+    },
+    {
+      "program_id": "joshua_qit_engine_target",
+      "name": "Two-engine, two-loop, four-topology self-reflective architecture",
+      "status": "OWNER_GIVEN_TARGET_NOT_DERIVED",
+      "native_claim_ceiling": "The structural and functional target is specific, but no candidate mathematics or constraints have generated it blindly."
+    },
+    {
+      "program_id": "joshua_nonassociative_exceptional_branch",
+      "name": "Nonassociative, octonionic, Jordan, and exceptional-algebra branch",
+      "status": "CONSTRUCTED_DIAGNOSTIC_BRANCH_UNFORCED",
+      "native_claim_ceiling": "Contains exact identities and useful finite diagnostics, but nonassociativity, octonions, and exceptional groups are not selected as unique or minimal."
+    },
+    {
+      "program_id": "joshua_entropic_geometry_manifold",
+      "name": "Entropic geometry, nested flux, chirality, and manifold fixtures",
+      "status": "LOCAL_MATH_WITH_ZERO_SCIENTIFIC_LAYERS_ADMITTED",
+      "native_claim_ceiling": "Several scalar, metric, Berry, and Chern calculations survive locally; the common entropy-geometry-flux object and physical chirality bridge do not."
+    },
+    {
+      "program_id": "joshua_cross_view_monist_bridge",
+      "name": "Cross-view semiconjugacy and monist correspondence program",
+      "status": "LIVE_HYPOTHESIS",
+      "native_claim_ceiling": "Proposes scoped relational correspondences among domains; no cross-domain equivalence is admitted."
+    },
+    {
+      "program_id": "joshua_holodeck_fep",
+      "name": "Holodeck, FEP, provisional object formation, perception, and memory engineering",
+      "status": "DOWNSTREAM_ENGINEERING_PROPOSAL_WITH_CONTROL_FAILURES",
+      "native_claim_ceiling": "A proposed application and testbed; existing FEP diagnostics do not establish the engine allocation or common root."
+    },
+    {
+      "program_id": "joshua_cosmogenesis_physics",
+      "name": "Entropic-monist cosmogenesis and physics interpretation",
+      "status": "DOWNSTREAM_NARRATIVE_AND_RESEARCH_PROGRAM",
+      "native_claim_ceiling": "Contains a distinctive physical picture but no Ratchet-admitted spacetime, gravity, matter, dark sector, Standard Model, or quantitative cosmology."
+    }
+  ],
+  "operational_root_and_open_ontology": {
+    "current_operational_root": {
+      "name": "constrained_distinguishability",
+      "status": "OPERATIONAL_ASSUMPTION",
+      "scope": "Current Ratchet specification and finite diagnostic packets."
+    },
+    "unique_ontological_root_earned": false,
+    "open_root_order_tournament": [
+      "MSS_as_constitutional_commitment",
+      "maximally_uncommitted_possibility_or_anti_thing",
+      "constrained_distinguishability",
+      "finite_realization",
+      "nonassociativity",
+      "noncommutation",
+      "positive_entropic_geometry_drive",
+      "persistence_and_continued_variation"
+    ],
+    "root_warning": "Equality, probes, equivalence, persistence, continuation, novelty, probability, time, causality, and even a candidate grammar may smuggle later structure into the root. The first comparison is therefore among explicit rival metatheories, not merely among objects inside one preselected formalism."
+    ,
+    "current_carrier_caution": "In the preserved carrier audit, positive finite counts or a simplex remained the weakest tested adequate root presentation. Complex PSD structure was not forced, and nonassociativity/octonions remain live but unforced. The present advantage claim is therefore an open carrier tournament, not an already-earned escape from classical structure."
+  },
+  "ratchet_process_contract": {
+    "status": "PROCESS_REQUIREMENT",
+    "state_components": [
+      "active_candidate_population",
+      "constraints_and_execution_conditions",
+      "probes_gates_controls_and_held_out_tests",
+      "append_only_memory_and_receipts",
+      "Purgatory"
+    ],
+    "motion_sources": [
+      "broad_random_exploration",
+      "owner_seeded_hypotheses",
+      "literature_seeded_hypotheses",
+      "program_synthesis_and_enumeration",
+      "Purgatory_reoffers",
+      "an_unresolved_positive_drive_candidate"
+    ],
+    "mss_role": "Packet-relative gate and compressor that retains a Pareto antichain under explicit burden and viability relations; it is not the source of motion and cannot prove its own metatheory.",
+    "purgatory_role": "Append every contextual result and re-offer candidates when the context, representation, constraints, or probes change; there is no permanent graveyard.",
+    "basin_role": "Measure plural recurrent organizations, modules, phase structure, and basins after an update semantics is fixed; do not install the engine target as the dynamics or objective.",
+    "gate_authority": "Executable code, exact replay, formal solvers, declared controls, and independent implementation lanes; never an LLM verdict.",
+    "required_implementation_lanes": [
+      "Julia_for_canonical_algebra_and_bracketing",
+      "JAX_for_batched_functional_dynamics",
+      "PyTorch_for_independent_tensor_and_graph_dynamics"
+    ],
+    "forbidden_claim_path_dependency": [
+      "NumPy",
+      "optimizer_as_proof",
+      "missing_dependency_counted_as_pass",
+      "shared_implementation_wrapped_as_three_engines",
+      "target_labels_in_generation_or_gates"
+    ]
+  },
+  "engine_target": {
+    "status": "OWNER_GIVEN_TARGET",
+    "structure": {
+      "engine_count": 2,
+      "loops_per_engine": 2,
+      "topology_families": [
+        "Ne",
+        "Si",
+        "Se",
+        "Ni"
+      ],
+      "terrain_realizations_across_pair": 8,
+      "terrain_identities_per_engine": 4,
+      "uses_per_terrain_per_engine": 2,
+      "stages_per_engine": 8,
+      "stage_placements_total": 16,
+      "cycle_relation": "inverse_up_to_rotation_subject_to_source_conflict_resolution",
+      "engine_relation": "exchange_outer_and_inner_cycle_placement",
+      "capability_relation": "nearly_same_repertoire",
+      "forbidden_reductions": [
+        "source_vs_sink",
+        "generative_vs_retentive",
+        "core_vs_eval",
+        "psychological_types_as_math"
+      ]
+    },
+    "functional_demands": [
+      "form_provisional_objects_from_recurring_structure",
+      "reidentify_objects_across_views",
+      "retain_and_recombine_records",
+      "predict_held_out_views_and_interventions",
+      "construct_stories_models_tools_and_machines",
+      "test_constructions_by_actual_consequences",
+      "return_success_and_failure_as_new_constraints",
+      "revise_without_claiming_final_truth"
+    ],
+    "open_conflicts": [
+      "The 8_x_8 terrain-signed-operator address and 16_x_4 stage-substate address both total 64 but lack an earned natural equivalence.",
+      "Exact corrected topology cycles and older source schedule tables may differ by cyclic shift, conjugacy, reindexing, or genuine inequivalence.",
+      "The mathematical meaning of the four topologies, the two loops, the operators, substates, and signed flux remains open.",
+      "No count-free derivation forces four topology families or four substates per stage."
+    ],
+    "blind_scoring_rule": "Withhold all terrain, topology, psychology, payoff, schedule, and cosmology labels from generation; compare discovered structures to the frozen target only after the run."
+  },
+  "live_mathematical_candidates": [
+    {
+      "candidate_id": "anti_thing_family",
+      "status": "LIVE_HYPOTHESIS",
+      "members": [
+        "empty_signature_finite_support",
+        "universal_binary_relation",
+        "maximally_nondeterministic_transition_system",
+        "uniform_independent_finite_kernel",
+        "maximally_mixed_quantum_state"
+      ],
+      "warning": "These install different semantics and cannot be treated as synonyms for randomness or nothing."
+    },
+    {
+      "candidate_id": "drive_family",
+      "status": "LIVE_HYPOTHESIS",
+      "members": [
+        "Hartley_capacity_growth",
+        "open_finite_system_entropy_production",
+        "information_geometric_gradient_flow",
+        "nested_geometric_volume_growth",
+        "intrinsic_local_random_exploration_bias",
+        "vector_or_Pareto_drive"
+      ],
+      "warning": "Fixed white noise is already maximum entropy at fixed cardinality and cannot supply its own positive entropy gradient."
+    },
+    {
+      "candidate_id": "carrier_family",
+      "status": "LIVE_HYPOTHESIS",
+      "members": [
+        "finite_relations_and_transition_systems",
+        "partial_operations_and_free_bracketed_terms",
+        "finite_classical_counts_or_simplex",
+        "real_PSD_or_rebit_theories",
+        "complex_density_operator_QIT",
+        "associative_noncommutative_algebras",
+        "Jordan_and_nonassociative_carriers",
+        "automata_and_rewriting_systems"
+      ],
+      "warning": "Qubits, Hilbert space, probabilities, total magmas, complex numbers, and octonions are candidates, not root givens."
+    },
+    {
+      "candidate_id": "nested_entropic_geometry",
+      "status": "LIVE_HYPOTHESIS",
+      "members": [
+        "metric_and_entropy_from_one_information_geometric_object",
+        "quantum_geometric_tensor_metric_plus_curvature",
+        "connection_curvature_holonomy_and_torsion",
+        "nested_relative_holonomy_as_flux",
+        "G2_stable_form_geometry",
+        "Spin8_triality",
+        "F4_Albert_packaging",
+        "E6_cubic_invariant",
+        "later_E7_E8_extensions"
+      ],
+      "warning": "Dimension and vocabulary matches are not derivations; simpler associative, nonexceptional, and random controls must lose for load-bearing reasons."
+    },
+    {
+      "candidate_id": "plural_attractor_universality",
+      "status": "LIVE_HYPOTHESIS",
+      "members": [
+        "multiple_terminal_or_recurrent_classes",
+        "metastable_regions",
+        "semi_independent_coupled_modules",
+        "heteroclinic_or_phase_cycle_structure",
+        "universality_class_of_recurring_attractor_architectures",
+        "approximate_semiconjugate_relational_compressions"
+      ],
+      "warning": "The target is not one final basin and recurring structures are never literally identical."
+    }
+  ],
+  "evidence_registry": [
+    {
+      "evidence_id": "finite_map_recurrence_census",
+      "status": "STANDARD_FINITE_RESULT_WITH_BOUNDED_ENUMERATION",
+      "result": "Every deterministic map on carrier sizes one through three was enumerated: finitude forces eventual recurrence, but not a unique basin or point attractor.",
+      "supports": "A precise separation between finite recurrence and unique-attractor claims.",
+      "does_not_support": "A universal basin architecture or the two-engine target."
+    },
+    {
+      "evidence_id": "attractor_does_not_imply_mss_counterexample",
+      "status": "STANDARD_FINITE_RESULT_WITH_BOUNDED_ENUMERATION",
+      "result": "A concrete nonminimal attractor shows that an arbitrary attractor does not imply MSS. MSS follows only under additional adequacy-preserving descent, well-founded weakness, reachable weakening, and confluence conditions for a global claim.",
+      "supports": "The Ratchet must keep attractor dynamics and minimality/adequacy gates distinct.",
+      "does_not_support": "That the currently proposed MSS metatheory is unique."
+    },
+    {
+      "evidence_id": "two_element_magma_independence",
+      "status": "STANDARD_FINITE_RESULT_WITH_BOUNDED_ENUMERATION",
+      "result": "Two-element magma enumeration shows finitude, noncommutation, and nonassociativity are logically independent; one bracket-sensitive witness changes the recurrent-class count from one to two.",
+      "supports": "Nonassociativity and order sensitivity are separable live constraints with dynamical consequences in a bounded setting.",
+      "does_not_support": "A hierarchy in which nonassociativity is universally more fundamental than finitude or noncommutation."
+    },
+    {
+      "evidence_id": "finite_profile_plural_memory_basins",
+      "status": "CONDITIONAL_DIAGNOSTIC",
+      "result": "An eight-possibility integer-profile experiment with total multiplicity 800 sent all 64 starts to fixed points but produced 11 memory classes; early shocks preserved class in 2 of 32 cases and post-lock shocks in 32 of 32.",
+      "supports": "Plural finite basins, memory classes, and a measured lock-like robustness transition in one authored system.",
+      "does_not_support": "A universal basin, empirical biological memory, or the QIT engines."
+    },
+    {
+      "evidence_id": "factorized_field_no_joint_domain",
+      "status": "NEGATIVE_OR_NULL_RESULT",
+      "result": "The preserved field update factorizes into unary log-weight additions; measured pair and triple connected-interaction changes are approximately 2.30e-13 and 1.16e-13.",
+      "supports": "The implemented field can polarize marginals.",
+      "does_not_support": "Creation of connected correlations, a joint domain, or the claimed coupled cosmogenic structure."
+    },
+    {
+      "evidence_id": "scalar_qit_drive_order_counterexamples",
+      "status": "NEGATIVE_OR_NULL_RESULT",
+      "result": "Two full-rank noncommuting counterexamples make Umegaki, Petz-Renyi one-half, and Bures order candidate states differently; the three-qubit lift is a spectator lift with zero score change.",
+      "supports": "A universal scalar information drive is not selected by the tested quantum candidates.",
+      "does_not_support": "A genuine three-body QIT engine result or one universal entropy functional."
+    },
+    {
+      "evidence_id": "carrier_frontier_context_dependence",
+      "status": "CONDITIONAL_DIAGNOSTIC",
+      "result": "The preserved carrier comparison returns provisional frontiers {R,H,O} without association/commutation demands, {R,H} when associativity is demanded, and {R} when commutativity and associativity are demanded. Positive counts/simplex remain the weakest tested root presentation in the deeper audit.",
+      "supports": "Carrier choice depends on declared demands and no unique nonclassical carrier has been forced.",
+      "does_not_support": "Complex quantum, quaternionic, or octonionic structure as the earned root."
+    },
+    {
+      "evidence_id": "mixed_regular_action_identity",
+      "status": "STANDARD_MATHEMATICAL_FACT",
+      "result": "For octonionic regular actions, [L_a,R_b]x = -[a,x,b].",
+      "supports": "A precise bridge from nonassociativity to an order-sensitive left/right difference and a small-loop holonomy seed.",
+      "does_not_support": "That left and right regular actions are the two engines, that octonions are uniquely required, or that the full schedule emerges."
+    },
+    {
+      "evidence_id": "manifold_alias_collapse_fixture",
+      "status": "CONDITIONAL_DIAGNOSTIC",
+      "result": "One installed fixture enumerated 16,384 proposals, collapsed them to 224 behaviors, tested 75 schedules, and reduced an orientation-coface unresolved-edge count from 9 to 0 under an installed winding-sign demand.",
+      "supports": "Executable proposal generation, behavioral alias collapse, schedule testing, and a local demand-relative tooth can coexist in one finite fixture.",
+      "does_not_support": "A unique root, admitted manifold, universal drive, or engine derivation."
+    },
+    {
+      "evidence_id": "manifold_L1_L8_audit",
+      "status": "NEGATIVE_OR_NULL_RESULT",
+      "result": "Zero scientific manifold layers were admitted. Local QIT identities and Berry/Chern calculations passed, but carriers and paths were installed, BKM was not uniquely selected, the marginal phase bridge was obstructed, layer numbering conflicted, and physical chirality was not earned.",
+      "supports": "Several bounded mathematical identities and explicit obstruction knowledge.",
+      "does_not_support": "The proposed L1-L8 scientific spine or entropy-geometry-chirality bridge."
+    },
+    {
+      "evidence_id": "coratchet_feedback_loop_null",
+      "status": "NEGATIVE_OR_NULL_RESULT",
+      "result": "The lock-readout-feedback mechanism operated in a variant-blind pipeline and died under feedback-cut/no-drive controls, but commuting and memoryless drives tied the proposed noncommuting-memory drive because the readout vocabulary lacked order-sensitive facts.",
+      "supports": "A finite coupled feedback mechanism and a diagnosed missing-observable problem.",
+      "does_not_support": "Noncommutation as the uniquely necessary drive or an earned CoRatchet."
+    },
+    {
+      "evidence_id": "registered_simulation_corpus",
+      "status": "CONDITIONAL_DIAGNOSTIC",
+      "result": "A preserved ledger found 227 top-level Python scripts, 178 registered in the aggregate runner and 49 unregistered; registration itself explicitly conveys no canon.",
+      "supports": "A broad implementation and evidence reservoir exists.",
+      "does_not_support": "That scripts were independently rerun, validated, correctly scoped, or admitted."
+    },
+    {
+      "evidence_id": "direct_rerun_subset",
+      "status": "CONDITIONAL_DIAGNOSTIC",
+      "result": "One preserved bundle records 11 fresh passing reruns, one blocked rerun due a missing Torch module, 10 repaired path defects, and zero Ratchet admissions.",
+      "supports": "A bounded subset of exceptional, basin, FEP, and seven-axis diagnostics was freshly executable in that environment.",
+      "does_not_support": "Formal promotion, cross-runtime independence, or a completed claim path."
+    },
+    {
+      "evidence_id": "exceptional_nonassociative_branch",
+      "status": "CONDITIONAL_DIAGNOSTIC",
+      "result": "Octonion/Jordan fixtures reproduce norm, alternativity, Jordan-identity, entropy, Malcev, and selected DPI diagnostics with several controls; generalized Jordan dissipator pawls fail in J2O and J3O, the engine forcing link is open, and the Julia replay was blocked in the recorded environment.",
+      "supports": "Executable nonassociative candidate mathematics, controls, and useful failures.",
+      "does_not_support": "That exceptional mathematics is unique, minimal, engine-bearing, or Ratchet-admitted."
+    },
+    {
+      "evidence_id": "finite_basin_constructions",
+      "status": "CONDITIONAL_DIAGNOSTIC",
+      "result": "Finite engine-pair and terrain fixtures show order-sensitive and control-sensitive basin structure, but the claimed mirror relation failed and no canonical basin ontology was admitted.",
+      "supports": "Order and schedule can change finite recurrent organization under installed dynamics.",
+      "does_not_support": "A universal basin, a unique two-engine attractor, or external empirical validity."
+    },
+    {
+      "evidence_id": "fep_known_unknown_audit",
+      "status": "NEGATIVE_OR_NULL_RESULT",
+      "result": "A v1 FEP allocation split was refuted because learning rates were hardcoded. A v2 shared-rule test preserved an occupied/transition basin partition but produced no engine allocation split, no shuffled-control split, and no measured entropy-initialization shift.",
+      "supports": "A better controlled diagnostic surface and a retained basin-partition result.",
+      "does_not_support": "The Joshua engine allocation, an FEP root law, or an entropy-driven causal account."
+    },
+    {
+      "evidence_id": "endogenous_closure_comparator_failure",
+      "status": "NEGATIVE_OR_NULL_RESULT",
+      "result": "The apparent endogenous-closure result used an asymmetric comparator: predecessor/memory prerequisites were applied only to the endogenous arm, the order argument did not enter the solver recurrence, and an authored fixed Gamma with the same prerequisite reproduced the growth sequence.",
+      "supports": "A concrete repair specification for a fair closure test.",
+      "does_not_support": "Endogenous constraint closure, autonomous cosmogenesis, emergent time, or N01 from that simulation."
+    },
+    {
+      "evidence_id": "glennie_G8_scratch_diagnostic",
+      "status": "CONDITIONAL_DIAGNOSTIC",
+      "result": "A later raw-session diagnostic symbolically reduces the encoded associative G8 expression to zero and numerically separates sampled H3(O) cases from sampled R/C/H and complex-matrix controls.",
+      "supports": "A narrow encoded identity and useful sampled exceptional-versus-associative separation.",
+      "does_not_support": "The Jordan-von Neumann-Wigner classification, octonionic uniqueness, or the strict three-engine claim path; PyTorch was absent, Julia was optional, missing tools could skip successfully, and solvers thresholded precomputed samples."
+    }
+  ],
+  "comparison_surfaces": [
+    {
+      "surface_id": "root_and_least_presumption",
+      "question": "What is the weakest explicit structure from which distinguishability, composition, persistence, and continued variation can be earned without smuggling them into the grammar?",
+      "joshua_status": "OPEN_ROOT_TOURNAMENT",
+      "joshua_possible_advantage": "Makes the metatheory, candidate grammar, viability predicate, and presumption order themselves competitors instead of silently fixing them.",
+      "joshua_needed_imports": "Operational reconstructions, structural realism, formal concept lattices, category/model theory, process theories, and no-go results that expose which assumptions are indispensable.",
+      "kill_or_revision_condition": "A cleaner external framework derives the demanded distinctions with fewer installed metatheoretic choices and survives the same rival-grammar tests."
+    },
+    {
+      "surface_id": "admission_mss_and_purgatory",
+      "question": "How should rival models be generated, behaviorally quotient-ed, tested, minimally retained, and reintroduced under changed contexts?",
+      "joshua_status": "PROCESS_SPECIFIED_IMPLEMENTATION_PARTIAL",
+      "joshua_possible_advantage": "Combines broad proposal generation, executable gates, plural MSS antichains, immutable receipts, and universal contextual re-entry rather than one permanent winner.",
+      "joshua_needed_imports": "CEGAR, bisimulation, active automata learning, partial-order reduction, proof assistants, falsification methods, Bayesian model criticism, and robust experiment design.",
+      "kill_or_revision_condition": "The Ratchet adds no discrimination, robustness, or error localization beyond a simpler source-native scientific workflow."
+    },
+    {
+      "surface_id": "probability_time_causality_and_order",
+      "question": "Which parts of probability, temporal order, causal direction, histories, and interventions must be primitive, and which can be derived or retained as plural descriptions?",
+      "joshua_status": "ANTI_PRIMITIVE_COMMITMENT_WITH_OPEN_FORMALISM",
+      "joshua_possible_advantage": "Keeps noncommuting order and plural histories live while refusing to promote dependency, sequence labels, or a single future into primitive metaphysical causality. Operational causal and counterfactual interventions remain legitimate tests when explicitly installed.",
+      "joshua_needed_imports": "Indefinite causal order, retrocausal/all-at-once models, causal inference, operational intervention theory, decoherent histories, process matrices, and causation critiques.",
+      "kill_or_revision_condition": "Primitive causal or probabilistic structure proves both weaker and more predictive under interventions than every order-open alternative."
+    },
+    {
+      "surface_id": "finite_quantum_and_carrier_reconstruction",
+      "question": "Does a finite operational or algebraic carrier earn complex Hilbert structure, density operators, noncommutation, nonassociativity, or some weaker rival?",
+      "joshua_status": "CARRIER_OPEN_DIAGNOSTICS_EXIST",
+      "joshua_possible_advantage": "Subjects carrier choice, bracketing, probe language, equivalence, and dimension to one explicit tournament instead of beginning with quantum formalism.",
+      "joshua_needed_imports": "Operational quantum reconstructions, generalized probabilistic theories, quantum cellular automata, epistemic restrictions, Jordan theory, finite model theory, and quantum information bounds.",
+      "kill_or_revision_condition": "A weaker associative, classical-history, or operational carrier reproduces all demanded behavior and controls."
+    },
+    {
+      "surface_id": "object_individual_boundary_and_observer",
+      "question": "When may correlated components be treated as one persisting object, individual, agent, blanket, or observer rather than a common-driver alias?",
+      "joshua_status": "FUNCTIONAL_TARGET_METHOD_OPEN",
+      "joshua_possible_advantage": "Treats objecthood as a provisional behavioral quotient that must survive cross-view prediction, perturbation, intervention, reconstruction, and repair.",
+      "joshua_needed_imports": "Computational mechanics, information bottleneck, causal emergence, individuality measures, Markov-blanket theory and critiques, autopoiesis, control theory, and morphogenetic interventions.",
+      "kill_or_revision_condition": "The proposed quotient cannot distinguish integrated organization from shared-input correlation or adds no held-out predictive value."
+    },
+    {
+      "surface_id": "plural_attractors_and_universality",
+      "question": "Do many nonidentical lineages and basins repeatedly realize a common relational architecture, and is that architecture the least-presumptive predictive compression?",
+      "joshua_status": "LIVE_HYPOTHESIS_FINITE_FIXTURES_ONLY",
+      "joshua_possible_advantage": "Replaces literal identity and one terminal basin with plural recurrence, modules, approximate semiconjugacy, and a universality class of attractor architectures.",
+      "joshua_needed_imports": "Dynamical systems, computational mechanics, renormalization and universality, metastability, viability theory, control, multiscale emergence, and convergence biology.",
+      "kill_or_revision_condition": "The engine-shaped recurrence disappears under independent lineages, representation changes, target blinding, or simpler randomized decoys."
+    },
+    {
+      "surface_id": "qit_engines_and_recursive_construction",
+      "question": "Can a coupled two-engine organization form provisional objects, memories, models, and machines and improve them through consequences from inside the same world?",
+      "joshua_status": "OWNER_GIVEN_TARGET_NOT_DERIVED",
+      "joshua_possible_advantage": "Connects perception, scientific modeling, engineering, and self-revision to one precise structural target rather than treating cognition as detached symbol processing.",
+      "joshua_needed_imports": "Active inference, predictive processing, world-model agents, category/process theories, memory architectures, control, program synthesis, and biological competence.",
+      "kill_or_revision_condition": "The exact two-engine form is unnecessary, not recurrent, not more capable, or compressible into a simpler single-loop organization."
+    },
+    {
+      "surface_id": "nested_entropic_geometry_flux_and_chirality",
+      "question": "Can geometry, distinguishability, entropy-like flow, orientation, and flux arise as views of one nested mathematical object and help generate the two engines?",
+      "joshua_status": "LIVE_HYPOTHESIS_WITH_EXACT_LOCAL_IDENTITY_AND_FAILED_BRIDGES",
+      "joshua_possible_advantage": "Demands one load-bearing object instead of placing entropy on a separate geometry or treating flux as a substance moving across spacetime.",
+      "joshua_needed_imports": "Information geometry, quantum geometric tensors, Berry curvature, gauge theory, G-structures, spinors, nonassociative geometry, network geometry, and constructive gravity.",
+      "kill_or_revision_condition": "Flattening nesting changes nothing, associative controls suffice, flux depends on arbitrary basis/section choices, or no bridge to engine recurrence survives."
+    },
+    {
+      "surface_id": "spacetime_gravity_matter_and_cosmogenesis",
+      "question": "Can a finite, chiral, possibility-based information process yield quantitative spacetime, gravity, matter, dark-sector behavior, and cosmological observations?",
+      "joshua_status": "DOWNSTREAM_PHYSICS_INTERPRETATION_NOT_RATCHET_ADMITTED",
+      "joshua_possible_advantage": "Offers a potentially common origin for spacetime, entropy, expansion, gravity, retained information, chirality, and plural histories.",
+      "joshua_needed_imports": "General relativity, EFT, conformal and emergent gravity, loop/canonical quantum gravity, causal sets, causal fermion systems, string/holography, QCA, cosmological data, and no-go constraints.",
+      "kill_or_revision_condition": "The proposal cannot recover known limits or produce new discriminating quantitative predictions with fewer assumptions than established competitors."
+    },
+    {
+      "surface_id": "life_evolution_agency_and_origins",
+      "question": "How do persistence, historical constraint, autonomy, repair, goals, individuals, and open-ended evolution arise without being inserted as labels?",
+      "joshua_status": "DOWNSTREAM_TESTBED_AND_HYPOTHESIS_SOURCE",
+      "joshua_possible_advantage": "Could combine plural survivor frontiers, basin repair, boundary discovery, retained history, and cross-scale recurrence in one falsifiable workflow.",
+      "joshua_needed_imports": "Origins-of-life chemistry, assembly theory, bioenergetics, morphogenesis, autopoiesis, constraint closure, multilevel selection, open-ended evolution, and empirical intervention datasets.",
+      "kill_or_revision_condition": "Source-native biological models predict held-out interventions and histories equally well with less machinery."
+    },
+    {
+      "surface_id": "fep_perception_consciousness_and_holodeck",
+      "question": "Can embedded systems form useful provisional worlds and selves without assuming their boundary, generative model, probability family, objective, or observer status?",
+      "joshua_status": "DOWNSTREAM_ENGINEERING_AND_COGNITIVE_PROGRAM",
+      "joshua_possible_advantage": "Places an assumption-Ratchet around FEP and perception so boundaries, models, divergences, histories, and carriers compete instead of being fitted after the fact.",
+      "joshua_needed_imports": "FEP/active inference, predictive processing, consciousness models, neuroscience, phenomenology, embodied cognition, memory, and controlled perceptual data.",
+      "kill_or_revision_condition": "The Ratchet wrapper produces no new discriminating prediction, boundary discovery, or intervention robustness beyond the source-native model."
+    },
+    {
+      "surface_id": "formal_tools_limits_and_falsifiers",
+      "question": "Which exact tools and impossibility results can make alias collapse, minimality, schedule exploration, proofs, and claim ceilings reliable?",
+      "joshua_status": "TOOLCHAIN_REQUIRED_AND_PARTIAL",
+      "joshua_possible_advantage": "Makes computational limits, proof obligations, missing dependencies, and negative evidence part of the model-selection object rather than implementation footnotes.",
+      "joshua_needed_imports": "Complexity, computability, logic, category theory, formal verification, theorem proving, interval methods, exact algebra, reproducible HPC, and statistical power analysis.",
+      "kill_or_revision_condition": "Claims depend on heuristic optimization, shared-code pseudo-replication, unverifiable receipts, or exploration budgets too small to discriminate the candidate families."
+    }
+  ],
+  "frontier_packets": [
+    {
+      "packet_id": "A_root_carrier_and_mss_tournament",
+      "status": "CURRENT_LOWEST_OPEN_PACKET_PROPOSED_NOT_EXECUTED",
+      "question": "Which small rival grammars, viability predicates, and presumption orders survive without target leakage?"
+    },
+    {
+      "packet_id": "B_bracket_and_order_tournament",
+      "status": "PROPOSED",
+      "question": "When are associativity, nonassociativity, commutation, and observable order effects forced, optional, or incompatible?"
+    },
+    {
+      "packet_id": "C_intrinsic_drive_tournament",
+      "status": "PROPOSED",
+      "question": "Which candidate drive remains nontrivial under equilibrium, reversal, scaling, relabeling, and target-leakage controls?"
+    },
+    {
+      "packet_id": "D_plural_basin_and_module_detector",
+      "status": "PROPOSED",
+      "question": "Which recurrent classes, may/must basins, metastable modules, phase quotients, and coupling dependencies arise under admitted updates?"
+    },
+    {
+      "packet_id": "E_blinded_engine_query",
+      "status": "PROPOSED_BLOCKED_BY_LOWER_PACKETS",
+      "question": "Does the frozen two-engine target recur across carriers and predict held-out behavior better than simpler and randomized decoys?"
+    }
+  ],
+  "campaign_execution_state": {
+    "scientific_campaign_has_run": false,
+    "july15_next_run_contract": "PROPOSAL_ONLY_NOT_EXECUTED",
+    "current_lowest_open_packet": "A_root_carrier_and_mss_tournament",
+    "july14_octonionic_engine_packet": "PRESERVED_LATER_PACKET_NOT_CURRENT_ACTIVE_RUNG",
+    "cross_runtime_scientific_receipts_in_supplied_packets": 0,
+    "warning": "Repository simulations and inherited receipts are evidence reservoirs and bounded diagnostics. They do not substitute for the proposed Julia/JAX/PyTorch plus solver campaign."
+  },
+  "explicitly_not_earned": [
+    "a_unique_foundational_object_or_carrier",
+    "a_unique_root_order",
+    "a_count_free_reason_for_four_primitive_topologies_or_four_substates",
+    "a_universal_scalar_drive",
+    "a_universal_noncommutative_or_nonassociative_law_from_the_root",
+    "two_complete_QIT_engines_at_the_intended_semantic_depth",
+    "a_production_object_formation_or_Holodeck_engine",
+    "a_cross_domain_equivalence_among_math_QIT_physics_FEP_IGT_and_cognition",
+    "an_admitted_scientific_manifold_stack",
+    "quantitative_spacetime_gravity_matter_dark_sector_or_cosmogenesis",
+    "a_universal_attractor_basin",
+    "a_demonstration_that_exceptional_mathematics_is_required"
+  ],
+  "current_comparative_self_assessment": {
+    "strongest_current_contributions": [
+      "An unusually explicit separation among target pattern, mathematical realization, generating constraints, attractor landscape, and downstream applications.",
+      "Open carrier and metatheory competition instead of silently assuming probability, time, causality, identity, objects, or one formal language.",
+      "Packet-relative MSS antichains, Purgatory, immutable claim ceilings, and retention of negative evidence.",
+      "Exact local counterexamples separating finitude, recurrence, minimality, noncommutation, nonassociativity, scalar drives, and unique-basin claims.",
+      "A specific two-engine functional target that is strange and constrained enough to face blind emergence tests rather than only verbal analogy."
+    ],
+    "largest_current_deficits": [
+      "The proposed scientific campaign has not been executed end to end under the strict Julia/JAX/PyTorch and solver contract.",
+      "No unique root, carrier, drive, MSS order, or viability semantics is earned; the weakest tested root presentation remains classical counts/simplex.",
+      "The two engines, their four topology families, eight stages each, and four substages per stage lack a count-free derivation.",
+      "The entropic-geometry, chirality, and exceptional-algebra bridges contain local mathematics but no admitted common object.",
+      "The cosmogenesis and physics layer is not yet quantitative enough to compete with mature physical theories on known limits or novel predictions.",
+      "Authority is fragmented across prompts, packets, repo branches, and inherited receipts; polished summaries can silently follow a superseded lineage."
+    ]
+  },
+  "anti_regressions": [
+    "Do not call the Ratchet cosmogenesis.",
+    "Do not call an application-level analogy a mathematical gate.",
+    "Do not use a permanent graveyard or permanent branching ontology.",
+    "Do not make MSS the driver or pretend it proves its own comparison relation.",
+    "Do not let an LLM certify gates or promote green diagnostics.",
+    "Do not use the owner engine target, labels, or schedules inside candidate generation.",
+    "Do not equate recurring structures, the two engines, the two 64-address factorizations, or cross-domain vocabularies by resemblance.",
+    "Do not call Type 1 and Type 2 source/sink, generative/retentive, or core/eval.",
+    "Do not make flux a Weyl-spinor substance or promote exceptional groups by dimension matching.",
+    "Do not treat fixed finite white noise as a positive entropy gradient.",
+    "Do not treat three qubits, density matrices, probabilities, time, causality, objects, probes, or equality as earned merely because a fixture uses them.",
+    "Do not report wrappers around shared code as Julia/JAX/PyTorch independence.",
+    "Do not report missing dependencies, skipped tests, old receipts, or prose audits as fresh passes."
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "schema_version": "external-program-dossier-contract/0.1",
+  "purpose": "Reconstruct each external program in its own terms before comparison or repair with Joshua's model.",
+  "ranked_unit": "program_version_x_role_x_question_x_evidence_packet",
+  "people_are_ranked": false,
+  "required_states": [
+    "DISCOVERED",
+    "IDENTITY_RESOLVED",
+    "PROGRAMS_SPLIT",
+    "SOURCE_PACKET_COMPLETE",
+    "NATIVE_DOSSIER_LOCKED",
+    "REPRODUCTION_PENDING",
+    "REPRODUCTION_PASSED",
+    "REPRODUCTION_FAILED",
+    "COMPARABLE_FOR_DECLARED_PACKET",
+    "REPAIR_PENDING",
+    "REPAIR_TESTED",
+    "EVIDENCE_LIMITED"
+  ],
+  "identity_and_scope_fields": [
+    "program_id",
+    "program_name",
+    "program_version",
+    "contributors",
+    "aliases",
+    "program_boundaries",
+    "claims_in_scope",
+    "claims_out_of_scope",
+    "relation_to_channel_episodes"
+  ],
+  "source_packet_fields": [
+    "primary_sources",
+    "official_code_and_data",
+    "source_versions_or_commit_shas",
+    "source_selection_reason",
+    "authoritative_definition_quotes_under_copyright_limits",
+    "major_source_native_critiques_and_responses",
+    "source_receipt"
+  ],
+  "native_model_fields": [
+    "problem_addressed",
+    "primitive_entities",
+    "state_or_object_space",
+    "equivalence_and_identity_rules",
+    "dynamics_or_inference_rule",
+    "composition_and_order_semantics",
+    "probability_commitments",
+    "time_commitments",
+    "causality_commitments",
+    "observer_boundary_or_agent_commitments",
+    "objective_or_selection_functional",
+    "free_parameters_and_special_choices",
+    "mathematical_results",
+    "empirical_claims",
+    "explanatory_claims",
+    "known_scope_limits"
+  ],
+  "evidence_fields": [
+    "native_predictions_or_retrodictions",
+    "datasets_and_interventions",
+    "reproduction_target",
+    "reproduction_environment",
+    "reproduction_result",
+    "negative_results",
+    "known_falsifiers",
+    "independent_replications",
+    "evidence_receipt",
+    "claim_ceiling"
+  ],
+  "joshua_crosswalk_fields": [
+    "comparison_surface_ids",
+    "proposed_roles",
+    "shared_questions",
+    "native_strengths_joshua_lacks",
+    "joshua_strengths_native_model_lacks",
+    "apparent_vocabularly_similar_but_formally_different_claims",
+    "candidate_imports_into_joshua",
+    "candidate_joshua_transplants",
+    "potential_mutual_falsifiers",
+    "unresolved_incommensurabilities"
+  ],
+  "comparison_packet_fields": [
+    "question_id",
+    "evidence_packet_id",
+    "role",
+    "native_baseline_N",
+    "joshua_transplant_N_plus_J",
+    "sham_transplant_N_plus_S",
+    "component_ablations_N_plus_J_minus_k",
+    "joshua_only_baseline_when_meaningful",
+    "held_out_tests",
+    "relabeling_and_representation_controls",
+    "complexity_and_burden_vector",
+    "packet_relative_frontier_receipt"
+  ],
+  "eligibility_gates": [
+    "identity_and_program_version_resolved",
+    "primary_source_packet_complete",
+    "native_model_reconstructed_without_joshua_vocabulary",
+    "installed_assumptions_explicit",
+    "native_baseline_reproduction_passed_or_documented_nonexecutable",
+    "comparison_question_and_role_declared",
+    "same_evidence_packet_and_budgets_for_all_comparators",
+    "missing_evidence_not_imputed_as_zero",
+    "no_fame_familiarity_episode_count_or_prior_work_input",
+    "comparison_pool_receipt_complete"
+  ],
+  "repair_claim_rule": {
+    "allowed_phrasing": "The Joshua transplant improved this named program version for this declared role, question, evidence packet, and burden frontier.",
+    "forbidden_phrasing": [
+      "Joshua fixed the person",
+      "Joshua's model is globally better",
+      "The external program is obsolete",
+      "Vocabulary alignment proves unification",
+      "A green synthetic test proves the external empirical domain"
+    ]
+  },
+  "unknown_policy": {
+    "unprocessed": "UNRANKED",
+    "identity_ambiguous": "IDENTITY_RESOLUTION_REQUIRED",
+    "program_unsplit": "NOT_COMPARABLE",
+    "source_unavailable": "EVIDENCE_LIMITED",
+    "failed_reproduction": "REPRODUCTION_FAILED_NOT_AUTOMATICALLY_FALSE",
+    "incomparable_frontier": "RETAIN_ALL_NONDOMINATED_PROGRAM_VERSIONS"
+  }
+}

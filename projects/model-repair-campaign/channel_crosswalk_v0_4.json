@@ -1,0 +1,5718 @@
+{
+  "schema_version": "toe-channel-entity-appearance-crosswalk/0.4",
+  "census_epoch": "channel_2026_07_13",
+  "source_intake": "channel_intake_v0_3.json",
+  "source_registry": "candidate_registry_v0_3.json",
+  "status": "STRUCTURAL_APPEARANCE_CROSSWALK_COMPLETE_PROGRAM_RESOLUTION_OPEN",
+  "claim_ceiling": "Feed-title surfaces support provisional person-to-appearance and contributor-to-card links only. They do not establish identity, guest role, program ownership, episode content, source-native model scope, relevance, merit, or rank.",
+  "coverage": {
+    "episodes": 354,
+    "raw_intake_groups": 264,
+    "provisional_non_host_people": 218,
+    "direct_person_group_edges": 275,
+    "direct_people_linked": 214,
+    "direct_groups_linked": 241,
+    "explicit_alias_or_surname_edges": 19,
+    "person_group_edges_total": 294,
+    "people_linked": 218,
+    "groups_linked": 248,
+    "residual_groups": 16,
+    "registry_cards": 47,
+    "people_linked_to_existing_cards_by_contributor_identity": 39,
+    "cards_linked_to_channel_people": 32,
+    "groups_containing_linked_contributors": 58,
+    "episodes_containing_linked_contributors": 77,
+    "people_without_existing_registry_card": 179,
+    "program_resolved_groups": 0,
+    "ranking_eligible_programs": 0
+  },
+  "policies": {
+    "people_are_models": false,
+    "appearance_implies_program": false,
+    "contributor_presence_implies_episode_program": false,
+    "title_signal_is_source_native_dossier": false,
+    "unknown_means_weak": false,
+    "unknown_means": "UNRESOLVED_OR_UNRANKED",
+    "target_model_reference": "joshua_model_dossier_v0_1.json",
+    "target_model_must_be_content_addressed_before_comparison": true
+  },
+  "entities": [
+    {
+      "entity_id": "person_a_h_almaas",
+      "entity_type": "person",
+      "canonical_name": "A. H. Almaas",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_aaron_schurger",
+      "entity_type": "person",
+      "canonical_name": "Aaron Schurger",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_abhay_ashtekar",
+      "entity_type": "person",
+      "canonical_name": "Abhay Ashtekar",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_aephraim_steinberg",
+      "entity_type": "person",
+      "canonical_name": "Aephraim Steinberg",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_alex_honnold",
+      "entity_type": "person",
+      "canonical_name": "Alex Honnold",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_alex_tsakiris",
+      "entity_type": "person",
+      "canonical_name": "Alex Tsakiris",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_alfonso_martinez_arias",
+      "entity_type": "person",
+      "canonical_name": "Alfonso Martinez Arias",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_anand_vaidya",
+      "entity_type": "person",
+      "canonical_name": "Anand Vaidya",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_andres_gomez_emilsson",
+      "entity_type": "person",
+      "canonical_name": "Andres Gomez-Emilsson",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_anil_seth",
+      "entity_type": "person",
+      "canonical_name": "Anil Seth",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_anna_ciaunica",
+      "entity_type": "person",
+      "canonical_name": "Anna Ciaunica",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_anna_lembke",
+      "entity_type": "person",
+      "canonical_name": "Anna Lembke",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_anthony_metivier",
+      "entity_type": "person",
+      "canonical_name": "Anthony Metivier",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_artisan_tony",
+      "entity_type": "person",
+      "canonical_name": "Artisan Tony",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_atlas",
+      "entity_type": "person",
+      "canonical_name": "Atlas",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_avi_loeb",
+      "entity_type": "person",
+      "canonical_name": "Avi Loeb",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_avshalom_elitzur",
+      "entity_type": "person",
+      "canonical_name": "Avshalom Elitzur",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_barry_loewer",
+      "entity_type": "person",
+      "canonical_name": "Barry Loewer",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_bas_van_fraassen",
+      "entity_type": "person",
+      "canonical_name": "Bas van Fraassen",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_ben_goertzel",
+      "entity_type": "person",
+      "canonical_name": "Ben Goertzel",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_bernardo_kastrup",
+      "entity_type": "person",
+      "canonical_name": "Bernardo Kastrup",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_brian_greene",
+      "entity_type": "person",
+      "canonical_name": "Brian Greene",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_brian_keating",
+      "entity_type": "person",
+      "canonical_name": "Brian Keating",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_bryan_johnson",
+      "entity_type": "person",
+      "canonical_name": "Bryan Johnson",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_carissa_veliz",
+      "entity_type": "person",
+      "canonical_name": "Carissa Veliz",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_carlo_rovelli",
+      "entity_type": "person",
+      "canonical_name": "Carlo Rovelli",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_carlos_farias",
+      "entity_type": "person",
+      "canonical_name": "Carlos Farias",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_carlos_montemayor",
+      "entity_type": "person",
+      "canonical_name": "Carlos Montemayor",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_chiara_marletto",
+      "entity_type": "person",
+      "canonical_name": "Chiara Marletto",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_chloe_valdary",
+      "entity_type": "person",
+      "canonical_name": "Chloe Valdary",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_chris_fields",
+      "entity_type": "person",
+      "canonical_name": "Chris Fields",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_chris_langan",
+      "entity_type": "person",
+      "canonical_name": "Chris Langan",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_chris_lehto",
+      "entity_type": "person",
+      "canonical_name": "Chris Lehto",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_claudia_de_rham",
+      "entity_type": "person",
+      "canonical_name": "Claudia de Rham",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_claudia_passos",
+      "entity_type": "person",
+      "canonical_name": "Claudia Passos [full surname form to verify]",
+      "identity_state": "PROVISIONAL_NEEDS_NAME_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_coleman_hughes",
+      "entity_type": "person",
+      "canonical_name": "Coleman Hughes",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_colin_mclarty",
+      "entity_type": "person",
+      "canonical_name": "Colin McLarty",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_colm_kelleher",
+      "entity_type": "person",
+      "canonical_name": "Colm Kelleher",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_cumrun_vafa",
+      "entity_type": "person",
+      "canonical_name": "Cumrun Vafa",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_daniel_dennett",
+      "entity_type": "person",
+      "canonical_name": "Daniel Dennett",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_daniel_schmachtenberger",
+      "entity_type": "person",
+      "canonical_name": "Daniel Schmachtenberger",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_david_bentley_hart",
+      "entity_type": "person",
+      "canonical_name": "David Bentley Hart",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_david_bessis",
+      "entity_type": "person",
+      "canonical_name": "David Bessis",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_david_chalmers",
+      "entity_type": "person",
+      "canonical_name": "David Chalmers",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_david_deutsch",
+      "entity_type": "person",
+      "canonical_name": "David Deutsch",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_david_hand",
+      "entity_type": "person",
+      "canonical_name": "David Hand",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_david_kaiser",
+      "entity_type": "person",
+      "canonical_name": "David Kaiser",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_david_robson",
+      "entity_type": "person",
+      "canonical_name": "David Robson",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_david_sloan_wilson",
+      "entity_type": "person",
+      "canonical_name": "David Sloan Wilson",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_david_wallace",
+      "entity_type": "person",
+      "canonical_name": "David Wallace",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_david_wolpert",
+      "entity_type": "person",
+      "canonical_name": "David Wolpert",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_denis_noble",
+      "entity_type": "person",
+      "canonical_name": "Denis Noble",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_dennis_mckenna",
+      "entity_type": "person",
+      "canonical_name": "Dennis McKenna",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_diana_pasulka",
+      "entity_type": "person",
+      "canonical_name": "Diana Pasulka",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_dick_bond",
+      "entity_type": "person",
+      "canonical_name": "Dick Bond",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_donald_hoffman",
+      "entity_type": "person",
+      "canonical_name": "Donald Hoffman",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_douglas_lain",
+      "entity_type": "person",
+      "canonical_name": "Douglas Lain",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_dror_bar_natan",
+      "entity_type": "person",
+      "canonical_name": "Dror Bar-Natan",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_eddy_chen",
+      "entity_type": "person",
+      "canonical_name": "Eddy Chen",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_edward_frenkel",
+      "entity_type": "person",
+      "canonical_name": "Edward Frenkel",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_edward_stuart",
+      "entity_type": "person",
+      "canonical_name": "Edward Stuart",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_elan_barenholtz",
+      "entity_type": "person",
+      "canonical_name": "Elan Barenholtz",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_emily_adlam",
+      "entity_type": "person",
+      "canonical_name": "Emily Adlam",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_emily_riehl",
+      "entity_type": "person",
+      "canonical_name": "Emily Riehl",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_eric_weinstein",
+      "entity_type": "person",
+      "canonical_name": "Eric Weinstein",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_erik_verlinde",
+      "entity_type": "person",
+      "canonical_name": "Erik Verlinde",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_eva_miranda",
+      "entity_type": "person",
+      "canonical_name": "Eva Miranda",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_fay_dowker",
+      "entity_type": "person",
+      "canonical_name": "Fay Dowker",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_felix_finster",
+      "entity_type": "person",
+      "canonical_name": "Felix Finster",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_fidias",
+      "entity_type": "person",
+      "canonical_name": "Fidias",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_frank_yang",
+      "entity_type": "person",
+      "canonical_name": "Frank Yang",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_frederic_schuller",
+      "entity_type": "person",
+      "canonical_name": "Frederic Schuller",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_gabriele_carcassi",
+      "entity_type": "person",
+      "canonical_name": "Gabriele Carcassi",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_garrett_lisi",
+      "entity_type": "person",
+      "canonical_name": "Garrett Lisi",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_garrett_mindt",
+      "entity_type": "person",
+      "canonical_name": "Garrett Mindt",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_garry_nolan",
+      "entity_type": "person",
+      "canonical_name": "Garry Nolan",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_gen_zed",
+      "entity_type": "person",
+      "canonical_name": "Gen Zed",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_geoffrey_hinton",
+      "entity_type": "person",
+      "canonical_name": "Geoffrey Hinton",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_george_ellis",
+      "entity_type": "person",
+      "canonical_name": "George Ellis",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_george_knapp",
+      "entity_type": "person",
+      "canonical_name": "George Knapp",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_george_musser",
+      "entity_type": "person",
+      "canonical_name": "George Musser",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_gerard_t_hooft",
+      "entity_type": "person",
+      "canonical_name": "Gerard 't Hooft",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_ginestra_bianconi",
+      "entity_type": "person",
+      "canonical_name": "Ginestra Bianconi",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_graham_priest",
+      "entity_type": "person",
+      "canonical_name": "Graham Priest",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_greg_kondrak",
+      "entity_type": "person",
+      "canonical_name": "Greg Kondrak",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_gregory_chaitin",
+      "entity_type": "person",
+      "canonical_name": "Gregory Chaitin",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_harry_collins",
+      "entity_type": "person",
+      "canonical_name": "Harry Collins",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_hartmut_neven",
+      "entity_type": "person",
+      "canonical_name": "Hartmut Neven",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_harvey_friedman",
+      "entity_type": "person",
+      "canonical_name": "Harvey Friedman",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_iain_mcgilchrist",
+      "entity_type": "person",
+      "canonical_name": "Iain McGilchrist",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_ivette_fuentes",
+      "entity_type": "person",
+      "canonical_name": "Ivette Fuentes",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_jacob_barandes",
+      "entity_type": "person",
+      "canonical_name": "Jacob Barandes",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_jacques_vallee",
+      "entity_type": "person",
+      "canonical_name": "Jacques Vallee",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_james_robert_brown",
+      "entity_type": "person",
+      "canonical_name": "James Robert Brown",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_janna_levin",
+      "entity_type": "person",
+      "canonical_name": "Janna Levin",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_jb_manchak",
+      "entity_type": "person",
+      "canonical_name": "JB Manchak",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_jeffrey_mishlove",
+      "entity_type": "person",
+      "canonical_name": "Jeffrey Mishlove",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_jenann_ismael",
+      "entity_type": "person",
+      "canonical_name": "Jenann Ismael",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_jennifer_nagel",
+      "entity_type": "person",
+      "canonical_name": "Jennifer Nagel",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_jenny_wagner",
+      "entity_type": "person",
+      "canonical_name": "Jenny Wagner",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_jeremy_corbell",
+      "entity_type": "person",
+      "canonical_name": "Jeremy Corbell",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_jesse_michels",
+      "entity_type": "person",
+      "canonical_name": "Jesse Michels",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_john_donoghue",
+      "entity_type": "person",
+      "canonical_name": "John Donoghue",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_john_greenewald",
+      "entity_type": "person",
+      "canonical_name": "John Greenewald",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_john_moffat",
+      "entity_type": "person",
+      "canonical_name": "John Moffat",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_john_norton",
+      "entity_type": "person",
+      "canonical_name": "John Norton",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_john_vervaeke",
+      "entity_type": "person",
+      "canonical_name": "John Vervaeke",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_jonathan_blow",
+      "entity_type": "person",
+      "canonical_name": "Jonathan Blow",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_jonathan_gorard",
+      "entity_type": "person",
+      "canonical_name": "Jonathan Gorard",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_jonathan_oppenheim",
+      "entity_type": "person",
+      "canonical_name": "Jonathan Oppenheim",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_jonathan_pageau",
+      "entity_type": "person",
+      "canonical_name": "Jonathan Pageau",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_jordan_peterson",
+      "entity_type": "person",
+      "canonical_name": "Jordan Peterson",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_joscha_bach",
+      "entity_type": "person",
+      "canonical_name": "Joscha Bach",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_joseph_conlon",
+      "entity_type": "person",
+      "canonical_name": "Joseph Conlon",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_juan_maldacena",
+      "entity_type": "person",
+      "canonical_name": "Juan Maldacena",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_julian_barbour",
+      "entity_type": "person",
+      "canonical_name": "Julian Barbour",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_karl_friston",
+      "entity_type": "person",
+      "canonical_name": "Karl Friston",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_kevin_knuth",
+      "entity_type": "person",
+      "canonical_name": "Kevin Knuth",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_latham_boyle",
+      "entity_type": "person",
+      "canonical_name": "Latham Boyle",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_lawrence_krauss",
+      "entity_type": "person",
+      "canonical_name": "Lawrence Krauss",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_lee_cronin",
+      "entity_type": "person",
+      "canonical_name": "Lee Cronin",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_lee_smolin",
+      "entity_type": "person",
+      "canonical_name": "Lee Smolin",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_leo_gura",
+      "entity_type": "person",
+      "canonical_name": "Leo Gura",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_leonard_susskind",
+      "entity_type": "person",
+      "canonical_name": "Leonard Susskind",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_les_stroud",
+      "entity_type": "person",
+      "canonical_name": "Les Stroud",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_leslie_kean",
+      "entity_type": "person",
+      "canonical_name": "Leslie Kean",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_lilian_dindo",
+      "entity_type": "person",
+      "canonical_name": "Lilian Dindo",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_linda_moulton_howe",
+      "entity_type": "person",
+      "canonical_name": "Linda Moulton Howe",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_luis_elizondo",
+      "entity_type": "person",
+      "canonical_name": "Luis Elizondo",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_manolis_kellis",
+      "entity_type": "person",
+      "canonical_name": "Manolis Kellis",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_maria_violaris",
+      "entity_type": "person",
+      "canonical_name": "Maria Violaris",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_mark_bailey",
+      "entity_type": "person",
+      "canonical_name": "Mark Bailey",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_martin_willis",
+      "entity_type": "person",
+      "canonical_name": "Martin Willis",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_marwa",
+      "entity_type": "person",
+      "canonical_name": "Marwa",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_matt_o_dowd",
+      "entity_type": "person",
+      "canonical_name": "Matt O'Dowd",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_matthew_segall",
+      "entity_type": "person",
+      "canonical_name": "Matthew Segall",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_matthew_widen",
+      "entity_type": "person",
+      "canonical_name": "Matthew Widen",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_matthieu_pageau",
+      "entity_type": "person",
+      "canonical_name": "Matthieu Pageau",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_max_tegmark",
+      "entity_type": "person",
+      "canonical_name": "Max Tegmark",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_merel_kindt",
+      "entity_type": "person",
+      "canonical_name": "Merel Kindt",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_michael_levin",
+      "entity_type": "person",
+      "canonical_name": "Michael Levin",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_michael_lynch",
+      "entity_type": "person",
+      "canonical_name": "Michael Lynch",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_mick_west",
+      "entity_type": "person",
+      "canonical_name": "Mick West",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_mithuna_yoganathan",
+      "entity_type": "person",
+      "canonical_name": "Mithuna Yoganathan",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_nathan_myhrvold",
+      "entity_type": "person",
+      "canonical_name": "Nathan Myhrvold",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_nathaniel_kahn",
+      "entity_type": "person",
+      "canonical_name": "Nathaniel Kahn",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_neil_degrasse_tyson",
+      "entity_type": "person",
+      "canonical_name": "Neil deGrasse Tyson",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_neil_turok",
+      "entity_type": "person",
+      "canonical_name": "Neil Turok",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_nick_lane",
+      "entity_type": "person",
+      "canonical_name": "Nick Lane",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_nicolas_gisin",
+      "entity_type": "person",
+      "canonical_name": "Nicolas Gisin",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_nikita_nekrasov",
+      "entity_type": "person",
+      "canonical_name": "Nikita Nekrasov",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_nir_lahav",
+      "entity_type": "person",
+      "canonical_name": "Nir Lahav",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_noam_chomsky",
+      "entity_type": "person",
+      "canonical_name": "Noam Chomsky",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_norman_wildberger",
+      "entity_type": "person",
+      "canonical_name": "Norman Wildberger",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_parker",
+      "entity_type": "person",
+      "canonical_name": "Parker",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_paul_vanderklay",
+      "entity_type": "person",
+      "canonical_name": "Paul Vanderklay",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_peter_gray",
+      "entity_type": "person",
+      "canonical_name": "Peter Gray",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_peter_woit",
+      "entity_type": "person",
+      "canonical_name": "Peter Woit",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_philip_goff",
+      "entity_type": "person",
+      "canonical_name": "Philip Goff",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_philip_mannheim",
+      "entity_type": "person",
+      "canonical_name": "Philip Mannheim",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_raphael_liogier",
+      "entity_type": "person",
+      "canonical_name": "Raphael Liogier",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_rebecca_goldstein",
+      "entity_type": "person",
+      "canonical_name": "Rebecca Goldstein",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_renato_renner",
+      "entity_type": "person",
+      "canonical_name": "Renato Renner",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_richard_borcherds",
+      "entity_type": "person",
+      "canonical_name": "Richard Borcherds",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_richard_dolan",
+      "entity_type": "person",
+      "canonical_name": "Richard Dolan",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_richard_haier",
+      "entity_type": "person",
+      "canonical_name": "Richard Haier",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_richard_wolff",
+      "entity_type": "person",
+      "canonical_name": "Richard Wolff",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_rob_spekkens",
+      "entity_type": "person",
+      "canonical_name": "Rob Spekkens",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_robert_breedlove",
+      "entity_type": "person",
+      "canonical_name": "Robert Breedlove",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_robert_lawrence_kuhn",
+      "entity_type": "person",
+      "canonical_name": "Robert Lawrence Kuhn",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_robert_sapolsky",
+      "entity_type": "person",
+      "canonical_name": "Robert Sapolsky",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_robin_hanson",
+      "entity_type": "person",
+      "canonical_name": "Robin Hanson",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_roger_penrose",
+      "entity_type": "person",
+      "canonical_name": "Roger Penrose",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_roman_yampolskiy",
+      "entity_type": "person",
+      "canonical_name": "Roman Yampolskiy",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_ross_coulthart",
+      "entity_type": "person",
+      "canonical_name": "Ross Coulthart",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_roy_baumeister",
+      "entity_type": "person",
+      "canonical_name": "Roy Baumeister",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_rupert_sheldrake",
+      "entity_type": "person",
+      "canonical_name": "Rupert Sheldrake",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_rupert_spira",
+      "entity_type": "person",
+      "canonical_name": "Rupert Spira",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_ruth_kastner",
+      "entity_type": "person",
+      "canonical_name": "Ruth Kastner",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_sabine_hossenfelder",
+      "entity_type": "person",
+      "canonical_name": "Sabine Hossenfelder",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_salvatore_pais",
+      "entity_type": "person",
+      "canonical_name": "Salvatore Pais",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_sam_vaknin",
+      "entity_type": "person",
+      "canonical_name": "Sam Vaknin",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_sara_walker",
+      "entity_type": "person",
+      "canonical_name": "Sara Walker",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_scott_aaronson",
+      "entity_type": "person",
+      "canonical_name": "Scott Aaronson",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_sean_cahill",
+      "entity_type": "person",
+      "canonical_name": "Sean Cahill",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_sean_carroll",
+      "entity_type": "person",
+      "canonical_name": "Sean Carroll",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_simon_saunders",
+      "entity_type": "person",
+      "canonical_name": "Simon Saunders",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_slavoj_zizek",
+      "entity_type": "person",
+      "canonical_name": "Slavoj Zizek",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_stephen_wolfram",
+      "entity_type": "person",
+      "canonical_name": "Stephen Wolfram",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_stephon_alexander",
+      "entity_type": "person",
+      "canonical_name": "Stephon Alexander",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_steven_greer",
+      "entity_type": "person",
+      "canonical_name": "Steven Greer",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_steven_gubka",
+      "entity_type": "person",
+      "canonical_name": "Steven Gubka",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_steven_pinker",
+      "entity_type": "person",
+      "canonical_name": "Steven Pinker",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_stuart_hameroff",
+      "entity_type": "person",
+      "canonical_name": "Stuart Hameroff",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_stuart_kauffman",
+      "entity_type": "person",
+      "canonical_name": "Stuart Kauffman",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_subir_sarkar",
+      "entity_type": "person",
+      "canonical_name": "Subir Sarkar",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_susan_blackmore",
+      "entity_type": "person",
+      "canonical_name": "Susan Blackmore",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_susan_schneider",
+      "entity_type": "person",
+      "canonical_name": "Susan Schneider",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_tammy_peterson",
+      "entity_type": "person",
+      "canonical_name": "Tammy Peterson",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_ted_jacobson",
+      "entity_type": "person",
+      "canonical_name": "Ted Jacobson",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_terrence_deacon",
+      "entity_type": "person",
+      "canonical_name": "Terrence Deacon",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_tevin",
+      "entity_type": "person",
+      "canonical_name": "Tevin",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_thomas_campbell",
+      "entity_type": "person",
+      "canonical_name": "Thomas Campbell",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_thomas_pike",
+      "entity_type": "person",
+      "canonical_name": "Thomas Pike",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_tim_maudlin",
+      "entity_type": "person",
+      "canonical_name": "Tim Maudlin",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_tim_palmer",
+      "entity_type": "person",
+      "canonical_name": "Tim Palmer",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_timothy_williamson",
+      "entity_type": "person",
+      "canonical_name": "Timothy Williamson",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_tom_delonge",
+      "entity_type": "person",
+      "canonical_name": "Tom DeLonge",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_travis_walton",
+      "entity_type": "person",
+      "canonical_name": "Travis Walton",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_tyler_cowen",
+      "entity_type": "person",
+      "canonical_name": "Tyler Cowen",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_urs_schreiber",
+      "entity_type": "person",
+      "canonical_name": "Urs Schreiber",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_vitaly_vanchurin",
+      "entity_type": "person",
+      "canonical_name": "Vitaly Vanchurin",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_wayne_myrvold",
+      "entity_type": "person",
+      "canonical_name": "Wayne Myrvold",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_william_hahn",
+      "entity_type": "person",
+      "canonical_name": "William Hahn",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_wolfgang_smith",
+      "entity_type": "person",
+      "canonical_name": "Wolfgang Smith",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_yakir_aharonov",
+      "entity_type": "person",
+      "canonical_name": "Yakir Aharonov",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_yang_hui_he",
+      "entity_type": "person",
+      "canonical_name": "Yang-Hui He",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    },
+    {
+      "entity_id": "person_zubin_damania",
+      "entity_type": "person",
+      "canonical_name": "Zubin Damania",
+      "identity_state": "PROVISIONAL_NEEDS_SOURCE_VERIFICATION",
+      "program_resolution_state": "UNRESOLVED",
+      "ranking_state": "NOT_A_RANKABLE_OBJECT"
+    }
+  ],
+  "appearance_edges": [
+    {
+      "person_id": "person_a_h_almaas",
+      "intake_group_id": "prefix_a_h_almaas",
+      "match_method": "exact_prefix",
+      "matched_surface": "A. H. Almaas",
+      "evidence_episode_ids": [
+        270
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_aaron_schurger",
+      "intake_group_id": "prefix_aaron_schurger",
+      "match_method": "exact_prefix",
+      "matched_surface": "Aaron Schurger",
+      "evidence_episode_ids": [
+        40
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_abhay_ashtekar",
+      "intake_group_id": "prefix_abhay_ashtekar",
+      "match_method": "exact_prefix",
+      "matched_surface": "Abhay Ashtekar",
+      "evidence_episode_ids": [
+        258
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_aephraim_steinberg",
+      "intake_group_id": "prefix_aephraim_steinberg",
+      "match_method": "exact_prefix",
+      "matched_surface": "Aephraim Steinberg",
+      "evidence_episode_ids": [
+        14
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_alex_honnold",
+      "intake_group_id": "prefix_alex_honnold",
+      "match_method": "exact_prefix",
+      "matched_surface": "Alex Honnold",
+      "evidence_episode_ids": [
+        181
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_alex_tsakiris",
+      "intake_group_id": "prefix_alex_tsakiris",
+      "match_method": "exact_prefix",
+      "matched_surface": "Alex Tsakiris",
+      "evidence_episode_ids": [
+        328
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_alfonso_martinez_arias",
+      "intake_group_id": "prefix_alfonso_martinez_arias",
+      "match_method": "exact_prefix",
+      "matched_surface": "Alfonso Martinez Arias",
+      "evidence_episode_ids": [
+        147
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_anand_vaidya",
+      "intake_group_id": "prefix_anand_vaidya",
+      "match_method": "exact_prefix",
+      "matched_surface": "Anand Vaidya",
+      "evidence_episode_ids": [
+        196,
+        206
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_andres_gomez_emilsson",
+      "intake_group_id": "prefix_andres_gomez_emilsson",
+      "match_method": "exact_prefix",
+      "matched_surface": "Andres Gomez-Emilsson",
+      "evidence_episode_ids": [
+        47,
+        84
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_anil_seth",
+      "intake_group_id": "prefix_anil_seth",
+      "match_method": "exact_prefix",
+      "matched_surface": "Anil Seth",
+      "evidence_episode_ids": [
+        334
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_anil_seth",
+      "intake_group_id": "prefix_michael_levin_and_anil_seth",
+      "match_method": "exact_prefix",
+      "matched_surface": "Michael Levin and Anil Seth",
+      "evidence_episode_ids": [
+        45
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_anna_ciaunica",
+      "intake_group_id": "prefix_michael_levin_and_anna_ciaunica",
+      "match_method": "exact_prefix",
+      "matched_surface": "Michael Levin and Anna Ciaunica",
+      "evidence_episode_ids": [
+        93
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_anna_lembke",
+      "intake_group_id": "prefix_anna_lembke",
+      "match_method": "exact_prefix",
+      "matched_surface": "Anna Lembke",
+      "evidence_episode_ids": [
+        195
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_anna_lembke",
+      "intake_group_id": "prefix_karl_friston_and_anna_lembke",
+      "match_method": "exact_prefix",
+      "matched_surface": "Karl Friston and Anna Lembke",
+      "evidence_episode_ids": [
+        171
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_anthony_metivier",
+      "intake_group_id": "prefix_anthony_metivier",
+      "match_method": "exact_prefix",
+      "matched_surface": "Anthony Metivier",
+      "evidence_episode_ids": [
+        313
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_artisan_tony",
+      "intake_group_id": "prefix_artisan_tony_and_curt_jaimungal",
+      "match_method": "exact_prefix",
+      "matched_surface": "Artisan Tony and Curt Jaimungal",
+      "evidence_episode_ids": [
+        255
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_atlas",
+      "intake_group_id": "prefix_atlas_matthew_widen_and_curt_jaimungal",
+      "match_method": "exact_prefix",
+      "matched_surface": "Atlas, Matthew Widen, and Curt Jaimungal",
+      "evidence_episode_ids": [
+        302
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_avi_loeb",
+      "intake_group_id": "prefix_avi_loeb",
+      "match_method": "exact_prefix",
+      "matched_surface": "Avi Loeb",
+      "evidence_episode_ids": [
+        253,
+        318
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_avshalom_elitzur",
+      "intake_group_id": "prefix_avshalom_elitzur",
+      "match_method": "exact_prefix",
+      "matched_surface": "Avshalom Elitzur",
+      "evidence_episode_ids": [
+        104
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_barry_loewer",
+      "intake_group_id": "prefix_barry_loewer_and_eddy_chen",
+      "match_method": "exact_prefix",
+      "matched_surface": "Barry Loewer and Eddy Chen",
+      "evidence_episode_ids": [
+        62
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_bas_van_fraassen",
+      "intake_group_id": "prefix_bas_van_fraassen",
+      "match_method": "exact_prefix",
+      "matched_surface": "Bas van Fraassen",
+      "evidence_episode_ids": [
+        34
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_ben_goertzel",
+      "intake_group_id": "prefix_ben_goertzel",
+      "match_method": "exact_prefix",
+      "matched_surface": "Ben Goertzel",
+      "evidence_episode_ids": [
+        221
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_ben_goertzel",
+      "intake_group_id": "prefix_joscha_bach_and_ben_goertzel",
+      "match_method": "exact_prefix",
+      "matched_surface": "Joscha Bach and Ben Goertzel",
+      "evidence_episode_ids": [
+        198
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_bernardo_kastrup",
+      "intake_group_id": "prefix_bernardo_kastrup",
+      "match_method": "exact_prefix",
+      "matched_surface": "Bernardo Kastrup",
+      "evidence_episode_ids": [
+        240,
+        327
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_bernardo_kastrup",
+      "intake_group_id": "prefix_bernardo_kastrup_vs_susan_blackmore",
+      "match_method": "exact_prefix",
+      "matched_surface": "Bernardo Kastrup vs. Susan Blackmore",
+      "evidence_episode_ids": [
+        214
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_bernardo_kastrup",
+      "intake_group_id": "prefix_chris_langan_vs_bernardo_kastrup",
+      "match_method": "exact_prefix",
+      "matched_surface": "Chris Langan vs. Bernardo Kastrup",
+      "evidence_episode_ids": [
+        257
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_bernardo_kastrup",
+      "intake_group_id": "prefix_kastrup_hoffman_and_schneider",
+      "match_method": "surname_panel",
+      "matched_surface": "Kastrup",
+      "evidence_episode_ids": [
+        225
+      ],
+      "verification_state": "PROPOSED_ALIAS_OR_SURNAME_LINK"
+    },
+    {
+      "person_id": "person_bernardo_kastrup",
+      "intake_group_id": "prefix_kastrup_vs_vervaeke",
+      "match_method": "surname_panel",
+      "matched_surface": "Kastrup",
+      "evidence_episode_ids": [
+        312,
+        315
+      ],
+      "verification_state": "PROPOSED_ALIAS_OR_SURNAME_LINK"
+    },
+    {
+      "person_id": "person_bernardo_kastrup",
+      "intake_group_id": "prefix_sabine_hossenfelder_vs_bernardo_kastrup",
+      "match_method": "exact_prefix",
+      "matched_surface": "Sabine Hossenfelder vs. Bernardo Kastrup",
+      "evidence_episode_ids": [
+        277
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_bernardo_kastrup",
+      "intake_group_id": "unparsed_rss_200",
+      "match_method": "unparsed_title",
+      "matched_surface": "Tim Maudlin and Bernardo Kastrup Debate Quantum Realism",
+      "evidence_episode_ids": [
+        200
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_brian_greene",
+      "intake_group_id": "prefix_brian_greene",
+      "match_method": "exact_prefix",
+      "matched_surface": "Brian Greene",
+      "evidence_episode_ids": [
+        234
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_brian_keating",
+      "intake_group_id": "prefix_brian_keating",
+      "match_method": "exact_prefix",
+      "matched_surface": "Brian Keating",
+      "evidence_episode_ids": [
+        348
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_brian_keating",
+      "intake_group_id": "prefix_brian_keating_and_lee_cronin",
+      "match_method": "exact_prefix",
+      "matched_surface": "Brian Keating and Lee Cronin",
+      "evidence_episode_ids": [
+        284
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_bryan_johnson",
+      "intake_group_id": "prefix_bryan_johnson",
+      "match_method": "exact_prefix",
+      "matched_surface": "Bryan Johnson",
+      "evidence_episode_ids": [
+        155
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_carissa_veliz",
+      "intake_group_id": "prefix_carissa_veliz",
+      "match_method": "exact_prefix",
+      "matched_surface": "Carissa Veliz",
+      "evidence_episode_ids": [
+        149
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_carlo_rovelli",
+      "intake_group_id": "prefix_carlo_rovelli",
+      "match_method": "exact_prefix",
+      "matched_surface": "Carlo Rovelli",
+      "evidence_episode_ids": [
+        111,
+        289
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_carlos_farias",
+      "intake_group_id": "prefix_carlos_farias_and_curt_jaimungal",
+      "match_method": "exact_prefix",
+      "matched_surface": "Carlos Farias and Curt Jaimungal",
+      "evidence_episode_ids": [
+        178
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_carlos_montemayor",
+      "intake_group_id": "prefix_passos_montemayor_mindt",
+      "match_method": "surname_panel",
+      "matched_surface": "Montemayor",
+      "evidence_episode_ids": [
+        219
+      ],
+      "verification_state": "PROPOSED_ALIAS_OR_SURNAME_LINK"
+    },
+    {
+      "person_id": "person_chiara_marletto",
+      "intake_group_id": "prefix_chiara_marletto",
+      "match_method": "exact_prefix",
+      "matched_surface": "Chiara Marletto",
+      "evidence_episode_ids": [
+        108,
+        184
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_chloe_valdary",
+      "intake_group_id": "prefix_chloe_valdary_and_curt_jaimungal",
+      "match_method": "exact_prefix",
+      "matched_surface": "Chloe Valdary and Curt Jaimungal",
+      "evidence_episode_ids": [
+        268
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_chris_fields",
+      "intake_group_id": "prefix_michael_levin_karl_friston_chris_fields",
+      "match_method": "exact_prefix",
+      "matched_surface": "Michael Levin, Karl Friston, Chris Fields",
+      "evidence_episode_ids": [
+        262
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_chris_langan",
+      "intake_group_id": "prefix_chris_langan",
+      "match_method": "exact_prefix",
+      "matched_surface": "Chris Langan",
+      "evidence_episode_ids": [
+        216,
+        305
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_chris_langan",
+      "intake_group_id": "prefix_chris_langan_vs_bernardo_kastrup",
+      "match_method": "exact_prefix",
+      "matched_surface": "Chris Langan vs. Bernardo Kastrup",
+      "evidence_episode_ids": [
+        257
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_chris_lehto",
+      "intake_group_id": "prefix_chris_lehto_and_curt_jaimungal",
+      "match_method": "exact_prefix",
+      "matched_surface": "Chris Lehto and Curt Jaimungal",
+      "evidence_episode_ids": [
+        256
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_claudia_de_rham",
+      "intake_group_id": "prefix_claudia_de_rham",
+      "match_method": "exact_prefix",
+      "matched_surface": "Claudia de Rham",
+      "evidence_episode_ids": [
+        78,
+        128
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_claudia_passos",
+      "intake_group_id": "prefix_passos_montemayor_mindt",
+      "match_method": "surname_panel",
+      "matched_surface": "Passos",
+      "evidence_episode_ids": [
+        219
+      ],
+      "verification_state": "PROPOSED_ALIAS_OR_SURNAME_LINK"
+    },
+    {
+      "person_id": "person_coleman_hughes",
+      "intake_group_id": "prefix_coleman_hughes",
+      "match_method": "exact_prefix",
+      "matched_surface": "Coleman Hughes",
+      "evidence_episode_ids": [
+        260
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_colin_mclarty",
+      "intake_group_id": "prefix_colin_mclarty",
+      "match_method": "exact_prefix",
+      "matched_surface": "Colin McLarty",
+      "evidence_episode_ids": [
+        145
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_colm_kelleher",
+      "intake_group_id": "prefix_george_knapp_and_colm_kelleher",
+      "match_method": "exact_prefix",
+      "matched_surface": "George Knapp and Colm Kelleher",
+      "evidence_episode_ids": [
+        282
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_cumrun_vafa",
+      "intake_group_id": "prefix_cumrun_vafa",
+      "match_method": "exact_prefix",
+      "matched_surface": "Cumrun Vafa",
+      "evidence_episode_ids": [
+        136
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_daniel_dennett",
+      "intake_group_id": "prefix_daniel_dennett",
+      "match_method": "exact_prefix",
+      "matched_surface": "Daniel Dennett",
+      "evidence_episode_ids": [
+        187
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_daniel_schmachtenberger",
+      "intake_group_id": "prefix_daniel_schmachtenberger",
+      "match_method": "exact_prefix",
+      "matched_surface": "Daniel Schmachtenberger",
+      "evidence_episode_ids": [
+        217
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_david_bentley_hart",
+      "intake_group_id": "prefix_david_bentley_hart",
+      "match_method": "exact_prefix",
+      "matched_surface": "David Bentley Hart",
+      "evidence_episode_ids": [
+        96
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_david_bessis",
+      "intake_group_id": "prefix_david_bessis",
+      "match_method": "exact_prefix",
+      "matched_surface": "David Bessis",
+      "evidence_episode_ids": [
+        26
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_david_chalmers",
+      "intake_group_id": "prefix_david_chalmers",
+      "match_method": "exact_prefix",
+      "matched_surface": "David Chalmers",
+      "evidence_episode_ids": [
+        165,
+        185,
+        194
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_david_chalmers",
+      "intake_group_id": "prefix_david_chalmers_and_scott_aaronson",
+      "match_method": "exact_prefix",
+      "matched_surface": "David Chalmers and Scott Aaronson",
+      "evidence_episode_ids": [
+        159
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_david_deutsch",
+      "intake_group_id": "prefix_david_deutsch",
+      "match_method": "exact_prefix",
+      "matched_surface": "David Deutsch",
+      "evidence_episode_ids": [
+        43
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_david_hand",
+      "intake_group_id": "prefix_david_hand",
+      "match_method": "exact_prefix",
+      "matched_surface": "David Hand",
+      "evidence_episode_ids": [
+        207
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_david_kaiser",
+      "intake_group_id": "prefix_david_kaiser",
+      "match_method": "exact_prefix",
+      "matched_surface": "David Kaiser",
+      "evidence_episode_ids": [
+        69
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_david_robson",
+      "intake_group_id": "prefix_david_robson",
+      "match_method": "exact_prefix",
+      "matched_surface": "David Robson",
+      "evidence_episode_ids": [
+        228
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_david_sloan_wilson",
+      "intake_group_id": "prefix_david_sloan_wilson",
+      "match_method": "exact_prefix",
+      "matched_surface": "David Sloan Wilson",
+      "evidence_episode_ids": [
+        333
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_david_wallace",
+      "intake_group_id": "prefix_david_wallace",
+      "match_method": "exact_prefix",
+      "matched_surface": "David Wallace",
+      "evidence_episode_ids": [
+        66
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_david_wolpert",
+      "intake_group_id": "prefix_david_wolpert",
+      "match_method": "exact_prefix",
+      "matched_surface": "David Wolpert",
+      "evidence_episode_ids": [
+        274,
+        283
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_denis_noble",
+      "intake_group_id": "prefix_denis_noble",
+      "match_method": "exact_prefix",
+      "matched_surface": "Denis Noble",
+      "evidence_episode_ids": [
+        131,
+        133
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_dennis_mckenna",
+      "intake_group_id": "prefix_dennis_mckenna",
+      "match_method": "exact_prefix",
+      "matched_surface": "Dennis McKenna",
+      "evidence_episode_ids": [
+        208
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_diana_pasulka",
+      "intake_group_id": "prefix_diana_pasulka",
+      "match_method": "exact_prefix",
+      "matched_surface": "Diana Pasulka",
+      "evidence_episode_ids": [
+        265
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_dick_bond",
+      "intake_group_id": "prefix_dick_bond",
+      "match_method": "exact_prefix",
+      "matched_surface": "Dick Bond",
+      "evidence_episode_ids": [
+        231
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_donald_hoffman",
+      "intake_group_id": "prefix_donald_hoffman",
+      "match_method": "exact_prefix",
+      "matched_surface": "Donald Hoffman",
+      "evidence_episode_ids": [
+        241,
+        349
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_donald_hoffman",
+      "intake_group_id": "prefix_donald_hoffman_and_john_vervaeke",
+      "match_method": "exact_prefix",
+      "matched_surface": "Donald Hoffman and John Vervaeke",
+      "evidence_episode_ids": [
+        243
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_donald_hoffman",
+      "intake_group_id": "prefix_donald_hoffman_and_joscha_bach",
+      "match_method": "exact_prefix",
+      "matched_surface": "Donald Hoffman and Joscha Bach",
+      "evidence_episode_ids": [
+        281
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_donald_hoffman",
+      "intake_group_id": "prefix_donald_hoffman_vs_philip_goff",
+      "match_method": "exact_prefix",
+      "matched_surface": "Donald Hoffman vs. Philip Goff",
+      "evidence_episode_ids": [
+        189
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_donald_hoffman",
+      "intake_group_id": "prefix_kastrup_hoffman_and_schneider",
+      "match_method": "surname_panel",
+      "matched_surface": "Hoffman",
+      "evidence_episode_ids": [
+        225
+      ],
+      "verification_state": "PROPOSED_ALIAS_OR_SURNAME_LINK"
+    },
+    {
+      "person_id": "person_donald_hoffman",
+      "intake_group_id": "prefix_live",
+      "match_method": "surname_panel",
+      "matched_surface": "Hoffman",
+      "evidence_episode_ids": [
+        236
+      ],
+      "verification_state": "PROPOSED_ALIAS_OR_SURNAME_LINK"
+    },
+    {
+      "person_id": "person_donald_hoffman",
+      "intake_group_id": "prefix_stephen_wolfram_meets_donald_hoffman",
+      "match_method": "exact_prefix",
+      "matched_surface": "Stephen Wolfram Meets Donald Hoffman",
+      "evidence_episode_ids": [
+        143
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_douglas_lain",
+      "intake_group_id": "prefix_douglas_lain",
+      "match_method": "exact_prefix",
+      "matched_surface": "Douglas Lain",
+      "evidence_episode_ids": [
+        350
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_dror_bar_natan",
+      "intake_group_id": "prefix_dror_bar_natan",
+      "match_method": "exact_prefix",
+      "matched_surface": "Dror Bar-Natan",
+      "evidence_episode_ids": [
+        299
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_eddy_chen",
+      "intake_group_id": "prefix_barry_loewer_and_eddy_chen",
+      "match_method": "exact_prefix",
+      "matched_surface": "Barry Loewer and Eddy Chen",
+      "evidence_episode_ids": [
+        62
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_edward_frenkel",
+      "intake_group_id": "prefix_edward_frenkel",
+      "match_method": "exact_prefix",
+      "matched_surface": "Edward Frenkel",
+      "evidence_episode_ids": [
+        115,
+        130,
+        202
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_edward_stuart",
+      "intake_group_id": "prefix_edward_stuart",
+      "match_method": "exact_prefix",
+      "matched_surface": "Edward Stuart",
+      "evidence_episode_ids": [
+        344
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_elan_barenholtz",
+      "intake_group_id": "prefix_barenholtz_hahn_jaimungal",
+      "match_method": "surname_panel",
+      "matched_surface": "Barenholtz",
+      "evidence_episode_ids": [
+        79
+      ],
+      "verification_state": "PROPOSED_ALIAS_OR_SURNAME_LINK"
+    },
+    {
+      "person_id": "person_elan_barenholtz",
+      "intake_group_id": "prefix_elan_barenholtz",
+      "match_method": "exact_prefix",
+      "matched_surface": "Elan Barenholtz",
+      "evidence_episode_ids": [
+        63
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_elan_barenholtz",
+      "intake_group_id": "prefix_elan_barenholtz_and_william_hahn",
+      "match_method": "exact_prefix",
+      "matched_surface": "Elan Barenholtz and William Hahn",
+      "evidence_episode_ids": [
+        55
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_emily_adlam",
+      "intake_group_id": "prefix_emily_adlam",
+      "match_method": "exact_prefix",
+      "matched_surface": "Emily Adlam",
+      "evidence_episode_ids": [
+        77
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_emily_adlam",
+      "intake_group_id": "prefix_jacob_barandes_and_emily_adlam",
+      "match_method": "exact_prefix",
+      "matched_surface": "Jacob Barandes and Emily Adlam",
+      "evidence_episode_ids": [
+        61
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_emily_riehl",
+      "intake_group_id": "unparsed_rss_17",
+      "match_method": "unparsed_title",
+      "matched_surface": "Emily Riehl Makes Infinity Categories Elementary",
+      "evidence_episode_ids": [
+        17
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_eric_weinstein",
+      "intake_group_id": "prefix_eric_weinstein",
+      "match_method": "exact_prefix",
+      "matched_surface": "Eric Weinstein",
+      "evidence_episode_ids": [
+        65,
+        352
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_eric_weinstein",
+      "intake_group_id": "unparsed_rss_261",
+      "match_method": "unparsed_title",
+      "matched_surface": "Eric Weinstein and Mick West Clash Over UFO Evidence and Stigma",
+      "evidence_episode_ids": [
+        261
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_erik_verlinde",
+      "intake_group_id": "prefix_erik_verlinde",
+      "match_method": "exact_prefix",
+      "matched_surface": "Erik Verlinde",
+      "evidence_episode_ids": [
+        27
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_eva_miranda",
+      "intake_group_id": "prefix_eva_miranda",
+      "match_method": "exact_prefix",
+      "matched_surface": "Eva Miranda",
+      "evidence_episode_ids": [
+        58,
+        94
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_fay_dowker",
+      "intake_group_id": "prefix_fay_dowker",
+      "match_method": "exact_prefix",
+      "matched_surface": "Fay Dowker",
+      "evidence_episode_ids": [
+        146
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_felix_finster",
+      "intake_group_id": "prefix_felix_finster",
+      "match_method": "exact_prefix",
+      "matched_surface": "Felix Finster",
+      "evidence_episode_ids": [
+        54
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_fidias",
+      "intake_group_id": "prefix_fidias_and_curt_jaimungal",
+      "match_method": "exact_prefix",
+      "matched_surface": "Fidias and Curt Jaimungal",
+      "evidence_episode_ids": [
+        183
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_frank_yang",
+      "intake_group_id": "prefix_frank_yang",
+      "match_method": "exact_prefix",
+      "matched_surface": "Frank Yang",
+      "evidence_episode_ids": [
+        226
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_frederic_schuller",
+      "intake_group_id": "prefix_frederic_schuller",
+      "match_method": "exact_prefix",
+      "matched_surface": "Frederic Schuller",
+      "evidence_episode_ids": [
+        52
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_gabriele_carcassi",
+      "intake_group_id": "prefix_gabriele_carcassi",
+      "match_method": "exact_prefix",
+      "matched_surface": "Gabriele Carcassi",
+      "evidence_episode_ids": [
+        112
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_garrett_lisi",
+      "intake_group_id": "prefix_garrett_lisi",
+      "match_method": "exact_prefix",
+      "matched_surface": "Garrett Lisi",
+      "evidence_episode_ids": [
+        117
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_garrett_mindt",
+      "intake_group_id": "prefix_passos_montemayor_mindt",
+      "match_method": "surname_panel",
+      "matched_surface": "Mindt",
+      "evidence_episode_ids": [
+        219
+      ],
+      "verification_state": "PROPOSED_ALIAS_OR_SURNAME_LINK"
+    },
+    {
+      "person_id": "person_garry_nolan",
+      "intake_group_id": "prefix_garry_nolan",
+      "match_method": "exact_prefix",
+      "matched_surface": "Garry Nolan",
+      "evidence_episode_ids": [
+        269
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_gen_zed",
+      "intake_group_id": "prefix_gen_zed_and_curt_jaimungal",
+      "match_method": "exact_prefix",
+      "matched_surface": "Gen Zed and Curt Jaimungal",
+      "evidence_episode_ids": [
+        259
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_geoffrey_hinton",
+      "intake_group_id": "prefix_geoffrey_hinton",
+      "match_method": "exact_prefix",
+      "matched_surface": "Geoffrey Hinton",
+      "evidence_episode_ids": [
+        95
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_george_ellis",
+      "intake_group_id": "prefix_george_ellis",
+      "match_method": "exact_prefix",
+      "matched_surface": "George Ellis",
+      "evidence_episode_ids": [
+        13
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_george_knapp",
+      "intake_group_id": "prefix_george_knapp_and_colm_kelleher",
+      "match_method": "exact_prefix",
+      "matched_surface": "George Knapp and Colm Kelleher",
+      "evidence_episode_ids": [
+        282
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_george_knapp",
+      "intake_group_id": "prefix_live",
+      "match_method": "surname_panel",
+      "matched_surface": "Knapp",
+      "evidence_episode_ids": [
+        236
+      ],
+      "verification_state": "PROPOSED_ALIAS_OR_SURNAME_LINK"
+    },
+    {
+      "person_id": "person_george_musser",
+      "intake_group_id": "prefix_george_musser",
+      "match_method": "exact_prefix",
+      "matched_surface": "George Musser",
+      "evidence_episode_ids": [
+        158
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_gerard_t_hooft",
+      "intake_group_id": "prefix_gerard_t_hooft",
+      "match_method": "exact_prefix",
+      "matched_surface": "Gerard 't Hooft",
+      "evidence_episode_ids": [
+        53
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_ginestra_bianconi",
+      "intake_group_id": "prefix_ginestra_bianconi",
+      "match_method": "exact_prefix",
+      "matched_surface": "Ginestra Bianconi",
+      "evidence_episode_ids": [
+        1
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_graham_priest",
+      "intake_group_id": "prefix_graham_priest",
+      "match_method": "exact_prefix",
+      "matched_surface": "Graham Priest",
+      "evidence_episode_ids": [
+        163
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_greg_kondrak",
+      "intake_group_id": "prefix_greg_kondrak",
+      "match_method": "exact_prefix",
+      "matched_surface": "Greg Kondrak",
+      "evidence_episode_ids": [
+        230
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_gregory_chaitin",
+      "intake_group_id": "prefix_gregory_chaitin",
+      "match_method": "exact_prefix",
+      "matched_surface": "Gregory Chaitin",
+      "evidence_episode_ids": [
+        118,
+        126,
+        205
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_harry_collins",
+      "intake_group_id": "prefix_harry_collins",
+      "match_method": "exact_prefix",
+      "matched_surface": "Harry Collins",
+      "evidence_episode_ids": [
+        120
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_hartmut_neven",
+      "intake_group_id": "prefix_hartmut_neven",
+      "match_method": "exact_prefix",
+      "matched_surface": "Hartmut Neven",
+      "evidence_episode_ids": [
+        157
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_harvey_friedman",
+      "intake_group_id": "prefix_harvey_friedman",
+      "match_method": "exact_prefix",
+      "matched_surface": "Harvey Friedman",
+      "evidence_episode_ids": [
+        8
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_iain_mcgilchrist",
+      "intake_group_id": "prefix_iain_mcgilchrist",
+      "match_method": "exact_prefix",
+      "matched_surface": "Iain McGilchrist",
+      "evidence_episode_ids": [
+        103,
+        321
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_iain_mcgilchrist",
+      "intake_group_id": "prefix_iain_mcgilchrist_and_john_vervaeke",
+      "match_method": "exact_prefix",
+      "matched_surface": "Iain McGilchrist and John Vervaeke",
+      "evidence_episode_ids": [
+        251
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_ivette_fuentes",
+      "intake_group_id": "prefix_ivette_fuentes",
+      "match_method": "exact_prefix",
+      "matched_surface": "Ivette Fuentes",
+      "evidence_episode_ids": [
+        37,
+        127
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_ivette_fuentes",
+      "intake_group_id": "prefix_roger_penrose_and_ivette_fuentes",
+      "match_method": "exact_prefix",
+      "matched_surface": "Roger Penrose and Ivette Fuentes",
+      "evidence_episode_ids": [
+        35
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_jacob_barandes",
+      "intake_group_id": "prefix_jacob_barandes",
+      "match_method": "exact_prefix",
+      "matched_surface": "Jacob Barandes",
+      "evidence_episode_ids": [
+        59,
+        87,
+        92,
+        106
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_jacob_barandes",
+      "intake_group_id": "prefix_jacob_barandes_and_emily_adlam",
+      "match_method": "exact_prefix",
+      "matched_surface": "Jacob Barandes and Emily Adlam",
+      "evidence_episode_ids": [
+        61
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_jacob_barandes",
+      "intake_group_id": "prefix_jacob_barandes_and_manolis_kellis",
+      "match_method": "exact_prefix",
+      "matched_surface": "Jacob Barandes and Manolis Kellis",
+      "evidence_episode_ids": [
+        91
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_jacob_barandes",
+      "intake_group_id": "prefix_scott_aaronson_and_jacob_barandes",
+      "match_method": "exact_prefix",
+      "matched_surface": "Scott Aaronson and Jacob Barandes",
+      "evidence_episode_ids": [
+        83
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_jacques_vallee",
+      "intake_group_id": "prefix_jacques_vallee_and_kevin_knuth",
+      "match_method": "exact_prefix",
+      "matched_surface": "Jacques Vallee and Kevin Knuth",
+      "evidence_episode_ids": [
+        310
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_james_robert_brown",
+      "intake_group_id": "prefix_james_robert_brown",
+      "match_method": "exact_prefix",
+      "matched_surface": "James Robert Brown",
+      "evidence_episode_ids": [
+        339
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_janna_levin",
+      "intake_group_id": "prefix_janna_levin",
+      "match_method": "exact_prefix",
+      "matched_surface": "Janna Levin",
+      "evidence_episode_ids": [
+        9
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_jb_manchak",
+      "intake_group_id": "prefix_jb_manchak",
+      "match_method": "exact_prefix",
+      "matched_surface": "JB Manchak",
+      "evidence_episode_ids": [
+        21
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_jeffrey_mishlove",
+      "intake_group_id": "prefix_jeffrey_mishlove",
+      "match_method": "exact_prefix",
+      "matched_surface": "Jeffrey Mishlove",
+      "evidence_episode_ids": [
+        203
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_jenann_ismael",
+      "intake_group_id": "prefix_jenann_ismael",
+      "match_method": "exact_prefix",
+      "matched_surface": "Jenann Ismael",
+      "evidence_episode_ids": [
+        57
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_jennifer_nagel",
+      "intake_group_id": "prefix_jennifer_nagel",
+      "match_method": "exact_prefix",
+      "matched_surface": "Jennifer Nagel",
+      "evidence_episode_ids": [
+        75
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_jenny_wagner",
+      "intake_group_id": "prefix_jenny_wagner",
+      "match_method": "exact_prefix",
+      "matched_surface": "Jenny Wagner",
+      "evidence_episode_ids": [
+        19
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_jeremy_corbell",
+      "intake_group_id": "prefix_jeremy_corbell",
+      "match_method": "exact_prefix",
+      "matched_surface": "Jeremy Corbell",
+      "evidence_episode_ids": [
+        306,
+        335
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_jeremy_corbell",
+      "intake_group_id": "prefix_live",
+      "match_method": "surname_panel",
+      "matched_surface": "Corbell",
+      "evidence_episode_ids": [
+        236
+      ],
+      "verification_state": "PROPOSED_ALIAS_OR_SURNAME_LINK"
+    },
+    {
+      "person_id": "person_jeremy_corbell",
+      "intake_group_id": "prefix_richard_dolan_and_jeremy_corbell",
+      "match_method": "exact_prefix",
+      "matched_surface": "Richard Dolan and Jeremy Corbell",
+      "evidence_episode_ids": [
+        232
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_jesse_michels",
+      "intake_group_id": "prefix_jesse_michels",
+      "match_method": "exact_prefix",
+      "matched_surface": "Jesse Michels",
+      "evidence_episode_ids": [
+        197
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_jesse_michels",
+      "intake_group_id": "prefix_jesse_michels_and_curt_jaimungal",
+      "match_method": "exact_prefix",
+      "matched_surface": "Jesse Michels and Curt Jaimungal",
+      "evidence_episode_ids": [
+        179
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_john_donoghue",
+      "intake_group_id": "prefix_john_donoghue",
+      "match_method": "exact_prefix",
+      "matched_surface": "John Donoghue",
+      "evidence_episode_ids": [
+        23
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_john_greenewald",
+      "intake_group_id": "prefix_john_greenewald",
+      "match_method": "exact_prefix",
+      "matched_surface": "John Greenewald",
+      "evidence_episode_ids": [
+        215
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_john_moffat",
+      "intake_group_id": "prefix_john_moffat",
+      "match_method": "exact_prefix",
+      "matched_surface": "John Moffat",
+      "evidence_episode_ids": [
+        346
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_john_norton",
+      "intake_group_id": "prefix_john_norton",
+      "match_method": "exact_prefix",
+      "matched_surface": "John Norton",
+      "evidence_episode_ids": [
+        60
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_john_vervaeke",
+      "intake_group_id": "prefix_donald_hoffman_and_john_vervaeke",
+      "match_method": "exact_prefix",
+      "matched_surface": "Donald Hoffman and John Vervaeke",
+      "evidence_episode_ids": [
+        243
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_john_vervaeke",
+      "intake_group_id": "prefix_iain_mcgilchrist_and_john_vervaeke",
+      "match_method": "exact_prefix",
+      "matched_surface": "Iain McGilchrist and John Vervaeke",
+      "evidence_episode_ids": [
+        251
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_john_vervaeke",
+      "intake_group_id": "prefix_john_vervaeke",
+      "match_method": "exact_prefix",
+      "matched_surface": "John Vervaeke",
+      "evidence_episode_ids": [
+        156,
+        340
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_john_vervaeke",
+      "intake_group_id": "prefix_joscha_bach_and_john_vervaeke",
+      "match_method": "exact_prefix",
+      "matched_surface": "Joscha Bach and John Vervaeke",
+      "evidence_episode_ids": [
+        287
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_john_vervaeke",
+      "intake_group_id": "prefix_kastrup_vs_vervaeke",
+      "match_method": "surname_panel",
+      "matched_surface": "Vervaeke",
+      "evidence_episode_ids": [
+        312,
+        315
+      ],
+      "verification_state": "PROPOSED_ALIAS_OR_SURNAME_LINK"
+    },
+    {
+      "person_id": "person_john_vervaeke",
+      "intake_group_id": "prefix_live",
+      "match_method": "surname_panel",
+      "matched_surface": "Vervaeke",
+      "evidence_episode_ids": [
+        236
+      ],
+      "verification_state": "PROPOSED_ALIAS_OR_SURNAME_LINK"
+    },
+    {
+      "person_id": "person_jonathan_blow",
+      "intake_group_id": "prefix_jonathan_blow",
+      "match_method": "exact_prefix",
+      "matched_surface": "Jonathan Blow",
+      "evidence_episode_ids": [
+        294
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_jonathan_gorard",
+      "intake_group_id": "prefix_jonathan_gorard",
+      "match_method": "exact_prefix",
+      "matched_surface": "Jonathan Gorard",
+      "evidence_episode_ids": [
+        168
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_jonathan_oppenheim",
+      "intake_group_id": "prefix_jonathan_oppenheim",
+      "match_method": "exact_prefix",
+      "matched_surface": "Jonathan Oppenheim",
+      "evidence_episode_ids": [
+        121,
+        201
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_jonathan_pageau",
+      "intake_group_id": "prefix_jonathan_pageau",
+      "match_method": "exact_prefix",
+      "matched_surface": "Jonathan Pageau",
+      "evidence_episode_ids": [
+        101,
+        320
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_jordan_peterson",
+      "intake_group_id": "prefix_jordan_peterson",
+      "match_method": "exact_prefix",
+      "matched_surface": "Jordan Peterson",
+      "evidence_episode_ids": [
+        254
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_jordan_peterson",
+      "intake_group_id": "prefix_jordan_peterson_and_curt_jaimungal",
+      "match_method": "exact_prefix",
+      "matched_surface": "Jordan Peterson and Curt Jaimungal",
+      "evidence_episode_ids": [
+        267
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_joscha_bach",
+      "intake_group_id": "prefix_donald_hoffman_and_joscha_bach",
+      "match_method": "exact_prefix",
+      "matched_surface": "Donald Hoffman and Joscha Bach",
+      "evidence_episode_ids": [
+        281
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_joscha_bach",
+      "intake_group_id": "prefix_joscha_bach",
+      "match_method": "exact_prefix",
+      "matched_surface": "Joscha Bach",
+      "evidence_episode_ids": [
+        338
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_joscha_bach",
+      "intake_group_id": "prefix_joscha_bach_and_ben_goertzel",
+      "match_method": "exact_prefix",
+      "matched_surface": "Joscha Bach and Ben Goertzel",
+      "evidence_episode_ids": [
+        198
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_joscha_bach",
+      "intake_group_id": "prefix_joscha_bach_and_john_vervaeke",
+      "match_method": "exact_prefix",
+      "matched_surface": "Joscha Bach and John Vervaeke",
+      "evidence_episode_ids": [
+        287
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_joscha_bach",
+      "intake_group_id": "prefix_joscha_bach_and_karl_friston",
+      "match_method": "exact_prefix",
+      "matched_surface": "Joscha Bach and Karl Friston",
+      "evidence_episode_ids": [
+        190
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_joscha_bach",
+      "intake_group_id": "prefix_michael_levin_and_joscha_bach",
+      "match_method": "exact_prefix",
+      "matched_surface": "Michael Levin and Joscha Bach",
+      "evidence_episode_ids": [
+        246
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_joseph_conlon",
+      "intake_group_id": "prefix_peter_woit_and_joseph_conlon",
+      "match_method": "exact_prefix",
+      "matched_surface": "Peter Woit and Joseph Conlon",
+      "evidence_episode_ids": [
+        98
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_juan_maldacena",
+      "intake_group_id": "prefix_juan_maldacena",
+      "match_method": "exact_prefix",
+      "matched_surface": "Juan Maldacena",
+      "evidence_episode_ids": [
+        10
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_julian_barbour",
+      "intake_group_id": "prefix_julian_barbour",
+      "match_method": "exact_prefix",
+      "matched_surface": "Julian Barbour",
+      "evidence_episode_ids": [
+        72,
+        105
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_karl_friston",
+      "intake_group_id": "prefix_joscha_bach_and_karl_friston",
+      "match_method": "exact_prefix",
+      "matched_surface": "Joscha Bach and Karl Friston",
+      "evidence_episode_ids": [
+        190
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_karl_friston",
+      "intake_group_id": "prefix_karl_friston",
+      "match_method": "exact_prefix",
+      "matched_surface": "Karl Friston",
+      "evidence_episode_ids": [
+        129,
+        278,
+        316
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_karl_friston",
+      "intake_group_id": "prefix_karl_friston_and_anna_lembke",
+      "match_method": "exact_prefix",
+      "matched_surface": "Karl Friston and Anna Lembke",
+      "evidence_episode_ids": [
+        171
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_karl_friston",
+      "intake_group_id": "prefix_michael_levin_and_karl_friston",
+      "match_method": "exact_prefix",
+      "matched_surface": "Michael Levin and Karl Friston",
+      "evidence_episode_ids": [
+        88
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_karl_friston",
+      "intake_group_id": "prefix_michael_levin_karl_friston_chris_fields",
+      "match_method": "exact_prefix",
+      "matched_surface": "Michael Levin, Karl Friston, Chris Fields",
+      "evidence_episode_ids": [
+        262
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_kevin_knuth",
+      "intake_group_id": "prefix_jacques_vallee_and_kevin_knuth",
+      "match_method": "exact_prefix",
+      "matched_surface": "Jacques Vallee and Kevin Knuth",
+      "evidence_episode_ids": [
+        310
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_kevin_knuth",
+      "intake_group_id": "prefix_kevin_knuth",
+      "match_method": "exact_prefix",
+      "matched_surface": "Kevin Knuth",
+      "evidence_episode_ids": [
+        317
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_latham_boyle",
+      "intake_group_id": "prefix_latham_boyle",
+      "match_method": "exact_prefix",
+      "matched_surface": "Latham Boyle",
+      "evidence_episode_ids": [
+        119
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_lawrence_krauss",
+      "intake_group_id": "prefix_lawrence_krauss",
+      "match_method": "exact_prefix",
+      "matched_surface": "Lawrence Krauss",
+      "evidence_episode_ids": [
+        199
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_lee_cronin",
+      "intake_group_id": "prefix_brian_keating_and_lee_cronin",
+      "match_method": "exact_prefix",
+      "matched_surface": "Brian Keating and Lee Cronin",
+      "evidence_episode_ids": [
+        284
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_lee_cronin",
+      "intake_group_id": "prefix_lee_cronin",
+      "match_method": "exact_prefix",
+      "matched_surface": "Lee Cronin",
+      "evidence_episode_ids": [
+        151
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_lee_smolin",
+      "intake_group_id": "prefix_lee_smolin",
+      "match_method": "exact_prefix",
+      "matched_surface": "Lee Smolin",
+      "evidence_episode_ids": [
+        177
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_leo_gura",
+      "intake_group_id": "prefix_leo_gura",
+      "match_method": "exact_prefix",
+      "matched_surface": "Leo Gura",
+      "evidence_episode_ids": [
+        297,
+        300
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_leonard_susskind",
+      "intake_group_id": "prefix_leonard_susskind",
+      "match_method": "exact_prefix",
+      "matched_surface": "Leonard Susskind",
+      "evidence_episode_ids": [
+        109
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_les_stroud",
+      "intake_group_id": "prefix_les_stroud",
+      "match_method": "exact_prefix",
+      "matched_surface": "Les Stroud",
+      "evidence_episode_ids": [
+        293
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_leslie_kean",
+      "intake_group_id": "prefix_leslie_kean",
+      "match_method": "exact_prefix",
+      "matched_surface": "Leslie Kean",
+      "evidence_episode_ids": [
+        227
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_lilian_dindo",
+      "intake_group_id": "prefix_lilian_dindo",
+      "match_method": "exact_prefix",
+      "matched_surface": "Lilian Dindo",
+      "evidence_episode_ids": [
+        46
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_linda_moulton_howe",
+      "intake_group_id": "prefix_linda_moulton_howe",
+      "match_method": "exact_prefix",
+      "matched_surface": "Linda Moulton Howe",
+      "evidence_episode_ids": [
+        285
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_luis_elizondo",
+      "intake_group_id": "prefix_lue_elizondo",
+      "match_method": "verified_alias",
+      "matched_surface": "Lue Elizondo",
+      "evidence_episode_ids": [
+        124,
+        204
+      ],
+      "verification_state": "PROPOSED_ALIAS_OR_SURNAME_LINK"
+    },
+    {
+      "person_id": "person_luis_elizondo",
+      "intake_group_id": "prefix_lue_elizondo_and_sean_cahill",
+      "match_method": "verified_alias",
+      "matched_surface": "Lue Elizondo",
+      "evidence_episode_ids": [
+        273
+      ],
+      "verification_state": "PROPOSED_ALIAS_OR_SURNAME_LINK"
+    },
+    {
+      "person_id": "person_luis_elizondo",
+      "intake_group_id": "prefix_luis_elizondo",
+      "match_method": "exact_prefix",
+      "matched_surface": "Luis Elizondo",
+      "evidence_episode_ids": [
+        292,
+        307
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_luis_elizondo",
+      "intake_group_id": "prefix_the_best_of_lue_elizondo",
+      "match_method": "verified_alias",
+      "matched_surface": "Lue Elizondo",
+      "evidence_episode_ids": [
+        188
+      ],
+      "verification_state": "PROPOSED_ALIAS_OR_SURNAME_LINK"
+    },
+    {
+      "person_id": "person_manolis_kellis",
+      "intake_group_id": "prefix_jacob_barandes_and_manolis_kellis",
+      "match_method": "exact_prefix",
+      "matched_surface": "Jacob Barandes and Manolis Kellis",
+      "evidence_episode_ids": [
+        91
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_manolis_kellis",
+      "intake_group_id": "prefix_manolis_kellis",
+      "match_method": "exact_prefix",
+      "matched_surface": "Manolis Kellis",
+      "evidence_episode_ids": [
+        107
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_maria_violaris",
+      "intake_group_id": "prefix_maria_violaris",
+      "match_method": "exact_prefix",
+      "matched_surface": "Maria Violaris",
+      "evidence_episode_ids": [
+        100
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_mark_bailey",
+      "intake_group_id": "prefix_mark_bailey",
+      "match_method": "exact_prefix",
+      "matched_surface": "Mark Bailey",
+      "evidence_episode_ids": [
+        150
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_martin_willis",
+      "intake_group_id": "prefix_martin_willis_and_curt_jaimungal",
+      "match_method": "exact_prefix",
+      "matched_surface": "Martin Willis and Curt Jaimungal",
+      "evidence_episode_ids": [
+        229
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_marwa",
+      "intake_group_id": "prefix_marwa_and_curt_jaimungal",
+      "match_method": "exact_prefix",
+      "matched_surface": "Marwa and Curt Jaimungal",
+      "evidence_episode_ids": [
+        176
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_matt_o_dowd",
+      "intake_group_id": "prefix_matt_o_dowd",
+      "match_method": "exact_prefix",
+      "matched_surface": "Matt O'Dowd",
+      "evidence_episode_ids": [
+        238
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_matthew_segall",
+      "intake_group_id": "prefix_matthew_segall",
+      "match_method": "exact_prefix",
+      "matched_surface": "Matthew Segall",
+      "evidence_episode_ids": [
+        99
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_matthew_widen",
+      "intake_group_id": "prefix_atlas_matthew_widen_and_curt_jaimungal",
+      "match_method": "exact_prefix",
+      "matched_surface": "Atlas, Matthew Widen, and Curt Jaimungal",
+      "evidence_episode_ids": [
+        302
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_matthieu_pageau",
+      "intake_group_id": "prefix_matthieu_pageau",
+      "match_method": "exact_prefix",
+      "matched_surface": "Matthieu Pageau",
+      "evidence_episode_ids": [
+        51
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_max_tegmark",
+      "intake_group_id": "prefix_max_tegmark",
+      "match_method": "exact_prefix",
+      "matched_surface": "Max Tegmark",
+      "evidence_episode_ids": [
+        50
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_merel_kindt",
+      "intake_group_id": "prefix_merel_kindt",
+      "match_method": "exact_prefix",
+      "matched_surface": "Merel Kindt",
+      "evidence_episode_ids": [
+        220,
+        336
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_michael_levin",
+      "intake_group_id": "prefix_live",
+      "match_method": "surname_panel",
+      "matched_surface": "Levin",
+      "evidence_episode_ids": [
+        236
+      ],
+      "verification_state": "PROPOSED_ALIAS_OR_SURNAME_LINK"
+    },
+    {
+      "person_id": "person_michael_levin",
+      "intake_group_id": "prefix_michael_levin",
+      "match_method": "exact_prefix",
+      "matched_surface": "Michael Levin",
+      "evidence_episode_ids": [
+        81,
+        141,
+        182,
+        290
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_michael_levin",
+      "intake_group_id": "prefix_michael_levin_and_anil_seth",
+      "match_method": "exact_prefix",
+      "matched_surface": "Michael Levin and Anil Seth",
+      "evidence_episode_ids": [
+        45
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_michael_levin",
+      "intake_group_id": "prefix_michael_levin_and_anna_ciaunica",
+      "match_method": "exact_prefix",
+      "matched_surface": "Michael Levin and Anna Ciaunica",
+      "evidence_episode_ids": [
+        93
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_michael_levin",
+      "intake_group_id": "prefix_michael_levin_and_joscha_bach",
+      "match_method": "exact_prefix",
+      "matched_surface": "Michael Levin and Joscha Bach",
+      "evidence_episode_ids": [
+        246
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_michael_levin",
+      "intake_group_id": "prefix_michael_levin_and_karl_friston",
+      "match_method": "exact_prefix",
+      "matched_surface": "Michael Levin and Karl Friston",
+      "evidence_episode_ids": [
+        88
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_michael_levin",
+      "intake_group_id": "prefix_michael_levin_karl_friston_chris_fields",
+      "match_method": "exact_prefix",
+      "matched_surface": "Michael Levin, Karl Friston, Chris Fields",
+      "evidence_episode_ids": [
+        262
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_michael_lynch",
+      "intake_group_id": "prefix_michael_lynch",
+      "match_method": "exact_prefix",
+      "matched_surface": "Michael Lynch",
+      "evidence_episode_ids": [
+        152
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_mick_west",
+      "intake_group_id": "unparsed_rss_261",
+      "match_method": "unparsed_title",
+      "matched_surface": "Eric Weinstein and Mick West Clash Over UFO Evidence and Stigma",
+      "evidence_episode_ids": [
+        261
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_mithuna_yoganathan",
+      "intake_group_id": "prefix_mithuna_yoganathan",
+      "match_method": "exact_prefix",
+      "matched_surface": "Mithuna Yoganathan",
+      "evidence_episode_ids": [
+        324
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_nathan_myhrvold",
+      "intake_group_id": "prefix_nathan_myhrvold",
+      "match_method": "exact_prefix",
+      "matched_surface": "Nathan Myhrvold",
+      "evidence_episode_ids": [
+        330
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_nathaniel_kahn",
+      "intake_group_id": "prefix_nathaniel_kahn",
+      "match_method": "exact_prefix",
+      "matched_surface": "Nathaniel Kahn",
+      "evidence_episode_ids": [
+        162
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_neil_degrasse_tyson",
+      "intake_group_id": "prefix_neil_degrasse_tyson",
+      "match_method": "exact_prefix",
+      "matched_surface": "Neil deGrasse Tyson",
+      "evidence_episode_ids": [
+        211
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_neil_turok",
+      "intake_group_id": "prefix_neil_turok",
+      "match_method": "exact_prefix",
+      "matched_surface": "Neil Turok",
+      "evidence_episode_ids": [
+        6,
+        74,
+        138,
+        142,
+        161
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_nick_lane",
+      "intake_group_id": "prefix_nick_lane",
+      "match_method": "exact_prefix",
+      "matched_surface": "Nick Lane",
+      "evidence_episode_ids": [
+        252
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_nicolas_gisin",
+      "intake_group_id": "prefix_nicolas_gisin",
+      "match_method": "exact_prefix",
+      "matched_surface": "Nicolas Gisin",
+      "evidence_episode_ids": [
+        279
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_nikita_nekrasov",
+      "intake_group_id": "prefix_nikita_nekrasov",
+      "match_method": "exact_prefix",
+      "matched_surface": "Nikita Nekrasov",
+      "evidence_episode_ids": [
+        56
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_nir_lahav",
+      "intake_group_id": "prefix_nir_lahav",
+      "match_method": "exact_prefix",
+      "matched_surface": "Nir Lahav",
+      "evidence_episode_ids": [
+        24
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_noam_chomsky",
+      "intake_group_id": "prefix_noam_chomsky",
+      "match_method": "exact_prefix",
+      "matched_surface": "Noam Chomsky",
+      "evidence_episode_ids": [
+        209,
+        247,
+        271,
+        298,
+        322,
+        341,
+        354
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_noam_chomsky",
+      "intake_group_id": "prefix_noam_chomsky_ama",
+      "match_method": "exact_prefix",
+      "matched_surface": "Noam Chomsky AMA",
+      "evidence_episode_ids": [
+        311
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_noam_chomsky",
+      "intake_group_id": "unparsed_rss_332",
+      "match_method": "unparsed_title",
+      "matched_surface": "Noam Chomsky on Jung, Wittgenstein, and Gödel",
+      "evidence_episode_ids": [
+        332
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_norman_wildberger",
+      "intake_group_id": "prefix_norman_wildberger",
+      "match_method": "exact_prefix",
+      "matched_surface": "Norman Wildberger",
+      "evidence_episode_ids": [
+        280
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_norman_wildberger",
+      "intake_group_id": "prefix_norman_wildberger_and_curt_jaimungal",
+      "match_method": "exact_prefix",
+      "matched_surface": "Norman Wildberger and Curt Jaimungal",
+      "evidence_episode_ids": [
+        276
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_parker",
+      "intake_group_id": "prefix_parker_and_curt_jaimungal",
+      "match_method": "exact_prefix",
+      "matched_surface": "Parker and Curt Jaimungal",
+      "evidence_episode_ids": [
+        180
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_paul_vanderklay",
+      "intake_group_id": "prefix_paul_vanderklay",
+      "match_method": "exact_prefix",
+      "matched_surface": "Paul Vanderklay",
+      "evidence_episode_ids": [
+        345
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_peter_gray",
+      "intake_group_id": "prefix_peter_gray",
+      "match_method": "exact_prefix",
+      "matched_surface": "Peter Gray",
+      "evidence_episode_ids": [
+        264
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_peter_woit",
+      "intake_group_id": "prefix_peter_woit",
+      "match_method": "exact_prefix",
+      "matched_surface": "Peter Woit",
+      "evidence_episode_ids": [
+        125,
+        193
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_peter_woit",
+      "intake_group_id": "prefix_peter_woit_and_joseph_conlon",
+      "match_method": "exact_prefix",
+      "matched_surface": "Peter Woit and Joseph Conlon",
+      "evidence_episode_ids": [
+        98
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_philip_goff",
+      "intake_group_id": "prefix_donald_hoffman_vs_philip_goff",
+      "match_method": "exact_prefix",
+      "matched_surface": "Donald Hoffman vs. Philip Goff",
+      "evidence_episode_ids": [
+        189
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_philip_mannheim",
+      "intake_group_id": "prefix_philip_mannheim",
+      "match_method": "exact_prefix",
+      "matched_surface": "Philip Mannheim",
+      "evidence_episode_ids": [
+        3
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_raphael_liogier",
+      "intake_group_id": "prefix_raphael_liogier",
+      "match_method": "exact_prefix",
+      "matched_surface": "Raphael Liogier",
+      "evidence_episode_ids": [
+        122,
+        135
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_rebecca_goldstein",
+      "intake_group_id": "prefix_rebecca_goldstein",
+      "match_method": "exact_prefix",
+      "matched_surface": "Rebecca Goldstein",
+      "evidence_episode_ids": [
+        351
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_renato_renner",
+      "intake_group_id": "prefix_renato_renner",
+      "match_method": "exact_prefix",
+      "matched_surface": "Renato Renner",
+      "evidence_episode_ids": [
+        18
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_richard_borcherds",
+      "intake_group_id": "prefix_richard_borcherds",
+      "match_method": "exact_prefix",
+      "matched_surface": "Richard Borcherds",
+      "evidence_episode_ids": [
+        323
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_richard_dolan",
+      "intake_group_id": "prefix_richard_dolan",
+      "match_method": "exact_prefix",
+      "matched_surface": "Richard Dolan",
+      "evidence_episode_ids": [
+        167,
+        304
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_richard_dolan",
+      "intake_group_id": "prefix_richard_dolan_and_jeremy_corbell",
+      "match_method": "exact_prefix",
+      "matched_surface": "Richard Dolan and Jeremy Corbell",
+      "evidence_episode_ids": [
+        232
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_richard_haier",
+      "intake_group_id": "prefix_richard_haier",
+      "match_method": "exact_prefix",
+      "matched_surface": "Richard Haier",
+      "evidence_episode_ids": [
+        337
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_richard_wolff",
+      "intake_group_id": "prefix_richard_wolff",
+      "match_method": "exact_prefix",
+      "matched_surface": "Richard Wolff",
+      "evidence_episode_ids": [
+        343
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_rob_spekkens",
+      "intake_group_id": "prefix_rob_spekkens",
+      "match_method": "exact_prefix",
+      "matched_surface": "Rob Spekkens",
+      "evidence_episode_ids": [
+        29
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_robert_breedlove",
+      "intake_group_id": "prefix_robert_breedlove_and_curt_jaimungal",
+      "match_method": "exact_prefix",
+      "matched_surface": "Robert Breedlove and Curt Jaimungal",
+      "evidence_episode_ids": [
+        245
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_robert_lawrence_kuhn",
+      "intake_group_id": "prefix_robert_lawrence_kuhn",
+      "match_method": "exact_prefix",
+      "matched_surface": "Robert Lawrence Kuhn",
+      "evidence_episode_ids": [
+        314
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_robert_sapolsky",
+      "intake_group_id": "prefix_robert_sapolsky",
+      "match_method": "exact_prefix",
+      "matched_surface": "Robert Sapolsky",
+      "evidence_episode_ids": [
+        186
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_robin_hanson",
+      "intake_group_id": "prefix_robin_hanson",
+      "match_method": "exact_prefix",
+      "matched_surface": "Robin Hanson",
+      "evidence_episode_ids": [
+        80
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_roger_penrose",
+      "intake_group_id": "prefix_roger_penrose",
+      "match_method": "exact_prefix",
+      "matched_surface": "Roger Penrose",
+      "evidence_episode_ids": [
+        39,
+        116
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_roger_penrose",
+      "intake_group_id": "prefix_roger_penrose_and_ivette_fuentes",
+      "match_method": "exact_prefix",
+      "matched_surface": "Roger Penrose and Ivette Fuentes",
+      "evidence_episode_ids": [
+        35
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_roman_yampolskiy",
+      "intake_group_id": "prefix_roman_yampolskiy",
+      "match_method": "exact_prefix",
+      "matched_surface": "Roman Yampolskiy",
+      "evidence_episode_ids": [
+        7
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_ross_coulthart",
+      "intake_group_id": "prefix_ross_coulthart",
+      "match_method": "exact_prefix",
+      "matched_surface": "Ross Coulthart",
+      "evidence_episode_ids": [
+        212,
+        295
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_roy_baumeister",
+      "intake_group_id": "prefix_roy_baumeister",
+      "match_method": "exact_prefix",
+      "matched_surface": "Roy Baumeister",
+      "evidence_episode_ids": [
+        166
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_rupert_sheldrake",
+      "intake_group_id": "prefix_rupert_sheldrake",
+      "match_method": "exact_prefix",
+      "matched_surface": "Rupert Sheldrake",
+      "evidence_episode_ids": [
+        110,
+        342
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_rupert_spira",
+      "intake_group_id": "prefix_rupert_spira",
+      "match_method": "exact_prefix",
+      "matched_surface": "Rupert Spira",
+      "evidence_episode_ids": [
+        308
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_ruth_kastner",
+      "intake_group_id": "prefix_ruth_kastner",
+      "match_method": "exact_prefix",
+      "matched_surface": "Ruth Kastner",
+      "evidence_episode_ids": [
+        90
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_sabine_hossenfelder",
+      "intake_group_id": "prefix_sabine_hossenfelder",
+      "match_method": "exact_prefix",
+      "matched_surface": "Sabine Hossenfelder",
+      "evidence_episode_ids": [
+        102,
+        347
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_sabine_hossenfelder",
+      "intake_group_id": "prefix_sabine_hossenfelder_vs_bernardo_kastrup",
+      "match_method": "exact_prefix",
+      "matched_surface": "Sabine Hossenfelder vs. Bernardo Kastrup",
+      "evidence_episode_ids": [
+        277
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_salvatore_pais",
+      "intake_group_id": "prefix_sal_pais_and_stephon_alexander",
+      "match_method": "verified_alias",
+      "matched_surface": "Sal Pais",
+      "evidence_episode_ids": [
+        248
+      ],
+      "verification_state": "PROPOSED_ALIAS_OR_SURNAME_LINK"
+    },
+    {
+      "person_id": "person_salvatore_pais",
+      "intake_group_id": "prefix_salvatore_pais",
+      "match_method": "exact_prefix",
+      "matched_surface": "Salvatore Pais",
+      "evidence_episode_ids": [
+        272
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_sam_vaknin",
+      "intake_group_id": "prefix_sam_vaknin",
+      "match_method": "exact_prefix",
+      "matched_surface": "Sam Vaknin",
+      "evidence_episode_ids": [
+        154
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_sara_walker",
+      "intake_group_id": "prefix_sara_walker",
+      "match_method": "exact_prefix",
+      "matched_surface": "Sara Walker",
+      "evidence_episode_ids": [
+        172
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_scott_aaronson",
+      "intake_group_id": "prefix_david_chalmers_and_scott_aaronson",
+      "match_method": "exact_prefix",
+      "matched_surface": "David Chalmers and Scott Aaronson",
+      "evidence_episode_ids": [
+        159
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_scott_aaronson",
+      "intake_group_id": "prefix_scott_aaronson",
+      "match_method": "exact_prefix",
+      "matched_surface": "Scott Aaronson",
+      "evidence_episode_ids": [
+        164,
+        174,
+        191
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_scott_aaronson",
+      "intake_group_id": "prefix_scott_aaronson_and_jacob_barandes",
+      "match_method": "exact_prefix",
+      "matched_surface": "Scott Aaronson and Jacob Barandes",
+      "evidence_episode_ids": [
+        83
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_sean_cahill",
+      "intake_group_id": "prefix_lue_elizondo_and_sean_cahill",
+      "match_method": "exact_prefix",
+      "matched_surface": "Lue Elizondo and Sean Cahill",
+      "evidence_episode_ids": [
+        273
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_sean_carroll",
+      "intake_group_id": "prefix_sean_carroll",
+      "match_method": "exact_prefix",
+      "matched_surface": "Sean Carroll",
+      "evidence_episode_ids": [
+        132
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_simon_saunders",
+      "intake_group_id": "prefix_simon_saunders",
+      "match_method": "exact_prefix",
+      "matched_surface": "Simon Saunders",
+      "evidence_episode_ids": [
+        5
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_slavoj_zizek",
+      "intake_group_id": "prefix_slavoj_zizek",
+      "match_method": "exact_prefix",
+      "matched_surface": "Slavoj Zizek",
+      "evidence_episode_ids": [
+        11
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_stephen_wolfram",
+      "intake_group_id": "prefix_stephen_wolfram",
+      "match_method": "exact_prefix",
+      "matched_surface": "Stephen Wolfram",
+      "evidence_episode_ids": [
+        49,
+        175,
+        222,
+        309
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_stephen_wolfram",
+      "intake_group_id": "prefix_stephen_wolfram_meets_donald_hoffman",
+      "match_method": "exact_prefix",
+      "matched_surface": "Stephen Wolfram Meets Donald Hoffman",
+      "evidence_episode_ids": [
+        143
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_stephon_alexander",
+      "intake_group_id": "prefix_sal_pais_and_stephon_alexander",
+      "match_method": "exact_prefix",
+      "matched_surface": "Sal Pais and Stephon Alexander",
+      "evidence_episode_ids": [
+        248
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_stephon_alexander",
+      "intake_group_id": "prefix_stephon_alexander",
+      "match_method": "exact_prefix",
+      "matched_surface": "Stephon Alexander",
+      "evidence_episode_ids": [
+        286
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_steven_greer",
+      "intake_group_id": "prefix_steven_greer",
+      "match_method": "exact_prefix",
+      "matched_surface": "Steven Greer",
+      "evidence_episode_ids": [
+        249
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_steven_gubka",
+      "intake_group_id": "prefix_steven_gubka",
+      "match_method": "exact_prefix",
+      "matched_surface": "Steven Gubka",
+      "evidence_episode_ids": [
+        139
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_steven_pinker",
+      "intake_group_id": "prefix_steven_pinker",
+      "match_method": "exact_prefix",
+      "matched_surface": "Steven Pinker",
+      "evidence_episode_ids": [
+        353
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_stuart_hameroff",
+      "intake_group_id": "prefix_stuart_hameroff",
+      "match_method": "exact_prefix",
+      "matched_surface": "Stuart Hameroff",
+      "evidence_episode_ids": [
+        169,
+        325
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_stuart_kauffman",
+      "intake_group_id": "prefix_stuart_kauffman",
+      "match_method": "exact_prefix",
+      "matched_surface": "Stuart Kauffman",
+      "evidence_episode_ids": [
+        31
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_subir_sarkar",
+      "intake_group_id": "prefix_subir_sarkar",
+      "match_method": "exact_prefix",
+      "matched_surface": "Subir Sarkar",
+      "evidence_episode_ids": [
+        30
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_susan_blackmore",
+      "intake_group_id": "prefix_bernardo_kastrup_vs_susan_blackmore",
+      "match_method": "exact_prefix",
+      "matched_surface": "Bernardo Kastrup vs. Susan Blackmore",
+      "evidence_episode_ids": [
+        214
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_susan_schneider",
+      "intake_group_id": "prefix_kastrup_hoffman_and_schneider",
+      "match_method": "surname_panel",
+      "matched_surface": "Schneider",
+      "evidence_episode_ids": [
+        225
+      ],
+      "verification_state": "PROPOSED_ALIAS_OR_SURNAME_LINK"
+    },
+    {
+      "person_id": "person_tammy_peterson",
+      "intake_group_id": "prefix_tammy_peterson",
+      "match_method": "exact_prefix",
+      "matched_surface": "Tammy Peterson",
+      "evidence_episode_ids": [
+        326
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_ted_jacobson",
+      "intake_group_id": "prefix_ted_jacobson",
+      "match_method": "exact_prefix",
+      "matched_surface": "Ted Jacobson",
+      "evidence_episode_ids": [
+        71
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_terrence_deacon",
+      "intake_group_id": "prefix_terrence_deacon",
+      "match_method": "exact_prefix",
+      "matched_surface": "Terrence Deacon",
+      "evidence_episode_ids": [
+        239
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_tevin",
+      "intake_group_id": "prefix_tevin_and_curt_jaimungal",
+      "match_method": "exact_prefix",
+      "matched_surface": "Tevin and Curt Jaimungal",
+      "evidence_episode_ids": [
+        148
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_thomas_campbell",
+      "intake_group_id": "prefix_thomas_campbell",
+      "match_method": "exact_prefix",
+      "matched_surface": "Thomas Campbell",
+      "evidence_episode_ids": [
+        329,
+        331
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_thomas_pike",
+      "intake_group_id": "prefix_thomas_pike",
+      "match_method": "exact_prefix",
+      "matched_surface": "Thomas Pike",
+      "evidence_episode_ids": [
+        153
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_tim_maudlin",
+      "intake_group_id": "prefix_tim_maudlin",
+      "match_method": "exact_prefix",
+      "matched_surface": "Tim Maudlin",
+      "evidence_episode_ids": [
+        250
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_tim_maudlin",
+      "intake_group_id": "prefix_tim_maudlin_and_tim_palmer",
+      "match_method": "exact_prefix",
+      "matched_surface": "Tim Maudlin and Tim Palmer",
+      "evidence_episode_ids": [
+        210
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_tim_maudlin",
+      "intake_group_id": "unparsed_rss_200",
+      "match_method": "unparsed_title",
+      "matched_surface": "Tim Maudlin and Bernardo Kastrup Debate Quantum Realism",
+      "evidence_episode_ids": [
+        200
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_tim_palmer",
+      "intake_group_id": "prefix_tim_maudlin_and_tim_palmer",
+      "match_method": "exact_prefix",
+      "matched_surface": "Tim Maudlin and Tim Palmer",
+      "evidence_episode_ids": [
+        210
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_tim_palmer",
+      "intake_group_id": "prefix_tim_palmer",
+      "match_method": "exact_prefix",
+      "matched_surface": "Tim Palmer",
+      "evidence_episode_ids": [
+        160
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_timothy_williamson",
+      "intake_group_id": "prefix_timothy_williamson",
+      "match_method": "exact_prefix",
+      "matched_surface": "Timothy Williamson",
+      "evidence_episode_ids": [
+        32
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_tom_delonge",
+      "intake_group_id": "prefix_tom_delonge",
+      "match_method": "exact_prefix",
+      "matched_surface": "Tom DeLonge",
+      "evidence_episode_ids": [
+        288
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_travis_walton",
+      "intake_group_id": "prefix_travis_walton",
+      "match_method": "exact_prefix",
+      "matched_surface": "Travis Walton",
+      "evidence_episode_ids": [
+        301
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_tyler_cowen",
+      "intake_group_id": "prefix_tyler_cowen",
+      "match_method": "exact_prefix",
+      "matched_surface": "Tyler Cowen",
+      "evidence_episode_ids": [
+        85
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_urs_schreiber",
+      "intake_group_id": "prefix_urs_schreiber",
+      "match_method": "exact_prefix",
+      "matched_surface": "Urs Schreiber",
+      "evidence_episode_ids": [
+        82
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_vitaly_vanchurin",
+      "intake_group_id": "prefix_vitaly_vanchurin",
+      "match_method": "exact_prefix",
+      "matched_surface": "Vitaly Vanchurin",
+      "evidence_episode_ids": [
+        28
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_wayne_myrvold",
+      "intake_group_id": "prefix_wayne_myrvold",
+      "match_method": "exact_prefix",
+      "matched_surface": "Wayne Myrvold",
+      "evidence_episode_ids": [
+        44
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_william_hahn",
+      "intake_group_id": "prefix_barenholtz_hahn_jaimungal",
+      "match_method": "surname_panel",
+      "matched_surface": "Hahn",
+      "evidence_episode_ids": [
+        79
+      ],
+      "verification_state": "PROPOSED_ALIAS_OR_SURNAME_LINK"
+    },
+    {
+      "person_id": "person_william_hahn",
+      "intake_group_id": "prefix_elan_barenholtz_and_william_hahn",
+      "match_method": "exact_prefix",
+      "matched_surface": "Elan Barenholtz and William Hahn",
+      "evidence_episode_ids": [
+        55
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_william_hahn",
+      "intake_group_id": "prefix_william_hahn",
+      "match_method": "exact_prefix",
+      "matched_surface": "William Hahn",
+      "evidence_episode_ids": [
+        89,
+        113
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_wolfgang_smith",
+      "intake_group_id": "prefix_wolfgang_smith",
+      "match_method": "exact_prefix",
+      "matched_surface": "Wolfgang Smith",
+      "evidence_episode_ids": [
+        218,
+        224
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_wolfgang_smith",
+      "intake_group_id": "prefix_wolfgang_smith_1930_2024",
+      "match_method": "exact_prefix",
+      "matched_surface": "Wolfgang Smith (1930-2024)",
+      "evidence_episode_ids": [
+        134
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_yakir_aharonov",
+      "intake_group_id": "prefix_yakir_aharonov",
+      "match_method": "exact_prefix",
+      "matched_surface": "Yakir Aharonov",
+      "evidence_episode_ids": [
+        42
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_yang_hui_he",
+      "intake_group_id": "prefix_yang_hui_he",
+      "match_method": "exact_prefix",
+      "matched_surface": "Yang-Hui He",
+      "evidence_episode_ids": [
+        67,
+        97
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    },
+    {
+      "person_id": "person_zubin_damania",
+      "intake_group_id": "prefix_zubin_damania",
+      "match_method": "exact_prefix",
+      "matched_surface": "Zubin Damania",
+      "evidence_episode_ids": [
+        303
+      ],
+      "verification_state": "PROPOSED_FROM_FEED_SURFACE"
+    }
+  ],
+  "residual_groups": [
+    {
+      "intake_group_id": "prefix_ciis_and_curt_jaimungal",
+      "raw_title_prefix": "CIIS and Curt Jaimungal",
+      "titles": [
+        "CIIS and Curt Jaimungal: Consciousness, Spacetime, and the Limits of Science"
+      ],
+      "resolution_state": "HOST_ENTITY_FORMAT_OR_IDENTITY_RESOLUTION_REQUIRED",
+      "ranking_state": "NOT_RANKABLE"
+    },
+    {
+      "intake_group_id": "prefix_curt_jaimungal",
+      "raw_title_prefix": "Curt Jaimungal",
+      "titles": [
+        "Curt Jaimungal: Reality Is Bloody Terrifying",
+        "Curt Jaimungal: What is Existence, Exactly?",
+        "Curt Jaimungal: Consciousness, Irreducibility, and the Local to Global",
+        "Curt Jaimungal: Why You Are Brighter Than You Think",
+        "Curt Jaimungal: What Is Infinity, Actually?",
+        "Curt Jaimungal: I'm Worried About Us",
+        "Curt Jaimungal: General Relativity Is NOT Deterministic (Here's the Proof)",
+        "Curt Jaimungal: Why Neil deGrasse Tyson Gets \"Belief\" Wrong",
+        "Curt Jaimungal: The Most Terrifying Philosopher I’ve Encountered",
+        "Curt Jaimungal: Can Physics Explain Its Own Laws?",
+        "Curt Jaimungal: Why I Don't Buy the Simulation Hypothesis (Nor Materialism)",
+        "Curt Jaimungal: Philosophers vs. Physicists",
+        "Curt Jaimungal: What Is Energy, Actually?",
+        "Curt Jaimungal: Explain Like I'm Five? Challenge Accepted.",
+        "Curt Jaimungal: Demystifying Godel's Theorem",
+        "Curt Jaimungal: The Geometric Unity Iceberg",
+        "Curt Jaimungal: Debunking the All Possible Paths Myth",
+        "Curt Jaimungal: The Complete Consciousness Iceberg",
+        "Curt Jaimungal: The String Theory Iceberg Explained",
+        "Curt Jaimungal: Does Anti-Gravity Follow from Quantum Gravity? (Documentary)",
+        "Curt Jaimungal: An Honest Day in the Life of a Science Podcaster",
+        "Curt Jaimungal: Intro to Modern Physics in 13 Minutes",
+        "Curt Jaimungal: Consciousness, Physics, and Podcast Preparation",
+        "Curt Jaimungal: Crash Course in Theoretical Physics",
+        "Curt Jaimungal: Podcasting, UFOs, Consciousness, and Theories of Everything"
+      ],
+      "resolution_state": "HOST_ENTITY_FORMAT_OR_IDENTITY_RESOLUTION_REQUIRED",
+      "ranking_state": "NOT_RANKABLE"
+    },
+    {
+      "intake_group_id": "prefix_curt_jaimungal_ama",
+      "raw_title_prefix": "Curt Jaimungal AMA",
+      "titles": [
+        "Curt Jaimungal AMA: Consciousness, Education, IQ, and Which TOE Is Correct"
+      ],
+      "resolution_state": "HOST_ENTITY_FORMAT_OR_IDENTITY_RESOLUTION_REQUIRED",
+      "ranking_state": "NOT_RANKABLE"
+    },
+    {
+      "intake_group_id": "prefix_curt_jaimungal_reads_plato_s_cave",
+      "raw_title_prefix": "Curt Jaimungal Reads Plato's Cave",
+      "titles": [
+        "Curt Jaimungal Reads Plato's Cave: The Full Story"
+      ],
+      "resolution_state": "HOST_ENTITY_FORMAT_OR_IDENTITY_RESOLUTION_REQUIRED",
+      "ranking_state": "NOT_RANKABLE"
+    },
+    {
+      "intake_group_id": "prefix_demystifysci_hosts",
+      "raw_title_prefix": "DemystifySci Hosts",
+      "titles": [
+        "DemystifySci Hosts: How Scientific Thinking Reshapes Everyday Life"
+      ],
+      "resolution_state": "HOST_ENTITY_FORMAT_OR_IDENTITY_RESOLUTION_REQUIRED",
+      "ranking_state": "NOT_RANKABLE"
+    },
+    {
+      "intake_group_id": "prefix_qbism",
+      "raw_title_prefix": "QBism",
+      "titles": [
+        "QBism: The Radical Theory That Observation Creates Physical Reality"
+      ],
+      "resolution_state": "HOST_ENTITY_FORMAT_OR_IDENTITY_RESOLUTION_REQUIRED",
+      "ranking_state": "NOT_RANKABLE"
+    },
+    {
+      "intake_group_id": "prefix_semf_institute_and_curt_jaimungal",
+      "raw_title_prefix": "SEMF Institute and Curt Jaimungal",
+      "titles": [
+        "SEMF Institute and Curt Jaimungal: Generalist Thinking and Spirituality"
+      ],
+      "resolution_state": "HOST_ENTITY_FORMAT_OR_IDENTITY_RESOLUTION_REQUIRED",
+      "ranking_state": "NOT_RANKABLE"
+    },
+    {
+      "intake_group_id": "prefix_singularity_lab_and_curt_jaimungal",
+      "raw_title_prefix": "Singularity Lab and Curt Jaimungal",
+      "titles": [
+        "Singularity Lab and Curt Jaimungal: UFOs, Consciousness, and God"
+      ],
+      "resolution_state": "HOST_ENTITY_FORMAT_OR_IDENTITY_RESOLUTION_REQUIRED",
+      "ranking_state": "NOT_RANKABLE"
+    },
+    {
+      "intake_group_id": "unparsed_rss_114",
+      "raw_title_prefix": null,
+      "titles": [
+        "Fall Asleep to Physics Theories (10 Hours)"
+      ],
+      "resolution_state": "HOST_ENTITY_FORMAT_OR_IDENTITY_RESOLUTION_REQUIRED",
+      "ranking_state": "NOT_RANKABLE"
+    },
+    {
+      "intake_group_id": "unparsed_rss_123",
+      "raw_title_prefix": null,
+      "titles": [
+        "Fall Asleep to UFO Stories (10 Hours)"
+      ],
+      "resolution_state": "HOST_ENTITY_FORMAT_OR_IDENTITY_RESOLUTION_REQUIRED",
+      "ranking_state": "NOT_RANKABLE"
+    },
+    {
+      "intake_group_id": "unparsed_rss_144",
+      "raw_title_prefix": null,
+      "titles": [
+        "Curt Jaimungal Reveals His Theory of Everything for First Time"
+      ],
+      "resolution_state": "HOST_ENTITY_FORMAT_OR_IDENTITY_RESOLUTION_REQUIRED",
+      "ranking_state": "NOT_RANKABLE"
+    },
+    {
+      "intake_group_id": "unparsed_rss_170",
+      "raw_title_prefix": null,
+      "titles": [
+        "An Egyptologist Interviews Curt Jaimungal on Love, Truth, and God"
+      ],
+      "resolution_state": "HOST_ENTITY_FORMAT_OR_IDENTITY_RESOLUTION_REQUIRED",
+      "ranking_state": "NOT_RANKABLE"
+    },
+    {
+      "intake_group_id": "unparsed_rss_192",
+      "raw_title_prefix": null,
+      "titles": [
+        "Free Will Explained by the World's Top Intellectuals"
+      ],
+      "resolution_state": "HOST_ENTITY_FORMAT_OR_IDENTITY_RESOLUTION_REQUIRED",
+      "ranking_state": "NOT_RANKABLE"
+    },
+    {
+      "intake_group_id": "unparsed_rss_237",
+      "raw_title_prefix": null,
+      "titles": [
+        "I interviewed ChatGPT on Existence and Meaning"
+      ],
+      "resolution_state": "HOST_ENTITY_FORMAT_OR_IDENTITY_RESOLUTION_REQUIRED",
+      "ranking_state": "NOT_RANKABLE"
+    },
+    {
+      "intake_group_id": "unparsed_rss_296",
+      "raw_title_prefix": null,
+      "titles": [
+        "Curt Jaimungal Reads \"Is God a Taoist?\" by Raymond Smullyan"
+      ],
+      "resolution_state": "HOST_ENTITY_FORMAT_OR_IDENTITY_RESOLUTION_REQUIRED",
+      "ranking_state": "NOT_RANKABLE"
+    },
+    {
+      "intake_group_id": "unparsed_rss_33",
+      "raw_title_prefix": null,
+      "titles": [
+        "I’m Giving Away $5,000 to Explain Hard Physics (and AI)"
+      ],
+      "resolution_state": "HOST_ENTITY_FORMAT_OR_IDENTITY_RESOLUTION_REQUIRED",
+      "ranking_state": "NOT_RANKABLE"
+    }
+  ],
+  "program_contributions": [
+    {
+      "person_id": "person_chris_fields",
+      "program_id": "fields_observer_quantum_information",
+      "contribution_role": "CONTRIBUTOR_IDENTITY_MATCH_ONLY",
+      "evidence_refs": [
+        "candidate_registry_v0_3.json#fields_observer_quantum_information"
+      ],
+      "verification_state": "PROVISIONAL_NORMALIZED_NAME_MATCH",
+      "episode_ownership_inference_prohibited": true
+    },
+    {
+      "person_id": "person_chris_langan",
+      "program_id": "low_evidence_model_claimants",
+      "contribution_role": "CONTRIBUTOR_IDENTITY_MATCH_ONLY",
+      "evidence_refs": [
+        "candidate_registry_v0_3.json#low_evidence_model_claimants"
+      ],
+      "verification_state": "PROVISIONAL_NORMALIZED_NAME_MATCH",
+      "episode_ownership_inference_prohibited": true
+    },
+    {
+      "person_id": "person_colin_mclarty",
+      "program_id": "mclarty_weak_foundations",
+      "contribution_role": "CONTRIBUTOR_IDENTITY_MATCH_ONLY",
+      "evidence_refs": [
+        "candidate_registry_v0_3.json#mclarty_weak_foundations"
+      ],
+      "verification_state": "PROVISIONAL_NORMALIZED_NAME_MATCH",
+      "episode_ownership_inference_prohibited": true
+    },
+    {
+      "person_id": "person_david_sloan_wilson",
+      "program_id": "sloan_wilson_multilevel_selection",
+      "contribution_role": "CONTRIBUTOR_IDENTITY_MATCH_ONLY",
+      "evidence_refs": [
+        "candidate_registry_v0_3.json#sloan_wilson_multilevel_selection"
+      ],
+      "verification_state": "PROVISIONAL_NORMALIZED_NAME_MATCH",
+      "episode_ownership_inference_prohibited": true
+    },
+    {
+      "person_id": "person_david_wallace",
+      "program_id": "everett_decoherent_histories",
+      "contribution_role": "CONTRIBUTOR_IDENTITY_MATCH_ONLY",
+      "evidence_refs": [
+        "candidate_registry_v0_3.json#everett_decoherent_histories"
+      ],
+      "verification_state": "PROVISIONAL_NORMALIZED_NAME_MATCH",
+      "episode_ownership_inference_prohibited": true
+    },
+    {
+      "person_id": "person_emily_adlam",
+      "program_id": "all_at_once_retrocausal_models",
+      "contribution_role": "CONTRIBUTOR_IDENTITY_MATCH_ONLY",
+      "evidence_refs": [
+        "candidate_registry_v0_3.json#all_at_once_retrocausal_models"
+      ],
+      "verification_state": "PROVISIONAL_NORMALIZED_NAME_MATCH",
+      "episode_ownership_inference_prohibited": true
+    },
+    {
+      "person_id": "person_eric_weinstein",
+      "program_id": "geometric_unity",
+      "contribution_role": "CONTRIBUTOR_IDENTITY_MATCH_ONLY",
+      "evidence_refs": [
+        "candidate_registry_v0_3.json#geometric_unity"
+      ],
+      "verification_state": "PROVISIONAL_NORMALIZED_NAME_MATCH",
+      "episode_ownership_inference_prohibited": true
+    },
+    {
+      "person_id": "person_felix_finster",
+      "program_id": "causal_fermion_systems",
+      "contribution_role": "CONTRIBUTOR_IDENTITY_MATCH_ONLY",
+      "evidence_refs": [
+        "candidate_registry_v0_3.json#causal_fermion_systems"
+      ],
+      "verification_state": "PROVISIONAL_NORMALIZED_NAME_MATCH",
+      "episode_ownership_inference_prohibited": true
+    },
+    {
+      "person_id": "person_frederic_schuller",
+      "program_id": "constructive_gravity",
+      "contribution_role": "CONTRIBUTOR_IDENTITY_MATCH_ONLY",
+      "evidence_refs": [
+        "candidate_registry_v0_3.json#constructive_gravity"
+      ],
+      "verification_state": "PROVISIONAL_NORMALIZED_NAME_MATCH",
+      "episode_ownership_inference_prohibited": true
+    },
+    {
+      "person_id": "person_gabriele_carcassi",
+      "program_id": "carcassi_assumptions_of_physics",
+      "contribution_role": "CONTRIBUTOR_IDENTITY_MATCH_ONLY",
+      "evidence_refs": [
+        "candidate_registry_v0_3.json#carcassi_assumptions_of_physics"
+      ],
+      "verification_state": "PROVISIONAL_NORMALIZED_NAME_MATCH",
+      "episode_ownership_inference_prohibited": true
+    },
+    {
+      "person_id": "person_ginestra_bianconi",
+      "program_id": "bianconi_entropy_network_geometry",
+      "contribution_role": "CONTRIBUTOR_IDENTITY_MATCH_ONLY",
+      "evidence_refs": [
+        "candidate_registry_v0_3.json#bianconi_entropy_network_geometry"
+      ],
+      "verification_state": "PROVISIONAL_NORMALIZED_NAME_MATCH",
+      "episode_ownership_inference_prohibited": true
+    },
+    {
+      "person_id": "person_graham_priest",
+      "program_id": "priest_paraconsistency",
+      "contribution_role": "CONTRIBUTOR_IDENTITY_MATCH_ONLY",
+      "evidence_refs": [
+        "candidate_registry_v0_3.json#priest_paraconsistency"
+      ],
+      "verification_state": "PROVISIONAL_NORMALIZED_NAME_MATCH",
+      "episode_ownership_inference_prohibited": true
+    },
+    {
+      "person_id": "person_ivette_fuentes",
+      "program_id": "fuentes_experimental_quantum_gravity",
+      "contribution_role": "CONTRIBUTOR_IDENTITY_MATCH_ONLY",
+      "evidence_refs": [
+        "candidate_registry_v0_3.json#fuentes_experimental_quantum_gravity"
+      ],
+      "verification_state": "PROVISIONAL_NORMALIZED_NAME_MATCH",
+      "episode_ownership_inference_prohibited": true
+    },
+    {
+      "person_id": "person_jacob_barandes",
+      "program_id": "quantum_foundations_without_wavefunction",
+      "contribution_role": "CONTRIBUTOR_IDENTITY_MATCH_ONLY",
+      "evidence_refs": [
+        "candidate_registry_v0_3.json#quantum_foundations_without_wavefunction"
+      ],
+      "verification_state": "PROVISIONAL_NORMALIZED_NAME_MATCH",
+      "episode_ownership_inference_prohibited": true
+    },
+    {
+      "person_id": "person_jb_manchak",
+      "program_id": "manchak_global_underdetermination",
+      "contribution_role": "CONTRIBUTOR_IDENTITY_MATCH_ONLY",
+      "evidence_refs": [
+        "candidate_registry_v0_3.json#manchak_global_underdetermination"
+      ],
+      "verification_state": "PROVISIONAL_NORMALIZED_NAME_MATCH",
+      "episode_ownership_inference_prohibited": true
+    },
+    {
+      "person_id": "person_john_donoghue",
+      "program_id": "donoghue_eft_gravity",
+      "contribution_role": "CONTRIBUTOR_IDENTITY_MATCH_ONLY",
+      "evidence_refs": [
+        "candidate_registry_v0_3.json#donoghue_eft_gravity"
+      ],
+      "verification_state": "PROVISIONAL_NORMALIZED_NAME_MATCH",
+      "episode_ownership_inference_prohibited": true
+    },
+    {
+      "person_id": "person_john_norton",
+      "program_id": "norton_causation_entropy_critique",
+      "contribution_role": "CONTRIBUTOR_IDENTITY_MATCH_ONLY",
+      "evidence_refs": [
+        "candidate_registry_v0_3.json#norton_causation_entropy_critique"
+      ],
+      "verification_state": "PROVISIONAL_NORMALIZED_NAME_MATCH",
+      "episode_ownership_inference_prohibited": true
+    },
+    {
+      "person_id": "person_jonathan_gorard",
+      "program_id": "wolfram_multiway_physics",
+      "contribution_role": "CONTRIBUTOR_IDENTITY_MATCH_ONLY",
+      "evidence_refs": [
+        "candidate_registry_v0_3.json#wolfram_multiway_physics"
+      ],
+      "verification_state": "PROVISIONAL_NORMALIZED_NAME_MATCH",
+      "episode_ownership_inference_prohibited": true
+    },
+    {
+      "person_id": "person_jonathan_oppenheim",
+      "program_id": "post_quantum_classical_gravity",
+      "contribution_role": "CONTRIBUTOR_IDENTITY_MATCH_ONLY",
+      "evidence_refs": [
+        "candidate_registry_v0_3.json#post_quantum_classical_gravity"
+      ],
+      "verification_state": "PROVISIONAL_NORMALIZED_NAME_MATCH",
+      "episode_ownership_inference_prohibited": true
+    },
+    {
+      "person_id": "person_karl_friston",
+      "program_id": "friston_fep",
+      "contribution_role": "CONTRIBUTOR_IDENTITY_MATCH_ONLY",
+      "evidence_refs": [
+        "candidate_registry_v0_3.json#friston_fep"
+      ],
+      "verification_state": "PROVISIONAL_NORMALIZED_NAME_MATCH",
+      "episode_ownership_inference_prohibited": true
+    },
+    {
+      "person_id": "person_kevin_knuth",
+      "program_id": "knuth_influence_theory",
+      "contribution_role": "CONTRIBUTOR_IDENTITY_MATCH_ONLY",
+      "evidence_refs": [
+        "candidate_registry_v0_3.json#knuth_influence_theory"
+      ],
+      "verification_state": "PROVISIONAL_NORMALIZED_NAME_MATCH",
+      "episode_ownership_inference_prohibited": true
+    },
+    {
+      "person_id": "person_lee_cronin",
+      "program_id": "assembly_theory",
+      "contribution_role": "CONTRIBUTOR_IDENTITY_MATCH_ONLY",
+      "evidence_refs": [
+        "candidate_registry_v0_3.json#assembly_theory"
+      ],
+      "verification_state": "PROVISIONAL_NORMALIZED_NAME_MATCH",
+      "episode_ownership_inference_prohibited": true
+    },
+    {
+      "person_id": "person_max_tegmark",
+      "program_id": "tegmark_mathematical_universe",
+      "contribution_role": "CONTRIBUTOR_IDENTITY_MATCH_ONLY",
+      "evidence_refs": [
+        "candidate_registry_v0_3.json#tegmark_mathematical_universe"
+      ],
+      "verification_state": "PROVISIONAL_NORMALIZED_NAME_MATCH",
+      "episode_ownership_inference_prohibited": true
+    },
+    {
+      "person_id": "person_michael_levin",
+      "program_id": "levin_morphogenesis",
+      "contribution_role": "CONTRIBUTOR_IDENTITY_MATCH_ONLY",
+      "evidence_refs": [
+        "candidate_registry_v0_3.json#levin_morphogenesis"
+      ],
+      "verification_state": "PROVISIONAL_NORMALIZED_NAME_MATCH",
+      "episode_ownership_inference_prohibited": true
+    },
+    {
+      "person_id": "person_nick_lane",
+      "program_id": "nick_lane_origin_of_life",
+      "contribution_role": "CONTRIBUTOR_IDENTITY_MATCH_ONLY",
+      "evidence_refs": [
+        "candidate_registry_v0_3.json#nick_lane_origin_of_life"
+      ],
+      "verification_state": "PROVISIONAL_NORMALIZED_NAME_MATCH",
+      "episode_ownership_inference_prohibited": true
+    },
+    {
+      "person_id": "person_nikita_nekrasov",
+      "program_id": "nekrasov_exact_qft",
+      "contribution_role": "CONTRIBUTOR_IDENTITY_MATCH_ONLY",
+      "evidence_refs": [
+        "candidate_registry_v0_3.json#nekrasov_exact_qft"
+      ],
+      "verification_state": "PROVISIONAL_NORMALIZED_NAME_MATCH",
+      "episode_ownership_inference_prohibited": true
+    },
+    {
+      "person_id": "person_rob_spekkens",
+      "program_id": "spekkens_epistemic_restriction",
+      "contribution_role": "CONTRIBUTOR_IDENTITY_MATCH_ONLY",
+      "evidence_refs": [
+        "candidate_registry_v0_3.json#spekkens_epistemic_restriction"
+      ],
+      "verification_state": "PROVISIONAL_NORMALIZED_NAME_MATCH",
+      "episode_ownership_inference_prohibited": true
+    },
+    {
+      "person_id": "person_rupert_sheldrake",
+      "program_id": "low_evidence_model_claimants",
+      "contribution_role": "CONTRIBUTOR_IDENTITY_MATCH_ONLY",
+      "evidence_refs": [
+        "candidate_registry_v0_3.json#low_evidence_model_claimants"
+      ],
+      "verification_state": "PROVISIONAL_NORMALIZED_NAME_MATCH",
+      "episode_ownership_inference_prohibited": true
+    },
+    {
+      "person_id": "person_ruth_kastner",
+      "program_id": "all_at_once_retrocausal_models",
+      "contribution_role": "CONTRIBUTOR_IDENTITY_MATCH_ONLY",
+      "evidence_refs": [
+        "candidate_registry_v0_3.json#all_at_once_retrocausal_models"
+      ],
+      "verification_state": "PROVISIONAL_NORMALIZED_NAME_MATCH",
+      "episode_ownership_inference_prohibited": true
+    },
+    {
+      "person_id": "person_sara_walker",
+      "program_id": "assembly_theory",
+      "contribution_role": "CONTRIBUTOR_IDENTITY_MATCH_ONLY",
+      "evidence_refs": [
+        "candidate_registry_v0_3.json#assembly_theory"
+      ],
+      "verification_state": "PROVISIONAL_NORMALIZED_NAME_MATCH",
+      "episode_ownership_inference_prohibited": true
+    },
+    {
+      "person_id": "person_scott_aaronson",
+      "program_id": "aaronson_complexity_limits",
+      "contribution_role": "CONTRIBUTOR_IDENTITY_MATCH_ONLY",
+      "evidence_refs": [
+        "candidate_registry_v0_3.json#aaronson_complexity_limits"
+      ],
+      "verification_state": "PROVISIONAL_NORMALIZED_NAME_MATCH",
+      "episode_ownership_inference_prohibited": true
+    },
+    {
+      "person_id": "person_simon_saunders",
+      "program_id": "everett_decoherent_histories",
+      "contribution_role": "CONTRIBUTOR_IDENTITY_MATCH_ONLY",
+      "evidence_refs": [
+        "candidate_registry_v0_3.json#everett_decoherent_histories"
+      ],
+      "verification_state": "PROVISIONAL_NORMALIZED_NAME_MATCH",
+      "episode_ownership_inference_prohibited": true
+    },
+    {
+      "person_id": "person_stephen_wolfram",
+      "program_id": "wolfram_multiway_physics",
+      "contribution_role": "CONTRIBUTOR_IDENTITY_MATCH_ONLY",
+      "evidence_refs": [
+        "candidate_registry_v0_3.json#wolfram_multiway_physics"
+      ],
+      "verification_state": "PROVISIONAL_NORMALIZED_NAME_MATCH",
+      "episode_ownership_inference_prohibited": true
+    },
+    {
+      "person_id": "person_stuart_kauffman",
+      "program_id": "kauffman_open_ended_evolution",
+      "contribution_role": "CONTRIBUTOR_IDENTITY_MATCH_ONLY",
+      "evidence_refs": [
+        "candidate_registry_v0_3.json#kauffman_open_ended_evolution"
+      ],
+      "verification_state": "PROVISIONAL_NORMALIZED_NAME_MATCH",
+      "episode_ownership_inference_prohibited": true
+    },
+    {
+      "person_id": "person_terrence_deacon",
+      "program_id": "deacon_teleodynamics",
+      "contribution_role": "CONTRIBUTOR_IDENTITY_MATCH_ONLY",
+      "evidence_refs": [
+        "candidate_registry_v0_3.json#deacon_teleodynamics"
+      ],
+      "verification_state": "PROVISIONAL_NORMALIZED_NAME_MATCH",
+      "episode_ownership_inference_prohibited": true
+    },
+    {
+      "person_id": "person_thomas_campbell",
+      "program_id": "low_evidence_model_claimants",
+      "contribution_role": "CONTRIBUTOR_IDENTITY_MATCH_ONLY",
+      "evidence_refs": [
+        "candidate_registry_v0_3.json#low_evidence_model_claimants"
+      ],
+      "verification_state": "PROVISIONAL_NORMALIZED_NAME_MATCH",
+      "episode_ownership_inference_prohibited": true
+    },
+    {
+      "person_id": "person_tim_maudlin",
+      "program_id": "maudlin_bohmian_realism",
+      "contribution_role": "CONTRIBUTOR_IDENTITY_MATCH_ONLY",
+      "evidence_refs": [
+        "candidate_registry_v0_3.json#maudlin_bohmian_realism"
+      ],
+      "verification_state": "PROVISIONAL_NORMALIZED_NAME_MATCH",
+      "episode_ownership_inference_prohibited": true
+    },
+    {
+      "person_id": "person_urs_schreiber",
+      "program_id": "schreiber_higher_geometry",
+      "contribution_role": "CONTRIBUTOR_IDENTITY_MATCH_ONLY",
+      "evidence_refs": [
+        "candidate_registry_v0_3.json#schreiber_higher_geometry"
+      ],
+      "verification_state": "PROVISIONAL_NORMALIZED_NAME_MATCH",
+      "episode_ownership_inference_prohibited": true
+    },
+    {
+      "person_id": "person_yakir_aharonov",
+      "program_id": "all_at_once_retrocausal_models",
+      "contribution_role": "CONTRIBUTOR_IDENTITY_MATCH_ONLY",
+      "evidence_refs": [
+        "candidate_registry_v0_3.json#all_at_once_retrocausal_models"
+      ],
+      "verification_state": "PROVISIONAL_NORMALIZED_NAME_MATCH",
+      "episode_ownership_inference_prohibited": true
+    }
+  ],
+  "administrative_batching": {
+    "method": "PUBLIC_HASH_ORDER_ROUND_ROBIN_WITH_ONE_RESIDUAL_UNIT_PER_BATCH",
+    "hash_preimage_template": "channel_2026_07_13|crosswalk_v1|<unit_id>",
+    "scientific_priority_conveyed": false,
+    "cohort_must_close_before_ranking": true,
+    "batches": [
+      {
+        "batch_id": "batch_01",
+        "scientific_priority": null,
+        "administrative_units": [
+          "identity:person_anand_vaidya",
+          "identity:person_john_greenewald",
+          "identity:person_wayne_myrvold",
+          "residual:prefix_curt_jaimungal_reads_plato_s_cave",
+          "identity:person_william_hahn",
+          "identity:person_ross_coulthart",
+          "identity:person_latham_boyle",
+          "identity:person_eric_weinstein",
+          "identity:person_douglas_lain",
+          "identity:person_renato_renner",
+          "identity:person_marwa",
+          "identity:person_aephraim_steinberg",
+          "identity:person_rupert_sheldrake",
+          "identity:person_vitaly_vanchurin",
+          "identity:person_chiara_marletto"
+        ],
+        "unit_count": 15
+      },
+      {
+        "batch_id": "batch_02",
+        "scientific_priority": null,
+        "administrative_units": [
+          "identity:person_john_donoghue",
+          "identity:person_iain_mcgilchrist",
+          "identity:person_neil_turok",
+          "residual:prefix_curt_jaimungal",
+          "identity:person_joscha_bach",
+          "identity:person_roman_yampolskiy",
+          "identity:person_claudia_de_rham",
+          "identity:person_tevin",
+          "identity:person_jonathan_gorard",
+          "identity:person_michael_lynch",
+          "identity:person_leo_gura",
+          "identity:person_stuart_kauffman",
+          "identity:person_paul_vanderklay",
+          "identity:person_les_stroud",
+          "identity:person_jonathan_oppenheim"
+        ],
+        "unit_count": 15
+      },
+      {
+        "batch_id": "batch_03",
+        "scientific_priority": null,
+        "administrative_units": [
+          "identity:person_edward_frenkel",
+          "identity:person_jacques_vallee",
+          "identity:person_hartmut_neven",
+          "residual:prefix_ciis_and_curt_jaimungal",
+          "identity:person_diana_pasulka",
+          "identity:person_garrett_lisi",
+          "identity:person_nir_lahav",
+          "identity:person_rupert_spira",
+          "identity:person_ted_jacobson",
+          "identity:person_david_wolpert",
+          "identity:person_karl_friston",
+          "identity:person_gen_zed",
+          "identity:person_james_robert_brown",
+          "identity:person_jennifer_nagel",
+          "identity:person_jeffrey_mishlove"
+        ],
+        "unit_count": 15
+      },
+      {
+        "batch_id": "batch_04",
+        "scientific_priority": null,
+        "administrative_units": [
+          "identity:person_matthew_widen",
+          "identity:person_salvatore_pais",
+          "identity:person_juan_maldacena",
+          "identity:person_richard_dolan",
+          "residual:unparsed_rss_192",
+          "identity:person_matthew_segall",
+          "identity:person_robert_breedlove",
+          "identity:person_norman_wildberger",
+          "identity:person_urs_schreiber",
+          "identity:person_joseph_conlon",
+          "identity:person_steven_greer",
+          "identity:person_nikita_nekrasov",
+          "identity:person_maria_violaris",
+          "identity:person_manolis_kellis",
+          "identity:person_david_deutsch"
+        ],
+        "unit_count": 15
+      },
+      {
+        "batch_id": "batch_05",
+        "scientific_priority": null,
+        "administrative_units": [
+          "identity:person_merel_kindt",
+          "identity:person_stuart_hameroff",
+          "identity:person_stephen_wolfram",
+          "identity:person_ginestra_bianconi",
+          "identity:person_andres_gomez_emilsson",
+          "identity:person_terrence_deacon",
+          "identity:person_harvey_friedman",
+          "residual:unparsed_rss_33",
+          "identity:person_artisan_tony",
+          "identity:person_thomas_pike",
+          "identity:person_emily_riehl",
+          "identity:person_slavoj_zizek",
+          "identity:person_nathan_myhrvold",
+          "identity:person_stephon_alexander",
+          "identity:person_thomas_campbell"
+        ],
+        "unit_count": 15
+      },
+      {
+        "batch_id": "batch_06",
+        "scientific_priority": null,
+        "administrative_units": [
+          "identity:person_richard_borcherds",
+          "identity:person_atlas",
+          "identity:person_philip_mannheim",
+          "identity:person_gerard_t_hooft",
+          "identity:person_brian_keating",
+          "identity:person_ben_goertzel",
+          "identity:person_jonathan_pageau",
+          "identity:person_harry_collins",
+          "residual:prefix_curt_jaimungal_ama",
+          "identity:person_claudia_passos",
+          "identity:person_roger_penrose",
+          "identity:person_sean_carroll",
+          "identity:person_julian_barbour",
+          "identity:person_ruth_kastner",
+          "identity:person_david_bentley_hart"
+        ],
+        "unit_count": 15
+      },
+      {
+        "batch_id": "batch_07",
+        "scientific_priority": null,
+        "administrative_units": [
+          "identity:person_john_vervaeke",
+          "identity:person_avi_loeb",
+          "identity:person_neil_degrasse_tyson",
+          "identity:person_martin_willis",
+          "identity:person_lee_cronin",
+          "identity:person_david_hand",
+          "identity:person_travis_walton",
+          "identity:person_bryan_johnson",
+          "residual:unparsed_rss_237",
+          "identity:person_garrett_mindt",
+          "identity:person_max_tegmark",
+          "identity:person_anna_lembke",
+          "identity:person_mark_bailey",
+          "identity:person_tom_delonge",
+          "identity:person_janna_levin"
+        ],
+        "unit_count": 15
+      },
+      {
+        "batch_id": "batch_08",
+        "scientific_priority": null,
+        "administrative_units": [
+          "identity:person_nicolas_gisin",
+          "identity:person_david_kaiser",
+          "identity:person_colm_kelleher",
+          "identity:person_chloe_valdary",
+          "identity:person_mithuna_yoganathan",
+          "identity:person_carissa_veliz",
+          "identity:person_ivette_fuentes",
+          "identity:person_david_chalmers",
+          "residual:unparsed_rss_144",
+          "identity:person_robin_hanson",
+          "identity:person_eva_miranda",
+          "identity:person_garry_nolan",
+          "identity:person_graham_priest",
+          "identity:person_greg_kondrak",
+          "identity:person_george_ellis"
+        ],
+        "unit_count": 15
+      },
+      {
+        "batch_id": "batch_09",
+        "scientific_priority": null,
+        "administrative_units": [
+          "identity:person_felix_finster",
+          "identity:person_david_bessis",
+          "identity:person_jenann_ismael",
+          "identity:person_anthony_metivier",
+          "identity:person_tim_palmer",
+          "identity:person_lee_smolin",
+          "identity:person_susan_schneider",
+          "identity:person_wolfgang_smith",
+          "identity:person_jb_manchak",
+          "residual:prefix_singularity_lab_and_curt_jaimungal",
+          "identity:person_fidias",
+          "identity:person_alfonso_martinez_arias",
+          "identity:person_gregory_chaitin",
+          "identity:person_robert_lawrence_kuhn",
+          "identity:person_elan_barenholtz"
+        ],
+        "unit_count": 15
+      },
+      {
+        "batch_id": "batch_10",
+        "scientific_priority": null,
+        "administrative_units": [
+          "identity:person_anil_seth",
+          "identity:person_peter_gray",
+          "identity:person_leonard_susskind",
+          "identity:person_john_moffat",
+          "identity:person_carlos_farias",
+          "identity:person_erik_verlinde",
+          "identity:person_rebecca_goldstein",
+          "identity:person_coleman_hughes",
+          "identity:person_chris_langan",
+          "residual:prefix_semf_institute_and_curt_jaimungal",
+          "identity:person_donald_hoffman",
+          "identity:person_carlo_rovelli",
+          "identity:person_kevin_knuth",
+          "identity:person_parker",
+          "identity:person_scott_aaronson"
+        ],
+        "unit_count": 15
+      },
+      {
+        "batch_id": "batch_11",
+        "scientific_priority": null,
+        "administrative_units": [
+          "identity:person_zubin_damania",
+          "identity:person_chris_fields",
+          "identity:person_steven_pinker",
+          "identity:person_simon_saunders",
+          "identity:person_philip_goff",
+          "identity:person_robert_sapolsky",
+          "identity:person_jonathan_blow",
+          "identity:person_sam_vaknin",
+          "identity:person_tim_maudlin",
+          "identity:person_gabriele_carcassi",
+          "residual:prefix_qbism",
+          "identity:person_jacob_barandes",
+          "identity:person_matt_o_dowd",
+          "identity:person_eddy_chen"
+        ],
+        "unit_count": 14
+      },
+      {
+        "batch_id": "batch_12",
+        "scientific_priority": null,
+        "administrative_units": [
+          "identity:person_alex_honnold",
+          "identity:person_dennis_mckenna",
+          "identity:person_steven_gubka",
+          "identity:person_lawrence_krauss",
+          "identity:person_a_h_almaas",
+          "identity:person_cumrun_vafa",
+          "identity:person_aaron_schurger",
+          "identity:person_sara_walker",
+          "identity:person_carlos_montemayor",
+          "identity:person_fay_dowker",
+          "residual:prefix_demystifysci_hosts",
+          "identity:person_luis_elizondo",
+          "identity:person_daniel_schmachtenberger",
+          "identity:person_noam_chomsky"
+        ],
+        "unit_count": 14
+      },
+      {
+        "batch_id": "batch_13",
+        "scientific_priority": null,
+        "administrative_units": [
+          "identity:person_rob_spekkens",
+          "identity:person_nick_lane",
+          "identity:person_jeremy_corbell",
+          "identity:person_frederic_schuller",
+          "identity:person_avshalom_elitzur",
+          "identity:person_emily_adlam",
+          "identity:person_john_norton",
+          "identity:person_george_musser",
+          "identity:person_yakir_aharonov",
+          "identity:person_matthieu_pageau",
+          "identity:person_geoffrey_hinton",
+          "residual:unparsed_rss_170",
+          "identity:person_jesse_michels",
+          "identity:person_timothy_williamson"
+        ],
+        "unit_count": 14
+      },
+      {
+        "batch_id": "batch_14",
+        "scientific_priority": null,
+        "administrative_units": [
+          "identity:person_richard_haier",
+          "identity:person_abhay_ashtekar",
+          "identity:person_leslie_kean",
+          "identity:person_susan_blackmore",
+          "identity:person_david_robson",
+          "identity:person_barry_loewer",
+          "identity:person_sabine_hossenfelder",
+          "identity:person_david_sloan_wilson",
+          "identity:person_dick_bond",
+          "identity:person_denis_noble",
+          "identity:person_brian_greene",
+          "identity:person_daniel_dennett",
+          "residual:unparsed_rss_114",
+          "identity:person_michael_levin"
+        ],
+        "unit_count": 14
+      },
+      {
+        "batch_id": "batch_15",
+        "scientific_priority": null,
+        "administrative_units": [
+          "identity:person_tyler_cowen",
+          "identity:person_linda_moulton_howe",
+          "identity:person_roy_baumeister",
+          "identity:person_subir_sarkar",
+          "identity:person_lilian_dindo",
+          "identity:person_tammy_peterson",
+          "identity:person_yang_hui_he",
+          "identity:person_jenny_wagner",
+          "identity:person_mick_west",
+          "identity:person_jordan_peterson",
+          "identity:person_edward_stuart",
+          "identity:person_anna_ciaunica",
+          "residual:unparsed_rss_123",
+          "identity:person_bernardo_kastrup"
+        ],
+        "unit_count": 14
+      },
+      {
+        "batch_id": "batch_16",
+        "scientific_priority": null,
+        "administrative_units": [
+          "identity:person_colin_mclarty",
+          "identity:person_bas_van_fraassen",
+          "identity:person_david_wallace",
+          "identity:person_peter_woit",
+          "identity:person_dror_bar_natan",
+          "identity:person_nathaniel_kahn",
+          "identity:person_george_knapp",
+          "identity:person_frank_yang",
+          "identity:person_alex_tsakiris",
+          "identity:person_sean_cahill",
+          "identity:person_raphael_liogier",
+          "identity:person_chris_lehto",
+          "identity:person_richard_wolff",
+          "residual:unparsed_rss_296"
+        ],
+        "unit_count": 14
+      }
+    ]
+  },
+  "known_identity_risks": [
+    "All identities remain provisional pending source verification.",
+    "Claudia Passos requires a verified full surname form.",
+    "Mononyms and handles such as Atlas, Parker, Marwa, Tevin, Fidias, Gen Zed, and Artisan Tony require identity resolution.",
+    "Title mentions may describe a subject rather than an appearance.",
+    "The Live episode leaves approximately forty participants unnamed.",
+    "DemystifySci hosts, the QBism guest, and the Egyptologist interviewer remain unresolved."
+  ]
+}

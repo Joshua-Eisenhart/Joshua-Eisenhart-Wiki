@@ -1,0 +1,750 @@
+{
+  "schema_version": "native-source-cards/0.1",
+  "status": "PRIMARY_SOURCE_LEADS_COLLECTED_NATIVE_DOSSIERS_NOT_LOCKED_UNRANKED",
+  "cards": [
+    {
+      "program_id": "england_dissipative_adaptation",
+      "program_name": "Dissipative adaptation and drive-specific self-organization",
+      "program_version": "SELF_REPLICATION_BOUND_2013__DRIVEN_ADAPTATION_2014__LOW_RATTLING_2021_VERSION_SPLIT_REQUIRED",
+      "contributors": [
+        "Jeremy L. England",
+        "Nikolai Perunov",
+        "Robert Marsland III",
+        "Hridesh Kedia",
+        "Deng Pan",
+        "Jean-Jacques Slotine",
+        "Pavel Chvykov",
+        "Thomas A. Berrueta",
+        "Akash Vardhan",
+        "William Savoie",
+        "Alexander Samland",
+        "Todd D. Murphey",
+        "Kurt Wiesenfeld",
+        "Daniel I. Goldman"
+      ],
+      "primary_sources": [
+        "https://arxiv.org/abs/1209.1179",
+        "https://arxiv.org/abs/1412.1875",
+        "https://arxiv.org/abs/1908.09332",
+        "https://arxiv.org/abs/2101.00683"
+      ],
+      "source_native_claim": "Under explicit stochastic-thermodynamic conditions, finite-time driven transitions are constrained by work, dissipation, internal entropy, and reverse kinetics; driven multistable systems can preferentially occupy configurations unusually matched to the drive, while the later low-rattling version predicts organization into configurations with reduced drive-induced fluctuations.",
+      "native_primitives_dynamics": "Microscopically reversible stochastic matter coupled to a heat bath; microstates and declared macrostates; external driving protocol; work, heat, entropy, forward and reverse transition probabilities, metastability, and configuration-dependent response or noise. Later mechanical and robotic versions study attractor selection under repeated forcing.",
+      "strongest_result": "Exact conditional fluctuation-relation identities under the installed assumptions, numerical drive-specific attractors in disordered bistable-spring networks, and experimental support for low-rattling predictions in a robotic active collective. These results do not establish that dissipation alone explains life or origins, and the later low-rattling and low-work behavior blocks the slogan that adaptation simply maximizes dissipation.",
+      "assumptions_limits": "Requires a specified bath, drive, coarse-graining, accessible transitions, and stochastic reversibility conditions. It does not derive heredity or Darwinian selection. Macrostate definitions and reverse kinetics carry explanatory load, and the self-replication bound, driven-adaptation identity, and low-rattling principle are not one interchangeable claim.",
+      "comparison_surface_ids": [
+        "plural_attractors_and_universality",
+        "nested_entropic_geometry_flux_and_chirality",
+        "life_evolution_agency_and_origins"
+      ],
+      "roles": [
+        "donor",
+        "empirical_testbed",
+        "competitor"
+      ],
+      "what_offers_joshua": "Source-native nonequilibrium identities, physical multistable fixtures, and measurable definitions of drive-specificity and rattling.",
+      "joshua_hypothesis_only": "A receipt-controlled plural-basin tournament might determine which dissipation, work-absorption, or rattling statistic predicts recurrence without choosing the favorable attractor or coarse-graining after the fact.",
+      "decisive_test": "Blind the forcing protocol on the same robotic or mechanical multistable systems and compare the native low-rattling and work models with Joshua metrics, sham transplants, and ablations on held-out drivers and representation changes. If Joshua adds no predictive accuracy, robustness, or compression, there is no repair.",
+      "unresolved": [
+        "The three native versions require separate baseline reproductions.",
+        "No source-native warrant was found for promoting the bounded physical results to a universal origin-of-life mechanism."
+      ],
+      "ranking_eligible": false
+    },
+    {
+      "program_id": "kolchinsky_replicator_thermodynamics",
+      "program_name": "Thermodynamics of molecular replicators and critique of the growth-decay reading",
+      "program_version": "CONSTRUCTIVE_BOUND_2021__ENGLAND_CRITIQUE_2024",
+      "contributors": [
+        "Artemy Kolchinsky"
+      ],
+      "primary_sources": [
+        "https://arxiv.org/abs/2112.02809",
+        "https://arxiv.org/abs/2404.01130",
+        "https://arxiv.org/abs/1209.1179"
+      ],
+      "source_native_claim": "Thermodynamically consistent molecular replicators obey constructive bounds relating fitness, replication, selection, and dissipated Gibbs free energy, but there is no universal England-style relation joining per-capita growth to an independently specified decay rate: reverse replication back to reactants and degradation to waste are different reaction channels.",
+      "native_primitives_dynamics": "Autocatalytic chemical reactions and chemostats; concentrations, growth and fitness, selection coefficients, forward and reverse channels, waste-decay channels, Gibbs free-energy changes, and local detailed balance or thermodynamic consistency.",
+      "strongest_result": "A constructive thermodynamic bound on molecular-replicator selection and a theorem-level counteranalysis showing why the common growth-decay interpretation of England's 2013 bound cannot be universal. This is a mathematical and reaction-semantic result, not a comprehensive model of life.",
+      "assumptions_limits": "Applies to declared molecular reaction networks and explicit channel semantics. It does not refute England's entire driven-adaptation program or all nonequilibrium selection. The target paper and the critical paper must remain separate source-native baselines.",
+      "comparison_surface_ids": [
+        "life_evolution_agency_and_origins",
+        "formal_tools_limits_and_falsifiers",
+        "admission_mss_and_purgatory"
+      ],
+      "roles": [
+        "critic_falsifier",
+        "mathematical_tool",
+        "donor"
+      ],
+      "what_offers_joshua": "A sharp guard against conflating biological decay, chemical degradation, and the reverse of replication, plus explicit thermodynamic selection bounds.",
+      "joshua_hypothesis_only": "Ratchet receipts might enforce reaction-channel semantics and retain invalid universal readings in Purgatory while testing broader alternatives.",
+      "decisive_test": "Construct a thermodynamically consistent network in which one replicator has independent per-capita growth and exact reverse-to-reactant decay satisfying the claimed universal relation, or generalize Kolchinsky's no-go beyond its declared reaction class. Joshua fails this packet if it merges distinct channels.",
+      "unresolved": [
+        "The 2024 critique is a live preprint-level source and should be checked for a later journal version or formal response before dossier lock."
+      ],
+      "ranking_eligible": false
+    },
+    {
+      "program_id": "donoghue_eft_gravity",
+      "program_name": "General relativity as a low-energy quantum effective field theory",
+      "program_version": "DONOGHUE_1994_TO_2022_LOW_ENERGY_EFT",
+      "contributors": [
+        "John F. Donoghue",
+        "Barry R. Holstein"
+      ],
+      "primary_sources": [
+        "https://arxiv.org/abs/gr-qc/9405057",
+        "https://arxiv.org/abs/1506.00946",
+        "https://arxiv.org/abs/2211.09902"
+      ],
+      "source_native_claim": "General relativity is a predictive quantum effective field theory at energies far below the Planck scale even without a known ultraviolet completion; massless propagation fixes nonanalytic long-distance quantum terms that yield low-energy theorems.",
+      "native_primitives_dynamics": "A smooth Lorentzian metric, Einstein-Hilbert action, all diffeomorphism-invariant higher-curvature operators, quantized graviton and matter fluctuations, Wilson coefficients, unitarity and analyticity, and a perturbative expansion in energy over the Planck scale.",
+      "strongest_result": "Parameter-independent long-range quantum corrections to gravitational scattering and the Newtonian potential can be calculated from the infrared theory. These corrections have not been experimentally isolated, so the result is a rigorous low-energy prediction rather than empirical confirmation of quantum gravity.",
+      "assumptions_limits": "Installs general relativity, Lorentzian causal structure, and quantum field theory. It is valid only in the perturbative low-energy regime; unknown local coefficients encode ultraviolet physics. It is not a UV completion and does not resolve singularities or supply a theory of everything.",
+      "comparison_surface_ids": [
+        "spacetime_gravity_matter_and_cosmogenesis",
+        "formal_tools_limits_and_falsifiers",
+        "root_and_least_presumption"
+      ],
+      "roles": [
+        "critic_falsifier",
+        "mathematical_tool",
+        "competitor"
+      ],
+      "what_offers_joshua": "A mandatory infrared baseline and a strict claim ceiling: many quantum-gravity predictions do not require a fundamental ToE.",
+      "joshua_hypothesis_only": "A finite carrier might eventually derive the structures that EFT assumes and predict additional finite corrections, but this is not presently demonstrated.",
+      "decisive_test": "Before making a gravity claim, recover the classical and post-Newtonian limits of GR and the universal nonanalytic low-energy amplitudes with their established coefficients. Then state a new quantitative correction. Failure kills downstream Joshua gravity; success alone does not select Joshua's ontology.",
+      "unresolved": [],
+      "ranking_eligible": false
+    },
+    {
+      "program_id": "everett_decoherent_histories",
+      "program_name": "Modern Everett interpretation: Wallace and Saunders versions",
+      "program_version": "WALLACE_EMERGENT_PATTERNS_2003_TO_2012__SAUNDERS_BRANCH_COUNTING_2022_AND_LOCALITY_2026",
+      "contributors": [
+        "David Wallace",
+        "Simon Saunders"
+      ],
+      "primary_sources": [
+        "https://arxiv.org/abs/1111.2189",
+        "https://arxiv.org/abs/quant-ph/0312157",
+        "https://arxiv.org/abs/2201.06087",
+        "https://arxiv.org/abs/2601.12159",
+        "https://arxiv.org/abs/2010.11591"
+      ],
+      "source_native_claim": "Both versions retain universal unitary quantum mechanics and decoherence. Wallace treats quasiclassical worlds as emergent robust patterns and uses decision-theoretic constraints to justify Born-weighted decisions; Saunders develops decoherent-history branch ratios and a later locality-compatible account of Everettian physical probability. These are related but not interchangeable probability programs.",
+      "native_primitives_dynamics": "Universal Hilbert-space state, exact unitary evolution, subsystem-environment factorization, decoherence and robust higher-level patterns; additionally, consistent coarse-grained histories, branch multiplicity, Born amplitudes, and either decision-theoretic preference axioms or Saunders-style physical-probability conditions.",
+      "strongest_result": "Wallace supplies a sophisticated emergent-pattern account and a formal Deutsch-Wallace route to rational Born weighting; Saunders supplies formal branch-ratio and physical-probability constructions. Their empirical base is ordinary unitary quantum mechanics, Bell experiments, and decoherence, not a distinct confirmed prediction selecting Everett over empirically equivalent interpretations.",
+      "assumptions_limits": "Requires exact universal unitarity, approximate factorization and decoherence, and a realism about emergent branches. Wallace also requires functionalist pattern ontology and decision axioms; Saunders requires particular history/coarse-graining and probability conditions. Branches remain approximate and decomposition-sensitive, probability derivations are contested, and neither version supplies an independent quantum-gravity completion or locked experimental discriminator.",
+      "comparison_surface_ids": [
+        "probability_time_causality_and_order",
+        "plural_attractors_and_universality",
+        "object_individual_boundary_and_observer",
+        "finite_quantum_and_carrier_reconstruction"
+      ],
+      "roles": [
+        "competitor",
+        "donor",
+        "critic_falsifier"
+      ],
+      "what_offers_joshua": "A mature separation between fundamental dynamics and emergent histories, a non-collapse baseline, and explicit tests of whether probability is decision weight, branch measure, or branch ratio.",
+      "joshua_hypothesis_only": "Finite behavioral quotients, basin tools, and recurrence language might test when branch-like patterns and history classes are stable, but Joshua has not derived quantum probabilities.",
+      "decisive_test": "Verified objective collapse or fundamental nonunitarity kills exact Everett. Internally, freeze admissible factorizations and history coarse-grainings before analysis, then require branch structure and Born ratios to be unique and stable without importing amplitude measure in the premises. Joshua is comparable only after reproducing unitary quantum statistics.",
+      "unresolved": [
+        "Wallace's decision-theoretic ontology and Saunders's branch-ratio and locality constructions must retain explicit subversion identifiers during reproduction.",
+        "Saunders's 2026 physical-probability paper is recent and requires source-native response and replication review before dossier lock."
+      ],
+      "ranking_eligible": false
+    },
+    {
+      "program_id": "fields_observer_quantum_information",
+      "program_name": "Quantum reference frames, observer identification, and scale-free quantum information",
+      "program_version": "FIELDS_FACTORIZATION_COST_2014__QUANTUM_FEP_AND_QRF_2021_TO_2022_SPLIT_REQUIRED",
+      "contributors": [
+        "Chris Fields",
+        "Karl Friston",
+        "James F. Glazebrook",
+        "Michael Levin",
+        "Antonino Marciano"
+      ],
+      "primary_sources": [
+        "https://arxiv.org/abs/1401.4767",
+        "https://arxiv.org/abs/2112.15242",
+        "https://arxiv.org/abs/2201.00921",
+        "https://arxiv.org/abs/2205.13184"
+      ],
+      "source_native_claim": "System identification and observation require physical quantum reference frames and dissipative resources; generic weakly coupled quantum systems can be described as observers or agents, while finite classifier diagrams and TQFT structures can represent sequential measurements across scale.",
+      "native_primitives_dynamics": "Finite quantum systems and Hilbert spaces, interactions and boundaries, quantum reference frames, finite binary outcomes, Landauer costs, Bayesian coherence, holographic screens, cone-cocone diagrams, sequential measurement, and in joint work a quantum free-energy formulation tied asymptotically to unitarity.",
+      "strongest_result": "Formal constructions and a resource-cost argument for Hilbert-space factorization and system identification. Claimed neuron or morphogenesis correlations and quantum-coherence advantages are proposals, not independently established empirical results.",
+      "assumptions_limits": "Hilbert structure, unitarity, interfaces, Bayesian coherence, and semantic reference-frame functions are largely installed. Quantum-FEP equivalence is conditional and asymptotic. The factorization-cost, generic quantum-observer, categorical-measurement, and neural application programs need separate native baselines.",
+      "comparison_surface_ids": [
+        "object_individual_boundary_and_observer",
+        "finite_quantum_and_carrier_reconstruction",
+        "fep_perception_consciousness_and_holodeck",
+        "root_and_least_presumption"
+      ],
+      "roles": [
+        "competitor",
+        "donor",
+        "mathematical_tool",
+        "critic_falsifier"
+      ],
+      "what_offers_joshua": "Resource-accounted observation, explicit quantum reference frames, and categorical finite-measurement tools.",
+      "joshua_hypothesis_only": "Reference frames, factorization, and boundaries might be treated as rival provisional quotients tested by intervention rather than fixed Hilbert decompositions.",
+      "decisive_test": "Use finite environments with deliberately ambiguous factorizations and compare Fields-style reference-frame identification with Joshua boundary discovery on held-out prediction and intervention under equal resource costs. Test neural quantum-coherence predictions separately and prospectively.",
+      "unresolved": [
+        "The present intake card spans at least four separable program versions."
+      ],
+      "ranking_eligible": false
+    },
+    {
+      "program_id": "friston_fep",
+      "program_name": "Free Energy Principle, Bayesian mechanics, and active inference",
+      "program_version": "BAYESIAN_MECHANICS_CORE_2022__RGM_DESCENDANT_2024",
+      "contributors": [
+        "Karl Friston",
+        "Lancelot Da Costa",
+        "Noor Sajid",
+        "Conor Heins",
+        "Kai Ueltzhöffer",
+        "Grigorios A. Pavliotis",
+        "Thomas Parr"
+      ],
+      "primary_sources": [
+        "https://arxiv.org/abs/2201.06387",
+        "https://arxiv.org/abs/2105.11203",
+        "https://arxiv.org/abs/2205.10190",
+        "https://arxiv.org/abs/2407.20292"
+      ],
+      "source_native_claim": "Under suitable random-dynamical-system, steady-state, partition, and flow conditions, the dynamics of particular states can be redescribed as Bayesian inference or self-evidencing by minimizing variational free energy; active-inference descendants use expected free energy for action and policy selection.",
+      "native_primitives_dynamics": "Stochastic differential dynamics, non-equilibrium steady-state density, external, sensory, active, and internal states separated by a Markov blanket, sparse coupling and conditional independence, Helmholtz decomposition including solenoidal flow, a generative model and variational density, variational free energy, and in descendants policy beliefs and expected free energy.",
+      "strongest_result": "Exact variational identities and executable perception, learning, and control models. Broad claims about all living systems are not uniquely empirically confirmed. The primary critique shows that blanket, solenoidal, and history conditions can be narrow even in linear systems; responses clarify restricted conditions rather than automatic universality.",
+      "assumptions_limits": "Depends on steady-state or attracting-density conditions, chosen variables and partition, smooth Markovian dynamics, appropriate blanket and flow constraints, a generative family, and variational approximation. The inferential reading can be an as-if redescription. Continuous Bayesian mechanics and discrete active-inference implementations are not identical models.",
+      "comparison_surface_ids": [
+        "fep_perception_consciousness_and_holodeck",
+        "object_individual_boundary_and_observer",
+        "qit_engines_and_recursive_construction",
+        "life_evolution_agency_and_origins"
+      ],
+      "roles": [
+        "competitor",
+        "donor",
+        "mathematical_tool",
+        "empirical_testbed"
+      ],
+      "what_offers_joshua": "Exact variational mechanics, explicit Markov-blanket conditions, active-inference algorithms, and a mature model-fitting ecosystem.",
+      "joshua_hypothesis_only": "An assumption Ratchet might prevent post-hoc selection of boundaries, objectives, and generative models and test plural blankets. A two-engine mapping is currently unearned.",
+      "decisive_test": "Use synthetic and biological systems with known intervention graphs, hidden common drivers, nonstationarity, solenoidal flow, and history dependence. Lock partitions and model families before data, then compare native FEP, generic state-space control, Joshua-wrapped FEP, sham, and ablations on held-out intervention and prediction with complexity penalties.",
+      "unresolved": [
+        "Source-native scope differs across the principle, Bayesian mechanics, active inference, and renormalizing generative models."
+      ],
+      "ranking_eligible": false
+    },
+    {
+      "program_id": "fuentes_experimental_quantum_gravity",
+      "program_name": "Relativistic quantum information and experimental gravity-quantum interfaces",
+      "program_version": "QFTCS_RQI_PROPOSALS__QUANTUM_GALILEO_2025__GRAVITY_ENTANGLEMENT_PATHWAY_SPLIT_REQUIRED",
+      "contributors": [
+        "Ivette Fuentes",
+        "David Edward Bruschi",
+        "Richard Howl",
+        "Or Dobkowski",
+        "Chiara Marletto",
+        "Roger Penrose",
+        "Vlatko Vedral",
+        "Ron Folman",
+        "Sougato Bose",
+        "Anupam Mazumdar"
+      ],
+      "primary_sources": [
+        "https://arxiv.org/abs/1306.1933",
+        "https://arxiv.org/abs/2502.14535",
+        "https://arxiv.org/abs/2504.15409",
+        "https://arxiv.org/abs/2504.21626",
+        "https://arxiv.org/abs/2509.01586"
+      ],
+      "source_native_claim": "Quantum fields, entanglement, and interferometry can probe relativistic and gravitational effects in laboratory or space systems; cold-atom matter waves can test the quantum form of the equivalence principle, and future gravity-mediated-entanglement experiments can constrain whether gravity carries quantum information.",
+      "native_primitives_dynamics": "Standard quantum mechanics or quantum field modes on prescribed relativistic backgrounds, Bogoliubov transformations, entanglement measures, Bose-Einstein condensates and cold atoms, interferometric phases, gravitational and inertial fields, and experimental noise or decoherence models.",
+      "strongest_result": "A 2025 cold-atom interferometer reports a quantum-equivalence-principle phase. A primary comment attributes the signal to magnetic recoil, and the authors dispute that analysis, so the interpretation remains contested. Most space/BEC and gravity-entanglement items are proposals, not a completed quantum-gravity experiment or theory.",
+      "assumptions_limits": "Relativistic quantum-information work usually treats the metric semiclassically or as prescribed. Device models and systematics are load-bearing. A positive gravity-entanglement witness would constrain mediator classes under locality assumptions but would not uniquely select a quantum-gravity ontology.",
+      "comparison_surface_ids": [
+        "spacetime_gravity_matter_and_cosmogenesis",
+        "finite_quantum_and_carrier_reconstruction",
+        "formal_tools_limits_and_falsifiers"
+      ],
+      "roles": [
+        "empirical_testbed",
+        "critic_falsifier",
+        "donor"
+      ],
+      "what_offers_joshua": "Real apparatus, experimental systematics, and a route from gravity narrative to discriminating measurements.",
+      "joshua_hypothesis_only": "Joshua might eventually derive a finite or chiral quantitative correction for these instruments; it cannot replace source-native device analysis with a qualitative story.",
+      "decisive_test": "Replicate the Quantum Galileo experiment while independently varying gravitational acceleration and magnetic recoil with blinded analysis. For quantum gravity, execute gravity-mediated entanglement with electromagnetic, Casimir, vibrational, and decoherence loopholes bounded, then test a predeclared Joshua signature.",
+      "unresolved": [
+        "The Quantum Galileo comment and reply remain unresolved in the primary literature.",
+        "The RQI, equivalence-principle, and gravitational-entanglement programs require separate cards before ranking."
+      ],
+      "ranking_eligible": false
+    },
+    {
+      "program_id": "geometric_unity",
+      "program_name": "Geometric Unity",
+      "program_version": "OFFICIAL_2013_LECTURE__2021_EMAIL_GATED_DRAFT",
+      "contributors": [
+        "Eric Weinstein"
+      ],
+      "primary_sources": [
+        "https://geometricunity.org/",
+        "https://geometricunity.org/2013-oxford-lecture/"
+      ],
+      "source_native_claim": "A higher geometric construction built around an observerse, bundles of metrics, chimeric spacetime-spin-gauge structures, and new differential operators is proposed to recover and unify gravity, gauge fields, and matter while making nonstandard claims about generations and parity.",
+      "native_primitives_dynamics": "As publicly presented: a four-dimensional base, a higher-dimensional bundle of metrics or observerse, chimeric bundles, connections and curvature, Shiab operators, and proposed swervature and displasion equations. The complete source-native action and reproducible derivation were not available in the public official packet examined here.",
+      "strongest_result": "An official draft architecture, lecture, transcript, and notation. No independently reproduced complete field theory, official code or data, anomaly analysis, parameter-fixed novel prediction, or empirical result was located.",
+      "assumptions_limits": "Installs smooth differential geometry, a four-dimensional base, and selected bundles, representations, and operators. The official site describes an attempt and a draft or work in progress. The public source packet is incomplete and no executable native baseline is available.",
+      "comparison_surface_ids": [
+        "nested_entropic_geometry_flux_and_chirality",
+        "spacetime_gravity_matter_and_cosmogenesis",
+        "formal_tools_limits_and_falsifiers"
+      ],
+      "roles": [
+        "competitor",
+        "mathematical_tool"
+      ],
+      "evidence_state": "EVIDENCE_LIMITED_PUBLIC_BASELINE_INCOMPLETE",
+      "what_offers_joshua": "A cautionary parallel: geometric vocabulary and self-generation rhetoric do not by themselves constitute a derived theory of everything.",
+      "joshua_hypothesis_only": "Joshua's finite and nonassociative carrier tournament and receipt system might audit which Geometric Unity choices are forced, but only after a native baseline exists.",
+      "decisive_test": "Release a versioned action and field equations; independently derive an anomaly-free Standard Model spectrum and couplings plus the GR limit; reproduce the symbolic identities; and calculate a novel parameter-free observable. Until then comparison and repair are blocked.",
+      "unresolved": [
+        "The 2021 manuscript is email-gated on the official site.",
+        "The official public materials do not support a complete reproducible baseline."
+      ],
+      "ranking_eligible": false
+    },
+    {
+      "program_id": "hardy_operational_reconstruction",
+      "program_name": "Operational reconstruction of finite-dimensional quantum theory",
+      "program_version": "FIVE_AXIOMS_2001__CIRCUIT_POSTULATES_2011",
+      "contributors": [
+        "Lucien Hardy"
+      ],
+      "primary_sources": [
+        "https://arxiv.org/abs/quant-ph/0101012",
+        "https://arxiv.org/abs/1104.2066"
+      ],
+      "source_native_claim": "Finite-dimensional complex quantum theory can be reconstructed from operational axioms or postulates rather than assumed in Hilbert-space form; continuity and simplicity distinguish the 2001 quantum case from classical probability, while the 2011 circuit postulates reconstruct states, effects, transformations, and the Born rule.",
+      "native_primitives_dynamics": "Operational preparations, transformations, measurements, circuits, and outcome probabilities; distinguishability N and state-parameter count K in the 2001 version; sharpness, information locality, tomographic locality, compound permutability, sturdiness, filters, and reversible transformations in the 2011 version.",
+      "strongest_result": "A substantive mathematical reconstruction of finite-dimensional quantum theory, including positive operators, completely positive trace-nonincreasing maps, and the trace rule, under explicit postulates. It adds no empirical prediction beyond quantum theory.",
+      "assumptions_limits": "Probability and circuit order are primitive. The model is finite-dimensional. Tomographic locality, continuity, permutability, simplicity, and filter conditions do significant work. It does not reconstruct quantum field theory or quantum gravity.",
+      "comparison_surface_ids": [
+        "root_and_least_presumption",
+        "finite_quantum_and_carrier_reconstruction",
+        "probability_time_causality_and_order"
+      ],
+      "roles": [
+        "competitor",
+        "donor",
+        "mathematical_tool",
+        "critic_falsifier"
+      ],
+      "what_offers_joshua": "A high-quality native baseline and an explicit axiom-to-carrier derivation that exposes exactly which assumptions are load-bearing.",
+      "joshua_hypothesis_only": "Each postulate and presumption order could become a rival family and MSS antichain rather than a fixed axiom set.",
+      "decisive_test": "Enumerate generalized probabilistic theories satisfying weakened or substituted postulates. Joshua must recover complex finite quantum theory with fewer or less-loaded commitments while preserving the same operational phenomena. If a simpler classical or alternative carrier survives Joshua's target, complex structure is not earned.",
+      "unresolved": [
+        "The 2001 and 2011 axiom sets are distinct versions and need separate reproductions."
+      ],
+      "ranking_eligible": false
+    },
+    {
+      "program_id": "indefinite_causal_order",
+      "program_name": "Process matrices, quantum switches, and indefinite causal order",
+      "program_version": "PROCESS_MATRIX_2011__QUANTUM_SWITCH_AND_WITNESSES_SEPARATE",
+      "contributors": [
+        "Ognyan Oreshkov",
+        "Fabio Costa",
+        "Caslav Brukner",
+        "Giulio Chiribella",
+        "Giacomo Mauro D'Ariano",
+        "Paolo Perinotti",
+        "Mateus Araújo",
+        "Sally Shrapnel"
+      ],
+      "primary_sources": [
+        "https://arxiv.org/abs/1105.4464",
+        "https://arxiv.org/abs/0912.0195",
+        "https://arxiv.org/abs/1506.03776",
+        "https://arxiv.org/abs/1702.01845",
+        "https://arxiv.org/abs/1412.4006"
+      ],
+      "source_native_claim": "Quantum operations can be embedded in processes without a fixed global causal order; some process matrices are causally nonseparable and can violate a causal inequality, while a quantum switch coherently controls the order of operations and supports causal-order witnesses or task advantages.",
+      "native_primitives_dynamics": "Local laboratories with quantum inputs and outputs, completely positive instruments, a positive normalized process matrix W, a generalized Born rule, causal separability, causal inequalities and witnesses, and in the switch a coherent control over operation order.",
+      "strongest_result": "Existence of valid process matrices that violate a causal inequality, formal witnesses of causal nonseparability, and experimental implementations of coherent operation order. The quantum switch generally does not itself violate a device-independent causal inequality, and a laboratory implementation can inhabit an ordinary background circuit.",
+      "assumptions_limits": "Standard local quantum theory, probabilities, and local input-to-output order remain primitive; only global order is relaxed. Not every mathematically valid process matrix is known to be physically realizable, and the framework is not by itself a dynamical theory of spacetime.",
+      "comparison_surface_ids": [
+        "probability_time_causality_and_order",
+        "finite_quantum_and_carrier_reconstruction",
+        "formal_tools_limits_and_falsifiers"
+      ],
+      "roles": [
+        "competitor",
+        "donor",
+        "mathematical_tool",
+        "empirical_testbed"
+      ],
+      "what_offers_joshua": "The strongest established formalism for denying primitive global causal order while retaining operational probabilities and experimental witnesses.",
+      "joshua_hypothesis_only": "A finite carrier and Ratchet might derive which process matrices are physically realizable and separate operational order from metaphysical causality.",
+      "decisive_test": "Reproduce causal witnesses and task advantages, then derive allowed-process constraints without smuggling a global order into the construction. A Joshua variant that adds no realizability or predictive restriction is redundant.",
+      "unresolved": [
+        "Process matrices, quantum switches, causal witnesses, and quantum causal models are related but separable program versions."
+      ],
+      "ranking_eligible": false
+    },
+    {
+      "program_id": "information_bottleneck",
+      "program_name": "Information bottleneck",
+      "program_version": "TISHBY_PEREIRA_BIALEK_1999_2000_ORIGINAL",
+      "contributors": [
+        "Naftali Tishby",
+        "Fernando C. Pereira",
+        "William Bialek"
+      ],
+      "primary_sources": [
+        "https://arxiv.org/abs/physics/0004057",
+        "https://arxiv.org/abs/1604.00268",
+        "https://arxiv.org/abs/1612.00410"
+      ],
+      "source_native_claim": "Given a joint distribution over an input X and relevance variable Y, an encoder can optimally compress X into T while retaining predictive information about Y by minimizing I(X;T) minus beta times I(T;Y).",
+      "native_primitives_dynamics": "Random variables X, Y, and T; a supplied joint probability distribution; a stochastic encoder p(t|x); mutual information, Kullback-Leibler distortion, a tradeoff multiplier beta, self-consistent equations, and a Blahut-Arimoto-like iterative solver.",
+      "strongest_result": "Exact variational and self-consistency equations plus a convergent re-estimation algorithm for discrete problems, with many useful applications. The method does not discover what the relevance variable should be and does not establish ontological objecthood.",
+      "assumptions_limits": "The probability law, relevance variable, representation, encoder cardinality, and beta are supplied or selected. Predictive correlation can be produced by common drivers. Deterministic and deep variational bottlenecks are extensions with different objectives and approximation burdens.",
+      "comparison_surface_ids": [
+        "object_individual_boundary_and_observer",
+        "admission_mss_and_purgatory",
+        "fep_perception_consciousness_and_holodeck"
+      ],
+      "roles": [
+        "mathematical_tool",
+        "donor",
+        "critic_falsifier"
+      ],
+      "what_offers_joshua": "A precise predictive-compression frontier and mature algorithms closely related to minimal sufficient representations.",
+      "joshua_hypothesis_only": "The relevance variable, probability law, lag, and boundary might themselves compete as packet assumptions, with interventions added to reject common-driver aliases.",
+      "decisive_test": "Use hidden-variable and common-driver benchmarks with known mechanisms. Compare the original bottleneck, Joshua-wrapped bottleneck, sham, and ablations on held-out prediction, perturbation, and representation invariance. If the wrapper cannot reject alias boundaries or improve robustness, there is no repair.",
+      "unresolved": [
+        "The original, deterministic, and deep variational versions must not be treated as one baseline."
+      ],
+      "ranking_eligible": false
+    },
+    {
+      "program_id": "information_theory_of_individuality",
+      "program_name": "Information theory of individuality",
+      "program_version": "KRAKAUER_BERTSCHINGER_OLBRICH_AY_FLACK_2014_TO_2020",
+      "contributors": [
+        "David Krakauer",
+        "Nils Bertschinger",
+        "Eckehard Olbrich",
+        "Nihat Ay",
+        "Jessica C. Flack"
+      ],
+      "primary_sources": [
+        "https://arxiv.org/abs/1412.2447",
+        "https://doi.org/10.1007/s12064-020-00313-7"
+      ],
+      "source_native_claim": "Biological individuals can be inferred rather than assumed by searching temporal coarse-grainings and system-environment partitions for bounded units that propagate predictive information from their past into their future.",
+      "native_primitives_dynamics": "Consistent multivariate observations over time, candidate partitions and nested coarse-grainings, probability distributions, predictive mutual information, and decompositions of internal and environmental information contributions.",
+      "strongest_result": "A formal algorithmic boundary-discovery proposal and illustrative analyses. It is not yet a broadly validated detector of biological individuality.",
+      "assumptions_limits": "Depends on selected variables, sampling rate and temporal lag, sufficient data and probability estimation, and stability assumptions. Predictive information can arise from hidden common causes and does not alone establish autonomy, repair, or agency.",
+      "comparison_surface_ids": [
+        "object_individual_boundary_and_observer",
+        "life_evolution_agency_and_origins",
+        "plural_attractors_and_universality"
+      ],
+      "roles": [
+        "competitor",
+        "donor",
+        "mathematical_tool"
+      ],
+      "what_offers_joshua": "A direct algorithmic treatment of provisional object and boundary discovery.",
+      "joshua_hypothesis_only": "Intervention, repair, cross-view reconstruction, and Purgatory controls might distinguish integrated units from common-driver aliases.",
+      "decisive_test": "Apply both programs to synthetic multiscale systems with known boundaries and hidden drivers plus biological perturbation data. Score recovered partitions on held-out prediction, intervention, and repair while penalizing variable and lag search. If predictive information alone wins, the Joshua machinery is unnecessary.",
+      "unresolved": [],
+      "ranking_eligible": false
+    },
+    {
+      "program_id": "kauffman_open_ended_evolution",
+      "program_name": "Unprestatable biosphere, autocatalytic closure, and the adjacent possible",
+      "program_version": "ENABLEMENT_THESIS__AUTOCATALYTIC_PHASE_TRANSITIONS__ADJACENT_POSSIBLE_SPLIT_REQUIRED",
+      "contributors": [
+        "Stuart Kauffman",
+        "Giuseppe Longo",
+        "Mael Montevil",
+        "Andrea Roli",
+        "Rudolf Hanel",
+        "Stefan Thurner",
+        "Francesca Tria",
+        "Vittorio Loreto",
+        "Vito D. P. Servedio",
+        "Steven H. Strogatz"
+      ],
+      "primary_sources": [
+        "https://arxiv.org/abs/1201.2069",
+        "https://arxiv.org/abs/2401.09514",
+        "https://arxiv.org/abs/cond-mat/0504776",
+        "https://arxiv.org/abs/1310.1953"
+      ],
+      "source_native_claim": "Living systems combine catalytic, constraint, and spatial closure, while novelty expands the adjacent possible; the stronger philosophical version holds that biosphere phase spaces and niches cannot be fully prestated, so evolution is enabled rather than entailed by a fixed law on a fixed phase space.",
+      "native_primitives_dynamics": "Kantian wholes and closure conditions, random catalytic reaction networks and threshold transitions, evolving sets of molecular or phenotypic possibilities, and in mathematical adjacent-possible models a reinforced urn whose possibility space expands when novelties occur.",
+      "strongest_result": "An analytic phase transition in random catalytic sets and adjacent-possible stochastic models that reproduce Heaps- and Zipf-like novelty statistics in several cultural datasets. These results do not prove that the biosphere has no entailing law or that life's emergence is inevitable.",
+      "assumptions_limits": "Random-network and catalytic assumptions carry load. Adjacent-possible models still predefine a generative rule. The unprestatability thesis risks avoiding predictive obligations and must be separated from the executable models.",
+      "comparison_surface_ids": [
+        "life_evolution_agency_and_origins",
+        "root_and_least_presumption",
+        "admission_mss_and_purgatory",
+        "plural_attractors_and_universality"
+      ],
+      "roles": [
+        "competitor",
+        "donor",
+        "critic_falsifier"
+      ],
+      "what_offers_joshua": "A deep challenge to any fixed candidate grammar, plus rigorous autocatalytic and novelty-generating fixtures.",
+      "joshua_hypothesis_only": "An expandable candidate language with contextual re-entry might operationalize epistemic unprestatability while each realized universe remains finite.",
+      "decisive_test": "Predeclare open-world novelty generators and compare adjacent-possible models, fixed-space controls, and Joshua's dynamic grammar on held-out novelty rate, diversity, and closure without target leakage. If Joshua merely renames a fixed state space, it fails Kauffman's challenge.",
+      "unresolved": [
+        "The philosophical unprestatability thesis and the executable catalytic or urn models are not a single testable program version."
+      ],
+      "ranking_eligible": false
+    },
+    {
+      "program_id": "knuth_influence_theory",
+      "program_name": "Influence Theory",
+      "program_version": "KNUTH_BAHREYNI_WALSH_2010_TO_2018",
+      "contributors": [
+        "Kevin H. Knuth",
+        "Newshaw Bahreyni",
+        "James L. Walsh"
+      ],
+      "primary_sources": [
+        "https://arxiv.org/abs/1005.4172",
+        "https://arxiv.org/abs/1209.0881",
+        "https://arxiv.org/abs/1411.2163",
+        "https://arxiv.org/abs/1803.09618"
+      ],
+      "source_native_claim": "Consistent quantification of discrete directed influence events in a partially ordered set, relative to coordinated observer chains, yields special-relativistic kinematics and Dirac-like particle dynamics without beginning with spacetime coordinates, mass, energy, or momentum.",
+      "native_primitives_dynamics": "Primitive particles or things, directed influence events, a poset, observer chains and projections, interval valuations, coordinated chain pairs, symmetric and antisymmetric coordinate pairs, probabilistic inference over hidden influence sequences, and incoming influences interpreted as forces.",
+      "strongest_result": "Formal derivations of Minkowski interval and Lorentz transformations and checkerboard or Dirac-like structures in a restricted setting. No distinct empirical prediction or completed 3+1-dimensional GR, quantum field theory, or Standard Model has been produced.",
+      "assumptions_limits": "Directed influence, particles, causal order, and observer chains are primitive. Coordination and valuation rules, coarse-graining, and amplitude assignments carry load. Uniqueness against causal-set and other order reconstructions is not established.",
+      "comparison_surface_ids": [
+        "root_and_least_presumption",
+        "probability_time_causality_and_order",
+        "spacetime_gravity_matter_and_cosmogenesis",
+        "finite_quantum_and_carrier_reconstruction"
+      ],
+      "roles": [
+        "competitor",
+        "donor",
+        "mathematical_tool"
+      ],
+      "what_offers_joshua": "A clean discrete derivation and explicit observer-relative quantification.",
+      "joshua_hypothesis_only": "Influence, order, and observer-chain choices could enter a root tournament to test whether noncommuting order suffices without primitive causality.",
+      "decisive_test": "Use exhaustive finite-poset relabeling and observer-choice tests for uniqueness, then require blind recovery of 3+1 Lorentz symmetry, interactions, and quantitative amplitudes under equal assumptions. If primitive causal influence is indispensable and strictly weaker, Joshua's no-primitive-causality stance must be revised.",
+      "unresolved": [
+        "The step from restricted poset kinematics to a complete interacting 3+1 physical theory remains open."
+      ],
+      "ranking_eligible": false
+    },
+    {
+      "program_id": "levin_morphogenesis",
+      "program_name": "Bioelectric morphogenesis, regenerative target states, and scale-free competence",
+      "program_version": "EMPIRICAL_BIOELECTRIC_CONTROL__AGENCY_INTERPRETATION__XENOBOT_ENGINEERING_SPLIT_REQUIRED",
+      "contributors": [
+        "Michael Levin",
+        "Santosh Manicka",
+        "Fallon Durant",
+        "Junji Morokuma",
+        "Christopher Fields",
+        "Sam Kriegman",
+        "Douglas Blackiston",
+        "Josh Bongard"
+      ],
+      "primary_sources": [
+        "https://arxiv.org/abs/1912.04246",
+        "https://doi.org/10.1016/j.bpj.2017.04.011",
+        "https://www.pnas.org/doi/10.1073/pnas.1910837117",
+        "https://www.pnas.org/doi/10.1073/pnas.2112672118",
+        "https://drmichaellevin.org/publications/"
+      ],
+      "source_native_claim": "Measurable bioelectric networks formed by ion channels, membrane voltage, and gap junctions participate causally in morphogenesis and regenerative error correction; non-neural tissues can compute, and engineered cell collectives reveal competencies not read directly from genome sequence.",
+      "native_primitives_dynamics": "Cells with ion channels and pumps, transmembrane voltage, gap-junction coupling, biochemical and electrical network dynamics, anatomical states and repair trajectories, computational bioelectric networks, and in Xenobot work externally searched body plans assembled from living cells.",
+      "strongest_result": "Causal perturbations of bioelectric signaling alter organ placement and planarian head number or anatomy, with some regenerative outcomes persisting without genomic editing. Xenobots realize designed locomotion and cell-gathering kinematic replication. These data do not by themselves establish cognition at every scale, literal goal representations, or a universal two-engine architecture.",
+      "assumptions_limits": "Targets and agency are inferred from counterfactual repair; interventions can be pleiotropic; the map from voltage patterns to morphological memory is incomplete. Xenobot designs use external evolutionary search and supplied assay goals. Empirical control, agency interpretation, and engineering must be separate baselines.",
+      "comparison_surface_ids": [
+        "life_evolution_agency_and_origins",
+        "object_individual_boundary_and_observer",
+        "plural_attractors_and_universality",
+        "qit_engines_and_recursive_construction"
+      ],
+      "roles": [
+        "empirical_testbed",
+        "donor",
+        "competitor"
+      ],
+      "what_offers_joshua": "Strong intervention datasets for basin repair, memory, boundaries, and multiscale competence.",
+      "joshua_hypothesis_only": "Plural-attractor and behavioral-quotient tools plus candidate two-loop organizations might distinguish supplied targets from endogenous repair basins.",
+      "decisive_test": "Blind held-out bioelectric perturbations across species and regeneration rounds. Compare source-native mechanistic models, generic dynamical control, Joshua wrapper, sham, and component ablations on anatomical prediction and repair. If engine allocation is unnecessary or externally supplied, it is not earned.",
+      "unresolved": [
+        "The empirical bioelectric program and broad scale-free agency interpretation have different evidence ceilings.",
+        "No source-native mapping to Joshua's exact two-engine target has been demonstrated."
+      ],
+      "ranking_eligible": false
+    },
+    {
+      "program_id": "langan_ctmu",
+      "program_name": "Cognitive-Theoretic Model of the Universe",
+      "program_version": "CTMU_2002_TO_2023_AUTHOR_FORMULATION",
+      "contributors": [
+        "Christopher M. Langan"
+      ],
+      "primary_sources": [
+        "https://www.ctmu.org/",
+        "https://knowledgebase.ctmu.net/wp-content/uploads/2018/10/Langan_CTMU_0929021-1.pdf",
+        "https://cosmosandhistory.org/index.php/journal/article/view/618",
+        "https://cosmosandhistory.org/index.php/journal/article/view/835"
+      ],
+      "source_native_claim": "Reality is self-contained, cognitively and linguistically structured, and a self-configuring self-processing language whose hologic and telic recursion explains its own laws, contents, and teleological self-selection.",
+      "native_primitives_dynamics": "Author-defined concepts including the Reality Principle, syndiffeonesis or difference-in-sameness, linguistic reducibility, SCSPL, hology, unbound telesis, telic recursion and generalized utility, and mind-reality inseparability.",
+      "strongest_result": "A large internally connected metaphysical argument and vocabulary. No machine-checkable formal system with explicit syntax, semantics, inference rules, executable dynamics, public data, or distinctive successful quantitative prediction was located.",
+      "assumptions_limits": "Moves from analytic self-containment and language analogies to ontological identities. The primitives and inferential rules are not specified tightly enough for independent theorem reproduction. Theological and empirical physics claims exceed the evidence in the source packet.",
+      "comparison_surface_ids": [
+        "root_and_least_presumption",
+        "qit_engines_and_recursive_construction",
+        "probability_time_causality_and_order",
+        "formal_tools_limits_and_falsifiers"
+      ],
+      "roles": [
+        "competitor",
+        "contextual_neighbor"
+      ],
+      "evidence_state": "EVIDENCE_LIMITED_NO_REPRODUCIBLE_FORMAL_BASELINE_FOUND",
+      "what_offers_joshua": "A close conceptual foil on self-configuration, constrained possibility, and reflexive modeling that exposes where Joshua also risks letting rhetoric outrun executable derivation.",
+      "joshua_hypothesis_only": "The Ratchet might translate selected CTMU terms into rival finite grammars and eliminate non-discriminating variants.",
+      "decisive_test": "Publish a typed formal language, axioms, inference rules, and model semantics; obtain independent proof checking; and derive a quantitative observation that differs from standard theories. No repair or root-burden comparison is valid before that baseline.",
+      "unresolved": [
+        "No executable or independently reproducible mathematical baseline was found.",
+        "The source-native boundary between metaphysics, theology, and empirical physics is not operationally fixed."
+      ],
+      "ranking_eligible": false
+    },
+    {
+      "program_id": "campbell_my_big_toe",
+      "program_name": "My Big TOE",
+      "program_version": "TRILOGY_2003_2007_SOURCE_PACKET_INCOMPLETE",
+      "contributors": [
+        "Thomas W. Campbell"
+      ],
+      "primary_sources": [
+        "https://www.my-big-toe.com/",
+        "https://archive.org/details/mybigtoeawakenin0000thom",
+        "https://archive.org/details/mybigtoeinnerwor0000thom"
+      ],
+      "source_native_claim": "Consciousness or information is fundamental; a larger consciousness system evolves virtual space-time realities and individuated units with free will, with evolution described as lowering the entropy of consciousness while ordinary physics is a rendered rule set or interface.",
+      "native_primitives_dynamics": "As presented in the trilogy: a larger consciousness system, individuated units of consciousness, virtual realities and rendering, free-will choices, quality of consciousness, and an entropy-lowering evolutionary direction. A stable technical state space and update rule were not located in the accessible source packet.",
+      "strongest_result": "An internally elaborated narrative supported primarily by autobiographical and experiential reports. No public mathematical model, versioned code or data, or independently replicated discriminating experiment was located in this audit.",
+      "assumptions_limits": "Installs a digital or informational consciousness substrate, virtual-reality renderer, free will, and an entropy objective. The source-native entropy is not equivalent to Shannon, von Neumann, or thermodynamic entropy without an operational mapping. The official website was bot-gated during this audit, so the source packet is incomplete rather than adjudicated false.",
+      "comparison_surface_ids": [
+        "root_and_least_presumption",
+        "fep_perception_consciousness_and_holodeck",
+        "qit_engines_and_recursive_construction",
+        "formal_tools_limits_and_falsifiers"
+      ],
+      "roles": [
+        "competitor",
+        "contextual_neighbor"
+      ],
+      "evidence_state": "EVIDENCE_LIMITED_SOURCE_PACKET_INCOMPLETE",
+      "what_offers_joshua": "A foil for virtual-world, embedded-agent, and entropy vocabulary that forces Joshua to operationalize the Holodeck rather than merely narrate it.",
+      "joshua_hypothesis_only": "A finite QIT carrier, receipt-backed simulation, and assumption controls might formalize one narrow My Big TOE claim.",
+      "decisive_test": "Specify stable equations or an algorithm for state, update, entropy, renderer, and observer access, then preregister an experiment that distinguishes the model from quantum mechanics and neuroscience with blinding and independent replication. No repair or ranking is available before source and baseline closure.",
+      "unresolved": [
+        "Official web materials were not fully accessible in this audit.",
+        "No stable technical formulation or completed preregistered experiment was found."
+      ],
+      "ranking_eligible": false
+    },
+    {
+      "program_id": "sheldrake_morphic_resonance",
+      "program_name": "Morphic resonance and formative causation",
+      "program_version": "MORPHIC_RESONANCE_1981_TO_2026",
+      "contributors": [
+        "Rupert Sheldrake",
+        "Georgia Black",
+        "Bethany Butzer",
+        "Steven Rose"
+      ],
+      "primary_sources": [
+        "https://www.sheldrake.org/research/morphic-resonance",
+        "https://www.sheldrake.org/research/sense-of-being-stared-at",
+        "https://doi.org/10.1080/02604020500406248"
+      ],
+      "source_native_claim": "Self-organizing systems have morphic fields with attractors and habitual pathways, and later similar systems inherit a collective memory from earlier systems through morphic resonance, so some laws of nature are evolving habits rather than timeless fixed laws.",
+      "native_primitives_dynamics": "Morphic fields, morphic units, attractors, chreodes or habitual pathways, a similarity relation across systems, a nonlocal or atemporal resonance from past systems, and collective memory beyond genes or material brain traces. A quantitative coupling law and similarity metric are not fixed in the source packet.",
+      "strongest_result": "Sheldrake interprets a blind chick-study secular trend as significant, while co-designer Steven Rose argues the interpretation and experimental effects disconfirm it. The 2026 three-study Wordle test found no predicted relation in Study 1, a limited pattern in Study 2, and no replication in Study 3. Staring effects are small and disputed, so evidence is nonrobust rather than imputed as zero.",
+      "assumptions_limits": "The similarity metric, field coupling, range, dose, shielding, and quantitative dynamics are underspecified. Conventional inheritance, shared exposure, common causes, and sequence artifacts are strong alternatives, and flexible post-hoc similarity can make the claim difficult to falsify.",
+      "comparison_surface_ids": [
+        "plural_attractors_and_universality",
+        "life_evolution_agency_and_origins",
+        "object_individual_boundary_and_observer",
+        "formal_tools_limits_and_falsifiers"
+      ],
+      "roles": [
+        "competitor",
+        "empirical_testbed"
+      ],
+      "evidence_state": "EVIDENCE_LIMITED_NONROBUST_AND_UNDERSPECIFIED",
+      "what_offers_joshua": "An adversarial test of recurrence across separated lineages and a warning that recurring-attractor language becomes unfalsifiable if similarity is selected after seeing the result.",
+      "joshua_hypothesis_only": "Explicit state distance, recurrence statistic, carrier, cryptographic ordering, and sham lineages might formalize one narrow resonance claim.",
+      "decisive_test": "Run a high-powered preregistered multi-lab sequential-learning experiment with cryptographic time order, isolated materials, true randomization, a frozen similarity metric, and conventional-transfer controls. Require a monotonic dose response and independent replication; null results kill that specified variant, not every possible future context.",
+      "unresolved": [
+        "The source-native theory lacks a fixed quantitative similarity and coupling law.",
+        "The paired 1992 experiment and criticism remain interpretively disputed; the 2026 Wordle signal did not replicate across the three studies."
+      ],
+      "ranking_eligible": false
+    },
+    {
+      "program_id": "manchak_global_underdetermination",
+      "program_name": "Global spacetime underdetermination and observational indistinguishability",
+      "program_version": "MANCHAK_NO_GO_2008_TO_2011",
+      "contributors": [
+        "John Byron Manchak"
+      ],
+      "primary_sources": [
+        "https://doi.org/10.1016/j.shpsb.2008.07.004",
+        "https://philsci-archive.pitt.edu/4162/",
+        "https://doi.org/10.1086/660301",
+        "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/79D969039BE8C6BE45359B5ABCD86074/S003182480001374Xa.pdf/div-class-title-what-is-a-physically-reasonable-space-time-div.pdf"
+      ],
+      "source_native_claim": "Within classical general relativity and a declared notion of observer access, non-isometric global spacetimes can be observationally indistinguishable while differing in global properties, so local evidence generally cannot establish a unique global spacetime structure without additional assumptions.",
+      "native_primitives_dynamics": "Smooth Lorentzian spacetimes, chronological past regions representing maximal observer access, isometries of accessible regions, global properties, and constructions of non-isometric observational twins. This is a no-go and countermodel program, not a rival gravitational dynamics.",
+      "strongest_result": "Exact existence theorems and countermodel constructions showing broad global underdetermination for classical spacetime inference.",
+      "assumptions_limits": "Depends on classical spacetime, the chosen observation algebra, the admissible model class, and the global property at issue. Quantum or genuinely nonlocal observables and independently justified cosmological assumptions can alter a packet, but may not be installed merely to remove underdetermination.",
+      "comparison_surface_ids": [
+        "spacetime_gravity_matter_and_cosmogenesis",
+        "plural_attractors_and_universality",
+        "admission_mss_and_purgatory",
+        "formal_tools_limits_and_falsifiers"
+      ],
+      "roles": [
+        "critic_falsifier",
+        "mathematical_tool",
+        "competitor"
+      ],
+      "what_offers_joshua": "A mandatory ceiling on claims that local evidence selects one global cosmogenesis and a formal reason to retain plural survivors.",
+      "joshua_hypothesis_only": "Finite, full-support, or chiral constraints might shrink the observational-twin class, but those constraints need independent evidence and cannot be preferred merely because they remove alternatives.",
+      "decisive_test": "For every Joshua global claim, generate Manchak-style alternatives under the same observation algebra. Either prove from independent evidence that a Joshua constraint excludes them or retain all survivors. If only the global narrative differs, a unique-ToE claim is killed.",
+      "unresolved": [
+        "The exact physically reasonable model class must be declared separately for each global property and evidence packet."
+      ],
+      "ranking_eligible": false
+    }
+  ]
+}

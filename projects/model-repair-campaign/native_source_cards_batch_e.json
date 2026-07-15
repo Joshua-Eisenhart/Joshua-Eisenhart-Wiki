@@ -1,0 +1,666 @@
+{
+  "schema_version": "native-source-cards/0.1",
+  "status": "SOURCE_NATIVE_STARTING_CARDS_NOT_RANKING_ELIGIBLE",
+  "administrative_batch": {
+    "batch_id": "batch_01",
+    "batching_method": "PUBLIC_HASH_ORDER_ROUND_ROBIN_WITH_ONE_RESIDUAL_UNIT_PER_BATCH",
+    "scientific_priority": null,
+    "scientific_priority_conveyed": false,
+    "unit_count": 15,
+    "scope_note": "Administrative coverage only. A unit's presence in batch_01 conveys no scientific priority, and a person is never the ranked object."
+  },
+  "source_policy": "Technical claims use author papers, official repositories, dissertations, or official institutional and project pages. Channel titles locate the appearance but do not establish the program's claims.",
+  "cards": [
+    {
+      "program_id": "vaidya_comparative_vedanta_consciousness",
+      "contributors": [
+        "Anand Jayprakash Vaidya",
+        "Purushottama Bilimoria",
+        "Rethy Chhem",
+        "Michael Jones"
+      ],
+      "canonical_version_scope": "Vaidya's comparative analytic reconstruction and criticism of Advaita and Visistadvaita approaches to the hard problem of consciousness; not a physical dynamics or a generic endorsement of non-dualism.",
+      "identity_resolution": "SOURCE_RESOLVED_AS_ANAND_JAYPRAKASH_VAIDYA",
+      "relation_to_channel_episodes": [
+        {
+          "rss_index": 196,
+          "title": "Anand Vaidya: How Vedic Thought Challenges Western Epistemology"
+        },
+        {
+          "rss_index": 206,
+          "title": "Anand Vaidya: What Lies Beyond Both Dualism and Non-Dualism"
+        }
+      ],
+      "primary_sources": [
+        {
+          "title": "Does Vedanta Concern the Hard Problem of Consciousness? Part I: A Critical Examination of the Perennial Idealist Reading of Sankara's Advaita Vedanta",
+          "url": "https://doi.org/10.53765/20512201.32.9.215"
+        },
+        {
+          "title": "Ramanuja's cosmopsychist-panentheistic solution to the hard problem of consciousness",
+          "url": "https://doi.org/10.1017/S0034412525100838"
+        },
+        {
+          "title": "Analytic Panpsychism and the Metaphysics of Ramanuja's Visistadvaita Vedanta",
+          "url": "https://doi.org/10.1093/monist/onab026"
+        }
+      ],
+      "source_native_claim": "Vaidya distinguishes the contemporary hard problem of subject-level phenomenal consciousness from classical Indian problems of self. He argues that a bare appeal to Sankara-style non-dual universal consciousness does not ground the target phenomenon, while a Ramanuja-inspired world-affirming cosmopsychist-panentheist view supplies a more articulated candidate.",
+      "strongest_actual_result": "A source-sensitive conceptual discriminator: vocabulary such as non-duality or universal consciousness is not yet a grounding relation, and rival Vedanta-derived models must be split rather than treated as one perennial view.",
+      "assumptions_and_limits": [
+        "The conclusions are philosophical arguments, not a physical model or empirical confirmation of cosmopsychism.",
+        "The Ramanuja-inspired proposal installs a whole-cosmos consciousness and a panentheistic dependence structure rather than deriving them from weaker operational facts.",
+        "Historical fidelity, metaphysical adequacy, phenomenology, and empirical neuroscience are distinct evaluation lanes."
+      ],
+      "joshua_surfaces": [
+        "fep_perception_consciousness_and_holodeck",
+        "object_individual_boundary_and_observer",
+        "root_and_least_presumption"
+      ],
+      "proposed_roles": [
+        "philosophical_critic",
+        "distinction_donor",
+        "competitor_for_consciousness_grounding"
+      ],
+      "external_offers_joshua": "A direct guard against treating monism, non-duality, or a cross-view bridge as an explanation of subject-level consciousness merely because the vocabulary sounds fundamental.",
+      "joshua_transplant_hypothesis": "Joshua's cross-view and boundary tests might turn the grounding demand into executable constraints on when local perspectives are genuinely supported by a common organization; this has not been shown.",
+      "decisive_test": "State the exact grounding relation in each program, derive finite multi-agent or phenomenology-facing consequences, and test whether Joshua's added cross-view machinery rules out cases that the native metaphysics cannot distinguish. Reject the transplant if it only renames whole-part dependence.",
+      "dossier_status": "SOURCE_PACKET_STARTER",
+      "ranking_eligible": false
+    },
+    {
+      "program_id": "vaidya_modal_epistemic_friction_and_logical_pluralism",
+      "contributors": [
+        "Anand Jayprakash Vaidya",
+        "Michael Wallner",
+        "Simone Gozzano",
+        "Miro Jokić"
+      ],
+      "canonical_version_scope": "Vaidya's modal-epistemology and cross-traditional logic work as a methodological donor; separate from his comparative consciousness metaphysics.",
+      "identity_resolution": "SOURCE_RESOLVED_AS_ANAND_JAYPRAKASH_VAIDYA",
+      "relation_to_channel_episodes": [
+        {
+          "rss_index": 196,
+          "title": "Anand Vaidya: How Vedic Thought Challenges Western Epistemology"
+        }
+      ],
+      "primary_sources": [
+        {
+          "title": "The epistemology of modality and the problem of modal epistemic friction",
+          "url": "https://doi.org/10.1007/s11229-018-1860-2"
+        },
+        {
+          "title": "Essence, Explanation, and Modality",
+          "url": "https://doi.org/10.1017/S0031819120000200"
+        },
+        {
+          "title": "Logical Pluralism and Paradoxical Assertions in the Philosophy of Religion",
+          "url": "https://doi.org/10.1111/phc3.12956"
+        }
+      ],
+      "source_native_claim": "Conceivability, counterfactual, and deduction accounts of modal knowledge face modal epistemic friction unless they supply an epistemology of essence. Cross-traditional comparison also prevents Western logical monism or pluralism from being treated as an exhaustive starting grammar.",
+      "strongest_actual_result": "A reusable assumption audit: a modal inference can silently depend on essence claims, and a logic-selection argument can silently restrict the candidate grammar before comparison begins.",
+      "assumptions_and_limits": [
+        "This is a family of philosophical arguments, not an executable world model.",
+        "The cited work identifies burdens and stalemates but does not select a unique logic, ontology, or physics.",
+        "Import into Joshua requires formalization; analogy to Purgatory alone is insufficient."
+      ],
+      "joshua_surfaces": [
+        "root_and_least_presumption",
+        "admission_mss_and_purgatory",
+        "formal_tools_limits_and_falsifiers"
+      ],
+      "proposed_roles": [
+        "methodological_donor",
+        "critic_falsifier",
+        "logic_grammar_donor"
+      ],
+      "external_offers_joshua": "A named failure mode for modal and counterfactual reasoning and a principled reason to keep multiple logical grammars in the admission process.",
+      "joshua_transplant_hypothesis": "Purgatory could attach essence and logic receipts to every necessity, possibility, or impossibility claim, exposing hidden modal debt.",
+      "decisive_test": "Formalize a representative Joshua possibility or impossibility claim under competing logical and essentialist bases. The transplant earns admission only if it identifies a load-bearing hidden assumption or changes a proof, test, or survivor frontier.",
+      "dossier_status": "SOURCE_PACKET_STARTER",
+      "ranking_eligible": false
+    },
+    {
+      "program_id": "hahn_bioinspired_modular_learning_and_embodied_agents",
+      "contributors": [
+        "William Edward Hahn",
+        "Rachel A. StClair",
+        "Elan Barenholtz",
+        "Michael Teti"
+      ],
+      "canonical_version_scope": "The MPCR natural-computing program and Hahn's published work on modular continual learning and embodied machine-learning tests; separate from the channel's speculative Wolfram-Leibniz-consciousness synthesis.",
+      "identity_resolution": "SOURCE_RESOLVED_AS_WILLIAM_EDWARD_HAHN_OF_FAU_MPCR",
+      "relation_to_channel_episodes": [
+        {
+          "rss_index": 55,
+          "title": "Elan Barenholtz and William Hahn: Your Thoughts Were Never Your Own"
+        },
+        {
+          "rss_index": 79,
+          "title": "Barenholtz, Hahn, Jaimungal: AI Will Put 1000 Doctors Per Person"
+        },
+        {
+          "rss_index": 89,
+          "title": "William Hahn: Unifying Wolfram, Leibniz, and Consciousness with AI"
+        },
+        {
+          "rss_index": 113,
+          "title": "William Hahn: When Will AI Machines Become Genuinely Conscious?"
+        }
+      ],
+      "primary_sources": [
+        {
+          "title": "William Edward Hahn official research page",
+          "url": "https://will.hahn.ai/"
+        },
+        {
+          "title": "The Role of Bio-Inspired Modularity in General Learning",
+          "url": "https://arxiv.org/abs/2109.15097"
+        },
+        {
+          "title": "A Systematic Comparison of Deep Learning Architectures in an Autonomous Vehicle",
+          "url": "https://arxiv.org/abs/1803.09386"
+        }
+      ],
+      "source_native_claim": "Embodied physical or digital agents can be tested in synthetic environments, and biologically conserved modular topology is a candidate mechanism for learning new tasks without catastrophic forgetting while supporting transfer. Controlled embodied comparisons can reveal performance differences hidden by static classification scores.",
+      "strongest_actual_result": "A concrete continual-learning architecture proposal plus a controlled autonomous-driving comparison in which model and input choices produced different generalization behavior under changed tracks and obstacles.",
+      "assumptions_and_limits": [
+        "The modularity paper is primarily a proposal; it does not establish a general theory of intelligence.",
+        "The driving benchmark tests specified neural architectures, not consciousness or a Wolfram-Leibniz unification.",
+        "No primary scholarly source located in this intake establishes an operational consciousness criterion for Hahn's channel-level synthesis."
+      ],
+      "joshua_surfaces": [
+        "qit_engines_and_recursive_construction",
+        "object_individual_boundary_and_observer",
+        "plural_attractors_and_universality",
+        "fep_perception_consciousness_and_holodeck"
+      ],
+      "proposed_roles": [
+        "engineering_testbed",
+        "architecture_donor",
+        "critic_falsifier"
+      ],
+      "external_offers_joshua": "Embodied held-out tasks, catastrophic-forgetting metrics, and topology interventions that can test whether a two-engine organization does more than redescribe ordinary modular agents.",
+      "joshua_transplant_hypothesis": "Joshua's plural-attractor and engine diagnostics might select when modularity, memory, and model-building should be added rather than fixed by hand.",
+      "decisive_test": "Compare native modular learners, matched nonmodular controls, Joshua-selected organizations, and sham-selected organizations on preregistered task sequences, perturbations, transfer, forgetting, and compute burden. Reject the transplant if it adds no held-out advantage or merely rediscovers modular networks.",
+      "dossier_status": "SOURCE_PACKET_STARTER",
+      "ranking_eligible": false
+    },
+    {
+      "program_id": "eldiwiny_soft_robotics_morphological_computation",
+      "contributors": [
+        "Marwa ElDiwiny",
+        "Barbara Mazzolai"
+      ],
+      "canonical_version_scope": "ElDiwiny's soft-robotics work on embodied intelligence, morphological computation, artificial muscles, and damage-tolerant multimaterial structures; separate from her podcast-host and religion/UFO discussion format.",
+      "identity_resolution": "SOURCE_RESOLVED_AS_MARWA_ELDIWINY_SOFT_ROBOTICS_RESEARCHER_AND_PODCAST_HOST",
+      "relation_to_channel_episodes": [
+        {
+          "rss_index": 176,
+          "title": "Marwa and Curt Jaimungal: UFOs, Religion, God, and Free Will"
+        }
+      ],
+      "primary_sources": [
+        {
+          "title": "Embodied Intelligence & Morphological Computation in Soft Robotics Community: Collaborations, Coordination, and Perspective",
+          "url": "https://doi.org/10.1088/1757-899X/1261/1/012005"
+        },
+        {
+          "title": "Nonlinear Multimaterial Architecture for Greater Soft Material's Toughness and Delaying Damage Propagation",
+          "url": "https://doi.org/10.1089/soro.2021.0205"
+        },
+        {
+          "title": "Designing Artificial Muscles repository",
+          "url": "https://github.com/meldiwin/Designing-Artificial-Muscles"
+        }
+      ],
+      "source_native_claim": "Part of an adaptive system's competence can be carried by compliant morphology and material architecture rather than a centralized controller. Nonlinear multimaterial geometry can preserve toughness and delay crack propagation better than linear arrangements in the reported designs.",
+      "strongest_actual_result": "A concrete morphology-to-robustness result with specified material, geometric, and damage variables, plus an explicit embodied-intelligence research agenda grounded in soft-robotic systems.",
+      "assumptions_and_limits": [
+        "The embodied-intelligence paper is a community perspective based partly on interviews, not a unified quantitative theory.",
+        "Damage-tolerance results are design- and material-specific and do not by themselves establish agency or consciousness.",
+        "The channel appearance is not itself a presentation of this technical program."
+      ],
+      "joshua_surfaces": [
+        "object_individual_boundary_and_observer",
+        "life_evolution_agency_and_origins",
+        "qit_engines_and_recursive_construction"
+      ],
+      "proposed_roles": [
+        "empirical_testbed",
+        "embodiment_donor",
+        "engineering_falsifier"
+      ],
+      "external_offers_joshua": "A physical setting where boundary, memory, repair, and control can be perturbed separately instead of inferred from abstract simulations.",
+      "joshua_transplant_hypothesis": "Joshua's object and attractor criteria might identify when material morphology becomes a load-bearing part of an agent rather than passive plant.",
+      "decisive_test": "On matched soft-robot bodies, intervene independently on controller, morphology, material distribution, and damage history. Require Joshua's boundary/engine assignment to predict held-out repair and task performance beyond standard morphology and control features.",
+      "dossier_status": "SOURCE_PACKET_STARTER",
+      "ranking_eligible": false
+    },
+    {
+      "program_id": "steinberg_operational_quantum_duration",
+      "contributors": [
+        "Aephraim M. Steinberg",
+        "Daniela Angulo",
+        "Kyle Thompson",
+        "Vida-Michelle Nixon",
+        "Andy Jiao",
+        "Howard M. Wiseman",
+        "David C. Spierings"
+      ],
+      "canonical_version_scope": "Operational duration measurements using weak values, cross-Kerr excitation probes, and Larmor clocks; distinct notions such as group delay, excitation time, dwell time, and traversal time must not be collapsed.",
+      "identity_resolution": "SOURCE_RESOLVED_AS_AEPHRAIM_M_STEINBERG_UNIVERSITY_OF_TORONTO_QUANTUM_OPTICS",
+      "relation_to_channel_episodes": [
+        {
+          "rss_index": 14,
+          "title": "Aephraim Steinberg: The Physicist Who Measured Negative Time"
+        }
+      ],
+      "primary_sources": [
+        {
+          "title": "Experimental evidence that a photon can spend a negative amount of time in an atom cloud",
+          "url": "https://arxiv.org/abs/2409.03680"
+        },
+        {
+          "title": "Experimental Observation of Negative Weak Values for the Time Atoms Spend in the Excited State as a Photon Is Transmitted",
+          "url": "https://doi.org/10.1103/gjfq-k9dv"
+        },
+        {
+          "title": "Observation of the Decrease of Larmor Tunneling Times with Lower Incident Energy",
+          "url": "https://arxiv.org/abs/2101.12309"
+        }
+      ],
+      "source_native_claim": "Carefully defined conditional quantum durations are operationally measurable even when their weak-value mean is negative. In the reported atom-cloud experiment the time-integrated excitation probe tracks group delay, while Larmor-clock experiments measure nonzero tunneling durations with their own conditioning.",
+      "strongest_actual_result": "Measured mean excitation times from (-0.82 +/- 0.31) tau_0 to (0.54 +/- 0.28) tau_0 across pulse regimes, and separate ultracold-atom Larmor-clock measurements confirming specified tunneling-time predictions.",
+      "assumptions_and_limits": [
+        "A negative conditional weak value is not backward causal signaling, time travel, or a universal negative elapsed time.",
+        "Duration depends on the operational definition, preparation, postselection, and probe; different quantum time observables need not coincide.",
+        "The experiments use standard quantum theory and do not establish an ontology of time."
+      ],
+      "joshua_surfaces": [
+        "probability_time_causality_and_order",
+        "finite_quantum_and_carrier_reconstruction",
+        "formal_tools_limits_and_falsifiers"
+      ],
+      "proposed_roles": [
+        "empirical_testbed",
+        "critic_falsifier",
+        "operational_definition_donor"
+      ],
+      "external_offers_joshua": "A hard warning that 'time' must be split into probe-defined quantities, with real datasets that can falsify vague claims about emergent or nonprimitive time.",
+      "joshua_transplant_hypothesis": "An order-open carrier might reconstruct the measured conditional durations without promoting a single primitive metaphysical time, but must recover the exact standard-quantum statistics first.",
+      "decisive_test": "Lock the preparations, instruments, postselection, and raw observables; reproduce the native quantum predictions and data; then test whether Joshua derives the same family of durations with fewer primitives and a novel discriminator. Reject any transplant that explains the sign only after relabeling outcomes.",
+      "dossier_status": "SOURCE_PACKET_STARTER_WITH_EMPIRICAL_RESULT",
+      "ranking_eligible": false
+    },
+    {
+      "program_id": "vanchurin_world_as_neural_network",
+      "contributors": [
+        "Vitaly Vanchurin",
+        "Mikhail I. Katsnelson",
+        "Tom Westerhout"
+      ],
+      "canonical_version_scope": "The world-as-neural-network construction and its self-organized-critical learning extension; separate from the broader multilevel-learning theory of biological evolution.",
+      "identity_resolution": "SOURCE_RESOLVED_AS_VITALY_VANCHURIN",
+      "relation_to_channel_episodes": [
+        {
+          "rss_index": 28,
+          "title": "Vitaly Vanchurin: The Universe Is a Neural Network That Learns"
+        }
+      ],
+      "primary_sources": [
+        {
+          "title": "The world as a neural network",
+          "url": "https://arxiv.org/abs/2008.01540"
+        },
+        {
+          "title": "Towards a theory of machine learning",
+          "url": "https://arxiv.org/abs/2004.09280"
+        },
+        {
+          "title": "Self-organized criticality in neural networks",
+          "url": "https://arxiv.org/abs/2107.03402"
+        }
+      ],
+      "source_native_claim": "A fundamental system written as trainable variables such as weights and hidden variables such as neuron states can, in special limits, display approximate Madelung or Hamilton-Jacobi dynamics, emergent string-like spacetime, curvature, and an Einstein-Hilbert-form entropy-production term. Coupled learning dynamics can approach scale-invariant critical states.",
+      "strongest_actual_result": "Explicit mathematical constructions connecting specified stochastic neural-network limits to familiar classical, quantum, relativistic-string, and gravitational-form equations, plus analytic and numerical self-organized-critical behavior in a related learning model.",
+      "assumptions_and_limits": [
+        "The neural-network state, weights, losses, stochastic dynamics, subsystem decomposition, permutation-matrix limit, and symmetric Onsager tensor are installed choices.",
+        "Recovering equation forms in special limits does not show that the universe is uniquely or literally a neural network.",
+        "No distinctive empirical prediction separating the ontology from other stochastic effective models is established by these sources."
+      ],
+      "joshua_surfaces": [
+        "root_and_least_presumption",
+        "plural_attractors_and_universality",
+        "qit_engines_and_recursive_construction",
+        "spacetime_gravity_matter_and_cosmogenesis"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "mathematical_donor",
+        "critic_falsifier"
+      ],
+      "external_offers_joshua": "A more explicit learning-to-physics derivation target than Joshua currently has, with named variables, limits, symmetries, and numerical criticality tests.",
+      "joshua_transplant_hypothesis": "The Ratchet could treat the neural-network grammar and special tensor choices as competitors, testing whether the same effective equations and criticality survive weaker carriers and blinded alternatives.",
+      "decisive_test": "Reproduce every published analytic limit and numerical criticality result, enumerate installed structure, then compare neural, generic stochastic, associative, and Joshua-selected carriers on held-out observables. Reject Joshua's claim of depth if it cannot recover the results or reduce assumption burden without losing predictions.",
+      "dossier_status": "SOURCE_PACKET_STARTER",
+      "ranking_eligible": false
+    },
+    {
+      "program_id": "marletto_constructor_theory",
+      "contributors": [
+        "David Deutsch",
+        "Chiara Marletto"
+      ],
+      "canonical_version_scope": "Constructor theory's task-based possible/impossible formulation, including information, thermodynamics, life, and time as distinct subsidiary programs rather than one already-complete theory of everything.",
+      "identity_resolution": "SOURCE_RESOLVED_AS_CHIARA_MARLETTO_OXFORD_CONSTRUCTOR_THEORY",
+      "relation_to_channel_episodes": [
+        {
+          "rss_index": 184,
+          "title": "Chiara Marletto: A New Form of Science Built on What's Possible"
+        }
+      ],
+      "primary_sources": [
+        {
+          "title": "Constructor Theory",
+          "url": "https://arxiv.org/abs/1210.7439"
+        },
+        {
+          "title": "Constructor Theory of Information",
+          "url": "https://arxiv.org/abs/1405.5563"
+        },
+        {
+          "title": "Constructor Theory of Life",
+          "url": "https://arxiv.org/abs/1407.0681"
+        },
+        {
+          "title": "Constructor Theory of Thermodynamics",
+          "url": "https://arxiv.org/abs/1608.02625"
+        },
+        {
+          "title": "Constructor theory of time",
+          "url": "https://arxiv.org/abs/2505.08692"
+        }
+      ],
+      "source_native_claim": "Fundamental laws can be stated as which transformations or tasks are possible or impossible with arbitrary accuracy by reusable constructors. This counterfactual grammar supports noncircular physical definitions of information and exact formulations of thermodynamic, life, and time-related constraints.",
+      "strongest_actual_result": "A coherent formal vocabulary that derives qualitative information-theoretic phenomena from task constraints and expresses replication, work/heat, irreversibility, and duration questions without making ordinary equations of motion the sole fundamental form.",
+      "assumptions_and_limits": [
+        "The constructor, substrate, attribute, task, possibility, and arbitrary-accuracy grammar is installed rather than derived from an operationally weaker root.",
+        "Many principles are conjectural and empirical coverage remains program-specific.",
+        "A reformulation of known laws is not automatically a new prediction or a unique fundamental ontology."
+      ],
+      "joshua_surfaces": [
+        "root_and_least_presumption",
+        "admission_mss_and_purgatory",
+        "probability_time_causality_and_order",
+        "life_evolution_agency_and_origins",
+        "qit_engines_and_recursive_construction"
+      ],
+      "proposed_roles": [
+        "major_competitor",
+        "formalism_donor",
+        "critic_falsifier"
+      ],
+      "external_offers_joshua": "A mature possibility-first formalism that already attacks dynamics-first classicalness, with precise information, thermodynamic, life, and time subprograms Joshua would need to match.",
+      "joshua_transplant_hypothesis": "Joshua's root tournament could test whether constructor-theoretic tasks are earned behavioral quotients rather than primitive grammar, while importing their exact counterfactual discipline into Purgatory.",
+      "decisive_test": "Choose one executable constructor-theory subprogram, lock its task algebra and native predictions, and compare it to Joshua's weaker-root reconstruction and a sham grammar under equal resources. Joshua wins only if it derives the task structure, preserves the results, and removes load-bearing assumptions or adds a discriminator.",
+      "dossier_status": "SOURCE_PACKET_STARTER",
+      "ranking_eligible": false
+    },
+    {
+      "program_id": "marletto_vedral_gravity_entanglement_witness",
+      "contributors": [
+        "Chiara Marletto",
+        "Vlatko Vedral",
+        "Tianfeng Feng",
+        "Jonathan Oppenheim",
+        "Elizabeth Wilson"
+      ],
+      "canonical_version_scope": "The locality-qualified entanglement witness for nonclassical mediators and the proposed gravity-mediated entanglement experiment; separate from constructor theory as a general foundational program.",
+      "identity_resolution": "SOURCE_RESOLVED_AS_CHIARA_MARLETTO_OXFORD_QUANTUM_INFORMATION",
+      "relation_to_channel_episodes": [
+        {
+          "rss_index": 108,
+          "title": "Chiara Marletto: The Experiment That Could Reveal Quantum Gravity"
+        }
+      ],
+      "primary_sources": [
+        {
+          "title": "Gravitationally-induced entanglement between two massive particles is sufficient evidence of quantum effects in gravity",
+          "url": "https://arxiv.org/abs/1707.06036"
+        },
+        {
+          "title": "Collapse-based models for gravity do not violate the Entanglement-Based Witness of non-classicality",
+          "url": "https://arxiv.org/abs/2503.19774"
+        },
+        {
+          "title": "Classical gravity cannot mediate entanglement",
+          "url": "https://arxiv.org/abs/2511.07348"
+        }
+      ],
+      "source_native_claim": "If two quantum probes interact only locally through a mediator and become entangled, the mediator cannot be classical in the relevant information-theoretic sense. Spatially superposed masses therefore offer an indirect experimental witness of nonclassical gravitational degrees of freedom.",
+      "strongest_actual_result": "A general information-theoretic witness theorem and a concrete experimental architecture that shifts a quantum-gravity question toward laboratory entanglement measurements.",
+      "assumptions_and_limits": [
+        "The inference depends on locality, exclusion of direct probe coupling, and a specified meaning of classical mediator.",
+        "The proposed gravitational experiment is not yet a completed positive detection in the cited packet.",
+        "A positive witness would establish nonclassical mediation under the assumptions, not select a full quantum-gravity theory."
+      ],
+      "joshua_surfaces": [
+        "finite_quantum_and_carrier_reconstruction",
+        "probability_time_causality_and_order",
+        "spacetime_gravity_matter_and_cosmogenesis",
+        "formal_tools_limits_and_falsifiers"
+      ],
+      "proposed_roles": [
+        "empirical_testbed",
+        "critic_falsifier",
+        "quantum_gravity_witness_donor"
+      ],
+      "external_offers_joshua": "A sharp near-term kill test for any carrier or gravity story that claims to mediate entanglement while remaining operationally classical.",
+      "joshua_transplant_hypothesis": "Joshua's carrier tournament could broaden the witness from a classical/quantum dichotomy to a controlled comparison among associative, noncommuting, and nonassociative mediators, but must preserve the locality logic.",
+      "decisive_test": "Implement the witness with explicit mediator algebras, direct-coupling and electromagnetic controls, decoherence budgets, and preregistered entanglement criteria. A Joshua carrier is rejected if it predicts entanglement from a mediator whose accessible observables remain jointly classical under the same locality assumptions.",
+      "dossier_status": "SOURCE_PACKET_STARTER_EXPERIMENT_PENDING",
+      "ranking_eligible": false
+    }
+  ],
+  "resolutions": [
+    {
+      "unit_id": "identity:person_anand_vaidya",
+      "identity_or_format_resolution": "Anand Jayprakash Vaidya, comparative philosopher and epistemologist",
+      "resolution_state": "SOURCE_NATIVE_PROGRAMS_SPLIT",
+      "card_ids": [
+        "vaidya_comparative_vedanta_consciousness",
+        "vaidya_modal_epistemic_friction_and_logical_pluralism"
+      ],
+      "evidence": [
+        "channel_intake_v0_3.json#rss_index=196",
+        "channel_intake_v0_3.json#rss_index=206"
+      ],
+      "ranking_eligible": false
+    },
+    {
+      "unit_id": "identity:person_john_greenewald",
+      "identity_or_format_resolution": "John Greenewald Jr.; FOIA researcher and operator of The Black Vault document archive",
+      "resolution_state": "NON_SCIENTIFIC_CONTEXT",
+      "evidence": [
+        "channel_intake_v0_3.json#rss_index=215",
+        "https://www.theblackvault.com/"
+      ],
+      "notes": "The source-resolved contribution is evidence acquisition, provenance, and government-record archiving, not a distinct physical or metaphysical model. Retain as a possible evidence-audit tooling donor; do not score absence of a model as scientific weakness.",
+      "ranking_eligible": false
+    },
+    {
+      "unit_id": "identity:person_wayne_myrvold",
+      "identity_or_format_resolution": "Wayne Myrvold; philosopher of physics",
+      "resolution_state": "CROSS_REFERENCED_EXISTING_CARD",
+      "cross_reference": {
+        "file": "native_source_cards_batch_d.json",
+        "program_id": "myrvold_operational_thermodynamics"
+      },
+      "evidence": [
+        "channel_intake_v0_3.json#rss_index=44"
+      ],
+      "ranking_eligible": false
+    },
+    {
+      "unit_id": "residual:prefix_curt_jaimungal_reads_plato_s_cave",
+      "identity_or_format_resolution": "Host-only reading/exposition format; no guest identity to resolve",
+      "resolution_state": "RESIDUAL_FORMAT",
+      "evidence": [
+        "channel_intake_v0_3.json#intake_group_id=prefix_curt_jaimungal_reads_plato_s_cave",
+        "https://www.youtube.com/watch?v=PurNlwnxwfY"
+      ],
+      "notes": "Plato's allegory can be added later as a historical philosophical source if a declared comparison question requires it; this feed item is not itself a guest program.",
+      "ranking_eligible": false
+    },
+    {
+      "unit_id": "identity:person_william_hahn",
+      "identity_or_format_resolution": "William Edward Hahn, PhD; FAU Machine Perception and Cognitive Robotics researcher",
+      "resolution_state": "SOURCE_NATIVE_PROGRAM_SPLIT_FROM_CHANNEL_SPECULATION",
+      "card_ids": [
+        "hahn_bioinspired_modular_learning_and_embodied_agents"
+      ],
+      "evidence": [
+        "channel_intake_v0_3.json#rss_index=55",
+        "channel_intake_v0_3.json#rss_index=79",
+        "channel_intake_v0_3.json#rss_index=89",
+        "channel_intake_v0_3.json#rss_index=113",
+        "https://will.hahn.ai/"
+      ],
+      "ranking_eligible": false
+    },
+    {
+      "unit_id": "identity:person_ross_coulthart",
+      "identity_or_format_resolution": "Ross Coulthart; investigative journalist and UAP author/interviewer",
+      "resolution_state": "NON_SCIENTIFIC_CONTEXT",
+      "evidence": [
+        "channel_intake_v0_3.json#rss_index=212",
+        "channel_intake_v0_3.json#rss_index=295",
+        "https://www.rosscoulthart.com/"
+      ],
+      "notes": "The appearances concern testimony, documents, and disclosure claims rather than a source-native scientific model. Any later use belongs in an evidence-provenance lane with claim-by-claim corroboration, not in a model ranking.",
+      "ranking_eligible": false
+    },
+    {
+      "unit_id": "identity:person_latham_boyle",
+      "identity_or_format_resolution": "Latham Boyle; theoretical physicist",
+      "resolution_state": "CROSS_REFERENCED_EXISTING_CARD",
+      "cross_reference": {
+        "file": "native_source_cards_batch_d.json",
+        "program_id": "turok_cpt_symmetric_universe"
+      },
+      "evidence": [
+        "channel_intake_v0_3.json#rss_index=119"
+      ],
+      "notes": "The card is contributor- and version-specific; it does not treat all Boyle or Turok work as one program.",
+      "ranking_eligible": false
+    },
+    {
+      "unit_id": "identity:person_eric_weinstein",
+      "identity_or_format_resolution": "Eric Weinstein; Geometric Unity proposer and public commentator",
+      "resolution_state": "CROSS_REFERENCE_PENDING_BATCH_B_FINALIZATION",
+      "cross_reference": {
+        "file": "native_source_cards_batch_b.json",
+        "program_hint": "Geometric Unity"
+      },
+      "evidence": [
+        "channel_intake_v0_3.json#rss_index=65",
+        "channel_intake_v0_3.json#rss_index=261",
+        "channel_intake_v0_3.json#rss_index=352"
+      ],
+      "notes": "The UAP panel appearance is a separate non-model context and must not be merged into the Geometric Unity program card.",
+      "ranking_eligible": false
+    },
+    {
+      "unit_id": "identity:person_douglas_lain",
+      "identity_or_format_resolution": "Douglas Lain; novelist, editor, and left/critical-theory media producer",
+      "resolution_state": "NON_SCIENTIFIC_CONTEXT",
+      "evidence": [
+        "channel_intake_v0_3.json#rss_index=350",
+        "https://sublationmedia.com/about-us/"
+      ],
+      "notes": "The appearance compares Marxism, revolution, and Christianity. It may furnish ideological or social-theory critique, but no distinct executable scientific model relevant to the present campaign was located.",
+      "ranking_eligible": false
+    },
+    {
+      "unit_id": "identity:person_renato_renner",
+      "identity_or_format_resolution": "Renato Renner; quantum-information theorist",
+      "resolution_state": "CROSS_REFERENCED_EXISTING_CARD",
+      "cross_reference": {
+        "file": "native_source_cards_batch_d.json",
+        "program_id": "frauchiger_renner_self_reference_no_go"
+      },
+      "evidence": [
+        "channel_intake_v0_3.json#rss_index=18"
+      ],
+      "ranking_eligible": false
+    },
+    {
+      "unit_id": "identity:person_marwa",
+      "identity_or_format_resolution": "Marwa ElDiwiny; soft-robotics researcher and creator/host of the Soft Robotics podcast",
+      "resolution_state": "IDENTITY_RESOLVED_TECHNICAL_PROGRAM_SEPARATED_FROM_CHANNEL_CONTEXT",
+      "card_ids": [
+        "eldiwiny_soft_robotics_morphological_computation"
+      ],
+      "evidence": [
+        "channel_intake_v0_3.json#rss_index=176",
+        "https://www.youtube.com/@marwaeldiwiny"
+      ],
+      "ranking_eligible": false
+    },
+    {
+      "unit_id": "identity:person_aephraim_steinberg",
+      "identity_or_format_resolution": "Aephraim M. Steinberg; experimental quantum physicist",
+      "resolution_state": "SOURCE_NATIVE_PROGRAM_RESOLVED",
+      "card_ids": [
+        "steinberg_operational_quantum_duration"
+      ],
+      "evidence": [
+        "channel_intake_v0_3.json#rss_index=14"
+      ],
+      "ranking_eligible": false
+    },
+    {
+      "unit_id": "identity:person_rupert_sheldrake",
+      "identity_or_format_resolution": "Rupert Sheldrake; morphic-resonance and anomalous-cognition claimant",
+      "resolution_state": "CROSS_REFERENCE_PENDING_BATCH_B_FINALIZATION",
+      "cross_reference": {
+        "file": "native_source_cards_batch_b.json",
+        "program_hint": "Morphic resonance and telepathy claims"
+      },
+      "evidence": [
+        "channel_intake_v0_3.json#rss_index=110",
+        "channel_intake_v0_3.json#rss_index=342"
+      ],
+      "notes": "Keep this program separate from Chris Langan and Thomas Campbell despite the older registry grouping.",
+      "ranking_eligible": false
+    },
+    {
+      "unit_id": "identity:person_vitaly_vanchurin",
+      "identity_or_format_resolution": "Vitaly Vanchurin; theoretical physicist",
+      "resolution_state": "SOURCE_NATIVE_PROGRAM_RESOLVED",
+      "card_ids": [
+        "vanchurin_world_as_neural_network"
+      ],
+      "evidence": [
+        "channel_intake_v0_3.json#rss_index=28"
+      ],
+      "ranking_eligible": false
+    },
+    {
+      "unit_id": "identity:person_chiara_marletto",
+      "identity_or_format_resolution": "Chiara Marletto; constructor-theory and quantum-information physicist",
+      "resolution_state": "SOURCE_NATIVE_PROGRAMS_SPLIT",
+      "card_ids": [
+        "marletto_constructor_theory",
+        "marletto_vedral_gravity_entanglement_witness"
+      ],
+      "evidence": [
+        "channel_intake_v0_3.json#rss_index=108",
+        "channel_intake_v0_3.json#rss_index=184"
+      ],
+      "ranking_eligible": false
+    }
+  ]
+}

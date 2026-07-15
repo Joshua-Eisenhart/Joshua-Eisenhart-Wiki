@@ -1,0 +1,836 @@
+{
+  "schema_version": "native-source-cards/0.2",
+  "status": "SOURCE_NATIVE_STARTING_CARDS_NOT_RANKING_ELIGIBLE",
+  "cards": [
+    {
+      "id": "aaronson_complexity_limits",
+      "registry_parent_id": "aaronson_complexity_limits",
+      "canonical_program": "Complexity-theoretic constraints on physical theories",
+      "version_scope": "Scott Aaronson's program of using computational complexity, query complexity, oracle separations, and sampling hardness as constraints on physical and philosophical claims; this is a tool family rather than a single physical ontology.",
+      "split_status": "BOUNDED_PROGRAM_RESOLVED",
+      "contributors": ["Scott Aaronson"],
+      "primary_sources": [
+        "https://arxiv.org/abs/quant-ph/0502072",
+        "https://arxiv.org/abs/1108.1791",
+        "https://arxiv.org/abs/1011.3245",
+        "https://arxiv.org/abs/2209.06930"
+      ],
+      "native": {
+        "primitives": "Computational problems indexed by input size, algorithms or physical procedures, resource measures such as time, space, samples, precision and queries, complexity classes, reductions, and explicitly declared circuit, oracle or sampling models.",
+        "dynamics": "Map a proposed physical process to a computation model, count every resource, and prove upper bounds, lower bounds, reductions, oracle separations, or conditional hardness consequences.",
+        "claims": "Computability is not feasibility; physical proposals must account for all computational resources. Quantum mechanics enables important structured speedups but supplies no generic evidence that NP-complete problems become efficient.",
+        "strongest_actual_evidence_or_result": "Rigorous query and oracle bounds and conditional sampling-hardness results, including the BosonSampling result that efficient exact classical sampling would have implausible polynomial-hierarchy consequences under the stated conjectures. P versus NP remains unproved and is not a physical law.",
+        "assumptions_and_scope_limits": [
+          "Every result is relative to a declared computation, access, error, uniformity and precision model.",
+          "Many quantum-advantage results are conditional on unproved average-case hardness or anti-concentration conjectures.",
+          "Asymptotic hardness does not by itself adjudicate ontology or small finite instances."
+        ]
+      },
+      "roles": ["critic_falsifier", "mathematical_tool"],
+      "joshua_crosswalk": {
+        "comparison_surface_ids": ["admission_mss_and_purgatory", "formal_tools_limits_and_falsifiers"],
+        "question_families": ["Q_RATCHET"],
+        "external_offers_joshua": "A disciplined exploration-budget audit, lower-bound vocabulary, and tests for hidden oracle, precision, memory, verification or exponential-enumeration costs.",
+        "joshua_might_offer_hypothesis": "Purgatory receipts and explicit candidate lineages might operationalize complexity-aware scientific search, but no new lower bound or complexity-class result has yet been derived."
+      },
+      "decisive_comparison_or_kill_test": "Express each claimed Ratchet or engine search as a problem family and preregister candidate count, precision, oracle calls, memory and verification cost. Reject any scalability claim whose required resources grow superpolynomially under its own declared model; this would not by itself reject the ontology.",
+      "dossier_status": "SOURCE_PACKET_STARTER_COMPLETE_REPRODUCTION_PENDING",
+      "ranking_eligible": false
+    },
+    {
+      "id": "active_automata_learning",
+      "registry_parent_id": "active_automata_learning",
+      "canonical_program": "Active automata learning from L-star to modern Mealy-machine learners",
+      "version_scope": "Angluin's exact L-star theorem plus practical discrimination-tree, TTT and conformance-testing implementations represented by LearnLib.",
+      "split_status": "BOUNDED_TOOL_FAMILY_RESOLVED",
+      "contributors": ["Dana Angluin", "Bernhard Steffen", "Falk Howar", "Malte Isberner", "LearnLib contributors"],
+      "primary_sources": [
+        "https://doi.org/10.1016/0890-5401(87)90052-6",
+        "https://arxiv.org/abs/1902.01139",
+        "https://learnlib.de/",
+        "https://github.com/LearnLib/learnlib"
+      ],
+      "native": {
+        "primitives": "An unknown regular language or finite-state system under learning, membership queries, equivalence queries returning counterexamples, observation tables or discrimination trees, and candidate DFA or Mealy machines.",
+        "dynamics": "Construct a hypothesis automaton, compare it with the target through an equivalence oracle, use each counterexample to refine the partition, and repeat until no counterexample exists.",
+        "claims": "Under an exact minimally adequate teacher, L-star identifies the minimal DFA with polynomially many queries and polynomial computation in target size and maximum counterexample length; practical variants learn state-machine models from system interfaces.",
+        "strongest_actual_evidence_or_result": "The exact minimal-DFA learning theorem and a mature implementation ecosystem with practical successes in protocol and software model inference.",
+        "assumptions_and_scope_limits": [
+          "The theorem assumes a finite-state regular target, resettable query access, truthful membership answers and an exact equivalence oracle.",
+          "Real systems usually replace equivalence with incomplete conformance tests, so lack of a counterexample is not proof of equivalence.",
+          "Noise, nondeterminism, continuous state and large alphabets require extensions with weaker guarantees."
+        ]
+      },
+      "roles": ["mathematical_tool", "donor"],
+      "joshua_crosswalk": {
+        "comparison_surface_ids": ["admission_mss_and_purgatory", "plural_attractors_and_universality", "formal_tools_limits_and_falsifiers"],
+        "question_families": ["Q_RATCHET"],
+        "external_offers_joshua": "Counterexample-driven probe selection, exact minimal behavioral machines under declared assumptions, and query-complexity accounting.",
+        "joshua_might_offer_hypothesis": "Purgatory could wrap an automata learner with context-indexed re-entry and immutable evidence lineage, but this is an integration proposal rather than an improved learning theorem."
+      },
+      "decisive_comparison_or_kill_test": "Hide a known finite Ratchet simulator and compare L-star or TTT with the current probe logic on exact quotient recovery, query count and counterexample receipts. Reject the integration if it fails to recover the known target or treats approximate conformance as proof.",
+      "dossier_status": "SOURCE_PACKET_STARTER_COMPLETE_REPRODUCTION_PENDING",
+      "ranking_eligible": false
+    },
+    {
+      "id": "adlam_constraint_based_lawhood",
+      "registry_parent_id": "all_at_once_retrocausal_models",
+      "canonical_program": "Constraint-based lawhood and generalized determinism",
+      "version_scope": "Emily Adlam's history-level modal framework and taxonomy of temporal, delocalized and holistic determinism; not itself a completed quantum dynamics.",
+      "split_status": "SPLIT_FROM_BUNDLED_RETROCAUSAL_ENTRY",
+      "contributors": ["Emily Adlam"],
+      "primary_sources": [
+        "https://arxiv.org/abs/2109.13836",
+        "https://arxiv.org/abs/2110.07656",
+        "https://arxiv.org/abs/2201.12934",
+        "https://arxiv.org/abs/2309.12293"
+      ],
+      "native": {
+        "primitives": "A space of complete histories or mosaics, modal constraints selecting allowable histories, generalized determination relations, and, where needed, probability measures over histories.",
+        "dynamics": "Laws constrain complete histories all at once rather than privileging a forward initial-value update.",
+        "claims": "A law can be global, atemporal or delocalized; determinism need not mean time evolution from an instantaneous state. All-at-once retrocausality is a coherent route for quantum foundations and can shift what locality means at the history level.",
+        "strongest_actual_evidence_or_result": "A precise philosophical and formal taxonomy of constraint laws and generalized determinism. It supplies no distinct empirical prediction or complete quantum measure by itself.",
+        "assumptions_and_scope_limits": [
+          "The space of histories, modal constraint and any probability measure must be specified independently.",
+          "The framework is deliberately permissive and therefore does not select a unique physics.",
+          "Conceptual coherence is not empirical confirmation of retrocausality."
+        ]
+      },
+      "roles": ["bridge_translator", "critic_falsifier", "donor"],
+      "joshua_crosswalk": {
+        "comparison_surface_ids": ["probability_time_causality_and_order", "spacetime_gravity_matter_and_cosmogenesis"],
+        "question_families": ["Q_ORDER"],
+        "external_offers_joshua": "A clean separation of temporal sequence, determination, causation and whole-history constraint, preventing vocabulary-level conflation.",
+        "joshua_might_offer_hypothesis": "A finite ensemble of histories plus Ratchet selection could instantiate Adlam's schema without primitive forward causation; the required measure and quantum content are not yet earned."
+      },
+      "decisive_comparison_or_kill_test": "Require an explicit finite Bell-history model with a normalized measure reproducing Born and CHSH statistics, no signaling and Lorentz-compatible observable content. If no such model is supplied, retain this as a bridge framework rather than scoring it as a failed physical competitor.",
+      "dossier_status": "NATIVE_DOSSIER_STARTER_LOCKED_NONEXECUTABLE_FRAMEWORK",
+      "ranking_eligible": false
+    },
+    {
+      "id": "wharton_lagrangian_all_at_once",
+      "registry_parent_id": "all_at_once_retrocausal_models",
+      "canonical_program": "Lagrangian all-at-once and time-symmetric boundary-condition models",
+      "version_scope": "Ken Wharton's time-symmetric boundary framework, Lagrangian-Only Quantum Theory toy proposal, and locally mediated Bell reformulations; these versions should remain separately testable within the card.",
+      "split_status": "SPLIT_FROM_BUNDLED_RETROCAUSAL_ENTRY",
+      "contributors": ["Ken Wharton", "Nathan Argaman"],
+      "primary_sources": [
+        "https://arxiv.org/abs/1003.4273",
+        "https://arxiv.org/abs/1301.7012",
+        "https://arxiv.org/abs/1906.04313"
+      ],
+      "native": {
+        "primitives": "Continuum spacetime fields, a Lagrangian or action, boundary data on a spacetime region including future measurement settings, and complete field histories. LOQT additionally restricts histories by a zero-Lagrangian-density condition and uses a proposed weighting rule.",
+        "dynamics": "Solve a boundary-value or variational problem for the complete field history rather than evolve an ontic state only from an initial surface.",
+        "claims": "Relaxing one-way temporal assumptions permits Lorentz-compatible, locally mediated reformulations of Bell correlations and may avoid exponentially large ontic state spaces.",
+        "strongest_actual_evidence_or_result": "Explicit proof-of-principle spin and Bell toy models showing how future-input dependence changes Bell's assumptions. There is no complete reproduction of generic quantum theory or quantum field theory.",
+        "assumptions_and_scope_limits": [
+          "Continuum classical fields, boundary conditions and a history weighting rule are installed.",
+          "Measurement independence is relaxed through dependence on future settings.",
+          "LOQT's zero-Lagrangian restriction and equal weighting are special choices.",
+          "Generalization beyond toy sectors is an acknowledged open challenge."
+        ]
+      },
+      "roles": ["competitor", "donor"],
+      "joshua_crosswalk": {
+        "comparison_surface_ids": ["probability_time_causality_and_order", "finite_quantum_and_carrier_reconstruction", "spacetime_gravity_matter_and_cosmogenesis"],
+        "question_families": ["Q_ORDER"],
+        "external_offers_joshua": "A hard continuous all-at-once baseline and an explicit Bell-locality checklist.",
+        "joshua_might_offer_hypothesis": "A finite constrained-history carrier might replace the continuum fields or authored weights, but no derivation currently supports that substitution."
+      },
+      "decisive_comparison_or_kill_test": "Use one locked model to reproduce arbitrary-setting Born and Bell correlations, sequential contextuality, multiparticle interference and a controlled field-theory limit without fine-tuned setting-specific measures. Failure beyond toy sectors rejects a claimed complete quantum model, not the all-at-once strategy.",
+      "dossier_status": "SOURCE_PACKET_STARTER_COMPLETE_REPRODUCTION_PENDING",
+      "ranking_eligible": false
+    },
+    {
+      "id": "kastner_possibilist_transactional_interpretation",
+      "registry_parent_id": "all_at_once_retrocausal_models",
+      "canonical_program": "Possibilist and relativistic transactional interpretation",
+      "version_scope": "Ruth Kastner's PTI and relativistic quantum direct-action development; it must not be conflated with the two-state-vector formalism.",
+      "split_status": "SPLIT_FROM_BUNDLED_RETROCAUSAL_ENTRY",
+      "contributors": ["Ruth E. Kastner", "John G. Cramer", "Paul C. W. Davies"],
+      "primary_sources": [
+        "https://arxiv.org/abs/1204.5227",
+        "https://arxiv.org/abs/2101.00712",
+        "https://arxiv.org/abs/1006.4902",
+        "https://arxiv.org/abs/1702.04021"
+      ],
+      "native": {
+        "primitives": "Retarded offer waves, advanced confirmation waves, emitters and absorbers, pre-spacetime Hilbert or Fock-space possibilities, coupling amplitudes and direct-action interactions.",
+        "dynamics": "A stochastic, nonunitary emitter-absorber transaction actualizes one possibility as spacetime events; virtual direct exchanges and real transferred quanta are distinguished.",
+        "claims": "PTI supplies an observer-independent measurement transition, while relativistic direct action clarifies absorption, real photons and aspects of field quantization.",
+        "strongest_actual_evidence_or_result": "A coherent account of standard quantum and quantum-electrodynamic sectors and detailed analyses of transactional paradoxes. No distinct empirical prediction has yet selected PTI over empirically equivalent standard formulations.",
+        "assumptions_and_scope_limits": [
+          "Complex Hilbert or Fock space, coupling amplitudes and the relevant direct-action structure are installed.",
+          "Born weighting or an equivalent transactional probability rule is required.",
+          "Absorber response and the possibilist ontology are interpretation-level commitments.",
+          "Agreement in standard domains is not unique confirmation."
+        ]
+      },
+      "roles": ["competitor", "bridge_translator", "critic_falsifier"],
+      "joshua_crosswalk": {
+        "comparison_surface_ids": ["probability_time_causality_and_order", "finite_quantum_and_carrier_reconstruction", "spacetime_gravity_matter_and_cosmogenesis"],
+        "question_families": ["Q_ORDER", "Q_QRECON"],
+        "external_offers_joshua": "An explicit source-sink actualization mechanism and a source-native warning against treating weak values as direct ontic properties.",
+        "joshua_might_offer_hypothesis": "A finite, nonprimitive-probability selection mechanism might recast transactions, but it has not derived QED amplitudes, actualization or Born statistics."
+      },
+      "decisive_comparison_or_kill_test": "Derive decay and scattering probabilities plus the actualization rule from declared direct-action primitives without silently importing standard QFT and Born weights, then state a novel discriminator. Without that discriminator, classify PTI as an interpretation and donor rather than a falsified theory.",
+      "dossier_status": "SOURCE_PACKET_STARTER_COMPLETE_REPRODUCTION_PENDING",
+      "ranking_eligible": false
+    },
+    {
+      "id": "aharonov_two_state_vector_formalism",
+      "registry_parent_id": "all_at_once_retrocausal_models",
+      "canonical_program": "Two-state-vector formalism and time-symmetric quantum mechanics",
+      "version_scope": "The Aharonov-Bergmann-Lebowitz and Aharonov-Vaidman pre/postselected formalism, including weak values and later measurement accounts.",
+      "split_status": "SPLIT_FROM_BUNDLED_RETROCAUSAL_ENTRY",
+      "contributors": ["Yakir Aharonov", "Peter G. Bergmann", "Joel L. Lebowitz", "Lev Vaidman", "Eliahu Cohen"],
+      "primary_sources": [
+        "https://arxiv.org/abs/quant-ph/0105101",
+        "https://arxiv.org/abs/1406.6382",
+        "https://arxiv.org/abs/1610.09025",
+        "https://arxiv.org/abs/1702.04021"
+      ],
+      "native": {
+        "primitives": "A forward-evolving ket fixed by preselection, a backward-evolving bra fixed by postselection, the ABL conditional probability rule, weak measurement operations and weak values.",
+        "dynamics": "Standard unitary quantum evolution applies in both temporal directions between preparation, measurement and postselection; conditional probabilities are computed from both boundary conditions.",
+        "claims": "TSVF gives a time-symmetric representation of quantum experiments and organizes weak-measurement and pre/postselection phenomena; stronger two-time interpretations use a final boundary to discuss collapse and classical robustness.",
+        "strongest_actual_evidence_or_result": "Weak-value and pre/postselection experiments reproduce the formal predictions, but these are also predictions of ordinary conditional quantum mechanics, so they do not uniquely establish retrocausal ontology.",
+        "assumptions_and_scope_limits": [
+          "Complex Hilbert space, standard unitary dynamics, measurements and Born or ABL probabilities are primitive.",
+          "Postselection success and any special final state require specification.",
+          "Operational success does not distinguish the formalism from standard quantum conditionalization."
+        ]
+      },
+      "roles": ["donor", "empirical_testbed", "critic_falsifier"],
+      "joshua_crosswalk": {
+        "comparison_surface_ids": ["probability_time_causality_and_order", "finite_quantum_and_carrier_reconstruction"],
+        "question_families": ["Q_ORDER", "Q_QRECON"],
+        "external_offers_joshua": "An exact operational benchmark for any claim of time symmetry, including ABL probabilities and weak-value statistics.",
+        "joshua_might_offer_hypothesis": "An order-open finite engine might reproduce ABL and weak values without primitive time or probability; no such non-spectator derivation has yet been shown."
+      },
+      "decisive_comparison_or_kill_test": "Joshua must reproduce ABL statistics and nontrivial multipartite sequential cases without spectator lifts. TSVF requires a preregistered prediction differing from ordinary conditional quantum mechanics before it can be ranked as a distinct empirical theory.",
+      "dossier_status": "SOURCE_PACKET_STARTER_COMPLETE_REPRODUCTION_PENDING",
+      "ranking_eligible": false
+    },
+    {
+      "id": "assembly_theory_joint_cronin_walker",
+      "registry_parent_id": "assembly_theory",
+      "canonical_program": "Assembly Theory",
+      "version_scope": "The current joint Cronin-Walker formulation: molecular assembly index, copy-number-weighted ensemble Assembly and selection on assembly spaces. Cronin's molecular pathway-complexity lineage and Walker's earlier algorithmic-origins work are distinct precursors, not rival current versions of Assembly Theory.",
+      "split_status": "JOINT_PROGRAM_RESOLVED_WITH_CLAIM_OWNERSHIP_NOTED",
+      "contributors": ["Leroy Cronin", "Sara Imari Walker", "Abhishek Sharma", "Douglas Moore", "paper-specific collaborators"],
+      "claim_ownership": {
+        "shared_current_claims": "The 2023 Nature framework, including assembly spaces, assembly index, copy-number weighting and the proposed selection bridge, is jointly authored and must not be assigned to only Cronin or only Walker.",
+        "cronin_distinct_lineage": "Pathway complexity, molecular graph and bond-assembly computation, spectroscopy and biosignature experiments are Cronin-led precursors and empirical emphases.",
+        "walker_distinct_lineage": "Algorithmic origins, top-down causation and information as a causal quantity predate the joint AT paper and should be assessed as a separate program card rather than called a Walker-only Assembly Theory."
+      },
+      "primary_sources": [
+        "https://www.nature.com/articles/s41586-023-06600-9",
+        "https://www.nature.com/articles/s41467-021-23258-x",
+        "https://arxiv.org/abs/1705.03460",
+        "https://www.nature.com/articles/s44260-025-00049-9",
+        "https://www.nature.com/articles/s44260-026-00088-w"
+      ],
+      "native": {
+        "primitives": "Finite distinguishable, persistent and breakable objects; elementary building blocks; recursive join operations with reusable subassemblies; assembly spaces; shortest-path assembly index; copy counts; and an ensemble Assembly functional.",
+        "dynamics": "Objects are recursively joined along an assembly space. The 2023 model adds exploration and selection parameters and weights high-index objects by abundance.",
+        "claims": "High assembly index together with high copy number is proposed as evidence of selection; formation history and contingency become measurable physical properties; AT is proposed as a bridge between physics and biology.",
+        "strongest_actual_evidence_or_result": "Mass-spectrometric observables correlate with computed molecular assembly for tested chemical samples, making chemistry the strongest current domain. Universal causal claims are disputed: recent controls report substantial overlap with standard compression and simple molecular covariates, while AT authors defend distinct ontology and computational hardness.",
+        "assumptions_and_scope_limits": [
+          "Object boundaries, primitive blocks, allowed joins, free reuse and persistence are representation choices.",
+          "Shortest assembly path is treated as a proxy for historical memory, and copy number is supplied separately.",
+          "The framework uses forward assembly and causal-selection language.",
+          "Chemistry results do not yet validate universal claims across arbitrary objects or life."
+        ]
+      },
+      "roles": ["empirical_testbed", "competitor", "donor", "critic_falsifier"],
+      "joshua_crosswalk": {
+        "comparison_surface_ids": ["root_and_least_presumption", "plural_attractors_and_universality", "finite_quantum_and_carrier_reconstruction", "life_evolution_agency_and_origins"],
+        "question_families": ["Q_OBJECT", "Q_RATCHET"],
+        "external_offers_joshua": "Real molecular datasets, a finite compositional-history metric and a precise abundance-plus-complexity selection claim.",
+        "joshua_might_offer_hypothesis": "Bracket-sensitive or nonassociative assembly plus Purgatory-managed history ensembles might add discriminatory power, but this requires an out-of-sample prediction rather than vocabulary alignment."
+      },
+      "decisive_comparison_or_kill_test": "Preregister mass-, length-, bond-count- and abundance-matched biotic, abiotic and engineered samples. Compare AT out of sample against LZ, RLE, Huffman, BDM and graph-grammar baselines, and vary primitive blocks and join rules. Lack of incremental calibrated value rejects the universal selection claim while leaving a useful chemical metric possible.",
+      "dossier_status": "SOURCE_PACKET_STARTER_COMPLETE_ACTIVE_SCIENTIFIC_DISPUTE",
+      "ranking_eligible": false
+    },
+    {
+      "id": "walker_algorithmic_origins",
+      "registry_parent_id": "assembly_theory",
+      "canonical_program": "Algorithmic origins of life and top-down informational causation",
+      "version_scope": "Sara Imari Walker's pre-Assembly-Theory program with Paul Davies; retained separately because its central claims are not equivalent to molecular assembly index.",
+      "split_status": "DISTINCT_PRECURSOR_PROGRAM_SPLIT_FROM_ASSEMBLY_THEORY",
+      "contributors": ["Sara Imari Walker", "Paul C. W. Davies"],
+      "primary_sources": [
+        "https://arxiv.org/abs/1207.4803",
+        "https://royalsocietypublishing.org/doi/10.1098/rsfs.2015.0005"
+      ],
+      "native": {
+        "primitives": "Physical states and dynamical rules, algorithmic or informational descriptions, hierarchical organization, control channels and context-dependent causal efficacy.",
+        "dynamics": "A proposed transition occurs when information becomes an active causal controller over lower-level physical processes rather than a passive descriptor.",
+        "claims": "Life's origin may be marked by an algorithmic transition and top-down information flow that cannot be captured solely by bottom-up chemistry.",
+        "strongest_actual_evidence_or_result": "A programmatic theoretical distinction and candidate signatures, not a unique executable model or experimentally confirmed origin transition.",
+        "assumptions_and_scope_limits": [
+          "Information, causal control and organizational levels require explicit operational definitions.",
+          "Algorithmic complexity depends on description language and is generally uncomputable in its ideal form.",
+          "The program does not yet derive a specific prebiotic reaction pathway."
+        ]
+      },
+      "roles": ["bridge_translator", "donor", "competitor"],
+      "joshua_crosswalk": {
+        "comparison_surface_ids": ["object_individual_boundary_and_observer", "qit_engines_and_recursive_construction", "life_evolution_agency_and_origins"],
+        "question_families": ["Q_OBJECT"],
+        "external_offers_joshua": "A sharp demand that information have interventionally measurable causal control rather than merely describe correlations.",
+        "joshua_might_offer_hypothesis": "Two-engine recurrence and cross-view repair might operationalize the proposed algorithmic transition, but Joshua has not derived the engine or shown a causal-control advantage."
+      },
+      "decisive_comparison_or_kill_test": "Define an intervention-based control metric on a prebiotic or artificial chemistry, compare it with transfer entropy, causal emergence and standard feedback control, and test held-out perturbations. Reject the special algorithmic-transition claim if it adds no invariant predictive or control signature.",
+      "dossier_status": "SOURCE_PACKET_PARTIAL_NONEXECUTABLE_FRAMEWORK",
+      "ranking_eligible": false
+    },
+    {
+      "id": "bianconi_network_geometry_with_flavor",
+      "registry_parent_id": "bianconi_entropy_network_geometry",
+      "canonical_program": "Network Geometry with Flavor",
+      "version_scope": "Bianconi's stochastic growth models for simplicial and cell complexes, including emergent hyperbolic network geometry; distinct from her later relative-entropy action for geometry and matter.",
+      "split_status": "SPLIT_FROM_BUNDLED_BIANCONI_ENTRY",
+      "contributors": ["Ginestra Bianconi", "Christoph Rahmede", "paper-specific collaborators"],
+      "primary_sources": [
+        "https://arxiv.org/abs/1511.04539",
+        "https://arxiv.org/abs/1607.05710",
+        "https://arxiv.org/abs/1711.06290"
+      ],
+      "native": {
+        "primitives": "Growing d-dimensional simplicial or cell complexes, faces and generalized degree, face energies or fitness, a flavor parameter in {-1,0,1}, stochastic attachment probabilities and optional quantum-state representations of network ensembles.",
+        "dynamics": "At each preferred growth step a simplex or polytope attaches to an eligible face with flavor- and energy-dependent probability.",
+        "claims": "Simple local growth rules generate scale-free, small-world, community and hyperbolic network geometry; generalized degrees exhibit Fermi-Dirac, Boltzmann or Bose-Einstein statistics, and some ensemble entropies obey generalized area laws.",
+        "strongest_actual_evidence_or_result": "Analytic and numerical results for the declared stochastic ensembles, including degree distributions and emergent hyperbolic structure. The dynamics remain classical even when encoded as a quantum network state.",
+        "assumptions_and_scope_limits": [
+          "A preferred growth time, probability law, building blocks, fitness variables and attachment rule are installed.",
+          "Emergent network geometry is not evidence that physical spacetime follows the same rule.",
+          "Continuum gravity, matter and empirical cosmology are not derived."
+        ]
+      },
+      "roles": ["donor", "mathematical_tool", "competitor"],
+      "joshua_crosswalk": {
+        "comparison_surface_ids": ["nested_entropic_geometry_flux_and_chirality", "spacetime_gravity_matter_and_cosmogenesis"],
+        "question_families": ["Q_CHIRAL"],
+        "external_offers_joshua": "Executable simplicial-growth baselines, analytic distributions, spectral and hyperbolic geometry diagnostics, and null attachment models.",
+        "joshua_might_offer_hypothesis": "A finite full-support or chiral engine might generate comparable complexes without primitive stochastic growth time, but no derivation currently exists."
+      },
+      "decisive_comparison_or_kill_test": "Reproduce the published distributions and spectral observables, then compare Joshua-derived growth with degree-, energy- and age-matched null attachment rules. Reject any claimed geometric gain that disappears under these controls or requires the same authored growth probabilities.",
+      "dossier_status": "SOURCE_PACKET_STARTER_COMPLETE_REPRODUCTION_PENDING",
+      "ranking_eligible": false
+    },
+    {
+      "id": "bianconi_quantum_relative_entropy_geometry",
+      "registry_parent_id": "bianconi_entropy_network_geometry",
+      "canonical_program": "Quantum-relative-entropy action for geometry, matter and gauge fields on cell complexes",
+      "version_scope": "Bianconi's 2024 discrete action proposal; kept distinct from Network Geometry with Flavor because its primitives, dynamics and evidence are different.",
+      "split_status": "SPLIT_FROM_BUNDLED_BIANCONI_ENTRY",
+      "contributors": ["Ginestra Bianconi"],
+      "primary_sources": ["https://arxiv.org/abs/2404.08556"],
+      "native": {
+        "primitives": "A cell complex with a metric or volume assignment, logarithmic volume variables, topological spinors and discrete Dirac operators, plus geometry and matter or gauge induced density matrices or metrics compared by quantum relative entropy.",
+        "dynamics": "Vary a proposed relative-entropy-based action to obtain coupled equations for discrete geometry, matter and gauge fields.",
+        "claims": "Geometry and matter can be coupled on a network through quantum relative entropy, potentially providing an information-theoretic route to discrete gravity and gauge dynamics.",
+        "strongest_actual_evidence_or_result": "A mathematically explicit action and its formal variational equations. There is not yet a demonstrated Standard Model, general-relativistic continuum limit or empirical prediction.",
+        "assumptions_and_scope_limits": [
+          "The cell complex, metric variables, density-matrix construction, spinors, Dirac operators and action are installed.",
+          "Positivity, stability and continuum control require case-specific analysis.",
+          "Information-theoretic form does not by itself establish physical fundamentality."
+        ]
+      },
+      "roles": ["donor", "mathematical_tool", "competitor"],
+      "joshua_crosswalk": {
+        "comparison_surface_ids": ["finite_quantum_and_carrier_reconstruction", "nested_entropic_geometry_flux_and_chirality", "spacetime_gravity_matter_and_cosmogenesis"],
+        "question_families": ["Q_CHIRAL"],
+        "external_offers_joshua": "A concrete entropy-geometry action into which Joshua's proposed matter or engine structures could be inserted and checked.",
+        "joshua_might_offer_hypothesis": "Joshua's finite chiral or nonassociative carrier might supply the induced matter metric, but this is unearned until positivity, covariance and a controlled continuum are shown."
+      },
+      "decisive_comparison_or_kill_test": "For finite complexes prove boundedness, positivity, stability and conserved quantities, then recover a controlled GR-plus-gauge continuum with bounded corrections. Feeding a Joshua engine into the action must yield a positive consistent metric; failure kills that coupling proposal, not Network Geometry with Flavor.",
+      "dossier_status": "SOURCE_PACKET_PARTIAL_THEORY_REPRODUCTION_PENDING",
+      "ranking_eligible": false
+    },
+    {
+      "id": "bisimulation_coalgebra",
+      "registry_parent_id": "bisimulation_coalgebra",
+      "canonical_program": "Coalgebraic behavioral equivalence and bisimulation",
+      "version_scope": "Universal coalgebra, labeled-transition-system bisimulation and algorithmic distinguishing witnesses; this is a semantic tool family, not a physical model.",
+      "split_status": "BOUNDED_TOOL_FAMILY_RESOLVED",
+      "contributors": ["Robin Milner", "Jan Rutten", "Alexandra Silva", "Filippo Bonchi", "paper-specific collaborators"],
+      "primary_sources": [
+        "https://doi.org/10.1016/S0304-0208(00)00056-6",
+        "https://arxiv.org/abs/1302.1046",
+        "https://arxiv.org/abs/2002.11459"
+      ],
+      "native": {
+        "primitives": "States, observations or actions, transitions, a system functor F and coalgebra c:X->F(X), relations matching observable successor behavior, and final semantics where available.",
+        "dynamics": "Compute the greatest fixed-point behavioral equivalence, quotient bisimilar states, or construct a modal formula or game strategy that distinguishes non-bisimilar states.",
+        "claims": "Bisimulation is an exact invariant of behavior for the declared semantics, supports coinductive proofs, and yields minimal behavioral quotients and counterexample witnesses in many finite settings.",
+        "strongest_actual_evidence_or_result": "General equivalence, congruence, minimization and witness theorems across broad classes of transition systems and coalgebras.",
+        "assumptions_and_scope_limits": [
+          "The observation interface, transition semantics and system functor must be fixed first.",
+          "Strong, weak, probabilistic, branching and other bisimulations answer different questions.",
+          "Exact finite algorithms can still suffer state explosion, and behavioral equivalence is not metaphysical identity."
+        ]
+      },
+      "roles": ["mathematical_tool", "critic_falsifier"],
+      "joshua_crosswalk": {
+        "comparison_surface_ids": ["admission_mss_and_purgatory", "plural_attractors_and_universality", "formal_tools_limits_and_falsifiers"],
+        "question_families": ["Q_RATCHET"],
+        "external_offers_joshua": "Exact alias collapse, quotient minimality and machine-checkable distinguishing witnesses.",
+        "joshua_might_offer_hypothesis": "Joshua's MSS and engine identities might coincide with a useful context-sensitive coalgebraic quotient, but the functor and equivalence have not been formally identified."
+      },
+      "decisive_comparison_or_kill_test": "Encode finite Ratchet traces as a declared coalgebra and compare Joshua's alias classes with the bisimulation partition. Any merged pair with a distinguishing witness falsifies the alias rule; unexplained extra splits reveal redundancy rather than added ontology.",
+      "dossier_status": "SOURCE_PACKET_STARTER_COMPLETE_REPRODUCTION_PENDING",
+      "ranking_eligible": false
+    },
+    {
+      "id": "carcassi_assumptions_of_physics",
+      "registry_parent_id": "carcassi_assumptions_of_physics",
+      "canonical_program": "Assumptions of Physics reverse derivation",
+      "version_scope": "Carcassi and Aidala's conditional reconstructions of finite-dimensional classical and quantum particle mechanics from explicit physical assumptions, including their critique of completed infinite Hilbert spaces.",
+      "split_status": "BOUNDED_PROGRAM_RESOLVED_WITH_LIVE_CRITIQUE",
+      "contributors": ["Gabriele Carcassi", "Christine A. Aidala"],
+      "primary_sources": [
+        "https://arxiv.org/abs/1702.07052",
+        "https://arxiv.org/abs/2101.02107",
+        "https://arxiv.org/abs/2308.06669",
+        "https://arxiv.org/abs/2411.00972",
+        "https://arxiv.org/abs/2501.03294"
+      ],
+      "native": {
+        "primitives": "State spaces with topology, deterministic reversible time evolution, infinitesimal reducibility for classical systems, irreducibility for quantum systems, and kinematic equivalence for Lagrangian mechanics.",
+        "dynamics": "Translate each physical assumption into mathematical constraints and derive Hamiltonian, Lagrangian or Hilbert-space structures conditionally.",
+        "claims": "Substantial parts of particle mechanics follow from a small explicit assumption ledger; completed infinite-dimensional Hilbert spaces may contain unphysical structure; classical behavior can be framed as a high-entropy limit of quantum theory.",
+        "strongest_actual_evidence_or_result": "Explicit conditional mathematical reconstructions for particle mechanics. A 2025 primary critique challenges a pivotal infinite-Hilbert-space example, so that claim should remain live rather than treated as settled.",
+        "assumptions_and_scope_limits": [
+          "Time, determinism, reversibility, topology and the reducibility dichotomy are installed.",
+          "The strongest derivations concern particle mechanics rather than generic interactions, QFT or gravity.",
+          "A reconstruction can relocate rather than eliminate quantum structure if its physical assumptions are already strong."
+        ]
+      },
+      "roles": ["donor", "critic_falsifier", "competitor"],
+      "joshua_crosswalk": {
+        "comparison_surface_ids": ["root_and_least_presumption", "finite_quantum_and_carrier_reconstruction", "formal_tools_limits_and_falsifiers"],
+        "question_families": ["Q_QRECON"],
+        "external_offers_joshua": "A disciplined assumption ledger, reverse derivation and direct challenge to completed-infinity commitments.",
+        "joshua_might_offer_hypothesis": "A Ratchet population might discover a weaker sufficient assumption set, but current finite diagnostics have not yet escaped strong carrier and operational choices."
+      },
+      "decisive_comparison_or_kill_test": "Build a formal dependency graph, ablate each assumption and search finite countermodels. Compare the surviving sufficient sets with Joshua's MSS output. If Joshua silently needs the same topology, time or probability, it loses the weaker-root claim; inability to extend Carcassi's result to interacting QFT limits that program's scope rather than refuting particle mechanics.",
+      "dossier_status": "SOURCE_PACKET_STARTER_COMPLETE_CRITIQUE_RECONCILIATION_PENDING",
+      "ranking_eligible": false
+    },
+    {
+      "id": "causal_emergence",
+      "registry_parent_id": "causal_emergence",
+      "canonical_program": "Causal emergence through effective information",
+      "version_scope": "Hoel's finite causal-model comparison of micro and macro scales, with later generalizations to causal geometry and other causation measures.",
+      "split_status": "BOUNDED_PROGRAM_RESOLVED",
+      "contributors": ["Erik P. Hoel", "Larissa Albantakis", "Giulio Tononi", "paper-specific collaborators"],
+      "primary_sources": [
+        "https://doi.org/10.1073/pnas.1314922110",
+        "https://arxiv.org/abs/1612.09592",
+        "https://arxiv.org/abs/1907.03902",
+        "https://arxiv.org/abs/2010.09390",
+        "https://arxiv.org/abs/2202.01854"
+      ],
+      "native": {
+        "primitives": "A finite causal or Markov transition model, interventions, an intervention distribution often chosen as uniform maximum entropy, effective information as mutual information from interventions to effects, and candidate coarse-grainings.",
+        "dynamics": "Compute effective information at the micro scale and over macro partitions; a macro with larger effective information exhibits causal emergence relative to that intervention geometry.",
+        "claims": "A macro description can be more causally informative than its micro description, and informative higher scales occur in many network structures and across several causation measures.",
+        "strongest_actual_evidence_or_result": "Exact finite examples and simulated or empirical network analyses with higher macro effective information. These establish scale-relative information gains, not an observer- or intervention-independent ontology.",
+        "assumptions_and_scope_limits": [
+          "Causal interventions, probabilities, a state space, transition kernel and candidate partitions are primitive.",
+          "Effective information depends on intervention capabilities and their distribution; causal geometry makes that dependence explicit.",
+          "A high-scoring macro need not be a biological individual or metaphysically fundamental cause."
+        ]
+      },
+      "roles": ["mathematical_tool", "donor", "critic_falsifier"],
+      "joshua_crosswalk": {
+        "comparison_surface_ids": ["object_individual_boundary_and_observer", "plural_attractors_and_universality", "probability_time_causality_and_order"],
+        "question_families": ["Q_OBJECT"],
+        "external_offers_joshua": "An operational macro-scale discovery score and a way to expose the dependence of causal claims on available interventions.",
+        "joshua_might_offer_hypothesis": "Joshua might recover useful macro unity from behavioral order without primitive causality or probability, but this has not been compared against intervention-relative EI."
+      },
+      "decisive_comparison_or_kill_test": "For one finite system vary physically realizable intervention distributions and admissible coarse-grainings, then require any macro advantage to be robust or explicitly capability-relative. A result that vanishes under reasonable priors rejects an intrinsic-scale claim, not the EI calculation.",
+      "dossier_status": "SOURCE_PACKET_STARTER_COMPLETE_REPRODUCTION_PENDING",
+      "ranking_eligible": false
+    },
+    {
+      "id": "causal_fermion_systems",
+      "registry_parent_id": "causal_fermion_systems",
+      "canonical_program": "Causal Fermion Systems",
+      "version_scope": "Finster's causal-action framework as presented in the current textbook and continuum-limit program, including finite and low-dimensional minimizers.",
+      "split_status": "PROGRAM_RESOLVED_VERSIONED_SUBPROGRAMS_REMAIN",
+      "contributors": ["Felix Finster", "CFS collaborators"],
+      "primary_sources": [
+        "https://arxiv.org/abs/2411.06450",
+        "https://arxiv.org/abs/1605.04742",
+        "https://arxiv.org/abs/1211.3351",
+        "https://arxiv.org/abs/2201.06382"
+      ],
+      "native": {
+        "primitives": "A complex Hilbert space H, a set F of finite-rank self-adjoint operators with bounded signature or spin dimension, and a positive measure rho on F. Spacetime is the support of rho; spectra of operator products encode causal relations.",
+        "dynamics": "Minimize a double-integral causal action built from spectral data under volume, trace and boundedness constraints; derive Euler-Lagrange and linearized field equations and study regularized continuum limits.",
+        "claims": "Spacetime, causal and metric structure emerge from the measure on operators, while quantum mechanics, gauge fields and gravity arise in suitable limiting regimes.",
+        "strongest_actual_evidence_or_result": "A rigorous mathematical framework, existence results in bounded settings, detailed continuum-limit calculations and numerical low-dimensional minimizers. No novel empirical prediction has yet confirmed the full unification claim.",
+        "assumptions_and_scope_limits": [
+          "Complex Hilbert and operator ontology, positive measure, spin dimension, spectral action and constraints are installed.",
+          "Regularization choices and continuum approximations carry physical burden.",
+          "A full nonperturbative Standard Model plus gravity derivation and empirical discriminator remain open."
+        ]
+      },
+      "roles": ["competitor", "donor", "mathematical_tool"],
+      "joshua_crosswalk": {
+        "comparison_surface_ids": ["finite_quantum_and_carrier_reconstruction", "nested_entropic_geometry_flux_and_chirality", "spacetime_gravity_matter_and_cosmogenesis"],
+        "question_families": ["Q_CHIRAL"],
+        "external_offers_joshua": "A much more explicit measure-on-operators causal action, exact finite test objects and a concrete continuum-recovery target.",
+        "joshua_might_offer_hypothesis": "A finite QIT, chiral or nonassociative root might reproduce comparable structures with fewer assumptions, but Joshua does not yet specify an equivalent action or controlled continuum."
+      },
+      "decisive_comparison_or_kill_test": "Reproduce a finite CFS minimizer in the locked tri-engine toolchain, then derive a controlled Dirac or Einstein limit and one bounded correction. Joshua cannot claim superiority without an equally explicit action and limit; underdetermined regulator-dependent observables would cap CFS's unification claim.",
+      "dossier_status": "SOURCE_PACKET_STARTER_COMPLETE_REPRODUCTION_PENDING",
+      "ranking_eligible": false
+    },
+    {
+      "id": "cdp_purification_reconstruction",
+      "registry_parent_id": "cdp_purification_reconstruction",
+      "canonical_program": "Chiribella-D'Ariano-Perinotti operational reconstruction by purification",
+      "version_scope": "Finite-dimensional operational-probabilistic reconstruction of complex quantum theory using purification plus informational axioms.",
+      "split_status": "BOUNDED_PROGRAM_RESOLVED",
+      "contributors": ["Giulio Chiribella", "Giacomo Mauro D'Ariano", "Paolo Perinotti"],
+      "primary_sources": [
+        "https://arxiv.org/abs/0908.1583",
+        "https://arxiv.org/abs/1011.6451",
+        "https://arxiv.org/abs/1209.5533"
+      ],
+      "native": {
+        "primitives": "Operational probabilistic theories with systems, tests, events, states, effects, transformations and composition; convex probabilities; pure and reversible transformations.",
+        "dynamics": "Impose causality, perfect distinguishability, ideal compression, local distinguishability, pure conditioning and purification, then derive the finite-dimensional complex quantum formalism.",
+        "claims": "Complex quantum theory can be reconstructed without assuming Hilbert space at the start; purification also yields reversible dilation, state-transformation duality and information-processing consequences.",
+        "strongest_actual_evidence_or_result": "A mathematically explicit reconstruction theorem for finite-dimensional complex quantum theory and a rich network of operational consequences.",
+        "assumptions_and_scope_limits": [
+          "Probabilities, causal order, operational systems and composition are primitive.",
+          "Purification is a strong postulate and local distinguishability excludes real and quaternionic alternatives.",
+          "The theorem is finite-dimensional and does not by itself derive dynamics, QFT or gravity.",
+          "A derivation is conditional evidence for axiom sufficiency, not proof that nature chose the axioms."
+        ]
+      },
+      "roles": ["competitor", "donor", "critic_falsifier"],
+      "joshua_crosswalk": {
+        "comparison_surface_ids": ["root_and_least_presumption", "finite_quantum_and_carrier_reconstruction"],
+        "question_families": ["Q_QRECON"],
+        "external_offers_joshua": "The strongest direct test of whether Joshua actually derives quantum information structure or installs it under new labels.",
+        "joshua_might_offer_hypothesis": "Finitude, distinguishability and noncommutation might derive purification or replace it with weaker roots; current positive-count and simplex fixtures do not establish that."
+      },
+      "decisive_comparison_or_kill_test": "Toggle every CDP axiom and enumerate finite nonquantum countermodels. Joshua must derive purification and local distinguishability or reproduce the same operational predictions without them. A model satisfying Joshua's roots but violating quantum predictions defeats a claimed reconstruction.",
+      "dossier_status": "SOURCE_PACKET_STARTER_COMPLETE_REPRODUCTION_PENDING",
+      "ranking_eligible": false
+    },
+    {
+      "id": "cegar_model_checking",
+      "registry_parent_id": "cegar_model_checking",
+      "canonical_program": "Counterexample-Guided Abstraction Refinement",
+      "version_scope": "The Clarke-Grumberg-Jha-Lu-Veith CEGAR loop and current software-verification implementations such as CPAchecker.",
+      "split_status": "BOUNDED_TOOL_FAMILY_RESOLVED",
+      "contributors": ["Edmund M. Clarke", "Orna Grumberg", "Somesh Jha", "Yuan Lu", "Helmut Veith", "CPAchecker contributors"],
+      "primary_sources": [
+        "https://doi.org/10.1007/10722167_15",
+        "https://doi.org/10.1145/876638.876643",
+        "https://cpachecker.sosy-lab.org/"
+      ],
+      "native": {
+        "primitives": "A concrete transition or Kripke system, a safety or temporal property, a sound over-approximate abstraction, a model checker, abstract counterexamples, a feasibility check and refinement predicates.",
+        "dynamics": "Abstract the system, model-check it, validate each counterexample in the concrete semantics, return a real bug or refine away a spurious trace, and iterate.",
+        "claims": "CEGAR automates sound verification by spending precision only where counterexamples show it is needed.",
+        "strongest_actual_evidence_or_result": "Soundness results and major practical success in industrial and competition-grade software verification.",
+        "assumptions_and_scope_limits": [
+          "Formal concrete semantics, a stated property, a sound abstraction and trustworthy feasibility solver are required.",
+          "Termination and completeness depend on the system and refinement domain; infinite-state loops may diverge.",
+          "The result proves only the property and environment that were formalized."
+        ]
+      },
+      "roles": ["mathematical_tool", "donor"],
+      "joshua_crosswalk": {
+        "comparison_surface_ids": ["admission_mss_and_purgatory", "plural_attractors_and_universality", "formal_tools_limits_and_falsifiers"],
+        "question_families": ["Q_RATCHET"],
+        "external_offers_joshua": "An exact counterexample-directed refinement loop, executable kill witnesses and sound abstraction discipline.",
+        "joshua_might_offer_hypothesis": "Purgatory might add context-indexed re-entry and provenance across changing properties, but no formal advantage over CEGAR has yet been demonstrated."
+      },
+      "decisive_comparison_or_kill_test": "On finite candidates with known properties, require every kill to carry an executable concrete counterexample and every spurious counterexample to refine rather than kill. Compare iterations and explored states with standard CEGAR; any unsound kill or hidden manual refinement rejects the integration.",
+      "dossier_status": "SOURCE_PACKET_STARTER_COMPLETE_REPRODUCTION_PENDING",
+      "ranking_eligible": false
+    },
+    {
+      "id": "rosen_mr_systems",
+      "registry_parent_id": "closure_autopoiesis_adaptivity",
+      "canonical_program": "Rosen metabolism-repair systems",
+      "version_scope": "Robert Rosen's relational M,R systems and closure to efficient causation; separate from closure-of-constraints, autopoiesis and adaptivity.",
+      "split_status": "SPLIT_FROM_BUNDLED_CLOSURE_ENTRY",
+      "contributors": ["Robert Rosen"],
+      "primary_sources": [
+        "https://doi.org/10.1007/BF02478302",
+        "https://link.springer.com/book/10.1007/978-1-4614-1269-4",
+        "https://arxiv.org/abs/1705.03322"
+      ],
+      "native": {
+        "primitives": "Metabolic mappings from inputs to products, repair or replication mappings in function spaces, relational or categorical diagrams and efficient-cause entailment.",
+        "dynamics": "The formalism tracks functional entailment rather than detailed chemical kinetics; an organization is closed when every efficient cause is produced or entailed within the system.",
+        "claims": "Organisms are closed to efficient causation, and this relational closure marks a kind of biological complexity not captured by ordinary machine descriptions.",
+        "strongest_actual_evidence_or_result": "An influential abstract closure diagram and categorical research program. Later mathematical analysis argues that the model can be represented mechanistically and that closure should be treated as a testable organizational hypothesis, not an established impossibility theorem.",
+        "assumptions_and_scope_limits": [
+          "Functional types and the efficient-cause ontology are fixed in advance.",
+          "Material realization, rates, noise, thermodynamics and spatial organization are abstracted away.",
+          "Formal presentations and interpretations of closure remain disputed.",
+          "No broad empirical validation establishes M,R closure as a universal criterion of life."
+        ]
+      },
+      "roles": ["competitor", "donor", "critic_falsifier"],
+      "joshua_crosswalk": {
+        "comparison_surface_ids": ["plural_attractors_and_universality", "object_individual_boundary_and_observer", "life_evolution_agency_and_origins"],
+        "question_families": ["Q_OBJECT"],
+        "external_offers_joshua": "An exact target for endogenous functional closure and a warning that relational entailment is not the same as kinetic self-production.",
+        "joshua_might_offer_hypothesis": "Executable finite constraint networks and Purgatory receipts might operationalize closure, but Joshua's current closure relations are authored rather than endogenously inferred."
+      },
+      "decisive_comparison_or_kill_test": "On a measured biochemical network, identify every catalyst and repair dependency and predict perturbation and recovery better than RAF and stoichiometric controls. Joshua must infer its closure map from data; supplying Gamma by hand does not count as a repair.",
+      "dossier_status": "SOURCE_PACKET_PARTIAL_FORMAL_RECONSTRUCTION_PENDING",
+      "ranking_eligible": false
+    },
+    {
+      "id": "closure_of_constraints",
+      "registry_parent_id": "closure_autopoiesis_adaptivity",
+      "canonical_program": "Biological organization as closure of constraints",
+      "version_scope": "The Montévil-Mossio-Moreno organizational account in which mutually dependent constraints maintain one another while matter and energy remain thermodynamically open.",
+      "split_status": "SPLIT_FROM_BUNDLED_CLOSURE_ENTRY",
+      "contributors": ["Maël Montévil", "Matteo Mossio", "Alvaro Moreno"],
+      "primary_sources": [
+        "https://doi.org/10.1016/j.jtbi.2015.02.029",
+        "https://arxiv.org/abs/1702.03337"
+      ],
+      "native": {
+        "primitives": "Thermodynamic processes, constraints that reduce accessible degrees of freedom while remaining stable on a relevant timescale, and mutual-maintenance dependencies among constraints.",
+        "dynamics": "Constraints channel processes, while those processes build or maintain the constraints, producing organizational closure in a materially and energetically open system.",
+        "claims": "Closure of constraints grounds biological autonomy and function more precisely than generic self-organization.",
+        "strongest_actual_evidence_or_result": "A clear formal-conceptual criterion and applications to developmental and organ-level modeling; no universal empirical discriminator has yet been established.",
+        "assumptions_and_scope_limits": [
+          "The system boundary, constraint-process distinction, dependence relation and relevant timescale are selected.",
+          "Thermodynamic and kinetic details must be supplied for concrete systems.",
+          "Closure can be representation-sensitive unless interventions and timescale changes are tested."
+        ]
+      },
+      "roles": ["competitor", "donor", "empirical_testbed"],
+      "joshua_crosswalk": {
+        "comparison_surface_ids": ["object_individual_boundary_and_observer", "life_evolution_agency_and_origins"],
+        "question_families": ["Q_OBJECT"],
+        "external_offers_joshua": "A closer operational comparator than Rosen for mutual maintenance, with explicit process-constraint and timescale commitments.",
+        "joshua_might_offer_hypothesis": "Finite operator representations and intervention receipts might discover rather than stipulate closure, but that has not been shown."
+      },
+      "decisive_comparison_or_kill_test": "Infer the constraint-dependency graph from time series and interventions, preregister knockout predictions, and compare with network-centrality and stoichiometric baselines. Require the closure claim to survive alternative representations and plausible timescales.",
+      "dossier_status": "SOURCE_PACKET_STARTER_COMPLETE_REPRODUCTION_PENDING",
+      "ranking_eligible": false
+    },
+    {
+      "id": "maturana_varela_autopoiesis",
+      "registry_parent_id": "closure_autopoiesis_adaptivity",
+      "canonical_program": "Molecular autopoiesis",
+      "version_scope": "The Maturana-Varela-Uribe criterion of a component-production network that recursively regenerates both itself and the boundary constituting a unit; broad social-system uses are out of scope.",
+      "split_status": "SPLIT_FROM_BUNDLED_CLOSURE_ENTRY",
+      "contributors": ["Humberto Maturana", "Francisco Varela", "Ricardo Uribe"],
+      "primary_sources": [
+        "https://doi.org/10.1016/0303-2647(74)90031-8",
+        "https://link.springer.com/book/9789027710154",
+        "https://doi.org/10.1007/s11097-005-9002-y"
+      ],
+      "native": {
+        "primitives": "A network of component production, transformation and destruction; components that regenerate the network and a self-produced boundary; organization distinguished from its changing material structure; and structural coupling to an environment.",
+        "dynamics": "Recursive production continually realizes the network and bounded unit, while perturbations induce structure-determined changes.",
+        "claims": "Autopoietic organization characterizes living systems in the molecular domain and supplies a basis for autonomy; reproduction and Darwinian evolution are not required by the core definition.",
+        "strongest_actual_evidence_or_result": "A precise verbal criterion and the 1974 tessellation or cellular-automaton model demonstrating formal self-production. There is no accepted quantitative universal threshold for life.",
+        "assumptions_and_scope_limits": [
+          "A molecular domain, boundary, component network, environmental coupling and transition rules must be identified.",
+          "The formal automaton is not experimental construction of a living protocell.",
+          "Generic self-organization, autocatalysis and social closure are not automatically autopoietic."
+        ]
+      },
+      "roles": ["competitor", "donor", "empirical_testbed"],
+      "joshua_crosswalk": {
+        "comparison_surface_ids": ["object_individual_boundary_and_observer", "life_evolution_agency_and_origins"],
+        "question_families": ["Q_OBJECT"],
+        "external_offers_joshua": "A boundary-production requirement that distinguishes mere recurrent chemistry from a self-constituting unit.",
+        "joshua_might_offer_hypothesis": "Joshua's finite engines or full-support profiles might instantiate autopoiesis, but no self-produced semipermeable boundary or material turnover has yet been demonstrated."
+      },
+      "decisive_comparison_or_kill_test": "Construct or simulate chemistry with metabolism and a self-produced semipermeable boundary, ablate boundary production, and compare self-repair and component turnover with autocatalytic but non-autopoietic controls.",
+      "dossier_status": "SOURCE_PACKET_STARTER_COMPLETE_REPRODUCTION_PENDING",
+      "ranking_eligible": false
+    },
+    {
+      "id": "di_paolo_adaptivity",
+      "registry_parent_id": "closure_autopoiesis_adaptivity",
+      "canonical_program": "Adaptivity, sense-making and agency",
+      "version_scope": "Ezequiel Di Paolo's extension of autopoiesis through regulation relative to viability, plus closely associated enactive agency formulations.",
+      "split_status": "SPLIT_FROM_BUNDLED_CLOSURE_ENTRY",
+      "contributors": ["Ezequiel A. Di Paolo", "Xabier E. Barandiaran", "Marieke Rohde", "Hanne De Jaegher"],
+      "primary_sources": [
+        "https://doi.org/10.1007/s11097-005-9002-y",
+        "https://doi.org/10.1007/s11097-007-9076-9",
+        "https://doi.org/10.1007/s11023-008-9135-7"
+      ],
+      "native": {
+        "primitives": "An autopoietic or precarious identity, viability bounds, tendencies toward or away from those bounds, regulatory capacities, environment coupling, and value or sense-making relative to continued existence.",
+        "dynamics": "An agent monitors and regulates its coupling and actions according to how conditions affect its own viability.",
+        "claims": "Autopoiesis alone is insufficient for sense-making; adaptivity grounds intrinsic normativity, agency and valenced engagement.",
+        "strongest_actual_evidence_or_result": "A careful conceptual refinement supported by minimal dynamical and robotic illustrations, not a universal quantitative law of agency.",
+        "assumptions_and_scope_limits": [
+          "An individuated system, viability set, norm, temporal dynamics and biological grounding are supplied.",
+          "Different operationalizations of viability and regulation can yield different agency classifications.",
+          "Conceptual necessity does not establish predictive superiority over control theory or active inference."
+        ]
+      },
+      "roles": ["donor", "competitor", "empirical_testbed"],
+      "joshua_crosswalk": {
+        "comparison_surface_ids": ["object_individual_boundary_and_observer", "life_evolution_agency_and_origins", "fep_perception_consciousness_and_holodeck"],
+        "question_families": ["Q_OBJECT"],
+        "external_offers_joshua": "The crucial distinction between mere recurrence or self-maintenance and valenced regulation relative to viability.",
+        "joshua_might_offer_hypothesis": "Homeostasis-exploration axes and an engine schedule might formalize adaptivity, but the current stage and schedule choices are not derived."
+      },
+      "decisive_comparison_or_kill_test": "Hold self-production fixed while varying adaptive controllers under novel perturbations; preregister viability and survival outcomes and compare Di Paolo-style metrics with free-energy and standard-control baselines. Joshua's axes must add held-out predictive value.",
+      "dossier_status": "SOURCE_PACKET_STARTER_COMPLETE_REPRODUCTION_PENDING",
+      "ranking_eligible": false
+    },
+    {
+      "id": "computational_mechanics",
+      "registry_parent_id": "computational_mechanics",
+      "canonical_program": "Computational mechanics and epsilon-machine reconstruction",
+      "version_scope": "Causal-state predictive equivalence, minimal unifilar epsilon-machines and CSSR-style inference for stationary stochastic processes.",
+      "split_status": "BOUNDED_PROGRAM_RESOLVED_WITH_LIVE_PRIORITY_CRITIQUE",
+      "contributors": ["James P. Crutchfield", "Cosma Rohilla Shalizi", "Kristian Lindgren", "Peter Grassberger"],
+      "primary_sources": [
+        "https://arxiv.org/abs/cond-mat/9907176",
+        "https://arxiv.org/abs/cs/0001027",
+        "https://arxiv.org/abs/1408.2025",
+        "https://arxiv.org/abs/1708.04190"
+      ],
+      "native": {
+        "primitives": "A stationary stochastic process, semi-infinite past and future observations, causal states as equivalence classes of pasts with identical conditional future distributions, an epsilon-machine and statistical complexity C_mu as causal-state entropy.",
+        "dynamics": "Quotient histories by predictive equivalence and infer a minimal unifilar hidden-state model from data, for example with CSSR under its consistency assumptions.",
+        "claims": "The epsilon-machine is a minimal sufficient predictive representation and is unique up to isomorphism under the stated assumptions; statistical complexity quantifies stored predictive information.",
+        "strongest_actual_evidence_or_result": "Minimality and uniqueness theorems plus consistent reconstruction results for suitable finite-state processes. Grassberger disputes novelty and some complexity interpretations, so the theorem should be separated from branding and priority claims.",
+        "assumptions_and_scope_limits": [
+          "Probability, a directed past-future split, an observation alphabet and usually stationarity and ergodicity are installed.",
+          "Infinite-history equivalence is idealized; finite data can merge or split states incorrectly.",
+          "A predictive state is not automatically an object, agent or causal mechanism."
+        ]
+      },
+      "roles": ["mathematical_tool", "donor", "critic_falsifier"],
+      "joshua_crosswalk": {
+        "comparison_surface_ids": ["object_individual_boundary_and_observer", "plural_attractors_and_universality", "probability_time_causality_and_order"],
+        "question_families": ["Q_OBJECT"],
+        "external_offers_joshua": "An exact predictive-individual quotient, a minimality theorem and a memory measure for finite stochastic processes.",
+        "joshua_might_offer_hypothesis": "Attractor or MSS quotients might provide a prior-free or order-open alternative, but no theorem shows them to be stronger or weaker than causal states."
+      },
+      "decisive_comparison_or_kill_test": "On the same held-out process compare epsilon-machine, bisimulation and Joshua basin or MSS partitions on predictive loss and state count while varying horizon and measure. Any Joshua merge of histories with different future distributions rejects the proposed unity rule.",
+      "dossier_status": "SOURCE_PACKET_STARTER_COMPLETE_REPRODUCTION_PENDING",
+      "ranking_eligible": false
+    },
+    {
+      "id": "constructive_gravity",
+      "registry_parent_id": "constructive_gravity",
+      "canonical_program": "Constructive gravity by gravitational closure",
+      "version_scope": "Schuller and collaborators' program deriving admissible gravitational dynamics from specified matter equations, including tensorial spacetimes and weakly birefringent electrodynamics.",
+      "split_status": "PROGRAM_RESOLVED_MODEL_SPECIFIC_CLOSURES_REMAIN",
+      "contributors": ["Frederic P. Schuller", "Christian Witte", "Mattias N. R. Wohlfarth", "Nils Alex", "paper-specific collaborators"],
+      "primary_sources": [
+        "https://arxiv.org/abs/1611.08878",
+        "https://arxiv.org/abs/1402.6548",
+        "https://arxiv.org/abs/1202.2991",
+        "https://arxiv.org/abs/1708.03870"
+      ],
+      "native": {
+        "primitives": "Local linear matter field equations and their principal polynomial, tensorial geometry, hyperbolicity, time orientability, energy distinction, Cauchy surfaces and canonical evolution variables.",
+        "dynamics": "Demand foliation-independent joint evolution of matter and geometry and solve gravitational closure equations, a countable system of linear homogeneous PDEs for gravitational Lagrangian coefficients.",
+        "claims": "Consistent matter dynamics constrain the compatible spacetime geometry and gravitational action; familiar matter recovers general relativity, while generalized electrodynamics permits controlled modified gravity families.",
+        "strongest_actual_evidence_or_result": "A systematic derivation of closure equations, recovery of GR for standard matter under the framework, and an explicit eleven-parameter weak gravitational theory for weak birefringent electrodynamics.",
+        "assumptions_and_scope_limits": [
+          "A differentiable continuum, local linear matter equations, Cauchy predictivity and canonical or foliation-independent dynamics are installed.",
+          "Matter dynamics are supplied rather than derived.",
+          "Solving the closure equations and connecting parameters to experiment remain model-specific."
+        ]
+      },
+      "roles": ["competitor", "donor", "critic_falsifier"],
+      "joshua_crosswalk": {
+        "comparison_surface_ids": ["nested_entropic_geometry_flux_and_chirality", "spacetime_gravity_matter_and_cosmogenesis", "formal_tools_limits_and_falsifiers"],
+        "question_families": ["Q_CHIRAL"],
+        "external_offers_joshua": "A severe consistency gate: proposed geometry must be licensed by explicit matter propagation rather than attached by analogy.",
+        "joshua_might_offer_hypothesis": "A finite engine's matter sector might induce an entropic geometry through an analogue of gravitational closure, but its matter equations and principal polynomial are not yet specified."
+      },
+      "decisive_comparison_or_kill_test": "Extract the principal propagation structure of Joshua's engine, test hyperbolicity, time orientation and energy distinction, and solve the associated closure problem. No well-defined cone or no closure solution rejects the spacetime claim; a viable low-energy theory must recover GR and experimental bounds.",
+      "dossier_status": "SOURCE_PACKET_STARTER_COMPLETE_REPRODUCTION_PENDING",
+      "ranking_eligible": false
+    },
+    {
+      "id": "curt_jaimungal_toe",
+      "registry_parent_id": "curt_jaimungal_toe",
+      "canonical_program": "UNRESOLVED: alleged Curt Jaimungal theory-of-everything presentation",
+      "version_scope": "The intake contains an editorial title, 'Curt Jaimungal Reveals His Theory of Everything for First Time', but the exact official video, transcript and authorship of a technical model were not source-resolved. Jaimungal's role as interviewer must not be converted into model ownership without evidence.",
+      "split_status": "IDENTITY_AND_PROGRAM_RESOLUTION_REQUIRED",
+      "contributors": ["Curt Jaimungal, only provisionally and only if the source confirms authorship"],
+      "primary_sources": ["https://www.youtube.com/@TheoriesofEverything/videos"],
+      "native": {
+        "primitives": "SOURCE_UNRESOLVED",
+        "dynamics": "SOURCE_UNRESOLVED",
+        "claims": "SOURCE_UNRESOLVED",
+        "strongest_actual_evidence_or_result": "No source-resolved technical result can be attributed from the available intake record.",
+        "assumptions_and_scope_limits": [
+          "The exact video ID and transcript are missing from the current source packet.",
+          "An editorial video title is insufficient evidence of a canonical personal theory.",
+          "Host summaries, interview questions and a guest's claims must be separated."
+        ]
+      },
+      "roles": ["unclassified"],
+      "joshua_crosswalk": {
+        "comparison_surface_ids": [],
+        "question_families": [],
+        "external_offers_joshua": "SOURCE_UNRESOLVED",
+        "joshua_might_offer_hypothesis": "No responsible transplant hypothesis can be stated until the model and its author are resolved."
+      },
+      "decisive_comparison_or_kill_test": "Recover the exact official video ID and transcript, extract explicit axioms, equations and predictions, and distinguish Jaimungal's own proposal from interview synthesis or editorial framing. Until then the card remains unranked and evidence-limited.",
+      "dossier_status": "IDENTITY_RESOLUTION_REQUIRED_EVIDENCE_LIMITED",
+      "ranking_eligible": false
+    },
+    {
+      "id": "deacon_teleodynamics",
+      "registry_parent_id": "deacon_teleodynamics",
+      "canonical_program": "Teleodynamics and the autogen model",
+      "version_scope": "Terrence Deacon's hierarchy from homeodynamics through morphodynamics to teleodynamics, with autogenesis as reciprocal coupling of autocatalysis and self-assembling containment.",
+      "split_status": "PROGRAM_RESOLVED_SOURCE_PACKET_PARTIAL",
+      "contributors": ["Terrence W. Deacon", "Tyrone Cashman", "paper-specific collaborators"],
+      "primary_sources": [
+        "https://wwnorton.com/books/Incomplete-Nature/",
+        "https://doi.org/10.1162/biot.2006.1.2.136",
+        "https://pubmed.ncbi.nlm.nih.gov/25076382/"
+      ],
+      "native": {
+        "primitives": "Thermodynamic gradients and work, constraints understood through excluded or absent possibilities, a hierarchy of homeodynamic, morphodynamic and teleodynamic processes, reciprocal autocatalysis and a self-assembling boundary in the autogen model.",
+        "dynamics": "Two self-organizing processes reciprocally constrain each other's self-undermining tendencies, thereby sustaining, reproducing and potentially evolving the compound organization.",
+        "claims": "Intrinsic function, normativity, agency and meaning emerge through higher-order reciprocal constraint; an autogen is proposed as sufficient in principle for minimal self-reproduction and evolvability.",
+        "strongest_actual_evidence_or_result": "A mechanistically motivated conceptual model of reciprocal constraint and a hierarchy connecting thermodynamics to agency. A wet-lab autogen and broad empirical validation have not been demonstrated.",
+        "assumptions_and_scope_limits": [
+          "Classical thermodynamics, gradients, causal work language, a selected boundary and plausible but abstract chemistry are installed.",
+          "The homeo-morpho-teleodynamic hierarchy requires operational metrics to avoid becoming only redescriptive.",
+          "Sufficiency in a conceptual model is not experimental construction of an origin-of-life system."
+        ]
+      },
+      "roles": ["competitor", "donor", "empirical_testbed"],
+      "joshua_crosswalk": {
+        "comparison_surface_ids": ["object_individual_boundary_and_observer", "nested_entropic_geometry_flux_and_chirality", "life_evolution_agency_and_origins"],
+        "question_families": ["Q_OBJECT"],
+        "external_offers_joshua": "A concrete reciprocal-constraint architecture and a useful distinction between entropy gradients and the constraints that channel work.",
+        "joshua_might_offer_hypothesis": "Finite QIT entropy, dual engines and tri-engine receipts might implement teleodynamic reciprocity more exactly, but the current carrier and field update do not yet establish it."
+      },
+      "decisive_comparison_or_kill_test": "Implement a reaction-diffusion autogen with measured kinetics, ablate reciprocal catalysis and boundary assembly separately, and measure self-repair, reproduction and evolvability against RAF, chemoton and autopoietic controls. Every narrative level must map to preregistered observables.",
+      "dossier_status": "SOURCE_PACKET_PARTIAL_REPRODUCTION_PENDING",
+      "ranking_eligible": false
+    }
+  ]
+}

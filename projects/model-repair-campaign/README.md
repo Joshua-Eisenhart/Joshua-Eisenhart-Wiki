@@ -30,6 +30,46 @@ Candidate intake remains open beyond the channel to cited researchers, executabl
 
 The four detailed adapters below survive only as unselected technical drafts inherited from earlier work. Their additional detail is work-history provenance, not evidence of merit and not a reason to process them first. Repair analysis remains blocked until each source-native baseline is locked and a later selection receipt identifies the complete comparison pool.
 
+## Current Joshua reference is now source-grounded and split
+
+The comparison target is [`joshua_model_dossier_v0_1.json`](joshua_model_dossier_v0_1.json), reconstructed from the July 15 cumulative packet, the July 14 engine lineage, the July 13 evidence and handoff packets, the raw cross-LLM export, recent owner corrections in memory, and a Library audit of the historical CoRatchet null. Every source retains its authority class and claim ceiling. The July 14 engine packet is byte-identical to `legacy_v1` inside the July 15 packet, so it is one lineage rather than independent confirmation.
+
+Joshua's work is not treated as one already unified ToE. The dossier splits it into nine comparably scoped modules:
+
+1. Ratchet methodology, MSS antichains, receipts and Purgatory;
+2. constrained-distinguishability and rival root-carrier tournament;
+3. finite recurrence, plural basins and attractor-versus-MSS mathematics;
+4. the owner-given two-engine functional and structural target;
+5. the nonassociative, octonionic, Jordan and exceptional-algebra branch;
+6. entropic geometry, nested flux, chirality and manifold fixtures;
+7. cross-view semiconjugacy and monist correspondence;
+8. Holodeck/FEP perception, memory and object-formation engineering;
+9. entropic-monist cosmogenesis and physics interpretation.
+
+These modules have different evidence ceilings. Constrained distinguishability remains the current operational root, not an earned unique ontology. The July 15 frontier reopens its ordering against MSS, the anti-thing, finite realization, nonassociativity, noncommutation, positive drive, persistence and continued variation. The preserved carrier audit currently leaves positive finite counts/simplex as the weakest tested adequate root presentation. Complex PSD structure and octonions are not forced.
+
+The strongest current contribution is methodological and structural: an open carrier/metatheory tournament; explicit separation of target pattern, realization, constraints, attractor landscape and applications; contextual Purgatory; packet-relative MSS antichains; and retained negative evidence. The largest current gaps are equally explicit: the proposed scientific campaign has not run under the strict Julia/JAX/PyTorch and solver contract; the engines and four substages per stage are not derived; zero scientific manifold layers are admitted; and the physics/cosmogenesis module lacks quantitative recovery and discriminating predictions.
+
+The current lowest open packet is the root-carrier/MSS tournament. The July 14 octonionic left/right nested-flux experiment remains a later candidate packet, not the active rung. A precise algebraic seed survives—`[L_a,R_b]x=-[a,x,b]`—but its mapping to the two engines is unearned.
+
+## Complete appearance crosswalk, open program discovery
+
+[`channel_crosswalk_v0_4.json`](channel_crosswalk_v0_4.json) links all 218 provisional non-host identities to at least one raw appearance bundle through 294 proposed person–group edges. It covers 248 of 264 groups and retains 16 host, entity, format or unresolved-identity bundles separately. Every link remains provisional until source verification.
+
+Contributor-name matching links only 39 people to 32 of the 47 partial program cards. Those contributors occur across 58 groups and 77 episodes, but contributor presence never proves that an episode concerns the registered program. The other 179 people still require program discovery and splitting. All 264 raw groups remain program-unresolved and zero programs are ranking-eligible.
+
+The crosswalk defines sixteen public-hash administrative batches containing all 218 identity bundles plus the 16 residual bundles. Batch order conveys no scientific priority and cannot use fame, Joshua familiarity, episode count, registry position, source availability, adapter existence or prior work. New identities enter a later census epoch instead of being inserted because they look promising.
+
+The common native-dossier fields and comparison gates are specified in [`external_program_dossier_contract_v0_1.json`](external_program_dossier_contract_v0_1.json). Every repair comparison must distinguish the native baseline `N`, transplanted `N+J`, sham `N+S`, component ablations `N+J-k`, and Joshua-only baseline where meaningful. “Fixed” can only mean improved for a named program version, role, question and evidence packet.
+
+## Source-native comparison corpus
+
+Primary-source research is preserved in `native_source_cards_batch_*.json`. The batches deliberately retain source-appropriate detail and program splits rather than forcing every theorem, empirical program, interpretation, algorithm and metaphysical architecture into one flattened score. [`build_native_source_index.py`](build_native_source_index.py) compiles their normalized, non-ranking index at [`native_source_card_index_v0_1.json`](native_source_card_index_v0_1.json), including source URLs, contributors, proposed roles, Joshua comparison surfaces and exact-name links back to the provisional channel identities. It also generates the complete 218-person human-readable roster at [`CHANNEL_PEOPLE_AND_PROGRAM_STATUS_2026-07-15.md`](CHANNEL_PEOPLE_AND_PROGRAM_STATUS_2026-07-15.md), where missing research remains visibly open rather than being scored weak.
+
+The current human-readable synthesis is [`JOSHUA_CURRENT_STATE_AND_EXTERNAL_COMPARISON_BASELINE_2026-07-15.md`](JOSHUA_CURRENT_STATE_AND_EXTERNAL_COMPARISON_BASELINE_2026-07-15.md). Its central verdict is deliberately asymmetric: Joshua's present comparative strength is the breadth of the assumption and admission audit; mature external programs remain stronger on their bounded theorems, algorithms, experiments and physical recovery targets. The report therefore identifies reciprocal imports and decisive `N` versus `N+J` tests instead of declaring that Joshua has already repaired them.
+
+Every source card remains `ranking_eligible: false`. A primary-source reconstruction is not a locked native baseline, and a source lead does not close the channel census. The validator reconciles all discovered batch files to the normalized index, requires at least one primary-source lead per technical card, rejects duplicate program ids, and prevents research progress alone from promoting a card into a ranking or repair claim.
+
 ## Central proposal
 
 Joshua's strongest potential contribution to an external model is usually not a replacement equation. It is an outer discovery-and-admission process that forces the model to expose its installed ontology, generate rivals outside that ontology, collapse behavioral aliases, execute schedule and boundary alternatives, retain plural weakest-survivor frontiers, and face interventions that can kill the transplant.
