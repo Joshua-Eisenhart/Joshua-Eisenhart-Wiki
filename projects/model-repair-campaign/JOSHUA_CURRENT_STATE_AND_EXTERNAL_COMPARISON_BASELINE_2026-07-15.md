@@ -8,7 +8,7 @@
 
 The strongest defensible thesis is therefore:
 
-> Joshua may have a unusually broad **model-discovery, assumption-audit, and repair architecture**. Whether it yields a better model is an open experiment. It must improve a source-native baseline on held-out tests or remove demonstrably load-bearing assumptions; vocabulary merger and reinterpretation do not count.
+> Joshua may have an unusually broad **model-discovery, assumption-audit, and repair architecture**. Whether it yields a better model is an open experiment. It must improve a source-native baseline on held-out tests or remove demonstrably load-bearing assumptions; vocabulary merger and reinterpretation do not count.
 
 This document reconstructs Joshua's current position from the supplied July 13–15 packets, recent owner corrections, the raw conversation export, and the historical Library audit. It then compares that position with source-native cards for channel programs. Conflicting packets are not averaged into one story: later owner corrections and direct prompts outrank polished inherited summaries, and every artifact retains its own claim ceiling.
 
