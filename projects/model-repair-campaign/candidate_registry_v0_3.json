@@ -1,0 +1,1640 @@
+{
+  "schema_version": "external-model-candidate-registry/0.3",
+  "registry_open": true,
+  "completeness_claimed": false,
+  "channel_intake": "channel_intake_v0_3.json",
+  "candidate_cards_are_partial": true,
+  "ranking_policy": "no_rank_before_common_source_native_dossier_and_baseline_then_role_specific_packet_relative_frontiers",
+  "ranked_unit": "program_version_x_role_x_question_x_evidence_packet",
+  "ranking_eligible_count": 0,
+  "computed_frontiers": [],
+  "selected_campaigns": [],
+  "forbidden_ranking_inputs": [
+    "fame",
+    "citation_count_alone",
+    "episode_count",
+    "institutional_status",
+    "joshua_familiarity",
+    "user_naming_order",
+    "discovery_route",
+    "registry_row_order",
+    "existing_adapter_draft",
+    "deep_read_progress",
+    "prior_work_investment"
+  ],
+  "possible_roles": [
+    "competitor",
+    "donor",
+    "empirical_testbed",
+    "mathematical_tool",
+    "critic_falsifier",
+    "bridge_translator",
+    "contextual_neighbor",
+    "unclassified",
+    "evidence_limited_claimant"
+  ],
+  "comparison_question_families": [
+    {
+      "id": "object_and_individual_discovery",
+      "research_question": "Directly tests how highly correlated components may be licensed as one predictive individual without mistaking a common-driver alias for unity.",
+      "candidate_tags": [
+        "computational_mechanics",
+        "information_theory_of_individuality",
+        "information_bottleneck",
+        "causal_emergence"
+      ],
+      "status": "ORGANIZATIONAL_HYPOTHESIS_ONLY",
+      "membership_conveys_priority": false,
+      "frontier_status": "NOT_COMPUTED"
+    },
+    {
+      "id": "operational_quantum_reconstruction",
+      "research_question": "Tests whether Hilbert, complex, probabilistic and purification structure is derived or installed.",
+      "candidate_tags": [
+        "hardy_operational_reconstruction",
+        "cdp_purification_reconstruction",
+        "spekkens_epistemic_restriction",
+        "carcassi_assumptions_of_physics"
+      ],
+      "status": "ORGANIZATIONAL_HYPOTHESIS_ONLY",
+      "membership_conveys_priority": false,
+      "frontier_status": "NOT_COMPUTED"
+    },
+    {
+      "id": "order_without_primitive_causality",
+      "research_question": "Supplies formal alternatives to globally directed causal order and a harder comparator than merely relabeling Wolfram causal edges.",
+      "candidate_tags": [
+        "indefinite_causal_order",
+        "all_at_once_retrocausal_models",
+        "norton_causation_entropy_critique",
+        "manchak_global_underdetermination"
+      ],
+      "status": "ORGANIZATIONAL_HYPOTHESIS_ONLY",
+      "membership_conveys_priority": false,
+      "frontier_status": "NOT_COMPUTED"
+    },
+    {
+      "id": "finite_chiral_physics_engines",
+      "research_question": "Compares finite quantum chiral dynamics and continuum recovery against Joshua's proposed engine architecture.",
+      "candidate_tags": [
+        "qca_weyl_dirac_maxwell",
+        "bianconi_entropy_network_geometry",
+        "causal_fermion_systems",
+        "wolfram_multiway_physics"
+      ],
+      "status": "ORGANIZATIONAL_HYPOTHESIS_ONLY",
+      "membership_conveys_priority": false,
+      "frontier_status": "NOT_COMPUTED"
+    },
+    {
+      "id": "exact_behavioral_ratchet_tools",
+      "research_question": "Makes alias collapse, probe-directed refinement and schedule reduction exact rather than LLM-judged.",
+      "candidate_tags": [
+        "bisimulation_coalgebra",
+        "active_automata_learning",
+        "cegar_model_checking",
+        "partial_order_reduction"
+      ],
+      "status": "ORGANIZATIONAL_HYPOTHESIS_ONLY",
+      "membership_conveys_priority": false,
+      "frontier_status": "NOT_COMPUTED"
+    }
+  ],
+  "eligibility_contract": {
+    "dossier_complete": true,
+    "source_native_baseline_receipt_required": true,
+    "declared_role_required": true,
+    "declared_question_packet_required": true,
+    "complete_comparison_pool_required": true,
+    "unknown_is_not_zero": true,
+    "selection_receipt_required": true
+  },
+  "purgatory_policy": "No permanent exclusions. Failed, incomplete, and packet-out-of-scope programs retain receipts and may be re-offered under changed constraints.",
+  "candidates": [
+    {
+      "id": "aaronson_complexity_limits",
+      "program": "Computational complexity and simulation limits",
+      "contributors": [
+        "Scott Aaronson"
+      ],
+      "proposed_roles": [
+        "critic_falsifier",
+        "mathematical_tool"
+      ],
+      "domains": [
+        "complexity",
+        "quantum computation",
+        "simulation"
+      ],
+      "discovery_provenance": "channel_untriaged_or_context",
+      "known_to_joshua": null,
+      "intake_status": "DISCOVERED",
+      "identity_status": "PROVISIONAL",
+      "program_split_status": "PROVISIONAL_CARD",
+      "dossier_status": "SOURCE_PENDING",
+      "dossier_receipt": null,
+      "baseline_receipt": null,
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED",
+      "frontier_receipts": [],
+      "selection_receipts": [],
+      "repair_eligibility": "BLOCKED_UNTIL_NATIVE_BASELINE_LOCKED_AND_SELECTED",
+      "proposed_dossier_question": "Convert complexity limits into explicit exploration-budget and simulation controls.",
+      "source_lead": null,
+      "note": "Partial intake card only. Provenance, familiarity, prior work, and question-family membership convey no rank or scheduling priority."
+    },
+    {
+      "id": "active_automata_learning",
+      "program": "Active automata learning",
+      "contributors": [
+        "Dana Angluin"
+      ],
+      "proposed_roles": [
+        "mathematical_tool",
+        "donor"
+      ],
+      "domains": [
+        "probe selection",
+        "model discovery"
+      ],
+      "discovery_provenance": "outside_channel_tool_gap",
+      "known_to_joshua": null,
+      "intake_status": "DISCOVERED",
+      "identity_status": "PROVISIONAL",
+      "program_split_status": "PROVISIONAL_CARD",
+      "dossier_status": "SOURCE_PENDING",
+      "dossier_receipt": null,
+      "baseline_receipt": null,
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED",
+      "frontier_receipts": [],
+      "selection_receipts": [],
+      "repair_eligibility": "BLOCKED_UNTIL_NATIVE_BASELINE_LOCKED_AND_SELECTED",
+      "proposed_dossier_question": "Use counterexample-directed queries to refine finite behavioral objects.",
+      "source_lead": null,
+      "note": "Partial intake card only. Provenance, familiarity, prior work, and question-family membership convey no rank or scheduling priority."
+    },
+    {
+      "id": "all_at_once_retrocausal_models",
+      "program": "All-at-once, retrocausal and transactional quantum models",
+      "contributors": [
+        "Emily Adlam",
+        "Ken Wharton",
+        "Ruth Kastner",
+        "Yakir Aharonov"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "donor"
+      ],
+      "domains": [
+        "time",
+        "quantum foundations",
+        "history ensembles"
+      ],
+      "discovery_provenance": "channel_guest_family",
+      "known_to_joshua": null,
+      "intake_status": "DISCOVERED",
+      "identity_status": "PROVISIONAL",
+      "program_split_status": "NEEDS_SPLIT",
+      "dossier_status": "SOURCE_PENDING",
+      "dossier_receipt": null,
+      "baseline_receipt": null,
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED",
+      "frontier_receipts": [],
+      "selection_receipts": [],
+      "repair_eligibility": "BLOCKED_UNTIL_NATIVE_BASELINE_LOCKED_AND_SELECTED",
+      "proposed_dossier_question": "Separate the formalisms into independent cards and compare history constraints.",
+      "source_lead": null,
+      "note": "Partial intake card only. Provenance, familiarity, prior work, and question-family membership convey no rank or scheduling priority."
+    },
+    {
+      "id": "assembly_theory",
+      "program": "Assembly Theory",
+      "contributors": [
+        "Lee Cronin",
+        "Sara Walker"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "donor",
+        "empirical_testbed"
+      ],
+      "domains": [
+        "origins of life",
+        "historical constraint"
+      ],
+      "discovery_provenance": "user_named_example",
+      "known_to_joshua": true,
+      "intake_status": "DISCOVERED",
+      "identity_status": "PROVISIONAL",
+      "program_split_status": "PROVISIONAL_CARD",
+      "dossier_status": "SOURCE_PENDING",
+      "dossier_receipt": null,
+      "baseline_receipt": null,
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED",
+      "frontier_receipts": [],
+      "selection_receipts": [],
+      "repair_eligibility": "BLOCKED_UNTIL_NATIVE_BASELINE_LOCKED_AND_SELECTED",
+      "proposed_dossier_question": "Build the exact small-instance grammar and pathway frontier.",
+      "source_lead": "https://assemblytheory.org/",
+      "note": "Partial intake card only. Provenance, familiarity, prior work, and question-family membership convey no rank or scheduling priority."
+    },
+    {
+      "id": "bianconi_entropy_network_geometry",
+      "program": "Gravity from entropy and discrete quantum network geometry",
+      "contributors": [
+        "Ginestra Bianconi"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "donor"
+      ],
+      "domains": [
+        "entropy",
+        "gravity",
+        "higher-order networks",
+        "spinors"
+      ],
+      "discovery_provenance": "user_supplied_entry_video",
+      "known_to_joshua": true,
+      "intake_status": "DISCOVERED",
+      "identity_status": "PROVISIONAL",
+      "program_split_status": "PROVISIONAL_CARD",
+      "dossier_status": "NATIVE_DOSSIER_IN_PROGRESS",
+      "dossier_receipt": null,
+      "baseline_receipt": null,
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED",
+      "frontier_receipts": [],
+      "selection_receipts": [],
+      "repair_eligibility": "BLOCKED_UNTIL_NATIVE_BASELINE_LOCKED_AND_SELECTED",
+      "proposed_dossier_question": "Faithfully reproduce the finite action and low-energy limit before any Ratchet transplant.",
+      "source_lead": "https://arxiv.org/abs/2408.14391",
+      "note": "Partial intake card only. Provenance, familiarity, prior work, and question-family membership convey no rank or scheduling priority."
+    },
+    {
+      "id": "bisimulation_coalgebra",
+      "program": "Bisimulation and coalgebraic behavioral equivalence",
+      "contributors": [
+        "Robin Milner",
+        "Jan Rutten"
+      ],
+      "proposed_roles": [
+        "mathematical_tool",
+        "donor"
+      ],
+      "domains": [
+        "behavioral equivalence",
+        "transition systems"
+      ],
+      "discovery_provenance": "outside_channel_tool_gap",
+      "known_to_joshua": null,
+      "intake_status": "DISCOVERED",
+      "identity_status": "PROVISIONAL",
+      "program_split_status": "PROVISIONAL_CARD",
+      "dossier_status": "SOURCE_PENDING",
+      "dossier_receipt": null,
+      "baseline_receipt": null,
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED",
+      "frontier_receipts": [],
+      "selection_receipts": [],
+      "repair_eligibility": "BLOCKED_UNTIL_NATIVE_BASELINE_LOCKED_AND_SELECTED",
+      "proposed_dossier_question": "Compare exact bisimulation quotients with current behavioral alias logic.",
+      "source_lead": null,
+      "note": "Partial intake card only. Provenance, familiarity, prior work, and question-family membership convey no rank or scheduling priority."
+    },
+    {
+      "id": "carcassi_assumptions_of_physics",
+      "program": "Assumptions of Physics and reverse derivation",
+      "contributors": [
+        "Gabriele Carcassi",
+        "Christine Aidala"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "donor",
+        "critic_falsifier"
+      ],
+      "domains": [
+        "operational foundations",
+        "mechanics"
+      ],
+      "discovery_provenance": "channel_guest",
+      "known_to_joshua": null,
+      "intake_status": "DISCOVERED",
+      "identity_status": "PROVISIONAL",
+      "program_split_status": "PROVISIONAL_CARD",
+      "dossier_status": "SOURCE_PENDING",
+      "dossier_receipt": null,
+      "baseline_receipt": null,
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED",
+      "frontier_receipts": [],
+      "selection_receipts": [],
+      "repair_eligibility": "BLOCKED_UNTIL_NATIVE_BASELINE_LOCKED_AND_SELECTED",
+      "proposed_dossier_question": "Compare its explicit assumption ladder with Ratchet candidate populations.",
+      "source_lead": "https://assumptionsofphysics.org/",
+      "note": "Partial intake card only. Provenance, familiarity, prior work, and question-family membership convey no rank or scheduling priority."
+    },
+    {
+      "id": "causal_emergence",
+      "program": "Intervention-relative causal emergence",
+      "contributors": [
+        "Erik Hoel"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "donor"
+      ],
+      "domains": [
+        "macro causation",
+        "object formation",
+        "emergence"
+      ],
+      "discovery_provenance": "outside_channel_gap",
+      "known_to_joshua": null,
+      "intake_status": "DISCOVERED",
+      "identity_status": "PROVISIONAL",
+      "program_split_status": "PROVISIONAL_CARD",
+      "dossier_status": "SOURCE_PENDING",
+      "dossier_receipt": null,
+      "baseline_receipt": null,
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED",
+      "frontier_receipts": [],
+      "selection_receipts": [],
+      "repair_eligibility": "BLOCKED_UNTIL_NATIVE_BASELINE_LOCKED_AND_SELECTED",
+      "proposed_dossier_question": "Compare intervention closure while withholding primitive causality and probability.",
+      "source_lead": null,
+      "note": "Partial intake card only. Provenance, familiarity, prior work, and question-family membership convey no rank or scheduling priority."
+    },
+    {
+      "id": "causal_fermion_systems",
+      "program": "Causal Fermion Systems",
+      "contributors": [
+        "Felix Finster"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "donor"
+      ],
+      "domains": [
+        "unification",
+        "spinors",
+        "emergent spacetime"
+      ],
+      "discovery_provenance": "channel_guest_and_wiki_scratch",
+      "known_to_joshua": null,
+      "intake_status": "DISCOVERED",
+      "identity_status": "PROVISIONAL",
+      "program_split_status": "PROVISIONAL_CARD",
+      "dossier_status": "REPRODUCTION_PENDING",
+      "dossier_receipt": null,
+      "baseline_receipt": null,
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED",
+      "frontier_receipts": [],
+      "selection_receipts": [],
+      "repair_eligibility": "BLOCKED_UNTIL_NATIVE_BASELINE_LOCKED_AND_SELECTED",
+      "proposed_dossier_question": "Replace stripped proxies with a faithful causal-action card.",
+      "source_lead": "https://www.causal-fermion-system.com/",
+      "note": "Partial intake card only. Provenance, familiarity, prior work, and question-family membership convey no rank or scheduling priority."
+    },
+    {
+      "id": "cdp_purification_reconstruction",
+      "program": "Purification-based operational reconstruction",
+      "contributors": [
+        "Giulio Chiribella",
+        "Giacomo Mauro D'Ariano",
+        "Paolo Perinotti"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "donor"
+      ],
+      "domains": [
+        "quantum foundations",
+        "information"
+      ],
+      "discovery_provenance": "wiki_reference_gap",
+      "known_to_joshua": null,
+      "intake_status": "DISCOVERED",
+      "identity_status": "PROVISIONAL",
+      "program_split_status": "PROVISIONAL_CARD",
+      "dossier_status": "SOURCE_PENDING",
+      "dossier_receipt": null,
+      "baseline_receipt": null,
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED",
+      "frontier_receipts": [],
+      "selection_receipts": [],
+      "repair_eligibility": "BLOCKED_UNTIL_NATIVE_BASELINE_LOCKED_AND_SELECTED",
+      "proposed_dossier_question": "Test purification uniqueness and causal assumptions rather than importing them.",
+      "source_lead": "https://arxiv.org/abs/1011.6451",
+      "note": "Partial intake card only. Provenance, familiarity, prior work, and question-family membership convey no rank or scheduling priority."
+    },
+    {
+      "id": "cegar_model_checking",
+      "program": "Counterexample-guided abstraction refinement",
+      "contributors": [
+        "Edmund Clarke and collaborators"
+      ],
+      "proposed_roles": [
+        "mathematical_tool",
+        "critic_falsifier"
+      ],
+      "domains": [
+        "formal verification",
+        "abstraction"
+      ],
+      "discovery_provenance": "outside_channel_tool_gap",
+      "known_to_joshua": null,
+      "intake_status": "DISCOVERED",
+      "identity_status": "PROVISIONAL",
+      "program_split_status": "PROVISIONAL_CARD",
+      "dossier_status": "SOURCE_PENDING",
+      "dossier_receipt": null,
+      "baseline_receipt": null,
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED",
+      "frontier_receipts": [],
+      "selection_receipts": [],
+      "repair_eligibility": "BLOCKED_UNTIL_NATIVE_BASELINE_LOCKED_AND_SELECTED",
+      "proposed_dossier_question": "Prototype counterexample-driven candidate splitting and immutable kill receipts.",
+      "source_lead": null,
+      "note": "Partial intake card only. Provenance, familiarity, prior work, and question-family membership convey no rank or scheduling priority."
+    },
+    {
+      "id": "closure_autopoiesis_adaptivity",
+      "program": "Metabolism-repair closure, closure of constraints, autopoiesis and adaptivity",
+      "contributors": [
+        "Robert Rosen",
+        "Alvaro Moreno",
+        "Matteo Mossio",
+        "Humberto Maturana",
+        "Francisco Varela",
+        "Ezequiel Di Paolo"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "donor"
+      ],
+      "domains": [
+        "life",
+        "autonomy",
+        "persistence"
+      ],
+      "discovery_provenance": "wiki_reference_family",
+      "known_to_joshua": null,
+      "intake_status": "DISCOVERED",
+      "identity_status": "PROVISIONAL",
+      "program_split_status": "NEEDS_SPLIT",
+      "dossier_status": "PROGRAMS_UNSPLIT",
+      "dossier_receipt": null,
+      "baseline_receipt": null,
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED",
+      "frontier_receipts": [],
+      "selection_receipts": [],
+      "repair_eligibility": "BLOCKED_UNTIL_NATIVE_BASELINE_LOCKED_AND_SELECTED",
+      "proposed_dossier_question": "Split this family into formal closure, organizational and intervention cards.",
+      "source_lead": null,
+      "note": "Partial intake card only. Provenance, familiarity, prior work, and question-family membership convey no rank or scheduling priority."
+    },
+    {
+      "id": "computational_mechanics",
+      "program": "Computational mechanics and minimal predictive causal states",
+      "contributors": [
+        "James Crutchfield",
+        "Cosma Shalizi"
+      ],
+      "proposed_roles": [
+        "donor",
+        "mathematical_tool",
+        "competitor"
+      ],
+      "domains": [
+        "object formation",
+        "prediction",
+        "emergence"
+      ],
+      "discovery_provenance": "outside_channel_gap",
+      "known_to_joshua": null,
+      "intake_status": "DISCOVERED",
+      "identity_status": "PROVISIONAL",
+      "program_split_status": "PROVISIONAL_CARD",
+      "dossier_status": "SOURCE_PENDING",
+      "dossier_receipt": null,
+      "baseline_receipt": null,
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED",
+      "frontier_receipts": [],
+      "selection_receipts": [],
+      "repair_eligibility": "BLOCKED_UNTIL_NATIVE_BASELINE_LOCKED_AND_SELECTED",
+      "proposed_dossier_question": "Compile rival finite predictive-state quotients while reopening probability and time assumptions.",
+      "source_lead": "https://arxiv.org/abs/1111.4500",
+      "note": "Partial intake card only. Provenance, familiarity, prior work, and question-family membership convey no rank or scheduling priority."
+    },
+    {
+      "id": "constructive_gravity",
+      "program": "Constructive gravity from matter dynamics",
+      "contributors": [
+        "Frederic Schuller"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "donor"
+      ],
+      "domains": [
+        "gravity",
+        "matter",
+        "geometry"
+      ],
+      "discovery_provenance": "channel_guest",
+      "known_to_joshua": null,
+      "intake_status": "DISCOVERED",
+      "identity_status": "PROVISIONAL",
+      "program_split_status": "PROVISIONAL_CARD",
+      "dossier_status": "SOURCE_PENDING",
+      "dossier_receipt": null,
+      "baseline_receipt": null,
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED",
+      "frontier_receipts": [],
+      "selection_receipts": [],
+      "repair_eligibility": "BLOCKED_UNTIL_NATIVE_BASELINE_LOCKED_AND_SELECTED",
+      "proposed_dossier_question": "Compare matter-to-geometry consistency constraints with pre-object Ratchet search.",
+      "source_lead": null,
+      "note": "Partial intake card only. Provenance, familiarity, prior work, and question-family membership convey no rank or scheduling priority."
+    },
+    {
+      "id": "curt_jaimungal_toe",
+      "program": "Curt Jaimungal's stated Theory of Everything",
+      "contributors": [
+        "Curt Jaimungal"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "critic_falsifier"
+      ],
+      "domains": [
+        "foundations",
+        "consciousness",
+        "physics"
+      ],
+      "discovery_provenance": "channel_host_program",
+      "known_to_joshua": null,
+      "intake_status": "DISCOVERED",
+      "identity_status": "PROVISIONAL",
+      "program_split_status": "PROVISIONAL_CARD",
+      "dossier_status": "SOURCE_PENDING",
+      "dossier_receipt": null,
+      "baseline_receipt": null,
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED",
+      "frontier_receipts": [],
+      "selection_receipts": [],
+      "repair_eligibility": "BLOCKED_UNTIL_NATIVE_BASELINE_LOCKED_AND_SELECTED",
+      "proposed_dossier_question": "Extract a stable claim set from the dedicated theory episode and compare it like any guest program.",
+      "source_lead": null,
+      "note": "Partial intake card only. Provenance, familiarity, prior work, and question-family membership convey no rank or scheduling priority."
+    },
+    {
+      "id": "deacon_teleodynamics",
+      "program": "Teleodynamics and constraints generating constraints",
+      "contributors": [
+        "Terrence Deacon"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "donor"
+      ],
+      "domains": [
+        "life",
+        "meaning",
+        "constraint closure"
+      ],
+      "discovery_provenance": "channel_guest",
+      "known_to_joshua": null,
+      "intake_status": "DISCOVERED",
+      "identity_status": "PROVISIONAL",
+      "program_split_status": "PROVISIONAL_CARD",
+      "dossier_status": "SOURCE_PENDING",
+      "dossier_receipt": null,
+      "baseline_receipt": null,
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED",
+      "frontier_receipts": [],
+      "selection_receipts": [],
+      "repair_eligibility": "BLOCKED_UNTIL_NATIVE_BASELINE_LOCKED_AND_SELECTED",
+      "proposed_dossier_question": "Compile constraint-closure mechanisms into finite intervention packets.",
+      "source_lead": null,
+      "note": "Partial intake card only. Provenance, familiarity, prior work, and question-family membership convey no rank or scheduling priority."
+    },
+    {
+      "id": "dissipative_adaptation_critique_pair",
+      "program": "Dissipative adaptation and its thermodynamic counterexamples",
+      "contributors": [
+        "Jeremy England",
+        "Artemy Kolchinsky"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "critic_falsifier",
+        "donor"
+      ],
+      "domains": [
+        "nonequilibrium physics",
+        "life"
+      ],
+      "discovery_provenance": "outside_channel_gap",
+      "known_to_joshua": null,
+      "intake_status": "DISCOVERED",
+      "identity_status": "PROVISIONAL",
+      "program_split_status": "NEEDS_SPLIT",
+      "dossier_status": "PROGRAMS_UNSPLIT",
+      "dossier_receipt": null,
+      "baseline_receipt": null,
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED",
+      "frontier_receipts": [],
+      "selection_receipts": [],
+      "repair_eligibility": "BLOCKED_UNTIL_NATIVE_BASELINE_LOCKED_AND_SELECTED",
+      "proposed_dossier_question": "Keep the proposed mechanism and its counterexamples in one adversarial packet.",
+      "source_lead": null,
+      "note": "Partial intake card only. Provenance, familiarity, prior work, and question-family membership convey no rank or scheduling priority."
+    },
+    {
+      "id": "donoghue_eft_gravity",
+      "program": "Effective-field-theory quantum gravity",
+      "contributors": [
+        "John Donoghue"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "critic_falsifier"
+      ],
+      "domains": [
+        "quantum gravity",
+        "effective field theory"
+      ],
+      "discovery_provenance": "channel_misclassified_as_context",
+      "known_to_joshua": null,
+      "intake_status": "DISCOVERED",
+      "identity_status": "PROVISIONAL",
+      "program_split_status": "PROVISIONAL_CARD",
+      "dossier_status": "SOURCE_PENDING",
+      "dossier_receipt": null,
+      "baseline_receipt": null,
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED",
+      "frontier_receipts": [],
+      "selection_receipts": [],
+      "repair_eligibility": "BLOCKED_UNTIL_NATIVE_BASELINE_LOCKED_AND_SELECTED",
+      "proposed_dossier_question": "Use as the anti-unification baseline: identify what quantum-gravity predictions require no ToE.",
+      "source_lead": null,
+      "note": "Partial intake card only. Provenance, familiarity, prior work, and question-family membership convey no rank or scheduling priority."
+    },
+    {
+      "id": "everett_decoherent_histories",
+      "program": "Everett interpretation, decoherence and emergent probability",
+      "contributors": [
+        "David Wallace",
+        "Simon Saunders"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "critic_falsifier"
+      ],
+      "domains": [
+        "quantum foundations",
+        "time",
+        "probability"
+      ],
+      "discovery_provenance": "channel_misclassified_or_untriaged",
+      "known_to_joshua": null,
+      "intake_status": "DISCOVERED",
+      "identity_status": "PROVISIONAL",
+      "program_split_status": "PROVISIONAL_CARD",
+      "dossier_status": "SOURCE_PENDING",
+      "dossier_receipt": null,
+      "baseline_receipt": null,
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED",
+      "frontier_receipts": [],
+      "selection_receipts": [],
+      "repair_eligibility": "BLOCKED_UNTIL_NATIVE_BASELINE_LOCKED_AND_SELECTED",
+      "proposed_dossier_question": "Separate decoherence mathematics from ontological many-worlds commitments.",
+      "source_lead": null,
+      "note": "Partial intake card only. Provenance, familiarity, prior work, and question-family membership convey no rank or scheduling priority."
+    },
+    {
+      "id": "fields_observer_quantum_information",
+      "program": "Observer, quantum-information and Markov-blanket foundations",
+      "contributors": [
+        "Chris Fields"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "donor",
+        "critic_falsifier"
+      ],
+      "domains": [
+        "observers",
+        "quantum information",
+        "free energy"
+      ],
+      "discovery_provenance": "channel_panel",
+      "known_to_joshua": null,
+      "intake_status": "DISCOVERED",
+      "identity_status": "PROVISIONAL",
+      "program_split_status": "PROVISIONAL_CARD",
+      "dossier_status": "SOURCE_PENDING",
+      "dossier_receipt": null,
+      "baseline_receipt": null,
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED",
+      "frontier_receipts": [],
+      "selection_receipts": [],
+      "repair_eligibility": "BLOCKED_UNTIL_NATIVE_BASELINE_LOCKED_AND_SELECTED",
+      "proposed_dossier_question": "Create an independent program card rather than treating Fields as panel context.",
+      "source_lead": null,
+      "note": "Partial intake card only. Provenance, familiarity, prior work, and question-family membership convey no rank or scheduling priority."
+    },
+    {
+      "id": "friston_fep",
+      "program": "Free Energy Principle and active inference",
+      "contributors": [
+        "Karl Friston"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "donor"
+      ],
+      "domains": [
+        "life",
+        "inference",
+        "control"
+      ],
+      "discovery_provenance": "user_named_example",
+      "known_to_joshua": true,
+      "intake_status": "DISCOVERED",
+      "identity_status": "PROVISIONAL",
+      "program_split_status": "PROVISIONAL_CARD",
+      "dossier_status": "SOURCE_PENDING",
+      "dossier_receipt": null,
+      "baseline_receipt": null,
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED",
+      "frontier_receipts": [],
+      "selection_receipts": [],
+      "repair_eligibility": "BLOCKED_UNTIL_NATIVE_BASELINE_LOCKED_AND_SELECTED",
+      "proposed_dossier_question": "Run the blinded assumption-Ratchet tournament.",
+      "source_lead": "https://arxiv.org/abs/2201.06387",
+      "note": "Partial intake card only. Provenance, familiarity, prior work, and question-family membership convey no rank or scheduling priority."
+    },
+    {
+      "id": "fuentes_experimental_quantum_gravity",
+      "program": "Relativistic quantum information and experimental quantum-gravity probes",
+      "contributors": [
+        "Ivette Fuentes"
+      ],
+      "proposed_roles": [
+        "empirical_testbed",
+        "donor",
+        "critic_falsifier"
+      ],
+      "domains": [
+        "quantum gravity",
+        "relativistic quantum information"
+      ],
+      "discovery_provenance": "channel_untriaged",
+      "known_to_joshua": null,
+      "intake_status": "DISCOVERED",
+      "identity_status": "PROVISIONAL",
+      "program_split_status": "PROVISIONAL_CARD",
+      "dossier_status": "SOURCE_PENDING",
+      "dossier_receipt": null,
+      "baseline_receipt": null,
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED",
+      "frontier_receipts": [],
+      "selection_receipts": [],
+      "repair_eligibility": "BLOCKED_UNTIL_NATIVE_BASELINE_LOCKED_AND_SELECTED",
+      "proposed_dossier_question": "Catalogue experiments capable of killing downstream gravity/quantum claims.",
+      "source_lead": null,
+      "note": "Partial intake card only. Provenance, familiarity, prior work, and question-family membership convey no rank or scheduling priority."
+    },
+    {
+      "id": "geometric_unity",
+      "program": "Geometric Unity",
+      "contributors": [
+        "Eric Weinstein"
+      ],
+      "proposed_roles": [
+        "competitor"
+      ],
+      "domains": [
+        "unification",
+        "geometry"
+      ],
+      "discovery_provenance": "channel_misclassified_as_context_and_wiki_scratch",
+      "known_to_joshua": null,
+      "intake_status": "DISCOVERED",
+      "identity_status": "PROVISIONAL",
+      "program_split_status": "PROVISIONAL_CARD",
+      "dossier_status": "EVIDENCE_LIMITED",
+      "dossier_receipt": null,
+      "baseline_receipt": null,
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED",
+      "frontier_receipts": [],
+      "selection_receipts": [],
+      "repair_eligibility": "BLOCKED_UNTIL_NATIVE_BASELINE_LOCKED_AND_SELECTED",
+      "proposed_dossier_question": "Record source gaps and require a reproducible mathematical baseline before repair.",
+      "source_lead": null,
+      "note": "Partial intake card only. Provenance, familiarity, prior work, and question-family membership convey no rank or scheduling priority."
+    },
+    {
+      "id": "hardy_operational_reconstruction",
+      "program": "Operational reconstruction of quantum theory",
+      "contributors": [
+        "Lucien Hardy"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "donor"
+      ],
+      "domains": [
+        "quantum foundations"
+      ],
+      "discovery_provenance": "wiki_reference_gap",
+      "known_to_joshua": null,
+      "intake_status": "DISCOVERED",
+      "identity_status": "PROVISIONAL",
+      "program_split_status": "PROVISIONAL_CARD",
+      "dossier_status": "SOURCE_PENDING",
+      "dossier_receipt": null,
+      "baseline_receipt": null,
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED",
+      "frontier_receipts": [],
+      "selection_receipts": [],
+      "repair_eligibility": "BLOCKED_UNTIL_NATIVE_BASELINE_LOCKED_AND_SELECTED",
+      "proposed_dossier_question": "Reproduce the axiom-to-quantum derivation and make each axiom a candidate family.",
+      "source_lead": "https://arxiv.org/abs/quant-ph/0101012",
+      "note": "Partial intake card only. Provenance, familiarity, prior work, and question-family membership convey no rank or scheduling priority."
+    },
+    {
+      "id": "indefinite_causal_order",
+      "program": "Process matrices and indefinite causal order",
+      "contributors": [
+        "Ognyan Oreshkov",
+        "Fabio Costa",
+        "Caslav Brukner",
+        "Sally Shrapnel"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "donor",
+        "mathematical_tool"
+      ],
+      "domains": [
+        "quantum foundations",
+        "order",
+        "causal modelling"
+      ],
+      "discovery_provenance": "outside_channel_gap",
+      "known_to_joshua": null,
+      "intake_status": "DISCOVERED",
+      "identity_status": "PROVISIONAL",
+      "program_split_status": "PROVISIONAL_CARD",
+      "dossier_status": "SOURCE_PENDING",
+      "dossier_receipt": null,
+      "baseline_receipt": null,
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED",
+      "frontier_receipts": [],
+      "selection_receipts": [],
+      "repair_eligibility": "BLOCKED_UNTIL_NATIVE_BASELINE_LOCKED_AND_SELECTED",
+      "proposed_dossier_question": "Build finite process-order packets and withhold causal interpretation.",
+      "source_lead": "https://arxiv.org/abs/1105.4464",
+      "note": "Partial intake card only. Provenance, familiarity, prior work, and question-family membership convey no rank or scheduling priority."
+    },
+    {
+      "id": "information_bottleneck",
+      "program": "Information bottleneck",
+      "contributors": [
+        "Naftali Tishby",
+        "Fernando Pereira",
+        "William Bialek"
+      ],
+      "proposed_roles": [
+        "mathematical_tool",
+        "donor"
+      ],
+      "domains": [
+        "compression",
+        "relevance",
+        "representation"
+      ],
+      "discovery_provenance": "outside_channel_gap",
+      "known_to_joshua": null,
+      "intake_status": "DISCOVERED",
+      "identity_status": "PROVISIONAL",
+      "program_split_status": "PROVISIONAL_CARD",
+      "dossier_status": "SOURCE_PENDING",
+      "dossier_receipt": null,
+      "baseline_receipt": null,
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED",
+      "frontier_receipts": [],
+      "selection_receipts": [],
+      "repair_eligibility": "BLOCKED_UNTIL_NATIVE_BASELINE_LOCKED_AND_SELECTED",
+      "proposed_dossier_question": "Treat the relevance surface and probability law as rival packet assumptions.",
+      "source_lead": "https://arxiv.org/abs/physics/0004057",
+      "note": "Partial intake card only. Provenance, familiarity, prior work, and question-family membership convey no rank or scheduling priority."
+    },
+    {
+      "id": "information_theory_of_individuality",
+      "program": "Information theory of individuality",
+      "contributors": [
+        "David Krakauer",
+        "Nils Bertschinger",
+        "Eckehard Olbrich",
+        "Nihat Ay",
+        "Jessica Flack"
+      ],
+      "proposed_roles": [
+        "donor",
+        "competitor"
+      ],
+      "domains": [
+        "individuality",
+        "multiscale systems",
+        "life"
+      ],
+      "discovery_provenance": "outside_channel_gap",
+      "known_to_joshua": null,
+      "intake_status": "DISCOVERED",
+      "identity_status": "PROVISIONAL",
+      "program_split_status": "PROVISIONAL_CARD",
+      "dossier_status": "SOURCE_PENDING",
+      "dossier_receipt": null,
+      "baseline_receipt": null,
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED",
+      "frontier_receipts": [],
+      "selection_receipts": [],
+      "repair_eligibility": "BLOCKED_UNTIL_NATIVE_BASELINE_LOCKED_AND_SELECTED",
+      "proposed_dossier_question": "Test bounded predictive-information individuals against persistence and intervention-closure controls.",
+      "source_lead": "https://arxiv.org/abs/1412.2447",
+      "note": "Partial intake card only. Provenance, familiarity, prior work, and question-family membership convey no rank or scheduling priority."
+    },
+    {
+      "id": "kauffman_open_ended_evolution",
+      "program": "Adjacent possible and unprestatable biosphere",
+      "contributors": [
+        "Stuart Kauffman"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "critic_falsifier",
+        "donor"
+      ],
+      "domains": [
+        "open-ended evolution",
+        "state-space limits"
+      ],
+      "discovery_provenance": "channel_guest",
+      "known_to_joshua": null,
+      "intake_status": "DISCOVERED",
+      "identity_status": "PROVISIONAL",
+      "program_split_status": "PROVISIONAL_CARD",
+      "dossier_status": "SOURCE_PENDING",
+      "dossier_receipt": null,
+      "baseline_receipt": null,
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED",
+      "frontier_receipts": [],
+      "selection_receipts": [],
+      "repair_eligibility": "BLOCKED_UNTIL_NATIVE_BASELINE_LOCKED_AND_SELECTED",
+      "proposed_dossier_question": "Test whether open candidate generation operationalizes rather than merely restates unprestatability.",
+      "source_lead": null,
+      "note": "Partial intake card only. Provenance, familiarity, prior work, and question-family membership convey no rank or scheduling priority."
+    },
+    {
+      "id": "knuth_influence_theory",
+      "program": "Influence Theory",
+      "contributors": [
+        "Kevin Knuth"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "donor"
+      ],
+      "domains": [
+        "discrete foundations",
+        "spacetime",
+        "particles"
+      ],
+      "discovery_provenance": "channel_backlog_masked_by_ufo_titles",
+      "known_to_joshua": null,
+      "intake_status": "DISCOVERED",
+      "identity_status": "PROVISIONAL",
+      "program_split_status": "PROVISIONAL_CARD",
+      "dossier_status": "SOURCE_PENDING",
+      "dossier_receipt": null,
+      "baseline_receipt": null,
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED",
+      "frontier_receipts": [],
+      "selection_receipts": [],
+      "repair_eligibility": "BLOCKED_UNTIL_NATIVE_BASELINE_LOCKED_AND_SELECTED",
+      "proposed_dossier_question": "Separate the discrete influence-poset derivation from unrelated UAP episode context.",
+      "source_lead": null,
+      "note": "Partial intake card only. Provenance, familiarity, prior work, and question-family membership convey no rank or scheduling priority."
+    },
+    {
+      "id": "levin_morphogenesis",
+      "program": "Bioelectric morphogenesis and scale-free agency",
+      "contributors": [
+        "Michael Levin"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "donor",
+        "empirical_testbed"
+      ],
+      "domains": [
+        "morphogenesis",
+        "agency",
+        "basin repair"
+      ],
+      "discovery_provenance": "user_named_example",
+      "known_to_joshua": true,
+      "intake_status": "DISCOVERED",
+      "identity_status": "PROVISIONAL",
+      "program_split_status": "PROVISIONAL_CARD",
+      "dossier_status": "SOURCE_PENDING",
+      "dossier_receipt": null,
+      "baseline_receipt": null,
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED",
+      "frontier_receipts": [],
+      "selection_receipts": [],
+      "repair_eligibility": "BLOCKED_UNTIL_NATIVE_BASELINE_LOCKED_AND_SELECTED",
+      "proposed_dossier_question": "Separate supplied targets from discovered repair basins using held-out interventions.",
+      "source_lead": "https://drmichaellevin.org/",
+      "note": "Partial intake card only. Provenance, familiarity, prior work, and question-family membership convey no rank or scheduling priority."
+    },
+    {
+      "id": "low_evidence_model_claimants",
+      "program": "Low-evidence comprehensive model claimants",
+      "contributors": [
+        "Chris Langan",
+        "Thomas Campbell",
+        "Rupert Sheldrake"
+      ],
+      "proposed_roles": [
+        "competitor"
+      ],
+      "domains": [
+        "metaphysics",
+        "consciousness",
+        "claimed anomalous mechanisms"
+      ],
+      "discovery_provenance": "channel_claimants",
+      "known_to_joshua": null,
+      "intake_status": "DISCOVERED",
+      "identity_status": "PROVISIONAL",
+      "program_split_status": "NEEDS_SPLIT",
+      "dossier_status": "PROGRAMS_UNSPLIT",
+      "dossier_receipt": null,
+      "baseline_receipt": null,
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED",
+      "frontier_receipts": [],
+      "selection_receipts": [],
+      "repair_eligibility": "BLOCKED_UNTIL_NATIVE_BASELINE_LOCKED_AND_SELECTED",
+      "proposed_dossier_question": "Split into independent cards, demand stable primary formulations and empirical controls, and do not rank beside validated science until those gates pass.",
+      "source_lead": null,
+      "note": "Partial intake card only. Provenance, familiarity, prior work, and question-family membership convey no rank or scheduling priority."
+    },
+    {
+      "id": "manchak_global_underdetermination",
+      "program": "Global spacetime underdetermination",
+      "contributors": [
+        "JB Manchak"
+      ],
+      "proposed_roles": [
+        "critic_falsifier",
+        "competitor"
+      ],
+      "domains": [
+        "general relativity",
+        "global inference"
+      ],
+      "discovery_provenance": "channel_guest",
+      "known_to_joshua": null,
+      "intake_status": "DISCOVERED",
+      "identity_status": "PROVISIONAL",
+      "program_split_status": "PROVISIONAL_CARD",
+      "dossier_status": "SOURCE_PENDING",
+      "dossier_receipt": null,
+      "baseline_receipt": null,
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED",
+      "frontier_receipts": [],
+      "selection_receipts": [],
+      "repair_eligibility": "BLOCKED_UNTIL_NATIVE_BASELINE_LOCKED_AND_SELECTED",
+      "proposed_dossier_question": "Use locally indistinguishable spacetimes to test plural survivor semantics.",
+      "source_lead": null,
+      "note": "Partial intake card only. Provenance, familiarity, prior work, and question-family membership convey no rank or scheduling priority."
+    },
+    {
+      "id": "maudlin_bohmian_realism",
+      "program": "Bohmian mechanics and causal realism",
+      "contributors": [
+        "Tim Maudlin"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "critic_falsifier"
+      ],
+      "domains": [
+        "quantum foundations",
+        "causality"
+      ],
+      "discovery_provenance": "channel_untriaged",
+      "known_to_joshua": null,
+      "intake_status": "DISCOVERED",
+      "identity_status": "PROVISIONAL",
+      "program_split_status": "PROVISIONAL_CARD",
+      "dossier_status": "SOURCE_PENDING",
+      "dossier_receipt": null,
+      "baseline_receipt": null,
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED",
+      "frontier_receipts": [],
+      "selection_receipts": [],
+      "repair_eligibility": "BLOCKED_UNTIL_NATIVE_BASELINE_LOCKED_AND_SELECTED",
+      "proposed_dossier_question": "Use as a strong primitive-causality and ontology adversary.",
+      "source_lead": null,
+      "note": "Partial intake card only. Provenance, familiarity, prior work, and question-family membership convey no rank or scheduling priority."
+    },
+    {
+      "id": "mclarty_weak_foundations",
+      "program": "Weak arithmetic foundations for toposes and derived categories",
+      "contributors": [
+        "Colin McLarty"
+      ],
+      "proposed_roles": [
+        "mathematical_tool",
+        "critic_falsifier",
+        "donor"
+      ],
+      "domains": [
+        "foundations of mathematics",
+        "category theory"
+      ],
+      "discovery_provenance": "channel_untriaged",
+      "known_to_joshua": null,
+      "intake_status": "DISCOVERED",
+      "identity_status": "PROVISIONAL",
+      "program_split_status": "PROVISIONAL_CARD",
+      "dossier_status": "SOURCE_PENDING",
+      "dossier_receipt": null,
+      "baseline_receipt": null,
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED",
+      "frontier_receipts": [],
+      "selection_receipts": [],
+      "repair_eligibility": "BLOCKED_UNTIL_NATIVE_BASELINE_LOCKED_AND_SELECTED",
+      "proposed_dossier_question": "Use as an exact test of which mathematical commitments advanced constructions really require.",
+      "source_lead": null,
+      "note": "Partial intake card only. Provenance, familiarity, prior work, and question-family membership convey no rank or scheduling priority."
+    },
+    {
+      "id": "nekrasov_exact_qft",
+      "program": "Exact QFT and partition-function methods",
+      "contributors": [
+        "Nikita Nekrasov"
+      ],
+      "proposed_roles": [
+        "mathematical_tool",
+        "donor",
+        "critic_falsifier"
+      ],
+      "domains": [
+        "quantum field theory",
+        "exact methods"
+      ],
+      "discovery_provenance": "channel_untriaged",
+      "known_to_joshua": null,
+      "intake_status": "DISCOVERED",
+      "identity_status": "PROVISIONAL",
+      "program_split_status": "PROVISIONAL_CARD",
+      "dossier_status": "SOURCE_PENDING",
+      "dossier_receipt": null,
+      "baseline_receipt": null,
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED",
+      "frontier_receipts": [],
+      "selection_receipts": [],
+      "repair_eligibility": "BLOCKED_UNTIL_NATIVE_BASELINE_LOCKED_AND_SELECTED",
+      "proposed_dossier_question": "Mine exact calculational constraints and use QFT recovery as a downstream adversarial gate.",
+      "source_lead": null,
+      "note": "Partial intake card only. Provenance, familiarity, prior work, and question-family membership convey no rank or scheduling priority."
+    },
+    {
+      "id": "nick_lane_origin_of_life",
+      "program": "Alkaline-vent bioenergetics and origin of life",
+      "contributors": [
+        "Nick Lane"
+      ],
+      "proposed_roles": [
+        "donor",
+        "empirical_testbed",
+        "competitor"
+      ],
+      "domains": [
+        "origin of life",
+        "bioenergetics"
+      ],
+      "discovery_provenance": "channel_guest",
+      "known_to_joshua": null,
+      "intake_status": "DISCOVERED",
+      "identity_status": "PROVISIONAL",
+      "program_split_status": "PROVISIONAL_CARD",
+      "dossier_status": "SOURCE_PENDING",
+      "dossier_receipt": null,
+      "baseline_receipt": null,
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED",
+      "frontier_receipts": [],
+      "selection_receipts": [],
+      "repair_eligibility": "BLOCKED_UNTIL_NATIVE_BASELINE_LOCKED_AND_SELECTED",
+      "proposed_dossier_question": "Use concrete geochemical constraints as the chemistry-to-life bridge test.",
+      "source_lead": null,
+      "note": "Partial intake card only. Provenance, familiarity, prior work, and question-family membership convey no rank or scheduling priority."
+    },
+    {
+      "id": "norton_causation_entropy_critique",
+      "program": "Indeterminism, causation and Landauer critique",
+      "contributors": [
+        "John Norton"
+      ],
+      "proposed_roles": [
+        "critic_falsifier"
+      ],
+      "domains": [
+        "causality",
+        "thermodynamics",
+        "information"
+      ],
+      "discovery_provenance": "channel_guest",
+      "known_to_joshua": null,
+      "intake_status": "DISCOVERED",
+      "identity_status": "PROVISIONAL",
+      "program_split_status": "PROVISIONAL_CARD",
+      "dossier_status": "SOURCE_PENDING",
+      "dossier_receipt": null,
+      "baseline_receipt": null,
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED",
+      "frontier_receipts": [],
+      "selection_receipts": [],
+      "repair_eligibility": "BLOCKED_UNTIL_NATIVE_BASELINE_LOCKED_AND_SELECTED",
+      "proposed_dossier_question": "Turn counterexamples into root-level negative packets.",
+      "source_lead": "https://sites.pitt.edu/~jdnorton/",
+      "note": "Partial intake card only. Provenance, familiarity, prior work, and question-family membership convey no rank or scheduling priority."
+    },
+    {
+      "id": "partial_order_reduction",
+      "program": "Partial-order reduction and schedule model checking",
+      "contributors": [],
+      "proposed_roles": [
+        "mathematical_tool"
+      ],
+      "domains": [
+        "schedule exploration",
+        "concurrency"
+      ],
+      "discovery_provenance": "outside_channel_tool_gap",
+      "known_to_joshua": null,
+      "intake_status": "DISCOVERED",
+      "identity_status": "PROVISIONAL",
+      "program_split_status": "PROVISIONAL_CARD",
+      "dossier_status": "SOURCE_PENDING",
+      "dossier_receipt": null,
+      "baseline_receipt": null,
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED",
+      "frontier_receipts": [],
+      "selection_receipts": [],
+      "repair_eligibility": "BLOCKED_UNTIL_NATIVE_BASELINE_LOCKED_AND_SELECTED",
+      "proposed_dossier_question": "Reduce redundant schedules only after independence is proved, preserving N01 witnesses.",
+      "source_lead": null,
+      "note": "Partial intake card only. Provenance, familiarity, prior work, and question-family membership convey no rank or scheduling priority."
+    },
+    {
+      "id": "post_quantum_classical_gravity",
+      "program": "Post-quantum classical gravity",
+      "contributors": [
+        "Jonathan Oppenheim"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "empirical_testbed",
+        "critic_falsifier"
+      ],
+      "domains": [
+        "gravity",
+        "quantum foundations"
+      ],
+      "discovery_provenance": "channel_guest",
+      "known_to_joshua": null,
+      "intake_status": "DISCOVERED",
+      "identity_status": "PROVISIONAL",
+      "program_split_status": "PROVISIONAL_CARD",
+      "dossier_status": "SOURCE_PENDING",
+      "dossier_receipt": null,
+      "baseline_receipt": null,
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED",
+      "frontier_receipts": [],
+      "selection_receipts": [],
+      "repair_eligibility": "BLOCKED_UNTIL_NATIVE_BASELINE_LOCKED_AND_SELECTED",
+      "proposed_dossier_question": "Use its experimental discriminators to prevent automatic quantization of gravity.",
+      "source_lead": null,
+      "note": "Partial intake card only. Provenance, familiarity, prior work, and question-family membership convey no rank or scheduling priority."
+    },
+    {
+      "id": "priest_paraconsistency",
+      "program": "Paraconsistent logic and dialetheism",
+      "contributors": [
+        "Graham Priest"
+      ],
+      "proposed_roles": [
+        "critic_falsifier",
+        "mathematical_tool"
+      ],
+      "domains": [
+        "logic",
+        "inconsistency handling"
+      ],
+      "discovery_provenance": "channel_untriaged",
+      "known_to_joshua": null,
+      "intake_status": "DISCOVERED",
+      "identity_status": "PROVISIONAL",
+      "program_split_status": "PROVISIONAL_CARD",
+      "dossier_status": "SOURCE_PENDING",
+      "dossier_receipt": null,
+      "baseline_receipt": null,
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED",
+      "frontier_receipts": [],
+      "selection_receipts": [],
+      "repair_eligibility": "BLOCKED_UNTIL_NATIVE_BASELINE_LOCKED_AND_SELECTED",
+      "proposed_dossier_question": "Test whether contradiction-tolerant packets improve conflict preservation without trivialization.",
+      "source_lead": null,
+      "note": "Partial intake card only. Provenance, familiarity, prior work, and question-family membership convey no rank or scheduling priority."
+    },
+    {
+      "id": "qca_weyl_dirac_maxwell",
+      "program": "Quantum cellular automata deriving Weyl, Dirac and Maxwell dynamics",
+      "contributors": [
+        "Giacomo Mauro D'Ariano",
+        "Paolo Perinotti",
+        "Alessandro Bisio",
+        "Alessandro Tosini",
+        "Pablo Arrighi"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "donor",
+        "mathematical_tool"
+      ],
+      "domains": [
+        "finite physics",
+        "chirality",
+        "quantum dynamics"
+      ],
+      "discovery_provenance": "outside_channel_gap",
+      "known_to_joshua": null,
+      "intake_status": "DISCOVERED",
+      "identity_status": "PROVISIONAL",
+      "program_split_status": "PROVISIONAL_CARD",
+      "dossier_status": "SOURCE_PENDING",
+      "dossier_receipt": null,
+      "baseline_receipt": null,
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED",
+      "frontier_receipts": [],
+      "selection_receipts": [],
+      "repair_eligibility": "BLOCKED_UNTIL_NATIVE_BASELINE_LOCKED_AND_SELECTED",
+      "proposed_dossier_question": "Reproduce the continuum limits and reopen locality, unitarity, homogeneity, isotropy and carrier assumptions.",
+      "source_lead": "https://arxiv.org/abs/1601.04832",
+      "note": "Partial intake card only. Provenance, familiarity, prior work, and question-family membership convey no rank or scheduling priority."
+    },
+    {
+      "id": "quantum_foundations_without_wavefunction",
+      "program": "Quantum theory without a fundamental wavefunction",
+      "contributors": [
+        "Jacob Barandes"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "donor"
+      ],
+      "domains": [
+        "quantum foundations",
+        "finite stochastic dynamics"
+      ],
+      "discovery_provenance": "channel_guest_family",
+      "known_to_joshua": null,
+      "intake_status": "DISCOVERED",
+      "identity_status": "PROVISIONAL",
+      "program_split_status": "PROVISIONAL_CARD",
+      "dossier_status": "SOURCE_PENDING",
+      "dossier_receipt": null,
+      "baseline_receipt": null,
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED",
+      "frontier_receipts": [],
+      "selection_receipts": [],
+      "repair_eligibility": "BLOCKED_UNTIL_NATIVE_BASELINE_LOCKED_AND_SELECTED",
+      "proposed_dossier_question": "Reproduce the stochastic-quantum map and compare carrier burdens.",
+      "source_lead": null,
+      "note": "Partial intake card only. Provenance, familiarity, prior work, and question-family membership convey no rank or scheduling priority."
+    },
+    {
+      "id": "schreiber_higher_geometry",
+      "program": "Higher geometry, supergeometry and gauge structure",
+      "contributors": [
+        "Urs Schreiber"
+      ],
+      "proposed_roles": [
+        "mathematical_tool",
+        "donor",
+        "competitor"
+      ],
+      "domains": [
+        "higher geometry",
+        "gauge theory"
+      ],
+      "discovery_provenance": "channel_misclassified_as_context",
+      "known_to_joshua": null,
+      "intake_status": "DISCOVERED",
+      "identity_status": "PROVISIONAL",
+      "program_split_status": "PROVISIONAL_CARD",
+      "dossier_status": "SOURCE_PENDING",
+      "dossier_receipt": null,
+      "baseline_receipt": null,
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED",
+      "frontier_receipts": [],
+      "selection_receipts": [],
+      "repair_eligibility": "BLOCKED_UNTIL_NATIVE_BASELINE_LOCKED_AND_SELECTED",
+      "proposed_dossier_question": "Mine exact gluing and higher-structure tools without importing their ontology.",
+      "source_lead": null,
+      "note": "Partial intake card only. Provenance, familiarity, prior work, and question-family membership convey no rank or scheduling priority."
+    },
+    {
+      "id": "sloan_wilson_multilevel_selection",
+      "program": "Multilevel selection",
+      "contributors": [
+        "David Sloan Wilson"
+      ],
+      "proposed_roles": [
+        "donor",
+        "empirical_testbed",
+        "critic_falsifier"
+      ],
+      "domains": [
+        "evolution",
+        "individuality",
+        "group selection"
+      ],
+      "discovery_provenance": "channel_misclassified_as_context",
+      "known_to_joshua": null,
+      "intake_status": "DISCOVERED",
+      "identity_status": "PROVISIONAL",
+      "program_split_status": "PROVISIONAL_CARD",
+      "dossier_status": "SOURCE_PENDING",
+      "dossier_receipt": null,
+      "baseline_receipt": null,
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED",
+      "frontier_receipts": [],
+      "selection_receipts": [],
+      "repair_eligibility": "BLOCKED_UNTIL_NATIVE_BASELINE_LOCKED_AND_SELECTED",
+      "proposed_dossier_question": "Use competing units of selection as an empirical object-boundary test.",
+      "source_lead": null,
+      "note": "Partial intake card only. Provenance, familiarity, prior work, and question-family membership convey no rank or scheduling priority."
+    },
+    {
+      "id": "spekkens_epistemic_restriction",
+      "program": "Epistemically restricted classical theories",
+      "contributors": [
+        "Robert Spekkens"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "critic_falsifier",
+        "donor"
+      ],
+      "domains": [
+        "quantum foundations",
+        "operational equivalence"
+      ],
+      "discovery_provenance": "channel_guest",
+      "known_to_joshua": null,
+      "intake_status": "DISCOVERED",
+      "identity_status": "PROVISIONAL",
+      "program_split_status": "PROVISIONAL_CARD",
+      "dossier_status": "SOURCE_PENDING",
+      "dossier_receipt": null,
+      "baseline_receipt": null,
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED",
+      "frontier_receipts": [],
+      "selection_receipts": [],
+      "repair_eligibility": "BLOCKED_UNTIL_NATIVE_BASELINE_LOCKED_AND_SELECTED",
+      "proposed_dossier_question": "Reproduce the toy theory before varying epistemic restrictions.",
+      "source_lead": "https://arxiv.org/abs/quant-ph/0401052",
+      "note": "Partial intake card only. Provenance, familiarity, prior work, and question-family membership convey no rank or scheduling priority."
+    },
+    {
+      "id": "tegmark_mathematical_universe",
+      "program": "Mathematical Universe and physics of intelligence",
+      "contributors": [
+        "Max Tegmark"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "critic_falsifier"
+      ],
+      "domains": [
+        "ontology",
+        "physics",
+        "intelligence"
+      ],
+      "discovery_provenance": "channel_untriaged",
+      "known_to_joshua": null,
+      "intake_status": "DISCOVERED",
+      "identity_status": "PROVISIONAL",
+      "program_split_status": "PROVISIONAL_CARD",
+      "dossier_status": "SOURCE_PENDING",
+      "dossier_receipt": null,
+      "baseline_receipt": null,
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED",
+      "frontier_receipts": [],
+      "selection_receipts": [],
+      "repair_eligibility": "BLOCKED_UNTIL_NATIVE_BASELINE_LOCKED_AND_SELECTED",
+      "proposed_dossier_question": "Separate mathematical-structure ontology from useful state-space and intelligence tools.",
+      "source_lead": null,
+      "note": "Partial intake card only. Provenance, familiarity, prior work, and question-family membership convey no rank or scheduling priority."
+    },
+    {
+      "id": "wolfram_multiway_physics",
+      "program": "Multiway hypergraph rewriting and observer theory",
+      "contributors": [
+        "Stephen Wolfram",
+        "Jonathan Gorard"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "donor",
+        "mathematical_tool"
+      ],
+      "domains": [
+        "finite physics",
+        "rewriting",
+        "observers"
+      ],
+      "discovery_provenance": "user_named_example",
+      "known_to_joshua": true,
+      "intake_status": "DISCOVERED",
+      "identity_status": "PROVISIONAL",
+      "program_split_status": "PROVISIONAL_CARD",
+      "dossier_status": "SOURCE_PENDING",
+      "dossier_receipt": null,
+      "baseline_receipt": null,
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED",
+      "frontier_receipts": [],
+      "selection_receipts": [],
+      "repair_eligibility": "BLOCKED_UNTIL_NATIVE_BASELINE_LOCKED_AND_SELECTED",
+      "proposed_dossier_question": "Add demand-relative quotients, dependency-versus-causality controls and rival history weights.",
+      "source_lead": "https://github.com/WolframInstitute/HypergraphRewritingEngine",
+      "note": "Partial intake card only. Provenance, familiarity, prior work, and question-family membership convey no rank or scheduling priority."
+    }
+  ]
+}
