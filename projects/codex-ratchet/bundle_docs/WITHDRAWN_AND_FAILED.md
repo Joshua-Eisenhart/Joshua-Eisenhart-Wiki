@@ -1,5 +1,5 @@
 # WITHDRAWN & FAILED -- the NEGATIVES (as informative as the positives)
-_Regenerated 2026-07-10 19:43 UTC. Withdrawn rungs parsed from the ledger; retained scaffolds live in sims_and_scripts/ but are NOT registered._
+_Regenerated 2026-07-11 04:06 UTC. Withdrawn rungs parsed from the ledger; retained scaffolds live in sims_and_scripts/ but are NOT registered._
 
 Proposed math that FAILS to be forced, and sims whose gates did not hold up, are first-class information: they tell you
 what the constraints EXCLUDE or leave merely constructible. Nothing is deleted; withdrawals are recorded.

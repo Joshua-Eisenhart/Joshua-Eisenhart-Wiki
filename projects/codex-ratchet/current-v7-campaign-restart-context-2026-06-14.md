@@ -1,5 +1,12 @@
 # CURRENT — v7 Campaign Restart Context (2026-06-14)
 
+> **UPDATE 2026-07-10.** The estate moved to **Ratchet v0.3** (gradient drive; no-gradient-no-tooth),
+> stamped **146/0/0** on the sim-stack rerun. The first receipt packet went through the full
+> build -> audit-kill -> repair -> reopen loop. The `bundle_docs/` mirrors here were re-synced
+> 2026-07-10 from `system_v7/constraint_core/docs/` (bare FORCED language superseded by scoped
+> FORCED-WITHIN-GRAMMAR / CONSTRUCTIBLE-NOT-FORCED placements). Claim ceiling: scratch_diagnostic,
+> promotion_allowed=false.
+
 > **PURPOSE.** Boot a fresh thread (any LLM) into the v7 sim campaign. Read this + the §1 cited
 > artifacts and you are current. This is the FRONT DOOR; it POINTS to canonical sources, it does
 > not duplicate them (duplication drifts from reality). Status discipline: `exists < runs < passes

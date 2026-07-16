@@ -1,18 +1,24 @@
 # BUNDLE GUIDE -- constraint_core_unified (self-describing)
-_Regenerated 2026-07-10 13:29 UTC from live ledger + harness. Do not hand-edit; run `python generate_bundle_docs.py`._
+_Regenerated 2026-07-11 04:06 UTC from live ledger + harness. Do not hand-edit; run `python generate_bundle_docs.py`._
 
 ## Harness state (authoritative)
-**144 pass / 0 fail / 0 skip -> GREEN**  (124 registered sims, 38 UP rungs in ledger, 4 withdrawn.)
+**109 pass / 4 fail / 33 skip -> NOT GREEN**  (144 registered sims, 41 UP rungs in ledger, 5 withdrawn.)
 Authoritative run: `python run_all.py` (full, no --fast). Result: `run_all_report.json`.
 
+## Upgrade lineage
+Source: `124.zip`, SHA-256 `f86a94f3132225b75c3d51eaf2dd4128bc92543caf869110b4a99f1851fa8c77`, 510 entries.
+The source attachment was not overwritten; this bundle is a separate Ratchet v0.3 gradient-drive derivative.
+
 ## The root project
-The root project is to formalize CREATION, MATHEMATICS, PHYSICS, PERCEPTION, and INTELLIGENCE as ONE
-finite admissibility ratchet. The primitive is CONSTRAINT ON DISTINGUISHABILITY (not entropy -- entropy is a later
-measure). Reality is built from the LEAST presumptions by a monotone generative ratchet of the WEAKEST structures
-taking the SMALLEST admissible leaps up, under two root constraints: F01 (finitude) and N01 (noncommutation), with
-nonassociativity (T01) emerging only when a grouping-load-bearing demand appears. The ratchet EARNS canon step by step;
-nothing is canon until forced. MSS (minimal-sufficient-structure) is a hard admissibility constraint: admit only forced
-structure; larger leaps are inadmissible; the pawl rejects the unforced.
+The root project is to formalize CREATION, MATHEMATICS, PHYSICS, PERCEPTION, and INTELLIGENCE through
+one finite, history-bearing admissibility Ratchet. ROOT = CONSTRAINED_DISTINGUISHABILITY: no object, equivalence,
+quotient, support, entropy, geometry, carrier, algebra, or cellular automaton is primitive. F01 (finitude) and N01
+(noncommutation) constrain candidates and the search. A licensed finite intrinsic distinction gradient supplies the
+reason and direction for a transition; without one the process holds. MSS computes a provisional MSS frontier of all
+currently
+undefeated minimal survivors inside a declared finite candidate grammar, weakening grammar, test battery, and budget.
+Evidence history is append-only; every model frontier is defeasible when a weaker survivor or stronger negative appears.
+Nonassociativity (T01) and every other lift remain hypotheses until a load-bearing demand defeats weaker alternatives.
 
 The downstream FACES (all measure whether the root works; none is the root): the dual-ratchet entropic-geometric
 constraint MANIFOLD; the QIT ENGINES (two Weyl-chirality engine types x 8 terrains x operators); FEP/active-inference
@@ -21,23 +27,26 @@ the physics TOE (GR+SM as new foundations, gravity as entropy gradient, chiral s
 static field, dark-energy-first). Oracle duality: deduction<->induction, Turing<->oracle, reason<->perception.
 
 ## Plan & method
-CONSERVATIVE ORDER, always looping back to foundations. Each ratchet up reveals things to re-audit from the
-base. Current standing spine (empirical binding order, discovered not prescribed): complex-spinor carrier (forced by
-F01+N01) -> Schmidt strata / nested shells (L5) -> BKM metric = rel-entropy Hessian (L6) -> Berry holonomy / flux (L7)
--> chirality (Weyl) -> engine stages. The co-ratchet runs entropy and geometry as ONE tensor (surface_identity_is_BKM).
-Pawl forced by the data-processing inequality (Umegaki relative entropy).
+CONSERVATIVE ORDER, always looping back to constrained distinguishability. The currently executable QIT route
+is complex-spinor carrier -> Schmidt strata / nested shells -> BKM relative-entropy Hessian -> Berry holonomy / flux ->
+Weyl chirality -> engine stages. This is an installed, tested route inside the current carrier grammar, not a proof that
+F01+N01 globally force it. Surface-identity and Umegaki/Petz results are strong later-layer fixtures whose uniqueness and
+MSS standing remain open to weaker and non-isomorphic challengers.
 
-METHOD: (1) place every new/proposed math BY THE CONSTRAINTS -- forced, installed, or excluded -- never admit by
-assertion; (2) each sim gates on a GENUINELY FAILABLE result with a control that flips; definitional identities and
-known theorems may be COMPUTED and reported but must NOT gate; (3) cross-family LLM panel (advisory, never gates) as an
-adversarial pre-ship reviewer; (4) verify on-disk harness count BEFORE writing ledger/changelog; (5) NEGATIVES are
-first-class -- withdrawn/failed math is retained and recorded.
+METHOD: (1) freeze one obligation and the least licensed finite distinction potential, including orientation and
+tolerance; (2) require an intrinsic, obligation-coupled gradient or emit HOLD; (3) freeze candidate/weakening grammars,
+probes, and budget; (4) generate rival families and all registered one-step weakenings before advocating a lift;
+(5) compute the complete tested minimal-survivor frontier, retaining incomparable candidates; (6) require genuinely
+failable controls and independent recomputation; (7) emit a scoped provisional receipt with open attacks and reopen
+triggers; (8) preserve every negative and demotion.
+Known theorems and green sims are realizations, not self-promoting admission evidence.
 
 ## What is being worked NOW
-Placing the genuinely-new math from the 2026-07 attachment batch (tropical/max-plus, quantum info
-geometry, HoTT/braids, idempotent analysis) relative to the forced core -- most land as classical limits or
-constructible-not-forced upper layers, which is itself informative. Making the bundle SELF-DESCRIBING (this generator)
-so codex and other systems can process it standalone.
+Installing Ratchet specification v0.3: constrained distinguishability as root; a licensed intrinsic
+obligation-relative finite gradient as drive; mandatory HOLD when the surface is flat, unlicensed, extrinsic, or
+uncoupled; open-world provisional MSS frontiers; entropy/geometry as co-views of one distinction surface; and
+CA/ring-checkerboard as a candidate bakeoff rather than a root conclusion. The `ratchet/` validator, CLIMB/HOLD fixtures,
+and bundle lint make these boundaries executable.
 
 ## Future projects
 (A) Get the QIT engines FULLY running in deep nuance: every stage/substage doing distinct
@@ -52,11 +61,13 @@ possible forced ratchet STEP (decohere->T->0), which would upgrade the max-plus 
 due to registry TLS block).
 
 ## For external consumers (codex app, other sim runners)
-FOR EXTERNAL CONSUMERS (codex app, other sim runners): this bundle is self-describing. Re-run
-`python generate_bundle_docs.py` to regenerate these docs from live state. The authoritative harness is
-`python run_all.py` (full, no --fast). The ledger MODEL_LAYER_LEDGER.md is the append-only record of every rung (UP).
-Negatives (WITHDRAWN_AND_FAILED.md) are as informative as positives -- proposed math that fails tells you what the
-constraints EXCLUDE. Nothing here is canon until the ratchet earns it.
+FOR EXTERNAL CONSUMERS: read RATCHET_SPEC.md before any layer ledger. Run
+`python ratchet/bundle_ratchet_lint.py`, then `python run_all.py` (full, no --fast). MODEL_LAYER_LEDGER.md is a legacy
+component/result history, not an MSS admission ledger. A receipt may earn only a scoped provisional frontier member;
+it does not establish a global minimum or promote descendants. A CLIMB requires a licensed intrinsic obligation-coupled
+gradient; otherwise require the typed HOLD decision, no tooth, and no next rung. Re-run
+`python generate_bundle_docs.py` to regenerate
+the live docs without restoring the older root/forcing language.
 
 ## Doc set in this bundle (docs/)
 - `BUNDLE_GUIDE.md` (this file) -- plan, state, focus, future
@@ -64,4 +75,7 @@ constraints EXCLUDE. Nothing here is canon until the ratchet earns it.
 - `MATH_INVENTORY.md` -- every math class, forced vs installed vs withdrawn
 - `WITHDRAWN_AND_FAILED.md` -- registry of NEGATIVES (as informative as positives)
 - `UP_REGISTRY.md` -- every rung (UP) with status
+- `../RATCHET_SPEC.md` + `../ratchet/GRADIENT_DRIVE.md` -- process authority and root/drive/MSS/gate/pawl separation
+- `../ratchet/` -- current migration frontier, CLIMB/HOLD examples, schemas, validator, and lint
+- `../ratchet/CA_MSS_RESEARCH_PROGRAM.md` -- bounded CA/ring-checkerboard candidate bakeoff
 - `../bundle_manifest.json` -- machine-readable superset for programmatic parsing
