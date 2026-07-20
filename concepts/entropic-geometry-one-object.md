@@ -145,6 +145,38 @@ can raise or lower it); relative entropy to the fixed structure is "the
 reliable pawl" — "neither raw `S` nor Shannon entropy can serve as a
 universal Ratchet score" (pack186, ENTROPY_AND_CONSTRAINT_ENTRY.md).
 
+## Dual-ratchet entropy-typing table (2026-07-19 layout)
+
+Added 2026-07-19, alongside the Weyl-chamber/Otto-cycle literature find
+(see [[concepts/weyl-chambers-two-qubit-gate-geometry]] and
+[[concepts/quantum-otto-cycle-engine-strokes]]). This is a re-ordering of
+the per-carrier entropy-licensing table above by *where in the dual
+positive-entropy/negative-entropy ratchet each typed entropy is licensed*,
+not a new derivation. It restates the same rows in a stroke-and-cut order
+rather than an entry-point order, and adds two entries (Spohn/Uhlmann
+strokes, Holevo bound at records, finite path integral) that the
+entry-point table above does not name explicitly. Provisional layout, not
+canonical:
+
+| Step | Typed entropy/divergence | Licensed by |
+|---|---|---|
+| 0. Base | `S0` — finite class/continuation count, `log2` readout | Root comparison, finite continuation classes only; no probability law assumed |
+| 1. Density carrier | von Neumann entropy `S(rho)` | Positive trace-one operator |
+| 2. Relative/fixed structure | Umegaki relative entropy `D(rho\|\|sigma)` | Two positive density operators, compatible support |
+| 3. Terrain strokes | Spohn entropy-production-rate form; Uhlmann relative-entropy contraction under CPTP flow | CPTP/GKSL flow and its fixed structure — "entropy change and relative-entropy contraction, typed per terrain" (pack186, ENTROPY_AND_CONSTRAINT_ENTRY.md) |
+| 4. Cuts | Conditional entropy, mutual information, coherent information where operands exist | Partial trace, complementary subsystem |
+| 5. Records | Holevo bound (classical-accessible information ceiling on a quantum ensemble); Shannon entropy of the actual measured outcome distribution | Explicit computational-basis measurement/cut |
+| 6. Whole manifold | Finite path integral / sum over histories divergence `D_G = D_history + sum_A D_A + sum_t D_{T_t} + D_LR` | Smooth family of licensed cut densities across the full nested structure (Layer 14, see "Metric = Hessian of a divergence" section above) |
+
+This table does not license a master scalar — it is the same "unfused
+list of typed measurements" position the pack keeps elsewhere on this
+page (ENTROPY_AND_CONSTRAINT_ENTRY.md closing paragraph, quoted in "Open
+/ unresolved" below). Row 3 (Spohn/Uhlmann) and row 5's Holevo term are
+literature-standard objects placed into this layout by analogy with the
+entry-point table's Layer 6/8 CPTP and record rows; neither has been
+computed against a Codex-Ratchet terrain sim as of this writing — this row
+is a naming/placement addition, not a new executed result.
+
 ## Claim ceiling (pack186, CLAIM_CEILINGS_186.md)
 
 Supported: one finite, complete, owner-model-aligned manifold runs root
