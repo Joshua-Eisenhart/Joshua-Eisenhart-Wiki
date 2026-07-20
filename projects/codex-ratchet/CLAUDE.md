@@ -3,6 +3,12 @@
 You are working inside a formal research bundle with strict claim discipline.
 Read this whole file before editing anything. It is short on purpose.
 
+> **RATCHET_V0_2_SCOPE_CORRECTION:** `RATCHET_SPEC.md` is the process authority for this bundle. The primitive is
+> constrained distinguishability—not objects, `~`, quotients, finite support, entropy, geometry, Hilbert space, or CA.
+> Every MSS result is a search-relative provisional frontier. Legacy `EARNED` rows retain only their declared
+> fixture-local result; they are not global forcing claims. Run `python3 ratchet/bundle_ratchet_lint.py` after changing any
+> claim-bearing front door or generator.
+
 ## What this is
 A machine-checked formalization of a constraint-based theory (single-qubit GKSL
 dynamics + a layered spec). Everything is `scratch_diagnostic`,
@@ -15,6 +21,9 @@ python3 run_all.py
 Must exit 0 (GREEN) **before and after** any change you make. It runs all 20
 sims and asserts their headline invariants with tolerances. JAX sims are
 skipped automatically if jax is absent; that is still GREEN.
+
+It also runs the Ratchet process integrity lane. A green harness demonstrates reproducibility and process lint only;
+it does not admit a scientific claim.
 
 ## Hard rules (violating any of these is the failure mode this file exists to prevent)
 
@@ -49,7 +58,7 @@ skipped automatically if jax is absent; that is still GREEN.
    - "Layer 16/17 grounds the axioms externally" (the ten physics bridges are
      theorems of the installed U-1 carrier — they earn realization
      faithfulness, not axiom validation; see the flag in
-     PHYSICS_INFO_BRIDGE_INDEX.md);
+     docs/PHYSICS_INFO_BRIDGE_INDEX.md);
    - "the §7q null supports fusion" (a null cannot; fusion is settled by the
      containment split + W-covariance §7t, not by the metric null).
 4. **Sims are pure math. No labels in code.** Structural indices only
@@ -103,12 +112,26 @@ skipped automatically if jax is absent; that is still GREEN.
 11. **When editing the spec**, corrections are logged visibly (see §7o's
     correction note for the required style) — never silently rewritten. New
     claims get an explicit claim ceiling.
+12. **Never put an equivalence relation or object at the root.** A finite probe quotient is a later realization. The
+    root is a contextual, potentially partial and history-sensitive constrained-distinguishability relation expressed in
+    finite test syntax.
+13. **MSS never returns an unscoped unique weakest object.** Freeze a finite candidate grammar, weakening grammar,
+    tests, and budget; compute all minimal surviving candidates; retain incomparable members and open weaker attacks.
+14. **Evidence history ratchets; model frontiers remain defeasible.** A new weaker survivor demotes a stronger rung and
+    reopens descendants without deleting their receipts.
+15. **Entropy and geometry are one later distinction-surface presentation.** Do not restore separate claim-bearing
+    `G_t` and `E_t` state fields or describe entropy as running on prior geometry.
+16. **CA is a candidate family.** Ring, cells, alphabet, locality, parity, synchrony, and update schedule must compete
+    with weaker finite transition, rewrite, and evolving-graph presentations.
 
 ## Map
 ```
-ORIENTATION.md                  canonical orientation (root; the copy in
-                                spec_and_reports/ is a pointer stub)
+00_START_HERE.md                THE entry point (read first; §5e = bundle map)
+RATCHET_SPEC.md                 executable anti-drift process authority
 CLAUDE.md                       this file
+archive/ORIENTATION.md          SUPERSEDED orientation (provenance only; 00_START_HERE replaces it)
+ratchet/                        receipt schema, weakening grammar, validator,
+                                example, and front-door lint
 run_all.py                      verification harness (exit 0 = green)
 requirements.txt                numpy/scipy/sympy required; jax optional
 spec_and_reports/
@@ -131,7 +154,7 @@ inputs/                         owner's original source spreadsheet
 ```
 
 ## Orientation for the math itself
-Read, in order: `ORIENTATION.md` → `spec_and_reports/PURE_MATH_CORE.md`
+Read, in order: `archive/ORIENTATION.md` → `spec_and_reports/PURE_MATH_CORE.md`
 (compact, label-free, P1–P11) → the spec sections you need. The pure core is
 the fastest way to load the actual mathematics without absorbing overlay
 vocabulary as if it were structure.

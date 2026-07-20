@@ -3245,3 +3245,30 @@ research thread) + a ChatGPT/Mannheim review thread. WHAT WAS DONE:
 HONEST NET: the proposed-math estate is essentially complete on the live-but-unforced verdict; the genuinely open work
 is not more object-placement but (i) a forced Malcev bracket (the named T01 ceiling) to EARN any octonionic rung, and
 (ii) a non-circular semiconjugacy build to earn "one basin" at level 4. Both are research programs, flagged not faked.
+
+## UP-144 -- Basis-invariant QIT<->reaction-network semiconjugacy + the THREE-LEVEL floor (harness 144->145 GREEN)
+The reviews' highest-value "one basin, many probes" recommendation (level-4 dynamical semiconjugacy) built NON-circularly
+after two withdrawn attempts (three_view = circular; qubit-closure = basis artifact). engine_reaction_semiconjugacy_qutrit_floor_sim.py.
+DESIGN: a reaction network's "species" ARE a basis choice, so the test is coordinate-free -- does there exist ANY basis
+(any species labelling) in which an engine's open-system population dynamics CLOSE into a valid classical master
+equation? closure_defect(V) = population-readout of the Liouvillian applied to V-coherences; minimized over ALL bases
+(polished Nelder-Mead over U(3)/SU(2), SYMMETRIC start budget). Q is domain-forced (populations), K is discovered from
+the REAL generator and validated, never installed -- the non-circularity fix.
+CENTRAL RESULT (Gemini panel: "brilliantly derived and earned via parameter counting"): closure-in-some-basis is
+  * d=2 (qubit): AUTOMATIC (min-defect ~1e-13; ~linear-algebra fact -- a real 3x3 Bloch generator always has a real
+    eigenvector). Reported, NOT gated (an unfailable leg cannot gate).
+  * d=3 (qutrit): NON-GENERIC (random Lindbladians min-defect ~1.0-1.2 under the same search) -> the QIT<->reaction
+    unification is VACUOUS at 2 levels and only a genuine falsifiable claim at d>=3. An INDEPENDENT dimensional
+    threshold from the one-basin direction -- the THREE-LEVEL (single-system Hilbert dim) floor. NB: distinct from the
+    multi-qubit tomography "three-qubit" (8-dim) floor; NOT to be conflated.
+GATES (verdict on the 3 failable legs; gate1 report-only): (2) qutrit non-vacuity all>0.1; (3) classical-recovery
+positive control -- a lifted CTMC closes exactly in its natural basis AND the blind optimizer FINDS that basis to 11.9
+decades below the random-qutrit floor (control-relative, no tuned constant; natural-basis K-match is an intentional
+wiring tautology); (4) coherent-obstruction AMPLITUDE SWEEP -- min-defect grows monotonically with drive strength
+(0->0.093->0.182->0.229), a continuous trend not a hand-picked amplitude.
+CERTIFICATION LIMIT (honest): "closes in no basis" = no basis FOUND under polished multi-start search; a local optimizer
+cannot certify a global minimum. The d=2 vs d=3 gap (~1e-13 vs ~1.0, SAME budget) is 13 orders -- far beyond plausible
+optimizer failure. Superseded qubit-closure sim retained as scaffold. Panel iterations fixed: circular->non-circular,
+basis-artifact->basis-invariant, fitted-search->symmetric budget, absolute-threshold->control-relative ratio,
+binary-obstruction->monotone sweep, "three-qubit"->"three-level". CONJECTURE (not computed): the dissipative/coherent
+boundary may relate to the FEP-IGT detailed-balance boundary -- a lead, not a corroboration.

@@ -1,5 +1,5 @@
 # MATH INVENTORY -- classes in play, and their status under the constraints
-_Regenerated 2026-07-11 04:06 UTC. Classes inferred from registered sim names; status from the ledger._
+_Regenerated 2026-07-11 02:12 UTC. Classes inferred from registered sim names; status from the ledger._
 
 Every placement is scoped. **FORCED-WITHIN-GRAMMAR** means all survivors in one frozen finite candidate grammar carry
 the property; it is not globally forced. **INSTALLED/REALIZED** means a runnable branch exhibits it without a uniqueness
@@ -43,10 +43,8 @@ claim. **EXCLUDED-WITHIN-SCOPE** means named finite tests killed it, not that ev
 ### tropical / max-plus (idempotent)
 1 sim(s): maxplus_tropical_is_classical_limit_not_foundation_sim.py
 
-## Key placements after the v0.3 gradient-drive correction
+## Key placements after the v0.2 MSS scope correction
 - **constrained distinguishability** -- ROOT doctrine; no object/equivalence/carrier is included in the primitive.
-- **finite distinction gradient** -- DERIVED DRIVE. It must be typed, intrinsic, and obligation-coupled; no licensed
-  nonzero gradient means HOLD. A named entropy formula is not installed at the root.
 - **complex spinor (qubit)** -- INSTALLED, machine-checked realization in the current grammar; not globally forced by F01/N01.
 - **su(2)/Pauli noncommutation** -- REALIZED and load-bearing on the installed qubit branch; N01 does not uniquely select it.
 - **Umegaki relative entropy / Petz pawl** -- REALIZED as a finite QIT monotone with recovery structure; uniqueness across

@@ -269,6 +269,15 @@ to look. They also stop the grand-synthesis overclaim from creeping back in.
     open(os.path.join(docs,"UP_REGISTRY.md"),"w").write(ur)
 
     # ---------- bundle_manifest.json (machine-readable) ----------
+    # ---------- 00_START_HERE.md (single entry point; canon static, harness line live) ----------
+    sh_path=os.path.join(ROOT,"00_START_HERE.md")
+    if os.path.exists(sh_path):
+        sh=open(sh_path).read()
+        sh=re.sub(r"<!--LIVE_HARNESS-->.*?<!--/LIVE_HARNESS-->",
+                  "<!--LIVE_HARNESS-->**Harness now: %s pass / %s fail / %s skip -- green=%s** (stamped %s)<!--/LIVE_HARNESS-->"%(hp,hf,hs,green,now),
+                  sh, flags=re.S)
+        open(sh_path,"w").write(sh)
+
     manifest={"generated_utc":now,"harness":{"pass":hp,"fail":hf,"skip":hs,"green":green,"registered_sims":len(allsims)},
       "versions":vers,"python":sys.version.split()[0],
       "ups":ups,"withdrawn":withdrawn,"registered_sims":allsims,
