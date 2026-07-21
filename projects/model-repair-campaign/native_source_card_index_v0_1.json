@@ -1,0 +1,5418 @@
+{
+  "schema_version": "0.1",
+  "as_of": "2026-07-15",
+  "status": "SOURCE_NATIVE_INDEX_NOT_A_RANKING",
+  "claim_ceiling": "This index proves that a source-native starting card exists and links contributors to provisional channel identities by normalized exact name or an explicit administrative resolution record. It does not prove identity, episode topic, dossier completeness, baseline reproduction, comparison eligibility, repair, superiority, or scientific admission.",
+  "policies": {
+    "people_are_ranked": false,
+    "cards_are_ranking_eligible": false,
+    "unknown_is_zero": false,
+    "source_native_baseline_required_before_repair": true,
+    "comparison_unit": "program_version x role x question x evidence_packet"
+  },
+  "coverage": {
+    "source_batch_count": 7,
+    "source_card_count": 96,
+    "unique_primary_source_url_count": 287,
+    "channel_provisional_person_count": 218,
+    "channel_people_with_normalized_exact_contributor_name_card": 57,
+    "channel_people_with_any_source_card_link": 62,
+    "channel_people_without_any_source_card_link": 156,
+    "ranking_eligible_card_count": 0,
+    "administrative_resolution_record_count": 45,
+    "fully_resolved_administrative_batch_count": 3
+  },
+  "source_batches": [
+    {
+      "file": "native_source_cards_batch_a.json",
+      "schema_version": "native-source-cards/0.2",
+      "status": "SOURCE_NATIVE_STARTING_CARDS_NOT_RANKING_ELIGIBLE",
+      "card_count": 24,
+      "administrative_batch_id": null,
+      "administrative_unit_count": null,
+      "resolution_record_count": 0
+    },
+    {
+      "file": "native_source_cards_batch_b.json",
+      "schema_version": "native-source-cards/0.1",
+      "status": "PRIMARY_SOURCE_LEADS_COLLECTED_NATIVE_DOSSIERS_NOT_LOCKED_UNRANKED",
+      "card_count": 19,
+      "administrative_batch_id": null,
+      "administrative_unit_count": null,
+      "resolution_record_count": 0
+    },
+    {
+      "file": "native_source_cards_batch_c.json",
+      "schema_version": "native-source-cards/0.1",
+      "status": "UNRESOLVED_SOURCE_RECONSTRUCTION_ONLY",
+      "card_count": 15,
+      "administrative_batch_id": null,
+      "administrative_unit_count": null,
+      "resolution_record_count": 0
+    },
+    {
+      "file": "native_source_cards_batch_d.json",
+      "schema_version": "0.1",
+      "status": "SOURCE_NATIVE_STARTING_CARDS_NOT_RANKING_ELIGIBLE",
+      "card_count": 20,
+      "administrative_batch_id": null,
+      "administrative_unit_count": null,
+      "resolution_record_count": 0
+    },
+    {
+      "file": "native_source_cards_batch_e.json",
+      "schema_version": "native-source-cards/0.1",
+      "status": "SOURCE_NATIVE_STARTING_CARDS_NOT_RANKING_ELIGIBLE",
+      "card_count": 8,
+      "administrative_batch_id": "batch_01",
+      "administrative_unit_count": 15,
+      "resolution_record_count": 15
+    },
+    {
+      "file": "native_source_cards_batch_f.json",
+      "schema_version": "native-source-cards/0.1",
+      "status": "ADMINISTRATIVE_BATCH_COMPLETE_SOURCE_NATIVE_UNRANKED",
+      "card_count": 6,
+      "administrative_batch_id": "batch_02",
+      "administrative_unit_count": 15,
+      "resolution_record_count": 15
+    },
+    {
+      "file": "native_source_cards_batch_g.json",
+      "schema_version": "native-source-cards/0.1",
+      "status": "ADMINISTRATIVE_BATCH_COMPLETE_SOURCE_NATIVE_UNRANKED",
+      "card_count": 4,
+      "administrative_batch_id": "batch_03",
+      "administrative_unit_count": 15,
+      "resolution_record_count": 15
+    }
+  ],
+  "cards": [
+    {
+      "card_id": "aaronson_complexity_limits",
+      "source_batch": "native_source_cards_batch_a.json",
+      "program_label": "Complexity-theoretic constraints on physical theories",
+      "contributors": [
+        "Scott Aaronson"
+      ],
+      "channel_person_entity_ids": [
+        "person_scott_aaronson"
+      ],
+      "primary_source_count": 4,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/quant-ph/0502072"
+        },
+        {
+          "url": "https://arxiv.org/abs/1108.1791"
+        },
+        {
+          "url": "https://arxiv.org/abs/1011.3245"
+        },
+        {
+          "url": "https://arxiv.org/abs/2209.06930"
+        }
+      ],
+      "comparison_surface_ids": [
+        "admission_mss_and_purgatory",
+        "formal_tools_limits_and_falsifiers"
+      ],
+      "proposed_roles": [
+        "critic_falsifier",
+        "mathematical_tool"
+      ],
+      "dossier_status": "SOURCE_PACKET_STARTER_COMPLETE_REPRODUCTION_PENDING",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "active_automata_learning",
+      "source_batch": "native_source_cards_batch_a.json",
+      "program_label": "Active automata learning from L-star to modern Mealy-machine learners",
+      "contributors": [
+        "Bernhard Steffen",
+        "Dana Angluin",
+        "Falk Howar",
+        "LearnLib contributors",
+        "Malte Isberner"
+      ],
+      "channel_person_entity_ids": [],
+      "primary_source_count": 4,
+      "primary_sources": [
+        {
+          "url": "https://doi.org/10.1016/0890-5401(87)90052-6"
+        },
+        {
+          "url": "https://arxiv.org/abs/1902.01139"
+        },
+        {
+          "url": "https://learnlib.de/"
+        },
+        {
+          "url": "https://github.com/LearnLib/learnlib"
+        }
+      ],
+      "comparison_surface_ids": [
+        "admission_mss_and_purgatory",
+        "formal_tools_limits_and_falsifiers",
+        "plural_attractors_and_universality"
+      ],
+      "proposed_roles": [
+        "donor",
+        "mathematical_tool"
+      ],
+      "dossier_status": "SOURCE_PACKET_STARTER_COMPLETE_REPRODUCTION_PENDING",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "adlam_constraint_based_lawhood",
+      "source_batch": "native_source_cards_batch_a.json",
+      "program_label": "Constraint-based lawhood and generalized determinism",
+      "contributors": [
+        "Emily Adlam"
+      ],
+      "channel_person_entity_ids": [
+        "person_emily_adlam"
+      ],
+      "primary_source_count": 4,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/2109.13836"
+        },
+        {
+          "url": "https://arxiv.org/abs/2110.07656"
+        },
+        {
+          "url": "https://arxiv.org/abs/2201.12934"
+        },
+        {
+          "url": "https://arxiv.org/abs/2309.12293"
+        }
+      ],
+      "comparison_surface_ids": [
+        "probability_time_causality_and_order",
+        "spacetime_gravity_matter_and_cosmogenesis"
+      ],
+      "proposed_roles": [
+        "bridge_translator",
+        "critic_falsifier",
+        "donor"
+      ],
+      "dossier_status": "NATIVE_DOSSIER_STARTER_LOCKED_NONEXECUTABLE_FRAMEWORK",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "aharonov_two_state_vector_formalism",
+      "source_batch": "native_source_cards_batch_a.json",
+      "program_label": "Two-state-vector formalism and time-symmetric quantum mechanics",
+      "contributors": [
+        "Eliahu Cohen",
+        "Joel L. Lebowitz",
+        "Lev Vaidman",
+        "Peter G. Bergmann",
+        "Yakir Aharonov"
+      ],
+      "channel_person_entity_ids": [
+        "person_yakir_aharonov"
+      ],
+      "primary_source_count": 4,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/quant-ph/0105101"
+        },
+        {
+          "url": "https://arxiv.org/abs/1406.6382"
+        },
+        {
+          "url": "https://arxiv.org/abs/1610.09025"
+        },
+        {
+          "url": "https://arxiv.org/abs/1702.04021"
+        }
+      ],
+      "comparison_surface_ids": [
+        "finite_quantum_and_carrier_reconstruction",
+        "probability_time_causality_and_order"
+      ],
+      "proposed_roles": [
+        "critic_falsifier",
+        "donor",
+        "empirical_testbed"
+      ],
+      "dossier_status": "SOURCE_PACKET_STARTER_COMPLETE_REPRODUCTION_PENDING",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "ashtekar_loop_quantum_cosmology",
+      "source_batch": "native_source_cards_batch_d.json",
+      "program_label": "Loop quantum cosmology as a symmetry-reduced application of loop quantum gravity; distinct effective-dynamics and perturbation programs require later splitting.",
+      "contributors": [
+        "Abhay Ashtekar",
+        "Ivan Agullo",
+        "Martin Bojowald",
+        "Parampreet Singh"
+      ],
+      "channel_person_entity_ids": [
+        "person_abhay_ashtekar"
+      ],
+      "primary_source_count": 2,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/1108.0893",
+          "title": "Loop Quantum Cosmology: A Status Report"
+        },
+        {
+          "url": "https://arxiv.org/abs/1509.08899",
+          "title": "Generalized effective description of loop quantum cosmology"
+        }
+      ],
+      "comparison_surface_ids": [
+        "finite_quantum_and_carrier_reconstruction",
+        "formal_tools_limits_and_falsifiers",
+        "spacetime_gravity_matter_and_cosmogenesis"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "critic_falsifier",
+        "donor"
+      ],
+      "dossier_status": "SOURCE_NATIVE_STARTING_CARDS_NOT_RANKING_ELIGIBLE",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "assembly_theory_joint_cronin_walker",
+      "source_batch": "native_source_cards_batch_a.json",
+      "program_label": "Assembly Theory",
+      "contributors": [
+        "Abhishek Sharma",
+        "Douglas Moore",
+        "Leroy Cronin",
+        "paper-specific collaborators",
+        "Sara Imari Walker"
+      ],
+      "channel_person_entity_ids": [],
+      "primary_source_count": 5,
+      "primary_sources": [
+        {
+          "url": "https://www.nature.com/articles/s41586-023-06600-9"
+        },
+        {
+          "url": "https://www.nature.com/articles/s41467-021-23258-x"
+        },
+        {
+          "url": "https://arxiv.org/abs/1705.03460"
+        },
+        {
+          "url": "https://www.nature.com/articles/s44260-025-00049-9"
+        },
+        {
+          "url": "https://www.nature.com/articles/s44260-026-00088-w"
+        }
+      ],
+      "comparison_surface_ids": [
+        "finite_quantum_and_carrier_reconstruction",
+        "life_evolution_agency_and_origins",
+        "plural_attractors_and_universality",
+        "root_and_least_presumption"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "critic_falsifier",
+        "donor",
+        "empirical_testbed"
+      ],
+      "dossier_status": "SOURCE_PACKET_STARTER_COMPLETE_ACTIVE_SCIENTIFIC_DISPUTE",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "bach_micropsi_motivated_cognition",
+      "source_batch": "native_source_cards_batch_f.json",
+      "program_label": "MicroPsi architecture of motivated cognition",
+      "contributors": [
+        "Joscha Bach"
+      ],
+      "channel_person_entity_ids": [
+        "person_joscha_bach"
+      ],
+      "primary_source_count": 2,
+      "primary_sources": [
+        {
+          "url": "https://cognitive-ai.com/publications/assets/Draft-MicroPsi-JBach-07-03-30.pdf",
+          "title": "Principles of Synthetic Intelligence: Building Blocks for an Architecture of Motivated Cognition"
+        },
+        {
+          "url": "https://github.com/joschabach/micropsi2",
+          "title": "MicroPsi 2 source repository"
+        }
+      ],
+      "comparison_surface_ids": [],
+      "proposed_roles": [],
+      "dossier_status": "ADMINISTRATIVE_BATCH_COMPLETE_SOURCE_NATIVE_UNRANKED",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "barbour_shape_dynamics_timelessness",
+      "source_batch": "native_source_cards_batch_d.json",
+      "program_label": "Relational best matching, shape dynamics and Janus-point/time-arrow models are related but distinct; later dossiers must split their mathematical and cosmological claims.",
+      "contributors": [
+        "Flavio Mercati",
+        "Julian Barbour",
+        "Tim Koslowski"
+      ],
+      "channel_person_entity_ids": [
+        "person_julian_barbour"
+      ],
+      "primary_source_count": 2,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/1302.6264",
+          "title": "Shape Dynamics and the Problem of Time"
+        },
+        {
+          "url": "https://arxiv.org/abs/1310.5167",
+          "title": "A Gravitational Origin of the Arrows of Time"
+        }
+      ],
+      "comparison_surface_ids": [
+        "probability_time_causality_and_order",
+        "root_and_least_presumption",
+        "spacetime_gravity_matter_and_cosmogenesis"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "critic_falsifier",
+        "donor"
+      ],
+      "dossier_status": "SOURCE_NATIVE_STARTING_CARDS_NOT_RANKING_ELIGIBLE",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "bianconi_network_geometry_with_flavor",
+      "source_batch": "native_source_cards_batch_a.json",
+      "program_label": "Network Geometry with Flavor",
+      "contributors": [
+        "Christoph Rahmede",
+        "Ginestra Bianconi",
+        "paper-specific collaborators"
+      ],
+      "channel_person_entity_ids": [
+        "person_ginestra_bianconi"
+      ],
+      "primary_source_count": 3,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/1511.04539"
+        },
+        {
+          "url": "https://arxiv.org/abs/1607.05710"
+        },
+        {
+          "url": "https://arxiv.org/abs/1711.06290"
+        }
+      ],
+      "comparison_surface_ids": [
+        "nested_entropic_geometry_flux_and_chirality",
+        "spacetime_gravity_matter_and_cosmogenesis"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "donor",
+        "mathematical_tool"
+      ],
+      "dossier_status": "SOURCE_PACKET_STARTER_COMPLETE_REPRODUCTION_PENDING",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "bianconi_quantum_relative_entropy_geometry",
+      "source_batch": "native_source_cards_batch_a.json",
+      "program_label": "Quantum-relative-entropy action for geometry, matter and gauge fields on cell complexes",
+      "contributors": [
+        "Ginestra Bianconi"
+      ],
+      "channel_person_entity_ids": [
+        "person_ginestra_bianconi"
+      ],
+      "primary_source_count": 1,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/2404.08556"
+        }
+      ],
+      "comparison_surface_ids": [
+        "finite_quantum_and_carrier_reconstruction",
+        "nested_entropic_geometry_flux_and_chirality",
+        "spacetime_gravity_matter_and_cosmogenesis"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "donor",
+        "mathematical_tool"
+      ],
+      "dossier_status": "SOURCE_PACKET_PARTIAL_THEORY_REPRODUCTION_PENDING",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "bisimulation_coalgebra",
+      "source_batch": "native_source_cards_batch_a.json",
+      "program_label": "Coalgebraic behavioral equivalence and bisimulation",
+      "contributors": [
+        "Alexandra Silva",
+        "Filippo Bonchi",
+        "Jan Rutten",
+        "paper-specific collaborators",
+        "Robin Milner"
+      ],
+      "channel_person_entity_ids": [],
+      "primary_source_count": 3,
+      "primary_sources": [
+        {
+          "url": "https://doi.org/10.1016/S0304-0208(00)00056-6"
+        },
+        {
+          "url": "https://arxiv.org/abs/1302.1046"
+        },
+        {
+          "url": "https://arxiv.org/abs/2002.11459"
+        }
+      ],
+      "comparison_surface_ids": [
+        "admission_mss_and_purgatory",
+        "formal_tools_limits_and_falsifiers",
+        "plural_attractors_and_universality"
+      ],
+      "proposed_roles": [
+        "critic_falsifier",
+        "mathematical_tool"
+      ],
+      "dossier_status": "SOURCE_PACKET_STARTER_COMPLETE_REPRODUCTION_PENDING",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "campbell_my_big_toe",
+      "source_batch": "native_source_cards_batch_b.json",
+      "program_label": "My Big TOE",
+      "contributors": [
+        "Thomas W. Campbell"
+      ],
+      "channel_person_entity_ids": [],
+      "primary_source_count": 3,
+      "primary_sources": [
+        {
+          "url": "https://www.my-big-toe.com/"
+        },
+        {
+          "url": "https://archive.org/details/mybigtoeawakenin0000thom"
+        },
+        {
+          "url": "https://archive.org/details/mybigtoeinnerwor0000thom"
+        }
+      ],
+      "comparison_surface_ids": [
+        "fep_perception_consciousness_and_holodeck",
+        "formal_tools_limits_and_falsifiers",
+        "qit_engines_and_recursive_construction",
+        "root_and_least_presumption"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "contextual_neighbor"
+      ],
+      "dossier_status": "PRIMARY_SOURCE_LEADS_COLLECTED_NATIVE_DOSSIERS_NOT_LOCKED_UNRANKED",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "carcassi_assumptions_of_physics",
+      "source_batch": "native_source_cards_batch_a.json",
+      "program_label": "Assumptions of Physics reverse derivation",
+      "contributors": [
+        "Christine A. Aidala",
+        "Gabriele Carcassi"
+      ],
+      "channel_person_entity_ids": [
+        "person_gabriele_carcassi"
+      ],
+      "primary_source_count": 5,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/1702.07052"
+        },
+        {
+          "url": "https://arxiv.org/abs/2101.02107"
+        },
+        {
+          "url": "https://arxiv.org/abs/2308.06669"
+        },
+        {
+          "url": "https://arxiv.org/abs/2411.00972"
+        },
+        {
+          "url": "https://arxiv.org/abs/2501.03294"
+        }
+      ],
+      "comparison_surface_ids": [
+        "finite_quantum_and_carrier_reconstruction",
+        "formal_tools_limits_and_falsifiers",
+        "root_and_least_presumption"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "critic_falsifier",
+        "donor"
+      ],
+      "dossier_status": "SOURCE_PACKET_STARTER_COMPLETE_CRITIQUE_RECONCILIATION_PENDING",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "causal_emergence",
+      "source_batch": "native_source_cards_batch_a.json",
+      "program_label": "Causal emergence through effective information",
+      "contributors": [
+        "Erik P. Hoel",
+        "Giulio Tononi",
+        "Larissa Albantakis",
+        "paper-specific collaborators"
+      ],
+      "channel_person_entity_ids": [],
+      "primary_source_count": 5,
+      "primary_sources": [
+        {
+          "url": "https://doi.org/10.1073/pnas.1314922110"
+        },
+        {
+          "url": "https://arxiv.org/abs/1612.09592"
+        },
+        {
+          "url": "https://arxiv.org/abs/1907.03902"
+        },
+        {
+          "url": "https://arxiv.org/abs/2010.09390"
+        },
+        {
+          "url": "https://arxiv.org/abs/2202.01854"
+        }
+      ],
+      "comparison_surface_ids": [
+        "object_individual_boundary_and_observer",
+        "plural_attractors_and_universality",
+        "probability_time_causality_and_order"
+      ],
+      "proposed_roles": [
+        "critic_falsifier",
+        "donor",
+        "mathematical_tool"
+      ],
+      "dossier_status": "SOURCE_PACKET_STARTER_COMPLETE_REPRODUCTION_PENDING",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "causal_fermion_systems",
+      "source_batch": "native_source_cards_batch_a.json",
+      "program_label": "Causal Fermion Systems",
+      "contributors": [
+        "CFS collaborators",
+        "Felix Finster"
+      ],
+      "channel_person_entity_ids": [
+        "person_felix_finster"
+      ],
+      "primary_source_count": 4,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/2411.06450"
+        },
+        {
+          "url": "https://arxiv.org/abs/1605.04742"
+        },
+        {
+          "url": "https://arxiv.org/abs/1211.3351"
+        },
+        {
+          "url": "https://arxiv.org/abs/2201.06382"
+        }
+      ],
+      "comparison_surface_ids": [
+        "finite_quantum_and_carrier_reconstruction",
+        "nested_entropic_geometry_flux_and_chirality",
+        "spacetime_gravity_matter_and_cosmogenesis"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "donor",
+        "mathematical_tool"
+      ],
+      "dossier_status": "SOURCE_PACKET_STARTER_COMPLETE_REPRODUCTION_PENDING",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "cdp_purification_reconstruction",
+      "source_batch": "native_source_cards_batch_a.json",
+      "program_label": "Chiribella-D'Ariano-Perinotti operational reconstruction by purification",
+      "contributors": [
+        "Giacomo Mauro D'Ariano",
+        "Giulio Chiribella",
+        "Paolo Perinotti"
+      ],
+      "channel_person_entity_ids": [],
+      "primary_source_count": 3,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/0908.1583"
+        },
+        {
+          "url": "https://arxiv.org/abs/1011.6451"
+        },
+        {
+          "url": "https://arxiv.org/abs/1209.5533"
+        }
+      ],
+      "comparison_surface_ids": [
+        "finite_quantum_and_carrier_reconstruction",
+        "root_and_least_presumption"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "critic_falsifier",
+        "donor"
+      ],
+      "dossier_status": "SOURCE_PACKET_STARTER_COMPLETE_REPRODUCTION_PENDING",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "cegar_model_checking",
+      "source_batch": "native_source_cards_batch_a.json",
+      "program_label": "Counterexample-Guided Abstraction Refinement",
+      "contributors": [
+        "CPAchecker contributors",
+        "Edmund M. Clarke",
+        "Helmut Veith",
+        "Orna Grumberg",
+        "Somesh Jha",
+        "Yuan Lu"
+      ],
+      "channel_person_entity_ids": [],
+      "primary_source_count": 3,
+      "primary_sources": [
+        {
+          "url": "https://doi.org/10.1007/10722167_15"
+        },
+        {
+          "url": "https://doi.org/10.1145/876638.876643"
+        },
+        {
+          "url": "https://cpachecker.sosy-lab.org/"
+        }
+      ],
+      "comparison_surface_ids": [
+        "admission_mss_and_purgatory",
+        "formal_tools_limits_and_falsifiers",
+        "plural_attractors_and_universality"
+      ],
+      "proposed_roles": [
+        "donor",
+        "mathematical_tool"
+      ],
+      "dossier_status": "SOURCE_PACKET_STARTER_COMPLETE_REPRODUCTION_PENDING",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "chen_wentaculus",
+      "source_batch": "native_source_cards_batch_d.json",
+      "program_label": "Density Matrix Realism plus the Initial Projection Hypothesis for the thermodynamic arrow; distinguish Everettian, Bohmian and collapse instantiations.",
+      "contributors": [
+        "Eddy Keming Chen"
+      ],
+      "channel_person_entity_ids": [],
+      "primary_source_count": 2,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/1712.01666",
+          "title": "Quantum Mechanics in a Time-Asymmetric Universe"
+        },
+        {
+          "url": "https://arxiv.org/abs/2211.03973",
+          "title": "The Wentaculus: Density Matrix Realism Meets the Arrow of Time"
+        }
+      ],
+      "comparison_surface_ids": [
+        "finite_quantum_and_carrier_reconstruction",
+        "probability_time_causality_and_order",
+        "spacetime_gravity_matter_and_cosmogenesis"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "critic_falsifier",
+        "donor"
+      ],
+      "dossier_status": "SOURCE_NATIVE_STARTING_CARDS_NOT_RANKING_ELIGIBLE",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "closure_of_constraints",
+      "source_batch": "native_source_cards_batch_a.json",
+      "program_label": "Biological organization as closure of constraints",
+      "contributors": [
+        "Alvaro Moreno",
+        "Matteo Mossio",
+        "Ma\u00ebl Mont\u00e9vil"
+      ],
+      "channel_person_entity_ids": [],
+      "primary_source_count": 2,
+      "primary_sources": [
+        {
+          "url": "https://doi.org/10.1016/j.jtbi.2015.02.029"
+        },
+        {
+          "url": "https://arxiv.org/abs/1702.03337"
+        }
+      ],
+      "comparison_surface_ids": [
+        "life_evolution_agency_and_origins",
+        "object_individual_boundary_and_observer"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "donor",
+        "empirical_testbed"
+      ],
+      "dossier_status": "SOURCE_PACKET_STARTER_COMPLETE_REPRODUCTION_PENDING",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "computational_mechanics",
+      "source_batch": "native_source_cards_batch_a.json",
+      "program_label": "Computational mechanics and epsilon-machine reconstruction",
+      "contributors": [
+        "Cosma Rohilla Shalizi",
+        "James P. Crutchfield",
+        "Kristian Lindgren",
+        "Peter Grassberger"
+      ],
+      "channel_person_entity_ids": [],
+      "primary_source_count": 4,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/cond-mat/9907176"
+        },
+        {
+          "url": "https://arxiv.org/abs/cs/0001027"
+        },
+        {
+          "url": "https://arxiv.org/abs/1408.2025"
+        },
+        {
+          "url": "https://arxiv.org/abs/1708.04190"
+        }
+      ],
+      "comparison_surface_ids": [
+        "object_individual_boundary_and_observer",
+        "plural_attractors_and_universality",
+        "probability_time_causality_and_order"
+      ],
+      "proposed_roles": [
+        "critic_falsifier",
+        "donor",
+        "mathematical_tool"
+      ],
+      "dossier_status": "SOURCE_PACKET_STARTER_COMPLETE_REPRODUCTION_PENDING",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "constructive_gravity",
+      "source_batch": "native_source_cards_batch_a.json",
+      "program_label": "Constructive gravity by gravitational closure",
+      "contributors": [
+        "Christian Witte",
+        "Frederic P. Schuller",
+        "Mattias N. R. Wohlfarth",
+        "Nils Alex",
+        "paper-specific collaborators"
+      ],
+      "channel_person_entity_ids": [],
+      "primary_source_count": 4,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/1611.08878"
+        },
+        {
+          "url": "https://arxiv.org/abs/1402.6548"
+        },
+        {
+          "url": "https://arxiv.org/abs/1202.2991"
+        },
+        {
+          "url": "https://arxiv.org/abs/1708.03870"
+        }
+      ],
+      "comparison_surface_ids": [
+        "formal_tools_limits_and_falsifiers",
+        "nested_entropic_geometry_flux_and_chirality",
+        "spacetime_gravity_matter_and_cosmogenesis"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "critic_falsifier",
+        "donor"
+      ],
+      "dossier_status": "SOURCE_PACKET_STARTER_COMPLETE_REPRODUCTION_PENDING",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "curt_jaimungal_toe",
+      "source_batch": "native_source_cards_batch_a.json",
+      "program_label": "UNRESOLVED: alleged Curt Jaimungal theory-of-everything presentation",
+      "contributors": [
+        "Curt Jaimungal, only provisionally and only if the source confirms authorship"
+      ],
+      "channel_person_entity_ids": [],
+      "primary_source_count": 1,
+      "primary_sources": [
+        {
+          "url": "https://www.youtube.com/@TheoriesofEverything/videos"
+        }
+      ],
+      "comparison_surface_ids": [],
+      "proposed_roles": [
+        "unclassified"
+      ],
+      "dossier_status": "IDENTITY_RESOLUTION_REQUIRED_EVIDENCE_LIMITED",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "deacon_teleodynamics",
+      "source_batch": "native_source_cards_batch_a.json",
+      "program_label": "Teleodynamics and the autogen model",
+      "contributors": [
+        "paper-specific collaborators",
+        "Terrence W. Deacon",
+        "Tyrone Cashman"
+      ],
+      "channel_person_entity_ids": [],
+      "primary_source_count": 3,
+      "primary_sources": [
+        {
+          "url": "https://wwnorton.com/books/Incomplete-Nature/"
+        },
+        {
+          "url": "https://doi.org/10.1162/biot.2006.1.2.136"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25076382/"
+        }
+      ],
+      "comparison_surface_ids": [
+        "life_evolution_agency_and_origins",
+        "nested_entropic_geometry_flux_and_chirality",
+        "object_individual_boundary_and_observer"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "donor",
+        "empirical_testbed"
+      ],
+      "dossier_status": "SOURCE_PACKET_PARTIAL_REPRODUCTION_PENDING",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "derham_dRGT_massive_gravity",
+      "source_batch": "native_source_cards_batch_f.json",
+      "program_label": "Ghost-free nonlinear massive gravity",
+      "contributors": [
+        "Andrew J. Tolley",
+        "Claudia de Rham",
+        "Gregory Gabadadze"
+      ],
+      "channel_person_entity_ids": [
+        "person_claudia_de_rham"
+      ],
+      "primary_source_count": 3,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/1011.1232",
+          "title": "Resummation of Massive Gravity"
+        },
+        {
+          "url": "https://arxiv.org/abs/1107.3820",
+          "title": "Ghost free Massive Gravity in the Stueckelberg language"
+        },
+        {
+          "url": "https://arxiv.org/abs/2302.04876",
+          "title": "A dynamical formulation of ghost-free massive gravity"
+        }
+      ],
+      "comparison_surface_ids": [],
+      "proposed_roles": [],
+      "dossier_status": "ADMINISTRATIVE_BATCH_COMPLETE_SOURCE_NATIVE_UNRANKED",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "di_paolo_adaptivity",
+      "source_batch": "native_source_cards_batch_a.json",
+      "program_label": "Adaptivity, sense-making and agency",
+      "contributors": [
+        "Ezequiel A. Di Paolo",
+        "Hanne De Jaegher",
+        "Marieke Rohde",
+        "Xabier E. Barandiaran"
+      ],
+      "channel_person_entity_ids": [],
+      "primary_source_count": 3,
+      "primary_sources": [
+        {
+          "url": "https://doi.org/10.1007/s11097-005-9002-y"
+        },
+        {
+          "url": "https://doi.org/10.1007/s11097-007-9076-9"
+        },
+        {
+          "url": "https://doi.org/10.1007/s11023-008-9135-7"
+        }
+      ],
+      "comparison_surface_ids": [
+        "fep_perception_consciousness_and_holodeck",
+        "life_evolution_agency_and_origins",
+        "object_individual_boundary_and_observer"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "donor",
+        "empirical_testbed"
+      ],
+      "dossier_status": "SOURCE_PACKET_STARTER_COMPLETE_REPRODUCTION_PENDING",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "donoghue_eft_gravity",
+      "source_batch": "native_source_cards_batch_b.json",
+      "program_label": "General relativity as a low-energy quantum effective field theory",
+      "contributors": [
+        "Barry R. Holstein",
+        "John F. Donoghue"
+      ],
+      "channel_person_entity_ids": [],
+      "primary_source_count": 3,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/gr-qc/9405057"
+        },
+        {
+          "url": "https://arxiv.org/abs/1506.00946"
+        },
+        {
+          "url": "https://arxiv.org/abs/2211.09902"
+        }
+      ],
+      "comparison_surface_ids": [
+        "formal_tools_limits_and_falsifiers",
+        "root_and_least_presumption",
+        "spacetime_gravity_matter_and_cosmogenesis"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "critic_falsifier",
+        "mathematical_tool"
+      ],
+      "dossier_status": "PRIMARY_SOURCE_LEADS_COLLECTED_NATIVE_DOSSIERS_NOT_LOCKED_UNRANKED",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "dowker_causal_set_quantum_gravity",
+      "source_batch": "native_source_cards_batch_d.json",
+      "program_label": "Causal-set kinematics, classical sequential growth, and causal-set quantum-field constructions are separate subprograms and must not be scored as one result.",
+      "contributors": [
+        "Fay Dowker",
+        "Rafael Sorkin",
+        "Sumati Surya"
+      ],
+      "channel_person_entity_ids": [
+        "person_fay_dowker"
+      ],
+      "primary_source_count": 3,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/1903.11544",
+          "title": "The causal set approach to quantum gravity"
+        },
+        {
+          "url": "https://arxiv.org/abs/gr-qc/9904062",
+          "title": "Classical sequential growth dynamics for causal sets"
+        },
+        {
+          "url": "https://arxiv.org/abs/2402.08555",
+          "title": "A manifestly covariant framework for causal set quantum field theory"
+        }
+      ],
+      "comparison_surface_ids": [
+        "probability_time_causality_and_order",
+        "root_and_least_presumption",
+        "spacetime_gravity_matter_and_cosmogenesis"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "donor",
+        "mathematical_tool"
+      ],
+      "dossier_status": "SOURCE_NATIVE_STARTING_CARDS_NOT_RANKING_ELIGIBLE",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "eldiwiny_soft_robotics_morphological_computation",
+      "source_batch": "native_source_cards_batch_e.json",
+      "program_label": "ElDiwiny's soft-robotics work on embodied intelligence, morphological computation, artificial muscles, and damage-tolerant multimaterial structures; separate from her podcast-host and religion/UFO discussion format.",
+      "contributors": [
+        "Barbara Mazzolai",
+        "Marwa ElDiwiny"
+      ],
+      "channel_person_entity_ids": [],
+      "primary_source_count": 3,
+      "primary_sources": [
+        {
+          "url": "https://doi.org/10.1088/1757-899X/1261/1/012005",
+          "title": "Embodied Intelligence & Morphological Computation in Soft Robotics Community: Collaborations, Coordination, and Perspective"
+        },
+        {
+          "url": "https://doi.org/10.1089/soro.2021.0205",
+          "title": "Nonlinear Multimaterial Architecture for Greater Soft Material's Toughness and Delaying Damage Propagation"
+        },
+        {
+          "url": "https://github.com/meldiwin/Designing-Artificial-Muscles",
+          "title": "Designing Artificial Muscles repository"
+        }
+      ],
+      "comparison_surface_ids": [
+        "life_evolution_agency_and_origins",
+        "object_individual_boundary_and_observer",
+        "qit_engines_and_recursive_construction"
+      ],
+      "proposed_roles": [
+        "embodiment_donor",
+        "empirical_testbed",
+        "engineering_falsifier"
+      ],
+      "dossier_status": "SOURCE_PACKET_STARTER",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "england_dissipative_adaptation",
+      "source_batch": "native_source_cards_batch_b.json",
+      "program_label": "Dissipative adaptation and drive-specific self-organization",
+      "contributors": [
+        "Akash Vardhan",
+        "Alexander Samland",
+        "Daniel I. Goldman",
+        "Deng Pan",
+        "Hridesh Kedia",
+        "Jean-Jacques Slotine",
+        "Jeremy L. England",
+        "Kurt Wiesenfeld",
+        "Nikolai Perunov",
+        "Pavel Chvykov",
+        "Robert Marsland III",
+        "Thomas A. Berrueta",
+        "Todd D. Murphey",
+        "William Savoie"
+      ],
+      "channel_person_entity_ids": [],
+      "primary_source_count": 4,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/1209.1179"
+        },
+        {
+          "url": "https://arxiv.org/abs/1412.1875"
+        },
+        {
+          "url": "https://arxiv.org/abs/1908.09332"
+        },
+        {
+          "url": "https://arxiv.org/abs/2101.00683"
+        }
+      ],
+      "comparison_surface_ids": [
+        "life_evolution_agency_and_origins",
+        "nested_entropic_geometry_flux_and_chirality",
+        "plural_attractors_and_universality"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "donor",
+        "empirical_testbed"
+      ],
+      "dossier_status": "PRIMARY_SOURCE_LEADS_COLLECTED_NATIVE_DOSSIERS_NOT_LOCKED_UNRANKED",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "everett_decoherent_histories",
+      "source_batch": "native_source_cards_batch_b.json",
+      "program_label": "Modern Everett interpretation: Wallace and Saunders versions",
+      "contributors": [
+        "David Wallace",
+        "Simon Saunders"
+      ],
+      "channel_person_entity_ids": [
+        "person_david_wallace",
+        "person_simon_saunders"
+      ],
+      "primary_source_count": 5,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/1111.2189"
+        },
+        {
+          "url": "https://arxiv.org/abs/quant-ph/0312157"
+        },
+        {
+          "url": "https://arxiv.org/abs/2201.06087"
+        },
+        {
+          "url": "https://arxiv.org/abs/2601.12159"
+        },
+        {
+          "url": "https://arxiv.org/abs/2010.11591"
+        }
+      ],
+      "comparison_surface_ids": [
+        "finite_quantum_and_carrier_reconstruction",
+        "object_individual_boundary_and_observer",
+        "plural_attractors_and_universality",
+        "probability_time_causality_and_order"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "critic_falsifier",
+        "donor"
+      ],
+      "dossier_status": "PRIMARY_SOURCE_LEADS_COLLECTED_NATIVE_DOSSIERS_NOT_LOCKED_UNRANKED",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "fields_observer_quantum_information",
+      "source_batch": "native_source_cards_batch_b.json",
+      "program_label": "Quantum reference frames, observer identification, and scale-free quantum information",
+      "contributors": [
+        "Antonino Marciano",
+        "Chris Fields",
+        "James F. Glazebrook",
+        "Karl Friston",
+        "Michael Levin"
+      ],
+      "channel_person_entity_ids": [
+        "person_chris_fields",
+        "person_karl_friston",
+        "person_michael_levin"
+      ],
+      "primary_source_count": 4,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/1401.4767"
+        },
+        {
+          "url": "https://arxiv.org/abs/2112.15242"
+        },
+        {
+          "url": "https://arxiv.org/abs/2201.00921"
+        },
+        {
+          "url": "https://arxiv.org/abs/2205.13184"
+        }
+      ],
+      "comparison_surface_ids": [
+        "fep_perception_consciousness_and_holodeck",
+        "finite_quantum_and_carrier_reconstruction",
+        "object_individual_boundary_and_observer",
+        "root_and_least_presumption"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "critic_falsifier",
+        "donor",
+        "mathematical_tool"
+      ],
+      "dossier_status": "PRIMARY_SOURCE_LEADS_COLLECTED_NATIVE_DOSSIERS_NOT_LOCKED_UNRANKED",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "frauchiger_renner_self_reference_no_go",
+      "source_batch": "native_source_cards_batch_d.json",
+      "program_label": "The 2016/2018 extended-Wigner-friend theorem and its explicit assumptions; responses are separate programs.",
+      "contributors": [
+        "Daniela Frauchiger",
+        "Renato Renner"
+      ],
+      "channel_person_entity_ids": [
+        "person_renato_renner"
+      ],
+      "primary_source_count": 1,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/1604.07422",
+          "title": "Quantum theory cannot consistently describe the use of itself"
+        }
+      ],
+      "comparison_surface_ids": [
+        "formal_tools_limits_and_falsifiers",
+        "object_individual_boundary_and_observer",
+        "probability_time_causality_and_order"
+      ],
+      "proposed_roles": [
+        "critic_falsifier",
+        "mathematical_tool"
+      ],
+      "dossier_status": "SOURCE_NATIVE_STARTING_CARDS_NOT_RANKING_ELIGIBLE",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "frenkel_quantum_geometric_langlands",
+      "source_batch": "native_source_cards_batch_d.json",
+      "program_label": "Geometric Langlands/CFT and quantum q-Langlands correspondences are exact mathematical-physics programs, not claims that the Langlands program is itself a physical ToE.",
+      "contributors": [
+        "Andrei Okounkov",
+        "Davide Gaiotto",
+        "Edward Frenkel",
+        "Mina Aganagic"
+      ],
+      "channel_person_entity_ids": [
+        "person_edward_frenkel"
+      ],
+      "primary_source_count": 2,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/hep-th/0512172",
+          "title": "Lectures on the Langlands Program and Conformal Field Theory"
+        },
+        {
+          "url": "https://arxiv.org/abs/1701.03146",
+          "title": "Quantum q-Langlands Correspondence"
+        }
+      ],
+      "comparison_surface_ids": [
+        "formal_tools_limits_and_falsifiers",
+        "nested_entropic_geometry_flux_and_chirality",
+        "qit_engines_and_recursive_construction"
+      ],
+      "proposed_roles": [
+        "critic_falsifier",
+        "donor",
+        "mathematical_tool"
+      ],
+      "dossier_status": "SOURCE_NATIVE_STARTING_CARDS_NOT_RANKING_ELIGIBLE",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "friston_fep",
+      "source_batch": "native_source_cards_batch_b.json",
+      "program_label": "Free Energy Principle, Bayesian mechanics, and active inference",
+      "contributors": [
+        "Conor Heins",
+        "Grigorios A. Pavliotis",
+        "Kai Ueltzh\u00f6ffer",
+        "Karl Friston",
+        "Lancelot Da Costa",
+        "Noor Sajid",
+        "Thomas Parr"
+      ],
+      "channel_person_entity_ids": [
+        "person_karl_friston"
+      ],
+      "primary_source_count": 4,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/2201.06387"
+        },
+        {
+          "url": "https://arxiv.org/abs/2105.11203"
+        },
+        {
+          "url": "https://arxiv.org/abs/2205.10190"
+        },
+        {
+          "url": "https://arxiv.org/abs/2407.20292"
+        }
+      ],
+      "comparison_surface_ids": [
+        "fep_perception_consciousness_and_holodeck",
+        "life_evolution_agency_and_origins",
+        "object_individual_boundary_and_observer",
+        "qit_engines_and_recursive_construction"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "donor",
+        "empirical_testbed",
+        "mathematical_tool"
+      ],
+      "dossier_status": "PRIMARY_SOURCE_LEADS_COLLECTED_NATIVE_DOSSIERS_NOT_LOCKED_UNRANKED",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "fuentes_experimental_quantum_gravity",
+      "source_batch": "native_source_cards_batch_b.json",
+      "program_label": "Relativistic quantum information and experimental gravity-quantum interfaces",
+      "contributors": [
+        "Anupam Mazumdar",
+        "Chiara Marletto",
+        "David Edward Bruschi",
+        "Ivette Fuentes",
+        "Or Dobkowski",
+        "Richard Howl",
+        "Roger Penrose",
+        "Ron Folman",
+        "Sougato Bose",
+        "Vlatko Vedral"
+      ],
+      "channel_person_entity_ids": [
+        "person_chiara_marletto",
+        "person_ivette_fuentes",
+        "person_roger_penrose"
+      ],
+      "primary_source_count": 5,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/1306.1933"
+        },
+        {
+          "url": "https://arxiv.org/abs/2502.14535"
+        },
+        {
+          "url": "https://arxiv.org/abs/2504.15409"
+        },
+        {
+          "url": "https://arxiv.org/abs/2504.21626"
+        },
+        {
+          "url": "https://arxiv.org/abs/2509.01586"
+        }
+      ],
+      "comparison_surface_ids": [
+        "finite_quantum_and_carrier_reconstruction",
+        "formal_tools_limits_and_falsifiers",
+        "spacetime_gravity_matter_and_cosmogenesis"
+      ],
+      "proposed_roles": [
+        "critic_falsifier",
+        "donor",
+        "empirical_testbed"
+      ],
+      "dossier_status": "PRIMARY_SOURCE_LEADS_COLLECTED_NATIVE_DOSSIERS_NOT_LOCKED_UNRANKED",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "geometric_unity",
+      "source_batch": "native_source_cards_batch_b.json",
+      "program_label": "Geometric Unity",
+      "contributors": [
+        "Eric Weinstein"
+      ],
+      "channel_person_entity_ids": [
+        "person_eric_weinstein"
+      ],
+      "primary_source_count": 2,
+      "primary_sources": [
+        {
+          "url": "https://geometricunity.org/"
+        },
+        {
+          "url": "https://geometricunity.org/2013-oxford-lecture/"
+        }
+      ],
+      "comparison_surface_ids": [
+        "formal_tools_limits_and_falsifiers",
+        "nested_entropic_geometry_flux_and_chirality",
+        "spacetime_gravity_matter_and_cosmogenesis"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "mathematical_tool"
+      ],
+      "dossier_status": "PRIMARY_SOURCE_LEADS_COLLECTED_NATIVE_DOSSIERS_NOT_LOCKED_UNRANKED",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "gorard_wolfram_hypergraph_gravity",
+      "source_batch": "native_source_cards_batch_f.json",
+      "program_label": "Hypergraph rewriting, causal invariance and multiway discrete gravity",
+      "contributors": [
+        "Jonathan Gorard"
+      ],
+      "channel_person_entity_ids": [
+        "person_jonathan_gorard"
+      ],
+      "primary_source_count": 4,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/2004.14810",
+          "title": "Some Relativistic and Gravitational Properties of the Wolfram Model"
+        },
+        {
+          "url": "https://arxiv.org/abs/2011.12174",
+          "title": "Algorithmic Causal Sets and the Wolfram Model"
+        },
+        {
+          "url": "https://arxiv.org/abs/2102.09363",
+          "title": "Hypergraph Discretization of the Cauchy Problem in General Relativity via Wolfram Model Evolution"
+        },
+        {
+          "url": "https://arxiv.org/abs/2301.12455",
+          "title": "Axiomatic Quantum Field Theory in Discrete Spacetime via Multiway Causal Structure"
+        }
+      ],
+      "comparison_surface_ids": [],
+      "proposed_roles": [],
+      "dossier_status": "ADMINISTRATIVE_BATCH_COMPLETE_SOURCE_NATIVE_UNRANKED",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "hahn_bioinspired_modular_learning_and_embodied_agents",
+      "source_batch": "native_source_cards_batch_e.json",
+      "program_label": "The MPCR natural-computing program and Hahn's published work on modular continual learning and embodied machine-learning tests; separate from the channel's speculative Wolfram-Leibniz-consciousness synthesis.",
+      "contributors": [
+        "Elan Barenholtz",
+        "Michael Teti",
+        "Rachel A. StClair",
+        "William Edward Hahn"
+      ],
+      "channel_person_entity_ids": [
+        "person_elan_barenholtz"
+      ],
+      "primary_source_count": 3,
+      "primary_sources": [
+        {
+          "url": "https://will.hahn.ai/",
+          "title": "William Edward Hahn official research page"
+        },
+        {
+          "url": "https://arxiv.org/abs/2109.15097",
+          "title": "The Role of Bio-Inspired Modularity in General Learning"
+        },
+        {
+          "url": "https://arxiv.org/abs/1803.09386",
+          "title": "A Systematic Comparison of Deep Learning Architectures in an Autonomous Vehicle"
+        }
+      ],
+      "comparison_surface_ids": [
+        "fep_perception_consciousness_and_holodeck",
+        "object_individual_boundary_and_observer",
+        "plural_attractors_and_universality",
+        "qit_engines_and_recursive_construction"
+      ],
+      "proposed_roles": [
+        "architecture_donor",
+        "critic_falsifier",
+        "engineering_testbed"
+      ],
+      "dossier_status": "SOURCE_PACKET_STARTER",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "hameroff_penrose_orch_or",
+      "source_batch": "native_source_cards_batch_d.json",
+      "program_label": "The 2014 revised Orch OR theory; separate Penrose objective-reduction physics, microtubule biophysics and consciousness interpretation in later scoring.",
+      "contributors": [
+        "Roger Penrose",
+        "Stuart Hameroff"
+      ],
+      "channel_person_entity_ids": [
+        "person_roger_penrose",
+        "person_stuart_hameroff"
+      ],
+      "primary_source_count": 1,
+      "primary_sources": [
+        {
+          "url": "https://doi.org/10.1016/j.plrev.2013.08.002",
+          "title": "Consciousness in the universe: A review of the Orch OR theory"
+        }
+      ],
+      "comparison_surface_ids": [
+        "fep_perception_consciousness_and_holodeck",
+        "finite_quantum_and_carrier_reconstruction",
+        "qit_engines_and_recursive_construction"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "critic_falsifier",
+        "empirical_testbed"
+      ],
+      "dossier_status": "SOURCE_NATIVE_STARTING_CARDS_NOT_RANKING_ELIGIBLE",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "hardy_operational_reconstruction",
+      "source_batch": "native_source_cards_batch_b.json",
+      "program_label": "Operational reconstruction of finite-dimensional quantum theory",
+      "contributors": [
+        "Lucien Hardy"
+      ],
+      "channel_person_entity_ids": [],
+      "primary_source_count": 2,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/quant-ph/0101012"
+        },
+        {
+          "url": "https://arxiv.org/abs/1104.2066"
+        }
+      ],
+      "comparison_surface_ids": [
+        "finite_quantum_and_carrier_reconstruction",
+        "probability_time_causality_and_order",
+        "root_and_least_presumption"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "critic_falsifier",
+        "donor",
+        "mathematical_tool"
+      ],
+      "dossier_status": "PRIMARY_SOURCE_LEADS_COLLECTED_NATIVE_DOSSIERS_NOT_LOCKED_UNRANKED",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "hoffman_interface_conscious_agents",
+      "source_batch": "native_source_cards_batch_d.json",
+      "program_label": "Interface theory of perception, fitness-beats-truth evolutionary models and conscious-agent networks are connected but separable programs.",
+      "contributors": [
+        "Chetan Prakash",
+        "Donald Hoffman",
+        "Manish Singh"
+      ],
+      "channel_person_entity_ids": [
+        "person_donald_hoffman"
+      ],
+      "primary_source_count": 2,
+      "primary_sources": [
+        {
+          "url": "https://doi.org/10.3389/fpsyg.2014.00577",
+          "title": "Objects of consciousness"
+        },
+        {
+          "url": "https://doi.org/10.3758/s13423-015-0890-8",
+          "title": "The Interface Theory of Perception"
+        }
+      ],
+      "comparison_surface_ids": [
+        "fep_perception_consciousness_and_holodeck",
+        "object_individual_boundary_and_observer",
+        "qit_engines_and_recursive_construction"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "donor",
+        "empirical_testbed"
+      ],
+      "dossier_status": "SOURCE_NATIVE_STARTING_CARDS_NOT_RANKING_ELIGIBLE",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "indefinite_causal_order",
+      "source_batch": "native_source_cards_batch_b.json",
+      "program_label": "Process matrices, quantum switches, and indefinite causal order",
+      "contributors": [
+        "Caslav Brukner",
+        "Fabio Costa",
+        "Giacomo Mauro D'Ariano",
+        "Giulio Chiribella",
+        "Mateus Ara\u00fajo",
+        "Ognyan Oreshkov",
+        "Paolo Perinotti",
+        "Sally Shrapnel"
+      ],
+      "channel_person_entity_ids": [],
+      "primary_source_count": 5,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/1105.4464"
+        },
+        {
+          "url": "https://arxiv.org/abs/0912.0195"
+        },
+        {
+          "url": "https://arxiv.org/abs/1506.03776"
+        },
+        {
+          "url": "https://arxiv.org/abs/1702.01845"
+        },
+        {
+          "url": "https://arxiv.org/abs/1412.4006"
+        }
+      ],
+      "comparison_surface_ids": [
+        "finite_quantum_and_carrier_reconstruction",
+        "formal_tools_limits_and_falsifiers",
+        "probability_time_causality_and_order"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "donor",
+        "empirical_testbed",
+        "mathematical_tool"
+      ],
+      "dossier_status": "PRIMARY_SOURCE_LEADS_COLLECTED_NATIVE_DOSSIERS_NOT_LOCKED_UNRANKED",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "information_bottleneck",
+      "source_batch": "native_source_cards_batch_b.json",
+      "program_label": "Information bottleneck",
+      "contributors": [
+        "Fernando C. Pereira",
+        "Naftali Tishby",
+        "William Bialek"
+      ],
+      "channel_person_entity_ids": [],
+      "primary_source_count": 3,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/physics/0004057"
+        },
+        {
+          "url": "https://arxiv.org/abs/1604.00268"
+        },
+        {
+          "url": "https://arxiv.org/abs/1612.00410"
+        }
+      ],
+      "comparison_surface_ids": [
+        "admission_mss_and_purgatory",
+        "fep_perception_consciousness_and_holodeck",
+        "object_individual_boundary_and_observer"
+      ],
+      "proposed_roles": [
+        "critic_falsifier",
+        "donor",
+        "mathematical_tool"
+      ],
+      "dossier_status": "PRIMARY_SOURCE_LEADS_COLLECTED_NATIVE_DOSSIERS_NOT_LOCKED_UNRANKED",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "information_theory_of_individuality",
+      "source_batch": "native_source_cards_batch_b.json",
+      "program_label": "Information theory of individuality",
+      "contributors": [
+        "David Krakauer",
+        "Eckehard Olbrich",
+        "Jessica C. Flack",
+        "Nihat Ay",
+        "Nils Bertschinger"
+      ],
+      "channel_person_entity_ids": [],
+      "primary_source_count": 2,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/1412.2447"
+        },
+        {
+          "url": "https://doi.org/10.1007/s12064-020-00313-7"
+        }
+      ],
+      "comparison_surface_ids": [
+        "life_evolution_agency_and_origins",
+        "object_individual_boundary_and_observer",
+        "plural_attractors_and_universality"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "donor",
+        "mathematical_tool"
+      ],
+      "dossier_status": "PRIMARY_SOURCE_LEADS_COLLECTED_NATIVE_DOSSIERS_NOT_LOCKED_UNRANKED",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "jacobson_spacetime_thermodynamics",
+      "source_batch": "native_source_cards_batch_d.json",
+      "program_label": "The 1995 local-horizon equilibrium derivation; non-equilibrium and entanglement-equilibrium extensions are separate versions.",
+      "contributors": [
+        "Ted Jacobson"
+      ],
+      "channel_person_entity_ids": [
+        "person_ted_jacobson"
+      ],
+      "primary_source_count": 2,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/gr-qc/9504004",
+          "title": "Thermodynamics of Spacetime: The Einstein Equation of State"
+        },
+        {
+          "url": "https://arxiv.org/abs/1505.04753",
+          "title": "Entanglement equilibrium and the Einstein equation"
+        }
+      ],
+      "comparison_surface_ids": [
+        "nested_entropic_geometry_flux_and_chirality",
+        "root_and_least_presumption",
+        "spacetime_gravity_matter_and_cosmogenesis"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "critic_falsifier",
+        "donor"
+      ],
+      "dossier_status": "SOURCE_NATIVE_STARTING_CARDS_NOT_RANKING_ELIGIBLE",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "kastner_possibilist_transactional_interpretation",
+      "source_batch": "native_source_cards_batch_a.json",
+      "program_label": "Possibilist and relativistic transactional interpretation",
+      "contributors": [
+        "John G. Cramer",
+        "Paul C. W. Davies",
+        "Ruth E. Kastner"
+      ],
+      "channel_person_entity_ids": [],
+      "primary_source_count": 4,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/1204.5227"
+        },
+        {
+          "url": "https://arxiv.org/abs/2101.00712"
+        },
+        {
+          "url": "https://arxiv.org/abs/1006.4902"
+        },
+        {
+          "url": "https://arxiv.org/abs/1702.04021"
+        }
+      ],
+      "comparison_surface_ids": [
+        "finite_quantum_and_carrier_reconstruction",
+        "probability_time_causality_and_order",
+        "spacetime_gravity_matter_and_cosmogenesis"
+      ],
+      "proposed_roles": [
+        "bridge_translator",
+        "competitor",
+        "critic_falsifier"
+      ],
+      "dossier_status": "SOURCE_PACKET_STARTER_COMPLETE_REPRODUCTION_PENDING",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "kastrup_analytic_idealism",
+      "source_batch": "native_source_cards_batch_d.json",
+      "program_label": "Analytic idealism as a consciousness-only ontology centered on universal mind and dissociation; empirical arguments and metaphysical deductions require separate claim cards.",
+      "contributors": [
+        "Bernardo Kastrup"
+      ],
+      "channel_person_entity_ids": [
+        "person_bernardo_kastrup"
+      ],
+      "primary_source_count": 1,
+      "primary_sources": [
+        {
+          "url": "https://repository.ubn.ru.nl/handle/2066/203090",
+          "title": "Analytic Idealism: A consciousness-only ontology"
+        }
+      ],
+      "comparison_surface_ids": [
+        "fep_perception_consciousness_and_holodeck",
+        "object_individual_boundary_and_observer",
+        "root_and_least_presumption"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "critic_falsifier"
+      ],
+      "dossier_status": "SOURCE_NATIVE_STARTING_CARDS_NOT_RANKING_ELIGIBLE",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "kauffman_open_ended_evolution",
+      "source_batch": "native_source_cards_batch_b.json",
+      "program_label": "Unprestatable biosphere, autocatalytic closure, and the adjacent possible",
+      "contributors": [
+        "Andrea Roli",
+        "Francesca Tria",
+        "Giuseppe Longo",
+        "Mael Montevil",
+        "Rudolf Hanel",
+        "Stefan Thurner",
+        "Steven H. Strogatz",
+        "Stuart Kauffman",
+        "Vito D. P. Servedio",
+        "Vittorio Loreto"
+      ],
+      "channel_person_entity_ids": [
+        "person_stuart_kauffman"
+      ],
+      "primary_source_count": 4,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/1201.2069"
+        },
+        {
+          "url": "https://arxiv.org/abs/2401.09514"
+        },
+        {
+          "url": "https://arxiv.org/abs/cond-mat/0504776"
+        },
+        {
+          "url": "https://arxiv.org/abs/1310.1953"
+        }
+      ],
+      "comparison_surface_ids": [
+        "admission_mss_and_purgatory",
+        "life_evolution_agency_and_origins",
+        "plural_attractors_and_universality",
+        "root_and_least_presumption"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "critic_falsifier",
+        "donor"
+      ],
+      "dossier_status": "PRIMARY_SOURCE_LEADS_COLLECTED_NATIVE_DOSSIERS_NOT_LOCKED_UNRANKED",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "knuth_influence_theory",
+      "source_batch": "native_source_cards_batch_b.json",
+      "program_label": "Influence Theory",
+      "contributors": [
+        "James L. Walsh",
+        "Kevin H. Knuth",
+        "Newshaw Bahreyni"
+      ],
+      "channel_person_entity_ids": [],
+      "primary_source_count": 4,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/1005.4172"
+        },
+        {
+          "url": "https://arxiv.org/abs/1209.0881"
+        },
+        {
+          "url": "https://arxiv.org/abs/1411.2163"
+        },
+        {
+          "url": "https://arxiv.org/abs/1803.09618"
+        }
+      ],
+      "comparison_surface_ids": [
+        "finite_quantum_and_carrier_reconstruction",
+        "probability_time_causality_and_order",
+        "root_and_least_presumption",
+        "spacetime_gravity_matter_and_cosmogenesis"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "donor",
+        "mathematical_tool"
+      ],
+      "dossier_status": "PRIMARY_SOURCE_LEADS_COLLECTED_NATIVE_DOSSIERS_NOT_LOCKED_UNRANKED",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "kolchinsky_replicator_thermodynamics",
+      "source_batch": "native_source_cards_batch_b.json",
+      "program_label": "Thermodynamics of molecular replicators and critique of the growth-decay reading",
+      "contributors": [
+        "Artemy Kolchinsky"
+      ],
+      "channel_person_entity_ids": [],
+      "primary_source_count": 3,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/2112.02809"
+        },
+        {
+          "url": "https://arxiv.org/abs/2404.01130"
+        },
+        {
+          "url": "https://arxiv.org/abs/1209.1179"
+        }
+      ],
+      "comparison_surface_ids": [
+        "admission_mss_and_purgatory",
+        "formal_tools_limits_and_falsifiers",
+        "life_evolution_agency_and_origins"
+      ],
+      "proposed_roles": [
+        "critic_falsifier",
+        "donor",
+        "mathematical_tool"
+      ],
+      "dossier_status": "PRIMARY_SOURCE_LEADS_COLLECTED_NATIVE_DOSSIERS_NOT_LOCKED_UNRANKED",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "lahav_neemeh_relativistic_consciousness",
+      "source_batch": "native_source_cards_batch_g.json",
+      "program_label": "Relativistic theory of consciousness",
+      "contributors": [
+        "Nir Lahav",
+        "Zachariah A. Neemeh"
+      ],
+      "channel_person_entity_ids": [
+        "person_nir_lahav"
+      ],
+      "primary_source_count": 1,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/2502.07247",
+          "title": "A Relativistic Theory of Consciousness (shortened version; identifies the 2022 full paper)"
+        }
+      ],
+      "comparison_surface_ids": [],
+      "proposed_roles": [],
+      "dossier_status": "ADMINISTRATIVE_BATCH_COMPLETE_SOURCE_NATIVE_UNRANKED",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "langan_ctmu",
+      "source_batch": "native_source_cards_batch_b.json",
+      "program_label": "Cognitive-Theoretic Model of the Universe",
+      "contributors": [
+        "Christopher M. Langan"
+      ],
+      "channel_person_entity_ids": [],
+      "primary_source_count": 4,
+      "primary_sources": [
+        {
+          "url": "https://www.ctmu.org/"
+        },
+        {
+          "url": "https://knowledgebase.ctmu.net/wp-content/uploads/2018/10/Langan_CTMU_0929021-1.pdf"
+        },
+        {
+          "url": "https://cosmosandhistory.org/index.php/journal/article/view/618"
+        },
+        {
+          "url": "https://cosmosandhistory.org/index.php/journal/article/view/835"
+        }
+      ],
+      "comparison_surface_ids": [
+        "formal_tools_limits_and_falsifiers",
+        "probability_time_causality_and_order",
+        "qit_engines_and_recursive_construction",
+        "root_and_least_presumption"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "contextual_neighbor"
+      ],
+      "dossier_status": "PRIMARY_SOURCE_LEADS_COLLECTED_NATIVE_DOSSIERS_NOT_LOCKED_UNRANKED",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "levin_morphogenesis",
+      "source_batch": "native_source_cards_batch_b.json",
+      "program_label": "Bioelectric morphogenesis, regenerative target states, and scale-free competence",
+      "contributors": [
+        "Christopher Fields",
+        "Douglas Blackiston",
+        "Fallon Durant",
+        "Josh Bongard",
+        "Junji Morokuma",
+        "Michael Levin",
+        "Sam Kriegman",
+        "Santosh Manicka"
+      ],
+      "channel_person_entity_ids": [
+        "person_michael_levin"
+      ],
+      "primary_source_count": 5,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/1912.04246"
+        },
+        {
+          "url": "https://doi.org/10.1016/j.bpj.2017.04.011"
+        },
+        {
+          "url": "https://www.pnas.org/doi/10.1073/pnas.1910837117"
+        },
+        {
+          "url": "https://www.pnas.org/doi/10.1073/pnas.2112672118"
+        },
+        {
+          "url": "https://drmichaellevin.org/publications/"
+        }
+      ],
+      "comparison_surface_ids": [
+        "life_evolution_agency_and_origins",
+        "object_individual_boundary_and_observer",
+        "plural_attractors_and_universality",
+        "qit_engines_and_recursive_construction"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "donor",
+        "empirical_testbed"
+      ],
+      "dossier_status": "PRIMARY_SOURCE_LEADS_COLLECTED_NATIVE_DOSSIERS_NOT_LOCKED_UNRANKED",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "lisi_e8_exceptional_unification",
+      "source_batch": "native_source_cards_batch_g.json",
+      "program_label": "Exceptional E8 unification of gravity and Standard Model structure",
+      "contributors": [
+        "A. Garrett Lisi"
+      ],
+      "channel_person_entity_ids": [],
+      "primary_source_count": 4,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/0711.0770",
+          "title": "An Exceptionally Simple Theory of Everything"
+        },
+        {
+          "url": "https://arxiv.org/abs/1006.4908",
+          "title": "An Explicit Embedding of Gravity and the Standard Model in E8"
+        },
+        {
+          "url": "https://arxiv.org/abs/1506.08073",
+          "title": "Lie Group Cosmology"
+        },
+        {
+          "url": "https://arxiv.org/abs/0905.2658",
+          "title": "There is no 'Theory of Everything' inside E8"
+        }
+      ],
+      "comparison_surface_ids": [],
+      "proposed_roles": [],
+      "dossier_status": "ADMINISTRATIVE_BATCH_COMPLETE_SOURCE_NATIVE_UNRANKED",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "lynch_epistemic_agency_under_ai",
+      "source_batch": "native_source_cards_batch_f.json",
+      "program_label": "Human understanding and epistemic agency under digital and AI dependence",
+      "contributors": [
+        "Michael Patrick Lynch"
+      ],
+      "channel_person_entity_ids": [],
+      "primary_source_count": 2,
+      "primary_sources": [
+        {
+          "url": "https://wwnorton.com/books/9781631492778",
+          "title": "The Internet of Us: Knowing More and Understanding Less in the Age of Big Data"
+        },
+        {
+          "url": "https://michael-lynch.philosophy.uconn.edu/",
+          "title": "Michael Patrick Lynch official research page"
+        }
+      ],
+      "comparison_surface_ids": [],
+      "proposed_roles": [],
+      "dossier_status": "ADMINISTRATIVE_BATCH_COMPLETE_SOURCE_NATIVE_UNRANKED",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "maldacena_er_epr_entanglement_geometry",
+      "source_batch": "native_source_cards_batch_d.json",
+      "program_label": "ER=EPR is a conjectural bridge informed by AdS/CFT; holographic entropy formulae and tensor-network constructions are donor programs, not identical claims.",
+      "contributors": [
+        "Juan Maldacena",
+        "Leonard Susskind",
+        "Shinsei Ryu",
+        "Tadashi Takayanagi"
+      ],
+      "channel_person_entity_ids": [
+        "person_juan_maldacena",
+        "person_leonard_susskind"
+      ],
+      "primary_source_count": 2,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/1306.0533",
+          "title": "Cool horizons for entangled black holes"
+        },
+        {
+          "url": "https://arxiv.org/abs/hep-th/0603001",
+          "title": "Holographic Derivation of Entanglement Entropy from AdS/CFT"
+        }
+      ],
+      "comparison_surface_ids": [
+        "nested_entropic_geometry_flux_and_chirality",
+        "object_individual_boundary_and_observer",
+        "spacetime_gravity_matter_and_cosmogenesis"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "donor",
+        "mathematical_tool"
+      ],
+      "dossier_status": "SOURCE_NATIVE_STARTING_CARDS_NOT_RANKING_ELIGIBLE",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "manchak_global_underdetermination",
+      "source_batch": "native_source_cards_batch_b.json",
+      "program_label": "Global spacetime underdetermination and observational indistinguishability",
+      "contributors": [
+        "John Byron Manchak"
+      ],
+      "channel_person_entity_ids": [],
+      "primary_source_count": 4,
+      "primary_sources": [
+        {
+          "url": "https://doi.org/10.1016/j.shpsb.2008.07.004"
+        },
+        {
+          "url": "https://philsci-archive.pitt.edu/4162/"
+        },
+        {
+          "url": "https://doi.org/10.1086/660301"
+        },
+        {
+          "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/79D969039BE8C6BE45359B5ABCD86074/S003182480001374Xa.pdf/div-class-title-what-is-a-physically-reasonable-space-time-div.pdf"
+        }
+      ],
+      "comparison_surface_ids": [
+        "admission_mss_and_purgatory",
+        "formal_tools_limits_and_falsifiers",
+        "plural_attractors_and_universality",
+        "spacetime_gravity_matter_and_cosmogenesis"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "critic_falsifier",
+        "mathematical_tool"
+      ],
+      "dossier_status": "PRIMARY_SOURCE_LEADS_COLLECTED_NATIVE_DOSSIERS_NOT_LOCKED_UNRANKED",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "mannheim_conformal_gravity",
+      "source_batch": "native_source_cards_batch_d.json",
+      "program_label": "Fourth-order Weyl conformal gravity with galaxy and cosmology applications; distinguish field theory, fitting program and scalar-sector debates.",
+      "contributors": [
+        "James O'Brien",
+        "Philip Mannheim"
+      ],
+      "channel_person_entity_ids": [
+        "person_philip_mannheim"
+      ],
+      "primary_source_count": 2,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/1011.3495",
+          "title": "Fitting galactic rotation curves with conformal gravity and a global quadratic potential"
+        },
+        {
+          "url": "https://arxiv.org/abs/2105.14679",
+          "title": "Structure of conformal gravity in the presence of a scale breaking scalar field"
+        }
+      ],
+      "comparison_surface_ids": [
+        "formal_tools_limits_and_falsifiers",
+        "root_and_least_presumption",
+        "spacetime_gravity_matter_and_cosmogenesis"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "critic_falsifier",
+        "empirical_testbed"
+      ],
+      "dossier_status": "SOURCE_NATIVE_STARTING_CARDS_NOT_RANKING_ELIGIBLE",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "marletto_constructor_theory",
+      "source_batch": "native_source_cards_batch_e.json",
+      "program_label": "Constructor theory's task-based possible/impossible formulation, including information, thermodynamics, life, and time as distinct subsidiary programs rather than one already-complete theory of everything.",
+      "contributors": [
+        "Chiara Marletto",
+        "David Deutsch"
+      ],
+      "channel_person_entity_ids": [
+        "person_chiara_marletto",
+        "person_david_deutsch"
+      ],
+      "primary_source_count": 5,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/1210.7439",
+          "title": "Constructor Theory"
+        },
+        {
+          "url": "https://arxiv.org/abs/1405.5563",
+          "title": "Constructor Theory of Information"
+        },
+        {
+          "url": "https://arxiv.org/abs/1407.0681",
+          "title": "Constructor Theory of Life"
+        },
+        {
+          "url": "https://arxiv.org/abs/1608.02625",
+          "title": "Constructor Theory of Thermodynamics"
+        },
+        {
+          "url": "https://arxiv.org/abs/2505.08692",
+          "title": "Constructor theory of time"
+        }
+      ],
+      "comparison_surface_ids": [
+        "admission_mss_and_purgatory",
+        "life_evolution_agency_and_origins",
+        "probability_time_causality_and_order",
+        "qit_engines_and_recursive_construction",
+        "root_and_least_presumption"
+      ],
+      "proposed_roles": [
+        "critic_falsifier",
+        "formalism_donor",
+        "major_competitor"
+      ],
+      "dossier_status": "SOURCE_PACKET_STARTER",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "marletto_vedral_gravity_entanglement_witness",
+      "source_batch": "native_source_cards_batch_e.json",
+      "program_label": "The locality-qualified entanglement witness for nonclassical mediators and the proposed gravity-mediated entanglement experiment; separate from constructor theory as a general foundational program.",
+      "contributors": [
+        "Chiara Marletto",
+        "Elizabeth Wilson",
+        "Jonathan Oppenheim",
+        "Tianfeng Feng",
+        "Vlatko Vedral"
+      ],
+      "channel_person_entity_ids": [
+        "person_chiara_marletto",
+        "person_jonathan_oppenheim"
+      ],
+      "primary_source_count": 3,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/1707.06036",
+          "title": "Gravitationally-induced entanglement between two massive particles is sufficient evidence of quantum effects in gravity"
+        },
+        {
+          "url": "https://arxiv.org/abs/2503.19774",
+          "title": "Collapse-based models for gravity do not violate the Entanglement-Based Witness of non-classicality"
+        },
+        {
+          "url": "https://arxiv.org/abs/2511.07348",
+          "title": "Classical gravity cannot mediate entanglement"
+        }
+      ],
+      "comparison_surface_ids": [
+        "finite_quantum_and_carrier_reconstruction",
+        "formal_tools_limits_and_falsifiers",
+        "probability_time_causality_and_order",
+        "spacetime_gravity_matter_and_cosmogenesis"
+      ],
+      "proposed_roles": [
+        "critic_falsifier",
+        "empirical_testbed",
+        "quantum_gravity_witness_donor"
+      ],
+      "dossier_status": "SOURCE_PACKET_STARTER_EXPERIMENT_PENDING",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "maturana_varela_autopoiesis",
+      "source_batch": "native_source_cards_batch_a.json",
+      "program_label": "Molecular autopoiesis",
+      "contributors": [
+        "Francisco Varela",
+        "Humberto Maturana",
+        "Ricardo Uribe"
+      ],
+      "channel_person_entity_ids": [],
+      "primary_source_count": 3,
+      "primary_sources": [
+        {
+          "url": "https://doi.org/10.1016/0303-2647(74)90031-8"
+        },
+        {
+          "url": "https://link.springer.com/book/9789027710154"
+        },
+        {
+          "url": "https://doi.org/10.1007/s11097-005-9002-y"
+        }
+      ],
+      "comparison_surface_ids": [
+        "life_evolution_agency_and_origins",
+        "object_individual_boundary_and_observer"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "donor",
+        "empirical_testbed"
+      ],
+      "dossier_status": "SOURCE_PACKET_STARTER_COMPLETE_REPRODUCTION_PENDING",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "maudlin_bohmian_realism",
+      "source_batch": "native_source_cards_batch_c.json",
+      "program_label": "de Broglie-Bohm or Bohmian mechanics, with Maudlin's Bell-nonlocality and realist analysis treated as a separate philosophical contribution",
+      "contributors": [
+        "David Bohm",
+        "Louis de Broglie",
+        "Roderich Tumulka",
+        "Tim Maudlin"
+      ],
+      "channel_person_entity_ids": [
+        "person_tim_maudlin"
+      ],
+      "primary_source_count": 4,
+      "primary_sources": [
+        {
+          "url": "https://doi.org/10.1103/PhysRev.85.166",
+          "title": "A Suggested Interpretation of the Quantum Theory in Terms of Hidden Variables. I"
+        },
+        {
+          "url": "https://doi.org/10.1103/PhysRev.85.180",
+          "title": "A Suggested Interpretation of the Quantum Theory in Terms of Hidden Variables. II"
+        },
+        {
+          "url": "https://arxiv.org/abs/1704.08017",
+          "title": "Bohmian Mechanics"
+        },
+        {
+          "url": "https://arxiv.org/abs/1408.1826",
+          "title": "What Bell Did"
+        }
+      ],
+      "comparison_surface_ids": [
+        "finite_quantum_and_carrier_reconstruction",
+        "probability_time_causality_and_order"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "critic_falsifier"
+      ],
+      "dossier_status": "UNRESOLVED",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "mcgilchrist_hemisphere_attention_hypothesis",
+      "source_batch": "native_source_cards_batch_f.json",
+      "program_label": "Hemispheric modes of attention and their epistemic consequences",
+      "contributors": [
+        "Iain McGilchrist"
+      ],
+      "channel_person_entity_ids": [
+        "person_iain_mcgilchrist"
+      ],
+      "primary_source_count": 2,
+      "primary_sources": [
+        {
+          "url": "https://yalebooks.yale.edu/book/9780300245929/the-master-and-his-emissary/",
+          "title": "The Master and His Emissary: The Divided Brain and the Making of the Western World, second edition"
+        },
+        {
+          "url": "https://channelmcgilchrist.com/the-matter-with-things/",
+          "title": "The Matter with Things: Our Brains, Our Delusions, and the Unmaking of the World"
+        }
+      ],
+      "comparison_surface_ids": [],
+      "proposed_roles": [],
+      "dossier_status": "ADMINISTRATIVE_BATCH_COMPLETE_SOURCE_NATIVE_UNRANKED",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "mclarty_weak_foundations",
+      "source_batch": "native_source_cards_batch_c.json",
+      "program_label": "Proof-theoretic reduction of Grothendieck-style mathematics and a univalent universe to finite-order arithmetic",
+      "contributors": [
+        "Colin McLarty"
+      ],
+      "channel_person_entity_ids": [
+        "person_colin_mclarty"
+      ],
+      "primary_source_count": 3,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/1102.1773",
+          "title": "The large structures of Grothendieck founded on finite order arithmetic"
+        },
+        {
+          "url": "https://arxiv.org/abs/1412.6714",
+          "title": "A univalent universe in finite order arithmetic"
+        },
+        {
+          "url": "https://arxiv.org/abs/1207.0276",
+          "title": "Zariski cohomology in second order arithmetic"
+        }
+      ],
+      "comparison_surface_ids": [
+        "admission_mss_and_purgatory",
+        "formal_tools_limits_and_falsifiers",
+        "root_and_least_presumption"
+      ],
+      "proposed_roles": [
+        "critic_falsifier",
+        "donor",
+        "mathematical_tool"
+      ],
+      "dossier_status": "UNRESOLVED",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "myrvold_operational_thermodynamics",
+      "source_batch": "native_source_cards_batch_d.json",
+      "program_label": "Thermo-dynamics as a manipulation-relative science; separate from Myrvold's other work on probability and quantum theory.",
+      "contributors": [
+        "Wayne Myrvold"
+      ],
+      "channel_person_entity_ids": [
+        "person_wayne_myrvold"
+      ],
+      "primary_source_count": 1,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/2007.11729",
+          "title": "The Science of Theta Delta cs"
+        }
+      ],
+      "comparison_surface_ids": [
+        "formal_tools_limits_and_falsifiers",
+        "nested_entropic_geometry_flux_and_chirality",
+        "probability_time_causality_and_order"
+      ],
+      "proposed_roles": [
+        "critic_falsifier",
+        "donor",
+        "mathematical_tool"
+      ],
+      "dossier_status": "SOURCE_NATIVE_STARTING_CARDS_NOT_RANKING_ELIGIBLE",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "nekrasov_exact_qft",
+      "source_batch": "native_source_cards_batch_c.json",
+      "program_label": "Nekrasov instanton partition functions for four-dimensional N=2 supersymmetric gauge theories in an Omega background, plus the Nekrasov-Shatashvili gauge-integrable correspondence",
+      "contributors": [
+        "Andrei Okounkov",
+        "Nikita Nekrasov",
+        "Samson Shatashvili"
+      ],
+      "channel_person_entity_ids": [
+        "person_nikita_nekrasov"
+      ],
+      "primary_source_count": 4,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/hep-th/0206161",
+          "title": "Seiberg-Witten Prepotential From Instanton Counting"
+        },
+        {
+          "url": "https://arxiv.org/abs/hep-th/0306238",
+          "title": "Seiberg-Witten Theory and Random Partitions"
+        },
+        {
+          "url": "https://arxiv.org/abs/0908.4052",
+          "title": "Quantization of Integrable Systems and Four Dimensional Gauge Theories"
+        },
+        {
+          "url": "https://arxiv.org/abs/hep-th/0306211",
+          "title": "Seiberg-Witten prepotential from instanton counting: ICM lecture"
+        }
+      ],
+      "comparison_surface_ids": [
+        "finite_quantum_and_carrier_reconstruction",
+        "formal_tools_limits_and_falsifiers",
+        "qit_engines_and_recursive_construction",
+        "spacetime_gravity_matter_and_cosmogenesis"
+      ],
+      "proposed_roles": [
+        "critic_falsifier",
+        "donor",
+        "mathematical_tool"
+      ],
+      "dossier_status": "UNRESOLVED",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "neven_google_quantum_ai_experimental_roadmap",
+      "source_batch": "native_source_cards_batch_g.json",
+      "program_label": "Google Quantum AI experimental advantage and fault-tolerance roadmap",
+      "contributors": [
+        "Google Quantum AI collaborators",
+        "Hartmut Neven"
+      ],
+      "channel_person_entity_ids": [
+        "person_hartmut_neven"
+      ],
+      "primary_source_count": 5,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/1608.00263",
+          "title": "Characterizing Quantum Supremacy in Near-Term Devices"
+        },
+        {
+          "url": "https://arxiv.org/abs/1910.11333",
+          "title": "Quantum supremacy using a programmable superconducting processor (supplement and journal link)"
+        },
+        {
+          "url": "https://arxiv.org/abs/2112.00778",
+          "title": "Quantum advantage in learning from experiments"
+        },
+        {
+          "url": "https://arxiv.org/abs/2207.06431",
+          "title": "Suppressing quantum errors by scaling a surface code logical qubit"
+        },
+        {
+          "url": "https://arxiv.org/abs/2408.13687",
+          "title": "Quantum error correction below the surface code threshold"
+        }
+      ],
+      "comparison_surface_ids": [],
+      "proposed_roles": [],
+      "dossier_status": "ADMINISTRATIVE_BATCH_COMPLETE_SOURCE_NATIVE_UNRANKED",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "nick_lane_origin_of_life",
+      "source_batch": "native_source_cards_batch_c.json",
+      "program_label": "Alkaline-hydrothermal-vent bioenergetic origins, with experimental protometabolism and protocell-heredity work kept distinct from the historical reconstruction",
+      "contributors": [
+        "Nick Lane",
+        "paper-specific collaborators",
+        "Sean F. Jordan",
+        "Silvana Pinna",
+        "Stuart A. Harrison",
+        "Vitor Sojo",
+        "William F. Martin"
+      ],
+      "channel_person_entity_ids": [
+        "person_nick_lane"
+      ],
+      "primary_source_count": 4,
+      "primary_sources": [
+        {
+          "url": "https://doi.org/10.1016/j.cell.2012.11.050",
+          "title": "The Origin of Membrane Bioenergetics"
+        },
+        {
+          "url": "https://www.nature.com/articles/s41467-018-07220-y",
+          "title": "Life as a guide to prebiotic nucleotide synthesis"
+        },
+        {
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3001437",
+          "title": "A prebiotic basis for ATP as the universal energy currency"
+        },
+        {
+          "url": "https://royalsocietypublishing.org/doi/10.1098/rspb.2022.1684",
+          "title": "The limits of metabolic heredity in protocells"
+        }
+      ],
+      "comparison_surface_ids": [
+        "life_evolution_agency_and_origins",
+        "nested_entropic_geometry_flux_and_chirality",
+        "object_individual_boundary_and_observer",
+        "plural_attractors_and_universality"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "donor",
+        "empirical_testbed"
+      ],
+      "dossier_status": "UNRESOLVED",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "noble_biological_relativity",
+      "source_batch": "native_source_cards_batch_d.json",
+      "program_label": "Biological relativity/no privileged level of causation; distinguish this principle from particular cardiac Physiome models and extended-evolution claims.",
+      "contributors": [
+        "Denis Noble"
+      ],
+      "channel_person_entity_ids": [
+        "person_denis_noble"
+      ],
+      "primary_source_count": 1,
+      "primary_sources": [
+        {
+          "url": "https://doi.org/10.1098/rsfs.2011.0067",
+          "title": "A theory of biological relativity: no privileged level of causation"
+        }
+      ],
+      "comparison_surface_ids": [
+        "life_evolution_agency_and_origins",
+        "object_individual_boundary_and_observer",
+        "probability_time_causality_and_order"
+      ],
+      "proposed_roles": [
+        "critic_falsifier",
+        "donor",
+        "empirical_testbed"
+      ],
+      "dossier_status": "SOURCE_NATIVE_STARTING_CARDS_NOT_RANKING_ELIGIBLE",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "norton_causation_entropy_critique",
+      "source_batch": "native_source_cards_batch_c.json",
+      "program_label": "Two distinct critical programs: causation and determinism as local rather than universal physical structure; and criticism of universal Landauer-cost derivations in idealized thermodynamics of computation",
+      "contributors": [
+        "John D. Norton"
+      ],
+      "channel_person_entity_ids": [],
+      "primary_source_count": 3,
+      "primary_sources": [
+        {
+          "url": "https://quod.lib.umich.edu/p/phimp/3521354.0003.004",
+          "title": "Causation as Folk Science"
+        },
+        {
+          "url": "https://sites.pitt.edu/~jdnorton/Goodies/Dome/",
+          "title": "The Dome: A Simple Violation of Determinism in Newtonian Mechanics"
+        },
+        {
+          "url": "https://sites.pitt.edu/~jdnorton/papers/Waiting.pdf",
+          "title": "Waiting for Landauer"
+        }
+      ],
+      "comparison_surface_ids": [
+        "admission_mss_and_purgatory",
+        "formal_tools_limits_and_falsifiers",
+        "nested_entropic_geometry_flux_and_chirality",
+        "probability_time_causality_and_order"
+      ],
+      "proposed_roles": [
+        "critic_falsifier"
+      ],
+      "dossier_status": "UNRESOLVED",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "palmer_invariant_set_theory",
+      "source_batch": "native_source_cards_batch_d.json",
+      "program_label": "Invariant Set Theory in its finite-p fractal state-space formulation; separate proposed gravitational equations and quantum-symbolic constructions when evaluated.",
+      "contributors": [
+        "Tim Palmer"
+      ],
+      "channel_person_entity_ids": [
+        "person_tim_palmer"
+      ],
+      "primary_source_count": 2,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/1605.01051",
+          "title": "Invariant Set Theory"
+        },
+        {
+          "url": "https://arxiv.org/abs/1507.02117",
+          "title": "Invariant Set Theory: Violating Measurement Independence without Fine Tuning"
+        }
+      ],
+      "comparison_surface_ids": [
+        "finite_quantum_and_carrier_reconstruction",
+        "probability_time_causality_and_order",
+        "spacetime_gravity_matter_and_cosmogenesis"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "critic_falsifier",
+        "donor"
+      ],
+      "dossier_status": "SOURCE_NATIVE_STARTING_CARDS_NOT_RANKING_ELIGIBLE",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "partial_order_reduction",
+      "source_batch": "native_source_cards_batch_c.json",
+      "program_label": "A family of partial-order reduction methods: stubborn sets, persistent and sleep sets, ample sets, and dynamic partial-order reduction",
+      "contributors": [
+        "Antti Valmari",
+        "Cormac Flanagan",
+        "Doron Peled",
+        "Edmund M. Clarke",
+        "Orna Grumberg",
+        "Patrice Godefroid"
+      ],
+      "channel_person_entity_ids": [],
+      "primary_source_count": 4,
+      "primary_sources": [
+        {
+          "url": "https://dl.acm.org/doi/10.1145/1040305.1040315",
+          "title": "Dynamic Partial-Order Reduction for Model Checking Software"
+        },
+        {
+          "url": "https://arxiv.org/abs/1910.09829",
+          "title": "The Inconsistent Labelling Problem of Stutter-Preserving Partial-Order Reduction"
+        },
+        {
+          "url": "https://arxiv.org/abs/1504.02587",
+          "title": "Stop It, and Be Stubborn!"
+        },
+        {
+          "url": "https://link.springer.com/book/10.1007/3-540-60761-7",
+          "title": "Partial-Order Methods for the Verification of Concurrent Systems"
+        }
+      ],
+      "comparison_surface_ids": [
+        "admission_mss_and_purgatory",
+        "formal_tools_limits_and_falsifiers"
+      ],
+      "proposed_roles": [
+        "mathematical_tool"
+      ],
+      "dossier_status": "UNRESOLVED",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "post_quantum_classical_gravity",
+      "source_batch": "native_source_cards_batch_c.json",
+      "program_label": "Consistent classical-quantum dynamics applied to classical gravity coupled to quantum matter",
+      "contributors": [
+        "Andrea Russo",
+        "Barbara Soda",
+        "Carlo Sparaciari",
+        "Isaac Layton",
+        "Jonathan Oppenheim",
+        "Zachary Weller-Davies"
+      ],
+      "channel_person_entity_ids": [
+        "person_jonathan_oppenheim"
+      ],
+      "primary_source_count": 4,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/1811.03116",
+          "title": "A postquantum theory of classical gravity?"
+        },
+        {
+          "url": "https://arxiv.org/abs/2203.01982",
+          "title": "Gravitationally induced decoherence vs space-time diffusion: testing the quantum nature of gravity"
+        },
+        {
+          "url": "https://arxiv.org/abs/2307.02557",
+          "title": "The weak field limit of quantum matter back-reacting on classical spacetime"
+        },
+        {
+          "url": "https://arxiv.org/abs/2401.05514",
+          "title": "Diffeomorphism invariant classical-quantum path integrals for Nordstrom gravity"
+        }
+      ],
+      "comparison_surface_ids": [
+        "finite_quantum_and_carrier_reconstruction",
+        "probability_time_causality_and_order",
+        "spacetime_gravity_matter_and_cosmogenesis"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "critic_falsifier",
+        "empirical_testbed"
+      ],
+      "dossier_status": "UNRESOLVED",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "priest_paraconsistency",
+      "source_batch": "native_source_cards_batch_c.json",
+      "program_label": "Priest's Logic of Paradox as a paraconsistent consequence relation, separated from dialetheism as the metaphysical thesis that some contradictions are true",
+      "contributors": [
+        "Graham Priest"
+      ],
+      "channel_person_entity_ids": [
+        "person_graham_priest"
+      ],
+      "primary_source_count": 3,
+      "primary_sources": [
+        {
+          "url": "https://doi.org/10.1007/BF00248298",
+          "title": "The Logic of Paradox"
+        },
+        {
+          "url": "https://doi.org/10.2307/2564636",
+          "title": "What Is So Bad About Contradictions?"
+        },
+        {
+          "url": "https://global.oup.com/academic/product/in-contradiction-9780199263301",
+          "title": "In Contradiction: A Study of the Transconsistent"
+        }
+      ],
+      "comparison_surface_ids": [
+        "admission_mss_and_purgatory",
+        "formal_tools_limits_and_falsifiers"
+      ],
+      "proposed_roles": [
+        "critic_falsifier",
+        "mathematical_tool"
+      ],
+      "dossier_status": "UNRESOLVED",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "qca_weyl_dirac_maxwell",
+      "source_batch": "native_source_cards_batch_c.json",
+      "program_label": "The D'Ariano-Perinotti-Bisio-Tosini quantum cellular-automaton derivation of free Weyl, Dirac, and Maxwell dynamics",
+      "contributors": [
+        "Alessandro Bisio",
+        "Alessandro Tosini",
+        "Giacomo Mauro D'Ariano",
+        "Paolo Perinotti"
+      ],
+      "channel_person_entity_ids": [],
+      "primary_source_count": 4,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/1601.04832",
+          "title": "Free quantum field theory from quantum cellular automata: derivation of Weyl, Dirac and Maxwell quantum cellular automata"
+        },
+        {
+          "url": "https://arxiv.org/abs/1601.04842",
+          "title": "Weyl, Dirac and Maxwell Quantum Cellular Automata: analytical solutions and phenomenological predictions"
+        },
+        {
+          "url": "https://arxiv.org/abs/1608.02004",
+          "title": "Quantum cellular automata and free quantum field theory"
+        },
+        {
+          "url": "https://arxiv.org/abs/1212.2839",
+          "title": "Quantum Field as a quantum cellular automaton: the Dirac free evolution in one dimension"
+        }
+      ],
+      "comparison_surface_ids": [
+        "finite_quantum_and_carrier_reconstruction",
+        "nested_entropic_geometry_flux_and_chirality",
+        "qit_engines_and_recursive_construction",
+        "spacetime_gravity_matter_and_cosmogenesis"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "donor",
+        "mathematical_tool"
+      ],
+      "dossier_status": "UNRESOLVED",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "quantum_foundations_without_wavefunction",
+      "source_batch": "native_source_cards_batch_c.json",
+      "program_label": "Barandes's stochastic-quantum correspondence and stochastic-quantum theorem",
+      "contributors": [
+        "Jacob A. Barandes"
+      ],
+      "channel_person_entity_ids": [],
+      "primary_source_count": 3,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/2302.10778",
+          "title": "The Stochastic-Quantum Correspondence"
+        },
+        {
+          "url": "https://arxiv.org/abs/2309.03085",
+          "title": "The Stochastic-Quantum Theorem"
+        },
+        {
+          "url": "https://arxiv.org/abs/2507.21192",
+          "title": "Quantum Systems as Indivisible Stochastic Processes"
+        }
+      ],
+      "comparison_surface_ids": [
+        "finite_quantum_and_carrier_reconstruction",
+        "probability_time_causality_and_order",
+        "root_and_least_presumption"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "donor"
+      ],
+      "dossier_status": "UNRESOLVED",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "rosen_mr_systems",
+      "source_batch": "native_source_cards_batch_a.json",
+      "program_label": "Rosen metabolism-repair systems",
+      "contributors": [
+        "Robert Rosen"
+      ],
+      "channel_person_entity_ids": [],
+      "primary_source_count": 3,
+      "primary_sources": [
+        {
+          "url": "https://doi.org/10.1007/BF02478302"
+        },
+        {
+          "url": "https://link.springer.com/book/10.1007/978-1-4614-1269-4"
+        },
+        {
+          "url": "https://arxiv.org/abs/1705.03322"
+        }
+      ],
+      "comparison_surface_ids": [
+        "life_evolution_agency_and_origins",
+        "object_individual_boundary_and_observer",
+        "plural_attractors_and_universality"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "critic_falsifier",
+        "donor"
+      ],
+      "dossier_status": "SOURCE_PACKET_PARTIAL_FORMAL_RECONSTRUCTION_PENDING",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "rovelli_relational_quantum_mechanics",
+      "source_batch": "native_source_cards_batch_d.json",
+      "program_label": "Relational quantum mechanics from the 1996 proposal through the clarified 2021 formulation; keep separate from loop quantum gravity and thermal-time work.",
+      "contributors": [
+        "Carlo Rovelli"
+      ],
+      "channel_person_entity_ids": [
+        "person_carlo_rovelli"
+      ],
+      "primary_source_count": 2,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/quant-ph/9609002",
+          "title": "Relational Quantum Mechanics"
+        },
+        {
+          "url": "https://arxiv.org/abs/2109.09170",
+          "title": "The Relational Interpretation of Quantum Physics"
+        }
+      ],
+      "comparison_surface_ids": [
+        "finite_quantum_and_carrier_reconstruction",
+        "object_individual_boundary_and_observer",
+        "probability_time_causality_and_order"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "critic_falsifier",
+        "donor"
+      ],
+      "dossier_status": "SOURCE_NATIVE_STARTING_CARDS_NOT_RANKING_ELIGIBLE",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "sarkar_cosmic_acceleration_critique",
+      "source_batch": "native_source_cards_batch_d.json",
+      "program_label": "Statistical supernova reanalyses and cosmic-dipole/anistropy claims; later datasets and rebuttals must be treated as adversarial versions.",
+      "contributors": [
+        "Alberto Guffanti",
+        "Jacques Colin",
+        "Jeppe Trost Nielsen",
+        "Mohamed Rameez",
+        "Roya Mohayaee",
+        "Subir Sarkar"
+      ],
+      "channel_person_entity_ids": [
+        "person_subir_sarkar"
+      ],
+      "primary_source_count": 3,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/1506.01354",
+          "title": "Marginal evidence for cosmic acceleration from Type Ia supernovae"
+        },
+        {
+          "url": "https://arxiv.org/abs/1808.04597",
+          "title": "Evidence for anisotropy of cosmic acceleration"
+        },
+        {
+          "url": "https://arxiv.org/abs/2106.03119",
+          "title": "Do supernovae indicate an accelerating universe?"
+        }
+      ],
+      "comparison_surface_ids": [
+        "formal_tools_limits_and_falsifiers",
+        "probability_time_causality_and_order",
+        "spacetime_gravity_matter_and_cosmogenesis"
+      ],
+      "proposed_roles": [
+        "critic_falsifier",
+        "empirical_testbed"
+      ],
+      "dossier_status": "SOURCE_NATIVE_STARTING_CARDS_NOT_RANKING_ELIGIBLE",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "schreiber_higher_geometry",
+      "source_batch": "native_source_cards_batch_c.json",
+      "program_label": "Cohesive higher geometry and differential nonabelian cohomology for higher gauge fields, prequantization, and brane charges",
+      "contributors": [
+        "Hisham Sati",
+        "paper-specific collaborators",
+        "Urs Schreiber"
+      ],
+      "channel_person_entity_ids": [
+        "person_urs_schreiber"
+      ],
+      "primary_source_count": 3,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/1310.7930",
+          "title": "Differential cohomology in a cohesive infinity-topos"
+        },
+        {
+          "url": "https://arxiv.org/abs/1507.08692",
+          "title": "Lie n-algebras of BPS charges"
+        },
+        {
+          "url": "https://arxiv.org/abs/2606.12534",
+          "title": "Higher Gauge Theory via Differential Nonabelian Cohomology"
+        }
+      ],
+      "comparison_surface_ids": [
+        "formal_tools_limits_and_falsifiers",
+        "nested_entropic_geometry_flux_and_chirality",
+        "qit_engines_and_recursive_construction",
+        "spacetime_gravity_matter_and_cosmogenesis"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "donor",
+        "mathematical_tool"
+      ],
+      "dossier_status": "UNRESOLVED",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "seth_interoceptive_predictive_self",
+      "source_batch": "native_source_cards_batch_d.json",
+      "program_label": "Interoceptive predictive coding/inference for presence, emotion and embodied self; 'controlled hallucination' is an explanatory slogan, not a separate formal theory.",
+      "contributors": [
+        "Anil Seth",
+        "Hugo Critchley",
+        "Keisuke Suzuki"
+      ],
+      "channel_person_entity_ids": [
+        "person_anil_seth"
+      ],
+      "primary_source_count": 2,
+      "primary_sources": [
+        {
+          "url": "https://doi.org/10.3389/fpsyg.2011.00395",
+          "title": "An interoceptive predictive coding model of conscious presence"
+        },
+        {
+          "url": "https://doi.org/10.1016/j.tics.2013.09.007",
+          "title": "Interoceptive inference, emotion, and the embodied self"
+        }
+      ],
+      "comparison_surface_ids": [
+        "fep_perception_consciousness_and_holodeck",
+        "object_individual_boundary_and_observer",
+        "qit_engines_and_recursive_construction"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "donor",
+        "empirical_testbed"
+      ],
+      "dossier_status": "SOURCE_NATIVE_STARTING_CARDS_NOT_RANKING_ELIGIBLE",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "sheldrake_morphic_resonance",
+      "source_batch": "native_source_cards_batch_b.json",
+      "program_label": "Morphic resonance and formative causation",
+      "contributors": [
+        "Bethany Butzer",
+        "Georgia Black",
+        "Rupert Sheldrake",
+        "Steven Rose"
+      ],
+      "channel_person_entity_ids": [
+        "person_rupert_sheldrake"
+      ],
+      "primary_source_count": 3,
+      "primary_sources": [
+        {
+          "url": "https://www.sheldrake.org/research/morphic-resonance"
+        },
+        {
+          "url": "https://www.sheldrake.org/research/sense-of-being-stared-at"
+        },
+        {
+          "url": "https://doi.org/10.1080/02604020500406248"
+        }
+      ],
+      "comparison_surface_ids": [
+        "formal_tools_limits_and_falsifiers",
+        "life_evolution_agency_and_origins",
+        "object_individual_boundary_and_observer",
+        "plural_attractors_and_universality"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "empirical_testbed"
+      ],
+      "dossier_status": "PRIMARY_SOURCE_LEADS_COLLECTED_NATIVE_DOSSIERS_NOT_LOCKED_UNRANKED",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "sloan_wilson_multilevel_selection",
+      "source_batch": "native_source_cards_batch_c.json",
+      "program_label": "Multilevel selection theory with explicit within-group and between-group selection components",
+      "contributors": [
+        "David Sloan Wilson",
+        "Edward O. Wilson",
+        "Elliott Sober",
+        "William M. Muir for the cited experimental testbed"
+      ],
+      "channel_person_entity_ids": [
+        "person_david_sloan_wilson"
+      ],
+      "primary_source_count": 4,
+      "primary_sources": [
+        {
+          "url": "https://www.pnas.org/doi/10.1073/pnas.72.1.143",
+          "title": "A Theory of Group Selection"
+        },
+        {
+          "url": "https://doi.org/10.1017/S0140525X00036104",
+          "title": "Reintroducing group selection to the human behavioral sciences"
+        },
+        {
+          "url": "https://www.journals.uchicago.edu/doi/10.1086/522809",
+          "title": "Rethinking the Theoretical Foundation of Sociobiology"
+        },
+        {
+          "url": "https://doi.org/10.3382/ps.0750447",
+          "title": "Group selection for adaptation to multiple-hen cages: selection program and direct responses"
+        }
+      ],
+      "comparison_surface_ids": [
+        "life_evolution_agency_and_origins",
+        "object_individual_boundary_and_observer",
+        "plural_attractors_and_universality"
+      ],
+      "proposed_roles": [
+        "critic_falsifier",
+        "donor",
+        "empirical_testbed"
+      ],
+      "dossier_status": "UNRESOLVED",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "spekkens_epistemic_restriction",
+      "source_batch": "native_source_cards_batch_c.json",
+      "program_label": "Spekkens's toy theory and the broader family of epistemically restricted or epistricted classical statistical theories",
+      "contributors": [
+        "Robert W. Spekkens"
+      ],
+      "channel_person_entity_ids": [],
+      "primary_source_count": 2,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/quant-ph/0401052",
+          "title": "In defense of the epistemic view of quantum states: a toy theory"
+        },
+        {
+          "url": "https://arxiv.org/abs/1409.5041",
+          "title": "Quasi-quantization: classical statistical theories with an epistemic restriction"
+        }
+      ],
+      "comparison_surface_ids": [
+        "finite_quantum_and_carrier_reconstruction",
+        "probability_time_causality_and_order"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "critic_falsifier",
+        "donor"
+      ],
+      "dossier_status": "UNRESOLVED",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "steinberg_operational_quantum_duration",
+      "source_batch": "native_source_cards_batch_e.json",
+      "program_label": "Operational duration measurements using weak values, cross-Kerr excitation probes, and Larmor clocks; distinct notions such as group delay, excitation time, dwell time, and traversal time must not be collapsed.",
+      "contributors": [
+        "Aephraim M. Steinberg",
+        "Andy Jiao",
+        "Daniela Angulo",
+        "David C. Spierings",
+        "Howard M. Wiseman",
+        "Kyle Thompson",
+        "Vida-Michelle Nixon"
+      ],
+      "channel_person_entity_ids": [],
+      "primary_source_count": 3,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/2409.03680",
+          "title": "Experimental evidence that a photon can spend a negative amount of time in an atom cloud"
+        },
+        {
+          "url": "https://doi.org/10.1103/gjfq-k9dv",
+          "title": "Experimental Observation of Negative Weak Values for the Time Atoms Spend in the Excited State as a Photon Is Transmitted"
+        },
+        {
+          "url": "https://arxiv.org/abs/2101.12309",
+          "title": "Observation of the Decrease of Larmor Tunneling Times with Lower Incident Energy"
+        }
+      ],
+      "comparison_surface_ids": [
+        "finite_quantum_and_carrier_reconstruction",
+        "formal_tools_limits_and_falsifiers",
+        "probability_time_causality_and_order"
+      ],
+      "proposed_roles": [
+        "critic_falsifier",
+        "empirical_testbed",
+        "operational_definition_donor"
+      ],
+      "dossier_status": "SOURCE_PACKET_STARTER_WITH_EMPIRICAL_RESULT",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "tegmark_mathematical_universe",
+      "source_batch": "native_source_cards_batch_c.json",
+      "program_label": "The Mathematical Universe Hypothesis and its earlier ultimate-ensemble formulation",
+      "contributors": [
+        "Max Tegmark"
+      ],
+      "channel_person_entity_ids": [
+        "person_max_tegmark"
+      ],
+      "primary_source_count": 2,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/gr-qc/9704009",
+          "title": "Is the theory of everything merely the ultimate ensemble theory?"
+        },
+        {
+          "url": "https://arxiv.org/abs/0704.0646",
+          "title": "The Mathematical Universe"
+        }
+      ],
+      "comparison_surface_ids": [
+        "fep_perception_consciousness_and_holodeck",
+        "root_and_least_presumption",
+        "spacetime_gravity_matter_and_cosmogenesis"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "critic_falsifier",
+        "evidence_limited_claimant"
+      ],
+      "dossier_status": "UNRESOLVED",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "turok_cpt_symmetric_universe",
+      "source_batch": "native_source_cards_batch_d.json",
+      "program_label": "The CPT-symmetric universe and its right-handed-neutrino dark-matter consequences; keep distinct from Turok's other cyclic and conformal cosmologies.",
+      "contributors": [
+        "Kieran Finn",
+        "Latham Boyle",
+        "Neil Turok"
+      ],
+      "channel_person_entity_ids": [
+        "person_latham_boyle",
+        "person_neil_turok"
+      ],
+      "primary_source_count": 1,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/1803.08928",
+          "title": "CPT-Symmetric Universe"
+        }
+      ],
+      "comparison_surface_ids": [
+        "nested_entropic_geometry_flux_and_chirality",
+        "probability_time_causality_and_order",
+        "spacetime_gravity_matter_and_cosmogenesis"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "critic_falsifier",
+        "empirical_testbed"
+      ],
+      "dossier_status": "SOURCE_NATIVE_STARTING_CARDS_NOT_RANKING_ELIGIBLE",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "vaidya_comparative_vedanta_consciousness",
+      "source_batch": "native_source_cards_batch_e.json",
+      "program_label": "Vaidya's comparative analytic reconstruction and criticism of Advaita and Visistadvaita approaches to the hard problem of consciousness; not a physical dynamics or a generic endorsement of non-dualism.",
+      "contributors": [
+        "Anand Jayprakash Vaidya",
+        "Michael Jones",
+        "Purushottama Bilimoria",
+        "Rethy Chhem"
+      ],
+      "channel_person_entity_ids": [],
+      "primary_source_count": 3,
+      "primary_sources": [
+        {
+          "url": "https://doi.org/10.53765/20512201.32.9.215",
+          "title": "Does Vedanta Concern the Hard Problem of Consciousness? Part I: A Critical Examination of the Perennial Idealist Reading of Sankara's Advaita Vedanta"
+        },
+        {
+          "url": "https://doi.org/10.1017/S0034412525100838",
+          "title": "Ramanuja's cosmopsychist-panentheistic solution to the hard problem of consciousness"
+        },
+        {
+          "url": "https://doi.org/10.1093/monist/onab026",
+          "title": "Analytic Panpsychism and the Metaphysics of Ramanuja's Visistadvaita Vedanta"
+        }
+      ],
+      "comparison_surface_ids": [
+        "fep_perception_consciousness_and_holodeck",
+        "object_individual_boundary_and_observer",
+        "root_and_least_presumption"
+      ],
+      "proposed_roles": [
+        "competitor_for_consciousness_grounding",
+        "distinction_donor",
+        "philosophical_critic"
+      ],
+      "dossier_status": "SOURCE_PACKET_STARTER",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "vaidya_modal_epistemic_friction_and_logical_pluralism",
+      "source_batch": "native_source_cards_batch_e.json",
+      "program_label": "Vaidya's modal-epistemology and cross-traditional logic work as a methodological donor; separate from his comparative consciousness metaphysics.",
+      "contributors": [
+        "Anand Jayprakash Vaidya",
+        "Michael Wallner",
+        "Miro Joki\u0107",
+        "Simone Gozzano"
+      ],
+      "channel_person_entity_ids": [],
+      "primary_source_count": 3,
+      "primary_sources": [
+        {
+          "url": "https://doi.org/10.1007/s11229-018-1860-2",
+          "title": "The epistemology of modality and the problem of modal epistemic friction"
+        },
+        {
+          "url": "https://doi.org/10.1017/S0031819120000200",
+          "title": "Essence, Explanation, and Modality"
+        },
+        {
+          "url": "https://doi.org/10.1111/phc3.12956",
+          "title": "Logical Pluralism and Paradoxical Assertions in the Philosophy of Religion"
+        }
+      ],
+      "comparison_surface_ids": [
+        "admission_mss_and_purgatory",
+        "formal_tools_limits_and_falsifiers",
+        "root_and_least_presumption"
+      ],
+      "proposed_roles": [
+        "critic_falsifier",
+        "logic_grammar_donor",
+        "methodological_donor"
+      ],
+      "dossier_status": "SOURCE_PACKET_STARTER",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "vanchurin_world_as_neural_network",
+      "source_batch": "native_source_cards_batch_e.json",
+      "program_label": "The world-as-neural-network construction and its self-organized-critical learning extension; separate from the broader multilevel-learning theory of biological evolution.",
+      "contributors": [
+        "Mikhail I. Katsnelson",
+        "Tom Westerhout",
+        "Vitaly Vanchurin"
+      ],
+      "channel_person_entity_ids": [
+        "person_vitaly_vanchurin"
+      ],
+      "primary_source_count": 3,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/2008.01540",
+          "title": "The world as a neural network"
+        },
+        {
+          "url": "https://arxiv.org/abs/2004.09280",
+          "title": "Towards a theory of machine learning"
+        },
+        {
+          "url": "https://arxiv.org/abs/2107.03402",
+          "title": "Self-organized criticality in neural networks"
+        }
+      ],
+      "comparison_surface_ids": [
+        "plural_attractors_and_universality",
+        "qit_engines_and_recursive_construction",
+        "root_and_least_presumption",
+        "spacetime_gravity_matter_and_cosmogenesis"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "critic_falsifier",
+        "mathematical_donor"
+      ],
+      "dossier_status": "SOURCE_PACKET_STARTER",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "verlinde_emergent_entropic_gravity",
+      "source_batch": "native_source_cards_batch_d.json",
+      "program_label": "The 2011 entropic-force proposal and 2016 emergent-gravity/dark-universe model are distinct versions; this card targets the latter with the former as ancestry.",
+      "contributors": [
+        "Erik Verlinde"
+      ],
+      "channel_person_entity_ids": [
+        "person_erik_verlinde"
+      ],
+      "primary_source_count": 2,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/1001.0785",
+          "title": "On the Origin of Gravity and the Laws of Newton"
+        },
+        {
+          "url": "https://arxiv.org/abs/1611.02269",
+          "title": "Emergent Gravity and the Dark Universe"
+        }
+      ],
+      "comparison_surface_ids": [
+        "nested_entropic_geometry_flux_and_chirality",
+        "root_and_least_presumption",
+        "spacetime_gravity_matter_and_cosmogenesis"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "donor",
+        "empirical_testbed"
+      ],
+      "dossier_status": "SOURCE_NATIVE_STARTING_CARDS_NOT_RANKING_ELIGIBLE",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "walker_algorithmic_origins",
+      "source_batch": "native_source_cards_batch_a.json",
+      "program_label": "Algorithmic origins of life and top-down informational causation",
+      "contributors": [
+        "Paul C. W. Davies",
+        "Sara Imari Walker"
+      ],
+      "channel_person_entity_ids": [],
+      "primary_source_count": 2,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/1207.4803"
+        },
+        {
+          "url": "https://royalsocietypublishing.org/doi/10.1098/rsfs.2015.0005"
+        }
+      ],
+      "comparison_surface_ids": [
+        "life_evolution_agency_and_origins",
+        "object_individual_boundary_and_observer",
+        "qit_engines_and_recursive_construction"
+      ],
+      "proposed_roles": [
+        "bridge_translator",
+        "competitor",
+        "donor"
+      ],
+      "dossier_status": "SOURCE_PACKET_PARTIAL_NONEXECUTABLE_FRAMEWORK",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "wharton_lagrangian_all_at_once",
+      "source_batch": "native_source_cards_batch_a.json",
+      "program_label": "Lagrangian all-at-once and time-symmetric boundary-condition models",
+      "contributors": [
+        "Ken Wharton",
+        "Nathan Argaman"
+      ],
+      "channel_person_entity_ids": [],
+      "primary_source_count": 3,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/1003.4273"
+        },
+        {
+          "url": "https://arxiv.org/abs/1301.7012"
+        },
+        {
+          "url": "https://arxiv.org/abs/1906.04313"
+        }
+      ],
+      "comparison_surface_ids": [
+        "finite_quantum_and_carrier_reconstruction",
+        "probability_time_causality_and_order",
+        "spacetime_gravity_matter_and_cosmogenesis"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "donor"
+      ],
+      "dossier_status": "SOURCE_PACKET_STARTER_COMPLETE_REPRODUCTION_PENDING",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "wolfram_multiway_physics",
+      "source_batch": "native_source_cards_batch_c.json",
+      "program_label": "Wolfram-model hypergraph rewriting, multiway evolution, causal and branchial graphs, causal invariance, and observer-relative coarse graining",
+      "contributors": [
+        "Jonathan Gorard",
+        "Manojna Namuduri",
+        "software contributors",
+        "Stephen Wolfram",
+        "Xerxes D. Arsiwalla"
+      ],
+      "channel_person_entity_ids": [
+        "person_jonathan_gorard",
+        "person_stephen_wolfram"
+      ],
+      "primary_source_count": 5,
+      "primary_sources": [
+        {
+          "url": "https://www.wolframphysics.org/technical-introduction/",
+          "title": "A Class of Models with the Potential to Represent Fundamental Physics"
+        },
+        {
+          "url": "https://arxiv.org/abs/2004.14810",
+          "title": "Some Relativistic and Gravitational Properties of the Wolfram Model"
+        },
+        {
+          "url": "https://arxiv.org/abs/2010.02752",
+          "title": "ZX-Calculus and Extended Hypergraph Rewriting Systems I"
+        },
+        {
+          "url": "https://github.com/WolframInstitute/HypergraphRewritingEngine",
+          "title": "HypergraphRewritingEngine source repository"
+        },
+        {
+          "url": "https://github.com/maxitg/SetReplace",
+          "title": "SetReplace source repository"
+        }
+      ],
+      "comparison_surface_ids": [
+        "admission_mss_and_purgatory",
+        "finite_quantum_and_carrier_reconstruction",
+        "formal_tools_limits_and_falsifiers",
+        "plural_attractors_and_universality",
+        "probability_time_causality_and_order",
+        "spacetime_gravity_matter_and_cosmogenesis"
+      ],
+      "proposed_roles": [
+        "competitor",
+        "donor",
+        "mathematical_tool"
+      ],
+      "dossier_status": "UNRESOLVED",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "wolpert_physical_inference_limits",
+      "source_batch": "native_source_cards_batch_g.json",
+      "program_label": "Inference devices and law-independent limits on embedded knowledge",
+      "contributors": [
+        "David H. Wolpert"
+      ],
+      "channel_person_entity_ids": [],
+      "primary_source_count": 2,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/0708.1362",
+          "title": "Physical limits of inference"
+        },
+        {
+          "url": "https://arxiv.org/abs/1711.03499",
+          "title": "Constraints on physical reality arising from a formalization of knowledge"
+        }
+      ],
+      "comparison_surface_ids": [],
+      "proposed_roles": [],
+      "dossier_status": "ADMINISTRATIVE_BATCH_COMPLETE_SOURCE_NATIVE_UNRANKED",
+      "ranking_eligible": false
+    },
+    {
+      "card_id": "yampolskiy_ai_control_limits",
+      "source_batch": "native_source_cards_batch_f.json",
+      "program_label": "Formal and cross-domain limits on prediction and control of advanced AI",
+      "contributors": [
+        "Mario Brcic",
+        "Roman V. Yampolskiy"
+      ],
+      "channel_person_entity_ids": [],
+      "primary_source_count": 3,
+      "primary_sources": [
+        {
+          "url": "https://arxiv.org/abs/1905.13053",
+          "title": "Unpredictability of AI"
+        },
+        {
+          "url": "https://arxiv.org/abs/2008.04071",
+          "title": "On Controllability of AI"
+        },
+        {
+          "url": "https://arxiv.org/abs/2109.00484",
+          "title": "Impossibility Results in AI: A Survey"
+        }
+      ],
+      "comparison_surface_ids": [],
+      "proposed_roles": [],
+      "dossier_status": "ADMINISTRATIVE_BATCH_COMPLETE_SOURCE_NATIVE_UNRANKED",
+      "ranking_eligible": false
+    }
+  ],
+  "channel_people_with_source_cards": [
+    {
+      "entity_id": "person_abhay_ashtekar",
+      "canonical_name": "Abhay Ashtekar",
+      "source_card_ids": [
+        "ashtekar_loop_quantum_cosmology"
+      ],
+      "link_methods": [
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_aephraim_steinberg",
+      "canonical_name": "Aephraim Steinberg",
+      "source_card_ids": [
+        "steinberg_operational_quantum_duration"
+      ],
+      "link_methods": [
+        "ADMINISTRATIVE_RESOLUTION_RECORD"
+      ]
+    },
+    {
+      "entity_id": "person_anand_vaidya",
+      "canonical_name": "Anand Vaidya",
+      "source_card_ids": [
+        "vaidya_comparative_vedanta_consciousness",
+        "vaidya_modal_epistemic_friction_and_logical_pluralism"
+      ],
+      "link_methods": [
+        "ADMINISTRATIVE_RESOLUTION_RECORD"
+      ]
+    },
+    {
+      "entity_id": "person_anil_seth",
+      "canonical_name": "Anil Seth",
+      "source_card_ids": [
+        "seth_interoceptive_predictive_self"
+      ],
+      "link_methods": [
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_bernardo_kastrup",
+      "canonical_name": "Bernardo Kastrup",
+      "source_card_ids": [
+        "kastrup_analytic_idealism"
+      ],
+      "link_methods": [
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_carlo_rovelli",
+      "canonical_name": "Carlo Rovelli",
+      "source_card_ids": [
+        "rovelli_relational_quantum_mechanics"
+      ],
+      "link_methods": [
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_chiara_marletto",
+      "canonical_name": "Chiara Marletto",
+      "source_card_ids": [
+        "fuentes_experimental_quantum_gravity",
+        "marletto_constructor_theory",
+        "marletto_vedral_gravity_entanglement_witness"
+      ],
+      "link_methods": [
+        "ADMINISTRATIVE_RESOLUTION_RECORD",
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_chris_fields",
+      "canonical_name": "Chris Fields",
+      "source_card_ids": [
+        "fields_observer_quantum_information"
+      ],
+      "link_methods": [
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_claudia_de_rham",
+      "canonical_name": "Claudia de Rham",
+      "source_card_ids": [
+        "derham_dRGT_massive_gravity"
+      ],
+      "link_methods": [
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_colin_mclarty",
+      "canonical_name": "Colin McLarty",
+      "source_card_ids": [
+        "mclarty_weak_foundations"
+      ],
+      "link_methods": [
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_david_deutsch",
+      "canonical_name": "David Deutsch",
+      "source_card_ids": [
+        "marletto_constructor_theory"
+      ],
+      "link_methods": [
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_david_sloan_wilson",
+      "canonical_name": "David Sloan Wilson",
+      "source_card_ids": [
+        "sloan_wilson_multilevel_selection"
+      ],
+      "link_methods": [
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_david_wallace",
+      "canonical_name": "David Wallace",
+      "source_card_ids": [
+        "everett_decoherent_histories"
+      ],
+      "link_methods": [
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_denis_noble",
+      "canonical_name": "Denis Noble",
+      "source_card_ids": [
+        "noble_biological_relativity"
+      ],
+      "link_methods": [
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_donald_hoffman",
+      "canonical_name": "Donald Hoffman",
+      "source_card_ids": [
+        "hoffman_interface_conscious_agents"
+      ],
+      "link_methods": [
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_edward_frenkel",
+      "canonical_name": "Edward Frenkel",
+      "source_card_ids": [
+        "frenkel_quantum_geometric_langlands"
+      ],
+      "link_methods": [
+        "ADMINISTRATIVE_RESOLUTION_RECORD",
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_elan_barenholtz",
+      "canonical_name": "Elan Barenholtz",
+      "source_card_ids": [
+        "hahn_bioinspired_modular_learning_and_embodied_agents"
+      ],
+      "link_methods": [
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_emily_adlam",
+      "canonical_name": "Emily Adlam",
+      "source_card_ids": [
+        "adlam_constraint_based_lawhood"
+      ],
+      "link_methods": [
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_eric_weinstein",
+      "canonical_name": "Eric Weinstein",
+      "source_card_ids": [
+        "geometric_unity"
+      ],
+      "link_methods": [
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_erik_verlinde",
+      "canonical_name": "Erik Verlinde",
+      "source_card_ids": [
+        "verlinde_emergent_entropic_gravity"
+      ],
+      "link_methods": [
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_fay_dowker",
+      "canonical_name": "Fay Dowker",
+      "source_card_ids": [
+        "dowker_causal_set_quantum_gravity"
+      ],
+      "link_methods": [
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_felix_finster",
+      "canonical_name": "Felix Finster",
+      "source_card_ids": [
+        "causal_fermion_systems"
+      ],
+      "link_methods": [
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_gabriele_carcassi",
+      "canonical_name": "Gabriele Carcassi",
+      "source_card_ids": [
+        "carcassi_assumptions_of_physics"
+      ],
+      "link_methods": [
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_ginestra_bianconi",
+      "canonical_name": "Ginestra Bianconi",
+      "source_card_ids": [
+        "bianconi_network_geometry_with_flavor",
+        "bianconi_quantum_relative_entropy_geometry"
+      ],
+      "link_methods": [
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_graham_priest",
+      "canonical_name": "Graham Priest",
+      "source_card_ids": [
+        "priest_paraconsistency"
+      ],
+      "link_methods": [
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_hartmut_neven",
+      "canonical_name": "Hartmut Neven",
+      "source_card_ids": [
+        "neven_google_quantum_ai_experimental_roadmap"
+      ],
+      "link_methods": [
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_iain_mcgilchrist",
+      "canonical_name": "Iain McGilchrist",
+      "source_card_ids": [
+        "mcgilchrist_hemisphere_attention_hypothesis"
+      ],
+      "link_methods": [
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_ivette_fuentes",
+      "canonical_name": "Ivette Fuentes",
+      "source_card_ids": [
+        "fuentes_experimental_quantum_gravity"
+      ],
+      "link_methods": [
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_john_donoghue",
+      "canonical_name": "John Donoghue",
+      "source_card_ids": [
+        "donoghue_eft_gravity"
+      ],
+      "link_methods": [
+        "ADMINISTRATIVE_RESOLUTION_RECORD"
+      ]
+    },
+    {
+      "entity_id": "person_jonathan_gorard",
+      "canonical_name": "Jonathan Gorard",
+      "source_card_ids": [
+        "gorard_wolfram_hypergraph_gravity",
+        "wolfram_multiway_physics"
+      ],
+      "link_methods": [
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_jonathan_oppenheim",
+      "canonical_name": "Jonathan Oppenheim",
+      "source_card_ids": [
+        "marletto_vedral_gravity_entanglement_witness",
+        "post_quantum_classical_gravity"
+      ],
+      "link_methods": [
+        "ADMINISTRATIVE_RESOLUTION_RECORD",
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_joscha_bach",
+      "canonical_name": "Joscha Bach",
+      "source_card_ids": [
+        "bach_micropsi_motivated_cognition"
+      ],
+      "link_methods": [
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_juan_maldacena",
+      "canonical_name": "Juan Maldacena",
+      "source_card_ids": [
+        "maldacena_er_epr_entanglement_geometry"
+      ],
+      "link_methods": [
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_julian_barbour",
+      "canonical_name": "Julian Barbour",
+      "source_card_ids": [
+        "barbour_shape_dynamics_timelessness"
+      ],
+      "link_methods": [
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_karl_friston",
+      "canonical_name": "Karl Friston",
+      "source_card_ids": [
+        "fields_observer_quantum_information",
+        "friston_fep"
+      ],
+      "link_methods": [
+        "ADMINISTRATIVE_RESOLUTION_RECORD",
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_latham_boyle",
+      "canonical_name": "Latham Boyle",
+      "source_card_ids": [
+        "turok_cpt_symmetric_universe"
+      ],
+      "link_methods": [
+        "ADMINISTRATIVE_RESOLUTION_RECORD",
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_leonard_susskind",
+      "canonical_name": "Leonard Susskind",
+      "source_card_ids": [
+        "maldacena_er_epr_entanglement_geometry"
+      ],
+      "link_methods": [
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_marwa",
+      "canonical_name": "Marwa",
+      "source_card_ids": [
+        "eldiwiny_soft_robotics_morphological_computation"
+      ],
+      "link_methods": [
+        "ADMINISTRATIVE_RESOLUTION_RECORD"
+      ]
+    },
+    {
+      "entity_id": "person_max_tegmark",
+      "canonical_name": "Max Tegmark",
+      "source_card_ids": [
+        "tegmark_mathematical_universe"
+      ],
+      "link_methods": [
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_michael_levin",
+      "canonical_name": "Michael Levin",
+      "source_card_ids": [
+        "fields_observer_quantum_information",
+        "levin_morphogenesis"
+      ],
+      "link_methods": [
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_neil_turok",
+      "canonical_name": "Neil Turok",
+      "source_card_ids": [
+        "turok_cpt_symmetric_universe"
+      ],
+      "link_methods": [
+        "ADMINISTRATIVE_RESOLUTION_RECORD",
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_nick_lane",
+      "canonical_name": "Nick Lane",
+      "source_card_ids": [
+        "nick_lane_origin_of_life"
+      ],
+      "link_methods": [
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_nikita_nekrasov",
+      "canonical_name": "Nikita Nekrasov",
+      "source_card_ids": [
+        "nekrasov_exact_qft"
+      ],
+      "link_methods": [
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_nir_lahav",
+      "canonical_name": "Nir Lahav",
+      "source_card_ids": [
+        "lahav_neemeh_relativistic_consciousness"
+      ],
+      "link_methods": [
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_philip_mannheim",
+      "canonical_name": "Philip Mannheim",
+      "source_card_ids": [
+        "mannheim_conformal_gravity"
+      ],
+      "link_methods": [
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_renato_renner",
+      "canonical_name": "Renato Renner",
+      "source_card_ids": [
+        "frauchiger_renner_self_reference_no_go"
+      ],
+      "link_methods": [
+        "ADMINISTRATIVE_RESOLUTION_RECORD",
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_roger_penrose",
+      "canonical_name": "Roger Penrose",
+      "source_card_ids": [
+        "fuentes_experimental_quantum_gravity",
+        "hameroff_penrose_orch_or"
+      ],
+      "link_methods": [
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_rupert_sheldrake",
+      "canonical_name": "Rupert Sheldrake",
+      "source_card_ids": [
+        "sheldrake_morphic_resonance"
+      ],
+      "link_methods": [
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_scott_aaronson",
+      "canonical_name": "Scott Aaronson",
+      "source_card_ids": [
+        "aaronson_complexity_limits"
+      ],
+      "link_methods": [
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_simon_saunders",
+      "canonical_name": "Simon Saunders",
+      "source_card_ids": [
+        "everett_decoherent_histories"
+      ],
+      "link_methods": [
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_stephen_wolfram",
+      "canonical_name": "Stephen Wolfram",
+      "source_card_ids": [
+        "wolfram_multiway_physics"
+      ],
+      "link_methods": [
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_stuart_hameroff",
+      "canonical_name": "Stuart Hameroff",
+      "source_card_ids": [
+        "hameroff_penrose_orch_or"
+      ],
+      "link_methods": [
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_stuart_kauffman",
+      "canonical_name": "Stuart Kauffman",
+      "source_card_ids": [
+        "kauffman_open_ended_evolution"
+      ],
+      "link_methods": [
+        "ADMINISTRATIVE_RESOLUTION_RECORD",
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_subir_sarkar",
+      "canonical_name": "Subir Sarkar",
+      "source_card_ids": [
+        "sarkar_cosmic_acceleration_critique"
+      ],
+      "link_methods": [
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_ted_jacobson",
+      "canonical_name": "Ted Jacobson",
+      "source_card_ids": [
+        "jacobson_spacetime_thermodynamics"
+      ],
+      "link_methods": [
+        "ADMINISTRATIVE_RESOLUTION_RECORD",
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_tim_maudlin",
+      "canonical_name": "Tim Maudlin",
+      "source_card_ids": [
+        "maudlin_bohmian_realism"
+      ],
+      "link_methods": [
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_tim_palmer",
+      "canonical_name": "Tim Palmer",
+      "source_card_ids": [
+        "palmer_invariant_set_theory"
+      ],
+      "link_methods": [
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_urs_schreiber",
+      "canonical_name": "Urs Schreiber",
+      "source_card_ids": [
+        "schreiber_higher_geometry"
+      ],
+      "link_methods": [
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_vitaly_vanchurin",
+      "canonical_name": "Vitaly Vanchurin",
+      "source_card_ids": [
+        "vanchurin_world_as_neural_network"
+      ],
+      "link_methods": [
+        "ADMINISTRATIVE_RESOLUTION_RECORD",
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_wayne_myrvold",
+      "canonical_name": "Wayne Myrvold",
+      "source_card_ids": [
+        "myrvold_operational_thermodynamics"
+      ],
+      "link_methods": [
+        "ADMINISTRATIVE_RESOLUTION_RECORD",
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    },
+    {
+      "entity_id": "person_william_hahn",
+      "canonical_name": "William Hahn",
+      "source_card_ids": [
+        "hahn_bioinspired_modular_learning_and_embodied_agents"
+      ],
+      "link_methods": [
+        "ADMINISTRATIVE_RESOLUTION_RECORD"
+      ]
+    },
+    {
+      "entity_id": "person_yakir_aharonov",
+      "canonical_name": "Yakir Aharonov",
+      "source_card_ids": [
+        "aharonov_two_state_vector_formalism"
+      ],
+      "link_methods": [
+        "NORMALIZED_EXACT_CONTRIBUTOR_NAME"
+      ]
+    }
+  ],
+  "channel_people_without_source_cards": [
+    {
+      "entity_id": "person_a_h_almaas",
+      "canonical_name": "A. H. Almaas"
+    },
+    {
+      "entity_id": "person_aaron_schurger",
+      "canonical_name": "Aaron Schurger"
+    },
+    {
+      "entity_id": "person_alex_honnold",
+      "canonical_name": "Alex Honnold"
+    },
+    {
+      "entity_id": "person_alex_tsakiris",
+      "canonical_name": "Alex Tsakiris"
+    },
+    {
+      "entity_id": "person_alfonso_martinez_arias",
+      "canonical_name": "Alfonso Martinez Arias"
+    },
+    {
+      "entity_id": "person_andres_gomez_emilsson",
+      "canonical_name": "Andres Gomez-Emilsson"
+    },
+    {
+      "entity_id": "person_anna_ciaunica",
+      "canonical_name": "Anna Ciaunica"
+    },
+    {
+      "entity_id": "person_anna_lembke",
+      "canonical_name": "Anna Lembke"
+    },
+    {
+      "entity_id": "person_anthony_metivier",
+      "canonical_name": "Anthony Metivier"
+    },
+    {
+      "entity_id": "person_artisan_tony",
+      "canonical_name": "Artisan Tony"
+    },
+    {
+      "entity_id": "person_atlas",
+      "canonical_name": "Atlas"
+    },
+    {
+      "entity_id": "person_avi_loeb",
+      "canonical_name": "Avi Loeb"
+    },
+    {
+      "entity_id": "person_avshalom_elitzur",
+      "canonical_name": "Avshalom Elitzur"
+    },
+    {
+      "entity_id": "person_barry_loewer",
+      "canonical_name": "Barry Loewer"
+    },
+    {
+      "entity_id": "person_bas_van_fraassen",
+      "canonical_name": "Bas van Fraassen"
+    },
+    {
+      "entity_id": "person_ben_goertzel",
+      "canonical_name": "Ben Goertzel"
+    },
+    {
+      "entity_id": "person_brian_greene",
+      "canonical_name": "Brian Greene"
+    },
+    {
+      "entity_id": "person_brian_keating",
+      "canonical_name": "Brian Keating"
+    },
+    {
+      "entity_id": "person_bryan_johnson",
+      "canonical_name": "Bryan Johnson"
+    },
+    {
+      "entity_id": "person_carissa_veliz",
+      "canonical_name": "Carissa Veliz"
+    },
+    {
+      "entity_id": "person_carlos_farias",
+      "canonical_name": "Carlos Farias"
+    },
+    {
+      "entity_id": "person_carlos_montemayor",
+      "canonical_name": "Carlos Montemayor"
+    },
+    {
+      "entity_id": "person_chloe_valdary",
+      "canonical_name": "Chloe Valdary"
+    },
+    {
+      "entity_id": "person_chris_langan",
+      "canonical_name": "Chris Langan"
+    },
+    {
+      "entity_id": "person_chris_lehto",
+      "canonical_name": "Chris Lehto"
+    },
+    {
+      "entity_id": "person_claudia_passos",
+      "canonical_name": "Claudia Passos [full surname form to verify]"
+    },
+    {
+      "entity_id": "person_coleman_hughes",
+      "canonical_name": "Coleman Hughes"
+    },
+    {
+      "entity_id": "person_colm_kelleher",
+      "canonical_name": "Colm Kelleher"
+    },
+    {
+      "entity_id": "person_cumrun_vafa",
+      "canonical_name": "Cumrun Vafa"
+    },
+    {
+      "entity_id": "person_daniel_dennett",
+      "canonical_name": "Daniel Dennett"
+    },
+    {
+      "entity_id": "person_daniel_schmachtenberger",
+      "canonical_name": "Daniel Schmachtenberger"
+    },
+    {
+      "entity_id": "person_david_bentley_hart",
+      "canonical_name": "David Bentley Hart"
+    },
+    {
+      "entity_id": "person_david_bessis",
+      "canonical_name": "David Bessis"
+    },
+    {
+      "entity_id": "person_david_chalmers",
+      "canonical_name": "David Chalmers"
+    },
+    {
+      "entity_id": "person_david_hand",
+      "canonical_name": "David Hand"
+    },
+    {
+      "entity_id": "person_david_kaiser",
+      "canonical_name": "David Kaiser"
+    },
+    {
+      "entity_id": "person_david_robson",
+      "canonical_name": "David Robson"
+    },
+    {
+      "entity_id": "person_david_wolpert",
+      "canonical_name": "David Wolpert"
+    },
+    {
+      "entity_id": "person_dennis_mckenna",
+      "canonical_name": "Dennis McKenna"
+    },
+    {
+      "entity_id": "person_diana_pasulka",
+      "canonical_name": "Diana Pasulka"
+    },
+    {
+      "entity_id": "person_dick_bond",
+      "canonical_name": "Dick Bond"
+    },
+    {
+      "entity_id": "person_douglas_lain",
+      "canonical_name": "Douglas Lain"
+    },
+    {
+      "entity_id": "person_dror_bar_natan",
+      "canonical_name": "Dror Bar-Natan"
+    },
+    {
+      "entity_id": "person_eddy_chen",
+      "canonical_name": "Eddy Chen"
+    },
+    {
+      "entity_id": "person_edward_stuart",
+      "canonical_name": "Edward Stuart"
+    },
+    {
+      "entity_id": "person_emily_riehl",
+      "canonical_name": "Emily Riehl"
+    },
+    {
+      "entity_id": "person_eva_miranda",
+      "canonical_name": "Eva Miranda"
+    },
+    {
+      "entity_id": "person_fidias",
+      "canonical_name": "Fidias"
+    },
+    {
+      "entity_id": "person_frank_yang",
+      "canonical_name": "Frank Yang"
+    },
+    {
+      "entity_id": "person_frederic_schuller",
+      "canonical_name": "Frederic Schuller"
+    },
+    {
+      "entity_id": "person_garrett_lisi",
+      "canonical_name": "Garrett Lisi"
+    },
+    {
+      "entity_id": "person_garrett_mindt",
+      "canonical_name": "Garrett Mindt"
+    },
+    {
+      "entity_id": "person_garry_nolan",
+      "canonical_name": "Garry Nolan"
+    },
+    {
+      "entity_id": "person_gen_zed",
+      "canonical_name": "Gen Zed"
+    },
+    {
+      "entity_id": "person_geoffrey_hinton",
+      "canonical_name": "Geoffrey Hinton"
+    },
+    {
+      "entity_id": "person_george_ellis",
+      "canonical_name": "George Ellis"
+    },
+    {
+      "entity_id": "person_george_knapp",
+      "canonical_name": "George Knapp"
+    },
+    {
+      "entity_id": "person_george_musser",
+      "canonical_name": "George Musser"
+    },
+    {
+      "entity_id": "person_gerard_t_hooft",
+      "canonical_name": "Gerard 't Hooft"
+    },
+    {
+      "entity_id": "person_greg_kondrak",
+      "canonical_name": "Greg Kondrak"
+    },
+    {
+      "entity_id": "person_gregory_chaitin",
+      "canonical_name": "Gregory Chaitin"
+    },
+    {
+      "entity_id": "person_harry_collins",
+      "canonical_name": "Harry Collins"
+    },
+    {
+      "entity_id": "person_harvey_friedman",
+      "canonical_name": "Harvey Friedman"
+    },
+    {
+      "entity_id": "person_jacob_barandes",
+      "canonical_name": "Jacob Barandes"
+    },
+    {
+      "entity_id": "person_jacques_vallee",
+      "canonical_name": "Jacques Vallee"
+    },
+    {
+      "entity_id": "person_james_robert_brown",
+      "canonical_name": "James Robert Brown"
+    },
+    {
+      "entity_id": "person_janna_levin",
+      "canonical_name": "Janna Levin"
+    },
+    {
+      "entity_id": "person_jb_manchak",
+      "canonical_name": "JB Manchak"
+    },
+    {
+      "entity_id": "person_jeffrey_mishlove",
+      "canonical_name": "Jeffrey Mishlove"
+    },
+    {
+      "entity_id": "person_jenann_ismael",
+      "canonical_name": "Jenann Ismael"
+    },
+    {
+      "entity_id": "person_jennifer_nagel",
+      "canonical_name": "Jennifer Nagel"
+    },
+    {
+      "entity_id": "person_jenny_wagner",
+      "canonical_name": "Jenny Wagner"
+    },
+    {
+      "entity_id": "person_jeremy_corbell",
+      "canonical_name": "Jeremy Corbell"
+    },
+    {
+      "entity_id": "person_jesse_michels",
+      "canonical_name": "Jesse Michels"
+    },
+    {
+      "entity_id": "person_john_greenewald",
+      "canonical_name": "John Greenewald"
+    },
+    {
+      "entity_id": "person_john_moffat",
+      "canonical_name": "John Moffat"
+    },
+    {
+      "entity_id": "person_john_norton",
+      "canonical_name": "John Norton"
+    },
+    {
+      "entity_id": "person_john_vervaeke",
+      "canonical_name": "John Vervaeke"
+    },
+    {
+      "entity_id": "person_jonathan_blow",
+      "canonical_name": "Jonathan Blow"
+    },
+    {
+      "entity_id": "person_jonathan_pageau",
+      "canonical_name": "Jonathan Pageau"
+    },
+    {
+      "entity_id": "person_jordan_peterson",
+      "canonical_name": "Jordan Peterson"
+    },
+    {
+      "entity_id": "person_joseph_conlon",
+      "canonical_name": "Joseph Conlon"
+    },
+    {
+      "entity_id": "person_kevin_knuth",
+      "canonical_name": "Kevin Knuth"
+    },
+    {
+      "entity_id": "person_lawrence_krauss",
+      "canonical_name": "Lawrence Krauss"
+    },
+    {
+      "entity_id": "person_lee_cronin",
+      "canonical_name": "Lee Cronin"
+    },
+    {
+      "entity_id": "person_lee_smolin",
+      "canonical_name": "Lee Smolin"
+    },
+    {
+      "entity_id": "person_leo_gura",
+      "canonical_name": "Leo Gura"
+    },
+    {
+      "entity_id": "person_les_stroud",
+      "canonical_name": "Les Stroud"
+    },
+    {
+      "entity_id": "person_leslie_kean",
+      "canonical_name": "Leslie Kean"
+    },
+    {
+      "entity_id": "person_lilian_dindo",
+      "canonical_name": "Lilian Dindo"
+    },
+    {
+      "entity_id": "person_linda_moulton_howe",
+      "canonical_name": "Linda Moulton Howe"
+    },
+    {
+      "entity_id": "person_luis_elizondo",
+      "canonical_name": "Luis Elizondo"
+    },
+    {
+      "entity_id": "person_manolis_kellis",
+      "canonical_name": "Manolis Kellis"
+    },
+    {
+      "entity_id": "person_maria_violaris",
+      "canonical_name": "Maria Violaris"
+    },
+    {
+      "entity_id": "person_mark_bailey",
+      "canonical_name": "Mark Bailey"
+    },
+    {
+      "entity_id": "person_martin_willis",
+      "canonical_name": "Martin Willis"
+    },
+    {
+      "entity_id": "person_matt_o_dowd",
+      "canonical_name": "Matt O'Dowd"
+    },
+    {
+      "entity_id": "person_matthew_segall",
+      "canonical_name": "Matthew Segall"
+    },
+    {
+      "entity_id": "person_matthew_widen",
+      "canonical_name": "Matthew Widen"
+    },
+    {
+      "entity_id": "person_matthieu_pageau",
+      "canonical_name": "Matthieu Pageau"
+    },
+    {
+      "entity_id": "person_merel_kindt",
+      "canonical_name": "Merel Kindt"
+    },
+    {
+      "entity_id": "person_michael_lynch",
+      "canonical_name": "Michael Lynch"
+    },
+    {
+      "entity_id": "person_mick_west",
+      "canonical_name": "Mick West"
+    },
+    {
+      "entity_id": "person_mithuna_yoganathan",
+      "canonical_name": "Mithuna Yoganathan"
+    },
+    {
+      "entity_id": "person_nathan_myhrvold",
+      "canonical_name": "Nathan Myhrvold"
+    },
+    {
+      "entity_id": "person_nathaniel_kahn",
+      "canonical_name": "Nathaniel Kahn"
+    },
+    {
+      "entity_id": "person_neil_degrasse_tyson",
+      "canonical_name": "Neil deGrasse Tyson"
+    },
+    {
+      "entity_id": "person_nicolas_gisin",
+      "canonical_name": "Nicolas Gisin"
+    },
+    {
+      "entity_id": "person_noam_chomsky",
+      "canonical_name": "Noam Chomsky"
+    },
+    {
+      "entity_id": "person_norman_wildberger",
+      "canonical_name": "Norman Wildberger"
+    },
+    {
+      "entity_id": "person_parker",
+      "canonical_name": "Parker"
+    },
+    {
+      "entity_id": "person_paul_vanderklay",
+      "canonical_name": "Paul Vanderklay"
+    },
+    {
+      "entity_id": "person_peter_gray",
+      "canonical_name": "Peter Gray"
+    },
+    {
+      "entity_id": "person_peter_woit",
+      "canonical_name": "Peter Woit"
+    },
+    {
+      "entity_id": "person_philip_goff",
+      "canonical_name": "Philip Goff"
+    },
+    {
+      "entity_id": "person_raphael_liogier",
+      "canonical_name": "Raphael Liogier"
+    },
+    {
+      "entity_id": "person_rebecca_goldstein",
+      "canonical_name": "Rebecca Goldstein"
+    },
+    {
+      "entity_id": "person_richard_borcherds",
+      "canonical_name": "Richard Borcherds"
+    },
+    {
+      "entity_id": "person_richard_dolan",
+      "canonical_name": "Richard Dolan"
+    },
+    {
+      "entity_id": "person_richard_haier",
+      "canonical_name": "Richard Haier"
+    },
+    {
+      "entity_id": "person_richard_wolff",
+      "canonical_name": "Richard Wolff"
+    },
+    {
+      "entity_id": "person_rob_spekkens",
+      "canonical_name": "Rob Spekkens"
+    },
+    {
+      "entity_id": "person_robert_breedlove",
+      "canonical_name": "Robert Breedlove"
+    },
+    {
+      "entity_id": "person_robert_lawrence_kuhn",
+      "canonical_name": "Robert Lawrence Kuhn"
+    },
+    {
+      "entity_id": "person_robert_sapolsky",
+      "canonical_name": "Robert Sapolsky"
+    },
+    {
+      "entity_id": "person_robin_hanson",
+      "canonical_name": "Robin Hanson"
+    },
+    {
+      "entity_id": "person_roman_yampolskiy",
+      "canonical_name": "Roman Yampolskiy"
+    },
+    {
+      "entity_id": "person_ross_coulthart",
+      "canonical_name": "Ross Coulthart"
+    },
+    {
+      "entity_id": "person_roy_baumeister",
+      "canonical_name": "Roy Baumeister"
+    },
+    {
+      "entity_id": "person_rupert_spira",
+      "canonical_name": "Rupert Spira"
+    },
+    {
+      "entity_id": "person_ruth_kastner",
+      "canonical_name": "Ruth Kastner"
+    },
+    {
+      "entity_id": "person_sabine_hossenfelder",
+      "canonical_name": "Sabine Hossenfelder"
+    },
+    {
+      "entity_id": "person_salvatore_pais",
+      "canonical_name": "Salvatore Pais"
+    },
+    {
+      "entity_id": "person_sam_vaknin",
+      "canonical_name": "Sam Vaknin"
+    },
+    {
+      "entity_id": "person_sara_walker",
+      "canonical_name": "Sara Walker"
+    },
+    {
+      "entity_id": "person_sean_cahill",
+      "canonical_name": "Sean Cahill"
+    },
+    {
+      "entity_id": "person_sean_carroll",
+      "canonical_name": "Sean Carroll"
+    },
+    {
+      "entity_id": "person_slavoj_zizek",
+      "canonical_name": "Slavoj Zizek"
+    },
+    {
+      "entity_id": "person_stephon_alexander",
+      "canonical_name": "Stephon Alexander"
+    },
+    {
+      "entity_id": "person_steven_greer",
+      "canonical_name": "Steven Greer"
+    },
+    {
+      "entity_id": "person_steven_gubka",
+      "canonical_name": "Steven Gubka"
+    },
+    {
+      "entity_id": "person_steven_pinker",
+      "canonical_name": "Steven Pinker"
+    },
+    {
+      "entity_id": "person_susan_blackmore",
+      "canonical_name": "Susan Blackmore"
+    },
+    {
+      "entity_id": "person_susan_schneider",
+      "canonical_name": "Susan Schneider"
+    },
+    {
+      "entity_id": "person_tammy_peterson",
+      "canonical_name": "Tammy Peterson"
+    },
+    {
+      "entity_id": "person_terrence_deacon",
+      "canonical_name": "Terrence Deacon"
+    },
+    {
+      "entity_id": "person_tevin",
+      "canonical_name": "Tevin"
+    },
+    {
+      "entity_id": "person_thomas_campbell",
+      "canonical_name": "Thomas Campbell"
+    },
+    {
+      "entity_id": "person_thomas_pike",
+      "canonical_name": "Thomas Pike"
+    },
+    {
+      "entity_id": "person_timothy_williamson",
+      "canonical_name": "Timothy Williamson"
+    },
+    {
+      "entity_id": "person_tom_delonge",
+      "canonical_name": "Tom DeLonge"
+    },
+    {
+      "entity_id": "person_travis_walton",
+      "canonical_name": "Travis Walton"
+    },
+    {
+      "entity_id": "person_tyler_cowen",
+      "canonical_name": "Tyler Cowen"
+    },
+    {
+      "entity_id": "person_wolfgang_smith",
+      "canonical_name": "Wolfgang Smith"
+    },
+    {
+      "entity_id": "person_yang_hui_he",
+      "canonical_name": "Yang-Hui He"
+    },
+    {
+      "entity_id": "person_zubin_damania",
+      "canonical_name": "Zubin Damania"
+    }
+  ],
+  "administrative_resolution_records": [
+    {
+      "source_batch": "native_source_cards_batch_e.json",
+      "unit_id": "identity:person_anand_vaidya",
+      "identity_or_format_resolution": "Anand Jayprakash Vaidya, comparative philosopher and epistemologist",
+      "resolution_state": "SOURCE_NATIVE_PROGRAMS_SPLIT",
+      "card_ids": [
+        "vaidya_comparative_vedanta_consciousness",
+        "vaidya_modal_epistemic_friction_and_logical_pluralism"
+      ],
+      "evidence": [
+        "channel_intake_v0_3.json#rss_index=196",
+        "channel_intake_v0_3.json#rss_index=206"
+      ],
+      "ranking_eligible": false,
+      "administrative_unit": "identity:person_anand_vaidya"
+    },
+    {
+      "source_batch": "native_source_cards_batch_e.json",
+      "unit_id": "identity:person_john_greenewald",
+      "identity_or_format_resolution": "John Greenewald Jr.; FOIA researcher and operator of The Black Vault document archive",
+      "resolution_state": "NON_SCIENTIFIC_CONTEXT",
+      "evidence": [
+        "channel_intake_v0_3.json#rss_index=215",
+        "https://www.theblackvault.com/"
+      ],
+      "notes": "The source-resolved contribution is evidence acquisition, provenance, and government-record archiving, not a distinct physical or metaphysical model. Retain as a possible evidence-audit tooling donor; do not score absence of a model as scientific weakness.",
+      "ranking_eligible": false,
+      "administrative_unit": "identity:person_john_greenewald"
+    },
+    {
+      "source_batch": "native_source_cards_batch_e.json",
+      "unit_id": "identity:person_wayne_myrvold",
+      "identity_or_format_resolution": "Wayne Myrvold; philosopher of physics",
+      "resolution_state": "CROSS_REFERENCED_EXISTING_CARD",
+      "cross_reference": {
+        "file": "native_source_cards_batch_d.json",
+        "program_id": "myrvold_operational_thermodynamics"
+      },
+      "evidence": [
+        "channel_intake_v0_3.json#rss_index=44"
+      ],
+      "ranking_eligible": false,
+      "administrative_unit": "identity:person_wayne_myrvold"
+    },
+    {
+      "source_batch": "native_source_cards_batch_e.json",
+      "unit_id": "residual:prefix_curt_jaimungal_reads_plato_s_cave",
+      "identity_or_format_resolution": "Host-only reading/exposition format; no guest identity to resolve",
+      "resolution_state": "RESIDUAL_FORMAT",
+      "evidence": [
+        "channel_intake_v0_3.json#intake_group_id=prefix_curt_jaimungal_reads_plato_s_cave",
+        "https://www.youtube.com/watch?v=PurNlwnxwfY"
+      ],
+      "notes": "Plato's allegory can be added later as a historical philosophical source if a declared comparison question requires it; this feed item is not itself a guest program.",
+      "ranking_eligible": false,
+      "administrative_unit": "residual:prefix_curt_jaimungal_reads_plato_s_cave"
+    },
+    {
+      "source_batch": "native_source_cards_batch_e.json",
+      "unit_id": "identity:person_william_hahn",
+      "identity_or_format_resolution": "William Edward Hahn, PhD; FAU Machine Perception and Cognitive Robotics researcher",
+      "resolution_state": "SOURCE_NATIVE_PROGRAM_SPLIT_FROM_CHANNEL_SPECULATION",
+      "card_ids": [
+        "hahn_bioinspired_modular_learning_and_embodied_agents"
+      ],
+      "evidence": [
+        "channel_intake_v0_3.json#rss_index=55",
+        "channel_intake_v0_3.json#rss_index=79",
+        "channel_intake_v0_3.json#rss_index=89",
+        "channel_intake_v0_3.json#rss_index=113",
+        "https://will.hahn.ai/"
+      ],
+      "ranking_eligible": false,
+      "administrative_unit": "identity:person_william_hahn"
+    },
+    {
+      "source_batch": "native_source_cards_batch_e.json",
+      "unit_id": "identity:person_ross_coulthart",
+      "identity_or_format_resolution": "Ross Coulthart; investigative journalist and UAP author/interviewer",
+      "resolution_state": "NON_SCIENTIFIC_CONTEXT",
+      "evidence": [
+        "channel_intake_v0_3.json#rss_index=212",
+        "channel_intake_v0_3.json#rss_index=295",
+        "https://www.rosscoulthart.com/"
+      ],
+      "notes": "The appearances concern testimony, documents, and disclosure claims rather than a source-native scientific model. Any later use belongs in an evidence-provenance lane with claim-by-claim corroboration, not in a model ranking.",
+      "ranking_eligible": false,
+      "administrative_unit": "identity:person_ross_coulthart"
+    },
+    {
+      "source_batch": "native_source_cards_batch_e.json",
+      "unit_id": "identity:person_latham_boyle",
+      "identity_or_format_resolution": "Latham Boyle; theoretical physicist",
+      "resolution_state": "CROSS_REFERENCED_EXISTING_CARD",
+      "cross_reference": {
+        "file": "native_source_cards_batch_d.json",
+        "program_id": "turok_cpt_symmetric_universe"
+      },
+      "evidence": [
+        "channel_intake_v0_3.json#rss_index=119"
+      ],
+      "notes": "The card is contributor- and version-specific; it does not treat all Boyle or Turok work as one program.",
+      "ranking_eligible": false,
+      "administrative_unit": "identity:person_latham_boyle"
+    },
+    {
+      "source_batch": "native_source_cards_batch_e.json",
+      "unit_id": "identity:person_eric_weinstein",
+      "identity_or_format_resolution": "Eric Weinstein; Geometric Unity proposer and public commentator",
+      "resolution_state": "CROSS_REFERENCE_PENDING_BATCH_B_FINALIZATION",
+      "cross_reference": {
+        "file": "native_source_cards_batch_b.json",
+        "program_hint": "Geometric Unity"
+      },
+      "evidence": [
+        "channel_intake_v0_3.json#rss_index=65",
+        "channel_intake_v0_3.json#rss_index=261",
+        "channel_intake_v0_3.json#rss_index=352"
+      ],
+      "notes": "The UAP panel appearance is a separate non-model context and must not be merged into the Geometric Unity program card.",
+      "ranking_eligible": false,
+      "administrative_unit": "identity:person_eric_weinstein"
+    },
+    {
+      "source_batch": "native_source_cards_batch_e.json",
+      "unit_id": "identity:person_douglas_lain",
+      "identity_or_format_resolution": "Douglas Lain; novelist, editor, and left/critical-theory media producer",
+      "resolution_state": "NON_SCIENTIFIC_CONTEXT",
+      "evidence": [
+        "channel_intake_v0_3.json#rss_index=350",
+        "https://sublationmedia.com/about-us/"
+      ],
+      "notes": "The appearance compares Marxism, revolution, and Christianity. It may furnish ideological or social-theory critique, but no distinct executable scientific model relevant to the present campaign was located.",
+      "ranking_eligible": false,
+      "administrative_unit": "identity:person_douglas_lain"
+    },
+    {
+      "source_batch": "native_source_cards_batch_e.json",
+      "unit_id": "identity:person_renato_renner",
+      "identity_or_format_resolution": "Renato Renner; quantum-information theorist",
+      "resolution_state": "CROSS_REFERENCED_EXISTING_CARD",
+      "cross_reference": {
+        "file": "native_source_cards_batch_d.json",
+        "program_id": "frauchiger_renner_self_reference_no_go"
+      },
+      "evidence": [
+        "channel_intake_v0_3.json#rss_index=18"
+      ],
+      "ranking_eligible": false,
+      "administrative_unit": "identity:person_renato_renner"
+    },
+    {
+      "source_batch": "native_source_cards_batch_e.json",
+      "unit_id": "identity:person_marwa",
+      "identity_or_format_resolution": "Marwa ElDiwiny; soft-robotics researcher and creator/host of the Soft Robotics podcast",
+      "resolution_state": "IDENTITY_RESOLVED_TECHNICAL_PROGRAM_SEPARATED_FROM_CHANNEL_CONTEXT",
+      "card_ids": [
+        "eldiwiny_soft_robotics_morphological_computation"
+      ],
+      "evidence": [
+        "channel_intake_v0_3.json#rss_index=176",
+        "https://www.youtube.com/@marwaeldiwiny"
+      ],
+      "ranking_eligible": false,
+      "administrative_unit": "identity:person_marwa"
+    },
+    {
+      "source_batch": "native_source_cards_batch_e.json",
+      "unit_id": "identity:person_aephraim_steinberg",
+      "identity_or_format_resolution": "Aephraim M. Steinberg; experimental quantum physicist",
+      "resolution_state": "SOURCE_NATIVE_PROGRAM_RESOLVED",
+      "card_ids": [
+        "steinberg_operational_quantum_duration"
+      ],
+      "evidence": [
+        "channel_intake_v0_3.json#rss_index=14"
+      ],
+      "ranking_eligible": false,
+      "administrative_unit": "identity:person_aephraim_steinberg"
+    },
+    {
+      "source_batch": "native_source_cards_batch_e.json",
+      "unit_id": "identity:person_rupert_sheldrake",
+      "identity_or_format_resolution": "Rupert Sheldrake; morphic-resonance and anomalous-cognition claimant",
+      "resolution_state": "CROSS_REFERENCE_PENDING_BATCH_B_FINALIZATION",
+      "cross_reference": {
+        "file": "native_source_cards_batch_b.json",
+        "program_hint": "Morphic resonance and telepathy claims"
+      },
+      "evidence": [
+        "channel_intake_v0_3.json#rss_index=110",
+        "channel_intake_v0_3.json#rss_index=342"
+      ],
+      "notes": "Keep this program separate from Chris Langan and Thomas Campbell despite the older registry grouping.",
+      "ranking_eligible": false,
+      "administrative_unit": "identity:person_rupert_sheldrake"
+    },
+    {
+      "source_batch": "native_source_cards_batch_e.json",
+      "unit_id": "identity:person_vitaly_vanchurin",
+      "identity_or_format_resolution": "Vitaly Vanchurin; theoretical physicist",
+      "resolution_state": "SOURCE_NATIVE_PROGRAM_RESOLVED",
+      "card_ids": [
+        "vanchurin_world_as_neural_network"
+      ],
+      "evidence": [
+        "channel_intake_v0_3.json#rss_index=28"
+      ],
+      "ranking_eligible": false,
+      "administrative_unit": "identity:person_vitaly_vanchurin"
+    },
+    {
+      "source_batch": "native_source_cards_batch_e.json",
+      "unit_id": "identity:person_chiara_marletto",
+      "identity_or_format_resolution": "Chiara Marletto; constructor-theory and quantum-information physicist",
+      "resolution_state": "SOURCE_NATIVE_PROGRAMS_SPLIT",
+      "card_ids": [
+        "marletto_constructor_theory",
+        "marletto_vedral_gravity_entanglement_witness"
+      ],
+      "evidence": [
+        "channel_intake_v0_3.json#rss_index=108",
+        "channel_intake_v0_3.json#rss_index=184"
+      ],
+      "ranking_eligible": false,
+      "administrative_unit": "identity:person_chiara_marletto"
+    },
+    {
+      "source_batch": "native_source_cards_batch_f.json",
+      "administrative_unit": "identity:person_john_donoghue",
+      "canonical_name": "John Donoghue",
+      "disposition": "CROSS_REFERENCE_EXISTING_CARD",
+      "evidence": "Channel episode: 'John Donoghue: We Have Already Quantized Gravity (And It Works)'.",
+      "card_reference": "native_source_cards_batch_b.json#donoghue_eft_gravity",
+      "note": "No duplicate created."
+    },
+    {
+      "source_batch": "native_source_cards_batch_f.json",
+      "administrative_unit": "identity:person_iain_mcgilchrist",
+      "canonical_name": "Iain McGilchrist",
+      "disposition": "PROGRAM_CARD_CREATED",
+      "evidence": "Three linked channel groups concern the divided brain, limits of reason/language, and meaning; source-native books confirm a distinct hemisphere-attention program.",
+      "card_reference": "mcgilchrist_hemisphere_attention_hypothesis"
+    },
+    {
+      "source_batch": "native_source_cards_batch_f.json",
+      "administrative_unit": "identity:person_neil_turok",
+      "canonical_name": "Neil Turok",
+      "disposition": "CROSS_REFERENCE_EXISTING_CARD_PARTIAL",
+      "evidence": "Five channel episodes span CPT-symmetric cosmology, black-hole interiors and routes to quantum gravity.",
+      "card_reference": "native_source_cards_batch_d.json#turok_cpt_symmetric_universe",
+      "note": "The existing CPT card is not a proxy for all Turok programs; black-hole and other quantum-gravity versions still require separate source packets."
+    },
+    {
+      "source_batch": "native_source_cards_batch_f.json",
+      "administrative_unit": "residual:prefix_curt_jaimungal",
+      "canonical_name": null,
+      "disposition": "RESIDUAL_FORMAT",
+      "evidence": "A 25-episode host-prefix group mixes explainers, documentaries and host-only reflections across unrelated subjects.",
+      "note": "It is not one person-to-program unit and must be decomposed episode-by-episode if the host's original technical programs are later assessed."
+    },
+    {
+      "source_batch": "native_source_cards_batch_f.json",
+      "administrative_unit": "identity:person_joscha_bach",
+      "canonical_name": "Joscha Bach",
+      "disposition": "PROGRAM_CARD_CREATED",
+      "evidence": "Six linked groups discuss computation, consciousness, AI, Friston and Levin; authored dissertation and public implementation identify MicroPsi as a distinct executable program.",
+      "card_reference": "bach_micropsi_motivated_cognition"
+    },
+    {
+      "source_batch": "native_source_cards_batch_f.json",
+      "administrative_unit": "identity:person_roman_yampolskiy",
+      "canonical_name": "Roman Yampolskiy",
+      "disposition": "PROGRAM_CARD_CREATED",
+      "evidence": "The channel episode concerns AI consciousness, simulation and inability to win; authored papers support a narrower, distinct AI predictability/control-limits program.",
+      "card_reference": "yampolskiy_ai_control_limits"
+    },
+    {
+      "source_batch": "native_source_cards_batch_f.json",
+      "administrative_unit": "identity:person_claudia_de_rham",
+      "canonical_name": "Claudia de Rham",
+      "disposition": "PROGRAM_CARD_CREATED",
+      "evidence": "Two gravity episodes and the dRGT primary literature identify a distinct ghost-free massive-gravity program.",
+      "card_reference": "derham_dRGT_massive_gravity"
+    },
+    {
+      "source_batch": "native_source_cards_batch_f.json",
+      "administrative_unit": "identity:person_tevin",
+      "canonical_name": "Tevin",
+      "disposition": "NO_DISTINCT_RELEVANT_PROGRAM_LOCATED",
+      "evidence": "Only linked title: 'Tevin and Curt Jaimungal: Consciousness, Podcasting, and UFOs'; surname and source-native research identity are unresolved.",
+      "note": "Do not infer a model from a one-name title."
+    },
+    {
+      "source_batch": "native_source_cards_batch_f.json",
+      "administrative_unit": "identity:person_jonathan_gorard",
+      "canonical_name": "Jonathan Gorard",
+      "disposition": "PROGRAM_CARD_CREATED",
+      "evidence": "The channel episode explicitly concerns quantum gravity in the Wolfram Physics Project; authored papers identify a distinct hypergraph-rewriting and computational-GR program.",
+      "card_reference": "gorard_wolfram_hypergraph_gravity"
+    },
+    {
+      "source_batch": "native_source_cards_batch_f.json",
+      "administrative_unit": "identity:person_michael_lynch",
+      "canonical_name": "Michael Patrick Lynch",
+      "disposition": "PROGRAM_CARD_CREATED",
+      "evidence": "The RSS description concerns epistemic shock, truth-seeking and AGI ethics; Lynch's official UConn page confirms work on truth and the ethics/epistemology of technology and current concern with AI undermining understanding.",
+      "card_reference": "lynch_epistemic_agency_under_ai"
+    },
+    {
+      "source_batch": "native_source_cards_batch_f.json",
+      "administrative_unit": "identity:person_leo_gura",
+      "canonical_name": "Leo Gura",
+      "disposition": "NONTECHNICAL_CONTEXT",
+      "evidence": "Linked titles concern ego death, God, dream reality, infinite consciousness and free will; this batch located no source-native formal or empirical program meeting the campaign contract.",
+      "note": "This is a scope classification, not a ranking of the person or worldview."
+    },
+    {
+      "source_batch": "native_source_cards_batch_f.json",
+      "administrative_unit": "identity:person_stuart_kauffman",
+      "canonical_name": "Stuart Kauffman",
+      "disposition": "CROSS_REFERENCE_EXISTING_CARD",
+      "evidence": "Channel episode: 'Stuart Kauffman: There Is No Theory of Everything'.",
+      "card_reference": "native_source_cards_batch_b.json#kauffman_open_ended_evolution",
+      "note": "Existing card already separates philosophical unprestatability from executable catalytic and adjacent-possible models."
+    },
+    {
+      "source_batch": "native_source_cards_batch_f.json",
+      "administrative_unit": "identity:person_paul_vanderklay",
+      "canonical_name": "Paul Vanderklay",
+      "disposition": "NONTECHNICAL_CONTEXT",
+      "evidence": "Only linked title concerns meaning, God and Sam Harris; no distinct source-native technical model was located for the current comparison surfaces.",
+      "note": "Theological relevance can be revisited under a separately defined philosophical packet."
+    },
+    {
+      "source_batch": "native_source_cards_batch_f.json",
+      "administrative_unit": "identity:person_les_stroud",
+      "canonical_name": "Les Stroud",
+      "disposition": "NONTECHNICAL_CONTEXT",
+      "evidence": "Only linked title concerns Bigfoot, orbs and wilderness anomalies; no distinct source-native technical program was located for this campaign.",
+      "note": "Testimony or anomaly reports would require a different evidence contract."
+    },
+    {
+      "source_batch": "native_source_cards_batch_f.json",
+      "administrative_unit": "identity:person_jonathan_oppenheim",
+      "canonical_name": "Jonathan Oppenheim",
+      "disposition": "CROSS_REFERENCE_EXISTING_CARD",
+      "evidence": "Two linked episodes concern a classical-gravity alternative to quantization.",
+      "card_reference": "native_source_cards_batch_c.json#post_quantum_classical_gravity",
+      "note": "No duplicate created."
+    },
+    {
+      "source_batch": "native_source_cards_batch_g.json",
+      "administrative_unit": "identity:person_edward_frenkel",
+      "canonical_name": "Edward Frenkel",
+      "disposition": "CROSS_REFERENCE_EXISTING_CARD",
+      "evidence": "Three linked episodes concern the Langlands program, mathematical proof and metaphysical extrapolation; the existing card already separates exact geometric/quantum Langlands work from ToE rhetoric.",
+      "card_reference": "native_source_cards_batch_d.json#frenkel_quantum_geometric_langlands",
+      "note": "No duplicate created; personal or death/self discussion is not promoted into a second scientific program."
+    },
+    {
+      "source_batch": "native_source_cards_batch_g.json",
+      "administrative_unit": "identity:person_jacques_vallee",
+      "canonical_name": "Jacques Vall\u00e9e",
+      "disposition": "CONTEXT_ONLY_ANOMALY_RESEARCH",
+      "evidence": "The linked episode concerns UFO phenomena with Kevin Knuth. Vall\u00e9e has source-native anomaly-taxonomy and anti-ETH arguments, and coauthored a 2025 survey of UAP research, but this batch found no locked mechanism or common evidence packet bearing directly on Joshua's current model surfaces.",
+      "authoritative_sources": [
+        "https://arxiv.org/abs/2502.06794",
+        "https://www.scientificexploration.org/docs/4/jse_04_1_vallee_2.pdf"
+      ],
+      "note": "This is a scope disposition, not a negative score. Reopen under an anomaly-data packet with provenance, sensor likelihoods and explicit rival hypotheses."
+    },
+    {
+      "source_batch": "native_source_cards_batch_g.json",
+      "administrative_unit": "identity:person_hartmut_neven",
+      "canonical_name": "Hartmut Neven",
+      "disposition": "PROGRAM_CARD_CREATED",
+      "evidence": "Although the linked title foregrounds conscious superpositions, Neven's authored primary record supports a distinct experimental quantum-computing program; the consciousness claim is excluded.",
+      "card_reference": "neven_google_quantum_ai_experimental_roadmap"
+    },
+    {
+      "source_batch": "native_source_cards_batch_g.json",
+      "administrative_unit": "residual:prefix_ciis_and_curt_jaimungal",
+      "canonical_name": null,
+      "disposition": "RESIDUAL_FORMAT",
+      "evidence": "The title 'CIIS and Curt Jaimungal: Consciousness, Spacetime, and the Limits of Science' combines an institution acronym and host rather than identifying a source-native program contributor.",
+      "note": "Resolve the underlying event participants before creating any person-to-program edge."
+    },
+    {
+      "source_batch": "native_source_cards_batch_g.json",
+      "administrative_unit": "identity:person_diana_pasulka",
+      "canonical_name": "Diana Walsh Pasulka",
+      "disposition": "CONTEXT_ONLY_RELIGIOUS_STUDIES",
+      "evidence": "The linked episode concerns religion, atheism and Heidegger. Pasulka's authored program is historical and ethnographic study of religion, technology and UFO belief, not a formal consciousness, physics or cosmogenesis model under this campaign contract.",
+      "authoritative_sources": [
+        "https://global.oup.com/academic/product/american-cosmic-9780190692889",
+        "https://uncw.edu/academics/colleges/chssa/departments/philosophy-religion/about/faculty-staff/pasulka-diana.html"
+      ],
+      "note": "Potential donor for sociology of belief and model uptake; not ranking-eligible as a physical model."
+    },
+    {
+      "source_batch": "native_source_cards_batch_g.json",
+      "administrative_unit": "identity:person_garrett_lisi",
+      "canonical_name": "A. Garrett Lisi",
+      "disposition": "PROGRAM_CARD_CREATED",
+      "evidence": "The linked episode explicitly concerns E8 unification; authored papers and a primary representation-theoretic no-go define a distinct, sharply testable program packet.",
+      "card_reference": "lisi_e8_exceptional_unification"
+    },
+    {
+      "source_batch": "native_source_cards_batch_g.json",
+      "administrative_unit": "identity:person_nir_lahav",
+      "canonical_name": "Nir Lahav",
+      "disposition": "PROGRAM_CARD_CREATED",
+      "evidence": "The linked episode asks whether consciousness follows rules of relativity; Lahav and Neemeh's paper identifies a distinct observer-relative consciousness hypothesis.",
+      "card_reference": "lahav_neemeh_relativistic_consciousness"
+    },
+    {
+      "source_batch": "native_source_cards_batch_g.json",
+      "administrative_unit": "identity:person_rupert_spira",
+      "canonical_name": "Rupert Spira",
+      "disposition": "CONTEXT_ONLY_NONDUAL_TEACHING",
+      "evidence": "The linked episode concerns non-duality, God and death. Spira's official presentation is a contemplative Direct Path/non-dual teaching, not a source-native formal or empirical program meeting the campaign's common comparison contract.",
+      "authoritative_sources": [
+        "https://rupertspira.com/non-duality",
+        "https://rupertspira.com/store/the-nature-of-consciousness"
+      ],
+      "note": "Philosophical comparison may be reopened under a separately defined phenomenology packet; this is not a worldview score."
+    },
+    {
+      "source_batch": "native_source_cards_batch_g.json",
+      "administrative_unit": "identity:person_ted_jacobson",
+      "canonical_name": "Ted Jacobson",
+      "disposition": "CROSS_REFERENCE_EXISTING_CARD",
+      "evidence": "The linked episode concerns gravity as entropy; the existing card covers the 1995 local-horizon thermodynamic derivation and separates later entanglement-equilibrium work.",
+      "card_reference": "native_source_cards_batch_d.json#jacobson_spacetime_thermodynamics",
+      "note": "No duplicate created."
+    },
+    {
+      "source_batch": "native_source_cards_batch_g.json",
+      "administrative_unit": "identity:person_david_wolpert",
+      "canonical_name": "David H. Wolpert",
+      "disposition": "PROGRAM_CARD_CREATED",
+      "evidence": "Two linked episodes concern the monotheism theorem, uncaused causation and absolute scientific limits; the source-native inference-device theorems define a distinct formal impossibility program.",
+      "card_reference": "wolpert_physical_inference_limits"
+    },
+    {
+      "source_batch": "native_source_cards_batch_g.json",
+      "administrative_unit": "identity:person_karl_friston",
+      "canonical_name": "Karl Friston",
+      "disposition": "CROSS_REFERENCE_EXISTING_CARD",
+      "evidence": "Five linked groups span the Free Energy Principle, active inference, consciousness and collaborations with Levin and Fields. The existing card already separates Bayesian mechanics, active inference and descendant versions.",
+      "card_reference": "native_source_cards_batch_b.json#friston_fep",
+      "note": "The separate Fields/Friston quantum-reference-frame collaboration remains native_source_cards_batch_b.json#fields_observer_quantum_information; no monolithic Friston card is created."
+    },
+    {
+      "source_batch": "native_source_cards_batch_g.json",
+      "administrative_unit": "identity:person_gen_zed",
+      "canonical_name": "Gen Zed",
+      "disposition": "NO_DISTINCT_RELEVANT_PROGRAM_LOCATED",
+      "evidence": "The only linked item is 'Gen Zed and Curt Jaimungal: Simulation Hypothesis and Consciousness'; the feed supplies only a one-name identity and channel link, and this batch located no authored technical paper, executable model or stable source-native program to assess.",
+      "authoritative_sources": [
+        "https://www.youtube.com/channel/UCNbNFrynC573bQnjaefYYZg"
+      ],
+      "note": "Do not infer a model from an episode theme or unresolved public identity."
+    },
+    {
+      "source_batch": "native_source_cards_batch_g.json",
+      "administrative_unit": "identity:person_james_robert_brown",
+      "canonical_name": "James Robert Brown",
+      "disposition": "CONTEXT_ONLY_PHILOSOPHY_OF_MATHEMATICS",
+      "evidence": "The linked episode concerns thought experiments and mathematical reality. Brown's authored work defends thought experiments and mathematical Platonism; it is a relevant methodological critic but not an executable world-model or common-packet competitor.",
+      "authoritative_sources": [
+        "https://www.routledge.com/The-Laboratory-of-the-Mind-Thought-Experiments-in-the-Natural-Sciences/Brown/p/book/9780415596053"
+      ],
+      "note": "Reopen as a critic packet asking whether Joshua's mathematics is discovered, stipulated or empirically constrained; do not rank the philosophy as a physical model."
+    },
+    {
+      "source_batch": "native_source_cards_batch_g.json",
+      "administrative_unit": "identity:person_jennifer_nagel",
+      "canonical_name": "Jennifer Nagel",
+      "disposition": "CONTEXT_ONLY_EPISTEMOLOGY",
+      "evidence": "The linked episode concerns self-defeating universal skepticism. Nagel's source-native work concerns knowledge, epistemic intuitions and recognition of knowledge, which bears on evaluator discipline but is not a technical ToE, dynamics or consciousness mechanism.",
+      "authoritative_sources": [
+        "https://jennifernagel.net/",
+        "https://www.philosophy.ox.ac.uk/john-locke-lectures"
+      ],
+      "note": "Use as an epistemic-critique donor for receipts and claim ceilings; no model ranking is appropriate."
+    },
+    {
+      "source_batch": "native_source_cards_batch_g.json",
+      "administrative_unit": "identity:person_jeffrey_mishlove",
+      "canonical_name": "Jeffrey Mishlove",
+      "disposition": "CONTEXT_ONLY_PARAPSYCHOLOGY_MEDIA_AND_CLAIMS",
+      "evidence": "The linked episode concerns controlled studies of remote viewing and psi. Mishlove is the New Thinking Allowed host and advocate; this batch found no distinct Mishlove-authored predictive mechanism suitable for Joshua's present common evidence packet.",
+      "authoritative_sources": [
+        "https://www.newthinkingallowed.org/jeffrey-mishlove.html"
+      ],
+      "note": "Psi experiments, protocols and meta-analyses would need study-level cards with preregistration, blinding, leakage controls and independent replication; they should not be collapsed into a person score."
+    }
+  ]
+}

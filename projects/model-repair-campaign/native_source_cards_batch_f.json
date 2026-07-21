@@ -1,0 +1,387 @@
+{
+  "schema_version": "native-source-cards/0.1",
+  "status": "ADMINISTRATIVE_BATCH_COMPLETE_SOURCE_NATIVE_UNRANKED",
+  "administrative_batch": {
+    "batch_id": "batch_02",
+    "method": "PUBLIC_HASH_ORDER_ROUND_ROBIN_WITH_ONE_RESIDUAL_UNIT_PER_BATCH",
+    "scientific_priority": null,
+    "unit_count": 15,
+    "cards_created": 6,
+    "existing_card_cross_references": 4,
+    "nontechnical_or_no_distinct_program": 4,
+    "residual_format_units": 1,
+    "people_are_ranked": false,
+    "ranking_eligible_programs": 0
+  },
+  "cards": [
+    {
+      "program_id": "mcgilchrist_hemisphere_attention_hypothesis",
+      "program_name": "Hemispheric modes of attention and their epistemic consequences",
+      "program_version": "MASTER_AND_EMISSARY_SECOND_EDITION_2019_PLUS_MATTER_WITH_THINGS_2021__NEUROSCIENCE_AND_METAPHYSICAL_EXTRAPOLATIONS_SEPARATED",
+      "program_kind": "EMPIRICAL_SYNTHESIS_WITH_PHILOSOPHICAL_EXTENSION",
+      "contributors": [
+        "Iain McGilchrist"
+      ],
+      "primary_sources": [
+        {
+          "title": "The Master and His Emissary: The Divided Brain and the Making of the Western World, second edition",
+          "url": "https://yalebooks.yale.edu/book/9780300245929/the-master-and-his-emissary/"
+        },
+        {
+          "title": "The Matter with Things: Our Brains, Our Delusions, and the Unmaking of the World",
+          "url": "https://channelmcgilchrist.com/the-matter-with-things/"
+        }
+      ],
+      "native": {
+        "claim": "The hemispheres differ less by a simple inventory of tasks than by styles of attention: relatively narrow, explicit, decontextualizing and manipulable apprehension versus relatively broad, embodied, contextual and relational apprehension. The later cultural and metaphysical thesis extends this asymmetry beyond neuroscience and must be assessed separately.",
+        "strongest_result": "A large source synthesis organizes lateralization, lesion and clinical observations around an attention-style hypothesis. It is not an authored randomized experiment, theorem, or executable cognitive model, and it does not by itself establish the historical or consciousness-first metaphysics.",
+        "limits": [
+          "Most cognitive functions recruit distributed bilateral networks; the hypothesis is not a binary task map.",
+          "The move from neurological asymmetries to epochs of cultural history and fundamental ontology is underdetermined by the neural evidence.",
+          "The books do not predeclare effect sizes, a generative likelihood, or a compact intervention benchmark for the whole thesis."
+        ]
+      },
+      "joshua_crosswalk": {
+        "surface_ids": [
+          "fep_perception_consciousness_and_holodeck",
+          "qit_engines_and_recursive_construction",
+          "object_individual_boundary_and_observer"
+        ],
+        "offers": "A disciplined warning that changing an observer's attentional policy can change the usable world-model, plus candidate broad-context and narrow-manipulation functions for an engine benchmark.",
+        "hypothesis_only": "Joshua's paired-engine target might generate complementary global-context and local-articulation policies without hard-coding left/right anatomy. No derivation or neural mapping currently exists."
+      },
+      "decisive_test": "Preregister a battery that separates attentional breadth, contextual integration, novelty response and local manipulation; test lesion, split-brain or perturbational predictions against bilateral-network and task-complexity controls. A Joshua comparison must predict held-out asymmetries or intervention responses beyond a generic two-policy attention model; metaphorical correspondence is failure.",
+      "ranking_eligible": false
+    },
+    {
+      "program_id": "bach_micropsi_motivated_cognition",
+      "program_name": "MicroPsi architecture of motivated cognition",
+      "program_version": "MICROPSI_DISSERTATION_2007_PLUS_MICROPSI2_IMPLEMENTATION__PUBLIC_CONSCIOUSNESS_CLAIMS_NOT_ASSUMED",
+      "program_kind": "EXECUTABLE_COGNITIVE_ARCHITECTURE",
+      "contributors": [
+        "Joscha Bach"
+      ],
+      "primary_sources": [
+        {
+          "title": "Principles of Synthetic Intelligence: Building Blocks for an Architecture of Motivated Cognition",
+          "url": "https://cognitive-ai.com/publications/assets/Draft-MicroPsi-JBach-07-03-30.pdf"
+        },
+        {
+          "title": "MicroPsi 2 source repository",
+          "url": "https://github.com/joschabach/micropsi2"
+        }
+      ],
+      "native": {
+        "claim": "An integrated agent can be built from grounded node-network representations, spreading activation, perception, planning, learning, motivational variables and emotion-like modulation rather than treating reasoning as an isolated module.",
+        "strongest_result": "MicroPsi supplies a detailed architecture and a runnable public implementation for motivated cognition and knowledge representation. This demonstrates constructability and supports component ablation; it is not evidence that the architecture is necessary, human-complete, generally intelligent or conscious.",
+        "limits": [
+          "Important representational, motivational and control structures are designed into the architecture.",
+          "Published source material does not establish broad benchmark superiority over modern learned world-model agents.",
+          "Bach's wider computational claims about consciousness and selfhood exceed what the MicroPsi implementation alone demonstrates."
+        ]
+      },
+      "joshua_crosswalk": {
+        "surface_ids": [
+          "qit_engines_and_recursive_construction",
+          "fep_perception_consciousness_and_holodeck",
+          "object_individual_boundary_and_observer",
+          "admission_mss_and_purgatory"
+        ],
+        "offers": "A concrete donor architecture for memory, motivation, perception-action loops, planning and self-representation, with code that can be reproduced and ablated.",
+        "hypothesis_only": "The Ratchet could vary MicroPsi's installed representation, drive and boundary assumptions, while the paired-engine target could be tested as a smaller recurrent organization. It has not yet shown that it can reconstruct MicroPsi's capabilities."
+      },
+      "decisive_test": "Freeze a reproducible MicroPsi task suite and compare the native architecture, component ablations, modern world-model controls and a Joshua-derived architecture on held-out transfer, intervention recovery and sample efficiency. Joshua adds value only if it removes installed structure or improves predeclared outcomes without target leakage.",
+      "ranking_eligible": false
+    },
+    {
+      "program_id": "yampolskiy_ai_control_limits",
+      "program_name": "Formal and cross-domain limits on prediction and control of advanced AI",
+      "program_version": "UNPREDICTABILITY_2019_CONTROL_2020_IMPOSSIBILITY_SURVEY_2021__BOUNDED_AND_UNIVERSAL_CLAIMS_SEPARATED",
+      "program_kind": "IMPOSSIBILITY_AND_SAFETY_PROGRAM",
+      "contributors": [
+        "Roman V. Yampolskiy",
+        "Mario Brcic"
+      ],
+      "primary_sources": [
+        {
+          "title": "Unpredictability of AI",
+          "url": "https://arxiv.org/abs/1905.13053"
+        },
+        {
+          "title": "On Controllability of AI",
+          "url": "https://arxiv.org/abs/2008.04071"
+        },
+        {
+          "title": "Impossibility Results in AI: A Survey",
+          "url": "https://arxiv.org/abs/2109.00484"
+        }
+      ],
+      "native": {
+        "claim": "Perfect, universal and indefinitely reliable prediction or control of agents more capable than their controllers encounters computability, self-reference, indistinguishability, induction, tradeoff and intractability barriers.",
+        "strongest_result": "The program assembles a useful taxonomy of relevant impossibility mechanisms and gives a formal unpredictability argument for specific idealized conditions. It establishes claim ceilings on universal guarantees, not the impossibility of every bounded safety mechanism.",
+        "limits": [
+          "Conclusions depend on the agent, controller, observability, resource and guarantee classes being quantified over.",
+          "Arguments about unknown future AGI do not supply an empirical probability of catastrophe.",
+          "Impossibility of perfect control does not compare the effectiveness of partial, probabilistic or institutionally layered controls."
+        ]
+      },
+      "joshua_crosswalk": {
+        "surface_ids": [
+          "formal_tools_limits_and_falsifiers",
+          "qit_engines_and_recursive_construction",
+          "admission_mss_and_purgatory"
+        ],
+        "offers": "A library of no-go patterns that can cap claims made for self-revising Ratchet or QIT systems and force explicit quantifiers over model, observer and intervention classes.",
+        "hypothesis_only": "Immutable receipts, plural survivors and contextual re-entry may improve auditability and bounded corrigibility, but they do not evade universal control or prediction limits."
+      },
+      "decisive_test": "For every proposed self-revising Joshua agent, state a finite agent/controller class and guarantee, then either prove it or produce adversarial counterexamples under hidden-state, self-reference and distribution-shift fixtures. Any universal safety claim that silently narrows the quantified class is rejected.",
+      "ranking_eligible": false
+    },
+    {
+      "program_id": "derham_dRGT_massive_gravity",
+      "program_name": "Ghost-free nonlinear massive gravity",
+      "program_version": "DRGT_2010_TO_NONPERTURBATIVE_CONSTRAINT_AND_2023_DYNAMICAL_FORMULATION",
+      "program_kind": "MODIFIED_GRAVITY_EFFECTIVE_FIELD_THEORY",
+      "contributors": [
+        "Claudia de Rham",
+        "Gregory Gabadadze",
+        "Andrew J. Tolley"
+      ],
+      "primary_sources": [
+        {
+          "title": "Resummation of Massive Gravity",
+          "url": "https://arxiv.org/abs/1011.1232"
+        },
+        {
+          "title": "Ghost free Massive Gravity in the Stueckelberg language",
+          "url": "https://arxiv.org/abs/1107.3820"
+        },
+        {
+          "title": "A dynamical formulation of ghost-free massive gravity",
+          "url": "https://arxiv.org/abs/2302.04876"
+        }
+      ],
+      "native": {
+        "claim": "A specifically tuned nonlinear potential can give a four-dimensional spin-2 field a mass while retaining the constraint needed to remove the Boulware-Deser ghost; viable regimes may recover general-relativistic behavior through screening.",
+        "strongest_result": "The dRGT construction is ghost-free in the decoupling limit to all orders, and subsequent constraint analyses expose the nonlinear removal of the extra degree of freedom. A recent formulation enables numerical evolution but also exhibits strong-coupling breakdown for some collapse data.",
+        "limits": [
+          "A reference metric or second metric and specially structured interaction potential are installed.",
+          "Strong coupling, stability, superluminality/causality questions and cosmological branch viability are model- and background-dependent.",
+          "The construction is not empirical evidence for a nonzero graviton mass or a complete quantum gravity theory."
+        ]
+      },
+      "joshua_crosswalk": {
+        "surface_ids": [
+          "spacetime_gravity_matter_and_cosmogenesis",
+          "nested_entropic_geometry_flux_and_chirality",
+          "finite_quantum_and_carrier_reconstruction",
+          "formal_tools_limits_and_falsifiers"
+        ],
+        "offers": "A high-bar gravity fixture: exact constraint counting, ghost tests, strong-coupling diagnostics, screening and known continuum limits.",
+        "hypothesis_only": "A Joshua carrier might generate an effective spin-2 mass or the tuned potential as an emergent survivor, but no such derivation exists and adding Ratchet terminology does not repair dRGT's open regimes."
+      },
+      "decisive_test": "Derive rather than insert an effective metric sector and potential, then independently verify five propagating massive-spin-2 degrees of freedom, the constraint algebra, absence of ghosts in the claimed regime, GR/Vainshtein recovery and quantitative cosmology. Failure at any upstream constraint blocks Joshua gravity claims.",
+      "ranking_eligible": false
+    },
+    {
+      "program_id": "gorard_wolfram_hypergraph_gravity",
+      "program_name": "Hypergraph rewriting, causal invariance and multiway discrete gravity",
+      "program_version": "GORARD_2020_RELATIVITY_CAUSAL_SET_RELATION_PLUS_2021_TO_2024_COMPUTATIONAL_GR",
+      "program_kind": "DISCRETE_SPACETIME_AND_COMPUTATIONAL_GRAVITY",
+      "contributors": [
+        "Jonathan Gorard"
+      ],
+      "primary_sources": [
+        {
+          "title": "Some Relativistic and Gravitational Properties of the Wolfram Model",
+          "url": "https://arxiv.org/abs/2004.14810"
+        },
+        {
+          "title": "Algorithmic Causal Sets and the Wolfram Model",
+          "url": "https://arxiv.org/abs/2011.12174"
+        },
+        {
+          "title": "Hypergraph Discretization of the Cauchy Problem in General Relativity via Wolfram Model Evolution",
+          "url": "https://arxiv.org/abs/2102.09363"
+        },
+        {
+          "title": "Axiomatic Quantum Field Theory in Discrete Spacetime via Multiway Causal Structure",
+          "url": "https://arxiv.org/abs/2301.12455"
+        }
+      ],
+      "native": {
+        "claim": "Space can be represented by a rewriting hypergraph, causal structure by update-dependency graphs and quantum alternatives by multiway branching. Under causal-invariance, dimensional and continuum assumptions, discrete covariance and Einstein-like behavior can emerge.",
+        "strongest_result": "The program supplies mathematical correspondences between causal invariance and discrete general covariance, relations to causal-set dynamics, continuum-limit arguments, and numerical GR implementations tested on standard spacetime fixtures. It does not select our universe's rewrite rule or provide an experimentally confirmed deviation from established physics.",
+        "limits": [
+          "Rewrite alphabet, rule, initial hypergraph, measure and coarse-graining are not derived by the continuum arguments.",
+          "Causal invariance and dimension-preservation assumptions carry major physical load.",
+          "Continuum recovery on selected rules does not establish Standard Model matter, unique quantum dynamics or empirical superiority."
+        ]
+      },
+      "joshua_crosswalk": {
+        "surface_ids": [
+          "root_and_least_presumption",
+          "probability_time_causality_and_order",
+          "finite_quantum_and_carrier_reconstruction",
+          "spacetime_gravity_matter_and_cosmogenesis",
+          "admission_mss_and_purgatory"
+        ],
+        "offers": "A mature discrete rewriting laboratory with explicit schedule dependence, multiway histories, causal graphs, rule enumeration and continuum fixtures.",
+        "hypothesis_only": "Joshua's Ratchet could treat rewrite language, rule, equivalence, schedule and causal invariance as competitors instead of fixed inputs. It has not yet selected a successful Wolfram-model rule or reproduced the native continuum results."
+      },
+      "decisive_test": "Publish a blinded rule corpus containing productive rules and decoys; independently verify schedule properties and convergence to Lorentzian/Einstein observables across refinements. A Joshua wrapper must improve held-out rule selection, expose a weaker sufficient condition than installed causal invariance, or predict a new observable; otherwise it is overhead.",
+      "ranking_eligible": false
+    },
+    {
+      "program_id": "lynch_epistemic_agency_under_ai",
+      "program_name": "Human understanding and epistemic agency under digital and AI dependence",
+      "program_version": "INTERNET_OF_US_2016_PLUS_CURRENT_AI_UNDERSTANDING_PROGRAM__NOT_A_SUPERINTELLIGENCE_DYNAMICAL_MODEL",
+      "program_kind": "PHILOSOPHICAL_EPISTEMOLOGY_OF_TECHNOLOGY",
+      "contributors": [
+        "Michael Patrick Lynch"
+      ],
+      "primary_sources": [
+        {
+          "title": "The Internet of Us: Knowing More and Understanding Less in the Age of Big Data",
+          "url": "https://wwnorton.com/books/9781631492778"
+        },
+        {
+          "title": "Michael Patrick Lynch official research page",
+          "url": "https://michael-lynch.philosophy.uconn.edu/"
+        }
+      ],
+      "native": {
+        "claim": "Reliable access to true answers is not identical to human understanding. Heavy epistemic dependence on digital or AI systems can weaken the capacity to give reasons, integrate information, notice error and exercise responsible epistemic agency even while increasing available information.",
+        "strongest_result": "The program offers a source-native philosophical analysis of truth, understanding, cognitive offloading and the ethics of epistemic dependence. It is not a formal AGI model and currently supplies neither an intelligence-explosion equation nor an empirical estimate of superintelligence risk.",
+        "limits": [
+          "Key constructs such as understanding and epistemic agency need operational measures for model comparison.",
+          "The thesis does not imply that all AI assistance reduces understanding; interface and task effects may differ.",
+          "The channel episode's superintelligence framing should not be substituted for Lynch's published epistemology."
+        ]
+      },
+      "joshua_crosswalk": {
+        "surface_ids": [
+          "qit_engines_and_recursive_construction",
+          "fep_perception_consciousness_and_holodeck",
+          "object_individual_boundary_and_observer",
+          "formal_tools_limits_and_falsifiers"
+        ],
+        "offers": "A crucial evaluator distinction between correct output and earned understanding, plus an external-human audit target for a self-revising model-building system.",
+        "hypothesis_only": "Ratchet receipts, explicit assumption ledgers and reconstructible derivations might preserve epistemic agency better than opaque answer delivery, but that benefit has not been behaviorally demonstrated."
+      },
+      "decisive_test": "Randomize users across answer-only, explanation, source-trace and Ratchet-receipt interfaces; preregister transfer, counterexample detection, calibration, delayed reconstruction and appropriate-deference outcomes. A Joshua interface must improve held-out understanding without merely increasing time or verbosity.",
+      "ranking_eligible": false
+    }
+  ],
+  "resolutions": [
+    {
+      "administrative_unit": "identity:person_john_donoghue",
+      "canonical_name": "John Donoghue",
+      "disposition": "CROSS_REFERENCE_EXISTING_CARD",
+      "evidence": "Channel episode: 'John Donoghue: We Have Already Quantized Gravity (And It Works)'.",
+      "card_reference": "native_source_cards_batch_b.json#donoghue_eft_gravity",
+      "note": "No duplicate created."
+    },
+    {
+      "administrative_unit": "identity:person_iain_mcgilchrist",
+      "canonical_name": "Iain McGilchrist",
+      "disposition": "PROGRAM_CARD_CREATED",
+      "evidence": "Three linked channel groups concern the divided brain, limits of reason/language, and meaning; source-native books confirm a distinct hemisphere-attention program.",
+      "card_reference": "mcgilchrist_hemisphere_attention_hypothesis"
+    },
+    {
+      "administrative_unit": "identity:person_neil_turok",
+      "canonical_name": "Neil Turok",
+      "disposition": "CROSS_REFERENCE_EXISTING_CARD_PARTIAL",
+      "evidence": "Five channel episodes span CPT-symmetric cosmology, black-hole interiors and routes to quantum gravity.",
+      "card_reference": "native_source_cards_batch_d.json#turok_cpt_symmetric_universe",
+      "note": "The existing CPT card is not a proxy for all Turok programs; black-hole and other quantum-gravity versions still require separate source packets."
+    },
+    {
+      "administrative_unit": "residual:prefix_curt_jaimungal",
+      "canonical_name": null,
+      "disposition": "RESIDUAL_FORMAT",
+      "evidence": "A 25-episode host-prefix group mixes explainers, documentaries and host-only reflections across unrelated subjects.",
+      "note": "It is not one person-to-program unit and must be decomposed episode-by-episode if the host's original technical programs are later assessed."
+    },
+    {
+      "administrative_unit": "identity:person_joscha_bach",
+      "canonical_name": "Joscha Bach",
+      "disposition": "PROGRAM_CARD_CREATED",
+      "evidence": "Six linked groups discuss computation, consciousness, AI, Friston and Levin; authored dissertation and public implementation identify MicroPsi as a distinct executable program.",
+      "card_reference": "bach_micropsi_motivated_cognition"
+    },
+    {
+      "administrative_unit": "identity:person_roman_yampolskiy",
+      "canonical_name": "Roman Yampolskiy",
+      "disposition": "PROGRAM_CARD_CREATED",
+      "evidence": "The channel episode concerns AI consciousness, simulation and inability to win; authored papers support a narrower, distinct AI predictability/control-limits program.",
+      "card_reference": "yampolskiy_ai_control_limits"
+    },
+    {
+      "administrative_unit": "identity:person_claudia_de_rham",
+      "canonical_name": "Claudia de Rham",
+      "disposition": "PROGRAM_CARD_CREATED",
+      "evidence": "Two gravity episodes and the dRGT primary literature identify a distinct ghost-free massive-gravity program.",
+      "card_reference": "derham_dRGT_massive_gravity"
+    },
+    {
+      "administrative_unit": "identity:person_tevin",
+      "canonical_name": "Tevin",
+      "disposition": "NO_DISTINCT_RELEVANT_PROGRAM_LOCATED",
+      "evidence": "Only linked title: 'Tevin and Curt Jaimungal: Consciousness, Podcasting, and UFOs'; surname and source-native research identity are unresolved.",
+      "note": "Do not infer a model from a one-name title."
+    },
+    {
+      "administrative_unit": "identity:person_jonathan_gorard",
+      "canonical_name": "Jonathan Gorard",
+      "disposition": "PROGRAM_CARD_CREATED",
+      "evidence": "The channel episode explicitly concerns quantum gravity in the Wolfram Physics Project; authored papers identify a distinct hypergraph-rewriting and computational-GR program.",
+      "card_reference": "gorard_wolfram_hypergraph_gravity"
+    },
+    {
+      "administrative_unit": "identity:person_michael_lynch",
+      "canonical_name": "Michael Patrick Lynch",
+      "disposition": "PROGRAM_CARD_CREATED",
+      "evidence": "The RSS description concerns epistemic shock, truth-seeking and AGI ethics; Lynch's official UConn page confirms work on truth and the ethics/epistemology of technology and current concern with AI undermining understanding.",
+      "card_reference": "lynch_epistemic_agency_under_ai"
+    },
+    {
+      "administrative_unit": "identity:person_leo_gura",
+      "canonical_name": "Leo Gura",
+      "disposition": "NONTECHNICAL_CONTEXT",
+      "evidence": "Linked titles concern ego death, God, dream reality, infinite consciousness and free will; this batch located no source-native formal or empirical program meeting the campaign contract.",
+      "note": "This is a scope classification, not a ranking of the person or worldview."
+    },
+    {
+      "administrative_unit": "identity:person_stuart_kauffman",
+      "canonical_name": "Stuart Kauffman",
+      "disposition": "CROSS_REFERENCE_EXISTING_CARD",
+      "evidence": "Channel episode: 'Stuart Kauffman: There Is No Theory of Everything'.",
+      "card_reference": "native_source_cards_batch_b.json#kauffman_open_ended_evolution",
+      "note": "Existing card already separates philosophical unprestatability from executable catalytic and adjacent-possible models."
+    },
+    {
+      "administrative_unit": "identity:person_paul_vanderklay",
+      "canonical_name": "Paul Vanderklay",
+      "disposition": "NONTECHNICAL_CONTEXT",
+      "evidence": "Only linked title concerns meaning, God and Sam Harris; no distinct source-native technical model was located for the current comparison surfaces.",
+      "note": "Theological relevance can be revisited under a separately defined philosophical packet."
+    },
+    {
+      "administrative_unit": "identity:person_les_stroud",
+      "canonical_name": "Les Stroud",
+      "disposition": "NONTECHNICAL_CONTEXT",
+      "evidence": "Only linked title concerns Bigfoot, orbs and wilderness anomalies; no distinct source-native technical program was located for this campaign.",
+      "note": "Testimony or anomaly reports would require a different evidence contract."
+    },
+    {
+      "administrative_unit": "identity:person_jonathan_oppenheim",
+      "canonical_name": "Jonathan Oppenheim",
+      "disposition": "CROSS_REFERENCE_EXISTING_CARD",
+      "evidence": "Two linked episodes concern a classical-gravity alternative to quantization.",
+      "card_reference": "native_source_cards_batch_c.json#post_quantum_classical_gravity",
+      "note": "No duplicate created."
+    }
+  ]
+}

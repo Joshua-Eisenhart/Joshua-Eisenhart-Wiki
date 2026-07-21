@@ -1,0 +1,338 @@
+{
+  "schema_version": "native-source-cards/0.1",
+  "status": "ADMINISTRATIVE_BATCH_COMPLETE_SOURCE_NATIVE_UNRANKED",
+  "administrative_batch": {
+    "batch_id": "batch_03",
+    "method": "PUBLIC_HASH_ORDER_ROUND_ROBIN_WITH_ONE_RESIDUAL_UNIT_PER_BATCH",
+    "scientific_priority": null,
+    "unit_count": 15,
+    "cards_created": 4,
+    "existing_card_cross_references": 3,
+    "context_or_no_distinct_relevant_program": 7,
+    "residual_format_units": 1,
+    "people_are_ranked": false,
+    "ranking_eligible_programs": 0
+  },
+  "cards": [
+    {
+      "program_id": "neven_google_quantum_ai_experimental_roadmap",
+      "program_name": "Google Quantum AI experimental advantage and fault-tolerance roadmap",
+      "program_version": "RANDOM_CIRCUIT_SAMPLING_2016_TO_2019__QUANTUM_LEARNING_2021__SURFACE_CODE_2023_TO_2025_SPLIT_REQUIRED",
+      "program_kind": "EXPERIMENTAL_QUANTUM_COMPUTING_PROGRAM",
+      "contributors": [
+        "Hartmut Neven",
+        "Google Quantum AI collaborators"
+      ],
+      "primary_sources": [
+        {
+          "title": "Characterizing Quantum Supremacy in Near-Term Devices",
+          "url": "https://arxiv.org/abs/1608.00263"
+        },
+        {
+          "title": "Quantum supremacy using a programmable superconducting processor (supplement and journal link)",
+          "url": "https://arxiv.org/abs/1910.11333"
+        },
+        {
+          "title": "Quantum advantage in learning from experiments",
+          "url": "https://arxiv.org/abs/2112.00778"
+        },
+        {
+          "title": "Suppressing quantum errors by scaling a surface code logical qubit",
+          "url": "https://arxiv.org/abs/2207.06431"
+        },
+        {
+          "title": "Quantum error correction below the surface code threshold",
+          "url": "https://arxiv.org/abs/2408.13687"
+        }
+      ],
+      "native": {
+        "claim": "Programmable superconducting quantum processors can exhibit task-specific computational and experimental-learning advantages over known classical methods, while surface-code scaling can suppress logical errors below threshold on the route to fault-tolerant computation.",
+        "strongest_result": "The program has hardware demonstrations rather than only simulations: random-circuit sampling at a classically difficult scale; quantum-learning separations with experiments; and a 101-qubit distance-7 surface-code memory reporting 0.143% error per cycle and a suppression factor of 2.14 when code distance increases by two.",
+        "limits": [
+          "Advantage is task-, circuit-, noise-, verification- and classical-baseline-specific; it is not a proof of general practical quantum superiority.",
+          "The Hilbert-space, gate, measurement, architecture, code and decoder structures are installed rather than derived from weaker operational distinctions.",
+          "Below-threshold memory is not yet a full fault-tolerant application, and rare correlated errors remain a scaling constraint.",
+          "Neven's channel discussion of conscious superpositions is not established by these quantum-computing results and is excluded from this card."
+        ]
+      },
+      "joshua_crosswalk": {
+        "surface_ids": [
+          "finite_quantum_and_carrier_reconstruction",
+          "qit_engines_and_recursive_construction",
+          "admission_mss_and_purgatory",
+          "formal_tools_limits_and_falsifiers"
+        ],
+        "offers": "Hard experimental fixtures, explicit resource and noise accounting, quantum-versus-classical baselines, error-correction thresholds and noncommuting-observable learning tasks for testing Joshua's finite-QIT claims.",
+        "hypothesis_only": "Joshua's carrier tournament and Ratchet may test which quantum structures are actually required for these advantages or discover smaller order-sensitive engines. Nothing in the current Joshua corpus reproduces the hardware results or derives the installed quantum architecture."
+      },
+      "decisive_test": "Freeze a small reproducible task family spanning random-circuit sampling, noncommuting-observable learning and logical-memory scaling. Compare the native quantum protocol, best updated classical methods, Joshua-derived candidate, sham wrapper and ablations under equal compute and verification budgets. Joshua adds value only by deriving weaker sufficient structure, predicting held-out scaling or improving a predeclared metric without importing the target quantum formalism.",
+      "ranking_eligible": false
+    },
+    {
+      "program_id": "lisi_e8_exceptional_unification",
+      "program_name": "Exceptional E8 unification of gravity and Standard Model structure",
+      "program_version": "E8_PROPOSAL_2007__EXPLICIT_ONE_GENERATION_EMBEDDING_2010__LIE_GROUP_COSMOLOGY_2015_SEPARATED",
+      "program_kind": "SPECULATIVE_MATHEMATICAL_PHYSICS_UNIFICATION",
+      "contributors": [
+        "A. Garrett Lisi"
+      ],
+      "primary_sources": [
+        {
+          "title": "An Exceptionally Simple Theory of Everything",
+          "url": "https://arxiv.org/abs/0711.0770"
+        },
+        {
+          "title": "An Explicit Embedding of Gravity and the Standard Model in E8",
+          "url": "https://arxiv.org/abs/1006.4908"
+        },
+        {
+          "title": "Lie Group Cosmology",
+          "url": "https://arxiv.org/abs/1506.08073"
+        },
+        {
+          "title": "There is no 'Theory of Everything' inside E8",
+          "url": "https://arxiv.org/abs/0905.2658",
+          "source_role": "PRIMARY_REPRESENTATION_THEORETIC_NO_GO"
+        }
+      ],
+      "native": {
+        "claim": "Gravity, Standard Model gauge fields, Higgs structure and fermions may be organized within an E8-valued connection or related exceptional Lie-group geometry, aiming at a unified action and particle assignment.",
+        "strongest_result": "Lisi gives an explicit algebraic embedding of gravitational and Standard Model gauge action on one fermion generation into a real form of E8. That is a concrete representation-theoretic construction, not a completed physical theory; the cited no-go proves that a broad class of E8 embeddings lacks representation properties required for chiral Standard Model matter.",
+        "limits": [
+          "A viable treatment of three chiral generations, mirror fermions, masses, mixings and anomaly constraints is not established by the original proposal.",
+          "The choice of E8 real form, superconnection, four-dimensional base, symmetry breaking and action installs substantial structure.",
+          "An algebraic embedding does not by itself yield quantum dynamics, observed low-energy phenomenology or novel confirmed predictions.",
+          "Later Lie-group cosmology is a separate, highly compressed proposal and cannot be used to repair the 2007 version without an explicit derivation."
+        ]
+      },
+      "joshua_crosswalk": {
+        "surface_ids": [
+          "finite_quantum_and_carrier_reconstruction",
+          "nested_entropic_geometry_flux_and_chirality",
+          "spacetime_gravity_matter_and_cosmogenesis",
+          "root_and_least_presumption",
+          "formal_tools_limits_and_falsifiers"
+        ],
+        "offers": "A sharp exceptional-structure testbed, explicit representation decompositions and a published chirality no-go that can discipline Joshua's nonassociative and exceptional branch.",
+        "hypothesis_only": "Joshua's carrier tournament could vary exceptional carriers, real forms, representations and symmetry-breaking assumptions rather than privilege E8. The present octonionic/exceptional branch is itself unforced and has not repaired Lisi's chiral-generation problem."
+      },
+      "decisive_test": "Reproduce the E8 branching and the Distler-Garibaldi obstruction independently, then require a proposed Joshua repair to derive a chiral three-generation spectrum with correct gauge representations, anomaly cancellation, a controlled action and low-energy GR plus Standard Model behavior. If it merely changes notation or inserts the needed representations, retain E8 as a mathematical donor and reject the repair.",
+      "ranking_eligible": false
+    },
+    {
+      "program_id": "lahav_neemeh_relativistic_consciousness",
+      "program_name": "Relativistic theory of consciousness",
+      "program_version": "FRONTIERS_FULL_PAPER_2022__SHORTENED_FORMAL_EXPOSITION_2025",
+      "program_kind": "CONCEPTUAL_AND_MATHEMATICAL_CONSCIOUSNESS_HYPOTHESIS",
+      "contributors": [
+        "Nir Lahav",
+        "Zachariah A. Neemeh"
+      ],
+      "primary_sources": [
+        {
+          "title": "A Relativistic Theory of Consciousness (shortened version; identifies the 2022 full paper)",
+          "url": "https://arxiv.org/abs/2502.07247"
+        }
+      ],
+      "native": {
+        "claim": "Phenomenal consciousness should be treated as observer-relative: a cognitive system's first-person frame and an external observer's third-person frame can yield different but jointly valid descriptions of the same underlying physical information processing.",
+        "strongest_result": "The authors provide a conceptual and mathematical consistency argument intended to dissolve the forced choice between nonreductive privacy and illusionism. The result is a relational reframing; the cited work does not yet establish a unique consciousness measure or a prospective neural intervention effect.",
+        "limits": [
+          "Analogy with physical relativity does not by itself supply an empirically validated transformation group, invariant or operational frame-selection rule.",
+          "The account presupposes cognitive representations and access relations whose physical realization and sufficiency for phenomenality remain open.",
+          "Observer-relative attribution must be distinguished from ordinary differences in information access, reportability and model granularity.",
+          "No common benchmark presently separates this theory from relational functionalism, illusionism or other first-/third-person bridge proposals."
+        ]
+      },
+      "joshua_crosswalk": {
+        "surface_ids": [
+          "object_individual_boundary_and_observer",
+          "fep_perception_consciousness_and_holodeck",
+          "probability_time_causality_and_order",
+          "formal_tools_limits_and_falsifiers"
+        ],
+        "offers": "A precise warning against treating consciousness as an absolute unary property and a donor distinction between observer-relative descriptions and underlying dynamics.",
+        "hypothesis_only": "Joshua's cross-view monist bridge and Holodeck module might represent first- and third-person views as operational quotients with explicit invariants. They currently provide neither a consciousness criterion nor evidence that the bridge is more than a redescription."
+      },
+      "decisive_test": "Specify frames, allowed transformations, invariants and a preregistered case where the theory predicts a consciousness attribution or report pattern that competing access-relative models do not. Test held-out perturbations that change observer access while preserving system dynamics, and perturb system organization while preserving observer data. Failure to generate differential predictions leaves the proposal a useful conceptual donor, not a superior explanatory model.",
+      "ranking_eligible": false
+    },
+    {
+      "program_id": "wolpert_physical_inference_limits",
+      "program_name": "Inference devices and law-independent limits on embedded knowledge",
+      "program_version": "PHYSICAL_LIMITS_2008__KNOWLEDGE_FORMALIZATION_2017",
+      "program_kind": "FORMAL_IMPOSSIBILITY_PROGRAM",
+      "contributors": [
+        "David H. Wolpert"
+      ],
+      "primary_sources": [
+        {
+          "title": "Physical limits of inference",
+          "url": "https://arxiv.org/abs/0708.1362"
+        },
+        {
+          "title": "Constraints on physical reality arising from a formalization of knowledge",
+          "url": "https://arxiv.org/abs/1711.03499"
+        }
+      ],
+      "native": {
+        "claim": "Observation, prediction, memory and control share an inference-device structure consisting of setup and binary conclusion functions over possible universe histories. This structure yields limits on what embedded devices can infallibly infer about the universe and one another independently of the detailed physical laws.",
+        "strongest_result": "The program proves Laplace-demon-style impossibility results, an inference-device analogue of universal computation and inference complexity, and that a universe cannot contain more than one strong inference device. The extended knowledge formalism avoids the logical-omniscience pathology of standard possible-worlds accounts.",
+        "limits": [
+          "The strongest no-go results concern exact, guaranteed inference under explicit quantifiers; they do not prohibit useful approximate, probabilistic or restricted prediction.",
+          "Results depend on the chosen possible-history space, setup/conclusion functions, probe class and distinguishability conditions.",
+          "The framework supplies claim ceilings, not a constructive dynamics, ontology or empirical model of our universe.",
+          "Connections to quantum uncertainty, computation or theology are structural analogies unless separately proved under the relevant assumptions."
+        ]
+      },
+      "joshua_crosswalk": {
+        "surface_ids": [
+          "formal_tools_limits_and_falsifiers",
+          "object_individual_boundary_and_observer",
+          "probability_time_causality_and_order",
+          "qit_engines_and_recursive_construction",
+          "admission_mss_and_purgatory"
+        ],
+        "offers": "Exact no-go ceilings for any Ratchet, observer or self-model that claims universal prediction, memory, control or self-certification, plus a clean formal vocabulary for question-dependent inference.",
+        "hypothesis_only": "Joshua's plural survivors and context-indexed models may respect these limits better than a monolithic ToE, but multiplicity does not evade the theorems. Any claimed universal Ratchet or engine would still have to satisfy Wolpert's quantifiers."
+      },
+      "decisive_test": "Represent each claimed Joshua observer, engine or Ratchet evaluator as explicit setup and conclusion functions over a declared history space. Prove the bounded guarantee actually claimed and use adversarial diagonal probes to test stronger language. A counterexample kills the universal claim; success on a restricted class must remain labeled restricted.",
+      "ranking_eligible": false
+    }
+  ],
+  "resolutions": [
+    {
+      "administrative_unit": "identity:person_edward_frenkel",
+      "canonical_name": "Edward Frenkel",
+      "disposition": "CROSS_REFERENCE_EXISTING_CARD",
+      "evidence": "Three linked episodes concern the Langlands program, mathematical proof and metaphysical extrapolation; the existing card already separates exact geometric/quantum Langlands work from ToE rhetoric.",
+      "card_reference": "native_source_cards_batch_d.json#frenkel_quantum_geometric_langlands",
+      "note": "No duplicate created; personal or death/self discussion is not promoted into a second scientific program."
+    },
+    {
+      "administrative_unit": "identity:person_jacques_vallee",
+      "canonical_name": "Jacques Vallée",
+      "disposition": "CONTEXT_ONLY_ANOMALY_RESEARCH",
+      "evidence": "The linked episode concerns UFO phenomena with Kevin Knuth. Vallée has source-native anomaly-taxonomy and anti-ETH arguments, and coauthored a 2025 survey of UAP research, but this batch found no locked mechanism or common evidence packet bearing directly on Joshua's current model surfaces.",
+      "authoritative_sources": [
+        "https://arxiv.org/abs/2502.06794",
+        "https://www.scientificexploration.org/docs/4/jse_04_1_vallee_2.pdf"
+      ],
+      "note": "This is a scope disposition, not a negative score. Reopen under an anomaly-data packet with provenance, sensor likelihoods and explicit rival hypotheses."
+    },
+    {
+      "administrative_unit": "identity:person_hartmut_neven",
+      "canonical_name": "Hartmut Neven",
+      "disposition": "PROGRAM_CARD_CREATED",
+      "evidence": "Although the linked title foregrounds conscious superpositions, Neven's authored primary record supports a distinct experimental quantum-computing program; the consciousness claim is excluded.",
+      "card_reference": "neven_google_quantum_ai_experimental_roadmap"
+    },
+    {
+      "administrative_unit": "residual:prefix_ciis_and_curt_jaimungal",
+      "canonical_name": null,
+      "disposition": "RESIDUAL_FORMAT",
+      "evidence": "The title 'CIIS and Curt Jaimungal: Consciousness, Spacetime, and the Limits of Science' combines an institution acronym and host rather than identifying a source-native program contributor.",
+      "note": "Resolve the underlying event participants before creating any person-to-program edge."
+    },
+    {
+      "administrative_unit": "identity:person_diana_pasulka",
+      "canonical_name": "Diana Walsh Pasulka",
+      "disposition": "CONTEXT_ONLY_RELIGIOUS_STUDIES",
+      "evidence": "The linked episode concerns religion, atheism and Heidegger. Pasulka's authored program is historical and ethnographic study of religion, technology and UFO belief, not a formal consciousness, physics or cosmogenesis model under this campaign contract.",
+      "authoritative_sources": [
+        "https://global.oup.com/academic/product/american-cosmic-9780190692889",
+        "https://uncw.edu/academics/colleges/chssa/departments/philosophy-religion/about/faculty-staff/pasulka-diana.html"
+      ],
+      "note": "Potential donor for sociology of belief and model uptake; not ranking-eligible as a physical model."
+    },
+    {
+      "administrative_unit": "identity:person_garrett_lisi",
+      "canonical_name": "A. Garrett Lisi",
+      "disposition": "PROGRAM_CARD_CREATED",
+      "evidence": "The linked episode explicitly concerns E8 unification; authored papers and a primary representation-theoretic no-go define a distinct, sharply testable program packet.",
+      "card_reference": "lisi_e8_exceptional_unification"
+    },
+    {
+      "administrative_unit": "identity:person_nir_lahav",
+      "canonical_name": "Nir Lahav",
+      "disposition": "PROGRAM_CARD_CREATED",
+      "evidence": "The linked episode asks whether consciousness follows rules of relativity; Lahav and Neemeh's paper identifies a distinct observer-relative consciousness hypothesis.",
+      "card_reference": "lahav_neemeh_relativistic_consciousness"
+    },
+    {
+      "administrative_unit": "identity:person_rupert_spira",
+      "canonical_name": "Rupert Spira",
+      "disposition": "CONTEXT_ONLY_NONDUAL_TEACHING",
+      "evidence": "The linked episode concerns non-duality, God and death. Spira's official presentation is a contemplative Direct Path/non-dual teaching, not a source-native formal or empirical program meeting the campaign's common comparison contract.",
+      "authoritative_sources": [
+        "https://rupertspira.com/non-duality",
+        "https://rupertspira.com/store/the-nature-of-consciousness"
+      ],
+      "note": "Philosophical comparison may be reopened under a separately defined phenomenology packet; this is not a worldview score."
+    },
+    {
+      "administrative_unit": "identity:person_ted_jacobson",
+      "canonical_name": "Ted Jacobson",
+      "disposition": "CROSS_REFERENCE_EXISTING_CARD",
+      "evidence": "The linked episode concerns gravity as entropy; the existing card covers the 1995 local-horizon thermodynamic derivation and separates later entanglement-equilibrium work.",
+      "card_reference": "native_source_cards_batch_d.json#jacobson_spacetime_thermodynamics",
+      "note": "No duplicate created."
+    },
+    {
+      "administrative_unit": "identity:person_david_wolpert",
+      "canonical_name": "David H. Wolpert",
+      "disposition": "PROGRAM_CARD_CREATED",
+      "evidence": "Two linked episodes concern the monotheism theorem, uncaused causation and absolute scientific limits; the source-native inference-device theorems define a distinct formal impossibility program.",
+      "card_reference": "wolpert_physical_inference_limits"
+    },
+    {
+      "administrative_unit": "identity:person_karl_friston",
+      "canonical_name": "Karl Friston",
+      "disposition": "CROSS_REFERENCE_EXISTING_CARD",
+      "evidence": "Five linked groups span the Free Energy Principle, active inference, consciousness and collaborations with Levin and Fields. The existing card already separates Bayesian mechanics, active inference and descendant versions.",
+      "card_reference": "native_source_cards_batch_b.json#friston_fep",
+      "note": "The separate Fields/Friston quantum-reference-frame collaboration remains native_source_cards_batch_b.json#fields_observer_quantum_information; no monolithic Friston card is created."
+    },
+    {
+      "administrative_unit": "identity:person_gen_zed",
+      "canonical_name": "Gen Zed",
+      "disposition": "NO_DISTINCT_RELEVANT_PROGRAM_LOCATED",
+      "evidence": "The only linked item is 'Gen Zed and Curt Jaimungal: Simulation Hypothesis and Consciousness'; the feed supplies only a one-name identity and channel link, and this batch located no authored technical paper, executable model or stable source-native program to assess.",
+      "authoritative_sources": [
+        "https://www.youtube.com/channel/UCNbNFrynC573bQnjaefYYZg"
+      ],
+      "note": "Do not infer a model from an episode theme or unresolved public identity."
+    },
+    {
+      "administrative_unit": "identity:person_james_robert_brown",
+      "canonical_name": "James Robert Brown",
+      "disposition": "CONTEXT_ONLY_PHILOSOPHY_OF_MATHEMATICS",
+      "evidence": "The linked episode concerns thought experiments and mathematical reality. Brown's authored work defends thought experiments and mathematical Platonism; it is a relevant methodological critic but not an executable world-model or common-packet competitor.",
+      "authoritative_sources": [
+        "https://www.routledge.com/The-Laboratory-of-the-Mind-Thought-Experiments-in-the-Natural-Sciences/Brown/p/book/9780415596053"
+      ],
+      "note": "Reopen as a critic packet asking whether Joshua's mathematics is discovered, stipulated or empirically constrained; do not rank the philosophy as a physical model."
+    },
+    {
+      "administrative_unit": "identity:person_jennifer_nagel",
+      "canonical_name": "Jennifer Nagel",
+      "disposition": "CONTEXT_ONLY_EPISTEMOLOGY",
+      "evidence": "The linked episode concerns self-defeating universal skepticism. Nagel's source-native work concerns knowledge, epistemic intuitions and recognition of knowledge, which bears on evaluator discipline but is not a technical ToE, dynamics or consciousness mechanism.",
+      "authoritative_sources": [
+        "https://jennifernagel.net/",
+        "https://www.philosophy.ox.ac.uk/john-locke-lectures"
+      ],
+      "note": "Use as an epistemic-critique donor for receipts and claim ceilings; no model ranking is appropriate."
+    },
+    {
+      "administrative_unit": "identity:person_jeffrey_mishlove",
+      "canonical_name": "Jeffrey Mishlove",
+      "disposition": "CONTEXT_ONLY_PARAPSYCHOLOGY_MEDIA_AND_CLAIMS",
+      "evidence": "The linked episode concerns controlled studies of remote viewing and psi. Mishlove is the New Thinking Allowed host and advocate; this batch found no distinct Mishlove-authored predictive mechanism suitable for Joshua's present common evidence packet.",
+      "authoritative_sources": [
+        "https://www.newthinkingallowed.org/jeffrey-mishlove.html"
+      ],
+      "note": "Psi experiments, protocols and meta-analyses would need study-level cards with preregistration, blinding, leakage controls and independent replication; they should not be collapsed into a person score."
+    }
+  ]
+}

@@ -1,0 +1,364 @@
+{
+  "schema_version": "0.1",
+  "as_of": "2026-07-15",
+  "status": "SOURCE_NATIVE_STARTING_CARDS_NOT_RANKING_ELIGIBLE",
+  "scope_note": "These cards cover additional channel-derived program leads that were absent from the original partial registry. They are source-native starting packets, not complete dossiers, repair selections, or rankings. Programs remain split by version and claim; people are not ranked.",
+  "cards": [
+    {
+      "program_id": "ashtekar_loop_quantum_cosmology",
+      "contributors": ["Abhay Ashtekar", "Parampreet Singh", "Martin Bojowald", "Ivan Agullo"],
+      "canonical_version_scope": "Loop quantum cosmology as a symmetry-reduced application of loop quantum gravity; distinct effective-dynamics and perturbation programs require later splitting.",
+      "primary_sources": [
+        {"title": "Loop Quantum Cosmology: A Status Report", "url": "https://arxiv.org/abs/1108.0893"},
+        {"title": "Generalized effective description of loop quantum cosmology", "url": "https://arxiv.org/abs/1509.08899"}
+      ],
+      "source_native_claim": "Polymer-style quantization of homogeneous cosmological geometries replaces the classical big-bang singularity in important models with quantum evolution through a bounce and yields controlled effective equations in specified regimes.",
+      "strongest_result": "Mathematically explicit singularity resolution and effective bounce dynamics in tightly specified symmetry-reduced models, with a developed perturbation and phenomenology program.",
+      "assumptions_limits": "Imports Hilbert and holonomy-flux structures, symmetry reduction, internal-clock and quantization choices; robustness across prescriptions and derivation from full LQG remain nontrivial. A bounce is not by itself a confirmed cosmology.",
+      "comparison_surfaces": ["finite_quantum_and_carrier_reconstruction", "spacetime_gravity_matter_and_cosmogenesis", "formal_tools_limits_and_falsifiers"],
+      "proposed_roles": ["competitor", "donor", "critic_falsifier"],
+      "external_offers_joshua": "A precise quantum-cosmology recovery target, explicit quantization ambiguities, and examples where discreteness has calculable dynamical consequences.",
+      "joshua_hypothesis": "A finite carrier tournament might expose which LQC discreteness and clock choices are actually needed and which are representation artifacts.",
+      "decisive_test": "Recover an agreed LQC model's constraint algebra, semiclassical Friedmann limit, bounce and perturbation observables under locked conventions, then predict a discriminator not already supplied by quantization ambiguity.",
+      "ranking_eligible": false
+    },
+    {
+      "program_id": "rovelli_relational_quantum_mechanics",
+      "contributors": ["Carlo Rovelli"],
+      "canonical_version_scope": "Relational quantum mechanics from the 1996 proposal through the clarified 2021 formulation; keep separate from loop quantum gravity and thermal-time work.",
+      "primary_sources": [
+        {"title": "Relational Quantum Mechanics", "url": "https://arxiv.org/abs/quant-ph/9609002"},
+        {"title": "The Relational Interpretation of Quantum Physics", "url": "https://arxiv.org/abs/2109.09170"}
+      ],
+      "source_native_claim": "Values of physical variables are realized only in interactions and are relative to other physical systems; there is no privileged observer or observer-independent global catalogue of values.",
+      "strongest_result": "A coherent observer-demoted interpretation that keeps standard quantum formalism and makes relational event claims explicit.",
+      "assumptions_limits": "Standard quantum mechanics and interaction structure are installed; cross-perspective consistency, records and probabilities require careful articulation. It currently supplies no distinct confirmed prediction.",
+      "comparison_surfaces": ["object_individual_boundary_and_observer", "probability_time_causality_and_order", "finite_quantum_and_carrier_reconstruction"],
+      "proposed_roles": ["competitor", "donor", "critic_falsifier"],
+      "external_offers_joshua": "A mature adversary to global-state and privileged-observer language, plus exact Wigner-friend comparison cases.",
+      "joshua_hypothesis": "Joshua's cross-view semiconjugacy could become a constructive criterion for when separately realized records may be treated as mutually compatible without positing one God's-eye state.",
+      "decisive_test": "Formalize the same finite multi-agent experiment in RQM, standard quantum instruments and Joshua's cross-view map; require unambiguous record-consistency predictions and no hidden global-state reconstruction.",
+      "ranking_eligible": false
+    },
+    {
+      "program_id": "dowker_causal_set_quantum_gravity",
+      "contributors": ["Fay Dowker", "Rafael Sorkin", "Sumati Surya"],
+      "canonical_version_scope": "Causal-set kinematics, classical sequential growth, and causal-set quantum-field constructions are separate subprograms and must not be scored as one result.",
+      "primary_sources": [
+        {"title": "The causal set approach to quantum gravity", "url": "https://arxiv.org/abs/1903.11544"},
+        {"title": "Classical sequential growth dynamics for causal sets", "url": "https://arxiv.org/abs/gr-qc/9904062"},
+        {"title": "A manifestly covariant framework for causal set quantum field theory", "url": "https://arxiv.org/abs/2402.08555"}
+      ],
+      "source_native_claim": "A locally finite partial order can encode causal order and volume, with continuum spacetime approximated by faithful sprinklings and dynamics or quantum measures assigned over causal sets.",
+      "strongest_result": "A sharply defined discrete Lorentz-compatible kinematics, nontrivial sequential-growth classification and developed operators/QFT constructions; no unique realistic quantum dynamics is established.",
+      "assumptions_limits": "Causal order is primitive, local finiteness and Poisson sprinkling are installed, and manifold recovery is difficult. The Hauptvermutung and dynamics-to-GR bridge remain central burdens.",
+      "comparison_surfaces": ["root_and_least_presumption", "probability_time_causality_and_order", "spacetime_gravity_matter_and_cosmogenesis"],
+      "proposed_roles": ["competitor", "donor", "mathematical_tool"],
+      "external_offers_joshua": "A serious finite order-based spacetime competitor, covariant random-discreteness tests and concrete manifold-recovery benchmarks.",
+      "joshua_hypothesis": "Joshua's schedule and carrier tournaments could test causal order against weaker dependency, distinguishability and noncausal order grammars instead of installing it as the root.",
+      "decisive_test": "On finite orders with known manifold and nonmanifold generators, compare causal-set observables and Joshua-derived quotients for dimension, locality, dynamics and held-out continuum recovery under equal complexity.",
+      "ranking_eligible": false
+    },
+    {
+      "program_id": "verlinde_emergent_entropic_gravity",
+      "contributors": ["Erik Verlinde"],
+      "canonical_version_scope": "The 2011 entropic-force proposal and 2016 emergent-gravity/dark-universe model are distinct versions; this card targets the latter with the former as ancestry.",
+      "primary_sources": [
+        {"title": "On the Origin of Gravity and the Laws of Newton", "url": "https://arxiv.org/abs/1001.0785"},
+        {"title": "Emergent Gravity and the Dark Universe", "url": "https://arxiv.org/abs/1611.02269"}
+      ],
+      "source_native_claim": "Gravity and apparent dark-matter effects can arise from entropy, holographic information and an elastic response associated with de Sitter entropy rather than a fundamental force or particle dark matter.",
+      "strongest_result": "Derivation-like relations reproducing Newtonian scaling and a phenomenological relation for certain galaxy-scale dark-matter effects; the full relativistic, lensing, cluster and cosmological theory is incomplete.",
+      "assumptions_limits": "Area laws, holographic screens, temperature/equipartition or elastic-medium ingredients are installed; derivations can be reinterpretations of known dynamics. Empirical scope is narrower than a replacement for GR plus dark matter.",
+      "comparison_surfaces": ["nested_entropic_geometry_flux_and_chirality", "spacetime_gravity_matter_and_cosmogenesis", "root_and_least_presumption"],
+      "proposed_roles": ["competitor", "donor", "empirical_testbed"],
+      "external_offers_joshua": "A worked entropy-to-gravity bridge and direct galaxy/lensing confrontation surfaces.",
+      "joshua_hypothesis": "Joshua's nested information geometry could force every entropy, partition and coarse-graining choice to be earned and separate genuine dynamics from thermodynamic redescription.",
+      "decisive_test": "Reproduce locked galaxy, lensing and cosmological predictions for the native model, then compare Joshua-transplanted and sham variants on held-out systems without post-hoc interpolation or hidden dark components.",
+      "ranking_eligible": false
+    },
+    {
+      "program_id": "maldacena_er_epr_entanglement_geometry",
+      "contributors": ["Juan Maldacena", "Leonard Susskind", "Shinsei Ryu", "Tadashi Takayanagi"],
+      "canonical_version_scope": "ER=EPR is a conjectural bridge informed by AdS/CFT; holographic entropy formulae and tensor-network constructions are donor programs, not identical claims.",
+      "primary_sources": [
+        {"title": "Cool horizons for entangled black holes", "url": "https://arxiv.org/abs/1306.0533"},
+        {"title": "Holographic Derivation of Entanglement Entropy from AdS/CFT", "url": "https://arxiv.org/abs/hep-th/0603001"}
+      ],
+      "source_native_claim": "Certain entangled states and nontraversable Einstein–Rosen bridges may be two descriptions of related structure; in AdS/CFT, boundary entanglement entropy is tied to bulk extremal area.",
+      "strongest_result": "Highly constrained holographic dualities and entropy/geometry calculations, not a general proof that all entanglement is spacetime or that our universe is AdS.",
+      "assumptions_limits": "Relies on quantum field theory, gravity and holographic duality in special regimes; dictionary, large-N/semiclassical limits and boundary conditions are installed. ER=EPR remains broader than its proved cases.",
+      "comparison_surfaces": ["nested_entropic_geometry_flux_and_chirality", "spacetime_gravity_matter_and_cosmogenesis", "object_individual_boundary_and_observer"],
+      "proposed_roles": ["donor", "competitor", "mathematical_tool"],
+      "external_offers_joshua": "The hardest existing quantitative entropy-to-geometry recovery target and a warning that correspondence is regime- and dictionary-dependent.",
+      "joshua_hypothesis": "The cross-view and nested-geometry modules could search for weaker finite correspondences, but must earn the mapping and reproduce known holographic entropies first.",
+      "decisive_test": "On finite holographic codes with exact entropies and reconstruction wedges, recover the native dictionary, test alternative carriers and require out-of-sample geometry/reconstruction improvements.",
+      "ranking_eligible": false
+    },
+    {
+      "program_id": "frenkel_quantum_geometric_langlands",
+      "contributors": ["Edward Frenkel", "Mina Aganagic", "Andrei Okounkov", "Davide Gaiotto"],
+      "canonical_version_scope": "Geometric Langlands/CFT and quantum q-Langlands correspondences are exact mathematical-physics programs, not claims that the Langlands program is itself a physical ToE.",
+      "primary_sources": [
+        {"title": "Lectures on the Langlands Program and Conformal Field Theory", "url": "https://arxiv.org/abs/hep-th/0512172"},
+        {"title": "Quantum q-Langlands Correspondence", "url": "https://arxiv.org/abs/1701.03146"}
+      ],
+      "source_native_claim": "Deep equivalences connect representation-theoretic, geometric and conformal-block structures, with proved deformed correspondences for specified Lie-algebra classes.",
+      "strongest_result": "Exact correspondence theorems and computable dual descriptions in tightly specified mathematical settings.",
+      "assumptions_limits": "Large algebraic and geometric structures are installed; applicability to fundamental ontology or observed physics is not automatic. Analogy to unification is not empirical evidence.",
+      "comparison_surfaces": ["formal_tools_limits_and_falsifiers", "nested_entropic_geometry_flux_and_chirality", "qit_engines_and_recursive_construction"],
+      "proposed_roles": ["mathematical_tool", "donor", "critic_falsifier"],
+      "external_offers_joshua": "Exact nontrivial dualities as a gold standard for any claimed cross-view bridge.",
+      "joshua_hypothesis": "Ratchet search might discover finite shadows or classify when two presentations carry the same demanded distinctions, but correspondence must be proved rather than narrated.",
+      "decisive_test": "Reproduce a finite nontrivial q-Langlands identity from two independently encoded sides, then test whether Joshua's bridge compresses the proof or predicts a new identity without installing the correspondence.",
+      "ranking_eligible": false
+    },
+    {
+      "program_id": "barbour_shape_dynamics_timelessness",
+      "contributors": ["Julian Barbour", "Tim Koslowski", "Flavio Mercati"],
+      "canonical_version_scope": "Relational best matching, shape dynamics and Janus-point/time-arrow models are related but distinct; later dossiers must split their mathematical and cosmological claims.",
+      "primary_sources": [
+        {"title": "Shape Dynamics and the Problem of Time", "url": "https://arxiv.org/abs/1302.6264"},
+        {"title": "A Gravitational Origin of the Arrows of Time", "url": "https://arxiv.org/abs/1310.5167"}
+      ],
+      "source_native_claim": "Relational shape degrees of freedom can replace absolute scale and, in certain formulations, refoliation symmetry; time's arrow may arise away from a low-complexity Janus point in an unconfined gravitational system.",
+      "strongest_result": "Nontrivial reformulations/duality with sectors of GR and exact relational N-body analyses; empirical distinction and realistic cosmology remain open.",
+      "assumptions_limits": "Configuration space, best matching, dynamics and complexity measures are installed; equivalence domains are restricted and matter/quantum completion unresolved. 'Timeless' can name several different theses.",
+      "comparison_surfaces": ["probability_time_causality_and_order", "spacetime_gravity_matter_and_cosmogenesis", "root_and_least_presumption"],
+      "proposed_roles": ["competitor", "donor", "critic_falsifier"],
+      "external_offers_joshua": "A serious test of whether time, scale and geometry can be relationally reconstructed rather than primitive.",
+      "joshua_hypothesis": "Joshua's recurrence and order-open packets could compare clockless relational descriptions against primitive-time and history-dependent alternatives.",
+      "decisive_test": "Recover an exact relational model and its emergent clock/arrow with representation and gauge controls; require Joshua's version to reduce assumptions or predict a held-out relational observable.",
+      "ranking_eligible": false
+    },
+    {
+      "program_id": "frauchiger_renner_self_reference_no_go",
+      "contributors": ["Daniela Frauchiger", "Renato Renner"],
+      "canonical_version_scope": "The 2016/2018 extended-Wigner-friend theorem and its explicit assumptions; responses are separate programs.",
+      "primary_sources": [
+        {"title": "Quantum theory cannot consistently describe the use of itself", "url": "https://arxiv.org/abs/1604.07422"}
+      ],
+      "source_native_claim": "A specified combination of universal quantum reasoning, single outcomes and cross-agent consistency yields contradictory certainty claims in an extended Wigner-friend experiment.",
+      "strongest_result": "A precise no-go construction that forces interpretations to identify which inference or ontology assumption they reject.",
+      "assumptions_limits": "Interpretation of the consistency, single-world and quantum-use assumptions is contested; the theorem does not simply prove that quantum theory is inconsistent.",
+      "comparison_surfaces": ["formal_tools_limits_and_falsifiers", "object_individual_boundary_and_observer", "probability_time_causality_and_order"],
+      "proposed_roles": ["critic_falsifier", "mathematical_tool"],
+      "external_offers_joshua": "A mandatory self-reference and cross-view consistency gate for the Holodeck and monist-bridge modules.",
+      "joshua_hypothesis": "Explicit view-relative records and semiconjugacies may identify exactly which inference transfers are licensed, rather than assuming global consistency.",
+      "decisive_test": "Encode the full protocol and every inference rule, reproduce the contradiction, then show Joshua's bridge blocks a specific invalid transfer while preserving ordinary agent predictions and composition.",
+      "ranking_eligible": false
+    },
+    {
+      "program_id": "mannheim_conformal_gravity",
+      "contributors": ["Philip Mannheim", "James O'Brien"],
+      "canonical_version_scope": "Fourth-order Weyl conformal gravity with galaxy and cosmology applications; distinguish field theory, fitting program and scalar-sector debates.",
+      "primary_sources": [
+        {"title": "Fitting galactic rotation curves with conformal gravity and a global quadratic potential", "url": "https://arxiv.org/abs/1011.3495"},
+        {"title": "Structure of conformal gravity in the presence of a scale breaking scalar field", "url": "https://arxiv.org/abs/2105.14679"}
+      ],
+      "source_native_claim": "Local Weyl symmetry and fourth-order field equations can fit galaxy rotation curves using global linear/quadratic potentials without particle dark matter and offer an alternative cosmology.",
+      "strongest_result": "A broad galaxy-rotation fitting program with few universal parameters and a developed covariant field theory; global multi-probe adequacy and quantum consistency remain disputed.",
+      "assumptions_limits": "Continuum spacetime, conformal symmetry and fourth-order action are installed; fits face baryonic-mass, lensing, cluster, CMB and stability/unitarity tests. Successful curve fits do not select the theory alone.",
+      "comparison_surfaces": ["spacetime_gravity_matter_and_cosmogenesis", "formal_tools_limits_and_falsifiers", "root_and_least_presumption"],
+      "proposed_roles": ["competitor", "empirical_testbed", "critic_falsifier"],
+      "external_offers_joshua": "A concrete non-Einsteinian gravity alternative with public astronomical constraints and explicit symmetry debt.",
+      "joshua_hypothesis": "The carrier and geometry tournaments could ask whether conformal structure is earned, but cannot substitute a qualitative entropy story for multi-probe calculations.",
+      "decisive_test": "Reproduce rotation, lensing, cluster, cosmology and weak-field predictions under one locked parameter policy; compare against GR/dark-matter baselines and any Joshua-derived correction on held-out systems.",
+      "ranking_eligible": false
+    },
+    {
+      "program_id": "hameroff_penrose_orch_or",
+      "contributors": ["Stuart Hameroff", "Roger Penrose"],
+      "canonical_version_scope": "The 2014 revised Orch OR theory; separate Penrose objective-reduction physics, microtubule biophysics and consciousness interpretation in later scoring.",
+      "primary_sources": [
+        {"title": "Consciousness in the universe: A review of the Orch OR theory", "url": "https://doi.org/10.1016/j.plrev.2013.08.002"}
+      ],
+      "source_native_claim": "Orchestrated quantum processes in neuronal microtubules undergo gravity-related objective reduction, producing discrete conscious events with noncomputable aspects.",
+      "strongest_result": "A cross-domain mechanistic proposal with some independently testable microtubule/anesthetic subclaims; no direct evidence connects objective reduction in microtubules to conscious contents.",
+      "assumptions_limits": "Imports objective collapse, spacetime-threshold estimates, biologically sustained quantum coherence and a consciousness mapping. Decoherence, physiological scale and Gödelian inferences are major disputed bridges.",
+      "comparison_surfaces": ["fep_perception_consciousness_and_holodeck", "finite_quantum_and_carrier_reconstruction", "qit_engines_and_recursive_construction"],
+      "proposed_roles": ["competitor", "empirical_testbed", "critic_falsifier"],
+      "external_offers_joshua": "A rare proposal with separable physical, biological and phenomenal bridge claims that can be killed independently.",
+      "joshua_hypothesis": "Ratchet receipts could prevent evidence for microtubule optics or anesthetic binding from being promoted into evidence for quantum consciousness.",
+      "decisive_test": "Predeclare coherence, collapse and conscious-event predictions; test them separately with sham microtubule models, temperature/noise controls and objective-collapse bounds. No repair exists unless the full bridge gains predictive force.",
+      "ranking_eligible": false
+    },
+    {
+      "program_id": "jacobson_spacetime_thermodynamics",
+      "contributors": ["Ted Jacobson"],
+      "canonical_version_scope": "The 1995 local-horizon equilibrium derivation; non-equilibrium and entanglement-equilibrium extensions are separate versions.",
+      "primary_sources": [
+        {"title": "Thermodynamics of Spacetime: The Einstein Equation of State", "url": "https://arxiv.org/abs/gr-qc/9504004"},
+        {"title": "Entanglement equilibrium and the Einstein equation", "url": "https://arxiv.org/abs/1505.04753"}
+      ],
+      "source_native_claim": "Demanding a Clausius relation on every local Rindler horizon, together with entropy-area proportionality and Unruh temperature, yields the Einstein equation as an equation of state; later work connects stationarity of vacuum entanglement to the linearized equation.",
+      "strongest_result": "A compact, mathematically explicit recovery of gravitational field equations from thermodynamic assumptions.",
+      "assumptions_limits": "Local Lorentzian causal horizons, area entropy, temperature/heat identification and equilibrium assumptions carry much of the result; derivation does not identify microstates or provide quantum gravity.",
+      "comparison_surfaces": ["nested_entropic_geometry_flux_and_chirality", "spacetime_gravity_matter_and_cosmogenesis", "root_and_least_presumption"],
+      "proposed_roles": ["competitor", "donor", "critic_falsifier"],
+      "external_offers_joshua": "The cleanest existing entropy-to-Einstein recovery gate and an exact ledger of the assumptions doing the work.",
+      "joshua_hypothesis": "Joshua could add value by deriving or varying horizon, entropy and equilibrium structure and showing which weaker candidates still recover the equation.",
+      "decisive_test": "Reproduce the derivation symbolically, then run an assumption tournament over entropy functional, causal structure and nonequilibrium terms; require correct GR coefficients and a new discriminator rather than verbal unification.",
+      "ranking_eligible": false
+    },
+    {
+      "program_id": "palmer_invariant_set_theory",
+      "contributors": ["Tim Palmer"],
+      "canonical_version_scope": "Invariant Set Theory in its finite-p fractal state-space formulation; separate proposed gravitational equations and quantum-symbolic constructions when evaluated.",
+      "primary_sources": [
+        {"title": "Invariant Set Theory", "url": "https://arxiv.org/abs/1605.01051"},
+        {"title": "Invariant Set Theory: Violating Measurement Independence without Fine Tuning", "url": "https://arxiv.org/abs/1507.02117"}
+      ],
+      "source_native_claim": "The universe evolves on a measure-zero, noncomputable fractal invariant set with a p-adic metric; quantum statistics and Bell violations arise through counterfactual incompleteness and measurement-dependence while retaining local causality and realism.",
+      "strongest_result": "An explicit geometric strategy for evading Bell assumptions without retrocausality plus finite symbolic constructions; no complete dynamics reproducing the full Standard Model and gravity is established.",
+      "assumptions_limits": "A special invariant set, p-adic geometry, noncomputability and cosmological constraint are installed; measure choice, dynamics, experimental distinctness and robustness of the no-fine-tuning claim require scrutiny.",
+      "comparison_surfaces": ["probability_time_causality_and_order", "finite_quantum_and_carrier_reconstruction", "spacetime_gravity_matter_and_cosmogenesis"],
+      "proposed_roles": ["competitor", "donor", "critic_falsifier"],
+      "external_offers_joshua": "A closer structural competitor than many familiar names: finite symbolic state space, nonclassical metric, top-down constraint and an explicit rejection of standard counterfactual grammar.",
+      "joshua_hypothesis": "The root-carrier and schedule tournaments could ask whether invariant-set/p-adic structure is forced or whether weaker finite behavioral quotients reproduce the same Bell and interference surface.",
+      "decisive_test": "Implement finite-p Bell/interference predictions with noise and counterfactual controls, compare to superdeterministic, retrocausal and CPTP baselines, and demand a preregistered deviation or real complexity reduction.",
+      "ranking_eligible": false
+    },
+    {
+      "program_id": "myrvold_operational_thermodynamics",
+      "contributors": ["Wayne Myrvold"],
+      "canonical_version_scope": "Thermo-dynamics as a manipulation-relative science; separate from Myrvold's other work on probability and quantum theory.",
+      "primary_sources": [
+        {"title": "The Science of Theta Delta cs", "url": "https://arxiv.org/abs/2007.11729"}
+      ],
+      "source_native_claim": "Heat, work and entropy are best understood relative to a declared class of possible manipulations and effects; Gibbs and von Neumann entropies represent this operational thermodynamic entropy under reversible-process assumptions.",
+      "strongest_result": "A precise clarification of entropy's operational domain and uniqueness conditions, exposing why an unconstrained universal scalar drive is ill-posed.",
+      "assumptions_limits": "Manipulation repertoire and reversible availability are explicit installed choices; the framework does not supply cosmological microdynamics or a universal arrow.",
+      "comparison_surfaces": ["nested_entropic_geometry_flux_and_chirality", "formal_tools_limits_and_falsifiers", "probability_time_causality_and_order"],
+      "proposed_roles": ["critic_falsifier", "donor", "mathematical_tool"],
+      "external_offers_joshua": "A direct correction to any context-free entropy language: every entropy-like drive needs its intervention repertoire and operational task.",
+      "joshua_hypothesis": "Ratchet packets can make the manipulation class part of the candidate card and retain plural entropy measures when tasks differ.",
+      "decisive_test": "For the same finite system, enumerate manipulation classes and verify when entropy orderings agree or reverse; kill any Joshua universal-drive claim that ignores those changes.",
+      "ranking_eligible": false
+    },
+    {
+      "program_id": "sarkar_cosmic_acceleration_critique",
+      "contributors": ["Subir Sarkar", "Roya Mohayaee", "Mohamed Rameez", "Jacques Colin", "Jeppe Trost Nielsen", "Alberto Guffanti"],
+      "canonical_version_scope": "Statistical supernova reanalyses and cosmic-dipole/anistropy claims; later datasets and rebuttals must be treated as adversarial versions.",
+      "primary_sources": [
+        {"title": "Marginal evidence for cosmic acceleration from Type Ia supernovae", "url": "https://arxiv.org/abs/1506.01354"},
+        {"title": "Evidence for anisotropy of cosmic acceleration", "url": "https://arxiv.org/abs/1808.04597"},
+        {"title": "Do supernovae indicate an accelerating universe?", "url": "https://arxiv.org/abs/2106.03119"}
+      ],
+      "source_native_claim": "When supernova standardization, observer frame and anisotropic bulk flow are modeled differently, direct evidence for isotropic accelerated expansion may be weaker than standard Lambda-CDM analyses imply.",
+      "strongest_result": "Concrete likelihood reanalyses and reported dipole alignments that force scrutiny of frame and isotropy assumptions; conclusions remain actively contested and dataset-dependent.",
+      "assumptions_limits": "Supernova calibration, peculiar-velocity model, sky coverage, likelihood and frame choices matter; this is a critique of inference, not a complete alternative cosmology.",
+      "comparison_surfaces": ["spacetime_gravity_matter_and_cosmogenesis", "formal_tools_limits_and_falsifiers", "probability_time_causality_and_order"],
+      "proposed_roles": ["critic_falsifier", "empirical_testbed"],
+      "external_offers_joshua": "A real astronomical test that can kill post-hoc cosmogenesis stories and force observer/frame choices into the receipt.",
+      "joshua_hypothesis": "Joshua's framework may help compare inference grammars, but has no standing until it reproduces competing likelihoods and predicts held-out sky structure.",
+      "decisive_test": "Blindly replay standard and anisotropic analyses on updated independent catalogues with preregistered calibration/systematics; Joshua variants must beat both on held-out likelihood and prediction.",
+      "ranking_eligible": false
+    },
+    {
+      "program_id": "turok_cpt_symmetric_universe",
+      "contributors": ["Latham Boyle", "Kieran Finn", "Neil Turok"],
+      "canonical_version_scope": "The CPT-symmetric universe and its right-handed-neutrino dark-matter consequences; keep distinct from Turok's other cyclic and conformal cosmologies.",
+      "primary_sources": [
+        {"title": "CPT-Symmetric Universe", "url": "https://arxiv.org/abs/1803.08928"}
+      ],
+      "source_native_claim": "The pre- and post-big-bang universe can form a CPT pair, with symmetry selecting a vacuum and yielding economical dark-matter, neutrino and primordial-wave predictions.",
+      "strongest_result": "A constrained cosmological construction with concrete predictions including a stable right-handed-neutrino mass scale, a massless lightest neutrino and absence of primordial long-wavelength gravitational waves.",
+      "assumptions_limits": "Relies on exact global CPT extension, specified Standard-Model additions, cosmological background and vacuum prescription; viability against all cosmological/particle constraints is version-dependent.",
+      "comparison_surfaces": ["spacetime_gravity_matter_and_cosmogenesis", "probability_time_causality_and_order", "nested_entropic_geometry_flux_and_chirality"],
+      "proposed_roles": ["competitor", "empirical_testbed", "critic_falsifier"],
+      "external_offers_joshua": "A much sharper cosmogenesis competitor than a qualitative arrow story because it risks particle and gravitational-wave predictions.",
+      "joshua_hypothesis": "Joshua's chirality/order module might supply a deeper selection mechanism only if it derives the CPT structure and preserves those predictions.",
+      "decisive_test": "Recover the native particle abundance and cosmological perturbation calculations, then require a Joshua-derived variant to make an additional preregistered prediction or remove an explicit assumption.",
+      "ranking_eligible": false
+    },
+    {
+      "program_id": "kastrup_analytic_idealism",
+      "contributors": ["Bernardo Kastrup"],
+      "canonical_version_scope": "Analytic idealism as a consciousness-only ontology centered on universal mind and dissociation; empirical arguments and metaphysical deductions require separate claim cards.",
+      "primary_sources": [
+        {"title": "Analytic Idealism: A consciousness-only ontology", "url": "https://repository.ubn.ru.nl/handle/2066/203090"}
+      ],
+      "source_native_claim": "Phenomenal consciousness is the sole ontic category; individual minds are dissociated alters of universal consciousness and the physical world is the extrinsic appearance of mental processes.",
+      "strongest_result": "A relatively systematic monist ontology addressing combination/decomposition differently from constitutive panpsychism; its core evidence is abductive and philosophical rather than a unique quantitative prediction.",
+      "assumptions_limits": "Universal consciousness, dissociation analogy and intrinsic/extrinsic mapping are installed; bridge laws and discriminators against physicalism, neutral monism and other idealisms remain weak.",
+      "comparison_surfaces": ["root_and_least_presumption", "object_individual_boundary_and_observer", "fep_perception_consciousness_and_holodeck"],
+      "proposed_roles": ["competitor", "critic_falsifier"],
+      "external_offers_joshua": "A direct monist rival that forces Joshua to say whether 'possibility/information' is ontology, method or merely a redescription of experience.",
+      "joshua_hypothesis": "Joshua's plural views and finite object formation could replace dissociation metaphor with explicit cross-view mechanics, but only if phenomenal and physical constraints are both recovered.",
+      "decisive_test": "Demand a formal map from universal process to individual reports and physical records, compare against neutral-monist and predictive-processing models, and require a unique intervention or compression gain.",
+      "ranking_eligible": false
+    },
+    {
+      "program_id": "hoffman_interface_conscious_agents",
+      "contributors": ["Donald Hoffman", "Chetan Prakash", "Manish Singh"],
+      "canonical_version_scope": "Interface theory of perception, fitness-beats-truth evolutionary models and conscious-agent networks are connected but separable programs.",
+      "primary_sources": [
+        {"title": "Objects of consciousness", "url": "https://doi.org/10.3389/fpsyg.2014.00577"},
+        {"title": "The Interface Theory of Perception", "url": "https://doi.org/10.3758/s13423-015-0890-8"}
+      ],
+      "source_native_claim": "Evolution selects fitness-tuned perceptual interfaces rather than veridical representations, and conscious agents can be modeled as interacting Markov kernels from which spacetime/objects are intended to emerge.",
+      "strongest_result": "Formal evolutionary-game examples showing fitness can favor lossy task-specific encodings and a compositional conscious-agent formalism; sweeping anti-realist and spacetime claims outrun those results.",
+      "assumptions_limits": "Fitness functions, world states, perceptual channels, Markov time and consciousness labels are installed; generality depends on game class and environment, and no accepted physical reconstruction is complete.",
+      "comparison_surfaces": ["fep_perception_consciousness_and_holodeck", "object_individual_boundary_and_observer", "qit_engines_and_recursive_construction"],
+      "proposed_roles": ["competitor", "donor", "empirical_testbed"],
+      "external_offers_joshua": "A strong formal rival for provisional worlds/interfaces and a warning that usefulness need not track truth.",
+      "joshua_hypothesis": "The Holodeck module could generalize interface formation while reopening fitness, time, Markov structure and primitive agent boundaries.",
+      "decisive_test": "Reproduce the native evolutionary games, add environment-shift and intervention controls, and compare native interfaces, predictive-state/IB baselines, Joshua wrapper and shams on held-out survival and calibration.",
+      "ranking_eligible": false
+    },
+    {
+      "program_id": "noble_biological_relativity",
+      "contributors": ["Denis Noble"],
+      "canonical_version_scope": "Biological relativity/no privileged level of causation; distinguish this principle from particular cardiac Physiome models and extended-evolution claims.",
+      "primary_sources": [
+        {"title": "A theory of biological relativity: no privileged level of causation", "url": "https://doi.org/10.1098/rsfs.2011.0067"}
+      ],
+      "source_native_claim": "No biological scale has universal causal privilege; constraints and influences operate across molecular, cellular, organ and organismal levels, so explanations should be multilevel and model-relative.",
+      "strongest_result": "A principled systems-biology critique of gene-centric causal privilege backed by multiscale physiological modeling; not a single quantitative law of biology.",
+      "assumptions_limits": "The principle can become permissive unless scale, intervention and explanatory task are explicit; 'downward causation' must be operationalized rather than inferred from feedback alone.",
+      "comparison_surfaces": ["life_evolution_agency_and_origins", "object_individual_boundary_and_observer", "probability_time_causality_and_order"],
+      "proposed_roles": ["donor", "critic_falsifier", "empirical_testbed"],
+      "external_offers_joshua": "A direct biological version of deprivileging one description and real multiscale models against which boundary claims can be tested.",
+      "joshua_hypothesis": "Plural MSS views could formalize when several scales are irreducibly useful without reifying vague top-down causation.",
+      "decisive_test": "Use a multiscale physiological intervention dataset; compare single-level, explicit multilevel and Joshua-plural models on held-out interventions, with complexity and common-driver controls.",
+      "ranking_eligible": false
+    },
+    {
+      "program_id": "seth_interoceptive_predictive_self",
+      "contributors": ["Anil Seth", "Keisuke Suzuki", "Hugo Critchley"],
+      "canonical_version_scope": "Interoceptive predictive coding/inference for presence, emotion and embodied self; 'controlled hallucination' is an explanatory slogan, not a separate formal theory.",
+      "primary_sources": [
+        {"title": "An interoceptive predictive coding model of conscious presence", "url": "https://doi.org/10.3389/fpsyg.2011.00395"},
+        {"title": "Interoceptive inference, emotion, and the embodied self", "url": "https://doi.org/10.1016/j.tics.2013.09.007"}
+      ],
+      "source_native_claim": "Perception and embodied selfhood depend on hierarchical predictions that minimize interoceptive prediction errors and regulate bodily state; conscious presence is tied to multisensory and interoceptive inference.",
+      "strongest_result": "A productive mechanistic framework connecting predictive processing with measurable interoception and body-ownership phenomena; it is not a complete theory of phenomenal consciousness.",
+      "assumptions_limits": "Generative hierarchy, prediction-error objective, precision weighting and body variables are installed; alternative state-space/control accounts can mimic many findings and neural mapping remains incomplete.",
+      "comparison_surfaces": ["fep_perception_consciousness_and_holodeck", "object_individual_boundary_and_observer", "qit_engines_and_recursive_construction"],
+      "proposed_roles": ["donor", "empirical_testbed", "competitor"],
+      "external_offers_joshua": "Concrete perceptual and interoceptive tasks that can ground the Holodeck instead of leaving it at metaphysical scale.",
+      "joshua_hypothesis": "Joshua's provisional-object and memory machinery could discover useful self-model boundaries while reopening the error metric and generative family.",
+      "decisive_test": "On preregistered interoceptive/body-ownership perturbations, compare predictive-processing, generic control/state-space, Joshua-wrapped and sham models on held-out trial-level predictions and complexity.",
+      "ranking_eligible": false
+    },
+    {
+      "program_id": "chen_wentaculus",
+      "contributors": ["Eddy Keming Chen"],
+      "canonical_version_scope": "Density Matrix Realism plus the Initial Projection Hypothesis for the thermodynamic arrow; distinguish Everettian, Bohmian and collapse instantiations.",
+      "primary_sources": [
+        {"title": "Quantum Mechanics in a Time-Asymmetric Universe", "url": "https://arxiv.org/abs/1712.01666"},
+        {"title": "The Wentaculus: Density Matrix Realism Meets the Arrow of Time", "url": "https://arxiv.org/abs/2211.03973"}
+      ],
+      "source_native_claim": "A normalized projector onto a low-entropy Past-Hypothesis subspace can be the objective initial density matrix and a simple nomological boundary condition, unifying the arrow of time with quantum ontology and removing a separate statistical postulate.",
+      "strongest_result": "A precise reduction of vagueness and probabilistic postulates within a specified quantum-statistical framework; it remains empirically underdetermined from rival Past-Hypothesis packages.",
+      "assumptions_limits": "Hilbert space, low-entropy macrospace, boundary-condition law and quantum dynamics are installed; the origin/selection of the Past-Hypothesis subspace is not derived.",
+      "comparison_surfaces": ["probability_time_causality_and_order", "finite_quantum_and_carrier_reconstruction", "spacetime_gravity_matter_and_cosmogenesis"],
+      "proposed_roles": ["competitor", "donor", "critic_falsifier"],
+      "external_offers_joshua": "A clean rival to emergent-arrow rhetoric: one simple exact boundary law that earns many time asymmetries within the model.",
+      "joshua_hypothesis": "Recurrence/basin machinery might explain or replace the boundary condition only if it yields the same macro-arrow without selecting the low-entropy set by hand.",
+      "decisive_test": "Use finite quantum models with exact macrospaces to compare Wentaculus, typicality, two-boundary and Joshua recurrence accounts on arrows, retrodiction, installed bits and representation stability.",
+      "ranking_eligible": false
+    }
+  ]
+}

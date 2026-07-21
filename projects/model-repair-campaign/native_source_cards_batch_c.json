@@ -1,0 +1,1001 @@
+{
+  "schema_version": "native-source-cards/0.1",
+  "status": "UNRESOLVED_SOURCE_RECONSTRUCTION_ONLY",
+  "source_policy": "Primary scholarly papers, author-hosted manuscripts, official publisher pages, and official source-code repositories only. Source reconstruction does not establish a repair or a ranking.",
+  "ranking_policy": "Every card is unranked until its native baseline is locked or explicitly documented as non-executable and a common evidence packet is run under equal budgets.",
+  "cards": [
+    {
+      "id": "maudlin_bohmian_realism",
+      "canonical_program": "de Broglie-Bohm or Bohmian mechanics, with Maudlin's Bell-nonlocality and realist analysis treated as a separate philosophical contribution",
+      "program_version": "Nonrelativistic particle ontology with Schrodinger evolution, guiding dynamics, and quantum equilibrium; relativistic and QFT extensions remain version-specific",
+      "program_split_status": "NEEDS_SPLIT",
+      "contributors": [
+        "Louis de Broglie",
+        "David Bohm",
+        "Roderich Tumulka",
+        "Tim Maudlin"
+      ],
+      "primary_sources": [
+        {
+          "title": "A Suggested Interpretation of the Quantum Theory in Terms of Hidden Variables. I",
+          "url": "https://doi.org/10.1103/PhysRev.85.166"
+        },
+        {
+          "title": "A Suggested Interpretation of the Quantum Theory in Terms of Hidden Variables. II",
+          "url": "https://doi.org/10.1103/PhysRev.85.180"
+        },
+        {
+          "title": "Bohmian Mechanics",
+          "url": "https://arxiv.org/abs/1704.08017"
+        },
+        {
+          "title": "What Bell Did",
+          "url": "https://arxiv.org/abs/1408.1826"
+        }
+      ],
+      "native": {
+        "primitives_and_dynamics": "An actual configuration q(t), a universal wavefunction evolving by the Schrodinger equation, and a guiding equation for configurations. Quantum equilibrium supplies the Born distribution.",
+        "claims": "The theory gives an observer-independent, deterministic, explicitly nonlocal account of ordinary nonrelativistic quantum phenomena and reproduces the standard outcome probabilities in quantum equilibrium. Maudlin argues that observed Bell-inequality violations imply physical nonlocality.",
+        "strongest_actual_result": "A clear ontology and exact recovery of ordinary nonrelativistic quantum predictions, together with a direct account of measurement outcomes without a primitive collapse postulate.",
+        "explicit_assumptions": [
+          "Primitive configuration and time",
+          "Universal wavefunction and Schrodinger dynamics",
+          "Guiding law",
+          "Quantum-equilibrium or typicality condition"
+        ],
+        "scope_limits": [
+          "Standard-domain empirical equivalence is not a distinctive empirical confirmation of the ontology",
+          "Relativistic and quantum-field versions require additional, version-dependent structure",
+          "Some formulations require a preferred foliation or additional field or event ontology",
+          "The program is associative and does not answer Joshua's nonassociative-carrier fork"
+        ]
+      },
+      "roles": [
+        "competitor",
+        "critic_falsifier"
+      ],
+      "joshua_crosswalk": {
+        "comparison_surface_ids": [
+          "finite_quantum_and_carrier_reconstruction",
+          "probability_time_causality_and_order"
+        ],
+        "surface_aliases": [
+          "carrier_tournament",
+          "nonassoc_branch"
+        ],
+        "what_it_offers_joshua": "A hard primitive-ontology and nonlocality adversary, with exact Bell, interference, and measurement baselines.",
+        "what_joshua_might_offer_hypothesis": "Joshua might reproduce the operational predictions with a weaker finite, order-open carrier and without primitive trajectories or a single global causal narrative. This is untested."
+      },
+      "decisive_comparison_or_kill_test": "Run one preregistered finite Bell-plus-interference packet in a native Bohmian simulator, standard CPTP quantum mechanics, and Joshua's carrier. Compare predictions, compositionality, installed primitives, and any novel discriminator. Reject the Joshua transplant if it neither removes load-bearing assumptions nor adds a distinguishing prediction.",
+      "dossier_status": "UNRESOLVED",
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED"
+    },
+    {
+      "id": "mclarty_weak_foundations",
+      "canonical_program": "Proof-theoretic reduction of Grothendieck-style mathematics and a univalent universe to finite-order arithmetic",
+      "program_version": "McLarty's 2011-2015 finite-order arithmetic reconstructions",
+      "program_split_status": "PROVISIONAL_BOUNDED_PROGRAM",
+      "contributors": [
+        "Colin McLarty"
+      ],
+      "primary_sources": [
+        {
+          "title": "The large structures of Grothendieck founded on finite order arithmetic",
+          "url": "https://arxiv.org/abs/1102.1773"
+        },
+        {
+          "title": "A univalent universe in finite order arithmetic",
+          "url": "https://arxiv.org/abs/1412.6714"
+        },
+        {
+          "title": "Zariski cohomology in second order arithmetic",
+          "url": "https://arxiv.org/abs/1207.0276"
+        }
+      ],
+      "native": {
+        "primitives_and_dynamics": "Finite-order arithmetic is the background foundation; large categorical and algebro-geometric constructions are encoded and interpreted in that base. This is a proof-theoretic program, not a physical dynamics.",
+        "claims": "EGA and SGA theorems, toposes, derived categories, and a univalent universe can be supported without the set-theoretic strength often assumed, avoiding Grothendieck universes and Replacement in the stated constructions.",
+        "strongest_actual_result": "Explicit relative-foundational reductions, including the claim of optimal strength for the large-structure tools because an elementary topos of sets with infinity already reaches finite-order arithmetic strength.",
+        "explicit_assumptions": [
+          "Finite-order arithmetic",
+          "Completed natural numbers and encoded infinite structures",
+          "Formal interpretations appropriate to each construction"
+        ],
+        "scope_limits": [
+          "Finite-order arithmetic is not a finite physical ontology",
+          "The result does not derive a theory of physics",
+          "Weakness is relative to a formalization target and does not automatically minimize executable resource burden"
+        ]
+      },
+      "roles": [
+        "mathematical_tool",
+        "critic_falsifier",
+        "donor"
+      ],
+      "joshua_crosswalk": {
+        "comparison_surface_ids": [
+          "root_and_least_presumption",
+          "formal_tools_limits_and_falsifiers",
+          "admission_mss_and_purgatory"
+        ],
+        "surface_aliases": [
+          "ratchet_purgatory"
+        ],
+        "what_it_offers_joshua": "A rigorous way to audit axiom debt and to distinguish mathematical convenience from foundational necessity.",
+        "what_joshua_might_offer_hypothesis": "Ratchet receipts and packet-relative MSS constructions might identify still weaker bounded fragments or executable finite surrogates. This has not been demonstrated."
+      },
+      "decisive_comparison_or_kill_test": "Formalize the same nontrivial Ratchet theorem or tool in the current foundation and a McLarty-style weak base, enumerate every axiom, and replay the proofs. Reject Joshua's claimed gain if it removes no assumption or increases proof burden without new capability.",
+      "dossier_status": "UNRESOLVED",
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED"
+    },
+    {
+      "id": "nekrasov_exact_qft",
+      "canonical_program": "Nekrasov instanton partition functions for four-dimensional N=2 supersymmetric gauge theories in an Omega background, plus the Nekrasov-Shatashvili gauge-integrable correspondence",
+      "program_version": "Omega-background localization and instanton-counting program, 2002 onward",
+      "program_split_status": "NEEDS_SCOPE_NARROWING",
+      "contributors": [
+        "Nikita Nekrasov",
+        "Andrei Okounkov",
+        "Samson Shatashvili"
+      ],
+      "primary_sources": [
+        {
+          "title": "Seiberg-Witten Prepotential From Instanton Counting",
+          "url": "https://arxiv.org/abs/hep-th/0206161"
+        },
+        {
+          "title": "Seiberg-Witten Theory and Random Partitions",
+          "url": "https://arxiv.org/abs/hep-th/0306238"
+        },
+        {
+          "title": "Quantization of Integrable Systems and Four Dimensional Gauge Theories",
+          "url": "https://arxiv.org/abs/0908.4052"
+        },
+        {
+          "title": "Seiberg-Witten prepotential from instanton counting: ICM lecture",
+          "url": "https://arxiv.org/abs/hep-th/0306211"
+        }
+      ],
+      "native": {
+        "primitives_and_dynamics": "A supersymmetric gauge theory, instanton moduli spaces, equivariant localization, deformation parameters epsilon_1 and epsilon_2, and partition sums represented by Young diagrams. A special limit connects the gauge theory to quantum integrable systems.",
+        "claims": "The Omega-background partition function can be calculated explicitly for specified N=2 theories; the undeformed limit yields Seiberg-Witten data, and the Nekrasov-Shatashvili limit relates supersymmetric vacua to Bethe states and the twisted superpotential to a Yang-Yang function.",
+        "strongest_actual_result": "Explicit instanton partition functions agreeing with available low-instanton calculations and a rigorous derivation of Seiberg-Witten curves, differentials, and prepotential for the stated theory class.",
+        "explicit_assumptions": [
+          "N=2 supersymmetry",
+          "Specified gauge group and matter content",
+          "Omega background",
+          "Localization and moduli-space machinery",
+          "Continuum geometry and infinite sums"
+        ],
+        "scope_limits": [
+          "Exactness is sector- and model-specific, not exact generic QFT",
+          "The program is not evidence for a fundamental ontology",
+          "The continuum and supersymmetric structures are installed rather than derived"
+        ]
+      },
+      "roles": [
+        "mathematical_tool",
+        "donor",
+        "critic_falsifier"
+      ],
+      "joshua_crosswalk": {
+        "comparison_surface_ids": [
+          "formal_tools_limits_and_falsifiers",
+          "finite_quantum_and_carrier_reconstruction",
+          "qit_engines_and_recursive_construction",
+          "spacetime_gravity_matter_and_cosmogenesis"
+        ],
+        "surface_aliases": [
+          "carrier_tournament",
+          "qit_engines",
+          "cosmogenesis"
+        ],
+        "what_it_offers_joshua": "Exact coefficients, identities, localization methods, and a demanding downstream QFT recovery gate.",
+        "what_joshua_might_offer_hypothesis": "A finite carrier might yield certified truncations or earn some combinatorial structure from weaker assumptions. No such derivation currently exists."
+      },
+      "decisive_comparison_or_kill_test": "Preregister low-instanton coefficients and identities, reproduce them independently in Julia, JAX, PyTorch, and an exact symbolic lane, then compare any Joshua-derived finite construction by error bound and axiom count. Reject the transplant if it merely re-encodes localization or loses exactness.",
+      "dossier_status": "UNRESOLVED",
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED"
+    },
+    {
+      "id": "nick_lane_origin_of_life",
+      "canonical_program": "Alkaline-hydrothermal-vent bioenergetic origins, with experimental protometabolism and protocell-heredity work kept distinct from the historical reconstruction",
+      "program_version": "Chemiosmotic alkaline-vent program and associated experimental and mathematical work through 2022",
+      "program_split_status": "NEEDS_SUBPROGRAM_SPLIT",
+      "contributors": [
+        "Nick Lane",
+        "William F. Martin",
+        "Stuart A. Harrison",
+        "Silvana Pinna",
+        "Sean F. Jordan",
+        "Vitor Sojo",
+        "paper-specific collaborators"
+      ],
+      "primary_sources": [
+        {
+          "title": "The Origin of Membrane Bioenergetics",
+          "url": "https://doi.org/10.1016/j.cell.2012.11.050"
+        },
+        {
+          "title": "Life as a guide to prebiotic nucleotide synthesis",
+          "url": "https://www.nature.com/articles/s41467-018-07220-y"
+        },
+        {
+          "title": "A prebiotic basis for ATP as the universal energy currency",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3001437"
+        },
+        {
+          "title": "The limits of metabolic heredity in protocells",
+          "url": "https://royalsocietypublishing.org/doi/10.1098/rspb.2022.1684"
+        }
+      ],
+      "native": {
+        "primitives_and_dynamics": "Geochemical H2-CO2 disequilibrium, alkaline vent micropores, natural proton gradients across mineral barriers, iron and nickel catalysis, chemiosmotic coupling, and protocell populations with reaction networks and inherited compositional effects.",
+        "claims": "Continuity between vent geochemistry, core autotrophic metabolism, membrane bioenergetics, and early cells can explain major features of life's origin; natural gradients could precede genetically encoded pumps.",
+        "strongest_actual_result": "Partial chemistry rather than creation of life: Pinna and collaborators report that Fe3+ plus acetyl phosphate phosphorylates ADP to ATP at roughly 15-20 percent yield in water and is unusually selective among tested ions, phosphate donors, and nucleoside diphosphates. Protocell models also identify concrete limits on metabolic heredity.",
+        "explicit_assumptions": [
+          "Relevant Hadean vent geochemistry and sustained gradients",
+          "Mineral barriers and catalysts",
+          "Continuity between geochemical and biochemical pathways",
+          "Specified protocell compartments and reaction kinetics"
+        ],
+        "scope_limits": [
+          "No complete experimental path from vent chemistry to life",
+          "Open gaps for genetic polymers, membranes, full autocatalysis, and robust heredity",
+          "Environmental concentrations and yields remain uncertain",
+          "Competing surface, pond, and cyanosulfidic programs are not eliminated"
+        ]
+      },
+      "roles": [
+        "donor",
+        "empirical_testbed",
+        "competitor"
+      ],
+      "joshua_crosswalk": {
+        "comparison_surface_ids": [
+          "life_evolution_agency_and_origins",
+          "nested_entropic_geometry_flux_and_chirality",
+          "plural_attractors_and_universality",
+          "object_individual_boundary_and_observer"
+        ],
+        "surface_aliases": [
+          "entropic_geometry",
+          "attractor_mss",
+          "cross_view_bridge"
+        ],
+        "what_it_offers_joshua": "Real chemical constraints, gradient and compartment mechanisms, negative experimental results, and a held-out bridge from energy flow to persistence and individuality.",
+        "what_joshua_might_offer_hypothesis": "Boundary discovery, plural attractors, and engine-like organization might unify protocell selection and repair without labeling the units in advance. This remains speculative."
+      },
+      "decisive_comparison_or_kill_test": "Use blind reaction-network benchmarks spanning vent and rival environments, with held-out reaction yields, energy coupling, persistence, and heredity interventions. Reject the Joshua layer if it only renames gradients or predicts chemistry no better than native kinetic models.",
+      "dossier_status": "UNRESOLVED",
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED"
+    },
+    {
+      "id": "norton_causation_entropy_critique",
+      "canonical_program": "Two distinct critical programs: causation and determinism as local rather than universal physical structure; and criticism of universal Landauer-cost derivations in idealized thermodynamics of computation",
+      "program_version": "Causation as Folk Science and Norton's dome; Waiting for Landauer",
+      "program_split_status": "NEEDS_SPLIT",
+      "contributors": [
+        "John D. Norton"
+      ],
+      "primary_sources": [
+        {
+          "title": "Causation as Folk Science",
+          "url": "https://quod.lib.umich.edu/p/phimp/3521354.0003.004"
+        },
+        {
+          "title": "The Dome: A Simple Violation of Determinism in Newtonian Mechanics",
+          "url": "https://sites.pitt.edu/~jdnorton/Goodies/Dome/"
+        },
+        {
+          "title": "Waiting for Landauer",
+          "url": "https://sites.pitt.edu/~jdnorton/papers/Waiting.pdf"
+        }
+      ],
+      "native": {
+        "primitives_and_dynamics": "The causation program is a critique, not a new dynamics. The dome uses Newton's equation with a non-Lipschitz force profile and displays multiple solutions from one initial condition. The Landauer program audits explicit thermodynamic device repertoires, phase-space claims, probabilistic entropy, and thermal fluctuations.",
+        "claims": "Physics does not license a universal causal principle; causal schemas are locally useful. Common proofs of an unavoidable erasure entropy cost rely on disputed or inconsistent assumptions and often neglect fluctuations.",
+        "strongest_actual_result": "An explicit family of Newtonian solutions that defeats uniqueness for the idealized dome, plus detailed assumption-level counterarguments against stated Landauer derivations.",
+        "explicit_assumptions": [
+          "Idealized dome geometry and non-Lipschitz force for the indeterminism example",
+          "Specified idealized memory and one-molecule-gas repertoires for the thermodynamic critique"
+        ],
+        "scope_limits": [
+          "The physical admissibility of the dome idealization is debated",
+          "A counterexample to universal determinism is not a general dynamics",
+          "The Landauer critique does not refute every modern device-level experiment",
+          "Norton does not claim that thermodynamic entropy is generally unreal"
+        ]
+      },
+      "roles": [
+        "critic_falsifier"
+      ],
+      "joshua_crosswalk": {
+        "comparison_surface_ids": [
+          "probability_time_causality_and_order",
+          "formal_tools_limits_and_falsifiers",
+          "nested_entropic_geometry_flux_and_chirality",
+          "admission_mss_and_purgatory"
+        ],
+        "surface_aliases": [
+          "entropic_geometry",
+          "ratchet_purgatory"
+        ],
+        "what_it_offers_joshua": "Sharp negative packets against primitive causality and against unlicensed moves from information to thermodynamic cost.",
+        "what_joshua_might_offer_hypothesis": "Joshua might derive operational asymmetries and dependencies without a primitive causal arrow and force entropy claims to be device-relative. That is a proposed test, not a result."
+      },
+      "decisive_comparison_or_kill_test": "For causation, run the exact dome with Lipschitz and physically smoothed controls plus explicit intervention tasks. For Landauer, model concrete stochastic memories with full fluctuation and resource ledgers. Reject Joshua's anti-causal advantage if a primitive-causal model is weaker and more predictive; reject any universal entropy claim that fails device-level accounting.",
+      "dossier_status": "UNRESOLVED",
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED"
+    },
+    {
+      "id": "partial_order_reduction",
+      "canonical_program": "A family of partial-order reduction methods: stubborn sets, persistent and sleep sets, ample sets, and dynamic partial-order reduction",
+      "program_version": "Property-preserving schedule reduction methods for explicit-state and stateless model checking",
+      "program_split_status": "NEEDS_ALGORITHM_FAMILY_SPLIT",
+      "contributors": [
+        "Antti Valmari",
+        "Patrice Godefroid",
+        "Cormac Flanagan",
+        "Edmund M. Clarke",
+        "Orna Grumberg",
+        "Doron Peled"
+      ],
+      "primary_sources": [
+        {
+          "title": "Dynamic Partial-Order Reduction for Model Checking Software",
+          "url": "https://dl.acm.org/doi/10.1145/1040305.1040315"
+        },
+        {
+          "title": "The Inconsistent Labelling Problem of Stutter-Preserving Partial-Order Reduction",
+          "url": "https://arxiv.org/abs/1910.09829"
+        },
+        {
+          "title": "Stop It, and Be Stubborn!",
+          "url": "https://arxiv.org/abs/1504.02587"
+        },
+        {
+          "title": "Partial-Order Methods for the Verification of Concurrent Systems",
+          "url": "https://link.springer.com/book/10.1007/3-540-60761-7"
+        }
+      ],
+      "native": {
+        "primitives_and_dynamics": "A transition system or program executions, an independence or commutativity relation over transitions, an equivalence over schedules such as Mazurkiewicz traces, a target property class, and provisos controlling which representatives may be explored.",
+        "claims": "When the method-specific conditions hold, one can explore representatives of equivalent schedules while preserving the declared safety, reachability, linear-time, or stutter-sensitive properties.",
+        "strongest_actual_result": "Formal preservation theorems and often very large state-space reductions. Neele, Valmari, and Willemse also provide a counterexample to a long-used stutter-preservation argument and a corrected condition, demonstrating that soundness depends on exact labeling and provisos.",
+        "explicit_assumptions": [
+          "A correct independence or commutativity relation",
+          "A declared property class",
+          "Algorithm-specific cycle, visibility, labeling, or progress provisos"
+        ],
+        "scope_limits": [
+          "Worst-case systems may admit no meaningful reduction",
+          "Noncommuting or property-relevant schedules cannot be collapsed",
+          "A reduction proved for one property class does not automatically preserve another",
+          "Incorrect independence or labeling silently loses witnesses"
+        ]
+      },
+      "roles": [
+        "mathematical_tool"
+      ],
+      "joshua_crosswalk": {
+        "comparison_surface_ids": [
+          "admission_mss_and_purgatory",
+          "formal_tools_limits_and_falsifiers"
+        ],
+        "surface_aliases": [
+          "ratchet_purgatory"
+        ],
+        "what_it_offers_joshua": "A mature exact method for reducing redundant update schedules only after equivalence and preservation obligations are proved.",
+        "what_joshua_might_offer_hypothesis": "Joshua's behavioral quotients and retained negative witnesses might define a demand-relative independence relation that preserves Purgatory re-entry and order witnesses. This is unproved."
+      },
+      "decisive_comparison_or_kill_test": "On exact small noncommuting update systems, compare exhaustive schedule enumeration with each proposed reduction. Reject a reduction immediately if it loses any demanded endpoint, basin, N01 order witness, grouping witness, or contextual Purgatory re-offer path.",
+      "dossier_status": "UNRESOLVED",
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED"
+    },
+    {
+      "id": "post_quantum_classical_gravity",
+      "canonical_program": "Consistent classical-quantum dynamics applied to classical gravity coupled to quantum matter",
+      "program_version": "Oppenheim and collaborators' completely positive classical-quantum dynamics, decoherence-diffusion tradeoff, weak-field limit, and Nordstrom model through 2024",
+      "program_split_status": "PROVISIONAL_PROGRAM_VERSION",
+      "contributors": [
+        "Jonathan Oppenheim",
+        "Carlo Sparaciari",
+        "Barbara Soda",
+        "Zachary Weller-Davies",
+        "Isaac Layton",
+        "Andrea Russo"
+      ],
+      "primary_sources": [
+        {
+          "title": "A postquantum theory of classical gravity?",
+          "url": "https://arxiv.org/abs/1811.03116"
+        },
+        {
+          "title": "Gravitationally induced decoherence vs space-time diffusion: testing the quantum nature of gravity",
+          "url": "https://arxiv.org/abs/2203.01982"
+        },
+        {
+          "title": "The weak field limit of quantum matter back-reacting on classical spacetime",
+          "url": "https://arxiv.org/abs/2307.02557"
+        },
+        {
+          "title": "Diffeomorphism invariant classical-quantum path integrals for Nordstrom gravity",
+          "url": "https://arxiv.org/abs/2401.05514"
+        }
+      ],
+      "native": {
+        "primitives_and_dynamics": "Classical phase-space or spacetime variables coupled to a quantum density operator through linear, completely positive, trace-preserving classical-quantum master equations or path integrals. Consistency entails classical diffusion and quantum decoherence, with stochastic metric or time variables in concrete versions.",
+        "claims": "A classical gravitational sector can couple consistently to quantum matter if both sectors acquire stochastic effects; the decoherence and diffusion rates obey a testable tradeoff.",
+        "strongest_actual_result": "Mathematically consistent hybrid classes, a general decoherence-diffusion tradeoff, an explicit Newtonian weak-field limit, and a diffeomorphism-invariant Nordstrom-gravity example. Current experiments constrain parts of parameter space but do not confirm classical gravity.",
+        "explicit_assumptions": [
+          "A primitive classical-quantum split",
+          "Density operators and ordinary probability",
+          "Complete positivity, linearity, and trace preservation",
+          "Choice of diffusion and decoherence kernels"
+        ],
+        "scope_limits": [
+          "No empirical confirmation that gravity is classical",
+          "A full predictive Einstein-gravity model remains incomplete",
+          "Kernel choices and phenomenological parameters remain",
+          "Stochastic probability and time are primitive in the native formulation"
+        ]
+      },
+      "roles": [
+        "competitor",
+        "empirical_testbed",
+        "critic_falsifier"
+      ],
+      "joshua_crosswalk": {
+        "comparison_surface_ids": [
+          "probability_time_causality_and_order",
+          "spacetime_gravity_matter_and_cosmogenesis",
+          "finite_quantum_and_carrier_reconstruction"
+        ],
+        "surface_aliases": [
+          "cosmogenesis",
+          "carrier_tournament"
+        ],
+        "what_it_offers_joshua": "A concrete alternative to automatic quantization of gravity and a joint decoherence-plus-metric-diffusion experimental target.",
+        "what_joshua_might_offer_hypothesis": "An order-open finite carrier might derive the classical-quantum split or the tradeoff from weaker primitives. There is presently no such derivation."
+      },
+      "decisive_comparison_or_kill_test": "Use a common mesoscopic-mass packet and compare quantized gravity, semiclassical expectation-value gravity, Oppenheim classical-quantum dynamics, and Joshua's carrier on joint decoherence and metric diffusion. Reject the Joshua transplant if it produces no new constrained relationship or source-native dynamics is equally predictive with lower burden.",
+      "dossier_status": "UNRESOLVED",
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED"
+    },
+    {
+      "id": "priest_paraconsistency",
+      "canonical_program": "Priest's Logic of Paradox as a paraconsistent consequence relation, separated from dialetheism as the metaphysical thesis that some contradictions are true",
+      "program_version": "Logic of Paradox and Priest's dialetheist program",
+      "program_split_status": "NEEDS_SPLIT",
+      "contributors": [
+        "Graham Priest"
+      ],
+      "primary_sources": [
+        {
+          "title": "The Logic of Paradox",
+          "url": "https://doi.org/10.1007/BF00248298"
+        },
+        {
+          "title": "What Is So Bad About Contradictions?",
+          "url": "https://doi.org/10.2307/2564636"
+        },
+        {
+          "title": "In Contradiction: A Study of the Transconsistent",
+          "url": "https://global.oup.com/academic/product/in-contradiction-9780199263301"
+        }
+      ],
+      "native": {
+        "primitives_and_dynamics": "Logic of Paradox uses three semantic values corresponding to true only, false only, and both; true-only and both are designated. Consequence preserves designation, so explosion is invalid while many familiar inferences remain.",
+        "claims": "Inconsistent information can support a nontrivial consequence relation. Dialetheism adds the separate claim that at least some contradictions are genuinely true.",
+        "strongest_actual_result": "A precise semantics and proof-theoretic behavior for contradiction-tolerant inference. This establishes a formal tool; it does not by itself establish physically true contradictions.",
+        "explicit_assumptions": [
+          "A chosen nonclassical semantics and designated values",
+          "A consequence relation weaker than classical consequence in specified respects"
+        ],
+        "scope_limits": [
+          "Paraconsistency does not entail dialetheism",
+          "Avoiding explosion can preserve bad data or schema errors if provenance is ignored",
+          "Some classical inferences are unavailable or require restricted recovery",
+          "No empirical result establishes contradictions in nature"
+        ]
+      },
+      "roles": [
+        "critic_falsifier",
+        "mathematical_tool"
+      ],
+      "joshua_crosswalk": {
+        "comparison_surface_ids": [
+          "formal_tools_limits_and_falsifiers",
+          "admission_mss_and_purgatory"
+        ],
+        "surface_aliases": [
+          "ratchet_purgatory"
+        ],
+        "what_it_offers_joshua": "A formal way to retain conflicting packets without trivializing the entire knowledge base.",
+        "what_joshua_might_offer_hypothesis": "Immutable provenance, contextual Purgatory, and plural MSS packets might localize contradictions more sharply than a global nonclassical logic. This requires comparison."
+      },
+      "decisive_comparison_or_kill_test": "Inject controlled contradictions into Ratchet receipts and compare Logic of Paradox, provenance-separated classical reasoning, and belief revision on retained valid conclusions, error localization, and kill-gate integrity. Reject the LP transplant if it preserves no additional valid conclusion or hides a resolvable schema error.",
+      "dossier_status": "UNRESOLVED",
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED"
+    },
+    {
+      "id": "qca_weyl_dirac_maxwell",
+      "canonical_program": "The D'Ariano-Perinotti-Bisio-Tosini quantum cellular-automaton derivation of free Weyl, Dirac, and Maxwell dynamics",
+      "program_version": "Homogeneous, local, isotropic, unitary QCA on Cayley graphs with low-wavevector relativistic limits",
+      "program_split_status": "CONTRIBUTOR_AND_SCOPE_CORRECTION_REQUIRED",
+      "contributors": [
+        "Alessandro Bisio",
+        "Giacomo Mauro D'Ariano",
+        "Paolo Perinotti",
+        "Alessandro Tosini"
+      ],
+      "contributor_note": "Pablo Arrighi is a major QCA researcher but is not an author of the cited Weyl-Dirac-Maxwell derivation papers; the registry should not attribute this specific program to him without a separate source packet.",
+      "primary_sources": [
+        {
+          "title": "Free quantum field theory from quantum cellular automata: derivation of Weyl, Dirac and Maxwell quantum cellular automata",
+          "url": "https://arxiv.org/abs/1601.04832"
+        },
+        {
+          "title": "Weyl, Dirac and Maxwell Quantum Cellular Automata: analytical solutions and phenomenological predictions",
+          "url": "https://arxiv.org/abs/1601.04842"
+        },
+        {
+          "title": "Quantum cellular automata and free quantum field theory",
+          "url": "https://arxiv.org/abs/1608.02004"
+        },
+        {
+          "title": "Quantum Field as a quantum cellular automaton: the Dirac free evolution in one dimension",
+          "url": "https://arxiv.org/abs/1212.2839"
+        }
+      ],
+      "native": {
+        "primitives_and_dynamics": "A countable network or Cayley graph of finite-dimensional quantum systems with a discrete-time global linear unitary update. Homogeneity, locality, isotropy, and minimal internal dimension constrain the automaton; opposite chiralities are coupled for Dirac dynamics and bilinears are used for Maxwell dynamics.",
+        "claims": "For Abelian groups corresponding to emergent Euclidean space, the constrained automata yield Weyl, Dirac, and Maxwell free-field dynamics in the small-wavevector limit, without assuming Lorentz covariance as a primitive.",
+        "strongest_actual_result": "Classification and construction of the automata, controlled continuum-limit analysis, and an exact discrimination-error bound for the one-dimensional Dirac automaton versus continuum Dirac evolution.",
+        "explicit_assumptions": [
+          "Quantum finite-dimensional local systems",
+          "Linearity and unitarity",
+          "Discrete global time",
+          "Locality, homogeneity, isotropy, and minimality",
+          "Abelian group for the Euclidean-space derivation"
+        ],
+        "scope_limits": [
+          "Predominantly free-field results",
+          "Interacting QFT and gravity remain open",
+          "Planck-scale identification is heuristic",
+          "No experimental detection of the modified dispersion",
+          "Associativity and Hilbert structure are installed rather than earned"
+        ]
+      },
+      "roles": [
+        "competitor",
+        "donor",
+        "mathematical_tool"
+      ],
+      "joshua_crosswalk": {
+        "comparison_surface_ids": [
+          "finite_quantum_and_carrier_reconstruction",
+          "qit_engines_and_recursive_construction",
+          "nested_entropic_geometry_flux_and_chirality",
+          "spacetime_gravity_matter_and_cosmogenesis"
+        ],
+        "surface_aliases": [
+          "carrier_tournament",
+          "qit_engines",
+          "nonassoc_branch",
+          "entropic_geometry",
+          "cosmogenesis"
+        ],
+        "what_it_offers_joshua": "An exact finite chiral dynamics, explicit continuum recovery, and a sharper competitor than generic discrete-physics rhetoric.",
+        "what_joshua_might_offer_hypothesis": "The Ratchet might reopen and test the installed Hilbert, unitarity, locality, isotropy, and associativity assumptions and possibly derive interacting or nonassociative alternatives. None is yet shown."
+      },
+      "decisive_comparison_or_kill_test": "Reproduce the exact finite automaton, chirality coupling, dispersion, and continuum discrimination bound, then enter it into the carrier tournament against associative and nonassociative Joshua branches under equal budgets. Reject Joshua's branch if the native QCA is weaker, exact, and equally predictive.",
+      "dossier_status": "UNRESOLVED",
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED"
+    },
+    {
+      "id": "quantum_foundations_without_wavefunction",
+      "canonical_program": "Barandes's stochastic-quantum correspondence and stochastic-quantum theorem",
+      "program_version": "Indivisible stochastic processes and their unitary Hilbert-space correspondence, arXiv versions current through February 2026",
+      "program_split_status": "PROVISIONAL_PROGRAM_VERSION",
+      "contributors": [
+        "Jacob A. Barandes"
+      ],
+      "primary_sources": [
+        {
+          "title": "The Stochastic-Quantum Correspondence",
+          "url": "https://arxiv.org/abs/2302.10778"
+        },
+        {
+          "title": "The Stochastic-Quantum Theorem",
+          "url": "https://arxiv.org/abs/2309.03085"
+        },
+        {
+          "title": "Quantum Systems as Indivisible Stochastic Processes",
+          "url": "https://arxiv.org/abs/2507.21192"
+        }
+      ],
+      "native": {
+        "primitives_and_dynamics": "Configuration-space states, ordinary probabilities, and generalized indivisible stochastic transition dynamics, including non-Markovian processes. A Hilbert space and unitary evolution provide a corresponding representation or dilation.",
+        "claims": "Every indivisible stochastic process corresponds to a unitarily evolving quantum system; quantum systems can therefore be formulated without a fundamental wavefunction, with complex Hilbert structure and the Born rule appearing in the correspondence.",
+        "strongest_actual_result": "An explicit mathematical correspondence and theorem embedding the defined stochastic class in unitary quantum dynamics. This is a representation result, not empirical evidence that the stochastic ontology is uniquely correct.",
+        "explicit_assumptions": [
+          "Primitive configurations, probabilities, and temporal transition laws",
+          "Indivisibility or non-Markovian generalized stochastic structure",
+          "A suitable Hilbert-space dilation for the correspondence"
+        ],
+        "scope_limits": [
+          "Operational equivalence underdetermines ontology",
+          "Stochastic lifts and dilations may be nonunique or use latent degrees of freedom",
+          "Locality, contextuality, composition, and minimal latent dimension need packet-level tests",
+          "No new empirical prediction is yet established by the correspondence alone"
+        ]
+      },
+      "roles": [
+        "competitor",
+        "donor"
+      ],
+      "joshua_crosswalk": {
+        "comparison_surface_ids": [
+          "finite_quantum_and_carrier_reconstruction",
+          "probability_time_causality_and_order",
+          "root_and_least_presumption"
+        ],
+        "surface_aliases": [
+          "carrier_tournament"
+        ],
+        "what_it_offers_joshua": "A concrete wavefunction-secondary reconstruction, exact maps between stochastic and Hilbert descriptions, and a finite-friendly competitor.",
+        "what_joshua_might_offer_hypothesis": "Joshua's MSS and carrier tournament might choose among nonunique stochastic lifts or derive a representation with fewer latent states. This is untested."
+      },
+      "decisive_comparison_or_kill_test": "Use small finite instruments covering interference, contextuality, Bell correlations, and temporal composition. Compare native stochastic, standard CPTP, and Joshua carriers by exact predictions, minimal latent dimension, locality, and compositionality. Reject Joshua's transplant if it yields no weaker representation or new discriminator.",
+      "dossier_status": "UNRESOLVED",
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED"
+    },
+    {
+      "id": "schreiber_higher_geometry",
+      "canonical_program": "Cohesive higher geometry and differential nonabelian cohomology for higher gauge fields, prequantization, and brane charges",
+      "program_version": "Cohesive infinity-topos and higher-gauge program, with applications through the June 2026 preprint",
+      "program_split_status": "NEEDS_MATHEMATICS_PHYSICS_SPLIT",
+      "contributors": [
+        "Urs Schreiber",
+        "Hisham Sati",
+        "paper-specific collaborators"
+      ],
+      "primary_sources": [
+        {
+          "title": "Differential cohomology in a cohesive infinity-topos",
+          "url": "https://arxiv.org/abs/1310.7930"
+        },
+        {
+          "title": "Lie n-algebras of BPS charges",
+          "url": "https://arxiv.org/abs/1507.08692"
+        },
+        {
+          "title": "Higher Gauge Theory via Differential Nonabelian Cohomology",
+          "url": "https://arxiv.org/abs/2606.12534"
+        }
+      ],
+      "native": {
+        "primitives_and_dynamics": "Cohesive infinity-toposes, higher groupoids and moduli stacks, differential nonabelian cohomology, higher principal bundles with connections, higher Chern-Weil maps, and extended geometric prequantization.",
+        "claims": "These structures classify and globally refine higher gauge fields and charges, organize higher Chern-Simons and Wess-Zumino-Witten systems, and provide mathematical models for specified brane and supergravity sectors.",
+        "strongest_actual_result": "Unified mathematical classification and construction theorems, including higher bundles with connection, prequantization maps, Lie n-algebras of currents and BPS charges, and cohomological charge refinements.",
+        "explicit_assumptions": [
+          "A chosen cohesive infinity-topos or model",
+          "Higher categorical and homotopical machinery",
+          "Differential cohomology theory and specified physical background for applications"
+        ],
+        "scope_limits": [
+          "The framework is not a finite executable ontology",
+          "Physical conclusions are often conditional on string, brane, or supergravity structures",
+          "The large categorical machinery is installed",
+          "The June 2026 overview is a recent preprint, not independent empirical evidence"
+        ]
+      },
+      "roles": [
+        "mathematical_tool",
+        "donor",
+        "competitor"
+      ],
+      "joshua_crosswalk": {
+        "comparison_surface_ids": [
+          "nested_entropic_geometry_flux_and_chirality",
+          "qit_engines_and_recursive_construction",
+          "spacetime_gravity_matter_and_cosmogenesis",
+          "formal_tools_limits_and_falsifiers"
+        ],
+        "surface_aliases": [
+          "entropic_geometry",
+          "qit_engines",
+          "cosmogenesis"
+        ],
+        "what_it_offers_joshua": "Exact gluing, gauge, holonomy, charge, defect, and higher-composition tools that Joshua currently lacks.",
+        "what_joshua_might_offer_hypothesis": "A finite carrier and packet-relative MSS might recover selected higher-geometric invariants with lower foundational burden. That compression has not been demonstrated."
+      },
+      "decisive_comparison_or_kill_test": "Choose a bounded gauge or defect problem and compute the same holonomy, charge, gluing, and anomaly invariants using source-native differential cocycles and Joshua's finite carrier. Reject Joshua's replacement if it cannot reconstruct the invariants or only renames higher geometry.",
+      "dossier_status": "UNRESOLVED",
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED"
+    },
+    {
+      "id": "sloan_wilson_multilevel_selection",
+      "canonical_program": "Multilevel selection theory with explicit within-group and between-group selection components",
+      "program_version": "David Sloan Wilson's trait-group and multilevel-selection program, including later vehicle and nested-hierarchy formulations",
+      "program_split_status": "PROVISIONAL_PROGRAM_VERSION",
+      "contributors": [
+        "David Sloan Wilson",
+        "Elliott Sober",
+        "Edward O. Wilson",
+        "William M. Muir for the cited experimental testbed"
+      ],
+      "primary_sources": [
+        {
+          "title": "A Theory of Group Selection",
+          "url": "https://www.pnas.org/doi/10.1073/pnas.72.1.143"
+        },
+        {
+          "title": "Reintroducing group selection to the human behavioral sciences",
+          "url": "https://doi.org/10.1017/S0140525X00036104"
+        },
+        {
+          "title": "Rethinking the Theoretical Foundation of Sociobiology",
+          "url": "https://www.journals.uchicago.edu/doi/10.1086/522809"
+        },
+        {
+          "title": "Group selection for adaptation to multiple-hen cages: selection program and direct responses",
+          "url": "https://doi.org/10.3382/ps.0750447"
+        }
+      ],
+      "native": {
+        "primitives_and_dynamics": "Individuals nested in groups, heritable traits, fitness or reproductive success, dispersal and group formation, and a decomposition of change into within-group and between-group components using contextual or Price-equation-style accounting.",
+        "claims": "Group-level adaptation can evolve when differential success between groups outweighs countervailing selection within groups; natural selection can operate across nested levels.",
+        "strongest_actual_result": "Exact selection accounting and experimental artificial group selection, including hen lines selected on group performance that changed productivity and damaging social behavior. Such results show group-level selection can work; they do not make every group a causal individual.",
+        "explicit_assumptions": [
+          "A specified grouping or population partition",
+          "Fitness and heredity mappings",
+          "Generational or temporal update rules",
+          "A decomposition convention"
+        ],
+        "scope_limits": [
+          "Alternative kin-selection and multilevel descriptions can be mathematically transformable",
+          "A variance decomposition alone does not identify the causal unit",
+          "Results depend on group boundaries and life cycle",
+          "Human cultural extrapolations require separate evidence"
+        ]
+      },
+      "roles": [
+        "donor",
+        "empirical_testbed",
+        "critic_falsifier"
+      ],
+      "joshua_crosswalk": {
+        "comparison_surface_ids": [
+          "object_individual_boundary_and_observer",
+          "life_evolution_agency_and_origins",
+          "plural_attractors_and_universality"
+        ],
+        "surface_aliases": [
+          "cross_view_bridge",
+          "attractor_mss"
+        ],
+        "what_it_offers_joshua": "A mature formal and experimental testbed for competing units of individuality and selection across scales.",
+        "what_joshua_might_offer_hypothesis": "Cross-view perturbation and predictive quotients might discover group boundaries instead of stipulating them and distinguish integrated organization from common-driver aliases. This is untested."
+      },
+      "decisive_comparison_or_kill_test": "Use synthetic and biological datasets with alternative partitions and common-driver controls. Compare multilevel selection, inclusive-fitness descriptions, contextual analysis, and Joshua boundary discovery on held-out prediction and intervention. Reject Joshua if its units are unstable or add no predictive value; reject a group-level causal attribution if arbitrary repartitioning changes the story without changing predictions.",
+      "dossier_status": "UNRESOLVED",
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED"
+    },
+    {
+      "id": "spekkens_epistemic_restriction",
+      "canonical_program": "Spekkens's toy theory and the broader family of epistemically restricted or epistricted classical statistical theories",
+      "program_version": "Knowledge-balance toy theory and symplectic classical-complementarity generalization",
+      "program_split_status": "PROVISIONAL_PROGRAM_VERSION",
+      "contributors": [
+        "Robert W. Spekkens"
+      ],
+      "primary_sources": [
+        {
+          "title": "In defense of the epistemic view of quantum states: a toy theory",
+          "url": "https://arxiv.org/abs/quant-ph/0401052"
+        },
+        {
+          "title": "Quasi-quantization: classical statistical theories with an epistemic restriction",
+          "url": "https://arxiv.org/abs/1409.5041"
+        }
+      ],
+      "native": {
+        "primitives_and_dynamics": "A classical ontic state space, probability distributions constrained by a knowledge-balance or symplectic epistemic restriction, and allowed preparations, transformations, and measurements that preserve the restriction.",
+        "claims": "A large family of phenomena commonly treated as uniquely quantum can arise from classical statistical theories with restricted knowledge, motivating a distinction between weakly and strongly nonclassical phenomena.",
+        "strongest_actual_result": "A constructive counterexample: the toy theory reproduces analogues of interference, measurement noncommutativity, no-cloning, teleportation, steering, and many other quantum-information phenomena without a quantum ontic state.",
+        "explicit_assumptions": [
+          "Underlying classical ontic states",
+          "Ordinary probability",
+          "A fundamental epistemic restriction",
+          "Restricted transformation and measurement sets"
+        ],
+        "scope_limits": [
+          "The original toy theory does not reproduce Bell-inequality violations",
+          "It lacks the Kochen-Specker contextuality structure of full quantum theory",
+          "Epistricted theories generally cover only a subset or distortion of full quantum preparations and operations",
+          "It is explicitly a toy and quasi-quantization program, not a completed ontology"
+        ]
+      },
+      "roles": [
+        "competitor",
+        "critic_falsifier",
+        "donor"
+      ],
+      "joshua_crosswalk": {
+        "comparison_surface_ids": [
+          "finite_quantum_and_carrier_reconstruction",
+          "probability_time_causality_and_order"
+        ],
+        "surface_aliases": [
+          "carrier_tournament"
+        ],
+        "what_it_offers_joshua": "A mandatory weaker baseline showing that many apparently quantum signatures do not force Hilbert-space ontology.",
+        "what_joshua_might_offer_hypothesis": "The carrier tournament and nonassociative branch might identify the minimal extra structure required for Bell and contextuality phenomena beyond epistricted theories. No such minimal derivation is yet established."
+      },
+      "decisive_comparison_or_kill_test": "Run exact stabilizer-like, interference, Bell, and contextuality packets. Require Joshua to identify and ablate the minimal added structure beyond the native toy theory. Reject the transplant if adding order or nonassociativity does not recover beyond-toy phenomena with lower burden than standard quantum theory.",
+      "dossier_status": "UNRESOLVED",
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED"
+    },
+    {
+      "id": "tegmark_mathematical_universe",
+      "canonical_program": "The Mathematical Universe Hypothesis and its earlier ultimate-ensemble formulation",
+      "program_version": "Tegmark's 1997 ultimate ensemble and 2007 Mathematical Universe papers",
+      "program_split_status": "NEEDS_SPLIT_FROM_PHYSICS_OF_INTELLIGENCE",
+      "contributors": [
+        "Max Tegmark"
+      ],
+      "primary_sources": [
+        {
+          "title": "Is the theory of everything merely the ultimate ensemble theory?",
+          "url": "https://arxiv.org/abs/gr-qc/9704009"
+        },
+        {
+          "title": "The Mathematical Universe",
+          "url": "https://arxiv.org/abs/0704.0646"
+        }
+      ],
+      "native": {
+        "primitives_and_dynamics": "The External Reality Hypothesis, mathematical structures, an ensemble or Level-IV plurality of structures, self-aware substructures, and a measure or observer-selection rule needed for probabilistic predictions. The later computable-universe restriction narrows the ensemble.",
+        "claims": "A complete description of observer-independent reality is a mathematical structure, and all mathematical structures, or a computable subset, have physical existence. Observers condition what is experienced within the ensemble.",
+        "strongest_actual_result": "A philosophical unification argument and an explicit statement of where probabilistic observational tests would have to enter. There is no unique confirmed empirical prediction of the Mathematical Universe Hypothesis itself.",
+        "explicit_assumptions": [
+          "External Reality Hypothesis",
+          "Identification of complete physical description with mathematical structure",
+          "Physical existence of an ensemble of structures",
+          "A measure and self-aware-substructure selection scheme",
+          "Optionally, computability or decidability restrictions"
+        ],
+        "scope_limits": [
+          "The inference from external reality to the Mathematical Universe is contested",
+          "The measure and typicality problem is unresolved",
+          "Observer reference and identity are not derived",
+          "Computability restrictions may conflict with successful continuous formalisms",
+          "The program currently lacks a discriminatory empirical success"
+        ]
+      },
+      "roles": [
+        "competitor",
+        "critic_falsifier",
+        "evidence_limited_claimant"
+      ],
+      "joshua_crosswalk": {
+        "comparison_surface_ids": [
+          "root_and_least_presumption",
+          "spacetime_gravity_matter_and_cosmogenesis",
+          "fep_perception_consciousness_and_holodeck"
+        ],
+        "surface_aliases": [
+          "cosmogenesis",
+          "holodeck_fep"
+        ],
+        "what_it_offers_joshua": "A maximal structural-realist adversary and a warning that mathematical existence, physical existence, and observer-conditioned prediction must be separated.",
+        "what_joshua_might_offer_hypothesis": "A Ratchet-selected finite carrier might replace unrestricted plenitude with earned structures and an explicit observer quotient. This is a rival hypothesis, not a repair already achieved."
+      },
+      "decisive_comparison_or_kill_test": "Construct a finite enumerated universe ensemble with an explicit measure and observer-selection rule and compare its calibrated predictions and compression with ordinary model selection and a Ratchet-selected carrier. Reject the Mathematical Universe contribution if the measure is arbitrary or adds no prediction; reject Joshua's alternative if it merely selects by hidden prior.",
+      "dossier_status": "UNRESOLVED",
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED"
+    },
+    {
+      "id": "wolfram_multiway_physics",
+      "canonical_program": "Wolfram-model hypergraph rewriting, multiway evolution, causal and branchial graphs, causal invariance, and observer-relative coarse graining",
+      "program_version": "The 2020 technical introduction, Gorard's continuum-limit program, and associated multiway rewriting software",
+      "program_split_status": "NEEDS_FORMALISM_PHYSICAL_INTERPRETATION_SPLIT",
+      "contributors": [
+        "Stephen Wolfram",
+        "Jonathan Gorard",
+        "Manojna Namuduri",
+        "Xerxes D. Arsiwalla",
+        "software contributors"
+      ],
+      "primary_sources": [
+        {
+          "title": "A Class of Models with the Potential to Represent Fundamental Physics",
+          "url": "https://www.wolframphysics.org/technical-introduction/"
+        },
+        {
+          "title": "Some Relativistic and Gravitational Properties of the Wolfram Model",
+          "url": "https://arxiv.org/abs/2004.14810"
+        },
+        {
+          "title": "ZX-Calculus and Extended Hypergraph Rewriting Systems I",
+          "url": "https://arxiv.org/abs/2010.02752"
+        },
+        {
+          "title": "HypergraphRewritingEngine source repository",
+          "url": "https://github.com/WolframInstitute/HypergraphRewritingEngine"
+        },
+        {
+          "title": "SetReplace source repository",
+          "url": "https://github.com/maxitg/SetReplace"
+        }
+      ],
+      "native": {
+        "primitives_and_dynamics": "Ordered hyperedges or set systems, local replacement rules, all admissible update events, a multiway graph of rewrite outcomes, event-dependency graphs called causal graphs, branchial graphs, causal invariance or confluence conditions, and computationally bounded observers.",
+        "claims": "Simple rewriting systems may yield emergent geometry, relativistic covariance, gravity-like continuum behavior, and quantum-like branchial structure when strong conditions such as causal invariance and suitable limiting dimensionality hold.",
+        "strongest_actual_result": "An executable finite rewriting formalism; exact small-system enumeration; mathematical continuum-limit derivations conditional on causal invariance and dimensional assumptions; and formal embeddings of ZX-calculus rewriting into multiway systems.",
+        "explicit_assumptions": [
+          "A hypergraph or set-replacement carrier",
+          "Forward rewrite events and an update grammar",
+          "Structural canonicalization and event identity rules",
+          "Causal invariance or confluence for key continuum claims",
+          "Observer equivalence and computational boundedness",
+          "Suitable dimensional and continuum limits"
+        ],
+        "scope_limits": [
+          "No unique fundamental rule has been empirically selected",
+          "No distinctive confirmed prediction establishes the physical interpretation",
+          "General relativity and quantum recovery claims are conditional on strong limiting assumptions",
+          "Event dependency is promoted to causal language rather than independently deriving primitive causation",
+          "The standard carrier uses classical set or hypergraph structure, canonicalization, and associative rewrite composition",
+          "Nonassociative carriers and rival history weights are not native defaults"
+        ]
+      },
+      "roles": [
+        "competitor",
+        "donor",
+        "mathematical_tool"
+      ],
+      "joshua_crosswalk": {
+        "comparison_surface_ids": [
+          "admission_mss_and_purgatory",
+          "probability_time_causality_and_order",
+          "finite_quantum_and_carrier_reconstruction",
+          "plural_attractors_and_universality",
+          "spacetime_gravity_matter_and_cosmogenesis",
+          "formal_tools_limits_and_falsifiers"
+        ],
+        "surface_aliases": [
+          "ratchet_purgatory",
+          "carrier_tournament",
+          "attractor_mss",
+          "nonassoc_branch",
+          "cosmogenesis"
+        ],
+        "what_it_offers_joshua": "A mature executable rewrite and multiway toolkit, exact enumeration, confluence tests, observer questions, and concrete continuum-limit claims to attack.",
+        "what_joshua_might_offer_hypothesis": "Demand-relative behavioral quotients, dependency-versus-causality controls, rival history weights, contextual re-entry, and a nonassociative carrier branch might expose which Wolfram assumptions are load-bearing. None is yet a demonstrated improvement.",
+        "causality_note": "The native causal graph is constructed from dependency among rewrite events. Treating that dependency order as fundamental metaphysical causality is an additional interpretive step and is the direct comparison point with Joshua's refusal to install primitive causality."
+      },
+      "decisive_comparison_or_kill_test": "Pin a source commit and preregister exact small rewrite rules. Compare native SetReplace or HypergraphRewritingEngine outputs with Joshua behavioral quotients, order-open lanes, rival history weights, and nonassociative branches on held-out reconstruction and intervention tasks. Reject the Joshua transplant if it adds no prediction, compression, or error localization; reject the physical claim if continuum invariants depend materially on arbitrary update, observer, or canonicalization choices.",
+      "dossier_status": "UNRESOLVED",
+      "ranking_eligible": false,
+      "rank_state": "UNRANKED"
+    }
+  ]
+}
