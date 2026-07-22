@@ -112,3 +112,17 @@ Lev already has `lev.claim.v1` and a non-final `lev.done` handoff to `await_clai
 ## Next executable gate
 
 Port the same whole-state candidate, frozen probes, and controls independently to Julia, JAX, and PyTorch; repair any disagreement before promoting the result. Then add the Hopf/Weyl, information-geometric, exceptional-algebra, and Holodeck/FEP candidates one at a time as load-bearing additions or alternative nesting diagrams, each with full re-settlement and deletion controls.
+
+
+## Exact four-mechanism repository interrogation
+
+| Mechanism | Repository-backed answer | Standing |
+|---|---|---|
+| Partial-order arbitration | The July 22 slice retains a plural, non-scalar NumPy Pareto frontier over five SBS/structure coordinates. It does **not** implement the proposed \((\Sigma_\tau,\Delta H(R),\Delta\kappa)\) frontier in Julia, JAX, and PyTorch. | Executed calibration; requested tri-engine lane absent. |
+| 64-to-16 settlement | \(H_{native}\), \(H_{select}\), \(H_{all4}\), and \(H_{mix}\) all ran on the same carrier and remain mutually incomparable. This is not exhaustive \(4^{16}\) enumeration and does not derive a unique 64→16 selector. Four candidates at sixteen placements give \(4^{16}\), not \(8^{16}\). | Executed bounded comparison; selector theorem absent. |
+| Quantum-instrument extraction | A complete two-outcome projective instrument emits probabilities, conditional states, and per-stage record distributions. Per-outcome Choi states, immutable task/input bindings, and receipt-compiled renesting \(P_{e,k}(x,y)\) are absent. | Partial executed seam. |
+| Inverse-limit topological closure | The engines still execute ordered noncommuting channels. A separate non-TP \(2^{16}\)-history control and finite \(\mathbb Z_5\) obstruction/renesting test run; no atemporal inverse-limit relaxation solver for \(Z(b)=\sum_h\prod_\alpha\psi_\alpha(h_\alpha)\) exists. | Ordered implementation is repository fact; atemporal solver is a candidate. |
+
+The owner’s noncausal ontology does not imply that numerical stage order may be erased. The same source also requires nesting order to change function and every stage and loop to do unique work. An eventual atemporal whole-history settlement must therefore preserve the ordered noncommuting operator products within each history and compare them under common probes.
+
+The remaining Gemini seams are explicitly BUILD or COMPARE, not winners: contextual receipt-indexed Purgatory, rebuildable demand-relative archive quotients, Choi-complete instrument feedback, and a typed thermodynamic Pareto lane.
